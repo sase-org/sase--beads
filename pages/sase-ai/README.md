@@ -16,7 +16,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ai.1](sase-ai.1.md) | Bead page address contract and hosted bead URLs | ✓ closed | small | 1 | 1 |
-| [sase-ai.10](sase-ai.10.md) | Publish every project's bead pages | ◐ in_progress | small | 1 | 0 |
+| [sase-ai.10](sase-ai.10.md) | Publish every project's bead pages | ✓ closed | small | 1 | 1 |
 | [sase-ai.2](sase-ai.2.md) | SASE\_BEAD commit tag replaces the headline parenthetical | ✓ closed | medium | 1 | 1 |
 | [sase-ai.3](sase-ai.3.md) | Derived bead association index | ✓ closed | medium | 1 | 1 |
 | [sase-ai.4](sase-ai.4.md) | Bead page rendering | ✓ closed | medium | 1 | 1 |
@@ -32,7 +32,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 flowchart TD
     n0["sase-ai: Published bead pages and the SASE_BEAD commit tag [claimed]"]
     n1["sase-ai.1: Bead page address contract and hosted bead URLs [closed]"]
-    n2["sase-ai.10: Publish every project's bead pages [in_progress]"]
+    n2["sase-ai.10: Publish every project's bead pages [closed]"]
     n3["sase-ai.2: SASE_BEAD commit tag replaces the headline parenthetical [closed]"]
     n4["sase-ai.3: Derived bead association index [closed]"]
     n5["sase-ai.4: Bead page rendering [closed]"]
@@ -71,7 +71,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ai.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.1/README.md) | [sase-ai.1](sase-ai.1.md) | 1 |
-| [bbugyi200.athena.sase-ai.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.10/README.md) | [sase-ai.10](sase-ai.10.md) | 0 |
+| [bbugyi200.athena.sase-ai.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.10/README.md) | [sase-ai.10](sase-ai.10.md) | 1 |
 | [bbugyi200.athena.sase-ai.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.2/README.md) | [sase-ai.2](sase-ai.2.md) | 1 |
 | [bbugyi200.athena.sase-ai.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.3/README.md) | [sase-ai.3](sase-ai.3.md) | 1 |
 | [bbugyi200.athena.sase-ai.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.4/README.md) | [sase-ai.4](sase-ai.4.md) | 1 |
@@ -95,3 +95,4 @@ flowchart TD
 | [`b645718`](https://github.com/sase-org/sase/commit/b6457189ccceea2aa2c2df2b78362fabe307ca51) | feat: publish bead lineage after commits (sase-ai.5) | [sase-ai.5](sase-ai.5.md) | 2026-07-28 19:50:42 |
 | [`4b9e313`](https://github.com/sase-org/sase/commit/4b9e3131ae6f5c5f219e7a471fa80d8dd194d2fd) | feat(beads): add bead page refresh commands | [sase-ai.7](sase-ai.7.md) | 2026-07-28 20:22:39 |
 | [`88a317a`](https://github.com/sase-org/sase/commit/88a317a87684772c5c9384ee6f8a8f9a53ad21ae) | feat(bead): show hosted page URLs in bead detail | [sase-ai.9](sase-ai.9.md) | 2026-07-28 21:06:02 |
+| [`ee2bb5e`](https://github.com/sase-org/sase/commit/ee2bb5eee4d0ca76c5cd1d5087abae5269a0b3e3) | perf(bead-pages): precompute refresh relationship details | [sase-ai.10](sase-ai.10.md) | 2026-07-28 21:41:49 |

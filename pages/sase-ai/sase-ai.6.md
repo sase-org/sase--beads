@@ -18,7 +18,7 @@ conflicts: teach the bead conflict resolver that generated pages are regenerable
 ## Dependencies
 
 - **Depends on:** [sase-ai.1](sase-ai.1.md) ✓
-- **Blocks:** [sase-ai.10](sase-ai.10.md) ◐
+- **Blocks:** [sase-ai.10](sase-ai.10.md) ✓
 
 ## Agents
 
