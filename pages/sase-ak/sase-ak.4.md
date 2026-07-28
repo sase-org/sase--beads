@@ -14,7 +14,7 @@ unresolvable-wait-surface: give already-parked reserved-tribe waits a distinct "
 ## Dependencies
 
 - **Depends on:** [sase-ak.1](sase-ak.1.md) ✓
-- **Depends on:** [sase-ak.3](sase-ak.3.md) ◐
+- **Depends on:** [sase-ak.3](sase-ak.3.md) ✓
 
 ## Agents
 

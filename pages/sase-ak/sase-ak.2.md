@@ -17,10 +17,16 @@ tribe-wait-binding: extract the `tribe_candidate` ordering and aggregation rules
 
 ## Dependencies
 
-- **Blocks:** [sase-ak.3](sase-ak.3.md) ◐
+- **Blocks:** [sase-ak.3](sase-ak.3.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ak.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ak.2/README.md) | [sase-ak.2](sase-ak.2.md) | 0 |
+| [bbugyi200.athena.sase-ak.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ak.2/README.md) | [sase-ak.2](sase-ak.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`21e7527`](https://github.com/sase-org/sase/commit/21e75272f628e4ce84bfe55453f2cb5fe55950e4) | feat: add snapshot-driven tribe wait binding resolver | [sase-ak.2](sase-ak.2.md) | 2026-07-28 21:23:44 |
