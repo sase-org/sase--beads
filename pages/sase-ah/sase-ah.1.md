@@ -10,3 +10,15 @@
 ## Description
 
 target-resolution: resolve the post-commit publication target by matching the commit's repository path against the repo inventory (including workspace clones) so sidecar and linked-repo commits publish to the host project, and stop the auxiliary publication step from failing a commit that already landed.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ah.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.1/README.md) | [sase-ah.1](sase-ah.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`4fc555d`](https://github.com/sase-org/sase/commit/4fc555db0a6b86ccd1f5437c49fdfa668495e169) | fix(commit): resolve publication targets by repository path (sase-ah.1) | [sase-ah.1](sase-ah.1.md) | 2026-07-28 18:38:03 |

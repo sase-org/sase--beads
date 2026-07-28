@@ -18,3 +18,15 @@ terminal-disposition: add a durable terminal disposition to the publication outb
 ## Dependencies
 
 - **Blocks:** [sase-ah.3](sase-ah.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ah.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.2/README.md) | [sase-ah.2](sase-ah.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`d8afeb7`](https://github.com/sase-org/sase/commit/d8afeb7b0c0331c24d9bdcf7a4c78679020c9548) | fix(agents-sync): retire terminal publication requests (sase-ah.2) | [sase-ah.2](sase-ah.2.md) | 2026-07-28 18:47:14 |
