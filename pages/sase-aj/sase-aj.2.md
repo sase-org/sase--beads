@@ -14,7 +14,7 @@ quiet: teach every Python bead-mutation caller to skip the commit and push entir
 ## Dependencies
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
-- **Blocks:** [sase-aj.3](sase-aj.3.md) ◐
+- **Blocks:** [sase-aj.3](sase-aj.3.md) ✓
 
 ## Agents
 
