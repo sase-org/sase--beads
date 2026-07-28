@@ -15,12 +15,12 @@ Cut routine beads-sidecar commit volume by making one logical operation produce 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-aj.1](sase-aj.1.md) | Idempotent claim mutations and epic-capable batch preclaim in Rust core | ✓ closed | medium | 1 | 1 |
-| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ◐ in_progress | medium | 0 | 0 |
-| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ◎ claimed | large | 0 | 0 |
-| [sase-aj.4](sase-aj.4.md) | Deterministic bead projection output | ✓ closed | medium | 1 | 1 |
-| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ◐ in_progress | medium | 0 | 0 |
-| [sase-aj.6](sase-aj.6.md) | One beads commit per agent commit | ◎ claimed | medium | 0 | 0 |
+| [sase-aj.1](sase-aj.1.md) | Idempotent claim mutations and epic-capable batch preclaim in Rust core | ✓ closed | medium | 1 | 0 |
+| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ◐ in_progress | medium | 1 | 0 |
+| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ◎ claimed | large | 1 | 0 |
+| [sase-aj.4](sase-aj.4.md) | Deterministic bead projection output | ✓ closed | medium | 1 | 0 |
+| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ◐ in_progress | medium | 1 | 0 |
+| [sase-aj.6](sase-aj.6.md) | One beads commit per agent commit | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-aj.3: Single-commit epic launch in sase bead work [claimed]"]
     n4["sase-aj.4: Deterministic bead projection output [closed]"]
     n5["sase-aj.5: Close-with-note in one mutation and one commit [in_progress]"]
-    n6["sase-aj.6: One beads commit per agent commit [claimed]"]
+    n6["sase-aj.6: One beads commit per agent commit [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,12 +50,16 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aj.1 | [sase-aj.1](sase-aj.1.md) | 1 |
-| bbugyi200.athena.sase-aj.4 | [sase-aj.4](sase-aj.4.md) | 1 |
+| [bbugyi200.athena.sase-aj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.1/README.md) | [sase-aj.1](sase-aj.1.md) | 0 |
+| [bbugyi200.athena.sase-aj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.2/README.md) | [sase-aj.2](sase-aj.2.md) | 0 |
+| [bbugyi200.athena.sase-aj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.3/README.md) | [sase-aj.3](sase-aj.3.md) | 0 |
+| [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |
+| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 0 |
+| [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
+| [bbugyi200.athena.sase-aj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.land/README.md) | [sase-aj](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`00d7ebf`](https://github.com/sase-org/sase-core/commit/00d7ebf10b1044c0800feed59c17ca12d7174452) | feat(beads): add epic-aware idempotent preclaims | [sase-aj.1](sase-aj.1.md) | 2026-07-28 20:36:00 |
-| [`112a645`](https://github.com/sase-org/sase-core/commit/112a6450f45ee39893b2708dad49c1e137993196) | fix(beads): stabilize regenerated projection ordering | [sase-aj.4](sase-aj.4.md) | 2026-07-28 20:48:36 |
+| [`e1e86f2`](https://github.com/sase-org/sase/commit/e1e86f276f86192fe469c8a121054d1c4ce93546) | fix(beads): consolidate post-commit sidecar sync | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:52:43 |

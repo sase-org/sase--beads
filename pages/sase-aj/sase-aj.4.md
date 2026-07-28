@@ -23,10 +23,4 @@ detproj: make `issues.jsonl` and every other regenerated projection byte-stable 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aj.4 | [sase-aj.4](sase-aj.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`112a645`](https://github.com/sase-org/sase-core/commit/112a6450f45ee39893b2708dad49c1e137993196) | fix(beads): stabilize regenerated projection ordering | [sase-aj.4](sase-aj.4.md) | 2026-07-28 20:48:36 |
+| [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |

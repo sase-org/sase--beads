@@ -2,11 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-aj](README.md) / sase-aj.6
 
-**Status:** ◎ claimed · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-aj.6` · **Size:** medium
-**Created:** 2026-07-28 20:21:56 UTC
+**Created:** 2026-07-28 20:21:56 UTC · **Closed:** 2026-07-28 20:51:00 UTC
 **Plan:** [202607/beads\_commit\_consolidation.md](https://github.com/sase-org/sase--plans/blob/main/202607/beads_commit_consolidation.md)
 
 ## Description
 
 postcommit: fold the commit finalizer's bead-state sync commit and the bead-pages publication commit into a single beads-repo commit per agent commit, and keep finalizer retry passes from re-committing when nothing changed.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`e1e86f2`](https://github.com/sase-org/sase/commit/e1e86f276f86192fe469c8a121054d1c4ce93546) | fix(beads): consolidate post-commit sidecar sync | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:52:43 |

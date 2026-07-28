@@ -14,3 +14,9 @@ closenote: add a `--note` option to `sase bead close` that appends an attributed
 ## Dependencies
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 0 |
