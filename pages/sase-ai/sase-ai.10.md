@@ -15,7 +15,7 @@ rollout: run the bulk refresh against every enabled project, verify the publishe
 
 - **Depends on:** [sase-ai.6](sase-ai.6.md) ✓
 - **Depends on:** [sase-ai.7](sase-ai.7.md) ✓
-- **Depends on:** [sase-ai.9](sase-ai.9.md) ◎
+- **Depends on:** [sase-ai.9](sase-ai.9.md) ✓
 
 ## Agents
 

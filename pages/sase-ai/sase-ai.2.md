@@ -18,7 +18,7 @@ tag: stop appending ` (<bead_id>)` to commit and PR headlines and write a linked
 ## Dependencies
 
 - **Depends on:** [sase-ai.1](sase-ai.1.md) ✓
-- **Blocks:** [sase-ai.9](sase-ai.9.md) ◎
+- **Blocks:** [sase-ai.9](sase-ai.9.md) ✓
 
 ## Agents
 

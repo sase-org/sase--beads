@@ -24,7 +24,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 | [sase-ai.6](sase-ai.6.md) | Regenerable-page conflict class | ✓ closed | small | 1 | 1 |
 | [sase-ai.7](sase-ai.7.md) | Bulk refresh command and lineage roster | ✓ closed | medium | 1 | 1 |
 | [sase-ai.8](sase-ai.8.md) | Reciprocal BEAD bullet in the plan header block | ✓ closed | medium | 1 | 1 |
-| [sase-ai.9](sase-ai.9.md) | Documentation and discoverability surfaces | ◎ claimed | small | 1 | 0 |
+| [sase-ai.9](sase-ai.9.md) | Documentation and discoverability surfaces | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n7["sase-ai.6: Regenerable-page conflict class [closed]"]
     n8["sase-ai.7: Bulk refresh command and lineage roster [closed]"]
     n9["sase-ai.8: Reciprocal BEAD bullet in the plan header block [closed]"]
-    n10["sase-ai.9: Documentation and discoverability surfaces [claimed]"]
+    n10["sase-ai.9: Documentation and discoverability surfaces [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ai.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.6/README.md) | [sase-ai.6](sase-ai.6.md) | 1 |
 | [bbugyi200.athena.sase-ai.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.7/README.md) | [sase-ai.7](sase-ai.7.md) | 1 |
 | [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 1 |
-| [bbugyi200.athena.sase-ai.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.9/README.md) | [sase-ai.9](sase-ai.9.md) | 0 |
+| [bbugyi200.athena.sase-ai.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.9/README.md) | [sase-ai.9](sase-ai.9.md) | 1 |
 | [bbugyi200.athena.sase-ai.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.land/README.md) | [sase-ai](README.md) | 0 |
 
 ## Commits
@@ -94,3 +94,4 @@ flowchart TD
 | [`6e15f0d`](https://github.com/sase-org/sase/commit/6e15f0dc06c87b9f09241f675f81057d4975a70b) | feat(bead-pages): render deterministic bead pages (sase-ai.4) | [sase-ai.4](sase-ai.4.md) | 2026-07-28 19:32:06 |
 | [`b645718`](https://github.com/sase-org/sase/commit/b6457189ccceea2aa2c2df2b78362fabe307ca51) | feat: publish bead lineage after commits (sase-ai.5) | [sase-ai.5](sase-ai.5.md) | 2026-07-28 19:50:42 |
 | [`4b9e313`](https://github.com/sase-org/sase/commit/4b9e3131ae6f5c5f219e7a471fa80d8dd194d2fd) | feat(beads): add bead page refresh commands | [sase-ai.7](sase-ai.7.md) | 2026-07-28 20:22:39 |
+| [`88a317a`](https://github.com/sase-org/sase/commit/88a317a87684772c5c9384ee6f8a8f9a53ad21ae) | feat(bead): show hosted page URLs in bead detail | [sase-ai.9](sase-ai.9.md) | 2026-07-28 21:06:02 |
