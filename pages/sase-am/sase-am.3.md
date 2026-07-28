@@ -20,7 +20,7 @@ lane-consolidation: merge the three perf-floor jobs into one, delete the redunda
 ## Dependencies
 
 - **Depends on:** [sase-am.2](sase-am.2.md) ✓
-- **Blocks:** [sase-am.4](sase-am.4.md) ◎
+- **Blocks:** [sase-am.4](sase-am.4.md) ✓
 
 ## Agents
 
