@@ -24,4 +24,10 @@ unresolvable-wait-surface: give already-parked reserved-tribe waits a distinct "
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ak.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ak.4/README.md) | [sase-ak.4](sase-ak.4.md) | 0 |
+| [bbugyi200.athena.sase-ak.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ak.4/README.md) | [sase-ak.4](sase-ak.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`641229f`](https://github.com/sase-org/sase/commit/641229f896b6c59ecf1e1c596b2159e7ef7c6294) | fix(ace): surface unresolvable tribe waits | [sase-ak.4](sase-ak.4.md) | 2026-07-28 22:13:23 |
