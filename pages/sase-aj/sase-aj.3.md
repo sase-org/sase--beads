@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [sase-aj](README.md) / sase-aj.3
 
-**Status:** ◎ claimed · **Type:** phase
+**Status:** ◐ in_progress · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-aj.3` · **Size:** large
 **Created:** 2026-07-28 20:21:39 UTC
 **Plan:** [202607/beads\_commit\_consolidation.md](https://github.com/sase-org/sase--plans/blob/main/202607/beads_commit_consolidation.md)
@@ -14,10 +14,11 @@ launch: batch-preclaim every launched phase bead and the epic bead inside the ex
 ## Dependencies
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
-- **Depends on:** [sase-aj.2](sase-aj.2.md) ◐
+- **Depends on:** [sase-aj.2](sase-aj.2.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-aj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.3/README.md) | [sase-aj.3](sase-aj.3.md) | 0 |
+| [bbugyi200.athena.sase-aj.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-code) | [sase-aj.3](sase-aj.3.md) | 0 |
+| [bbugyi200.athena.sase-aj.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-plan) | [sase-aj.3](sase-aj.3.md) | 0 |

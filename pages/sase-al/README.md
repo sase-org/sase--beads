@@ -15,8 +15,8 @@ sase-core master CI and sase master CI are both fully green: the clippy lints fr
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-al.1](sase-al.1.md) | Fix sase-core clippy lints and release 0.12.5 | ✓ closed | small | 1 | 1 |
-| [sase-al.2](sase-al.2.md) | Bump the sase published-core minimum to 0.12.5 | ◎ claimed | small | 0 | 0 |
+| [sase-al.1](sase-al.1.md) | Fix sase-core clippy lints and release 0.12.5 | ✓ closed | small | 1 | 0 |
+| [sase-al.2](sase-al.2.md) | Bump the sase published-core minimum to 0.12.5 | ◎ claimed | small | 1 | 0 |
 
 ## Lineage
 
@@ -34,10 +34,6 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-al.1 | [sase-al.1](sase-al.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`461c7f1`](https://github.com/sase-org/sase-core/commit/461c7f1b410c1c3a979ef7fbc21a64db30451a91) | fix(beads): resolve clippy lints in close-note support | [sase-al.1](sase-al.1.md) | 2026-07-28 21:46:19 |
+| [bbugyi200.athena.sase-al.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.1/README.md) | [sase-al.1](sase-al.1.md) | 0 |
+| [bbugyi200.athena.sase-al.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.2/README.md) | [sase-al.2](sase-al.2.md) | 0 |
+| [bbugyi200.athena.sase-al.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.land/README.md) | [sase-al](README.md) | 0 |

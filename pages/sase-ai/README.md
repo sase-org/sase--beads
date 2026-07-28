@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-ai
 
-**Status:** ◎ claimed · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.land`
-**Created:** 2026-07-28 18:22:24 UTC
+**Created:** 2026-07-28 18:22:24 UTC · **Closed:** 2026-07-28 22:20:43 UTC
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
 ## Description
 
 Every bead that a SASE agent commits against has a beautiful, self-healing GitHub page in the project's `--beads` sidecar that links out to its plan, its agents, its commits, and its related beads, and every commit reaches it through a `SASE_BEAD` footer tag instead of a parenthetical bolted onto the headline.
+
+## Notes
+
+[2026-07-28T22:20:43Z · sase-ai.land] Verified all 10 phases against source and the epic's commits: the bead_pages package (paths, links, associations, rendering, publication, refresh, roster); apply_bead_commit_tag writing a linked SASE_BEAD footer with the subject byte-identical and enforce_bead_id_in_message fully removed; the regenerable pages/ conflict class in bead/conflict_resolver.py; 'sase bead pages refresh|url'; the BEAD plan-header section at wire schema v2; docs, the sidecar-beads README template, and 'sase bead show' PAGE output. Rollout confirmed: 337 lineages plus the roster published to sase--beads, and actstat/bob-cli each refreshed (0 beads). Spot-checked the legacy-parenthetical association source against sase-ag's 7 commits and agents - all attributed correctly, including a family member linked by anchor. Integration since epic start: sase-aj.6 already folded bead-state and page writes into one locked sidecar commit, and the commit-workflow module split preserved the publication step; no duplication or conflict found. Found and fixed one link-policy defect: refresh_bead_plan_section linked every bead named in plan frontmatter through the purely lexical bead_url, so the 61 plans carrying pre-migration bead IDs would have published 404 links. Added resolve_bead_page_target and known_bead_ids_for_store so a BEAD bullet links only when the bead exists in the store, degrades to an unlinked label when it does not, keeps the link when the store cannot be read, and reuses one store read across a tree refresh. Then ran the backfill the planlink phase promised but never executed: 536 plans updated, 518 now carry a BEAD bullet (457 linked, 61 correctly unlinked), and every linked page resolves except the still-open sase-am epic's unpublished page. just check: all code gates green (fmt, keep-sorted, ruff, mypy, pyscripts, symvision, toobig); 1019 focused tests pass. Its remaining failures are pre-existing and owned by other epics: sase_beads provider-skill drift from sase-aj.5, and missing prompt links for the sase-am and sase-al plans.
 
 ## Phases
 
@@ -30,7 +34,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 
 ```mermaid
 flowchart TD
-    n0["sase-ai: Published bead pages and the SASE_BEAD commit tag [claimed]"]
+    n0["sase-ai: Published bead pages and the SASE_BEAD commit tag [closed]"]
     n1["sase-ai.1: Bead page address contract and hosted bead URLs [closed]"]
     n2["sase-ai.10: Publish every project's bead pages [closed]"]
     n3["sase-ai.2: SASE_BEAD commit tag replaces the headline parenthetical [closed]"]

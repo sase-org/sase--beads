@@ -16,10 +16,10 @@ Cut routine beads-sidecar commit volume by making one logical operation produce 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-aj.1](sase-aj.1.md) | Idempotent claim mutations and epic-capable batch preclaim in Rust core | ✓ closed | medium | 1 | 0 |
-| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ◐ in_progress | medium | 1 | 1 |
-| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ◎ claimed | large | 1 | 0 |
+| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ✓ closed | medium | 1 | 1 |
+| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ◐ in_progress | large | 2 | 0 |
 | [sase-aj.4](sase-aj.4.md) | Deterministic bead projection output | ✓ closed | medium | 1 | 0 |
-| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ✓ closed | medium | 1 | 0 |
+| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ✓ closed | medium | 1 | 1 |
 | [sase-aj.6](sase-aj.6.md) | One beads commit per agent commit | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
@@ -28,8 +28,8 @@ Cut routine beads-sidecar commit volume by making one logical operation produce 
 flowchart TD
     n0["sase-aj: Consolidate beads sidecar commits [claimed]"]
     n1["sase-aj.1: Idempotent claim mutations and epic-capable batch preclaim in Rust core [closed]"]
-    n2["sase-aj.2: Skip commits and pushes on no-op bead mutations and batch the claim chop [in_progress]"]
-    n3["sase-aj.3: Single-commit epic launch in sase bead work [claimed]"]
+    n2["sase-aj.2: Skip commits and pushes on no-op bead mutations and batch the claim chop [closed]"]
+    n3["sase-aj.3: Single-commit epic launch in sase bead work [in_progress]"]
     n4["sase-aj.4: Deterministic bead projection output [closed]"]
     n5["sase-aj.5: Close-with-note in one mutation and one commit [closed]"]
     n6["sase-aj.6: One beads commit per agent commit [closed]"]
@@ -52,9 +52,10 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-aj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.1/README.md) | [sase-aj.1](sase-aj.1.md) | 0 |
 | [bbugyi200.athena.sase-aj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.2/README.md) | [sase-aj.2](sase-aj.2.md) | 1 |
-| [bbugyi200.athena.sase-aj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.3/README.md) | [sase-aj.3](sase-aj.3.md) | 0 |
+| [bbugyi200.athena.sase-aj.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-code) | [sase-aj.3](sase-aj.3.md) | 0 |
+| [bbugyi200.athena.sase-aj.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-plan) | [sase-aj.3](sase-aj.3.md) | 0 |
 | [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |
-| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 0 |
+| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 1 |
 | [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
 | [bbugyi200.athena.sase-aj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.land/README.md) | [sase-aj](README.md) | 0 |
 
@@ -64,3 +65,4 @@ flowchart TD
 |---|---|---|---|
 | [`e1e86f2`](https://github.com/sase-org/sase/commit/e1e86f276f86192fe469c8a121054d1c4ce93546) | fix(beads): consolidate post-commit sidecar sync | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:52:43 |
 | [`aae07cf`](https://github.com/sase-org/sase/commit/aae07cfee19c92b1134447604a13b1a8cc37d623) | fix(beads): skip commits for no-op mutations | [sase-aj.2](sase-aj.2.md) | 2026-07-28 21:04:15 |
+| [`c1272d1`](https://github.com/sase-org/sase/commit/c1272d19d702892d26240b50e8b518a3c142a300) | feat(beads): close with verification notes | [sase-aj.5](sase-aj.5.md) | 2026-07-28 21:09:40 |

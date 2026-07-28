@@ -311,9 +311,11 @@ Generated pages for every bead lineage in this project.
 | [sase-af](sase-af/README.md) | Lane-level runner-slot gating for AXE lumberjacks | plan | epic | closed | 3 | 3 | 3 |
 | [sase-ag](sase-ag/README.md) | Plan-file provenance header block | plan | epic | closed | 6 | 7 | 7 |
 | [sase-ah](sase-ah/README.md) | Make post-commit agent publication survive sidecar commits and unpublishable hoods | plan | epic | closed | 3 | 5 | 5 |
-| [sase-ai](sase-ai/README.md) | Published bead pages and the SASE\_BEAD commit tag | plan | epic | claimed | 10 | 11 | 9 |
-| [sase-aj](sase-aj/README.md) | Consolidate beads sidecar commits | plan | epic | claimed | 6 | 7 | 2 |
-| [sase-ak](sase-ak/README.md) | Validate and display %wait agent-tribe references correctly | plan | epic | claimed | 4 | 5 | 0 |
+| [sase-ai](sase-ai/README.md) | Published bead pages and the SASE\_BEAD commit tag | plan | epic | closed | 10 | 11 | 10 |
+| [sase-aj](sase-aj/README.md) | Consolidate beads sidecar commits | plan | epic | claimed | 6 | 8 | 3 |
+| [sase-ak](sase-ak/README.md) | Validate and display %wait agent-tribe references correctly | plan | epic | in_progress | 4 | 5 | 2 |
+| [sase-al](sase-al/README.md) | Fix GitHub Actions failures (sase-core clippy + published-core minimum) | plan | epic | claimed | 2 | 3 | 0 |
+| [sase-am](sase-am/README.md) | CI flakiness redesign | plan | epic | claimed | 4 | 5 | 0 |
 | [sase-b](sase-b/README.md) | Integrate ccommit into unified commit workflows | plan | epic | closed | 5 | 0 | 2 |
 | [sase-c](sase-c/README.md) | VCS-agnostic abandon\_change hook | plan | epic | closed | 4 | 0 | 1 |
 | [sase-d](sase-d/README.md) | Prometheus Telemetry Integration | plan | epic | closed | 8 | 0 | 8 |

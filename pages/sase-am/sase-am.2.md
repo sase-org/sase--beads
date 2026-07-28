@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [sase-am](README.md) / sase-am.2
 
-**Status:** ◎ claimed · **Type:** phase
+**Status:** ◐ in_progress · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-am.2` · **Size:** medium
 **Created:** 2026-07-28 22:05:55 UTC
 **Plan:** [202607/ci\_flakiness\_redesign.md](https://github.com/sase-org/sase--plans/blob/main/202607/ci_flakiness_redesign.md)

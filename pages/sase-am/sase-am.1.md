@@ -17,16 +17,10 @@ ci-signal-restore: stop cancelling in-flight master runs, skip CI on the release
 
 ## Dependencies
 
-- **Blocks:** [sase-am.2](sase-am.2.md) ◎
+- **Blocks:** [sase-am.2](sase-am.2.md) ◐
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-am.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.1/README.md) | [sase-am.1](sase-am.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`4d55dab`](https://github.com/sase-org/sase/commit/4d55dabc17152d033c195fcebdf21df4e16b2170) | ci: restore completed-run signal and unbreak lint | [sase-am.1](sase-am.1.md) | 2026-07-28 22:17:35 |
+| [bbugyi200.athena.sase-am.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.1/README.md) | [sase-am.1](sase-am.1.md) | 0 |

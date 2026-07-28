@@ -17,8 +17,8 @@ core: make runtime claim/close/update mutations quiet no-ops when they would not
 
 ## Dependencies
 
-- **Blocks:** [sase-aj.2](sase-aj.2.md) ◐
-- **Blocks:** [sase-aj.3](sase-aj.3.md) ◎
+- **Blocks:** [sase-aj.2](sase-aj.2.md) ✓
+- **Blocks:** [sase-aj.3](sase-aj.3.md) ◐
 - **Blocks:** [sase-aj.4](sase-aj.4.md) ✓
 - **Blocks:** [sase-aj.5](sase-aj.5.md) ✓
 

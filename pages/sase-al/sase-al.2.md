@@ -14,3 +14,9 @@ bump-published-core-minimum: raise the sase-core-rs floor in pyproject.toml to 0
 ## Dependencies
 
 - **Depends on:** [sase-al.1](sase-al.1.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-al.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.2/README.md) | [sase-al.2](sase-al.2.md) | 0 |
