@@ -13,7 +13,7 @@ reserved-tribe-guard: add a canonical reserved-tribe concept to core and reject 
 
 ## Dependencies
 
-- **Blocks:** [sase-ak.4](sase-ak.4.md) ◎
+- **Blocks:** [sase-ak.4](sase-ak.4.md) ✓
 
 ## Agents
 
