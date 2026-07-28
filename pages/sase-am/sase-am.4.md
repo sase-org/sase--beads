@@ -13,7 +13,7 @@ config-driven-sidecars: replace the hand-written sidecar checkouts and sdd-store
 
 ## Dependencies
 
-- **Depends on:** [sase-am.3](sase-am.3.md) ◎
+- **Depends on:** [sase-am.3](sase-am.3.md) ✓
 
 ## Agents
 

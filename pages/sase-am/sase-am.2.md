@@ -20,7 +20,7 @@ core-wheel-once: add a build-core root job that builds one abi3 sase_core_rs whe
 ## Dependencies
 
 - **Depends on:** [sase-am.1](sase-am.1.md) ✓
-- **Blocks:** [sase-am.3](sase-am.3.md) ◎
+- **Blocks:** [sase-am.3](sase-am.3.md) ✓
 
 ## Agents
 
