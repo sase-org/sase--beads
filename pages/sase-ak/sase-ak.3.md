@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [sase-ak](README.md) / sase-ak.3
 
-**Status:** ◎ claimed · **Type:** phase
+**Status:** ◐ in_progress · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ak.3` · **Size:** medium
 **Created:** 2026-07-28 21:05:33 UTC
 **Plan:** [202607/tribe\_wait\_reference\_validation\_and\_display.md](https://github.com/sase-org/sase--plans/blob/main/202607/tribe_wait_reference_validation_and_display.md)

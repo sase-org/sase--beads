@@ -18,3 +18,9 @@ detproj: make `issues.jsonl` and every other regenerated projection byte-stable 
 ## Dependencies
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |

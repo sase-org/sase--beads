@@ -16,7 +16,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ai.1](sase-ai.1.md) | Bead page address contract and hosted bead URLs | ✓ closed | small | 1 | 1 |
-| [sase-ai.10](sase-ai.10.md) | Publish every project's bead pages | ◎ claimed | small | 1 | 0 |
+| [sase-ai.10](sase-ai.10.md) | Publish every project's bead pages | ◐ in_progress | small | 1 | 0 |
 | [sase-ai.2](sase-ai.2.md) | SASE\_BEAD commit tag replaces the headline parenthetical | ✓ closed | medium | 1 | 1 |
 | [sase-ai.3](sase-ai.3.md) | Derived bead association index | ✓ closed | medium | 1 | 1 |
 | [sase-ai.4](sase-ai.4.md) | Bead page rendering | ✓ closed | medium | 1 | 1 |
@@ -32,7 +32,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 flowchart TD
     n0["sase-ai: Published bead pages and the SASE_BEAD commit tag [claimed]"]
     n1["sase-ai.1: Bead page address contract and hosted bead URLs [closed]"]
-    n2["sase-ai.10: Publish every project's bead pages [claimed]"]
+    n2["sase-ai.10: Publish every project's bead pages [in_progress]"]
     n3["sase-ai.2: SASE_BEAD commit tag replaces the headline parenthetical [closed]"]
     n4["sase-ai.3: Derived bead association index [closed]"]
     n5["sase-ai.4: Bead page rendering [closed]"]

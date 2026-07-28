@@ -1,0 +1,19 @@
+# Bead: sase-3i.5 — Phase 5: Bound ACE Notification Startup
+
+[Bead Pages](../README.md) / [sase-3i](README.md) / sase-3i.5
+
+**Status:** ✓ closed · **Resolution:** (unrecorded) · **Type:** phase
+**Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-3i.5`
+**Created:** 2026-05-14 20:01:27 UTC · **Closed:** 2026-05-15 17:52:32 UTC
+**Plan:** [202605/blazing\_fast\_ace\_daemon.md](https://github.com/sase-org/sase--plans/blob/main/202605/blazing_fast_ace_daemon.md)
+
+## Dependencies
+
+- **Depends on:** [sase-3i.3](sase-3i.3.md) ✓
+- **Blocks:** [sase-3i.6](sase-3i.6.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`2f27d18`](https://github.com/sase-org/sase/commit/2f27d18f4f1b092b02c03cecc59e3e708cac969d) | fix: bound ACE notification startup reads (sase-3i.5) | [sase-3i.5](sase-3i.5.md) | 2026-05-14 20:59:23 |

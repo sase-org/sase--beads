@@ -23,11 +23,4 @@ closenote: add a `--note` option to `sase bead close` that appends an attributed
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aj.5 | [sase-aj.5](sase-aj.5.md) | 2 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`8b92645`](https://github.com/sase-org/sase--beads/commit/8b92645f339831a55d6ed30c34ced475201851df) | chore(beads): refresh compatibility projection | [sase-aj.5](sase-aj.5.md) | 2026-07-28 21:11:39 |
-| [`b7c52a4`](https://github.com/sase-org/sase--beads/commit/b7c52a4cc2e840edbfdc19edab343e5c791d98db) | chore(beads): refresh compatibility projection | [sase-aj.5](sase-aj.5.md) | 2026-07-28 21:13:45 |
+| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 0 |

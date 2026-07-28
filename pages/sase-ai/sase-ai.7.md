@@ -13,7 +13,7 @@ reconcile: add `sase bead pages refresh` and `sase bead pages url`, and let the 
 
 ## Dependencies
 
-- **Blocks:** [sase-ai.10](sase-ai.10.md) ◎
+- **Blocks:** [sase-ai.10](sase-ai.10.md) ◐
 - **Depends on:** [sase-ai.5](sase-ai.5.md) ✓
 - **Blocks:** [sase-ai.9](sase-ai.9.md) ✓
 

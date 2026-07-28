@@ -15,10 +15,10 @@ postcommit: fold the commit finalizer's bead-state sync commit and the bead-page
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aj.6 | [sase-aj.6](sase-aj.6.md) | 1 |
+| [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`c3c70cf`](https://github.com/sase-org/sase--beads/commit/c3c70cf298422c92b70c37756deea59f06ebab7f) | chore(beads): refresh closed phase projection | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:57:38 |
+| [`e1e86f2`](https://github.com/sase-org/sase/commit/e1e86f276f86192fe469c8a121054d1c4ce93546) | fix(beads): consolidate post-commit sidecar sync | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:52:43 |

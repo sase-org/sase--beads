@@ -17,7 +17,7 @@ docs: update the generated beads sidecar README, the commit-workflow and bead do
 
 ## Dependencies
 
-- **Blocks:** [sase-ai.10](sase-ai.10.md) ◎
+- **Blocks:** [sase-ai.10](sase-ai.10.md) ◐
 - **Depends on:** [sase-ai.2](sase-ai.2.md) ✓
 - **Depends on:** [sase-ai.7](sase-ai.7.md) ✓
 
