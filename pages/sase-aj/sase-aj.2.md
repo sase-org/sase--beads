@@ -20,10 +20,10 @@ quiet: teach every Python bead-mutation caller to skip the commit and push entir
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aj.2 | [sase-aj.2](sase-aj.2.md) | 1 |
+| [bbugyi200.athena.sase-aj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.2/README.md) | [sase-aj.2](sase-aj.2.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`2329216`](https://github.com/sase-org/sase-core/commit/232921647fc9a4a12ecba4fdb4cb0ba95011e63a) | fix(beads): expose mutation changes in CLI summaries | [sase-aj.2](sase-aj.2.md) | 2026-07-28 21:03:03 |
+| [`aae07cf`](https://github.com/sase-org/sase/commit/aae07cfee19c92b1134447604a13b1a8cc37d623) | fix(beads): skip commits for no-op mutations | [sase-aj.2](sase-aj.2.md) | 2026-07-28 21:04:15 |

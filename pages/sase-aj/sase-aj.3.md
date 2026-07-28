@@ -15,3 +15,9 @@ launch: batch-preclaim every launched phase bead and the epic bead inside the ex
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
 - **Depends on:** [sase-aj.2](sase-aj.2.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.3/README.md) | [sase-aj.3](sase-aj.3.md) | 0 |
