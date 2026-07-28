@@ -13,7 +13,7 @@ ace-tribe-wait-display: stop classifying tribe wait targets as missing agent nam
 
 ## Dependencies
 
-- **Depends on:** [sase-ak.2](sase-ak.2.md) ◐
+- **Depends on:** [sase-ak.2](sase-ak.2.md) ✓
 - **Blocks:** [sase-ak.4](sase-ak.4.md) ◎
 
 ## Agents
