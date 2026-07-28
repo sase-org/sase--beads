@@ -14,15 +14,3 @@ unpublishable-surface: expose retired requests through `sase agent sync`, `sase 
 ## Dependencies
 
 - **Depends on:** [sase-ah.2](sase-ah.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ah.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.3/README.md) | [sase-ah.3](sase-ah.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`ee5938a`](https://github.com/sase-org/sase/commit/ee5938a20b9a42b247a73601c2accc3d5d984504) | feat(agents-sync): surface retired publication requests to operators (sase-ah.3) | [sase-ah.3](sase-ah.3.md) | 2026-07-28 19:22:12 |
