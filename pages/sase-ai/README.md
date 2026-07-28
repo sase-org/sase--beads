@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ai.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.7/README.md) | [sase-ai.7](sase-ai.7.md) | 1 |
 | [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 1 |
 | [bbugyi200.athena.sase-ai.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.9/README.md) | [sase-ai.9](sase-ai.9.md) | 1 |
-| [bbugyi200.athena.sase-ai.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.land/README.md) | [sase-ai](README.md) | 0 |
+| [bbugyi200.athena.sase-ai.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.land/README.md) | [sase-ai](README.md) | 1 |
 
 ## Commits
 
@@ -100,3 +100,4 @@ flowchart TD
 | [`4b9e313`](https://github.com/sase-org/sase/commit/4b9e3131ae6f5c5f219e7a471fa80d8dd194d2fd) | feat(beads): add bead page refresh commands | [sase-ai.7](sase-ai.7.md) | 2026-07-28 20:22:39 |
 | [`88a317a`](https://github.com/sase-org/sase/commit/88a317a87684772c5c9384ee6f8a8f9a53ad21ae) | feat(bead): show hosted page URLs in bead detail | [sase-ai.9](sase-ai.9.md) | 2026-07-28 21:06:02 |
 | [`ee2bb5e`](https://github.com/sase-org/sase/commit/ee2bb5eee4d0ca76c5cd1d5087abae5269a0b3e3) | perf(bead-pages): precompute refresh relationship details | [sase-ai.10](sase-ai.10.md) | 2026-07-28 21:41:49 |
+| [`48edca8`](https://github.com/sase-org/sase/commit/48edca8c449d805ba9c1bc9f3df7f2301e8d4977) | fix(bead-pages): link plan BEAD bullets only to pages that exist | [sase-ai](README.md) | 2026-07-28 22:23:22 |
