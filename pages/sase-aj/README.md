@@ -19,12 +19,12 @@ Cut routine beads-sidecar commit volume by making one logical operation produce 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-aj.1](sase-aj.1.md) | Idempotent claim mutations and epic-capable batch preclaim in Rust core | ✓ closed | medium | 1 | 0 |
-| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ✓ closed | medium | 1 | 1 |
-| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ✓ closed | large | 2 | 1 |
-| [sase-aj.4](sase-aj.4.md) | Deterministic bead projection output | ✓ closed | medium | 1 | 0 |
-| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ✓ closed | medium | 1 | 1 |
-| [sase-aj.6](sase-aj.6.md) | One beads commit per agent commit | ✓ closed | medium | 1 | 1 |
+| [sase-aj.1](sase-aj.1.md) | Idempotent claim mutations and epic-capable batch preclaim in Rust core | ✓ closed | medium | 0 | 0 |
+| [sase-aj.2](sase-aj.2.md) | Skip commits and pushes on no-op bead mutations and batch the claim chop | ✓ closed | medium | 0 | 0 |
+| [sase-aj.3](sase-aj.3.md) | Single-commit epic launch in sase bead work | ✓ closed | large | 0 | 0 |
+| [sase-aj.4](sase-aj.4.md) | Deterministic bead projection output | ✓ closed | medium | 0 | 0 |
+| [sase-aj.5](sase-aj.5.md) | Close-with-note in one mutation and one commit | ✓ closed | medium | 0 | 0 |
+| [sase-aj.6](sase-aj.6.md) | One beads commit per agent commit | ✓ closed | medium | 0 | 0 |
 
 ## Lineage
 
@@ -54,21 +54,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-aj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.1/README.md) | [sase-aj.1](sase-aj.1.md) | 0 |
-| [bbugyi200.athena.sase-aj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.2/README.md) | [sase-aj.2](sase-aj.2.md) | 1 |
-| [bbugyi200.athena.sase-aj.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-code) | [sase-aj.3](sase-aj.3.md) | 1 |
-| [bbugyi200.athena.sase-aj.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-aj.3.md#member-plan) | [sase-aj.3](sase-aj.3.md) | 0 |
-| [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |
-| [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 1 |
-| [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
-| [bbugyi200.athena.sase-aj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.land/README.md) | [sase-aj](README.md) | 1 |
+| bbugyi200.athena.sase-aj.land | [sase-aj](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`e1e86f2`](https://github.com/sase-org/sase/commit/e1e86f276f86192fe469c8a121054d1c4ce93546) | fix(beads): consolidate post-commit sidecar sync | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:52:43 |
-| [`aae07cf`](https://github.com/sase-org/sase/commit/aae07cfee19c92b1134447604a13b1a8cc37d623) | fix(beads): skip commits for no-op mutations | [sase-aj.2](sase-aj.2.md) | 2026-07-28 21:04:15 |
-| [`c1272d1`](https://github.com/sase-org/sase/commit/c1272d19d702892d26240b50e8b518a3c142a300) | feat(beads): close with verification notes | [sase-aj.5](sase-aj.5.md) | 2026-07-28 21:09:40 |
-| [`1943e18`](https://github.com/sase-org/sase/commit/1943e18a74f5f2ca3731dd051e68837574ea1c1e) | feat(beads): preassign epic work before launch | [sase-aj.3](sase-aj.3.md) | 2026-07-28 22:30:42 |
-| [`4f08f4f`](https://github.com/sase-org/sase/commit/4f08f4f1b1cbbc9221017ac14f67cad5bf938446) | fix(beads): land the sidecar commit-consolidation epic | [sase-aj](README.md) | 2026-07-28 23:33:38 |
+| [`0d3c515`](https://github.com/sase-org/sase--plans/commit/0d3c515dbdc79b15b38401a82e69d1e1e1c37c93) | Complete SDD plan for beads\_commit\_consolidation | [sase-aj](README.md) | 2026-07-28 23:34:44 |

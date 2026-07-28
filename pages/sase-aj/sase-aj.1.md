@@ -21,9 +21,3 @@ core: make runtime claim/close/update mutations quiet no-ops when they would not
 - **Blocks:** [sase-aj.3](sase-aj.3.md) ✓
 - **Blocks:** [sase-aj.4](sase-aj.4.md) ✓
 - **Blocks:** [sase-aj.5](sase-aj.5.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-aj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.1/README.md) | [sase-aj.1](sase-aj.1.md) | 0 |
