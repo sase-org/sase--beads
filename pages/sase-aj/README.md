@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-aj
 
-**Status:** ◎ claimed · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-aj.land`
-**Created:** 2026-07-28 20:21:28 UTC
+**Created:** 2026-07-28 20:21:28 UTC · **Closed:** 2026-07-28 23:30:16 UTC
 **Plan:** [202607/beads\_commit\_consolidation.md](https://github.com/sase-org/sase--plans/blob/main/202607/beads_commit_consolidation.md)
 
 ## Description
 
 Cut routine beads-sidecar commit volume by making one logical operation produce one commit and one push: `sase bead work` batch-marks every launched bead in-progress in a single pre-spawn commit, runtime claim transitions become quiet no-ops, close-with-note lands in one command, projections serialize deterministically so clones stop committing pure-reorder echoes, and each agent `sase commit` writes at most one beads commit. Every `sase bead` subcommand keeps committing and pushing by default.
+
+## Notes
+
+[2026-07-28T23:30:16Z · sase-aj.land] Verified all six phases against source and commits: core idempotence + epic-inclusive preclaim (sase-core 00d7ebf), deterministic projection ordering (112a645), quiet no-op commits (aae07cfee), atomic close --note (e098a1a + c1272d19d), one beads commit per agent commit (e1e86f276), single-commit epic launch (1943e18a7); sase-core 0.12.5 carries every core change. The beads sidecar history confirms the note+close and pages+state consolidations are live. Integration since epic start: the postcommit consolidation survived the commit-workflow module split (2c77fbecd); the bead-pages perf and plan-link changes do not conflict. Landed the remaining epic work: raised the published sase-core-rs floor to 0.12.5 (close --note and the extended preclaim require those bindings) with uv.lock and the smoke guard; fixed the phase-worker prompt that still promised a wait-time claimed state; documented close --note in docs/beads.md and docs/configuration.md; gated the ACE plans-view bead update on mutation_changed, the last unguarded Python bead-mutation caller, with a regression test; removed the orphaned commit_bead_work_launch helper. just check passes every lint stage including symvision; full suite 23298 passed, 7 skipped. Remaining validate failures are external to this epic: undeployed chezmoi generated skills and two other epics' plan/prompt link pairs.
 
 ## Phases
 
@@ -26,7 +30,7 @@ Cut routine beads-sidecar commit volume by making one logical operation produce 
 
 ```mermaid
 flowchart TD
-    n0["sase-aj: Consolidate beads sidecar commits [claimed]"]
+    n0["sase-aj: Consolidate beads sidecar commits [closed]"]
     n1["sase-aj.1: Idempotent claim mutations and epic-capable batch preclaim in Rust core [closed]"]
     n2["sase-aj.2: Skip commits and pushes on no-op bead mutations and batch the claim chop [closed]"]
     n3["sase-aj.3: Single-commit epic launch in sase bead work [closed]"]
@@ -57,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-aj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.4/README.md) | [sase-aj.4](sase-aj.4.md) | 0 |
 | [bbugyi200.athena.sase-aj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.5/README.md) | [sase-aj.5](sase-aj.5.md) | 1 |
 | [bbugyi200.athena.sase-aj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.6/README.md) | [sase-aj.6](sase-aj.6.md) | 1 |
-| [bbugyi200.athena.sase-aj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.land/README.md) | [sase-aj](README.md) | 0 |
+| [bbugyi200.athena.sase-aj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.land/README.md) | [sase-aj](README.md) | 1 |
 
 ## Commits
 
@@ -67,3 +71,4 @@ flowchart TD
 | [`aae07cf`](https://github.com/sase-org/sase/commit/aae07cfee19c92b1134447604a13b1a8cc37d623) | fix(beads): skip commits for no-op mutations | [sase-aj.2](sase-aj.2.md) | 2026-07-28 21:04:15 |
 | [`c1272d1`](https://github.com/sase-org/sase/commit/c1272d19d702892d26240b50e8b518a3c142a300) | feat(beads): close with verification notes | [sase-aj.5](sase-aj.5.md) | 2026-07-28 21:09:40 |
 | [`1943e18`](https://github.com/sase-org/sase/commit/1943e18a74f5f2ca3731dd051e68837574ea1c1e) | feat(beads): preassign epic work before launch | [sase-aj.3](sase-aj.3.md) | 2026-07-28 22:30:42 |
+| [`4f08f4f`](https://github.com/sase-org/sase/commit/4f08f4f1b1cbbc9221017ac14f67cad5bf938446) | fix(beads): land the sidecar commit-consolidation epic | [sase-aj](README.md) | 2026-07-28 23:33:38 |
