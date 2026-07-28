@@ -17,7 +17,7 @@ fix-core-clippy-and-release: allow too_many_arguments on close_issues_with_note,
 
 ## Dependencies
 
-- **Blocks:** [sase-al.2](sase-al.2.md) ◎
+- **Blocks:** [sase-al.2](sase-al.2.md) ✓
 
 ## Agents
 
