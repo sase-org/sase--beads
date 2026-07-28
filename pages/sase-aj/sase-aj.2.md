@@ -15,9 +15,3 @@ quiet: teach every Python bead-mutation caller to skip the commit and push entir
 
 - **Depends on:** [sase-aj.1](sase-aj.1.md) ✓
 - **Blocks:** [sase-aj.3](sase-aj.3.md) ◎
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-aj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.2/README.md) | [sase-aj.2](sase-aj.2.md) | 0 |
