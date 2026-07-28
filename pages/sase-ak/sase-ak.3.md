@@ -19,15 +19,3 @@ ace-tribe-wait-display: stop classifying tribe wait targets as missing agent nam
 
 - **Depends on:** [sase-ak.2](sase-ak.2.md) ✓
 - **Blocks:** [sase-ak.4](sase-ak.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ak.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ak.3/README.md) | [sase-ak.3](sase-ak.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`ed04c42`](https://github.com/sase-org/sase/commit/ed04c42f239002a2f682ca9dc0761442a140cf4c) | feat(ace): display tribe wait bindings | [sase-ak.3](sase-ak.3.md) | 2026-07-28 21:48:54 |
