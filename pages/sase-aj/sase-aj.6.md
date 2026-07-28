@@ -10,15 +10,3 @@
 ## Description
 
 postcommit: fold the commit finalizer's bead-state sync commit and the bead-pages publication commit into a single beads-repo commit per agent commit, and keep finalizer retry passes from re-committing when nothing changed.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| bbugyi200.athena.sase-aj.6 | [sase-aj.6](sase-aj.6.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`c3c70cf`](https://github.com/sase-org/sase--beads/commit/c3c70cf298422c92b70c37756deea59f06ebab7f) | chore(beads): refresh closed phase projection | [sase-aj.6](sase-aj.6.md) | 2026-07-28 20:57:38 |
