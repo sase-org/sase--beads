@@ -20,7 +20,7 @@ tui-focus: add the xprompt focus picker modal, the XPrompt scope chip, the focus
 ## Dependencies
 
 - **Depends on:** [sase-au.4](sase-au.4.md) ✓
-- **Blocks:** [sase-au.6](sase-au.6.md) ◐
+- **Blocks:** [sase-au.6](sase-au.6.md) ✓
 
 ## Agents
 
