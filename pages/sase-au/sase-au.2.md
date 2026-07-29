@@ -21,9 +21,3 @@ core-stats: in sase-core, fold the projected xprompt usage of every in-window ru
 
 - **Depends on:** [sase-au.1](sase-au.1.md) ✓
 - **Blocks:** [sase-au.6](sase-au.6.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.2/README.md) | [sase-au.2](sase-au.2.md) | 0 |

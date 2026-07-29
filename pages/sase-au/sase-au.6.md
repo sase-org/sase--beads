@@ -21,15 +21,3 @@ land: raise the sase-core-rs floor together with the Python artifact-index schem
 
 - **Depends on:** [sase-au.2](sase-au.2.md) ✓
 - **Depends on:** [sase-au.5](sase-au.5.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`d0b2ed9`](https://github.com/sase-org/sase/commit/d0b2ed97cde8d15ab71afa62d7be06da1cb816f1) | feat(ace): finalize xprompt statistics contract | [sase-au.6](sase-au.6.md) | 2026-07-29 18:49:22 |

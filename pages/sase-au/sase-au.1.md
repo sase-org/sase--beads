@@ -18,9 +18,3 @@ core-scan: in sase-core, add a UsedXPromptWire projection of each artifact direc
 ## Dependencies
 
 - **Blocks:** [sase-au.2](sase-au.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.1/README.md) | [sase-au.1](sase-au.1.md) | 0 |
