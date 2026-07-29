@@ -14,3 +14,9 @@ ace-documents: browse and search documents from every configured document sideca
 ## Dependencies
 
 - **Depends on:** [sase-as.8](sase-as.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.9/README.md) | [sase-as.9](sase-as.9.md) | 0 |

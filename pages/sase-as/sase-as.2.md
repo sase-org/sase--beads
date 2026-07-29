@@ -14,3 +14,9 @@ subtab-marks: route `toggle_mark`/`clear_marks` on the Artifacts tab through the
 ## Dependencies
 
 - **Depends on:** [sase-as.1](sase-as.1.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.2/README.md) | [sase-as.2](sase-as.2.md) | 0 |

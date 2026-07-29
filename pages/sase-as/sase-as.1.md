@@ -14,3 +14,9 @@ copy-mode: admit `copy_tab_content` on non-PR Artifacts sub-tabs, dispatch the s
 ## Dependencies
 
 - **Blocks:** [sase-as.2](sase-as.2.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.1/README.md) | [sase-as.1](sase-as.1.md) | 0 |

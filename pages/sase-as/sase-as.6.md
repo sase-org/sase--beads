@@ -14,3 +14,9 @@ role-consumers: replace every remaining literal `("plans", "research", "beads")`
 ## Dependencies
 
 - **Depends on:** [sase-as.5](sase-as.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.6/README.md) | [sase-as.6](sase-as.6.md) | 0 |
