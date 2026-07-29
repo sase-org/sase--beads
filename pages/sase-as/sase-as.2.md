@@ -13,7 +13,7 @@ subtab-marks: route `toggle_mark`/`clear_marks` on the Artifacts tab through the
 
 ## Dependencies
 
-- **Depends on:** [sase-as.1](sase-as.1.md) ◐
+- **Depends on:** [sase-as.1](sase-as.1.md) ✓
 
 ## Agents
 
