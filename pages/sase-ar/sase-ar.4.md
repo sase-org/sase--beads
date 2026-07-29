@@ -13,5 +13,11 @@ visual: add AXE-tab PNG snapshot fixtures and goldens covering a report-rich run
 
 ## Dependencies
 
-- **Depends on:** [sase-ar.3](sase-ar.3.md) ◐
+- **Depends on:** [sase-ar.3](sase-ar.3.md) ✓
 - **Blocks:** [sase-ar.6](sase-ar.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ar.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.4/README.md) | [sase-ar.4](sase-ar.4.md) | 0 |

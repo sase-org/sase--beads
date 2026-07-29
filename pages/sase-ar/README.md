@@ -15,12 +15,12 @@ Selecting a chop on the ACE AXE tab shows a beautiful, colored, width-responsive
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ar.1](sase-ar.1.md) | Chop report document in the Rust core | ✓ closed | medium | 1 | 1 |
-| [sase-ar.2](sase-ar.2.md) | ChopReport builder in the sase.chops SDK | ◐ in_progress | medium | 0 | 0 |
-| [sase-ar.3](sase-ar.3.md) | AXE chop-run result card and report rendering | ◐ in_progress | medium | 0 | 0 |
-| [sase-ar.4](sase-ar.4.md) | PNG snapshot coverage for chop reports | ◐ in_progress | small | 0 | 0 |
-| [sase-ar.5](sase-ar.5.md) | Reports for every bugyi-chops chop | ◐ in_progress | medium | 0 | 0 |
-| [sase-ar.6](sase-ar.6.md) | End-to-end verification on the real AXE tab | ◐ in_progress | small | 0 | 0 |
+| [sase-ar.1](sase-ar.1.md) | Chop report document in the Rust core | ✓ closed | medium | 1 | 0 |
+| [sase-ar.2](sase-ar.2.md) | ChopReport builder in the sase.chops SDK | ◐ in_progress | medium | 1 | 0 |
+| [sase-ar.3](sase-ar.3.md) | AXE chop-run result card and report rendering | ✓ closed | medium | 1 | 1 |
+| [sase-ar.4](sase-ar.4.md) | PNG snapshot coverage for chop reports | ◐ in_progress | small | 1 | 0 |
+| [sase-ar.5](sase-ar.5.md) | Reports for every bugyi-chops chop | ◐ in_progress | medium | 1 | 0 |
+| [sase-ar.6](sase-ar.6.md) | End-to-end verification on the real AXE tab | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
 
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-ar: AXE Chop Reports [in_progress]"]
     n1["sase-ar.1: Chop report document in the Rust core [closed]"]
     n2["sase-ar.2: ChopReport builder in the sase.chops SDK [in_progress]"]
-    n3["sase-ar.3: AXE chop-run result card and report rendering [in_progress]"]
+    n3["sase-ar.3: AXE chop-run result card and report rendering [closed]"]
     n4["sase-ar.4: PNG snapshot coverage for chop reports [in_progress]"]
     n5["sase-ar.5: Reports for every bugyi-chops chop [in_progress]"]
     n6["sase-ar.6: End-to-end verification on the real AXE tab [in_progress]"]
@@ -51,10 +51,16 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ar.1 | [sase-ar.1](sase-ar.1.md) | 1 |
+| [bbugyi200.athena.sase-ar.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.1/README.md) | [sase-ar.1](sase-ar.1.md) | 0 |
+| [bbugyi200.athena.sase-ar.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.2/README.md) | [sase-ar.2](sase-ar.2.md) | 0 |
+| [bbugyi200.athena.sase-ar.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.3/README.md) | [sase-ar.3](sase-ar.3.md) | 1 |
+| [bbugyi200.athena.sase-ar.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.4/README.md) | [sase-ar.4](sase-ar.4.md) | 0 |
+| [bbugyi200.athena.sase-ar.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.5/README.md) | [sase-ar.5](sase-ar.5.md) | 0 |
+| [bbugyi200.athena.sase-ar.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.6/README.md) | [sase-ar.6](sase-ar.6.md) | 0 |
+| [bbugyi200.athena.sase-ar.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.land/README.md) | [sase-ar](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`4419772`](https://github.com/sase-org/sase-core/commit/441977217d00fb5d4589a09e04ae3db72d536159) | feat(axe): add structured chop report contract | [sase-ar.1](sase-ar.1.md) | 2026-07-29 13:59:59 |
+| [`bc501e5`](https://github.com/sase-org/sase/commit/bc501e595b0ee0e09d915daf68b7528b1bc50a84) | feat(axe): render structured chop result reports | [sase-ar.3](sase-ar.3.md) | 2026-07-29 14:27:59 |
