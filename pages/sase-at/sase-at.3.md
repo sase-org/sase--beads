@@ -19,9 +19,3 @@ chop: give the bugyi-chops ci_watch chop a durable release ledger, a per-tick pu
 
 - **Depends on:** [sase-at.1](sase-at.1.md) ✓
 - **Blocks:** [sase-at.4](sase-at.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-at.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.3/README.md) | [sase-at.3](sase-at.3.md) | 0 |
