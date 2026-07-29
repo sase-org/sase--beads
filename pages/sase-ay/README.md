@@ -16,7 +16,7 @@ Typing `@` in the ACE prompt input or in an LSP-backed editor immediately opens 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ay.1](sase-ay.1.md) | Shared \`@\` reference menu core | ✓ closed | medium | 1 | 1 |
-| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ✓ closed | small | 0 | 0 |
+| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ✓ closed | small | 1 | 1 |
 | [sase-ay.3](sase-ay.3.md) | Editor LSP reference completion | ✓ closed | medium | 1 | 1 |
 | [sase-ay.4](sase-ay.4.md) | Completion panel row budget | ✓ closed | small | 0 | 0 |
 | [sase-ay.5](sase-ay.5.md) | Warm local path inventory for the prompt | ✓ closed | medium | 0 | 0 |
@@ -60,6 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | bbugyi200.athena.sase-ay.1 | [sase-ay.1](sase-ay.1.md) | 1 |
+| bbugyi200.athena.sase-ay.2 | [sase-ay.2](sase-ay.2.md) | 1 |
 | bbugyi200.athena.sase-ay.3 | [sase-ay.3](sase-ay.3.md) | 1 |
 
 ## Commits
@@ -68,3 +69,4 @@ flowchart TD
 |---|---|---|---|
 | [`93e6a69`](https://github.com/sase-org/sase-core/commit/93e6a69f8771a0dcf24664b20cbb173213bf6280) | feat(editor): add shared at-reference menu core | [sase-ay.1](sase-ay.1.md) | 2026-07-29 22:56:13 |
 | [`e1d7ed4`](https://github.com/sase-org/sase-core/commit/e1d7ed481ffcbcf71055fd23f58d349b7813b15e) | feat(lsp): add unified at-reference completion | [sase-ay.3](sase-ay.3.md) | 2026-07-29 23:11:14 |
+| [`dba90da`](https://github.com/sase-org/sase-core/commit/dba90da3b781bc5cd4c59a82d5fc47ceb24f33a2) | feat(py): expose at-reference menu bindings | [sase-ay.2](sase-ay.2.md) | 2026-07-29 23:14:29 |
