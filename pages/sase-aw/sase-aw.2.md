@@ -24,10 +24,11 @@ rendered-markdown: add default_view to PreviewPayload (plans rows open rendered)
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aw.2 | [sase-aw.2](sase-aw.2.md) | 1 |
+| [bbugyi200.athena.sase-aw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.2/README.md) | [sase-aw.2](sase-aw.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`d2e7161`](https://github.com/sase-org/sase--plans/commit/d2e716190d5a47501cf035aeca53bf1131046b6c) | docs(sdd): restore prompt links in plan headers | [sase-aw.2](sase-aw.2.md) | 2026-07-29 22:12:56 |
+| [`afad2e6`](https://github.com/sase-org/sase/commit/afad2e6ca1b5bce83e1facb22f584c137346bf40) | feat(ace): render plan previews as markdown | [sase-aw.2](sase-aw.2.md) | 2026-07-29 22:11:46 |
+| [`0a7282f`](https://github.com/sase-org/sase/commit/0a7282f20787c94e85c57319d33a6dfbd9f2f909) | fix(ace): stabilize prompt input and visual waits | [sase-aw.2](sase-aw.2.md) | 2026-07-29 22:40:01 |

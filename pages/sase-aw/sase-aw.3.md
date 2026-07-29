@@ -15,3 +15,9 @@ reader-search: add a hidden commit-on-enter search input with smartcase substrin
 
 - **Depends on:** [sase-aw.1](sase-aw.1.md) ✓
 - **Depends on:** [sase-aw.2](sase-aw.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.3/README.md) | [sase-aw.3](sase-aw.3.md) | 0 |
