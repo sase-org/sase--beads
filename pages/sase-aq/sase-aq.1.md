@@ -20,3 +20,9 @@ grammar: teach `sase_core::agent_name_template` the `{@<id>}` / `{@<id>!}` marke
 ## Dependencies
 
 - **Blocks:** [sase-aq.2](sase-aq.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.1/README.md) | [sase-aq.1](sase-aq.1.md) | 0 |
