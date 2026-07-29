@@ -36,7 +36,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-al.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.1/README.md) | [sase-al.1](sase-al.1.md) | 0 |
 | [bbugyi200.athena.sase-al.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-al.2/README.md) | [sase-al.2](sase-al.2.md) | 1 |
-| [bbugyi200.athena.sase-al.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-al.land.md#member-code) | [sase-al](README.md) | 1 |
+| [bbugyi200.athena.sase-al.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-al.land.md#member-code) | [sase-al](README.md) | 2 |
 | [bbugyi200.athena.sase-al.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-al.land.md#member-plan) | [sase-al](README.md) | 0 |
 
 ## Commits
@@ -45,3 +45,4 @@ flowchart TD
 |---|---|---|---|
 | [`ab6f07a`](https://github.com/sase-org/sase/commit/ab6f07a68c63a7a8438942980ca20e133748dc90) | build(deps): bump published core minimum to 0.12.5 | [sase-al.2](sase-al.2.md) | 2026-07-28 22:45:24 |
 | [`41a01b3`](https://github.com/sase-org/sase/commit/41a01b397c79303acad241f2a44822193b3aeb32) | ci: emit valid split SDD store record | [sase-al](README.md) | 2026-07-28 23:12:14 |
+| [`887999f`](https://github.com/sase-org/sase/commit/887999fb5d0c7acd0ca0a232e9a98f33d1fcc182) | fix(ci): stabilize full matrix isolation | [sase-al](README.md) | 2026-07-29 01:50:44 |
