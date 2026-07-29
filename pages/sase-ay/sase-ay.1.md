@@ -15,6 +15,8 @@ core: add the `sase_core::editor::at_reference` module — cursor context detect
 
 [2026-07-29T22:43:39Z · sase-ay.1] Implemented the pure sase_core::editor::at_reference context/menu core, public exports, and legacy adapters. Verified with focused at-reference/artifact tests, strict sase_core Clippy, and full just rust-check (fmt, workspace Clippy -D warnings, all workspace/unit/integration/doc tests; 1,042 sase_core unit tests passed).
 
+[2026-07-29T22:55:32Z · sase-ay.1] Reverified after finalizer checkout refresh with cargo fmt, strict sase_core Clippy, all 1,043 sase_core unit tests, and full just rust-check across the Rust workspace, integration suites, bindings, gateway, LSP, and doc tests.
+
 ## Dependencies
 
 - **Blocks:** [sase-ay.2](sase-ay.2.md) ◐
@@ -24,4 +26,10 @@ core: add the `sase_core::editor::at_reference` module — cursor context detect
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ay.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.1/README.md) | [sase-ay.1](sase-ay.1.md) | 0 |
+| bbugyi200.athena.sase-ay.1 | [sase-ay.1](sase-ay.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`93e6a69`](https://github.com/sase-org/sase-core/commit/93e6a69f8771a0dcf24664b20cbb173213bf6280) | feat(editor): add shared at-reference menu core | [sase-ay.1](sase-ay.1.md) | 2026-07-29 22:56:13 |

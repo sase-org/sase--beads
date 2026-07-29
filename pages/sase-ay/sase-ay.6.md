@@ -14,11 +14,5 @@ tui_menu: rewire the TUI provider onto the shared binding, open on a bare `@`, m
 ## Dependencies
 
 - **Depends on:** [sase-ay.2](sase-ay.2.md) ◐
-- **Depends on:** [sase-ay.5](sase-ay.5.md) ◐
+- **Depends on:** [sase-ay.5](sase-ay.5.md) ✓
 - **Blocks:** [sase-ay.7](sase-ay.7.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ay.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.6/README.md) | [sase-ay.6](sase-ay.6.md) | 0 |

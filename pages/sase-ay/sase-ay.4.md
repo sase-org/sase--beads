@@ -18,15 +18,3 @@ panel_rows: derive the visible-row budget from the panel's real content capacity
 ## Dependencies
 
 - **Blocks:** [sase-ay.7](sase-ay.7.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ay.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.4/README.md) | [sase-ay.4](sase-ay.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`53b3496`](https://github.com/sase-org/sase/commit/53b34965f1cf960e92935ca1ec999ff9c24ec4f7) | fix(ace): keep completion panel rows within budget | [sase-ay.4](sase-ay.4.md) | 2026-07-29 22:49:21 |
