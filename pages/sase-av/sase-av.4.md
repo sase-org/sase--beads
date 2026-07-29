@@ -20,15 +20,3 @@ prompt-grammar: recognize `@<kind>:<payload>` references in launched prompts thr
 ## Dependencies
 
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-av.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.4/README.md) | [sase-av.4](sase-av.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`46b40c5`](https://github.com/sase-org/sase/commit/46b40c5f6610b2ccd97d0e315b853a6563b2ab1a) | feat(artifacts): expand references during prompt launch | [sase-av.4](sase-av.4.md) | 2026-07-29 18:25:21 |
