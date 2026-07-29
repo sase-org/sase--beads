@@ -16,9 +16,3 @@ rows: add a shared model-alias presentation module used by both the Models panel
 - **Depends on:** [sase-ao.1](sase-ao.1.md) ✓
 - **Depends on:** [sase-ao.2](sase-ao.2.md) ✓
 - **Blocks:** [sase-ao.5](sase-ao.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ao.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.3/README.md) | [sase-ao.3](sase-ao.3.md) | 0 |
