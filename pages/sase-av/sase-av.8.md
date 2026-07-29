@@ -14,3 +14,9 @@ lsp-tokens: add a semantic-tokens provider to the xprompt LSP that colors artifa
 ## Dependencies
 
 - **Depends on:** [sase-av.7](sase-av.7.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.8/README.md) | [sase-av.8](sase-av.8.md) | 0 |

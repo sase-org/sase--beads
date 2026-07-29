@@ -13,5 +13,11 @@ prompt-highlight: syntax-highlight artifact references in the prompt editor with
 
 ## Dependencies
 
-- **Depends on:** [sase-av.2](sase-av.2.md) ◐
+- **Depends on:** [sase-av.2](sase-av.2.md) ✓
 - **Blocks:** [sase-av.6](sase-av.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.5/README.md) | [sase-av.5](sase-av.5.md) | 0 |

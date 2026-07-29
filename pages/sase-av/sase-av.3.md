@@ -13,4 +13,10 @@ copy-ref: give Commits, Plans, Chats, and Bugs copy-mode targets that copy the s
 
 ## Dependencies
 
-- **Depends on:** [sase-av.2](sase-av.2.md) ◐
+- **Depends on:** [sase-av.2](sase-av.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.3/README.md) | [sase-av.3](sase-av.3.md) | 0 |

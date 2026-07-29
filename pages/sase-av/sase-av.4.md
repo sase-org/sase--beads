@@ -13,4 +13,10 @@ prompt-grammar: recognize `@<kind>:<payload>` references in launched prompts thr
 
 ## Dependencies
 
-- **Depends on:** [sase-av.2](sase-av.2.md) ◐
+- **Depends on:** [sase-av.2](sase-av.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.4/README.md) | [sase-av.4](sase-av.4.md) | 0 |

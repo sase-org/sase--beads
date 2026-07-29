@@ -13,5 +13,11 @@ prompt-complete: complete artifact references in the prompt bar — kinds after 
 
 ## Dependencies
 
-- **Depends on:** [sase-av.2](sase-av.2.md) ◐
+- **Depends on:** [sase-av.2](sase-av.2.md) ✓
 - **Depends on:** [sase-av.5](sase-av.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.6/README.md) | [sase-av.6](sase-av.6.md) | 0 |

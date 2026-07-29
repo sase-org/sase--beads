@@ -14,5 +14,11 @@ lsp-complete: complete and diagnose artifact references in the Rust xprompt LSP 
 ## Dependencies
 
 - **Depends on:** [sase-av.1](sase-av.1.md) ✓
-- **Depends on:** [sase-av.2](sase-av.2.md) ◐
+- **Depends on:** [sase-av.2](sase-av.2.md) ✓
 - **Blocks:** [sase-av.8](sase-av.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.7/README.md) | [sase-av.7](sase-av.7.md) | 0 |
