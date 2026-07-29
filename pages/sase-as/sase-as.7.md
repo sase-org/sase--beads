@@ -17,7 +17,7 @@ core-corpora: teach the Rust plan reader to scan caller-supplied `(root, kind)` 
 
 ## Dependencies
 
-- **Blocks:** [sase-as.8](sase-as.8.md) ◐
+- **Blocks:** [sase-as.8](sase-as.8.md) ✓
 
 ## Agents
 

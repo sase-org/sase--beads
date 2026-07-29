@@ -13,7 +13,7 @@ ace-documents: browse and search documents from every configured document sideca
 
 ## Dependencies
 
-- **Depends on:** [sase-as.8](sase-as.8.md) ◐
+- **Depends on:** [sase-as.8](sase-as.8.md) ✓
 
 ## Agents
 

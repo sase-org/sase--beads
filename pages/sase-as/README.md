@@ -22,7 +22,7 @@ Copy mode and marks work on every Artifacts sub-tab, artifact-file path copies a
 | [sase-as.5](sase-as.5.md) | Generic sidecar roles in the SDD store | ✓ closed | medium | 1 | 1 |
 | [sase-as.6](sase-as.6.md) | Route hardcoded role tuples through the role registry | ◐ in_progress | medium | 1 | 0 |
 | [sase-as.7](sase-as.7.md) | Rust core document corpora for plan discovery | ✓ closed | medium | 1 | 0 |
-| [sase-as.8](sase-as.8.md) | Plan search and CLI over document-sidecar roles | ◐ in_progress | medium | 1 | 0 |
+| [sase-as.8](sase-as.8.md) | Plan search and CLI over document-sidecar roles | ✓ closed | medium | 1 | 1 |
 | [sase-as.9](sase-as.9.md) | ACE Plans pane over every document sidecar | ◐ in_progress | medium | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ flowchart TD
     n5["sase-as.5: Generic sidecar roles in the SDD store [closed]"]
     n6["sase-as.6: Route hardcoded role tuples through the role registry [in_progress]"]
     n7["sase-as.7: Rust core document corpora for plan discovery [closed]"]
-    n8["sase-as.8: Plan search and CLI over document-sidecar roles [in_progress]"]
+    n8["sase-as.8: Plan search and CLI over document-sidecar roles [closed]"]
     n9["sase-as.9: ACE Plans pane over every document sidecar [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-as.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.5/README.md) | [sase-as.5](sase-as.5.md) | 1 |
 | [bbugyi200.athena.sase-as.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.6/README.md) | [sase-as.6](sase-as.6.md) | 0 |
 | [bbugyi200.athena.sase-as.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.7/README.md) | [sase-as.7](sase-as.7.md) | 0 |
-| [bbugyi200.athena.sase-as.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.8/README.md) | [sase-as.8](sase-as.8.md) | 0 |
+| [bbugyi200.athena.sase-as.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.8/README.md) | [sase-as.8](sase-as.8.md) | 1 |
 | [bbugyi200.athena.sase-as.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.9/README.md) | [sase-as.9](sase-as.9.md) | 0 |
 | [bbugyi200.athena.sase-as.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.land/README.md) | [sase-as](README.md) | 0 |
 
@@ -78,3 +78,4 @@ flowchart TD
 | [`69d403c`](https://github.com/sase-org/sase/commit/69d403c4c7f17f665cccaffd52dc910be8177c99) | fix(ace): anchor artifact-file path copy | [sase-as.3](sase-as.3.md) | 2026-07-29 14:58:27 |
 | [`7d41d17`](https://github.com/sase-org/sase/commit/7d41d17a02a44aea76dbe7f19d800bb24d0889c9) | feat(ace): add copy mode to artifact sub-tabs | [sase-as.1](sase-as.1.md) | 2026-07-29 15:03:16 |
 | [`70a22c3`](https://github.com/sase-org/sase/commit/70a22c347e617988e3a25b62975ab12837ea4444) | feat(sdd): support generic sidecar roles | [sase-as.5](sase-as.5.md) | 2026-07-29 15:07:29 |
+| [`5f554c3`](https://github.com/sase-org/sase/commit/5f554c3ea4112ef6e472ef5eced04978776298d5) | feat(plan-search): support generic document sidecar roles | [sase-as.8](sase-as.8.md) | 2026-07-29 15:25:44 |
