@@ -17,7 +17,7 @@ Copy mode and marks work on every Artifacts sub-tab, artifact-file path copies a
 |---|---|---|---|---:|---:|
 | [sase-as.1](sase-as.1.md) | Copy mode on every Artifacts sub-tab | ◐ in_progress | medium | 1 | 0 |
 | [sase-as.2](sase-as.2.md) | Marks on non-PR Artifacts sub-tabs | ◐ in_progress | medium | 1 | 0 |
-| [sase-as.3](sase-as.3.md) | Anchored artifact-file path copy | ◐ in_progress | small | 1 | 0 |
+| [sase-as.3](sase-as.3.md) | Anchored artifact-file path copy | ✓ closed | small | 1 | 1 |
 | [sase-as.4](sase-as.4.md) | Safe text-artifact fallback viewer | ✓ closed | small | 1 | 1 |
 | [sase-as.5](sase-as.5.md) | Generic sidecar roles in the SDD store | ◐ in_progress | medium | 1 | 0 |
 | [sase-as.6](sase-as.6.md) | Route hardcoded role tuples through the role registry | ◐ in_progress | medium | 1 | 0 |
@@ -32,7 +32,7 @@ flowchart TD
     n0["sase-as: Artifact tranche-zero defects and generic document-sidecar roles [in_progress]"]
     n1["sase-as.1: Copy mode on every Artifacts sub-tab [in_progress]"]
     n2["sase-as.2: Marks on non-PR Artifacts sub-tabs [in_progress]"]
-    n3["sase-as.3: Anchored artifact-file path copy [in_progress]"]
+    n3["sase-as.3: Anchored artifact-file path copy [closed]"]
     n4["sase-as.4: Safe text-artifact fallback viewer [closed]"]
     n5["sase-as.5: Generic sidecar roles in the SDD store [in_progress]"]
     n6["sase-as.6: Route hardcoded role tuples through the role registry [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-as.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.1/README.md) | [sase-as.1](sase-as.1.md) | 0 |
 | [bbugyi200.athena.sase-as.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.2/README.md) | [sase-as.2](sase-as.2.md) | 0 |
-| [bbugyi200.athena.sase-as.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.3/README.md) | [sase-as.3](sase-as.3.md) | 0 |
+| [bbugyi200.athena.sase-as.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.3/README.md) | [sase-as.3](sase-as.3.md) | 1 |
 | [bbugyi200.athena.sase-as.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.4/README.md) | [sase-as.4](sase-as.4.md) | 1 |
 | [bbugyi200.athena.sase-as.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.5/README.md) | [sase-as.5](sase-as.5.md) | 0 |
 | [bbugyi200.athena.sase-as.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.6/README.md) | [sase-as.6](sase-as.6.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`02e8384`](https://github.com/sase-org/sase/commit/02e83845b1ef0fa7e173915a1a010fe27cfa047a) | fix(ace): safely dump text artifact fallback | [sase-as.4](sase-as.4.md) | 2026-07-29 14:56:58 |
+| [`69d403c`](https://github.com/sase-org/sase/commit/69d403c4c7f17f665cccaffd52dc910be8177c99) | fix(ace): anchor artifact-file path copy | [sase-as.3](sase-as.3.md) | 2026-07-29 14:58:27 |
