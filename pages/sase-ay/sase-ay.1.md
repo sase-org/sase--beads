@@ -19,8 +19,8 @@ core: add the `sase_core::editor::at_reference` module — cursor context detect
 
 ## Dependencies
 
-- **Blocks:** [sase-ay.2](sase-ay.2.md) ◐
-- **Blocks:** [sase-ay.3](sase-ay.3.md) ◐
+- **Blocks:** [sase-ay.2](sase-ay.2.md) ✓
+- **Blocks:** [sase-ay.3](sase-ay.3.md) ✓
 
 ## Agents
 

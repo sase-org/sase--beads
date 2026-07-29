@@ -16,8 +16,8 @@ Typing `@` in the ACE prompt input or in an LSP-backed editor immediately opens 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ay.1](sase-ay.1.md) | Shared \`@\` reference menu core | ✓ closed | medium | 1 | 1 |
-| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ◐ in_progress | small | 0 | 0 |
-| [sase-ay.3](sase-ay.3.md) | Editor LSP reference completion | ◐ in_progress | medium | 0 | 0 |
+| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ✓ closed | small | 0 | 0 |
+| [sase-ay.3](sase-ay.3.md) | Editor LSP reference completion | ✓ closed | medium | 1 | 1 |
 | [sase-ay.4](sase-ay.4.md) | Completion panel row budget | ✓ closed | small | 0 | 0 |
 | [sase-ay.5](sase-ay.5.md) | Warm local path inventory for the prompt | ✓ closed | medium | 0 | 0 |
 | [sase-ay.6](sase-ay.6.md) | TUI reference menu behavior | ◐ in_progress | medium | 0 | 0 |
@@ -30,8 +30,8 @@ Typing `@` in the ACE prompt input or in an LSP-backed editor immediately opens 
 flowchart TD
     n0["sase-ay: Bare `@` opens one reference menu for artifact kinds and local files [in_progress]"]
     n1["sase-ay.1: Shared `@` reference menu core [closed]"]
-    n2["sase-ay.2: PyO3 bindings for the reference menu [in_progress]"]
-    n3["sase-ay.3: Editor LSP reference completion [in_progress]"]
+    n2["sase-ay.2: PyO3 bindings for the reference menu [closed]"]
+    n3["sase-ay.3: Editor LSP reference completion [closed]"]
     n4["sase-ay.4: Completion panel row budget [closed]"]
     n5["sase-ay.5: Warm local path inventory for the prompt [closed]"]
     n6["sase-ay.6: TUI reference menu behavior [in_progress]"]
@@ -60,9 +60,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | bbugyi200.athena.sase-ay.1 | [sase-ay.1](sase-ay.1.md) | 1 |
+| bbugyi200.athena.sase-ay.3 | [sase-ay.3](sase-ay.3.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`93e6a69`](https://github.com/sase-org/sase-core/commit/93e6a69f8771a0dcf24664b20cbb173213bf6280) | feat(editor): add shared at-reference menu core | [sase-ay.1](sase-ay.1.md) | 2026-07-29 22:56:13 |
+| [`e1d7ed4`](https://github.com/sase-org/sase-core/commit/e1d7ed481ffcbcf71055fd23f58d349b7813b15e) | feat(lsp): add unified at-reference completion | [sase-ay.3](sase-ay.3.md) | 2026-07-29 23:11:14 |

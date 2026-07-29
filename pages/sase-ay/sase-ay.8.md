@@ -13,5 +13,5 @@ docs: update the ACE completion docs, configuration reference, editor reference,
 
 ## Dependencies
 
-- **Depends on:** [sase-ay.3](sase-ay.3.md) ◐
+- **Depends on:** [sase-ay.3](sase-ay.3.md) ✓
 - **Depends on:** [sase-ay.7](sase-ay.7.md) ◐

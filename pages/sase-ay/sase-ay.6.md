@@ -13,6 +13,6 @@ tui_menu: rewire the TUI provider onto the shared binding, open on a bare `@`, m
 
 ## Dependencies
 
-- **Depends on:** [sase-ay.2](sase-ay.2.md) ◐
+- **Depends on:** [sase-ay.2](sase-ay.2.md) ✓
 - **Depends on:** [sase-ay.5](sase-ay.5.md) ✓
 - **Blocks:** [sase-ay.7](sase-ay.7.md) ◐
