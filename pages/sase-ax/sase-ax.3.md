@@ -14,5 +14,11 @@ artifact-read-cli: rename the artifact-file group to sase artifact with a compat
 ## Dependencies
 
 - **Depends on:** [sase-ax.1](sase-ax.1.md) ✓
-- **Depends on:** [sase-ax.2](sase-ax.2.md) ◐
+- **Depends on:** [sase-ax.2](sase-ax.2.md) ✓
 - **Blocks:** [sase-ax.4](sase-ax.4.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ax.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.3/README.md) | [sase-ax.3](sase-ax.3.md) | 0 |

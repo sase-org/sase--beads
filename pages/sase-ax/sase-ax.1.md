@@ -23,10 +23,4 @@ core-index-contract: extract the index parser into a tolerant full-record module
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ax.1 | [sase-ax.1](sase-ax.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`ad900a7`](https://github.com/sase-org/sase-core/commit/ad900a770cabaa168a3ad521f724f42e8f9c3c25) | feat(artifact): add artifact file query API | [sase-ax.1](sase-ax.1.md) | 2026-07-29 21:20:30 |
+| [bbugyi200.athena.sase-ax.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.1/README.md) | [sase-ax.1](sase-ax.1.md) | 0 |
