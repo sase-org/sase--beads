@@ -23,7 +23,7 @@ Copy mode and marks work on every Artifacts sub-tab, artifact-file path copies a
 | [sase-as.6](sase-as.6.md) | Route hardcoded role tuples through the role registry | ✓ closed | medium | 1 | 1 |
 | [sase-as.7](sase-as.7.md) | Rust core document corpora for plan discovery | ✓ closed | medium | 1 | 0 |
 | [sase-as.8](sase-as.8.md) | Plan search and CLI over document-sidecar roles | ✓ closed | medium | 1 | 1 |
-| [sase-as.9](sase-as.9.md) | ACE Plans pane over every document sidecar | ◐ in_progress | medium | 1 | 0 |
+| [sase-as.9](sase-as.9.md) | ACE Plans pane over every document sidecar | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n6["sase-as.6: Route hardcoded role tuples through the role registry [closed]"]
     n7["sase-as.7: Rust core document corpora for plan discovery [closed]"]
     n8["sase-as.8: Plan search and CLI over document-sidecar roles [closed]"]
-    n9["sase-as.9: ACE Plans pane over every document sidecar [in_progress]"]
+    n9["sase-as.9: ACE Plans pane over every document sidecar [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-as.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.6/README.md) | [sase-as.6](sase-as.6.md) | 1 |
 | [bbugyi200.athena.sase-as.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.7/README.md) | [sase-as.7](sase-as.7.md) | 0 |
 | [bbugyi200.athena.sase-as.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.8/README.md) | [sase-as.8](sase-as.8.md) | 1 |
-| [bbugyi200.athena.sase-as.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.9/README.md) | [sase-as.9](sase-as.9.md) | 0 |
+| [bbugyi200.athena.sase-as.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.9/README.md) | [sase-as.9](sase-as.9.md) | 1 |
 | [bbugyi200.athena.sase-as.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.land/README.md) | [sase-as](README.md) | 0 |
 
 ## Commits
@@ -81,3 +81,4 @@ flowchart TD
 | [`5f554c3`](https://github.com/sase-org/sase/commit/5f554c3ea4112ef6e472ef5eced04978776298d5) | feat(plan-search): support generic document sidecar roles | [sase-as.8](sase-as.8.md) | 2026-07-29 15:25:44 |
 | [`107904b`](https://github.com/sase-org/sase/commit/107904b6bea97c5d036921b2fbbc7ee92e7ceb0e) | feat(sdd): route document sidecars through role registry | [sase-as.6](sase-as.6.md) | 2026-07-29 15:32:05 |
 | [`d867a44`](https://github.com/sase-org/sase/commit/d867a44ff21343d9a193f9480c46435f881ef5fd) | feat(ace): support marks across artifact panes | [sase-as.2](sase-as.2.md) | 2026-07-29 15:40:10 |
+| [`880c9c8`](https://github.com/sase-org/sase/commit/880c9c891757ac2c1e3a29e6fc98f3ef2b056c31) | feat(ace): browse all document sidecars | [sase-as.9](sase-as.9.md) | 2026-07-29 15:47:26 |

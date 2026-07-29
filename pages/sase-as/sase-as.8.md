@@ -19,7 +19,7 @@ plan-search-roles: make the Python plan-search facade discover every configured 
 
 - **Depends on:** [sase-as.5](sase-as.5.md) ✓
 - **Depends on:** [sase-as.7](sase-as.7.md) ✓
-- **Blocks:** [sase-as.9](sase-as.9.md) ◐
+- **Blocks:** [sase-as.9](sase-as.9.md) ✓
 
 ## Agents
 
