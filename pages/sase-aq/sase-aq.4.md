@@ -20,7 +20,7 @@ qualify: rewrite unqualified `{@<id>}` markers to `{@<xprompt>.<stamp>.<id>!}` w
 ## Dependencies
 
 - **Depends on:** [sase-aq.3](sase-aq.3.md) ✓
-- **Blocks:** [sase-aq.5](sase-aq.5.md) ◐
+- **Blocks:** [sase-aq.5](sase-aq.5.md) ✓
 - **Blocks:** [sase-aq.6](sase-aq.6.md) ◐
 
 ## Agents
