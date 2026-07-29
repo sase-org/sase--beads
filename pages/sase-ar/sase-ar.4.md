@@ -18,7 +18,7 @@ visual: add AXE-tab PNG snapshot fixtures and goldens covering a report-rich run
 ## Dependencies
 
 - **Depends on:** [sase-ar.3](sase-ar.3.md) ✓
-- **Blocks:** [sase-ar.6](sase-ar.6.md) ◐
+- **Blocks:** [sase-ar.6](sase-ar.6.md) ✓
 
 ## Agents
 
