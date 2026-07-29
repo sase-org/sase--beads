@@ -13,5 +13,11 @@ polish: add ACE PNG snapshots for the mixed and alias-only menus, and update the
 
 ## Dependencies
 
-- **Depends on:** [sase-ao.3](sase-ao.3.md) ◐
+- **Depends on:** [sase-ao.3](sase-ao.3.md) ✓
 - **Depends on:** [sase-ao.4](sase-ao.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ao.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.5/README.md) | [sase-ao.5](sase-ao.5.md) | 0 |

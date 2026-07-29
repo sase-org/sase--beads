@@ -19,5 +19,17 @@ catalog: derive alias rows from the same AliasView data the Models panel uses, a
 
 ## Dependencies
 
-- **Blocks:** [sase-ao.3](sase-ao.3.md) ◐
+- **Blocks:** [sase-ao.3](sase-ao.3.md) ✓
 - **Blocks:** [sase-ao.4](sase-ao.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ao.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.2/README.md) | [sase-ao.2](sase-ao.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`e55e18b`](https://github.com/sase-org/sase/commit/e55e18b94f132b52eb0badf6440d49a849ad717d) | feat: enrich model completion alias metadata | [sase-ao.2](sase-ao.2.md) | 2026-07-29 12:06:41 |
