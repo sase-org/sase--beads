@@ -18,7 +18,7 @@ rendered-markdown: add default_view to PreviewPayload (plans rows open rendered)
 ## Dependencies
 
 - **Depends on:** [sase-aw.1](sase-aw.1.md) ✓
-- **Blocks:** [sase-aw.3](sase-aw.3.md) ◐
+- **Blocks:** [sase-aw.3](sase-aw.3.md) ✓
 
 ## Agents
 
