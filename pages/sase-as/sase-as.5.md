@@ -19,7 +19,7 @@ store-roles: replace the store record's fixed plans/research/beads fields with a
 
 ## Dependencies
 
-- **Blocks:** [sase-as.6](sase-as.6.md) ◐
+- **Blocks:** [sase-as.6](sase-as.6.md) ✓
 - **Blocks:** [sase-as.8](sase-as.8.md) ✓
 
 ## Agents
