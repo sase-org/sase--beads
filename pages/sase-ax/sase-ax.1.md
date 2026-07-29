@@ -17,7 +17,7 @@ core-index-contract: extract the index parser into a tolerant full-record module
 
 ## Dependencies
 
-- **Blocks:** [sase-ax.3](sase-ax.3.md) ◐
+- **Blocks:** [sase-ax.3](sase-ax.3.md) ✓
 
 ## Agents
 

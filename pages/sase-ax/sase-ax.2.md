@@ -19,7 +19,7 @@ record-enrichment: add optional sha256, size_bytes, and mime_type to the Python 
 
 ## Dependencies
 
-- **Blocks:** [sase-ax.3](sase-ax.3.md) ◐
+- **Blocks:** [sase-ax.3](sase-ax.3.md) ✓
 
 ## Agents
 

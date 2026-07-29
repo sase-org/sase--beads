@@ -13,7 +13,7 @@ artifact-skill-docs: extend the sase_artifact_file skill template from create-on
 
 ## Dependencies
 
-- **Depends on:** [sase-ax.3](sase-ax.3.md) ◐
+- **Depends on:** [sase-ax.3](sase-ax.3.md) ✓
 
 ## Agents
 
