@@ -20,7 +20,7 @@ prompt-highlight: syntax-highlight artifact references in the prompt editor with
 ## Dependencies
 
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
-- **Blocks:** [sase-av.6](sase-av.6.md) ◐
+- **Blocks:** [sase-av.6](sase-av.6.md) ✓
 
 ## Agents
 

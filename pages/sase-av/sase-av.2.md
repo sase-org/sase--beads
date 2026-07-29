@@ -23,7 +23,7 @@ ref-facade: add the Python facade that builds per-project resolution context (do
 - **Blocks:** [sase-av.3](sase-av.3.md) ✓
 - **Blocks:** [sase-av.4](sase-av.4.md) ✓
 - **Blocks:** [sase-av.5](sase-av.5.md) ✓
-- **Blocks:** [sase-av.6](sase-av.6.md) ◐
+- **Blocks:** [sase-av.6](sase-av.6.md) ✓
 - **Blocks:** [sase-av.7](sase-av.7.md) ✓
 
 ## Agents
