@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-au
 
-**Status:** ◐ in_progress · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-au.land`
-**Created:** 2026-07-29 16:25:59 UTC
+**Created:** 2026-07-29 16:25:59 UTC · **Closed:** 2026-07-29 19:20:31 UTC
 **Plan:** [202607/xprompt\_statistics.md](https://github.com/sase-org/sase--plans/blob/main/202607/xprompt_statistics.md)
 
 ## Description
 
 The SASE Admin Center Statistics tab has an XPrompts sub-tab that reports which xprompts agent prompts actually used and how often, lets `g` regroup those counts by model, project, and co-usage, and lets the user zoom into one xprompt for a full breakdown of its models, projects, partner xprompts, and usage over time.
+
+## Notes
+
+[2026-07-29T19:20:31Z · sase-au.land] Land verification: read the source and the epic's five commits plus the two sase-core commits (0.12.11). Confirmed core-scan (UsedXPromptWire on the scan record, xprompts.json in MARKER_FILES, xprompts_sig column, index schema 18->19 with migrate_record_json_refresh_v19), core-stats (run-statistics wire schema 4, the three request knobs, ranked rows with bounded model/project/partner cross-tabs, focused payload with providers/tribes/buckets, older-payload serde round-trip), py-stats (query knobs, XPrompt* view models, build_xprompts_view, StatisticsViews wiring, xprompt_focus on load_statistics_view), tui-view (ninth VIEW_ORDER entry after activity, statistics_pane_xprompts.py with the four g groupings, legends, unavailable/empty/truncation states, _project_cell display names), tui-focus (picker modal, x/X across app_keymaps, metadata, default_config.yml, sase.schema.json and docs/ace.md, scope chip, focused body, help controls and XPrompt methodology), and land (sase-core-rs floor 0.12.12 >= the 0.12.11 that carries both core phases, AGENT_ARTIFACT_INDEX_SCHEMA_VERSION 19, contract probe, four PNG snapshots, docs). Integration with work that landed alongside the epic: sase-av.2 had already raised the core floor past what land needed; sase-av.4's launch-time reference expansion sits downstream of the launch-boundary write_used_xprompts capture in run_agent_runner_setup, so the counting scope is intact; both epics' probes coexist in tools/validate_sase_core_rs. Two real gaps found and fixed here: (1) the four XPrompts PNG goldens were rendered before the concurrent numbered-Statistics-subtabs change (216d027d8) landed, so all four were stale on the tab strip and hint line -- regenerated and visually reviewed each one; (2) the plan's normative Python mirror of AgentArtifactRecordWire.used_xprompts was never added, leaving verify_agent_artifact_index blind to xprompt-only staleness -- added UsedXPromptWire, the converter branch, exports, and round-trip tests, and confirmed a real scan projects it (5,394 of 5,475 records). Also documented the numbered Statistics sub-tab jump in the Statistics tab section of docs/ace.md. just check: all static gates pass and the suite reaches 23,796 passed / 7 skipped, with one unrelated agent-retry countdown timing flake that passes in isolation.
 
 ## Phases
 
@@ -26,7 +30,7 @@ The SASE Admin Center Statistics tab has an XPrompts sub-tab that reports which 
 
 ```mermaid
 flowchart TD
-    n0["sase-au: XPrompts sub-tab for the Admin Center Statistics panel [in_progress]"]
+    n0["sase-au: XPrompts sub-tab for the Admin Center Statistics panel [closed]"]
     n1["sase-au.1: Project launch-boundary xprompt usage into the artifact scan record and index [closed]"]
     n2["sase-au.2: XPrompt aggregation section in the run-statistics wire and query [closed]"]
     n3["sase-au.3: Python statistics models and builder for the XPrompts view [closed]"]
@@ -56,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 1 |
 | [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 1 |
 | [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 1 |
-| [bbugyi200.athena.sase-au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.land/README.md) | [sase-au](README.md) | 0 |
+| [bbugyi200.athena.sase-au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.land/README.md) | [sase-au](README.md) | 1 |
 
 ## Commits
 
@@ -66,3 +70,4 @@ flowchart TD
 | [`7ddfbb1`](https://github.com/sase-org/sase/commit/7ddfbb16a13bd0771d1bf3d47fc19beee3a31086) | feat(tui): add xprompt statistics view | [sase-au.4](sase-au.4.md) | 2026-07-29 17:13:25 |
 | [`c81eb5d`](https://github.com/sase-org/sase/commit/c81eb5d429127ee80cf0098c0e20932b74cc0ffa) | feat(ace): focus statistics on an xprompt | [sase-au.5](sase-au.5.md) | 2026-07-29 17:49:00 |
 | [`d0b2ed9`](https://github.com/sase-org/sase/commit/d0b2ed97cde8d15ab71afa62d7be06da1cb816f1) | feat(ace): finalize xprompt statistics contract | [sase-au.6](sase-au.6.md) | 2026-07-29 18:49:22 |
+| [`f35c4ce`](https://github.com/sase-org/sase/commit/f35c4ce33185d857fac08c0b80b6e93ef4a2ea50) | fix(ace): mirror launch-boundary xprompt usage in the Python scan wire | [sase-au](README.md) | 2026-07-29 19:22:37 |
