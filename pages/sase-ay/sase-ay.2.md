@@ -18,16 +18,10 @@ binding: export `at_reference_context` and `at_reference_menu` from `sase_core_p
 ## Dependencies
 
 - **Depends on:** [sase-ay.1](sase-ay.1.md) ✓
-- **Blocks:** [sase-ay.6](sase-ay.6.md) ◐
+- **Blocks:** [sase-ay.6](sase-ay.6.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ay.2 | [sase-ay.2](sase-ay.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`dba90da`](https://github.com/sase-org/sase-core/commit/dba90da3b781bc5cd4c59a82d5fc47ceb24f33a2) | feat(py): expose at-reference menu bindings | [sase-ay.2](sase-ay.2.md) | 2026-07-29 23:14:29 |
+| [bbugyi200.athena.sase-ay.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.2/README.md) | [sase-ay.2](sase-ay.2.md) | 0 |

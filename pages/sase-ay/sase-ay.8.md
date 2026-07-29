@@ -15,3 +15,9 @@ docs: update the ACE completion docs, configuration reference, editor reference,
 
 - **Depends on:** [sase-ay.3](sase-ay.3.md) ✓
 - **Depends on:** [sase-ay.7](sase-ay.7.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ay.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.8/README.md) | [sase-ay.8](sase-ay.8.md) | 0 |

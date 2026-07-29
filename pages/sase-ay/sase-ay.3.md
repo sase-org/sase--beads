@@ -24,10 +24,4 @@ lsp: route `sase lsp` artifact completion through the shared module, enumerate l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ay.3 | [sase-ay.3](sase-ay.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`e1d7ed4`](https://github.com/sase-org/sase-core/commit/e1d7ed481ffcbcf71055fd23f58d349b7813b15e) | feat(lsp): add unified at-reference completion | [sase-ay.3](sase-ay.3.md) | 2026-07-29 23:11:14 |
+| [bbugyi200.athena.sase-ay.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.3/README.md) | [sase-ay.3](sase-ay.3.md) | 0 |

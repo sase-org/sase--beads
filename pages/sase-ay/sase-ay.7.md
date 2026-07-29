@@ -14,5 +14,11 @@ render: give the merged menu its aligned row anatomy, group rule line, adaptive 
 ## Dependencies
 
 - **Depends on:** [sase-ay.4](sase-ay.4.md) ✓
-- **Depends on:** [sase-ay.6](sase-ay.6.md) ◐
+- **Depends on:** [sase-ay.6](sase-ay.6.md) ✓
 - **Blocks:** [sase-ay.8](sase-ay.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ay.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.7/README.md) | [sase-ay.7](sase-ay.7.md) | 0 |

@@ -15,14 +15,14 @@ Typing `@` in the ACE prompt input or in an LSP-backed editor immediately opens 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ay.1](sase-ay.1.md) | Shared \`@\` reference menu core | ✓ closed | medium | 1 | 1 |
-| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ✓ closed | small | 1 | 1 |
-| [sase-ay.3](sase-ay.3.md) | Editor LSP reference completion | ✓ closed | medium | 1 | 1 |
-| [sase-ay.4](sase-ay.4.md) | Completion panel row budget | ✓ closed | small | 0 | 0 |
-| [sase-ay.5](sase-ay.5.md) | Warm local path inventory for the prompt | ✓ closed | medium | 0 | 0 |
-| [sase-ay.6](sase-ay.6.md) | TUI reference menu behavior | ◐ in_progress | medium | 0 | 0 |
-| [sase-ay.7](sase-ay.7.md) | Grouped menu rendering | ◐ in_progress | medium | 0 | 0 |
-| [sase-ay.8](sase-ay.8.md) | Documentation and help sync | ◐ in_progress | small | 0 | 0 |
+| [sase-ay.1](sase-ay.1.md) | Shared \`@\` reference menu core | ✓ closed | medium | 1 | 0 |
+| [sase-ay.2](sase-ay.2.md) | PyO3 bindings for the reference menu | ✓ closed | small | 1 | 0 |
+| [sase-ay.3](sase-ay.3.md) | Editor LSP reference completion | ✓ closed | medium | 1 | 0 |
+| [sase-ay.4](sase-ay.4.md) | Completion panel row budget | ✓ closed | small | 1 | 1 |
+| [sase-ay.5](sase-ay.5.md) | Warm local path inventory for the prompt | ✓ closed | medium | 1 | 1 |
+| [sase-ay.6](sase-ay.6.md) | TUI reference menu behavior | ✓ closed | medium | 1 | 1 |
+| [sase-ay.7](sase-ay.7.md) | Grouped menu rendering | ◐ in_progress | medium | 1 | 0 |
+| [sase-ay.8](sase-ay.8.md) | Documentation and help sync | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n3["sase-ay.3: Editor LSP reference completion [closed]"]
     n4["sase-ay.4: Completion panel row budget [closed]"]
     n5["sase-ay.5: Warm local path inventory for the prompt [closed]"]
-    n6["sase-ay.6: TUI reference menu behavior [in_progress]"]
+    n6["sase-ay.6: TUI reference menu behavior [closed]"]
     n7["sase-ay.7: Grouped menu rendering [in_progress]"]
     n8["sase-ay.8: Documentation and help sync [in_progress]"]
     n0 --> n1
@@ -59,14 +59,20 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ay.1 | [sase-ay.1](sase-ay.1.md) | 1 |
-| bbugyi200.athena.sase-ay.2 | [sase-ay.2](sase-ay.2.md) | 1 |
-| bbugyi200.athena.sase-ay.3 | [sase-ay.3](sase-ay.3.md) | 1 |
+| [bbugyi200.athena.sase-ay.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.1/README.md) | [sase-ay.1](sase-ay.1.md) | 0 |
+| [bbugyi200.athena.sase-ay.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.2/README.md) | [sase-ay.2](sase-ay.2.md) | 0 |
+| [bbugyi200.athena.sase-ay.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.3/README.md) | [sase-ay.3](sase-ay.3.md) | 0 |
+| [bbugyi200.athena.sase-ay.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.4/README.md) | [sase-ay.4](sase-ay.4.md) | 1 |
+| [bbugyi200.athena.sase-ay.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.5/README.md) | [sase-ay.5](sase-ay.5.md) | 1 |
+| [bbugyi200.athena.sase-ay.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.6/README.md) | [sase-ay.6](sase-ay.6.md) | 1 |
+| [bbugyi200.athena.sase-ay.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.7/README.md) | [sase-ay.7](sase-ay.7.md) | 0 |
+| [bbugyi200.athena.sase-ay.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.8/README.md) | [sase-ay.8](sase-ay.8.md) | 0 |
+| [bbugyi200.athena.sase-ay.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.land/README.md) | [sase-ay](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`93e6a69`](https://github.com/sase-org/sase-core/commit/93e6a69f8771a0dcf24664b20cbb173213bf6280) | feat(editor): add shared at-reference menu core | [sase-ay.1](sase-ay.1.md) | 2026-07-29 22:56:13 |
-| [`e1d7ed4`](https://github.com/sase-org/sase-core/commit/e1d7ed481ffcbcf71055fd23f58d349b7813b15e) | feat(lsp): add unified at-reference completion | [sase-ay.3](sase-ay.3.md) | 2026-07-29 23:11:14 |
-| [`dba90da`](https://github.com/sase-org/sase-core/commit/dba90da3b781bc5cd4c59a82d5fc47ceb24f33a2) | feat(py): expose at-reference menu bindings | [sase-ay.2](sase-ay.2.md) | 2026-07-29 23:14:29 |
+| [`53b3496`](https://github.com/sase-org/sase/commit/53b34965f1cf960e92935ca1ec999ff9c24ec4f7) | fix(ace): keep completion panel rows within budget | [sase-ay.4](sase-ay.4.md) | 2026-07-29 22:49:21 |
+| [`dc3462d`](https://github.com/sase-org/sase/commit/dc3462d484a7cccabe4173a9182cf12779f2afdd) | perf(tui): warm prompt path inventory off keystrokes | [sase-ay.5](sase-ay.5.md) | 2026-07-29 22:56:09 |
+| [`9eb1f5d`](https://github.com/sase-org/sase/commit/9eb1f5d29e4182d3a41049ec67e80ca2907b7d93) | feat(tui): unify @ reference completion menu | [sase-ay.6](sase-ay.6.md) | 2026-07-29 23:43:13 |

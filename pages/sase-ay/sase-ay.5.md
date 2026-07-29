@@ -17,4 +17,16 @@ tui_paths: add a mtime-validated directory-listing snapshot cache with a backgro
 
 ## Dependencies
 
-- **Blocks:** [sase-ay.6](sase-ay.6.md) ◐
+- **Blocks:** [sase-ay.6](sase-ay.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ay.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.5/README.md) | [sase-ay.5](sase-ay.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`dc3462d`](https://github.com/sase-org/sase/commit/dc3462d484a7cccabe4173a9182cf12779f2afdd) | perf(tui): warm prompt path inventory off keystrokes | [sase-ay.5](sase-ay.5.md) | 2026-07-29 22:56:09 |
