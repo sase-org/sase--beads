@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / sase-ax
 
-**Status:** ◐ in_progress · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ax.land`
-**Created:** 2026-07-29 21:06:31 UTC
+**Created:** 2026-07-29 21:06:31 UTC · **Closed:** 2026-07-29 23:44:06 UTC
 **Plan:** [202607/artifact\_read\_cli.md](https://github.com/sase-org/sase--plans/blob/main/202607/artifact_read_cli.md)
 
 ## Description
 
 Agents and humans can discover, inspect, resolve, and open any indexed artifact from the CLI, and every artifact-file record carries sha256, size_bytes, and mime_type with a safe, idempotent backfill.
+
+## Notes
+
+[2026-07-29T23:44:06Z · sase-ax.land] Landing audit: verified all four closed child phases and their source commits: sase-core ad900a7 delivered the tolerant v1/v2 Rust query contract and binding; f39b0c40 delivered enrichment, preserving writes, and doctor/backfill APIs; 30e2ed37 delivered the canonical artifact CLI, compatibility alias, resolver/viewers, and tests; c40aa7f9 delivered the generated skill source and docs. Reviewed the later preview rendering/search, prompt stabilization, punctuation, and path-inventory warming changes and found no conflicts. Integrated prompt artifact completion with query_artifact_files on cache misses only, preserved mtime/size caching, project aliases plus unscoped rows, the 500-row bound, Rust ordering, and filesystem-free keystroke paths. Deployed sase_artifact_file from clean canonical c40aa7f9 to all five provider skill locations; sase skill init --diff is empty. Ran the real-index backfill and verified 4091 supported rows with no missing enrichment/stored files, duplicates, unsupported schemas, or malformed rows; missing recycled-workspace sources remain informational. Smoked bounded image listing with durable file refs and sase display names, and resolved plans:202607/artifact_read_cli.md. Focused integration tests passed 74/74; committed-plan validation passed 3304 files; full suite passed 23949 with 7 skipped. just check passed formatting, Ruff, mypy, scripts, changelog, Symvision, and toobig, then stopped only on six pre-existing prompt reverse-link errors in three unrelated July plans: artifacts_files_subtab, at_reference_completion_menu, and copy_as_palette.
+
+[2026-07-29T23:46:22Z · sase-ax.land] Verified 74 focused tests, 23,949 full-suite passes with 7 skips, clean post-close Symvision, healthy 4,091-row artifact index, empty generated-skill drift, and only six unrelated pre-existing plan-link errors blocking just check.
 
 ## Phases
 
@@ -24,7 +30,7 @@ Agents and humans can discover, inspect, resolve, and open any indexed artifact 
 
 ```mermaid
 flowchart TD
-    n0["sase-ax: Ship sase artifact as a read CLI, and add three record fields [in_progress]"]
+    n0["sase-ax: Ship sase artifact as a read CLI, and add three record fields [closed]"]
     n1["sase-ax.1: Artifact-file index contract and query API in sase-core [closed]"]
     n2["sase-ax.2: Three record fields, tolerant reader, preserving writer, backfill library [closed]"]
     n3["sase-ax.3: The sase artifact command group [closed]"]
@@ -47,7 +53,8 @@ flowchart TD
 | [bbugyi200.athena.sase-ax.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ax.3.md#member-code) | [sase-ax.3](sase-ax.3.md) | 1 |
 | [bbugyi200.athena.sase-ax.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ax.3.md#member-plan) | [sase-ax.3](sase-ax.3.md) | 0 |
 | [bbugyi200.athena.sase-ax.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.4/README.md) | [sase-ax.4](sase-ax.4.md) | 1 |
-| [bbugyi200.athena.sase-ax.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.land/README.md) | [sase-ax](README.md) | 0 |
+| [bbugyi200.athena.sase-ax.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ax.land.md#member-code) | [sase-ax](README.md) | 1 |
+| [bbugyi200.athena.sase-ax.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ax.land.md#member-plan) | [sase-ax](README.md) | 0 |
 
 ## Commits
 
@@ -56,3 +63,4 @@ flowchart TD
 | [`f39b0c4`](https://github.com/sase-org/sase/commit/f39b0c405616accf8e4431c34461bddad8006a22) | feat: enrich artifact file records | [sase-ax.2](sase-ax.2.md) | 2026-07-29 21:35:50 |
 | [`30e2ed3`](https://github.com/sase-org/sase/commit/30e2ed37ed28cc2dab894e69419d206fec79ce05) | feat(cli): add artifact read commands | [sase-ax.3](sase-ax.3.md) | 2026-07-29 22:50:18 |
 | [`c40aa7f`](https://github.com/sase-org/sase/commit/c40aa7f9f5b755223e54469ee31693edc24d46f7) | docs: document the sase artifact read commands | [sase-ax.4](sase-ax.4.md) | 2026-07-29 23:22:55 |
+| [`af42951`](https://github.com/sase-org/sase/commit/af42951798753ef28a2c73e75bcbef1780dbfb83) | perf: warm artifact completion through Rust query | [sase-ax](README.md) | 2026-07-29 23:46:56 |
