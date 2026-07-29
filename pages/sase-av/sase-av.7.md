@@ -21,4 +21,5 @@ lsp-complete: complete and diagnose artifact references in the Rust xprompt LSP 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-av.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.7/README.md) | [sase-av.7](sase-av.7.md) | 0 |
+| [bbugyi200.athena.sase-av.7--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-code) | [sase-av.7](sase-av.7.md) | 0 |
+| [bbugyi200.athena.sase-av.7--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-plan) | [sase-av.7](sase-av.7.md) | 0 |
