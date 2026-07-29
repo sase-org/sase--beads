@@ -18,15 +18,3 @@ docs: describe the keyed marker, its qualification rule, and the `!` override in
 ## Dependencies
 
 - **Depends on:** [sase-aq.4](sase-aq.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-aq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.6/README.md) | [sase-aq.6](sase-aq.6.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`0272356`](https://github.com/sase-org/sase/commit/0272356a5df3070960e1634eae673524fe3d0bc0) | docs: document keyed xprompt markers | [sase-aq.6](sase-aq.6.md) | 2026-07-29 14:56:41 |
