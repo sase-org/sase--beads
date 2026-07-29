@@ -13,7 +13,7 @@ chops: author reports for ci_watch, toobig_split, recent_bug_audit, and recent_i
 
 ## Dependencies
 
-- **Depends on:** [sase-ar.2](sase-ar.2.md) ◐
+- **Depends on:** [sase-ar.2](sase-ar.2.md) ✓
 - **Blocks:** [sase-ar.6](sase-ar.6.md) ◐
 
 ## Agents

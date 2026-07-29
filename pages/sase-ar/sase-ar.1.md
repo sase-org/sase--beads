@@ -19,7 +19,7 @@ contract: add the optional `report` block document to the chop result wire in sa
 
 ## Dependencies
 
-- **Blocks:** [sase-ar.2](sase-ar.2.md) ◐
+- **Blocks:** [sase-ar.2](sase-ar.2.md) ✓
 - **Blocks:** [sase-ar.3](sase-ar.3.md) ✓
 
 ## Agents
