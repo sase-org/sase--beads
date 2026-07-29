@@ -49,4 +49,4 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`4f4fdd6`](https://github.com/bbugyi200/bugyi-chops/commit/4f4fdd6af31de0ff5d41dfc911669a1ffb7ed455) | feat(ci-watch): publish durable release reports | [sase-at.3](sase-at.3.md) | 2026-07-29 15:29:10 |
+| [`b404bf6`](https://github.com/bbugyi200/dotfiles/commit/b404bf6d137344ebc9a22cffe2f9abd2fc08fb89) | docs(sase): describe ci-watch release reports | [sase-at.3](sase-at.3.md) | 2026-07-29 15:30:03 |
