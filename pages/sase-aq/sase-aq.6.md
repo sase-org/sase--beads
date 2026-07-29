@@ -14,3 +14,9 @@ docs: describe the keyed marker, its qualification rule, and the `!` override in
 ## Dependencies
 
 - **Depends on:** [sase-aq.4](sase-aq.4.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.6/README.md) | [sase-aq.6](sase-aq.6.md) | 0 |

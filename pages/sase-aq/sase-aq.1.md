@@ -19,16 +19,10 @@ grammar: teach `sase_core::agent_name_template` the `{@<id>}` / `{@<id>!}` marke
 
 ## Dependencies
 
-- **Blocks:** [sase-aq.2](sase-aq.2.md) ◐
+- **Blocks:** [sase-aq.2](sase-aq.2.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aq.1 | [sase-aq.1](sase-aq.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`8facc89`](https://github.com/sase-org/sase-core/commit/8facc89d62a65a932adaa9020749f2042f1b06b4) | feat: add keyed agent name template markers | [sase-aq.1](sase-aq.1.md) | 2026-07-29 13:18:36 |
+| [bbugyi200.athena.sase-aq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.1/README.md) | [sase-aq.1](sase-aq.1.md) | 0 |

@@ -14,3 +14,9 @@ migrate: convert the bare `@` markers in this repo's `reads` swarm and the chezm
 ## Dependencies
 
 - **Depends on:** [sase-aq.4](sase-aq.4.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.5/README.md) | [sase-aq.5](sase-aq.5.md) | 0 |
