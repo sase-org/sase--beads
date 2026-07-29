@@ -13,7 +13,7 @@ role-consumers: replace every remaining literal `("plans", "research", "beads")`
 
 ## Dependencies
 
-- **Depends on:** [sase-as.5](sase-as.5.md) ◐
+- **Depends on:** [sase-as.5](sase-as.5.md) ✓
 
 ## Agents
 
