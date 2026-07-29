@@ -21,3 +21,9 @@ contract: add the optional `report` block document to the chop result wire in sa
 
 - **Blocks:** [sase-ar.2](sase-ar.2.md) ✓
 - **Blocks:** [sase-ar.3](sase-ar.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ar.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.1/README.md) | [sase-ar.1](sase-ar.1.md) | 0 |

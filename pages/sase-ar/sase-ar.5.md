@@ -24,10 +24,4 @@ chops: author reports for ci_watch, toobig_split, recent_bug_audit, and recent_i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ar.5 | [sase-ar.5](sase-ar.5.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`5cd8223`](https://github.com/bbugyi200/bugyi-chops/commit/5cd822340d20ab900a6ffc34b55254ac692d8dd6) | feat: add structured reports for chops | [sase-ar.5](sase-ar.5.md) | 2026-07-29 14:41:45 |
+| [bbugyi200.athena.sase-ar.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.5/README.md) | [sase-ar.5](sase-ar.5.md) | 0 |

@@ -13,5 +13,11 @@ verify: run each bugyi chop against the real configuration, confirm the AXE tab 
 
 ## Dependencies
 
-- **Depends on:** [sase-ar.4](sase-ar.4.md) ◐
+- **Depends on:** [sase-ar.4](sase-ar.4.md) ✓
 - **Depends on:** [sase-ar.5](sase-ar.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ar.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.6/README.md) | [sase-ar.6](sase-ar.6.md) | 0 |

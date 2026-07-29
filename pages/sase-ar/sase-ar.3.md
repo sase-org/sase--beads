@@ -20,4 +20,16 @@ render: build the shared block renderer and repaint the AXE chop-run detail pane
 ## Dependencies
 
 - **Depends on:** [sase-ar.1](sase-ar.1.md) ✓
-- **Blocks:** [sase-ar.4](sase-ar.4.md) ◐
+- **Blocks:** [sase-ar.4](sase-ar.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ar.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.3/README.md) | [sase-ar.3](sase-ar.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`bc501e5`](https://github.com/sase-org/sase/commit/bc501e595b0ee0e09d915daf68b7528b1bc50a84) | feat(axe): render structured chop result reports | [sase-ar.3](sase-ar.3.md) | 2026-07-29 14:27:59 |
