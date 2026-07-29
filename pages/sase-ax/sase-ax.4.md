@@ -18,15 +18,3 @@ artifact-skill-docs: extend the sase_artifact_file skill template from create-on
 ## Dependencies
 
 - **Depends on:** [sase-ax.3](sase-ax.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ax.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.4/README.md) | [sase-ax.4](sase-ax.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`c40aa7f`](https://github.com/sase-org/sase/commit/c40aa7f9f5b755223e54469ee31693edc24d46f7) | docs: document the sase artifact read commands | [sase-ax.4](sase-ax.4.md) | 2026-07-29 23:22:55 |

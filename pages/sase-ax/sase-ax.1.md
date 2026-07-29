@@ -18,9 +18,3 @@ core-index-contract: extract the index parser into a tolerant full-record module
 ## Dependencies
 
 - **Blocks:** [sase-ax.3](sase-ax.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ax.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.1/README.md) | [sase-ax.1](sase-ax.1.md) | 0 |
