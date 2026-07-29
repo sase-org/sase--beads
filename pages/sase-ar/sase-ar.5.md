@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-ar](README.md) / sase-ar.5
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ar.5` · **Size:** medium
-**Created:** 2026-07-29 13:50:09 UTC
+**Created:** 2026-07-29 13:50:09 UTC · **Closed:** 2026-07-29 14:40:30 UTC
 **Plan:** [202607/axe\_chop\_reports.md](https://github.com/sase-org/sase--plans/blob/main/202607/axe_chop_reports.md)
 
 ## Description
 
 chops: author reports for ci_watch, toobig_split, recent_bug_audit, and recent_improvement_audit in the bugyi-chops repo behind one shared house style, and unify toobig_split's clan summary with its report.
+
+## Notes
+
+[2026-07-29T14:40:30Z · sase-ar.5] Implemented structured reports for ci_watch, toobig_split, recent_bug_audit, and recent_improvement_audit with shared house-style helpers; unified toobig_split report/clan-summary rows; raised the SASE floor to 0.13.2; verified with bugyi-chops just check against the editable SASE workspace (Ruff, strict mypy, 130 tests at 91% coverage, build, and twine check all passed).
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ chops: author reports for ci_watch, toobig_split, recent_bug_audit, and recent_i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ar.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.5/README.md) | [sase-ar.5](sase-ar.5.md) | 0 |
+| bbugyi200.athena.sase-ar.5 | [sase-ar.5](sase-ar.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`5cd8223`](https://github.com/bbugyi200/bugyi-chops/commit/5cd822340d20ab900a6ffc34b55254ac692d8dd6) | feat: add structured reports for chops | [sase-ar.5](sase-ar.5.md) | 2026-07-29 14:41:45 |
