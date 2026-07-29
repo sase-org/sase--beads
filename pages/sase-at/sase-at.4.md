@@ -14,10 +14,4 @@ verify: document the ViewReport action and the ci_watch release report, then ver
 ## Dependencies
 
 - **Depends on:** [sase-at.2](sase-at.2.md) ◐
-- **Depends on:** [sase-at.3](sase-at.3.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-at.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.4/README.md) | [sase-at.4](sase-at.4.md) | 0 |
+- **Depends on:** [sase-at.3](sase-at.3.md) ✓

@@ -13,11 +13,5 @@ ui: render the loaded report in the notification modal's right pane with a prove
 
 ## Dependencies
 
-- **Depends on:** [sase-at.1](sase-at.1.md) ✓
+- **Depends on:** [sase-at.1](sase-at.1.md) ◐
 - **Blocks:** [sase-at.4](sase-at.4.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-at.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.2/README.md) | [sase-at.2](sase-at.2.md) | 0 |
