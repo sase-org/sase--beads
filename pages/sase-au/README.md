@@ -15,12 +15,12 @@ The SASE Admin Center Statistics tab has an XPrompts sub-tab that reports which 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-au.1](sase-au.1.md) | Project launch-boundary xprompt usage into the artifact scan record and index | ✓ closed | medium | 1 | 1 |
-| [sase-au.2](sase-au.2.md) | XPrompt aggregation section in the run-statistics wire and query | ◐ in_progress | medium | 0 | 0 |
-| [sase-au.3](sase-au.3.md) | Python statistics models and builder for the XPrompts view | ◐ in_progress | medium | 0 | 0 |
-| [sase-au.4](sase-au.4.md) | XPrompts sub-tab with four grouping strategies | ◐ in_progress | medium | 0 | 0 |
-| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ◐ in_progress | medium | 0 | 0 |
-| [sase-au.6](sase-au.6.md) | Land the cross-repo contract, snapshots, and documentation | ◐ in_progress | medium | 0 | 0 |
+| [sase-au.1](sase-au.1.md) | Project launch-boundary xprompt usage into the artifact scan record and index | ✓ closed | medium | 1 | 0 |
+| [sase-au.2](sase-au.2.md) | XPrompt aggregation section in the run-statistics wire and query | ◐ in_progress | medium | 1 | 0 |
+| [sase-au.3](sase-au.3.md) | Python statistics models and builder for the XPrompts view | ✓ closed | medium | 1 | 1 |
+| [sase-au.4](sase-au.4.md) | XPrompts sub-tab with four grouping strategies | ◐ in_progress | medium | 1 | 0 |
+| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ◐ in_progress | medium | 1 | 0 |
+| [sase-au.6](sase-au.6.md) | Land the cross-repo contract, snapshots, and documentation | ◐ in_progress | medium | 1 | 0 |
 
 ## Lineage
 
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-au: XPrompts sub-tab for the Admin Center Statistics panel [in_progress]"]
     n1["sase-au.1: Project launch-boundary xprompt usage into the artifact scan record and index [closed]"]
     n2["sase-au.2: XPrompt aggregation section in the run-statistics wire and query [in_progress]"]
-    n3["sase-au.3: Python statistics models and builder for the XPrompts view [in_progress]"]
+    n3["sase-au.3: Python statistics models and builder for the XPrompts view [closed]"]
     n4["sase-au.4: XPrompts sub-tab with four grouping strategies [in_progress]"]
     n5["sase-au.5: Zoom into one xprompt with a focus picker, scope chip, and keys [in_progress]"]
     n6["sase-au.6: Land the cross-repo contract, snapshots, and documentation [in_progress]"]
@@ -50,10 +50,16 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-au.1 | [sase-au.1](sase-au.1.md) | 1 |
+| [bbugyi200.athena.sase-au.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.1/README.md) | [sase-au.1](sase-au.1.md) | 0 |
+| [bbugyi200.athena.sase-au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.2/README.md) | [sase-au.2](sase-au.2.md) | 0 |
+| [bbugyi200.athena.sase-au.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.3/README.md) | [sase-au.3](sase-au.3.md) | 1 |
+| [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 0 |
+| [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 0 |
+| [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 0 |
+| [bbugyi200.athena.sase-au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.land/README.md) | [sase-au](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`c3e88cf`](https://github.com/sase-org/sase-core/commit/c3e88cf66f2207c75672800cf9f722170c63fc69) | feat(scan): project xprompt usage into artifact records | [sase-au.1](sase-au.1.md) | 2026-07-29 16:37:17 |
+| [`6d99736`](https://github.com/sase-org/sase/commit/6d99736516c426d900faa813f2584336fb3cffdc) | feat(stats): add XPrompt statistics view models | [sase-au.3](sase-au.3.md) | 2026-07-29 16:40:55 |
