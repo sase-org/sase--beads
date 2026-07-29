@@ -23,10 +23,10 @@ migrate: convert the bare `@` markers in this repo's `reads` swarm and the chezm
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-aq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.5/README.md) | [sase-aq.5](sase-aq.5.md) | 1 |
+| bbugyi200.athena.sase-aq.5 | [sase-aq.5](sase-aq.5.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`5d4716c`](https://github.com/sase-org/sase/commit/5d4716c3572ced4281cbf97b527cc9bdcdd0ed4b) | refactor: use keyed name markers in the reads swarm | [sase-aq.5](sase-aq.5.md) | 2026-07-29 14:40:08 |
+| [`48dc29b`](https://github.com/bbugyi200/dotfiles/commit/48dc29b1bc0d53b9ee4b68c62affa97736f709ef) | refactor: use keyed name markers in the research swarm | [sase-aq.5](sase-aq.5.md) | 2026-07-29 14:42:36 |
