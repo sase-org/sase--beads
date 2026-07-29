@@ -20,7 +20,7 @@ resolve: add a keyed marker resolver that allocates one token per key under the 
 ## Dependencies
 
 - **Depends on:** [sase-aq.2](sase-aq.2.md) ✓
-- **Blocks:** [sase-aq.4](sase-aq.4.md) ◐
+- **Blocks:** [sase-aq.4](sase-aq.4.md) ✓
 
 ## Agents
 

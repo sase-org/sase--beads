@@ -13,7 +13,7 @@ migrate: convert the bare `@` markers in this repo's `reads` swarm and the chezm
 
 ## Dependencies
 
-- **Depends on:** [sase-aq.4](sase-aq.4.md) ◐
+- **Depends on:** [sase-aq.4](sase-aq.4.md) ✓
 
 ## Agents
 

@@ -13,7 +13,7 @@ docs: describe the keyed marker, its qualification rule, and the `!` override in
 
 ## Dependencies
 
-- **Depends on:** [sase-aq.4](sase-aq.4.md) ◐
+- **Depends on:** [sase-aq.4](sase-aq.4.md) ✓
 
 ## Agents
 
