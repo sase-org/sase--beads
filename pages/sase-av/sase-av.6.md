@@ -14,7 +14,7 @@ prompt-complete: complete artifact references in the prompt bar — kinds after 
 ## Dependencies
 
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
-- **Depends on:** [sase-av.5](sase-av.5.md) ◐
+- **Depends on:** [sase-av.5](sase-av.5.md) ✓
 
 ## Agents
 
