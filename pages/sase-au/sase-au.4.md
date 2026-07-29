@@ -20,7 +20,7 @@ tui-view: register the XPrompts view in the Statistics pane, render its four `g`
 ## Dependencies
 
 - **Depends on:** [sase-au.3](sase-au.3.md) ✓
-- **Blocks:** [sase-au.5](sase-au.5.md) ◐
+- **Blocks:** [sase-au.5](sase-au.5.md) ✓
 
 ## Agents
 

@@ -19,7 +19,7 @@ The SASE Admin Center Statistics tab has an XPrompts sub-tab that reports which 
 | [sase-au.2](sase-au.2.md) | XPrompt aggregation section in the run-statistics wire and query | ✓ closed | medium | 1 | 0 |
 | [sase-au.3](sase-au.3.md) | Python statistics models and builder for the XPrompts view | ✓ closed | medium | 1 | 1 |
 | [sase-au.4](sase-au.4.md) | XPrompts sub-tab with four grouping strategies | ✓ closed | medium | 1 | 1 |
-| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ◐ in_progress | medium | 1 | 0 |
+| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ✓ closed | medium | 1 | 1 |
 | [sase-au.6](sase-au.6.md) | Land the cross-repo contract, snapshots, and documentation | ◐ in_progress | medium | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-au.2: XPrompt aggregation section in the run-statistics wire and query [closed]"]
     n3["sase-au.3: Python statistics models and builder for the XPrompts view [closed]"]
     n4["sase-au.4: XPrompts sub-tab with four grouping strategies [closed]"]
-    n5["sase-au.5: Zoom into one xprompt with a focus picker, scope chip, and keys [in_progress]"]
+    n5["sase-au.5: Zoom into one xprompt with a focus picker, scope chip, and keys [closed]"]
     n6["sase-au.6: Land the cross-repo contract, snapshots, and documentation [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.2/README.md) | [sase-au.2](sase-au.2.md) | 0 |
 | [bbugyi200.athena.sase-au.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.3/README.md) | [sase-au.3](sase-au.3.md) | 1 |
 | [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 1 |
-| [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 0 |
+| [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 1 |
 | [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 0 |
 | [bbugyi200.athena.sase-au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.land/README.md) | [sase-au](README.md) | 0 |
 
@@ -64,3 +64,4 @@ flowchart TD
 |---|---|---|---|
 | [`6d99736`](https://github.com/sase-org/sase/commit/6d99736516c426d900faa813f2584336fb3cffdc) | feat(stats): add XPrompt statistics view models | [sase-au.3](sase-au.3.md) | 2026-07-29 16:40:55 |
 | [`7ddfbb1`](https://github.com/sase-org/sase/commit/7ddfbb16a13bd0771d1bf3d47fc19beee3a31086) | feat(tui): add xprompt statistics view | [sase-au.4](sase-au.4.md) | 2026-07-29 17:13:25 |
+| [`c81eb5d`](https://github.com/sase-org/sase/commit/c81eb5d429127ee80cf0098c0e20932b74cc0ffa) | feat(ace): focus statistics on an xprompt | [sase-au.5](sase-au.5.md) | 2026-07-29 17:49:00 |

@@ -14,7 +14,7 @@ land: raise the sase-core-rs floor together with the Python artifact-index schem
 ## Dependencies
 
 - **Depends on:** [sase-au.2](sase-au.2.md) ✓
-- **Depends on:** [sase-au.5](sase-au.5.md) ◐
+- **Depends on:** [sase-au.5](sase-au.5.md) ✓
 
 ## Agents
 
