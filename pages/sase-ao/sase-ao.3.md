@@ -14,7 +14,7 @@ rows: add a shared model-alias presentation module used by both the Models panel
 ## Dependencies
 
 - **Depends on:** [sase-ao.1](sase-ao.1.md) ✓
-- **Depends on:** [sase-ao.2](sase-ao.2.md) ◐
+- **Depends on:** [sase-ao.2](sase-ao.2.md) ✓
 - **Blocks:** [sase-ao.5](sase-ao.5.md) ◐
 
 ## Agents

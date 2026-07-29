@@ -13,7 +13,7 @@ lsp: consume the new catalog fields in sase-core's xprompt LSP so editors show a
 
 ## Dependencies
 
-- **Depends on:** [sase-ao.2](sase-ao.2.md) ◐
+- **Depends on:** [sase-ao.2](sase-ao.2.md) ✓
 - **Blocks:** [sase-ao.5](sase-ao.5.md) ◐
 
 ## Agents
