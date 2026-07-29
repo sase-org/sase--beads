@@ -21,15 +21,3 @@ reader-search: add a hidden commit-on-enter search input with smartcase substrin
 
 - **Depends on:** [sase-aw.1](sase-aw.1.md) ✓
 - **Depends on:** [sase-aw.2](sase-aw.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-aw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.3/README.md) | [sase-aw.3](sase-aw.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`cc7a347`](https://github.com/sase-org/sase/commit/cc7a347c3a9a15af4154117acb33ce27384e48cd) | feat(ace): add source search to preview reader | [sase-aw.3](sase-aw.3.md) | 2026-07-29 23:10:50 |
