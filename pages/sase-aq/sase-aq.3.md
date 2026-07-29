@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-aq](README.md) / sase-aq.3
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-aq.3` · **Size:** medium
-**Created:** 2026-07-29 13:07:34 UTC
+**Created:** 2026-07-29 13:07:34 UTC · **Closed:** 2026-07-29 14:03:10 UTC
 **Plan:** [202607/agent\_name\_key\_markers.md](https://github.com/sase-org/sase--plans/blob/main/202607/agent_name_key_markers.md)
 
 ## Description
 
 resolve: add a keyed marker resolver that allocates one token per key under the agent-name lock and rewrites every occurrence in the dispatch's segment text, wire it into the launch funnel, and reject markers that reach a runner.
+
+## Notes
+
+[2026-07-29T14:03:10Z · sase-aq.3] Implemented dispatch-scoped keyed marker allocation/substitution across CWD, ACE TUI, and the shared multi-prompt launcher, plus runner fail-fast for unresolved executable markers. Verified 30 focused tests and the full suite: 23518 passed, 7 skipped. Formatting, ruff, mypy, pyscripts, Symvision, and toobig passed; full just check reached only pre-existing external init-skills drift for 15 generated provider files.
+
+[2026-07-29T14:04:00Z · sase-aq.3] Verified 30 focused tests and the full suite (23,518 passed, 7 skipped); formatting, ruff, mypy, scripts, Symvision, and size checks passed. just check only reported pre-existing external drift in 15 generated provider skill files, which were not modified.
 
 ## Dependencies
 
@@ -20,4 +26,10 @@ resolve: add a keyed marker resolver that allocates one token per key under the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-aq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.3/README.md) | [sase-aq.3](sase-aq.3.md) | 0 |
+| [bbugyi200.athena.sase-aq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.3/README.md) | [sase-aq.3](sase-aq.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`6209176`](https://github.com/sase-org/sase/commit/6209176ae2b38de2c5a4fd5bdf18909d647b2619) | feat(agent): resolve keyed name markers at launch | [sase-aq.3](sase-aq.3.md) | 2026-07-29 14:04:43 |

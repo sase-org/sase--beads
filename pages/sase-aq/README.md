@@ -17,7 +17,7 @@ Every `@` reference inside one xprompt swarm launch resolves to the same concret
 |---|---|---|---|---:|---:|
 | [sase-aq.1](sase-aq.1.md) | Keyed marker grammar in sase-core | ✓ closed | medium | 1 | 0 |
 | [sase-aq.2](sase-aq.2.md) | Python facade and prompt-grammar plumbing | ✓ closed | small | 1 | 1 |
-| [sase-aq.3](sase-aq.3.md) | Launch-time key resolution and text substitution | ◐ in_progress | medium | 1 | 0 |
+| [sase-aq.3](sase-aq.3.md) | Launch-time key resolution and text substitution | ✓ closed | medium | 1 | 1 |
 | [sase-aq.4](sase-aq.4.md) | Per-invocation key qualification at swarm expansion | ◐ in_progress | medium | 1 | 0 |
 | [sase-aq.5](sase-aq.5.md) | Migrate existing xprompt swarms | ◐ in_progress | small | 1 | 0 |
 | [sase-aq.6](sase-aq.6.md) | Document the keyed marker syntax | ◐ in_progress | small | 1 | 0 |
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-aq: Keyed `{@&lt;id&gt;}` agent-name markers for xprompt swarms [in_progress]"]
     n1["sase-aq.1: Keyed marker grammar in sase-core [closed]"]
     n2["sase-aq.2: Python facade and prompt-grammar plumbing [closed]"]
-    n3["sase-aq.3: Launch-time key resolution and text substitution [in_progress]"]
+    n3["sase-aq.3: Launch-time key resolution and text substitution [closed]"]
     n4["sase-aq.4: Per-invocation key qualification at swarm expansion [in_progress]"]
     n5["sase-aq.5: Migrate existing xprompt swarms [in_progress]"]
     n6["sase-aq.6: Document the keyed marker syntax [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-aq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.1/README.md) | [sase-aq.1](sase-aq.1.md) | 0 |
 | [bbugyi200.athena.sase-aq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.2/README.md) | [sase-aq.2](sase-aq.2.md) | 1 |
-| [bbugyi200.athena.sase-aq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.3/README.md) | [sase-aq.3](sase-aq.3.md) | 0 |
+| [bbugyi200.athena.sase-aq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.3/README.md) | [sase-aq.3](sase-aq.3.md) | 1 |
 | [bbugyi200.athena.sase-aq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.4/README.md) | [sase-aq.4](sase-aq.4.md) | 0 |
 | [bbugyi200.athena.sase-aq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.5/README.md) | [sase-aq.5](sase-aq.5.md) | 0 |
 | [bbugyi200.athena.sase-aq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.6/README.md) | [sase-aq.6](sase-aq.6.md) | 0 |
@@ -63,3 +63,4 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`79be1d5`](https://github.com/sase-org/sase/commit/79be1d53a316d326790a9421435edf2942481fd9) | feat(agent): expose keyed agent-name markers in Python | [sase-aq.2](sase-aq.2.md) | 2026-07-29 13:45:56 |
+| [`6209176`](https://github.com/sase-org/sase/commit/6209176ae2b38de2c5a4fd5bdf18909d647b2619) | feat(agent): resolve keyed name markers at launch | [sase-aq.3](sase-aq.3.md) | 2026-07-29 14:04:43 |

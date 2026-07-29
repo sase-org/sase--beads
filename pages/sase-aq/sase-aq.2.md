@@ -30,7 +30,7 @@ KNOWN BLOCKER, not resolvable in this phase: pyproject.toml bumped to sase-core-
 ## Dependencies
 
 - **Depends on:** [sase-aq.1](sase-aq.1.md) ✓
-- **Blocks:** [sase-aq.3](sase-aq.3.md) ◐
+- **Blocks:** [sase-aq.3](sase-aq.3.md) ✓
 
 ## Agents
 
