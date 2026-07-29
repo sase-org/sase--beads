@@ -21,7 +21,7 @@ lsp-complete: complete and diagnose artifact references in the Rust xprompt LSP 
 
 - **Depends on:** [sase-av.1](sase-av.1.md) ✓
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
-- **Blocks:** [sase-av.8](sase-av.8.md) ◐
+- **Blocks:** [sase-av.8](sase-av.8.md) ✓
 
 ## Agents
 

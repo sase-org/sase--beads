@@ -22,7 +22,7 @@ One reference grammar names every artifact SASE knows: `plans:` generalizes into
 | [sase-av.5](sase-av.5.md) | Artifact-reference highlighting in the prompt input widget | ✓ closed | medium | 1 | 1 |
 | [sase-av.6](sase-av.6.md) | Artifact-reference completion in the prompt bar | ✓ closed | large | 2 | 1 |
 | [sase-av.7](sase-av.7.md) | Artifact-reference completion and diagnostics in the xprompt LSP | ✓ closed | large | 2 | 1 |
-| [sase-av.8](sase-av.8.md) | Semantic-token highlighting for artifact references in editors | ◐ in_progress | medium | 1 | 0 |
+| [sase-av.8](sase-av.8.md) | Semantic-token highlighting for artifact references in editors | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-av.5: Artifact-reference highlighting in the prompt input widget [closed]"]
     n6["sase-av.6: Artifact-reference completion in the prompt bar [closed]"]
     n7["sase-av.7: Artifact-reference completion and diagnostics in the xprompt LSP [closed]"]
-    n8["sase-av.8: Semantic-token highlighting for artifact references in editors [in_progress]"]
+    n8["sase-av.8: Semantic-token highlighting for artifact references in editors [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-av.6--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.6.md#member-plan) | [sase-av.6](sase-av.6.md) | 0 |
 | [bbugyi200.athena.sase-av.7--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-code) | [sase-av.7](sase-av.7.md) | 1 |
 | [bbugyi200.athena.sase-av.7--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-plan) | [sase-av.7](sase-av.7.md) | 0 |
-| [bbugyi200.athena.sase-av.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.8/README.md) | [sase-av.8](sase-av.8.md) | 0 |
+| [bbugyi200.athena.sase-av.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.8/README.md) | [sase-av.8](sase-av.8.md) | 1 |
 | [bbugyi200.athena.sase-av.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.land/README.md) | [sase-av](README.md) | 0 |
 
 ## Commits
@@ -83,3 +83,4 @@ flowchart TD
 | [`d16fe1d`](https://github.com/sase-org/sase/commit/d16fe1dcd9abe1bcc0e6b44af0bc98e2b0ad5788) | feat(ace): copy artifact references from artifact tabs | [sase-av.3](sase-av.3.md) | 2026-07-29 18:38:57 |
 | [`3f6e4ea`](https://github.com/sase-org/sase/commit/3f6e4ea81a0ea13d5f0427358df02aa0c5cdde0a) | feat(editor): materialize artifact reference catalog for LSP | [sase-av.7](sase-av.7.md) | 2026-07-29 19:03:40 |
 | [`e55aab9`](https://github.com/sase-org/sase/commit/e55aab9c92f73f5f902fa58ee39641da6a78686a) | feat(ace): add artifact reference prompt completion | [sase-av.6](sase-av.6.md) | 2026-07-29 19:07:54 |
+| [`a0ca459`](https://github.com/sase-org/sase/commit/a0ca459ea1c0e9b4b938df8e42bcb1b0ba33d51d) | docs(editor): document artifact semantic highlighting | [sase-av.8](sase-av.8.md) | 2026-07-29 19:35:44 |
