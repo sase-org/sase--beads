@@ -21,15 +21,3 @@ reader-core: add a reference field to PreviewPayload (chats/plans callers fill i
 
 - **Blocks:** [sase-aw.2](sase-aw.2.md) ✓
 - **Blocks:** [sase-aw.3](sase-aw.3.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-aw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.1/README.md) | [sase-aw.1](sase-aw.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`a4d026b`](https://github.com/sase-org/sase/commit/a4d026ba78e0406fa2f13701d2c56afbfd4b72cc) | feat(ace): turn preview modal into artifact reader | [sase-aw.1](sase-aw.1.md) | 2026-07-29 21:23:54 |
