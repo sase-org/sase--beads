@@ -19,9 +19,3 @@ lsp: consume the new catalog fields in sase-core's xprompt LSP so editors show a
 
 - **Depends on:** [sase-ao.2](sase-ao.2.md) ✓
 - **Blocks:** [sase-ao.5](sase-ao.5.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ao.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.4/README.md) | [sase-ao.4](sase-ao.4.md) | 0 |

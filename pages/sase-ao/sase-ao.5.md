@@ -19,15 +19,3 @@ polish: add ACE PNG snapshots for the mixed and alias-only menus, and update the
 
 - **Depends on:** [sase-ao.3](sase-ao.3.md) ✓
 - **Depends on:** [sase-ao.4](sase-ao.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ao.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.5/README.md) | [sase-ao.5](sase-ao.5.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`fe53df8`](https://github.com/sase-org/sase/commit/fe53df885faf473a7ec5e459258e35764e6f8049) | docs(ace): document the %model alias completion rows | [sase-ao.5](sase-ao.5.md) | 2026-07-29 12:48:59 |
