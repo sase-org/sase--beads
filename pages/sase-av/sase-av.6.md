@@ -15,3 +15,10 @@ prompt-complete: complete artifact references in the prompt bar — kinds after 
 
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
 - **Depends on:** [sase-av.5](sase-av.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.6--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.6.md#member-code) | [sase-av.6](sase-av.6.md) | 0 |
+| [bbugyi200.athena.sase-av.6--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.6.md#member-plan) | [sase-av.6](sase-av.6.md) | 0 |

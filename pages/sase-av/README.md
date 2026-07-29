@@ -15,14 +15,14 @@ One reference grammar names every artifact SASE knows: `plans:` generalizes into
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-av.1](sase-av.1.md) | Kind-tagged artifact reference grammar in the Rust core | ✓ closed | large | 1 | 1 |
-| [sase-av.2](sase-av.2.md) | Python artifact-reference facade and context resolution | ✓ closed | medium | 0 | 0 |
-| [sase-av.3](sase-av.3.md) | Copy and hand off references from the Artifacts sub-tabs | ✓ closed | medium | 0 | 0 |
-| [sase-av.4](sase-av.4.md) | Recognize and expand artifact references at launch | ✓ closed | medium | 0 | 0 |
-| [sase-av.5](sase-av.5.md) | Artifact-reference highlighting in the prompt input widget | ✓ closed | medium | 0 | 0 |
-| [sase-av.6](sase-av.6.md) | Artifact-reference completion in the prompt bar | ◐ in_progress | large | 0 | 0 |
-| [sase-av.7](sase-av.7.md) | Artifact-reference completion and diagnostics in the xprompt LSP | ✓ closed | large | 1 | 1 |
-| [sase-av.8](sase-av.8.md) | Semantic-token highlighting for artifact references in editors | ◐ in_progress | medium | 0 | 0 |
+| [sase-av.1](sase-av.1.md) | Kind-tagged artifact reference grammar in the Rust core | ✓ closed | large | 2 | 0 |
+| [sase-av.2](sase-av.2.md) | Python artifact-reference facade and context resolution | ✓ closed | medium | 1 | 1 |
+| [sase-av.3](sase-av.3.md) | Copy and hand off references from the Artifacts sub-tabs | ✓ closed | medium | 1 | 1 |
+| [sase-av.4](sase-av.4.md) | Recognize and expand artifact references at launch | ✓ closed | medium | 1 | 1 |
+| [sase-av.5](sase-av.5.md) | Artifact-reference highlighting in the prompt input widget | ✓ closed | medium | 1 | 1 |
+| [sase-av.6](sase-av.6.md) | Artifact-reference completion in the prompt bar | ◐ in_progress | large | 2 | 0 |
+| [sase-av.7](sase-av.7.md) | Artifact-reference completion and diagnostics in the xprompt LSP | ✓ closed | large | 2 | 1 |
+| [sase-av.8](sase-av.8.md) | Semantic-token highlighting for artifact references in editors | ◐ in_progress | medium | 1 | 0 |
 
 ## Lineage
 
@@ -60,12 +60,25 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-av.1--code | [sase-av.1](sase-av.1.md) | 1 |
-| bbugyi200.athena.sase-av.7--code | [sase-av.7](sase-av.7.md) | 1 |
+| [bbugyi200.athena.sase-av.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.1.md#member-code) | [sase-av.1](sase-av.1.md) | 0 |
+| [bbugyi200.athena.sase-av.1--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.1.md#member-plan) | [sase-av.1](sase-av.1.md) | 0 |
+| [bbugyi200.athena.sase-av.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.2/README.md) | [sase-av.2](sase-av.2.md) | 1 |
+| [bbugyi200.athena.sase-av.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.3/README.md) | [sase-av.3](sase-av.3.md) | 1 |
+| [bbugyi200.athena.sase-av.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.4/README.md) | [sase-av.4](sase-av.4.md) | 1 |
+| [bbugyi200.athena.sase-av.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.5/README.md) | [sase-av.5](sase-av.5.md) | 1 |
+| [bbugyi200.athena.sase-av.6--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.6.md#member-code) | [sase-av.6](sase-av.6.md) | 0 |
+| [bbugyi200.athena.sase-av.6--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.6.md#member-plan) | [sase-av.6](sase-av.6.md) | 0 |
+| [bbugyi200.athena.sase-av.7--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-code) | [sase-av.7](sase-av.7.md) | 1 |
+| [bbugyi200.athena.sase-av.7--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-plan) | [sase-av.7](sase-av.7.md) | 0 |
+| [bbugyi200.athena.sase-av.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.8/README.md) | [sase-av.8](sase-av.8.md) | 0 |
+| [bbugyi200.athena.sase-av.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.land/README.md) | [sase-av](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`6c2adc4`](https://github.com/sase-org/sase-core/commit/6c2adc420a5ee24aecfe5fae305e2c869ab7b627) | feat: add core artifact reference APIs | [sase-av.1](sase-av.1.md) | 2026-07-29 17:15:02 |
-| [`334b987`](https://github.com/sase-org/sase-core/commit/334b987ae09afc5960ae9f4728c9803088839f60) | feat(editor): complete artifact references in xprompt LSP | [sase-av.7](sase-av.7.md) | 2026-07-29 19:02:38 |
+| [`9988b61`](https://github.com/sase-org/sase/commit/9988b6161c9b47b3a657b49981fb11b1bf3e0c98) | feat(artifacts): add artifact reference facade | [sase-av.2](sase-av.2.md) | 2026-07-29 17:52:13 |
+| [`46b40c5`](https://github.com/sase-org/sase/commit/46b40c5f6610b2ccd97d0e315b853a6563b2ab1a) | feat(artifacts): expand references during prompt launch | [sase-av.4](sase-av.4.md) | 2026-07-29 18:25:21 |
+| [`de57f5a`](https://github.com/sase-org/sase/commit/de57f5a5f3e8563b48400f2843737ef7b4c8b33b) | feat(tui): highlight artifact references in prompts | [sase-av.5](sase-av.5.md) | 2026-07-29 18:32:47 |
+| [`d16fe1d`](https://github.com/sase-org/sase/commit/d16fe1dcd9abe1bcc0e6b44af0bc98e2b0ad5788) | feat(ace): copy artifact references from artifact tabs | [sase-av.3](sase-av.3.md) | 2026-07-29 18:38:57 |
+| [`3f6e4ea`](https://github.com/sase-org/sase/commit/3f6e4ea81a0ea13d5f0427358df02aa0c5cdde0a) | feat(editor): materialize artifact reference catalog for LSP | [sase-av.7](sase-av.7.md) | 2026-07-29 19:03:40 |
