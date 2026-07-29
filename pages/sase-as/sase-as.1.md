@@ -19,7 +19,7 @@ copy-mode: admit `copy_tab_content` on non-PR Artifacts sub-tabs, dispatch the s
 
 ## Dependencies
 
-- **Blocks:** [sase-as.2](sase-as.2.md) ◐
+- **Blocks:** [sase-as.2](sase-as.2.md) ✓
 
 ## Agents
 
