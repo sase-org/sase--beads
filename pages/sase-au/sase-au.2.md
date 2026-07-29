@@ -26,10 +26,4 @@ core-stats: in sase-core, fold the projected xprompt usage of every in-window ru
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-au.2 | [sase-au.2](sase-au.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`60eccf6`](https://github.com/sase-org/sase-core/commit/60eccf66f9a29a5fa3b5d6929ddbe66f5354bda7) | feat(stats): aggregate xprompt usage | [sase-au.2](sase-au.2.md) | 2026-07-29 16:51:12 |
+| [bbugyi200.athena.sase-au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.2/README.md) | [sase-au.2](sase-au.2.md) | 0 |

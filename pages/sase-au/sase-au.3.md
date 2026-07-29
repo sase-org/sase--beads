@@ -17,4 +17,16 @@ py-stats: add the XPrompts view models, payload builder, and query request knobs
 
 ## Dependencies
 
-- **Blocks:** [sase-au.4](sase-au.4.md) ◐
+- **Blocks:** [sase-au.4](sase-au.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-au.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.3/README.md) | [sase-au.3](sase-au.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`6d99736`](https://github.com/sase-org/sase/commit/6d99736516c426d900faa813f2584336fb3cffdc) | feat(stats): add XPrompt statistics view models | [sase-au.3](sase-au.3.md) | 2026-07-29 16:40:55 |
