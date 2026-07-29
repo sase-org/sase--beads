@@ -18,9 +18,3 @@ core-corpora: teach the Rust plan reader to scan caller-supplied `(root, kind)` 
 ## Dependencies
 
 - **Blocks:** [sase-as.8](sase-as.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-as.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.7/README.md) | [sase-as.7](sase-as.7.md) | 0 |
