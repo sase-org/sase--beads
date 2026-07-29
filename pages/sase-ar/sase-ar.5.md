@@ -19,9 +19,3 @@ chops: author reports for ci_watch, toobig_split, recent_bug_audit, and recent_i
 
 - **Depends on:** [sase-ar.2](sase-ar.2.md) ✓
 - **Blocks:** [sase-ar.6](sase-ar.6.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ar.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.5/README.md) | [sase-ar.5](sase-ar.5.md) | 0 |
