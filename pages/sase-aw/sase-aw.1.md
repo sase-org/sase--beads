@@ -19,7 +19,7 @@ reader-core: add a reference field to PreviewPayload (chats/plans callers fill i
 
 ## Dependencies
 
-- **Blocks:** [sase-aw.2](sase-aw.2.md) ◐
+- **Blocks:** [sase-aw.2](sase-aw.2.md) ✓
 - **Blocks:** [sase-aw.3](sase-aw.3.md) ◐
 
 ## Agents

@@ -14,7 +14,7 @@ reader-search: add a hidden commit-on-enter search input with smartcase substrin
 ## Dependencies
 
 - **Depends on:** [sase-aw.1](sase-aw.1.md) ✓
-- **Depends on:** [sase-aw.2](sase-aw.2.md) ◐
+- **Depends on:** [sase-aw.2](sase-aw.2.md) ✓
 
 ## Agents
 

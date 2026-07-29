@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-aw](README.md) / sase-aw.2
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-aw.2` · **Size:** small
-**Created:** 2026-07-29 20:59:06 UTC
+**Created:** 2026-07-29 20:59:06 UTC · **Closed:** 2026-07-29 22:08:38 UTC
 **Plan:** [202607/preview\_panel\_reader.md](https://github.com/sase-org/sase--plans/blob/main/202607/preview_panel_reader.md)
 
 ## Description
 
 rendered-markdown: add default_view to PreviewPayload (plans rows open rendered), compose a hidden Textual Markdown widget toggled with R for markdown payloads, fence leading YAML frontmatter, enforce plain-render size caps with source fallback, style the widget, and cover with pilot/unit/PNG tests plus docs.
+
+## Notes
+
+[2026-07-29T22:08:38Z · sase-aw.2] Implemented rendered Markdown PreviewPanel reader with R source/rendered toggle, Plans default_view wiring, frontmatter fencing, render caps/source fallback, docs/help updates, focused tests/PNG goldens, and verified with just install, focused pytest/visual suites, SASE validation, and just check.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ rendered-markdown: add default_view to PreviewPayload (plans rows open rendered)
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-aw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.2/README.md) | [sase-aw.2](sase-aw.2.md) | 0 |
+| [bbugyi200.athena.sase-aw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aw.2/README.md) | [sase-aw.2](sase-aw.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`afad2e6`](https://github.com/sase-org/sase/commit/afad2e6ca1b5bce83e1facb22f584c137346bf40) | feat(ace): render plan previews as markdown | [sase-aw.2](sase-aw.2.md) | 2026-07-29 22:11:46 |
