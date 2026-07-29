@@ -23,10 +23,10 @@ lsp-tokens: add a semantic-tokens provider to the xprompt LSP that colors artifa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-av.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.8/README.md) | [sase-av.8](sase-av.8.md) | 1 |
+| bbugyi200.athena.sase-av.8 | [sase-av.8](sase-av.8.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`a0ca459`](https://github.com/sase-org/sase/commit/a0ca459ea1c0e9b4b938df8e42bcb1b0ba33d51d) | docs(editor): document artifact semantic highlighting | [sase-av.8](sase-av.8.md) | 2026-07-29 19:35:44 |
+| [`cea6266`](https://github.com/sase-org/sase-core/commit/cea62669565bcd7fc69e1872898bbae08255f170) | feat(lsp): highlight artifact references with semantic tokens | [sase-av.8](sase-av.8.md) | 2026-07-29 19:36:32 |

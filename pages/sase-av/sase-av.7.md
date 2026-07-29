@@ -27,11 +27,10 @@ lsp-complete: complete and diagnose artifact references in the Rust xprompt LSP 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-av.7--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-code) | [sase-av.7](sase-av.7.md) | 1 |
-| [bbugyi200.athena.sase-av.7--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-av.7.md#member-plan) | [sase-av.7](sase-av.7.md) | 0 |
+| bbugyi200.athena.sase-av.7--code | [sase-av.7](sase-av.7.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`3f6e4ea`](https://github.com/sase-org/sase/commit/3f6e4ea81a0ea13d5f0427358df02aa0c5cdde0a) | feat(editor): materialize artifact reference catalog for LSP | [sase-av.7](sase-av.7.md) | 2026-07-29 19:03:40 |
+| [`334b987`](https://github.com/sase-org/sase-core/commit/334b987ae09afc5960ae9f4728c9803088839f60) | feat(editor): complete artifact references in xprompt LSP | [sase-av.7](sase-av.7.md) | 2026-07-29 19:02:38 |
