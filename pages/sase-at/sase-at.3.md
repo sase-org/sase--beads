@@ -17,17 +17,11 @@ chop: give the bugyi-chops ci_watch chop a durable release ledger, a per-tick pu
 
 ## Dependencies
 
-- **Depends on:** [sase-at.1](sase-at.1.md) ◐
-- **Blocks:** [sase-at.4](sase-at.4.md) ◐
+- **Depends on:** [sase-at.1](sase-at.1.md) ✓
+- **Blocks:** [sase-at.4](sase-at.4.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-at.3 | [sase-at.3](sase-at.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`b404bf6`](https://github.com/bbugyi200/dotfiles/commit/b404bf6d137344ebc9a22cffe2f9abd2fc08fb89) | docs(sase): describe ci-watch release reports | [sase-at.3](sase-at.3.md) | 2026-07-29 15:30:03 |
+| [bbugyi200.athena.sase-at.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.3/README.md) | [sase-at.3](sase-at.3.md) | 0 |
