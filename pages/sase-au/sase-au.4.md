@@ -15,9 +15,3 @@ tui-view: register the XPrompts view in the Statistics pane, render its four `g`
 
 - **Depends on:** [sase-au.3](sase-au.3.md) ✓
 - **Blocks:** [sase-au.5](sase-au.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 0 |

@@ -15,9 +15,3 @@ tui-focus: add the xprompt focus picker modal, the XPrompt scope chip, the focus
 
 - **Depends on:** [sase-au.4](sase-au.4.md) ◐
 - **Blocks:** [sase-au.6](sase-au.6.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 0 |

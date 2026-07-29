@@ -13,11 +13,5 @@ land: raise the sase-core-rs floor together with the Python artifact-index schem
 
 ## Dependencies
 
-- **Depends on:** [sase-au.2](sase-au.2.md) ◐
+- **Depends on:** [sase-au.2](sase-au.2.md) ✓
 - **Depends on:** [sase-au.5](sase-au.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 0 |
