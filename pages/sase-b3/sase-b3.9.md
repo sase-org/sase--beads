@@ -13,5 +13,5 @@ land: update the editor and ace docs plus the sase-nvim completion table, raise 
 
 ## Dependencies
 
-- **Depends on:** [sase-b3.5](sase-b3.5.md) ◐
+- **Depends on:** [sase-b3.5](sase-b3.5.md) ✓
 - **Depends on:** [sase-b3.8](sase-b3.8.md) ◐
