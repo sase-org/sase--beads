@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-b5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.3/README.md) | [sase-b5.3](sase-b5.3.md) | 1 |
 | [bbugyi200.athena.sase-b5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.4/README.md) | [sase-b5.4](sase-b5.4.md) | 1 |
 | [bbugyi200.athena.sase-b5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.5/README.md) | [sase-b5.5](sase-b5.5.md) | 1 |
-| [bbugyi200.athena.sase-b5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.land/README.md) | [sase-b5](README.md) | 1 |
+| [bbugyi200.athena.sase-b5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.land/README.md) | [sase-b5](README.md) | 2 |
 
 ## Commits
 
@@ -71,3 +71,4 @@ flowchart TD
 | sase | [`8e7120e`](https://github.com/sase-org/sase/commit/8e7120ebe048dca1737c71592100244c8a52dc93) | feat(bead-pages): associate commits across project repositories | [sase-b5.4](sase-b5.4.md) | 2026-07-30 13:13:45 |
 | sase | [`f62e8cd`](https://github.com/sase-org/sase/commit/f62e8cd01713c934cb6e5fcf0374667805a78ceb) | feat(bead-pages): guard against misattributed commit links | [sase-b5.5](sase-b5.5.md) | 2026-07-30 13:31:35 |
 | sase | [`3475368`](https://github.com/sase-org/sase/commit/3475368f66c8cdacf59a26802ee50cdc53d23269) | refactor(sdd): make the checkout anchor dataclass module-private | [sase-b5](README.md) | 2026-07-30 13:59:24 |
+| sase--plans | [`4905691`](https://github.com/sase-org/sase--plans/commit/4905691eb170c61e3d6b1d072b08b871510b2733) | docs(plans): land the bead-page association anchors plan | [sase-b5](README.md) | 2026-07-30 14:00:34 |
