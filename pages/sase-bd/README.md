@@ -19,8 +19,8 @@ Closing an already-closed bead is a verified no-op that writes no event, no comm
 | [sase-bd.2](sase-bd.2.md) | Verified idempotent close in the mutation layer | ✓ closed | medium | 1 | 1 |
 | [sase-bd.3](sase-bd.3.md) | A convergent note\_appended event | ✓ closed | medium | 1 | 1 |
 | [sase-bd.4](sase-bd.4.md) | An honest sase bead close command | ◐ in_progress | medium | 1 | 0 |
-| [sase-bd.5](sase-bd.5.md) | Projection drift detection and repair | ◐ in_progress | medium | 1 | 0 |
-| [sase-bd.6](sase-bd.6.md) | Redundant closes and restores in history | ◐ in_progress | small | 1 | 0 |
+| [sase-bd.5](sase-bd.5.md) | Projection drift detection and repair | ✓ closed | medium | 1 | 1 |
+| [sase-bd.6](sase-bd.6.md) | Redundant closes and restores in history | ✓ closed | small | 1 | 0 |
 | [sase-bd.7](sase-bd.7.md) | Core floor bump, docs, and full check | ◐ in_progress | small | 1 | 0 |
 | [sase-bd.8](sase-bd.8.md) | Repair the live store under an approval gate | ◐ in_progress | small | 1 | 0 |
 
@@ -33,8 +33,8 @@ flowchart TD
     n2["sase-bd.2: Verified idempotent close in the mutation layer [closed]"]
     n3["sase-bd.3: A convergent note_appended event [closed]"]
     n4["sase-bd.4: An honest sase bead close command [in_progress]"]
-    n5["sase-bd.5: Projection drift detection and repair [in_progress]"]
-    n6["sase-bd.6: Redundant closes and restores in history [in_progress]"]
+    n5["sase-bd.5: Projection drift detection and repair [closed]"]
+    n6["sase-bd.6: Redundant closes and restores in history [closed]"]
     n7["sase-bd.7: Core floor bump, docs, and full check [in_progress]"]
     n8["sase-bd.8: Repair the live store under an approval gate [in_progress]"]
     n0 --> n1
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.2/README.md) | [sase-bd.2](sase-bd.2.md) | 1 |
 | [bbugyi200.athena.sase-bd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.3/README.md) | [sase-bd.3](sase-bd.3.md) | 1 |
 | [bbugyi200.athena.sase-bd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.4/README.md) | [sase-bd.4](sase-bd.4.md) | 0 |
-| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 0 |
+| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 1 |
 | [bbugyi200.athena.sase-bd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.6/README.md) | [sase-bd.6](sase-bd.6.md) | 0 |
 | [bbugyi200.athena.sase-bd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.7/README.md) | [sase-bd.7](sase-bd.7.md) | 0 |
 | [bbugyi200.athena.sase-bd.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.8/README.md) | [sase-bd.8](sase-bd.8.md) | 0 |
@@ -78,3 +78,4 @@ flowchart TD
 | sase-core | [`sase-core@160ff9e`](https://github.com/sase-org/sase-core/commit/160ff9e7616fae351febd676792970e3dd654cc7) | fix(bead): preserve the first close in event reduction | [sase-bd.1](sase-bd.1.md) | 2026-07-30 17:55:34 |
 | sase-core | [`sase-core@293ccb2`](https://github.com/sase-org/sase-core/commit/293ccb237ce21b8dd75a04346f32735d5b0b6835) | fix(bead): verify repeated closes before mutation | [sase-bd.2](sase-bd.2.md) | 2026-07-30 18:09:40 |
 | sase-core | [`sase-core@81a82d5`](https://github.com/sase-org/sase-core/commit/81a82d5542f1160f24b5aa7314ce32d2732e8952) | feat(bead)!: add convergent note append events | [sase-bd.3](sase-bd.3.md) | 2026-07-30 18:29:21 |
+| sase-core | [`sase-core@6468cb9`](https://github.com/sase-org/sase-core/commit/6468cb90b97394159b03ad2465f3f7b1d2b49770) | feat(beads): report projection drift diagnostics | [sase-bd.5](sase-bd.5.md) | 2026-07-30 18:50:04 |

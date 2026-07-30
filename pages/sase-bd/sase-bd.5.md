@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-bd](README.md) / sase-bd.5
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bd.5` · **Size:** medium
-**Created:** 2026-07-30 17:44:53 UTC
+**Created:** 2026-07-30 17:44:53 UTC · **Closed:** 2026-07-30 18:48:56 UTC
 **Plan:** [202607/bead\_close\_integrity.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_close_integrity.md)
 
 ## Description
 
 doctor-projection: teach doctor to compare `issues.jsonl` against the reduction of the canonical streams, census redundant close events with a recent-window rate, and add a guarded `--fix-projection` repair that refuses any diff outside the expected shape.
+
+## Notes
+
+[2026-07-30T18:48:56Z · sase-bd.5] Verified cargo test --workspace in sase-core, focused doctor/open CLI coverage, and full just check (including the 24k+ pytest suite); projection repair is idempotent and refuses row-set, status, unexpected-field, and later-closed_at drift.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ doctor-projection: teach doctor to compare `issues.jsonl` against the reduction 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 0 |
+| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase-core | [`sase-core@6468cb9`](https://github.com/sase-org/sase-core/commit/6468cb90b97394159b03ad2465f3f7b1d2b49770) | feat(beads): report projection drift diagnostics | [sase-bd.5](sase-bd.5.md) | 2026-07-30 18:50:04 |

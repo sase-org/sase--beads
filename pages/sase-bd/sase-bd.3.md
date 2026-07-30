@@ -11,6 +11,10 @@
 
 core-note-append: add a `note_appended` event whose payload carries only the entry text, move note rendering into the reducer so appends compose instead of replacing, keep legacy whole-string note events working unchanged, and turn an unknown event kind into an actionable error.
 
+## Notes
+
+[2026-07-30T18:35:21Z · sase-bd.3] Verified cargo fmt --all -- --check, cargo clippy --workspace --all-targets -- -D warnings, and cargo test --workspace; concurrent note appends merge in timestamp order, byte-identical appends deduplicate, legacy note snapshots remain compatible, unknown event operations name just install, and core commit 81a82d5 is on origin/master.
+
 ## Dependencies
 
 - **Depends on:** [sase-bd.2](sase-bd.2.md) ✓

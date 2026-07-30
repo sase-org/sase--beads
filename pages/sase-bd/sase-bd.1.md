@@ -18,8 +18,8 @@ core-close-interval: make `apply_event` treat a close of an already-closed bead 
 ## Dependencies
 
 - **Blocks:** [sase-bd.2](sase-bd.2.md) ✓
-- **Blocks:** [sase-bd.5](sase-bd.5.md) ◐
-- **Blocks:** [sase-bd.6](sase-bd.6.md) ◐
+- **Blocks:** [sase-bd.5](sase-bd.5.md) ✓
+- **Blocks:** [sase-bd.6](sase-bd.6.md) ✓
 
 ## Agents
 
