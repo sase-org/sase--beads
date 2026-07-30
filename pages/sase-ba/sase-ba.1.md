@@ -17,7 +17,7 @@ core-lifecycle: add a pure store-economics aggregator, a pure retention planner,
 
 ## Dependencies
 
-- **Blocks:** [sase-ba.2](sase-ba.2.md) ◐
+- **Blocks:** [sase-ba.2](sase-ba.2.md) ✓
 
 ## Agents
 
