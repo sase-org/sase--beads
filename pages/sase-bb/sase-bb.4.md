@@ -26,10 +26,11 @@ changespecs: parse, format, and atomically persist the REFS section in Python, c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 1 |
+| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`f921f42`](https://github.com/sase-org/sase/commit/f921f428dba97720bec8b0853fc5e6bcb34f535c) | feat(changespec): add artifact reference support | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:42:33 |
+| sase-nvim | [`sase-nvim@0e720ef`](https://github.com/sase-org/sase-nvim/commit/0e720efc478085f87664f6a28d13f4e87544e654) | feat: highlight artifact references in ChangeSpecs | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:53:25 |
