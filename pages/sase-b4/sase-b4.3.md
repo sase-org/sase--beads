@@ -23,9 +23,3 @@ core-floor: raise the published `sase-core-rs` dependency window in `pyproject.t
 
 - **Depends on:** [sase-b4.1](sase-b4.1.md) ✓
 - **Depends on:** [sase-b4.2](sase-b4.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.3/README.md) | [sase-b4.3](sase-b4.3.md) | 0 |

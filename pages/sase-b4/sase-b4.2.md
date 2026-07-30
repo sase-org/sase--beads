@@ -21,15 +21,3 @@ tui-gate: thread the new menu option through the Python artifact-ref facade and 
 
 - **Depends on:** [sase-b4.1](sase-b4.1.md) ✓
 - **Blocks:** [sase-b4.3](sase-b4.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.2/README.md) | [sase-b4.2](sase-b4.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`9ba92b0`](https://github.com/sase-org/sase/commit/9ba92b09a7cacd192f59ccc0756970d8ca67526d) | feat(ace): gate artifact file completion rows | [sase-b4.2](sase-b4.2.md) | 2026-07-30 11:47:37 |

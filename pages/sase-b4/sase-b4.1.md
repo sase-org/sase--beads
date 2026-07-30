@@ -21,9 +21,3 @@ core-gate: add an at-reference menu options wire plus a `files_suppressed` menu 
 
 - **Blocks:** [sase-b4.2](sase-b4.2.md) ✓
 - **Blocks:** [sase-b4.3](sase-b4.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.1/README.md) | [sase-b4.1](sase-b4.1.md) | 0 |
