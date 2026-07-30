@@ -29,6 +29,6 @@ publish: stop letting the committing repository masquerade as the primary reposi
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`5ba1f08`](https://github.com/sase-org/sase/commit/5ba1f08d0262d14300f295b60b8fee2df3866d50) | fix: anchor bead page publication on primary checkout | [sase-b5.2](sase-b5.2.md) | 2026-07-30 12:39:39 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`5ba1f08`](https://github.com/sase-org/sase/commit/5ba1f08d0262d14300f295b60b8fee2df3866d50) | fix: anchor bead page publication on primary checkout | [sase-b5.2](sase-b5.2.md) | 2026-07-30 12:39:39 |

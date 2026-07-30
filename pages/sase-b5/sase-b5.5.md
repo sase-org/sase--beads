@@ -29,6 +29,6 @@ repair: republish every generated bead page from the corrected projection, confi
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`f62e8cd`](https://github.com/sase-org/sase/commit/f62e8cd01713c934cb6e5fcf0374667805a78ceb) | feat(bead-pages): guard against misattributed commit links | [sase-b5.5](sase-b5.5.md) | 2026-07-30 13:31:35 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`f62e8cd`](https://github.com/sase-org/sase/commit/f62e8cd01713c934cb6e5fcf0374667805a78ceb) | feat(bead-pages): guard against misattributed commit links | [sase-b5.5](sase-b5.5.md) | 2026-07-30 13:31:35 |

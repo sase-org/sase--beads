@@ -30,6 +30,6 @@ agentlinks: make the hosted agents-sidecar remote lookup and the SASE_AGENT comm
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`f1289a1`](https://github.com/sase-org/sase/commit/f1289a124ba4e94478b2ea0f973344c8a96ebc46) | fix: resolve agent links through checkout anchors | [sase-b5.3](sase-b5.3.md) | 2026-07-30 12:39:25 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`f1289a1`](https://github.com/sase-org/sase/commit/f1289a124ba4e94478b2ea0f973344c8a96ebc46) | fix: resolve agent links through checkout anchors | [sase-b5.3](sase-b5.3.md) | 2026-07-30 12:39:25 |

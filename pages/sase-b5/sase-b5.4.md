@@ -31,6 +31,6 @@ multirepo: walk the primary repository plus every locally cloned sidecar and lin
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`8e7120e`](https://github.com/sase-org/sase/commit/8e7120ebe048dca1737c71592100244c8a52dc93) | feat(bead-pages): associate commits across project repositories | [sase-b5.4](sase-b5.4.md) | 2026-07-30 13:13:45 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`8e7120e`](https://github.com/sase-org/sase/commit/8e7120ebe048dca1737c71592100244c8a52dc93) | feat(bead-pages): associate commits across project repositories | [sase-b5.4](sase-b5.4.md) | 2026-07-30 13:13:45 |
