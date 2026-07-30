@@ -16,8 +16,8 @@ COMMIT: 0d8e84055
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-3c.1](sase-3c.1.md) | Phase 1: Contract And Python CLI Read Path | ✓ closed | small | 0 | 1 |
-| [sase-3c.2](sase-3c.2.md) | Phase 2: Mutation And ID Allocation Truth | ✓ closed | small | 0 | 1 |
-| [sase-3c.3](sase-3c.3.md) | Phase 3: Remove Merged Read APIs And Workspace Bead Enumeration | ✓ closed | small | 0 | 1 |
+| [sase-3c.2](sase-3c.2.md) | Phase 2: Mutation And ID Allocation Truth | ✓ closed | small | 0 | 2 |
+| [sase-3c.3](sase-3c.3.md) | Phase 3: Remove Merged Read APIs And Workspace Bead Enumeration | ✓ closed | small | 0 | 2 |
 | [sase-3c.4](sase-3c.4.md) | Phase 4: Helper Bridges And Cross-Project Readers | ✓ closed | small | 0 | 1 |
 | [sase-3c.5](sase-3c.5.md) | Phase 5: Documentation, Skills, And User-Facing Cleanup | ✓ closed | small | 0 | 1 |
 | [sase-3c.6](sase-3c.6.md) | Phase 6: Full Verification And Dead-Code Sweep | ✓ closed | small | 0 | 1 |
@@ -52,6 +52,8 @@ flowchart TD
 |---|---|---|---|
 | [`e6375ee`](https://github.com/sase-org/sase/commit/e6375ee1a020c7c9b8255e170d9b4e16a7bc4876) | fix: scope bead CLI reads to the current store (sase-3c.1) | [sase-3c.1](sase-3c.1.md) | 2026-05-13 03:12:01 |
 | [`37b00a5`](https://github.com/sase-org/sase/commit/37b00a5d1098adf4cbac07b7690dbff2b49d6b22) | feat: allocate bead IDs from local store (sase-3c.2) | [sase-3c.2](sase-3c.2.md) | 2026-05-13 03:26:19 |
+| [`sase-core@1f21cb1`](https://github.com/sase-org/sase-core/commit/1f21cb1152fb9cff05ad233d787f0a78b578414f) | feat: allocate bead IDs from current store (sase-3c.2) | [sase-3c.2](sase-3c.2.md) | 2026-05-13 03:26:40 |
+| [`sase-core@3f104fb`](https://github.com/sase-org/sase-core/commit/3f104fb277df86220377f852e48c37c7368a4fa5) | feat: remove merged bead read exports (sase-3c.3) | [sase-3c.3](sase-3c.3.md) | 2026-05-13 03:46:46 |
 | [`b21bbbd`](https://github.com/sase-org/sase/commit/b21bbbd752e718af6c0ae000b5c704e98586fad8) | feat: remove merged bead read facade (sase-3c.3) | [sase-3c.3](sase-3c.3.md) | 2026-05-13 03:52:35 |
 | [`d0cd565`](https://github.com/sase-org/sase/commit/d0cd565d348d61d9c3b7c172d4bf324acc31c403) | ref: use canonical bead stores in mobile helpers (sase-3c.4) | [sase-3c.4](sase-3c.4.md) | 2026-05-13 04:04:15 |
 | [`46dc491`](https://github.com/sase-org/sase/commit/46dc4913815c6892901e7ece04bbe205a4412cff) | chore: update bead source-of-truth guidance (sase-3c.5) | [sase-3c.5](sase-3c.5.md) | 2026-05-13 04:17:26 |

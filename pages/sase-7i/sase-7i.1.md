@@ -24,10 +24,11 @@ COMMIT: 344d4ab42
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7i.1/README.md) | [sase-7i.1](sase-7i.1.md) | 1 |
+| [bbugyi200.athena.sase-7i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7i.1/README.md) | [sase-7i.1](sase-7i.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@72969c1`](https://github.com/sase-org/sase-core/commit/72969c1aa06a8c84bf38fc85e5d1c40d24928649) | feat(axe): support releasing chop once-per keys (sase-7i.1) | [sase-7i.1](sase-7i.1.md) | 2026-07-19 17:46:01 |
 | [`05c9c1c`](https://github.com/sase-org/sase/commit/05c9c1ccab5c9e8cf4769a09d8a1398aad718626) | feat(axe): persist released chop once-per keys (sase-7i.1) | [sase-7i.1](sase-7i.1.md) | 2026-07-19 17:46:42 |

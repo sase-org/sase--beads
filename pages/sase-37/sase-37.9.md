@@ -20,3 +20,4 @@ COMMIT: aa755a92
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`b9954bb`](https://github.com/sase-org/sase/commit/b9954bb0ae0254b2afc6c9ec4ef3c4d9529de618) | feat: route archive operations through Rust facade (sase-37.9) | [sase-37.9](sase-37.9.md) | 2026-05-12 22:21:13 |
+| [`sase-core@e458501`](https://github.com/sase-org/sase-core/commit/e458501429500525adb18880c22c20f5f54a19ff) | feat: add Rust agent archive backend (sase-37.9) | [sase-37.9](sase-37.9.md) | 2026-05-12 22:22:19 |

@@ -23,10 +23,11 @@ COMMIT: 023aadf1d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6e.1/README.md) | [sase-6e.1](sase-6e.1.md) | 1 |
+| [bbugyi200.athena.sase-6e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6e.1/README.md) | [sase-6e.1](sase-6e.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@00c95de`](https://github.com/sase-org/sase-core/commit/00c95de655e474e4ab8eb4bb2e96a721bb9e73c9) | feat(agent-scan)!: drop custom role metadata (sase-6e.1) | [sase-6e.1](sase-6e.1.md) | 2026-07-16 19:50:32 |
 | [`023aadf`](https://github.com/sase-org/sase/commit/023aadf1d11595e98c11387f7e0990e575f4ce57) | feat(agent-family)!: remove custom lifecycle roles (sase-6e.1) | [sase-6e.1](sase-6e.1.md) | 2026-07-16 19:57:40 |

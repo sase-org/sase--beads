@@ -18,3 +18,15 @@ migrate: convert the bare `@` markers in this repo's `reads` swarm and the chezm
 ## Dependencies
 
 - **Depends on:** [sase-aq.4](sase-aq.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.5/README.md) | [sase-aq.5](sase-aq.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`5d4716c`](https://github.com/sase-org/sase/commit/5d4716c3572ced4281cbf97b527cc9bdcdd0ed4b) | refactor: use keyed name markers in the reads swarm | [sase-aq.5](sase-aq.5.md) | 2026-07-29 14:40:08 |

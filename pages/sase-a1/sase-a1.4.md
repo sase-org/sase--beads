@@ -20,10 +20,11 @@ invariant: make the parent-close cascade explicit rather than silent — reject 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-a1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.4/README.md) | [sase-a1.4](sase-a1.4.md) | 1 |
+| [bbugyi200.athena.sase-a1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.4/README.md) | [sase-a1.4](sase-a1.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@ef75d5f`](https://github.com/sase-org/sase-core/commit/ef75d5f27bfae066aff8692ea697ac1a37b18196) | feat(bead)!: make descendant close sweeps explicit (sase-a1.4) | [sase-a1.4](sase-a1.4.md) | 2026-07-27 17:43:43 |
 | [`3deac7d`](https://github.com/sase-org/sase/commit/3deac7d22675315a5adbebe28fd6a2fc4c549241) | feat(bead)!: require explicit descendant close sweeps (sase-a1.4) | [sase-a1.4](sase-a1.4.md) | 2026-07-27 17:44:38 |

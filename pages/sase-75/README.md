@@ -39,9 +39,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-75.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-75.2/README.md) | [sase-75.2](sase-75.2.md) | 1 |
+| [bbugyi200.athena.sase-75.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-75.land/README.md) | [sase-75](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`e3b36d6`](https://github.com/sase-org/sase/commit/e3b36d6dcfa138e0aff189a42ce95d3aae4f46a4) | feat!: use space-plus project completion triggers (sase-75.2) | [sase-75.2](sase-75.2.md) | 2026-07-19 13:40:33 |
+| [`sase--plans@2540746`](https://github.com/sase-org/sase--plans/commit/25407468cb0468d1d37ad77d9ad01fba353deb53) | docs: mark space completion plan done (sase-75) | [sase-75](README.md) | 2026-07-19 14:34:24 |

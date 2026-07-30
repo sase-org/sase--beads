@@ -21,10 +21,11 @@ COMMIT: e83d00e6a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-55.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-55.4/README.md) | [sase-55.4](sase-55.4.md) | 1 |
+| [bbugyi200.athena.sase-55.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-55.4/README.md) | [sase-55.4](sase-55.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`d6b9ebe`](https://github.com/sase-org/sase/commit/d6b9ebe1bf1e3f7bdc742783a8eb281feb7136bd) | feat(ace): persist and display reasoning effort uniformly (sase-55.4) | [sase-55.4](sase-55.4.md) | 2026-06-23 17:53:41 |
+| [`sase-core@348b73b`](https://github.com/sase-org/sase-core/commit/348b73b822e96753c2afae344dd1c90e17b3a6f4) | feat(agent-scan): project reasoning\_effort through the scan wire (sase-55.4) | [sase-55.4](sase-55.4.md) | 2026-06-23 18:04:22 |

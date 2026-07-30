@@ -18,3 +18,15 @@ COMMIT: 9150852
 ## Dependencies
 
 - **Blocks:** [sase-7z.3](sase-7z.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7z.1/README.md) | [sase-7z.1](sase-7z.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@9150852`](https://github.com/sase-org/sase-core/commit/915085264240c7b8fc17e163769ac4146e827e02) | feat(plan): validate phase sizing and parent beads (sase-7z.1) | [sase-7z.1](sase-7z.1.md) | 2026-07-20 01:23:08 |

@@ -18,9 +18,9 @@ COMMIT: 0800a0db9
 | [sase-5h.1](sase-5h.1.md) | Phase 1 — Contracts + Python headless foundations | ✓ closed | small | 1 | 1 |
 | [sase-5h.2](sase-5h.2.md) | Phase 2 — GitHub provider implementation | ✓ closed | small | 0 | 0 |
 | [sase-5h.3](sase-5h.3.md) | Phase 3 — TUI menu | ✓ closed | small | 1 | 1 |
-| [sase-5h.4](sase-5h.4.md) | Phase 4 — Rust core: context kind + detector + builder + vectors | ✓ closed | small | 0 | 0 |
-| [sase-5h.5](sase-5h.5.md) | Phase 5 — LSP wiring | ✓ closed | small | 0 | 0 |
-| [sase-5h.6](sase-5h.6.md) | Phase 6 — Neovim smoke test, end-to-end verification, docs | ✓ closed | small | 1 | 1 |
+| [sase-5h.4](sase-5h.4.md) | Phase 4 — Rust core: context kind + detector + builder + vectors | ✓ closed | small | 1 | 1 |
+| [sase-5h.5](sase-5h.5.md) | Phase 5 — LSP wiring | ✓ closed | small | 1 | 1 |
+| [sase-5h.6](sase-5h.6.md) | Phase 6 — Neovim smoke test, end-to-end verification, docs | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -57,13 +57,18 @@ flowchart TD
 | [bbugyi200.athena.sase-5h--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5h.md#member-code) | [sase-5h](README.md) | 0 |
 | [bbugyi200.athena.sase-5h.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.1/README.md) | [sase-5h.1](sase-5h.1.md) | 1 |
 | [bbugyi200.athena.sase-5h.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.3/README.md) | [sase-5h.3](sase-5h.3.md) | 1 |
-| [bbugyi200.athena.sase-5h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.6/README.md) | [sase-5h.6](sase-5h.6.md) | 1 |
+| [bbugyi200.athena.sase-5h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.4/README.md) | [sase-5h.4](sase-5h.4.md) | 1 |
+| [bbugyi200.athena.sase-5h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.5/README.md) | [sase-5h.5](sase-5h.5.md) | 1 |
+| [bbugyi200.athena.sase-5h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.6/README.md) | [sase-5h.6](sase-5h.6.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`0547413`](https://github.com/sase-org/sase/commit/0547413c10677ea6bce1505597a7ea0934ac7f19) | feat: add VCS repo completion foundations (sase-5h.1) | [sase-5h.1](sase-5h.1.md) | 2026-07-07 17:45:21 |
+| [`sase-core@adff66f`](https://github.com/sase-org/sase-core/commit/adff66fef601d947ce30a5ab5eaf7cf074949493) | feat(editor): add VCS repo completion context (sase-5h.4) | [sase-5h.4](sase-5h.4.md) | 2026-07-07 18:04:35 |
 | [`6405eac`](https://github.com/sase-org/sase/commit/6405eac1a3d3df9a29fd95e44c941e3d10734119) | feat(ace): add VCS repo completion menu (sase-5h.3) | [sase-5h.3](sase-5h.3.md) | 2026-07-07 18:16:52 |
+| [`sase-core@754be5e`](https://github.com/sase-org/sase-core/commit/754be5e846a305240add166b594b99bcb8cb2d01) | feat(lsp): complete VCS repo slash completions (sase-5h.5) | [sase-5h.5](sase-5h.5.md) | 2026-07-07 18:29:43 |
+| [`sase-core@5727d7c`](https://github.com/sase-org/sase-core/commit/5727d7cb37d93571d7cace7df573841159c23460) | fix: preserve repo completion spacing before final newline (sase-5h.6) | [sase-5h.6](sase-5h.6.md) | 2026-07-07 19:05:02 |
 | [`852c622`](https://github.com/sase-org/sase/commit/852c622c1f1efc2948436a122a82f82c70ac5b04) | docs: document VCS repository completion (sase-5h.6) | [sase-5h.6](sase-5h.6.md) | 2026-07-07 19:06:13 |
 | [`5449f87`](https://github.com/sase-org/sase/commit/5449f871cdad3c2c1bc80a1feafe1cd7359120d1) | test: close repo completion verification gaps (sase-5h) | [sase-5h](README.md) | 2026-07-07 19:24:45 |

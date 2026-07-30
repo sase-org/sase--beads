@@ -94,3 +94,9 @@ COMMIT: 45ef5c2b
 
 - **Depends on:** [sase-35.1](sase-35.1.md) ✓
 - **Blocks:** [sase-35.3](sase-35.3.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@74ca5dc`](https://github.com/sase-org/sase-core/commit/74ca5dcca93255b41af51678c1497944e8502b31) | feat: add counts-only notification append and rewrite APIs (sase-35.2) | [sase-35.2](sase-35.2.md) | 2026-05-12 16:42:09 |

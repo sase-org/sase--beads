@@ -19,7 +19,7 @@ COMMIT: b8fbc9b3
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-8x.1](sase-8x.1.md) | Atomic batch removal in sase-core | ✓ closed | medium | 0 | 0 |
+| [sase-8x.1](sase-8x.1.md) | Atomic batch removal in sase-core | ✓ closed | medium | 1 | 1 |
 | [sase-8x.2](sase-8x.2.md) | Python CLI contract, documentation, and end-to-end coverage | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
@@ -38,10 +38,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8x.1/README.md) | [sase-8x.1](sase-8x.1.md) | 1 |
 | [bbugyi200.athena.sase-8x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8x.2/README.md) | [sase-8x.2](sase-8x.2.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@194d408`](https://github.com/sase-org/sase-core/commit/194d408d7f6a3078f6a91e1101f727ae15604b74) | feat(beads): add atomic batch removal (sase-8x.1) | [sase-8x.1](sase-8x.1.md) | 2026-07-24 18:42:49 |
 | [`fed1886`](https://github.com/sase-org/sase/commit/fed18866e1738bee92fbdb9587ca261bfa895e26) | feat(beads): support atomic multi-bead removal (sase-8x.2) | [sase-8x.2](sase-8x.2.md) | 2026-07-24 19:06:33 |

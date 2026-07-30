@@ -21,9 +21,9 @@ The grouped `@` reference menu lists local file rows only when no artifact kind 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b4.1](sase-b4.1.md) | Shared kind-stage file-row gate in sase-core | ✓ closed | medium | 0 | 0 |
-| [sase-b4.2](sase-b4.2.md) | ACE prompt gating and the Ctrl+T reveal | ✓ closed | medium | 0 | 0 |
-| [sase-b4.3](sase-b4.3.md) | Raise the sase-core-rs floor and verify end to end | ✓ closed | xsmall | 0 | 0 |
+| [sase-b4.1](sase-b4.1.md) | Shared kind-stage file-row gate in sase-core | ✓ closed | medium | 1 | 1 |
+| [sase-b4.2](sase-b4.2.md) | ACE prompt gating and the Ctrl+T reveal | ✓ closed | medium | 1 | 1 |
+| [sase-b4.3](sase-b4.3.md) | Raise the sase-core-rs floor and verify end to end | ✓ closed | xsmall | 1 | 0 |
 
 ## Lineage
 
@@ -45,10 +45,17 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b4.land--code | [sase-b4](README.md) | 1 |
+| [bbugyi200.athena.sase-b4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.1/README.md) | [sase-b4.1](sase-b4.1.md) | 1 |
+| [bbugyi200.athena.sase-b4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.2/README.md) | [sase-b4.2](sase-b4.2.md) | 1 |
+| [bbugyi200.athena.sase-b4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.3/README.md) | [sase-b4.3](sase-b4.3.md) | 0 |
+| [bbugyi200.athena.sase-b4.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-b4.land.md#member-code) | [sase-b4](README.md) | 2 |
+| [bbugyi200.athena.sase-b4.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-b4.land.md#member-plan) | [sase-b4](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`7bf2f17`](https://github.com/sase-org/sase--plans/commit/7bf2f173f906774f85b303f3791ba77c8c6b7c7e) | docs(plans): land the b4 release-floor plan | [sase-b4](README.md) | 2026-07-30 12:34:19 |
+| [`sase-core@4e61ad0`](https://github.com/sase-org/sase-core/commit/4e61ad05ed30824e827e50a3d2d99cfca82200ef) | feat(editor): gate file reference rows behind explicit opt-in | [sase-b4.1](sase-b4.1.md) | 2026-07-30 11:27:44 |
+| [`9ba92b0`](https://github.com/sase-org/sase/commit/9ba92b09a7cacd192f59ccc0756970d8ca67526d) | feat(ace): gate artifact file completion rows | [sase-b4.2](sase-b4.2.md) | 2026-07-30 11:47:37 |
+| [`11cdd78`](https://github.com/sase-org/sase/commit/11cdd7807bc30b10cbb073f1af7bb17060c0bfab) | build(deps): require sase-core-rs 0.12.19 | [sase-b4](README.md) | 2026-07-30 12:32:56 |
+| [`sase--plans@7bf2f17`](https://github.com/sase-org/sase--plans/commit/7bf2f173f906774f85b303f3791ba77c8c6b7c7e) | docs(plans): land the b4 release-floor plan | [sase-b4](README.md) | 2026-07-30 12:34:19 |

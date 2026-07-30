@@ -18,3 +18,15 @@ COMMIT: a8e04ccb
 ## Dependencies
 
 - **Depends on:** [sase-8e.1](sase-8e.1.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-8e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8e.2/README.md) | [sase-8e.2](sase-8e.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@a8e04cc`](https://github.com/sase-org/sase--plans/commit/a8e04ccbb2c01cfc43c67e9d96a10ff68da6fe28) | docs: mark wait priority epic plan done (sase-8e.2) | [sase-8e.2](sase-8e.2.md) | 2026-07-20 19:52:28 |

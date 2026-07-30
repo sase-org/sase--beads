@@ -34,12 +34,12 @@ PRE-EXISTING, NOT sase-aq: just check stops at SASE validation on init-skills dr
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-aq.1](sase-aq.1.md) | Keyed marker grammar in sase-core | ✓ closed | medium | 0 | 0 |
-| [sase-aq.2](sase-aq.2.md) | Python facade and prompt-grammar plumbing | ✓ closed | small | 0 | 0 |
-| [sase-aq.3](sase-aq.3.md) | Launch-time key resolution and text substitution | ✓ closed | medium | 0 | 0 |
-| [sase-aq.4](sase-aq.4.md) | Per-invocation key qualification at swarm expansion | ✓ closed | medium | 0 | 0 |
-| [sase-aq.5](sase-aq.5.md) | Migrate existing xprompt swarms | ✓ closed | small | 0 | 0 |
-| [sase-aq.6](sase-aq.6.md) | Document the keyed marker syntax | ✓ closed | small | 0 | 0 |
+| [sase-aq.1](sase-aq.1.md) | Keyed marker grammar in sase-core | ✓ closed | medium | 1 | 1 |
+| [sase-aq.2](sase-aq.2.md) | Python facade and prompt-grammar plumbing | ✓ closed | small | 1 | 1 |
+| [sase-aq.3](sase-aq.3.md) | Launch-time key resolution and text substitution | ✓ closed | medium | 1 | 1 |
+| [sase-aq.4](sase-aq.4.md) | Per-invocation key qualification at swarm expansion | ✓ closed | medium | 1 | 1 |
+| [sase-aq.5](sase-aq.5.md) | Migrate existing xprompt swarms | ✓ closed | small | 1 | 1 |
+| [sase-aq.6](sase-aq.6.md) | Document the keyed marker syntax | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -69,10 +69,22 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-aq.land | [sase-aq](README.md) | 1 |
+| [bbugyi200.athena.sase-aq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.1/README.md) | [sase-aq.1](sase-aq.1.md) | 1 |
+| [bbugyi200.athena.sase-aq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.2/README.md) | [sase-aq.2](sase-aq.2.md) | 1 |
+| [bbugyi200.athena.sase-aq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.3/README.md) | [sase-aq.3](sase-aq.3.md) | 1 |
+| [bbugyi200.athena.sase-aq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.4/README.md) | [sase-aq.4](sase-aq.4.md) | 1 |
+| [bbugyi200.athena.sase-aq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.5/README.md) | [sase-aq.5](sase-aq.5.md) | 1 |
+| [bbugyi200.athena.sase-aq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.6/README.md) | [sase-aq.6](sase-aq.6.md) | 1 |
+| [bbugyi200.athena.sase-aq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.land/README.md) | [sase-aq](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`41eff94`](https://github.com/sase-org/sase--plans/commit/41eff9436eebc7696a17fa6e9e124cce1e87206a) | Complete SDD plan for agent\_name\_key\_markers | [sase-aq](README.md) | 2026-07-29 15:53:22 |
+| [`sase-core@8facc89`](https://github.com/sase-org/sase-core/commit/8facc89d62a65a932adaa9020749f2042f1b06b4) | feat: add keyed agent name template markers | [sase-aq.1](sase-aq.1.md) | 2026-07-29 13:18:36 |
+| [`79be1d5`](https://github.com/sase-org/sase/commit/79be1d53a316d326790a9421435edf2942481fd9) | feat(agent): expose keyed agent-name markers in Python | [sase-aq.2](sase-aq.2.md) | 2026-07-29 13:45:56 |
+| [`6209176`](https://github.com/sase-org/sase/commit/6209176ae2b38de2c5a4fd5bdf18909d647b2619) | feat(agent): resolve keyed name markers at launch | [sase-aq.3](sase-aq.3.md) | 2026-07-29 14:04:43 |
+| [`62a6ba6`](https://github.com/sase-org/sase/commit/62a6ba6f7ad25c7e601ea94525b7cde3a9128e25) | feat: qualify keyed markers per xprompt invocation | [sase-aq.4](sase-aq.4.md) | 2026-07-29 14:22:42 |
+| [`5d4716c`](https://github.com/sase-org/sase/commit/5d4716c3572ced4281cbf97b527cc9bdcdd0ed4b) | refactor: use keyed name markers in the reads swarm | [sase-aq.5](sase-aq.5.md) | 2026-07-29 14:40:08 |
+| [`0272356`](https://github.com/sase-org/sase/commit/0272356a5df3070960e1634eae673524fe3d0bc0) | docs: document keyed xprompt markers | [sase-aq.6](sase-aq.6.md) | 2026-07-29 14:56:41 |
+| [`sase--plans@41eff94`](https://github.com/sase-org/sase--plans/commit/41eff9436eebc7696a17fa6e9e124cce1e87206a) | Complete SDD plan for agent\_name\_key\_markers | [sase-aq](README.md) | 2026-07-29 15:53:22 |

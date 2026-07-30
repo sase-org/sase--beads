@@ -16,7 +16,7 @@ Concurrent bead-store writers and SDD sidecar integration in the same clone can 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-9r.1](sase-9r.1.md) | One critical section for bead mutation, commit, and integration | ✓ closed | medium | 0 | 1 |
-| [sase-9r.2](sase-9r.2.md) | Rollback verification asserts only SASE-owned invariants | ✓ closed | medium | 0 | 2 |
+| [sase-9r.2](sase-9r.2.md) | Rollback verification asserts only SASE-owned invariants | ✓ closed | medium | 0 | 3 |
 | [sase-9r.3](sase-9r.3.md) | Conflict probes stop reporting git failures as "no conflicts" | ✓ closed | small | 1 | 2 |
 | [sase-9r.4](sase-9r.4.md) | Machine-managed SDD git ignores the user's rerere config | ✓ closed | small | 0 | 1 |
 | [sase-9r.5](sase-9r.5.md) | Bound repeated doomed integration attempts | ✓ closed | small | 1 | 1 |
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-9r.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9r.7/README.md) | [sase-9r.7](sase-9r.7.md) | 1 |
 | [bbugyi200.athena.sase-9r.7--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9r.7.md#member-1) | [sase-9r.7](sase-9r.7.md) | 0 |
 | [bbugyi200.athena.sase-9r.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9r.8/README.md) | [sase-9r.8](sase-9r.8.md) | 1 |
-| [bbugyi200.athena.sase-9r.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9r.land/README.md) | [sase-9r](README.md) | 1 |
+| [bbugyi200.athena.sase-9r.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9r.land/README.md) | [sase-9r](README.md) | 2 |
 
 ## Commits
 
@@ -73,6 +73,7 @@ flowchart TD
 | [`a89f4c0`](https://github.com/sase-org/sase/commit/a89f4c05948e6ad748fee395754ad7738d45cd5e) | fix(beads): serialize mutation and commit under store lock (sase-9r.1) | [sase-9r.1](sase-9r.1.md) | 2026-07-26 11:23:55 |
 | [`b8ec882`](https://github.com/sase-org/sase/commit/b8ec882ce10a20b445845667fd923792b7e19f94) | fix(sdd): ignore rerere for managed git commands (sase-9r.4) | [sase-9r.4](sase-9r.4.md) | 2026-07-26 11:30:53 |
 | [`69c6b67`](https://github.com/sase-org/sase/commit/69c6b67d4231d56c950236e4de0c2d7b4b2fd56d) | fix(sdd): verify owned rollback invariants (sase-9r.2) | [sase-9r.2](sase-9r.2.md) | 2026-07-26 11:33:40 |
+| [`sase--plans@47a408e`](https://github.com/sase-org/sase--plans/commit/47a408efcba27529d43005c80c75f594be206c98) | chore(beads): reconcile event stream encoding (sase-9r.2) | [sase-9r.2](sase-9r.2.md) | 2026-07-26 11:37:00 |
 | [`87d46a6`](https://github.com/sase-org/sase/commit/87d46a659e4386136acf96e2ccb74f0eba836148) | fix(agents-sync): break the agents\_sync/ace.tui import cycle (sase-9r.3) | [sase-9r.3](sase-9r.3.md) | 2026-07-26 11:47:58 |
 | [`0bbecb9`](https://github.com/sase-org/sase/commit/0bbecb9ee50db92ff3f47797c2ef78451ee15311) | test(sdd): expect benign abort without rerere (sase-9r.2) | [sase-9r.2](sase-9r.2.md) | 2026-07-26 11:51:36 |
 | [`a4b9515`](https://github.com/sase-org/sase/commit/a4b9515b5b3cb8c626a291e6324fca68b86eec71) | fix(sdd): stop reporting git probe failures as "no conflicts" (sase-9r.3) | [sase-9r.3](sase-9r.3.md) | 2026-07-26 11:54:19 |
@@ -81,3 +82,4 @@ flowchart TD
 | [`b9bcae7`](https://github.com/sase-org/sase/commit/b9bcae7fee0d23ffcb881cfd921e3c30bf3c2d79) | fix(sdd): throttle repeated failed sidecar integrations (sase-9r.5) | [sase-9r.5](sase-9r.5.md) | 2026-07-26 12:40:39 |
 | [`616657f`](https://github.com/sase-org/sase/commit/616657f2b0cf4cef50cc8914d0721716b11a63a0) | fix(beads): diagnose concurrent claim recovery residue (sase-9r.8) | [sase-9r.8](sase-9r.8.md) | 2026-07-26 13:17:19 |
 | [`45edb9a`](https://github.com/sase-org/sase/commit/45edb9a268896e7fe1985504ac65dce40b1eacb9) | fix(beads): integrate epic changes with landed work (sase-9r) | [sase-9r](README.md) | 2026-07-26 13:50:24 |
+| [`sase--plans@5bb405e`](https://github.com/sase-org/sase--plans/commit/5bb405e26117567d2078251014cec1d3ed24ec22) | docs(plans): mark sdd\_clone\_integration\_race plan done (sase-9r) | [sase-9r](README.md) | 2026-07-26 13:51:31 |

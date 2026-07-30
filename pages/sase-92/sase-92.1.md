@@ -24,10 +24,11 @@ COMMIT: d1353c635
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-92.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.1/README.md) | [sase-92.1](sase-92.1.md) | 1 |
+| [bbugyi200.athena.sase-92.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.1/README.md) | [sase-92.1](sase-92.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b33243a`](https://github.com/sase-org/sase-core/commit/b33243a0daf321e09bf5b37727769ec4cf73a420) | feat: add commit SHA and legacy ownership decisions (sase-92.1) | [sase-92.1](sase-92.1.md) | 2026-07-25 11:33:21 |
 | [`d1353c6`](https://github.com/sase-org/sase/commit/d1353c635849625aaf25c20230bc55b762dc5aa4) | feat(core): add SHA and legacy ownership facades (sase-92.1) | [sase-92.1](sase-92.1.md) | 2026-07-25 12:02:00 |

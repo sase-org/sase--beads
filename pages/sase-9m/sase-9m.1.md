@@ -43,10 +43,11 @@ Also formatted tests/ace/tui/widgets/test_agent_list_status_indicators.py, which
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9m.1/README.md) | [sase-9m.1](sase-9m.1.md) | 1 |
+| [bbugyi200.athena.sase-9m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9m.1/README.md) | [sase-9m.1](sase-9m.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@69504fe`](https://github.com/sase-org/sase-core/commit/69504fefb6be894a98a189fa0fe439c0eeb7e2d8) | feat(editor)!: tag placeholder candidates with a source and accept common tags (sase-9m.1) | [sase-9m.1](sase-9m.1.md) | 2026-07-25 17:11:02 |
 | [`26b4a4c`](https://github.com/sase-org/sase/commit/26b4a4cc936d3270f654c6ab20fe7b5e1ec75f36) | fix(xprompt): read the new placeholder candidate shape from sase-core (sase-9m.1) | [sase-9m.1](sase-9m.1.md) | 2026-07-25 17:11:51 |

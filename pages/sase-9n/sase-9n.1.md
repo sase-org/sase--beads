@@ -14,3 +14,15 @@
 ## Dependencies
 
 - **Blocks:** [sase-9n.2](sase-9n.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9n.1/README.md) | [sase-9n.1](sase-9n.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@5372a48`](https://github.com/sase-org/sase-core/commit/5372a4877fc970222311f1a3b4a734b85c83208b) | feat(axe\_chop): allow one template marker in each of a chop clan and member (sase-9n.1) | [sase-9n.1](sase-9n.1.md) | 2026-07-25 17:06:22 |

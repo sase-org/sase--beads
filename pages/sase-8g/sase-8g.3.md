@@ -19,11 +19,12 @@ COMMIT: c67001657
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.3/README.md) | [sase-8g.3](sase-8g.3.md) | 1 |
+| [bbugyi200.athena.sase-8g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.3/README.md) | [sase-8g.3](sase-8g.3.md) | 2 |
 | [bbugyi200.athena.sase-8g.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8g.3.md#member-code) | [sase-8g.3](sase-8g.3.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@cc33040`](https://github.com/sase-org/sase-core/commit/cc330400e956101fbe8703f0f56dcb69968e0093) | fix(agent-scan): retain runner wait priority (sase-8g.3) | [sase-8g.3](sase-8g.3.md) | 2026-07-20 21:00:50 |
 | [`9aed7d7`](https://github.com/sase-org/sase/commit/9aed7d72366ab5bbf243320fb3c621be21d6eea3) | fix(runner-slots): preserve waiter state across admission (sase-8g.3) | [sase-8g.3](sase-8g.3.md) | 2026-07-20 21:01:23 |

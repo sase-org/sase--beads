@@ -21,3 +21,15 @@ core: make runtime claim/close/update mutations quiet no-ops when they would not
 - **Blocks:** [sase-aj.3](sase-aj.3.md) ✓
 - **Blocks:** [sase-aj.4](sase-aj.4.md) ✓
 - **Blocks:** [sase-aj.5](sase-aj.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aj.1/README.md) | [sase-aj.1](sase-aj.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@00d7ebf`](https://github.com/sase-org/sase-core/commit/00d7ebf10b1044c0800feed59c17ca12d7174452) | feat(beads): add epic-aware idempotent preclaims | [sase-aj.1](sase-aj.1.md) | 2026-07-28 20:36:00 |

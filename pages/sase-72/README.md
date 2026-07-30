@@ -21,7 +21,7 @@ COMMIT: ca94a31
 |---|---|---|---|---:|---:|
 | [sase-72.1](sase-72.1.md) | Publish the statistics wire contract | ✓ closed | small | 0 | 0 |
 | [sase-72.2](sase-72.2.md) | Correct filtered plan and question counters | ✓ closed | small | 1 | 1 |
-| [sase-72.3](sase-72.3.md) | Revalidate and land sase-70 | ✓ closed | small | 2 | 1 |
+| [sase-72.3](sase-72.3.md) | Revalidate and land sase-70 | ✓ closed | small | 2 | 2 |
 
 ## Lineage
 
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-72.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-72.2/README.md) | [sase-72.2](sase-72.2.md) | 1 |
-| [bbugyi200.athena.sase-72.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-72.3/README.md) | [sase-72.3](sase-72.3.md) | 1 |
+| [bbugyi200.athena.sase-72.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-72.3/README.md) | [sase-72.3](sase-72.3.md) | 2 |
 | [bbugyi200.athena.sase-72.3--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-72.3.md#member-1) | [sase-72.3](sase-72.3.md) | 0 |
 
 ## Commits
@@ -52,3 +52,4 @@ flowchart TD
 |---|---|---|---|
 | [`81dcef9`](https://github.com/sase-org/sase/commit/81dcef937c8481425d7ba119d56831a1a31aeb15) | fix(stats): scope plan and question counters by project (sase-72.2) | [sase-72.2](sase-72.2.md) | 2026-07-19 04:24:49 |
 | [`fae9dbb`](https://github.com/sase-org/sase/commit/fae9dbb340d7ca69ae61ffe610b29f2ed9e8dc21) | test(chop): isolate result-file contract tests (sase-72.3) | [sase-72.3](sase-72.3.md) | 2026-07-19 05:44:57 |
+| [`sase--plans@95adcd1`](https://github.com/sase-org/sase--plans/commit/95adcd1f075e7d97e01366b4206914c5f2fa467e) | docs: mark statistics ChangeSpec plan done (sase-72.3) | [sase-72.3](sase-72.3.md) | 2026-07-19 05:45:18 |

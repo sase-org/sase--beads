@@ -25,11 +25,12 @@ COMMIT: 8ba83e074
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8v.1/README.md) | [sase-8v.1](sase-8v.1.md) | 1 |
+| [bbugyi200.athena.sase-8v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8v.1/README.md) | [sase-8v.1](sase-8v.1.md) | 2 |
 | [bbugyi200.athena.sase-8v.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8v.1.md#member-code) | [sase-8v.1](sase-8v.1.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@d54a56f`](https://github.com/sase-org/sase-core/commit/d54a56fe185ed0b0a882e857781e4e4c836742b5) | feat(identity): add owner-aware relationship domain (sase-8v.1) | [sase-8v.1](sase-8v.1.md) | 2026-07-23 18:06:54 |
 | [`de816e0`](https://github.com/sase-org/sase/commit/de816e064b19a40f4490f4aa1407e0e8093de614) | feat(identity): expose owner-aware agent facade (sase-8v.1) | [sase-8v.1](sase-8v.1.md) | 2026-07-23 18:07:30 |

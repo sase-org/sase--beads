@@ -19,3 +19,15 @@ copy-refs: give Files real copy verbs — y reference, Y anchored stored path, a
 
 - **Depends on:** [sase-b0.5](sase-b0.5.md) ✓
 - **Blocks:** [sase-b0.7](sase-b0.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b0.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.6/README.md) | [sase-b0.6](sase-b0.6.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`fec7898`](https://github.com/sase-org/sase/commit/fec7898b284d148c7c3ac2ba168ca8b6f24dfa3e) | feat(ace): add artifact file copy actions | [sase-b0.6](sase-b0.6.md) | 2026-07-30 01:30:31 |

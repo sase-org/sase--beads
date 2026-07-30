@@ -21,3 +21,15 @@ land: close bead sase-ac, run symvision and clear anything the expired epic whit
 - **Depends on:** [sase-ac.6.2](sase-ac.6.2.md) ✓
 - **Depends on:** [sase-ac.6.3](sase-ac.6.3.md) ✓
 - **Depends on:** [sase-ac.6.4](sase-ac.6.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ac.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.5/README.md) | [sase-ac.6.5](sase-ac.6.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@3fb7910`](https://github.com/sase-org/sase--plans/commit/3fb7910c72483b8fb1b553efc193de7ba840cbb3) | docs(plans): land xprompt identity plans (sase-ac.6.5) | [sase-ac.6.5](sase-ac.6.5.md) | 2026-07-28 14:51:11 |

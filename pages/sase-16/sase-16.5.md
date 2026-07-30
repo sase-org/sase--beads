@@ -20,4 +20,5 @@ COMMIT: 1849ddae
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@8518b47`](https://github.com/sase-org/sase-core/commit/8518b47812d4fb0e6f40067a1faea5f3f6e311b9) | feat: Phase 1E — direct-parser benchmark + workflow docs (sase-16.5) | [sase-16.5](sase-16.5.md) | 2026-04-29 06:29:23 |
 | [`8880108`](https://github.com/sase-org/sase/commit/8880108b2cc32f56da7d143047c24c821525ef5d) | feat: Phase 1E dev workflow + core parse benchmark (sase-16.5) | [sase-16.5](sase-16.5.md) | 2026-04-29 06:29:40 |

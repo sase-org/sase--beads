@@ -24,3 +24,15 @@ Tests (Rust): the shared golden-vector table asserted byte-identical via both th
 
 - **Depends on:** [sase-4z.1](sase-4z.1.md) ✓
 - **Blocks:** [sase-4z.4](sase-4z.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.3/README.md) | [sase-4z.3](sase-4z.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@ec412ca`](https://github.com/sase-org/sase-core/commit/ec412ca7eb5dbb04310f11eefec102e8ea467afc) | feat(editor): add vcs\_project completion context, builder, and transform (sase-4z.3) | [sase-4z.3](sase-4z.3.md) | 2026-06-19 15:05:09 |

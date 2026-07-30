@@ -21,10 +21,10 @@ Every started master CI run completes with trustworthy results: no starvation-by
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-am.1](sase-am.1.md) | Restore completed-run signal and unbreak lint | ✓ closed | small | 0 | 0 |
-| [sase-am.2](sase-am.2.md) | Build the Rust core once per run | ✓ closed | medium | 0 | 0 |
-| [sase-am.3](sase-am.3.md) | Consolidate lanes without losing coverage | ✓ closed | medium | 0 | 0 |
-| [sase-am.4](sase-am.4.md) | Derive the CI sidecar environment from configuration | ✓ closed | small | 0 | 0 |
+| [sase-am.1](sase-am.1.md) | Restore completed-run signal and unbreak lint | ✓ closed | small | 1 | 1 |
+| [sase-am.2](sase-am.2.md) | Build the Rust core once per run | ✓ closed | medium | 1 | 1 |
+| [sase-am.3](sase-am.3.md) | Consolidate lanes without losing coverage | ✓ closed | medium | 1 | 1 |
+| [sase-am.4](sase-am.4.md) | Derive the CI sidecar environment from configuration | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -48,10 +48,18 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-am.land--code | [sase-am](README.md) | 1 |
+| [bbugyi200.athena.sase-am.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.1/README.md) | [sase-am.1](sase-am.1.md) | 1 |
+| [bbugyi200.athena.sase-am.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.2/README.md) | [sase-am.2](sase-am.2.md) | 1 |
+| [bbugyi200.athena.sase-am.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.3/README.md) | [sase-am.3](sase-am.3.md) | 1 |
+| [bbugyi200.athena.sase-am.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.4/README.md) | [sase-am.4](sase-am.4.md) | 1 |
+| [bbugyi200.athena.sase-am.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-am.land.md#member-code) | [sase-am](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`fe4dc62`](https://github.com/sase-org/sase--plans/commit/fe4dc62512a971e2dc0f3a7e810bd606b80152c0) | docs: close CI redesign plan and track flaky fetch test | [sase-am](README.md) | 2026-07-28 23:46:30 |
+| [`4d55dab`](https://github.com/sase-org/sase/commit/4d55dabc17152d033c195fcebdf21df4e16b2170) | ci: restore completed-run signal and unbreak lint | [sase-am.1](sase-am.1.md) | 2026-07-28 22:17:35 |
+| [`61c812a`](https://github.com/sase-org/sase/commit/61c812a7b7f1e04c44e50330f803868154500e3d) | ci: reuse one prebuilt core wheel across jobs | [sase-am.2](sase-am.2.md) | 2026-07-28 22:39:22 |
+| [`29ca9ac`](https://github.com/sase-org/sase/commit/29ca9ac511433323f872213603b1ead19db565c3) | ci: consolidate workflow lanes | [sase-am.3](sase-am.3.md) | 2026-07-28 23:04:01 |
+| [`b5efaf7`](https://github.com/sase-org/sase/commit/b5efaf7e7929d41e94c53fc01d1e2e143cc011f9) | ci: derive sidecar checkouts from sase.yml | [sase-am.4](sase-am.4.md) | 2026-07-28 23:24:57 |
+| [`sase--plans@fe4dc62`](https://github.com/sase-org/sase--plans/commit/fe4dc62512a971e2dc0f3a7e810bd606b80152c0) | docs: close CI redesign plan and track flaky fetch test | [sase-am](README.md) | 2026-07-28 23:46:30 |

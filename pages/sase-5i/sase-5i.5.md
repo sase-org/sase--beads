@@ -19,3 +19,15 @@ COMMIT: b22e22655
 
 - **Depends on:** [sase-5i.4](sase-5i.4.md) ✓
 - **Blocks:** [sase-5i.6](sase-5i.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-5i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.5/README.md) | [sase-5i.5](sase-5i.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@961f63e`](https://github.com/sase-org/sase-core/commit/961f63e7faae46c24b9757d9899d2a54f789420a) | feat(lsp): complete vcs refs from catalog (sase-5i.5) | [sase-5i.5](sase-5i.5.md) | 2026-07-07 21:27:45 |

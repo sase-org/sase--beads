@@ -20,3 +20,15 @@ COMMIT: 889f2f8 (sase-core)
 - **Depends on:** [sase-7o.1](sase-7o.1.md) ✓
 - **Depends on:** [sase-7o.2](sase-7o.2.md) ✓
 - **Blocks:** [sase-7o.5](sase-7o.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7o.3/README.md) | [sase-7o.3](sase-7o.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@889f2f8`](https://github.com/sase-org/sase-core/commit/889f2f83678437aeadc691bc0cb386472fd176b3) | feat(editor)!: move family and tribe grammar onto %id (sase-7o.3) | [sase-7o.3](sase-7o.3.md) | 2026-07-19 21:48:05 |

@@ -15,9 +15,9 @@ Every agent an AXE lumberjack launches from a script chop proposal carries a `%w
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-af.1](sase-af.1.md) | Rust core accepts the lumberjack wait\_runners key | ✓ closed | medium | 0 | 0 |
+| [sase-af.1](sase-af.1.md) | Rust core accepts the lumberjack wait\_runners key | ✓ closed | medium | 1 | 1 |
 | [sase-af.2](sase-af.2.md) | Plumb wait\_runners through sase and inject the directive | ✓ closed | medium | 1 | 1 |
-| [sase-af.3](sase-af.3.md) | Require the published core and turn the lane on | ✓ closed | small | 1 | 1 |
+| [sase-af.3](sase-af.3.md) | Require the published core and turn the lane on | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -38,14 +38,18 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-af.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.1/README.md) | [sase-af.1](sase-af.1.md) | 1 |
 | [bbugyi200.athena.sase-af.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.2/README.md) | [sase-af.2](sase-af.2.md) | 1 |
-| [bbugyi200.athena.sase-af.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.3/README.md) | [sase-af.3](sase-af.3.md) | 1 |
-| [bbugyi200.athena.sase-af.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-af.land.md#member-code) | [sase-af](README.md) | 1 |
+| [bbugyi200.athena.sase-af.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.3/README.md) | [sase-af.3](sase-af.3.md) | 2 |
+| [bbugyi200.athena.sase-af.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-af.land.md#member-code) | [sase-af](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@717b5b9`](https://github.com/sase-org/sase-core/commit/717b5b924bebe6a9f72cfed6a59e30c5d1f5281c) | feat: validate lumberjack wait runner limits (sase-af.1) | [sase-af.1](sase-af.1.md) | 2026-07-28 13:01:55 |
 | [`bd630ec`](https://github.com/sase-org/sase/commit/bd630ec7316770881d33fb16b8b822e9a2a25948) | feat(axe): gate lumberjack launches by runner capacity (sase-af.2) | [sase-af.2](sase-af.2.md) | 2026-07-28 13:36:16 |
 | [`c9978ed`](https://github.com/sase-org/sase/commit/c9978edf4d866fedd32245112b133ac6ad36ef05) | build(deps): require sase-core-rs 0.12.2 (sase-af.3) | [sase-af.3](sase-af.3.md) | 2026-07-28 14:48:59 |
+| [`sase--plans@07b4c8b`](https://github.com/sase-org/sase--plans/commit/07b4c8b8add6a95cd16f880b65c4b2f973b94f7b) | docs: repair plan provenance header (sase-af.3) | [sase-af.3](sase-af.3.md) | 2026-07-28 14:50:36 |
 | [`a643a86`](https://github.com/sase-org/sase/commit/a643a864c33b1eb864f570c9e009ff89d313a69f) | fix(sdd): keep published core integration commit-safe (sase-af) | [sase-af](README.md) | 2026-07-28 16:18:15 |
+| [`sase--plans@c4490ad`](https://github.com/sase-org/sase--plans/commit/c4490ad955b194c70f9accc0ca659e1b1c64f003) | docs(plan): mark lumberjack wait-runners epic done (sase-af) | [sase-af](README.md) | 2026-07-28 16:20:35 |

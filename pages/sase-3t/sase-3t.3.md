@@ -18,3 +18,9 @@ COMMIT: 66b50628d
 - **Depends on:** [sase-3t.1](sase-3t.1.md) ✓
 - **Depends on:** [sase-3t.2](sase-3t.2.md) ✓
 - **Blocks:** [sase-3t.4](sase-3t.4.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@5b6ae02`](https://github.com/sase-org/sase-core/commit/5b6ae029c0e065c5720588f9bc809e61c3ba3f73) | fix: enforce visible inbox index semantics (sase-3t.3) | [sase-3t.3](sase-3t.3.md) | 2026-05-21 14:51:48 |

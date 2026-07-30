@@ -11,7 +11,7 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-1b.1](sase-1b.1.md) | Phase 6A: Rust Wheel Packaging And Release Matrix | ✓ closed | small | 0 | 1 |
+| [sase-1b.1](sase-1b.1.md) | Phase 6A: Rust Wheel Packaging And Release Matrix | ✓ closed | small | 0 | 2 |
 | [sase-1b.2](sase-1b.2.md) | Phase 6B: sase Dependency And Source-Install Story | ✓ closed | small | 0 | 1 |
 | [sase-1b.3](sase-1b.3.md) | Phase 6C: Backend Contract Audit And Fallback Tests | ✓ closed | small | 0 | 1 |
 | [sase-1b.4](sase-1b.4.md) | Phase 6D: Backend Health Check And User-Facing Diagnostics | ✓ closed | small | 0 | 1 |
@@ -55,6 +55,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`4f48f7b`](https://github.com/sase-org/sase/commit/4f48f7bbd73148d16d658947786eb4750d0a20d6) | chore: Phase 6A — sase\_core\_rs wheel packaging and release matrix (sase-1b.1) | [sase-1b.1](sase-1b.1.md) | 2026-04-29 20:17:04 |
+| [`sase-core@cd51d97`](https://github.com/sase-org/sase-core/commit/cd51d97abd03c9749f3b6dd805c432c2a14744e7) | chore: Phase 6A — wheel packaging and release matrix (sase-1b.1) | [sase-1b.1](sase-1b.1.md) | 2026-04-29 20:18:29 |
 | [`2d7cf60`](https://github.com/sase-org/sase/commit/2d7cf60d78c82ca32eae4eb6ccff0d159795af11) | chore: Phase 6B — sase dependency and source-install story (sase-1b.2) | [sase-1b.2](sase-1b.2.md) | 2026-04-29 20:29:44 |
 | [`5a98bf7`](https://github.com/sase-org/sase/commit/5a98bf7707032e96fc8ffb01a951f2ffba7c4133) | chore: Phase 6C — backend contract audit and fallback tests (sase-1b.3) | [sase-1b.3](sase-1b.3.md) | 2026-04-29 20:38:18 |
 | [`c3ac7d8`](https://github.com/sase-org/sase/commit/c3ac7d83b64a24c65858a4e9fb9384c95b7604d9) | chore: Phase 6D — backend health check and user-facing diagnostics (sase-1b.4) | [sase-1b.4](sase-1b.4.md) | 2026-04-29 20:47:22 |

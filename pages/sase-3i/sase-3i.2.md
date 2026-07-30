@@ -11,3 +11,10 @@
 
 - **Depends on:** [sase-3i.1](sase-3i.1.md) ✓
 - **Blocks:** [sase-3i.4](sase-3i.4.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@3cdb141`](https://github.com/sase-org/sase-core/commit/3cdb14177b55821970837771275d03cdf87dffdd) | chore: satisfy current clippy lints (sase-3i.2) | [sase-3i.2](sase-3i.2.md) | 2026-05-14 20:29:57 |
+| [`sase-core@5731dfe`](https://github.com/sase-org/sase-core/commit/5731dfe1b0c6c9d36e220ae966ce00becb9401a4) | chore: allow fallback response argument list (sase-3i.2) | [sase-3i.2](sase-3i.2.md) | 2026-05-14 20:32:56 |

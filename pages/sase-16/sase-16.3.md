@@ -11,3 +11,9 @@
 
 - **Depends on:** [sase-16.2](sase-16.2.md) ✓
 - **Blocks:** [sase-16.4](sase-16.4.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@6e02ada`](https://github.com/sase-org/sase-core/commit/6e02adacc3f69f98194f0362af683842f8371e4a) | feat: Phase 1C — section parser parity (sase-16.3) | [sase-16.3](sase-16.3.md) | 2026-04-29 06:00:57 |

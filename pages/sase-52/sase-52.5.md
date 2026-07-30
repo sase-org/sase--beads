@@ -33,3 +33,15 @@ Validation (all pass): cargo fmt --check; cargo test -p sase_xprompt_lsp directi
 - **Depends on:** [sase-52.1](sase-52.1.md) ✓
 - **Blocks:** [sase-52.6](sase-52.6.md) ✓
 - **Blocks:** [sase-52.7](sase-52.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-52.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-52.5/README.md) | [sase-52.5](sase-52.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@0d4f6ec`](https://github.com/sase-org/sase-core/commit/0d4f6ec29645406222e82eef304c53c5b57e83a9) | feat(lsp): advertise %{A \| B} alt shorthand in directive surfaces (sase-52.5) | [sase-52.5](sase-52.5.md) | 2026-06-20 20:00:56 |

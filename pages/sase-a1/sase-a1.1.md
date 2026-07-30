@@ -20,10 +20,11 @@ history: add a Rust replay API that turns a bead's event stream into an ordered 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-a1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.1/README.md) | [sase-a1.1](sase-a1.1.md) | 1 |
+| [bbugyi200.athena.sase-a1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.1/README.md) | [sase-a1.1](sase-a1.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@e97d150`](https://github.com/sase-org/sase-core/commit/e97d1509228937153cd454427df25475433d9f4f) | feat(beads): expose event history replay (sase-a1.1) | [sase-a1.1](sase-a1.1.md) | 2026-07-27 17:24:34 |
 | [`3dd9765`](https://github.com/sase-org/sase/commit/3dd976565937d0b9851d25c94be1ef89442d2885) | feat(beads): add history command (sase-a1.1) | [sase-a1.1](sase-a1.1.md) | 2026-07-27 17:25:21 |

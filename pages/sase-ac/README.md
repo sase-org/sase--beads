@@ -23,7 +23,7 @@ Landing verification: the epic's headline fix is real and works. Verified from c
 | [sase-ac.2](sase-ac.2.md) | Namespace and filter the xprompt catalog by user-facing name | ✓ closed | medium | 1 | 1 |
 | [sase-ac.3](sase-ac.3.md) | Resolve registry-backed project xprompts independent of cwd | ✓ closed | medium | 1 | 1 |
 | [sase-ac.4](sase-ac.4.md) | Normalize the ACE completion project boundary | ✓ closed | small | 1 | 1 |
-| [sase-ac.5](sase-ac.5.md) | Mirror the identity fix in the Rust core catalog | ✓ closed | medium | 0 | 0 |
+| [sase-ac.5](sase-ac.5.md) | Mirror the identity fix in the Rust core catalog | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -70,10 +70,12 @@ flowchart TD
 | [bbugyi200.athena.sase-ac.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.2/README.md) | [sase-ac.2](sase-ac.2.md) | 1 |
 | [bbugyi200.athena.sase-ac.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.3/README.md) | [sase-ac.3](sase-ac.3.md) | 1 |
 | [bbugyi200.athena.sase-ac.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.4/README.md) | [sase-ac.4](sase-ac.4.md) | 1 |
+| [bbugyi200.athena.sase-ac.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.5/README.md) | [sase-ac.5](sase-ac.5.md) | 1 |
 | [bbugyi200.athena.sase-ac.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.1/README.md) | [sase-ac.6.1](sase-ac.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ac.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.2/README.md) | [sase-ac.6.2](sase-ac.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ac.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.3/README.md) | [sase-ac.6.3](sase-ac.6.3.md) | 1 |
-| [bbugyi200.athena.sase-ac.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.4/README.md) | [sase-ac.6.4](sase-ac.6.4.md) | 1 |
+| [bbugyi200.athena.sase-ac.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.4/README.md) | [sase-ac.6.4](sase-ac.6.4.md) | 2 |
+| [bbugyi200.athena.sase-ac.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.5/README.md) | [sase-ac.6.5](sase-ac.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ac.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.land/README.md) | [sase-ac.6](sase-ac.6.md) | 1 |
 
 ## Commits
@@ -82,10 +84,13 @@ flowchart TD
 |---|---|---|---|
 | [`370f260`](https://github.com/sase-org/sase/commit/370f2607f684d68272b2416a313133c8d7058e59) | feat(xprompt): add canonical project identity helpers (sase-ac.1) | [sase-ac.1](sase-ac.1.md) | 2026-07-28 12:07:40 |
 | [`40f2d52`](https://github.com/sase-org/sase/commit/40f2d526e6b1e0b992dbc3e80c8cee66d5750ac6) | fix(xprompt): canonicalize project catalog namespaces (sase-ac.2) | [sase-ac.2](sase-ac.2.md) | 2026-07-28 12:27:56 |
+| [`sase-core@2034123`](https://github.com/sase-org/sase-core/commit/20341233d36bd492497a715fe0ac25985dd4eb28) | fix(xprompt): canonicalize project identities in catalog (sase-ac.5) | [sase-ac.5](sase-ac.5.md) | 2026-07-28 12:43:17 |
 | [`9148e45`](https://github.com/sase-org/sase/commit/9148e45e1829a445e772a07c8c71b6d919a6ff56) | feat(xprompt): resolve registered project prompts outside cwd (sase-ac.3) | [sase-ac.3](sase-ac.3.md) | 2026-07-28 12:50:28 |
 | [`b449b8a`](https://github.com/sase-org/sase/commit/b449b8a4b5a133ded4771fa07e22307bf97620cb) | fix(xprompt): normalize ACE completion project identity (sase-ac.4) | [sase-ac.4](sase-ac.4.md) | 2026-07-28 12:58:11 |
 | [`a0a2e40`](https://github.com/sase-org/sase/commit/a0a2e4007ae03a801a00f85d79a286683dc2c515) | fix(ace): canonicalize prompt-bar VCS-tag xprompt lookup (sase-ac.6.2) | [sase-ac.6.2](sase-ac.6.2.md) | 2026-07-28 13:29:24 |
 | [`699456a`](https://github.com/sase-org/sase/commit/699456a521e25e0aaa38f4e289db38e71a6488a6) | fix(xprompt): canonicalize workflow project identity (sase-ac.6.3) | [sase-ac.6.3](sase-ac.6.3.md) | 2026-07-28 13:37:41 |
 | [`02eee83`](https://github.com/sase-org/sase/commit/02eee837542948dba30c2327120de3a9c8e6fb3d) | fix: invalidate xprompt identity on project mutations (sase-ac.6.4) | [sase-ac.6.4](sase-ac.6.4.md) | 2026-07-28 13:47:00 |
+| [`sase--plans@bf8c8ed`](https://github.com/sase-org/sase--plans/commit/bf8c8ed1e585ad08d610290939cb14eb9b045b59) | docs: link xprompt identity landing prompt (sase-ac.6.4) | [sase-ac.6.4](sase-ac.6.4.md) | 2026-07-28 13:47:57 |
 | [`0db608e`](https://github.com/sase-org/sase/commit/0db608e985e2031bdb8a58322d8f29b0ce8484fb) | fix(xprompt): canonicalize project-local browser identities (sase-ac.6.1) | [sase-ac.6.1](sase-ac.6.1.md) | 2026-07-28 14:07:20 |
+| [`sase--plans@3fb7910`](https://github.com/sase-org/sase--plans/commit/3fb7910c72483b8fb1b553efc193de7ba840cbb3) | docs(plans): land xprompt identity plans (sase-ac.6.5) | [sase-ac.6.5](sase-ac.6.5.md) | 2026-07-28 14:51:11 |
 | [`01549ff`](https://github.com/sase-org/sase/commit/01549ff628d0fc96995e7cc11b04a44d2e7a6b52) | test(xprompt): cover browser row merge and drop cache reach-ins (sase-ac.6) | [sase-ac.6](sase-ac.6.md) | 2026-07-28 15:22:06 |

@@ -62,6 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-6z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6z.4/README.md) | [sase-6z.4](sase-6z.4.md) | 1 |
 | [bbugyi200.athena.sase-6z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6z.5/README.md) | [sase-6z.5](sase-6z.5.md) | 1 |
 | [bbugyi200.athena.sase-6z.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6z.6/README.md) | [sase-6z.6](sase-6z.6.md) | 1 |
+| [bbugyi200.athena.sase-6z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6z.land/README.md) | [sase-6z](README.md) | 1 |
 
 ## Commits
 
@@ -73,3 +74,4 @@ flowchart TD
 | [`80bd97a`](https://github.com/sase-org/sase/commit/80bd97ace7d8b14b721a930d6a125f006dd2a7a3) | feat(ace)!: add whole-panel selection (sase-6z.3) | [sase-6z.3](sase-6z.3.md) | 2026-07-19 04:20:23 |
 | [`29fdfed`](https://github.com/sase-org/sase/commit/29fdfedfa5f0cc94108f8714811a958cba9e673e) | feat(ace): unify fold hints across Agents views (sase-6z.5) | [sase-6z.5](sase-6z.5.md) | 2026-07-19 04:54:58 |
 | [`d3cf623`](https://github.com/sase-org/sase/commit/d3cf6236e866b5f27b7f342a68b257692e97cf62) | perf(tui): streamline selected tribe navigation (sase-6z.6) | [sase-6z.6](sase-6z.6.md) | 2026-07-19 06:03:35 |
+| [`sase--plans@f06ec10`](https://github.com/sase-org/sase--plans/commit/f06ec10bfb03e8421138665cd5da5506fb1fee7a) | docs: mark agent tribe panel plan done (sase-6z) | [sase-6z](README.md) | 2026-07-19 06:13:11 |

@@ -18,3 +18,15 @@ core-swarm-kind: in the sibling sase-core repo, normalize a "swarm" kind in the 
 ## Dependencies
 
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.3/README.md) | [sase-b1.3](sase-b1.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@009036d`](https://github.com/sase-org/sase-core/commit/009036d3298873f093ab96e2a05716a5540f31d1) | feat(agent-scan): preserve swarm xprompt kind | [sase-b1.3](sase-b1.3.md) | 2026-07-30 01:18:06 |

@@ -23,10 +23,11 @@ docs-and-goldens: bump the sase-core-rs floor to the published version containin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b1.6 | [sase-b1.6](sase-b1.6.md) | 1 |
+| [bbugyi200.athena.sase-b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.6/README.md) | [sase-b1.6](sase-b1.6.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`605f113`](https://github.com/sase-org/sase--plans/commit/605f11382296a5879b404efcb313b5339a4574f5) | fix: add missing PROMPT links to three plans | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:55:28 |
+| [`6e35387`](https://github.com/sase-org/sase/commit/6e35387e2ba5564c134ccc7ce1b84c5cd5957850) | feat(xprompts): require sase-core-rs with the swarm xprompt kind | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:53:56 |
+| [`sase--plans@605f113`](https://github.com/sase-org/sase--plans/commit/605f11382296a5879b404efcb313b5339a4574f5) | fix: add missing PROMPT links to three plans | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:55:28 |

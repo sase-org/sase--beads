@@ -10,3 +10,9 @@
 ## Dependencies
 
 - **Blocks:** [sase-16.2](sase-16.2.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@3b63869`](https://github.com/sase-org/sase-core/commit/3b63869343334eaf837d2249abb5957f632c36e1) | feat: Phase 1A — Rust workspace and wire types (sase-16.1) | [sase-16.1](sase-16.1.md) | 2026-04-29 05:02:52 |

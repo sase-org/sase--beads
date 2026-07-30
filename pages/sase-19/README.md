@@ -13,7 +13,7 @@
 |---|---|---|---|---:|---:|
 | [sase-19.1](sase-19.1.md) | Phase 4A: Profiling and Scope Decision | ✓ closed | small | 0 | 1 |
 | [sase-19.2](sase-19.2.md) | Phase 4B: Wire Contract and Golden Parity Corpus | ✓ closed | small | 0 | 1 |
-| [sase-19.3](sase-19.3.md) | Phase 4C: Rust Pure Status Module and PyO3 Bindings | ✓ closed | small | 0 | 1 |
+| [sase-19.3](sase-19.3.md) | Phase 4C: Rust Pure Status Module and PyO3 Bindings | ✓ closed | small | 0 | 2 |
 | [sase-19.4](sase-19.4.md) | Phase 4D: Facade Registration, Dual-Run, and Pure Helper Routing | ✓ closed | small | 0 | 1 |
 | [sase-19.5](sase-19.5.md) | Phase 4E: Transition Decision Plan Integration | ✓ closed | small | 0 | 1 |
 | [sase-19.6](sase-19.6.md) | Phase 4F: Verification, Performance Decision, and Roadmap Update | ✓ closed | small | 0 | 1 |
@@ -50,6 +50,7 @@ flowchart TD
 |---|---|---|---|
 | [`15b3edf`](https://github.com/sase-org/sase/commit/15b3edfbe39bf1290a63bef0d34b006aff40cd7e) | chore: Phase 4A status state machine profiling and scope decision (sase-19.1) | [sase-19.1](sase-19.1.md) | 2026-04-29 17:00:47 |
 | [`59b7394`](https://github.com/sase-org/sase/commit/59b739430d662bcc23cefd4ccc874d45a1646ec4) | feat: define status state machine wire contract (sase-19.2) | [sase-19.2](sase-19.2.md) | 2026-04-29 17:17:57 |
+| [`sase-core@1837849`](https://github.com/sase-org/sase-core/commit/18378495053d46d10a7ed7941c8515e2bdc1107d) | feat: Phase 4C — pure-Rust status state machine and PyO3 bindings (sase-19.3) | [sase-19.3](sase-19.3.md) | 2026-04-29 17:32:03 |
 | [`cb3f21b`](https://github.com/sase-org/sase/commit/cb3f21b340c60de683eed02bd73ade1eaa659ec3) | chore: Phase 4C handoff doc for status state machine port (sase-19.3) | [sase-19.3](sase-19.3.md) | 2026-04-29 17:32:31 |
 | [`773606a`](https://github.com/sase-org/sase/commit/773606a55cbea9c3fdb3caa73f685c97b4412bdf) | feat: route status line helpers through Rust facade (sase-19.4) | [sase-19.4](sase-19.4.md) | 2026-04-29 17:40:58 |
 | [`7840a20`](https://github.com/sase-org/sase/commit/7840a20fe143602626c00da4d3a08ad03c8fd290) | ref: route status transitions through the Rust planner facade (sase-19.5) | [sase-19.5](sase-19.5.md) | 2026-04-29 18:01:30 |

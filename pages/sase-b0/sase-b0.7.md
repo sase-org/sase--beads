@@ -20,3 +20,15 @@ visual-docs: add populated and empty PNG snapshot coverage for the Files pane, v
 - **Depends on:** [sase-b0.3](sase-b0.3.md) ✓
 - **Depends on:** [sase-b0.4](sase-b0.4.md) ✓
 - **Depends on:** [sase-b0.6](sase-b0.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b0.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.7/README.md) | [sase-b0.7](sase-b0.7.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`7994afa`](https://github.com/sase-org/sase/commit/7994afadcfcc49a1fb51045f136b900c31bb5a76) | docs(ace): document Files pane and add PNG snapshot coverage | [sase-b0.7](sase-b0.7.md) | 2026-07-30 02:07:42 |

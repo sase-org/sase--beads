@@ -19,7 +19,7 @@ Land verification: all six phases confirmed in master (sase-92.1 d1353c635 core 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-92.1](sase-92.1.md) | Core commit-SHA equivalence and evidence-aware v1 ownership | ✓ closed | medium | 1 | 1 |
+| [sase-92.1](sase-92.1.md) | Core commit-SHA equivalence and evidence-aware v1 ownership | ✓ closed | medium | 1 | 2 |
 | [sase-92.2](sase-92.2.md) | Owner-observed v1 never counts as an incoming update | ✓ closed | medium | 1 | 1 |
 | [sase-92.3](sase-92.3.md) | Ignore-proof sidecar payload staging and stranded-hood repair | ✓ closed | medium | 1 | 1 |
 | [sase-92.4](sase-92.4.md) | Legacy v1 import can never fabricate owner duplicates | ✓ closed | medium | 1 | 1 |
@@ -57,22 +57,24 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-92.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.1/README.md) | [sase-92.1](sase-92.1.md) | 1 |
+| [bbugyi200.athena.sase-92.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.1/README.md) | [sase-92.1](sase-92.1.md) | 2 |
 | [bbugyi200.athena.sase-92.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.2/README.md) | [sase-92.2](sase-92.2.md) | 1 |
 | [bbugyi200.athena.sase-92.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.3/README.md) | [sase-92.3](sase-92.3.md) | 1 |
 | [bbugyi200.athena.sase-92.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.4/README.md) | [sase-92.4](sase-92.4.md) | 1 |
 | [bbugyi200.athena.sase-92.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.5/README.md) | [sase-92.5](sase-92.5.md) | 1 |
 | [bbugyi200.athena.sase-92.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.6/README.md) | [sase-92.6](sase-92.6.md) | 1 |
-| [bbugyi200.athena.sase-92.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.land/README.md) | [sase-92](README.md) | 1 |
+| [bbugyi200.athena.sase-92.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-92.land/README.md) | [sase-92](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`5004fe8`](https://github.com/sase-org/sase/commit/5004fe81ba42012fc7fc09a09bf7078709617c92) | fix(agents): force-stage ignored sidecar payloads (sase-92.3) | [sase-92.3](sase-92.3.md) | 2026-07-25 11:23:30 |
+| [`sase-core@b33243a`](https://github.com/sase-org/sase-core/commit/b33243a0daf321e09bf5b37727769ec4cf73a420) | feat: add commit SHA and legacy ownership decisions (sase-92.1) | [sase-92.1](sase-92.1.md) | 2026-07-25 11:33:21 |
 | [`d1353c6`](https://github.com/sase-org/sase/commit/d1353c635849625aaf25c20230bc55b762dc5aa4) | feat(core): add SHA and legacy ownership facades (sase-92.1) | [sase-92.1](sase-92.1.md) | 2026-07-25 12:02:00 |
 | [`aed7fa5`](https://github.com/sase-org/sase/commit/aed7fa5efb68df509475ce1b3d1647b9b694f460) | fix(agents-sync): ignore owner-observed v1 updates (sase-92.2) | [sase-92.2](sase-92.2.md) | 2026-07-25 13:18:13 |
 | [`5965216`](https://github.com/sase-org/sase/commit/596521653e220b29c3155b53aa464226b99a99ba) | fix(agents): prevent owner duplicate legacy imports (sase-92.4) | [sase-92.4](sase-92.4.md) | 2026-07-25 13:34:58 |
 | [`712a6b1`](https://github.com/sase-org/sase/commit/712a6b1f3bb1c209e07919f4794acd4f4a0fc211) | feat(agents)!: retire legacy v1 sync payloads (sase-92.5) | [sase-92.5](sase-92.5.md) | 2026-07-25 14:08:03 |
 | [`f17ccbf`](https://github.com/sase-org/sase/commit/f17ccbf8f5b365ff83d5fc77d180feeab7739ca1) | fix(ace): clarify cached agent hood update copy (sase-92.6) | [sase-92.6](sase-92.6.md) | 2026-07-25 14:44:49 |
 | [`0e7e361`](https://github.com/sase-org/sase/commit/0e7e36185d851b2c42a12deb9b6553a27ad5b240) | refactor(agents-sync): finish v1 exporter removal and refresh docs (sase-92) | [sase-92](README.md) | 2026-07-25 15:11:24 |
+| [`sase--plans@160bc3c`](https://github.com/sase-org/sase--plans/commit/160bc3cde5ba61eb573a6bdb59d5b69f9083c336) | docs(plans): mark agents badge v1 residue plan done (sase-92) | [sase-92](README.md) | 2026-07-25 15:12:13 |

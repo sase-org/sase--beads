@@ -23,10 +23,11 @@ COMMIT: 15349d50d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-74.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-74.1/README.md) | [sase-74.1](sase-74.1.md) | 1 |
+| [bbugyi200.athena.sase-74.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-74.1/README.md) | [sase-74.1](sase-74.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@9d561ea`](https://github.com/sase-org/sase-core/commit/9d561eaa69cd67b6fff0af3ce695982b5a1f3250) | feat(agent-cleanup): add clan planning scope (sase-74.1) | [sase-74.1](sase-74.1.md) | 2026-07-19 12:44:20 |
 | [`dc0fa09`](https://github.com/sase-org/sase/commit/dc0fa09f9bb986d88ad22c67f91ab020ce1a63fd) | feat(agent-cleanup): mirror clan planning scope (sase-74.1) | [sase-74.1](sase-74.1.md) | 2026-07-19 12:45:17 |

@@ -50,7 +50,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6c](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6c/README.md) | [sase-6c](README.md) | 1 |
+| [bbugyi200.athena.sase-6c](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6c/README.md) | [sase-6c](README.md) | 2 |
 | [bbugyi200.athena.sase-6c--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-6c.md#member-code) | [sase-6c](README.md) | 0 |
 | [bbugyi200.athena.sase-6c.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6c.1/README.md) | [sase-6c.1](sase-6c.1.md) | 1 |
 | [bbugyi200.athena.sase-6c.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6c.2/README.md) | [sase-6c.2](sase-6c.2.md) | 1 |
@@ -66,3 +66,4 @@ flowchart TD
 | [`f463941`](https://github.com/sase-org/sase/commit/f4639414a457e969e369078eedd71970f5402f98) | perf(tui): move stale index rebuild off startup path (sase-6c.3) | [sase-6c.3](sase-6c.3.md) | 2026-07-16 15:37:49 |
 | [`0d33d2a`](https://github.com/sase-org/sase/commit/0d33d2a8c71f0a175afb7fbc1163f7499c1ad93e) | perf(tui): move slow refresh work off the message pump (sase-6c.1) | [sase-6c.1](sase-6c.1.md) | 2026-07-16 15:49:02 |
 | [`b8b7d65`](https://github.com/sase-org/sase/commit/b8b7d65e1a0bb39a59ec2385416b9c8cbf5400f6) | perf(tui): keep remaining maintenance off the message pump (sase-6c) | [sase-6c](README.md) | 2026-07-16 16:22:59 |
+| [`sase--plans@3cf1b3d`](https://github.com/sase-org/sase--plans/commit/3cf1b3dc4dc806e11063cdb4c2fc29359163f067) | docs(plan): mark TUI performance epic done (sase-6c) | [sase-6c](README.md) | 2026-07-16 16:23:43 |

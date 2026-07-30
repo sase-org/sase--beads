@@ -24,10 +24,11 @@ COMMIT: f4365f309
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6d.1/README.md) | [sase-6d.1](sase-6d.1.md) | 1 |
+| [bbugyi200.athena.sase-6d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6d.1/README.md) | [sase-6d.1](sase-6d.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@106a2f3`](https://github.com/sase-org/sase-core/commit/106a2f3f17178ddf52783f1c0ea2ba9f69fd0f08) | feat: define canonical SASE content layout contract (sase-6d.1) | [sase-6d.1](sase-6d.1.md) | 2026-07-16 17:04:55 |
 | [`f4365f3`](https://github.com/sase-org/sase/commit/f4365f30968d627dd114a1e37ad8534ec5192b89) | feat: expose canonical SASE content layout (sase-6d.1) | [sase-6d.1](sase-6d.1.md) | 2026-07-16 17:05:52 |

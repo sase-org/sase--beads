@@ -50,6 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-6x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6x.2/README.md) | [sase-6x.2](sase-6x.2.md) | 1 |
 | [bbugyi200.athena.sase-6x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6x.3/README.md) | [sase-6x.3](sase-6x.3.md) | 1 |
 | [bbugyi200.athena.sase-6x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6x.4/README.md) | [sase-6x.4](sase-6x.4.md) | 1 |
+| [bbugyi200.athena.sase-6x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6x.land/README.md) | [sase-6x](README.md) | 1 |
 | [bbugyi200.athena.sase-6x.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-6x.land.md#member-code) | [sase-6x](README.md) | 0 |
 | [bbugyi200.athena.sase-6x.land--code-0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-6x.land.md#member-code-0) | [sase-6x](README.md) | 0 |
 
@@ -61,3 +62,4 @@ flowchart TD
 | [`cee14d4`](https://github.com/sase-org/sase/commit/cee14d43807b0c0491a89f83d99254aebefe4fac) | feat!: support tribe wait targeting (sase-6x.1) | [sase-6x.1](sase-6x.1.md) | 2026-07-18 22:45:53 |
 | [`1759721`](https://github.com/sase-org/sase/commit/175972194b41fc4e5c468968c9a41c5ee4140359) | feat: support tribe targets in fork workflows (sase-6x.3) | [sase-6x.3](sase-6x.3.md) | 2026-07-18 23:05:15 |
 | [`bebd7cf`](https://github.com/sase-org/sase/commit/bebd7cf85c9d0f19bf97100e7a2225e067e9f7ea) | feat(tui): complete tribe targets in wait and fork (sase-6x.4) | [sase-6x.4](sase-6x.4.md) | 2026-07-18 23:23:07 |
+| [`sase--plans@a27bf53`](https://github.com/sase-org/sase--plans/commit/a27bf53c8502fe5f2b968117165df416bd1905ea) | docs: mark tribe wait fork plan done (sase-6x) | [sase-6x](README.md) | 2026-07-19 00:18:14 |

@@ -20,3 +20,4 @@ COMMIT: a3421772
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`97fd8d7`](https://github.com/sase-org/sase/commit/97fd8d78ca406700bcea808adf39d7859c931f80) | chore: document editor snippet catalog behavior (sase-2f.5) | [sase-2f.5](sase-2f.5.md) | 2026-05-09 05:45:47 |
+| [`sase-core@b5df03f`](https://github.com/sase-org/sase-core/commit/b5df03f4445b3317e549bca2e978318f1c93ed8a) | feat: add native editor snippet catalog fallback (sase-2f.5) | [sase-2f.5](sase-2f.5.md) | 2026-05-09 05:45:55 |

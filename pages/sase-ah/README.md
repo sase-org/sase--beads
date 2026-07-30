@@ -44,8 +44,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ah.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.1/README.md) | [sase-ah.1](sase-ah.1.md) | 1 |
 | [bbugyi200.athena.sase-ah.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.2/README.md) | [sase-ah.2](sase-ah.2.md) | 1 |
 | [bbugyi200.athena.sase-ah.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ah.3/README.md) | [sase-ah.3](sase-ah.3.md) | 1 |
-| [bbugyi200.athena.sase-ah.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ah.land.md#member-code) | [sase-ah](README.md) | 2 |
-| [bbugyi200.athena.sase-ah.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ah.land.md#member-plan) | [sase-ah](README.md) | 0 |
+| [bbugyi200.athena.sase-ah.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ah.land.md#member-code) | [sase-ah](README.md) | 5 |
 
 ## Commits
 
@@ -54,5 +53,8 @@ flowchart TD
 | [`4fc555d`](https://github.com/sase-org/sase/commit/4fc555db0a6b86ccd1f5437c49fdfa668495e169) | fix(commit): resolve publication targets by repository path (sase-ah.1) | [sase-ah.1](sase-ah.1.md) | 2026-07-28 18:38:03 |
 | [`d8afeb7`](https://github.com/sase-org/sase/commit/d8afeb7b0c0331c24d9bdcf7a4c78679020c9548) | fix(agents-sync): retire terminal publication requests (sase-ah.2) | [sase-ah.2](sase-ah.2.md) | 2026-07-28 18:47:14 |
 | [`ee5938a`](https://github.com/sase-org/sase/commit/ee5938a20b9a42b247a73601c2accc3d5d984504) | feat(agents-sync): surface retired publication requests to operators (sase-ah.3) | [sase-ah.3](sase-ah.3.md) | 2026-07-28 19:22:12 |
+| [`sase--plans@70c1bad`](https://github.com/sase-org/sase--plans/commit/70c1bad837ffe3793f1ac982d6d0a678b022a0a3) | docs(plans): restore prompt provenance links | [sase-ah](README.md) | 2026-07-28 20:04:22 |
 | [`8d34bc9`](https://github.com/sase-org/sase/commit/8d34bc9ae0f093f4170229cf78a7dafe8007a26f) | test: keep suite gate socket paths below Linux limits | [sase-ah](README.md) | 2026-07-28 20:38:40 |
+| [`sase--plans@c6ed839`](https://github.com/sase-org/sase--plans/commit/c6ed839e38e6e5fb17de05434d55b6c9d17da2f7) | docs(plans): finish agent publication reliability epic | [sase-ah](README.md) | 2026-07-28 20:41:09 |
 | [`7ba8b1c`](https://github.com/sase-org/sase/commit/7ba8b1ceab7d6652e011ac4461c1745e69f91997) | test: preserve suite-gate holder status at timeout | [sase-ah](README.md) | 2026-07-28 21:01:02 |
+| [`sase--plans@8b355b2`](https://github.com/sase-org/sase--plans/commit/8b355b2d855897701b4dfa7fa1919306126ba777) | docs(plans): restore tribe wait prompt provenance | [sase-ah](README.md) | 2026-07-28 21:08:58 |

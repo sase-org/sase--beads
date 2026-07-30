@@ -19,7 +19,7 @@ COMMIT: ccba7718
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-8l.1](sase-8l.1.md) | Add group-safe clan summaries to chop proposals | ✓ closed | large | 2 | 1 |
+| [sase-8l.1](sase-8l.1.md) | Add group-safe clan summaries to chop proposals | ✓ closed | large | 2 | 2 |
 | [sase-8l.2](sase-8l.2.md) | Author and verify the toobig clan summary | ✓ closed | medium | 1 | 0 |
 
 ## Lineage
@@ -38,12 +38,15 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8l.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8l.1/README.md) | [sase-8l.1](sase-8l.1.md) | 1 |
+| [bbugyi200.athena.sase-8l.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8l.1/README.md) | [sase-8l.1](sase-8l.1.md) | 2 |
 | [bbugyi200.athena.sase-8l.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8l.1.md#member-code) | [sase-8l.1](sase-8l.1.md) | 0 |
 | [bbugyi200.athena.sase-8l.2--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8l.2.md#member-code) | [sase-8l.2](sase-8l.2.md) | 0 |
+| [bbugyi200.athena.sase-8l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8l.land/README.md) | [sase-8l](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@778a94b`](https://github.com/sase-org/sase-core/commit/778a94b2588efeebded13cf2c24e9c65bf79ce74) | feat(axe): support clan summaries in chop proposals (sase-8l.1) | [sase-8l.1](sase-8l.1.md) | 2026-07-22 16:41:32 |
 | [`eaef2d7`](https://github.com/sase-org/sase/commit/eaef2d78b1faf15a0764e08b066383ee4d6a48e3) | feat(axe): carry clan summaries through chop launches (sase-8l.1) | [sase-8l.1](sase-8l.1.md) | 2026-07-22 16:42:07 |
+| [`sase--plans@ccba771`](https://github.com/sase-org/sase--plans/commit/ccba7718a993c6267c3ab1b73bd0b942ed4917dd) | docs: mark toobig clan summary plan done (sase-8l) | [sase-8l](README.md) | 2026-07-22 17:34:42 |

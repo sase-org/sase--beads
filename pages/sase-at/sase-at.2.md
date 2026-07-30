@@ -15,3 +15,15 @@ ui: render the loaded report in the notification modal's right pane with a prove
 
 - **Depends on:** [sase-at.1](sase-at.1.md) ✓
 - **Blocks:** [sase-at.4](sase-at.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-at.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.2/README.md) | [sase-at.2](sase-at.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`1a4ad18`](https://github.com/sase-org/sase/commit/1a4ad1828148b7ae17fd9eaca457c82793224246) | feat(tui): add notification report viewer | [sase-at.2](sase-at.2.md) | 2026-07-29 15:42:29 |

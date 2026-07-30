@@ -18,3 +18,15 @@ COMMIT: 82c7efa
 ## Dependencies
 
 - **Blocks:** [sase-8c.2](sase-8c.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-8c.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8c.1/README.md) | [sase-8c.1](sase-8c.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@82c7efa`](https://github.com/sase-org/sase-core/commit/82c7efa5bc83aa13806b9f358be8facafb976b50) | feat(wait): expose queue priority in scans and completions (sase-8c.1) | [sase-8c.1](sase-8c.1.md) | 2026-07-20 18:19:51 |

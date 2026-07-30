@@ -23,10 +23,11 @@ COMMIT: 92ae50cc9
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.4/README.md) | [sase-4z.4](sase-4z.4.md) | 1 |
+| [bbugyi200.athena.sase-4z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.4/README.md) | [sase-4z.4](sase-4z.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`1524b96`](https://github.com/sase-org/sase/commit/1524b964fbf4dda8195c5cbdf3176eafc9779180) | feat(xprompt): materialize VCS project catalog for the xprompt LSP (sase-4z.4) | [sase-4z.4](sase-4z.4.md) | 2026-06-19 15:30:23 |
+| [`sase-core@dc613a4`](https://github.com/sase-org/sase-core/commit/dc613a4007cc39f5e40d3d148fdb882ea2eafc19) | feat(xprompt\_lsp): wire \`+\` VCS project completion into the LSP server (sase-4z.4) | [sase-4z.4](sase-4z.4.md) | 2026-06-19 15:31:10 |

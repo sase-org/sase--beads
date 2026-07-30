@@ -20,8 +20,8 @@ COMMIT: 1e47b9483
 | [sase-5i.1](sase-5i.1.md) | Phase 1: Contracts + Python headless foundations | ✓ closed | small | 1 | 1 |
 | [sase-5i.2](sase-5i.2.md) | Phase 2: GitHub provider implementation | ✓ closed | small | 0 | 0 |
 | [sase-5i.3](sase-5i.3.md) | Phase 3: TUI menu | ✓ closed | small | 1 | 1 |
-| [sase-5i.4](sase-5i.4.md) | Phase 4: Rust core context, detector, builder, and vectors | ✓ closed | small | 0 | 0 |
-| [sase-5i.5](sase-5i.5.md) | Phase 5: LSP wiring | ✓ closed | small | 0 | 0 |
+| [sase-5i.4](sase-5i.4.md) | Phase 4: Rust core context, detector, builder, and vectors | ✓ closed | small | 1 | 1 |
+| [sase-5i.5](sase-5i.5.md) | Phase 5: LSP wiring | ✓ closed | small | 1 | 1 |
 | [sase-5i.6](sase-5i.6.md) | Phase 6: Neovim smoke test, end-to-end verification, and docs | ✓ closed | small | 1 | 1 |
 
 ## Lineage
@@ -54,10 +54,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5i](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i/README.md) | [sase-5i](README.md) | 2 |
+| [bbugyi200.athena.sase-5i](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i/README.md) | [sase-5i](README.md) | 3 |
 | [bbugyi200.athena.sase-5i--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5i.md#member-code) | [sase-5i](README.md) | 0 |
 | [bbugyi200.athena.sase-5i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.1/README.md) | [sase-5i.1](sase-5i.1.md) | 1 |
 | [bbugyi200.athena.sase-5i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.3/README.md) | [sase-5i.3](sase-5i.3.md) | 1 |
+| [bbugyi200.athena.sase-5i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.4/README.md) | [sase-5i.4](sase-5i.4.md) | 1 |
+| [bbugyi200.athena.sase-5i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.5/README.md) | [sase-5i.5](sase-5i.5.md) | 1 |
 | [bbugyi200.athena.sase-5i.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.6/README.md) | [sase-5i.6](sase-5i.6.md) | 1 |
 
 ## Commits
@@ -65,7 +67,10 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`52349bd`](https://github.com/sase-org/sase/commit/52349bdf0c64920942ee50d885c87f158e895111) | feat: add VCS ref completion foundations (sase-5i.1) | [sase-5i.1](sase-5i.1.md) | 2026-07-07 20:47:07 |
+| [`sase-core@2e8e7a9`](https://github.com/sase-org/sase-core/commit/2e8e7a92af531d5794757c3ce526777ed37cceb0) | feat(editor): add VCS ref completion core (sase-5i.4) | [sase-5i.4](sase-5i.4.md) | 2026-07-07 21:07:00 |
 | [`461aae3`](https://github.com/sase-org/sase/commit/461aae3b8384187ac4df208a117a81e55a6db4ea) | feat: wire VCS ref completion into TUI (sase-5i.3) | [sase-5i.3](sase-5i.3.md) | 2026-07-07 21:22:38 |
+| [`sase-core@961f63e`](https://github.com/sase-org/sase-core/commit/961f63e7faae46c24b9757d9899d2a54f789420a) | feat(lsp): complete vcs refs from catalog (sase-5i.5) | [sase-5i.5](sase-5i.5.md) | 2026-07-07 21:27:45 |
 | [`9f3c911`](https://github.com/sase-org/sase/commit/9f3c911e585df7b1c04b204430769fccd170f921) | docs: document VCS ref completion (sase-5i.6) | [sase-5i.6](sase-5i.6.md) | 2026-07-07 21:46:41 |
 | [`1a73a30`](https://github.com/sase-org/sase/commit/1a73a30c9b5e805d4ba4e834878f4b3fc3ecf02b) | chore: Add SDD prompt and plan for close\_sase\_5i\_parity\_and\_test\_gaps (sase-5i) | [sase-5i](README.md) | 2026-07-07 22:01:45 |
 | [`b596d78`](https://github.com/sase-org/sase/commit/b596d78dbbcd9d93712a11332a6078e59723efb7) | fix: align VCS ref completion parity (sase-5i) | [sase-5i](README.md) | 2026-07-07 22:23:03 |
+| [`sase-core@21f2777`](https://github.com/sase-org/sase-core/commit/21f2777018cb13ffb16d456122af7cdf719b1091) | fix: align VCS ref completion vectors (sase-5i) | [sase-5i](README.md) | 2026-07-07 22:23:30 |

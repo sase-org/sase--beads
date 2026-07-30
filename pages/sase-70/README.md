@@ -16,7 +16,7 @@ The Admin Center Statistics tab shows which projects and ChangeSpecs SASE agents
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-70.1](sase-70.1.md) | Commit-time ChangeSpec attribution | ✓ closed | small | 1 | 1 |
-| [sase-70.2](sase-70.2.md) | Rust core work statistics engine | ✓ closed | small | 0 | 0 |
+| [sase-70.2](sase-70.2.md) | Rust core work statistics engine | ✓ closed | small | 1 | 1 |
 | [sase-70.3](sase-70.3.md) | Python stats facade work views and filters | ✓ closed | small | 1 | 1 |
 | [sase-70.4](sase-70.4.md) | Projects view in the Statistics tab | ✓ closed | small | 1 | 1 |
 
@@ -42,6 +42,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-70.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-70.1/README.md) | [sase-70.1](sase-70.1.md) | 1 |
+| [bbugyi200.athena.sase-70.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-70.2/README.md) | [sase-70.2](sase-70.2.md) | 1 |
 | [bbugyi200.athena.sase-70.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-70.3/README.md) | [sase-70.3](sase-70.3.md) | 1 |
 | [bbugyi200.athena.sase-70.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-70.4/README.md) | [sase-70.4](sase-70.4.md) | 1 |
 
@@ -49,6 +50,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@4238206`](https://github.com/sase-org/sase-core/commit/4238206d67eb6e02663453343ef8f32a715c2312) | feat(agent-stats): add project and ChangeSpec work rollups (sase-70.2) | [sase-70.2](sase-70.2.md) | 2026-07-19 02:38:23 |
 | [`8f6d3a2`](https://github.com/sase-org/sase/commit/8f6d3a2d4c410815ef79059442315b2322751a75) | fix: preserve commit ChangeSpec attribution (sase-70.1) | [sase-70.1](sase-70.1.md) | 2026-07-19 02:39:13 |
 | [`fcdf263`](https://github.com/sase-org/sase/commit/fcdf2638ed58420ce37d7ac2b1c4c9778050070f) | feat(stats): expose project and changespec work data (sase-70.3) | [sase-70.3](sase-70.3.md) | 2026-07-19 03:08:41 |
 | [`74b3fc7`](https://github.com/sase-org/sase/commit/74b3fc7328c25ade56ce503fb5a0c1c36b7a38ab) | feat(stats): add project and ChangeSpec views (sase-70.4) | [sase-70.4](sase-70.4.md) | 2026-07-19 03:52:55 |

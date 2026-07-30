@@ -24,3 +24,4 @@ COMMIT: 40eed0a2
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`4c5eb1e`](https://github.com/sase-org/sase/commit/4c5eb1e8c55b73600f6781be60aff902d258a8fb) | ref: remove legacy agent rename cleanup paths (sase-2e.6) | [sase-2e.6](sase-2e.6.md) | 2026-05-09 01:34:00 |
+| [`sase-core@55bb09f`](https://github.com/sase-org/sase-core/commit/55bb09fe3b0dc38779c59f7722428eabf555cb31) | ref: remove cleanup rename wire fields (sase-2e.6) | [sase-2e.6](sase-2e.6.md) | 2026-05-09 01:34:17 |

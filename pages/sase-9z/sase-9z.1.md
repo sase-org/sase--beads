@@ -22,10 +22,11 @@ refs: add the parse/render/resolve API for `plans:` references to the Rust core,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.1/README.md) | [sase-9z.1](sase-9z.1.md) | 1 |
+| [bbugyi200.athena.sase-9z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.1/README.md) | [sase-9z.1](sase-9z.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@1136e72`](https://github.com/sase-org/sase-core/commit/1136e7288cc3d40929201127bb12c7e5853001bd) | feat(plan): add durable plan reference contract (sase-9z.1) | [sase-9z.1](sase-9z.1.md) | 2026-07-27 13:16:46 |
 | [`6065356`](https://github.com/sase-org/sase/commit/6065356e7beacd1dfd452b081ad093a0894afe99) | feat(sdd): add shared plan reference facade (sase-9z.1) | [sase-9z.1](sase-9z.1.md) | 2026-07-27 13:17:41 |

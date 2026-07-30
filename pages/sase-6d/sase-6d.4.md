@@ -20,3 +20,15 @@ COMMIT: b067003
 - **Depends on:** [sase-6d.2](sase-6d.2.md) ✓
 - **Depends on:** [sase-6d.3](sase-6d.3.md) ✓
 - **Blocks:** [sase-6d.7](sase-6d.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-6d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6d.4/README.md) | [sase-6d.4](sase-6d.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@287fc8a`](https://github.com/sase-org/sase-core/commit/287fc8a64d09fc67376210dd18c8e5dfcfb6dfba) | feat: align catalog with canonical SASE paths (sase-6d.4) | [sase-6d.4](sase-6d.4.md) | 2026-07-16 18:14:49 |

@@ -46,7 +46,7 @@ flowchart TD
 | [bbugyi200.athena.sase-85.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-85.1.md#member-code) | [sase-85.1](sase-85.1.md) | 0 |
 | [bbugyi200.athena.sase-85.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-85.2/README.md) | [sase-85.2](sase-85.2.md) | 1 |
 | [bbugyi200.athena.sase-85.2--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-85.2.md#member-code) | [sase-85.2](sase-85.2.md) | 0 |
-| [bbugyi200.athena.sase-85.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-85.land/README.md) | [sase-85](README.md) | 1 |
+| [bbugyi200.athena.sase-85.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-85.land/README.md) | [sase-85](README.md) | 2 |
 | [bbugyi200.athena.sase-85.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-85.land.md#member-code) | [sase-85](README.md) | 0 |
 
 ## Commits
@@ -56,3 +56,4 @@ flowchart TD
 | [`0a1fd5f`](https://github.com/sase-org/sase/commit/0a1fd5f83e0d0bf3ed86b8638bdf266ea80c5557) | fix: refresh missing epic summaries before fallback (sase-85.1) | [sase-85.1](sase-85.1.md) | 2026-07-20 15:21:23 |
 | [`01c5b80`](https://github.com/sase-org/sase/commit/01c5b8022662bba689d147a70fd7d2cd6c8d6c48) | feat: enrich epic clan summaries (sase-85.2) | [sase-85.2](sase-85.2.md) | 2026-07-20 16:01:27 |
 | [`f87a09c`](https://github.com/sase-org/sase/commit/f87a09c423fef75701b816dbfaa67370d7a8832b) | test: cover stale epic summary clone recovery (sase-85) | [sase-85](README.md) | 2026-07-20 16:42:58 |
+| [`sase--plans@0ee1bac`](https://github.com/sase-org/sase--plans/commit/0ee1bac4c170ef3198f45d72d803968a26f673e1) | docs: mark epic clan summary plan done (sase-85) | [sase-85](README.md) | 2026-07-20 16:43:19 |

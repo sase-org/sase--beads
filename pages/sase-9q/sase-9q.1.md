@@ -18,3 +18,15 @@ Implemented shared prompt literal-zone exposure; raw/literal PlaceholderSpan cla
 ## Dependencies
 
 - **Blocks:** [sase-9q.2](sase-9q.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9q.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9q.1/README.md) | [sase-9q.1](sase-9q.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@61f4162`](https://github.com/sase-org/sase-core/commit/61f41627ec1e56730e2b3ae542c292b6ac57ca2b) | feat(editor): add raw placeholder transforms (sase-9q.1) | [sase-9q.1](sase-9q.1.md) | 2026-07-26 10:25:10 |

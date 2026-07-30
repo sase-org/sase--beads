@@ -15,7 +15,7 @@ COMMIT: beeefa6c2
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-61.1](sase-61.1.md) | sase-core — plan frontmatter schema model + validation engine | ✓ closed | small | 0 | 0 |
+| [sase-61.1](sase-61.1.md) | sase-core — plan frontmatter schema model + validation engine | ✓ closed | small | 1 | 1 |
 | [sase-61.2](sase-61.2.md) | sase plan validate CLI command + Python facade | ✓ closed | small | 1 | 1 |
 | [sase-61.3](sase-61.3.md) | Propose-time gate + agent planning-loop updates | ✓ closed | small | 1 | 1 |
 | [sase-61.4](sase-61.4.md) | Epic-approval validation gate | ✓ closed | small | 1 | 1 |
@@ -52,6 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-61](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61/README.md) | [sase-61](README.md) | 1 |
 | [bbugyi200.athena.sase-61--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-61.md#member-code) | [sase-61](README.md) | 0 |
+| [bbugyi200.athena.sase-61.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61.1/README.md) | [sase-61.1](sase-61.1.md) | 1 |
 | [bbugyi200.athena.sase-61.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61.2/README.md) | [sase-61.2](sase-61.2.md) | 1 |
 | [bbugyi200.athena.sase-61.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61.3/README.md) | [sase-61.3](sase-61.3.md) | 1 |
 | [bbugyi200.athena.sase-61.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61.4/README.md) | [sase-61.4](sase-61.4.md) | 1 |
@@ -62,6 +63,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@717300e`](https://github.com/sase-org/sase-core/commit/717300ef9fc314969259fa2975c34d77e79772e3) | feat(plan): add strict frontmatter validation (sase-61.1) | [sase-61.1](sase-61.1.md) | 2026-07-14 17:03:41 |
 | [`4881a04`](https://github.com/sase-org/sase/commit/4881a04bfa1ede8580925fe14bae6935ca1eb620) | feat(plan): add strict plan validation command (sase-61.2) | [sase-61.2](sase-61.2.md) | 2026-07-14 17:25:09 |
 | [`d2e9613`](https://github.com/sase-org/sase/commit/d2e9613a8ad23368037fcb1c0161e4e1a6480273) | feat(plan): validate plans before proposal (sase-61.3) | [sase-61.3](sase-61.3.md) | 2026-07-14 17:41:47 |
 | [`b33ef20`](https://github.com/sase-org/sase/commit/b33ef206cfa69408823d1b681b2b82f2eb20fe2d) | feat(sdd): enforce committed plan schema cutover (sase-61.6) | [sase-61.6](sase-61.6.md) | 2026-07-14 17:49:51 |

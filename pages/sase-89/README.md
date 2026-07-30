@@ -55,6 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-89.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-89.3.md#member-code) | [sase-89.3](sase-89.3.md) | 0 |
 | [bbugyi200.athena.sase-89.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-89.4/README.md) | [sase-89.4](sase-89.4.md) | 1 |
 | [bbugyi200.athena.sase-89.4--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-89.4.md#member-code) | [sase-89.4](sase-89.4.md) | 0 |
+| [bbugyi200.athena.sase-89.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-89.land/README.md) | [sase-89](README.md) | 1 |
 
 ## Commits
 
@@ -65,3 +66,4 @@ flowchart TD
 | [`148bbb1`](https://github.com/sase-org/sase/commit/148bbb1cc982f47100bdeb4ba9acd4e78744d08d) | fix(projects): humanize remaining display surfaces (sase-89.3) | [sase-89.3](sase-89.3.md) | 2026-07-20 17:58:37 |
 | [`e3af45c`](https://github.com/sase-org/sase/commit/e3af45c7060abb9481e85c2a14c3c99cce74b20a) | fix(stats): retain project display projection helper (sase-89.3) | [sase-89.3](sase-89.3.md) | 2026-07-20 18:01:32 |
 | [`e917679`](https://github.com/sase-org/sase/commit/e917679d1d690aa19241fce1d755ac7dba0bce4f) | fix: prevent canonical project keys leaking into displays (sase-89.4) | [sase-89.4](sase-89.4.md) | 2026-07-20 18:47:14 |
+| [`sase--plans@717ed75`](https://github.com/sase-org/sase--plans/commit/717ed7526fe3804c64f79a5441cdd51189f80330) | docs: mark project display names epic complete (sase-89) | [sase-89](README.md) | 2026-07-20 19:08:21 |

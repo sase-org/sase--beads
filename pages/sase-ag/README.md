@@ -19,11 +19,11 @@ Every committed plan file opens with one beautiful, self-healing header block wh
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ag.1](sase-ag.1.md) | Rust-owned plan header block grammar | ✓ closed | medium | 1 | 1 |
+| [sase-ag.1](sase-ag.1.md) | Rust-owned plan header block grammar | ✓ closed | medium | 1 | 2 |
 | [sase-ag.2](sase-ag.2.md) | Hosted URL resolution for plans, agents, and commits | ✓ closed | small | 1 | 1 |
 | [sase-ag.3](sase-ag.3.md) | Derived plan association index | ✓ closed | medium | 1 | 1 |
-| [sase-ag.4](sase-ag.4.md) | Header writes at propose, commit, and post-commit | ✓ closed | medium | 1 | 1 |
-| [sase-ag.5](sase-ag.5.md) | Tree-wide refresh and parent-property migration | ✓ closed | medium | 1 | 1 |
+| [sase-ag.4](sase-ag.4.md) | Header writes at propose, commit, and post-commit | ✓ closed | medium | 1 | 2 |
+| [sase-ag.5](sase-ag.5.md) | Tree-wide refresh and parent-property migration | ✓ closed | medium | 1 | 2 |
 | [sase-ag.6](sase-ag.6.md) | Display, documentation, and validation surfaces | ✓ closed | small | 1 | 1 |
 
 ## Lineage
@@ -56,11 +56,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ag.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.1/README.md) | [sase-ag.1](sase-ag.1.md) | 1 |
+| [bbugyi200.athena.sase-ag.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.1/README.md) | [sase-ag.1](sase-ag.1.md) | 2 |
 | [bbugyi200.athena.sase-ag.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.2/README.md) | [sase-ag.2](sase-ag.2.md) | 1 |
 | [bbugyi200.athena.sase-ag.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.3/README.md) | [sase-ag.3](sase-ag.3.md) | 1 |
-| [bbugyi200.athena.sase-ag.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.4/README.md) | [sase-ag.4](sase-ag.4.md) | 1 |
-| [bbugyi200.athena.sase-ag.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.5/README.md) | [sase-ag.5](sase-ag.5.md) | 1 |
+| [bbugyi200.athena.sase-ag.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.4/README.md) | [sase-ag.4](sase-ag.4.md) | 2 |
+| [bbugyi200.athena.sase-ag.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.5/README.md) | [sase-ag.5](sase-ag.5.md) | 2 |
 | [bbugyi200.athena.sase-ag.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.6/README.md) | [sase-ag.6](sase-ag.6.md) | 1 |
 | [bbugyi200.athena.sase-ag.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ag.land.md#member-code) | [sase-ag](README.md) | 1 |
 
@@ -69,9 +69,12 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`563deaf`](https://github.com/sase-org/sase/commit/563deafc555973c025e1d99633e4dc770392cd4d) | feat(sdd): add hosted URL resolution for plans, agents, and commits (sase-ag.2) | [sase-ag.2](sase-ag.2.md) | 2026-07-28 14:07:10 |
+| [`sase-core@105b597`](https://github.com/sase-org/sase-core/commit/105b597ee16955977e25618123fab8374b3570d6) | feat(plan): add structured header block contract (sase-ag.1) | [sase-ag.1](sase-ag.1.md) | 2026-07-28 14:32:26 |
 | [`8b2baa8`](https://github.com/sase-org/sase/commit/8b2baa881e24ab30dadfe527da1bba514a99d817) | feat(sdd): add typed plan header block adapter (sase-ag.1) | [sase-ag.1](sase-ag.1.md) | 2026-07-28 14:33:32 |
 | [`7270b98`](https://github.com/sase-org/sase/commit/7270b986bf6fbcd9055315469c631d2c586c2b5a) | feat(sdd): derive plan provenance associations (sase-ag.3) | [sase-ag.3](sase-ag.3.md) | 2026-07-28 14:42:04 |
+| [`sase-core@22fb5ba`](https://github.com/sase-org/sase-core/commit/22fb5bad2fb11d7e7f49abb4250e151d744ff20d) | fix(plan): ignore fenced header examples (sase-ag.4) | [sase-ag.4](sase-ag.4.md) | 2026-07-28 15:35:30 |
 | [`9701511`](https://github.com/sase-org/sase/commit/97015111b388e663506d996a2d9c6a7511af0eda) | feat(sdd)!: write plan provenance headers (sase-ag.4) | [sase-ag.4](sase-ag.4.md) | 2026-07-28 15:36:40 |
+| [`sase-core@4d70c1c`](https://github.com/sase-org/sase-core/commit/4d70c1c8bfe9de52588e23f4b214a71c1b67a5cc) | feat(plan): support canonical parent header migration (sase-ag.5) | [sase-ag.5](sase-ag.5.md) | 2026-07-28 16:25:47 |
 | [`ca29de3`](https://github.com/sase-org/sase/commit/ca29de3befeea34321826e749ffc1e689a8a8b5e) | feat(plan): add bulk provenance link refresh (sase-ag.5) | [sase-ag.5](sase-ag.5.md) | 2026-07-28 16:26:46 |
 | [`5c74052`](https://github.com/sase-org/sase/commit/5c74052a6728503ee4bd1a42b8b4be58e72f5318) | feat(plan): surface plan header block in viewers and docs (sase-ag.6) | [sase-ag.6](sase-ag.6.md) | 2026-07-28 16:53:07 |
 | [`702f1ae`](https://github.com/sase-org/sase/commit/702f1aece2375113427d437497924e960d5ca735) | build(deps): require sase-core-rs 0.12.4 (sase-ag) | [sase-ag](README.md) | 2026-07-28 18:03:38 |

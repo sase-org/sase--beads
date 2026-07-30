@@ -19,10 +19,11 @@ COMMIT: 37a4a4034
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.1/README.md) | [sase-4g.1](sase-4g.1.md) | 1 |
+| [bbugyi200.athena.sase-4g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.1/README.md) | [sase-4g.1](sase-4g.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`7e88250`](https://github.com/sase-org/sase/commit/7e88250d534da3bf6371ec2ed87d7e4d2720bd7f) | feat: add agent name template Python adapter (sase-4g.1) | [sase-4g.1](sase-4g.1.md) | 2026-06-08 19:31:05 |
+| [`sase-core@ad23829`](https://github.com/sase-org/sase-core/commit/ad238295382d1e74401cf494b7b74878b4b7268e) | feat: add agent name template primitives (sase-4g.1) | [sase-4g.1](sase-4g.1.md) | 2026-06-08 19:31:38 |

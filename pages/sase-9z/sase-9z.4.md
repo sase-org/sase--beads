@@ -20,10 +20,11 @@ display: render the stable reference together with where it currently resolves, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.4/README.md) | [sase-9z.4](sase-9z.4.md) | 1 |
+| [bbugyi200.athena.sase-9z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.4/README.md) | [sase-9z.4](sase-9z.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b230538`](https://github.com/sase-org/sase-core/commit/b2305382a657750efaf2fe308181f2325eb9c729) | feat(bead): show plan references alongside where they resolve (sase-9z.4) | [sase-9z.4](sase-9z.4.md) | 2026-07-27 15:52:40 |
 | [`881636a`](https://github.com/sase-org/sase/commit/881636a745de9f88d43cbfcec868f6a537e9f0a2) | feat(sdd): surface plan references and where they resolve (sase-9z.4) | [sase-9z.4](sase-9z.4.md) | 2026-07-27 16:03:49 |

@@ -17,3 +17,15 @@ COMMIT: c6b64d22f
 
 - **Depends on:** [sase-5h.1](sase-5h.1.md) ✓
 - **Blocks:** [sase-5h.5](sase-5h.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-5h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.4/README.md) | [sase-5h.4](sase-5h.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@adff66f`](https://github.com/sase-org/sase-core/commit/adff66fef601d947ce30a5ab5eaf7cf074949493) | feat(editor): add VCS repo completion context (sase-5h.4) | [sase-5h.4](sase-5h.4.md) | 2026-07-07 18:04:35 |

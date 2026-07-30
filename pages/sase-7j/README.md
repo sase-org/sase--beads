@@ -15,7 +15,7 @@ Agent tribes are named "tribe" throughout current source, APIs, persisted output
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-7j.1](sase-7j.1.md) | Canonical tribe persistence and wire contracts | ✓ closed | small | 1 | 1 |
+| [sase-7j.1](sase-7j.1.md) | Canonical tribe persistence and wire contracts | ✓ closed | small | 1 | 2 |
 | [sase-7j.2](sase-7j.2.md) | Runtime and integration cutover | ✓ closed | small | 1 | 1 |
 | [sase-7j.3](sase-7j.3.md) | ACE tribe surfaces and behavior | ✓ closed | small | 0 | 0 |
 | [sase-7j.4](sase-7j.4.md) | Documentation, compatibility audit, and release validation | ✓ closed | small | 1 | 1 |
@@ -42,7 +42,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.1/README.md) | [sase-7j.1](sase-7j.1.md) | 1 |
+| [bbugyi200.athena.sase-7j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.1/README.md) | [sase-7j.1](sase-7j.1.md) | 2 |
 | [bbugyi200.athena.sase-7j.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.2/README.md) | [sase-7j.2](sase-7j.2.md) | 1 |
 | [bbugyi200.athena.sase-7j.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.4/README.md) | [sase-7j.4](sase-7j.4.md) | 1 |
 
@@ -50,6 +50,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@c1f46f1`](https://github.com/sase-org/sase-core/commit/c1f46f151a0e966521a58d504417adfdf32d3000) | feat(agent-tribes)!: canonicalize tribe wire contracts (sase-7j.1) | [sase-7j.1](sase-7j.1.md) | 2026-07-19 18:40:06 |
 | [`9e786c9`](https://github.com/sase-org/sase/commit/9e786c9a8280522c0be1fe012a9a7ee43801719a) | feat(agent-tribes)!: add canonical tribe persistence contracts (sase-7j.1) | [sase-7j.1](sase-7j.1.md) | 2026-07-19 18:41:24 |
 | [`16309d5`](https://github.com/sase-org/sase/commit/16309d54c82de4644fec99e313dc8571276a3137) | feat(agents)!: cut runtime over to tribe terminology (sase-7j.2) | [sase-7j.2](sase-7j.2.md) | 2026-07-19 20:01:07 |
 | [`0138849`](https://github.com/sase-org/sase/commit/0138849d919e0136b6eedadbcfb28e603f2b58bb) | feat(agents)!: complete tribe terminology cutover (sase-7j.4) | [sase-7j.4](sase-7j.4.md) | 2026-07-19 21:38:55 |

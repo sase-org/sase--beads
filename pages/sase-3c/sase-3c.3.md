@@ -24,4 +24,5 @@ COMMIT: 706d80d83
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@3f104fb`](https://github.com/sase-org/sase-core/commit/3f104fb277df86220377f852e48c37c7368a4fa5) | feat: remove merged bead read exports (sase-3c.3) | [sase-3c.3](sase-3c.3.md) | 2026-05-13 03:46:46 |
 | [`b21bbbd`](https://github.com/sase-org/sase/commit/b21bbbd752e718af6c0ae000b5c704e98586fad8) | feat: remove merged bead read facade (sase-3c.3) | [sase-3c.3](sase-3c.3.md) | 2026-05-13 03:52:35 |

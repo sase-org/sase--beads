@@ -20,10 +20,11 @@ COMMIT: 88ab057dc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4x.3/README.md) | [sase-4x.3](sase-4x.3.md) | 1 |
+| [bbugyi200.athena.sase-4x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4x.3/README.md) | [sase-4x.3](sase-4x.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`3ac4746`](https://github.com/sase-org/sase/commit/3ac47468abc82728b563511d9160fb014ed4de19) | feat(plan-search): add Python facade for plan search (sase-4x.3) | [sase-4x.3](sase-4x.3.md) | 2026-06-19 02:47:38 |
+| [`sase-core@747832a`](https://github.com/sase-org/sase-core/commit/747832aa958e30d5802b88c4a5b6ad573a286eba) | feat(plan): expose plan search via PyO3 binding (sase-4x.3) | [sase-4x.3](sase-4x.3.md) | 2026-06-19 02:48:29 |

@@ -17,7 +17,7 @@ COMMIT: d1d114212
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-4r.1](sase-4r.1.md) | Phase 1 — Core frontmatter schema & validation API (sase-core + binding) | ✓ closed | small | 1 | 1 |
+| [sase-4r.1](sase-4r.1.md) | Phase 1 — Core frontmatter schema & validation API (sase-core + binding) | ✓ closed | small | 1 | 2 |
 | [sase-4r.2](sase-4r.2.md) | Phase 2 — Structured frontmatter model + stack round-trip (Python, pure logic) | ✓ closed | small | 1 | 1 |
 | [sase-4r.3](sase-4r.3.md) | Phase 3 — Frontmatter Panel widget: trigger, layout, scalar/list editing | ✓ closed | small | 1 | 1 |
 | [sase-4r.4](sase-4r.4.md) | Phase 4 — Structured \`input\`/\`xprompts\` editors + local-xprompt completion parity | ✓ closed | small | 1 | 1 |
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-4r](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r/README.md) | [sase-4r](README.md) | 2 |
-| [bbugyi200.athena.sase-4r.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.1/README.md) | [sase-4r.1](sase-4r.1.md) | 1 |
+| [bbugyi200.athena.sase-4r.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.1/README.md) | [sase-4r.1](sase-4r.1.md) | 2 |
 | [bbugyi200.athena.sase-4r.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.2/README.md) | [sase-4r.2](sase-4r.2.md) | 1 |
 | [bbugyi200.athena.sase-4r.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.3/README.md) | [sase-4r.3](sase-4r.3.md) | 1 |
 | [bbugyi200.athena.sase-4r.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.4/README.md) | [sase-4r.4](sase-4r.4.md) | 1 |
@@ -62,6 +62,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@f9e9b62`](https://github.com/sase-org/sase-core/commit/f9e9b6295e460c0ea368bed2b721d0ab5e839363) | feat(editor): add frontmatter schema & validation API (sase-4r.1) | [sase-4r.1](sase-4r.1.md) | 2026-06-16 18:23:06 |
 | [`20a9589`](https://github.com/sase-org/sase/commit/20a95891d2fcdc1a90f9c8b7d1aa14d461c80d9a) | feat(xprompt): add frontmatter schema adapter over sase\_core (sase-4r.1) | [sase-4r.1](sase-4r.1.md) | 2026-06-16 18:24:56 |
 | [`b8ad5db`](https://github.com/sase-org/sase/commit/b8ad5db760b41da505f20a08a4205ac131bee3b4) | feat(xprompt): add structured PromptFrontmatter model + stack round-trip (sase-4r.2) | [sase-4r.2](sase-4r.2.md) | 2026-06-16 18:43:44 |
 | [`5f1cbf1`](https://github.com/sase-org/sase/commit/5f1cbf1ce97e175c4a986d41ff7741c88392627f) | feat(tui): add Frontmatter Panel widget to prompt input bar (sase-4r.3) | [sase-4r.3](sase-4r.3.md) | 2026-06-16 19:26:23 |

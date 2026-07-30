@@ -23,3 +23,15 @@ docs: update the artifact-reference, ACE, editor, beads, and agents-sidecar docu
 - **Depends on:** [sase-b2.5](sase-b2.5.md) ✓
 - **Depends on:** [sase-b2.7](sase-b2.7.md) ✓
 - **Blocks:** [sase-b2.9](sase-b2.9.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.8/README.md) | [sase-b2.8](sase-b2.8.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`34b2f7f`](https://github.com/sase-org/sase/commit/34b2f7f2fdb1038d2c0ff3b82300a9b199b34732) | docs: document bead and agent artifact refs | [sase-b2.8](sase-b2.8.md) | 2026-07-30 03:31:40 |

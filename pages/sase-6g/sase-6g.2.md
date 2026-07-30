@@ -23,10 +23,11 @@ COMMIT: 7414ba077
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6g.2/README.md) | [sase-6g.2](sase-6g.2.md) | 1 |
+| [bbugyi200.athena.sase-6g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6g.2/README.md) | [sase-6g.2](sase-6g.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@c8ea7de`](https://github.com/sase-org/sase-core/commit/c8ea7deb006d38b0f586b4ce83af4384d036b7fe) | feat(agent-scan): expose parallel family membership (sase-6g.2) | [sase-6g.2](sase-6g.2.md) | 2026-07-16 23:16:32 |
 | [`702ab60`](https://github.com/sase-org/sase/commit/702ab603aaad29970098aa81db003cccef85f54c) | feat(runner-slots): admit parallel family members (sase-6g.2) | [sase-6g.2](sase-6g.2.md) | 2026-07-16 23:17:36 |

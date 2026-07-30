@@ -22,3 +22,4 @@ COMMIT: 970e679f1
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`3eeb913`](https://github.com/sase-org/sase/commit/3eeb913542d583b3bc77e6bc45a99dcc02f55e51) | feat: add notification tag schema support (sase-43.1) | [sase-43.1](sase-43.1.md) | 2026-05-24 00:33:50 |
+| [`sase-core@3ca3d25`](https://github.com/sase-org/sase-core/commit/3ca3d25b9a90cd16263ac56e7bd828e2a5e76937) | feat: add notification tags to core wire contracts (sase-43.1) | [sase-43.1](sase-43.1.md) | 2026-05-24 00:34:34 |

@@ -24,3 +24,4 @@ COMMIT: 9c678e65
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`4f48f7b`](https://github.com/sase-org/sase/commit/4f48f7bbd73148d16d658947786eb4750d0a20d6) | chore: Phase 6A — sase\_core\_rs wheel packaging and release matrix (sase-1b.1) | [sase-1b.1](sase-1b.1.md) | 2026-04-29 20:17:04 |
+| [`sase-core@cd51d97`](https://github.com/sase-org/sase-core/commit/cd51d97abd03c9749f3b6dd805c432c2a14744e7) | chore: Phase 6A — wheel packaging and release matrix (sase-1b.1) | [sase-1b.1](sase-1b.1.md) | 2026-04-29 20:18:29 |

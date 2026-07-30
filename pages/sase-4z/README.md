@@ -13,8 +13,8 @@
 |---|---|---|---|---:|---:|
 | [sase-4z.1](sase-4z.1.md) | Phase 1 — Python foundations: project catalog + expansion helpers (headless, no UI) | ✓ closed | small | 1 | 1 |
 | [sase-4z.2](sase-4z.2.md) | Phase 2 — TUI: the \`+\` project completion menu | ✓ closed | small | 1 | 1 |
-| [sase-4z.3](sase-4z.3.md) | Phase 3 — Rust core: \`vcs\_project\` completion context, builder, and ported transform | ✓ closed | small | 0 | 0 |
-| [sase-4z.4](sase-4z.4.md) | Phase 4 — LSP server wiring + project catalog materialization | ✓ closed | small | 1 | 1 |
+| [sase-4z.3](sase-4z.3.md) | Phase 3 — Rust core: \`vcs\_project\` completion context, builder, and ported transform | ✓ closed | small | 1 | 1 |
+| [sase-4z.4](sase-4z.4.md) | Phase 4 — LSP server wiring + project catalog materialization | ✓ closed | small | 1 | 2 |
 | [sase-4z.5](sase-4z.5.md) | Phase 5 — Neovim integration, end-to-end verification, and docs | ✓ closed | small | 1 | 1 |
 
 ## Lineage
@@ -45,7 +45,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-4z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.1/README.md) | [sase-4z.1](sase-4z.1.md) | 1 |
 | [bbugyi200.athena.sase-4z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.2/README.md) | [sase-4z.2](sase-4z.2.md) | 1 |
-| [bbugyi200.athena.sase-4z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.4/README.md) | [sase-4z.4](sase-4z.4.md) | 1 |
+| [bbugyi200.athena.sase-4z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.3/README.md) | [sase-4z.3](sase-4z.3.md) | 1 |
+| [bbugyi200.athena.sase-4z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.4/README.md) | [sase-4z.4](sase-4z.4.md) | 2 |
 | [bbugyi200.athena.sase-4z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4z.5/README.md) | [sase-4z.5](sase-4z.5.md) | 1 |
 
 ## Commits
@@ -54,5 +55,7 @@ flowchart TD
 |---|---|---|---|
 | [`1039d73`](https://github.com/sase-org/sase/commit/1039d73ed2218fdd80116ea7b1559a72c4a2a1be) | feat(xprompt): add headless project catalog + expansion helpers for \`+\` VCS completion (sase-4z.1) | [sase-4z.1](sase-4z.1.md) | 2026-06-19 14:28:44 |
 | [`ddff98d`](https://github.com/sase-org/sase/commit/ddff98d70bd792db3529238bc228451d56481c67) | feat(xprompt): add \`+\` project completion menu in the TUI prompt (sase-4z.2) | [sase-4z.2](sase-4z.2.md) | 2026-06-19 14:57:34 |
+| [`sase-core@ec412ca`](https://github.com/sase-org/sase-core/commit/ec412ca7eb5dbb04310f11eefec102e8ea467afc) | feat(editor): add vcs\_project completion context, builder, and transform (sase-4z.3) | [sase-4z.3](sase-4z.3.md) | 2026-06-19 15:05:09 |
 | [`1524b96`](https://github.com/sase-org/sase/commit/1524b964fbf4dda8195c5cbdf3176eafc9779180) | feat(xprompt): materialize VCS project catalog for the xprompt LSP (sase-4z.4) | [sase-4z.4](sase-4z.4.md) | 2026-06-19 15:30:23 |
+| [`sase-core@dc613a4`](https://github.com/sase-org/sase-core/commit/dc613a4007cc39f5e40d3d148fdb882ea2eafc19) | feat(xprompt\_lsp): wire \`+\` VCS project completion into the LSP server (sase-4z.4) | [sase-4z.4](sase-4z.4.md) | 2026-06-19 15:31:10 |
 | [`2d4d27e`](https://github.com/sase-org/sase/commit/2d4d27eaef33ccc35f02220e2e1663143c53cf6f) | docs(glossary): document \`+\` VCS project completion (sase-4z.5) | [sase-4z.5](sase-4z.5.md) | 2026-06-19 16:10:21 |

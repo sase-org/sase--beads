@@ -21,3 +21,15 @@ COMMIT: f27936565
 
 - **Depends on:** [sase-5i.1](sase-5i.1.md) ✓
 - **Blocks:** [sase-5i.5](sase-5i.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-5i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5i.4/README.md) | [sase-5i.4](sase-5i.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@2e8e7a9`](https://github.com/sase-org/sase-core/commit/2e8e7a92af531d5794757c3ce526777ed37cceb0) | feat(editor): add VCS ref completion core (sase-5i.4) | [sase-5i.4](sase-5i.4.md) | 2026-07-07 21:07:00 |

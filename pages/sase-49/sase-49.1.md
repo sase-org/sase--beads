@@ -21,10 +21,11 @@ COMMIT: ec21bee3e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-49.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-49.1/README.md) | [sase-49.1](sase-49.1.md) | 1 |
+| [bbugyi200.athena.sase-49.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-49.1/README.md) | [sase-49.1](sase-49.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`067360d`](https://github.com/sase-org/sase/commit/067360dfdbb9b8c69b706687e3bc4769f770236a) | feat: add project lifecycle facade (sase-49.1) | [sase-49.1](sase-49.1.md) | 2026-06-01 17:06:47 |
+| [`sase-core@fe21ab7`](https://github.com/sase-org/sase-core/commit/fe21ab74ea5e7de091fc00a72b377beb0873699c) | feat: add project lifecycle core contract (sase-49.1) | [sase-49.1](sase-49.1.md) | 2026-06-01 17:07:28 |

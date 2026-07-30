@@ -23,10 +23,11 @@ COMMIT: 97a493be8
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.1/README.md) | [sase-6v.1](sase-6v.1.md) | 1 |
+| [bbugyi200.athena.sase-6v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.1/README.md) | [sase-6v.1](sase-6v.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@85bf2a2`](https://github.com/sase-org/sase-core/commit/85bf2a2d53d39ca6eeb9d4d3bd8819eaddad0a61) | feat: add axe chop domain engine (sase-6v.1) | [sase-6v.1](sase-6v.1.md) | 2026-07-18 20:21:05 |
 | [`59a7b71`](https://github.com/sase-org/sase/commit/59a7b717289bed998b56a0ff19f38a2565228f90) | feat: expose axe chop core facade (sase-6v.1) | [sase-6v.1](sase-6v.1.md) | 2026-07-18 20:21:39 |

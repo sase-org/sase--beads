@@ -23,11 +23,12 @@ COMMIT: 57a992569
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8f.1/README.md) | [sase-8f.1](sase-8f.1.md) | 1 |
+| [bbugyi200.athena.sase-8f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8f.1/README.md) | [sase-8f.1](sase-8f.1.md) | 2 |
 | [bbugyi200.athena.sase-8f.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8f.1.md#member-code) | [sase-8f.1](sase-8f.1.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@7f80ad5`](https://github.com/sase-org/sase-core/commit/7f80ad5b1db54dbbfa89632ec0812b216c816c56) | feat(beads): add atomic agent launch claims (sase-8f.1) | [sase-8f.1](sase-8f.1.md) | 2026-07-20 20:20:52 |
 | [`0ed5505`](https://github.com/sase-org/sase/commit/0ed55056f9acfb6ec60adba4b9d4330cacc4043d) | feat(beads): expose atomic agent launch claims (sase-8f.1) | [sase-8f.1](sase-8f.1.md) | 2026-07-20 20:21:27 |

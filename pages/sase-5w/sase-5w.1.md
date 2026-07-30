@@ -19,10 +19,11 @@ COMMIT: 9e53dd4e5
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5w.1/README.md) | [sase-5w.1](sase-5w.1.md) | 1 |
+| [bbugyi200.athena.sase-5w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5w.1/README.md) | [sase-5w.1](sase-5w.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@5adad45`](https://github.com/sase-org/sase-core/commit/5adad45853619465c56a2c2dfce061f266e5444f) | feat(projects): classify projects and canonicalize lifecycle (sase-5w.1) | [sase-5w.1](sase-5w.1.md) | 2026-07-13 14:57:15 |
 | [`f47815d`](https://github.com/sase-org/sase/commit/f47815df3109bb7708303c230d63e09c33fb4239) | feat(projects): adopt enabled and disabled lifecycle states (sase-5w.1) | [sase-5w.1](sase-5w.1.md) | 2026-07-13 14:58:47 |

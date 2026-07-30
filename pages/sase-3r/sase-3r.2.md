@@ -23,4 +23,6 @@ COMMIT: 7304821b3
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`c0195b2`](https://github.com/sase-org/sase/commit/c0195b2002db0c1e9c96e489d6b438f6f5992b78) | feat: wire visibility-aware artifact index query through Python facade (sase-3r.2) | [sase-3r.2](sase-3r.2.md) | 2026-05-16 14:34:33 |
+| [`sase-core@57ef728`](https://github.com/sase-org/sase-core/commit/57ef72869eaadd66c967c0cbbc1fcfe7b42ad989) | feat: add visibility-aware index query and dismissed-agent sidecar (sase-3r.2) | [sase-3r.2](sase-3r.2.md) | 2026-05-16 14:34:58 |
 | [`56fbf1c`](https://github.com/sase-org/sase/commit/56fbf1ced8a5578081edea7bbd83a93ac040f1e8) | feat: preserve agent family metadata in runner handoffs (sase-3r.2) | [sase-3r.2](sase-3r.2.md) | 2026-05-17 00:57:50 |
+| [`sase-core@d6bc1af`](https://github.com/sase-org/sase-core/commit/d6bc1afb7e6dbf5064f03e8195afbd68f1acdd07) | feat: expose agent family fields in scan metadata (sase-3r.2) | [sase-3r.2](sase-3r.2.md) | 2026-05-17 00:58:04 |

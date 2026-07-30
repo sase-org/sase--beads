@@ -24,10 +24,11 @@ block-contract: replace the single-bullet SDD artifact-link contract in sase-cor
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ag.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.1/README.md) | [sase-ag.1](sase-ag.1.md) | 1 |
+| [bbugyi200.athena.sase-ag.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.1/README.md) | [sase-ag.1](sase-ag.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@105b597`](https://github.com/sase-org/sase-core/commit/105b597ee16955977e25618123fab8374b3570d6) | feat(plan): add structured header block contract (sase-ag.1) | [sase-ag.1](sase-ag.1.md) | 2026-07-28 14:32:26 |
 | [`8b2baa8`](https://github.com/sase-org/sase/commit/8b2baa881e24ab30dadfe527da1bba514a99d817) | feat(sdd): add typed plan header block adapter (sase-ag.1) | [sase-ag.1](sase-ag.1.md) | 2026-07-28 14:33:32 |

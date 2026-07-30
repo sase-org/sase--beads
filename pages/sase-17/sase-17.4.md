@@ -25,4 +25,5 @@ COMMIT: a29d98a2
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@830ce4c`](https://github.com/sase-org/sase-core/commit/830ce4c635afa71446e1816d64a9942d6028d3f8) | feat(query): Phase 2D PyO3 query bindings (sase-17.4) | [sase-17.4](sase-17.4.md) | 2026-04-29 07:41:20 |
 | [`7d23ac5`](https://github.com/sase-org/sase/commit/7d23ac5de9b0b8763ff7d1d12e5270980c93ff1f) | feat(core): Phase 2D — wire Rust query bindings into facade (sase-17.4) | [sase-17.4](sase-17.4.md) | 2026-04-29 07:41:46 |

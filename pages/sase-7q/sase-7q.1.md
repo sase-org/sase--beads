@@ -18,3 +18,15 @@ COMMIT: a436f00
 ## Dependencies
 
 - **Blocks:** [sase-7q.2](sase-7q.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7q.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7q.1/README.md) | [sase-7q.1](sase-7q.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@a436f00`](https://github.com/sase-org/sase-core/commit/a436f00a8870c0d022c6a00a51b524b0fb7ac3e5) | feat(axe): add clan-aware chop contracts (sase-7q.1) | [sase-7q.1](sase-7q.1.md) | 2026-07-19 22:45:30 |

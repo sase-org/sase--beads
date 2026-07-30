@@ -21,3 +21,15 @@ tui-view: register the XPrompts view in the Statistics pane, render its four `g`
 
 - **Depends on:** [sase-au.3](sase-au.3.md) ✓
 - **Blocks:** [sase-au.5](sase-au.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`7ddfbb1`](https://github.com/sase-org/sase/commit/7ddfbb16a13bd0771d1bf3d47fc19beee3a31086) | feat(tui): add xprompt statistics view | [sase-au.4](sase-au.4.md) | 2026-07-29 17:13:25 |

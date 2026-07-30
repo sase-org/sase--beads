@@ -26,4 +26,5 @@ COMMIT: e94cf134
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@f5e9c25`](https://github.com/sase-org/sase-core/commit/f5e9c255192d710180695f5df51185b96e804975) | feat: Phase 3C — sase\_core\_rs.scan\_agent\_artifacts PyO3 binding (sase-18.3) | [sase-18.3](sase-18.3.md) | 2026-04-29 14:04:49 |
 | [`87d9788`](https://github.com/sase-org/sase/commit/87d97884693960fd7e1890700c3f2f016637bf37) | chore(core): Phase 3C — agent-scan facade dual-run dispatch and PyO3 wiring (sase-18.3) | [sase-18.3](sase-18.3.md) | 2026-04-29 14:05:08 |

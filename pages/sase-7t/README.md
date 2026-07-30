@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-7t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7t.2/README.md) | [sase-7t.2](sase-7t.2.md) | 1 |
 | [bbugyi200.athena.sase-7t.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7t.3/README.md) | [sase-7t.3](sase-7t.3.md) | 1 |
 | [bbugyi200.athena.sase-7t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7t.5/README.md) | [sase-7t.5](sase-7t.5.md) | 1 |
-| [bbugyi200.athena.sase-7t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7t.land/README.md) | [sase-7t](README.md) | 1 |
+| [bbugyi200.athena.sase-7t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7t.land/README.md) | [sase-7t](README.md) | 2 |
 
 ## Commits
 
@@ -65,3 +65,4 @@ flowchart TD
 | [`1790e44`](https://github.com/sase-org/sase/commit/1790e441c2d37b2e61cdd919ca4c5106116af0e6) | fix: scope chop linkage to explicit launches (sase-7t.1) | [sase-7t.1](sase-7t.1.md) | 2026-07-20 00:35:08 |
 | [`d55ecbb`](https://github.com/sase-org/sase/commit/d55ecbbd276ee3810a1ad4e46dd550b2eae7a243) | fix(axe): match chop results to launched agents (sase-7t.2) | [sase-7t.2](sase-7t.2.md) | 2026-07-20 00:54:48 |
 | [`b8b0a92`](https://github.com/sase-org/sase/commit/b8b0a924807f2881b950fda561a99434d39d80e2) | docs(axe): document chop launch linkage and finalization semantics (sase-7t) | [sase-7t](README.md) | 2026-07-20 01:10:20 |
+| [`sase--plans@86c004d`](https://github.com/sase-org/sase--plans/commit/86c004d2b1a8ed485e3b0113fee6f3af7c953719) | docs(plans): mark chop lifecycle fixes v2 plan done (sase-7t) | [sase-7t](README.md) | 2026-07-20 01:10:45 |

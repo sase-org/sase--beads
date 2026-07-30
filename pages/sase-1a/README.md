@@ -13,7 +13,7 @@
 |---|---|---|---|---:|---:|
 | [sase-1a.1](sase-1a.1.md) | Phase 5A: Audit, Profiling, and Scope Lock | ✓ closed | small | 0 | 1 |
 | [sase-1a.2](sase-1a.2.md) | Phase 5B: Python Facade, Wire Contract, and Golden Tests | ✓ closed | small | 0 | 1 |
-| [sase-1a.3](sase-1a.3.md) | Phase 5C: Rust Pure Git Parser Module and PyO3 Bindings | ✓ closed | small | 0 | 1 |
+| [sase-1a.3](sase-1a.3.md) | Phase 5C: Rust Pure Git Parser Module and PyO3 Bindings | ✓ closed | small | 0 | 2 |
 | [sase-1a.4](sase-1a.4.md) | Phase 5D: Facade Registration and Dual-Run | ✓ closed | small | 0 | 1 |
 | [sase-1a.5](sase-1a.5.md) | Phase 5E: Git Provider Integration and End-to-End Verification | ✓ closed | small | 0 | 1 |
 | [sase-1a.6](sase-1a.6.md) | Phase 5F: Close-Out, Documentation, and Rollout Decision | ✓ closed | small | 0 | 1 |
@@ -48,6 +48,7 @@ flowchart TD
 |---|---|---|---|
 | [`6f27ced`](https://github.com/sase-org/sase/commit/6f27ced9da241ce46752ac47e320e6e8fd46bd24) | chore: Phase 5A audit, bench, and scope lock for git query ops (sase-1a.1) | [sase-1a.1](sase-1a.1.md) | 2026-04-29 18:29:53 |
 | [`11f568e`](https://github.com/sase-org/sase/commit/11f568ec2234b59a043d138a94faaa5929b4e549) | chore: Phase 5B Git query parser facade + golden tests (sase-1a.2) | [sase-1a.2](sase-1a.2.md) | 2026-04-29 18:40:47 |
+| [`sase-core@dd8c2b8`](https://github.com/sase-org/sase-core/commit/dd8c2b8b30a0a04190af342cc113d9ca38878ebd) | feat: Phase 5C — pure-Rust Git query parsers and PyO3 bindings (sase-1a.3) | [sase-1a.3](sase-1a.3.md) | 2026-04-29 18:49:24 |
 | [`d4828f9`](https://github.com/sase-org/sase/commit/d4828f9a72f52653c883fe344a407f9840877309) | chore: Phase 5C handoff doc for Rust Git query parser port (sase-1a.3) | [sase-1a.3](sase-1a.3.md) | 2026-04-29 18:49:43 |
 | [`0147907`](https://github.com/sase-org/sase/commit/014790747a4532dba6fefba3dd23f144c503bb99) | chore: Phase 5D facade registration + dual-run for Git query parsers (sase-1a.4) | [sase-1a.4](sase-1a.4.md) | 2026-04-29 19:06:13 |
 | [`9a8cd4a`](https://github.com/sase-org/sase/commit/9a8cd4a83d0f5d491ea1240e93e386ea059f466f) | ref: route GitQueryOpsMixin through sase.core.git\_query\_facade (sase-1a.5) | [sase-1a.5](sase-1a.5.md) | 2026-04-29 19:14:08 |

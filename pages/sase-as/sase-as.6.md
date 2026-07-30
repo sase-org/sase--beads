@@ -18,3 +18,15 @@ role-consumers: replace every remaining literal `("plans", "research", "beads")`
 ## Dependencies
 
 - **Depends on:** [sase-as.5](sase-as.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.6/README.md) | [sase-as.6](sase-as.6.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`107904b`](https://github.com/sase-org/sase/commit/107904b6bea97c5d036921b2fbbc7ee92e7ceb0e) | feat(sdd): route document sidecars through role registry | [sase-as.6](sase-as.6.md) | 2026-07-29 15:32:05 |

@@ -23,7 +23,7 @@ COMMIT: bb5f3b46
 | [sase-37.6](sase-37.6.md) | Phase 5: Query-Aware Revive Modal | ✓ closed | small | 0 | 1 |
 | [sase-37.7](sase-37.7.md) | Phase 6: Re-Archive Revisions, Atomic Writes, and Concurrency | ✓ closed | small | 0 | 1 |
 | [sase-37.8](sase-37.8.md) | Phase 7: Retention, Purge, Scrub, Export, and Verify+ | ✓ closed | small | 0 | 1 |
-| [sase-37.9](sase-37.9.md) | Phase 8: Move Canonical Archive Backend to Rust Core | ✓ closed | small | 0 | 1 |
+| [sase-37.9](sase-37.9.md) | Phase 8: Move Canonical Archive Backend to Rust Core | ✓ closed | small | 0 | 2 |
 
 ## Lineage
 
@@ -70,4 +70,5 @@ flowchart TD
 | [`ce8cb9e`](https://github.com/sase-org/sase/commit/ce8cb9e374d1647f462ddcf40d34c02321a15fbe) | feat: harden dismissed agent archive storage (sase-37.7) | [sase-37.7](sase-37.7.md) | 2026-05-12 21:34:32 |
 | [`ac5487d`](https://github.com/sase-org/sase/commit/ac5487d67ddd428cfff41bc74c0b38272600a25d) | feat: add archive lifecycle commands (sase-37.8) | [sase-37.8](sase-37.8.md) | 2026-05-12 21:52:07 |
 | [`b9954bb`](https://github.com/sase-org/sase/commit/b9954bb0ae0254b2afc6c9ec4ef3c4d9529de618) | feat: route archive operations through Rust facade (sase-37.9) | [sase-37.9](sase-37.9.md) | 2026-05-12 22:21:13 |
+| [`sase-core@e458501`](https://github.com/sase-org/sase-core/commit/e458501429500525adb18880c22c20f5f54a19ff) | feat: add Rust agent archive backend (sase-37.9) | [sase-37.9](sase-37.9.md) | 2026-05-12 22:22:19 |
 | [`4f21697`](https://github.com/sase-org/sase/commit/4f216979a66d3658611a50762f5fda6eddbf1822) | chore: Add SDD prompt and plan for sase\_37\_completion (sase-37) | [sase-37](README.md) | 2026-05-12 22:26:43 |

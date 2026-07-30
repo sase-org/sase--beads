@@ -16,7 +16,7 @@
 | [sase-5q.3](sase-5q.3.md) | Phase 3: Beads relocation, commit routing, doctor, and skill templates | ✓ closed | small | 1 | 1 |
 | [sase-5q.4](sase-5q.4.md) | Phase 4: sase init creates the companion repos; split-migration command | ✓ closed | small | 1 | 1 |
 | [sase-5q.5](sase-5q.5.md) | Phase 5: GPT-image infographics for both repos | ✓ closed | small | 1 | 1 |
-| [sase-5q.6](sase-5q.6.md) | Phase 6: Execute the migration for the sase project | ✓ closed | small | 1 | 0 |
+| [sase-5q.6](sase-5q.6.md) | Phase 6: Execute the migration for the sase project | ✓ closed | small | 2 | 2 |
 | [sase-5q.7](sase-5q.7.md) | Phase 7: Chezmoi research xprompts, skills deployment, memory regeneration | ✓ closed | small | 0 | 0 |
 
 ## Lineage
@@ -59,6 +59,7 @@ flowchart TD
 | [bbugyi200.athena.sase-5q.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5q.3/README.md) | [sase-5q.3](sase-5q.3.md) | 1 |
 | [bbugyi200.athena.sase-5q.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5q.4/README.md) | [sase-5q.4](sase-5q.4.md) | 1 |
 | [bbugyi200.athena.sase-5q.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5q.5/README.md) | [sase-5q.5](sase-5q.5.md) | 1 |
+| [bbugyi200.athena.sase-5q.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5q.6/README.md) | [sase-5q.6](sase-5q.6.md) | 2 |
 | [bbugyi200.athena.sase-5q.6--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5q.6.md#member-1) | [sase-5q.6](sase-5q.6.md) | 0 |
 
 ## Commits
@@ -71,3 +72,5 @@ flowchart TD
 | [`0bbd3cb`](https://github.com/sase-org/sase/commit/0bbd3cb502d7be5e6f6bef9448d964c899ede46e) | feat(sdd): route split companion operations by repository (sase-5q.3) | [sase-5q.3](sase-5q.3.md) | 2026-07-12 00:33:52 |
 | [`4976cdb`](https://github.com/sase-org/sase/commit/4976cdbd8972db717e65e01448d035a1de9d5db0) | feat(sdd): add split companion initialization and migration (sase-5q.4) | [sase-5q.4](sase-5q.4.md) | 2026-07-12 00:38:55 |
 | [`75ee0fb`](https://github.com/sase-org/sase/commit/75ee0fb6a8ec7cc1dfa00214c05d704e8383507e) | docs(sdd): add companion repository infographics (sase-5q.5) | [sase-5q.5](sase-5q.5.md) | 2026-07-12 01:02:05 |
+| [`sase--plans@2061ebc`](https://github.com/sase-org/sase--plans/commit/2061ebc98378fb13c3244c291454df805d39fd04) | fix(sdd): repair migrated plan links (sase-5q.6) | [sase-5q.6](sase-5q.6.md) | 2026-07-12 01:09:24 |
+| [`sase--plans@ddaf1fe`](https://github.com/sase-org/sase--plans/commit/ddaf1feff8e96df5b10f3df9a7a402416fd4702f) | fix(sdd): remove dangling migrated prompt link (sase-5q.6) | [sase-5q.6](sase-5q.6.md) | 2026-07-12 01:36:35 |

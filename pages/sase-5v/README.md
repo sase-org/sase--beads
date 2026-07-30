@@ -54,7 +54,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5v](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5v/README.md) | [sase-5v](README.md) | 1 |
+| [bbugyi200.athena.sase-5v](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5v/README.md) | [sase-5v](README.md) | 2 |
 | [bbugyi200.athena.sase-5v--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5v.md#member-code) | [sase-5v](README.md) | 0 |
 | [bbugyi200.athena.sase-5v--code-0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5v.md#member-code-0) | [sase-5v](README.md) | 0 |
 | [bbugyi200.athena.sase-5v.5--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5v.5.md#member-1) | [sase-5v.5](sase-5v.5.md) | 0 |
@@ -66,3 +66,4 @@ flowchart TD
 |---|---|---|---|
 | [`d643af6`](https://github.com/sase-org/sase/commit/d643af684dd90f11099195b33b27200d4eb91df8) | chore: remove unused vendored bugyi shell library (sase-5v.6) | [sase-5v.6](sase-5v.6.md) | 2026-07-13 10:51:24 |
 | [`d6b6ab7`](https://github.com/sase-org/sase/commit/d6b6ab73f53bb19b6f4f46b4bf275a1abacab753) | docs: document basher vendoring workflow (sase-5v) | [sase-5v](README.md) | 2026-07-13 11:16:11 |
+| [`sase--plans@6cd1551`](https://github.com/sase-org/sase--plans/commit/6cd1551c990c985494d85abd3cad8e28db1ed48a) | docs: mark basher extraction plan done (sase-5v) | [sase-5v](README.md) | 2026-07-13 11:17:27 |

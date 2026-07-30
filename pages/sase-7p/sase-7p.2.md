@@ -23,10 +23,11 @@ COMMIT: cd1fe6e84
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7p.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7p.2/README.md) | [sase-7p.2](sase-7p.2.md) | 1 |
+| [bbugyi200.athena.sase-7p.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7p.2/README.md) | [sase-7p.2](sase-7p.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@ce6d8bd`](https://github.com/sase-org/sase-core/commit/ce6d8bd1818393687bb35bc27ea45d74ce942973) | fix(axe): validate restart backoff configuration (sase-7p.2) | [sase-7p.2](sase-7p.2.md) | 2026-07-19 21:50:23 |
 | [`cd1fe6e`](https://github.com/sase-org/sase/commit/cd1fe6e842665e747b9c3c775b0b3bf13bf026c2) | fix(axe): harden lumberjack crash recovery (sase-7p.2) | [sase-7p.2](sase-7p.2.md) | 2026-07-19 21:56:05 |

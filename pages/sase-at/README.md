@@ -23,10 +23,10 @@ Selecting a ci_watch release notification in ACE opens a beautiful, current repo
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-at.1](sase-at.1.md) | ViewReport action contract and report loader | ✓ closed | medium | 0 | 0 |
-| [sase-at.2](sase-at.2.md) | Report preview pane and full-screen report modal | ✓ closed | medium | 0 | 0 |
-| [sase-at.3](sase-at.3.md) | ci\_watch release ledger, published report, and notification wiring | ✓ closed | medium | 0 | 0 |
-| [sase-at.4](sase-at.4.md) | Documentation and end-to-end verification | ✓ closed | small | 1 | 1 |
+| [sase-at.1](sase-at.1.md) | ViewReport action contract and report loader | ✓ closed | medium | 1 | 1 |
+| [sase-at.2](sase-at.2.md) | Report preview pane and full-screen report modal | ✓ closed | medium | 1 | 1 |
+| [sase-at.3](sase-at.3.md) | ci\_watch release ledger, published report, and notification wiring | ✓ closed | medium | 1 | 0 |
+| [sase-at.4](sase-at.4.md) | Documentation and end-to-end verification | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -51,12 +51,19 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-at.4 | [sase-at.4](sase-at.4.md) | 1 |
-| bbugyi200.athena.sase-at.land | [sase-at](README.md) | 1 |
+| [bbugyi200.athena.sase-at.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.1/README.md) | [sase-at.1](sase-at.1.md) | 1 |
+| [bbugyi200.athena.sase-at.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.2/README.md) | [sase-at.2](sase-at.2.md) | 1 |
+| [bbugyi200.athena.sase-at.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.3/README.md) | [sase-at.3](sase-at.3.md) | 0 |
+| [bbugyi200.athena.sase-at.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.4/README.md) | [sase-at.4](sase-at.4.md) | 2 |
+| [bbugyi200.athena.sase-at.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.land/README.md) | [sase-at](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`11fd5eb`](https://github.com/sase-org/sase--plans/commit/11fd5eba9c8c1cf39145e34637d75a85d55f0eb8) | docs: restore missing PROMPT backlinks on two plans | [sase-at.4](sase-at.4.md) | 2026-07-29 16:31:51 |
-| [`89409db`](https://github.com/sase-org/sase--plans/commit/89409db57f4c59af6dee7f6ff5a60768dde6f49a) | docs: finalize notification report epic plan | [sase-at](README.md) | 2026-07-29 17:01:42 |
+| [`73cc28b`](https://github.com/sase-org/sase/commit/73cc28b7c5e6df26486971d62e2a4ac55debcf26) | feat(notifications): add generic report action contract | [sase-at.1](sase-at.1.md) | 2026-07-29 15:13:58 |
+| [`1a4ad18`](https://github.com/sase-org/sase/commit/1a4ad1828148b7ae17fd9eaca457c82793224246) | feat(tui): add notification report viewer | [sase-at.2](sase-at.2.md) | 2026-07-29 15:42:29 |
+| [`7396862`](https://github.com/sase-org/sase/commit/7396862437c034428ca25b4244beb4f0f92d325b) | docs: document the ViewReport notification action | [sase-at.4](sase-at.4.md) | 2026-07-29 16:30:51 |
+| [`sase--plans@11fd5eb`](https://github.com/sase-org/sase--plans/commit/11fd5eba9c8c1cf39145e34637d75a85d55f0eb8) | docs: restore missing PROMPT backlinks on two plans | [sase-at.4](sase-at.4.md) | 2026-07-29 16:31:51 |
+| [`8013915`](https://github.com/sase-org/sase/commit/8013915ac54bb5dbd2730c101c27c3b3fee77712) | build: sync lockfile package version | [sase-at](README.md) | 2026-07-29 17:00:33 |
+| [`sase--plans@89409db`](https://github.com/sase-org/sase--plans/commit/89409db57f4c59af6dee7f6ff5a60768dde6f49a) | docs: finalize notification report epic plan | [sase-at](README.md) | 2026-07-29 17:01:42 |

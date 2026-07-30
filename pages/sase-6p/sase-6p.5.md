@@ -24,10 +24,11 @@ COMMIT: cc53e627e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6p.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6p.5/README.md) | [sase-6p.5](sase-6p.5.md) | 1 |
+| [bbugyi200.athena.sase-6p.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6p.5/README.md) | [sase-6p.5](sase-6p.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@df32b81`](https://github.com/sase-org/sase-core/commit/df32b81860200fd59587420d26d3e4c06cac294c) | feat(mobile)!: expose generic gate branches (sase-6p.5) | [sase-6p.5](sase-6p.5.md) | 2026-07-18 01:26:02 |
 | [`d667014`](https://github.com/sase-org/sase/commit/d667014aeae56b3b8c1710f27ce8dacfaaf8269b) | feat(mobile)!: unify gate action bridge (sase-6p.5) | [sase-6p.5](sase-6p.5.md) | 2026-07-18 01:28:59 |

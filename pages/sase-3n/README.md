@@ -11,9 +11,9 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-3n.1](sase-3n.1.md) | Phase 1: Event Schema, Reducer, and Fixtures | ✓ closed | small | 0 | 0 |
-| [sase-3n.2](sase-3n.2.md) | Phase 2: Canonical Read Engine and Python Facade | ✓ closed | small | 0 | 1 |
-| [sase-3n.3](sase-3n.3.md) | Phase 3: Event-Backed Mutations and Mirror Generation | ✓ closed | small | 0 | 1 |
+| [sase-3n.1](sase-3n.1.md) | Phase 1: Event Schema, Reducer, and Fixtures | ✓ closed | small | 0 | 1 |
+| [sase-3n.2](sase-3n.2.md) | Phase 2: Canonical Read Engine and Python Facade | ✓ closed | small | 0 | 2 |
+| [sase-3n.3](sase-3n.3.md) | Phase 3: Event-Backed Mutations and Mirror Generation | ✓ closed | small | 0 | 3 |
 | [sase-3n.4](sase-3n.4.md) | Phase 4: CLI, Sync, Workflows, and User-Facing Text | ✓ closed | small | 0 | 1 |
 | [sase-3n.5](sase-3n.5.md) | Phase 5: Repository Data Migration | ✓ closed | small | 0 | 1 |
 | [sase-3n.6](sase-3n.6.md) | Phase 6: Full Verification, Docs, and Cleanup | ✓ closed | small | 0 | 1 |
@@ -46,7 +46,11 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b6e851a`](https://github.com/sase-org/sase-core/commit/b6e851aa6320a30bf280d7c176778281b545dd84) | feat: add bead event reducer fixtures (sase-3n.1) | [sase-3n.1](sase-3n.1.md) | 2026-05-15 15:07:46 |
+| [`sase-core@a06bc56`](https://github.com/sase-org/sase-core/commit/a06bc566a641df2ae71cf52bd38cace2097b48a5) | feat: read bead stores from event logs (sase-3n.2) | [sase-3n.2](sase-3n.2.md) | 2026-05-15 15:25:22 |
 | [`830ec3c`](https://github.com/sase-org/sase/commit/830ec3c37b8eebaf8cfb182270dac650ab9766fa) | chore: add event-backed bead read coverage (sase-3n.2) | [sase-3n.2](sase-3n.2.md) | 2026-05-15 15:26:07 |
+| [`sase-core@50eb8c5`](https://github.com/sase-org/sase-core/commit/50eb8c5dd1565b2bd0ad1b964761ebb807e4edfa) | feat: back bead mutations with event streams (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:45:50 |
+| [`sase-core@ba2adb3`](https://github.com/sase-org/sase-core/commit/ba2adb368dc352a4880a4d3ac10d6d7d59afc7cb) | chore: cover stale projection orphan diagnostics (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:46:18 |
 | [`2645150`](https://github.com/sase-org/sase/commit/264515037866ac8c08f4e5a2cbec718bc5940782) | chore: close event-backed mutation bead (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:48:21 |
 | [`7f593c8`](https://github.com/sase-org/sase/commit/7f593c8b0d0f439f62474175e3092ba3001321f5) | feat: sync full bead state through CLI workflows (sase-3n.4) | [sase-3n.4](sase-3n.4.md) | 2026-05-15 16:04:52 |
 | [`b49de1f`](https://github.com/sase-org/sase/commit/b49de1f214cc0dd56b5fcc22993018fa4ea86b88) | chore: migrate bead state to event store (sase-3n.5) | [sase-3n.5](sase-3n.5.md) | 2026-05-15 16:16:57 |

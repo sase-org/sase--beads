@@ -21,3 +21,15 @@ COMMIT: 7588b77
 - **Depends on:** [sase-7z.5](sase-7z.5.md) ✓
 - **Depends on:** [sase-7z.6](sase-7z.6.md) ✓
 - **Depends on:** [sase-7z.7](sase-7z.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7z.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7z.8/README.md) | [sase-7z.8](sase-7z.8.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@7588b77`](https://github.com/sase-org/sase--plans/commit/7588b77b9068c3cfc85c0514a50d3221c9f8a18f) | test: smoke test artifacts for phase sizing and child epics (sase-7z.8) | [sase-7z.8](sase-7z.8.md) | 2026-07-20 14:20:04 |

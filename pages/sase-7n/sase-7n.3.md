@@ -18,3 +18,15 @@ COMMIT: c9a7757
 ## Dependencies
 
 - **Depends on:** [sase-7n.2](sase-7n.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7n.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7n.3/README.md) | [sase-7n.3](sase-7n.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@c9a7757`](https://github.com/sase-org/sase--plans/commit/c9a7757fcd396ab964a7f2d931e96b0b3f48f466) | docs(plans): mark id directive epic done (sase-7n.3) | [sase-7n.3](sase-7n.3.md) | 2026-07-19 19:54:07 |

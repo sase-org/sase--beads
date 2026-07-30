@@ -19,3 +19,15 @@ sdk: add a typed `ChopReport` builder plus `ChopResultBuilder.report` to the pub
 
 - **Depends on:** [sase-ar.1](sase-ar.1.md) ✓
 - **Blocks:** [sase-ar.5](sase-ar.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ar.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.2/README.md) | [sase-ar.2](sase-ar.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`5885890`](https://github.com/sase-org/sase/commit/58858901b857cfb9b3831cb61bb8c00e1bfbfd78) | feat(chops): add typed report builder | [sase-ar.2](sase-ar.2.md) | 2026-07-29 14:30:54 |

@@ -20,10 +20,11 @@ COMMIT: 21708f98a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4a.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4a.2/README.md) | [sase-4a.2](sase-4a.2.md) | 1 |
+| [bbugyi200.athena.sase-4a.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4a.2/README.md) | [sase-4a.2](sase-4a.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@c2b4d32`](https://github.com/sase-org/sase-core/commit/c2b4d326e8474fefa79e1f8d8163ed4c8e046615) | feat: scan agent output variables (sase-4a.2) | [sase-4a.2](sase-4a.2.md) | 2026-06-03 00:58:01 |
 | [`5285661`](https://github.com/sase-org/sase/commit/528566175be79c3c986e9fe8e99645babeea3cba) | feat: show agent output variables in ACE (sase-4a.2) | [sase-4a.2](sase-4a.2.md) | 2026-06-03 00:58:54 |

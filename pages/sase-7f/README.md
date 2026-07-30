@@ -20,7 +20,7 @@ COMMIT: e41269f
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-7f.1](sase-7f.1.md) | Reconcile documentation and epic traceability | ✓ closed | small | 1 | 1 |
-| [sase-7f.2](sase-7f.2.md) | Close and finalize sase-73 | ✓ closed | small | 1 | 1 |
+| [sase-7f.2](sase-7f.2.md) | Close and finalize sase-73 | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -39,7 +39,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-7f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7f.1/README.md) | [sase-7f.1](sase-7f.1.md) | 1 |
-| [bbugyi200.athena.sase-7f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7f.2/README.md) | [sase-7f.2](sase-7f.2.md) | 1 |
+| [bbugyi200.athena.sase-7f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7f.2/README.md) | [sase-7f.2](sase-7f.2.md) | 2 |
+| [bbugyi200.athena.sase-7f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7f.land/README.md) | [sase-7f](README.md) | 1 |
 | [bbugyi200.athena.sase-7f.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-7f.land.md#member-code) | [sase-7f](README.md) | 0 |
 
 ## Commits
@@ -47,4 +48,6 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`b1d192e`](https://github.com/sase-org/sase/commit/b1d192ea5f7c24e9b9b28a3963144dfb2e5a0545) | docs: align smart summary folding guidance (sase-7f.1) | [sase-7f.1](sase-7f.1.md) | 2026-07-19 16:14:09 |
+| [`sase--plans@1fbd5c0`](https://github.com/sase-org/sase--plans/commit/1fbd5c0b49775c1465c33b4b834bb3e1bf26244a) | docs: mark smart summary folding plan done (sase-7f.2) | [sase-7f.2](sase-7f.2.md) | 2026-07-19 18:02:56 |
 | [`f9084fc`](https://github.com/sase-org/sase/commit/f9084fcd727ad8e65bbc10b8779386c982267f9e) | test: patch public git lock retry helper (sase-7f.2) | [sase-7f.2](sase-7f.2.md) | 2026-07-19 18:03:55 |
+| [`sase--plans@e41269f`](https://github.com/sase-org/sase--plans/commit/e41269f5cb021f7b8fc9fed3c5b0c27ad065d410) | docs: mark sase-73 landing plan done (sase-7f) | [sase-7f](README.md) | 2026-07-19 18:36:10 |

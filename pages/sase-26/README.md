@@ -12,9 +12,12 @@
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`c518a0a`](https://github.com/sase-org/sase/commit/c518a0a504262585e9a255c9be7554f6dceb0e62) | chore: close mobile gateway pairing phase (sase-26.1.2) | [sase-26.1.2](sase-26.1.2.md) | 2026-05-06 14:28:33 |
+| [`sase-core@854bede`](https://github.com/sase-org/sase-core/commit/854bede7563cd25581e434c44f1f7fae80772af3) | feat: harden mobile gateway startup (sase-26.1.3) | [sase-26.1.3](sase-26.1.3.md) | 2026-05-06 14:37:46 |
 | [`de0afd2`](https://github.com/sase-org/sase/commit/de0afd2cbfe3954d06482cbe3541db3911042aef) | chore: close mobile gateway phase 3 bead (sase-26.1.3) | [sase-26.1.3](sase-26.1.3.md) | 2026-05-06 14:38:20 |
+| [`sase-core@dd62999`](https://github.com/sase-org/sase-core/commit/dd629997dcb8744c06a5f87b95b63b16e6127d48) | feat: add mobile gateway SSE stream (sase-26.1.5) | [sase-26.1.5](sase-26.1.5.md) | 2026-05-06 14:48:46 |
 | [`1d91c21`](https://github.com/sase-org/sase/commit/1d91c2161d55a9dca054ebbe31393ef2e6027d96) | feat: add mobile gateway CLI integration (sase-26.1.4) | [sase-26.1.4](sase-26.1.4.md) | 2026-05-06 14:53:46 |
 | [`93b13d7`](https://github.com/sase-org/sase/commit/93b13d7bdb3b0d84841dfbb717c03771d3003b85) | feat: document mobile gateway setup (sase-26.1.6) | [sase-26.1.6](sase-26.1.6.md) | 2026-05-06 15:07:24 |
+| [`sase-core@f65844a`](https://github.com/sase-org/sase-core/commit/f65844a29aadefa3f8c203fa6a4129334de88376) | feat: add mobile notification action wire contract (sase-26.2.1) | [sase-26.2.1](sase-26.2.1.md) | 2026-05-06 15:38:45 |
 | [`0a59b95`](https://github.com/sase-org/sase/commit/0a59b95bf209f3d66c4d899fb08bcb3040a83b9d) | chore: close mobile notification wire bead (sase-26.2.1) | [sase-26.2.1](sase-26.2.1.md) | 2026-05-06 15:41:27 |
 | [`b755e1a`](https://github.com/sase-org/sase/commit/b755e1a81386e40a9ca5a5a7f641939f3776bb42) | feat: add mobile notification host bridge (sase-26.2.2) | [sase-26.2.2](sase-26.2.2.md) | 2026-05-06 15:53:31 |
 | [`74e5641`](https://github.com/sase-org/sase/commit/74e5641be0889992ba3fe8f01b827375825eb4b5) | feat: register shared notification pending actions (sase-26.2.3) | [sase-26.2.3](sase-26.2.3.md) | 2026-05-06 16:07:39 |
@@ -28,6 +31,7 @@
 | [`9702938`](https://github.com/sase-org/sase/commit/9702938cfb84bb8351840d5838d6f42c3236d85e) | feat: add mobile agent kill bridge (sase-26.3.5) | [sase-26.3.5](sase-26.3.5.md) | 2026-05-06 18:29:41 |
 | [`92488b7`](https://github.com/sase-org/sase/commit/92488b747e84cf7d4c9c19107c6bdcd2d8b67463) | feat: add durable mobile agent retry (sase-26.3.6) | [sase-26.3.6](sase-26.3.6.md) | 2026-05-06 18:39:20 |
 | [`14ce0a5`](https://github.com/sase-org/sase/commit/14ce0a50f93c53bb3100f671218683253b69585c) | feat: persist mobile agent project context (sase-26.3.7) | [sase-26.3.7](sase-26.3.7.md) | 2026-05-06 18:51:29 |
+| [`sase-core@1d02763`](https://github.com/sase-org/sase-core/commit/1d02763a8c81dc9449e20051a7860381de63b555) | feat: add mobile helper gateway skeleton (sase-26.4.1) | [sase-26.4.1](sase-26.4.1.md) | 2026-05-06 19:25:08 |
 | [`dff751d`](https://github.com/sase-org/sase/commit/dff751d883b9cb36b462a94f69c51cc4ed8b824d) | chore: close mobile helper skeleton bead (sase-26.4.1) | [sase-26.4.1](sase-26.4.1.md) | 2026-05-06 19:28:03 |
 | [`4950723`](https://github.com/sase-org/sase/commit/49507239c3bfc0375d1d2ec9eed90e42c8516daf) | feat: add mobile ChangeSpec helper bridge (sase-26.4.2) | [sase-26.4.2](sase-26.4.2.md) | 2026-05-06 19:39:43 |
 | [`4c20c28`](https://github.com/sase-org/sase/commit/4c20c281c54f6a83a3881c08db19e335b92a5620) | feat: expose mobile xprompt catalog bridge (sase-26.4.3) | [sase-26.4.3](sase-26.4.3.md) | 2026-05-06 19:49:03 |

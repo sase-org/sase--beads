@@ -21,10 +21,11 @@ COMMIT: 623b78fec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4r.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.1/README.md) | [sase-4r.1](sase-4r.1.md) | 1 |
+| [bbugyi200.athena.sase-4r.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4r.1/README.md) | [sase-4r.1](sase-4r.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@f9e9b62`](https://github.com/sase-org/sase-core/commit/f9e9b6295e460c0ea368bed2b721d0ab5e839363) | feat(editor): add frontmatter schema & validation API (sase-4r.1) | [sase-4r.1](sase-4r.1.md) | 2026-06-16 18:23:06 |
 | [`20a9589`](https://github.com/sase-org/sase/commit/20a95891d2fcdc1a90f9c8b7d1aa14d461c80d9a) | feat(xprompt): add frontmatter schema adapter over sase\_core (sase-4r.1) | [sase-4r.1](sase-4r.1.md) | 2026-06-16 18:24:56 |

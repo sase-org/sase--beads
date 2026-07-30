@@ -18,3 +18,15 @@ COMMIT: 7232a9ea8
 - **Depends on:** [sase-5h.1](sase-5h.1.md) ✓
 - **Depends on:** [sase-5h.4](sase-5h.4.md) ✓
 - **Blocks:** [sase-5h.6](sase-5h.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-5h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5h.5/README.md) | [sase-5h.5](sase-5h.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@754be5e`](https://github.com/sase-org/sase-core/commit/754be5e846a305240add166b594b99bcb8cb2d01) | feat(lsp): complete VCS repo slash completions (sase-5h.5) | [sase-5h.5](sase-5h.5.md) | 2026-07-07 18:29:43 |

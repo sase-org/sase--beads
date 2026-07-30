@@ -55,6 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-80.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-80.3/README.md) | [sase-80.3](sase-80.3.md) | 1 |
 | [bbugyi200.athena.sase-80.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-80.4/README.md) | [sase-80.4](sase-80.4.md) | 1 |
 | [bbugyi200.athena.sase-80.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-80.5/README.md) | [sase-80.5](sase-80.5.md) | 1 |
+| [bbugyi200.athena.sase-80.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-80.land/README.md) | [sase-80](README.md) | 1 |
 
 ## Commits
 
@@ -65,3 +66,4 @@ flowchart TD
 | [`969970b`](https://github.com/sase-org/sase/commit/969970bcb7a7cdd757cb78bcfe5eaf2bdef9e2e9) | fix(axe): guard daemon lifecycle under pytest (sase-80.2) | [sase-80.2](sase-80.2.md) | 2026-07-20 12:35:53 |
 | [`c58324d`](https://github.com/sase-org/sase/commit/c58324d551049351648e0cfe2ba83c26e0e9418a) | fix(axe): recover wedged lifecycle locks (sase-80.3) | [sase-80.3](sase-80.3.md) | 2026-07-20 14:10:38 |
 | [`dae1b3e`](https://github.com/sase-org/sase/commit/dae1b3ebe6e427684b416bf10a99fc8deb3df2e0) | test: cover axe outage recovery across layers (sase-80.5) | [sase-80.5](sase-80.5.md) | 2026-07-20 14:25:14 |
+| [`sase--plans@9254b09`](https://github.com/sase-org/sase--plans/commit/9254b0928c37f7b9d791d7e863a2b23e2101b30c) | Mark axe\_test\_isolation\_leak plan done (sase-80) | [sase-80](README.md) | 2026-07-20 14:32:49 |

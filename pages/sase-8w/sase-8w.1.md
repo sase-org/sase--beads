@@ -20,3 +20,15 @@ COMMIT: f9d9c37
 - **Blocks:** [sase-8w.3](sase-8w.3.md) ✓
 - **Blocks:** [sase-8w.5](sase-8w.5.md) ✓
 - **Blocks:** [sase-8w.6](sase-8w.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-8w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8w.1/README.md) | [sase-8w.1](sase-8w.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@f9d9c37`](https://github.com/sase-org/sase-core/commit/f9d9c37a452602a9021c5170892e94346f302390) | feat: support xsmall and xlarge phase sizes (sase-8w.1) | [sase-8w.1](sase-8w.1.md) | 2026-07-23 21:51:06 |

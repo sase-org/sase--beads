@@ -23,4 +23,11 @@ COMMIT: 7d55028
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8u.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8u.4.1/README.md) | [sase-8u.4.1](sase-8u.4.1.md) | 1 |
 | [bbugyi200.athena.sase-8u.4.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8u.4.1.md#member-code) | [sase-8u.4.1](sase-8u.4.1.md) | 0 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@7d55028`](https://github.com/sase-org/sase-core/commit/7d5502869608043de3e0441d1b204bc0e3acf5d7) | fix(gateway): box API error wire payload (sase-8u.4.1) | [sase-8u.4.1](sase-8u.4.1.md) | 2026-07-23 14:10:43 |

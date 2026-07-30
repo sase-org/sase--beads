@@ -16,7 +16,7 @@ A deprioritized agent (%wait with a priority above the default) reliably yields 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-9k.1](sase-9k.1.md) | Bounded deference window for deprioritized waiters | ✓ closed | medium | 1 | 1 |
-| [sase-9k.2](sase-9k.2.md) | wait\_priority\_explicit marker symmetry | ✓ closed | small | 1 | 1 |
+| [sase-9k.2](sase-9k.2.md) | wait\_priority\_explicit marker symmetry | ✓ closed | small | 1 | 2 |
 | [sase-9k.3](sase-9k.3.md) | Surface wait priority in ACE | ✓ closed | small | 1 | 1 |
 | [sase-9k.4](sase-9k.4.md) | Edit wait priority from the ACE wait modal | ✓ closed | medium | 1 | 1 |
 
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-9k.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.1/README.md) | [sase-9k.1](sase-9k.1.md) | 1 |
-| [bbugyi200.athena.sase-9k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.2/README.md) | [sase-9k.2](sase-9k.2.md) | 1 |
+| [bbugyi200.athena.sase-9k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.2/README.md) | [sase-9k.2](sase-9k.2.md) | 2 |
 | [bbugyi200.athena.sase-9k.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.3/README.md) | [sase-9k.3](sase-9k.3.md) | 1 |
 | [bbugyi200.athena.sase-9k.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.4/README.md) | [sase-9k.4](sase-9k.4.md) | 1 |
 | [bbugyi200.athena.sase-9k.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.land/README.md) | [sase-9k](README.md) | 1 |
@@ -55,6 +55,7 @@ flowchart TD
 |---|---|---|---|
 | [`43ba5da`](https://github.com/sase-org/sase/commit/43ba5daf72c0d112902fe4b33fbc9bc07e4a86c1) | fix(runner-slots): defer deprioritized admission (sase-9k.1) | [sase-9k.1](sase-9k.1.md) | 2026-07-25 15:06:09 |
 | [`64ac40d`](https://github.com/sase-org/sase/commit/64ac40d38983ea26c6ed2d983813495e74058809) | fix(wait): persist wait priority explicitness (sase-9k.2) | [sase-9k.2](sase-9k.2.md) | 2026-07-25 15:34:11 |
+| [`sase-core@e63f1ab`](https://github.com/sase-org/sase-core/commit/e63f1ab098dbdb95f9ef1bc644a1b4f97dabf787) | fix(agent-scan): carry wait priority explicitness (sase-9k.2) | [sase-9k.2](sase-9k.2.md) | 2026-07-25 15:34:55 |
 | [`68723be`](https://github.com/sase-org/sase/commit/68723bedb8e0b29b53533200999f6a25f36b081e) | feat(ace): show explicit wait priorities (sase-9k.3) | [sase-9k.3](sase-9k.3.md) | 2026-07-25 16:17:50 |
 | [`3a8540f`](https://github.com/sase-org/sase/commit/3a8540f321764da347f69c38eced0b96c1f0119f) | feat(ace): edit wait priority from wait modal (sase-9k.4) | [sase-9k.4](sase-9k.4.md) | 2026-07-25 16:21:34 |
 | [`4b9281d`](https://github.com/sase-org/sase/commit/4b9281d3d7d92f0de8a03c8bdea802d28eea6901) | docs: document bounded runner-slot deference (sase-9k) | [sase-9k](README.md) | 2026-07-25 16:53:09 |

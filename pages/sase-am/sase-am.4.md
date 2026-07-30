@@ -18,3 +18,15 @@ config-driven-sidecars: replace the hand-written sidecar checkouts and sdd-store
 ## Dependencies
 
 - **Depends on:** [sase-am.3](sase-am.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-am.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.4/README.md) | [sase-am.4](sase-am.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`b5efaf7`](https://github.com/sase-org/sase/commit/b5efaf7e7929d41e94c53fc01d1e2e143cc011f9) | ci: derive sidecar checkouts from sase.yml | [sase-am.4](sase-am.4.md) | 2026-07-28 23:24:57 |

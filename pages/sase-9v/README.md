@@ -25,7 +25,7 @@ The verified bugs and inconsistencies from the five-reviewer bead-subsystem audi
 | [sase-9v.6](sase-9v.6.md) | Fit the bead\_store\_refresh chop inside its own time budget | ✓ closed | small | 1 | 1 |
 | [sase-9v.7](sase-9v.7.md) | Restore the bead work CLI confirmation, JSON, and reporting contracts | ✓ closed | medium | 1 | 1 |
 | [sase-9v.8](sase-9v.8.md) | Move legacy epic-approval preflight off the ACE event loop | ✓ closed | small | 1 | 1 |
-| [sase-9v.9](sase-9v.9.md) | Make every sase-core bead mutation atomic against concurrent writers | ✓ closed | medium | 0 | 0 |
+| [sase-9v.9](sase-9v.9.md) | Make every sase-core bead mutation atomic against concurrent writers | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -71,7 +71,8 @@ flowchart TD
 | [bbugyi200.athena.sase-9v.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.6/README.md) | [sase-9v.6](sase-9v.6.md) | 1 |
 | [bbugyi200.athena.sase-9v.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.7/README.md) | [sase-9v.7](sase-9v.7.md) | 1 |
 | [bbugyi200.athena.sase-9v.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.8/README.md) | [sase-9v.8](sase-9v.8.md) | 1 |
-| [bbugyi200.athena.sase-9v.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.land/README.md) | [sase-9v](README.md) | 3 |
+| [bbugyi200.athena.sase-9v.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.9/README.md) | [sase-9v.9](sase-9v.9.md) | 1 |
+| [bbugyi200.athena.sase-9v.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.land/README.md) | [sase-9v](README.md) | 4 |
 | [bbugyi200.athena.sase-9v.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9v.land.md#member-code) | [sase-9v](README.md) | 0 |
 
 ## Commits
@@ -80,6 +81,7 @@ flowchart TD
 |---|---|---|---|
 | [`241de00`](https://github.com/sase-org/sase/commit/241de00c2ee716e9daf0f20aee70881801e41683) | fix(beads): harden managed sync worker hygiene (sase-9v.5) | [sase-9v.5](sase-9v.5.md) | 2026-07-26 16:00:30 |
 | [`26c26fe`](https://github.com/sase-org/sase/commit/26c26fec23542b62be756aad42c559a868e12f73) | fix(beads): serialize the launch-claim mutation under the store write lock (sase-9v.1) | [sase-9v.1](sase-9v.1.md) | 2026-07-26 16:04:52 |
+| [`sase-core@5df18bb`](https://github.com/sase-org/sase-core/commit/5df18bb42421ed9dcef1dce0344e9be18af7a3c4) | fix(beads)!: make store mutations atomic (sase-9v.9) | [sase-9v.9](sase-9v.9.md) | 2026-07-26 16:08:54 |
 | [`a91b71d`](https://github.com/sase-org/sase/commit/a91b71d3702a24a8dde5a1a1fb0f8c811bc4f143) | fix(beads): persist and safely release waiting claims (sase-9v.2) | [sase-9v.2](sase-9v.2.md) | 2026-07-26 16:17:13 |
 | [`1f1c406`](https://github.com/sase-org/sase/commit/1f1c4064c705581b23dd672dc4f8c47466503350) | fix(bead): restore epic work CLI contracts (sase-9v.7) | [sase-9v.7](sase-9v.7.md) | 2026-07-26 16:20:24 |
 | [`54f4203`](https://github.com/sase-org/sase/commit/54f42034b81f28bc6b08294c43505cec8c2b2890) | fix(axe): fit bead\_store\_refresh chop inside its time budget (sase-9v.6) | [sase-9v.6](sase-9v.6.md) | 2026-07-26 16:26:16 |
@@ -91,3 +93,4 @@ flowchart TD
 | [`bb04762`](https://github.com/sase-org/sase/commit/bb0476224f547a751f81643dbe607089531d5609) | test(bead): fix work-launch push-hint call (sase-9v) | [sase-9v](README.md) | 2026-07-26 18:39:24 |
 | [`41d02f6`](https://github.com/sase-org/sase/commit/41d02f653a516602ecd01983e23390f9b730387e) | build(deps): require sase-core-rs 0.11 (sase-9v) | [sase-9v](README.md) | 2026-07-26 19:14:03 |
 | [`9e63c5e`](https://github.com/sase-org/sase/commit/9e63c5eb785c8ed009e74841cf4cc301a5bbcc9d) | fix(agents-sync): skip tribe wait relationships (sase-9v) | [sase-9v](README.md) | 2026-07-26 19:16:03 |
+| [`sase--plans@241f426`](https://github.com/sase-org/sase--plans/commit/241f426707b193d57b62c1153aad2625ad989df4) | docs: mark bead review hardening plan done (sase-9v) | [sase-9v](README.md) | 2026-07-26 19:17:12 |

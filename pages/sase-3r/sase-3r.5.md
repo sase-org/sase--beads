@@ -23,3 +23,4 @@ COMMIT: 5ce41ea1b
 |---|---|---|---|
 | [`49307f9`](https://github.com/sase-org/sase/commit/49307f914cf64025b53bc2c620f680e8b1a2de8d) | feat: lazy attempt history + inbox/archive search split (sase-3r.5) | [sase-3r.5](sase-3r.5.md) | 2026-05-16 15:33:09 |
 | [`1dbb56e`](https://github.com/sase-org/sase/commit/1dbb56e0fd6d6cf3883b84ec15d876aa1b438fbd) | fix: allow bead-work hyphenated launch names (sase-3r.5) | [sase-3r.5](sase-3r.5.md) | 2026-05-17 01:38:59 |
+| [`sase-core@f1d5c2d`](https://github.com/sase-org/sase-core/commit/f1d5c2d377e4e79c9aff5f555237af69aea11579) | chore: cover agent family scan metadata (sase-3r.5) | [sase-3r.5](sase-3r.5.md) | 2026-05-17 01:39:19 |

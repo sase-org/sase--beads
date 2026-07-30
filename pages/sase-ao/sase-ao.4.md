@@ -19,3 +19,15 @@ lsp: consume the new catalog fields in sase-core's xprompt LSP so editors show a
 
 - **Depends on:** [sase-ao.2](sase-ao.2.md) ✓
 - **Blocks:** [sase-ao.5](sase-ao.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ao.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.4/README.md) | [sase-ao.4](sase-ao.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@89420be`](https://github.com/sase-org/sase-core/commit/89420be1a3e2c02a68dbdc49d7384bf014ba8b3f) | feat(lsp): enrich model alias completions | [sase-ao.4](sase-ao.4.md) | 2026-07-29 12:22:29 |

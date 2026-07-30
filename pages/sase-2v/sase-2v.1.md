@@ -20,3 +20,4 @@ COMMIT: 9471cfe2
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`600cbe0`](https://github.com/sase-org/sase/commit/600cbe08ff619a6e6dbfbbc86c0a78978087e43f) | feat: add dismiss\_agent\_completion\_notifications wrapper (sase-2v.1) | [sase-2v.1](sase-2v.1.md) | 2026-05-11 18:40:55 |
+| [`sase-core@ce58097`](https://github.com/sase-org/sase-core/commit/ce58097ea832c5dafd1f63eba3e5e57dbc2936ca) | feat: add DismissAgentCompletions notification store primitive (sase-2v.1) | [sase-2v.1](sase-2v.1.md) | 2026-05-11 18:41:24 |

@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-77.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-77.2/README.md) | [sase-77.2](sase-77.2.md) | 1 |
 | [bbugyi200.athena.sase-77.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-77.3/README.md) | [sase-77.3](sase-77.3.md) | 1 |
 | [bbugyi200.athena.sase-77.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-77.4/README.md) | [sase-77.4](sase-77.4.md) | 1 |
-| [bbugyi200.athena.sase-77.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-77.land/README.md) | [sase-77](README.md) | 2 |
+| [bbugyi200.athena.sase-77.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-77.land/README.md) | [sase-77](README.md) | 3 |
 | [bbugyi200.athena.sase-77.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-77.land.md#member-code) | [sase-77](README.md) | 0 |
 
 ## Commits
@@ -64,3 +64,4 @@ flowchart TD
 | [`c7b84dc`](https://github.com/sase-org/sase/commit/c7b84dc46e6106a9a38aacab97b2fa4c7e8d8b71) | test(git): exercise lock recovery end-to-end across representative flows (sase-77.4) | [sase-77.4](sase-77.4.md) | 2026-07-19 14:44:43 |
 | [`50f0718`](https://github.com/sase-org/sase/commit/50f0718b77722959fd7eb34d6337a853d8f74ae2) | fix(sdd): recover remaining Git index lock contention (sase-77) | [sase-77](README.md) | 2026-07-19 17:13:50 |
 | [`bd7f969`](https://github.com/sase-org/sase/commit/bd7f969711101f08a5867fa6821933f29f4f5f2b) | fix(sdd): expose the shared lock retry schedule (sase-77) | [sase-77](README.md) | 2026-07-19 17:16:40 |
+| [`sase--plans@76bdc6e`](https://github.com/sase-org/sase--plans/commit/76bdc6e27d046ee1e7a05292abcaacf25e7b206f) | docs(plans): mark Git lock retry epic done (sase-77) | [sase-77](README.md) | 2026-07-19 17:17:25 |

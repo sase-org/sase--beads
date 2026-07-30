@@ -20,10 +20,11 @@ COMMIT: 6136c4529
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5u.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5u.3/README.md) | [sase-5u.3](sase-5u.3.md) | 1 |
+| [bbugyi200.athena.sase-5u.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5u.3/README.md) | [sase-5u.3](sase-5u.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@77201dc`](https://github.com/sase-org/sase-core/commit/77201dc91f12c9c00c7e70fbffa87689f53d0feb) | feat(agent-scan): project runner slot waiting fields (sase-5u.3) | [sase-5u.3](sase-5u.3.md) | 2026-07-12 22:28:14 |
 | [`6136c45`](https://github.com/sase-org/sase/commit/6136c452923dbcac9de867a0e932aaeca9c2ea0c) | feat(agent-scan): expose runner slot waiting fields (sase-5u.3) | [sase-5u.3](sase-5u.3.md) | 2026-07-12 22:29:18 |

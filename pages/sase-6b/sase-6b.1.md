@@ -19,3 +19,15 @@ COMMIT: b90ffdc
 
 - **Blocks:** [sase-6b.2](sase-6b.2.md) ✓
 - **Blocks:** [sase-6b.3](sase-6b.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-6b.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6b.1/README.md) | [sase-6b.1](sase-6b.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@b90ffdc`](https://github.com/sase-org/sase-core/commit/b90ffdc479287215a18ae1aac50e0dfe2f6e5772) | feat(editor): add placeholder completion support (sase-6b.1) | [sase-6b.1](sase-6b.1.md) | 2026-07-16 13:07:54 |

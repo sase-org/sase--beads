@@ -22,10 +22,11 @@ COMMIT: bd6fca84f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4f.2/README.md) | [sase-4f.2](sase-4f.2.md) | 1 |
+| [bbugyi200.athena.sase-4f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4f.2/README.md) | [sase-4f.2](sase-4f.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`8209751`](https://github.com/sase-org/sase/commit/8209751f8dbf1f703adc800d287f87759f097253) | feat: add exact artifact delta loading (sase-4f.2) | [sase-4f.2](sase-4f.2.md) | 2026-06-08 18:52:37 |
+| [`sase-core@1cc6a24`](https://github.com/sase-org/sase-core/commit/1cc6a248742f82d70b62427dfc033bc1333276ed) | feat: add exact artifact dir scanner (sase-4f.2) | [sase-4f.2](sase-4f.2.md) | 2026-06-08 18:53:25 |

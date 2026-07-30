@@ -21,10 +21,11 @@ COMMIT: 7e015ebc2
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-55.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-55.5/README.md) | [sase-55.5](sase-55.5.md) | 1 |
+| [bbugyi200.athena.sase-55.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-55.5/README.md) | [sase-55.5](sase-55.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`b979c54`](https://github.com/sase-org/sase/commit/b979c54bb12ae328b845f1605fc7d9d865a6f945) | test(core): cover model@effort suffix stripping in agent-launch fanout (sase-55.5) | [sase-55.5](sase-55.5.md) | 2026-06-23 17:03:18 |
+| [`sase-core@afdaaac`](https://github.com/sase-org/sase-core/commit/afdaaac1798a404dc0cf44b2eca262f5e1ab933c) | feat(editor): mirror reasoning-effort vocabulary in directive grammar (sase-55.5) | [sase-55.5](sase-55.5.md) | 2026-06-23 17:04:07 |

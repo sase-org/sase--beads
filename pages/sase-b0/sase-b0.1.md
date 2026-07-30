@@ -20,3 +20,15 @@ scaffold: register `files` in the shared Artifacts sub-tab constants, compose a 
 ## Dependencies
 
 - **Blocks:** [sase-b0.2](sase-b0.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.1/README.md) | [sase-b0.1](sase-b0.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`49e6b4c`](https://github.com/sase-org/sase/commit/49e6b4cd17708195e8843d3806c98551f3846244) | feat(tui): scaffold artifacts files tab | [sase-b0.1](sase-b0.1.md) | 2026-07-29 23:50:34 |

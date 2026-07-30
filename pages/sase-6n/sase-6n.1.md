@@ -24,10 +24,11 @@ COMMIT: cfc517ace
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6n.1/README.md) | [sase-6n.1](sase-6n.1.md) | 1 |
+| [bbugyi200.athena.sase-6n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6n.1/README.md) | [sase-6n.1](sase-6n.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b317a43`](https://github.com/sase-org/sase-core/commit/b317a431d6c4e24bb76917a4b51aec5a7501ef74) | feat(runtime): aggregate clan wall-clock runtime (sase-6n.1) | [sase-6n.1](sase-6n.1.md) | 2026-07-17 22:01:35 |
 | [`35c44d8`](https://github.com/sase-org/sase/commit/35c44d8221717b7c70c9e1552402f2d51901f33c) | feat(runtime): expose clan wall-clock aggregation (sase-6n.1) | [sase-6n.1](sase-6n.1.md) | 2026-07-17 22:02:23 |

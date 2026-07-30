@@ -17,3 +17,15 @@ COMMIT: 3e815658c
 
 - **Depends on:** [sase-4e.1](sase-4e.1.md) ✓
 - **Blocks:** [sase-4e.6](sase-4e.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4e.5/README.md) | [sase-4e.5](sase-4e.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@74f5e97`](https://github.com/sase-org/sase-core/commit/74f5e97c768aa2200881fb43634ecf03ca243878) | chore: add release-plz release automation (sase-4e.5) | [sase-4e.5](sase-4e.5.md) | 2026-06-08 17:11:36 |

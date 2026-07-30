@@ -20,10 +20,11 @@ COMMIT: 75c4a57c1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4e.1/README.md) | [sase-4e.1](sase-4e.1.md) | 1 |
+| [bbugyi200.athena.sase-4e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4e.1/README.md) | [sase-4e.1](sase-4e.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@0a2ed95`](https://github.com/sase-org/sase-core/commit/0a2ed95e3ae330b74c5314f507f84162e2ee1461) | chore: add pull request title guardrail (sase-4e.1) | [sase-4e.1](sase-4e.1.md) | 2026-06-08 16:45:03 |
 | [`9071f55`](https://github.com/sase-org/sase/commit/9071f55be3fe53ce1f2ea8b372f241b5ed6145ac) | chore: add shared release guardrails (sase-4e.1) | [sase-4e.1](sase-4e.1.md) | 2026-06-08 16:50:55 |

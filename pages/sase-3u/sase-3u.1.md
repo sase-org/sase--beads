@@ -19,4 +19,5 @@ COMMIT: 6cc9c7e35
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b70847b`](https://github.com/sase-org/sase-core/commit/b70847bbabc04eb6f0fd52a1444214daf087bb49) | fix: refresh stale agent artifact index rows (sase-3u.1) | [sase-3u.1](sase-3u.1.md) | 2026-05-21 20:44:49 |
 | [`eb26fe7`](https://github.com/sase-org/sase/commit/eb26fe7a7d20e6769bcd9e9b44df4dd2087136d6) | fix: sync agent artifact index schema pin (sase-3u.1) | [sase-3u.1](sase-3u.1.md) | 2026-05-21 20:47:35 |

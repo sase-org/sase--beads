@@ -23,4 +23,5 @@ COMMIT: e0badcfaa
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b36766e`](https://github.com/sase-org/sase-core/commit/b36766e70387cd439dfe05dcff854c0c0bec7595) | feat: add active limit to agent index query (sase-3t.1) | [sase-3t.1](sase-3t.1.md) | 2026-05-21 14:16:48 |
 | [`2e01dbd`](https://github.com/sase-org/sase/commit/2e01dbdb86f7f93e794deaf44edbe796ba774584) | feat: add visible inbox load contract (sase-3t.1) | [sase-3t.1](sase-3t.1.md) | 2026-05-21 14:21:07 |

@@ -24,10 +24,11 @@ verify: document the ViewReport action and the ci_watch release report, then ver
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-at.4 | [sase-at.4](sase-at.4.md) | 1 |
+| [bbugyi200.athena.sase-at.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-at.4/README.md) | [sase-at.4](sase-at.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`11fd5eb`](https://github.com/sase-org/sase--plans/commit/11fd5eba9c8c1cf39145e34637d75a85d55f0eb8) | docs: restore missing PROMPT backlinks on two plans | [sase-at.4](sase-at.4.md) | 2026-07-29 16:31:51 |
+| [`7396862`](https://github.com/sase-org/sase/commit/7396862437c034428ca25b4244beb4f0f92d325b) | docs: document the ViewReport notification action | [sase-at.4](sase-at.4.md) | 2026-07-29 16:30:51 |
+| [`sase--plans@11fd5eb`](https://github.com/sase-org/sase--plans/commit/11fd5eba9c8c1cf39145e34637d75a85d55f0eb8) | docs: restore missing PROMPT backlinks on two plans | [sase-at.4](sase-at.4.md) | 2026-07-29 16:31:51 |

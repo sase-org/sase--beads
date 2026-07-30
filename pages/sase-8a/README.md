@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-8a.2--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8a.2.md#member-code) | [sase-8a.2](sase-8a.2.md) | 0 |
 | [bbugyi200.athena.sase-8a.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8a.3.md#member-code) | [sase-8a.3](sase-8a.3.md) | 0 |
 | [bbugyi200.athena.sase-8a.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8a.4/README.md) | [sase-8a.4](sase-8a.4.md) | 1 |
-| [bbugyi200.athena.sase-8a.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8a.land/README.md) | [sase-8a](README.md) | 1 |
+| [bbugyi200.athena.sase-8a.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8a.land/README.md) | [sase-8a](README.md) | 2 |
 | [bbugyi200.athena.sase-8a.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8a.land.md#member-code) | [sase-8a](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,4 @@ flowchart TD
 | [`75e2c64`](https://github.com/sase-org/sase/commit/75e2c647dfc2bbc58dc1ae54893f6a73ad3ff054) | feat(statistics): add metric legends and recovery states (sase-8a.2) | [sase-8a.2](sase-8a.2.md) | 2026-07-20 18:48:09 |
 | [`5b56b56`](https://github.com/sase-org/sase/commit/5b56b56e3cde0224f22101e4d345f5a5f3959289) | feat(ace): polish statistics help and visual coverage (sase-8a.4) | [sase-8a.4](sase-8a.4.md) | 2026-07-20 19:50:28 |
 | [`c7a4ef4`](https://github.com/sase-org/sase/commit/c7a4ef42d8b624d79c8392c3a43f58af6a691106) | fix: clear empty Statistics project filters (sase-8a) | [sase-8a](README.md) | 2026-07-20 20:13:30 |
+| [`sase--plans@eddb0b4`](https://github.com/sase-org/sase--plans/commit/eddb0b48ccf6858d743146c98d13c4c93e2198a8) | docs: mark Statistics redesign plan done (sase-8a) | [sase-8a](README.md) | 2026-07-20 20:13:42 |

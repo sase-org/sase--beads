@@ -22,3 +22,15 @@ qualify: rewrite unqualified `{@<id>}` markers to `{@<xprompt>.<stamp>.<id>!}` w
 - **Depends on:** [sase-aq.3](sase-aq.3.md) ✓
 - **Blocks:** [sase-aq.5](sase-aq.5.md) ✓
 - **Blocks:** [sase-aq.6](sase-aq.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-aq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-aq.4/README.md) | [sase-aq.4](sase-aq.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`62a6ba6`](https://github.com/sase-org/sase/commit/62a6ba6f7ad25c7e601ea94525b7cde3a9128e25) | feat: qualify keyed markers per xprompt invocation | [sase-aq.4](sase-aq.4.md) | 2026-07-29 14:22:42 |

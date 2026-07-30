@@ -18,3 +18,15 @@ core_grammar: add the `Bead { id }` and `Agent { name }` kind/payload wire varia
 ## Dependencies
 
 - **Blocks:** [sase-b2.2](sase-b2.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.1/README.md) | [sase-b2.1](sase-b2.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@c1ae5f5`](https://github.com/sase-org/sase-core/commit/c1ae5f55f85b93658588eb90a700d5fa5c5054cb) | feat(artifact-ref): add bead and agent reference grammar | [sase-b2.1](sase-b2.1.md) | 2026-07-30 01:48:13 |

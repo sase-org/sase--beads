@@ -14,3 +14,15 @@ core_mutation_atomicity: extend with_bead_mutation_lock to all bead store mutati
 ## Notes
 
 Implemented in linked sase-core: serialized every listed bead mutation with the shared beads.db flock; made JSONL/event writes use PID+counter temp paths; treated missing epic blockers as satisfied with plan warnings; removed OperationOutcomeWire; added concurrent update+claim, unique-temp, and dangling-blocker regressions. Verified with cargo bead tests, just rust-check, and just bead-perf-smoke.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9v.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9v.9/README.md) | [sase-9v.9](sase-9v.9.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@5df18bb`](https://github.com/sase-org/sase-core/commit/5df18bb42421ed9dcef1dce0344e9be18af7a3c4) | fix(beads)!: make store mutations atomic (sase-9v.9) | [sase-9v.9](sase-9v.9.md) | 2026-07-26 16:08:54 |

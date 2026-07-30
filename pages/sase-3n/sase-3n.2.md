@@ -20,4 +20,5 @@ COMMIT: 0b0be9ad1
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@a06bc56`](https://github.com/sase-org/sase-core/commit/a06bc566a641df2ae71cf52bd38cace2097b48a5) | feat: read bead stores from event logs (sase-3n.2) | [sase-3n.2](sase-3n.2.md) | 2026-05-15 15:25:22 |
 | [`830ec3c`](https://github.com/sase-org/sase/commit/830ec3c37b8eebaf8cfb182270dac650ab9766fa) | chore: add event-backed bead read coverage (sase-3n.2) | [sase-3n.2](sase-3n.2.md) | 2026-05-15 15:26:07 |

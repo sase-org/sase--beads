@@ -23,10 +23,11 @@ COMMIT: db31b76d6
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.1/README.md) | [sase-7j.1](sase-7j.1.md) | 1 |
+| [bbugyi200.athena.sase-7j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7j.1/README.md) | [sase-7j.1](sase-7j.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@c1f46f1`](https://github.com/sase-org/sase-core/commit/c1f46f151a0e966521a58d504417adfdf32d3000) | feat(agent-tribes)!: canonicalize tribe wire contracts (sase-7j.1) | [sase-7j.1](sase-7j.1.md) | 2026-07-19 18:40:06 |
 | [`9e786c9`](https://github.com/sase-org/sase/commit/9e786c9a8280522c0be1fe012a9a7ee43801719a) | feat(agent-tribes)!: add canonical tribe persistence contracts (sase-7j.1) | [sase-7j.1](sase-7j.1.md) | 2026-07-19 18:41:24 |

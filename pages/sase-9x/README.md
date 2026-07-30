@@ -15,7 +15,7 @@ Concurrent bead writers in every plans-sidecar clone converge without human inte
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-9x.1](sase-9x.1.md) | Position-independent event identity and replay-stable stream merge | ✓ closed | large | 1 | 0 |
+| [sase-9x.1](sase-9x.1.md) | Position-independent event identity and replay-stable stream merge | ✓ closed | large | 2 | 1 |
 | [sase-9x.2](sase-9x.2.md) | Byte-identical JSONL encoding across both store writers | ✓ closed | small | 1 | 1 |
 | [sase-9x.3](sase-9x.3.md) | Never discard unpushed bead commits during workspace preparation | ✓ closed | small | 1 | 1 |
 | [sase-9x.4](sase-9x.4.md) | Eliminate the sticky failure loop that deepens divergence | ✓ closed | medium | 1 | 1 |
@@ -48,22 +48,25 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-9x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.1/README.md) | [sase-9x.1](sase-9x.1.md) | 1 |
 | [bbugyi200.athena.sase-9x.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9x.1.md#member-code) | [sase-9x.1](sase-9x.1.md) | 0 |
 | [bbugyi200.athena.sase-9x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.2/README.md) | [sase-9x.2](sase-9x.2.md) | 1 |
 | [bbugyi200.athena.sase-9x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.3/README.md) | [sase-9x.3](sase-9x.3.md) | 1 |
 | [bbugyi200.athena.sase-9x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.4/README.md) | [sase-9x.4](sase-9x.4.md) | 1 |
 | [bbugyi200.athena.sase-9x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.5/README.md) | [sase-9x.5](sase-9x.5.md) | 1 |
 | [bbugyi200.athena.sase-9x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.6/README.md) | [sase-9x.6](sase-9x.6.md) | 1 |
-| [bbugyi200.athena.sase-9x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.land/README.md) | [sase-9x](README.md) | 1 |
+| [bbugyi200.athena.sase-9x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9x.land/README.md) | [sase-9x](README.md) | 2 |
 | [bbugyi200.athena.sase-9x.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9x.land.md#member-code) | [sase-9x](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@4376ec2`](https://github.com/sase-org/sase-core/commit/4376ec2d0adc16f5d6883010991d43b6fc05c372) | fix(beads): make event merges replay-stable (sase-9x.1) | [sase-9x.1](sase-9x.1.md) | 2026-07-27 11:08:20 |
 | [`5993058`](https://github.com/sase-org/sase/commit/59930584cdf8a46d651d246cdaa763c88ada407e) | fix(beads): recover from transient sync divergence (sase-9x.4) | [sase-9x.4](sase-9x.4.md) | 2026-07-27 11:11:19 |
 | [`19bb1ad`](https://github.com/sase-org/sase/commit/19bb1adc74f8194b0d451936f07e7291bb473723) | fix(bead): emit byte-identical JSONL from both store writers (sase-9x.2) | [sase-9x.2](sase-9x.2.md) | 2026-07-27 11:16:46 |
 | [`0b51af9`](https://github.com/sase-org/sase/commit/0b51af99549e2a3cfbb1fc7201cb0faf9ba4a19a) | fix: preserve bead commits before sidecar workspace reset (sase-9x.3) | [sase-9x.3](sase-9x.3.md) | 2026-07-27 11:22:18 |
 | [`87dd076`](https://github.com/sase-org/sase/commit/87dd076f28defadf254154e7c6dcb1bc23ac8d3f) | test(beads): cover deep managed sync replay (sase-9x.5) | [sase-9x.5](sase-9x.5.md) | 2026-07-27 12:03:53 |
 | [`7538b93`](https://github.com/sase-org/sase/commit/7538b9395489ffc74de8c58525bd9cee2d870889) | feat(bead): report recurring managed-sync failures (sase-9x.6) | [sase-9x.6](sase-9x.6.md) | 2026-07-27 12:42:25 |
 | [`fa07151`](https://github.com/sase-org/sase/commit/fa07151cf1414f652b836ac1511f302e8dafac2d) | test: track sase-core-rs 0.11.2 minimum (sase-9x) | [sase-9x](README.md) | 2026-07-27 13:51:05 |
+| [`sase--plans@edc9912`](https://github.com/sase-org/sase--plans/commit/edc9912df277e160a56e8f11bf88027da4f89e93) | docs: mark bead merge replay stability plan done (sase-9x) | [sase-9x](README.md) | 2026-07-27 13:51:48 |

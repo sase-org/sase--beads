@@ -24,4 +24,11 @@ COMMIT: f1a23c8
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-87.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-87.1/README.md) | [sase-87.1](sase-87.1.md) | 1 |
 | [bbugyi200.athena.sase-87.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-87.1.md#member-code) | [sase-87.1](sase-87.1.md) | 0 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@66360e2`](https://github.com/sase-org/sase-core/commit/66360e2c15e406546e3e394ddfe4863489cbcb79) | feat(beads): support delegated phase scheduling (sase-87.1) | [sase-87.1](sase-87.1.md) | 2026-07-20 15:42:07 |

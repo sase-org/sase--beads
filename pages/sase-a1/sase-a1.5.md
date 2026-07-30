@@ -21,10 +21,11 @@ recover: detect beads whose current notes dropped text an earlier revision held,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-a1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.5/README.md) | [sase-a1.5](sase-a1.5.md) | 1 |
+| [bbugyi200.athena.sase-a1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a1.5/README.md) | [sase-a1.5](sase-a1.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@5174448`](https://github.com/sase-org/sase-core/commit/51744485f204f9d667dd73dd94b09a0f494ed2f7) | feat(beads): detect overwritten note revisions (sase-a1.5) | [sase-a1.5](sase-a1.5.md) | 2026-07-27 18:43:26 |
 | [`b24e69c`](https://github.com/sase-org/sase/commit/b24e69c047a2e8428784f5992cdc734ed4b4e428) | feat(beads): restore overwritten note revisions (sase-a1.5) | [sase-a1.5](sase-a1.5.md) | 2026-07-27 18:44:15 |

@@ -18,3 +18,15 @@ COMMIT: 240d93c
 ## Dependencies
 
 - **Blocks:** [sase-95.3](sase-95.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-95.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-95.1/README.md) | [sase-95.1](sase-95.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@240d93c`](https://github.com/sase-org/sase-core/commit/240d93c82f948926b0a43fe304952d253802e093) | feat(tasks): add durable background task store (sase-95.1) | [sase-95.1](sase-95.1.md) | 2026-07-25 13:15:00 |

@@ -38,9 +38,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-a2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a2.1/README.md) | [sase-a2.1](sase-a2.1.md) | 1 |
+| [bbugyi200.athena.sase-a2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a2.land/README.md) | [sase-a2](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`f15c05d`](https://github.com/sase-org/sase/commit/f15c05dc6cb8b9c7a6b5564655a676a3d3257e6f) | feat(axe): expose chop run source and dry-run state (sase-a2.1) | [sase-a2.1](sase-a2.1.md) | 2026-07-27 17:31:36 |
+| [`sase--plans@4f9e67c`](https://github.com/sase-org/sase--plans/commit/4f9e67c122defd1e3bcbeb37a6a78ac2d3f94d3e) | chore(plans): mark ci watch epic done (sase-a2) | [sase-a2](README.md) | 2026-07-27 17:43:24 |

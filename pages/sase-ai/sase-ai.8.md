@@ -23,10 +23,11 @@ planlink: add a `BEAD` section to the sase-core plan-header block grammar and re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 1 |
+| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@c81b144`](https://github.com/sase-org/sase-core/commit/c81b14444423c0f94be511a3aea11191fa6ffcc4) | feat(plan): add reciprocal bead header sections (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:09:30 |
 | [`ab1c360`](https://github.com/sase-org/sase/commit/ab1c360404b7af12251a19716b0ed51b429cdbde) | feat(plan): project bead links into plan headers (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:10:36 |

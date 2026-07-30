@@ -11,3 +11,9 @@
 
 - **Depends on:** [sase-16.1](sase-16.1.md) ✓
 - **Blocks:** [sase-16.3](sase-16.3.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@a04b697`](https://github.com/sase-org/sase-core/commit/a04b6977b4fa9c4dc2e2f2cefe8ef19595c888e9) | feat: Phase 1B — minimal full-file parser skeleton (sase-16.2) | [sase-16.2](sase-16.2.md) | 2026-04-29 05:19:40 |

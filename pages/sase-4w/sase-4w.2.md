@@ -23,3 +23,15 @@ COMMIT: bc5835d46e6f2a58046df641a56d2989aa0f957a (sase-core)
 
 - **Depends on:** [sase-4w.1](sase-4w.1.md) ✓
 - **Blocks:** [sase-4w.3](sase-4w.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4w.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.2/README.md) | [sase-4w.2](sase-4w.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@bc5835d`](https://github.com/sase-org/sase-core/commit/bc5835d46e6f2a58046df641a56d2989aa0f957a) | feat(beads): add core bead search CLI (sase-4w.2) | [sase-4w.2](sase-4w.2.md) | 2026-06-18 13:02:45 |

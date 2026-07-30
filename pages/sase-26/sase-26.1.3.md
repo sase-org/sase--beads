@@ -21,4 +21,5 @@ COMMIT: 2333170a
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@854bede`](https://github.com/sase-org/sase-core/commit/854bede7563cd25581e434c44f1f7fae80772af3) | feat: harden mobile gateway startup (sase-26.1.3) | [sase-26.1.3](sase-26.1.3.md) | 2026-05-06 14:37:46 |
 | [`de0afd2`](https://github.com/sase-org/sase/commit/de0afd2cbfe3954d06482cbe3541db3911042aef) | chore: close mobile gateway phase 3 bead (sase-26.1.3) | [sase-26.1.3](sase-26.1.3.md) | 2026-05-06 14:38:20 |

@@ -15,3 +15,9 @@ COMMIT: 75e272ee
 
 - **Depends on:** [sase-2f.1](sase-2f.1.md) ✓
 - **Blocks:** [sase-2f.3](sase-2f.3.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@cc7a563`](https://github.com/sase-org/sase-core/commit/cc7a563c4508f795e623c3888fa7c5983b22aac5) | feat: add editor snippet helper bridge (sase-2f.2) | [sase-2f.2](sase-2f.2.md) | 2026-05-09 05:17:58 |

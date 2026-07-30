@@ -18,3 +18,15 @@ COMMIT: 298eb75
 ## Dependencies
 
 - **Blocks:** [sase-88.2](sase-88.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-88.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-88.1/README.md) | [sase-88.1](sase-88.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@298eb75`](https://github.com/sase-org/sase-core/commit/298eb750d5995341088b528e729808380f162ce2) | feat(plan): expose managed bead links (sase-88.1) | [sase-88.1](sase-88.1.md) | 2026-07-20 15:52:37 |

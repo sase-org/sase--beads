@@ -20,3 +20,15 @@ COMMIT: 8704900
 - **Blocks:** [sase-7z.4](sase-7z.4.md) ✓
 - **Blocks:** [sase-7z.5](sase-7z.5.md) ✓
 - **Blocks:** [sase-7z.6](sase-7z.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7z.2/README.md) | [sase-7z.2](sase-7z.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@8704900`](https://github.com/sase-org/sase-core/commit/87049002493f0daea8d585c265f193084d150385) | feat(bead): support phase sizing and nested cascades (sase-7z.2) | [sase-7z.2](sase-7z.2.md) | 2026-07-20 01:36:09 |

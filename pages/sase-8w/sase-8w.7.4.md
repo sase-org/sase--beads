@@ -19,4 +19,12 @@ COMMIT: 4e2698a5
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8w.7.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8w.7.4.land/README.md) | [sase-8w.7.4](sase-8w.7.4.md) | 2 |
 | [bbugyi200.athena.sase-8w.7.4.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8w.7.4.land.md#member-code) | [sase-8w.7.4](sase-8w.7.4.md) | 0 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@765d784`](https://github.com/sase-org/sase-core/commit/765d7842af6566218ad5973909150b01d145c3a5) | fix(plan): describe phase-size alias routing (sase-8w.7.4) | [sase-8w.7.4](sase-8w.7.4.md) | 2026-07-24 01:24:18 |
+| [`sase--plans@4e2698a`](https://github.com/sase-org/sase--plans/commit/4e2698a533d612e090ff069b77af5a8c4401e4f1) | docs(plans): complete phase-size epic chain (sase-8w.7.4) | [sase-8w.7.4](sase-8w.7.4.md) | 2026-07-24 01:38:13 |

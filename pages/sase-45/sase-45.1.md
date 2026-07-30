@@ -23,10 +23,11 @@ COMMIT: 5b208d36d; CORE: b592f51
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-45.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.1/README.md) | [sase-45.1](sase-45.1.md) | 1 |
+| [bbugyi200.athena.sase-45.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.1/README.md) | [sase-45.1](sase-45.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b592f51`](https://github.com/sase-org/sase-core/commit/b592f51350fc80e35b8f00f8f106105eb5bb8a80) | feat: add episode wire schema (sase-45.1) | [sase-45.1](sase-45.1.md) | 2026-05-26 23:04:31 |
 | [`5b208d3`](https://github.com/sase-org/sase/commit/5b208d36d6feb99c14dad2464ecb31158a4c3a7e) | feat: add Python episode wire facade (sase-45.1) | [sase-45.1](sase-45.1.md) | 2026-05-26 23:08:54 |

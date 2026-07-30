@@ -25,10 +25,12 @@ COMMIT: cc775f43f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-87.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-87.5/README.md) | [sase-87.5](sase-87.5.md) | 1 |
+| [bbugyi200.athena.sase-87.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-87.5/README.md) | [sase-87.5](sase-87.5.md) | 3 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase--plans@a74a04e`](https://github.com/sase-org/sase--plans/commit/a74a04e581d92ed07fdb03dbe51a55e3ae228dc7) | fix(beads): preserve concurrent event-store state (sase-87.5) | [sase-87.5](sase-87.5.md) | 2026-07-20 18:00:15 |
+| [`sase-core@bde6a32`](https://github.com/sase-org/sase-core/commit/bde6a322c9e9736dd0047732c9d3f610cf35f3ce) | feat(agent-scan): expose bead wait markers (sase-87.5) | [sase-87.5](sase-87.5.md) | 2026-07-20 18:01:58 |
 | [`b040020`](https://github.com/sase-org/sase/commit/b040020913e5284e5858a49b1404151c1e07be9e) | feat(ace): surface bead-gated waits (sase-87.5) | [sase-87.5](sase-87.5.md) | 2026-07-20 18:02:49 |

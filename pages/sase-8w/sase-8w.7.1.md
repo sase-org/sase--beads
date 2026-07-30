@@ -25,10 +25,11 @@ COMMITS:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8w.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8w.7.1/README.md) | [sase-8w.7.1](sase-8w.7.1.md) | 1 |
+| [bbugyi200.athena.sase-8w.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8w.7.1/README.md) | [sase-8w.7.1](sase-8w.7.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@32a146d`](https://github.com/sase-org/sase-core/commit/32a146df0ce75d4c5c57c792805789cdb492e156) | fix(bead): expose legacy size constraint migration (sase-8w.7.1) | [sase-8w.7.1](sase-8w.7.1.md) | 2026-07-23 23:35:30 |
 | [`b638df3`](https://github.com/sase-org/sase/commit/b638df32f1709b59c8c3bed44f6d37abe9b227d3) | fix(bead): relax legacy phase size constraints (sase-8w.7.1) | [sase-8w.7.1](sase-8w.7.1.md) | 2026-07-23 23:35:57 |

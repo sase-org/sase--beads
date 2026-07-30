@@ -11,3 +11,9 @@
 
 - **Depends on:** [sase-26.1.3](sase-26.1.3.md) ✓
 - **Blocks:** [sase-26.1.6](sase-26.1.6.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@dd62999`](https://github.com/sase-org/sase-core/commit/dd629997dcb8744c06a5f87b95b63b16e6127d48) | feat: add mobile gateway SSE stream (sase-26.1.5) | [sase-26.1.5](sase-26.1.5.md) | 2026-05-06 14:48:46 |

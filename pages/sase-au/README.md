@@ -19,12 +19,12 @@ The SASE Admin Center Statistics tab has an XPrompts sub-tab that reports which 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-au.1](sase-au.1.md) | Project launch-boundary xprompt usage into the artifact scan record and index | ✓ closed | medium | 0 | 0 |
-| [sase-au.2](sase-au.2.md) | XPrompt aggregation section in the run-statistics wire and query | ✓ closed | medium | 0 | 0 |
-| [sase-au.3](sase-au.3.md) | Python statistics models and builder for the XPrompts view | ✓ closed | medium | 0 | 0 |
-| [sase-au.4](sase-au.4.md) | XPrompts sub-tab with four grouping strategies | ✓ closed | medium | 0 | 0 |
-| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ✓ closed | medium | 0 | 0 |
-| [sase-au.6](sase-au.6.md) | Land the cross-repo contract, snapshots, and documentation | ✓ closed | medium | 0 | 0 |
+| [sase-au.1](sase-au.1.md) | Project launch-boundary xprompt usage into the artifact scan record and index | ✓ closed | medium | 1 | 1 |
+| [sase-au.2](sase-au.2.md) | XPrompt aggregation section in the run-statistics wire and query | ✓ closed | medium | 1 | 1 |
+| [sase-au.3](sase-au.3.md) | Python statistics models and builder for the XPrompts view | ✓ closed | medium | 1 | 1 |
+| [sase-au.4](sase-au.4.md) | XPrompts sub-tab with four grouping strategies | ✓ closed | medium | 1 | 1 |
+| [sase-au.5](sase-au.5.md) | Zoom into one xprompt with a focus picker, scope chip, and keys | ✓ closed | medium | 1 | 1 |
+| [sase-au.6](sase-au.6.md) | Land the cross-repo contract, snapshots, and documentation | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -54,10 +54,23 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-au.land | [sase-au](README.md) | 1 |
+| [bbugyi200.athena.sase-au.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.1/README.md) | [sase-au.1](sase-au.1.md) | 1 |
+| [bbugyi200.athena.sase-au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.2/README.md) | [sase-au.2](sase-au.2.md) | 1 |
+| [bbugyi200.athena.sase-au.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.3/README.md) | [sase-au.3](sase-au.3.md) | 1 |
+| [bbugyi200.athena.sase-au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.4/README.md) | [sase-au.4](sase-au.4.md) | 1 |
+| [bbugyi200.athena.sase-au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.5/README.md) | [sase-au.5](sase-au.5.md) | 1 |
+| [bbugyi200.athena.sase-au.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.6/README.md) | [sase-au.6](sase-au.6.md) | 1 |
+| [bbugyi200.athena.sase-au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-au.land/README.md) | [sase-au](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`67e6c8f`](https://github.com/sase-org/sase--plans/commit/67e6c8f3841e55e7283fd96d884508a33262ad6b) | docs(plans): mark the xprompt statistics plan done | [sase-au](README.md) | 2026-07-29 19:24:29 |
+| [`sase-core@c3e88cf`](https://github.com/sase-org/sase-core/commit/c3e88cf66f2207c75672800cf9f722170c63fc69) | feat(scan): project xprompt usage into artifact records | [sase-au.1](sase-au.1.md) | 2026-07-29 16:37:17 |
+| [`6d99736`](https://github.com/sase-org/sase/commit/6d99736516c426d900faa813f2584336fb3cffdc) | feat(stats): add XPrompt statistics view models | [sase-au.3](sase-au.3.md) | 2026-07-29 16:40:55 |
+| [`sase-core@60eccf6`](https://github.com/sase-org/sase-core/commit/60eccf66f9a29a5fa3b5d6929ddbe66f5354bda7) | feat(stats): aggregate xprompt usage | [sase-au.2](sase-au.2.md) | 2026-07-29 16:51:12 |
+| [`7ddfbb1`](https://github.com/sase-org/sase/commit/7ddfbb16a13bd0771d1bf3d47fc19beee3a31086) | feat(tui): add xprompt statistics view | [sase-au.4](sase-au.4.md) | 2026-07-29 17:13:25 |
+| [`c81eb5d`](https://github.com/sase-org/sase/commit/c81eb5d429127ee80cf0098c0e20932b74cc0ffa) | feat(ace): focus statistics on an xprompt | [sase-au.5](sase-au.5.md) | 2026-07-29 17:49:00 |
+| [`d0b2ed9`](https://github.com/sase-org/sase/commit/d0b2ed97cde8d15ab71afa62d7be06da1cb816f1) | feat(ace): finalize xprompt statistics contract | [sase-au.6](sase-au.6.md) | 2026-07-29 18:49:22 |
+| [`f35c4ce`](https://github.com/sase-org/sase/commit/f35c4ce33185d857fac08c0b80b6e93ef4a2ea50) | fix(ace): mirror launch-boundary xprompt usage in the Python scan wire | [sase-au](README.md) | 2026-07-29 19:22:37 |
+| [`sase--plans@67e6c8f`](https://github.com/sase-org/sase--plans/commit/67e6c8f3841e55e7283fd96d884508a33262ad6b) | docs(plans): mark the xprompt statistics plan done | [sase-au](README.md) | 2026-07-29 19:24:29 |

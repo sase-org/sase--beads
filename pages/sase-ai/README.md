@@ -27,7 +27,7 @@ Every bead that a SASE agent commits against has a beautiful, self-healing GitHu
 | [sase-ai.5](sase-ai.5.md) | Post-commit lineage publication | ✓ closed | medium | 1 | 1 |
 | [sase-ai.6](sase-ai.6.md) | Regenerable-page conflict class | ✓ closed | small | 1 | 1 |
 | [sase-ai.7](sase-ai.7.md) | Bulk refresh command and lineage roster | ✓ closed | medium | 1 | 1 |
-| [sase-ai.8](sase-ai.8.md) | Reciprocal BEAD bullet in the plan header block | ✓ closed | medium | 1 | 1 |
+| [sase-ai.8](sase-ai.8.md) | Reciprocal BEAD bullet in the plan header block | ✓ closed | medium | 1 | 2 |
 | [sase-ai.9](sase-ai.9.md) | Documentation and discoverability surfaces | ✓ closed | small | 1 | 1 |
 
 ## Lineage
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ai.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.5/README.md) | [sase-ai.5](sase-ai.5.md) | 1 |
 | [bbugyi200.athena.sase-ai.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.6/README.md) | [sase-ai.6](sase-ai.6.md) | 1 |
 | [bbugyi200.athena.sase-ai.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.7/README.md) | [sase-ai.7](sase-ai.7.md) | 1 |
-| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 1 |
+| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 2 |
 | [bbugyi200.athena.sase-ai.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.9/README.md) | [sase-ai.9](sase-ai.9.md) | 1 |
 | [bbugyi200.athena.sase-ai.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.land/README.md) | [sase-ai](README.md) | 1 |
 
@@ -93,6 +93,7 @@ flowchart TD
 | [`2a8d2eb`](https://github.com/sase-org/sase/commit/2a8d2eb6e42537b6eb56e935d1faf3cdce811d2d) | feat(sdd): add bead page addressing and hosted bead URLs (sase-ai.1) | [sase-ai.1](sase-ai.1.md) | 2026-07-28 18:38:10 |
 | [`5043949`](https://github.com/sase-org/sase/commit/50439492a6551facacdf8e082c87f418c20db1a1) | fix(beads): resolve generated page conflicts (sase-ai.6) | [sase-ai.6](sase-ai.6.md) | 2026-07-28 18:57:29 |
 | [`4f2694c`](https://github.com/sase-org/sase/commit/4f2694c9211b289b0dc8f48622fd3334975a2675) | feat: add linked bead commit footer tags (sase-ai.2) | [sase-ai.2](sase-ai.2.md) | 2026-07-28 19:03:58 |
+| [`sase-core@c81b144`](https://github.com/sase-org/sase-core/commit/c81b14444423c0f94be511a3aea11191fa6ffcc4) | feat(plan): add reciprocal bead header sections (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:09:30 |
 | [`ab1c360`](https://github.com/sase-org/sase/commit/ab1c360404b7af12251a19716b0ed51b429cdbde) | feat(plan): project bead links into plan headers (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:10:36 |
 | [`9a9bec4`](https://github.com/sase-org/sase/commit/9a9bec4ad2673012a77c6e6fe96bce98d654cf01) | feat(sdd): index bead commit and agent associations (sase-ai.3) | [sase-ai.3](sase-ai.3.md) | 2026-07-28 19:11:50 |
 | [`6e15f0d`](https://github.com/sase-org/sase/commit/6e15f0dc06c87b9f09241f675f81057d4975a70b) | feat(bead-pages): render deterministic bead pages (sase-ai.4) | [sase-ai.4](sase-ai.4.md) | 2026-07-28 19:32:06 |

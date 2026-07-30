@@ -49,7 +49,7 @@ flowchart TD
 | [bbugyi200.athena.sase-9o.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9o.2/README.md) | [sase-9o.2](sase-9o.2.md) | 1 |
 | [bbugyi200.athena.sase-9o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9o.3/README.md) | [sase-9o.3](sase-9o.3.md) | 1 |
 | [bbugyi200.athena.sase-9o.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9o.4/README.md) | [sase-9o.4](sase-9o.4.md) | 1 |
-| [bbugyi200.athena.sase-9o.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9o.land/README.md) | [sase-9o](README.md) | 1 |
+| [bbugyi200.athena.sase-9o.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9o.land/README.md) | [sase-9o](README.md) | 2 |
 
 ## Commits
 
@@ -61,3 +61,4 @@ flowchart TD
 | [`44c5ce3`](https://github.com/sase-org/sase/commit/44c5ce3de5cf9b29b431a1207018e275ac8f4ca2) | fix(ace): make agent dismissal tier-independent (sase-9o.1) | [sase-9o.1](sase-9o.1.md) | 2026-07-26 10:49:38 |
 | [`7ae51f4`](https://github.com/sase-org/sase/commit/7ae51f46342ce4ce6cc86665d748f61f22b84734) | fix(agents): repair future-dated imported state (sase-9o.5) | [sase-9o.5](sase-9o.5.md) | 2026-07-26 11:32:17 |
 | [`eda646e`](https://github.com/sase-org/sase/commit/eda646ec02177d9e28ebb03cb322a68b52bb2f9c) | docs(agents): document the agent index repair subcommand (sase-9o) | [sase-9o](README.md) | 2026-07-26 12:25:22 |
+| [`sase--plans@4fc611a`](https://github.com/sase-org/sase--plans/commit/4fc611a50edf54496f6a7a3ac8d5ecce4d1a1b06) | chore(plans): mark ghost\_imported\_agents plan done (sase-9o) | [sase-9o](README.md) | 2026-07-26 12:26:25 |

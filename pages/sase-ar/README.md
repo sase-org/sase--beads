@@ -23,12 +23,12 @@ Outstanding follow-up, not fixable here: bugyi-chops pins sase>=0.13.2,<0.14.0 b
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ar.1](sase-ar.1.md) | Chop report document in the Rust core | ✓ closed | medium | 0 | 0 |
-| [sase-ar.2](sase-ar.2.md) | ChopReport builder in the sase.chops SDK | ✓ closed | medium | 0 | 0 |
-| [sase-ar.3](sase-ar.3.md) | AXE chop-run result card and report rendering | ✓ closed | medium | 0 | 0 |
-| [sase-ar.4](sase-ar.4.md) | PNG snapshot coverage for chop reports | ✓ closed | small | 0 | 0 |
-| [sase-ar.5](sase-ar.5.md) | Reports for every bugyi-chops chop | ✓ closed | medium | 0 | 0 |
-| [sase-ar.6](sase-ar.6.md) | End-to-end verification on the real AXE tab | ✓ closed | small | 0 | 0 |
+| [sase-ar.1](sase-ar.1.md) | Chop report document in the Rust core | ✓ closed | medium | 1 | 1 |
+| [sase-ar.2](sase-ar.2.md) | ChopReport builder in the sase.chops SDK | ✓ closed | medium | 1 | 1 |
+| [sase-ar.3](sase-ar.3.md) | AXE chop-run result card and report rendering | ✓ closed | medium | 1 | 1 |
+| [sase-ar.4](sase-ar.4.md) | PNG snapshot coverage for chop reports | ✓ closed | small | 1 | 1 |
+| [sase-ar.5](sase-ar.5.md) | Reports for every bugyi-chops chop | ✓ closed | medium | 1 | 0 |
+| [sase-ar.6](sase-ar.6.md) | End-to-end verification on the real AXE tab | ✓ closed | small | 1 | 0 |
 
 ## Lineage
 
@@ -59,10 +59,21 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ar.land | [sase-ar](README.md) | 1 |
+| [bbugyi200.athena.sase-ar.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.1/README.md) | [sase-ar.1](sase-ar.1.md) | 1 |
+| [bbugyi200.athena.sase-ar.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.2/README.md) | [sase-ar.2](sase-ar.2.md) | 1 |
+| [bbugyi200.athena.sase-ar.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.3/README.md) | [sase-ar.3](sase-ar.3.md) | 1 |
+| [bbugyi200.athena.sase-ar.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.4/README.md) | [sase-ar.4](sase-ar.4.md) | 1 |
+| [bbugyi200.athena.sase-ar.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.5/README.md) | [sase-ar.5](sase-ar.5.md) | 0 |
+| [bbugyi200.athena.sase-ar.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.6/README.md) | [sase-ar.6](sase-ar.6.md) | 0 |
+| [bbugyi200.athena.sase-ar.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ar.land/README.md) | [sase-ar](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`a40a70d`](https://github.com/sase-org/sase--plans/commit/a40a70dc007d7955d234b86252e7975f514afe03) | Complete SDD plan for axe\_chop\_reports | [sase-ar](README.md) | 2026-07-29 15:43:26 |
+| [`sase-core@4419772`](https://github.com/sase-org/sase-core/commit/441977217d00fb5d4589a09e04ae3db72d536159) | feat(axe): add structured chop report contract | [sase-ar.1](sase-ar.1.md) | 2026-07-29 13:59:59 |
+| [`bc501e5`](https://github.com/sase-org/sase/commit/bc501e595b0ee0e09d915daf68b7528b1bc50a84) | feat(axe): render structured chop result reports | [sase-ar.3](sase-ar.3.md) | 2026-07-29 14:27:59 |
+| [`5885890`](https://github.com/sase-org/sase/commit/58858901b857cfb9b3831cb61bb8c00e1bfbfd78) | feat(chops): add typed report builder | [sase-ar.2](sase-ar.2.md) | 2026-07-29 14:30:54 |
+| [`8700173`](https://github.com/sase-org/sase/commit/8700173d89e028cc8a6dac71d63a3de6feefc969) | test: add AXE chop report visual snapshots | [sase-ar.4](sase-ar.4.md) | 2026-07-29 14:59:31 |
+| [`17fc09c`](https://github.com/sase-org/sase/commit/17fc09cdc0124036ed3b301bcb2031a2df11392b) | build(deps): require sase-core-rs\>=0.12.9 for the chop report wire | [sase-ar](README.md) | 2026-07-29 15:42:39 |
+| [`sase--plans@a40a70d`](https://github.com/sase-org/sase--plans/commit/a40a70dc007d7955d234b86252e7975f514afe03) | Complete SDD plan for axe\_chop\_reports | [sase-ar](README.md) | 2026-07-29 15:43:26 |

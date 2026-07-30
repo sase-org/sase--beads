@@ -22,3 +22,15 @@ COMMIT: b62f5160d
 - **Blocks:** [sase-52.4](sase-52.4.md) ✓
 - **Blocks:** [sase-52.5](sase-52.5.md) ✓
 - **Blocks:** [sase-52.7](sase-52.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-52.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-52.1/README.md) | [sase-52.1](sase-52.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@f47e7cc`](https://github.com/sase-org/sase-core/commit/f47e7cc2964260df52f5b0934663b5b1f056c6b9) | feat(agent\_launch): support %{...} alt fan-out shorthand (sase-52.1) | [sase-52.1](sase-52.1.md) | 2026-06-20 19:09:50 |

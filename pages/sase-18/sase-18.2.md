@@ -24,4 +24,5 @@ COMMIT: 794b9069
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@5761ccf`](https://github.com/sase-org/sase-core/commit/5761ccf55844b24171caeffd0db580506c98ec59) | feat: Phase 3B — pure-Rust artifact-scan snapshot scanner (sase-18.2) | [sase-18.2](sase-18.2.md) | 2026-04-29 13:53:16 |
 | [`7908faf`](https://github.com/sase-org/sase/commit/7908faf8d99181dbec8f315f39fa2866945b3a6d) | chore: Phase 3B handoff note (sase-18.2) | [sase-18.2](sase-18.2.md) | 2026-04-29 13:53:33 |

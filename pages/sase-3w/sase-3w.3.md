@@ -17,3 +17,9 @@ COMMIT: 86c2f695e
 
 - **Blocks:** [sase-3w.4](sase-3w.4.md) ✓
 - **Blocks:** [sase-3w.5](sase-3w.5.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@b7cf730`](https://github.com/sase-org/sase-core/commit/b7cf7300d26e87a8f981df825d23a6998e902e98) | feat: support xprompt input descriptions in core (sase-3w.3) | [sase-3w.3](sase-3w.3.md) | 2026-05-22 16:54:59 |

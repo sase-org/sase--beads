@@ -62,7 +62,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-69](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-69/README.md) | [sase-69](README.md) | 1 |
+| [bbugyi200.athena.sase-69](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-69/README.md) | [sase-69](README.md) | 2 |
 | [bbugyi200.athena.sase-69--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-69.md#member-code) | [sase-69](README.md) | 0 |
 | [bbugyi200.athena.sase-69.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-69.1/README.md) | [sase-69.1](sase-69.1.md) | 1 |
 | [bbugyi200.athena.sase-69.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-69.2/README.md) | [sase-69.2](sase-69.2.md) | 1 |
@@ -83,3 +83,4 @@ flowchart TD
 | [`ad730f6`](https://github.com/sase-org/sase/commit/ad730f6447a3bc4bd3705125b9d4ce317b2aacd8) | chore(lint): remove fulfilled artifact epic symbols (sase-69.5) | [sase-69.5](sase-69.5.md) | 2026-07-16 02:33:21 |
 | [`6bc7613`](https://github.com/sase-org/sase/commit/6bc7613fae64f1f0040d8200dcfe8773e116ce7c) | feat(ace): polish artifacts tab integration (sase-69.7) | [sase-69.7](sase-69.7.md) | 2026-07-16 03:02:41 |
 | [`54f75ab`](https://github.com/sase-org/sase/commit/54f75ab41f768e8223b80d778169e1aea8513c88) | feat(ace): make commits actions configurable (sase-69) | [sase-69](README.md) | 2026-07-16 03:41:19 |
+| [`sase--plans@af8f3ba`](https://github.com/sase-org/sase--plans/commit/af8f3ba35e8e2683704b8dd6bbab50680a6f0e90) | docs(plans): mark artifacts epic complete (sase-69) | [sase-69](README.md) | 2026-07-16 03:42:21 |

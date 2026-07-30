@@ -14,3 +14,15 @@
 ## Dependencies
 
 - **Blocks:** [sase-9s.4](sase-9s.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9s.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9s.2/README.md) | [sase-9s.2](sase-9s.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@2584f63`](https://github.com/sase-org/sase-core/commit/2584f63019af33f7abcb5b064d47567d0c6c38fe) | feat(tasks): accept the detached task kind in the background task store (sase-9s.2) | [sase-9s.2](sase-9s.2.md) | 2026-07-26 11:45:39 |

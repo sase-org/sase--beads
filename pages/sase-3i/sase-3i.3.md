@@ -16,4 +16,5 @@
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@eab0dcd`](https://github.com/sase-org/sase-core/commit/eab0dcd35055dedd2c6d06bee7e174bee867d3dd) | feat: compact notification projection reads (sase-3i.3) | [sase-3i.3](sase-3i.3.md) | 2026-05-14 20:36:44 |
 | [`d1de9d8`](https://github.com/sase-org/sase/commit/d1de9d8ab7fbea6f0c366cc2670d8ab4ec080f3c) | chore: close notification projection phase bead (sase-3i.3) | [sase-3i.3](sase-3i.3.md) | 2026-05-14 20:38:59 |

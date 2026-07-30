@@ -22,4 +22,12 @@ COMMIT: ddaf1fe
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-5q.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5q.6/README.md) | [sase-5q.6](sase-5q.6.md) | 2 |
 | [bbugyi200.athena.sase-5q.6--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5q.6.md#member-1) | [sase-5q.6](sase-5q.6.md) | 0 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@2061ebc`](https://github.com/sase-org/sase--plans/commit/2061ebc98378fb13c3244c291454df805d39fd04) | fix(sdd): repair migrated plan links (sase-5q.6) | [sase-5q.6](sase-5q.6.md) | 2026-07-12 01:09:24 |
+| [`sase--plans@ddaf1fe`](https://github.com/sase-org/sase--plans/commit/ddaf1feff8e96df5b10f3df9a7a402416fd4702f) | fix(sdd): remove dangling migrated prompt link (sase-5q.6) | [sase-5q.6](sase-5q.6.md) | 2026-07-12 01:36:35 |

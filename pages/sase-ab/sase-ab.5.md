@@ -23,3 +23,16 @@ land: re-verify the split end to end, close bead sase-a8 without forcing, clear 
 - **Depends on:** [sase-ab.2](sase-ab.2.md) ✓
 - **Depends on:** [sase-ab.3](sase-ab.3.md) ✓
 - **Depends on:** [sase-ab.4](sase-ab.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ab.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ab.5/README.md) | [sase-ab.5](sase-ab.5.md) | 2 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase--plans@25229fb`](https://github.com/sase-org/sase--plans/commit/25229fb06fb5f7db7e3dc4d16cb00ead101257ff) | docs: repair SDD artifact links (sase-ab.5) | [sase-ab.5](sase-ab.5.md) | 2026-07-28 13:06:14 |
+| [`sase--plans@d241ce7`](https://github.com/sase-org/sase--plans/commit/d241ce70f1be035ec5a0397e467120b99983b509) | docs: link lumberjack wait runners artifacts (sase-ab.5) | [sase-ab.5](sase-ab.5.md) | 2026-07-28 13:08:44 |

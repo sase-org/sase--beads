@@ -20,4 +20,5 @@ COMMIT: 9dd20d3a8
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@46d02af`](https://github.com/sase-org/sase-core/commit/46d02af3d18c684889dafc0772760e214520ede6) | feat: restore legacy dismissed bundle writer (sase-3b.2) | [sase-3b.2](sase-3b.2.md) | 2026-05-13 02:23:31 |
 | [`f7b7220`](https://github.com/sase-org/sase/commit/f7b7220dccd86ba0ecdff58410f76fb76baa623b) | feat: restore dismissed bundle storage semantics (sase-3b.2) | [sase-3b.2](sase-3b.2.md) | 2026-05-13 02:25:12 |

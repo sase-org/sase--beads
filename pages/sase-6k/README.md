@@ -15,7 +15,7 @@ SASE telemetry graphs work out of the box with no external services: metric hist
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-6k.1](sase-6k.1.md) | Rust core metric store and query engine | ✓ closed | small | 0 | 0 |
+| [sase-6k.1](sase-6k.1.md) | Rust core metric store and query engine | ✓ closed | small | 1 | 1 |
 | [sase-6k.2](sase-6k.2.md) | In-house terminal chart toolkit | ✓ closed | small | 1 | 1 |
 | [sase-6k.3](sase-6k.3.md) | Local ingestion pipeline | ✓ closed | small | 1 | 1 |
 | [sase-6k.4](sase-6k.4.md) | Reworked sase telemetry CLI | ✓ closed | small | 1 | 1 |
@@ -57,6 +57,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-6k--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-6k.md#member-code) | [sase-6k](README.md) | 0 |
+| [bbugyi200.athena.sase-6k.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6k.1/README.md) | [sase-6k.1](sase-6k.1.md) | 1 |
 | [bbugyi200.athena.sase-6k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6k.2/README.md) | [sase-6k.2](sase-6k.2.md) | 1 |
 | [bbugyi200.athena.sase-6k.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6k.3/README.md) | [sase-6k.3](sase-6k.3.md) | 1 |
 | [bbugyi200.athena.sase-6k.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6k.4/README.md) | [sase-6k.4](sase-6k.4.md) | 1 |
@@ -69,6 +70,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`171bf04`](https://github.com/sase-org/sase/commit/171bf04e2d59a26972a9b2ec448d9e5d7d433ea6) | feat(telemetry): add deterministic terminal chart toolkit (sase-6k.2) | [sase-6k.2](sase-6k.2.md) | 2026-07-17 16:12:48 |
+| [`sase-core@646cb0c`](https://github.com/sase-org/sase-core/commit/646cb0c51f30d2e6995e3544846daae7f9292f0e) | feat(telemetry): add SQLite metric store and queries (sase-6k.1) | [sase-6k.1](sase-6k.1.md) | 2026-07-17 16:15:36 |
 | [`7ccc468`](https://github.com/sase-org/sase/commit/7ccc4688c393478423072db4d7d045ed0f869b19) | feat(telemetry)!: replace Prometheus ingestion with local storage (sase-6k.3) | [sase-6k.3](sase-6k.3.md) | 2026-07-17 16:53:13 |
 | [`04f7be6`](https://github.com/sase-org/sase/commit/04f7be663fd601b5289514bcf9dcc1f2f9986ac3) | feat(telemetry)!: query the local store from the CLI (sase-6k.4) | [sase-6k.4](sase-6k.4.md) | 2026-07-17 17:47:08 |
 | [`79f0a1b`](https://github.com/sase-org/sase/commit/79f0a1b4730c5d2b0d5ce04748abbfe9f63c4d8a) | feat(tui): add Admin Center telemetry dashboard (sase-6k.5) | [sase-6k.5](sase-6k.5.md) | 2026-07-17 18:08:30 |

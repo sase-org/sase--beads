@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-6s.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6s.2/README.md) | [sase-6s.2](sase-6s.2.md) | 1 |
 | [bbugyi200.athena.sase-6s.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6s.3/README.md) | [sase-6s.3](sase-6s.3.md) | 1 |
 | [bbugyi200.athena.sase-6s.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6s.4/README.md) | [sase-6s.4](sase-6s.4.md) | 1 |
-| [bbugyi200.athena.sase-6s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6s.land/README.md) | [sase-6s](README.md) | 1 |
+| [bbugyi200.athena.sase-6s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6s.land/README.md) | [sase-6s](README.md) | 2 |
 
 ## Commits
 
@@ -61,3 +61,4 @@ flowchart TD
 | [`a18747f`](https://github.com/sase-org/sase/commit/a18747fccf77f5e36b75428a741e82cd3b090685) | feat(tui): integrate live commit filter bar (sase-6s.3) | [sase-6s.3](sase-6s.3.md) | 2026-07-18 13:44:21 |
 | [`fd1f865`](https://github.com/sase-org/sase/commit/fd1f865eddaf25511758e83c1893597b4e8559eb) | test(tui): cover commits filter bar visual states (sase-6s.4) | [sase-6s.4](sase-6s.4.md) | 2026-07-18 14:06:44 |
 | [`6bd3617`](https://github.com/sase-org/sase/commit/6bd3617f73d9aecfe8f69f853074cc7c8696d23a) | refactor: remove expired filter epic scaffolding (sase-6s) | [sase-6s](README.md) | 2026-07-18 14:30:37 |
+| [`sase--plans@d856d2c`](https://github.com/sase-org/sase--plans/commit/d856d2c9d2acd69b5fcb0181b7388adee0ab331c) | docs: mark commits filter epic plan done (sase-6s) | [sase-6s](README.md) | 2026-07-18 14:30:59 |

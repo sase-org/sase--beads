@@ -24,3 +24,4 @@ COMMIT: 11b7beb91
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`4222fda`](https://github.com/sase-org/sase/commit/4222fda2c7346b778836c44605ee5d3b4036a959) | fix: keep done acknowledgements completion-scoped (sase-43.4) | [sase-43.4](sase-43.4.md) | 2026-05-24 01:12:36 |
+| [`sase-core@5b4a670`](https://github.com/sase-org/sase-core/commit/5b4a670267c5bea15780948f3fd91b8b3ffa32c2) | fix: include tags in gateway notification fixture (sase-43.4) | [sase-43.4](sase-43.4.md) | 2026-05-24 01:12:57 |

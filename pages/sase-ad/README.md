@@ -62,3 +62,4 @@ flowchart TD
 | [`53e94ca`](https://github.com/sase-org/sase/commit/53e94ca4a5e8456316a32ffbb5af8222a0d0c385) | fix(agents-sync): allow container-named hood publication (sase-ad.2) | [sase-ad.2](sase-ad.2.md) | 2026-07-28 12:19:41 |
 | [`5842f04`](https://github.com/sase-org/sase/commit/5842f04af4d3eabebed72d81b64a6bec477125a3) | feat: surface agent publication outbox health (sase-ad.4) | [sase-ad.4](sase-ad.4.md) | 2026-07-28 12:48:50 |
 | [`7076775`](https://github.com/sase-org/sase/commit/7076775d252780c71df7ae9769863315a19390c4) | refactor(agents\_sync): share one publication outbox path reader (sase-ad) | [sase-ad](README.md) | 2026-07-28 13:12:17 |
+| [`sase--plans@08bb99b`](https://github.com/sase-org/sase--plans/commit/08bb99b9e72e822190da5396949ee55599a4b50b) | docs(plans): mark fix\_family\_agent\_publication plan done (sase-ad) | [sase-ad](README.md) | 2026-07-28 13:15:36 |

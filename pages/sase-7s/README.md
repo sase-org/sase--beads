@@ -50,6 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-7s.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7s.1/README.md) | [sase-7s.1](sase-7s.1.md) | 1 |
 | [bbugyi200.athena.sase-7s.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7s.2/README.md) | [sase-7s.2](sase-7s.2.md) | 1 |
 | [bbugyi200.athena.sase-7s.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7s.3/README.md) | [sase-7s.3](sase-7s.3.md) | 1 |
+| [bbugyi200.athena.sase-7s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7s.land/README.md) | [sase-7s](README.md) | 1 |
 
 ## Commits
 
@@ -58,3 +59,4 @@ flowchart TD
 | [`fec5fa6`](https://github.com/sase-org/sase/commit/fec5fa69e2d054ab787e21e4dc52940de319ae04) | feat: add agent CLI update service layer (sase-7s.1) | [sase-7s.1](sase-7s.1.md) | 2026-07-20 00:54:27 |
 | [`a3ae3df`](https://github.com/sase-org/sase/commit/a3ae3dfdcdc8c884abf79385c9037198c31301bf) | feat(cli): add agent CLI management commands (sase-7s.2) | [sase-7s.2](sase-7s.2.md) | 2026-07-20 01:18:18 |
 | [`1afba63`](https://github.com/sase-org/sase/commit/1afba633d9bfe27bdfbb3fe7598b2d577d51b16f) | feat(tui): add agent CLI update browser (sase-7s.3) | [sase-7s.3](sase-7s.3.md) | 2026-07-20 01:51:22 |
+| [`sase--plans@d3020da`](https://github.com/sase-org/sase--plans/commit/d3020da7ee14074d6b82befafbf48d3f61995970) | docs: finalize agent CLI updates epic plan (sase-7s) | [sase-7s](README.md) | 2026-07-20 02:50:46 |

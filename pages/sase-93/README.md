@@ -20,7 +20,7 @@ Every job in the sase `CI` workflow (lint, test 3.12/3.13/3.14, visual-test, bea
 | [sase-93.3](sase-93.3.md) | Attribute residual-freeze soak failures to the fixed paths, not the wall-clock window | ✓ closed | small | 1 | 1 |
 | [sase-93.4](sase-93.4.md) | Remove the host \`$HOME\` dependency from the axe editor visual snapshots | ✓ closed | small | 1 | 1 |
 | [sase-93.5](sase-93.5.md) | Gate the neighbor-badge and prompt-caret snapshots on rendered output | ✓ closed | medium | 1 | 1 |
-| [sase-93.6](sase-93.6.md) | Fix spurious SQLITE\_BUSY in the sase-core telemetry store | ✓ closed | medium | 0 | 0 |
+| [sase-93.6](sase-93.6.md) | Fix spurious SQLITE\_BUSY in the sase-core telemetry store | ✓ closed | medium | 1 | 1 |
 | [sase-93.7](sase-93.7.md) | Align sase's \`sase-core-rs\` window with a published core release | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
@@ -54,6 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-93.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-93.3/README.md) | [sase-93.3](sase-93.3.md) | 1 |
 | [bbugyi200.athena.sase-93.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-93.4/README.md) | [sase-93.4](sase-93.4.md) | 1 |
 | [bbugyi200.athena.sase-93.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-93.5/README.md) | [sase-93.5](sase-93.5.md) | 1 |
+| [bbugyi200.athena.sase-93.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-93.6/README.md) | [sase-93.6](sase-93.6.md) | 1 |
 | [bbugyi200.athena.sase-93.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-93.7/README.md) | [sase-93.7](sase-93.7.md) | 1 |
 
 ## Commits
@@ -61,6 +62,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`50e3d73`](https://github.com/sase-org/sase/commit/50e3d73ecee0429ee5ed7d04130fbf08aa866245) | test: stop TUI log setup from leaking the \`sase\` logger level (sase-93.2) | [sase-93.2](sase-93.2.md) | 2026-07-25 11:37:14 |
+| [`sase-core@949ec18`](https://github.com/sase-org/sase-core/commit/949ec188d602cbf80117afd9a79724315e86c796) | fix(telemetry): prevent SQLite writer lock races (sase-93.6) | [sase-93.6](sase-93.6.md) | 2026-07-25 11:49:33 |
 | [`a908b57`](https://github.com/sase-org/sase/commit/a908b578f32f18e93a116f13ceb5c97eaf71e8d4) | test: harden residual-freeze soak attribution (sase-93.3) | [sase-93.3](sase-93.3.md) | 2026-07-25 12:18:29 |
 | [`53d25b3`](https://github.com/sase-org/sase/commit/53d25b3173ae0df30909d3f4e256c9d4d52d08f6) | fix(init): warn instead of blocking when the agents sidecar has no project key (sase-93.1) | [sase-93.1](sase-93.1.md) | 2026-07-25 12:32:18 |
 | [`8892204`](https://github.com/sase-org/sase/commit/8892204722d7e94df05a7fc5be9945406f0dc629) | test: gate visual snapshots on rendered state (sase-93.5) | [sase-93.5](sase-93.5.md) | 2026-07-25 12:44:02 |

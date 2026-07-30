@@ -20,10 +20,11 @@ COMMIT: 5a30d1d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5x.3/README.md) | [sase-5x.3](sase-5x.3.md) | 1 |
+| [bbugyi200.athena.sase-5x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5x.3/README.md) | [sase-5x.3](sase-5x.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`1ec31b8`](https://github.com/sase-org/sase/commit/1ec31b87d4535e9f298ea22d738a171b28232f79) | feat(repo): add repository open log dashboard (sase-5x.3) | [sase-5x.3](sase-5x.3.md) | 2026-07-13 19:16:07 |
+| [`sase--plans@5a30d1d`](https://github.com/sase-org/sase--plans/commit/5a30d1da41620c53ffd91014e3c60005183bd312) | docs(sdd): refresh generated root index (sase-5x.3) | [sase-5x.3](sase-5x.3.md) | 2026-07-13 19:18:50 |

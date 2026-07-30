@@ -20,4 +20,6 @@ COMMIT: 95299732b
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@50eb8c5`](https://github.com/sase-org/sase-core/commit/50eb8c5dd1565b2bd0ad1b964761ebb807e4edfa) | feat: back bead mutations with event streams (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:45:50 |
+| [`sase-core@ba2adb3`](https://github.com/sase-org/sase-core/commit/ba2adb368dc352a4880a4d3ac10d6d7d59afc7cb) | chore: cover stale projection orphan diagnostics (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:46:18 |
 | [`2645150`](https://github.com/sase-org/sase/commit/264515037866ac8c08f4e5a2cbec718bc5940782) | chore: close event-backed mutation bead (sase-3n.3) | [sase-3n.3](sase-3n.3.md) | 2026-05-15 15:48:21 |

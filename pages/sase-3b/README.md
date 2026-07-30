@@ -16,7 +16,7 @@ COMMIT: b353446a0
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-3b.1](sase-3b.1.md) | Phase 1 - Rollback Manifest and Safety Baseline | ✓ closed | small | 0 | 1 |
-| [sase-3b.2](sase-3b.2.md) | Phase 2 - Restore Dismissed Bundle Storage and Index Semantics | ✓ closed | small | 0 | 1 |
+| [sase-3b.2](sase-3b.2.md) | Phase 2 - Restore Dismissed Bundle Storage and Index Semantics | ✓ closed | small | 0 | 2 |
 | [sase-3b.3](sase-3b.3.md) | Phase 3 - Remove Archive Query Planner and Query-Language Extensions | ✓ closed | small | 0 | 1 |
 | [sase-3b.4](sase-3b.4.md) | Phase 4 - Remove Archive CLI and Rust Archive Facade | ✓ closed | small | 0 | 1 |
 | [sase-3b.5](sase-3b.5.md) | Phase 5 - Restore Revive Modal and TUI Revive Flow | ✓ closed | small | 0 | 1 |
@@ -55,6 +55,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`250a77b`](https://github.com/sase-org/sase/commit/250a77bf06e128f1345f2709b7085846f5f7fb8a) | chore: add sase-37 rollback manifest (sase-3b.1) | [sase-3b.1](sase-3b.1.md) | 2026-05-13 02:02:08 |
+| [`sase-core@46d02af`](https://github.com/sase-org/sase-core/commit/46d02af3d18c684889dafc0772760e214520ede6) | feat: restore legacy dismissed bundle writer (sase-3b.2) | [sase-3b.2](sase-3b.2.md) | 2026-05-13 02:23:31 |
 | [`f7b7220`](https://github.com/sase-org/sase/commit/f7b7220dccd86ba0ecdff58410f76fb76baa623b) | feat: restore dismissed bundle storage semantics (sase-3b.2) | [sase-3b.2](sase-3b.2.md) | 2026-05-13 02:25:12 |
 | [`6dfb0cf`](https://github.com/sase-org/sase/commit/6dfb0cf56eba39bea823942352933a539ac7b141) | feat: remove archive query planner extensions (sase-3b.3) | [sase-3b.3](sase-3b.3.md) | 2026-05-13 02:35:41 |
 | [`803e51a`](https://github.com/sase-org/sase/commit/803e51ae6be05b5ac29c3bb35b921209f347958d) | feat: remove archive query CLI surface (sase-3b.4) | [sase-3b.4](sase-3b.4.md) | 2026-05-13 02:44:36 |

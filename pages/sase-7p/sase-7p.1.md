@@ -23,10 +23,11 @@ COMMIT: dcfdc39
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7p.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7p.1/README.md) | [sase-7p.1](sase-7p.1.md) | 1 |
+| [bbugyi200.athena.sase-7p.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7p.1/README.md) | [sase-7p.1](sase-7p.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@997c577`](https://github.com/sase-org/sase-core/commit/997c577a5d0204aa9b1be4ecb44463714d574dc0) | feat(axe): validate log rotation temp age (sase-7p.1) | [sase-7p.1](sase-7p.1.md) | 2026-07-19 21:48:59 |
 | [`a30e9e3`](https://github.com/sase-org/sase/commit/a30e9e342feead3f54148530bfd1b603054e9875) | feat(axe): add bounded log rotation headroom (sase-7p.1) | [sase-7p.1](sase-7p.1.md) | 2026-07-19 21:50:04 |

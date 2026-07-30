@@ -25,10 +25,11 @@ COMMIT: d0d6b14c1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6n.5/README.md) | [sase-6n.5](sase-6n.5.md) | 1 |
+| [bbugyi200.athena.sase-6n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6n.5/README.md) | [sase-6n.5](sase-6n.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@e9edd17`](https://github.com/sase-org/sase-core/commit/e9edd179ad62e32f9dc84076d792b1e23533f80b) | feat(bead)!: suffix epic land agent names (sase-6n.5) | [sase-6n.5](sase-6n.5.md) | 2026-07-17 23:17:54 |
 | [`d1e772f`](https://github.com/sase-org/sase/commit/d1e772f646e2d421ba087569b330252d9edfabb5) | feat(bead)!: migrate epic launches to clans (sase-6n.5) | [sase-6n.5](sase-6n.5.md) | 2026-07-17 23:19:35 |

@@ -21,3 +21,15 @@ targets: collapse the duplicated copy-target label sets into one registry carryi
 
 - **Depends on:** [sase-az.1](sase-az.1.md) ✓
 - **Blocks:** [sase-az.3](sase-az.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-az.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.2/README.md) | [sase-az.2](sase-az.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`cf844c3`](https://github.com/sase-org/sase/commit/cf844c3e5d574d7c8898a73fd36cba686c17a6ad) | feat(ace): add paste-ready copy representations | [sase-az.2](sase-az.2.md) | 2026-07-30 00:27:20 |

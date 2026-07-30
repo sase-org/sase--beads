@@ -14,3 +14,15 @@ core_description_grammar: teach sase_core's AXE config authority the summary/bod
 ## Dependencies
 
 - **Blocks:** [sase-9w.2](sase-9w.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9w.1/README.md) | [sase-9w.1](sase-9w.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@740aa4f`](https://github.com/sase-org/sase-core/commit/740aa4f06421f076f678a7768a9e9cec2415f81f) | feat(axe): add description summary-body grammar (sase-9w.1) | [sase-9w.1](sase-9w.1.md) | 2026-07-26 18:10:14 |

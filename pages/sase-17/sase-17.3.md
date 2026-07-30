@@ -21,4 +21,5 @@ Evaluate compiled queries against ChangeSpecWire lists in Rust with Python-equiv
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@6b0adb4`](https://github.com/sase-org/sase-core/commit/6b0adb4c2367aa9052a830fa4746d1e1aab91671) | feat(query): Phase 2C pure-Rust query evaluator and batch API (sase-17.3) | [sase-17.3](sase-17.3.md) | 2026-04-29 07:27:33 |
 | [`cbfbd14`](https://github.com/sase-org/sase/commit/cbfbd14e5f3228c46b76d004525be476371fddcb) | chore: close sase-17.3 (Phase 2C done in sase-core) (sase-17.3) | [sase-17.3](sase-17.3.md) | 2026-04-29 07:28:01 |

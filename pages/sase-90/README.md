@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-90.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-90.6/README.md) | [sase-90.6](sase-90.6.md) | 1 |
 | [bbugyi200.athena.sase-90.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-90.7/README.md) | [sase-90.7](sase-90.7.md) | 1 |
 | [bbugyi200.athena.sase-90.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-90.8/README.md) | [sase-90.8](sase-90.8.md) | 1 |
-| [bbugyi200.athena.sase-90.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-90.land/README.md) | [sase-90](README.md) | 1 |
+| [bbugyi200.athena.sase-90.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-90.land/README.md) | [sase-90](README.md) | 2 |
 | [bbugyi200.athena.sase-90.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-90.land.md#member-code) | [sase-90](README.md) | 0 |
 
 ## Commits
@@ -87,3 +87,4 @@ flowchart TD
 | [`8a0ae27`](https://github.com/sase-org/sase/commit/8a0ae2730091422830390c8385b59df993e753e7) | feat(tui): link chats to local agents (sase-90.7) | [sase-90.7](sase-90.7.md) | 2026-07-25 01:18:40 |
 | [`5876514`](https://github.com/sase-org/sase/commit/58765147ac29d0c0ad7f000f740233def8f5c926) | test(ace): add Chats visual snapshots (sase-90.8) | [sase-90.8](sase-90.8.md) | 2026-07-25 01:41:15 |
 | [`e5d953e`](https://github.com/sase-org/sase/commit/e5d953eadd0b66ce4c9d8806d045048943107825) | feat(chats): expose publication quarantine provenance (sase-90) | [sase-90](README.md) | 2026-07-25 02:12:39 |
+| [`sase--plans@3281be8`](https://github.com/sase-org/sase--plans/commit/3281be8ffb62b7ae74299fc3a159a75aa0929ef7) | docs(plans): mark chats provenance epic complete (sase-90) | [sase-90](README.md) | 2026-07-25 02:15:05 |

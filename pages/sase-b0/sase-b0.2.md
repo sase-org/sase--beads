@@ -23,3 +23,15 @@ list: load the index off-thread through the Rust-backed query facade with two-ph
 - **Blocks:** [sase-b0.3](sase-b0.3.md) ✓
 - **Blocks:** [sase-b0.4](sase-b0.4.md) ✓
 - **Blocks:** [sase-b0.5](sase-b0.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.2/README.md) | [sase-b0.2](sase-b0.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`2edfc8b`](https://github.com/sase-org/sase/commit/2edfc8b7071b29aa44e8d58338184c1887c53ffe) | feat(ace): add artifact files list browsing | [sase-b0.2](sase-b0.2.md) | 2026-07-30 00:31:36 |

@@ -20,11 +20,12 @@ doctor: make the health check actually check plan links, add an opt-in repair th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.5/README.md) | [sase-9z.5](sase-9z.5.md) | 1 |
+| [bbugyi200.athena.sase-9z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.5/README.md) | [sase-9z.5](sase-9z.5.md) | 2 |
 | [bbugyi200.athena.sase-9z.5--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9z.5.md#member-code) | [sase-9z.5](sase-9z.5.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b5c37cc`](https://github.com/sase-org/sase-core/commit/b5c37cc7404bcbc9a95868dad61e576a1151bc70) | feat(beads): validate doctor plan references (sase-9z.5) | [sase-9z.5](sase-9z.5.md) | 2026-07-27 15:16:21 |
 | [`7ac5b91`](https://github.com/sase-org/sase/commit/7ac5b917c08ebe10f847caacdcabf2a2fcc401a6) | feat(beads): repair legacy design references (sase-9z.5) | [sase-9z.5](sase-9z.5.md) | 2026-07-27 15:18:08 |

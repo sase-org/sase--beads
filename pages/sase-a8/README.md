@@ -15,7 +15,7 @@ Every SASE-managed project stores bead state in its own auto-cloned `<project>--
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-a8.1](sase-a8.1.md) | Rust core bead-store path recognition | ✓ closed | small | 0 | 0 |
+| [sase-a8.1](sase-a8.1.md) | Rust core bead-store path recognition | ✓ closed | small | 1 | 1 |
 | [sase-a8.10](sase-a8.10.md) | Migrate the enabled projects | ✓ closed | small | 1 | 0 |
 | [sase-a8.2](sase-a8.2.md) | Beads sidecar README and infographic | ✓ closed | medium | 1 | 1 |
 | [sase-a8.3](sase-a8.3.md) | Schema v3 store record and beads kind resolution | ✓ closed | medium | 1 | 1 |
@@ -73,6 +73,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-a8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a8.1/README.md) | [sase-a8.1](sase-a8.1.md) | 1 |
 | [bbugyi200.athena.sase-a8.10--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-a8.10.md#member-1) | [sase-a8.10](sase-a8.10.md) | 0 |
 | [bbugyi200.athena.sase-a8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a8.2/README.md) | [sase-a8.2](sase-a8.2.md) | 1 |
 | [bbugyi200.athena.sase-a8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a8.3/README.md) | [sase-a8.3](sase-a8.3.md) | 1 |
@@ -87,6 +88,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@2b1f323`](https://github.com/sase-org/sase-core/commit/2b1f323c94ef5be08331064e4acb2e607a657905) | feat(bead): recognize the beads sidecar root in path heuristics (sase-a8.1) | [sase-a8.1](sase-a8.1.md) | 2026-07-27 20:04:03 |
 | [`f9bd6ad`](https://github.com/sase-org/sase/commit/f9bd6ad226fba1067e1abfd6ae885e3ad312c371) | feat(sdd): support split beads sidecar records (sase-a8.3) | [sase-a8.3](sase-a8.3.md) | 2026-07-27 20:16:40 |
 | [`fde7e62`](https://github.com/sase-org/sase/commit/fde7e62a15f934b3824264848cc068af7f81f88a) | feat(sdd): add beads sidecar guide bundle (sase-a8.2) | [sase-a8.2](sase-a8.2.md) | 2026-07-27 20:37:36 |
 | [`c113156`](https://github.com/sase-org/sase/commit/c113156466bd746064212cfe48e80fc74073ffe3) | feat: register beads as a managed sidecar (sase-a8.4) | [sase-a8.4](sase-a8.4.md) | 2026-07-27 20:43:42 |

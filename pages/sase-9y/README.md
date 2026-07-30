@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-9y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9y.1/README.md) | [sase-9y.1](sase-9y.1.md) | 1 |
 | [bbugyi200.athena.sase-9y.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9y.2/README.md) | [sase-9y.2](sase-9y.2.md) | 1 |
 | [bbugyi200.athena.sase-9y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9y.3/README.md) | [sase-9y.3](sase-9y.3.md) | 1 |
-| [bbugyi200.athena.sase-9y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9y.land/README.md) | [sase-9y](README.md) | 1 |
+| [bbugyi200.athena.sase-9y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9y.land/README.md) | [sase-9y](README.md) | 2 |
 | [bbugyi200.athena.sase-9y.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9y.land.md#member-code) | [sase-9y](README.md) | 0 |
 
 ## Commits
@@ -56,3 +56,4 @@ flowchart TD
 | [`a0636fc`](https://github.com/sase-org/sase/commit/a0636fcbbaf268c80434ef429b0caba6ccd19281) | fix: make visual convergence robust under CPU contention (sase-9y.2) | [sase-9y.2](sase-9y.2.md) | 2026-07-27 12:39:57 |
 | [`57e3acb`](https://github.com/sase-org/sase/commit/57e3acb3a9ebf7fc777c1db799f09facbce5fd07) | test: harden ACE PNG snapshot convergence (sase-9y.3) | [sase-9y.3](sase-9y.3.md) | 2026-07-27 14:12:37 |
 | [`a947469`](https://github.com/sase-org/sase/commit/a947469eece2988bdfff48bd6ee40b5a9701172f) | docs: record final visual contention baseline (sase-9y) | [sase-9y](README.md) | 2026-07-27 16:24:46 |
+| [`sase--plans@1a6acd3`](https://github.com/sase-org/sase--plans/commit/1a6acd3e83aec05cfed715e3918182c1eeebcc74) | docs: mark CI stabilization epic complete (sase-9y) | [sase-9y](README.md) | 2026-07-27 16:29:20 |

@@ -66,6 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-86.4--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-86.4.md#member-code) | [sase-86.4](sase-86.4.md) | 0 |
 | [bbugyi200.athena.sase-86.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-86.5/README.md) | [sase-86.5](sase-86.5.md) | 1 |
 | [bbugyi200.athena.sase-86.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-86.6/README.md) | [sase-86.6](sase-86.6.md) | 1 |
+| [bbugyi200.athena.sase-86.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-86.land/README.md) | [sase-86](README.md) | 1 |
 
 ## Commits
 
@@ -77,3 +78,4 @@ flowchart TD
 | [`8e544a3`](https://github.com/sase-org/sase/commit/8e544a398f7f733dfe92245b1941aee7813e499e) | perf(tests): distribute parallel tests with work stealing (sase-86.4) | [sase-86.4](sase-86.4.md) | 2026-07-20 17:02:45 |
 | [`a0a09b2`](https://github.com/sase-org/sase/commit/a0a09b22a176d4449acbead9b7b6051efc9c8f81) | perf(test): reduce top-offender suite runtime (sase-86.3) | [sase-86.3](sase-86.3.md) | 2026-07-20 17:20:55 |
 | [`9f4b529`](https://github.com/sase-org/sase/commit/9f4b529fbb9c2ea63d461c3823ceff9d1db16034) | fix: harden suite verification under load (sase-86.6) | [sase-86.6](sase-86.6.md) | 2026-07-20 18:30:19 |
+| [`sase--plans@7309db0`](https://github.com/sase-org/sase--plans/commit/7309db090fb79dafd8e8015dcdd3d4cd03ba08dc) | chore(plans): mark fast\_test\_suite plan done (sase-86) | [sase-86](README.md) | 2026-07-20 18:40:09 |

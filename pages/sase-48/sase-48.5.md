@@ -20,10 +20,11 @@ COMMIT: ca873b44d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-48.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-48.5/README.md) | [sase-48.5](sase-48.5.md) | 1 |
+| [bbugyi200.athena.sase-48.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-48.5/README.md) | [sase-48.5](sase-48.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@a45f14d`](https://github.com/sase-org/sase-core/commit/a45f14d0f8f377e2e2ea0ee782ca29a276b6cd8b) | fix: allow signed episode importance factors (sase-48.5) | [sase-48.5](sase-48.5.md) | 2026-05-28 22:59:47 |
 | [`b9661ef`](https://github.com/sase-org/sase/commit/b9661efc4cc7623f017d1f5d911ac87bfb9646f4) | feat: add split episode build and inventory CLI (sase-48.5) | [sase-48.5](sase-48.5.md) | 2026-05-28 23:00:54 |

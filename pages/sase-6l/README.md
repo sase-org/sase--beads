@@ -46,6 +46,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-6l](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6l/README.md) | [sase-6l](README.md) | 1 |
 | [bbugyi200.athena.sase-6l.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6l.1/README.md) | [sase-6l.1](sase-6l.1.md) | 1 |
 | [bbugyi200.athena.sase-6l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6l.2/README.md) | [sase-6l.2](sase-6l.2.md) | 1 |
 | [bbugyi200.athena.sase-6l.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6l.3/README.md) | [sase-6l.3](sase-6l.3.md) | 1 |
@@ -59,3 +60,4 @@ flowchart TD
 | [`f8a8922`](https://github.com/sase-org/sase/commit/f8a892234fa7192492c9c7b3bf1247f49950ed3f) | feat(llm): support execution provider overrides (sase-6l.2) | [sase-6l.2](sase-6l.2.md) | 2026-07-17 16:21:15 |
 | [`7a65aeb`](https://github.com/sase-org/sase/commit/7a65aeb8cc171d83a92766fb8185752f455901e8) | fix(demos): preserve truecolor in generated media (sase-6l.1) | [sase-6l.1](sase-6l.1.md) | 2026-07-17 17:36:58 |
 | [`ed23598`](https://github.com/sase-org/sase/commit/ed235980f058eabe99970b62777a4aec887e3c55) | feat(demos): showcase live multi-model fan-out (sase-6l.4) | [sase-6l.4](sase-6l.4.md) | 2026-07-17 19:04:35 |
+| [`sase--plans@d1b6bb6`](https://github.com/sase-org/sase--plans/commit/d1b6bb620a8d958056e2d5edca492e067095efa3) | docs: mark README demo GIF overhaul plan done (sase-6l) | [sase-6l](README.md) | 2026-07-17 19:20:50 |

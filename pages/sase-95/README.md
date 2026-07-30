@@ -15,7 +15,7 @@ Every SASE background task is durably recorded, listable and inspectable from th
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-95.1](sase-95.1.md) | Rust task store and bindings | ✓ closed | medium | 0 | 0 |
+| [sase-95.1](sase-95.1.md) | Rust task store and bindings | ✓ closed | medium | 1 | 1 |
 | [sase-95.2](sase-95.2.md) | SASE session registry and display identity | ✓ closed | small | 1 | 1 |
 | [sase-95.3](sase-95.3.md) | Python task facade, ids, logs, and the history limit | ✓ closed | medium | 1 | 1 |
 | [sase-95.4](sase-95.4.md) | Detached task supervisor and submit API | ✓ closed | medium | 1 | 1 |
@@ -61,6 +61,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-95.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-95.1/README.md) | [sase-95.1](sase-95.1.md) | 1 |
 | [bbugyi200.athena.sase-95.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-95.2/README.md) | [sase-95.2](sase-95.2.md) | 1 |
 | [bbugyi200.athena.sase-95.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-95.3/README.md) | [sase-95.3](sase-95.3.md) | 1 |
 | [bbugyi200.athena.sase-95.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-95.4/README.md) | [sase-95.4](sase-95.4.md) | 1 |
@@ -72,6 +73,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`9ebae15`](https://github.com/sase-org/sase/commit/9ebae1577d22b0155eb4cc95521d50e852e5d2f6) | feat(sessions): add session registry and display identity (sase-95.2) | [sase-95.2](sase-95.2.md) | 2026-07-25 13:06:03 |
+| [`sase-core@240d93c`](https://github.com/sase-org/sase-core/commit/240d93c82f948926b0a43fe304952d253802e093) | feat(tasks): add durable background task store (sase-95.1) | [sase-95.1](sase-95.1.md) | 2026-07-25 13:15:00 |
 | [`b262933`](https://github.com/sase-org/sase/commit/b26293395587b056bf4cf340a8038a4e4e968b30) | feat(tasks): add durable task store facade (sase-95.3) | [sase-95.3](sase-95.3.md) | 2026-07-25 14:14:58 |
 | [`13598dc`](https://github.com/sase-org/sase/commit/13598dc3d14bd28b004406794b8a99df3f8b21fe) | feat(tasks): add detached task supervision (sase-95.4) | [sase-95.4](sase-95.4.md) | 2026-07-25 15:02:57 |
 | [`441882d`](https://github.com/sase-org/sase/commit/441882db9949c7f057bd7e68a2be0aaeffc986bd) | feat(beads): route approved epic launch through the task runner (sase-95.7) | [sase-95.7](sase-95.7.md) | 2026-07-25 15:27:04 |

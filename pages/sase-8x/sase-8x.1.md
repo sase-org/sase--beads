@@ -18,3 +18,15 @@ COMMIT: 194d408
 ## Dependencies
 
 - **Blocks:** [sase-8x.2](sase-8x.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-8x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8x.1/README.md) | [sase-8x.1](sase-8x.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@194d408`](https://github.com/sase-org/sase-core/commit/194d408d7f6a3078f6a91e1101f727ae15604b74) | feat(beads): add atomic batch removal (sase-8x.1) | [sase-8x.1](sase-8x.1.md) | 2026-07-24 18:42:49 |

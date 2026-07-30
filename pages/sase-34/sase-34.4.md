@@ -15,3 +15,9 @@ COMMIT: 6e630b71
 
 - **Depends on:** [sase-34.3](sase-34.3.md) ✓
 - **Blocks:** [sase-34.5](sase-34.5.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@9861b34`](https://github.com/sase-org/sase-core/commit/9861b342d842ef757ab9d4a1b8aee1f61e8c2f07) | ref: remove config workflow support from Rust xprompt catalog (sase-34.4) | [sase-34.4](sase-34.4.md) | 2026-05-12 17:10:07 |

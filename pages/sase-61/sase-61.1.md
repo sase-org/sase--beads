@@ -18,3 +18,15 @@ COMMIT: 717300e
 ## Dependencies
 
 - **Blocks:** [sase-61.2](sase-61.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-61.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-61.1/README.md) | [sase-61.1](sase-61.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@717300e`](https://github.com/sase-org/sase-core/commit/717300ef9fc314969259fa2975c34d77e79772e3) | feat(plan): add strict frontmatter validation (sase-61.1) | [sase-61.1](sase-61.1.md) | 2026-07-14 17:03:41 |

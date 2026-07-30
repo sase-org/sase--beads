@@ -21,10 +21,11 @@ COMMIT: e7968461a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5g.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5g.9/README.md) | [sase-5g.9](sase-5g.9.md) | 1 |
+| [bbugyi200.athena.sase-5g.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5g.9/README.md) | [sase-5g.9](sase-5g.9.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@343f55e`](https://github.com/sase-org/sase-core/commit/343f55e7ca34425aa58e104ef59343f77de4c585) | feat(agent-scan): carry custom role metadata (sase-5g.9) | [sase-5g.9](sase-5g.9.md) | 2026-07-06 11:43:35 |
 | [`5eb4508`](https://github.com/sase-org/sase/commit/5eb450842dd30b31777259c202e4b722e83e2339) | feat(agent-family): display custom role status labels (sase-5g.9) | [sase-5g.9](sase-5g.9.md) | 2026-07-06 11:51:25 |

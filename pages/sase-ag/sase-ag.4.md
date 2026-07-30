@@ -26,10 +26,11 @@ write-points: seed PROMPT and PARENT when a plan is proposed and committed, stop
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ag.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.4/README.md) | [sase-ag.4](sase-ag.4.md) | 1 |
+| [bbugyi200.athena.sase-ag.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.4/README.md) | [sase-ag.4](sase-ag.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@22fb5ba`](https://github.com/sase-org/sase-core/commit/22fb5bad2fb11d7e7f49abb4250e151d744ff20d) | fix(plan): ignore fenced header examples (sase-ag.4) | [sase-ag.4](sase-ag.4.md) | 2026-07-28 15:35:30 |
 | [`9701511`](https://github.com/sase-org/sase/commit/97015111b388e663506d996a2d9c6a7511af0eda) | feat(sdd)!: write plan provenance headers (sase-ag.4) | [sase-ag.4](sase-ag.4.md) | 2026-07-28 15:36:40 |

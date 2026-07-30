@@ -18,3 +18,15 @@ Implemented rust_wire in sase-core: additive NotificationWire/mobile icon suppor
 ## Dependencies
 
 - **Blocks:** [sase-6i.2](sase-6i.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-6i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6i.1/README.md) | [sase-6i.1](sase-6i.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@16146b3`](https://github.com/sase-org/sase-core/commit/16146b3f1c99db4b4abdee9d3d8081b62b71810e) | feat(notifications): add custom gate wire support (sase-6i.1) | [sase-6i.1](sase-6i.1.md) | 2026-07-17 03:27:01 |

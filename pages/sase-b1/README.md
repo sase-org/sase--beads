@@ -19,12 +19,12 @@ Every agent launched by an xprompt swarm records that swarm at its launch bounda
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b1.1](sase-b1.1.md) | Carry the swarm chain on expansion records | ✓ closed | small | 0 | 0 |
-| [sase-b1.2](sase-b1.2.md) | Thread provenance to the spawn point | ✓ closed | medium | 0 | 0 |
-| [sase-b1.3](sase-b1.3.md) | Teach the Rust scanner the swarm kind | ✓ closed | small | 0 | 0 |
-| [sase-b1.4](sase-b1.4.md) | Write the swarm into launch-boundary metadata | ✓ closed | medium | 0 | 0 |
-| [sase-b1.5](sase-b1.5.md) | Render the swarm kind everywhere kinds are rendered | ✓ closed | small | 0 | 0 |
-| [sase-b1.6](sase-b1.6.md) | Floor bump, docs, snapshots, full check | ✓ closed | small | 1 | 1 |
+| [sase-b1.1](sase-b1.1.md) | Carry the swarm chain on expansion records | ✓ closed | small | 1 | 1 |
+| [sase-b1.2](sase-b1.2.md) | Thread provenance to the spawn point | ✓ closed | medium | 1 | 1 |
+| [sase-b1.3](sase-b1.3.md) | Teach the Rust scanner the swarm kind | ✓ closed | small | 1 | 1 |
+| [sase-b1.4](sase-b1.4.md) | Write the swarm into launch-boundary metadata | ✓ closed | medium | 1 | 1 |
+| [sase-b1.5](sase-b1.5.md) | Render the swarm kind everywhere kinds are rendered | ✓ closed | small | 1 | 1 |
+| [sase-b1.6](sase-b1.6.md) | Floor bump, docs, snapshots, full check | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -54,12 +54,24 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b1.6 | [sase-b1.6](sase-b1.6.md) | 1 |
-| bbugyi200.athena.sase-b1.land | [sase-b1](README.md) | 1 |
+| [bbugyi200.athena.sase-b1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.1/README.md) | [sase-b1.1](sase-b1.1.md) | 1 |
+| [bbugyi200.athena.sase-b1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.2/README.md) | [sase-b1.2](sase-b1.2.md) | 1 |
+| [bbugyi200.athena.sase-b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.3/README.md) | [sase-b1.3](sase-b1.3.md) | 1 |
+| [bbugyi200.athena.sase-b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.4/README.md) | [sase-b1.4](sase-b1.4.md) | 1 |
+| [bbugyi200.athena.sase-b1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.5/README.md) | [sase-b1.5](sase-b1.5.md) | 1 |
+| [bbugyi200.athena.sase-b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.6/README.md) | [sase-b1.6](sase-b1.6.md) | 2 |
+| [bbugyi200.athena.sase-b1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.land/README.md) | [sase-b1](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`605f113`](https://github.com/sase-org/sase--plans/commit/605f11382296a5879b404efcb313b5339a4574f5) | fix: add missing PROMPT links to three plans | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:55:28 |
-| [`2845e96`](https://github.com/sase-org/sase--plans/commit/2845e96f90da3c86d60394cfa9deda935e47f26f) | docs(plans): mark the xprompt swarm stats plan done | [sase-b1](README.md) | 2026-07-30 03:23:05 |
+| [`sase-core@009036d`](https://github.com/sase-org/sase-core/commit/009036d3298873f093ab96e2a05716a5540f31d1) | feat(agent-scan): preserve swarm xprompt kind | [sase-b1.3](sase-b1.3.md) | 2026-07-30 01:18:06 |
+| [`3054ea5`](https://github.com/sase-org/sase/commit/3054ea56f2fbaa4709c02bfad2124c7636552c46) | feat: track xprompt swarm provenance on expansion records | [sase-b1.1](sase-b1.1.md) | 2026-07-30 01:25:22 |
+| [`0683114`](https://github.com/sase-org/sase/commit/068311411b65de0931d755cdfc88e66114a918b3) | feat(agent): carry swarm provenance through launches | [sase-b1.2](sase-b1.2.md) | 2026-07-30 01:57:40 |
+| [`01f9912`](https://github.com/sase-org/sase/commit/01f9912ce6ef3042d2761de1d40aba7d602c29b4) | feat(xprompts): capture swarm launch provenance | [sase-b1.4](sase-b1.4.md) | 2026-07-30 02:14:48 |
+| [`e62f9a6`](https://github.com/sase-org/sase/commit/e62f9a6ee5bbe1072e517ca3adae4265e8479033) | feat(tui): render the swarm xprompt kind | [sase-b1.5](sase-b1.5.md) | 2026-07-30 02:38:07 |
+| [`6e35387`](https://github.com/sase-org/sase/commit/6e35387e2ba5564c134ccc7ce1b84c5cd5957850) | feat(xprompts): require sase-core-rs with the swarm xprompt kind | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:53:56 |
+| [`sase--plans@605f113`](https://github.com/sase-org/sase--plans/commit/605f11382296a5879b404efcb313b5339a4574f5) | fix: add missing PROMPT links to three plans | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:55:28 |
+| [`9e5657b`](https://github.com/sase-org/sase/commit/9e5657bf465f0bf4fd8871c337fd492f879d5112) | refactor(ace): share one kind-label map across the XPrompts views | [sase-b1](README.md) | 2026-07-30 03:21:52 |
+| [`sase--plans@2845e96`](https://github.com/sase-org/sase--plans/commit/2845e96f90da3c86d60394cfa9deda935e47f26f) | docs(plans): mark the xprompt swarm stats plan done | [sase-b1](README.md) | 2026-07-30 03:23:05 |

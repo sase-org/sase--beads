@@ -16,3 +16,15 @@ COMMIT: 3e6246e70
 ## Dependencies
 
 - **Blocks:** [sase-4x.2](sase-4x.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4x.1/README.md) | [sase-4x.1](sase-4x.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@d50957a`](https://github.com/sase-org/sase-core/commit/d50957a2d71a72e4d37ef28ffabe4c6fe895b1f7) | feat(plan): add core plan model + discovery read layer (sase-4x.1) | [sase-4x.1](sase-4x.1.md) | 2026-06-19 02:01:26 |

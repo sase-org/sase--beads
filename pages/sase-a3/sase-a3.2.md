@@ -19,10 +19,11 @@ remove: add the `dependency_removed` event, its replay rules, and the `remove_de
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-a3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a3.2/README.md) | [sase-a3.2](sase-a3.2.md) | 1 |
+| [bbugyi200.athena.sase-a3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a3.2/README.md) | [sase-a3.2](sase-a3.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@d366547`](https://github.com/sase-org/sase-core/commit/d3665473b8df35d705dd5cc6f41a5934f1ff8536) | feat(bead): record dependency removals (sase-a3.2) | [sase-a3.2](sase-a3.2.md) | 2026-07-27 18:37:22 |
 | [`786b672`](https://github.com/sase-org/sase/commit/786b6720e72cb520408b6e93e425406cbb092bda) | feat(bead): add dependency removal command (sase-a3.2) | [sase-a3.2](sase-a3.2.md) | 2026-07-27 18:41:46 |

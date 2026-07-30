@@ -19,10 +19,11 @@ COMMIT: 9d077b85e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-7h.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7h.1/README.md) | [sase-7h.1](sase-7h.1.md) | 1 |
+| [bbugyi200.athena.sase-7h.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7h.1/README.md) | [sase-7h.1](sase-7h.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@1c28bc2`](https://github.com/sase-org/sase-core/commit/1c28bc2ee2e6d3789ba3d91bbf74ea058d0b9742) | feat(editor): complete grouped agent references in the LSP (sase-7h.1) | [sase-7h.1](sase-7h.1.md) | 2026-07-19 17:19:35 |
 | [`390a7f1`](https://github.com/sase-org/sase/commit/390a7f1ea528e2650375d8a9805396e1b2623658) | feat(editor): add kind-aware agent catalog entries (sase-7h.1) | [sase-7h.1](sase-7h.1.md) | 2026-07-19 17:20:12 |

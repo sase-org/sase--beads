@@ -19,3 +19,15 @@ docs: update the ACE completion docs, configuration reference, editor reference,
 
 - **Depends on:** [sase-ay.3](sase-ay.3.md) ✓
 - **Depends on:** [sase-ay.7](sase-ay.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ay.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.8/README.md) | [sase-ay.8](sase-ay.8.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`9d8a700`](https://github.com/sase-org/sase/commit/9d8a70048e5aabeb5c594d1d50e28ba7f36fb84e) | docs: document grouped at-reference completion | [sase-ay.8](sase-ay.8.md) | 2026-07-30 00:27:14 |

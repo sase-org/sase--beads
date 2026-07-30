@@ -19,7 +19,7 @@ COMMIT: 5abc8eaf
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-8j.1](sase-8j.1.md) | Core runner-occupancy analytics | ✓ closed | medium | 1 | 0 |
+| [sase-8j.1](sase-8j.1.md) | Core runner-occupancy analytics | ✓ closed | medium | 2 | 1 |
 | [sase-8j.2](sase-8j.2.md) | Python statistics model contract | ✓ closed | small | 1 | 1 |
 | [sase-8j.3](sase-8j.3.md) | Runners Statistics experience | ✓ closed | medium | 2 | 1 |
 | [sase-8j.4](sase-8j.4.md) | End-to-end verification and visual acceptance | ✓ closed | small | 0 | 0 |
@@ -46,14 +46,18 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8j.1/README.md) | [sase-8j.1](sase-8j.1.md) | 1 |
 | [bbugyi200.athena.sase-8j.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8j.1.md#member-code) | [sase-8j.1](sase-8j.1.md) | 0 |
 | [bbugyi200.athena.sase-8j.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8j.2/README.md) | [sase-8j.2](sase-8j.2.md) | 1 |
 | [bbugyi200.athena.sase-8j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8j.3/README.md) | [sase-8j.3](sase-8j.3.md) | 1 |
 | [bbugyi200.athena.sase-8j.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8j.3.md#member-code) | [sase-8j.3](sase-8j.3.md) | 0 |
+| [bbugyi200.athena.sase-8j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8j.land/README.md) | [sase-8j](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@e6de07b`](https://github.com/sase-org/sase-core/commit/e6de07b283c6c28004e98bf9edda9c011388a40e) | feat(agent-stats): add runner occupancy analytics (sase-8j.1) | [sase-8j.1](sase-8j.1.md) | 2026-07-21 20:59:55 |
 | [`624adb3`](https://github.com/sase-org/sase/commit/624adb3d843b107513ee4d150d3102abe8a9a9a5) | feat(stats): add Python runner-occupancy view model contract (sase-8j.2) | [sase-8j.2](sase-8j.2.md) | 2026-07-21 21:34:06 |
 | [`6c052e8`](https://github.com/sase-org/sase/commit/6c052e8169789a0b4ffa1fd536cf642c9a9bd88f) | feat(tui): add runner statistics experience (sase-8j.3) | [sase-8j.3](sase-8j.3.md) | 2026-07-21 22:07:24 |
+| [`sase--plans@5abc8ea`](https://github.com/sase-org/sase--plans/commit/5abc8eafeaba2b5f54b2f2b9021f62a5e93801ac) | docs: mark runner statistics plan done (sase-8j) | [sase-8j](README.md) | 2026-07-21 22:31:14 |

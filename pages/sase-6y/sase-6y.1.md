@@ -19,3 +19,15 @@ COMMIT: d17be7b
 
 - **Blocks:** [sase-6y.2](sase-6y.2.md) ✓
 - **Blocks:** [sase-6y.3](sase-6y.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-6y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6y.1/README.md) | [sase-6y.1](sase-6y.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@d17be7b`](https://github.com/sase-org/sase-core/commit/d17be7bbdd9a62769d36d2420c8eb73948c8464b) | feat(agent-stats): add run statistics aggregation (sase-6y.1) | [sase-6y.1](sase-6y.1.md) | 2026-07-18 22:51:12 |

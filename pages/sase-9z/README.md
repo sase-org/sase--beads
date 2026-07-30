@@ -15,11 +15,11 @@ A bead's link to its plan survives machines, workspaces, and SDD layout changes:
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-9z.1](sase-9z.1.md) | Canonical plans reference scheme in the Rust core | ✓ closed | medium | 1 | 1 |
+| [sase-9z.1](sase-9z.1.md) | Canonical plans reference scheme in the Rust core | ✓ closed | medium | 1 | 2 |
 | [sase-9z.2](sase-9z.2.md) | Route every plan-reference resolver through the shared API | ✓ closed | medium | 1 | 1 |
-| [sase-9z.3](sase-9z.3.md) | Persist plans references on new beads | ✓ closed | small | 1 | 1 |
-| [sase-9z.4](sase-9z.4.md) | Show the logical reference and its resolved path | ✓ closed | small | 1 | 1 |
-| [sase-9z.5](sase-9z.5.md) | Validate and repair stored plan links | ✓ closed | large | 2 | 1 |
+| [sase-9z.3](sase-9z.3.md) | Persist plans references on new beads | ✓ closed | small | 1 | 2 |
+| [sase-9z.4](sase-9z.4.md) | Show the logical reference and its resolved path | ✓ closed | small | 1 | 2 |
+| [sase-9z.5](sase-9z.5.md) | Validate and repair stored plan links | ✓ closed | large | 2 | 2 |
 
 ## Lineage
 
@@ -49,21 +49,26 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.1/README.md) | [sase-9z.1](sase-9z.1.md) | 1 |
+| [bbugyi200.athena.sase-9z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.1/README.md) | [sase-9z.1](sase-9z.1.md) | 2 |
 | [bbugyi200.athena.sase-9z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.2/README.md) | [sase-9z.2](sase-9z.2.md) | 1 |
-| [bbugyi200.athena.sase-9z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.3/README.md) | [sase-9z.3](sase-9z.3.md) | 1 |
-| [bbugyi200.athena.sase-9z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.4/README.md) | [sase-9z.4](sase-9z.4.md) | 1 |
-| [bbugyi200.athena.sase-9z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.5/README.md) | [sase-9z.5](sase-9z.5.md) | 1 |
+| [bbugyi200.athena.sase-9z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.3/README.md) | [sase-9z.3](sase-9z.3.md) | 2 |
+| [bbugyi200.athena.sase-9z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.4/README.md) | [sase-9z.4](sase-9z.4.md) | 2 |
+| [bbugyi200.athena.sase-9z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.5/README.md) | [sase-9z.5](sase-9z.5.md) | 2 |
 | [bbugyi200.athena.sase-9z.5--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-9z.5.md#member-code) | [sase-9z.5](sase-9z.5.md) | 0 |
-| [bbugyi200.athena.sase-9z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.land/README.md) | [sase-9z](README.md) | 1 |
+| [bbugyi200.athena.sase-9z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.land/README.md) | [sase-9z](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@1136e72`](https://github.com/sase-org/sase-core/commit/1136e7288cc3d40929201127bb12c7e5853001bd) | feat(plan): add durable plan reference contract (sase-9z.1) | [sase-9z.1](sase-9z.1.md) | 2026-07-27 13:16:46 |
 | [`6065356`](https://github.com/sase-org/sase/commit/6065356e7beacd1dfd452b081ad093a0894afe99) | feat(sdd): add shared plan reference facade (sase-9z.1) | [sase-9z.1](sase-9z.1.md) | 2026-07-27 13:17:41 |
 | [`f593eca`](https://github.com/sase-org/sase/commit/f593eca04f2279b35c41e05472e21a3ca5cf3224) | feat: unify plan reference resolution across readers (sase-9z.2) | [sase-9z.2](sase-9z.2.md) | 2026-07-27 13:54:47 |
 | [`b3a4bc2`](https://github.com/sase-org/sase/commit/b3a4bc282b0fd04bc849797b00dd0d8570282cef) | fix(bead): persist canonical plan references (sase-9z.3) | [sase-9z.3](sase-9z.3.md) | 2026-07-27 14:15:15 |
+| [`sase-core@96f8bc4`](https://github.com/sase-org/sase-core/commit/96f8bc411d5d1c500daa07a69d7f012afa053999) | fix(bead): canonicalize created plan design refs (sase-9z.3) | [sase-9z.3](sase-9z.3.md) | 2026-07-27 14:16:05 |
+| [`sase-core@b5c37cc`](https://github.com/sase-org/sase-core/commit/b5c37cc7404bcbc9a95868dad61e576a1151bc70) | feat(beads): validate doctor plan references (sase-9z.5) | [sase-9z.5](sase-9z.5.md) | 2026-07-27 15:16:21 |
 | [`7ac5b91`](https://github.com/sase-org/sase/commit/7ac5b917c08ebe10f847caacdcabf2a2fcc401a6) | feat(beads): repair legacy design references (sase-9z.5) | [sase-9z.5](sase-9z.5.md) | 2026-07-27 15:18:08 |
+| [`sase-core@b230538`](https://github.com/sase-org/sase-core/commit/b2305382a657750efaf2fe308181f2325eb9c729) | feat(bead): show plan references alongside where they resolve (sase-9z.4) | [sase-9z.4](sase-9z.4.md) | 2026-07-27 15:52:40 |
 | [`881636a`](https://github.com/sase-org/sase/commit/881636a745de9f88d43cbfcec868f6a537e9f0a2) | feat(sdd): surface plan references and where they resolve (sase-9z.4) | [sase-9z.4](sase-9z.4.md) | 2026-07-27 16:03:49 |
+| [`sase--plans@2ed330d`](https://github.com/sase-org/sase--plans/commit/2ed330d3bd8726518f3623c731ebb25e691e8566) | docs: mark durable plan references plan done (sase-9z) | [sase-9z](README.md) | 2026-07-27 16:24:27 |
 | [`f90108a`](https://github.com/sase-org/sase/commit/f90108a46beb4305672921509275ed43337bc692) | chore(sdd): land sase-9z epic cleanup and sase-core-rs 0.11.3 floor (sase-9z) | [sase-9z](README.md) | 2026-07-27 16:27:40 |

@@ -18,3 +18,15 @@ delivery: add a unified copy-delivery module that pairs Textual's OSC 52 write w
 ## Dependencies
 
 - **Blocks:** [sase-az.2](sase-az.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-az.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.1/README.md) | [sase-az.1](sase-az.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`77ec879`](https://github.com/sase-org/sase/commit/77ec8798e0c6f435e3b32a4f24e161ce268fb81f) | feat(ace): unify clipboard delivery | [sase-az.1](sase-az.1.md) | 2026-07-29 23:50:42 |

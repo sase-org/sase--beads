@@ -19,7 +19,7 @@ COMMITS: sase 87e7a3a38; sase-core 298eb75
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-88.1](sase-88.1.md) | Accept bead and parent plan frontmatter in sase-core | ✓ closed | small | 0 | 0 |
+| [sase-88.1](sase-88.1.md) | Accept bead and parent plan frontmatter in sase-core | ✓ closed | small | 1 | 1 |
 | [sase-88.2](sase-88.2.md) | Stamp bead and parent at sase plan propose | ✓ closed | small | 1 | 1 |
 
 ## Lineage
@@ -38,10 +38,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-88.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-88.1/README.md) | [sase-88.1](sase-88.1.md) | 1 |
 | [bbugyi200.athena.sase-88.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-88.2/README.md) | [sase-88.2](sase-88.2.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@298eb75`](https://github.com/sase-org/sase-core/commit/298eb750d5995341088b528e729808380f162ce2) | feat(plan): expose managed bead links (sase-88.1) | [sase-88.1](sase-88.1.md) | 2026-07-20 15:52:37 |
 | [`87e7a3a`](https://github.com/sase-org/sase/commit/87e7a3a388a1e6205906293866d219267e202923) | feat(plans): stamp bead associations during proposal (sase-88.2) | [sase-88.2](sase-88.2.md) | 2026-07-20 16:08:37 |

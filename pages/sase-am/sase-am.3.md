@@ -21,3 +21,15 @@ lane-consolidation: merge the three perf-floor jobs into one, delete the redunda
 
 - **Depends on:** [sase-am.2](sase-am.2.md) ✓
 - **Blocks:** [sase-am.4](sase-am.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-am.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.3/README.md) | [sase-am.3](sase-am.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`29ca9ac`](https://github.com/sase-org/sase/commit/29ca9ac511433323f872213603b1ead19db565c3) | ci: consolidate workflow lanes | [sase-am.3](sase-am.3.md) | 2026-07-28 23:04:01 |

@@ -24,10 +24,11 @@ reconcile: add sase plan links refresh for bulk, idempotent header reconciliatio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ag.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.5/README.md) | [sase-ag.5](sase-ag.5.md) | 1 |
+| [bbugyi200.athena.sase-ag.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ag.5/README.md) | [sase-ag.5](sase-ag.5.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@4d70c1c`](https://github.com/sase-org/sase-core/commit/4d70c1c8bfe9de52588e23f4b214a71c1b67a5cc) | feat(plan): support canonical parent header migration (sase-ag.5) | [sase-ag.5](sase-ag.5.md) | 2026-07-28 16:25:47 |
 | [`ca29de3`](https://github.com/sase-org/sase/commit/ca29de3befeea34321826e749ffc1e689a8a8b5e) | feat(plan): add bulk provenance link refresh (sase-ag.5) | [sase-ag.5](sase-ag.5.md) | 2026-07-28 16:26:46 |

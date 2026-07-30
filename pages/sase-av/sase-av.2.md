@@ -25,3 +25,15 @@ ref-facade: add the Python facade that builds per-project resolution context (do
 - **Blocks:** [sase-av.5](sase-av.5.md) ✓
 - **Blocks:** [sase-av.6](sase-av.6.md) ✓
 - **Blocks:** [sase-av.7](sase-av.7.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.2/README.md) | [sase-av.2](sase-av.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`9988b61`](https://github.com/sase-org/sase/commit/9988b6161c9b47b3a657b49981fb11b1bf3e0c98) | feat(artifacts): add artifact reference facade | [sase-av.2](sase-av.2.md) | 2026-07-29 17:52:13 |

@@ -19,8 +19,8 @@ COMMIT: 6b7f40b8
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-8y.1](sase-8y.1.md) | Rust core claimed status value | ✓ closed | medium | 0 | 0 |
-| [sase-8y.2](sase-8y.2.md) | Rust core claim and release mutations | ✓ closed | medium | 0 | 0 |
+| [sase-8y.1](sase-8y.1.md) | Rust core claimed status value | ✓ closed | medium | 1 | 1 |
+| [sase-8y.2](sase-8y.2.md) | Rust core claim and release mutations | ✓ closed | medium | 1 | 1 |
 | [sase-8y.3](sase-8y.3.md) | Python status model and presentation | ✓ closed | medium | 1 | 1 |
 | [sase-8y.4](sase-8y.4.md) | Runner claim lifecycle | ✓ closed | medium | 1 | 1 |
 | [sase-8y.5](sase-8y.5.md) | Stale claim reconciler and doctor check | ✓ closed | medium | 1 | 1 |
@@ -61,21 +61,27 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.1/README.md) | [sase-8y.1](sase-8y.1.md) | 1 |
+| [bbugyi200.athena.sase-8y.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.2/README.md) | [sase-8y.2](sase-8y.2.md) | 1 |
 | [bbugyi200.athena.sase-8y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.3/README.md) | [sase-8y.3](sase-8y.3.md) | 1 |
 | [bbugyi200.athena.sase-8y.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.4/README.md) | [sase-8y.4](sase-8y.4.md) | 1 |
 | [bbugyi200.athena.sase-8y.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.5/README.md) | [sase-8y.5](sase-8y.5.md) | 1 |
 | [bbugyi200.athena.sase-8y.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.6/README.md) | [sase-8y.6](sase-8y.6.md) | 1 |
 | [bbugyi200.athena.sase-8y.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.7/README.md) | [sase-8y.7](sase-8y.7.md) | 1 |
-| [bbugyi200.athena.sase-8y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.land/README.md) | [sase-8y](README.md) | 1 |
+| [bbugyi200.athena.sase-8y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.land/README.md) | [sase-8y](README.md) | 3 |
 | [bbugyi200.athena.sase-8y.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8y.land.md#member-code) | [sase-8y](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@6dc2a99`](https://github.com/sase-org/sase-core/commit/6dc2a990b8330dec9985155228157ac38a144894) | feat(bead): add claimed status wire support (sase-8y.1) | [sase-8y.1](sase-8y.1.md) | 2026-07-24 20:28:56 |
+| [`sase-core@793234e`](https://github.com/sase-org/sase-core/commit/793234e76fe6784cd13c78ad9ebd6a2a98729b6a) | feat(bead): add agent wait claim mutations (sase-8y.2) | [sase-8y.2](sase-8y.2.md) | 2026-07-24 20:38:33 |
 | [`5ca1756`](https://github.com/sase-org/sase/commit/5ca1756fc685499fa42e8a784ae5c3beb7e5c39e) | feat(beads): add claimed status read-side support (sase-8y.3) | [sase-8y.3](sase-8y.3.md) | 2026-07-24 20:48:00 |
 | [`408b789`](https://github.com/sase-org/sase/commit/408b7894952c7c8504915df22e6f1ac68cae1048) | feat(beads): manage claims across runner lifecycle (sase-8y.4) | [sase-8y.4](sase-8y.4.md) | 2026-07-24 21:13:20 |
 | [`cf1d3aa`](https://github.com/sase-org/sase/commit/cf1d3aa4fc181597d71ddbcb19e9908e1e2928b9) | feat: render claimed bead status in TUI (sase-8y.6) | [sase-8y.6](sase-8y.6.md) | 2026-07-24 21:17:52 |
 | [`bd7ad46`](https://github.com/sase-org/sase/commit/bd7ad46a43a2c894aec15d319ec069a1ae25c451) | feat(beads): reconcile stale pre-launch claims (sase-8y.5) | [sase-8y.5](sase-8y.5.md) | 2026-07-24 21:40:57 |
 | [`3b5937b`](https://github.com/sase-org/sase/commit/3b5937b986bf37520a852eb5954c8fc642d1ea9f) | docs(beads): document the claimed bead status (sase-8y.7) | [sase-8y.7](sase-8y.7.md) | 2026-07-24 22:04:11 |
 | [`d0495f1`](https://github.com/sase-org/sase/commit/d0495f1cba07b4706cc7696a1561d9fa0a0c3343) | fix: finish claimed status landing cleanup (sase-8y) | [sase-8y](README.md) | 2026-07-24 22:58:11 |
+| [`sase-core@ad58ca2`](https://github.com/sase-org/sase-core/commit/ad58ca21a929c3dae4f173ba1bb9ef140872a0f4) | fix(bead): accept claimed status in compatibility schemas (sase-8y) | [sase-8y](README.md) | 2026-07-24 23:04:47 |
+| [`sase--plans@b0cd39b`](https://github.com/sase-org/sase--plans/commit/b0cd39bb3483641acc17022bc4dcde110ce4d169) | docs: mark claimed status epic complete (sase-8y) | [sase-8y](README.md) | 2026-07-24 23:12:12 |

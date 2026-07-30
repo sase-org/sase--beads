@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-6w.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6w.2/README.md) | [sase-6w.2](sase-6w.2.md) | 1 |
 | [bbugyi200.athena.sase-6w.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6w.3/README.md) | [sase-6w.3](sase-6w.3.md) | 1 |
 | [bbugyi200.athena.sase-6w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6w.4/README.md) | [sase-6w.4](sase-6w.4.md) | 1 |
-| [bbugyi200.athena.sase-6w.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6w.land/README.md) | [sase-6w](README.md) | 1 |
+| [bbugyi200.athena.sase-6w.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6w.land/README.md) | [sase-6w](README.md) | 2 |
 | [bbugyi200.athena.sase-6w.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-6w.land.md#member-code) | [sase-6w](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,4 @@ flowchart TD
 | [`3877dce`](https://github.com/sase-org/sase/commit/3877dcedee60955cbef1467f925a4018828d2114) | feat(tui): add numbered member jump navigation (sase-6w.3) | [sase-6w.3](sase-6w.3.md) | 2026-07-18 23:58:14 |
 | [`4283f40`](https://github.com/sase-org/sase/commit/4283f4092d9e77939efc867e452359494fb5843d) | test(tui): cover numbered member roster flows (sase-6w.4) | [sase-6w.4](sase-6w.4.md) | 2026-07-19 00:47:36 |
 | [`8ebf710`](https://github.com/sase-org/sase/commit/8ebf710f4a1a0c13dd23585212c77506eb7881ce) | test: align statistics fixtures and agent snapshots (sase-6w) | [sase-6w](README.md) | 2026-07-19 01:38:14 |
+| [`sase--plans@66ed9d1`](https://github.com/sase-org/sase--plans/commit/66ed9d1dfd4663d37e2273333bd97b2015aae9f5) | docs: mark member roster plan done (sase-6w) | [sase-6w](README.md) | 2026-07-19 01:38:47 |

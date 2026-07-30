@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ae.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ae.2/README.md) | [sase-ae.2](sase-ae.2.md) | 1 |
 | [bbugyi200.athena.sase-ae.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ae.3/README.md) | [sase-ae.3](sase-ae.3.md) | 1 |
 | [bbugyi200.athena.sase-ae.6--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ae.6.md#member-1) | [sase-ae.6](sase-ae.6.md) | 1 |
-| [bbugyi200.athena.sase-ae.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ae.land.md#member-code) | [sase-ae](README.md) | 1 |
+| [bbugyi200.athena.sase-ae.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ae.land.md#member-code) | [sase-ae](README.md) | 2 |
 
 ## Commits
 
@@ -67,3 +67,4 @@ flowchart TD
 | [`105d9d3`](https://github.com/sase-org/sase/commit/105d9d36930f5f6824e49face0fff277e39d4fa9) | fix: serialize skill chezmoi deploys (sase-ae.3) | [sase-ae.3](sase-ae.3.md) | 2026-07-28 13:19:42 |
 | [`53d732f`](https://github.com/sase-org/sase/commit/53d732f30e91839e58eee9047d6e6b5a18cd248f) | docs: document the commit-then-deploy skill workflow (sase-ae.6) | [sase-ae.6](sase-ae.6.md) | 2026-07-28 13:48:41 |
 | [`7d85188`](https://github.com/sase-org/sase/commit/7d85188c18080e4e986e8fd65394144c8ae9ce2f) | test(skills): cover backwards manifest ABA refusal (sase-ae) | [sase-ae](README.md) | 2026-07-28 14:11:00 |
+| [`sase--plans@11eb0f9`](https://github.com/sase-org/sase--plans/commit/11eb0f964fa582db993fe6a5572c754958aa2fe3) | docs(plans): mark skill deployment epic done (sase-ae) | [sase-ae](README.md) | 2026-07-28 14:15:27 |

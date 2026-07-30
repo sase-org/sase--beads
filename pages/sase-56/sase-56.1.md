@@ -22,10 +22,11 @@ COMMIT: fff7ea07d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-56.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-56.1/README.md) | [sase-56.1](sase-56.1.md) | 1 |
+| [bbugyi200.athena.sase-56.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-56.1/README.md) | [sase-56.1](sase-56.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`4b22421`](https://github.com/sase-org/sase/commit/4b224219c1e52b68e163409b91f7b2c16b870361) | feat(directives)!: add %tale directive and repurpose %plan for plan auto-approval (sase-56.1) | [sase-56.1](sase-56.1.md) | 2026-06-23 23:22:07 |
+| [`sase-core@50c6e82`](https://github.com/sase-org/sase-core/commit/50c6e8232e42a2953c9af61b8f20578b2dba984b) | feat(editor)!: add %tale directive and repurpose %plan for plan auto-approval (sase-56.1) | [sase-56.1](sase-56.1.md) | 2026-06-23 23:22:37 |

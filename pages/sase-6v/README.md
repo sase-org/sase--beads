@@ -19,7 +19,7 @@ COMMIT: 5114a69ef
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-6v.1](sase-6v.1.md) | Rust core chop engine and wire types | ✓ closed | small | 1 | 1 |
+| [sase-6v.1](sase-6v.1.md) | Rust core chop engine and wire types | ✓ closed | small | 1 | 2 |
 | [sase-6v.2](sase-6v.2.md) | Script-only chops with full-name resolution | ✓ closed | small | 1 | 1 |
 | [sase-6v.3](sase-6v.3.md) | Structured chop results and runner-executed launches | ✓ closed | small | 0 | 0 |
 | [sase-6v.4](sase-6v.4.md) | Chop SDK and builtin script consolidation | ✓ closed | small | 0 | 0 |
@@ -68,17 +68,20 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.chop.refresh\_docs.sase.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.chop.refresh_docs.sase.1/README.md) | [sase-6v.9](sase-6v.9.md) | 1 |
 | [bbugyi200.athena.chop.refresh\_docs.sase.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.chop.refresh_docs.sase.2/README.md) | [sase-6v.9](sase-6v.9.md) | 1 |
-| [bbugyi200.athena.sase-6v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.1/README.md) | [sase-6v.1](sase-6v.1.md) | 1 |
+| [bbugyi200.athena.sase-6v.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.1/README.md) | [sase-6v.1](sase-6v.1.md) | 2 |
 | [bbugyi200.athena.sase-6v.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.2/README.md) | [sase-6v.2](sase-6v.2.md) | 1 |
-| [bbugyi200.athena.sase-6v.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.land/README.md) | [sase-6v](README.md) | 2 |
+| [bbugyi200.athena.sase-6v.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6v.land/README.md) | [sase-6v](README.md) | 4 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@85bf2a2`](https://github.com/sase-org/sase-core/commit/85bf2a2d53d39ca6eeb9d4d3bd8819eaddad0a61) | feat: add axe chop domain engine (sase-6v.1) | [sase-6v.1](sase-6v.1.md) | 2026-07-18 20:21:05 |
 | [`59a7b71`](https://github.com/sase-org/sase/commit/59a7b717289bed998b56a0ff19f38a2565228f90) | feat: expose axe chop core facade (sase-6v.1) | [sase-6v.1](sase-6v.1.md) | 2026-07-18 20:21:39 |
 | [`8e4002b`](https://github.com/sase-org/sase/commit/8e4002bb4dd62d15bf8bf604c510fc517eeb0b90) | feat(axe)!: make chops script-only (sase-6v.2) | [sase-6v.2](sase-6v.2.md) | 2026-07-18 21:08:56 |
 | [`da61f9a`](https://github.com/sase-org/sase/commit/da61f9ad4922602e57537e71289e6c83396fee6b) | docs: refresh agent grouping and ACE guides (sase-6v.9) | [sase-6v.9](sase-6v.9.md) | 2026-07-19 02:14:09 |
 | [`fe9e8f3`](https://github.com/sase-org/sase/commit/fe9e8f301c46e5f85ac65f5dbaa9b1a3e3e75199) | docs: clarify clan navigation and fork behavior (sase-6v.9) | [sase-6v.9](sase-6v.9.md) | 2026-07-19 02:40:09 |
 | [`de315ca`](https://github.com/sase-org/sase/commit/de315ca0f4263f4cefe50d1d66aa281addc6c9f5) | docs: fix stale chop reference in AXE daemon post (sase-6v) | [sase-6v](README.md) | 2026-07-19 03:02:10 |
+| [`sase--plans@654ea9d`](https://github.com/sase-org/sase--plans/commit/654ea9d1d3abdec0867193446f62c72b7f758754) | chore(plans): mark chops\_redesign plan done (sase-6v) | [sase-6v](README.md) | 2026-07-19 03:09:40 |
+| [`sase--plans@34b8f27`](https://github.com/sase-org/sase--plans/commit/34b8f27afe5e965be68e2f0272a741c88193c1ea) | chore(plans): add bugyi-chops PyPI publication plan (sase-71) (sase-6v) | [sase-6v](README.md) | 2026-07-19 03:10:43 |
 | [`f6dc6d7`](https://github.com/sase-org/sase/commit/f6dc6d7c3469de29bf0acb7baa3b74b1211e7a1d) | refactor: drop unused chop symbols after epic close (sase-6v) | [sase-6v](README.md) | 2026-07-19 03:11:33 |

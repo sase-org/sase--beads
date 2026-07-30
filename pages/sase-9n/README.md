@@ -15,7 +15,7 @@ Agents proposed by the `toobig_split` chop are named `split_file.<full_dotted_mo
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-9n.1](sase-9n.1.md) | Allow one template marker in each of a chop proposal's clan and member | ✓ closed | small | 0 | 0 |
+| [sase-9n.1](sase-9n.1.md) | Allow one template marker in each of a chop proposal's clan and member | ✓ closed | small | 1 | 1 |
 | [sase-9n.2](sase-9n.2.md) | Allocate chop member template tokens inside the concrete clan | ✓ closed | medium | 0 | 1 |
 | [sase-9n.3](sase-9n.3.md) | Emit \`split\_file.\<full\_module\>.@\` member names from the toobig\_split chop | ✓ closed | small | 0 | 0 |
 
@@ -38,11 +38,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9n.land/README.md) | [sase-9n](README.md) | 1 |
+| [bbugyi200.athena.sase-9n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9n.1/README.md) | [sase-9n.1](sase-9n.1.md) | 1 |
+| [bbugyi200.athena.sase-9n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9n.land/README.md) | [sase-9n](README.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@5372a48`](https://github.com/sase-org/sase-core/commit/5372a4877fc970222311f1a3b4a734b85c83208b) | feat(axe\_chop): allow one template marker in each of a chop clan and member (sase-9n.1) | [sase-9n.1](sase-9n.1.md) | 2026-07-25 17:06:22 |
 | [`f15d02d`](https://github.com/sase-org/sase/commit/f15d02d03a81e74931151400b52bcb4eaedf6e7f) | feat: planner-member-tokens (sase-9n.2) | [sase-9n.2](sase-9n.2.md) | 2026-07-25 17:53:51 |
 | [`4b9a5be`](https://github.com/sase-org/sase/commit/4b9a5bec2bf492792020be3fb71ef61a9a48a0a5) | docs: document templated chop member names in the plugin guide (sase-9n) | [sase-9n](README.md) | 2026-07-25 20:14:06 |
+| [`sase--plans@7b8128e`](https://github.com/sase-org/sase--plans/commit/7b8128ee3409d3d4ccfa5b7c5feea063c478298b) | docs: mark the toobig\_split @-names plan done (sase-9n) | [sase-9n](README.md) | 2026-07-25 20:15:13 |

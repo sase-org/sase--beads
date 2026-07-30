@@ -18,3 +18,15 @@ core_wait_runners: add `wait_runners` to `LUMBERJACK_KEYS` in sase-core's AXE va
 ## Dependencies
 
 - **Blocks:** [sase-af.2](sase-af.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-af.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.1/README.md) | [sase-af.1](sase-af.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@717b5b9`](https://github.com/sase-org/sase-core/commit/717b5b924bebe6a9f72cfed6a59e30c5d1f5281c) | feat: validate lumberjack wait runner limits (sase-af.1) | [sase-af.1](sase-af.1.md) | 2026-07-28 13:01:55 |

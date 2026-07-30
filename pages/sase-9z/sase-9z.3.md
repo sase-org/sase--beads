@@ -20,10 +20,11 @@ write: make every writer of a bead's plan link emit the canonical `plans:` form,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.3/README.md) | [sase-9z.3](sase-9z.3.md) | 1 |
+| [bbugyi200.athena.sase-9z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9z.3/README.md) | [sase-9z.3](sase-9z.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`b3a4bc2`](https://github.com/sase-org/sase/commit/b3a4bc282b0fd04bc849797b00dd0d8570282cef) | fix(bead): persist canonical plan references (sase-9z.3) | [sase-9z.3](sase-9z.3.md) | 2026-07-27 14:15:15 |
+| [`sase-core@96f8bc4`](https://github.com/sase-org/sase-core/commit/96f8bc411d5d1c500daa07a69d7f012afa053999) | fix(bead): canonicalize created plan design refs (sase-9z.3) | [sase-9z.3](sase-9z.3.md) | 2026-07-27 14:16:05 |

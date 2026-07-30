@@ -24,10 +24,11 @@ COMMIT: 461decb9f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-4c.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4c.1/README.md) | [sase-4c.1](sase-4c.1.md) | 1 |
+| [bbugyi200.athena.sase-4c.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4c.1/README.md) | [sase-4c.1](sase-4c.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`b9b08c2`](https://github.com/sase-org/sase/commit/b9b08c23e4e38936ccae320bfde1a5da14e80f7d) | feat: expose project aliases in lifecycle facade (sase-4c.1) | [sase-4c.1](sase-4c.1.md) | 2026-06-04 15:03:22 |
+| [`sase-core@21c137e`](https://github.com/sase-org/sase-core/commit/21c137e82b2d38ca3340e44fdcf7b0e8243ecb58) | feat: add ProjectSpec alias contract (sase-4c.1) | [sase-4c.1](sase-4c.1.md) | 2026-06-04 15:04:07 |

@@ -14,3 +14,15 @@ COMMIT: fabedf641
 ## Dependencies
 
 - **Blocks:** [sase-54.2](sase-54.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-54.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-54.1/README.md) | [sase-54.1](sase-54.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@84be071`](https://github.com/sase-org/sase-core/commit/84be071c538e4f540c252b084db2face1e3a0db9) | feat(config): add Rust core config backend (sase-54.1) | [sase-54.1](sase-54.1.md) | 2026-06-23 13:17:49 |

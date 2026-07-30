@@ -25,11 +25,12 @@ COMMIT: 2409ed2e3
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8v.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8v.5/README.md) | [sase-8v.5](sase-8v.5.md) | 1 |
+| [bbugyi200.athena.sase-8v.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8v.5/README.md) | [sase-8v.5](sase-8v.5.md) | 2 |
 | [bbugyi200.athena.sase-8v.5--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8v.5.md#member-code) | [sase-8v.5](sase-8v.5.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@17b36ba`](https://github.com/sase-org/sase-core/commit/17b36baecd8f5b9351c6915d23f432f75af1b0ba) | feat: support transaction-gated imported agent families (sase-8v.5) | [sase-8v.5](sase-8v.5.md) | 2026-07-24 19:51:34 |
 | [`2409ed2`](https://github.com/sase-org/sase/commit/2409ed2e37e454f712f44651534516d04517ef4f) | feat: import agent packages transactionally (sase-8v.5) | [sase-8v.5](sase-8v.5.md) | 2026-07-24 19:54:41 |

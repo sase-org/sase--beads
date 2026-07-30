@@ -25,4 +25,5 @@ COMMIT: 099a96ff
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@849dd9e`](https://github.com/sase-org/sase-core/commit/849dd9e3f51fd0f2fa2982b43febb7d0674ad377) | feat(query): Phase 2B pure-Rust query tokenizer and parser (sase-17.2) | [sase-17.2](sase-17.2.md) | 2026-04-29 07:15:12 |
 | [`91e433a`](https://github.com/sase-org/sase/commit/91e433a9ea90bc2a2d4b0e3e863459aa8fef48ff) | chore: close sase-17.2 (Phase 2B done in sase-core) (sase-17.2) | [sase-17.2](sase-17.2.md) | 2026-04-29 07:17:24 |

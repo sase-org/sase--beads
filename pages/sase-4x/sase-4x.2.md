@@ -15,3 +15,15 @@ COMMIT: 410352eaa
 
 - **Depends on:** [sase-4x.1](sase-4x.1.md) ✓
 - **Blocks:** [sase-4x.3](sase-4x.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4x.2/README.md) | [sase-4x.2](sase-4x.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@1df6c57`](https://github.com/sase-org/sase-core/commit/1df6c5767c44bcff93f06f50352aeb92642b7daf) | feat(plan): add core plan search engine (sase-4x.2) | [sase-4x.2](sase-4x.2.md) | 2026-06-19 02:16:20 |

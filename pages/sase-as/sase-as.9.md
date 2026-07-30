@@ -20,3 +20,15 @@ ace-documents: browse and search documents from every configured document sideca
 ## Dependencies
 
 - **Depends on:** [sase-as.8](sase-as.8.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-as.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-as.9/README.md) | [sase-as.9](sase-as.9.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`880c9c8`](https://github.com/sase-org/sase/commit/880c9c891757ac2c1e3a29e6fc98f3ef2b056c31) | feat(ace): browse all document sidecars | [sase-as.9](sase-as.9.md) | 2026-07-29 15:47:26 |

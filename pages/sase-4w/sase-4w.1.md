@@ -23,3 +23,15 @@ COMMIT: 077f4aa6ca72708073c27190aaf48f2ff7420473 (sase-core)
 
 - **Blocks:** [sase-4w.2](sase-4w.2.md) ✓
 - **Blocks:** [sase-4w.3](sase-4w.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-4w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.1/README.md) | [sase-4w.1](sase-4w.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@077f4aa`](https://github.com/sase-org/sase-core/commit/077f4aa6ca72708073c27190aaf48f2ff7420473) | feat(beads): add core bead search engine (sase-4w.1) | [sase-4w.1](sase-4w.1.md) | 2026-06-18 12:37:38 |

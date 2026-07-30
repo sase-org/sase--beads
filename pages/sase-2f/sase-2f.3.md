@@ -15,3 +15,9 @@ COMMIT: b8ae5b4a
 
 - **Depends on:** [sase-2f.2](sase-2f.2.md) ✓
 - **Blocks:** [sase-2f.4](sase-2f.4.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@9bcf57c`](https://github.com/sase-org/sase-core/commit/9bcf57cf552d5a4121535e159a19bb6e8d6dc3f3) | feat: add LSP snippet completions (sase-2f.3) | [sase-2f.3](sase-2f.3.md) | 2026-05-09 05:25:50 |

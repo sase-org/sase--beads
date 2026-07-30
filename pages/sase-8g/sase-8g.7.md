@@ -19,11 +19,12 @@ COMMIT: f713de03b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8g.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.7/README.md) | [sase-8g.7](sase-8g.7.md) | 1 |
+| [bbugyi200.athena.sase-8g.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.7/README.md) | [sase-8g.7](sase-8g.7.md) | 2 |
 | [bbugyi200.athena.sase-8g.7--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8g.7.md#member-code) | [sase-8g.7](sase-8g.7.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@06e500d`](https://github.com/sase-org/sase-core/commit/06e500dd84775a33931f549d6f042c4a06e13274) | fix(beads): reconcile concurrent event streams (sase-8g.7) | [sase-8g.7](sase-8g.7.md) | 2026-07-20 21:21:54 |
 | [`24d42d3`](https://github.com/sase-org/sase/commit/24d42d3813a12dd834e2766cffbd107136fa6513) | fix(beads): repair concurrent sync integrations (sase-8g.7) | [sase-8g.7](sase-8g.7.md) | 2026-07-20 21:24:29 |

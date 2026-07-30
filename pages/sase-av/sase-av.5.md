@@ -21,3 +21,15 @@ prompt-highlight: syntax-highlight artifact references in the prompt editor with
 
 - **Depends on:** [sase-av.2](sase-av.2.md) ✓
 - **Blocks:** [sase-av.6](sase-av.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-av.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-av.5/README.md) | [sase-av.5](sase-av.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`de57f5a`](https://github.com/sase-org/sase/commit/de57f5a5f3e8563b48400f2843737ef7b4c8b33b) | feat(tui): highlight artifact references in prompts | [sase-av.5](sase-av.5.md) | 2026-07-29 18:32:47 |

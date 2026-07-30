@@ -38,7 +38,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-62](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-62/README.md) | [sase-62](README.md) | 1 |
+| [bbugyi200.athena.sase-62](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-62/README.md) | [sase-62](README.md) | 2 |
 | [bbugyi200.athena.sase-62.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-62.1/README.md) | [sase-62.1](sase-62.1.md) | 1 |
 | [bbugyi200.athena.sase-62.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-62.2/README.md) | [sase-62.2](sase-62.2.md) | 1 |
 
@@ -49,3 +49,4 @@ flowchart TD
 | [`776f69e`](https://github.com/sase-org/sase/commit/776f69eb4b9b0e996378968716682b070a8feb8b) | feat(memory): render lazy sidecar repositories (sase-62.1) | [sase-62.1](sase-62.1.md) | 2026-07-15 12:47:45 |
 | [`47514b7`](https://github.com/sase-org/sase/commit/47514b77a887b7a518a7df1013c1021d9d73e498) | fix: initialize project-specific research sidecars (sase-62.2) | [sase-62.2](sase-62.2.md) | 2026-07-15 12:49:36 |
 | [`7a03b9c`](https://github.com/sase-org/sase/commit/7a03b9c8a4ae8e89cf9761948e26590ee8471bac) | docs: align SDD docs with per-project research sidecars (sase-62) | [sase-62](README.md) | 2026-07-15 13:56:26 |
+| [`sase--plans@317774f`](https://github.com/sase-org/sase--plans/commit/317774f582d29992ec86233f08fed5cdea136f87) | chore: mark per\_project\_research\_sidecars plan done (sase-62) | [sase-62](README.md) | 2026-07-15 13:57:04 |

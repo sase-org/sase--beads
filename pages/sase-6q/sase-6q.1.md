@@ -23,10 +23,11 @@ COMMIT: be1446457
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6q.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6q.1/README.md) | [sase-6q.1](sase-6q.1.md) | 1 |
+| [bbugyi200.athena.sase-6q.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6q.1/README.md) | [sase-6q.1](sase-6q.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@73784ca`](https://github.com/sase-org/sase-core/commit/73784caa6dabd830589fc9ef5c3579b2ea0d4c4a) | feat(bead): expose total authored phase count (sase-6q.1) | [sase-6q.1](sase-6q.1.md) | 2026-07-18 10:25:41 |
 | [`be14464`](https://github.com/sase-org/sase/commit/be1446457e88914a3325d3db0201554a8d0475cb) | feat(bead): carry total authored phase count (sase-6q.1) | [sase-6q.1](sase-6q.1.md) | 2026-07-18 10:26:52 |

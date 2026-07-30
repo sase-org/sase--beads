@@ -25,4 +25,10 @@ reach: raise the per-root 200-row bound so editors see the corpus ACE sees, cach
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b3.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.3/README.md) | [sase-b3.10.3](sase-b3.10.3.md) | 0 |
+| [bbugyi200.athena.sase-b3.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.3/README.md) | [sase-b3.10.3](sase-b3.10.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@24e773e`](https://github.com/sase-org/sase-core/commit/24e773ec2789199613e53b32d9169dce0423d6c7) | feat(editor): expand cached artifact payload inventory | [sase-b3.10.3](sase-b3.10.3.md) | 2026-07-30 11:38:37 |

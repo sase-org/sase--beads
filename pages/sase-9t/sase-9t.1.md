@@ -14,3 +14,15 @@
 ## Dependencies
 
 - **Blocks:** [sase-9t.2](sase-9t.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-9t.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9t.1/README.md) | [sase-9t.1](sase-9t.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@8b76c42`](https://github.com/sase-org/sase-core/commit/8b76c424578cb99e2eacdee389634d8f2dec5892) | feat(axe): support required config descriptions (sase-9t.1) | [sase-9t.1](sase-9t.1.md) | 2026-07-26 13:04:34 |

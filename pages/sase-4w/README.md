@@ -15,8 +15,8 @@ COMMIT: 99f473b0a
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-4w.1](sase-4w.1.md) | Phase 1: Rust core search engine | ✓ closed | small | 0 | 0 |
-| [sase-4w.2](sase-4w.2.md) | Phase 2: Rust core CLI and binding | ✓ closed | small | 0 | 0 |
+| [sase-4w.1](sase-4w.1.md) | Phase 1: Rust core search engine | ✓ closed | small | 1 | 1 |
+| [sase-4w.2](sase-4w.2.md) | Phase 2: Rust core CLI and binding | ✓ closed | small | 1 | 1 |
 | [sase-4w.3](sase-4w.3.md) | Phase 3: Python CLI surface and fallback | ✓ closed | small | 1 | 1 |
 | [sase-4w.4](sase-4w.4.md) | Phase 4: Docs, generated skills, and verification | ✓ closed | small | 1 | 1 |
 
@@ -43,6 +43,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-4w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.1/README.md) | [sase-4w.1](sase-4w.1.md) | 1 |
+| [bbugyi200.athena.sase-4w.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.2/README.md) | [sase-4w.2](sase-4w.2.md) | 1 |
 | [bbugyi200.athena.sase-4w.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.3/README.md) | [sase-4w.3](sase-4w.3.md) | 1 |
 | [bbugyi200.athena.sase-4w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4w.4/README.md) | [sase-4w.4](sase-4w.4.md) | 1 |
 
@@ -50,5 +52,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@077f4aa`](https://github.com/sase-org/sase-core/commit/077f4aa6ca72708073c27190aaf48f2ff7420473) | feat(beads): add core bead search engine (sase-4w.1) | [sase-4w.1](sase-4w.1.md) | 2026-06-18 12:37:38 |
+| [`sase-core@bc5835d`](https://github.com/sase-org/sase-core/commit/bc5835d46e6f2a58046df641a56d2989aa0f957a) | feat(beads): add core bead search CLI (sase-4w.2) | [sase-4w.2](sase-4w.2.md) | 2026-06-18 13:02:45 |
 | [`90d2d6e`](https://github.com/sase-org/sase/commit/90d2d6ebec45b03e1214efe58018159d69331a40) | feat(bead): add Python search command (sase-4w.3) | [sase-4w.3](sase-4w.3.md) | 2026-06-18 13:23:21 |
 | [`0a299d7`](https://github.com/sase-org/sase/commit/0a299d7af0283f2d4095df4370c25159a769c8e5) | docs(beads): document search command (sase-4w.4) | [sase-4w.4](sase-4w.4.md) | 2026-06-18 13:36:44 |

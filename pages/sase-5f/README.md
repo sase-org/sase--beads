@@ -17,7 +17,7 @@ COMMIT: c5f18ae90
 |---|---|---|---|---:|---:|
 | [sase-5f.1](sase-5f.1.md) | Phase 1: TUI child-row normalization + WAITING child rows | ✓ closed | small | 1 | 1 |
 | [sase-5f.2](sase-5f.2.md) | Phase 2: Prompt-assembly helpers + #with\_feedback / #with\_q\_and\_a | ✓ closed | small | 1 | 1 |
-| [sase-5f.3](sase-5f.3.md) | Phase 3: %n(parent, suffix): grammar, resolution, terminal-parent attach | ✓ closed | small | 1 | 1 |
+| [sase-5f.3](sase-5f.3.md) | Phase 3: %n(parent, suffix): grammar, resolution, terminal-parent attach | ✓ closed | small | 1 | 2 |
 | [sase-5f.4](sase-5f.4.md) | Phase 4: Queued children under running parents | ✓ closed | small | 1 | 1 |
 | [sase-5f.5](sase-5f.5.md) | Phase 5: Cross-surface verification, composition, and docs | ✓ closed | small | 1 | 1 |
 
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-5f](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f/README.md) | [sase-5f](README.md) | 1 |
 | [bbugyi200.athena.sase-5f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.1/README.md) | [sase-5f.1](sase-5f.1.md) | 1 |
 | [bbugyi200.athena.sase-5f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.2/README.md) | [sase-5f.2](sase-5f.2.md) | 1 |
-| [bbugyi200.athena.sase-5f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.3/README.md) | [sase-5f.3](sase-5f.3.md) | 1 |
+| [bbugyi200.athena.sase-5f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.3/README.md) | [sase-5f.3](sase-5f.3.md) | 2 |
 | [bbugyi200.athena.sase-5f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.4/README.md) | [sase-5f.4](sase-5f.4.md) | 1 |
 | [bbugyi200.athena.sase-5f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.5/README.md) | [sase-5f.5](sase-5f.5.md) | 1 |
 
@@ -60,6 +60,7 @@ flowchart TD
 |---|---|---|---|
 | [`41b27fb`](https://github.com/sase-org/sase/commit/41b27fbaa8481568c1655feb561ac5a51063e0a2) | feat: add embedded follow-up prompt xprompts (sase-5f.2) | [sase-5f.2](sase-5f.2.md) | 2026-07-06 02:11:12 |
 | [`9caeb0d`](https://github.com/sase-org/sase/commit/9caeb0d37921f403d0a9eb3e5a95f2136ba27e94) | fix(ace): normalize family child rows (sase-5f.1) | [sase-5f.1](sase-5f.1.md) | 2026-07-06 02:15:15 |
+| [`sase-core@0f283f0`](https://github.com/sase-org/sase-core/commit/0f283f03f301b41a060f665d9497123196e8bcc7) | feat: resolve agent family parents (sase-5f.3) | [sase-5f.3](sase-5f.3.md) | 2026-07-06 02:15:42 |
 | [`7b357a0`](https://github.com/sase-org/sase/commit/7b357a097d70fb92bffe90c2659f2883a20a9b3b) | feat: support dynamic agent family attach launches (sase-5f.3) | [sase-5f.3](sase-5f.3.md) | 2026-07-06 02:20:43 |
 | [`dfd9f50`](https://github.com/sase-org/sase/commit/dfd9f50f07181b96940a33c1987084c42f402df9) | feat: queue family children behind running parents (sase-5f.4) | [sase-5f.4](sase-5f.4.md) | 2026-07-06 03:07:02 |
 | [`a660d92`](https://github.com/sase-org/sase/commit/a660d92277d2f348a4fb67c4025bc19fdd10763b) | feat: compose follow-up xprompts with family attach (sase-5f.5) | [sase-5f.5](sase-5f.5.md) | 2026-07-06 03:47:21 |

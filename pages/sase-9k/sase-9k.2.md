@@ -25,10 +25,11 @@ Implemented wait_priority_explicit marker symmetry: runner-slot waiting markers 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-9k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.2/README.md) | [sase-9k.2](sase-9k.2.md) | 1 |
+| [bbugyi200.athena.sase-9k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-9k.2/README.md) | [sase-9k.2](sase-9k.2.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`64ac40d`](https://github.com/sase-org/sase/commit/64ac40d38983ea26c6ed2d983813495e74058809) | fix(wait): persist wait priority explicitness (sase-9k.2) | [sase-9k.2](sase-9k.2.md) | 2026-07-25 15:34:11 |
+| [`sase-core@e63f1ab`](https://github.com/sase-org/sase-core/commit/e63f1ab098dbdb95f9ef1bc644a1b4f97dabf787) | fix(agent-scan): carry wait priority explicitness (sase-9k.2) | [sase-9k.2](sase-9k.2.md) | 2026-07-25 15:34:55 |

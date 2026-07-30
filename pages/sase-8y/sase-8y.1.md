@@ -19,3 +19,15 @@ COMMIT: 6dc2a99
 
 - **Blocks:** [sase-8y.2](sase-8y.2.md) ✓
 - **Blocks:** [sase-8y.3](sase-8y.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-8y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8y.1/README.md) | [sase-8y.1](sase-8y.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@6dc2a99`](https://github.com/sase-org/sase-core/commit/6dc2a990b8330dec9985155228157ac38a144894) | feat(bead): add claimed status wire support (sase-8y.1) | [sase-8y.1](sase-8y.1.md) | 2026-07-24 20:28:56 |

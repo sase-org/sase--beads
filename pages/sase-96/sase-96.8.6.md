@@ -14,3 +14,15 @@
 ## Dependencies
 
 - **Blocks:** [sase-96.8.9](sase-96.8.9.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-96.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.6/README.md) | [sase-96.8.6](sase-96.8.6.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@8b3b028`](https://github.com/sase-org/sase-core/commit/8b3b0282c54587d263ad12c8bfa949301172196d) | test(core-py): reap binding test temp dirs (sase-96.8.6) | [sase-96.8.6](sase-96.8.6.md) | 2026-07-25 18:36:56 |

@@ -89,7 +89,9 @@ flowchart TD
 | [bbugyi200.athena.sase-96.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.2/README.md) | [sase-96.8.2](sase-96.8.2.md) | 1 |
 | [bbugyi200.athena.sase-96.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.3/README.md) | [sase-96.8.3](sase-96.8.3.md) | 1 |
 | [bbugyi200.athena.sase-96.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.4/README.md) | [sase-96.8.4](sase-96.8.4.md) | 1 |
+| [bbugyi200.athena.sase-96.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.6/README.md) | [sase-96.8.6](sase-96.8.6.md) | 1 |
 | [bbugyi200.athena.sase-96.8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.7/README.md) | [sase-96.8.7](sase-96.8.7.md) | 1 |
+| [bbugyi200.athena.sase-96.8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.9/README.md) | [sase-96.8.9](sase-96.8.9.md) | 1 |
 | [bbugyi200.athena.sase-96.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-96.8.land/README.md) | [sase-96.8](sase-96.8.md) | 0 |
 
 ## Commits
@@ -101,8 +103,10 @@ flowchart TD
 | [`c3316b7`](https://github.com/sase-org/sase/commit/c3316b71948506cebdb15da499b171f02d1ce584) | fix: clean up production temp artifacts (sase-96.4) | [sase-96.4](sase-96.4.md) | 2026-07-25 13:45:48 |
 | [`15ea05a`](https://github.com/sase-org/sase/commit/15ea05af681131a2266531414b69cf823d574520) | fix(test): move pytest scratch off tmpfs (sase-96.1) | [sase-96.1](sase-96.1.md) | 2026-07-25 15:25:23 |
 | [`396c9a9`](https://github.com/sase-org/sase/commit/396c9a908196141725d1bf12bf8ae33f793fd217) | test: guard against system-temp leakage (sase-96.6) | [sase-96.6](sase-96.6.md) | 2026-07-25 17:35:48 |
+| [`sase-core@8b3b028`](https://github.com/sase-org/sase-core/commit/8b3b0282c54587d263ad12c8bfa949301172196d) | test(core-py): reap binding test temp dirs (sase-96.8.6) | [sase-96.8.6](sase-96.8.6.md) | 2026-07-25 18:36:56 |
 | [`88cb087`](https://github.com/sase-org/sase/commit/88cb0876d1990363dae046381a6ce22eab5de516) | fix: reap stale pytest scratch entries (sase-96.8.4) | [sase-96.8.4](sase-96.8.4.md) | 2026-07-25 18:54:50 |
 | [`63b9d88`](https://github.com/sase-org/sase/commit/63b9d8814590ea857e4675b5b55099a0d475f3c4) | fix: give the agent-launch prompt file a reapable home (sase-96.8.2) | [sase-96.8.2](sase-96.8.2.md) | 2026-07-25 19:16:39 |
 | [`bd16432`](https://github.com/sase-org/sase/commit/bd16432c966c92dc66f4a31489eef8214f4d73a1) | fix: stop the test suite from writing into the managed temp root (sase-96.8.3) | [sase-96.8.3](sase-96.8.3.md) | 2026-07-25 19:37:20 |
 | [`15a5a0e`](https://github.com/sase-org/sase/commit/15a5a0e67ad521644e7b85063aaefba5798b2adf) | feat(axe): reap the managed SASE temp root (sase-96.8.7) | [sase-96.8.7](sase-96.8.7.md) | 2026-07-25 20:37:45 |
 | [`0417b41`](https://github.com/sase-org/sase/commit/0417b415d8c7b30c9e1c94e2c5cebe3e2a3aa31c) | build: route terminal smoke through pytest runner (sase-96.8.1) | [sase-96.8.1](sase-96.8.1.md) | 2026-07-26 10:36:18 |
+| [`sase--plans@07b527a`](https://github.com/sase-org/sase--plans/commit/07b527a9da87832a706b01b235c504cee76648d1) | chore(plans): close sase-96 and mark its plans done (sase-96.8.9) | [sase-96.8.9](sase-96.8.9.md) | 2026-07-26 11:04:29 |

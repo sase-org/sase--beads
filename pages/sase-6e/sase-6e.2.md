@@ -19,3 +19,15 @@ COMMIT: 42da977
 
 - **Depends on:** [sase-6e.1](sase-6e.1.md) ✓
 - **Blocks:** [sase-6e.3](sase-6e.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-6e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6e.2/README.md) | [sase-6e.2](sase-6e.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@42da977`](https://github.com/sase-org/sase-core/commit/42da97773ba4faf0c5e29182239c679ae56456fb) | feat(notifications): add typed epic approval projection (sase-6e.2) | [sase-6e.2](sase-6e.2.md) | 2026-07-16 20:21:29 |

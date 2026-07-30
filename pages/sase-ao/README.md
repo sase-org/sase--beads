@@ -19,11 +19,11 @@ Typing `%m:` / `%model:` shows model aliases as unmistakable, richly annotated r
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ao.1](sase-ao.1.md) | Fix the \`@\` alias gate in the prompt-input directive grammar | ✓ closed | small | 0 | 0 |
-| [sase-ao.2](sase-ao.2.md) | Enrich the model completion catalog with alias resolution and provenance | ✓ closed | medium | 0 | 0 |
-| [sase-ao.3](sase-ao.3.md) | Render alias rows in the ACE completion panel | ✓ closed | medium | 0 | 0 |
-| [sase-ao.4](sase-ao.4.md) | Surface the alias detail through the xprompt LSP | ✓ closed | medium | 0 | 0 |
-| [sase-ao.5](sase-ao.5.md) | Visual snapshots, docs, and help text | ✓ closed | small | 0 | 0 |
+| [sase-ao.1](sase-ao.1.md) | Fix the \`@\` alias gate in the prompt-input directive grammar | ✓ closed | small | 1 | 1 |
+| [sase-ao.2](sase-ao.2.md) | Enrich the model completion catalog with alias resolution and provenance | ✓ closed | medium | 1 | 1 |
+| [sase-ao.3](sase-ao.3.md) | Render alias rows in the ACE completion panel | ✓ closed | medium | 1 | 1 |
+| [sase-ao.4](sase-ao.4.md) | Surface the alias detail through the xprompt LSP | ✓ closed | medium | 1 | 1 |
+| [sase-ao.5](sase-ao.5.md) | Visual snapshots, docs, and help text | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -51,10 +51,20 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-ao.land | [sase-ao](README.md) | 1 |
+| [bbugyi200.athena.sase-ao.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.1/README.md) | [sase-ao.1](sase-ao.1.md) | 1 |
+| [bbugyi200.athena.sase-ao.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.2/README.md) | [sase-ao.2](sase-ao.2.md) | 1 |
+| [bbugyi200.athena.sase-ao.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.3/README.md) | [sase-ao.3](sase-ao.3.md) | 1 |
+| [bbugyi200.athena.sase-ao.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.4/README.md) | [sase-ao.4](sase-ao.4.md) | 1 |
+| [bbugyi200.athena.sase-ao.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.5/README.md) | [sase-ao.5](sase-ao.5.md) | 1 |
+| [bbugyi200.athena.sase-ao.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ao.land/README.md) | [sase-ao](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`0d7b399`](https://github.com/sase-org/sase--plans/commit/0d7b3997320fb1561cab571948f87669889be1f7) | Complete SDD plan for model\_alias\_completion | [sase-ao](README.md) | 2026-07-29 13:39:00 |
+| [`6405e40`](https://github.com/sase-org/sase/commit/6405e40eeb57d97909c601d5bc4764b61dae5f8b) | fix: keep leading model aliases in completion context | [sase-ao.1](sase-ao.1.md) | 2026-07-29 11:56:14 |
+| [`e55e18b`](https://github.com/sase-org/sase/commit/e55e18b94f132b52eb0badf6440d49a849ad717d) | feat: enrich model completion alias metadata | [sase-ao.2](sase-ao.2.md) | 2026-07-29 12:06:41 |
+| [`sase-core@89420be`](https://github.com/sase-org/sase-core/commit/89420be1a3e2c02a68dbdc49d7384bf014ba8b3f) | feat(lsp): enrich model alias completions | [sase-ao.4](sase-ao.4.md) | 2026-07-29 12:22:29 |
+| [`c5d2e1a`](https://github.com/sase-org/sase/commit/c5d2e1a2cbec42eb6903c2ae4069a8cda792692d) | feat(tui): enrich model completion rows | [sase-ao.3](sase-ao.3.md) | 2026-07-29 12:34:07 |
+| [`fe53df8`](https://github.com/sase-org/sase/commit/fe53df885faf473a7ec5e459258e35764e6f8049) | docs(ace): document the %model alias completion rows | [sase-ao.5](sase-ao.5.md) | 2026-07-29 12:48:59 |
+| [`sase--plans@0d7b399`](https://github.com/sase-org/sase--plans/commit/0d7b3997320fb1561cab571948f87669889be1f7) | Complete SDD plan for model\_alias\_completion | [sase-ao](README.md) | 2026-07-29 13:39:00 |

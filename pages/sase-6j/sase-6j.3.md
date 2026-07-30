@@ -23,10 +23,11 @@ COMMIT: d6acac75d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6j.3/README.md) | [sase-6j.3](sase-6j.3.md) | 1 |
+| [bbugyi200.athena.sase-6j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6j.3/README.md) | [sase-6j.3](sase-6j.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@f10e8a2`](https://github.com/sase-org/sase-core/commit/f10e8a2b3032e411b05ad2f2c7c267cc69f0d301) | feat(agent-scan): add bounded artifact index deletion (sase-6j.3) | [sase-6j.3](sase-6j.3.md) | 2026-07-17 12:37:37 |
 | [`6ade59e`](https://github.com/sase-org/sase/commit/6ade59edcd93d25cc6fbb438dba51d36508bcb06) | fix(ace): keep agent refresh responsive during cleanup (sase-6j.3) | [sase-6j.3](sase-6j.3.md) | 2026-07-17 12:41:23 |

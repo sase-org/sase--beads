@@ -18,3 +18,15 @@ COMMIT: 23f5be3
 ## Dependencies
 
 - **Blocks:** [sase-7n.2](sase-7n.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7n.1/README.md) | [sase-7n.1](sase-7n.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@23f5be3`](https://github.com/sase-org/sase-core/commit/23f5be378fe50484dd2404af02d379f9d4d98f5c) | feat(agent-launch)!: adopt id directive grammar (sase-7n.1) | [sase-7n.1](sase-7n.1.md) | 2026-07-19 19:18:52 |

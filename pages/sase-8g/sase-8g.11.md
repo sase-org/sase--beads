@@ -19,11 +19,12 @@ COMMIT: 231b77e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8g.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.11/README.md) | [sase-8g.11](sase-8g.11.md) | 1 |
+| [bbugyi200.athena.sase-8g.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8g.11/README.md) | [sase-8g.11](sase-8g.11.md) | 2 |
 | [bbugyi200.athena.sase-8g.11--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8g.11.md#member-code) | [sase-8g.11](sase-8g.11.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@f659642`](https://github.com/sase-org/sase-core/commit/f6596424d68371a16fe9554e11547cbefce338f4) | feat(telemetry): add exact-label cleanup API (sase-8g.11) | [sase-8g.11](sase-8g.11.md) | 2026-07-20 21:41:14 |
 | [`866aea6`](https://github.com/sase-org/sase/commit/866aea65a3fc91224db3382125e71fd3494bcd70) | feat(telemetry): isolate test state and add cleanup command (sase-8g.11) | [sase-8g.11](sase-8g.11.md) | 2026-07-20 21:41:49 |

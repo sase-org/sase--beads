@@ -22,5 +22,6 @@ COMMIT: 5492a8417
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@27827ec`](https://github.com/sase-org/sase-core/commit/27827ec89dac8ec6ccecdaf74a20a3b1377a765f) | feat: support parent-scoped agent index hydration (sase-3s.5) | [sase-3s.5](sase-3s.5.md) | 2026-05-16 17:49:49 |
 | [`4b1383d`](https://github.com/sase-org/sase/commit/4b1383d716962a32dac931dcae810e8cedc44556) | feat: lazily hydrate workflow prompt steps (sase-3s.5) | [sase-3s.5](sase-3s.5.md) | 2026-05-16 17:50:28 |
 | [`7944c64`](https://github.com/sase-org/sase/commit/7944c64702e9648a47d6f65a9ed303a3a5fe80a9) | chore: add Phase 5 loader guardrail tests (sase-3s.5) | [sase-3s.5](sase-3s.5.md) | 2026-05-20 22:25:53 |

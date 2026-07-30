@@ -20,10 +20,11 @@ COMMIT: f932989ca
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-5f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.3/README.md) | [sase-5f.3](sase-5f.3.md) | 1 |
+| [bbugyi200.athena.sase-5f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5f.3/README.md) | [sase-5f.3](sase-5f.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@0f283f0`](https://github.com/sase-org/sase-core/commit/0f283f03f301b41a060f665d9497123196e8bcc7) | feat: resolve agent family parents (sase-5f.3) | [sase-5f.3](sase-5f.3.md) | 2026-07-06 02:15:42 |
 | [`7b357a0`](https://github.com/sase-org/sase/commit/7b357a097d70fb92bffe90c2659f2883a20a9b3b) | feat: support dynamic agent family attach launches (sase-5f.3) | [sase-5f.3](sase-5f.3.md) | 2026-07-06 02:20:43 |

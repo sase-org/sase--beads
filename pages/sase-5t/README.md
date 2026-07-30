@@ -53,11 +53,13 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.7e](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.7e/README.md) | [sase-5t.5](sase-5t.5.md) | 1 |
+| [bbugyi200.athena.sase-5t](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-5t/README.md) | [sase-5t](README.md) | 1 |
 | [bbugyi200.athena.sase-5t--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-5t.md#member-code) | [sase-5t](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase--plans@2903fa9`](https://github.com/sase-org/sase--plans/commit/2903fa9a9a13a7fe3bcc9033da976e47311dc8bb) | chore(plans): mark symvision extraction done (sase-5t) | [sase-5t](README.md) | 2026-07-12 23:02:15 |
 | [`039204f`](https://github.com/sase-org/sase/commit/039204fe2e8d62d685f1e7d089ba077989ed128a) | feat: Migrate from pyvision to symvision (sase-5t.5) | [sase-5t.5](sase-5t.5.md) | 2026-07-13 10:50:19 |
 | [`3d5fe9c`](https://github.com/sase-org/sase/commit/3d5fe9c50a8e3d68f04bf1a5a033247e65f79c0a) | fix: complete Symvision migration recovery (sase-5t.5) | [sase-5t.5](sase-5t.5.md) | 2026-07-13 11:04:43 |

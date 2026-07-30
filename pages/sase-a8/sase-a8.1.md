@@ -18,3 +18,15 @@ core: teach sase_core's bead-store path heuristics about the `sase/repos/beads` 
 ## Dependencies
 
 - **Blocks:** [sase-a8.5](sase-a8.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-a8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-a8.1/README.md) | [sase-a8.1](sase-a8.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@2b1f323`](https://github.com/sase-org/sase-core/commit/2b1f323c94ef5be08331064e4acb2e607a657905) | feat(bead): recognize the beads sidecar root in path heuristics (sase-a8.1) | [sase-a8.1](sase-a8.1.md) | 2026-07-27 20:04:03 |

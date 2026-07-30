@@ -20,3 +20,15 @@ core_parity: apply the same canonical-name namespacing and filtering to the Rust
 ## Dependencies
 
 - **Depends on:** [sase-ac.2](sase-ac.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ac.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.5/README.md) | [sase-ac.5](sase-ac.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@2034123`](https://github.com/sase-org/sase-core/commit/20341233d36bd492497a715fe0ac25985dd4eb28) | fix(xprompt): canonicalize project identities in catalog (sase-ac.5) | [sase-ac.5](sase-ac.5.md) | 2026-07-28 12:43:17 |

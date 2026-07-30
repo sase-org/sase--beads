@@ -23,10 +23,11 @@ identity_cache: wire `project_identity`'s process-lifetime caches into the exist
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ac.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.4/README.md) | [sase-ac.6.4](sase-ac.6.4.md) | 1 |
+| [bbugyi200.athena.sase-ac.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ac.6.4/README.md) | [sase-ac.6.4](sase-ac.6.4.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`02eee83`](https://github.com/sase-org/sase/commit/02eee837542948dba30c2327120de3a9c8e6fb3d) | fix: invalidate xprompt identity on project mutations (sase-ac.6.4) | [sase-ac.6.4](sase-ac.6.4.md) | 2026-07-28 13:47:00 |
+| [`sase--plans@bf8c8ed`](https://github.com/sase-org/sase--plans/commit/bf8c8ed1e585ad08d610290939cb14eb9b045b59) | docs: link xprompt identity landing prompt (sase-ac.6.4) | [sase-ac.6.4](sase-ac.6.4.md) | 2026-07-28 13:47:57 |

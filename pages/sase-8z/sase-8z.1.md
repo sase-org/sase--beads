@@ -24,10 +24,11 @@ COMMIT: d7c212701
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.1/README.md) | [sase-8z.1](sase-8z.1.md) | 1 |
+| [bbugyi200.athena.sase-8z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.1/README.md) | [sase-8z.1](sase-8z.1.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@77c88ac`](https://github.com/sase-org/sase-core/commit/77c88acdbf9decf72624f93f4a052d16b2a72375) | test: cover effort suffixes on alias references (sase-8z.1) | [sase-8z.1](sase-8z.1.md) | 2026-07-24 21:09:48 |
 | [`4457a87`](https://github.com/sase-org/sase/commit/4457a87c4290fa08751ac6e9c161b87fce2f3831) | feat: preserve effort through model aliases and overrides (sase-8z.1) | [sase-8z.1](sase-8z.1.md) | 2026-07-24 21:10:51 |

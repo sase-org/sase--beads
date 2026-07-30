@@ -23,10 +23,11 @@ enable_code_quality: bump the `sase-core-rs` window in pyproject.toml to the rel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-af.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.3/README.md) | [sase-af.3](sase-af.3.md) | 1 |
+| [bbugyi200.athena.sase-af.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-af.3/README.md) | [sase-af.3](sase-af.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`c9978ed`](https://github.com/sase-org/sase/commit/c9978edf4d866fedd32245112b133ac6ad36ef05) | build(deps): require sase-core-rs 0.12.2 (sase-af.3) | [sase-af.3](sase-af.3.md) | 2026-07-28 14:48:59 |
+| [`sase--plans@07b4c8b`](https://github.com/sase-org/sase--plans/commit/07b4c8b8add6a95cd16f880b65c4b2f973b94f7b) | docs: repair plan provenance header (sase-af.3) | [sase-af.3](sase-af.3.md) | 2026-07-28 14:50:36 |

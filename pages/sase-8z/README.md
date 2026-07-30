@@ -19,7 +19,7 @@ COMMIT: 8e0a8cf0
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-8z.1](sase-8z.1.md) | Preserve effort through model references and overrides | ✓ closed | medium | 1 | 1 |
+| [sase-8z.1](sase-8z.1.md) | Preserve effort through model references and overrides | ✓ closed | medium | 1 | 2 |
 | [sase-8z.2](sase-8z.2.md) | Reuse the effort chooser in model override/edit flows | ✓ closed | medium | 1 | 1 |
 | [sase-8z.3](sase-8z.3.md) | Visual integration and full validation | ✓ closed | small | 1 | 1 |
 
@@ -43,14 +43,17 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.1/README.md) | [sase-8z.1](sase-8z.1.md) | 1 |
+| [bbugyi200.athena.sase-8z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.1/README.md) | [sase-8z.1](sase-8z.1.md) | 2 |
 | [bbugyi200.athena.sase-8z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.2/README.md) | [sase-8z.2](sase-8z.2.md) | 1 |
 | [bbugyi200.athena.sase-8z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.3/README.md) | [sase-8z.3](sase-8z.3.md) | 1 |
+| [bbugyi200.athena.sase-8z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8z.land/README.md) | [sase-8z](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@77c88ac`](https://github.com/sase-org/sase-core/commit/77c88acdbf9decf72624f93f4a052d16b2a72375) | test: cover effort suffixes on alias references (sase-8z.1) | [sase-8z.1](sase-8z.1.md) | 2026-07-24 21:09:48 |
 | [`4457a87`](https://github.com/sase-org/sase/commit/4457a87c4290fa08751ac6e9c161b87fce2f3831) | feat: preserve effort through model aliases and overrides (sase-8z.1) | [sase-8z.1](sase-8z.1.md) | 2026-07-24 21:10:51 |
 | [`28c5c86`](https://github.com/sase-org/sase/commit/28c5c86d274f1fbdfb47f3b001384f419f5ab027) | feat(tui): preserve effort in model picker flows (sase-8z.2) | [sase-8z.2](sase-8z.2.md) | 2026-07-24 21:52:38 |
 | [`7dd50f2`](https://github.com/sase-org/sase/commit/7dd50f2f277a44ff5790cc396500a54ce916cde6) | test: add model picker visual coverage (sase-8z.3) | [sase-8z.3](sase-8z.3.md) | 2026-07-24 22:30:58 |
+| [`sase--plans@27aba8c`](https://github.com/sase-org/sase--plans/commit/27aba8c97fceb72fb59bf5eb907d414e997cac42) | docs: mark model override effort plan done (sase-8z) | [sase-8z](README.md) | 2026-07-24 23:48:06 |

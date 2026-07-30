@@ -14,3 +14,9 @@ COMMIT: 28b26d73e
 ## Dependencies
 
 - **Blocks:** [sase-3n.2](sase-3n.2.md) ✓
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@b6e851a`](https://github.com/sase-org/sase-core/commit/b6e851aa6320a30bf280d7c176778281b545dd84) | feat: add bead event reducer fixtures (sase-3n.1) | [sase-3n.1](sase-3n.1.md) | 2026-05-15 15:07:46 |

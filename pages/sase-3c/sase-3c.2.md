@@ -25,3 +25,4 @@ COMMIT: e377f8b0c
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`37b00a5`](https://github.com/sase-org/sase/commit/37b00a5d1098adf4cbac07b7690dbff2b49d6b22) | feat: allocate bead IDs from local store (sase-3c.2) | [sase-3c.2](sase-3c.2.md) | 2026-05-13 03:26:19 |
+| [`sase-core@1f21cb1`](https://github.com/sase-org/sase-core/commit/1f21cb1152fb9cff05ad233d787f0a78b578414f) | feat: allocate bead IDs from current store (sase-3c.2) | [sase-3c.2](sase-3c.2.md) | 2026-05-13 03:26:40 |

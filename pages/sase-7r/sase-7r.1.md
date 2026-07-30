@@ -18,3 +18,15 @@ COMMIT: 3fcc46b
 ## Dependencies
 
 - **Blocks:** [sase-7r.3](sase-7r.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-7r.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-7r.1/README.md) | [sase-7r.1](sase-7r.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@3fcc46b`](https://github.com/sase-org/sase-core/commit/3fcc46b6cd6aebd9a6f4691e405b49add77bbd9b) | feat(agent-clans): resolve clan summaries (sase-7r.1) | [sase-7r.1](sase-7r.1.md) | 2026-07-19 23:24:17 |

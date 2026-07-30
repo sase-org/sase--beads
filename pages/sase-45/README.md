@@ -19,7 +19,7 @@ COMMIT: c04475582
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-45.1](sase-45.1.md) | Phase 1 - Core Episode Schema And Canonicalization | ✓ closed | small | 1 | 1 |
+| [sase-45.1](sase-45.1.md) | Phase 1 - Core Episode Schema And Canonicalization | ✓ closed | small | 1 | 2 |
 | [sase-45.2](sase-45.2.md) | Phase 2 - Source Graph Collector | ✓ closed | small | 1 | 1 |
 | [sase-45.3](sase-45.3.md) | Phase 3 - Deterministic Lesson Builder And Renderer | ✓ closed | small | 1 | 1 |
 | [sase-45.4](sase-45.4.md) | Phase 4 - Project Episode Storage | ✓ closed | small | 1 | 1 |
@@ -69,7 +69,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-45](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45/README.md) | [sase-45](README.md) | 3 |
-| [bbugyi200.athena.sase-45.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.1/README.md) | [sase-45.1](sase-45.1.md) | 1 |
+| [bbugyi200.athena.sase-45.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.1/README.md) | [sase-45.1](sase-45.1.md) | 2 |
 | [bbugyi200.athena.sase-45.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.2/README.md) | [sase-45.2](sase-45.2.md) | 1 |
 | [bbugyi200.athena.sase-45.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.3/README.md) | [sase-45.3](sase-45.3.md) | 1 |
 | [bbugyi200.athena.sase-45.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-45.4/README.md) | [sase-45.4](sase-45.4.md) | 1 |
@@ -82,6 +82,7 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@b592f51`](https://github.com/sase-org/sase-core/commit/b592f51350fc80e35b8f00f8f106105eb5bb8a80) | feat: add episode wire schema (sase-45.1) | [sase-45.1](sase-45.1.md) | 2026-05-26 23:04:31 |
 | [`5b208d3`](https://github.com/sase-org/sase/commit/5b208d36d6feb99c14dad2464ecb31158a4c3a7e) | feat: add Python episode wire facade (sase-45.1) | [sase-45.1](sase-45.1.md) | 2026-05-26 23:08:54 |
 | [`bd40316`](https://github.com/sase-org/sase/commit/bd4031677efd4cd34447086875f19032f8dd1bf7) | feat: add deterministic episode source graph collector (sase-45.2) | [sase-45.2](sase-45.2.md) | 2026-05-26 23:35:58 |
 | [`aa66d3f`](https://github.com/sase-org/sase/commit/aa66d3f5c307b5ac398ba59bd6f670d9b1f9d4f7) | feat: add episode trace hints for agent artifacts (sase-45.6) | [sase-45.6](sase-45.6.md) | 2026-05-26 23:57:51 |

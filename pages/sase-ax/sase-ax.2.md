@@ -20,3 +20,15 @@ record-enrichment: add optional sha256, size_bytes, and mime_type to the Python 
 ## Dependencies
 
 - **Blocks:** [sase-ax.3](sase-ax.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ax.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ax.2/README.md) | [sase-ax.2](sase-ax.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`f39b0c4`](https://github.com/sase-org/sase/commit/f39b0c405616accf8e4431c34461bddad8006a22) | feat: enrich artifact file records | [sase-ax.2](sase-ax.2.md) | 2026-07-29 21:35:50 |

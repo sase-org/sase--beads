@@ -21,3 +21,15 @@ core-wheel-once: add a build-core root job that builds one abi3 sase_core_rs whe
 
 - **Depends on:** [sase-am.1](sase-am.1.md) ✓
 - **Blocks:** [sase-am.3](sase-am.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-am.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-am.2/README.md) | [sase-am.2](sase-am.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`61c812a`](https://github.com/sase-org/sase/commit/61c812a7b7f1e04c44e50330f803868154500e3d) | ci: reuse one prebuilt core wheel across jobs | [sase-am.2](sase-am.2.md) | 2026-07-28 22:39:22 |

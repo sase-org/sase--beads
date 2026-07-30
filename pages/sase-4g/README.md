@@ -17,7 +17,7 @@ COMMIT: 1f736c827
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-4g.1](sase-4g.1.md) | Phase 1 - Template Primitives and Compatibility API | ✓ closed | small | 1 | 1 |
+| [sase-4g.1](sase-4g.1.md) | Phase 1 - Template Primitives and Compatibility API | ✓ closed | small | 1 | 2 |
 | [sase-4g.2](sase-4g.2.md) | Phase 2 - Registry-Backed Allocation and Directive Validation | ✓ closed | small | 1 | 1 |
 | [sase-4g.3](sase-4g.3.md) | Phase 3 - Parent-Side Planned Template Allocation | ✓ closed | small | 1 | 1 |
 | [sase-4g.4](sase-4g.4.md) | Phase 4 - Auto-Name Injection and Fan-Out Naming | ✓ closed | small | 1 | 1 |
@@ -53,7 +53,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-4g](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g/README.md) | [sase-4g](README.md) | 1 |
-| [bbugyi200.athena.sase-4g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.1/README.md) | [sase-4g.1](sase-4g.1.md) | 1 |
+| [bbugyi200.athena.sase-4g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.1/README.md) | [sase-4g.1](sase-4g.1.md) | 2 |
 | [bbugyi200.athena.sase-4g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.2/README.md) | [sase-4g.2](sase-4g.2.md) | 1 |
 | [bbugyi200.athena.sase-4g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.3/README.md) | [sase-4g.3](sase-4g.3.md) | 1 |
 | [bbugyi200.athena.sase-4g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-4g.4/README.md) | [sase-4g.4](sase-4g.4.md) | 1 |
@@ -65,6 +65,7 @@ flowchart TD
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
 | [`7e88250`](https://github.com/sase-org/sase/commit/7e88250d534da3bf6371ec2ed87d7e4d2720bd7f) | feat: add agent name template Python adapter (sase-4g.1) | [sase-4g.1](sase-4g.1.md) | 2026-06-08 19:31:05 |
+| [`sase-core@ad23829`](https://github.com/sase-org/sase-core/commit/ad238295382d1e74401cf494b7b74878b4b7268e) | feat: add agent name template primitives (sase-4g.1) | [sase-4g.1](sase-4g.1.md) | 2026-06-08 19:31:38 |
 | [`2fb3d3b`](https://github.com/sase-org/sase/commit/2fb3d3b5b1c880113d617933fbe6ed550d91cd72) | feat: support registry-backed @ name templates (sase-4g.2) | [sase-4g.2](sase-4g.2.md) | 2026-06-08 19:57:21 |
 | [`8f81b30`](https://github.com/sase-org/sase/commit/8f81b30cd927a12d411799ad84629d4e75b8f22e) | feat: plan generic agent name templates (sase-4g.3) | [sase-4g.3](sase-4g.3.md) | 2026-06-08 20:19:38 |
 | [`59cb6a5`](https://github.com/sase-org/sase/commit/59cb6a5e0d2b27bed270a29315ebdff4fb43fa08) | feat: allocate fan-out names through templates (sase-4g.4) | [sase-4g.4](sase-4g.4.md) | 2026-06-08 20:43:09 |

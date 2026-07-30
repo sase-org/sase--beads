@@ -14,3 +14,15 @@ Phase `core-matching` in approved epic plan `sase/repos/plans/202607/question_no
 ## Dependencies
 
 - **Blocks:** [sase-63.2](sase-63.2.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-63.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-63.1/README.md) | [sase-63.1](sase-63.1.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@be7c3fd`](https://github.com/sase-org/sase-core/commit/be7c3fd56f6074f5d3cb20cf80b40be6346882fe) | fix(notifications): match root agent identities (sase-63.1) | [sase-63.1](sase-63.1.md) | 2026-07-15 14:09:32 |

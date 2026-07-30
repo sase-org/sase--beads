@@ -23,4 +23,11 @@ COMMIT: f6f6a83
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-8u.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8u.1/README.md) | [sase-8u.1](sase-8u.1.md) | 1 |
 | [bbugyi200.athena.sase-8u.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8u.1.md#member-code) | [sase-8u.1](sase-8u.1.md) | 0 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`sase-core@f6f6a83`](https://github.com/sase-org/sase-core/commit/f6f6a83111128cd27e3c85ec4ac84d2a367e12bb) | feat(xprompt): compose capitalized snippet aliases (sase-8u.1) | [sase-8u.1](sase-8u.1.md) | 2026-07-23 12:27:36 |

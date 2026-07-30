@@ -24,4 +24,5 @@ COMMIT: b92f410c
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@dd8c2b8`](https://github.com/sase-org/sase-core/commit/dd8c2b8b30a0a04190af342cc113d9ca38878ebd) | feat: Phase 5C — pure-Rust Git query parsers and PyO3 bindings (sase-1a.3) | [sase-1a.3](sase-1a.3.md) | 2026-04-29 18:49:24 |
 | [`d4828f9`](https://github.com/sase-org/sase/commit/d4828f9a72f52653c883fe344a407f9840877309) | chore: Phase 5C handoff doc for Rust Git query parser port (sase-1a.3) | [sase-1a.3](sase-1a.3.md) | 2026-04-29 18:49:43 |

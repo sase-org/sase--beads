@@ -23,11 +23,12 @@ COMMIT: cf0cea606
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-8m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8m.1/README.md) | [sase-8m.1](sase-8m.1.md) | 1 |
+| [bbugyi200.athena.sase-8m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-8m.1/README.md) | [sase-8m.1](sase-8m.1.md) | 2 |
 | [bbugyi200.athena.sase-8m.1--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-8m.1.md#member-code) | [sase-8m.1](sase-8m.1.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@213bd95`](https://github.com/sase-org/sase-core/commit/213bd95e3567a1397671d511ade911bfb31af3bc) | feat(config): add exact AXE composition planning (sase-8m.1) | [sase-8m.1](sase-8m.1.md) | 2026-07-22 17:22:55 |
 | [`5a9cef8`](https://github.com/sase-org/sase/commit/5a9cef88329bc5f3323603300bc86040509530a0) | feat(axe): apply exact conflict-safe config edits (sase-8m.1) | [sase-8m.1](sase-8m.1.md) | 2026-07-22 17:23:39 |

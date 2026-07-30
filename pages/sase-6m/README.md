@@ -19,9 +19,9 @@ COMMIT: 463fed9
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-6m.1](sase-6m.1.md) | Repeatable agent-input contract | ✓ closed | small | 1 | 1 |
+| [sase-6m.1](sase-6m.1.md) | Repeatable agent-input contract | ✓ closed | small | 1 | 2 |
 | [sase-6m.2](sase-6m.2.md) | Multi-parent fork semantics | ✓ closed | small | 1 | 1 |
-| [sase-6m.3](sase-6m.3.md) | Editor completion parity and end-to-end verification | ✓ closed | small | 1 | 1 |
+| [sase-6m.3](sase-6m.3.md) | Editor completion parity and end-to-end verification | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -42,14 +42,18 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-6m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m.1/README.md) | [sase-6m.1](sase-6m.1.md) | 1 |
+| [bbugyi200.athena.sase-6m](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m/README.md) | [sase-6m](README.md) | 1 |
+| [bbugyi200.athena.sase-6m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m.1/README.md) | [sase-6m.1](sase-6m.1.md) | 2 |
 | [bbugyi200.athena.sase-6m.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m.2/README.md) | [sase-6m.2](sase-6m.2.md) | 1 |
-| [bbugyi200.athena.sase-6m.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m.3/README.md) | [sase-6m.3](sase-6m.3.md) | 1 |
+| [bbugyi200.athena.sase-6m.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-6m.3/README.md) | [sase-6m.3](sase-6m.3.md) | 2 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
+| [`sase-core@e402dca`](https://github.com/sase-org/sase-core/commit/e402dca0ee8ba167d240832e2bd93fd06f1bfec6) | feat(xprompt): add repeatable input metadata (sase-6m.1) | [sase-6m.1](sase-6m.1.md) | 2026-07-17 19:53:49 |
 | [`762736f`](https://github.com/sase-org/sase/commit/762736fd680d566c4961dcd838c621d0e3c272cc) | feat(xprompt)!: support repeatable input binding (sase-6m.1) | [sase-6m.1](sase-6m.1.md) | 2026-07-17 19:55:33 |
 | [`900c75f`](https://github.com/sase-org/sase/commit/900c75f5b1ef2e28d42b4bd593708b5228d3cf41) | feat: support multi-parent fork conversations (sase-6m.2) | [sase-6m.2](sase-6m.2.md) | 2026-07-17 20:18:21 |
+| [`sase-core@c084b6e`](https://github.com/sase-org/sase-core/commit/c084b6e82b07f9b469b965996862d9da43d15bba) | feat(lsp): complete repeatable agent arguments (sase-6m.3) | [sase-6m.3](sase-6m.3.md) | 2026-07-17 20:52:43 |
 | [`0de3c14`](https://github.com/sase-org/sase/commit/0de3c14e23925147089050adcfd9940e95054a2a) | feat(editor): complete repeatable agent arguments (sase-6m.3) | [sase-6m.3](sase-6m.3.md) | 2026-07-17 20:53:33 |
+| [`sase--plans@463fed9`](https://github.com/sase-org/sase--plans/commit/463fed98b0195aa0744bfa496b8ee0a492e0e235) | docs: mark multi-parent fork plan done (sase-6m) | [sase-6m](README.md) | 2026-07-17 21:10:02 |
