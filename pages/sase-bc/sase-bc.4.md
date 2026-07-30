@@ -14,7 +14,7 @@ deploy-verify: add the research-highlights file_hooks entry to the chezmoi-manag
 ## Dependencies
 
 - **Depends on:** [sase-bc.1](sase-bc.1.md) ✓
-- **Depends on:** [sase-bc.3](sase-bc.3.md) ◐
+- **Depends on:** [sase-bc.3](sase-bc.3.md) ✓
 
 ## Agents
 

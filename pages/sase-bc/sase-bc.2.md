@@ -19,7 +19,7 @@ hooks-config: add the `file_hooks` section to the sase config schema and default
 
 ## Dependencies
 
-- **Blocks:** [sase-bc.3](sase-bc.3.md) ◐
+- **Blocks:** [sase-bc.3](sase-bc.3.md) ✓
 
 ## Agents
 
