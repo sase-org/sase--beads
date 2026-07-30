@@ -18,3 +18,9 @@ titles: give each LSP payload row the title ACE shows (document frontmatter titl
 ## Dependencies
 
 - **Blocks:** [sase-b3.10.3](sase-b3.10.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.2/README.md) | [sase-b3.10.2](sase-b3.10.2.md) | 0 |

@@ -19,3 +19,9 @@ binding: add the opaque AtReferenceInventory pyclass built once off-thread, let 
 
 - **Depends on:** [sase-b3.3](sase-b3.3.md) ✓
 - **Blocks:** [sase-b3.6](sase-b3.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.4/README.md) | [sase-b3.4](sase-b3.4.md) | 0 |

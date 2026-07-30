@@ -20,3 +20,9 @@ menu: rewire build_at_reference_menu onto the fuzzy matcher for kinds, payloads,
 - **Depends on:** [sase-b3.1](sase-b3.1.md) ✓
 - **Blocks:** [sase-b3.4](sase-b3.4.md) ✓
 - **Blocks:** [sase-b3.5](sase-b3.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.3/README.md) | [sase-b3.3](sase-b3.3.md) | 0 |

@@ -18,3 +18,9 @@ rank: replace the case-insensitive starts_with prefilters in append_agent_page_c
 ## Dependencies
 
 - **Blocks:** [sase-b3.10.3](sase-b3.10.3.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.1/README.md) | [sase-b3.10.1](sase-b3.10.1.md) | 0 |
