@@ -13,5 +13,11 @@ py_cli: expand `@bead:`/`@agent:` to their page paths at launch, make `sase arti
 
 ## Dependencies
 
-- **Depends on:** [sase-b2.4](sase-b2.4.md) ◐
+- **Depends on:** [sase-b2.4](sase-b2.4.md) ✓
 - **Blocks:** [sase-b2.8](sase-b2.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.5/README.md) | [sase-b2.5](sase-b2.5.md) | 0 |
