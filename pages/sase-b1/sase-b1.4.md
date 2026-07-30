@@ -21,3 +21,15 @@ runner-capture: give the used-xprompts collector a swarm-names parameter that pr
 
 - **Depends on:** [sase-b1.2](sase-b1.2.md) ✓
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.4/README.md) | [sase-b1.4](sase-b1.4.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`01f9912`](https://github.com/sase-org/sase/commit/01f9912ce6ef3042d2761de1d40aba7d602c29b4) | feat(xprompts): capture swarm launch provenance | [sase-b1.4](sase-b1.4.md) | 2026-07-30 02:14:48 |

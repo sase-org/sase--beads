@@ -18,3 +18,9 @@ core-swarm-kind: in the sibling sase-core repo, normalize a "swarm" kind in the 
 ## Dependencies
 
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.3/README.md) | [sase-b1.3](sase-b1.3.md) | 0 |
