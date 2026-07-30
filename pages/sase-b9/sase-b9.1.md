@@ -17,7 +17,7 @@ core-ledger: add a tolerant consumption-log reader, a per-reference aggregation 
 
 ## Dependencies
 
-- **Blocks:** [sase-b9.2](sase-b9.2.md) ◐
+- **Blocks:** [sase-b9.2](sase-b9.2.md) ✓
 
 ## Agents
 
@@ -29,4 +29,4 @@ core-ledger: add a tolerant consumption-log reader, a per-reference aggregation 
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase-core | [`1bd3670`](https://github.com/sase-org/sase-core/commit/1bd3670481a252fa449f6d5885673eb7ecbcc427) | feat: add artifact consumption ledger queries | [sase-b9.1](sase-b9.1.md) | 2026-07-30 14:49:24 |
+| sase-core | [`sase-core@1bd3670`](https://github.com/sase-org/sase-core/commit/1bd3670481a252fa449f6d5885673eb7ecbcc427) | feat: add artifact consumption ledger queries | [sase-b9.1](sase-b9.1.md) | 2026-07-30 14:49:24 |

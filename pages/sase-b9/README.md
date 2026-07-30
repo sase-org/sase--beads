@@ -16,7 +16,7 @@ Every artifact reference an agent actually consumes at launch is recorded as a t
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-b9.1](sase-b9.1.md) | Rust core: consumption ledger reading, aggregation, and the unused query filter | ✓ closed | medium | 1 | 1 |
-| [sase-b9.2](sase-b9.2.md) | Python ledger module and the expansion call site | ◐ in_progress | medium | 1 | 0 |
+| [sase-b9.2](sase-b9.2.md) | Python ledger module and the expansion call site | ✓ closed | medium | 1 | 1 |
 | [sase-b9.3](sase-b9.3.md) | Consumption on \`sase artifact show\` and \`--unused\` on \`sase artifact list\` | ◐ in_progress | medium | 1 | 0 |
 | [sase-b9.4](sase-b9.4.md) | Docs, skill, and ledger reference | ◐ in_progress | small | 1 | 0 |
 
@@ -26,7 +26,7 @@ Every artifact reference an agent actually consumes at launch is recorded as a t
 flowchart TD
     n0["sase-b9: Record artifact consumption at `@`-ref expansion [in_progress]"]
     n1["sase-b9.1: Rust core: consumption ledger reading, aggregation, and the unused query filter [closed]"]
-    n2["sase-b9.2: Python ledger module and the expansion call site [in_progress]"]
+    n2["sase-b9.2: Python ledger module and the expansion call site [closed]"]
     n3["sase-b9.3: Consumption on `sase artifact show` and `--unused` on `sase artifact list` [in_progress]"]
     n4["sase-b9.4: Docs, skill, and ledger reference [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-b9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.1/README.md) | [sase-b9.1](sase-b9.1.md) | 1 |
-| [bbugyi200.athena.sase-b9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.2/README.md) | [sase-b9.2](sase-b9.2.md) | 0 |
+| [bbugyi200.athena.sase-b9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.2/README.md) | [sase-b9.2](sase-b9.2.md) | 1 |
 | [bbugyi200.athena.sase-b9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.3/README.md) | [sase-b9.3](sase-b9.3.md) | 0 |
 | [bbugyi200.athena.sase-b9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.4/README.md) | [sase-b9.4](sase-b9.4.md) | 0 |
 | [bbugyi200.athena.sase-b9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b9.land/README.md) | [sase-b9](README.md) | 0 |
@@ -52,4 +52,5 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase-core | [`1bd3670`](https://github.com/sase-org/sase-core/commit/1bd3670481a252fa449f6d5885673eb7ecbcc427) | feat: add artifact consumption ledger queries | [sase-b9.1](sase-b9.1.md) | 2026-07-30 14:49:24 |
+| sase-core | [`sase-core@1bd3670`](https://github.com/sase-org/sase-core/commit/1bd3670481a252fa449f6d5885673eb7ecbcc427) | feat: add artifact consumption ledger queries | [sase-b9.1](sase-b9.1.md) | 2026-07-30 14:49:24 |
+| sase | [`3a0a92d`](https://github.com/sase-org/sase/commit/3a0a92d84cffe20b3f1a9e7f57f4eb57ecb190f9) | feat: record artifact consumption during prompt expansion | [sase-b9.2](sase-b9.2.md) | 2026-07-30 15:30:03 |
