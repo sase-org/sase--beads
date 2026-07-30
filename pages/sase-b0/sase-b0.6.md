@@ -18,7 +18,7 @@ copy-refs: give Files real copy verbs — y reference, Y anchored stored path, a
 ## Dependencies
 
 - **Depends on:** [sase-b0.5](sase-b0.5.md) ✓
-- **Blocks:** [sase-b0.7](sase-b0.7.md) ◐
+- **Blocks:** [sase-b0.7](sase-b0.7.md) ✓
 
 ## Agents
 
