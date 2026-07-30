@@ -20,7 +20,7 @@ core_resolve: extend `ArtifactRefContextWire` with bead stores, agent roots, and
 ## Dependencies
 
 - **Depends on:** [sase-b2.1](sase-b2.1.md) ✓
-- **Blocks:** [sase-b2.3](sase-b2.3.md) ◐
+- **Blocks:** [sase-b2.3](sase-b2.3.md) ✓
 - **Blocks:** [sase-b2.4](sase-b2.4.md) ◐
 
 ## Agents
