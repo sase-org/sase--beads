@@ -14,5 +14,5 @@ reach: raise the per-root 200-row bound so editors see the corpus ACE sees, cach
 ## Dependencies
 
 - **Depends on:** [sase-b3.10.1](sase-b3.10.1.md) ✓
-- **Depends on:** [sase-b3.10.2](sase-b3.10.2.md) ◐
+- **Depends on:** [sase-b3.10.2](sase-b3.10.2.md) ✓
 - **Blocks:** [sase-b3.10.4](sase-b3.10.4.md) ◐

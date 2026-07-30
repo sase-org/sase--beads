@@ -33,7 +33,7 @@ flowchart TD
     n1["sase-b3.1: Canonical fuzzy matcher in sase-core [closed]"]
     n2["sase-b3.10: Editor parity for fuzzy artifact-reference completion [in_progress]"]
     n3["sase-b3.10.1: Fuzzy ranking in the agent and indexed-file collectors [closed]"]
-    n4["sase-b3.10.2: Real titles on editor payload rows [in_progress]"]
+    n4["sase-b3.10.2: Real titles on editor payload rows [closed]"]
     n5["sase-b3.10.3: Editor payload reach and disclosed truncation [in_progress]"]
     n6["sase-b3.10.4: Docs, release, and epic landing [in_progress]"]
     n7["sase-b3.2: Bundled document discovery depth [closed]"]
@@ -78,6 +78,7 @@ flowchart TD
 |---|---|---:|
 | bbugyi200.athena.sase-b3.1 | [sase-b3.1](sase-b3.1.md) | 1 |
 | bbugyi200.athena.sase-b3.10.1 | [sase-b3.10.1](sase-b3.10.1.md) | 1 |
+| bbugyi200.athena.sase-b3.10.2 | [sase-b3.10.2](sase-b3.10.2.md) | 1 |
 | bbugyi200.athena.sase-b3.2 | [sase-b3.2](sase-b3.2.md) | 1 |
 | bbugyi200.athena.sase-b3.3 | [sase-b3.3](sase-b3.3.md) | 1 |
 | bbugyi200.athena.sase-b3.4 | [sase-b3.4](sase-b3.4.md) | 1 |
@@ -93,3 +94,4 @@ flowchart TD
 | [`374cfc3`](https://github.com/sase-org/sase-core/commit/374cfc37ede51b4b0f41dd0ce2e796597b1dbc97) | feat(lsp): serve server-ranked fuzzy artifact references | [sase-b3.5](sase-b3.5.md) | 2026-07-30 08:54:49 |
 | [`1290667`](https://github.com/sase-org/sase-core/commit/12906673cb769a4c2f9d9d499df4968e2132329c) | feat(editor): add indexed at-reference payload binding | [sase-b3.4](sase-b3.4.md) | 2026-07-30 09:02:20 |
 | [`149aee8`](https://github.com/sase-org/sase-core/commit/149aee8f2a88ac282ba395a807a485f031ce11fa) | feat(editor): rank agent and indexed-file completions with the fuzzy matcher | [sase-b3.10.1](sase-b3.10.1.md) | 2026-07-30 11:12:07 |
+| [`dee5430`](https://github.com/sase-org/sase-core/commit/dee54308c88b7f9bdd5d249a5086c10f24805384) | fix(editor): preserve artifact reference titles in completions | [sase-b3.10.2](sase-b3.10.2.md) | 2026-07-30 11:16:10 |
