@@ -28,13 +28,13 @@ EVIDENCE: just lint clean; full just test green at 24126 passed / 7 skipped, inc
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b0.1](sase-b0.1.md) | Register the Files sub-tab across TUI plumbing | ✓ closed | medium | 1 | 1 |
-| [sase-b0.2](sase-b0.2.md) | Files list, kind icons, and off-thread loading | ✓ closed | medium | 1 | 1 |
-| [sase-b0.3](sase-b0.3.md) | Files detail panel with reference, metadata, and liveness | ✓ closed | medium | 1 | 1 |
-| [sase-b0.4](sase-b0.4.md) | Files filter bar, kind cycle, and in-memory filtering | ✓ closed | medium | 1 | 1 |
-| [sase-b0.5](sase-b0.5.md) | Smart open, viewer hand-off, external open, and agent jump | ✓ closed | medium | 1 | 1 |
-| [sase-b0.6](sase-b0.6.md) | Copy verbs, the % menu, and the file reference branch | ✓ closed | medium | 1 | 1 |
-| [sase-b0.7](sase-b0.7.md) | Visual snapshots and documentation polish | ✓ closed | small | 1 | 1 |
+| [sase-b0.1](sase-b0.1.md) | Register the Files sub-tab across TUI plumbing | ✓ closed | medium | 0 | 0 |
+| [sase-b0.2](sase-b0.2.md) | Files list, kind icons, and off-thread loading | ✓ closed | medium | 0 | 0 |
+| [sase-b0.3](sase-b0.3.md) | Files detail panel with reference, metadata, and liveness | ✓ closed | medium | 0 | 0 |
+| [sase-b0.4](sase-b0.4.md) | Files filter bar, kind cycle, and in-memory filtering | ✓ closed | medium | 0 | 0 |
+| [sase-b0.5](sase-b0.5.md) | Smart open, viewer hand-off, external open, and agent jump | ✓ closed | medium | 0 | 0 |
+| [sase-b0.6](sase-b0.6.md) | Copy verbs, the % menu, and the file reference branch | ✓ closed | medium | 0 | 0 |
+| [sase-b0.7](sase-b0.7.md) | Visual snapshots and documentation polish | ✓ closed | small | 0 | 0 |
 
 ## Lineage
 
@@ -69,24 +69,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.1/README.md) | [sase-b0.1](sase-b0.1.md) | 1 |
-| [bbugyi200.athena.sase-b0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.2/README.md) | [sase-b0.2](sase-b0.2.md) | 1 |
-| [bbugyi200.athena.sase-b0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.3/README.md) | [sase-b0.3](sase-b0.3.md) | 1 |
-| [bbugyi200.athena.sase-b0.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.4/README.md) | [sase-b0.4](sase-b0.4.md) | 1 |
-| [bbugyi200.athena.sase-b0.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.5/README.md) | [sase-b0.5](sase-b0.5.md) | 1 |
-| [bbugyi200.athena.sase-b0.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.6/README.md) | [sase-b0.6](sase-b0.6.md) | 1 |
-| [bbugyi200.athena.sase-b0.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.7/README.md) | [sase-b0.7](sase-b0.7.md) | 1 |
-| [bbugyi200.athena.sase-b0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.land/README.md) | [sase-b0](README.md) | 1 |
+| bbugyi200.athena.sase-b0.land | [sase-b0](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`49e6b4c`](https://github.com/sase-org/sase/commit/49e6b4cd17708195e8843d3806c98551f3846244) | feat(tui): scaffold artifacts files tab | [sase-b0.1](sase-b0.1.md) | 2026-07-29 23:50:34 |
-| [`2edfc8b`](https://github.com/sase-org/sase/commit/2edfc8b7071b29aa44e8d58338184c1887c53ffe) | feat(ace): add artifact files list browsing | [sase-b0.2](sase-b0.2.md) | 2026-07-30 00:31:36 |
-| [`f0c803a`](https://github.com/sase-org/sase/commit/f0c803af859c627c92f2e52e02f7e1628d71c4b4) | feat(ace): add artifact file detail panel | [sase-b0.3](sase-b0.3.md) | 2026-07-30 00:54:05 |
-| [`842723f`](https://github.com/sase-org/sase/commit/842723f6f6db058f7d301d732e61bb24aaf052f5) | feat(ace): add artifact file filtering | [sase-b0.4](sase-b0.4.md) | 2026-07-30 01:01:36 |
-| [`f5df5e1`](https://github.com/sase-org/sase/commit/f5df5e12221c5da96fdd9f542ce481ee2f327914) | feat(ace): add artifact file open actions | [sase-b0.5](sase-b0.5.md) | 2026-07-30 01:05:36 |
-| [`fec7898`](https://github.com/sase-org/sase/commit/fec7898b284d148c7c3ac2ba168ca8b6f24dfa3e) | feat(ace): add artifact file copy actions | [sase-b0.6](sase-b0.6.md) | 2026-07-30 01:30:31 |
-| [`7994afa`](https://github.com/sase-org/sase/commit/7994afadcfcc49a1fb51045f136b900c31bb5a76) | docs(ace): document Files pane and add PNG snapshot coverage | [sase-b0.7](sase-b0.7.md) | 2026-07-30 02:07:42 |
-| [`8fa0f57`](https://github.com/sase-org/sase/commit/8fa0f573a6f0895d263598b7c588e9774c4aa142) | fix(ace): align Files path preview with what the copy yields | [sase-b0](README.md) | 2026-07-30 02:50:02 |
+| [`0e9a47b`](https://github.com/sase-org/sase--plans/commit/0e9a47b37264331843ddfdd6e78491579280e04c) | docs(plans): mark Artifacts Files sub-tab complete | [sase-b0](README.md) | 2026-07-30 02:51:18 |

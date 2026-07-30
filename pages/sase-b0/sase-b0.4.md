@@ -21,15 +21,3 @@ filters: add the Files filter bar with kind/project/agent/workflow/ origin/since
 
 - **Depends on:** [sase-b0.2](sase-b0.2.md) ✓
 - **Blocks:** [sase-b0.7](sase-b0.7.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b0.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.4/README.md) | [sase-b0.4](sase-b0.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`842723f`](https://github.com/sase-org/sase/commit/842723f6f6db058f7d301d732e61bb24aaf052f5) | feat(ace): add artifact file filtering | [sase-b0.4](sase-b0.4.md) | 2026-07-30 01:01:36 |
