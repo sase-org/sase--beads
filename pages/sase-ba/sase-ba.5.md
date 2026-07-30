@@ -26,10 +26,11 @@ retention-config: add the `artifacts.retention` configuration block defaulting t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ba.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ba.5/README.md) | [sase-ba.5](sase-ba.5.md) | 1 |
+| [bbugyi200.athena.sase-ba.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ba.5/README.md) | [sase-ba.5](sase-ba.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`6999e31`](https://github.com/sase-org/sase/commit/6999e31a3dd9b90e117ae36efe30a4a113fccdb9) | feat(artifacts): add opt-in retention policy | [sase-ba.5](sase-ba.5.md) | 2026-07-30 17:12:09 |
+| sase | [`1a4e838`](https://github.com/sase-org/sase/commit/1a4e838df607139e5402596398ea666b77280389) | test(artifacts): align retention fixtures with protection ids | [sase-ba.5](sase-ba.5.md) | 2026-07-30 17:30:16 |
