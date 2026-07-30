@@ -18,7 +18,7 @@ read-surfaces: add the Rust-backed summary facade, report consumption counts and
 ## Dependencies
 
 - **Depends on:** [sase-b9.2](sase-b9.2.md) ✓
-- **Blocks:** [sase-b9.4](sase-b9.4.md) ◐
+- **Blocks:** [sase-b9.4](sase-b9.4.md) ✓
 
 ## Agents
 
