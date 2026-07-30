@@ -19,7 +19,7 @@ catalog: load document payloads per document role with per-role caps instead of 
 
 - **Depends on:** [sase-b3.2](sase-b3.2.md) ✓
 - **Depends on:** [sase-b3.4](sase-b3.4.md) ✓
-- **Blocks:** [sase-b3.7](sase-b3.7.md) ◐
+- **Blocks:** [sase-b3.7](sase-b3.7.md) ✓
 
 ## Agents
 
