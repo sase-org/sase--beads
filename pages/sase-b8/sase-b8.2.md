@@ -18,7 +18,7 @@ tag: make the runtime commit-footer tag carry the lane label and the lane page d
 ## Dependencies
 
 - **Depends on:** [sase-b8.1](sase-b8.1.md) ✓
-- **Blocks:** [sase-b8.5](sase-b8.5.md) ◐
+- **Blocks:** [sase-b8.5](sase-b8.5.md) ✓
 - **Blocks:** [sase-b8.6](sase-b8.6.md) ◐
 - **Blocks:** [sase-b8.7](sase-b8.7.md) ✓
 - **Blocks:** [sase-b8.8](sase-b8.8.md) ◐

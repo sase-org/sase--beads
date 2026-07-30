@@ -20,7 +20,7 @@ snapshot: extend the v2 hood snapshot so family containers own lane-attributed c
 ## Dependencies
 
 - **Depends on:** [sase-b8.1](sase-b8.1.md) ✓
-- **Blocks:** [sase-b8.5](sase-b8.5.md) ◐
+- **Blocks:** [sase-b8.5](sase-b8.5.md) ✓
 - **Blocks:** [sase-b8.8](sase-b8.8.md) ◐
 
 ## Agents

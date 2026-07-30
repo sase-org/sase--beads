@@ -15,7 +15,7 @@ docs: update the commit-workflow, agents-sidecar, and SDD docs to describe lane-
 
 - **Depends on:** [sase-b8.2](sase-b8.2.md) ✓
 - **Depends on:** [sase-b8.4](sase-b8.4.md) ✓
-- **Depends on:** [sase-b8.5](sase-b8.5.md) ◐
+- **Depends on:** [sase-b8.5](sase-b8.5.md) ✓
 - **Depends on:** [sase-b8.6](sase-b8.6.md) ◐
 - **Depends on:** [sase-b8.7](sase-b8.7.md) ✓
 
