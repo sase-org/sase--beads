@@ -17,18 +17,18 @@ anchor: add a shared resolver that maps any path inside a managed checkout — i
 
 ## Dependencies
 
-- **Blocks:** [sase-b5.2](sase-b5.2.md) ◐
-- **Blocks:** [sase-b5.3](sase-b5.3.md) ◐
+- **Blocks:** [sase-b5.2](sase-b5.2.md) ✓
+- **Blocks:** [sase-b5.3](sase-b5.3.md) ✓
 - **Blocks:** [sase-b5.4](sase-b5.4.md) ◐
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b5.1 | [sase-b5.1](sase-b5.1.md) | 1 |
+| [bbugyi200.athena.sase-b5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.1/README.md) | [sase-b5.1](sase-b5.1.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`218e78c`](https://github.com/sase-org/sase--plans/commit/218e78c4d802c357276be9866ed89786795914c7) | docs: add missing prompt backlinks | [sase-b5.1](sase-b5.1.md) | 2026-07-30 12:09:38 |
+| [`ad0f038`](https://github.com/sase-org/sase/commit/ad0f038a05e9b840247a5c97822c2ee3ebb05830) | feat(sdd): add checkout anchor resolver | [sase-b5.1](sase-b5.1.md) | 2026-07-30 12:08:28 |
