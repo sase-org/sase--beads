@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-b0](README.md) / sase-b0.3
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-b0.3` · **Size:** medium
-**Created:** 2026-07-29 23:13:57 UTC
+**Created:** 2026-07-29 23:13:57 UTC · **Closed:** 2026-07-30 00:52:27 UTC
 **Plan:** [202607/artifacts\_files\_subtab.md](https://github.com/sase-org/sase--plans/blob/main/202607/artifacts_files_subtab.md)
 
 ## Description
 
 detail: build the debounced, worker-backed detail panel — reference line with resolved stored path, file metadata with graceful unenriched fallbacks and the doctor hint, origin sentence, path liveness badges, and a bounded text preview for text-like rows.
+
+## Notes
+
+[2026-07-30T00:52:27Z · sase-b0.3] Verified Files detail reference/metadata/origin/path-liveness rendering, bounded text previews, media omission, stat-keyed caching, and rapid-navigation debounce with 15 focused tests; full just test: 24,008 passed, 7 skipped. Formatting, Ruff, mypy, Symvision, and diff checks pass; just check reaches only the pre-existing shared SDD prompt-link validation errors.
+
+[2026-07-30T00:53:20Z · sase-b0.3] Verified focused Files detail suite (15 passed), full test suite (24,008 passed, 7 skipped), and formatting, Ruff, mypy, Symvision, and diff checks; just check is blocked only by pre-existing shared SDD prompt-link errors.
 
 ## Dependencies
 
@@ -20,4 +26,10 @@ detail: build the debounced, worker-backed detail panel — reference line with 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.3/README.md) | [sase-b0.3](sase-b0.3.md) | 0 |
+| [bbugyi200.athena.sase-b0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.3/README.md) | [sase-b0.3](sase-b0.3.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`f0c803a`](https://github.com/sase-org/sase/commit/f0c803af859c627c92f2e52e02f7e1628d71c4b4) | feat(ace): add artifact file detail panel | [sase-b0.3](sase-b0.3.md) | 2026-07-30 00:54:05 |

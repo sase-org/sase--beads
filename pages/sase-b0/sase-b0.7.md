@@ -13,7 +13,7 @@ visual-docs: add populated and empty PNG snapshot coverage for the Files pane, v
 
 ## Dependencies
 
-- **Depends on:** [sase-b0.3](sase-b0.3.md) ◐
+- **Depends on:** [sase-b0.3](sase-b0.3.md) ✓
 - **Depends on:** [sase-b0.4](sase-b0.4.md) ◐
 - **Depends on:** [sase-b0.6](sase-b0.6.md) ◐
 
