@@ -19,7 +19,7 @@ publish: stop letting the committing repository masquerade as the primary reposi
 
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
 - **Blocks:** [sase-b5.4](sase-b5.4.md) ✓
-- **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
+- **Blocks:** [sase-b5.5](sase-b5.5.md) ✓
 
 ## Agents
 

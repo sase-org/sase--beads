@@ -20,7 +20,7 @@ agentlinks: make the hosted agents-sidecar remote lookup and the SASE_AGENT comm
 ## Dependencies
 
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
-- **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
+- **Blocks:** [sase-b5.5](sase-b5.5.md) ✓
 
 ## Agents
 
