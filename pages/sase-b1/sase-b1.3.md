@@ -11,6 +11,10 @@
 
 core-swarm-kind: in the sibling sase-core repo, normalize a "swarm" kind in the agent-scan xprompts.json loader so it survives into the statistics wire, extend the Rust tests, and commit with Conventional Commits so release-plz computes the version.
 
+## Notes
+
+[2026-07-30T01:19:04Z · sase-b1.3] Implemented swarm kind normalization in sase-core and verified with cargo test -p sase_core xprompt, cargo test -p sase_core, and cargo test --workspace.
+
 ## Dependencies
 
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ◐
@@ -19,10 +23,4 @@ core-swarm-kind: in the sibling sase-core repo, normalize a "swarm" kind in the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b1.3 | [sase-b1.3](sase-b1.3.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`009036d`](https://github.com/sase-org/sase-core/commit/009036d3298873f093ab96e2a05716a5540f31d1) | feat(agent-scan): preserve swarm xprompt kind | [sase-b1.3](sase-b1.3.md) | 2026-07-30 01:18:06 |
+| [bbugyi200.athena.sase-b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.3/README.md) | [sase-b1.3](sase-b1.3.md) | 0 |

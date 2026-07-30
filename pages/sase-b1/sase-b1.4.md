@@ -15,3 +15,9 @@ runner-capture: give the used-xprompts collector a swarm-names parameter that pr
 
 - **Depends on:** [sase-b1.2](sase-b1.2.md) ◐
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.4/README.md) | [sase-b1.4](sase-b1.4.md) | 0 |

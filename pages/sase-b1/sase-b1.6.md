@@ -14,3 +14,9 @@ docs-and-goldens: bump the sase-core-rs floor to the published version containin
 ## Dependencies
 
 - **Depends on:** [sase-b1.5](sase-b1.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.6/README.md) | [sase-b1.6](sase-b1.6.md) | 0 |

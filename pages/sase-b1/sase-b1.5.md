@@ -16,3 +16,9 @@ tui-labels: label the new kind in the Statistics XPrompts table and focus header
 - **Depends on:** [sase-b1.3](sase-b1.3.md) ✓
 - **Depends on:** [sase-b1.4](sase-b1.4.md) ◐
 - **Blocks:** [sase-b1.6](sase-b1.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.5/README.md) | [sase-b1.5](sase-b1.5.md) | 0 |
