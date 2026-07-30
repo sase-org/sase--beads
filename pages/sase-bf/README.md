@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.4/README.md) | [sase-bf.4](sase-bf.4.md) | 1 |
 | [bbugyi200.athena.sase-bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.5/README.md) | [sase-bf.5](sase-bf.5.md) | 1 |
 | [bbugyi200.athena.sase-bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.6/README.md) | [sase-bf.6](sase-bf.6.md) | 2 |
-| [bbugyi200.athena.sase-bf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.land/README.md) | [sase-bf](README.md) | 1 |
+| [bbugyi200.athena.sase-bf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.land/README.md) | [sase-bf](README.md) | 2 |
 
 ## Commits
 
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`b66357e`](https://github.com/sase-org/sase/commit/b66357ee238c45291b58764504232d2397f0e872) | feat(agents-sync): publish structured output variables | [sase-bf.5](sase-bf.5.md) | 2026-07-30 22:19:33 |
 | sase | [`668bf20`](https://github.com/sase-org/sase/commit/668bf209d35dd7cabc6c0b5bfb64b60f6f9e31f5) | feat(ace): render structured output variables | [sase-bf.4](sase-bf.4.md) | 2026-07-30 22:32:57 |
 | sase | [`c9fe376`](https://github.com/sase-org/sase/commit/c9fe3761864d0597c52f4fb34cf5fc683fb409ad) | refactor(var): drop unused output-variable helpers | [sase-bf](README.md) | 2026-07-30 23:01:59 |
+| sase--plans | [`sase--plans@b624454`](https://github.com/sase-org/sase--plans/commit/b6244542f41941c86ca7a2c793a0297082d76433) | docs(plans): mark structured\_sase\_variables plan done | [sase-bf](README.md) | 2026-07-30 23:13:20 |
