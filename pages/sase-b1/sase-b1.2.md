@@ -18,7 +18,7 @@ launch-env-plumbing: thread the per-segment swarm chain through the CLI and ACE 
 ## Dependencies
 
 - **Depends on:** [sase-b1.1](sase-b1.1.md) ✓
-- **Blocks:** [sase-b1.4](sase-b1.4.md) ◐
+- **Blocks:** [sase-b1.4](sase-b1.4.md) ✓
 
 ## Agents
 
