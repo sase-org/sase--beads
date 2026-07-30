@@ -19,7 +19,7 @@ A bead and a ChangeSpec each carry a durable, ordered list of canonical artifact
 | [sase-bb.2](sase-bb.2.md) | The bead refs field in the Rust core | ✓ closed | medium | 1 | 1 |
 | [sase-bb.3](sase-bb.3.md) | Python bead refs, show, and doctor | ✓ closed | medium | 1 | 2 |
 | [sase-bb.4](sase-bb.4.md) | The ChangeSpec REFS section in Python, CLI, and ACE | ◐ in_progress | medium | 1 | 0 |
-| [sase-bb.5](sase-bb.5.md) | Published pages, ACE Plans tab, mobile bridge, and declaration | ◐ in_progress | small | 1 | 0 |
+| [sase-bb.5](sase-bb.5.md) | Published pages, ACE Plans tab, mobile bridge, and declaration | ✓ closed | small | 1 | 1 |
 | [sase-bb.6](sase-bb.6.md) | Documentation, skills, and the live-store audit | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-bb.2: The bead refs field in the Rust core [closed]"]
     n3["sase-bb.3: Python bead refs, show, and doctor [closed]"]
     n4["sase-bb.4: The ChangeSpec REFS section in Python, CLI, and ACE [in_progress]"]
-    n5["sase-bb.5: Published pages, ACE Plans tab, mobile bridge, and declaration [in_progress]"]
+    n5["sase-bb.5: Published pages, ACE Plans tab, mobile bridge, and declaration [closed]"]
     n6["sase-bb.6: Documentation, skills, and the live-store audit [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.2/README.md) | [sase-bb.2](sase-bb.2.md) | 1 |
 | [bbugyi200.athena.sase-bb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.3/README.md) | [sase-bb.3](sase-bb.3.md) | 2 |
 | [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 0 |
-| [bbugyi200.athena.sase-bb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.5/README.md) | [sase-bb.5](sase-bb.5.md) | 0 |
+| [bbugyi200.athena.sase-bb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.5/README.md) | [sase-bb.5](sase-bb.5.md) | 1 |
 | [bbugyi200.athena.sase-bb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.6/README.md) | [sase-bb.6](sase-bb.6.md) | 0 |
 | [bbugyi200.athena.sase-bb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.land/README.md) | [sase-bb](README.md) | 0 |
 
@@ -68,3 +68,4 @@ flowchart TD
 | sase-core | [`sase-core@1355649`](https://github.com/sase-org/sase-core/commit/1355649d6bc2306ca5b8ab386772237c05f1f07a) | feat: add artifact references to beads | [sase-bb.2](sase-bb.2.md) | 2026-07-30 15:55:18 |
 | sase-core | [`sase-core@d9e4fca`](https://github.com/sase-org/sase-core/commit/d9e4fca4adfe3edaa6ec16c9e171d98ae743906d) | fix(bead): preserve refs and expose doctor context | [sase-bb.3](sase-bb.3.md) | 2026-07-30 16:38:20 |
 | sase | [`4aee2f4`](https://github.com/sase-org/sase/commit/4aee2f49fecb256d4ed5a06b23c0f401f94b3da8) | feat(bead): integrate persistent artifact references | [sase-bb.3](sase-bb.3.md) | 2026-07-30 16:48:49 |
+| sase | [`87ece3e`](https://github.com/sase-org/sase/commit/87ece3ee34d613780923e2d9d9a2f0349ff12f0a) | feat(artifact): surface bead references and attach on create | [sase-bb.5](sase-bb.5.md) | 2026-07-30 17:27:18 |
