@@ -18,7 +18,7 @@ py-report: raise the `sase-core-rs` pin, add the Python bridges for economics an
 ## Dependencies
 
 - **Depends on:** [sase-ba.1](sase-ba.1.md) ✓
-- **Blocks:** [sase-ba.3](sase-ba.3.md) ◐
+- **Blocks:** [sase-ba.3](sase-ba.3.md) ✓
 
 ## Agents
 

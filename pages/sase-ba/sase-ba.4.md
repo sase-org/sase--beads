@@ -13,7 +13,7 @@ py-reclaim: add `sase artifact reclaim`, which converts stored automatic rows wh
 
 ## Dependencies
 
-- **Depends on:** [sase-ba.3](sase-ba.3.md) ◐
+- **Depends on:** [sase-ba.3](sase-ba.3.md) ✓
 - **Blocks:** [sase-ba.6](sase-ba.6.md) ◐
 
 ## Agents

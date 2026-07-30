@@ -13,7 +13,7 @@ retention-config: add the `artifacts.retention` configuration block defaulting t
 
 ## Dependencies
 
-- **Depends on:** [sase-ba.3](sase-ba.3.md) ◐
+- **Depends on:** [sase-ba.3](sase-ba.3.md) ✓
 - **Blocks:** [sase-ba.6](sase-ba.6.md) ◐
 
 ## Agents
