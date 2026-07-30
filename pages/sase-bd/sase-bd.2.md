@@ -19,7 +19,7 @@ core-close-verified: preflight every requested ID into closed / already-closed /
 
 - **Depends on:** [sase-bd.1](sase-bd.1.md) ✓
 - **Blocks:** [sase-bd.3](sase-bd.3.md) ✓
-- **Blocks:** [sase-bd.4](sase-bd.4.md) ◐
+- **Blocks:** [sase-bd.4](sase-bd.4.md) ✓
 
 ## Agents
 

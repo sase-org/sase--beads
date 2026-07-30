@@ -24,10 +24,4 @@ core-note-append: add a `note_appended` event whose payload carries only the ent
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.3/README.md) | [sase-bd.3](sase-bd.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|---|
-| sase-core | [`sase-core@81a82d5`](https://github.com/sase-org/sase-core/commit/81a82d5542f1160f24b5aa7314ce32d2732e8952) | feat(bead)!: add convergent note append events | [sase-bd.3](sase-bd.3.md) | 2026-07-30 18:29:21 |
+| [bbugyi200.athena.sase-bd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.3/README.md) | [sase-bd.3](sase-bd.3.md) | 0 |
