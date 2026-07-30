@@ -14,7 +14,7 @@ docs: update the artifact-reference, ACE, editor, beads, and agents-sidecar docu
 ## Dependencies
 
 - **Depends on:** [sase-b2.3](sase-b2.3.md) ✓
-- **Depends on:** [sase-b2.5](sase-b2.5.md) ◐
+- **Depends on:** [sase-b2.5](sase-b2.5.md) ✓
 - **Depends on:** [sase-b2.7](sase-b2.7.md) ◐
 - **Blocks:** [sase-b2.9](sase-b2.9.md) ◐
 
