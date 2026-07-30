@@ -11,9 +11,13 @@
 
 fuzzy: add the shared tier/score/runs fuzzy matcher and its ordering comparator to crates/sase_core/src/editor/fuzzy.rs, with the three-pass alignment that makes highlights land on the segment the user meant.
 
+## Notes
+
+[2026-07-30T08:29:14Z · sase-b3.1] Verified cargo fmt --all -- --check, cargo clippy --workspace --all-targets -- -D warnings, and cargo test --workspace; published sase-core commit 36f1d29.
+
 ## Dependencies
 
-- **Blocks:** [sase-b3.3](sase-b3.3.md) ◐
+- **Blocks:** [sase-b3.3](sase-b3.3.md) ✓
 
 ## Agents
 

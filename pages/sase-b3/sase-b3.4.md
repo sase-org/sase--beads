@@ -13,5 +13,5 @@ binding: add the opaque AtReferenceInventory pyclass built once off-thread, let 
 
 ## Dependencies
 
-- **Depends on:** [sase-b3.3](sase-b3.3.md) ◐
+- **Depends on:** [sase-b3.3](sase-b3.3.md) ✓
 - **Blocks:** [sase-b3.6](sase-b3.6.md) ◐
