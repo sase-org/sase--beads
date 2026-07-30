@@ -13,7 +13,7 @@ runner-capture: give the used-xprompts collector a swarm-names parameter that pr
 
 ## Dependencies
 
-- **Depends on:** [sase-b1.2](sase-b1.2.md) ◐
+- **Depends on:** [sase-b1.2](sase-b1.2.md) ✓
 - **Blocks:** [sase-b1.5](sase-b1.5.md) ◐
 
 ## Agents

@@ -17,7 +17,7 @@ swarm-provenance: add an ordered outer-to-inner swarm-name chain to the expanded
 
 ## Dependencies
 
-- **Blocks:** [sase-b1.2](sase-b1.2.md) ◐
+- **Blocks:** [sase-b1.2](sase-b1.2.md) ✓
 
 ## Agents
 
