@@ -13,7 +13,7 @@ docs-and-skill: document VCS-backed artifact files in the `sase_artifact_file` s
 
 ## Dependencies
 
-- **Depends on:** [sase-b7.4](sase-b7.4.md) ◐
+- **Depends on:** [sase-b7.4](sase-b7.4.md) ✓
 
 ## Agents
 

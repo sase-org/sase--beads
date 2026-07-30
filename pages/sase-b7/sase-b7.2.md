@@ -17,7 +17,7 @@ capture-policy: add a pure decision module that classifies every capture candida
 
 ## Dependencies
 
-- **Blocks:** [sase-b7.4](sase-b7.4.md) ◐
+- **Blocks:** [sase-b7.4](sase-b7.4.md) ✓
 
 ## Agents
 
