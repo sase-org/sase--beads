@@ -19,3 +19,15 @@ lsp: return an incomplete list with filter text equal to the typed reference so 
 
 - **Depends on:** [sase-b3.3](sase-b3.3.md) ✓
 - **Blocks:** [sase-b3.9](sase-b3.9.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| bbugyi200.athena.sase-b3.5 | [sase-b3.5](sase-b3.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`374cfc3`](https://github.com/sase-org/sase-core/commit/374cfc37ede51b4b0f41dd0ce2e796597b1dbc97) | feat(lsp): serve server-ranked fuzzy artifact references | [sase-b3.5](sase-b3.5.md) | 2026-07-30 08:54:49 |

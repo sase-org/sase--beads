@@ -29,15 +29,3 @@ Not done, deliberately: no CHANGELOG.md entry — CONTRIBUTING.md and the 'lint 
 
 - **Depends on:** [sase-b3.5](sase-b3.5.md) ✓
 - **Depends on:** [sase-b3.8](sase-b3.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| bbugyi200.athena.sase-b3.9 | [sase-b3.9](sase-b3.9.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`6c21bbb`](https://github.com/sase-org/sase--plans/commit/6c21bbb69813313c3f2106a008e3e35f86bd4398) | docs: add the missing prompt link to the fuzzy completion plan | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:36:36 |
