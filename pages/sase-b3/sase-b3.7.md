@@ -20,7 +20,7 @@ tui: render payload rows as the reference path with dim directories, a bright ba
 ## Dependencies
 
 - **Depends on:** [sase-b3.6](sase-b3.6.md) ✓
-- **Blocks:** [sase-b3.8](sase-b3.8.md) ◐
+- **Blocks:** [sase-b3.8](sase-b3.8.md) ✓
 
 ## Agents
 
