@@ -11,10 +11,14 @@
 
 core-close-verified: preflight every requested ID into closed / already-closed / conflicting, abort the whole batch before any write when an explicit resolution or reason disagrees with the recorded close, and report the classification through new outcome-wire fields.
 
+## Notes
+
+[2026-07-30T18:11:59Z · sase-bd.2] Verified repeat close is byte- and event-free; note-only retries preserve closed_at; conflicting resolution/reason abort mixed batches before writes; absent resolution accepts canceled closes; forced/delegated cascades classify separately; cargo fmt, clippy -D warnings, and full cargo test --workspace pass.
+
 ## Dependencies
 
 - **Depends on:** [sase-bd.1](sase-bd.1.md) ✓
-- **Blocks:** [sase-bd.3](sase-bd.3.md) ◐
+- **Blocks:** [sase-bd.3](sase-bd.3.md) ✓
 - **Blocks:** [sase-bd.4](sase-bd.4.md) ◐
 
 ## Agents

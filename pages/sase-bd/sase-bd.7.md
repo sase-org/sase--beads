@@ -13,7 +13,7 @@ floor-docs: raise the published sase-core-rs window to the release containing th
 
 ## Dependencies
 
-- **Depends on:** [sase-bd.3](sase-bd.3.md) ◐
+- **Depends on:** [sase-bd.3](sase-bd.3.md) ✓
 - **Depends on:** [sase-bd.4](sase-bd.4.md) ◐
 - **Depends on:** [sase-bd.5](sase-bd.5.md) ◐
 - **Depends on:** [sase-bd.6](sase-bd.6.md) ◐
