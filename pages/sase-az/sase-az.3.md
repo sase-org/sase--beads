@@ -13,7 +13,7 @@ palette: make the copy prefix open a compact grouped palette modal built from th
 
 ## Dependencies
 
-- **Depends on:** [sase-az.2](sase-az.2.md) ◐
+- **Depends on:** [sase-az.2](sase-az.2.md) ✓
 - **Blocks:** [sase-az.4](sase-az.4.md) ◐
 
 ## Agents

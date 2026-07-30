@@ -17,7 +17,7 @@ delivery: add a unified copy-delivery module that pairs Textual's OSC 52 write w
 
 ## Dependencies
 
-- **Blocks:** [sase-az.2](sase-az.2.md) ◐
+- **Blocks:** [sase-az.2](sase-az.2.md) ✓
 
 ## Agents
 
