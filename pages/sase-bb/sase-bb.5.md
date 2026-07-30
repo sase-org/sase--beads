@@ -13,7 +13,7 @@ surfaces: render bead references on published pages and in the ACE Plans detail 
 
 ## Dependencies
 
-- **Depends on:** [sase-bb.3](sase-bb.3.md) ◐
+- **Depends on:** [sase-bb.3](sase-bb.3.md) ✓
 - **Blocks:** [sase-bb.6](sase-bb.6.md) ◐
 
 ## Agents

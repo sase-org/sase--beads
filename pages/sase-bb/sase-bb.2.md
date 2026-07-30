@@ -18,7 +18,7 @@ core-beads: give beads a `refs` list with its own add and remove events, SQLite 
 ## Dependencies
 
 - **Depends on:** [sase-bb.1](sase-bb.1.md) ✓
-- **Blocks:** [sase-bb.3](sase-bb.3.md) ◐
+- **Blocks:** [sase-bb.3](sase-bb.3.md) ✓
 
 ## Agents
 

@@ -13,7 +13,7 @@ changespecs: parse, format, and atomically persist the REFS section in Python, c
 
 ## Dependencies
 
-- **Depends on:** [sase-bb.3](sase-bb.3.md) ◐
+- **Depends on:** [sase-bb.3](sase-bb.3.md) ✓
 - **Blocks:** [sase-bb.6](sase-bb.6.md) ◐
 
 ## Agents
