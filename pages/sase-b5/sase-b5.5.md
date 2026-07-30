@@ -15,7 +15,7 @@ repair: republish every generated bead page from the corrected projection, confi
 
 - **Depends on:** [sase-b5.2](sase-b5.2.md) ✓
 - **Depends on:** [sase-b5.3](sase-b5.3.md) ✓
-- **Depends on:** [sase-b5.4](sase-b5.4.md) ◐
+- **Depends on:** [sase-b5.4](sase-b5.4.md) ✓
 
 ## Agents
 

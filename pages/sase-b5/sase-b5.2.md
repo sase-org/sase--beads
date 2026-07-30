@@ -18,11 +18,17 @@ publish: stop letting the committing repository masquerade as the primary reposi
 ## Dependencies
 
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
-- **Blocks:** [sase-b5.4](sase-b5.4.md) ◐
+- **Blocks:** [sase-b5.4](sase-b5.4.md) ✓
 - **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.2/README.md) | [sase-b5.2](sase-b5.2.md) | 0 |
+| [bbugyi200.athena.sase-b5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.2/README.md) | [sase-b5.2](sase-b5.2.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`5ba1f08`](https://github.com/sase-org/sase/commit/5ba1f08d0262d14300f295b60b8fee2df3866d50) | fix: anchor bead page publication on primary checkout | [sase-b5.2](sase-b5.2.md) | 2026-07-30 12:39:39 |

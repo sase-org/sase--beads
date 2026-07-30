@@ -19,7 +19,7 @@ anchor: add a shared resolver that maps any path inside a managed checkout — i
 
 - **Blocks:** [sase-b5.2](sase-b5.2.md) ✓
 - **Blocks:** [sase-b5.3](sase-b5.3.md) ✓
-- **Blocks:** [sase-b5.4](sase-b5.4.md) ◐
+- **Blocks:** [sase-b5.4](sase-b5.4.md) ✓
 
 ## Agents
 
