@@ -22,9 +22,3 @@ core_resolve: extend `ArtifactRefContextWire` with bead stores, agent roots, and
 - **Depends on:** [sase-b2.1](sase-b2.1.md) ✓
 - **Blocks:** [sase-b2.3](sase-b2.3.md) ✓
 - **Blocks:** [sase-b2.4](sase-b2.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.2/README.md) | [sase-b2.2](sase-b2.2.md) | 0 |

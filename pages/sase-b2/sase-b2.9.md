@@ -18,15 +18,3 @@ pin: after the sase-core release publishes, raise the `sase-core-rs` floor to th
 ## Dependencies
 
 - **Depends on:** [sase-b2.8](sase-b2.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.9/README.md) | [sase-b2.9](sase-b2.9.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`40f61ab`](https://github.com/sase-org/sase/commit/40f61abb525eec988a3959c1449543502b7a0112) | build(deps): raise the sase-core-rs floor to 0.12.17 | [sase-b2.9](sase-b2.9.md) | 2026-07-30 03:42:42 |

@@ -19,9 +19,3 @@ core_editor: teach the shared editor layer the two new kinds — diagnostics now
 
 - **Depends on:** [sase-b2.2](sase-b2.2.md) ✓
 - **Blocks:** [sase-b2.8](sase-b2.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.3/README.md) | [sase-b2.3](sase-b2.3.md) | 0 |

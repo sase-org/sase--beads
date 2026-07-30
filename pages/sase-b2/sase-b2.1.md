@@ -18,9 +18,3 @@ core_grammar: add the `Bead { id }` and `Agent { name }` kind/payload wire varia
 ## Dependencies
 
 - **Blocks:** [sase-b2.2](sase-b2.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.1/README.md) | [sase-b2.1](sase-b2.1.md) | 0 |

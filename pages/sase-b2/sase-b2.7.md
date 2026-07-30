@@ -21,15 +21,3 @@ py_copy: make `%@` on an epic/phase row copy `bead:<id>`, move the design plan r
 
 - **Depends on:** [sase-b2.6](sase-b2.6.md) ✓
 - **Blocks:** [sase-b2.8](sase-b2.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.7/README.md) | [sase-b2.7](sase-b2.7.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`751f469`](https://github.com/sase-org/sase/commit/751f4695712a5cc7d6e68d6c30b930157e6cda84) | feat(ace): copy bead and agent references | [sase-b2.7](sase-b2.7.md) | 2026-07-30 03:02:05 |
