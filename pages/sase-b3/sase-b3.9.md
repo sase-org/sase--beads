@@ -40,4 +40,4 @@ Not done, deliberately: no CHANGELOG.md entry — CONTRIBUTING.md and the 'lint 
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`2e0f6a0`](https://github.com/sase-org/sase-nvim/commit/2e0f6a08a437b171e69e15c17a5300b75c37c395) | docs: document fuzzy artifact reference completion | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:35:51 |
+| [`6c21bbb`](https://github.com/sase-org/sase--plans/commit/6c21bbb69813313c3f2106a008e3e35f86bd4398) | docs: add the missing prompt link to the fuzzy completion plan | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:36:36 |

@@ -29,4 +29,4 @@ land: correct the docs/editor.md reachability claims, publish the sase-core rele
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`caf0d51`](https://github.com/sase-org/sase-nvim/commit/caf0d51d5da86980f68a852a69d83ef01720ae8a) | test: cover fuzzy agent-reference completion end to end | [sase-b3.10.4](sase-b3.10.4.md) | 2026-07-30 12:00:58 |
+| [`898f0fb`](https://github.com/sase-org/sase--plans/commit/898f0fb6a43a150f8d80c489ae2f22d55602d846) | docs: mark the editor artifact-ref parity plan done | [sase-b3.10.4](sase-b3.10.4.md) | 2026-07-30 12:01:56 |
