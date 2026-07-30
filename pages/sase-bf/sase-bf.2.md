@@ -11,6 +11,10 @@
 
 core-wire-json: generalize OutputVariableValue in the sase-core agent-scan wire from text-or-string-list to a bounded JSON value, release sase-core, bump the sase-core-rs pin here, and widen the Python wire marker type.
 
+## Notes
+
+[2026-07-30T21:59:00Z · sase-bf.2] Verified sase-core with cargo fmt --all -- --check, cargo test --workspace, and cargo clippy --workspace --all-targets -- -D warnings; released v0.16.0 through release-plz and confirmed the complete GitHub/PyPI workflow; verified the Python v0.16.0 install, published-minimum guard, uv lock, 15 focused scan/index/wire/version tests, and all formatter/linter gates. Full Python run reached 24,503 passing tests with one unrelated ACE visual contention timeout that passed in isolation; just check is otherwise blocked only by pre-existing generated-skill and SDD plan-link validation drift.
+
 ## Dependencies
 
 - **Blocks:** [sase-bf.4](sase-bf.4.md) ◐
