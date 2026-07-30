@@ -39,8 +39,8 @@ flowchart TD
     n8["sase-bd.8: Repair the live store under an approval gate [closed]"]
     n9["sase-bd.9: Land bead close integrity — unblock the core release and finish the repair [in_progress]"]
     n10["sase-bd.9.1: Unblock sase-core master [closed]"]
-    n11["sase-bd.9.2: Publish the release containing all four core commits [in_progress]"]
-    n12["sase-bd.9.3: Make the declared core floor honest [in_progress]"]
+    n11["sase-bd.9.2: Publish the release containing all four core commits [closed]"]
+    n12["sase-bd.9.3: Make the declared core floor honest [closed]"]
     n13["sase-bd.9.4: Put the lost-note restore to the user [in_progress]"]
     n14["sase-bd.9.5: Close the epic [in_progress]"]
     n0 --> n1
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bd.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.8/README.md) | [sase-bd.8](sase-bd.8.md) | 0 |
 | [bbugyi200.athena.sase-bd.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.1/README.md) | [sase-bd.9.1](sase-bd.9.1.md) | 1 |
 | [bbugyi200.athena.sase-bd.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.2/README.md) | [sase-bd.9.2](sase-bd.9.2.md) | 0 |
-| [bbugyi200.athena.sase-bd.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.3/README.md) | [sase-bd.9.3](sase-bd.9.3.md) | 0 |
+| [bbugyi200.athena.sase-bd.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.3/README.md) | [sase-bd.9.3](sase-bd.9.3.md) | 1 |
 | [bbugyi200.athena.sase-bd.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.4/README.md) | [sase-bd.9.4](sase-bd.9.4.md) | 0 |
 | [bbugyi200.athena.sase-bd.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.5/README.md) | [sase-bd.9.5](sase-bd.9.5.md) | 0 |
 | [bbugyi200.athena.sase-bd.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.9.land/README.md) | [sase-bd.9](sase-bd.9.md) | 0 |
@@ -106,3 +106,4 @@ flowchart TD
 | sase | [`9fdae1e`](https://github.com/sase-org/sase/commit/9fdae1e1e1349d255f0800d3a4cc481d48159c00) | feat(beads): repair stale event projections | [sase-bd.5](sase-bd.5.md) | 2026-07-30 18:59:54 |
 | sase | [`5a8dc1c`](https://github.com/sase-org/sase/commit/5a8dc1cbadfcdd15df3c45568b6e5bfb5e217374) | build(deps): require sase-core-rs 0.14.2 | [sase-bd.7](sase-bd.7.md) | 2026-07-30 19:35:03 |
 | sase-core | [`sase-core@407965e`](https://github.com/sase-org/sase-core/commit/407965ef793c629511d972e3c30f9a767a1cd898) | fix(bead): satisfy clippy in the doctor reader | [sase-bd.9.1](sase-bd.9.1.md) | 2026-07-30 20:22:53 |
+| sase | [`f115e8f`](https://github.com/sase-org/sase/commit/f115e8f7adac806b0545e5718948f01e55ecd1e5) | build(deps): require sase-core-rs 0.15.0 | [sase-bd.9.3](sase-bd.9.3.md) | 2026-07-30 21:06:38 |

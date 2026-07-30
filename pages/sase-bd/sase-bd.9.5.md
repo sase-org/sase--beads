@@ -13,7 +13,7 @@ land: close the epic bead with a note covering what was verified, run symvision 
 
 ## Dependencies
 
-- **Depends on:** [sase-bd.9.3](sase-bd.9.3.md) ◐
+- **Depends on:** [sase-bd.9.3](sase-bd.9.3.md) ✓
 - **Depends on:** [sase-bd.9.4](sase-bd.9.4.md) ◐
 
 ## Agents
