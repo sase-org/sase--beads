@@ -13,7 +13,7 @@ docs-and-ledger-reference: document the ledger file, its record shape, the role 
 
 ## Dependencies
 
-- **Depends on:** [sase-b9.3](sase-b9.3.md) ◐
+- **Depends on:** [sase-b9.3](sase-b9.3.md) ✓
 
 ## Agents
 

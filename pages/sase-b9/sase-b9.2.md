@@ -20,7 +20,7 @@ py-ledger: raise the core pin, add the event record with its role vocabulary and
 ## Dependencies
 
 - **Depends on:** [sase-b9.1](sase-b9.1.md) ✓
-- **Blocks:** [sase-b9.3](sase-b9.3.md) ◐
+- **Blocks:** [sase-b9.3](sase-b9.3.md) ✓
 
 ## Agents
 
