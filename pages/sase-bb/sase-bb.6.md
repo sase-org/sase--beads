@@ -13,8 +13,8 @@ docs: document the bead field and the ChangeSpec section, update the affected sk
 
 ## Dependencies
 
-- **Depends on:** [sase-bb.4](sase-bb.4.md) ◐
-- **Depends on:** [sase-bb.5](sase-bb.5.md) ✓
+- **Depends on:** [sase-bb.4](sase-bb.4.md) ✓
+- **Depends on:** [sase-bb.5](sase-bb.5.md) ◐
 
 ## Agents
 

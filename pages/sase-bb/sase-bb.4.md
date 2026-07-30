@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-bb](README.md) / sase-bb.4
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bb.4` · **Size:** medium
-**Created:** 2026-07-30 14:53:54 UTC
+**Created:** 2026-07-30 14:53:54 UTC · **Closed:** 2026-07-30 17:40:47 UTC
 **Plan:** [202607/spec\_artifact\_references.md](https://github.com/sase-org/sase--plans/blob/main/202607/spec_artifact_references.md)
 
 ## Description
 
 changespecs: parse, format, and atomically persist the REFS section in Python, consolidate the duplicated section-boundary tables onto one constant, add `sase changespec ref`, render REFS in the ACE CLI and TUI, and add the `sase doctor` validation check.
+
+## Notes
+
+[2026-07-30T17:40:47Z · sase-bb.4] Implemented Python ChangeSpec REFS parsing/model/wire consumption, canonical section-boundary consolidation, normalized atomic persistence, sase changespec ref add/list/rm with current-checkout defaults and batched resolution, ACE CLI/TUI/clipboard/search rendering, project.changespec_refs doctor validation, and sase-nvim syntax highlighting. Verified just check passes; focused suite passes 149 tests; live .venv doctor -C project.changespec_refs reports OK for 38 ChangeSpecs with no findings; Neovim sources syntax/sase_gp.vim headlessly; both worktree diffs pass git diff --check.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ changespecs: parse, format, and atomically persist the REFS section in Python, c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 0 |
+| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`f921f42`](https://github.com/sase-org/sase/commit/f921f428dba97720bec8b0853fc5e6bcb34f535c) | feat(changespec): add artifact reference support | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:42:33 |
