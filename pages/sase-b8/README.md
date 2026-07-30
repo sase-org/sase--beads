@@ -17,7 +17,7 @@ Commits made by an agent family member are published, tagged, and linked as thei
 |---|---|---|---|---:|---:|
 | [sase-b8.1](sase-b8.1.md) | Shared agent-lane vocabulary | ✓ closed | small | 1 | 1 |
 | [sase-b8.2](sase-b8.2.md) | Lane-scoped SASE\_AGENT commit tag | ✓ closed | small | 1 | 1 |
-| [sase-b8.3](sase-b8.3.md) | Lane-anchored sidecar publication requests | ◐ in_progress | small | 1 | 0 |
+| [sase-b8.3](sase-b8.3.md) | Lane-anchored sidecar publication requests | ✓ closed | small | 1 | 1 |
 | [sase-b8.4](sase-b8.4.md) | Family containers carry their lane commits | ✓ closed | medium | 1 | 1 |
 | [sase-b8.5](sase-b8.5.md) | Lane-keyed commit history in the sidecar inventory | ◐ in_progress | medium | 1 | 0 |
 | [sase-b8.6](sase-b8.6.md) | Lane-based plan and bead agent associations | ◐ in_progress | medium | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n0["sase-b8: Anchor agent commit provenance on the agent lane instead of the family member [in_progress]"]
     n1["sase-b8.1: Shared agent-lane vocabulary [closed]"]
     n2["sase-b8.2: Lane-scoped SASE_AGENT commit tag [closed]"]
-    n3["sase-b8.3: Lane-anchored sidecar publication requests [in_progress]"]
+    n3["sase-b8.3: Lane-anchored sidecar publication requests [closed]"]
     n4["sase-b8.4: Family containers carry their lane commits [closed]"]
     n5["sase-b8.5: Lane-keyed commit history in the sidecar inventory [in_progress]"]
     n6["sase-b8.6: Lane-based plan and bead agent associations [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-b8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.1/README.md) | [sase-b8.1](sase-b8.1.md) | 1 |
 | [bbugyi200.athena.sase-b8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.2/README.md) | [sase-b8.2](sase-b8.2.md) | 1 |
-| [bbugyi200.athena.sase-b8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.3/README.md) | [sase-b8.3](sase-b8.3.md) | 0 |
+| [bbugyi200.athena.sase-b8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.3/README.md) | [sase-b8.3](sase-b8.3.md) | 1 |
 | [bbugyi200.athena.sase-b8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.4/README.md) | [sase-b8.4](sase-b8.4.md) | 1 |
 | [bbugyi200.athena.sase-b8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.5/README.md) | [sase-b8.5](sase-b8.5.md) | 0 |
 | [bbugyi200.athena.sase-b8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b8.6/README.md) | [sase-b8.6](sase-b8.6.md) | 0 |
@@ -80,3 +80,4 @@ flowchart TD
 | sase | [`c537f7e`](https://github.com/sase-org/sase/commit/c537f7e03de7315d07f041def613cbba0bcde354) | feat(agents): add shared agent-lane vocabulary | [sase-b8.1](sase-b8.1.md) | 2026-07-30 14:51:14 |
 | sase | [`59b0ecd`](https://github.com/sase-org/sase/commit/59b0ecd227a23891e7c6ed0eb588376a9a3b7135) | feat(agents-sync): preserve family lane commits | [sase-b8.4](sase-b8.4.md) | 2026-07-30 15:12:22 |
 | sase | [`5f94aae`](https://github.com/sase-org/sase/commit/5f94aae4009ad5f260446a26d0f4d8e0c3f47e4e) | fix: tag family agent commits by lane | [sase-b8.2](sase-b8.2.md) | 2026-07-30 15:28:42 |
+| sase | [`1cd59c3`](https://github.com/sase-org/sase/commit/1cd59c3b11e16835ab23dc030f8234e871bb194e) | feat(agents): anchor sidecar publication requests on the agent lane | [sase-b8.3](sase-b8.3.md) | 2026-07-30 15:40:37 |
