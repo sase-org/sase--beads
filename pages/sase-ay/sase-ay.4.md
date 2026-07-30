@@ -17,7 +17,7 @@ panel_rows: derive the visible-row budget from the panel's real content capacity
 
 ## Dependencies
 
-- **Blocks:** [sase-ay.7](sase-ay.7.md) ◐
+- **Blocks:** [sase-ay.7](sase-ay.7.md) ✓
 
 ## Agents
 
