@@ -11,6 +11,10 @@
 
 lsp: return an incomplete list with filter text equal to the typed reference so clients keep server-ranked fuzzy rows, and put the matched runs and title into item documentation and label details.
 
+## Notes
+
+[2026-07-30T08:55:45Z · sase-b3.5] LSP @-reference completion now returns CompletionList{isIncomplete:true} with every item's filterText set to the typed reference (@kind:query / @query), sortText-ranked by the shared core matcher; documentation previews the payload with matched runs bolded plus the title, labelDetails.detail carries the title (suppressed when it just echoes the payload). Also dropped the starts_with prefilter from the document/chat and bead payload collectors (already query-independently bounded by bounded_relative_files) so fuzzy rows can reach editors at all. Verified: new server test proves @designs:site surfaces a bundled 202607/<bundle>/*.md row with correct filterText/newText/bolding, two lsp_convert unit tests cover payload+kind stages; cargo fmt --check, cargo clippy --workspace --all-targets -D warnings, and cargo test --workspace (all green). Committed and pushed as 374cfc3.
+
 ## Dependencies
 
 - **Depends on:** [sase-b3.3](sase-b3.3.md) ✓

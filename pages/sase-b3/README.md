@@ -18,7 +18,7 @@ Typing an artifact reference finds the file by any memorable fragment of its pat
 | [sase-b3.1](sase-b3.1.md) | Canonical fuzzy matcher in sase-core | ✓ closed | medium | 1 | 1 |
 | [sase-b3.2](sase-b3.2.md) | Bundled document discovery depth | ✓ closed | small | 1 | 1 |
 | [sase-b3.3](sase-b3.3.md) | Fuzzy at-reference menu and match runs on the wire | ✓ closed | medium | 1 | 1 |
-| [sase-b3.4](sase-b3.4.md) | Zero-marshalling payload index binding | ◐ in_progress | medium | 0 | 0 |
+| [sase-b3.4](sase-b3.4.md) | Zero-marshalling payload index binding | ✓ closed | medium | 1 | 1 |
 | [sase-b3.5](sase-b3.5.md) | Server-side fuzzy completion for editors | ✓ closed | small | 1 | 1 |
 | [sase-b3.6](sase-b3.6.md) | Reachable, bounded, per-kind payload catalogs | ◐ in_progress | medium | 0 | 0 |
 | [sase-b3.7](sase-b3.7.md) | Prompt-input rendering of paths and matched runs | ◐ in_progress | medium | 0 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n1["sase-b3.1: Canonical fuzzy matcher in sase-core [closed]"]
     n2["sase-b3.2: Bundled document discovery depth [closed]"]
     n3["sase-b3.3: Fuzzy at-reference menu and match runs on the wire [closed]"]
-    n4["sase-b3.4: Zero-marshalling payload index binding [in_progress]"]
+    n4["sase-b3.4: Zero-marshalling payload index binding [closed]"]
     n5["sase-b3.5: Server-side fuzzy completion for editors [closed]"]
     n6["sase-b3.6: Reachable, bounded, per-kind payload catalogs [in_progress]"]
     n7["sase-b3.7: Prompt-input rendering of paths and matched runs [in_progress]"]
@@ -66,6 +66,7 @@ flowchart TD
 | bbugyi200.athena.sase-b3.1 | [sase-b3.1](sase-b3.1.md) | 1 |
 | bbugyi200.athena.sase-b3.2 | [sase-b3.2](sase-b3.2.md) | 1 |
 | bbugyi200.athena.sase-b3.3 | [sase-b3.3](sase-b3.3.md) | 1 |
+| bbugyi200.athena.sase-b3.4 | [sase-b3.4](sase-b3.4.md) | 1 |
 | bbugyi200.athena.sase-b3.5 | [sase-b3.5](sase-b3.5.md) | 1 |
 
 ## Commits
@@ -76,3 +77,4 @@ flowchart TD
 | [`1c7057f`](https://github.com/sase-org/sase-core/commit/1c7057fbd97519a4486ddeb9e07bd4d467090895) | fix(plan): discover bundled document corpora | [sase-b3.2](sase-b3.2.md) | 2026-07-30 08:29:59 |
 | [`b5c99ce`](https://github.com/sase-org/sase-core/commit/b5c99ce08161800e65f8895b10eb5c594759986e) | feat(editor): fuzzy-match artifact reference menus | [sase-b3.3](sase-b3.3.md) | 2026-07-30 08:42:07 |
 | [`374cfc3`](https://github.com/sase-org/sase-core/commit/374cfc37ede51b4b0f41dd0ce2e796597b1dbc97) | feat(lsp): serve server-ranked fuzzy artifact references | [sase-b3.5](sase-b3.5.md) | 2026-07-30 08:54:49 |
+| [`1290667`](https://github.com/sase-org/sase-core/commit/12906673cb769a4c2f9d9d499df4968e2132329c) | feat(editor): add indexed at-reference payload binding | [sase-b3.4](sase-b3.4.md) | 2026-07-30 09:02:20 |
