@@ -21,7 +21,7 @@ var-value-model: introduce the JSON value model (validation, normalization, caps
 
 - **Blocks:** [sase-bf.3](sase-bf.3.md) ✓
 - **Blocks:** [sase-bf.4](sase-bf.4.md) ◐
-- **Blocks:** [sase-bf.5](sase-bf.5.md) ◐
+- **Blocks:** [sase-bf.5](sase-bf.5.md) ✓
 - **Blocks:** [sase-bf.6](sase-bf.6.md) ✓
 
 ## Agents
