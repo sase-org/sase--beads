@@ -15,8 +15,8 @@ Automatic artifact capture keeps bytes only for files an agent authored that ver
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b7.1](sase-b7.1.md) | Rust core: VCS-backed records and on-demand materialization | ◐ in_progress | medium | 1 | 0 |
-| [sase-b7.2](sase-b7.2.md) | Capture policy — the authorship and version-control decision | ✓ closed | medium | 1 | 1 |
+| [sase-b7.1](sase-b7.1.md) | Rust core: VCS-backed records and on-demand materialization | ✓ closed | medium | 1 | 1 |
+| [sase-b7.2](sase-b7.2.md) | Capture policy — the authorship and version-control decision | ✓ closed | medium | 1 | 0 |
 | [sase-b7.3](sase-b7.3.md) | Python record, doctor, and read surfaces | ◐ in_progress | medium | 1 | 0 |
 | [sase-b7.4](sase-b7.4.md) | Wire the policy into finalization capture | ◐ in_progress | small | 1 | 0 |
 | [sase-b7.5](sase-b7.5.md) | Docs, skill, and configuration reference | ◐ in_progress | small | 1 | 0 |
@@ -26,7 +26,7 @@ Automatic artifact capture keeps bytes only for files an agent authored that ver
 ```mermaid
 flowchart TD
     n0["sase-b7: Make artifact capture mean authorship and stop copying what version control stores [in_progress]"]
-    n1["sase-b7.1: Rust core: VCS-backed records and on-demand materialization [in_progress]"]
+    n1["sase-b7.1: Rust core: VCS-backed records and on-demand materialization [closed]"]
     n2["sase-b7.2: Capture policy — the authorship and version-control decision [closed]"]
     n3["sase-b7.3: Python record, doctor, and read surfaces [in_progress]"]
     n4["sase-b7.4: Wire the policy into finalization capture [in_progress]"]
@@ -46,8 +46,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.1/README.md) | [sase-b7.1](sase-b7.1.md) | 0 |
-| [bbugyi200.athena.sase-b7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.2/README.md) | [sase-b7.2](sase-b7.2.md) | 1 |
+| [bbugyi200.athena.sase-b7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.1/README.md) | [sase-b7.1](sase-b7.1.md) | 1 |
+| [bbugyi200.athena.sase-b7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.2/README.md) | [sase-b7.2](sase-b7.2.md) | 0 |
 | [bbugyi200.athena.sase-b7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.3/README.md) | [sase-b7.3](sase-b7.3.md) | 0 |
 | [bbugyi200.athena.sase-b7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.4/README.md) | [sase-b7.4](sase-b7.4.md) | 0 |
 | [bbugyi200.athena.sase-b7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.5/README.md) | [sase-b7.5](sase-b7.5.md) | 0 |
@@ -57,4 +57,4 @@ flowchart TD
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`d309f95`](https://github.com/sase-org/sase/commit/d309f95370d8ecd8bda05e89b3e80057d3d6ca94) | feat: add authorship-aware artifact capture policy | [sase-b7.2](sase-b7.2.md) | 2026-07-30 13:18:52 |
+| [`sase-core@ee287b0`](https://github.com/sase-org/sase-core/commit/ee287b0523c8d611e9ce7935fc2a534287b7b104) | feat!: materialize VCS-backed artifact files | [sase-b7.1](sase-b7.1.md) | 2026-07-30 13:22:25 |

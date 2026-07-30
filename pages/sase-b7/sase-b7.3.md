@@ -13,7 +13,7 @@ py-record: mirror the new record fields in Python, make ids and dedupe keys work
 
 ## Dependencies
 
-- **Depends on:** [sase-b7.1](sase-b7.1.md) ◐
+- **Depends on:** [sase-b7.1](sase-b7.1.md) ✓
 - **Blocks:** [sase-b7.4](sase-b7.4.md) ◐
 
 ## Agents
