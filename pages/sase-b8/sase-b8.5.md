@@ -14,7 +14,7 @@ inventory: read lane-tagged commit history, keep solo attribution unchanged, rou
 ## Dependencies
 
 - **Depends on:** [sase-b8.2](sase-b8.2.md) ◐
-- **Depends on:** [sase-b8.4](sase-b8.4.md) ◐
+- **Depends on:** [sase-b8.4](sase-b8.4.md) ✓
 - **Blocks:** [sase-b8.8](sase-b8.8.md) ◐
 
 ## Agents

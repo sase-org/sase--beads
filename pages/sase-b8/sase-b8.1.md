@@ -19,7 +19,7 @@ lanes: add the Python lane projection (lane name, lane kind, lane page path) com
 
 - **Blocks:** [sase-b8.2](sase-b8.2.md) ◐
 - **Blocks:** [sase-b8.3](sase-b8.3.md) ◐
-- **Blocks:** [sase-b8.4](sase-b8.4.md) ◐
+- **Blocks:** [sase-b8.4](sase-b8.4.md) ✓
 
 ## Agents
 
