@@ -16,9 +16,3 @@ publish: stop letting the committing repository masquerade as the primary reposi
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
 - **Blocks:** [sase-b5.4](sase-b5.4.md) ◐
 - **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.2/README.md) | [sase-b5.2](sase-b5.2.md) | 0 |

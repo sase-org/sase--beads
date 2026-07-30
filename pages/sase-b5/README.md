@@ -16,10 +16,10 @@ A published bead page lists every commit and agent actually associated with that
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-b5.1](sase-b5.1.md) | Sidecar-aware primary checkout and owning-project resolver | ✓ closed | small | 1 | 1 |
-| [sase-b5.2](sase-b5.2.md) | Anchor bead-page publication and refresh on the resolved primary repository | ◐ in_progress | small | 1 | 0 |
-| [sase-b5.3](sase-b5.3.md) | Resolve agent links from any repository in the workspace | ◐ in_progress | medium | 1 | 0 |
-| [sase-b5.4](sase-b5.4.md) | Associate bead commits across every repository the project owns | ◐ in_progress | medium | 1 | 0 |
-| [sase-b5.5](sase-b5.5.md) | Regenerate degraded pages and verify the sase-b3 lineage end to end | ◐ in_progress | small | 1 | 0 |
+| [sase-b5.2](sase-b5.2.md) | Anchor bead-page publication and refresh on the resolved primary repository | ◐ in_progress | small | 0 | 0 |
+| [sase-b5.3](sase-b5.3.md) | Resolve agent links from any repository in the workspace | ◐ in_progress | medium | 0 | 0 |
+| [sase-b5.4](sase-b5.4.md) | Associate bead commits across every repository the project owns | ◐ in_progress | medium | 0 | 0 |
+| [sase-b5.5](sase-b5.5.md) | Regenerate degraded pages and verify the sase-b3 lineage end to end | ◐ in_progress | small | 0 | 0 |
 
 ## Lineage
 
@@ -49,15 +49,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.1/README.md) | [sase-b5.1](sase-b5.1.md) | 1 |
-| [bbugyi200.athena.sase-b5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.2/README.md) | [sase-b5.2](sase-b5.2.md) | 0 |
-| [bbugyi200.athena.sase-b5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.3/README.md) | [sase-b5.3](sase-b5.3.md) | 0 |
-| [bbugyi200.athena.sase-b5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.4/README.md) | [sase-b5.4](sase-b5.4.md) | 0 |
-| [bbugyi200.athena.sase-b5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.5/README.md) | [sase-b5.5](sase-b5.5.md) | 0 |
-| [bbugyi200.athena.sase-b5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.land/README.md) | [sase-b5](README.md) | 0 |
+| bbugyi200.athena.sase-b5.1 | [sase-b5.1](sase-b5.1.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`ad0f038`](https://github.com/sase-org/sase/commit/ad0f038a05e9b840247a5c97822c2ee3ebb05830) | feat(sdd): add checkout anchor resolver | [sase-b5.1](sase-b5.1.md) | 2026-07-30 12:08:28 |
+| [`218e78c`](https://github.com/sase-org/sase--plans/commit/218e78c4d802c357276be9866ed89786795914c7) | docs: add missing prompt backlinks | [sase-b5.1](sase-b5.1.md) | 2026-07-30 12:09:38 |

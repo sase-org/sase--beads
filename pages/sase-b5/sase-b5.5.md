@@ -16,9 +16,3 @@ repair: republish every generated bead page from the corrected projection, confi
 - **Depends on:** [sase-b5.2](sase-b5.2.md) ◐
 - **Depends on:** [sase-b5.3](sase-b5.3.md) ◐
 - **Depends on:** [sase-b5.4](sase-b5.4.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.5/README.md) | [sase-b5.5](sase-b5.5.md) | 0 |

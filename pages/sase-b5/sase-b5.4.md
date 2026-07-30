@@ -16,9 +16,3 @@ multirepo: walk the primary repository plus every locally cloned sidecar and lin
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
 - **Depends on:** [sase-b5.2](sase-b5.2.md) ◐
 - **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.4/README.md) | [sase-b5.4](sase-b5.4.md) | 0 |

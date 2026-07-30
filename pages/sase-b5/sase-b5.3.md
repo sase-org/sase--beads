@@ -15,9 +15,3 @@ agentlinks: make the hosted agents-sidecar remote lookup and the SASE_AGENT comm
 
 - **Depends on:** [sase-b5.1](sase-b5.1.md) ✓
 - **Blocks:** [sase-b5.5](sase-b5.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b5.3/README.md) | [sase-b5.3](sase-b5.3.md) | 0 |
