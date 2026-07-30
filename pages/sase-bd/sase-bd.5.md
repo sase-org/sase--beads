@@ -24,10 +24,11 @@ doctor-projection: teach doctor to compare `issues.jsonl` against the reduction 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 1 |
+| [bbugyi200.athena.sase-bd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bd.5/README.md) | [sase-bd.5](sase-bd.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6468cb9`](https://github.com/sase-org/sase-core/commit/6468cb90b97394159b03ad2465f3f7b1d2b49770) | feat(beads): report projection drift diagnostics | [sase-bd.5](sase-bd.5.md) | 2026-07-30 18:50:04 |
+| sase | [`9fdae1e`](https://github.com/sase-org/sase/commit/9fdae1e1e1349d255f0800d3a4cc481d48159c00) | feat(beads): repair stale event projections | [sase-bd.5](sase-bd.5.md) | 2026-07-30 18:59:54 |
