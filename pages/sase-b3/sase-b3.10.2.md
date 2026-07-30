@@ -17,7 +17,7 @@ titles: give each LSP payload row the title ACE shows (document frontmatter titl
 
 ## Dependencies
 
-- **Blocks:** [sase-b3.10.3](sase-b3.10.3.md) ◐
+- **Blocks:** [sase-b3.10.3](sase-b3.10.3.md) ✓
 
 ## Agents
 

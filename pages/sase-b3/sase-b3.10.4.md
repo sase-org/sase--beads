@@ -13,4 +13,4 @@ land: correct the docs/editor.md reachability claims, publish the sase-core rele
 
 ## Dependencies
 
-- **Depends on:** [sase-b3.10.3](sase-b3.10.3.md) ◐
+- **Depends on:** [sase-b3.10.3](sase-b3.10.3.md) ✓
