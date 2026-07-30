@@ -17,7 +17,7 @@ core-refs: add the Rust parse/normalize/render/batch-resolve API for stored arti
 
 ## Dependencies
 
-- **Blocks:** [sase-bb.2](sase-bb.2.md) ◐
+- **Blocks:** [sase-bb.2](sase-bb.2.md) ✓
 
 ## Agents
 
