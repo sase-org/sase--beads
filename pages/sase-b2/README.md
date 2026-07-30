@@ -21,7 +21,7 @@
 | [sase-b2.4](sase-b2.4.md) | Python models and resolution context | ✓ closed | medium | 1 | 1 |
 | [sase-b2.5](sase-b2.5.md) | Prompt expansion and \`sase artifact\` support | ✓ closed | small | 1 | 1 |
 | [sase-b2.6](sase-b2.6.md) | ACE \`@\` menu payload rows for beads and agents | ✓ closed | medium | 1 | 1 |
-| [sase-b2.7](sase-b2.7.md) | ACE copy mode yields bead and agent references | ◐ in_progress | medium | 1 | 0 |
+| [sase-b2.7](sase-b2.7.md) | ACE copy mode yields bead and agent references | ✓ closed | medium | 1 | 1 |
 | [sase-b2.8](sase-b2.8.md) | Documentation sweep | ◐ in_progress | small | 1 | 0 |
 | [sase-b2.9](sase-b2.9.md) | Raise the published \`sase-core-rs\` floor | ◐ in_progress | small | 1 | 0 |
 
@@ -36,7 +36,7 @@ flowchart TD
     n4["sase-b2.4: Python models and resolution context [closed]"]
     n5["sase-b2.5: Prompt expansion and `sase artifact` support [closed]"]
     n6["sase-b2.6: ACE `@` menu payload rows for beads and agents [closed]"]
-    n7["sase-b2.7: ACE copy mode yields bead and agent references [in_progress]"]
+    n7["sase-b2.7: ACE copy mode yields bead and agent references [closed]"]
     n8["sase-b2.8: Documentation sweep [in_progress]"]
     n9["sase-b2.9: Raise the published `sase-core-rs` floor [in_progress]"]
     n0 --> n1
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.4/README.md) | [sase-b2.4](sase-b2.4.md) | 1 |
 | [bbugyi200.athena.sase-b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.5/README.md) | [sase-b2.5](sase-b2.5.md) | 1 |
 | [bbugyi200.athena.sase-b2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.6/README.md) | [sase-b2.6](sase-b2.6.md) | 1 |
-| [bbugyi200.athena.sase-b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.7/README.md) | [sase-b2.7](sase-b2.7.md) | 0 |
+| [bbugyi200.athena.sase-b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.7/README.md) | [sase-b2.7](sase-b2.7.md) | 1 |
 | [bbugyi200.athena.sase-b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.8/README.md) | [sase-b2.8](sase-b2.8.md) | 0 |
 | [bbugyi200.athena.sase-b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.9/README.md) | [sase-b2.9](sase-b2.9.md) | 0 |
 | [bbugyi200.athena.sase-b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.land/README.md) | [sase-b2](README.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 | [`85b5b64`](https://github.com/sase-org/sase/commit/85b5b642167aa400538f77121546a705f93fbe9f) | feat(artifact-refs): add bead and agent resolution context | [sase-b2.4](sase-b2.4.md) | 2026-07-30 02:23:26 |
 | [`278e169`](https://github.com/sase-org/sase/commit/278e16952b95de02025a6f21f438db530362bc7d) | feat: support entity artifact references in prompt paths | [sase-b2.5](sase-b2.5.md) | 2026-07-30 02:38:21 |
 | [`3173dae`](https://github.com/sase-org/sase/commit/3173dae12003cace00cb98563e8c134398bd87fc) | feat(ace): add bead and agent completion catalogs | [sase-b2.6](sase-b2.6.md) | 2026-07-30 02:41:25 |
+| [`751f469`](https://github.com/sase-org/sase/commit/751f4695712a5cc7d6e68d6c30b930157e6cda84) | feat(ace): copy bead and agent references | [sase-b2.7](sase-b2.7.md) | 2026-07-30 03:02:05 |

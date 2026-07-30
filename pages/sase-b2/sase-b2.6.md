@@ -20,7 +20,7 @@ py_ace: add bounded, off-thread bead and agent payload catalogs to the grouped `
 ## Dependencies
 
 - **Depends on:** [sase-b2.4](sase-b2.4.md) ✓
-- **Blocks:** [sase-b2.7](sase-b2.7.md) ◐
+- **Blocks:** [sase-b2.7](sase-b2.7.md) ✓
 
 ## Agents
 
