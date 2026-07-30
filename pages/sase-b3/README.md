@@ -23,7 +23,7 @@ Typing an artifact reference finds the file by any memorable fragment of its pat
 | [sase-b3.6](sase-b3.6.md) | Reachable, bounded, per-kind payload catalogs | ✓ closed | medium | 1 | 1 |
 | [sase-b3.7](sase-b3.7.md) | Prompt-input rendering of paths and matched runs | ✓ closed | medium | 1 | 1 |
 | [sase-b3.8](sase-b3.8.md) | Ctrl+R finder on the shared matcher | ✓ closed | small | 1 | 1 |
-| [sase-b3.9](sase-b3.9.md) | Docs, core floor bump, and end-to-end verification | ✓ closed | small | 1 | 1 |
+| [sase-b3.9](sase-b3.9.md) | Docs, core floor bump, and end-to-end verification | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-b3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.6/README.md) | [sase-b3.6](sase-b3.6.md) | 1 |
 | [bbugyi200.athena.sase-b3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.7/README.md) | [sase-b3.7](sase-b3.7.md) | 1 |
 | [bbugyi200.athena.sase-b3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.8/README.md) | [sase-b3.8](sase-b3.8.md) | 1 |
-| [bbugyi200.athena.sase-b3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.9/README.md) | [sase-b3.9](sase-b3.9.md) | 1 |
+| [bbugyi200.athena.sase-b3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.9/README.md) | [sase-b3.9](sase-b3.9.md) | 2 |
 | [bbugyi200.athena.sase-b3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.land/README.md) | [sase-b3](README.md) | 0 |
 
 ## Commits
@@ -82,3 +82,4 @@ flowchart TD
 | [`b6b51f2`](https://github.com/sase-org/sase/commit/b6b51f2399df191dc5a926a26a3040a74bda3b03) | feat(tui): highlight fuzzy artifact reference matches | [sase-b3.7](sase-b3.7.md) | 2026-07-30 09:53:01 |
 | [`835536a`](https://github.com/sase-org/sase/commit/835536a846a55f596fa707145ca629a5bb46188f) | refactor(tui): reuse shared fuzzy matcher in finder | [sase-b3.8](sase-b3.8.md) | 2026-07-30 10:10:44 |
 | [`43c5562`](https://github.com/sase-org/sase/commit/43c55620fd790c7390e743b203c6fcef6800f825) | docs: document fuzzy artifact reference completion | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:33:48 |
+| [`c135dcb`](https://github.com/sase-org/sase/commit/c135dcbd62843e00697d89390dc53734de9098e0) | build(deps): raise the sase-core-rs floor to 0.12.18 | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:34:54 |
