@@ -20,7 +20,7 @@ targets: collapse the duplicated copy-target label sets into one registry carryi
 ## Dependencies
 
 - **Depends on:** [sase-az.1](sase-az.1.md) ✓
-- **Blocks:** [sase-az.3](sase-az.3.md) ◐
+- **Blocks:** [sase-az.3](sase-az.3.md) ✓
 
 ## Agents
 

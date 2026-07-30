@@ -13,7 +13,7 @@ files: give the artifact-files modal the same palette on the copy prefix with th
 
 ## Dependencies
 
-- **Depends on:** [sase-az.3](sase-az.3.md) ◐
+- **Depends on:** [sase-az.3](sase-az.3.md) ✓
 
 ## Agents
 
