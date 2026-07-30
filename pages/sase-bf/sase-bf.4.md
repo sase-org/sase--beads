@@ -13,7 +13,7 @@ ace-var-display: widen the ACE agent/clan/tribe variable models and loaders to s
 
 ## Dependencies
 
-- **Depends on:** [sase-bf.1](sase-bf.1.md) ◐
+- **Depends on:** [sase-bf.1](sase-bf.1.md) ✓
 - **Depends on:** [sase-bf.2](sase-bf.2.md) ✓
 
 ## Agents

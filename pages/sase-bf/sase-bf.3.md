@@ -13,7 +13,7 @@ var-cli-jinja: add the `--json` value modifier and a `sase var list` display sub
 
 ## Dependencies
 
-- **Depends on:** [sase-bf.1](sase-bf.1.md) ◐
+- **Depends on:** [sase-bf.1](sase-bf.1.md) ✓
 
 ## Agents
 

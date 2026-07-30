@@ -13,7 +13,7 @@ sidecar-var-publication: accept structured values in v2 publication validation a
 
 ## Dependencies
 
-- **Depends on:** [sase-bf.1](sase-bf.1.md) ◐
+- **Depends on:** [sase-bf.1](sase-bf.1.md) ✓
 
 ## Agents
 

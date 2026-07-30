@@ -13,7 +13,7 @@ notify-var-display: widen the completion-notification variable snapshot and rend
 
 ## Dependencies
 
-- **Depends on:** [sase-bf.1](sase-bf.1.md) ◐
+- **Depends on:** [sase-bf.1](sase-bf.1.md) ✓
 
 ## Agents
 
