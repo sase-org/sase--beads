@@ -25,11 +25,10 @@ notify-var-display: widen the completion-notification variable snapshot and rend
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.6/README.md) | [sase-bf.6](sase-bf.6.md) | 2 |
+| [bbugyi200.athena.sase-bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.6/README.md) | [sase-bf.6](sase-bf.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`738f7ec`](https://github.com/sase-org/sase/commit/738f7ec30eb930ad507c47d2cc851b368acf74d4) | test(notifications): cover structured output variables | [sase-bf.6](sase-bf.6.md) | 2026-07-30 22:00:20 |
-| sase-telegram | [`sase-telegram@72114b0`](https://github.com/sase-org/sase-telegram/commit/72114b0b213eb8ae7da636601ba35a2d1f4010b7) | feat: render structured output variables | [sase-bf.6](sase-bf.6.md) | 2026-07-30 22:10:11 |

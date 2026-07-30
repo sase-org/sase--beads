@@ -18,9 +18,9 @@ A sase variable holds any JSON value — string, number, boolean, null, list, or
 | [sase-bf.1](sase-bf.1.md) | Canonical structured value model, storage, and renderers | ✓ closed | medium | 1 | 1 |
 | [sase-bf.2](sase-bf.2.md) | Full JSON output-variable values in the sase-core scan wire | ✓ closed | medium | 1 | 2 |
 | [sase-bf.3](sase-bf.3.md) | Authoring and consuming structured variables (CLI, Jinja, STOP, skill, docs) | ✓ closed | medium | 1 | 1 |
-| [sase-bf.4](sase-bf.4.md) | ACE renders structured variables in agent, clan, and tribe panels | ◐ in_progress | medium | 1 | 0 |
-| [sase-bf.5](sase-bf.5.md) | Agents sidecar publishes and renders structured variables | ◐ in_progress | medium | 1 | 0 |
-| [sase-bf.6](sase-bf.6.md) | Completion notifications and Telegram render structured variables | ✓ closed | medium | 1 | 2 |
+| [sase-bf.4](sase-bf.4.md) | ACE renders structured variables in agent, clan, and tribe panels | ✓ closed | medium | 1 | 1 |
+| [sase-bf.5](sase-bf.5.md) | Agents sidecar publishes and renders structured variables | ✓ closed | medium | 1 | 1 |
+| [sase-bf.6](sase-bf.6.md) | Completion notifications and Telegram render structured variables | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -30,8 +30,8 @@ flowchart TD
     n1["sase-bf.1: Canonical structured value model, storage, and renderers [closed]"]
     n2["sase-bf.2: Full JSON output-variable values in the sase-core scan wire [closed]"]
     n3["sase-bf.3: Authoring and consuming structured variables (CLI, Jinja, STOP, skill, docs) [closed]"]
-    n4["sase-bf.4: ACE renders structured variables in agent, clan, and tribe panels [in_progress]"]
-    n5["sase-bf.5: Agents sidecar publishes and renders structured variables [in_progress]"]
+    n4["sase-bf.4: ACE renders structured variables in agent, clan, and tribe panels [closed]"]
+    n5["sase-bf.5: Agents sidecar publishes and renders structured variables [closed]"]
     n6["sase-bf.6: Completion notifications and Telegram render structured variables [closed]"]
     n0 --> n1
     n0 --> n2
@@ -53,9 +53,9 @@ flowchart TD
 | [bbugyi200.athena.sase-bf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.1/README.md) | [sase-bf.1](sase-bf.1.md) | 1 |
 | [bbugyi200.athena.sase-bf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.2/README.md) | [sase-bf.2](sase-bf.2.md) | 2 |
 | [bbugyi200.athena.sase-bf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.3/README.md) | [sase-bf.3](sase-bf.3.md) | 1 |
-| [bbugyi200.athena.sase-bf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.4/README.md) | [sase-bf.4](sase-bf.4.md) | 0 |
-| [bbugyi200.athena.sase-bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.5/README.md) | [sase-bf.5](sase-bf.5.md) | 0 |
-| [bbugyi200.athena.sase-bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.6/README.md) | [sase-bf.6](sase-bf.6.md) | 2 |
+| [bbugyi200.athena.sase-bf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.4/README.md) | [sase-bf.4](sase-bf.4.md) | 1 |
+| [bbugyi200.athena.sase-bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.5/README.md) | [sase-bf.5](sase-bf.5.md) | 1 |
+| [bbugyi200.athena.sase-bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.6/README.md) | [sase-bf.6](sase-bf.6.md) | 1 |
 | [bbugyi200.athena.sase-bf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bf.land/README.md) | [sase-bf](README.md) | 0 |
 
 ## Commits
@@ -67,4 +67,5 @@ flowchart TD
 | sase | [`2b95bd3`](https://github.com/sase-org/sase/commit/2b95bd329fb0a8fa1b666b1019fed154b6870b7f) | feat(agent-scan): preserve structured output variables | [sase-bf.2](sase-bf.2.md) | 2026-07-30 21:46:05 |
 | sase | [`6f7c560`](https://github.com/sase-org/sase/commit/6f7c56043164900af7c80d2fd7899018434828de) | feat(var): support structured output variables | [sase-bf.3](sase-bf.3.md) | 2026-07-30 21:57:02 |
 | sase | [`738f7ec`](https://github.com/sase-org/sase/commit/738f7ec30eb930ad507c47d2cc851b368acf74d4) | test(notifications): cover structured output variables | [sase-bf.6](sase-bf.6.md) | 2026-07-30 22:00:20 |
-| sase-telegram | [`sase-telegram@72114b0`](https://github.com/sase-org/sase-telegram/commit/72114b0b213eb8ae7da636601ba35a2d1f4010b7) | feat: render structured output variables | [sase-bf.6](sase-bf.6.md) | 2026-07-30 22:10:11 |
+| sase | [`b66357e`](https://github.com/sase-org/sase/commit/b66357ee238c45291b58764504232d2397f0e872) | feat(agents-sync): publish structured output variables | [sase-bf.5](sase-bf.5.md) | 2026-07-30 22:19:33 |
+| sase | [`668bf20`](https://github.com/sase-org/sase/commit/668bf209d35dd7cabc6c0b5bfb64b60f6f9e31f5) | feat(ace): render structured output variables | [sase-bf.4](sase-bf.4.md) | 2026-07-30 22:32:57 |

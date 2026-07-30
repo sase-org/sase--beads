@@ -17,7 +17,7 @@ core-wire-json: generalize OutputVariableValue in the sase-core agent-scan wire 
 
 ## Dependencies
 
-- **Blocks:** [sase-bf.4](sase-bf.4.md) ◐
+- **Blocks:** [sase-bf.4](sase-bf.4.md) ✓
 
 ## Agents
 
