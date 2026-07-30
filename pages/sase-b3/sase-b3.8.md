@@ -18,7 +18,7 @@ finder: replace the duplicate Python fuzzy scorer in recursive_file_finder with 
 ## Dependencies
 
 - **Depends on:** [sase-b3.7](sase-b3.7.md) ✓
-- **Blocks:** [sase-b3.9](sase-b3.9.md) ◐
+- **Blocks:** [sase-b3.9](sase-b3.9.md) ✓
 
 ## Agents
 
