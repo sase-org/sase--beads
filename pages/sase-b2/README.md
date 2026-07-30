@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / sase-b2
 
-**Status:** ◐ in_progress · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-b2.land`
-**Created:** 2026-07-30 01:33:06 UTC
+**Created:** 2026-07-30 01:33:06 UTC · **Closed:** 2026-07-30 04:04:39 UTC
 **Plan:** [202607/bead\_and\_agent\_artifact\_refs.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_and_agent_artifact_refs.md)
 
 ## Description
 
 `@bead:sase-9z` and `@agent:9w` are first-class artifact references everywhere the existing four builtin kinds already work — prompt expansion, `sase artifact show/path/open`, the ACE `@` menu and prompt highlighting, the LSP, and ACE copy mode — resolving through generated bead and agent pages with loud, actionable diagnostics when a page has not been published yet.
+
+## Notes
+
+[2026-07-30T04:04:39Z · sase-b2.land] Fixed workspace-derived artifact-reference project resolution by preferring the project name, matching GitHub provider slugs across multi-project contexts, and logging best-effort inventory/entity lookup failures. Verified focused regression tests, live bead and agent page resolution, populated entity/repository context, and a green just check.
+
+[2026-07-30T04:11:19Z · sase-b2.land] Finalizer reconfirmed live bead and agent artifact resolution; just check and standalone Symvision passed
 
 ## Phases
 
@@ -29,7 +35,7 @@
 
 ```mermaid
 flowchart TD
-    n0["sase-b2: Add `@bead:` and `@agent:` artifact reference kinds [in_progress]"]
+    n0["sase-b2: Add `@bead:` and `@agent:` artifact reference kinds [closed]"]
     n1["sase-b2.1: Bead and agent reference grammar in sase-core [closed]"]
     n2["sase-b2.2: Local resolution and reverse canonicalization [closed]"]
     n3["sase-b2.3: Editor surfaces for the new kinds [closed]"]
@@ -73,7 +79,8 @@ flowchart TD
 | [bbugyi200.athena.sase-b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.7/README.md) | [sase-b2.7](sase-b2.7.md) | 1 |
 | [bbugyi200.athena.sase-b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.8/README.md) | [sase-b2.8](sase-b2.8.md) | 1 |
 | [bbugyi200.athena.sase-b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.9/README.md) | [sase-b2.9](sase-b2.9.md) | 1 |
-| [bbugyi200.athena.sase-b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b2.land/README.md) | [sase-b2](README.md) | 0 |
+| [bbugyi200.athena.sase-b2.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-b2.land.md#member-code) | [sase-b2](README.md) | 1 |
+| [bbugyi200.athena.sase-b2.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-b2.land.md#member-plan) | [sase-b2](README.md) | 0 |
 
 ## Commits
 
@@ -85,3 +92,4 @@ flowchart TD
 | [`751f469`](https://github.com/sase-org/sase/commit/751f4695712a5cc7d6e68d6c30b930157e6cda84) | feat(ace): copy bead and agent references | [sase-b2.7](sase-b2.7.md) | 2026-07-30 03:02:05 |
 | [`34b2f7f`](https://github.com/sase-org/sase/commit/34b2f7f2fdb1038d2c0ff3b82300a9b199b34732) | docs: document bead and agent artifact refs | [sase-b2.8](sase-b2.8.md) | 2026-07-30 03:31:40 |
 | [`40f61ab`](https://github.com/sase-org/sase/commit/40f61abb525eec988a3959c1449543502b7a0112) | build(deps): raise the sase-core-rs floor to 0.12.17 | [sase-b2.9](sase-b2.9.md) | 2026-07-30 03:42:42 |
+| [`a78894e`](https://github.com/sase-org/sase/commit/a78894e7c409ce576b873af1526570b71d367cce) | fix: resolve artifact entities for workspace projects | [sase-b2](README.md) | 2026-07-30 04:12:07 |
