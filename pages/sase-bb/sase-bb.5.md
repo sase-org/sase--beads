@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-bb](README.md) / sase-bb.5
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bb.5` · **Size:** small
-**Created:** 2026-07-30 14:53:58 UTC
+**Created:** 2026-07-30 14:53:58 UTC · **Closed:** 2026-07-30 19:53:16 UTC
 **Plan:** [202607/spec\_artifact\_references.md](https://github.com/sase-org/sase--plans/blob/main/202607/spec_artifact_references.md)
 
 ## Description
@@ -14,7 +14,7 @@ surfaces: render bead references on published pages and in the ACE Plans detail 
 ## Dependencies
 
 - **Depends on:** [sase-bb.3](sase-bb.3.md) ✓
-- **Blocks:** [sase-bb.6](sase-bb.6.md) ◐
+- **Blocks:** [sase-bb.6](sase-bb.6.md) ✓
 
 ## Agents
 

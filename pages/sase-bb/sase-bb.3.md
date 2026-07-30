@@ -19,7 +19,7 @@ beads: raise the core floor, add the Python reference-list facade, mirror the ne
 
 - **Depends on:** [sase-bb.2](sase-bb.2.md) ✓
 - **Blocks:** [sase-bb.4](sase-bb.4.md) ✓
-- **Blocks:** [sase-bb.5](sase-bb.5.md) ◐
+- **Blocks:** [sase-bb.5](sase-bb.5.md) ✓
 
 ## Agents
 

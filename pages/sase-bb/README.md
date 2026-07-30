@@ -18,9 +18,9 @@ A bead and a ChangeSpec each carry a durable, ordered list of canonical artifact
 | [sase-bb.1](sase-bb.1.md) | Shared reference-list codec and the ChangeSpec REFS section | ✓ closed | medium | 1 | 2 |
 | [sase-bb.2](sase-bb.2.md) | The bead refs field in the Rust core | ✓ closed | medium | 1 | 1 |
 | [sase-bb.3](sase-bb.3.md) | Python bead refs, show, and doctor | ✓ closed | medium | 1 | 2 |
-| [sase-bb.4](sase-bb.4.md) | The ChangeSpec REFS section in Python, CLI, and ACE | ✓ closed | medium | 1 | 2 |
-| [sase-bb.5](sase-bb.5.md) | Published pages, ACE Plans tab, mobile bridge, and declaration | ◐ in_progress | small | 1 | 1 |
-| [sase-bb.6](sase-bb.6.md) | Documentation, skills, and the live-store audit | ◐ in_progress | small | 1 | 0 |
+| [sase-bb.4](sase-bb.4.md) | The ChangeSpec REFS section in Python, CLI, and ACE | ✓ closed | medium | 1 | 1 |
+| [sase-bb.5](sase-bb.5.md) | Published pages, ACE Plans tab, mobile bridge, and declaration | ✓ closed | small | 1 | 1 |
+| [sase-bb.6](sase-bb.6.md) | Documentation, skills, and the live-store audit | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -31,8 +31,8 @@ flowchart TD
     n2["sase-bb.2: The bead refs field in the Rust core [closed]"]
     n3["sase-bb.3: Python bead refs, show, and doctor [closed]"]
     n4["sase-bb.4: The ChangeSpec REFS section in Python, CLI, and ACE [closed]"]
-    n5["sase-bb.5: Published pages, ACE Plans tab, mobile bridge, and declaration [in_progress]"]
-    n6["sase-bb.6: Documentation, skills, and the live-store audit [in_progress]"]
+    n5["sase-bb.5: Published pages, ACE Plans tab, mobile bridge, and declaration [closed]"]
+    n6["sase-bb.6: Documentation, skills, and the live-store audit [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,9 +54,9 @@ flowchart TD
 | [bbugyi200.athena.sase-bb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.1/README.md) | [sase-bb.1](sase-bb.1.md) | 2 |
 | [bbugyi200.athena.sase-bb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.2/README.md) | [sase-bb.2](sase-bb.2.md) | 1 |
 | [bbugyi200.athena.sase-bb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.3/README.md) | [sase-bb.3](sase-bb.3.md) | 2 |
-| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 2 |
+| [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 1 |
 | [bbugyi200.athena.sase-bb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.5/README.md) | [sase-bb.5](sase-bb.5.md) | 1 |
-| [bbugyi200.athena.sase-bb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.6/README.md) | [sase-bb.6](sase-bb.6.md) | 0 |
+| [bbugyi200.athena.sase-bb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.6/README.md) | [sase-bb.6](sase-bb.6.md) | 1 |
 | [bbugyi200.athena.sase-bb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.land/README.md) | [sase-bb](README.md) | 0 |
 
 ## Commits
@@ -70,4 +70,4 @@ flowchart TD
 | sase | [`4aee2f4`](https://github.com/sase-org/sase/commit/4aee2f49fecb256d4ed5a06b23c0f401f94b3da8) | feat(bead): integrate persistent artifact references | [sase-bb.3](sase-bb.3.md) | 2026-07-30 16:48:49 |
 | sase | [`87ece3e`](https://github.com/sase-org/sase/commit/87ece3ee34d613780923e2d9d9a2f0349ff12f0a) | feat(artifact): surface bead references and attach on create | [sase-bb.5](sase-bb.5.md) | 2026-07-30 17:27:18 |
 | sase | [`f921f42`](https://github.com/sase-org/sase/commit/f921f428dba97720bec8b0853fc5e6bcb34f535c) | feat(changespec): add artifact reference support | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:42:33 |
-| sase-nvim | [`sase-nvim@0e720ef`](https://github.com/sase-org/sase-nvim/commit/0e720efc478085f87664f6a28d13f4e87544e654) | feat: highlight artifact references in ChangeSpecs | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:53:25 |
+| sase | [`84d47aa`](https://github.com/sase-org/sase/commit/84d47aa78bf75e88486e4ace484d782b74139fe6) | docs: document artifact reference persistence | [sase-bb.6](sase-bb.6.md) | 2026-07-30 20:34:11 |
