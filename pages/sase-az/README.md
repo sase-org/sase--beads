@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / sase-az
 
-**Status:** ◐ in_progress · **Type:** plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-az.land`
-**Created:** 2026-07-29 23:12:27 UTC
+**Created:** 2026-07-29 23:12:27 UTC · **Closed:** 2026-07-30 02:23:20 UTC
 **Plan:** [202607/copy\_as\_palette.md](https://github.com/sase-org/sase--plans/blob/main/202607/copy_as_palette.md)
 
 ## Description
 
 Pressing the copy prefix anywhere in ACE opens one beautiful, discoverable "Copy as…" palette: every existing copy target keeps its key as an accelerator, new Markdown-link and metadata-JSON representations join the reference/path/contents targets, marked sets pluralize into paste-ready forms, the artifact-files modal gains the full file-kind representation set, and every copy in the TUI rides one delivery seam that pairs OSC 52 with the subprocess adapter, names exactly what was copied, and leaves the generated text selectable when no transport works.
+
+## Notes
+
+[2026-07-30T02:23:20Z · sase-az.land] Re-verified phase commits 77ec8798e (delivery), cf844c3e5 (registry/representations), 3da9140b4 (palette), and 132bd79c7 (artifact-files modal), plus all four child beads closed/done. Completed Files integration with the full warm-only palette vocabulary, compatibility-preserving %L link and %j JSON keys, dispatcher-collision precedence, shared link/JSON representation routing, dead JSON-branch cleanup, and mixed text/binary partial counts. Validation: 159 focused clipboard/palette/files/help tests passed; direct clipboard sweep finds only actions/clipboard/_delivery.py; just check passed formatting, keep-sorted, Ruff, mypy, pyscripts, changelog, Symvision, and toobig before the known plans-sidecar prompt/reverse-link validator stopped on 8 unrelated errors; full just test reached 24,104 passed and 7 skipped with one unrelated gate-debug ordering race that passed in isolation and one intentional Help golden delta; after inspection/update, the complete visual lane passed 388 with 1 skip.
+
+[2026-07-30T02:25:31Z · sase-az.land] Post-close landing verification: just symvision is clean with no stale epic exemptions or dead-symbol cleanup required; the complete visual suite passes 388 tests with 1 skip after inspecting and accepting the intentional Help-row scrollbar delta; the linked epic plan now has status: done as its only sidecar diff. Final-state just check again passes all formatting/lint/Symvision/toobig stages and stops only on the same 8 unrelated plans-sidecar prompt/reverse-link validation errors.
+
+[2026-07-30T02:26:41Z · sase-az.land] Finalizer verification: 159 focused tests passed; visual suite 388 passed and 1 skipped; post-close Symvision clean; just check passed all code-quality lanes and stopped only on eight unrelated pre-existing plans-sidecar link errors.
 
 ## Phases
 
@@ -24,7 +32,7 @@ Pressing the copy prefix anywhere in ACE opens one beautiful, discoverable "Copy
 
 ```mermaid
 flowchart TD
-    n0["sase-az: Unified \"Copy as…\" palette [in_progress]"]
+    n0["sase-az: Unified \"Copy as…\" palette [closed]"]
     n1["sase-az.1: One clipboard delivery seam with OSC 52 and a selectable fallback [closed]"]
     n2["sase-az.2: Representation targets and one copy-target registry [closed]"]
     n3["sase-az.3: The Copy-as palette modal [closed]"]
@@ -47,7 +55,8 @@ flowchart TD
 | [bbugyi200.athena.sase-az.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-code) | [sase-az.3](sase-az.3.md) | 1 |
 | [bbugyi200.athena.sase-az.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-plan) | [sase-az.3](sase-az.3.md) | 0 |
 | [bbugyi200.athena.sase-az.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.4/README.md) | [sase-az.4](sase-az.4.md) | 1 |
-| [bbugyi200.athena.sase-az.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.land/README.md) | [sase-az](README.md) | 0 |
+| [bbugyi200.athena.sase-az.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.land.md#member-code) | [sase-az](README.md) | 1 |
+| [bbugyi200.athena.sase-az.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.land.md#member-plan) | [sase-az](README.md) | 0 |
 
 ## Commits
 
@@ -57,3 +66,4 @@ flowchart TD
 | [`cf844c3`](https://github.com/sase-org/sase/commit/cf844c3e5d574d7c8898a73fd36cba686c17a6ad) | feat(ace): add paste-ready copy representations | [sase-az.2](sase-az.2.md) | 2026-07-30 00:27:20 |
 | [`3da9140`](https://github.com/sase-org/sase/commit/3da9140b4968f590f84ace1db91f21c565746381) | feat(ace): add contextual Copy as palette | [sase-az.3](sase-az.3.md) | 2026-07-30 01:14:52 |
 | [`132bd79`](https://github.com/sase-org/sase/commit/132bd79c77d514bc109d3fecf0a6d2a4a0c0bc02) | feat(ace): add artifact file copy representations | [sase-az.4](sase-az.4.md) | 2026-07-30 01:51:16 |
+| [`86fb630`](https://github.com/sase-org/sase/commit/86fb630bb8315f86895a48ac4a9be1a9243e8612) | feat(ace): complete Files copy-as palette | [sase-az](README.md) | 2026-07-30 02:28:02 |
