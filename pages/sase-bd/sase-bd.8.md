@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-bd](README.md) / sase-bd.8
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bd.8` · **Size:** small
-**Created:** 2026-07-30 17:45:30 UTC
+**Created:** 2026-07-30 17:45:30 UTC · **Closed:** 2026-07-30 19:56:59 UTC
 **Plan:** [202607/bead\_close\_integrity.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_close_integrity.md)
 
 ## Description
@@ -13,7 +13,7 @@ repair: run the guarded projection repair against the live beads sidecar, verify
 
 ## Dependencies
 
-- **Depends on:** [sase-bd.7](sase-bd.7.md) ◐
+- **Depends on:** [sase-bd.7](sase-bd.7.md) ✓
 
 ## Agents
 

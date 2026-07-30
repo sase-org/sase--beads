@@ -18,7 +18,7 @@ cli-close: stop printing "Closed" for beads that were already closed, distinguis
 ## Dependencies
 
 - **Depends on:** [sase-bd.2](sase-bd.2.md) ✓
-- **Blocks:** [sase-bd.7](sase-bd.7.md) ◐
+- **Blocks:** [sase-bd.7](sase-bd.7.md) ✓
 
 ## Agents
 

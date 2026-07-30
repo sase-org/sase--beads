@@ -18,7 +18,7 @@ doctor-projection: teach doctor to compare `issues.jsonl` against the reduction 
 ## Dependencies
 
 - **Depends on:** [sase-bd.1](sase-bd.1.md) ✓
-- **Blocks:** [sase-bd.7](sase-bd.7.md) ◐
+- **Blocks:** [sase-bd.7](sase-bd.7.md) ✓
 
 ## Agents
 

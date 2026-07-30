@@ -18,7 +18,7 @@ history-notes: label close events the reducer treated as redundant so a timeline
 ## Dependencies
 
 - **Depends on:** [sase-bd.1](sase-bd.1.md) ✓
-- **Blocks:** [sase-bd.7](sase-bd.7.md) ◐
+- **Blocks:** [sase-bd.7](sase-bd.7.md) ✓
 
 ## Agents
 
