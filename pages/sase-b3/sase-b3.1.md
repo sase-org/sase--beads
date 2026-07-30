@@ -18,9 +18,3 @@ fuzzy: add the shared tier/score/runs fuzzy matcher and its ordering comparator 
 ## Dependencies
 
 - **Blocks:** [sase-b3.3](sase-b3.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.1/README.md) | [sase-b3.1](sase-b3.1.md) | 0 |

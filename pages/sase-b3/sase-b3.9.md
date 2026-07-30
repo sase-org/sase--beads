@@ -34,11 +34,10 @@ Not done, deliberately: no CHANGELOG.md entry — CONTRIBUTING.md and the 'lint 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.9/README.md) | [sase-b3.9](sase-b3.9.md) | 2 |
+| bbugyi200.athena.sase-b3.9 | [sase-b3.9](sase-b3.9.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`43c5562`](https://github.com/sase-org/sase/commit/43c55620fd790c7390e743b203c6fcef6800f825) | docs: document fuzzy artifact reference completion | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:33:48 |
-| [`c135dcb`](https://github.com/sase-org/sase/commit/c135dcbd62843e00697d89390dc53734de9098e0) | build(deps): raise the sase-core-rs floor to 0.12.18 | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:34:54 |
+| [`2e0f6a0`](https://github.com/sase-org/sase-nvim/commit/2e0f6a08a437b171e69e15c17a5300b75c37c395) | docs: document fuzzy artifact reference completion | [sase-b3.9](sase-b3.9.md) | 2026-07-30 10:35:51 |
