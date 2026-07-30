@@ -21,7 +21,7 @@ py_facade: mirror the new kinds and wire schema in the Python artifact-reference
 
 - **Depends on:** [sase-b2.2](sase-b2.2.md) ✓
 - **Blocks:** [sase-b2.5](sase-b2.5.md) ✓
-- **Blocks:** [sase-b2.6](sase-b2.6.md) ◐
+- **Blocks:** [sase-b2.6](sase-b2.6.md) ✓
 
 ## Agents
 
