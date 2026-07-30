@@ -20,7 +20,7 @@ tui-gate: thread the new menu option through the Python artifact-ref facade and 
 ## Dependencies
 
 - **Depends on:** [sase-b4.1](sase-b4.1.md) ✓
-- **Blocks:** [sase-b4.3](sase-b4.3.md) ◐
+- **Blocks:** [sase-b4.3](sase-b4.3.md) ✓
 
 ## Agents
 

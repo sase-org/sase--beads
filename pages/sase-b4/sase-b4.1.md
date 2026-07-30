@@ -20,7 +20,7 @@ core-gate: add an at-reference menu options wire plus a `files_suppressed` menu 
 ## Dependencies
 
 - **Blocks:** [sase-b4.2](sase-b4.2.md) ✓
-- **Blocks:** [sase-b4.3](sase-b4.3.md) ◐
+- **Blocks:** [sase-b4.3](sase-b4.3.md) ✓
 
 ## Agents
 
