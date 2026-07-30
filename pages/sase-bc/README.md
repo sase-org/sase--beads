@@ -18,7 +18,7 @@ Files that sase agents add/modify/remove — via VCS commits or `sase artifact c
 | [sase-bc.1](sase-bc.1.md) | Add \`bob highlights create \<md\_file\>\` to bob-cli | ✓ closed | medium | 1 | 0 |
 | [sase-bc.2](sase-bc.2.md) | file\_hooks config section, matcher, and list CLI | ✓ closed | medium | 1 | 1 |
 | [sase-bc.3](sase-bc.3.md) | Commit/artifact event capture, detached runner, notifications | ✓ closed | medium | 1 | 1 |
-| [sase-bc.4](sase-bc.4.md) | Configure the research-highlights hook and verify end to end | ◐ in_progress | small | 1 | 0 |
+| [sase-bc.4](sase-bc.4.md) | Configure the research-highlights hook and verify end to end | ✓ closed | small | 1 | 0 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-bc.1: Add `bob highlights create &lt;md_file&gt;` to bob-cli [closed]"]
     n2["sase-bc.2: file_hooks config section, matcher, and list CLI [closed]"]
     n3["sase-bc.3: Commit/artifact event capture, detached runner, notifications [closed]"]
-    n4["sase-bc.4: Configure the research-highlights hook and verify end to end [in_progress]"]
+    n4["sase-bc.4: Configure the research-highlights hook and verify end to end [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3

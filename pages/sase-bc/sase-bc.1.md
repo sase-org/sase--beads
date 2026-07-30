@@ -17,7 +17,7 @@ highlights-create: add a Rust clap subcommand to the bob-cli highlights group th
 
 ## Dependencies
 
-- **Blocks:** [sase-bc.4](sase-bc.4.md) ◐
+- **Blocks:** [sase-bc.4](sase-bc.4.md) ✓
 
 ## Agents
 

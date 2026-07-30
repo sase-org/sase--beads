@@ -18,7 +18,7 @@ hooks-engine: capture per-file ADD/MODIFY/REMOVE events at both commit seams (Co
 ## Dependencies
 
 - **Depends on:** [sase-bc.2](sase-bc.2.md) ✓
-- **Blocks:** [sase-bc.4](sase-bc.4.md) ◐
+- **Blocks:** [sase-bc.4](sase-bc.4.md) ✓
 
 ## Agents
 
