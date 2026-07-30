@@ -15,9 +15,9 @@ The grouped `@` reference menu lists local file rows only when no artifact kind 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b4.1](sase-b4.1.md) | Shared kind-stage file-row gate in sase-core | ✓ closed | medium | 1 | 1 |
-| [sase-b4.2](sase-b4.2.md) | ACE prompt gating and the Ctrl+T reveal | ◐ in_progress | medium | 0 | 0 |
-| [sase-b4.3](sase-b4.3.md) | Raise the sase-core-rs floor and verify end to end | ◐ in_progress | xsmall | 0 | 0 |
+| [sase-b4.1](sase-b4.1.md) | Shared kind-stage file-row gate in sase-core | ✓ closed | medium | 1 | 0 |
+| [sase-b4.2](sase-b4.2.md) | ACE prompt gating and the Ctrl+T reveal | ✓ closed | medium | 1 | 1 |
+| [sase-b4.3](sase-b4.3.md) | Raise the sase-core-rs floor and verify end to end | ◐ in_progress | xsmall | 1 | 0 |
 
 ## Lineage
 
@@ -25,7 +25,7 @@ The grouped `@` reference menu lists local file rows only when no artifact kind 
 flowchart TD
     n0["sase-b4: Gate `@` reference file rows behind kind misses and explicit Ctrl+T [in_progress]"]
     n1["sase-b4.1: Shared kind-stage file-row gate in sase-core [closed]"]
-    n2["sase-b4.2: ACE prompt gating and the Ctrl+T reveal [in_progress]"]
+    n2["sase-b4.2: ACE prompt gating and the Ctrl+T reveal [closed]"]
     n3["sase-b4.3: Raise the sase-core-rs floor and verify end to end [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,10 +39,13 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b4.1 | [sase-b4.1](sase-b4.1.md) | 1 |
+| [bbugyi200.athena.sase-b4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.1/README.md) | [sase-b4.1](sase-b4.1.md) | 0 |
+| [bbugyi200.athena.sase-b4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.2/README.md) | [sase-b4.2](sase-b4.2.md) | 1 |
+| [bbugyi200.athena.sase-b4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.3/README.md) | [sase-b4.3](sase-b4.3.md) | 0 |
+| [bbugyi200.athena.sase-b4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.land/README.md) | [sase-b4](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`4e61ad0`](https://github.com/sase-org/sase-core/commit/4e61ad05ed30824e827e50a3d2d99cfca82200ef) | feat(editor): gate file reference rows behind explicit opt-in | [sase-b4.1](sase-b4.1.md) | 2026-07-30 11:27:44 |
+| [`9ba92b0`](https://github.com/sase-org/sase/commit/9ba92b09a7cacd192f59ccc0756970d8ca67526d) | feat(ace): gate artifact file completion rows | [sase-b4.2](sase-b4.2.md) | 2026-07-30 11:47:37 |

@@ -19,17 +19,11 @@ core-gate: add an at-reference menu options wire plus a `files_suppressed` menu 
 
 ## Dependencies
 
-- **Blocks:** [sase-b4.2](sase-b4.2.md) ◐
+- **Blocks:** [sase-b4.2](sase-b4.2.md) ✓
 - **Blocks:** [sase-b4.3](sase-b4.3.md) ◐
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b4.1 | [sase-b4.1](sase-b4.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`4e61ad0`](https://github.com/sase-org/sase-core/commit/4e61ad05ed30824e827e50a3d2d99cfca82200ef) | feat(editor): gate file reference rows behind explicit opt-in | [sase-b4.1](sase-b4.1.md) | 2026-07-30 11:27:44 |
+| [bbugyi200.athena.sase-b4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b4.1/README.md) | [sase-b4.1](sase-b4.1.md) | 0 |
