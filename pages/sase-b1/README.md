@@ -20,7 +20,7 @@ Every agent launched by an xprompt swarm records that swarm at its launch bounda
 | [sase-b1.3](sase-b1.3.md) | Teach the Rust scanner the swarm kind | ✓ closed | small | 1 | 0 |
 | [sase-b1.4](sase-b1.4.md) | Write the swarm into launch-boundary metadata | ✓ closed | medium | 1 | 1 |
 | [sase-b1.5](sase-b1.5.md) | Render the swarm kind everywhere kinds are rendered | ✓ closed | small | 1 | 1 |
-| [sase-b1.6](sase-b1.6.md) | Floor bump, docs, snapshots, full check | ◐ in_progress | small | 1 | 0 |
+| [sase-b1.6](sase-b1.6.md) | Floor bump, docs, snapshots, full check | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-b1.3: Teach the Rust scanner the swarm kind [closed]"]
     n4["sase-b1.4: Write the swarm into launch-boundary metadata [closed]"]
     n5["sase-b1.5: Render the swarm kind everywhere kinds are rendered [closed]"]
-    n6["sase-b1.6: Floor bump, docs, snapshots, full check [in_progress]"]
+    n6["sase-b1.6: Floor bump, docs, snapshots, full check [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.3/README.md) | [sase-b1.3](sase-b1.3.md) | 0 |
 | [bbugyi200.athena.sase-b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.4/README.md) | [sase-b1.4](sase-b1.4.md) | 1 |
 | [bbugyi200.athena.sase-b1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.5/README.md) | [sase-b1.5](sase-b1.5.md) | 1 |
-| [bbugyi200.athena.sase-b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.6/README.md) | [sase-b1.6](sase-b1.6.md) | 0 |
+| [bbugyi200.athena.sase-b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.6/README.md) | [sase-b1.6](sase-b1.6.md) | 1 |
 | [bbugyi200.athena.sase-b1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.land/README.md) | [sase-b1](README.md) | 0 |
 
 ## Commits
@@ -66,3 +66,4 @@ flowchart TD
 | [`0683114`](https://github.com/sase-org/sase/commit/068311411b65de0931d755cdfc88e66114a918b3) | feat(agent): carry swarm provenance through launches | [sase-b1.2](sase-b1.2.md) | 2026-07-30 01:57:40 |
 | [`01f9912`](https://github.com/sase-org/sase/commit/01f9912ce6ef3042d2761de1d40aba7d602c29b4) | feat(xprompts): capture swarm launch provenance | [sase-b1.4](sase-b1.4.md) | 2026-07-30 02:14:48 |
 | [`e62f9a6`](https://github.com/sase-org/sase/commit/e62f9a6ee5bbe1072e517ca3adae4265e8479033) | feat(tui): render the swarm xprompt kind | [sase-b1.5](sase-b1.5.md) | 2026-07-30 02:38:07 |
+| [`6e35387`](https://github.com/sase-org/sase/commit/6e35387e2ba5564c134ccc7ce1b84c5cd5957850) | feat(xprompts): require sase-core-rs with the swarm xprompt kind | [sase-b1.6](sase-b1.6.md) | 2026-07-30 02:53:56 |

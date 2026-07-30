@@ -19,7 +19,7 @@ tui-labels: label the new kind in the Statistics XPrompts table and focus header
 
 - **Depends on:** [sase-b1.3](sase-b1.3.md) ✓
 - **Depends on:** [sase-b1.4](sase-b1.4.md) ✓
-- **Blocks:** [sase-b1.6](sase-b1.6.md) ◐
+- **Blocks:** [sase-b1.6](sase-b1.6.md) ✓
 
 ## Agents
 
