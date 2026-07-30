@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-b0](README.md) / sase-b0.5
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-b0.5` · **Size:** medium
-**Created:** 2026-07-29 23:14:06 UTC
+**Created:** 2026-07-29 23:14:06 UTC · **Closed:** 2026-07-30 01:03:41 UTC
 **Plan:** [202607/artifacts\_files\_subtab.md](https://github.com/sase-org/sase--plans/blob/main/202607/artifacts_files_subtab.md)
 
 ## Description
 
 open-actions: implement smart enter dispatch — preview reader for text-like files, rich terminal viewer for media — plus Z viewer hand-off for one row or the marked set, o open-external, and a jump-to-producing-agent with revival.
+
+## Notes
+
+[2026-07-30T01:03:41Z · sase-b0.5] Implemented smart enter preview/media dispatch, visible-marked Z viewer hand-off, editor/xdg-open external opening, and live/dismissed producing-agent jump. Verified 46 focused/related tests; full just test passed 24,021 tests with 7 skipped; formatting, Ruff, mypy, Symvision, and size gates pass. just check reaches SASE validation and is blocked only by six unchanged plans-sidecar prompt-link errors.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ open-actions: implement smart enter dispatch — preview reader for text-like fi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b0.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.5/README.md) | [sase-b0.5](sase-b0.5.md) | 0 |
+| [bbugyi200.athena.sase-b0.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b0.5/README.md) | [sase-b0.5](sase-b0.5.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`f5df5e1`](https://github.com/sase-org/sase/commit/f5df5e12221c5da96fdd9f542ce481ee2f327914) | feat(ace): add artifact file open actions | [sase-b0.5](sase-b0.5.md) | 2026-07-30 01:05:36 |
