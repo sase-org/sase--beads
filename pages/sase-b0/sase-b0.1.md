@@ -19,7 +19,7 @@ scaffold: register `files` in the shared Artifacts sub-tab constants, compose a 
 
 ## Dependencies
 
-- **Blocks:** [sase-b0.2](sase-b0.2.md) ◐
+- **Blocks:** [sase-b0.2](sase-b0.2.md) ✓
 
 ## Agents
 

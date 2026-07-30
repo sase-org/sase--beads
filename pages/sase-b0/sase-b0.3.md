@@ -13,7 +13,7 @@ detail: build the debounced, worker-backed detail panel — reference line with 
 
 ## Dependencies
 
-- **Depends on:** [sase-b0.2](sase-b0.2.md) ◐
+- **Depends on:** [sase-b0.2](sase-b0.2.md) ✓
 - **Blocks:** [sase-b0.7](sase-b0.7.md) ◐
 
 ## Agents

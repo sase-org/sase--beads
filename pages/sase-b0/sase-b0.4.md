@@ -13,7 +13,7 @@ filters: add the Files filter bar with kind/project/agent/workflow/ origin/since
 
 ## Dependencies
 
-- **Depends on:** [sase-b0.2](sase-b0.2.md) ◐
+- **Depends on:** [sase-b0.2](sase-b0.2.md) ✓
 - **Blocks:** [sase-b0.7](sase-b0.7.md) ◐
 
 ## Agents

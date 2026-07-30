@@ -13,7 +13,7 @@ open-actions: implement smart enter dispatch — preview reader for text-like fi
 
 ## Dependencies
 
-- **Depends on:** [sase-b0.2](sase-b0.2.md) ◐
+- **Depends on:** [sase-b0.2](sase-b0.2.md) ✓
 - **Blocks:** [sase-b0.6](sase-b0.6.md) ◐
 
 ## Agents
