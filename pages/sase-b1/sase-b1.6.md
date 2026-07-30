@@ -13,7 +13,7 @@ docs-and-goldens: bump the sase-core-rs floor to the published version containin
 
 ## Dependencies
 
-- **Depends on:** [sase-b1.5](sase-b1.5.md) ◐
+- **Depends on:** [sase-b1.5](sase-b1.5.md) ✓
 
 ## Agents
 
