@@ -21,7 +21,7 @@ list: load the index off-thread through the Rust-backed query facade with two-ph
 
 - **Depends on:** [sase-b0.1](sase-b0.1.md) ✓
 - **Blocks:** [sase-b0.3](sase-b0.3.md) ✓
-- **Blocks:** [sase-b0.4](sase-b0.4.md) ◐
+- **Blocks:** [sase-b0.4](sase-b0.4.md) ✓
 - **Blocks:** [sase-b0.5](sase-b0.5.md) ◐
 
 ## Agents
