@@ -13,7 +13,7 @@ assoc: make plan-header and bead-page AGENTS rows label the lane once, resolve t
 
 ## Dependencies
 
-- **Depends on:** [sase-b8.2](sase-b8.2.md) ◐
+- **Depends on:** [sase-b8.2](sase-b8.2.md) ✓
 - **Blocks:** [sase-b8.8](sase-b8.8.md) ◐
 
 ## Agents
