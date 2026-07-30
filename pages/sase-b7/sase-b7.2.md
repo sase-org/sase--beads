@@ -23,4 +23,10 @@ capture-policy: add a pure decision module that classifies every capture candida
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.2/README.md) | [sase-b7.2](sase-b7.2.md) | 0 |
+| [bbugyi200.athena.sase-b7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b7.2/README.md) | [sase-b7.2](sase-b7.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`d309f95`](https://github.com/sase-org/sase/commit/d309f95370d8ecd8bda05e89b3e80057d3d6ca94) | feat: add authorship-aware artifact capture policy | [sase-b7.2](sase-b7.2.md) | 2026-07-30 13:18:52 |

@@ -17,7 +17,7 @@ core-record: add the three VCS-provenance fields and an optional stored path to 
 
 ## Dependencies
 
-- **Blocks:** [sase-b7.3](sase-b7.3.md) ◐
+- **Blocks:** [sase-b7.3](sase-b7.3.md) ✓
 
 ## Agents
 
@@ -27,6 +27,6 @@ core-record: add the three VCS-provenance fields and an optional stored path to 
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`sase-core@ee287b0`](https://github.com/sase-org/sase-core/commit/ee287b0523c8d611e9ce7935fc2a534287b7b104) | feat!: materialize VCS-backed artifact files | [sase-b7.1](sase-b7.1.md) | 2026-07-30 13:22:25 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase-core | [`ee287b0`](https://github.com/sase-org/sase-core/commit/ee287b0523c8d611e9ce7935fc2a534287b7b104) | feat!: materialize VCS-backed artifact files | [sase-b7.1](sase-b7.1.md) | 2026-07-30 13:22:25 |

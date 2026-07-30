@@ -14,7 +14,7 @@ capture-wiring: label capture candidates with their origin, route them through t
 ## Dependencies
 
 - **Depends on:** [sase-b7.2](sase-b7.2.md) ✓
-- **Depends on:** [sase-b7.3](sase-b7.3.md) ◐
+- **Depends on:** [sase-b7.3](sase-b7.3.md) ✓
 - **Blocks:** [sase-b7.5](sase-b7.5.md) ◐
 
 ## Agents
