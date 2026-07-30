@@ -23,10 +23,4 @@ titles: give each LSP payload row the title ACE shows (document frontmatter titl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b3.10.2 | [sase-b3.10.2](sase-b3.10.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`dee5430`](https://github.com/sase-org/sase-core/commit/dee54308c88b7f9bdd5d249a5086c10f24805384) | fix(editor): preserve artifact reference titles in completions | [sase-b3.10.2](sase-b3.10.2.md) | 2026-07-30 11:16:10 |
+| [bbugyi200.athena.sase-b3.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.2/README.md) | [sase-b3.10.2](sase-b3.10.2.md) | 0 |

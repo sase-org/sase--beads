@@ -23,10 +23,4 @@ rank: replace the case-insensitive starts_with prefilters in append_agent_page_c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b3.10.1 | [sase-b3.10.1](sase-b3.10.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`149aee8`](https://github.com/sase-org/sase-core/commit/149aee8f2a88ac282ba395a807a485f031ce11fa) | feat(editor): rank agent and indexed-file completions with the fuzzy matcher | [sase-b3.10.1](sase-b3.10.1.md) | 2026-07-30 11:12:07 |
+| [bbugyi200.athena.sase-b3.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.1/README.md) | [sase-b3.10.1](sase-b3.10.1.md) | 0 |

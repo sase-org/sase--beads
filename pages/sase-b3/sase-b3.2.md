@@ -23,10 +23,4 @@ docwalk: teach plan/read.rs to discover markdown inside bundle directories one l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b3.2 | [sase-b3.2](sase-b3.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`1c7057f`](https://github.com/sase-org/sase-core/commit/1c7057fbd97519a4486ddeb9e07bd4d467090895) | fix(plan): discover bundled document corpora | [sase-b3.2](sase-b3.2.md) | 2026-07-30 08:29:59 |
+| [bbugyi200.athena.sase-b3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.2/README.md) | [sase-b3.2](sase-b3.2.md) | 0 |

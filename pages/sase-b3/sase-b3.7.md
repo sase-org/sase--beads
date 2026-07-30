@@ -21,3 +21,15 @@ tui: render payload rows as the reference path with dim directories, a bright ba
 
 - **Depends on:** [sase-b3.6](sase-b3.6.md) ✓
 - **Blocks:** [sase-b3.8](sase-b3.8.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.7/README.md) | [sase-b3.7](sase-b3.7.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`b6b51f2`](https://github.com/sase-org/sase/commit/b6b51f2399df191dc5a926a26a3040a74bda3b03) | feat(tui): highlight fuzzy artifact reference matches | [sase-b3.7](sase-b3.7.md) | 2026-07-30 09:53:01 |
