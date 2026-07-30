@@ -15,3 +15,9 @@ land: update the editor and ace docs plus the sase-nvim completion table, raise 
 
 - **Depends on:** [sase-b3.5](sase-b3.5.md) ✓
 - **Depends on:** [sase-b3.8](sase-b3.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.9/README.md) | [sase-b3.9](sase-b3.9.md) | 0 |

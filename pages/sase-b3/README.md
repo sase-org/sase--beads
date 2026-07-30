@@ -15,15 +15,15 @@ Typing an artifact reference finds the file by any memorable fragment of its pat
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-b3.1](sase-b3.1.md) | Canonical fuzzy matcher in sase-core | ✓ closed | medium | 1 | 1 |
-| [sase-b3.2](sase-b3.2.md) | Bundled document discovery depth | ✓ closed | small | 1 | 1 |
-| [sase-b3.3](sase-b3.3.md) | Fuzzy at-reference menu and match runs on the wire | ✓ closed | medium | 1 | 1 |
-| [sase-b3.4](sase-b3.4.md) | Zero-marshalling payload index binding | ✓ closed | medium | 1 | 1 |
-| [sase-b3.5](sase-b3.5.md) | Server-side fuzzy completion for editors | ✓ closed | small | 1 | 1 |
-| [sase-b3.6](sase-b3.6.md) | Reachable, bounded, per-kind payload catalogs | ◐ in_progress | medium | 0 | 0 |
-| [sase-b3.7](sase-b3.7.md) | Prompt-input rendering of paths and matched runs | ◐ in_progress | medium | 0 | 0 |
-| [sase-b3.8](sase-b3.8.md) | Ctrl+R finder on the shared matcher | ◐ in_progress | small | 0 | 0 |
-| [sase-b3.9](sase-b3.9.md) | Docs, core floor bump, and end-to-end verification | ◐ in_progress | small | 0 | 0 |
+| [sase-b3.1](sase-b3.1.md) | Canonical fuzzy matcher in sase-core | ✓ closed | medium | 1 | 0 |
+| [sase-b3.2](sase-b3.2.md) | Bundled document discovery depth | ✓ closed | small | 1 | 0 |
+| [sase-b3.3](sase-b3.3.md) | Fuzzy at-reference menu and match runs on the wire | ✓ closed | medium | 1 | 0 |
+| [sase-b3.4](sase-b3.4.md) | Zero-marshalling payload index binding | ✓ closed | medium | 1 | 0 |
+| [sase-b3.5](sase-b3.5.md) | Server-side fuzzy completion for editors | ✓ closed | small | 1 | 0 |
+| [sase-b3.6](sase-b3.6.md) | Reachable, bounded, per-kind payload catalogs | ✓ closed | medium | 1 | 1 |
+| [sase-b3.7](sase-b3.7.md) | Prompt-input rendering of paths and matched runs | ◐ in_progress | medium | 1 | 0 |
+| [sase-b3.8](sase-b3.8.md) | Ctrl+R finder on the shared matcher | ◐ in_progress | small | 1 | 0 |
+| [sase-b3.9](sase-b3.9.md) | Docs, core floor bump, and end-to-end verification | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
 
@@ -35,7 +35,7 @@ flowchart TD
     n3["sase-b3.3: Fuzzy at-reference menu and match runs on the wire [closed]"]
     n4["sase-b3.4: Zero-marshalling payload index binding [closed]"]
     n5["sase-b3.5: Server-side fuzzy completion for editors [closed]"]
-    n6["sase-b3.6: Reachable, bounded, per-kind payload catalogs [in_progress]"]
+    n6["sase-b3.6: Reachable, bounded, per-kind payload catalogs [closed]"]
     n7["sase-b3.7: Prompt-input rendering of paths and matched runs [in_progress]"]
     n8["sase-b3.8: Ctrl+R finder on the shared matcher [in_progress]"]
     n9["sase-b3.9: Docs, core floor bump, and end-to-end verification [in_progress]"]
@@ -63,18 +63,19 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-b3.1 | [sase-b3.1](sase-b3.1.md) | 1 |
-| bbugyi200.athena.sase-b3.2 | [sase-b3.2](sase-b3.2.md) | 1 |
-| bbugyi200.athena.sase-b3.3 | [sase-b3.3](sase-b3.3.md) | 1 |
-| bbugyi200.athena.sase-b3.4 | [sase-b3.4](sase-b3.4.md) | 1 |
-| bbugyi200.athena.sase-b3.5 | [sase-b3.5](sase-b3.5.md) | 1 |
+| [bbugyi200.athena.sase-b3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.1/README.md) | [sase-b3.1](sase-b3.1.md) | 0 |
+| [bbugyi200.athena.sase-b3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.2/README.md) | [sase-b3.2](sase-b3.2.md) | 0 |
+| [bbugyi200.athena.sase-b3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.3/README.md) | [sase-b3.3](sase-b3.3.md) | 0 |
+| [bbugyi200.athena.sase-b3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.4/README.md) | [sase-b3.4](sase-b3.4.md) | 0 |
+| [bbugyi200.athena.sase-b3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.5/README.md) | [sase-b3.5](sase-b3.5.md) | 0 |
+| [bbugyi200.athena.sase-b3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.6/README.md) | [sase-b3.6](sase-b3.6.md) | 1 |
+| [bbugyi200.athena.sase-b3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.7/README.md) | [sase-b3.7](sase-b3.7.md) | 0 |
+| [bbugyi200.athena.sase-b3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.8/README.md) | [sase-b3.8](sase-b3.8.md) | 0 |
+| [bbugyi200.athena.sase-b3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.9/README.md) | [sase-b3.9](sase-b3.9.md) | 0 |
+| [bbugyi200.athena.sase-b3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.land/README.md) | [sase-b3](README.md) | 0 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`36f1d29`](https://github.com/sase-org/sase-core/commit/36f1d29d19b98174e2d0df4e525e67baacecc788) | feat(editor): add canonical fuzzy matcher | [sase-b3.1](sase-b3.1.md) | 2026-07-30 08:28:09 |
-| [`1c7057f`](https://github.com/sase-org/sase-core/commit/1c7057fbd97519a4486ddeb9e07bd4d467090895) | fix(plan): discover bundled document corpora | [sase-b3.2](sase-b3.2.md) | 2026-07-30 08:29:59 |
-| [`b5c99ce`](https://github.com/sase-org/sase-core/commit/b5c99ce08161800e65f8895b10eb5c594759986e) | feat(editor): fuzzy-match artifact reference menus | [sase-b3.3](sase-b3.3.md) | 2026-07-30 08:42:07 |
-| [`374cfc3`](https://github.com/sase-org/sase-core/commit/374cfc37ede51b4b0f41dd0ce2e796597b1dbc97) | feat(lsp): serve server-ranked fuzzy artifact references | [sase-b3.5](sase-b3.5.md) | 2026-07-30 08:54:49 |
-| [`1290667`](https://github.com/sase-org/sase-core/commit/12906673cb769a4c2f9d9d499df4968e2132329c) | feat(editor): add indexed at-reference payload binding | [sase-b3.4](sase-b3.4.md) | 2026-07-30 09:02:20 |
+| [`cbe3d21`](https://github.com/sase-org/sase/commit/cbe3d214af47a9e645bfac725cd64960f337409c) | perf(artifact-refs): cache bounded payload catalogs | [sase-b3.6](sase-b3.6.md) | 2026-07-30 09:31:13 |

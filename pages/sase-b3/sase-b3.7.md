@@ -13,5 +13,11 @@ tui: render payload rows as the reference path with dim directories, a bright ba
 
 ## Dependencies
 
-- **Depends on:** [sase-b3.6](sase-b3.6.md) ◐
+- **Depends on:** [sase-b3.6](sase-b3.6.md) ✓
 - **Blocks:** [sase-b3.8](sase-b3.8.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.7/README.md) | [sase-b3.7](sase-b3.7.md) | 0 |

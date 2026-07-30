@@ -15,3 +15,9 @@ finder: replace the duplicate Python fuzzy scorer in recursive_file_finder with 
 
 - **Depends on:** [sase-b3.7](sase-b3.7.md) ◐
 - **Blocks:** [sase-b3.9](sase-b3.9.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-b3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.8/README.md) | [sase-b3.8](sase-b3.8.md) | 0 |
