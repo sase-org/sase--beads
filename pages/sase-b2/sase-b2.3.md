@@ -18,7 +18,7 @@ core_editor: teach the shared editor layer the two new kinds — diagnostics now
 ## Dependencies
 
 - **Depends on:** [sase-b2.2](sase-b2.2.md) ✓
-- **Blocks:** [sase-b2.8](sase-b2.8.md) ◐
+- **Blocks:** [sase-b2.8](sase-b2.8.md) ✓
 
 ## Agents
 

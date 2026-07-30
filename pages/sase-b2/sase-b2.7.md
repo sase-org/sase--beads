@@ -20,7 +20,7 @@ py_copy: make `%@` on an epic/phase row copy `bead:<id>`, move the design plan r
 ## Dependencies
 
 - **Depends on:** [sase-b2.6](sase-b2.6.md) ✓
-- **Blocks:** [sase-b2.8](sase-b2.8.md) ◐
+- **Blocks:** [sase-b2.8](sase-b2.8.md) ✓
 
 ## Agents
 

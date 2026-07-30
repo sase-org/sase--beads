@@ -13,7 +13,7 @@ pin: after the sase-core release publishes, raise the `sase-core-rs` floor to th
 
 ## Dependencies
 
-- **Depends on:** [sase-b2.8](sase-b2.8.md) ◐
+- **Depends on:** [sase-b2.8](sase-b2.8.md) ✓
 
 ## Agents
 
