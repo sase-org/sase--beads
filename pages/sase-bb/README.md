@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.4/README.md) | [sase-bb.4](sase-bb.4.md) | 2 |
 | [bbugyi200.athena.sase-bb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.5/README.md) | [sase-bb.5](sase-bb.5.md) | 1 |
 | [bbugyi200.athena.sase-bb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.6/README.md) | [sase-bb.6](sase-bb.6.md) | 1 |
-| [bbugyi200.athena.sase-bb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.land/README.md) | [sase-bb](README.md) | 1 |
+| [bbugyi200.athena.sase-bb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bb.land/README.md) | [sase-bb](README.md) | 2 |
 
 ## Commits
 
@@ -77,3 +77,4 @@ flowchart TD
 | sase-nvim | [`sase-nvim@0e720ef`](https://github.com/sase-org/sase-nvim/commit/0e720efc478085f87664f6a28d13f4e87544e654) | feat: highlight artifact references in ChangeSpecs | [sase-bb.4](sase-bb.4.md) | 2026-07-30 17:53:25 |
 | sase | [`84d47aa`](https://github.com/sase-org/sase/commit/84d47aa78bf75e88486e4ace484d782b74139fe6) | docs: document artifact reference persistence | [sase-bb.6](sase-bb.6.md) | 2026-07-30 20:34:11 |
 | sase | [`daeb410`](https://github.com/sase-org/sase/commit/daeb4109a079c971f654ba72266e16c8a752dfae) | fix(artifact): protect artifacts referenced only by beads | [sase-bb](README.md) | 2026-07-30 21:08:44 |
+| sase--plans | [`sase--plans@a888b5a`](https://github.com/sase-org/sase--plans/commit/a888b5ad486324ca81ef1c515fcacb0236721889) | docs(plans): mark spec\_artifact\_references plan done (sase-bb) | [sase-bb](README.md) | 2026-07-30 21:19:08 |
