@@ -19,7 +19,7 @@ render: give the merged menu its aligned row anatomy, group rule line, adaptive 
 
 - **Depends on:** [sase-ay.4](sase-ay.4.md) ✓
 - **Depends on:** [sase-ay.6](sase-ay.6.md) ✓
-- **Blocks:** [sase-ay.8](sase-ay.8.md) ◐
+- **Blocks:** [sase-ay.8](sase-ay.8.md) ✓
 
 ## Agents
 

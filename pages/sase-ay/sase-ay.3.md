@@ -18,7 +18,7 @@ lsp: route `sase lsp` artifact completion through the shared module, enumerate l
 ## Dependencies
 
 - **Depends on:** [sase-ay.1](sase-ay.1.md) ✓
-- **Blocks:** [sase-ay.8](sase-ay.8.md) ◐
+- **Blocks:** [sase-ay.8](sase-ay.8.md) ✓
 
 ## Agents
 

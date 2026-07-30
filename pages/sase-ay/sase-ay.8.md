@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-ay](README.md) / sase-ay.8
 
-**Status:** ◐ in_progress · **Type:** phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** phase
 **Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ay.8` · **Size:** small
-**Created:** 2026-07-29 22:25:25 UTC
+**Created:** 2026-07-29 22:25:25 UTC · **Closed:** 2026-07-30 00:25:37 UTC
 **Plan:** [202607/at\_reference\_completion\_menu.md](https://github.com/sase-org/sase--plans/blob/main/202607/at_reference_completion_menu.md)
 
 ## Description
 
 docs: update the ACE completion docs, configuration reference, editor reference, and the `?` help popup entry for the new bare-`@` behavior.
+
+## Notes
+
+[2026-07-30T00:25:37Z · sase-ay.8] Updated ACE/config/editor docs and ? help entry; verified just install, targeted help test, and full just test-visual. just check rerun passed fmt and lint but failed at SASE validation due existing SDD plan-link errors for 202607/artifacts_files_subtab.md, 202607/at_reference_completion_menu.md, and 202607/copy_as_palette.md.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ docs: update the ACE completion docs, configuration reference, editor reference,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ay.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.8/README.md) | [sase-ay.8](sase-ay.8.md) | 0 |
+| [bbugyi200.athena.sase-ay.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.8/README.md) | [sase-ay.8](sase-ay.8.md) | 1 |
+
+## Commits
+
+| Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|
+| [`9d8a700`](https://github.com/sase-org/sase/commit/9d8a70048e5aabeb5c594d1d50e28ba7f36fb84e) | docs: document grouped at-reference completion | [sase-ay.8](sase-ay.8.md) | 2026-07-30 00:27:14 |
