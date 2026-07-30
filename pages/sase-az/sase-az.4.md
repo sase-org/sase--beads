@@ -20,15 +20,3 @@ files: give the artifact-files modal the same palette on the copy prefix with th
 ## Dependencies
 
 - **Depends on:** [sase-az.3](sase-az.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-az.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.4/README.md) | [sase-az.4](sase-az.4.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`132bd79`](https://github.com/sase-org/sase/commit/132bd79c77d514bc109d3fecf0a6d2a4a0c0bc02) | feat(ace): add artifact file copy representations | [sase-az.4](sase-az.4.md) | 2026-07-30 01:51:16 |

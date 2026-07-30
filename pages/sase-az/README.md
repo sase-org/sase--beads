@@ -23,10 +23,10 @@ Pressing the copy prefix anywhere in ACE opens one beautiful, discoverable "Copy
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-az.1](sase-az.1.md) | One clipboard delivery seam with OSC 52 and a selectable fallback | ✓ closed | medium | 1 | 1 |
-| [sase-az.2](sase-az.2.md) | Representation targets and one copy-target registry | ✓ closed | medium | 1 | 1 |
-| [sase-az.3](sase-az.3.md) | The Copy-as palette modal | ✓ closed | large | 2 | 1 |
-| [sase-az.4](sase-az.4.md) | File-kind representations in the artifact-files modal | ✓ closed | medium | 1 | 1 |
+| [sase-az.1](sase-az.1.md) | One clipboard delivery seam with OSC 52 and a selectable fallback | ✓ closed | medium | 0 | 0 |
+| [sase-az.2](sase-az.2.md) | Representation targets and one copy-target registry | ✓ closed | medium | 0 | 0 |
+| [sase-az.3](sase-az.3.md) | The Copy-as palette modal | ✓ closed | large | 0 | 0 |
+| [sase-az.4](sase-az.4.md) | File-kind representations in the artifact-files modal | ✓ closed | medium | 0 | 0 |
 
 ## Lineage
 
@@ -50,20 +50,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-az.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.1/README.md) | [sase-az.1](sase-az.1.md) | 1 |
-| [bbugyi200.athena.sase-az.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.2/README.md) | [sase-az.2](sase-az.2.md) | 1 |
-| [bbugyi200.athena.sase-az.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-code) | [sase-az.3](sase-az.3.md) | 1 |
-| [bbugyi200.athena.sase-az.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-plan) | [sase-az.3](sase-az.3.md) | 0 |
-| [bbugyi200.athena.sase-az.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-az.4/README.md) | [sase-az.4](sase-az.4.md) | 1 |
-| [bbugyi200.athena.sase-az.land--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.land.md#member-code) | [sase-az](README.md) | 1 |
-| [bbugyi200.athena.sase-az.land--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.land.md#member-plan) | [sase-az](README.md) | 0 |
+| bbugyi200.athena.sase-az.land--code | [sase-az](README.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`77ec879`](https://github.com/sase-org/sase/commit/77ec8798e0c6f435e3b32a4f24e161ce268fb81f) | feat(ace): unify clipboard delivery | [sase-az.1](sase-az.1.md) | 2026-07-29 23:50:42 |
-| [`cf844c3`](https://github.com/sase-org/sase/commit/cf844c3e5d574d7c8898a73fd36cba686c17a6ad) | feat(ace): add paste-ready copy representations | [sase-az.2](sase-az.2.md) | 2026-07-30 00:27:20 |
-| [`3da9140`](https://github.com/sase-org/sase/commit/3da9140b4968f590f84ace1db91f21c565746381) | feat(ace): add contextual Copy as palette | [sase-az.3](sase-az.3.md) | 2026-07-30 01:14:52 |
-| [`132bd79`](https://github.com/sase-org/sase/commit/132bd79c77d514bc109d3fecf0a6d2a4a0c0bc02) | feat(ace): add artifact file copy representations | [sase-az.4](sase-az.4.md) | 2026-07-30 01:51:16 |
-| [`86fb630`](https://github.com/sase-org/sase/commit/86fb630bb8315f86895a48ac4a9be1a9243e8612) | feat(ace): complete Files copy-as palette | [sase-az](README.md) | 2026-07-30 02:28:02 |
+| [`a8eb1ed`](https://github.com/sase-org/sase--plans/commit/a8eb1ed00944a60f8c107671c43ad74961feb3fd) | docs(plans): mark copy-as palette complete | [sase-az](README.md) | 2026-07-30 02:29:17 |

@@ -21,16 +21,3 @@ palette: make the copy prefix open a compact grouped palette modal built from th
 
 - **Depends on:** [sase-az.2](sase-az.2.md) ✓
 - **Blocks:** [sase-az.4](sase-az.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-az.3--code](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-code) | [sase-az.3](sase-az.3.md) | 1 |
-| [bbugyi200.athena.sase-az.3--plan](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-az.3.md#member-plan) | [sase-az.3](sase-az.3.md) | 0 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`3da9140`](https://github.com/sase-org/sase/commit/3da9140b4968f590f84ace1db91f21c565746381) | feat(ace): add contextual Copy as palette | [sase-az.3](sase-az.3.md) | 2026-07-30 01:14:52 |
