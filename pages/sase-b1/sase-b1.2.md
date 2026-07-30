@@ -19,15 +19,3 @@ launch-env-plumbing: thread the per-segment swarm chain through the CLI and ACE 
 
 - **Depends on:** [sase-b1.1](sase-b1.1.md) ✓
 - **Blocks:** [sase-b1.4](sase-b1.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.2/README.md) | [sase-b1.2](sase-b1.2.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`0683114`](https://github.com/sase-org/sase/commit/068311411b65de0931d755cdfc88e66114a918b3) | feat(agent): carry swarm provenance through launches | [sase-b1.2](sase-b1.2.md) | 2026-07-30 01:57:40 |

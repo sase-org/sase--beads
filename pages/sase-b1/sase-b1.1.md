@@ -18,15 +18,3 @@ swarm-provenance: add an ordered outer-to-inner swarm-name chain to the expanded
 ## Dependencies
 
 - **Blocks:** [sase-b1.2](sase-b1.2.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b1.1/README.md) | [sase-b1.1](sase-b1.1.md) | 1 |
-
-## Commits
-
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`3054ea5`](https://github.com/sase-org/sase/commit/3054ea56f2fbaa4709c02bfad2124c7636552c46) | feat: track xprompt swarm provenance on expansion records | [sase-b1.1](sase-b1.1.md) | 2026-07-30 01:25:22 |
