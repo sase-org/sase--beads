@@ -20,9 +20,3 @@ reach: raise the per-root 200-row bound so editors see the corpus ACE sees, cach
 - **Depends on:** [sase-b3.10.1](sase-b3.10.1.md) ✓
 - **Depends on:** [sase-b3.10.2](sase-b3.10.2.md) ✓
 - **Blocks:** [sase-b3.10.4](sase-b3.10.4.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b3.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.3/README.md) | [sase-b3.10.3](sase-b3.10.3.md) | 0 |

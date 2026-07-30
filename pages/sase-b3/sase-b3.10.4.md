@@ -23,10 +23,10 @@ land: correct the docs/editor.md reachability claims, publish the sase-core rele
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-b3.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.4/README.md) | [sase-b3.10.4](sase-b3.10.4.md) | 1 |
+| bbugyi200.athena.sase-b3.10.4 | [sase-b3.10.4](sase-b3.10.4.md) | 1 |
 
 ## Commits
 
 | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|
-| [`5ff7b8a`](https://github.com/sase-org/sase/commit/5ff7b8ab899d014b5f8d4d2be7af6fe0a865213a) | docs: correct artifact-reference completion reachability claims | [sase-b3.10.4](sase-b3.10.4.md) | 2026-07-30 11:59:54 |
+| [`caf0d51`](https://github.com/sase-org/sase-nvim/commit/caf0d51d5da86980f68a852a69d83ef01720ae8a) | test: cover fuzzy agent-reference completion end to end | [sase-b3.10.4](sase-b3.10.4.md) | 2026-07-30 12:00:58 |

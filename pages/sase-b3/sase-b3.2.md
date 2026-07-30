@@ -18,9 +18,3 @@ docwalk: teach plan/read.rs to discover markdown inside bundle directories one l
 ## Dependencies
 
 - **Blocks:** [sase-b3.6](sase-b3.6.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.2/README.md) | [sase-b3.2](sase-b3.2.md) | 0 |

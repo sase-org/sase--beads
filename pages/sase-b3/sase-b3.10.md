@@ -10,9 +10,3 @@
 ## Description
 
 Every artifact-reference payload the ACE prompt input can find, an editor can find too: the same kinds, the same corpus, the same fuzzy queries, the same titles — and where a bound still applies, the response says so.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-b3.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-b3.10.land/README.md) | [sase-b3.10](sase-b3.10.md) | 0 |
