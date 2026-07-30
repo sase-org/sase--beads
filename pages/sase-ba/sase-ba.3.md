@@ -21,7 +21,7 @@ py-prune: add `sase artifact prune` (dry run unless `--apply`) and the `sase art
 
 - **Depends on:** [sase-ba.2](sase-ba.2.md) ✓
 - **Blocks:** [sase-ba.4](sase-ba.4.md) ◐
-- **Blocks:** [sase-ba.5](sase-ba.5.md) ◐
+- **Blocks:** [sase-ba.5](sase-ba.5.md) ✓
 
 ## Agents
 

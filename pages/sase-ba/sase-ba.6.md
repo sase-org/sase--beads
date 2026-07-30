@@ -14,7 +14,7 @@ docs-and-skill: document the store lifecycle, the new subcommands, the trash con
 ## Dependencies
 
 - **Depends on:** [sase-ba.4](sase-ba.4.md) ◐
-- **Depends on:** [sase-ba.5](sase-ba.5.md) ◐
+- **Depends on:** [sase-ba.5](sase-ba.5.md) ✓
 
 ## Agents
 
