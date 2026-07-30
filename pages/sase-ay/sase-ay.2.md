@@ -19,9 +19,3 @@ binding: export `at_reference_context` and `at_reference_menu` from `sase_core_p
 
 - **Depends on:** [sase-ay.1](sase-ay.1.md) ✓
 - **Blocks:** [sase-ay.6](sase-ay.6.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ay.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.2/README.md) | [sase-ay.2](sase-ay.2.md) | 0 |

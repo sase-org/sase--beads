@@ -19,9 +19,3 @@ lsp: route `sase lsp` artifact completion through the shared module, enumerate l
 
 - **Depends on:** [sase-ay.1](sase-ay.1.md) ✓
 - **Blocks:** [sase-ay.8](sase-ay.8.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ay.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.3/README.md) | [sase-ay.3](sase-ay.3.md) | 0 |

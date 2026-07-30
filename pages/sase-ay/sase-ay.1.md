@@ -21,9 +21,3 @@ core: add the `sase_core::editor::at_reference` module — cursor context detect
 
 - **Blocks:** [sase-ay.2](sase-ay.2.md) ✓
 - **Blocks:** [sase-ay.3](sase-ay.3.md) ✓
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ay.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ay.1/README.md) | [sase-ay.1](sase-ay.1.md) | 0 |
