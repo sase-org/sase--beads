@@ -17,7 +17,7 @@ core_grammar: add the `Bead { id }` and `Agent { name }` kind/payload wire varia
 
 ## Dependencies
 
-- **Blocks:** [sase-b2.2](sase-b2.2.md) ◐
+- **Blocks:** [sase-b2.2](sase-b2.2.md) ✓
 
 ## Agents
 
