@@ -3,13 +3,17 @@
 [Bead Pages](../README.md) / sase-bv
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bv.land`
-**Created:** 2026-07-31 13:12:26 UTC · **Closed:** 2026-07-31 15:14:58 UTC
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-bv.land--code`
+**Created:** 2026-07-31 13:12:26 UTC · **Closed:** 2026-07-31 15:21:27 UTC
 **Plan:** [202607/bead\_created\_by\_attribution.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_created_by_attribution.md)
 
 ## Description
 
 Every newly created bead records the SASE agent responsible for it — epic and phase beads carry the agent that proposed the epic plan file, task beads carry the agent (or the human) that created them — and `sase bead show` plus the published bead page render that creator as a link to its `agents` sidecar page.
+
+## Notes
+
+[2026-07-31T15:21:27Z · sase-bv.land] All five phases were read against the source and confirmed landed. sase bead create did not actually record the acting agent because the Rust bead-CLI fast path bypassed handle_bead_create; that was fixed (commit 4fd54a967) and covered by an end-to-end dispatch test through sase.main.entry.main. The superseded SASE_AGENT guard in attribution.py was removed (commit 3a98c68df) after bead sase-bp fixed the hazard at its source. Seven of the nine collected follow-ups (stale sase-bj.3 symvision exemptions, generated provider-skill drift, the missing prompt-to-plan link, model-completion label casing, the prefix_policy privatization, and both bead-page publication performance reports, the last of which was fixed by bead sase-c7 / commit c82eff9a0) were re-verified as already resolved and deliberately not re-filed. Filed sase-ce (stale ACE PNG snapshot goldens) and sase-cf (suite-gate SIGKILL capacity test flake under load) for the two follow-ups that are still open.
 
 ## Phases
 
@@ -49,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.3/README.md) | [sase-bv.3](sase-bv.3.md) | 1 |
 | [bbugyi200.athena.sase-bv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.4/README.md) | [sase-bv.4](sase-bv.4.md) | 1 |
 | [bbugyi200.athena.sase-bv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.5/README.md) | [sase-bv.5](sase-bv.5.md) | 1 |
-| [bbugyi200.athena.sase-bv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bv.land.md) | [sase-bv](README.md) | 2 |
+| [bbugyi200.athena.sase-bv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bv.land.md) | [sase-bv](README.md) | 3 |
 
 ## Commits
 
@@ -62,3 +66,4 @@ flowchart TD
 | sase | [`b2b1e73`](https://github.com/sase-org/sase/commit/b2b1e73d9210383f11b4e61a5ef08fd8bc3a63fc) | feat(beads): attribute creation to the responsible agent | [sase-bv.3](sase-bv.3.md) | 2026-07-31 14:41:56 |
 | sase | [`4fd54a9`](https://github.com/sase-org/sase/commit/4fd54a96707a0931b3c86a8c3551a2e0fbed0ea5) | fix(bead): route sase bead create through the attributing handler | [sase-bv](README.md) | 2026-07-31 15:15:17 |
 | sase | [`3a98c68`](https://github.com/sase-org/sase/commit/3a98c68df821b90d4445fbb5bff8c132fb42757c) | refactor(bead): remove superseded SASE\_AGENT guard from attribution | [sase-bv](README.md) | 2026-07-31 15:18:44 |
+| sase--plans | [`sase--plans@92f9f2c`](https://github.com/sase-org/sase--plans/commit/92f9f2c8b0d485493f7117ba93436571e9e36d09) | docs(plan): mark bead\_created\_by\_attribution epic done | [sase-bv](README.md) | 2026-07-31 15:22:33 |
