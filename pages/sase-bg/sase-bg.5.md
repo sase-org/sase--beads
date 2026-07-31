@@ -17,7 +17,7 @@ pages-mobile: render the task type and ready status on published bead pages, adm
 
 ## Dependencies
 
-- **Blocks:** [sase-bg.10](sase-bg.10.md) ◐
+- **Blocks:** [sase-bg.10](sase-bg.10.md) ✓
 - **Depends on:** [sase-bg.3](sase-bg.3.md) ✓
 
 ## Agents

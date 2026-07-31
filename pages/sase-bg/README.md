@@ -16,7 +16,7 @@ Discovered follow-up work has a first-class destination: phase agents record PRO
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-bg.1](sase-bg.1.md) | Rust core task type, ready status, and ready-query redefinition | ✓ closed | medium | 1 | 1 |
-| [sase-bg.10](sase-bg.10.md) | Memory template, sase\_beads skill, and documentation | ◐ in_progress | medium | 1 | 0 |
+| [sase-bg.10](sase-bg.10.md) | Memory template, sase\_beads skill, and documentation | ✓ closed | medium | 1 | 1 |
 | [sase-bg.2](sase-bg.2.md) | Python model mirror, parsers, and CLI text | ✓ closed | medium | 1 | 1 |
 | [sase-bg.3](sase-bg.3.md) | Shared bead type and ready status presentation | ✓ closed | small | 1 | 1 |
 | [sase-bg.4](sase-bg.4.md) | ACE TUI task surfaces and PNG goldens | ✓ closed | large | 1 | 1 |
@@ -24,7 +24,7 @@ Discovered follow-up work has a first-class destination: phase agents record PRO
 | [sase-bg.6](sase-bg.6.md) | Remove bd/next, rewire capture, add bd/work\_task | ✓ closed | medium | 1 | 1 |
 | [sase-bg.7](sase-bg.7.md) | sase bead work for task beads and detached submitter | ✓ closed | large | 1 | 1 |
 | [sase-bg.8](sase-bg.8.md) | TaskTriage gate kind end to end | ✓ closed | large | 1 | 1 |
-| [sase-bg.9](sase-bg.9.md) | bead\_task\_triage builtin chop | ◐ in_progress | medium | 1 | 0 |
+| [sase-bg.9](sase-bg.9.md) | bead\_task\_triage builtin chop | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ Discovered follow-up work has a first-class destination: phase agents record PRO
 flowchart TD
     n0["sase-bg: Task beads — capture, triage, and work discovered follow-ups [in_progress]"]
     n1["sase-bg.1: Rust core task type, ready status, and ready-query redefinition [closed]"]
-    n2["sase-bg.10: Memory template, sase_beads skill, and documentation [in_progress]"]
+    n2["sase-bg.10: Memory template, sase_beads skill, and documentation [closed]"]
     n3["sase-bg.2: Python model mirror, parsers, and CLI text [closed]"]
     n4["sase-bg.3: Shared bead type and ready status presentation [closed]"]
     n5["sase-bg.4: ACE TUI task surfaces and PNG goldens [closed]"]
@@ -40,7 +40,7 @@ flowchart TD
     n7["sase-bg.6: Remove bd/next, rewire capture, add bd/work_task [closed]"]
     n8["sase-bg.7: sase bead work for task beads and detached submitter [closed]"]
     n9["sase-bg.8: TaskTriage gate kind end to end [closed]"]
-    n10["sase-bg.9: bead_task_triage builtin chop [in_progress]"]
+    n10["sase-bg.9: bead_task_triage builtin chop [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,7 +69,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-bg.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.1/README.md) | [sase-bg.1](sase-bg.1.md) | 1 |
-| [bbugyi200.athena.sase-bg.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.10/README.md) | [sase-bg.10](sase-bg.10.md) | 0 |
+| [bbugyi200.athena.sase-bg.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.10/README.md) | [sase-bg.10](sase-bg.10.md) | 1 |
 | [bbugyi200.athena.sase-bg.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.2/README.md) | [sase-bg.2](sase-bg.2.md) | 1 |
 | [bbugyi200.athena.sase-bg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.3/README.md) | [sase-bg.3](sase-bg.3.md) | 1 |
 | [bbugyi200.athena.sase-bg.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.4.md) | [sase-bg.4](sase-bg.4.md) | 1 |
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bg.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.6/README.md) | [sase-bg.6](sase-bg.6.md) | 1 |
 | [bbugyi200.athena.sase-bg.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.7.md) | [sase-bg.7](sase-bg.7.md) | 1 |
 | [bbugyi200.athena.sase-bg.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.8.md) | [sase-bg.8](sase-bg.8.md) | 1 |
-| [bbugyi200.athena.sase-bg.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.9/README.md) | [sase-bg.9](sase-bg.9.md) | 0 |
+| [bbugyi200.athena.sase-bg.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.9/README.md) | [sase-bg.9](sase-bg.9.md) | 1 |
 | [bbugyi200.athena.sase-bg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.land/README.md) | [sase-bg](README.md) | 0 |
 
 ## Commits
@@ -92,3 +92,5 @@ flowchart TD
 | sase | [`2ce43ee`](https://github.com/sase-org/sase/commit/2ce43ee3e84c960fafa9326d15d8cd2f26475756) | feat(bead): show task type and ready status on pages and mobile | [sase-bg.5](sase-bg.5.md) | 2026-07-31 00:45:44 |
 | sase | [`f592b43`](https://github.com/sase-org/sase/commit/f592b43dfe5d0c6e1e68ab1e71c2124f6d013d2a) | feat(tui): surface task beads in ACE | [sase-bg.4](sase-bg.4.md) | 2026-07-31 01:15:10 |
 | sase | [`010fe0f`](https://github.com/sase-org/sase/commit/010fe0fc067fd818302a8967197297ef5d7c1b34) | feat(gates): add TaskTriage decision workflow | [sase-bg.8](sase-bg.8.md) | 2026-07-31 01:41:42 |
+| sase | [`d8028ee`](https://github.com/sase-org/sase/commit/d8028eeebf7f240c76a5f0cd034f0629b066d5c0) | feat(axe): triage ready task beads | [sase-bg.9](sase-bg.9.md) | 2026-07-31 02:31:17 |
+| sase | [`cfeeabc`](https://github.com/sase-org/sase/commit/cfeeabc341065b96e91413238bfac374d313bfa7) | feat(beads): teach agents to file task follow-ups | [sase-bg.10](sase-bg.10.md) | 2026-07-31 02:51:32 |

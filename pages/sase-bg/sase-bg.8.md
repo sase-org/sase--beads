@@ -20,7 +20,7 @@ triage-gate: register a task_triage gate kind with launch-default and close-with
 ## Dependencies
 
 - **Depends on:** [sase-bg.7](sase-bg.7.md) ✓
-- **Blocks:** [sase-bg.9](sase-bg.9.md) ◐
+- **Blocks:** [sase-bg.9](sase-bg.9.md) ✓
 
 ## Agents
 
