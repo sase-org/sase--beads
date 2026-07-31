@@ -20,7 +20,7 @@ retire: delete the skill source and every in-repo reference to it, including the
 ## Dependencies
 
 - **Depends on:** [sase-cp.1](sase-cp.1.md) ✓
-- **Blocks:** [sase-cp.3](sase-cp.3.md) ◐
+- **Blocks:** [sase-cp.3](sase-cp.3.md) ✓
 
 ## Agents
 
