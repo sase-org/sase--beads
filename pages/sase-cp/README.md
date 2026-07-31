@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.sase-cp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cp.1/README.md) | [sase-cp.1](sase-cp.1.md) | 1 |
 | [bbugyi200.athena.sase-cp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cp.2/README.md) | [sase-cp.2](sase-cp.2.md) | 2 |
 | [bbugyi200.athena.sase-cp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cp.3/README.md) | [sase-cp.3](sase-cp.3.md) | 1 |
-| [bbugyi200.athena.sase-cp.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-cp.land.md) | [sase-cp](README.md) | 1 |
+| [bbugyi200.athena.sase-cp.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-cp.land.md) | [sase-cp](README.md) | 2 |
 
 ## Commits
 
@@ -58,3 +58,4 @@ flowchart TD
 | sase--plans | [`sase--plans@5aa2ae3`](https://github.com/sase-org/sase--plans/commit/5aa2ae3710264aa1f1e9f88c2ed0716c41869c93) | docs: link sase\_beads\_memory prompt provenance | [sase-cp.2](sase-cp.2.md) | 2026-07-31 19:44:06 |
 | chezmoi | [`chezmoi@67b58a6`](https://github.com/bbugyi200/dotfiles/commit/67b58a6f6e5eee2bef7d3e9ccd39f4f5598bbab2) | chore(skills): remove deployed sase\_beads skill copies | [sase-cp.3](sase-cp.3.md) | 2026-07-31 19:46:33 |
 | sase | [`33c6311`](https://github.com/sase-org/sase/commit/33c63112c911958e5a3c6111eb4f01caeb945794) | docs(memory): document bulk bead update semantics | [sase-cp](README.md) | 2026-07-31 20:25:18 |
+| sase--plans | [`sase--plans@6d40abb`](https://github.com/sase-org/sase--plans/commit/6d40abb49235501243e564e15e4f16d90fb8172b) | chore(plans): mark bead memory epic done | [sase-cp](README.md) | 2026-07-31 20:26:46 |
