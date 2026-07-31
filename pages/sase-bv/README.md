@@ -49,7 +49,7 @@ flowchart TD
 | [bbugyi200.athena.sase-bv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.3/README.md) | [sase-bv.3](sase-bv.3.md) | 1 |
 | [bbugyi200.athena.sase-bv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.4/README.md) | [sase-bv.4](sase-bv.4.md) | 1 |
 | [bbugyi200.athena.sase-bv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.5/README.md) | [sase-bv.5](sase-bv.5.md) | 1 |
-| [bbugyi200.athena.sase-bv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bv.land.md) | [sase-bv](README.md) | 1 |
+| [bbugyi200.athena.sase-bv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bv.land.md) | [sase-bv](README.md) | 2 |
 
 ## Commits
 
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`578e4f5`](https://github.com/sase-org/sase/commit/578e4f5c6499c32d21468734e142ff1c6d092eac) | feat(bead): resolve the acting agent as a bead creator | [sase-bv.2](sase-bv.2.md) | 2026-07-31 14:18:10 |
 | sase | [`b2b1e73`](https://github.com/sase-org/sase/commit/b2b1e73d9210383f11b4e61a5ef08fd8bc3a63fc) | feat(beads): attribute creation to the responsible agent | [sase-bv.3](sase-bv.3.md) | 2026-07-31 14:41:56 |
 | sase | [`4fd54a9`](https://github.com/sase-org/sase/commit/4fd54a96707a0931b3c86a8c3551a2e0fbed0ea5) | fix(bead): route sase bead create through the attributing handler | [sase-bv](README.md) | 2026-07-31 15:15:17 |
+| sase | [`3a98c68`](https://github.com/sase-org/sase/commit/3a98c68df821b90d4445fbb5bff8c132fb42757c) | refactor(bead): remove superseded SASE\_AGENT guard from attribution | [sase-bv](README.md) | 2026-07-31 15:18:44 |
