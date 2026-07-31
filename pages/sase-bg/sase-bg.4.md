@@ -14,7 +14,7 @@ tui: add a Tasks section and task row kind to the Plans pane with filters and de
 ## Dependencies
 
 - **Blocks:** [sase-bg.10](sase-bg.10.md) ◐
-- **Depends on:** [sase-bg.3](sase-bg.3.md) ◐
+- **Depends on:** [sase-bg.3](sase-bg.3.md) ✓
 
 ## Agents
 

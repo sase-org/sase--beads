@@ -20,7 +20,7 @@ py-model: mirror the task type and ready status through model.py, db.py migratio
 ## Dependencies
 
 - **Depends on:** [sase-bg.1](sase-bg.1.md) ✓
-- **Blocks:** [sase-bg.3](sase-bg.3.md) ◐
+- **Blocks:** [sase-bg.3](sase-bg.3.md) ✓
 - **Blocks:** [sase-bg.7](sase-bg.7.md) ◐
 
 ## Agents
