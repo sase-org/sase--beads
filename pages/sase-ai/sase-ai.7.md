@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [sase-ai](README.md) / sase-ai.7
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** phase
-**Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.7` · **Size:** medium
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.7` · **Size:** medium
 **Created:** 2026-07-28 18:22:52 UTC · **Closed:** 2026-07-28 20:23:47 UTC
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
@@ -25,6 +25,6 @@ reconcile: add `sase bead pages refresh` and `sase bead pages url`, and let the 
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`4b9e313`](https://github.com/sase-org/sase/commit/4b9e3131ae6f5c5f219e7a471fa80d8dd194d2fd) | feat(beads): add bead page refresh commands | [sase-ai.7](sase-ai.7.md) | 2026-07-28 20:22:39 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`4b9e313`](https://github.com/sase-org/sase/commit/4b9e3131ae6f5c5f219e7a471fa80d8dd194d2fd) | feat(beads): add bead page refresh commands | [sase-ai.7](sase-ai.7.md) | 2026-07-28 20:22:39 |

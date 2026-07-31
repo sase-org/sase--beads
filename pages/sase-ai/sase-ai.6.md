@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [sase-ai](README.md) / sase-ai.6
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** phase
-**Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.6` · **Size:** small
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.6` · **Size:** small
 **Created:** 2026-07-28 18:22:49 UTC · **Closed:** 2026-07-28 18:54:54 UTC
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
@@ -28,6 +28,6 @@ conflicts: teach the bead conflict resolver that generated pages are regenerable
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`5043949`](https://github.com/sase-org/sase/commit/50439492a6551facacdf8e082c87f418c20db1a1) | fix(beads): resolve generated page conflicts (sase-ai.6) | [sase-ai.6](sase-ai.6.md) | 2026-07-28 18:57:29 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`5043949`](https://github.com/sase-org/sase/commit/50439492a6551facacdf8e082c87f418c20db1a1) | fix(beads): resolve generated page conflicts (sase-ai.6) | [sase-ai.6](sase-ai.6.md) | 2026-07-28 18:57:29 |

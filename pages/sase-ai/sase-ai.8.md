@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [sase-ai](README.md) / sase-ai.8
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** phase
-**Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.8` · **Size:** medium
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.8` · **Size:** medium
 **Created:** 2026-07-28 18:22:56 UTC · **Closed:** 2026-07-28 19:07:04 UTC
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
@@ -23,11 +23,10 @@ planlink: add a `BEAD` section to the sase-core plan-header block grammar and re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 2 |
+| [bbugyi200.athena.sase-ai.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ai.8/README.md) | [sase-ai.8](sase-ai.8.md) | 1 |
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`sase-core@c81b144`](https://github.com/sase-org/sase-core/commit/c81b14444423c0f94be511a3aea11191fa6ffcc4) | feat(plan): add reciprocal bead header sections (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:09:30 |
-| [`ab1c360`](https://github.com/sase-org/sase/commit/ab1c360404b7af12251a19716b0ed51b429cdbde) | feat(plan): project bead links into plan headers (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:10:36 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`ab1c360`](https://github.com/sase-org/sase/commit/ab1c360404b7af12251a19716b0ed51b429cdbde) | feat(plan): project bead links into plan headers (sase-ai.8) | [sase-ai.8](sase-ai.8.md) | 2026-07-28 19:10:36 |

@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [sase-ai](README.md) / sase-ai.4
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** phase
-**Owner:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.4` · **Size:** medium
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.4` · **Size:** medium
 **Created:** 2026-07-28 18:22:40 UTC · **Closed:** 2026-07-28 19:30:37 UTC
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
@@ -29,6 +29,6 @@ rendering: render one bead page per bead — identity, plan, description, lineag
 
 ## Commits
 
-| Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|
-| [`6e15f0d`](https://github.com/sase-org/sase/commit/6e15f0dc06c87b9f09241f675f81057d4975a70b) | feat(bead-pages): render deterministic bead pages (sase-ai.4) | [sase-ai.4](sase-ai.4.md) | 2026-07-28 19:32:06 |
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`6e15f0d`](https://github.com/sase-org/sase/commit/6e15f0dc06c87b9f09241f675f81057d4975a70b) | feat(bead-pages): render deterministic bead pages (sase-ai.4) | [sase-ai.4](sase-ai.4.md) | 2026-07-28 19:32:06 |
