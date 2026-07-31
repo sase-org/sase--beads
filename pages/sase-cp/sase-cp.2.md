@@ -26,10 +26,11 @@ retire: delete the skill source and every in-repo reference to it, including the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-cp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cp.2/README.md) | [sase-cp.2](sase-cp.2.md) | 1 |
+| [bbugyi200.athena.sase-cp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cp.2/README.md) | [sase-cp.2](sase-cp.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`642b4f4`](https://github.com/sase-org/sase/commit/642b4f490b302311ce5b737ac76d3720f4404f01) | feat(memory): retire bundled sase\_beads skill source | [sase-cp.2](sase-cp.2.md) | 2026-07-31 19:43:03 |
+| sase--plans | [`sase--plans@5aa2ae3`](https://github.com/sase-org/sase--plans/commit/5aa2ae3710264aa1f1e9f88c2ed0716c41869c93) | docs: link sase\_beads\_memory prompt provenance | [sase-cp.2](sase-cp.2.md) | 2026-07-31 19:44:06 |
