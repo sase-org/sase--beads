@@ -13,7 +13,7 @@ telegram-optional-feedback: add an `f<branch>` callback and per-branch feedback 
 
 ## Dependencies
 
-- **Depends on:** [sase-ci.2](sase-ci.2.md) ◐
+- **Depends on:** [sase-ci.2](sase-ci.2.md) ✓
 
 ## Agents
 

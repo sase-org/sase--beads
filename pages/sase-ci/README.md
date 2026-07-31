@@ -16,7 +16,7 @@ Telegram renders and resolves every registered notification-gate kind — includ
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ci.1](sase-ci.1.md) | Adapter-owned gate capabilities and in-repo adoption | ✓ closed | medium | 1 | 1 |
-| [sase-ci.2](sase-ci.2.md) | Registry-driven gate rendering and resolution in sase-telegram | ◐ in_progress | medium | 1 | 0 |
+| [sase-ci.2](sase-ci.2.md) | Registry-driven gate rendering and resolution in sase-telegram | ✓ closed | medium | 1 | 1 |
 | [sase-ci.3](sase-ci.3.md) | Optional-feedback affordance for Telegram gate branches | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Telegram renders and resolves every registered notification-gate kind — includ
 flowchart TD
     n0["sase-ci: Registry-driven Telegram support for every SASE gate kind [in_progress]"]
     n1["sase-ci.1: Adapter-owned gate capabilities and in-repo adoption [closed]"]
-    n2["sase-ci.2: Registry-driven gate rendering and resolution in sase-telegram [in_progress]"]
+    n2["sase-ci.2: Registry-driven gate rendering and resolution in sase-telegram [closed]"]
     n3["sase-ci.3: Optional-feedback affordance for Telegram gate branches [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ci.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ci.1/README.md) | [sase-ci.1](sase-ci.1.md) | 1 |
-| [bbugyi200.athena.sase-ci.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ci.2/README.md) | [sase-ci.2](sase-ci.2.md) | 0 |
+| [bbugyi200.athena.sase-ci.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ci.2/README.md) | [sase-ci.2](sase-ci.2.md) | 1 |
 | [bbugyi200.athena.sase-ci.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ci.3/README.md) | [sase-ci.3](sase-ci.3.md) | 0 |
 | [bbugyi200.athena.sase-ci.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ci.land/README.md) | [sase-ci](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`6e5b360`](https://github.com/sase-org/sase/commit/6e5b36028a879f2f86d2678d7d07dde30970ebef) | feat: derive gate behavior from adapter capabilities | [sase-ci.1](sase-ci.1.md) | 2026-07-31 16:28:17 |
+| sase-telegram | [`sase-telegram@c3e6d16`](https://github.com/sase-org/sase-telegram/commit/c3e6d16ab342de959478f2e894ad105b56ba688e) | feat: drive Telegram gates from adapter registry | [sase-ci.2](sase-ci.2.md) | 2026-07-31 16:38:49 |

@@ -23,7 +23,7 @@ core-registry: add default_feedback, generic_form, and branch_actionable to Gate
 
 ## Dependencies
 
-- **Blocks:** [sase-ci.2](sase-ci.2.md) ◐
+- **Blocks:** [sase-ci.2](sase-ci.2.md) ✓
 
 ## Agents
 
