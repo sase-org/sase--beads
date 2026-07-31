@@ -21,7 +21,7 @@ generate: add the packaged bead-note asset plus the generated-long-note plumbing
 
 ## Dependencies
 
-- **Blocks:** [sase-cp.2](sase-cp.2.md) ◐
+- **Blocks:** [sase-cp.2](sase-cp.2.md) ✓
 
 ## Agents
 

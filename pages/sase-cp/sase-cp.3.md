@@ -13,7 +13,7 @@ cleanup: git rm the six chezmoi skill copies, delete the seven home skill direct
 
 ## Dependencies
 
-- **Depends on:** [sase-cp.2](sase-cp.2.md) ◐
+- **Depends on:** [sase-cp.2](sase-cp.2.md) ✓
 
 ## Agents
 
