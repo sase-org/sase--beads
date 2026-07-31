@@ -13,7 +13,7 @@ task-launch: route task bead targets through sase bead work with single-commit i
 
 ## Dependencies
 
-- **Depends on:** [sase-bg.2](sase-bg.2.md) ◐
+- **Depends on:** [sase-bg.2](sase-bg.2.md) ✓
 - **Depends on:** [sase-bg.6](sase-bg.6.md) ✓
 - **Blocks:** [sase-bg.8](sase-bg.8.md) ◐
 
