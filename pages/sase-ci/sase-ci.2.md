@@ -20,7 +20,7 @@ telegram-gates: replace the six hardcoded action/kind allowlists in the sase-tel
 ## Dependencies
 
 - **Depends on:** [sase-ci.1](sase-ci.1.md) ✓
-- **Blocks:** [sase-ci.3](sase-ci.3.md) ◐
+- **Blocks:** [sase-ci.3](sase-ci.3.md) ✓
 
 ## Agents
 
