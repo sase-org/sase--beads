@@ -20,4 +20,4 @@ tui: add a Tasks section and task row kind to the Plans pane with filters and de
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.4/README.md) | [sase-bg.4](sase-bg.4.md) | 0 |
+| [bbugyi200.athena.sase-bg.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.4.md) | [sase-bg.4](sase-bg.4.md) | 0 |

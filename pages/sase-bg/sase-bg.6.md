@@ -21,7 +21,7 @@ xprompts: delete the bd/next xprompt and its doc/test references, redirect bd/wo
 
 ## Dependencies
 
-- **Blocks:** [sase-bg.7](sase-bg.7.md) ◐
+- **Blocks:** [sase-bg.7](sase-bg.7.md) ✓
 
 ## Agents
 
