@@ -14,7 +14,7 @@ triage-chop: add the bead_task_triage chop to the checks lumberjack lane with pe
 ## Dependencies
 
 - **Blocks:** [sase-bg.10](sase-bg.10.md) ◐
-- **Depends on:** [sase-bg.8](sase-bg.8.md) ◐
+- **Depends on:** [sase-bg.8](sase-bg.8.md) ✓
 
 ## Agents
 
