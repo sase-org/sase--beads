@@ -13,8 +13,8 @@ docs-memory-skill: append the user-authorized task-bead recommendation to the bu
 
 ## Dependencies
 
-- **Depends on:** [sase-bg.4](sase-bg.4.md) ◐
-- **Depends on:** [sase-bg.5](sase-bg.5.md) ◐
+- **Depends on:** [sase-bg.4](sase-bg.4.md) ✓
+- **Depends on:** [sase-bg.5](sase-bg.5.md) ✓
 - **Depends on:** [sase-bg.9](sase-bg.9.md) ◐
 
 ## Agents

@@ -19,8 +19,8 @@ Discovered follow-up work has a first-class destination: phase agents record PRO
 | [sase-bg.10](sase-bg.10.md) | Memory template, sase\_beads skill, and documentation | ◐ in_progress | medium | 1 | 0 |
 | [sase-bg.2](sase-bg.2.md) | Python model mirror, parsers, and CLI text | ✓ closed | medium | 1 | 1 |
 | [sase-bg.3](sase-bg.3.md) | Shared bead type and ready status presentation | ✓ closed | small | 1 | 1 |
-| [sase-bg.4](sase-bg.4.md) | ACE TUI task surfaces and PNG goldens | ◐ in_progress | large | 1 | 0 |
-| [sase-bg.5](sase-bg.5.md) | Bead pages, mobile wire, and remaining text surfaces | ◐ in_progress | small | 1 | 0 |
+| [sase-bg.4](sase-bg.4.md) | ACE TUI task surfaces and PNG goldens | ✓ closed | large | 1 | 1 |
+| [sase-bg.5](sase-bg.5.md) | Bead pages, mobile wire, and remaining text surfaces | ✓ closed | small | 1 | 1 |
 | [sase-bg.6](sase-bg.6.md) | Remove bd/next, rewire capture, add bd/work\_task | ✓ closed | medium | 1 | 1 |
 | [sase-bg.7](sase-bg.7.md) | sase bead work for task beads and detached submitter | ✓ closed | large | 1 | 1 |
 | [sase-bg.8](sase-bg.8.md) | TaskTriage gate kind end to end | ◐ in_progress | large | 1 | 0 |
@@ -35,8 +35,8 @@ flowchart TD
     n2["sase-bg.10: Memory template, sase_beads skill, and documentation [in_progress]"]
     n3["sase-bg.2: Python model mirror, parsers, and CLI text [closed]"]
     n4["sase-bg.3: Shared bead type and ready status presentation [closed]"]
-    n5["sase-bg.4: ACE TUI task surfaces and PNG goldens [in_progress]"]
-    n6["sase-bg.5: Bead pages, mobile wire, and remaining text surfaces [in_progress]"]
+    n5["sase-bg.4: ACE TUI task surfaces and PNG goldens [closed]"]
+    n6["sase-bg.5: Bead pages, mobile wire, and remaining text surfaces [closed]"]
     n7["sase-bg.6: Remove bd/next, rewire capture, add bd/work_task [closed]"]
     n8["sase-bg.7: sase bead work for task beads and detached submitter [closed]"]
     n9["sase-bg.8: TaskTriage gate kind end to end [in_progress]"]
@@ -72,11 +72,11 @@ flowchart TD
 | [bbugyi200.athena.sase-bg.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.10/README.md) | [sase-bg.10](sase-bg.10.md) | 0 |
 | [bbugyi200.athena.sase-bg.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.2/README.md) | [sase-bg.2](sase-bg.2.md) | 1 |
 | [bbugyi200.athena.sase-bg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.3/README.md) | [sase-bg.3](sase-bg.3.md) | 1 |
-| [bbugyi200.athena.sase-bg.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.4.md) | [sase-bg.4](sase-bg.4.md) | 0 |
-| [bbugyi200.athena.sase-bg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.5/README.md) | [sase-bg.5](sase-bg.5.md) | 0 |
+| [bbugyi200.athena.sase-bg.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.4.md) | [sase-bg.4](sase-bg.4.md) | 1 |
+| [bbugyi200.athena.sase-bg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.5/README.md) | [sase-bg.5](sase-bg.5.md) | 1 |
 | [bbugyi200.athena.sase-bg.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.6/README.md) | [sase-bg.6](sase-bg.6.md) | 1 |
 | [bbugyi200.athena.sase-bg.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.7.md) | [sase-bg.7](sase-bg.7.md) | 1 |
-| [bbugyi200.athena.sase-bg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.8/README.md) | [sase-bg.8](sase-bg.8.md) | 0 |
+| [bbugyi200.athena.sase-bg.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.8.md) | [sase-bg.8](sase-bg.8.md) | 0 |
 | [bbugyi200.athena.sase-bg.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.9/README.md) | [sase-bg.9](sase-bg.9.md) | 0 |
 | [bbugyi200.athena.sase-bg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.land/README.md) | [sase-bg](README.md) | 0 |
 
@@ -89,3 +89,5 @@ flowchart TD
 | sase | [`d0da0d9`](https://github.com/sase-org/sase/commit/d0da0d94f9f4a8c748c68c390c9016ef881566b8) | feat(bead)!: mirror task readiness in Python | [sase-bg.2](sase-bg.2.md) | 2026-07-30 23:52:42 |
 | sase | [`6e02e30`](https://github.com/sase-org/sase/commit/6e02e3063a8803bf1c8239aa2c7bffb9c7d39e24) | feat(bead): add shared type presentation helpers | [sase-bg.3](sase-bg.3.md) | 2026-07-31 00:19:42 |
 | sase | [`879af9b`](https://github.com/sase-org/sase/commit/879af9b0831fa59a0bccaf580d11f6afd26ffb2c) | feat(bead): launch standalone task workers | [sase-bg.7](sase-bg.7.md) | 2026-07-31 00:45:26 |
+| sase | [`2ce43ee`](https://github.com/sase-org/sase/commit/2ce43ee3e84c960fafa9326d15d8cd2f26475756) | feat(bead): show task type and ready status on pages and mobile | [sase-bg.5](sase-bg.5.md) | 2026-07-31 00:45:44 |
+| sase | [`f592b43`](https://github.com/sase-org/sase/commit/f592b43dfe5d0c6e1e68ab1e71c2124f6d013d2a) | feat(tui): surface task beads in ACE | [sase-bg.4](sase-bg.4.md) | 2026-07-31 01:15:10 |

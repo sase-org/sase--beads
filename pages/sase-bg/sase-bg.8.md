@@ -20,4 +20,4 @@ triage-gate: register a task_triage gate kind with launch-default and close-with
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bg.8/README.md) | [sase-bg.8](sase-bg.8.md) | 0 |
+| [bbugyi200.athena.sase-bg.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-bg.8.md) | [sase-bg.8](sase-bg.8.md) | 0 |

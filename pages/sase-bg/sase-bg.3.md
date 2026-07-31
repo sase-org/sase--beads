@@ -20,8 +20,8 @@ presentation: create bead_type_presentation.py as the single type glyph/accent/c
 ## Dependencies
 
 - **Depends on:** [sase-bg.2](sase-bg.2.md) ✓
-- **Blocks:** [sase-bg.4](sase-bg.4.md) ◐
-- **Blocks:** [sase-bg.5](sase-bg.5.md) ◐
+- **Blocks:** [sase-bg.4](sase-bg.4.md) ✓
+- **Blocks:** [sase-bg.5](sase-bg.5.md) ✓
 
 ## Agents
 
