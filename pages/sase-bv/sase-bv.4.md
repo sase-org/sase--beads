@@ -35,6 +35,8 @@ show: add the `CREATED BY` block to the shared bead detail renderer, resolve the
 
 [2026-07-31T13:38:32Z · sase-bv.4] Verified 69 focused bead CLI tests; formatting, Ruff, mypy, size checks, committed-plan validation, and live hosted agent-link resolution. Repository-wide unrelated failures were recorded as PROPOSED FOLLOW-UP notes.
 
+[2026-07-31T13:51:51Z · sase-bv.4] PROPOSED FOLLOW-UP: Cache durable name-registry checks during bead-page publication — publishing this phase took about 12 minutes at near-full CPU because roughly 2,493 creator associations each re-entered hosted agent URL resolution and recursively rescanned 15,742 dismissed-bundle JSON files.
+
 ## Agents
 
 | Agent | Bead | Commits |

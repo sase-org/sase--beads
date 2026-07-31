@@ -15,9 +15,9 @@ Every newly created bead records the SASE agent responsible for it — epic and 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-bv.1](sase-bv.1.md) | Record an explicit creator in sase-core bead creation and plan validation | ◐ in_progress | medium | 1 | 0 |
-| [sase-bv.2](sase-bv.2.md) | Add the Python attribution resolver and creator plumbing | ◐ in_progress | small | 1 | 0 |
-| [sase-bv.3](sase-bv.3.md) | Record the creator on every bead creation path | ◐ in_progress | medium | 1 | 0 |
+| [sase-bv.1](sase-bv.1.md) | Record an explicit creator in sase-core bead creation and plan validation | ✓ closed | medium | 1 | 1 |
+| [sase-bv.2](sase-bv.2.md) | Add the Python attribution resolver and creator plumbing | ✓ closed | small | 1 | 1 |
+| [sase-bv.3](sase-bv.3.md) | Record the creator on every bead creation path | ✓ closed | medium | 1 | 1 |
 | [sase-bv.4](sase-bv.4.md) | Render the creator and its agent link in bead detail output | ✓ closed | medium | 1 | 1 |
 | [sase-bv.5](sase-bv.5.md) | Render the creator on published bead pages | ✓ closed | small | 1 | 1 |
 
@@ -26,9 +26,9 @@ Every newly created bead records the SASE agent responsible for it — epic and 
 ```mermaid
 flowchart TD
     n0["sase-bv: Attribute beads to the agent that created them [in_progress]"]
-    n1["sase-bv.1: Record an explicit creator in sase-core bead creation and plan validation [in_progress]"]
-    n2["sase-bv.2: Add the Python attribution resolver and creator plumbing [in_progress]"]
-    n3["sase-bv.3: Record the creator on every bead creation path [in_progress]"]
+    n1["sase-bv.1: Record an explicit creator in sase-core bead creation and plan validation [closed]"]
+    n2["sase-bv.2: Add the Python attribution resolver and creator plumbing [closed]"]
+    n3["sase-bv.3: Record the creator on every bead creation path [closed]"]
     n4["sase-bv.4: Render the creator and its agent link in bead detail output [closed]"]
     n5["sase-bv.5: Render the creator on published bead pages [closed]"]
     n0 --> n1
@@ -44,9 +44,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-bv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.1/README.md) | [sase-bv.1](sase-bv.1.md) | 0 |
-| [bbugyi200.athena.sase-bv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.2/README.md) | [sase-bv.2](sase-bv.2.md) | 0 |
-| [bbugyi200.athena.sase-bv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.3/README.md) | [sase-bv.3](sase-bv.3.md) | 0 |
+| [bbugyi200.athena.sase-bv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.1/README.md) | [sase-bv.1](sase-bv.1.md) | 1 |
+| [bbugyi200.athena.sase-bv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.2/README.md) | [sase-bv.2](sase-bv.2.md) | 1 |
+| [bbugyi200.athena.sase-bv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.3/README.md) | [sase-bv.3](sase-bv.3.md) | 1 |
 | [bbugyi200.athena.sase-bv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.4/README.md) | [sase-bv.4](sase-bv.4.md) | 1 |
 | [bbugyi200.athena.sase-bv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.5/README.md) | [sase-bv.5](sase-bv.5.md) | 1 |
 | [bbugyi200.athena.sase-bv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-bv.land/README.md) | [sase-bv](README.md) | 0 |
@@ -57,3 +57,6 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`3b08766`](https://github.com/sase-org/sase/commit/3b087669e066c5552adf0154d2d202be45565045) | feat(bead-pages): render bead creators | [sase-bv.5](sase-bv.5.md) | 2026-07-31 13:26:22 |
 | sase | [`2c15257`](https://github.com/sase-org/sase/commit/2c152578537e50209de8b6e750d4d179182a5e44) | feat(beads): show creator attribution links | [sase-bv.4](sase-bv.4.md) | 2026-07-31 13:39:42 |
+| sase-core | [`sase-core@69429ae`](https://github.com/sase-org/sase-core/commit/69429ae600695e96f7c47e16bfe620bb46db8545) | feat: preserve bead proposal attribution | [sase-bv.1](sase-bv.1.md) | 2026-07-31 13:43:36 |
+| sase | [`578e4f5`](https://github.com/sase-org/sase/commit/578e4f5c6499c32d21468734e142ff1c6d092eac) | feat(bead): resolve the acting agent as a bead creator | [sase-bv.2](sase-bv.2.md) | 2026-07-31 14:18:10 |
+| sase | [`b2b1e73`](https://github.com/sase-org/sase/commit/b2b1e73d9210383f11b4e61a5ef08fd8bc3a63fc) | feat(beads): attribute creation to the responsible agent | [sase-bv.3](sase-bv.3.md) | 2026-07-31 14:41:56 |
