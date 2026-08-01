@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-cz](README.md) / sase-cz.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qw](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.qw/README.md) · **Assignee:** `sase-cz.3` · **Size:** medium
-**Created:** 2026-08-01 11:03:57 UTC
+**Created:** 2026-08-01 11:03:57 UTC · **Closed:** 2026-08-01 12:11:20 UTC
 **Plan:** [202608/bead\_notification\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202608/bead_notification_panel.md)
 
 ## Description
@@ -30,10 +30,16 @@ inbox: resolve notification modal tabs from the declared panel ahead of the synt
 ## Dependencies
 
 - **Depends on:** [sase-cz.1](sase-cz.1.md) ✓
-- **Blocks:** [sase-cz.5](sase-cz.5.md) ◐
+- **Blocks:** [sase-cz.5](sase-cz.5.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-cz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.3/README.md) | [sase-cz.3](sase-cz.3.md) | 0 |
+| [bbugyi200.athena.sase-cz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.3/README.md) | [sase-cz.3](sase-cz.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`661699f`](https://github.com/sase-org/sase/commit/661699f387a830d107f02a45558e121bdfff494c) | feat(tui): route notifications through declared panels | [sase-cz.3](sase-cz.3.md) | 2026-08-01 12:07:23 |

@@ -22,7 +22,7 @@ bead-gate: rename the task triage sender to `bead`, shorten its note to `<bead-i
 ## Dependencies
 
 - **Depends on:** [sase-cz.1](sase-cz.1.md) ✓
-- **Blocks:** [sase-cz.5](sase-cz.5.md) ◐
+- **Blocks:** [sase-cz.5](sase-cz.5.md) ✓
 
 ## Agents
 

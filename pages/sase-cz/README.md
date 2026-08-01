@@ -17,9 +17,9 @@ Ready task beads arrive as compact `[bead]` rows in their own `Beads` notificati
 |---|---|---|---|---:|---:|
 | [sase-cz.1](sase-cz.1.md) | Generic gate presentation panel and origin fields | ✓ closed | medium | 1 | 1 |
 | [sase-cz.2](sase-cz.2.md) | Task triage gate identity, filer, and self-heal | ✓ closed | medium | 1 | 1 |
-| [sase-cz.3](sase-cz.3.md) | Panel tabs and filer line in the notification modal | ◐ in_progress | medium | 1 | 0 |
-| [sase-cz.4](sase-cz.4.md) | Gate action panel title and filer line | ◐ in_progress | small | 1 | 0 |
-| [sase-cz.5](sase-cz.5.md) | PNG snapshot coverage and documentation sweep | ◐ in_progress | small | 1 | 0 |
+| [sase-cz.3](sase-cz.3.md) | Panel tabs and filer line in the notification modal | ✓ closed | medium | 1 | 1 |
+| [sase-cz.4](sase-cz.4.md) | Gate action panel title and filer line | ✓ closed | small | 1 | 1 |
+| [sase-cz.5](sase-cz.5.md) | PNG snapshot coverage and documentation sweep | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -28,9 +28,9 @@ flowchart TD
     n0["sase-cz: Beads notification panel and gate origin attribution [in_progress]"]
     n1["sase-cz.1: Generic gate presentation panel and origin fields [closed]"]
     n2["sase-cz.2: Task triage gate identity, filer, and self-heal [closed]"]
-    n3["sase-cz.3: Panel tabs and filer line in the notification modal [in_progress]"]
-    n4["sase-cz.4: Gate action panel title and filer line [in_progress]"]
-    n5["sase-cz.5: PNG snapshot coverage and documentation sweep [in_progress]"]
+    n3["sase-cz.3: Panel tabs and filer line in the notification modal [closed]"]
+    n4["sase-cz.4: Gate action panel title and filer line [closed]"]
+    n5["sase-cz.5: PNG snapshot coverage and documentation sweep [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,9 +50,9 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-cz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.1/README.md) | [sase-cz.1](sase-cz.1.md) | 1 |
 | [bbugyi200.athena.sase-cz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.2/README.md) | [sase-cz.2](sase-cz.2.md) | 1 |
-| [bbugyi200.athena.sase-cz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.3/README.md) | [sase-cz.3](sase-cz.3.md) | 0 |
-| [bbugyi200.athena.sase-cz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.4/README.md) | [sase-cz.4](sase-cz.4.md) | 0 |
-| [bbugyi200.athena.sase-cz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.5/README.md) | [sase-cz.5](sase-cz.5.md) | 0 |
+| [bbugyi200.athena.sase-cz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.3/README.md) | [sase-cz.3](sase-cz.3.md) | 1 |
+| [bbugyi200.athena.sase-cz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.4/README.md) | [sase-cz.4](sase-cz.4.md) | 1 |
+| [bbugyi200.athena.sase-cz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.5/README.md) | [sase-cz.5](sase-cz.5.md) | 1 |
 | [bbugyi200.athena.sase-cz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cz.land/README.md) | [sase-cz](README.md) | 0 |
 
 ## Commits
@@ -61,3 +61,6 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`d02ab49`](https://github.com/sase-org/sase/commit/d02ab49e58e81a1860c2f11f83c5a61c76c94e2a) | feat(gates): add generic presentation metadata | [sase-cz.1](sase-cz.1.md) | 2026-08-01 11:25:51 |
 | sase | [`63a24a0`](https://github.com/sase-org/sase/commit/63a24a025223680adeceac91397ab58313e0fb10) | feat: improve task triage gate presentation | [sase-cz.2](sase-cz.2.md) | 2026-08-01 12:05:51 |
+| sase | [`86a51e1`](https://github.com/sase-org/sase/commit/86a51e1d5b2825c402b3d699d3acc51d7e5e41a2) | feat(gates): title gate review modal from adapter and show filer | [sase-cz.4](sase-cz.4.md) | 2026-08-01 12:06:09 |
+| sase | [`661699f`](https://github.com/sase-org/sase/commit/661699f387a830d107f02a45558e121bdfff494c) | feat(tui): route notifications through declared panels | [sase-cz.3](sase-cz.3.md) | 2026-08-01 12:07:23 |
+| sase | [`6a4bb9d`](https://github.com/sase-org/sase/commit/6a4bb9d5bbe242603e6c5cdf6b53cdd3aab0e1d5) | test: add bead notification PNG snapshots | [sase-cz.5](sase-cz.5.md) | 2026-08-01 12:49:04 |
