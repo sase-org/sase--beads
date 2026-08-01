@@ -23,7 +23,7 @@ contract: add the `presentation.panel` and `presentation.origin_agent` gate requ
 
 ## Dependencies
 
-- **Blocks:** [sase-cz.2](sase-cz.2.md) ◐
+- **Blocks:** [sase-cz.2](sase-cz.2.md) ✓
 - **Blocks:** [sase-cz.3](sase-cz.3.md) ◐
 - **Blocks:** [sase-cz.4](sase-cz.4.md) ◐
 

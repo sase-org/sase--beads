@@ -13,7 +13,7 @@ visuals: add PNG snapshot goldens for the Beads tab, the filer meta line, and th
 
 ## Dependencies
 
-- **Depends on:** [sase-cz.2](sase-cz.2.md) ◐
+- **Depends on:** [sase-cz.2](sase-cz.2.md) ✓
 - **Depends on:** [sase-cz.3](sase-cz.3.md) ◐
 - **Depends on:** [sase-cz.4](sase-cz.4.md) ◐
 

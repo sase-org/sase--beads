@@ -11,6 +11,22 @@
 
 inbox: resolve notification modal tabs from the declared panel ahead of the synthetic HITL and Errors tabs, order and label panel tabs, and render the filing agent on the detail pane's meta line.
 
+## Notes
+
+[2026-08-01T11:37:37Z · sase-cz.3] PROPOSED FOLLOW-UP: Deploy regenerated sase_gate provider skill copies after the epic lands — just check validation reports five chezmoi copies lagging the phase-1 source template by six lines; the epic design explicitly forbids running sase skill init from a phase workspace.
+
+[2026-08-01T12:01:34Z · sase-cz.3] PROPOSED FOLLOW-UP: Update SDD writer test fixtures for the August 2026 strict plan schema — tests/test_sdd_file_writes.py::test_write_sdd_files_supports_flat_sidecar_plans_root and ::test_write_sdd_files_rebases_seeded_parent_section deterministically fail in isolation because generated tale frontmatter lacks required title and goal fields.
+
+[2026-08-01T12:02:01Z · sase-cz.3] PROPOSED FOLLOW-UP: Fix slow-tool fold visual footer-state timeout — test_agents_slow_tool_calls_fold_levels_png_snapshots times out waiting for the loaded tools footer both in the full suite and in isolation, despite rendering the slow-tool rows.
+
+[2026-08-01T12:02:20Z · sase-cz.3] PROPOSED FOLLOW-UP: Update SDD writer test fixtures for the August 2026 strict plan schema — tests/test_sdd_file_writes.py::test_write_sdd_files_supports_flat_sidecar_plans_root and ::test_write_sdd_files_rebases_seeded_parent_section deterministically fail in isolation because generated tale frontmatter lacks required title and goal fields.
+
+[2026-08-01T12:02:54Z · sase-cz.3] PROPOSED FOLLOW-UP: Identify and sandbox the test creating /var/tmp/sase-*/opencode — the full suite leak guard reported one unmanaged opencode entry after 25,048 tests.
+
+[2026-08-01T12:03:23Z · sase-cz.3] PROPOSED FOLLOW-UP: Fix slow-tool fold visual footer-state timeout — test_agents_slow_tool_calls_fold_levels_png_snapshots times out waiting for the loaded tools footer both in the full suite and in isolation, despite rendering the slow-tool rows.
+
+[2026-08-01T12:03:51Z · sase-cz.3] PROPOSED FOLLOW-UP: Identify and sandbox the test creating /var/tmp/sase-*/opencode — the full suite leak guard reported one unmanaged opencode entry after 25,048 tests.
+
 ## Dependencies
 
 - **Depends on:** [sase-cz.1](sase-cz.1.md) ✓
