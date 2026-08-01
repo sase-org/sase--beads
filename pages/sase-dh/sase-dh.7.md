@@ -13,7 +13,7 @@ docs: refresh sidecar README templates, user docs, and command help so the new a
 
 ## Dependencies
 
-- **Depends on:** [sase-dh.6](sase-dh.6.md) ◐
+- **Depends on:** [sase-dh.6](sase-dh.6.md) ✓
 
 ## Agents
 

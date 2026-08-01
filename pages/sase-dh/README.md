@@ -20,7 +20,7 @@ Every artifact a prompt references is captured locally at launch, content-addres
 | [sase-dh.3](sase-dh.3.md) | Agents sidecar prompt and artifact archive written by sase commit | ✓ closed | medium | 1 | 1 |
 | [sase-dh.4](sase-dh.4.md) | Plan and prompt cross-repo linkage | ✓ closed | medium | 1 | 1 |
 | [sase-dh.5](sase-dh.5.md) | Validation for the canonical prompt archive | ✓ closed | medium | 1 | 1 |
-| [sase-dh.6](sase-dh.6.md) | Migrate historical prompts out of the plans sidecar | ◐ in_progress | medium | 1 | 0 |
+| [sase-dh.6](sase-dh.6.md) | Migrate historical prompts out of the plans sidecar | ✓ closed | medium | 1 | 1 |
 | [sase-dh.7](sase-dh.7.md) | Documentation, sidecar READMEs, and discoverability | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n3["sase-dh.3: Agents sidecar prompt and artifact archive written by sase commit [closed]"]
     n4["sase-dh.4: Plan and prompt cross-repo linkage [closed]"]
     n5["sase-dh.5: Validation for the canonical prompt archive [closed]"]
-    n6["sase-dh.6: Migrate historical prompts out of the plans sidecar [in_progress]"]
+    n6["sase-dh.6: Migrate historical prompts out of the plans sidecar [closed]"]
     n7["sase-dh.7: Documentation, sidecar READMEs, and discoverability [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-dh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.3/README.md) | [sase-dh.3](sase-dh.3.md) | 1 |
 | [bbugyi200.athena.sase-dh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.4/README.md) | [sase-dh.4](sase-dh.4.md) | 1 |
 | [bbugyi200.athena.sase-dh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.5/README.md) | [sase-dh.5](sase-dh.5.md) | 1 |
-| [bbugyi200.athena.sase-dh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.6/README.md) | [sase-dh.6](sase-dh.6.md) | 0 |
+| [bbugyi200.athena.sase-dh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.6/README.md) | [sase-dh.6](sase-dh.6.md) | 1 |
 | [bbugyi200.athena.sase-dh.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.7/README.md) | [sase-dh.7](sase-dh.7.md) | 0 |
 | [bbugyi200.athena.sase-dh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.land/README.md) | [sase-dh](README.md) | 0 |
 
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`149b57e`](https://github.com/sase-org/sase/commit/149b57e4f42fa70fa2bda7dde41a760cc3cc6c53) | feat: archive committed prompts and artifacts | [sase-dh.3](sase-dh.3.md) | 2026-08-01 17:11:23 |
 | sase | [`6107515`](https://github.com/sase-org/sase/commit/61075153cbf05a43c58725ffd2cae538de85f8aa) | feat(sdd): cross-link plans and archived prompts | [sase-dh.4](sase-dh.4.md) | 2026-08-01 18:10:58 |
 | sase | [`64c26f1`](https://github.com/sase-org/sase/commit/64c26f106fac8b03237761f420079fae71c116b3) | feat(agent): add canonical prompt archive validation | [sase-dh.5](sase-dh.5.md) | 2026-08-01 18:44:18 |
+| sase | [`fa7e7c8`](https://github.com/sase-org/sase/commit/fa7e7c8a7d58ca15e3a9e906ae90f7e4959972a3) | feat(agent)!: migrate prompts to the agents archive | [sase-dh.6](sase-dh.6.md) | 2026-08-01 19:23:14 |
