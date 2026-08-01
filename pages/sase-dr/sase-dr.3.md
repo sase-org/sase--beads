@@ -21,6 +21,8 @@ surface-polish: render +1 counts and evidence beautifully in CLI, TUI, triage, m
 
 [2026-08-01T18:31:47Z · sase-dr.3] Verified 241 focused tests passed, the updated task-triage PNG snapshot matched exactly, and formatting, Ruff, mypy, pyscripts, and changelog checks passed; repo-wide just check stops only on the unrelated Symvision findings recorded as proposed follow-up.
 
+[2026-08-01T18:39:28Z · sase-dr.3] PROPOSED FOLLOW-UP: Repair invalid plan/prompt reverse-link for 202607/uppercase_active_subtabs.md — final just check passes all code-quality stages but SASE plan-links validation reports a missing valid prompt link and discontiguous or nested plan header bullets.
+
 ## Dependencies
 
 - **Depends on:** [sase-dr.1](sase-dr.1.md) ✓
