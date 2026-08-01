@@ -13,7 +13,7 @@ migrate: move every existing <YYYYMM>/prompts/*.md into the agents sidecar, repa
 
 ## Dependencies
 
-- **Depends on:** [sase-dh.5](sase-dh.5.md) ◐
+- **Depends on:** [sase-dh.5](sase-dh.5.md) ✓
 - **Blocks:** [sase-dh.7](sase-dh.7.md) ◐
 
 ## Agents
