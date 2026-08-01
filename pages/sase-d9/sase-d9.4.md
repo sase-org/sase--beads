@@ -26,4 +26,10 @@ tools: register tool-call report hints for the clan SLOW TOOL CALLS section the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-d9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.4/README.md) | [sase-d9.4](sase-d9.4.md) | 0 |
+| [bbugyi200.athena.sase-d9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.4/README.md) | [sase-d9.4](sase-d9.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`6a1afad`](https://github.com/sase-org/sase/commit/6a1afad8a7f2cc35b76821ca18f382385fe80f4d) | feat(tui): add clan slow tool report hints | [sase-d9.4](sase-d9.4.md) | 2026-08-01 13:50:34 |
