@@ -26,7 +26,7 @@ beads_view: load beads off-thread behind an mtime-keyed snapshot, render a Tasks
 ## Dependencies
 
 - **Depends on:** [sase-dd.1](sase-dd.1.md) ✓
-- **Blocks:** [sase-dd.3](sase-dd.3.md) ◐
+- **Blocks:** [sase-dd.3](sase-dd.3.md) ✓
 - **Blocks:** [sase-dd.4](sase-dd.4.md) ✓
 
 ## Agents
