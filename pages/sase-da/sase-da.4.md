@@ -13,7 +13,7 @@ launch_retry: classify store-lock expiry as a distinct retryable failure, retry 
 
 ## Dependencies
 
-- **Depends on:** [sase-da.1](sase-da.1.md) ◐
+- **Depends on:** [sase-da.1](sase-da.1.md) ✓
 - **Blocks:** [sase-da.5](sase-da.5.md) ◐
 
 ## Agents
