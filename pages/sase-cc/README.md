@@ -35,10 +35,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-cc](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cc/README.md) | [sase-cc](README.md) | 1 |
+| [bbugyi200.athena.sase-cc](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cc/README.md) | [sase-cc](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f6803eb`](https://github.com/sase-org/sase-core/commit/f6803ebc747eac6fd3237a5b1aa7895afa851d3c) | feat(bead): align Rust compact list presentation | [sase-cc](README.md) | 2026-08-01 12:19:42 |
+| sase | [`21dab89`](https://github.com/sase-org/sase/commit/21dab89e667ad97aa6a11a7f20821b248fe1ab36) | test(bead): update compact list parity rationale | [sase-cc](README.md) | 2026-08-01 12:20:22 |
