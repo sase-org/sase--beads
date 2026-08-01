@@ -11,6 +11,12 @@
 
 ace-deadlines: add a pump-free nearest-deadline coordinator that remains reliable across refresh settings, restarts, suspend, clock changes, and notification mutations.
 
+## Notes
+
+[2026-08-01T11:51:24Z · sase-cy.2] PROPOSED FOLLOW-UP: Repair stale SDD writer fixtures — test_write_sdd_files_supports_flat_sidecar_plans_root and test_write_sdd_files_rebases_seeded_parent_section still omit newly required tale title/goal fields and fail repository-wide just check, matching the epic baseline audit.
+
+[2026-08-01T11:51:50Z · sase-cy.2] PROPOSED FOLLOW-UP: Eliminate pytest opencode temp leak — repository-wide just check still leaves /var/tmp/sase-*/opencode outside the managed pytest temp root, matching the epic baseline audit.
+
 ## Dependencies
 
 - **Depends on:** [sase-cy.1](sase-cy.1.md) ✓

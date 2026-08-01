@@ -14,7 +14,7 @@ regression-docs: verify state, timing, ordering, concurrency, and downstream del
 ## Dependencies
 
 - **Depends on:** [sase-cy.2](sase-cy.2.md) ◐
-- **Depends on:** [sase-cy.3](sase-cy.3.md) ◐
+- **Depends on:** [sase-cy.3](sase-cy.3.md) ✓
 
 ## Agents
 
