@@ -20,16 +20,18 @@ downstream-resurface: adopt current-state reads and resurface activity cursors i
 ## Dependencies
 
 - **Depends on:** [sase-cy.1](sase-cy.1.md) ✓
-- **Blocks:** [sase-cy.4](sase-cy.4.md) ◐
+- **Blocks:** [sase-cy.4](sase-cy.4.md) ✓
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 1 |
+| [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 3 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
+| sase-core | [`sase-core@64d4d4c`](https://github.com/sase-org/sase-core/commit/64d4d4cf796166c13b15aa755f1861d3ae4953d5) | feat(notifications): add mobile activity cursors | [sase-cy.3](sase-cy.3.md) | 2026-08-01 11:54:37 |
+| sase-telegram | [`sase-telegram@c9c9af6`](https://github.com/sase-org/sase-telegram/commit/c9c9af6daca4595599635a953be1e200b5cda1b7) | feat(notifications): deliver resurfaced notifications | [sase-cy.3](sase-cy.3.md) | 2026-08-01 11:59:09 |
 | sase | [`459ef97`](https://github.com/sase-org/sase/commit/459ef9786dd1ff5ef39ea4eb6f556ccf8db3ceae) | feat(notifications): order projections by resurface activity | [sase-cy.3](sase-cy.3.md) | 2026-08-01 12:01:55 |

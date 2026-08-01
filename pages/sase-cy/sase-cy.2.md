@@ -26,7 +26,7 @@ ace-deadlines: add a pump-free nearest-deadline coordinator that remains reliabl
 ## Dependencies
 
 - **Depends on:** [sase-cy.1](sase-cy.1.md) ✓
-- **Blocks:** [sase-cy.4](sase-cy.4.md) ◐
+- **Blocks:** [sase-cy.4](sase-cy.4.md) ✓
 
 ## Agents
 
