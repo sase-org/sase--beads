@@ -27,7 +27,7 @@ cli-routing: expose the +1 workflow, require sizes on every task creation path, 
 
 - **Depends on:** [sase-dr.1](sase-dr.1.md) ✓
 - **Blocks:** [sase-dr.4](sase-dr.4.md) ✓
-- **Blocks:** [sase-dr.5](sase-dr.5.md) ◐
+- **Blocks:** [sase-dr.5](sase-dr.5.md) ✓
 
 ## Agents
 

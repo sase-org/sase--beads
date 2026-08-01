@@ -26,7 +26,7 @@ surface-polish: render +1 counts and evidence beautifully in CLI, TUI, triage, m
 ## Dependencies
 
 - **Depends on:** [sase-dr.1](sase-dr.1.md) ✓
-- **Blocks:** [sase-dr.5](sase-dr.5.md) ◐
+- **Blocks:** [sase-dr.5](sase-dr.5.md) ✓
 
 ## Agents
 
