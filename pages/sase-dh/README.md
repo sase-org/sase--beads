@@ -15,7 +15,7 @@ Every artifact a prompt references is captured locally at launch, content-addres
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-dh.1](sase-dh.1.md) | Rust prompt-artifact contract and cross-repo header links | ✓ closed | medium | 1 | 1 |
+| [sase-dh.1](sase-dh.1.md) | Rust prompt-artifact contract and cross-repo header links | ✓ closed | medium | 1 | 2 |
 | [sase-dh.2](sase-dh.2.md) | Local .sase/artifacts staging at prompt launch | ◐ in_progress | medium | 1 | 0 |
 | [sase-dh.3](sase-dh.3.md) | Agents sidecar prompt and artifact archive written by sase commit | ◐ in_progress | medium | 1 | 0 |
 | [sase-dh.4](sase-dh.4.md) | Plan and prompt cross-repo linkage | ◐ in_progress | medium | 1 | 0 |
@@ -56,7 +56,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-dh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.1/README.md) | [sase-dh.1](sase-dh.1.md) | 1 |
+| [bbugyi200.athena.sase-dh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.1/README.md) | [sase-dh.1](sase-dh.1.md) | 2 |
 | [bbugyi200.athena.sase-dh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.2/README.md) | [sase-dh.2](sase-dh.2.md) | 0 |
 | [bbugyi200.athena.sase-dh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.3/README.md) | [sase-dh.3](sase-dh.3.md) | 0 |
 | [bbugyi200.athena.sase-dh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dh.4/README.md) | [sase-dh.4](sase-dh.4.md) | 0 |
@@ -70,3 +70,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f97c7f1`](https://github.com/sase-org/sase-core/commit/f97c7f141750f0080a72653db5d5470f2fd904d6) | feat: add prompt artifact contract | [sase-dh.1](sase-dh.1.md) | 2026-08-01 15:45:40 |
+| sase | [`20f6735`](https://github.com/sase-org/sase/commit/20f673572dcf86d36c3ba4e460cf7e6f32137c84) | feat: support artifacts in plan headers | [sase-dh.1](sase-dh.1.md) | 2026-08-01 15:46:24 |
