@@ -15,7 +15,7 @@ Agents can record independently evidenced +1s on existing task beads, every new 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-dr.1](sase-dr.1.md) | Atomic task +1 domain and persistence contract | ✓ closed | medium | 1 | 1 |
+| [sase-dr.1](sase-dr.1.md) | Atomic task +1 domain and persistence contract | ✓ closed | medium | 1 | 2 |
 | [sase-dr.2](sase-dr.2.md) | Public CLI, task sizing, and model routing | ◐ in_progress | medium | 1 | 0 |
 | [sase-dr.3](sase-dr.3.md) | Task +1 presentation across every user surface | ◐ in_progress | medium | 1 | 0 |
 | [sase-dr.4](sase-dr.4.md) | Concise sase\_new\_task skill and agent policy | ◐ in_progress | medium | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-dr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.1/README.md) | [sase-dr.1](sase-dr.1.md) | 1 |
+| [bbugyi200.athena.sase-dr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.1/README.md) | [sase-dr.1](sase-dr.1.md) | 2 |
 | [bbugyi200.athena.sase-dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.2/README.md) | [sase-dr.2](sase-dr.2.md) | 0 |
 | [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 0 |
 | [bbugyi200.athena.sase-dr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.4/README.md) | [sase-dr.4](sase-dr.4.md) | 0 |
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e101432`](https://github.com/sase-org/sase-core/commit/e101432e3df537a58a8581cbba5dfdff57c93239) | feat(beads): add atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:57:39 |
+| sase | [`c9aed8a`](https://github.com/sase-org/sase/commit/c9aed8a6fca8eeaca467f60234d5a74d05a84800) | feat(beads): integrate atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:58:19 |

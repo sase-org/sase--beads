@@ -30,10 +30,11 @@ core-contract: add the Rust-backed structured +1 evidence operation, compatibili
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-dr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.1/README.md) | [sase-dr.1](sase-dr.1.md) | 1 |
+| [bbugyi200.athena.sase-dr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.1/README.md) | [sase-dr.1](sase-dr.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e101432`](https://github.com/sase-org/sase-core/commit/e101432e3df537a58a8581cbba5dfdff57c93239) | feat(beads): add atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:57:39 |
+| sase | [`c9aed8a`](https://github.com/sase-org/sase/commit/c9aed8a6fca8eeaca467f60234d5a74d05a84800) | feat(beads): integrate atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:58:19 |
