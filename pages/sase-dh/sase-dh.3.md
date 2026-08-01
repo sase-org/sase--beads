@@ -27,7 +27,7 @@ archive: write prompts/<YYYYMM>/ and artifacts/<YYYYMM>/ into the agents sidecar
 
 - **Depends on:** [sase-dh.1](sase-dh.1.md) ✓
 - **Depends on:** [sase-dh.2](sase-dh.2.md) ✓
-- **Blocks:** [sase-dh.4](sase-dh.4.md) ◐
+- **Blocks:** [sase-dh.4](sase-dh.4.md) ✓
 
 ## Agents
 

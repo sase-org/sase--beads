@@ -13,7 +13,7 @@ validate: add sase agent prompts validate, teach plan links validate about cross
 
 ## Dependencies
 
-- **Depends on:** [sase-dh.4](sase-dh.4.md) ◐
+- **Depends on:** [sase-dh.4](sase-dh.4.md) ✓
 - **Blocks:** [sase-dh.6](sase-dh.6.md) ◐
 
 ## Agents
