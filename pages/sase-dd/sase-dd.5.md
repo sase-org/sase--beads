@@ -20,7 +20,7 @@ plans_focus: regroup the pane into pending proposals, plans linked from live bea
 ## Dependencies
 
 - **Depends on:** [sase-dd.1](sase-dd.1.md) ✓
-- **Blocks:** [sase-dd.6](sase-dd.6.md) ◐
+- **Blocks:** [sase-dd.6](sase-dd.6.md) ✓
 
 ## Agents
 

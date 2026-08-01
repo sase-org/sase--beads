@@ -13,7 +13,7 @@ polish: document the new layout in the help modal and the ace guide, refresh onb
 
 ## Dependencies
 
-- **Depends on:** [sase-dd.6](sase-dd.6.md) ◐
+- **Depends on:** [sase-dd.6](sase-dd.6.md) ✓
 
 ## Agents
 
