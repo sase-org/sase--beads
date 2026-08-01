@@ -14,7 +14,7 @@ crosslinks: resolve each row's counterpart across the two panes, switch sub-tabs
 ## Dependencies
 
 - **Depends on:** [sase-dd.3](sase-dd.3.md) ◐
-- **Depends on:** [sase-dd.4](sase-dd.4.md) ◐
+- **Depends on:** [sase-dd.4](sase-dd.4.md) ✓
 - **Depends on:** [sase-dd.5](sase-dd.5.md) ✓
 - **Blocks:** [sase-dd.7](sase-dd.7.md) ◐
 
