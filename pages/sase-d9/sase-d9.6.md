@@ -14,7 +14,7 @@ resolve: compute a token-to-absolute-path index off-thread during clan enrichmen
 ## Dependencies
 
 - **Depends on:** [sase-d9.2](sase-d9.2.md) ✓
-- **Depends on:** [sase-d9.3](sase-d9.3.md) ◐
+- **Depends on:** [sase-d9.3](sase-d9.3.md) ✓
 - **Blocks:** [sase-d9.7](sase-d9.7.md) ◐
 
 ## Agents

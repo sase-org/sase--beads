@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-d9](README.md) / sase-d9.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.r3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.r3/README.md) · **Assignee:** `sase-d9.3` · **Size:** medium
-**Created:** 2026-08-01 12:37:12 UTC
+**Created:** 2026-08-01 12:37:12 UTC · **Closed:** 2026-08-01 13:54:33 UTC
 **Plan:** [202608/clan\_summary\_view\_hints.md](https://github.com/sase-org/sase--plans/blob/main/202608/clan_summary_view_hints.md)
 
 ## Description
@@ -14,6 +14,8 @@ context: register exact-path hints for individually rendered SASE CONTEXT entrie
 ## Notes
 
 [2026-08-01T13:47:03Z · sase-d9.3] PROPOSED FOLLOW-UP: Refresh or repair Config Center config-tab PNG golden — just check and an isolated rerun both fail because actual detail panel selects axe.chop_script_dirs while the committed golden expects the axe section overview (14,097 material pixels); unrelated to clan context rendering.
+
+[2026-08-01T13:54:33Z · sase-d9.3] Verified level-3 PLAN, BEAD, ARTIFACTS (artifact, primary delta, linked-repo delta), and MEMORY entries register one exact-path hint in document order; SKILLS/WORKSPACES and level-2 digests remain unhinted. Focused clan suite: 26 passed. Ruff and mypy passed. just check: 25,188 passed with sole unrelated Config Center PNG mismatch recorded as PROPOSED FOLLOW-UP. just test-visual: 399 passed, 1 skipped, same sole unrelated mismatch; clan PNG suites passed.
 
 ## Dependencies
 
@@ -26,4 +28,10 @@ context: register exact-path hints for individually rendered SASE CONTEXT entrie
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-d9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.3/README.md) | [sase-d9.3](sase-d9.3.md) | 0 |
+| [bbugyi200.athena.sase-d9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.3/README.md) | [sase-d9.3](sase-d9.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`cffd22b`](https://github.com/sase-org/sase/commit/cffd22be5fdb6da60f0306798e259a1f3f8fdac8) | feat(tui): add structured clan context hints | [sase-d9.3](sase-d9.3.md) | 2026-08-01 13:57:32 |

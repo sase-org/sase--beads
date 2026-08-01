@@ -13,7 +13,7 @@ commits: aggregate member commits from already-loaded step output into a new COM
 
 ## Dependencies
 
-- **Depends on:** [sase-d9.3](sase-d9.3.md) ◐
+- **Depends on:** [sase-d9.3](sase-d9.3.md) ✓
 - **Blocks:** [sase-d9.7](sase-d9.7.md) ◐
 
 ## Agents
