@@ -22,7 +22,7 @@ shell: retype the Artifacts sub-tabs to commits/beads/bugs/prs/files, mount a ne
 ## Dependencies
 
 - **Blocks:** [sase-dd.2](sase-dd.2.md) ◐
-- **Blocks:** [sase-dd.5](sase-dd.5.md) ◐
+- **Blocks:** [sase-dd.5](sase-dd.5.md) ✓
 
 ## Agents
 
