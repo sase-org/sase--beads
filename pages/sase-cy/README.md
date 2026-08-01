@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-cy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.2/README.md) | [sase-cy.2](sase-cy.2.md) | 1 |
 | [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 3 |
 | [bbugyi200.athena.sase-cy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.4/README.md) | [sase-cy.4](sase-cy.4.md) | 2 |
-| [bbugyi200.athena.sase-cy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-cy.land.md) | [sase-cy](README.md) | 1 |
+| [bbugyi200.athena.sase-cy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-cy.land.md) | [sase-cy](README.md) | 2 |
 
 ## Commits
 
@@ -68,3 +68,4 @@ flowchart TD
 | sase | [`7163200`](https://github.com/sase-org/sase/commit/7163200f5cd8c9793f58db6753609b66cae3ab74) | test: add snooze resurface regression matrix and document guarantees | [sase-cy.4](sase-cy.4.md) | 2026-08-01 12:55:55 |
 | sase-telegram | [`sase-telegram@33ada2a`](https://github.com/sase-org/sase-telegram/commit/33ada2abf1f8d40acd6d5e109b4d8edae589a533) | test: cover snooze resurface delivery end to end | [sase-cy.4](sase-cy.4.md) | 2026-08-01 12:57:10 |
 | sase | [`9cf08e7`](https://github.com/sase-org/sase/commit/9cf08e739663dcc62d91e5794bcaebfb6fe7d274) | build(deps): require core 0.17.5 for snoozing | [sase-cy](README.md) | 2026-08-01 13:54:28 |
+| sase--plans | [`sase--plans@8282e77`](https://github.com/sase-org/sase--plans/commit/8282e77005db62dff42886e1e3c3a5b7a5cc17b7) | docs: mark notification snoozing plan done | [sase-cy](README.md) | 2026-08-01 13:55:54 |
