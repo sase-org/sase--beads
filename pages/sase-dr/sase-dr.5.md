@@ -27,10 +27,11 @@ integration: exercise the complete workflow, reconcile generated contracts and s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.5/README.md) | [sase-dr.5](sase-dr.5.md) | 1 |
+| [bbugyi200.athena.sase-dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.5/README.md) | [sase-dr.5](sase-dr.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`c1efe9f`](https://github.com/sase-org/sase/commit/c1efe9f939d682405d29c226884100b9154aedfe) | fix: complete task bead contract cleanup | [sase-dr.5](sase-dr.5.md) | 2026-08-01 19:55:55 |
+| sase--plans | [`sase--plans@8014060`](https://github.com/sase-org/sase--plans/commit/8014060f87da3544dfcb549d5d7b89e581758583) | docs: avoid reserved artifacts header in plan body | [sase-dr.5](sase-dr.5.md) | 2026-08-01 19:57:12 |

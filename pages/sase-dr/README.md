@@ -19,7 +19,7 @@ Agents can record independently evidenced +1s on existing task beads, every new 
 | [sase-dr.2](sase-dr.2.md) | Public CLI, task sizing, and model routing | ✓ closed | medium | 1 | 1 |
 | [sase-dr.3](sase-dr.3.md) | Task +1 presentation across every user surface | ✓ closed | medium | 1 | 2 |
 | [sase-dr.4](sase-dr.4.md) | Concise sase\_new\_task skill and agent policy | ✓ closed | medium | 1 | 1 |
-| [sase-dr.5](sase-dr.5.md) | Cross-repository verification and contract cleanup | ✓ closed | small | 1 | 1 |
+| [sase-dr.5](sase-dr.5.md) | Cross-repository verification and contract cleanup | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.2/README.md) | [sase-dr.2](sase-dr.2.md) | 1 |
 | [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 2 |
 | [bbugyi200.athena.sase-dr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.4/README.md) | [sase-dr.4](sase-dr.4.md) | 1 |
-| [bbugyi200.athena.sase-dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.5/README.md) | [sase-dr.5](sase-dr.5.md) | 1 |
+| [bbugyi200.athena.sase-dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.5/README.md) | [sase-dr.5](sase-dr.5.md) | 2 |
 | [bbugyi200.athena.sase-dr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.land/README.md) | [sase-dr](README.md) | 0 |
 
 ## Commits
@@ -66,3 +66,4 @@ flowchart TD
 | sase | [`0f1f286`](https://github.com/sase-org/sase/commit/0f1f28699598bb86bed8de5ec2c42f2463c6ee21) | test(ace): refresh task triage presentation golden | [sase-dr.3](sase-dr.3.md) | 2026-08-01 18:37:09 |
 | sase | [`2ec8613`](https://github.com/sase-org/sase/commit/2ec86131dcb38e9b6213723d08a7898b2165f1b5) | feat(beads): add disciplined task creation skill | [sase-dr.4](sase-dr.4.md) | 2026-08-01 18:58:41 |
 | sase | [`c1efe9f`](https://github.com/sase-org/sase/commit/c1efe9f939d682405d29c226884100b9154aedfe) | fix: complete task bead contract cleanup | [sase-dr.5](sase-dr.5.md) | 2026-08-01 19:55:55 |
+| sase--plans | [`sase--plans@8014060`](https://github.com/sase-org/sase--plans/commit/8014060f87da3544dfcb549d5d7b89e581758583) | docs: avoid reserved artifacts header in plan body | [sase-dr.5](sase-dr.5.md) | 2026-08-01 19:57:12 |
