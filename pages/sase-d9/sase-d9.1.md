@@ -21,9 +21,9 @@ plumbing: thread HeaderHintState, the cached clan section snapshot, and panel fo
 
 ## Dependencies
 
-- **Blocks:** [sase-d9.2](sase-d9.2.md) ◐
+- **Blocks:** [sase-d9.2](sase-d9.2.md) ✓
 - **Blocks:** [sase-d9.3](sase-d9.3.md) ◐
-- **Blocks:** [sase-d9.4](sase-d9.4.md) ◐
+- **Blocks:** [sase-d9.4](sase-d9.4.md) ✓
 
 ## Agents
 

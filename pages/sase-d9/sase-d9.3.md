@@ -11,6 +11,10 @@
 
 context: register exact-path hints for individually rendered SASE CONTEXT entries by reading the typed objects already carried on ClanContextEntry.values, so PLAN, ARTIFACTS, and MEMORY entries hint their real absolute paths instead of guessing from label text.
 
+## Notes
+
+[2026-08-01T13:47:03Z · sase-d9.3] PROPOSED FOLLOW-UP: Refresh or repair Config Center config-tab PNG golden — just check and an isolated rerun both fail because actual detail panel selects axe.chop_script_dirs while the committed golden expects the axe section overview (14,097 material pixels); unrelated to clan context rendering.
+
 ## Dependencies
 
 - **Depends on:** [sase-d9.1](sase-d9.1.md) ✓

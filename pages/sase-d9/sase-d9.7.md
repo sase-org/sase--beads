@@ -13,9 +13,9 @@ polish: update the ace docs and help popup for clan view hints, audit hint numbe
 
 ## Dependencies
 
-- **Depends on:** [sase-d9.2](sase-d9.2.md) ◐
+- **Depends on:** [sase-d9.2](sase-d9.2.md) ✓
 - **Depends on:** [sase-d9.3](sase-d9.3.md) ◐
-- **Depends on:** [sase-d9.4](sase-d9.4.md) ◐
+- **Depends on:** [sase-d9.4](sase-d9.4.md) ✓
 - **Depends on:** [sase-d9.5](sase-d9.5.md) ◐
 - **Depends on:** [sase-d9.6](sase-d9.6.md) ◐
 
