@@ -30,10 +30,11 @@ surface-polish: render +1 counts and evidence beautifully in CLI, TUI, triage, m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 1 |
+| [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`d63a86b`](https://github.com/sase-org/sase/commit/d63a86bfddc4558ddd91c69850f3d35b8ab86d6d) | feat(beads): present task corroboration across user surfaces | [sase-dr.3](sase-dr.3.md) | 2026-08-01 18:34:11 |
+| sase | [`0f1f286`](https://github.com/sase-org/sase/commit/0f1f28699598bb86bed8de5ec2c42f2463c6ee21) | test(ace): refresh task triage presentation golden | [sase-dr.3](sase-dr.3.md) | 2026-08-01 18:37:09 |
