@@ -21,7 +21,7 @@ The Artifacts tab exposes a bead-only Beads sub-tab with full task-bead triage, 
 | [sase-dd.4](sase-dd.4.md) | Bead mutations, close-with-reason, and triage-gate settlement | ✓ closed | medium | 1 | 1 |
 | [sase-dd.5](sase-dd.5.md) | Plans sub-sub-tab dedicated to plan documents | ✓ closed | medium | 1 | 1 |
 | [sase-dd.6](sase-dd.6.md) | Bidirectional bead and plan jumps with conditional footer hints | ✓ closed | small | 1 | 1 |
-| [sase-dd.7](sase-dd.7.md) | Help, docs, onboarding, and visual snapshots | ◐ in_progress | medium | 1 | 0 |
+| [sase-dd.7](sase-dd.7.md) | Help, docs, onboarding, and visual snapshots | ✓ closed | medium | 1 | 1 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n4["sase-dd.4: Bead mutations, close-with-reason, and triage-gate settlement [closed]"]
     n5["sase-dd.5: Plans sub-sub-tab dedicated to plan documents [closed]"]
     n6["sase-dd.6: Bidirectional bead and plan jumps with conditional footer hints [closed]"]
-    n7["sase-dd.7: Help, docs, onboarding, and visual snapshots [in_progress]"]
+    n7["sase-dd.7: Help, docs, onboarding, and visual snapshots [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-dd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.4/README.md) | [sase-dd.4](sase-dd.4.md) | 1 |
 | [bbugyi200.athena.sase-dd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.5/README.md) | [sase-dd.5](sase-dd.5.md) | 1 |
 | [bbugyi200.athena.sase-dd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.6/README.md) | [sase-dd.6](sase-dd.6.md) | 1 |
-| [bbugyi200.athena.sase-dd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.7/README.md) | [sase-dd.7](sase-dd.7.md) | 0 |
+| [bbugyi200.athena.sase-dd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.7/README.md) | [sase-dd.7](sase-dd.7.md) | 1 |
 | [bbugyi200.athena.sase-dd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.land/README.md) | [sase-dd](README.md) | 0 |
 
 ## Commits
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`eb3433e`](https://github.com/sase-org/sase/commit/eb3433ec94119a9765beae732e8b562f0ff0aee7) | feat(tui): add Beads mutation workflows | [sase-dd.4](sase-dd.4.md) | 2026-08-01 16:25:01 |
 | sase | [`c194459`](https://github.com/sase-org/sase/commit/c1944592a025e618ab4a6168815c3c7ea73ff052) | feat(artifacts): add Beads pane filtering | [sase-dd.3](sase-dd.3.md) | 2026-08-01 16:49:09 |
 | sase | [`db504de`](https://github.com/sase-org/sase/commit/db504de6e348401c3fa960cef38980afd4a8b1e6) | feat(artifacts): link Beads and Plans panes | [sase-dd.6](sase-dd.6.md) | 2026-08-01 17:14:52 |
+| sase | [`80d44e3`](https://github.com/sase-org/sase/commit/80d44e38414c1ce4258535271208c6c6be38ad9b) | feat(ace): polish beads and nested files views | [sase-dd.7](sase-dd.7.md) | 2026-08-01 18:18:45 |
