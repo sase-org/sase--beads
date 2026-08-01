@@ -23,7 +23,7 @@ sections: annotate the visible bodies of the clan ERRORS, REPLIES, PROMPTS, and 
 
 - **Depends on:** [sase-d9.1](sase-d9.1.md) ✓
 - **Blocks:** [sase-d9.6](sase-d9.6.md) ✓
-- **Blocks:** [sase-d9.7](sase-d9.7.md) ◐
+- **Blocks:** [sase-d9.7](sase-d9.7.md) ✓
 
 ## Agents
 

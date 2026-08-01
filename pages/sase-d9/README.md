@@ -21,7 +21,7 @@ Pressing `v` on a selected agent clan container annotates the clan metadata docu
 | [sase-d9.4](sase-d9.4.md) | Clan slow tool call report hints | ✓ closed | small | 1 | 1 |
 | [sase-d9.5](sase-d9.5.md) | Clan commits lane and commit view hints | ✓ closed | medium | 1 | 1 |
 | [sase-d9.6](sase-d9.6.md) | Worker-resolved clan hint path index | ✓ closed | medium | 1 | 1 |
-| [sase-d9.7](sase-d9.7.md) | Documentation, footer, and end-to-end coverage | ◐ in_progress | small | 1 | 0 |
+| [sase-d9.7](sase-d9.7.md) | Documentation, footer, and end-to-end coverage | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n4["sase-d9.4: Clan slow tool call report hints [closed]"]
     n5["sase-d9.5: Clan commits lane and commit view hints [closed]"]
     n6["sase-d9.6: Worker-resolved clan hint path index [closed]"]
-    n7["sase-d9.7: Documentation, footer, and end-to-end coverage [in_progress]"]
+    n7["sase-d9.7: Documentation, footer, and end-to-end coverage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-d9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.4/README.md) | [sase-d9.4](sase-d9.4.md) | 1 |
 | [bbugyi200.athena.sase-d9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.5/README.md) | [sase-d9.5](sase-d9.5.md) | 1 |
 | [bbugyi200.athena.sase-d9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.6/README.md) | [sase-d9.6](sase-d9.6.md) | 1 |
-| [bbugyi200.athena.sase-d9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.7/README.md) | [sase-d9.7](sase-d9.7.md) | 0 |
+| [bbugyi200.athena.sase-d9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.7/README.md) | [sase-d9.7](sase-d9.7.md) | 1 |
 | [bbugyi200.athena.sase-d9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-d9.land/README.md) | [sase-d9](README.md) | 0 |
 
 ## Commits
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`cffd22b`](https://github.com/sase-org/sase/commit/cffd22be5fdb6da60f0306798e259a1f3f8fdac8) | feat(tui): add structured clan context hints | [sase-d9.3](sase-d9.3.md) | 2026-08-01 13:57:32 |
 | sase | [`d1f55ce`](https://github.com/sase-org/sase/commit/d1f55cec31a7ce1a97ec0030c8e7c9853cfe4be6) | feat(tui): resolve clan hint paths off-thread | [sase-d9.6](sase-d9.6.md) | 2026-08-01 14:20:59 |
 | sase | [`1b29a74`](https://github.com/sase-org/sase/commit/1b29a74183de99e9e50cec95b1287e7188511939) | feat(ace): add clan commit context lane | [sase-d9.5](sase-d9.5.md) | 2026-08-01 14:29:20 |
+| sase | [`624db9a`](https://github.com/sase-org/sase/commit/624db9a9f7baf4545451cd460a026684198a34f1) | docs(ace): document clan view hints and cover the clan \`v\` flow | [sase-d9.7](sase-d9.7.md) | 2026-08-01 15:15:01 |

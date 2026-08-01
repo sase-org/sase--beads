@@ -20,7 +20,7 @@ tools: register tool-call report hints for the clan SLOW TOOL CALLS section the 
 ## Dependencies
 
 - **Depends on:** [sase-d9.1](sase-d9.1.md) ✓
-- **Blocks:** [sase-d9.7](sase-d9.7.md) ◐
+- **Blocks:** [sase-d9.7](sase-d9.7.md) ✓
 
 ## Agents
 
