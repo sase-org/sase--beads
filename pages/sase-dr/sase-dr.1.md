@@ -24,7 +24,7 @@ core-contract: add the Rust-backed structured +1 evidence operation, compatibili
 ## Dependencies
 
 - **Blocks:** [sase-dr.2](sase-dr.2.md) ✓
-- **Blocks:** [sase-dr.3](sase-dr.3.md) ◐
+- **Blocks:** [sase-dr.3](sase-dr.3.md) ✓
 
 ## Agents
 

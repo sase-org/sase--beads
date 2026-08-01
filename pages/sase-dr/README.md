@@ -17,7 +17,7 @@ Agents can record independently evidenced +1s on existing task beads, every new 
 |---|---|---|---|---:|---:|
 | [sase-dr.1](sase-dr.1.md) | Atomic task +1 domain and persistence contract | ✓ closed | medium | 1 | 2 |
 | [sase-dr.2](sase-dr.2.md) | Public CLI, task sizing, and model routing | ✓ closed | medium | 1 | 1 |
-| [sase-dr.3](sase-dr.3.md) | Task +1 presentation across every user surface | ◐ in_progress | medium | 1 | 0 |
+| [sase-dr.3](sase-dr.3.md) | Task +1 presentation across every user surface | ✓ closed | medium | 1 | 1 |
 | [sase-dr.4](sase-dr.4.md) | Concise sase\_new\_task skill and agent policy | ◐ in_progress | medium | 1 | 0 |
 | [sase-dr.5](sase-dr.5.md) | Cross-repository verification and contract cleanup | ◐ in_progress | small | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-dr: Corroborated SASE task beads and disciplined task creation [in_progress]"]
     n1["sase-dr.1: Atomic task +1 domain and persistence contract [closed]"]
     n2["sase-dr.2: Public CLI, task sizing, and model routing [closed]"]
-    n3["sase-dr.3: Task +1 presentation across every user surface [in_progress]"]
+    n3["sase-dr.3: Task +1 presentation across every user surface [closed]"]
     n4["sase-dr.4: Concise sase_new_task skill and agent policy [in_progress]"]
     n5["sase-dr.5: Cross-repository verification and contract cleanup [in_progress]"]
     n0 --> n1
@@ -50,7 +50,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-dr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.1/README.md) | [sase-dr.1](sase-dr.1.md) | 2 |
 | [bbugyi200.athena.sase-dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.2/README.md) | [sase-dr.2](sase-dr.2.md) | 1 |
-| [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 0 |
+| [bbugyi200.athena.sase-dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.3/README.md) | [sase-dr.3](sase-dr.3.md) | 1 |
 | [bbugyi200.athena.sase-dr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.4/README.md) | [sase-dr.4](sase-dr.4.md) | 0 |
 | [bbugyi200.athena.sase-dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.5/README.md) | [sase-dr.5](sase-dr.5.md) | 0 |
 | [bbugyi200.athena.sase-dr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dr.land/README.md) | [sase-dr](README.md) | 0 |
@@ -62,3 +62,4 @@ flowchart TD
 | sase-core | [`sase-core@e101432`](https://github.com/sase-org/sase-core/commit/e101432e3df537a58a8581cbba5dfdff57c93239) | feat(beads): add atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:57:39 |
 | sase | [`c9aed8a`](https://github.com/sase-org/sase/commit/c9aed8a6fca8eeaca467f60234d5a74d05a84800) | feat(beads): integrate atomic task evidence contract | [sase-dr.1](sase-dr.1.md) | 2026-08-01 17:58:19 |
 | sase | [`767852a`](https://github.com/sase-org/sase/commit/767852ac977c63beae5e2e994fac7db5f15142c1) | feat(beads)!: add task promotion and size-based routing | [sase-dr.2](sase-dr.2.md) | 2026-08-01 18:30:57 |
+| sase | [`d63a86b`](https://github.com/sase-org/sase/commit/d63a86bfddc4558ddd91c69850f3d35b8ab86d6d) | feat(beads): present task corroboration across user surfaces | [sase-dr.3](sase-dr.3.md) | 2026-08-01 18:34:11 |
