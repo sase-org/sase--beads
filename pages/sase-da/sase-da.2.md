@@ -27,4 +27,10 @@ work_timing: promote the bead-work launch timer to a durable telemetry sink, ins
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-da.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.2/README.md) | [sase-da.2](sase-da.2.md) | 0 |
+| [bbugyi200.athena.sase-da.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.2/README.md) | [sase-da.2](sase-da.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`cb6efd7`](https://github.com/sase-org/sase/commit/cb6efd7de3380634387b10c30d08ffdfe7bd288c) | feat(bead): persist bead work launch timing | [sase-da.2](sase-da.2.md) | 2026-08-01 13:40:30 |
