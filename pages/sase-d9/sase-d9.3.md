@@ -20,7 +20,7 @@ context: register exact-path hints for individually rendered SASE CONTEXT entrie
 ## Dependencies
 
 - **Depends on:** [sase-d9.1](sase-d9.1.md) ✓
-- **Blocks:** [sase-d9.5](sase-d9.5.md) ◐
+- **Blocks:** [sase-d9.5](sase-d9.5.md) ✓
 - **Blocks:** [sase-d9.6](sase-d9.6.md) ✓
 - **Blocks:** [sase-d9.7](sase-d9.7.md) ◐
 
