@@ -19,7 +19,7 @@ Task-bead worker launches succeed while an epic launch (or any other bead writer
 | [sase-da.2](sase-da.2.md) | Durable stage timing for sase bead work | ✓ closed | medium | 1 | 1 |
 | [sase-da.3](sase-da.3.md) | Bounded and instrumented plan-launch and store-write locks | ✓ closed | medium | 1 | 1 |
 | [sase-da.4](sase-da.4.md) | Contention-resilient task and epic bead launches | ✓ closed | small | 1 | 1 |
-| [sase-da.5](sase-da.5.md) | Concurrency regression coverage for bead launches | ◐ in_progress | small | 1 | 0 |
+| [sase-da.5](sase-da.5.md) | Concurrency regression coverage for bead launches | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["sase-da.2: Durable stage timing for sase bead work [closed]"]
     n3["sase-da.3: Bounded and instrumented plan-launch and store-write locks [closed]"]
     n4["sase-da.4: Contention-resilient task and epic bead launches [closed]"]
-    n5["sase-da.5: Concurrency regression coverage for bead launches [in_progress]"]
+    n5["sase-da.5: Concurrency regression coverage for bead launches [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-da.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.2/README.md) | [sase-da.2](sase-da.2.md) | 1 |
 | [bbugyi200.athena.sase-da.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.3/README.md) | [sase-da.3](sase-da.3.md) | 1 |
 | [bbugyi200.athena.sase-da.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.4/README.md) | [sase-da.4](sase-da.4.md) | 1 |
-| [bbugyi200.athena.sase-da.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.5/README.md) | [sase-da.5](sase-da.5.md) | 0 |
+| [bbugyi200.athena.sase-da.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.5/README.md) | [sase-da.5](sase-da.5.md) | 1 |
 | [bbugyi200.athena.sase-da.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-da.land/README.md) | [sase-da](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,4 @@ flowchart TD
 | sase | [`ecc1e90`](https://github.com/sase-org/sase/commit/ecc1e901bd49142fcf91a80fa50dcff789752d7c) | fix: ignore bead mutation holder metadata | [sase-da.1](sase-da.1.md) | 2026-08-01 14:00:41 |
 | sase | [`70c85e0`](https://github.com/sase-org/sase/commit/70c85e0125f2c3023588568ddc873cc5aa6ed877) | feat: bound and instrument bead store locks | [sase-da.3](sase-da.3.md) | 2026-08-01 14:06:17 |
 | sase | [`09c1d0d`](https://github.com/sase-org/sase/commit/09c1d0d6b793cc278a644bdbde4aa05c08c58148) | feat(bead): retry bead-work preclaims on store-lock contention | [sase-da.4](sase-da.4.md) | 2026-08-01 14:25:33 |
+| sase | [`11e7396`](https://github.com/sase-org/sase/commit/11e7396d42a45cd7b040cab1891cded814083c0c) | test: cover contended bead work launches | [sase-da.5](sase-da.5.md) | 2026-08-01 14:40:36 |

@@ -24,7 +24,7 @@ launch_lock: give the unbounded epic-plan launch flock a deadline, holder identi
 ## Dependencies
 
 - **Depends on:** [sase-da.2](sase-da.2.md) ✓
-- **Blocks:** [sase-da.5](sase-da.5.md) ◐
+- **Blocks:** [sase-da.5](sase-da.5.md) ✓
 
 ## Agents
 

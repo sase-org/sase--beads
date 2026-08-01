@@ -20,7 +20,7 @@ store_lock: replace the 2s hardcoded try-lock poll in the Rust bead-mutation, ta
 ## Dependencies
 
 - **Blocks:** [sase-da.4](sase-da.4.md) ✓
-- **Blocks:** [sase-da.5](sase-da.5.md) ◐
+- **Blocks:** [sase-da.5](sase-da.5.md) ✓
 
 ## Agents
 
