@@ -13,7 +13,7 @@ agent-guidance: add the generated task-creation skill, route agent prompts and m
 
 ## Dependencies
 
-- **Depends on:** [sase-dr.2](sase-dr.2.md) ◐
+- **Depends on:** [sase-dr.2](sase-dr.2.md) ✓
 - **Blocks:** [sase-dr.5](sase-dr.5.md) ◐
 
 ## Agents

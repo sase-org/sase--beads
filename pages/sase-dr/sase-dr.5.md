@@ -13,7 +13,7 @@ integration: exercise the complete workflow, reconcile generated contracts and s
 
 ## Dependencies
 
-- **Depends on:** [sase-dr.2](sase-dr.2.md) ◐
+- **Depends on:** [sase-dr.2](sase-dr.2.md) ✓
 - **Depends on:** [sase-dr.3](sase-dr.3.md) ◐
 - **Depends on:** [sase-dr.4](sase-dr.4.md) ◐
 
