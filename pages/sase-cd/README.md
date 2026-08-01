@@ -36,10 +36,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-cd](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cd/README.md) | [sase-cd](README.md) | 1 |
+| [bbugyi200.athena.sase-cd](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cd/README.md) | [sase-cd](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@15630de`](https://github.com/sase-org/sase-core/commit/15630dec07a434c27d84e2a2877736a6b869dfd7) | fix(bead): align compact search type column | [sase-cd](README.md) | 2026-08-01 12:54:57 |
+| sase | [`d3c2dee`](https://github.com/sase-org/sase/commit/d3c2dee7357125d37472964fedfafe687fba4adb) | fix(bead): align compact search type column | [sase-cd](README.md) | 2026-08-01 12:55:42 |
