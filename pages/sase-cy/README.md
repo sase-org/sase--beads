@@ -18,7 +18,7 @@ Snoozed notifications use one durable time contract, resurface as visible unread
 | [sase-cy.1](sase-cy.1.md) | Canonical snooze state and expiry contract | ✓ closed | medium | 1 | 2 |
 | [sase-cy.2](sase-cy.2.md) | Deadline-driven ACE reminders | ✓ closed | medium | 1 | 1 |
 | [sase-cy.3](sase-cy.3.md) | Cross-surface resurface ordering and delivery | ✓ closed | medium | 1 | 3 |
-| [sase-cy.4](sase-cy.4.md) | End-to-end regression matrix and documentation | ✓ closed | small | 1 | 1 |
+| [sase-cy.4](sase-cy.4.md) | End-to-end regression matrix and documentation | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
 | [bbugyi200.athena.sase-cy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.1/README.md) | [sase-cy.1](sase-cy.1.md) | 2 |
 | [bbugyi200.athena.sase-cy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.2/README.md) | [sase-cy.2](sase-cy.2.md) | 1 |
 | [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 3 |
-| [bbugyi200.athena.sase-cy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.4/README.md) | [sase-cy.4](sase-cy.4.md) | 1 |
+| [bbugyi200.athena.sase-cy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.4/README.md) | [sase-cy.4](sase-cy.4.md) | 2 |
 | [bbugyi200.athena.sase-cy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.land/README.md) | [sase-cy](README.md) | 0 |
 
 ## Commits
@@ -60,3 +60,4 @@ flowchart TD
 | sase | [`459ef97`](https://github.com/sase-org/sase/commit/459ef9786dd1ff5ef39ea4eb6f556ccf8db3ceae) | feat(notifications): order projections by resurface activity | [sase-cy.3](sase-cy.3.md) | 2026-08-01 12:01:55 |
 | sase | [`38c57e1`](https://github.com/sase-org/sase/commit/38c57e178101114294aee51a8563e23ed9dbceec) | feat(ace): schedule snooze reminders by deadline | [sase-cy.2](sase-cy.2.md) | 2026-08-01 12:22:52 |
 | sase | [`7163200`](https://github.com/sase-org/sase/commit/7163200f5cd8c9793f58db6753609b66cae3ab74) | test: add snooze resurface regression matrix and document guarantees | [sase-cy.4](sase-cy.4.md) | 2026-08-01 12:55:55 |
+| sase-telegram | [`sase-telegram@33ada2a`](https://github.com/sase-org/sase-telegram/commit/33ada2abf1f8d40acd6d5e109b4d8edae589a533) | test: cover snooze resurface delivery end to end | [sase-cy.4](sase-cy.4.md) | 2026-08-01 12:57:10 |
