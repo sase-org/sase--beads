@@ -17,7 +17,7 @@ Snoozed notifications use one durable time contract, resurface as visible unread
 |---|---|---|---|---:|---:|
 | [sase-cy.1](sase-cy.1.md) | Canonical snooze state and expiry contract | ✓ closed | medium | 1 | 2 |
 | [sase-cy.2](sase-cy.2.md) | Deadline-driven ACE reminders | ◐ in_progress | medium | 1 | 0 |
-| [sase-cy.3](sase-cy.3.md) | Cross-surface resurface ordering and delivery | ✓ closed | medium | 1 | 1 |
+| [sase-cy.3](sase-cy.3.md) | Cross-surface resurface ordering and delivery | ✓ closed | medium | 1 | 2 |
 | [sase-cy.4](sase-cy.4.md) | End-to-end regression matrix and documentation | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-cy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.1/README.md) | [sase-cy.1](sase-cy.1.md) | 2 |
 | [bbugyi200.athena.sase-cy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.2/README.md) | [sase-cy.2](sase-cy.2.md) | 0 |
-| [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 1 |
+| [bbugyi200.athena.sase-cy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.3/README.md) | [sase-cy.3](sase-cy.3.md) | 2 |
 | [bbugyi200.athena.sase-cy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.4/README.md) | [sase-cy.4](sase-cy.4.md) | 0 |
 | [bbugyi200.athena.sase-cy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-cy.land/README.md) | [sase-cy](README.md) | 0 |
 
@@ -56,3 +56,4 @@ flowchart TD
 | sase-core | [`sase-core@a856b66`](https://github.com/sase-org/sase-core/commit/a856b6650ddade77956ed06ca706de5d5bde1438) | feat(notifications): define canonical snooze expiry state | [sase-cy.1](sase-cy.1.md) | 2026-08-01 11:18:36 |
 | sase | [`09517a0`](https://github.com/sase-org/sase/commit/09517a0fb011f0922e132d34591c2ec380911c6d) | feat(notifications): expose canonical snooze snapshots | [sase-cy.1](sase-cy.1.md) | 2026-08-01 11:19:33 |
 | sase-core | [`sase-core@64d4d4c`](https://github.com/sase-org/sase-core/commit/64d4d4cf796166c13b15aa755f1861d3ae4953d5) | feat(notifications): add mobile activity cursors | [sase-cy.3](sase-cy.3.md) | 2026-08-01 11:54:37 |
+| sase-telegram | [`sase-telegram@c9c9af6`](https://github.com/sase-org/sase-telegram/commit/c9c9af6daca4595599635a953be1e200b5cda1b7) | feat(notifications): deliver resurfaced notifications | [sase-cy.3](sase-cy.3.md) | 2026-08-01 11:59:09 |
