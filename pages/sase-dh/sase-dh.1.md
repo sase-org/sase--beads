@@ -24,7 +24,7 @@ core: add the Rust-owned staging manifest, pool naming, prompt link rewriting, A
 ## Dependencies
 
 - **Blocks:** [sase-dh.2](sase-dh.2.md) ✓
-- **Blocks:** [sase-dh.3](sase-dh.3.md) ◐
+- **Blocks:** [sase-dh.3](sase-dh.3.md) ✓
 - **Blocks:** [sase-dh.4](sase-dh.4.md) ◐
 
 ## Agents

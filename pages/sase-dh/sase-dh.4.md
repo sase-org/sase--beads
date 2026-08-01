@@ -14,7 +14,7 @@ crosslink: point plan PROMPT bullets at the agents sidecar, point archived promp
 ## Dependencies
 
 - **Depends on:** [sase-dh.1](sase-dh.1.md) ✓
-- **Depends on:** [sase-dh.3](sase-dh.3.md) ◐
+- **Depends on:** [sase-dh.3](sase-dh.3.md) ✓
 - **Blocks:** [sase-dh.5](sase-dh.5.md) ◐
 
 ## Agents

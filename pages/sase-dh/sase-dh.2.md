@@ -24,7 +24,7 @@ stage: capture every prompt artifact reference into the content-addressed .sase/
 ## Dependencies
 
 - **Depends on:** [sase-dh.1](sase-dh.1.md) ✓
-- **Blocks:** [sase-dh.3](sase-dh.3.md) ◐
+- **Blocks:** [sase-dh.3](sase-dh.3.md) ✓
 
 ## Agents
 
