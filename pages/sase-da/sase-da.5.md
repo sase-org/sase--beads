@@ -14,7 +14,7 @@ contention_tests: add regression tests that drive concurrent bead mutations and 
 ## Dependencies
 
 - **Depends on:** [sase-da.1](sase-da.1.md) ✓
-- **Depends on:** [sase-da.3](sase-da.3.md) ◐
+- **Depends on:** [sase-da.3](sase-da.3.md) ✓
 - **Depends on:** [sase-da.4](sase-da.4.md) ◐
 
 ## Agents

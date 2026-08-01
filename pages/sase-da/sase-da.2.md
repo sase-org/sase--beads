@@ -21,7 +21,7 @@ work_timing: promote the bead-work launch timer to a durable telemetry sink, ins
 
 ## Dependencies
 
-- **Blocks:** [sase-da.3](sase-da.3.md) ◐
+- **Blocks:** [sase-da.3](sase-da.3.md) ✓
 
 ## Agents
 
