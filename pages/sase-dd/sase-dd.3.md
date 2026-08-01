@@ -13,7 +13,7 @@ beads_filters: parse a bead filter query covering type, status, tier, size, proj
 
 ## Dependencies
 
-- **Depends on:** [sase-dd.2](sase-dd.2.md) ◐
+- **Depends on:** [sase-dd.2](sase-dd.2.md) ✓
 - **Blocks:** [sase-dd.6](sase-dd.6.md) ◐
 
 ## Agents

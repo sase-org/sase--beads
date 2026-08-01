@@ -16,7 +16,7 @@ The Artifacts tab exposes a bead-only Beads sub-tab with full task-bead triage, 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-dd.1](sase-dd.1.md) | Sub-tab taxonomy, nested Files container, and keymap surface | ✓ closed | medium | 1 | 1 |
-| [sase-dd.2](sase-dd.2.md) | Read-only Beads pane | ◐ in_progress | medium | 1 | 0 |
+| [sase-dd.2](sase-dd.2.md) | Read-only Beads pane | ✓ closed | medium | 1 | 1 |
 | [sase-dd.3](sase-dd.3.md) | Bead filter query and inline filter bar | ◐ in_progress | small | 1 | 0 |
 | [sase-dd.4](sase-dd.4.md) | Bead mutations, close-with-reason, and triage-gate settlement | ◐ in_progress | medium | 1 | 0 |
 | [sase-dd.5](sase-dd.5.md) | Plans sub-sub-tab dedicated to plan documents | ✓ closed | medium | 1 | 1 |
@@ -29,7 +29,7 @@ The Artifacts tab exposes a bead-only Beads sub-tab with full task-bead triage, 
 flowchart TD
     n0["sase-dd: Split Artifacts into a dedicated Beads sub-tab and a nested Files sub-tab [in_progress]"]
     n1["sase-dd.1: Sub-tab taxonomy, nested Files container, and keymap surface [closed]"]
-    n2["sase-dd.2: Read-only Beads pane [in_progress]"]
+    n2["sase-dd.2: Read-only Beads pane [closed]"]
     n3["sase-dd.3: Bead filter query and inline filter bar [in_progress]"]
     n4["sase-dd.4: Bead mutations, close-with-reason, and triage-gate settlement [in_progress]"]
     n5["sase-dd.5: Plans sub-sub-tab dedicated to plan documents [closed]"]
@@ -57,7 +57,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-dd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.1/README.md) | [sase-dd.1](sase-dd.1.md) | 1 |
-| [bbugyi200.athena.sase-dd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.2/README.md) | [sase-dd.2](sase-dd.2.md) | 0 |
+| [bbugyi200.athena.sase-dd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.2/README.md) | [sase-dd.2](sase-dd.2.md) | 1 |
 | [bbugyi200.athena.sase-dd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.3/README.md) | [sase-dd.3](sase-dd.3.md) | 0 |
 | [bbugyi200.athena.sase-dd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.4/README.md) | [sase-dd.4](sase-dd.4.md) | 0 |
 | [bbugyi200.athena.sase-dd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.5/README.md) | [sase-dd.5](sase-dd.5.md) | 1 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`9f80b41`](https://github.com/sase-org/sase/commit/9f80b413627c3a2614bbea4b0a58c97be03546b3) | feat(tui): nest artifact file tabs | [sase-dd.1](sase-dd.1.md) | 2026-08-01 14:44:59 |
 | sase | [`4d7b6fa`](https://github.com/sase-org/sase/commit/4d7b6fae40375402736182a4c8078a41826f96a9) | feat(tui): dedicate Plans pane to plan documents | [sase-dd.5](sase-dd.5.md) | 2026-08-01 15:32:03 |
+| sase | [`2e1264e`](https://github.com/sase-org/sase/commit/2e1264eed3c42450b5dab0b3e303353291a839a3) | feat: add read-only Artifacts Beads pane | [sase-dd.2](sase-dd.2.md) | 2026-08-01 15:37:29 |

@@ -13,7 +13,7 @@ beads_actions: run every bead write as a tracked background task through the sha
 
 ## Dependencies
 
-- **Depends on:** [sase-dd.2](sase-dd.2.md) ◐
+- **Depends on:** [sase-dd.2](sase-dd.2.md) ✓
 - **Blocks:** [sase-dd.6](sase-dd.6.md) ◐
 
 ## Agents
