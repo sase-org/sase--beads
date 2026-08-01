@@ -23,7 +23,7 @@ core-expiry: make the Rust notification store own validated deadlines, atomic ac
 
 ## Dependencies
 
-- **Blocks:** [sase-cy.2](sase-cy.2.md) ◐
+- **Blocks:** [sase-cy.2](sase-cy.2.md) ✓
 - **Blocks:** [sase-cy.3](sase-cy.3.md) ✓
 
 ## Agents
