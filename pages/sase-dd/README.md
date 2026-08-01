@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-dd
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.r7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.r7/README.md) · **Assignee:** `sase-dd.land`
-**Created:** 2026-08-01 13:52:32 UTC
+**Created:** 2026-08-01 13:52:32 UTC · **Closed:** 2026-08-01 18:42:15 UTC
 **Plan:** [202608/artifacts\_beads\_and\_files\_subtabs.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_beads_and_files_subtabs.md)
 
 ## Description
 
 The Artifacts tab exposes a bead-only Beads sub-tab with full task-bead triage, and a Files sub-tab whose Plans, Chats, and Other sub-sub-tabs cycle with ( and ), with Plans dedicated to plan documents and bidirectional jumps between a plan file and the bead that links it.
+
+## Notes
+
+[2026-08-01T18:42:15Z · sase-dd.land] Verified all seven phases are closed and resolved. Read every child history, every PROPOSED FOLLOW-UP note, the linked seven-phase plan, the implementation and focused tests, and epic commits 9f80b413 through 80d44e38. The shipped UI has the five top-level Artifacts sub-tabs, nested Files views, Rust-backed Beads loading and filters, tracked mutation flows, document-focused Plans, bidirectional plan jumps, and updated help and visual coverage. Reviewed every non-epic commit since 9f80b413 and refreshed through 0f1f28699. Later refactors preserve the feature; 767852ac and d63a86bf integrate explicit task size and task corroboration into the Beads modal, filters, rows, and detail; 0f1f28699 integrates the corresponding visual golden. Focused integration tests passed 22 of 23; the only failure was the independently intermittent five-second concurrent mutation lock regression. Two standalone Artifacts p95 benchmark runs passed. Filed sase-dx for the outlier-sensitive navigation benchmark and sase-dy for the reproduced lock timeout, both proposed by sase-dd.7. Did not file duplicates for the uppercase plan link, stale ACE and admin baselines, ANSI snapshot, or baseline Symvision findings because ready tasks sase-dt or sase-dn, sase-du or sase-dw, sase-df, and sase-dv already own them. Did not file the remaining proposals because later commits or the epic itself resolved them: duplicate header import, pyscripts placement, private helper collisions, core plan-header schema drift, stale visual navigation, saved-query and FakeApp fixtures, prompt archive imports, and explicit task-size test setup.
 
 ## Phases
 
@@ -27,7 +31,7 @@ The Artifacts tab exposes a bead-only Beads sub-tab with full task-bead triage, 
 
 ```mermaid
 flowchart TD
-    n0["sase-dd: Split Artifacts into a dedicated Beads sub-tab and a nested Files sub-tab [in_progress]"]
+    n0["sase-dd: Split Artifacts into a dedicated Beads sub-tab and a nested Files sub-tab [closed]"]
     n1["sase-dd.1: Sub-tab taxonomy, nested Files container, and keymap surface [closed]"]
     n2["sase-dd.2: Read-only Beads pane [closed]"]
     n3["sase-dd.3: Bead filter query and inline filter bar [closed]"]
@@ -63,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-dd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.5/README.md) | [sase-dd.5](sase-dd.5.md) | 1 |
 | [bbugyi200.athena.sase-dd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.6/README.md) | [sase-dd.6](sase-dd.6.md) | 1 |
 | [bbugyi200.athena.sase-dd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.7/README.md) | [sase-dd.7](sase-dd.7.md) | 1 |
-| [bbugyi200.athena.sase-dd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.land/README.md) | [sase-dd](README.md) | 0 |
+| [bbugyi200.athena.sase-dd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-dd.land/README.md) | [sase-dd](README.md) | 1 |
 
 ## Commits
 
@@ -76,3 +80,4 @@ flowchart TD
 | sase | [`c194459`](https://github.com/sase-org/sase/commit/c1944592a025e618ab4a6168815c3c7ea73ff052) | feat(artifacts): add Beads pane filtering | [sase-dd.3](sase-dd.3.md) | 2026-08-01 16:49:09 |
 | sase | [`db504de`](https://github.com/sase-org/sase/commit/db504de6e348401c3fa960cef38980afd4a8b1e6) | feat(artifacts): link Beads and Plans panes | [sase-dd.6](sase-dd.6.md) | 2026-08-01 17:14:52 |
 | sase | [`80d44e3`](https://github.com/sase-org/sase/commit/80d44e38414c1ce4258535271208c6c6be38ad9b) | feat(ace): polish beads and nested files views | [sase-dd.7](sase-dd.7.md) | 2026-08-01 18:18:45 |
+| sase--plans | [`sase--plans@c777ad5`](https://github.com/sase-org/sase--plans/commit/c777ad53543345acc8f8689d9d8337f32652eddc) | chore(plans): mark sase-dd epic complete | [sase-dd](README.md) | 2026-08-01 18:44:36 |
