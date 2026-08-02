@@ -18,9 +18,9 @@ Typing `@commit:` offers the project's recent revisions across every one of its 
 | [sase-e8.1](sase-e8.1.md) | Scoped payload rows and stable payload ranking | ✓ closed | medium | 1 | 1 |
 | [sase-e8.2](sase-e8.2.md) | Local commit enumeration in the shared payload inventory | ✓ closed | medium | 1 | 1 |
 | [sase-e8.3](sase-e8.3.md) | Python binding for the payload inventory | ✓ closed | small | 1 | 1 |
-| [sase-e8.4](sase-e8.4.md) | Commit-aware LSP completion items | ✓ closed | small | 1 | 0 |
+| [sase-e8.4](sase-e8.4.md) | Commit-aware LSP completion items | ✓ closed | small | 1 | 1 |
 | [sase-e8.5](sase-e8.5.md) | Pane-independent commit snapshots in the prompt bar | ✓ closed | medium | 1 | 1 |
-| [sase-e8.6](sase-e8.6.md) | Documentation and end-to-end verification | ◐ in_progress | small | 1 | 0 |
+| [sase-e8.6](sase-e8.6.md) | Documentation and end-to-end verification | ✓ closed | small | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-e8.3: Python binding for the payload inventory [closed]"]
     n4["sase-e8.4: Commit-aware LSP completion items [closed]"]
     n5["sase-e8.5: Pane-independent commit snapshots in the prompt bar [closed]"]
-    n6["sase-e8.6: Documentation and end-to-end verification [in_progress]"]
+    n6["sase-e8.6: Documentation and end-to-end verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,9 +54,9 @@ flowchart TD
 | [bbugyi200.athena.sase-e8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.1/README.md) | [sase-e8.1](sase-e8.1.md) | 1 |
 | [bbugyi200.athena.sase-e8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.2/README.md) | [sase-e8.2](sase-e8.2.md) | 1 |
 | [bbugyi200.athena.sase-e8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.3/README.md) | [sase-e8.3](sase-e8.3.md) | 1 |
-| [bbugyi200.athena.sase-e8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.4/README.md) | [sase-e8.4](sase-e8.4.md) | 0 |
+| [bbugyi200.athena.sase-e8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.4/README.md) | [sase-e8.4](sase-e8.4.md) | 1 |
 | [bbugyi200.athena.sase-e8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.5/README.md) | [sase-e8.5](sase-e8.5.md) | 1 |
-| [bbugyi200.athena.sase-e8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.6/README.md) | [sase-e8.6](sase-e8.6.md) | 0 |
+| [bbugyi200.athena.sase-e8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.6/README.md) | [sase-e8.6](sase-e8.6.md) | 1 |
 | [bbugyi200.athena.sase-e8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.land/README.md) | [sase-e8](README.md) | 0 |
 
 ## Commits
@@ -66,4 +66,6 @@ flowchart TD
 | sase-core | [`sase-core@c48c265`](https://github.com/sase-org/sase-core/commit/c48c26591d2dd5caaee743d9d4c83458a8684719) | feat(editor): support scoped at-reference payload ranking | [sase-e8.1](sase-e8.1.md) | 2026-08-02 14:25:22 |
 | sase-core | [`sase-core@c66f0ff`](https://github.com/sase-org/sase-core/commit/c66f0ffda73e2f06a2ad0f4b4d5920da9d65a0a6) | feat(editor): enumerate local commit references | [sase-e8.2](sase-e8.2.md) | 2026-08-02 14:48:38 |
 | sase-core | [`sase-core@d0e7630`](https://github.com/sase-org/sase-core/commit/d0e763057c1f0b375130004cc581e1fcdaada6e6) | feat(py): expose artifact ref payload inventory | [sase-e8.3](sase-e8.3.md) | 2026-08-02 15:07:10 |
+| sase-core | [`sase-core@3e94424`](https://github.com/sase-org/sase-core/commit/3e944248031d305fcd8500576a7e15db72192f82) | feat(lsp): describe artifact payload rows by kind and render commit bodies | [sase-e8.4](sase-e8.4.md) | 2026-08-02 15:09:35 |
 | sase | [`6b7284c`](https://github.com/sase-org/sase/commit/6b7284ce4d21a62c274bf016c9c6ef9ca4ece0f2) | feat(ace-tui): load prompt commit snapshots independently | [sase-e8.5](sase-e8.5.md) | 2026-08-02 16:02:30 |
+| sase | [`dfab05f`](https://github.com/sase-org/sase/commit/dfab05f8c81d13b851aa8669ba06a80b2f3cf302) | docs: document commit reference completion | [sase-e8.6](sase-e8.6.md) | 2026-08-02 16:44:49 |

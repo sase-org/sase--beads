@@ -20,7 +20,7 @@ tui_commits: replace the mounted-Commits-pane projection with a TTL-revalidated 
 ## Dependencies
 
 - **Depends on:** [sase-e8.3](sase-e8.3.md) ✓
-- **Blocks:** [sase-e8.6](sase-e8.6.md) ◐
+- **Blocks:** [sase-e8.6](sase-e8.6.md) ✓
 
 ## Agents
 
