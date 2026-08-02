@@ -23,7 +23,7 @@ render: build the Rich renderables for the header, properties, inputs, local xpr
 
 - **Depends on:** [sase-eb.1](sase-eb.1.md) ✓
 - **Depends on:** [sase-eb.2](sase-eb.2.md) ✓
-- **Blocks:** [sase-eb.4](sase-eb.4.md) ◐
+- **Blocks:** [sase-eb.4](sase-eb.4.md) ✓
 
 ## Agents
 
