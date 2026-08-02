@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-e8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.4/README.md) | [sase-e8.4](sase-e8.4.md) | 1 |
 | [bbugyi200.athena.sase-e8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.5/README.md) | [sase-e8.5](sase-e8.5.md) | 1 |
 | [bbugyi200.athena.sase-e8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.6/README.md) | [sase-e8.6](sase-e8.6.md) | 1 |
-| [bbugyi200.athena.sase-e8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.land/README.md) | [sase-e8](README.md) | 1 |
+| [bbugyi200.athena.sase-e8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.land/README.md) | [sase-e8](README.md) | 2 |
 
 ## Commits
 
@@ -82,3 +82,4 @@ flowchart TD
 | sase | [`6b7284c`](https://github.com/sase-org/sase/commit/6b7284ce4d21a62c274bf016c9c6ef9ca4ece0f2) | feat(ace-tui): load prompt commit snapshots independently | [sase-e8.5](sase-e8.5.md) | 2026-08-02 16:02:30 |
 | sase | [`dfab05f`](https://github.com/sase-org/sase/commit/dfab05f8c81d13b851aa8669ba06a80b2f3cf302) | docs: document commit reference completion | [sase-e8.6](sase-e8.6.md) | 2026-08-02 16:44:49 |
 | sase | [`aab4899`](https://github.com/sase-org/sase/commit/aab489997eb1c745d34cfda0978089696aed1135) | fix(ace-tui): repair prompt commit inventory binding and worker lifecycle | [sase-e8](README.md) | 2026-08-02 17:34:28 |
+| sase--plans | [`sase--plans@7617b97`](https://github.com/sase-org/sase--plans/commit/7617b972d08b073143907caaf086654af186a21d) | chore(sdd): mark the commit\_ref\_completion plan done | [sase-e8](README.md) | 2026-08-02 17:36:57 |
