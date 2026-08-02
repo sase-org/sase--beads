@@ -13,11 +13,11 @@ verify-green: watch a full master run after the other phases land, confirm every
 
 ## Dependencies
 
-- **Depends on:** [sase-dz.1](sase-dz.1.md) ◐
+- **Depends on:** [sase-dz.1](sase-dz.1.md) ✓
 - **Depends on:** [sase-dz.2](sase-dz.2.md) ✓
 - **Depends on:** [sase-dz.3](sase-dz.3.md) ◐
 - **Depends on:** [sase-dz.4](sase-dz.4.md) ◐
-- **Depends on:** [sase-dz.5](sase-dz.5.md) ◐
+- **Depends on:** [sase-dz.5](sase-dz.5.md) ✓
 
 ## Agents
 

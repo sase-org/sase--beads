@@ -11,6 +11,10 @@
 
 ci-budget: raise the test job timeout and stop running coverage on the matrix legs that never upload it, so the slowest interpreter leg can finish instead of being cancelled at the limit.
 
+## Notes
+
+[2026-08-02T11:05:37Z · sase-dz.3] Verifying just test in background while confirming ci.yml changes; will close once suite confirms green.
+
 ## Dependencies
 
 - **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
