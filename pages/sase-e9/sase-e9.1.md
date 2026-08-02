@@ -23,7 +23,7 @@ gate: replace the fixed 60s/20s/10s/15s wall clocks in the suite-gate integratio
 
 ## Dependencies
 
-- **Blocks:** [sase-e9.3](sase-e9.3.md) ◐
+- **Blocks:** [sase-e9.3](sase-e9.3.md) ✓
 
 ## Agents
 

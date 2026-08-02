@@ -23,7 +23,7 @@ visual: stop Textual animations from running under PNG snapshot tests and teach 
 
 ## Dependencies
 
-- **Blocks:** [sase-e9.3](sase-e9.3.md) ◐
+- **Blocks:** [sase-e9.3](sase-e9.3.md) ✓
 
 ## Agents
 
