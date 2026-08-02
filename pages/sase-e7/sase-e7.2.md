@@ -28,10 +28,4 @@ canonical-interfaces: retire the export path that writes prompt Markdown into th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-e7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.2/README.md) | [sase-e7.2](sase-e7.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|---|
-| sase | [`53b1fc0`](https://github.com/sase-org/sase/commit/53b1fc0378c8e8b7441ce638abbc17e9af70b3fc) | feat(prompt)!: use the canonical prompt archive | [sase-e7.2](sase-e7.2.md) | 2026-08-02 14:13:30 |
+| [bbugyi200.athena.sase-e7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.2/README.md) | [sase-e7.2](sase-e7.2.md) | 0 |
