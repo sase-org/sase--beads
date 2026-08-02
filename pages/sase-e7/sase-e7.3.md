@@ -11,6 +11,10 @@
 
 migrate-durability: resolve the plans sidecar effective for the caller instead of the first existing clone, and make a write run either publish both sidecars or fail with exact recovery instructions, with restart states tested.
 
+## Notes
+
+[2026-08-02T14:02:07Z · sase-e7.3] PROPOSED FOLLOW-UP: Harden contention-sensitive full-suite tests — under several concurrent host test runs, just check failed fs-watcher coalescing, the retry-countdown PNG snapshot, and the bead lock-wait regression; all three passed immediately when rerun in isolation.
+
 ## Dependencies
 
 - **Blocks:** [sase-e7.5](sase-e7.5.md) ◐

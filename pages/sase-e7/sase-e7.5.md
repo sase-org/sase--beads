@@ -14,7 +14,7 @@ closeout: re-verify every gap against final source and remote state, disposition
 ## Dependencies
 
 - **Depends on:** [sase-e7.1](sase-e7.1.md) ✓
-- **Depends on:** [sase-e7.2](sase-e7.2.md) ◐
+- **Depends on:** [sase-e7.2](sase-e7.2.md) ✓
 - **Depends on:** [sase-e7.3](sase-e7.3.md) ◐
 - **Depends on:** [sase-e7.4](sase-e7.4.md) ◐
 
