@@ -14,7 +14,7 @@ surfaces: teach the ACE chat detail view and the `sase agent prompts show` / `sa
 ## Dependencies
 
 - **Depends on:** [sase-e6.4](sase-e6.4.md) ◐
-- **Depends on:** [sase-e6.5](sase-e6.5.md) ◐
+- **Depends on:** [sase-e6.5](sase-e6.5.md) ✓
 
 ## Agents
 
