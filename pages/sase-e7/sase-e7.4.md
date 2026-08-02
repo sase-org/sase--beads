@@ -20,7 +20,7 @@ docs-assets: remove prompt snapshots from the plans directory-map source, regene
 ## Dependencies
 
 - **Depends on:** [sase-e7.2](sase-e7.2.md) ✓
-- **Blocks:** [sase-e7.5](sase-e7.5.md) ◐
+- **Blocks:** [sase-e7.5](sase-e7.5.md) ✓
 
 ## Agents
 

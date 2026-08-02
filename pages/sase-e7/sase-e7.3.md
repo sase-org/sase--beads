@@ -23,7 +23,7 @@ migrate-durability: resolve the plans sidecar effective for the caller instead o
 
 ## Dependencies
 
-- **Blocks:** [sase-e7.5](sase-e7.5.md) ◐
+- **Blocks:** [sase-e7.5](sase-e7.5.md) ✓
 
 ## Agents
 

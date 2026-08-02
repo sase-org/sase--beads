@@ -22,7 +22,7 @@ canonical-interfaces: retire the export path that writes prompt Markdown into th
 ## Dependencies
 
 - **Blocks:** [sase-e7.4](sase-e7.4.md) ✓
-- **Blocks:** [sase-e7.5](sase-e7.5.md) ◐
+- **Blocks:** [sase-e7.5](sase-e7.5.md) ✓
 
 ## Agents
 
