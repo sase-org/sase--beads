@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-e6](README.md) / sase-e6.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.rs](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.rs/README.md) · **Assignee:** `sase-e6.2` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.rs` · **Assignee:** `sase-e6.2` · **Size:** medium
 **Created:** 2026-08-02 13:22:36 UTC · **Closed:** 2026-08-02 14:29:57 UTC
 **Plan:** [202608/stored\_prompt\_duality.md](https://github.com/sase-org/sase--plans/blob/main/202608/stored_prompt_duality.md)
 
@@ -34,4 +34,4 @@ capture: write the per-run `xprompt_sources.json` artifact recording each surviv
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase | [`cb90eaf`](https://github.com/sase-org/sase/commit/cb90eaf00a707a32fa7cea009e719df7cdd4cb43) | feat(xprompt): capture definition provenance at launch | [sase-e6.2](sase-e6.2.md) | 2026-08-02 14:33:02 |
+| gh\_sase-org\_\_sase | [`cb90eaf`](https://github.com/sase-org/sase/commit/cb90eaf00a707a32fa7cea009e719df7cdd4cb43) | feat(xprompt): capture definition provenance at launch | [sase-e6.2](sase-e6.2.md) | 2026-08-02 14:33:02 |

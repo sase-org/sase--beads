@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-e6](README.md) / sase-e6.5
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.rs](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.rs/README.md) · **Assignee:** `sase-e6.5` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.rs` · **Assignee:** `sase-e6.5` · **Size:** medium
 **Created:** 2026-08-02 13:22:53 UTC · **Closed:** 2026-08-02 15:52:06 UTC
 **Plan:** [202608/stored\_prompt\_duality.md](https://github.com/sase-org/sase--plans/blob/main/202608/stored_prompt_duality.md)
 
@@ -20,7 +20,7 @@ archive: linkify xprompt references in the published prompt body, append the ren
 ## Dependencies
 
 - **Depends on:** [sase-e6.3](sase-e6.3.md) ✓
-- **Blocks:** [sase-e6.6](sase-e6.6.md) ◐
+- **Blocks:** [sase-e6.6](sase-e6.6.md) ✓
 
 ## Agents
 
@@ -32,4 +32,4 @@ archive: linkify xprompt references in the published prompt body, append the ren
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase | [`f578c0a`](https://github.com/sase-org/sase/commit/f578c0aa4e1cdd699ce9fb715ce59fcea89cb93e) | feat(prompt-archive): store rendered prompts and link xprompts | [sase-e6.5](sase-e6.5.md) | 2026-08-02 15:54:16 |
+| gh\_sase-org\_\_sase | [`f578c0a`](https://github.com/sase-org/sase/commit/f578c0aa4e1cdd699ce9fb715ce59fcea89cb93e) | feat(prompt-archive): store rendered prompts and link xprompts | [sase-e6.5](sase-e6.5.md) | 2026-08-02 15:54:16 |

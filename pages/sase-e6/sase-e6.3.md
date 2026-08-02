@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-e6](README.md) / sase-e6.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.rs](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.rs/README.md) · **Assignee:** `sase-e6.3` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.rs` · **Assignee:** `sase-e6.3` · **Size:** small
 **Created:** 2026-08-02 13:22:41 UTC · **Closed:** 2026-08-02 15:16:44 UTC
 **Plan:** [202608/stored\_prompt\_duality.md](https://github.com/sase-org/sase--plans/blob/main/202608/stored_prompt_duality.md)
 
@@ -34,4 +34,4 @@ links: add the resolver that turns one captured provenance record into a hosted 
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase | [`e309358`](https://github.com/sase-org/sase/commit/e30935808ba50079c927c2c54130c4b155b9d0e1) | feat(xprompt): resolve hosted URLs for captured definition provenance | [sase-e6.3](sase-e6.3.md) | 2026-08-02 15:17:15 |
+| gh\_sase-org\_\_sase | [`e309358`](https://github.com/sase-org/sase/commit/e30935808ba50079c927c2c54130c4b155b9d0e1) | feat(xprompt): resolve hosted URLs for captured definition provenance | [sase-e6.3](sase-e6.3.md) | 2026-08-02 15:17:15 |

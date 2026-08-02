@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-e6](README.md) / sase-e6.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.rs](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.rs/README.md) · **Assignee:** `sase-e6.4` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.rs` · **Assignee:** `sase-e6.4` · **Size:** medium
 **Created:** 2026-08-02 13:22:48 UTC · **Closed:** 2026-08-02 16:05:02 UTC
 **Plan:** [202608/stored\_prompt\_duality.md](https://github.com/sase-org/sase--plans/blob/main/202608/stored_prompt_duality.md)
 
@@ -20,7 +20,7 @@ chat: extend the chat writer with sentinel-delimited XPrompt and rendered-prompt
 ## Dependencies
 
 - **Depends on:** [sase-e6.3](sase-e6.3.md) ✓
-- **Blocks:** [sase-e6.6](sase-e6.6.md) ◐
+- **Blocks:** [sase-e6.6](sase-e6.6.md) ✓
 
 ## Agents
 
@@ -32,4 +32,4 @@ chat: extend the chat writer with sentinel-delimited XPrompt and rendered-prompt
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
-| sase | [`e6624e3`](https://github.com/sase-org/sase/commit/e6624e324e7857a1967757c8b22984ff7d49b4a8) | feat(history): store both prompt renderings in chats | [sase-e6.4](sase-e6.4.md) | 2026-08-02 16:09:29 |
+| gh\_sase-org\_\_sase | [`e6624e3`](https://github.com/sase-org/sase/commit/e6624e324e7857a1967757c8b22984ff7d49b4a8) | feat(history): store both prompt renderings in chats | [sase-e6.4](sase-e6.4.md) | 2026-08-02 16:09:29 |
