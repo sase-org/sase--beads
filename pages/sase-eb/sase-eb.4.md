@@ -13,7 +13,7 @@ cli: register the `show` subparser with its flags and examples, dispatch it from
 
 ## Dependencies
 
-- **Depends on:** [sase-eb.3](sase-eb.3.md) ◐
+- **Depends on:** [sase-eb.3](sase-eb.3.md) ✓
 
 ## Agents
 

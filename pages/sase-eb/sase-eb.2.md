@@ -19,7 +19,7 @@ resolve: add name normalization and lookup with suggestions, source classificati
 
 ## Dependencies
 
-- **Blocks:** [sase-eb.3](sase-eb.3.md) ◐
+- **Blocks:** [sase-eb.3](sase-eb.3.md) ✓
 
 ## Agents
 

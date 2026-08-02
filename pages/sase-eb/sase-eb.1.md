@@ -21,7 +21,7 @@ highlight: add the frontend-agnostic highlight role model, an overlap-flattening
 
 ## Dependencies
 
-- **Blocks:** [sase-eb.3](sase-eb.3.md) ◐
+- **Blocks:** [sase-eb.3](sase-eb.3.md) ✓
 
 ## Agents
 
