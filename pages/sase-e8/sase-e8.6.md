@@ -13,7 +13,7 @@ docs_verify: correct the editor and getting-started documentation that still say
 
 ## Dependencies
 
-- **Depends on:** [sase-e8.4](sase-e8.4.md) ◐
+- **Depends on:** [sase-e8.4](sase-e8.4.md) ✓
 - **Depends on:** [sase-e8.5](sase-e8.5.md) ◐
 
 ## Agents

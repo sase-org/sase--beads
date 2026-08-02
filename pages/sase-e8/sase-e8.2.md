@@ -21,7 +21,7 @@ core_commits: enumerate each repository checkout's recent revisions with a bound
 
 - **Depends on:** [sase-e8.1](sase-e8.1.md) ✓
 - **Blocks:** [sase-e8.3](sase-e8.3.md) ✓
-- **Blocks:** [sase-e8.4](sase-e8.4.md) ◐
+- **Blocks:** [sase-e8.4](sase-e8.4.md) ✓
 
 ## Agents
 
