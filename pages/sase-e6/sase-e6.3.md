@@ -14,7 +14,7 @@ links: add the resolver that turns one captured provenance record into a hosted 
 ## Dependencies
 
 - **Depends on:** [sase-e6.1](sase-e6.1.md) ✓
-- **Depends on:** [sase-e6.2](sase-e6.2.md) ◐
+- **Depends on:** [sase-e6.2](sase-e6.2.md) ✓
 - **Blocks:** [sase-e6.4](sase-e6.4.md) ◐
 - **Blocks:** [sase-e6.5](sase-e6.5.md) ◐
 

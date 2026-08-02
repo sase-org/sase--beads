@@ -19,7 +19,7 @@ core: add the `prompt_xprompt` module to sase_core with the launch-capture recor
 
 ## Dependencies
 
-- **Blocks:** [sase-e6.2](sase-e6.2.md) ◐
+- **Blocks:** [sase-e6.2](sase-e6.2.md) ✓
 - **Blocks:** [sase-e6.3](sase-e6.3.md) ◐
 
 ## Agents
