@@ -13,7 +13,7 @@ baseline: rerun the visual contention harness and the suite-gate integration tes
 
 ## Dependencies
 
-- **Depends on:** [sase-e9.1](sase-e9.1.md) ◐
+- **Depends on:** [sase-e9.1](sase-e9.1.md) ✓
 - **Depends on:** [sase-e9.2](sase-e9.2.md) ✓
 
 ## Agents
