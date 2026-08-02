@@ -13,7 +13,7 @@ lsp_items: describe payload items by their artifact kind instead of always "file
 
 ## Dependencies
 
-- **Depends on:** [sase-e8.2](sase-e8.2.md) ◐
+- **Depends on:** [sase-e8.2](sase-e8.2.md) ✓
 - **Blocks:** [sase-e8.6](sase-e8.6.md) ◐
 
 ## Agents

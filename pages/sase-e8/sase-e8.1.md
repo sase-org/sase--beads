@@ -23,7 +23,7 @@ core_menu: add `scope`, `rank`, and `body` to the at-reference payload row wire,
 
 ## Dependencies
 
-- **Blocks:** [sase-e8.2](sase-e8.2.md) ◐
+- **Blocks:** [sase-e8.2](sase-e8.2.md) ✓
 
 ## Agents
 

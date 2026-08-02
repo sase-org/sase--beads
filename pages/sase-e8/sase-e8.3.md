@@ -13,7 +13,7 @@ core_bridge: expose `artifact_ref_payload_inventory(kind, context)` through `sas
 
 ## Dependencies
 
-- **Depends on:** [sase-e8.2](sase-e8.2.md) ◐
+- **Depends on:** [sase-e8.2](sase-e8.2.md) ✓
 - **Blocks:** [sase-e8.5](sase-e8.5.md) ◐
 
 ## Agents
