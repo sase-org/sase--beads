@@ -11,6 +11,10 @@
 
 lsp_items: describe payload items by their artifact kind instead of always "file", mark identifier-backed kinds as references, and render the commit body into item documentation.
 
+## Notes
+
+[2026-08-02T15:10:36Z · sase-e8.4] Verified: added AtReferenceRowWire.body threaded from payload rows; at_reference_completion_item now derives labelDetails.description from the payload kind and uses CompletionItemKind::REFERENCE for commit/bead/agent (FILE otherwise); at_reference_documentation appends the row body as a fenced, 12-line-capped block; removed the 'commit' short-circuit from cached_at_reference_payload_inventory in server.rs (bug-only now). cargo fmt, cargo clippy --all-targets, and cargo test all pass for sase_core (1209 tests) and sase_xprompt_lsp (88+6 tests), including a new server-level test driving completion_for_text over @commit: against a real git checkout fixture and asserting non-empty REFERENCE-kind ranked items. Committed as 3e94424 in sase-core and pushed to origin/master.
+
 ## Dependencies
 
 - **Depends on:** [sase-e8.2](sase-e8.2.md) ✓
@@ -20,10 +24,4 @@ lsp_items: describe payload items by their artifact kind instead of always "file
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-e8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.4/README.md) | [sase-e8.4](sase-e8.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed (UTC) |
-|---|---|---|---|---|
-| sase-core | [`sase-core@3e94424`](https://github.com/sase-org/sase-core/commit/3e944248031d305fcd8500576a7e15db72192f82) | feat(lsp): describe artifact payload rows by kind and render commit bodies | [sase-e8.4](sase-e8.4.md) | 2026-08-02 15:09:35 |
+| [bbugyi200.athena.sase-e8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e8.4/README.md) | [sase-e8.4](sase-e8.4.md) | 0 |
