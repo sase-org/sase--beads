@@ -21,7 +21,7 @@ validate-skip: teach the prompt-archive validation an explicit unavailable-conte
 
 ## Dependencies
 
-- **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
+- **Blocks:** [sase-dz.6](sase-dz.6.md) ✓
 
 ## Agents
 

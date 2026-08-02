@@ -19,7 +19,7 @@ bead-color: force color on the internal rendering console so `--color always` wi
 
 ## Dependencies
 
-- **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
+- **Blocks:** [sase-dz.6](sase-dz.6.md) ✓
 
 ## Agents
 

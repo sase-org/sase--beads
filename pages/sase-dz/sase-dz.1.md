@@ -19,7 +19,7 @@ core-floor: bump the pyproject dependency window so the published-core smoke lan
 
 ## Dependencies
 
-- **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
+- **Blocks:** [sase-dz.6](sase-dz.6.md) ✓
 
 ## Agents
 

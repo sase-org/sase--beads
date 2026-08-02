@@ -21,7 +21,7 @@ publish-migration: finish and publish the historical prompt migration so the pla
 
 ## Dependencies
 
-- **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
+- **Blocks:** [sase-dz.6](sase-dz.6.md) ✓
 
 ## Agents
 

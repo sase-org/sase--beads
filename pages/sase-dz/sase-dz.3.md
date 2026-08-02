@@ -19,7 +19,7 @@ ci-budget: raise the test job timeout and stop running coverage on the matrix le
 
 ## Dependencies
 
-- **Blocks:** [sase-dz.6](sase-dz.6.md) ◐
+- **Blocks:** [sase-dz.6](sase-dz.6.md) ✓
 
 ## Agents
 
