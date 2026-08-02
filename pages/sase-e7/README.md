@@ -15,7 +15,7 @@ The agents sidecar is the canonical and only home for prompt Markdown in practic
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-e7.1](sase-e7.1.md) | Restrict plan-header parsing to the leading block | ✓ closed | medium | 1 | 2 |
+| [sase-e7.1](sase-e7.1.md) | Restrict plan-header parsing to the leading block | ✓ closed | medium | 1 | 3 |
 | [sase-e7.2](sase-e7.2.md) | Make every prompt interface canonical | ✓ closed | medium | 1 | 1 |
 | [sase-e7.3](sase-e7.3.md) | Make agent prompts migrate correct and durable | ✓ closed | medium | 1 | 1 |
 | [sase-e7.4](sase-e7.4.md) | Correct the directory-map asset and the prompt docs | ✓ closed | small | 1 | 1 |
@@ -47,7 +47,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-e7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.1/README.md) | [sase-e7.1](sase-e7.1.md) | 2 |
+| [bbugyi200.athena.sase-e7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.1/README.md) | [sase-e7.1](sase-e7.1.md) | 3 |
 | [bbugyi200.athena.sase-e7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.2/README.md) | [sase-e7.2](sase-e7.2.md) | 1 |
 | [bbugyi200.athena.sase-e7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.3/README.md) | [sase-e7.3](sase-e7.3.md) | 1 |
 | [bbugyi200.athena.sase-e7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.4/README.md) | [sase-e7.4](sase-e7.4.md) | 1 |
@@ -63,3 +63,4 @@ flowchart TD
 | sase--plans | [`sase--plans@f3696ca`](https://github.com/sase-org/sase--plans/commit/f3696ca8bd9f8ee9b9dbe8dacaf7b8d17f867ea6) | docs: restore natural artifacts body label | [sase-e7.1](sase-e7.1.md) | 2026-08-02 14:17:58 |
 | sase | [`7ba7ce6`](https://github.com/sase-org/sase/commit/7ba7ce664afec6308a65b998c47e6e72c444c8e2) | fix(prompts): make archive migration durable | [sase-e7.3](sase-e7.3.md) | 2026-08-02 14:24:00 |
 | sase | [`af0a6b8`](https://github.com/sase-org/sase/commit/af0a6b818f6b53102d81b5623079f304b253c7f4) | docs: update prompt archive docs and plans map | [sase-e7.4](sase-e7.4.md) | 2026-08-02 14:51:55 |
+| sase | [`ef467af`](https://github.com/sase-org/sase/commit/ef467af583d4d2c3a7ea41a78999cb3a02656030) | build(deps): require sase-core-rs 0.17.11 | [sase-e7.1](sase-e7.1.md) | 2026-08-02 14:56:51 |
