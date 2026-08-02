@@ -15,10 +15,10 @@ The agents sidecar is the canonical and only home for prompt Markdown in practic
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-e7.1](sase-e7.1.md) | Restrict plan-header parsing to the leading block | ✓ closed | medium | 1 | 0 |
+| [sase-e7.1](sase-e7.1.md) | Restrict plan-header parsing to the leading block | ✓ closed | medium | 1 | 2 |
 | [sase-e7.2](sase-e7.2.md) | Make every prompt interface canonical | ✓ closed | medium | 1 | 1 |
 | [sase-e7.3](sase-e7.3.md) | Make agent prompts migrate correct and durable | ✓ closed | medium | 1 | 1 |
-| [sase-e7.4](sase-e7.4.md) | Correct the directory-map asset and the prompt docs | ◐ in_progress | small | 1 | 0 |
+| [sase-e7.4](sase-e7.4.md) | Correct the directory-map asset and the prompt docs | ✓ closed | small | 1 | 1 |
 | [sase-e7.5](sase-e7.5.md) | Close out sase-dh | ◐ in_progress | medium | 1 | 0 |
 
 ## Lineage
@@ -29,7 +29,7 @@ flowchart TD
     n1["sase-e7.1: Restrict plan-header parsing to the leading block [closed]"]
     n2["sase-e7.2: Make every prompt interface canonical [closed]"]
     n3["sase-e7.3: Make agent prompts migrate correct and durable [closed]"]
-    n4["sase-e7.4: Correct the directory-map asset and the prompt docs [in_progress]"]
+    n4["sase-e7.4: Correct the directory-map asset and the prompt docs [closed]"]
     n5["sase-e7.5: Close out sase-dh [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -47,10 +47,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-e7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.1/README.md) | [sase-e7.1](sase-e7.1.md) | 0 |
+| [bbugyi200.athena.sase-e7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.1/README.md) | [sase-e7.1](sase-e7.1.md) | 2 |
 | [bbugyi200.athena.sase-e7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.2/README.md) | [sase-e7.2](sase-e7.2.md) | 1 |
 | [bbugyi200.athena.sase-e7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.3/README.md) | [sase-e7.3](sase-e7.3.md) | 1 |
-| [bbugyi200.athena.sase-e7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.4/README.md) | [sase-e7.4](sase-e7.4.md) | 0 |
+| [bbugyi200.athena.sase-e7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.4/README.md) | [sase-e7.4](sase-e7.4.md) | 1 |
 | [bbugyi200.athena.sase-e7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.5/README.md) | [sase-e7.5](sase-e7.5.md) | 0 |
 | [bbugyi200.athena.sase-e7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e7.land/README.md) | [sase-e7](README.md) | 0 |
 
@@ -58,5 +58,8 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
+| sase-core | [`sase-core@d7cfed8`](https://github.com/sase-org/sase-core/commit/d7cfed84d5d7ea0584baa326f5c25abaf94a9293) | fix(plan): restrict header parsing to leading block | [sase-e7.1](sase-e7.1.md) | 2026-08-02 13:41:33 |
 | sase | [`53b1fc0`](https://github.com/sase-org/sase/commit/53b1fc0378c8e8b7441ce638abbc17e9af70b3fc) | feat(prompt)!: use the canonical prompt archive | [sase-e7.2](sase-e7.2.md) | 2026-08-02 14:13:30 |
+| sase--plans | [`sase--plans@f3696ca`](https://github.com/sase-org/sase--plans/commit/f3696ca8bd9f8ee9b9dbe8dacaf7b8d17f867ea6) | docs: restore natural artifacts body label | [sase-e7.1](sase-e7.1.md) | 2026-08-02 14:17:58 |
 | sase | [`7ba7ce6`](https://github.com/sase-org/sase/commit/7ba7ce664afec6308a65b998c47e6e72c444c8e2) | fix(prompts): make archive migration durable | [sase-e7.3](sase-e7.3.md) | 2026-08-02 14:24:00 |
+| sase | [`af0a6b8`](https://github.com/sase-org/sase/commit/af0a6b818f6b53102d81b5623079f304b253c7f4) | docs: update prompt archive docs and plans map | [sase-e7.4](sase-e7.4.md) | 2026-08-02 14:51:55 |
