@@ -13,7 +13,7 @@ archive: linkify xprompt references in the published prompt body, append the ren
 
 ## Dependencies
 
-- **Depends on:** [sase-e6.3](sase-e6.3.md) ◐
+- **Depends on:** [sase-e6.3](sase-e6.3.md) ✓
 - **Blocks:** [sase-e6.6](sase-e6.6.md) ◐
 
 ## Agents

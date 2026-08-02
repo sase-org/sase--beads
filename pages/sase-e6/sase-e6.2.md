@@ -22,7 +22,7 @@ capture: write the per-run `xprompt_sources.json` artifact recording each surviv
 ## Dependencies
 
 - **Depends on:** [sase-e6.1](sase-e6.1.md) ✓
-- **Blocks:** [sase-e6.3](sase-e6.3.md) ◐
+- **Blocks:** [sase-e6.3](sase-e6.3.md) ✓
 
 ## Agents
 
