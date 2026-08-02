@@ -18,7 +18,7 @@ Every SASE agent chat markdown file and every published prompt archive entry sto
 | [sase-e6.1](sase-e6.1.md) | Rust xprompt-source wire and reference link rewriting | ✓ closed | medium | 1 | 1 |
 | [sase-e6.2](sase-e6.2.md) | Launch-time capture of xprompt definition provenance | ✓ closed | medium | 1 | 1 |
 | [sase-e6.3](sase-e6.3.md) | Hosted URL resolution for xprompt definitions | ✓ closed | small | 1 | 1 |
-| [sase-e6.4](sase-e6.4.md) | Chat markdown stores both prompt renderings | ◐ in_progress | medium | 1 | 0 |
+| [sase-e6.4](sase-e6.4.md) | Chat markdown stores both prompt renderings | ✓ closed | medium | 1 | 1 |
 | [sase-e6.5](sase-e6.5.md) | Prompt archive stores both prompt renderings | ✓ closed | medium | 1 | 1 |
 | [sase-e6.6](sase-e6.6.md) | Read surfaces, docs, and end-to-end verification | ◐ in_progress | small | 1 | 0 |
 
@@ -30,7 +30,7 @@ flowchart TD
     n1["sase-e6.1: Rust xprompt-source wire and reference link rewriting [closed]"]
     n2["sase-e6.2: Launch-time capture of xprompt definition provenance [closed]"]
     n3["sase-e6.3: Hosted URL resolution for xprompt definitions [closed]"]
-    n4["sase-e6.4: Chat markdown stores both prompt renderings [in_progress]"]
+    n4["sase-e6.4: Chat markdown stores both prompt renderings [closed]"]
     n5["sase-e6.5: Prompt archive stores both prompt renderings [closed]"]
     n6["sase-e6.6: Read surfaces, docs, and end-to-end verification [in_progress]"]
     n0 --> n1
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-e6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.1/README.md) | [sase-e6.1](sase-e6.1.md) | 1 |
 | [bbugyi200.athena.sase-e6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.2/README.md) | [sase-e6.2](sase-e6.2.md) | 1 |
 | [bbugyi200.athena.sase-e6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.3/README.md) | [sase-e6.3](sase-e6.3.md) | 1 |
-| [bbugyi200.athena.sase-e6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.4/README.md) | [sase-e6.4](sase-e6.4.md) | 0 |
+| [bbugyi200.athena.sase-e6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.4/README.md) | [sase-e6.4](sase-e6.4.md) | 1 |
 | [bbugyi200.athena.sase-e6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.5/README.md) | [sase-e6.5](sase-e6.5.md) | 1 |
 | [bbugyi200.athena.sase-e6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.6/README.md) | [sase-e6.6](sase-e6.6.md) | 0 |
 | [bbugyi200.athena.sase-e6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-e6.land/README.md) | [sase-e6](README.md) | 0 |
@@ -68,3 +68,4 @@ flowchart TD
 | sase | [`cb90eaf`](https://github.com/sase-org/sase/commit/cb90eaf00a707a32fa7cea009e719df7cdd4cb43) | feat(xprompt): capture definition provenance at launch | [sase-e6.2](sase-e6.2.md) | 2026-08-02 14:33:02 |
 | sase | [`e309358`](https://github.com/sase-org/sase/commit/e30935808ba50079c927c2c54130c4b155b9d0e1) | feat(xprompt): resolve hosted URLs for captured definition provenance | [sase-e6.3](sase-e6.3.md) | 2026-08-02 15:17:15 |
 | sase | [`f578c0a`](https://github.com/sase-org/sase/commit/f578c0aa4e1cdd699ce9fb715ce59fcea89cb93e) | feat(prompt-archive): store rendered prompts and link xprompts | [sase-e6.5](sase-e6.5.md) | 2026-08-02 15:54:16 |
+| sase | [`e6624e3`](https://github.com/sase-org/sase/commit/e6624e324e7857a1967757c8b22984ff7d49b4a8) | feat(history): store both prompt renderings in chats | [sase-e6.4](sase-e6.4.md) | 2026-08-02 16:09:29 |
