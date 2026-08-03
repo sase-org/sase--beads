@@ -14,7 +14,7 @@ commit: convert `sase commit` and every remaining synchronous agents/beads sidec
 ## Dependencies
 
 - **Depends on:** [sase-ej.2](sase-ej.2.md) ✓
-- **Depends on:** [sase-ej.3](sase-ej.3.md) ◐
+- **Depends on:** [sase-ej.3](sase-ej.3.md) ✓
 - **Blocks:** [sase-ej.5](sase-ej.5.md) ◐
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
 

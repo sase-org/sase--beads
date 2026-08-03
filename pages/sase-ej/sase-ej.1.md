@@ -11,6 +11,10 @@
 
 scanfix: eliminate the per-lookup rescan of ~17k dismissed bundles and every agent artifact directory that makes plan-association resolution CPU-bound, which is the concrete stall reported by sase-cl.
 
+## Notes
+
+[2026-08-03T11:29:53Z · sase-ej.1] PROPOSED FOLLOW-UP: Harden load-sensitive full-suite tests under concurrent workspace checks — competing runs caused metadata-search timing failure, bead-lock timeout, and suite-gate child timeout while focused reruns passed.
+
 ## Dependencies
 
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
