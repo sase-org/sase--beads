@@ -14,9 +14,3 @@ polish: document the panel and journal in the help modal, the ACE guide, the age
 ## Dependencies
 
 - **Depends on:** [sase-el.3](sase-el.3.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-el.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.4/README.md) | [sase-el.4](sase-el.4.md) | 0 |

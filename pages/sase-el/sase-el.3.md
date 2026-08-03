@@ -11,13 +11,11 @@
 
 render: build the per-CLI and all-CLIs history renderables with their glyph/color palette, relative timestamps derived from the load clock, trigger badges, truncation footer, and empty/error states, and wire the H scope toggle with its check_action gating and repaint path.
 
+## Notes
+
+[2026-08-03T12:41:26Z · sase-el.3] PROPOSED FOLLOW-UP: Stabilize full-suite contention failures — just check intermittently failed the @-prefix directory-drilldown and concurrent bead-mutation timeout tests under a heavily shared worker pool; both passed immediately when rerun together in isolation.
+
 ## Dependencies
 
 - **Depends on:** [sase-el.2](sase-el.2.md) ✓
 - **Blocks:** [sase-el.4](sase-el.4.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-el.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.3/README.md) | [sase-el.3](sase-el.3.md) | 0 |

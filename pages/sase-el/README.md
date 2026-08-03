@@ -17,8 +17,8 @@ Every sase-managed agent-CLI update run is recorded to a durable, bounded journa
 |---|---|---|---|---:|---:|
 | [sase-el.1](sase-el.1.md) | Durable agent-CLI update run journal | ✓ closed | medium | 1 | 1 |
 | [sase-el.2](sase-el.2.md) | Pane load path, config, and session state | ✓ closed | small | 1 | 1 |
-| [sase-el.3](sase-el.3.md) | History panel rendering and scope toggle | ◐ in_progress | medium | 1 | 0 |
-| [sase-el.4](sase-el.4.md) | Help, docs, and visual goldens | ◐ in_progress | small | 1 | 0 |
+| [sase-el.3](sase-el.3.md) | History panel rendering and scope toggle | ◐ in_progress | medium | 0 | 0 |
+| [sase-el.4](sase-el.4.md) | Help, docs, and visual goldens | ◐ in_progress | small | 0 | 0 |
 
 ## Lineage
 
@@ -44,9 +44,6 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-el.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.1/README.md) | [sase-el.1](sase-el.1.md) | 1 |
 | [bbugyi200.athena.sase-el.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.2/README.md) | [sase-el.2](sase-el.2.md) | 1 |
-| [bbugyi200.athena.sase-el.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.3/README.md) | [sase-el.3](sase-el.3.md) | 0 |
-| [bbugyi200.athena.sase-el.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.4/README.md) | [sase-el.4](sase-el.4.md) | 0 |
-| [bbugyi200.athena.sase-el.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-el.land/README.md) | [sase-el](README.md) | 0 |
 
 ## Commits
 
