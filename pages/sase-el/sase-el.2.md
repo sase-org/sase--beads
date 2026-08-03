@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sk](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sk/README.md) · **Assignee:** `sase-el.2` · **Size:** small
-**Created:** 2026-08-03 10:53:07 UTC · **Closed:** 2026-08-03 12:04:56 UTC
+**Created:** 2026-08-03 06:53:07 EDT · **Closed:** 2026-08-03 08:04:56 EDT
 **Plan:** [202608/agent\_cli\_update\_history.md](https://github.com/sase-org/sase--plans/blob/main/202608/agent_cli_update_history.md)
 
 ## Description
@@ -20,7 +20,7 @@ plumbing: read a bounded tail of the journal inside the existing off-thread Upda
 ## Dependencies
 
 - **Depends on:** [sase-el.1](sase-el.1.md) ✓
-- **Blocks:** [sase-el.3](sase-el.3.md) ◐
+- **Blocks:** [sase-el.3](sase-el.3.md) ✓
 
 ## Agents
 
@@ -30,6 +30,6 @@ plumbing: read a bounded tail of the journal inside the existing off-thread Upda
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`e4ad939`](https://github.com/sase-org/sase/commit/e4ad939168acf54a963c5a404a39cbd059ef969e) | feat(agent-clis): wire update history into pane load, config, and session state | [sase-el.2](sase-el.2.md) | 2026-08-03 12:06:12 |
+| sase | [`e4ad939`](https://github.com/sase-org/sase/commit/e4ad939168acf54a963c5a404a39cbd059ef969e) | feat(agent-clis): wire update history into pane load, config, and session state | [sase-el.2](sase-el.2.md) | 2026-08-03 08:06:12 EDT |

@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sk](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sk/README.md) · **Assignee:** `sase-el.1` · **Size:** medium
-**Created:** 2026-08-03 10:53:02 UTC · **Closed:** 2026-08-03 11:22:53 UTC
+**Created:** 2026-08-03 06:53:02 EDT · **Closed:** 2026-08-03 07:22:53 EDT
 **Plan:** [202608/agent\_cli\_update\_history.md](https://github.com/sase-org/sase--plans/blob/main/202608/agent_cli_update_history.md)
 
 ## Description
@@ -29,6 +29,6 @@ journal: add the bounded JSONL run journal under ~/.sase/logs, define the run/en
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`55eb243`](https://github.com/sase-org/sase/commit/55eb24331e77f758be540d45c9db4451cac84b5e) | feat(agent-clis): journal update runs | [sase-el.1](sase-el.1.md) | 2026-08-03 11:24:35 |
+| sase | [`55eb243`](https://github.com/sase-org/sase/commit/55eb24331e77f758be540d45c9db4451cac84b5e) | feat(agent-clis): journal update runs | [sase-el.1](sase-el.1.md) | 2026-08-03 07:24:35 EDT |
