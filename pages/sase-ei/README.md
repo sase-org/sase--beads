@@ -16,10 +16,10 @@ Historical beads whose IDs leaked a ProjectSpec key can be migrated to the proje
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-ei.1](sase-ei.1.md) | Rust bead identity and alias primitive | ✓ closed | large | 1 | 2 |
-| [sase-ei.2](sase-ei.2.md) | Plan, ChangeSpec, and compatibility-page rewriters | ◐ in_progress | medium | 1 | 0 |
-| [sase-ei.3](sase-ei.3.md) | Historical agent identity and chat migration | ◐ in_progress | large | 1 | 0 |
-| [sase-ei.4](sase-ei.4.md) | Migration CLI and multi-store transaction | ◐ in_progress | large | 1 | 0 |
-| [sase-ei.5](sase-ei.5.md) | End-to-end verification and documentation | ◐ in_progress | medium | 1 | 0 |
+| [sase-ei.2](sase-ei.2.md) | Plan, ChangeSpec, and compatibility-page rewriters | ✓ closed | medium | 0 | 0 |
+| [sase-ei.3](sase-ei.3.md) | Historical agent identity and chat migration | ◐ in_progress | large | 0 | 0 |
+| [sase-ei.4](sase-ei.4.md) | Migration CLI and multi-store transaction | ◐ in_progress | large | 0 | 0 |
+| [sase-ei.5](sase-ei.5.md) | End-to-end verification and documentation | ◐ in_progress | medium | 0 | 0 |
 
 ## Lineage
 
@@ -27,7 +27,7 @@ Historical beads whose IDs leaked a ProjectSpec key can be migrated to the proje
 flowchart TD
     n0["sase-ei: Safely re-prefix historical bead identities [in_progress]"]
     n1["sase-ei.1: Rust bead identity and alias primitive [closed]"]
-    n2["sase-ei.2: Plan, ChangeSpec, and compatibility-page rewriters [in_progress]"]
+    n2["sase-ei.2: Plan, ChangeSpec, and compatibility-page rewriters [closed]"]
     n3["sase-ei.3: Historical agent identity and chat migration [in_progress]"]
     n4["sase-ei.4: Migration CLI and multi-store transaction [in_progress]"]
     n5["sase-ei.5: End-to-end verification and documentation [in_progress]"]
@@ -49,11 +49,6 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ei.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ei.1.md) | [sase-ei.1](sase-ei.1.md) | 2 |
-| [bbugyi200.athena.sase-ei.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.2/README.md) | [sase-ei.2](sase-ei.2.md) | 0 |
-| [bbugyi200.athena.sase-ei.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.3/README.md) | [sase-ei.3](sase-ei.3.md) | 0 |
-| [bbugyi200.athena.sase-ei.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.4/README.md) | [sase-ei.4](sase-ei.4.md) | 0 |
-| [bbugyi200.athena.sase-ei.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.5/README.md) | [sase-ei.5](sase-ei.5.md) | 0 |
-| [bbugyi200.athena.sase-ei.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.land/README.md) | [sase-ei](README.md) | 0 |
 
 ## Commits
 

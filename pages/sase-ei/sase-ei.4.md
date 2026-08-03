@@ -14,12 +14,6 @@ migration-cli: expose the default-dry-run migrate-prefix command and compose det
 ## Dependencies
 
 - **Depends on:** [sase-ei.1](sase-ei.1.md) ✓
-- **Depends on:** [sase-ei.2](sase-ei.2.md) ◐
+- **Depends on:** [sase-ei.2](sase-ei.2.md) ✓
 - **Depends on:** [sase-ei.3](sase-ei.3.md) ◐
 - **Blocks:** [sase-ei.5](sase-ei.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ei.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.4/README.md) | [sase-ei.4](sase-ei.4.md) | 0 |

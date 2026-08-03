@@ -14,9 +14,3 @@ integration-docs: prove mixed-prefix migration, aliases, immutable commit histor
 ## Dependencies
 
 - **Depends on:** [sase-ei.4](sase-ei.4.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ei.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.5/README.md) | [sase-ei.5](sase-ei.5.md) | 0 |

@@ -17,7 +17,7 @@ core-reprefix: add the Rust-backed collision-safe full-store bead ID mapping, ca
 
 ## Dependencies
 
-- **Blocks:** [sase-ei.2](sase-ei.2.md) ◐
+- **Blocks:** [sase-ei.2](sase-ei.2.md) ✓
 - **Blocks:** [sase-ei.3](sase-ei.3.md) ◐
 - **Blocks:** [sase-ei.4](sase-ei.4.md) ◐
 

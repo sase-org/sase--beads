@@ -15,9 +15,3 @@ agent-history: migrate derived bead-named agents, structured run artifacts, chat
 
 - **Depends on:** [sase-ei.1](sase-ei.1.md) ✓
 - **Blocks:** [sase-ei.4](sase-ei.4.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ei.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ei.3/README.md) | [sase-ei.3](sase-ei.3.md) | 0 |
