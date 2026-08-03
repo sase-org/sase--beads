@@ -14,5 +14,5 @@ final-audit: run the full sase and sase-core verification gates, confirm no re-p
 ## Dependencies
 
 - **Depends on:** [sase-ez.2](sase-ez.2.md) ◐
-- **Depends on:** [sase-ez.3](sase-ez.3.md) ◐
+- **Depends on:** [sase-ez.3](sase-ez.3.md) ✓
 - **Depends on:** [sase-ez.4](sase-ez.4.md) ◐

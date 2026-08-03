@@ -11,8 +11,12 @@
 
 sase-revert: revert the three sase-ei commits in the sase repo, keep the unrelated forward mint guard, resolve the three known conflict files, and prove the reverted tree still builds, lints, and passes the bead/agents_sync suites.
 
+## Notes
+
+[2026-08-03T19:33:51Z · sase-ez.1] PROPOSED FOLLOW-UP: Update config-center agent CLI PNG snapshots - just check now deterministically fails the two agent-CLI visual goldens because the actual UI includes the Update history panel while committed goldens are blank.
+
 ## Dependencies
 
 - **Blocks:** [sase-ez.2](sase-ez.2.md) ◐
-- **Blocks:** [sase-ez.3](sase-ez.3.md) ◐
+- **Blocks:** [sase-ez.3](sase-ez.3.md) ✓
 - **Blocks:** [sase-ez.4](sase-ez.4.md) ◐

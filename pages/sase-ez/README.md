@@ -17,7 +17,7 @@ Every code, data, and tracking artifact produced by the sase-ei epic is removed 
 |---|---|---|---|---:|---:|
 | [sase-ez.1](sase-ez.1.md) | Revert the sase-repo bead re-prefix surface | ✓ closed | medium | 0 | 0 |
 | [sase-ez.2](sase-ez.2.md) | Remove the Rust alias and re-prefix primitives | ◐ in_progress | large | 0 | 0 |
-| [sase-ez.3](sase-ez.3.md) | Retire the sase-ei plans, beads, and store residue | ◐ in_progress | medium | 0 | 0 |
+| [sase-ez.3](sase-ez.3.md) | Retire the sase-ei plans, beads, and store residue | ✓ closed | medium | 1 | 1 |
 | [sase-ez.4](sase-ez.4.md) | Hand-fix the bob-cli bead and agent identities | ◐ in_progress | large | 0 | 0 |
 | [sase-ez.5](sase-ez.5.md) | Audit that the epic left nothing behind | ◐ in_progress | medium | 0 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-ez: Revert the historical bead re-prefix epic and hand-fix bob-cli [in_progress]"]
     n1["sase-ez.1: Revert the sase-repo bead re-prefix surface [closed]"]
     n2["sase-ez.2: Remove the Rust alias and re-prefix primitives [in_progress]"]
-    n3["sase-ez.3: Retire the sase-ei plans, beads, and store residue [in_progress]"]
+    n3["sase-ez.3: Retire the sase-ei plans, beads, and store residue [closed]"]
     n4["sase-ez.4: Hand-fix the bob-cli bead and agent identities [in_progress]"]
     n5["sase-ez.5: Audit that the epic left nothing behind [in_progress]"]
     n0 --> n1
@@ -43,3 +43,15 @@ flowchart TD
     n3 -.-> n5
     n4 -.-> n5
 ```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ez.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ez.3/README.md) | [sase-ez.3](sase-ez.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--plans | [`sase--plans@1c53086`](https://github.com/sase-org/sase--plans/commit/1c53086daba3b69152b91a7f5aa0308e13df4a3a) | chore(plans): retire abandoned bead reprefix plans | [sase-ez.3](sase-ez.3.md) | 2026-08-03 15:39:39 EDT |
