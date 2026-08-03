@@ -13,7 +13,7 @@ validate: remove the dead prompt-to-plan link validation and make every remainin
 
 ## Dependencies
 
-- **Depends on:** [sase-ej.4](sase-ej.4.md) ◐
+- **Depends on:** [sase-ej.4](sase-ej.4.md) ✓
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
 
 ## Agents

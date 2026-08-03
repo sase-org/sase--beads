@@ -18,7 +18,7 @@ chop: add the new axe lumberjack plus the builtin chop that drains the queue for
 ## Dependencies
 
 - **Depends on:** [sase-ej.2](sase-ej.2.md) ✓
-- **Blocks:** [sase-ej.4](sase-ej.4.md) ◐
+- **Blocks:** [sase-ej.4](sase-ej.4.md) ✓
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
 
 ## Agents

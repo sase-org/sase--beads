@@ -20,7 +20,7 @@ queue: generalize the agents publication outbox into a workspace-independent, pe
 ## Dependencies
 
 - **Blocks:** [sase-ej.3](sase-ej.3.md) ✓
-- **Blocks:** [sase-ej.4](sase-ej.4.md) ◐
+- **Blocks:** [sase-ej.4](sase-ej.4.md) ✓
 
 ## Agents
 
