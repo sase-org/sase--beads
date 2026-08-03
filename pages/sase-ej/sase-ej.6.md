@@ -17,9 +17,3 @@ land: surface queue health in doctor and ACE, refresh the axe and configuration 
 - **Depends on:** [sase-ej.3](sase-ej.3.md) ✓
 - **Depends on:** [sase-ej.4](sase-ej.4.md) ✓
 - **Depends on:** [sase-ej.5](sase-ej.5.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ej.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.6/README.md) | [sase-ej.6](sase-ej.6.md) | 0 |

@@ -18,9 +18,3 @@ scanfix: eliminate the per-lookup rescan of ~17k dismissed bundles and every age
 ## Dependencies
 
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ej.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.1/README.md) | [sase-ej.1](sase-ej.1.md) | 0 |

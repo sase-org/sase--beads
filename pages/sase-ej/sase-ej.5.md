@@ -15,9 +15,3 @@ validate: remove the dead prompt-to-plan link validation and make every remainin
 
 - **Depends on:** [sase-ej.4](sase-ej.4.md) ✓
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ej.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.5/README.md) | [sase-ej.5](sase-ej.5.md) | 0 |

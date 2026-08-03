@@ -19,12 +19,12 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ej.1](sase-ej.1.md) | Bound the agent-name registry source scan | ◐ in_progress | medium | 1 | 0 |
+| [sase-ej.1](sase-ej.1.md) | Bound the agent-name registry source scan | ◐ in_progress | medium | 0 | 0 |
 | [sase-ej.2](sase-ej.2.md) | Durable sidecar publication queue | ✓ closed | medium | 1 | 1 |
 | [sase-ej.3](sase-ej.3.md) | publications lumberjack and sidecar\_publication chop | ✓ closed | medium | 1 | 1 |
 | [sase-ej.4](sase-ej.4.md) | Rewire commit and other writers to mark instead of publish | ✓ closed | medium | 1 | 1 |
-| [sase-ej.5](sase-ej.5.md) | Keep validation green while publication is pending | ◐ in_progress | small | 1 | 0 |
-| [sase-ej.6](sase-ej.6.md) | Observability, docs, and sase-cl closure | ◐ in_progress | small | 1 | 0 |
+| [sase-ej.5](sase-ej.5.md) | Keep validation green while publication is pending | ◐ in_progress | small | 0 | 0 |
+| [sase-ej.6](sase-ej.6.md) | Observability, docs, and sase-cl closure | ◐ in_progress | small | 0 | 0 |
 
 ## Lineage
 
@@ -57,13 +57,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ej.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.1/README.md) | [sase-ej.1](sase-ej.1.md) | 0 |
 | [bbugyi200.athena.sase-ej.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.2/README.md) | [sase-ej.2](sase-ej.2.md) | 1 |
 | [bbugyi200.athena.sase-ej.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.3/README.md) | [sase-ej.3](sase-ej.3.md) | 1 |
 | [bbugyi200.athena.sase-ej.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.4/README.md) | [sase-ej.4](sase-ej.4.md) | 1 |
-| [bbugyi200.athena.sase-ej.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.5/README.md) | [sase-ej.5](sase-ej.5.md) | 0 |
-| [bbugyi200.athena.sase-ej.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.6/README.md) | [sase-ej.6](sase-ej.6.md) | 0 |
-| [bbugyi200.athena.sase-ej.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.land/README.md) | [sase-ej](README.md) | 0 |
 
 ## Commits
 
