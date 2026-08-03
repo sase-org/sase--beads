@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sh](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sh/README.md) · **Assignee:** `sase-ej.3` · **Size:** medium
-**Created:** 2026-08-03 10:20:39 UTC · **Closed:** 2026-08-03 11:37:57 UTC
+**Created:** 2026-08-03 06:20:39 EDT · **Closed:** 2026-08-03 07:37:57 EDT
 **Plan:** [202608/async\_sidecar\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202608/async_sidecar_publication.md)
 
 ## Description
@@ -29,6 +29,6 @@ chop: add the new axe lumberjack plus the builtin chop that drains the queue for
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`0d6ed1a`](https://github.com/sase-org/sase/commit/0d6ed1a194b2cdb8c398399e82fcbcc903ee51f8) | feat(axe): drain queued sidecar publications | [sase-ej.3](sase-ej.3.md) | 2026-08-03 11:39:46 |
+| sase | [`0d6ed1a`](https://github.com/sase-org/sase/commit/0d6ed1a194b2cdb8c398399e82fcbcc903ee51f8) | feat(axe): drain queued sidecar publications | [sase-ej.3](sase-ej.3.md) | 2026-08-03 07:39:46 EDT |

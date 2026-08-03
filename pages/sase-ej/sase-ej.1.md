@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sh](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sh/README.md) · **Assignee:** `sase-ej.1` · **Size:** medium
-**Created:** 2026-08-03 10:19:49 UTC · **Closed:** 2026-08-03 12:38:31 UTC
+**Created:** 2026-08-03 06:19:49 EDT · **Closed:** 2026-08-03 08:38:31 EDT
 **Plan:** [202608/async\_sidecar\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202608/async_sidecar_publication.md)
 
 ## Description
@@ -22,3 +22,15 @@ scanfix: eliminate the per-lookup rescan of ~17k dismissed bundles and every age
 ## Dependencies
 
 - **Blocks:** [sase-ej.6](sase-ej.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ej.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ej.1/README.md) | [sase-ej.1](sase-ej.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c6bed82`](https://github.com/sase-org/sase/commit/c6bed82365b3fd316637c9bc68aa5ecc2479c7ad) | perf: bound agent registry scans during association builds | [sase-ej.1](sase-ej.1.md) | 2026-08-03 08:40:38 EDT |

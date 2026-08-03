@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sh](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sh/README.md) · **Assignee:** `sase-ej.2` · **Size:** medium
-**Created:** 2026-08-03 10:20:20 UTC · **Closed:** 2026-08-03 10:50:44 UTC
+**Created:** 2026-08-03 06:20:20 EDT · **Closed:** 2026-08-03 06:50:44 EDT
 **Plan:** [202608/async\_sidecar\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202608/async_sidecar_publication.md)
 
 ## Description
@@ -30,6 +30,6 @@ queue: generalize the agents publication outbox into a workspace-independent, pe
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`6e39779`](https://github.com/sase-org/sase/commit/6e397794552c9e7e8e2feb593cb57f7382fd6b37) | feat: add durable sidecar publication queue | [sase-ej.2](sase-ej.2.md) | 2026-08-03 10:53:09 |
+| sase | [`6e39779`](https://github.com/sase-org/sase/commit/6e397794552c9e7e8e2feb593cb57f7382fd6b37) | feat: add durable sidecar publication queue | [sase-ej.2](sase-ej.2.md) | 2026-08-03 06:53:09 EDT |

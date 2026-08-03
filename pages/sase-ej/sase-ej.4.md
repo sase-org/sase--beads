@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sh](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sh/README.md) · **Assignee:** `sase-ej.4` · **Size:** medium
-**Created:** 2026-08-03 10:20:57 UTC · **Closed:** 2026-08-03 12:23:38 UTC
+**Created:** 2026-08-03 06:20:57 EDT · **Closed:** 2026-08-03 08:23:38 EDT
 **Plan:** [202608/async\_sidecar\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202608/async_sidecar_publication.md)
 
 ## Description
@@ -32,6 +32,6 @@ commit: convert `sase commit` and every remaining synchronous agents/beads sidec
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`3ac2b09`](https://github.com/sase-org/sase/commit/3ac2b097beac842dc02df1edf88704ff87cd351d) | feat: queue interactive sidecar publication | [sase-ej.4](sase-ej.4.md) | 2026-08-03 12:26:38 |
+| sase | [`3ac2b09`](https://github.com/sase-org/sase/commit/3ac2b097beac842dc02df1edf88704ff87cd351d) | feat: queue interactive sidecar publication | [sase-ej.4](sase-ej.4.md) | 2026-08-03 08:26:38 EDT |
