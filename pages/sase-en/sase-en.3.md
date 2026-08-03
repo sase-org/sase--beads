@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sl.f1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sl.f1/README.md) · **Assignee:** `sase-en.3` · **Size:** medium
-**Created:** 2026-08-03 12:40:23 UTC · **Closed:** 2026-08-03 13:35:32 UTC
+**Created:** 2026-08-03 08:40:23 EDT · **Closed:** 2026-08-03 09:35:32 EDT
 **Plan:** [202608/bead\_show\_speed.md](https://github.com/sase-org/sase--plans/blob/main/202608/bead_show_speed.md)
 
 ## Description
@@ -35,7 +35,7 @@ store: add a single-pass bead detail read to the Rust core and its binding so sa
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@5f39c3d`](https://github.com/sase-org/sase-core/commit/5f39c3dc2a1a3680f66f98c8735990b6596ac781) | perf(bead): add single-pass detail read | [sase-en.3](sase-en.3.md) | 2026-08-03 13:37:44 |
-| sase | [`7a66461`](https://github.com/sase-org/sase/commit/7a66461b98890f66413bfbc67bc7a6d90b2c736f) | perf(bead): resolve detail from one core snapshot | [sase-en.3](sase-en.3.md) | 2026-08-03 13:38:10 |
+| sase-core | [`sase-core@5f39c3d`](https://github.com/sase-org/sase-core/commit/5f39c3dc2a1a3680f66f98c8735990b6596ac781) | perf(bead): add single-pass detail read | [sase-en.3](sase-en.3.md) | 2026-08-03 09:37:44 EDT |
+| sase | [`7a66461`](https://github.com/sase-org/sase/commit/7a66461b98890f66413bfbc67bc7a6d90b2c736f) | perf(bead): resolve detail from one core snapshot | [sase-en.3](sase-en.3.md) | 2026-08-03 09:38:10 EDT |

@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sl.f1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sl.f1/README.md) · **Assignee:** `sase-en.2` · **Size:** medium
-**Created:** 2026-08-03 12:40:08 UTC · **Closed:** 2026-08-03 13:38:29 UTC
+**Created:** 2026-08-03 08:40:08 EDT · **Closed:** 2026-08-03 09:38:29 EDT
 **Plan:** [202608/bead\_show\_speed.md](https://github.com/sase-org/sase--plans/blob/main/202608/bead_show_speed.md)
 
 ## Description
@@ -20,3 +20,15 @@ parser: give create_parser an opt-in only= hint so a normal sase <cmd> run regis
 ## Dependencies
 
 - **Blocks:** [sase-en.4](sase-en.4.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-en.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-en.2/README.md) | [sase-en.2](sase-en.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e5208ec`](https://github.com/sase-org/sase/commit/e5208ec977cbe6974ccfa32526f4197b697caf1e) | perf(cli): build only the invoked command parser | [sase-en.2](sase-en.2.md) | 2026-08-03 09:40:20 EDT |
