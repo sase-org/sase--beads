@@ -17,7 +17,7 @@ Every code, data, and tracking artifact produced by the sase-ei epic is removed 
 |---|---|---|---|---:|---:|
 | [sase-ez.1](sase-ez.1.md) | Revert the sase-repo bead re-prefix surface | ✓ closed | medium | 0 | 0 |
 | [sase-ez.2](sase-ez.2.md) | Remove the Rust alias and re-prefix primitives | ◐ in_progress | large | 0 | 0 |
-| [sase-ez.3](sase-ez.3.md) | Retire the sase-ei plans, beads, and store residue | ✓ closed | medium | 1 | 3 |
+| [sase-ez.3](sase-ez.3.md) | Retire the sase-ei plans, beads, and store residue | ✓ closed | medium | 1 | 4 |
 | [sase-ez.4](sase-ez.4.md) | Hand-fix the bob-cli bead and agent identities | ◐ in_progress | large | 0 | 0 |
 | [sase-ez.5](sase-ez.5.md) | Audit that the epic left nothing behind | ◐ in_progress | medium | 0 | 0 |
 
@@ -48,7 +48,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ez.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ez.3/README.md) | [sase-ez.3](sase-ez.3.md) | 3 |
+| [bbugyi200.athena.sase-ez.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ez.3/README.md) | [sase-ez.3](sase-ez.3.md) | 4 |
 
 ## Commits
 
@@ -57,3 +57,4 @@ flowchart TD
 | sase--plans | [`sase--plans@1c53086`](https://github.com/sase-org/sase--plans/commit/1c53086daba3b69152b91a7f5aa0308e13df4a3a) | chore(plans): retire abandoned bead reprefix plans | [sase-ez.3](sase-ez.3.md) | 2026-08-03 15:39:39 EDT |
 | sase--beads | [`sase--beads@cd68935`](https://github.com/sase-org/sase--beads/commit/cd689358354dddacc778408143f2cd27816b05d4) | chore(beads): remove stale prefix alias config | [sase-ez.3](sase-ez.3.md) | 2026-08-03 15:40:26 EDT |
 | sase--beads | [`sase--beads@88ac5cf`](https://github.com/sase-org/sase--beads/commit/88ac5cfbecde8128ef801950c315f13fe521d9f0) | chore(beads): remove stale prefix alias config | [sase-ez.3](sase-ez.3.md) | 2026-08-03 15:42:31 EDT |
+| sase--beads | [`sase--beads@ccc919c`](https://github.com/sase-org/sase--beads/commit/ccc919cc8a9513e9d298f22e41fe9b3f50129538) | chore(beads): remove stale prefix alias config | [sase-ez.3](sase-ez.3.md) | 2026-08-03 15:44:15 EDT |
