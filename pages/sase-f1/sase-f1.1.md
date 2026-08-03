@@ -19,4 +19,16 @@ seam: split the defaults parser from the cached resource loader, add fallback-re
 
 ## Dependencies
 
-- **Blocks:** [sase-f1.4](sase-f1.4.md) ◐
+- **Blocks:** [sase-f1.4](sase-f1.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-f1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f1.1/README.md) | [sase-f1.1](sase-f1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`5c76b3d`](https://github.com/sase-org/sase/commit/5c76b3d4b72c2626b1fd98267a1d00cb48981279) | refactor(llm): isolate model alias defaults parser | [sase-f1.1](sase-f1.1.md) | 2026-08-03 15:23:12 EDT |

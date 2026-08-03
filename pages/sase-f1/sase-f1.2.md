@@ -23,4 +23,16 @@ docs: add a tools/ generator that rewrites a marked block in docs/llms.md from t
 
 ## Dependencies
 
-- **Blocks:** [sase-f1.4](sase-f1.4.md) ◐
+- **Blocks:** [sase-f1.4](sase-f1.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-f1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f1.2/README.md) | [sase-f1.2](sase-f1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`568a965`](https://github.com/sase-org/sase/commit/568a9652403973d126b3e2f16136a7c811738b0e) | docs(llms): generate model alias defaults table | [sase-f1.2](sase-f1.2.md) | 2026-08-03 15:24:07 EDT |

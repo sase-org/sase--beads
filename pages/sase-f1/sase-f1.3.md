@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-f1](README.md) / sase-f1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sw.f1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sw.f1/README.md) · **Assignee:** `sase-f1.3` · **Size:** small
-**Created:** 2026-08-03 14:47:04 EDT
+**Created:** 2026-08-03 14:47:04 EDT · **Closed:** 2026-08-03 15:40:17 EDT
 **Plan:** [202608/zero\_friction\_model\_alias\_defaults.md](https://github.com/sase-org/sase--plans/blob/main/202608/zero_friction_model_alias_defaults.md)
 
 ## Description
@@ -17,4 +17,16 @@ guidance: interpolate the live medium_phase_worker default into the doctor messa
 
 ## Dependencies
 
-- **Blocks:** [sase-f1.4](sase-f1.4.md) ◐
+- **Blocks:** [sase-f1.4](sase-f1.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-f1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f1.3/README.md) | [sase-f1.3](sase-f1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2d87ba5`](https://github.com/sase-org/sase/commit/2d87ba54442343070b2b84087f50c017b87699a0) | fix(doctor): de-hardcode shipped model default in phase\_worker migration warning | [sase-f1.3](sase-f1.3.md) | 2026-08-03 15:09:51 EDT |
