@@ -17,6 +17,18 @@ chat: strip the sentinel-delimited XPrompt and rendered-prompt sections out of t
 
 ## Dependencies
 
-- **Blocks:** [sase-f2.3](sase-f2.3.md) ◐
-- **Blocks:** [sase-f2.4](sase-f2.4.md) ◐
-- **Blocks:** [sase-f2.6](sase-f2.6.md) ◐
+- **Blocks:** [sase-f2.3](sase-f2.3.md) ✓
+- **Blocks:** [sase-f2.4](sase-f2.4.md) ✓
+- **Blocks:** [sase-f2.6](sase-f2.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-f2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f2.1/README.md) | [sase-f2.1](sase-f2.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`376a3b1`](https://github.com/sase-org/sase/commit/376a3b1bbcb0dad5cccab0650611c7898aa49f3a) | feat(history)!: restore single-prompt chat markdown | [sase-f2.1](sase-f2.1.md) | 2026-08-03 15:30:11 EDT |

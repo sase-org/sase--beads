@@ -21,6 +21,18 @@ archive: remove the appended rendered-prompt section and the xprompt link rewrit
 
 ## Dependencies
 
-- **Blocks:** [sase-f2.3](sase-f2.3.md) ◐
-- **Blocks:** [sase-f2.4](sase-f2.4.md) ◐
-- **Blocks:** [sase-f2.6](sase-f2.6.md) ◐
+- **Blocks:** [sase-f2.3](sase-f2.3.md) ✓
+- **Blocks:** [sase-f2.4](sase-f2.4.md) ✓
+- **Blocks:** [sase-f2.6](sase-f2.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-f2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f2.2/README.md) | [sase-f2.2](sase-f2.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`92b31a1`](https://github.com/sase-org/sase/commit/92b31a1b444277ab1a8cb488a1ad4fd28ee0c09e) | fix(prompt-archive)!: publish archived prompt bodies verbatim | [sase-f2.2](sase-f2.2.md) | 2026-08-03 15:16:36 EDT |
