@@ -23,7 +23,7 @@
 | [sase-ej.2](sase-ej.2.md) | Durable sidecar publication queue | ✓ closed | medium | 1 | 1 |
 | [sase-ej.3](sase-ej.3.md) | publications lumberjack and sidecar\_publication chop | ✓ closed | medium | 1 | 1 |
 | [sase-ej.4](sase-ej.4.md) | Rewire commit and other writers to mark instead of publish | ✓ closed | medium | 1 | 1 |
-| [sase-ej.5](sase-ej.5.md) | Keep validation green while publication is pending | ◐ in_progress | small | 0 | 0 |
+| [sase-ej.5](sase-ej.5.md) | Keep validation green while publication is pending | ✓ closed | small | 0 | 0 |
 | [sase-ej.6](sase-ej.6.md) | Observability, docs, and sase-cl closure | ◐ in_progress | small | 0 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n2["sase-ej.2: Durable sidecar publication queue [closed]"]
     n3["sase-ej.3: publications lumberjack and sidecar_publication chop [closed]"]
     n4["sase-ej.4: Rewire commit and other writers to mark instead of publish [closed]"]
-    n5["sase-ej.5: Keep validation green while publication is pending [in_progress]"]
+    n5["sase-ej.5: Keep validation green while publication is pending [closed]"]
     n6["sase-ej.6: Observability, docs, and sase-cl closure [in_progress]"]
     n0 --> n1
     n0 --> n2
