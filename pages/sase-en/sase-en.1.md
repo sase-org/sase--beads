@@ -21,7 +21,7 @@ inventory: memoize the per-primary git-origin probe and the sidecar identity/con
 
 ## Dependencies
 
-- **Blocks:** [sase-en.4](sase-en.4.md) ◐
+- **Blocks:** [sase-en.4](sase-en.4.md) ✓
 
 ## Agents
 

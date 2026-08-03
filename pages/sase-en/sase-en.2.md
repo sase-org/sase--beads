@@ -19,7 +19,7 @@ parser: give create_parser an opt-in only= hint so a normal sase <cmd> run regis
 
 ## Dependencies
 
-- **Blocks:** [sase-en.4](sase-en.4.md) ◐
+- **Blocks:** [sase-en.4](sase-en.4.md) ✓
 
 ## Agents
 

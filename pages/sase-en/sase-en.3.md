@@ -25,7 +25,7 @@ store: add a single-pass bead detail read to the Rust core and its binding so sa
 
 ## Dependencies
 
-- **Blocks:** [sase-en.4](sase-en.4.md) ◐
+- **Blocks:** [sase-en.4](sase-en.4.md) ✓
 
 ## Agents
 
