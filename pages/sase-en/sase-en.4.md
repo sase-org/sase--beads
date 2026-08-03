@@ -15,4 +15,4 @@ guard: assert the combined end-to-end cost ceiling and the output-identity invar
 
 - **Depends on:** [sase-en.1](sase-en.1.md) ✓
 - **Depends on:** [sase-en.2](sase-en.2.md) ◐
-- **Depends on:** [sase-en.3](sase-en.3.md) ◐
+- **Depends on:** [sase-en.3](sase-en.3.md) ✓

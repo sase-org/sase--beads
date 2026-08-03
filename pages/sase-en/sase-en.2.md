@@ -11,6 +11,10 @@
 
 parser: give create_parser an opt-in only= hint so a normal sase <cmd> run registers just that command's subparser, drive it from a single shared command registry so the full and narrow paths cannot drift, and stop parser_artifact from importing the heavy artifact facade for one tuple of argparse choices.
 
+## Notes
+
+[2026-08-03T13:37:22Z · sase-en.2] PROPOSED FOLLOW-UP: Repair or intentionally refresh the two Config Center Agent CLI PNG snapshots — test_config_center_agent_clis_marked_png_snapshot and test_config_center_agent_clis_update_preview_png_snapshot reproducibly mismatch their committed goldens in isolation by 0.670357% and 0.281415% changed pixels; inspect the .pytest_cache/sase-visual actual/diff artifacts before accepting any golden update.
+
 ## Dependencies
 
 - **Blocks:** [sase-en.4](sase-en.4.md) ◐
