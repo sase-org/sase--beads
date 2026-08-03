@@ -15,5 +15,5 @@ migration-cli: expose the default-dry-run migrate-prefix command and compose det
 
 - **Depends on:** [sase-ei.1](sase-ei.1.md) ✓
 - **Depends on:** [sase-ei.2](sase-ei.2.md) ✓
-- **Depends on:** [sase-ei.3](sase-ei.3.md) ◐
+- **Depends on:** [sase-ei.3](sase-ei.3.md) ✓
 - **Blocks:** [sase-ei.5](sase-ei.5.md) ◐
