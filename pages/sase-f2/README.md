@@ -15,7 +15,7 @@ Chat markdown and published prompt archive entries store exactly what they store
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-f2.1](sase-f2.1.md) | Chat markdown returns to a single Prompt section | ◐ in_progress | medium | 0 | 0 |
+| [sase-f2.1](sase-f2.1.md) | Chat markdown returns to a single Prompt section | ✓ closed | medium | 0 | 0 |
 | [sase-f2.2](sase-f2.2.md) | Prompt archive publishes only the verbatim body | ✓ closed | medium | 0 | 0 |
 | [sase-f2.3](sase-f2.3.md) | Read surfaces and documentation | ◐ in_progress | medium | 0 | 0 |
 | [sase-f2.4](sase-f2.4.md) | Launch-time provenance capture removal | ◐ in_progress | small | 0 | 0 |
@@ -27,7 +27,7 @@ Chat markdown and published prompt archive entries store exactly what they store
 ```mermaid
 flowchart TD
     n0["sase-f2: Revert stored prompt duality and xprompt linkification [in_progress]"]
-    n1["sase-f2.1: Chat markdown returns to a single Prompt section [in_progress]"]
+    n1["sase-f2.1: Chat markdown returns to a single Prompt section [closed]"]
     n2["sase-f2.2: Prompt archive publishes only the verbatim body [closed]"]
     n3["sase-f2.3: Read surfaces and documentation [in_progress]"]
     n4["sase-f2.4: Launch-time provenance capture removal [in_progress]"]

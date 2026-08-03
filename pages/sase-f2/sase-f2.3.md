@@ -13,7 +13,7 @@ surfaces: revert the ACE Chats detail pane, the `sase chat show` and `sase agent
 
 ## Dependencies
 
-- **Depends on:** [sase-f2.1](sase-f2.1.md) ◐
+- **Depends on:** [sase-f2.1](sase-f2.1.md) ✓
 - **Depends on:** [sase-f2.2](sase-f2.2.md) ✓
 - **Blocks:** [sase-f2.4](sase-f2.4.md) ◐
 - **Blocks:** [sase-f2.5](sase-f2.5.md) ◐

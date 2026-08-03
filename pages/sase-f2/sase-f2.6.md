@@ -13,5 +13,5 @@ migrate: rewrite every already-stored chat transcript and archived prompt entry 
 
 ## Dependencies
 
-- **Depends on:** [sase-f2.1](sase-f2.1.md) ◐
+- **Depends on:** [sase-f2.1](sase-f2.1.md) ✓
 - **Depends on:** [sase-f2.2](sase-f2.2.md) ✓

@@ -13,7 +13,7 @@ provenance: stop writing `xprompt_sources.json` at launch, reduce the source-col
 
 ## Dependencies
 
-- **Depends on:** [sase-f2.1](sase-f2.1.md) ◐
+- **Depends on:** [sase-f2.1](sase-f2.1.md) ✓
 - **Depends on:** [sase-f2.2](sase-f2.2.md) ✓
 - **Depends on:** [sase-f2.3](sase-f2.3.md) ◐
 - **Blocks:** [sase-f2.5](sase-f2.5.md) ◐
