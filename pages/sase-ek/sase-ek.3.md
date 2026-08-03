@@ -13,7 +13,7 @@ core_floor: once the release carrying `core_kind_filter` is published, raise the
 
 ## Dependencies
 
-- **Depends on:** [sase-ek.2](sase-ek.2.md) ◐
+- **Depends on:** [sase-ek.2](sase-ek.2.md) ✓
 
 ## Agents
 

@@ -17,7 +17,7 @@ core_kind_filter: add a defaulted `kind` field to `ArtifactRefRepositoryWire` an
 
 ## Dependencies
 
-- **Blocks:** [sase-ek.2](sase-ek.2.md) ◐
+- **Blocks:** [sase-ek.2](sase-ek.2.md) ✓
 
 ## Agents
 
