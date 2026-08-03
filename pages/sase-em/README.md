@@ -15,7 +15,7 @@ Every timestamp SASE shows a human — TUI panes, CLI tables, generated Markdown
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-em.1](sase-em.1.md) | Shared display helpers in sase.core.time | ✓ closed | small | 0 | 0 |
+| [sase-em.1](sase-em.1.md) | Shared display helpers in sase.core.time | ✓ closed | small | 1 | 1 |
 | [sase-em.2](sase-em.2.md) | Artifacts tab and artifact CLI | ◐ in_progress | medium | 0 | 0 |
 | [sase-em.3](sase-em.3.md) | ACE modals, tools panel, and file panel | ◐ in_progress | medium | 0 | 0 |
 | [sase-em.4](sase-em.4.md) | CLI tables, generated Markdown pages, and telemetry defaults | ◐ in_progress | medium | 0 | 0 |
@@ -49,3 +49,15 @@ flowchart TD
     n4 -.-> n6
     n5 -.-> n6
 ```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-em.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-em.1/README.md) | [sase-em.1](sase-em.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`2c70516`](https://github.com/sase-org/sase/commit/2c70516acaad31563eb4a07866a5a3f424204259) | feat(core-time): add parse\_local/format\_local display helpers | [sase-em.1](sase-em.1.md) | 2026-08-03 12:52:56 |

@@ -22,3 +22,15 @@ helpers: add `parse_local`/`format_local` to `sase.core.time` so every display s
 - **Blocks:** [sase-em.4](sase-em.4.md) ◐
 - **Blocks:** [sase-em.5](sase-em.5.md) ◐
 - **Blocks:** [sase-em.6](sase-em.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-em.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-em.1/README.md) | [sase-em.1](sase-em.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase | [`2c70516`](https://github.com/sase-org/sase/commit/2c70516acaad31563eb4a07866a5a3f424204259) | feat(core-time): add parse\_local/format\_local display helpers | [sase-em.1](sase-em.1.md) | 2026-08-03 12:52:56 |

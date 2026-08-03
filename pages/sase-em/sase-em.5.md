@@ -11,6 +11,14 @@
 
 artifact-dates: mint artifact `created_at` and the retention `now` with the configured-tz offset and make the Rust core bucket calendar dates by that embedded offset, so `date:`/`since:` filtering agrees with the displayed day.
 
+## Notes
+
+[2026-08-03T13:29:18Z · sase-em.5] PROPOSED FOLLOW-UP: Backfill legacy artifact created_at offsets — sase artifact doctor --fix only fills missing digest, size, and MIME enrichment and does not refresh created_at when file mtime changes, so existing +00:00 rows keep UTC calendar-day bucketing until separately re-indexed; consider a one-shot mtime-derived configured-timezone backfill.
+
+[2026-08-03T13:31:25Z · sase-em.5] PROPOSED FOLLOW-UP: Remove stale sase-ej Symvision epic-symbol exemptions — just check reports enqueue_bead_pages_publication, enqueue_committed_agent_publication, enqueue_plan_header_publication, and enqueue_sidecar_push_publication are already properly used, so their exemptions now make the required check fail before tests.
+
+[2026-08-03T13:31:55Z · sase-em.5] PROPOSED FOLLOW-UP: Remove stale sase-ej Symvision epic-symbol exemptions — just check reports enqueue_bead_pages_publication, enqueue_committed_agent_publication, enqueue_plan_header_publication, and enqueue_sidecar_push_publication are already properly used, so their exemptions now make the required check fail before tests.
+
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
