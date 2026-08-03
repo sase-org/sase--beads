@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sn](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sn/README.md) · **Assignee:** `sase-em.2` · **Size:** medium
-**Created:** 2026-08-03 11:45:19 UTC · **Closed:** 2026-08-03 13:37:03 UTC
+**Created:** 2026-08-03 07:45:19 EDT · **Closed:** 2026-08-03 09:37:03 EDT
 **Plan:** [202608/timezone\_display\_consistency.md](https://github.com/sase-org/sase--plans/blob/main/202608/timezone_display_consistency.md)
 
 ## Description
@@ -27,3 +27,15 @@ artifacts: fix the Files/Beads/Plans panes, the artifact-ref completion menu, an
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
 - **Blocks:** [sase-em.6](sase-em.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-em.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-em.2/README.md) | [sase-em.2](sase-em.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d4be80d`](https://github.com/sase-org/sase/commit/d4be80d3f9a6c96890f6b83c8c4af0a20797f214) | fix(artifacts): render timestamps in configured timezone | [sase-em.2](sase-em.2.md) | 2026-08-03 09:39:09 EDT |

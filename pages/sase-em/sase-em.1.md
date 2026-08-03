@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sn](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sn/README.md) · **Assignee:** `sase-em.1` · **Size:** small
-**Created:** 2026-08-03 11:45:00 UTC · **Closed:** 2026-08-03 12:50:26 UTC
+**Created:** 2026-08-03 07:45:00 EDT · **Closed:** 2026-08-03 08:50:26 EDT
 **Plan:** [202608/timezone\_display\_consistency.md](https://github.com/sase-org/sase--plans/blob/main/202608/timezone_display_consistency.md)
 
 ## Description
@@ -18,7 +18,7 @@ helpers: add `parse_local`/`format_local` to `sase.core.time` so every display s
 ## Dependencies
 
 - **Blocks:** [sase-em.2](sase-em.2.md) ✓
-- **Blocks:** [sase-em.3](sase-em.3.md) ◐
+- **Blocks:** [sase-em.3](sase-em.3.md) ✓
 - **Blocks:** [sase-em.4](sase-em.4.md) ✓
 - **Blocks:** [sase-em.5](sase-em.5.md) ◐
 - **Blocks:** [sase-em.6](sase-em.6.md) ◐
@@ -31,6 +31,6 @@ helpers: add `parse_local`/`format_local` to `sase.core.time` so every display s
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`2c70516`](https://github.com/sase-org/sase/commit/2c70516acaad31563eb4a07866a5a3f424204259) | feat(core-time): add parse\_local/format\_local display helpers | [sase-em.1](sase-em.1.md) | 2026-08-03 12:52:56 |
+| sase | [`2c70516`](https://github.com/sase-org/sase/commit/2c70516acaad31563eb4a07866a5a3f424204259) | feat(core-time): add parse\_local/format\_local display helpers | [sase-em.1](sase-em.1.md) | 2026-08-03 08:52:56 EDT |

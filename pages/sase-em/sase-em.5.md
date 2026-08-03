@@ -4,7 +4,7 @@
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sn](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sn/README.md) · **Assignee:** `sase-em.5` · **Size:** medium
-**Created:** 2026-08-03 11:46:14 UTC
+**Created:** 2026-08-03 07:46:14 EDT
 **Plan:** [202608/timezone\_display\_consistency.md](https://github.com/sase-org/sase--plans/blob/main/202608/timezone_display_consistency.md)
 
 ## Description
@@ -25,3 +25,16 @@ artifact-dates: mint artifact `created_at` and the retention `now` with the conf
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
 - **Blocks:** [sase-em.6](sase-em.6.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-em.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-em.5/README.md) | [sase-em.5](sase-em.5.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@e153a2e`](https://github.com/sase-org/sase-core/commit/e153a2ea40675cc6e3ab10ad966f9be875f26e4d) | fix(artifacts): honor embedded offsets for calendar dates | [sase-em.5](sase-em.5.md) | 2026-08-03 09:47:39 EDT |
+| sase | [`eda7c15`](https://github.com/sase-org/sase/commit/eda7c1564387abf356e601dd32d86c68b4efedd8) | fix(artifacts): mint timestamps in the configured timezone | [sase-em.5](sase-em.5.md) | 2026-08-03 09:48:30 EDT |
