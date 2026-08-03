@@ -16,9 +16,9 @@ Every timestamp SASE shows a human — TUI panes, CLI tables, generated Markdown
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-em.1](sase-em.1.md) | Shared display helpers in sase.core.time | ✓ closed | small | 1 | 1 |
-| [sase-em.2](sase-em.2.md) | Artifacts tab and artifact CLI | ◐ in_progress | medium | 0 | 0 |
+| [sase-em.2](sase-em.2.md) | Artifacts tab and artifact CLI | ✓ closed | medium | 0 | 0 |
 | [sase-em.3](sase-em.3.md) | ACE modals, tools panel, and file panel | ◐ in_progress | medium | 0 | 0 |
-| [sase-em.4](sase-em.4.md) | CLI tables, generated Markdown pages, and telemetry defaults | ◐ in_progress | medium | 0 | 0 |
+| [sase-em.4](sase-em.4.md) | CLI tables, generated Markdown pages, and telemetry defaults | ✓ closed | medium | 0 | 0 |
 | [sase-em.5](sase-em.5.md) | Artifact-file calendar dates in the configured timezone | ◐ in_progress | medium | 0 | 0 |
 | [sase-em.6](sase-em.6.md) | Repo-wide guard test and documentation | ◐ in_progress | small | 0 | 0 |
 
@@ -28,9 +28,9 @@ Every timestamp SASE shows a human — TUI panes, CLI tables, generated Markdown
 flowchart TD
     n0["sase-em: Render every user-facing timestamp in the configured timezone [in_progress]"]
     n1["sase-em.1: Shared display helpers in sase.core.time [closed]"]
-    n2["sase-em.2: Artifacts tab and artifact CLI [in_progress]"]
+    n2["sase-em.2: Artifacts tab and artifact CLI [closed]"]
     n3["sase-em.3: ACE modals, tools panel, and file panel [in_progress]"]
-    n4["sase-em.4: CLI tables, generated Markdown pages, and telemetry defaults [in_progress]"]
+    n4["sase-em.4: CLI tables, generated Markdown pages, and telemetry defaults [closed]"]
     n5["sase-em.5: Artifact-file calendar dates in the configured timezone [in_progress]"]
     n6["sase-em.6: Repo-wide guard test and documentation [in_progress]"]
     n0 --> n1

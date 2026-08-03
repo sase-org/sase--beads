@@ -14,7 +14,7 @@ guard-docs: add an allowlisted AST guard that fails on new system-clock and UTC-
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
-- **Depends on:** [sase-em.2](sase-em.2.md) ◐
+- **Depends on:** [sase-em.2](sase-em.2.md) ✓
 - **Depends on:** [sase-em.3](sase-em.3.md) ◐
-- **Depends on:** [sase-em.4](sase-em.4.md) ◐
+- **Depends on:** [sase-em.4](sase-em.4.md) ✓
 - **Depends on:** [sase-em.5](sase-em.5.md) ◐

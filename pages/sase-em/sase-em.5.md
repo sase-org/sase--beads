@@ -19,6 +19,8 @@ artifact-dates: mint artifact `created_at` and the retention `now` with the conf
 
 [2026-08-03T13:31:55Z · sase-em.5] PROPOSED FOLLOW-UP: Remove stale sase-ej Symvision epic-symbol exemptions — just check reports enqueue_bead_pages_publication, enqueue_committed_agent_publication, enqueue_plan_header_publication, and enqueue_sidecar_push_publication are already properly used, so their exemptions now make the required check fail before tests.
 
+[2026-08-03T13:45:48Z · sase-em.5] PROPOSED FOLLOW-UP: Refresh or repair Config Center Agent CLI PNG goldens — full just test and an isolated just test-visual rerun both reproduce mismatches for config_center_agent_clis_marked_120x40 (0.670357% changed) and config_center_agent_clis_update_preview_120x40 (0.281415% changed); this phase does not touch Config Center rendering or those fixtures.
+
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
