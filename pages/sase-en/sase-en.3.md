@@ -26,3 +26,16 @@ store: add a single-pass bead detail read to the Rust core and its binding so sa
 ## Dependencies
 
 - **Blocks:** [sase-en.4](sase-en.4.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-en.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-en.3/README.md) | [sase-en.3](sase-en.3.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed (UTC) |
+|---|---|---|---|---|
+| sase-core | [`sase-core@5f39c3d`](https://github.com/sase-org/sase-core/commit/5f39c3dc2a1a3680f66f98c8735990b6596ac781) | perf(bead): add single-pass detail read | [sase-en.3](sase-en.3.md) | 2026-08-03 13:37:44 |
+| sase | [`7a66461`](https://github.com/sase-org/sase/commit/7a66461b98890f66413bfbc67bc7a6d90b2c736f) | perf(bead): resolve detail from one core snapshot | [sase-en.3](sase-en.3.md) | 2026-08-03 13:38:10 |
