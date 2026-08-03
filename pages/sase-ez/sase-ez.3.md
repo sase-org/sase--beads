@@ -18,7 +18,7 @@ epic-retire: remove the epic and phase plan files from the local and sidecar pla
 ## Dependencies
 
 - **Depends on:** [sase-ez.1](sase-ez.1.md) ✓
-- **Blocks:** [sase-ez.5](sase-ez.5.md) ◐
+- **Blocks:** [sase-ez.5](sase-ez.5.md) ✓
 
 ## Agents
 
