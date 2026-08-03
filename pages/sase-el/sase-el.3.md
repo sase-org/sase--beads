@@ -13,7 +13,7 @@ render: build the per-CLI and all-CLIs history renderables with their glyph/colo
 
 ## Dependencies
 
-- **Depends on:** [sase-el.2](sase-el.2.md) ◐
+- **Depends on:** [sase-el.2](sase-el.2.md) ✓
 - **Blocks:** [sase-el.4](sase-el.4.md) ◐
 
 ## Agents

@@ -19,7 +19,7 @@ journal: add the bounded JSONL run journal under ~/.sase/logs, define the run/en
 
 ## Dependencies
 
-- **Blocks:** [sase-el.2](sase-el.2.md) ◐
+- **Blocks:** [sase-el.2](sase-el.2.md) ✓
 
 ## Agents
 
