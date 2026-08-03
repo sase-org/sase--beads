@@ -25,10 +25,11 @@ core-reprefix: add the Rust-backed collision-safe full-store bead ID mapping, ca
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ei.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ei.1.md) | [sase-ei.1](sase-ei.1.md) | 1 |
+| [bbugyi200.athena.sase-ei.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ei.1.md) | [sase-ei.1](sase-ei.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase-core | [`sase-core@0343b6f`](https://github.com/sase-org/sase-core/commit/0343b6f20a8210a631641d8764d8747037c24641) | feat(beads): add prefix migration primitives | [sase-ei.1](sase-ei.1.md) | 2026-08-03 11:56:36 |
+| sase | [`b763878`](https://github.com/sase-org/sase/commit/b763878d3dc938672722d6053737f8e706cdc180) | feat(beads): expose prefix migration facade | [sase-ei.1](sase-ei.1.md) | 2026-08-03 11:59:00 |
