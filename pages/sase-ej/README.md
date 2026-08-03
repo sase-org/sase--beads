@@ -19,7 +19,7 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-ej.1](sase-ej.1.md) | Bound the agent-name registry source scan | ◐ in_progress | medium | 0 | 0 |
+| [sase-ej.1](sase-ej.1.md) | Bound the agent-name registry source scan | ✓ closed | medium | 0 | 0 |
 | [sase-ej.2](sase-ej.2.md) | Durable sidecar publication queue | ✓ closed | medium | 1 | 1 |
 | [sase-ej.3](sase-ej.3.md) | publications lumberjack and sidecar\_publication chop | ✓ closed | medium | 1 | 1 |
 | [sase-ej.4](sase-ej.4.md) | Rewire commit and other writers to mark instead of publish | ✓ closed | medium | 1 | 1 |
@@ -31,7 +31,7 @@
 ```mermaid
 flowchart TD
     n0["sase-ej: Publish agents and beads sidecars asynchronously from an axe chop [in_progress]"]
-    n1["sase-ej.1: Bound the agent-name registry source scan [in_progress]"]
+    n1["sase-ej.1: Bound the agent-name registry source scan [closed]"]
     n2["sase-ej.2: Durable sidecar publication queue [closed]"]
     n3["sase-ej.3: publications lumberjack and sidecar_publication chop [closed]"]
     n4["sase-ej.4: Rewire commit and other writers to mark instead of publish [closed]"]
