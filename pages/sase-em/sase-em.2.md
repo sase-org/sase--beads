@@ -26,7 +26,7 @@ artifacts: fix the Files/Beads/Plans panes, the artifact-ref completion menu, an
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
-- **Blocks:** [sase-em.6](sase-em.6.md) ◐
+- **Blocks:** [sase-em.6](sase-em.6.md) ✓
 
 ## Agents
 

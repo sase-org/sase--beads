@@ -20,8 +20,8 @@ helpers: add `parse_local`/`format_local` to `sase.core.time` so every display s
 - **Blocks:** [sase-em.2](sase-em.2.md) ✓
 - **Blocks:** [sase-em.3](sase-em.3.md) ✓
 - **Blocks:** [sase-em.4](sase-em.4.md) ✓
-- **Blocks:** [sase-em.5](sase-em.5.md) ◐
-- **Blocks:** [sase-em.6](sase-em.6.md) ◐
+- **Blocks:** [sase-em.5](sase-em.5.md) ✓
+- **Blocks:** [sase-em.6](sase-em.6.md) ✓
 
 ## Agents
 

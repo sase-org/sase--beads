@@ -32,7 +32,7 @@ cli-pages: fix `sase task`, `sase repo log`, `sase memory log`, `sase skills log
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
-- **Blocks:** [sase-em.6](sase-em.6.md) ◐
+- **Blocks:** [sase-em.6](sase-em.6.md) ✓
 
 ## Agents
 

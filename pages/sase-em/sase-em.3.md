@@ -28,4 +28,16 @@ tui-panels: fix the logs, statistics, project-inventory, tasks, saved-group, and
 ## Dependencies
 
 - **Depends on:** [sase-em.1](sase-em.1.md) ✓
-- **Blocks:** [sase-em.6](sase-em.6.md) ◐
+- **Blocks:** [sase-em.6](sase-em.6.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-em.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-em.3/README.md) | [sase-em.3](sase-em.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f0e562b`](https://github.com/sase-org/sase/commit/f0e562bda9965cf42ba6d8c9dbb152a5a4ed2fd7) | fix(tui): render panel timestamps in configured timezone | [sase-em.3](sase-em.3.md) | 2026-08-03 09:59:37 EDT |
