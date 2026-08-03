@@ -15,8 +15,8 @@ Editing any value in src/sase/llm_provider/model_alias_defaults.yml requires no 
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-f1.1](sase-f1.1.md) | Frozen test defaults, re-pinned tests, hardened loader | ◐ in_progress | medium | 0 | 0 |
-| [sase-f1.2](sase-f1.2.md) | One generated table, zero literal values in prose | ◐ in_progress | medium | 0 | 0 |
+| [sase-f1.1](sase-f1.1.md) | Frozen test defaults, re-pinned tests, hardened loader | ✓ closed | medium | 0 | 0 |
+| [sase-f1.2](sase-f1.2.md) | One generated table, zero literal values in prose | ✓ closed | medium | 0 | 0 |
 | [sase-f1.3](sase-f1.3.md) | De-hardcode product strings | ◐ in_progress | small | 0 | 0 |
 | [sase-f1.4](sase-f1.4.md) | Prove the acceptance criterion end to end | ◐ in_progress | small | 0 | 0 |
 
@@ -25,8 +25,8 @@ Editing any value in src/sase/llm_provider/model_alias_defaults.yml requires no 
 ```mermaid
 flowchart TD
     n0["sase-f1: Zero-friction model alias default edits [in_progress]"]
-    n1["sase-f1.1: Frozen test defaults, re-pinned tests, hardened loader [in_progress]"]
-    n2["sase-f1.2: One generated table, zero literal values in prose [in_progress]"]
+    n1["sase-f1.1: Frozen test defaults, re-pinned tests, hardened loader [closed]"]
+    n2["sase-f1.2: One generated table, zero literal values in prose [closed]"]
     n3["sase-f1.3: De-hardcode product strings [in_progress]"]
     n4["sase-f1.4: Prove the acceptance criterion end to end [in_progress]"]
     n0 --> n1

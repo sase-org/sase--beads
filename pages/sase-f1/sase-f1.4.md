@@ -13,6 +13,6 @@ verify: perturb every target and description in the shipped defaults YAML, prove
 
 ## Dependencies
 
-- **Depends on:** [sase-f1.1](sase-f1.1.md) ◐
-- **Depends on:** [sase-f1.2](sase-f1.2.md) ◐
+- **Depends on:** [sase-f1.1](sase-f1.1.md) ✓
+- **Depends on:** [sase-f1.2](sase-f1.2.md) ✓
 - **Depends on:** [sase-f1.3](sase-f1.3.md) ◐
