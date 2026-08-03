@@ -1,0 +1,24 @@
+# Bead: sase-em.1 — Shared display helpers in sase.core.time
+
+[Bead Pages](../README.md) / [sase-em](README.md) / sase-em.1
+
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sn](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sn/README.md) · **Assignee:** `sase-em.1` · **Size:** small
+**Created:** 2026-08-03 11:45:00 UTC · **Closed:** 2026-08-03 12:50:26 UTC
+**Plan:** [202608/timezone\_display\_consistency.md](https://github.com/sase-org/sase--plans/blob/main/202608/timezone_display_consistency.md)
+
+## Description
+
+helpers: add `parse_local`/`format_local` to `sase.core.time` so every display site has one way to turn a stored timestamp (aware-UTC ISO, naive ISO, or epoch) into an aware configured-tz value, plus divergence-fixture unit tests.
+
+## Notes
+
+[2026-08-03T12:50:26Z · sase-em.1] Added parse_local/format_local to sase.core.time (aware-UTC/naive-ISO/epoch/datetime -> configured-tz) plus docstring update and __all__; added tests/test_timezone_display_consistency.py covering all normalization and formatting cases under the tz_divergence fixture; added --epic-symbol entries for sase-em(parse_local)/sase-em(format_local) in Justfile since consumers land in later epic phases. Verified: just install, just fmt, and just check (fmt/lint/symvision/toobig/test) all pass; the one test failure seen on a contended run (test_concurrent_bead_mutations_wait_past_the_old_lock_timeout) is a pre-existing flake unrelated to this change, confirmed passing in isolation and on a clean full just check run.
+
+## Dependencies
+
+- **Blocks:** [sase-em.2](sase-em.2.md) ◐
+- **Blocks:** [sase-em.3](sase-em.3.md) ◐
+- **Blocks:** [sase-em.4](sase-em.4.md) ◐
+- **Blocks:** [sase-em.5](sase-em.5.md) ◐
+- **Blocks:** [sase-em.6](sase-em.6.md) ◐
