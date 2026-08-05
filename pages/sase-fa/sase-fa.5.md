@@ -15,7 +15,7 @@ land: sweep the remaining queue/lane prose out of the docs, prove a real commit 
 
 - **Depends on:** [sase-fa.1](sase-fa.1.md) ✓
 - **Depends on:** [sase-fa.2](sase-fa.2.md) ✓
-- **Depends on:** [sase-fa.3](sase-fa.3.md) ◐
+- **Depends on:** [sase-fa.3](sase-fa.3.md) ✓
 - **Depends on:** [sase-fa.4](sase-fa.4.md) ✓
 
 ## Agents
