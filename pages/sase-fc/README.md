@@ -20,7 +20,7 @@ Every SASE surface that displays a bead also displays when that bead was created
 | [sase-fc.3](sase-fc.3.md) | Task triage gate payload, preview, and validation | ◐ in_progress | medium | 1 | 0 |
 | [sase-fc.4](sase-fc.4.md) | BEAD lane in the SASE CONTEXT agent metadata panel | ◐ in_progress | medium | 1 | 0 |
 | [sase-fc.5](sase-fc.5.md) | ACE Beads pane rows, detail pane, and reference completion | ◐ in_progress | medium | 1 | 0 |
-| [sase-fc.6](sase-fc.6.md) | Mobile wire, bead pages, and clan epic summary | ◐ in_progress | medium | 1 | 0 |
+| [sase-fc.6](sase-fc.6.md) | Mobile wire, bead pages, and clan epic summary | ✓ closed | medium | 1 | 1 |
 | [sase-fc.7](sase-fc.7.md) | Cross-surface audit and documentation | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n3["sase-fc.3: Task triage gate payload, preview, and validation [in_progress]"]
     n4["sase-fc.4: BEAD lane in the SASE CONTEXT agent metadata panel [in_progress]"]
     n5["sase-fc.5: ACE Beads pane rows, detail pane, and reference completion [in_progress]"]
-    n6["sase-fc.6: Mobile wire, bead pages, and clan epic summary [in_progress]"]
+    n6["sase-fc.6: Mobile wire, bead pages, and clan epic summary [closed]"]
     n7["sase-fc.7: Cross-surface audit and documentation [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-fc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.3/README.md) | [sase-fc.3](sase-fc.3.md) | 0 |
 | [bbugyi200.athena.sase-fc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.4/README.md) | [sase-fc.4](sase-fc.4.md) | 0 |
 | [bbugyi200.athena.sase-fc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.5/README.md) | [sase-fc.5](sase-fc.5.md) | 0 |
-| [bbugyi200.athena.sase-fc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.6/README.md) | [sase-fc.6](sase-fc.6.md) | 0 |
+| [bbugyi200.athena.sase-fc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.6/README.md) | [sase-fc.6](sase-fc.6.md) | 1 |
 | [bbugyi200.athena.sase-fc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.7/README.md) | [sase-fc.7](sase-fc.7.md) | 0 |
 | [bbugyi200.athena.sase-fc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.land/README.md) | [sase-fc](README.md) | 0 |
 
@@ -73,3 +73,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`53fc8d9`](https://github.com/sase-org/sase/commit/53fc8d9f89160af121517827803d134f41102252) | feat(bead): add shared bead time presentation module | [sase-fc.1](sase-fc.1.md) | 2026-08-05 16:49:19 EDT |
+| sase | [`734d2e0`](https://github.com/sase-org/sase/commit/734d2e0c261834051c4c2c7bd139e7f848a8f071) | feat(bead): surface bead creation time on mobile, page tables, and clan summaries | [sase-fc.6](sase-fc.6.md) | 2026-08-05 17:25:40 EDT |
