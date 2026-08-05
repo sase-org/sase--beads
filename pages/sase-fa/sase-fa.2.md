@@ -35,9 +35,9 @@ Left to sibling phases and recorded as PROPOSED FOLLOW-UP notes: the doctor '_pu
 
 ## Dependencies
 
-- **Depends on:** [sase-fa.1](sase-fa.1.md) ✓
-- **Blocks:** [sase-fa.3](sase-fa.3.md) ✓
-- **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+- **Depends on:** [sase-fa.1](sase-fa.1.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fa.3](sase-fa.3.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fa.5](sase-fa.5.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

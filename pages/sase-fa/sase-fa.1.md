@@ -21,8 +21,8 @@ commit: turn every enqueue-only writer back into an inline publisher so `sase co
 
 ## Dependencies
 
-- **Blocks:** [sase-fa.2](sase-fa.2.md) ✓
-- **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+- **Blocks:** [sase-fa.2](sase-fa.2.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fa.5](sase-fa.5.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

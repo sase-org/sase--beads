@@ -29,8 +29,8 @@ Not in scope, left to phase land: docs/agents_sidecar.md:360 and docs/beads.md:5
 
 ## Dependencies
 
-- **Depends on:** [sase-fa.2](sase-fa.2.md) ✓
-- **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+- **Depends on:** [sase-fa.2](sase-fa.2.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fa.5](sase-fa.5.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

@@ -13,13 +13,13 @@
 
 ## Phases
 
-| Bead | Title | Status | Size | Agents | Commits |
-|---|---|---|---|---:|---:|
-| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ✓ closed | medium | 1 | 1 |
-| [sase-fa.2](sase-fa.2.md) | Remove the sidecar\_publication chop and publications lumberjack | ✓ closed | medium | 1 | 1 |
-| [sase-fa.3](sase-fa.3.md) | Narrow the durable outbox back to agent-hood retries | ✓ closed | medium | 1 | 1 |
-| [sase-fa.4](sase-fa.4.md) | Repair the agents sidecar digest corruption blocking all publication | ✓ closed | medium | 1 | 1 |
-| [sase-fa.5](sase-fa.5.md) | Docs, end-to-end verification, agents-repo sync, and bead bookkeeping | ◐ in_progress | small | 1 | 0 |
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ✓ closed | medium | 2026-08-05 | 1 | 1 |
+| [sase-fa.2](sase-fa.2.md) | Remove the sidecar\_publication chop and publications lumberjack | ✓ closed | medium | 2026-08-05 | 1 | 1 |
+| [sase-fa.3](sase-fa.3.md) | Narrow the durable outbox back to agent-hood retries | ✓ closed | medium | 2026-08-05 | 1 | 1 |
+| [sase-fa.4](sase-fa.4.md) | Repair the agents sidecar digest corruption blocking all publication | ✓ closed | medium | 2026-08-05 | 1 | 1 |
+| [sase-fa.5](sase-fa.5.md) | Docs, end-to-end verification, agents-repo sync, and bead bookkeeping | ✓ closed | small | 2026-08-05 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["sase-fa.2: Remove the sidecar_publication chop and publications lumberjack [closed]"]
     n3["sase-fa.3: Narrow the durable outbox back to agent-hood retries [closed]"]
     n4["sase-fa.4: Repair the agents sidecar digest corruption blocking all publication [closed]"]
-    n5["sase-fa.5: Docs, end-to-end verification, agents-repo sync, and bead bookkeeping [in_progress]"]
+    n5["sase-fa.5: Docs, end-to-end verification, agents-repo sync, and bead bookkeeping [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-fa.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.2/README.md) | [sase-fa.2](sase-fa.2.md) | 1 |
 | [bbugyi200.athena.sase-fa.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.3/README.md) | [sase-fa.3](sase-fa.3.md) | 1 |
 | [bbugyi200.athena.sase-fa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.4/README.md) | [sase-fa.4](sase-fa.4.md) | 1 |
-| [bbugyi200.athena.sase-fa.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.5/README.md) | [sase-fa.5](sase-fa.5.md) | 0 |
+| [bbugyi200.athena.sase-fa.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.5/README.md) | [sase-fa.5](sase-fa.5.md) | 1 |
 | [bbugyi200.athena.sase-fa.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.land/README.md) | [sase-fa](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,4 @@ flowchart TD
 | sase | [`de78052`](https://github.com/sase-org/sase/commit/de7805278926e3a9abd97b475afca158363d7ffc) | fix: publish sidecar work inline on the commit path | [sase-fa.1](sase-fa.1.md) | 2026-08-05 15:51:02 EDT |
 | sase | [`e99f501`](https://github.com/sase-org/sase/commit/e99f5017d39fc15f6a8f5082fbd82ed2d768a2db) | feat!: remove the sidecar\_publication chop and publications lumberjack | [sase-fa.2](sase-fa.2.md) | 2026-08-05 16:17:49 EDT |
 | sase | [`ccf4d77`](https://github.com/sase-org/sase/commit/ccf4d77a9b1ffe83936e81c082040d61d2b8af60) | feat!: narrow the durable publication outbox back to agent-hood retries | [sase-fa.3](sase-fa.3.md) | 2026-08-05 17:10:00 EDT |
+| sase | [`02dcea6`](https://github.com/sase-org/sase/commit/02dcea68b016131e31f6d79bde7d9511a51385c2) | docs: describe restored inline sidecar publication | [sase-fa.5](sase-fa.5.md) | 2026-08-05 17:59:47 EDT |

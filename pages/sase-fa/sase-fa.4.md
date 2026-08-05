@@ -23,7 +23,7 @@ repair: re-sign the 73 hood-snapshot file digests broken by an out-of-band sidec
 
 ## Dependencies
 
-- **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+- **Blocks:** [sase-fa.5](sase-fa.5.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
