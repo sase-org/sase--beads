@@ -21,8 +21,8 @@ cli: add a CREATED section to sase bead show, a created-age cell to compact list
 
 ## Dependencies
 
-- **Depends on:** [sase-fc.1](sase-fc.1.md) ✓
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐
+- **Depends on:** [sase-fc.1](sase-fc.1.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
 
 ## Agents
 

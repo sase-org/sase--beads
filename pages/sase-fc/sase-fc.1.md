@@ -19,12 +19,12 @@ presentation: add src/sase/bead_time_presentation.py as the single source of bea
 
 ## Dependencies
 
-- **Blocks:** [sase-fc.2](sase-fc.2.md) ✓
-- **Blocks:** [sase-fc.3](sase-fc.3.md) ✓
-- **Blocks:** [sase-fc.4](sase-fc.4.md) ◐
-- **Blocks:** [sase-fc.5](sase-fc.5.md) ✓
-- **Blocks:** [sase-fc.6](sase-fc.6.md) ✓
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐
+- **Blocks:** [sase-fc.2](sase-fc.2.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.3](sase-fc.3.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.4](sase-fc.4.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.5](sase-fc.5.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.6](sase-fc.6.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
 
 ## Agents
 

@@ -19,8 +19,8 @@ wire_pages: add created_at to the mobile helper bead summary wire, add a Created
 
 ## Dependencies
 
-- **Depends on:** [sase-fc.1](sase-fc.1.md) ✓
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐
+- **Depends on:** [sase-fc.1](sase-fc.1.md) ✓ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
 
 ## Agents
 
