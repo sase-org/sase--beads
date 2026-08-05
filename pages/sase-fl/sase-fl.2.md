@@ -23,7 +23,7 @@ skew_guard: preload the post-gate import surface once at agent-runner start so a
 
 ## Dependencies
 
-- **Blocks:** [sase-fl.3](sase-fl.3.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fl.3](sase-fl.3.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

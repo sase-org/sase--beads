@@ -17,7 +17,7 @@ An approved epic whose host-owned `sase bead work` launch is still running (or a
 |---|---|---|---|---|---:|---:|
 | [sase-fl.1](sase-fl.1.md) | Host-owned launches own their own outcome | ✓ closed | medium | 2026-08-05 | 1 | 1 |
 | [sase-fl.2](sase-fl.2.md) | Agent runners survive mid-run editable source swaps | ✓ closed | medium | 2026-08-05 | 1 | 1 |
-| [sase-fl.3](sase-fl.3.md) | Dev updates name the live runners they may tear | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fl.3](sase-fl.3.md) | Dev updates name the live runners they may tear | ✓ closed | small | 2026-08-05 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-fl: Host-owned epic launches stop failing their planner agent [in_progress]"]
     n1["sase-fl.1: Host-owned launches own their own outcome [closed]"]
     n2["sase-fl.2: Agent runners survive mid-run editable source swaps [closed]"]
-    n3["sase-fl.3: Dev updates name the live runners they may tear [in_progress]"]
+    n3["sase-fl.3: Dev updates name the live runners they may tear [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -39,7 +39,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-fl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fl.1/README.md) | [sase-fl.1](sase-fl.1.md) | 1 |
 | [bbugyi200.athena.sase-fl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fl.2/README.md) | [sase-fl.2](sase-fl.2.md) | 1 |
-| [bbugyi200.athena.sase-fl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fl.3/README.md) | [sase-fl.3](sase-fl.3.md) | 0 |
+| [bbugyi200.athena.sase-fl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fl.3/README.md) | [sase-fl.3](sase-fl.3.md) | 1 |
 | [bbugyi200.athena.sase-fl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fl.land/README.md) | [sase-fl](README.md) | 0 |
 
 ## Commits
@@ -48,3 +48,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`75a1ffc`](https://github.com/sase-org/sase/commit/75a1ffc10692d24c8016ee6574ad901197d1752a) | fix(axe): keep host-owned epic launches alive after an SDD store failure | [sase-fl.1](sase-fl.1.md) | 2026-08-05 18:51:04 EDT |
 | sase | [`4895b8f`](https://github.com/sase-org/sase/commit/4895b8f32f64878321f3c4965f39b6d00c340eaa) | fix(axe): survive mid-run editable source swaps in agent runners | [sase-fl.2](sase-fl.2.md) | 2026-08-05 18:56:45 EDT |
+| sase | [`b5c78f9`](https://github.com/sase-org/sase/commit/b5c78f972a3e21f897eadf959a2343fddec8bd74) | feat(dev-update): warn when a code swap could tear a live agent runner | [sase-fl.3](sase-fl.3.md) | 2026-08-05 19:24:42 EDT |
