@@ -29,10 +29,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-f0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f0/README.md) | [sase-f0](README.md) | 1 |
+| [bbugyi200.athena.sase-f0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-f0/README.md) | [sase-f0](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1370830`](https://github.com/sase-org/sase-core/commit/13708306c223d686aebbb149b346b983e2a02f2c) | fix(bead): relocate duplicate bead ids instead of failing the merge | [sase-f0](README.md) | 2026-08-05 16:15:56 EDT |
+| sase | [`6b3b46e`](https://github.com/sase-org/sase/commit/6b3b46e85b6df66d595e506609ebe322a2803eb3) | fix(bead): recover sync when two clones mint the same bead id | [sase-f0](README.md) | 2026-08-05 16:17:22 EDT |
