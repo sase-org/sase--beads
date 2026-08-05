@@ -13,7 +13,7 @@ swap_visibility: register long-lived agent runners as advisory, non-blocking cod
 
 ## Dependencies
 
-- **Depends on:** [sase-fl.2](sase-fl.2.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fl.2](sase-fl.2.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
