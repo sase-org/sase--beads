@@ -16,8 +16,8 @@ Every SASE surface that displays a bead also displays when that bead was created
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [sase-fc.1](sase-fc.1.md) | Shared bead time presentation module | ✓ closed | medium | 1 | 1 |
-| [sase-fc.2](sase-fc.2.md) | Bead CLI detail, list, search, and dependency surfaces | ◐ in_progress | medium | 1 | 0 |
-| [sase-fc.3](sase-fc.3.md) | Task triage gate payload, preview, and validation | ◐ in_progress | medium | 1 | 0 |
+| [sase-fc.2](sase-fc.2.md) | Bead CLI detail, list, search, and dependency surfaces | ✓ closed | medium | 1 | 1 |
+| [sase-fc.3](sase-fc.3.md) | Task triage gate payload, preview, and validation | ✓ closed | medium | 1 | 1 |
 | [sase-fc.4](sase-fc.4.md) | BEAD lane in the SASE CONTEXT agent metadata panel | ◐ in_progress | medium | 1 | 0 |
 | [sase-fc.5](sase-fc.5.md) | ACE Beads pane rows, detail pane, and reference completion | ✓ closed | medium | 1 | 1 |
 | [sase-fc.6](sase-fc.6.md) | Mobile wire, bead pages, and clan epic summary | ✓ closed | medium | 1 | 1 |
@@ -29,8 +29,8 @@ Every SASE surface that displays a bead also displays when that bead was created
 flowchart TD
     n0["sase-fc: Show bead creation time on every bead surface [in_progress]"]
     n1["sase-fc.1: Shared bead time presentation module [closed]"]
-    n2["sase-fc.2: Bead CLI detail, list, search, and dependency surfaces [in_progress]"]
-    n3["sase-fc.3: Task triage gate payload, preview, and validation [in_progress]"]
+    n2["sase-fc.2: Bead CLI detail, list, search, and dependency surfaces [closed]"]
+    n3["sase-fc.3: Task triage gate payload, preview, and validation [closed]"]
     n4["sase-fc.4: BEAD lane in the SASE CONTEXT agent metadata panel [in_progress]"]
     n5["sase-fc.5: ACE Beads pane rows, detail pane, and reference completion [closed]"]
     n6["sase-fc.6: Mobile wire, bead pages, and clan epic summary [closed]"]
@@ -60,8 +60,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-fc.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.1/README.md) | [sase-fc.1](sase-fc.1.md) | 1 |
-| [bbugyi200.athena.sase-fc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.2/README.md) | [sase-fc.2](sase-fc.2.md) | 0 |
-| [bbugyi200.athena.sase-fc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.3/README.md) | [sase-fc.3](sase-fc.3.md) | 0 |
+| [bbugyi200.athena.sase-fc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.2/README.md) | [sase-fc.2](sase-fc.2.md) | 1 |
+| [bbugyi200.athena.sase-fc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.3/README.md) | [sase-fc.3](sase-fc.3.md) | 1 |
 | [bbugyi200.athena.sase-fc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.4/README.md) | [sase-fc.4](sase-fc.4.md) | 0 |
 | [bbugyi200.athena.sase-fc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.5/README.md) | [sase-fc.5](sase-fc.5.md) | 1 |
 | [bbugyi200.athena.sase-fc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fc.6/README.md) | [sase-fc.6](sase-fc.6.md) | 1 |
@@ -75,3 +75,5 @@ flowchart TD
 | sase | [`53fc8d9`](https://github.com/sase-org/sase/commit/53fc8d9f89160af121517827803d134f41102252) | feat(bead): add shared bead time presentation module | [sase-fc.1](sase-fc.1.md) | 2026-08-05 16:49:19 EDT |
 | sase | [`734d2e0`](https://github.com/sase-org/sase/commit/734d2e0c261834051c4c2c7bd139e7f848a8f071) | feat(bead): surface bead creation time on mobile, page tables, and clan summaries | [sase-fc.6](sase-fc.6.md) | 2026-08-05 17:25:40 EDT |
 | sase | [`865281b`](https://github.com/sase-org/sase/commit/865281be4146ee9475a820e345c8b4930b701d17) | feat(ace): show explicit created and updated ages on bead surfaces | [sase-fc.5](sase-fc.5.md) | 2026-08-05 17:36:50 EDT |
+| sase | [`8065b58`](https://github.com/sase-org/sase/commit/8065b58c411b2ec5bd7bbb2caa54c718d22c74c1) | feat(bead): show bead creation time on task triage gates | [sase-fc.3](sase-fc.3.md) | 2026-08-05 17:37:15 EDT |
+| sase | [`e4fce05`](https://github.com/sase-org/sase/commit/e4fce05b61985d8f28e8f6dc44008526ce2d89c4) | feat(bead): surface bead creation time across CLI detail, list, and dependency views | [sase-fc.2](sase-fc.2.md) | 2026-08-05 17:42:27 EDT |
