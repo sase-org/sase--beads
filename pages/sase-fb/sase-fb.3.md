@@ -13,7 +13,7 @@ finalize: make the finalizer's bead safety net publish and verify rather than on
 
 ## Dependencies
 
-- **Depends on:** [sase-fb.1](sase-fb.1.md) ◐
+- **Depends on:** [sase-fb.1](sase-fb.1.md) ✓
 
 ## Agents
 
