@@ -18,7 +18,7 @@ context_lane: add created_at to BeadSummary and both summary builders, render a 
 ## Dependencies
 
 - **Depends on:** [sase-fc.1](sase-fc.1.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

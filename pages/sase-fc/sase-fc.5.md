@@ -20,7 +20,7 @@ ace_panel: replace the ambiguous single age on Beads pane rows with explicit cre
 ## Dependencies
 
 - **Depends on:** [sase-fc.1](sase-fc.1.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

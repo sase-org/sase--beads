@@ -24,7 +24,7 @@ presentation: add src/sase/bead_time_presentation.py as the single source of bea
 - **Blocks:** [sase-fc.4](sase-fc.4.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fc.5](sase-fc.5.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fc.6](sase-fc.6.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fc.7](sase-fc.7.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fc.7](sase-fc.7.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
