@@ -17,7 +17,7 @@ audit: sweep the repo for any remaining bead-rendering site that omits creation 
 - **Depends on:** [sase-fc.2](sase-fc.2.md) ◐
 - **Depends on:** [sase-fc.3](sase-fc.3.md) ◐
 - **Depends on:** [sase-fc.4](sase-fc.4.md) ◐
-- **Depends on:** [sase-fc.5](sase-fc.5.md) ◐
+- **Depends on:** [sase-fc.5](sase-fc.5.md) ✓
 - **Depends on:** [sase-fc.6](sase-fc.6.md) ✓
 
 ## Agents
