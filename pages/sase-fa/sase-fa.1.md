@@ -21,5 +21,17 @@ commit: turn every enqueue-only writer back into an inline publisher so `sase co
 
 ## Dependencies
 
-- **Blocks:** [sase-fa.2](sase-fa.2.md) ◐
+- **Blocks:** [sase-fa.2](sase-fa.2.md) ✓
 - **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fa.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.1/README.md) | [sase-fa.1](sase-fa.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`de78052`](https://github.com/sase-org/sase/commit/de7805278926e3a9abd97b475afca158363d7ffc) | fix: publish sidecar work inline on the commit path | [sase-fa.1](sase-fa.1.md) | 2026-08-05 15:51:02 EDT |

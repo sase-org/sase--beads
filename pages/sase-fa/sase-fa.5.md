@@ -14,6 +14,12 @@ land: sweep the remaining queue/lane prose out of the docs, prove a real commit 
 ## Dependencies
 
 - **Depends on:** [sase-fa.1](sase-fa.1.md) ✓
-- **Depends on:** [sase-fa.2](sase-fa.2.md) ◐
+- **Depends on:** [sase-fa.2](sase-fa.2.md) ✓
 - **Depends on:** [sase-fa.3](sase-fa.3.md) ◐
 - **Depends on:** [sase-fa.4](sase-fa.4.md) ✓
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fa.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.5/README.md) | [sase-fa.5](sase-fa.5.md) | 0 |

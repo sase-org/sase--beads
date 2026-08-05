@@ -13,5 +13,11 @@ queue: drop the `bead_pages`, `plan_header`, and `sidecar_push` request kinds, b
 
 ## Dependencies
 
-- **Depends on:** [sase-fa.2](sase-fa.2.md) ◐
+- **Depends on:** [sase-fa.2](sase-fa.2.md) ✓
 - **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fa.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.3/README.md) | [sase-fa.3](sase-fa.3.md) | 0 |

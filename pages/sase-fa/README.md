@@ -15,11 +15,11 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ✓ closed | medium | 0 | 0 |
-| [sase-fa.2](sase-fa.2.md) | Remove the sidecar\_publication chop and publications lumberjack | ◐ in_progress | medium | 0 | 0 |
-| [sase-fa.3](sase-fa.3.md) | Narrow the durable outbox back to agent-hood retries | ◐ in_progress | medium | 0 | 0 |
+| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ✓ closed | medium | 1 | 1 |
+| [sase-fa.2](sase-fa.2.md) | Remove the sidecar\_publication chop and publications lumberjack | ✓ closed | medium | 1 | 1 |
+| [sase-fa.3](sase-fa.3.md) | Narrow the durable outbox back to agent-hood retries | ◐ in_progress | medium | 1 | 0 |
 | [sase-fa.4](sase-fa.4.md) | Repair the agents sidecar digest corruption blocking all publication | ✓ closed | medium | 1 | 1 |
-| [sase-fa.5](sase-fa.5.md) | Docs, end-to-end verification, agents-repo sync, and bead bookkeeping | ◐ in_progress | small | 0 | 0 |
+| [sase-fa.5](sase-fa.5.md) | Docs, end-to-end verification, agents-repo sync, and bead bookkeeping | ◐ in_progress | small | 1 | 0 |
 
 ## Lineage
 
@@ -27,7 +27,7 @@
 flowchart TD
     n0["sase-fa: Revert async sidecar publication so `sase commit` publishes sidecars inline again [in_progress]"]
     n1["sase-fa.1: Restore synchronous sidecar publication on the commit path [closed]"]
-    n2["sase-fa.2: Remove the sidecar_publication chop and publications lumberjack [in_progress]"]
+    n2["sase-fa.2: Remove the sidecar_publication chop and publications lumberjack [closed]"]
     n3["sase-fa.3: Narrow the durable outbox back to agent-hood retries [in_progress]"]
     n4["sase-fa.4: Repair the agents sidecar digest corruption blocking all publication [closed]"]
     n5["sase-fa.5: Docs, end-to-end verification, agents-repo sync, and bead bookkeeping [in_progress]"]
@@ -48,10 +48,17 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-fa.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.1/README.md) | [sase-fa.1](sase-fa.1.md) | 1 |
+| [bbugyi200.athena.sase-fa.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.2/README.md) | [sase-fa.2](sase-fa.2.md) | 1 |
+| [bbugyi200.athena.sase-fa.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.3/README.md) | [sase-fa.3](sase-fa.3.md) | 0 |
 | [bbugyi200.athena.sase-fa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.4/README.md) | [sase-fa.4](sase-fa.4.md) | 1 |
+| [bbugyi200.athena.sase-fa.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.5/README.md) | [sase-fa.5](sase-fa.5.md) | 0 |
+| [bbugyi200.athena.sase-fa.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.land/README.md) | [sase-fa](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2a9627b`](https://github.com/sase-org/sase/commit/2a9627bc0814c495b8b5a99145eb7c17c72059ee) | fix(agents-sync): repair stale hood-snapshot digests and add drift check | [sase-fa.4](sase-fa.4.md) | 2026-08-05 15:20:33 EDT |
+| sase | [`de78052`](https://github.com/sase-org/sase/commit/de7805278926e3a9abd97b475afca158363d7ffc) | fix: publish sidecar work inline on the commit path | [sase-fa.1](sase-fa.1.md) | 2026-08-05 15:51:02 EDT |
+| sase | [`e99f501`](https://github.com/sase-org/sase/commit/e99f5017d39fc15f6a8f5082fbd82ed2d768a2db) | feat!: remove the sidecar\_publication chop and publications lumberjack | [sase-fa.2](sase-fa.2.md) | 2026-08-05 16:17:49 EDT |
