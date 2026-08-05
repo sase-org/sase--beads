@@ -13,6 +13,6 @@ chop: delete the builtin chop, its console script, the `publications` axe lane, 
 
 ## Dependencies
 
-- **Depends on:** [sase-fa.1](sase-fa.1.md) ◐
+- **Depends on:** [sase-fa.1](sase-fa.1.md) ✓
 - **Blocks:** [sase-fa.3](sase-fa.3.md) ◐
 - **Blocks:** [sase-fa.5](sase-fa.5.md) ◐

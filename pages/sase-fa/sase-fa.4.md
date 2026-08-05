@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-fa](README.md) / sase-fa.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.t4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.t4/README.md) · **Assignee:** `sase-fa.4` · **Size:** medium
-**Created:** 2026-08-05 14:26:43 EDT
+**Created:** 2026-08-05 14:26:43 EDT · **Closed:** 2026-08-05 15:28:19 EDT
 **Plan:** [202608/revert\_async\_sidecar\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202608/revert_async_sidecar_publication.md)
 
 ## Description
@@ -24,3 +24,15 @@ repair: re-sign the 73 hood-snapshot file digests broken by an out-of-band sidec
 ## Dependencies
 
 - **Blocks:** [sase-fa.5](sase-fa.5.md) ◐
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.4/README.md) | [sase-fa.4](sase-fa.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2a9627b`](https://github.com/sase-org/sase/commit/2a9627bc0814c495b8b5a99145eb7c17c72059ee) | fix(agents-sync): repair stale hood-snapshot digests and add drift check | [sase-fa.4](sase-fa.4.md) | 2026-08-05 15:20:33 EDT |

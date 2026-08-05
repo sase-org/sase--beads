@@ -15,10 +15,10 @@
 
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
-| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ◐ in_progress | medium | 0 | 0 |
+| [sase-fa.1](sase-fa.1.md) | Restore synchronous sidecar publication on the commit path | ✓ closed | medium | 0 | 0 |
 | [sase-fa.2](sase-fa.2.md) | Remove the sidecar\_publication chop and publications lumberjack | ◐ in_progress | medium | 0 | 0 |
 | [sase-fa.3](sase-fa.3.md) | Narrow the durable outbox back to agent-hood retries | ◐ in_progress | medium | 0 | 0 |
-| [sase-fa.4](sase-fa.4.md) | Repair the agents sidecar digest corruption blocking all publication | ◐ in_progress | medium | 0 | 0 |
+| [sase-fa.4](sase-fa.4.md) | Repair the agents sidecar digest corruption blocking all publication | ✓ closed | medium | 1 | 1 |
 | [sase-fa.5](sase-fa.5.md) | Docs, end-to-end verification, agents-repo sync, and bead bookkeeping | ◐ in_progress | small | 0 | 0 |
 
 ## Lineage
@@ -26,10 +26,10 @@
 ```mermaid
 flowchart TD
     n0["sase-fa: Revert async sidecar publication so `sase commit` publishes sidecars inline again [in_progress]"]
-    n1["sase-fa.1: Restore synchronous sidecar publication on the commit path [in_progress]"]
+    n1["sase-fa.1: Restore synchronous sidecar publication on the commit path [closed]"]
     n2["sase-fa.2: Remove the sidecar_publication chop and publications lumberjack [in_progress]"]
     n3["sase-fa.3: Narrow the durable outbox back to agent-hood retries [in_progress]"]
-    n4["sase-fa.4: Repair the agents sidecar digest corruption blocking all publication [in_progress]"]
+    n4["sase-fa.4: Repair the agents sidecar digest corruption blocking all publication [closed]"]
     n5["sase-fa.5: Docs, end-to-end verification, agents-repo sync, and bead bookkeeping [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -43,3 +43,15 @@ flowchart TD
     n3 -.-> n5
     n4 -.-> n5
 ```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fa.4/README.md) | [sase-fa.4](sase-fa.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2a9627b`](https://github.com/sase-org/sase/commit/2a9627bc0814c495b8b5a99145eb7c17c72059ee) | fix(agents-sync): repair stale hood-snapshot digests and add drift check | [sase-fa.4](sase-fa.4.md) | 2026-08-05 15:20:33 EDT |
