@@ -15,7 +15,7 @@ Every job in the sase CI workflow passes on master again, each of the six indepe
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-fq.1](sase-fq.1.md) | Bump the published sase-core-rs window to 0.18.1 | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fq.1](sase-fq.1.md) | Bump the published sase-core-rs window to 0.18.1 | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fq.2](sase-fq.2.md) | Give progress\_fingerprint an import symvision can see | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fq.3](sase-fq.3.md) | Configure a git identity on the sidecar clone in the git-sync fixtures | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fq.4](sase-fq.4.md) | Stop the real-uv harness leaking lock files into the watched temp root | ✓ closed | small | 2026-08-05 | 1 | 1 |
@@ -28,7 +28,7 @@ Every job in the sase CI workflow passes on master again, each of the six indepe
 ```mermaid
 flowchart TD
     n0["sase-fq: Restore master CI to green after the sase-core 0.18 skew and the parallelism restoration [in_progress]"]
-    n1["sase-fq.1: Bump the published sase-core-rs window to 0.18.1 [in_progress]"]
+    n1["sase-fq.1: Bump the published sase-core-rs window to 0.18.1 [closed]"]
     n2["sase-fq.2: Give progress_fingerprint an import symvision can see [closed]"]
     n3["sase-fq.3: Configure a git identity on the sidecar clone in the git-sync fixtures [closed]"]
     n4["sase-fq.4: Stop the real-uv harness leaking lock files into the watched temp root [closed]"]
@@ -50,7 +50,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-fq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.1/README.md) | [sase-fq.1](sase-fq.1.md) | 0 |
+| [bbugyi200.athena.sase-fq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.1/README.md) | [sase-fq.1](sase-fq.1.md) | 1 |
 | [bbugyi200.athena.sase-fq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.2/README.md) | [sase-fq.2](sase-fq.2.md) | 1 |
 | [bbugyi200.athena.sase-fq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.3/README.md) | [sase-fq.3](sase-fq.3.md) | 1 |
 | [bbugyi200.athena.sase-fq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.4/README.md) | [sase-fq.4](sase-fq.4.md) | 1 |
@@ -67,3 +67,4 @@ flowchart TD
 | sase | [`6ee11e5`](https://github.com/sase-org/sase/commit/6ee11e5e9df5f47b1233ca34ed49f0a1989c323e) | fix(tests): stop real-uv harness leaking lock files into watched temp root | [sase-fq.4](sase-fq.4.md) | 2026-08-05 21:32:42 EDT |
 | sase | [`245d7c4`](https://github.com/sase-org/sase/commit/245d7c44fc12635f37b0d797c661ba6d1dd5b3ee) | ci: keep the prebuilt core wheel installed for every just recipe | [sase-fq.5](sase-fq.5.md) | 2026-08-05 21:39:05 EDT |
 | sase | [`a4a2c1a`](https://github.com/sase-org/sase/commit/a4a2c1a6004016667c71b50522be8807bb8368da) | fix(commit-finalizer): import progress\_fingerprint directly so symvision can see it | [sase-fq.2](sase-fq.2.md) | 2026-08-05 21:42:46 EDT |
+| sase | [`6488d4a`](https://github.com/sase-org/sase/commit/6488d4a49286f029c1ae7a641b438fce7d043d9c) | build(deps): raise sase-core-rs floor to 0.18.1 | [sase-fq.1](sase-fq.1.md) | 2026-08-05 21:43:43 EDT |
