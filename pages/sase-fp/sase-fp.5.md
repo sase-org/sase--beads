@@ -21,11 +21,13 @@ health: persist selection manifests to a durable host-local store, detect when a
 
 [2026-08-06T03:40:29Z · sase-fp.5] Added the selection-health store (tests/_test_selection_health.py), the full-lane failure recorder plugin, tools/selection_health + `just selection-health`, and runner wiring in tools/run_pytest (scoped-manifest copy, escalation recording before handoff, opt-out via SASE_TEST_SELECTION_HEALTH_DISABLED). Verified: just lint clean (ruff, mypy over 2750 files, symvision, toobig); 105 targeted tests across the new health modules and the touched runner/Justfile tests pass; 278 contract-marked tests pass; two full `just check` runs each reached 25,681 passed with only load-induced flakes (each failure reproduced green in isolation and did not repeat across runs) — noted as a PROPOSED FOLLOW-UP. Fixed a real regression the full run caught: tests/test_suite_gate_integration.py's miniature repo now copies _test_selection_health.py and points SASE_HOME at the tmp tree, so the runner's new import resolves and records stay out of the developer's real ~/.sase.
 
+[2026-08-06T03:47:02Z · sase-fp.5] PROPOSED FOLLOW-UP: add tests/ace/tui/test_app_title.py::test_on_mount_refines_title_to_resolved_version to the load-sensitive flake list — it failed once under parallel `just check-full` and passed in isolation, same shape as the other timing flakes noted above.
+
 ## Dependencies
 
 - **Depends on:** [sase-fp.3](sase-fp.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.6](sase-fp.6.md) ◐ · ⧖ 2026-08-05
-- **Blocks:** [sase-fp.7](sase-fp.7.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fp.7](sase-fp.7.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

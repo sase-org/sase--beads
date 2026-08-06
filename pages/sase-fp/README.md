@@ -25,7 +25,7 @@ Agents verify a change with a diff-scoped, gate-free `just check` that costs ~1 
 | [sase-fp.4](sase-fp.4.md) | just check / just check-full split | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fp.5](sase-fp.5.md) | Selection health metrics and false-negative detection | ✓ closed | medium | 2026-08-05 | 1 | 1 |
 | [sase-fp.6](sase-fp.6.md) | Coverage-context ground truth for selection | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
-| [sase-fp.7](sase-fp.7.md) | Two-speed verification policy in SASE memory | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fp.7](sase-fp.7.md) | Two-speed verification policy in SASE memory | ✓ closed | small | 2026-08-05 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n4["sase-fp.4: just check / just check-full split [closed]"]
     n5["sase-fp.5: Selection health metrics and false-negative detection [closed]"]
     n6["sase-fp.6: Coverage-context ground truth for selection [in_progress]"]
-    n7["sase-fp.7: Two-speed verification policy in SASE memory [in_progress]"]
+    n7["sase-fp.7: Two-speed verification policy in SASE memory [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-fp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.4/README.md) | [sase-fp.4](sase-fp.4.md) | 1 |
 | [bbugyi200.athena.sase-fp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.5/README.md) | [sase-fp.5](sase-fp.5.md) | 1 |
 | [bbugyi200.athena.sase-fp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.6/README.md) | [sase-fp.6](sase-fp.6.md) | 0 |
-| [bbugyi200.athena.sase-fp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.7/README.md) | [sase-fp.7](sase-fp.7.md) | 0 |
+| [bbugyi200.athena.sase-fp.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-fp.7.md) | [sase-fp.7](sase-fp.7.md) | 1 |
 | [bbugyi200.athena.sase-fp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.land/README.md) | [sase-fp](README.md) | 0 |
 
 ## Commits
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`8c4e14a`](https://github.com/sase-org/sase/commit/8c4e14ab0f564eee9242e66ac21f2d82d53f0027) | feat(tests): add a scoped run mode to the pytest runner | [sase-fp.3](sase-fp.3.md) | 2026-08-05 22:30:51 EDT |
 | sase | [`515ef3a`](https://github.com/sase-org/sase/commit/515ef3a48e6911a4c8eb9fe9499f09bceb14fa5b) | build(justfile): split \`just check\` into a scoped agent lane and \`just check-full\` | [sase-fp.4](sase-fp.4.md) | 2026-08-05 22:50:30 EDT |
 | sase | [`96183d7`](https://github.com/sase-org/sase/commit/96183d71b3ef6edd427d8c388ba0f96644af6244) | feat(tests): track test-selection health and detect selection false negatives | [sase-fp.5](sase-fp.5.md) | 2026-08-05 23:41:36 EDT |
+| sase | [`6f1a071`](https://github.com/sase-org/sase/commit/6f1a0717f1af3ee11f757a4820822427f5489670) | docs(memory): document two-speed verification contract, fix stale visual-snapshot claim | [sase-fp.7](sase-fp.7.md) | 2026-08-06 00:03:12 EDT |
