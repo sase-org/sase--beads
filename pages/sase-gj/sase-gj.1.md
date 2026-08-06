@@ -21,7 +21,7 @@ timings: record per-test-file wall seconds from full-lane runs into the host-loc
 
 ## Dependencies
 
-- **Blocks:** [sase-gj.2](sase-gj.2.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.2](sase-gj.2.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
