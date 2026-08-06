@@ -19,7 +19,7 @@ openline: add an optional planned-edit hook to the vim open-line commands so pro
 
 - **Depends on:** [sase-gi.2](sase-gi.2.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gi.5](sase-gi.5.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.7](sase-gi.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

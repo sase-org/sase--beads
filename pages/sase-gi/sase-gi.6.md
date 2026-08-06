@@ -18,7 +18,7 @@ highlight: give ordered markers the same theme-aware accent the leading bullet d
 ## Dependencies
 
 - **Depends on:** [sase-gi.1](sase-gi.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.7](sase-gi.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

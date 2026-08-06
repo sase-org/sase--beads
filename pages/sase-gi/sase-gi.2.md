@@ -21,7 +21,7 @@ newline: route Ctrl+J through the list-edit planner so ordered items continue, s
 
 - **Depends on:** [sase-gi.1](sase-gi.1.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gi.3](sase-gi.3.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.7](sase-gi.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

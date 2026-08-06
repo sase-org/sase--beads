@@ -25,7 +25,7 @@ The prompt input widget grows and maintains `<N>. ` ordered lists through every 
 | [sase-gi.4](sase-gi.4.md) | INSERT-mode Tab and Shift+Tab nesting for ordered items | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gi.5](sase-gi.5.md) | NORMAL-mode J for ordered items | ✓ closed | small | 2026-08-06 | 1 | 1 |
 | [sase-gi.6](sase-gi.6.md) | Ordered-marker highlighting | ✓ closed | small | 2026-08-06 | 1 | 1 |
-| [sase-gi.7](sase-gi.7.md) | Documentation, help modal, and full verification | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
+| [sase-gi.7](sase-gi.7.md) | Documentation, help modal, and full verification | ✓ closed | small | 2026-08-06 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n4["sase-gi.4: INSERT-mode Tab and Shift+Tab nesting for ordered items [closed]"]
     n5["sase-gi.5: NORMAL-mode J for ordered items [closed]"]
     n6["sase-gi.6: Ordered-marker highlighting [closed]"]
-    n7["sase-gi.7: Documentation, help modal, and full verification [in_progress]"]
+    n7["sase-gi.7: Documentation, help modal, and full verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.4/README.md) | [sase-gi.4](sase-gi.4.md) | 1 |
 | [bbugyi200.athena.sase-gi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.5/README.md) | [sase-gi.5](sase-gi.5.md) | 1 |
 | [bbugyi200.athena.sase-gi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.6/README.md) | [sase-gi.6](sase-gi.6.md) | 1 |
-| [bbugyi200.athena.sase-gi.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.7/README.md) | [sase-gi.7](sase-gi.7.md) | 0 |
+| [bbugyi200.athena.sase-gi.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.7/README.md) | [sase-gi.7](sase-gi.7.md) | 1 |
 | [bbugyi200.athena.sase-gi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.land/README.md) | [sase-gi](README.md) | 0 |
 
 ## Commits
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`af0555b`](https://github.com/sase-org/sase/commit/af0555bd60926526bc9087458647f9a935e30a5f) | feat(ace-tui): grow and renumber ordered lists on INSERT-mode Ctrl+J | [sase-gi.2](sase-gi.2.md) | 2026-08-06 16:45:58 EDT |
 | sase | [`a3108ef`](https://github.com/sase-org/sase/commit/a3108ef4f2950f9d7fb1d481d0704471d6317d20) | feat(ace-tui): open numbered ordered siblings on NORMAL-mode o and O | [sase-gi.3](sase-gi.3.md) | 2026-08-06 17:50:10 EDT |
 | sase | [`ecce0c3`](https://github.com/sase-org/sase/commit/ecce0c3888b8381dce9fb0881a2927090d05b2e0) | feat(ace-tui): drop and renumber ordered markers on NORMAL-mode J | [sase-gi.5](sase-gi.5.md) | 2026-08-06 18:33:20 EDT |
+| sase | [`96a53e7`](https://github.com/sase-org/sase/commit/96a53e7ab0d06116fd9adb8a3b18565d00cac75e) | docs(ace-tui): document ordered-list numbering, run, and nesting rules | [sase-gi.7](sase-gi.7.md) | 2026-08-06 18:51:07 EDT |

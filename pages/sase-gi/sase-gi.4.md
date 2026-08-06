@@ -20,7 +20,7 @@ shift: make Tab nest an ordered item under its parent at that parent's content c
 ## Dependencies
 
 - **Depends on:** [sase-gi.1](sase-gi.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.7](sase-gi.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
