@@ -13,7 +13,7 @@ presentation: add sase/bead/reopen_presentation.py with the accent, glyph, secti
 
 ## Dependencies
 
-- **Depends on:** [sase-fr.2](sase-fr.2.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fr.2](sase-fr.2.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.4](sase-fr.4.md) ◐ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.5](sase-fr.5.md) ◐ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.6](sase-fr.6.md) ◐ · ⧖ 2026-08-05

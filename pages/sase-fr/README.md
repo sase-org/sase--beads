@@ -15,8 +15,8 @@ A bead that was closed and later reopened keeps the reason it was closed, and ev
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-fr.1](sase-fr.1.md) | Durable close history in the bead event reducer | ✓ closed | medium | 2026-08-05 | 1 | 1 |
-| [sase-fr.2](sase-fr.2.md) | Adopt the release and carry close history through Python storage | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
+| [sase-fr.1](sase-fr.1.md) | Durable close history in the bead event reducer | ✓ closed | medium | 2026-08-05 | 1 | 0 |
+| [sase-fr.2](sase-fr.2.md) | Adopt the release and carry close history through Python storage | ✓ closed | medium | 2026-08-05 | 1 | 1 |
 | [sase-fr.3](sase-fr.3.md) | Shared reopen presentation vocabulary | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
 | [sase-fr.4](sase-fr.4.md) | sase bead show, JSON, list badges, and search | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
 | [sase-fr.5](sase-fr.5.md) | Prior-close warning in the TaskTriage gate | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
@@ -30,7 +30,7 @@ A bead that was closed and later reopened keeps the reason it was closed, and ev
 flowchart TD
     n0["sase-fr: Preserve close provenance when a +1 reopens a bead [in_progress]"]
     n1["sase-fr.1: Durable close history in the bead event reducer [closed]"]
-    n2["sase-fr.2: Adopt the release and carry close history through Python storage [in_progress]"]
+    n2["sase-fr.2: Adopt the release and carry close history through Python storage [closed]"]
     n3["sase-fr.3: Shared reopen presentation vocabulary [in_progress]"]
     n4["sase-fr.4: sase bead show, JSON, list badges, and search [in_progress]"]
     n5["sase-fr.5: Prior-close warning in the TaskTriage gate [in_progress]"]
@@ -61,8 +61,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-fr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.1/README.md) | [sase-fr.1](sase-fr.1.md) | 1 |
-| [bbugyi200.athena.sase-fr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.2/README.md) | [sase-fr.2](sase-fr.2.md) | 0 |
+| [bbugyi200.athena.sase-fr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.1/README.md) | [sase-fr.1](sase-fr.1.md) | 0 |
+| [bbugyi200.athena.sase-fr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.2/README.md) | [sase-fr.2](sase-fr.2.md) | 1 |
 | [bbugyi200.athena.sase-fr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.3/README.md) | [sase-fr.3](sase-fr.3.md) | 0 |
 | [bbugyi200.athena.sase-fr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.4/README.md) | [sase-fr.4](sase-fr.4.md) | 0 |
 | [bbugyi200.athena.sase-fr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.5/README.md) | [sase-fr.5](sase-fr.5.md) | 0 |
@@ -75,4 +75,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@66011f5`](https://github.com/sase-org/sase-core/commit/66011f590d27b4727fb045246e1700c202b1789b) | feat(bead): archive close metadata instead of destroying it on reopen | [sase-fr.1](sase-fr.1.md) | 2026-08-05 21:47:35 EDT |
+| sase | [`1da5a3e`](https://github.com/sase-org/sase/commit/1da5a3e277326bf52cf79c72c1ec824cbdc2e02b) | feat(bead): carry close history through Python bead storage | [sase-fr.2](sase-fr.2.md) | 2026-08-05 22:35:14 EDT |
