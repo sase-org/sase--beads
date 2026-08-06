@@ -20,7 +20,7 @@ core-adopt: raise the sase-core-rs window to the release from core-model and thr
 ## Dependencies
 
 - **Depends on:** [sase-fr.1](sase-fr.1.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fr.3](sase-fr.3.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

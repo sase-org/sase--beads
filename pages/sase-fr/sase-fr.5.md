@@ -13,7 +13,7 @@ triage: put a prior-close callout above the description in the task triage previ
 
 ## Dependencies
 
-- **Depends on:** [sase-fr.3](sase-fr.3.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.8](sase-fr.8.md) ◐ · ⧖ 2026-08-05
 
 ## Agents

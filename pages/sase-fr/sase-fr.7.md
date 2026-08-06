@@ -13,7 +13,7 @@ pages: render a Previously Closed section and primary-fact badge on generated be
 
 ## Dependencies
 
-- **Depends on:** [sase-fr.3](sase-fr.3.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.8](sase-fr.8.md) ◐ · ⧖ 2026-08-05
 
 ## Agents

@@ -13,7 +13,7 @@ cli: render the PREVIOUSLY CLOSED section and the reopening-+1 marker in bead de
 
 ## Dependencies
 
-- **Depends on:** [sase-fr.3](sase-fr.3.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fr.8](sase-fr.8.md) ◐ · ⧖ 2026-08-05
 
 ## Agents
