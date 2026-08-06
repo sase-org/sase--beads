@@ -14,7 +14,7 @@ runner: add a `scoped` mode to tools/run_pytest that runs the selection serially
 ## Dependencies
 
 - **Depends on:** [sase-fp.1](sase-fp.1.md) ✓ · ⧖ 2026-08-05
-- **Depends on:** [sase-fp.2](sase-fp.2.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fp.2](sase-fp.2.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.4](sase-fp.4.md) ◐ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.5](sase-fp.5.md) ◐ · ⧖ 2026-08-05
 
