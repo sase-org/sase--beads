@@ -2,11 +2,17 @@
 
 [Bead Pages](../README.md) / sase-ct
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +18 · **↺ Reopened:** ↺2
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +19 · **↺ Reopened:** ↺3
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qr](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.qr.md) · **Assignee:** `sase-ct`
-**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-06 15:56:19 EDT
+**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-06 16:52:21 EDT
 
 ## Previously Closed
+
+> ↺ Closed 2026-08-06T19:56:19Z · done
+>
+> (none)
+>
+> Reopened 2026-08-06T20:28:23Z by a +1 from @sase-fi
 
 > ↺ Closed 2026-08-05T19:19:38Z · canceled
 >
@@ -33,6 +39,8 @@ Two independent full 'just test' runs each failed exactly one ACE TUI test, but 
 [2026-08-06T13:57:56Z · u0] Independent corroboration on 2026-08-06 while implementing sase/repos/plans/202608/agent_page_bead_links.md (link published agent pages back to their bead pages — src/sase/agents_sync/bead_links.py and related rendering/publication_planning changes). tests/ace/tui/widgets/test_prompt_codeblock_highlight.py::test_codeblock_band_replaces_cursor_line_fill_but_not_cursor failed as the sole failure of a full just check-full run (1 failed / 25906 passed / 7 skipped) and passed cleanly in isolation immediately after. The change under test touched only agents_sync rendering/publication_planning and bead_links, nothing in the ACE TUI widget layer. Already the exact node sase-fp.8.3 named on this bead; recording as corroboration rather than a duplicate task.
 
 [2026-08-06T19:56:19Z · sase-ct] Fixed the currently-tracked instance: tests/ace/tui/test_agent_bulk_kill_edit.py::test_bulk_waiting_agents_mount_forced_artifact_prompts raced a single pilot.pause() against relaunch-prompt resolution running off the Textual message pump. Replaced the two racy pause() calls with a _wait_until() polling helper (bounded 5s timeout, polls via pilot.pause() until ConfirmKillAllModal mounts / PromptInputBar mounts). Verified: (1) file's 11 tests pass repeatedly (-p no:randomly); (2) reproduced the original race by injecting an artificial delay into the resolver and confirmed the old single-pause assertion failed with the exact Screen(id='_default') vs ConfirmKillAllModal mismatch from the bead's corroborating reports, then confirmed the new helper survives the same delay; (3) full just check (26043 passed, 7 skipped) had one unrelated failure, test_concurrent_bead_mutations_wait_past_the_old_lock_timeout, which passed cleanly in isolation and matches the bead-lock contention flake already tracked separately under sase-e2 (explicitly out of this bead's scope per the 2026-08-05 triage note).
+
+[2026-08-06T20:52:21Z · sase-ct] Fixed the currently-tracked instance named by the 2026-08-06T20:28:23Z reopen (sase-fi corroboration): tests/ace/tui/widgets/test_prompt_codeblock_highlight.py::test_codeblock_band_replaces_cursor_line_fill_but_not_cursor. Root cause: the assertion depends on cursor_style.bgcolor, but Textual's default cursor_blink=True cursor rendering also depends on the blink timer's _cursor_visible phase (toggles every 0.5s of real wall-clock time). Under host contention, enough real time can pass between focus() and the assertion for the blink to flip off, at which point the cursor cell renders with cursor_line_style.bgcolor instead (which the codeblock overlay repaints to card_background), breaking the assertion — a real-time race, not a pump/settle gap. Fix: set text_area.cursor_blink = False before the assertion so cursor rendering depends only on has_focus. Verified: (1) reproduced the exact failure deterministically by injecting a genuine wall-clock delay past the blink threshold after focus() on the unpatched test; (2) confirmed the cursor_blink=False fix survives the same injected delay; (3) the file's 12 tests pass repeatedly; (4) just check-equivalent gates all pass: fmt (python/markdown), lint (keep-sorted/ruff/mypy/pyscripts/changelog/toobig), SASE validation, committed-plans validation, and the diff-scoped test lane (310 passed). lint (symvision) fails on this run but is pre-existing on clean master (reproduced identically with this diff stashed out) — stale --epic-symbol whitelist entries for now-closed beads sase-gi.2/sase-gi.4; recorded as a DISCOVERED ISSUE on in-progress epic sase-gi rather than expanding this bead's scope.
 
 ## +1 Evidence
 
@@ -134,6 +142,10 @@ Two independent full 'just test' runs each failed exactly one ACE TUI test, but 
 >
 > NOT caused by epic sase-fq/sase-fq.8, and explicitly out of scope per its plan: that epic changed only pytest env isolation for the tools/run_pytest test family and the artifact-ref scratch probe; nothing it touched affects ACE title refinement timing.
 
+> **+1** by `sase-fi` · 2026-08-06 16:28:23 EDT
+>
+> Recurrence on master 5da193482 during 'just check-full' for task sase-fi (2026-08-06): tests/ace/tui/widgets/test_prompt_codeblock_highlight.py::test_codeblock_band_replaces_cursor_line_fill_but_not_cursor failed in the full parallel run and passed immediately when rerun in isolation. This is a different ACE TUI test than the ones this bead already names, and it is not covered by bde727ecc (which fixes the bulk-kill-and-edit race), so the umbrella parallel-isolation cause is still live. Unrelated to sase-fi, which only touches agents-sync prompt-archive publication.
+
 ## References
 
 - file:explicit:93f0fff0d91c393a140e217d
@@ -149,10 +161,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 1 |
+| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bde727e`](https://github.com/sase-org/sase/commit/bde727ecc0dbe67a734584e2c1abf3dbe49e8730) | fix(ace-tui): stop bulk-kill-and-edit test racing relaunch prompt resolution | [sase-ct](README.md) | 2026-08-06 15:57:13 EDT |
+| sase | [`3f69267`](https://github.com/sase-org/sase/commit/3f69267d516c5131ecca44b22399e67838b508c1) | fix(test-selection): stop the codeblock cursor test racing the blink timer | [sase-ct](README.md) | 2026-08-06 16:52:52 EDT |
