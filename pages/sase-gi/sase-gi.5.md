@@ -13,7 +13,7 @@ join: drop a pulled-up ordered marker when folding the next line up, and renumbe
 
 ## Dependencies
 
-- **Depends on:** [sase-gi.3](sase-gi.3.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gi.3](sase-gi.3.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
 
 ## Agents

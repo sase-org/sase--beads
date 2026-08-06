@@ -15,10 +15,12 @@ newline: route Ctrl+J through the list-edit planner so ordered items continue, s
 
 [2026-08-06T20:40:38Z · sase-gi.2] PROPOSED FOLLOW-UP: tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent and tests/ace/tui/test_agent_metadata_search.py::test_inline_metadata_search_commit_repeat_q_and_passthrough failed under a concurrent multi-workspace test load during sase-gi.2 verification and both pass in isolation — investigate and harden these two timing-sensitive tests.
 
+[2026-08-06T20:54:58Z · sase-gi.2] Ctrl+J now routes through plan_ordered_insert_newline before the hyphen branches: split (including on owned continuation lines), empty-marker exit, grow-a-first-sibling, content-column de-list, and active-selection replacement, each one TextEdit with the anchored run renumbered. Verified 41 new tests in test_prompt_ordered_insert_editing.py (per-table-row cases, following-sibling renumbering, loose runs, repeat style, ')' delimiter, owned-block width shifts, undo checkpoints, prettier fixed-point cases) plus the full tests/ace/tui/widgets/ suite (3284 passed) and just check lint gates including symvision on the landed tree af0555bd6. Hyphen path left byte-identical; also cleaned up the epic-symbol entries left stale by sase-gi.4's close.
+
 ## Dependencies
 
 - **Depends on:** [sase-gi.1](sase-gi.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.3](sase-gi.3.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.3](sase-gi.3.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gi.7](sase-gi.7.md) ◐ · ⧖ 2026-08-06
 
 ## Agents

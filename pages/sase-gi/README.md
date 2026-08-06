@@ -11,13 +11,17 @@
 
 The prompt input widget grows and maintains `<N>. ` ordered lists through every keymap that already serves `- ` bullets (Ctrl+J, o, O, J, Tab, Shift+Tab), renumbering the surrounding list so its numbering is always correct, and colors ordered markers like bullet dashes.
 
+## Notes
+
+[2026-08-06T20:52:03Z · sase-ct] DISCOVERED ISSUE: lint (symvision) currently fails 'just check'/'just check-full' for every agent in this repo (reproduced on clean master, unrelated to any other change): the Justfile's _lint-symvision recipe passes --epic-symbol entries for 'sase-gi.2(is_prompt_ordered_marker_only)', 'sase-gi.2(is_prompt_ordered_content_column)', 'sase-gi.2(prompt_ordered_row_has_item_above)', 'sase-gi.2(prompt_ordered_sibling_prefix)', 'sase-gi.4(OrderedRun)', 'sase-gi.4(RenumberResult)', and 'sase-gi.4(renumber_ordered_runs)', but sase-gi.2 and sase-gi.4 are now both CLOSED, so symvision refuses to run ('bead is closed. Remove this stale --epic-symbol entry and clean up the symbol.'). These entries need to be removed from the Justfile invocation and the referenced symbols' pragma/whitelist status cleaned up per sase/memory/symvision.md now that the phases that justified the temporary whitelist have landed. Likely belongs in sase-gi.7 (full verification) or the epic's land phase, since check-full cannot pass until this is fixed. Discovered while verifying just check for unrelated task bead sase-ct.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-gi.1](sase-gi.1.md) | Shared list-marker model and the ordered renumber engine | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gi.2](sase-gi.2.md) | INSERT-mode Ctrl+J for ordered items | ✓ closed | medium | 2026-08-06 | 1 | 1 |
-| [sase-gi.3](sase-gi.3.md) | NORMAL-mode o and O for ordered items | ◐ in_progress | medium | 2026-08-06 | 1 | 0 |
+| [sase-gi.3](sase-gi.3.md) | NORMAL-mode o and O for ordered items | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gi.4](sase-gi.4.md) | INSERT-mode Tab and Shift+Tab nesting for ordered items | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gi.5](sase-gi.5.md) | NORMAL-mode J for ordered items | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
 | [sase-gi.6](sase-gi.6.md) | Ordered-marker highlighting | ✓ closed | small | 2026-08-06 | 1 | 1 |
@@ -30,7 +34,7 @@ flowchart TD
     n0["sase-gi: Ordered-list auto-numbering in the prompt input widget [in_progress]"]
     n1["sase-gi.1: Shared list-marker model and the ordered renumber engine [closed]"]
     n2["sase-gi.2: INSERT-mode Ctrl+J for ordered items [closed]"]
-    n3["sase-gi.3: NORMAL-mode o and O for ordered items [in_progress]"]
+    n3["sase-gi.3: NORMAL-mode o and O for ordered items [closed]"]
     n4["sase-gi.4: INSERT-mode Tab and Shift+Tab nesting for ordered items [closed]"]
     n5["sase-gi.5: NORMAL-mode J for ordered items [in_progress]"]
     n6["sase-gi.6: Ordered-marker highlighting [closed]"]
@@ -60,7 +64,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-gi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.1/README.md) | [sase-gi.1](sase-gi.1.md) | 1 |
 | [bbugyi200.athena.sase-gi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.2/README.md) | [sase-gi.2](sase-gi.2.md) | 1 |
-| [bbugyi200.athena.sase-gi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.3/README.md) | [sase-gi.3](sase-gi.3.md) | 0 |
+| [bbugyi200.athena.sase-gi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.3/README.md) | [sase-gi.3](sase-gi.3.md) | 1 |
 | [bbugyi200.athena.sase-gi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.4/README.md) | [sase-gi.4](sase-gi.4.md) | 1 |
 | [bbugyi200.athena.sase-gi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.5/README.md) | [sase-gi.5](sase-gi.5.md) | 0 |
 | [bbugyi200.athena.sase-gi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gi.6/README.md) | [sase-gi.6](sase-gi.6.md) | 1 |
@@ -75,3 +79,4 @@ flowchart TD
 | sase | [`686bd5f`](https://github.com/sase-org/sase/commit/686bd5f5165734e719f7809fdc0f0f0b15444102) | feat(ace-tui): nest and unnest ordered prompt items with Tab and Shift+Tab | [sase-gi.4](sase-gi.4.md) | 2026-08-06 16:36:00 EDT |
 | sase | [`f7f479a`](https://github.com/sase-org/sase/commit/f7f479a55ba1a6f7bfb5130e6ab8314f831b9b17) | feat(ace-tui): highlight ordered-list markers like bullet dashes | [sase-gi.6](sase-gi.6.md) | 2026-08-06 16:43:17 EDT |
 | sase | [`af0555b`](https://github.com/sase-org/sase/commit/af0555bd60926526bc9087458647f9a935e30a5f) | feat(ace-tui): grow and renumber ordered lists on INSERT-mode Ctrl+J | [sase-gi.2](sase-gi.2.md) | 2026-08-06 16:45:58 EDT |
+| sase | [`a3108ef`](https://github.com/sase-org/sase/commit/a3108ef4f2950f9d7fb1d481d0704471d6317d20) | feat(ace-tui): open numbered ordered siblings on NORMAL-mode o and O | [sase-gi.3](sase-gi.3.md) | 2026-08-06 17:50:10 EDT |
