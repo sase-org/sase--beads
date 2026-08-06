@@ -19,7 +19,7 @@ baseline: only `tools/fetch_coverage_contexts` installs a baseline into the host
 
 ## Dependencies
 
-- **Blocks:** [sase-g3.5](sase-g3.5.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-g3.5](sase-g3.5.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

@@ -17,7 +17,7 @@ visible: `tools/run_silent` discards captured output on success, so a passing `j
 
 ## Dependencies
 
-- **Blocks:** [sase-g3.5](sase-g3.5.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-g3.5](sase-g3.5.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

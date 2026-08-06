@@ -30,7 +30,7 @@ compensate: `context-baseline-missing` and `context-baseline-stale` are recorded
 ## Dependencies
 
 - **Depends on:** [sase-g3.1](sase-g3.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-g3.5](sase-g3.5.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-g3.5](sase-g3.5.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
