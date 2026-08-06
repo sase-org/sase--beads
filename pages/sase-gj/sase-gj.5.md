@@ -17,7 +17,7 @@ tail: add duration percentiles and a "slower than the full lane" counter to `jus
 
 ## Dependencies
 
-- **Blocks:** [sase-gj.7](sase-gj.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.7](sase-gj.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

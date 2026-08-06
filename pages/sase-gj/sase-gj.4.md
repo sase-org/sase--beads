@@ -19,7 +19,7 @@ identity: record which fingerprint input changed, and stop forcing the whole sui
 
 ## Dependencies
 
-- **Blocks:** [sase-gj.7](sase-gj.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.7](sase-gj.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

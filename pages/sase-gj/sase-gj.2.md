@@ -25,7 +25,7 @@ budget: add a serial-runtime budget rule so a selection that would take longer t
 
 - **Depends on:** [sase-gj.1](sase-gj.1.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gj.3](sase-gj.3.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gj.7](sase-gj.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.7](sase-gj.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

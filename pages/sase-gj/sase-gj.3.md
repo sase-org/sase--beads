@@ -18,7 +18,7 @@ gear: let a scoped run that exceeds the serial budget take a small non-blocking 
 ## Dependencies
 
 - **Depends on:** [sase-gj.2](sase-gj.2.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gj.7](sase-gj.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.7](sase-gj.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

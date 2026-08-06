@@ -17,7 +17,7 @@ flakes: require a full-run failure to be reproducible, or to be absent from a kn
 
 ## Dependencies
 
-- **Blocks:** [sase-gj.7](sase-gj.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gj.7](sase-gj.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
