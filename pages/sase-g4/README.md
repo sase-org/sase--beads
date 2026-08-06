@@ -15,9 +15,9 @@ A plan whose provenance header block is malformed is rejected the first time any
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-g4.1](sase-g4.1.md) | A header-block validity rule in the Rust plan validator | ✓ closed | medium | 2026-08-06 | 1 | 0 |
+| [sase-g4.1](sase-g4.1.md) | A header-block validity rule in the Rust plan validator | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-g4.2](sase-g4.2.md) | Report an invalid header block from \`sase plan links validate\` | ✓ closed | small | 2026-08-06 | 1 | 1 |
-| [sase-g4.3](sase-g4.3.md) | Adopt the release and pin the rule at every Python validation surface | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
+| [sase-g4.3](sase-g4.3.md) | Adopt the release and pin the rule at every Python validation surface | ✓ closed | small | 2026-08-06 | 1 | 1 |
 | [sase-g4.4](sase-g4.4.md) | An actionable failure at the archive boundary | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
 | [sase-g4.5](sase-g4.5.md) | Land the plan-header validation epic | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-g4: Reject a malformed plan-header block at validation time instead of mid-launch [in_progress]"]
     n1["sase-g4.1: A header-block validity rule in the Rust plan validator [closed]"]
     n2["sase-g4.2: Report an invalid header block from `sase plan links validate` [closed]"]
-    n3["sase-g4.3: Adopt the release and pin the rule at every Python validation surface [in_progress]"]
+    n3["sase-g4.3: Adopt the release and pin the rule at every Python validation surface [closed]"]
     n4["sase-g4.4: An actionable failure at the archive boundary [in_progress]"]
     n5["sase-g4.5: Land the plan-header validation epic [in_progress]"]
     n0 --> n1
@@ -48,9 +48,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-g4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.1/README.md) | [sase-g4.1](sase-g4.1.md) | 0 |
+| [bbugyi200.athena.sase-g4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.1/README.md) | [sase-g4.1](sase-g4.1.md) | 1 |
 | [bbugyi200.athena.sase-g4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.2/README.md) | [sase-g4.2](sase-g4.2.md) | 1 |
-| [bbugyi200.athena.sase-g4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.3/README.md) | [sase-g4.3](sase-g4.3.md) | 0 |
+| [bbugyi200.athena.sase-g4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.3/README.md) | [sase-g4.3](sase-g4.3.md) | 1 |
 | [bbugyi200.athena.sase-g4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.4/README.md) | [sase-g4.4](sase-g4.4.md) | 0 |
 | [bbugyi200.athena.sase-g4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.5/README.md) | [sase-g4.5](sase-g4.5.md) | 0 |
 | [bbugyi200.athena.sase-g4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.land/README.md) | [sase-g4](README.md) | 0 |
@@ -59,4 +59,6 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase-core | [`sase-core@508d5d9`](https://github.com/sase-org/sase-core/commit/508d5d99f4ba81ef405a2421662fef6ad9d4a9e1) | feat(plan): reject a malformed plan header block during validation | [sase-g4.1](sase-g4.1.md) | 2026-08-06 09:23:14 EDT |
 | sase | [`fa8fc69`](https://github.com/sase-org/sase/commit/fa8fc69e46c49bc3367ea274584d7fa928aa1dc9) | fix(sdd): report header-invalid from plan links validate | [sase-g4.2](sase-g4.2.md) | 2026-08-06 09:27:10 EDT |
+| sase | [`d9c1354`](https://github.com/sase-org/sase/commit/d9c13549f9809f2ba8d695027dc7bf76440e7844) | feat(sdd): adopt header-invalid diagnostic and pin it at every validation surface | [sase-g4.3](sase-g4.3.md) | 2026-08-06 10:31:32 EDT |

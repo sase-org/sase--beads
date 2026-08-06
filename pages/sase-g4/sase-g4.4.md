@@ -13,7 +13,7 @@ archive-guard: `archive_plan_file` projects header sections before it validates,
 
 ## Dependencies
 
-- **Depends on:** [sase-g4.3](sase-g4.3.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-g4.3](sase-g4.3.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-g4.5](sase-g4.5.md) ◐ · ⧖ 2026-08-06
 
 ## Agents
