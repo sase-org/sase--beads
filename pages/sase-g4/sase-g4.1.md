@@ -20,10 +20,4 @@ core-diagnostic: teach `plan_validate` in sase-core to emit an error diagnostic 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-g4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.1/README.md) | [sase-g4.1](sase-g4.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@508d5d9`](https://github.com/sase-org/sase-core/commit/508d5d99f4ba81ef405a2421662fef6ad9d4a9e1) | feat(plan): reject a malformed plan header block during validation | [sase-g4.1](sase-g4.1.md) | 2026-08-06 09:23:14 EDT |
+| [bbugyi200.athena.sase-g4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g4.1/README.md) | [sase-g4.1](sase-g4.1.md) | 0 |
