@@ -28,9 +28,3 @@ core-model: add BeadCloseRecordWire and IssueWire.close_history to sase-core, ar
 ## Dependencies
 
 - **Blocks:** [sase-fr.2](sase-fr.2.md) ✓ · ⧖ 2026-08-05
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-fr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.1/README.md) | [sase-fr.1](sase-fr.1.md) | 0 |
