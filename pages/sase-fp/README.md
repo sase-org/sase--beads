@@ -1,0 +1,72 @@
+# Bead: sase-fp — Test suite Tier 1 — two-speed verification with diff-scoped test selection
+
+[Bead Pages](../README.md) / sase-fp
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.tn](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.tn/README.md) · **Assignee:** `sase-fp.land`
+**Created:** 2026-08-05 20:55:59 EDT
+**Plan:** [202608/test\_suite\_tier1.md](https://github.com/sase-org/sase--plans/blob/main/202608/test_suite_tier1.md)
+
+## Description
+
+Agents verify a change with a diff-scoped, gate-free `just check` that costs ~1 core-minute instead of ~61 worker-minutes, `just check-full` preserves today's exhaustive contract for landing and CI, and selection health (what was skipped, and whether skipping it was ever wrong) is a measured, machine-readable metric rather than an assumption.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-fp.1](sase-fp.1.md) | Static import-graph selection engine | ✓ closed | medium | 2026-08-05 | 1 | 1 |
+| [sase-fp.2](sase-fp.2.md) | Curated contract/audit test set | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fp.3](sase-fp.3.md) | Scoped run mode and the no-lease path | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
+| [sase-fp.4](sase-fp.4.md) | just check / just check-full split | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fp.5](sase-fp.5.md) | Selection health metrics and false-negative detection | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
+| [sase-fp.6](sase-fp.6.md) | Coverage-context ground truth for selection | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
+| [sase-fp.7](sase-fp.7.md) | Two-speed verification policy in SASE memory | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-fp: Test suite Tier 1 — two-speed verification with diff-scoped test selection [in_progress]"]
+    n1["sase-fp.1: Static import-graph selection engine [closed]"]
+    n2["sase-fp.2: Curated contract/audit test set [in_progress]"]
+    n3["sase-fp.3: Scoped run mode and the no-lease path [in_progress]"]
+    n4["sase-fp.4: just check / just check-full split [in_progress]"]
+    n5["sase-fp.5: Selection health metrics and false-negative detection [in_progress]"]
+    n6["sase-fp.6: Coverage-context ground truth for selection [in_progress]"]
+    n7["sase-fp.7: Two-speed verification policy in SASE memory [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n1 -.-> n3
+    n1 -.-> n6
+    n2 -.-> n3
+    n3 -.-> n4
+    n3 -.-> n5
+    n4 -.-> n7
+    n5 -.-> n6
+    n5 -.-> n7
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-fp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.1/README.md) | [sase-fp.1](sase-fp.1.md) | 1 |
+| [bbugyi200.athena.sase-fp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.2/README.md) | [sase-fp.2](sase-fp.2.md) | 0 |
+| [bbugyi200.athena.sase-fp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.3/README.md) | [sase-fp.3](sase-fp.3.md) | 0 |
+| [bbugyi200.athena.sase-fp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.4/README.md) | [sase-fp.4](sase-fp.4.md) | 0 |
+| [bbugyi200.athena.sase-fp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.5/README.md) | [sase-fp.5](sase-fp.5.md) | 0 |
+| [bbugyi200.athena.sase-fp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.6/README.md) | [sase-fp.6](sase-fp.6.md) | 0 |
+| [bbugyi200.athena.sase-fp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.7/README.md) | [sase-fp.7](sase-fp.7.md) | 0 |
+| [bbugyi200.athena.sase-fp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.land/README.md) | [sase-fp](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8c8d197`](https://github.com/sase-org/sase/commit/8c8d1973d095c454fd39fd648738c0a86def34c1) | feat(tests): add the static import-graph test selection engine | [sase-fp.1](sase-fp.1.md) | 2026-08-05 21:34:14 EDT |
