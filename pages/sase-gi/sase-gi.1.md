@@ -25,9 +25,9 @@ core: add the pure marker/boundary/ownership primitives shared by both marker fa
 
 ## Dependencies
 
-- **Blocks:** [sase-gi.2](sase-gi.2.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.2](sase-gi.2.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gi.4](sase-gi.4.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gi.6](sase-gi.6.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gi.6](sase-gi.6.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
