@@ -20,7 +20,7 @@ ace: show the reopen badge on beads list rows, a Previously closed property and 
 ## Dependencies
 
 - **Depends on:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fr.8](sase-fr.8.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fr.8](sase-fr.8.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

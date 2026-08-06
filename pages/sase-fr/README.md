@@ -22,7 +22,7 @@ A bead that was closed and later reopened keeps the reason it was closed, and ev
 | [sase-fr.5](sase-fr.5.md) | Prior-close warning in the TaskTriage gate | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fr.6](sase-fr.6.md) | ACE beads pane close history | ✓ closed | small | 2026-08-05 | 1 | 1 |
 | [sase-fr.7](sase-fr.7.md) | Generated bead pages close history | ✓ closed | small | 2026-08-05 | 1 | 1 |
-| [sase-fr.8](sase-fr.8.md) | Document close history and reopen provenance | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
+| [sase-fr.8](sase-fr.8.md) | Document close history and reopen provenance | ✓ closed | small | 2026-08-05 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-fr.5: Prior-close warning in the TaskTriage gate [closed]"]
     n6["sase-fr.6: ACE beads pane close history [closed]"]
     n7["sase-fr.7: Generated bead pages close history [closed]"]
-    n8["sase-fr.8: Document close history and reopen provenance [in_progress]"]
+    n8["sase-fr.8: Document close history and reopen provenance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-fr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.5/README.md) | [sase-fr.5](sase-fr.5.md) | 1 |
 | [bbugyi200.athena.sase-fr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.6/README.md) | [sase-fr.6](sase-fr.6.md) | 1 |
 | [bbugyi200.athena.sase-fr.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.7/README.md) | [sase-fr.7](sase-fr.7.md) | 1 |
-| [bbugyi200.athena.sase-fr.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.8/README.md) | [sase-fr.8](sase-fr.8.md) | 0 |
+| [bbugyi200.athena.sase-fr.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.8/README.md) | [sase-fr.8](sase-fr.8.md) | 1 |
 | [bbugyi200.athena.sase-fr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fr.land/README.md) | [sase-fr](README.md) | 0 |
 
 ## Commits
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`4130721`](https://github.com/sase-org/sase/commit/413072167f8069fb0b6714075897358cb9920e78) | feat(ace): show bead close history in the beads pane | [sase-fr.6](sase-fr.6.md) | 2026-08-05 23:32:32 EDT |
 | sase | [`81d6191`](https://github.com/sase-org/sase/commit/81d6191e3326265822b36b7040339fba7ce1eabd) | feat(bead): warn on prior close in the TaskTriage gate | [sase-fr.5](sase-fr.5.md) | 2026-08-05 23:37:20 EDT |
 | sase | [`bf448ef`](https://github.com/sase-org/sase/commit/bf448ef99c12a28702cc1f38eaae03634a4dc089) | feat(bead-pages): render close history and reopen badge on generated pages | [sase-fr.7](sase-fr.7.md) | 2026-08-05 23:40:02 EDT |
+| sase | [`d7ac0da`](https://github.com/sase-org/sase/commit/d7ac0dab5cdfc4c2b00f102e588d5d8506b6196f) | docs(beads): document close history and reopen provenance | [sase-fr.8](sase-fr.8.md) | 2026-08-06 00:00:09 EDT |

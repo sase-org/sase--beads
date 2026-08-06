@@ -28,7 +28,7 @@ Verified: just lint clean including symvision; just check green apart from two u
 ## Dependencies
 
 - **Depends on:** [sase-fr.3](sase-fr.3.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fr.8](sase-fr.8.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fr.8](sase-fr.8.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
