@@ -18,7 +18,7 @@
 | [sase-gj.1](sase-gj.1.md) | Per-test-file duration table recorded by the full lane | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gj.2](sase-gj.2.md) | Escalate on estimated serial runtime, not on the file-count ratio | ◐ in_progress | medium | 2026-08-06 | 1 | 0 |
 | [sase-gj.3](sase-gj.3.md) | A bounded-parallelism middle gear for large selections | ◐ in_progress | medium | 2026-08-06 | 1 | 0 |
-| [sase-gj.4](sase-gj.4.md) | Attribute and narrow the core-identity-changed escalation | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
+| [sase-gj.4](sase-gj.4.md) | Attribute and narrow the core-identity-changed escalation | ✓ closed | small | 2026-08-06 | 1 | 1 |
 | [sase-gj.5](sase-gj.5.md) | Report the scoped lane's tail, not just its median | ✓ closed | small | 2026-08-06 | 1 | 1 |
 | [sase-gj.6](sase-gj.6.md) | Stop charging known flakes to the false-negative metric | ✓ closed | small | 2026-08-06 | 1 | 1 |
 | [sase-gj.7](sase-gj.7.md) | Land the scoped-lane latency epic | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n1["sase-gj.1: Per-test-file duration table recorded by the full lane [closed]"]
     n2["sase-gj.2: Escalate on estimated serial runtime, not on the file-count ratio [in_progress]"]
     n3["sase-gj.3: A bounded-parallelism middle gear for large selections [in_progress]"]
-    n4["sase-gj.4: Attribute and narrow the core-identity-changed escalation [in_progress]"]
+    n4["sase-gj.4: Attribute and narrow the core-identity-changed escalation [closed]"]
     n5["sase-gj.5: Report the scoped lane's tail, not just its median [closed]"]
     n6["sase-gj.6: Stop charging known flakes to the false-negative metric [closed]"]
     n7["sase-gj.7: Land the scoped-lane latency epic [in_progress]"]
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.1/README.md) | [sase-gj.1](sase-gj.1.md) | 1 |
 | [bbugyi200.athena.sase-gj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.2/README.md) | [sase-gj.2](sase-gj.2.md) | 0 |
 | [bbugyi200.athena.sase-gj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.3/README.md) | [sase-gj.3](sase-gj.3.md) | 0 |
-| [bbugyi200.athena.sase-gj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.4/README.md) | [sase-gj.4](sase-gj.4.md) | 0 |
+| [bbugyi200.athena.sase-gj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.4/README.md) | [sase-gj.4](sase-gj.4.md) | 1 |
 | [bbugyi200.athena.sase-gj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.5/README.md) | [sase-gj.5](sase-gj.5.md) | 1 |
 | [bbugyi200.athena.sase-gj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.6/README.md) | [sase-gj.6](sase-gj.6.md) | 1 |
 | [bbugyi200.athena.sase-gj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gj.7/README.md) | [sase-gj.7](sase-gj.7.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 | sase | [`cc241fa`](https://github.com/sase-org/sase/commit/cc241fae0c5cb96e0dbffc468e1cc5f77fde4d6b) | feat(test-selection): report the scoped lane's tail, not just its median | [sase-gj.5](sase-gj.5.md) | 2026-08-06 16:22:21 EDT |
 | sase | [`87961cd`](https://github.com/sase-org/sase/commit/87961cd0e17a2d5a137b327325bb68b28156cc28) | fix(test-selection): stop charging known flakes to the false-negative metric | [sase-gj.6](sase-gj.6.md) | 2026-08-06 16:31:38 EDT |
 | sase | [`6cf5a94`](https://github.com/sase-org/sase/commit/6cf5a94d7ce95c5e80e5f924bd58bddec13ecfb4) | feat(test-selection): record per-test-file timings from full-lane runs | [sase-gj.1](sase-gj.1.md) | 2026-08-06 16:44:06 EDT |
+| sase | [`f88b740`](https://github.com/sase-org/sase/commit/f88b7403cd0dcc2d5522d909582a7cdbddbb1304) | fix(test-selection): attribute and narrow the core-identity-changed escalation | [sase-gj.4](sase-gj.4.md) | 2026-08-06 16:47:36 EDT |

@@ -15,7 +15,7 @@ land: re-measure the lane end to end against the real store, verify the combined
 
 - **Depends on:** [sase-gj.2](sase-gj.2.md) ◐ · ⧖ 2026-08-06
 - **Depends on:** [sase-gj.3](sase-gj.3.md) ◐ · ⧖ 2026-08-06
-- **Depends on:** [sase-gj.4](sase-gj.4.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gj.4](sase-gj.4.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-gj.5](sase-gj.5.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-gj.6](sase-gj.6.md) ✓ · ⧖ 2026-08-06
 
