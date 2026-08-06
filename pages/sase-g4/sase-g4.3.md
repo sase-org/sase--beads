@@ -18,7 +18,7 @@ core-adopt: raise the `sase-core-rs` floor to the release from core-diagnostic, 
 ## Dependencies
 
 - **Depends on:** [sase-g4.1](sase-g4.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-g4.4](sase-g4.4.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-g4.4](sase-g4.4.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-g4.5](sase-g4.5.md) ◐ · ⧖ 2026-08-06
 
 ## Agents

@@ -16,7 +16,7 @@ land: verify the combined tree end to end against a real malformed plan, run `ju
 - **Depends on:** [sase-g4.1](sase-g4.1.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-g4.2](sase-g4.2.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-g4.3](sase-g4.3.md) ✓ · ⧖ 2026-08-06
-- **Depends on:** [sase-g4.4](sase-g4.4.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-g4.4](sase-g4.4.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
