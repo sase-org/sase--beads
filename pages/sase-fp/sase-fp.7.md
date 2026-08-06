@@ -13,7 +13,7 @@ policy: obtain live user permission, then record the two-speed verification cont
 
 ## Dependencies
 
-- **Depends on:** [sase-fp.4](sase-fp.4.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fp.4](sase-fp.4.md) ✓ · ⧖ 2026-08-05
 - **Depends on:** [sase-fp.5](sase-fp.5.md) ◐ · ⧖ 2026-08-05
 
 ## Agents
