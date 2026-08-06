@@ -14,7 +14,7 @@ contexts: add --cov-context=test to the CI coverage leg, publish the contexts da
 ## Dependencies
 
 - **Depends on:** [sase-fp.1](sase-fp.1.md) ✓ · ⧖ 2026-08-05
-- **Depends on:** [sase-fp.5](sase-fp.5.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fp.5](sase-fp.5.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
