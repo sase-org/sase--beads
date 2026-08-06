@@ -28,7 +28,7 @@ One real bug found and fixed during verification: keying the graph cache on a sc
 ## Dependencies
 
 - **Blocks:** [sase-fp.3](sase-fp.3.md) ✓ · ⧖ 2026-08-05
-- **Blocks:** [sase-fp.6](sase-fp.6.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fp.6](sase-fp.6.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
