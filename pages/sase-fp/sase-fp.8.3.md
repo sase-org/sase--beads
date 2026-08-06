@@ -13,7 +13,7 @@ land: file the collected follow-ups with /sase_new_task, close sase-fp with a no
 
 ## Dependencies
 
-- **Depends on:** [sase-fp.8.1](sase-fp.8.1.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-fp.8.1](sase-fp.8.1.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-fp.8.2](sase-fp.8.2.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
