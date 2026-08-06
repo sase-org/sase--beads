@@ -17,7 +17,7 @@ The reliability of `just check`'s diff-scoped test lane becomes a measured prope
 |---|---|---|---|---|---:|---:|
 | [sase-g3.1](sase-g3.1.md) | Historical backtest of selection recall against coverage ground truth | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-g3.2](sase-g3.2.md) | Make the scoped lane's selection and degradation visible on the success path | ✓ closed | small | 2026-08-06 | 1 | 1 |
-| [sase-g3.3](sase-g3.3.md) | A named, measured compensating action for a missing or stale contexts baseline | ◐ in_progress | medium | 2026-08-06 | 1 | 0 |
+| [sase-g3.3](sase-g3.3.md) | A named, measured compensating action for a missing or stale contexts baseline | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-g3.4](sase-g3.4.md) | Record a contexts baseline from a local full run | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-g3.5](sase-g3.5.md) | Land the selection-soundness epic | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-g3: Diff-scoped selection soundness — measure the blind spot now, stop degrading silently, and stop depending on a CI artifact [in_progress]"]
     n1["sase-g3.1: Historical backtest of selection recall against coverage ground truth [closed]"]
     n2["sase-g3.2: Make the scoped lane's selection and degradation visible on the success path [closed]"]
-    n3["sase-g3.3: A named, measured compensating action for a missing or stale contexts baseline [in_progress]"]
+    n3["sase-g3.3: A named, measured compensating action for a missing or stale contexts baseline [closed]"]
     n4["sase-g3.4: Record a contexts baseline from a local full run [closed]"]
     n5["sase-g3.5: Land the selection-soundness epic [in_progress]"]
     n0 --> n1
@@ -49,7 +49,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-g3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.1/README.md) | [sase-g3.1](sase-g3.1.md) | 1 |
 | [bbugyi200.athena.sase-g3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.2/README.md) | [sase-g3.2](sase-g3.2.md) | 1 |
-| [bbugyi200.athena.sase-g3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.3/README.md) | [sase-g3.3](sase-g3.3.md) | 0 |
+| [bbugyi200.athena.sase-g3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.3/README.md) | [sase-g3.3](sase-g3.3.md) | 1 |
 | [bbugyi200.athena.sase-g3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.4/README.md) | [sase-g3.4](sase-g3.4.md) | 1 |
 | [bbugyi200.athena.sase-g3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.5/README.md) | [sase-g3.5](sase-g3.5.md) | 0 |
 | [bbugyi200.athena.sase-g3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-g3.land/README.md) | [sase-g3](README.md) | 0 |
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`2ef98cb`](https://github.com/sase-org/sase/commit/2ef98cb3e646ca6e6f5298398b5a8c4855273774) | feat(test-selection): record a contexts baseline from a local full run | [sase-g3.4](sase-g3.4.md) | 2026-08-06 09:39:50 EDT |
 | sase | [`da6105b`](https://github.com/sase-org/sase/commit/da6105b51edf8141b979478882ba6c0aa4b0a81a) | feat(test-selection): surface the scoped lane's summary on the success path | [sase-g3.2](sase-g3.2.md) | 2026-08-06 09:39:55 EDT |
 | sase | [`4651ed1`](https://github.com/sase-org/sase/commit/4651ed1991a3dbd9284f21e7651b486f409c3539) | test(selection): add a historical backtest for diff-scoped selection recall | [sase-g3.1](sase-g3.1.md) | 2026-08-06 09:42:56 EDT |
+| sase | [`b4c4c18`](https://github.com/sase-org/sase/commit/b4c4c182e1a68037fed639215c4d35ebbeab7e15) | feat(test-selection): walk one hop deeper when no contexts baseline is usable | [sase-g3.3](sase-g3.3.md) | 2026-08-06 10:26:47 EDT |

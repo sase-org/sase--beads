@@ -15,7 +15,7 @@ land: re-read `just selection-health` and the backtest report on the combined tr
 
 - **Depends on:** [sase-g3.1](sase-g3.1.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-g3.2](sase-g3.2.md) ✓ · ⧖ 2026-08-06
-- **Depends on:** [sase-g3.3](sase-g3.3.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-g3.3](sase-g3.3.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-g3.4](sase-g3.4.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
