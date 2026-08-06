@@ -80,7 +80,7 @@ flowchart TD
     n7["sase-fq.7: Adopt the released commit-budget fix and stabilize the parity test [closed]"]
     n8["sase-fq.8: Fix the artifact-ref commit inventory's scratch-file failure and finish landing sase-fq [in_progress]"]
     n9["sase-fq.8.1: Identify the OS error behind the scratch-file failure on a CI runner [closed]"]
-    n10["sase-fq.8.2: Fix the identified scratch-file failure at its source [in_progress]"]
+    n10["sase-fq.8.2: Fix the identified scratch-file failure at its source [closed]"]
     n11["sase-fq.8.3: Close out epic sase-fq [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -110,8 +110,8 @@ flowchart TD
 | [bbugyi200.athena.sase-fq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.5/README.md) | [sase-fq.5](sase-fq.5.md) | 1 |
 | [bbugyi200.athena.sase-fq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.6/README.md) | [sase-fq.6](sase-fq.6.md) | 2 |
 | [bbugyi200.athena.sase-fq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.7/README.md) | [sase-fq.7](sase-fq.7.md) | 1 |
-| [bbugyi200.athena.sase-fq.8.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-fq.8.1.md) | [sase-fq.8.1](sase-fq.8.1.md) | 1 |
-| [bbugyi200.athena.sase-fq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.2/README.md) | [sase-fq.8.2](sase-fq.8.2.md) | 0 |
+| [bbugyi200.athena.sase-fq.8.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-fq.8.1.md) | [sase-fq.8.1](sase-fq.8.1.md) | 0 |
+| [bbugyi200.athena.sase-fq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.2/README.md) | [sase-fq.8.2](sase-fq.8.2.md) | 1 |
 | [bbugyi200.athena.sase-fq.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.3/README.md) | [sase-fq.8.3](sase-fq.8.3.md) | 0 |
 | [bbugyi200.athena.sase-fq.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.land/README.md) | [sase-fq.8](sase-fq.8.md) | 0 |
 
@@ -127,4 +127,4 @@ flowchart TD
 | sase | [`6488d4a`](https://github.com/sase-org/sase/commit/6488d4a49286f029c1ae7a641b438fce7d043d9c) | build(deps): raise sase-core-rs floor to 0.18.1 | [sase-fq.1](sase-fq.1.md) | 2026-08-05 21:43:43 EDT |
 | sase-core | [`sase-core@8785320`](https://github.com/sase-org/sase-core/commit/8785320e186a7115ea003ae2eef70fa26365aedd) | test(host-bridge): stop exec-ing freshly written helper scripts | [sase-fq.6](sase-fq.6.md) | 2026-08-05 21:58:49 EDT |
 | sase | [`7ffd547`](https://github.com/sase-org/sase/commit/7ffd5471ae0ad436a3607ea1a60dc144621ec263) | build(deps): raise sase-core-rs floor to 0.18.2 and pin the parity test's commit budget | [sase-fq.7](sase-fq.7.md) | 2026-08-05 23:08:00 EDT |
-| sase | [`e28f9d0`](https://github.com/sase-org/sase/commit/e28f9d0c6ea87941d735866eabeec79f266bf54a) | test(artifact-ref): probe the scratch-file resource state on an empty commit inventory | [sase-fq.8.1](sase-fq.8.1.md) | 2026-08-06 07:35:34 EDT |
+| sase-core | [`sase-core@7b28c3e`](https://github.com/sase-org/sase-core/commit/7b28c3e16f865cfead2b8265ecd69fd30b01c772) | fix(editor): report the OS error behind a dropped commit-log repository | [sase-fq.8.2](sase-fq.8.2.md) | 2026-08-06 07:46:55 EDT |

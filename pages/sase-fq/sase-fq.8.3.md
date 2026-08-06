@@ -13,7 +13,7 @@ land-fq: confirm every sase CI job is green on master, close epic sase-fq with a
 
 ## Dependencies
 
-- **Depends on:** [sase-fq.8.2](sase-fq.8.2.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-fq.8.2](sase-fq.8.2.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
