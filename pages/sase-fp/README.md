@@ -43,6 +43,10 @@ flowchart TD
     n5["sase-fp.5: Selection health metrics and false-negative detection [closed]"]
     n6["sase-fp.6: Coverage-context ground truth for selection [closed]"]
     n7["sase-fp.7: Two-speed verification policy in SASE memory [closed]"]
+    n8["sase-fp.8: sase-fp landing — a budget guard that measures the set, and a false-negative metric that measures selection [in_progress]"]
+    n9["sase-fp.8.1: Load- and machine-normalized contract-set budget guard [in_progress]"]
+    n10["sase-fp.8.2: Change-scoped false-negative correlation [closed]"]
+    n11["sase-fp.8.3: Land epic sase-fp [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,6 +54,10 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
     n1 -.-> n3
     n1 -.-> n6
     n2 -.-> n3
@@ -58,6 +66,8 @@ flowchart TD
     n4 -.-> n7
     n5 -.-> n6
     n5 -.-> n7
+    n9 -.-> n11
+    n10 -.-> n11
 ```
 
 ## Agents
@@ -71,6 +81,10 @@ flowchart TD
 | [bbugyi200.athena.sase-fp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.5/README.md) | [sase-fp.5](sase-fp.5.md) | 1 |
 | [bbugyi200.athena.sase-fp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.6/README.md) | [sase-fp.6](sase-fp.6.md) | 1 |
 | [bbugyi200.athena.sase-fp.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-fp.7.md) | [sase-fp.7](sase-fp.7.md) | 1 |
+| [bbugyi200.athena.sase-fp.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.8.1/README.md) | [sase-fp.8.1](sase-fp.8.1.md) | 0 |
+| [bbugyi200.athena.sase-fp.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.8.2/README.md) | [sase-fp.8.2](sase-fp.8.2.md) | 1 |
+| [bbugyi200.athena.sase-fp.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.8.3/README.md) | [sase-fp.8.3](sase-fp.8.3.md) | 0 |
+| [bbugyi200.athena.sase-fp.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.8.land/README.md) | [sase-fp.8](sase-fp.8.md) | 0 |
 | [bbugyi200.athena.sase-fp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.land/README.md) | [sase-fp](README.md) | 0 |
 
 ## Commits
@@ -84,3 +98,4 @@ flowchart TD
 | sase | [`96183d7`](https://github.com/sase-org/sase/commit/96183d71b3ef6edd427d8c388ba0f96644af6244) | feat(tests): track test-selection health and detect selection false negatives | [sase-fp.5](sase-fp.5.md) | 2026-08-05 23:41:36 EDT |
 | sase | [`6f1a071`](https://github.com/sase-org/sase/commit/6f1a0717f1af3ee11f757a4820822427f5489670) | docs(memory): document two-speed verification contract, fix stale visual-snapshot claim | [sase-fp.7](sase-fp.7.md) | 2026-08-06 00:03:12 EDT |
 | sase | [`d66101e`](https://github.com/sase-org/sase/commit/d66101e8f292cb53b48ae2287f0f5f723b3c3ff9) | feat(tests): union per-test coverage contexts into diff-scoped selection | [sase-fp.6](sase-fp.6.md) | 2026-08-06 01:13:51 EDT |
+| sase | [`e7917a2`](https://github.com/sase-org/sase/commit/e7917a2682e81c2119509e75bbdf19e7c4da0796) | fix(tests): restrict selection-health false-negative correlation to matching changes | [sase-fp.8.2](sase-fp.8.2.md) | 2026-08-06 02:12:42 EDT |
