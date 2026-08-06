@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-fq
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.tq](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.tq/README.md) · **Assignee:** `sase-fq.land`
-**Created:** 2026-08-05 21:05:31 EDT
+**Created:** 2026-08-05 21:05:31 EDT · **Closed:** 2026-08-06 12:25:34 EDT
 **Plan:** [202608/ci\_master\_red\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202608/ci_master_red_recovery.md)
 
 ## Description
@@ -52,7 +52,7 @@ REFINEMENT: an env-diff probe over all six run_pytest modules names 11 leaking n
 
 FIX-SHAPE DIVERGENCE: ci_fix.sase.8 pins TMPDIR/SASE_PYTEST_TMP_REDIRECTED through monkeypatch via a new pin_process_env() helper installed as an autouse fixture in the four affected modules, plus a regression test. My workspace instead adds one autouse fixture, _restore_scratch_environment, to tests/conftest.py, directly beside the existing _restore_working_directory guard that already handles the identical class of process-state leak (cwd) in the same file. Trade-off for the owner: the per-module pin is narrower and comes with an explicit regression test, but only defe
 
-… and 780 more characters
+… and 8502 more characters
 
 ## Phases
 
@@ -70,7 +70,7 @@ FIX-SHAPE DIVERGENCE: ci_fix.sase.8 pins TMPDIR/SASE_PYTEST_TMP_REDIRECTED throu
 
 ```mermaid
 flowchart TD
-    n0["sase-fq: Restore master CI to green after the sase-core 0.18 skew and the parallelism restoration [in_progress]"]
+    n0["sase-fq: Restore master CI to green after the sase-core 0.18 skew and the parallelism restoration [closed]"]
     n1["sase-fq.1: Bump the published sase-core-rs window to 0.18.1 [closed]"]
     n2["sase-fq.2: Give progress_fingerprint an import symvision can see [closed]"]
     n3["sase-fq.3: Configure a git identity on the sidecar clone in the git-sync fixtures [closed]"]
@@ -78,10 +78,10 @@ flowchart TD
     n5["sase-fq.5: Keep CI's prebuilt core wheel installed for every just recipe in a job [closed]"]
     n6["sase-fq.6: Fix the silent 2s commit-log budget in sase-core [closed]"]
     n7["sase-fq.7: Adopt the released commit-budget fix and stabilize the parity test [closed]"]
-    n8["sase-fq.8: Fix the artifact-ref commit inventory's scratch-file failure and finish landing sase-fq [in_progress]"]
+    n8["sase-fq.8: Fix the artifact-ref commit inventory's scratch-file failure and finish landing sase-fq [closed]"]
     n9["sase-fq.8.1: Identify the OS error behind the scratch-file failure on a CI runner [closed]"]
     n10["sase-fq.8.2: Fix the identified scratch-file failure at its source [closed]"]
-    n11["sase-fq.8.3: Close out epic sase-fq [in_progress]"]
+    n11["sase-fq.8.3: Close out epic sase-fq [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -113,7 +113,8 @@ flowchart TD
 | [bbugyi200.athena.sase-fq.8.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-fq.8.1.md) | [sase-fq.8.1](sase-fq.8.1.md) | 0 |
 | [bbugyi200.athena.sase-fq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.2/README.md) | [sase-fq.8.2](sase-fq.8.2.md) | 1 |
 | [bbugyi200.athena.sase-fq.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.3/README.md) | [sase-fq.8.3](sase-fq.8.3.md) | 0 |
-| [bbugyi200.athena.sase-fq.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.land/README.md) | [sase-fq.8](sase-fq.8.md) | 0 |
+| [bbugyi200.athena.sase-fq.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.8.land/README.md) | [sase-fq.8](sase-fq.8.md) | 1 |
+| [bbugyi200.athena.sase-fq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fq.land/README.md) | [sase-fq](README.md) | 0 |
 
 ## Commits
 
@@ -128,3 +129,4 @@ flowchart TD
 | sase-core | [`sase-core@8785320`](https://github.com/sase-org/sase-core/commit/8785320e186a7115ea003ae2eef70fa26365aedd) | test(host-bridge): stop exec-ing freshly written helper scripts | [sase-fq.6](sase-fq.6.md) | 2026-08-05 21:58:49 EDT |
 | sase | [`7ffd547`](https://github.com/sase-org/sase/commit/7ffd5471ae0ad436a3607ea1a60dc144621ec263) | build(deps): raise sase-core-rs floor to 0.18.2 and pin the parity test's commit budget | [sase-fq.7](sase-fq.7.md) | 2026-08-05 23:08:00 EDT |
 | sase-core | [`sase-core@7b28c3e`](https://github.com/sase-org/sase-core/commit/7b28c3e16f865cfead2b8265ecd69fd30b01c772) | fix(editor): report the OS error behind a dropped commit-log repository | [sase-fq.8.2](sase-fq.8.2.md) | 2026-08-06 07:46:55 EDT |
+| sase | [`a15f409`](https://github.com/sase-org/sase/commit/a15f409dd11322a32649c627e226a0fd448c9070) | docs(artifact-ref): describe the scratch probe against sase-core 0.18.4 | [sase-fq.8](sase-fq.8.md) | 2026-08-06 12:27:50 EDT |
