@@ -17,7 +17,7 @@ Agents verify a change with a diff-scoped, gate-free `just check` that costs ~1 
 |---|---|---|---|---|---:|---:|
 | [sase-fp.1](sase-fp.1.md) | Static import-graph selection engine | ✓ closed | medium | 2026-08-05 | 1 | 1 |
 | [sase-fp.2](sase-fp.2.md) | Curated contract/audit test set | ✓ closed | small | 2026-08-05 | 1 | 1 |
-| [sase-fp.3](sase-fp.3.md) | Scoped run mode and the no-lease path | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
+| [sase-fp.3](sase-fp.3.md) | Scoped run mode and the no-lease path | ✓ closed | medium | 2026-08-05 | 1 | 1 |
 | [sase-fp.4](sase-fp.4.md) | just check / just check-full split | ◐ in_progress | small | 2026-08-05 | 1 | 0 |
 | [sase-fp.5](sase-fp.5.md) | Selection health metrics and false-negative detection | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
 | [sase-fp.6](sase-fp.6.md) | Coverage-context ground truth for selection | ◐ in_progress | medium | 2026-08-05 | 1 | 0 |
@@ -30,7 +30,7 @@ flowchart TD
     n0["sase-fp: Test suite Tier 1 — two-speed verification with diff-scoped test selection [in_progress]"]
     n1["sase-fp.1: Static import-graph selection engine [closed]"]
     n2["sase-fp.2: Curated contract/audit test set [closed]"]
-    n3["sase-fp.3: Scoped run mode and the no-lease path [in_progress]"]
+    n3["sase-fp.3: Scoped run mode and the no-lease path [closed]"]
     n4["sase-fp.4: just check / just check-full split [in_progress]"]
     n5["sase-fp.5: Selection health metrics and false-negative detection [in_progress]"]
     n6["sase-fp.6: Coverage-context ground truth for selection [in_progress]"]
@@ -58,7 +58,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-fp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.1/README.md) | [sase-fp.1](sase-fp.1.md) | 1 |
 | [bbugyi200.athena.sase-fp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.2/README.md) | [sase-fp.2](sase-fp.2.md) | 1 |
-| [bbugyi200.athena.sase-fp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.3/README.md) | [sase-fp.3](sase-fp.3.md) | 0 |
+| [bbugyi200.athena.sase-fp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.3/README.md) | [sase-fp.3](sase-fp.3.md) | 1 |
 | [bbugyi200.athena.sase-fp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.4/README.md) | [sase-fp.4](sase-fp.4.md) | 0 |
 | [bbugyi200.athena.sase-fp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.5/README.md) | [sase-fp.5](sase-fp.5.md) | 0 |
 | [bbugyi200.athena.sase-fp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-fp.6/README.md) | [sase-fp.6](sase-fp.6.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`8c8d197`](https://github.com/sase-org/sase/commit/8c8d1973d095c454fd39fd648738c0a86def34c1) | feat(tests): add the static import-graph test selection engine | [sase-fp.1](sase-fp.1.md) | 2026-08-05 21:34:14 EDT |
 | sase | [`ab955c9`](https://github.com/sase-org/sase/commit/ab955c9cac1021c77c736ddeda9b499444c7d530) | test: curate repository-wide audit tests behind a \`contract\` pytest marker | [sase-fp.2](sase-fp.2.md) | 2026-08-05 22:01:52 EDT |
+| sase | [`8c4e14a`](https://github.com/sase-org/sase/commit/8c4e14ab0f564eee9242e66ac21f2d82d53f0027) | feat(tests): add a scoped run mode to the pytest runner | [sase-fp.3](sase-fp.3.md) | 2026-08-05 22:30:51 EDT |

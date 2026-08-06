@@ -13,7 +13,7 @@ check-split: repoint `just check` at the scoped lane, add `just check-full` carr
 
 ## Dependencies
 
-- **Depends on:** [sase-fp.3](sase-fp.3.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fp.3](sase-fp.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.7](sase-fp.7.md) ◐ · ⧖ 2026-08-05
 
 ## Agents

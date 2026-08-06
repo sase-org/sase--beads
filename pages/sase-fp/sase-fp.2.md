@@ -23,7 +23,7 @@ Ran full `just test` three times after the fix: contract manifest tests passed c
 
 ## Dependencies
 
-- **Blocks:** [sase-fp.3](sase-fp.3.md) ◐ · ⧖ 2026-08-05
+- **Blocks:** [sase-fp.3](sase-fp.3.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 

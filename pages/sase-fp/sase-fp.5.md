@@ -13,7 +13,7 @@ health: persist selection manifests to a durable host-local store, detect when a
 
 ## Dependencies
 
-- **Depends on:** [sase-fp.3](sase-fp.3.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fp.3](sase-fp.3.md) ✓ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.6](sase-fp.6.md) ◐ · ⧖ 2026-08-05
 - **Blocks:** [sase-fp.7](sase-fp.7.md) ◐ · ⧖ 2026-08-05
 
