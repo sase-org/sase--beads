@@ -14,7 +14,7 @@ commit-budget-adopt: raise the sase-core-rs floor to the release carrying the co
 ## Dependencies
 
 - **Depends on:** [sase-fq.1](sase-fq.1.md) ◐ · ⧖ 2026-08-05
-- **Depends on:** [sase-fq.6](sase-fq.6.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fq.6](sase-fq.6.md) ✓ · ⧖ 2026-08-05
 
 ## Agents
 
