@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.3` · **Size:** medium
-**Created:** 2026-07-28 18:22:36 UTC · **Closed:** 2026-07-28 19:10:18 UTC
+**Created:** 2026-07-28 14:22:36 EDT · **Closed:** 2026-07-28 15:10:18 EDT
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
 ## Description
@@ -17,8 +17,8 @@ associations: derive each bead's commits and agents in one repository walk from 
 
 ## Dependencies
 
-- **Depends on:** [sase-ai.1](sase-ai.1.md) ✓
-- **Blocks:** [sase-ai.4](sase-ai.4.md) ✓
+- **Depends on:** [sase-ai.1](sase-ai.1.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.4](sase-ai.4.md) ✓ · ⧖ 2026-07-28
 
 ## Agents
 
@@ -28,6 +28,6 @@ associations: derive each bead's commits and agents in one repository walk from 
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`9a9bec4`](https://github.com/sase-org/sase/commit/9a9bec4ad2673012a77c6e6fe96bce98d654cf01) | feat(sdd): index bead commit and agent associations (sase-ai.3) | [sase-ai.3](sase-ai.3.md) | 2026-07-28 19:11:50 |
+| sase | [`9a9bec4`](https://github.com/sase-org/sase/commit/9a9bec4ad2673012a77c6e6fe96bce98d654cf01) | feat(sdd): index bead commit and agent associations (sase-ai.3) | [sase-ai.3](sase-ai.3.md) | 2026-07-28 15:11:50 EDT |

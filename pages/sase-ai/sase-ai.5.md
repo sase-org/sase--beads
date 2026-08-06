@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.5` · **Size:** medium
-**Created:** 2026-07-28 18:22:45 UTC · **Closed:** 2026-07-28 19:49:06 UTC
+**Created:** 2026-07-28 14:22:45 EDT · **Closed:** 2026-07-28 15:49:06 EDT
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
 ## Description
@@ -17,8 +17,8 @@ publish: after a primary commit carrying a `SASE_BEAD` tag, re-render that bead'
 
 ## Dependencies
 
-- **Depends on:** [sase-ai.4](sase-ai.4.md) ✓
-- **Blocks:** [sase-ai.7](sase-ai.7.md) ✓
+- **Depends on:** [sase-ai.4](sase-ai.4.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.7](sase-ai.7.md) ✓ · ⧖ 2026-07-28
 
 ## Agents
 
@@ -28,6 +28,6 @@ publish: after a primary commit carrying a `SASE_BEAD` tag, re-render that bead'
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`b645718`](https://github.com/sase-org/sase/commit/b6457189ccceea2aa2c2df2b78362fabe307ca51) | feat: publish bead lineage after commits (sase-ai.5) | [sase-ai.5](sase-ai.5.md) | 2026-07-28 19:50:42 |
+| sase | [`b645718`](https://github.com/sase-org/sase/commit/b6457189ccceea2aa2c2df2b78362fabe307ca51) | feat: publish bead lineage after commits (sase-ai.5) | [sase-ai.5](sase-ai.5.md) | 2026-07-28 15:50:42 EDT |

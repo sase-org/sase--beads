@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bryanbugyi34@gmail.com` · **Assignee:** `sase-ai.1` · **Size:** small
-**Created:** 2026-07-28 18:22:29 UTC · **Closed:** 2026-07-28 18:37:02 UTC
+**Created:** 2026-07-28 14:22:29 EDT · **Closed:** 2026-07-28 14:37:02 EDT
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
 ## Description
@@ -13,11 +13,11 @@ pathing: define the deterministic bead page path, carry the beads sidecar remote
 
 ## Dependencies
 
-- **Blocks:** [sase-ai.2](sase-ai.2.md) ✓
-- **Blocks:** [sase-ai.3](sase-ai.3.md) ✓
-- **Blocks:** [sase-ai.4](sase-ai.4.md) ✓
-- **Blocks:** [sase-ai.6](sase-ai.6.md) ✓
-- **Blocks:** [sase-ai.8](sase-ai.8.md) ✓
+- **Blocks:** [sase-ai.2](sase-ai.2.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.3](sase-ai.3.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.4](sase-ai.4.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.6](sase-ai.6.md) ✓ · ⧖ 2026-07-28
+- **Blocks:** [sase-ai.8](sase-ai.8.md) ✓ · ⧖ 2026-07-28
 
 ## Agents
 
@@ -27,6 +27,6 @@ pathing: define the deterministic bead page path, carry the beads sidecar remote
 
 ## Commits
 
-| Repo | Commit | Subject | Bead | Committed (UTC) |
+| Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`2a8d2eb`](https://github.com/sase-org/sase/commit/2a8d2eb6e42537b6eb56e935d1faf3cdce811d2d) | feat(sdd): add bead page addressing and hosted bead URLs (sase-ai.1) | [sase-ai.1](sase-ai.1.md) | 2026-07-28 18:38:10 |
+| sase | [`2a8d2eb`](https://github.com/sase-org/sase/commit/2a8d2eb6e42537b6eb56e935d1faf3cdce811d2d) | feat(sdd): add bead page addressing and hosted bead URLs (sase-ai.1) | [sase-ai.1](sase-ai.1.md) | 2026-07-28 14:38:10 EDT |
