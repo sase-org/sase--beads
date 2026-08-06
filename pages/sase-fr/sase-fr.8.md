@@ -14,7 +14,7 @@ docs: document the close-history record, the reopen causes, the retroactive reco
 ## Dependencies
 
 - **Depends on:** [sase-fr.4](sase-fr.4.md) ✓ · ⧖ 2026-08-05
-- **Depends on:** [sase-fr.5](sase-fr.5.md) ◐ · ⧖ 2026-08-05
+- **Depends on:** [sase-fr.5](sase-fr.5.md) ✓ · ⧖ 2026-08-05
 - **Depends on:** [sase-fr.6](sase-fr.6.md) ✓ · ⧖ 2026-08-05
 - **Depends on:** [sase-fr.7](sase-fr.7.md) ◐ · ⧖ 2026-08-05
 
