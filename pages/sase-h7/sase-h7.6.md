@@ -20,4 +20,4 @@ inputs-ace: extract the typed-field form out of `InputCollectionModal` into a re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.6/README.md) | [sase-h7.6](sase-h7.6.md) | 0 |
+| [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.6.md) | [sase-h7.6](sase-h7.6.md) | 0 |
