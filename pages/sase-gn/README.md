@@ -31,6 +31,30 @@ Why existing tests missed it: tests/test_bead/test_snooze_gate.py's close/ready/
 
 Isolated in a scratch SASE_HOME + scratch bead store via a throwaway /tmp script (not committed); no real user data was touched.
 
+[2026-08-07T03:53:13Z · toobig-1v.split_file.src.sase.bead.task_gate.0] DISCOVERED ISSUE: commit 0f7960d08 (phase sase-gn.8, 'snooze task beads from the Beads pane') left the ACE PNG golden tests/ace/tui/visual/snapshots/png/artifacts_beads_reopened_detail_120x40.png stale. It added the conditional 'z snooze' footer chip in the Beads pane but did not refresh this golden, so 'just test-visual' fails on clean master (1 failed, 410 passed, 1 skipped).
+
+Repro (verified on master 0f7960d08 with a stashed working tree, so not caused by the change under test):
+  just test-visual
+  \# or: SASE_PYTEST_EXCLUDE_VISUAL=0 .venv/bin/python tools/run_pytest visual tests/ace/tui/visual/test_ace_png_snapshots_artifacts_beads_reopened.py
+
+Failure: tests/ace/tui/visual/test_ace_png_snapshots_artifacts_beads_reopened.py::test_artifacts_beads_reopened_detail_png_snapshot -- 515/1520532 changed pixels (0.033870%), all material, tolerance 0. The diff PNG shows exactly one delta: the new footer chip 'z snooze' at the bottom-left of the Beads detail view. Everything else is pixel-identical.
+
+The golden was last touched by 09bb443ea, one commit before 0f7960d08. The fix is an intentional golden refresh (--sase-update-visual-snapshots) for this one snapshot; no code change is implied. Reported by the agent that split src/sase/bead/task_gate.py -- 'just check-full' is otherwise fully green, and test-visual is not part of check/check-full.
+
+Evidence: file:explicit:bd71db24c9d2d1e831611af5
+
+[2026-08-07T04:13:14Z · sase-gn.land] LAND REVIEW (sase-gn.land): verification and integration complete; remaining work planned rather than closed.
+
+VERIFIED. All nine phases deliver what their notes claim, checked against source and the epic's nine commits (5e6a94a38 .. 44727b027): the single-valued tab rule and classify_notification_tabs binding, the tab-color resolver and ace.notification_tabs config, NotificationIndicator.set_tabs with per-tab chips and bounded overflow, the snoozed status across the Rust core / Python model / SQLite CHECK constraints in _db_schema.py, 'sase bead snooze', the bead_snooze gate, the v3 reconciler state, the ACE BeadSnoozeModal on 'z', and the docs updates. The sase-core half is committed and pushed (7ee5105, d5a08da, 97d8925) and released as 0.18.5.
+
+INTEGRATED. Exactly one non-epic commit landed during the epic: 5be45045d, the bead SQLite layer split. It already absorbed this epic's snooze work (snooze codecs in _db_codec.py, the snoozed-status CHECK constraints and column in _db_schema.py, _migrate_snoozed_status in _db_migrations.py, snooze hydration in _db_rows.py), and no later epic commit touched db.py. Nothing duplicates or conflicts; no integration work remained.
+
+CORRUPTION BUG CONFIRMED AND ROOT-CAUSED at the Rust binding level, reproduced in a scratch store: bead_close on a snoozed bead raises 'Only snoozed issues can carry snooze metadata' and every later read of that beads_dir fails identically, in any process. Two faults combine. (1) MutableStore::close_one and the IssueClosed reducer arm both set status=Closed without clearing snooze, unlike apply_update_fields / apply_update_event_fields which clear it deliberately. (2) MutableStore::save writes the event store before write_issues_jsonl validates, so the issue_closed event is durable while issues.jsonl keeps the pre-close snapshot - confirmed on disk. Because issues.jsonl is still valid, clearing snooze in the reducer makes bricked stores self-heal on replay. Probing every mutation reachable from snoozed: close bricks the store; reopen and claim_for_agent_launch raise the same error but validate before persisting so the store survives; claim_for_agent_wait, update --status, plus_one, and remove are all correct.
+
+PLANNED, not closed. The corruption, the save ordering, the orphaned Rust wake_due_task_snoozes selector, the two rival snooze parsers (snooze_time.py and snooze_duration.py, whose docstrings each claim to be the only one), and 'sase bead list' excluding snoozed are all epic-caused, so they stay epic work. Proposed as epic plan sase_plan_snooze_close_corruption.md, whose final phase closes this bead, runs symvision, and marks the sase-gn plan file done.
+
+FOLLOW-UPS DISPOSITIONED. The four ACE TUI parallel-lane flakes from sase-gn.1/.2/.6/.8 were corroborated onto existing task sase-ct as a +1 rather than refiled. New tasks: sase-go (test_contract_set_serial_runtime_stays_within_budget flakes despite its calibration probes), sase-gp (mobile core knows neither bead gate kind, plus the mobile-priority question), sase-gq (Telegram /bead is read-only so snoozing needs a gate button), sase-gr (sase/memory/sase_beads.md status list is missing snoozed; needs owner approval). sase-gn.1's and sase-gn.2's release follow-ups are folded into the plan's pin bump. Two sase-gn.6 notes were design records needing no action: GateAdapter.validate_selection is the only place a mistyped re-snooze duration can be rejected while leaving the gate pending, and the shared parser layers days onto parse_duration, which has no day unit.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -51,32 +75,49 @@ Isolated in a scratch SASE_HOME + scratch bead store via a throwaway /tmp script
 flowchart TD
     n0["sase-gn: Snoozed task beads and a per-tab notification indicator [in_progress]"]
     n1["sase-gn.1: One tab per notification, counted in the core [closed]"]
-    n2["sase-gn.2: Notification tab colors from senders and config [closed]"]
-    n3["sase-gn.3: Per-tab notification indicator and hover briefing [closed]"]
-    n4["sase-gn.4: Snoozed task bead status in the Rust core [closed]"]
-    n5["sase-gn.5: sase bead snooze and snooze-aware detail surfaces [closed]"]
-    n6["sase-gn.6: BeadSnooze wake gate [closed]"]
-    n7["sase-gn.7: One pending gate per task bead [closed]"]
-    n8["sase-gn.8: Snoozing from ACE, Telegram, and mobile [closed]"]
-    n9["sase-gn.9: Cross-surface verification and documentation [closed]"]
+    n2["sase-gn.10: Repair the snooze close path and finish landing epic sase-gn [in_progress]"]
+    n3["sase-gn.10.1: Stop a close from bricking a snoozed bead's store [closed]"]
+    n4["sase-gn.10.2: Non-mocked close regression coverage and the core pin bump [in_progress]"]
+    n5["sase-gn.10.3: One snooze wake-time parser, not two [in_progress]"]
+    n6["sase-gn.10.4: Snoozed beads stay visible in the default listing [in_progress]"]
+    n7["sase-gn.10.5: Close epic sase-gn [in_progress]"]
+    n8["sase-gn.2: Notification tab colors from senders and config [closed]"]
+    n9["sase-gn.3: Per-tab notification indicator and hover briefing [closed]"]
+    n10["sase-gn.4: Snoozed task bead status in the Rust core [closed]"]
+    n11["sase-gn.5: sase bead snooze and snooze-aware detail surfaces [closed]"]
+    n12["sase-gn.6: BeadSnooze wake gate [closed]"]
+    n13["sase-gn.7: One pending gate per task bead [closed]"]
+    n14["sase-gn.8: Snoozing from ACE, Telegram, and mobile [closed]"]
+    n15["sase-gn.9: Cross-surface verification and documentation [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
     n0 --> n8
     n0 --> n9
-    n1 -.-> n2
-    n2 -.-> n3
-    n3 -.-> n9
-    n4 -.-> n5
-    n4 -.-> n6
-    n5 -.-> n8
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n1 -.-> n8
+    n3 -.-> n4
+    n3 -.-> n7
+    n4 -.-> n7
+    n5 -.-> n7
     n6 -.-> n7
-    n7 -.-> n8
     n8 -.-> n9
+    n9 -.-> n15
+    n10 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n14
+    n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -84,6 +125,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-gn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.1/README.md) | [sase-gn.1](sase-gn.1.md) | 2 |
+| [bbugyi200.athena.sase-gn.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.1/README.md) | [sase-gn.10.1](sase-gn.10.1.md) | 1 |
+| [bbugyi200.athena.sase-gn.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.2/README.md) | [sase-gn.10.2](sase-gn.10.2.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.3/README.md) | [sase-gn.10.3](sase-gn.10.3.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.4/README.md) | [sase-gn.10.4](sase-gn.10.4.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.5/README.md) | [sase-gn.10.5](sase-gn.10.5.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.land/README.md) | [sase-gn.10](sase-gn.10.md) | 0 |
 | [bbugyi200.athena.sase-gn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.2/README.md) | [sase-gn.2](sase-gn.2.md) | 2 |
 | [bbugyi200.athena.sase-gn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.3/README.md) | [sase-gn.3](sase-gn.3.md) | 1 |
 | [bbugyi200.athena.sase-gn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.4/README.md) | [sase-gn.4](sase-gn.4.md) | 2 |
@@ -110,3 +157,4 @@ flowchart TD
 | sase | [`09bb443`](https://github.com/sase-org/sase/commit/09bb443ea4206edf188b54042713cf561fc89f94) | feat(ace-tui): show one indicator chip per notification tab | [sase-gn.3](sase-gn.3.md) | 2026-08-06 21:45:00 EDT |
 | sase | [`0f7960d`](https://github.com/sase-org/sase/commit/0f7960d0853a7cd52721cec1361ae1c394cd0dee) | feat(ace-tui): snooze task beads from the Beads pane | [sase-gn.8](sase-gn.8.md) | 2026-08-06 22:48:14 EDT |
 | sase | [`44727b0`](https://github.com/sase-org/sase/commit/44727b0275df6c62f09c7929677ce54e35f4a8a4) | docs(bead): document the snoozed task-bead status and per-tab indicator | [sase-gn.9](sase-gn.9.md) | 2026-08-06 23:46:28 EDT |
+| sase-core | [`sase-core@0c3e287`](https://github.com/sase-org/sase-core/commit/0c3e287f41842e68727b0bfc9e3001a1b2963b09) | fix(bead): stop a close from bricking a snoozed bead's store | [sase-gn.10.1](sase-gn.10.1.md) | 2026-08-07 00:28:14 EDT |
