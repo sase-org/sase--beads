@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-gv
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.uo](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.uo/README.md) · **Assignee:** `sase-gv.land`
-**Created:** 2026-08-07 09:51:22 EDT
+**Created:** 2026-08-07 09:51:22 EDT · **Closed:** 2026-08-07 12:48:22 EDT
 **Plan:** [202608/admin\_center\_apostrophe\_jump.md](https://github.com/sase-org/sase--plans/blob/main/202608/admin_center_apostrophe_jump.md)
 
 ## Description
@@ -28,7 +28,7 @@ Pressing the apostrophe key inside any SASE Admin Center working tab enters adap
 
 ```mermaid
 flowchart TD
-    n0["sase-gv: Apostrophe entry jump on every Admin Center tab [in_progress]"]
+    n0["sase-gv: Apostrophe entry jump on every Admin Center tab [closed]"]
     n1["sase-gv.1: Shared pane entry-jump mixin and Logs migration [closed]"]
     n2["sase-gv.2: Tasks tab jump [closed]"]
     n3["sase-gv.3: XPrompts tab jump [closed]"]
@@ -59,6 +59,10 @@ flowchart TD
     n7 -.-> n8
 ```
 
+## Dependencies
+
+- **Blocks:** [sase-h1](../sase-h1/README.md) ◐ · ⧖ 2026-08-07
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -71,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.6/README.md) | [sase-gv.6](sase-gv.6.md) | 1 |
 | [bbugyi200.athena.sase-gv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.7/README.md) | [sase-gv.7](sase-gv.7.md) | 1 |
 | [bbugyi200.athena.sase-gv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.8/README.md) | [sase-gv.8](sase-gv.8.md) | 1 |
-| [bbugyi200.athena.sase-gv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.land/README.md) | [sase-gv](README.md) | 0 |
+| [bbugyi200.athena.sase-gv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.land/README.md) | [sase-gv](README.md) | 1 |
 
 ## Commits
 
@@ -85,3 +89,4 @@ flowchart TD
 | sase | [`64922e1`](https://github.com/sase-org/sase/commit/64922e12acefbe1e202e69fa1d8146b06b7bad2e) | feat(ace): wire XPrompts browser rows onto the shared entry-jump mixin | [sase-gv.3](sase-gv.3.md) | 2026-08-07 11:13:12 EDT |
 | sase | [`d7f34d8`](https://github.com/sase-org/sase/commit/d7f34d84dc9dd98447b57a499ea24fa02dcc2108) | feat(ace): add entry-jump mode to the Updates tab's Plugins and Agent CLIs panes | [sase-gv.5](sase-gv.5.md) | 2026-08-07 11:23:50 EDT |
 | sase | [`3b5c76d`](https://github.com/sase-org/sase/commit/3b5c76da4e879f22388e614d8e8a6361dbff32c8) | docs(ace): document the Admin Center-wide apostrophe entry-jump key | [sase-gv.8](sase-gv.8.md) | 2026-08-07 11:56:17 EDT |
+| sase | [`8692478`](https://github.com/sase-org/sase/commit/8692478c94f52ba34117cca2fa75fde74bea8a87) | fix(ace): route every jump-mode key to the pane that painted the hints | [sase-gv](README.md) | 2026-08-07 12:49:19 EDT |
