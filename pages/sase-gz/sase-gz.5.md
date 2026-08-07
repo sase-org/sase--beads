@@ -14,7 +14,7 @@ core-floor: raise the `sase-core-rs` floor to the release carrying the tab icon 
 ## Dependencies
 
 - **Depends on:** [sase-gz.1](sase-gz.1.md) ✓ · ⧖ 2026-08-07
-- **Depends on:** [sase-gz.2](sase-gz.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gz.2](sase-gz.2.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gz.3](sase-gz.3.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
