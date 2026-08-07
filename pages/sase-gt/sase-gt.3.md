@@ -13,7 +13,7 @@ chezmoi: move the chezmoi repo's own prettier recipes and the nvim conform prett
 
 ## Dependencies
 
-- **Depends on:** [sase-gt.2](sase-gt.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gt.2](sase-gt.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

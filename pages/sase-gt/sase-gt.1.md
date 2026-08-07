@@ -21,7 +21,7 @@ unify: introduce sase.markdown_width as the single width authority plus a packag
 
 ## Dependencies
 
-- **Blocks:** [sase-gt.2](sase-gt.2.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gt.2](sase-gt.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
