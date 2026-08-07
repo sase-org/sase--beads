@@ -16,7 +16,7 @@ docs: add gate-input and gate-action sections to `docs/notifications.md`, rewrit
 - **Depends on:** [sase-h7.10](sase-h7.10.md) ◐ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.11](sase-h7.11.md) ◐ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.5](sase-h7.5.md) ✓ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.7](sase-h7.7.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.7](sase-h7.7.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.9](sase-h7.9.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
