@@ -28,7 +28,7 @@ render: draw the icon in the modal tab strip and in every indicator chip, replac
 ## Dependencies
 
 - **Depends on:** [sase-gz.2](sase-gz.2.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gz.6](sase-gz.6.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gz.6](sase-gz.6.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

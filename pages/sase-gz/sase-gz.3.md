@@ -24,7 +24,7 @@ gate-contract: add the required `presentation.panel_icon` gate field, project it
 ## Dependencies
 
 - **Blocks:** [sase-gz.5](sase-gz.5.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gz.6](sase-gz.6.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gz.6](sase-gz.6.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
