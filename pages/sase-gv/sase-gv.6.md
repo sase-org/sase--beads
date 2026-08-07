@@ -11,6 +11,10 @@
 
 config: wire the config field tree onto the shared mixin by decorating node labels in place, without rebuilding the tree or disturbing fold state.
 
+## Notes
+
+[2026-08-07T14:50:05Z · sase-gv.6] PROPOSED FOLLOW-UP: `just check` SASE validation fails on `init skills --check` — the 5 provider copies of sase_gate/SKILL.md in chezmoi are stale versus src/sase/xprompts/skills/sase_gate.md since commit 7ca857a9a; needs a `sase init skills` run. Pre-existing on master, unrelated to sase-gv.
+
 ## Dependencies
 
 - **Depends on:** [sase-gv.1](sase-gv.1.md) ✓ · ⧖ 2026-08-07

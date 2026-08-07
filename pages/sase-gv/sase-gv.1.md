@@ -23,7 +23,7 @@ shared: add the reusable pane entry-jump mixin that owns hint allocation, the pe
 
 - **Blocks:** [sase-gv.2](sase-gv.2.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-gv.3](sase-gv.3.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-gv.4](sase-gv.4.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gv.4](sase-gv.4.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-gv.5](sase-gv.5.md) ◐ · ⧖ 2026-08-07
 - **Blocks:** [sase-gv.6](sase-gv.6.md) ◐ · ⧖ 2026-08-07
 - **Blocks:** [sase-gv.7](sase-gv.7.md) ◐ · ⧖ 2026-08-07
