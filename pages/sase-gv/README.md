@@ -19,7 +19,7 @@ Pressing the apostrophe key inside any SASE Admin Center working tab enters adap
 | [sase-gv.2](sase-gv.2.md) | Tasks tab jump | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-gv.3](sase-gv.3.md) | XPrompts tab jump | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-gv.4](sase-gv.4.md) | Projects tab jump across all three sub-tabs | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-gv.5](sase-gv.5.md) | Updates tab jump for Plugins and Agent CLIs | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-gv.5](sase-gv.5.md) | Updates tab jump for Plugins and Agent CLIs | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gv.6](sase-gv.6.md) | Config tab jump over visible tree rows | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gv.7](sase-gv.7.md) | Statistics tab jump to numbered views | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-gv.8](sase-gv.8.md) | Documentation and full-suite verification | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n2["sase-gv.2: Tasks tab jump [closed]"]
     n3["sase-gv.3: XPrompts tab jump [closed]"]
     n4["sase-gv.4: Projects tab jump across all three sub-tabs [closed]"]
-    n5["sase-gv.5: Updates tab jump for Plugins and Agent CLIs [in_progress]"]
+    n5["sase-gv.5: Updates tab jump for Plugins and Agent CLIs [closed]"]
     n6["sase-gv.6: Config tab jump over visible tree rows [closed]"]
     n7["sase-gv.7: Statistics tab jump to numbered views [closed]"]
     n8["sase-gv.8: Documentation and full-suite verification [in_progress]"]
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.2/README.md) | [sase-gv.2](sase-gv.2.md) | 1 |
 | [bbugyi200.athena.sase-gv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.3/README.md) | [sase-gv.3](sase-gv.3.md) | 1 |
 | [bbugyi200.athena.sase-gv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.4/README.md) | [sase-gv.4](sase-gv.4.md) | 1 |
-| [bbugyi200.athena.sase-gv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.5/README.md) | [sase-gv.5](sase-gv.5.md) | 0 |
+| [bbugyi200.athena.sase-gv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.5/README.md) | [sase-gv.5](sase-gv.5.md) | 1 |
 | [bbugyi200.athena.sase-gv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.6/README.md) | [sase-gv.6](sase-gv.6.md) | 1 |
 | [bbugyi200.athena.sase-gv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.7/README.md) | [sase-gv.7](sase-gv.7.md) | 1 |
 | [bbugyi200.athena.sase-gv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.8/README.md) | [sase-gv.8](sase-gv.8.md) | 0 |
@@ -83,3 +83,4 @@ flowchart TD
 | sase | [`317b83e`](https://github.com/sase-org/sase/commit/317b83e72b1d5780ac9474218af9bfea60c30f39) | feat(ace): arm numbered-view selection via apostrophe on the Statistics tab | [sase-gv.7](sase-gv.7.md) | 2026-08-07 11:11:26 EDT |
 | sase | [`02758f8`](https://github.com/sase-org/sase/commit/02758f8f18f629b85f112c0277b4f7b0cb748321) | feat(ace): add hint-jump mode to the Config Center field tree | [sase-gv.6](sase-gv.6.md) | 2026-08-07 11:11:29 EDT |
 | sase | [`64922e1`](https://github.com/sase-org/sase/commit/64922e12acefbe1e202e69fa1d8146b06b7bad2e) | feat(ace): wire XPrompts browser rows onto the shared entry-jump mixin | [sase-gv.3](sase-gv.3.md) | 2026-08-07 11:13:12 EDT |
+| sase | [`d7f34d8`](https://github.com/sase-org/sase/commit/d7f34d84dc9dd98447b57a499ea24fa02dcc2108) | feat(ace): add entry-jump mode to the Updates tab's Plugins and Agent CLIs panes | [sase-gv.5](sase-gv.5.md) | 2026-08-07 11:23:50 EDT |

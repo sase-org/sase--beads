@@ -16,7 +16,7 @@ docs: document the Admin Center-wide apostrophe jump in the ACE guide and run th
 - **Depends on:** [sase-gv.2](sase-gv.2.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gv.3](sase-gv.3.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gv.4](sase-gv.4.md) ✓ · ⧖ 2026-08-07
-- **Depends on:** [sase-gv.5](sase-gv.5.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gv.5](sase-gv.5.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gv.6](sase-gv.6.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gv.7](sase-gv.7.md) ✓ · ⧖ 2026-08-07
 
