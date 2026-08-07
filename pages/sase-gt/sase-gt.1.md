@@ -15,6 +15,10 @@ unify: introduce sase.markdown_width as the single width authority plus a packag
 
 [2026-08-07T12:53:48Z · sase-gt.1] Added src/sase/markdown_width.py (MARKDOWN_PRINT_WIDTH=120 + prettier_markdown_argv()) as the single width authority and mirrored it in a package.json prettier block; verified prettier --find-config-path resolves to package.json and the tree checks clean with no CLI flags. Rewired all five Python sites (file_references, _init_skills_rendering, init_memory/formatting, memory/notes, markdown_wrap) to derive from it and dropped --prose-wrap/--print-width from both Justfile recipes. Added tests/test_markdown_print_width.py: package.json mirror, argv policy, Justfile-has-no-width regex, a src/ scan for stray prettier prose flags, and an AST scan for width constants bound to bare int literals; proved all three guards fail when I temporarily re-forked package.json width, the Justfile flag, and markdown_wrap's constant, then restored. Rewired the 120-hardcoding tests (test_format_with_prettier, test_init_skills_formatting, init_memory_handler_helpers' prettier_command, test_init_memory_formatting, test_init_memory_managed_agents) to derive from the constant and replaced the markdown_wrap tautology with an assertion that both names resolve to MARKDOWN_PRINT_WIDTH. Verified just check-full passes, git diff --stat -- '*.md' is empty (no width change, no reflow), just fmt-md-check passes, and sase init --check reports no drift.
 
+[2026-08-07T12:58:23Z · sase-gt.1] PROPOSED FOLLOW-UP: gitignore the maturin build output in sase-core — `just install` leaves crates/sase_core_py/python/sase_core_rs/sase_core_rs.abi3.so untracked in the linked sase-core checkout, so every agent that installs trips the commit finalizer with a compiled binary it should not commit.
+
+[2026-08-07T12:59:05Z · sase-gt.1] Phase 1 complete: single prose-width authority in src/sase/markdown_width.py; package.json prettier mirror; five Python sites and both Justfile recipes derive from it; guard tests in tests/test_markdown_print_width.py verified to bite. just check-full green, git diff on *.md empty, sase init --check clean. Committed as c37e68f7a.
+
 ## Dependencies
 
 - **Blocks:** [sase-gt.2](sase-gt.2.md) ◐ · ⧖ 2026-08-07
@@ -23,10 +27,11 @@ unify: introduce sase.markdown_width as the single width authority plus a packag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-gt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.1/README.md) | [sase-gt.1](sase-gt.1.md) | 1 |
+| [bbugyi200.athena.sase-gt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.1/README.md) | [sase-gt.1](sase-gt.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c37e68f`](https://github.com/sase-org/sase/commit/c37e68f7a5bcf73ceaa90923cb60a12ffd91b7e0) | refactor: collapse every prose-width declaration onto one source of truth | [sase-gt.1](sase-gt.1.md) | 2026-08-07 08:55:19 EDT |
+| sase-core | [`sase-core@6bcad2f`](https://github.com/sase-org/sase-core/commit/6bcad2f638826ab92ba6b986c9af85e785248eaa) | build: ignore maturin-built abi3 extension modules | [sase-gt.1](sase-gt.1.md) | 2026-08-07 08:59:38 EDT |

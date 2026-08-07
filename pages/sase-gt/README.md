@@ -15,7 +15,7 @@ Every place that wraps Markdown prose derives its width from a single declared s
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-gt.1](sase-gt.1.md) | Collapse every prose-width declaration onto one source of truth | ✓ closed | medium | 2026-08-07 | 1 | 1 |
+| [sase-gt.1](sase-gt.1.md) | Collapse every prose-width declaration onto one source of truth | ✓ closed | medium | 2026-08-07 | 1 | 2 |
 | [sase-gt.2](sase-gt.2.md) | Move the declared width from 120 to 100 and reflow the repo | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-gt.3](sase-gt.3.md) | Move the chezmoi repo and the editor formatter to 100 | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 
@@ -38,7 +38,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-gt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.1/README.md) | [sase-gt.1](sase-gt.1.md) | 1 |
+| [bbugyi200.athena.sase-gt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.1/README.md) | [sase-gt.1](sase-gt.1.md) | 2 |
 | [bbugyi200.athena.sase-gt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.2/README.md) | [sase-gt.2](sase-gt.2.md) | 0 |
 | [bbugyi200.athena.sase-gt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.3/README.md) | [sase-gt.3](sase-gt.3.md) | 0 |
 | [bbugyi200.athena.sase-gt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.land/README.md) | [sase-gt](README.md) | 0 |
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c37e68f`](https://github.com/sase-org/sase/commit/c37e68f7a5bcf73ceaa90923cb60a12ffd91b7e0) | refactor: collapse every prose-width declaration onto one source of truth | [sase-gt.1](sase-gt.1.md) | 2026-08-07 08:55:19 EDT |
+| sase-core | [`sase-core@6bcad2f`](https://github.com/sase-org/sase-core/commit/6bcad2f638826ab92ba6b986c9af85e785248eaa) | build: ignore maturin-built abi3 extension modules | [sase-gt.1](sase-gt.1.md) | 2026-08-07 08:59:38 EDT |
