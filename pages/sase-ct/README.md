@@ -2,11 +2,17 @@
 
 [Bead Pages](../README.md) / sase-ct
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +19 · **↺ Reopened:** ↺3
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +25 · **↺ Reopened:** ↺4
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qr](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.qr.md) · **Assignee:** `sase-ct`
-**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-06 16:52:21 EDT
+**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-07 12:46:55 EDT
 
 ## Previously Closed
+
+> ↺ Closed 2026-08-06T20:52:21Z · done
+>
+> (none)
+>
+> Reopened 2026-08-06T22:59:29Z by a +1 from @sase-gj.land
 
 > ↺ Closed 2026-08-06T19:56:19Z · done
 >
@@ -41,6 +47,16 @@ Two independent full 'just test' runs each failed exactly one ACE TUI test, but 
 [2026-08-06T19:56:19Z · sase-ct] Fixed the currently-tracked instance: tests/ace/tui/test_agent_bulk_kill_edit.py::test_bulk_waiting_agents_mount_forced_artifact_prompts raced a single pilot.pause() against relaunch-prompt resolution running off the Textual message pump. Replaced the two racy pause() calls with a _wait_until() polling helper (bounded 5s timeout, polls via pilot.pause() until ConfirmKillAllModal mounts / PromptInputBar mounts). Verified: (1) file's 11 tests pass repeatedly (-p no:randomly); (2) reproduced the original race by injecting an artificial delay into the resolver and confirmed the old single-pause assertion failed with the exact Screen(id='_default') vs ConfirmKillAllModal mismatch from the bead's corroborating reports, then confirmed the new helper survives the same delay; (3) full just check (26043 passed, 7 skipped) had one unrelated failure, test_concurrent_bead_mutations_wait_past_the_old_lock_timeout, which passed cleanly in isolation and matches the bead-lock contention flake already tracked separately under sase-e2 (explicitly out of this bead's scope per the 2026-08-05 triage note).
 
 [2026-08-06T20:52:21Z · sase-ct] Fixed the currently-tracked instance named by the 2026-08-06T20:28:23Z reopen (sase-fi corroboration): tests/ace/tui/widgets/test_prompt_codeblock_highlight.py::test_codeblock_band_replaces_cursor_line_fill_but_not_cursor. Root cause: the assertion depends on cursor_style.bgcolor, but Textual's default cursor_blink=True cursor rendering also depends on the blink timer's _cursor_visible phase (toggles every 0.5s of real wall-clock time). Under host contention, enough real time can pass between focus() and the assertion for the blink to flip off, at which point the cursor cell renders with cursor_line_style.bgcolor instead (which the codeblock overlay repaints to card_background), breaking the assertion — a real-time race, not a pump/settle gap. Fix: set text_area.cursor_blink = False before the assertion so cursor rendering depends only on has_focus. Verified: (1) reproduced the exact failure deterministically by injecting a genuine wall-clock delay past the blink threshold after focus() on the unpatched test; (2) confirmed the cursor_blink=False fix survives the same injected delay; (3) the file's 12 tests pass repeatedly; (4) just check-equivalent gates all pass: fmt (python/markdown), lint (keep-sorted/ruff/mypy/pyscripts/changelog/toobig), SASE validation, committed-plans validation, and the diff-scoped test lane (310 passed). lint (symvision) fails on this run but is pre-existing on clean master (reproduced identically with this diff stashed out) — stale --epic-symbol whitelist entries for now-closed beads sase-gi.2/sase-gi.4; recorded as a DISCOVERED ISSUE on in-progress epic sase-gi rather than expanding this bead's scope.
+
+[2026-08-07T16:30:26Z · sase-gv.land] Reopened by +1 threshold: reached 25 +1s while snoozed until 2026-08-10T09:21:53-04:00.
+
+[2026-08-07T16:46:55Z · sase-ct] Fixed the currently-most-recurring named node: tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent, which the 2026-08-06T23:23:10Z sase-gi.land note already root-caused. hitch_threshold_seconds=0.03 coincidentally equals the shared `await asyncio.sleep(0.03)` pre-block settle idiom used across this file, so under host contention the settle window itself can overrun the hitch threshold and record an extra tui_hitch/tui_hitch_recovered pair before the deliberate block, breaking the test's exact-count assertions. Applied the note's own suggested remedy: loosened the four event-count assertions from `== 1` to `>= 1` while keeping the real invariant (`events.index("tui_hitch") < events.index("tui_stall")`), since the state machines' independence and ordering is what the test actually verifies, not exact counts.
+
+Verified: (1) deterministically reproduced the failure by injecting a synchronous contention burst during the settle window (a throwaway repro script, not committed) — this produced the exact predicted event sequence ['tui_hitch', 'tui_hitch_recovered', 'tui_hitch', 'tui_stall', 'tui_hitch_recovered', 'tui_stall_recovered'], confirmed the OLD `== 1` assertions fail against it (tui_hitch count is 2), and confirmed the NEW `>= 1` assertions pass; (2) traced _stall_watchdog_monitor.py's _run() poll loop to confirm hitch-recovery and stall-recovery checks read the same gap snapshot each iteration, so no valid recovery signal is lost by loosening the counts; (3) the file's 17 tests pass reliably across 5 repeated runs (-p no:randomly); (4) full 'just check' green: all lint gates (fmt python/markdown, keep-sorted, ruff, mypy, pyscripts, changelog, symvision, toobig), SASE validation, committed-plans validation, and the diff-scoped test lane, run on this host while ~10 other sase agents were concurrently running full check/check-full suites (the exact contention this bead is about).
+
+Not fixed, left open per this umbrella's own scope: the other new node from the 2026-08-07T16:30:26Z reopen, tests/ace/tui/test_plugins_browser_pane_sase_update_dev.py::test_updates_pane_sase_dev_update_shows_all_commit_groups (sase-gv.1), has no diagnosis yet beyond fail-under-load/pass-in-isolation; recording rather than guessing at a fix. This bead's class remains broader than any single node, consistent with every prior closure here.
+
+[2026-08-07T16:47:43Z · sase-ct] Fixed tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent: loosened four exact-count assertions (tui_hitch/tui_stall/tui_hitch_recovered/tui_stall_recovered == 1 -> >= 1) while preserving the real invariant (hitch precedes stall). Root cause: hitch_threshold_seconds=0.03 collides with the file's shared pre-block settle idiom (await asyncio.sleep(0.03)), so host scheduling jitter during settle can register a spurious extra hitch cycle before the deliberate block. Verified: deterministically reproduced the double-hitch race via injected contention (old assertions failed, new ones pass), traced the watchdog poll loop to confirm no real signal is lost, ran the file 5x clean, and ran just check green (fmt/lint/SASE validation/scoped tests) under concurrent host load.
 
 ## +1 Evidence
 
@@ -146,6 +162,54 @@ Two independent full 'just test' runs each failed exactly one ACE TUI test, but 
 >
 > Recurrence on master 5da193482 during 'just check-full' for task sase-fi (2026-08-06): tests/ace/tui/widgets/test_prompt_codeblock_highlight.py::test_codeblock_band_replaces_cursor_line_fill_but_not_cursor failed in the full parallel run and passed immediately when rerun in isolation. This is a different ACE TUI test than the ones this bead already names, and it is not covered by bde727ecc (which fixes the bulk-kill-and-edit race), so the umbrella parallel-isolation cause is still live. Unrelated to sase-fi, which only touches agents-sync prompt-archive publication.
 
+> **+1** by `sase-gj.land` · 2026-08-06 18:59:29 EDT
+>
+> Independent recurrence during sase-gj epic landing, master at 0de333e5d (plus a Justfile comment edit), 2026-08-06. `just test` failed exactly one node: tests/ace/tui/test_notification_custom_gate.py::test_tracked_executor_reports_terminal_and_extra_commands_live — `assert outcome.success is True` / `_GateTaskOutcome(message="cannot start command: [Errno 32] Broken pipe", success=False, severity="error")`. 1 failed / 26,496 passed / 7 skipped in 635.83s.
+>
+> Fresh because it postdates this bead being closed as done at 2026-08-06T20:52:21Z and is a different node from the one 3f69267d5 fixed, so the class is not closed out. It is also the exact node sase-f5 described before being superseded here.
+>
+> Load-sensitivity is unusually well isolated in this pair of runs: the same tree ran the same suite twice on the same host back to back. The 139.95s run passed this node (and failed a different, non-ACE one, now sase-gl); the 635.83s run — 4.5x the wall clock, i.e. heavy host contention — failed this one. Same tree, same command, failure follows load rather than code.
+>
+> Corroborating signal from the epic just landed: `just selection-health` independently classifies this node as flake-suppressed under sase-gj.6's reproducible_flake_nodeids rule (failed in >=2 full runs whose change sets share no file, so no one diff explains it). It is one of 4 such nodes across 10 scoped-run/failure matches, alongside test_stall_watchdog, test_cli_work_contention_regressions, and test_contract_manifest's budget guard.
+
+> **+1** by `sase-gi.land` · 2026-08-06 19:23:10 EDT
+>
+> Two independent recurrences during epic sase-gi (ordered-list auto-numbering in the prompt input widget), reported as PROPOSED FOLLOW-UP notes by its phase agents and consolidated here by sase-gi.land. Neither node is touched by the epic's work, which is confined to src/sase/ace/tui/widgets/_prompt_{list_markers,ordered_editing,ordered_shift_editing,bullet_editing,text_area_*}.py and _bullet_highlight.py.
+>
+> (1) tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent — failed under the parallel just check run during BOTH sase-gi.2 and sase-gi.4 verification (two separate agents, two separate workspaces, 2026-08-06T20:34Z and 20:40Z), passing in isolation each time. This is the same real-time-race shape as the cursor_blink instance this bead fixed at 2026-08-06T20:52Z, not a pump/settle gap: the test constructs _EventLoopStallWatchdog(threshold_seconds=0.08, hitch_threshold_seconds=0.03, poll_interval_seconds=0.01), does 'await asyncio.sleep(0.03)' then 'time.sleep(0.14)', and asserts events.count('tui_hitch') == 1 and events.count('tui_stall') == 1 (test_stall_watchdog.py:196-221). Under host contention the awaited 30ms sleep can itself overrun the 30ms hitch threshold, emitting an extra tui_hitch/tui_hitch_recovered pair before the deliberate stall and breaking the exact-count assertions. Suggested fix in the same spirit as the cursor_blink one: make the thresholds unreachable-by-accident (widen the gap between hitch_threshold_seconds and the pre-stall settle) or assert '>= 1 and hitch precedes stall' instead of exact counts.
+>
+> (2) tests/ace/tui/test_agent_metadata_search.py::test_inline_metadata_search_commit_repeat_q_and_passthrough — failed under a concurrent multi-workspace test load during sase-gi.2 verification and passed in isolation. Same node previously tracked by sase-dg, which the 2026-08-05 triage closed as superseded into this umbrella.
+>
+> Confirming this is host-contention flakiness and not latent breakage: on the epic's combined tree at master 9e4e4ff54, sase-gi.land ran 'just check-full' (all lint gates including symvision + the full suite) and 'just test-visual' (411 passed, 1 skipped) back to back on an otherwise-idle host, both green, with neither node failing.
+
+> **+1** by `sase-gn.land` · 2026-08-07 00:06:42 EDT
+>
+> Epic sase-gn hit this class four separate times across four different phases, each time under the parallel 'just check'/'just test' lane and each time passing in isolation and on rerun: tests/ace/tui/modals/test_artifact_files_modal_copy.py::test_artifact_file_modal_copy_anchors_pdf_markdown_source_path (sase-gn.1 and again in sase-gn.2), tests/ace/tui/modals/test_artifact_files_modal_copy.py::test_artifact_file_modal_y_recovers_workspace_from_agent_meta_json (sase-gn.6), and tests/ace/tui/test_agent_metadata_search.py::test_inline_metadata_search_reverse_key_override (sase-gn.8). None of those phases touched artifact modals or metadata search. sase-gn.9 additionally saw two ACE PNG snapshot tests (test_real_fakey_retry_countdown, test_agents_slow_tool_calls_fold_levels) fail mid-run under contention and pass in a clean full run, so the same isolation/timing sensitivity reaches the visual lane, not just the pytest lane.
+
+> **+1** by `ci_fix.sase.f` · 2026-08-07 01:44:05 EDT
+>
+> Independent recurrence in GitHub Actions CI (not a local 'just test' run) on master 222dd1e26, run 31148013407 job 'test (3.12)' coverage leg: tests/ace/tui/test_agent_metadata_search.py::test_inline_metadata_search_yank_and_frozen_refresh - AssertionError: assert 'needle' in ((None or '')), where '' = Static(id='agent-search-panel').content. 1 failed / 26,681 passed / 46 skipped in 1283.92s. Same file as the two metadata-search nodes this bead already names (commit_repeat_q_and_passthrough via sase-gi.land, reverse_key_override via sase-gn.land), so same class.
+>
+> DIAGNOSED AND FIXED this node rather than only reporting it. Root cause is NOT the generic 'one pilot.pause() stands in for real async work' shape; it is a lost-write race on the fixture corpus. tests/ace/tui/test_agent_metadata_search.py::_set_prompt_text injected the search corpus with a single panel.update(Text(content)) followed by one page.pause(). A queued Agents detail render (_fire_debounced_detail_update -> AgentDetail.update_display -> AgentPromptPanel.update_display) repaints #agent-prompt-panel during that pause and drops the injected text. VimSearchController.start() then captures an empty/real-metadata corpus via vim_search_corpus(), 'enter' hits _confirm() with current_selection None, which calls exit() -> vim_search_hide_overlay() -> #agent-search-panel.update(''), producing exactly the observed empty overlay.
+>
+> Confirmed the mechanism with a throwaway probe (not committed): forcing a repaint between injection and the keypress reproduces the CI assertion verbatim (overlay content empty, search mode 'off'). Ruled out the other candidates - AcePage passes refresh_interval=0 so no poll timer fires, and the prompt panel's enrichment thread workers (_agent_detail_header_worker et al) are never started for these fixtures.
+>
+> Fix (this workspace, tests-only): _set_prompt_text now re-applies the text until it survives a settling turn, with a 5s deadline, instead of assuming one write sticks. Whole-repo 'just check' green; its scoped lane escalated to the full suite (core-identity-changed), so the full suite ran. Leaving this bead open because the umbrella class is broader than this one node.
+
+> **+1** by `sase-gy.land` · 2026-08-07 12:24:03 EDT
+>
+> Relayed by epic land agent sase-gy.land from phase worker sase-gy.2 (PROPOSED FOLLOW-UP, 2026-08-07T15:46:51Z), an independent reporter distinct from this bead's creator and its existing +1 reporters. During epic sase-gy's default-88 phase, a full 'just test' run failed exactly one node, tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent, under heavy parallel load; the same node passed reliably in isolation immediately afterward. Same fail-under-full-parallel-load / pass-in-isolation signature this umbrella tracks, and the same watchdog node previously consolidated here from sase-cg. Impact: sase-gy.2's changes were a Markdown prose-width flip with no TUI surface at all, so this flake again intercepted a mandatory gate for an unrelated change and forced hand-adjudication. Corroborating detail from the current tree: the test drives real wall-clock thresholds (threshold_seconds=0.08, hitch_threshold_seconds=0.03, poll_interval_seconds=0.01 at tests/ace/tui/util/test_stall_watchdog.py:196-221), which is exactly the shape that cannot survive CPU contention; making those thresholds load-tolerant is a concrete remediation. Verified during this landing that the epic's own gates are otherwise green: 'just check' passed all nine lint gates plus SASE validation and an escalated full-suite scoped run.
+
+> **+1** by `sase-gv.land` · 2026-08-07 12:30:26 EDT
+>
+> Relayed by epic land agent sase-gv.land from two phase workers of epic sase-gv (Apostrophe entry jump on every Admin Center tab); an independent reporter from this bead's creator and existing +1s. Both are the fail-under-load / pass-in-isolation signature this umbrella tracks.
+>
+> (1) sase-gv.1 (PROPOSED FOLLOW-UP, 2026-08-07T14:17:35Z): a full parallel 'just test-scoped' run failed tests/ace/tui/test_plugins_browser_pane_sase_update_dev.py::test_updates_pane_sase_dev_update_shows_all_commit_groups; it passed in isolation and on a clean re-run of the same lane. That node is not named anywhere else in the bead store.
+>
+> (2) sase-gv.6 (PROPOSED FOLLOW-UP, 2026-08-07T15:08:03Z): the escalated full test lane failed tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent once under load and it passed in isolation. That is the same watchdog node sase-cg tracked before sase-cg was consolidated into this umbrella.
+>
+> Impact: both flakes fired inside a required per-phase 'just check' run, so each cost a phase worker a re-run before it could finish. sase-gv.1's other reported node (test_install_coverage_contexts_tool.py::test_installing_prunes_the_cache_to_the_keep_limit) is NOT part of this +1: it was a real defect fixed 16 minutes later by sase-gl / commit aec67f31c (deterministic cached_baselines mtime tie-break).
+
 ## References
 
 - file:explicit:93f0fff0d91c393a140e217d
@@ -161,7 +225,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 2 |
+| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 3 |
 
 ## Commits
 
@@ -169,3 +233,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`bde727e`](https://github.com/sase-org/sase/commit/bde727ecc0dbe67a734584e2c1abf3dbe49e8730) | fix(ace-tui): stop bulk-kill-and-edit test racing relaunch prompt resolution | [sase-ct](README.md) | 2026-08-06 15:57:13 EDT |
 | sase | [`3f69267`](https://github.com/sase-org/sase/commit/3f69267d516c5131ecca44b22399e67838b508c1) | fix(test-selection): stop the codeblock cursor test racing the blink timer | [sase-ct](README.md) | 2026-08-06 16:52:52 EDT |
+| sase | [`156cac8`](https://github.com/sase-org/sase/commit/156cac833248c0dfac7d24df371e1e052754474e) | fix(tests): loosen exact hitch/stall counts in watchdog independence test | [sase-ct](README.md) | 2026-08-07 12:48:55 EDT |
