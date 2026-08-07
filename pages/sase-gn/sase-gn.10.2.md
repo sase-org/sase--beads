@@ -18,7 +18,7 @@ snooze-close-regression: pin the sase-core release carrying the fix and cover bo
 ## Dependencies
 
 - **Depends on:** [sase-gn.10.1](sase-gn.10.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

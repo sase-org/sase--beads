@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-gn
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.uh](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.uh/README.md) · **Assignee:** `sase-gn.land`
-**Created:** 2026-08-06 19:27:14 EDT
+**Created:** 2026-08-06 19:27:14 EDT · **Closed:** 2026-08-07 13:50:27 EDT
 **Plan:** [202608/bead\_snooze\_and\_notification\_indicator.md](https://github.com/sase-org/sase--plans/blob/main/202608/bead_snooze_and_notification_indicator.md)
 
 ## Description
@@ -55,6 +55,18 @@ PLANNED, not closed. The corruption, the save ordering, the orphaned Rust wake_d
 
 FOLLOW-UPS DISPOSITIONED. The four ACE TUI parallel-lane flakes from sase-gn.1/.2/.6/.8 were corroborated onto existing task sase-ct as a +1 rather than refiled. New tasks: sase-go (test_contract_set_serial_runtime_stays_within_budget flakes despite its calibration probes), sase-gp (mobile core knows neither bead gate kind, plus the mobile-priority question), sase-gq (Telegram /bead is read-only so snoozing needs a gate button), sase-gr (sase/memory/sase_beads.md status list is missing snoozed; needs owner approval). sase-gn.1's and sase-gn.2's release follow-ups are folded into the plan's pin bump. Two sase-gn.6 notes were design records needing no action: GateAdapter.validate_selection is the only place a mistyped re-snooze duration can be rejected while leaving the gate pending, and the shared parser layers days onto parse_duration, which has no day unit.
 
+[2026-08-07T17:50:27Z · sase-gn.10.land] CLOSED BY sase-gn.10.land, finishing phase sase-gn.10.5's deliverable.
+
+Phase sase-gn.10.5 ('Close epic sase-gn') closed at 2026-08-07T17:11:05Z with no note and only half its work done: it had set 'status: done' on plans:202608/bead_snooze_and_notification_indicator.md, but sase-gn was still IN_PROGRESS and could not have been closed then — sase-gn.10 is sase-gn's descendant, and the descendant-close guard rejects a close while any descendant is open. The plan's phase ordering was circular. sase-gn.10 is now closed, so this close completes it.
+
+ALL NINE PHASES VERIFIED by the sase-gn land agent against source and the epic's nine commits (5e6a94a38..44727b027): the single-valued tab rule and classify_notification_tabs binding, the tab-color resolver and ace.notification_tabs config, NotificationIndicator.set_tabs with per-tab chips and bounded overflow, the snoozed status across the Rust core / Python model / SQLite CHECK constraints, 'sase bead snooze', the bead_snooze gate, the v3 reconciler state, the ACE BeadSnoozeModal on 'z', and the docs. The sase-core half shipped as 7ee5105, d5a08da and 97d8925, released as 0.18.5.
+
+INTEGRATION: exactly one non-epic commit landed mid-epic, 5be45045d (the bead SQLite layer split), and it had already absorbed this epic's snooze codecs, snoozed-status CHECK constraints and column, migration, and row hydration. Nothing duplicated or conflicted, so no integration work remained.
+
+EPIC-CAUSED DEFECTS, all fixed as epic work under child epic sase-gn.10 (plan plans:202608/snooz
+
+… and 1754 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -73,14 +85,14 @@ FOLLOW-UPS DISPOSITIONED. The four ACE TUI parallel-lane flakes from sase-gn.1/.
 
 ```mermaid
 flowchart TD
-    n0["sase-gn: Snoozed task beads and a per-tab notification indicator [in_progress]"]
+    n0["sase-gn: Snoozed task beads and a per-tab notification indicator [closed]"]
     n1["sase-gn.1: One tab per notification, counted in the core [closed]"]
-    n2["sase-gn.10: Repair the snooze close path and finish landing epic sase-gn [in_progress]"]
+    n2["sase-gn.10: Repair the snooze close path and finish landing epic sase-gn [closed]"]
     n3["sase-gn.10.1: Stop a close from bricking a snoozed bead's store [closed]"]
     n4["sase-gn.10.2: Non-mocked close regression coverage and the core pin bump [closed]"]
     n5["sase-gn.10.3: One snooze wake-time parser, not two [closed]"]
     n6["sase-gn.10.4: Snoozed beads stay visible in the default listing [closed]"]
-    n7["sase-gn.10.5: Close epic sase-gn [in_progress]"]
+    n7["sase-gn.10.5: Close epic sase-gn [closed]"]
     n8["sase-gn.2: Notification tab colors from senders and config [closed]"]
     n9["sase-gn.3: Per-tab notification indicator and hover briefing [closed]"]
     n10["sase-gn.4: Snoozed task bead status in the Rust core [closed]"]
@@ -130,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gn.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.3/README.md) | [sase-gn.10.3](sase-gn.10.3.md) | 1 |
 | [bbugyi200.athena.sase-gn.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.4/README.md) | [sase-gn.10.4](sase-gn.10.4.md) | 1 |
 | [bbugyi200.athena.sase-gn.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.5/README.md) | [sase-gn.10.5](sase-gn.10.5.md) | 0 |
-| [bbugyi200.athena.sase-gn.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.land/README.md) | [sase-gn.10](sase-gn.10.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.land/README.md) | [sase-gn.10](sase-gn.10.md) | 1 |
 | [bbugyi200.athena.sase-gn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.2/README.md) | [sase-gn.2](sase-gn.2.md) | 2 |
 | [bbugyi200.athena.sase-gn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.3/README.md) | [sase-gn.3](sase-gn.3.md) | 1 |
 | [bbugyi200.athena.sase-gn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.4/README.md) | [sase-gn.4](sase-gn.4.md) | 2 |
@@ -161,3 +173,4 @@ flowchart TD
 | sase | [`8b92115`](https://github.com/sase-org/sase/commit/8b92115e835227b0cd67754d4842ef9ef4183da1) | feat(bead): include snoozed status in default bead list filter | [sase-gn.10.4](sase-gn.10.4.md) | 2026-08-07 00:33:41 EDT |
 | sase | [`222dd1e`](https://github.com/sase-org/sase/commit/222dd1e26c9d6f579c0ceb4d97740f7e870e7dc3) | refactor(bead): merge snooze\_duration.py into snooze\_time.py as single wake-time parser | [sase-gn.10.3](sase-gn.10.3.md) | 2026-08-07 00:37:50 EDT |
 | sase | [`5b3f349`](https://github.com/sase-org/sase/commit/5b3f3494b9488719acacfa067d570fdef4d05f61) | build(deps): raise sase-core-rs floor to 0.19.0 and cover the snooze close path against a real store | [sase-gn.10.2](sase-gn.10.2.md) | 2026-08-07 01:20:07 EDT |
+| sase | [`8be11ae`](https://github.com/sase-org/sase/commit/8be11ae2998ccb46954d1c596111d607a3146136) | fix(bead): include snoozed beads in the mobile beads-list bridge default | [sase-gn.10](sase-gn.10.md) | 2026-08-07 13:59:58 EDT |

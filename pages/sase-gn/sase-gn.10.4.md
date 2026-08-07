@@ -19,7 +19,7 @@ snooze-list-default: add snoozed to `sase bead list`'s default status set and co
 
 ## Dependencies
 
-- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

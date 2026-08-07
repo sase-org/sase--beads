@@ -21,7 +21,7 @@ snooze-parser-merge: collapse snooze_time.py and snooze_duration.py into a singl
 
 ## Dependencies
 
-- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

@@ -22,7 +22,7 @@ snooze-close-core: clear the snooze record on every transition out of snoozed in
 ## Dependencies
 
 - **Blocks:** [sase-gn.10.2](sase-gn.10.2.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gn.10.5](sase-gn.10.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
