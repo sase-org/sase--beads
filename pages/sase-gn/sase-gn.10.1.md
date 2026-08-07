@@ -20,10 +20,4 @@ snooze-close-core: clear the snooze record on every transition out of snoozed in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-gn.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.1/README.md) | [sase-gn.10.1](sase-gn.10.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@0c3e287`](https://github.com/sase-org/sase-core/commit/0c3e287f41842e68727b0bfc9e3001a1b2963b09) | fix(bead): stop a close from bricking a snoozed bead's store | [sase-gn.10.1](sase-gn.10.1.md) | 2026-08-07 00:28:14 EDT |
+| [bbugyi200.athena.sase-gn.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.1/README.md) | [sase-gn.10.1](sase-gn.10.1.md) | 0 |

@@ -79,7 +79,7 @@ flowchart TD
     n3["sase-gn.10.1: Stop a close from bricking a snoozed bead's store [closed]"]
     n4["sase-gn.10.2: Non-mocked close regression coverage and the core pin bump [in_progress]"]
     n5["sase-gn.10.3: One snooze wake-time parser, not two [in_progress]"]
-    n6["sase-gn.10.4: Snoozed beads stay visible in the default listing [in_progress]"]
+    n6["sase-gn.10.4: Snoozed beads stay visible in the default listing [closed]"]
     n7["sase-gn.10.5: Close epic sase-gn [in_progress]"]
     n8["sase-gn.2: Notification tab colors from senders and config [closed]"]
     n9["sase-gn.3: Per-tab notification indicator and hover briefing [closed]"]
@@ -125,10 +125,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-gn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.1/README.md) | [sase-gn.1](sase-gn.1.md) | 2 |
-| [bbugyi200.athena.sase-gn.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.1/README.md) | [sase-gn.10.1](sase-gn.10.1.md) | 1 |
+| [bbugyi200.athena.sase-gn.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.1/README.md) | [sase-gn.10.1](sase-gn.10.1.md) | 0 |
 | [bbugyi200.athena.sase-gn.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.2/README.md) | [sase-gn.10.2](sase-gn.10.2.md) | 0 |
 | [bbugyi200.athena.sase-gn.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.3/README.md) | [sase-gn.10.3](sase-gn.10.3.md) | 0 |
-| [bbugyi200.athena.sase-gn.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.4/README.md) | [sase-gn.10.4](sase-gn.10.4.md) | 0 |
+| [bbugyi200.athena.sase-gn.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.4/README.md) | [sase-gn.10.4](sase-gn.10.4.md) | 1 |
 | [bbugyi200.athena.sase-gn.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.5/README.md) | [sase-gn.10.5](sase-gn.10.5.md) | 0 |
 | [bbugyi200.athena.sase-gn.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.10.land/README.md) | [sase-gn.10](sase-gn.10.md) | 0 |
 | [bbugyi200.athena.sase-gn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.2/README.md) | [sase-gn.2](sase-gn.2.md) | 2 |
@@ -157,4 +157,4 @@ flowchart TD
 | sase | [`09bb443`](https://github.com/sase-org/sase/commit/09bb443ea4206edf188b54042713cf561fc89f94) | feat(ace-tui): show one indicator chip per notification tab | [sase-gn.3](sase-gn.3.md) | 2026-08-06 21:45:00 EDT |
 | sase | [`0f7960d`](https://github.com/sase-org/sase/commit/0f7960d0853a7cd52721cec1361ae1c394cd0dee) | feat(ace-tui): snooze task beads from the Beads pane | [sase-gn.8](sase-gn.8.md) | 2026-08-06 22:48:14 EDT |
 | sase | [`44727b0`](https://github.com/sase-org/sase/commit/44727b0275df6c62f09c7929677ce54e35f4a8a4) | docs(bead): document the snoozed task-bead status and per-tab indicator | [sase-gn.9](sase-gn.9.md) | 2026-08-06 23:46:28 EDT |
-| sase-core | [`sase-core@0c3e287`](https://github.com/sase-org/sase-core/commit/0c3e287f41842e68727b0bfc9e3001a1b2963b09) | fix(bead): stop a close from bricking a snoozed bead's store | [sase-gn.10.1](sase-gn.10.1.md) | 2026-08-07 00:28:14 EDT |
+| sase | [`8b92115`](https://github.com/sase-org/sase/commit/8b92115e835227b0cd67754d4842ef9ef4183da1) | feat(bead): include snoozed status in default bead list filter | [sase-gn.10.4](sase-gn.10.4.md) | 2026-08-07 00:33:41 EDT |

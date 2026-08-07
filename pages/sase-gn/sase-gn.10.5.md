@@ -16,7 +16,7 @@ snooze-gn-land: close epic sase-gn with a close note covering the whole landing,
 - **Depends on:** [sase-gn.10.1](sase-gn.10.1.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-gn.10.2](sase-gn.10.2.md) ◐ · ⧖ 2026-08-07
 - **Depends on:** [sase-gn.10.3](sase-gn.10.3.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-gn.10.4](sase-gn.10.4.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gn.10.4](sase-gn.10.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
