@@ -13,7 +13,7 @@ snooze-wake-gate: register the bead_snooze gate kind with a close-primary, ready
 
 ## Dependencies
 
-- **Depends on:** [sase-gn.4](sase-gn.4.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gn.4](sase-gn.4.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gn.7](sase-gn.7.md) ◐ · ⧖ 2026-08-06
 
 ## Agents
