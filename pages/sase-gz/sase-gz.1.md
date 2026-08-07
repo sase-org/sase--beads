@@ -25,7 +25,7 @@ Verified: 4 new tests in tabs.rs (newest declared icon wins regardless of input 
 
 ## Dependencies
 
-- **Blocks:** [sase-gz.5](sase-gz.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gz.5](sase-gz.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

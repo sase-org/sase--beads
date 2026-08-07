@@ -20,7 +20,7 @@ icon-chain: add `resolve_notification_tab_icon` to the tab-style module with its
 ## Dependencies
 
 - **Blocks:** [sase-gz.4](sase-gz.4.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-gz.5](sase-gz.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gz.5](sase-gz.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
