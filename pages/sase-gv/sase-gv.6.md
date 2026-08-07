@@ -30,4 +30,10 @@ config: wire the config field tree onto the shared mixin by decorating node labe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-gv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.6/README.md) | [sase-gv.6](sase-gv.6.md) | 0 |
+| [bbugyi200.athena.sase-gv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.6/README.md) | [sase-gv.6](sase-gv.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`02758f8`](https://github.com/sase-org/sase/commit/02758f8f18f629b85f112c0277b4f7b0cb748321) | feat(ace): add hint-jump mode to the Config Center field tree | [sase-gv.6](sase-gv.6.md) | 2026-08-07 11:11:29 EDT |
