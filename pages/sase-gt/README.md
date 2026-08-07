@@ -26,6 +26,8 @@ FOLLOW-UP OUTCOMES. (1) sase-gt.1's proposal to gitignore the maturin abi3 build
 
 [2026-08-07T14:07:12Z · sase-gt.land] Land verification re-confirmed at commit finalizer: phases 1-3 verified against source and commits, no post-epic commits to integrate, guard-test gap closed in tests/test_markdown_print_width.py, follow-ups recorded (sase-gw, sase-gx).
 
+[2026-08-07T14:12:28Z · sase-gt.land] Land verification: read all 3 phase beads + every note and checked claims against source and commits. Phase 1 (c37e68f7a): src/sase/markdown_width.py is the single authority mirrored by package.json; all Python sites derive from it and both Justfile recipes carry no width flag. Phase 2 (57a045cfc): both declarations at 100; repo-wide grep for print-width/printWidth/prose-wrap/proseWrap finds only the authority, package.json, and guard tests. Phase 3 (no note; verified independently): chezmoi 28079df8 moves Justfile:65,83,109 and conform.lua:187,211 to 100 across 119 reflowed files, is applied to ~/, and sase init --check reports all four subsystems clean. Integration: nothing landed between the last non-epic commit and the epic's first; 50bed7f99 (role-keyed sidecar config) landed during rebase and touches no width config. Epic work finished at land: closed the guard-test hole phase 2 found (c710d966c) with two AST guards for inline width=<int> and len(...) > <int> literals, scoped to modules importing sase.markdown_width, proven to bite by restoring the exact two escaped literals. Follow-ups: sase-gt.1 gitignore proposal declined (already fixed by its own agent in sase-core 6bcad2f); init skills --check drift filed as sase-gw; stale uv.lock after release-please filed as sase-gx. just check green; just symvision clean with no sase-gt whitelist entries; plan file set to status: done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -56,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.1/README.md) | [sase-gt.1](sase-gt.1.md) | 2 |
 | [bbugyi200.athena.sase-gt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.2/README.md) | [sase-gt.2](sase-gt.2.md) | 1 |
 | [bbugyi200.athena.sase-gt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.3/README.md) | [sase-gt.3](sase-gt.3.md) | 1 |
-| [bbugyi200.athena.sase-gt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.land/README.md) | [sase-gt](README.md) | 1 |
+| [bbugyi200.athena.sase-gt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gt.land/README.md) | [sase-gt](README.md) | 2 |
 
 ## Commits
 
@@ -67,3 +69,4 @@ flowchart TD
 | sase | [`57a045c`](https://github.com/sase-org/sase/commit/57a045cfc6a7f72308d71d0ec66fb1b39f9af13f) | refactor: narrow the declared prose width from 120 to 100 and reflow | [sase-gt.2](sase-gt.2.md) | 2026-08-07 09:31:51 EDT |
 | chezmoi | [`chezmoi@28079df`](https://github.com/bbugyi200/dotfiles/commit/28079df80bf1772a129be640e131621fe998903d) | build: move chezmoi's prettier prose width and the nvim conform formatter to 100 | [sase-gt.3](sase-gt.3.md) | 2026-08-07 09:43:42 EDT |
 | sase | [`c710d96`](https://github.com/sase-org/sase/commit/c710d966cf1a09b4cdf32d7b4d20ceea37c54563) | test: guard inline prose-width literals, not just named constants | [sase-gt](README.md) | 2026-08-07 10:08:26 EDT |
+| sase | [`bfdc6ca`](https://github.com/sase-org/sase/commit/bfdc6ca25bce04bfc2193f3a1275a45a07d58566) | build: sync uv.lock to the released 0.16.0 version | [sase-gt](README.md) | 2026-08-07 10:13:43 EDT |
