@@ -14,7 +14,7 @@ gate-actions-ace: render an Actions section in the shared gate modals, run `edit
 ## Dependencies
 
 - **Blocks:** [sase-h7.12](sase-h7.12.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.4](sase-h7.4.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.4](sase-h7.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

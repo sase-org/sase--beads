@@ -23,7 +23,7 @@ executor-integrity: move gate input-schema validation inside the error-recording
 
 ## Dependencies
 
-- **Blocks:** [sase-h7.4](sase-h7.4.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.4](sase-h7.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
