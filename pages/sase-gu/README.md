@@ -16,7 +16,7 @@ repos.sidecar is a two-bucket mapping (builtin for the reserved plans/beads/agen
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-gu.1](sase-gu.1.md) | Accept both shapes in the schema, parser, and doctor | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-gu.2](sase-gu.2.md) | Write and migrate every enabled project to the new shape | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-gu.2](sase-gu.2.md) | Write and migrate every enabled project to the new shape | ✓ closed | medium | 2026-08-07 | 1 | 0 |
 | [sase-gu.3](sase-gu.3.md) | Remove the legacy list form | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ repos.sidecar is a two-bucket mapping (builtin for the reserved plans/beads/agen
 flowchart TD
     n0["sase-gu: Split repos.sidecar into builtin and custom buckets [in_progress]"]
     n1["sase-gu.1: Accept both shapes in the schema, parser, and doctor [closed]"]
-    n2["sase-gu.2: Write and migrate every enabled project to the new shape [in_progress]"]
+    n2["sase-gu.2: Write and migrate every enabled project to the new shape [closed]"]
     n3["sase-gu.3: Remove the legacy list form [in_progress]"]
     n0 --> n1
     n0 --> n2

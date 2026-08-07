@@ -23,7 +23,7 @@ dual_read: teach the JSON schema, the sidecar config parser, the memory-generati
 
 ## Dependencies
 
-- **Blocks:** [sase-gu.2](sase-gu.2.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gu.2](sase-gu.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

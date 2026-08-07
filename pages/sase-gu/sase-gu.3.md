@@ -13,7 +13,7 @@ drop_legacy: delete the legacy list branch from the schema, parser, memory valid
 
 ## Dependencies
 
-- **Depends on:** [sase-gu.2](sase-gu.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gu.2](sase-gu.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
