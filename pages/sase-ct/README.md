@@ -2,11 +2,17 @@
 
 [Bead Pages](../README.md) / sase-ct
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +25 · **↺ Reopened:** ↺4
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +26 · **↺ Reopened:** ↺5
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qr](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.qr.md) · **Assignee:** `sase-ct`
-**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-07 12:46:55 EDT
+**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-07 14:20:16 EDT
 
 ## Previously Closed
+
+> ↺ Closed 2026-08-07T16:46:55Z · done
+>
+> (none)
+>
+> Reopened 2026-08-07T18:02:12Z by a +1 from @sase-h2
 
 > ↺ Closed 2026-08-06T20:52:21Z · done
 >
@@ -57,6 +63,22 @@ Verified: (1) deterministically reproduced the failure by injecting a synchronou
 Not fixed, left open per this umbrella's own scope: the other new node from the 2026-08-07T16:30:26Z reopen, tests/ace/tui/test_plugins_browser_pane_sase_update_dev.py::test_updates_pane_sase_dev_update_shows_all_commit_groups (sase-gv.1), has no diagnosis yet beyond fail-under-load/pass-in-isolation; recording rather than guessing at a fix. This bead's class remains broader than any single node, consistent with every prior closure here.
 
 [2026-08-07T16:47:43Z · sase-ct] Fixed tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent: loosened four exact-count assertions (tui_hitch/tui_stall/tui_hitch_recovered/tui_stall_recovered == 1 -> >= 1) while preserving the real invariant (hitch precedes stall). Root cause: hitch_threshold_seconds=0.03 collides with the file's shared pre-block settle idiom (await asyncio.sleep(0.03)), so host scheduling jitter during settle can register a spurious extra hitch cycle before the deliberate block. Verified: deterministically reproduced the double-hitch race via injected contention (old assertions failed, new ones pass), traced the watchdog poll loop to confirm no real signal is lost, ran the file 5x clean, and ran just check green (fmt/lint/SASE validation/scoped tests) under concurrent host load.
+
+[2026-08-07T18:20:16Z · sase-ct] Fixed the currently-most-recurring unfixed named node from the 2026-08-07T18:02:12Z
+sase-h2 reopen: tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_records_compact_loop_hitch_and_recovery
+(a DIFFERENT watchdog node from test_watchdog_keeps_hitch_and_stall_state_machines_independent,
+already fixed here at 2026-08-07T16:46:55Z).
+
+ROOT CAUSE: same mechanism as the sibling fix, but with a sharper failure mode.
+hitch_threshold_seconds=0.05 collides with the pre-block settle idiom
+(await asyncio.sleep(0.03)): under host contention that settle can itself
+overrun 0.05s, recording a spurious tui_hitch/tui_hitch_recovered pair before
+the deliberate time.sleep(0.14) block. The test previously waited for the
+first "tui_hitch_recovered" event and then unpacked exactly 2 records
+(hitch, recovery = records). Deterministically confirmed (throwaway repro,
+not committed) that this is not just an over-strict count assertion like t
+
+… and 2844 more characters
 
 ## +1 Evidence
 
@@ -210,6 +232,10 @@ Not fixed, left open per this umbrella's own scope: the other new node from the 
 >
 > Impact: both flakes fired inside a required per-phase 'just check' run, so each cost a phase worker a re-run before it could finish. sase-gv.1's other reported node (test_install_coverage_contexts_tool.py::test_installing_prunes_the_cache_to_the_keep_limit) is NOT part of this +1: it was a real defect fixed 16 minutes later by sase-gl / commit aec67f31c (deterministic cached_baselines mtime tie-break).
 
+> **+1** by `sase-h2` · 2026-08-07 14:02:12 EDT
+>
+> Independent reproduction on 2026-08-07 while working task sase-h2 (visual-snapshot symbol fallback font), after this bead was closed as done at 16:46:55Z and after 156cac833 loosened the watchdog independence test. Three consecutive 'just check' runs on the same tree each failed exactly one different ACE TUI node under the parallel lane, and each passed in isolation immediately afterward: (1) tests/ace/tui/widgets/test_prompt_at_prefix_completion.py::TestAtPrefixIntegration::test_at_prefix_directory_drilldown, (2) tests/ace/tui/test_notification_custom_gate.py::test_tracked_executor_reports_terminal_and_extra_commands_live, (3) tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_records_compact_loop_hitch_and_recovery. Note (3) is a DIFFERENT watchdog node from the test_watchdog_keeps_hitch_and_stall_state_machines_independent one 156cac833 fixed, so the wall-clock-threshold remediation has not been applied suite-wide. Attribution controlled: a git-stashed clean tree ran 'just test-scoped' green (27005 passed), and the restored working tree then ran the same lane green (27005 passed) and a fourth 'just check' fully green; sase-h2's diff touches no src/ code at all (test fonts, a test file, docs, pyproject visual extra, and PNG goldens). Impact: cost three re-runs of a ~3-minute mandatory gate on a change with zero TUI surface.
+
 ## References
 
 - file:explicit:93f0fff0d91c393a140e217d
@@ -225,7 +251,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 3 |
+| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 4 |
 
 ## Commits
 
@@ -234,3 +260,4 @@ flowchart TD
 | sase | [`bde727e`](https://github.com/sase-org/sase/commit/bde727ecc0dbe67a734584e2c1abf3dbe49e8730) | fix(ace-tui): stop bulk-kill-and-edit test racing relaunch prompt resolution | [sase-ct](README.md) | 2026-08-06 15:57:13 EDT |
 | sase | [`3f69267`](https://github.com/sase-org/sase/commit/3f69267d516c5131ecca44b22399e67838b508c1) | fix(test-selection): stop the codeblock cursor test racing the blink timer | [sase-ct](README.md) | 2026-08-06 16:52:52 EDT |
 | sase | [`156cac8`](https://github.com/sase-org/sase/commit/156cac833248c0dfac7d24df371e1e052754474e) | fix(tests): loosen exact hitch/stall counts in watchdog independence test | [sase-ct](README.md) | 2026-08-07 12:48:55 EDT |
+| sase | [`b473a10`](https://github.com/sase-org/sase/commit/b473a10d098935135820fe86d61a1195dd1282c5) | fix(tests): wait for balanced hitch/recovery pairs in watchdog compact-loop test | [sase-ct](README.md) | 2026-08-07 14:24:22 EDT |
