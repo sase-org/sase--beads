@@ -16,7 +16,7 @@ Pressing the apostrophe key inside any SASE Admin Center working tab enters adap
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-gv.1](sase-gv.1.md) | Shared pane entry-jump mixin and Logs migration | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-gv.2](sase-gv.2.md) | Tasks tab jump | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
+| [sase-gv.2](sase-gv.2.md) | Tasks tab jump | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-gv.3](sase-gv.3.md) | XPrompts tab jump | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-gv.4](sase-gv.4.md) | Projects tab jump across all three sub-tabs | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-gv.5](sase-gv.5.md) | Updates tab jump for Plugins and Agent CLIs | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
@@ -30,7 +30,7 @@ Pressing the apostrophe key inside any SASE Admin Center working tab enters adap
 flowchart TD
     n0["sase-gv: Apostrophe entry jump on every Admin Center tab [in_progress]"]
     n1["sase-gv.1: Shared pane entry-jump mixin and Logs migration [closed]"]
-    n2["sase-gv.2: Tasks tab jump [in_progress]"]
+    n2["sase-gv.2: Tasks tab jump [closed]"]
     n3["sase-gv.3: XPrompts tab jump [in_progress]"]
     n4["sase-gv.4: Projects tab jump across all three sub-tabs [in_progress]"]
     n5["sase-gv.5: Updates tab jump for Plugins and Agent CLIs [in_progress]"]
@@ -64,7 +64,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-gv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.1/README.md) | [sase-gv.1](sase-gv.1.md) | 1 |
-| [bbugyi200.athena.sase-gv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.2/README.md) | [sase-gv.2](sase-gv.2.md) | 0 |
+| [bbugyi200.athena.sase-gv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.2/README.md) | [sase-gv.2](sase-gv.2.md) | 1 |
 | [bbugyi200.athena.sase-gv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.3/README.md) | [sase-gv.3](sase-gv.3.md) | 0 |
 | [bbugyi200.athena.sase-gv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.4/README.md) | [sase-gv.4](sase-gv.4.md) | 0 |
 | [bbugyi200.athena.sase-gv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.5/README.md) | [sase-gv.5](sase-gv.5.md) | 0 |
@@ -78,3 +78,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b27059f`](https://github.com/sase-org/sase/commit/b27059f51d335bb101422dae2c8274a537edab15) | refactor(ace): extract a shared pane entry-jump mixin and migrate LogsPane | [sase-gv.1](sase-gv.1.md) | 2026-08-07 10:19:57 EDT |
+| sase | [`9417428`](https://github.com/sase-org/sase/commit/94174283402c3b63bfc1bf9203e708e8ff13db0a) | feat(ace): wire Tasks pane onto the shared entry-jump mixin | [sase-gv.2](sase-gv.2.md) | 2026-08-07 10:48:30 EDT |
