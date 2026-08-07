@@ -17,7 +17,7 @@ config-field: add the `markdown.print_width` schema/default/getter, turn `sase.m
 
 ## Dependencies
 
-- **Blocks:** [sase-gy.2](sase-gy.2.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gy.2](sase-gy.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

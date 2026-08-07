@@ -13,7 +13,7 @@ chezmoi-align: move the chezmoi-managed prettier width declarations (its Justfil
 
 ## Dependencies
 
-- **Depends on:** [sase-gy.2](sase-gy.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gy.2](sase-gy.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
