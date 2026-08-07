@@ -11,10 +11,14 @@
 
 migrate_configs: make sase repo init emit the two-bucket mapping, update the operator-facing guidance strings and docs examples, and migrate the sase, actstat, and bob-cli project configs to the new shape.
 
+## Notes
+
+[2026-08-07T14:37:05Z · sase-gu.2] sase repo init now writes the role-keyed repos.sidecar mapping (builtin: plans/beads/agents, custom: research), refuses a legacy-list config with a migration error, and the agents consent prompt + docs/configuration.md + docs/init.md describe the two buckets. Migrated sase/sase.yml here and committed actstat (f63e496) and bob-cli (8bbef6e) in their own checkouts. Verified: just check-full green (all lint gates + full suite); workspace-venv sase doctor reports config.repos OK and 4 init planners current; sase repo list shows the same four sidecar rows in the same order for sase, actstat, and bob-cli; sase init memory --check reports nothing to regenerate, so AGENTS.md and its shims are unchanged; ~/.config/sase/sase.yml still has no repos.sidecar block (its only 'sidecars' key is an unrelated file_hooks entry).
+
 ## Dependencies
 
 - **Depends on:** [sase-gu.1](sase-gu.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gu.3](sase-gu.3.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gu.3](sase-gu.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
