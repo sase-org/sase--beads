@@ -14,7 +14,7 @@ custom-validation: add the missing `kind_validation/custom.py`, reject at creati
 ## Dependencies
 
 - **Blocks:** [sase-h7.12](sase-h7.12.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.3](sase-h7.3.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.3](sase-h7.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

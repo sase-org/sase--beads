@@ -15,7 +15,7 @@ inputs-remote: extend the frozen `mobile_api_v1` gate contract in `sase-core` wi
 
 - **Blocks:** [sase-h7.11](sase-h7.11.md) ◐ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.2](sase-h7.2.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.3](sase-h7.3.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.3](sase-h7.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

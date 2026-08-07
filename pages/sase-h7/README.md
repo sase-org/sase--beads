@@ -15,12 +15,12 @@ A reviewer can supply typed, validated input to any gate command from every surf
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-h7.1](sase-h7.1.md) | Diagnosable input failures and non-destructive retry | ✓ closed | medium | 2026-08-07 | 1 | 1 |
+| [sase-h7.1](sase-h7.1.md) | Diagnosable input failures and non-destructive retry | ✓ closed | medium | 2026-08-07 | 1 | 0 |
 | [sase-h7.10](sase-h7.10.md) | Show the input a gate asks for and the input it received | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-h7.11](sase-h7.11.md) | Retire free-text smuggling from snooze, triage, and launch | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h7.12](sase-h7.12.md) | Document the input and action contracts | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-h7.2](sase-h7.2.md) | One feedback-to-input rule for every surface | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
-| [sase-h7.3](sase-h7.3.md) | Declarative per-option inputs and per-option submission | ◐ in_progress | large | 2026-08-07 | 1 | 0 |
+| [sase-h7.3](sase-h7.3.md) | Declarative per-option inputs and per-option submission | ✓ closed | large | 2026-08-07 | 1 | 1 |
 | [sase-h7.4](sase-h7.4.md) | Repeatable non-terminal gate actions | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h7.5](sase-h7.5.md) | Fail closed at creation for unanswerable gates | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h7.6](sase-h7.6.md) | Generic typed input collection in the ACE gate modals | ◐ in_progress | large | 2026-08-07 | 1 | 0 |
@@ -38,7 +38,7 @@ flowchart TD
     n3["sase-h7.11: Retire free-text smuggling from snooze, triage, and launch [in_progress]"]
     n4["sase-h7.12: Document the input and action contracts [in_progress]"]
     n5["sase-h7.2: One feedback-to-input rule for every surface [in_progress]"]
-    n6["sase-h7.3: Declarative per-option inputs and per-option submission [in_progress]"]
+    n6["sase-h7.3: Declarative per-option inputs and per-option submission [closed]"]
     n7["sase-h7.4: Repeatable non-terminal gate actions [in_progress]"]
     n8["sase-h7.5: Fail closed at creation for unanswerable gates [in_progress]"]
     n9["sase-h7.6: Generic typed input collection in the ACE gate modals [in_progress]"]
@@ -81,12 +81,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.1/README.md) | [sase-h7.1](sase-h7.1.md) | 1 |
+| [bbugyi200.athena.sase-h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.1/README.md) | [sase-h7.1](sase-h7.1.md) | 0 |
 | [bbugyi200.athena.sase-h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.10/README.md) | [sase-h7.10](sase-h7.10.md) | 0 |
 | [bbugyi200.athena.sase-h7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.11/README.md) | [sase-h7.11](sase-h7.11.md) | 0 |
 | [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 0 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 0 |
-| [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 0 |
+| [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 1 |
 | [bbugyi200.athena.sase-h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.4/README.md) | [sase-h7.4](sase-h7.4.md) | 0 |
 | [bbugyi200.athena.sase-h7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.5/README.md) | [sase-h7.5](sase-h7.5.md) | 0 |
 | [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.6/README.md) | [sase-h7.6](sase-h7.6.md) | 0 |
@@ -99,4 +99,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`396380c`](https://github.com/sase-org/sase/commit/396380c640bf0d9164b1a9356201fa181535fc10) | feat(notification-gates): make gate rejections diagnosable and retries deliberate | [sase-h7.1](sase-h7.1.md) | 2026-08-07 17:39:50 EDT |
+| sase-core | [`sase-core@a35fe91`](https://github.com/sase-org/sase-core/commit/a35fe9180e2d4dc756b08019a9951cec9088c0d2) | feat(xprompt): add enum input type with declared choices | [sase-h7.3](sase-h7.3.md) | 2026-08-07 17:41:48 EDT |

@@ -14,7 +14,7 @@ gate-cli: add headless `answer`, `act`, and `show` subcommands to `sase gate` an
 ## Dependencies
 
 - **Blocks:** [sase-h7.12](sase-h7.12.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.3](sase-h7.3.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.3](sase-h7.3.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.4](sase-h7.4.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
