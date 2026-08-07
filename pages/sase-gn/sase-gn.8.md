@@ -14,7 +14,7 @@ bead-snooze-surfaces: add an ACE Beads-pane snooze action with a bead-aware dura
 ## Dependencies
 
 - **Depends on:** [sase-gn.5](sase-gn.5.md) ✓ · ⧖ 2026-08-06
-- **Depends on:** [sase-gn.7](sase-gn.7.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gn.7](sase-gn.7.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gn.9](sase-gn.9.md) ◐ · ⧖ 2026-08-06
 
 ## Agents

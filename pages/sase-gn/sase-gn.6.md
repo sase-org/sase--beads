@@ -21,10 +21,12 @@ snooze-wake-gate: register the bead_snooze gate kind with a close-primary, ready
 
 [2026-08-07T01:02:09Z · sase-gn.6] PROPOSED FOLLOW-UP: src/sase/bead/snooze_duration.py is the shared "<duration> [+<N>]" parser the plan assigns to phases .5/.7/.8; it layers days (3d) on parse_duration, which has no day unit. _parse_snooze_until is private until the CLI phase needs a duration-only entry point.
 
+[2026-08-07T01:16:46Z · sase-gn.6] Registered the bead_snooze gate kind end to end: close-primary with an overridable preset reason, ready and re-snooze secondaries, and presentation.snooze_until so the gate's notification is created muted+snoozed in one atomic append. Verified with 39 new tests in tests/test_bead/test_snooze_gate.py (canonical spec, born-snoozed notification, each forged-contract rejection, all three side effects, unparsable duration leaves the gate pending, shared duration parser) plus the existing gate suites, and a fully green just check after rebasing onto phases .2 and .5.
+
 ## Dependencies
 
 - **Depends on:** [sase-gn.4](sase-gn.4.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gn.7](sase-gn.7.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.7](sase-gn.7.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
