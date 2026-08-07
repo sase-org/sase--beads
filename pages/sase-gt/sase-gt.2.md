@@ -24,7 +24,7 @@ flip: change the single width authority and the package.json mirror from 120 to 
 ## Dependencies
 
 - **Depends on:** [sase-gt.1](sase-gt.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gt.3](sase-gt.3.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gt.3](sase-gt.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
