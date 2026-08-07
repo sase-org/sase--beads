@@ -14,7 +14,7 @@ docs-skill: document tab icons, the reshaped indicator badge, and the new config
 ## Dependencies
 
 - **Depends on:** [sase-gz.3](sase-gz.3.md) ✓ · ⧖ 2026-08-07
-- **Depends on:** [sase-gz.4](sase-gz.4.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-gz.4](sase-gz.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
