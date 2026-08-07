@@ -22,7 +22,7 @@ updates: wire the Updates pane's active-sub-tab option list onto the shared mixi
 ## Dependencies
 
 - **Depends on:** [sase-gv.1](sase-gv.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gv.8](sase-gv.8.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gv.8](sase-gv.8.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

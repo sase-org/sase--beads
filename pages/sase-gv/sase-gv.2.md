@@ -22,7 +22,7 @@ tasks: wire the Tasks pane task list onto the shared mixin.
 ## Dependencies
 
 - **Depends on:** [sase-gv.1](sase-gv.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gv.8](sase-gv.8.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gv.8](sase-gv.8.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

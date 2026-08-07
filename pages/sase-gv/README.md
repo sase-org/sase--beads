@@ -22,7 +22,7 @@ Pressing the apostrophe key inside any SASE Admin Center working tab enters adap
 | [sase-gv.5](sase-gv.5.md) | Updates tab jump for Plugins and Agent CLIs | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gv.6](sase-gv.6.md) | Config tab jump over visible tree rows | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gv.7](sase-gv.7.md) | Statistics tab jump to numbered views | ✓ closed | small | 2026-08-07 | 1 | 1 |
-| [sase-gv.8](sase-gv.8.md) | Documentation and full-suite verification | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
+| [sase-gv.8](sase-gv.8.md) | Documentation and full-suite verification | ✓ closed | small | 2026-08-07 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-gv.5: Updates tab jump for Plugins and Agent CLIs [closed]"]
     n6["sase-gv.6: Config tab jump over visible tree rows [closed]"]
     n7["sase-gv.7: Statistics tab jump to numbered views [closed]"]
-    n8["sase-gv.8: Documentation and full-suite verification [in_progress]"]
+    n8["sase-gv.8: Documentation and full-suite verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.5/README.md) | [sase-gv.5](sase-gv.5.md) | 1 |
 | [bbugyi200.athena.sase-gv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.6/README.md) | [sase-gv.6](sase-gv.6.md) | 1 |
 | [bbugyi200.athena.sase-gv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.7/README.md) | [sase-gv.7](sase-gv.7.md) | 1 |
-| [bbugyi200.athena.sase-gv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.8/README.md) | [sase-gv.8](sase-gv.8.md) | 0 |
+| [bbugyi200.athena.sase-gv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.8/README.md) | [sase-gv.8](sase-gv.8.md) | 1 |
 | [bbugyi200.athena.sase-gv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gv.land/README.md) | [sase-gv](README.md) | 0 |
 
 ## Commits
@@ -84,3 +84,4 @@ flowchart TD
 | sase | [`02758f8`](https://github.com/sase-org/sase/commit/02758f8f18f629b85f112c0277b4f7b0cb748321) | feat(ace): add hint-jump mode to the Config Center field tree | [sase-gv.6](sase-gv.6.md) | 2026-08-07 11:11:29 EDT |
 | sase | [`64922e1`](https://github.com/sase-org/sase/commit/64922e12acefbe1e202e69fa1d8146b06b7bad2e) | feat(ace): wire XPrompts browser rows onto the shared entry-jump mixin | [sase-gv.3](sase-gv.3.md) | 2026-08-07 11:13:12 EDT |
 | sase | [`d7f34d8`](https://github.com/sase-org/sase/commit/d7f34d84dc9dd98447b57a499ea24fa02dcc2108) | feat(ace): add entry-jump mode to the Updates tab's Plugins and Agent CLIs panes | [sase-gv.5](sase-gv.5.md) | 2026-08-07 11:23:50 EDT |
+| sase | [`3b5c76d`](https://github.com/sase-org/sase/commit/3b5c76da4e879f22388e614d8e8a6361dbff32c8) | docs(ace): document the Admin Center-wide apostrophe entry-jump key | [sase-gv.8](sase-gv.8.md) | 2026-08-07 11:56:17 EDT |
