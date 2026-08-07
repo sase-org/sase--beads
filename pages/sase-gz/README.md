@@ -17,7 +17,7 @@ Every notification-panel tab renders a meaningful icon in the panel's tab strip 
 |---|---|---|---|---|---:|---:|
 | [sase-gz.1](sase-gz.1.md) | Rust core carries a per-tab icon | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gz.2](sase-gz.2.md) | Icon resolution chain and configuration | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-gz.3](sase-gz.3.md) | Gates must declare their panel's icon | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-gz.3](sase-gz.3.md) | Gates must declare their panel's icon | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gz.4](sase-gz.4.md) | Render icons in the tab strip and indicator | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-gz.5](sase-gz.5.md) | Adopt the released core and verify end to end | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-gz.6](sase-gz.6.md) | Documentation and the sase\_gate skill contract | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-gz: Every notification-panel tab wears an icon [in_progress]"]
     n1["sase-gz.1: Rust core carries a per-tab icon [closed]"]
     n2["sase-gz.2: Icon resolution chain and configuration [closed]"]
-    n3["sase-gz.3: Gates must declare their panel's icon [in_progress]"]
+    n3["sase-gz.3: Gates must declare their panel's icon [closed]"]
     n4["sase-gz.4: Render icons in the tab strip and indicator [in_progress]"]
     n5["sase-gz.5: Adopt the released core and verify end to end [in_progress]"]
     n6["sase-gz.6: Documentation and the sase_gate skill contract [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-gz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.1/README.md) | [sase-gz.1](sase-gz.1.md) | 1 |
 | [bbugyi200.athena.sase-gz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.2/README.md) | [sase-gz.2](sase-gz.2.md) | 1 |
-| [bbugyi200.athena.sase-gz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.3/README.md) | [sase-gz.3](sase-gz.3.md) | 0 |
+| [bbugyi200.athena.sase-gz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.3/README.md) | [sase-gz.3](sase-gz.3.md) | 1 |
 | [bbugyi200.athena.sase-gz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.4/README.md) | [sase-gz.4](sase-gz.4.md) | 0 |
 | [bbugyi200.athena.sase-gz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.5/README.md) | [sase-gz.5](sase-gz.5.md) | 0 |
 | [bbugyi200.athena.sase-gz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gz.6/README.md) | [sase-gz.6](sase-gz.6.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@ce8c04b`](https://github.com/sase-org/sase-core/commit/ce8c04ba94ade551e8972f3314935d1130949ecb) | feat(notifications): donate a per-tab icon from the newest declaring row | [sase-gz.1](sase-gz.1.md) | 2026-08-07 10:45:21 EDT |
 | sase | [`72148dc`](https://github.com/sase-org/sase/commit/72148dcab071a6f4ee1bc69832b1d96481a22ef0) | feat(ace): resolve notification tab icons through a four-rung chain | [sase-gz.2](sase-gz.2.md) | 2026-08-07 11:15:20 EDT |
+| sase | [`61ace08`](https://github.com/sase-org/sase/commit/61ace0852e8d40a4bd99ab5b8a0ad74e2325949e) | feat(gates)!: require gates to declare their panel's icon | [sase-gz.3](sase-gz.3.md) | 2026-08-07 11:17:55 EDT |
