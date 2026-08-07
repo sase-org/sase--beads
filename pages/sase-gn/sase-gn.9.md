@@ -13,7 +13,7 @@ snooze-verification: exercise the whole snooze lifecycle and the indicator end t
 
 ## Dependencies
 
-- **Depends on:** [sase-gn.3](sase-gn.3.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gn.3](sase-gn.3.md) ✓ · ⧖ 2026-08-06
 - **Depends on:** [sase-gn.8](sase-gn.8.md) ◐ · ⧖ 2026-08-06
 
 ## Agents

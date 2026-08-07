@@ -34,7 +34,7 @@ Verified: just check green (every lint gate plus the scoped test lane) on the fi
 ## Dependencies
 
 - **Depends on:** [sase-gn.1](sase-gn.1.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gn.3](sase-gn.3.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.3](sase-gn.3.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
