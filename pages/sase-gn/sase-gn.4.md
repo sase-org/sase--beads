@@ -17,8 +17,8 @@ bead-snooze-core: add the snoozed status, its embedded snooze record, snooze/can
 
 ## Dependencies
 
-- **Blocks:** [sase-gn.5](sase-gn.5.md) ◐ · ⧖ 2026-08-06
-- **Blocks:** [sase-gn.6](sase-gn.6.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.5](sase-gn.5.md) ✓ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.6](sase-gn.6.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

@@ -13,7 +13,7 @@ snooze-gate-reconciler: extend the bead task-gate chop to own triage and wake ga
 
 ## Dependencies
 
-- **Depends on:** [sase-gn.6](sase-gn.6.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gn.6](sase-gn.6.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gn.8](sase-gn.8.md) ◐ · ⧖ 2026-08-06
 
 ## Agents
