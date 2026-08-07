@@ -17,7 +17,7 @@
 |---|---|---|---|---|---:|---:|
 | [sase-gy.1](sase-gy.1.md) | Runtime-resolved \`markdown.print\_width\` config field | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-gy.2](sase-gy.2.md) | Flip the shipped default from 100 to 88 | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-gy.3](sase-gy.3.md) | Align chezmoi's prettier and conform configuration with the new default | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
+| [sase-gy.3](sase-gy.3.md) | Align chezmoi's prettier and conform configuration with the new default | ✓ closed | small | 2026-08-07 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-gy: Make the Markdown prose width a config field and default it to 88 [in_progress]"]
     n1["sase-gy.1: Runtime-resolved `markdown.print_width` config field [closed]"]
     n2["sase-gy.2: Flip the shipped default from 100 to 88 [closed]"]
-    n3["sase-gy.3: Align chezmoi's prettier and conform configuration with the new default [in_progress]"]
+    n3["sase-gy.3: Align chezmoi's prettier and conform configuration with the new default [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-gy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gy.1/README.md) | [sase-gy.1](sase-gy.1.md) | 1 |
 | [bbugyi200.athena.sase-gy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gy.2/README.md) | [sase-gy.2](sase-gy.2.md) | 1 |
-| [bbugyi200.athena.sase-gy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gy.3/README.md) | [sase-gy.3](sase-gy.3.md) | 0 |
+| [bbugyi200.athena.sase-gy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gy.3/README.md) | [sase-gy.3](sase-gy.3.md) | 1 |
 | [bbugyi200.athena.sase-gy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gy.land/README.md) | [sase-gy](README.md) | 0 |
 
 ## Commits
@@ -49,3 +49,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`0bea680`](https://github.com/sase-org/sase/commit/0bea6801eace98ffcd0dd839434173d556633bda) | feat(config): add a runtime-resolved markdown.print\_width config field | [sase-gy.1](sase-gy.1.md) | 2026-08-07 10:55:17 EDT |
 | sase | [`86c9b31`](https://github.com/sase-org/sase/commit/86c9b3181e8b959b7fa58c373ef0684be43897d1) | feat(markdown)!: default the Markdown prose width to 88 | [sase-gy.2](sase-gy.2.md) | 2026-08-07 11:49:23 EDT |
+| chezmoi | [`chezmoi@28441b3`](https://github.com/bbugyi200/dotfiles/commit/28441b3a2661e0f949b7fc70c047a725a7f7f82a) | chore(md): drop prose width from 100 to 88 chars | [sase-gy.3](sase-gy.3.md) | 2026-08-07 12:07:17 EDT |

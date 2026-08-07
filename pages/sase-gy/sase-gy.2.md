@@ -20,7 +20,7 @@ default-88: change the default constant, `default_config.yml`, the schema defaul
 ## Dependencies
 
 - **Depends on:** [sase-gy.1](sase-gy.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-gy.3](sase-gy.3.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-gy.3](sase-gy.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
