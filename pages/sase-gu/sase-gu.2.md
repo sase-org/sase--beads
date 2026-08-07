@@ -20,4 +20,10 @@ migrate_configs: make sase repo init emit the two-bucket mapping, update the ope
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-gu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gu.2/README.md) | [sase-gu.2](sase-gu.2.md) | 0 |
+| [bbugyi200.athena.sase-gu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gu.2/README.md) | [sase-gu.2](sase-gu.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f77bc98`](https://github.com/sase-org/sase/commit/f77bc9891e801c5003896aff76bbe471668f4c67) | feat(repos): write and document repos.sidecar as the builtin/custom mapping | [sase-gu.2](sase-gu.2.md) | 2026-08-07 10:33:42 EDT |
