@@ -25,7 +25,7 @@ notif-tab-model: make tab ownership a single-valued core rule that splits Snooze
 
 ## Dependencies
 
-- **Blocks:** [sase-gn.2](sase-gn.2.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.2](sase-gn.2.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 

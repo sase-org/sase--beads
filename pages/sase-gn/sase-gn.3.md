@@ -13,7 +13,7 @@ notif-indicator: render one colored count per panel tab with the snoozed-only "<
 
 ## Dependencies
 
-- **Depends on:** [sase-gn.2](sase-gn.2.md) ◐ · ⧖ 2026-08-06
+- **Depends on:** [sase-gn.2](sase-gn.2.md) ✓ · ⧖ 2026-08-06
 - **Blocks:** [sase-gn.9](sase-gn.9.md) ◐ · ⧖ 2026-08-06
 
 ## Agents
