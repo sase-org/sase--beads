@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-h7](README.md) / sase-h7.8
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.v2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.v2/README.md) · **Assignee:** `sase-h7.8` · **Size:** large
-**Created:** 2026-08-07 17:08:08 EDT · **Closed:** 2026-08-07 19:07:03 EDT
+**Status:** ◎ claimed · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.v2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.v2/README.md) · **Assignee:** `sase-h7.8--code` · **Size:** large
+**Created:** 2026-08-07 17:08:08 EDT
 **Plan:** [202608/gate\_input\_collection.md](https://github.com/sase-org/sase--plans/blob/main/202608/gate_input_collection.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-08-07T23:07:03Z · done
+>
+> (none)
+>
+> Reopened 2026-08-07T23:09:35Z by `sase bead open`
 
 ## Description
 
@@ -21,10 +29,4 @@ inputs-remote: extend the frozen `mobile_api_v1` gate contract in `sase-core` wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@65e0ec1`](https://github.com/sase-org/sase-core/commit/65e0ec1e7323fc1ca958e7dabe806acc6661bd96) | feat(mobile)!: carry declared gate inputs on the mobile wire | [sase-h7.8](sase-h7.8.md) | 2026-08-07 19:08:56 EDT |
+| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 0 |

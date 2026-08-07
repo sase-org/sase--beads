@@ -20,7 +20,7 @@ gate-actions: generalize `operations` into a rendered vocabulary of repeatable a
 - **Depends on:** [sase-h7.1](sase-h7.1.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.10](sase-h7.10.md) ◐ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.7](sase-h7.7.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-h7.9](sase-h7.9.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.9](sase-h7.9.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

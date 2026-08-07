@@ -11,6 +11,10 @@
 
 gate-actions-ace: render an Actions section in the shared gate modals, run `edit_file` in place without tearing down the modal, point the plan and epic edit action at the durable `~/.sase/plans/` file, and block submission while an unaccepted draft exists.
 
+## Notes
+
+[2026-08-07T23:07:37Z · sase-h7.7] PROPOSED FOLLOW-UP: recorded_rejection only records GateError — an adapter that rejects with its own exception type (the plan adapter raises PlanApprovalValidationError) escapes errors/ and is invisible under `d`; broaden it in command_runner.py, or make GateAdapter.validate_edited_resource wrap adapter errors in GateError. Found while fixing the same too-narrow except in accept_edited_origin.
+
 ## Dependencies
 
 - **Blocks:** [sase-h7.12](sase-h7.12.md) ◐ · ⧖ 2026-08-07
