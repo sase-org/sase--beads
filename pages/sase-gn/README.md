@@ -11,6 +11,10 @@
 
 A task bead can be snoozed with a wake time, an optional +1 target, and a reason that every SASE surface displays; snoozing a task bead always snoozes its notification; the wake raises a gate whose primary action closes the bead with an overridable preset reason; and the top-bar notification indicator shows one accurately colored count per notification-panel tab, with a snoozed count that appears only when nothing else is pending, a rich hover briefing, and a structural guarantee that no notification can appear in two tabs.
 
+## Notes
+
+[2026-08-07T02:16:46Z · sase_ci_fix_sase_b5872ca] DISCOVERED ISSUE: the epic's Rust wake-due-snooze selector is now orphaned. Fixing a red 'just lint' on branch sase_ci_fix_sase_b5872ca (symvision: '--epic-symbol sase-gn.7(wake_due_snoozes)': bead is closed), I deleted the Python half that sase-gn.7's own PROPOSED FOLLOW-UP note already declared dead: bead_mutation_facade.wake_due_snoozes, its __all__ entry, and tests/test_bead/test_snooze_lifecycle.py::test_wake_selector_reports_due_beads_without_mutating_them. The Rust half remains and now has zero callers anywhere: sase-core crates/sase_core_py/src/lib.rs py_bead_wake_due_snoozes (binding 'bead_wake_due_snoozes') and the underlying wake_due_task_snoozes. Rationale per sase-gn.7: D2 means a snoozed bead gate is born snoozed and resurfaced by notification snooze expiry, so the reconciler never needs a due-wake selector. The land agent should decide whether to delete the Rust selector + binding + its core tests (and drop it from the binding-name inventory) or justify keeping it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -22,7 +26,7 @@ A task bead can be snoozed with a wake time, an optional +1 target, and a reason
 | [sase-gn.5](sase-gn.5.md) | sase bead snooze and snooze-aware detail surfaces | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gn.6](sase-gn.6.md) | BeadSnooze wake gate | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gn.7](sase-gn.7.md) | One pending gate per task bead | ✓ closed | medium | 2026-08-06 | 1 | 1 |
-| [sase-gn.8](sase-gn.8.md) | Snoozing from ACE, Telegram, and mobile | ◐ in_progress | medium | 2026-08-06 | 1 | 0 |
+| [sase-gn.8](sase-gn.8.md) | Snoozing from ACE, Telegram, and mobile | ✓ closed | medium | 2026-08-06 | 1 | 1 |
 | [sase-gn.9](sase-gn.9.md) | Cross-surface verification and documentation | ◐ in_progress | small | 2026-08-06 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +41,7 @@ flowchart TD
     n5["sase-gn.5: sase bead snooze and snooze-aware detail surfaces [closed]"]
     n6["sase-gn.6: BeadSnooze wake gate [closed]"]
     n7["sase-gn.7: One pending gate per task bead [closed]"]
-    n8["sase-gn.8: Snoozing from ACE, Telegram, and mobile [in_progress]"]
+    n8["sase-gn.8: Snoozing from ACE, Telegram, and mobile [closed]"]
     n9["sase-gn.9: Cross-surface verification and documentation [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -70,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-gn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.5/README.md) | [sase-gn.5](sase-gn.5.md) | 1 |
 | [bbugyi200.athena.sase-gn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.6/README.md) | [sase-gn.6](sase-gn.6.md) | 1 |
 | [bbugyi200.athena.sase-gn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.7/README.md) | [sase-gn.7](sase-gn.7.md) | 1 |
-| [bbugyi200.athena.sase-gn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.8/README.md) | [sase-gn.8](sase-gn.8.md) | 0 |
+| [bbugyi200.athena.sase-gn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.8/README.md) | [sase-gn.8](sase-gn.8.md) | 1 |
 | [bbugyi200.athena.sase-gn.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.9/README.md) | [sase-gn.9](sase-gn.9.md) | 0 |
 | [bbugyi200.athena.sase-gn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-gn.land/README.md) | [sase-gn](README.md) | 0 |
 
@@ -88,3 +92,4 @@ flowchart TD
 | sase | [`17fcbb4`](https://github.com/sase-org/sase/commit/17fcbb485e907962b8be4a3aa396d1873f094b4f) | feat(bead): raise a BeadSnooze gate when a snoozed task wakes | [sase-gn.6](sase-gn.6.md) | 2026-08-06 21:16:05 EDT |
 | sase | [`b0e10d1`](https://github.com/sase-org/sase/commit/b0e10d1284e0a364db8ccfae462ab3ab1e2d4a08) | feat(bead): keep exactly one pending gate per task bead | [sase-gn.7](sase-gn.7.md) | 2026-08-06 21:42:58 EDT |
 | sase | [`09bb443`](https://github.com/sase-org/sase/commit/09bb443ea4206edf188b54042713cf561fc89f94) | feat(ace-tui): show one indicator chip per notification tab | [sase-gn.3](sase-gn.3.md) | 2026-08-06 21:45:00 EDT |
+| sase | [`0f7960d`](https://github.com/sase-org/sase/commit/0f7960d0853a7cd52721cec1361ae1c394cd0dee) | feat(ace-tui): snooze task beads from the Beads pane | [sase-gn.8](sase-gn.8.md) | 2026-08-06 22:48:14 EDT |

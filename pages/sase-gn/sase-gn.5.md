@@ -18,7 +18,7 @@ bead-snooze-cli: add the snooze command and its time, +1, and reason arguments, 
 ## Dependencies
 
 - **Depends on:** [sase-gn.4](sase-gn.4.md) ✓ · ⧖ 2026-08-06
-- **Blocks:** [sase-gn.8](sase-gn.8.md) ◐ · ⧖ 2026-08-06
+- **Blocks:** [sase-gn.8](sase-gn.8.md) ✓ · ⧖ 2026-08-06
 
 ## Agents
 
