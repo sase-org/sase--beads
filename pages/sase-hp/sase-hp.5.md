@@ -14,7 +14,7 @@ visual: give the targeting state a deliberate, theme-safe look — distinct bar 
 ## Dependencies
 
 - **Depends on:** [sase-hp.1](sase-hp.1.md) ✓ · ⧖ 2026-08-08
-- **Depends on:** [sase-hp.3](sase-hp.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hp.3](sase-hp.3.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hp.6](sase-hp.6.md) ◐ · ⧖ 2026-08-08
 
 ## Agents

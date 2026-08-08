@@ -14,7 +14,7 @@ docs: bring the `?` help popup, the conditional keybinding footer, and the ACE /
 ## Dependencies
 
 - **Depends on:** [sase-hp.2](sase-hp.2.md) ◐ · ⧖ 2026-08-08
-- **Depends on:** [sase-hp.3](sase-hp.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hp.3](sase-hp.3.md) ✓ · ⧖ 2026-08-08
 - **Depends on:** [sase-hp.4](sase-hp.4.md) ◐ · ⧖ 2026-08-08
 - **Depends on:** [sase-hp.5](sase-hp.5.md) ◐ · ⧖ 2026-08-08
 - **Blocks:** [sase-hp.7](sase-hp.7.md) ◐ · ⧖ 2026-08-08
