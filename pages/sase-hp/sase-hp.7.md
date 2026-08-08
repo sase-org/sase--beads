@@ -13,7 +13,7 @@ verify: run the full verification gate and drive the real TUI through the comple
 
 ## Dependencies
 
-- **Depends on:** [sase-hp.6](sase-hp.6.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hp.6](sase-hp.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

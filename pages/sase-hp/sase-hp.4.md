@@ -20,7 +20,7 @@ followup: replace the single commit/push confirmation with a classifier-driven f
 ## Dependencies
 
 - **Depends on:** [sase-hp.1](sase-hp.1.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hp.6](sase-hp.6.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hp.6](sase-hp.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

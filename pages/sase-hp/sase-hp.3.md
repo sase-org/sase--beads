@@ -21,7 +21,7 @@ menu: open the submit chooser whenever the stack is multi-pane or targeted, and 
 
 - **Depends on:** [sase-hp.1](sase-hp.1.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hp.5](sase-hp.5.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hp.6](sase-hp.6.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hp.6](sase-hp.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
