@@ -13,7 +13,7 @@ xprompt-memory-verification: prove contextual precedence, namespaced expansion, 
 
 ## Dependencies
 
-- **Depends on:** [sase-hf.3](sase-hf.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hf.3](sase-hf.3.md) ✓ · ⧖ 2026-08-08
 - **Depends on:** [sase-hf.4](sase-hf.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
