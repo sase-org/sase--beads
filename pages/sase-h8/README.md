@@ -30,7 +30,7 @@ A run whose exemption is corroborated by a real ancestor lease (SASE_TEST_GATE_G
 | [sase-h8.3](sase-h8.3.md) | Measured classification of every flake node | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.4](sase-h8.4.md) | Fix the off-pump settle-gap family | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.5](sase-h8.5.md) | Fix the real-wall-clock-threshold family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
-| [sase-h8.6](sase-h8.6.md) | Fix the ACE fixture-state and cross-test-leakage family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-h8.6](sase-h8.6.md) | Fix the ACE fixture-state and cross-test-leakage family | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.7](sase-h8.7.md) | Fix the non-ACE store, tooling, and subprocess family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h8.8](sase-h8.8.md) | A committed flake baseline that fails the build on new flakes | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h8.9](sase-h8.9.md) | Land the epic and close sase-ct on a measured criterion | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n3["sase-h8.3: Measured classification of every flake node [closed]"]
     n4["sase-h8.4: Fix the off-pump settle-gap family [closed]"]
     n5["sase-h8.5: Fix the real-wall-clock-threshold family [in_progress]"]
-    n6["sase-h8.6: Fix the ACE fixture-state and cross-test-leakage family [in_progress]"]
+    n6["sase-h8.6: Fix the ACE fixture-state and cross-test-leakage family [closed]"]
     n7["sase-h8.7: Fix the non-ACE store, tooling, and subprocess family [in_progress]"]
     n8["sase-h8.8: A committed flake baseline that fails the build on new flakes [in_progress]"]
     n9["sase-h8.9: Land the epic and close sase-ct on a measured criterion [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 1 |
 | [bbugyi200.athena.sase-h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.4/README.md) | [sase-h8.4](sase-h8.4.md) | 1 |
 | [bbugyi200.athena.sase-h8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.5/README.md) | [sase-h8.5](sase-h8.5.md) | 0 |
-| [bbugyi200.athena.sase-h8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.6/README.md) | [sase-h8.6](sase-h8.6.md) | 0 |
+| [bbugyi200.athena.sase-h8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.6/README.md) | [sase-h8.6](sase-h8.6.md) | 1 |
 | [bbugyi200.athena.sase-h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.7/README.md) | [sase-h8.7](sase-h8.7.md) | 0 |
 | [bbugyi200.athena.sase-h8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.8/README.md) | [sase-h8.8](sase-h8.8.md) | 0 |
 | [bbugyi200.athena.sase-h8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.9/README.md) | [sase-h8.9](sase-h8.9.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | sase | [`2bac5ad`](https://github.com/sase-org/sase/commit/2bac5ad9e2fe07db5a023a5ed361b1a63c3faeb6) | test(contention): add a contention harness for the default pytest lane | [sase-h8.1](sase-h8.1.md) | 2026-08-07 21:05:44 EDT |
 | sase--research | [`sase--research@a66a667`](https://github.com/sase-org/sase--research/commit/a66a6676afa78b5db78aabc89d1f94154197c958) | docs(research): triage the parallel-suite flake class by measurement | [sase-h8.3](sase-h8.3.md) | 2026-08-07 21:40:00 EDT |
 | sase | [`4dc3231`](https://github.com/sase-org/sase/commit/4dc323117f73481c24798e3aa0f2487dbfa4dfc8) | test(flakes): close the off-pump settle gaps in three ACE test files | [sase-h8.4](sase-h8.4.md) | 2026-08-07 22:29:37 EDT |
+| sase | [`f980248`](https://github.com/sase-org/sase/commit/f980248c19958191a84e57100aa4de289bb3897c) | test(ace): pin the metadata-search corpus against competing repaints | [sase-h8.6](sase-h8.6.md) | 2026-08-07 22:48:58 EDT |
