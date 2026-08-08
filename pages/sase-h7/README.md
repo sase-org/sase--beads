@@ -36,6 +36,14 @@ Discovered while implementing an unrelated plan (.sase/artifacts/home/.sase/plan
 
 [2026-08-08T03:18:47Z · toobig-1z.split_file.src.sase.ace.tui.modals.gate_branch_controls.0] DISCOVERED ISSUE: the PNG golden tests/ace/tui/visual/snapshots/png/frontmatter_panel_raw_diagnostics_120x40.png is stale because of this epic's own phase sase-h7.3. Commit 8e52e4638 ('feat(notification-gates): add declarative per-option inputs and per-option submission') added the ENUM xprompt InputType, which appended ', enum' to the frontmatter panel's 'Invalid xprompt input type ... Expected bool/boolean, float, ...' diagnostic string, but the golden was not regenerated. tests/ace/tui/visual/test_ace_png_snapshots_frontmatter_panel.py::test_frontmatter_panel_raw_diagnostics_png_snapshot now fails deterministically on clean master (f980248c1): 415/1520532 changed pixels (0.027293%), diff bbox (74, 826, 362, 846), expected text 'bool/boolean, float' vs actual 'bool/boolean, float, enum'. Confirmed pre-existing by stashing my diff (git stash -u) and rerunning 'just test-visual tests/ace/tui/visual/test_ace_png_snapshots_frontmatter_panel.py' on the clean tree. This is deterministic in isolation, so it is not the sase-ct/sase-h8 flake class. It fails 'just test-visual'/'just check-full' for every agent until the golden is accepted with --sase-update-visual-snapshots. Discovered while splitting src/sase/ace/tui/modals/gate_branch_controls.py into smaller modules (unrelated pure refactor; all 89 focused gate tests and the rest of the 560-test visual suite pass).
 
+[2026-08-08T04:46:17Z · sase-h7.13.land] LANDING STATUS from sase-h7.13's land agent: child epic sase-h7.13 is now CLOSED, so every one of this epic's 12 phases plus its follow-up epic are closed and this bead is unblocked for its own close. I did not close it: my prompt scoped me to sase-h7.13, and this bead has its own assignee (sase-h7.land). Someone with this epic's landing prompt should run the sase-h7 close.
+
+What sase-h7.13 verified on this epic's behalf: all 6 self-inflicted test failures on the combined tree are gone; 'just check-full' is now 1 failed / 27555 passed / 10 skipped, and that one failure (tests/test_content_layout.py, schema_version 2 vs 1) belongs to active epic sase-hb, not here. 'just symvision' is clean with no expired whitelist entries. sase-telegram is green apart from 3 stale fixtures tracked as task sase-hd.
+
+Two gaps this epic caused were found and fixed during that landing rather than deferred: (1) a submitted secret: true value still reached response.json in plaintext -- via option_results when a command echoed its stdin, and via the legacy shared 'input' key -- contradicting this epic's plan invariant 5 and docs/notifications.md, which sase-h7.13.3 had closed for journal.jsonl only; (2) tests/ace/tui/visual/snapshots/png/frontmatter_panel_raw_diagnostics_120x40.png was stale because phase sase-h7.3 (8e52e4638) added InputType.ENUM and never regenerated the golden. Both fixes are in the sase_10 workspace tree, uncommitted, awaiting the commit finalizer.
+
+Plan files: 202608/gate_input_collection.md is already status: done (c03880e1); 202608/gate_inputs_landing.md is now status: done in the plans sidecar working tree.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -62,7 +70,7 @@ flowchart TD
     n2["sase-h7.10: Show the input a gate asks for and the input it received [closed]"]
     n3["sase-h7.11: Retire free-text smuggling from snooze, triage, and launch [closed]"]
     n4["sase-h7.12: Document the input and action contracts [closed]"]
-    n5["sase-h7.13: Close the gate-input epic's own gaps and land it [in_progress]"]
+    n5["sase-h7.13: Close the gate-input epic's own gaps and land it [closed]"]
     n6["sase-h7.13.1: Model what a surface can really submit at creation [closed]"]
     n7["sase-h7.13.2: Repair sase-telegram against the custom-gate presentation contract [closed]"]
     n8["sase-h7.13.3: Close the three input-enforcement gaps the epic left open [closed]"]
@@ -132,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.5/README.md) | [sase-h7.13.5](sase-h7.13.5.md) | 1 |
-| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 0 |
+| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 1 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 1 |
 | [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 3 |
 | [bbugyi200.athena.sase-h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.4/README.md) | [sase-h7.4](sase-h7.4.md) | 1 |
@@ -168,3 +176,4 @@ flowchart TD
 | sase | [`f2c6f18`](https://github.com/sase-org/sase/commit/f2c6f1889dce19dac2a34ecfc9b543315a19b241) | fix(gate): credit the raw-schema escape hatch in the answerability probe | [sase-h7.13.1](sase-h7.13.1.md) | 2026-08-07 23:38:18 EDT |
 | sase | [`86a54a6`](https://github.com/sase-org/sase/commit/86a54a674ca14ae3313602b26af3bc9e2022bc39) | test(gate): assert the mobile leg the gate-input epic shipped | [sase-h7.13.4](sase-h7.13.4.md) | 2026-08-07 23:48:29 EDT |
 | sase--plans | [`sase--plans@c03880e`](https://github.com/sase-org/sase--plans/commit/c03880e1c13e9a6aaee3321fae2532a835f44062) | docs(plans): mark the gate input collection epic done | [sase-h7.13.5](sase-h7.13.5.md) | 2026-08-08 00:05:38 EDT |
+| sase | [`ed50d45`](https://github.com/sase-org/sase/commit/ed50d45ee67018f5a77bef87b8cabf6bbed1af9b) | fix(gate): keep submitted secrets out of response.json too | [sase-h7.13](sase-h7.13.md) | 2026-08-08 01:00:03 EDT |
