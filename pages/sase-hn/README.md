@@ -35,7 +35,7 @@ commit.message.require_conventional_subject to get past this check.. While commi
 | [sase-hn.2](sase-hn.2.md) | Migrate the Python domain and ProjectSpec storage layer | ✓ closed | large | 2026-08-08 | 1 | 2 |
 | [sase-hn.3](sase-hn.3.md) | Rename workflow, automation, CLI, and metadata contracts | ✓ closed | large | 2026-08-08 | 1 | 1 |
 | [sase-hn.4](sase-hn.4.md) | Rename the ACE TUI and configuration surface | ◐ in_progress | large | 2026-08-08 | 1 | 0 |
-| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-hn.6](sase-hn.6.md) | Update documentation, glossary, demos, and generated-skill sources | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
 | [sase-hn.7](sase-hn.7.md) | Reconcile compatibility and verify the complete rename | ◐ in_progress | large | 2026-08-08 | 1 | 0 |
 
@@ -48,7 +48,7 @@ flowchart TD
     n2["sase-hn.2: Migrate the Python domain and ProjectSpec storage layer [closed]"]
     n3["sase-hn.3: Rename workflow, automation, CLI, and metadata contracts [closed]"]
     n4["sase-hn.4: Rename the ACE TUI and configuration surface [in_progress]"]
-    n5["sase-hn.5: Update linked GitHub, Telegram, and Neovim integrations [in_progress]"]
+    n5["sase-hn.5: Update linked GitHub, Telegram, and Neovim integrations [closed]"]
     n6["sase-hn.6: Update documentation, glossary, demos, and generated-skill sources [in_progress]"]
     n7["sase-hn.7: Reconcile compatibility and verify the complete rename [in_progress]"]
     n0 --> n1
@@ -74,8 +74,8 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.1/README.md) | [sase-hn.1](sase-hn.1.md) | 1 |
 | [bbugyi200.athena.sase-hn.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.2.md) | [sase-hn.2](sase-hn.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.3.md) | [sase-hn.3](sase-hn.3.md) | 1 |
-| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.4/README.md) | [sase-hn.4](sase-hn.4.md) | 0 |
-| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 0 |
+| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 0 |
+| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 1 |
 | [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 0 |
 | [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.7/README.md) | [sase-hn.7](sase-hn.7.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
@@ -88,3 +88,4 @@ flowchart TD
 | sase | [`3e6da8d`](https://github.com/sase-org/sase/commit/3e6da8d5fb1b7d4887b8f78cfce863d702fa1fb7) | feat: Migrate the Python domain and ProjectSpec storage layer (sase-hn.2) | [sase-hn.2](sase-hn.2.md) | 2026-08-08 15:28:09 EDT |
 | sase | [`6367ef3`](https://github.com/sase-org/sase/commit/6367ef34734011e7ebe37885b7bf074260627412) | refactor(patch): canonicalize Python patch storage | [sase-hn.2](sase-hn.2.md) | 2026-08-08 17:04:42 EDT |
 | sase | [`d9e11c7`](https://github.com/sase-org/sase/commit/d9e11c78673a1ec6255f5d9bd85e977534f9315b) | feat: add canonical patch workflow contracts | [sase-hn.3](sase-hn.3.md) | 2026-08-08 18:30:49 EDT |
+| sase-github | [`sase-github@bc4fec5`](https://github.com/sase-org/sase-github/commit/bc4fec5d436853eb9b839339d855093d13ce83aa) | feat: adopt Patch terminology in GitHub integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:03:55 EDT |

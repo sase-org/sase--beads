@@ -14,7 +14,7 @@ docs-memory-skills: rewrite maintained explanatory surfaces, regenerate memory s
 ## Dependencies
 
 - **Depends on:** [sase-hn.4](sase-hn.4.md) ◐ · ⧖ 2026-08-08
-- **Depends on:** [sase-hn.5](sase-hn.5.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hn.5](sase-hn.5.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hn.7](sase-hn.7.md) ◐ · ⧖ 2026-08-08
 
 ## Agents

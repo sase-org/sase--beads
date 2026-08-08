@@ -21,7 +21,7 @@ workflows-cli-contracts: migrate lifecycle, automation, command, and machine-fac
 
 - **Depends on:** [sase-hn.2](sase-hn.2.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hn.4](sase-hn.4.md) ◐ · ⧖ 2026-08-08
-- **Blocks:** [sase-hn.5](sase-hn.5.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hn.5](sase-hn.5.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

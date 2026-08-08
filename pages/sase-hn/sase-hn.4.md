@@ -20,4 +20,4 @@ tui-config-surface: present Patches and stitches throughout ACE and normalize le
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.4/README.md) | [sase-hn.4](sase-hn.4.md) | 0 |
+| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 0 |
