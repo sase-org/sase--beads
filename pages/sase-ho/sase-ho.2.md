@@ -23,7 +23,7 @@ python-ref-registry: consume the new core contract, load `sase/refs`, synthesize
 
 - **Depends on:** [sase-ho.1](sase-ho.1.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-ho.3](sase-ho.3.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-ho.4](sase-ho.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-ho.4](sase-ho.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

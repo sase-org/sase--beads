@@ -14,7 +14,7 @@ integration-and-docs: add cross-surface tests, migration/config documentation, a
 ## Dependencies
 
 - **Depends on:** [sase-ho.3](sase-ho.3.md) ✓ · ⧖ 2026-08-08
-- **Depends on:** [sase-ho.4](sase-ho.4.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-ho.4](sase-ho.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

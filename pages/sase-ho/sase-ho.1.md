@@ -20,7 +20,7 @@ core-ref-contract: extend the Rust content-layout, artifact-reference, catalog, 
 ## Dependencies
 
 - **Blocks:** [sase-ho.2](sase-ho.2.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-ho.4](sase-ho.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-ho.4](sase-ho.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
