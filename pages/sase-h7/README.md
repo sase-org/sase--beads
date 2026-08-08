@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.5/README.md) | [sase-h7.13.5](sase-h7.13.5.md) | 1 |
-| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 1 |
+| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 2 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 1 |
 | [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 3 |
 | [bbugyi200.athena.sase-h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.4/README.md) | [sase-h7.4](sase-h7.4.md) | 1 |
@@ -177,3 +177,4 @@ flowchart TD
 | sase | [`86a54a6`](https://github.com/sase-org/sase/commit/86a54a674ca14ae3313602b26af3bc9e2022bc39) | test(gate): assert the mobile leg the gate-input epic shipped | [sase-h7.13.4](sase-h7.13.4.md) | 2026-08-07 23:48:29 EDT |
 | sase--plans | [`sase--plans@c03880e`](https://github.com/sase-org/sase--plans/commit/c03880e1c13e9a6aaee3321fae2532a835f44062) | docs(plans): mark the gate input collection epic done | [sase-h7.13.5](sase-h7.13.5.md) | 2026-08-08 00:05:38 EDT |
 | sase | [`ed50d45`](https://github.com/sase-org/sase/commit/ed50d45ee67018f5a77bef87b8cabf6bbed1af9b) | fix(gate): keep submitted secrets out of response.json too | [sase-h7.13](sase-h7.13.md) | 2026-08-08 01:00:03 EDT |
+| sase--plans | [`sase--plans@5701a7d`](https://github.com/sase-org/sase--plans/commit/5701a7d64bb470e9d625e4ae1cfbcd71c26487c2) | docs(plan): mark the gate-input landing plan done | [sase-h7.13](sase-h7.13.md) | 2026-08-08 01:01:31 EDT |

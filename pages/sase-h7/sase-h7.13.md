@@ -38,10 +38,11 @@ FOLLOW-UP OUTCOMES (every PROPOSED FOLLOW-UP collected from the children, plus t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 1 |
+| [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ed50d45`](https://github.com/sase-org/sase/commit/ed50d45ee67018f5a77bef87b8cabf6bbed1af9b) | fix(gate): keep submitted secrets out of response.json too | [sase-h7.13](sase-h7.13.md) | 2026-08-08 01:00:03 EDT |
+| sase--plans | [`sase--plans@5701a7d`](https://github.com/sase-org/sase--plans/commit/5701a7d64bb470e9d625e4ae1cfbcd71c26487c2) | docs(plan): mark the gate-input landing plan done | [sase-h7.13](sase-h7.13.md) | 2026-08-08 01:01:31 EDT |
