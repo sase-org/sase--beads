@@ -15,7 +15,7 @@ land: re-run all four sase-h8 exit criteria on the combined tree, file genuinely
 
 - **Depends on:** [sase-h8.10.1](sase-h8.10.1.md) ✓ · ⧖ 2026-08-08
 - **Depends on:** [sase-h8.10.2](sase-h8.10.2.md) ◐ · ⧖ 2026-08-08
-- **Depends on:** [sase-h8.10.3](sase-h8.10.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-h8.10.3](sase-h8.10.3.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
