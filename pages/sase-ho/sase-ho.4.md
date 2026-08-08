@@ -14,7 +14,7 @@ reference-completion: drive TUI and LSP completion for both `@kind:` and `#ref/k
 ## Dependencies
 
 - **Depends on:** [sase-ho.1](sase-ho.1.md) ✓ · ⧖ 2026-08-08
-- **Depends on:** [sase-ho.2](sase-ho.2.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-ho.2](sase-ho.2.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-ho.5](sase-ho.5.md) ◐ · ⧖ 2026-08-08
 
 ## Agents
