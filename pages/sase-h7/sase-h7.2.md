@@ -18,7 +18,7 @@ feedback-input: replace ACE's never-copy, mobile's option-id heuristic, and Tele
 ## Dependencies
 
 - **Blocks:** [sase-h7.11](sase-h7.11.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-h7.8](sase-h7.8.md) ✓ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.8](sase-h7.8.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
 

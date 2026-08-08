@@ -16,7 +16,7 @@ retire-smuggling: express snooze durations as declared `enum`/`line` inputs, del
 - **Blocks:** [sase-h7.12](sase-h7.12.md) ◐ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.2](sase-h7.2.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.6](sase-h7.6.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-h7.8](sase-h7.8.md) ✓ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.8](sase-h7.8.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
 

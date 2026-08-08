@@ -39,10 +39,10 @@ inputs-core: add the closed per-option `inputs:` authoring vocabulary built on `
 
 ## Dependencies
 
-- **Blocks:** [sase-h7.10](sase-h7.10.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.10](sase-h7.10.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.5](sase-h7.5.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.6](sase-h7.6.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-h7.8](sase-h7.8.md) ✓ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.8](sase-h7.8.md) ◐ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.9](sase-h7.9.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
