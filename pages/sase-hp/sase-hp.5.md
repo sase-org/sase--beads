@@ -17,6 +17,8 @@ visual: give the targeting state a deliberate, theme-safe look — distinct bar 
 
 [2026-08-08T22:14:47Z · sase-hp.5] Verified focused prompt-stack/editor tests, PNG visual snapshots, xprompt write-target tests, and just check.
 
+[2026-08-08T22:41:10Z · sase-hp.5] Post-rebase verification: selector harness/read-only path tests and glossary binding checks pass after refreshing linked core.
+
 ## Dependencies
 
 - **Depends on:** [sase-hp.1](sase-hp.1.md) ✓ · ⧖ 2026-08-08
@@ -27,10 +29,11 @@ visual: give the targeting state a deliberate, theme-safe look — distinct bar 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hp.5/README.md) | [sase-hp.5](sase-hp.5.md) | 1 |
+| [bbugyi200.athena.sase-hp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hp.5/README.md) | [sase-hp.5](sase-hp.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e213d03`](https://github.com/sase-org/sase/commit/e213d03f9240101ba674cbec0f40ebb520fd0bf6) | feat(tui): show xprompt target state in prompt bar | [sase-hp.5](sase-hp.5.md) | 2026-08-08 18:20:53 EDT |
+| sase | [`bcf5748`](https://github.com/sase-org/sase/commit/bcf5748b6bf736a87b44f2100cc7f7f501b10133) | test(tui): accept read-only xprompt target path | [sase-hp.5](sase-hp.5.md) | 2026-08-08 18:41:51 EDT |
