@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ho.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.3/README.md) | [sase-ho.3](sase-ho.3.md) | 1 |
 | [bbugyi200.athena.sase-ho.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.4/README.md) | [sase-ho.4](sase-ho.4.md) | 2 |
 | [bbugyi200.athena.sase-ho.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.5/README.md) | [sase-ho.5](sase-ho.5.md) | 1 |
-| [bbugyi200.athena.sase-ho.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.land/README.md) | [sase-ho](README.md) | 1 |
+| [bbugyi200.athena.sase-ho.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.land/README.md) | [sase-ho](README.md) | 2 |
 
 ## Commits
 
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`f164eee`](https://github.com/sase-org/sase/commit/f164eee9a832f28df1bdd5d59479b0a3edffc245) | feat(tui): complete filtered ref argument completion | [sase-ho.4](sase-ho.4.md) | 2026-08-08 18:06:35 EDT |
 | sase | [`ce8ea89`](https://github.com/sase-org/sase/commit/ce8ea893fdbd601531beed3d920d187baf070bf2) | fix: select the active project for ref renderers | [sase-ho.5](sase-ho.5.md) | 2026-08-08 18:38:47 EDT |
 | sase | [`0a45fee`](https://github.com/sase-org/sase/commit/0a45feebcf1bf691d83c272938e450e32b70a46e) | fix(ace): treat synthesized ref renderers as read-only xprompt sources | [sase-ho](README.md) | 2026-08-08 19:11:49 EDT |
+| sase--plans | [`sase--plans@3e3b0c7`](https://github.com/sase-org/sase--plans/commit/3e3b0c7143f1363c4a4204823fb90d24099f3188) | docs(plans): mark the artifact reference xprompts epic done | [sase-ho](README.md) | 2026-08-08 19:13:29 EDT |
