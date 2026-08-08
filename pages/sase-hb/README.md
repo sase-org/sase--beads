@@ -20,7 +20,7 @@ Xprompt-backed agent skills are defined only in canonical sase/skills sources, r
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-hb.1](sase-hb.1.md) | Shared skill layout and editor contract | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-hb.2](sase-hb.2.md) | Python discovery, validation, generation, and bundled migration | ✓ closed | medium | 2026-08-07 | 1 | 1 |
+| [sase-hb.2](sase-hb.2.md) | Python discovery, validation, generation, and bundled migration | ✓ closed | medium | 2026-08-07 | 1 | 2 |
 | [sase-hb.3](sase-hb.3.md) | Catalog, authoring, completion, and documentation updates | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-hb.4](sase-hb.4.md) | Enabled-project and chezmoi source migration | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-hb.5](sase-hb.5.md) | Cross-repository validation and canonical deployment | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-hb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.1/README.md) | [sase-hb.1](sase-hb.1.md) | 1 |
-| [bbugyi200.athena.sase-hb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.2/README.md) | [sase-hb.2](sase-hb.2.md) | 1 |
+| [bbugyi200.athena.sase-hb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.2/README.md) | [sase-hb.2](sase-hb.2.md) | 2 |
 | [bbugyi200.athena.sase-hb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.3/README.md) | [sase-hb.3](sase-hb.3.md) | 0 |
 | [bbugyi200.athena.sase-hb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.4/README.md) | [sase-hb.4](sase-hb.4.md) | 0 |
 | [bbugyi200.athena.sase-hb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.5/README.md) | [sase-hb.5](sase-hb.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@682d48f`](https://github.com/sase-org/sase-core/commit/682d48fc789ac86233979e130d1cd2db92f524e3) | feat(skills)!: define the canonical skill layout and editor contract | [sase-hb.1](sase-hb.1.md) | 2026-08-07 23:20:02 EDT |
 | sase | [`ab442ed`](https://github.com/sase-org/sase/commit/ab442ed247dbf2aec27ab89095852d1efb3a7216) | feat(skills)!: require skills to live in a dedicated skills/ directory | [sase-hb.2](sase-hb.2.md) | 2026-08-08 01:12:39 EDT |
+| sase-core | [`sase-core@38cfb2d`](https://github.com/sase-org/sase-core/commit/38cfb2db638717c9a7dfd21c9b3ea289b0598418) | fix(xprompt): skip the packaged skill frame template when scanning skills | [sase-hb.2](sase-hb.2.md) | 2026-08-08 01:13:53 EDT |

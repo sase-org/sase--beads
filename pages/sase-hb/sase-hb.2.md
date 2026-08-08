@@ -39,10 +39,11 @@ sase-runtime: consume the core contract, enforce canonical placement, preserve s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.2/README.md) | [sase-hb.2](sase-hb.2.md) | 1 |
+| [bbugyi200.athena.sase-hb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.2/README.md) | [sase-hb.2](sase-hb.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ab442ed`](https://github.com/sase-org/sase/commit/ab442ed247dbf2aec27ab89095852d1efb3a7216) | feat(skills)!: require skills to live in a dedicated skills/ directory | [sase-hb.2](sase-hb.2.md) | 2026-08-08 01:12:39 EDT |
+| sase-core | [`sase-core@38cfb2d`](https://github.com/sase-org/sase-core/commit/38cfb2db638717c9a7dfd21c9b3ea289b0598418) | fix(xprompt): skip the packaged skill frame template when scanning skills | [sase-hb.2](sase-hb.2.md) | 2026-08-08 01:13:53 EDT |
