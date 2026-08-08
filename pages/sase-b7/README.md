@@ -58,7 +58,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | sase | [`d309f95`](https://github.com/sase-org/sase/commit/d309f95370d8ecd8bda05e89b3e80057d3d6ca94) | feat: add authorship-aware artifact capture policy | [sase-b7.2](sase-b7.2.md) | 2026-07-30 13:18:52 |
-| sase-core | [`ee287b0`](https://github.com/sase-org/sase-core/commit/ee287b0523c8d611e9ce7935fc2a534287b7b104) | feat!: materialize VCS-backed artifact files | [sase-b7.1](sase-b7.1.md) | 2026-07-30 13:22:25 |
+| sase-core | [`sase-core@ee287b0`](https://github.com/sase-org/sase-core/commit/ee287b0523c8d611e9ce7935fc2a534287b7b104) | feat!: materialize VCS-backed artifact files | [sase-b7.1](sase-b7.1.md) | 2026-07-30 13:22:25 |
 | sase | [`c9edec5`](https://github.com/sase-org/sase/commit/c9edec56145a050d89ed18911c27f90831e7a9dc) | feat(artifacts): materialize VCS-backed files on demand | [sase-b7.3](sase-b7.3.md) | 2026-07-30 13:48:54 |
 | sase | [`94daa1e`](https://github.com/sase-org/sase/commit/94daa1ebdcff2d3adf11c24599d04807f8a5a03a) | feat(artifacts): wire VCS-backed default capture | [sase-b7.4](sase-b7.4.md) | 2026-07-30 14:20:33 |
 | sase | [`658e576`](https://github.com/sase-org/sase/commit/658e57696301cdab8119f77ef0ec1cd4fda16037) | docs(artifacts): document VCS-backed artifact files | [sase-b7.5](sase-b7.5.md) | 2026-07-30 14:33:01 |
