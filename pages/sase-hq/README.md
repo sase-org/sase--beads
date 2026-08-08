@@ -1,0 +1,68 @@
+# Bead: sase-hq — Project-local glossary memory and editor semantics
+
+[Bead Pages](../README.md) / sase-hq
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.w2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.w2/README.md) · **Assignee:** `sase-hq.land`
+**Created:** 2026-08-08 17:02:22 EDT
+**Plan:** [202608/project\_glossary.md](https://github.com/sase-org/sase--plans/blob/main/202608/project_glossary.md)
+
+## Description
+
+Make one project-local glossary configuration the reliable source for generated agent memory, project-aware prompt highlighting, definition previews, and definition editing in ACE and every SASE LSP client.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-hq.1](sase-hq.1.md) | Define the canonical glossary domain | ✓ closed | medium | 2026-08-08 | 1 | 1 |
+| [sase-hq.2](sase-hq.2.md) | Generate glossary memory from project config | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.3](sase-hq.3.md) | Build project-aware glossary catalogs | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.4](sase-hq.4.md) | Add beautiful ACE glossary interactions | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.5](sase-hq.5.md) | Add glossary semantics to the xprompt LSP | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.6](sase-hq.6.md) | Migrate SASE's glossary and prove the complete feature | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-hq: Project-local glossary memory and editor semantics [in_progress]"]
+    n1["sase-hq.1: Define the canonical glossary domain [closed]"]
+    n2["sase-hq.2: Generate glossary memory from project config [in_progress]"]
+    n3["sase-hq.3: Build project-aware glossary catalogs [in_progress]"]
+    n4["sase-hq.4: Add beautiful ACE glossary interactions [in_progress]"]
+    n5["sase-hq.5: Add glossary semantics to the xprompt LSP [in_progress]"]
+    n6["sase-hq.6: Migrate SASE's glossary and prove the complete feature [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n1 -.-> n2
+    n1 -.-> n3
+    n2 -.-> n3
+    n2 -.-> n6
+    n3 -.-> n4
+    n3 -.-> n5
+    n4 -.-> n6
+    n5 -.-> n6
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-hq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.1/README.md) | [sase-hq.1](sase-hq.1.md) | 1 |
+| [bbugyi200.athena.sase-hq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.2/README.md) | [sase-hq.2](sase-hq.2.md) | 0 |
+| [bbugyi200.athena.sase-hq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.3/README.md) | [sase-hq.3](sase-hq.3.md) | 0 |
+| [bbugyi200.athena.sase-hq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.4/README.md) | [sase-hq.4](sase-hq.4.md) | 0 |
+| [bbugyi200.athena.sase-hq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.5/README.md) | [sase-hq.5](sase-hq.5.md) | 0 |
+| [bbugyi200.athena.sase-hq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.6/README.md) | [sase-hq.6](sase-hq.6.md) | 0 |
+| [bbugyi200.athena.sase-hq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.land/README.md) | [sase-hq](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@f6a29d3`](https://github.com/sase-org/sase-core/commit/f6a29d36e56a7af5fa29af2d48104442d2faab66) | feat(core): add glossary catalog domain | [sase-hq.1](sase-hq.1.md) | 2026-08-08 18:11:11 EDT |
