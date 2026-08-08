@@ -19,7 +19,7 @@ Define artifact-reference renderers as contextual `#ref/` xprompts, automaticall
 | [sase-ho.2](sase-ho.2.md) | Build the Python ref registry and sidecar configuration | ✓ closed | large | 2026-08-08 | 1 | 1 |
 | [sase-ho.3](sase-ho.3.md) | Route artifact expansion through ref xprompts | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-ho.4](sase-ho.4.md) | Unify filtered completion across invocation surfaces | ✓ closed | medium | 2026-08-08 | 1 | 2 |
-| [sase-ho.5](sase-ho.5.md) | Prove the end-to-end contract and document it | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-ho.5](sase-ho.5.md) | Prove the end-to-end contract and document it | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["sase-ho.2: Build the Python ref registry and sidecar configuration [closed]"]
     n3["sase-ho.3: Route artifact expansion through ref xprompts [closed]"]
     n4["sase-ho.4: Unify filtered completion across invocation surfaces [closed]"]
-    n5["sase-ho.5: Prove the end-to-end contract and document it [in_progress]"]
+    n5["sase-ho.5: Prove the end-to-end contract and document it [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ho.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ho.2.md) | [sase-ho.2](sase-ho.2.md) | 1 |
 | [bbugyi200.athena.sase-ho.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.3/README.md) | [sase-ho.3](sase-ho.3.md) | 1 |
 | [bbugyi200.athena.sase-ho.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.4/README.md) | [sase-ho.4](sase-ho.4.md) | 2 |
-| [bbugyi200.athena.sase-ho.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.5/README.md) | [sase-ho.5](sase-ho.5.md) | 0 |
+| [bbugyi200.athena.sase-ho.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.5/README.md) | [sase-ho.5](sase-ho.5.md) | 1 |
 | [bbugyi200.athena.sase-ho.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.land/README.md) | [sase-ho](README.md) | 0 |
 
 ## Commits
@@ -64,3 +64,4 @@ flowchart TD
 | sase | [`be6277b`](https://github.com/sase-org/sase/commit/be6277b6722e7d393eb21c97150ddd4b47e117b4) | feat: render artifact refs through ref xprompts | [sase-ho.3](sase-ho.3.md) | 2026-08-08 18:03:01 EDT |
 | sase-core | [`sase-core@5764c32`](https://github.com/sase-org/sase-core/commit/5764c323bdc19376de026d2fefa50c12b678a34e) | fix(lsp): invalidate ref completion sources | [sase-ho.4](sase-ho.4.md) | 2026-08-08 18:04:33 EDT |
 | sase | [`f164eee`](https://github.com/sase-org/sase/commit/f164eee9a832f28df1bdd5d59479b0a3edffc245) | feat(tui): complete filtered ref argument completion | [sase-ho.4](sase-ho.4.md) | 2026-08-08 18:06:35 EDT |
+| sase | [`ce8ea89`](https://github.com/sase-org/sase/commit/ce8ea893fdbd601531beed3d920d187baf070bf2) | fix: select the active project for ref renderers | [sase-ho.5](sase-ho.5.md) | 2026-08-08 18:38:47 EDT |

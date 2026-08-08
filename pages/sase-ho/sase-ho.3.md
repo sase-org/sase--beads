@@ -20,7 +20,7 @@ artifact-rendering: make `#ref/` and `@` use one late resolver-renderer pipeline
 ## Dependencies
 
 - **Depends on:** [sase-ho.2](sase-ho.2.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-ho.5](sase-ho.5.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-ho.5](sase-ho.5.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
