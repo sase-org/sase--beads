@@ -23,7 +23,7 @@ docs: add the Muse provider section and update every provider enumeration across
 - **Depends on:** [sase-ha.4](sase-ha.4.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-ha.5](sase-ha.5.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-ha.6](sase-ha.6.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-ha.8](sase-ha.8.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-ha.8](sase-ha.8.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
