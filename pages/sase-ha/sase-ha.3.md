@@ -11,6 +11,10 @@
 
 cli_install: add a confirmed, shell-free `sase agent-cli install` subcommand that fetches a provider-declared installer over HTTPS, shows its digest before running it, and never edits the user's shell rc files.
 
+## Notes
+
+[2026-08-08T01:41:33Z · sase-ha.3] PROPOSED FOLLOW-UP: tests/test_multi_prompt_launcher_xprompt_groups.py::test_launcher_qualifies_research_swarm_per_dispatch failed once under the full parallel `just test-scoped` lane on 2026-08-07 but passes in isolation, with its own file, and against a clean tree — investigate as parallel/order-dependent flakiness unrelated to agent-CLI work.
+
 ## Dependencies
 
 - **Depends on:** [sase-ha.1](sase-ha.1.md) ✓ · ⧖ 2026-08-07
