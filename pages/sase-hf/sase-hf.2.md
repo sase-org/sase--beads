@@ -21,7 +21,7 @@ python-memory-runtime: consume the shared contract, load valid memory notes as c
 
 - **Depends on:** [sase-hf.1](sase-hf.1.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hf.3](sase-hf.3.md) ◐ · ⧖ 2026-08-08
-- **Blocks:** [sase-hf.4](sase-hf.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hf.4](sase-hf.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
