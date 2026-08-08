@@ -11,6 +11,10 @@
 
 tooling: fix the triaged non-ACE nodes — bead-store clusters, selection and run_pytest tooling tests, the coverage-context cache, and the subprocess/pipe races — while leaving the bead-mutation lock timeout tracked separately under sase-e2 alone.
 
+## Notes
+
+[2026-08-08T01:50:24Z · sase-h8.3] TRIAGE (from sase-h8.3): the phase-triage table is research:202608/parallel_suite_flake_triage.md, committed to the research sidecar. It measures family membership at master 47b9f0017 and corrects the epic plan in several places, including the family your phase owns. Read it before starting; see also the sase-h8.3 bead notes.
+
 ## Dependencies
 
 - **Depends on:** [sase-h8.2](sase-h8.2.md) ✓ · ⧖ 2026-08-07

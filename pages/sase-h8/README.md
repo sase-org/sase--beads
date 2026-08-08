@@ -28,7 +28,7 @@ A run whose exemption is corroborated by a real ancestor lease (SASE_TEST_GATE_G
 | [sase-h8.1](sase-h8.1.md) | A contention harness for the default (non-visual) lane | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.2](sase-h8.2.md) | One bounded-wait primitive for raw-pilot tests | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-h8.3](sase-h8.3.md) | Measured classification of every flake node | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h8.4](sase-h8.4.md) | Fix the off-pump settle-gap family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-h8.4](sase-h8.4.md) | Fix the off-pump settle-gap family | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.5](sase-h8.5.md) | Fix the real-wall-clock-threshold family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h8.6](sase-h8.6.md) | Fix the ACE fixture-state and cross-test-leakage family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h8.7](sase-h8.7.md) | Fix the non-ACE store, tooling, and subprocess family | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
@@ -43,7 +43,7 @@ flowchart TD
     n1["sase-h8.1: A contention harness for the default (non-visual) lane [closed]"]
     n2["sase-h8.2: One bounded-wait primitive for raw-pilot tests [closed]"]
     n3["sase-h8.3: Measured classification of every flake node [closed]"]
-    n4["sase-h8.4: Fix the off-pump settle-gap family [in_progress]"]
+    n4["sase-h8.4: Fix the off-pump settle-gap family [closed]"]
     n5["sase-h8.5: Fix the real-wall-clock-threshold family [in_progress]"]
     n6["sase-h8.6: Fix the ACE fixture-state and cross-test-leakage family [in_progress]"]
     n7["sase-h8.7: Fix the non-ACE store, tooling, and subprocess family [in_progress]"]
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.1/README.md) | [sase-h8.1](sase-h8.1.md) | 1 |
 | [bbugyi200.athena.sase-h8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.2/README.md) | [sase-h8.2](sase-h8.2.md) | 1 |
 | [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 1 |
-| [bbugyi200.athena.sase-h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.4/README.md) | [sase-h8.4](sase-h8.4.md) | 0 |
+| [bbugyi200.athena.sase-h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.4/README.md) | [sase-h8.4](sase-h8.4.md) | 1 |
 | [bbugyi200.athena.sase-h8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.5/README.md) | [sase-h8.5](sase-h8.5.md) | 0 |
 | [bbugyi200.athena.sase-h8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.6/README.md) | [sase-h8.6](sase-h8.6.md) | 0 |
 | [bbugyi200.athena.sase-h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.7/README.md) | [sase-h8.7](sase-h8.7.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | sase | [`6476ec6`](https://github.com/sase-org/sase/commit/6476ec65c5b525dbb3623d91b70e7319e52b9f20) | refactor(ace-testing): consolidate raw-pilot \_wait\_until copies into wait\_for | [sase-h8.2](sase-h8.2.md) | 2026-08-07 18:37:20 EDT |
 | sase | [`2bac5ad`](https://github.com/sase-org/sase/commit/2bac5ad9e2fe07db5a023a5ed361b1a63c3faeb6) | test(contention): add a contention harness for the default pytest lane | [sase-h8.1](sase-h8.1.md) | 2026-08-07 21:05:44 EDT |
 | sase--research | [`sase--research@a66a667`](https://github.com/sase-org/sase--research/commit/a66a6676afa78b5db78aabc89d1f94154197c958) | docs(research): triage the parallel-suite flake class by measurement | [sase-h8.3](sase-h8.3.md) | 2026-08-07 21:40:00 EDT |
+| sase | [`4dc3231`](https://github.com/sase-org/sase/commit/4dc323117f73481c24798e3aa0f2487dbfa4dfc8) | test(flakes): close the off-pump settle gaps in three ACE test files | [sase-h8.4](sase-h8.4.md) | 2026-08-07 22:29:37 EDT |

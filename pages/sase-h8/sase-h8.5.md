@@ -11,6 +11,10 @@
 
 clock: remove the dependence on real elapsed wall-clock time from the stall watchdog tests and the other triaged deadline-shaped nodes, by driving them from an injectable time source or a load-normalized budget instead of loosening assertions again.
 
+## Notes
+
+[2026-08-08T01:48:33Z · sase-h8.3] TRIAGE (from sase-h8.3): the phase-triage table is research:202608/parallel_suite_flake_triage.md, committed to the research sidecar. It measures family membership at master 47b9f0017 and corrects the epic plan in several places, including the family your phase owns. Read it before starting; see also the sase-h8.3 bead notes.
+
 ## Dependencies
 
 - **Depends on:** [sase-h8.2](sase-h8.2.md) ✓ · ⧖ 2026-08-07
