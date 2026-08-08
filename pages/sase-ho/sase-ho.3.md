@@ -26,4 +26,10 @@ artifact-rendering: make `#ref/` and `@` use one late resolver-renderer pipeline
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ho.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.3/README.md) | [sase-ho.3](sase-ho.3.md) | 0 |
+| [bbugyi200.athena.sase-ho.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.3/README.md) | [sase-ho.3](sase-ho.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`be6277b`](https://github.com/sase-org/sase/commit/be6277b6722e7d393eb21c97150ddd4b47e117b4) | feat: render artifact refs through ref xprompts | [sase-ho.3](sase-ho.3.md) | 2026-08-08 18:03:01 EDT |

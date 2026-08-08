@@ -27,10 +27,11 @@ reference-completion: drive TUI and LSP completion for both `@kind:` and `#ref/k
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ho.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.4/README.md) | [sase-ho.4](sase-ho.4.md) | 1 |
+| [bbugyi200.athena.sase-ho.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ho.4/README.md) | [sase-ho.4](sase-ho.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@5764c32`](https://github.com/sase-org/sase-core/commit/5764c323bdc19376de026d2fefa50c12b678a34e) | fix(lsp): invalidate ref completion sources | [sase-ho.4](sase-ho.4.md) | 2026-08-08 18:04:33 EDT |
+| sase | [`f164eee`](https://github.com/sase-org/sase/commit/f164eee9a832f28df1bdd5d59479b0a3edffc245) | feat(tui): complete filtered ref argument completion | [sase-ho.4](sase-ho.4.md) | 2026-08-08 18:06:35 EDT |
