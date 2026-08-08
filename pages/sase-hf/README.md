@@ -23,7 +23,7 @@ Valid SASE memory notes are exposed as an explicit xprompt-memory type under the
 | [sase-hf.2](sase-hf.2.md) | Python discovery and expansion integration | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-hf.3](sase-hf.3.md) | CLI, ACE, helper, and editor presentation | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-hf.4](sase-hf.4.md) | Memory documentation and glossary regeneration | ✓ closed | small | 2026-08-08 | 1 | 1 |
-| [sase-hf.5](sase-hf.5.md) | Cross-runtime verification | ◐ in_progress | small | 2026-08-08 | 1 | 0 |
+| [sase-hf.5](sase-hf.5.md) | Cross-runtime verification | ✓ closed | small | 2026-08-08 | 1 | 1 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n2["sase-hf.2: Python discovery and expansion integration [closed]"]
     n3["sase-hf.3: CLI, ACE, helper, and editor presentation [closed]"]
     n4["sase-hf.4: Memory documentation and glossary regeneration [closed]"]
-    n5["sase-hf.5: Cross-runtime verification [in_progress]"]
+    n5["sase-hf.5: Cross-runtime verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.2/README.md) | [sase-hf.2](sase-hf.2.md) | 1 |
 | [bbugyi200.athena.sase-hf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.3/README.md) | [sase-hf.3](sase-hf.3.md) | 1 |
 | [bbugyi200.athena.sase-hf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.4/README.md) | [sase-hf.4](sase-hf.4.md) | 1 |
-| [bbugyi200.athena.sase-hf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.5/README.md) | [sase-hf.5](sase-hf.5.md) | 0 |
+| [bbugyi200.athena.sase-hf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.5/README.md) | [sase-hf.5](sase-hf.5.md) | 1 |
 | [bbugyi200.athena.sase-hf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hf.land/README.md) | [sase-hf](README.md) | 0 |
 
 ## Commits
@@ -66,3 +66,4 @@ flowchart TD
 | sase | [`1c45d48`](https://github.com/sase-org/sase/commit/1c45d483f83e0a0f96dfa1558b5d661e8becd25d) | feat(xprompt): load memory notes as xprompts | [sase-hf.2](sase-hf.2.md) | 2026-08-08 10:11:47 EDT |
 | sase | [`5f0da4b`](https://github.com/sase-org/sase/commit/5f0da4b331d7b72587fa8090954899a11fb5acff) | docs(xprompt): document explicit #memory/\<stem\> inclusion and regenerate memory outputs | [sase-hf.4](sase-hf.4.md) | 2026-08-08 10:30:58 EDT |
 | sase | [`7631dc2`](https://github.com/sase-org/sase/commit/7631dc218a3f69616968d44d885ae231c5a351cd) | feat: expose memory entries across xprompt surfaces | [sase-hf.3](sase-hf.3.md) | 2026-08-08 11:00:06 EDT |
+| sase-core | [`sase-core@70b148b`](https://github.com/sase-org/sase-core/commit/70b148b6369ef4729e72eb5f66f2c43d4d4d54bf) | fix: drop stale dynamic memory diagnostics | [sase-hf.5](sase-hf.5.md) | 2026-08-08 11:23:37 EDT |

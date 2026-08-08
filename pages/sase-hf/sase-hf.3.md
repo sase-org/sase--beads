@@ -20,7 +20,7 @@ memory-user-surfaces: expose xprompt-memory identity and refresh behavior consis
 ## Dependencies
 
 - **Depends on:** [sase-hf.2](sase-hf.2.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hf.5](sase-hf.5.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hf.5](sase-hf.5.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
