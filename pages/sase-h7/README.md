@@ -41,7 +41,7 @@ Discovered while implementing an unrelated plan (.sase/artifacts/home/.sase/plan
 | [sase-h7.1](sase-h7.1.md) | Diagnosable input failures and non-destructive retry | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h7.10](sase-h7.10.md) | Show the input a gate asks for and the input it received | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-h7.11](sase-h7.11.md) | Retire free-text smuggling from snooze, triage, and launch | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h7.12](sase-h7.12.md) | Document the input and action contracts | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
+| [sase-h7.12](sase-h7.12.md) | Document the input and action contracts | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-h7.2](sase-h7.2.md) | One feedback-to-input rule for every surface | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h7.3](sase-h7.3.md) | Declarative per-option inputs and per-option submission | ✓ closed | large | 2026-08-07 | 1 | 3 |
 | [sase-h7.4](sase-h7.4.md) | Repeatable non-terminal gate actions | ✓ closed | medium | 2026-08-07 | 1 | 1 |
@@ -59,7 +59,7 @@ flowchart TD
     n1["sase-h7.1: Diagnosable input failures and non-destructive retry [closed]"]
     n2["sase-h7.10: Show the input a gate asks for and the input it received [closed]"]
     n3["sase-h7.11: Retire free-text smuggling from snooze, triage, and launch [closed]"]
-    n4["sase-h7.12: Document the input and action contracts [in_progress]"]
+    n4["sase-h7.12: Document the input and action contracts [closed]"]
     n5["sase-h7.2: One feedback-to-input rule for every surface [closed]"]
     n6["sase-h7.3: Declarative per-option inputs and per-option submission [closed]"]
     n7["sase-h7.4: Repeatable non-terminal gate actions [closed]"]
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.1/README.md) | [sase-h7.1](sase-h7.1.md) | 1 |
 | [bbugyi200.athena.sase-h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.10/README.md) | [sase-h7.10](sase-h7.10.md) | 1 |
 | [bbugyi200.athena.sase-h7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.11/README.md) | [sase-h7.11](sase-h7.11.md) | 1 |
-| [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 0 |
+| [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 1 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 1 |
 | [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 3 |
 | [bbugyi200.athena.sase-h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.4/README.md) | [sase-h7.4](sase-h7.4.md) | 1 |
@@ -136,3 +136,4 @@ flowchart TD
 | sase | [`a1cc172`](https://github.com/sase-org/sase/commit/a1cc172d337957f2d68d42ec9fe6c3187907ae87) | feat(notification-gates): surface declared and submitted gate input | [sase-h7.10](sase-h7.10.md) | 2026-08-07 20:41:46 EDT |
 | sase | [`e1da6d1`](https://github.com/sase-org/sase/commit/e1da6d1b76fd1ea28bc620ab20ad63085842e932) | feat(notification-gates): collect typed gate inputs in the ACE modals | [sase-h7.6](sase-h7.6.md) | 2026-08-07 21:37:07 EDT |
 | sase | [`27d04a6`](https://github.com/sase-org/sase/commit/27d04a679981f65c9efb655df8518da1731f2bf6) | feat(notification-gates)!: retire free-text smuggling from snooze, triage, and launch | [sase-h7.11](sase-h7.11.md) | 2026-08-07 22:29:07 EDT |
+| sase | [`6b8c690`](https://github.com/sase-org/sase/commit/6b8c690fcc314447dba8b03f3ab3314ee70fb4fd) | docs(gate): document gate input and action contracts | [sase-h7.12](sase-h7.12.md) | 2026-08-07 22:53:38 EDT |
