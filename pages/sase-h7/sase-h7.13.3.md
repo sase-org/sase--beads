@@ -11,6 +11,10 @@
 
 input-integrity: redact secret-declared values out of the durable journal's command results, anchor the compiled string patterns so schema validation and `InputArg.validate_and_convert` agree, and widen the pre-execution rejection recorder so an adapter's own exception type still reaches `errors/`.
 
+## Notes
+
+[2026-08-08T03:28:43Z · sase-h7.13.3] Verified: (1) journal.jsonl no longer stores a submitted secret — redact_secrets_in_result scrubs secret-declared string values (including strings that merely contain one) out of the option_completed result; result_digest still covers the raw result. (2) word/agent/line/path compiled patterns anchor with (?![\s\S]) so Draft202012Validator and InputArg.validate_and_convert reach the same verdict on a trailing newline, covered by a new parametrized agreement test across all four types. (3) recorded_rejection now records every rejection, not only GateError, under code "adapter_rejected" while re-raising the adapter's own exception unchanged; covered by a new test that makes validate_edited_resource raise a non-GateError and asserts errors/ holds the record. just fmt + just check: every whole-repo lint gate passes; scoped tests 4136 passed with the 6 known epic failures (test_gate_cli_show x4, gate_conformance legacy_shared_input cli+ace) unchanged — confirmed by stashing this diff that they pre-exist it and belong to the answerability phase. Landed as 0a13ffed4.
+
 ## Dependencies
 
 - **Blocks:** [sase-h7.13.5](sase-h7.13.5.md) ◐ · ⧖ 2026-08-07

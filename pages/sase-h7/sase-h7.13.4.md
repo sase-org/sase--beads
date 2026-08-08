@@ -13,7 +13,7 @@ mobile-conformance: declare the per-option input capability the mobile bridge ac
 
 ## Dependencies
 
-- **Depends on:** [sase-h7.13.1](sase-h7.13.1.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.13.1](sase-h7.13.1.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.13.5](sase-h7.13.5.md) ◐ · ⧖ 2026-08-07
 
 ## Agents

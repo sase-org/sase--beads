@@ -63,7 +63,7 @@ flowchart TD
     n3["sase-h7.11: Retire free-text smuggling from snooze, triage, and launch [closed]"]
     n4["sase-h7.12: Document the input and action contracts [closed]"]
     n5["sase-h7.13: Close the gate-input epic's own gaps and land it [in_progress]"]
-    n6["sase-h7.13.1: Model what a surface can really submit at creation [in_progress]"]
+    n6["sase-h7.13.1: Model what a surface can really submit at creation [closed]"]
     n7["sase-h7.13.2: Repair sase-telegram against the custom-gate presentation contract [closed]"]
     n8["sase-h7.13.3: Close the three input-enforcement gaps the epic left open [closed]"]
     n9["sase-h7.13.4: Assert the mobile leg the epic shipped [in_progress]"]
@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.10/README.md) | [sase-h7.10](sase-h7.10.md) | 1 |
 | [bbugyi200.athena.sase-h7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.11/README.md) | [sase-h7.11](sase-h7.11.md) | 1 |
 | [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 1 |
-| [bbugyi200.athena.sase-h7.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.1/README.md) | [sase-h7.13.1](sase-h7.13.1.md) | 0 |
+| [bbugyi200.athena.sase-h7.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.1/README.md) | [sase-h7.13.1](sase-h7.13.1.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 0 |
 | [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 0 |
@@ -163,3 +163,4 @@ flowchart TD
 | sase | [`27d04a6`](https://github.com/sase-org/sase/commit/27d04a679981f65c9efb655df8518da1731f2bf6) | feat(notification-gates)!: retire free-text smuggling from snooze, triage, and launch | [sase-h7.11](sase-h7.11.md) | 2026-08-07 22:29:07 EDT |
 | sase | [`6b8c690`](https://github.com/sase-org/sase/commit/6b8c690fcc314447dba8b03f3ab3314ee70fb4fd) | docs(gate): document gate input and action contracts | [sase-h7.12](sase-h7.12.md) | 2026-08-07 22:53:38 EDT |
 | sase | [`0a13ffe`](https://github.com/sase-org/sase/commit/0a13ffed4da876cca0f00efd8611136d34dda961) | fix(gate): close the three input-enforcement gaps the epic left open | [sase-h7.13.3](sase-h7.13.3.md) | 2026-08-07 23:27:27 EDT |
+| sase | [`f2c6f18`](https://github.com/sase-org/sase/commit/f2c6f1889dce19dac2a34ecfc9b543315a19b241) | fix(gate): credit the raw-schema escape hatch in the answerability probe | [sase-h7.13.1](sase-h7.13.1.md) | 2026-08-07 23:38:18 EDT |

@@ -13,7 +13,7 @@ land: run the full gate across both repos, close epic bead sase-h7 with a verifi
 
 ## Dependencies
 
-- **Depends on:** [sase-h7.13.1](sase-h7.13.1.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h7.13.1](sase-h7.13.1.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.13.2](sase-h7.13.2.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.13.3](sase-h7.13.3.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.13.4](sase-h7.13.4.md) ◐ · ⧖ 2026-08-07
