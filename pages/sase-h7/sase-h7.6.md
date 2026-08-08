@@ -19,7 +19,7 @@ inputs-ace: extract the typed-field form out of `InputCollectionModal` into a re
 
 ## Dependencies
 
-- **Blocks:** [sase-h7.11](sase-h7.11.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.11](sase-h7.11.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h7.3](sase-h7.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
