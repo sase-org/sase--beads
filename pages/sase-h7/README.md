@@ -66,7 +66,7 @@ flowchart TD
     n6["sase-h7.13.1: Model what a surface can really submit at creation [closed]"]
     n7["sase-h7.13.2: Repair sase-telegram against the custom-gate presentation contract [closed]"]
     n8["sase-h7.13.3: Close the three input-enforcement gaps the epic left open [closed]"]
-    n9["sase-h7.13.4: Assert the mobile leg the epic shipped [in_progress]"]
+    n9["sase-h7.13.4: Assert the mobile leg the epic shipped [closed]"]
     n10["sase-h7.13.5: Land the epic [in_progress]"]
     n11["sase-h7.2: One feedback-to-input rule for every surface [closed]"]
     n12["sase-h7.3: Declarative per-option inputs and per-option submission [closed]"]
@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.1/README.md) | [sase-h7.13.1](sase-h7.13.1.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 0 |
 | [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 1 |
-| [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 0 |
+| [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.5/README.md) | [sase-h7.13.5](sase-h7.13.5.md) | 0 |
 | [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 0 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 1 |
@@ -164,3 +164,4 @@ flowchart TD
 | sase | [`6b8c690`](https://github.com/sase-org/sase/commit/6b8c690fcc314447dba8b03f3ab3314ee70fb4fd) | docs(gate): document gate input and action contracts | [sase-h7.12](sase-h7.12.md) | 2026-08-07 22:53:38 EDT |
 | sase | [`0a13ffe`](https://github.com/sase-org/sase/commit/0a13ffed4da876cca0f00efd8611136d34dda961) | fix(gate): close the three input-enforcement gaps the epic left open | [sase-h7.13.3](sase-h7.13.3.md) | 2026-08-07 23:27:27 EDT |
 | sase | [`f2c6f18`](https://github.com/sase-org/sase/commit/f2c6f1889dce19dac2a34ecfc9b543315a19b241) | fix(gate): credit the raw-schema escape hatch in the answerability probe | [sase-h7.13.1](sase-h7.13.1.md) | 2026-08-07 23:38:18 EDT |
+| sase | [`86a54a6`](https://github.com/sase-org/sase/commit/86a54a674ca14ae3313602b26af3bc9e2022bc39) | test(gate): assert the mobile leg the gate-input epic shipped | [sase-h7.13.4](sase-h7.13.4.md) | 2026-08-07 23:48:29 EDT |

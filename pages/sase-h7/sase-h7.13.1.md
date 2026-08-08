@@ -19,7 +19,7 @@ answerability: teach the creation-time answerability probe about the raw-schema 
 
 ## Dependencies
 
-- **Blocks:** [sase-h7.13.4](sase-h7.13.4.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.13.4](sase-h7.13.4.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h7.13.5](sase-h7.13.5.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
