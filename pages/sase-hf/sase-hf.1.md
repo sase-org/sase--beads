@@ -23,7 +23,7 @@ shared-memory-contract: define memory source precedence, reference naming, type 
 
 ## Dependencies
 
-- **Blocks:** [sase-hf.2](sase-hf.2.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hf.2](sase-hf.2.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
