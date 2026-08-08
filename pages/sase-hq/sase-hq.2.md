@@ -20,7 +20,7 @@ memory: add the project-local schema and make memory init render glossary.md bef
 ## Dependencies
 
 - **Depends on:** [sase-hq.1](sase-hq.1.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hq.3](sase-hq.3.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hq.3](sase-hq.3.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hq.6](sase-hq.6.md) ◐ · ⧖ 2026-08-08
 
 ## Agents

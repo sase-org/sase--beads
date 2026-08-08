@@ -11,15 +11,21 @@
 
 Make one project-local glossary configuration the reliable source for generated agent memory, project-aware prompt highlighting, definition previews, and definition editing in ACE and every SASE LSP client.
 
+## Notes
+
+[2026-08-08T22:56:26Z · sase-ho.land] DISCOVERED ISSUE: commit 01fa3b106 (phase sase-hq.2, 'feat(memory): generate glossary note from project config') added 'XPromptWriteTarget = _XPromptWriteTarget' immediately above __all__ in src/sase/xprompt/write_targets.py, but 996f76d32 had already renamed that dataclass back to the public name, so the alias references an undefined symbol. Reproduction on commit 01fa3b106: executing the module body raises "NameError: name '_XPromptWriteTarget' is not defined", and ruff reports F811 for the same pattern. This is a rebase artifact -- the phase's tree still had the private _XPromptWriteTarget from 8f8c39829 -- and it is not glossary-specific. Impact: every importer of sase.xprompt.write_targets fails. Fixed while landing epic sase-ho by removing the dangling alias (a duplicate of it, added by ce8ea893f, was removed too). Recording here so this epic's remaining phases (sase-hq.3-.6) re-check their trees for the same stale private name before landing. Details also noted on epic sase-hp, which owns this file.
+
+[2026-08-08T22:59:44Z · sase-ho.land] CORRECTION to the previous DISCOVERED ISSUE note from the sase-ho land agent: the dangling alias was removed upstream by commit 1d47fdef5 ('fix(xprompt): remove stale write target alias', sase-hp.5), not by the sase-ho land agent. The diagnosis stands -- 01fa3b106 (sase-hq.2) contributed one of the two duplicate alias lines as a rebase artifact -- so the standing advice for phases sase-hq.3 through sase-hq.6 to re-check their trees for the stale private _XPromptWriteTarget name before landing is unchanged.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-hq.1](sase-hq.1.md) | Define the canonical glossary domain | ✓ closed | medium | 2026-08-08 | 1 | 2 |
 | [sase-hq.2](sase-hq.2.md) | Generate glossary memory from project config | ✓ closed | medium | 2026-08-08 | 1 | 1 |
-| [sase-hq.3](sase-hq.3.md) | Build project-aware glossary catalogs | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.3](sase-hq.3.md) | Build project-aware glossary catalogs | ✓ closed | medium | 2026-08-08 | 1 | 0 |
 | [sase-hq.4](sase-hq.4.md) | Add beautiful ACE glossary interactions | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
-| [sase-hq.5](sase-hq.5.md) | Add glossary semantics to the xprompt LSP | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.5](sase-hq.5.md) | Add glossary semantics to the xprompt LSP | ✓ closed | medium | 2026-08-08 | 1 | 0 |
 | [sase-hq.6](sase-hq.6.md) | Migrate SASE's glossary and prove the complete feature | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
 
 ## Lineage
@@ -29,9 +35,9 @@ flowchart TD
     n0["sase-hq: Project-local glossary memory and editor semantics [in_progress]"]
     n1["sase-hq.1: Define the canonical glossary domain [closed]"]
     n2["sase-hq.2: Generate glossary memory from project config [closed]"]
-    n3["sase-hq.3: Build project-aware glossary catalogs [in_progress]"]
+    n3["sase-hq.3: Build project-aware glossary catalogs [closed]"]
     n4["sase-hq.4: Add beautiful ACE glossary interactions [in_progress]"]
-    n5["sase-hq.5: Add glossary semantics to the xprompt LSP [in_progress]"]
+    n5["sase-hq.5: Add glossary semantics to the xprompt LSP [closed]"]
     n6["sase-hq.6: Migrate SASE's glossary and prove the complete feature [in_progress]"]
     n0 --> n1
     n0 --> n2

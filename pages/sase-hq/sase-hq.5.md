@@ -2,18 +2,24 @@
 
 [Bead Pages](../README.md) / [sase-hq](README.md) / sase-hq.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.w2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.w2/README.md) · **Assignee:** `sase-hq.5` · **Size:** medium
-**Created:** 2026-08-08 17:05:12 EDT
+**Created:** 2026-08-08 17:05:12 EDT · **Closed:** 2026-08-08 19:30:23 EDT
 **Plan:** [202608/project\_glossary.md](https://github.com/sase-org/sase--plans/blob/main/202608/project_glossary.md)
 
 ## Description
 
 lsp: expose project glossary aliases through semantic tokens, hover, and go-to-definition with live cache invalidation.
 
+## Notes
+
+[2026-08-08T23:30:23Z · sase-hq.5] Implemented glossary-aware xprompt LSP semantics in sase-core and verified cargo fmt --check, cargo clippy -p sase_core -p sase_xprompt_lsp --all-targets -- -D warnings, cargo test -p sase_core glossary --quiet, cargo test -p sase_xprompt_lsp --quiet, and git diff --check.
+
+[2026-08-08T23:33:01Z · sase-hq.5] Verified cargo fmt --check; cargo clippy -p sase_core -p sase_xprompt_lsp --all-targets -- -D warnings; cargo test -p sase_core glossary --quiet; cargo test -p sase_xprompt_lsp --quiet; git diff --check
+
 ## Dependencies
 
-- **Depends on:** [sase-hq.3](sase-hq.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hq.3](sase-hq.3.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hq.6](sase-hq.6.md) ◐ · ⧖ 2026-08-08
 
 ## Agents
