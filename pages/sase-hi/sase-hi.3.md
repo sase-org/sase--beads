@@ -14,7 +14,7 @@ skill_surface_cutover: align CLI, ACE, LSP-facing fixtures, documentation, visua
 ## Dependencies
 
 - **Depends on:** [sase-hi.1](sase-hi.1.md) ✓ · ⧖ 2026-08-08
-- **Depends on:** [sase-hi.2](sase-hi.2.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hi.2](sase-hi.2.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

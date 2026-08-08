@@ -21,7 +21,7 @@ core_skill_reference_contract: separate physical skill directories from singular
 
 ## Dependencies
 
-- **Blocks:** [sase-hi.2](sase-hi.2.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hi.2](sase-hi.2.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hi.3](sase-hi.3.md) ◐ · ⧖ 2026-08-08
 
 ## Agents
