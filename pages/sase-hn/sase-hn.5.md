@@ -13,7 +13,7 @@ linked-integrations: adopt canonical APIs and labels in GitHub, Telegram, and Ne
 
 ## Dependencies
 
-- **Depends on:** [sase-hn.3](sase-hn.3.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hn.3](sase-hn.3.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hn.6](sase-hn.6.md) ◐ · ⧖ 2026-08-08
 
 ## Agents

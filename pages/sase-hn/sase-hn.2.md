@@ -20,7 +20,7 @@ python-domain-storage: introduce canonical models, modules, parsing, formatting,
 ## Dependencies
 
 - **Depends on:** [sase-hn.1](sase-hn.1.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hn.3](sase-hn.3.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hn.3](sase-hn.3.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
