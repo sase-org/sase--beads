@@ -29,10 +29,4 @@ telegram-presentation: give sase-telegram's custom-gate test specs the `presenta
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@b550ad2`](https://github.com/sase-org/sase-telegram/commit/b550ad22131472c09a46ed40c1c969a28649f8ad) | test(gates): add missing presentation.title to custom-gate spec fixture | [sase-h7.13.2](sase-h7.13.2.md) | 2026-08-07 23:23:06 EDT |
+| [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 0 |

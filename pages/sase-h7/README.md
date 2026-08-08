@@ -50,7 +50,7 @@ Discovered while implementing an unrelated plan (.sase/artifacts/home/.sase/plan
 | [sase-h7.5](sase-h7.5.md) | Fail closed at creation for unanswerable gates | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h7.6](sase-h7.6.md) | Generic typed input collection in the ACE gate modals | ✓ closed | large | 2026-08-07 | 1 | 1 |
 | [sase-h7.7](sase-h7.7.md) | Gate actions in the ACE modals and the plan edit round trip | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h7.8](sase-h7.8.md) | Mobile wire and Telegram step flow for declared inputs | ✓ closed | large | 2026-08-07 | 1 | 3 |
+| [sase-h7.8](sase-h7.8.md) | Mobile wire and Telegram step flow for declared inputs | ✓ closed | large | 2026-08-07 | 1 | 2 |
 | [sase-h7.9](sase-h7.9.md) | sase gate answer, act, and show | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 
 ## Lineage
@@ -65,7 +65,7 @@ flowchart TD
     n5["sase-h7.13: Close the gate-input epic's own gaps and land it [in_progress]"]
     n6["sase-h7.13.1: Model what a surface can really submit at creation [in_progress]"]
     n7["sase-h7.13.2: Repair sase-telegram against the custom-gate presentation contract [closed]"]
-    n8["sase-h7.13.3: Close the three input-enforcement gaps the epic left open [in_progress]"]
+    n8["sase-h7.13.3: Close the three input-enforcement gaps the epic left open [closed]"]
     n9["sase-h7.13.4: Assert the mobile leg the epic shipped [in_progress]"]
     n10["sase-h7.13.5: Land the epic [in_progress]"]
     n11["sase-h7.2: One feedback-to-input rule for every surface [closed]"]
@@ -128,8 +128,8 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.11/README.md) | [sase-h7.11](sase-h7.11.md) | 1 |
 | [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.1/README.md) | [sase-h7.13.1](sase-h7.13.1.md) | 0 |
-| [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 1 |
-| [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 0 |
+| [bbugyi200.athena.sase-h7.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.2/README.md) | [sase-h7.13.2](sase-h7.13.2.md) | 0 |
+| [bbugyi200.athena.sase-h7.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.3/README.md) | [sase-h7.13.3](sase-h7.13.3.md) | 1 |
 | [bbugyi200.athena.sase-h7.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.4/README.md) | [sase-h7.13.4](sase-h7.13.4.md) | 0 |
 | [bbugyi200.athena.sase-h7.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.5/README.md) | [sase-h7.13.5](sase-h7.13.5.md) | 0 |
 | [bbugyi200.athena.sase-h7.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.13.land/README.md) | [sase-h7.13](sase-h7.13.md) | 0 |
@@ -139,7 +139,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.5/README.md) | [sase-h7.5](sase-h7.5.md) | 1 |
 | [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.6.md) | [sase-h7.6](sase-h7.6.md) | 1 |
 | [bbugyi200.athena.sase-h7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.7/README.md) | [sase-h7.7](sase-h7.7.md) | 1 |
-| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 3 |
+| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 2 |
 | [bbugyi200.athena.sase-h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.9/README.md) | [sase-h7.9](sase-h7.9.md) | 1 |
 | [bbugyi200.athena.sase-h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.land/README.md) | [sase-h7](README.md) | 0 |
 
@@ -159,8 +159,7 @@ flowchart TD
 | sase | [`a78b105`](https://github.com/sase-org/sase/commit/a78b105b5fc1055345fe9d783fe71c6d798f42ef) | feat(notification-gates): run gate actions from the ACE modals | [sase-h7.7](sase-h7.7.md) | 2026-08-07 19:30:40 EDT |
 | sase | [`7bbd82a`](https://github.com/sase-org/sase/commit/7bbd82a47ed7b3e2aec55ec0dfce76ed128f1cb5) | feat(mobile): accept per-option gate inputs on the mobile bridge | [sase-h7.8](sase-h7.8.md) | 2026-08-07 19:31:45 EDT |
 | sase | [`a1cc172`](https://github.com/sase-org/sase/commit/a1cc172d337957f2d68d42ec9fe6c3187907ae87) | feat(notification-gates): surface declared and submitted gate input | [sase-h7.10](sase-h7.10.md) | 2026-08-07 20:41:46 EDT |
-| sase-telegram | [`sase-telegram@afa933b`](https://github.com/sase-org/sase-telegram/commit/afa933b2ac74aef579de3b1517df005f8a665355) | feat: add declared-input step flow for gate options | [sase-h7.8](sase-h7.8.md) | 2026-08-07 20:49:52 EDT |
 | sase | [`e1da6d1`](https://github.com/sase-org/sase/commit/e1da6d1b76fd1ea28bc620ab20ad63085842e932) | feat(notification-gates): collect typed gate inputs in the ACE modals | [sase-h7.6](sase-h7.6.md) | 2026-08-07 21:37:07 EDT |
 | sase | [`27d04a6`](https://github.com/sase-org/sase/commit/27d04a679981f65c9efb655df8518da1731f2bf6) | feat(notification-gates)!: retire free-text smuggling from snooze, triage, and launch | [sase-h7.11](sase-h7.11.md) | 2026-08-07 22:29:07 EDT |
 | sase | [`6b8c690`](https://github.com/sase-org/sase/commit/6b8c690fcc314447dba8b03f3ab3314ee70fb4fd) | docs(gate): document gate input and action contracts | [sase-h7.12](sase-h7.12.md) | 2026-08-07 22:53:38 EDT |
-| sase-telegram | [`sase-telegram@b550ad2`](https://github.com/sase-org/sase-telegram/commit/b550ad22131472c09a46ed40c1c969a28649f8ad) | test(gates): add missing presentation.title to custom-gate spec fixture | [sase-h7.13.2](sase-h7.13.2.md) | 2026-08-07 23:23:06 EDT |
+| sase | [`0a13ffe`](https://github.com/sase-org/sase/commit/0a13ffed4da876cca0f00efd8611136d34dda961) | fix(gate): close the three input-enforcement gaps the epic left open | [sase-h7.13.3](sase-h7.13.3.md) | 2026-08-07 23:27:27 EDT |

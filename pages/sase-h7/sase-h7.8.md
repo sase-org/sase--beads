@@ -39,7 +39,7 @@ inputs-remote: extend the frozen `mobile_api_v1` gate contract in `sase-core` wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 3 |
+| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 2 |
 
 ## Commits
 
@@ -47,4 +47,3 @@ inputs-remote: extend the frozen `mobile_api_v1` gate contract in `sase-core` wi
 |---|---|---|---|---|
 | sase-core | [`sase-core@65e0ec1`](https://github.com/sase-org/sase-core/commit/65e0ec1e7323fc1ca958e7dabe806acc6661bd96) | feat(mobile)!: carry declared gate inputs on the mobile wire | [sase-h7.8](sase-h7.8.md) | 2026-08-07 19:08:56 EDT |
 | sase | [`7bbd82a`](https://github.com/sase-org/sase/commit/7bbd82a47ed7b3e2aec55ec0dfce76ed128f1cb5) | feat(mobile): accept per-option gate inputs on the mobile bridge | [sase-h7.8](sase-h7.8.md) | 2026-08-07 19:31:45 EDT |
-| sase-telegram | [`sase-telegram@afa933b`](https://github.com/sase-org/sase-telegram/commit/afa933b2ac74aef579de3b1517df005f8a665355) | feat: add declared-input step flow for gate options | [sase-h7.8](sase-h7.8.md) | 2026-08-07 20:49:52 EDT |
