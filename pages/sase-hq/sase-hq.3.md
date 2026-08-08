@@ -19,7 +19,7 @@ catalog: resolve glossary entries and editable source locations for the project 
 
 - **Depends on:** [sase-hq.1](sase-hq.1.md) ✓ · ⧖ 2026-08-08
 - **Depends on:** [sase-hq.2](sase-hq.2.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hq.4](sase-hq.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hq.4](sase-hq.4.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hq.5](sase-hq.5.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
