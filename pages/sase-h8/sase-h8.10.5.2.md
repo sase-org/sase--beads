@@ -25,11 +25,10 @@ post-start-integration: migrate the post-epic plan-link concurrency waits to the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h8.10.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.2/README.md) | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2 |
+| [bbugyi200.athena.sase-h8.10.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.2/README.md) | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`47cad6a`](https://github.com/sase-org/sase/commit/47cad6a0213b346ac61a59add409f6ae90400c65) | test: update post-epic plan-link assertions | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2026-08-08 13:49:31 EDT |
-| sase--plans | [`sase--plans@aeecfc9`](https://github.com/sase-org/sase--plans/commit/aeecfc990198036369a913a2ccfadebe968efc54) | docs: remove stale parent plan link | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2026-08-08 13:50:50 EDT |

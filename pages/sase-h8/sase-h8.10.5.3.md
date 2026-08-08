@@ -13,7 +13,7 @@ land: verify every child and epic commit on the combined tree, run the contentio
 
 ## Dependencies
 
-- **Depends on:** [sase-h8.10.5.1](sase-h8.10.5.1.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-h8.10.5.1](sase-h8.10.5.1.md) ✓ · ⧖ 2026-08-08
 - **Depends on:** [sase-h8.10.5.2](sase-h8.10.5.2.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
