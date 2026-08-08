@@ -22,7 +22,7 @@ builtin_skill_source_exception: move only bundled Markdown skill assets beneath 
 ## Dependencies
 
 - **Depends on:** [sase-hi.1](sase-hi.1.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hi.3](sase-hi.3.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hi.3](sase-hi.3.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

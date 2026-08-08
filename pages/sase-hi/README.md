@@ -17,7 +17,7 @@ Xprompt-backed skills expand through the singular #skill/ namespace while user a
 |---|---|---|---|---|---:|---:|
 | [sase-hi.1](sase-hi.1.md) | Shared skill reference and directory contracts | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-hi.2](sase-hi.2.md) | Python builtin source layout and loading | ✓ closed | medium | 2026-08-08 | 1 | 1 |
-| [sase-hi.3](sase-hi.3.md) | User-facing cutover and end-to-end verification | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hi.3](sase-hi.3.md) | User-facing cutover and end-to-end verification | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-hi: Singular xprompt skill references and builtin source exception [in_progress]"]
     n1["sase-hi.1: Shared skill reference and directory contracts [closed]"]
     n2["sase-hi.2: Python builtin source layout and loading [closed]"]
-    n3["sase-hi.3: User-facing cutover and end-to-end verification [in_progress]"]
+    n3["sase-hi.3: User-facing cutover and end-to-end verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-hi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hi.1/README.md) | [sase-hi.1](sase-hi.1.md) | 1 |
 | [bbugyi200.athena.sase-hi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hi.2/README.md) | [sase-hi.2](sase-hi.2.md) | 1 |
-| [bbugyi200.athena.sase-hi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hi.3/README.md) | [sase-hi.3](sase-hi.3.md) | 0 |
+| [bbugyi200.athena.sase-hi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hi.3/README.md) | [sase-hi.3](sase-hi.3.md) | 1 |
 | [bbugyi200.athena.sase-hi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hi.land/README.md) | [sase-hi](README.md) | 0 |
 
 ## Commits
@@ -50,3 +50,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@8a0db59`](https://github.com/sase-org/sase-core/commit/8a0db5999a9f4dd3a64031cf31ca994151535fc8) | feat!: use singular skill xprompt references | [sase-hi.1](sase-hi.1.md) | 2026-08-08 12:26:12 EDT |
 | sase | [`92f0ff3`](https://github.com/sase-org/sase/commit/92f0ff3774ca867ee971cedb092045d2a4824262) | feat(xprompts): load bundled skills from xprompt resources | [sase-hi.2](sase-hi.2.md) | 2026-08-08 13:11:31 EDT |
+| sase | [`54c1436`](https://github.com/sase-org/sase/commit/54c1436cd27fdcd8015ea33faa745bf42c2e5883) | feat!: cut over skill xprompt references | [sase-hi.3](sase-hi.3.md) | 2026-08-08 14:37:32 EDT |
