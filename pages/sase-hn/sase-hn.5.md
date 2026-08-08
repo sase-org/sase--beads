@@ -26,10 +26,11 @@ linked-integrations: adopt canonical APIs and labels in GitHub, Telegram, and Ne
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 1 |
+| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-github | [`sase-github@bc4fec5`](https://github.com/sase-org/sase-github/commit/bc4fec5d436853eb9b839339d855093d13ce83aa) | feat: adopt Patch terminology in GitHub integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:03:55 EDT |
+| sase-nvim | [`sase-nvim@d0bb0e2`](https://github.com/sase-org/sase-nvim/commit/d0bb0e22568f1e82f2c850ce807141f89f653e88) | feat: support Patch completion rows in Neovim | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:06:30 EDT |
