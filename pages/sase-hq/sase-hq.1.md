@@ -19,7 +19,7 @@ core: add validated glossary parsing, effective aliases, deterministic matching,
 
 ## Dependencies
 
-- **Blocks:** [sase-hq.2](sase-hq.2.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hq.2](sase-hq.2.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hq.3](sase-hq.3.md) ◐ · ⧖ 2026-08-08
 
 ## Agents

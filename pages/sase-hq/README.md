@@ -16,7 +16,7 @@ Make one project-local glossary configuration the reliable source for generated 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-hq.1](sase-hq.1.md) | Define the canonical glossary domain | ✓ closed | medium | 2026-08-08 | 1 | 2 |
-| [sase-hq.2](sase-hq.2.md) | Generate glossary memory from project config | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
+| [sase-hq.2](sase-hq.2.md) | Generate glossary memory from project config | ✓ closed | medium | 2026-08-08 | 1 | 1 |
 | [sase-hq.3](sase-hq.3.md) | Build project-aware glossary catalogs | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
 | [sase-hq.4](sase-hq.4.md) | Add beautiful ACE glossary interactions | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
 | [sase-hq.5](sase-hq.5.md) | Add glossary semantics to the xprompt LSP | ◐ in_progress | medium | 2026-08-08 | 1 | 0 |
@@ -28,7 +28,7 @@ Make one project-local glossary configuration the reliable source for generated 
 flowchart TD
     n0["sase-hq: Project-local glossary memory and editor semantics [in_progress]"]
     n1["sase-hq.1: Define the canonical glossary domain [closed]"]
-    n2["sase-hq.2: Generate glossary memory from project config [in_progress]"]
+    n2["sase-hq.2: Generate glossary memory from project config [closed]"]
     n3["sase-hq.3: Build project-aware glossary catalogs [in_progress]"]
     n4["sase-hq.4: Add beautiful ACE glossary interactions [in_progress]"]
     n5["sase-hq.5: Add glossary semantics to the xprompt LSP [in_progress]"]
@@ -54,7 +54,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-hq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.1/README.md) | [sase-hq.1](sase-hq.1.md) | 2 |
-| [bbugyi200.athena.sase-hq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.2/README.md) | [sase-hq.2](sase-hq.2.md) | 0 |
+| [bbugyi200.athena.sase-hq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.2/README.md) | [sase-hq.2](sase-hq.2.md) | 1 |
 | [bbugyi200.athena.sase-hq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.3/README.md) | [sase-hq.3](sase-hq.3.md) | 0 |
 | [bbugyi200.athena.sase-hq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.4/README.md) | [sase-hq.4](sase-hq.4.md) | 0 |
 | [bbugyi200.athena.sase-hq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.5/README.md) | [sase-hq.5](sase-hq.5.md) | 0 |
@@ -67,3 +67,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@f6a29d3`](https://github.com/sase-org/sase-core/commit/f6a29d36e56a7af5fa29af2d48104442d2faab66) | feat(core): add glossary catalog domain | [sase-hq.1](sase-hq.1.md) | 2026-08-08 18:11:11 EDT |
 | sase | [`544e98a`](https://github.com/sase-org/sase/commit/544e98a1904f319217c0661db39d037b56a538f9) | feat(config): expose project glossary API | [sase-hq.1](sase-hq.1.md) | 2026-08-08 18:13:03 EDT |
+| sase | [`01fa3b1`](https://github.com/sase-org/sase/commit/01fa3b106a3ee2123e7263eaeaacf98ab7338e0b) | feat(memory): generate glossary note from project config | [sase-hq.2](sase-hq.2.md) | 2026-08-08 18:40:43 EDT |
