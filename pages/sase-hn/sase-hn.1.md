@@ -19,7 +19,7 @@ rust-core-contract: add canonical Rust domain names and parser/wire compatibilit
 
 ## Dependencies
 
-- **Blocks:** [sase-hn.2](sase-hn.2.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hn.2](sase-hn.2.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
