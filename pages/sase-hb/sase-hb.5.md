@@ -14,7 +14,7 @@ rollout-verification: prove the hard cutover end to end and deploy generated ski
 ## Dependencies
 
 - **Depends on:** [sase-hb.3](sase-hb.3.md) ◐ · ⧖ 2026-08-07
-- **Depends on:** [sase-hb.4](sase-hb.4.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-hb.4](sase-hb.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

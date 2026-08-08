@@ -33,7 +33,7 @@ sase-runtime: consume the core contract, enforce canonical placement, preserve s
 
 - **Depends on:** [sase-hb.1](sase-hb.1.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-hb.3](sase-hb.3.md) ◐ · ⧖ 2026-08-07
-- **Blocks:** [sase-hb.4](sase-hb.4.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-hb.4](sase-hb.4.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
