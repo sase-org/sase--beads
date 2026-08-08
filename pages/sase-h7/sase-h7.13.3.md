@@ -17,7 +17,7 @@ input-integrity: redact secret-declared values out of the durable journal's comm
 
 ## Dependencies
 
-- **Blocks:** [sase-h7.13.5](sase-h7.13.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h7.13.5](sase-h7.13.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
