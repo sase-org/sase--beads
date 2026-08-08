@@ -11,6 +11,10 @@
 
 SASE can run agents on Meta's Muse Code CLI as a native provider — selected by config, `%model:muse/...`, or `SASE_MUSE_PATH` — with reply, usage, and tool-call artifacts; correctly-rendered Muse-native skills; a data-sharing advisory that makes the Contributor model's training terms impossible to miss; and `sase agent-cli` install/update support that works for a channel-versioned, self-updating CLI.
 
+## Notes
+
+[2026-08-08T02:05:36Z · vf] Independent corroboration from an unrelated task (ACE saved-query 0-prefix feature), 2026-08-08: reproduced all three pre-existing failures already noted on sase-ha.3/sase-ha.6 as PROPOSED FOLLOW-UPs, via 'git stash' on the same commit (44fa7eee2). (1) tests/test_gate_cli_show.py (4 tests) + tests/gate_conformance/test_gate_conformance.py[cli|ace-legacy_shared_input] — GateError from src/sase/notification_gates/kind_validation/custom.py:52, legacy shared-input fixtures not migrated with a1cc172d3. (2) tests/doctor/test_checks_providers.py::test_setup_hint_points_script_installs_at_the_install_subcommand — muse setup_hint() auth string mismatch. (3) NEW signature not yet on this epic: tests/ace/tui/visual/test_ace_png_snapshots_frontmatter_panel.py::test_frontmatter_panel_raw_diagnostics_png_snapshot fails 'just test-visual' with 415/1520532 changed pixels (0.027%); reproduces identically on a clean stash of the same commit, so unrelated to any sase-ha phase's diff — flagging for the land phase (sase-ha.7/sase-ha.8) to sweep alongside the other two.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -19,9 +23,9 @@ SASE can run agents on Meta's Muse Code CLI as a native provider — selected by
 | [sase-ha.2](sase-ha.2.md) | The Muse provider and its JSONL stream parser | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-ha.3](sase-ha.3.md) | sase agent-cli install | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-ha.4](sase-ha.4.md) | Usage, tool-call, and model-identity artifacts | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-ha.5](sase-ha.5.md) | Model advisories and the Contributor data-sharing guard | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-ha.5](sase-ha.5.md) | Model advisories and the Contributor data-sharing guard | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-ha.6](sase-ha.6.md) | ACE styling and provider badges | ✓ closed | small | 2026-08-07 | 1 | 1 |
-| [sase-ha.7](sase-ha.7.md) | Documentation sweep | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
+| [sase-ha.7](sase-ha.7.md) | Documentation sweep | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-ha.8](sase-ha.8.md) | Live end-to-end verification | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 
 ## Lineage
@@ -33,9 +37,9 @@ flowchart TD
     n2["sase-ha.2: The Muse provider and its JSONL stream parser [closed]"]
     n3["sase-ha.3: sase agent-cli install [closed]"]
     n4["sase-ha.4: Usage, tool-call, and model-identity artifacts [closed]"]
-    n5["sase-ha.5: Model advisories and the Contributor data-sharing guard [in_progress]"]
+    n5["sase-ha.5: Model advisories and the Contributor data-sharing guard [closed]"]
     n6["sase-ha.6: ACE styling and provider badges [closed]"]
-    n7["sase-ha.7: Documentation sweep [in_progress]"]
+    n7["sase-ha.7: Documentation sweep [closed]"]
     n8["sase-ha.8: Live end-to-end verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -64,9 +68,9 @@ flowchart TD
 | [bbugyi200.athena.sase-ha.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.2/README.md) | [sase-ha.2](sase-ha.2.md) | 1 |
 | [bbugyi200.athena.sase-ha.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.3/README.md) | [sase-ha.3](sase-ha.3.md) | 1 |
 | [bbugyi200.athena.sase-ha.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.4/README.md) | [sase-ha.4](sase-ha.4.md) | 1 |
-| [bbugyi200.athena.sase-ha.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.5/README.md) | [sase-ha.5](sase-ha.5.md) | 0 |
+| [bbugyi200.athena.sase-ha.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.5/README.md) | [sase-ha.5](sase-ha.5.md) | 1 |
 | [bbugyi200.athena.sase-ha.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.6/README.md) | [sase-ha.6](sase-ha.6.md) | 1 |
-| [bbugyi200.athena.sase-ha.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.7/README.md) | [sase-ha.7](sase-ha.7.md) | 0 |
+| [bbugyi200.athena.sase-ha.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.7/README.md) | [sase-ha.7](sase-ha.7.md) | 1 |
 | [bbugyi200.athena.sase-ha.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.8/README.md) | [sase-ha.8](sase-ha.8.md) | 0 |
 | [bbugyi200.athena.sase-ha.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ha.land/README.md) | [sase-ha](README.md) | 0 |
 
@@ -79,3 +83,5 @@ flowchart TD
 | sase | [`050c947`](https://github.com/sase-org/sase/commit/050c9477cea1e11b85df7d504b46a50db3bbdd67) | feat(llm-provider): parse Muse tool calls, usage, and model identity | [sase-ha.4](sase-ha.4.md) | 2026-08-07 21:44:51 EDT |
 | sase | [`85d1261`](https://github.com/sase-org/sase/commit/85d12614e2ae2ab6acc5b4455bba095e91bdb297) | feat(agent-clis): add a confirmed, shell-free \`sase agent-cli install\` | [sase-ha.3](sase-ha.3.md) | 2026-08-07 21:56:50 EDT |
 | sase | [`90b17d8`](https://github.com/sase-org/sase/commit/90b17d824596216df6f0cee97ec5a363f6cbd333) | feat(ace): give Muse a Meta-blue provider palette and badge | [sase-ha.6](sase-ha.6.md) | 2026-08-07 22:03:48 EDT |
+| sase | [`b9ac35d`](https://github.com/sase-org/sase/commit/b9ac35d9e2e36a1f148670213b089295b69b297b) | feat(llm-provider): add model advisories and a data-sharing guard | [sase-ha.5](sase-ha.5.md) | 2026-08-07 22:04:04 EDT |
+| sase | [`1d5a8a7`](https://github.com/sase-org/sase/commit/1d5a8a70ff84a981f54b1eda0d9384fe687c1f14) | docs(llms): document the Muse Code provider end to end | [sase-ha.7](sase-ha.7.md) | 2026-08-07 22:30:14 EDT |

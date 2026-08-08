@@ -26,7 +26,7 @@ cli_install: add a confirmed, shell-free `sase agent-cli install` subcommand tha
 ## Dependencies
 
 - **Depends on:** [sase-ha.1](sase-ha.1.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-ha.7](sase-ha.7.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-ha.7](sase-ha.7.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

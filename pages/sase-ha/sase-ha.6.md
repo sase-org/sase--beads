@@ -20,7 +20,7 @@ polish: give Muse a Meta-blue provider palette, an emoji badge, and a family col
 ## Dependencies
 
 - **Depends on:** [sase-ha.2](sase-ha.2.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-ha.7](sase-ha.7.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-ha.7](sase-ha.7.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
