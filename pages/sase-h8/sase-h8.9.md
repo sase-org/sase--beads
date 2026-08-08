@@ -13,7 +13,7 @@ land: run the exit criterion on the combined tree, file any residue with /sase_n
 
 ## Dependencies
 
-- **Depends on:** [sase-h8.8](sase-h8.8.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h8.8](sase-h8.8.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

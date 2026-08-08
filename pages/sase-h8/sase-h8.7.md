@@ -43,7 +43,7 @@ just check: every lint gate green (fmt, keep-sorted, ruff, mypy, pyscripts, chan
 
 - **Depends on:** [sase-h8.2](sase-h8.2.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h8.3](sase-h8.3.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-h8.8](sase-h8.8.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h8.8](sase-h8.8.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

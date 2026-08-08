@@ -29,7 +29,7 @@ triage: run the contention harness to produce an empirical failure corpus, recon
 
 - **Depends on:** [sase-h8.1](sase-h8.1.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h8.4](sase-h8.4.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-h8.5](sase-h8.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h8.5](sase-h8.5.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h8.6](sase-h8.6.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h8.7](sase-h8.7.md) ✓ · ⧖ 2026-08-07
 
