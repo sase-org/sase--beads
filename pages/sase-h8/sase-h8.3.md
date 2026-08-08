@@ -37,10 +37,4 @@ triage: run the contention harness to produce an empirical failure corpus, recon
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--research | [`sase--research@a66a667`](https://github.com/sase-org/sase--research/commit/a66a6676afa78b5db78aabc89d1f94154197c958) | docs(research): triage the parallel-suite flake class by measurement | [sase-h8.3](sase-h8.3.md) | 2026-08-07 21:40:00 EDT |
+| [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 0 |

@@ -20,7 +20,7 @@ clock: drive `EventLoopStallWatchdog` from an injectable time source so the five
 ## Dependencies
 
 - **Blocks:** [sase-h8.10.2](sase-h8.10.2.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

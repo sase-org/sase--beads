@@ -20,7 +20,7 @@ residue: fix the four nodes `just test-contention` failed on at the land attempt
 ## Dependencies
 
 - **Depends on:** [sase-h8.10.1](sase-h8.10.1.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

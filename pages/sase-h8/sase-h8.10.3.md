@@ -19,7 +19,7 @@ gate-gaps: widen `tools/check_test_wait_helpers` past the two roots and the one 
 
 ## Dependencies
 
-- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-h8.10.4](sase-h8.10.4.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
