@@ -13,7 +13,7 @@ artifacts: extract tool calls from the Muse event stream, recover token usage fr
 
 ## Dependencies
 
-- **Depends on:** [sase-ha.2](sase-ha.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-ha.2](sase-ha.2.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-ha.7](sase-ha.7.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
