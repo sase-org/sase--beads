@@ -25,7 +25,7 @@ gate: commit a flake baseline file and a gate that fails when the health store's
 - **Depends on:** [sase-h8.5](sase-h8.5.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h8.6](sase-h8.6.md) ✓ · ⧖ 2026-08-07
 - **Depends on:** [sase-h8.7](sase-h8.7.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-h8.9](sase-h8.9.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h8.9](sase-h8.9.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

@@ -25,6 +25,22 @@ A run whose exemption is corroborated by a real ancestor lease (SASE_TEST_GATE_G
 
 [2026-08-08T04:32:39Z · sase-h7.13.land] SHARPER DIAGNOSIS of the visual-lane case in my previous note: tests/ace/tui/visual/test_ace_png_snapshots_agents_slow_tools.py::test_agents_slow_tool_calls_fold_levels_png_snapshots is NOT intermittent — it failed in 3 of 3 full 'just test-visual' runs at 20752def2 (2 with an unrelated working-tree diff, 1 on a fully clean tree via git stash) and passed in 1 of 1 targeted rerun of that file alone. The clean-tree run reported '2 failed, 560 passed, 1 skipped', the second failure being the separately-fixed frontmatter_panel_raw_diagnostics golden. Failure artifact: agents_slow_tool_calls_level_1_120x40, 4574/1520532 changed pixels (0.30%), max_diff_ratio 0.0, so it is a content difference under parallel execution rather than renderer drift. That determinism makes this the cheapest reproducer in the class so far — it does not need soak runs to trigger, only the full visual lane. Recorded by sase-h7.13's land agent.
 
+[2026-08-08T14:55:46Z · sase-h8.land] LAND VERIFICATION (not closing; epic is incomplete). Verified all nine phases against the source and commits rather than the closing notes.
+
+LANDED AND CONFIRMED IN THE TREE: sase-h8.1 harness (2bac5ad9e: just test-contention, tools/run_pytest contention mode, tests/_contention{,_plugin}.py); sase-h8.2 wait primitive (6476ec65c: src/sase/ace/testing/wait.py, four _wait_until copies retired); sase-h8.3 triage (408-line table at research:202608/parallel_suite_flake_triage.md); sase-h8.4 pump (4dc323117); sase-h8.6 fixture (f980248c1: set_agent_prompt_document); sase-h8.7 tooling (0a1502a04); sase-h8.8 gate (c902dd71c: tests/reproducible_flake_baseline.txt, tools/selection_health --fail-on-new-flake, tools/check_test_wait_helpers, CI contention lane).
+
+sase-h8.5 (clock) NEVER LANDED. Resolution is 'done' but it has no closing note and 'git log --all --grep=sase-h8.5' returns nothing. Its transcript (~/.sase/chats/202608/gh_sase_org__sase-ace_run-sase_h8_5-260807_200435.md) shows it establishing a baseline soak, correctly declining to edit mid-measurement, then stalling on 'I will pick up automatically when it completes'; the bead was closed ~15h later with no work. Confirmed in source: tests/ace/tui/util/test_stall_watchdog.py still uses time.sleep(0.14) and real time.monotonic() deadlines, and test_watchdog_keeps_hitch_and_stall_state_machines_independent is still in the durable health store's reproducible-flake set. The triage table called this file the strongest argument in the whole class for the structural change; it was never made.
+
+sase-h8.9 (land) EXIT CRITERION FAILED, correctly reported. Criterion 1 requires zero contention failures; the run at c902dd71c failed repeat 1 with 4 nodes. sase-ct is still IN_PROGRESS, which is right. Three of the four are wall-clock shaped (F2) -- i.e. the missing clock phase arriving late.
+
+FOLLOW-UPS ALREADY RESOLVED ON MASTER (verified, 35 passed at HEAD 010b01a41): the six ff0b765a4 gate nodes (tests/test_gate_cli_show.py x4, gate_conformance legacy_shared_input x2), the Muse doctor node test_setup_hint_points_script_installs_at_the_install_subcommand, and tests/test_content_layout.py schema_version (fixed by 1c45d483f). All were filed by four phases as 'blocks a clean just check for every agent'. No task beads needed. Harness self-contamination (sase-h8.3 Correction 2) and the fifth _wait_until copy were both fixed inside the epic.
+
+VISUAL-LANE NOTE FALSIFIED: sase-h7.13.land measured test_agents_slow_tool_calls_fold_levels_png_snapshots failing 3/3 full just test-visual runs at 20752def2. A full just test-visual at HEAD 010b01a41 is green: 562 passed, 1 skipped, 64.33s, that node passing in 4.81s. Exit criterion 3 currently met.
+
+INTEGRATION GAPS (step 2): tools/check_test_wait_helpers matches one function name in two roots, so a sixth raw-pilot copy survives at tests/test_agent_group_revival_e2e.py:409, and inline bounded-wait loops are invisible to it. Commits during/after the epic reintroduced that idiom at tests/ace/tui/test_custom_gate_modal.py:259 (010b01a41, newest on master) and tests/ace/tui/test_notification_plan_gate.py:117,156,181 (20752def2/e1da6d1b7). sase-h8.6's follow-up asking the check to flag raw ACE panel injections was not implemented by sase-h8.8. Also: the flake gate passes only vacuously today (0 current, 0 allowed -- no full-lane record yet postdates the baseline's effective-after marker).
+
+Remaining work is planned in sase_plan_flake_class_residue.md (epic tier, phases clock/residue/gate-gaps/land), whose land phase closes sase-ct and sase-h8, runs just symvision, and marks both plan files done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,7 +53,7 @@ A run whose exemption is corroborated by a real ancestor lease (SASE_TEST_GATE_G
 | [sase-h8.6](sase-h8.6.md) | Fix the ACE fixture-state and cross-test-leakage family | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.7](sase-h8.7.md) | Fix the non-ACE store, tooling, and subprocess family | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h8.8](sase-h8.8.md) | A committed flake baseline that fails the build on new flakes | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h8.9](sase-h8.9.md) | Land the epic and close sase-ct on a measured criterion | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
+| [sase-h8.9](sase-h8.9.md) | Land the epic and close sase-ct on a measured criterion | ✓ closed | small | 2026-08-07 | 1 | 0 |
 
 ## Lineage
 
@@ -45,37 +61,51 @@ A run whose exemption is corroborated by a real ancestor lease (SASE_TEST_GATE_G
 flowchart TD
     n0["sase-h8: Retire the parallel-suite flake class (sase-ct) by making it reproducible, fixing it by mechanism, and gating regressions [in_progress]"]
     n1["sase-h8.1: A contention harness for the default (non-visual) lane [closed]"]
-    n2["sase-h8.2: One bounded-wait primitive for raw-pilot tests [closed]"]
-    n3["sase-h8.3: Measured classification of every flake node [closed]"]
-    n4["sase-h8.4: Fix the off-pump settle-gap family [closed]"]
-    n5["sase-h8.5: Fix the real-wall-clock-threshold family [closed]"]
-    n6["sase-h8.6: Fix the ACE fixture-state and cross-test-leakage family [closed]"]
-    n7["sase-h8.7: Fix the non-ACE store, tooling, and subprocess family [closed]"]
-    n8["sase-h8.8: A committed flake baseline that fails the build on new flakes [closed]"]
-    n9["sase-h8.9: Land the epic and close sase-ct on a measured criterion [in_progress]"]
+    n2["sase-h8.10: Finish epic sase-h8 by landing the never-implemented clock phase, clearing the four nodes that failed its exit criterion, and closing the wait-idiom gate gaps [in_progress]"]
+    n3["sase-h8.10.1: Actually implement the clock phase that sase-h8.5 closed without landing [closed]"]
+    n4["sase-h8.10.2: Fix the four nodes that failed the sase-h8.9 exit criterion [in_progress]"]
+    n5["sase-h8.10.3: Close the wait-idiom gate gaps that let the retired pattern back in [in_progress]"]
+    n6["sase-h8.10.4: Meet the exit criterion, close sase-ct, and close the epic [in_progress]"]
+    n7["sase-h8.2: One bounded-wait primitive for raw-pilot tests [closed]"]
+    n8["sase-h8.3: Measured classification of every flake node [closed]"]
+    n9["sase-h8.4: Fix the off-pump settle-gap family [closed]"]
+    n10["sase-h8.5: Fix the real-wall-clock-threshold family [closed]"]
+    n11["sase-h8.6: Fix the ACE fixture-state and cross-test-leakage family [closed]"]
+    n12["sase-h8.7: Fix the non-ACE store, tooling, and subprocess family [closed]"]
+    n13["sase-h8.8: A committed flake baseline that fails the build on new flakes [closed]"]
+    n14["sase-h8.9: Land the epic and close sase-ct on a measured criterion [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
     n0 --> n7
     n0 --> n8
     n0 --> n9
-    n1 -.-> n3
-    n2 -.-> n4
-    n2 -.-> n5
-    n2 -.-> n6
-    n2 -.-> n7
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n1 -.-> n8
     n3 -.-> n4
-    n3 -.-> n5
     n3 -.-> n6
-    n3 -.-> n7
-    n4 -.-> n8
-    n5 -.-> n8
-    n6 -.-> n8
-    n7 -.-> n8
+    n4 -.-> n6
+    n5 -.-> n6
+    n7 -.-> n9
+    n7 -.-> n10
+    n7 -.-> n11
+    n7 -.-> n12
     n8 -.-> n9
+    n8 -.-> n10
+    n8 -.-> n11
+    n8 -.-> n12
+    n9 -.-> n13
+    n10 -.-> n13
+    n11 -.-> n13
+    n12 -.-> n13
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -83,6 +113,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-h8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.1/README.md) | [sase-h8.1](sase-h8.1.md) | 1 |
+| [bbugyi200.athena.sase-h8.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.1/README.md) | [sase-h8.10.1](sase-h8.10.1.md) | 1 |
+| [bbugyi200.athena.sase-h8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.2/README.md) | [sase-h8.10.2](sase-h8.10.2.md) | 0 |
+| [bbugyi200.athena.sase-h8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.3/README.md) | [sase-h8.10.3](sase-h8.10.3.md) | 0 |
+| [bbugyi200.athena.sase-h8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.4/README.md) | [sase-h8.10.4](sase-h8.10.4.md) | 0 |
+| [bbugyi200.athena.sase-h8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.land/README.md) | [sase-h8.10](sase-h8.10.md) | 0 |
 | [bbugyi200.athena.sase-h8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.2/README.md) | [sase-h8.2](sase-h8.2.md) | 1 |
 | [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 1 |
 | [bbugyi200.athena.sase-h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.4/README.md) | [sase-h8.4](sase-h8.4.md) | 1 |
@@ -104,3 +139,4 @@ flowchart TD
 | sase | [`f980248`](https://github.com/sase-org/sase/commit/f980248c19958191a84e57100aa4de289bb3897c) | test(ace): pin the metadata-search corpus against competing repaints | [sase-h8.6](sase-h8.6.md) | 2026-08-07 22:48:58 EDT |
 | sase | [`0a1502a`](https://github.com/sase-org/sase/commit/0a1502a041f459efa00a3b1c33aa4b9cfd135f11) | test(flakes): pin ambient env vars and hold fakey retry waits | [sase-h8.7](sase-h8.7.md) | 2026-08-07 22:57:16 EDT |
 | sase | [`c902dd7`](https://github.com/sase-org/sase/commit/c902dd71cd0757cb8997cdfbb5a125b83a50df49) | feat: gate new reproducible test flakes | [sase-h8.8](sase-h8.8.md) | 2026-08-08 10:13:41 EDT |
+| sase | [`2e9e1a2`](https://github.com/sase-org/sase/commit/2e9e1a29c388f864604756ec7d7972fbc791ab3d) | fix(tui): make stall watchdog tests deterministic | [sase-h8.10.1](sase-h8.10.1.md) | 2026-08-08 11:18:29 EDT |
