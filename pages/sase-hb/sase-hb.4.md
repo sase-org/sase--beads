@@ -22,10 +22,16 @@ source-migrations: re-audit enabled projects and move every personal skill sourc
 ## Dependencies
 
 - **Depends on:** [sase-hb.2](sase-hb.2.md) ✓ · ⧖ 2026-08-07
-- **Blocks:** [sase-hb.5](sase-hb.5.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-hb.5](sase-hb.5.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.4/README.md) | [sase-hb.4](sase-hb.4.md) | 0 |
+| [bbugyi200.athena.sase-hb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hb.4/README.md) | [sase-hb.4](sase-hb.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@bd2ffb2`](https://github.com/bbugyi200/dotfiles/commit/bd2ffb2a556c013de4a9870381014c96c3ef3ba8) | fix(sase): migrate personal skill sources to canonical skills/ layout | [sase-hb.4](sase-hb.4.md) | 2026-08-08 01:27:30 EDT |
