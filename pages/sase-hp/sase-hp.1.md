@@ -21,7 +21,7 @@ target: harden XPromptBinding into a full targeting record (canonical reference 
 
 - **Blocks:** [sase-hp.2](sase-hp.2.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hp.3](sase-hp.3.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hp.4](sase-hp.4.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hp.4](sase-hp.4.md) ✓ · ⧖ 2026-08-08
 - **Blocks:** [sase-hp.5](sase-hp.5.md) ◐ · ⧖ 2026-08-08
 
 ## Agents
