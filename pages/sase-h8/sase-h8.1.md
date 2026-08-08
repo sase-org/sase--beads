@@ -23,7 +23,7 @@ harness: add a `just test-contention` recipe and `run_pytest` mode that oversubs
 
 ## Dependencies
 
-- **Blocks:** [sase-h8.3](sase-h8.3.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-h8.3](sase-h8.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 

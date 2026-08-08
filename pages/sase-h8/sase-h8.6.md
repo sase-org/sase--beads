@@ -14,7 +14,7 @@ fixture: fix the triaged ACE nodes whose injected fixture state is overwritten b
 ## Dependencies
 
 - **Depends on:** [sase-h8.2](sase-h8.2.md) ✓ · ⧖ 2026-08-07
-- **Depends on:** [sase-h8.3](sase-h8.3.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-h8.3](sase-h8.3.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-h8.8](sase-h8.8.md) ◐ · ⧖ 2026-08-07
 
 ## Agents
