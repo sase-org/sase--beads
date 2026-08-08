@@ -13,7 +13,7 @@ user-surfaces: expose the split xprompt and slash names consistently across ever
 
 ## Dependencies
 
-- **Depends on:** [sase-hb.2](sase-hb.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-hb.2](sase-hb.2.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-hb.5](sase-hb.5.md) ◐ · ⧖ 2026-08-07
 
 ## Agents

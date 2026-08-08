@@ -13,7 +13,7 @@ source-migrations: re-audit enabled projects and move every personal skill sourc
 
 ## Dependencies
 
-- **Depends on:** [sase-hb.2](sase-hb.2.md) ◐ · ⧖ 2026-08-07
+- **Depends on:** [sase-hb.2](sase-hb.2.md) ✓ · ⧖ 2026-08-07
 - **Blocks:** [sase-hb.5](sase-hb.5.md) ◐ · ⧖ 2026-08-07
 
 ## Agents

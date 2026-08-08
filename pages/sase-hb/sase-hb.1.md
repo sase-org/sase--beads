@@ -23,7 +23,7 @@ core-contract: define canonical skill sources, dual names, and editor behavior i
 
 ## Dependencies
 
-- **Blocks:** [sase-hb.2](sase-hb.2.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-hb.2](sase-hb.2.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
