@@ -63,7 +63,7 @@ flowchart TD
     n1["sase-h8.1: A contention harness for the default (non-visual) lane [closed]"]
     n2["sase-h8.10: Finish epic sase-h8 by landing the never-implemented clock phase, clearing the four nodes that failed its exit criterion, and closing the wait-idiom gate gaps [in_progress]"]
     n3["sase-h8.10.1: Actually implement the clock phase that sase-h8.5 closed without landing [closed]"]
-    n4["sase-h8.10.2: Fix the four nodes that failed the sase-h8.9 exit criterion [in_progress]"]
+    n4["sase-h8.10.2: Fix the four nodes that failed the sase-h8.9 exit criterion [closed]"]
     n5["sase-h8.10.3: Close the wait-idiom gate gaps that let the retired pattern back in [closed]"]
     n6["sase-h8.10.4: Meet the exit criterion, close sase-ct, and close the epic [in_progress]"]
     n7["sase-h8.2: One bounded-wait primitive for raw-pilot tests [closed]"]
@@ -114,7 +114,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-h8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.1/README.md) | [sase-h8.1](sase-h8.1.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.1/README.md) | [sase-h8.10.1](sase-h8.10.1.md) | 1 |
-| [bbugyi200.athena.sase-h8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.2/README.md) | [sase-h8.10.2](sase-h8.10.2.md) | 0 |
+| [bbugyi200.athena.sase-h8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.2/README.md) | [sase-h8.10.2](sase-h8.10.2.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.3/README.md) | [sase-h8.10.3](sase-h8.10.3.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.4/README.md) | [sase-h8.10.4](sase-h8.10.4.md) | 0 |
 | [bbugyi200.athena.sase-h8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.land/README.md) | [sase-h8.10](sase-h8.10.md) | 0 |
@@ -141,3 +141,4 @@ flowchart TD
 | sase | [`c902dd7`](https://github.com/sase-org/sase/commit/c902dd71cd0757cb8997cdfbb5a125b83a50df49) | feat: gate new reproducible test flakes | [sase-h8.8](sase-h8.8.md) | 2026-08-08 10:13:41 EDT |
 | sase | [`2e9e1a2`](https://github.com/sase-org/sase/commit/2e9e1a29c388f864604756ec7d7972fbc791ab3d) | fix(tui): make stall watchdog tests deterministic | [sase-h8.10.1](sase-h8.10.1.md) | 2026-08-08 11:18:29 EDT |
 | sase | [`3c771b7`](https://github.com/sase-org/sase/commit/3c771b77c90d12fc6c8e75c5303afea1c6622d61) | test: retire private bounded wait idioms | [sase-h8.10.3](sase-h8.10.3.md) | 2026-08-08 11:23:46 EDT |
+| sase | [`9360e85`](https://github.com/sase-org/sase/commit/9360e850c640e8932f6aa6a52a21933c0cec1c9d) | test: deflake phase residue timing tests | [sase-h8.10.2](sase-h8.10.2.md) | 2026-08-08 11:43:51 EDT |
