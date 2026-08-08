@@ -19,7 +19,7 @@ cli_meta: teach agent-CLI detection, latest-version resolution, and update plann
 
 ## Dependencies
 
-- **Blocks:** [sase-ha.3](sase-ha.3.md) ◐ · ⧖ 2026-08-07
+- **Blocks:** [sase-ha.3](sase-ha.3.md) ✓ · ⧖ 2026-08-07
 
 ## Agents
 
