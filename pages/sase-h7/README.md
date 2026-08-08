@@ -39,16 +39,16 @@ Discovered while implementing an unrelated plan (.sase/artifacts/home/.sase/plan
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-h7.1](sase-h7.1.md) | Diagnosable input failures and non-destructive retry | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h7.10](sase-h7.10.md) | Show the input a gate asks for and the input it received | ✓ closed | small | 2026-08-07 | 1 | 0 |
+| [sase-h7.10](sase-h7.10.md) | Show the input a gate asks for and the input it received | ✓ closed | small | 2026-08-07 | 1 | 1 |
 | [sase-h7.11](sase-h7.11.md) | Retire free-text smuggling from snooze, triage, and launch | ◐ in_progress | medium | 2026-08-07 | 1 | 0 |
 | [sase-h7.12](sase-h7.12.md) | Document the input and action contracts | ◐ in_progress | small | 2026-08-07 | 1 | 0 |
 | [sase-h7.2](sase-h7.2.md) | One feedback-to-input rule for every surface | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h7.3](sase-h7.3.md) | Declarative per-option inputs and per-option submission | ✓ closed | large | 2026-08-07 | 1 | 3 |
 | [sase-h7.4](sase-h7.4.md) | Repeatable non-terminal gate actions | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 | [sase-h7.5](sase-h7.5.md) | Fail closed at creation for unanswerable gates | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h7.6](sase-h7.6.md) | Generic typed input collection in the ACE gate modals | ◐ in_progress | large | 2026-08-07 | 1 | 0 |
+| [sase-h7.6](sase-h7.6.md) | Generic typed input collection in the ACE gate modals | ✓ closed | large | 2026-08-07 | 1 | 1 |
 | [sase-h7.7](sase-h7.7.md) | Gate actions in the ACE modals and the plan edit round trip | ✓ closed | medium | 2026-08-07 | 1 | 1 |
-| [sase-h7.8](sase-h7.8.md) | Mobile wire and Telegram step flow for declared inputs | ✓ closed | large | 2026-08-07 | 1 | 3 |
+| [sase-h7.8](sase-h7.8.md) | Mobile wire and Telegram step flow for declared inputs | ✓ closed | large | 2026-08-07 | 1 | 2 |
 | [sase-h7.9](sase-h7.9.md) | sase gate answer, act, and show | ✓ closed | medium | 2026-08-07 | 1 | 1 |
 
 ## Lineage
@@ -64,7 +64,7 @@ flowchart TD
     n6["sase-h7.3: Declarative per-option inputs and per-option submission [closed]"]
     n7["sase-h7.4: Repeatable non-terminal gate actions [closed]"]
     n8["sase-h7.5: Fail closed at creation for unanswerable gates [closed]"]
-    n9["sase-h7.6: Generic typed input collection in the ACE gate modals [in_progress]"]
+    n9["sase-h7.6: Generic typed input collection in the ACE gate modals [closed]"]
     n10["sase-h7.7: Gate actions in the ACE modals and the plan edit round trip [closed]"]
     n11["sase-h7.8: Mobile wire and Telegram step flow for declared inputs [closed]"]
     n12["sase-h7.9: sase gate answer, act, and show [closed]"]
@@ -105,16 +105,16 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.1/README.md) | [sase-h7.1](sase-h7.1.md) | 1 |
-| [bbugyi200.athena.sase-h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.10/README.md) | [sase-h7.10](sase-h7.10.md) | 0 |
+| [bbugyi200.athena.sase-h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.10/README.md) | [sase-h7.10](sase-h7.10.md) | 1 |
 | [bbugyi200.athena.sase-h7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.11/README.md) | [sase-h7.11](sase-h7.11.md) | 0 |
 | [bbugyi200.athena.sase-h7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.12/README.md) | [sase-h7.12](sase-h7.12.md) | 0 |
 | [bbugyi200.athena.sase-h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.2/README.md) | [sase-h7.2](sase-h7.2.md) | 1 |
 | [bbugyi200.athena.sase-h7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.3.md) | [sase-h7.3](sase-h7.3.md) | 3 |
 | [bbugyi200.athena.sase-h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.4/README.md) | [sase-h7.4](sase-h7.4.md) | 1 |
 | [bbugyi200.athena.sase-h7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.5/README.md) | [sase-h7.5](sase-h7.5.md) | 1 |
-| [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.6.md) | [sase-h7.6](sase-h7.6.md) | 0 |
+| [bbugyi200.athena.sase-h7.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.6.md) | [sase-h7.6](sase-h7.6.md) | 1 |
 | [bbugyi200.athena.sase-h7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.7/README.md) | [sase-h7.7](sase-h7.7.md) | 1 |
-| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 3 |
+| [bbugyi200.athena.sase-h7.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h7.8.md) | [sase-h7.8](sase-h7.8.md) | 2 |
 | [bbugyi200.athena.sase-h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.9/README.md) | [sase-h7.9](sase-h7.9.md) | 1 |
 | [bbugyi200.athena.sase-h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h7.land/README.md) | [sase-h7](README.md) | 0 |
 
@@ -133,4 +133,5 @@ flowchart TD
 | sase | [`cce9e9e`](https://github.com/sase-org/sase/commit/cce9e9e2266924bc335eee820e014627ef2737f8) | feat(notification-gates): add gate answer, act, and show CLI subcommands | [sase-h7.9](sase-h7.9.md) | 2026-08-07 19:24:42 EDT |
 | sase | [`a78b105`](https://github.com/sase-org/sase/commit/a78b105b5fc1055345fe9d783fe71c6d798f42ef) | feat(notification-gates): run gate actions from the ACE modals | [sase-h7.7](sase-h7.7.md) | 2026-08-07 19:30:40 EDT |
 | sase | [`7bbd82a`](https://github.com/sase-org/sase/commit/7bbd82a47ed7b3e2aec55ec0dfce76ed128f1cb5) | feat(mobile): accept per-option gate inputs on the mobile bridge | [sase-h7.8](sase-h7.8.md) | 2026-08-07 19:31:45 EDT |
-| sase-telegram | [`sase-telegram@afa933b`](https://github.com/sase-org/sase-telegram/commit/afa933b2ac74aef579de3b1517df005f8a665355) | feat: add declared-input step flow for gate options | [sase-h7.8](sase-h7.8.md) | 2026-08-07 20:49:52 EDT |
+| sase | [`a1cc172`](https://github.com/sase-org/sase/commit/a1cc172d337957f2d68d42ec9fe6c3187907ae87) | feat(notification-gates): surface declared and submitted gate input | [sase-h7.10](sase-h7.10.md) | 2026-08-07 20:41:46 EDT |
+| sase | [`e1da6d1`](https://github.com/sase-org/sase/commit/e1da6d1b76fd1ea28bc620ab20ad63085842e932) | feat(notification-gates): collect typed gate inputs in the ACE modals | [sase-h7.6](sase-h7.6.md) | 2026-08-07 21:37:07 EDT |
