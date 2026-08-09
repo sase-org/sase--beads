@@ -21,4 +21,4 @@ idle: replace the 20ms-granularity CPU-idle heuristic behind every `pilot.pause(
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ib.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.2/README.md) | [sase-ib.2](sase-ib.2.md) | 0 |
+| [bbugyi200.athena.sase-ib.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.2.md) | [sase-ib.2](sase-ib.2.md) | 0 |

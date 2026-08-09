@@ -15,7 +15,7 @@ guard: turn the harness into a standing regression gate with committed budgets, 
 
 - **Depends on:** [sase-ib.2](sase-ib.2.md) ◐ · ⧖ 2026-08-09
 - **Depends on:** [sase-ib.3](sase-ib.3.md) ◐ · ⧖ 2026-08-09
-- **Depends on:** [sase-ib.4](sase-ib.4.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-ib.4](sase-ib.4.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ib.5](sase-ib.5.md) ◐ · ⧖ 2026-08-09
 - **Depends on:** [sase-ib.6](sase-ib.6.md) ◐ · ⧖ 2026-08-09
 
