@@ -61,7 +61,7 @@ flowchart TD
     n11["sase-hn.8.3: Sweep workflows, CLI, and the remaining source tree [closed]"]
     n12["sase-hn.8.4: Sweep the Rust core and linked integrations [closed]"]
     n13["sase-hn.8.5: Verify and land epic sase-hn [closed]"]
-    n14["sase-hn.8.6: Repair the Patch/stitch terminology gate and finish the test-tree sweep [in_progress]"]
+    n14["sase-hn.8.6: Repair the Patch/stitch terminology gate and finish the test-tree sweep [claimed]"]
     n15["sase-hn.8.6.1: Unbreak the gate and reopen the test-tree work list [closed]"]
     n16["sase-hn.8.6.2: Clear the ACE TUI test surface [closed]"]
     n17["sase-hn.8.6.3: Clear the remaining test surface [closed]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.6.2.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.3/README.md) | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2 |
-| [bbugyi200.athena.sase-hn.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.land/README.md) | [sase-hn.8.6](sase-hn.8.6.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.6.land.md) | [sase-hn.8.6](sase-hn.8.6.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
 
@@ -158,3 +158,4 @@ flowchart TD
 | sase | [`7feb0b8`](https://github.com/sase-org/sase/commit/7feb0b84b69a0b3a197db2aab5e5ac37c986081c) | test(ace): rename TUI tests to Patch terminology | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 2026-08-09 06:45:04 EDT |
 | sase | [`fbd1714`](https://github.com/sase-org/sase/commit/fbd1714d6d92484e2ba4183d4b63c72ddd18c44e) | fix: make patch terminology fixture audit content-aware | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:10:37 EDT |
 | sase--plans | [`sase--plans@e212f88`](https://github.com/sase-org/sase--plans/commit/e212f88f08e4e091fa305903736dab38c17b8945) | docs: mark patch audit gate repair done | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:14:48 EDT |
+| sase | [`11cd863`](https://github.com/sase-org/sase/commit/11cd8634d6be9acd2c0e1b6fa5ff8fe5779a08ed) | test: annotate legacy workspace hook arguments | [sase-hn.8.6](sase-hn.8.6.md) | 2026-08-09 07:48:10 EDT |
