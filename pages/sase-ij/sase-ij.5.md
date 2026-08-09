@@ -13,7 +13,7 @@ enable-ratchet: read the report-only output from at least one real master push w
 
 ## Dependencies
 
-- **Depends on:** [sase-ij.3](sase-ij.3.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-ij.3](sase-ij.3.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ij.4](sase-ij.4.md) ◐ · ⧖ 2026-08-09
 - **Blocks:** [sase-ij.6](sase-ij.6.md) ◐ · ⧖ 2026-08-09
 

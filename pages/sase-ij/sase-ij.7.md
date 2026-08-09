@@ -11,6 +11,10 @@
 
 early-warning: add a cached, offline-tolerant tools/probe_core_floor that runs the two stdlib probes against the declared floor, names the sase-core commit and release that provides any missing capability, and wire it into just check and just check-full as a warning that can never fail the run.
 
+## Notes
+
+[2026-08-09T19:38:40Z · sase-ij.7] PROPOSED FOLLOW-UP: Fix markdown formatting for build_and_run memory note - `just check` currently fails at `just fmt-md-check` because `sase/memory/build_and_run.md` is not Prettier-formatted; phase workers cannot edit memory files without explicit user permission.
+
 ## Agents
 
 | Agent | Bead | Commits |
