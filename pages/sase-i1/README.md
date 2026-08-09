@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i1.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.1/README.md) | [sase-i1.4.1](sase-i1.4.1.md) | 0 |
 | [bbugyi200.athena.sase-i1.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.2/README.md) | [sase-i1.4.2](sase-i1.4.2.md) | 1 |
 | [bbugyi200.athena.sase-i1.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.3/README.md) | [sase-i1.4.3](sase-i1.4.3.md) | 1 |
-| [bbugyi200.athena.sase-i1.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.4/README.md) | [sase-i1.4.4](sase-i1.4.4.md) | 0 |
+| [bbugyi200.athena.sase-i1.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.4/README.md) | [sase-i1.4.4](sase-i1.4.4.md) | 1 |
 | [bbugyi200.athena.sase-i1.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.land/README.md) | [sase-i1.4](sase-i1.4.md) | 0 |
 | [bbugyi200.athena.sase-i1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.land/README.md) | [sase-i1](README.md) | 0 |
 
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`a3a536a`](https://github.com/sase-org/sase/commit/a3a536a033daebf647439bde081d7e609a8dc99e) | feat(bead): add regex mode to bead search | [sase-i1.3](sase-i1.3.md) | 2026-08-09 08:46:44 EDT |
 | sase-core | [`sase-core@49650a0`](https://github.com/sase-org/sase-core/commit/49650a074294d9175b9a36f30ee891841ef032cb) | fix(bead): correct regex search match semantics | [sase-i1.4.2](sase-i1.4.2.md) | 2026-08-09 09:14:48 EDT |
 | sase | [`d7e9ae8`](https://github.com/sase-org/sase/commit/d7e9ae8ae5ebcc9b55d68bfa8cc739c4a550a977) | fix(search): require corrected core matcher release | [sase-i1.4.3](sase-i1.4.3.md) | 2026-08-09 10:16:12 EDT |
+| sase--plans | [`sase--plans@71be784`](https://github.com/sase-org/sase--plans/commit/71be784c92c1df95dc5c1a5e3bf8eec01ec2ef3f) | docs(plan): mark regex bead search plans done | [sase-i1.4.4](sase-i1.4.4.md) | 2026-08-09 10:33:27 EDT |

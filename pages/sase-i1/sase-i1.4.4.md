@@ -19,4 +19,10 @@ land-epic: re-audit the integrated tree, record every follow-up outcome, close s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-i1.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.4/README.md) | [sase-i1.4.4](sase-i1.4.4.md) | 0 |
+| [bbugyi200.athena.sase-i1.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.4/README.md) | [sase-i1.4.4](sase-i1.4.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--plans | [`sase--plans@71be784`](https://github.com/sase-org/sase--plans/commit/71be784c92c1df95dc5c1a5e3bf8eec01ec2ef3f) | docs(plan): mark regex bead search plans done | [sase-i1.4.4](sase-i1.4.4.md) | 2026-08-09 10:33:27 EDT |
