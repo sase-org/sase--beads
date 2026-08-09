@@ -21,7 +21,7 @@ contract-budget: replace the still-load-sensitive normalized-child-CPU contract-
 
 ## Dependencies
 
-- **Blocks:** [sase-h8.10.5.3](sase-h8.10.5.3.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-h8.10.5.3](sase-h8.10.5.3.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

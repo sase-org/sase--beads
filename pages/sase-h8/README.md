@@ -49,7 +49,7 @@ Remaining work is planned in sase_plan_flake_class_residue.md (epic tier, phases
 
 [2026-08-08T17:46:23Z · vt] DISCOVERED ISSUE: launch_state_thrash verification h
 
-… and 694 more characters
+… and 3908 more characters
 
 ## Phases
 
@@ -76,10 +76,10 @@ flowchart TD
     n4["sase-h8.10.2: Fix the four nodes that failed the sase-h8.9 exit criterion [closed]"]
     n5["sase-h8.10.3: Close the wait-idiom gate gaps that let the retired pattern back in [closed]"]
     n6["sase-h8.10.4: Meet the exit criterion, close sase-ct, and close the epic [closed]"]
-    n7["sase-h8.10.5: Finish the verified residue and land epic sase-h8.10 [in_progress]"]
+    n7["sase-h8.10.5: Finish the verified residue and land epic sase-h8.10 [closed]"]
     n8["sase-h8.10.5.1: Replace the load-sensitive contract runtime oracle [closed]"]
     n9["sase-h8.10.5.2: Integrate commits that landed after the epic began [closed]"]
-    n10["sase-h8.10.5.3: Verify, close sase-h8.10, and complete its plan [in_progress]"]
+    n10["sase-h8.10.5.3: Verify, close sase-h8.10, and complete its plan [closed]"]
     n11["sase-h8.2: One bounded-wait primitive for raw-pilot tests [closed]"]
     n12["sase-h8.3: Measured classification of every flake node [closed]"]
     n13["sase-h8.4: Fix the off-pump settle-gap family [closed]"]
@@ -138,9 +138,9 @@ flowchart TD
 | [bbugyi200.athena.sase-h8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.3/README.md) | [sase-h8.10.3](sase-h8.10.3.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.4/README.md) | [sase-h8.10.4](sase-h8.10.4.md) | 0 |
 | [bbugyi200.athena.sase-h8.10.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.1/README.md) | [sase-h8.10.5.1](sase-h8.10.5.1.md) | 1 |
-| [bbugyi200.athena.sase-h8.10.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.2/README.md) | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 1 |
-| [bbugyi200.athena.sase-h8.10.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.3/README.md) | [sase-h8.10.5.3](sase-h8.10.5.3.md) | 0 |
-| [bbugyi200.athena.sase-h8.10.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.land/README.md) | [sase-h8.10.5](sase-h8.10.5.md) | 0 |
+| [bbugyi200.athena.sase-h8.10.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.2/README.md) | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2 |
+| [bbugyi200.athena.sase-h8.10.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.3/README.md) | [sase-h8.10.5.3](sase-h8.10.5.3.md) | 1 |
+| [bbugyi200.athena.sase-h8.10.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h8.10.5.land.md) | [sase-h8.10.5](sase-h8.10.5.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.land/README.md) | [sase-h8.10](sase-h8.10.md) | 0 |
 | [bbugyi200.athena.sase-h8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.2/README.md) | [sase-h8.2](sase-h8.2.md) | 1 |
 | [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 0 |
@@ -166,4 +166,7 @@ flowchart TD
 | sase | [`3c771b7`](https://github.com/sase-org/sase/commit/3c771b77c90d12fc6c8e75c5303afea1c6622d61) | test: retire private bounded wait idioms | [sase-h8.10.3](sase-h8.10.3.md) | 2026-08-08 11:23:46 EDT |
 | sase | [`9360e85`](https://github.com/sase-org/sase/commit/9360e850c640e8932f6aa6a52a21933c0cec1c9d) | test: deflake phase residue timing tests | [sase-h8.10.2](sase-h8.10.2.md) | 2026-08-08 11:43:51 EDT |
 | sase | [`47cad6a`](https://github.com/sase-org/sase/commit/47cad6a0213b346ac61a59add409f6ae90400c65) | test: update post-epic plan-link assertions | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2026-08-08 13:49:31 EDT |
+| sase--plans | [`sase--plans@aeecfc9`](https://github.com/sase-org/sase--plans/commit/aeecfc990198036369a913a2ccfadebe968efc54) | docs: remove stale parent plan link | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2026-08-08 13:50:50 EDT |
 | sase | [`38fd25a`](https://github.com/sase-org/sase/commit/38fd25afdcda3481debf5324697ebf034eed62dd) | test: replace contract runtime oracle with manifest budget | [sase-h8.10.5.1](sase-h8.10.5.1.md) | 2026-08-08 14:02:05 EDT |
+| sase | [`607b72b`](https://github.com/sase-org/sase/commit/607b72bb0d9492cc184da022a5305748360aa96a) | test: bump flake-baseline cutoff past fixed historical xprompt records | [sase-h8.10.5.3](sase-h8.10.5.3.md) | 2026-08-08 17:27:22 EDT |
+| sase | [`aeab1cb`](https://github.com/sase-org/sase/commit/aeab1cb9cc11033a5c1c57c09bbf49f1ca14ceb4) | test(tui): update artifact ref highlight snapshot | [sase-h8.10.5](sase-h8.10.5.md) | 2026-08-08 20:37:54 EDT |
