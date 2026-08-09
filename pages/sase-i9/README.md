@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.3/README.md) | [sase-i9.3](sase-i9.3.md) | 2 |
 | [bbugyi200.athena.sase-i9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-i9.4.md) | [sase-i9.4](sase-i9.4.md) | 1 |
 | [bbugyi200.athena.sase-i9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.5/README.md) | [sase-i9.5](sase-i9.5.md) | 1 |
-| [bbugyi200.athena.sase-i9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.land/README.md) | [sase-i9](README.md) | 1 |
+| [bbugyi200.athena.sase-i9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.land/README.md) | [sase-i9](README.md) | 2 |
 
 ## Commits
 
@@ -114,3 +114,4 @@ flowchart TD
 | sase | [`9bce277`](https://github.com/sase-org/sase/commit/9bce277c942cc10009b984f1cc309920a36c29a6) | feat: add Rust prebuild cache | [sase-i9.4](sase-i9.4.md) | 2026-08-09 13:51:42 EDT |
 | sase | [`4f54489`](https://github.com/sase-org/sase/commit/4f54489af3bd33d069d2ce1a7cd22039844b2822) | test(dev-update): cover prebuild refusal while update writer lock is held | [sase-i9.5](sase-i9.5.md) | 2026-08-09 17:05:17 EDT |
 | sase | [`8658abe`](https://github.com/sase-org/sase/commit/8658abee6a733ddadd7b4b5bb01225ec66c8300d) | fix(dev-update): bound prebuild commands so a wedged build cannot pin the lock | [sase-i9](README.md) | 2026-08-09 18:11:08 EDT |
+| sase--plans | [`sase--plans@ae92d4a`](https://github.com/sase-org/sase--plans/commit/ae92d4a23b8d65360454c9db5e2b2aa322d644c0) | docs(plans): mark fast\_dev\_update as done | [sase-i9](README.md) | 2026-08-09 18:12:28 EDT |
