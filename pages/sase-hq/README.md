@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.4/README.md) | [sase-hq.4](sase-hq.4.md) | 1 |
 | [bbugyi200.athena.sase-hq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.5/README.md) | [sase-hq.5](sase-hq.5.md) | 2 |
 | [bbugyi200.athena.sase-hq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.6/README.md) | [sase-hq.6](sase-hq.6.md) | 1 |
-| [bbugyi200.athena.sase-hq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.land/README.md) | [sase-hq](README.md) | 1 |
+| [bbugyi200.athena.sase-hq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.land/README.md) | [sase-hq](README.md) | 2 |
 
 ## Commits
 
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`bb07bd8`](https://github.com/sase-org/sase/commit/bb07bd865bde7033bf841f973c1c0f527284c777) | feat(ace): add prompt glossary interactions | [sase-hq.4](sase-hq.4.md) | 2026-08-08 19:57:12 EDT |
 | sase | [`7b473c7`](https://github.com/sase-org/sase/commit/7b473c7893a86f9f88c4fabc7a7ca5fbc6144c44) | feat: migrate SASE glossary into project config | [sase-hq.6](sase-hq.6.md) | 2026-08-08 20:42:30 EDT |
 | sase | [`4d3262f`](https://github.com/sase-org/sase/commit/4d3262f5c6b23f6e1c11f857844ffe4cc6ba82dc) | refactor(glossary): retire sase-hq epic symbols and finish landing cleanup | [sase-hq](README.md) | 2026-08-08 21:31:53 EDT |
+| sase--plans | [`sase--plans@6c89284`](https://github.com/sase-org/sase--plans/commit/6c89284f4070c27c8c46c95e29c406fb48771292) | docs(plans): mark the project glossary epic done | [sase-hq](README.md) | 2026-08-08 21:33:28 EDT |
