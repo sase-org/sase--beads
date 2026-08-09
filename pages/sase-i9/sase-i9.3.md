@@ -27,10 +27,11 @@ fast-profile: add a dev-update-only cargo profile in sase-core that drops LTO an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-i9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.3/README.md) | [sase-i9.3](sase-i9.3.md) | 1 |
+| [bbugyi200.athena.sase-i9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.3/README.md) | [sase-i9.3](sase-i9.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d6e3ea2`](https://github.com/sase-org/sase-core/commit/d6e3ea299f9ddfe2412fb11571c241f66712fb5d) | perf: add dev-update cargo profile | [sase-i9.3](sase-i9.3.md) | 2026-08-09 12:47:51 EDT |
+| sase | [`2bb7ce4`](https://github.com/sase-org/sase/commit/2bb7ce46382ffa040a621bd9b7bb3258165da4f3) | perf: use dev-update profile for rust updates | [sase-i9.3](sase-i9.3.md) | 2026-08-09 12:49:48 EDT |
