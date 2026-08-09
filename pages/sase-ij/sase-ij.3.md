@@ -58,7 +58,7 @@ tests/test_xprompt_workflow_schema.py -q; just lint; just validate; just validat
 
 ## Dependencies
 
-- **Blocks:** [sase-ij.5](sase-ij.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ij.5](sase-ij.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

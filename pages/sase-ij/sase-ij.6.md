@@ -13,7 +13,7 @@ retire-conscription: remove published-core-minimum-smoke from feature PRs and ma
 
 ## Dependencies
 
-- **Depends on:** [sase-ij.5](sase-ij.5.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-ij.5](sase-ij.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

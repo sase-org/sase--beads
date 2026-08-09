@@ -20,7 +20,7 @@ release-ratchet: extend publish.yml's sync-lockfile job into a sync-release-meta
 ## Dependencies
 
 - **Depends on:** [sase-ij.2](sase-ij.2.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ij.5](sase-ij.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ij.5](sase-ij.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

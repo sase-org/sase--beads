@@ -19,7 +19,7 @@ A feature agent can call a newly landed sase-core binding or behavior without ed
 | [sase-ij.2](sase-ij.2.md) | Build the window ratchet tool | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ij.3](sase-ij.3.md) | Enforce the published floor on the release branch and at publish time | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ij.4](sase-ij.4.md) | Ratchet the window on the pending release branch in report-only mode | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-ij.5](sase-ij.5.md) | Verify one report-only run and switch the ratchet to apply | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
+| [sase-ij.5](sase-ij.5.md) | Verify one report-only run and switch the ratchet to apply | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-ij.6](sase-ij.6.md) | Stop conscripting feature agents into the floor bump | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
 | [sase-ij.7](sase-ij.7.md) | Add a non-fatal core-floor probe to just check | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ij.8](sase-ij.8.md) | Merge sase-core release PRs from the release-plz workflow | ◐ in_progress | small | 2026-08-09 | 1 | 2 |
@@ -33,7 +33,7 @@ flowchart TD
     n2["sase-ij.2: Build the window ratchet tool [closed]"]
     n3["sase-ij.3: Enforce the published floor on the release branch and at publish time [closed]"]
     n4["sase-ij.4: Ratchet the window on the pending release branch in report-only mode [closed]"]
-    n5["sase-ij.5: Verify one report-only run and switch the ratchet to apply [in_progress]"]
+    n5["sase-ij.5: Verify one report-only run and switch the ratchet to apply [closed]"]
     n6["sase-ij.6: Stop conscripting feature agents into the floor bump [in_progress]"]
     n7["sase-ij.7: Add a non-fatal core-floor probe to just check [closed]"]
     n8["sase-ij.8: Merge sase-core release PRs from the release-plz workflow [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ij.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.2/README.md) | [sase-ij.2](sase-ij.2.md) | 1 |
 | [bbugyi200.athena.sase-ij.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.3/README.md) | [sase-ij.3](sase-ij.3.md) | 1 |
 | [bbugyi200.athena.sase-ij.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.4/README.md) | [sase-ij.4](sase-ij.4.md) | 1 |
-| [bbugyi200.athena.sase-ij.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.5/README.md) | [sase-ij.5](sase-ij.5.md) | 0 |
+| [bbugyi200.athena.sase-ij.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.5/README.md) | [sase-ij.5](sase-ij.5.md) | 1 |
 | [bbugyi200.athena.sase-ij.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.6/README.md) | [sase-ij.6](sase-ij.6.md) | 0 |
 | [bbugyi200.athena.sase-ij.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.7/README.md) | [sase-ij.7](sase-ij.7.md) | 1 |
 | [bbugyi200.athena.sase-ij.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.8/README.md) | [sase-ij.8](sase-ij.8.md) | 2 |
@@ -77,3 +77,4 @@ flowchart TD
 | sase | [`f43d6e4`](https://github.com/sase-org/sase/commit/f43d6e4fea2423cea0e164962e4d86ffaea12aee) | feat(check): add advisory core floor probe | [sase-ij.7](sase-ij.7.md) | 2026-08-09 15:49:17 EDT |
 | sase | [`ca2dbcb`](https://github.com/sase-org/sase/commit/ca2dbcb0fd8d4fee7a9df8f449a943a5683f8d70) | feat: add core window ratchet tool | [sase-ij.2](sase-ij.2.md) | 2026-08-09 16:15:34 EDT |
 | sase | [`dfa07fb`](https://github.com/sase-org/sase/commit/dfa07fb48e7c215c6470ea9364b9f118a62bd50e) | ci: reconcile release metadata on pending branch | [sase-ij.4](sase-ij.4.md) | 2026-08-09 16:30:31 EDT |
+| sase | [`419a81b`](https://github.com/sase-org/sase/commit/419a81b7b5530e700cb176acf2a888ba3c267e19) | ci: apply release metadata ratchet | [sase-ij.5](sase-ij.5.md) | 2026-08-09 16:48:00 EDT |
