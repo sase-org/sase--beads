@@ -27,7 +27,7 @@ collect: carry merge visibility through the collection filters and the commit fi
 
 - **Depends on:** [sase-i8.3](sase-i8.3.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i8.5](sase-i8.5.md) ◐ · ⧖ 2026-08-09
-- **Blocks:** [sase-i8.6](sase-i8.6.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i8.6](sase-i8.6.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

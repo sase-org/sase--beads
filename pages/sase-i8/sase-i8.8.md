@@ -13,7 +13,7 @@ floor: after the core release publishes, move the sase-core-rs version window in
 
 ## Dependencies
 
-- **Depends on:** [sase-i8.6](sase-i8.6.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i8.6](sase-i8.6.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-i8.7](sase-i8.7.md) ◐ · ⧖ 2026-08-09
 - **Blocks:** [sase-i8.9](sase-i8.9.md) ◐ · ⧖ 2026-08-09
 
