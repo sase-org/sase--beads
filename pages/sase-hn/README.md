@@ -57,7 +57,7 @@ flowchart TD
     n7["sase-hn.7: Reconcile compatibility and verify the complete rename [closed]"]
     n8["sase-hn.8: Finish the Patch/stitch terminology migration and land epic sase-hn [in_progress]"]
     n9["sase-hn.8.1: Make the terminology audit content-aware [closed]"]
-    n10["sase-hn.8.2: Sweep the ACE surface [in_progress]"]
+    n10["sase-hn.8.2: Sweep the ACE surface [closed]"]
     n11["sase-hn.8.3: Sweep workflows, CLI, and the remaining source tree [closed]"]
     n12["sase-hn.8.4: Sweep the Rust core and linked integrations [closed]"]
     n13["sase-hn.8.5: Verify and land epic sase-hn [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 1 |
 | [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.7.md) | [sase-hn.7](sase-hn.7.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.1/README.md) | [sase-hn.8.1](sase-hn.8.1.md) | 1 |
-| [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 0 |
@@ -123,3 +123,4 @@ flowchart TD
 | sase | [`a4a3406`](https://github.com/sase-org/sase/commit/a4a3406795802e77f6d34c3564612f85e891df92) | fix: tighten patch terminology audit classification | [sase-hn.8.1](sase-hn.8.1.md) | 2026-08-09 00:28:33 EDT |
 | sase | [`8651758`](https://github.com/sase-org/sase/commit/865175867ad8b505ed867de9e28254129ca85a8c) | test: update patch terminology audit expectations | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:58:04 EDT |
 | sase | [`77d18c3`](https://github.com/sase-org/sase/commit/77d18c3e1456e03944278b8d34e030bca7838200) | feat(cli): adopt Patch terminology across workflows | [sase-hn.8.3](sase-hn.8.3.md) | 2026-08-09 02:16:28 EDT |
+| sase | [`50f8961`](https://github.com/sase-org/sase/commit/50f8961ac7cb1b2ba654ed4bcb06804db433d42e) | feat(ace): rename ACE ChangeSpecs to Patches | [sase-hn.8.2](sase-hn.8.2.md) | 2026-08-09 02:48:05 EDT |
