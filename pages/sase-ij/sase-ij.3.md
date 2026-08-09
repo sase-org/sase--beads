@@ -64,4 +64,10 @@ tests/test_xprompt_workflow_schema.py -q; just lint; just validate; just validat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ij.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.3/README.md) | [sase-ij.3](sase-ij.3.md) | 0 |
+| [bbugyi200.athena.sase-ij.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.3/README.md) | [sase-ij.3](sase-ij.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`48d5bcd`](https://github.com/sase-org/sase/commit/48d5bcdf1e9c59a9a6dea498e3eb7a08b1c1a7d8) | ci: enforce published core floor in release workflows | [sase-ij.3](sase-ij.3.md) | 2026-08-09 15:42:12 EDT |
