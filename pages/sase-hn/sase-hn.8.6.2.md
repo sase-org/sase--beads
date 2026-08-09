@@ -20,7 +20,7 @@ test-tui-sweep: retire ChangeSpec vocabulary from the 2709 defects under tests/a
 ## Dependencies
 
 - **Depends on:** [sase-hn.8.6.1](sase-hn.8.6.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-hn.8.6.4](sase-hn.8.6.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-hn.8.6.4](sase-hn.8.6.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

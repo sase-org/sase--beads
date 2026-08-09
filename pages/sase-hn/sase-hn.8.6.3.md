@@ -20,7 +20,7 @@ test-rest-sweep: clear the 244 defects under tests/ outside tests/ace/tui, make 
 ## Dependencies
 
 - **Depends on:** [sase-hn.8.6.1](sase-hn.8.6.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-hn.8.6.4](sase-hn.8.6.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-hn.8.6.4](sase-hn.8.6.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
