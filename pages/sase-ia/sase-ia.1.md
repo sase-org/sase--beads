@@ -25,10 +25,4 @@ core-scope: teach the Rust config provenance pass to diagnose a non-local `memor
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ia.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.1/README.md) | [sase-ia.1](sase-ia.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@480299b`](https://github.com/sase-org/sase-core/commit/480299b44ecea17c3864174f42b6d21cd0c9c146) | fix(config): diagnose nested glossary scope | [sase-ia.1](sase-ia.1.md) | 2026-08-09 10:32:17 EDT |
+| [bbugyi200.athena.sase-ia.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.1/README.md) | [sase-ia.1](sase-ia.1.md) | 0 |
