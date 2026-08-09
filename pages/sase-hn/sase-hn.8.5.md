@@ -27,10 +27,11 @@ land-epic: run the full cross-repository verification set, enforce the audit as 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cac21c8`](https://github.com/sase-org/sase/commit/cac21c867e301b97a59b3918fb8242cdae51c9b9) | fix: enforce Patch terminology audit gate | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:58:02 EDT |
+| sase--plans | [`sase--plans@4fbaea1`](https://github.com/sase-org/sase--plans/commit/4fbaea178aa166c69725c4fa6dce246e8d08c11f) | docs: mark Patch terminology plans done | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:59:21 EDT |

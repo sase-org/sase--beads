@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 4 |
-| [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 2 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
 
@@ -133,3 +133,4 @@ flowchart TD
 | sase | [`77d18c3`](https://github.com/sase-org/sase/commit/77d18c3e1456e03944278b8d34e030bca7838200) | feat(cli): adopt Patch terminology across workflows | [sase-hn.8.3](sase-hn.8.3.md) | 2026-08-09 02:16:28 EDT |
 | sase | [`50f8961`](https://github.com/sase-org/sase/commit/50f8961ac7cb1b2ba654ed4bcb06804db433d42e) | feat(ace): rename ACE ChangeSpecs to Patches | [sase-hn.8.2](sase-hn.8.2.md) | 2026-08-09 02:48:05 EDT |
 | sase | [`cac21c8`](https://github.com/sase-org/sase/commit/cac21c867e301b97a59b3918fb8242cdae51c9b9) | fix: enforce Patch terminology audit gate | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:58:02 EDT |
+| sase--plans | [`sase--plans@4fbaea1`](https://github.com/sase-org/sase--plans/commit/4fbaea178aa166c69725c4fa6dce246e8d08c11f) | docs: mark Patch terminology plans done | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:59:21 EDT |
