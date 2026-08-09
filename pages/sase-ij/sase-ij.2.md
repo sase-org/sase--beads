@@ -13,7 +13,7 @@ ratchet-tool: add a stdlib-only tools/ratchet_core_window that selects the newes
 
 ## Dependencies
 
-- **Depends on:** [sase-ij.1](sase-ij.1.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-ij.1](sase-ij.1.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-ij.4](sase-ij.4.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
