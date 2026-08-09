@@ -14,7 +14,7 @@ plan-size-adopt: raise the sase-core floor, plumb the validated tale `size` thro
 ## Dependencies
 
 - **Depends on:** [sase-il.2](sase-il.2.md) ◐ · ⧖ 2026-08-09
-- **Depends on:** [sase-il.3](sase-il.3.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-il.3](sase-il.3.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-il.5](sase-il.5.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
