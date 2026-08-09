@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.1/README.md) | [sase-hn.8.6.1](sase-hn.8.6.1.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.6.2.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.3/README.md) | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 1 |
-| [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2 |
 | [bbugyi200.athena.sase-hn.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.land/README.md) | [sase-hn.8.6](sase-hn.8.6.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
@@ -157,3 +157,4 @@ flowchart TD
 | sase | [`684eddd`](https://github.com/sase-org/sase/commit/684eddd2dbce9aafb2dc39349daaabc4c966ede6) | test(ace): clear patch terminology defects in tests | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 2026-08-09 05:10:49 EDT |
 | sase | [`7feb0b8`](https://github.com/sase-org/sase/commit/7feb0b84b69a0b3a197db2aab5e5ac37c986081c) | test(ace): rename TUI tests to Patch terminology | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 2026-08-09 06:45:04 EDT |
 | sase | [`fbd1714`](https://github.com/sase-org/sase/commit/fbd1714d6d92484e2ba4183d4b63c72ddd18c44e) | fix: make patch terminology fixture audit content-aware | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:10:37 EDT |
+| sase--plans | [`sase--plans@e212f88`](https://github.com/sase-org/sase--plans/commit/e212f88f08e4e091fa305903736dab38c17b8945) | docs: mark patch audit gate repair done | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:14:48 EDT |

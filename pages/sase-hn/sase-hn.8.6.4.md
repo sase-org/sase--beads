@@ -26,10 +26,11 @@ land-epic: make content-aware tests/ and smoke/ classification unconditional, re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fbd1714`](https://github.com/sase-org/sase/commit/fbd1714d6d92484e2ba4183d4b63c72ddd18c44e) | fix: make patch terminology fixture audit content-aware | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:10:37 EDT |
+| sase--plans | [`sase--plans@e212f88`](https://github.com/sase-org/sase--plans/commit/e212f88f08e4e091fa305903736dab38c17b8945) | docs: mark patch audit gate repair done | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 2026-08-09 07:14:48 EDT |
