@@ -22,7 +22,7 @@ wire: mirror the Rust contract on the Python side — parent ids and schema 3 in
 ## Dependencies
 
 - **Depends on:** [sase-i8.1](sase-i8.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i8.3](sase-i8.3.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i8.3](sase-i8.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
