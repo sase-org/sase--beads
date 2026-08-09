@@ -17,7 +17,7 @@ core: add phrase pluralization to sase-core, split authored / effective / displa
 
 ## Dependencies
 
-- **Blocks:** [sase-i3.2](sase-i3.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i3.2](sase-i3.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

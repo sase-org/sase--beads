@@ -16,8 +16,8 @@ Glossary matching recognizes the plural form of every term and alias without it 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-i3.1](sase-i3.1.md) | Derive plurals and display aliases in the Rust glossary domain | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-i3.2](sase-i3.2.md) | Publish a sase-core-rs release containing the glossary change | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
-| [sase-i3.3](sase-i3.3.md) | Render display aliases and raise the core floor in sase | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-i3.2](sase-i3.2.md) | Publish a sase-core-rs release containing the glossary change | ✓ closed | small | 2026-08-09 | 1 | 0 |
+| [sase-i3.3](sase-i3.3.md) | Render display aliases and raise the core floor in sase | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 
 ## Lineage
 
@@ -25,8 +25,8 @@ Glossary matching recognizes the plural form of every term and alias without it 
 flowchart TD
     n0["sase-i3: Derive glossary alias plurals automatically and hide them from ALIASES [in_progress]"]
     n1["sase-i3.1: Derive plurals and display aliases in the Rust glossary domain [closed]"]
-    n2["sase-i3.2: Publish a sase-core-rs release containing the glossary change [in_progress]"]
-    n3["sase-i3.3: Render display aliases and raise the core floor in sase [in_progress]"]
+    n2["sase-i3.2: Publish a sase-core-rs release containing the glossary change [closed]"]
+    n3["sase-i3.3: Render display aliases and raise the core floor in sase [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-i3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.1/README.md) | [sase-i3.1](sase-i3.1.md) | 1 |
 | [bbugyi200.athena.sase-i3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.2/README.md) | [sase-i3.2](sase-i3.2.md) | 0 |
-| [bbugyi200.athena.sase-i3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.3/README.md) | [sase-i3.3](sase-i3.3.md) | 0 |
+| [bbugyi200.athena.sase-i3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.3/README.md) | [sase-i3.3](sase-i3.3.md) | 1 |
 | [bbugyi200.athena.sase-i3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.land/README.md) | [sase-i3](README.md) | 0 |
 
 ## Commits
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@5c555dc`](https://github.com/sase-org/sase-core/commit/5c555dcda69367e31b64edc57d487f0b4a464b5c) | feat(glossary): derive plural aliases for matching | [sase-i3.1](sase-i3.1.md) | 2026-08-09 08:31:38 EDT |
+| sase | [`b736093`](https://github.com/sase-org/sase/commit/b73609337d9bd1e7be6184bd4cd97f16cb342683) | feat(glossary): render core display aliases | [sase-i3.3](sase-i3.3.md) | 2026-08-09 09:20:30 EDT |

@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-i3](README.md) / sase-i3.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.wa.f0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.wa.f0/README.md) · **Assignee:** `sase-i3.2` · **Size:** small
-**Created:** 2026-08-09 08:17:59 EDT
+**Created:** 2026-08-09 08:17:59 EDT · **Closed:** 2026-08-09 08:49:59 EDT
 **Plan:** [202608/glossary\_alias\_plurals.md](https://github.com/sase-org/sase--plans/blob/main/202608/glossary_alias_plurals.md)
 
 ## Description
 
 core-release: land the release-plz version bump for sase-core and confirm the new sase-core-rs wheel resolves from PyPI.
 
+## Notes
+
+[2026-08-09T12:49:59Z · sase-i3.2] Merged release-plz PR #99 as c416cd0, verified GitHub release/tag v0.21.2, release workflow wheel/twine/PyPI publish jobs succeeded, PyPI JSON lists 0.21.2 artifacts, and a fresh Python 3.12 venv installed sase-core-rs==0.21.2 from PyPI and imported/ran parse_query successfully.
+
 ## Dependencies
 
 - **Depends on:** [sase-i3.1](sase-i3.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i3.3](sase-i3.3.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i3.3](sase-i3.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
