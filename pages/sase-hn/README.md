@@ -64,7 +64,7 @@ flowchart TD
     n14["sase-hn.8.6: Repair the Patch/stitch terminology gate and finish the test-tree sweep [in_progress]"]
     n15["sase-hn.8.6.1: Unbreak the gate and reopen the test-tree work list [closed]"]
     n16["sase-hn.8.6.2: Clear the ACE TUI test surface [in_progress]"]
-    n17["sase-hn.8.6.3: Clear the remaining test surface [in_progress]"]
+    n17["sase-hn.8.6.3: Clear the remaining test surface [closed]"]
     n18["sase-hn.8.6.4: Make strict classification the default and land epic sase-hn.8 [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -120,8 +120,8 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 2 |
 | [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 2 |
 | [bbugyi200.athena.sase-hn.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.1/README.md) | [sase-hn.8.6.1](sase-hn.8.6.1.md) | 1 |
-| [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.2/README.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 0 |
-| [bbugyi200.athena.sase-hn.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.3/README.md) | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.6.2.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.3/README.md) | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.4/README.md) | [sase-hn.8.6.4](sase-hn.8.6.4.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.land/README.md) | [sase-hn.8.6](sase-hn.8.6.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
@@ -147,3 +147,4 @@ flowchart TD
 | sase | [`cac21c8`](https://github.com/sase-org/sase/commit/cac21c867e301b97a59b3918fb8242cdae51c9b9) | fix: enforce Patch terminology audit gate | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:58:02 EDT |
 | sase--plans | [`sase--plans@4fbaea1`](https://github.com/sase-org/sase--plans/commit/4fbaea178aa166c69725c4fa6dce246e8d08c11f) | docs: mark Patch terminology plans done | [sase-hn.8.5](sase-hn.8.5.md) | 2026-08-09 03:59:21 EDT |
 | sase | [`4a85503`](https://github.com/sase-org/sase/commit/4a855032ff96612934d810a9ac0fed463d2f7448) | fix: keep Patch terminology lint unblocked by missing repos | [sase-hn.8.6.1](sase-hn.8.6.1.md) | 2026-08-09 04:45:47 EDT |
+| sase | [`684eddd`](https://github.com/sase-org/sase/commit/684eddd2dbce9aafb2dc39349daaabc4c966ede6) | test(ace): clear patch terminology defects in tests | [sase-hn.8.6.3](sase-hn.8.6.3.md) | 2026-08-09 05:10:49 EDT |

@@ -20,4 +20,4 @@ test-tui-sweep: retire ChangeSpec vocabulary from the 2709 defects under tests/a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.6.2/README.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.6.2.md) | [sase-hn.8.6.2](sase-hn.8.6.2.md) | 0 |

@@ -20,7 +20,7 @@ gate-repair: stop the lint gate from hard-failing on unmaterialized linked repos
 ## Dependencies
 
 - **Blocks:** [sase-hn.8.6.2](sase-hn.8.6.2.md) ◐ · ⧖ 2026-08-09
-- **Blocks:** [sase-hn.8.6.3](sase-hn.8.6.3.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-hn.8.6.3](sase-hn.8.6.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

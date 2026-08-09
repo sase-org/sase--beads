@@ -14,7 +14,7 @@ land-epic: make content-aware tests/ and smoke/ classification unconditional, re
 ## Dependencies
 
 - **Depends on:** [sase-hn.8.6.2](sase-hn.8.6.2.md) ◐ · ⧖ 2026-08-09
-- **Depends on:** [sase-hn.8.6.3](sase-hn.8.6.3.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-hn.8.6.3](sase-hn.8.6.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
