@@ -20,7 +20,7 @@ fast-profile: add a dev-update-only cargo profile in sase-core that drops LTO an
 ## Dependencies
 
 - **Depends on:** [sase-i9.2](sase-i9.2.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i9.4](sase-i9.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i9.4](sase-i9.4.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i9.5](sase-i9.5.md) ◐ · ⧖ 2026-08-09
 
 ## Agents

@@ -23,7 +23,7 @@ unified-build: collapse the two separate cargo/maturin reconcile steps into a si
 
 - **Depends on:** [sase-i9.1](sase-i9.1.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i9.3](sase-i9.3.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i9.4](sase-i9.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i9.4](sase-i9.4.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i9.5](sase-i9.5.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
