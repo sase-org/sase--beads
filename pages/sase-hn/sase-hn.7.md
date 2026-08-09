@@ -13,7 +13,7 @@ compatibility-audit: classify every remaining legacy token and run exhaustive cr
 
 ## Dependencies
 
-- **Depends on:** [sase-hn.6](sase-hn.6.md) ◐ · ⧖ 2026-08-08
+- **Depends on:** [sase-hn.6](sase-hn.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
