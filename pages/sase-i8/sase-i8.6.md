@@ -13,7 +13,7 @@ cli: add the -m/--merges option with its three modes, wire it through the vcs ha
 
 ## Dependencies
 
-- **Depends on:** [sase-i8.4](sase-i8.4.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i8.4](sase-i8.4.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i8.8](sase-i8.8.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
