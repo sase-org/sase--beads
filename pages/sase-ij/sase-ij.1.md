@@ -27,10 +27,4 @@ derive-floor-literal: replace the hardcoded "0.21.3" golden assertion in tests/t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ij.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.1/README.md) | [sase-ij.1](sase-ij.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`755987f`](https://github.com/sase-org/sase/commit/755987ff5b42418f6d411eec7373ce524184a0b3) | test: derive telemetry smoke core floor from pyproject | [sase-ij.1](sase-ij.1.md) | 2026-08-09 15:33:31 EDT |
+| [bbugyi200.athena.sase-ij.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.1/README.md) | [sase-ij.1](sase-ij.1.md) | 0 |
