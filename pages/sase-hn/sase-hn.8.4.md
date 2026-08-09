@@ -28,7 +28,7 @@ core-and-linked: fix sase-core Rust doc comments and audit the four linked repos
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 2 |
+| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 3 |
 
 ## Commits
 
@@ -36,3 +36,4 @@ core-and-linked: fix sase-core Rust doc comments and audit the four linked repos
 |---|---|---|---|---|
 | sase-core | [`sase-core@3a5753f`](https://github.com/sase-org/sase-core/commit/3a5753ff6e924b223a5e79f0427a8120d734c3fe) | refactor(core): use patch terminology across core docs and internals | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:53:40 EDT |
 | sase-github | [`sase-github@e79c33b`](https://github.com/sase-org/sase-github/commit/e79c33b231d72605957f793fb6a338c910913af0) | docs: mark github plugin patch compatibility boundaries | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:55:34 EDT |
+| sase-telegram | [`sase-telegram@f64ba07`](https://github.com/sase-org/sase-telegram/commit/f64ba07b8a66aaa650bd6992c69b2a6d9db9552a) | test: update telegram patch terminology fixtures | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:56:45 EDT |
