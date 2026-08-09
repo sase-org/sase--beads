@@ -29,6 +29,8 @@ commit.message.require_conventional_subject to get past this check.. While commi
 
 [2026-08-09T02:15:11Z · toobig-23.split_file.src.sase.artifact_ref_prompt.0] DISCOVERED ISSUE: Independent reproduction during unrelated artifact_ref_prompt module-split verification on 2026-08-08. 'just check' passes formatting, keep-sorted, Ruff, mypy, pyscripts, test-wait, and changelog gates, then Symvision fails with: Private functions/classes should not be imported: _parse_timestamp_value in src/sase/ace/tui/models/patch_groups/_buckets.py. The source was introduced by this epic's c7026e50e 'feat(tui): rename ACE patch surface'; src/sase/ace/tui/models/changespec_groups/_buckets.py aliases _patch_buckets._parse_timestamp_value and changespec_groups/__init__.py mutates that private symbol for legacy compatibility. This is causally part of the active Patch/ChangeSpec compatibility work, so no standalone task bead was created.
 
+[2026-08-09T02:37:55Z · toobig-23.split_file.src.sase.xprompt.workflow_loader.0] DISCOVERED ISSUE: Independent recurrence during unrelated workflow_loader.py module-split verification on 2026-08-08. After all refactor-caused Symvision private-import findings were fixed, 'just _lint-symvision' fails only on the existing cross-module import of _parse_timestamp_value in src/sase/ace/tui/models/patch_groups/_buckets.py. This independently confirms the compatibility residue already reported at 02:15 belongs to active reconciliation phase sase-hn.7 and continues to block a clean 'just check'; no standalone task bead created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,9 +39,9 @@ commit.message.require_conventional_subject to get past this check.. While commi
 | [sase-hn.2](sase-hn.2.md) | Migrate the Python domain and ProjectSpec storage layer | ✓ closed | large | 2026-08-08 | 1 | 2 |
 | [sase-hn.3](sase-hn.3.md) | Rename workflow, automation, CLI, and metadata contracts | ✓ closed | large | 2026-08-08 | 1 | 1 |
 | [sase-hn.4](sase-hn.4.md) | Rename the ACE TUI and configuration surface | ✓ closed | large | 2026-08-08 | 1 | 2 |
-| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ✓ closed | medium | 2026-08-08 | 1 | 0 |
+| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ✓ closed | medium | 2026-08-08 | 1 | 3 |
 | [sase-hn.6](sase-hn.6.md) | Update documentation, glossary, demos, and generated-skill sources | ✓ closed | medium | 2026-08-08 | 1 | 2 |
-| [sase-hn.7](sase-hn.7.md) | Reconcile compatibility and verify the complete rename | ◐ in_progress | large | 2026-08-08 | 1 | 0 |
+| [sase-hn.7](sase-hn.7.md) | Reconcile compatibility and verify the complete rename | ✓ closed | large | 2026-08-08 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +54,7 @@ flowchart TD
     n4["sase-hn.4: Rename the ACE TUI and configuration surface [closed]"]
     n5["sase-hn.5: Update linked GitHub, Telegram, and Neovim integrations [closed]"]
     n6["sase-hn.6: Update documentation, glossary, demos, and generated-skill sources [closed]"]
-    n7["sase-hn.7: Reconcile compatibility and verify the complete rename [in_progress]"]
+    n7["sase-hn.7: Reconcile compatibility and verify the complete rename [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -77,9 +79,9 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.2.md) | [sase-hn.2](sase-hn.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.3.md) | [sase-hn.3](sase-hn.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 2 |
-| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 0 |
+| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 3 |
 | [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 2 |
-| [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.7/README.md) | [sase-hn.7](sase-hn.7.md) | 0 |
+| [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.7.md) | [sase-hn.7](sase-hn.7.md) | 1 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
 
 ## Commits
@@ -90,7 +92,11 @@ flowchart TD
 | sase | [`3e6da8d`](https://github.com/sase-org/sase/commit/3e6da8d5fb1b7d4887b8f78cfce863d702fa1fb7) | feat: Migrate the Python domain and ProjectSpec storage layer (sase-hn.2) | [sase-hn.2](sase-hn.2.md) | 2026-08-08 15:28:09 EDT |
 | sase | [`6367ef3`](https://github.com/sase-org/sase/commit/6367ef34734011e7ebe37885b7bf074260627412) | refactor(patch): canonicalize Python patch storage | [sase-hn.2](sase-hn.2.md) | 2026-08-08 17:04:42 EDT |
 | sase | [`d9e11c7`](https://github.com/sase-org/sase/commit/d9e11c78673a1ec6255f5d9bd85e977534f9315b) | feat: add canonical patch workflow contracts | [sase-hn.3](sase-hn.3.md) | 2026-08-08 18:30:49 EDT |
+| sase-github | [`sase-github@bc4fec5`](https://github.com/sase-org/sase-github/commit/bc4fec5d436853eb9b839339d855093d13ce83aa) | feat: adopt Patch terminology in GitHub integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:03:55 EDT |
+| sase-nvim | [`sase-nvim@d0bb0e2`](https://github.com/sase-org/sase-nvim/commit/d0bb0e22568f1e82f2c850ce807141f89f653e88) | feat: support Patch completion rows in Neovim | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:06:30 EDT |
+| sase-telegram | [`sase-telegram@3c4f20d`](https://github.com/sase-org/sase-telegram/commit/3c4f20d7dd1ee333bb5cb2fce4e53802bfb486e5) | feat: show Patch terminology in Telegram integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:07:49 EDT |
 | sase-core | [`sase-core@984033d`](https://github.com/sase-org/sase-core/commit/984033d676a7a7e10b35bfab7a44ee9d919a9fa3) | feat(core): accept canonical patch completion metadata | [sase-hn.4](sase-hn.4.md) | 2026-08-08 21:45:55 EDT |
 | sase | [`c7026e5`](https://github.com/sase-org/sase/commit/c7026e50ef202e6d4dd63d8001af9d0c55ba4cdd) | feat(tui): rename ACE patch surface | [sase-hn.4](sase-hn.4.md) | 2026-08-08 21:48:53 EDT |
 | sase | [`2634fb4`](https://github.com/sase-org/sase/commit/2634fb4759db483a1374a4b87332c88e7270e3ec) | feat: adopt Patch terminology across docs and skills | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:32:55 EDT |
 | chezmoi | [`chezmoi@e451322`](https://github.com/bbugyi200/dotfiles/commit/e451322fd8957933b26790cbd7dde246c4d2585b) | chore: update SASE snippets for Patch terminology | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:34:23 EDT |
+| sase | [`db632d7`](https://github.com/sase-org/sase/commit/db632d7fda78ae7d2ebc9a209e057d60943638c3) | feat: audit Patch/stitch compatibility terminology | [sase-hn.7](sase-hn.7.md) | 2026-08-08 23:56:21 EDT |
