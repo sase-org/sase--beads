@@ -44,10 +44,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ie](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ie/README.md) | [sase-ie](README.md) | 1 |
+| [bbugyi200.athena.sase-ie](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ie/README.md) | [sase-ie](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cc5894a`](https://github.com/sase-org/sase/commit/cc5894a06d78979f91f9311d1c49b4b566f079e8) | feat!: remove deprecated top-level amd\_h1\_title and glossary config aliases | [sase-ie](README.md) | 2026-08-09 13:27:28 EDT |
+| sase-core | [`sase-core@b8b6570`](https://github.com/sase-org/sase-core/commit/b8b6570e37ae5d302593eae89086348ca0d4eb0d) | feat!: drop legacy top-level glossary path from glossary\_scope\_paths | [sase-ie](README.md) | 2026-08-09 13:28:14 EDT |
