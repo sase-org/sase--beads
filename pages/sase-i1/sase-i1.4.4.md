@@ -13,7 +13,7 @@ land-epic: re-audit the integrated tree, record every follow-up outcome, close s
 
 ## Dependencies
 
-- **Depends on:** [sase-i1.4.3](sase-i1.4.3.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i1.4.3](sase-i1.4.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

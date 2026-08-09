@@ -2,18 +2,22 @@
 
 [Bead Pages](../README.md) / [sase-i1.4](sase-i1.4.md) / sase-i1.4.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-i1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.land/README.md) · **Assignee:** `sase-i1.4.2` · **Size:** medium
-**Created:** 2026-08-09 09:05:34 EDT
+**Created:** 2026-08-09 09:05:34 EDT · **Closed:** 2026-08-09 09:17:49 EDT
 **Plan:** [202608/bead\_search\_regex\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202608/bead_search_regex_landing.md)
 
 ## Description
 
 core-correctness: separate match truth from highlight ranges, restore the cheap literal path, support zero-width regex matches, unify errors, and add Rust tests.
 
+## Notes
+
+[2026-08-09T13:17:49Z · sase-i1.4.2] Verified core commit 49650a0 on origin/master fixes bead search match semantics: literal truth now uses lowercase containment, regex truth uses is_match so zero-width patterns match without empty highlight spans, regex compilation has an explicit size limit, and invalid patterns report Error: invalid search regex across compact/json/full. Ran cargo fmt --all -- --check, cargo clippy --workspace --all-targets -- -D warnings, and cargo test --workspace.
+
 ## Dependencies
 
-- **Blocks:** [sase-i1.4.3](sase-i1.4.3.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i1.4.3](sase-i1.4.3.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

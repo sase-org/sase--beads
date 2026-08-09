@@ -34,9 +34,9 @@ flowchart TD
     n2["sase-i1.2: Adopt the released core in the sase dependency floor [closed]"]
     n3["sase-i1.3: Python CLI flag, rendering, tests, and docs [closed]"]
     n4["sase-i1.4: Finish and land opt-in regex bead search [in_progress]"]
-    n5["sase-i1.4.1: Restore the published binding floor [in_progress]"]
-    n6["sase-i1.4.2: Correct core match semantics and the literal fast path [in_progress]"]
-    n7["sase-i1.4.3: Adopt the corrected core release and verify both lanes [in_progress]"]
+    n5["sase-i1.4.1: Restore the published binding floor [closed]"]
+    n6["sase-i1.4.2: Correct core match semantics and the literal fast path [closed]"]
+    n7["sase-i1.4.3: Adopt the corrected core release and verify both lanes [closed]"]
     n8["sase-i1.4.4: Verify and close epic sase-i1 [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.3/README.md) | [sase-i1.3](sase-i1.3.md) | 1 |
 | [bbugyi200.athena.sase-i1.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.1/README.md) | [sase-i1.4.1](sase-i1.4.1.md) | 0 |
 | [bbugyi200.athena.sase-i1.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.2/README.md) | [sase-i1.4.2](sase-i1.4.2.md) | 1 |
-| [bbugyi200.athena.sase-i1.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.3/README.md) | [sase-i1.4.3](sase-i1.4.3.md) | 0 |
+| [bbugyi200.athena.sase-i1.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.3/README.md) | [sase-i1.4.3](sase-i1.4.3.md) | 1 |
 | [bbugyi200.athena.sase-i1.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.4/README.md) | [sase-i1.4.4](sase-i1.4.4.md) | 0 |
 | [bbugyi200.athena.sase-i1.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.4.land/README.md) | [sase-i1.4](sase-i1.4.md) | 0 |
 | [bbugyi200.athena.sase-i1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.land/README.md) | [sase-i1](README.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | sase-core | [`sase-core@721f20d`](https://github.com/sase-org/sase-core/commit/721f20d7710db7a53d622d1527d5be5d255c68b7) | feat(bead): add regex search support | [sase-i1.1](sase-i1.1.md) | 2026-08-09 08:08:48 EDT |
 | sase | [`a3a536a`](https://github.com/sase-org/sase/commit/a3a536a033daebf647439bde081d7e609a8dc99e) | feat(bead): add regex mode to bead search | [sase-i1.3](sase-i1.3.md) | 2026-08-09 08:46:44 EDT |
 | sase-core | [`sase-core@49650a0`](https://github.com/sase-org/sase-core/commit/49650a074294d9175b9a36f30ee891841ef032cb) | fix(bead): correct regex search match semantics | [sase-i1.4.2](sase-i1.4.2.md) | 2026-08-09 09:14:48 EDT |
+| sase | [`d7e9ae8`](https://github.com/sase-org/sase/commit/d7e9ae8ae5ebcc9b55d68bfa8cc739c4a550a977) | fix(search): require corrected core matcher release | [sase-i1.4.3](sase-i1.4.3.md) | 2026-08-09 10:16:12 EDT |
