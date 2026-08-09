@@ -13,7 +13,7 @@ provider: introduce the three-valued merge-visibility mode, thread it through th
 
 ## Dependencies
 
-- **Depends on:** [sase-i8.2](sase-i8.2.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i8.2](sase-i8.2.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-i8.4](sase-i8.4.md) ◐ · ⧖ 2026-08-09
 
 ## Agents

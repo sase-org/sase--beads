@@ -19,7 +19,7 @@ core: in the sase-core repo, add parent ids to the VCS-log wire, make the pinned
 
 ## Dependencies
 
-- **Blocks:** [sase-i8.2](sase-i8.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i8.2](sase-i8.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
