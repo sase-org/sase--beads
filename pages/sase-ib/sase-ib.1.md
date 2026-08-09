@@ -22,7 +22,7 @@ baseline: build the per-cause suite cost harness (idle vs CPU, app boots, subpro
 - **Blocks:** [sase-ib.2](sase-ib.2.md) ◐ · ⧖ 2026-08-09
 - **Blocks:** [sase-ib.3](sase-ib.3.md) ◐ · ⧖ 2026-08-09
 - **Blocks:** [sase-ib.4](sase-ib.4.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.5](sase-ib.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.5](sase-ib.5.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-ib.6](sase-ib.6.md) ◐ · ⧖ 2026-08-09
 
 ## Agents

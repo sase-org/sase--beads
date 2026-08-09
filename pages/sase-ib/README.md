@@ -19,7 +19,7 @@
 | [sase-ib.2](sase-ib.2.md) | Eliminate idle waiting in ACE TUI tests | ◐ in_progress | large | 2026-08-09 | 1 | 0 |
 | [sase-ib.3](sase-ib.3.md) | Amortize ACE app startup across tests | ◐ in_progress | large | 2026-08-09 | 1 | 0 |
 | [sase-ib.4](sase-ib.4.md) | Cut cross-cutting per-test overhead outside the TUI | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-ib.5](sase-ib.5.md) | Shrink worker memory and collection cost | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-ib.5](sase-ib.5.md) | Shrink worker memory and collection cost | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.6](sase-ib.6.md) | Fair worker allocation when agents run in parallel | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
 | [sase-ib.7](sase-ib.7.md) | Lock in the win with a cost regression gate | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
 
@@ -32,7 +32,7 @@ flowchart TD
     n2["sase-ib.2: Eliminate idle waiting in ACE TUI tests [in_progress]"]
     n3["sase-ib.3: Amortize ACE app startup across tests [in_progress]"]
     n4["sase-ib.4: Cut cross-cutting per-test overhead outside the TUI [closed]"]
-    n5["sase-ib.5: Shrink worker memory and collection cost [in_progress]"]
+    n5["sase-ib.5: Shrink worker memory and collection cost [closed]"]
     n6["sase-ib.6: Fair worker allocation when agents run in parallel [in_progress]"]
     n7["sase-ib.7: Lock in the win with a cost regression gate [in_progress]"]
     n0 --> n1
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ib.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.2.md) | [sase-ib.2](sase-ib.2.md) | 0 |
 | [bbugyi200.athena.sase-ib.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.3/README.md) | [sase-ib.3](sase-ib.3.md) | 0 |
 | [bbugyi200.athena.sase-ib.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.4/README.md) | [sase-ib.4](sase-ib.4.md) | 1 |
-| [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 0 |
+| [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 1 |
 | [bbugyi200.athena.sase-ib.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.6/README.md) | [sase-ib.6](sase-ib.6.md) | 0 |
 | [bbugyi200.athena.sase-ib.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.7/README.md) | [sase-ib.7](sase-ib.7.md) | 0 |
 | [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`b5b5ded`](https://github.com/sase-org/sase/commit/b5b5ded84d919cdd885938bbef4f896ae44a5634) | test: add suite cost attribution lane | [sase-ib.1](sase-ib.1.md) | 2026-08-09 11:23:25 EDT |
 | sase | [`98d9584`](https://github.com/sase-org/sase/commit/98d95848a6d7a8e278ab0686a51aaa9d74c65eb1) | perf: reduce repeated non-TUI test overhead | [sase-ib.4](sase-ib.4.md) | 2026-08-09 12:27:30 EDT |
+| sase | [`35d2d51`](https://github.com/sase-org/sase/commit/35d2d51f9a84d02c75eed244f39e867853520836) | perf: reduce fast test collection footprint | [sase-ib.5](sase-ib.5.md) | 2026-08-09 13:09:23 EDT |
