@@ -20,7 +20,7 @@ ace: highlight glossary aliases and route K and Ctrl+] to project glossary previ
 ## Dependencies
 
 - **Depends on:** [sase-hq.3](sase-hq.3.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hq.6](sase-hq.6.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hq.6](sase-hq.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 

@@ -22,16 +22,17 @@ lsp: expose project glossary aliases through semantic tokens, hover, and go-to-d
 ## Dependencies
 
 - **Depends on:** [sase-hq.3](sase-hq.3.md) ✓ · ⧖ 2026-08-08
-- **Blocks:** [sase-hq.6](sase-hq.6.md) ◐ · ⧖ 2026-08-08
+- **Blocks:** [sase-hq.6](sase-hq.6.md) ✓ · ⧖ 2026-08-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.5/README.md) | [sase-hq.5](sase-hq.5.md) | 1 |
+| [bbugyi200.athena.sase-hq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hq.5/README.md) | [sase-hq.5](sase-hq.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase-core | [`sase-core@943af9b`](https://github.com/sase-org/sase-core/commit/943af9b9d8fab98a44c1f14e392ac84222b100c6) | feat(xprompt-lsp): add glossary semantics | [sase-hq.5](sase-hq.5.md) | 2026-08-08 19:34:09 EDT |
 | sase--agents | [`sase--agents@cc902eb`](https://github.com/sase-org/sase--agents/commit/cc902ebae2d4ba9d607f885ecab20d816d0c6321) | chore(agents): archive prompt for bbugyi200.athena.sase-hq.5 | [sase-hq.5](sase-hq.5.md) | 2026-08-08 19:37:58 EDT |
