@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-ia](README.md) / sase-ia.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.we.f0.w1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.we.f0.w1/README.md) · **Assignee:** `sase-ia.4` · **Size:** medium
-**Created:** 2026-08-09 10:23:44 EDT
+**Created:** 2026-08-09 10:23:44 EDT · **Closed:** 2026-08-09 11:27:03 EDT
 **Plan:** [202608/memory\_config\_section.md](https://github.com/sase-org/sase--plans/blob/main/202608/memory_config_section.md)
 
 ## Description
 
 self-migration: move this repository's own `sase/sase.yml` keys under `memory:`, regenerate memory, and rewrite the configuration/init/memory/xprompt/ace docs to document the canonical paths and the deprecated aliases.
+
+## Notes
+
+[2026-08-09T15:27:03Z · sase-ia.4] Migrated sase/sase.yml to memory.h1_title and memory.glossary; verified generated agent/memory files unchanged via workspace memory init; .venv/bin/sase memory init --check, just docs-check, and just check-full pass; config layers shows local config using memory only.
 
 ## Dependencies
 

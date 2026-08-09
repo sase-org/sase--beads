@@ -18,7 +18,7 @@
 | [sase-ia.1](sase-ia.1.md) | Nested glossary scope diagnostic in sase-core | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-ia.2](sase-ia.2.md) | Config schema, deprecation registry, and packaged defaults | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-ia.3](sase-ia.3.md) | Nested reads with legacy fallback | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-ia.4](sase-ia.4.md) | Migrate sase's own config and documentation | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-ia.4](sase-ia.4.md) | Migrate sase's own config and documentation | ✓ closed | medium | 2026-08-09 | 1 | 0 |
 | [sase-ia.5](sase-ia.5.md) | Migrate downstream repository configs | ✓ closed | small | 2026-08-09 | 1 | 2 |
 
 ## Lineage
@@ -29,7 +29,7 @@ flowchart TD
     n1["sase-ia.1: Nested glossary scope diagnostic in sase-core [closed]"]
     n2["sase-ia.2: Config schema, deprecation registry, and packaged defaults [closed]"]
     n3["sase-ia.3: Nested reads with legacy fallback [closed]"]
-    n4["sase-ia.4: Migrate sase's own config and documentation [in_progress]"]
+    n4["sase-ia.4: Migrate sase's own config and documentation [closed]"]
     n5["sase-ia.5: Migrate downstream repository configs [closed]"]
     n0 --> n1
     n0 --> n2
