@@ -17,7 +17,7 @@
 |---|---|---|---|---|---:|---:|
 | [sase-ib.1](sase-ib.1.md) | Suite cost harness and committed baseline | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.2](sase-ib.2.md) | Eliminate idle waiting in ACE TUI tests | ✓ closed | large | 2026-08-09 | 1 | 1 |
-| [sase-ib.3](sase-ib.3.md) | Amortize ACE app startup across tests | ◐ in_progress | large | 2026-08-09 | 1 | 0 |
+| [sase-ib.3](sase-ib.3.md) | Amortize ACE app startup across tests | ✓ closed | large | 2026-08-09 | 1 | 1 |
 | [sase-ib.4](sase-ib.4.md) | Cut cross-cutting per-test overhead outside the TUI | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.5](sase-ib.5.md) | Shrink worker memory and collection cost | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.6](sase-ib.6.md) | Fair worker allocation when agents run in parallel | ✓ closed | medium | 2026-08-09 | 1 | 1 |
@@ -30,7 +30,7 @@ flowchart TD
     n0["sase-ib: Make `just test` fast under agent contention [in_progress]"]
     n1["sase-ib.1: Suite cost harness and committed baseline [closed]"]
     n2["sase-ib.2: Eliminate idle waiting in ACE TUI tests [closed]"]
-    n3["sase-ib.3: Amortize ACE app startup across tests [in_progress]"]
+    n3["sase-ib.3: Amortize ACE app startup across tests [closed]"]
     n4["sase-ib.4: Cut cross-cutting per-test overhead outside the TUI [closed]"]
     n5["sase-ib.5: Shrink worker memory and collection cost [closed]"]
     n6["sase-ib.6: Fair worker allocation when agents run in parallel [closed]"]
@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-ib.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.1/README.md) | [sase-ib.1](sase-ib.1.md) | 1 |
 | [bbugyi200.athena.sase-ib.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.2.md) | [sase-ib.2](sase-ib.2.md) | 1 |
-| [bbugyi200.athena.sase-ib.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.3.md) | [sase-ib.3](sase-ib.3.md) | 0 |
+| [bbugyi200.athena.sase-ib.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.3.md) | [sase-ib.3](sase-ib.3.md) | 1 |
 | [bbugyi200.athena.sase-ib.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.4/README.md) | [sase-ib.4](sase-ib.4.md) | 1 |
 | [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 1 |
 | [bbugyi200.athena.sase-ib.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.6/README.md) | [sase-ib.6](sase-ib.6.md) | 1 |
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`35d2d51`](https://github.com/sase-org/sase/commit/35d2d51f9a84d02c75eed244f39e867853520836) | perf: reduce fast test collection footprint | [sase-ib.5](sase-ib.5.md) | 2026-08-09 13:09:23 EDT |
 | sase | [`cfe18d7`](https://github.com/sase-org/sase/commit/cfe18d7f0de46080e1a5b9e509845261e543b946) | perf(test): make ACE TUI waits event-driven | [sase-ib.2](sase-ib.2.md) | 2026-08-09 13:22:25 EDT |
 | sase | [`2e55ed3`](https://github.com/sase-org/sase/commit/2e55ed33011088281f658b53978d1a799da209dc) | fix(test): share default pytest worker tokens fairly | [sase-ib.6](sase-ib.6.md) | 2026-08-09 13:49:07 EDT |
+| sase | [`44bf25f`](https://github.com/sase-org/sase/commit/44bf25f84fecc2ee32c0c6fc8cf58a642f0f632b) | perf(ace): amortize ACE test app startup | [sase-ib.3](sase-ib.3.md) | 2026-08-09 14:35:04 EDT |

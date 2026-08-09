@@ -18,7 +18,7 @@ idle: replace the 20ms-granularity CPU-idle heuristic behind every `pilot.pause(
 ## Dependencies
 
 - **Depends on:** [sase-ib.1](sase-ib.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.3](sase-ib.3.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.3](sase-ib.3.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-ib.7](sase-ib.7.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
