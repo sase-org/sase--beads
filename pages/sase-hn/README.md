@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.1/README.md) | [sase-hn.8.1](sase-hn.8.1.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 0 |
-| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 2 |
 | [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
@@ -127,3 +127,4 @@ flowchart TD
 | sase-nvim | [`sase-nvim@ba9bb17`](https://github.com/sase-org/sase-nvim/commit/ba9bb178ef151294e5aa63ee1e2ee110fc348f7d) | test: update xprompt LSP smoke fixtures | [sase-hn.7](sase-hn.7.md) | 2026-08-08 23:57:58 EDT |
 | sase | [`a4a3406`](https://github.com/sase-org/sase/commit/a4a3406795802e77f6d34c3564612f85e891df92) | fix: tighten patch terminology audit classification | [sase-hn.8.1](sase-hn.8.1.md) | 2026-08-09 00:28:33 EDT |
 | sase-core | [`sase-core@3a5753f`](https://github.com/sase-org/sase-core/commit/3a5753ff6e924b223a5e79f0427a8120d734c3fe) | refactor(core): use patch terminology across core docs and internals | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:53:40 EDT |
+| sase-github | [`sase-github@e79c33b`](https://github.com/sase-org/sase-github/commit/e79c33b231d72605957f793fb6a338c910913af0) | docs: mark github plugin patch compatibility boundaries | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:55:34 EDT |
