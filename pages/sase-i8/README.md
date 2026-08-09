@@ -23,7 +23,7 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 | [sase-i8.2](sase-i8.2.md) | Python wire mirror and skew probes | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-i8.3](sase-i8.3.md) | Provider-level merge visibility | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-i8.4](sase-i8.4.md) | Collection models and the merges query key | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-i8.5](sase-i8.5.md) | Marking merges in every renderer | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-i8.5](sase-i8.5.md) | Marking merges in every renderer | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-i8.6](sase-i8.6.md) | sase vcs log --merges and documentation | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-i8.7](sase-i8.7.md) | ACE Commits pane merge affordances | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
 | [sase-i8.8](sase-i8.8.md) | Raise the sase-core-rs dependency window | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
@@ -38,7 +38,7 @@ flowchart TD
     n2["sase-i8.2: Python wire mirror and skew probes [closed]"]
     n3["sase-i8.3: Provider-level merge visibility [closed]"]
     n4["sase-i8.4: Collection models and the merges query key [closed]"]
-    n5["sase-i8.5: Marking merges in every renderer [in_progress]"]
+    n5["sase-i8.5: Marking merges in every renderer [closed]"]
     n6["sase-i8.6: sase vcs log --merges and documentation [closed]"]
     n7["sase-i8.7: ACE Commits pane merge affordances [in_progress]"]
     n8["sase-i8.8: Raise the sase-core-rs dependency window [in_progress]"]
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.2/README.md) | [sase-i8.2](sase-i8.2.md) | 1 |
 | [bbugyi200.athena.sase-i8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.3/README.md) | [sase-i8.3](sase-i8.3.md) | 1 |
 | [bbugyi200.athena.sase-i8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.4/README.md) | [sase-i8.4](sase-i8.4.md) | 1 |
-| [bbugyi200.athena.sase-i8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.5/README.md) | [sase-i8.5](sase-i8.5.md) | 0 |
+| [bbugyi200.athena.sase-i8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.5/README.md) | [sase-i8.5](sase-i8.5.md) | 1 |
 | [bbugyi200.athena.sase-i8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.6/README.md) | [sase-i8.6](sase-i8.6.md) | 1 |
 | [bbugyi200.athena.sase-i8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.7/README.md) | [sase-i8.7](sase-i8.7.md) | 0 |
 | [bbugyi200.athena.sase-i8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.8/README.md) | [sase-i8.8](sase-i8.8.md) | 0 |
@@ -87,3 +87,4 @@ flowchart TD
 | sase | [`c58a0df`](https://github.com/sase-org/sase/commit/c58a0dfb6cf32188b5fb1ae166661f4abcda7dea) | feat(vcs): add merge visibility to provider logs | [sase-i8.3](sase-i8.3.md) | 2026-08-09 12:16:13 EDT |
 | sase | [`8795cd2`](https://github.com/sase-org/sase/commit/8795cd2b2309c4d384a6f6ba40d727cee6e14e21) | feat(vcs-log): add merge visibility filters | [sase-i8.4](sase-i8.4.md) | 2026-08-09 13:18:14 EDT |
 | sase | [`f62a046`](https://github.com/sase-org/sase/commit/f62a046073876b8e09a2f6128318ffece9273aa1) | feat(vcs): add merge filtering to log command | [sase-i8.6](sase-i8.6.md) | 2026-08-09 13:42:53 EDT |
+| sase | [`77ee670`](https://github.com/sase-org/sase/commit/77ee67052e418c7825249cb95ca1f32fe55f6b40) | feat(vcs-log): mark merge commits in renderers | [sase-i8.5](sase-i8.5.md) | 2026-08-09 13:47:40 EDT |
