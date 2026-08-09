@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.1/README.md) | [sase-i3.1](sase-i3.1.md) | 1 |
 | [bbugyi200.athena.sase-i3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.2/README.md) | [sase-i3.2](sase-i3.2.md) | 0 |
 | [bbugyi200.athena.sase-i3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i3.3/README.md) | [sase-i3.3](sase-i3.3.md) | 1 |
-| [bbugyi200.athena.sase-i3.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-i3.land.md) | [sase-i3](README.md) | 2 |
+| [bbugyi200.athena.sase-i3.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-i3.land.md) | [sase-i3](README.md) | 3 |
 
 ## Commits
 
@@ -57,3 +57,4 @@ flowchart TD
 | sase | [`b736093`](https://github.com/sase-org/sase/commit/b73609337d9bd1e7be6184bd4cd97f16cb342683) | feat(glossary): render core display aliases | [sase-i3.3](sase-i3.3.md) | 2026-08-09 09:20:30 EDT |
 | sase-core | [`sase-core@a717c60`](https://github.com/sase-org/sase-core/commit/a717c6087982ac0dd2ca27af686740b958ed1e41) | docs(glossary): document plural alias release note | [sase-i3](README.md) | 2026-08-09 09:46:21 EDT |
 | sase | [`a764618`](https://github.com/sase-org/sase/commit/a76461812e1fdf1a6661dbb790bd8fc54ed95300) | test(glossary): include display aliases in prompt fixture | [sase-i3](README.md) | 2026-08-09 09:50:01 EDT |
+| sase--plans | [`sase--plans@8aaeb59`](https://github.com/sase-org/sase--plans/commit/8aaeb593e283543a7a92eb804a02c32f183e3b0c) | docs(plan): mark glossary alias plural plan done | [sase-i3](README.md) | 2026-08-09 09:51:34 EDT |
