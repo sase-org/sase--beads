@@ -26,4 +26,10 @@ tui-config-surface: present Patches and stitches throughout ACE and normalize le
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 0 |
+| [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c7026e5`](https://github.com/sase-org/sase/commit/c7026e50ef202e6d4dd63d8001af9d0c55ba4cdd) | feat(tui): rename ACE patch surface | [sase-hn.4](sase-hn.4.md) | 2026-08-08 21:48:53 EDT |
