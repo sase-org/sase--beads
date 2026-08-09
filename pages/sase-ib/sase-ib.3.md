@@ -21,4 +21,4 @@ boot: cut the cost of one ACE app boot and add a supported way for a group of te
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ib.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.3/README.md) | [sase-ib.3](sase-ib.3.md) | 0 |
+| [bbugyi200.athena.sase-ib.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ib.3.md) | [sase-ib.3](sase-ib.3.md) | 0 |
