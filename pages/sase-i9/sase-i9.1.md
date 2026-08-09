@@ -22,7 +22,7 @@ timings: record per-command and per-step wall-clock durations in the dev-update 
 ## Dependencies
 
 - **Blocks:** [sase-i9.2](sase-i9.2.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i9.5](sase-i9.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i9.5](sase-i9.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

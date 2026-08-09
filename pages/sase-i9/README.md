@@ -42,7 +42,7 @@ Reported by sase-ia.land while landing epic sase-ia; not caused by that epic.
 | [sase-i9.2](sase-i9.2.md) | Build the Rust core and LSP in one feature-unified cargo invocation | ✓ closed | medium | 2026-08-09 | 1 | 2 |
 | [sase-i9.3](sase-i9.3.md) | Add a fast dev-update cargo profile | ✓ closed | medium | 2026-08-09 | 1 | 2 |
 | [sase-i9.4](sase-i9.4.md) | Prebuild Rust artifacts off the interactive path | ✓ closed | large | 2026-08-09 | 1 | 1 |
-| [sase-i9.5](sase-i9.5.md) | End-to-end verification and documentation | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
+| [sase-i9.5](sase-i9.5.md) | End-to-end verification and documentation | ✓ closed | small | 2026-08-09 | 1 | 1 |
 
 ## Lineage
 
@@ -53,7 +53,7 @@ flowchart TD
     n2["sase-i9.2: Build the Rust core and LSP in one feature-unified cargo invocation [closed]"]
     n3["sase-i9.3: Add a fast dev-update cargo profile [closed]"]
     n4["sase-i9.4: Prebuild Rust artifacts off the interactive path [closed]"]
-    n5["sase-i9.5: End-to-end verification and documentation [in_progress]"]
+    n5["sase-i9.5: End-to-end verification and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.2/README.md) | [sase-i9.2](sase-i9.2.md) | 2 |
 | [bbugyi200.athena.sase-i9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.3/README.md) | [sase-i9.3](sase-i9.3.md) | 2 |
 | [bbugyi200.athena.sase-i9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-i9.4.md) | [sase-i9.4](sase-i9.4.md) | 1 |
-| [bbugyi200.athena.sase-i9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.5/README.md) | [sase-i9.5](sase-i9.5.md) | 0 |
+| [bbugyi200.athena.sase-i9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.5/README.md) | [sase-i9.5](sase-i9.5.md) | 1 |
 | [bbugyi200.athena.sase-i9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.land/README.md) | [sase-i9](README.md) | 0 |
 
 ## Commits
@@ -90,3 +90,4 @@ flowchart TD
 | sase-core | [`sase-core@d6e3ea2`](https://github.com/sase-org/sase-core/commit/d6e3ea299f9ddfe2412fb11571c241f66712fb5d) | perf: add dev-update cargo profile | [sase-i9.3](sase-i9.3.md) | 2026-08-09 12:47:51 EDT |
 | sase | [`2bb7ce4`](https://github.com/sase-org/sase/commit/2bb7ce46382ffa040a621bd9b7bb3258165da4f3) | perf: use dev-update profile for rust updates | [sase-i9.3](sase-i9.3.md) | 2026-08-09 12:49:48 EDT |
 | sase | [`9bce277`](https://github.com/sase-org/sase/commit/9bce277c942cc10009b984f1cc309920a36c29a6) | feat: add Rust prebuild cache | [sase-i9.4](sase-i9.4.md) | 2026-08-09 13:51:42 EDT |
+| sase | [`4f54489`](https://github.com/sase-org/sase/commit/4f54489af3bd33d069d2ce1a7cd22039844b2822) | test(dev-update): cover prebuild refusal while update writer lock is held | [sase-i9.5](sase-i9.5.md) | 2026-08-09 17:05:17 EDT |
