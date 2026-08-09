@@ -15,7 +15,7 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-il.1](sase-il.1.md) | Robust long-note parent support | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-il.1](sase-il.1.md) | Robust long-note parent support | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-il.2](sase-il.2.md) | Generated sase\_sizes.md memory note | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
 | [sase-il.3](sase-il.3.md) | Required tale size in sase-core | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
 | [sase-il.4](sase-il.4.md) | Adopt tale size in sase | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
@@ -27,7 +27,7 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 ```mermaid
 flowchart TD
     n0["sase-il: Canonical sase-size memory and size-driven agent routing [in_progress]"]
-    n1["sase-il.1: Robust long-note parent support [in_progress]"]
+    n1["sase-il.1: Robust long-note parent support [closed]"]
     n2["sase-il.2: Generated sase_sizes.md memory note [in_progress]"]
     n3["sase-il.3: Required tale size in sase-core [in_progress]"]
     n4["sase-il.4: Adopt tale size in sase [in_progress]"]
@@ -49,7 +49,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-il.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.1/README.md) | [sase-il.1](sase-il.1.md) | 0 |
+| [bbugyi200.athena.sase-il.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.1/README.md) | [sase-il.1](sase-il.1.md) | 1 |
 | [bbugyi200.athena.sase-il.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.2/README.md) | [sase-il.2](sase-il.2.md) | 0 |
 | [bbugyi200.athena.sase-il.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.3/README.md) | [sase-il.3](sase-il.3.md) | 0 |
 | [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 0 |
@@ -62,3 +62,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2f71b6b`](https://github.com/sase-org/sase/commit/2f71b6bc4d5ee19ea44bc7afbad605bc99abe7d5) | test: cover plan handoff in task launch path | [sase-il.6](sase-il.6.md) | 2026-08-09 17:26:10 EDT |
+| sase | [`f21c8d8`](https://github.com/sase-org/sase/commit/f21c8d8504cb60788aba13dcb4c0f28081662c3b) | feat(memory): support long-note parent metadata | [sase-il.1](sase-il.1.md) | 2026-08-09 17:34:01 EDT |
