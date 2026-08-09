@@ -19,7 +19,7 @@ core-scope: teach the Rust config provenance pass to diagnose a non-local `memor
 
 ## Dependencies
 
-- **Blocks:** [sase-ia.2](sase-ia.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ia.2](sase-ia.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

@@ -13,7 +13,7 @@ self-migration: move this repository's own `sase/sase.yml` keys under `memory:`,
 
 ## Dependencies
 
-- **Depends on:** [sase-ia.2](sase-ia.2.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-ia.2](sase-ia.2.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ia.3](sase-ia.3.md) ◐ · ⧖ 2026-08-09
 
 ## Agents
