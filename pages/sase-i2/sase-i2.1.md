@@ -17,6 +17,8 @@ ace: add the additive underline to the `glossary.term` text-area style, neutrali
 
 [2026-08-09T12:27:02Z · sase-i2.1] Verified just install; just install-visual; focused ACE widget tests passed; just fmt; just test-visual passed (571 passed, 1 skipped); just check passed with scoped lane escalation to full non-visual tests.
 
+[2026-08-09T12:39:23Z · sase-i2.1] PROPOSED FOLLOW-UP: dismissed bundle index schema migration — stale index.sqlite files without the meta_patch column break agent sync/commit publication until the cache is manually reset; bump or validate the schema so rebuild self-heals.
+
 ## Agents
 
 | Agent | Bead | Commits |

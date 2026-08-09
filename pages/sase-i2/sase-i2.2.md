@@ -25,10 +25,11 @@ editor: give sase-nvim an overridable `SaseGlossaryTerm` underline applied to th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-i2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.2/README.md) | [sase-i2.2](sase-i2.2.md) | 1 |
+| [bbugyi200.athena.sase-i2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.2/README.md) | [sase-i2.2](sase-i2.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a787f36`](https://github.com/sase-org/sase/commit/a787f36fa5024267cfafb75381ef89a3d574b810) | docs(editor): document glossary semantic token styling | [sase-i2.2](sase-i2.2.md) | 2026-08-09 08:18:32 EDT |
+| sase-nvim | [`sase-nvim@13ae8e5`](https://github.com/sase-org/sase-nvim/commit/13ae8e5036d9f76fc5c687c7c6fe77a120cdcf2b) | feat: underline glossary semantic tokens | [sase-i2.2](sase-i2.2.md) | 2026-08-09 08:21:22 EDT |
