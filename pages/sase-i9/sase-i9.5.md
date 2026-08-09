@@ -14,7 +14,7 @@ verify: measure the real `,U` flow against the phase-one baseline, re-exercise e
 ## Dependencies
 
 - **Depends on:** [sase-i9.1](sase-i9.1.md) ✓ · ⧖ 2026-08-09
-- **Depends on:** [sase-i9.2](sase-i9.2.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i9.2](sase-i9.2.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-i9.3](sase-i9.3.md) ◐ · ⧖ 2026-08-09
 - **Depends on:** [sase-i9.4](sase-i9.4.md) ◐ · ⧖ 2026-08-09
 
