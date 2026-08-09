@@ -17,9 +17,11 @@ core: add a shared bead query matcher to sase-core, thread an opt-in `regex` arg
 
 [2026-08-09T11:57:21Z · sase-i1.1] Verified cargo fmt --all -- --check, cargo clippy --workspace --all-targets -- -D warnings, and cargo test --workspace in linked sase-core
 
+[2026-08-09T12:14:12Z · sase-i1.1] PROPOSED FOLLOW-UP: Fix sase commit resume publication after successful primary commits — `sase_git_commit --resume` and `sase commit --resume` both report `No item with that key` even though the linked repo commit reached origin/master.
+
 ## Dependencies
 
-- **Blocks:** [sase-i1.2](sase-i1.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i1.2](sase-i1.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

@@ -16,8 +16,8 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-i1.1](sase-i1.1.md) | Rust core regex matcher and fast-path flag | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-i1.2](sase-i1.2.md) | Adopt the released core in the sase dependency floor | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
-| [sase-i1.3](sase-i1.3.md) | Python CLI flag, rendering, tests, and docs | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-i1.2](sase-i1.2.md) | Adopt the released core in the sase dependency floor | ✓ closed | small | 2026-08-09 | 1 | 0 |
+| [sase-i1.3](sase-i1.3.md) | Python CLI flag, rendering, tests, and docs | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 
 ## Lineage
 
@@ -25,8 +25,8 @@
 flowchart TD
     n0["sase-i1: Opt-in regex mode for sase bead search [in_progress]"]
     n1["sase-i1.1: Rust core regex matcher and fast-path flag [closed]"]
-    n2["sase-i1.2: Adopt the released core in the sase dependency floor [in_progress]"]
-    n3["sase-i1.3: Python CLI flag, rendering, tests, and docs [in_progress]"]
+    n2["sase-i1.2: Adopt the released core in the sase dependency floor [closed]"]
+    n3["sase-i1.3: Python CLI flag, rendering, tests, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-i1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.1/README.md) | [sase-i1.1](sase-i1.1.md) | 1 |
 | [bbugyi200.athena.sase-i1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.2/README.md) | [sase-i1.2](sase-i1.2.md) | 0 |
-| [bbugyi200.athena.sase-i1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.3/README.md) | [sase-i1.3](sase-i1.3.md) | 0 |
+| [bbugyi200.athena.sase-i1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.3/README.md) | [sase-i1.3](sase-i1.3.md) | 1 |
 | [bbugyi200.athena.sase-i1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i1.land/README.md) | [sase-i1](README.md) | 0 |
 
 ## Commits
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@721f20d`](https://github.com/sase-org/sase-core/commit/721f20d7710db7a53d622d1527d5be5d255c68b7) | feat(bead): add regex search support | [sase-i1.1](sase-i1.1.md) | 2026-08-09 08:08:48 EDT |
+| sase | [`a3a536a`](https://github.com/sase-org/sase/commit/a3a536a033daebf647439bde081d7e609a8dc99e) | feat(bead): add regex mode to bead search | [sase-i1.3](sase-i1.3.md) | 2026-08-09 08:46:44 EDT |
