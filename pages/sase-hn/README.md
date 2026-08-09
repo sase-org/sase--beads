@@ -39,9 +39,9 @@ commit.message.require_conventional_subject to get past this check.. While commi
 | [sase-hn.2](sase-hn.2.md) | Migrate the Python domain and ProjectSpec storage layer | ✓ closed | large | 2026-08-08 | 1 | 2 |
 | [sase-hn.3](sase-hn.3.md) | Rename workflow, automation, CLI, and metadata contracts | ✓ closed | large | 2026-08-08 | 1 | 1 |
 | [sase-hn.4](sase-hn.4.md) | Rename the ACE TUI and configuration surface | ✓ closed | large | 2026-08-08 | 1 | 2 |
-| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ✓ closed | medium | 2026-08-08 | 1 | 3 |
-| [sase-hn.6](sase-hn.6.md) | Update documentation, glossary, demos, and generated-skill sources | ✓ closed | medium | 2026-08-08 | 1 | 2 |
-| [sase-hn.7](sase-hn.7.md) | Reconcile compatibility and verify the complete rename | ✓ closed | large | 2026-08-08 | 1 | 2 |
+| [sase-hn.5](sase-hn.5.md) | Update linked GitHub, Telegram, and Neovim integrations | ✓ closed | medium | 2026-08-08 | 1 | 0 |
+| [sase-hn.6](sase-hn.6.md) | Update documentation, glossary, demos, and generated-skill sources | ✓ closed | medium | 2026-08-08 | 1 | 1 |
+| [sase-hn.7](sase-hn.7.md) | Reconcile compatibility and verify the complete rename | ✓ closed | large | 2026-08-08 | 1 | 1 |
 
 ## Lineage
 
@@ -58,7 +58,7 @@ flowchart TD
     n8["sase-hn.8: Finish the Patch/stitch terminology migration and land epic sase-hn [in_progress]"]
     n9["sase-hn.8.1: Make the terminology audit content-aware [closed]"]
     n10["sase-hn.8.2: Sweep the ACE surface [in_progress]"]
-    n11["sase-hn.8.3: Sweep workflows, CLI, and the remaining source tree [in_progress]"]
+    n11["sase-hn.8.3: Sweep workflows, CLI, and the remaining source tree [closed]"]
     n12["sase-hn.8.4: Sweep the Rust core and linked integrations [closed]"]
     n13["sase-hn.8.5: Verify and land epic sase-hn [in_progress]"]
     n0 --> n1
@@ -97,13 +97,13 @@ flowchart TD
 | [bbugyi200.athena.sase-hn.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.2.md) | [sase-hn.2](sase-hn.2.md) | 1 |
 | [bbugyi200.athena.sase-hn.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.3.md) | [sase-hn.3](sase-hn.3.md) | 1 |
 | [bbugyi200.athena.sase-hn.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.4.md) | [sase-hn.4](sase-hn.4.md) | 2 |
-| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 3 |
-| [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 2 |
-| [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.7.md) | [sase-hn.7](sase-hn.7.md) | 2 |
+| [bbugyi200.athena.sase-hn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.5/README.md) | [sase-hn.5](sase-hn.5.md) | 0 |
+| [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 1 |
+| [bbugyi200.athena.sase-hn.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.7.md) | [sase-hn.7](sase-hn.7.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.1/README.md) | [sase-hn.8.1](sase-hn.8.1.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 0 |
-| [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 0 |
-| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 4 |
+| [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 1 |
+| [bbugyi200.athena.sase-hn.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.4/README.md) | [sase-hn.8.4](sase-hn.8.4.md) | 1 |
 | [bbugyi200.athena.sase-hn.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.5/README.md) | [sase-hn.8.5](sase-hn.8.5.md) | 0 |
 | [bbugyi200.athena.sase-hn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.land/README.md) | [sase-hn.8](sase-hn.8.md) | 0 |
 | [bbugyi200.athena.sase-hn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.land/README.md) | [sase-hn](README.md) | 0 |
@@ -116,17 +116,10 @@ flowchart TD
 | sase | [`3e6da8d`](https://github.com/sase-org/sase/commit/3e6da8d5fb1b7d4887b8f78cfce863d702fa1fb7) | feat: Migrate the Python domain and ProjectSpec storage layer (sase-hn.2) | [sase-hn.2](sase-hn.2.md) | 2026-08-08 15:28:09 EDT |
 | sase | [`6367ef3`](https://github.com/sase-org/sase/commit/6367ef34734011e7ebe37885b7bf074260627412) | refactor(patch): canonicalize Python patch storage | [sase-hn.2](sase-hn.2.md) | 2026-08-08 17:04:42 EDT |
 | sase | [`d9e11c7`](https://github.com/sase-org/sase/commit/d9e11c78673a1ec6255f5d9bd85e977534f9315b) | feat: add canonical patch workflow contracts | [sase-hn.3](sase-hn.3.md) | 2026-08-08 18:30:49 EDT |
-| sase-github | [`sase-github@bc4fec5`](https://github.com/sase-org/sase-github/commit/bc4fec5d436853eb9b839339d855093d13ce83aa) | feat: adopt Patch terminology in GitHub integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:03:55 EDT |
-| sase-nvim | [`sase-nvim@d0bb0e2`](https://github.com/sase-org/sase-nvim/commit/d0bb0e22568f1e82f2c850ce807141f89f653e88) | feat: support Patch completion rows in Neovim | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:06:30 EDT |
-| sase-telegram | [`sase-telegram@3c4f20d`](https://github.com/sase-org/sase-telegram/commit/3c4f20d7dd1ee333bb5cb2fce4e53802bfb486e5) | feat: show Patch terminology in Telegram integration | [sase-hn.5](sase-hn.5.md) | 2026-08-08 19:07:49 EDT |
 | sase-core | [`sase-core@984033d`](https://github.com/sase-org/sase-core/commit/984033d676a7a7e10b35bfab7a44ee9d919a9fa3) | feat(core): accept canonical patch completion metadata | [sase-hn.4](sase-hn.4.md) | 2026-08-08 21:45:55 EDT |
 | sase | [`c7026e5`](https://github.com/sase-org/sase/commit/c7026e50ef202e6d4dd63d8001af9d0c55ba4cdd) | feat(tui): rename ACE patch surface | [sase-hn.4](sase-hn.4.md) | 2026-08-08 21:48:53 EDT |
 | sase | [`2634fb4`](https://github.com/sase-org/sase/commit/2634fb4759db483a1374a4b87332c88e7270e3ec) | feat: adopt Patch terminology across docs and skills | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:32:55 EDT |
-| chezmoi | [`chezmoi@e451322`](https://github.com/bbugyi200/dotfiles/commit/e451322fd8957933b26790cbd7dde246c4d2585b) | chore: update SASE snippets for Patch terminology | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:34:23 EDT |
 | sase | [`db632d7`](https://github.com/sase-org/sase/commit/db632d7fda78ae7d2ebc9a209e057d60943638c3) | feat: audit Patch/stitch compatibility terminology | [sase-hn.7](sase-hn.7.md) | 2026-08-08 23:56:21 EDT |
-| sase-nvim | [`sase-nvim@ba9bb17`](https://github.com/sase-org/sase-nvim/commit/ba9bb178ef151294e5aa63ee1e2ee110fc348f7d) | test: update xprompt LSP smoke fixtures | [sase-hn.7](sase-hn.7.md) | 2026-08-08 23:57:58 EDT |
 | sase | [`a4a3406`](https://github.com/sase-org/sase/commit/a4a3406795802e77f6d34c3564612f85e891df92) | fix: tighten patch terminology audit classification | [sase-hn.8.1](sase-hn.8.1.md) | 2026-08-09 00:28:33 EDT |
-| sase-core | [`sase-core@3a5753f`](https://github.com/sase-org/sase-core/commit/3a5753ff6e924b223a5e79f0427a8120d734c3fe) | refactor(core): use patch terminology across core docs and internals | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:53:40 EDT |
-| sase-github | [`sase-github@e79c33b`](https://github.com/sase-org/sase-github/commit/e79c33b231d72605957f793fb6a338c910913af0) | docs: mark github plugin patch compatibility boundaries | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:55:34 EDT |
-| sase-telegram | [`sase-telegram@f64ba07`](https://github.com/sase-org/sase-telegram/commit/f64ba07b8a66aaa650bd6992c69b2a6d9db9552a) | test: update telegram patch terminology fixtures | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:56:45 EDT |
 | sase | [`8651758`](https://github.com/sase-org/sase/commit/865175867ad8b505ed867de9e28254129ca85a8c) | test: update patch terminology audit expectations | [sase-hn.8.4](sase-hn.8.4.md) | 2026-08-09 01:58:04 EDT |
+| sase | [`77d18c3`](https://github.com/sase-org/sase/commit/77d18c3e1456e03944278b8d34e030bca7838200) | feat(cli): adopt Patch terminology across workflows | [sase-hn.8.3](sase-hn.8.3.md) | 2026-08-09 02:16:28 EDT |

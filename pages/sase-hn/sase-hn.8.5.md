@@ -14,7 +14,7 @@ land-epic: run the full cross-repository verification set, enforce the audit as 
 ## Dependencies
 
 - **Depends on:** [sase-hn.8.2](sase-hn.8.2.md) ◐ · ⧖ 2026-08-09
-- **Depends on:** [sase-hn.8.3](sase-hn.8.3.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-hn.8.3](sase-hn.8.3.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-hn.8.4](sase-hn.8.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
