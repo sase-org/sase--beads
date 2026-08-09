@@ -20,7 +20,7 @@ read-sites: add one shared glossary-location resolver, read `memory.h1_title` an
 ## Dependencies
 
 - **Blocks:** [sase-ia.4](sase-ia.4.md) ◐ · ⧖ 2026-08-09
-- **Blocks:** [sase-ia.5](sase-ia.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ia.5](sase-ia.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

@@ -19,7 +19,7 @@ config-surface: add the `memory` object with `h1_title` and `glossary` to sase.s
 
 - **Depends on:** [sase-ia.1](sase-ia.1.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-ia.4](sase-ia.4.md) ◐ · ⧖ 2026-08-09
-- **Blocks:** [sase-ia.5](sase-ia.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ia.5](sase-ia.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
