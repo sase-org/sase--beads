@@ -31,10 +31,11 @@ docs-memory-skills: rewrite maintained explanatory surfaces, regenerate memory s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 1 |
+| [bbugyi200.athena.sase-hn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.6/README.md) | [sase-hn.6](sase-hn.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2634fb4`](https://github.com/sase-org/sase/commit/2634fb4759db483a1374a4b87332c88e7270e3ec) | feat: adopt Patch terminology across docs and skills | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:32:55 EDT |
+| chezmoi | [`chezmoi@e451322`](https://github.com/bbugyi200/dotfiles/commit/e451322fd8957933b26790cbd7dde246c4d2585b) | chore: update SASE snippets for Patch terminology | [sase-hn.6](sase-hn.6.md) | 2026-08-08 22:34:23 EDT |
