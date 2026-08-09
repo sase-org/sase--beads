@@ -15,15 +15,15 @@ A matched project glossary term reads as a definable link everywhere SASE render
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-i2.1](sase-i2.1.md) | Underline glossary matches in the ACE prompt input | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
-| [sase-i2.2](sase-i2.2.md) | Underline glossary semantic tokens in LSP-backed editors | ✓ closed | medium | 2026-08-09 | 1 | 2 |
+| [sase-i2.1](sase-i2.1.md) | Underline glossary matches in the ACE prompt input | ✓ closed | medium | 2026-08-09 | 1 | 1 |
+| [sase-i2.2](sase-i2.2.md) | Underline glossary semantic tokens in LSP-backed editors | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-i2: Underline glossary terms in ACE prompts and in LSP-backed editors [in_progress]"]
-    n1["sase-i2.1: Underline glossary matches in the ACE prompt input [in_progress]"]
+    n1["sase-i2.1: Underline glossary matches in the ACE prompt input [closed]"]
     n2["sase-i2.2: Underline glossary semantic tokens in LSP-backed editors [closed]"]
     n0 --> n1
     n0 --> n2
@@ -33,8 +33,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-i2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.1/README.md) | [sase-i2.1](sase-i2.1.md) | 0 |
-| [bbugyi200.athena.sase-i2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.2/README.md) | [sase-i2.2](sase-i2.2.md) | 2 |
+| [bbugyi200.athena.sase-i2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.1/README.md) | [sase-i2.1](sase-i2.1.md) | 1 |
+| [bbugyi200.athena.sase-i2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.2/README.md) | [sase-i2.2](sase-i2.2.md) | 1 |
 | [bbugyi200.athena.sase-i2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i2.land/README.md) | [sase-i2](README.md) | 0 |
 
 ## Commits
@@ -42,4 +42,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a787f36`](https://github.com/sase-org/sase/commit/a787f36fa5024267cfafb75381ef89a3d574b810) | docs(editor): document glossary semantic token styling | [sase-i2.2](sase-i2.2.md) | 2026-08-09 08:18:32 EDT |
-| sase-nvim | [`sase-nvim@13ae8e5`](https://github.com/sase-org/sase-nvim/commit/13ae8e5036d9f76fc5c687c7c6fe77a120cdcf2b) | feat: underline glossary semantic tokens | [sase-i2.2](sase-i2.2.md) | 2026-08-09 08:21:22 EDT |
+| sase | [`c2c8e88`](https://github.com/sase-org/sase/commit/c2c8e883d21188af90675ceae3631a16a64eaae5) | feat(ace): underline glossary terms in prompt | [sase-i2.1](sase-i2.1.md) | 2026-08-09 08:28:23 EDT |
