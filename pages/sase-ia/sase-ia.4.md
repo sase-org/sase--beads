@@ -15,6 +15,8 @@ self-migration: move this repository's own `sase/sase.yml` keys under `memory:`,
 
 [2026-08-09T15:27:03Z · sase-ia.4] Migrated sase/sase.yml to memory.h1_title and memory.glossary; verified generated agent/memory files unchanged via workspace memory init; .venv/bin/sase memory init --check, just docs-check, and just check-full pass; config layers shows local config using memory only.
 
+[2026-08-09T15:28:21Z · sase-ia.4] Verified nested memory config migration, strict docs build, full repo checks, memory init no-drift check, and config layers output.
+
 ## Dependencies
 
 - **Depends on:** [sase-ia.2](sase-ia.2.md) ✓ · ⧖ 2026-08-09
@@ -24,4 +26,10 @@ self-migration: move this repository's own `sase/sase.yml` keys under `memory:`,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ia.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.4/README.md) | [sase-ia.4](sase-ia.4.md) | 0 |
+| [bbugyi200.athena.sase-ia.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.4/README.md) | [sase-ia.4](sase-ia.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b0a77ac`](https://github.com/sase-org/sase/commit/b0a77aca283fa5708fb9f68c5f46d9fb16b73b1e) | chore(memory): migrate project config to nested memory keys | [sase-ia.4](sase-ia.4.md) | 2026-08-09 11:29:51 EDT |

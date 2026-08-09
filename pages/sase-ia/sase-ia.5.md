@@ -28,11 +28,4 @@ downstream-repos: migrate the bob-cli project config and the chezmoi user overla
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ia.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.5/README.md) | [sase-ia.5](sase-ia.5.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@6a8d49c`](https://github.com/bbugyi200/dotfiles/commit/6a8d49c9f692280a2bd2c0abd45cf3ad5df8d465) | feat(config): nest amd\_h1\_title under memory.h1\_title in athena config | [sase-ia.5](sase-ia.5.md) | 2026-08-09 11:20:42 EDT |
-| sase-nvim | [`sase-nvim@5c1b032`](https://github.com/sase-org/sase-nvim/commit/5c1b032ee9a3de772f50e8e0c7584368e65f3b6e) | docs: update glossary smoke-check to reference nested memory.glossary key | [sase-ia.5](sase-ia.5.md) | 2026-08-09 11:23:09 EDT |
+| [bbugyi200.athena.sase-ia.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.5/README.md) | [sase-ia.5](sase-ia.5.md) | 0 |
