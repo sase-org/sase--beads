@@ -20,7 +20,7 @@ ace-surface: retire ChangeSpec vocabulary from ACE console output, toasts, TUI l
 ## Dependencies
 
 - **Depends on:** [sase-hn.8.1](sase-hn.8.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-hn.8.5](sase-hn.8.5.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-hn.8.5](sase-hn.8.5.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
