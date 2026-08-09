@@ -20,7 +20,7 @@ render: give merges a dedicated accent, a reserved marker column that costs noth
 ## Dependencies
 
 - **Depends on:** [sase-i8.4](sase-i8.4.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i8.7](sase-i8.7.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i8.7](sase-i8.7.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
