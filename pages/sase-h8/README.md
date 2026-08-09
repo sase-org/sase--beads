@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-h8.10.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.1/README.md) | [sase-h8.10.5.1](sase-h8.10.5.1.md) | 1 |
 | [bbugyi200.athena.sase-h8.10.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.2/README.md) | [sase-h8.10.5.2](sase-h8.10.5.2.md) | 2 |
 | [bbugyi200.athena.sase-h8.10.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.5.3/README.md) | [sase-h8.10.5.3](sase-h8.10.5.3.md) | 1 |
-| [bbugyi200.athena.sase-h8.10.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h8.10.5.land.md) | [sase-h8.10.5](sase-h8.10.5.md) | 1 |
+| [bbugyi200.athena.sase-h8.10.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-h8.10.5.land.md) | [sase-h8.10.5](sase-h8.10.5.md) | 2 |
 | [bbugyi200.athena.sase-h8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.10.land/README.md) | [sase-h8.10](sase-h8.10.md) | 0 |
 | [bbugyi200.athena.sase-h8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.2/README.md) | [sase-h8.2](sase-h8.2.md) | 1 |
 | [bbugyi200.athena.sase-h8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-h8.3/README.md) | [sase-h8.3](sase-h8.3.md) | 0 |
@@ -170,3 +170,4 @@ flowchart TD
 | sase | [`38fd25a`](https://github.com/sase-org/sase/commit/38fd25afdcda3481debf5324697ebf034eed62dd) | test: replace contract runtime oracle with manifest budget | [sase-h8.10.5.1](sase-h8.10.5.1.md) | 2026-08-08 14:02:05 EDT |
 | sase | [`607b72b`](https://github.com/sase-org/sase/commit/607b72bb0d9492cc184da022a5305748360aa96a) | test: bump flake-baseline cutoff past fixed historical xprompt records | [sase-h8.10.5.3](sase-h8.10.5.3.md) | 2026-08-08 17:27:22 EDT |
 | sase | [`aeab1cb`](https://github.com/sase-org/sase/commit/aeab1cb9cc11033a5c1c57c09bbf49f1ca14ceb4) | test(tui): update artifact ref highlight snapshot | [sase-h8.10.5](sase-h8.10.5.md) | 2026-08-08 20:37:54 EDT |
+| sase--plans | [`sase--plans@99a7e4f`](https://github.com/sase-org/sase--plans/commit/99a7e4f9e9f59d43a36846df702d94b9051878a3) | docs: mark h8.10 landing plan done | [sase-h8.10.5](sase-h8.10.5.md) | 2026-08-08 20:39:40 EDT |
