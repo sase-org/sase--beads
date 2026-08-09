@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-i9
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.wj](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.wj/README.md) · **Assignee:** `sase-i9.land`
-**Created:** 2026-08-09 10:09:33 EDT
+**Created:** 2026-08-09 10:09:33 EDT · **Closed:** 2026-08-09 18:09:38 EDT
 **Plan:** [202608/fast\_dev\_update.md](https://github.com/sase-org/sase--plans/blob/main/202608/fast_dev_update.md)
 
 ## Description
@@ -34,6 +34,28 @@ SUGGESTED GUARD: make the dev-update Rust install refuse to write an editable ex
 
 Reported by sase-ia.land while landing epic sase-ia; not caused by that epic.
 
+[2026-08-09T22:09:38Z · sase-i9.land] LANDED epic sase-i9 (Make dev-install SASE updates fast).
+
+VERIFIED (step 1) -- all 5 phases checked against actual source, not just phase reports:
+- sase-i9.1: DevExecutedCommand.duration_seconds, per-step journal durations, slowest_reconcile_command, and tools/dev_update_timings all present and working.
+- sase-i9.2: rust_dev_install reconcile step plus 'just rust-dev-install{,-uv-tool}' with per-artifact CARGO_TARGET_DIR isolation; sase-core's extension-module feature and maturin wiring confirmed on that repo's master.
+- sase-i9.3: [profile.dev-update] present in sase-core; SASE_RUST_DEV_PROFILE threaded through dev-update; rust-install and CI correctly still pinned to --release.
+- sase-i9.4: prebuild cache proven working on the real host, not just in tests -- ~/.sase/cache/rust-prebuild/ holds a mirror at incoming core commit 443f1aa, two completed stamped sets (so retention pruning works), full six-field provenance (core_commit, cargo_lock_sha256, rustc 1.97.1, profile dev-update, python_abi cpython-314, target_interpreter) plus sha256 digests for both artifacts, and last-result.json recording a hit.
+- sase-i9.5: docs refreshed; live runtime inventory confirms producer and consumer resolve the same core checkout, so the consume path is correct in production.
+
+INTEGRATED (step 2) -- reviewed the 4 changes that landed after this epic started:
+- ee41f66ec had already fixed this epic's env-overlay bug.
+- be04f2874 and dfadc7cb4 (dev_update execution-helper refactors) preserved every behavior this epic added.
+- f25a84603 added the shared run_noninteractive helper AFTER prebuild.py had shipped its own unbounded subprocess.run copy. That was a real latent defect of this epic: a wedged cargo build would hold prebuild.lock forever and silently disable the cache for good. Fixed here by routing prebuild._run_command through run_noninteractive with a 1-hour ceiling (COMMAND_TIMEOUT_SECONDS) mapping timeouts to exit 124, plus a regression test. tests/dev_update: 95 passed. 'just lint' (ruff, mypy, symvision, toobig): exit 0, and symvision reports no sase-i9 epic-symbol whitelist entries to expire.
+
+FOLLOW-UPS -- every PROPOSED FOLLOW-UP on the children was dispositioned:
+- sase-i9.2's 'revisit true single-cargo-build packaging' -> task sase-im (medium), with the 188.15s + 99.20s measurement that justified the target-dir-isolation fallback.
+- sase-i9.5's Justfile sase_core_dir env-var precedence -> task sase-in (medium). This is also the concrete mechanism behind this epic's own DISCOVERED ISSUE (host uv-tool venv pointing at a recycled agent workspace); landing confirmed the mechanism is pre-existing and broader than dev-update, so it is filed as its own task rather than patched inside this epic.
+- The plan's unmet verify item (median cargo-seconds before/after on a real ',U') -> task sase-io (small); the producer is proven but no real ',U' has run since the cache landed, so the headline speedup is still measured only in parts. This is the one plan goal not fully demonstrated end to end.
+- sase-i9.5's Python 3.14 suite hang -> recorded as a DISCOVERED ISSUE on active epic sase-ib (which owns ACE test app lifecycle), NOT filed as a task. Correcting that phase's finding: it is not pre-existing. I also found 12-13 ACE TUI tests failing order-dependently on clean master; both were confirmed unrelated to sase-i9 by stashing this diff and reproducing on a clean tree.
+
+NOT VERIFIED: 'just check' could not complete in this workspace -- its scoped run wedged at 99% on the sase-ib async hang above (3 xdist workers parked in pytest_asyncio select() forever). Substituted bounded gates instead: full 'just lint' green (exit 0), tests/dev_update 95 passed, and the 60-file scoped selection for this diff ran serially at 613 passed / 13 failed where all 13 failures reproduce at clean HEAD without this diff.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +70,7 @@ Reported by sase-ia.land while landing epic sase-ia; not caused by that epic.
 
 ```mermaid
 flowchart TD
-    n0["sase-i9: Make dev-install SASE updates fast [in_progress]"]
+    n0["sase-i9: Make dev-install SASE updates fast [closed]"]
     n1["sase-i9.1: Instrument dev-update step durations [closed]"]
     n2["sase-i9.2: Build the Rust core and LSP in one feature-unified cargo invocation [closed]"]
     n3["sase-i9.3: Add a fast dev-update cargo profile [closed]"]
@@ -78,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.3/README.md) | [sase-i9.3](sase-i9.3.md) | 2 |
 | [bbugyi200.athena.sase-i9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-i9.4.md) | [sase-i9.4](sase-i9.4.md) | 1 |
 | [bbugyi200.athena.sase-i9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.5/README.md) | [sase-i9.5](sase-i9.5.md) | 1 |
-| [bbugyi200.athena.sase-i9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.land/README.md) | [sase-i9](README.md) | 0 |
+| [bbugyi200.athena.sase-i9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.land/README.md) | [sase-i9](README.md) | 1 |
 
 ## Commits
 
@@ -91,3 +113,4 @@ flowchart TD
 | sase | [`2bb7ce4`](https://github.com/sase-org/sase/commit/2bb7ce46382ffa040a621bd9b7bb3258165da4f3) | perf: use dev-update profile for rust updates | [sase-i9.3](sase-i9.3.md) | 2026-08-09 12:49:48 EDT |
 | sase | [`9bce277`](https://github.com/sase-org/sase/commit/9bce277c942cc10009b984f1cc309920a36c29a6) | feat: add Rust prebuild cache | [sase-i9.4](sase-i9.4.md) | 2026-08-09 13:51:42 EDT |
 | sase | [`4f54489`](https://github.com/sase-org/sase/commit/4f54489af3bd33d069d2ce1a7cd22039844b2822) | test(dev-update): cover prebuild refusal while update writer lock is held | [sase-i9.5](sase-i9.5.md) | 2026-08-09 17:05:17 EDT |
+| sase | [`8658abe`](https://github.com/sase-org/sase/commit/8658abee6a733ddadd7b4b5bb01225ec66c8300d) | fix(dev-update): bound prebuild commands so a wedged build cannot pin the lock | [sase-i9](README.md) | 2026-08-09 18:11:08 EDT |
