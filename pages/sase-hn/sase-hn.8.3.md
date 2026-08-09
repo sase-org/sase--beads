@@ -20,4 +20,4 @@ workflows-cli-surface: fix CLI help text, workflow status messages, error string
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.3/README.md) | [sase-hn.8.3](sase-hn.8.3.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.3.md) | [sase-hn.8.3](sase-hn.8.3.md) | 0 |

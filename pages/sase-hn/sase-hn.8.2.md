@@ -20,4 +20,4 @@ ace-surface: retire ChangeSpec vocabulary from ACE console output, toasts, TUI l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-hn.8.2/README.md) | [sase-hn.8.2](sase-hn.8.2.md) | 0 |
+| [bbugyi200.athena.sase-hn.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-hn.8.2.md) | [sase-hn.8.2](sase-hn.8.2.md) | 0 |
