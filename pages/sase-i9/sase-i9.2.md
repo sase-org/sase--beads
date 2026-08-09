@@ -30,10 +30,11 @@ unified-build: collapse the two separate cargo/maturin reconcile steps into a si
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-i9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.2/README.md) | [sase-i9.2](sase-i9.2.md) | 1 |
+| [bbugyi200.athena.sase-i9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i9.2/README.md) | [sase-i9.2](sase-i9.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1a96264`](https://github.com/sase-org/sase-core/commit/1a962643d9ef7d0c86e7bba64e3ccd1a167532a2) | build: expose extension-module feature for PyO3 crate | [sase-i9.2](sase-i9.2.md) | 2026-08-09 11:36:21 EDT |
+| sase | [`d83fe96`](https://github.com/sase-org/sase/commit/d83fe9668c0bd70b15d16ec87be0dbc03b8156b4) | perf: install Rust dev artifacts in one update step | [sase-i9.2](sase-i9.2.md) | 2026-08-09 11:38:02 EDT |
