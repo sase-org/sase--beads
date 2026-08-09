@@ -19,6 +19,8 @@ downstream-repos: migrate the bob-cli project config and the chezmoi user overla
 
 [2026-08-09T15:19:57Z · sase-ia.5] Migrated glossary/h1_title config to nested memory.* keys across bob-cli (sase/sase.yml), chezmoi (home/dot_config/sase/sase_athena.yml), and sase-nvim (README.md manual smoke-check step). Verified in bob-cli via workspace-local sase build that regenerated CLAUDE.md/AGENTS.md and sase/memory/glossary.md are byte-for-byte unchanged after the migration. Confirmed actstat needs no change (declares neither legacy key).
 
+[2026-08-09T15:29:05Z · sase-ia.5] PROPOSED FOLLOW-UP: All three finalizer commits for this bead (chezmoi, sase-nvim, bob-cli) hit "could not stage agents sidecar payload" / prompt-archive-publication-deferred warnings due to a stale /home/bryan/.sase/projects/gh_sase-org__sase/repos/agents/.git/index.lock. Commits succeeded and pushed fine, but agent-hood publication links are quarantined. Investigate the stale lock (likely a crashed/concurrent process) and run `sase agent sync --retry-quarantined` once cleared.
+
 ## Dependencies
 
 - **Depends on:** [sase-ia.2](sase-ia.2.md) ✓ · ⧖ 2026-08-09
@@ -28,4 +30,10 @@ downstream-repos: migrate the bob-cli project config and the chezmoi user overla
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ia.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.5/README.md) | [sase-ia.5](sase-ia.5.md) | 0 |
+| [bbugyi200.athena.sase-ia.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ia.5/README.md) | [sase-ia.5](sase-ia.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-nvim | [`sase-nvim@5c1b032`](https://github.com/sase-org/sase-nvim/commit/5c1b032ee9a3de772f50e8e0c7584368e65f3b6e) | docs: update glossary smoke-check to reference nested memory.glossary key | [sase-ia.5](sase-ia.5.md) | 2026-08-09 11:23:09 EDT |
