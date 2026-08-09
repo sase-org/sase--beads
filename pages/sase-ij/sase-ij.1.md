@@ -21,7 +21,7 @@ derive-floor-literal: replace the hardcoded "0.21.3" golden assertion in tests/t
 
 ## Dependencies
 
-- **Blocks:** [sase-ij.2](sase-ij.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ij.2](sase-ij.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
