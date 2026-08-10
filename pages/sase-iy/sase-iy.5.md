@@ -22,4 +22,10 @@ retire: change /sase_new_task so a retired umbrella routes the next reporter to 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-iy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.5/README.md) | [sase-iy.5](sase-iy.5.md) | 0 |
+| [bbugyi200.athena.sase-iy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.5/README.md) | [sase-iy.5](sase-iy.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8501a19`](https://github.com/sase-org/sase/commit/8501a19acfcf7863aa9d7c6e4a322a48c09c0bdf) | fix(skills): route retired umbrella duplicates to new tasks | [sase-iy.5](sase-iy.5.md) | 2026-08-10 13:38:13 EDT |

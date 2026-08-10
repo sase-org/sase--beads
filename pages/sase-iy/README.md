@@ -15,6 +15,8 @@ The three non-snoozed task beads (sase-ct, sase-ii, sase-iq) are closed with the
 
 [2026-08-10T15:23:30Z · sase-il.land.f1] DISCOVERED ISSUE: Independent reproduction during tale-size PLAN-lane verification on 2026-08-10. Full `just test-visual --sase-update-visual-snapshots` failed 61 nodes under xdist after many tests timed out waiting for visual convergence with pending_workers=['prompt-catalog:0']; representative failures include prompt editing, frontmatter panel, completion, and highlighting snapshots. This matches active phase sase-iy.2's deterministic prompt-catalog convergence hang. The narrowed affected PLAN/context visual files passed with the same update flag: 42 passed in 18.58s.
 
+[2026-08-10T17:26:54Z · xd] DISCOVERED ISSUE: Independent recurrence during drop_plan_authoring_size_paragraph verification on 2026-08-10. just check passed but escalated its scoped lane to the full suite. Per the plan escalation rule, just check-full was run; it passed all lint, SASE validation, and main test gates, then failed only in just test-cost on tests/ace/tui/widgets/test_agent_display_xprompt.py::TestAgentXPromptRendering::test_agent_xprompt_highlights_warm_catalog_skills after 28454 passed / 10 skipped. The exact node passed immediately in isolation with .venv/bin/python -m pytest tests/ace/tui/widgets/test_agent_display_xprompt.py::TestAgentXPromptRendering::test_agent_xprompt_highlights_warm_catalog_skills -q (1 passed). Routed here because this matches task sase-ct and active epic sase-iy is retiring that full-parallel/pass-isolation ACE/TUI flake umbrella.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -23,7 +25,7 @@ The three non-snoozed task beads (sase-ct, sase-ii, sase-iq) are closed with the
 | [sase-iy.2](sase-iy.2.md) | Fix the deterministic prompt-catalog convergence hang in the PNG lane | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-iy.3](sase-iy.3.md) | Widen the wait-idiom gate past its receiver and name blind spots | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-iy.4](sase-iy.4.md) | Fix the remaining contention-sensitive sase-ct nodes by mechanism | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-iy.5](sase-iy.5.md) | Retire the umbrella, close sase-ct, and make the no-+1 instruction reachable | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-iy.5](sase-iy.5.md) | Retire the umbrella, close sase-ct, and make the no-+1 instruction reachable | ◐ in_progress | medium | 2026-08-10 | 1 | 1 |
 
 ## Lineage
 
@@ -55,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.sase-iy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.2/README.md) | [sase-iy.2](sase-iy.2.md) | 1 |
 | [bbugyi200.athena.sase-iy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.3/README.md) | [sase-iy.3](sase-iy.3.md) | 1 |
 | [bbugyi200.athena.sase-iy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.4/README.md) | [sase-iy.4](sase-iy.4.md) | 1 |
-| [bbugyi200.athena.sase-iy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.5/README.md) | [sase-iy.5](sase-iy.5.md) | 0 |
+| [bbugyi200.athena.sase-iy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.5/README.md) | [sase-iy.5](sase-iy.5.md) | 1 |
 | [bbugyi200.athena.sase-iy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.land/README.md) | [sase-iy](README.md) | 0 |
 
 ## Commits
@@ -65,3 +67,4 @@ flowchart TD
 | sase | [`c49452c`](https://github.com/sase-org/sase/commit/c49452c475730db67b18ab519885924b43d61692) | test: widen test wait helper gate | [sase-iy.3](sase-iy.3.md) | 2026-08-10 11:48:33 EDT |
 | sase | [`ebd3a91`](https://github.com/sase-org/sase/commit/ebd3a91bc16b3e1af6949177c2a475036af9f67a) | test: stabilize contention-sensitive TUI waits | [sase-iy.4](sase-iy.4.md) | 2026-08-10 12:41:54 EDT |
 | sase | [`128b326`](https://github.com/sase-org/sase/commit/128b326ea46a11c05ece35e8ff17d9d6b81a4bc0) | test: stabilize PNG visual prompt catalog fixtures | [sase-iy.2](sase-iy.2.md) | 2026-08-10 12:50:24 EDT |
+| sase | [`8501a19`](https://github.com/sase-org/sase/commit/8501a19acfcf7863aa9d7c6e4a322a48c09c0bdf) | fix(skills): route retired umbrella duplicates to new tasks | [sase-iy.5](sase-iy.5.md) | 2026-08-10 13:38:13 EDT |
