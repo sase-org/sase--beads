@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 2 |
 | [bbugyi200.athena.sase-il.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-il.5.md) | [sase-il.5](sase-il.5.md) | 1 |
 | [bbugyi200.athena.sase-il.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.6/README.md) | [sase-il.6](sase-il.6.md) | 1 |
-| [bbugyi200.athena.sase-il.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.1/README.md) | [sase-il.7.1](sase-il.7.1.md) | 1 |
+| [bbugyi200.athena.sase-il.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.1/README.md) | [sase-il.7.1](sase-il.7.1.md) | 2 |
 | [bbugyi200.athena.sase-il.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.2/README.md) | [sase-il.7.2](sase-il.7.2.md) | 0 |
 | [bbugyi200.athena.sase-il.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.3/README.md) | [sase-il.7.3](sase-il.7.3.md) | 0 |
 | [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 0 |
@@ -108,3 +108,4 @@ flowchart TD
 | sase--plans | [`sase--plans@3898be3`](https://github.com/sase-org/sase--plans/commit/3898be3d9c35368738a13b69ef5022aba956d830) | chore(plans): add size to recent task sweep plan | [sase-il.4](sase-il.4.md) | 2026-08-10 08:48:09 EDT |
 | sase | [`344a0b8`](https://github.com/sase-org/sase/commit/344a0b8ff2da71bc53123f008fde5ab08c1bef3a) | feat!: retire implicit coder model aliases | [sase-il.5](sase-il.5.md) | 2026-08-10 10:35:10 EDT |
 | sase-core | [`sase-core@f2c28e7`](https://github.com/sase-org/sase-core/commit/f2c28e7ce93b9671cf2fca5d006b9108d212419b) | feat(core)!: enforce tale size contract | [sase-il.7.1](sase-il.7.1.md) | 2026-08-10 11:06:11 EDT |
+| sase-core | [`sase-core@86e4eb9`](https://github.com/sase-org/sase-core/commit/86e4eb9a053f0bc113dcce97aad38f9618d90c1a) | fix(core-py): allow plus-one binding signature | [sase-il.7.1](sase-il.7.1.md) | 2026-08-10 11:37:12 EDT |
