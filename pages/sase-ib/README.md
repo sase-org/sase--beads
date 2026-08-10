@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 1 |
 | [bbugyi200.athena.sase-ib.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.6/README.md) | [sase-ib.6](sase-ib.6.md) | 1 |
 | [bbugyi200.athena.sase-ib.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.7/README.md) | [sase-ib.7](sase-ib.7.md) | 1 |
-| [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 1 |
+| [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 2 |
 
 ## Commits
 
@@ -118,3 +118,4 @@ flowchart TD
 | sase | [`44bf25f`](https://github.com/sase-org/sase/commit/44bf25f84fecc2ee32c0c6fc8cf58a642f0f632b) | perf(ace): amortize ACE test app startup | [sase-ib.3](sase-ib.3.md) | 2026-08-09 14:35:04 EDT |
 | sase | [`ee9603d`](https://github.com/sase-org/sase/commit/ee9603d31e67a10f54b3a13fbf88e7cd55158572) | test: add suite cost regression budgets | [sase-ib.7](sase-ib.7.md) | 2026-08-10 07:52:38 EDT |
 | sase | [`354d8c1`](https://github.com/sase-org/sase/commit/354d8c19f9aac646448b58ab6259d7333ba1f9f1) | fix(ace): apply cached stylesheets and bound the settle barrier | [sase-ib](README.md) | 2026-08-10 08:53:27 EDT |
+| sase--plans | [`sase--plans@fea6892`](https://github.com/sase-org/sase--plans/commit/fea6892f15b430abb32e7613f7c3bbd42798482f) | docs(plan): mark the fast test suite epic plan done | [sase-ib](README.md) | 2026-08-10 08:54:11 EDT |
