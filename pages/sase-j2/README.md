@@ -52,7 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-j2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.1/README.md) | [sase-j2.1](sase-j2.1.md) | 1 |
 | [bbugyi200.athena.sase-j2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.2/README.md) | [sase-j2.2](sase-j2.2.md) | 1 |
-| [bbugyi200.athena.sase-j2.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-j2.land.md) | [sase-j2](README.md) | 1 |
+| [bbugyi200.athena.sase-j2.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-j2.land.md) | [sase-j2](README.md) | 2 |
 
 ## Commits
 
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`5f6d8ea`](https://github.com/sase-org/sase/commit/5f6d8ea64f6e6aaabf562c68af84b5ecdcdae222) | feat(ace): move panel isolation onto a new = keymap | [sase-j2.1](sase-j2.1.md) | 2026-08-10 14:49:38 EDT |
 | sase | [`63f9f15`](https://github.com/sase-org/sase/commit/63f9f15d69433c602b974757673de47ef5cff7bf) | feat(tui): zoom tribe metadata panels | [sase-j2.2](sase-j2.2.md) | 2026-08-10 15:26:09 EDT |
 | sase--plans | [`sase--plans@bf4fdc7`](https://github.com/sase-org/sase--plans/commit/bf4fdc7db66e372603ba68043d8015859078006f) | docs: mark tribe\_zoom\_and\_panel\_isolation\_keymap plan done | [sase-j2](README.md) | 2026-08-10 16:13:52 EDT |
+| sase | [`5b97f27`](https://github.com/sase-org/sase/commit/5b97f275518a5990068a8bc13f671f04e2e80170) | test: finish epic sase-j2's isolation terminology cleanup and stale goldens | [sase-j2](README.md) | 2026-08-10 16:16:43 EDT |
