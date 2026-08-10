@@ -19,7 +19,7 @@ model: teach PromptStackState about at most one pinned bottom snippet pane that 
 
 ## Dependencies
 
-- **Blocks:** [sase-j3.4](sase-j3.4.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j3.4](sase-j3.4.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

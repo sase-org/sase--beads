@@ -18,7 +18,7 @@ Authoring and editing an ACE snippet is a first-class prompt-bar loop: `gt` / `C
 | [sase-j3.1](sase-j3.1.md) | Snippet destination resolution, the new config field, and the collision index | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j3.2](sase-j3.2.md) | Snippet panes in the prompt stack model | ✓ closed | medium | 2026-08-10 | 1 | 2 |
 | [sase-j3.3](sase-j3.3.md) | Trigger-name panel with live collision evidence | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-j3.4](sase-j3.4.md) | The gt keymap, pane lifecycle, and exact cursor restoration | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-j3.4](sase-j3.4.md) | The gt keymap, pane lifecycle, and exact cursor restoration | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j3.5](sase-j3.5.md) | Save confirmation with a real diff, the write, and follow-up actions | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
 | [sase-j3.6](sase-j3.6.md) | Visual language for the snippet pane | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
 | [sase-j3.7](sase-j3.7.md) | Help modal and documentation | ◐ in_progress | small | 2026-08-10 | 1 | 0 |
@@ -32,7 +32,7 @@ flowchart TD
     n1["sase-j3.1: Snippet destination resolution, the new config field, and the collision index [closed]"]
     n2["sase-j3.2: Snippet panes in the prompt stack model [closed]"]
     n3["sase-j3.3: Trigger-name panel with live collision evidence [closed]"]
-    n4["sase-j3.4: The gt keymap, pane lifecycle, and exact cursor restoration [in_progress]"]
+    n4["sase-j3.4: The gt keymap, pane lifecycle, and exact cursor restoration [closed]"]
     n5["sase-j3.5: Save confirmation with a real diff, the write, and follow-up actions [in_progress]"]
     n6["sase-j3.6: Visual language for the snippet pane [in_progress]"]
     n7["sase-j3.7: Help modal and documentation [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-j3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.1/README.md) | [sase-j3.1](sase-j3.1.md) | 1 |
 | [bbugyi200.athena.sase-j3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.2/README.md) | [sase-j3.2](sase-j3.2.md) | 2 |
 | [bbugyi200.athena.sase-j3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.3/README.md) | [sase-j3.3](sase-j3.3.md) | 1 |
-| [bbugyi200.athena.sase-j3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.4/README.md) | [sase-j3.4](sase-j3.4.md) | 0 |
+| [bbugyi200.athena.sase-j3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.4/README.md) | [sase-j3.4](sase-j3.4.md) | 1 |
 | [bbugyi200.athena.sase-j3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.5/README.md) | [sase-j3.5](sase-j3.5.md) | 0 |
 | [bbugyi200.athena.sase-j3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.6/README.md) | [sase-j3.6](sase-j3.6.md) | 0 |
 | [bbugyi200.athena.sase-j3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.7/README.md) | [sase-j3.7](sase-j3.7.md) | 0 |
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`4d8be52`](https://github.com/sase-org/sase/commit/4d8be52cf1821d435c87ffc442fc87dd05cc3088) | feat(ace): add prompt stack snippet pane model | [sase-j3.2](sase-j3.2.md) | 2026-08-10 15:47:24 EDT |
 | sase | [`21c8321`](https://github.com/sase-org/sase/commit/21c83218fe1a7c8fc81c440ab09bde90d5ebbe82) | fix(ace): keep snippet pane target internal | [sase-j3.2](sase-j3.2.md) | 2026-08-10 15:59:33 EDT |
 | sase | [`64ddea9`](https://github.com/sase-org/sase/commit/64ddea98a879ef774c41fc2bc10b7ccc6c101a55) | feat(tui): add snippet trigger name modal | [sase-j3.3](sase-j3.3.md) | 2026-08-10 16:20:08 EDT |
+| sase | [`ba77762`](https://github.com/sase-org/sase/commit/ba77762e68fd045df73b8106dd589d91787e9ca1) | feat(ace): add snippet target pane lifecycle | [sase-j3.4](sase-j3.4.md) | 2026-08-10 17:01:58 EDT |

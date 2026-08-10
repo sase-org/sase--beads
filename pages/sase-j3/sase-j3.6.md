@@ -13,7 +13,7 @@ visual: give the snippet pane its own theme-safe look — a trigger-labeled sepa
 
 ## Dependencies
 
-- **Depends on:** [sase-j3.4](sase-j3.4.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j3.4](sase-j3.4.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-j3.7](sase-j3.7.md) ◐ · ⧖ 2026-08-10
 
 ## Agents
