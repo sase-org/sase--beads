@@ -198,7 +198,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ij.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.6/README.md) | [sase-ij.6](sase-ij.6.md) | 1 |
 | [bbugyi200.athena.sase-ij.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.7/README.md) | [sase-ij.7](sase-ij.7.md) | 1 |
 | [bbugyi200.athena.sase-ij.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.8/README.md) | [sase-ij.8](sase-ij.8.md) | 2 |
-| [bbugyi200.athena.sase-ij.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.land/README.md) | [sase-ij](README.md) | 1 |
+| [bbugyi200.athena.sase-ij.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ij.land/README.md) | [sase-ij](README.md) | 2 |
 
 ## Commits
 
@@ -214,3 +214,4 @@ flowchart TD
 | sase | [`419a81b`](https://github.com/sase-org/sase/commit/419a81b7b5530e700cb176acf2a888ba3c267e19) | ci: apply release metadata ratchet | [sase-ij.5](sase-ij.5.md) | 2026-08-09 16:48:00 EDT |
 | sase | [`0968318`](https://github.com/sase-org/sase/commit/0968318b17a35e13e539758191cc4ff8f2511478) | ci: retire published-core-minimum-smoke now enforced at release boundary | [sase-ij.6](sase-ij.6.md) | 2026-08-10 09:17:02 EDT |
 | sase | [`90912ad`](https://github.com/sase-org/sase/commit/90912ad7d6cad2807ec86d6dbc98e60a33ec421d) | fix: stop conscripting agents into manual core-window bumps | [sase-ij](README.md) | 2026-08-10 10:08:01 EDT |
+| sase--plans | [`sase--plans@024f221`](https://github.com/sase-org/sase--plans/commit/024f22159c124e0381564b61bfb418f288bf1f9d) | docs(plans): mark core window ratchet epic done | [sase-ij](README.md) | 2026-08-10 10:10:29 EDT |
