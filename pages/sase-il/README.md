@@ -19,6 +19,21 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 
 [2026-08-10T13:55:44Z · wz] DISCOVERED ISSUE: independent broader reproduction while implementing bead_list_size.md on 2026-08-10: just check passed fmt, ruff, mypy, project lint gates, symvision, toobig, and SASE validation, then failed validate-committed-plans with 93 tale-size-missing errors across 202608/*.md (examples: ace_byte_free_artifact_view_crash.md, admin_center_selection_off_by_one.md, bead_show_styling.md, committed output reports 3507 files scanned, 139 strict, 3368 legacy). This is the same root cause already noted here for new_task_recent_task_sweep.md but now affects the refreshed plans sidecar more broadly: tale size is mandatory after this epic, and legacy committed tale plans lack size frontmatter. Blocks just check/check-full before scoped/full tests for unrelated agents until the committed plans are migrated or validation is scoped.
 
+[2026-08-10T14:53:01Z · sase-il.land] LAND TRIAGE (sase-il.land, 2026-08-10): verified all six phases against their commits (2f71b6bc4, f21c8d850, 46fbdc07a, f42a68c07, b9008c535, 344a0b8ff; sase-core 3c10a0c released as 119495d/0.23.0).
+
+RESOLVED SINCE REPORTED:
+- The three DISCOVERED ISSUE notes on this bead (tale-size-missing blocking committed-plan validation) are fixed: just validate-committed-plans now passes 3563 files (195 strict), 0 errors, 0 warnings. Fixed by plans-sidecar commits 97845e6e (backfill, 118 files) and 3898be3d (new_task_recent_task_sweep).
+- sase-il.3 PROPOSED FOLLOW-UP 'Restore missing sase_sizes_memory design file': resolved, plans:202608/sase_sizes_memory.md exists and is readable.
+- sase-il.2 PROPOSED FOLLOW-UP 'committed-plan validation blocked by tale-size adoption': resolved, see above.
+- sase-il.3 PROPOSED FOLLOW-UP 'unrelated ACE artifacts/commits timeline failures': resolved. Re-ran the three named nodes at master HEAD 344a0b8ff, 3 passed in 6.37s.
+
+ALREADY TRACKED, NO NEW TASK FILED:
+- sase-il.1, sase-il.4, and sase-il.6 each proposed investigating broad unrelated full-suite failures. All are covered by existing task beads sase-ct (ACE/TUI full-lane flakes, READY, +54), sase-iq (cost-mode health recorder, READY, +11), sase-ii (tasks-pane store, READY, +3), and sase-iu (contract manifest/budget, READY, +1). sase-il.5 already filed or corroborated each. No independent reproduction of my own to add, so no additional +1.
+- Noted on sase-iv that it duplicates sase-iu; both were created by sase-il.5 a minute apart with identical descriptions.
+
+REMAINING EPIC WORK (not resolved, now planned):
+- sase-il.4's PROPOSED FOLLOW-UP 'Tighten core-owned tale size semantics' is real and still open, plus two more gaps in the same phase (sase-il.3). Verified against the installed 0.23.0 binding: (1) a tale with size: large validates ok=True, though sase_sizes.md and the sase_plan skill both say tales are xsmall|small|medium only; (2) PHASE_SIZE_DESCRIPTION/PHASE_MODEL_DESCRIPTION/TALE_SIZE_DESCRIPTION still restate the whole taxonomy instead of pointing at sase/memory/sase_sizes.md, and those strings reach agents through plan_frontmatter_schema and plan_validate_render, so the epic's core goal is unmet; (3) launch-mode tale-size normalization lives in the Python shim _launch_mode_compatibility_content ('until older core wheels catch up') rather than in core's validate_tale_size, which still errors in launch mode. Also found: 21 committed 202608 tale plans declare size: large, all assigned by sase-il.3's own backfill and none authored, so they must be migrated when core narrows. Proposing an epic plan (finish_tale_size_semantics) whose final phase closes this bead, runs symvision, and marks plans:202608/sase_sizes_memory.md done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -41,16 +56,26 @@ flowchart TD
     n4["sase-il.4: Adopt tale size in sase [closed]"]
     n5["sase-il.5: Retire the coder alias bucket [closed]"]
     n6["sase-il.6: Verify plan handoff for large task beads [closed]"]
+    n7["sase-il.7: Finish core-owned tale size semantics and land sase-il [in_progress]"]
+    n8["sase-il.7.1: Complete the tale size contract in sase-core [in_progress]"]
+    n9["sase-il.7.2: Adopt the completed contract in sase [in_progress]"]
+    n10["sase-il.7.3: Land and close epic sase-il [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
     n1 -.-> n2
     n2 -.-> n4
     n3 -.-> n4
     n4 -.-> n5
+    n8 -.-> n9
+    n9 -.-> n10
 ```
 
 ## Agents
@@ -63,6 +88,10 @@ flowchart TD
 | [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 2 |
 | [bbugyi200.athena.sase-il.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-il.5.md) | [sase-il.5](sase-il.5.md) | 1 |
 | [bbugyi200.athena.sase-il.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.6/README.md) | [sase-il.6](sase-il.6.md) | 1 |
+| [bbugyi200.athena.sase-il.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.1/README.md) | [sase-il.7.1](sase-il.7.1.md) | 1 |
+| [bbugyi200.athena.sase-il.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.2/README.md) | [sase-il.7.2](sase-il.7.2.md) | 0 |
+| [bbugyi200.athena.sase-il.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.3/README.md) | [sase-il.7.3](sase-il.7.3.md) | 0 |
+| [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 0 |
 | [bbugyi200.athena.sase-il.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.land/README.md) | [sase-il](README.md) | 0 |
 
 ## Commits
@@ -78,3 +107,4 @@ flowchart TD
 | sase | [`b9008c5`](https://github.com/sase-org/sase/commit/b9008c535c4c0fd3bb4f199284c1a8369b2fd9f2) | feat(plan): normalize legacy tale size for launches | [sase-il.4](sase-il.4.md) | 2026-08-10 08:47:40 EDT |
 | sase--plans | [`sase--plans@3898be3`](https://github.com/sase-org/sase--plans/commit/3898be3d9c35368738a13b69ef5022aba956d830) | chore(plans): add size to recent task sweep plan | [sase-il.4](sase-il.4.md) | 2026-08-10 08:48:09 EDT |
 | sase | [`344a0b8`](https://github.com/sase-org/sase/commit/344a0b8ff2da71bc53123f008fde5ab08c1bef3a) | feat!: retire implicit coder model aliases | [sase-il.5](sase-il.5.md) | 2026-08-10 10:35:10 EDT |
+| sase-core | [`sase-core@f2c28e7`](https://github.com/sase-org/sase-core/commit/f2c28e7ce93b9671cf2fca5d006b9108d212419b) | feat(core)!: enforce tale size contract | [sase-il.7.1](sase-il.7.1.md) | 2026-08-10 11:06:11 EDT |
