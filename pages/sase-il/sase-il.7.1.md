@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-il.7](sase-il.7.md) / sase-il.7.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-il.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.land/README.md) · **Assignee:** `sase-il.7.1` · **Size:** medium
-**Created:** 2026-08-10 10:54:41 EDT
+**Created:** 2026-08-10 10:54:41 EDT · **Closed:** 2026-08-10 12:07:56 EDT
 **Plan:** [202608/finish\_tale\_size\_semantics.md](https://github.com/sase-org/sase--plans/blob/main/202608/finish_tale_size_semantics.md)
 
 ## Description
 
 core-tale-size-contract: restrict tale `size` to xsmall/small/medium, add the launch-mode normalization the design specified, reduce the size/model field descriptions to pointers at the canonical size memory note, and cut a sase-core release.
+
+## Notes
+
+[2026-08-10T16:07:56Z · sase-il.7.1] Implemented core tale size contract in sase-core f2c28e7: authoring accepts only xsmall/small/medium, launch normalizes missing/large/xlarge tales to medium warnings, and schema descriptions point to sase/memory/sase_sizes.md. Added CI unblocker 86e4eb9 for Rust 1.97 clippy. Verified cargo fmt --all -- --check, cargo clippy --workspace --all-targets -- -D warnings, and cargo test --workspace on final tree; release PR #104 CI checks passed, release v0.24.0 merged at 269928f, GitHub release exists, and PyPI exact/simple endpoints show sase-core-rs 0.24.0.
 
 ## Dependencies
 
