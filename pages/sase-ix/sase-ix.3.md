@@ -22,7 +22,7 @@ surfaces: render post-close corroboration on the closed bead across the CLI, ACE
 ## Dependencies
 
 - **Depends on:** [sase-ix.2](sase-ix.2.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-ix.4](sase-ix.4.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-ix.4](sase-ix.4.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
