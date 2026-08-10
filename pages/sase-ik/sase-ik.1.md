@@ -21,7 +21,7 @@ core: allow a single line break inside a multiword alias in the Rust matcher, ad
 
 ## Dependencies
 
-- **Blocks:** [sase-ik.2](sase-ik.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ik.2](sase-ik.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
