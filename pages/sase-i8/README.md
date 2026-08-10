@@ -19,6 +19,8 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 
 [2026-08-09T18:39:58Z · wo] DISCOVERED ISSUE: Independent recurrence during ACE post-write noninteractive verification on 2026-08-09. Full just test failed tests/test_vcs_provider_vcs_log.py::test_remote_log_ops_fetch_partition_and_union_log at git push -u origin main with exit status 1; rerunning the exact failed set serially made this test pass. This matches the existing provider-level VCS log failure note on this active epic and is unrelated to the post-write subprocess and skill-init changes under verification.
 
+[2026-08-10T12:25:03Z · sase-ib.land] DISCOVERED ISSUE (independent reproduction): tests/test_vcs_provider_vcs_log.py::test_remote_log_ops_fetch_partition_and_union_log failed once in the full-suite fallback of `just check` at -n14 on 2026-08-09T17:30Z, then passed on a serial rerun and on focused xdist reruns of the same node. Recorded by phase bead sase-ib.6 (epic sase-ib) as a PROPOSED FOLLOW-UP; sase-ib.land confirms it is not caused by that epic -- sase-ib touched the suite gate's token arithmetic and the ACE settle helpers, neither of which this non-TUI VCS-provider test uses -- and is forwarding the evidence here rather than filing a duplicate task, since sase-ie, sase-id, and wo already recorded the same node against this epic.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -31,7 +33,7 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 | [sase-i8.6](sase-i8.6.md) | sase vcs log --merges and documentation | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-i8.7](sase-i8.7.md) | ACE Commits pane merge affordances | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-i8.8](sase-i8.8.md) | Raise the sase-core-rs dependency window | ✓ closed | small | 2026-08-09 | 1 | 1 |
-| [sase-i8.9](sase-i8.9.md) | End-to-end acceptance against real merge history | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
+| [sase-i8.9](sase-i8.9.md) | End-to-end acceptance against real merge history | ✓ closed | small | 2026-08-09 | 1 | 0 |
 
 ## Lineage
 
@@ -39,32 +41,45 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 flowchart TD
     n0["sase-i8: Merge-commit support for the VCS commit log [in_progress]"]
     n1["sase-i8.1: Rust core — parent ids, tolerant parser, merge summary [closed]"]
-    n2["sase-i8.2: Python wire mirror and skew probes [closed]"]
-    n3["sase-i8.3: Provider-level merge visibility [closed]"]
-    n4["sase-i8.4: Collection models and the merges query key [closed]"]
-    n5["sase-i8.5: Marking merges in every renderer [closed]"]
-    n6["sase-i8.6: sase vcs log --merges and documentation [closed]"]
-    n7["sase-i8.7: ACE Commits pane merge affordances [closed]"]
-    n8["sase-i8.8: Raise the sase-core-rs dependency window [closed]"]
-    n9["sase-i8.9: End-to-end acceptance against real merge history [in_progress]"]
+    n2["sase-i8.10: Make merge visibility work through the real provider dispatch path [in_progress]"]
+    n3["sase-i8.10.1: Stop pluggy from silently dropping optional VCS hook arguments [closed]"]
+    n4["sase-i8.10.2: Give each remote-fixture test its own origin repository [in_progress]"]
+    n5["sase-i8.10.3: Redo end-to-end acceptance against real merge history [in_progress]"]
+    n6["sase-i8.10.4: Land the epic and file the remaining follow-ups [in_progress]"]
+    n7["sase-i8.2: Python wire mirror and skew probes [closed]"]
+    n8["sase-i8.3: Provider-level merge visibility [closed]"]
+    n9["sase-i8.4: Collection models and the merges query key [closed]"]
+    n10["sase-i8.5: Marking merges in every renderer [closed]"]
+    n11["sase-i8.6: sase vcs log --merges and documentation [closed]"]
+    n12["sase-i8.7: ACE Commits pane merge affordances [closed]"]
+    n13["sase-i8.8: Raise the sase-core-rs dependency window [closed]"]
+    n14["sase-i8.9: End-to-end acceptance against real merge history [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
     n0 --> n7
     n0 --> n8
     n0 --> n9
-    n1 -.-> n2
-    n2 -.-> n3
-    n3 -.-> n4
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n1 -.-> n7
+    n3 -.-> n5
     n4 -.-> n5
-    n4 -.-> n6
-    n5 -.-> n7
-    n6 -.-> n8
+    n5 -.-> n6
     n7 -.-> n8
     n8 -.-> n9
+    n9 -.-> n10
+    n9 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n13
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -72,6 +87,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-i8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.1/README.md) | [sase-i8.1](sase-i8.1.md) | 1 |
+| [bbugyi200.athena.sase-i8.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.1/README.md) | [sase-i8.10.1](sase-i8.10.1.md) | 1 |
+| [bbugyi200.athena.sase-i8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.2/README.md) | [sase-i8.10.2](sase-i8.10.2.md) | 0 |
+| [bbugyi200.athena.sase-i8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.3/README.md) | [sase-i8.10.3](sase-i8.10.3.md) | 0 |
+| [bbugyi200.athena.sase-i8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.4/README.md) | [sase-i8.10.4](sase-i8.10.4.md) | 0 |
+| [bbugyi200.athena.sase-i8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.land/README.md) | [sase-i8.10](sase-i8.10.md) | 0 |
 | [bbugyi200.athena.sase-i8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.2/README.md) | [sase-i8.2](sase-i8.2.md) | 1 |
 | [bbugyi200.athena.sase-i8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.3/README.md) | [sase-i8.3](sase-i8.3.md) | 1 |
 | [bbugyi200.athena.sase-i8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.4/README.md) | [sase-i8.4](sase-i8.4.md) | 1 |
@@ -94,3 +114,4 @@ flowchart TD
 | sase | [`77ee670`](https://github.com/sase-org/sase/commit/77ee67052e418c7825249cb95ca1f32fe55f6b40) | feat(vcs-log): mark merge commits in renderers | [sase-i8.5](sase-i8.5.md) | 2026-08-09 13:47:40 EDT |
 | sase | [`c613822`](https://github.com/sase-org/sase/commit/c6138223bc86d8196812834ce76351f8f8f4df4f) | feat(ace): add commit merge visibility controls | [sase-i8.7](sase-i8.7.md) | 2026-08-09 14:25:10 EDT |
 | sase | [`8ed11bb`](https://github.com/sase-org/sase/commit/8ed11bb80b6a218dcd49fed5529573e036bc32ca) | build(deps): raise sase-core-rs floor | [sase-i8.8](sase-i8.8.md) | 2026-08-10 07:46:04 EDT |
+| sase | [`6d131aa`](https://github.com/sase-org/sase/commit/6d131aa7b4df28d10211d4a6ee6df84ac173e9fc) | fix(vcs): forward optional VCS hook arguments | [sase-i8.10.1](sase-i8.10.1.md) | 2026-08-10 08:49:32 EDT |
