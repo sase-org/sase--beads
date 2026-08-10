@@ -25,10 +25,11 @@ model: teach PromptStackState about at most one pinned bottom snippet pane that 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-j3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.2/README.md) | [sase-j3.2](sase-j3.2.md) | 1 |
+| [bbugyi200.athena.sase-j3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.2/README.md) | [sase-j3.2](sase-j3.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4d8be52`](https://github.com/sase-org/sase/commit/4d8be52cf1821d435c87ffc442fc87dd05cc3088) | feat(ace): add prompt stack snippet pane model | [sase-j3.2](sase-j3.2.md) | 2026-08-10 15:47:24 EDT |
+| sase | [`21c8321`](https://github.com/sase-org/sase/commit/21c83218fe1a7c8fc81c440ab09bde90d5ebbe82) | fix(ace): keep snippet pane target internal | [sase-j3.2](sase-j3.2.md) | 2026-08-10 15:59:33 EDT |
