@@ -16,7 +16,7 @@ On the Agents tab, `=` isolates or restores tribe panels from any selection (who
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-j2.1](sase-j2.1.md) | Move panel isolation onto a new \`=\` keymap | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-j2.2](sase-j2.2.md) | Zoom the tribe metadata document from whole-panel focus | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-j2.2](sase-j2.2.md) | Zoom the tribe metadata document from whole-panel focus | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ On the Agents tab, `=` isolates or restores tribe panels from any selection (who
 flowchart TD
     n0["sase-j2: Split Agents-tab `Z` into panel isolation (`=`) and tribe-aware zoom [in_progress]"]
     n1["sase-j2.1: Move panel isolation onto a new `=` keymap [closed]"]
-    n2["sase-j2.2: Zoom the tribe metadata document from whole-panel focus [in_progress]"]
+    n2["sase-j2.2: Zoom the tribe metadata document from whole-panel focus [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-j2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.1/README.md) | [sase-j2.1](sase-j2.1.md) | 1 |
-| [bbugyi200.athena.sase-j2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.2/README.md) | [sase-j2.2](sase-j2.2.md) | 0 |
+| [bbugyi200.athena.sase-j2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.2/README.md) | [sase-j2.2](sase-j2.2.md) | 1 |
 | [bbugyi200.athena.sase-j2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j2.land/README.md) | [sase-j2](README.md) | 0 |
 
 ## Commits
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5f6d8ea`](https://github.com/sase-org/sase/commit/5f6d8ea64f6e6aaabf562c68af84b5ecdcdae222) | feat(ace): move panel isolation onto a new = keymap | [sase-j2.1](sase-j2.1.md) | 2026-08-10 14:49:38 EDT |
+| sase | [`63f9f15`](https://github.com/sase-org/sase/commit/63f9f15d69433c602b974757673de47ef5cff7bf) | feat(tui): zoom tribe metadata panels | [sase-j2.2](sase-j2.2.md) | 2026-08-10 15:26:09 EDT |

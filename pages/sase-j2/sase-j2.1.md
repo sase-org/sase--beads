@@ -19,7 +19,7 @@ isolate: add the configurable `isolate_panels` action bound to `=`, stop `action
 
 ## Dependencies
 
-- **Blocks:** [sase-j2.2](sase-j2.2.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j2.2](sase-j2.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
