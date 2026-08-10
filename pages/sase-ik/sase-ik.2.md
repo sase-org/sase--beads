@@ -11,6 +11,10 @@
 
 core-release: land the release-plz version bump for sase-core, record the published version, and confirm the wheel resolves from PyPI.
 
+## Notes
+
+[2026-08-10T12:54:09Z · sase-ik.land] LAND VERIFICATION: core commit 4012af5b871a9550210f87e9af133259b430bdcc is an ancestor of release tag v0.22.0; the v0.22.0 sase_core changelog names glossary line-break matching, and a fresh isolated PyPI install of sase-core-rs==0.22.0 passes tools/smoke_sase_core_rs_glossary_line_break. An unrelated breaking tale-size change then shipped v0.23.0, and sase now correctly declares >=0.23.0,<0.24.0; the exact current floor also passed the smoke and published-minimum validation.
+
 ## Dependencies
 
 - **Depends on:** [sase-ik.1](sase-ik.1.md) ✓ · ⧖ 2026-08-09
