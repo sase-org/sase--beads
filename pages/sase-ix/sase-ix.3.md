@@ -28,10 +28,11 @@ surfaces: render post-close corroboration on the closed bead across the CLI, ACE
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ix.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.3/README.md) | [sase-ix.3](sase-ix.3.md) | 1 |
+| [bbugyi200.athena.sase-ix.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.3/README.md) | [sase-ix.3](sase-ix.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`187085a`](https://github.com/sase-org/sase/commit/187085a80b60f59641dfd076a9cb5cea9e499fca) | feat(beads): surface withheld post-close corroboration | [sase-ix.3](sase-ix.3.md) | 2026-08-10 12:24:21 EDT |
+| sase-core | [`sase-core@4f09d27`](https://github.com/sase-org/sase-core/commit/4f09d2774bde8e7494871f68c1e9e322fd5b8d97) | feat(beads): search observed\_since corroboration evidence | [sase-ix.3](sase-ix.3.md) | 2026-08-10 12:26:10 EDT |

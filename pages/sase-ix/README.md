@@ -17,7 +17,7 @@ A task bead that an assigned agent is actively working, or has just finished wor
 |---|---|---|---|---|---:|---:|
 | [sase-ix.1](sase-ix.1.md) | Observation-window freshness rule in the bead core | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-ix.2](sase-ix.2.md) | Supplying and overriding the observation window from Python | ✓ closed | small | 2026-08-10 | 1 | 1 |
-| [sase-ix.3](sase-ix.3.md) | Making withheld corroboration visible | ✓ closed | small | 2026-08-10 | 1 | 1 |
+| [sase-ix.3](sase-ix.3.md) | Making withheld corroboration visible | ✓ closed | small | 2026-08-10 | 1 | 2 |
 | [sase-ix.4](sase-ix.4.md) | End-to-end race regression and store audit | ◐ in_progress | small | 2026-08-10 | 1 | 0 |
 
 ## Lineage
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-ix.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.1/README.md) | [sase-ix.1](sase-ix.1.md) | 1 |
 | [bbugyi200.athena.sase-ix.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.2/README.md) | [sase-ix.2](sase-ix.2.md) | 1 |
-| [bbugyi200.athena.sase-ix.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.3/README.md) | [sase-ix.3](sase-ix.3.md) | 1 |
+| [bbugyi200.athena.sase-ix.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.3/README.md) | [sase-ix.3](sase-ix.3.md) | 2 |
 | [bbugyi200.athena.sase-ix.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.4/README.md) | [sase-ix.4](sase-ix.4.md) | 0 |
 | [bbugyi200.athena.sase-ix.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.land/README.md) | [sase-ix](README.md) | 0 |
 
@@ -55,3 +55,4 @@ flowchart TD
 | sase-core | [`sase-core@d1a19d5`](https://github.com/sase-org/sase-core/commit/d1a19d566a6606aac78b961bf7008003e9b8f25f) | fix(bead): avoid stale plus-one reopens after close | [sase-ix.1](sase-ix.1.md) | 2026-08-10 11:25:04 EDT |
 | sase | [`47b2a74`](https://github.com/sase-org/sase/commit/47b2a74aa30541e82bcdfebf9111e1b5076bfb31) | feat(bead): supply and override the plus-one observation window | [sase-ix.2](sase-ix.2.md) | 2026-08-10 11:57:55 EDT |
 | sase | [`187085a`](https://github.com/sase-org/sase/commit/187085a80b60f59641dfd076a9cb5cea9e499fca) | feat(beads): surface withheld post-close corroboration | [sase-ix.3](sase-ix.3.md) | 2026-08-10 12:24:21 EDT |
+| sase-core | [`sase-core@4f09d27`](https://github.com/sase-org/sase-core/commit/4f09d2774bde8e7494871f68c1e9e322fd5b8d97) | feat(beads): search observed\_since corroboration evidence | [sase-ix.3](sase-ix.3.md) | 2026-08-10 12:26:10 EDT |
