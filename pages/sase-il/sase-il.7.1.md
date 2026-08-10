@@ -17,7 +17,7 @@ core-tale-size-contract: restrict tale `size` to xsmall/small/medium, add the la
 
 ## Dependencies
 
-- **Blocks:** [sase-il.7.2](sase-il.7.2.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-il.7.2](sase-il.7.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

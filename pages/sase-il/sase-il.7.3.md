@@ -13,7 +13,7 @@ land-sase-il: run the full gate, close epic sase-il with a verification note, cl
 
 ## Dependencies
 
-- **Depends on:** [sase-il.7.2](sase-il.7.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-il.7.2](sase-il.7.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
