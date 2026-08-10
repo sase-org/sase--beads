@@ -43,7 +43,7 @@ flowchart TD
     n1["sase-i8.1: Rust core — parent ids, tolerant parser, merge summary [closed]"]
     n2["sase-i8.10: Make merge visibility work through the real provider dispatch path [in_progress]"]
     n3["sase-i8.10.1: Stop pluggy from silently dropping optional VCS hook arguments [closed]"]
-    n4["sase-i8.10.2: Give each remote-fixture test its own origin repository [in_progress]"]
+    n4["sase-i8.10.2: Give each remote-fixture test its own origin repository [closed]"]
     n5["sase-i8.10.3: Redo end-to-end acceptance against real merge history [in_progress]"]
     n6["sase-i8.10.4: Land the epic and file the remaining follow-ups [in_progress]"]
     n7["sase-i8.2: Python wire mirror and skew probes [closed]"]
@@ -88,7 +88,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-i8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.1/README.md) | [sase-i8.1](sase-i8.1.md) | 1 |
 | [bbugyi200.athena.sase-i8.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.1/README.md) | [sase-i8.10.1](sase-i8.10.1.md) | 1 |
-| [bbugyi200.athena.sase-i8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.2/README.md) | [sase-i8.10.2](sase-i8.10.2.md) | 0 |
+| [bbugyi200.athena.sase-i8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.2/README.md) | [sase-i8.10.2](sase-i8.10.2.md) | 1 |
 | [bbugyi200.athena.sase-i8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.3/README.md) | [sase-i8.10.3](sase-i8.10.3.md) | 0 |
 | [bbugyi200.athena.sase-i8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.4/README.md) | [sase-i8.10.4](sase-i8.10.4.md) | 0 |
 | [bbugyi200.athena.sase-i8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.land/README.md) | [sase-i8.10](sase-i8.10.md) | 0 |
@@ -115,3 +115,4 @@ flowchart TD
 | sase | [`c613822`](https://github.com/sase-org/sase/commit/c6138223bc86d8196812834ce76351f8f8f4df4f) | feat(ace): add commit merge visibility controls | [sase-i8.7](sase-i8.7.md) | 2026-08-09 14:25:10 EDT |
 | sase | [`8ed11bb`](https://github.com/sase-org/sase/commit/8ed11bb80b6a218dcd49fed5529573e036bc32ca) | build(deps): raise sase-core-rs floor | [sase-i8.8](sase-i8.8.md) | 2026-08-10 07:46:04 EDT |
 | sase | [`6d131aa`](https://github.com/sase-org/sase/commit/6d131aa7b4df28d10211d4a6ee6df84ac173e9fc) | fix(vcs): forward optional VCS hook arguments | [sase-i8.10.1](sase-i8.10.1.md) | 2026-08-10 08:49:32 EDT |
+| sase | [`e9e414e`](https://github.com/sase-org/sase/commit/e9e414e2f5a55ba3a79e1b5cd0239e1749d51792) | test(vcs-log): give each remote-fixture test its own bare origin path | [sase-i8.10.2](sase-i8.10.2.md) | 2026-08-10 09:38:06 EDT |

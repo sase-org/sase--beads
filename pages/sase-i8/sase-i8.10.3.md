@@ -14,7 +14,7 @@ accept: run the full acceptance matrix the closed verify phase never recorded, a
 ## Dependencies
 
 - **Depends on:** [sase-i8.10.1](sase-i8.10.1.md) ✓ · ⧖ 2026-08-10
-- **Depends on:** [sase-i8.10.2](sase-i8.10.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-i8.10.2](sase-i8.10.2.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-i8.10.4](sase-i8.10.4.md) ◐ · ⧖ 2026-08-10
 
 ## Agents
