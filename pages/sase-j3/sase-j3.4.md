@@ -13,7 +13,7 @@ pane: add the `gt` / `Ctrl+G t` keymap and its hint, open the named snippet pane
 
 ## Dependencies
 
-- **Depends on:** [sase-j3.2](sase-j3.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j3.2](sase-j3.2.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-j3.3](sase-j3.3.md) ◐ · ⧖ 2026-08-10
 - **Blocks:** [sase-j3.5](sase-j3.5.md) ◐ · ⧖ 2026-08-10
 - **Blocks:** [sase-j3.6](sase-j3.6.md) ◐ · ⧖ 2026-08-10
