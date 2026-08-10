@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-il.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.1/README.md) | [sase-il.7.1](sase-il.7.1.md) | 2 |
 | [bbugyi200.athena.sase-il.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.2/README.md) | [sase-il.7.2](sase-il.7.2.md) | 2 |
 | [bbugyi200.athena.sase-il.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.3/README.md) | [sase-il.7.3](sase-il.7.3.md) | 1 |
-| [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 0 |
+| [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 1 |
 | [bbugyi200.athena.sase-il.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.land/README.md) | [sase-il](README.md) | 0 |
 
 ## Commits
@@ -112,3 +112,4 @@ flowchart TD
 | sase--plans | [`sase--plans@a91c313`](https://github.com/sase-org/sase--plans/commit/a91c3138f39ab772c092fac5029c010d15aee942) | chore(plans): correct over-sized tale backfill | [sase-il.7.2](sase-il.7.2.md) | 2026-08-10 12:37:18 EDT |
 | sase | [`dcb243b`](https://github.com/sase-org/sase/commit/dcb243b753b1cbc61d5a4b136063792e888d87ff) | feat!: adopt core tale size contract | [sase-il.7.2](sase-il.7.2.md) | 2026-08-10 12:57:22 EDT |
 | sase--plans | [`sase--plans@73074f0`](https://github.com/sase-org/sase--plans/commit/73074f049586263d10bf651b5977e8939fd7b34b) | docs(plans): mark sase-il landing plans done | [sase-il.7.3](sase-il.7.3.md) | 2026-08-10 13:30:04 EDT |
+| sase | [`7691738`](https://github.com/sase-org/sase/commit/769173869556de3c3677510703c0180ad019dee2) | docs: document the tale size contract and show its launch normalization | [sase-il.7](sase-il.7.md) | 2026-08-10 13:55:58 EDT |

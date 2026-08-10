@@ -62,4 +62,10 @@ error: recipe `validate-committed-plans` failed on line 735 with exit code 1 pas
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 0 |
+| [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7691738`](https://github.com/sase-org/sase/commit/769173869556de3c3677510703c0180ad019dee2) | docs: document the tale size contract and show its launch normalization | [sase-il.7](sase-il.7.md) | 2026-08-10 13:55:58 EDT |
