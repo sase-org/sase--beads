@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-ib
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.wk](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.wk/README.md) · **Assignee:** `sase-ib.land`
-**Created:** 2026-08-09 10:29:40 EDT
+**Created:** 2026-08-09 10:29:40 EDT · **Closed:** 2026-08-10 08:51:38 EDT
 **Plan:** [202608/fast\_test\_suite\_1.md](https://github.com/sase-org/sase--plans/blob/main/202608/fast_test_suite_1.md)
 
 ## Description
@@ -28,6 +28,26 @@ WHY THIS EPIC: phases sase-ib.2 (cfe18d7f0, 'make ACE TUI waits event-driven') a
 
 IMPACT: 'just check'/'just check-full' cannot go green for any agent on master, and the hang burns a full agent slot until killed.
 
+[2026-08-10T12:00:23Z · toobig-2a.split_file.src.sase.dev_update.prebuild.0] DISCOVERED ISSUE: Independent recurrence on 2026-08-10 during the full-suite escalation for an unrelated dev_update/prebuild.py split. The governed xdist run reached 99% with 28,154 passes, then made no progress for over six minutes; py-spy showed multiple workers stuck at pytest_asyncio/plugin.py:905 -> asyncio run_until_complete -> selectors.py:452 select(), and another worker retained multiple idle sase-ace-task-mirror threads. This matches the existing hard-hang signature on this epic. Before interruption, the run also reproduced the already-recorded serial/order-pollution failures in agent onboarding, changespec onboarding, footer visibility, mounted navigation, and agent metadata search. The refactor's 48 focused tests pass and none of the 24 displayed failures touch dev_update.
+
+[2026-08-10T12:02:43Z · toobig-2a.split_file.src.sase.dev_update.prebuild.0] SUPPLEMENTARY EVIDENCE: All 10 additional TUI nodes that failed before the 99% hang pass in fresh one-node pytest processes (agent-group revival x2; artifacts beads navigation; artifacts commits/bugs/plans/non-PR navigation x4; prompt glossary navigation; plugin action modal scrolling; commits timeline rendering). This confirms the displayed TUI failures are suite-order/shared-state pollution rather than deterministic regressions in those features or the unrelated prebuild refactor.
+
+[2026-08-10T12:50:49Z · sase-ik.land] DISCOVERED ISSUE (proposed by sase-ik.3; independently reproduced by sase-ik.land): phase sase-ik.3 recorded the prompt-highlighting visual file timing out existing cases on pending prompt-catalog:0 while its new wrapped snapshot passed focused, plus a full just test lane non-terminal beyond 12 minutes. Landing reproduction on 2026-08-10 ran governed just test-cost with four workers under host contention: it reached 99% with 26 failures / 28,168 passes, then all four workers were stuck in pytest_asyncio run_until_complete -> selectors.select with leaked sase-ace-task-mirror/toast-writer threads; interrupted at 14:46. The full lane failed test_k_on_glossary_term_pushes_glossary_preview_card, while today’s focused 58-test glossary/ACE suite passed that exact node. This exactly corroborates the active epic’s existing async-hang/shared-state-pollution issue and is not caused by glossary epic sase-ik; duplicate umbrella evidence was also added to sase-ct.
+
+[2026-08-10T12:51:38Z · sase-ib.land] Verified all 7 phases (deliverables present in tree, commits b5b5ded84/cfe18d7f0/44bf25f84/98d95848a/35d2d51f9/2e55ed330/ee9603d31) and every child note, then root-caused and fixed the two defects this epic caused and its phases had recorded as unexplained.
+
+CAUSE 1 (this bead's DISCOVERED ISSUE: 12-13 order-dependent ACE TUI failures): sase-ib.3's fast stylesheet cache deepcopied `rules` and `rules_map` in two separate calls. `RuleSet` hashes by identity and `Stylesheet.apply` narrows `rules` by membership in a set built from `rules_map`, so a hydrated stylesheet matched ZERO rules and every ACE app after the first in a worker booted with no CSS at all. Fixed by copying both halves in one deepcopy; regression test asserts indexed rule ids are a subset of the rule-list ids and that cached and freshly parsed apps yield identical widget geometry.
+
+CAUSE 2 (the hard hang): sase-ib.2's settle barrier awaited `MessagePump.wait_for_refresh()`, which discards the `post_message` result and awaits its event unconditionally. A closed pump leaves that waiter with nothing to wake it and there is no per-test timeout, so the suite wedges instead of failing. Fixed with a pump-state check plus a bounded 15s backstop; 2 tests.
+
+CAUSE 3: sase-ib.7 filed test_revive_agent_modal ctrl+k as an unrelated deterministic break. It is epic work: the epic's faster settle stopped masking a bare `pilot.pause()` over a worker/`asyncio.to_thread` page load. Both bare pauses replaced with end-state waits.
+
+INTEGRATION with post-epic commits: (a) sase-ib.4 added tests/main/parser_cli_helpers.py::parse_sase_args; 59ea423c6 landed afterward and added 11 new full `create_parser()` builds in tests/test_bead/test_cli_list.py -- converted all 35 sites there. (b) sase-ib.7 switched `just check-full` from `just test` to `just test-cost`, silently removing the landing gate from the selection-health failure store because `cost` was not in FULL_LANE_MODES; added HEALTH_RECORDING_MODES so the cost lane records failures while staying out of TIMINGS_RECORDING_MODES (its probe taxes exactly the durations that table is for), plus a test and docs.
+
+VERIFIED: `just lint` green on all 11 gates. This bead's REPRODUCTION A now passes 36/36 (was 12 failed / 24 passed). tests/ace (8659 nodes, xdist -n4) completes in 431s with NO hang. Focused tests for every changed file pass (101). `just check` passes every lint gate and SASE validation and then fails only at validate-committed-plans on 202608/new_task_recent_task_sweep.md missing `size` -- a pre-existing break from sase-il.3, corroborated on epic sase-il, not this epic's. The one ACE failure, test_following_a_live_store_row_bypasses_the_mtime_cache[success-True], is the already-filed sase-ii and passes in a fresh serial process (+1 recorded). The full governed lane could not be run: it escalates (selection-tooling) and three peer agents held all 32 worker tokens.
+
+FOLLOW-UPS: sase-ib.4 subprocess cost-bucket split -> new task sase-ip (medium, ready). sase-ib.6 VCS-log flake -> recorded on active epic sase-i8. sase-ib.7 contract-manifest breakage -> recorded on active epic sase-ij. sase-ib.7 ctrl+k modal failure and full-lane ACE failures/hang -> declined as separate tasks; both epic-caused and fixed here. sase-ib.7 fmt-md-check and memory-README drift proposals -> declined as no longer reproducing (0c2d5dd71 fixed it; `fmt (markdown)` and `SASE validation` both pass), noted on sase-if/sase-ig/sase-ih.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -44,7 +64,7 @@ IMPACT: 'just check'/'just check-full' cannot go green for any agent on master, 
 
 ```mermaid
 flowchart TD
-    n0["sase-ib: Make `just test` fast under agent contention [in_progress]"]
+    n0["sase-ib: Make `just test` fast under agent contention [closed]"]
     n1["sase-ib.1: Suite cost harness and committed baseline [closed]"]
     n2["sase-ib.2: Eliminate idle waiting in ACE TUI tests [closed]"]
     n3["sase-ib.3: Amortize ACE app startup across tests [closed]"]
@@ -84,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 1 |
 | [bbugyi200.athena.sase-ib.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.6/README.md) | [sase-ib.6](sase-ib.6.md) | 1 |
 | [bbugyi200.athena.sase-ib.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.7/README.md) | [sase-ib.7](sase-ib.7.md) | 1 |
-| [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 0 |
+| [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 1 |
 
 ## Commits
 
@@ -97,3 +117,4 @@ flowchart TD
 | sase | [`2e55ed3`](https://github.com/sase-org/sase/commit/2e55ed33011088281f658b53978d1a799da209dc) | fix(test): share default pytest worker tokens fairly | [sase-ib.6](sase-ib.6.md) | 2026-08-09 13:49:07 EDT |
 | sase | [`44bf25f`](https://github.com/sase-org/sase/commit/44bf25f84fecc2ee32c0c6fc8cf58a642f0f632b) | perf(ace): amortize ACE test app startup | [sase-ib.3](sase-ib.3.md) | 2026-08-09 14:35:04 EDT |
 | sase | [`ee9603d`](https://github.com/sase-org/sase/commit/ee9603d31e67a10f54b3a13fbf88e7cd55158572) | test: add suite cost regression budgets | [sase-ib.7](sase-ib.7.md) | 2026-08-10 07:52:38 EDT |
+| sase | [`354d8c1`](https://github.com/sase-org/sase/commit/354d8c19f9aac646448b58ab6259d7333ba1f9f1) | fix(ace): apply cached stylesheets and bound the settle barrier | [sase-ib](README.md) | 2026-08-10 08:53:27 EDT |
