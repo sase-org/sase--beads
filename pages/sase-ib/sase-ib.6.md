@@ -23,7 +23,7 @@ gate: make the host-global worker-token pool split fairly between concurrent run
 
 - **Depends on:** [sase-ib.1](sase-ib.1.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ib.5](sase-ib.5.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.7](sase-ib.7.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.7](sase-ib.7.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

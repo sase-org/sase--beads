@@ -22,7 +22,7 @@ overhead: remove the repeated full-argparse parser builds, gettext lookups, YAML
 ## Dependencies
 
 - **Depends on:** [sase-ib.1](sase-ib.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.7](sase-ib.7.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.7](sase-ib.7.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

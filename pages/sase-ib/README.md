@@ -11,6 +11,23 @@
 
 `just test` runs the same 27,978 tests in roughly half the CPU-seconds and a fraction of the wall clock it costs today, on an idle host and — especially — when several SASE agents run it concurrently, with no test deleted, skipped, re-marked `slow`, or weakened, and with no increase in host CPU or memory pressure.
 
+## Notes
+
+[2026-08-09T22:08:45Z · sase-i9.land] DISCOVERED ISSUE: 12-13 ACE TUI tests fail order-dependently on clean master, and 3 async tests hang the scoped suite forever. Found by sase-i9.land while landing epic sase-i9; confirmed NOT caused by sase-i9 (reproduced with that epic's diff stashed, tree clean at 4f54489af).
+
+REPRODUCTION A (order-dependent failures, serial, no xdist):
+  .venv/bin/python -m pytest tests/ace/tui/test_agents_onboarding.py tests/ace/tui/test_changespecs_onboarding.py tests/ace/tui/test_footer_visibility.py tests/ace/tui/test_agents_panel_fold_mounted.py tests/ace/tui/test_agent_metadata_search.py -q -p no:randomly
+  -> 12 failed, 24 passed in 28.63s
+Failing nodes: test_agents_onboarding.py::{test_agents_onboarding_visible_after_empty_load_direct_agents_tab, test_agents_onboarding_visible_for_hidden_only_workflow, test_agents_onboarding_reappears_after_last_visible_agent_disappears}; test_changespecs_onboarding.py::{test_patches_onboarding_visible_after_empty_startup, test_patches_onboarding_visible_when_saved_queries_exist, test_patches_onboarding_visible_when_specs_are_filtered_out, test_patches_onboarding_reappears_after_last_patch_disappears, test_patches_onboarding_ignores_saved_query_cache_invalidates}; test_footer_visibility.py::{test_custom_footer_status_visible_in_normal_one_line_state, test_leader_footer_final_grid_row_visible}; test_agents_panel_fold_mounted.py::test_mounted_clan_fold_chords_zoom_and_patch_isolation; test_agent_metadata_search.py::test_inline_metadata_search_commit_repeat_q_and_passthrough. A 13th, test_agents_onboarding_visible_after_empty_load_tab_switch, also failed in the wider 60-file scoped selection (13 failed, 613 passed).
+
+KEY EVIDENCE -- it is pollution, not a deterministic break: every one of these passes when run alone. 'pytest tests/ace/tui/test_footer_visibility.py::test_leader_footer_final_grid_row_visible' passes; running just that 2-test MODULE fails it; running the 5 modules together fails 12. So shared ACE app/page state leaks across tests within and between modules. This is a serial, non-xdist reproduction, so it is NOT the sase-ct/sase-h8 parallel flake class.
+
+REPRODUCTION B (hard hang): 'just check' in workspace sase_10 wedged at 99% for 40+ min and never exited. py-spy on the 6 xdist workers: 3 stuck in MainThread at pytest_asyncio/plugin.py:905 -> asyncio run_until_complete -> selectors.py:452 select(), i.e. an async test awaiting something that never resolves; the xdist master sat in dsession.py:154 queue.get forever. Hung worker locals show the funcargs include the '_test_llm_bin' fixture (tests/conftest.py). Leaked threads visible in idle workers: 'sase-ace-task-mirror', 'sase-tui-toast-log-writer'. There is no per-test timeout, so this hangs the suite indefinitely rather than failing.
+
+WHY THIS EPIC: phases sase-ib.2 (cfe18d7f0, 'make ACE TUI waits event-driven') and sase-ib.3 (44bf25f84, 'amortize ACE test app startup', which added src/sase/ace/testing/ace_page_group.py + _stylesheet_cache.py and the AcePageGroup shared-app checkout) are the only recent changes to ACE TUI test app lifecycle and wait semantics, which is exactly the surface both symptoms implicate. CAVEAT -- I did NOT bisect, so attribution is circumstantial: note that tests/ace/tui/ace_page_group_files.txt currently lists only test_vim_normal_key_containment.py, so the failing modules are not yet on AcePageGroup, which points more at sase-ib.2's event-driven waits (or the leaked background threads) than at the shared-app checkout. sase-ib.7 ('Lock in the win with a cost regression gate') is still open and is the natural place to add both an isolation-pollution check and a per-test timeout so a wedged async test fails instead of hanging. If sase-ib.land bisects this to a commit outside this epic, please reassign.
+
+IMPACT: 'just check'/'just check-full' cannot go green for any agent on master, and the hang burns a full agent slot until killed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -21,7 +38,7 @@
 | [sase-ib.4](sase-ib.4.md) | Cut cross-cutting per-test overhead outside the TUI | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.5](sase-ib.5.md) | Shrink worker memory and collection cost | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-ib.6](sase-ib.6.md) | Fair worker allocation when agents run in parallel | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-ib.7](sase-ib.7.md) | Lock in the win with a cost regression gate | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
+| [sase-ib.7](sase-ib.7.md) | Lock in the win with a cost regression gate | ✓ closed | small | 2026-08-09 | 1 | 1 |
 
 ## Lineage
 
@@ -34,7 +51,7 @@ flowchart TD
     n4["sase-ib.4: Cut cross-cutting per-test overhead outside the TUI [closed]"]
     n5["sase-ib.5: Shrink worker memory and collection cost [closed]"]
     n6["sase-ib.6: Fair worker allocation when agents run in parallel [closed]"]
-    n7["sase-ib.7: Lock in the win with a cost regression gate [in_progress]"]
+    n7["sase-ib.7: Lock in the win with a cost regression gate [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ib.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.4/README.md) | [sase-ib.4](sase-ib.4.md) | 1 |
 | [bbugyi200.athena.sase-ib.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.5/README.md) | [sase-ib.5](sase-ib.5.md) | 1 |
 | [bbugyi200.athena.sase-ib.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.6/README.md) | [sase-ib.6](sase-ib.6.md) | 1 |
-| [bbugyi200.athena.sase-ib.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.7/README.md) | [sase-ib.7](sase-ib.7.md) | 0 |
+| [bbugyi200.athena.sase-ib.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.7/README.md) | [sase-ib.7](sase-ib.7.md) | 1 |
 | [bbugyi200.athena.sase-ib.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ib.land/README.md) | [sase-ib](README.md) | 0 |
 
 ## Commits
@@ -79,3 +96,4 @@ flowchart TD
 | sase | [`cfe18d7`](https://github.com/sase-org/sase/commit/cfe18d7f0de46080e1a5b9e509845261e543b946) | perf(test): make ACE TUI waits event-driven | [sase-ib.2](sase-ib.2.md) | 2026-08-09 13:22:25 EDT |
 | sase | [`2e55ed3`](https://github.com/sase-org/sase/commit/2e55ed33011088281f658b53978d1a799da209dc) | fix(test): share default pytest worker tokens fairly | [sase-ib.6](sase-ib.6.md) | 2026-08-09 13:49:07 EDT |
 | sase | [`44bf25f`](https://github.com/sase-org/sase/commit/44bf25f84fecc2ee32c0c6fc8cf58a642f0f632b) | perf(ace): amortize ACE test app startup | [sase-ib.3](sase-ib.3.md) | 2026-08-09 14:35:04 EDT |
+| sase | [`ee9603d`](https://github.com/sase-org/sase/commit/ee9603d31e67a10f54b3a13fbf88e7cd55158572) | test: add suite cost regression budgets | [sase-ib.7](sase-ib.7.md) | 2026-08-10 07:52:38 EDT |

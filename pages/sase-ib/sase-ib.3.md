@@ -19,7 +19,7 @@ boot: cut the cost of one ACE app boot and add a supported way for a group of te
 
 - **Depends on:** [sase-ib.1](sase-ib.1.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ib.2](sase-ib.2.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.7](sase-ib.7.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.7](sase-ib.7.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

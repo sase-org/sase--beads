@@ -21,7 +21,7 @@ footprint: reduce the per-worker collection time and the resident memory each xd
 
 - **Depends on:** [sase-ib.1](sase-ib.1.md) ✓ · ⧖ 2026-08-09
 - **Blocks:** [sase-ib.6](sase-ib.6.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ib.7](sase-ib.7.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ib.7](sase-ib.7.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
