@@ -16,7 +16,7 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-il.1](sase-il.1.md) | Robust long-note parent support | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-il.2](sase-il.2.md) | Generated sase\_sizes.md memory note | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
+| [sase-il.2](sase-il.2.md) | Generated sase\_sizes.md memory note | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-il.3](sase-il.3.md) | Required tale size in sase-core | ✓ closed | medium | 2026-08-09 | 1 | 3 |
 | [sase-il.4](sase-il.4.md) | Adopt tale size in sase | ◐ in_progress | medium | 2026-08-09 | 1 | 0 |
 | [sase-il.5](sase-il.5.md) | Retire the coder alias bucket | ◐ in_progress | large | 2026-08-09 | 1 | 0 |
@@ -28,7 +28,7 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 flowchart TD
     n0["sase-il: Canonical sase-size memory and size-driven agent routing [in_progress]"]
     n1["sase-il.1: Robust long-note parent support [closed]"]
-    n2["sase-il.2: Generated sase_sizes.md memory note [in_progress]"]
+    n2["sase-il.2: Generated sase_sizes.md memory note [closed]"]
     n3["sase-il.3: Required tale size in sase-core [closed]"]
     n4["sase-il.4: Adopt tale size in sase [in_progress]"]
     n5["sase-il.5: Retire the coder alias bucket [in_progress]"]
@@ -50,7 +50,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-il.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.1/README.md) | [sase-il.1](sase-il.1.md) | 1 |
-| [bbugyi200.athena.sase-il.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.2/README.md) | [sase-il.2](sase-il.2.md) | 0 |
+| [bbugyi200.athena.sase-il.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.2/README.md) | [sase-il.2](sase-il.2.md) | 1 |
 | [bbugyi200.athena.sase-il.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.3/README.md) | [sase-il.3](sase-il.3.md) | 3 |
 | [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 0 |
 | [bbugyi200.athena.sase-il.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.5/README.md) | [sase-il.5](sase-il.5.md) | 0 |
@@ -66,3 +66,4 @@ flowchart TD
 | sase-core | [`sase-core@3c10a0c`](https://github.com/sase-org/sase-core/commit/3c10a0cb7b8a222503440760f946b2cdfef15beb) | feat!: require tale size in core plan validation | [sase-il.3](sase-il.3.md) | 2026-08-09 17:41:09 EDT |
 | sase--plans | [`sase--plans@97845e6`](https://github.com/sase-org/sase--plans/commit/97845e6e0c04dc551b67e2cf275da9a5bfb4f330) | chore(plans): backfill tale sizes for committed plans | [sase-il.3](sase-il.3.md) | 2026-08-09 17:42:23 EDT |
 | sase | [`46fbdc0`](https://github.com/sase-org/sase/commit/46fbdc07a158cb4f97ce2c70913dd146fb6b0cc8) | feat!: require tale size in SASE plan validation | [sase-il.3](sase-il.3.md) | 2026-08-09 17:43:43 EDT |
+| sase | [`f42a68c`](https://github.com/sase-org/sase/commit/f42a68c074088ec05e1a804659e2abc54a2c458d) | feat(memory): generate SASE size guidance note | [sase-il.2](sase-il.2.md) | 2026-08-10 07:47:42 EDT |

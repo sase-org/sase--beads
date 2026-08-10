@@ -21,7 +21,7 @@ memory-parent: make a long memory note parented by another long note a first-cla
 
 ## Dependencies
 
-- **Blocks:** [sase-il.2](sase-il.2.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-il.2](sase-il.2.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
