@@ -13,7 +13,7 @@ config-keys: rename the `commits_*` app keymap actions to `stitches_*`, the `art
 
 ## Dependencies
 
-- **Depends on:** [sase-j8.2](sase-j8.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j8.2](sase-j8.2.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-j8.4](sase-j8.4.md) ◐ · ⧖ 2026-08-10
 
 ## Agents

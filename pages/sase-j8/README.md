@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-j8.1](sase-j8.1.md) | Rename the sase vcs CLI command to sase stitch | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-j8.2](sase-j8.2.md) | Rename the ACE Artifacts sub-tab identifier to stitches | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-j8.2](sase-j8.2.md) | Rename the ACE Artifacts sub-tab identifier to stitches | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j8.3](sase-j8.3.md) | Rename user-configurable commits keymap and config keys | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
 | [sase-j8.4](sase-j8.4.md) | Flip user-visible Commits text to Stitches and refresh snapshots | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
 
@@ -26,7 +26,7 @@
 flowchart TD
     n0["sase-j8: Rename sase vcs to sase stitch and the ACE Commits sub-tab to Stitches [in_progress]"]
     n1["sase-j8.1: Rename the sase vcs CLI command to sase stitch [closed]"]
-    n2["sase-j8.2: Rename the ACE Artifacts sub-tab identifier to stitches [in_progress]"]
+    n2["sase-j8.2: Rename the ACE Artifacts sub-tab identifier to stitches [closed]"]
     n3["sase-j8.3: Rename user-configurable commits keymap and config keys [in_progress]"]
     n4["sase-j8.4: Flip user-visible Commits text to Stitches and refresh snapshots [in_progress]"]
     n0 --> n1
@@ -42,7 +42,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-j8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.1/README.md) | [sase-j8.1](sase-j8.1.md) | 1 |
-| [bbugyi200.athena.sase-j8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.2/README.md) | [sase-j8.2](sase-j8.2.md) | 0 |
+| [bbugyi200.athena.sase-j8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.2/README.md) | [sase-j8.2](sase-j8.2.md) | 1 |
 | [bbugyi200.athena.sase-j8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.3/README.md) | [sase-j8.3](sase-j8.3.md) | 0 |
 | [bbugyi200.athena.sase-j8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.4/README.md) | [sase-j8.4](sase-j8.4.md) | 0 |
 | [bbugyi200.athena.sase-j8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.land/README.md) | [sase-j8](README.md) | 0 |
@@ -52,3 +52,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`83e3d3c`](https://github.com/sase-org/sase/commit/83e3d3c274be7baf5f59d3d28040e1e1bcf0d383) | feat(cli): rename vcs command to stitch | [sase-j8.1](sase-j8.1.md) | 2026-08-10 17:07:34 EDT |
+| sase | [`c69d163`](https://github.com/sase-org/sase/commit/c69d16378ce32661565654463c19f8dd03c2ac76) | refactor(ace): rename Artifacts commits sub-tab identifier to stitches | [sase-j8.2](sase-j8.2.md) | 2026-08-10 17:47:04 EDT |
