@@ -13,7 +13,7 @@ coder-alias: delete the `coder` and `<provider>_coder` implicit aliases and rout
 
 ## Dependencies
 
-- **Depends on:** [sase-il.4](sase-il.4.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-il.4](sase-il.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

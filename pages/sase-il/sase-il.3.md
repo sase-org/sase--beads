@@ -23,7 +23,7 @@ core-tale-size: require and validate a tale plan's `size` frontmatter in the sas
 
 ## Dependencies
 
-- **Blocks:** [sase-il.4](sase-il.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-il.4](sase-il.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

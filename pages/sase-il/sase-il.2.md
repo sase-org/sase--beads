@@ -22,7 +22,7 @@ sizes-memory: add the generated `sase/memory/sase_sizes.md` long note parented b
 ## Dependencies
 
 - **Depends on:** [sase-il.1](sase-il.1.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-il.4](sase-il.4.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-il.4](sase-il.4.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
