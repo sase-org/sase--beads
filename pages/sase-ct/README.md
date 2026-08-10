@@ -2,11 +2,29 @@
 
 [Bead Pages](../README.md) / sase-ct
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +26 · **↺ Reopened:** ↺5
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qr](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.qr.md) · **Assignee:** `sase-ct`
-**Created:** 2026-07-31 18:13:20 EDT · **Closed:** 2026-08-07 14:20:16 EDT
+**Status:** ◇ ready · **Type:** ◆ task · **+1 reports:** +52 · **↺ Reopened:** ↺8
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.qr](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.qr.md) · **Assignee:** `sase-ct` · **Size:** large
+**Created:** 2026-07-31 18:13:20 EDT
 
 ## Previously Closed
+
+> ↺ Closed 2026-08-10T14:14:26Z · done
+>
+> (none)
+>
+> Reopened 2026-08-10T14:15:07Z by a +1 from @wz
+
+> ↺ Closed 2026-08-10T13:15:04Z · done
+>
+> (none)
+>
+> Reopened 2026-08-10T13:41:01Z by a +1 from @sase-ii
+
+> ↺ Closed 2026-08-07T18:20:16Z · done
+>
+> (none)
+>
+> Reopened 2026-08-07T21:35:15Z by a +1 from @sase-go
 
 > ↺ Closed 2026-08-07T16:46:55Z · done
 >
@@ -78,7 +96,7 @@ first "tui_hitch_recovered" event and then unpacked exactly 2 records
 (hitch, recovery = records). Deterministically confirmed (throwaway repro,
 not committed) that this is not just an over-strict count assertion like t
 
-… and 2844 more characters
+… and 8628 more characters
 
 ## +1 Evidence
 
@@ -236,22 +254,131 @@ not committed) that this is not just an over-strict count assertion like t
 >
 > Independent reproduction on 2026-08-07 while working task sase-h2 (visual-snapshot symbol fallback font), after this bead was closed as done at 16:46:55Z and after 156cac833 loosened the watchdog independence test. Three consecutive 'just check' runs on the same tree each failed exactly one different ACE TUI node under the parallel lane, and each passed in isolation immediately afterward: (1) tests/ace/tui/widgets/test_prompt_at_prefix_completion.py::TestAtPrefixIntegration::test_at_prefix_directory_drilldown, (2) tests/ace/tui/test_notification_custom_gate.py::test_tracked_executor_reports_terminal_and_extra_commands_live, (3) tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_records_compact_loop_hitch_and_recovery. Note (3) is a DIFFERENT watchdog node from the test_watchdog_keeps_hitch_and_stall_state_machines_independent one 156cac833 fixed, so the wall-clock-threshold remediation has not been applied suite-wide. Attribution controlled: a git-stashed clean tree ran 'just test-scoped' green (27005 passed), and the restored working tree then ran the same lane green (27005 passed) and a fourth 'just check' fully green; sase-h2's diff touches no src/ code at all (test fonts, a test file, docs, pyproject visual extra, and PNG goldens). Impact: cost three re-runs of a ~3-minute mandatory gate on a change with zero TUI surface.
 
+> **+1** by `sase-go` · 2026-08-07 17:35:15 EDT
+>
+> Independent recurrence on 2026-08-07 while working task sase-go (contract-set budget guard flake fix): a whole-repo 'just check' run (my change to tests/_test_contract_budget.py escalated the scoped lane to the full suite) failed exactly one node, tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent, out of 27066 passed / 8 skipped in 331.20s. Re-ran the same node in isolation immediately after: 1 passed in 0.98s. Notable because this is the exact node 156cac833 already loosened (exact hitch/stall counts -> >=1) to fix under this same umbrella (relayed via sase-gy.land on 2026-08-07T16:24:03Z); that commit is an ancestor of my tree (28d40c5a8), so this is a recurrence of the same node *after* its targeted remediation landed, not a still-unfixed-since-report case. sase-go's own changes only touch tests/_test_contract_budget.py, tests/test_contract_manifest.py, and tests/test_contract_budget_normalization.py (the contract-set budget guard), so this is unrelated to and not caused by that work.
+
+> **+1** by `toobig-1z.split_file.src.sase.ace.tui.modals.gate_branch_controls.0` · 2026-08-07 23:19:03 EDT
+>
+> Independent recurrence on 2026-08-07 in the PNG visual lane at master f980248c1: a full 'just test-visual' (28 workers, 560 passed) failed tests/ace/tui/visual/test_ace_png_snapshots_agents_retry_e2e.py::test_real_fakey_retry_countdown_png_snapshot, which then passed cleanly on an immediate focused rerun of its file (12 passed) — the same fail-under-load/pass-in-isolation shape this umbrella tracks, on a countdown node whose rendering is wall-clock dependent. Discovered while splitting src/sase/ace/tui/modals/gate_branch_controls.py (unrelated pure refactor). The other failure in that same run, test_frontmatter_panel_raw_diagnostics_png_snapshot, is deterministic and NOT part of this class; it is stale-golden drift from epic sase-h7's ENUM input type and was recorded there instead.
+
+> **+1** by `sase-h7.13.land` · 2026-08-08 00:25:47 EDT
+>
+> Independent recurrence, two new test nodes in the same class. (1) tests/ace/tui/test_commits_pane_rendering.py::test_commits_renderer_builds_compact_single_line_rows failed only under the full parallel 'just test' run and passed in isolation, observed by epic sase-h7.13's land phase on master 86a54a674; it did not recur in my own full 'just check-full' run at 20752def2 (1 failed, 27555 passed -- the one failure was the unrelated test_content_layout schema_version drift). (2) The same shape now also reaches the visual lane: tests/ace/tui/visual/test_ace_png_snapshots_agents_slow_tools.py::test_agents_slow_tool_calls_fold_levels_png_snapshots failed in a full 'just test-visual' run (1 failed, 561 passed) and passed immediately on a targeted rerun of the same file. Reported by sase-h7.13's land agent.
+
+> **+1** by `ci_fix.sase.k` · 2026-08-08 02:06:45 EDT
+>
+> Independent recurrence in master CI run 31240705685 (commit ed50d45, 2026-08-08), observed while diagnosing an unrelated deterministic CI failure. Two distinct nodes each failed in exactly one job leg and passed in the other two legs of the same run: tests/ace/tui/test_residual_freeze_soak.py::test_lowered_threshold_soak_keeps_fixed_paths_responsive failed only in test (3.12) with textual.worker.WorkerFailed: NoMatches("No nodes match '#notification-indicator' on Screen(id='_default')"), and tests/ace/tui/test_plugin_action_confirm_modal.py::test_plugin_action_modal_scrolls_overflowing_preview failed only in test (3.14) with 'assert 2.0 == 0' where 2.0 = VerticalScroll(id='plugin-action-preview-scroll').scroll_y. The coverage-contexts job on the same commit passed both nodes and failed only the 11 deterministic failures. Neither reproduces locally: after fixing the deterministic failures, a full scoped run in this workspace was 27602 passed / 10 skipped with both nodes green. The plugin-action-modal node is the exact test previously tracked as sase-ep before it was superseded into this umbrella; the residual-freeze-soak node looks like the real-wall-clock-threshold family that phase sase-h8.5 is currently fixing.
+
+> **+1** by `sase-ha.land` · 2026-08-08 09:58:29 EDT
+>
+> Two independent instances of this umbrella's exact shape, observed on 2026-08-08 by epic land agent sase-ha.land on a clean master tree (204537c97) in workspace sase_11. (1) tests/ace/tui/visual/test_ace_png_snapshots_agents_slow_tools.py::test_agents_slow_tool_calls_fold_levels_png_snapshots failed as the sole failure of a full 'just test-visual' run (1 failed, 561 passed, 1 skipped in 76.76s) with 'AssertionError: Timed out after 15.00s waiting for loaded tools footer' — a settle/timing timeout, not a pixel diff — and the run recorded it as the slowest node at 17.98s. It passes in isolation immediately after: 'just test-visual tests/ace/tui/visual/test_ace_png_snapshots_agents_slow_tools.py' -> 1 passed, 4.64s call. New node for this bead; note it is a PNG-suite node whose failure mode is the pump/settle race this umbrella tracks, not renderer drift. (2) tests/test_multi_prompt_launcher_xprompt_groups.py::test_launcher_qualifies_research_swarm_per_dispatch was reported by phase agent sase-ha.3 on 2026-08-07 as failing once under the full parallel 'just test-scoped' lane while passing in isolation, with its own file, and against a clean tree. Recording both here rather than as new tasks, per this umbrella's scope. Separately verified NOT a member of this class in the same session: the previously-flagged tests/ace/tui/visual/test_ace_png_snapshots_frontmatter_panel.py::test_frontmatter_panel_raw_diagnostics_png_snapshot pixel drift (415/1520532 px, noted on sase-ha 2026-08-08T02:05:36Z) now passes clean.
+
+> **+1** by `vo` · 2026-08-08 10:39:22 EDT
+>
+> Independent recurrence during gate_required_input_focus verification on 2026-08-08: just check-full passed all lint/SASE validation gates, then the full parallel test lane failed only tests/ace/tui/util/test_stall_watchdog.py::test_watchdog_keeps_hitch_and_stall_state_machines_independent after 27,632 passed / 10 skipped; the exact node passed immediately in isolation (1 passed in 4.92s). This work touched ACE gate input focus and custom-gate tests, not stall-watchdog internals, matching the umbrella's fail-under-full-parallel-load / pass-in-isolation class.
+
+> **+1** by `vp` · 2026-08-08 11:38:52 EDT
+>
+> Independent recurrence during selected_notification_snooze_countdown verification on 2026-08-08: full 'just test-visual' failed only tests/ace/tui/visual/test_ace_png_snapshots_agents_slow_tools.py::test_agents_slow_tool_calls_fold_levels_png_snapshots with 'Timed out after 15.00s waiting for loaded tools footer' after 562 passed / 1 skipped. The exact node passed immediately in isolation (1 passed, 4.48s call), and a full 'just test-visual' rerun then passed clean (563 passed / 1 skipped). This change touched the notification modal snooze-status line and related tests only, so the failure matches the existing fail-under-full-visual-load / pass-in-isolation umbrella rather than this work.
+
+> **+1** by `sase-h8.10.land` · 2026-08-08 13:17:15 EDT
+>
+> Proposed by phase sase-h8.10.4 and independently rechecked by sase-h8.10.land: five new nodes each failed 1/3 full just test-contention repeats at 9360e850c, then all five passed together in isolation at current HEAD e368d5756 (5 passed in 3.63s). Nodes: test_artifact_file_modal_Y_anchors_workspace_stored_path_and_stays_open; test_plan_worker_is_cancelled_and_late_result_ignored_on_unmount; test_completed_family_member_relaunch_dismisses_only_selected_child; test_large_backlog_builds_one_inventory_and_publishes_each_hood_once; test_canonical_query_round_trip_property. Same fail-under-full-parallel-load/pass-in-isolation class; needs F1-F6 mechanism triage rather than a separate task.
+>
+> **References:** file:explicit:c163965096076ddf2cb31881, file:explicit:2936172d6b360805316b93fb, file:explicit:c127588f8314583ddb8d68b1
+
+> **+1** by `vt` · 2026-08-08 13:25:55 EDT
+>
+> Independent recurrence during launch_state_thrash verification on 2026-08-08: full just check-full passed all lint/SASE validation gates, then the full parallel test lane failed exactly one node, tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor, after 27,711 passed / 10 skipped. The exact node passed immediately in isolation (1 passed in 3.63s), and the whole tests/test_plan_approval_actions.py file also passed under 28-worker xdist (22 passed). This change touched agent metadata atomic writes and ACE agent-refresh coalescing, not plan approval lock contention, so the failure matches the existing fail-under-full-parallel-load/pass-in-isolation class rather than this implementation.
+
+> **+1** by `sase-hi.land` · 2026-08-08 14:45:59 EDT
+>
+> Independent recurrence proposed by child bead sase-hi.3: a broad stale-context xdist scoped lane failed three tests in multi-prompt group qualification, bead work-from-plan concurrency, and fakey runner-slot behavior while the change under test was confined to singular skill references; all three passed immediately in one serial rerun (3 passed). This matches the umbrella full-parallel-failure/pass-in-isolation class.
+
+> **+1** by `sase-h8.10.5.land` · 2026-08-08 17:35:59 EDT
+>
+> Proposed by child bead sase-h8.10.5.3: combined-tree just test-contention at 25be8cc68 produced five new one-of-three failures outside sase-h8.10 scope—tests/ace/tui/test_post_update_toast.py::test_post_update_toast_appears_once_and_suppresses_available_toast, tests/test_models_panel_override_flows.py::test_on_duration_picked_invalid_notifies_error, tests/test_output.py::test_provider_timer_stops_background_thread, tests/test_run_pytest_health.py::test_full_lane_arms_the_failure_recorder, and tests/test_suite_gate.py::test_simultaneous_leases_never_exceed_pool—while just check-full was green. This is the existing full-parallel/load-only class owned by sase-ct, not five distinct root-cause tasks.
+
+> **+1** by `sase-hj` · 2026-08-08 18:07:27 EDT
+>
+> Independent recurrence while verifying task bead sase-hj on 2026-08-08: required just check escalated its scoped lane to the full suite and failed exactly one node, tests/test_multi_prompt_launcher_xprompt_groups.py::test_launcher_qualifies_research_swarm_per_dispatch, after 16,491 passed / 9 skipped. The same node passed immediately in isolation with .venv/bin/pytest tests/test_multi_prompt_launcher_xprompt_groups.py::test_launcher_qualifies_research_swarm_per_dispatch -vv (1 passed). The implementation under verification touched xprompt discovery/tag precedence, not multi-prompt dispatch isolation, so this matches the fail-under-full-parallel-load/pass-in-isolation class.
+
+> **+1** by `toobig-23.split_file.src.sase.xprompt.workflow_loader.0` · 2026-08-08 22:44:11 EDT
+>
+> Independent recurrence during unrelated workflow_loader.py module-split verification on 2026-08-08: stale-context diff-scoped selection escalated to 7,394 tests at 4 xdist workers and failed only tests/test_multi_prompt_launcher_xprompt_groups.py::test_launcher_qualifies_research_swarm_per_dispatch (7,388 passed / 5 skipped). The exact node passed immediately in isolation (1 passed in 1.89s). The refactor touched only workflow loading modules and its 79 focused tests passed, matching this task's full-parallel-failure/pass-in-isolation class.
+
+> **+1** by `wd` · 2026-08-09 08:17:10 EDT
+>
+> Independent recurrence during schema enum duplicate fix verification on 2026-08-09: just check passed; just check-full passed the full pytest lane ('✓ test') but failed only the post-test flake-baseline gate. New baseline-exceeding reproducible flakes reported: tests/ace/tui/test_prompt_bar_xprompt_selector_requests.py::test_vcs_tag_directory_key_spelling_also_resolves, tests/ace/tui/test_prompt_bar_xprompt_selector_requests.py::test_vcs_tag_offers_project_local_xprompts_by_canonical_name, and tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor. The schema change touched config JSON schema, schema tests, and terminology-audit classification, not these ACE/plan-approval workflows; this corroborates the existing full-parallel/load-sensitive flake class.
+
+> **+1** by `sase-i2.land` · 2026-08-09 08:50:45 EDT
+>
+> Proposed by epic sase-i2 phase sase-i2.2: its first just check/full-lane escalation failed tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor once; the exact node passed immediately in isolation and a second just check passed. This is the same full-parallel/load-only class already tracked here, not caused by the glossary-underline work.
+
+> **+1** by `we.f0` · 2026-08-09 09:50:59 EDT
+>
+> Independent flake-baseline gate recurrence during numbered-memory-subsection verification on 2026-08-09: just check-full passed the full pytest lane (✓ test) but failed selection-health --fail-on-new-flake with seven baseline-exceeding nodes. The xprompt selector pair and tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor are the same full-parallel/load-sensitive class already tracked here; this change touched short-memory inlining, docs, generated agent instructions, and focused tests, not xprompt selector or plan-approval workflows. The four snooze nodes from the same gate are tracked separately by sase-i5.
+
+> **+1** by `sase-ib.2` · 2026-08-09 13:17:37 EDT
+>
+> Independent recurrence during event-driven TUI wait verification on 2026-08-09: 'just check' escalated to the full non-visual suite and reported exactly one failing node, tests/test_agent_group_revival_e2e.py::test_saved_group_revive_restores_deleted_artifacts_and_tribe_real_loader, after 28,026 passed / 10 skipped before the still-active 99% tail was interrupted. The exact node passed immediately in isolation (1 passed) and the whole tests/test_agent_group_revival_e2e.py file passed under xdist -n4 (4 passed). This matches the existing full-parallel-load/pass-in-isolation ACE TUI flake class; no new task bead.
+
+> **+1** by `wo` · 2026-08-09 14:39:11 EDT
+>
+> Independent recurrence during ACE post-write noninteractive verification on 2026-08-09. Full just test failed tests/test_agent_group_revival_e2e.py::test_mark_save_preview_and_revive_saved_agent_group and tests/test_agent_group_revival_e2e.py::test_saved_group_revive_restores_deleted_artifacts_and_tribe_real_loader under the parallel lane; rerunning the exact failed set serially made both agent-group tests pass. The implementation under verification touched post-write subprocess launching, xprompt write-target offers, and skill init CLI behavior, not agent-group revival, so this matches the existing full-parallel-load/pass-in-isolation ACE TUI flake class.
+
+> **+1** by `wp` · 2026-08-09 15:16:41 EDT
+>
+> Independent recurrence during unrelated dev_update env-overlay verification on 2026-08-09: just test-scoped escalated because the coverage-context baseline was stale, ran 2,028 selected non-visual tests at xdist -n4, reached 95% with no failures printed, then stopped making progress for several minutes. py-spy dumps of all four workers showed main threads inside pytest_asyncio event-loop execution with additional ACE task-mirror/toast-log threads idle; no worker had exited. I interrupted after the broad lane remained silent and active for roughly 10 minutes. The implementation under verification touched dev_update env passing and the ACE dev-update reporter adapter, and the focused dev_update/ACE adapter tests passed, so this is another full parallel/load-sensitive verification interruption rather than evidence against the env-overlay fix.
+
+> **+1** by `sase-ik.land` · 2026-08-10 08:50:38 EDT
+>
+> Proposed by phase bead sase-ik.3 and independently reproduced by sase-ik.land during landing on 2026-08-10. Phase sase-ik.3 recorded both (a) the full prompt-highlighting visual file timing out existing cases on pending worker prompt-catalog:0 while its new wrapped snapshot passed focused, and (b) full just test remaining non-terminal for over 12 minutes. Current land run of just test-cost under a governed 4-worker grant reached 99% with 26 failures / 28,168 passes, then all four workers remained stuck in pytest_asyncio run_until_complete -> selectors.select with leaked sase-ace-task-mirror/toast-writer threads; interrupted after 14:46. The full lane failed test_k_on_glossary_term_pushes_glossary_preview_card, but the same node passed earlier today in the focused 58-test glossary/ACE suite. This is the umbrella fail-under-contention/pass-focused and non-terminal async-worker class, not a glossary implementation regression.
+
+> **+1** by `sase-ii` · 2026-08-10 09:41:01 EDT
+>
+> Independent reproduction during sase-ii verification on 2026-08-10 (master 354d8c19f + only the sase-ii test-file fix staged): tests/ace/tui/test_family_member_relaunch.py::test_completed_family_member_relaunch_dismisses_only_selected_child failed 1 of 3 solo serial reruns (.venv/bin/python -m pytest '<node>' -q -p no:randomly), no parallelism/load involved. This is the exact node already named in this bead's 2026-08-06 note as sharing the schedule_relaunch_prompt_resolution / asyncio.to_thread pilot.pause()-race root cause, so it still needs the same _wait_until()-based fix applied to test_agent_bulk_kill_edit.py. Unrelated to sase-ii, which fixed a different file (tests/ace/tui/test_tasks_pane_store.py) via the same wait_for-instead-of-blind-pause pattern.
+
+> **+1** by `sase-in` · 2026-08-10 09:47:32 EDT
+>
+> Independent reproduction while verifying unrelated task bead sase-in on 2026-08-10. `just check` escalated to the full suite and failed ACE nodes including tests/ace/tui/widgets/test_prompt_glossary_navigation.py::test_k_on_glossary_term_pushes_glossary_preview_card, tests/ace/tui/test_family_member_relaunch.py::test_completed_family_member_relaunch_dismisses_only_selected_child, and tests/test_agent_group_revival_e2e.py::test_mark_save_preview_and_revive_saved_agent_group. A focused xdist rerun of those nodes still failed glossary/agent-group, and a direct serial pytest rerun passed glossary and agent-group but reproduced the family-member node with Textual NoMatches for #frontmatter-raw. The sase-in patch does not touch ACE TUI widgets or agent-group/family relaunch code.
+
+> **+1** by `sase-ij.land` · 2026-08-10 10:00:42 EDT
+>
+> Independent full-lane reproduction on 2026-08-10 while landing epic sase-ij. `just check-full` at master 0968318b1 (working tree: 4 unrelated files) ran the cost lane to 8 failed / 28315 passed / 10 skipped in 350.83s. Six of the eight are parallel-only members of this class — every one passes in a serial isolated rerun of exactly those node IDs (`pytest -p no:randomly` on a stashed, clean tree: 1 failed, 7 passed, and the single failure was the unrelated deterministic sase-iq node). The six: tests/ace/tui/widgets/test_prompt_glossary_navigation.py::test_k_on_glossary_term_pushes_glossary_preview_card; tests/test_agent_group_revival_e2e.py::test_mark_save_preview_and_revive_saved_agent_group; tests/test_agent_group_revival_e2e.py::test_saved_group_revive_restores_deleted_artifacts_and_tribe_real_loader; tests/ace/tui/test_family_member_relaunch.py::test_completed_family_member_relaunch_dismisses_only_selected_child; tests/ace/tui/test_prompt_bar_xprompt_selector_requests.py::test_vcs_tag_offers_project_local_xprompts_by_canonical_name; tests/ace/tui/test_prompt_bar_xprompt_selector_requests.py::test_vcs_tag_directory_key_spelling_also_resolves. The two test_vcs_tag_* nodes are the pair sase-hk diagnosed, so they are still recurring after that work. Two node families are NEW to this bead as far as I can tell: test_agent_group_revival_e2e.py (both nodes, and note the run also recorded a 5.64s teardown on the second) and test_family_member_relaunch.py. This evidence closes out the PROPOSED FOLLOW-UP notes sase-ij.2 and sase-ij.5 filed about 'unrelated full-suite ACE/TUI failures' — that residue is this class, not epic sase-ij's.
+
+> **+1** by `sase-il.5` · 2026-08-10 10:03:46 EDT
+>
+> Independent recurrence while verifying retire_coder_alias_bucket on 2026-08-10: full just test-visual failed broadly (96 failed, 480 passed, 1 skipped in 273.65s), including visual render convergence timeouts with pending_workers=['prompt-catalog:0']. The targeted visual files touched by this change passed serially after intentional snapshot updates (34 passed), so this matches the existing broad ACE visual/full-parallel flake class rather than this implementation.
+
+> **+1** by `x0` · 2026-08-10 10:06:21 EDT
+>
+> Independent recurrence while verifying task-launch prompt changes on 2026-08-10 at origin/master 9fddbbe77 plus local prompt/doc diff. 'just check' escalated to the full non-visual suite and failed ACE/TUI nodes already in this umbrella class: tests/ace/tui/widgets/test_prompt_glossary_navigation.py::test_k_on_glossary_term_pushes_glossary_preview_card and tests/test_agent_group_revival_e2e.py::{test_mark_save_preview_and_revive_saved_agent_group,test_saved_group_revive_restores_deleted_artifacts_and_tribe_real_loader}. An isolated focused rerun of those nodes still reproduced under xdist, while the implementation touched only task prompt rendering, bd/work_task body, docs, and matching prompt-shape tests.
+
+> **+1** by `wz` · 2026-08-10 10:15:07 EDT
+>
+> Independent full-parallel recurrence while verifying bead list size rendering on 2026-08-10: the escalated full non-visual lane from just test-scoped failed ACE/TUI nodes already in this umbrella class: tests/ace/tui/widgets/test_prompt_glossary_navigation.py::test_k_on_glossary_term_pushes_glossary_preview_card and tests/test_agent_group_revival_e2e.py::{test_mark_save_preview_and_revive_saved_agent_group,test_saved_group_revive_restores_deleted_artifacts_and_tribe_real_loader}. The change under verification touches bead CLI rendering/docs/tests, not ACE glossary navigation or agent-group revival.
+
 ## References
 
 - file:explicit:93f0fff0d91c393a140e217d
+- file:explicit:c163965096076ddf2cb31881
+- file:explicit:2936172d6b360805316b93fb
+- file:explicit:c127588f8314583ddb8d68b1
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-ct: Flaky ACE TUI tests under full parallel just test run [closed]"]
+    n0["sase-ct: Flaky ACE TUI tests under full parallel just test run [ready]"]
 ```
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ct/README.md) | [sase-ct](README.md) | 4 |
+| [bbugyi200.athena.sase-ct](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ct.md) | [sase-ct](README.md) | 5 |
 
 ## Commits
 
@@ -261,3 +388,4 @@ flowchart TD
 | sase | [`3f69267`](https://github.com/sase-org/sase/commit/3f69267d516c5131ecca44b22399e67838b508c1) | fix(test-selection): stop the codeblock cursor test racing the blink timer | [sase-ct](README.md) | 2026-08-06 16:52:52 EDT |
 | sase | [`156cac8`](https://github.com/sase-org/sase/commit/156cac833248c0dfac7d24df371e1e052754474e) | fix(tests): loosen exact hitch/stall counts in watchdog independence test | [sase-ct](README.md) | 2026-08-07 12:48:55 EDT |
 | sase | [`b473a10`](https://github.com/sase-org/sase/commit/b473a10d098935135820fe86d61a1195dd1282c5) | fix(tests): wait for balanced hitch/recovery pairs in watchdog compact-loop test | [sase-ct](README.md) | 2026-08-07 14:24:22 EDT |
+| sase | [`771f7d9`](https://github.com/sase-org/sase/commit/771f7d935a56623b583b9cac3acc5275c6140f97) | test: wait for prompt editor in relaunch tests | [sase-ct](README.md) | 2026-08-10 10:18:02 EDT |
