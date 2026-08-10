@@ -16,7 +16,7 @@ retire: change /sase_new_task so a retired umbrella routes the next reporter to 
 - **Depends on:** [sase-iy.1](sase-iy.1.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-iy.2](sase-iy.2.md) ◐ · ⧖ 2026-08-10
 - **Depends on:** [sase-iy.3](sase-iy.3.md) ✓ · ⧖ 2026-08-10
-- **Depends on:** [sase-iy.4](sase-iy.4.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-iy.4](sase-iy.4.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

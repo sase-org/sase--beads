@@ -23,7 +23,7 @@ waitgate: tools/check_test_wait_helpers only recognizes bounded-wait loops whose
 
 ## Dependencies
 
-- **Blocks:** [sase-iy.4](sase-iy.4.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-iy.4](sase-iy.4.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-iy.5](sase-iy.5.md) ◐ · ⧖ 2026-08-10
 
 ## Agents
