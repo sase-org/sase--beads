@@ -26,7 +26,7 @@ cli: resolve the reporter's observation-window start from its own agent metadata
 ## Dependencies
 
 - **Depends on:** [sase-ix.1](sase-ix.1.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-ix.3](sase-ix.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-ix.3](sase-ix.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

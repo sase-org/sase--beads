@@ -13,7 +13,7 @@ verify: reproduce the original race end to end as a regression exercise, audit t
 
 ## Dependencies
 
-- **Depends on:** [sase-ix.3](sase-ix.3.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-ix.3](sase-ix.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
