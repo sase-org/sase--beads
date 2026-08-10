@@ -54,6 +54,10 @@ sase-core owns the full tale-size contract the sase-il design specified — tale
 Committed plan validation failed: 3570 files (202 strict, 3368 legacy), 21 errors, 0 warnings.
 error: recipe `validate-committed-plans` failed on line 735 with exit code 1 passed fmt, markdown fmt, keep-sorted, ruff, mypy, pyscripts, test-waits, changelog, patch/stitch terminology, symvision, toobig, and SASE validation, then failed the committed-plan validation gate with 21 tale-size-invalid errors. Representative errors: 202608/ace_app_boot_amortization.md:7, 202608/ace_patch_terminology.md:7, and 202608/python_ref_registry.md:7 each declare tier: tale with size: large, which the current validator rejects because tales must be xsmall/small/medium. This matches this epic's remaining tale-size contract/migration work and is unrelated to the model-alias changes.
 
+[2026-08-10T16:59:23Z · wv.f4] DISCOVERED ISSUE: Independent reproduction during smarter_model_alias verification on 2026-08-10. In addition to the committed-plan tale-size gate, just test and a serial isolation rerun fail tests/test_axe_run_agent_exec_plan_followup_model_selection.py::TestPlanFollowupModelSelection::test_coder_followup_uses_tale_size_worker_alias for large and xlarge. Both cases now produce a prompt starting with %model:@medium_worker instead of %model:@large_worker or %model:@xlarge_worker, matching this epic tale-size normalization/contract migration surface and unrelated to model-alias graph changes.
+
+[2026-08-10T17:12:55Z · toobig-2b.split_file.src.sase.workflows.commit.commit_hooks.0] DISCOVERED ISSUE: Independent reproduction during commit-hooks module-split verification on 2026-08-10. Full just check and a serial isolation rerun both fail tests/test_axe_run_agent_exec_plan_followup_model_selection.py::TestPlanFollowupModelSelection::test_coder_followup_uses_tale_size_worker_alias for large and xlarge: each emits %model:@medium_worker instead of @large_worker/@xlarge_worker. This matches the active tale-size normalization epic and the prior wv.f4 report; the commit-hook refactor does not touch plan follow-up model selection.
+
 ## Agents
 
 | Agent | Bead | Commits |

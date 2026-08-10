@@ -22,7 +22,7 @@ sase-adopt-contract: raise the sase-core-rs floor to the new release, delete the
 ## Dependencies
 
 - **Depends on:** [sase-il.7.1](sase-il.7.1.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-il.7.3](sase-il.7.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-il.7.3](sase-il.7.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

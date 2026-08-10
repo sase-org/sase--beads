@@ -59,7 +59,7 @@ flowchart TD
     n7["sase-il.7: Finish core-owned tale size semantics and land sase-il [in_progress]"]
     n8["sase-il.7.1: Complete the tale size contract in sase-core [closed]"]
     n9["sase-il.7.2: Adopt the completed contract in sase [closed]"]
-    n10["sase-il.7.3: Land and close epic sase-il [in_progress]"]
+    n10["sase-il.7.3: Land and close epic sase-il [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.sase-il.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.6/README.md) | [sase-il.6](sase-il.6.md) | 1 |
 | [bbugyi200.athena.sase-il.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.1/README.md) | [sase-il.7.1](sase-il.7.1.md) | 2 |
 | [bbugyi200.athena.sase-il.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.2/README.md) | [sase-il.7.2](sase-il.7.2.md) | 2 |
-| [bbugyi200.athena.sase-il.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.3/README.md) | [sase-il.7.3](sase-il.7.3.md) | 0 |
+| [bbugyi200.athena.sase-il.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.3/README.md) | [sase-il.7.3](sase-il.7.3.md) | 1 |
 | [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) | [sase-il.7](sase-il.7.md) | 0 |
 | [bbugyi200.athena.sase-il.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.land/README.md) | [sase-il](README.md) | 0 |
 
@@ -111,3 +111,4 @@ flowchart TD
 | sase-core | [`sase-core@86e4eb9`](https://github.com/sase-org/sase-core/commit/86e4eb9a053f0bc113dcce97aad38f9618d90c1a) | fix(core-py): allow plus-one binding signature | [sase-il.7.1](sase-il.7.1.md) | 2026-08-10 11:37:12 EDT |
 | sase--plans | [`sase--plans@a91c313`](https://github.com/sase-org/sase--plans/commit/a91c3138f39ab772c092fac5029c010d15aee942) | chore(plans): correct over-sized tale backfill | [sase-il.7.2](sase-il.7.2.md) | 2026-08-10 12:37:18 EDT |
 | sase | [`dcb243b`](https://github.com/sase-org/sase/commit/dcb243b753b1cbc61d5a4b136063792e888d87ff) | feat!: adopt core tale size contract | [sase-il.7.2](sase-il.7.2.md) | 2026-08-10 12:57:22 EDT |
+| sase--plans | [`sase--plans@73074f0`](https://github.com/sase-org/sase--plans/commit/73074f049586263d10bf651b5977e8939fd7b34b) | docs(plans): mark sase-il landing plans done | [sase-il.7.3](sase-il.7.3.md) | 2026-08-10 13:30:04 EDT |
