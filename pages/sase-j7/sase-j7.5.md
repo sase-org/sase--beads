@@ -14,7 +14,7 @@ retire - remove every fixed node from the flake baseline, run the four exit crit
 ## Dependencies
 
 - **Depends on:** [sase-j7.1](sase-j7.1.md) ✓ · ⧖ 2026-08-10
-- **Depends on:** [sase-j7.2](sase-j7.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j7.2](sase-j7.2.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-j7.3](sase-j7.3.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-j7.4](sase-j7.4.md) ◐ · ⧖ 2026-08-10
 

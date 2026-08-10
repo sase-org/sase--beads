@@ -16,7 +16,7 @@ The tests behind sase-ct stop failing under the full parallel lane because the p
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-j7.1](sase-j7.1.md) | Fix the confirmed xprompt VCS-tag cache leak | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-j7.2](sase-j7.2.md) | Build a global-state leak detector and inventory every leak in the suite | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-j7.2](sase-j7.2.md) | Build a global-state leak detector and inventory every leak in the suite | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j7.3](sase-j7.3.md) | Stop the flake gate from flagging node IDs that no longer exist | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j7.4](sase-j7.4.md) | Fix every inventoried leak and root-cause the residual flakes | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
 | [sase-j7.5](sase-j7.5.md) | Shrink the baseline, run the exit criteria, and close the beads | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
@@ -27,7 +27,7 @@ The tests behind sase-ct stop failing under the full parallel lane because the p
 flowchart TD
     n0["sase-j7: Fix the sase-ct flake class at its root - process-global state leaking between tests [in_progress]"]
     n1["sase-j7.1: Fix the confirmed xprompt VCS-tag cache leak [closed]"]
-    n2["sase-j7.2: Build a global-state leak detector and inventory every leak in the suite [in_progress]"]
+    n2["sase-j7.2: Build a global-state leak detector and inventory every leak in the suite [closed]"]
     n3["sase-j7.3: Stop the flake gate from flagging node IDs that no longer exist [closed]"]
     n4["sase-j7.4: Fix every inventoried leak and root-cause the residual flakes [in_progress]"]
     n5["sase-j7.5: Shrink the baseline, run the exit criteria, and close the beads [in_progress]"]
@@ -49,7 +49,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-j7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.1/README.md) | [sase-j7.1](sase-j7.1.md) | 1 |
-| [bbugyi200.athena.sase-j7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.2/README.md) | [sase-j7.2](sase-j7.2.md) | 0 |
+| [bbugyi200.athena.sase-j7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.2/README.md) | [sase-j7.2](sase-j7.2.md) | 1 |
 | [bbugyi200.athena.sase-j7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.3/README.md) | [sase-j7.3](sase-j7.3.md) | 1 |
 | [bbugyi200.athena.sase-j7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.4/README.md) | [sase-j7.4](sase-j7.4.md) | 0 |
 | [bbugyi200.athena.sase-j7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j7.5/README.md) | [sase-j7.5](sase-j7.5.md) | 0 |
@@ -61,3 +61,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`1b47ea7`](https://github.com/sase-org/sase/commit/1b47ea712ad1e75cbde27ea6aacb32b39daa429c) | feat(selection-health): skip stale node IDs in the reproducible-flake gate | [sase-j7.3](sase-j7.3.md) | 2026-08-10 16:17:14 EDT |
 | sase | [`c052094`](https://github.com/sase-org/sase/commit/c0520947de793ff7c10422d4cf18fef19f81f5b4) | fix(cache): give workspace-provider metadata caches a real invalidation entry point | [sase-j7.1](sase-j7.1.md) | 2026-08-10 16:24:22 EDT |
+| sase | [`6f4a032`](https://github.com/sase-org/sase/commit/6f4a032cd4ae8ffccd3d9707af2b8537d967b6fc) | test: add opt-in global state leak detector | [sase-j7.2](sase-j7.2.md) | 2026-08-10 17:25:21 EDT |
