@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.sase-j3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.6/README.md) | [sase-j3.6](sase-j3.6.md) | 1 |
 | [bbugyi200.athena.sase-j3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.7/README.md) | [sase-j3.7](sase-j3.7.md) | 1 |
 | [bbugyi200.athena.sase-j3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.8/README.md) | [sase-j3.8](sase-j3.8.md) | 1 |
-| [bbugyi200.athena.sase-j3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.land/README.md) | [sase-j3](README.md) | 1 |
+| [bbugyi200.athena.sase-j3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.land/README.md) | [sase-j3](README.md) | 2 |
 
 ## Commits
 
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`aae179e`](https://github.com/sase-org/sase/commit/aae179e86fabbffdf3e572b808d531884e317564) | docs(ace): document snippet pane keybinding and config field | [sase-j3.7](sase-j3.7.md) | 2026-08-10 18:07:03 EDT |
 | sase | [`d4b913b`](https://github.com/sase-org/sase/commit/d4b913bb9a353dfa571b04fa6a1c253f8c025db8) | fix: honor configured snippet target in unified save | [sase-j3.8](sase-j3.8.md) | 2026-08-10 18:44:08 EDT |
 | sase | [`9edf680`](https://github.com/sase-org/sase/commit/9edf680793f7ad322cad812d5006975384119646) | chore(ace): land sase-j3 snippet target mode | [sase-j3](README.md) | 2026-08-10 19:32:08 EDT |
+| sase--plans | [`sase--plans@61fca1a`](https://github.com/sase-org/sase--plans/commit/61fca1ae7e23ea56b01b79ad41cb0127946a5412) | docs(plans): mark snippet\_target\_mode done | [sase-j3](README.md) | 2026-08-10 19:36:51 EDT |
