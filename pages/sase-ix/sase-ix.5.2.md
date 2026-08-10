@@ -20,7 +20,7 @@ reconcile-contract-guidance: update the generated canonical bead memory and publ
 ## Dependencies
 
 - **Depends on:** [sase-ix.5.1](sase-ix.5.1.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-ix.5.3](sase-ix.5.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-ix.5.3](sase-ix.5.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
