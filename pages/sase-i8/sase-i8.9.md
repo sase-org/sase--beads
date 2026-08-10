@@ -13,7 +13,7 @@ verify: exercise every mode of every surface against a real repository that cont
 
 ## Dependencies
 
-- **Depends on:** [sase-i8.8](sase-i8.8.md) ◐ · ⧖ 2026-08-09
+- **Depends on:** [sase-i8.8](sase-i8.8.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

@@ -17,6 +17,8 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 
 [2026-08-09T17:55:21Z · sase-id] DISCOVERED ISSUE (independent reproduction): tests/test_vcs_provider_vcs_log.py::test_remote_log_ops_fetch_partition_and_union_log again failed the just check-full flake-baseline gate while verifying unrelated bead sase-id (folding four AMD/memory template config keys under memory:). All lint gates and the full 'just test' suite passed; only 'just selection-health --fail-on-new-flake' failed on this single reproducible flake, matching the DISCOVERED ISSUE already recorded here by sase-ie.
 
+[2026-08-09T18:39:58Z · wo] DISCOVERED ISSUE: Independent recurrence during ACE post-write noninteractive verification on 2026-08-09. Full just test failed tests/test_vcs_provider_vcs_log.py::test_remote_log_ops_fetch_partition_and_union_log at git push -u origin main with exit status 1; rerunning the exact failed set serially made this test pass. This matches the existing provider-level VCS log failure note on this active epic and is unrelated to the post-write subprocess and skill-init changes under verification.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -28,7 +30,7 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 | [sase-i8.5](sase-i8.5.md) | Marking merges in every renderer | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-i8.6](sase-i8.6.md) | sase vcs log --merges and documentation | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-i8.7](sase-i8.7.md) | ACE Commits pane merge affordances | ✓ closed | medium | 2026-08-09 | 1 | 1 |
-| [sase-i8.8](sase-i8.8.md) | Raise the sase-core-rs dependency window | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
+| [sase-i8.8](sase-i8.8.md) | Raise the sase-core-rs dependency window | ✓ closed | small | 2026-08-09 | 1 | 1 |
 | [sase-i8.9](sase-i8.9.md) | End-to-end acceptance against real merge history | ◐ in_progress | small | 2026-08-09 | 1 | 0 |
 
 ## Lineage
@@ -43,7 +45,7 @@ flowchart TD
     n5["sase-i8.5: Marking merges in every renderer [closed]"]
     n6["sase-i8.6: sase vcs log --merges and documentation [closed]"]
     n7["sase-i8.7: ACE Commits pane merge affordances [closed]"]
-    n8["sase-i8.8: Raise the sase-core-rs dependency window [in_progress]"]
+    n8["sase-i8.8: Raise the sase-core-rs dependency window [closed]"]
     n9["sase-i8.9: End-to-end acceptance against real merge history [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -76,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.5/README.md) | [sase-i8.5](sase-i8.5.md) | 1 |
 | [bbugyi200.athena.sase-i8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.6/README.md) | [sase-i8.6](sase-i8.6.md) | 1 |
 | [bbugyi200.athena.sase-i8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.7/README.md) | [sase-i8.7](sase-i8.7.md) | 1 |
-| [bbugyi200.athena.sase-i8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.8/README.md) | [sase-i8.8](sase-i8.8.md) | 0 |
+| [bbugyi200.athena.sase-i8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.8/README.md) | [sase-i8.8](sase-i8.8.md) | 1 |
 | [bbugyi200.athena.sase-i8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.9/README.md) | [sase-i8.9](sase-i8.9.md) | 0 |
 | [bbugyi200.athena.sase-i8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.land/README.md) | [sase-i8](README.md) | 0 |
 
@@ -91,3 +93,4 @@ flowchart TD
 | sase | [`f62a046`](https://github.com/sase-org/sase/commit/f62a046073876b8e09a2f6128318ffece9273aa1) | feat(vcs): add merge filtering to log command | [sase-i8.6](sase-i8.6.md) | 2026-08-09 13:42:53 EDT |
 | sase | [`77ee670`](https://github.com/sase-org/sase/commit/77ee67052e418c7825249cb95ca1f32fe55f6b40) | feat(vcs-log): mark merge commits in renderers | [sase-i8.5](sase-i8.5.md) | 2026-08-09 13:47:40 EDT |
 | sase | [`c613822`](https://github.com/sase-org/sase/commit/c6138223bc86d8196812834ce76351f8f8f4df4f) | feat(ace): add commit merge visibility controls | [sase-i8.7](sase-i8.7.md) | 2026-08-09 14:25:10 EDT |
+| sase | [`8ed11bb`](https://github.com/sase-org/sase/commit/8ed11bb80b6a218dcd49fed5529573e036bc32ca) | build(deps): raise sase-core-rs floor | [sase-i8.8](sase-i8.8.md) | 2026-08-10 07:46:04 EDT |

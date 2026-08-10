@@ -24,7 +24,7 @@ tui: add the merge-visibility cycle key to the Commits sub-tab with its hint, he
 ## Dependencies
 
 - **Depends on:** [sase-i8.5](sase-i8.5.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-i8.8](sase-i8.8.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-i8.8](sase-i8.8.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 
