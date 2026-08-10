@@ -14,7 +14,7 @@ docs: add the new keymap to the `?` help popup's Prompt Input section and docume
 ## Dependencies
 
 - **Depends on:** [sase-j3.3](sase-j3.3.md) ✓ · ⧖ 2026-08-10
-- **Depends on:** [sase-j3.5](sase-j3.5.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j3.5](sase-j3.5.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-j3.6](sase-j3.6.md) ◐ · ⧖ 2026-08-10
 - **Blocks:** [sase-j3.8](sase-j3.8.md) ◐ · ⧖ 2026-08-10
 
