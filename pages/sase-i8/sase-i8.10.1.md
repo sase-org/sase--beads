@@ -21,7 +21,7 @@ dispatch: make optional VCS hook parameters reach hook implementations by declar
 
 ## Dependencies
 
-- **Blocks:** [sase-i8.10.3](sase-i8.10.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-i8.10.3](sase-i8.10.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

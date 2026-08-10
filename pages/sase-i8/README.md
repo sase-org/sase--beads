@@ -21,6 +21,12 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 
 [2026-08-10T12:25:03Z · sase-ib.land] DISCOVERED ISSUE (independent reproduction): tests/test_vcs_provider_vcs_log.py::test_remote_log_ops_fetch_partition_and_union_log failed once in the full-suite fallback of `just check` at -n14 on 2026-08-09T17:30Z, then passed on a serial rerun and on focused xdist reruns of the same node. Recorded by phase bead sase-ib.6 (epic sase-ib) as a PROPOSED FOLLOW-UP; sase-ib.land confirms it is not caused by that epic -- sase-ib touched the suite gate's token arithmetic and the ACE settle helpers, neither of which this non-TUI VCS-provider test uses -- and is forwarding the evidence here rather than filing a duplicate task, since sase-ie, sase-id, and wo already recorded the same node against this epic.
 
+[2026-08-10T14:09:51Z · sase-i8.10.3] ACCEPTANCE EVIDENCE (sase-i8.10.3): installed editable env with just install. Real primary repo has git rev-list --merges --count HEAD=101, --no-merges=11991, total=12092. CLI: sase vcs log -o -N --limit 0 --format json gives hide=11991/query.merges=hide/0 merges, only=101/query.merges=only/all merges, show=12092/query.merges=show/101 merges, so the partition law holds. Sampled first six -m only full_id values with git rev-list --parents -n1; all had two parents. Render checks: no-flag/oneline has no merge glyph column; -m only pretty/full/oneline renders ◆ merge rows and GitHub PR merges as #161/#158/#159 headlines; JSON exposes parent_ids, is_merge, and merge metadata. ACE executable checks: pytest tests/ace/tui/test_commits_pane_interactions.py::test_commits_cycle_merges_updates_query_and_recollects tests/ace/tui/test_commits_pane_rendering.py tests/ace/tui/modals/test_commit_view_modal.py::test_commit_view_modal_marks_merge_and_parents -q passed (23 passed); pytest -m visual tests/ace/tui/visual/test_ace_png_snapshots_commits.py::test_commits_merge_row_png_snapshot -q passed. .venv/bin/python tools/validate_sase_core_rs passed. just check-full passed fmt, markdown fmt, keep-sorted, ruff, mypy, pyscripts, test-waits, changelog, patch/stitch terminology, symvision, toobig, SASE validation, and committed plans, then failed in just test-cost with 7 IDs. Isolation rerun showed reproducible failures only in tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection, tests/test_contract_manifest.py::test_contract_set_manifest_entry_budget_has_no_hidden_headroom, and tests/test_run_pytest_main.py::test_main_cost_mode_arms_only_the_cost_recorder; the glossary/revival/ace-page-group IDs passed serially and under targeted xdist.
+
+[2026-08-10T14:43:36Z · sase-i8.10.land] DISCOVERED ISSUE: Proposed by child phase sase-i8.10.4 during land triage. src/sase/vcs_provider/plugins/_git_query_ops.py::vcs_repo_stats still runs 'git rev-list --count HEAD' and 'git shortlog -sne HEAD' without --no-merges or a MergeVisibility policy. Once merge commits are first-class and squash-only history is no longer assumed, repository commit/contributor stats include merge commits and can disagree with the default merge-hidden commit-log slice. This is causally tied to active epic sase-i8's truthful-presence/counts goal; routed here via /sase_new_task, not filed as a standalone task.
+
+[2026-08-10T14:43:58Z · sase-i8.10.land] DISCOVERED ISSUE: Proposed by child phase sase-i8.10.4 during land triage. src/sase/updates/incoming_commits.py::_fetch_git_incoming_commits counts a revision range with plain 'git rev-list --count' and lists it with plain 'git log', so incoming-update totals and rows include merge commits and expose no MergeVisibility choice. This is a second commit-listing surface that can disagree with the epic's default merge-hidden timeline. It is causally tied to active epic sase-i8; routed here via /sase_new_task, not filed as a standalone task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -41,11 +47,11 @@ Merge commits are first-class in every SASE commit-log surface: hidden by defaul
 flowchart TD
     n0["sase-i8: Merge-commit support for the VCS commit log [in_progress]"]
     n1["sase-i8.1: Rust core — parent ids, tolerant parser, merge summary [closed]"]
-    n2["sase-i8.10: Make merge visibility work through the real provider dispatch path [in_progress]"]
+    n2["sase-i8.10: Make merge visibility work through the real provider dispatch path [closed]"]
     n3["sase-i8.10.1: Stop pluggy from silently dropping optional VCS hook arguments [closed]"]
     n4["sase-i8.10.2: Give each remote-fixture test its own origin repository [closed]"]
-    n5["sase-i8.10.3: Redo end-to-end acceptance against real merge history [in_progress]"]
-    n6["sase-i8.10.4: Land the epic and file the remaining follow-ups [in_progress]"]
+    n5["sase-i8.10.3: Redo end-to-end acceptance against real merge history [closed]"]
+    n6["sase-i8.10.4: Land the epic and file the remaining follow-ups [closed]"]
     n7["sase-i8.2: Python wire mirror and skew probes [closed]"]
     n8["sase-i8.3: Provider-level merge visibility [closed]"]
     n9["sase-i8.4: Collection models and the merges query key [closed]"]
@@ -91,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-i8.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.2/README.md) | [sase-i8.10.2](sase-i8.10.2.md) | 1 |
 | [bbugyi200.athena.sase-i8.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.3/README.md) | [sase-i8.10.3](sase-i8.10.3.md) | 0 |
 | [bbugyi200.athena.sase-i8.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.4/README.md) | [sase-i8.10.4](sase-i8.10.4.md) | 0 |
-| [bbugyi200.athena.sase-i8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.land/README.md) | [sase-i8.10](sase-i8.10.md) | 0 |
+| [bbugyi200.athena.sase-i8.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.10.land/README.md) | [sase-i8.10](sase-i8.10.md) | 1 |
 | [bbugyi200.athena.sase-i8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.2/README.md) | [sase-i8.2](sase-i8.2.md) | 1 |
 | [bbugyi200.athena.sase-i8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.3/README.md) | [sase-i8.3](sase-i8.3.md) | 1 |
 | [bbugyi200.athena.sase-i8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-i8.4/README.md) | [sase-i8.4](sase-i8.4.md) | 1 |
@@ -116,3 +122,4 @@ flowchart TD
 | sase | [`8ed11bb`](https://github.com/sase-org/sase/commit/8ed11bb80b6a218dcd49fed5529573e036bc32ca) | build(deps): raise sase-core-rs floor | [sase-i8.8](sase-i8.8.md) | 2026-08-10 07:46:04 EDT |
 | sase | [`6d131aa`](https://github.com/sase-org/sase/commit/6d131aa7b4df28d10211d4a6ee6df84ac173e9fc) | fix(vcs): forward optional VCS hook arguments | [sase-i8.10.1](sase-i8.10.1.md) | 2026-08-10 08:49:32 EDT |
 | sase | [`e9e414e`](https://github.com/sase-org/sase/commit/e9e414e2f5a55ba3a79e1b5cd0239e1749d51792) | test(vcs-log): give each remote-fixture test its own bare origin path | [sase-i8.10.2](sase-i8.10.2.md) | 2026-08-10 09:38:06 EDT |
+| sase--plans | [`sase--plans@e1205bb`](https://github.com/sase-org/sase--plans/commit/e1205bb419d139babc47bdde2e213dcdc5e58edf) | docs(plan): mark sase-i8.10 complete | [sase-i8.10](sase-i8.10.md) | 2026-08-10 10:50:53 EDT |

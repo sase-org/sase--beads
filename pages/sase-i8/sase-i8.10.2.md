@@ -21,7 +21,7 @@ isolation: remove the shared bare-remote path that makes two provider tests coll
 
 ## Dependencies
 
-- **Blocks:** [sase-i8.10.3](sase-i8.10.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-i8.10.3](sase-i8.10.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
