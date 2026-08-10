@@ -17,7 +17,7 @@ target: add the `ace.snippet_config_path` config field with its schema and defau
 
 ## Dependencies
 
-- **Blocks:** [sase-j3.3](sase-j3.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j3.3](sase-j3.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
