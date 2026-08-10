@@ -17,6 +17,8 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 
 [2026-08-10T12:41:43Z · sase-ib.land] DISCOVERED ISSUE (independent reproduction): the tale-size-missing failure also blocks plain `just check`, not only `just check-full`. Reproduced on 2026-08-10 while landing epic sase-ib in workspace sase_11 with only that epic's landing diff applied: every lint gate and SASE validation passed, then validate-committed-plans failed with `202608/new_task_recent_task_sweep.md:1: error [tale-size-missing]` (3548 files, 180 strict, 1 error) and `just check` exited 1 before its scoped test lane ever ran. Corroborates the 2026-08-10T12:33:26Z note from sase-ik.land; no task bead filed.
 
+[2026-08-10T13:55:44Z · wz] DISCOVERED ISSUE: independent broader reproduction while implementing bead_list_size.md on 2026-08-10: just check passed fmt, ruff, mypy, project lint gates, symvision, toobig, and SASE validation, then failed validate-committed-plans with 93 tale-size-missing errors across 202608/*.md (examples: ace_byte_free_artifact_view_crash.md, admin_center_selection_off_by_one.md, bead_show_styling.md, committed output reports 3507 files scanned, 139 strict, 3368 legacy). This is the same root cause already noted here for new_task_recent_task_sweep.md but now affects the refreshed plans sidecar more broadly: tale size is mandatory after this epic, and legacy committed tale plans lack size frontmatter. Blocks just check/check-full before scoped/full tests for unrelated agents until the committed plans are migrated or validation is scoped.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -25,7 +27,7 @@ One generated long-term memory note owns every sase-size instruction, tale plans
 | [sase-il.2](sase-il.2.md) | Generated sase\_sizes.md memory note | ✓ closed | medium | 2026-08-09 | 1 | 1 |
 | [sase-il.3](sase-il.3.md) | Required tale size in sase-core | ✓ closed | medium | 2026-08-09 | 1 | 3 |
 | [sase-il.4](sase-il.4.md) | Adopt tale size in sase | ✓ closed | medium | 2026-08-09 | 1 | 2 |
-| [sase-il.5](sase-il.5.md) | Retire the coder alias bucket | ◐ in_progress | large | 2026-08-09 | 1 | 0 |
+| [sase-il.5](sase-il.5.md) | Retire the coder alias bucket | ✓ closed | large | 2026-08-09 | 1 | 1 |
 | [sase-il.6](sase-il.6.md) | Verify plan handoff for large task beads | ✓ closed | small | 2026-08-09 | 1 | 1 |
 
 ## Lineage
@@ -37,7 +39,7 @@ flowchart TD
     n2["sase-il.2: Generated sase_sizes.md memory note [closed]"]
     n3["sase-il.3: Required tale size in sase-core [closed]"]
     n4["sase-il.4: Adopt tale size in sase [closed]"]
-    n5["sase-il.5: Retire the coder alias bucket [in_progress]"]
+    n5["sase-il.5: Retire the coder alias bucket [closed]"]
     n6["sase-il.6: Verify plan handoff for large task beads [closed]"]
     n0 --> n1
     n0 --> n2
@@ -59,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-il.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.2/README.md) | [sase-il.2](sase-il.2.md) | 1 |
 | [bbugyi200.athena.sase-il.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.3/README.md) | [sase-il.3](sase-il.3.md) | 3 |
 | [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 2 |
-| [bbugyi200.athena.sase-il.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.5/README.md) | [sase-il.5](sase-il.5.md) | 0 |
+| [bbugyi200.athena.sase-il.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-il.5.md) | [sase-il.5](sase-il.5.md) | 1 |
 | [bbugyi200.athena.sase-il.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.6/README.md) | [sase-il.6](sase-il.6.md) | 1 |
 | [bbugyi200.athena.sase-il.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.land/README.md) | [sase-il](README.md) | 0 |
 
@@ -75,3 +77,4 @@ flowchart TD
 | sase | [`f42a68c`](https://github.com/sase-org/sase/commit/f42a68c074088ec05e1a804659e2abc54a2c458d) | feat(memory): generate SASE size guidance note | [sase-il.2](sase-il.2.md) | 2026-08-10 07:47:42 EDT |
 | sase | [`b9008c5`](https://github.com/sase-org/sase/commit/b9008c535c4c0fd3bb4f199284c1a8369b2fd9f2) | feat(plan): normalize legacy tale size for launches | [sase-il.4](sase-il.4.md) | 2026-08-10 08:47:40 EDT |
 | sase--plans | [`sase--plans@3898be3`](https://github.com/sase-org/sase--plans/commit/3898be3d9c35368738a13b69ef5022aba956d830) | chore(plans): add size to recent task sweep plan | [sase-il.4](sase-il.4.md) | 2026-08-10 08:48:09 EDT |
+| sase | [`344a0b8`](https://github.com/sase-org/sase/commit/344a0b8ff2da71bc53123f008fde5ab08c1bef3a) | feat!: retire implicit coder model aliases | [sase-il.5](sase-il.5.md) | 2026-08-10 10:35:10 EDT |
