@@ -20,7 +20,7 @@ The three non-snoozed task beads (sase-ct, sase-ii, sase-iq) are closed with the
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-iy.1](sase-iy.1.md) | Verify and close sase-ii and sase-iq | ✓ closed | small | 2026-08-10 | 1 | 0 |
-| [sase-iy.2](sase-iy.2.md) | Fix the deterministic prompt-catalog convergence hang in the PNG lane | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
+| [sase-iy.2](sase-iy.2.md) | Fix the deterministic prompt-catalog convergence hang in the PNG lane | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-iy.3](sase-iy.3.md) | Widen the wait-idiom gate past its receiver and name blind spots | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-iy.4](sase-iy.4.md) | Fix the remaining contention-sensitive sase-ct nodes by mechanism | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-iy.5](sase-iy.5.md) | Retire the umbrella, close sase-ct, and make the no-+1 instruction reachable | ◐ in_progress | medium | 2026-08-10 | 1 | 0 |
@@ -31,7 +31,7 @@ The three non-snoozed task beads (sase-ct, sase-ii, sase-iq) are closed with the
 flowchart TD
     n0["sase-iy: Close the three live task beads and retire the sase-ct umbrella permanently [in_progress]"]
     n1["sase-iy.1: Verify and close sase-ii and sase-iq [closed]"]
-    n2["sase-iy.2: Fix the deterministic prompt-catalog convergence hang in the PNG lane [in_progress]"]
+    n2["sase-iy.2: Fix the deterministic prompt-catalog convergence hang in the PNG lane [closed]"]
     n3["sase-iy.3: Widen the wait-idiom gate past its receiver and name blind spots [closed]"]
     n4["sase-iy.4: Fix the remaining contention-sensitive sase-ct nodes by mechanism [closed]"]
     n5["sase-iy.5: Retire the umbrella, close sase-ct, and make the no-+1 instruction reachable [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-iy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.1/README.md) | [sase-iy.1](sase-iy.1.md) | 0 |
-| [bbugyi200.athena.sase-iy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.2/README.md) | [sase-iy.2](sase-iy.2.md) | 0 |
+| [bbugyi200.athena.sase-iy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.2/README.md) | [sase-iy.2](sase-iy.2.md) | 1 |
 | [bbugyi200.athena.sase-iy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.3/README.md) | [sase-iy.3](sase-iy.3.md) | 1 |
 | [bbugyi200.athena.sase-iy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.4/README.md) | [sase-iy.4](sase-iy.4.md) | 1 |
 | [bbugyi200.athena.sase-iy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-iy.5/README.md) | [sase-iy.5](sase-iy.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`c49452c`](https://github.com/sase-org/sase/commit/c49452c475730db67b18ab519885924b43d61692) | test: widen test wait helper gate | [sase-iy.3](sase-iy.3.md) | 2026-08-10 11:48:33 EDT |
 | sase | [`ebd3a91`](https://github.com/sase-org/sase/commit/ebd3a91bc16b3e1af6949177c2a475036af9f67a) | test: stabilize contention-sensitive TUI waits | [sase-iy.4](sase-iy.4.md) | 2026-08-10 12:41:54 EDT |
+| sase | [`128b326`](https://github.com/sase-org/sase/commit/128b326ea46a11c05ece35e8ff17d9d6b81a4bc0) | test: stabilize PNG visual prompt catalog fixtures | [sase-iy.2](sase-iy.2.md) | 2026-08-10 12:50:24 EDT |
