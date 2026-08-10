@@ -21,7 +21,7 @@ subtab-id: rename the ACE Artifacts sub-tab identifier from `commits` to `stitch
 
 ## Dependencies
 
-- **Blocks:** [sase-j8.3](sase-j8.3.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j8.3](sase-j8.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

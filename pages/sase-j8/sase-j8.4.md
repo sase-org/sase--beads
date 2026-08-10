@@ -13,7 +13,7 @@ labels: change every displayed "Commits" string that names the Artifacts pane to
 
 ## Dependencies
 
-- **Depends on:** [sase-j8.3](sase-j8.3.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j8.3](sase-j8.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
