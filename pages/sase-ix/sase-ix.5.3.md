@@ -13,7 +13,7 @@ land-sase-ix: rerun full Python and Rust verification, record every child-note a
 
 ## Dependencies
 
-- **Depends on:** [sase-ix.5.2](sase-ix.5.2.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-ix.5.2](sase-ix.5.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

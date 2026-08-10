@@ -17,7 +17,7 @@ harden-observation-metadata: validate agent_meta.json run_started_at before pass
 
 ## Dependencies
 
-- **Blocks:** [sase-ix.5.2](sase-ix.5.2.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-ix.5.2](sase-ix.5.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

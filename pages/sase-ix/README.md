@@ -40,7 +40,7 @@ flowchart TD
     n4["sase-ix.4: End-to-end race regression and store audit [closed]"]
     n5["sase-ix.5: Finish observation-window hardening and land sase-ix [in_progress]"]
     n6["sase-ix.5.1: Fall back safely for malformed observation metadata [closed]"]
-    n7["sase-ix.5.2: Reconcile canonical docs and deployed plus-one guidance [in_progress]"]
+    n7["sase-ix.5.2: Reconcile canonical docs and deployed plus-one guidance [closed]"]
     n8["sase-ix.5.3: Verify, close, and clean up epic sase-ix [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ix.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.3/README.md) | [sase-ix.3](sase-ix.3.md) | 2 |
 | [bbugyi200.athena.sase-ix.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.4/README.md) | [sase-ix.4](sase-ix.4.md) | 1 |
 | [bbugyi200.athena.sase-ix.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.5.1/README.md) | [sase-ix.5.1](sase-ix.5.1.md) | 1 |
-| [bbugyi200.athena.sase-ix.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.5.2/README.md) | [sase-ix.5.2](sase-ix.5.2.md) | 0 |
+| [bbugyi200.athena.sase-ix.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.5.2/README.md) | [sase-ix.5.2](sase-ix.5.2.md) | 1 |
 | [bbugyi200.athena.sase-ix.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.5.3/README.md) | [sase-ix.5.3](sase-ix.5.3.md) | 0 |
 | [bbugyi200.athena.sase-ix.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.5.land/README.md) | [sase-ix.5](sase-ix.5.md) | 0 |
 | [bbugyi200.athena.sase-ix.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ix.land/README.md) | [sase-ix](README.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase-core | [`sase-core@4f09d27`](https://github.com/sase-org/sase-core/commit/4f09d2774bde8e7494871f68c1e9e322fd5b8d97) | feat(beads): search observed\_since corroboration evidence | [sase-ix.3](sase-ix.3.md) | 2026-08-10 12:26:10 EDT |
 | sase | [`43337c3`](https://github.com/sase-org/sase/commit/43337c3f7a255bf0798689fcd83388eaabf09f0e) | test(bead): reproduce the plus-one post-close reopen race end to end | [sase-ix.4](sase-ix.4.md) | 2026-08-10 12:56:38 EDT |
 | sase | [`f2f2624`](https://github.com/sase-org/sase/commit/f2f26245e59341888323420b71d69888b38c0f6b) | fix(identity): fall back safely on malformed observation metadata | [sase-ix.5.1](sase-ix.5.1.md) | 2026-08-10 13:45:09 EDT |
+| sase | [`b67a842`](https://github.com/sase-org/sase/commit/b67a8420f22dedaf53df14d4c6035162c3b19102) | docs(beads): clarify closed-task plus-one boundary | [sase-ix.5.2](sase-ix.5.2.md) | 2026-08-10 14:05:04 EDT |
