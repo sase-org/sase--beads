@@ -31,10 +31,11 @@ plan-size-adopt: raise the sase-core floor, plumb the validated tale `size` thro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 1 |
+| [bbugyi200.athena.sase-il.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.4/README.md) | [sase-il.4](sase-il.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b9008c5`](https://github.com/sase-org/sase/commit/b9008c535c4c0fd3bb4f199284c1a8369b2fd9f2) | feat(plan): normalize legacy tale size for launches | [sase-il.4](sase-il.4.md) | 2026-08-10 08:47:40 EDT |
+| sase--plans | [`sase--plans@3898be3`](https://github.com/sase-org/sase--plans/commit/3898be3d9c35368738a13b69ef5022aba956d830) | chore(plans): add size to recent task sweep plan | [sase-il.4](sase-il.4.md) | 2026-08-10 08:48:09 EDT |
