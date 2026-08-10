@@ -17,13 +17,11 @@ enable-ratchet: read the report-only output from at least one real master push w
 
 [2026-08-09T20:46:14Z · sase-ij.5] Verified publish.yml sync-release-metadata now runs tools/ratchet_core_window in apply mode before uv lock and accepts exit 2 as applied. Checked real Publish run 31334434181: pending release branch existed, report-only run found newest complete PyPI sase-core-rs 0.21.3 already matched, uv lock produced no diff. Independently checked PyPI newest complete release is 0.21.3; local apply-mode ratchet is a no-op and leaves pyproject.toml/uv.lock clean. tests/test_github_actions_ci.py passed. just check lint/validation passed, then scoped selection escalated to full suite due core-identity-changed and hit unrelated full-suite failures before interruption; recorded as proposed follow-up. Release PR 284 floor lane is red because published 0.21.3 lacks parse_merge_summary/vcs_log_wire_schema_version from sase-core 459bbc6; did not lower the floor.
 
-[2026-08-09T20:47:17Z · sase-ij.5] Verified real Publish run 31334434181 report-only baseline, PyPI newest complete sase-core-rs 0.21.3, local apply-mode ratchet no-op, and tests/test_github_actions_ci.py passed; just check lint/validation passed before unrelated full-suite escalation/failures were recorded as follow-up.
-
 ## Dependencies
 
 - **Depends on:** [sase-ij.3](sase-ij.3.md) ✓ · ⧖ 2026-08-09
 - **Depends on:** [sase-ij.4](sase-ij.4.md) ✓ · ⧖ 2026-08-09
-- **Blocks:** [sase-ij.6](sase-ij.6.md) ◐ · ⧖ 2026-08-09
+- **Blocks:** [sase-ij.6](sase-ij.6.md) ✓ · ⧖ 2026-08-09
 
 ## Agents
 

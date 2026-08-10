@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-ij](README.md) / sase-ij.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.wq](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.wq/README.md) · **Assignee:** `sase-ij.8` · **Size:** small
-**Created:** 2026-08-09 15:21:16 EDT
+**Created:** 2026-08-09 15:21:16 EDT · **Closed:** 2026-08-10 07:28:31 EDT
 **Plan:** [202608/core\_window\_ratchet.md](https://github.com/sase-org/sase--plans/blob/main/202608/core_window_ratchet.md)
 
 ## Description
 
 core-automerge: add a guarded job to sase-core's release-plz.yml that waits for the release PR's checks and squash-merges it, collapsing a median 43-minute and worst-case 9h36m human wait into roughly ten minutes.
+
+## Notes
+
+[2026-08-10T11:28:31Z · sase-ij.8] Verified sase-core release-plz.yml contains guarded release-plz-merge job with PR guard, check-registration polling, gh pr checks --watch --fail-fast, and squash merge; actionlint .github/workflows/release-plz.yml passes; GitHub run 31337474077 merged release PR #102 after checks passed.
 
 ## Agents
 
