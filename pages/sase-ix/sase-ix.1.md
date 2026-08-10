@@ -21,7 +21,7 @@ core: carry each +1 reporter's observation-window start on the evidence wire, an
 
 ## Dependencies
 
-- **Blocks:** [sase-ix.2](sase-ix.2.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-ix.2](sase-ix.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
