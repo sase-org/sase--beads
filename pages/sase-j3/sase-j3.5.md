@@ -22,7 +22,7 @@ save: route `<enter>` in the snippet pane to a confirmation panel with draft/exi
 ## Dependencies
 
 - **Depends on:** [sase-j3.4](sase-j3.4.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-j3.7](sase-j3.7.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j3.7](sase-j3.7.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

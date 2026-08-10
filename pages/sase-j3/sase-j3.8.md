@@ -13,7 +13,7 @@ verify: run the full verification gate and drive the real TUI through creating, 
 
 ## Dependencies
 
-- **Depends on:** [sase-j3.7](sase-j3.7.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-j3.7](sase-j3.7.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

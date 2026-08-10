@@ -21,7 +21,7 @@ Authoring and editing an ACE snippet is a first-class prompt-bar loop: `gt` / `C
 | [sase-j3.4](sase-j3.4.md) | The gt keymap, pane lifecycle, and exact cursor restoration | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j3.5](sase-j3.5.md) | Save confirmation with a real diff, the write, and follow-up actions | ✓ closed | medium | 2026-08-10 | 1 | 1 |
 | [sase-j3.6](sase-j3.6.md) | Visual language for the snippet pane | ✓ closed | medium | 2026-08-10 | 1 | 1 |
-| [sase-j3.7](sase-j3.7.md) | Help modal and documentation | ◐ in_progress | small | 2026-08-10 | 1 | 0 |
+| [sase-j3.7](sase-j3.7.md) | Help modal and documentation | ✓ closed | small | 2026-08-10 | 1 | 1 |
 | [sase-j3.8](sase-j3.8.md) | End-to-end verification of the snippet loop | ◐ in_progress | small | 2026-08-10 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n4["sase-j3.4: The gt keymap, pane lifecycle, and exact cursor restoration [closed]"]
     n5["sase-j3.5: Save confirmation with a real diff, the write, and follow-up actions [closed]"]
     n6["sase-j3.6: Visual language for the snippet pane [closed]"]
-    n7["sase-j3.7: Help modal and documentation [in_progress]"]
+    n7["sase-j3.7: Help modal and documentation [closed]"]
     n8["sase-j3.8: End-to-end verification of the snippet loop [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-j3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.4/README.md) | [sase-j3.4](sase-j3.4.md) | 1 |
 | [bbugyi200.athena.sase-j3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.5/README.md) | [sase-j3.5](sase-j3.5.md) | 1 |
 | [bbugyi200.athena.sase-j3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.6/README.md) | [sase-j3.6](sase-j3.6.md) | 1 |
-| [bbugyi200.athena.sase-j3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.7/README.md) | [sase-j3.7](sase-j3.7.md) | 0 |
+| [bbugyi200.athena.sase-j3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.7/README.md) | [sase-j3.7](sase-j3.7.md) | 1 |
 | [bbugyi200.athena.sase-j3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.8/README.md) | [sase-j3.8](sase-j3.8.md) | 0 |
 | [bbugyi200.athena.sase-j3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j3.land/README.md) | [sase-j3](README.md) | 0 |
 
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`ba77762`](https://github.com/sase-org/sase/commit/ba77762e68fd045df73b8106dd589d91787e9ca1) | feat(ace): add snippet target pane lifecycle | [sase-j3.4](sase-j3.4.md) | 2026-08-10 17:01:58 EDT |
 | sase | [`de530b3`](https://github.com/sase-org/sase/commit/de530b340f6bbd1dd14ccb7f00f122cd145aa99f) | feat(ace): confirm snippet pane saves | [sase-j3.5](sase-j3.5.md) | 2026-08-10 17:45:58 EDT |
 | sase | [`0ccd7f8`](https://github.com/sase-org/sase/commit/0ccd7f84473191551aba0091b8ca9c401053d579) | feat(ace): give the snippet pane its own theme-safe visual language | [sase-j3.6](sase-j3.6.md) | 2026-08-10 17:53:29 EDT |
+| sase | [`aae179e`](https://github.com/sase-org/sase/commit/aae179e86fabbffdf3e572b808d531884e317564) | docs(ace): document snippet pane keybinding and config field | [sase-j3.7](sase-j3.7.md) | 2026-08-10 18:07:03 EDT |
