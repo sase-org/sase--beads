@@ -15,7 +15,7 @@ Artifact references stop being xprompts and become a first-class, versioned ref 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-js.1](sase-js.1.md) | Ref contract wire types in sase-core | ◐ in_progress | large | 2026-08-11 | 1 | 1 |
+| [sase-js.1](sase-js.1.md) | Ref contract wire types in sase-core | ✓ closed | large | 2026-08-11 | 1 | 2 |
 | [sase-js.2](sase-js.2.md) | Retire the ref xprompt surface | ◐ in_progress | medium | 2026-08-11 | 1 | 0 |
 | [sase-js.3](sase-js.3.md) | Provider registry, plugin hooks, and config | ◐ in_progress | large | 2026-08-11 | 1 | 0 |
 | [sase-js.4](sase-js.4.md) | Builtin refs and prompt ref context | ◐ in_progress | large | 2026-08-11 | 1 | 0 |
@@ -30,7 +30,7 @@ Artifact references stop being xprompts and become a first-class, versioned ref 
 ```mermaid
 flowchart TD
     n0["sase-js: Artifact reference contract [in_progress]"]
-    n1["sase-js.1: Ref contract wire types in sase-core [in_progress]"]
+    n1["sase-js.1: Ref contract wire types in sase-core [closed]"]
     n2["sase-js.2: Retire the ref xprompt surface [in_progress]"]
     n3["sase-js.3: Provider registry, plugin hooks, and config [in_progress]"]
     n4["sase-js.4: Builtin refs and prompt ref context [in_progress]"]
@@ -66,7 +66,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-js.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.1.md) | [sase-js.1](sase-js.1.md) | 1 |
+| [bbugyi200.athena.sase-js.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.1.md) | [sase-js.1](sase-js.1.md) | 2 |
 | [bbugyi200.athena.sase-js.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.2/README.md) | [sase-js.2](sase-js.2.md) | 0 |
 | [bbugyi200.athena.sase-js.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.3/README.md) | [sase-js.3](sase-js.3.md) | 0 |
 | [bbugyi200.athena.sase-js.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.4/README.md) | [sase-js.4](sase-js.4.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3cc5af7`](https://github.com/sase-org/sase-core/commit/3cc5af750182a7b54bb3b61dae6e2465794f0bf7) | feat(artifact-ref)!: add ref contract wire types, quoted arguments, link allocator, and Referenced By block | [sase-js.1](sase-js.1.md) | 2026-08-11 14:30:55 EDT |
+| sase | [`cb453a5`](https://github.com/sase-org/sase/commit/cb453a529e483d4237afdfab66fd2be9e1caadeb) | feat(artifact-ref)!: bump wire schema to 5 for stitch/patch/file-path kinds | [sase-js.1](sase-js.1.md) | 2026-08-11 15:16:10 EDT |
