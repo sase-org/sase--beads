@@ -18,7 +18,7 @@ wire: mirror the new `origin` field in the Python VCS-log wire records, teach th
 ## Dependencies
 
 - **Depends on:** [sase-jo.1](sase-jo.1.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-jo.4](sase-jo.4.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-jo.4](sase-jo.4.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-jo.5](sase-jo.5.md) ◐ · ⧖ 2026-08-11
 
 ## Agents
