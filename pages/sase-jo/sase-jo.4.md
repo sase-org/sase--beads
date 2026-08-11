@@ -28,10 +28,11 @@ render: add the shared origin glyph/label/style module, the fixed origin column 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.4/README.md) | [sase-jo.4](sase-jo.4.md) | 1 |
+| [bbugyi200.athena.sase-jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.4/README.md) | [sase-jo.4](sase-jo.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b6a1493`](https://github.com/sase-org/sase-core/commit/b6a149349a4e2fe3d920303c6aced1e552248169) | feat(vcs-log): distinguish stitch and auto commit origins | [sase-jo.4](sase-jo.4.md) | 2026-08-11 08:54:03 EDT |
+| sase | [`29af892`](https://github.com/sase-org/sase/commit/29af892b857c6a70ec4ba87abc17971f083ed040) | feat(vcs-log): render commit origin in timelines | [sase-jo.4](sase-jo.4.md) | 2026-08-11 08:55:51 EDT |
