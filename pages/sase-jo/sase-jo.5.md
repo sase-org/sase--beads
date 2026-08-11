@@ -20,7 +20,7 @@ filter: add the repeatable, negatable `origin:` key to the Stitches filter query
 ## Dependencies
 
 - **Depends on:** [sase-jo.3](sase-jo.3.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-jo.6](sase-jo.6.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-jo.6](sase-jo.6.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 

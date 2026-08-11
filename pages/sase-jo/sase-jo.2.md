@@ -19,7 +19,7 @@ invariant: stamp `SASE_TYPE=stitch` on every commit created through the tracked 
 
 ## Dependencies
 
-- **Blocks:** [sase-jo.6](sase-jo.6.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-jo.6](sase-jo.6.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
