@@ -2,9 +2,17 @@
 
 [Bead Pages](../README.md) / sase-j0
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **+1 reports:** +1
+**Status:** ◐ in_progress · **Type:** ◆ task · **+1 reports:** +3 · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-il.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-il.7.land/README.md) · **Assignee:** `sase-j0` · **Size:** large
-**Created:** 2026-08-10 13:48:22 EDT · **Closed:** 2026-08-10 14:58:04 EDT
+**Created:** 2026-08-10 13:48:22 EDT
+
+## Previously Closed
+
+> ↺ Closed 2026-08-10T18:58:04Z · done
+>
+> (none)
+>
+> Reopened 2026-08-10T20:33:29Z by a +1 from @xm
 
 ## Description
 
@@ -35,6 +43,8 @@ VERIFY: 'just check-full' passes end to end on clean master, and tools/check_tes
 
 [2026-08-10T18:58:04Z · sase-j0] Recalibrated tests/perf/baselines/test_cost_budgets.json against 8+ real just test-cost recordings (host athena, 2026-08-10 15:21Z-17:46Z+, 4-14 workers): added per_worker normalization to check_cost_budgets(), collection_cpu_seconds to build_cost_record()'s summary, and tools/check_test_cost_budgets --suggest. Verified: 27/27 tests in tests/test_test_cost.py pass; committed pre-epic baseline still fails recalibrated budgets on parser_create/textual_app_run_test_enter/yaml_load; a fresh just check-full run's own cost recording (20260810T185645Z) passes the recalibrated budgets cleanly (test cost gate: PASS); just check passes end to end. just check-full's only failure is the pre-existing, separately-tracked selection-health/flake-baseline gate driven by tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection (stale contract manifest), unrelated to this change, as anticipated by the plan's Known Blocker section.
 
+[2026-08-11T13:32:14Z · xy] close_out_sase_ct_retirement measurement at db338f2ef: after opening the linked sase-core checkout and rebuilding local sase_core_rs to 0.24.5, just check-full passed end to end, including tools/check_test_cost_budgets. Latest cost record: /home/bryan/.sase/test-selection/gh_sase-org__sase/timings/cost/20260811T132350Z-3690654.json; 14 workers, 2528 files, 28931 nodes, per-test wall 2830.942s, collection 225.751s, worker wall 8369.100s, peak worker RSS 1072932 KiB. This run makes the cost gate green for this closure; leaving this task open for the owner because it still tracks prior master-wide cost redness and reopen history.
+
 ## +1 Evidence
 
 > **+1** by `xi` · 2026-08-10 14:40:08 EDT
@@ -44,25 +54,39 @@ VERIFY: 'just check-full' passes end to end on clean master, and tools/check_tes
 >
 > **References:** file:explicit:5ea079395bf711ce2dd71f71
 
+> **+1** by `xm` · 2026-08-10 16:33:29 EDT
+> **Observed since:** 2026-08-10 16:33:29 EDT
+>
+> Independent post-close reproduction while verifying model_alias provenance on 2026-08-10. This workspace contains the recalibration fix commit c8e4016c7. just check-full passed fmt, lint, SASE validation, committed plans, and the full pytest test-cost lane itself (28546 passed / 10 skipped), then failed only the recalibrated test-cost budget gate on peak_worker_rss_kib: actual 1325528 KiB exceeded budget 1100000 KiB + 15% tolerance (1265000 KiB). The model-alias patch touches directive metadata, scan wire fields, model display rendering, docs, and focused tests; it does not touch test-cost budgets or pytest worker memory behavior.
+>
+> **References:** file:explicit:4b47674d950e36f81477c605
+
+> **+1** by `sase-jo.land` · 2026-08-11 11:41:23 EDT
+> **Observed since:** 2026-08-11 10:39:36 EDT
+>
+> Independent reproduction while landing epic sase-jo's amend-footer follow-up fix on 2026-08-11 (workspace sase_10, base commit ccd34ae92, uncommitted local changes to src/sase/vcs_provider/plugins/_git_core_ops.py + 3 test files, not test-cost tooling). First 'just check-full' run failed only at test-cost: peak_worker_rss_kib actual 1342924 KiB exceeded budget 1100000 + 15% tolerance (1265000 KiB); all pytest nodes themselves passed. Confirmed heavy concurrent contention at the time: load average 13-19, 'ps aux' showed 4+ concurrent 'sase ace(run)' agent processes, an active release-mode rustc build of sase_core_rs in sibling workspace sase_12, and a root rsync hourly backup job. Immediate retry of 'just test-cost' alone (no code changes) passed cleanly: 'test cost budgets passed'. This patch touches only commit-amend footer preservation, not test-cost tooling or worker memory behavior.
+
 ## References
 
 - file:explicit:5ea079395bf711ce2dd71f71
+- file:explicit:4b47674d950e36f81477c605
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-j0: just check-full is red on master: every suite-cost summary budget and two ACE/Textual cause budgets are exceeded [closed]"]
+    n0["sase-j0: just check-full is red on master: every suite-cost summary budget and two ACE/Textual cause budgets are exceeded [in_progress]"]
 ```
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-j0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-j0.md) | [sase-j0](README.md) | 1 |
+| [bbugyi200.athena.sase-j0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-j0.md) | [sase-j0](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c8e4016`](https://github.com/sase-org/sase/commit/c8e4016c7c5e169b77fd4bfadd9170e71c2a1ca2) | fix(test-cost): recalibrate suite-cost budgets against real recorded history | [sase-j0](README.md) | 2026-08-10 14:58:48 EDT |
+| sase | [`9cb81b3`](https://github.com/sase-org/sase/commit/9cb81b3b0dde3af6c4bd66260e9d382785feec65) | feat(test-cost): add width-invariant worker-RSS summary keys | [sase-j0](README.md) | 2026-08-11 12:39:33 EDT |
