@@ -13,7 +13,7 @@ linking: rewrite published prompts to numbered `[@kind:arg][N]` reference links 
 
 ## Dependencies
 
-- **Depends on:** [sase-js.4](sase-js.4.md) ◐ · ⧖ 2026-08-11
+- **Depends on:** [sase-js.4](sase-js.4.md) ✓ · ⧖ 2026-08-11
 - **Depends on:** [sase-js.5](sase-js.5.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.9](sase-js.9.md) ◐ · ⧖ 2026-08-11
 
