@@ -24,8 +24,8 @@ Every row on the Artifacts Stitches sub-tab carries a distinct, self-documenting
 | [sase-jo.1](sase-jo.1.md) | Core stitch-origin classifier | ✓ closed | medium | 2026-08-11 | 1 | 1 |
 | [sase-jo.2](sase-jo.2.md) | Tracked-commit provenance invariant | ✓ closed | medium | 2026-08-11 | 1 | 1 |
 | [sase-jo.3](sase-jo.3.md) | Python wire and golden-contract parity | ✓ closed | small | 2026-08-11 | 1 | 1 |
-| [sase-jo.4](sase-jo.4.md) | Timeline, legend, and detail rendering | ✓ closed | medium | 2026-08-11 | 1 | 2 |
-| [sase-jo.5](sase-jo.5.md) | origin filter and CLI flag | ◐ in_progress | medium | 2026-08-11 | 1 | 0 |
+| [sase-jo.4](sase-jo.4.md) | Timeline, legend, and detail rendering | ✓ closed | medium | 2026-08-11 | 1 | 1 |
+| [sase-jo.5](sase-jo.5.md) | origin filter and CLI flag | ✓ closed | medium | 2026-08-11 | 1 | 1 |
 | [sase-jo.6](sase-jo.6.md) | Docs, help modal, and configuration reference | ◐ in_progress | small | 2026-08-11 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ flowchart TD
     n2["sase-jo.2: Tracked-commit provenance invariant [closed]"]
     n3["sase-jo.3: Python wire and golden-contract parity [closed]"]
     n4["sase-jo.4: Timeline, legend, and detail rendering [closed]"]
-    n5["sase-jo.5: origin filter and CLI flag [in_progress]"]
+    n5["sase-jo.5: origin filter and CLI flag [closed]"]
     n6["sase-jo.6: Docs, help modal, and configuration reference [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -60,8 +60,8 @@ flowchart TD
 | [bbugyi200.athena.sase-jo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.1/README.md) | [sase-jo.1](sase-jo.1.md) | 1 |
 | [bbugyi200.athena.sase-jo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.2/README.md) | [sase-jo.2](sase-jo.2.md) | 1 |
 | [bbugyi200.athena.sase-jo.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.3/README.md) | [sase-jo.3](sase-jo.3.md) | 1 |
-| [bbugyi200.athena.sase-jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.4/README.md) | [sase-jo.4](sase-jo.4.md) | 2 |
-| [bbugyi200.athena.sase-jo.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.5/README.md) | [sase-jo.5](sase-jo.5.md) | 0 |
+| [bbugyi200.athena.sase-jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.4/README.md) | [sase-jo.4](sase-jo.4.md) | 1 |
+| [bbugyi200.athena.sase-jo.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.5/README.md) | [sase-jo.5](sase-jo.5.md) | 1 |
 | [bbugyi200.athena.sase-jo.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.6/README.md) | [sase-jo.6](sase-jo.6.md) | 0 |
 | [bbugyi200.athena.sase-jo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.land/README.md) | [sase-jo](README.md) | 0 |
 
@@ -72,5 +72,5 @@ flowchart TD
 | sase-core | [`sase-core@dc836c4`](https://github.com/sase-org/sase-core/commit/dc836c491b175694563baba60f52ba839feb0e30) | feat(vcs-log): classify commit origins | [sase-jo.1](sase-jo.1.md) | 2026-08-11 07:21:57 EDT |
 | sase | [`2d40e92`](https://github.com/sase-org/sase/commit/2d40e929735428a5a14d7ceae4b1ddaf2e9ee839) | feat(core): wire commit origin through Python VCS-log wire and golden parser | [sase-jo.3](sase-jo.3.md) | 2026-08-11 08:14:09 EDT |
 | sase | [`050264c`](https://github.com/sase-org/sase/commit/050264c7c98f4e2efbb93efb15db10924b8e52bd) | feat(vcs): stamp SASE\_TYPE on every commit-creating call site | [sase-jo.2](sase-jo.2.md) | 2026-08-11 08:23:21 EDT |
-| sase-core | [`sase-core@b6a1493`](https://github.com/sase-org/sase-core/commit/b6a149349a4e2fe3d920303c6aced1e552248169) | feat(vcs-log): distinguish stitch and auto commit origins | [sase-jo.4](sase-jo.4.md) | 2026-08-11 08:54:03 EDT |
 | sase | [`29af892`](https://github.com/sase-org/sase/commit/29af892b857c6a70ec4ba87abc17971f083ed040) | feat(vcs-log): render commit origin in timelines | [sase-jo.4](sase-jo.4.md) | 2026-08-11 08:55:51 EDT |
+| sase | [`e1b39c7`](https://github.com/sase-org/sase/commit/e1b39c72cc47309676c4bff76c8769da2a8f260f) | feat(vcs-log): add origin filter key and --origin CLI flag | [sase-jo.5](sase-jo.5.md) | 2026-08-11 09:09:34 EDT |

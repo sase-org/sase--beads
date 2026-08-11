@@ -15,7 +15,7 @@ docs: document the origin taxonomy, glyphs, provenance invariant, and `origin:` 
 
 - **Depends on:** [sase-jo.2](sase-jo.2.md) ✓ · ⧖ 2026-08-11
 - **Depends on:** [sase-jo.4](sase-jo.4.md) ✓ · ⧖ 2026-08-11
-- **Depends on:** [sase-jo.5](sase-jo.5.md) ◐ · ⧖ 2026-08-11
+- **Depends on:** [sase-jo.5](sase-jo.5.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
