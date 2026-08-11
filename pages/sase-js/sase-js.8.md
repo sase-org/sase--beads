@@ -13,7 +13,7 @@ research: build `sase-org/sase-research` as an installable plugin owning the `re
 
 ## Dependencies
 
-- **Depends on:** [sase-js.3](sase-js.3.md) ◐ · ⧖ 2026-08-11
+- **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.9](sase-js.9.md) ◐ · ⧖ 2026-08-11
 
 ## Agents

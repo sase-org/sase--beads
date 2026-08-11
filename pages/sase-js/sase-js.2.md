@@ -27,7 +27,7 @@ Verified: cargo check/test --workspace on sase-core is 100% green (1500+ tests, 
 
 ## Dependencies
 
-- **Blocks:** [sase-js.3](sase-js.3.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 

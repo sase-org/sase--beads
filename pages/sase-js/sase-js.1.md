@@ -19,7 +19,7 @@ core: define the versioned provider/entry/resolution/use wire types, the closed 
 
 ## Dependencies
 
-- **Blocks:** [sase-js.3](sase-js.3.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
