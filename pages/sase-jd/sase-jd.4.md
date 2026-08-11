@@ -24,10 +24,11 @@ issue_mirror: add the per-project builtin chop that diffs the tracker against be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.4.md) | [sase-jd.4](sase-jd.4.md) | 1 |
+| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.4.md) | [sase-jd.4](sase-jd.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@40d0a9e`](https://github.com/sase-org/sase-core/commit/40d0a9e7ca2682e013c3208eea2659cf56066bbc) | feat(bead): collapse duplicate external\_ref issues at event-reduction time | [sase-jd.4](sase-jd.4.md) | 2026-08-11 07:38:09 EDT |
+| sase | [`265fdbe`](https://github.com/sase-org/sase/commit/265fdbed82ef1638cd55bd449dd52943c33666cf) | feat(beads): mirror external tracker issues into task beads | [sase-jd.4](sase-jd.4.md) | 2026-08-11 07:51:25 EDT |

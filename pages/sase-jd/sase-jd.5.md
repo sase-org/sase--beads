@@ -24,10 +24,11 @@ pr_mirror: add the per-project builtin chop that adopts unowned remote PRs as Pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jd.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.5.md) | [sase-jd.5](sase-jd.5.md) | 1 |
+| [bbugyi200.athena.sase-jd.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.5.md) | [sase-jd.5](sase-jd.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f5aa4d1`](https://github.com/sase-org/sase-core/commit/f5aa4d1d7c5b30699407192866d309cdc2f08967) | feat(external-pr): classify external pull request imports | [sase-jd.5](sase-jd.5.md) | 2026-08-11 07:29:34 EDT |
+| sase | [`bdf2171`](https://github.com/sase-org/sase/commit/bdf21713a55715f5182d270201bcfa03b56c4e4a) | feat(patch): mirror external pull requests | [sase-jd.5](sase-jd.5.md) | 2026-08-11 07:30:40 EDT |

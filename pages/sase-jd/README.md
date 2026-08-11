@@ -18,9 +18,9 @@ Every issue in an enabled project's external tracker has a corresponding bead an
 | [sase-jd.1](sase-jd.1.md) | external\_ref bead identity field | ✓ closed | large | 2026-08-10 | 1 | 2 |
 | [sase-jd.2](sase-jd.2.md) | Pull-request provider seam | ✓ closed | medium | 2026-08-10 | 1 | 2 |
 | [sase-jd.3](sase-jd.3.md) | PR\_ORIGIN field, SASE\_PATCH stamp, and the external-Patch safety exclusion | ✓ closed | medium | 2026-08-10 | 1 | 2 |
-| [sase-jd.4](sase-jd.4.md) | external\_issue\_mirror chop | ✓ closed | large | 2026-08-10 | 1 | 1 |
-| [sase-jd.5](sase-jd.5.md) | external\_pr\_mirror chop and the two-file Patch importer | ✓ closed | large | 2026-08-10 | 1 | 1 |
-| [sase-jd.6](sase-jd.6.md) | External-issue presentation and actions in the Beads pane | ✓ closed | large | 2026-08-10 | 1 | 0 |
+| [sase-jd.4](sase-jd.4.md) | external\_issue\_mirror chop | ✓ closed | large | 2026-08-10 | 1 | 2 |
+| [sase-jd.5](sase-jd.5.md) | external\_pr\_mirror chop and the two-file Patch importer | ✓ closed | large | 2026-08-10 | 1 | 2 |
+| [sase-jd.6](sase-jd.6.md) | External-issue presentation and actions in the Beads pane | ✓ closed | large | 2026-08-10 | 1 | 1 |
 | [sase-jd.7](sase-jd.7.md) | PR badge and origin chip on Patch rows and detail | ✓ closed | medium | 2026-08-10 | 1 | 2 |
 | [sase-jd.8](sase-jd.8.md) | Retire Bugs, rename PRs to Patches, reorder the Artifacts sub-tabs | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
 
@@ -61,9 +61,9 @@ flowchart TD
 | [bbugyi200.athena.sase-jd.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.1.md) | [sase-jd.1](sase-jd.1.md) | 2 |
 | [bbugyi200.athena.sase-jd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.2/README.md) | [sase-jd.2](sase-jd.2.md) | 2 |
 | [bbugyi200.athena.sase-jd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.3/README.md) | [sase-jd.3](sase-jd.3.md) | 2 |
-| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.4.md) | [sase-jd.4](sase-jd.4.md) | 1 |
-| [bbugyi200.athena.sase-jd.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.5.md) | [sase-jd.5](sase-jd.5.md) | 1 |
-| [bbugyi200.athena.sase-jd.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.6.md) | [sase-jd.6](sase-jd.6.md) | 0 |
+| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.4.md) | [sase-jd.4](sase-jd.4.md) | 2 |
+| [bbugyi200.athena.sase-jd.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.5.md) | [sase-jd.5](sase-jd.5.md) | 2 |
+| [bbugyi200.athena.sase-jd.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.6.md) | [sase-jd.6](sase-jd.6.md) | 1 |
 | [bbugyi200.athena.sase-jd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.7/README.md) | [sase-jd.7](sase-jd.7.md) | 2 |
 | [bbugyi200.athena.sase-jd.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.8/README.md) | [sase-jd.8](sase-jd.8.md) | 0 |
 | [bbugyi200.athena.sase-jd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.land/README.md) | [sase-jd](README.md) | 0 |
@@ -80,5 +80,8 @@ flowchart TD
 | sase | [`fd93aab`](https://github.com/sase-org/sase/commit/fd93aab1d4c850d10fddb13330108d4e0627a0a1) | feat(beads): surface external refs in Python workflows | [sase-jd.1](sase-jd.1.md) | 2026-08-10 21:12:20 EDT |
 | sase | [`c63b32b`](https://github.com/sase-org/sase/commit/c63b32b93c25cbbe9abc77ccf82c70b68788bb69) | feat(ace): render PR origin chip and add origin: query property | [sase-jd.7](sase-jd.7.md) | 2026-08-10 21:20:36 EDT |
 | sase-core | [`sase-core@e40aa41`](https://github.com/sase-org/sase-core/commit/e40aa415e50d4e2f53da159275dc4c9516c601d0) | feat(query): add origin property to Patch query language | [sase-jd.7](sase-jd.7.md) | 2026-08-10 21:22:15 EDT |
+| sase | [`1e8b373`](https://github.com/sase-org/sase/commit/1e8b373625d4f5d87921f7f171e47f0191729289) | feat(tui): surface external issues in beads | [sase-jd.6](sase-jd.6.md) | 2026-08-11 07:19:18 EDT |
 | sase-core | [`sase-core@f5aa4d1`](https://github.com/sase-org/sase-core/commit/f5aa4d1d7c5b30699407192866d309cdc2f08967) | feat(external-pr): classify external pull request imports | [sase-jd.5](sase-jd.5.md) | 2026-08-11 07:29:34 EDT |
+| sase | [`bdf2171`](https://github.com/sase-org/sase/commit/bdf21713a55715f5182d270201bcfa03b56c4e4a) | feat(patch): mirror external pull requests | [sase-jd.5](sase-jd.5.md) | 2026-08-11 07:30:40 EDT |
 | sase-core | [`sase-core@40d0a9e`](https://github.com/sase-org/sase-core/commit/40d0a9e7ca2682e013c3208eea2659cf56066bbc) | feat(bead): collapse duplicate external\_ref issues at event-reduction time | [sase-jd.4](sase-jd.4.md) | 2026-08-11 07:38:09 EDT |
+| sase | [`265fdbe`](https://github.com/sase-org/sase/commit/265fdbed82ef1638cd55bd449dd52943c33666cf) | feat(beads): mirror external tracker issues into task beads | [sase-jd.4](sase-jd.4.md) | 2026-08-11 07:51:25 EDT |
