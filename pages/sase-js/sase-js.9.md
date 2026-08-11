@@ -15,7 +15,7 @@ adopt: link and install the research plugin, move Bryan's config to `use:` plus 
 
 - **Depends on:** [sase-js.6](sase-js.6.md) ◐ · ⧖ 2026-08-11
 - **Depends on:** [sase-js.7](sase-js.7.md) ◐ · ⧖ 2026-08-11
-- **Depends on:** [sase-js.8](sase-js.8.md) ◐ · ⧖ 2026-08-11
+- **Depends on:** [sase-js.8](sase-js.8.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 

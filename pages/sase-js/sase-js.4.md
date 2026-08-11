@@ -21,4 +21,4 @@ builtins: thread an explicit per-segment `PromptRefContext` through late prompt 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-js.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.4/README.md) | [sase-js.4](sase-js.4.md) | 0 |
+| [bbugyi200.athena.sase-js.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.4.md) | [sase-js.4](sase-js.4.md) | 0 |
