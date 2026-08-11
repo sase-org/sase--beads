@@ -27,7 +27,7 @@ sweep: add a configurable `collapse_panel_folds` action bound to `-` that satura
 
 ## Dependencies
 
-- **Blocks:** [sase-j9.2](sase-j9.2.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j9.2](sase-j9.2.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
