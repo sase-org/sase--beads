@@ -14,7 +14,7 @@ registry: add the `sase_artifact` pluggy project with ref-provider and file-hook
 ## Dependencies
 
 - **Depends on:** [sase-js.1](sase-js.1.md) ✓ · ⧖ 2026-08-11
-- **Depends on:** [sase-js.2](sase-js.2.md) ◐ · ⧖ 2026-08-11
+- **Depends on:** [sase-js.2](sase-js.2.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.4](sase-js.4.md) ◐ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.5](sase-js.5.md) ◐ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.8](sase-js.8.md) ◐ · ⧖ 2026-08-11
