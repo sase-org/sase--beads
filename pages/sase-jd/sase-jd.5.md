@@ -14,7 +14,7 @@ pr_mirror: add the per-project builtin chop that adopts unowned remote PRs as Pa
 ## Dependencies
 
 - **Depends on:** [sase-jd.2](sase-jd.2.md) ✓ · ⧖ 2026-08-10
-- **Depends on:** [sase-jd.3](sase-jd.3.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-jd.3](sase-jd.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

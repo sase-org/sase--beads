@@ -13,7 +13,7 @@ patch_pr_ui: render the PR badge and the origin chip as two independent signals 
 
 ## Dependencies
 
-- **Depends on:** [sase-jd.3](sase-jd.3.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-jd.3](sase-jd.3.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
