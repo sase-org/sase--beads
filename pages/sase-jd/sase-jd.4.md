@@ -20,4 +20,4 @@ issue_mirror: add the per-project builtin chop that diffs the tracker against be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.4/README.md) | [sase-jd.4](sase-jd.4.md) | 0 |
+| [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.4.md) | [sase-jd.4](sase-jd.4.md) | 0 |

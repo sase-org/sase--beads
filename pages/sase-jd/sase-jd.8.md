@@ -14,7 +14,7 @@ tabs: collapse the Artifacts sub-tabs to Stitches, Patches, Beads, Files by dele
 ## Dependencies
 
 - **Depends on:** [sase-jd.4](sase-jd.4.md) ◐ · ⧖ 2026-08-10
-- **Depends on:** [sase-jd.6](sase-jd.6.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-jd.6](sase-jd.6.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
