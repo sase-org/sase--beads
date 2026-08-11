@@ -19,7 +19,7 @@ core: add the `CommitOriginWire` enum, the footer-driven `classify_commit_origin
 
 ## Dependencies
 
-- **Blocks:** [sase-jo.3](sase-jo.3.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-jo.3](sase-jo.3.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
