@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jd.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.6.md) | [sase-jd.6](sase-jd.6.md) | 1 |
 | [bbugyi200.athena.sase-jd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.7/README.md) | [sase-jd.7](sase-jd.7.md) | 2 |
 | [bbugyi200.athena.sase-jd.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.8.md) | [sase-jd.8](sase-jd.8.md) | 1 |
-| [bbugyi200.athena.sase-jd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.land/README.md) | [sase-jd](README.md) | 1 |
+| [bbugyi200.athena.sase-jd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.land/README.md) | [sase-jd](README.md) | 2 |
 
 ## Commits
 
@@ -117,3 +117,4 @@ flowchart TD
 | sase | [`265fdbe`](https://github.com/sase-org/sase/commit/265fdbed82ef1638cd55bd449dd52943c33666cf) | feat(beads): mirror external tracker issues into task beads | [sase-jd.4](sase-jd.4.md) | 2026-08-11 07:51:25 EDT |
 | sase | [`b5786b5`](https://github.com/sase-org/sase/commit/b5786b57f22a316af7edb5fc35789b65672d96c7) | feat(ace)!: retire the Bugs sub-tab and rename Artifacts PRs to Patches | [sase-jd.8](sase-jd.8.md) | 2026-08-11 11:36:05 EDT |
 | sase | [`48617f3`](https://github.com/sase-org/sase/commit/48617f3eec9d9209ddba540ebcde5d8ff65345dd) | feat(external-mirror): add pr\_authors knob and drop abandoned PR-mirror draft | [sase-jd](README.md) | 2026-08-11 13:23:46 EDT |
+| sase-nvim | [`sase-nvim@2250bbf`](https://github.com/sase-org/sase-nvim/commit/2250bbfc5a537c723809eb7d4b04ff3fb28c0ca5) | feat(syntax): highlight the PR\_ORIGIN Patch field | [sase-jd](README.md) | 2026-08-11 13:24:31 EDT |
