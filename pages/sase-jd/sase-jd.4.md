@@ -15,10 +15,12 @@ issue_mirror: add the per-project builtin chop that diffs the tracker against be
 
 [2026-08-11T11:37:26Z · sase-jd.4] Implemented external issue mirror per the tale: sase-core event-reducer external_ref collapse (fmt+clippy+full workspace tests green), Python external_mirror reconciliation package, sase bead sync-external CLI, external_issue_mirror AXE chop registered in checks lane with for_each projects/vcs, axe.external_mirror doctor check, config schema + docs updates. just install and just check both green except one pre-existing, unrelated flaky test (notification_store/test_mute_snooze.py, passes 3/3 isolated) which was corroborated on sase-ct/sase-h8 instead of filed as a new task.
 
+[2026-08-11T12:05:06Z · sase-jd.4] Post-merge cleanup verified: privatized MirrorBudget (unused outside issues.py after PR-mirror sibling merge reconciliation) and removed the now-stale sase-jd.5 symvision epic exemption from the Justfile. Confirmed via targeted pytest run of tests/test_external_mirror_state.py and ruff/mypy on the three changed files.
+
 ## Dependencies
 
 - **Depends on:** [sase-jd.1](sase-jd.1.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-jd.8](sase-jd.8.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-jd.8](sase-jd.8.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

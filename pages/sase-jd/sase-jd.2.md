@@ -23,11 +23,10 @@ pr_seam: add PullRequestWire, vcs_list_pull_requests, and split list/read/mutate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.2/README.md) | [sase-jd.2](sase-jd.2.md) | 2 |
+| [bbugyi200.athena.sase-jd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.2/README.md) | [sase-jd.2](sase-jd.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`498ef31`](https://github.com/sase-org/sase/commit/498ef310f611443e2a583ae1528107e99b176a69) | feat(vcs-provider): add pull-request listing seam and split issue capability probes | [sase-jd.2](sase-jd.2.md) | 2026-08-10 19:55:43 EDT |
-| sase-github | [`sase-github@2b0d6a8`](https://github.com/sase-org/sase-github/commit/2b0d6a8d6bc3ecd4cd9e7ebdeb012978cddb1181) | feat: implement vcs\_list\_pull\_requests over gh pr list | [sase-jd.2](sase-jd.2.md) | 2026-08-10 20:04:35 EDT |
