@@ -27,10 +27,11 @@ patch_pr_ui: render the PR badge and the origin chip as two independent signals 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.7/README.md) | [sase-jd.7](sase-jd.7.md) | 1 |
+| [bbugyi200.athena.sase-jd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.7/README.md) | [sase-jd.7](sase-jd.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c63b32b`](https://github.com/sase-org/sase/commit/c63b32b93c25cbbe9abc77ccf82c70b68788bb69) | feat(ace): render PR origin chip and add origin: query property | [sase-jd.7](sase-jd.7.md) | 2026-08-10 21:20:36 EDT |
+| sase-core | [`sase-core@e40aa41`](https://github.com/sase-org/sase-core/commit/e40aa415e50d4e2f53da159275dc4c9516c601d0) | feat(query): add origin property to Patch query language | [sase-jd.7](sase-jd.7.md) | 2026-08-10 21:22:15 EDT |
