@@ -16,8 +16,8 @@ Every issue in an enabled project's external tracker has a corresponding bead an
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-jd.1](sase-jd.1.md) | external\_ref bead identity field | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
-| [sase-jd.2](sase-jd.2.md) | Pull-request provider seam | ✓ closed | medium | 2026-08-10 | 1 | 2 |
-| [sase-jd.3](sase-jd.3.md) | PR\_ORIGIN field, SASE\_PATCH stamp, and the external-Patch safety exclusion | ✓ closed | medium | 2026-08-10 | 1 | 0 |
+| [sase-jd.2](sase-jd.2.md) | Pull-request provider seam | ✓ closed | medium | 2026-08-10 | 1 | 1 |
+| [sase-jd.3](sase-jd.3.md) | PR\_ORIGIN field, SASE\_PATCH stamp, and the external-Patch safety exclusion | ✓ closed | medium | 2026-08-10 | 1 | 2 |
 | [sase-jd.4](sase-jd.4.md) | external\_issue\_mirror chop | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
 | [sase-jd.5](sase-jd.5.md) | external\_pr\_mirror chop and the two-file Patch importer | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
 | [sase-jd.6](sase-jd.6.md) | External-issue presentation and actions in the Beads pane | ◐ in_progress | large | 2026-08-10 | 1 | 0 |
@@ -59,8 +59,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-jd.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jd.1.md) | [sase-jd.1](sase-jd.1.md) | 0 |
-| [bbugyi200.athena.sase-jd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.2/README.md) | [sase-jd.2](sase-jd.2.md) | 2 |
-| [bbugyi200.athena.sase-jd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.3/README.md) | [sase-jd.3](sase-jd.3.md) | 0 |
+| [bbugyi200.athena.sase-jd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.2/README.md) | [sase-jd.2](sase-jd.2.md) | 1 |
+| [bbugyi200.athena.sase-jd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.3/README.md) | [sase-jd.3](sase-jd.3.md) | 2 |
 | [bbugyi200.athena.sase-jd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.4/README.md) | [sase-jd.4](sase-jd.4.md) | 0 |
 | [bbugyi200.athena.sase-jd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.5/README.md) | [sase-jd.5](sase-jd.5.md) | 0 |
 | [bbugyi200.athena.sase-jd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jd.6/README.md) | [sase-jd.6](sase-jd.6.md) | 0 |
@@ -73,4 +73,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`498ef31`](https://github.com/sase-org/sase/commit/498ef310f611443e2a583ae1528107e99b176a69) | feat(vcs-provider): add pull-request listing seam and split issue capability probes | [sase-jd.2](sase-jd.2.md) | 2026-08-10 19:55:43 EDT |
-| sase-github | [`sase-github@2b0d6a8`](https://github.com/sase-org/sase-github/commit/2b0d6a8d6bc3ecd4cd9e7ebdeb012978cddb1181) | feat: implement vcs\_list\_pull\_requests over gh pr list | [sase-jd.2](sase-jd.2.md) | 2026-08-10 20:04:35 EDT |
+| sase-core | [`sase-core@d0eeb48`](https://github.com/sase-org/sase-core/commit/d0eeb48324845c9d4ae946297a6b9e2d01c85c47) | feat: add Patch PR origin to core wire | [sase-jd.3](sase-jd.3.md) | 2026-08-10 20:05:45 EDT |
+| sase | [`2951403`](https://github.com/sase-org/sase/commit/2951403192bb77aa7f8a9d376684f4fcf796885a) | feat: track Patch PR origin | [sase-jd.3](sase-jd.3.md) | 2026-08-10 20:07:19 EDT |
