@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.3` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.3` · **Size:** large
 **Created:** 2026-08-11 13:21:26 EDT · **Closed:** 2026-08-11 16:20:31 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -20,7 +20,7 @@ registry: add the `sase_artifact` pluggy project with ref-provider and file-hook
 - **Depends on:** [sase-js.1](sase-js.1.md) ✓ · ⧖ 2026-08-11
 - **Depends on:** [sase-js.2](sase-js.2.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.4](sase-js.4.md) ◐ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.5](sase-js.5.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.5](sase-js.5.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.8](sase-js.8.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
@@ -33,4 +33,4 @@ registry: add the `sase_artifact` pluggy project with ref-provider and file-hook
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`f53e43a`](https://github.com/sase-org/sase/commit/f53e43ab139a7db2c50b75971fb7a5fc202619e5) | feat!: add artifact provider registry | [sase-js.3](sase-js.3.md) | 2026-08-11 16:21:40 EDT |
+| gh\_sase-org\_\_sase | [`f53e43a`](https://github.com/sase-org/sase/commit/f53e43ab139a7db2c50b75971fb7a5fc202619e5) | feat!: add artifact provider registry | [sase-js.3](sase-js.3.md) | 2026-08-11 16:21:40 EDT |

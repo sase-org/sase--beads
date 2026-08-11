@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.4
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.4` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.4` · **Size:** large
 **Created:** 2026-08-11 13:21:59 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -21,4 +21,4 @@ builtins: thread an explicit per-segment `PromptRefContext` through late prompt 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-js.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.4.md) | [sase-js.4](sase-js.4.md) | 0 |
+| bbugyi200.athena.sase-js.4 | [sase-js.4](sase-js.4.md) | 0 |

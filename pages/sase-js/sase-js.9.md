@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.9
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.9` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.9` · **Size:** medium
 **Created:** 2026-08-11 13:24:06 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -21,4 +21,4 @@ adopt: link and install the research plugin, move Bryan's config to `use:` plus 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-js.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.9/README.md) | [sase-js.9](sase-js.9.md) | 0 |
+| bbugyi200.athena.sase-js.9 | [sase-js.9](sase-js.9.md) | 0 |
