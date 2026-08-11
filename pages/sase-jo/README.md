@@ -28,6 +28,10 @@ PROPOSED FOLLOW-UP dispositions:
 
 Verification: just check-full ran end to end. All lint gates, SASE validation, and committed-plans validation passed. just test-cost failed once on peak_worker_rss_kib under confirmed heavy concurrent-agent/rustc/rsync contention (load avg 13-19) and passed cleanly on immediate retry with no code changes -- corroborated onto existing task sase-j0. The final selection-health --fail-on-new-flake gate flagged 6 cross-workspace historical flake records (1 already tracked by sase-iu/sase-j0's notes, 5 new test_core_vcs_log.py golden-comparison nodes filed as new task sase-jq following the sase-jb/sase-j6 node-specific routing precedent); all 6 nodes pass cleanly in a direct isolated run (50/50 in 21.57s) and are unrelated to this change's files. just symvision and the plan status update are being completed as the epic's final landing steps.
 
+[2026-08-11T15:48:25Z · sase-jo.land] Re-verifying publish state during finalizer pass 2: epic sase-jo already closed locally (resolution: done, closed 2026-08-11T15:43:44Z) with all six phases verified. This close call re-confirms the close reached the remote, not a re-disposition.
+
+[2026-08-11T15:48:44Z · sase-jo.land] publish check
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -74,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.4/README.md) | [sase-jo.4](sase-jo.4.md) | 2 |
 | [bbugyi200.athena.sase-jo.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.5/README.md) | [sase-jo.5](sase-jo.5.md) | 1 |
 | [bbugyi200.athena.sase-jo.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jo.6/README.md) | [sase-jo.6](sase-jo.6.md) | 1 |
-| [bbugyi200.athena.sase-jo.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jo.land.md) | [sase-jo](README.md) | 1 |
+| [bbugyi200.athena.sase-jo.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jo.land.md) | [sase-jo](README.md) | 2 |
 
 ## Commits
 
@@ -88,3 +92,4 @@ flowchart TD
 | sase | [`e1b39c7`](https://github.com/sase-org/sase/commit/e1b39c72cc47309676c4bff76c8769da2a8f260f) | feat(vcs-log): add origin filter key and --origin CLI flag | [sase-jo.5](sase-jo.5.md) | 2026-08-11 09:09:34 EDT |
 | sase | [`295f4e9`](https://github.com/sase-org/sase/commit/295f4e994102cc5ac3c61cfd7a127d6af1177e1f) | fix(stitch): align origin filters with canonical values | [sase-jo.6](sase-jo.6.md) | 2026-08-11 09:32:09 EDT |
 | sase | [`33b8861`](https://github.com/sase-org/sase/commit/33b886150b672b85f471d0e3d1a9e9de0385cb71) | fix(vcs): preserve SASE\_TYPE footer across commit amend | [sase-jo](README.md) | 2026-08-11 11:46:11 EDT |
+| sase--plans | [`sase--plans@4850cc2`](https://github.com/sase-org/sase--plans/commit/4850cc2330ae356b5aa7e9deefbce44613a5ace8) | docs(plans): mark epic sase-jo plan status done | [sase-jo](README.md) | 2026-08-11 11:50:44 EDT |
