@@ -25,7 +25,7 @@ pr_origin: add the tri-state PR_ORIGIN Patch field across parser, storage, secti
 
 ## Dependencies
 
-- **Blocks:** [sase-jd.5](sase-jd.5.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-jd.5](sase-jd.5.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-jd.7](sase-jd.7.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
