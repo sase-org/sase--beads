@@ -17,7 +17,7 @@ bead_ref: add the nullable, partially-unique external_ref column to the sase-cor
 
 ## Dependencies
 
-- **Blocks:** [sase-jd.4](sase-jd.4.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-jd.4](sase-jd.4.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-jd.6](sase-jd.6.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
