@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-j8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.2/README.md) | [sase-j8.2](sase-j8.2.md) | 1 |
 | [bbugyi200.athena.sase-j8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.3/README.md) | [sase-j8.3](sase-j8.3.md) | 1 |
 | [bbugyi200.athena.sase-j8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.4/README.md) | [sase-j8.4](sase-j8.4.md) | 1 |
-| [bbugyi200.athena.sase-j8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.land/README.md) | [sase-j8](README.md) | 1 |
+| [bbugyi200.athena.sase-j8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-j8.land/README.md) | [sase-j8](README.md) | 2 |
 
 ## Commits
 
@@ -90,3 +90,4 @@ flowchart TD
 | sase | [`7a4b4da`](https://github.com/sase-org/sase/commit/7a4b4daa788b3db9542b593cdd3b7cd7c3e96b69) | refactor(ace): rename commits\_\* keymap actions, artifacts\_commits copy group, and ace.artifacts.commits config to stitches | [sase-j8.3](sase-j8.3.md) | 2026-08-10 18:51:06 EDT |
 | sase | [`9c46891`](https://github.com/sase-org/sase/commit/9c46891c5e43af06aee3fab1ffab7004000261f1) | feat(ace): rename Artifacts commits pane to Stitches | [sase-j8.4](sase-j8.4.md) | 2026-08-10 19:36:35 EDT |
 | sase | [`2f85bf0`](https://github.com/sase-org/sase/commit/2f85bf025bf173bc336d5204e756fcf969b33aa8) | test(ace): update stale commits sub-tab references after Stitches rename | [sase-j8](README.md) | 2026-08-10 20:19:58 EDT |
+| sase--plans | [`sase--plans@a56c8d7`](https://github.com/sase-org/sase--plans/commit/a56c8d743610c280e396a812c35cd6edf063a5ec) | docs(plans): mark stitch rename plan done | [sase-j8](README.md) | 2026-08-10 20:21:44 EDT |
