@@ -26,7 +26,7 @@ leak-detector - build an opt-in pytest plugin that snapshots process-global stat
 ## Dependencies
 
 - **Blocks:** [sase-j7.4](sase-j7.4.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-j7.5](sase-j7.5.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j7.5](sase-j7.5.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

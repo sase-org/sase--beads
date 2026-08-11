@@ -19,7 +19,7 @@ fix-leaks - fix every poisoning leak in the inventory by mechanism, deterministi
 
 - **Depends on:** [sase-j7.1](sase-j7.1.md) ✓ · ⧖ 2026-08-10
 - **Depends on:** [sase-j7.2](sase-j7.2.md) ✓ · ⧖ 2026-08-10
-- **Blocks:** [sase-j7.5](sase-j7.5.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j7.5](sase-j7.5.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 

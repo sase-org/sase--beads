@@ -17,7 +17,7 @@ stale-nodes - bead sase-j5. Make the reproducible-flake gate skip or separately 
 
 ## Dependencies
 
-- **Blocks:** [sase-j7.5](sase-j7.5.md) ◐ · ⧖ 2026-08-10
+- **Blocks:** [sase-j7.5](sase-j7.5.md) ✓ · ⧖ 2026-08-10
 
 ## Agents
 
