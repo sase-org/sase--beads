@@ -13,7 +13,7 @@ issue_mirror: add the per-project builtin chop that diffs the tracker against be
 
 ## Dependencies
 
-- **Depends on:** [sase-jd.1](sase-jd.1.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-jd.1](sase-jd.1.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-jd.8](sase-jd.8.md) ◐ · ⧖ 2026-08-10
 
 ## Agents

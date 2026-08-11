@@ -13,7 +13,7 @@ bead_bug_ui: give Beads the external-issue chip, drift badge, detail section, ca
 
 ## Dependencies
 
-- **Depends on:** [sase-jd.1](sase-jd.1.md) ◐ · ⧖ 2026-08-10
+- **Depends on:** [sase-jd.1](sase-jd.1.md) ✓ · ⧖ 2026-08-10
 - **Blocks:** [sase-jd.8](sase-jd.8.md) ◐ · ⧖ 2026-08-10
 
 ## Agents
