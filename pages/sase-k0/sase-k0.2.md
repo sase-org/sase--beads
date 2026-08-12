@@ -19,6 +19,8 @@ chop_sweep: cancel pending gates stranded by a project that left the enabled inv
 
 [2026-08-12T16:25:44Z · sase-k0.2] Verified focused bead-task-triage suites passed; just test-scoped escalated to full suite and passed; just check blocked only by unrelated stale symvision epic-symbol entries recorded as PROPOSED FOLLOW-UP.
 
+[2026-08-12T17:04:56Z · sase-k0.4.1] Focused task-gate suites after restored convergence regressions: .venv/bin/python -m pytest tests/test_bead/test_gate_lookup.py tests/test_bead/test_task_triage_lookup.py tests/test_bead/test_cli_close_gate_settle.py tests/test_axe_chop_bead_task_triage.py tests/test_axe_chop_bead_task_triage_snooze.py tests/test_axe_chop_bead_task_triage_presentation.py collected 56 items; 56 passed in 2.72s. Added coverage for removed-then-re-enabled project fresh g1 behavior and cross-project-key same-bead exact convergence.
+
 ## Dependencies
 
 - **Depends on:** [sase-k0.1](sase-k0.1.md) ✓ · ⧖ 2026-08-12
