@@ -19,4 +19,10 @@ ci-watch-idle: add `inhibit_if: {agent_runners: {max: 0}}` to the `ci_watch` cho
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.4/README.md) | [sase-ko.4](sase-ko.4.md) | 0 |
+| [bbugyi200.athena.sase-ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.4/README.md) | [sase-ko.4](sase-ko.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@54de26c`](https://github.com/bbugyi200/dotfiles/commit/54de26c31e34fea58fe40bd9a71d155c222c4c15) | feat(axe): idle-gate bugyi\_chop\_ci\_watch on the agent\_runners guard | [sase-ko.4](sase-ko.4.md) | 2026-08-12 16:50:38 EDT |

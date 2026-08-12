@@ -18,7 +18,7 @@ A declarative `inhibit_if: {agent_runners: {max: N}}` chop guard exists end to e
 | [sase-ko.1](sase-ko.1.md) | Rust agent\_runners guard provider | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-ko.2](sase-ko.2.md) | Host snapshot, schema, and docs for agent\_runners | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-ko.3](sase-ko.3.md) | Guard skips stop consuming run\_every cadence | ✓ closed | small | 2026-08-12 | 1 | 1 |
-| [sase-ko.4](sase-ko.4.md) | Enable the idle guard on bugyi\_chop\_ci\_watch | ◐ in_progress | xsmall | 2026-08-12 | 1 | 0 |
+| [sase-ko.4](sase-ko.4.md) | Enable the idle guard on bugyi\_chop\_ci\_watch | ◐ in_progress | xsmall | 2026-08-12 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ko.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.1/README.md) | [sase-ko.1](sase-ko.1.md) | 1 |
 | [bbugyi200.athena.sase-ko.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.2/README.md) | [sase-ko.2](sase-ko.2.md) | 1 |
 | [bbugyi200.athena.sase-ko.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.3/README.md) | [sase-ko.3](sase-ko.3.md) | 1 |
-| [bbugyi200.athena.sase-ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.4/README.md) | [sase-ko.4](sase-ko.4.md) | 0 |
+| [bbugyi200.athena.sase-ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.4/README.md) | [sase-ko.4](sase-ko.4.md) | 1 |
 | [bbugyi200.athena.sase-ko.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.land/README.md) | [sase-ko](README.md) | 0 |
 
 ## Commits
@@ -54,3 +54,4 @@ flowchart TD
 | sase-core | [`sase-core@a0a6ca4`](https://github.com/sase-org/sase-core/commit/a0a6ca4aaa7bc883433c66693773abf21f14e5d3) | feat(axe-chop): add the agent\_runners inhibit\_if guard provider | [sase-ko.1](sase-ko.1.md) | 2026-08-12 16:10:05 EDT |
 | sase | [`e5b0b5f`](https://github.com/sase-org/sase/commit/e5b0b5f5ca301def9941ac49f67b5f8a017ee899) | fix(axe): stop guard skips from consuming run\_every cadence | [sase-ko.3](sase-ko.3.md) | 2026-08-12 16:13:27 EDT |
 | sase | [`7e8f528`](https://github.com/sase-org/sase/commit/7e8f528b2f3f235ca7a4e3916af404065b728150) | feat(axe): add agent\_runners chop guard preflight | [sase-ko.2](sase-ko.2.md) | 2026-08-12 16:39:18 EDT |
+| chezmoi | [`chezmoi@54de26c`](https://github.com/bbugyi200/dotfiles/commit/54de26c31e34fea58fe40bd9a71d155c222c4c15) | feat(axe): idle-gate bugyi\_chop\_ci\_watch on the agent\_runners guard | [sase-ko.4](sase-ko.4.md) | 2026-08-12 16:50:38 EDT |
