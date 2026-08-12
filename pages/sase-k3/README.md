@@ -19,7 +19,7 @@ Warm `sase ace` time-to-interactive drops from roughly 3.5–4 s to under 2 s on
 | [sase-k3.2](sase-k3.2.md) | Two module-level import defects | ✓ closed | xsmall | 2026-08-12 | 1 | 1 |
 | [sase-k3.3](sase-k3.3.md) | Deferred persisted diff-badge classification | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-k3.4](sase-k3.4.md) | Read-only freshness policy for ACE's Tier-1 index query | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
-| [sase-k3.5](sase-k3.5.md) | AXE collect stops parsing every ProjectSpec twice | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
+| [sase-k3.5](sase-k3.5.md) | AXE collect stops parsing every ProjectSpec twice | ✓ closed | small | 2026-08-12 | 1 | 1 |
 | [sase-k3.6](sase-k3.6.md) | Land the epic | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-k3.2: Two module-level import defects [closed]"]
     n3["sase-k3.3: Deferred persisted diff-badge classification [in_progress]"]
     n4["sase-k3.4: Read-only freshness policy for ACE's Tier-1 index query [in_progress]"]
-    n5["sase-k3.5: AXE collect stops parsing every ProjectSpec twice [in_progress]"]
+    n5["sase-k3.5: AXE collect stops parsing every ProjectSpec twice [closed]"]
     n6["sase-k3.6: Land the epic [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.sase-k3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.2/README.md) | [sase-k3.2](sase-k3.2.md) | 1 |
 | [bbugyi200.athena.sase-k3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.3/README.md) | [sase-k3.3](sase-k3.3.md) | 0 |
 | [bbugyi200.athena.sase-k3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.4/README.md) | [sase-k3.4](sase-k3.4.md) | 0 |
-| [bbugyi200.athena.sase-k3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.5/README.md) | [sase-k3.5](sase-k3.5.md) | 0 |
+| [bbugyi200.athena.sase-k3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.5/README.md) | [sase-k3.5](sase-k3.5.md) | 1 |
 | [bbugyi200.athena.sase-k3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.6/README.md) | [sase-k3.6](sase-k3.6.md) | 0 |
 | [bbugyi200.athena.sase-k3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.land/README.md) | [sase-k3](README.md) | 0 |
 
@@ -67,3 +67,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`e4391c3`](https://github.com/sase-org/sase/commit/e4391c373df946f87fe6f48b37338a0d3f7f25c7) | fix(ace,logs): move axe.state import into function scope, guard Mock isinstance checks via sys.modules | [sase-k3.2](sase-k3.2.md) | 2026-08-12 12:15:12 EDT |
 | sase | [`59967cc`](https://github.com/sase-org/sase/commit/59967cc062a72e179f66188b7a106644656fb61c) | feat(ace): record durable per-session startup telemetry (sase-k3.1) | [sase-k3.1](sase-k3.1.md) | 2026-08-12 12:46:08 EDT |
+| sase | [`2d92ef6`](https://github.com/sase-org/sase/commit/2d92ef6a92762eb07948d64c0b91f95491827829) | feat(ace,axe): share one cached Patch snapshot for runner counts, gate startup stopwatch on the visible tab (sase-k3.5) | [sase-k3.5](sase-k3.5.md) | 2026-08-12 13:33:35 EDT |
