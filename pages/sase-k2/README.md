@@ -15,8 +15,8 @@ A user controls exactly which external bugs and pull requests become beads and P
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-k2.1](sase-k2.1.md) | ProjectSpec description truncation and duplicate-block repair | ✓ closed | large | 2026-08-12 | 1 | 2 |
-| [sase-k2.2](sase-k2.2.md) | Configurable bug and pull-request filters | ◐ in_progress | large | 2026-08-12 | 1 | 0 |
+| [sase-k2.1](sase-k2.1.md) | ProjectSpec description truncation and duplicate-block repair | ✓ closed | large | 2026-08-12 | 1 | 1 |
+| [sase-k2.2](sase-k2.2.md) | Configurable bug and pull-request filters | ✓ closed | large | 2026-08-12 | 1 | 1 |
 | [sase-k2.3](sase-k2.3.md) | Dedicated external\_mirror lumberjack and lane-independent state | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-k2.4](sase-k2.4.md) | Bug state drives mirrored bead status | ◐ in_progress | large | 2026-08-12 | 1 | 0 |
 | [sase-k2.5](sase-k2.5.md) | Adopted external Patches track their pull request | ◐ in_progress | large | 2026-08-12 | 1 | 0 |
@@ -28,7 +28,7 @@ A user controls exactly which external bugs and pull requests become beads and P
 flowchart TD
     n0["sase-k2: Configurable external mirror filters, its own lumberjack, and two-way bug/PR sync [in_progress]"]
     n1["sase-k2.1: ProjectSpec description truncation and duplicate-block repair [closed]"]
-    n2["sase-k2.2: Configurable bug and pull-request filters [in_progress]"]
+    n2["sase-k2.2: Configurable bug and pull-request filters [closed]"]
     n3["sase-k2.3: Dedicated external_mirror lumberjack and lane-independent state [closed]"]
     n4["sase-k2.4: Bug state drives mirrored bead status [in_progress]"]
     n5["sase-k2.5: Adopted external Patches track their pull request [in_progress]"]
@@ -50,8 +50,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 2 |
-| [bbugyi200.athena.sase-k2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.2.md) | [sase-k2.2](sase-k2.2.md) | 0 |
+| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 1 |
+| [bbugyi200.athena.sase-k2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.2.md) | [sase-k2.2](sase-k2.2.md) | 1 |
 | [bbugyi200.athena.sase-k2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.3/README.md) | [sase-k2.3](sase-k2.3.md) | 1 |
 | [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.4/README.md) | [sase-k2.4](sase-k2.4.md) | 0 |
 | [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.5/README.md) | [sase-k2.5](sase-k2.5.md) | 0 |
@@ -64,4 +64,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`fb33e3c`](https://github.com/sase-org/sase/commit/fb33e3c1f9ba8122392eeec67aee1b05874c0e88) | feat(external-mirror): dedicated lumberjack lane with lane-independent state | [sase-k2.3](sase-k2.3.md) | 2026-08-12 12:09:53 EDT |
 | sase | [`d4139e9`](https://github.com/sase-org/sase/commit/d4139e96e2ac263f7a8af15ddcf4bc74d3f66edc) | fix: repair duplicate ProjectSpec patch blocks | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:34:55 EDT |
-| sase-core | [`sase-core@2519b42`](https://github.com/sase-org/sase-core/commit/2519b429fc25f3849fe967f191207957a66e10e8) | fix: preserve indented ProjectSpec blank lines | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:36:22 EDT |
+| sase | [`6b139a0`](https://github.com/sase-org/sase/commit/6b139a0d46843de54af4ebec5d28b25925215298) | feat(external-mirror): add configurable glob filters for issues and PRs | [sase-k2.2](sase-k2.2.md) | 2026-08-12 12:41:30 EDT |

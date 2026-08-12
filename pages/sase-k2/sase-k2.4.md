@@ -13,7 +13,7 @@ bug_status: reverse the epic's original note-only decision and close or reopen a
 
 ## Dependencies
 
-- **Depends on:** [sase-k2.2](sase-k2.2.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-k2.2](sase-k2.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
