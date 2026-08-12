@@ -19,7 +19,7 @@ align_selected_run_contract: update the stale update_chop_display argument docum
 
 ## Dependencies
 
-- **Blocks:** [sase-jx.5.5.2](sase-jx.5.5.2.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.5.5.2](sase-jx.5.5.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

@@ -33,10 +33,10 @@ flowchart TD
     n6["sase-jx.5.1: Repair the classifier's timestamp and per-run contract [closed]"]
     n7["sase-jx.5.2: Integrate per-run and responsive rendering in AXE [closed]"]
     n8["sase-jx.5.3: Ratchet the published core dependency contract [closed]"]
-    n9["sase-jx.5.4: Verify and close epic sase-jx [in_progress]"]
+    n9["sase-jx.5.4: Verify and close epic sase-jx [closed]"]
     n10["sase-jx.5.5: Finish the sase-jx.5 landing audit and closeout [in_progress]"]
     n11["sase-jx.5.5.1: Align the chop-detail API documentation with selected-run rendering [closed]"]
-    n12["sase-jx.5.5.2: Complete verification, integration, follow-up disposition, and closeout [in_progress]"]
+    n12["sase-jx.5.5.2: Complete verification, integration, follow-up disposition, and closeout [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jx.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.3/README.md) | [sase-jx.5.3](sase-jx.5.3.md) | 1 |
 | [bbugyi200.athena.sase-jx.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.4/README.md) | [sase-jx.5.4](sase-jx.5.4.md) | 0 |
 | [bbugyi200.athena.sase-jx.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.1/README.md) | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 1 |
-| [bbugyi200.athena.sase-jx.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.2/README.md) | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 0 |
+| [bbugyi200.athena.sase-jx.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.2/README.md) | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 1 |
 | [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.land/README.md) | [sase-jx.5.5](sase-jx.5.5.md) | 0 |
 | [bbugyi200.athena.sase-jx.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.land/README.md) | [sase-jx.5](sase-jx.5.md) | 0 |
 | [bbugyi200.athena.sase-jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.land/README.md) | [sase-jx](README.md) | 0 |
@@ -89,3 +89,4 @@ flowchart TD
 | sase | [`888453d`](https://github.com/sase-org/sase/commit/888453d3981c68e54c261e6153d1858e78a984cd) | fix: correct AXE overrun dashboard rendering | [sase-jx.5.2](sase-jx.5.2.md) | 2026-08-12 12:56:09 EDT |
 | sase | [`688eec2`](https://github.com/sase-org/sase/commit/688eec2bda77374340aef20e0fe948a128401102) | build(deps): ratchet core binding floor | [sase-jx.5.3](sase-jx.5.3.md) | 2026-08-12 13:31:13 EDT |
 | sase | [`c184102`](https://github.com/sase-org/sase/commit/c18410204785d62e7017ebba119f9c59f1ef301b) | docs(ace): fix update\_chop\_display docstring for selected-run overrun | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 2026-08-12 14:19:04 EDT |
+| sase | [`b4c6038`](https://github.com/sase-org/sase/commit/b4c6038e64bfd83e39e071d05ba055057c1426c1) | build(deps): ratchet sase-core-rs floor | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 2026-08-12 14:59:45 EDT |

@@ -21,7 +21,7 @@ publish_core_floor: after the corrected sase-core release is fully available, us
 
 - **Depends on:** [sase-jx.5.1](sase-jx.5.1.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-jx.5.2](sase-jx.5.2.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-jx.5.4](sase-jx.5.4.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.5.4](sase-jx.5.4.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
