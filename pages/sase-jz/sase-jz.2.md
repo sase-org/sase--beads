@@ -18,4 +18,4 @@ gate_ci_fix: stop emitting `proposed_launches` from `bugyi_chop_ci_watch` and in
 ## Dependencies
 
 - **Depends on:** [sase-jz.1](sase-jz.1.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-jz.3](sase-jz.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jz.3](sase-jz.3.md) ✓ · ⧖ 2026-08-12
