@@ -28,10 +28,11 @@ spec_repair: fix the two-blank-line record terminator that silently drops any Pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 1 |
+| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d4139e9`](https://github.com/sase-org/sase/commit/d4139e96e2ac263f7a8af15ddcf4bc74d3f66edc) | fix: repair duplicate ProjectSpec patch blocks | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:34:55 EDT |
+| sase-core | [`sase-core@2519b42`](https://github.com/sase-org/sase-core/commit/2519b429fc25f3849fe967f191207957a66e10e8) | fix: preserve indented ProjectSpec blank lines | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:36:22 EDT |
