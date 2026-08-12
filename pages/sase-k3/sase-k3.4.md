@@ -26,11 +26,10 @@ repair: add a freshness knob to the artifact-index query wire in sase-core so AC
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.4/README.md) | [sase-k3.4](sase-k3.4.md) | 2 |
+| [bbugyi200.athena.sase-k3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.4/README.md) | [sase-k3.4](sase-k3.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@61cc793`](https://github.com/sase-org/sase-core/commit/61cc7937e08e0d4cb629a1e04cf79cddd7924f3f) | perf(agent-scan): add cached artifact index freshness mode | [sase-k3.4](sase-k3.4.md) | 2026-08-12 13:51:20 EDT |
 | sase | [`8f9c5c3`](https://github.com/sase-org/sase/commit/8f9c5c3ff30a424fc8c7236f2d13fa319afe4895) | perf(ace): use cached Tier 1 artifact index loads | [sase-k3.4](sase-k3.4.md) | 2026-08-12 13:52:24 EDT |
