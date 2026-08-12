@@ -29,12 +29,12 @@ flowchart TD
     n2["sase-jx.2: Record how long a chop actually blocked its tick [closed]"]
     n3["sase-jx.3: Classify each chop while collecting AXE snapshots [closed]"]
     n4["sase-jx.4: Render the overrun mark across the AXE tab [closed]"]
-    n5["sase-jx.5: Finish and land the AXE chop-overrun indicator [in_progress]"]
+    n5["sase-jx.5: Finish and land the AXE chop-overrun indicator [closed]"]
     n6["sase-jx.5.1: Repair the classifier's timestamp and per-run contract [closed]"]
     n7["sase-jx.5.2: Integrate per-run and responsive rendering in AXE [closed]"]
     n8["sase-jx.5.3: Ratchet the published core dependency contract [closed]"]
     n9["sase-jx.5.4: Verify and close epic sase-jx [closed]"]
-    n10["sase-jx.5.5: Finish the sase-jx.5 landing audit and closeout [in_progress]"]
+    n10["sase-jx.5.5: Finish the sase-jx.5 landing audit and closeout [closed]"]
     n11["sase-jx.5.5.1: Align the chop-detail API documentation with selected-run rendering [closed]"]
     n12["sase-jx.5.5.2: Complete verification, integration, follow-up disposition, and closeout [closed]"]
     n0 --> n1
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jx.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.4/README.md) | [sase-jx.5.4](sase-jx.5.4.md) | 0 |
 | [bbugyi200.athena.sase-jx.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.1/README.md) | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 1 |
 | [bbugyi200.athena.sase-jx.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.2/README.md) | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 1 |
-| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jx.5.5.land.md) | [sase-jx.5.5](sase-jx.5.5.md) | 1 |
+| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jx.5.5.land.md) | [sase-jx.5.5](sase-jx.5.5.md) | 2 |
 | [bbugyi200.athena.sase-jx.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.land/README.md) | [sase-jx.5](sase-jx.5.md) | 0 |
 | [bbugyi200.athena.sase-jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.land/README.md) | [sase-jx](README.md) | 0 |
 
@@ -91,3 +91,4 @@ flowchart TD
 | sase | [`c184102`](https://github.com/sase-org/sase/commit/c18410204785d62e7017ebba119f9c59f1ef301b) | docs(ace): fix update\_chop\_display docstring for selected-run overrun | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 2026-08-12 14:19:04 EDT |
 | sase | [`b4c6038`](https://github.com/sase-org/sase/commit/b4c6038e64bfd83e39e071d05ba055057c1426c1) | build(deps): ratchet sase-core-rs floor | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 2026-08-12 14:59:45 EDT |
 | sase | [`2ba70f0`](https://github.com/sase-org/sase/commit/2ba70f07f2c33352a8454da1188b5365ba5c0dcd) | test(axe): rebaseline compact layout goldens | [sase-jx.5.5](sase-jx.5.5.md) | 2026-08-12 15:35:25 EDT |
+| sase--plans | [`sase--plans@2904d5e`](https://github.com/sase-org/sase--plans/commit/2904d5eb2b9ec8a896fe922f695d84e7c550533e) | chore(plans): mark AXE landing plans done | [sase-jx.5.5](sase-jx.5.5.md) | 2026-08-12 15:42:07 EDT |
