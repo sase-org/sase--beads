@@ -11,6 +11,10 @@
 
 The AXE chop-overrun feature satisfies its original classifier and rendering contracts on real first paint, on every selected run, and in published installs; all landing verification is recorded and epic sase-jx is closed cleanly.
 
+## Notes
+
+[2026-08-12T16:43:07Z · sase-k0.land] DISCOVERED ISSUE: sase-k0.1 proposed aligning the stale sase-core-rs floor. Landing audit at HEAD 95a9b4575 independently ran tools/probe_core_floor and got stale_actionable: declared 0.24.0 lacks 34 already-published capabilities through v0.26.3, including bead_needs_external_ref_migration. Corroborated exact task sase-jj. This is causally covered by phase sase-jx.5.3, which will ratchet pyproject.toml and uv.lock to the published release containing the complete chop-overrun contract.
+
 ## Agents
 
 | Agent | Bead | Commits |
