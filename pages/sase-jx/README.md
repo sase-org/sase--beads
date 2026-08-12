@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jx.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.4/README.md) | [sase-jx.5.4](sase-jx.5.4.md) | 0 |
 | [bbugyi200.athena.sase-jx.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.1/README.md) | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 1 |
 | [bbugyi200.athena.sase-jx.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.2/README.md) | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 1 |
-| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.land/README.md) | [sase-jx.5.5](sase-jx.5.5.md) | 0 |
+| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jx.5.5.land.md) | [sase-jx.5.5](sase-jx.5.5.md) | 1 |
 | [bbugyi200.athena.sase-jx.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.land/README.md) | [sase-jx.5](sase-jx.5.md) | 0 |
 | [bbugyi200.athena.sase-jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.land/README.md) | [sase-jx](README.md) | 0 |
 
@@ -90,3 +90,4 @@ flowchart TD
 | sase | [`688eec2`](https://github.com/sase-org/sase/commit/688eec2bda77374340aef20e0fe948a128401102) | build(deps): ratchet core binding floor | [sase-jx.5.3](sase-jx.5.3.md) | 2026-08-12 13:31:13 EDT |
 | sase | [`c184102`](https://github.com/sase-org/sase/commit/c18410204785d62e7017ebba119f9c59f1ef301b) | docs(ace): fix update\_chop\_display docstring for selected-run overrun | [sase-jx.5.5.1](sase-jx.5.5.1.md) | 2026-08-12 14:19:04 EDT |
 | sase | [`b4c6038`](https://github.com/sase-org/sase/commit/b4c6038e64bfd83e39e071d05ba055057c1426c1) | build(deps): ratchet sase-core-rs floor | [sase-jx.5.5.2](sase-jx.5.5.2.md) | 2026-08-12 14:59:45 EDT |
+| sase | [`2ba70f0`](https://github.com/sase-org/sase/commit/2ba70f07f2c33352a8454da1188b5365ba5c0dcd) | test(axe): rebaseline compact layout goldens | [sase-jx.5.5](sase-jx.5.5.md) | 2026-08-12 15:35:25 EDT |

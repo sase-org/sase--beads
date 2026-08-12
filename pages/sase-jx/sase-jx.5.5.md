@@ -15,4 +15,10 @@ The last stale selected-run contract text is corrected, the combined AXE chop-ov
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.5.5.land/README.md) | [sase-jx.5.5](sase-jx.5.5.md) | 0 |
+| [bbugyi200.athena.sase-jx.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-jx.5.5.land.md) | [sase-jx.5.5](sase-jx.5.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2ba70f0`](https://github.com/sase-org/sase/commit/2ba70f07f2c33352a8454da1188b5365ba5c0dcd) | test(axe): rebaseline compact layout goldens | [sase-jx.5.5](sase-jx.5.5.md) | 2026-08-12 15:35:25 EDT |
