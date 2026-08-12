@@ -29,4 +29,10 @@ linking: rewrite published prompts to numbered `[@kind:arg][N]` reference links 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-js.6 | [sase-js.6](sase-js.6.md) | 0 |
+| bbugyi200.athena.sase-js.6 | [sase-js.6](sase-js.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| gh\_sase-org\_\_sase | [`9907b1d`](https://github.com/sase-org/sase/commit/9907b1d1611bb397d21237367c95acd4b5578f00) | feat(agents-sync): write referenced-by links for prompt artifacts | [sase-js.6](sase-js.6.md) | 2026-08-12 09:05:20 EDT |

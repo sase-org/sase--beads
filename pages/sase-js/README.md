@@ -20,7 +20,7 @@ Artifact references stop being xprompts and become a first-class, versioned ref 
 | [sase-js.3](sase-js.3.md) | Provider registry, plugin hooks, and config | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.4](sase-js.4.md) | Builtin refs and prompt ref context | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.5](sase-js.5.md) | The @file ref and the content-addressed store | ✓ closed | large | 2026-08-11 | 1 | 1 |
-| [sase-js.6](sase-js.6.md) | Reference links and Referenced By write-back | ✓ closed | large | 2026-08-11 | 1 | 0 |
+| [sase-js.6](sase-js.6.md) | Reference links and Referenced By write-back | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.7](sase-js.7.md) | Generated Artifacts sub-tabs and the new Files pane | ◐ in_progress | large | 2026-08-11 | 1 | 0 |
 | [sase-js.8](sase-js.8.md) | The sase-research plugin repository | ✓ closed | large | 2026-08-11 | 1 | 0 |
 | [sase-js.9](sase-js.9.md) | Adoption, glossary, and documentation | ◐ in_progress | medium | 2026-08-11 | 1 | 0 |
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-js.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.3.md) | [sase-js.3](sase-js.3.md) | 1 |
 | bbugyi200.athena.sase-js.4 | [sase-js.4](sase-js.4.md) | 1 |
 | bbugyi200.athena.sase-js.5 | [sase-js.5](sase-js.5.md) | 1 |
-| bbugyi200.athena.sase-js.6 | [sase-js.6](sase-js.6.md) | 0 |
+| bbugyi200.athena.sase-js.6 | [sase-js.6](sase-js.6.md) | 1 |
 | bbugyi200.athena.sase-js.7 | [sase-js.7](sase-js.7.md) | 0 |
 | bbugyi200.athena.sase-js.8 | [sase-js.8](sase-js.8.md) | 0 |
 | bbugyi200.athena.sase-js.9 | [sase-js.9](sase-js.9.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | gh\_sase-org\_\_sase | [`f53e43a`](https://github.com/sase-org/sase/commit/f53e43ab139a7db2c50b75971fb7a5fc202619e5) | feat!: add artifact provider registry | [sase-js.3](sase-js.3.md) | 2026-08-11 16:21:40 EDT |
 | gh\_sase-org\_\_sase | [`341fff9`](https://github.com/sase-org/sase/commit/341fff97adeea143cc243472f072d170d53eda23) | feat: add file refs to prompt artifacts | [sase-js.5](sase-js.5.md) | 2026-08-11 17:43:38 EDT |
 | gh\_sase-org\_\_sase | [`0f3569c`](https://github.com/sase-org/sase/commit/0f3569cb4c46a1bee1629ab64ef831a3535b64d2) | feat(artifact-ref)!: resolve @stitch/@patch/@bead/@agent through an explicit prompt ref context | [sase-js.4](sase-js.4.md) | 2026-08-11 18:14:02 EDT |
+| gh\_sase-org\_\_sase | [`9907b1d`](https://github.com/sase-org/sase/commit/9907b1d1611bb397d21237367c95acd4b5578f00) | feat(agents-sync): write referenced-by links for prompt artifacts | [sase-js.6](sase-js.6.md) | 2026-08-12 09:05:20 EDT |
