@@ -11,6 +11,12 @@
 
 bug_status: reverse the epic's original note-only decision and close or reopen a mirrored bead when its tracker issue closes or reopens, guarded so an in-progress, claimed, or parented bead only gets the note it gets today.
 
+## Notes
+
+[2026-08-12T17:44:25Z · sase-k2.4] PROPOSED FOLLOW-UP: Remove duplicate checks-lane mirror chops — src/sase/default_config.yml still lists external_issue_mirror and external_pr_mirror in both checks and external_mirror lanes, and docs/axe.md still describes checks with three chops; delete the checks-lane copies after lane regression is addressed.
+
+[2026-08-12T17:44:55Z · sase-k2.4] PROPOSED FOLLOW-UP: Decide creation policy for already-closed upstream issues — the mirror still creates a bead open and seeds the current closed state, so no close transition fires on first sight; this belongs to creation/filter policy rather than bug_status.
+
 ## Dependencies
 
 - **Depends on:** [sase-k2.2](sase-k2.2.md) ✓ · ⧖ 2026-08-12

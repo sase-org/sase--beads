@@ -22,7 +22,7 @@ spec_repair: fix the two-blank-line record terminator that silently drops any Pa
 ## Dependencies
 
 - **Blocks:** [sase-k2.5](sase-k2.5.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-k2.6](sase-k2.6.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k2.6](sase-k2.6.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
