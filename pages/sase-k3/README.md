@@ -15,7 +15,7 @@ Warm `sase ace` time-to-interactive drops from roughly 3.5–4 s to under 2 s on
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-k3.1](sase-k3.1.md) | Durable startup telemetry | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
+| [sase-k3.1](sase-k3.1.md) | Durable startup telemetry | ✓ closed | small | 2026-08-12 | 1 | 1 |
 | [sase-k3.2](sase-k3.2.md) | Two module-level import defects | ✓ closed | xsmall | 2026-08-12 | 1 | 1 |
 | [sase-k3.3](sase-k3.3.md) | Deferred persisted diff-badge classification | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-k3.4](sase-k3.4.md) | Read-only freshness policy for ACE's Tier-1 index query | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
@@ -27,7 +27,7 @@ Warm `sase ace` time-to-interactive drops from roughly 3.5–4 s to under 2 s on
 ```mermaid
 flowchart TD
     n0["sase-k3: ACE startup — take badge classification, hidden-row repair, and a double ProjectSpec parse off first paint [in_progress]"]
-    n1["sase-k3.1: Durable startup telemetry [in_progress]"]
+    n1["sase-k3.1: Durable startup telemetry [closed]"]
     n2["sase-k3.2: Two module-level import defects [closed]"]
     n3["sase-k3.3: Deferred persisted diff-badge classification [in_progress]"]
     n4["sase-k3.4: Read-only freshness policy for ACE's Tier-1 index query [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.1/README.md) | [sase-k3.1](sase-k3.1.md) | 0 |
+| [bbugyi200.athena.sase-k3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.1/README.md) | [sase-k3.1](sase-k3.1.md) | 1 |
 | [bbugyi200.athena.sase-k3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.2/README.md) | [sase-k3.2](sase-k3.2.md) | 1 |
 | [bbugyi200.athena.sase-k3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.3/README.md) | [sase-k3.3](sase-k3.3.md) | 0 |
 | [bbugyi200.athena.sase-k3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.4/README.md) | [sase-k3.4](sase-k3.4.md) | 0 |
@@ -66,3 +66,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e4391c3`](https://github.com/sase-org/sase/commit/e4391c373df946f87fe6f48b37338a0d3f7f25c7) | fix(ace,logs): move axe.state import into function scope, guard Mock isinstance checks via sys.modules | [sase-k3.2](sase-k3.2.md) | 2026-08-12 12:15:12 EDT |
+| sase | [`59967cc`](https://github.com/sase-org/sase/commit/59967cc062a72e179f66188b7a106644656fb61c) | feat(ace): record durable per-session startup telemetry (sase-k3.1) | [sase-k3.1](sase-k3.1.md) | 2026-08-12 12:46:08 EDT |

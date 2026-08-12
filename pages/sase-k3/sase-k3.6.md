@@ -13,7 +13,7 @@ land: re-measure the full budget in a real terminal against the phase `telemetry
 
 ## Dependencies
 
-- **Depends on:** [sase-k3.1](sase-k3.1.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-k3.1](sase-k3.1.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-k3.2](sase-k3.2.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-k3.3](sase-k3.3.md) ◐ · ⧖ 2026-08-12
 - **Depends on:** [sase-k3.4](sase-k3.4.md) ◐ · ⧖ 2026-08-12

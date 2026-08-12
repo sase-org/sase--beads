@@ -13,7 +13,7 @@ axe: route the two global runner counters through one shared cached Patch snapsh
 
 ## Dependencies
 
-- **Depends on:** [sase-k3.1](sase-k3.1.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-k3.1](sase-k3.1.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k3.6](sase-k3.6.md) ◐ · ⧖ 2026-08-12
 
 ## Agents

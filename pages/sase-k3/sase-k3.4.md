@@ -13,7 +13,7 @@ repair: add a freshness knob to the artifact-index query wire in sase-core so AC
 
 ## Dependencies
 
-- **Depends on:** [sase-k3.1](sase-k3.1.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-k3.1](sase-k3.1.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k3.6](sase-k3.6.md) ◐ · ⧖ 2026-08-12
 
 ## Agents
