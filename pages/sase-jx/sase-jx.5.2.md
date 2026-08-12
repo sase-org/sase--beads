@@ -22,7 +22,7 @@ integrate_tui_contract: consume the corrected core verdict in sase, render the d
 ## Dependencies
 
 - **Depends on:** [sase-jx.5.1](sase-jx.5.1.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-jx.5.3](sase-jx.5.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.5.3](sase-jx.5.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

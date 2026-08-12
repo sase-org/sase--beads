@@ -13,7 +13,7 @@ close_epic: verify the combined cross-repo tree, record all verification, integr
 
 ## Dependencies
 
-- **Depends on:** [sase-jx.5.3](sase-jx.5.3.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-jx.5.3](sase-jx.5.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

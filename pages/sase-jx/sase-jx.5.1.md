@@ -26,7 +26,7 @@ Verification: cargo fmt --all, then `just check` (fmt-check, clippy --workspace 
 ## Dependencies
 
 - **Blocks:** [sase-jx.5.2](sase-jx.5.2.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-jx.5.3](sase-jx.5.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.5.3](sase-jx.5.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
