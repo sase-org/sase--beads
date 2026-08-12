@@ -22,8 +22,8 @@ Artifact references stop being xprompts and become a first-class, versioned ref 
 | [sase-js.5](sase-js.5.md) | The @file ref and the content-addressed store | ✓ closed | large | 2026-08-11 | 1 | 2 |
 | [sase-js.6](sase-js.6.md) | Reference links and Referenced By write-back | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.7](sase-js.7.md) | Generated Artifacts sub-tabs and the new Files pane | ✓ closed | large | 2026-08-11 | 1 | 1 |
-| [sase-js.8](sase-js.8.md) | The sase-research plugin repository | ✓ closed | large | 2026-08-11 | 1 | 0 |
-| [sase-js.9](sase-js.9.md) | Adoption, glossary, and documentation | ◐ in_progress | medium | 2026-08-11 | 1 | 0 |
+| [sase-js.8](sase-js.8.md) | The sase-research plugin repository | ✓ closed | large | 2026-08-11 | 1 | 1 |
+| [sase-js.9](sase-js.9.md) | Adoption, glossary, and documentation | ✓ closed | medium | 2026-08-11 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n6["sase-js.6: Reference links and Referenced By write-back [closed]"]
     n7["sase-js.7: Generated Artifacts sub-tabs and the new Files pane [closed]"]
     n8["sase-js.8: The sase-research plugin repository [closed]"]
-    n9["sase-js.9: Adoption, glossary, and documentation [in_progress]"]
+    n9["sase-js.9: Adoption, glossary, and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,8 +73,8 @@ flowchart TD
 | [bbugyi200.athena.sase-js.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.5.md) | [sase-js.5](sase-js.5.md) | 2 |
 | [bbugyi200.athena.sase-js.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.6.md) | [sase-js.6](sase-js.6.md) | 1 |
 | [bbugyi200.athena.sase-js.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.7.md) | [sase-js.7](sase-js.7.md) | 1 |
-| [bbugyi200.athena.sase-js.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.8.md) | [sase-js.8](sase-js.8.md) | 0 |
-| [bbugyi200.athena.sase-js.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.9/README.md) | [sase-js.9](sase-js.9.md) | 0 |
+| [bbugyi200.athena.sase-js.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.8.md) | [sase-js.8](sase-js.8.md) | 1 |
+| [bbugyi200.athena.sase-js.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.9/README.md) | [sase-js.9](sase-js.9.md) | 1 |
 | [bbugyi200.athena.sase-js.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-js.land/README.md) | [sase-js](README.md) | 0 |
 
 ## Commits
@@ -86,8 +86,10 @@ flowchart TD
 | sase | [`e2cacbe`](https://github.com/sase-org/sase/commit/e2cacbe34ce16e3df92dc390ea11376972da5c77) | refactor(xprompt)!: retire the #ref/\<kind\> contextual renderer adapter | [sase-js.2](sase-js.2.md) | 2026-08-11 15:33:12 EDT |
 | sase-core | [`sase-core@c0f1ca4`](https://github.com/sase-org/sase-core/commit/c0f1ca43cfa83eda2e91bb4902c132aaacfaecfe) | refactor(core)!: retire the #ref/\<kind\> xprompt-catalog adapter | [sase-js.2](sase-js.2.md) | 2026-08-11 15:34:43 EDT |
 | sase | [`f53e43a`](https://github.com/sase-org/sase/commit/f53e43ab139a7db2c50b75971fb7a5fc202619e5) | feat!: add artifact provider registry | [sase-js.3](sase-js.3.md) | 2026-08-11 16:21:40 EDT |
+| sase-research | [`sase-research@f499469`](https://github.com/sase-org/sase-research/commit/f499469a39ea5fbf52d3b75a92ac65ae5eba8c37) | feat: scaffold the sase-research plugin package | [sase-js.8](sase-js.8.md) | 2026-08-11 17:04:36 EDT |
 | sase | [`341fff9`](https://github.com/sase-org/sase/commit/341fff97adeea143cc243472f072d170d53eda23) | feat: add file refs to prompt artifacts | [sase-js.5](sase-js.5.md) | 2026-08-11 17:43:38 EDT |
 | sase-core | [`sase-core@a509dcc`](https://github.com/sase-org/sase-core/commit/a509dcc979db12126e26a55fc1b15fcb04785401) | feat: resolve file artifact refs in core | [sase-js.5](sase-js.5.md) | 2026-08-11 17:44:14 EDT |
 | sase | [`0f3569c`](https://github.com/sase-org/sase/commit/0f3569cb4c46a1bee1629ab64ef831a3535b64d2) | feat(artifact-ref)!: resolve @stitch/@patch/@bead/@agent through an explicit prompt ref context | [sase-js.4](sase-js.4.md) | 2026-08-11 18:14:02 EDT |
 | sase | [`9907b1d`](https://github.com/sase-org/sase/commit/9907b1d1611bb397d21237367c95acd4b5578f00) | feat(agents-sync): write referenced-by links for prompt artifacts | [sase-js.6](sase-js.6.md) | 2026-08-12 09:05:20 EDT |
 | sase | [`f14b98c`](https://github.com/sase-org/sase/commit/f14b98c0872305f51f86bd07fc3e96deecf605bf) | feat(ace): add dynamic artifact panes | [sase-js.7](sase-js.7.md) | 2026-08-12 09:31:53 EDT |
+| sase | [`56d6bd7`](https://github.com/sase-org/sase/commit/56d6bd772dfc16e979f44cdd737251e06eab83b8) | docs: adopt artifact reference provider docs | [sase-js.9](sase-js.9.md) | 2026-08-12 10:14:48 EDT |

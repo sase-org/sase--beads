@@ -22,10 +22,16 @@ research: build `sase-org/sase-research` as an installable plugin owning the `re
 ## Dependencies
 
 - **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.9](sase-js.9.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.9](sase-js.9.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-js.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.8.md) | [sase-js.8](sase-js.8.md) | 0 |
+| [bbugyi200.athena.sase-js.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.8.md) | [sase-js.8](sase-js.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-research | [`sase-research@f499469`](https://github.com/sase-org/sase-research/commit/f499469a39ea5fbf52d3b75a92ac65ae5eba8c37) | feat: scaffold the sase-research plugin package | [sase-js.8](sase-js.8.md) | 2026-08-11 17:04:36 EDT |
