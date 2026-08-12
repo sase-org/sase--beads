@@ -16,7 +16,7 @@ Live TaskTriage/BeadSnooze notifications match the set of live task beads even a
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-k0.1](sase-k0.1.md) | Shared pending bead-gate lookup | ✓ closed | small | 2026-08-12 | 1 | 1 |
-| [sase-k0.2](sase-k0.2.md) | Make the reconciler converge on gates it no longer tracks | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
+| [sase-k0.2](sase-k0.2.md) | Make the reconciler converge on gates it no longer tracks | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-k0.3](sase-k0.3.md) | Settle bead gates from sase bead close | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Live TaskTriage/BeadSnooze notifications match the set of live task beads even a
 flowchart TD
     n0["sase-k0: Converge task bead gates and settle them the moment a bead closes [in_progress]"]
     n1["sase-k0.1: Shared pending bead-gate lookup [closed]"]
-    n2["sase-k0.2: Make the reconciler converge on gates it no longer tracks [in_progress]"]
+    n2["sase-k0.2: Make the reconciler converge on gates it no longer tracks [closed]"]
     n3["sase-k0.3: Settle bead gates from sase bead close [closed]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-k0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k0.1/README.md) | [sase-k0.1](sase-k0.1.md) | 1 |
-| [bbugyi200.athena.sase-k0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k0.2/README.md) | [sase-k0.2](sase-k0.2.md) | 0 |
+| [bbugyi200.athena.sase-k0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k0.2/README.md) | [sase-k0.2](sase-k0.2.md) | 1 |
 | [bbugyi200.athena.sase-k0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k0.3/README.md) | [sase-k0.3](sase-k0.3.md) | 1 |
 | [bbugyi200.athena.sase-k0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k0.land/README.md) | [sase-k0](README.md) | 0 |
 
@@ -49,3 +49,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`07f050d`](https://github.com/sase-org/sase/commit/07f050d3a28091a0b7ef28a4e7ca1502e7ec3398) | refactor(bead): share pending gate lookup | [sase-k0.1](sase-k0.1.md) | 2026-08-12 11:35:07 EDT |
 | sase | [`875f67b`](https://github.com/sase-org/sase/commit/875f67b74da1e3829b9b2ec72be40df8e9be6726) | feat(bead): settle pending gates immediately on task bead close | [sase-k0.3](sase-k0.3.md) | 2026-08-12 12:11:34 EDT |
+| sase | [`95a9b45`](https://github.com/sase-org/sase/commit/95a9b457502c898d74c448219eec417e6800cd11) | fix(axe): sweep stale bead task gates | [sase-k0.2](sase-k0.2.md) | 2026-08-12 12:30:24 EDT |

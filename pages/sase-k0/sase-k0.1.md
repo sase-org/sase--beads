@@ -21,7 +21,7 @@ gate_lookup: add one scan-once resolver for pending task_triage and bead_snooze 
 
 ## Dependencies
 
-- **Blocks:** [sase-k0.2](sase-k0.2.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k0.2](sase-k0.2.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k0.3](sase-k0.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
