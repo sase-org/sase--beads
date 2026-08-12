@@ -18,7 +18,7 @@ The AXE tab visibly marks every chop whose run time reaches or exceeds its lumbe
 | [sase-jx.1](sase-jx.1.md) | Overrun classifier in the Rust core | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-jx.2](sase-jx.2.md) | Record how long a chop actually blocked its tick | ✓ closed | small | 2026-08-12 | 1 | 1 |
 | [sase-jx.3](sase-jx.3.md) | Classify each chop while collecting AXE snapshots | ✓ closed | medium | 2026-08-12 | 1 | 1 |
-| [sase-jx.4](sase-jx.4.md) | Render the overrun mark across the AXE tab | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
+| [sase-jx.4](sase-jx.4.md) | Render the overrun mark across the AXE tab | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-jx.1: Overrun classifier in the Rust core [closed]"]
     n2["sase-jx.2: Record how long a chop actually blocked its tick [closed]"]
     n3["sase-jx.3: Classify each chop while collecting AXE snapshots [closed]"]
-    n4["sase-jx.4: Render the overrun mark across the AXE tab [in_progress]"]
+    n4["sase-jx.4: Render the overrun mark across the AXE tab [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-jx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.1/README.md) | [sase-jx.1](sase-jx.1.md) | 1 |
 | [bbugyi200.athena.sase-jx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.2/README.md) | [sase-jx.2](sase-jx.2.md) | 1 |
 | [bbugyi200.athena.sase-jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.3/README.md) | [sase-jx.3](sase-jx.3.md) | 1 |
-| [bbugyi200.athena.sase-jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.4/README.md) | [sase-jx.4](sase-jx.4.md) | 0 |
+| [bbugyi200.athena.sase-jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.4/README.md) | [sase-jx.4](sase-jx.4.md) | 1 |
 | [bbugyi200.athena.sase-jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.land/README.md) | [sase-jx](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | sase | [`46773f6`](https://github.com/sase-org/sase/commit/46773f606446985acdc9ca2ca0112fbca2802d78) | feat(axe): preserve script wall-clock through chop run finalization | [sase-jx.2](sase-jx.2.md) | 2026-08-12 10:10:57 EDT |
 | sase-core | [`sase-core@c1a0a73`](https://github.com/sase-org/sase-core/commit/c1a0a7361d2caf81c7255d568ed8684b1b230c2a) | feat(axe\_overrun): add chop-overrun classifier with PyO3 bindings | [sase-jx.1](sase-jx.1.md) | 2026-08-12 10:11:12 EDT |
 | sase | [`2f1512c`](https://github.com/sase-org/sase/commit/2f1512c7cf527cf475ff0a618c0d96598d008238) | feat(axe): classify chop overruns in snapshots | [sase-jx.3](sase-jx.3.md) | 2026-08-12 10:38:08 EDT |
+| sase | [`d4c4efd`](https://github.com/sase-org/sase/commit/d4c4efda57da358787c94801d3d8cdea038c05af) | feat(axe): render overrun indicator across AXE tab surfaces | [sase-jx.4](sase-jx.4.md) | 2026-08-12 11:49:14 EDT |

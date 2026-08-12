@@ -21,7 +21,7 @@ snapshot_wiring: add the typed Python facade, carry the effective interval and t
 
 - **Depends on:** [sase-jx.1](sase-jx.1.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-jx.2](sase-jx.2.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-jx.4](sase-jx.4.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.4](sase-jx.4.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
