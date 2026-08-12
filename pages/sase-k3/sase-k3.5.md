@@ -26,10 +26,4 @@ axe: route the two global runner counters through one shared cached Patch snapsh
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.5/README.md) | [sase-k3.5](sase-k3.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`2d92ef6`](https://github.com/sase-org/sase/commit/2d92ef6a92762eb07948d64c0b91f95491827829) | feat(ace,axe): share one cached Patch snapshot for runner counts, gate startup stopwatch on the visible tab (sase-k3.5) | [sase-k3.5](sase-k3.5.md) | 2026-08-12 13:33:35 EDT |
+| [bbugyi200.athena.sase-k3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.5/README.md) | [sase-k3.5](sase-k3.5.md) | 0 |
