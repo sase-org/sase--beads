@@ -17,9 +17,11 @@ status-bucket: give `Agent` an explicit status-bucket override and route agent-s
 
 [2026-08-12T22:13:25Z · sase-kp.2] Implemented custom agent status bucket overrides and verified with focused pytest suite (94 passed) plus final just check, including scoped test lane selecting 971 test files.
 
+[2026-08-12T22:21:28Z · sase-kp.2] PROPOSED FOLLOW-UP: classify validate_sase_core_rs changespec probe tokens - after refreshing linked sase-core to 0.26.7, just check fails patch/stitch terminology on tests/test_validate_sase_core_rs_tool.py and tools/validate_sase_core_rs.
+
 ## Dependencies
 
-- **Blocks:** [sase-kp.3](sase-kp.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-kp.3](sase-kp.3.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.7](sase-kp.7.md) ◐ · ⧖ 2026-08-12
 
 ## Agents

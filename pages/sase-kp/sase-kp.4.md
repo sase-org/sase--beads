@@ -13,7 +13,7 @@ engine-next: compose the command breakdown, resume the starter's conversation wi
 
 ## Dependencies
 
-- **Depends on:** [sase-kp.3](sase-kp.3.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.3](sase-kp.3.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.6](sase-kp.6.md) ◐ · ⧖ 2026-08-12
 
 ## Agents

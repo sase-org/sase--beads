@@ -14,7 +14,7 @@ tui-rows: render monitor members in the Agents tab, family roster, and integrati
 ## Dependencies
 
 - **Depends on:** [sase-kp.2](sase-kp.2.md) ✓ · ⧖ 2026-08-12
-- **Depends on:** [sase-kp.3](sase-kp.3.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.3](sase-kp.3.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.8](sase-kp.8.md) ◐ · ⧖ 2026-08-12
 
 ## Agents

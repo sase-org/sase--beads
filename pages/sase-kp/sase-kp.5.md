@@ -13,7 +13,7 @@ handoff: add the `.sase_monitor_pending` handoff so `sase monitor start` kills t
 
 ## Dependencies
 
-- **Depends on:** [sase-kp.3](sase-kp.3.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.3](sase-kp.3.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.6](sase-kp.6.md) ◐ · ⧖ 2026-08-12
 
 ## Agents
