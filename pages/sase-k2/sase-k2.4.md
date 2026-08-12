@@ -19,4 +19,4 @@ bug_status: reverse the epic's original note-only decision and close or reopen a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.4/README.md) | [sase-k2.4](sase-k2.4.md) | 0 |
+| [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.4.md) | [sase-k2.4](sase-k2.4.md) | 0 |

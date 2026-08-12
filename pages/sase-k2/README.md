@@ -15,11 +15,11 @@ A user controls exactly which external bugs and pull requests become beads and P
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-k2.1](sase-k2.1.md) | ProjectSpec description truncation and duplicate-block repair | ✓ closed | large | 2026-08-12 | 1 | 1 |
+| [sase-k2.1](sase-k2.1.md) | ProjectSpec description truncation and duplicate-block repair | ✓ closed | large | 2026-08-12 | 1 | 2 |
 | [sase-k2.2](sase-k2.2.md) | Configurable bug and pull-request filters | ✓ closed | large | 2026-08-12 | 1 | 1 |
 | [sase-k2.3](sase-k2.3.md) | Dedicated external\_mirror lumberjack and lane-independent state | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-k2.4](sase-k2.4.md) | Bug state drives mirrored bead status | ◐ in_progress | large | 2026-08-12 | 1 | 0 |
-| [sase-k2.5](sase-k2.5.md) | Adopted external Patches track their pull request | ◐ in_progress | large | 2026-08-12 | 1 | 0 |
+| [sase-k2.5](sase-k2.5.md) | Adopted external Patches track their pull request | ✓ closed | large | 2026-08-12 | 1 | 1 |
 | [sase-k2.6](sase-k2.6.md) | Bounded per-pass cost for the PR mirror | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-k2.2: Configurable bug and pull-request filters [closed]"]
     n3["sase-k2.3: Dedicated external_mirror lumberjack and lane-independent state [closed]"]
     n4["sase-k2.4: Bug state drives mirrored bead status [in_progress]"]
-    n5["sase-k2.5: Adopted external Patches track their pull request [in_progress]"]
+    n5["sase-k2.5: Adopted external Patches track their pull request [closed]"]
     n6["sase-k2.6: Bounded per-pass cost for the PR mirror [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -50,11 +50,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 1 |
+| [bbugyi200.athena.sase-k2.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.1.md) | [sase-k2.1](sase-k2.1.md) | 2 |
 | [bbugyi200.athena.sase-k2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.2.md) | [sase-k2.2](sase-k2.2.md) | 1 |
 | [bbugyi200.athena.sase-k2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.3/README.md) | [sase-k2.3](sase-k2.3.md) | 1 |
-| [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.4/README.md) | [sase-k2.4](sase-k2.4.md) | 0 |
-| [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.5/README.md) | [sase-k2.5](sase-k2.5.md) | 0 |
+| [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.4.md) | [sase-k2.4](sase-k2.4.md) | 0 |
+| [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.5.md) | [sase-k2.5](sase-k2.5.md) | 1 |
 | [bbugyi200.athena.sase-k2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.6/README.md) | [sase-k2.6](sase-k2.6.md) | 0 |
 | [bbugyi200.athena.sase-k2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.land/README.md) | [sase-k2](README.md) | 0 |
 
@@ -64,4 +64,6 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`fb33e3c`](https://github.com/sase-org/sase/commit/fb33e3c1f9ba8122392eeec67aee1b05874c0e88) | feat(external-mirror): dedicated lumberjack lane with lane-independent state | [sase-k2.3](sase-k2.3.md) | 2026-08-12 12:09:53 EDT |
 | sase | [`d4139e9`](https://github.com/sase-org/sase/commit/d4139e96e2ac263f7a8af15ddcf4bc74d3f66edc) | fix: repair duplicate ProjectSpec patch blocks | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:34:55 EDT |
+| sase-core | [`sase-core@2519b42`](https://github.com/sase-org/sase-core/commit/2519b429fc25f3849fe967f191207957a66e10e8) | fix: preserve indented ProjectSpec blank lines | [sase-k2.1](sase-k2.1.md) | 2026-08-12 12:36:22 EDT |
 | sase | [`6b139a0`](https://github.com/sase-org/sase/commit/6b139a0d46843de54af4ebec5d28b25925215298) | feat(external-mirror): add configurable glob filters for issues and PRs | [sase-k2.2](sase-k2.2.md) | 2026-08-12 12:41:30 EDT |
+| sase | [`0567ce0`](https://github.com/sase-org/sase/commit/0567ce03be8450a991ec296494dbb8d185804d96) | feat(external-mirror): refresh adopted external Patches from PR state | [sase-k2.5](sase-k2.5.md) | 2026-08-12 13:29:25 EDT |

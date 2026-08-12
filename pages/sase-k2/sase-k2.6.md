@@ -14,7 +14,7 @@ perf: stop re-reading and re-parsing the whole active-plus-archive ProjectSpec i
 ## Dependencies
 
 - **Depends on:** [sase-k2.1](sase-k2.1.md) ✓ · ⧖ 2026-08-12
-- **Depends on:** [sase-k2.5](sase-k2.5.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-k2.5](sase-k2.5.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
