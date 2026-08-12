@@ -17,7 +17,7 @@ imports: move the `sase.axe.state` import in toast_log out of module scope, drop
 
 ## Dependencies
 
-- **Blocks:** [sase-k3.6](sase-k3.6.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k3.6](sase-k3.6.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

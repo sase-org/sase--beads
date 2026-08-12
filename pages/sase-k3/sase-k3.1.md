@@ -24,7 +24,7 @@ telemetry: record one JSONL row per ACE session carrying both a visible-surface-
 - **Blocks:** [sase-k3.3](sase-k3.3.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k3.4](sase-k3.4.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k3.5](sase-k3.5.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-k3.6](sase-k3.6.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k3.6](sase-k3.6.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
