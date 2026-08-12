@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.6
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.6` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.6` · **Size:** large
 **Created:** 2026-08-11 13:22:54 EDT · **Closed:** 2026-08-12 09:00:17 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -29,10 +29,10 @@ linking: rewrite published prompts to numbered `[@kind:arg][N]` reference links 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-js.6 | [sase-js.6](sase-js.6.md) | 1 |
+| [bbugyi200.athena.sase-js.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.6.md) | [sase-js.6](sase-js.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| gh\_sase-org\_\_sase | [`9907b1d`](https://github.com/sase-org/sase/commit/9907b1d1611bb397d21237367c95acd4b5578f00) | feat(agents-sync): write referenced-by links for prompt artifacts | [sase-js.6](sase-js.6.md) | 2026-08-12 09:05:20 EDT |
+| sase | [`9907b1d`](https://github.com/sase-org/sase/commit/9907b1d1611bb397d21237367c95acd4b5578f00) | feat(agents-sync): write referenced-by links for prompt artifacts | [sase-js.6](sase-js.6.md) | 2026-08-12 09:05:20 EDT |

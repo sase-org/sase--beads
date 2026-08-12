@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.5
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.5` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.5` · **Size:** large
 **Created:** 2026-08-11 13:22:27 EDT · **Closed:** 2026-08-11 17:42:32 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -21,16 +21,17 @@ files: add the `artifact_refs.file.roots` allow-list, launch-time capture with a
 
 - **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.6](sase-js.6.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.7](sase-js.7.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.7](sase-js.7.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-js.5 | [sase-js.5](sase-js.5.md) | 1 |
+| [bbugyi200.athena.sase-js.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.5.md) | [sase-js.5](sase-js.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| gh\_sase-org\_\_sase | [`341fff9`](https://github.com/sase-org/sase/commit/341fff97adeea143cc243472f072d170d53eda23) | feat: add file refs to prompt artifacts | [sase-js.5](sase-js.5.md) | 2026-08-11 17:43:38 EDT |
+| sase | [`341fff9`](https://github.com/sase-org/sase/commit/341fff97adeea143cc243472f072d170d53eda23) | feat: add file refs to prompt artifacts | [sase-js.5](sase-js.5.md) | 2026-08-11 17:43:38 EDT |
+| sase-core | [`sase-core@a509dcc`](https://github.com/sase-org/sase-core/commit/a509dcc979db12126e26a55fc1b15fcb04785401) | feat: resolve file artifact refs in core | [sase-js.5](sase-js.5.md) | 2026-08-11 17:44:14 EDT |

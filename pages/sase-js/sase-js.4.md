@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-js](README.md) / sase-js.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.y2` · **Assignee:** `sase-js.4` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.y2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.y2/README.md) · **Assignee:** `sase-js.4` · **Size:** large
 **Created:** 2026-08-11 13:21:59 EDT · **Closed:** 2026-08-11 18:09:31 EDT
 **Plan:** [202608/artifact\_ref\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_ref_contract.md)
 
@@ -25,16 +25,16 @@ builtins: thread an explicit per-segment `PromptRefContext` through late prompt 
 
 - **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.6](sase-js.6.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.7](sase-js.7.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.7](sase-js.7.md) ✓ · ⧖ 2026-08-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| bbugyi200.athena.sase-js.4 | [sase-js.4](sase-js.4.md) | 1 |
+| [bbugyi200.athena.sase-js.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-js.4.md) | [sase-js.4](sase-js.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| gh\_sase-org\_\_sase | [`0f3569c`](https://github.com/sase-org/sase/commit/0f3569cb4c46a1bee1629ab64ef831a3535b64d2) | feat(artifact-ref)!: resolve @stitch/@patch/@bead/@agent through an explicit prompt ref context | [sase-js.4](sase-js.4.md) | 2026-08-11 18:14:02 EDT |
+| sase | [`0f3569c`](https://github.com/sase-org/sase/commit/0f3569cb4c46a1bee1629ab64ef831a3535b64d2) | feat(artifact-ref)!: resolve @stitch/@patch/@bead/@agent through an explicit prompt ref context | [sase-js.4](sase-js.4.md) | 2026-08-11 18:14:02 EDT |
