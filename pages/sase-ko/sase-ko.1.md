@@ -17,10 +17,16 @@ core-guard: add the `agent_runners` guard variant, the `holds_runner_slot` agent
 
 ## Dependencies
 
-- **Blocks:** [sase-ko.2](sase-ko.2.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-ko.2](sase-ko.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ko.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.1/README.md) | [sase-ko.1](sase-ko.1.md) | 0 |
+| [bbugyi200.athena.sase-ko.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ko.1/README.md) | [sase-ko.1](sase-ko.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@a0a6ca4`](https://github.com/sase-org/sase-core/commit/a0a6ca4aaa7bc883433c66693773abf21f14e5d3) | feat(axe-chop): add the agent\_runners inhibit\_if guard provider | [sase-ko.1](sase-ko.1.md) | 2026-08-12 16:10:05 EDT |

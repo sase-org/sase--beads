@@ -13,7 +13,7 @@ ci-watch-idle: add `inhibit_if: {agent_runners: {max: 0}}` to the `ci_watch` cho
 
 ## Dependencies
 
-- **Depends on:** [sase-ko.2](sase-ko.2.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-ko.2](sase-ko.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
