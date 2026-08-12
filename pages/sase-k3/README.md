@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.athena.sase-k3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.4/README.md) | [sase-k3.4](sase-k3.4.md) | 2 |
 | [bbugyi200.athena.sase-k3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.5/README.md) | [sase-k3.5](sase-k3.5.md) | 1 |
 | [bbugyi200.athena.sase-k3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.6/README.md) | [sase-k3.6](sase-k3.6.md) | 0 |
-| [bbugyi200.athena.sase-k3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.land/README.md) | [sase-k3](README.md) | 1 |
+| [bbugyi200.athena.sase-k3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k3.land/README.md) | [sase-k3](README.md) | 2 |
 
 ## Commits
 
@@ -131,3 +131,4 @@ flowchart TD
 | sase | [`8f9c5c3`](https://github.com/sase-org/sase/commit/8f9c5c3ff30a424fc8c7236f2d13fa319afe4895) | perf(ace): use cached Tier 1 artifact index loads | [sase-k3.4](sase-k3.4.md) | 2026-08-12 13:52:24 EDT |
 | sase | [`14fcbc2`](https://github.com/sase-org/sase/commit/14fcbc21a104c2252270ea0be97324231a221b50) | perf(ace): defer persisted diff-badge classification off the loader (sase-k3.3) | [sase-k3.3](sase-k3.3.md) | 2026-08-12 14:12:11 EDT |
 | sase | [`2c1b875`](https://github.com/sase-org/sase/commit/2c1b8750a9e84bc0296075e8075cde4112fa57a4) | perf(ace): count all global runners from one cached snapshot (sase-k3) | [sase-k3](README.md) | 2026-08-12 15:21:02 EDT |
+| sase--plans | [`sase--plans@2681850`](https://github.com/sase-org/sase--plans/commit/26818509cd6abad37e1069fc22a51b1bd4ff81e9) | docs(plans): mark ace\_startup\_critical\_path done | [sase-k3](README.md) | 2026-08-12 15:22:32 EDT |
