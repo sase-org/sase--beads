@@ -17,7 +17,7 @@ filters: add external_mirror.issues.filters and external_mirror.pull_requests.fi
 
 ## Dependencies
 
-- **Blocks:** [sase-k2.4](sase-k2.4.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k2.4](sase-k2.4.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-k2.5](sase-k2.5.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
