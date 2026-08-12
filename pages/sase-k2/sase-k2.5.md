@@ -25,10 +25,11 @@ patch_status: add the refresh action the external PR classifier is missing so an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.5.md) | [sase-k2.5](sase-k2.5.md) | 1 |
+| [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.5.md) | [sase-k2.5](sase-k2.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0567ce0`](https://github.com/sase-org/sase/commit/0567ce03be8450a991ec296494dbb8d185804d96) | feat(external-mirror): refresh adopted external Patches from PR state | [sase-k2.5](sase-k2.5.md) | 2026-08-12 13:29:25 EDT |
+| sase-core | [`sase-core@fb3c869`](https://github.com/sase-org/sase-core/commit/fb3c869810eb632415d170d126d866820957a4d5) | feat(external-pr): classify refresh actions for adopted external Patches | [sase-k2.5](sase-k2.5.md) | 2026-08-12 13:31:02 EDT |
