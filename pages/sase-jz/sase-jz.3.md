@@ -13,7 +13,7 @@ rollout: bump the package version, push bugyi-chops, drop the now-inert `wait_ru
 
 ## Dependencies
 
-- **Depends on:** [sase-jz.2](sase-jz.2.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-jz.2](sase-jz.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
