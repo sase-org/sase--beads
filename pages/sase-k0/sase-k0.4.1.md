@@ -19,7 +19,7 @@ convergence_regressions: add the removed-then-re-enabled fresh-g1 and cross-proj
 
 ## Dependencies
 
-- **Blocks:** [sase-k0.4.2](sase-k0.4.2.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-k0.4.2](sase-k0.4.2.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
