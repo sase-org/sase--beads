@@ -22,7 +22,7 @@ Agents can hand a slow command (`just check-full`, a CI wait, `sase bead work`) 
 | [sase-kp.2](sase-kp.2.md) | First-class custom agent status labels | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.3](sase-kp.3.md) | Monitor member lifecycle and supervisor process | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.4](sase-kp.4.md) | Follow-up agent handoff after a monitor completes | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
-| [sase-kp.5](sase-kp.5.md) | In-agent handoff marker and runner adoption | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
+| [sase-kp.5](sase-kp.5.md) | In-agent handoff marker and runner adoption | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.6](sase-kp.6.md) | sase monitor command group | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-kp.7](sase-kp.7.md) | Monitor rows in agent lists and family rosters | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-kp.8](sase-kp.8.md) | Monitor detail panel, live output, and keybindings | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
@@ -40,7 +40,7 @@ flowchart TD
     n5["sase-kp.2: First-class custom agent status labels [closed]"]
     n6["sase-kp.3: Monitor member lifecycle and supervisor process [closed]"]
     n7["sase-kp.4: Follow-up agent handoff after a monitor completes [in_progress]"]
-    n8["sase-kp.5: In-agent handoff marker and runner adoption [in_progress]"]
+    n8["sase-kp.5: In-agent handoff marker and runner adoption [closed]"]
     n9["sase-kp.6: sase monitor command group [in_progress]"]
     n10["sase-kp.7: Monitor rows in agent lists and family rosters [in_progress]"]
     n11["sase-kp.8: Monitor detail panel, live output, and keybindings [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.2/README.md) | [sase-kp.2](sase-kp.2.md) | 1 |
 | [bbugyi200.athena.sase-kp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.3/README.md) | [sase-kp.3](sase-kp.3.md) | 1 |
 | [bbugyi200.athena.sase-kp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.4/README.md) | [sase-kp.4](sase-kp.4.md) | 0 |
-| [bbugyi200.athena.sase-kp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.5/README.md) | [sase-kp.5](sase-kp.5.md) | 0 |
+| [bbugyi200.athena.sase-kp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.5/README.md) | [sase-kp.5](sase-kp.5.md) | 1 |
 | [bbugyi200.athena.sase-kp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.6/README.md) | [sase-kp.6](sase-kp.6.md) | 0 |
 | [bbugyi200.athena.sase-kp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.7/README.md) | [sase-kp.7](sase-kp.7.md) | 0 |
 | [bbugyi200.athena.sase-kp.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.8/README.md) | [sase-kp.8](sase-kp.8.md) | 0 |
@@ -101,3 +101,4 @@ flowchart TD
 | sase | [`3c37f8e`](https://github.com/sase-org/sase/commit/3c37f8e3651bae1f0b53b759efdafffa86a5e2fd) | feat(agent-scan): mirror monitor marker fields on the Python wire | [sase-kp.1](sase-kp.1.md) | 2026-08-12 18:03:25 EDT |
 | sase | [`9bfdaed`](https://github.com/sase-org/sase/commit/9bfdaedd4561b38e8522f716ac4e11c19cdf5d13) | feat(agent): honor custom status bucket overrides | [sase-kp.2](sase-kp.2.md) | 2026-08-12 18:15:00 EDT |
 | sase | [`b32167c`](https://github.com/sase-org/sase/commit/b32167c31bca2e28d6dfbd6e8cd5dd86a07a883f) | feat(monitor): add monitor member lifecycle and supervisor process | [sase-kp.3](sase-kp.3.md) | 2026-08-12 19:21:48 EDT |
+| sase | [`2aff0a0`](https://github.com/sase-org/sase/commit/2aff0a03e6b7d4c6e0a5579993867da30cc327aa) | feat: adopt monitor handoffs in agent runner | [sase-kp.5](sase-kp.5.md) | 2026-08-12 19:44:17 EDT |
