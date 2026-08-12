@@ -24,7 +24,7 @@ builtins: thread an explicit per-segment `PromptRefContext` through late prompt 
 ## Dependencies
 
 - **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.6](sase-js.6.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.6](sase-js.6.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.7](sase-js.7.md) ◐ · ⧖ 2026-08-11
 
 ## Agents

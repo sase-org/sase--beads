@@ -20,7 +20,7 @@ files: add the `artifact_refs.file.roots` allow-list, launch-time capture with a
 ## Dependencies
 
 - **Depends on:** [sase-js.3](sase-js.3.md) ✓ · ⧖ 2026-08-11
-- **Blocks:** [sase-js.6](sase-js.6.md) ◐ · ⧖ 2026-08-11
+- **Blocks:** [sase-js.6](sase-js.6.md) ✓ · ⧖ 2026-08-11
 - **Blocks:** [sase-js.7](sase-js.7.md) ◐ · ⧖ 2026-08-11
 
 ## Agents

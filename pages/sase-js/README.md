@@ -20,7 +20,7 @@ Artifact references stop being xprompts and become a first-class, versioned ref 
 | [sase-js.3](sase-js.3.md) | Provider registry, plugin hooks, and config | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.4](sase-js.4.md) | Builtin refs and prompt ref context | ✓ closed | large | 2026-08-11 | 1 | 1 |
 | [sase-js.5](sase-js.5.md) | The @file ref and the content-addressed store | ✓ closed | large | 2026-08-11 | 1 | 1 |
-| [sase-js.6](sase-js.6.md) | Reference links and Referenced By write-back | ◐ in_progress | large | 2026-08-11 | 1 | 0 |
+| [sase-js.6](sase-js.6.md) | Reference links and Referenced By write-back | ✓ closed | large | 2026-08-11 | 1 | 0 |
 | [sase-js.7](sase-js.7.md) | Generated Artifacts sub-tabs and the new Files pane | ◐ in_progress | large | 2026-08-11 | 1 | 0 |
 | [sase-js.8](sase-js.8.md) | The sase-research plugin repository | ✓ closed | large | 2026-08-11 | 1 | 0 |
 | [sase-js.9](sase-js.9.md) | Adoption, glossary, and documentation | ◐ in_progress | medium | 2026-08-11 | 1 | 0 |
@@ -35,7 +35,7 @@ flowchart TD
     n3["sase-js.3: Provider registry, plugin hooks, and config [closed]"]
     n4["sase-js.4: Builtin refs and prompt ref context [closed]"]
     n5["sase-js.5: The @file ref and the content-addressed store [closed]"]
-    n6["sase-js.6: Reference links and Referenced By write-back [in_progress]"]
+    n6["sase-js.6: Reference links and Referenced By write-back [closed]"]
     n7["sase-js.7: Generated Artifacts sub-tabs and the new Files pane [in_progress]"]
     n8["sase-js.8: The sase-research plugin repository [closed]"]
     n9["sase-js.9: Adoption, glossary, and documentation [in_progress]"]
