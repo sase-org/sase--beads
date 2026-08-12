@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.sase-k2.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.4.md) | [sase-k2.4](sase-k2.4.md) | 1 |
 | [bbugyi200.athena.sase-k2.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-k2.5.md) | [sase-k2.5](sase-k2.5.md) | 2 |
 | [bbugyi200.athena.sase-k2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.6/README.md) | [sase-k2.6](sase-k2.6.md) | 1 |
-| [bbugyi200.athena.sase-k2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.land/README.md) | [sase-k2](README.md) | 0 |
+| [bbugyi200.athena.sase-k2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-k2.land/README.md) | [sase-k2](README.md) | 1 |
 
 ## Commits
 
@@ -104,3 +104,4 @@ flowchart TD
 | sase-core | [`sase-core@fb3c869`](https://github.com/sase-org/sase-core/commit/fb3c869810eb632415d170d126d866820957a4d5) | feat(external-pr): classify refresh actions for adopted external Patches | [sase-k2.5](sase-k2.5.md) | 2026-08-12 13:31:02 EDT |
 | sase | [`32ccc9e`](https://github.com/sase-org/sase/commit/32ccc9eb79ef98fa9359cdf2e1105857bbe8d57d) | perf: batch external PR mirror imports | [sase-k2.6](sase-k2.6.md) | 2026-08-12 14:11:32 EDT |
 | sase | [`67d8463`](https://github.com/sase-org/sase/commit/67d84632794e9e3f1c7f1ae6fd8d1c0cc486907b) | feat(beads): sync mirrored issue status | [sase-k2.4](sase-k2.4.md) | 2026-08-12 14:39:44 EDT |
+| sase | [`675c712`](https://github.com/sase-org/sase/commit/675c71279fe1c4b1695bc037d4ccefb3bcf14e76) | docs: describe the external PR mirror refresh path | [sase-k2](README.md) | 2026-08-12 15:24:27 EDT |
