@@ -15,7 +15,7 @@ The `code_quality` lumberjack and its `audit_bugs`/`audit_improvements` agents n
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-jz.1](sase-jz.1.md) | Remove the code\_quality lumberjack and the recent-audit chops | ✓ closed | small | 2026-08-12 | 1 | 1 |
+| [sase-jz.1](sase-jz.1.md) | Remove the code\_quality lumberjack and the recent-audit chops | ✓ closed | small | 2026-08-12 | 1 | 0 |
 | [sase-jz.2](sase-jz.2.md) | Replace ci\_watch fix proposals with LaunchApproval gates | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-jz.3](sase-jz.3.md) | Roll the new ci\_watch out to the live host and verify | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
 
@@ -38,13 +38,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jz.1/README.md) | [sase-jz.1](sase-jz.1.md) | 1 |
+| [bbugyi200.athena.sase-jz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jz.1/README.md) | [sase-jz.1](sase-jz.1.md) | 0 |
 | [bbugyi200.athena.sase-jz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jz.2/README.md) | [sase-jz.2](sase-jz.2.md) | 0 |
 | [bbugyi200.athena.sase-jz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jz.3/README.md) | [sase-jz.3](sase-jz.3.md) | 0 |
 | [bbugyi200.athena.sase-jz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jz.land/README.md) | [sase-jz](README.md) | 0 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@7473db7`](https://github.com/bbugyi200/dotfiles/commit/7473db74bc08894ab2f4c78e9b38889693afae3a) | chore: remove retired code quality axe lane | [sase-jz.1](sase-jz.1.md) | 2026-08-12 10:51:15 EDT |
