@@ -15,12 +15,20 @@ core_classifier: add the host-I/O-free `axe_overrun` module, its versioned wire 
 
 [2026-08-12T14:09:55Z · sase-jx.1] Added crates/sase_core/src/axe_overrun/ (wire.rs, classify.rs, tests.rs) in sase-org/sase-core, registered pub mod axe_overrun in lib.rs alphabetically between axe_chop/axe_status. classify_chop_overrun implements the 4-step rule from the design: blocking_ms derivation (script_duration_ms priority > running-elapsed > action_* unknown > duration_ms), status-based sampling filter (excludes skipped/missing_script/check_error, drops unknown statuses and action_* without script_duration_ms), over-at->=interval, and over/intermittent/none leveling off the newest-vs-older sampled runs. Added PyO3 binding chop_overrun_wire_schema_version()/classify_chop_overrun() in crates/sase_core_py/src/lib.rs next to the axe_status pair, with binding-inventory doc entries and round-trip tests. Verified with 'just check' from the sase-core root (fmt + clippy -D warnings + full workspace test suite incl. sase_core_py binding tests) — all green, 16 new classify unit tests + 2 new binding tests passing. Changes left uncommitted in the sase-core checkout at sase/repos/external/gh/sase-org/sase-core since the dependent snapshot_wiring phase builds directly from this working tree.
 
+[2026-08-12T14:10:35Z · sase-jx.1] Implemented axe_overrun classifier in sase-core: new crates/sase_core/src/axe_overrun/ module (mod.rs, wire.rs, classify.rs, tests.rs) registered alphabetically in lib.rs; classify_chop_overrun implements blocking-time derivation, status-based sampling filter, over/level classification per design. Added PyO3 bindings (chop_overrun_wire_schema_version, classify_chop_overrun) in sase_core_py with round-trip tests and binding-inventory doc entries. Verified via just check: fmt, clippy -D warnings, full workspace test suite (16 classifier tests + 2 binding tests) all passing.
+
 ## Dependencies
 
-- **Blocks:** [sase-jx.3](sase-jx.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.3](sase-jx.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-jx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.1/README.md) | [sase-jx.1](sase-jx.1.md) | 0 |
+| [bbugyi200.athena.sase-jx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-jx.1/README.md) | [sase-jx.1](sase-jx.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@c1a0a73`](https://github.com/sase-org/sase-core/commit/c1a0a7361d2caf81c7255d568ed8684b1b230c2a) | feat(axe\_overrun): add chop-overrun classifier with PyO3 bindings | [sase-jx.1](sase-jx.1.md) | 2026-08-12 10:11:12 EDT |

@@ -17,7 +17,7 @@ blocking_duration: persist `script_duration_ms` on chop run entries so an agent-
 
 ## Dependencies
 
-- **Blocks:** [sase-jx.3](sase-jx.3.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-jx.3](sase-jx.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

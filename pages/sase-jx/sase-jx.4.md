@@ -13,7 +13,7 @@ tab_indicator: paint the sidebar chop chip and lumberjack roll-up, the overview 
 
 ## Dependencies
 
-- **Depends on:** [sase-jx.3](sase-jx.3.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-jx.3](sase-jx.3.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
