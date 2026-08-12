@@ -13,7 +13,7 @@ host-guard: teach the Python preflight host to build runner-slot agent snapshots
 
 ## Dependencies
 
-- **Depends on:** [sase-ko.1](sase-ko.1.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-ko.1](sase-ko.1.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-ko.4](sase-ko.4.md) ◐ · ⧖ 2026-08-12
 
 ## Agents
