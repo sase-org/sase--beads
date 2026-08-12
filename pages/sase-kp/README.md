@@ -15,7 +15,7 @@ Agents can hand a slow command (`just check-full`, a CI wait, `sase bead work`) 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-kp.1](sase-kp.1.md) | Monitor marker fields on the agent scan wire | ◐ in_progress | small | 2026-08-12 | 1 | 1 |
+| [sase-kp.1](sase-kp.1.md) | Monitor marker fields on the agent scan wire | ◐ in_progress | small | 2026-08-12 | 1 | 2 |
 | [sase-kp.10](sase-kp.10.md) | /sase\_monitor skill | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
 | [sase-kp.11](sase-kp.11.md) | Memory and documentation updates | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
 | [sase-kp.12](sase-kp.12.md) | End-to-end monitor exercises | ◐ in_progress | xsmall | 2026-08-12 | 1 | 0 |
@@ -79,7 +79,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-kp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.1/README.md) | [sase-kp.1](sase-kp.1.md) | 1 |
+| [bbugyi200.athena.sase-kp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.1/README.md) | [sase-kp.1](sase-kp.1.md) | 2 |
 | [bbugyi200.athena.sase-kp.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.10/README.md) | [sase-kp.10](sase-kp.10.md) | 0 |
 | [bbugyi200.athena.sase-kp.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.11/README.md) | [sase-kp.11](sase-kp.11.md) | 0 |
 | [bbugyi200.athena.sase-kp.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.12/README.md) | [sase-kp.12](sase-kp.12.md) | 0 |
@@ -98,3 +98,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cb91149`](https://github.com/sase-org/sase-core/commit/cb91149efa64a9ba0c342ac8b7e3ba0d5e650b10) | feat(agent-scan): add monitor marker fields to the agent scan wire | [sase-kp.1](sase-kp.1.md) | 2026-08-12 17:45:57 EDT |
+| sase | [`3c37f8e`](https://github.com/sase-org/sase/commit/3c37f8e3651bae1f0b53b759efdafffa86a5e2fd) | feat(agent-scan): mirror monitor marker fields on the Python wire | [sase-kp.1](sase-kp.1.md) | 2026-08-12 18:03:25 EDT |
