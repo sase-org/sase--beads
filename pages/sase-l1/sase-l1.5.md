@@ -30,10 +30,11 @@ visibility: surface dead-on-arrival supervisors and follow-up launch failures in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-l1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.5/README.md) | [sase-l1.5](sase-l1.5.md) | 1 |
+| [bbugyi200.athena.sase-l1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.5/README.md) | [sase-l1.5](sase-l1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cac5d34`](https://github.com/sase-org/sase-core/commit/cac5d349baba318206a51162c3b1cd50128fa8fe) | feat(agent\_scan): carry monitor follow-up disposition in scan wire | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:39:51 EDT |
+| sase | [`1b7ce61`](https://github.com/sase-org/sase/commit/1b7ce6194e9ff4ceaae5f1fb55575a1acca7e3ed) | feat(monitor): surface dropped follow-ups and dead monitors without done.json | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:40:51 EDT |

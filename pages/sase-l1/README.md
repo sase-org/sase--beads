@@ -19,7 +19,7 @@ A monitor started from inside an agent survives that agent's own runner teardown
 | [sase-l1.2](sase-l1.2.md) | Monitor start is not reported until the supervisor proves it is alive | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-l1.3](sase-l1.3.md) | A monitor's workspace claim cannot be harvested behind its back | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l1.4](sase-l1.4.md) | The --next action survives a failed claim transfer | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-l1.5](sase-l1.5.md) | A stalled monitor lane is visible without reading done.json | ✓ closed | small | 2026-08-13 | 1 | 1 |
+| [sase-l1.5](sase-l1.5.md) | A stalled monitor lane is visible without reading done.json | ✓ closed | small | 2026-08-13 | 1 | 2 |
 | [sase-l1.6](sase-l1.6.md) | End-to-end exercises for the agent-started monitor path | ◐ in_progress | xsmall | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.2/README.md) | [sase-l1.2](sase-l1.2.md) | 1 |
 | [bbugyi200.athena.sase-l1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.3/README.md) | [sase-l1.3](sase-l1.3.md) | 1 |
 | [bbugyi200.athena.sase-l1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.4/README.md) | [sase-l1.4](sase-l1.4.md) | 1 |
-| [bbugyi200.athena.sase-l1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.5/README.md) | [sase-l1.5](sase-l1.5.md) | 1 |
+| [bbugyi200.athena.sase-l1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.5/README.md) | [sase-l1.5](sase-l1.5.md) | 2 |
 | [bbugyi200.athena.sase-l1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.6/README.md) | [sase-l1.6](sase-l1.6.md) | 0 |
 | [bbugyi200.athena.sase-l1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.land/README.md) | [sase-l1](README.md) | 0 |
 
@@ -70,3 +70,4 @@ flowchart TD
 | sase | [`90b2628`](https://github.com/sase-org/sase/commit/90b26289f73a00fbecc7fba12233ca5bdf661682) | fix(monitor): preserve follow-up launches after claim transfer failure | [sase-l1.4](sase-l1.4.md) | 2026-08-13 14:55:33 EDT |
 | sase | [`b454213`](https://github.com/sase-org/sase/commit/b4542139aadc55073a8909e44961d269116f0693) | fix(monitor): block start\_monitor until the supervisor acks startup | [sase-l1.2](sase-l1.2.md) | 2026-08-13 15:08:53 EDT |
 | sase-core | [`sase-core@cac5d34`](https://github.com/sase-org/sase-core/commit/cac5d349baba318206a51162c3b1cd50128fa8fe) | feat(agent\_scan): carry monitor follow-up disposition in scan wire | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:39:51 EDT |
+| sase | [`1b7ce61`](https://github.com/sase-org/sase/commit/1b7ce6194e9ff4ceaae5f1fb55575a1acca7e3ed) | feat(monitor): surface dropped follow-ups and dead monitors without done.json | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:40:51 EDT |
