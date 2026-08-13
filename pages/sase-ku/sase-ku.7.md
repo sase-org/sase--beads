@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.7` · **Size:** medium
 **Created:** 2026-08-13 09:03:10 EDT · **Closed:** 2026-08-13 10:02:31 EDT
-**Plan:** 202608/monitor\_hardening.md
+**Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
 
 ## Description
 
@@ -33,7 +33,7 @@ followup: treat retained command output as untrusted data in the composed prompt
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 1 |
+| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.7.md) | [sase-ku.7](sase-ku.7.md) | 1 |
 
 ## Commits
 

@@ -2,10 +2,10 @@
 
 [Bead Pages](../README.md) / sase-ku
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.land`
-**Created:** 2026-08-13 09:02:19 EDT
-**Plan:** 202608/monitor\_hardening.md
+**Created:** 2026-08-13 09:02:19 EDT · **Closed:** 2026-08-13 19:21:11 EDT
+**Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
 
 ## Description
 
@@ -40,12 +40,22 @@ Contract this fix establishes for sase-ku.5 and sase-ku.4: monitor_state 'comple
 
 [2026-08-13T16:51:04Z · zl.w0] DISCOVERED ISSUE: tests/monitor/test_monitor_supervise.py::test_run_supervisor_escalates_term_ignoring_chatty_child failed once during a full 'just check' run on 2026-08-13 from workspace sase_10 at master bd6167875 (2 failed, 29608 passed, 10 skipped in 278.65s -- the other failure was the unrelated sase-kw circular-import node). Re-running the exact node in isolation passed cleanly: .venv/bin/python -m pytest tests/monitor/test_monitor_supervise.py::test_run_supervisor_escalates_term_ignoring_chatty_child -v -> 1 passed in 2.39s. Looks like a process/signal-timing flake under parallel load rather than a real regression. Routed here rather than filed as a task because this epic's own description names surviving 'TERM-ignoring children' as in-scope, and phase sase-ku.2 ('Rebuild the supervisor's stream and wait loop') plus the still-in-progress sase-ku.9/sase-ku.10 hardening-exercise phases are the most plausible place to know about escalation-timing flakiness in this exact test. Discovered while running 'just check' for an unrelated ace Artifacts split-modes feature (plan artifacts_split_modes.md); nothing in that diff touches process supervision or signal handling.
 
+[2026-08-13T17:31:13Z · zp] ADJACENT REVIEW (no conflict expected, no action required from this epic): the project owner asked whether approved-epic launches still run one at a time after sase-kp.9 rerouted them onto monitors. Verdict: yes, and the guarantee lives entirely outside sase-ku -- it is the epic_plan_launch_lock flock in src/sase/bead/cli_work_from_plan_store.py:150, held by work_from_plan_file() across bead creation, graph publication, and the wave-1 agent launch. Monitors do not serialize anything; they just start the same 'sase bead work' command in the same cwd, so the pre-existing lock still applies. Nothing landed in sase-ku so far affects it. Full analysis, plus the two burst gaps it surfaced (the 900s launch-lock bound, and same-lane approvals hard-failing on MonitorAlreadyRunningError after the gate response is already committed), is recorded on task sase-kr.
+
+ONE ITEM TOUCHES sase-ku.10: its 2026-08-13T17:21:32Z PROPOSED FOLLOW-UP (a second host-style start on lane sase-ku.10 produced failed monitor brgjrd with starter_agent=sase-ku.10--mon and 'workspace #0 with pid 3700673 was not found') sits on exactly the surface the host-owned epic launch uses -- start_epic_launch_monitor passes inherit_lane_workspace_claim=False, so every epic launch takes the placeholder workspace-0 claim path (src/sase/monitor/start.py:155-166,247-255). Approved-epic launches have still never actually run as monitors ('sase monitor list --all' shows no EPIC APPROVED / EPIC CREATED member, matching sase-kr), so whatever that follow-up becomes should be evaluated against repeat approvals on one planner lane, not just repeat CLI starts.
+
+[2026-08-13T17:33:14Z · zo] ROOT CAUSE FOUND FOR A GAP THIS EPIC DOES NOT COVER (new epic plan proposed: monitor_supervisor_survival). On 2026-08-13 12:53:44 agent zl.w0--code ran 'sase monitor start --command "just test-visual" --timeout 20m --next <continuation>'. No monitor ever ran; the lane went silent 17m33s and the --next continuation (the whole remaining artifacts_split_modes.md plan) was discarded.
+
+EVIDENCE (monitor 18tx7ty20h8w, artifacts .../ace-run/202608/13/20260813125344): agent_meta.json has NO monitor_output_path (supervise.py:137, the supervisor's first action after _read_meta) and NO monitor_pgid (supervise.py:192); live_reply.md is exactly 73 bytes -- only sase-ku.5's reconciler line; supervisor.log exists and is 0 bytes. Since the supervisor now runs with stdout=supervisor.log/stderr=STDOUT, a traceback would have been captured (verified live: 'python -m sase monitor _supervise --artifacts-dir <missing>' prints a full traceback and total startup is ~0.83s). So the supervisor was killed by a signal DURING i
+
+… and 16193 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-ku.1](sase-ku.1.md) | Monitor supervision fields on the agent scan wire | ✓ closed | small | 2026-08-13 | 1 | 2 |
-| [sase-ku.10](sase-ku.10.md) | End-to-end hardening exercises | ◐ in_progress | xsmall | 2026-08-13 | 1 | 0 |
+| [sase-ku.10](sase-ku.10.md) | End-to-end hardening exercises | ✓ closed | xsmall | 2026-08-13 | 1 | 0 |
 | [sase-ku.2](sase-ku.2.md) | Rebuild the supervisor's stream and wait loop | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.3](sase-ku.3.md) | Durable process identity for the supervisor and its child | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ku.4](sase-ku.4.md) | Transactional monitor start and settlement | ✓ closed | medium | 2026-08-13 | 1 | 1 |
@@ -59,9 +69,9 @@ Contract this fix establishes for sase-ku.5 and sase-ku.4: monitor_state 'comple
 
 ```mermaid
 flowchart TD
-    n0["sase-ku: sase monitor hardening — a supervisor that cannot silently orphan, wedge, or lie [in_progress]"]
+    n0["sase-ku: sase monitor hardening — a supervisor that cannot silently orphan, wedge, or lie [closed]"]
     n1["sase-ku.1: Monitor supervision fields on the agent scan wire [closed]"]
-    n2["sase-ku.10: End-to-end hardening exercises [in_progress]"]
+    n2["sase-ku.10: End-to-end hardening exercises [closed]"]
     n3["sase-ku.2: Rebuild the supervisor's stream and wait loop [closed]"]
     n4["sase-ku.3: Durable process identity for the supervisor and its child [closed]"]
     n5["sase-ku.4: Transactional monitor start and settlement [closed]"]
@@ -101,16 +111,16 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ku.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.1/README.md) | [sase-ku.1](sase-ku.1.md) | 2 |
-| [bbugyi200.athena.sase-ku.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.10/README.md) | [sase-ku.10](sase-ku.10.md) | 0 |
+| [bbugyi200.athena.sase-ku.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.10.md) | [sase-ku.10](sase-ku.10.md) | 0 |
 | [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 1 |
 | [bbugyi200.athena.sase-ku.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.3/README.md) | [sase-ku.3](sase-ku.3.md) | 1 |
-| [bbugyi200.athena.sase-ku.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.4/README.md) | [sase-ku.4](sase-ku.4.md) | 1 |
-| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 1 |
-| [bbugyi200.athena.sase-ku.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.6/README.md) | [sase-ku.6](sase-ku.6.md) | 1 |
-| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 1 |
-| [bbugyi200.athena.sase-ku.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.8/README.md) | [sase-ku.8](sase-ku.8.md) | 1 |
-| [bbugyi200.athena.sase-ku.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.9/README.md) | [sase-ku.9](sase-ku.9.md) | 1 |
-| [bbugyi200.athena.sase-ku.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.land/README.md) | [sase-ku](README.md) | 0 |
+| [bbugyi200.athena.sase-ku.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.4.md) | [sase-ku.4](sase-ku.4.md) | 1 |
+| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.5.md) | [sase-ku.5](sase-ku.5.md) | 1 |
+| [bbugyi200.athena.sase-ku.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.6.md) | [sase-ku.6](sase-ku.6.md) | 1 |
+| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.7.md) | [sase-ku.7](sase-ku.7.md) | 1 |
+| [bbugyi200.athena.sase-ku.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.8.md) | [sase-ku.8](sase-ku.8.md) | 1 |
+| [bbugyi200.athena.sase-ku.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ku.9.md) | [sase-ku.9](sase-ku.9.md) | 1 |
+| [bbugyi200.athena.sase-ku.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.land/README.md) | [sase-ku](README.md) | 1 |
 
 ## Commits
 
@@ -126,3 +136,4 @@ flowchart TD
 | sase | [`df17a07`](https://github.com/sase-org/sase/commit/df17a078a430834d5113051d1712e54b139d97fd) | fix(monitor): close fidelity gaps between monitor output and reality | [sase-ku.8](sase-ku.8.md) | 2026-08-13 11:38:56 EDT |
 | sase | [`29cb792`](https://github.com/sase-org/sase/commit/29cb7924a87d8b2a2ece3c253acd7b6b631bf8b7) | fix(monitor): reconcile dead monitor supervisors | [sase-ku.5](sase-ku.5.md) | 2026-08-13 12:53:11 EDT |
 | sase | [`a7433cf`](https://github.com/sase-org/sase/commit/a7433cfe70a450efeba5bb7a056be586ef978ef4) | fix(monitor): document hardened supervision behavior | [sase-ku.9](sase-ku.9.md) | 2026-08-13 13:16:31 EDT |
+| sase--plans | [`sase--plans@89fc342`](https://github.com/sase-org/sase--plans/commit/89fc34293d2a13e8cf2a2e6b3f3e6831bdd7fcb4) | chore: mark the monitor hardening epic plan done | [sase-ku](README.md) | 2026-08-13 19:24:16 EDT |
