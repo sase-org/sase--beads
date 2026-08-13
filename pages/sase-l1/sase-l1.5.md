@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zo](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zo.md) · **Assignee:** `sase-l1.5` · **Size:** small
 **Created:** 2026-08-13 13:38:41 EDT
-**Plan:** plan:202608/monitor\_supervisor\_survival.md
+**Plan:** [202608/monitor\_supervisor\_survival.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_supervisor_survival.md)
 
 ## Description
 
@@ -13,7 +13,7 @@ visibility: surface dead-on-arrival supervisors and follow-up launch failures in
 
 ## Dependencies
 
-- **Depends on:** [sase-l1.4](sase-l1.4.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l1.4](sase-l1.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zo](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zo.md) · **Assignee:** `sase-l1.1` · **Size:** medium
 **Created:** 2026-08-13 13:37:39 EDT · **Closed:** 2026-08-13 14:12:37 EDT
-**Plan:** plan:202608/monitor\_supervisor\_survival.md
+**Plan:** [202608/monitor\_supervisor\_survival.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_supervisor_survival.md)
 
 ## Description
 

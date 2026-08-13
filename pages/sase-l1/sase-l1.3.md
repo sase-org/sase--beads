@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zo](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zo.md) · **Assignee:** `sase-l1.3` · **Size:** small
 **Created:** 2026-08-13 13:38:19 EDT · **Closed:** 2026-08-13 14:10:01 EDT
-**Plan:** plan:202608/monitor\_supervisor\_survival.md
+**Plan:** [202608/monitor\_supervisor\_survival.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_supervisor_survival.md)
 
 ## Description
 
@@ -19,7 +19,7 @@ claim: make the stale-RUNNING sweeper reconcile a monitor before releasing its `
 
 ## Dependencies
 
-- **Blocks:** [sase-l1.4](sase-l1.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l1.4](sase-l1.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
