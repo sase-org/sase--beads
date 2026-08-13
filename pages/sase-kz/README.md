@@ -11,6 +11,14 @@
 
 Expanding a snippet while another snippet's tabstops are still pending suspends the outer snippet instead of destroying it: the nested snippet's tabstops are visited first, and once they are exhausted `Tab` resumes the enclosing snippet at the stop after the one that was nested into. Tabstop anchors survive arbitrary editing because they are remapped from real document deltas, `Shift+Tab` steps backwards through the visited stops, and the whole session state machine lives in the Rust core so any future frontend gets the same behavior.
 
+## Notes
+
+[2026-08-13T19:15:45Z · sase-l2.land] DISCOVERED ISSUE: Proposed by sase-l2.2 during epic sase-l2 landing. Current SASE master still declares sase-core-rs>=0.26.6,<0.27.0 and uv.lock resolves 0.26.6, but tools/validate_sase_core_rs requires apply_snippet_session_event, first available in released v0.26.10; just check's advisory core-floor probe reports stale_actionable. This is causally owned by sase-kz, whose phase sase-kz.8 explicitly includes raising the core version pin once the release lands.
+
+[2026-08-13T19:16:13Z · sase-l2.land] DISCOVERED ISSUE: Proposed by sase-l2.3 during epic sase-l2 landing. Justfile still passes --epic-symbol sase-kz.5(apply_snippet_session_event) even though phase sase-kz.5 is closed, so just symvision rejects the stale phase-scoped exemption before tests run. The parent epic remains active and phase sase-kz.8 owns the related core pin/landing cleanup; remove or retarget the exemption and resolve any underlying symbol finding before sase-kz closes.
+
+[2026-08-13T19:16:29Z · sase-l2.land] DISCOVERED ISSUE: Proposed by sase-l2.3 during epic sase-l2 landing. Justfile still passes --epic-symbol sase-kz.5(apply_snippet_session_event) even though phase sase-kz.5 is closed, so just symvision rejects the stale phase-scoped exemption before tests run. The parent epic remains active and phase sase-kz.8 owns the related core pin/landing cleanup; remove or retarget the exemption and resolve any underlying symbol finding before sase-kz closes.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -21,7 +29,7 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 | [sase-kz.4](sase-kz.4.md) | Python facade for the snippet session engine | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-kz.5](sase-kz.5.md) | Rewrite the prompt widget snippet mixin over the session engine | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-kz.6](sase-kz.6.md) | Nest-vs-reset policy for every non-trigger expansion caller | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
-| [sase-kz.7](sase-kz.7.md) | Shift+Tab backward tabstop navigation | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [sase-kz.7](sase-kz.7.md) | Shift+Tab backward tabstop navigation | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-kz.8](sase-kz.8.md) | Documentation and core version pin | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +43,7 @@ flowchart TD
     n4["sase-kz.4: Python facade for the snippet session engine [closed]"]
     n5["sase-kz.5: Rewrite the prompt widget snippet mixin over the session engine [closed]"]
     n6["sase-kz.6: Nest-vs-reset policy for every non-trigger expansion caller [in_progress]"]
-    n7["sase-kz.7: Shift+Tab backward tabstop navigation [in_progress]"]
+    n7["sase-kz.7: Shift+Tab backward tabstop navigation [closed]"]
     n8["sase-kz.8: Documentation and core version pin [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -65,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.4/README.md) | [sase-kz.4](sase-kz.4.md) | 1 |
 | [bbugyi200.athena.sase-kz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.5/README.md) | [sase-kz.5](sase-kz.5.md) | 1 |
 | [bbugyi200.athena.sase-kz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.6/README.md) | [sase-kz.6](sase-kz.6.md) | 0 |
-| [bbugyi200.athena.sase-kz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.7/README.md) | [sase-kz.7](sase-kz.7.md) | 0 |
+| [bbugyi200.athena.sase-kz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.7/README.md) | [sase-kz.7](sase-kz.7.md) | 1 |
 | [bbugyi200.athena.sase-kz.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.8/README.md) | [sase-kz.8](sase-kz.8.md) | 0 |
 | [bbugyi200.athena.sase-kz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.land/README.md) | [sase-kz](README.md) | 0 |
 
@@ -78,3 +86,4 @@ flowchart TD
 | sase-core | [`sase-core@0a8eeea`](https://github.com/sase-org/sase-core/commit/0a8eeea99d6f2360729fad4354383a5d6dc3b847) | feat(snippet-session): dispatch session events and bind to Python | [sase-kz.3](sase-kz.3.md) | 2026-08-13 13:25:59 EDT |
 | sase | [`6d21fbb`](https://github.com/sase-org/sase/commit/6d21fbbef36aaaa19b7e2c069f2bb69b7ea7bbd0) | feat(core): add snippet session facade | [sase-kz.4](sase-kz.4.md) | 2026-08-13 13:51:14 EDT |
 | sase | [`16dc502`](https://github.com/sase-org/sase/commit/16dc502695d4b6025fbc4e034611ea266e38f6bf) | feat(ace): rewrite prompt snippet mixin over the facade-backed session engine | [sase-kz.5](sase-kz.5.md) | 2026-08-13 15:02:18 EDT |
+| sase | [`1004f9e`](https://github.com/sase-org/sase/commit/1004f9eb33d6401374e837f068ebef0260eec0e5) | feat(ace): retreat through visited snippet tabstops with Shift+Tab | [sase-kz.7](sase-kz.7.md) | 2026-08-13 15:20:41 EDT |

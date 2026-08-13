@@ -23,7 +23,7 @@ widget_engine: replace the from-doc-end tabstop queue with the facade-backed ses
 
 - **Depends on:** [sase-kz.4](sase-kz.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-kz.6](sase-kz.6.md) ◐ · ⧖ 2026-08-13
-- **Blocks:** [sase-kz.7](sase-kz.7.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.7](sase-kz.7.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

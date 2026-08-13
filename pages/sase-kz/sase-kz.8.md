@@ -14,7 +14,7 @@ docs_pin: document nested sessions and backward navigation in the ACE and editor
 ## Dependencies
 
 - **Depends on:** [sase-kz.6](sase-kz.6.md) ◐ · ⧖ 2026-08-13
-- **Depends on:** [sase-kz.7](sase-kz.7.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-kz.7](sase-kz.7.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
