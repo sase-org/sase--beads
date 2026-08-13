@@ -20,7 +20,7 @@ core_binding: expose the session state machine to Python as a single wire-shaped
 ## Dependencies
 
 - **Depends on:** [sase-kz.2](sase-kz.2.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-kz.4](sase-kz.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.4](sase-kz.4.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
