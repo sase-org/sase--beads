@@ -35,4 +35,4 @@ wire: generalize the Claude stream-json parser into a provider-parameterized Ant
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`ad4ae62`](https://github.com/sase-org/sase/commit/ad4ae62aef705022872998254613c72e068a6d43) | feat(llm-provider): add provider-neutral messages parser | [sase-l3.1](sase-l3.1.md) | 2026-08-13 15:23:41 EDT |
+| sase--beads | [`sase--beads@db722fb`](https://github.com/sase-org/sase--beads/commit/db722fbec1a17d7e613e1649ac22fd6179664ffc) | chore(beads): publish sase-l6 plan records | [sase-l3.1](sase-l3.1.md) | 2026-08-13 15:31:38 EDT |
