@@ -15,7 +15,7 @@ land: re-measure the full budget against the trace phase baseline in a real term
 
 - **Depends on:** [sase-l6.1](sase-l6.1.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-l6.2](sase-l6.2.md) ✓ · ⧖ 2026-08-13
-- **Depends on:** [sase-l6.3](sase-l6.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l6.3](sase-l6.3.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-l6.4](sase-l6.4.md) ◐ · ⧖ 2026-08-13
 - **Depends on:** [sase-l6.5](sase-l6.5.md) ◐ · ⧖ 2026-08-13
 

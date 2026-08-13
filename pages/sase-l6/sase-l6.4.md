@@ -13,7 +13,7 @@ stream: resolve lanes cheapest-first and merge/publish each one as it lands so t
 
 ## Dependencies
 
-- **Depends on:** [sase-l6.3](sase-l6.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l6.3](sase-l6.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.5](sase-l6.5.md) ◐ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.6](sase-l6.6.md) ◐ · ⧖ 2026-08-13
 
