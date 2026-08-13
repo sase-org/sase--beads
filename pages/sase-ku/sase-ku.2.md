@@ -17,6 +17,8 @@ stream: replace the blocking line-oriented `readline()` loop with a pipe-backed 
 
 [2026-08-13T13:28:13Z · sase-ku.2] Implemented pipe-backed monitor stream loop and rotation-aware readers. Verified focused pytest suite: tests/logs/test_pipe.py, task log bounds/tail tests, tests/monitor/test_monitor_output.py, tests/monitor/test_monitor_supervise.py, tests/main/test_monitor_handler_show.py, tests/agent/test_artifact_files_cache.py. just check passed fmt/ruff/mypy/test-waits/changelog and failed only the pre-existing patch/stitch terminology audit noted as PROPOSED FOLLOW-UP.
 
+[2026-08-13T13:29:53Z · sase-ku.2] focused monitor/log tests passed; just check passed through fmt, ruff, mypy, test-waits, and changelog gates, then failed on pre-existing patch/stitch terminology audit entries recorded as PROPOSED FOLLOW-UP
+
 ## Dependencies
 
 - **Blocks:** [sase-ku.3](sase-ku.3.md) ◐ · ⧖ 2026-08-13
@@ -27,4 +29,10 @@ stream: replace the blocking line-oriented `readline()` loop with a pipe-backed 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 0 |
+| [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`afa8178`](https://github.com/sase-org/sase/commit/afa8178ceec76e7fbbe94110c3af9ed4b7ba6d39) | fix(monitor): decouple supervisor waits from output reads | [sase-ku.2](sase-ku.2.md) | 2026-08-13 09:31:19 EDT |

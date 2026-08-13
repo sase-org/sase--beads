@@ -15,9 +15,9 @@ The monitor supervisor survives every command shape a real build throws at it �
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-ku.1](sase-ku.1.md) | Monitor supervision fields on the agent scan wire | ✓ closed | small | 2026-08-13 | 1 | 1 |
+| [sase-ku.1](sase-ku.1.md) | Monitor supervision fields on the agent scan wire | ✓ closed | small | 2026-08-13 | 1 | 2 |
 | [sase-ku.10](sase-ku.10.md) | End-to-end hardening exercises | ◐ in_progress | xsmall | 2026-08-13 | 1 | 0 |
-| [sase-ku.2](sase-ku.2.md) | Rebuild the supervisor's stream and wait loop | ✓ closed | medium | 2026-08-13 | 1 | 0 |
+| [sase-ku.2](sase-ku.2.md) | Rebuild the supervisor's stream and wait loop | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.3](sase-ku.3.md) | Durable process identity for the supervisor and its child | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-ku.4](sase-ku.4.md) | Transactional monitor start and settlement | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [sase-ku.5](sase-ku.5.md) | Active, complete reconciliation of dead supervisors | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
@@ -71,9 +71,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ku.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.1/README.md) | [sase-ku.1](sase-ku.1.md) | 1 |
+| [bbugyi200.athena.sase-ku.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.1/README.md) | [sase-ku.1](sase-ku.1.md) | 2 |
 | [bbugyi200.athena.sase-ku.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.10/README.md) | [sase-ku.10](sase-ku.10.md) | 0 |
-| [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 0 |
+| [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 1 |
 | [bbugyi200.athena.sase-ku.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.3/README.md) | [sase-ku.3](sase-ku.3.md) | 0 |
 | [bbugyi200.athena.sase-ku.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.4/README.md) | [sase-ku.4](sase-ku.4.md) | 0 |
 | [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 0 |
@@ -88,3 +88,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@87e4a4f`](https://github.com/sase-org/sase-core/commit/87e4a4f455192dd1f930925e2d46a67caacd25c0) | feat(agent-scan): add monitor supervision fields to the agent scan wire | [sase-ku.1](sase-ku.1.md) | 2026-08-13 09:30:37 EDT |
+| sase | [`afa8178`](https://github.com/sase-org/sase/commit/afa8178ceec76e7fbbe94110c3af9ed4b7ba6d39) | fix(monitor): decouple supervisor waits from output reads | [sase-ku.2](sase-ku.2.md) | 2026-08-13 09:31:19 EDT |
+| sase | [`dc9da55`](https://github.com/sase-org/sase/commit/dc9da557631a7ecb8e16dc5ebefd24cc1f0fda4c) | feat(agent-scan): mirror monitor supervision fields on the Python wire | [sase-ku.1](sase-ku.1.md) | 2026-08-13 09:31:37 EDT |
