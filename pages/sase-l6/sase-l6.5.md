@@ -13,7 +13,7 @@ immediate: render the in-memory commit rows and any already-cached lanes on the 
 
 ## Dependencies
 
-- **Depends on:** [sase-l6.4](sase-l6.4.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l6.4](sase-l6.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.6](sase-l6.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

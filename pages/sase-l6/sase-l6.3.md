@@ -22,7 +22,7 @@ Verification: mypy clean on all 7 changed/added files. ruff check + ruff format 
 ## Dependencies
 
 - **Depends on:** [sase-l6.1](sase-l6.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l6.4](sase-l6.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l6.4](sase-l6.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.6](sase-l6.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

@@ -18,7 +18,7 @@ The SASE CONTEXT section in the Agents metadata panel shows commit context on th
 | [sase-l6.1](sase-l6.1.md) | Per-lane enrichment telemetry | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l6.2](sase-l6.2.md) | One parse per store change, not per agent | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-l6.3](sase-l6.3.md) | Per-lane resolution, caching, and freshness | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-l6.4](sase-l6.4.md) | Publish and render lanes as they resolve | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-l6.4](sase-l6.4.md) | Publish and render lanes as they resolve | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-l6.5](sase-l6.5.md) | Zero-I/O context on the first paint | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-l6.6](sase-l6.6.md) | Land the epic | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
@@ -30,7 +30,7 @@ flowchart TD
     n1["sase-l6.1: Per-lane enrichment telemetry [closed]"]
     n2["sase-l6.2: One parse per store change, not per agent [closed]"]
     n3["sase-l6.3: Per-lane resolution, caching, and freshness [closed]"]
-    n4["sase-l6.4: Publish and render lanes as they resolve [in_progress]"]
+    n4["sase-l6.4: Publish and render lanes as they resolve [closed]"]
     n5["sase-l6.5: Zero-I/O context on the first paint [in_progress]"]
     n6["sase-l6.6: Land the epic [in_progress]"]
     n0 --> n1
@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.1/README.md) | [sase-l6.1](sase-l6.1.md) | 1 |
 | [bbugyi200.athena.sase-l6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.2/README.md) | [sase-l6.2](sase-l6.2.md) | 1 |
 | [bbugyi200.athena.sase-l6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.3/README.md) | [sase-l6.3](sase-l6.3.md) | 1 |
-| [bbugyi200.athena.sase-l6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.4/README.md) | [sase-l6.4](sase-l6.4.md) | 0 |
+| [bbugyi200.athena.sase-l6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.4/README.md) | [sase-l6.4](sase-l6.4.md) | 1 |
 | [bbugyi200.athena.sase-l6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.5/README.md) | [sase-l6.5](sase-l6.5.md) | 0 |
 | [bbugyi200.athena.sase-l6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.6/README.md) | [sase-l6.6](sase-l6.6.md) | 0 |
 | [bbugyi200.athena.sase-l6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.land/README.md) | [sase-l6](README.md) | 0 |
@@ -69,3 +69,4 @@ flowchart TD
 | sase | [`15cdba4`](https://github.com/sase-org/sase/commit/15cdba4aa619b0367d50a68c45efbe0761f600d3) | feat(ace): add per-lane trace spans for detail-header enrichment | [sase-l6.1](sase-l6.1.md) | 2026-08-13 16:02:19 EDT |
 | sase | [`093088a`](https://github.com/sase-org/sase/commit/093088abb9ed95e592b190778f420d654374b1b8) | perf: cache shared store snapshots | [sase-l6.2](sase-l6.2.md) | 2026-08-13 16:23:25 EDT |
 | sase | [`932277b`](https://github.com/sase-org/sase/commit/932277b2691a35c3f2a5dee2257b205679585d13) | refactor(ace): split detail-header summary into per-lane resolution and caching | [sase-l6.3](sase-l6.3.md) | 2026-08-13 16:55:01 EDT |
+| sase | [`4ff3a41`](https://github.com/sase-org/sase/commit/4ff3a41619fa3e9d1b075cb363e0b020cbdf6b4a) | feat(ace): stream SASE CONTEXT lanes cheapest-first as they resolve | [sase-l6.4](sase-l6.4.md) | 2026-08-13 18:15:52 EDT |
