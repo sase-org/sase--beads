@@ -13,7 +13,7 @@ fidelity: print the start summary before the handoff kill, write `monitor_output
 
 ## Dependencies
 
-- **Depends on:** [sase-ku.4](sase-ku.4.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-ku.4](sase-ku.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-ku.9](sase-ku.9.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

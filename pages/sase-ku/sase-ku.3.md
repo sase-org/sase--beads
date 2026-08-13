@@ -21,7 +21,7 @@ identity: persist the monitored command's pgid and a boot-id/start-ticks identit
 
 - **Depends on:** [sase-ku.1](sase-ku.1.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-ku.2](sase-ku.2.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-ku.4](sase-ku.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ku.4](sase-ku.4.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
