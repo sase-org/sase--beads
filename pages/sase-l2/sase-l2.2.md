@@ -24,7 +24,7 @@ host-wiring: update SASE's linked-repository configuration, provider provenance 
 ## Dependencies
 
 - **Depends on:** [sase-l2.1](sase-l2.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l2.3](sase-l2.3.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l2.3](sase-l2.3.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
