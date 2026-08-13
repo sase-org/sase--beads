@@ -17,7 +17,7 @@ exercises: drive a real agent-started monitor on every supported runtime and rep
 - **Depends on:** [sase-l1.2](sase-l1.2.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-l1.3](sase-l1.3.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-l1.4](sase-l1.4.md) ✓ · ⧖ 2026-08-13
-- **Depends on:** [sase-l1.5](sase-l1.5.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l1.5](sase-l1.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
