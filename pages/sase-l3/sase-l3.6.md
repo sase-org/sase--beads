@@ -22,7 +22,7 @@ skills: verify SASE skills deploy to and load from `~/.grok/skills/`, confirm th
 ## Dependencies
 
 - **Depends on:** [sase-l3.3](sase-l3.3.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l3.7](sase-l3.7.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l3.7](sase-l3.7.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

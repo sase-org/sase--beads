@@ -27,7 +27,7 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 | [sase-l3.4](sase-l3.4.md) | Doctor, inventory, and binary-collision safety | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l3.5](sase-l3.5.md) | Badge, palette, and model-surface polish | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l3.6](sase-l3.6.md) | Skill deployment and instruction files | ✓ closed | small | 2026-08-13 | 1 | 1 |
-| [sase-l3.7](sase-l3.7.md) | Documentation sweep | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-l3.7](sase-l3.7.md) | Documentation sweep | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-l3.8](sase-l3.8.md) | Authenticated end-to-end smoke exercises | ◐ in_progress | xsmall | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n4["sase-l3.4: Doctor, inventory, and binary-collision safety [closed]"]
     n5["sase-l3.5: Badge, palette, and model-surface polish [closed]"]
     n6["sase-l3.6: Skill deployment and instruction files [closed]"]
-    n7["sase-l3.7: Documentation sweep [in_progress]"]
+    n7["sase-l3.7: Documentation sweep [closed]"]
     n8["sase-l3.8: Authenticated end-to-end smoke exercises [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.4/README.md) | [sase-l3.4](sase-l3.4.md) | 1 |
 | [bbugyi200.athena.sase-l3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.5/README.md) | [sase-l3.5](sase-l3.5.md) | 1 |
 | [bbugyi200.athena.sase-l3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.6/README.md) | [sase-l3.6](sase-l3.6.md) | 1 |
-| [bbugyi200.athena.sase-l3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.7/README.md) | [sase-l3.7](sase-l3.7.md) | 0 |
+| [bbugyi200.athena.sase-l3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.7/README.md) | [sase-l3.7](sase-l3.7.md) | 1 |
 | [bbugyi200.athena.sase-l3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.8/README.md) | [sase-l3.8](sase-l3.8.md) | 0 |
 | [bbugyi200.athena.sase-l3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.land/README.md) | [sase-l3](README.md) | 0 |
 
@@ -87,3 +87,4 @@ flowchart TD
 | sase | [`fbcf643`](https://github.com/sase-org/sase/commit/fbcf64399ee06d516bc4298a22afe71956595bf0) | fix(doctor): flag grok executables that aren't Grok Build | [sase-l3.4](sase-l3.4.md) | 2026-08-13 17:53:42 EDT |
 | sase | [`c1b2724`](https://github.com/sase-org/sase/commit/c1b2724a1fc46e264f1900395b2023644eb40552) | test: cover Grok skill deployment | [sase-l3.6](sase-l3.6.md) | 2026-08-13 18:06:36 EDT |
 | sase | [`d9c685e`](https://github.com/sase-org/sase/commit/d9c685e86b808e481bb826e24ac7f0f27e91baa0) | feat: polish Grok provider presentation | [sase-l3.5](sase-l3.5.md) | 2026-08-13 18:17:52 EDT |
+| sase | [`aea9bf6`](https://github.com/sase-org/sase/commit/aea9bf645a8e6e1fc7ccff57253f31068eb9f01a) | docs: add Grok Build coverage across provider documentation | [sase-l3.7](sase-l3.7.md) | 2026-08-13 18:42:15 EDT |

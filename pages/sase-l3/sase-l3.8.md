@@ -13,7 +13,7 @@ smoke: launch real SASE agents on the grok provider to confirm text, reasoning, 
 
 ## Dependencies
 
-- **Depends on:** [sase-l3.7](sase-l3.7.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l3.7](sase-l3.7.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
