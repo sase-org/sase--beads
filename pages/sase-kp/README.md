@@ -23,7 +23,7 @@ Agents can hand a slow command (`just check-full`, a CI wait, `sase bead work`) 
 | [sase-kp.3](sase-kp.3.md) | Monitor member lifecycle and supervisor process | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.4](sase-kp.4.md) | Follow-up agent handoff after a monitor completes | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.5](sase-kp.5.md) | In-agent handoff marker and runner adoption | ✓ closed | medium | 2026-08-12 | 1 | 1 |
-| [sase-kp.6](sase-kp.6.md) | sase monitor command group | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
+| [sase-kp.6](sase-kp.6.md) | sase monitor command group | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.7](sase-kp.7.md) | Monitor rows in agent lists and family rosters | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.8](sase-kp.8.md) | Monitor detail panel, live output, and keybindings | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
 | [sase-kp.9](sase-kp.9.md) | Approved-epic launch runs as a monitor | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
@@ -41,7 +41,7 @@ flowchart TD
     n6["sase-kp.3: Monitor member lifecycle and supervisor process [closed]"]
     n7["sase-kp.4: Follow-up agent handoff after a monitor completes [closed]"]
     n8["sase-kp.5: In-agent handoff marker and runner adoption [closed]"]
-    n9["sase-kp.6: sase monitor command group [in_progress]"]
+    n9["sase-kp.6: sase monitor command group [closed]"]
     n10["sase-kp.7: Monitor rows in agent lists and family rosters [closed]"]
     n11["sase-kp.8: Monitor detail panel, live output, and keybindings [in_progress]"]
     n12["sase-kp.9: Approved-epic launch runs as a monitor [in_progress]"]
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.3/README.md) | [sase-kp.3](sase-kp.3.md) | 1 |
 | [bbugyi200.athena.sase-kp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.4/README.md) | [sase-kp.4](sase-kp.4.md) | 1 |
 | [bbugyi200.athena.sase-kp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.5/README.md) | [sase-kp.5](sase-kp.5.md) | 1 |
-| [bbugyi200.athena.sase-kp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.6/README.md) | [sase-kp.6](sase-kp.6.md) | 0 |
+| [bbugyi200.athena.sase-kp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.6/README.md) | [sase-kp.6](sase-kp.6.md) | 1 |
 | [bbugyi200.athena.sase-kp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.7/README.md) | [sase-kp.7](sase-kp.7.md) | 1 |
 | [bbugyi200.athena.sase-kp.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.8/README.md) | [sase-kp.8](sase-kp.8.md) | 0 |
 | [bbugyi200.athena.sase-kp.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.9/README.md) | [sase-kp.9](sase-kp.9.md) | 0 |
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`2aff0a0`](https://github.com/sase-org/sase/commit/2aff0a03e6b7d4c6e0a5579993867da30cc327aa) | feat: adopt monitor handoffs in agent runner | [sase-kp.5](sase-kp.5.md) | 2026-08-12 19:44:17 EDT |
 | sase | [`10d3527`](https://github.com/sase-org/sase/commit/10d3527dd5c0fb103a2a49594f51a19bf0a5d771) | feat(monitor): launch follow-up agent after monitor completion | [sase-kp.4](sase-kp.4.md) | 2026-08-12 19:57:30 EDT |
 | sase | [`1d3b20f`](https://github.com/sase-org/sase/commit/1d3b20fad227be8a6631ac58826c51caa3989969) | feat(tui): show monitor rows in agent rosters | [sase-kp.7](sase-kp.7.md) | 2026-08-12 20:01:17 EDT |
+| sase | [`8340b45`](https://github.com/sase-org/sase/commit/8340b457af2d9b6f3f8348bdf8057ab41077c9ef) | feat(monitor): add sase monitor start\|stop\|list\|show CLI | [sase-kp.6](sase-kp.6.md) | 2026-08-13 06:36:37 EDT |

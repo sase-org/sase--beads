@@ -14,7 +14,7 @@ skill: author the `/sase_monitor` skill source so agents prefer it over their ow
 ## Dependencies
 
 - **Blocks:** [sase-kp.11](sase-kp.11.md) ◐ · ⧖ 2026-08-12
-- **Depends on:** [sase-kp.6](sase-kp.6.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.6](sase-kp.6.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

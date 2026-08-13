@@ -14,7 +14,7 @@ epic-launch: replace the detached epic-launch task with a generic monitor start 
 ## Dependencies
 
 - **Blocks:** [sase-kp.12](sase-kp.12.md) ◐ · ⧖ 2026-08-12
-- **Depends on:** [sase-kp.6](sase-kp.6.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.6](sase-kp.6.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
