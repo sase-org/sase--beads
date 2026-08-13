@@ -13,7 +13,7 @@ identity: wire Grok into `sase doctor` and `sase agent-cli` install/update/versi
 
 ## Dependencies
 
-- **Depends on:** [sase-l3.3](sase-l3.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l3.3](sase-l3.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l3.7](sase-l3.7.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

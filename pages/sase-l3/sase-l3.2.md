@@ -20,7 +20,7 @@ tools: add `_tool_call_grok.py` mapping Grok's snake_case tool names and JSON-st
 ## Dependencies
 
 - **Depends on:** [sase-l3.1](sase-l3.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l3.3](sase-l3.3.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l3.3](sase-l3.3.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
