@@ -15,7 +15,7 @@ docs: document Grok Build across the provider, configuration, install, and LLM r
 
 - **Depends on:** [sase-l3.4](sase-l3.4.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-l3.5](sase-l3.5.md) ◐ · ⧖ 2026-08-13
-- **Depends on:** [sase-l3.6](sase-l3.6.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l3.6](sase-l3.6.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l3.8](sase-l3.8.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
