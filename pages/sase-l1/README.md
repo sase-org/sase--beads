@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.4/README.md) | [sase-l1.4](sase-l1.4.md) | 1 |
 | [bbugyi200.athena.sase-l1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.5/README.md) | [sase-l1.5](sase-l1.5.md) | 2 |
 | [bbugyi200.athena.sase-l1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-l1.6.md) | [sase-l1.6](sase-l1.6.md) | 0 |
-| [bbugyi200.athena.sase-l1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.land/README.md) | [sase-l1](README.md) | 1 |
+| [bbugyi200.athena.sase-l1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l1.land/README.md) | [sase-l1](README.md) | 2 |
 
 ## Commits
 
@@ -105,3 +105,4 @@ flowchart TD
 | sase-core | [`sase-core@cac5d34`](https://github.com/sase-org/sase-core/commit/cac5d349baba318206a51162c3b1cd50128fa8fe) | feat(agent\_scan): carry monitor follow-up disposition in scan wire | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:39:51 EDT |
 | sase | [`1b7ce61`](https://github.com/sase-org/sase/commit/1b7ce6194e9ff4ceaae5f1fb55575a1acca7e3ed) | feat(monitor): surface dropped follow-ups and dead monitors without done.json | [sase-l1.5](sase-l1.5.md) | 2026-08-13 15:40:51 EDT |
 | sase | [`153e2a1`](https://github.com/sase-org/sase/commit/153e2a137524837bc7ac3d83a632a6afa8f61045) | fix(monitor): flag a degraded follow-up as a stalled lane | [sase-l1](README.md) | 2026-08-13 19:17:48 EDT |
+| sase--plans | [`sase--plans@a479f73`](https://github.com/sase-org/sase--plans/commit/a479f73d8622346be9b63064077505dd05e265a2) | chore: mark the monitor supervisor survival epic plan done | [sase-l1](README.md) | 2026-08-13 19:18:45 EDT |
