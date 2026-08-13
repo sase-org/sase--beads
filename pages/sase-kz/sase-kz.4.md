@@ -13,7 +13,7 @@ py_facade: add a validated Python facade over the new binding, register the bind
 
 ## Dependencies
 
-- **Depends on:** [sase-kz.3](sase-kz.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-kz.3](sase-kz.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-kz.5](sase-kz.5.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

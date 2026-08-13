@@ -18,7 +18,7 @@ core_session: add the pure session state machine over a flat ordered stop list �
 ## Dependencies
 
 - **Depends on:** [sase-kz.1](sase-kz.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-kz.3](sase-kz.3.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.3](sase-kz.3.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
