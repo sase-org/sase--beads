@@ -13,7 +13,7 @@ memory-docs: update the build-and-run memory note, regenerate agent instruction 
 
 ## Dependencies
 
-- **Depends on:** [sase-kp.10](sase-kp.10.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.10](sase-kp.10.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.12](sase-kp.12.md) ◐ · ⧖ 2026-08-12
 
 ## Agents

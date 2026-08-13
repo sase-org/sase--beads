@@ -25,7 +25,7 @@ cli: add `sase monitor start|stop|list|show` with multi-format output, duration 
 
 ## Dependencies
 
-- **Blocks:** [sase-kp.10](sase-kp.10.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-kp.10](sase-kp.10.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-kp.4](sase-kp.4.md) ✓ · ⧖ 2026-08-12
 - **Depends on:** [sase-kp.5](sase-kp.5.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.8](sase-kp.8.md) ◐ · ⧖ 2026-08-12
