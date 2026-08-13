@@ -20,7 +20,7 @@ wire: add a required `icon` string to the Rust `ArtifactRefProviderRefSpecWire`,
 ## Dependencies
 
 - **Blocks:** [sase-kv.3](sase-kv.3.md) ◐ · ⧖ 2026-08-13
-- **Blocks:** [sase-kv.4](sase-kv.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kv.4](sase-kv.4.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
