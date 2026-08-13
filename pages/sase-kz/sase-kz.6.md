@@ -20,7 +20,7 @@ call_sites: make each of the five non-trigger callers of the expansion entry poi
 ## Dependencies
 
 - **Depends on:** [sase-kz.5](sase-kz.5.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-kz.8](sase-kz.8.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.8](sase-kz.8.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

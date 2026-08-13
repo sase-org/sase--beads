@@ -18,7 +18,7 @@ back_nav: turn the consumed Shift+Tab no-op into a retreat through already-visit
 ## Dependencies
 
 - **Depends on:** [sase-kz.5](sase-kz.5.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-kz.8](sase-kz.8.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.8](sase-kz.8.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
