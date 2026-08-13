@@ -23,7 +23,7 @@ engine-run: create the monitor family member, run and stream the monitored comma
 - **Depends on:** [sase-kp.2](sase-kp.2.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.4](sase-kp.4.md) ✓ · ⧖ 2026-08-12
 - **Blocks:** [sase-kp.5](sase-kp.5.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-kp.7](sase-kp.7.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-kp.7](sase-kp.7.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

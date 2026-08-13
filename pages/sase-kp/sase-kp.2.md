@@ -22,7 +22,7 @@ status-bucket: give `Agent` an explicit status-bucket override and route agent-s
 ## Dependencies
 
 - **Blocks:** [sase-kp.3](sase-kp.3.md) ✓ · ⧖ 2026-08-12
-- **Blocks:** [sase-kp.7](sase-kp.7.md) ◐ · ⧖ 2026-08-12
+- **Blocks:** [sase-kp.7](sase-kp.7.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

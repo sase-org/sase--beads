@@ -15,7 +15,7 @@ tui-detail: render the monitor detail section and live command output, and wire 
 
 - **Blocks:** [sase-kp.12](sase-kp.12.md) ◐ · ⧖ 2026-08-12
 - **Depends on:** [sase-kp.6](sase-kp.6.md) ◐ · ⧖ 2026-08-12
-- **Depends on:** [sase-kp.7](sase-kp.7.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.7](sase-kp.7.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 

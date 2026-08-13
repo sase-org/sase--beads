@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-kp](README.md) / sase-kp.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.yy](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.yy/README.md) · **Assignee:** `sase-kp.7` · **Size:** medium
-**Created:** 2026-08-12 17:29:33 EDT
+**Created:** 2026-08-12 17:29:33 EDT · **Closed:** 2026-08-12 19:59:02 EDT
 **Plan:** [202608/sase\_monitor.md](https://github.com/sase-org/sase--plans/blob/main/202608/sase_monitor.md)
 
 ## Description
@@ -17,6 +17,10 @@ tui-rows: render monitor members in the Agents tab, family roster, and integrati
 
 [2026-08-12T23:54:56Z · sase-kp.7] PROPOSED FOLLOW-UP: investigate full-suite xdist flake around monitor claim release and questions-flow gate wait - just test-scoped escalated to full suite, failed tests/monitor/test_monitor_start.py::test_start_monitor_promotes_a_bare_lane_and_runs_to_completion, then hung in tests/test_axe_run_agent_helpers_questions.py::test_questions_flow_passes_agent_root_timestamp; both pass in isolation
 
+[2026-08-12T23:59:02Z · sase-kp.7] Implemented monitor row projection/rendering/count/integration metadata. Verified just install; just fmt; focused pytest monitor/list/mobile slice (15 passed); just check passes fmt/ruff/mypy/pyscripts/test-waits/changelog and is blocked only by pre-existing patch/stitch terminology audit findings in untouched validate_sase_core_rs files, recorded as PROPOSED FOLLOW-UP.
+
+[2026-08-13T00:00:29Z · sase-kp.7] Verified monitor-row projection/rendering/integration tests: focused monitor pytest slice passed; just fmt passed; just check passed through fmt/ruff/mypy and stopped on unrelated existing validate_sase_core_rs terminology audit already noted as follow-up.
+
 ## Dependencies
 
 - **Depends on:** [sase-kp.2](sase-kp.2.md) ✓ · ⧖ 2026-08-12
@@ -27,4 +31,10 @@ tui-rows: render monitor members in the Agents tab, family roster, and integrati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-kp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.7/README.md) | [sase-kp.7](sase-kp.7.md) | 0 |
+| [bbugyi200.athena.sase-kp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.7/README.md) | [sase-kp.7](sase-kp.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1d3b20f`](https://github.com/sase-org/sase/commit/1d3b20fad227be8a6631ac58826c51caa3989969) | feat(tui): show monitor rows in agent rosters | [sase-kp.7](sase-kp.7.md) | 2026-08-12 20:01:17 EDT |
