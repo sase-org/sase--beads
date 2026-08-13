@@ -17,7 +17,7 @@ Agents can hand a slow command (`just check-full`, a CI wait, `sase bead work`) 
 |---|---|---|---|---|---:|---:|
 | [sase-kp.1](sase-kp.1.md) | Monitor marker fields on the agent scan wire | ✓ closed | small | 2026-08-12 | 1 | 2 |
 | [sase-kp.10](sase-kp.10.md) | /sase\_monitor skill | ✓ closed | small | 2026-08-12 | 1 | 1 |
-| [sase-kp.11](sase-kp.11.md) | Memory and documentation updates | ◐ in_progress | small | 2026-08-12 | 1 | 0 |
+| [sase-kp.11](sase-kp.11.md) | Memory and documentation updates | ✓ closed | small | 2026-08-12 | 1 | 1 |
 | [sase-kp.12](sase-kp.12.md) | End-to-end monitor exercises | ◐ in_progress | xsmall | 2026-08-12 | 1 | 0 |
 | [sase-kp.2](sase-kp.2.md) | First-class custom agent status labels | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.3](sase-kp.3.md) | Monitor member lifecycle and supervisor process | ✓ closed | medium | 2026-08-12 | 1 | 1 |
@@ -35,7 +35,7 @@ flowchart TD
     n0["sase-kp: sase monitor — long-running commands as first-class agent family members [in_progress]"]
     n1["sase-kp.1: Monitor marker fields on the agent scan wire [closed]"]
     n2["sase-kp.10: /sase_monitor skill [closed]"]
-    n3["sase-kp.11: Memory and documentation updates [in_progress]"]
+    n3["sase-kp.11: Memory and documentation updates [closed]"]
     n4["sase-kp.12: End-to-end monitor exercises [in_progress]"]
     n5["sase-kp.2: First-class custom agent status labels [closed]"]
     n6["sase-kp.3: Monitor member lifecycle and supervisor process [closed]"]
@@ -81,7 +81,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-kp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.1/README.md) | [sase-kp.1](sase-kp.1.md) | 2 |
 | [bbugyi200.athena.sase-kp.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.10/README.md) | [sase-kp.10](sase-kp.10.md) | 1 |
-| [bbugyi200.athena.sase-kp.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.11/README.md) | [sase-kp.11](sase-kp.11.md) | 0 |
+| [bbugyi200.athena.sase-kp.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.11/README.md) | [sase-kp.11](sase-kp.11.md) | 1 |
 | [bbugyi200.athena.sase-kp.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.12/README.md) | [sase-kp.12](sase-kp.12.md) | 0 |
 | [bbugyi200.athena.sase-kp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.2/README.md) | [sase-kp.2](sase-kp.2.md) | 1 |
 | [bbugyi200.athena.sase-kp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.3/README.md) | [sase-kp.3](sase-kp.3.md) | 1 |
@@ -107,3 +107,4 @@ flowchart TD
 | sase | [`8340b45`](https://github.com/sase-org/sase/commit/8340b457af2d9b6f3f8348bdf8057ab41077c9ef) | feat(monitor): add sase monitor start\|stop\|list\|show CLI | [sase-kp.6](sase-kp.6.md) | 2026-08-13 06:36:37 EDT |
 | sase | [`22319c5`](https://github.com/sase-org/sase/commit/22319c52d901f91b9c2d917c63f707e3562aa121) | docs: add sase monitor skill source | [sase-kp.10](sase-kp.10.md) | 2026-08-13 06:48:58 EDT |
 | sase | [`4479603`](https://github.com/sase-org/sase/commit/44796037a560316e1945b8a5e6d0482d61f15191) | feat(epic-launch): launch approved epics through monitors | [sase-kp.9](sase-kp.9.md) | 2026-08-13 07:05:01 EDT |
+| sase | [`73ec160`](https://github.com/sase-org/sase/commit/73ec160bbd1815f072b6cb14a1b34458b534fcb6) | docs(monitors): document sase monitor and cross-link the memory/docs surface | [sase-kp.11](sase-kp.11.md) | 2026-08-13 07:05:38 EDT |
