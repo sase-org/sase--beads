@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.8` · **Size:** small
 **Created:** 2026-08-13 12:29:12 EDT
-**Plan:** [202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
+**Plan:** 202608/nested\_snippet\_sessions.md
 
 ## Description
 

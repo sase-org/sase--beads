@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.land`
 **Created:** 2026-08-13 12:27:37 EDT
-**Plan:** [202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
+**Plan:** 202608/nested\_snippet\_sessions.md
 
 ## Description
 
@@ -16,7 +16,7 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-kz.1](sase-kz.1.md) | Rust snippet expansion planner | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-kz.2](sase-kz.2.md) | Rust nested snippet session state machine | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-kz.2](sase-kz.2.md) | Rust nested snippet session state machine | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-kz.3](sase-kz.3.md) | PyO3 binding and wire parity for the session engine | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-kz.4](sase-kz.4.md) | Python facade for the snippet session engine | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-kz.5](sase-kz.5.md) | Rewrite the prompt widget snippet mixin over the session engine | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
@@ -30,7 +30,7 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 flowchart TD
     n0["sase-kz: Nested snippet sessions in the prompt input widget [in_progress]"]
     n1["sase-kz.1: Rust snippet expansion planner [closed]"]
-    n2["sase-kz.2: Rust nested snippet session state machine [in_progress]"]
+    n2["sase-kz.2: Rust nested snippet session state machine [closed]"]
     n3["sase-kz.3: PyO3 binding and wire parity for the session engine [in_progress]"]
     n4["sase-kz.4: Python facade for the snippet session engine [in_progress]"]
     n5["sase-kz.5: Rewrite the prompt widget snippet mixin over the session engine [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-kz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.1/README.md) | [sase-kz.1](sase-kz.1.md) | 1 |
-| [bbugyi200.athena.sase-kz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.2/README.md) | [sase-kz.2](sase-kz.2.md) | 0 |
+| [bbugyi200.athena.sase-kz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.2/README.md) | [sase-kz.2](sase-kz.2.md) | 1 |
 | [bbugyi200.athena.sase-kz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.3/README.md) | [sase-kz.3](sase-kz.3.md) | 0 |
 | [bbugyi200.athena.sase-kz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.4/README.md) | [sase-kz.4](sase-kz.4.md) | 0 |
 | [bbugyi200.athena.sase-kz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.5/README.md) | [sase-kz.5](sase-kz.5.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d46bba3`](https://github.com/sase-org/sase-core/commit/d46bba314a349a6ffb3df55467b68c464c579e84) | feat: add Rust snippet expansion planner | [sase-kz.1](sase-kz.1.md) | 2026-08-13 12:51:09 EDT |
+| sase-core | [`sase-core@ca59ed9`](https://github.com/sase-org/sase-core/commit/ca59ed9b42159feeeaa12fe015d094c64179fedf) | feat(snippet-session): add nested snippet session state machine | [sase-kz.2](sase-kz.2.md) | 2026-08-13 13:11:51 EDT |

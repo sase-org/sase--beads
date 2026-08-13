@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.1` · **Size:** medium
 **Created:** 2026-08-13 12:27:53 EDT · **Closed:** 2026-08-13 12:42:21 EDT
-**Plan:** [202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
+**Plan:** 202608/nested\_snippet\_sessions.md
 
 ## Description
 
@@ -19,7 +19,7 @@ core_expansion: add a pure Rust expansion planner that turns a template plus its
 
 ## Dependencies
 
-- **Blocks:** [sase-kz.2](sase-kz.2.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-kz.2](sase-kz.2.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
