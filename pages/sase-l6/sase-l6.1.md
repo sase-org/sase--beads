@@ -49,7 +49,7 @@ Verification: just fmt, ruff check, mypy (clean on touched files); tests/ace/tui
 
 ## Dependencies
 
-- **Blocks:** [sase-l6.2](sase-l6.2.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l6.2](sase-l6.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.3](sase-l6.3.md) ◐ · ⧖ 2026-08-13
 - **Blocks:** [sase-l6.6](sase-l6.6.md) ◐ · ⧖ 2026-08-13
 
