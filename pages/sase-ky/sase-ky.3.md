@@ -11,6 +11,12 @@
 
 beads: add a prefix-only fast path to the design-ref repair planner so an alias-spelled reference is rewritten without needing its plan file on disk, then run the repair over this machine's bead store and commit the result.
 
+## Notes
+
+[2026-08-13T21:00:46Z · sase-ky.3] PROPOSED FOLLOW-UP: Remove stale Symvision epic-symbol whitelist for closed bead sase-kz.5 — just check currently fails before tests because Justfile still passes thirteen --epic-symbol entries for a closed phase bead.
+
+[2026-08-13T21:01:10Z · sase-ky.3] PROPOSED FOLLOW-UP: Add a batch design-ref repair apply path for differing per-bead design values — sase bead doctor --fix-design-refs migrated 456 event-backed design refs correctly but took about two hours on this machine because it calls update once per bead and flushes each event/projection change separately.
+
 ## Dependencies
 
 - **Depends on:** [sase-ky.2](sase-ky.2.md) ✓ · ⧖ 2026-08-13
@@ -20,10 +26,11 @@ beads: add a prefix-only fast path to the design-ref repair planner so an alias-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ky.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.3/README.md) | [sase-ky.3](sase-ky.3.md) | 1 |
+| [bbugyi200.athena.sase-ky.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.3/README.md) | [sase-ky.3](sase-ky.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--beads | [`sase--beads@7bf4316`](https://github.com/sase-org/sase--beads/commit/7bf43168ab31cda946e3b1cb63eac9f587d4102c) | chore(beads): migrate plan artifact refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 16:56:26 EDT |
+| sase | [`7240436`](https://github.com/sase-org/sase/commit/7240436e83016eabe711e37c64c029cc89fc56c8) | fix(beads): repair alias-spelled design refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 17:02:21 EDT |

@@ -21,8 +21,8 @@ The plans sidecar's document reference kind is spelled `plan` everywhere SASE wr
 |---|---|---|---|---|---:|---:|
 | [sase-ky.1](sase-ky.1.md) | Rename the SDD plan-reference grammar in sase-core | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ky.2](sase-ky.2.md) | Switch every Python plan-reference literal to plan | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-ky.3](sase-ky.3.md) | Migrate bead design references | ◐ in_progress | medium | 2026-08-13 | 1 | 1 |
-| [sase-ky.4](sase-ky.4.md) | Rewrite prose and remaining stored references | ✓ closed | medium | 2026-08-13 | 1 | 1 |
+| [sase-ky.3](sase-ky.3.md) | Migrate bead design references | ◐ in_progress | medium | 2026-08-13 | 1 | 2 |
+| [sase-ky.4](sase-ky.4.md) | Rewrite prose and remaining stored references | ✓ closed | medium | 2026-08-13 | 1 | 2 |
 | [sase-ky.5](sase-ky.5.md) | Verify and land the rename | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -53,8 +53,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-ky.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.1/README.md) | [sase-ky.1](sase-ky.1.md) | 1 |
 | [bbugyi200.athena.sase-ky.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.2/README.md) | [sase-ky.2](sase-ky.2.md) | 1 |
-| [bbugyi200.athena.sase-ky.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.3/README.md) | [sase-ky.3](sase-ky.3.md) | 1 |
-| [bbugyi200.athena.sase-ky.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.4/README.md) | [sase-ky.4](sase-ky.4.md) | 1 |
+| [bbugyi200.athena.sase-ky.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.3/README.md) | [sase-ky.3](sase-ky.3.md) | 2 |
+| [bbugyi200.athena.sase-ky.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.4/README.md) | [sase-ky.4](sase-ky.4.md) | 2 |
 | [bbugyi200.athena.sase-ky.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.5/README.md) | [sase-ky.5](sase-ky.5.md) | 0 |
 | [bbugyi200.athena.sase-ky.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.land/README.md) | [sase-ky](README.md) | 0 |
 
@@ -64,5 +64,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@f08e5ad`](https://github.com/sase-org/sase-core/commit/f08e5ad0b289bf07c503fe6f848fdc131fdfde89) | feat: canonicalize plan references with plan prefix | [sase-ky.1](sase-ky.1.md) | 2026-08-13 12:35:26 EDT |
 | sase | [`cbd47ed`](https://github.com/sase-org/sase/commit/cbd47ed11055e5de11522050499b8c2a7137a145) | refactor(sdd): rename plans: reference literal to plan: across Python | [sase-ky.2](sase-ky.2.md) | 2026-08-13 14:25:51 EDT |
+| sase | [`b5e1ac8`](https://github.com/sase-org/sase/commit/b5e1ac88cbb7304f9457abf8d9aed0c353535e44) | docs: describe plan: grammar and migrate remaining plans: prose citations | [sase-ky.4](sase-ky.4.md) | 2026-08-13 15:08:25 EDT |
 | sase--plans | [`sase--plans@4b6ccf9`](https://github.com/sase-org/sase--plans/commit/4b6ccf9afec381d3110ef060ced46e7358d554f5) | docs: migrate plans: prose citations to @plan: across plan files | [sase-ky.4](sase-ky.4.md) | 2026-08-13 15:12:08 EDT |
 | sase--beads | [`sase--beads@7bf4316`](https://github.com/sase-org/sase--beads/commit/7bf43168ab31cda946e3b1cb63eac9f587d4102c) | chore(beads): migrate plan artifact refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 16:56:26 EDT |
+| sase | [`7240436`](https://github.com/sase-org/sase/commit/7240436e83016eabe711e37c64c029cc89fc56c8) | fix(beads): repair alias-spelled design refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 17:02:21 EDT |
