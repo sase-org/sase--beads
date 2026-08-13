@@ -13,7 +13,7 @@ transaction: take a per-lane lock inside `start_monitor()`, hold the command beh
 
 ## Dependencies
 
-- **Depends on:** [sase-ku.3](sase-ku.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-ku.3](sase-ku.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-ku.5](sase-ku.5.md) ◐ · ⧖ 2026-08-13
 - **Blocks:** [sase-ku.8](sase-ku.8.md) ◐ · ⧖ 2026-08-13
 
