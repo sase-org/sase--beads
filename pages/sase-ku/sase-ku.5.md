@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-ku](README.md) / sase-ku.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.5` · **Size:** medium
-**Created:** 2026-08-13 09:02:57 EDT
+**Created:** 2026-08-13 09:02:57 EDT · **Closed:** 2026-08-13 12:31:17 EDT
 **Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
 
 ## Description
@@ -27,6 +27,10 @@ Consequences for your phase:
 3. If reconciliation ever settles a monitor WITHOUT a monitor_state field in done.json, the fix fails closed to 'failed' -- deliberate, but it means the marker should always carry monitor_state.
 4. Live phantom still present at the time of writing: sase-kp.land--mon (monitor id h8bkkdxmxvzm, artifact .../ace-run/202608/13/20260813083112) reports monitor_state 'running' with dead supervisor pid 3608804 and no done.json. Its lane sase-kp.land still resolves to is_resolved=False and blocks waiters sase-kp.land.w0 and sase-kp.land.w1 -- correctly, since a running monitor must block. Reaping it is what releases them. Good end-to-end fixture for your phase's tests.
 
+[2026-08-13T16:31:17Z · sase-ku.5] Implemented dead-supervisor reconciliation across list/TUI/axe, lost-state handling, claim/follow-up settlement, and start blocking for lost monitors. Verified targeted monitor/project/TUI suite: 100 passed; verified just check passed, including fmt, lint, SASE validation, and scoped pytest selection (1788 files).
+
+[2026-08-13T16:33:24Z · sase-ku.5] Implemented monitor dead-supervisor reconciliation and lost-state handling; verified targeted monitor/project/TUI suite passed with 100 tests and just check passed.
+
 ## Dependencies
 
 - **Depends on:** [sase-ku.4](sase-ku.4.md) ✓ · ⧖ 2026-08-13
@@ -36,4 +40,10 @@ Consequences for your phase:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 0 |
+| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`29cb792`](https://github.com/sase-org/sase/commit/29cb7924a87d8b2a2ece3c253acd7b6b631bf8b7) | fix(monitor): reconcile dead monitor supervisors | [sase-ku.5](sase-ku.5.md) | 2026-08-13 12:53:11 EDT |

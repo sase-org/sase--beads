@@ -47,7 +47,7 @@ Contract this fix establishes for sase-ku.5 and sase-ku.4: monitor_state 'comple
 | [sase-ku.2](sase-ku.2.md) | Rebuild the supervisor's stream and wait loop | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.3](sase-ku.3.md) | Durable process identity for the supervisor and its child | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ku.4](sase-ku.4.md) | Transactional monitor start and settlement | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-ku.5](sase-ku.5.md) | Active, complete reconciliation of dead supervisors | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-ku.5](sase-ku.5.md) | Active, complete reconciliation of dead supervisors | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.6](sase-ku.6.md) | --idle-timeout for commands that hang without exiting | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ku.7](sase-ku.7.md) | Follow-up prompt trust boundary and inherited routing | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.8](sase-ku.8.md) | Close the monitor fidelity gaps | ✓ closed | small | 2026-08-13 | 1 | 1 |
@@ -63,7 +63,7 @@ flowchart TD
     n3["sase-ku.2: Rebuild the supervisor's stream and wait loop [closed]"]
     n4["sase-ku.3: Durable process identity for the supervisor and its child [closed]"]
     n5["sase-ku.4: Transactional monitor start and settlement [closed]"]
-    n6["sase-ku.5: Active, complete reconciliation of dead supervisors [in_progress]"]
+    n6["sase-ku.5: Active, complete reconciliation of dead supervisors [closed]"]
     n7["sase-ku.6: --idle-timeout for commands that hang without exiting [closed]"]
     n8["sase-ku.7: Follow-up prompt trust boundary and inherited routing [closed]"]
     n9["sase-ku.8: Close the monitor fidelity gaps [closed]"]
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ku.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.2/README.md) | [sase-ku.2](sase-ku.2.md) | 1 |
 | [bbugyi200.athena.sase-ku.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.3/README.md) | [sase-ku.3](sase-ku.3.md) | 1 |
 | [bbugyi200.athena.sase-ku.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.4/README.md) | [sase-ku.4](sase-ku.4.md) | 1 |
-| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 0 |
+| [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 1 |
 | [bbugyi200.athena.sase-ku.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.6/README.md) | [sase-ku.6](sase-ku.6.md) | 1 |
 | [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 1 |
 | [bbugyi200.athena.sase-ku.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.8/README.md) | [sase-ku.8](sase-ku.8.md) | 1 |
@@ -122,3 +122,4 @@ flowchart TD
 | sase | [`40d9a4d`](https://github.com/sase-org/sase/commit/40d9a4d98cb255904a84edf493ab84f998c90cc5) | feat(monitor): give the supervisor and its child a durable identity | [sase-ku.3](sase-ku.3.md) | 2026-08-13 10:29:07 EDT |
 | sase | [`a54aec6`](https://github.com/sase-org/sase/commit/a54aec6ab7f43b1d874828e3c7ca54cbb06fe160) | fix(monitor): make monitor startup transactional | [sase-ku.4](sase-ku.4.md) | 2026-08-13 11:15:44 EDT |
 | sase | [`df17a07`](https://github.com/sase-org/sase/commit/df17a078a430834d5113051d1712e54b139d97fd) | fix(monitor): close fidelity gaps between monitor output and reality | [sase-ku.8](sase-ku.8.md) | 2026-08-13 11:38:56 EDT |
+| sase | [`29cb792`](https://github.com/sase-org/sase/commit/29cb7924a87d8b2a2ece3c253acd7b6b631bf8b7) | fix(monitor): reconcile dead monitor supervisors | [sase-ku.5](sase-ku.5.md) | 2026-08-13 12:53:11 EDT |
