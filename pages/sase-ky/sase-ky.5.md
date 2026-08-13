@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zl.f1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zl.f1.md) · **Assignee:** `sase-ky.5` · **Size:** small
 **Created:** 2026-08-13 12:22:53 EDT
-**Plan:** [202608/plan\_ref\_kind\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202608/plan_ref_kind_rename.md)
+**Plan:** 202608/plan\_ref\_kind\_rename.md
 
 ## Description
 
