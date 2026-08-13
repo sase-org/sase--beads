@@ -26,10 +26,4 @@ wire: add a required `icon` string to the Rust `ArtifactRefProviderRefSpecWire`,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-kv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kv.1/README.md) | [sase-kv.1](sase-kv.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@4f8c99e`](https://github.com/sase-org/sase-core/commit/4f8c99e733408e3c657a4857b74185621f6c3c9c) | feat(artifact-ref): require icon field in provider ref spec wire | [sase-kv.1](sase-kv.1.md) | 2026-08-13 09:27:17 EDT |
+| [bbugyi200.athena.sase-kv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kv.1/README.md) | [sase-kv.1](sase-kv.1.md) | 0 |

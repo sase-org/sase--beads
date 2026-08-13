@@ -23,10 +23,4 @@ research: declare the research ref provider's icon in the sase-research plugin s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-kv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kv.4/README.md) | [sase-kv.4](sase-kv.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-research | [`sase-research@379b362`](https://github.com/sase-org/sase-research/commit/379b3621a722c213b02fb2f8717d512cdddf3bd3) | feat(research): declare ref.icon for the sidecar ref provider spec | [sase-kv.4](sase-kv.4.md) | 2026-08-13 09:36:22 EDT |
+| [bbugyi200.athena.sase-kv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kv.4/README.md) | [sase-kv.4](sase-kv.4.md) | 0 |

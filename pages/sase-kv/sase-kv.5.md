@@ -13,7 +13,7 @@ render: pass descriptor icons and the reflow opt-in into the Artifacts tab strip
 
 ## Dependencies
 
-- **Depends on:** [sase-kv.2](sase-kv.2.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-kv.2](sase-kv.2.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-kv.3](sase-kv.3.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
