@@ -13,7 +13,7 @@ provider: add `src/sase/llm_provider/grok.py` and its `sase_llm` entry point —
 
 ## Dependencies
 
-- **Depends on:** [sase-l3.2](sase-l3.2.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l3.2](sase-l3.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l3.4](sase-l3.4.md) ◐ · ⧖ 2026-08-13
 - **Blocks:** [sase-l3.5](sase-l3.5.md) ◐ · ⧖ 2026-08-13
 - **Blocks:** [sase-l3.6](sase-l3.6.md) ◐ · ⧖ 2026-08-13
