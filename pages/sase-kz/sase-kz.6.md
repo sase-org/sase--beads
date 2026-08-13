@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.6` · **Size:** small
 **Created:** 2026-08-13 12:28:57 EDT
-**Plan:** 202608/nested\_snippet\_sessions.md
+**Plan:** [plans:202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
 
 ## Description
 
@@ -13,7 +13,7 @@ call_sites: make each of the five non-trigger callers of the expansion entry poi
 
 ## Dependencies
 
-- **Depends on:** [sase-kz.5](sase-kz.5.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-kz.5](sase-kz.5.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-kz.8](sase-kz.8.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

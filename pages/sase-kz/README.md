@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.land`
 **Created:** 2026-08-13 12:27:37 EDT
-**Plan:** 202608/nested\_snippet\_sessions.md
+**Plan:** [plans:202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
 
 ## Description
 
@@ -19,7 +19,7 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 | [sase-kz.2](sase-kz.2.md) | Rust nested snippet session state machine | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-kz.3](sase-kz.3.md) | PyO3 binding and wire parity for the session engine | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-kz.4](sase-kz.4.md) | Python facade for the snippet session engine | ✓ closed | small | 2026-08-13 | 1 | 1 |
-| [sase-kz.5](sase-kz.5.md) | Rewrite the prompt widget snippet mixin over the session engine | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-kz.5](sase-kz.5.md) | Rewrite the prompt widget snippet mixin over the session engine | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-kz.6](sase-kz.6.md) | Nest-vs-reset policy for every non-trigger expansion caller | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-kz.7](sase-kz.7.md) | Shift+Tab backward tabstop navigation | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-kz.8](sase-kz.8.md) | Documentation and core version pin | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n2["sase-kz.2: Rust nested snippet session state machine [closed]"]
     n3["sase-kz.3: PyO3 binding and wire parity for the session engine [closed]"]
     n4["sase-kz.4: Python facade for the snippet session engine [closed]"]
-    n5["sase-kz.5: Rewrite the prompt widget snippet mixin over the session engine [in_progress]"]
+    n5["sase-kz.5: Rewrite the prompt widget snippet mixin over the session engine [closed]"]
     n6["sase-kz.6: Nest-vs-reset policy for every non-trigger expansion caller [in_progress]"]
     n7["sase-kz.7: Shift+Tab backward tabstop navigation [in_progress]"]
     n8["sase-kz.8: Documentation and core version pin [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.2/README.md) | [sase-kz.2](sase-kz.2.md) | 1 |
 | [bbugyi200.athena.sase-kz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.3/README.md) | [sase-kz.3](sase-kz.3.md) | 1 |
 | [bbugyi200.athena.sase-kz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.4/README.md) | [sase-kz.4](sase-kz.4.md) | 1 |
-| [bbugyi200.athena.sase-kz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.5/README.md) | [sase-kz.5](sase-kz.5.md) | 0 |
+| [bbugyi200.athena.sase-kz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.5/README.md) | [sase-kz.5](sase-kz.5.md) | 1 |
 | [bbugyi200.athena.sase-kz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.6/README.md) | [sase-kz.6](sase-kz.6.md) | 0 |
 | [bbugyi200.athena.sase-kz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.7/README.md) | [sase-kz.7](sase-kz.7.md) | 0 |
 | [bbugyi200.athena.sase-kz.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.8/README.md) | [sase-kz.8](sase-kz.8.md) | 0 |
@@ -77,3 +77,4 @@ flowchart TD
 | sase-core | [`sase-core@ca59ed9`](https://github.com/sase-org/sase-core/commit/ca59ed9b42159feeeaa12fe015d094c64179fedf) | feat(snippet-session): add nested snippet session state machine | [sase-kz.2](sase-kz.2.md) | 2026-08-13 13:11:51 EDT |
 | sase-core | [`sase-core@0a8eeea`](https://github.com/sase-org/sase-core/commit/0a8eeea99d6f2360729fad4354383a5d6dc3b847) | feat(snippet-session): dispatch session events and bind to Python | [sase-kz.3](sase-kz.3.md) | 2026-08-13 13:25:59 EDT |
 | sase | [`6d21fbb`](https://github.com/sase-org/sase/commit/6d21fbbef36aaaa19b7e2c069f2bb69b7ea7bbd0) | feat(core): add snippet session facade | [sase-kz.4](sase-kz.4.md) | 2026-08-13 13:51:14 EDT |
+| sase | [`16dc502`](https://github.com/sase-org/sase/commit/16dc502695d4b6025fbc4e034611ea266e38f6bf) | feat(ace): rewrite prompt snippet mixin over the facade-backed session engine | [sase-kz.5](sase-kz.5.md) | 2026-08-13 15:02:18 EDT |
