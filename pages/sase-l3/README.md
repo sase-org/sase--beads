@@ -24,7 +24,7 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 | [sase-l3.1](sase-l3.1.md) | Provider-neutral Messages-wire stream layer | ✓ closed | medium | 2026-08-13 | 1 | 2 |
 | [sase-l3.2](sase-l3.2.md) | Grok tool-call normalizer | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-l3.3](sase-l3.3.md) | The grok provider module | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-l3.4](sase-l3.4.md) | Doctor, inventory, and binary-collision safety | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [sase-l3.4](sase-l3.4.md) | Doctor, inventory, and binary-collision safety | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l3.5](sase-l3.5.md) | Badge, palette, and model-surface polish | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-l3.6](sase-l3.6.md) | Skill deployment and instruction files | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-l3.7](sase-l3.7.md) | Documentation sweep | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
@@ -38,7 +38,7 @@ flowchart TD
     n1["sase-l3.1: Provider-neutral Messages-wire stream layer [closed]"]
     n2["sase-l3.2: Grok tool-call normalizer [closed]"]
     n3["sase-l3.3: The grok provider module [closed]"]
-    n4["sase-l3.4: Doctor, inventory, and binary-collision safety [in_progress]"]
+    n4["sase-l3.4: Doctor, inventory, and binary-collision safety [closed]"]
     n5["sase-l3.5: Badge, palette, and model-surface polish [in_progress]"]
     n6["sase-l3.6: Skill deployment and instruction files [in_progress]"]
     n7["sase-l3.7: Documentation sweep [in_progress]"]
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l3.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-l3.1.md) | [sase-l3.1](sase-l3.1.md) | 2 |
 | [bbugyi200.athena.sase-l3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.2/README.md) | [sase-l3.2](sase-l3.2.md) | 1 |
 | [bbugyi200.athena.sase-l3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.3/README.md) | [sase-l3.3](sase-l3.3.md) | 1 |
-| [bbugyi200.athena.sase-l3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.4/README.md) | [sase-l3.4](sase-l3.4.md) | 0 |
+| [bbugyi200.athena.sase-l3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.4/README.md) | [sase-l3.4](sase-l3.4.md) | 1 |
 | [bbugyi200.athena.sase-l3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.5/README.md) | [sase-l3.5](sase-l3.5.md) | 0 |
 | [bbugyi200.athena.sase-l3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.6/README.md) | [sase-l3.6](sase-l3.6.md) | 0 |
 | [bbugyi200.athena.sase-l3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.7/README.md) | [sase-l3.7](sase-l3.7.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | sase--beads | [`sase--beads@db722fb`](https://github.com/sase-org/sase--beads/commit/db722fbec1a17d7e613e1649ac22fd6179664ffc) | chore(beads): publish sase-l6 plan records | [sase-l3.1](sase-l3.1.md) | 2026-08-13 15:31:38 EDT |
 | sase | [`4d36d6d`](https://github.com/sase-org/sase/commit/4d36d6d3d6632859ddc5cf78ab9f621f9cc92ccb) | feat: normalize Grok tool-call stream artifacts | [sase-l3.2](sase-l3.2.md) | 2026-08-13 17:04:01 EDT |
 | sase | [`3085a0d`](https://github.com/sase-org/sase/commit/3085a0d287adadc52aa44a31cbd38896fe10fbc9) | feat(llm): add Grok provider | [sase-l3.3](sase-l3.3.md) | 2026-08-13 17:32:54 EDT |
+| sase | [`fbcf643`](https://github.com/sase-org/sase/commit/fbcf64399ee06d516bc4298a22afe71956595bf0) | fix(doctor): flag grok executables that aren't Grok Build | [sase-l3.4](sase-l3.4.md) | 2026-08-13 17:53:42 EDT |
