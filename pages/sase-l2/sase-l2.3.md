@@ -14,7 +14,7 @@ integration-cutover: refresh the live catalog, exercise linked-repository and in
 ## Dependencies
 
 - **Depends on:** [sase-l2.1](sase-l2.1.md) ✓ · ⧖ 2026-08-13
-- **Depends on:** [sase-l2.2](sase-l2.2.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l2.2](sase-l2.2.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

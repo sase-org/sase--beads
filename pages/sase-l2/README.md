@@ -15,8 +15,8 @@ The renamed research-artifacts plugin has one coherent repository, distribution,
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-l2.1](sase-l2.1.md) | Rename the plugin's package and repository-facing identity | ✓ closed | medium | 2026-08-13 | 1 | 0 |
-| [sase-l2.2](sase-l2.2.md) | Rewire SASE to the renamed linked repository and plugin | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [sase-l2.1](sase-l2.1.md) | Rename the plugin's package and repository-facing identity | ✓ closed | medium | 2026-08-13 | 1 | 1 |
+| [sase-l2.2](sase-l2.2.md) | Rewire SASE to the renamed linked repository and plugin | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l2.3](sase-l2.3.md) | Verify the catalog cutover and restore the plugin | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ The renamed research-artifacts plugin has one coherent repository, distribution,
 flowchart TD
     n0["sase-l2: Complete the sase-research-artifacts repository rename [in_progress]"]
     n1["sase-l2.1: Rename the plugin's package and repository-facing identity [closed]"]
-    n2["sase-l2.2: Rewire SASE to the renamed linked repository and plugin [in_progress]"]
+    n2["sase-l2.2: Rewire SASE to the renamed linked repository and plugin [closed]"]
     n3["sase-l2.3: Verify the catalog cutover and restore the plugin [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-l2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.1/README.md) | [sase-l2.1](sase-l2.1.md) | 0 |
-| [bbugyi200.athena.sase-l2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.2/README.md) | [sase-l2.2](sase-l2.2.md) | 0 |
+| [bbugyi200.athena.sase-l2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.1/README.md) | [sase-l2.1](sase-l2.1.md) | 1 |
+| [bbugyi200.athena.sase-l2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.2/README.md) | [sase-l2.2](sase-l2.2.md) | 1 |
 | [bbugyi200.athena.sase-l2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.3/README.md) | [sase-l2.3](sase-l2.3.md) | 0 |
 | [bbugyi200.athena.sase-l2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.land/README.md) | [sase-l2](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-research-artifacts | [`sase-research-artifacts@807e209`](https://github.com/sase-org/sase-research-artifacts/commit/807e20989713c97c1d2bc96fb575e88348b9c217) | feat!: rename research plugin identity | [sase-l2.1](sase-l2.1.md) | 2026-08-13 14:33:30 EDT |
+| sase | [`04cd969`](https://github.com/sase-org/sase/commit/04cd969719ab3c2237a122efe1289b8016270109) | chore: rename research artifact plugin wiring | [sase-l2.2](sase-l2.2.md) | 2026-08-13 14:53:19 EDT |

@@ -19,11 +19,17 @@ plugin-identity: migrate the renamed repository's distribution, import package, 
 
 ## Dependencies
 
-- **Blocks:** [sase-l2.2](sase-l2.2.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l2.2](sase-l2.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l2.3](sase-l2.3.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-l2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.1/README.md) | [sase-l2.1](sase-l2.1.md) | 0 |
+| [bbugyi200.athena.sase-l2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l2.1/README.md) | [sase-l2.1](sase-l2.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-research-artifacts | [`sase-research-artifacts@807e209`](https://github.com/sase-org/sase-research-artifacts/commit/807e20989713c97c1d2bc96fb575e88348b9c217) | feat!: rename research plugin identity | [sase-l2.1](sase-l2.1.md) | 2026-08-13 14:33:30 EDT |
