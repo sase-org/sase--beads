@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.1` · **Size:** small
 **Created:** 2026-08-13 09:02:27 EDT · **Closed:** 2026-08-13 09:29:10 EDT
-**Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
+**Plan:** 202608/monitor\_hardening.md
 
 ## Description
 

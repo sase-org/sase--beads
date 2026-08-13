@@ -5,7 +5,7 @@
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.5` · **Size:** medium
 **Created:** 2026-08-13 09:02:57 EDT · **Closed:** 2026-08-13 12:31:17 EDT
-**Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
+**Plan:** 202608/monitor\_hardening.md
 
 ## Description
 
@@ -34,7 +34,7 @@ Consequences for your phase:
 ## Dependencies
 
 - **Depends on:** [sase-ku.4](sase-ku.4.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-ku.9](sase-ku.9.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ku.9](sase-ku.9.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

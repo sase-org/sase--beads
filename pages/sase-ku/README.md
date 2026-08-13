@@ -5,7 +5,7 @@
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-kp.land.w1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-kp.land.w1.md) · **Assignee:** `sase-ku.land`
 **Created:** 2026-08-13 09:02:19 EDT
-**Plan:** [202608/monitor\_hardening.md](https://github.com/sase-org/sase--plans/blob/main/202608/monitor_hardening.md)
+**Plan:** 202608/monitor\_hardening.md
 
 ## Description
 
@@ -38,6 +38,8 @@ Contract this fix establishes for sase-ku.5 and sase-ku.4: monitor_state 'comple
 
 [2026-08-13T15:15:55Z · zg] LIVE-STORE CORRECTION to the 2026-08-13T14:36:44Z adjacent-work note: with effective monitor classification installed, z2 is_resolved=False, not True, because z2--mon's persisted done.json is {'outcome': 'monitored', 'monitor_state': 'failed', 'monitor_exit_code': 1}. Its family candidate is_failed=True and terminal_blocking_artifacts_for_name('z2') reports z2--mon outcome='failed', which matches the approved contract that failed monitors keep blocking. The positive live controls do resolve: smoke-sleep=True and smoke-stop=True; smoke-fail=False and smoke-timeout=False. sase-kp.land remains false because its dead-supervisor reaping is owned by sase-ku.5.
 
+[2026-08-13T16:51:04Z · zl.w0] DISCOVERED ISSUE: tests/monitor/test_monitor_supervise.py::test_run_supervisor_escalates_term_ignoring_chatty_child failed once during a full 'just check' run on 2026-08-13 from workspace sase_10 at master bd6167875 (2 failed, 29608 passed, 10 skipped in 278.65s -- the other failure was the unrelated sase-kw circular-import node). Re-running the exact node in isolation passed cleanly: .venv/bin/python -m pytest tests/monitor/test_monitor_supervise.py::test_run_supervisor_escalates_term_ignoring_chatty_child -v -> 1 passed in 2.39s. Looks like a process/signal-timing flake under parallel load rather than a real regression. Routed here rather than filed as a task because this epic's own description names surviving 'TERM-ignoring children' as in-scope, and phase sase-ku.2 ('Rebuild the supervisor's stream and wait loop') plus the still-in-progress sase-ku.9/sase-ku.10 hardening-exercise phases are the most plausible place to know about escalation-timing flakiness in this exact test. Discovered while running 'just check' for an unrelated ace Artifacts split-modes feature (plan artifacts_split_modes.md); nothing in that diff touches process supervision or signal handling.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -51,7 +53,7 @@ Contract this fix establishes for sase-ku.5 and sase-ku.4: monitor_state 'comple
 | [sase-ku.6](sase-ku.6.md) | --idle-timeout for commands that hang without exiting | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ku.7](sase-ku.7.md) | Follow-up prompt trust boundary and inherited routing | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.8](sase-ku.8.md) | Close the monitor fidelity gaps | ✓ closed | small | 2026-08-13 | 1 | 1 |
-| [sase-ku.9](sase-ku.9.md) | Monitor documentation and skill hazards | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [sase-ku.9](sase-ku.9.md) | Monitor documentation and skill hazards | ✓ closed | small | 2026-08-13 | 1 | 1 |
 
 ## Lineage
 
@@ -67,7 +69,7 @@ flowchart TD
     n7["sase-ku.6: --idle-timeout for commands that hang without exiting [closed]"]
     n8["sase-ku.7: Follow-up prompt trust boundary and inherited routing [closed]"]
     n9["sase-ku.8: Close the monitor fidelity gaps [closed]"]
-    n10["sase-ku.9: Monitor documentation and skill hazards [in_progress]"]
+    n10["sase-ku.9: Monitor documentation and skill hazards [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -107,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ku.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.6/README.md) | [sase-ku.6](sase-ku.6.md) | 1 |
 | [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 1 |
 | [bbugyi200.athena.sase-ku.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.8/README.md) | [sase-ku.8](sase-ku.8.md) | 1 |
-| [bbugyi200.athena.sase-ku.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.9/README.md) | [sase-ku.9](sase-ku.9.md) | 0 |
+| [bbugyi200.athena.sase-ku.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.9/README.md) | [sase-ku.9](sase-ku.9.md) | 1 |
 | [bbugyi200.athena.sase-ku.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.land/README.md) | [sase-ku](README.md) | 0 |
 
 ## Commits
@@ -123,3 +125,4 @@ flowchart TD
 | sase | [`a54aec6`](https://github.com/sase-org/sase/commit/a54aec6ab7f43b1d874828e3c7ca54cbb06fe160) | fix(monitor): make monitor startup transactional | [sase-ku.4](sase-ku.4.md) | 2026-08-13 11:15:44 EDT |
 | sase | [`df17a07`](https://github.com/sase-org/sase/commit/df17a078a430834d5113051d1712e54b139d97fd) | fix(monitor): close fidelity gaps between monitor output and reality | [sase-ku.8](sase-ku.8.md) | 2026-08-13 11:38:56 EDT |
 | sase | [`29cb792`](https://github.com/sase-org/sase/commit/29cb7924a87d8b2a2ece3c253acd7b6b631bf8b7) | fix(monitor): reconcile dead monitor supervisors | [sase-ku.5](sase-ku.5.md) | 2026-08-13 12:53:11 EDT |
+| sase | [`a7433cf`](https://github.com/sase-org/sase/commit/a7433cfe70a450efeba5bb7a056be586ef978ef4) | fix(monitor): document hardened supervision behavior | [sase-ku.9](sase-ku.9.md) | 2026-08-13 13:16:31 EDT |
