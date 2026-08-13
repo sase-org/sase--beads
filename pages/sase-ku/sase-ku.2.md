@@ -22,7 +22,7 @@ stream: replace the blocking line-oriented `readline()` loop with a pipe-backed 
 ## Dependencies
 
 - **Blocks:** [sase-ku.3](sase-ku.3.md) ◐ · ⧖ 2026-08-13
-- **Blocks:** [sase-ku.6](sase-ku.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ku.6](sase-ku.6.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-ku.7](sase-ku.7.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
