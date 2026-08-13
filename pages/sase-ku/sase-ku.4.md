@@ -31,7 +31,7 @@ ALSO -- your phase owns a flake I hit. tests/monitor/test_monitor_start.py::test
 
 - **Depends on:** [sase-ku.3](sase-ku.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-ku.5](sase-ku.5.md) ◐ · ⧖ 2026-08-13
-- **Blocks:** [sase-ku.8](sase-ku.8.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ku.8](sase-ku.8.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

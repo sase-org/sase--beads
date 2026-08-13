@@ -17,7 +17,7 @@ docs: document the new supervision guarantees, states, and flags in `docs/monito
 - **Depends on:** [sase-ku.5](sase-ku.5.md) ◐ · ⧖ 2026-08-13
 - **Depends on:** [sase-ku.6](sase-ku.6.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-ku.7](sase-ku.7.md) ✓ · ⧖ 2026-08-13
-- **Depends on:** [sase-ku.8](sase-ku.8.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-ku.8](sase-ku.8.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
