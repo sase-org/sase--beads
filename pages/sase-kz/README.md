@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-kz
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zm](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zm.md) · **Assignee:** `sase-kz.land`
-**Created:** 2026-08-13 12:27:37 EDT
+**Created:** 2026-08-13 12:27:37 EDT · **Closed:** 2026-08-13 16:24:13 EDT
 **Plan:** [plans:202608/nested\_snippet\_sessions.md](https://github.com/sase-org/sase--plans/blob/main/202608/nested_snippet_sessions.md)
 
 ## Description
@@ -23,6 +23,20 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 
 [2026-08-13T19:43:43Z · zv--2] DISCOVERED ISSUE: Corroborating the sase-l2 note above. Hit the same blocker landing an unrelated plan (monitor_duplicate_rows, sase_16 workspace): just check fails at lint (symvision) because the Justfile's --epic-symbol 'sase-kz.5(...)' entries reference closed bead sase-kz.5 ("Error: --epic-symbol 'sase-kz.5(...)': bead 'sase-kz.5' is closed."). Confirmed this blocks just check on a clean, unmodified master (git stash + rerun), so it is repo-wide, not specific to my diff. I also confirmed the underlying symbols are not all safe to whitelist-drop as-is: after removing the epic-symbol entries locally to test, symvision additionally reports SnippetExpansionPlan, SnippetSessionTransition, SnippetSpan, SnippetStop, apply_snippet_session_event, and clear_snippet_session as unused public symbols in src/sase/core/snippet_session_facade.py (only retreat_snippet_session now has a real non-test consumer, from the Shift+Tab commit). I reverted my Justfile edit rather than fix this, since sase-kz.8 already owns it. Leaving this for sase-kz.8's worker: SnippetSpan/SnippetStop/SnippetExpansionPlan/SnippetSessionTransition/apply_snippet_session_event appear to be used only within snippet_session_facade.py itself (candidates for '_'-prefix per the symvision decision hierarchy), while clear_snippet_session has zero callers anywhere including tests (candidate for deletion) -- but I have not verified this exhaustively.
 
+[2026-08-13T20:24:13Z · sase-kz.land] Verified all 8 phases against the source and the epic's 5 commits (6d21fbbef, 16dc50269, 1004f9eb3, 53c87b758, 026de34f6), integrated with the 12 non-epic commits landed since, and finished the remaining epic-owned work.
+
+VERIFIED. The reported bug is fixed and pinned: TestNestedSessions::test_nesting_at_a_stop_resumes_outer_session_after_inner_exhausts expands 'foo $1 bar $2 baz $3 buz', advances to $2, nests a second snippet there, exhausts the inner stops, and asserts the next Tab lands on the outer $3. TestSnippetPriority's old 'assert not ta._snippet_tabstops' is inverted as the plan required. The two from-doc-end scalars are gone; _snippet_tabstops/_snippet_end_from_doc_end/_iter_template_tabstops/_unescape_literal_dollars have zero references left in src/ or tests/. src/sase/core/snippet_session_facade.py validates every wire field and rejects malformed payloads; _snippets.py drives plan/expand/advance/retreat through it, PromptTextArea.edit() feeds every delta to the live session, and load_text() clears it. All three gate reads (_prompt_text_area_key_handling.py:410, _prompt_soft_completion.py:174, _xprompt_arg_hints.py:101) and all five clear sites (_prompt_text_area_actions.py:57/69/87/241, _prompt_format.py:135) use the session predicate. All five non-trigger callers declare a policy: file completion, soft completion, Ctrl+T skeleton and named-arg skeleton nest; the whole-pane local-xprompt replacement resets, each with its own regression test. Shift+Tab retreats via _try_retreat_tabstop with the bullet/ordered dedent path preserved ahead of it. Docs and the pin landed: docs/ace.md keymap Shift+Tab row plus the Snippets/Tab-priority sections, docs/configuration.md, docs/editor.md, and sase-core-rs raised to >=0.26.10 in pyproject.toml and uv.lock. CHANGELOG needed no hand edit -- tools/validate_changelog forbids it and release-please generates it from the conventional commit subjects, which the epic's commits supply. Confirmed the pin is real, not aspirational: the session engine commits (ca59ed9, 0a8eeea) are ancestors of sase-core's v0.26.9 release, so published 0.26.10 genuinely carries apply_snippet_session_event.
+
+EPIC NOTES ADDRESSED. The stale core-floor note is resolved -- tools/probe_core_floor --advisory is now silent. The four notes about stale Justfile '--epic-symbol sase-kz.5(...)' exemptions are resolved: grep finds zero --epic-symbol entries in the Justfile, and symvision reports no sase-kz symbol at all (16dc50269 dropped six, 53c87b758 privatized the facade-only wire types and gave clear/retreat live consumers).
+
+GATES at 026de34f6 + this change: fmt (python/markdown), keep-sorted, ruff, mypy, pyscripts, test-waits, changelog, patch/stitch terminology, toobig, SASE validation, and committed-plan validation all pass; the full non-visual suite passes (29682 passed, 10 skipped, exit 0). The only red gate is symvision, on one symbol this epic did not touch (see follow-ups).
+
+INTEGRATION. Reviewed all 12 commits landed since 6d21fbbef that are not this epic's. None needs integration work and none conflicts: 31b9c62b6 frames prompt-stack *snippet panes* (a different feature that shares only the word 'snippet' -- no shared code with tabstop sessions); 0623414e3 wait-modal field navigation is a separate modal widget on Ctrl+J/K, not PromptTextArea Tab dispatch; 0086b8781 Artifacts split modes, 04cd96971 research-plugin wiring, and the five monitor commits touch unrelated subsystems. cbd47ed11 and b5e1ac88c (the plans:->plan: rename) are the reason two of this epic's follow-ups no longer reproduce. No Python code duplicates the core's template parsing -- src/sase/xprompt/snippet_bridge.py only *generates* $N markers for the registry and correctly stays out of the session engine.
+
+REMAINING EPIC WORK FINISHED HERE. (1) sase-kz.5's design-doc deviation: the plan's 'Python glue' section still demanded a re-entrancy guard around the expansion's own _replace_via_keyboard call, which was deliberately not implemented because it broke the very bug it was meant to protect. docs_pin did not amend it; I added a recorded Deviation block to plans:202608/nested_snippet_sessions.md explaining why the shipped edit() override feeds every edit, including the expansion's own, to the session. (2) The back_nav phase required that 'backward navigation is not available after the session ends ... must be asserted, not left implicit'; only the never-had-a-session case was covered, so I added TestBackwardTabstopNavigation::test_no_retreat_after_the_session_ends, which exhausts a session and asserts retreat is a no-op that does not move the cursor.
+
+FOLLOW-UP OUTCOMES. sase-kz.8's symvision proposal (unused public stream_and_parse_messages_json_output in src/sase/llm_provider/_subprocess_claude.py) is real and still blocks just check repo-wide, but is not caused by this epic: sase-l3.1 (ad4ae62ae) added it and in-progress phase sase-l3.3 is its intended consumer. Routed via /sase_new_task to active epic sase-l3 as a DISCOVERED ISSUE; no task bead created, per the skill's active-epic branch. sase-kz.4's SDD hosted-link failures and sase-kz.5's 32 pre-existing check failures were both declined as tasks: they no longer reproduce -- the full suite is green at this HEAD, and they were an artifact of those phases running four commits behind origin/master, before the plan:-rename commits landed. sase-kz.5's design-doc deviation was fixed here rather than filed, since it is epic-owned. Not filed either: sase-kz's own bead design reference still uses the legacy 'plans:' spelling while newer beads use 'plan:'; that migration is explicitly owned by in-progress phase sase-ky.3 (Migrate bead design references).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,7 +54,7 @@ Expanding a snippet while another snippet's tabstops are still pending suspends 
 
 ```mermaid
 flowchart TD
-    n0["sase-kz: Nested snippet sessions in the prompt input widget [in_progress]"]
+    n0["sase-kz: Nested snippet sessions in the prompt input widget [closed]"]
     n1["sase-kz.1: Rust snippet expansion planner [closed]"]
     n2["sase-kz.2: Rust nested snippet session state machine [closed]"]
     n3["sase-kz.3: PyO3 binding and wire parity for the session engine [closed]"]
@@ -79,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.6/README.md) | [sase-kz.6](sase-kz.6.md) | 1 |
 | [bbugyi200.athena.sase-kz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.7/README.md) | [sase-kz.7](sase-kz.7.md) | 1 |
 | [bbugyi200.athena.sase-kz.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.8/README.md) | [sase-kz.8](sase-kz.8.md) | 1 |
-| [bbugyi200.athena.sase-kz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.land/README.md) | [sase-kz](README.md) | 0 |
+| [bbugyi200.athena.sase-kz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.land/README.md) | [sase-kz](README.md) | 1 |
 
 ## Commits
 
@@ -93,3 +107,4 @@ flowchart TD
 | sase | [`1004f9e`](https://github.com/sase-org/sase/commit/1004f9eb33d6401374e837f068ebef0260eec0e5) | feat(ace): retreat through visited snippet tabstops with Shift+Tab | [sase-kz.7](sase-kz.7.md) | 2026-08-13 15:20:41 EDT |
 | sase | [`53c87b7`](https://github.com/sase-org/sase/commit/53c87b7585ed872e05ee125b74b65bf71dd6270e) | fix: make snippet expansion session policy explicit | [sase-kz.6](sase-kz.6.md) | 2026-08-13 15:35:37 EDT |
 | sase | [`026de34`](https://github.com/sase-org/sase/commit/026de34f6b312a8be4244281facc74b295791faf) | build(deps): require sase-core-rs 0.26.10 | [sase-kz.8](sase-kz.8.md) | 2026-08-13 15:53:18 EDT |
+| sase | [`36d6dc8`](https://github.com/sase-org/sase/commit/36d6dc8dd86551664fc2b8411376403f5c77fdd2) | test(ace): assert retreat is unavailable after a snippet session ends | [sase-kz](README.md) | 2026-08-13 16:25:55 EDT |
