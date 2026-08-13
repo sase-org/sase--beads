@@ -25,7 +25,7 @@ Agents can hand a slow command (`just check-full`, a CI wait, `sase bead work`) 
 | [sase-kp.5](sase-kp.5.md) | In-agent handoff marker and runner adoption | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.6](sase-kp.6.md) | sase monitor command group | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.7](sase-kp.7.md) | Monitor rows in agent lists and family rosters | ✓ closed | medium | 2026-08-12 | 1 | 1 |
-| [sase-kp.8](sase-kp.8.md) | Monitor detail panel, live output, and keybindings | ◐ in_progress | medium | 2026-08-12 | 1 | 0 |
+| [sase-kp.8](sase-kp.8.md) | Monitor detail panel, live output, and keybindings | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 | [sase-kp.9](sase-kp.9.md) | Approved-epic launch runs as a monitor | ✓ closed | medium | 2026-08-12 | 1 | 1 |
 
 ## Lineage
@@ -43,7 +43,7 @@ flowchart TD
     n8["sase-kp.5: In-agent handoff marker and runner adoption [closed]"]
     n9["sase-kp.6: sase monitor command group [closed]"]
     n10["sase-kp.7: Monitor rows in agent lists and family rosters [closed]"]
-    n11["sase-kp.8: Monitor detail panel, live output, and keybindings [in_progress]"]
+    n11["sase-kp.8: Monitor detail panel, live output, and keybindings [closed]"]
     n12["sase-kp.9: Approved-epic launch runs as a monitor [closed]"]
     n0 --> n1
     n0 --> n2
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.5/README.md) | [sase-kp.5](sase-kp.5.md) | 1 |
 | [bbugyi200.athena.sase-kp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.6/README.md) | [sase-kp.6](sase-kp.6.md) | 1 |
 | [bbugyi200.athena.sase-kp.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.7/README.md) | [sase-kp.7](sase-kp.7.md) | 1 |
-| [bbugyi200.athena.sase-kp.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.8/README.md) | [sase-kp.8](sase-kp.8.md) | 0 |
+| [bbugyi200.athena.sase-kp.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.8/README.md) | [sase-kp.8](sase-kp.8.md) | 1 |
 | [bbugyi200.athena.sase-kp.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.9/README.md) | [sase-kp.9](sase-kp.9.md) | 1 |
 | [bbugyi200.athena.sase-kp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kp.land/README.md) | [sase-kp](README.md) | 0 |
 
@@ -108,3 +108,4 @@ flowchart TD
 | sase | [`22319c5`](https://github.com/sase-org/sase/commit/22319c52d901f91b9c2d917c63f707e3562aa121) | docs: add sase monitor skill source | [sase-kp.10](sase-kp.10.md) | 2026-08-13 06:48:58 EDT |
 | sase | [`4479603`](https://github.com/sase-org/sase/commit/44796037a560316e1945b8a5e6d0482d61f15191) | feat(epic-launch): launch approved epics through monitors | [sase-kp.9](sase-kp.9.md) | 2026-08-13 07:05:01 EDT |
 | sase | [`73ec160`](https://github.com/sase-org/sase/commit/73ec160bbd1815f072b6cb14a1b34458b534fcb6) | docs(monitors): document sase monitor and cross-link the memory/docs surface | [sase-kp.11](sase-kp.11.md) | 2026-08-13 07:05:38 EDT |
+| sase | [`fc77b64`](https://github.com/sase-org/sase/commit/fc77b64be0908d56adb8f0922cdea7777fb23e83) | feat(tui): add monitor detail panel, live output, and stop keybinding | [sase-kp.8](sase-kp.8.md) | 2026-08-13 07:21:59 EDT |
