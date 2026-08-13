@@ -11,6 +11,10 @@
 
 memory-docs: update the build-and-run memory note, regenerate agent instruction files, and document monitors.
 
+## Notes
+
+[2026-08-13T10:58:28Z · sase-kp.11] PROPOSED FOLLOW-UP: add a sase/memory/glossary.md entry for Monitor Member (the --mon agent-family member created by sase monitor start, representing one supervised OS command) — glossary edits need explicit user permission this phase did not have.
+
 ## Dependencies
 
 - **Depends on:** [sase-kp.10](sase-kp.10.md) ✓ · ⧖ 2026-08-12

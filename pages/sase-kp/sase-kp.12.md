@@ -15,7 +15,7 @@ smoke: launch real agents that exercise the sleep, timeout, stop, and follow-up 
 
 - **Depends on:** [sase-kp.11](sase-kp.11.md) ◐ · ⧖ 2026-08-12
 - **Depends on:** [sase-kp.8](sase-kp.8.md) ◐ · ⧖ 2026-08-12
-- **Depends on:** [sase-kp.9](sase-kp.9.md) ◐ · ⧖ 2026-08-12
+- **Depends on:** [sase-kp.9](sase-kp.9.md) ✓ · ⧖ 2026-08-12
 
 ## Agents
 
