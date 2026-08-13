@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-kz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.6/README.md) | [sase-kz.6](sase-kz.6.md) | 1 |
 | [bbugyi200.athena.sase-kz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.7/README.md) | [sase-kz.7](sase-kz.7.md) | 1 |
 | [bbugyi200.athena.sase-kz.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.8/README.md) | [sase-kz.8](sase-kz.8.md) | 1 |
-| [bbugyi200.athena.sase-kz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.land/README.md) | [sase-kz](README.md) | 1 |
+| [bbugyi200.athena.sase-kz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-kz.land/README.md) | [sase-kz](README.md) | 2 |
 
 ## Commits
 
@@ -108,3 +108,4 @@ flowchart TD
 | sase | [`53c87b7`](https://github.com/sase-org/sase/commit/53c87b7585ed872e05ee125b74b65bf71dd6270e) | fix: make snippet expansion session policy explicit | [sase-kz.6](sase-kz.6.md) | 2026-08-13 15:35:37 EDT |
 | sase | [`026de34`](https://github.com/sase-org/sase/commit/026de34f6b312a8be4244281facc74b295791faf) | build(deps): require sase-core-rs 0.26.10 | [sase-kz.8](sase-kz.8.md) | 2026-08-13 15:53:18 EDT |
 | sase | [`36d6dc8`](https://github.com/sase-org/sase/commit/36d6dc8dd86551664fc2b8411376403f5c77fdd2) | test(ace): assert retreat is unavailable after a snippet session ends | [sase-kz](README.md) | 2026-08-13 16:25:55 EDT |
+| sase--plans | [`sase--plans@a9d5140`](https://github.com/sase-org/sase--plans/commit/a9d51404dedbda926d1250f025a8baa0d5164e81) | chore: mark the nested snippet sessions epic plan done | [sase-kz](README.md) | 2026-08-13 16:27:41 EDT |
