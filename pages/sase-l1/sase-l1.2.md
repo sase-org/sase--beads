@@ -13,7 +13,7 @@ ack: have the supervisor publish a startup acknowledgement, block `start_monitor
 
 ## Dependencies
 
-- **Depends on:** [sase-l1.1](sase-l1.1.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-l1.1](sase-l1.1.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
