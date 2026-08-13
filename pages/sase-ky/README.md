@@ -21,9 +21,9 @@ The plans sidecar's document reference kind is spelled `plan` everywhere SASE wr
 |---|---|---|---|---|---:|---:|
 | [sase-ky.1](sase-ky.1.md) | Rename the SDD plan-reference grammar in sase-core | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-ky.2](sase-ky.2.md) | Switch every Python plan-reference literal to plan | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-ky.3](sase-ky.3.md) | Migrate bead design references | ◐ in_progress | medium | 2026-08-13 | 1 | 2 |
+| [sase-ky.3](sase-ky.3.md) | Migrate bead design references | ✓ closed | medium | 2026-08-13 | 1 | 2 |
 | [sase-ky.4](sase-ky.4.md) | Rewrite prose and remaining stored references | ✓ closed | medium | 2026-08-13 | 1 | 2 |
-| [sase-ky.5](sase-ky.5.md) | Verify and land the rename | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [sase-ky.5](sase-ky.5.md) | Verify and land the rename | ✓ closed | small | 2026-08-13 | 1 | 1 |
 
 ## Lineage
 
@@ -32,9 +32,9 @@ flowchart TD
     n0["sase-ky: Rename the plans-sidecar artifact ref kind to plan [in_progress]"]
     n1["sase-ky.1: Rename the SDD plan-reference grammar in sase-core [closed]"]
     n2["sase-ky.2: Switch every Python plan-reference literal to plan [closed]"]
-    n3["sase-ky.3: Migrate bead design references [in_progress]"]
+    n3["sase-ky.3: Migrate bead design references [closed]"]
     n4["sase-ky.4: Rewrite prose and remaining stored references [closed]"]
-    n5["sase-ky.5: Verify and land the rename [in_progress]"]
+    n5["sase-ky.5: Verify and land the rename [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ky.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.2/README.md) | [sase-ky.2](sase-ky.2.md) | 1 |
 | [bbugyi200.athena.sase-ky.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.3/README.md) | [sase-ky.3](sase-ky.3.md) | 2 |
 | [bbugyi200.athena.sase-ky.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.4/README.md) | [sase-ky.4](sase-ky.4.md) | 2 |
-| [bbugyi200.athena.sase-ky.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.5/README.md) | [sase-ky.5](sase-ky.5.md) | 0 |
+| [bbugyi200.athena.sase-ky.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.5/README.md) | [sase-ky.5](sase-ky.5.md) | 1 |
 | [bbugyi200.athena.sase-ky.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ky.land/README.md) | [sase-ky](README.md) | 0 |
 
 ## Commits
@@ -68,3 +68,4 @@ flowchart TD
 | sase--plans | [`sase--plans@4b6ccf9`](https://github.com/sase-org/sase--plans/commit/4b6ccf9afec381d3110ef060ced46e7358d554f5) | docs: migrate plans: prose citations to @plan: across plan files | [sase-ky.4](sase-ky.4.md) | 2026-08-13 15:12:08 EDT |
 | sase--beads | [`sase--beads@7bf4316`](https://github.com/sase-org/sase--beads/commit/7bf43168ab31cda946e3b1cb63eac9f587d4102c) | chore(beads): migrate plan artifact refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 16:56:26 EDT |
 | sase | [`7240436`](https://github.com/sase-org/sase/commit/7240436e83016eabe711e37c64c029cc89fc56c8) | fix(beads): repair alias-spelled design refs | [sase-ky.3](sase-ky.3.md) | 2026-08-13 17:02:21 EDT |
+| sase | [`4183f3d`](https://github.com/sase-org/sase/commit/4183f3d4df9a588cea52a838e405c99d9c00fef1) | fix: stabilize plan ref landing verification | [sase-ky.5](sase-ky.5.md) | 2026-08-13 19:26:01 EDT |

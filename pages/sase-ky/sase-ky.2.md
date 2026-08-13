@@ -20,7 +20,7 @@ python: replace the functional `plans:` literals in src/sase with a single share
 ## Dependencies
 
 - **Depends on:** [sase-ky.1](sase-ky.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-ky.3](sase-ky.3.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ky.3](sase-ky.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-ky.4](sase-ky.4.md) ✓ · ⧖ 2026-08-13
 
 ## Agents

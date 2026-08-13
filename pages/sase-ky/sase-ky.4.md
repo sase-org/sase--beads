@@ -22,7 +22,7 @@ prose: update the documentation that describes the grammar, then sweep prose `pl
 ## Dependencies
 
 - **Depends on:** [sase-ky.2](sase-ky.2.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-ky.5](sase-ky.5.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ky.5](sase-ky.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

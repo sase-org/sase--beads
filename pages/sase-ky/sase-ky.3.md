@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-ky](README.md) / sase-ky.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zl.f1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zl.f1.md) · **Assignee:** `sase-ky.3` · **Size:** medium
-**Created:** 2026-08-13 12:22:16 EDT
+**Created:** 2026-08-13 12:22:16 EDT · **Closed:** 2026-08-13 17:04:16 EDT
 **Plan:** [202608/plan\_ref\_kind\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202608/plan_ref_kind_rename.md)
 
 ## Description
@@ -17,10 +17,12 @@ beads: add a prefix-only fast path to the design-ref repair planner so an alias-
 
 [2026-08-13T21:01:10Z · sase-ky.3] PROPOSED FOLLOW-UP: Add a batch design-ref repair apply path for differing per-bead design values — sase bead doctor --fix-design-refs migrated 456 event-backed design refs correctly but took about two hours on this machine because it calls update once per bead and flushes each event/projection change separately.
 
+[2026-08-13T21:04:16Z · sase-ky.3] Verified prefix-only design-ref repair fast path with .venv/bin/python -m pytest tests/test_bead/test_design_ref_repair.py (5 passed). Ran sase bead doctor --fix-design-refs and migrated 456 event-backed design refs; migrated the 4 refs[] plans: aliases to plan: with sase bead ref rm/add. Bead store committed and pushed; issues.jsonl now has 0 design plans: rows, 460 design plan: rows, 0 refs[] plans: rows, and 4 refs[] plan: rows. sase bead doctor reports no legacy design-ref or plans:-ref warnings; remaining missing/mismatch/unknown warnings are pre-existing non-goals. Left notes/description prose plans: mentions for the prose phase per plan. just check was rerun and blocked by unrelated stale Symvision --epic-symbol entries for closed bead sase-kz.5; PROPOSED FOLLOW-UP recorded on this phase bead.
+
 ## Dependencies
 
 - **Depends on:** [sase-ky.2](sase-ky.2.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-ky.5](sase-ky.5.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-ky.5](sase-ky.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
