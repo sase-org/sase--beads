@@ -30,7 +30,7 @@ Why sase-ku should know: none of these files appear in plans:202608/monitor_hard
 | [sase-ku.4](sase-ku.4.md) | Transactional monitor start and settlement | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [sase-ku.5](sase-ku.5.md) | Active, complete reconciliation of dead supervisors | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [sase-ku.6](sase-ku.6.md) | --idle-timeout for commands that hang without exiting | ✓ closed | small | 2026-08-13 | 1 | 1 |
-| [sase-ku.7](sase-ku.7.md) | Follow-up prompt trust boundary and inherited routing | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-ku.7](sase-ku.7.md) | Follow-up prompt trust boundary and inherited routing | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-ku.8](sase-ku.8.md) | Close the monitor fidelity gaps | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 | [sase-ku.9](sase-ku.9.md) | Monitor documentation and skill hazards | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n5["sase-ku.4: Transactional monitor start and settlement [in_progress]"]
     n6["sase-ku.5: Active, complete reconciliation of dead supervisors [in_progress]"]
     n7["sase-ku.6: --idle-timeout for commands that hang without exiting [closed]"]
-    n8["sase-ku.7: Follow-up prompt trust boundary and inherited routing [in_progress]"]
+    n8["sase-ku.7: Follow-up prompt trust boundary and inherited routing [closed]"]
     n9["sase-ku.8: Close the monitor fidelity gaps [in_progress]"]
     n10["sase-ku.9: Monitor documentation and skill hazards [in_progress]"]
     n0 --> n1
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ku.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.4/README.md) | [sase-ku.4](sase-ku.4.md) | 0 |
 | [bbugyi200.athena.sase-ku.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.5/README.md) | [sase-ku.5](sase-ku.5.md) | 0 |
 | [bbugyi200.athena.sase-ku.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.6/README.md) | [sase-ku.6](sase-ku.6.md) | 1 |
-| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 0 |
+| [bbugyi200.athena.sase-ku.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.7/README.md) | [sase-ku.7](sase-ku.7.md) | 1 |
 | [bbugyi200.athena.sase-ku.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.8/README.md) | [sase-ku.8](sase-ku.8.md) | 0 |
 | [bbugyi200.athena.sase-ku.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.9/README.md) | [sase-ku.9](sase-ku.9.md) | 0 |
 | [bbugyi200.athena.sase-ku.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ku.land/README.md) | [sase-ku](README.md) | 0 |
@@ -99,3 +99,4 @@ flowchart TD
 | sase | [`afa8178`](https://github.com/sase-org/sase/commit/afa8178ceec76e7fbbe94110c3af9ed4b7ba6d39) | fix(monitor): decouple supervisor waits from output reads | [sase-ku.2](sase-ku.2.md) | 2026-08-13 09:31:19 EDT |
 | sase | [`dc9da55`](https://github.com/sase-org/sase/commit/dc9da557631a7ecb8e16dc5ebefd24cc1f0fda4c) | feat(agent-scan): mirror monitor supervision fields on the Python wire | [sase-ku.1](sase-ku.1.md) | 2026-08-13 09:31:37 EDT |
 | sase | [`49f6b98`](https://github.com/sase-org/sase/commit/49f6b98a49614be766b6d03edca49762daba075a) | feat(monitor): add idle timeout support | [sase-ku.6](sase-ku.6.md) | 2026-08-13 10:01:00 EDT |
+| sase | [`9566a13`](https://github.com/sase-org/sase/commit/9566a13113e3d96461a075805ca4ad4f964ec782) | feat(monitor): fence untrusted output in follow-up prompts and carry starter routing | [sase-ku.7](sase-ku.7.md) | 2026-08-13 10:05:41 EDT |
