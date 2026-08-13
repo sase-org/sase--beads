@@ -23,7 +23,7 @@ followup: stop coupling the follow-up launch to a workspace-claim transfer that 
 
 - **Depends on:** [sase-l1.3](sase-l1.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-l1.5](sase-l1.5.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l1.6](sase-l1.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

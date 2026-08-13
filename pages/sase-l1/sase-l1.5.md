@@ -24,7 +24,7 @@ visibility: surface dead-on-arrival supervisors and follow-up launch failures in
 ## Dependencies
 
 - **Depends on:** [sase-l1.4](sase-l1.4.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l1.6](sase-l1.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

@@ -24,7 +24,7 @@ detach: reparent the supervisor to PID 1 before `start_monitor` returns and set 
 ## Dependencies
 
 - **Blocks:** [sase-l1.2](sase-l1.2.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l1.6](sase-l1.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

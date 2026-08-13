@@ -20,7 +20,7 @@ claim: make the stale-RUNNING sweeper reconcile a monitor before releasing its `
 ## Dependencies
 
 - **Blocks:** [sase-l1.4](sase-l1.4.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l1.6](sase-l1.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l1.6](sase-l1.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
