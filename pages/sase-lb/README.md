@@ -33,7 +33,7 @@ Workspace allocation must not hand a sase_<N> directory to a second agent while 
 ```mermaid
 flowchart TD
     n0["sase-lb: Workspace allocator hands a sase_&lt;N&gt; clone to a second agent while another agent is still RUNNING in it [in_progress]"]
-    n1["sase-lb.1: One live agent per numbered workspace — close the monitor claim hole [in_progress]"]
+    n1["sase-lb.1: One live agent per numbered workspace — close the monitor claim hole [closed]"]
     n2["sase-lb.1.1: Record the agent's real workspace number in agent_meta.json [closed]"]
     n3["sase-lb.1.2: Authoritative workspace-directory to workspace-number lookup [closed]"]
     n4["sase-lb.1.3: A monitor holds the claim on the workspace it runs in [closed]"]
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-lb.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.5/README.md) | [sase-lb.1.5](sase-lb.1.5.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.6/README.md) | [sase-lb.1.6](sase-lb.1.6.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.7/README.md) | [sase-lb.1.7](sase-lb.1.7.md) | 1 |
-| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.land/README.md) | [sase-lb.1](sase-lb.1.md) | 0 |
+| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lb.1.land.md) | [sase-lb.1](sase-lb.1.md) | 1 |
 
 ## Commits
 
@@ -83,3 +83,4 @@ flowchart TD
 | sase | [`b00c8a5`](https://github.com/sase-org/sase/commit/b00c8a5f2672a0ff11550af31e0c532b60809767) | fix: repair workspace 0/directory pairing in followup and family-attach launches | [sase-lb.1.5](sase-lb.1.5.md) | 2026-08-14 12:21:39 EDT |
 | sase | [`95cf873`](https://github.com/sase-org/sase/commit/95cf873ede28a9df74a0424dc72129cf879dc916) | fix: release runner claims after failed monitor handoff | [sase-lb.1.4](sase-lb.1.4.md) | 2026-08-14 12:27:21 EDT |
 | sase | [`afcad43`](https://github.com/sase-org/sase/commit/afcad43f868c331e9a6e23f97f05f93b2faa19d4) | feat: add workspace occupancy diagnostics | [sase-lb.1.7](sase-lb.1.7.md) | 2026-08-14 12:49:27 EDT |
+| sase--plans | [`sase--plans@e2df552`](https://github.com/sase-org/sase--plans/commit/e2df5527ccd3bfc8801d29f28d34e5e777ea3ed0) | docs(plans): mark workspace\_claim\_invariant epic plan done | [sase-lb.1](sase-lb.1.md) | 2026-08-14 14:10:39 EDT |
