@@ -36,7 +36,7 @@ flowchart TD
     n1["sase-lb.1: One live agent per numbered workspace — close the monitor claim hole [in_progress]"]
     n2["sase-lb.1.1: Record the agent's real workspace number in agent_meta.json [closed]"]
     n3["sase-lb.1.2: Authoritative workspace-directory to workspace-number lookup [closed]"]
-    n4["sase-lb.1.3: A monitor holds the claim on the workspace it runs in [in_progress]"]
+    n4["sase-lb.1.3: A monitor holds the claim on the workspace it runs in [closed]"]
     n5["sase-lb.1.4: A monitor handoff never orphans the starter's claim [in_progress]"]
     n6["sase-lb.1.5: Follow-up and family-attach launches never pair workspace 0 with a numbered directory [in_progress]"]
     n7["sase-lb.1.6: The commit finalizer stops attributing pre-existing dirt to the agent [closed]"]
@@ -65,7 +65,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-lb.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.1/README.md) | [sase-lb.1.1](sase-lb.1.1.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.2/README.md) | [sase-lb.1.2](sase-lb.1.2.md) | 1 |
-| [bbugyi200.athena.sase-lb.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.3/README.md) | [sase-lb.1.3](sase-lb.1.3.md) | 0 |
+| [bbugyi200.athena.sase-lb.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.3/README.md) | [sase-lb.1.3](sase-lb.1.3.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.4/README.md) | [sase-lb.1.4](sase-lb.1.4.md) | 0 |
 | [bbugyi200.athena.sase-lb.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.5/README.md) | [sase-lb.1.5](sase-lb.1.5.md) | 0 |
 | [bbugyi200.athena.sase-lb.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.6/README.md) | [sase-lb.1.6](sase-lb.1.6.md) | 1 |
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`a720153`](https://github.com/sase-org/sase/commit/a7201532bc3c67245d3331359aeaa3c934a4c2e7) | fix: persist claimed workspace number in agent metadata | [sase-lb.1.1](sase-lb.1.1.md) | 2026-08-14 11:44:27 EDT |
 | sase | [`8a0fd07`](https://github.com/sase-org/sase/commit/8a0fd07a062b87ecce619d4779a8707631d5cf81) | feat(workspace\_provider): add directory-to-workspace-number lookup helper | [sase-lb.1.2](sase-lb.1.2.md) | 2026-08-14 11:46:39 EDT |
 | sase | [`645875d`](https://github.com/sase-org/sase/commit/645875d536b9f5f92f0b9fc59eda28e0b2640aa4) | fix(llm\_provider): stop attributing pre-existing dirt to the agent | [sase-lb.1.6](sase-lb.1.6.md) | 2026-08-14 12:00:26 EDT |
+| sase | [`631701d`](https://github.com/sase-org/sase/commit/631701dd44ebd60e5eb9b84b8dac56a6ce7093b9) | fix(monitor): claim the command workspace on start | [sase-lb.1.3](sase-lb.1.3.md) | 2026-08-14 12:07:34 EDT |

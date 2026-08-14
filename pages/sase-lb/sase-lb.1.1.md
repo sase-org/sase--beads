@@ -19,7 +19,7 @@ meta: write and maintain `workspace_num` in every agent's `agent_meta.json` so d
 
 ## Dependencies
 
-- **Blocks:** [sase-lb.1.3](sase-lb.1.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lb.1.3](sase-lb.1.3.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-lb.1.5](sase-lb.1.5.md) ◐ · ⧖ 2026-08-14
 
 ## Agents

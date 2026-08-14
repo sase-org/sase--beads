@@ -13,7 +13,7 @@ guard: add doctor/inventory diagnostics for unclaimed-but-occupied and double-oc
 
 ## Dependencies
 
-- **Depends on:** [sase-lb.1.3](sase-lb.1.3.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-lb.1.3](sase-lb.1.3.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-lb.1.4](sase-lb.1.4.md) ◐ · ⧖ 2026-08-14
 - **Depends on:** [sase-lb.1.5](sase-lb.1.5.md) ◐ · ⧖ 2026-08-14
 

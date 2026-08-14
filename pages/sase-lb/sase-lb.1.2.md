@@ -17,7 +17,7 @@ lookup: add a registry-backed helper that resolves a checkout directory to its o
 
 ## Dependencies
 
-- **Blocks:** [sase-lb.1.3](sase-lb.1.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lb.1.3](sase-lb.1.3.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-lb.1.5](sase-lb.1.5.md) ◐ · ⧖ 2026-08-14
 
 ## Agents
