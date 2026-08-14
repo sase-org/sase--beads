@@ -13,7 +13,7 @@ land: run the exhaustive verification lane over the combined tree, sweep for res
 
 ## Dependencies
 
-- **Depends on:** [sase-lh.7](sase-lh.7.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-lh.7](sase-lh.7.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

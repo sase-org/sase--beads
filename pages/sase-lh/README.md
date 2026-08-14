@@ -25,7 +25,7 @@ SASE's durable background-execution feature is named **Proc** end to end — Rus
 | [sase-lh.4](sase-lh.4.md) | Rename the TUI tracked-task runtime to procs | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-lh.5](sase-lh.5.md) | Rename the ACE Tasks pane and Admin Center tab identifier to procs | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-lh.6](sase-lh.6.md) | Flip user-visible Task text to Proc and refresh snapshots | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-lh.7](sase-lh.7.md) | Rewrite documentation, memory, skills, and the glossary | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-lh.7](sase-lh.7.md) | Rewrite documentation, memory, skills, and the glossary | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-lh.8](sase-lh.8.md) | Verify the migration and land the epic | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n4["sase-lh.4: Rename the TUI tracked-task runtime to procs [closed]"]
     n5["sase-lh.5: Rename the ACE Tasks pane and Admin Center tab identifier to procs [closed]"]
     n6["sase-lh.6: Flip user-visible Task text to Proc and refresh snapshots [closed]"]
-    n7["sase-lh.7: Rewrite documentation, memory, skills, and the glossary [in_progress]"]
+    n7["sase-lh.7: Rewrite documentation, memory, skills, and the glossary [closed]"]
     n8["sase-lh.8: Verify the migration and land the epic [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-lh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.4/README.md) | [sase-lh.4](sase-lh.4.md) | 1 |
 | [bbugyi200.athena.sase-lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.5/README.md) | [sase-lh.5](sase-lh.5.md) | 1 |
 | [bbugyi200.athena.sase-lh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.6/README.md) | [sase-lh.6](sase-lh.6.md) | 1 |
-| [bbugyi200.athena.sase-lh.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.7/README.md) | [sase-lh.7](sase-lh.7.md) | 0 |
+| [bbugyi200.athena.sase-lh.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.7/README.md) | [sase-lh.7](sase-lh.7.md) | 1 |
 | [bbugyi200.athena.sase-lh.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.8/README.md) | [sase-lh.8](sase-lh.8.md) | 0 |
 | [bbugyi200.athena.sase-lh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.land/README.md) | [sase-lh](README.md) | 0 |
 
@@ -84,3 +84,4 @@ flowchart TD
 | sase | [`8ca241c`](https://github.com/sase-org/sase/commit/8ca241c59854236f184f776dacfd5536132645f7) | refactor(ace): rename the ACE Tasks pane and Admin Center tab id to procs | [sase-lh.5](sase-lh.5.md) | 2026-08-13 21:09:21 EDT |
 | sase | [`5ec9262`](https://github.com/sase-org/sase/commit/5ec9262274d8d7a4e8793117d91807598963004e) | refactor(tui): rename tracked task runtime to procs | [sase-lh.4](sase-lh.4.md) | 2026-08-13 21:24:42 EDT |
 | sase | [`eca7753`](https://github.com/sase-org/sase/commit/eca7753b556946c758223cade217d09a5d9b3bcb) | feat(tui): label durable background work as procs | [sase-lh.6](sase-lh.6.md) | 2026-08-13 22:27:34 EDT |
+| sase | [`e9941fd`](https://github.com/sase-org/sase/commit/e9941fd9c2898aaf823303e925b49d31bc29829e) | docs: document durable procs terminology | [sase-lh.7](sase-lh.7.md) | 2026-08-13 22:53:09 EDT |
