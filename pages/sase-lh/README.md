@@ -21,7 +21,7 @@ SASE's durable background-execution feature is named **Proc** end to end — Rus
 |---|---|---|---|---|---:|---:|
 | [sase-lh.1](sase-lh.1.md) | Rename the Rust background-task core to procs | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-lh.2](sase-lh.2.md) | Move the Python package to sase.procs and migrate on-disk state and config | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-lh.3](sase-lh.3.md) | Rename the sase task CLI command tree to sase proc | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [sase-lh.3](sase-lh.3.md) | Rename the sase task CLI command tree to sase proc | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [sase-lh.4](sase-lh.4.md) | Rename the TUI tracked-task runtime to procs | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [sase-lh.5](sase-lh.5.md) | Rename the ACE Tasks pane and Admin Center tab identifier to procs | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [sase-lh.6](sase-lh.6.md) | Flip user-visible Task text to Proc and refresh snapshots | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
@@ -35,7 +35,7 @@ flowchart TD
     n0["sase-lh: Rename SASE Background Tasks to Procs [in_progress]"]
     n1["sase-lh.1: Rename the Rust background-task core to procs [closed]"]
     n2["sase-lh.2: Move the Python package to sase.procs and migrate on-disk state and config [closed]"]
-    n3["sase-lh.3: Rename the sase task CLI command tree to sase proc [in_progress]"]
+    n3["sase-lh.3: Rename the sase task CLI command tree to sase proc [closed]"]
     n4["sase-lh.4: Rename the TUI tracked-task runtime to procs [in_progress]"]
     n5["sase-lh.5: Rename the ACE Tasks pane and Admin Center tab identifier to procs [in_progress]"]
     n6["sase-lh.6: Flip user-visible Task text to Proc and refresh snapshots [in_progress]"]
@@ -66,7 +66,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-lh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.1/README.md) | [sase-lh.1](sase-lh.1.md) | 1 |
 | [bbugyi200.athena.sase-lh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.2/README.md) | [sase-lh.2](sase-lh.2.md) | 1 |
-| [bbugyi200.athena.sase-lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.3/README.md) | [sase-lh.3](sase-lh.3.md) | 0 |
+| [bbugyi200.athena.sase-lh.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lh.3.md) | [sase-lh.3](sase-lh.3.md) | 1 |
 | [bbugyi200.athena.sase-lh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.4/README.md) | [sase-lh.4](sase-lh.4.md) | 0 |
 | [bbugyi200.athena.sase-lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.5/README.md) | [sase-lh.5](sase-lh.5.md) | 0 |
 | [bbugyi200.athena.sase-lh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.6/README.md) | [sase-lh.6](sase-lh.6.md) | 0 |
@@ -80,3 +80,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@c69a2f8`](https://github.com/sase-org/sase-core/commit/c69a2f885b327f92c55687defd23c577dfe74f70) | feat(core)!: rename background task core to procs | [sase-lh.1](sase-lh.1.md) | 2026-08-13 18:02:21 EDT |
 | sase | [`62fb941`](https://github.com/sase-org/sase/commit/62fb94129662db94663cf5156c09e87223af4068) | refactor(procs): move sase.tasks to sase.procs and migrate on-disk state | [sase-lh.2](sase-lh.2.md) | 2026-08-13 20:11:56 EDT |
+| sase | [`a0e9ae4`](https://github.com/sase-org/sase/commit/a0e9ae4ed310014524237059a39069cee9b7d566) | feat(cli)!: rename task command to proc | [sase-lh.3](sase-lh.3.md) | 2026-08-13 21:05:16 EDT |

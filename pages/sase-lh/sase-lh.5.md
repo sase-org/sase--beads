@@ -11,6 +11,10 @@
 
 tui-pane: rename the `tasks_pane*` and `tasks_store_rows` modules and `TasksPane` to their proc spellings, move the Admin Center tab identifier from `tasks` to `procs` with persisted-state migration, and rename the `#tasks-*` DOM ids and their `styles.tcss` selectors, without changing displayed text.
 
+## Notes
+
+[2026-08-14T00:40:40Z · sase-lh.5] PROPOSED FOLLOW-UP: `sase monitor start` fails with FamilyAttachError ("Cannot create agent family 'sase-lh': resolved parent is named 'sase-lh.8'.") when invoked from a phase-bead workspace whose newest agent belongs to a different phase (sase-lh.8) of the same epic. Reproduced via: sase monitor start --command "just check" --reason "..." --timeout 20m --next "..." while working sase-lh.5. src/sase/agent/_family_promotion.py:131 raises when promote_agent_to_family resolves a parent name that does not match the requested family. Investigate promote_agent_to_family/_family_promotion.py so monitor start works from any phase bead of a multi-phase epic, not just the newest one.
+
 ## Dependencies
 
 - **Depends on:** [sase-lh.2](sase-lh.2.md) ✓ · ⧖ 2026-08-13

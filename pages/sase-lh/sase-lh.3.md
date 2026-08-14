@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-lh](README.md) / sase-lh.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.000](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.000.md) · **Assignee:** `sase-lh.3` · **Size:** medium
-**Created:** 2026-08-13 17:19:34 EDT
+**Created:** 2026-08-13 17:19:34 EDT · **Closed:** 2026-08-13 21:04:08 EDT
 **Plan:** [202608/background\_tasks\_to\_procs.md](https://github.com/sase-org/sase--plans/blob/main/202608/background_tasks_to_procs.md)
 
 ## Description
 
 cli: rename `sase task` to `sase proc` with `task` registered as a legacy alias and facade shim modules, rename the parser/handler/render modules and the `--json` envelope key, and update the CLI help text, tests, and `docs/cli.md`.
+
+## Notes
+
+[2026-08-14T01:04:08Z · sase-lh.3] Verified just install; targeted proc CLI pytest suite (90 passed); just check passed.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ cli: rename `sase task` to `sase proc` with `task` registered as a legacy alias 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lh.3/README.md) | [sase-lh.3](sase-lh.3.md) | 0 |
+| [bbugyi200.athena.sase-lh.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lh.3.md) | [sase-lh.3](sase-lh.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a0e9ae4`](https://github.com/sase-org/sase/commit/a0e9ae4ed310014524237059a39069cee9b7d566) | feat(cli)!: rename task command to proc | [sase-lh.3](sase-lh.3.md) | 2026-08-13 21:05:16 EDT |
