@@ -18,7 +18,7 @@ selector-edit-plumbing: add a shared TUI selector helper module over the existin
 ## Dependencies
 
 - **Depends on:** [sase-lz.1](sase-lz.1.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-lz.3](sase-lz.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lz.3](sase-lz.3.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

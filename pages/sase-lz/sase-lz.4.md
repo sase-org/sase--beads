@@ -13,7 +13,7 @@ selector-docs: correct the ACE Models panel documentation that claims the custom
 
 ## Dependencies
 
-- **Depends on:** [sase-lz.3](sase-lz.3.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-lz.3](sase-lz.3.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
