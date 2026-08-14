@@ -18,7 +18,7 @@ selector-builder: add a SelectorBuilderModal that assembles selector members fro
 ## Dependencies
 
 - **Depends on:** [sase-lz.2](sase-lz.2.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-lz.4](sase-lz.4.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lz.4](sase-lz.4.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
