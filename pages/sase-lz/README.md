@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-lz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lz.2/README.md) | [sase-lz.2](sase-lz.2.md) | 1 |
 | [bbugyi200.athena.sase-lz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lz.3/README.md) | [sase-lz.3](sase-lz.3.md) | 1 |
 | [bbugyi200.athena.sase-lz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lz.4/README.md) | [sase-lz.4](sase-lz.4.md) | 1 |
-| [bbugyi200.athena.sase-lz.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lz.land.md) | [sase-lz](README.md) | 1 |
+| [bbugyi200.athena.sase-lz.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lz.land.md) | [sase-lz](README.md) | 2 |
 
 ## Commits
 
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`877465a`](https://github.com/sase-org/sase/commit/877465a5ad4478e9fdc068c3668be928f72daf66) | feat(ace): add guided selector builder modal for model pools | [sase-lz.3](sase-lz.3.md) | 2026-08-14 12:27:54 EDT |
 | sase | [`4d5598e`](https://github.com/sase-org/sase/commit/4d5598eaf4fffd6ba3c4f5904e95f7dbec4a9749) | docs(ace): correct selector authoring docs for Edit/Override and builder | [sase-lz.4](sase-lz.4.md) | 2026-08-14 12:43:46 EDT |
 | sase | [`6ee3347`](https://github.com/sase-org/sase/commit/6ee334708e366715046bc7f871ca66f234794126) | fix(ace): reject typed selectors in builder members | [sase-lz](README.md) | 2026-08-14 13:09:42 EDT |
+| sase--plans | [`sase--plans@631e4b9`](https://github.com/sase-org/sase--plans/commit/631e4b92bea5973cd0d11d3c3a92bb7fddbe514b) | docs: mark models panel pool authoring plan done | [sase-lz](README.md) | 2026-08-14 13:25:12 EDT |
