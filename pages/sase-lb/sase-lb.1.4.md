@@ -20,7 +20,7 @@ orphan: make the runner's `monitored` shutdown skip conditional on the claim act
 ## Dependencies
 
 - **Depends on:** [sase-lb.1.3](sase-lb.1.3.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

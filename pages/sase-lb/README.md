@@ -40,7 +40,7 @@ flowchart TD
     n5["sase-lb.1.4: A monitor handoff never orphans the starter's claim [closed]"]
     n6["sase-lb.1.5: Follow-up and family-attach launches never pair workspace 0 with a numbered directory [closed]"]
     n7["sase-lb.1.6: The commit finalizer stops attributing pre-existing dirt to the agent [closed]"]
-    n8["sase-lb.1.7: Occupancy diagnostics and an end-to-end regression exercise [in_progress]"]
+    n8["sase-lb.1.7: Occupancy diagnostics and an end-to-end regression exercise [closed]"]
     n0 --> n1
     n1 --> n2
     n1 --> n3
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-lb.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.4/README.md) | [sase-lb.1.4](sase-lb.1.4.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.5/README.md) | [sase-lb.1.5](sase-lb.1.5.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.6/README.md) | [sase-lb.1.6](sase-lb.1.6.md) | 1 |
-| [bbugyi200.athena.sase-lb.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.7/README.md) | [sase-lb.1.7](sase-lb.1.7.md) | 0 |
+| [bbugyi200.athena.sase-lb.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.7/README.md) | [sase-lb.1.7](sase-lb.1.7.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.land/README.md) | [sase-lb.1](sase-lb.1.md) | 0 |
 
 ## Commits
@@ -82,3 +82,4 @@ flowchart TD
 | sase | [`631701d`](https://github.com/sase-org/sase/commit/631701dd44ebd60e5eb9b84b8dac56a6ce7093b9) | fix(monitor): claim the command workspace on start | [sase-lb.1.3](sase-lb.1.3.md) | 2026-08-14 12:07:34 EDT |
 | sase | [`b00c8a5`](https://github.com/sase-org/sase/commit/b00c8a5f2672a0ff11550af31e0c532b60809767) | fix: repair workspace 0/directory pairing in followup and family-attach launches | [sase-lb.1.5](sase-lb.1.5.md) | 2026-08-14 12:21:39 EDT |
 | sase | [`95cf873`](https://github.com/sase-org/sase/commit/95cf873ede28a9df74a0424dc72129cf879dc916) | fix: release runner claims after failed monitor handoff | [sase-lb.1.4](sase-lb.1.4.md) | 2026-08-14 12:27:21 EDT |
+| sase | [`afcad43`](https://github.com/sase-org/sase/commit/afcad43f868c331e9a6e23f97f05f93b2faa19d4) | feat: add workspace occupancy diagnostics | [sase-lb.1.7](sase-lb.1.7.md) | 2026-08-14 12:49:27 EDT |

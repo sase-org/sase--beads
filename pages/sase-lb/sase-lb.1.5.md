@@ -19,7 +19,7 @@ followup: normalize workspace number and directory together in the monitor follo
 
 - **Depends on:** [sase-lb.1.1](sase-lb.1.1.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-lb.1.2](sase-lb.1.2.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

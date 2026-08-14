@@ -22,7 +22,7 @@ monitor-claim: replace the silent `workspace_num = 0` fallback in monitor start 
 - **Depends on:** [sase-lb.1.1](sase-lb.1.1.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-lb.1.2](sase-lb.1.2.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-lb.1.4](sase-lb.1.4.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lb.1.7](sase-lb.1.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
