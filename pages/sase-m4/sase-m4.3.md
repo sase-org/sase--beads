@@ -17,7 +17,7 @@ unit-liveness: repair synchronization and lifecycle regressions and isolate the 
 
 ## Dependencies
 
-- **Blocks:** [sase-m4.6](sase-m4.6.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m4.6](sase-m4.6.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

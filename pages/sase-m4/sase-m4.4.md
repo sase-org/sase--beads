@@ -19,7 +19,7 @@ visual-baselines: classify visual diffs, fix nondeterministic state, and accept 
 
 ## Dependencies
 
-- **Blocks:** [sase-m4.6](sase-m4.6.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m4.6](sase-m4.6.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

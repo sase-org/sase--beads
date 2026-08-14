@@ -21,7 +21,7 @@ docs-pdf: identify the browser 404 requests and correct their documentation sour
 
 ## Dependencies
 
-- **Blocks:** [sase-m4.6](sase-m4.6.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m4.6](sase-m4.6.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

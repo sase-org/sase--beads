@@ -21,7 +21,7 @@ performance-floor: use repeatable measurements to optimize a regression or evide
 
 ## Dependencies
 
-- **Blocks:** [sase-m4.6](sase-m4.6.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m4.6](sase-m4.6.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

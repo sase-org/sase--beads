@@ -20,7 +20,7 @@ Restore reliable passing CI, documentation, and publication workflows on the sas
 | [sase-m4.3](sase-m4.3.md) | Fix deterministic test failures and the stalled test shard | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 | [sase-m4.4](sase-m4.4.md) | Reconcile ACE visual behavior and snapshots | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 | [sase-m4.5](sase-m4.5.md) | Resolve the artifact-scan performance failure | ✓ closed | small | 2026-08-14 | 1 | 1 |
-| [sase-m4.6](sase-m4.6.md) | Integrate, exhaustively verify, and observe GitHub Actions | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
+| [sase-m4.6](sase-m4.6.md) | Integrate, exhaustively verify, and observe GitHub Actions | ✓ closed | medium | 2026-08-14 | 2 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-m4.3: Fix deterministic test failures and the stalled test shard [closed]"]
     n4["sase-m4.4: Reconcile ACE visual behavior and snapshots [closed]"]
     n5["sase-m4.5: Resolve the artifact-scan performance failure [closed]"]
-    n6["sase-m4.6: Integrate, exhaustively verify, and observe GitHub Actions [in_progress]"]
+    n6["sase-m4.6: Integrate, exhaustively verify, and observe GitHub Actions [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,7 +55,8 @@ flowchart TD
 | [bbugyi200.athena.sase-m4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.3/README.md) | [sase-m4.3](sase-m4.3.md) | 1 |
 | [bbugyi200.athena.sase-m4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.4/README.md) | [sase-m4.4](sase-m4.4.md) | 1 |
 | [bbugyi200.athena.sase-m4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.5/README.md) | [sase-m4.5](sase-m4.5.md) | 1 |
-| [bbugyi200.athena.sase-m4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.6/README.md) | [sase-m4.6](sase-m4.6.md) | 0 |
+| [bbugyi200.athena.sase-m4.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m4.6.md) | [sase-m4.6](sase-m4.6.md) | 0 |
+| [bbugyi200.athena.sase-m4.6--2--code](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.6--2--code/README.md) | [sase-m4.6](sase-m4.6.md) | 1 |
 | [bbugyi200.athena.sase-m4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.land/README.md) | [sase-m4](README.md) | 0 |
 
 ## Commits
@@ -67,3 +68,4 @@ flowchart TD
 | sase | [`e394229`](https://github.com/sase-org/sase/commit/e394229545f158f4971eb69e697cbd24030e0f26) | fix(tests): repair a TabQuickStart lifecycle race and a punctuation-brittle assertion | [sase-m4.3](sase-m4.3.md) | 2026-08-14 15:03:25 EDT |
 | sase | [`bc040fe`](https://github.com/sase-org/sase/commit/bc040fee5d4a7cb2ad98c104587fa42499d9e089) | test: load bundled ACE visual fonts via font\_files | [sase-m4.4](sase-m4.4.md) | 2026-08-14 15:08:50 EDT |
 | sase | [`e4baf07`](https://github.com/sase-org/sase/commit/e4baf07717f5a9cb836316b8db5416d1af3f8096) | fix(docs): stop strict PDF export from fetching remote Google Fonts | [sase-m4.2](sase-m4.2.md) | 2026-08-14 15:11:11 EDT |
+| sase | [`357c45c`](https://github.com/sase-org/sase/commit/357c45c7235f4d8f23539787dc16f4df41955470) | test(docs): skip pypdf-dependent docs-PDF test when pypdf is absent | [sase-m4.6](sase-m4.6.md) | 2026-08-14 16:34:52 EDT |
