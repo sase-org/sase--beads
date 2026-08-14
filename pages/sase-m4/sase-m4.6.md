@@ -17,6 +17,8 @@ integration-and-ci: run monitored exhaustive checks and recursively observe and 
 
 [2026-08-14T20:34:15Z · sase-m4.6--2] Added pytest.importorskip("pypdf") to test_pdf_image_optimization_reencodes_each_shared_rgb_png_once in tests/test_docs_pdf_tools.py, scoped only to that test; verified locally (pypdf installed) it PASSES, and confirmed via a scratch venv without pypdf that it SKIPS while the other two tests in the file still PASS; ran just check successfully.
 
+[2026-08-14T21:49:47Z · sase-m4.6_1--1] MONITOR RESULT: just check-full monitor 7mbekhfwax6w failed only the final flake baseline gate; all lint, SASE validation, committed-plan, and test-cost gates passed. The 16 reported nodeids match the existing PROPOSED FOLLOW-UP on this bead, and this phase prompt forbids creating the filed task bead(s) required before adding baseline entries.
+
 ## Dependencies
 
 - **Depends on:** [sase-m4.1](sase-m4.1.md) ✓ · ⧖ 2026-08-14
