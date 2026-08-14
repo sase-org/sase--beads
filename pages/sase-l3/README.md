@@ -17,6 +17,8 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 
 [2026-08-13T21:28:55Z · toobig-2l.split_file.tests.monitor.test_monitor_store.0] DISCOVERED ISSUE: During unrelated monitor-store test-file splitting, all 28 affected tests collected but failed in shared setup because src/sase/llm_provider/_subprocess.py imports the absent public stream_and_parse_messages_json_output; _subprocess_claude.py now defines only the private _stream_and_parse_messages_json_output. Corroborated exact duplicate task sase-lg. This also belongs here because the regression is causally tied to phase sase-l3.1's provider-neutral stream layer and its collision with the private rename from sase-ld.
 
+[2026-08-13T23:49:18Z · 001.f1] DISCOVERED ISSUE: During unrelated confirm_notification_read_tab verification on 2026-08-13, just check fails before the test lane at whole-repo Ruff with F811 in src/sase/llm_provider/_subprocess_claude.py: stream_and_parse_messages_json_output is defined at both lines 42 and 112. The local diff touches only src/sase/ace/tui/modals/notification_modal_basic_actions.py and tests/test_notification_modal_read_tab.py. This is causally tied to this epic's provider-neutral/Grok stream-symbol work and the public/private rename conflict already tracked by ready task sase-lg; added +1 evidence there rather than creating a new task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -28,7 +30,7 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 | [sase-l3.5](sase-l3.5.md) | Badge, palette, and model-surface polish | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l3.6](sase-l3.6.md) | Skill deployment and instruction files | ✓ closed | small | 2026-08-13 | 1 | 1 |
 | [sase-l3.7](sase-l3.7.md) | Documentation sweep | ✓ closed | medium | 2026-08-13 | 1 | 1 |
-| [sase-l3.8](sase-l3.8.md) | Authenticated end-to-end smoke exercises | ◐ in_progress | xsmall | 2026-08-13 | 1 | 0 |
+| [sase-l3.8](sase-l3.8.md) | Authenticated end-to-end smoke exercises | ✓ closed | xsmall | 2026-08-13 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +44,7 @@ flowchart TD
     n5["sase-l3.5: Badge, palette, and model-surface polish [closed]"]
     n6["sase-l3.6: Skill deployment and instruction files [closed]"]
     n7["sase-l3.7: Documentation sweep [closed]"]
-    n8["sase-l3.8: Authenticated end-to-end smoke exercises [in_progress]"]
+    n8["sase-l3.8: Authenticated end-to-end smoke exercises [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.5/README.md) | [sase-l3.5](sase-l3.5.md) | 1 |
 | [bbugyi200.athena.sase-l3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.6/README.md) | [sase-l3.6](sase-l3.6.md) | 1 |
 | [bbugyi200.athena.sase-l3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.7/README.md) | [sase-l3.7](sase-l3.7.md) | 1 |
-| [bbugyi200.athena.sase-l3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.8/README.md) | [sase-l3.8](sase-l3.8.md) | 0 |
+| [bbugyi200.athena.sase-l3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.8/README.md) | [sase-l3.8](sase-l3.8.md) | 1 |
 | [bbugyi200.athena.sase-l3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.land/README.md) | [sase-l3](README.md) | 0 |
 
 ## Commits
@@ -88,3 +90,4 @@ flowchart TD
 | sase | [`c1b2724`](https://github.com/sase-org/sase/commit/c1b2724a1fc46e264f1900395b2023644eb40552) | test: cover Grok skill deployment | [sase-l3.6](sase-l3.6.md) | 2026-08-13 18:06:36 EDT |
 | sase | [`d9c685e`](https://github.com/sase-org/sase/commit/d9c685e86b808e481bb826e24ac7f0f27e91baa0) | feat: polish Grok provider presentation | [sase-l3.5](sase-l3.5.md) | 2026-08-13 18:17:52 EDT |
 | sase | [`aea9bf6`](https://github.com/sase-org/sase/commit/aea9bf645a8e6e1fc7ccff57253f31068eb9f01a) | docs: add Grok Build coverage across provider documentation | [sase-l3.7](sase-l3.7.md) | 2026-08-13 18:42:15 EDT |
+| sase | [`aef2d8e`](https://github.com/sase-org/sase/commit/aef2d8eb5b11c46265a468fa49686c52d33cb79a) | fix(grok): recreate timer for interrupt relaunch | [sase-l3.8](sase-l3.8.md) | 2026-08-13 20:24:14 EDT |
