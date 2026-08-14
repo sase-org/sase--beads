@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-lb.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.5/README.md) | [sase-lb.1.5](sase-lb.1.5.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.6/README.md) | [sase-lb.1.6](sase-lb.1.6.md) | 1 |
 | [bbugyi200.athena.sase-lb.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-lb.1.7/README.md) | [sase-lb.1.7](sase-lb.1.7.md) | 1 |
-| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lb.1.land.md) | [sase-lb.1](sase-lb.1.md) | 1 |
+| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lb.1.land.md) | [sase-lb.1](sase-lb.1.md) | 2 |
 
 ## Commits
 
@@ -84,3 +84,4 @@ flowchart TD
 | sase | [`95cf873`](https://github.com/sase-org/sase/commit/95cf873ede28a9df74a0424dc72129cf879dc916) | fix: release runner claims after failed monitor handoff | [sase-lb.1.4](sase-lb.1.4.md) | 2026-08-14 12:27:21 EDT |
 | sase | [`afcad43`](https://github.com/sase-org/sase/commit/afcad43f868c331e9a6e23f97f05f93b2faa19d4) | feat: add workspace occupancy diagnostics | [sase-lb.1.7](sase-lb.1.7.md) | 2026-08-14 12:49:27 EDT |
 | sase--plans | [`sase--plans@e2df552`](https://github.com/sase-org/sase--plans/commit/e2df5527ccd3bfc8801d29f28d34e5e777ea3ed0) | docs(plans): mark workspace\_claim\_invariant epic plan done | [sase-lb.1](sase-lb.1.md) | 2026-08-14 14:10:39 EDT |
+| sase | [`ee6f3c7`](https://github.com/sase-org/sase/commit/ee6f3c7d302e37504d7c4fd951bc7d846dfd7f1d) | fix(axe): inherit a family-attach parent's commit finalizer baseline | [sase-lb.1](sase-lb.1.md) | 2026-08-14 14:13:02 EDT |

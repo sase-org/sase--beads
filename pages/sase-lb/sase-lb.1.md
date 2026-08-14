@@ -25,10 +25,11 @@ Baseline-inheritance regression and fix (plan 202608/lane_baseline_inheritance.m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lb.1.land.md) | [sase-lb.1](sase-lb.1.md) | 1 |
+| [bbugyi200.athena.sase-lb.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-lb.1.land.md) | [sase-lb.1](sase-lb.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@e2df552`](https://github.com/sase-org/sase--plans/commit/e2df5527ccd3bfc8801d29f28d34e5e777ea3ed0) | docs(plans): mark workspace\_claim\_invariant epic plan done | [sase-lb.1](sase-lb.1.md) | 2026-08-14 14:10:39 EDT |
+| sase | [`ee6f3c7`](https://github.com/sase-org/sase/commit/ee6f3c7d302e37504d7c4fd951bc7d846dfd7f1d) | fix(axe): inherit a family-attach parent's commit finalizer baseline | [sase-lb.1](sase-lb.1.md) | 2026-08-14 14:13:02 EDT |
