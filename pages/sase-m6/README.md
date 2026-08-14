@@ -15,7 +15,7 @@ Every ACE Artifacts sub-tab — Patch included — is driven by one host-owned A
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-m6.1](sase-m6.1.md) | Live defects, golden fixtures, and the conformance harness | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
+| [sase-m6.1](sase-m6.1.md) | Live defects, golden fixtures, and the conformance harness | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 | [sase-m6.10](sase-m6.10.md) | Conformance, diagnostics, docs, and the performance gate | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 | [sase-m6.2](sase-m6.2.md) | Detail bands render the provider's declared fields | ✓ closed | xsmall | 2026-08-14 | 1 | 1 |
 | [sase-m6.3](sase-m6.3.md) | One typed entry target on every pane | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
@@ -31,7 +31,7 @@ Every ACE Artifacts sub-tab — Patch included — is driven by one host-owned A
 ```mermaid
 flowchart TD
     n0["sase-m6: One Artifacts contract — every ACE sub-tab, Patch included, behind one declared API [in_progress]"]
-    n1["sase-m6.1: Live defects, golden fixtures, and the conformance harness [in_progress]"]
+    n1["sase-m6.1: Live defects, golden fixtures, and the conformance harness [closed]"]
     n2["sase-m6.10: Conformance, diagnostics, docs, and the performance gate [in_progress]"]
     n3["sase-m6.2: Detail bands render the provider's declared fields [closed]"]
     n4["sase-m6.3: One typed entry target on every pane [in_progress]"]
@@ -68,7 +68,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.1/README.md) | [sase-m6.1](sase-m6.1.md) | 0 |
+| [bbugyi200.athena.sase-m6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.1/README.md) | [sase-m6.1](sase-m6.1.md) | 1 |
 | [bbugyi200.athena.sase-m6.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.10/README.md) | [sase-m6.10](sase-m6.10.md) | 0 |
 | [bbugyi200.athena.sase-m6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.2/README.md) | [sase-m6.2](sase-m6.2.md) | 1 |
 | [bbugyi200.athena.sase-m6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.3/README.md) | [sase-m6.3](sase-m6.3.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8338a32`](https://github.com/sase-org/sase/commit/8338a320ac1d04c8a5fbc406659804bb841fb63f) | fix: order artifact detail fields from provider specs | [sase-m6.2](sase-m6.2.md) | 2026-08-14 17:28:28 EDT |
+| sase | [`191e9f2`](https://github.com/sase-org/sase/commit/191e9f2196830a547306d6de0f660a3cccf00235) | feat(ace): stabilize provider tabs and freeze Patch contract goldens | [sase-m6.1](sase-m6.1.md) | 2026-08-14 17:51:38 EDT |
