@@ -22,7 +22,7 @@ stores: give the artifact-file index, the memory-read log, and the skill-use log
 ## Dependencies
 
 - **Depends on:** [sase-l6.1](sase-l6.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-l6.6](sase-l6.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-l6.6](sase-l6.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
