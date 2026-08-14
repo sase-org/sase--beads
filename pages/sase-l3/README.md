@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-l3
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.zu](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.zu.md) · **Assignee:** `sase-l3.land`
-**Created:** 2026-08-13 14:40:33 EDT
+**Created:** 2026-08-13 14:40:33 EDT · **Closed:** 2026-08-14 07:57:08 EDT
 **Plan:** [202608/grok\_provider.md](https://github.com/sase-org/sase--plans/blob/main/202608/grok_provider.md)
 
 ## Description
@@ -18,6 +18,14 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 [2026-08-13T21:28:55Z · toobig-2l.split_file.tests.monitor.test_monitor_store.0] DISCOVERED ISSUE: During unrelated monitor-store test-file splitting, all 28 affected tests collected but failed in shared setup because src/sase/llm_provider/_subprocess.py imports the absent public stream_and_parse_messages_json_output; _subprocess_claude.py now defines only the private _stream_and_parse_messages_json_output. Corroborated exact duplicate task sase-lg. This also belongs here because the regression is causally tied to phase sase-l3.1's provider-neutral stream layer and its collision with the private rename from sase-ld.
 
 [2026-08-13T23:49:18Z · 001.f1] DISCOVERED ISSUE: During unrelated confirm_notification_read_tab verification on 2026-08-13, just check fails before the test lane at whole-repo Ruff with F811 in src/sase/llm_provider/_subprocess_claude.py: stream_and_parse_messages_json_output is defined at both lines 42 and 112. The local diff touches only src/sase/ace/tui/modals/notification_modal_basic_actions.py and tests/test_notification_modal_read_tab.py. This is causally tied to this epic's provider-neutral/Grok stream-symbol work and the public/private rename conflict already tracked by ready task sase-lg; added +1 evidence there rather than creating a new task.
+
+[2026-08-14T11:57:08Z · sase-l3.land] VERIFIED (step 1): all 8 phases closed and their claimed work is really in the tree -- provider-neutral Messages-wire stream layer (_subprocess_claude.py), Grok tool-call normalizer (_tool_call_grok.py), grok.py provider module + its sase_llm entry point, doctor identity check with a regex derived from real Grok Build 1.0.3 output, badge/palette/model-surface polish, skill deployment via the generic ~/.grok/skills path, and a docs sweep whose claims match the code (four effort levels, grok-4.6 only). Read every child bead note and confirmed each was addressed.
+
+INTEGRATED (step 2): the only real collision with non-epic work was stream_and_parse_messages_json_output -- phase .1 (ad4ae62ae) added it public, non-epic c1970b5a0 (task sase-ld) made it private, and 4183f3d4d then added a duplicate wrapper. The tree resolves this correctly now: 'python -c import sase.llm_provider' succeeds, clearing task sase-lg's reproduction, and ruff/mypy/symvision are clean on it. Both blockers phase .8 recorded as unresolved have since been fixed by later commits (procs facade, notification store). No post-epic commit duplicates the provider-neutral layer this epic added.
+
+DEFECT FOUND AND FIXED DURING LANDING: phase .2 introduced _GROK_TOOL_USES, a module-global written on every tool_use but read with .get() and never released -- the only unbounded module-global among all the tool-call normalizers (ToolCallDurationTracker pops; MuseToolCallTracker is per-run), so a long Grok run retained every tool input, including full Write payloads, for the life of the process. Changed to .pop() and added a regression test confirmed to fail against the old code. Verified in this landing pass: 652 tests pass across tests/ace/tui/tools + tests/llm_provider, and ruff, ruff-format, and mypy are clean on both changed files.
+
+FOLLOW-UPS: six of seven proposals already had beads (sase-l8/l9/la, sase-lb, sase-ll, sase-lm) or were fixed during the epic; filed sase-lq for the Grok CLAUDE.md/AGENTS.md double-load, the only one with no existing bead. Also flagged and recorded on sase-ln: the epic's own docs commit aea9bf645 silently captured 10 files of a concurrent agent's in-progress notification work under a message describing only doc changes -- no work was lost, but that history is misattributed to sase-l3.7 on origin/master; sase-ln tracks the 'stitch create' staging bug behind it.
 
 ## Phases
 
@@ -36,7 +44,7 @@ SASE gains a first-class `grok` LLM provider driving xAI's Grok Build CLI, suppo
 
 ```mermaid
 flowchart TD
-    n0["sase-l3: Grok Build LLM provider [in_progress]"]
+    n0["sase-l3: Grok Build LLM provider [closed]"]
     n1["sase-l3.1: Provider-neutral Messages-wire stream layer [closed]"]
     n2["sase-l3.2: Grok tool-call normalizer [closed]"]
     n3["sase-l3.3: The grok provider module [closed]"]
@@ -76,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.6/README.md) | [sase-l3.6](sase-l3.6.md) | 1 |
 | [bbugyi200.athena.sase-l3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.7/README.md) | [sase-l3.7](sase-l3.7.md) | 1 |
 | [bbugyi200.athena.sase-l3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.8/README.md) | [sase-l3.8](sase-l3.8.md) | 1 |
-| [bbugyi200.athena.sase-l3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.land/README.md) | [sase-l3](README.md) | 0 |
+| [bbugyi200.athena.sase-l3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l3.land/README.md) | [sase-l3](README.md) | 1 |
 
 ## Commits
 
@@ -91,3 +99,4 @@ flowchart TD
 | sase | [`d9c685e`](https://github.com/sase-org/sase/commit/d9c685e86b808e481bb826e24ac7f0f27e91baa0) | feat: polish Grok provider presentation | [sase-l3.5](sase-l3.5.md) | 2026-08-13 18:17:52 EDT |
 | sase | [`aea9bf6`](https://github.com/sase-org/sase/commit/aea9bf645a8e6e1fc7ccff57253f31068eb9f01a) | docs: add Grok Build coverage across provider documentation | [sase-l3.7](sase-l3.7.md) | 2026-08-13 18:42:15 EDT |
 | sase | [`aef2d8e`](https://github.com/sase-org/sase/commit/aef2d8eb5b11c46265a468fa49686c52d33cb79a) | fix(grok): recreate timer for interrupt relaunch | [sase-l3.8](sase-l3.8.md) | 2026-08-13 20:24:14 EDT |
+| sase | [`d1e8815`](https://github.com/sase-org/sase/commit/d1e88155b140e793560574e480c8cc17ccdd57c6) | fix(llm\_provider): release Grok tool\_use state when its result arrives | [sase-l3](README.md) | 2026-08-14 07:59:13 EDT |
