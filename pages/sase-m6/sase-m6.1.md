@@ -23,7 +23,7 @@ foundation: make provider tabs deterministic and failure-visible, then freeze go
 
 ## Dependencies
 
-- **Blocks:** [sase-m6.3](sase-m6.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.3](sase-m6.3.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
