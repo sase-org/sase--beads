@@ -19,7 +19,7 @@ Restore reliable passing CI, documentation, and publication workflows on the sas
 | [sase-m4.2](sase-m4.2.md) | Repair strict PDF documentation export | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 | [sase-m4.3](sase-m4.3.md) | Fix deterministic test failures and the stalled test shard | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 | [sase-m4.4](sase-m4.4.md) | Reconcile ACE visual behavior and snapshots | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
-| [sase-m4.5](sase-m4.5.md) | Resolve the artifact-scan performance failure | ◐ in_progress | small | 2026-08-14 | 1 | 0 |
+| [sase-m4.5](sase-m4.5.md) | Resolve the artifact-scan performance failure | ✓ closed | small | 2026-08-14 | 1 | 1 |
 | [sase-m4.6](sase-m4.6.md) | Integrate, exhaustively verify, and observe GitHub Actions | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-m4.2: Repair strict PDF documentation export [in_progress]"]
     n3["sase-m4.3: Fix deterministic test failures and the stalled test shard [in_progress]"]
     n4["sase-m4.4: Reconcile ACE visual behavior and snapshots [in_progress]"]
-    n5["sase-m4.5: Resolve the artifact-scan performance failure [in_progress]"]
+    n5["sase-m4.5: Resolve the artifact-scan performance failure [closed]"]
     n6["sase-m4.6: Integrate, exhaustively verify, and observe GitHub Actions [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.2/README.md) | [sase-m4.2](sase-m4.2.md) | 0 |
 | [bbugyi200.athena.sase-m4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.3/README.md) | [sase-m4.3](sase-m4.3.md) | 0 |
 | [bbugyi200.athena.sase-m4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.4/README.md) | [sase-m4.4](sase-m4.4.md) | 0 |
-| [bbugyi200.athena.sase-m4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.5/README.md) | [sase-m4.5](sase-m4.5.md) | 0 |
+| [bbugyi200.athena.sase-m4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.5/README.md) | [sase-m4.5](sase-m4.5.md) | 1 |
 | [bbugyi200.athena.sase-m4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.6/README.md) | [sase-m4.6](sase-m4.6.md) | 0 |
 | [bbugyi200.athena.sase-m4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m4.land/README.md) | [sase-m4](README.md) | 0 |
 
@@ -63,3 +63,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8dd33e5`](https://github.com/sase-org/sase/commit/8dd33e594b17d255d9b28e95fcadc8d64e75931a) | fix: validate core lock ratchets semantically | [sase-m4.1](sase-m4.1.md) | 2026-08-14 14:42:48 EDT |
+| sase | [`7a6e004`](https://github.com/sase-org/sase/commit/7a6e00416f21519d27f4ff6ca0fa2970862f033a) | perf: recalibrate agent scan regression floor | [sase-m4.5](sase-m4.5.md) | 2026-08-14 14:43:50 EDT |
