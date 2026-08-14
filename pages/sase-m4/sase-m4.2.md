@@ -11,6 +11,10 @@
 
 docs-pdf: identify the browser 404 requests and correct their documentation source without weakening strict export.
 
+## Notes
+
+[2026-08-14T19:07:31Z · sase-m4.2] PROPOSED FOLLOW-UP: just check Rich substring tests fail under FORCE_COLOR — agent/CI FORCE_COLOR makes CLI/TUI tests assert plain strings that Rich emits with ANSI (e.g. test_cli_work_from_plan_preview, plugins pane); they pass with NO_COLOR=1 and are unrelated to docs-pdf.
+
 ## Dependencies
 
 - **Blocks:** [sase-m4.6](sase-m4.6.md) ◐ · ⧖ 2026-08-14

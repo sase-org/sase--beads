@@ -16,7 +16,7 @@ integration-and-ci: run monitored exhaustive checks and recursively observe and 
 - **Depends on:** [sase-m4.1](sase-m4.1.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m4.2](sase-m4.2.md) ◐ · ⧖ 2026-08-14
 - **Depends on:** [sase-m4.3](sase-m4.3.md) ✓ · ⧖ 2026-08-14
-- **Depends on:** [sase-m4.4](sase-m4.4.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-m4.4](sase-m4.4.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m4.5](sase-m4.5.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
