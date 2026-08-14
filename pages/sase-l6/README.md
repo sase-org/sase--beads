@@ -162,7 +162,7 @@ flowchart TD
 | [bbugyi200.athena.sase-l6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.4/README.md) | [sase-l6.4](sase-l6.4.md) | 1 |
 | [bbugyi200.athena.sase-l6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.5/README.md) | [sase-l6.5](sase-l6.5.md) | 1 |
 | [bbugyi200.athena.sase-l6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.6/README.md) | [sase-l6.6](sase-l6.6.md) | 0 |
-| [bbugyi200.athena.sase-l6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.land/README.md) | [sase-l6](README.md) | 1 |
+| [bbugyi200.athena.sase-l6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-l6.land/README.md) | [sase-l6](README.md) | 2 |
 
 ## Commits
 
@@ -174,3 +174,4 @@ flowchart TD
 | sase | [`4ff3a41`](https://github.com/sase-org/sase/commit/4ff3a41619fa3e9d1b075cb363e0b020cbdf6b4a) | feat(ace): stream SASE CONTEXT lanes cheapest-first as they resolve | [sase-l6.4](sase-l6.4.md) | 2026-08-13 18:15:52 EDT |
 | sase | [`ffa63b5`](https://github.com/sase-org/sase/commit/ffa63b5edd65fe1e45ee2aee41c9a3b554f5f95f) | feat(ace): paint SASE CONTEXT commit lane on first frame, zero I/O | [sase-l6.5](sase-l6.5.md) | 2026-08-13 18:45:08 EDT |
 | sase | [`443566f`](https://github.com/sase-org/sase/commit/443566f7d058562d01111f63c904aa084059c2a4) | test(ace): pin the mid-stream SASE CONTEXT frame with a PNG snapshot | [sase-l6](README.md) | 2026-08-14 08:42:13 EDT |
+| sase--plans | [`sase--plans@ccdd981`](https://github.com/sase-org/sase--plans/commit/ccdd981c88021be0e21be082dd110de851dd10c7) | chore: mark the SASE CONTEXT streaming epic plan done | [sase-l6](README.md) | 2026-08-14 08:43:50 EDT |
