@@ -13,7 +13,7 @@ docs: rewrite the background-task sections of docs/ace.md, cli.md, configuration
 
 ## Dependencies
 
-- **Depends on:** [sase-lh.6](sase-lh.6.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-lh.6](sase-lh.6.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.8](sase-lh.8.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
