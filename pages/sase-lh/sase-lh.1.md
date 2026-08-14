@@ -21,7 +21,7 @@ core: rename `crates/sase_core/src/tasks/` to `procs/` in ../sase-core, rename t
 
 ## Dependencies
 
-- **Blocks:** [sase-lh.2](sase-lh.2.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-lh.2](sase-lh.2.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

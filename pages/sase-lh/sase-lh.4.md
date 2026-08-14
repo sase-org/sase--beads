@@ -13,7 +13,7 @@ tui-runtime: rename `task_queue.py`, `task_mirror.py`, `task_subprocess.py`, `ta
 
 ## Dependencies
 
-- **Depends on:** [sase-lh.2](sase-lh.2.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-lh.2](sase-lh.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.6](sase-lh.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

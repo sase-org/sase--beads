@@ -13,7 +13,7 @@ cli: rename `sase task` to `sase proc` with `task` registered as a legacy alias 
 
 ## Dependencies
 
-- **Depends on:** [sase-lh.2](sase-lh.2.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-lh.2](sase-lh.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.6](sase-lh.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
