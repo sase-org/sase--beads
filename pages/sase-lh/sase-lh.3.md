@@ -15,6 +15,10 @@ cli: rename `sase task` to `sase proc` with `task` registered as a legacy alias 
 
 [2026-08-14T01:04:08Z · sase-lh.3] Verified just install; targeted proc CLI pytest suite (90 passed); just check passed.
 
+[2026-08-14T01:19:25Z · sase-lh.3--1] Verified: just check-full completed with 1 failed / 29841 passed. The failure (tests/test_axe_run_agent_runner_deferred_workspace_outcomes.py::TestDeferredWorkspaceOutcomes::test_repeat_stop_exits_before_workspace_claim_and_run_loop) is unrelated to this bead's proc CLI rename: the test file was last touched by an unrelated refactor commit (61859ebb8), and the test passes cleanly both in isolation and when run with its full test file (5 passed), confirming a pre-existing order-dependent flake, not a regression from this work.
+
+[2026-08-14T01:19:36Z · sase-lh.3--1] PROPOSED FOLLOW-UP: Fix flaky order-dependent test — tests/test_axe_run_agent_runner_deferred_workspace_outcomes.py::TestDeferredWorkspaceOutcomes::test_repeat_stop_exits_before_workspace_claim_and_run_loop fails only under full-suite just check-full runs (passes in isolation and within its own file), indicating cross-test pollution in the axe run-agent-runner test suite.
+
 ## Dependencies
 
 - **Depends on:** [sase-lh.2](sase-lh.2.md) ✓ · ⧖ 2026-08-13

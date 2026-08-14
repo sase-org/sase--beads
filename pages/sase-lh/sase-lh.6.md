@@ -14,7 +14,7 @@ labels: change every displayed string that names this feature — Admin Center t
 ## Dependencies
 
 - **Depends on:** [sase-lh.3](sase-lh.3.md) ✓ · ⧖ 2026-08-13
-- **Depends on:** [sase-lh.4](sase-lh.4.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [sase-lh.4](sase-lh.4.md) ✓ · ⧖ 2026-08-13
 - **Depends on:** [sase-lh.5](sase-lh.5.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.7](sase-lh.7.md) ◐ · ⧖ 2026-08-13
 

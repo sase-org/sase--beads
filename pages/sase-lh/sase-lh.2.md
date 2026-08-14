@@ -21,7 +21,7 @@ store: `git mv src/sase/tasks src/sase/procs`, rename `BackgroundTask` to `Proc`
 
 - **Depends on:** [sase-lh.1](sase-lh.1.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.3](sase-lh.3.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [sase-lh.4](sase-lh.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [sase-lh.4](sase-lh.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [sase-lh.5](sase-lh.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
