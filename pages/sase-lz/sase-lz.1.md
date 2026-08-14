@@ -17,7 +17,7 @@ override-selector-reject: detect selector syntax with parse_model_alias_selector
 
 ## Dependencies
 
-- **Blocks:** [sase-lz.2](sase-lz.2.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-lz.2](sase-lz.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
