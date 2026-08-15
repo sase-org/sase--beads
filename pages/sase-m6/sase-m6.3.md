@@ -18,7 +18,7 @@ identity: promote ArtifactEntryTarget to a typed value carrying pane identity wi
 ## Dependencies
 
 - **Depends on:** [sase-m6.1](sase-m6.1.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-m6.4](sase-m6.4.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.4](sase-m6.4.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

@@ -19,7 +19,7 @@ detail: parameterize ordered_plan_property_items by the provider's declared ref.
 
 ## Dependencies
 
-- **Blocks:** [sase-m6.4](sase-m6.4.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.4](sase-m6.4.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

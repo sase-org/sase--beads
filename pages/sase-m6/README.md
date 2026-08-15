@@ -19,7 +19,7 @@ Every ACE Artifacts sub-tab — Patch included — is driven by one host-owned A
 | [sase-m6.10](sase-m6.10.md) | Conformance, diagnostics, docs, and the performance gate | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 | [sase-m6.2](sase-m6.2.md) | Detail bands render the provider's declared fields | ✓ closed | xsmall | 2026-08-14 | 1 | 1 |
 | [sase-m6.3](sase-m6.3.md) | One typed entry target on every pane | ✓ closed | large | 2026-08-14 | 1 | 1 |
-| [sase-m6.4](sase-m6.4.md) | ArtifactsPaneContract and derived, explainable capabilities | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
+| [sase-m6.4](sase-m6.4.md) | ArtifactsPaneContract and derived, explainable capabilities | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.5](sase-m6.5.md) | The shared shell and its visual grammar | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
 | [sase-m6.6](sase-m6.6.md) | One query engine across every pane and both evaluators | ◐ in_progress | xlarge | 2026-08-14 | 1 | 0 |
 | [sase-m6.7](sase-m6.7.md) | Relations, reveal, and grouping as contract features | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
@@ -35,7 +35,7 @@ flowchart TD
     n2["sase-m6.10: Conformance, diagnostics, docs, and the performance gate [in_progress]"]
     n3["sase-m6.2: Detail bands render the provider's declared fields [closed]"]
     n4["sase-m6.3: One typed entry target on every pane [closed]"]
-    n5["sase-m6.4: ArtifactsPaneContract and derived, explainable capabilities [in_progress]"]
+    n5["sase-m6.4: ArtifactsPaneContract and derived, explainable capabilities [closed]"]
     n6["sase-m6.5: The shared shell and its visual grammar [in_progress]"]
     n7["sase-m6.6: One query engine across every pane and both evaluators [in_progress]"]
     n8["sase-m6.7: Relations, reveal, and grouping as contract features [in_progress]"]
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.10/README.md) | [sase-m6.10](sase-m6.10.md) | 0 |
 | [bbugyi200.athena.sase-m6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.2/README.md) | [sase-m6.2](sase-m6.2.md) | 1 |
 | [bbugyi200.athena.sase-m6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.3.md) | [sase-m6.3](sase-m6.3.md) | 1 |
-| [bbugyi200.athena.sase-m6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.4/README.md) | [sase-m6.4](sase-m6.4.md) | 0 |
+| [bbugyi200.athena.sase-m6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.4.md) | [sase-m6.4](sase-m6.4.md) | 1 |
 | [bbugyi200.athena.sase-m6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.5/README.md) | [sase-m6.5](sase-m6.5.md) | 0 |
 | [bbugyi200.athena.sase-m6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6/README.md) | [sase-m6.6](sase-m6.6.md) | 0 |
 | [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7/README.md) | [sase-m6.7](sase-m6.7.md) | 0 |
@@ -87,3 +87,4 @@ flowchart TD
 | sase | [`8338a32`](https://github.com/sase-org/sase/commit/8338a320ac1d04c8a5fbc406659804bb841fb63f) | fix: order artifact detail fields from provider specs | [sase-m6.2](sase-m6.2.md) | 2026-08-14 17:28:28 EDT |
 | sase | [`191e9f2`](https://github.com/sase-org/sase/commit/191e9f2196830a547306d6de0f660a3cccf00235) | feat(ace): stabilize provider tabs and freeze Patch contract goldens | [sase-m6.1](sase-m6.1.md) | 2026-08-14 17:51:38 EDT |
 | sase | [`33180da`](https://github.com/sase-org/sase/commit/33180daf1e381f44a88a8825fa9e46d7c55b2228) | feat(ace): give every Artifacts pane a typed, serializable row identity | [sase-m6.3](sase-m6.3.md) | 2026-08-14 19:56:53 EDT |
+| sase | [`7060a2e`](https://github.com/sase-org/sase/commit/7060a2ec45dc8a89f6f29b72e9555259103259e7) | feat(tui): drive Artifacts panes from a derived host contract | [sase-m6.4](sase-m6.4.md) | 2026-08-14 21:17:24 EDT |

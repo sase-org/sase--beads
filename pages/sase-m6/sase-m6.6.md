@@ -13,7 +13,7 @@ query: replace three query dialects with one profile-parameterized engine spanni
 
 ## Dependencies
 
-- **Depends on:** [sase-m6.4](sase-m6.4.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-m6.4](sase-m6.4.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-m6.7](sase-m6.7.md) ◐ · ⧖ 2026-08-14
 
 ## Agents
