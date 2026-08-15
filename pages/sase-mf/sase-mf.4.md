@@ -14,10 +14,4 @@ migration_docs_and_verification: sweep public surfaces for retired aliases, docu
 ## Dependencies
 
 - **Depends on:** [sase-mf.2](sase-mf.2.md) ✓ · ⧖ 2026-08-15
-- **Depends on:** [sase-mf.3](sase-mf.3.md) ◐ · ⧖ 2026-08-15
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-mf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.4/README.md) | [sase-mf.4](sase-mf.4.md) | 0 |
+- **Depends on:** [sase-mf.3](sase-mf.3.md) ✓ · ⧖ 2026-08-15
