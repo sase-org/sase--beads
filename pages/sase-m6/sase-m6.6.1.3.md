@@ -11,6 +11,10 @@
 
 python_reference: make query_facade's Python-owned per-row evaluator consume the same compiled profile and typed/coerced Artifact fields as Rust, implement the shared field, sigil, predicate, macro, searchable-text and boolean semantics, and expand cross-language fixtures so the Python reference evaluator and Rust batch evaluator return identical matches and errors for every pane profile.
 
+## Notes
+
+[2026-08-15T11:20:44Z · sase-m6.6.1.3] PROPOSED FOLLOW-UP: Extend ArtifactQuerySchema with field match/control semantics — current compiled profiles encode type/searchability/repeatability but not exact-vs-substring matching or non-row controls such as stitches limit, so flat-pane migration must preserve those explicitly.
+
 ## Dependencies
 
 - **Depends on:** [sase-m6.6.1.1](sase-m6.6.1.1.md) ✓ · ⧖ 2026-08-15

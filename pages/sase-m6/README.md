@@ -46,7 +46,7 @@ flowchart TD
     n7["sase-m6.6: One query engine across every pane and both evaluators [in_progress]"]
     n8["sase-m6.6.1: One profile-driven query engine for every Artifacts pane [in_progress]"]
     n9["sase-m6.6.1.1: Define and compile the shared query profile [closed]"]
-    n10["sase-m6.6.1.2: Parameterize the Rust parser, corpus, and Python binding [in_progress]"]
+    n10["sase-m6.6.1.2: Parameterize the Rust parser, corpus, and Python binding [closed]"]
     n11["sase-m6.6.1.3: Generalize the Python reference evaluator [in_progress]"]
     n12["sase-m6.6.1.4: Namespace durable query state by pane [in_progress]"]
     n13["sase-m6.6.1.5: Migrate Stitches, Beads, Plans, Files, and provider panes [in_progress]"]
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.5.md) | [sase-m6.5](sase-m6.5.md) | 1 |
 | [bbugyi200.athena.sase-m6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.md) | [sase-m6.6](sase-m6.6.md) | 0 |
 | [bbugyi200.athena.sase-m6.6.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.1.md) | [sase-m6.6.1.1](sase-m6.6.1.1.md) | 1 |
-| [bbugyi200.athena.sase-m6.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.2/README.md) | [sase-m6.6.1.2](sase-m6.6.1.2.md) | 0 |
+| [bbugyi200.athena.sase-m6.6.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.2.md) | [sase-m6.6.1.2](sase-m6.6.1.2.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.3/README.md) | [sase-m6.6.1.3](sase-m6.6.1.3.md) | 0 |
 | [bbugyi200.athena.sase-m6.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.4/README.md) | [sase-m6.6.1.4](sase-m6.6.1.4.md) | 0 |
 | [bbugyi200.athena.sase-m6.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.5/README.md) | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 0 |
@@ -131,3 +131,4 @@ flowchart TD
 | sase | [`7060a2e`](https://github.com/sase-org/sase/commit/7060a2ec45dc8a89f6f29b72e9555259103259e7) | feat(tui): drive Artifacts panes from a derived host contract | [sase-m6.4](sase-m6.4.md) | 2026-08-14 21:17:24 EDT |
 | sase | [`d19d086`](https://github.com/sase-org/sase/commit/d19d08641246a2b0f9276fded07d93004815d640) | feat(tui): give every Artifacts pane a shared shell and visual grammar | [sase-m6.5](sase-m6.5.md) | 2026-08-14 23:17:01 EDT |
 | sase | [`2f9b59c`](https://github.com/sase-org/sase/commit/2f9b59cadb2a25169a15a58c8ab7aa5c05c2cfc4) | feat(ace): define and compile the shared query profile | [sase-m6.6.1.1](sase-m6.6.1.1.md) | 2026-08-15 07:02:27 EDT |
+| sase-core | [`sase-core@ba78216`](https://github.com/sase-org/sase-core/commit/ba7821682990377dae42ad9c8a08392592470f54) | feat(query): parameterize the Rust query engine by compiled profile | [sase-m6.6.1.2](sase-m6.6.1.2.md) | 2026-08-15 07:43:27 EDT |
