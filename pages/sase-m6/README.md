@@ -49,7 +49,7 @@ flowchart TD
     n10["sase-m6.6.1.2: Parameterize the Rust parser, corpus, and Python binding [closed]"]
     n11["sase-m6.6.1.3: Generalize the Python reference evaluator [closed]"]
     n12["sase-m6.6.1.4: Namespace durable query state by pane [closed]"]
-    n13["sase-m6.6.1.5: Migrate Stitches, Beads, Plans, Files, and provider panes [in_progress]"]
+    n13["sase-m6.6.1.5: Migrate Stitches, Beads, Plans, Files, and provider panes [closed]"]
     n14["sase-m6.6.1.6: Cut Patch over to the shared inline filter bar [in_progress]"]
     n15["sase-m6.6.1.7: Prove parity, migration safety, visuals, and responsiveness [in_progress]"]
     n16["sase-m6.7: Relations, reveal, and grouping as contract features [in_progress]"]
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.6.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.2.md) | [sase-m6.6.1.2](sase-m6.6.1.2.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.3/README.md) | [sase-m6.6.1.3](sase-m6.6.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.4/README.md) | [sase-m6.6.1.4](sase-m6.6.1.4.md) | 1 |
-| [bbugyi200.athena.sase-m6.6.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.5.md) | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2 |
+| [bbugyi200.athena.sase-m6.6.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.5.md) | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 3 |
 | [bbugyi200.athena.sase-m6.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.6/README.md) | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 0 |
 | [bbugyi200.athena.sase-m6.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.7/README.md) | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 0 |
 | [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.land/README.md) | [sase-m6.6.1](sase-m6.6.1.md) | 0 |
@@ -136,3 +136,4 @@ flowchart TD
 | sase | [`368e8f6`](https://github.com/sase-org/sase/commit/368e8f66479170f3c4f977369130daa5a8178eab) | feat(ace): namespace durable query state by pane | [sase-m6.6.1.4](sase-m6.6.1.4.md) | 2026-08-15 07:57:13 EDT |
 | sase | [`545cb8e`](https://github.com/sase-org/sase/commit/545cb8e7055c61a81773c424a94a73386aa131db) | feat(query): wire the compiled query profile into contracts, host facade, and FilterBar | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 09:08:39 EDT |
 | sase-core | [`sase-core@f898057`](https://github.com/sase-org/sase-core/commit/f8980573b24217d227a9931617443ceec0ceb302) | fix(query): correct exact-match, date-range, and digest handling in the profile engine | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 09:10:43 EDT |
+| sase | [`e4c6460`](https://github.com/sase-org/sase/commit/e4c64607f693552d3101bd1d130c3c76680f6e7f) | test(ace): align flat-pane visual fixtures with query profiles | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 19:38:20 EDT |
