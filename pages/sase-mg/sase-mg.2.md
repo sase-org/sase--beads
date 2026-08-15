@@ -22,7 +22,7 @@ show-and-list-cli: add the show command, redesign list around the core history q
 ## Dependencies
 
 - **Depends on:** [sase-mg.1](sase-mg.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mg.3](sase-mg.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mg.3](sase-mg.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

@@ -13,7 +13,7 @@ skill-and-integration: teach agents only the new show replacement, exercise end-
 
 ## Dependencies
 
-- **Depends on:** [sase-mg.3](sase-mg.3.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mg.3](sase-mg.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
