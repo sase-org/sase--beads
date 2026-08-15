@@ -28,10 +28,11 @@ selector-get-cli: implement exact, global, hood, key-wildcard, and JSON-path sel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-mg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.3/README.md) | [sase-mg.3](sase-mg.3.md) | 1 |
+| [bbugyi200.athena.sase-mg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.3/README.md) | [sase-mg.3](sase-mg.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@13a9db1`](https://github.com/sase-org/sase-core/commit/13a9db10c78e19c8e3aea45412999dd741fc206b) | feat: parse and resolve output-variable selectors | [sase-mg.3](sase-mg.3.md) | 2026-08-15 18:06:25 EDT |
+| sase | [`3b81003`](https://github.com/sase-org/sase/commit/3b810036f1a5b864f0e2641d8ede4d847cd01855) | feat(var): add selector language and get command | [sase-mg.3](sase-mg.3.md) | 2026-08-15 18:07:32 EDT |

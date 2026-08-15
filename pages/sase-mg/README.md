@@ -17,7 +17,7 @@ Make SASE output variables easy to inspect, search, aggregate, and retrieve acro
 |---|---|---|---|---|---:|---:|
 | [sase-mg.1](sase-mg.1.md) | Add an indexed output-variable query contract to sase-core | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mg.2](sase-mg.2.md) | Replace current-agent list with show and build historical list | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [sase-mg.3](sase-mg.3.md) | Add the variable selector language and get command | ✓ closed | medium | 2026-08-15 | 1 | 1 |
+| [sase-mg.3](sase-mg.3.md) | Add the variable selector language and get command | ✓ closed | medium | 2026-08-15 | 1 | 2 |
 | [sase-mg.4](sase-mg.4.md) | Synchronize the sase\_var skill and verify the complete workflow | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
 
 ## Lineage
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-mg.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.1/README.md) | [sase-mg.1](sase-mg.1.md) | 1 |
 | [bbugyi200.athena.sase-mg.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.2/README.md) | [sase-mg.2](sase-mg.2.md) | 1 |
-| [bbugyi200.athena.sase-mg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.3/README.md) | [sase-mg.3](sase-mg.3.md) | 1 |
+| [bbugyi200.athena.sase-mg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.3/README.md) | [sase-mg.3](sase-mg.3.md) | 2 |
 | [bbugyi200.athena.sase-mg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.4/README.md) | [sase-mg.4](sase-mg.4.md) | 0 |
 | [bbugyi200.athena.sase-mg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mg.land/README.md) | [sase-mg](README.md) | 0 |
 
@@ -55,3 +55,4 @@ flowchart TD
 | sase-core | [`sase-core@7acf607`](https://github.com/sase-org/sase-core/commit/7acf60737880ca56eb2745ea18b0e9a2c4e40f88) | feat: index agent output variable history | [sase-mg.1](sase-mg.1.md) | 2026-08-15 15:59:10 EDT |
 | sase | [`57af5d3`](https://github.com/sase-org/sase/commit/57af5d3ed0c0ca5557ec3d2421714172d7ded28a) | feat(var): add historical list and current-agent show | [sase-mg.2](sase-mg.2.md) | 2026-08-15 17:03:00 EDT |
 | sase-core | [`sase-core@13a9db1`](https://github.com/sase-org/sase-core/commit/13a9db10c78e19c8e3aea45412999dd741fc206b) | feat: parse and resolve output-variable selectors | [sase-mg.3](sase-mg.3.md) | 2026-08-15 18:06:25 EDT |
+| sase | [`3b81003`](https://github.com/sase-org/sase/commit/3b810036f1a5b864f0e2641d8ede4d847cd01855) | feat(var): add selector language and get command | [sase-mg.3](sase-mg.3.md) | 2026-08-15 18:07:32 EDT |
