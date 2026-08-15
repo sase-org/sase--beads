@@ -13,7 +13,7 @@ migration_docs_and_verification: sweep public surfaces for retired aliases, docu
 
 ## Dependencies
 
-- **Depends on:** [sase-mf.2](sase-mf.2.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mf.2](sase-mf.2.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-mf.3](sase-mf.3.md) ◐ · ⧖ 2026-08-15
 
 ## Agents

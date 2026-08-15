@@ -16,7 +16,7 @@ SASE exposes only five size aliases, routes launch roles through explicit config
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-mf.1](sase-mf.1.md) | Define shared size and epic-land model routing primitives | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [sase-mf.2](sase-mf.2.md) | Replace legacy role aliases with the compact config contract | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
+| [sase-mf.2](sase-mf.2.md) | Replace legacy role aliases with the compact config contract | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mf.3](sase-mf.3.md) | Redesign Models around launch settings and flat size aliases | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 | [sase-mf.4](sase-mf.4.md) | Complete migration coverage, documentation, and end-to-end verification | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 
@@ -26,7 +26,7 @@ SASE exposes only five size aliases, routes launch roles through explicit config
 flowchart TD
     n0["sase-mf: Simplify built-in model routing and redesign the Models panel [in_progress]"]
     n1["sase-mf.1: Define shared size and epic-land model routing primitives [closed]"]
-    n2["sase-mf.2: Replace legacy role aliases with the compact config contract [in_progress]"]
+    n2["sase-mf.2: Replace legacy role aliases with the compact config contract [closed]"]
     n3["sase-mf.3: Redesign Models around launch settings and flat size aliases [in_progress]"]
     n4["sase-mf.4: Complete migration coverage, documentation, and end-to-end verification [in_progress]"]
     n0 --> n1
@@ -44,7 +44,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-mf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.1/README.md) | [sase-mf.1](sase-mf.1.md) | 1 |
-| [bbugyi200.athena.sase-mf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.2/README.md) | [sase-mf.2](sase-mf.2.md) | 0 |
+| [bbugyi200.athena.sase-mf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.2/README.md) | [sase-mf.2](sase-mf.2.md) | 1 |
 | [bbugyi200.athena.sase-mf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.3/README.md) | [sase-mf.3](sase-mf.3.md) | 0 |
 | [bbugyi200.athena.sase-mf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.4/README.md) | [sase-mf.4](sase-mf.4.md) | 0 |
 | [bbugyi200.athena.sase-mf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.land/README.md) | [sase-mf](README.md) | 0 |
@@ -54,3 +54,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b360211`](https://github.com/sase-org/sase-core/commit/b3602118b36d65e4462511a72bc90717cc476909) | feat(model\_route): add shared size and epic-land routing primitives | [sase-mf.1](sase-mf.1.md) | 2026-08-15 14:53:30 EDT |
+| sase | [`2fcca46`](https://github.com/sase-org/sase/commit/2fcca46eb36ff1bc23bcc4984f8b1bc09b4f3e1a) | feat!: replace role model aliases with size launch settings | [sase-mf.2](sase-mf.2.md) | 2026-08-15 16:40:39 EDT |

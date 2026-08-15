@@ -19,7 +19,7 @@ core_model_routes: add and bind the provider-agnostic Rust contract for size ali
 
 ## Dependencies
 
-- **Blocks:** [sase-mf.2](sase-mf.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mf.2](sase-mf.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
