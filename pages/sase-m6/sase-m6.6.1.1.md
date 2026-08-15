@@ -21,7 +21,7 @@ profile: define the Python-authored ArtifactQuerySchema and deterministic compil
 
 - **Blocks:** [sase-m6.6.1.2](sase-m6.6.1.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-m6.6.1.3](sase-m6.6.1.3.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m6.6.1.4](sase-m6.6.1.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m6.6.1.4](sase-m6.6.1.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
