@@ -35,7 +35,7 @@ flowchart TD
     n2["sase-mc.2: Make every model-selection path honor disabled providers [closed]"]
     n3["sase-mc.3: Build the Provider Routing experience in the Models panel [closed]"]
     n4["sase-mc.4: Document, stress, and land the combined provider-disable feature [closed]"]
-    n5["sase-mc.5: Complete provider-disable Models-panel correctness and acceptance [in_progress]"]
+    n5["sase-mc.5: Complete provider-disable Models-panel correctness and acceptance [closed]"]
     n6["sase-mc.5.1: Make provider-routing state safe and exact [closed]"]
     n7["sase-mc.5.2: Complete behavior and visual acceptance coverage [closed]"]
     n0 --> n1
@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mc.4/README.md) | [sase-mc.4](sase-mc.4.md) | 1 |
 | [bbugyi200.athena.sase-mc.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mc.5.1/README.md) | [sase-mc.5.1](sase-mc.5.1.md) | 1 |
 | [bbugyi200.athena.sase-mc.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mc.5.2.md) | [sase-mc.5.2](sase-mc.5.2.md) | 1 |
-| [bbugyi200.athena.sase-mc.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mc.5.land/README.md) | [sase-mc.5](sase-mc.5.md) | 0 |
+| [bbugyi200.athena.sase-mc.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mc.5.land.md) | [sase-mc.5](sase-mc.5.md) | 1 |
 | [bbugyi200.athena.sase-mc.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mc.land.md) | [sase-mc](README.md) | 0 |
 
 ## Commits
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`3a31bd3`](https://github.com/sase-org/sase/commit/3a31bd3b8c4a5082edc772b50f07103436ff5764) | feat(llm): land provider disable integration | [sase-mc.4](sase-mc.4.md) | 2026-08-15 15:42:51 EDT |
 | sase | [`56c0df1`](https://github.com/sase-org/sase/commit/56c0df12b659e28acb29a5a9d8fae16aa9fe2d91) | fix(tui): respect provider disables in Models panel routing | [sase-mc.5.1](sase-mc.5.1.md) | 2026-08-15 16:52:47 EDT |
 | sase | [`6841e29`](https://github.com/sase-org/sase/commit/6841e296fc7063142ec6afc42941020c6831fb72) | test: cover provider disable completion flows | [sase-mc.5.2](sase-mc.5.2.md) | 2026-08-15 17:33:52 EDT |
+| sase | [`5511f04`](https://github.com/sase-org/sase/commit/5511f04ed37e0545984957e17e52247cc3fa3256) | fix(tui): keep Models selection across provider snapshots | [sase-mc.5](sase-mc.5.md) | 2026-08-15 18:51:27 EDT |
