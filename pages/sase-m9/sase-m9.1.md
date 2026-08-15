@@ -13,7 +13,7 @@ shell-taxonomy: plan and land the behavior-preserving terminology migration, glo
 
 ## Dependencies
 
-- **Blocks:** [sase-m9.2](sase-m9.2.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m9.2](sase-m9.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

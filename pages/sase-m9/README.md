@@ -16,7 +16,7 @@ Every durable proc is detached and supervisor-owned, monitors are a proc-shell f
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-m9.1](sase-m9.1.md) | Sase agent and shell taxonomy | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
-| [sase-m9.2](sase-m9.2.md) | Unified proc-shell platform | ◐ in_progress | xlarge | 2026-08-14 | 1 | 0 |
+| [sase-m9.2](sase-m9.2.md) | Unified proc-shell platform | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
 | [sase-m9.3](sase-m9.3.md) | Supervisor ownership for every ACE proc | ◐ in_progress | xlarge | 2026-08-14 | 1 | 0 |
 
 ## Lineage
@@ -29,18 +29,24 @@ flowchart TD
     n3["sase-m9.1.1.1: Canonical sase-agent projection and compatibility aliases [closed]"]
     n4["sase-m9.1.1.2: Shell glossary and generated terminology surfaces [closed]"]
     n5["sase-m9.1.1.3: Monitor agent CLI language and compatibility [closed]"]
-    n6["sase-m9.2: Unified proc-shell platform [in_progress]"]
-    n7["sase-m9.2.1: Unified proc-shell platform [in_progress]"]
+    n6["sase-m9.2: Unified proc-shell platform [closed]"]
+    n7["sase-m9.2.1: Unified proc-shell platform [closed]"]
     n8["sase-m9.2.1.1: Atomic proc schema and lifecycle [closed]"]
     n9["sase-m9.2.1.2: One detached proc service and supervisor [closed]"]
     n10["sase-m9.2.1.3: Named proc-shell addressing and CLI [closed]"]
     n11["sase-m9.2.1.4: Family-attached monitor facade and settlement [closed]"]
     n12["sase-m9.2.1.5: Service cutover and compatibility verification [closed]"]
-    n13["sase-m9.2.1.6: Finish and land the unified proc-shell platform [in_progress]"]
+    n13["sase-m9.2.1.6: Finish and land the unified proc-shell platform [closed]"]
     n14["sase-m9.2.1.6.1: Make crash-boundary settlement recovery deterministic [closed]"]
     n15["sase-m9.2.1.6.2: Require the published proc lifecycle bindings [closed]"]
     n16["sase-m9.2.1.6.3: Re-audit, verify, and close sase-m9.2.1 [closed]"]
     n17["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
+    n18["sase-m9.3.1: Supervisor ownership for every ACE proc [in_progress]"]
+    n19["sase-m9.3.1.1: Durable operation and result contracts [closed]"]
+    n20["sase-m9.3.1.2: Migrate patch and agent proc producers [in_progress]"]
+    n21["sase-m9.3.1.3: Migrate remaining durable ACE producers [in_progress]"]
+    n22["sase-m9.3.1.4: Read-only ACE proc observation [in_progress]"]
+    n23["sase-m9.3.1.5: Detached-option retirement and invariants [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -58,6 +64,12 @@ flowchart TD
     n13 --> n15
     n13 --> n16
     n0 --> n17
+    n17 --> n18
+    n18 --> n19
+    n18 --> n20
+    n18 --> n21
+    n18 --> n22
+    n18 --> n23
     n1 -.-> n6
     n3 -.-> n4
     n3 -.-> n5
@@ -69,6 +81,11 @@ flowchart TD
     n11 -.-> n12
     n14 -.-> n16
     n15 -.-> n16
+    n19 -.-> n20
+    n19 -.-> n21
+    n20 -.-> n22
+    n21 -.-> n22
+    n22 -.-> n23
 ```
 
 ## Agents
@@ -91,7 +108,13 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.2.1.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.3.md) | [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-m9.2.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.land.md) | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2 |
 | [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.land.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
-| [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3/README.md) | [sase-m9.3](sase-m9.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.md) | [sase-m9.3](sase-m9.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.1.md) | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-m9.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.2/README.md) | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.3/README.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.4/README.md) | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.5/README.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.land/README.md) | [sase-m9.3.1](sase-m9.3.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 0 |
 
 ## Commits
@@ -112,3 +135,4 @@ flowchart TD
 | sase | [`ffce3c8`](https://github.com/sase-org/sase/commit/ffce3c842846352f6b39e66066fdd30aaf9cd193) | fix(procs): recover proc-shell settlement while waiting | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 2026-08-15 11:28:41 EDT |
 | sase | [`4ba7ee8`](https://github.com/sase-org/sase/commit/4ba7ee812573024d48b201d223c7cc075903b3b0) | build(deps): require provider-disable core floor | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 12:56:20 EDT |
 | sase-core | [`sase-core@1ecbc8c`](https://github.com/sase-org/sase-core/commit/1ecbc8c54af83e069b26aca148e102774fde756d) | fix(notifications): preserve snooze microsecond timestamps | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 13:22:27 EDT |
+| sase | [`07e254a`](https://github.com/sase-org/sase/commit/07e254a42073f3367bba23b1beb893ad72f92635) | feat(ops): add durable operation contracts and producer inventory | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 2026-08-15 16:39:31 EDT |

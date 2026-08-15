@@ -13,10 +13,10 @@ ace-proc-ownership: plan and land durable command/result migrations for ACE proc
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.2](sase-m9.2.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-m9.2](sase-m9.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3/README.md) | [sase-m9.3](sase-m9.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.md) | [sase-m9.3](sase-m9.3.md) | 0 |
