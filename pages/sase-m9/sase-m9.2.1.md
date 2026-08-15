@@ -21,4 +21,4 @@ Replace the separate proc and monitor execution engines with one Rust-backed, at
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.land/README.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.land.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
