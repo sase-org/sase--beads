@@ -13,7 +13,7 @@ proc-platform-cutover: collapse bead task/epic launch monitoring onto the shared
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.2.1.4](sase-m9.2.1.4.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-m9.2.1.4](sase-m9.2.1.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
