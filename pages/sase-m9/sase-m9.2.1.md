@@ -17,6 +17,8 @@ Replace the separate proc and monitor execution engines with one Rust-backed, at
 
 [2026-08-15T14:03:17Z · 027] DISCOVERED ISSUE: During restore_agent_lane_glossary validation on 2026-08-15, the same glossary/generated-memory-only 'just check' full-suite run failed tests/test_procs_service.py::test_settlement_resumes_after_an_injected_crash once, then the exact focused rerun '.venv/bin/python -m pytest tests/test_procs_service.py::test_settlement_resumes_after_an_injected_crash -q' passed (1 passed in 2.34s). This independently corroborates the existing 2026-08-15 note on this epic for the same full-lane/pass-isolation proc settlement node. The local diff touches no proc service or settlement code.
 
+[2026-08-15T16:07:49Z · 026] DISCOVERED ISSUE: During finish_flat_pane_query_migration verification on 2026-08-15, just check escalated to the governed full suite because the Justfile changed and failed tests/test_procs_service.py::test_settlement_resumes_after_an_injected_crash under the 14-worker lane. The exact node passed immediately afterward in a focused rerun together with tests/ace/tui/test_config_center_state.py::test_save_atomically_replaces_existing_state: '.venv/bin/python -m pytest tests/test_procs_service.py::test_settlement_resumes_after_an_injected_crash tests/ace/tui/test_config_center_state.py::test_save_atomically_replaces_existing_state -q' -> 2 passed in 1.54s. The local diff is Artifacts query migration work and does not touch proc service settlement; this corroborates the existing full-lane/pass-isolation proc settlement notes on this active proc-shell epic.
+
 ## Agents
 
 | Agent | Bead | Commits |

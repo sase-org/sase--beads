@@ -39,7 +39,7 @@ flowchart TD
     n13["sase-m9.2.1.6: Finish and land the unified proc-shell platform [in_progress]"]
     n14["sase-m9.2.1.6.1: Make crash-boundary settlement recovery deterministic [closed]"]
     n15["sase-m9.2.1.6.2: Require the published proc lifecycle bindings [closed]"]
-    n16["sase-m9.2.1.6.3: Re-audit, verify, and close sase-m9.2.1 [in_progress]"]
+    n16["sase-m9.2.1.6.3: Re-audit, verify, and close sase-m9.2.1 [closed]"]
     n17["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -86,10 +86,10 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.3/README.md) | [sase-m9.2.1.3](sase-m9.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.4/README.md) | [sase-m9.2.1.4](sase-m9.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.5.md) | [sase-m9.2.1.5](sase-m9.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-m9.2.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.1/README.md) | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.1/README.md) | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.2/README.md) | [sase-m9.2.1.6.2](sase-m9.2.1.6.2.md) | 1 |
-| [bbugyi200.athena.sase-m9.2.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.3/README.md) | [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) | 0 |
-| [bbugyi200.athena.sase-m9.2.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.land/README.md) | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.3.md) | [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.land.md) | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.land.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3/README.md) | [sase-m9.3](sase-m9.3.md) | 0 |
 | [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 0 |
@@ -109,3 +109,5 @@ flowchart TD
 | sase | [`8b4635a`](https://github.com/sase-org/sase/commit/8b4635ad13e8caa76a004adee92d41c4322fd43c) | feat(monitor): run monitors through the shared proc service | [sase-m9.2.1.4](sase-m9.2.1.4.md) | 2026-08-15 09:25:57 EDT |
 | sase | [`6683d4b`](https://github.com/sase-org/sase/commit/6683d4bcc25c173a5a5903e1884271f0acb3f937) | docs: document named proc shell addressing | [sase-m9.2.1.5](sase-m9.2.1.5.md) | 2026-08-15 10:09:31 EDT |
 | sase | [`ca93686`](https://github.com/sase-org/sase/commit/ca93686a65d1ad53ecf1c94d024658750f05bb27) | build(deps): require proc lifecycle core bindings | [sase-m9.2.1.6.2](sase-m9.2.1.6.2.md) | 2026-08-15 11:28:02 EDT |
+| sase | [`ffce3c8`](https://github.com/sase-org/sase/commit/ffce3c842846352f6b39e66066fdd30aaf9cd193) | fix(procs): recover proc-shell settlement while waiting | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 2026-08-15 11:28:41 EDT |
+| sase | [`4ba7ee8`](https://github.com/sase-org/sase/commit/4ba7ee812573024d48b201d223c7cc075903b3b0) | build(deps): require provider-disable core floor | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 12:56:20 EDT |

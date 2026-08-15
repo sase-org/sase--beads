@@ -23,7 +23,7 @@ integrate-published-core-floor: raise the sase-core-rs dependency floor from 0.2
 
 ## Dependencies
 
-- **Blocks:** [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

@@ -15,12 +15,20 @@ stabilize-settlement-recovery: root-cause and fix the reproducible race in tests
 
 [2026-08-15T15:24:19Z · sase-m9.2.1.6.1] Implemented wait_for_proc proc-shell reconciliation retry for stale active rows; verified just install, focused settlement regressions including all checkpoints x3, proc service/supervisor/runner/facade/migration/names suites (82 passed), 20 consecutive output_closed focused invocations, and just check passed; known core-floor advisory remains sibling phase scope.
 
+[2026-08-15T15:27:49Z · sase-m9.2.1.6.1] Verified just install; focused settlement regressions; proc service/supervisor/runner/facade/migration/names suites (82 passed); original output_closed crash test passed 20 consecutive focused runs; just check passed.
+
 ## Dependencies
 
-- **Blocks:** [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.2.1.6.3](sase-m9.2.1.6.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.2.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.1/README.md) | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.6.1/README.md) | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ffce3c8`](https://github.com/sase-org/sase/commit/ffce3c842846352f6b39e66066fdd30aaf9cd193) | fix(procs): recover proc-shell settlement while waiting | [sase-m9.2.1.6.1](sase-m9.2.1.6.1.md) | 2026-08-15 11:28:41 EDT |
