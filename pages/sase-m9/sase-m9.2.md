@@ -20,4 +20,4 @@ proc-shell-platform: plan and land the Rust-backed proc schema, atomic lifecycle
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2/README.md) | [sase-m9.2](sase-m9.2.md) | 0 |
+| [bbugyi200.athena.sase-m9.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.md) | [sase-m9.2](sase-m9.2.md) | 0 |
