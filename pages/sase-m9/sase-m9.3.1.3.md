@@ -20,4 +20,4 @@ migrate-bead-plugin-and-utility-producers: migrate bead and artifact mutations, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.3/README.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.3.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 0 |

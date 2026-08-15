@@ -11,6 +11,12 @@
 
 Every durable proc is detached and supervisor-owned, monitors are a proc-shell facade, ACE owns no proc execution, and SASE presents one coherent agent-and-shell taxonomy.
 
+## Notes
+
+[2026-08-15T22:26:45Z · sase-mc.5.land] DISCOVERED ISSUE: Proposed by phase sase-mc.5.2 and reproduced by land agent on current master 3b810036f: sase monitor show g6g21192dysz --all-lines crashes in list_monitors with ValueError because ace-run artifact 20260815145837 has agent_family_role=monitor but no monitor_id. This is unrelated to provider disabling and causally belongs to the active supervisor-owned proc/monitor-facade epic; monitor listing/show must tolerate or correctly classify legacy/malformed monitor-role artifacts.
+
+[2026-08-15T22:38:23Z · sase-me--1] DISCOVERED ISSUE: Independently reproduced while finishing task sase-me on current master 5b4d5b3c6: sase monitor show vhy8mhvgd48q --all-lines crashes in list_monitors with ValueError because ace-run artifact 20260815145837 is not a monitor member. This blocks retained-log inspection for a completed monitor and corroborates the existing malformed monitor-role artifact report; causal owner is the active supervisor-owned proc/monitor-facade epic.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,7 +49,7 @@ flowchart TD
     n17["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
     n18["sase-m9.3.1: Supervisor ownership for every ACE proc [in_progress]"]
     n19["sase-m9.3.1.1: Durable operation and result contracts [closed]"]
-    n20["sase-m9.3.1.2: Migrate patch and agent proc producers [in_progress]"]
+    n20["sase-m9.3.1.2: Migrate patch and agent proc producers [closed]"]
     n21["sase-m9.3.1.3: Migrate remaining durable ACE producers [in_progress]"]
     n22["sase-m9.3.1.4: Read-only ACE proc observation [in_progress]"]
     n23["sase-m9.3.1.5: Detached-option retirement and invariants [in_progress]"]
@@ -110,8 +116,8 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.land.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.md) | [sase-m9.3](sase-m9.3.md) | 0 |
 | [bbugyi200.athena.sase-m9.3.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.1.md) | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 1 |
-| [bbugyi200.athena.sase-m9.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.2/README.md) | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 0 |
-| [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.3/README.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.2.md) | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 1 |
+| [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.3.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-m9.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.4/README.md) | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.5/README.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-m9.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.land/README.md) | [sase-m9.3.1](sase-m9.3.1.md) | 0 |
@@ -136,3 +142,4 @@ flowchart TD
 | sase | [`4ba7ee8`](https://github.com/sase-org/sase/commit/4ba7ee812573024d48b201d223c7cc075903b3b0) | build(deps): require provider-disable core floor | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 12:56:20 EDT |
 | sase-core | [`sase-core@1ecbc8c`](https://github.com/sase-org/sase-core/commit/1ecbc8c54af83e069b26aca148e102774fde756d) | fix(notifications): preserve snooze microsecond timestamps | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 13:22:27 EDT |
 | sase | [`07e254a`](https://github.com/sase-org/sase/commit/07e254a42073f3367bba23b1beb893ad72f92635) | feat(ops): add durable operation contracts and producer inventory | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 2026-08-15 16:39:31 EDT |
+| sase | [`0835b38`](https://github.com/sase-org/sase/commit/0835b38d24fb0316d23e664b2d3d7a0ee079c49c) | feat(ace): migrate Patch and agent producers to durable argv | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 2026-08-15 18:40:26 EDT |
