@@ -24,7 +24,7 @@ unified-proc-supervisor: introduce one typed Python proc submission request and 
 ## Dependencies
 
 - **Depends on:** [sase-m9.2.1.1](sase-m9.2.1.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m9.2.1.3](sase-m9.2.1.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.2.1.3](sase-m9.2.1.3.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-m9.2.1.4](sase-m9.2.1.4.md) ◐ · ⧖ 2026-08-15
 
 ## Agents
