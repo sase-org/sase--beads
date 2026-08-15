@@ -19,7 +19,7 @@ runtime: remove synchronous provider-state reads from rendering, close custom-ta
 
 ## Dependencies
 
-- **Blocks:** [sase-mc.5.2](sase-mc.5.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mc.5.2](sase-mc.5.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
