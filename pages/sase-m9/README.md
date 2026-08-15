@@ -35,7 +35,7 @@ flowchart TD
     n9["sase-m9.2.1.2: One detached proc service and supervisor [closed]"]
     n10["sase-m9.2.1.3: Named proc-shell addressing and CLI [closed]"]
     n11["sase-m9.2.1.4: Family-attached monitor facade and settlement [closed]"]
-    n12["sase-m9.2.1.5: Service cutover and compatibility verification [in_progress]"]
+    n12["sase-m9.2.1.5: Service cutover and compatibility verification [closed]"]
     n13["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.2/README.md) | [sase-m9.2.1.2](sase-m9.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.3/README.md) | [sase-m9.2.1.3](sase-m9.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.4/README.md) | [sase-m9.2.1.4](sase-m9.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-m9.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.5/README.md) | [sase-m9.2.1.5](sase-m9.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-m9.2.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.5.md) | [sase-m9.2.1.5](sase-m9.2.1.5.md) | 1 |
 | [bbugyi200.athena.sase-m9.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2.1.land/README.md) | [sase-m9.2.1](sase-m9.2.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3/README.md) | [sase-m9.3](sase-m9.3.md) | 0 |
 | [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase | [`152268b`](https://github.com/sase-org/sase/commit/152268b597d070c653fe022e88c9370352e07a08) | feat(procs): route submits through one typed supervisor service | [sase-m9.2.1.2](sase-m9.2.1.2.md) | 2026-08-15 07:37:40 EDT |
 | sase | [`1e242aa`](https://github.com/sase-org/sase/commit/1e242aa8b9e8c6c4bc4213fa84526378ec3512a2) | feat(procs): address named proc shells from the CLI | [sase-m9.2.1.3](sase-m9.2.1.3.md) | 2026-08-15 08:12:12 EDT |
 | sase | [`8b4635a`](https://github.com/sase-org/sase/commit/8b4635ad13e8caa76a004adee92d41c4322fd43c) | feat(monitor): run monitors through the shared proc service | [sase-m9.2.1.4](sase-m9.2.1.4.md) | 2026-08-15 09:25:57 EDT |
+| sase | [`6683d4b`](https://github.com/sase-org/sase/commit/6683d4bcc25c173a5a5903e1884271f0acb3f937) | docs: document named proc shell addressing | [sase-m9.2.1.5](sase-m9.2.1.5.md) | 2026-08-15 10:09:31 EDT |
