@@ -19,10 +19,11 @@ Repair the two epic-caused landing blockers, integrate the published Rust core l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.2.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.land.md) | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 1 |
+| [bbugyi200.athena.sase-m9.2.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.2.1.6.land.md) | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4ba7ee8`](https://github.com/sase-org/sase/commit/4ba7ee812573024d48b201d223c7cc075903b3b0) | build(deps): require provider-disable core floor | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 12:56:20 EDT |
+| sase-core | [`sase-core@1ecbc8c`](https://github.com/sase-org/sase-core/commit/1ecbc8c54af83e069b26aca148e102774fde756d) | fix(notifications): preserve snooze microsecond timestamps | [sase-m9.2.1.6](sase-m9.2.1.6.md) | 2026-08-15 13:22:27 EDT |
