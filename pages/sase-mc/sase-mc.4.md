@@ -13,7 +13,7 @@ integration-and-docs: reconcile cross-phase behavior, update the LLM/ACE/Rust-ba
 
 ## Dependencies
 
-- **Depends on:** [sase-mc.3](sase-mc.3.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mc.3](sase-mc.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

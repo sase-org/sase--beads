@@ -20,7 +20,7 @@ routing-semantics: introduce one routing-availability seam and apply it to alias
 ## Dependencies
 
 - **Depends on:** [sase-mc.1](sase-mc.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mc.3](sase-mc.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mc.3](sase-mc.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
