@@ -19,7 +19,7 @@ contract: introduce ArtifactsPaneContract with a closed PaneCapability vocabular
 
 - **Depends on:** [sase-m6.2](sase-m6.2.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m6.3](sase-m6.3.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-m6.5](sase-m6.5.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.5](sase-m6.5.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-m6.6](sase-m6.6.md) ◐ · ⧖ 2026-08-14
 
 ## Agents
