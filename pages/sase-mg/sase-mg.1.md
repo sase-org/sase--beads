@@ -19,7 +19,7 @@ core-variable-index: project stored output variables into the agent artifact ind
 
 ## Dependencies
 
-- **Blocks:** [sase-mg.2](sase-mg.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mg.2](sase-mg.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
