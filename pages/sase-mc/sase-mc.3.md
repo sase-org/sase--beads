@@ -13,7 +13,7 @@ models-panel-ux: add a provider-routing modal, duration and exact-time flows, li
 
 ## Dependencies
 
-- **Depends on:** [sase-mc.2](sase-mc.2.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mc.2](sase-mc.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mc.4](sase-mc.4.md) ◐ · ⧖ 2026-08-15
 
 ## Agents

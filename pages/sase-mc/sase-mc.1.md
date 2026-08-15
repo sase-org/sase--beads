@@ -19,7 +19,7 @@ provider-disable-core: add a versioned, lock-bounded, atomic multi-provider disa
 
 ## Dependencies
 
-- **Blocks:** [sase-mc.2](sase-mc.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mc.2](sase-mc.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
