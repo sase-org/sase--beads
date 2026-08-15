@@ -28,7 +28,7 @@ flowchart TD
     n2["sase-m9.1.1: Sase agent and shell taxonomy migration [in_progress]"]
     n3["sase-m9.1.1.1: Canonical sase-agent projection and compatibility aliases [closed]"]
     n4["sase-m9.1.1.2: Shell glossary and generated terminology surfaces [in_progress]"]
-    n5["sase-m9.1.1.3: Monitor agent CLI language and compatibility [in_progress]"]
+    n5["sase-m9.1.1.3: Monitor agent CLI language and compatibility [closed]"]
     n6["sase-m9.2: Unified proc-shell platform [in_progress]"]
     n7["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
     n0 --> n1
@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.1.md) | [sase-m9.1](sase-m9.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.1.1.1/README.md) | [sase-m9.1.1.1](sase-m9.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-m9.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.1.1.2/README.md) | [sase-m9.1.1.2](sase-m9.1.1.2.md) | 0 |
-| [bbugyi200.athena.sase-m9.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.1.1.3/README.md) | [sase-m9.1.1.3](sase-m9.1.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m9.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.1.1.3/README.md) | [sase-m9.1.1.3](sase-m9.1.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m9.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.1.1.land/README.md) | [sase-m9.1.1](sase-m9.1.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.2/README.md) | [sase-m9.2](sase-m9.2.md) | 0 |
 | [bbugyi200.athena.sase-m9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3/README.md) | [sase-m9.3](sase-m9.3.md) | 0 |
@@ -62,3 +62,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4280bc9`](https://github.com/sase-org/sase/commit/4280bc990c59dd3c2558af442673b0c037015281) | refactor(agents): introduce canonical SaseAgentRef projection | [sase-m9.1.1.1](sase-m9.1.1.1.md) | 2026-08-14 19:59:18 EDT |
+| sase | [`e923dcb`](https://github.com/sase-org/sase/commit/e923dcb5d104705db58ffdf402309b85aac160b5) | feat(monitor)!: rename monitor CLI lane-facing language to agent | [sase-m9.1.1.3](sase-m9.1.1.3.md) | 2026-08-14 20:27:09 EDT |

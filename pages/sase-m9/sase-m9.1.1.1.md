@@ -22,7 +22,7 @@ sase-agent-projection: introduce SaseAgentRef and sase-agent projection helpers 
 ## Dependencies
 
 - **Blocks:** [sase-m9.1.1.2](sase-m9.1.1.2.md) ◐ · ⧖ 2026-08-14
-- **Blocks:** [sase-m9.1.1.3](sase-m9.1.1.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m9.1.1.3](sase-m9.1.1.3.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
