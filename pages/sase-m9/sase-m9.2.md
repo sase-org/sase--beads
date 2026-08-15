@@ -13,7 +13,7 @@ proc-shell-platform: plan and land the Rust-backed proc schema, atomic lifecycle
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.1](sase-m9.1.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-m9.1](sase-m9.1.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-m9.3](sase-m9.3.md) ◐ · ⧖ 2026-08-14
 
 ## Agents
