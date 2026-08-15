@@ -13,7 +13,7 @@ monitor-proc-facade: reimplement monitor start/list/show/stop as direct calls an
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-m9.2.1.3](sase-m9.2.1.3.md) ◐ · ⧖ 2026-08-15
 - **Blocks:** [sase-m9.2.1.5](sase-m9.2.1.5.md) ◐ · ⧖ 2026-08-15
 

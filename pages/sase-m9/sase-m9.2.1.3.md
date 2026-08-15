@@ -13,7 +13,7 @@ named-proc-shell-cli: add -N/--shell to proc run and list, resolve show/kill ref
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-m9.2.1.4](sase-m9.2.1.4.md) ◐ · ⧖ 2026-08-15
 
 ## Agents

@@ -19,7 +19,7 @@ proc-store-lifecycle: extend the Rust proc wire and Python parity models with ad
 
 ## Dependencies
 
-- **Blocks:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.2.1.2](sase-m9.2.1.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
