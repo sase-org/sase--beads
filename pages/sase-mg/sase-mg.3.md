@@ -22,7 +22,7 @@ selector-get-cli: implement exact, global, hood, key-wildcard, and JSON-path sel
 ## Dependencies
 
 - **Depends on:** [sase-mg.2](sase-mg.2.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mg.4](sase-mg.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mg.4](sase-mg.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
