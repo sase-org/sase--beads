@@ -11,6 +11,10 @@
 
 persistence: replace the global saved-query, history, and selection stores with pane-keyed records containing source text, canonical text, profile digest, and ArtifactEntryTarget tokens; add safe read-time migration and write-then-read validation while retaining legacy files until success, surface stale-profile saved views as editable errors, and route slots, pickers, history, help, startup, and selection restore through the active pane without switching tabs.
 
+## Notes
+
+[2026-08-15T11:45:17Z · sase-m6.6.1.4] PROPOSED FOLLOW-UP: `sase monitor start` fails with FamilyAttachError ("Cannot create agent family 'sase-m6.6.1': resolved parent is named 'sase-m6.6.1.7'") when invoked from an sase-m6.6.1.4 agent — src/sase/agent/_family_promotion.py:131 promote_agent_to_family raises instead of resolving the family from the calling agents own bead lineage. Blocks routing just check/just check-full through /sase_monitor for any agent under this epic; worked around by running just check in the foreground/background shell instead.
+
 ## Dependencies
 
 - **Depends on:** [sase-m6.6.1.1](sase-m6.6.1.1.md) ✓ · ⧖ 2026-08-15
