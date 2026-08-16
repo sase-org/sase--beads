@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-mi](README.md) / sase-mi.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.02y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.02y.md) · **Assignee:** `sase-mi.2` · **Size:** medium
-**Created:** 2026-08-15 20:01:24 EDT
+**Created:** 2026-08-15 20:01:24 EDT · **Closed:** 2026-08-15 21:15:22 EDT
 **Plan:** [202608/high\_impact\_task\_bead\_sweep.md](https://github.com/sase-org/sase--plans/blob/main/202608/high_impact_task_bead_sweep.md)
 
 ## Description
 
 protect_bead_streams: Fix sase-li by preventing publication or sync from shrinking event streams and by diagnosing the offending history precisely.
+
+## Notes
+
+[2026-08-16T01:13:59Z · sase-mi.2] PROPOSED FOLLOW-UP: just check fails on pre-existing Symvision private-import errors — _ProviderRoutingModal and related symbols in src/sase/ace/tui/modals/models_panel_provider_*.py plus _now imports in src/sase/vcs_log/fetch_cache.py, src/sase/bead/project.py, src/sase/prompt/search/dates.py; not caused by this phase.
+
+[2026-08-16T01:15:22Z · sase-mi.2] Append-only stream guard is on the commit/push boundary: shrinks restore the ancestor (or valid local superset), rewrites restore and refuse, publication cannot emit a sync-bead-state-and-pages commit that drops a base event, and doctor/sync diagnostics name the stream, missing/rewritten range, and first offending commit. Verified tests/test_bead/test_stream_integrity.py plus conflict, publication, sync-worker, and doctor suites; escalated just test-scoped passed 30617 tests / 11 skipped. just check lint otherwise passed; pre-existing Symvision private-import errors are noted as PROPOSED FOLLOW-UP. sase-li left ready with a RESULT note for the land agent.
 
 ## Dependencies
 

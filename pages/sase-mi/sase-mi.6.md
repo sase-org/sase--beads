@@ -13,7 +13,7 @@ bound_post_push_publication: Fix sase-mh so a stalled agent-page render cannot i
 
 ## Dependencies
 
-- **Depends on:** [sase-mi.5](sase-mi.5.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mi.5](sase-mi.5.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mi.7](sase-mi.7.md) ◐ · ⧖ 2026-08-15
 
 ## Agents
