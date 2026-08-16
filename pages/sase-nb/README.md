@@ -71,6 +71,13 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 
 [2026-08-16T23:36:16Z · sase-ns.land] DISCOVERED ISSUE: tests/test_check_feature_flags_tool.py trips the blocking global-state leak gate in just test-cost / just check-full. Observed by the epic sase-ns land agent on master 3a22ff04f (just test-cost, 812s): 'sase global leak detector blocking gate failed -- 25 poisoning change(s) across 25 test(s)'. Every one of the 25 poisoning changes is kind=sys_path / reason=sys-path-changed, and every poisoning node is in tests/test_check_feature_flags_tool.py (report: .pytest_cache/sase-global-leaks.json). That file arrived with fa6d8229c 'feat(lint): enforce feature-flag registry and flag-bead integrity' on this epic; it appends the repo root (or tools dir) to sys.path to import the checker and never restores it, so each node leaves sys.path one entry longer for the rest of that xdist worker. The sys_path detector predates this epic (87cffa3b8) and this is the only poisoning class in the whole 31,757-test run, so the gate is otherwise clean. Suggested fix: import the tool through a fixture that saves/restores sys.path (or use monkeypatch.syspath_prepend, which restores automatically). Routed here by the sase-ns land agent; not caused by sase-ns.
 
+[2026-08-16T23:41:59Z · sase-m6.land] DISCOVERED ISSUE: master is hard-broken at import time; every TUI import raises NameError.
+
+REPRODUCTION (on master @ 497d383aa or later):
+  $ uv run
+
+… and 1843 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -83,7 +90,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 | [sase-nb.5](sase-nb.5.md) | Registry and bead integrity enforcement | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-nb.7](sase-nb.7.md) | sase flag and the flag doctor checks | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 3 |
+| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 4 |
 | [sase-nb.9](sase-nb.9.md) | The first two real flags | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 
 ## Lineage
@@ -138,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
 | [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.6.md) | [sase-nb.6](sase-nb.6.md) | 1 |
 | [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 1 |
-| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 3 |
+| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 4 |
 | [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 0 |
 | [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.land/README.md) | [sase-nb](README.md) | 0 |
 
@@ -155,3 +162,4 @@ flowchart TD
 | sase-core | [`sase-core@a2260be`](https://github.com/sase-org/sase-core/commit/a2260be5c73dcefbec06ad7b332817dfca6c67f7) | feat(beads): exclude flags from external ref ownership | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:35:54 EDT |
 | sase-telegram | [`sase-telegram@0bda964`](https://github.com/sase-org/sase-telegram/commit/0bda96492d6efec470a5ac76f3f03cf302e89805) | feat(beads): render flag sections in Telegram | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:40:16 EDT |
 | sase | [`278cc81`](https://github.com/sase-org/sase/commit/278cc810b6bbce80b5b2e6784b9c49a09748654c) | feat(beads): surface flag beads across bead views | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:43:38 EDT |
+| sase | [`6f1286e`](https://github.com/sase-org/sase/commit/6f1286e269aeb279aa42f3e8a78466767ea8893c) | fix(ace): repair post-rebase history metadata checks | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:48:53 EDT |
