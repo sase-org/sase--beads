@@ -24,7 +24,7 @@ visual: add deterministic fixtures and PNG snapshot coverage for the history pan
 ## Dependencies
 
 - **Depends on:** [sase-n8.6](sase-n8.6.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-n8.8](sase-n8.8.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n8.8](sase-n8.8.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

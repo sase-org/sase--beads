@@ -14,7 +14,7 @@ verify: exercise the panel against the real machine-local artifact index — a l
 ## Dependencies
 
 - **Depends on:** [sase-n8.1](sase-n8.1.md) ✓ · ⧖ 2026-08-16
-- **Depends on:** [sase-n8.8](sase-n8.8.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n8.8](sase-n8.8.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
