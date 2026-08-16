@@ -13,7 +13,7 @@ launch-invariant-coverage: assert primary worktree/index/HEAD/ref stability acro
 
 ## Dependencies
 
-- **Depends on:** [sase-mq.8.1](sase-mq.8.1.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-mq.8.1](sase-mq.8.1.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-mq.8.2](sase-mq.8.2.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-mq.8.3](sase-mq.8.3.md) ✓ · ⧖ 2026-08-16
 
