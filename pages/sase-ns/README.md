@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.3.md) | [sase-ns.3](sase-ns.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.4/README.md) | [sase-ns.4](sase-ns.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.5/README.md) | [sase-ns.5](sase-ns.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.land/README.md) | [sase-ns](README.md) | 1 |
+| [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.land/README.md) | [sase-ns](README.md) | 2 |
 
 ## Commits
 
@@ -59,3 +59,4 @@ flowchart TD
 | sase | [`2605324`](https://github.com/sase-org/sase/commit/2605324cb2c47e43809de822ae78db120905faa2) | fix(monitor): resolve implicit start/show/stop caller from its own artifacts | [sase-ns.1](sase-ns.1.md) | 2026-08-16 18:02:49 EDT |
 | sase | [`3a22ff0`](https://github.com/sase-org/sase/commit/3a22ff04f67a78af9416c87b1f6b591903c30962) | fix(config): isolate config cache from test-owned CONFIG\_DIR | [sase-ns.2](sase-ns.2.md) | 2026-08-16 19:02:36 EDT |
 | sase | [`644177a`](https://github.com/sase-org/sase/commit/644177a889ce763650ec822d82583ad0a117fa6f) | test(config): mark the config-cache drain sleeps with wait pragmas | [sase-ns](README.md) | 2026-08-16 19:37:10 EDT |
+| sase | [`f8b4ebb`](https://github.com/sase-org/sase/commit/f8b4ebb11eddf4ff1e8f09ac4f783cd8cf9707dc) | fix(tui): drop the stale history-word metadata re-export | [sase-ns](README.md) | 2026-08-16 19:47:06 EDT |
