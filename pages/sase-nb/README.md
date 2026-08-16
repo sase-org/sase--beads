@@ -81,7 +81,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 | [sase-nb.5](sase-nb.5.md) | Registry and bead integrity enforcement | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ✓ closed | large | 2026-08-16 | 1 | 0 |
 | [sase-nb.7](sase-nb.7.md) | sase flag and the flag doctor checks | ✓ closed | medium | 2026-08-16 | 1 | 0 |
-| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 1 |
+| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 2 |
 | [sase-nb.9](sase-nb.9.md) | The first two real flags | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 
 ## Lineage
@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
 | [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.6.md) | [sase-nb.6](sase-nb.6.md) | 0 |
 | [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 0 |
-| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 1 |
+| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 2 |
 | [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 0 |
 | [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.land/README.md) | [sase-nb](README.md) | 0 |
 
@@ -149,3 +149,4 @@ flowchart TD
 | sase | [`e38d7b8`](https://github.com/sase-org/sase/commit/e38d7b80f7845abc53ff8c8b5e364248834ad1b5) | feat(bead): add flag issue type to the Python bead layer | [sase-nb.3](sase-nb.3.md) | 2026-08-16 14:50:45 EDT |
 | sase | [`fa6d822`](https://github.com/sase-org/sase/commit/fa6d8229c5c1553fb1d51b65b2218d8a5c2abaac) | feat(lint): enforce feature-flag registry and flag-bead integrity | [sase-nb.5](sase-nb.5.md) | 2026-08-16 15:35:39 EDT |
 | sase-core | [`sase-core@a2260be`](https://github.com/sase-org/sase-core/commit/a2260be5c73dcefbec06ad7b332817dfca6c67f7) | feat(beads): exclude flags from external ref ownership | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:35:54 EDT |
+| sase-telegram | [`sase-telegram@0bda964`](https://github.com/sase-org/sase-telegram/commit/0bda96492d6efec470a5ac76f3f03cf302e89805) | feat(beads): render flag sections in Telegram | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:40:16 EDT |
