@@ -21,7 +21,7 @@ preview: add the surface-neutral AgentFamilyPlanPreview value plus its shared te
 
 ## Dependencies
 
-- **Blocks:** [sase-n9.2](sase-n9.2.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n9.2](sase-n9.2.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n9.3](sase-n9.3.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n9.4](sase-n9.4.md) ✓ · ⧖ 2026-08-16
 
