@@ -15,7 +15,7 @@ off-read-path: remove the synchronous `_reconcile_dead_monitor_supervisors_for_t
 
 - **Depends on:** [sase-n7.1](sase-n7.1.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-n7.2](sase-n7.2.md) ◐ · ⧖ 2026-08-16
-- **Depends on:** [sase-n7.3](sase-n7.3.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n7.3](sase-n7.3.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n7.5](sase-n7.5.md) ◐ · ⧖ 2026-08-16
 
 ## Agents
