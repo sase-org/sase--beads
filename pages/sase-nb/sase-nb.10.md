@@ -14,7 +14,7 @@ memory: add the generated sase/memory/sase_flags.md long memory and its sase/mem
 ## Dependencies
 
 - **Depends on:** [sase-nb.8](sase-nb.8.md) ✓ · ⧖ 2026-08-16
-- **Depends on:** [sase-nb.9](sase-nb.9.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-nb.9](sase-nb.9.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

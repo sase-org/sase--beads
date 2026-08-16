@@ -23,7 +23,7 @@ cli: add the sase flag group with list, new, and show, and register the flags.* 
 
 - **Depends on:** [sase-nb.2](sase-nb.2.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-nb.4](sase-nb.4.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-nb.9](sase-nb.9.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.9](sase-nb.9.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

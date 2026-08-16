@@ -76,7 +76,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 REPRODUCTION (on master @ 497d383aa or later):
   $ uv run
 
-… and 1843 more characters
+… and 6804 more characters
 
 ## Phases
 
@@ -90,8 +90,8 @@ REPRODUCTION (on master @ 497d383aa or later):
 | [sase-nb.5](sase-nb.5.md) | Registry and bead integrity enforcement | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-nb.7](sase-nb.7.md) | sase flag and the flag doctor checks | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 4 |
-| [sase-nb.9](sase-nb.9.md) | The first two real flags | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 3 |
+| [sase-nb.9](sase-nb.9.md) | The first two real flags | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 
 ## Lineage
 
@@ -107,7 +107,7 @@ flowchart TD
     n7["sase-nb.6: The FlagTriage gate and its reconciler [closed]"]
     n8["sase-nb.7: sase flag and the flag doctor checks [closed]"]
     n9["sase-nb.8: Flag beads on every bead-rendering surface [closed]"]
-    n10["sase-nb.9: The first two real flags [in_progress]"]
+    n10["sase-nb.9: The first two real flags [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -145,8 +145,8 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
 | [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.6.md) | [sase-nb.6](sase-nb.6.md) | 1 |
 | [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 1 |
-| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 4 |
-| [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 0 |
+| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 3 |
+| [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 1 |
 | [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.land/README.md) | [sase-nb](README.md) | 0 |
 
 ## Commits
@@ -160,6 +160,6 @@ flowchart TD
 | sase | [`5703667`](https://github.com/sase-org/sase/commit/5703667f0e6c37909e82b01b52aee336661e5f11) | feat(bead): add the FlagTriage gate and generalize the bead gate reconciler | [sase-nb.6](sase-nb.6.md) | 2026-08-16 18:51:54 EDT |
 | sase | [`497d383`](https://github.com/sase-org/sase/commit/497d383aa16a9bbfb24bc001ed9f99fd9e03e2b7) | feat(cli): add sase flag group and flags.\* doctor checks | [sase-nb.7](sase-nb.7.md) | 2026-08-16 19:07:38 EDT |
 | sase-core | [`sase-core@a2260be`](https://github.com/sase-org/sase-core/commit/a2260be5c73dcefbec06ad7b332817dfca6c67f7) | feat(beads): exclude flags from external ref ownership | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:35:54 EDT |
-| sase-telegram | [`sase-telegram@0bda964`](https://github.com/sase-org/sase-telegram/commit/0bda96492d6efec470a5ac76f3f03cf302e89805) | feat(beads): render flag sections in Telegram | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:40:16 EDT |
 | sase | [`278cc81`](https://github.com/sase-org/sase/commit/278cc810b6bbce80b5b2e6784b9c49a09748654c) | feat(beads): surface flag beads across bead views | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:43:38 EDT |
 | sase | [`6f1286e`](https://github.com/sase-org/sase/commit/6f1286e269aeb279aa42f3e8a78466767ea8893c) | fix(ace): repair post-rebase history metadata checks | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:48:53 EDT |
+| sase | [`5b458f1`](https://github.com/sase-org/sase/commit/5b458f1bb9b31515c85957bc436dad8252195669) | feat(flags): register the first two consumer feature flags | [sase-nb.9](sase-nb.9.md) | 2026-08-16 19:58:13 EDT |
