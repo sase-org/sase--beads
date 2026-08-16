@@ -17,7 +17,7 @@ declare: add the Python-side ref.pane block and its presentation digest so a sid
 
 ## Dependencies
 
-- **Blocks:** [sase-m6.10](sase-m6.10.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.10](sase-m6.10.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m6.7](sase-m6.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents

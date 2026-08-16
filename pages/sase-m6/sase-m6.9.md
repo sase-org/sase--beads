@@ -25,7 +25,7 @@ keymap: unify the six Artifacts verbs whose meanings are inverted between Patch 
 
 ## Dependencies
 
-- **Blocks:** [sase-m6.10](sase-m6.10.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.10](sase-m6.10.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m6.7](sase-m6.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
