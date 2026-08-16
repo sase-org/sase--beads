@@ -69,6 +69,8 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 
 [2026-08-16T21:52:56Z · sase-n8.8--7] DISCOVERED ISSUE (corroboration, 2026-08-16): final sase-n8.8 published-wheel check-full monitor gb7wk5kphw1y failed the global leak detector gate with 25 poisoning changes, all from tests/test_check_feature_flags_tool.py. Every recorded change is sys.path changing as the feature-flag checker tests run (first node test_rule_1_rejects_missing_bead_and_ops_rationale; last node test_static_main_ignores_exploding_bd_command). No existing task matched test_check_feature_flags_tool/sys.path; this appears causally tied to this active feature-flags epic rather than to sase-n8.8, whose local diff only restores public HistoryWordCompletionMetadata and updates its direct test import. Evidence log: file:explicit:07aea7284478453e2034ced2.
 
+[2026-08-16T23:36:16Z · sase-ns.land] DISCOVERED ISSUE: tests/test_check_feature_flags_tool.py trips the blocking global-state leak gate in just test-cost / just check-full. Observed by the epic sase-ns land agent on master 3a22ff04f (just test-cost, 812s): 'sase global leak detector blocking gate failed -- 25 poisoning change(s) across 25 test(s)'. Every one of the 25 poisoning changes is kind=sys_path / reason=sys-path-changed, and every poisoning node is in tests/test_check_feature_flags_tool.py (report: .pytest_cache/sase-global-leaks.json). That file arrived with fa6d8229c 'feat(lint): enforce feature-flag registry and flag-bead integrity' on this epic; it appends the repo root (or tools dir) to sys.path to import the checker and never restores it, so each node leaves sys.path one entry longer for the rest of that xdist worker. The sys_path detector predates this epic (87cffa3b8) and this is the only poisoning class in the whole 31,757-test run, so the gate is otherwise clean. Suggested fix: import the tool through a fixture that saves/restores sys.path (or use monkeypatch.syspath_prepend, which restores automatically). Routed here by the sase-ns land agent; not caused by sase-ns.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -79,9 +81,9 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 | [sase-nb.3](sase-nb.3.md) | Flag beads in the Python bead layer | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.4](sase-nb.4.md) | The shared flag visual language | ✓ closed | small | 2026-08-16 | 0 | 0 |
 | [sase-nb.5](sase-nb.5.md) | Registry and bead integrity enforcement | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ✓ closed | large | 2026-08-16 | 1 | 0 |
-| [sase-nb.7](sase-nb.7.md) | sase flag and the flag doctor checks | ✓ closed | medium | 2026-08-16 | 1 | 0 |
-| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 2 |
+| [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ✓ closed | large | 2026-08-16 | 1 | 1 |
+| [sase-nb.7](sase-nb.7.md) | sase flag and the flag doctor checks | ✓ closed | medium | 2026-08-16 | 1 | 1 |
+| [sase-nb.8](sase-nb.8.md) | Flag beads on every bead-rendering surface | ✓ closed | large | 2026-08-16 | 1 | 3 |
 | [sase-nb.9](sase-nb.9.md) | The first two real flags | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 
 ## Lineage
@@ -134,9 +136,9 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.2.md) | [sase-nb.2](sase-nb.2.md) | 1 |
 | [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
-| [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.6.md) | [sase-nb.6](sase-nb.6.md) | 0 |
-| [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 0 |
-| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 2 |
+| [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.6.md) | [sase-nb.6](sase-nb.6.md) | 1 |
+| [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 1 |
+| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 3 |
 | [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 0 |
 | [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.land/README.md) | [sase-nb](README.md) | 0 |
 
@@ -148,5 +150,8 @@ flowchart TD
 | sase | [`76c332b`](https://github.com/sase-org/sase/commit/76c332bd5d1e15a2753fd1a005242b9040b2d327) | feat: add feature flag registry foundation | [sase-nb.2](sase-nb.2.md) | 2026-08-16 13:53:02 EDT |
 | sase | [`e38d7b8`](https://github.com/sase-org/sase/commit/e38d7b80f7845abc53ff8c8b5e364248834ad1b5) | feat(bead): add flag issue type to the Python bead layer | [sase-nb.3](sase-nb.3.md) | 2026-08-16 14:50:45 EDT |
 | sase | [`fa6d822`](https://github.com/sase-org/sase/commit/fa6d8229c5c1553fb1d51b65b2218d8a5c2abaac) | feat(lint): enforce feature-flag registry and flag-bead integrity | [sase-nb.5](sase-nb.5.md) | 2026-08-16 15:35:39 EDT |
+| sase | [`5703667`](https://github.com/sase-org/sase/commit/5703667f0e6c37909e82b01b52aee336661e5f11) | feat(bead): add the FlagTriage gate and generalize the bead gate reconciler | [sase-nb.6](sase-nb.6.md) | 2026-08-16 18:51:54 EDT |
+| sase | [`497d383`](https://github.com/sase-org/sase/commit/497d383aa16a9bbfb24bc001ed9f99fd9e03e2b7) | feat(cli): add sase flag group and flags.\* doctor checks | [sase-nb.7](sase-nb.7.md) | 2026-08-16 19:07:38 EDT |
 | sase-core | [`sase-core@a2260be`](https://github.com/sase-org/sase-core/commit/a2260be5c73dcefbec06ad7b332817dfca6c67f7) | feat(beads): exclude flags from external ref ownership | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:35:54 EDT |
 | sase-telegram | [`sase-telegram@0bda964`](https://github.com/sase-org/sase-telegram/commit/0bda96492d6efec470a5ac76f3f03cf302e89805) | feat(beads): render flag sections in Telegram | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:40:16 EDT |
+| sase | [`278cc81`](https://github.com/sase-org/sase/commit/278cc810b6bbce80b5b2e6784b9c49a09748654c) | feat(beads): surface flag beads across bead views | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:43:38 EDT |
