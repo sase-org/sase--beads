@@ -15,6 +15,12 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 
 [2026-08-16T16:55:47Z · 03w] DISCOVERED ISSUE: tests/main/test_var_integration.py::test_var_cli_end_to_end_refreshes_index_and_round_trips_machine_outputs failed under an escalated full just check (workspace sase_19, 2026-08-16) with AssertionError: assert '22' == '21' at the schema_version meta check after sase var list upgrades a stale index. Python still has AGENT_ARTIFACT_INDEX_SCHEMA_VERSION = 21 (src/sase/core/agent_scan_wire_records.py) while just install fast-forwarded linked sase-core to 0.27.12, which writes schema 22. The test writes version (Python_const - 1) then expects the on-disk meta to equal the Python constant; Rust upgrade lands 22 instead. This is the expected skew until sase-n8.3 (Python wire mirror) and sase-n8.8 (raise sase-core-rs floor) land. The session that observed it did not touch agent-scan schema or var CLI — it only added reserved lease(...) RUNNING-field labels. Isolated rerun of that session's own tests passed (38 passed).
 
+[2026-08-16T17:40:50Z · sase-nb.2] DISCOVERED ISSUE: During feature_flag_registry implementation verification on 2026-08-16, just check escalated to the full suite and failed tests/main/test_var_integration.py::test_var_cli_end_to_end_refreshes_index_and_round_trips_machine_outputs with AssertionError: assert '22' == '21' after the stale-index upgrade. Focused rerun reproduced the same var failure while tests/ace/tui/test_config_center_state.py::test_save_atomically_replaces_existing_state and tests/test_config.py::test_load_merged_config_local_overrides_global passed in isolation. This workspace did not touch agent-scan wire or var CLI; the linked Rust binding rebuilt by just install writes schema 22 while Python AGENT_ARTIFACT_INDEX_SCHEMA_VERSION remains 21. This corroborates the existing 2026-08-16 note on this epic and remains expected skew until sase-n8.3/sase-n8.8 land.
+
+[2026-08-16T17:44:45Z · sase-n7.land] DISCOVERED ISSUE (corroboration of the 2026-08-16T16:55:47Z note): reproduced independently by sase-n7.land in workspace sase_17 on master HEAD 0ec2018f1 after a fresh 'just install' (builds sase_core_rs from the linked sase-core checkout at e55bd44 / v0.27.14). '.venv/bin/python -m pytest -q tests/main/test_var_integration.py' fails with 'AssertionError: assert 22 == 21' at tests/main/test_var_integration.py:70. Root cause confirmed cross-repo: sase-core commit 5078d26 'feat(agent_scan): project alias trails and query bounded alias history' (SASE_BEAD=sase-n8.2) bumped crates/sase_core/src/agent_scan/index.rs:42 AGENT_ARTIFACT_INDEX_SCHEMA_VERSION 21 -> 22, while this repo's src/sase/core/agent_scan_wire_records.py:29 still declares 21 (last set by sase-mg.2, 57af5d3ed). tests/test_core_agent_scan_wire.py:31 also pins 21. Impact: 'just check' escalations and 'just check-full' are red on master for every agent. Phase sase-n8.8 (raise the sase-core-rs dependency window) is still in progress and is the natural home for the Python-side bump. Proposed by bead sase-n7.5.
+
+[2026-08-16T18:13:43Z · sase-n4.land] DISCOVERED ISSUE: Phase beads sase-n4.3 and sase-n4.4 both proposed the tests/main/test_var_integration.py schema 22-vs-21 failure during epic sase-n4 verification. This is the same Rust/Python alias-history skew already recorded here: current master commit 57c71d17 (sase-n8.3) now mirrors schema 22 and the isolated var integration test passes after just install; phase sase-n8.8 still owns raising the published sase-core-rs dependency window.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -23,7 +29,7 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 | [sase-n8.2](sase-n8.2.md) | Rust core — alias projection, schema 22, and the alias-history query | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-n8.3](sase-n8.3.md) | Python wire mirror, facade call, and skew probes | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n8.4](sase-n8.4.md) | The per-alias history limit config field | ✓ closed | small | 2026-08-16 | 1 | 1 |
-| [sase-n8.5](sase-n8.5.md) | Frontend-neutral alias-history adapter | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-n8.5](sase-n8.5.md) | Frontend-neutral alias-history adapter | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n8.6](sase-n8.6.md) | The Launch Control agent-history panel and its \`H\` keymap | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
 | [sase-n8.7](sase-n8.7.md) | PNG goldens for the history panel | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-n8.8](sase-n8.8.md) | Raise the sase-core-rs dependency window | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
@@ -38,7 +44,7 @@ flowchart TD
     n2["sase-n8.2: Rust core — alias projection, schema 22, and the alias-history query [closed]"]
     n3["sase-n8.3: Python wire mirror, facade call, and skew probes [closed]"]
     n4["sase-n8.4: The per-alias history limit config field [closed]"]
-    n5["sase-n8.5: Frontend-neutral alias-history adapter [in_progress]"]
+    n5["sase-n8.5: Frontend-neutral alias-history adapter [closed]"]
     n6["sase-n8.6: The Launch Control agent-history panel and its `H` keymap [in_progress]"]
     n7["sase-n8.7: PNG goldens for the history panel [in_progress]"]
     n8["sase-n8.8: Raise the sase-core-rs dependency window [in_progress]"]
@@ -71,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-n8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.2.md) | [sase-n8.2](sase-n8.2.md) | 1 |
 | [bbugyi200.athena.sase-n8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.3/README.md) | [sase-n8.3](sase-n8.3.md) | 1 |
 | [bbugyi200.athena.sase-n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.4/README.md) | [sase-n8.4](sase-n8.4.md) | 1 |
-| [bbugyi200.athena.sase-n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.5/README.md) | [sase-n8.5](sase-n8.5.md) | 0 |
+| [bbugyi200.athena.sase-n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.5/README.md) | [sase-n8.5](sase-n8.5.md) | 1 |
 | [bbugyi200.athena.sase-n8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.6/README.md) | [sase-n8.6](sase-n8.6.md) | 0 |
 | [bbugyi200.athena.sase-n8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.7/README.md) | [sase-n8.7](sase-n8.7.md) | 0 |
 | [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.8/README.md) | [sase-n8.8](sase-n8.8.md) | 0 |
@@ -86,3 +92,4 @@ flowchart TD
 | sase-core | [`sase-core@5078d26`](https://github.com/sase-org/sase-core/commit/5078d263f9078bd66382d40d24ed659154c48b88) | feat(agent\_scan): project alias trails and query bounded alias history | [sase-n8.2](sase-n8.2.md) | 2026-08-16 12:23:18 EDT |
 | sase | [`96b48d0`](https://github.com/sase-org/sase/commit/96b48d0abbe9acec0f8037a08c388fc7c291edf8) | feat: record alias launch provenance | [sase-n8.1](sase-n8.1.md) | 2026-08-16 13:22:10 EDT |
 | sase | [`57c71d1`](https://github.com/sase-org/sase/commit/57c71d17a007e73b016a6cac60d14698c45c9b53) | feat(core): mirror alias-history wire contract and add skew probe | [sase-n8.3](sase-n8.3.md) | 2026-08-16 13:37:24 EDT |
+| sase | [`556a78b`](https://github.com/sase-org/sase/commit/556a78bcacbed60137dd69cbf33e5417e8b6acff) | feat(llm-provider): add frontend-neutral alias-history adapter | [sase-n8.5](sase-n8.5.md) | 2026-08-16 14:25:32 EDT |

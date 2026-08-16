@@ -23,7 +23,7 @@ config: add `llm_provider.model_alias_history_limit` (default 10, minimum 1) to 
 
 ## Dependencies
 
-- **Blocks:** [sase-n8.5](sase-n8.5.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n8.5](sase-n8.5.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
