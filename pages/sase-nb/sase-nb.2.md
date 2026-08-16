@@ -21,7 +21,7 @@ registry: build the code-owned flag registry, the layered resolver and its immut
 
 - **Blocks:** [sase-nb.5](sase-nb.5.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-nb.6](sase-nb.6.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-nb.7](sase-nb.7.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.7](sase-nb.7.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

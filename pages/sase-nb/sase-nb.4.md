@@ -27,5 +27,5 @@ look: register the flag bead type's glyph and accent, and add the shared bead_fl
 
 - **Depends on:** [sase-nb.3](sase-nb.3.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-nb.6](sase-nb.6.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-nb.7](sase-nb.7.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.7](sase-nb.7.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-nb.8](sase-nb.8.md) ◐ · ⧖ 2026-08-16
