@@ -19,7 +19,7 @@ core_perf_logs: add a `perf_logs` module to the sibling Rust core that reads the
 
 ## Dependencies
 
-- **Blocks:** [sase-mj.2](sase-mj.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mj.2](sase-mj.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
