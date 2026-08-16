@@ -20,7 +20,7 @@ enforce: call detection from the LLM invocation error paths, write the temporary
 ## Dependencies
 
 - **Depends on:** [sase-n4.1](sase-n4.1.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-n4.3](sase-n4.3.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n4.3](sase-n4.3.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n4.4](sase-n4.4.md) ◐ · ⧖ 2026-08-16
 
 ## Agents
