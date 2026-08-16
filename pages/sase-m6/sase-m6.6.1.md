@@ -21,6 +21,10 @@ Replace the Artifacts tab's Patch boolean language and four pane-local flat toke
 
 [2026-08-15T20:02:42Z · sase-mc.land] DISCOVERED ISSUE: Corroborated during sase-mc landing from proposing beads sase-mc.3 and sase-mc.4 on current master 3a31bd3b8. Targeted visual verification reproduced 3 Artifacts failures plus 11 Commits setup errors: Beads populated/reopened cannot select typed targets, Files nested strip differs by 8,806 pixels, and Commits fixtures import removed commits_filtering.normalize_reference_time. These follow post-sase-mc-start unified-query commits d580a55c8/c62765eb7 and are not caused by provider disabling. Evidence: file:explicit:b511fe27a71b5834683146da
 
+[2026-08-15T23:47:00Z · 02w] DISCOVERED ISSUE: Independently reproduced while implementing Launch Control on 2026-08-15. Final just check passed fmt, ruff, mypy, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed lint (symvision) because Justfile still passes --epic-symbol 'sase-m6.6.1.5(canonicalize_artifact_query)' after phase sase-m6.6.1.5 closed. This diff touches Launch Control/Models panel code, docs, tests, and PNG goldens, not Justfile or query-profile canonicalization. The stale whitelist is causally owned by the active one-profile Artifacts query epic.
+
+[2026-08-15T23:48:55Z · toobig-2s.split_file.src.sase.ace.tui.modals.models_panel_providers.0] DISCOVERED ISSUE: Independently reproduced on 2026-08-15 while splitting Models-panel provider code. just check passed Python/Markdown formatting, keep-sorted, Ruff, mypy, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed lint (symvision) because Justfile still passes --epic-symbol 'sase-m6.6.1.5(canonicalize_artifact_query)' after phase sase-m6.6.1.5 closed. This refactor does not touch Justfile or artifact-query canonicalization; the stale whitelist is causally owned by the active unified Artifacts query epic.
+
 ## References
 
 - file:explicit:b511fe27a71b5834683146da

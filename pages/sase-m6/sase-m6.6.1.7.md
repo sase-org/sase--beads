@@ -13,7 +13,7 @@ conformance: extend the Artifacts contract harness and golden corpus across all 
 
 ## Dependencies
 
-- **Depends on:** [sase-m6.6.1.6](sase-m6.6.1.6.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-m6.6.1.6](sase-m6.6.1.6.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

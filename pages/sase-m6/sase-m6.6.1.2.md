@@ -30,7 +30,7 @@ Verification:
 
 - **Depends on:** [sase-m6.6.1.1](sase-m6.6.1.1.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-m6.6.1.5](sase-m6.6.1.5.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m6.6.1.6](sase-m6.6.1.6.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m6.6.1.6](sase-m6.6.1.6.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
