@@ -51,7 +51,7 @@ flowchart TD
     n19["sase-m9.3.1.1: Durable operation and result contracts [closed]"]
     n20["sase-m9.3.1.2: Migrate patch and agent proc producers [closed]"]
     n21["sase-m9.3.1.3: Migrate remaining durable ACE producers [closed]"]
-    n22["sase-m9.3.1.4: Read-only ACE proc observation [in_progress]"]
+    n22["sase-m9.3.1.4: Read-only ACE proc observation [closed]"]
     n23["sase-m9.3.1.5: Detached-option retirement and invariants [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.3.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.1.md) | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 1 |
 | [bbugyi200.athena.sase-m9.3.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.2.md) | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.3.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 1 |
-| [bbugyi200.athena.sase-m9.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.4/README.md) | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.4.md) | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.5/README.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-m9.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.land/README.md) | [sase-m9.3.1](sase-m9.3.1.md) | 0 |
 | [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 0 |
@@ -144,3 +144,4 @@ flowchart TD
 | sase | [`07e254a`](https://github.com/sase-org/sase/commit/07e254a42073f3367bba23b1beb893ad72f92635) | feat(ops): add durable operation contracts and producer inventory | [sase-m9.3.1.1](sase-m9.3.1.1.md) | 2026-08-15 16:39:31 EDT |
 | sase | [`0835b38`](https://github.com/sase-org/sase/commit/0835b38d24fb0316d23e664b2d3d7a0ee079c49c) | feat(ace): migrate Patch and agent producers to durable argv | [sase-m9.3.1.2](sase-m9.3.1.2.md) | 2026-08-15 18:40:26 EDT |
 | sase | [`7d7581a`](https://github.com/sase-org/sase/commit/7d7581a21cc7e3418979f09b2b17c8ec0daba0f6) | feat(ace): migrate remaining durable producers | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 2026-08-15 18:56:54 EDT |
+| sase | [`8c48404`](https://github.com/sase-org/sase/commit/8c48404581cabc8b49f1534ef4e64f542363141d) | feat(ace): observe durable procs read-only | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 2026-08-15 21:06:05 EDT |

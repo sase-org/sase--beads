@@ -18,7 +18,7 @@ migrate-bead-plugin-and-utility-producers: migrate bead and artifact mutations, 
 ## Dependencies
 
 - **Depends on:** [sase-m9.3.1.1](sase-m9.3.1.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

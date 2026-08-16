@@ -13,7 +13,7 @@ detach-retirement-and-enforcement: remove public -d/--detached from proc run, pr
 
 ## Dependencies
 
-- **Depends on:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

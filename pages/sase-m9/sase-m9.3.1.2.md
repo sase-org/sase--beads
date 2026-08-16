@@ -20,7 +20,7 @@ migrate-patch-and-agent-producers: move ACE patch/status/rebase/sync/rewind/mail
 ## Dependencies
 
 - **Depends on:** [sase-m9.3.1.1](sase-m9.3.1.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.3.1.4](sase-m9.3.1.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
