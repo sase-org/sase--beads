@@ -28,7 +28,7 @@ perf_view: register Perf as the eighth Statistics view — tab strip, numbered s
 ## Dependencies
 
 - **Depends on:** [sase-mj.2](sase-mj.2.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mj.4](sase-mj.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mj.4](sase-mj.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

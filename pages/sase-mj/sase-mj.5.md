@@ -13,7 +13,7 @@ perf_visuals: add the PNG visual snapshots and their fixtures for the populated,
 
 ## Dependencies
 
-- **Depends on:** [sase-mj.4](sase-mj.4.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mj.4](sase-mj.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
