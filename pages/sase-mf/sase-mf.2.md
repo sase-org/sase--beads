@@ -25,7 +25,7 @@ alias_config_contract: reduce built-ins to five direct size aliases, add the thr
 
 - **Depends on:** [sase-mf.1](sase-mf.1.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mf.3](sase-mf.3.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mf.4](sase-mf.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mf.4](sase-mf.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

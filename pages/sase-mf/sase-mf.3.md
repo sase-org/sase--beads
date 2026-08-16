@@ -20,7 +20,7 @@ models_panel_redesign: build a unified navigable panel for model settings, effor
 ## Dependencies
 
 - **Depends on:** [sase-mf.2](sase-mf.2.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mf.4](sase-mf.4.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mf.4](sase-mf.4.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
