@@ -20,7 +20,7 @@ Every SASE-initiated repository mutation runs in a claimed disposable workspace,
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-mq.1](sase-mq.1.md) | Workspace ownership and mutation contract | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [sase-mq.2](sase-mq.2.md) | Durable operational workspace leases | ✓ closed | medium | 2026-08-15 | 1 | 1 |
+| [sase-mq.2](sase-mq.2.md) | Durable operational workspace leases | ✓ closed | medium | 2026-08-15 | 1 | 2 |
 | [sase-mq.3](sase-mq.3.md) | Reset-and-replay conflict recovery | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 | [sase-mq.4](sase-mq.4.md) | Approval and task launches off the primary checkout | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 | [sase-mq.5](sase-mq.5.md) | Background bead mutations off canonical primary clones | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
@@ -61,7 +61,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-mq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.1/README.md) | [sase-mq.1](sase-mq.1.md) | 1 |
-| [bbugyi200.athena.sase-mq.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.2.md) | [sase-mq.2](sase-mq.2.md) | 1 |
+| [bbugyi200.athena.sase-mq.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.2.md) | [sase-mq.2](sase-mq.2.md) | 2 |
 | [bbugyi200.athena.sase-mq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.3/README.md) | [sase-mq.3](sase-mq.3.md) | 0 |
 | [bbugyi200.athena.sase-mq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.4/README.md) | [sase-mq.4](sase-mq.4.md) | 0 |
 | [bbugyi200.athena.sase-mq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.5/README.md) | [sase-mq.5](sase-mq.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`6f7052f`](https://github.com/sase-org/sase/commit/6f7052fc90467145c78def777622e950eeb9f0ec) | feat(workspace): add ownership contract for store mutations | [sase-mq.1](sase-mq.1.md) | 2026-08-16 00:46:58 EDT |
 | sase | [`419c5a9`](https://github.com/sase-org/sase/commit/419c5a9fcdcce70bb42d3ebd22974ced71321163) | feat(workspace): add durable operational workspace leases | [sase-mq.2](sase-mq.2.md) | 2026-08-16 01:31:13 EDT |
+| sase-core | [`sase-core@3e6502d`](https://github.com/sase-org/sase-core/commit/3e6502d10db0f404379c587ad8c2928493b0cf4b) | feat(workspace\_lease): add operational lease eligibility and policy kinds | [sase-mq.2](sase-mq.2.md) | 2026-08-16 01:33:59 EDT |
