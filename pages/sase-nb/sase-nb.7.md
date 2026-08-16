@@ -29,10 +29,4 @@ cli: add the sase flag group with list, new, and show, and register the flags.* 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`497d383`](https://github.com/sase-org/sase/commit/497d383aa16a9bbfb24bc001ed9f99fd9e03e2b7) | feat(cli): add sase flag group and flags.\* doctor checks | [sase-nb.7](sase-nb.7.md) | 2026-08-16 19:07:38 EDT |
+| [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 0 |
