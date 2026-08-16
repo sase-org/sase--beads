@@ -17,7 +17,7 @@ guards: reorder `should_reconcile_dead_supervisor` so the cheap `monitor_state`/
 
 ## Dependencies
 
-- **Blocks:** [sase-n7.4](sase-n7.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n7.4](sase-n7.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

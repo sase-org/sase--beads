@@ -13,7 +13,7 @@ gate: add a `tests/perf/` bench and baseline asserting bounded proc-store reads 
 
 ## Dependencies
 
-- **Depends on:** [sase-n7.4](sase-n7.4.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n7.4](sase-n7.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

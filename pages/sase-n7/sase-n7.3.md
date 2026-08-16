@@ -21,7 +21,7 @@ bounded-query: give reconciliation its own bounded artifact-index query instead 
 
 ## Dependencies
 
-- **Blocks:** [sase-n7.4](sase-n7.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n7.4](sase-n7.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
