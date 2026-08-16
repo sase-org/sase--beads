@@ -27,7 +27,7 @@ atomic-disable: add a Rust-core and Python-binding operation that atomically wri
 
 ## Dependencies
 
-- **Blocks:** [sase-n4.5.2](sase-n4.5.2.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n4.5.2](sase-n4.5.2.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
