@@ -21,7 +21,7 @@ bead: mirror IssueType.FLAG and FlagRecord through the Python model, the SQLite 
 
 - **Depends on:** [sase-nb.1](sase-nb.1.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-nb.4](sase-nb.4.md) ◐ · ⧖ 2026-08-16
-- **Blocks:** [sase-nb.5](sase-nb.5.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.5](sase-nb.5.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
