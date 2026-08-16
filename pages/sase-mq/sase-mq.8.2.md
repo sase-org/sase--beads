@@ -19,7 +19,7 @@ chop-lease-batching: fuse the bead_claim_checks read snapshot and reconcile batc
 
 ## Dependencies
 
-- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

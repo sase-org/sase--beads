@@ -19,7 +19,7 @@ waiter-sync-hints: replace machine-initiated integrate_sdd_repository against ca
 
 ## Dependencies
 
-- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

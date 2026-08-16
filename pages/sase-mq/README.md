@@ -55,7 +55,7 @@ flowchart TD
     n9["sase-mq.8.1: Retire the competing canonical bead-store refresh path [closed]"]
     n10["sase-mq.8.2: One lease and one publication per project per claim-check tick [closed]"]
     n11["sase-mq.8.3: Close the ownership epic's own audit gaps [closed]"]
-    n12["sase-mq.8.4: Extend the ownership invariant audit to launch and archive workflows [in_progress]"]
+    n12["sase-mq.8.4: Extend the ownership invariant audit to launch and archive workflows [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mq.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.1/README.md) | [sase-mq.8.1](sase-mq.8.1.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.2/README.md) | [sase-mq.8.2](sase-mq.8.2.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.3/README.md) | [sase-mq.8.3](sase-mq.8.3.md) | 1 |
-| [bbugyi200.athena.sase-mq.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.4/README.md) | [sase-mq.8.4](sase-mq.8.4.md) | 0 |
+| [bbugyi200.athena.sase-mq.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.4/README.md) | [sase-mq.8.4](sase-mq.8.4.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.land/README.md) | [sase-mq.8](sase-mq.8.md) | 0 |
 | [bbugyi200.athena.sase-mq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.land.md) | [sase-mq](README.md) | 0 |
 
@@ -114,3 +114,4 @@ flowchart TD
 | sase | [`b82f21c`](https://github.com/sase-org/sase/commit/b82f21c1bfcbaa40d1224102465b69446a0b54c4) | test: register ownership audit coverage | [sase-mq.8.3](sase-mq.8.3.md) | 2026-08-16 05:11:06 EDT |
 | sase | [`9b5bba5`](https://github.com/sase-org/sase/commit/9b5bba5df887247ec28aa50e1f14d6ddf431d513) | perf(beads): fuse claim-check snapshot and reconcile into one lease | [sase-mq.8.2](sase-mq.8.2.md) | 2026-08-16 05:14:55 EDT |
 | sase | [`b57f644`](https://github.com/sase-org/sase/commit/b57f644dbf6a48e656aaa3e708d07741d22a063b) | refactor(sidecar-sync): replace bead-store-refresh chop with sync hints | [sase-mq.8.1](sase-mq.8.1.md) | 2026-08-16 05:31:56 EDT |
+| sase | [`d10fe53`](https://github.com/sase-org/sase/commit/d10fe53024144a0084501c349642552cccc8e033) | test: audit ownership invariant launch paths | [sase-mq.8.4](sase-mq.8.4.md) | 2026-08-16 06:05:19 EDT |

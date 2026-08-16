@@ -21,7 +21,7 @@ audit-gaps: review reset_replay._clear_owned_paths in the artifact directory aud
 
 ## Dependencies
 
-- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-mq.8.4](sase-mq.8.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
