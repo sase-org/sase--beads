@@ -13,7 +13,7 @@ lint: ship tools/check_feature_flags with its static registry rules and its bead
 
 ## Dependencies
 
-- **Depends on:** [sase-nb.2](sase-nb.2.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-nb.2](sase-nb.2.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-nb.3](sase-nb.3.md) ◐ · ⧖ 2026-08-16
 - **Blocks:** [sase-nb.9](sase-nb.9.md) ◐ · ⧖ 2026-08-16
 
