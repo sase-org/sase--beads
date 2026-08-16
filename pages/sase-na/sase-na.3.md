@@ -22,7 +22,7 @@ wiring: hold the index in the app-global warm cache, apply deletions at query ti
 ## Dependencies
 
 - **Depends on:** [sase-na.2](sase-na.2.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-na.4](sase-na.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-na.4](sase-na.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
