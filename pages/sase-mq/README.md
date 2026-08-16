@@ -24,7 +24,7 @@ Every SASE-initiated repository mutation runs in a claimed disposable workspace,
 | [sase-mq.3](sase-mq.3.md) | Reset-and-replay conflict recovery | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 | [sase-mq.4](sase-mq.4.md) | Approval and task launches off the primary checkout | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
 | [sase-mq.5](sase-mq.5.md) | Background bead mutations off canonical primary clones | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
-| [sase-mq.6](sase-mq.6.md) | Generic primary-sidecar auto-sync | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
+| [sase-mq.6](sase-mq.6.md) | Generic primary-sidecar auto-sync | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mq.7](sase-mq.7.md) | End-to-end ownership audit and regression gates | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ flowchart TD
     n3["sase-mq.3: Reset-and-replay conflict recovery [in_progress]"]
     n4["sase-mq.4: Approval and task launches off the primary checkout [in_progress]"]
     n5["sase-mq.5: Background bead mutations off canonical primary clones [in_progress]"]
-    n6["sase-mq.6: Generic primary-sidecar auto-sync [in_progress]"]
+    n6["sase-mq.6: Generic primary-sidecar auto-sync [closed]"]
     n7["sase-mq.7: End-to-end ownership audit and regression gates [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.3/README.md) | [sase-mq.3](sase-mq.3.md) | 0 |
 | [bbugyi200.athena.sase-mq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.4/README.md) | [sase-mq.4](sase-mq.4.md) | 0 |
 | [bbugyi200.athena.sase-mq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.5/README.md) | [sase-mq.5](sase-mq.5.md) | 0 |
-| [bbugyi200.athena.sase-mq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.6/README.md) | [sase-mq.6](sase-mq.6.md) | 0 |
+| [bbugyi200.athena.sase-mq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.6/README.md) | [sase-mq.6](sase-mq.6.md) | 1 |
 | [bbugyi200.athena.sase-mq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.7/README.md) | [sase-mq.7](sase-mq.7.md) | 0 |
 | [bbugyi200.athena.sase-mq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.land/README.md) | [sase-mq](README.md) | 0 |
 
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`6f7052f`](https://github.com/sase-org/sase/commit/6f7052fc90467145c78def777622e950eeb9f0ec) | feat(workspace): add ownership contract for store mutations | [sase-mq.1](sase-mq.1.md) | 2026-08-16 00:46:58 EDT |
 | sase | [`419c5a9`](https://github.com/sase-org/sase/commit/419c5a9fcdcce70bb42d3ebd22974ced71321163) | feat(workspace): add durable operational workspace leases | [sase-mq.2](sase-mq.2.md) | 2026-08-16 01:31:13 EDT |
 | sase-core | [`sase-core@3e6502d`](https://github.com/sase-org/sase-core/commit/3e6502d10db0f404379c587ad8c2928493b0cf4b) | feat(workspace\_lease): add operational lease eligibility and policy kinds | [sase-mq.2](sase-mq.2.md) | 2026-08-16 01:33:59 EDT |
+| sase | [`e342ff4`](https://github.com/sase-org/sase/commit/e342ff47614d3b955b7598578e8da85d0f2577e3) | feat(repos): add generic primary-sidecar auto-sync | [sase-mq.6](sase-mq.6.md) | 2026-08-16 01:43:46 EDT |
