@@ -30,7 +30,7 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 | [sase-n8.3](sase-n8.3.md) | Python wire mirror, facade call, and skew probes | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n8.4](sase-n8.4.md) | The per-alias history limit config field | ✓ closed | small | 2026-08-16 | 1 | 1 |
 | [sase-n8.5](sase-n8.5.md) | Frontend-neutral alias-history adapter | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-n8.6](sase-n8.6.md) | The Launch Control agent-history panel and its \`H\` keymap | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
+| [sase-n8.6](sase-n8.6.md) | The Launch Control agent-history panel and its \`H\` keymap | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-n8.7](sase-n8.7.md) | PNG goldens for the history panel | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-n8.8](sase-n8.8.md) | Raise the sase-core-rs dependency window | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
 | [sase-n8.9](sase-n8.9.md) | Acceptance against real agent history | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n3["sase-n8.3: Python wire mirror, facade call, and skew probes [closed]"]
     n4["sase-n8.4: The per-alias history limit config field [closed]"]
     n5["sase-n8.5: Frontend-neutral alias-history adapter [closed]"]
-    n6["sase-n8.6: The Launch Control agent-history panel and its `H` keymap [in_progress]"]
+    n6["sase-n8.6: The Launch Control agent-history panel and its `H` keymap [closed]"]
     n7["sase-n8.7: PNG goldens for the history panel [in_progress]"]
     n8["sase-n8.8: Raise the sase-core-rs dependency window [in_progress]"]
     n9["sase-n8.9: Acceptance against real agent history [in_progress]"]
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-n8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.3/README.md) | [sase-n8.3](sase-n8.3.md) | 1 |
 | [bbugyi200.athena.sase-n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.4/README.md) | [sase-n8.4](sase-n8.4.md) | 1 |
 | [bbugyi200.athena.sase-n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.5/README.md) | [sase-n8.5](sase-n8.5.md) | 1 |
-| [bbugyi200.athena.sase-n8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.6/README.md) | [sase-n8.6](sase-n8.6.md) | 0 |
+| [bbugyi200.athena.sase-n8.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.6.md) | [sase-n8.6](sase-n8.6.md) | 1 |
 | [bbugyi200.athena.sase-n8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.7/README.md) | [sase-n8.7](sase-n8.7.md) | 0 |
 | [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.8/README.md) | [sase-n8.8](sase-n8.8.md) | 0 |
 | [bbugyi200.athena.sase-n8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.9/README.md) | [sase-n8.9](sase-n8.9.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase | [`96b48d0`](https://github.com/sase-org/sase/commit/96b48d0abbe9acec0f8037a08c388fc7c291edf8) | feat: record alias launch provenance | [sase-n8.1](sase-n8.1.md) | 2026-08-16 13:22:10 EDT |
 | sase | [`57c71d1`](https://github.com/sase-org/sase/commit/57c71d17a007e73b016a6cac60d14698c45c9b53) | feat(core): mirror alias-history wire contract and add skew probe | [sase-n8.3](sase-n8.3.md) | 2026-08-16 13:37:24 EDT |
 | sase | [`556a78b`](https://github.com/sase-org/sase/commit/556a78bcacbed60137dd69cbf33e5417e8b6acff) | feat(llm-provider): add frontend-neutral alias-history adapter | [sase-n8.5](sase-n8.5.md) | 2026-08-16 14:25:32 EDT |
+| sase | [`bc529f1`](https://github.com/sase-org/sase/commit/bc529f11f5f2c8c910f3e2ba08650350b68eb1e9) | feat(ace): add alias agent-history panel to Launch Control | [sase-n8.6](sase-n8.6.md) | 2026-08-16 15:29:09 EDT |
