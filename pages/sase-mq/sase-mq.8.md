@@ -21,10 +21,11 @@ The only automated writer that touches a project's primary bead sidecar is the c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.8.land.md) | [sase-mq.8](sase-mq.8.md) | 1 |
+| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.8.land.md) | [sase-mq.8](sase-mq.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`71012c5`](https://github.com/sase-org/sase/commit/71012c5c742c7ddc4cd4e5592927b0798778ff3e) | refactor(workspace): narrow operational lease internals | [sase-mq.8](sase-mq.8.md) | 2026-08-16 06:42:32 EDT |
+| sase--plans | [`sase--plans@1f4f961`](https://github.com/sase-org/sase--plans/commit/1f4f9610998f01318ee33e7c5743ae166d16e628) | docs(plan): mark primary workspace ownership complete | [sase-mq.8](sase-mq.8.md) | 2026-08-16 06:44:49 EDT |

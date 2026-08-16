@@ -98,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.2/README.md) | [sase-mq.8.2](sase-mq.8.2.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.3/README.md) | [sase-mq.8.3](sase-mq.8.3.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.4/README.md) | [sase-mq.8.4](sase-mq.8.4.md) | 1 |
-| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.8.land.md) | [sase-mq.8](sase-mq.8.md) | 1 |
+| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.8.land.md) | [sase-mq.8](sase-mq.8.md) | 2 |
 | [bbugyi200.athena.sase-mq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.land.md) | [sase-mq](README.md) | 0 |
 
 ## Commits
@@ -118,3 +118,4 @@ flowchart TD
 | sase | [`b57f644`](https://github.com/sase-org/sase/commit/b57f644dbf6a48e656aaa3e708d07741d22a063b) | refactor(sidecar-sync): replace bead-store-refresh chop with sync hints | [sase-mq.8.1](sase-mq.8.1.md) | 2026-08-16 05:31:56 EDT |
 | sase | [`d10fe53`](https://github.com/sase-org/sase/commit/d10fe53024144a0084501c349642552cccc8e033) | test: audit ownership invariant launch paths | [sase-mq.8.4](sase-mq.8.4.md) | 2026-08-16 06:05:19 EDT |
 | sase | [`71012c5`](https://github.com/sase-org/sase/commit/71012c5c742c7ddc4cd4e5592927b0798778ff3e) | refactor(workspace): narrow operational lease internals | [sase-mq.8](sase-mq.8.md) | 2026-08-16 06:42:32 EDT |
+| sase--plans | [`sase--plans@1f4f961`](https://github.com/sase-org/sase--plans/commit/1f4f9610998f01318ee33e7c5743ae166d16e628) | docs(plan): mark primary workspace ownership complete | [sase-mq.8](sase-mq.8.md) | 2026-08-16 06:44:49 EDT |
