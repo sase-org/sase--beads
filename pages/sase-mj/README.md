@@ -25,7 +25,7 @@ The Admin Center Statistics tab gains an eighth "Perf" view that answers "is SAS
 | [sase-mj.2](sase-mj.2.md) | Python perf facade and view model | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mj.3](sase-mj.3.md) | Perf view registration and interaction | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mj.4](sase-mj.4.md) | Perf view rendering | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [sase-mj.5](sase-mj.5.md) | Visual snapshots and documentation | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
+| [sase-mj.5](sase-mj.5.md) | Visual snapshots and documentation | ✓ closed | small | 2026-08-15 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n2["sase-mj.2: Python perf facade and view model [closed]"]
     n3["sase-mj.3: Perf view registration and interaction [closed]"]
     n4["sase-mj.4: Perf view rendering [closed]"]
-    n5["sase-mj.5: Visual snapshots and documentation [in_progress]"]
+    n5["sase-mj.5: Visual snapshots and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.2/README.md) | [sase-mj.2](sase-mj.2.md) | 1 |
 | [bbugyi200.athena.sase-mj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.3/README.md) | [sase-mj.3](sase-mj.3.md) | 1 |
 | [bbugyi200.athena.sase-mj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.4/README.md) | [sase-mj.4](sase-mj.4.md) | 1 |
-| [bbugyi200.athena.sase-mj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.5/README.md) | [sase-mj.5](sase-mj.5.md) | 0 |
+| [bbugyi200.athena.sase-mj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.5/README.md) | [sase-mj.5](sase-mj.5.md) | 1 |
 | [bbugyi200.athena.sase-mj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.land/README.md) | [sase-mj](README.md) | 0 |
 
 ## Commits
@@ -67,3 +67,4 @@ flowchart TD
 | sase | [`a244947`](https://github.com/sase-org/sase/commit/a244947a8cc040ddaba013c39a4807bc07dd8cf7) | feat(stats): add Python perf facade and immutable PerfView | [sase-mj.2](sase-mj.2.md) | 2026-08-15 21:45:47 EDT |
 | sase | [`d9423e3`](https://github.com/sase-org/sase/commit/d9423e37a96e7f7bb7efdd88fca91820e913f7bd) | feat(ace): register Perf as the eighth Statistics view | [sase-mj.3](sase-mj.3.md) | 2026-08-15 22:25:24 EDT |
 | sase | [`9a3a861`](https://github.com/sase-org/sase/commit/9a3a8617cac79b79217520fbc5ba8c33bde5f17b) | feat(ace): render the Statistics Perf dashboard | [sase-mj.4](sase-mj.4.md) | 2026-08-15 23:48:50 EDT |
+| sase | [`3862288`](https://github.com/sase-org/sase/commit/3862288e98d737dbbe2c2a9dad20d8d16f5eeb96) | test(ace): add visual snapshots and runbook documentation for Statistics Perf view | [sase-mj.5](sase-mj.5.md) | 2026-08-16 00:06:51 EDT |
