@@ -13,7 +13,7 @@ runtime-correctness: consume the atomic store result in usage-limit enforcement,
 
 ## Dependencies
 
-- **Depends on:** [sase-n4.5.1](sase-n4.5.1.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n4.5.1](sase-n4.5.1.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
