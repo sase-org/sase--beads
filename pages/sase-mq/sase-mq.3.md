@@ -25,7 +25,7 @@ disposable-retry: recover conflicts by resetting only leased machine-owned check
 
 - **Depends on:** [sase-mq.2](sase-mq.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mq.4](sase-mq.4.md) ◐ · ⧖ 2026-08-15
-- **Blocks:** [sase-mq.5](sase-mq.5.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mq.5](sase-mq.5.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
