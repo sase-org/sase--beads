@@ -19,4 +19,10 @@ detach-retirement-and-enforcement: remove public -d/--detached from proc run, pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.5/README.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.5.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ac5d958`](https://github.com/sase-org/sase/commit/ac5d95810fc70758d6855d6012d828d9e73bcfb2) | feat(cli)!: retire detached proc mode | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 2026-08-15 22:02:33 EDT |
