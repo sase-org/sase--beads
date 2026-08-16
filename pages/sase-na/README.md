@@ -16,7 +16,7 @@ The Ctrl+T history-word menu ranks candidates by how strongly they relate to the
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-na.1](sase-na.1.md) | Prompt-word corpus index | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-na.2](sase-na.2.md) | Relation, recency, and frequency scoring | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-na.2](sase-na.2.md) | Relation, recency, and frequency scoring | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-na.3](sase-na.3.md) | Warm cache, menu, and settings wiring | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-na.4](sase-na.4.md) | Ranking signals in the completion panel | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 
@@ -26,7 +26,7 @@ The Ctrl+T history-word menu ranks candidates by how strongly they relate to the
 flowchart TD
     n0["sase-na: Rank Ctrl+T history words by relation, recency, and frequency [in_progress]"]
     n1["sase-na.1: Prompt-word corpus index [closed]"]
-    n2["sase-na.2: Relation, recency, and frequency scoring [in_progress]"]
+    n2["sase-na.2: Relation, recency, and frequency scoring [closed]"]
     n3["sase-na.3: Warm cache, menu, and settings wiring [in_progress]"]
     n4["sase-na.4: Ranking signals in the completion panel [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-na.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-na.1.md) | [sase-na.1](sase-na.1.md) | 1 |
-| [bbugyi200.athena.sase-na.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.2/README.md) | [sase-na.2](sase-na.2.md) | 0 |
+| [bbugyi200.athena.sase-na.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.2/README.md) | [sase-na.2](sase-na.2.md) | 1 |
 | [bbugyi200.athena.sase-na.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.3/README.md) | [sase-na.3](sase-na.3.md) | 0 |
 | [bbugyi200.athena.sase-na.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.4/README.md) | [sase-na.4](sase-na.4.md) | 0 |
 | [bbugyi200.athena.sase-na.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.land/README.md) | [sase-na](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ed39dd0`](https://github.com/sase-org/sase/commit/ed39dd0b886b7dcccd96a859aa856913b430787a) | feat: add prompt-word history index | [sase-na.1](sase-na.1.md) | 2026-08-16 13:21:31 EDT |
+| sase | [`b058549`](https://github.com/sase-org/sase/commit/b0585490e2457e0ee78c7eee9ed9d5d4ae7b5450) | feat(history): add prompt word ranking engine | [sase-na.2](sase-na.2.md) | 2026-08-16 14:10:17 EDT |

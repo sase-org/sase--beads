@@ -15,9 +15,11 @@ index: build the immutable prompt-word corpus index (word stats, prompt co-occur
 
 [2026-08-16T17:20:01Z · sase-na.1] Implemented prompt-word corpus index and MRU compatibility; verified 51 focused history/prompt-word/cache tests and just check.
 
+[2026-08-16T17:26:43Z · sase-na.1--1] PROPOSED FOLLOW-UP: pytest tmpdir cleanup race after xdist completion - just check can fail after all selected tests pass when pytest-current disappears during cleanup
+
 ## Dependencies
 
-- **Blocks:** [sase-na.2](sase-na.2.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-na.2](sase-na.2.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
