@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.5/README.md) | [sase-mi.5](sase-mi.5.md) | 1 |
 | [bbugyi200.athena.sase-mi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.6/README.md) | [sase-mi.6](sase-mi.6.md) | 1 |
 | [bbugyi200.athena.sase-mi.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.7/README.md) | [sase-mi.7](sase-mi.7.md) | 1 |
-| [bbugyi200.athena.sase-mi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.land/README.md) | [sase-mi](README.md) | 1 |
+| [bbugyi200.athena.sase-mi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.land/README.md) | [sase-mi](README.md) | 2 |
 
 ## Commits
 
@@ -96,3 +96,4 @@ flowchart TD
 | sase | [`392dcc9`](https://github.com/sase-org/sase/commit/392dcc962982ebf1458f10d21997341519c4ad90) | fix(agents-sync): bound the post-push agent-hood publication drain | [sase-mi.6](sase-mi.6.md) | 2026-08-15 22:22:44 EDT |
 | sase | [`daf933a`](https://github.com/sase-org/sase/commit/daf933aa5aef62111343b94a1957ddc6fa605195) | fix(perf): group optional resolver spans in detail benchmark | [sase-mi.7](sase-mi.7.md) | 2026-08-15 23:55:20 EDT |
 | sase | [`298cea9`](https://github.com/sase-org/sase/commit/298cea9665ed67dac6810e6cdbe40c80274f8782) | test(selection-health): register the proc-submission audit as a source-tree audit | [sase-mi](README.md) | 2026-08-16 00:24:01 EDT |
+| sase--plans | [`sase--plans@e6293e4`](https://github.com/sase-org/sase--plans/commit/e6293e4c562a92cf2621b292d78b79a1c985b699) | docs(plans): mark high\_impact\_task\_bead\_sweep done | [sase-mi](README.md) | 2026-08-16 00:27:23 EDT |
