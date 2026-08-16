@@ -19,7 +19,7 @@
 | [sase-n7.2](sase-n7.2.md) | Kill the N+1 proc-store reads | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n7.3](sase-n7.3.md) | Stop the O(archive) index query | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n7.4](sase-n7.4.md) | Take reconciliation off the synchronous load | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-n7.5](sase-n7.5.md) | Pin the win with a regression gate | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
+| [sase-n7.5](sase-n7.5.md) | Pin the win with a regression gate | ✓ closed | small | 2026-08-16 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["sase-n7.2: Kill the N+1 proc-store reads [closed]"]
     n3["sase-n7.3: Stop the O(archive) index query [closed]"]
     n4["sase-n7.4: Take reconciliation off the synchronous load [closed]"]
-    n5["sase-n7.5: Pin the win with a regression gate [in_progress]"]
+    n5["sase-n7.5: Pin the win with a regression gate [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-n7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.2/README.md) | [sase-n7.2](sase-n7.2.md) | 1 |
 | [bbugyi200.athena.sase-n7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.3/README.md) | [sase-n7.3](sase-n7.3.md) | 1 |
 | [bbugyi200.athena.sase-n7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.4/README.md) | [sase-n7.4](sase-n7.4.md) | 1 |
-| [bbugyi200.athena.sase-n7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.5/README.md) | [sase-n7.5](sase-n7.5.md) | 0 |
+| [bbugyi200.athena.sase-n7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.5/README.md) | [sase-n7.5](sase-n7.5.md) | 1 |
 | [bbugyi200.athena.sase-n7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n7.land/README.md) | [sase-n7](README.md) | 0 |
 
 ## Commits
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`9fe8204`](https://github.com/sase-org/sase/commit/9fe82045d1948f20209b9b4d89a32a39fee0a2aa) | perf(monitor): bound reconciliation artifact-index query | [sase-n7.3](sase-n7.3.md) | 2026-08-16 11:51:21 EDT |
 | sase | [`3f3f61d`](https://github.com/sase-org/sase/commit/3f3f61d14d9a53441fae2d98b92ce4882c929147) | perf(monitor): resolve many proc ids from one store snapshot | [sase-n7.2](sase-n7.2.md) | 2026-08-16 12:04:13 EDT |
 | sase | [`39bdd67`](https://github.com/sase-org/sase/commit/39bdd6772ed2cdd0f3b6b822449e687542cfe1b5) | perf(ace): take monitor reconcile off the agents disk load | [sase-n7.4](sase-n7.4.md) | 2026-08-16 12:45:19 EDT |
+| sase | [`0ec2018`](https://github.com/sase-org/sase/commit/0ec2018f1f191fdafe3d7e8416eb06263e6abec1) | test: add agents disk-load operation regression gate | [sase-n7.5](sase-n7.5.md) | 2026-08-16 13:24:08 EDT |
