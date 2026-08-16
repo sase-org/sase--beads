@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.3/README.md) | [sase-mj.3](sase-mj.3.md) | 1 |
 | [bbugyi200.athena.sase-mj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.4/README.md) | [sase-mj.4](sase-mj.4.md) | 1 |
 | [bbugyi200.athena.sase-mj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.5/README.md) | [sase-mj.5](sase-mj.5.md) | 1 |
-| [bbugyi200.athena.sase-mj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.land/README.md) | [sase-mj](README.md) | 1 |
+| [bbugyi200.athena.sase-mj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mj.land/README.md) | [sase-mj](README.md) | 2 |
 
 ## Commits
 
@@ -95,3 +95,4 @@ flowchart TD
 | sase | [`9a3a861`](https://github.com/sase-org/sase/commit/9a3a8617cac79b79217520fbc5ba8c33bde5f17b) | feat(ace): render the Statistics Perf dashboard | [sase-mj.4](sase-mj.4.md) | 2026-08-15 23:48:50 EDT |
 | sase | [`3862288`](https://github.com/sase-org/sase/commit/3862288e98d737dbbe2c2a9dad20d8d16f5eeb96) | test(ace): add visual snapshots and runbook documentation for Statistics Perf view | [sase-mj.5](sase-mj.5.md) | 2026-08-16 00:06:51 EDT |
 | sase | [`3a783a4`](https://github.com/sase-org/sase/commit/3a783a411863801c7fe1fd1b908a508eb954abca) | build(deps): raise the sase-core-rs floor to the published perf\_logs\_query release | [sase-mj](README.md) | 2026-08-16 01:07:15 EDT |
+| sase--plans | [`sase--plans@47fcb2e`](https://github.com/sase-org/sase--plans/commit/47fcb2e8a171d886c2ffd41bd7fe51a89a0ac2bb) | chore(plans): mark the Statistics Perf view plan done | [sase-mj](README.md) | 2026-08-16 01:09:07 EDT |
