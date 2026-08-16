@@ -68,8 +68,15 @@ flowchart TD
     n14["sase-m6.6.1.6: Cut Patch over to the shared inline filter bar [closed]"]
     n15["sase-m6.6.1.7: Prove parity, migration safety, visuals, and responsiveness [closed]"]
     n16["sase-m6.7: Relations, reveal, and grouping as contract features [in_progress]"]
-    n17["sase-m6.8: The declarative ref.pane block [in_progress]"]
-    n18["sase-m6.9: Unified Artifacts keymap with a safe migration [in_progress]"]
+    n17["sase-m6.7.1: Relations, reveal, and grouping as Artifacts contract features [in_progress]"]
+    n18["sase-m6.7.1.1: Relations and grouping become declared contract facts [closed]"]
+    n19["sase-m6.7.1.2: The host-owned relation index and its built-in sources [in_progress]"]
+    n20["sase-m6.7.1.3: One host-owned relation panel and generalized jumpers [in_progress]"]
+    n21["sase-m6.7.1.4: Reveal as a reversible lens [in_progress]"]
+    n22["sase-m6.7.1.5: Every pane's grouping on the shared fold registry [in_progress]"]
+    n23["sase-m6.7.1.6: Conformance, docs, and the relation performance gate [in_progress]"]
+    n24["sase-m6.8: The declarative ref.pane block [in_progress]"]
+    n25["sase-m6.9: Unified Artifacts keymap with a safe migration [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,8 +93,15 @@ flowchart TD
     n8 --> n14
     n8 --> n15
     n0 --> n16
-    n0 --> n17
-    n0 --> n18
+    n16 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n17 --> n22
+    n17 --> n23
+    n0 --> n24
+    n0 --> n25
     n1 -.-> n4
     n3 -.-> n5
     n4 -.-> n5
@@ -106,10 +120,16 @@ flowchart TD
     n12 -.-> n14
     n13 -.-> n14
     n14 -.-> n15
-    n16 -.-> n17
-    n16 -.-> n18
-    n17 -.-> n2
-    n18 -.-> n2
+    n16 -.-> n24
+    n16 -.-> n25
+    n18 -.-> n19
+    n18 -.-> n22
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n23
+    n22 -.-> n23
+    n24 -.-> n2
+    n25 -.-> n2
 ```
 
 ## Agents
@@ -131,7 +151,14 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.6.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.6.md) | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.7/README.md) | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.land.md) | [sase-m6.6.1](sase-m6.6.1.md) | 1 |
-| [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7/README.md) | [sase-m6.7](sase-m6.7.md) | 0 |
+| [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.md) | [sase-m6.7](sase-m6.7.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.1/README.md) | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-m6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.2/README.md) | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.3/README.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.4/README.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.5/README.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.6/README.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.land/README.md) | [sase-m6.7.1](sase-m6.7.1.md) | 0 |
 | [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.8/README.md) | [sase-m6.8](sase-m6.8.md) | 0 |
 | [bbugyi200.athena.sase-m6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.9/README.md) | [sase-m6.9](sase-m6.9.md) | 0 |
 | [bbugyi200.athena.sase-m6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.land/README.md) | [sase-m6](README.md) | 0 |
@@ -155,3 +182,4 @@ flowchart TD
 | sase | [`3c3909c`](https://github.com/sase-org/sase/commit/3c3909c314d2c501ba58fe14ebf1765f70195460) | feat(tui): add inline Patch filter bar | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 2026-08-16 00:54:18 EDT |
 | sase | [`ff3b0fa`](https://github.com/sase-org/sase/commit/ff3b0fa43f8175fea54af7cead671d3e863a88ca) | test: add artifacts query profile conformance goldens | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 2026-08-16 01:31:43 EDT |
 | sase | [`172b1a1`](https://github.com/sase-org/sase/commit/172b1a1a0937dcaf939cbd75d903613a797a3f3a) | fix(tui): guard inline Patch filter before compose | [sase-m6.6.1](sase-m6.6.1.md) | 2026-08-16 02:42:32 EDT |
+| sase | [`2abe188`](https://github.com/sase-org/sase/commit/2abe188aae089950b13f22b9c5c299baaf5e6cef) | feat(artifacts): declare pane relation and grouping facts | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 2026-08-16 03:17:40 EDT |
