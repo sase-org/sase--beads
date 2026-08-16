@@ -27,7 +27,7 @@ Every SASE-initiated repository mutation runs in a claimed disposable workspace,
 | [sase-mq.4](sase-mq.4.md) | Approval and task launches off the primary checkout | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mq.5](sase-mq.5.md) | Background bead mutations off canonical primary clones | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mq.6](sase-mq.6.md) | Generic primary-sidecar auto-sync | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [sase-mq.7](sase-mq.7.md) | End-to-end ownership audit and regression gates | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
+| [sase-mq.7](sase-mq.7.md) | End-to-end ownership audit and regression gates | ✓ closed | small | 2026-08-15 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n4["sase-mq.4: Approval and task launches off the primary checkout [closed]"]
     n5["sase-mq.5: Background bead mutations off canonical primary clones [closed]"]
     n6["sase-mq.6: Generic primary-sidecar auto-sync [closed]"]
-    n7["sase-mq.7: End-to-end ownership audit and regression gates [in_progress]"]
+    n7["sase-mq.7: End-to-end ownership audit and regression gates [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mq.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.4.md) | [sase-mq.4](sase-mq.4.md) | 1 |
 | [bbugyi200.athena.sase-mq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.5/README.md) | [sase-mq.5](sase-mq.5.md) | 1 |
 | [bbugyi200.athena.sase-mq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.6/README.md) | [sase-mq.6](sase-mq.6.md) | 1 |
-| [bbugyi200.athena.sase-mq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.7/README.md) | [sase-mq.7](sase-mq.7.md) | 0 |
+| [bbugyi200.athena.sase-mq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.7/README.md) | [sase-mq.7](sase-mq.7.md) | 1 |
 | [bbugyi200.athena.sase-mq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.land/README.md) | [sase-mq](README.md) | 0 |
 
 ## Commits
@@ -82,3 +82,4 @@ flowchart TD
 | sase | [`985aae2`](https://github.com/sase-org/sase/commit/985aae20c132bf9d5c629820f330cc12eef174a2) | feat(workspace): add reset-and-replay recovery for leased checkouts | [sase-mq.3](sase-mq.3.md) | 2026-08-16 02:28:11 EDT |
 | sase | [`4b30309`](https://github.com/sase-org/sase/commit/4b30309e0f639e44063102544f621419c5cdbb9a) | feat(bead): lease workspace-local stores for background writers | [sase-mq.5](sase-mq.5.md) | 2026-08-16 03:08:53 EDT |
 | sase | [`1672858`](https://github.com/sase-org/sase/commit/16728587dd72a1e7c0ba817f380a09ba864e388b) | feat(workspace): run approval launches on operational leases | [sase-mq.4](sase-mq.4.md) | 2026-08-16 03:48:32 EDT |
+| sase | [`ec390cd`](https://github.com/sase-org/sase/commit/ec390cdd451f95730a1246475c7746c5c0643190) | test(workspace): add end-to-end ownership invariant audit gates | [sase-mq.7](sase-mq.7.md) | 2026-08-16 04:18:27 EDT |

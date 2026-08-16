@@ -24,7 +24,7 @@ sidecar-autosync: add opt-in clean fast-forward synchronization for plans, beads
 ## Dependencies
 
 - **Depends on:** [sase-mq.1](sase-mq.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mq.7](sase-mq.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mq.7](sase-mq.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

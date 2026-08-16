@@ -26,7 +26,7 @@ approval-launches: move approval-time plan archiving plus epic and task launch o
 ## Dependencies
 
 - **Depends on:** [sase-mq.3](sase-mq.3.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mq.7](sase-mq.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mq.7](sase-mq.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
