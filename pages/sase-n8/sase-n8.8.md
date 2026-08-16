@@ -29,7 +29,7 @@ floor: after the sase-core release publishes, move both bounds of the sase-core-
 
 - **Depends on:** [sase-n8.6](sase-n8.6.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-n8.7](sase-n8.7.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-n8.9](sase-n8.9.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n8.9](sase-n8.9.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

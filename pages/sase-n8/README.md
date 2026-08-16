@@ -38,7 +38,7 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 Reproduced on master 35d75b24e in workspace sase_12 after a from-scratch 'just install':
   (1) .venv/bin/python -m mypy src/sase/ace/tui/widgets/_history_word_rows.py -> error: Module "sase.ace.tui.widgets.history_word_completion" has n
 
-… and 2329 more characters
+… and 3997 more characters
 
 ## Phases
 
@@ -52,7 +52,7 @@ Reproduced on master 35d75b24e in workspace sase_12 after a from-scratch 'just i
 | [sase-n8.6](sase-n8.6.md) | The Launch Control agent-history panel and its \`H\` keymap | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-n8.7](sase-n8.7.md) | PNG goldens for the history panel | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n8.8](sase-n8.8.md) | Raise the sase-core-rs dependency window | ✓ closed | small | 2026-08-16 | 1 | 2 |
-| [sase-n8.9](sase-n8.9.md) | Acceptance against real agent history | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
+| [sase-n8.9](sase-n8.9.md) | Acceptance against real agent history | ✓ closed | small | 2026-08-16 | 1 | 0 |
 
 ## Lineage
 
@@ -67,7 +67,7 @@ flowchart TD
     n6["sase-n8.6: The Launch Control agent-history panel and its `H` keymap [closed]"]
     n7["sase-n8.7: PNG goldens for the history panel [closed]"]
     n8["sase-n8.8: Raise the sase-core-rs dependency window [closed]"]
-    n9["sase-n8.9: Acceptance against real agent history [in_progress]"]
+    n9["sase-n8.9: Acceptance against real agent history [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.sase-n8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.7/README.md) | [sase-n8.7](sase-n8.7.md) | 1 |
 | [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.8.md) | [sase-n8.8](sase-n8.8.md) | 2 |
 | [bbugyi200.athena.sase-n8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.9/README.md) | [sase-n8.9](sase-n8.9.md) | 0 |
-| [bbugyi200.athena.sase-n8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.land/README.md) | [sase-n8](README.md) | 0 |
+| [bbugyi200.athena.sase-n8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.land/README.md) | [sase-n8](README.md) | 1 |
 
 ## Commits
 
@@ -116,3 +116,4 @@ flowchart TD
 | sase | [`bbc24e4`](https://github.com/sase-org/sase/commit/bbc24e472e53ffb067c4cc41137f5885f70775c3) | fix(ace): keep Launch Control footer stable | [sase-n8.7](sase-n8.7.md) | 2026-08-16 16:01:49 EDT |
 | sase | [`fc1ad39`](https://github.com/sase-org/sase/commit/fc1ad39e7ceafca6c7013b52a10f923c2f84987e) | build(deps): require sase-core-rs 0.27.15 | [sase-n8.8](sase-n8.8.md) | 2026-08-16 16:53:46 EDT |
 | sase | [`e50d8a9`](https://github.com/sase-org/sase/commit/e50d8a9537a1a1baefd44bf121e1c8faf213b181) | fix: restore history-word metadata API | [sase-n8.8](sase-n8.8.md) | 2026-08-16 17:51:52 EDT |
+| sase | [`f3bb46f`](https://github.com/sase-org/sase/commit/f3bb46f292ab9927228534c13885339de5578f92) | fix(ace): restore the Launch Control History footer hint | [sase-n8](README.md) | 2026-08-16 18:39:30 EDT |

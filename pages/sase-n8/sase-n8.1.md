@@ -23,7 +23,7 @@ provenance: make alias resolution return the ordered trail of alias hops it trav
 
 ## Dependencies
 
-- **Blocks:** [sase-n8.9](sase-n8.9.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n8.9](sase-n8.9.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
