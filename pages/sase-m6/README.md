@@ -51,7 +51,7 @@ flowchart TD
     n12["sase-m6.6.1.4: Namespace durable query state by pane [closed]"]
     n13["sase-m6.6.1.5: Migrate Stitches, Beads, Plans, Files, and provider panes [closed]"]
     n14["sase-m6.6.1.6: Cut Patch over to the shared inline filter bar [closed]"]
-    n15["sase-m6.6.1.7: Prove parity, migration safety, visuals, and responsiveness [in_progress]"]
+    n15["sase-m6.6.1.7: Prove parity, migration safety, visuals, and responsiveness [closed]"]
     n16["sase-m6.7: Relations, reveal, and grouping as contract features [in_progress]"]
     n17["sase-m6.8: The declarative ref.pane block [in_progress]"]
     n18["sase-m6.9: Unified Artifacts keymap with a safe migration [in_progress]"]
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.4/README.md) | [sase-m6.6.1.4](sase-m6.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.5.md) | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 3 |
 | [bbugyi200.athena.sase-m6.6.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.6.md) | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 1 |
-| [bbugyi200.athena.sase-m6.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.7/README.md) | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-m6.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.7/README.md) | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.land/README.md) | [sase-m6.6.1](sase-m6.6.1.md) | 0 |
 | [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7/README.md) | [sase-m6.7](sase-m6.7.md) | 0 |
 | [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.8/README.md) | [sase-m6.8](sase-m6.8.md) | 0 |
@@ -138,3 +138,4 @@ flowchart TD
 | sase-core | [`sase-core@f898057`](https://github.com/sase-org/sase-core/commit/f8980573b24217d227a9931617443ceec0ceb302) | fix(query): correct exact-match, date-range, and digest handling in the profile engine | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 09:10:43 EDT |
 | sase | [`e4c6460`](https://github.com/sase-org/sase/commit/e4c64607f693552d3101bd1d130c3c76680f6e7f) | test(ace): align flat-pane visual fixtures with query profiles | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 19:38:20 EDT |
 | sase | [`3c3909c`](https://github.com/sase-org/sase/commit/3c3909c314d2c501ba58fe14ebf1765f70195460) | feat(tui): add inline Patch filter bar | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 2026-08-16 00:54:18 EDT |
+| sase | [`ff3b0fa`](https://github.com/sase-org/sase/commit/ff3b0fa43f8175fea54af7cead671d3e863a88ca) | test: add artifacts query profile conformance goldens | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 2026-08-16 01:31:43 EDT |
