@@ -22,7 +22,7 @@ panel: replace AncestorsChildrenPanel with a shell-owned RelationPanel, generali
 ## Dependencies
 
 - **Depends on:** [sase-m6.7.1.2](sase-m6.7.1.2.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-m6.7.1.4](sase-m6.7.1.4.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-m6.7.1.4](sase-m6.7.1.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

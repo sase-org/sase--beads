@@ -72,7 +72,7 @@ flowchart TD
     n18["sase-m6.7.1.1: Relations and grouping become declared contract facts [closed]"]
     n19["sase-m6.7.1.2: The host-owned relation index and its built-in sources [closed]"]
     n20["sase-m6.7.1.3: One host-owned relation panel and generalized jumpers [closed]"]
-    n21["sase-m6.7.1.4: Reveal as a reversible lens [in_progress]"]
+    n21["sase-m6.7.1.4: Reveal as a reversible lens [closed]"]
     n22["sase-m6.7.1.5: Every pane's grouping on the shared fold registry [closed]"]
     n23["sase-m6.7.1.6: Conformance, docs, and the relation performance gate [in_progress]"]
     n24["sase-m6.8: The declarative ref.pane block [in_progress]"]
@@ -155,7 +155,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.1/README.md) | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.2.md) | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2 |
-| [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.4/README.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.4.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.6/README.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
 | [bbugyi200.athena.sase-m6.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.land/README.md) | [sase-m6.7.1](sase-m6.7.1.md) | 0 |
@@ -187,3 +187,4 @@ flowchart TD
 | sase | [`f5dda81`](https://github.com/sase-org/sase/commit/f5dda81f351b085304f96a2acb11aaf4a7606860) | feat(artifacts): put every pane on the shared fold registry | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 2026-08-16 05:18:05 EDT |
 | sase | [`a0b6cd1`](https://github.com/sase-org/sase/commit/a0b6cd16bafc0cf4b4c17d760ebdc47e38875f8c) | feat(tui): generalize artifact relation navigation | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 06:58:13 EDT |
 | sase | [`467f8c1`](https://github.com/sase-org/sase/commit/467f8c184e08967805b3faf74ba1995c3307966a) | test: restore two test files reverted by a0b6cd16b | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 07:38:51 EDT |
+| sase | [`30c9ba2`](https://github.com/sase-org/sase/commit/30c9ba23b7fbfc4e8956577af3dddc49cabea270) | feat(artifacts): add reversible relation reveal lens | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 2026-08-16 08:00:27 EDT |
