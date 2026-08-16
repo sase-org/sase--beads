@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-m6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.01u](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.01u.md) · **Assignee:** `sase-m6.land`
-**Created:** 2026-08-14 17:05:15 EDT
+**Created:** 2026-08-14 17:05:15 EDT · **Closed:** 2026-08-16 19:28:24 EDT
 **Plan:** [202608/artifacts\_pane\_contract.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_pane_contract.md)
 
 ## Description
@@ -34,6 +34,21 @@ Routed here rather than to a new task because sase-m6.6.1.6 is an in-progress ch
 
 [2026-08-16T20:55:51Z · sase-na.land] DISCOVERED ISSUE: closed phase sase-m6.9 ('Unified Artifacts keymap with a safe migration', commit 3c9df1182) moved the grouping-cycle hint in the AcePage top bar from 'o' to 'B' without regenerating the PNG goldens, so a large fraction of the 'just test-visual' suite fails repo-wide on unmodified master. Confirmed by pixel diff, not inference: tests/ace/tui/visual/snapshots/png/history_word_completion_panel_120x40.png differed from the render by 101 of 1,520,532 pixels, entirely inside one glyph in the top-bar hint -- expected renders '... project (o)]' and actual renders '... project (B)]'. Reproduction in workspace sase_12 on master eba0eab73 after 'just install': 'just test-visual tests/ace/tui/visual/test_ace_png_snapshots_history_word_completion.py tests/ace/tui/visual/test_ace_png_snapshots_prompt_word_completion.py tests/ace/tui/visual/test_ace_png_snapshots_config_center_home.py' -> 6 failed, 0 passed, with the identical single-glyph diff shape in the config-center goldens (a completely unrelated pane), which is what makes this one shared regression rather than N independent ones. Phase bead sase-na.4 measured the blast radius at 278 of 692 nodes on master 101af7242 and attributed it to a 'top-right badge' and possibly e38d7b80f (the bead flag work); that attribution is wrong -- the diff region is the top-bar keymap hint and the cause is sase-m6.9's o->B move. Impact: blocks 'just check-full' (test-cost depends on _setup-visual) for every agent regardless of diff. Scope: one coordinated regeneration with --sase-update-visual-snapshots once the keymap is settled, not a per-test fix; note that task sase-lo warns 'just test-visual-update' rewrites every golden and can silently absorb unrelated drift. Recorded here rather than as a task bead because sase-m6 is the active causal owner and phase sase-m6.10 is still in progress. Found by sase-na.land; I regenerated only my own epic's history_word_completion_panel_120x40 golden in commit b5b7f761b, which now passes, leaving the rest of the suite untouched for this coordinated pass.
 
+[2026-08-16T22:29:09Z · sase-n8.land] DISCOVERED ISSUE (found by sase-n8.land while landing epic sase-n8): 'just _lint-symvision' — and therefore 'just lint' / 'just check' / 'just check-full' — is red repo-wide on master 2605324cb because two public symbols added by closed phase sase-m6.10 (commit 3f5378aeb 'feat(artifacts): conform pane contract capabilities') have no non-test consumer:
+
+  host_actions_for_capability in src/sase/ace/tui/_artifact_tab_actions.py:82
+  registered_host_actions in src/sase/ace/tui/_artifact_tab_actions.py:86
+
+Symvision: 'Unused public functions/classes. Make these private if they are used only within the file they are defined.' Both are exported in that module's __all__ (lines 132/134), which does not satisfy Symvision, and their only importers are test paths — tests/ace/tui/artifacts_contract/harness.py:16 and tests/ace/tui/test_artifacts_relation_surfaces.py — which per sase/memory/symvision.md never count as consumers.
+
+Reproduction (workspace sase_14, clean master 2605324cb after a from-scratch 'just install'): 'just _lint-symvision' exits 1 with exactly those two findings. This was previously MASKED: symvision stops at the first error, and the stale '--epic-symbol sase-n8(AliasHistoryRowSpec)' entry in the Justfile aborted the run before symbol analysis. sase-n8's landing commit removes that stale entry, so these two findings are now the first thing every agent hits at the mandatory pre-reply gate.
+
+Fix per sase/memory/symvision.md decision hierarchy step 2: prefix both with '_', update the __all__ entries and the two test imports — unless sase-m6 intends a real non-test consumer, which is sase-m6.land's call, not mine. Recorded here rather than as a task bead because sase-m6 is the active causal owner and sase-m6.land is running now (workspace 12). NOT a duplicate of task sase-mk, which tracks the opposite defect class (private symbols imported across files).
+
+[2026-08-16T22:29:42Z · sase-n8.land] DISCOVERED ISSUE (found by sase-n8.land while landing
+
+… and 15311 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +68,7 @@ Routed here rather than to a new task because sase-m6.6.1.6 is an in-progress ch
 
 ```mermaid
 flowchart TD
-    n0["sase-m6: One Artifacts contract — every ACE sub-tab, Patch included, behind one declared API [in_progress]"]
+    n0["sase-m6: One Artifacts contract — every ACE sub-tab, Patch included, behind one declared API [closed]"]
     n1["sase-m6.1: Live defects, golden fixtures, and the conformance harness [closed]"]
     n2["sase-m6.10: Conformance, diagnostics, docs, and the performance gate [closed]"]
     n3["sase-m6.2: Detail bands render the provider's declared fields [closed]"]
@@ -162,7 +177,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.6.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
 | [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 1 |
 | [bbugyi200.athena.sase-m6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.9/README.md) | [sase-m6.9](sase-m6.9.md) | 1 |
-| [bbugyi200.athena.sase-m6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.land/README.md) | [sase-m6](README.md) | 0 |
+| [bbugyi200.athena.sase-m6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.land/README.md) | [sase-m6](README.md) | 1 |
 
 ## Commits
 
@@ -192,3 +207,4 @@ flowchart TD
 | sase | [`ae3c862`](https://github.com/sase-org/sase/commit/ae3c86249e73b24d3807842ac91cc22fb81f4683) | feat(artifacts): support declarative ref pane presentation | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:44:54 EDT |
 | sase | [`3c9df11`](https://github.com/sase-org/sase/commit/3c9df1182ce53093c637909edef19c1297679b4e) | feat(ace-tui)!: unify the Artifacts keymap across Patch and its siblings | [sase-m6.9](sase-m6.9.md) | 2026-08-16 16:01:10 EDT |
 | sase | [`3f5378a`](https://github.com/sase-org/sase/commit/3f5378aebe2490cfc6c88aa266e30c8f1755a212) | feat(artifacts): conform pane contract capabilities | [sase-m6.10](sase-m6.10.md) | 2026-08-16 17:20:39 EDT |
+| sase | [`563a67f`](https://github.com/sase-org/sase/commit/563a67fb065c2eef0f710df85710e15bac023cce) | fix(tui): complete the grouping-keymap migration in the visual lane | [sase-m6](README.md) | 2026-08-16 19:33:00 EDT |
