@@ -44,7 +44,7 @@ Routed here rather than to a new task because sase-m6.6.1.6 is an in-progress ch
 | [sase-m6.5](sase-m6.5.md) | The shared shell and its visual grammar | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.6](sase-m6.6.md) | One query engine across every pane and both evaluators | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
 | [sase-m6.7](sase-m6.7.md) | Relations, reveal, and grouping as contract features | ✓ closed | large | 2026-08-14 | 1 | 0 |
-| [sase-m6.8](sase-m6.8.md) | The declarative ref.pane block | ✓ closed | large | 2026-08-14 | 1 | 1 |
+| [sase-m6.8](sase-m6.8.md) | The declarative ref.pane block | ✓ closed | large | 2026-08-14 | 1 | 2 |
 | [sase-m6.9](sase-m6.9.md) | Unified Artifacts keymap with a safe migration | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 
 ## Lineage
@@ -158,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.4.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.6.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
-| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 1 |
+| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 2 |
 | [bbugyi200.athena.sase-m6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.9/README.md) | [sase-m6.9](sase-m6.9.md) | 0 |
 | [bbugyi200.athena.sase-m6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.land/README.md) | [sase-m6](README.md) | 0 |
 
@@ -188,3 +188,4 @@ flowchart TD
 | sase | [`467f8c1`](https://github.com/sase-org/sase/commit/467f8c184e08967805b3faf74ba1995c3307966a) | test: restore two test files reverted by a0b6cd16b | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 07:38:51 EDT |
 | sase | [`30c9ba2`](https://github.com/sase-org/sase/commit/30c9ba23b7fbfc4e8956577af3dddc49cabea270) | feat(artifacts): add reversible relation reveal lens | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 2026-08-16 08:00:27 EDT |
 | sase | [`ae3c862`](https://github.com/sase-org/sase/commit/ae3c86249e73b24d3807842ac91cc22fb81f4683) | feat(artifacts): support declarative ref pane presentation | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:44:54 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@24daa87`](https://github.com/sase-org/sase-research-artifacts/commit/24daa876b135cce8969bbcfc309d15632f2fbaf6) | feat(provider): declare research artifact pane metadata | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:45:47 EDT |
