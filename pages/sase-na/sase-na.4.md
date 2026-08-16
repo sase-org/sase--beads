@@ -13,7 +13,7 @@ signals: render the stacked score meter, dominant-reason chip, and colored panel
 
 ## Dependencies
 
-- **Depends on:** [sase-na.3](sase-na.3.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-na.3](sase-na.3.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

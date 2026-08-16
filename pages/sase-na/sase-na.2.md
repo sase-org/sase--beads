@@ -22,7 +22,7 @@ ranking: add the pure scoring engine that turns the corpus index plus the curren
 ## Dependencies
 
 - **Depends on:** [sase-na.1](sase-na.1.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-na.3](sase-na.3.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-na.3](sase-na.3.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
