@@ -20,4 +20,4 @@ panel: replace AncestorsChildrenPanel with a shell-owned RelationPanel, generali
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.3/README.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 0 |

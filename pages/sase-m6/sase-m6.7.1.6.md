@@ -14,7 +14,7 @@ conform: extend the conformance harness and the synthetic third-party fixture wi
 ## Dependencies
 
 - **Depends on:** [sase-m6.7.1.4](sase-m6.7.1.4.md) ◐ · ⧖ 2026-08-16
-- **Depends on:** [sase-m6.7.1.5](sase-m6.7.1.5.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-m6.7.1.5](sase-m6.7.1.5.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
