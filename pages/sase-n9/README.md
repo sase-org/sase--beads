@@ -17,8 +17,8 @@ Agent-family completion entries in the ACE prompt input and in external editors 
 |---|---|---|---|---|---:|---:|
 | [sase-n9.1](sase-n9.1.md) | Shared family plan-preview value and TUI resolution cache | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n9.2](sase-n9.2.md) | Prompt-input completion rows and panel subtitle | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
-| [sase-n9.3](sase-n9.3.md) | Editor-helper agent catalog detail and documentation | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
-| [sase-n9.4](sase-n9.4.md) | sase-core LSP documentation passthrough | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
+| [sase-n9.3](sase-n9.3.md) | Editor-helper agent catalog detail and documentation | ✓ closed | medium | 2026-08-16 | 1 | 1 |
+| [sase-n9.4](sase-n9.4.md) | sase-core LSP documentation passthrough | ✓ closed | small | 2026-08-16 | 1 | 0 |
 
 ## Lineage
 
@@ -27,8 +27,8 @@ flowchart TD
     n0["sase-n9: Plan-aware agent-family completion previews [in_progress]"]
     n1["sase-n9.1: Shared family plan-preview value and TUI resolution cache [closed]"]
     n2["sase-n9.2: Prompt-input completion rows and panel subtitle [in_progress]"]
-    n3["sase-n9.3: Editor-helper agent catalog detail and documentation [in_progress]"]
-    n4["sase-n9.4: sase-core LSP documentation passthrough [in_progress]"]
+    n3["sase-n9.3: Editor-helper agent catalog detail and documentation [closed]"]
+    n4["sase-n9.4: sase-core LSP documentation passthrough [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -44,8 +44,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-n9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n9.1.md) | [sase-n9.1](sase-n9.1.md) | 1 |
 | [bbugyi200.athena.sase-n9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n9.2/README.md) | [sase-n9.2](sase-n9.2.md) | 0 |
-| [bbugyi200.athena.sase-n9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n9.3/README.md) | [sase-n9.3](sase-n9.3.md) | 0 |
-| [bbugyi200.athena.sase-n9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n9.4/README.md) | [sase-n9.4](sase-n9.4.md) | 0 |
+| [bbugyi200.athena.sase-n9.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n9.3.md) | [sase-n9.3](sase-n9.3.md) | 1 |
+| [bbugyi200.athena.sase-n9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n9.4.md) | [sase-n9.4](sase-n9.4.md) | 0 |
 | [bbugyi200.athena.sase-n9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n9.land/README.md) | [sase-n9](README.md) | 0 |
 
 ## Commits
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ddef1f0`](https://github.com/sase-org/sase/commit/ddef1f0d42a711729b6e322a6575e47fe3046a3a) | feat(ace): share agent-family plan/bead preview across TUI and editor | [sase-n9.1](sase-n9.1.md) | 2026-08-16 13:08:14 EDT |
+| sase | [`15e1fda`](https://github.com/sase-org/sase/commit/15e1fda0c153e9024073a13cad131c73509afdf1) | feat(editor): enrich family entries in the agent-catalog helper | [sase-n9.3](sase-n9.3.md) | 2026-08-16 14:00:22 EDT |
