@@ -17,6 +17,14 @@ floor: after the sase-core release publishes, move both bounds of the sase-core-
 
 [2026-08-16T20:51:43Z · sase-n8.8--1] Raised sase-core-rs floor to 0.27.15 and verified tools/validate_sase_core_rs plus the Symvision and standard lint/validation portions of just check against the published wheel; full-suite verification did not complete cleanly because unrelated file-panel and models-panel tests fail in the escalated lane.
 
+[2026-08-16T21:16:36Z · sase-n8.8--2] Raised sase-core-rs floor to 0.27.15 and verified tools/validate_sase_core_rs plus just check-full against the published wheel.
+
+[2026-08-16T21:18:15Z · sase-n8.8] PROPOSED FOLLOW-UP: Investigate long-running pytest lanes under active proc-observer load - while finalizing the floor phase, clean attached just check-full and just check runs passed lint/validation but their pytest lanes stayed CPU-active for many minutes and had to be terminated; focused touched-module tests passed.
+
+[2026-08-16T21:19:06Z · sase-n8.8] Verified pyproject.toml and uv.lock require sase-core-rs>=0.27.15,<0.28.0; installed/imported published wheel 0.27.15 from .venv site-packages with SASE_CORE_DIR pointing at an absent path; tools/validate_sase_core_rs passed; just _lint-symvision passed; focused tests for touched rendering/cache/history-word modules passed (69 passed). Clean just check-full and just check runs passed lint/validation lanes but pytest lanes did not complete within this finalizer and were terminated; recorded proposed follow-up.
+
+[2026-08-16T21:48:25Z · sase-n8.8--6] Restored public HistoryWordCompletionMetadata and verified just _lint-mypy, focused history-word widget tests, tools/validate_sase_core_rs, and published sase-core-rs 0.27.15. Full just check-full reached test-cost but failed on unrelated config/model/provider tests outside this bead's files.
+
 ## Dependencies
 
 - **Depends on:** [sase-n8.6](sase-n8.6.md) ✓ · ⧖ 2026-08-16
@@ -27,10 +35,11 @@ floor: after the sase-core release publishes, move both bounds of the sase-core-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.8.md) | [sase-n8.8](sase-n8.8.md) | 1 |
+| [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.8.md) | [sase-n8.8](sase-n8.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fc1ad39`](https://github.com/sase-org/sase/commit/fc1ad39e7ceafca6c7013b52a10f923c2f84987e) | build(deps): require sase-core-rs 0.27.15 | [sase-n8.8](sase-n8.8.md) | 2026-08-16 16:53:46 EDT |
+| sase | [`e50d8a9`](https://github.com/sase-org/sase/commit/e50d8a9537a1a1baefd44bf121e1c8faf213b181) | fix: restore history-word metadata API | [sase-n8.8](sase-n8.8.md) | 2026-08-16 17:51:52 EDT |
