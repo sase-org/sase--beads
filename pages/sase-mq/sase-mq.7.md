@@ -13,7 +13,7 @@ invariant-audit: prove primary-checkout immutability, disposable retry safety, a
 
 ## Dependencies
 
-- **Depends on:** [sase-mq.4](sase-mq.4.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mq.4](sase-mq.4.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-mq.5](sase-mq.5.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-mq.6](sase-mq.6.md) ✓ · ⧖ 2026-08-15
 
