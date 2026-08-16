@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-n8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.03t](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.03t.md) · **Assignee:** `sase-n8.land`
-**Created:** 2026-08-16 11:30:23 EDT
+**Created:** 2026-08-16 11:30:23 EDT · **Closed:** 2026-08-16 18:40:50 EDT
 **Plan:** [202608/launch\_control\_alias\_history.md](https://github.com/sase-org/sase--plans/blob/main/202608/launch_control_alias_history.md)
 
 ## Description
@@ -38,7 +38,7 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 Reproduced on master 35d75b24e in workspace sase_12 after a from-scratch 'just install':
   (1) .venv/bin/python -m mypy src/sase/ace/tui/widgets/_history_word_rows.py -> error: Module "sase.ace.tui.widgets.history_word_completion" has n
 
-… and 3997 more characters
+… and 10676 more characters
 
 ## Phases
 
@@ -58,7 +58,7 @@ Reproduced on master 35d75b24e in workspace sase_12 after a from-scratch 'just i
 
 ```mermaid
 flowchart TD
-    n0["sase-n8: Agent history for a model alias in Launch Control [in_progress]"]
+    n0["sase-n8: Agent history for a model alias in Launch Control [closed]"]
     n1["sase-n8.1: Record the alias resolution trail and its origin at launch [closed]"]
     n2["sase-n8.2: Rust core — alias projection, schema 22, and the alias-history query [closed]"]
     n3["sase-n8.3: Python wire mirror, facade call, and skew probes [closed]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.sase-n8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.7/README.md) | [sase-n8.7](sase-n8.7.md) | 1 |
 | [bbugyi200.athena.sase-n8.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.8.md) | [sase-n8.8](sase-n8.8.md) | 2 |
 | [bbugyi200.athena.sase-n8.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.9/README.md) | [sase-n8.9](sase-n8.9.md) | 0 |
-| [bbugyi200.athena.sase-n8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.land/README.md) | [sase-n8](README.md) | 1 |
+| [bbugyi200.athena.sase-n8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.land/README.md) | [sase-n8](README.md) | 2 |
 
 ## Commits
 
@@ -117,3 +117,4 @@ flowchart TD
 | sase | [`fc1ad39`](https://github.com/sase-org/sase/commit/fc1ad39e7ceafca6c7013b52a10f923c2f84987e) | build(deps): require sase-core-rs 0.27.15 | [sase-n8.8](sase-n8.8.md) | 2026-08-16 16:53:46 EDT |
 | sase | [`e50d8a9`](https://github.com/sase-org/sase/commit/e50d8a9537a1a1baefd44bf121e1c8faf213b181) | fix: restore history-word metadata API | [sase-n8.8](sase-n8.8.md) | 2026-08-16 17:51:52 EDT |
 | sase | [`f3bb46f`](https://github.com/sase-org/sase/commit/f3bb46f292ab9927228534c13885339de5578f92) | fix(ace): restore the Launch Control History footer hint | [sase-n8](README.md) | 2026-08-16 18:39:30 EDT |
+| sase | [`769a180`](https://github.com/sase-org/sase/commit/769a1806fe95b8818de37c666be85d07dc132591) | refactor(history): retire the alias-history epic-symbol allowlist | [sase-n8](README.md) | 2026-08-16 18:45:59 EDT |
