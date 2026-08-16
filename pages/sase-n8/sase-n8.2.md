@@ -19,7 +19,7 @@ core: in the sase-core repo, add the alias trail/origin to AgentMetaWire and Pro
 
 ## Dependencies
 
-- **Blocks:** [sase-n8.3](sase-n8.3.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n8.3](sase-n8.3.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

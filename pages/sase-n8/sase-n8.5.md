@@ -13,7 +13,7 @@ adapter: add the presentation-neutral adapter that composes the core query with 
 
 ## Dependencies
 
-- **Depends on:** [sase-n8.3](sase-n8.3.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n8.3](sase-n8.3.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-n8.4](sase-n8.4.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n8.6](sase-n8.6.md) ◐ · ⧖ 2026-08-16
 
