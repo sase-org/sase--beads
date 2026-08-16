@@ -22,7 +22,7 @@ cache_agent_page_links: Fix sase-lw with a correctly invalidated registry snapsh
 ## Dependencies
 
 - **Depends on:** [sase-mi.1](sase-mi.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mi.7](sase-mi.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mi.7](sase-mi.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

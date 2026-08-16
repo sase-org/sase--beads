@@ -22,7 +22,7 @@ protect_bead_streams: Fix sase-li by preventing publication or sync from shrinki
 ## Dependencies
 
 - **Depends on:** [sase-mi.1](sase-mi.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mi.7](sase-mi.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mi.7](sase-mi.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

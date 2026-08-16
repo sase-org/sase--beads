@@ -20,7 +20,7 @@ attribute_dirty_runs: Fix sase-lc by making reproducible-flake evidence distingu
 ## Dependencies
 
 - **Depends on:** [sase-mi.1](sase-mi.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mi.7](sase-mi.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mi.7](sase-mi.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

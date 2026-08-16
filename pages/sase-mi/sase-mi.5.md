@@ -23,7 +23,7 @@ stabilize_publication_budget: Fix sase-mb with a contention-resistant performanc
 
 - **Depends on:** [sase-mi.1](sase-mi.1.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mi.6](sase-mi.6.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mi.7](sase-mi.7.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mi.7](sase-mi.7.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
