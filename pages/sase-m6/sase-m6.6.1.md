@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-m6.6](sase-m6.6.md) / sase-m6.6.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-m6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.md) · **Assignee:** `sase-m6.6.1.land`
-**Created:** 2026-08-15 06:17:18 EDT
+**Created:** 2026-08-15 06:17:18 EDT · **Closed:** 2026-08-16 02:41:40 EDT
 **Plan:** [202608/unified\_artifacts\_query\_1.md](https://github.com/sase-org/sase--plans/blob/main/202608/unified_artifacts_query_1.md)
 
 ## Description
@@ -25,6 +25,18 @@ Replace the Artifacts tab's Patch boolean language and four pane-local flat toke
 
 [2026-08-15T23:48:55Z · toobig-2s.split_file.src.sase.ace.tui.modals.models_panel_providers.0] DISCOVERED ISSUE: Independently reproduced on 2026-08-15 while splitting Models-panel provider code. just check passed Python/Markdown formatting, keep-sorted, Ruff, mypy, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed lint (symvision) because Justfile still passes --epic-symbol 'sase-m6.6.1.5(canonicalize_artifact_query)' after phase sase-m6.6.1.5 closed. This refactor does not touch Justfile or artifact-query canonicalization; the stale whitelist is causally owned by the active unified Artifacts query epic.
 
+[2026-08-16T05:59:27Z · sase-mf.land] DISCOVERED ISSUE: Reproduced by epic sase-mf's land agent on master 3a783a411 (workspace tree changes only 2 memory .md files and 152 PNG goldens -- no Python, YAML, or config source -- so none of this can come from my diff). Phase sase-m6.6.1.6's inline Patch filter bar (commit 3c3909c31) left two kinds of fallout on master.
+
+(1) Non-visual suite: 'just test-scoped' (escalated to the full 30,699-test lane) reports 45 ERRORs, all at AcePageGroup teardown in tests/ace/tui/widgets/test_vim_normal_key_containment.py. Traceback: ace_page_group._reset_shared_page -> app._refresh_current_tab -> actions/patch/_display.py:394 _refresh_display_impl -> search_panel.set_query -> widgets/filter_bar.py:315 _editor -> PatchFilterBar(id='patch-filter-bar').query_one('#patch-filter-input') raises because the input is not mounted on the recycled shared page. 7 more failures in tests/ace/tui/test_changespecs_onboarding.py (test_patches_onboarding_*) are in the same Patch-pane surface. The other 33 failures in that run belong to sase-ml's live-host runtime contamination cluster (gate_conformance, gate_cli_answer/act, ops_commands, special_cases, prompt_inputs, partial_launch_cleanup, multi_prompt_e2e, snippet_name_modal, config, config_cache).
+
+(2) PNG goldens: 'just test-visual' fails 277 of 691 on this tree. The dominant diff in the failing images is the new inline filter bar row rendering '/ "visual"  3 matches  exact' where the golden still shows 'Search Query >> "visual"', plus the footer keymap hint change ('f' now focuses Patch filters). Commit 3c3909c31 regenerated only 14 goldens. For reference, sase-ml recorded 'just test-visual passed 684/684 clean' at 117476b7d, so the visual lane was green locally before this landed. Residual non-filter-bar subsets already have trackers: sase-mw (models_panel_jump AttributeError after de83c802d) and sase-my (artifacts_files AttributeError after c756a7c63); one Statistics golden (config_center_statistics_runs_120x40) additionally shows a one-row layout shift from a Config Center section-jump footer line.
+
+I deliberately did NOT mass-regenerate these goldens: retired task sase-lo warns that blanket --sase-update-visual-snapshots silently absorbs unrelated drift. I regenerated only the 152 goldens whose sole pixel difference was epic sase-mf's own launch-default top-bar pill stub (144 tests fixed, 421 -> 277 failures); every remaining failure carries filter-bar or pane-split drift on top and is left for this epic's land pass.
+
+[2026-08-16T06:10:42Z · sase-m6.6.1.land] LANDING INTERRUPTED (sase-m6.6.1.land, master d22622365). VERIFIED (step 1): all 7 phase beads closed; read every phase note and the linked plan 202608/unified_artifacts_query_1.md. Confirmed in source: ArtifactQuerySchema/CompiledQueryProfile with deterministic digest (src/sase/ace/query_profile/), profile-driven Rust parser/corpus/binding consumed through src/sase/core/query_profile_corpus_facade.py, Python reference evaluator (src/sase/ace/query/profile_reference*.py) at parity, pane-keyed saved queries/history/selections, all five built-in panes plus ref providers on the shared engine (files_options.py drives matching through ArtifactQueryIndex; Stitches is CommitsPane), Patch on the inline PatchFilterBar with QueryEditModal retained only for the deferred Agents tab, and cross-pane goldens in tests/ace/tui/artifacts_contract/test_query_conformance.py + goldens/query/profile_cases.json covering patches/stitches/beads/ref:plan/files/ref:notes. Every epic-bead DISCOVERED ISSUE is resolved: the compiled-profile digest mismatch and the stale 0.27.2 core floor are gone (floor is now >=0.27.11,<0.28.0), the sase-mc-reported Beads/Files/Commits visual failures are fixed (typed ArtifactEntryTarget, profile_reference_support.normalize_reference_time), and no sase-m6.6.1 --epic-symbol entries remain in the Justfile (just symvision and just lint both pass clean). Phase follow-ups resolved without new beads: exact_match plus the stitches limit field are in the compiled schema; sase_core_rs exposes reserve_proc/finish_proc/claim_proc_supervisor/begin_proc_settlement/request_proc_stop; the monitor FamilyAttachError was fixed by 0b465a39c; compare_inventory_to_source is now a private test-local helper; the generated-memory drift was fixed on master by d22622365. VERIFIED (step 2): reviewed every non-epic commit since 2f9b59cad. c756a7c63 (Files pane mixin split) and 829bdc52f (session worker guard) already sit on the shared engine; the Statistics Perf view's perf_logs_query is log aggregation, not a token dialect, so nothing to unify; the remaining legacy parse_query callers (axe/lumberjack.py, saved_query_picker.py, ace_page_group.py, core_handler.py) are Patch-dialect consumers the plan intentionally keeps on the compatibility wrapper. NOT CLOSING: full 'just test' on master is 83 failed / 30733 passed / 45 errors. 55 failures are host-environment contamination (SASE_PROC_* leaking into pytest) that go green when those vars are unset - not this epic's, corroborated on task sase-ml (+3) and noted on epic sase-m9.3.1. The other 23 failures + 45 errors ARE this epic's: FilterBar.set_query raises NoMatches on '#patch-filter-input' when the bar is not composed yet (45 errors), Patch-pane suites still assert the removed QueryEditModal and #search-query-panel, and Agents footer/help still expect edit_hooks on 'f' after 3c3909c31 moved it to 'F'. Proposed as tale plan 'Repair the Patch inline-filter-bar fallout left by the Artifacts query epic' (size medium); this landing resumes after it lands. Also routed: repo-wide PNG golden drift (421/690 visual snapshots fail, every diff confined to the top-right model badge, caused by 981106799 from
+
+… and 469 more characters
+
 ## References
 
 - file:explicit:b511fe27a71b5834683146da
@@ -33,4 +45,10 @@ Replace the Artifacts tab's Patch boolean language and four pane-local flat toke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.land/README.md) | [sase-m6.6.1](sase-m6.6.1.md) | 0 |
+| [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.land.md) | [sase-m6.6.1](sase-m6.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`172b1a1`](https://github.com/sase-org/sase/commit/172b1a1a0937dcaf939cbd75d903613a797a3f3a) | fix(tui): guard inline Patch filter before compose | [sase-m6.6.1](sase-m6.6.1.md) | 2026-08-16 02:42:32 EDT |

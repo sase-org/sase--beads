@@ -17,6 +17,21 @@ Every ACE Artifacts sub-tab — Patch included — is driven by one host-owned A
 
 [2026-08-15T04:44:40Z · sase-m4.land--a] DISCOVERED ISSUE: While observing finish_github_actions_stabilization, master CI run 31861402259 for d19d08641246a2b0f9276fded07d93004815d640 failed the visual-test job after d19d0864 (feat(tui): give every Artifacts pane a shared shell and visual grammar), which is part of this active Artifacts contract epic. Failures: Help keymaps PNG mismatch, Help filter PNG mismatch, Models panel builtin effort picker PNG mismatch, Artifacts/Beads populated and reopened detail select_entry_target returned false for typed bead targets, and Artifacts files nested strip PNG mismatch. This extends the 2026-08-15T01:24 note: the Artifacts/Beads target failure still reproduces, and additional Help/Models/Artifacts snapshots drift after the shared-shell/visual-grammar work. Epic sase-m4's stabilization commit 5601920c9 is merely an ancestor; perf-floors and nonvisual Python 3.12/3.14 jobs passed, so this CI red is attributable to later Artifacts/TUI work, not the stabilization tale.
 
+[2026-08-16T06:13:55Z · toobig-2t.split_file.src.sase.bead._stream_integrity.0] DISCOVERED ISSUE: commit 3c3909c31 'feat(tui): add inline Patch filter bar' (SASE_BEAD=[sase-m6.6.1.6], phase of sase-m6.6.1) left ~25 DETERMINISTIC ACE TUI test failures on master d22622365. Reported from workspace sase_12 on 2026-08-16 while splitting src/sase/bead/_stream_integrity.py (bead-store code only — no ACE/TUI files touched). NOT the sase-ct/sase-j7 flake class: every node below fails serially, in isolation, with -p no:randomly, and reproduces with my diff stashed on a pristine tree.
+
+Repro: .venv/bin/python -m pytest tests/ace/tui/test_changespec_detail_only_refresh.py tests/ace/tui/test_changespecs_onboarding.py tests/ace/tui/test_jump_to_changespec.py tests/ace/tui/widgets/test_keybinding_footer_idempotent.py tests/test_keybinding_footer_agent.py tests/test_keymaps_display_help.py tests/test_ace_testing.py -q -p no:randomly  ->  20 failed, 130 passed in 58.6s.
+Plus: .venv/bin/python -m pytest tests/ace/tui/widgets/test_vim_normal_key_containment.py -q -p no:randomly  ->  45 errors (every parametrization), 1 failed.
+
+Two distinct root causes, both traceable to that commit:
+
+(1) PatchFilterBar input is queried before it is mounted. Teardown/refresh path raises textual.css.query.NoMatches: No nodes match '#patch-filter-input' on PatchFilterBar(id='patch-filter-bar'), via sase/ace/tui/actions/patch/_display.py:394 _refresh_display_impl -> search_panel.set_query() -> widgets/filter_bar.py:220 set_query -> filter_bar.py:315 _editor() -> query_one('#{INPUT_ID}', _FilterBarInput). This errors all 45 tests/ace/tui/widgets/test_vim_normal_key_containment.py nodes and the tests/test_ace_testing.py ACE page-group harness nodes. A related sibling signature appears as NoMatches: No nodes match '#search-query-panel' on Screen(id='_default'). set_query()/_editor() need to tolerate a not-yet-mounted (or already-unmounted) input rather than assuming the child exists.
+
+(2) The commit's default-keymap change ('f' focuses Patch filters while 'F' edits hooks) was not propagated to the agent-side fork keybindings/help, which still advertise 'F'. Failing assertions: ('f','fork clan') not in {... ('F','fork clan') ...}; ('f','fork tribe') not in {... ('F','fork tribe') ...}; ('f','fork') not in [... ('F','fork') ...]; ('f','Fork chat as agent') missing from the footer set. Nodes: tests/test_keymaps_display_help.py::test_agents_help_uses_f_for_fork_not_r_for_resume, tests/test_keybinding_footer_agent.py::{test_keybinding_footer_clan_advertises_clan_fork, test_keybinding_footer_named_panel_advertises_tribe_fork, test_keybinding_footer_agent_bindings_tale_done_with_chat}, tests/ace/tui/widgets/test_keybinding_footer_idempotent.py::{test_clan_footer_keeps_row_cleanup_and_panel_chooser_labels, test_named_tribe_footer_advertises_fork_and_wait}. Decide which key wins for fork and update either src/sase/default_config.yml or the footer/help tests to match — right now the two disagree on master.
+
+Also failing in the same lane, same pane area, likely the same landing: tests/ace/tui/test_changespecs_onboarding.py (7 nodes — onboarding visibility now wrong in every direction), tests/ace/tui/test_changespec_detail_only_refresh.py::{test_full_refresh_still_calls_update_list, test_mark_toggle_falls_back_to_full_refresh_on_patch_failure} (update_list_calls == 0), tests/ace/tui/test_jump_to_changespec.py::TestNavigateToPatchExactFirst::test_exact_target_wins_after_switching_to_project_query (navigate_to_patch_tab returns False).
+
+Routed here rather than to a new task because sase-m6.6.1.6 is an in-progress child of this epic and its own commit introduced both the widget and the keymap change; sase-m6.9 ('Unified Artifacts keymap with a safe migration') explicitly owns the keymap half. RELATED: sase-ct (retired umbrella, not +1'd — this is deterministic, not a flake); sase-ml and sase-mv cover the other, unrelated failures in the same lane and were corroborated separately.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -27,7 +42,7 @@ Every ACE Artifacts sub-tab — Patch included — is driven by one host-owned A
 | [sase-m6.3](sase-m6.3.md) | One typed entry target on every pane | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.4](sase-m6.4.md) | ArtifactsPaneContract and derived, explainable capabilities | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.5](sase-m6.5.md) | The shared shell and its visual grammar | ✓ closed | large | 2026-08-14 | 1 | 1 |
-| [sase-m6.6](sase-m6.6.md) | One query engine across every pane and both evaluators | ◐ in_progress | xlarge | 2026-08-14 | 1 | 0 |
+| [sase-m6.6](sase-m6.6.md) | One query engine across every pane and both evaluators | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
 | [sase-m6.7](sase-m6.7.md) | Relations, reveal, and grouping as contract features | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
 | [sase-m6.8](sase-m6.8.md) | The declarative ref.pane block | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
 | [sase-m6.9](sase-m6.9.md) | Unified Artifacts keymap with a safe migration | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
@@ -43,8 +58,8 @@ flowchart TD
     n4["sase-m6.3: One typed entry target on every pane [closed]"]
     n5["sase-m6.4: ArtifactsPaneContract and derived, explainable capabilities [closed]"]
     n6["sase-m6.5: The shared shell and its visual grammar [closed]"]
-    n7["sase-m6.6: One query engine across every pane and both evaluators [in_progress]"]
-    n8["sase-m6.6.1: One profile-driven query engine for every Artifacts pane [in_progress]"]
+    n7["sase-m6.6: One query engine across every pane and both evaluators [closed]"]
+    n8["sase-m6.6.1: One profile-driven query engine for every Artifacts pane [closed]"]
     n9["sase-m6.6.1.1: Define and compile the shared query profile [closed]"]
     n10["sase-m6.6.1.2: Parameterize the Rust parser, corpus, and Python binding [closed]"]
     n11["sase-m6.6.1.3: Generalize the Python reference evaluator [closed]"]
@@ -115,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.6.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.5.md) | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 3 |
 | [bbugyi200.athena.sase-m6.6.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.6.md) | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-m6.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.7/README.md) | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 1 |
-| [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.6.1.land/README.md) | [sase-m6.6.1](sase-m6.6.1.md) | 0 |
+| [bbugyi200.athena.sase-m6.6.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.6.1.land.md) | [sase-m6.6.1](sase-m6.6.1.md) | 1 |
 | [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7/README.md) | [sase-m6.7](sase-m6.7.md) | 0 |
 | [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.8/README.md) | [sase-m6.8](sase-m6.8.md) | 0 |
 | [bbugyi200.athena.sase-m6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.9/README.md) | [sase-m6.9](sase-m6.9.md) | 0 |
@@ -139,3 +154,4 @@ flowchart TD
 | sase | [`e4c6460`](https://github.com/sase-org/sase/commit/e4c64607f693552d3101bd1d130c3c76680f6e7f) | test(ace): align flat-pane visual fixtures with query profiles | [sase-m6.6.1.5](sase-m6.6.1.5.md) | 2026-08-15 19:38:20 EDT |
 | sase | [`3c3909c`](https://github.com/sase-org/sase/commit/3c3909c314d2c501ba58fe14ebf1765f70195460) | feat(tui): add inline Patch filter bar | [sase-m6.6.1.6](sase-m6.6.1.6.md) | 2026-08-16 00:54:18 EDT |
 | sase | [`ff3b0fa`](https://github.com/sase-org/sase/commit/ff3b0fa43f8175fea54af7cead671d3e863a88ca) | test: add artifacts query profile conformance goldens | [sase-m6.6.1.7](sase-m6.6.1.7.md) | 2026-08-16 01:31:43 EDT |
+| sase | [`172b1a1`](https://github.com/sase-org/sase/commit/172b1a1a0937dcaf939cbd75d903613a797a3f3a) | fix(tui): guard inline Patch filter before compose | [sase-m6.6.1](sase-m6.6.1.md) | 2026-08-16 02:42:32 EDT |
