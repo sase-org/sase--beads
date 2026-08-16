@@ -29,7 +29,7 @@ PROPOSED FOLLOW-UP: file a task bead for the 6 pre-existing baseline failures ab
 ## Dependencies
 
 - **Depends on:** [sase-m6.4](sase-m6.4.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-m6.7](sase-m6.7.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.7](sase-m6.7.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

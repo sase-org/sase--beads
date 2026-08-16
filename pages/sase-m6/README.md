@@ -43,8 +43,8 @@ Routed here rather than to a new task because sase-m6.6.1.6 is an in-progress ch
 | [sase-m6.4](sase-m6.4.md) | ArtifactsPaneContract and derived, explainable capabilities | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.5](sase-m6.5.md) | The shared shell and its visual grammar | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.6](sase-m6.6.md) | One query engine across every pane and both evaluators | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
-| [sase-m6.7](sase-m6.7.md) | Relations, reveal, and grouping as contract features | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
-| [sase-m6.8](sase-m6.8.md) | The declarative ref.pane block | ◐ in_progress | large | 2026-08-14 | 1 | 0 |
+| [sase-m6.7](sase-m6.7.md) | Relations, reveal, and grouping as contract features | ✓ closed | large | 2026-08-14 | 1 | 0 |
+| [sase-m6.8](sase-m6.8.md) | The declarative ref.pane block | ✓ closed | large | 2026-08-14 | 1 | 1 |
 | [sase-m6.9](sase-m6.9.md) | Unified Artifacts keymap with a safe migration | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 
 ## Lineage
@@ -67,15 +67,15 @@ flowchart TD
     n13["sase-m6.6.1.5: Migrate Stitches, Beads, Plans, Files, and provider panes [closed]"]
     n14["sase-m6.6.1.6: Cut Patch over to the shared inline filter bar [closed]"]
     n15["sase-m6.6.1.7: Prove parity, migration safety, visuals, and responsiveness [closed]"]
-    n16["sase-m6.7: Relations, reveal, and grouping as contract features [in_progress]"]
-    n17["sase-m6.7.1: Relations, reveal, and grouping as Artifacts contract features [in_progress]"]
+    n16["sase-m6.7: Relations, reveal, and grouping as contract features [closed]"]
+    n17["sase-m6.7.1: Relations, reveal, and grouping as Artifacts contract features [closed]"]
     n18["sase-m6.7.1.1: Relations and grouping become declared contract facts [closed]"]
     n19["sase-m6.7.1.2: The host-owned relation index and its built-in sources [closed]"]
     n20["sase-m6.7.1.3: One host-owned relation panel and generalized jumpers [closed]"]
     n21["sase-m6.7.1.4: Reveal as a reversible lens [closed]"]
     n22["sase-m6.7.1.5: Every pane's grouping on the shared fold registry [closed]"]
-    n23["sase-m6.7.1.6: Conformance, docs, and the relation performance gate [in_progress]"]
-    n24["sase-m6.8: The declarative ref.pane block [in_progress]"]
+    n23["sase-m6.7.1.6: Conformance, docs, and the relation performance gate [closed]"]
+    n24["sase-m6.8: The declarative ref.pane block [closed]"]
     n25["sase-m6.9: Unified Artifacts keymap with a safe migration [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -157,9 +157,8 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2 |
 | [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.4.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 1 |
-| [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.6/README.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
-| [bbugyi200.athena.sase-m6.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.land/README.md) | [sase-m6.7.1](sase-m6.7.1.md) | 0 |
-| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.8/README.md) | [sase-m6.8](sase-m6.8.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.6.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
+| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 1 |
 | [bbugyi200.athena.sase-m6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.9/README.md) | [sase-m6.9](sase-m6.9.md) | 0 |
 | [bbugyi200.athena.sase-m6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.land/README.md) | [sase-m6](README.md) | 0 |
 
@@ -188,3 +187,4 @@ flowchart TD
 | sase | [`a0b6cd1`](https://github.com/sase-org/sase/commit/a0b6cd16bafc0cf4b4c17d760ebdc47e38875f8c) | feat(tui): generalize artifact relation navigation | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 06:58:13 EDT |
 | sase | [`467f8c1`](https://github.com/sase-org/sase/commit/467f8c184e08967805b3faf74ba1995c3307966a) | test: restore two test files reverted by a0b6cd16b | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 07:38:51 EDT |
 | sase | [`30c9ba2`](https://github.com/sase-org/sase/commit/30c9ba23b7fbfc4e8956577af3dddc49cabea270) | feat(artifacts): add reversible relation reveal lens | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 2026-08-16 08:00:27 EDT |
+| sase | [`ae3c862`](https://github.com/sase-org/sase/commit/ae3c86249e73b24d3807842ac91cc22fb81f4683) | feat(artifacts): support declarative ref pane presentation | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:44:54 EDT |

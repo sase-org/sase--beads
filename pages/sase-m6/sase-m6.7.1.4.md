@@ -24,7 +24,7 @@ reveal: keep the query rewrite as the mechanism but wrap it in a lens record wit
 ## Dependencies
 
 - **Depends on:** [sase-m6.7.1.3](sase-m6.7.1.3.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-m6.7.1.6](sase-m6.7.1.6.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-m6.7.1.6](sase-m6.7.1.6.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

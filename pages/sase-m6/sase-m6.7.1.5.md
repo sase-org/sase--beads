@@ -26,7 +26,7 @@ Verification:
 ## Dependencies
 
 - **Depends on:** [sase-m6.7.1.1](sase-m6.7.1.1.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-m6.7.1.6](sase-m6.7.1.6.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-m6.7.1.6](sase-m6.7.1.6.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
