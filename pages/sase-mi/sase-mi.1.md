@@ -23,7 +23,7 @@ audit_ready_queue: Revalidate every non-in-progress task bead, close only eviden
 ## Dependencies
 
 - **Blocks:** [sase-mi.2](sase-mi.2.md) ◐ · ⧖ 2026-08-15
-- **Blocks:** [sase-mi.3](sase-mi.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mi.3](sase-mi.3.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mi.4](sase-mi.4.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mi.5](sase-mi.5.md) ◐ · ⧖ 2026-08-15
 

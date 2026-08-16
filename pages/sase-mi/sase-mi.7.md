@@ -14,7 +14,7 @@ verify_and_reconcile: Run combined verification, leave a concise outcome note on
 ## Dependencies
 
 - **Depends on:** [sase-mi.2](sase-mi.2.md) ◐ · ⧖ 2026-08-15
-- **Depends on:** [sase-mi.3](sase-mi.3.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mi.3](sase-mi.3.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-mi.4](sase-mi.4.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-mi.5](sase-mi.5.md) ◐ · ⧖ 2026-08-15
 - **Depends on:** [sase-mi.6](sase-mi.6.md) ◐ · ⧖ 2026-08-15

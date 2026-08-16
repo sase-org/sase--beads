@@ -17,7 +17,7 @@ Reconcile every ready sase task bead, retire stale recommendations with evidence
 |---|---|---|---|---|---:|---:|
 | [sase-mi.1](sase-mi.1.md) | Audit and reconcile the ready task queue | ✓ closed | medium | 2026-08-15 | 1 | 0 |
 | [sase-mi.2](sase-mi.2.md) | Protect append-only bead event streams | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
-| [sase-mi.3](sase-mi.3.md) | Exclude attributable dirty-tree failures from flake debt | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
+| [sase-mi.3](sase-mi.3.md) | Exclude attributable dirty-tree failures from flake debt | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mi.4](sase-mi.4.md) | Bound agent page-link resolution latency | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [sase-mi.5](sase-mi.5.md) | Stabilize the large publication backlog contract | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
 | [sase-mi.6](sase-mi.6.md) | Bound post-push agent publication | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
@@ -30,7 +30,7 @@ flowchart TD
     n0["sase-mi: High-impact task bead sweep [in_progress]"]
     n1["sase-mi.1: Audit and reconcile the ready task queue [closed]"]
     n2["sase-mi.2: Protect append-only bead event streams [in_progress]"]
-    n3["sase-mi.3: Exclude attributable dirty-tree failures from flake debt [in_progress]"]
+    n3["sase-mi.3: Exclude attributable dirty-tree failures from flake debt [closed]"]
     n4["sase-mi.4: Bound agent page-link resolution latency [closed]"]
     n5["sase-mi.5: Stabilize the large publication backlog contract [in_progress]"]
     n6["sase-mi.6: Bound post-push agent publication [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-mi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.1/README.md) | [sase-mi.1](sase-mi.1.md) | 0 |
 | [bbugyi200.athena.sase-mi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.2/README.md) | [sase-mi.2](sase-mi.2.md) | 0 |
-| [bbugyi200.athena.sase-mi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.3/README.md) | [sase-mi.3](sase-mi.3.md) | 0 |
+| [bbugyi200.athena.sase-mi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.3/README.md) | [sase-mi.3](sase-mi.3.md) | 1 |
 | [bbugyi200.athena.sase-mi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.4/README.md) | [sase-mi.4](sase-mi.4.md) | 1 |
 | [bbugyi200.athena.sase-mi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.5/README.md) | [sase-mi.5](sase-mi.5.md) | 0 |
 | [bbugyi200.athena.sase-mi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.6/README.md) | [sase-mi.6](sase-mi.6.md) | 0 |
@@ -72,3 +72,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`517d09b`](https://github.com/sase-org/sase/commit/517d09b7107277354852b907f5b85ddcd11cb732) | perf(tui): cache agent page registry snapshots | [sase-mi.4](sase-mi.4.md) | 2026-08-15 20:59:21 EDT |
+| sase | [`6f3d847`](https://github.com/sase-org/sase/commit/6f3d84736cff4592898545b58f519b12263a9072) | fix(selection-health): exclude attributable dirty-tree failures from flake debt | [sase-mi.3](sase-mi.3.md) | 2026-08-15 21:01:02 EDT |
