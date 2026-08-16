@@ -28,7 +28,7 @@ index: build one immutable per-snapshot RelationIndex over the three primitives 
 ## Dependencies
 
 - **Depends on:** [sase-m6.7.1.1](sase-m6.7.1.1.md) ✓ · ⧖ 2026-08-16
-- **Blocks:** [sase-m6.7.1.3](sase-m6.7.1.3.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-m6.7.1.3](sase-m6.7.1.3.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

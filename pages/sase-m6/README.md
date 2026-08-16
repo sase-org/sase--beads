@@ -71,7 +71,7 @@ flowchart TD
     n17["sase-m6.7.1: Relations, reveal, and grouping as Artifacts contract features [in_progress]"]
     n18["sase-m6.7.1.1: Relations and grouping become declared contract facts [closed]"]
     n19["sase-m6.7.1.2: The host-owned relation index and its built-in sources [closed]"]
-    n20["sase-m6.7.1.3: One host-owned relation panel and generalized jumpers [in_progress]"]
+    n20["sase-m6.7.1.3: One host-owned relation panel and generalized jumpers [closed]"]
     n21["sase-m6.7.1.4: Reveal as a reversible lens [in_progress]"]
     n22["sase-m6.7.1.5: Every pane's grouping on the shared fold registry [closed]"]
     n23["sase-m6.7.1.6: Conformance, docs, and the relation performance gate [in_progress]"]
@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.md) | [sase-m6.7](sase-m6.7.md) | 0 |
 | [bbugyi200.athena.sase-m6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.1/README.md) | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.2.md) | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 1 |
-| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.4/README.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 0 |
 | [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.6/README.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
@@ -185,3 +185,4 @@ flowchart TD
 | sase | [`2abe188`](https://github.com/sase-org/sase/commit/2abe188aae089950b13f22b9c5c299baaf5e6cef) | feat(artifacts): declare pane relation and grouping facts | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 2026-08-16 03:17:40 EDT |
 | sase | [`708c254`](https://github.com/sase-org/sase/commit/708c254523118a65c7d5f85eec42fa152c02ec97) | feat(artifacts): add host-owned RelationIndex for Artifacts panes | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 2026-08-16 04:32:00 EDT |
 | sase | [`f5dda81`](https://github.com/sase-org/sase/commit/f5dda81f351b085304f96a2acb11aaf4a7606860) | feat(artifacts): put every pane on the shared fold registry | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 2026-08-16 05:18:05 EDT |
+| sase | [`a0b6cd1`](https://github.com/sase-org/sase/commit/a0b6cd16bafc0cf4b4c17d760ebdc47e38875f8c) | feat(tui): generalize artifact relation navigation | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 06:58:13 EDT |
