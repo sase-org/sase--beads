@@ -23,7 +23,7 @@ ownership-contract: codify writable operational contexts and make canonical prim
 
 ## Dependencies
 
-- **Blocks:** [sase-mq.2](sase-mq.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mq.2](sase-mq.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mq.6](sase-mq.6.md) ◐ · ⧖ 2026-08-15
 
 ## Agents
