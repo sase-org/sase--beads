@@ -58,9 +58,9 @@ flowchart TD
 | [bbugyi200.athena.sase-n4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.1/README.md) | [sase-n4.1](sase-n4.1.md) | 1 |
 | [bbugyi200.athena.sase-n4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.2/README.md) | [sase-n4.2](sase-n4.2.md) | 1 |
 | [bbugyi200.athena.sase-n4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.3/README.md) | [sase-n4.3](sase-n4.3.md) | 1 |
-| [bbugyi200.athena.sase-n4.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.1/README.md) | [sase-n4.5.1](sase-n4.5.1.md) | 0 |
+| [bbugyi200.athena.sase-n4.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.1/README.md) | [sase-n4.5.1](sase-n4.5.1.md) | 1 |
 | [bbugyi200.athena.sase-n4.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.2/README.md) | [sase-n4.5.2](sase-n4.5.2.md) | 0 |
-| [bbugyi200.athena.sase-n4.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.3/README.md) | [sase-n4.5.3](sase-n4.5.3.md) | 1 |
+| [bbugyi200.athena.sase-n4.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.3/README.md) | [sase-n4.5.3](sase-n4.5.3.md) | 0 |
 | [bbugyi200.athena.sase-n4.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.land/README.md) | [sase-n4.5](sase-n4.5.md) | 0 |
 | [bbugyi200.athena.sase-n4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n4.land.md) | [sase-n4](README.md) | 0 |
 
@@ -71,4 +71,4 @@ flowchart TD
 | sase | [`3201e7f`](https://github.com/sase-org/sase/commit/3201e7fdb793e9eb0043e08c2c61629eafbfc656) | feat(llm-provider): add usage-limit detection core | [sase-n4.1](sase-n4.1.md) | 2026-08-16 11:18:09 EDT |
 | sase | [`c9ef675`](https://github.com/sase-org/sase/commit/c9ef675105258e853f80629628c6826f9ad33fe2) | feat(llm-provider): auto-disable providers on usage-limit errors | [sase-n4.2](sase-n4.2.md) | 2026-08-16 12:24:54 EDT |
 | sase | [`1fbc8c0`](https://github.com/sase-org/sase/commit/1fbc8c0f193338b0ac4fb63a435694f8f81cb403) | feat(llm-provider): notify on usage-limit auto-disable | [sase-n4.3](sase-n4.3.md) | 2026-08-16 13:13:37 EDT |
-| sase | [`2509e39`](https://github.com/sase-org/sase/commit/2509e3990c17db2a237e57f945357934f9b7ede3) | feat: show provider-disable provenance in Launch Control | [sase-n4.5.3](sase-n4.5.3.md) | 2026-08-16 15:06:05 EDT |
+| sase-core | [`sase-core@dc87c8e`](https://github.com/sase-org/sase-core/commit/dc87c8e5faa250b1babc84764493e05233d5a0a8) | feat(provider\_disable): add atomic first-writer disable | [sase-n4.5.1](sase-n4.5.1.md) | 2026-08-16 15:15:23 EDT |

@@ -27,10 +27,4 @@ surface-and-document: render automatic, manual, and unknown disable provenance i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-n4.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.3/README.md) | [sase-n4.5.3](sase-n4.5.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`2509e39`](https://github.com/sase-org/sase/commit/2509e3990c17db2a237e57f945357934f9b7ede3) | feat: show provider-disable provenance in Launch Control | [sase-n4.5.3](sase-n4.5.3.md) | 2026-08-16 15:06:05 EDT |
+| [bbugyi200.athena.sase-n4.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.5.3/README.md) | [sase-n4.5.3](sase-n4.5.3.md) | 0 |
