@@ -16,9 +16,9 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-n8.1](sase-n8.1.md) | Record the alias resolution trail and its origin at launch | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
-| [sase-n8.2](sase-n8.2.md) | Rust core — alias projection, schema 22, and the alias-history query | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
+| [sase-n8.2](sase-n8.2.md) | Rust core — alias projection, schema 22, and the alias-history query | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-n8.3](sase-n8.3.md) | Python wire mirror, facade call, and skew probes | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
-| [sase-n8.4](sase-n8.4.md) | The per-alias history limit config field | ✓ closed | small | 2026-08-16 | 1 | 1 |
+| [sase-n8.4](sase-n8.4.md) | The per-alias history limit config field | ✓ closed | small | 2026-08-16 | 1 | 0 |
 | [sase-n8.5](sase-n8.5.md) | Frontend-neutral alias-history adapter | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-n8.6](sase-n8.6.md) | The Launch Control agent-history panel and its \`H\` keymap | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
 | [sase-n8.7](sase-n8.7.md) | PNG goldens for the history panel | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
@@ -31,7 +31,7 @@ Pressing `H` on any alias-bearing Launch Control row opens a pop-up panel that a
 flowchart TD
     n0["sase-n8: Agent history for a model alias in Launch Control [in_progress]"]
     n1["sase-n8.1: Record the alias resolution trail and its origin at launch [in_progress]"]
-    n2["sase-n8.2: Rust core — alias projection, schema 22, and the alias-history query [in_progress]"]
+    n2["sase-n8.2: Rust core — alias projection, schema 22, and the alias-history query [closed]"]
     n3["sase-n8.3: Python wire mirror, facade call, and skew probes [in_progress]"]
     n4["sase-n8.4: The per-alias history limit config field [closed]"]
     n5["sase-n8.5: Frontend-neutral alias-history adapter [in_progress]"]
@@ -64,9 +64,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-n8.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.1.md) | [sase-n8.1](sase-n8.1.md) | 0 |
-| [bbugyi200.athena.sase-n8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.2.md) | [sase-n8.2](sase-n8.2.md) | 0 |
+| [bbugyi200.athena.sase-n8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-n8.2.md) | [sase-n8.2](sase-n8.2.md) | 1 |
 | [bbugyi200.athena.sase-n8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.3/README.md) | [sase-n8.3](sase-n8.3.md) | 0 |
-| [bbugyi200.athena.sase-n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.4/README.md) | [sase-n8.4](sase-n8.4.md) | 1 |
+| [bbugyi200.athena.sase-n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.4/README.md) | [sase-n8.4](sase-n8.4.md) | 0 |
 | [bbugyi200.athena.sase-n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.5/README.md) | [sase-n8.5](sase-n8.5.md) | 0 |
 | [bbugyi200.athena.sase-n8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.6/README.md) | [sase-n8.6](sase-n8.6.md) | 0 |
 | [bbugyi200.athena.sase-n8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n8.7/README.md) | [sase-n8.7](sase-n8.7.md) | 0 |
@@ -78,4 +78,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`23c953b`](https://github.com/sase-org/sase/commit/23c953bc7489c6b7a430ae11974e4fb13228a2f1) | feat: add model alias history limit config | [sase-n8.4](sase-n8.4.md) | 2026-08-16 12:13:03 EDT |
+| sase-core | [`sase-core@5078d26`](https://github.com/sase-org/sase-core/commit/5078d263f9078bd66382d40d24ed659154c48b88) | feat(agent\_scan): project alias trails and query bounded alias history | [sase-n8.2](sase-n8.2.md) | 2026-08-16 12:23:18 EDT |

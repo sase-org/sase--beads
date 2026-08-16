@@ -13,7 +13,7 @@ wire: mirror the new core contract on the Python side — alias trail/origin on 
 
 ## Dependencies
 
-- **Depends on:** [sase-n8.2](sase-n8.2.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n8.2](sase-n8.2.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-n8.5](sase-n8.5.md) ◐ · ⧖ 2026-08-16
 
 ## Agents
