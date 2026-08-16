@@ -20,4 +20,4 @@ grouping: give every pane a GroupFoldRegistry, convert the four panes that rende
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.5/README.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 0 |

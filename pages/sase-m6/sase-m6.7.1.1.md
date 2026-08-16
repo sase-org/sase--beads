@@ -21,7 +21,7 @@ vocabulary: replace the PaneRelationDecl/PaneGroupingDecl placeholders with real
 
 ## Dependencies
 
-- **Blocks:** [sase-m6.7.1.2](sase-m6.7.1.2.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-m6.7.1.2](sase-m6.7.1.2.md) ✓ · ⧖ 2026-08-16
 - **Blocks:** [sase-m6.7.1.5](sase-m6.7.1.5.md) ◐ · ⧖ 2026-08-16
 
 ## Agents
