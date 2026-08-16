@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-mq
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.035](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.035.md) · **Assignee:** `sase-mq.land`
-**Created:** 2026-08-15 23:37:55 EDT
+**Created:** 2026-08-15 23:37:55 EDT · **Closed:** 2026-08-16 06:24:48 EDT
 **Plan:** [202608/primary\_workspace\_ownership.md](https://github.com/sase-org/sase--plans/blob/main/202608/primary_workspace_ownership.md)
 
 ## Description
@@ -27,6 +27,8 @@ PROPOSED FOLLOW-UP DISPOSITION (all 9 child-bead proposals): [sase-mq.1 unused p
 
 POST-CLOSE WORK STILL OWED (for whoever finishes this landing): the six Justfile --epic-symbol 'sase-mq(...)' entries expire at close. All six (OperationalLeaseError, authorize_operational_lease_workspace, bind_operational_lease, operational_lease_settlement_policy, submit_leased_proc_request, transfer_operational_lease) are referenced only inside src/sase/workspace_provider/lease.py and from tests/workspace_provider/test_workspace_lease.py, so per sase/memory/symvision.md they need privatizing or deleting, not re-whitelisting. Plan file 202608/primary_workspace_ownership.md must be set to status: done at close.
 
+[2026-08-16T10:24:48Z · sase-mq.8.land] PARENT LANDING RECHECK COMPLETE after child epic sase-mq.8 closed. Re-read the prior 2026-08-16 landing note, the linked plan 202608/primary_workspace_ownership.md, all seven original phase beads and every note, child epic sase-mq.8 and all four of its phases/notes, current source, and post-child Git drift. The prior four blockers are resolved: the integrating canonical bead refresh was retired for waiter hints consumed by conservative sidecar auto-sync; bead_claim_checks now shares one lease and at most one publication per project tick; reset_replay directory and primary-writable-store source audits are registered; and launch/archive plus waiter-sync primary immutability is covered. All previous parent follow-up dispositions remain valid, including ready tasks sase-ml, sase-n0, and sase-mv and active-epic routing described in the prior landing note. The child post-start drift consisted of its four matching commits plus unrelated f5dda81f3 Artifacts-pane folding; no additional integration was needed. Verification on HEAD d10fe53024144a0084501c349642552cccc8e033: child-focused regression set 123 passed, parent ownership regression set 336 passed, sanitized just check passed every static gate and 41 scoped files, child post-close symvision passed, and every descendant is closed with valid linked plans. Global sase bead doctor also emitted eight settled historical event-stream ERRORs unrelated to this graph; corroborated exact existing ready task sase-ms rather than treating them as a parent blocker or creating a duplicate.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,7 +45,7 @@ POST-CLOSE WORK STILL OWED (for whoever finishes this landing): the six Justfile
 
 ```mermaid
 flowchart TD
-    n0["sase-mq: Enforce user-owned primary workspace boundaries [in_progress]"]
+    n0["sase-mq: Enforce user-owned primary workspace boundaries [closed]"]
     n1["sase-mq.1: Workspace ownership and mutation contract [closed]"]
     n2["sase-mq.2: Durable operational workspace leases [closed]"]
     n3["sase-mq.3: Reset-and-replay conflict recovery [closed]"]
@@ -51,7 +53,7 @@ flowchart TD
     n5["sase-mq.5: Background bead mutations off canonical primary clones [closed]"]
     n6["sase-mq.6: Generic primary-sidecar auto-sync [closed]"]
     n7["sase-mq.7: End-to-end ownership audit and regression gates [closed]"]
-    n8["sase-mq.8: Converge bead-store refresh on the single primary-sidecar sync policy [in_progress]"]
+    n8["sase-mq.8: Converge bead-store refresh on the single primary-sidecar sync policy [closed]"]
     n9["sase-mq.8.1: Retire the competing canonical bead-store refresh path [closed]"]
     n10["sase-mq.8.2: One lease and one publication per project per claim-check tick [closed]"]
     n11["sase-mq.8.3: Close the ownership epic's own audit gaps [closed]"]
@@ -96,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mq.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.2/README.md) | [sase-mq.8.2](sase-mq.8.2.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.3/README.md) | [sase-mq.8.3](sase-mq.8.3.md) | 1 |
 | [bbugyi200.athena.sase-mq.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.4/README.md) | [sase-mq.8.4](sase-mq.8.4.md) | 1 |
-| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mq.8.land/README.md) | [sase-mq.8](sase-mq.8.md) | 0 |
+| [bbugyi200.athena.sase-mq.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.8.land.md) | [sase-mq.8](sase-mq.8.md) | 1 |
 | [bbugyi200.athena.sase-mq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mq.land.md) | [sase-mq](README.md) | 0 |
 
 ## Commits
@@ -115,3 +117,4 @@ flowchart TD
 | sase | [`9b5bba5`](https://github.com/sase-org/sase/commit/9b5bba5df887247ec28aa50e1f14d6ddf431d513) | perf(beads): fuse claim-check snapshot and reconcile into one lease | [sase-mq.8.2](sase-mq.8.2.md) | 2026-08-16 05:14:55 EDT |
 | sase | [`b57f644`](https://github.com/sase-org/sase/commit/b57f644dbf6a48e656aaa3e708d07741d22a063b) | refactor(sidecar-sync): replace bead-store-refresh chop with sync hints | [sase-mq.8.1](sase-mq.8.1.md) | 2026-08-16 05:31:56 EDT |
 | sase | [`d10fe53`](https://github.com/sase-org/sase/commit/d10fe53024144a0084501c349642552cccc8e033) | test: audit ownership invariant launch paths | [sase-mq.8.4](sase-mq.8.4.md) | 2026-08-16 06:05:19 EDT |
+| sase | [`71012c5`](https://github.com/sase-org/sase/commit/71012c5c742c7ddc4cd4e5592927b0798778ff3e) | refactor(workspace): narrow operational lease internals | [sase-mq.8](sase-mq.8.md) | 2026-08-16 06:42:32 EDT |
