@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.2/README.md) | [sase-mf.2](sase-mf.2.md) | 1 |
 | [bbugyi200.athena.sase-mf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.3/README.md) | [sase-mf.3](sase-mf.3.md) | 1 |
 | [bbugyi200.athena.sase-mf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.4/README.md) | [sase-mf.4](sase-mf.4.md) | 1 |
-| [bbugyi200.athena.sase-mf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mf.land/README.md) | [sase-mf](README.md) | 0 |
+| [bbugyi200.athena.sase-mf.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-mf.land.md) | [sase-mf](README.md) | 1 |
 
 ## Commits
 
@@ -71,3 +71,4 @@ flowchart TD
 | sase | [`2fcca46`](https://github.com/sase-org/sase/commit/2fcca46eb36ff1bc23bcc4984f8b1bc09b4f3e1a) | feat!: replace role model aliases with size launch settings | [sase-mf.2](sase-mf.2.md) | 2026-08-15 16:40:39 EDT |
 | sase | [`28da68d`](https://github.com/sase-org/sase/commit/28da68d4e325d38587c9703a5db683ee8a13af76) | feat(tui): redesign Models panel around launch settings | [sase-mf.3](sase-mf.3.md) | 2026-08-15 17:57:07 EDT |
 | sase | [`9811067`](https://github.com/sase-org/sase/commit/98110679997c34218eec17eb96f20fec5e6bfe74) | docs: migrate docs and tests off retired model-alias names | [sase-mf.4](sase-mf.4.md) | 2026-08-16 00:53:04 EDT |
+| sase | [`0f63a62`](https://github.com/sase-org/sase/commit/0f63a62abc8e533fb0f61196d4bc60e0999e2950) | test(ace): refresh the visual goldens stranded by the launch-default pill stub | [sase-mf](README.md) | 2026-08-16 02:05:54 EDT |
