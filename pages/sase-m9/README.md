@@ -17,13 +17,15 @@ Every durable proc is detached and supervisor-owned, monitors are a proc-shell f
 
 [2026-08-15T22:38:23Z · sase-me--1] DISCOVERED ISSUE: Independently reproduced while finishing task sase-me on current master 5b4d5b3c6: sase monitor show vhy8mhvgd48q --all-lines crashes in list_monitors with ValueError because ace-run artifact 20260815145837 is not a monitor member. This blocks retained-log inspection for a completed monitor and corroborates the existing malformed monitor-role artifact report; causal owner is the active supervisor-owned proc/monitor-facade epic.
 
+[2026-08-16T17:47:41Z · sase-n7.land] DISCOVERED ISSUE: monitor lane helpers do one full proc-store read per candidate record. src/sase/monitor/store.py:143 active_monitor_for_lane and :165 monitor_blocking_start_for_lane both loop over _monitor_records(project_name) and call should_reconcile_dead_supervisor(monitor) per candidate with no shared snapshot, so each candidate re-reads and re-parses the whole proc store. This became expensive when sase-m9.2.1.4 (8b4635ad1 'feat(monitor): run monitors through the shared proc service') put proc_shell_owns() -- a full proc-store read via get_proc() -- inside that guard. Callers are CLI start/inspect paths: src/sase/monitor/start.py:322 and src/sase/main/monitor_handler.py:399, not the TUI list. The fix primitive already exists: epic sase-n7 added sase.procs.store.read_proc_snapshot() plus snapshot= kwargs on get_proc(), proc_shell_owns(), should_reconcile_dead_supervisor(), and reconcile_dead_supervisor(); the lane helpers just need to read one snapshot per pass and thread it through, exactly as reconcile_dead_supervisors_for_records() and list_monitors() now do. Measured shape on the author's real state before sase-n7: 147 monitor records x ~101 procs = 14,847 Proc.from_dict calls per pass. Proposed by bead sase-n7.2 and routed here by sase-n7.land because sase-m9 introduced the expensive guard.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-m9.1](sase-m9.1.md) | Sase agent and shell taxonomy | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
 | [sase-m9.2](sase-m9.2.md) | Unified proc-shell platform | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
-| [sase-m9.3](sase-m9.3.md) | Supervisor ownership for every ACE proc | ◐ in_progress | xlarge | 2026-08-14 | 1 | 0 |
+| [sase-m9.3](sase-m9.3.md) | Supervisor ownership for every ACE proc | ✓ closed | xlarge | 2026-08-14 | 1 | 0 |
 
 ## Lineage
 
@@ -46,13 +48,13 @@ flowchart TD
     n14["sase-m9.2.1.6.1: Make crash-boundary settlement recovery deterministic [closed]"]
     n15["sase-m9.2.1.6.2: Require the published proc lifecycle bindings [closed]"]
     n16["sase-m9.2.1.6.3: Re-audit, verify, and close sase-m9.2.1 [closed]"]
-    n17["sase-m9.3: Supervisor ownership for every ACE proc [in_progress]"]
-    n18["sase-m9.3.1: Supervisor ownership for every ACE proc [in_progress]"]
+    n17["sase-m9.3: Supervisor ownership for every ACE proc [closed]"]
+    n18["sase-m9.3.1: Supervisor ownership for every ACE proc [closed]"]
     n19["sase-m9.3.1.1: Durable operation and result contracts [closed]"]
     n20["sase-m9.3.1.2: Migrate patch and agent proc producers [closed]"]
     n21["sase-m9.3.1.3: Migrate remaining durable ACE producers [closed]"]
     n22["sase-m9.3.1.4: Read-only ACE proc observation [closed]"]
-    n23["sase-m9.3.1.5: Detached-option retirement and invariants [in_progress]"]
+    n23["sase-m9.3.1.5: Detached-option retirement and invariants [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -120,8 +122,8 @@ flowchart TD
 | [bbugyi200.athena.sase-m9.3.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.3.md) | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-m9.3.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.4.md) | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-m9.3.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m9.3.1.5.md) | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 1 |
-| [bbugyi200.athena.sase-m9.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.land/README.md) | [sase-m9.3.1](sase-m9.3.1.md) | 0 |
-| [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 0 |
+| [bbugyi200.athena.sase-m9.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.3.1.land/README.md) | [sase-m9.3.1](sase-m9.3.1.md) | 1 |
+| [bbugyi200.athena.sase-m9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m9.land/README.md) | [sase-m9](README.md) | 1 |
 
 ## Commits
 
@@ -146,3 +148,5 @@ flowchart TD
 | sase | [`7d7581a`](https://github.com/sase-org/sase/commit/7d7581a21cc7e3418979f09b2b17c8ec0daba0f6) | feat(ace): migrate remaining durable producers | [sase-m9.3.1.3](sase-m9.3.1.3.md) | 2026-08-15 18:56:54 EDT |
 | sase | [`8c48404`](https://github.com/sase-org/sase/commit/8c48404581cabc8b49f1534ef4e64f542363141d) | feat(ace): observe durable procs read-only | [sase-m9.3.1.4](sase-m9.3.1.4.md) | 2026-08-15 21:06:05 EDT |
 | sase | [`ac5d958`](https://github.com/sase-org/sase/commit/ac5d95810fc70758d6855d6012d828d9e73bcfb2) | feat(cli)!: retire detached proc mode | [sase-m9.3.1.5](sase-m9.3.1.5.md) | 2026-08-15 22:02:33 EDT |
+| sase | [`05b497c`](https://github.com/sase-org/sase/commit/05b497c3022690161640ecfce2e495fb10db93c8) | docs: describe task-triage launches as unattributed procs | [sase-m9.3.1](sase-m9.3.1.md) | 2026-08-15 22:35:17 EDT |
+| sase | [`ccbcb35`](https://github.com/sase-org/sase/commit/ccbcb3557e48cdc2cab9c5b70bec05bebcb0652d) | perf(monitor): share one proc-store snapshot per lane scan | [sase-m9](README.md) | 2026-08-16 14:44:29 EDT |

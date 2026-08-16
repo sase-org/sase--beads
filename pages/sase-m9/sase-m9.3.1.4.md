@@ -19,7 +19,7 @@ readonly-ace-proc-observer: replace ProcQueue ownership and ProcMirror writes wi
 
 - **Depends on:** [sase-m9.3.1.2](sase-m9.3.1.2.md) ✓ · ⧖ 2026-08-15
 - **Depends on:** [sase-m9.3.1.3](sase-m9.3.1.3.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-m9.3.1.5](sase-m9.3.1.5.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-m9.3.1.5](sase-m9.3.1.5.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
