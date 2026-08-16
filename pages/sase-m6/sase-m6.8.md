@@ -24,11 +24,10 @@ declare: add the Python-side ref.pane block and its presentation digest so a sid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 2 |
+| [bbugyi200.athena.sase-m6.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.8.md) | [sase-m6.8](sase-m6.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ae3c862`](https://github.com/sase-org/sase/commit/ae3c86249e73b24d3807842ac91cc22fb81f4683) | feat(artifacts): support declarative ref pane presentation | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:44:54 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@24daa87`](https://github.com/sase-org/sase-research-artifacts/commit/24daa876b135cce8969bbcfc309d15632f2fbaf6) | feat(provider): declare research artifact pane metadata | [sase-m6.8](sase-m6.8.md) | 2026-08-16 14:45:47 EDT |

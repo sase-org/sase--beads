@@ -18,7 +18,7 @@ conform: close the epic with a parametrized conformance suite over every resolve
 ## Dependencies
 
 - **Depends on:** [sase-m6.8](sase-m6.8.md) ✓ · ⧖ 2026-08-14
-- **Depends on:** [sase-m6.9](sase-m6.9.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [sase-m6.9](sase-m6.9.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

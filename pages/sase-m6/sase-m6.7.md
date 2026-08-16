@@ -16,7 +16,7 @@ relations: generalize the ancestors/children/siblings jumpers into declared hier
 - **Depends on:** [sase-m6.5](sase-m6.5.md) ✓ · ⧖ 2026-08-14
 - **Depends on:** [sase-m6.6](sase-m6.6.md) ✓ · ⧖ 2026-08-14
 - **Blocks:** [sase-m6.8](sase-m6.8.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [sase-m6.9](sase-m6.9.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [sase-m6.9](sase-m6.9.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
