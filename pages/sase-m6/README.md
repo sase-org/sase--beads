@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-m6.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.md) | [sase-m6.7](sase-m6.7.md) | 0 |
 | [bbugyi200.athena.sase-m6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.1/README.md) | [sase-m6.7.1.1](sase-m6.7.1.1.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.2.md) | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 1 |
-| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 1 |
+| [bbugyi200.athena.sase-m6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.3.md) | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2 |
 | [bbugyi200.athena.sase-m6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.4/README.md) | [sase-m6.7.1.4](sase-m6.7.1.4.md) | 0 |
 | [bbugyi200.athena.sase-m6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-m6.7.1.5.md) | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-m6.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-m6.7.1.6/README.md) | [sase-m6.7.1.6](sase-m6.7.1.6.md) | 0 |
@@ -186,3 +186,4 @@ flowchart TD
 | sase | [`708c254`](https://github.com/sase-org/sase/commit/708c254523118a65c7d5f85eec42fa152c02ec97) | feat(artifacts): add host-owned RelationIndex for Artifacts panes | [sase-m6.7.1.2](sase-m6.7.1.2.md) | 2026-08-16 04:32:00 EDT |
 | sase | [`f5dda81`](https://github.com/sase-org/sase/commit/f5dda81f351b085304f96a2acb11aaf4a7606860) | feat(artifacts): put every pane on the shared fold registry | [sase-m6.7.1.5](sase-m6.7.1.5.md) | 2026-08-16 05:18:05 EDT |
 | sase | [`a0b6cd1`](https://github.com/sase-org/sase/commit/a0b6cd16bafc0cf4b4c17d760ebdc47e38875f8c) | feat(tui): generalize artifact relation navigation | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 06:58:13 EDT |
+| sase | [`467f8c1`](https://github.com/sase-org/sase/commit/467f8c184e08967805b3faf74ba1995c3307966a) | test: restore two test files reverted by a0b6cd16b | [sase-m6.7.1.3](sase-m6.7.1.3.md) | 2026-08-16 07:38:51 EDT |
