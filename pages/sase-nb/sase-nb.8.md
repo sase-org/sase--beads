@@ -14,10 +14,10 @@ ui: render flag beads distinctly in the bead CLI rows and detail, bead pages, th
 ## Dependencies
 
 - **Blocks:** [sase-nb.10](sase-nb.10.md) ◐ · ⧖ 2026-08-16
-- **Depends on:** [sase-nb.4](sase-nb.4.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-nb.4](sase-nb.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.8/README.md) | [sase-nb.8](sase-nb.8.md) | 0 |
+| [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 0 |
