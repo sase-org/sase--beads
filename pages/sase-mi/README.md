@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-mi
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.02y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.02y.md) · **Assignee:** `sase-mi.land`
-**Created:** 2026-08-15 20:00:31 EDT
+**Created:** 2026-08-15 20:00:31 EDT · **Closed:** 2026-08-16 00:17:31 EDT
 **Plan:** [202608/high\_impact\_task\_bead\_sweep.md](https://github.com/sase-org/sase--plans/blob/main/202608/high_impact_task_bead_sweep.md)
 
 ## Description
@@ -25,6 +25,10 @@ Reconcile every ready sase task bead, retire stale recommendations with evidence
 
 [2026-08-16T03:42:20Z · toobig-2t.split_file.src.sase.ace.tui.modals.models_panel_display.0] DISCOVERED ISSUE: The eight unused-public leftovers already tracked here still block just check on newer HEAD c6d84d2a4 during unrelated Models-panel display splitting. The gate passed formatting, Ruff, mypy, pyscripts, test-waits, changelog, and terminology, then reported StreamIntegrityResult, analyze_stream_against_ancestor, encode_stream_events, is_event_stream_relpath, parse_stream_text (sase-mi.2), clear_agent_page_url_registry_cache (sase-mi.4), and PublicationDrainTimedOut plus configured_publication_drain_timeout (sase-mi.6). My diff touches only models_panel_display.py and the new models_panel_display_options.py. Phase sase-mi.7 remains the causal owner for combined-tree verification. The ninth finding, FilesQueryIndexResult, was independently corroborated on task sase-mn.
 
+[2026-08-16T04:17:31Z · sase-mi.land] VERIFIED (read the code and commits, not just the phase notes). Phase 1: 19 ready tasks audited, 6 closed with named evidence, 5 selected preserved. Phase 2 / sase-li -> b681d1bc3: prepare_event_streams_for_commit guards both commit paths (sdd/_commit_store.py, bead/_sync_git.py), refuse_unpublished_event_stream_shrink guards the push in sync_worker.py, diagnose_event_stream_history feeds doctor/sync and names stream, event range, and first offending commit -- confirmed live in sase bead doctor output. Phase 3 / sase-lc -> 6f3d84736: tri-state tree_dirty plus positive-proof _is_attributable_dirty_failure and an auditable excluded-count report. Phase 4 / sase-lw -> 517d09b71: registry snapshot cache keyed by store/project/root/freshness token with 30s TTL and write-side invalidation; benchmark warm p50 8.4ms vs the reported 400-800ms. Phase 5 / sase-mb -> 51ac2c683: deterministic operation bounds replace the 1.0s wall-clock assert with the 2000-request workload intact. Phase 6 / sase-mh -> 392dcc962: _bounded_publication_drain releases sase-agents-sync.lock and keeps the outbox request for retry. Phase 7 -> daf933aa5. RE-RAN AT HEAD daf933aa5: 381 focused tests green (stream integrity, agent_page_url, selection-health, all tests/agents_sync incl. bounded drain and large backlog, registry reservations, commit-finalizer publication); a diff-scoped lane escalated to the full suite and passed 30693 with 10 skipped and exactly one failure, tests/ace/tui/test_top_bar_order.py::test_override_pills_keep_narrow_top_bar_in_bounds, which is separately owned ready task sase-mp; every just check lint gate passes except lint(symvision) on FilesQueryIndexResult, which is separately owned ready task sase-mn and blocks the gate for every agent; just selection-health --fail-on-new-flake no longer names sase-lc's marker-audit node and exceeds baseline only on sase-mp and sase-j7 nodes. EPIC-CAUSED ISSUES RESOLVED: all 4 DISCOVERED ISSUE notes about 8 unused-public leftovers (StreamIntegrityResult, analyze_stream_against_ancestor, encode_stream_events, is_event_stream_relpath, parse_stream_text, clear_agent_page_url_registry_cache, PublicationDrainTimedOut, configured_publication_drain_timeout) are fixed -- symvision reports none of them, and there are no sase-mi epic-symbol whitelist entries to expire. The bead-store write wedge recorded here was root-caused and fixed outside this epic by tale 202608/bead_event_resolution_roundtrip.md (a non-round-trip-stable sase-core resolution field, not a real history rewrite); its residue is tracked as sase-mr, sase-ms, and sase-mu. INTEGRATION: commit ac5d95810 added tests/test_proc_submission_static_invariants.py, an AST audit over all of src/sase, after phase 3 curated _SOURCE_AUDIT_SCAN_ROOTS, so its dirty-tree failures could still have become shared flake debt; registered it with a regression test and added a guard test that fails if any registered audit file is renamed or split away. f935acace (rewrite-diff diagnosis) and daf933aa5 (privatization) already compose cleanly in _stream_integrity.py; no other post-epic commit duplicates or conflicts with this epic, and no new bead-store commit path bypasses the guard. FOLLOW-UPS: the only PROPOSED FOLLOW-UP acros
+
+… and 1939 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -41,7 +45,7 @@ Reconcile every ready sase task bead, retire stale recommendations with evidence
 
 ```mermaid
 flowchart TD
-    n0["sase-mi: High-impact task bead sweep [in_progress]"]
+    n0["sase-mi: High-impact task bead sweep [closed]"]
     n1["sase-mi.1: Audit and reconcile the ready task queue [closed]"]
     n2["sase-mi.2: Protect append-only bead event streams [closed]"]
     n3["sase-mi.3: Exclude attributable dirty-tree failures from flake debt [closed]"]
@@ -79,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-mi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.5/README.md) | [sase-mi.5](sase-mi.5.md) | 1 |
 | [bbugyi200.athena.sase-mi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.6/README.md) | [sase-mi.6](sase-mi.6.md) | 1 |
 | [bbugyi200.athena.sase-mi.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.7/README.md) | [sase-mi.7](sase-mi.7.md) | 1 |
-| [bbugyi200.athena.sase-mi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.land/README.md) | [sase-mi](README.md) | 0 |
+| [bbugyi200.athena.sase-mi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-mi.land/README.md) | [sase-mi](README.md) | 1 |
 
 ## Commits
 
@@ -91,3 +95,4 @@ flowchart TD
 | sase | [`b681d1b`](https://github.com/sase-org/sase/commit/b681d1bc3dda0bdab25d8866da718267d1e4942a) | fix(beads): refuse append-only event-stream shrinks at commit and push | [sase-mi.2](sase-mi.2.md) | 2026-08-15 21:28:32 EDT |
 | sase | [`392dcc9`](https://github.com/sase-org/sase/commit/392dcc962982ebf1458f10d21997341519c4ad90) | fix(agents-sync): bound the post-push agent-hood publication drain | [sase-mi.6](sase-mi.6.md) | 2026-08-15 22:22:44 EDT |
 | sase | [`daf933a`](https://github.com/sase-org/sase/commit/daf933aa5aef62111343b94a1957ddc6fa605195) | fix(perf): group optional resolver spans in detail benchmark | [sase-mi.7](sase-mi.7.md) | 2026-08-15 23:55:20 EDT |
+| sase | [`298cea9`](https://github.com/sase-org/sase/commit/298cea9665ed67dac6810e6cdbe40c80274f8782) | test(selection-health): register the proc-submission audit as a source-tree audit | [sase-mi](README.md) | 2026-08-16 00:24:01 EDT |
