@@ -21,6 +21,12 @@ The Ctrl+T history-word menu ranks candidates by how strongly they relate to the
 
 [2026-08-16T19:13:49Z · sase-n8.6] DISCOVERED ISSUE (fourth independent reproduction, while implementing unrelated plan launch_control_alias_history_panel.md): 'just _lint-symvision' still fails on master (a892dce3a, verified via git stash) with the same five closed-bead sase-na.2 stale --epic-symbol entries already reported above (RankedWord, WordRankingContext, build_word_ranking_context, rank_history_words, rank_recent_history_words). Corroborating the 044--1 and sase-m9.land notes above — recording here rather than filing a task bead per those notes' guidance that active phase sase-na.3 is the causal owner and must retarget/remove the temporary exemptions as its production consumers land.
 
+[2026-08-16T20:15:18Z · 04a] DISCOVERED ISSUE: just check fails at lint (symvision) because the Justfile still passes --epic-symbol "sase-na.4(HistoryWordCompletionMetadata)" but phase bead sase-na.4 is closed. Symvision error: "bead 'sase-na.4' is closed. Remove this stale --epic-symbol entry and clean up the symbol." Reproduction: just check (or just lint) on current master. Discovered while running just check for an unrelated change (restoring Gemini 3.7 Flash High to @xsmall only, plan restore_gemini_xsmall_only.md). The land phase should remove this stale exemption and clean up the now-unwhitelisted HistoryWordCompletionMetadata symbol before the epic's tree lands.
+
+[2026-08-16T20:23:40Z · 049] DISCOVERED ISSUE: Independently reproduced during agy_usage_limit_and_provider_attribution verification on 2026-08-16. just check reached lint (symvision) after the earlier static gates passed, then failed because Justfile still passes --epic-symbol "sase-na.4(HistoryWordCompletionMetadata)" but phase bead sase-na.4 is closed. This corroborates the existing 04a note; the active word-completion ranking epic owns removing/retargeting this temporary exemption and cleaning up the symbol. The local diff only touches agy usage-limit detection, anonymous workflow metadata reconciliation, and focused tests.
+
+[2026-08-16T20:43:43Z · sase-n4.5.land] DISCOVERED ISSUE: sase-n4.5 landing just check on master eba0eab7 fails Symvision on unused public build_score_meter and format_reason_chip in _history_word_rows.py. These landed in active epic phase sase-na.4 (commit e7b2a30f); no standalone task because active epic sase-na is the causal owner. Its land pass should privatize/delete the unused exports after descendants finish.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -56,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-na.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.2/README.md) | [sase-na.2](sase-na.2.md) | 1 |
 | [bbugyi200.athena.sase-na.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.3/README.md) | [sase-na.3](sase-na.3.md) | 1 |
 | [bbugyi200.athena.sase-na.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.4/README.md) | [sase-na.4](sase-na.4.md) | 1 |
-| [bbugyi200.athena.sase-na.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.land/README.md) | [sase-na](README.md) | 0 |
+| [bbugyi200.athena.sase-na.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-na.land/README.md) | [sase-na](README.md) | 1 |
 
 ## Commits
 
@@ -66,3 +72,4 @@ flowchart TD
 | sase | [`b058549`](https://github.com/sase-org/sase/commit/b0585490e2457e0ee78c7eee9ed9d5d4ae7b5450) | feat(history): add prompt word ranking engine | [sase-na.2](sase-na.2.md) | 2026-08-16 14:10:17 EDT |
 | sase | [`101af72`](https://github.com/sase-org/sase/commit/101af72428a1fc4f3c3c51f8cc25c57900c0adcb) | feat(history): wire ranked word completion into the history-word menu | [sase-na.3](sase-na.3.md) | 2026-08-16 15:20:00 EDT |
 | sase | [`e7b2a30`](https://github.com/sase-org/sase/commit/e7b2a30fb39858cd00cd1fb3d26e6791a7587ba3) | feat(history): render ranking signals in history-word completion rows | [sase-na.4](sase-na.4.md) | 2026-08-16 16:12:44 EDT |
+| sase | [`b5b7f76`](https://github.com/sase-org/sase/commit/b5b7f761b2f20e22e831abdc8a0baf450adf2a5e) | refactor(history): land the word-ranking epic's leftovers | [sase-na](README.md) | 2026-08-16 16:48:23 EDT |
