@@ -16,7 +16,7 @@ When a sase agent fails because its LLM provider reported a usage/quota limit, s
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-n4.1](sase-n4.1.md) | Usage-limit detection core | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-n4.2](sase-n4.2.md) | Runtime disable and retry precedence | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-n4.2](sase-n4.2.md) | Runtime disable and retry precedence | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-n4.3](sase-n4.3.md) | Rich usage-limit notification | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
 | [sase-n4.4](sase-n4.4.md) | Surface the disable reason and document the feature | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
 
@@ -26,7 +26,7 @@ When a sase agent fails because its LLM provider reported a usage/quota limit, s
 flowchart TD
     n0["sase-n4: Auto-disable LLM providers on usage-limit errors [in_progress]"]
     n1["sase-n4.1: Usage-limit detection core [closed]"]
-    n2["sase-n4.2: Runtime disable and retry precedence [in_progress]"]
+    n2["sase-n4.2: Runtime disable and retry precedence [closed]"]
     n3["sase-n4.3: Rich usage-limit notification [in_progress]"]
     n4["sase-n4.4: Surface the disable reason and document the feature [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-n4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.1/README.md) | [sase-n4.1](sase-n4.1.md) | 1 |
-| [bbugyi200.athena.sase-n4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.2/README.md) | [sase-n4.2](sase-n4.2.md) | 0 |
+| [bbugyi200.athena.sase-n4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.2/README.md) | [sase-n4.2](sase-n4.2.md) | 1 |
 | [bbugyi200.athena.sase-n4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.3/README.md) | [sase-n4.3](sase-n4.3.md) | 0 |
 | [bbugyi200.athena.sase-n4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.4/README.md) | [sase-n4.4](sase-n4.4.md) | 0 |
 | [bbugyi200.athena.sase-n4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-n4.land/README.md) | [sase-n4](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3201e7f`](https://github.com/sase-org/sase/commit/3201e7fdb793e9eb0043e08c2c61629eafbfc656) | feat(llm-provider): add usage-limit detection core | [sase-n4.1](sase-n4.1.md) | 2026-08-16 11:18:09 EDT |
+| sase | [`c9ef675`](https://github.com/sase-org/sase/commit/c9ef675105258e853f80629628c6826f9ad33fe2) | feat(llm-provider): auto-disable providers on usage-limit errors | [sase-n4.2](sase-n4.2.md) | 2026-08-16 12:24:54 EDT |

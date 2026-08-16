@@ -13,7 +13,7 @@ surface: render automatic versus manual provenance in the Models panel and the t
 
 ## Dependencies
 
-- **Depends on:** [sase-n4.2](sase-n4.2.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n4.2](sase-n4.2.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

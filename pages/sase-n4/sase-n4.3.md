@@ -13,7 +13,7 @@ notify: add a notification sender that reports which provider was disabled, for 
 
 ## Dependencies
 
-- **Depends on:** [sase-n4.2](sase-n4.2.md) ◐ · ⧖ 2026-08-16
+- **Depends on:** [sase-n4.2](sase-n4.2.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

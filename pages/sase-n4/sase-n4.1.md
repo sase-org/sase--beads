@@ -21,7 +21,7 @@ detect: add the `llm_provider.usage_limit` config section, its JSON schema, the 
 
 ## Dependencies
 
-- **Blocks:** [sase-n4.2](sase-n4.2.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-n4.2](sase-n4.2.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 
