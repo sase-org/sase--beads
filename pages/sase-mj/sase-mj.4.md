@@ -13,7 +13,7 @@ perf_render: build the Perf renderable — the five hero tiles, the TUI startup 
 
 ## Dependencies
 
-- **Depends on:** [sase-mj.3](sase-mj.3.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [sase-mj.3](sase-mj.3.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [sase-mj.5](sase-mj.5.md) ◐ · ⧖ 2026-08-15
 
 ## Agents

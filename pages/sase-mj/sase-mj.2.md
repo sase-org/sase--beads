@@ -22,7 +22,7 @@ stats_facade: add the thin `sase.stats` adapter that calls the new Rust binding,
 ## Dependencies
 
 - **Depends on:** [sase-mj.1](sase-mj.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [sase-mj.3](sase-mj.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [sase-mj.3](sase-mj.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
