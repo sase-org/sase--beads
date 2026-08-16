@@ -19,7 +19,7 @@ core: add IssueTypeWire::Flag and the BeadFlagWire record to the bead wire, mirr
 
 ## Dependencies
 
-- **Blocks:** [sase-nb.3](sase-nb.3.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.3](sase-nb.3.md) ✓ · ⧖ 2026-08-16
 
 ## Agents
 

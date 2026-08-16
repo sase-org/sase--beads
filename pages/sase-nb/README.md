@@ -61,6 +61,10 @@ prose. And `description:` is optional on a discovered note (`memory/notes.py`,
 `description: str | None`) — omitting it raises no error, it just leaves a blank hook in
 the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 
+[2026-08-16T18:02:54Z · sase-n7.land] DISCOVERED ISSUE: tests/test_bead/golden/cli/stats.stdout is stale against the flag issue type, so tests/test_bead/test_cli_golden.py::test_bead_cli_golden_contract[stats] fails deterministically. Found by sase-n7.land in workspace sase_17 on master HEAD 0ec2018f1: 'just check' escalated to the full suite (31240 passed, 2 failed) and this node failed with "assert 'Issue Statis...gs: 0' == 'Issue Statis...ks: 0'", the actual output carrying an extra 'Flags:       0' row. Reproduced in isolation with '.venv/bin/python -m pytest -q tests/test_bead/test_cli_golden.py::test_bead_cli_golden_contract -p no:randomly' -> 1 failed, 39 passed. Root cause is cross-repo drift: sase-core commit 198a7b4 'feat(bead): add flag issue type and BeadFlagWire' (SASE_BEAD=sase-nb.1, 2026-08-16 13:08, shipped in v0.27.14) added the Flags row to 'sase bead stats', while this repo's golden was last updated 2026-07-30 by d0da0d94f and still ends at 'Tasks:       0'. Any agent who runs 'just install' against the linked sase-core checkout now sees this node red. Fix is the one-line golden refresh on the sase side, which belongs to this epic. Note the other failure in the same run was the unrelated agent-artifact index schema 21-vs-22 drift already recorded on sase-n8.
+
+[2026-08-16T18:38:52Z · sase-m6.8] DISCOVERED ISSUE: Independent corroboration while implementing declarative Artifacts pane presentation on 2026-08-16. 'just check' passed all lint/validation gates, escalated to the full scoped pytest lane, then failed tests/test_bead/test_cli_golden.py::test_bead_cli_golden_contract[stats] because actual 'sase bead stats' includes the new 'Flags:       0' row while tests/test_bead/golden/cli/stats.stdout still ends at Tasks. Exact focused rerun of tests/test_config_cache.py::test_explicit_invalidation_wins_race_with_background_refresh, tests/test_bead/test_cli_golden.py::test_bead_cli_golden_contract[stats], and tests/monitor/test_monitor_store_reconcile.py::test_list_monitors_proc_store_reads_do_not_scale_with_record_count reproduced only the bead stats golden failure; the other two full-lane failures passed in isolation. My diff does not touch bead CLI/stat rendering. This corroborates the existing 2026-08-16 note on this epic; no standalone task bead created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,7 +72,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 | [sase-nb.1](sase-nb.1.md) | The flag bead type in sase-core | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.10](sase-nb.10.md) | sase\_flags.md, the sase.md pointer, and the docs | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-nb.2](sase-nb.2.md) | The typed registry, resolver, and snapshot | ✓ closed | large | 2026-08-16 | 1 | 1 |
-| [sase-nb.3](sase-nb.3.md) | Flag beads in the Python bead layer | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-nb.3](sase-nb.3.md) | Flag beads in the Python bead layer | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.4](sase-nb.4.md) | The shared flag visual language | ◐ in_progress | small | 2026-08-16 | 1 | 0 |
 | [sase-nb.5](sase-nb.5.md) | Registry and bead integrity enforcement | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
 | [sase-nb.6](sase-nb.6.md) | The FlagTriage gate and its reconciler | ◐ in_progress | large | 2026-08-16 | 1 | 0 |
@@ -84,7 +88,7 @@ flowchart TD
     n1["sase-nb.1: The flag bead type in sase-core [closed]"]
     n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [in_progress]"]
     n3["sase-nb.2: The typed registry, resolver, and snapshot [closed]"]
-    n4["sase-nb.3: Flag beads in the Python bead layer [in_progress]"]
+    n4["sase-nb.3: Flag beads in the Python bead layer [closed]"]
     n5["sase-nb.4: The shared flag visual language [in_progress]"]
     n6["sase-nb.5: Registry and bead integrity enforcement [in_progress]"]
     n7["sase-nb.6: The FlagTriage gate and its reconciler [in_progress]"]
@@ -124,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.1/README.md) | [sase-nb.1](sase-nb.1.md) | 1 |
 | [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 0 |
 | [bbugyi200.athena.sase-nb.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.2.md) | [sase-nb.2](sase-nb.2.md) | 1 |
-| [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 0 |
+| [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.4/README.md) | [sase-nb.4](sase-nb.4.md) | 0 |
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 0 |
 | [bbugyi200.athena.sase-nb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.6/README.md) | [sase-nb.6](sase-nb.6.md) | 0 |
@@ -139,3 +143,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@198a7b4`](https://github.com/sase-org/sase-core/commit/198a7b400444fe6bd9092a3021afa5090c52571c) | feat(bead): add flag issue type and BeadFlagWire | [sase-nb.1](sase-nb.1.md) | 2026-08-16 13:08:45 EDT |
 | sase | [`76c332b`](https://github.com/sase-org/sase/commit/76c332bd5d1e15a2753fd1a005242b9040b2d327) | feat: add feature flag registry foundation | [sase-nb.2](sase-nb.2.md) | 2026-08-16 13:53:02 EDT |
+| sase | [`e38d7b8`](https://github.com/sase-org/sase/commit/e38d7b80f7845abc53ff8c8b5e364248834ad1b5) | feat(bead): add flag issue type to the Python bead layer | [sase-nb.3](sase-nb.3.md) | 2026-08-16 14:50:45 EDT |
