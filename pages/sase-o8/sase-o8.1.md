@@ -17,7 +17,7 @@ signals_core: extract the score meter, dominant-reason chip, age formatter, pale
 
 ## Dependencies
 
-- **Blocks:** [sase-o8.5](sase-o8.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o8.5](sase-o8.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
