@@ -22,7 +22,7 @@ support_retire: delete the second-order orphans the body deletion leaves behind 
 ## Dependencies
 
 - **Depends on:** [sase-ng.1.4](sase-ng.1.4.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-ng.1.6](sase-ng.1.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-ng.1.6](sase-ng.1.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

@@ -29,7 +29,7 @@ Verified: ruff + mypy + symvision clean on the changed files; just lint passes e
 
 ## Dependencies
 
-- **Blocks:** [sase-ng.1.6](sase-ng.1.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-ng.1.6](sase-ng.1.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
