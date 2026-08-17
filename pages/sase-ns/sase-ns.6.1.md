@@ -17,6 +17,8 @@ flake_gate_retirement: task bead sase-nv. Let the reproducible-flake gate retire
 
 [2026-08-17T01:40:46Z · sase-ns.6.1] PROPOSED FOLLOW-UP: the live durable flake store (~/.sase/test-selection/gh_sase-org__sase/, shared across concurrent agents on this host) has accumulated two new reproducible flakes unrelated to this phase and not previously named in the bead/plan: tests/monitor/test_monitor_supervise.py::test_run_supervisor_idle_timeout_fires_after_output_stalls and tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor. Neither is retired or added to the baseline by this phase (out of scope); each needs its own filed bead before it can be added as baseline debt.
 
+[2026-08-17T01:45:21Z · sase-ns.6.1] PROPOSED FOLLOW-UP: a third reproducible flake unrelated to this phase has since appeared in the shared durable store: tests/fakey/test_usage_limit_e2e.py::test_usage_limit_failure_disables_only_fakey_and_preserves_error. Confirmed via the empty-nodeid-baseline re-run (see close note). Needs its own filed bead before it can be added as baseline debt.
+
 ## Agents
 
 | Agent | Bead | Commits |

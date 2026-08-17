@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.2.md) | [sase-ns.6.2](sase-ns.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
-| [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.land/README.md) | [sase-ns.6](sase-ns.6.md) | 0 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
 
@@ -116,3 +116,4 @@ flowchart TD
 | sase | [`f8b4ebb`](https://github.com/sase-org/sase/commit/f8b4ebb11eddf4ff1e8f09ac4f783cd8cf9707dc) | fix(tui): drop the stale history-word metadata re-export | [sase-ns](README.md) | 2026-08-16 19:47:06 EDT |
 | sase | [`4d8d24e`](https://github.com/sase-org/sase/commit/4d8d24eef0a4eb8717dafeefa92b5d69182c468d) | fix(bead): make forced-reuse cleanup all-or-nothing | [sase-ns.6.3](sase-ns.6.3.md) | 2026-08-16 21:27:05 EDT |
 | sase | [`d9b2984`](https://github.com/sase-org/sase/commit/d9b2984a7b54e5c0788513755a2cf165ea673919) | fix(tui): isolate config center state replacement | [sase-ns.6.2](sase-ns.6.2.md) | 2026-08-16 21:44:57 EDT |
+| sase | [`0c86462`](https://github.com/sase-org/sase/commit/0c86462638b1e382b259b0c4aa96e82782c6cc79) | test(ace): drop dead clock pin from Artifacts Files snapshot | [sase-ns.6.5](sase-ns.6.5.md) | 2026-08-16 21:46:14 EDT |
