@@ -21,7 +21,7 @@ feedback: move VCS-xprompt MRU recording and the unresolved-xprompt-reference wa
 
 ## Dependencies
 
-- **Blocks:** [sase-ng.1.4](sase-ng.1.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-ng.1.4](sase-ng.1.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

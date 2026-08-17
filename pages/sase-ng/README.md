@@ -26,7 +26,7 @@ flowchart TD
     n2["sase-ng.1.1: Restore forced name reuse on the durable launch path [closed]"]
     n3["sase-ng.1.2: Restore MRU and unresolved-reference feedback on the durable launch path [closed]"]
     n4["sase-ng.1.3: Retire the cleanup worker bodies and their proc_callable seam [closed]"]
-    n5["sase-ng.1.4: Retire the in-process launch body and fan-out dispatchers [in_progress]"]
+    n5["sase-ng.1.4: Retire the in-process launch body and fan-out dispatchers [closed]"]
     n6["sase-ng.1.5: Retire the launch-body support modules the deletion orphans [in_progress]"]
     n7["sase-ng.1.6: Final orphan sweep, full verification, and follow-ups [in_progress]"]
     n0 --> n1
@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ng.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ng.1.1.md) | [sase-ng.1.1](sase-ng.1.1.md) | 1 |
 | [bbugyi200.athena.sase-ng.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.2/README.md) | [sase-ng.1.2](sase-ng.1.2.md) | 1 |
 | [bbugyi200.athena.sase-ng.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.3/README.md) | [sase-ng.1.3](sase-ng.1.3.md) | 1 |
-| [bbugyi200.athena.sase-ng.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.4/README.md) | [sase-ng.1.4](sase-ng.1.4.md) | 0 |
+| [bbugyi200.athena.sase-ng.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.4/README.md) | [sase-ng.1.4](sase-ng.1.4.md) | 1 |
 | [bbugyi200.athena.sase-ng.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.5/README.md) | [sase-ng.1.5](sase-ng.1.5.md) | 0 |
 | [bbugyi200.athena.sase-ng.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.6/README.md) | [sase-ng.1.6](sase-ng.1.6.md) | 0 |
 | [bbugyi200.athena.sase-ng.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ng.1.land/README.md) | [sase-ng.1](sase-ng.1.md) | 0 |
@@ -63,3 +63,4 @@ flowchart TD
 | sase | [`97f5b6f`](https://github.com/sase-org/sase/commit/97f5b6f03c277c165cb1d4c631a25006202e5574) | feat(launch): record VCS xprompt MRU and unresolved-ref toasts on durable sase run | [sase-ng.1.2](sase-ng.1.2.md) | 2026-08-17 15:41:29 EDT |
 | sase | [`f43358d`](https://github.com/sase-org/sase/commit/f43358dcb5444fa25696f7167bdd3ea830f77d23) | refactor(agent-cleanup): retire dead worker closures and proc\_callable seam | [sase-ng.1.3](sase-ng.1.3.md) | 2026-08-17 16:05:39 EDT |
 | sase | [`13e9ccb`](https://github.com/sase-org/sase/commit/13e9ccbc9b1b044fe1a56f8d3c505f65af235352) | fix(agent): consume force-reuse plans on the durable launch path | [sase-ng.1.1](sase-ng.1.1.md) | 2026-08-17 16:21:41 EDT |
+| sase | [`0f7d86a`](https://github.com/sase-org/sase/commit/0f7d86a662c4c6e66bedbe248079f96f991adf89) | refactor(tui): retire in-process launch body and fan-out dispatchers | [sase-ng.1.4](sase-ng.1.4.md) | 2026-08-17 17:06:32 EDT |
