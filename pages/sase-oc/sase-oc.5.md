@@ -24,7 +24,7 @@ kinds: fill out the remaining value-kind providers behind the existing seam, rou
 ## Dependencies
 
 - **Depends on:** [sase-oc.4](sase-oc.4.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-oc.6](sase-oc.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oc.6](sase-oc.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

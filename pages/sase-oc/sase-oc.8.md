@@ -13,7 +13,7 @@ docs: document the feature end to end, ship the recommended zstyle snippet, clos
 
 ## Dependencies
 
-- **Depends on:** [sase-oc.6](sase-oc.6.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-oc.6](sase-oc.6.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-oc.7](sase-oc.7.md) ✓ · ⧖ 2026-08-17
 
 ## Agents

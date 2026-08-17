@@ -22,7 +22,7 @@ shells: add bash and fish emitters over the same spec plus their `sase completio
 ## Dependencies
 
 - **Depends on:** [sase-oc.2](sase-oc.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-oc.6](sase-oc.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oc.6](sase-oc.6.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-oc.7](sase-oc.7.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
