@@ -76,7 +76,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 REPRODUCTION (on master @ 497d383aa or later):
   $ uv run
 
-… and 11712 more characters
+… and 18416 more characters
 
 ## Phases
 
@@ -100,38 +100,50 @@ flowchart TD
     n0["sase-nb: Feature flags whose removal is a bead, a deadline, and a gate [in_progress]"]
     n1["sase-nb.1: The flag bead type in sase-core [closed]"]
     n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [closed]"]
-    n3["sase-nb.2: The typed registry, resolver, and snapshot [closed]"]
-    n4["sase-nb.3: Flag beads in the Python bead layer [closed]"]
-    n5["sase-nb.4: The shared flag visual language [closed]"]
-    n6["sase-nb.5: Registry and bead integrity enforcement [closed]"]
-    n7["sase-nb.6: The FlagTriage gate and its reconciler [closed]"]
-    n8["sase-nb.7: sase flag and the flag doctor checks [closed]"]
-    n9["sase-nb.8: Flag beads on every bead-rendering surface [closed]"]
-    n10["sase-nb.9: The first two real flags [closed]"]
+    n3["sase-nb.11: Finish the feature-flag epic's landing [in_progress]"]
+    n4["sase-nb.11.1: Make the feature-flag memory project-local [in_progress]"]
+    n5["sase-nb.11.2: Stop the feature-flag checker tests leaking sys.path [closed]"]
+    n6["sase-nb.11.3: Regenerate the Artifacts Beads PNG goldens [in_progress]"]
+    n7["sase-nb.11.4: Test the FlagTriage response trust boundary [in_progress]"]
+    n8["sase-nb.11.5: Report the bead id sase flag new actually committed [in_progress]"]
+    n9["sase-nb.2: The typed registry, resolver, and snapshot [closed]"]
+    n10["sase-nb.3: Flag beads in the Python bead layer [closed]"]
+    n11["sase-nb.4: The shared flag visual language [closed]"]
+    n12["sase-nb.5: Registry and bead integrity enforcement [closed]"]
+    n13["sase-nb.6: The FlagTriage gate and its reconciler [closed]"]
+    n14["sase-nb.7: sase flag and the flag doctor checks [closed]"]
+    n15["sase-nb.8: Flag beads on every bead-rendering surface [closed]"]
+    n16["sase-nb.9: The first two real flags [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
     n0 --> n9
     n0 --> n10
-    n1 -.-> n4
-    n3 -.-> n6
-    n3 -.-> n7
-    n3 -.-> n8
-    n4 -.-> n5
-    n4 -.-> n6
-    n5 -.-> n7
-    n5 -.-> n8
-    n5 -.-> n9
-    n6 -.-> n10
-    n7 -.-> n10
-    n8 -.-> n10
-    n9 -.-> n2
-    n10 -.-> n2
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n1 -.-> n10
+    n9 -.-> n12
+    n9 -.-> n13
+    n9 -.-> n14
+    n10 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n13
+    n11 -.-> n14
+    n11 -.-> n15
+    n12 -.-> n16
+    n13 -.-> n16
+    n14 -.-> n16
+    n15 -.-> n2
+    n16 -.-> n2
 ```
 
 ## Agents
@@ -140,6 +152,12 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-nb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.1/README.md) | [sase-nb.1](sase-nb.1.md) | 1 |
 | [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 1 |
+| [bbugyi200.athena.sase-nb.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.11.1.md) | [sase-nb.11.1](sase-nb.11.1.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.2/README.md) | [sase-nb.11.2](sase-nb.11.2.md) | 1 |
+| [bbugyi200.athena.sase-nb.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.3/README.md) | [sase-nb.11.3](sase-nb.11.3.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.4/README.md) | [sase-nb.11.4](sase-nb.11.4.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.5/README.md) | [sase-nb.11.5](sase-nb.11.5.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.land/README.md) | [sase-nb.11](sase-nb.11.md) | 0 |
 | [bbugyi200.athena.sase-nb.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.2.md) | [sase-nb.2](sase-nb.2.md) | 1 |
 | [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
@@ -147,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.7/README.md) | [sase-nb.7](sase-nb.7.md) | 1 |
 | [bbugyi200.athena.sase-nb.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.8.md) | [sase-nb.8](sase-nb.8.md) | 3 |
 | [bbugyi200.athena.sase-nb.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.9/README.md) | [sase-nb.9](sase-nb.9.md) | 1 |
-| [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.land/README.md) | [sase-nb](README.md) | 0 |
+| [bbugyi200.athena.sase-nb.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.land.md) | [sase-nb](README.md) | 0 |
 
 ## Commits
 
@@ -164,3 +182,4 @@ flowchart TD
 | sase | [`6f1286e`](https://github.com/sase-org/sase/commit/6f1286e269aeb279aa42f3e8a78466767ea8893c) | fix(ace): repair post-rebase history metadata checks | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:48:53 EDT |
 | sase | [`5b458f1`](https://github.com/sase-org/sase/commit/5b458f1bb9b31515c85957bc436dad8252195669) | feat(flags): register the first two consumer feature flags | [sase-nb.9](sase-nb.9.md) | 2026-08-16 19:58:13 EDT |
 | sase | [`14d6156`](https://github.com/sase-org/sase/commit/14d61561f40d3d4657a0377efe0df729d88b71c4) | feat(memory): add feature flag lifecycle guidance | [sase-nb.10](sase-nb.10.md) | 2026-08-16 20:38:21 EDT |
+| sase | [`8873e64`](https://github.com/sase-org/sase/commit/8873e64c451cf24368c278f3faf9dc92c9349317) | test: restore sys.path around every check\_feature\_flags tool load | [sase-nb.11.2](sase-nb.11.2.md) | 2026-08-16 21:25:01 EDT |
