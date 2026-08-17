@@ -22,7 +22,7 @@ install: add `sase completion install` that picks a directory compinit actually 
 ## Dependencies
 
 - **Depends on:** [sase-oc.3](sase-oc.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-oc.8](sase-oc.8.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oc.8](sase-oc.8.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

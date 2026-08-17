@@ -52,7 +52,7 @@ WHY HERE AND NOT A NEW TASK: routed via /sase_new_task from sase-ob. Search over
 | [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.6](sase-oc.6.md) | Dynamic values wired into every shell | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.7](sase-oc.7.md) | Install, verification, doctor, and refresh | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oc.8](sase-oc.8.md) | Documentation, polish, and reach | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
+| [sase-oc.8](sase-oc.8.md) | Documentation, polish, and reach | ✓ closed | small | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -66,7 +66,7 @@ flowchart TD
     n5["sase-oc.5: Value-kind provider catalog [closed]"]
     n6["sase-oc.6: Dynamic values wired into every shell [closed]"]
     n7["sase-oc.7: Install, verification, doctor, and refresh [closed]"]
-    n8["sase-oc.8: Documentation, polish, and reach [in_progress]"]
+    n8["sase-oc.8: Documentation, polish, and reach [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 1 |
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 1 |
 | [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 1 |
-| [bbugyi200.athena.sase-oc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.8/README.md) | [sase-oc.8](sase-oc.8.md) | 0 |
+| [bbugyi200.athena.sase-oc.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-oc.8.md) | [sase-oc.8](sase-oc.8.md) | 1 |
 | [bbugyi200.athena.sase-oc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.land/README.md) | [sase-oc](README.md) | 0 |
 
 ## Commits
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`3e9be9c`](https://github.com/sase-org/sase/commit/3e9be9ce44876f800bc21cc1b86e787c6be58132) | feat(completion): install scripts, doctor checks, and update refresh | [sase-oc.7](sase-oc.7.md) | 2026-08-17 12:26:21 EDT |
 | sase | [`aca2b7a`](https://github.com/sase-org/sase/commit/aca2b7ac6a4a577bdca921c9add5ea5214a15112) | feat(completion): add remaining value-kind providers | [sase-oc.5](sase-oc.5.md) | 2026-08-17 12:51:24 EDT |
 | sase | [`c0dd172`](https://github.com/sase-org/sase/commit/c0dd17213c17db643240e4e92d91b61b4c11a724) | feat(completion): wire dynamic value candidates into zsh/bash/fish | [sase-oc.6](sase-oc.6.md) | 2026-08-17 14:53:12 EDT |
+| sase | [`017b488`](https://github.com/sase-org/sase/commit/017b488e6471eee0f8bea2acde8af686d567b087) | docs(completion): document shell completion end to end and close polish items | [sase-oc.8](sase-oc.8.md) | 2026-08-17 15:38:54 EDT |
