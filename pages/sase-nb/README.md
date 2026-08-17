@@ -103,7 +103,7 @@ flowchart TD
     n3["sase-nb.11: Finish the feature-flag epic's landing [in_progress]"]
     n4["sase-nb.11.1: Make the feature-flag memory project-local [closed]"]
     n5["sase-nb.11.2: Stop the feature-flag checker tests leaking sys.path [closed]"]
-    n6["sase-nb.11.3: Regenerate the Artifacts Beads PNG goldens [in_progress]"]
+    n6["sase-nb.11.3: Regenerate the Artifacts Beads PNG goldens [closed]"]
     n7["sase-nb.11.4: Test the FlagTriage response trust boundary [in_progress]"]
     n8["sase-nb.11.5: Report the bead id sase flag new actually committed [closed]"]
     n9["sase-nb.2: The typed registry, resolver, and snapshot [closed]"]
@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.11.1.md) | [sase-nb.11.1](sase-nb.11.1.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.2/README.md) | [sase-nb.11.2](sase-nb.11.2.md) | 1 |
-| [bbugyi200.athena.sase-nb.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.3/README.md) | [sase-nb.11.3](sase-nb.11.3.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.3/README.md) | [sase-nb.11.3](sase-nb.11.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.4/README.md) | [sase-nb.11.4](sase-nb.11.4.md) | 0 |
 | [bbugyi200.athena.sase-nb.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.5/README.md) | [sase-nb.11.5](sase-nb.11.5.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.land/README.md) | [sase-nb.11](sase-nb.11.md) | 0 |
@@ -185,3 +185,4 @@ flowchart TD
 | sase | [`8873e64`](https://github.com/sase-org/sase/commit/8873e64c451cf24368c278f3faf9dc92c9349317) | test: restore sys.path around every check\_feature\_flags tool load | [sase-nb.11.2](sase-nb.11.2.md) | 2026-08-16 21:25:01 EDT |
 | sase | [`d5443be`](https://github.com/sase-org/sase/commit/d5443be389eb33a105ad03c1372362c15a472ab9) | fix(flags): report the committed flag-bead id after remint | [sase-nb.11.5](sase-nb.11.5.md) | 2026-08-16 21:34:31 EDT |
 | sase | [`f4cbb13`](https://github.com/sase-org/sase/commit/f4cbb138e20b7f57fdf6ea85031b3a13cb0b6a95) | feat(memory): keep feature-flag notes project-local | [sase-nb.11.1](sase-nb.11.1.md) | 2026-08-16 21:37:03 EDT |
+| sase | [`0a5074d`](https://github.com/sase-org/sase/commit/0a5074df7307b26aaedbea69f4f0715bf4f6af8a) | test: regenerate stale artifacts\_beads PNG goldens for flag-bead chrome | [sase-nb.11.3](sase-nb.11.3.md) | 2026-08-16 21:39:02 EDT |
