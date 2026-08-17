@@ -21,7 +21,7 @@ core-counters: in ../sase-core, make `committing_agents` count distinct agent na
 
 ## Dependencies
 
-- **Blocks:** [sase-oo.4](sase-oo.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oo.4](sase-oo.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

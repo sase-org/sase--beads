@@ -18,7 +18,7 @@ Every number, label, and metric definition rendered by the Admin Center Statisti
 | [sase-oo.1](sase-oo.1.md) | Correct the Rust statistics counters and expose breakdown truncation | ✓ closed | medium | 2026-08-17 | 1 | 2 |
 | [sase-oo.2](sase-oo.2.md) | Stop asserting zero samples and meaningless shares in Perf latency rows | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-oo.3](sase-oo.3.md) | Make the All time window and empty-window states honest | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oo.4](sase-oo.4.md) | Render the corrected core counters and disclose XPrompt truncation | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oo.4](sase-oo.4.md) | Render the corrected core counters and disclose XPrompt truncation | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-oo.1: Correct the Rust statistics counters and expose breakdown truncation [closed]"]
     n2["sase-oo.2: Stop asserting zero samples and meaningless shares in Perf latency rows [closed]"]
     n3["sase-oo.3: Make the All time window and empty-window states honest [closed]"]
-    n4["sase-oo.4: Render the corrected core counters and disclose XPrompt truncation [in_progress]"]
+    n4["sase-oo.4: Render the corrected core counters and disclose XPrompt truncation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -43,7 +43,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.1/README.md) | [sase-oo.1](sase-oo.1.md) | 2 |
 | [bbugyi200.athena.sase-oo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.2/README.md) | [sase-oo.2](sase-oo.2.md) | 1 |
 | [bbugyi200.athena.sase-oo.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.3/README.md) | [sase-oo.3](sase-oo.3.md) | 1 |
-| [bbugyi200.athena.sase-oo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.4/README.md) | [sase-oo.4](sase-oo.4.md) | 0 |
+| [bbugyi200.athena.sase-oo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.4/README.md) | [sase-oo.4](sase-oo.4.md) | 1 |
 | [bbugyi200.athena.sase-oo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.land/README.md) | [sase-oo](README.md) | 0 |
 
 ## Commits
@@ -54,3 +54,4 @@ flowchart TD
 | sase-core | [`sase-core@02a37e9`](https://github.com/sase-org/sase-core/commit/02a37e9d283a02cbf6bcbc95bea0df959f6b72c6) | fix(agent\_stats): correct commit, spec, runner, and xprompt counters | [sase-oo.1](sase-oo.1.md) | 2026-08-17 12:35:36 EDT |
 | sase | [`05325ce`](https://github.com/sase-org/sase/commit/05325ceb727d7fa233af4ec7e6ca041fd829a8a5) | fix(stats): stop inventing Perf latency counts and shares | [sase-oo.2](sase-oo.2.md) | 2026-08-17 12:46:10 EDT |
 | sase | [`24936ff`](https://github.com/sase-org/sase/commit/24936ffee3fc5136ed10bc9226bd63f8d9c4a869) | fix(core): require agent-stats schema 6 and truncation fields | [sase-oo.1](sase-oo.1.md) | 2026-08-17 12:48:23 EDT |
+| sase | [`7391a74`](https://github.com/sase-org/sase/commit/7391a745bc42971a1f7460a4f27721756959858a) | fix(stats): render schema-6 commits, patches, and xprompt truncation | [sase-oo.4](sase-oo.4.md) | 2026-08-17 13:18:36 EDT |
