@@ -44,7 +44,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.2/README.md) | [sase-oo.2](sase-oo.2.md) | 1 |
 | [bbugyi200.athena.sase-oo.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.3/README.md) | [sase-oo.3](sase-oo.3.md) | 1 |
 | [bbugyi200.athena.sase-oo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.4/README.md) | [sase-oo.4](sase-oo.4.md) | 1 |
-| [bbugyi200.athena.sase-oo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.land/README.md) | [sase-oo](README.md) | 0 |
+| [bbugyi200.athena.sase-oo.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-oo.land.md) | [sase-oo](README.md) | 1 |
 
 ## Commits
 
@@ -55,3 +55,4 @@ flowchart TD
 | sase | [`05325ce`](https://github.com/sase-org/sase/commit/05325ceb727d7fa233af4ec7e6ca041fd829a8a5) | fix(stats): stop inventing Perf latency counts and shares | [sase-oo.2](sase-oo.2.md) | 2026-08-17 12:46:10 EDT |
 | sase | [`24936ff`](https://github.com/sase-org/sase/commit/24936ffee3fc5136ed10bc9226bd63f8d9c4a869) | fix(core): require agent-stats schema 6 and truncation fields | [sase-oo.1](sase-oo.1.md) | 2026-08-17 12:48:23 EDT |
 | sase | [`7391a74`](https://github.com/sase-org/sase/commit/7391a745bc42971a1f7460a4f27721756959858a) | fix(stats): render schema-6 commits, patches, and xprompt truncation | [sase-oo.4](sase-oo.4.md) | 2026-08-17 13:18:36 EDT |
+| sase | [`88a8400`](https://github.com/sase-org/sase/commit/88a84006362c7c040ebf770b1a7dc31d2dec24a6) | build(deps): require sase-core-rs 0.27.18 | [sase-oo](README.md) | 2026-08-17 14:17:31 EDT |
