@@ -83,7 +83,7 @@ flowchart TD
     n11["sase-ns.6.5: Repoint the Artifacts Files PNG snapshot seam [closed]"]
     n12["sase-ns.6.6: Task backlog top five — turn the mandatory verification gates green [in_progress]"]
     n13["sase-ns.6.6.1: Retire already-fixed nodes from the flake-baseline gate (sase-o0) [closed]"]
-    n14["sase-ns.6.6.2: Reconcile the two generated-memory drift checkers (sase-n0) [in_progress]"]
+    n14["sase-ns.6.6.2: Reconcile the two generated-memory drift checkers (sase-n0) [closed]"]
     n15["sase-ns.6.6.3: Bound the monitor settle path's artifact-index reads (sase-ne) [closed]"]
     n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [in_progress]"]
     n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [in_progress]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.1/README.md) | [sase-ns.6.6.1](sase-ns.6.6.1.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.2/README.md) | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.2/README.md) | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.4/README.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.5/README.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 0 |
@@ -149,3 +149,4 @@ flowchart TD
 | sase | [`5feaabc`](https://github.com/sase-org/sase/commit/5feaabc7122423aff552188be0e662cf2d538684) | fix(selection-health): retire the fixed config-center node's evidence | [sase-ns.6](sase-ns.6.md) | 2026-08-16 22:11:36 EDT |
 | sase | [`72d3d5c`](https://github.com/sase-org/sase/commit/72d3d5c9f352dbc3fdfc5ee520313ef5085815ad) | test: retire fixed reproducible flake nodes | [sase-ns.6.6.1](sase-ns.6.6.1.md) | 2026-08-17 04:15:38 EDT |
 | sase | [`2f41353`](https://github.com/sase-org/sase/commit/2f41353b5fc05fb764b887d31dde2e936cabdebf) | perf(monitor): bound settle-path artifact-index reads | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 2026-08-17 04:21:15 EDT |
+| sase | [`99b4e43`](https://github.com/sase-org/sase/commit/99b4e43a15fc558c96896b63e8807b51e9fec878) | test: add regression gate for committed memory-file drift | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 2026-08-17 04:22:31 EDT |
