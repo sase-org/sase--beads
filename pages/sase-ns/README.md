@@ -87,7 +87,7 @@ flowchart TD
     n15["sase-ns.6.6.3: Bound the monitor settle path's artifact-index reads (sase-ne) [closed]"]
     n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [closed]"]
     n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [closed]"]
-    n18["sase-ns.6.6.6: Task backlog top five - clear the two red verification gates and the three reproducible test hazards behind them [in_progress]"]
+    n18["sase-ns.6.6.6: Task backlog top five - clear the two red verification gates and the three reproducible test hazards behind them [closed]"]
     n19["sase-ns.6.6.6.1: Isolate the process-global merged-config cache so its nodes stop failing the flake gate [closed]"]
     n20["sase-ns.6.6.6.2: Rebaseline the eleven stale ACE PNG goldens that fail the serial visual lane [closed]"]
     n21["sase-ns.6.6.6.3: Deflake the three monitor-supervise pipe-EOF nodes and retire their baseline debt [closed]"]
@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.2/README.md) | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.3.md) | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.5/README.md) | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.land/README.md) | [sase-ns.6.6.6](sase-ns.6.6.6.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.land/README.md) | [sase-ns.6.6.6](sase-ns.6.6.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.land.md) | [sase-ns.6.6](sase-ns.6.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.land.md) | [sase-ns.6](sase-ns.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
@@ -173,3 +173,4 @@ flowchart TD
 | sase | [`24481ab`](https://github.com/sase-org/sase/commit/24481abd4e5139bb379aacf488b435477b4f268a) | test: rebaseline 11 ACE PNG goldens and refresh fakey index | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 2026-08-17 06:25:10 EDT |
 | sase | [`44df0bf`](https://github.com/sase-org/sase/commit/44df0bfb420c3fd2b291e7ed2aace67046fd0b0b) | test(monitor): deflake the supervise no-hang bounds | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 2026-08-17 06:50:23 EDT |
 | sase | [`5e58fb1`](https://github.com/sase-org/sase/commit/5e58fb1c8b4a92e91056a179b9591d52beedd0d8) | fix(config): publish merged-config and owner-snapshot caches atomically | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 2026-08-17 13:21:41 EDT |
+| sase | [`c11e1ad`](https://github.com/sase-org/sase/commit/c11e1ad882196adb00e80513e755b300a6a824cf) | test(sdd): replace forked epic-plan-launch lock holders with an in-process seam | [sase-ns.6.6.6](sase-ns.6.6.6.md) | 2026-08-17 14:20:14 EDT |
