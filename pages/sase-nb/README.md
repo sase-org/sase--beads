@@ -101,7 +101,7 @@ flowchart TD
     n1["sase-nb.1: The flag bead type in sase-core [closed]"]
     n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [closed]"]
     n3["sase-nb.11: Finish the feature-flag epic's landing [in_progress]"]
-    n4["sase-nb.11.1: Make the feature-flag memory project-local [in_progress]"]
+    n4["sase-nb.11.1: Make the feature-flag memory project-local [closed]"]
     n5["sase-nb.11.2: Stop the feature-flag checker tests leaking sys.path [closed]"]
     n6["sase-nb.11.3: Regenerate the Artifacts Beads PNG goldens [in_progress]"]
     n7["sase-nb.11.4: Test the FlagTriage response trust boundary [in_progress]"]
@@ -152,7 +152,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-nb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.1/README.md) | [sase-nb.1](sase-nb.1.md) | 1 |
 | [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 1 |
-| [bbugyi200.athena.sase-nb.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.11.1.md) | [sase-nb.11.1](sase-nb.11.1.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.11.1.md) | [sase-nb.11.1](sase-nb.11.1.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.2/README.md) | [sase-nb.11.2](sase-nb.11.2.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.3/README.md) | [sase-nb.11.3](sase-nb.11.3.md) | 0 |
 | [bbugyi200.athena.sase-nb.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.4/README.md) | [sase-nb.11.4](sase-nb.11.4.md) | 0 |
@@ -184,3 +184,4 @@ flowchart TD
 | sase | [`14d6156`](https://github.com/sase-org/sase/commit/14d61561f40d3d4657a0377efe0df729d88b71c4) | feat(memory): add feature flag lifecycle guidance | [sase-nb.10](sase-nb.10.md) | 2026-08-16 20:38:21 EDT |
 | sase | [`8873e64`](https://github.com/sase-org/sase/commit/8873e64c451cf24368c278f3faf9dc92c9349317) | test: restore sys.path around every check\_feature\_flags tool load | [sase-nb.11.2](sase-nb.11.2.md) | 2026-08-16 21:25:01 EDT |
 | sase | [`d5443be`](https://github.com/sase-org/sase/commit/d5443be389eb33a105ad03c1372362c15a472ab9) | fix(flags): report the committed flag-bead id after remint | [sase-nb.11.5](sase-nb.11.5.md) | 2026-08-16 21:34:31 EDT |
+| sase | [`f4cbb13`](https://github.com/sase-org/sase/commit/f4cbb138e20b7f57fdf6ea85031b3a13cb0b6a95) | feat(memory): keep feature-flag notes project-local | [sase-nb.11.1](sase-nb.11.1.md) | 2026-08-16 21:37:03 EDT |
