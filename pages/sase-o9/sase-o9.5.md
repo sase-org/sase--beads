@@ -13,7 +13,7 @@ docs-and-visual-suite: rewrite the Procs Tab documentation for monitor rows, cou
 
 ## Dependencies
 
-- **Depends on:** [sase-o9.3](sase-o9.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-o9.3](sase-o9.3.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-o9.4](sase-o9.4.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

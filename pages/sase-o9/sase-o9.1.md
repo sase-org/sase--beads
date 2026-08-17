@@ -20,7 +20,7 @@ observer-monitor-fields: carry log_path and shell_name on ObservedProc and read 
 ## Dependencies
 
 - **Blocks:** [sase-o9.2](sase-o9.2.md) ◐ · ⧖ 2026-08-17
-- **Blocks:** [sase-o9.3](sase-o9.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o9.3](sase-o9.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
