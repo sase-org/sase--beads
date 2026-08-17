@@ -19,7 +19,7 @@ init: stop generating `sase/memory/glossary.md`, delete the previously generated
 
 ## Dependencies
 
-- **Blocks:** [sase-op.6](sase-op.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-op.6](sase-op.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
