@@ -23,7 +23,7 @@ gate: build the trusted BeadStaleCleanup gate kind — constants, payload, per-b
 
 ## Dependencies
 
-- **Blocks:** [sase-on.3](sase-on.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-on.3](sase-on.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
