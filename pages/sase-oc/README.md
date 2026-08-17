@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-oc
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.04p](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.04p.md) · **Assignee:** `sase-oc.land`
-**Created:** 2026-08-17 08:54:22 EDT
+**Created:** 2026-08-17 08:54:22 EDT · **Closed:** 2026-08-17 16:25:27 EDT
 **Plan:** [202608/cli\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/cli_completion.md)
 
 ## Description
@@ -41,6 +41,38 @@ WHY HERE AND NOT A NEW TASK: routed via /sase_new_task from sase-ob. Search over
 
 [2026-08-17T16:07:55Z · 04z] CORROBORATION: agents_tab_unread_node_completion_keys (sase_16, 2026-08-17) hit the same just check failure independently: rule 8: live flag bead 'sase-om' has no definition (key 'completion_refresh_on_update'). Confirmed unrelated to my change via git stash on clean master. No new task filed — already tracked on this epic per the prior DISCOVERED ISSUE notes.
 
+[2026-08-17T19:55:25Z · toobig-2z.split_file.src.sase.ace.tui.proc_observer.0] DISCOVERED ISSUE: phase sase-oc.8 closed leaving its own Justfile --epic-symbol entry behind, so `just check` is red at the lint (symvision) gate on a clean master tree.
+
+REPRODUCTION (2026-08-17, master HEAD 30077550b, tree touching only src/sase/ace/tui/proc_observer.py and two test files):
+  $ just check
+  ...
+  x lint (symvision)
+  Error: --epic-symbol 'sase-oc.8(set_completion_summary)': bead 'sase-oc.8' is closed. Remove this stale --epic-symbol entry and clean up the symbol.
+  error: recipe `_lint-symvision` failed on line 333 with exit code 1
+
+Re-running symvision with that one entry dropped leaves exactly one finding, confirming it is the only blocker:
+  Unused public functions/classes ...: set_completion_summary in src/sase/completion/shorten.py
+
+PROVENANCE: the entry was added by 48856bc89 (phase sase-oc.1, 2026-08-17 10:03 EDT) keyed to the future phase sase-oc.8; `sase bead epic-symbols` still lists it. sase-oc.8 closed at 2026-08-17T19:37:29Z without removing it.
+
+NOTABLE: this leaked past the sase-o7 close-time refusal. sase-oc.8's own landing commit 017b488e6 has fa1948437 ('feat(bead): refuse close while leftover --epic-symbol entries remain') as an ancestor, verified with `git merge-base --is-ancestor`, so the phase closed on a tree that contained the refusal and the refusal did not fire. Possible explanations not distinguished here: the phase was closed through a path other than `sase bead close`, or the worker's ephemeral workspace venv had a pre-fa1948437 `sase` installed. Corroborated on closed task sase-o7.
+
+SCOPE FOR THE LAND AGENT: remove the stale entry and resolve set_completion_summary per sase/memory/symvision.md (real non-test consumer, privatize, pragma, or delete).
+
+[2026-08-17T20:10:52Z · sase-op.land] DISCOVERED ISSUE: `sase glossary show/read` TERM positionals and `sase glossary log -t/--term` have no live-value completion, so <TAB> on a glossary term offers nothing.
+
+EVIDENCE (workspace sase_13, HEAD 6ac274be5, 2026-08-17): the command tree itself IS in the checked-in spec — tests/completion/snapshots/cli_spec.json contains /glossary, /glossary/list, /glossary/log, /glossary/read, /glossary/show — but every term slot carries kind: null (/glossary/read [('term', None)], /glossary/show [('term', None)]). src/sase/completion/kinds.py::ValueKind has no GLOSSARY member and neither src/sase/completion/candidates/catalog.py nor providers.py registers a fetcher for one.
+
+WHY THIS IS ROUTED TO YOU, NOT A NEW TASK BEAD: epic sase-op (`sase glossary` command group, landed today) deliberately left ValueKind.GLOSSARY unset — its plan recorded that no live-value provider existed for term slots at the time — and phase sase-op.6 raised it as a PROPOSED FOLLOW-UP. sase-oc.5 (Value-kind provider catalog) and sase-oc.6 (Dynamic values wired into every shell) own exactly this mechanism, and the whole `sase glossary` group landed *during* sase-oc's run, so it is precisely the kind of since-the-epic-started command your land agent is meant to integrate. sase-oc.8 (Documentation, polish, and reach) covers the same reach concern.
+
+SCOPING NOTE FOR WHOEVER WORKS IT: the fetcher must list a project's configured glossary terms plus display aliases. The obvious helper, editor_glossary_catalog_for_project() in src/sase/xprompt/glossary_catalog.py, is NOT usable — catalog.py's module docstring forbids sase.xprompt (and sase.ace / sase.main.parser / rich / textual) imports on the candidates fast path. A provider would read the project's glossary config directly through src/sase/glossary_config.py (resolve_glossary_config / GLOSSARY_CONFIG_KEY) and use the project's sase.yml as its source path for cache invalidation, mirroring _memory_candidates. Terms are display strings with spaces (e.g. 'Agent Hood'), so quoting in the zsh/bash/fish emitters needs checking.
+
+DISCOVERED BY: land agent for epic sase-op on 2026-08-17, triaging sase-op.6's PROPOSED FOLLOW-UP.
+
+[2026-08-17T20:25:27Z · sase-oc.land] LANDED. VERIFIED (step 1): all 8 phases closed done; read every child note and confirmed each was addressed. The epic's own two DISCOVERED ISSUEs are resolved on master — the stale tests/completion/snapshots/cli_spec.json (missing bead epic-symbols) regenerates clean (tools/sync_completion_spec --check exits 0), and live flag bead sase-om now has its registry definition (src/sase/feature_flags/registry.py, key completion_refresh_on_update), so the feature-flags lint gate is green. Read the source behind the phase claims rather than trusting them: entry.py's pre-argparse guard matches the plan's snippet exactly; build/model/shorten/kinds produce the spec all three emitters consume; emit_zsh writes _arguments -C -s -S with exclusion lists, mutex groups, remainders and :kind:{__sase_candidates ...} actions; emit_bash and emit_fish carry the same alias policy and kind markers; install.py resolves a target, writes atomically, zcompiles, probes _comps[sase] and stamps; checks_completion.py registers completion.install and completion.registration; update_handler.py calls maybe_refresh_ins
+
+… and 5350 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,7 +90,7 @@ WHY HERE AND NOT A NEW TASK: routed via /sase_new_task from sase-ob. Search over
 
 ```mermaid
 flowchart TD
-    n0["sase-oc: Excellent shell completion for the sase CLI [in_progress]"]
+    n0["sase-oc: Excellent shell completion for the sase CLI [closed]"]
     n1["sase-oc.1: Completion spec model and argparse walker [closed]"]
     n2["sase-oc.2: Zsh emitter and the sase completion command group [closed]"]
     n3["sase-oc.3: Bash and fish emitters [closed]"]
@@ -98,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 1 |
 | [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 1 |
 | [bbugyi200.athena.sase-oc.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-oc.8.md) | [sase-oc.8](sase-oc.8.md) | 1 |
-| [bbugyi200.athena.sase-oc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.land/README.md) | [sase-oc](README.md) | 0 |
+| [bbugyi200.athena.sase-oc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.land/README.md) | [sase-oc](README.md) | 1 |
 
 ## Commits
 
@@ -112,3 +144,4 @@ flowchart TD
 | sase | [`aca2b7a`](https://github.com/sase-org/sase/commit/aca2b7ac6a4a577bdca921c9add5ea5214a15112) | feat(completion): add remaining value-kind providers | [sase-oc.5](sase-oc.5.md) | 2026-08-17 12:51:24 EDT |
 | sase | [`c0dd172`](https://github.com/sase-org/sase/commit/c0dd17213c17db643240e4e92d91b61b4c11a724) | feat(completion): wire dynamic value candidates into zsh/bash/fish | [sase-oc.6](sase-oc.6.md) | 2026-08-17 14:53:12 EDT |
 | sase | [`017b488`](https://github.com/sase-org/sase/commit/017b488e6471eee0f8bea2acde8af686d567b087) | docs(completion): document shell completion end to end and close polish items | [sase-oc.8](sase-oc.8.md) | 2026-08-17 15:38:54 EDT |
+| sase | [`2318047`](https://github.com/sase-org/sase/commit/23180476f1172081a947de96e76947767780755c) | feat(completion): complete glossary terms and harden install target choice | [sase-oc](README.md) | 2026-08-17 16:33:48 EDT |
