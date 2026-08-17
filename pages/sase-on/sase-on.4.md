@@ -13,7 +13,7 @@ chop: extract the shared enabled-project inventory, add the hourly bead_stale_cl
 
 ## Dependencies
 
-- **Depends on:** [sase-on.1](sase-on.1.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-on.1](sase-on.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-on.3](sase-on.3.md) ◐ · ⧖ 2026-08-17
 - **Blocks:** [sase-on.5](sase-on.5.md) ◐ · ⧖ 2026-08-17
 
