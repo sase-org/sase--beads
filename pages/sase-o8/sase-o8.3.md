@@ -13,7 +13,7 @@ ranking: add the pure scoring engine that turns the placeholder context store pl
 
 ## Dependencies
 
-- **Depends on:** [sase-o8.2](sase-o8.2.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-o8.2](sase-o8.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-o8.4](sase-o8.4.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

@@ -16,7 +16,7 @@ The `<` completion menu ranks saved placeholder tags by how strongly they relate
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-o8.1](sase-o8.1.md) | Shared ranking-signal rendering | ✓ closed | small | 2026-08-17 | 1 | 1 |
-| [sase-o8.2](sase-o8.2.md) | Placeholder context store | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-o8.2](sase-o8.2.md) | Placeholder context store | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-o8.3](sase-o8.3.md) | Relation, recency, and frequency scoring | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-o8.4](sase-o8.4.md) | Warm cache, menu, and settings wiring | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-o8.5](sase-o8.5.md) | Ranking signals in the placeholder panel | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -27,7 +27,7 @@ The `<` completion menu ranks saved placeholder tags by how strongly they relate
 flowchart TD
     n0["sase-o8: Rank saved placeholder tags by relation, recency, and frequency [in_progress]"]
     n1["sase-o8.1: Shared ranking-signal rendering [closed]"]
-    n2["sase-o8.2: Placeholder context store [in_progress]"]
+    n2["sase-o8.2: Placeholder context store [closed]"]
     n3["sase-o8.3: Relation, recency, and frequency scoring [in_progress]"]
     n4["sase-o8.4: Warm cache, menu, and settings wiring [in_progress]"]
     n5["sase-o8.5: Ranking signals in the placeholder panel [in_progress]"]
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-o8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.1/README.md) | [sase-o8.1](sase-o8.1.md) | 1 |
-| [bbugyi200.athena.sase-o8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.2/README.md) | [sase-o8.2](sase-o8.2.md) | 0 |
+| [bbugyi200.athena.sase-o8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.2/README.md) | [sase-o8.2](sase-o8.2.md) | 1 |
 | [bbugyi200.athena.sase-o8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.3/README.md) | [sase-o8.3](sase-o8.3.md) | 0 |
 | [bbugyi200.athena.sase-o8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.4/README.md) | [sase-o8.4](sase-o8.4.md) | 0 |
 | [bbugyi200.athena.sase-o8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o8.5/README.md) | [sase-o8.5](sase-o8.5.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`555eba0`](https://github.com/sase-org/sase/commit/555eba0b13d7392912e34567180c057a79c936e0) | refactor(ace-tui): extract shared ranking-signal rendering | [sase-o8.1](sase-o8.1.md) | 2026-08-17 06:33:12 EDT |
+| sase | [`ded7f1a`](https://github.com/sase-org/sase/commit/ded7f1a5f05e4d2c1554cd75677f874b7eac6b1f) | feat(history): persist placeholder context bags and corpus stats | [sase-o8.2](sase-o8.2.md) | 2026-08-17 06:58:24 EDT |
