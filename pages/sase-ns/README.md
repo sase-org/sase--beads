@@ -47,6 +47,14 @@ No proposal was declined. No TASK NEEDS APPROVAL note was left by any phase (sas
 
 OBSERVATION, not routed: sase.monitor.store.resolve_exact_agent() lost its last production caller in 2605324cb and now survives only via the sase.monitor package re-export and its own tests. Symvision does not flag it (the __init__ re-export counts as a non-test consumer), and I did not remove it without being able to check the uncloned sase-github/sase-telegram plugin repos for consumers.
 
+[2026-08-17T02:18:35Z · sase-ns.6.land] CHILD EPIC LANDED: sase-ns.6 (Work the top five SASE task beads, plan 202608/task_backlog_top5.md) closed 2026-08-17 by its land agent. It was created by sase-ns.land--1 about 70 minutes after this bead closed, so it never blocked this close.
+
+Outcome: all five phases verified in source and commits; all five target task beads (sase-nv, sase-md, sase-mt, sase-m8, sase-my) are now closed -- three of them by the land agent, because phases .2, .3 and .4 skipped the plan's mandated bead bookkeeping. One integration defect the epic caused was found and fixed in 5feaabc71: phase .2 removed the config-center node from tests/reproducible_flake_baseline.txt three minutes before phase .1 added the '# fixed-at:' syntax, leaving the gate red on 21 historical records for a node the epic had just fixed.
+
+Follow-ups routed: +1 on sase-nd; new tasks sase-nz (plan-approval full-lane flake) and sase-o0 (declare fixed-at for nodes fixed before the syntax existed); DISCOVERED ISSUE on in-progress epic sase-n4 for the fakey usage-limit flake it introduced; observation recorded on sase-n0.
+
+No TASK NEEDS APPROVAL notes were left anywhere in the bead store, so nothing from this epic line is owed to the project owner for a decision. 25 ready task beads remain in the sase backlog; the child epic's plan directs its land agent to hand them to the next triage round.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -67,12 +75,18 @@ flowchart TD
     n3["sase-ns.3: Per-stream bead event-store writes in sase-core [closed]"]
     n4["sase-ns.4: File-panel assertions against the scroll-anchor seam [closed]"]
     n5["sase-ns.5: Models-panel jump PNG snapshot seam [closed]"]
-    n6["sase-ns.6: Work the top five SASE task beads [in_progress]"]
+    n6["sase-ns.6: Work the top five SASE task beads [closed]"]
     n7["sase-ns.6.1: Retire a fixed node's historical flake evidence [closed]"]
     n8["sase-ns.6.2: Deflake the config-center atomic-save node [closed]"]
     n9["sase-ns.6.3: Make bead-work forced-reuse cleanup all-or-nothing [closed]"]
     n10["sase-ns.6.4: Make chezmoi's just check idempotent [closed]"]
     n11["sase-ns.6.5: Repoint the Artifacts Files PNG snapshot seam [closed]"]
+    n12["sase-ns.6.6: Task backlog top five — turn the mandatory verification gates green [in_progress]"]
+    n13["sase-ns.6.6.1: Retire already-fixed nodes from the flake-baseline gate (sase-o0) [closed]"]
+    n14["sase-ns.6.6.2: Reconcile the two generated-memory drift checkers (sase-n0) [in_progress]"]
+    n15["sase-ns.6.6.3: Bound the monitor settle path's artifact-index reads (sase-ne) [in_progress]"]
+    n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [in_progress]"]
+    n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -84,6 +98,14 @@ flowchart TD
     n6 --> n9
     n6 --> n10
     n6 --> n11
+    n6 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
+    n12 --> n16
+    n12 --> n17
+    n13 -.-> n16
+    n13 -.-> n17
 ```
 
 ## Agents
@@ -98,9 +120,15 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.2.md) | [sase-ns.6.2](sase-ns.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.land/README.md) | [sase-ns.6](sase-ns.6.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.1/README.md) | [sase-ns.6.6.1](sase-ns.6.6.1.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.2/README.md) | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.4/README.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.5/README.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.land/README.md) | [sase-ns.6.6](sase-ns.6.6.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.land.md) | [sase-ns.6](sase-ns.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
 
 ## Commits
@@ -114,9 +142,9 @@ flowchart TD
 | sase | [`3a22ff0`](https://github.com/sase-org/sase/commit/3a22ff04f67a78af9416c87b1f6b591903c30962) | fix(config): isolate config cache from test-owned CONFIG\_DIR | [sase-ns.2](sase-ns.2.md) | 2026-08-16 19:02:36 EDT |
 | sase | [`644177a`](https://github.com/sase-org/sase/commit/644177a889ce763650ec822d82583ad0a117fa6f) | test(config): mark the config-cache drain sleeps with wait pragmas | [sase-ns](README.md) | 2026-08-16 19:37:10 EDT |
 | sase | [`f8b4ebb`](https://github.com/sase-org/sase/commit/f8b4ebb11eddf4ff1e8f09ac4f783cd8cf9707dc) | fix(tui): drop the stale history-word metadata re-export | [sase-ns](README.md) | 2026-08-16 19:47:06 EDT |
-| chezmoi | [`chezmoi@61d32ee`](https://github.com/bbugyi200/dotfiles/commit/61d32ee45b8dd74550b907800f39c5472ad8a8bf) | fix: ignore pytest cache in markdown formatting | [sase-ns.6.4](sase-ns.6.4.md) | 2026-08-16 21:08:57 EDT |
 | sase | [`4d8d24e`](https://github.com/sase-org/sase/commit/4d8d24eef0a4eb8717dafeefa92b5d69182c468d) | fix(bead): make forced-reuse cleanup all-or-nothing | [sase-ns.6.3](sase-ns.6.3.md) | 2026-08-16 21:27:05 EDT |
 | sase | [`d9b2984`](https://github.com/sase-org/sase/commit/d9b2984a7b54e5c0788513755a2cf165ea673919) | fix(tui): isolate config center state replacement | [sase-ns.6.2](sase-ns.6.2.md) | 2026-08-16 21:44:57 EDT |
 | sase | [`0c86462`](https://github.com/sase-org/sase/commit/0c86462638b1e382b259b0c4aa96e82782c6cc79) | test(ace): drop dead clock pin from Artifacts Files snapshot | [sase-ns.6.5](sase-ns.6.5.md) | 2026-08-16 21:46:14 EDT |
 | sase | [`6000a54`](https://github.com/sase-org/sase/commit/6000a54a1894375ed21f68b3e2c44026b2dcd481) | feat(selection-health): retire a fixed node's historical flake evidence | [sase-ns.6.1](sase-ns.6.1.md) | 2026-08-16 21:47:13 EDT |
 | sase | [`5feaabc`](https://github.com/sase-org/sase/commit/5feaabc7122423aff552188be0e662cf2d538684) | fix(selection-health): retire the fixed config-center node's evidence | [sase-ns.6](sase-ns.6.md) | 2026-08-16 22:11:36 EDT |
+| sase | [`72d3d5c`](https://github.com/sase-org/sase/commit/72d3d5c9f352dbc3fdfc5ee520313ef5085815ad) | test: retire fixed reproducible flake nodes | [sase-ns.6.6.1](sase-ns.6.6.1.md) | 2026-08-17 04:15:38 EDT |
