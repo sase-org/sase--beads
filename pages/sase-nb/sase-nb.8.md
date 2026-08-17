@@ -19,7 +19,7 @@ ui: render flag beads distinctly in the bead CLI rows and detail, bead pages, th
 
 ## Dependencies
 
-- **Blocks:** [sase-nb.10](sase-nb.10.md) ◐ · ⧖ 2026-08-16
+- **Blocks:** [sase-nb.10](sase-nb.10.md) ✓ · ⧖ 2026-08-16
 - **Depends on:** [sase-nb.4](sase-nb.4.md) ✓ · ⧖ 2026-08-16
 
 ## Agents

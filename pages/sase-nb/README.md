@@ -76,14 +76,14 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 REPRODUCTION (on master @ 497d383aa or later):
   $ uv run
 
-… and 6804 more characters
+… and 11712 more characters
 
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-nb.1](sase-nb.1.md) | The flag bead type in sase-core | ✓ closed | medium | 2026-08-16 | 1 | 1 |
-| [sase-nb.10](sase-nb.10.md) | sase\_flags.md, the sase.md pointer, and the docs | ◐ in_progress | medium | 2026-08-16 | 1 | 0 |
+| [sase-nb.10](sase-nb.10.md) | sase\_flags.md, the sase.md pointer, and the docs | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.2](sase-nb.2.md) | The typed registry, resolver, and snapshot | ✓ closed | large | 2026-08-16 | 1 | 1 |
 | [sase-nb.3](sase-nb.3.md) | Flag beads in the Python bead layer | ✓ closed | medium | 2026-08-16 | 1 | 1 |
 | [sase-nb.4](sase-nb.4.md) | The shared flag visual language | ✓ closed | small | 2026-08-16 | 0 | 0 |
@@ -99,7 +99,7 @@ REPRODUCTION (on master @ 497d383aa or later):
 flowchart TD
     n0["sase-nb: Feature flags whose removal is a bead, a deadline, and a gate [in_progress]"]
     n1["sase-nb.1: The flag bead type in sase-core [closed]"]
-    n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [in_progress]"]
+    n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [closed]"]
     n3["sase-nb.2: The typed registry, resolver, and snapshot [closed]"]
     n4["sase-nb.3: Flag beads in the Python bead layer [closed]"]
     n5["sase-nb.4: The shared flag visual language [closed]"]
@@ -139,7 +139,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-nb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.1/README.md) | [sase-nb.1](sase-nb.1.md) | 1 |
-| [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 0 |
+| [bbugyi200.athena.sase-nb.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.10/README.md) | [sase-nb.10](sase-nb.10.md) | 1 |
 | [bbugyi200.athena.sase-nb.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.2.md) | [sase-nb.2](sase-nb.2.md) | 1 |
 | [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
@@ -163,3 +163,4 @@ flowchart TD
 | sase | [`278cc81`](https://github.com/sase-org/sase/commit/278cc810b6bbce80b5b2e6784b9c49a09748654c) | feat(beads): surface flag beads across bead views | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:43:38 EDT |
 | sase | [`6f1286e`](https://github.com/sase-org/sase/commit/6f1286e269aeb279aa42f3e8a78466767ea8893c) | fix(ace): repair post-rebase history metadata checks | [sase-nb.8](sase-nb.8.md) | 2026-08-16 19:48:53 EDT |
 | sase | [`5b458f1`](https://github.com/sase-org/sase/commit/5b458f1bb9b31515c85957bc436dad8252195669) | feat(flags): register the first two consumer feature flags | [sase-nb.9](sase-nb.9.md) | 2026-08-16 19:58:13 EDT |
+| sase | [`14d6156`](https://github.com/sase-org/sase/commit/14d61561f40d3d4657a0377efe0df729d88b71c4) | feat(memory): add feature flag lifecycle guidance | [sase-nb.10](sase-nb.10.md) | 2026-08-16 20:38:21 EDT |
