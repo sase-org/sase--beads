@@ -16,7 +16,7 @@ Agents fetch glossary definitions on demand with `sase glossary read <term>`, wh
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-op.1](sase-op.1.md) | Glossary resolution core and read-log foundation | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-op.2](sase-op.2.md) | Retire the generated glossary note for a Tier 2 instruction block | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-op.2](sase-op.2.md) | Retire the generated glossary note for a Tier 2 instruction block | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-op.3](sase-op.3.md) | sase glossary group with list and show | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-op.4](sase-op.4.md) | sase glossary read and log | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-op.5](sase-op.5.md) | GLOSSARY lane in the agent metadata panel | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -28,7 +28,7 @@ Agents fetch glossary definitions on demand with `sase glossary read <term>`, wh
 flowchart TD
     n0["sase-op: sase glossary command and on-demand glossary context [in_progress]"]
     n1["sase-op.1: Glossary resolution core and read-log foundation [closed]"]
-    n2["sase-op.2: Retire the generated glossary note for a Tier 2 instruction block [in_progress]"]
+    n2["sase-op.2: Retire the generated glossary note for a Tier 2 instruction block [closed]"]
     n3["sase-op.3: sase glossary group with list and show [in_progress]"]
     n4["sase-op.4: sase glossary read and log [in_progress]"]
     n5["sase-op.5: GLOSSARY lane in the agent metadata panel [in_progress]"]
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-op.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.1/README.md) | [sase-op.1](sase-op.1.md) | 1 |
-| [bbugyi200.athena.sase-op.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.2/README.md) | [sase-op.2](sase-op.2.md) | 0 |
+| [bbugyi200.athena.sase-op.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.2/README.md) | [sase-op.2](sase-op.2.md) | 1 |
 | [bbugyi200.athena.sase-op.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.3/README.md) | [sase-op.3](sase-op.3.md) | 0 |
 | [bbugyi200.athena.sase-op.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.4/README.md) | [sase-op.4](sase-op.4.md) | 0 |
 | [bbugyi200.athena.sase-op.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.5/README.md) | [sase-op.5](sase-op.5.md) | 0 |
@@ -67,3 +67,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5ccb38d`](https://github.com/sase-org/sase/commit/5ccb38d7291b5a3dcc8ce864929e78765fb8f79f) | feat(glossary): add shared resolver and JSONL read-log | [sase-op.1](sase-op.1.md) | 2026-08-17 12:51:12 EDT |
+| sase | [`eaafcbe`](https://github.com/sase-org/sase/commit/eaafcbe7253899bce21637194ba6424a5a3e4f2c) | feat(init)!: retire generated glossary note for a Tier 2 instruction block | [sase-op.2](sase-op.2.md) | 2026-08-17 13:06:54 EDT |
