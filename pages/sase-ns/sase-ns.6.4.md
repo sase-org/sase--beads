@@ -21,10 +21,4 @@ chezmoi_check_idempotent: task bead sase-m8. Make the chezmoi repo's `just check
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@61d32ee`](https://github.com/bbugyi200/dotfiles/commit/61d32ee45b8dd74550b907800f39c5472ad8a8bf) | fix: ignore pytest cache in markdown formatting | [sase-ns.6.4](sase-ns.6.4.md) | 2026-08-16 21:08:57 EDT |
+| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |

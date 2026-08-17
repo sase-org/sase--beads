@@ -70,7 +70,7 @@ flowchart TD
     n6["sase-ns.6: Work the top five SASE task beads [in_progress]"]
     n7["sase-ns.6.1: Retire a fixed node's historical flake evidence [in_progress]"]
     n8["sase-ns.6.2: Deflake the config-center atomic-save node [in_progress]"]
-    n9["sase-ns.6.3: Make bead-work forced-reuse cleanup all-or-nothing [in_progress]"]
+    n9["sase-ns.6.3: Make bead-work forced-reuse cleanup all-or-nothing [closed]"]
     n10["sase-ns.6.4: Make chezmoi's just check idempotent [closed]"]
     n11["sase-ns.6.5: Repoint the Artifacts Files PNG snapshot seam [in_progress]"]
     n0 --> n1
@@ -95,10 +95,10 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.3.md) | [sase-ns.3](sase-ns.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.4/README.md) | [sase-ns.4](sase-ns.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.5/README.md) | [sase-ns.5](sase-ns.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.1/README.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.2.md) | [sase-ns.6.2](sase-ns.6.2.md) | 0 |
-| [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 0 |
-| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.land/README.md) | [sase-ns.6](sase-ns.6.md) | 0 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
@@ -114,4 +114,4 @@ flowchart TD
 | sase | [`3a22ff0`](https://github.com/sase-org/sase/commit/3a22ff04f67a78af9416c87b1f6b591903c30962) | fix(config): isolate config cache from test-owned CONFIG\_DIR | [sase-ns.2](sase-ns.2.md) | 2026-08-16 19:02:36 EDT |
 | sase | [`644177a`](https://github.com/sase-org/sase/commit/644177a889ce763650ec822d82583ad0a117fa6f) | test(config): mark the config-cache drain sleeps with wait pragmas | [sase-ns](README.md) | 2026-08-16 19:37:10 EDT |
 | sase | [`f8b4ebb`](https://github.com/sase-org/sase/commit/f8b4ebb11eddf4ff1e8f09ac4f783cd8cf9707dc) | fix(tui): drop the stale history-word metadata re-export | [sase-ns](README.md) | 2026-08-16 19:47:06 EDT |
-| chezmoi | [`chezmoi@61d32ee`](https://github.com/bbugyi200/dotfiles/commit/61d32ee45b8dd74550b907800f39c5472ad8a8bf) | fix: ignore pytest cache in markdown formatting | [sase-ns.6.4](sase-ns.6.4.md) | 2026-08-16 21:08:57 EDT |
+| sase | [`4d8d24e`](https://github.com/sase-org/sase/commit/4d8d24eef0a4eb8717dafeefa92b5d69182c468d) | fix(bead): make forced-reuse cleanup all-or-nothing | [sase-ns.6.3](sase-ns.6.3.md) | 2026-08-16 21:27:05 EDT |

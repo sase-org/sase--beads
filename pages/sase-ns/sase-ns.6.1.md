@@ -15,4 +15,4 @@ flake_gate_retirement: task bead sase-nv. Let the reproducible-flake gate retire
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.1/README.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |

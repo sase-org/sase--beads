@@ -11,6 +11,10 @@
 
 The five highest-impact task beads in the sase backlog are fixed and closed: the reproducible-flake gate stops being a permanent red on check-full, the config-center atomic-save node stops flaking under the full parallel lane, `sase bead work` can no longer strand an epic with no agents after a partial cleanup, chezmoi's `just check` is idempotent, and the Artifacts Files PNG snapshot stops erroring during setup.
 
+## Notes
+
+[2026-08-17T01:23:41Z · toobig-2w.split_file.tests.ace.tui.test_agent_completion.0] DISCOVERED ISSUE: Independent 2026-08-16 reproduction of sase-md during a 13-worker full just check: test_save_atomically_replaces_existing_state failed under the full lane and passed immediately in isolation. The triggering diff only splits tests/ace/tui/test_agent_completion.py, so it cannot affect Config Center persistence; evidence was also added to sase-md.
+
 ## Agents
 
 | Agent | Bead | Commits |
