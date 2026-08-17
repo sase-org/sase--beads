@@ -13,7 +13,7 @@ consume-core: read the new wire fields so the Overview commits tile stops labell
 
 ## Dependencies
 
-- **Depends on:** [sase-oo.1](sase-oo.1.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-oo.1](sase-oo.1.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
