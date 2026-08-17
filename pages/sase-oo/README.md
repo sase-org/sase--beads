@@ -15,9 +15,9 @@ Every number, label, and metric definition rendered by the Admin Center Statisti
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-oo.1](sase-oo.1.md) | Correct the Rust statistics counters and expose breakdown truncation | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oo.1](sase-oo.1.md) | Correct the Rust statistics counters and expose breakdown truncation | ◐ in_progress | medium | 2026-08-17 | 1 | 1 |
 | [sase-oo.2](sase-oo.2.md) | Stop asserting zero samples and meaningless shares in Perf latency rows | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
-| [sase-oo.3](sase-oo.3.md) | Make the All time window and empty-window states honest | ✓ closed | medium | 2026-08-17 | 1 | 1 |
+| [sase-oo.3](sase-oo.3.md) | Make the All time window and empty-window states honest | ✓ closed | medium | 2026-08-17 | 1 | 0 |
 | [sase-oo.4](sase-oo.4.md) | Render the corrected core counters and disclose XPrompt truncation | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 
 ## Lineage
@@ -40,9 +40,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-oo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.1/README.md) | [sase-oo.1](sase-oo.1.md) | 0 |
+| [bbugyi200.athena.sase-oo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.1/README.md) | [sase-oo.1](sase-oo.1.md) | 1 |
 | [bbugyi200.athena.sase-oo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.2/README.md) | [sase-oo.2](sase-oo.2.md) | 0 |
-| [bbugyi200.athena.sase-oo.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.3/README.md) | [sase-oo.3](sase-oo.3.md) | 1 |
+| [bbugyi200.athena.sase-oo.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.3/README.md) | [sase-oo.3](sase-oo.3.md) | 0 |
 | [bbugyi200.athena.sase-oo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.4/README.md) | [sase-oo.4](sase-oo.4.md) | 0 |
 | [bbugyi200.athena.sase-oo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oo.land/README.md) | [sase-oo](README.md) | 0 |
 
@@ -50,4 +50,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`56dbeb2`](https://github.com/sase-org/sase/commit/56dbeb2f6d9715dc6710eb4ba0e78c9dc408fd0b) | fix(stats): make All time window and empty-window states honest | [sase-oo.3](sase-oo.3.md) | 2026-08-17 12:31:12 EDT |
+| sase-core | [`sase-core@02a37e9`](https://github.com/sase-org/sase-core/commit/02a37e9d283a02cbf6bcbc95bea0df959f6b72c6) | fix(agent\_stats): correct commit, spec, runner, and xprompt counters | [sase-oo.1](sase-oo.1.md) | 2026-08-17 12:35:36 EDT |
