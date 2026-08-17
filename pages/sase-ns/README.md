@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.4.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.1.md) | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.1.md) | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.2/README.md) | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.3.md) | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.5/README.md) | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 1 |
@@ -172,3 +172,4 @@ flowchart TD
 | sase | [`7f3710e`](https://github.com/sase-org/sase/commit/7f3710e3f61a743caa1b6915959b2c80f2b99a22) | fix(memory): warn when a foreign sase build answers a workspace memory-drift check | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 2026-08-17 06:16:24 EDT |
 | sase | [`24481ab`](https://github.com/sase-org/sase/commit/24481abd4e5139bb379aacf488b435477b4f268a) | test: rebaseline 11 ACE PNG goldens and refresh fakey index | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 2026-08-17 06:25:10 EDT |
 | sase | [`44df0bf`](https://github.com/sase-org/sase/commit/44df0bfb420c3fd2b291e7ed2aace67046fd0b0b) | test(monitor): deflake the supervise no-hang bounds | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 2026-08-17 06:50:23 EDT |
+| sase | [`5e58fb1`](https://github.com/sase-org/sase/commit/5e58fb1c8b4a92e91056a179b9591d52beedd0d8) | fix(config): publish merged-config and owner-snapshot caches atomically | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 2026-08-17 13:21:41 EDT |
