@@ -18,7 +18,7 @@ cli: register the `sase glossary` command group with project selection, the filt
 ## Dependencies
 
 - **Depends on:** [sase-op.1](sase-op.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-op.4](sase-op.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-op.4](sase-op.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-op.6](sase-op.6.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

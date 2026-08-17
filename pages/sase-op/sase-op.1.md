@@ -20,7 +20,7 @@ core: add the shared term-reference lookup and recursive reference-closure resol
 ## Dependencies
 
 - **Blocks:** [sase-op.3](sase-op.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-op.4](sase-op.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-op.4](sase-op.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-op.6](sase-op.6.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
