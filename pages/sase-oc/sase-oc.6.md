@@ -14,7 +14,7 @@ wire: teach all three emitters to call the candidates fast path for kinded slots
 ## Dependencies
 
 - **Depends on:** [sase-oc.3](sase-oc.3.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-oc.5](sase-oc.5.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-oc.5](sase-oc.5.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-oc.8](sase-oc.8.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

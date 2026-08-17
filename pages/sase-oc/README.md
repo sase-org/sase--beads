@@ -49,7 +49,7 @@ WHY HERE AND NOT A NEW TASK: routed via /sase_new_task from sase-ob. Search over
 | [sase-oc.2](sase-oc.2.md) | Zsh emitter and the sase completion command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.3](sase-oc.3.md) | Bash and fish emitters | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.6](sase-oc.6.md) | Dynamic values wired into every shell | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.7](sase-oc.7.md) | Install, verification, doctor, and refresh | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.8](sase-oc.8.md) | Documentation, polish, and reach | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
@@ -63,7 +63,7 @@ flowchart TD
     n2["sase-oc.2: Zsh emitter and the sase completion command group [closed]"]
     n3["sase-oc.3: Bash and fish emitters [closed]"]
     n4["sase-oc.4: Pre-argparse candidates fast path [closed]"]
-    n5["sase-oc.5: Value-kind provider catalog [in_progress]"]
+    n5["sase-oc.5: Value-kind provider catalog [closed]"]
     n6["sase-oc.6: Dynamic values wired into every shell [in_progress]"]
     n7["sase-oc.7: Install, verification, doctor, and refresh [closed]"]
     n8["sase-oc.8: Documentation, polish, and reach [in_progress]"]
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.2/README.md) | [sase-oc.2](sase-oc.2.md) | 1 |
 | [bbugyi200.athena.sase-oc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.3/README.md) | [sase-oc.3](sase-oc.3.md) | 1 |
 | [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.4/README.md) | [sase-oc.4](sase-oc.4.md) | 1 |
-| [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 0 |
+| [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 1 |
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 0 |
 | [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 1 |
 | [bbugyi200.athena.sase-oc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.8/README.md) | [sase-oc.8](sase-oc.8.md) | 0 |
@@ -109,3 +109,4 @@ flowchart TD
 | sase | [`c3da174`](https://github.com/sase-org/sase/commit/c3da174ea12448497bafe9ace114e4bcd7e6c513) | feat(completion): emit bash and fish scripts from the shared spec | [sase-oc.3](sase-oc.3.md) | 2026-08-17 11:32:38 EDT |
 | sase | [`24d892b`](https://github.com/sase-org/sase/commit/24d892b4de80ef1cc77849217352d91dbbcdfc39) | feat(completion): add pre-argparse candidates fast path | [sase-oc.4](sase-oc.4.md) | 2026-08-17 11:59:30 EDT |
 | sase | [`3e9be9c`](https://github.com/sase-org/sase/commit/3e9be9ce44876f800bc21cc1b86e787c6be58132) | feat(completion): install scripts, doctor checks, and update refresh | [sase-oc.7](sase-oc.7.md) | 2026-08-17 12:26:21 EDT |
+| sase | [`aca2b7a`](https://github.com/sase-org/sase/commit/aca2b7ac6a4a577bdca921c9add5ea5214a15112) | feat(completion): add remaining value-kind providers | [sase-oc.5](sase-oc.5.md) | 2026-08-17 12:51:24 EDT |
