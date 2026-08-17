@@ -14,7 +14,7 @@ signals: render the score meter and dominant-reason chip on saved placeholder ro
 ## Dependencies
 
 - **Depends on:** [sase-o8.1](sase-o8.1.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-o8.4](sase-o8.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-o8.4](sase-o8.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
