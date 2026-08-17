@@ -13,7 +13,7 @@ sweep: re-run the whole-repo lint and full test suite, resolve any remaining orp
 
 ## Dependencies
 
-- **Depends on:** [sase-ng.1.3](sase-ng.1.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-ng.1.3](sase-ng.1.3.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-ng.1.5](sase-ng.1.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
