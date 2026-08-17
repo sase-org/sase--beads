@@ -20,7 +20,7 @@ monitor-row-presentation: mark monitor rows with the orange gear in the list and
 ## Dependencies
 
 - **Depends on:** [sase-o9.1](sase-o9.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-o9.4](sase-o9.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o9.4](sase-o9.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
