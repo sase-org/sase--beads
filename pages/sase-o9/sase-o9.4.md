@@ -24,7 +24,7 @@ agent-jump: add the <enter> keymap that resolves a monitor row to its agent and 
 ## Dependencies
 
 - **Depends on:** [sase-o9.2](sase-o9.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-o9.5](sase-o9.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o9.5](sase-o9.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

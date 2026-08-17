@@ -23,7 +23,7 @@ A monitor proc is unmistakable on the Procs tab: it wears the orange monitor gea
 | [sase-o9.2](sase-o9.2.md) | Monitor rows wear the gear and name their agent | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-o9.3](sase-o9.3.md) | Blue and orange gear counts in the tab header | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-o9.4](sase-o9.4.md) | \<enter\> opens the monitor's agent on the Agents tab | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-o9.5](sase-o9.5.md) | Documentation and visual snapshot suite | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
+| [sase-o9.5](sase-o9.5.md) | Documentation and visual snapshot suite | ✓ closed | small | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n2["sase-o9.2: Monitor rows wear the gear and name their agent [closed]"]
     n3["sase-o9.3: Blue and orange gear counts in the tab header [closed]"]
     n4["sase-o9.4: &lt;enter&gt; opens the monitor's agent on the Agents tab [closed]"]
-    n5["sase-o9.5: Documentation and visual snapshot suite [in_progress]"]
+    n5["sase-o9.5: Documentation and visual snapshot suite [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-o9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.2/README.md) | [sase-o9.2](sase-o9.2.md) | 1 |
 | [bbugyi200.athena.sase-o9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.3/README.md) | [sase-o9.3](sase-o9.3.md) | 1 |
 | [bbugyi200.athena.sase-o9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.4/README.md) | [sase-o9.4](sase-o9.4.md) | 1 |
-| [bbugyi200.athena.sase-o9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.5/README.md) | [sase-o9.5](sase-o9.5.md) | 0 |
+| [bbugyi200.athena.sase-o9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.5/README.md) | [sase-o9.5](sase-o9.5.md) | 1 |
 | [bbugyi200.athena.sase-o9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-o9.land/README.md) | [sase-o9](README.md) | 0 |
 
 ## Commits
@@ -66,3 +66,4 @@ flowchart TD
 | sase | [`6bd5d57`](https://github.com/sase-org/sase/commit/6bd5d57229493bb2db0d1d6b762ff7acc153d3a3) | feat(ace-tui): split blue/orange gear counts into the procs pane header | [sase-o9.3](sase-o9.3.md) | 2026-08-17 07:40:37 EDT |
 | sase | [`7202e84`](https://github.com/sase-org/sase/commit/7202e847bfc8ab5cd44260e8b71955052580f26a) | feat(ace-tui): mark monitor rows with a gear and their agent's name | [sase-o9.2](sase-o9.2.md) | 2026-08-17 08:03:53 EDT |
 | sase | [`790cb61`](https://github.com/sase-org/sase/commit/790cb61ee128b097842616881b92dfa3f91cf46c) | feat(ace-tui): jump from a Procs pane monitor row to its agent with Enter | [sase-o9.4](sase-o9.4.md) | 2026-08-17 08:36:36 EDT |
+| sase | [`26fefda`](https://github.com/sase-org/sase/commit/26fefdab753e6a0bfbed1dcb2aacec935e3d12da) | docs(ace): document Procs monitors and add visual goldens | [sase-o9.5](sase-o9.5.md) | 2026-08-17 09:01:30 EDT |

@@ -22,7 +22,7 @@ header-gear-counts: extract the top-bar gear chip into a shared helper and rende
 ## Dependencies
 
 - **Depends on:** [sase-o9.1](sase-o9.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-o9.5](sase-o9.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o9.5](sase-o9.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
