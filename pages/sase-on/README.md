@@ -19,7 +19,7 @@ A ready task bead earns a TaskTriage gate only once it has at least `bead.task_t
 | [sase-on.2](sase-on.2.md) | BeadStaleCleanup gate contract | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-on.3](sase-on.3.md) | BeadStaleCleanup host effects | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-on.4](sase-on.4.md) | bead\_stale\_cleanup chop | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-on.5](sase-on.5.md) | Documentation sweep and full verification | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
+| [sase-on.5](sase-on.5.md) | Documentation sweep and full verification | ◐ in_progress | small | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-on.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-on.2/README.md) | [sase-on.2](sase-on.2.md) | 1 |
 | [bbugyi200.athena.sase-on.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-on.3/README.md) | [sase-on.3](sase-on.3.md) | 1 |
 | [bbugyi200.athena.sase-on.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-on.4/README.md) | [sase-on.4](sase-on.4.md) | 1 |
-| [bbugyi200.athena.sase-on.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-on.5/README.md) | [sase-on.5](sase-on.5.md) | 0 |
+| [bbugyi200.athena.sase-on.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-on.5.md) | [sase-on.5](sase-on.5.md) | 1 |
 | [bbugyi200.athena.sase-on.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-on.land/README.md) | [sase-on](README.md) | 0 |
 
 ## Commits
@@ -61,3 +61,4 @@ flowchart TD
 | sase | [`b34d0d3`](https://github.com/sase-org/sase/commit/b34d0d3b6d85a821c7aac94e422e486eda77ae80) | feat(bead): withhold TaskTriage gates below a configurable +1 bar | [sase-on.1](sase-on.1.md) | 2026-08-17 12:39:35 EDT |
 | sase | [`671eea0`](https://github.com/sase-org/sase/commit/671eea0ccf6093840c99fbaf2071c14018b63c30) | feat(bead): close reviewer-selected beads from the BeadStaleCleanup gate | [sase-on.3](sase-on.3.md) | 2026-08-17 13:07:10 EDT |
 | sase | [`9f5147b`](https://github.com/sase-org/sase/commit/9f5147be365219e79fd4a3a85128c939e2cc5e00) | feat(axe): add hourly bead\_stale\_cleanup chop | [sase-on.4](sase-on.4.md) | 2026-08-17 13:48:55 EDT |
+| sase | [`8c63f5e`](https://github.com/sase-org/sase/commit/8c63f5e121069b264f75863ff57a43d1d80de153) | docs(beads): document task-triage thresholds and stale-cleanup rollout | [sase-on.5](sase-on.5.md) | 2026-08-17 14:17:28 EDT |
