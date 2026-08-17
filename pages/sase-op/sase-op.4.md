@@ -23,7 +23,7 @@ audit: add the reason-requiring `read` wrapper that appends an audited event bef
 
 - **Depends on:** [sase-op.1](sase-op.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-op.3](sase-op.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-op.5](sase-op.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-op.5](sase-op.5.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-op.6](sase-op.6.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

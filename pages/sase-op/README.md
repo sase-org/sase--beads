@@ -31,7 +31,7 @@ DISCOVERED BY: land agent for epic sase-ns.6.6.6 on 2026-08-17. RELATED: sase-o7
 | [sase-op.2](sase-op.2.md) | Retire the generated glossary note for a Tier 2 instruction block | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-op.3](sase-op.3.md) | sase glossary group with list and show | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-op.4](sase-op.4.md) | sase glossary read and log | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-op.5](sase-op.5.md) | GLOSSARY lane in the agent metadata panel | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-op.5](sase-op.5.md) | GLOSSARY lane in the agent metadata panel | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-op.6](sase-op.6.md) | Documentation, completion spec, and end-to-end sweep | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 
 ## Lineage
@@ -43,7 +43,7 @@ flowchart TD
     n2["sase-op.2: Retire the generated glossary note for a Tier 2 instruction block [closed]"]
     n3["sase-op.3: sase glossary group with list and show [closed]"]
     n4["sase-op.4: sase glossary read and log [closed]"]
-    n5["sase-op.5: GLOSSARY lane in the agent metadata panel [in_progress]"]
+    n5["sase-op.5: GLOSSARY lane in the agent metadata panel [closed]"]
     n6["sase-op.6: Documentation, completion spec, and end-to-end sweep [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-op.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.2/README.md) | [sase-op.2](sase-op.2.md) | 1 |
 | [bbugyi200.athena.sase-op.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.3/README.md) | [sase-op.3](sase-op.3.md) | 1 |
 | [bbugyi200.athena.sase-op.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.4/README.md) | [sase-op.4](sase-op.4.md) | 1 |
-| [bbugyi200.athena.sase-op.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.5/README.md) | [sase-op.5](sase-op.5.md) | 0 |
+| [bbugyi200.athena.sase-op.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-op.5.md) | [sase-op.5](sase-op.5.md) | 1 |
 | [bbugyi200.athena.sase-op.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.6/README.md) | [sase-op.6](sase-op.6.md) | 0 |
 | [bbugyi200.athena.sase-op.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-op.land/README.md) | [sase-op](README.md) | 0 |
 
@@ -82,3 +82,4 @@ flowchart TD
 | sase | [`eaafcbe`](https://github.com/sase-org/sase/commit/eaafcbe7253899bce21637194ba6424a5a3e4f2c) | feat(init)!: retire generated glossary note for a Tier 2 instruction block | [sase-op.2](sase-op.2.md) | 2026-08-17 13:06:54 EDT |
 | sase | [`f6d757e`](https://github.com/sase-org/sase/commit/f6d757e2c96a7865d7958ad2b6d8bcc4a0abda4f) | feat(glossary): add glossary command group with list and show | [sase-op.3](sase-op.3.md) | 2026-08-17 14:00:52 EDT |
 | sase | [`a383212`](https://github.com/sase-org/sase/commit/a383212a2bca37d813daeb0ca1c2452032283a4b) | feat(glossary): add audited read and log dashboard | [sase-op.4](sase-op.4.md) | 2026-08-17 14:35:01 EDT |
+| sase | [`d3f77b8`](https://github.com/sase-org/sase/commit/d3f77b800772b99909f6d40e410ff776a6533b56) | feat(glossary): render per-agent glossary reads in the metadata panel | [sase-op.5](sase-op.5.md) | 2026-08-17 15:36:07 EDT |
