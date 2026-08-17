@@ -11,6 +11,10 @@
 
 configcache: fix the process-global merged-config cache leak behind tests/test_config_cache.py::test_selector_change_eventually_invalidates_merged_config, the only non-epic-owned node still holding `just selection-health --fail-on-new-flake` red, and verify its sibling nodes in the same file.
 
+## Notes
+
+[2026-08-17T10:29:08Z · sase-ns.6.6.6.1] PROGRESS: Implemented atomic config-generation publication (lock around token/hit, rebuild off-lock, CAS publish) and test-only publisher restriction after each cache clear. Added leftover-loader and stale-rebuild regressions. Isolation + file-scoped SASE_CONTENTION_REPEAT=3 contention are green (27 passed x3). Next: just check-full via monitor (conftest_runtime is in the broadening set), then selection-health and close.
+
 ## Agents
 
 | Agent | Bead | Commits |

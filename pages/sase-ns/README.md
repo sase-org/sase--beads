@@ -90,7 +90,7 @@ flowchart TD
     n18["sase-ns.6.6.6: Task backlog top five - clear the two red verification gates and the three reproducible test hazards behind them [in_progress]"]
     n19["sase-ns.6.6.6.1: Isolate the process-global merged-config cache so its nodes stop failing the flake gate [in_progress]"]
     n20["sase-ns.6.6.6.2: Rebaseline the eleven stale ACE PNG goldens that fail the serial visual lane [closed]"]
-    n21["sase-ns.6.6.6.3: Deflake the three monitor-supervise pipe-EOF nodes and retire their baseline debt [in_progress]"]
+    n21["sase-ns.6.6.6.3: Deflake the three monitor-supervise pipe-EOF nodes and retire their baseline debt [closed]"]
     n22["sase-ns.6.6.6.4: Replace the last known fork-after-threads lock holders in the test suite [closed]"]
     n23["sase-ns.6.6.6.5: Stop a stale global sase build from silently answering workspace memory-drift checks [closed]"]
     n0 --> n1
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.1.md) | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.2/README.md) | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.3.md) | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.3.md) | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.5/README.md) | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.land/README.md) | [sase-ns.6.6.6](sase-ns.6.6.6.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.land.md) | [sase-ns.6.6](sase-ns.6.6.md) | 1 |
@@ -172,3 +172,4 @@ flowchart TD
 | sase | [`cf7eeee`](https://github.com/sase-org/sase/commit/cf7eeee03f6c779e0ac4ba9f202a6cf5b2968dab) | test: retire the deflaked monitor and approval nodes | [sase-ns.6.6](sase-ns.6.6.md) | 2026-08-17 05:25:58 EDT |
 | sase | [`7f3710e`](https://github.com/sase-org/sase/commit/7f3710e3f61a743caa1b6915959b2c80f2b99a22) | fix(memory): warn when a foreign sase build answers a workspace memory-drift check | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 2026-08-17 06:16:24 EDT |
 | sase | [`24481ab`](https://github.com/sase-org/sase/commit/24481abd4e5139bb379aacf488b435477b4f268a) | test: rebaseline 11 ACE PNG goldens and refresh fakey index | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 2026-08-17 06:25:10 EDT |
+| sase | [`44df0bf`](https://github.com/sase-org/sase/commit/44df0bfb420c3fd2b291e7ed2aace67046fd0b0b) | test(monitor): deflake the supervise no-hang bounds | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 2026-08-17 06:50:23 EDT |
