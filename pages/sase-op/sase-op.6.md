@@ -15,7 +15,7 @@ docs: update the CLI, configuration, init, memory, and ACE documentation for the
 
 - **Depends on:** [sase-op.1](sase-op.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-op.2](sase-op.2.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-op.3](sase-op.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-op.3](sase-op.3.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-op.4](sase-op.4.md) ◐ · ⧖ 2026-08-17
 - **Depends on:** [sase-op.5](sase-op.5.md) ◐ · ⧖ 2026-08-17
 

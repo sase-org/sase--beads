@@ -15,6 +15,8 @@ init: stop generating `sase/memory/glossary.md`, delete the previously generated
 
 [2026-08-17T16:54:58Z · sase-op.2] Verified: targeted glossary/AMD tests (30) pass, full tests/main/ suite (1500) passes, full just test-scoped lane passes (32241 passed, 14 skipped), sase memory init --check reports no drift, ruff/mypy/symvision/toobig/validate/validate-committed-plans/changelog/pyscripts/patch-terminology gates all pass; only pre-existing unrelated lint(feature-flags) sase-om gate fails, confirmed identical on unmodified master via git stash. No circular import between sase.amd._memory and sase.main.init_memory.glossary. epic-symbols check: none for this bead.
 
+[2026-08-17T17:07:44Z · sase-op.2] PROPOSED FOLLOW-UP: this checkouts tools/validate_sase_core_rs hardcodes AGENT_STATS_WIRE_SCHEMA_VERSION=5, but sase-core released v0.27.18 (bead sase-oo.1, commit 02a37e9) bumping it to 6; any `just check`/`just fix`/`_setup` that fast-forwards the linked sase-core sidecar to origin/master now fails the agent-statistics work-schema probe ("requires schema version 5: got 6") and blocks commits for every agent in a fresh workspace until sase catches up with the new wire schema. Worked around locally for this commit by reverting the sidecar checkout to 875309a (v0.27.17) and using SASE_ALLOW_STALE_CORE=1; that revert is not durable and will be overwritten by the next unqualified _setup run. Needs a real fix: update sase's agent-stats consumer(s) for schema version 6.
+
 ## Dependencies
 
 - **Blocks:** [sase-op.6](sase-op.6.md) ◐ · ⧖ 2026-08-17
