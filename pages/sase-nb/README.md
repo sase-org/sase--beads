@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-nb
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.03v](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.03v.md) · **Assignee:** `sase-nb.land`
-**Created:** 2026-08-16 12:23:47 EDT
+**Created:** 2026-08-16 12:23:47 EDT · **Closed:** 2026-08-16 22:21:31 EDT
 **Plan:** [202608/feature\_flags.md](https://github.com/sase-org/sase--plans/blob/main/202608/feature_flags.md)
 
 ## Description
@@ -76,7 +76,7 @@ the AGENTS.md Tier 2 listing, so eyeball the regenerated listing.
 REPRODUCTION (on master @ 497d383aa or later):
   $ uv run
 
-… and 18416 more characters
+… and 24284 more characters
 
 ## Phases
 
@@ -97,10 +97,10 @@ REPRODUCTION (on master @ 497d383aa or later):
 
 ```mermaid
 flowchart TD
-    n0["sase-nb: Feature flags whose removal is a bead, a deadline, and a gate [in_progress]"]
+    n0["sase-nb: Feature flags whose removal is a bead, a deadline, and a gate [closed]"]
     n1["sase-nb.1: The flag bead type in sase-core [closed]"]
     n2["sase-nb.10: sase_flags.md, the sase.md pointer, and the docs [closed]"]
-    n3["sase-nb.11: Finish the feature-flag epic's landing [in_progress]"]
+    n3["sase-nb.11: Finish the feature-flag epic's landing [closed]"]
     n4["sase-nb.11.1: Make the feature-flag memory project-local [closed]"]
     n5["sase-nb.11.2: Stop the feature-flag checker tests leaking sys.path [closed]"]
     n6["sase-nb.11.3: Regenerate the Artifacts Beads PNG goldens [closed]"]
@@ -157,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.sase-nb.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.3/README.md) | [sase-nb.11.3](sase-nb.11.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.4/README.md) | [sase-nb.11.4](sase-nb.11.4.md) | 1 |
 | [bbugyi200.athena.sase-nb.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.5/README.md) | [sase-nb.11.5](sase-nb.11.5.md) | 1 |
-| [bbugyi200.athena.sase-nb.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.land/README.md) | [sase-nb.11](sase-nb.11.md) | 0 |
+| [bbugyi200.athena.sase-nb.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.11.land/README.md) | [sase-nb.11](sase-nb.11.md) | 1 |
 | [bbugyi200.athena.sase-nb.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-nb.2.md) | [sase-nb.2](sase-nb.2.md) | 1 |
 | [bbugyi200.athena.sase-nb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.3/README.md) | [sase-nb.3](sase-nb.3.md) | 1 |
 | [bbugyi200.athena.sase-nb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-nb.5/README.md) | [sase-nb.5](sase-nb.5.md) | 1 |
@@ -187,3 +187,4 @@ flowchart TD
 | sase | [`f4cbb13`](https://github.com/sase-org/sase/commit/f4cbb138e20b7f57fdf6ea85031b3a13cb0b6a95) | feat(memory): keep feature-flag notes project-local | [sase-nb.11.1](sase-nb.11.1.md) | 2026-08-16 21:37:03 EDT |
 | sase | [`0a5074d`](https://github.com/sase-org/sase/commit/0a5074df7307b26aaedbea69f4f0715bf4f6af8a) | test: regenerate stale artifacts\_beads PNG goldens for flag-bead chrome | [sase-nb.11.3](sase-nb.11.3.md) | 2026-08-16 21:39:02 EDT |
 | sase | [`dd79cf1`](https://github.com/sase-org/sase/commit/dd79cf142f405ad290f485133e087bc6cddb253a) | test: cover flag triage response translation | [sase-nb.11.4](sase-nb.11.4.md) | 2026-08-16 21:46:56 EDT |
+| sase | [`ec2cc19`](https://github.com/sase-org/sase/commit/ec2cc1912cd2fe1b14ab687dadade137b9a34f18) | refactor(flags): retire the sase-nb epic-symbol whitelist | [sase-nb.11](sase-nb.11.md) | 2026-08-16 22:36:25 EDT |
