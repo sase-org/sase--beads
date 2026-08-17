@@ -81,12 +81,18 @@ flowchart TD
     n9["sase-ns.6.3: Make bead-work forced-reuse cleanup all-or-nothing [closed]"]
     n10["sase-ns.6.4: Make chezmoi's just check idempotent [closed]"]
     n11["sase-ns.6.5: Repoint the Artifacts Files PNG snapshot seam [closed]"]
-    n12["sase-ns.6.6: Task backlog top five — turn the mandatory verification gates green [in_progress]"]
+    n12["sase-ns.6.6: Task backlog top five — turn the mandatory verification gates green [closed]"]
     n13["sase-ns.6.6.1: Retire already-fixed nodes from the flake-baseline gate (sase-o0) [closed]"]
     n14["sase-ns.6.6.2: Reconcile the two generated-memory drift checkers (sase-n0) [closed]"]
     n15["sase-ns.6.6.3: Bound the monitor settle path's artifact-index reads (sase-ne) [closed]"]
     n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [closed]"]
     n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [closed]"]
+    n18["sase-ns.6.6.6: Task backlog top five - clear the two red verification gates and the three reproducible test hazards behind them [in_progress]"]
+    n19["sase-ns.6.6.6.1: Isolate the process-global merged-config cache so its nodes stop failing the flake gate [in_progress]"]
+    n20["sase-ns.6.6.6.2: Rebaseline the eleven stale ACE PNG goldens that fail the serial visual lane [in_progress]"]
+    n21["sase-ns.6.6.6.3: Deflake the three monitor-supervise pipe-EOF nodes and retire their baseline debt [in_progress]"]
+    n22["sase-ns.6.6.6.4: Replace the last known fork-after-threads lock holders in the test suite [in_progress]"]
+    n23["sase-ns.6.6.6.5: Stop a stale global sase build from silently answering workspace memory-drift checks [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -104,6 +110,12 @@ flowchart TD
     n12 --> n15
     n12 --> n16
     n12 --> n17
+    n12 --> n18
+    n18 --> n19
+    n18 --> n20
+    n18 --> n21
+    n18 --> n22
+    n18 --> n23
     n13 -.-> n16
     n13 -.-> n17
 ```
@@ -127,7 +139,13 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.4.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.land/README.md) | [sase-ns.6.6](sase-ns.6.6.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.6.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.1.md) | [sase-ns.6.6.6.1](sase-ns.6.6.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.2/README.md) | [sase-ns.6.6.6.2](sase-ns.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.6.3.md) | [sase-ns.6.6.6.3](sase-ns.6.6.6.3.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.4/README.md) | [sase-ns.6.6.6.4](sase-ns.6.6.6.4.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.5/README.md) | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 1 |
+| [bbugyi200.athena.sase-ns.6.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.6.land/README.md) | [sase-ns.6.6.6](sase-ns.6.6.6.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.land.md) | [sase-ns.6.6](sase-ns.6.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.land.md) | [sase-ns.6](sase-ns.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
 
@@ -153,3 +171,4 @@ flowchart TD
 | sase | [`f9ab15d`](https://github.com/sase-org/sase/commit/f9ab15d9c2a271d0db6f922885803ee257299771) | test(monitor): deflake idle timeout liveness bound | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 2026-08-17 04:41:25 EDT |
 | sase | [`b6246f1`](https://github.com/sase-org/sase/commit/b6246f1cfb8b1d4d9c2d524efab7c4082ba2ee93) | test: deflake headless epic approval against an in-flight launch | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 2026-08-17 04:54:01 EDT |
 | sase | [`cf7eeee`](https://github.com/sase-org/sase/commit/cf7eeee03f6c779e0ac4ba9f202a6cf5b2968dab) | test: retire the deflaked monitor and approval nodes | [sase-ns.6.6](sase-ns.6.6.md) | 2026-08-17 05:25:58 EDT |
+| sase | [`7f3710e`](https://github.com/sase-org/sase/commit/7f3710e3f61a743caa1b6915959b2c80f2b99a22) | fix(memory): warn when a foreign sase build answers a workspace memory-drift check | [sase-ns.6.6.6.5](sase-ns.6.6.6.5.md) | 2026-08-17 06:16:24 EDT |
