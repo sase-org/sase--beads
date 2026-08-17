@@ -86,7 +86,7 @@ flowchart TD
     n14["sase-ns.6.6.2: Reconcile the two generated-memory drift checkers (sase-n0) [closed]"]
     n15["sase-ns.6.6.3: Bound the monitor settle path's artifact-index reads (sase-ne) [closed]"]
     n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [closed]"]
-    n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [in_progress]"]
+    n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.2/README.md) | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.4.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.land/README.md) | [sase-ns.6.6](sase-ns.6.6.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.land.md) | [sase-ns.6](sase-ns.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
@@ -151,3 +151,4 @@ flowchart TD
 | sase | [`2f41353`](https://github.com/sase-org/sase/commit/2f41353b5fc05fb764b887d31dde2e936cabdebf) | perf(monitor): bound settle-path artifact-index reads | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 2026-08-17 04:21:15 EDT |
 | sase | [`99b4e43`](https://github.com/sase-org/sase/commit/99b4e43a15fc558c96896b63e8807b51e9fec878) | test: add regression gate for committed memory-file drift | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 2026-08-17 04:22:31 EDT |
 | sase | [`f9ab15d`](https://github.com/sase-org/sase/commit/f9ab15d9c2a271d0db6f922885803ee257299771) | test(monitor): deflake idle timeout liveness bound | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 2026-08-17 04:41:25 EDT |
+| sase | [`b6246f1`](https://github.com/sase-org/sase/commit/b6246f1cfb8b1d4d9c2d524efab7c4082ba2ee93) | test: deflake headless epic approval against an in-flight launch | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 2026-08-17 04:54:01 EDT |
