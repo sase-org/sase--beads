@@ -13,7 +13,7 @@ polish: reconcile the axe, notifications, beads, and configuration guides agains
 
 ## Dependencies
 
-- **Depends on:** [sase-on.4](sase-on.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-on.4](sase-on.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

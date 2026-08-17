@@ -19,7 +19,7 @@ triage: add the grouped `bead.task_triage` config block with its three fields, s
 
 ## Dependencies
 
-- **Blocks:** [sase-on.4](sase-on.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-on.4](sase-on.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

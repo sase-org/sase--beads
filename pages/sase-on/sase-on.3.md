@@ -20,7 +20,7 @@ actions: close the beads a reviewer selected, grouped per project through the lo
 ## Dependencies
 
 - **Depends on:** [sase-on.2](sase-on.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-on.4](sase-on.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-on.4](sase-on.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
