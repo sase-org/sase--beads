@@ -13,7 +13,7 @@ launch_retire: delete `run_agent_launch_body`, `run_single_agent_launch_body`, t
 
 ## Dependencies
 
-- **Depends on:** [sase-ng.1.1](sase-ng.1.1.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-ng.1.1](sase-ng.1.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-ng.1.2](sase-ng.1.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-ng.1.5](sase-ng.1.5.md) ◐ · ⧖ 2026-08-17
 
