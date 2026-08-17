@@ -68,7 +68,7 @@ flowchart TD
     n4["sase-ns.4: File-panel assertions against the scroll-anchor seam [closed]"]
     n5["sase-ns.5: Models-panel jump PNG snapshot seam [closed]"]
     n6["sase-ns.6: Work the top five SASE task beads [in_progress]"]
-    n7["sase-ns.6.1: Retire a fixed node's historical flake evidence [in_progress]"]
+    n7["sase-ns.6.1: Retire a fixed node's historical flake evidence [closed]"]
     n8["sase-ns.6.2: Deflake the config-center atomic-save node [closed]"]
     n9["sase-ns.6.3: Make bead-work forced-reuse cleanup all-or-nothing [closed]"]
     n10["sase-ns.6.4: Make chezmoi's just check idempotent [closed]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.3.md) | [sase-ns.3](sase-ns.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.4/README.md) | [sase-ns.4](sase-ns.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.5/README.md) | [sase-ns.5](sase-ns.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.2.md) | [sase-ns.6.2](sase-ns.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
@@ -117,3 +117,4 @@ flowchart TD
 | sase | [`4d8d24e`](https://github.com/sase-org/sase/commit/4d8d24eef0a4eb8717dafeefa92b5d69182c468d) | fix(bead): make forced-reuse cleanup all-or-nothing | [sase-ns.6.3](sase-ns.6.3.md) | 2026-08-16 21:27:05 EDT |
 | sase | [`d9b2984`](https://github.com/sase-org/sase/commit/d9b2984a7b54e5c0788513755a2cf165ea673919) | fix(tui): isolate config center state replacement | [sase-ns.6.2](sase-ns.6.2.md) | 2026-08-16 21:44:57 EDT |
 | sase | [`0c86462`](https://github.com/sase-org/sase/commit/0c86462638b1e382b259b0c4aa96e82782c6cc79) | test(ace): drop dead clock pin from Artifacts Files snapshot | [sase-ns.6.5](sase-ns.6.5.md) | 2026-08-16 21:46:14 EDT |
+| sase | [`6000a54`](https://github.com/sase-org/sase/commit/6000a54a1894375ed21f68b3e2c44026b2dcd481) | feat(selection-health): retire a fixed node's historical flake evidence | [sase-ns.6.1](sase-ns.6.1.md) | 2026-08-16 21:47:13 EDT |

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-ns.6](sase-ns.6.md) / sase-ns.6.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-ns.land--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) · **Assignee:** `sase-ns.6.1` · **Size:** large
-**Created:** 2026-08-16 21:02:34 EDT
+**Created:** 2026-08-16 21:02:34 EDT · **Closed:** 2026-08-16 21:46:27 EDT
 **Plan:** [202608/task\_backlog\_top5.md](https://github.com/sase-org/sase--plans/blob/main/202608/task_backlog_top5.md)
 
 ## Description
@@ -19,8 +19,16 @@ flake_gate_retirement: task bead sase-nv. Let the reproducible-flake gate retire
 
 [2026-08-17T01:45:21Z · sase-ns.6.1] PROPOSED FOLLOW-UP: a third reproducible flake unrelated to this phase has since appeared in the shared durable store: tests/fakey/test_usage_limit_e2e.py::test_usage_limit_failure_disables_only_fakey_and_preserves_error. Confirmed via the empty-nodeid-baseline re-run (see close note). Needs its own filed bead before it can be added as baseline debt.
 
+[2026-08-17T01:46:27Z · sase-ns.6.1] Implemented the fixed-at retirement mechanism (task bead sase-nv, closed with direction rationale). Verified live: the nine config/config-cache nodes fixed by 3a22ff04f are retired (24 pre-fix failures discounted) and no longer reported as flakes; the four live nodes (sase-mp, var-integration, bead-cli-golden[stats], query-profile) are still reported, confirmed explicitly with an empty-nodeid/fixed-at-only baseline re-run. 25/25 new+extended tests pass, ruff+mypy clean, just test-scoped (783 tests) passes. just check's SASE-validation step and check-full were not completed this run: validation fails on a clean master checkout too (pre-existing, unrelated memory README drift -- see PROPOSED FOLLOW-UP note), and check-full is out of budget for a single turn. Two other PROPOSED FOLLOW-UP notes record unrelated flakes that accumulated in the shared durable store during this work.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6000a54`](https://github.com/sase-org/sase/commit/6000a54a1894375ed21f68b3e2c44026b2dcd481) | feat(selection-health): retire a fixed node's historical flake evidence | [sase-ns.6.1](sase-ns.6.1.md) | 2026-08-16 21:47:13 EDT |
