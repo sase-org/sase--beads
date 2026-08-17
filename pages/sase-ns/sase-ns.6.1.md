@@ -11,6 +11,12 @@
 
 flake_gate_retirement: task bead sase-nv. Let the reproducible-flake gate retire historical failure evidence for a node that has since been fixed, so `just check-full`'s last gate stops being a permanent red.
 
+## Notes
+
+[2026-08-17T01:40:24Z · sase-ns.6.1] PROPOSED FOLLOW-UP: `sase init memory --check` fails on a clean master checkout (verified via git stash, no relation to this phase's diff) — memory README/AGENTS.md/provider shims are out of sync in the chezmoi-linked repo, blocking just check's SASE validation step (and therefore its scoped test lane) for every agent in this workspace.
+
+[2026-08-17T01:40:46Z · sase-ns.6.1] PROPOSED FOLLOW-UP: the live durable flake store (~/.sase/test-selection/gh_sase-org__sase/, shared across concurrent agents on this host) has accumulated two new reproducible flakes unrelated to this phase and not previously named in the bead/plan: tests/monitor/test_monitor_supervise.py::test_run_supervisor_idle_timeout_fires_after_output_stalls and tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor. Neither is retired or added to the baseline by this phase (out of scope); each needs its own filed bead before it can be added as baseline debt.
+
 ## Agents
 
 | Agent | Bead | Commits |
