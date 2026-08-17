@@ -11,13 +11,29 @@
 
 Typing `sase <TAB>` anywhere in the command tree offers the right commands, options, static choices, and live values — with descriptions, grouped listings, and no perceptible latency — in zsh, bash, and fish, from a grammar that cannot drift from the argparse tree.
 
+## Notes
+
+[2026-08-17T15:01:33Z · sase-o9.land--2] DISCOVERED ISSUE: The checked-in completion snapshot tests/completion/snapshots/cli_spec.json is already stale on master, so tests/completion/test_snapshot.py fails two nodes and holds `just test-cost`/`just check-full` red for every agent on the branch.
+
+REPRODUCTION (workspace sase_13, HEAD c715bacbc, monitor 7r3cvqgwvqtw, 2026-08-17): the full test-cost lane reported `2 failed, 32085 passed, 11 skipped` and the only failures were tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot. Reproduced directly by diffing current_structural_view() against the committed JSON: the entire drift is one missing node, .root.subcommands[bead].subcommands[epic-symbols] (present in the live argparse tree, absent from the snapshot), plus the subcommand-order change that its insertion causes. Nothing else differs.
+
+ROOT CAUSE: `sase bead epic-symbols` was added by commit fa1948437 ("feat(bead): refuse close while leftover --epic-symbol entries remain"), and `git log -S` confirms that is the only commit that introduces the string in src/sase. Phase sase-oc.1's commit 48856bc89 then added cli_spec.json (its only commit in that file's history) generated from a tree that did not yet contain fa1948437 — the two landed one commit apart from parallel workspaces, so the snapshot was correct when generated and stale the moment it landed.
+
+IMPACT: this is a hard, deterministic red gate, not a flake, and it blocks the pytest cost lane for everyone on master until the snapshot is regenerated.
+
+FIX: `just sync-completion-spec` (tools/sync_completion_spec --write), then review the regenerated diff — it should contain only the bead epic-symbols subtree and the reordering.
+
+WHY HERE AND NOT A NEW TASK: routed via /sase_new_task. `sase bead search` over every task status for cli_spec/completion.snapshot/sync-completion-spec/completion spec/epic-symbols and the full --since 1w --status all task sweep found no semantic duplicate (sase-o7 is about leftover Justfile --epic-symbol entries; sase-ny is about stale ACE PNG goldens; neither shares this root cause). This epic has a direct causal link — sase-oc.1 landed the stale snapshot, phases sase-oc.3 through sase-oc.8 remain in progress and own the spec, and the epic's own goal is a grammar that cannot drift from the argparse tree — so it belongs here rather than on a standalone bead. Worth considering as part of the fix: the drift gate cannot catch a snapshot that goes stale via a commit landing in parallel, which is exactly what happened; a regeneration step in the land path (or a CI-side regenerate-and-diff) would close that window.
+
+PROPOSED BY: the land agent for epic sase-o9 (First-class sase monitors on the Admin Center Procs tab), which found it in its landing gate. sase-o9 did not cause it: its five commits (cc805197b, 6bd5d5722, 7202e847b, 790cb61ee, 26fefdab7) touch only src/sase/ace/tui/**, docs/ace.md, tests, and one transient Justfile --epic-symbol line — no argparse parser, no src/sase/completion/**.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-oc.1](sase-oc.1.md) | Completion spec model and argparse walker | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.2](sase-oc.2.md) | Zsh emitter and the sase completion command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oc.3](sase-oc.3.md) | Bash and fish emitters | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oc.3](sase-oc.3.md) | Bash and fish emitters | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.6](sase-oc.6.md) | Dynamic values wired into every shell | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -31,7 +47,7 @@ flowchart TD
     n0["sase-oc: Excellent shell completion for the sase CLI [in_progress]"]
     n1["sase-oc.1: Completion spec model and argparse walker [closed]"]
     n2["sase-oc.2: Zsh emitter and the sase completion command group [closed]"]
-    n3["sase-oc.3: Bash and fish emitters [in_progress]"]
+    n3["sase-oc.3: Bash and fish emitters [closed]"]
     n4["sase-oc.4: Pre-argparse candidates fast path [in_progress]"]
     n5["sase-oc.5: Value-kind provider catalog [in_progress]"]
     n6["sase-oc.6: Dynamic values wired into every shell [in_progress]"]
@@ -62,8 +78,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-oc.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.1/README.md) | [sase-oc.1](sase-oc.1.md) | 1 |
 | [bbugyi200.athena.sase-oc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.2/README.md) | [sase-oc.2](sase-oc.2.md) | 1 |
-| [bbugyi200.athena.sase-oc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.3/README.md) | [sase-oc.3](sase-oc.3.md) | 0 |
-| [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.4/README.md) | [sase-oc.4](sase-oc.4.md) | 0 |
+| [bbugyi200.athena.sase-oc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.3/README.md) | [sase-oc.3](sase-oc.3.md) | 1 |
+| [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-oc.4.md) | [sase-oc.4](sase-oc.4.md) | 0 |
 | [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 0 |
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 0 |
 | [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 0 |
@@ -76,3 +92,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`48856bc`](https://github.com/sase-org/sase/commit/48856bc891f0a3f30dc5e3805c53f6bd2c840c18) | feat(completion): add the CompletionSpec model and argparse tree walker | [sase-oc.1](sase-oc.1.md) | 2026-08-17 10:03:17 EDT |
 | sase | [`1482fc1`](https://github.com/sase-org/sase/commit/1482fc1dc573af7f34dfb872110d822ee3b72eb0) | feat(completion): add native zsh emitter and sase completion CLI | [sase-oc.2](sase-oc.2.md) | 2026-08-17 10:53:53 EDT |
+| sase | [`c3da174`](https://github.com/sase-org/sase/commit/c3da174ea12448497bafe9ace114e4bcd7e6c513) | feat(completion): emit bash and fish scripts from the shared spec | [sase-oc.3](sase-oc.3.md) | 2026-08-17 11:32:38 EDT |
