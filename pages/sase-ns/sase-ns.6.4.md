@@ -16,9 +16,3 @@ chezmoi_check_idempotent: task bead sase-m8. Make the chezmoi repo's `just check
 [2026-08-17T01:07:07Z · sase-ns.6.4] Updated linked chezmoi .prettierignore to exclude .pytest_cache/; verified an intentionally unformatted .pytest_cache/README.md is ignored by just fmt-md-check and two consecutive just check runs pass with pytest cache present.
 
 [2026-08-17T01:08:15Z · sase-ns.6.4] Verified prettier ignores pytest cache README via fmt-md-check and two consecutive just check runs in linked chezmoi repo.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |

@@ -88,7 +88,7 @@ flowchart TD
     n16["sase-ns.6.6.4: Deflake the supervisor idle-timeout no-hang bound (sase-nd) [closed]"]
     n17["sase-ns.6.6.5: Deflake headless epic approval against an inflight launch (sase-nz) [closed]"]
     n18["sase-ns.6.6.6: Task backlog top five - clear the two red verification gates and the three reproducible test hazards behind them [in_progress]"]
-    n19["sase-ns.6.6.6.1: Isolate the process-global merged-config cache so its nodes stop failing the flake gate [in_progress]"]
+    n19["sase-ns.6.6.6.1: Isolate the process-global merged-config cache so its nodes stop failing the flake gate [closed]"]
     n20["sase-ns.6.6.6.2: Rebaseline the eleven stale ACE PNG goldens that fail the serial visual lane [closed]"]
     n21["sase-ns.6.6.6.3: Deflake the three monitor-supervise pipe-EOF nodes and retire their baseline debt [closed]"]
     n22["sase-ns.6.6.6.4: Replace the last known fork-after-threads lock holders in the test suite [closed]"]
@@ -132,7 +132,6 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.1.md) | [sase-ns.6.1](sase-ns.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.2.md) | [sase-ns.6.2](sase-ns.6.2.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.3/README.md) | [sase-ns.6.3](sase-ns.6.3.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.4/README.md) | [sase-ns.6.4](sase-ns.6.4.md) | 0 |
 | [bbugyi200.athena.sase-ns.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.5/README.md) | [sase-ns.6.5](sase-ns.6.5.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.1/README.md) | [sase-ns.6.6.1](sase-ns.6.6.1.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.2/README.md) | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 1 |
