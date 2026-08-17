@@ -23,7 +23,7 @@ spec: build the sase-owned CompletionSpec model, the argparse tree walker that p
 
 ## Dependencies
 
-- **Blocks:** [sase-oc.2](sase-oc.2.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oc.2](sase-oc.2.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

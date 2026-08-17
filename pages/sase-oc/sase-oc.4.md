@@ -13,7 +13,7 @@ candidates: add the `sase completion candidates` fast path ahead of argparse in 
 
 ## Dependencies
 
-- **Depends on:** [sase-oc.2](sase-oc.2.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-oc.2](sase-oc.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-oc.5](sase-oc.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

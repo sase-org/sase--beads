@@ -16,7 +16,7 @@ Typing `sase <TAB>` anywhere in the command tree offers the right commands, opti
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-oc.1](sase-oc.1.md) | Completion spec model and argparse walker | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oc.2](sase-oc.2.md) | Zsh emitter and the sase completion command group | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oc.2](sase-oc.2.md) | Zsh emitter and the sase completion command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.3](sase-oc.3.md) | Bash and fish emitters | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -30,7 +30,7 @@ Typing `sase <TAB>` anywhere in the command tree offers the right commands, opti
 flowchart TD
     n0["sase-oc: Excellent shell completion for the sase CLI [in_progress]"]
     n1["sase-oc.1: Completion spec model and argparse walker [closed]"]
-    n2["sase-oc.2: Zsh emitter and the sase completion command group [in_progress]"]
+    n2["sase-oc.2: Zsh emitter and the sase completion command group [closed]"]
     n3["sase-oc.3: Bash and fish emitters [in_progress]"]
     n4["sase-oc.4: Pre-argparse candidates fast path [in_progress]"]
     n5["sase-oc.5: Value-kind provider catalog [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-oc.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.1/README.md) | [sase-oc.1](sase-oc.1.md) | 1 |
-| [bbugyi200.athena.sase-oc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.2/README.md) | [sase-oc.2](sase-oc.2.md) | 0 |
+| [bbugyi200.athena.sase-oc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.2/README.md) | [sase-oc.2](sase-oc.2.md) | 1 |
 | [bbugyi200.athena.sase-oc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.3/README.md) | [sase-oc.3](sase-oc.3.md) | 0 |
 | [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.4/README.md) | [sase-oc.4](sase-oc.4.md) | 0 |
 | [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`48856bc`](https://github.com/sase-org/sase/commit/48856bc891f0a3f30dc5e3805c53f6bd2c840c18) | feat(completion): add the CompletionSpec model and argparse tree walker | [sase-oc.1](sase-oc.1.md) | 2026-08-17 10:03:17 EDT |
+| sase | [`1482fc1`](https://github.com/sase-org/sase/commit/1482fc1dc573af7f34dfb872110d822ee3b72eb0) | feat(completion): add native zsh emitter and sase completion CLI | [sase-oc.2](sase-oc.2.md) | 2026-08-17 10:53:53 EDT |
