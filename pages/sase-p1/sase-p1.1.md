@@ -21,12 +21,6 @@ mutation: build the project-scoped glossary write engine that resolves a target 
 
 ## Dependencies
 
-- **Blocks:** [sase-p1.2](sase-p1.2.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p1.2](sase-p1.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p1.3](sase-p1.3.md) ◐ · ⧖ 2026-08-17
 - **Blocks:** [sase-p1.6](sase-p1.6.md) ◐ · ⧖ 2026-08-17
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-p1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.1/README.md) | [sase-p1.1](sase-p1.1.md) | 0 |

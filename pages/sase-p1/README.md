@@ -15,8 +15,8 @@ A user drafting a prompt can press `gG` or `<ctrl+g>G` to open a Glossary panel 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-p1.1](sase-p1.1.md) | Shared glossary add/delete engine | ✓ closed | medium | 2026-08-17 | 1 | 0 |
-| [sase-p1.2](sase-p1.2.md) | sase glossary add and del commands | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p1.1](sase-p1.1.md) | Shared glossary add/delete engine | ✓ closed | medium | 2026-08-17 | 0 | 0 |
+| [sase-p1.2](sase-p1.2.md) | sase glossary add and del commands | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.3](sase-p1.3.md) | Multi-project glossary catalog service for the TUI | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p1.4](sase-p1.4.md) | Glossary panel shell, term list, filter, and project ring | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p1.5](sase-p1.5.md) | Related-term travel, relation chips, and the back trail | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -30,7 +30,7 @@ A user drafting a prompt can press `gG` or `<ctrl+g>G` to open a Glossary panel 
 flowchart TD
     n0["sase-p1: Glossary panel with term-and-relation navigation, project cycling, and add/delete [in_progress]"]
     n1["sase-p1.1: Shared glossary add/delete engine [closed]"]
-    n2["sase-p1.2: sase glossary add and del commands [in_progress]"]
+    n2["sase-p1.2: sase glossary add and del commands [closed]"]
     n3["sase-p1.3: Multi-project glossary catalog service for the TUI [in_progress]"]
     n4["sase-p1.4: Glossary panel shell, term list, filter, and project ring [in_progress]"]
     n5["sase-p1.5: Related-term travel, relation chips, and the back trail [in_progress]"]
@@ -60,8 +60,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.1/README.md) | [sase-p1.1](sase-p1.1.md) | 0 |
-| [bbugyi200.athena.sase-p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.2/README.md) | [sase-p1.2](sase-p1.2.md) | 0 |
+| [bbugyi200.athena.sase-p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.2/README.md) | [sase-p1.2](sase-p1.2.md) | 1 |
 | [bbugyi200.athena.sase-p1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.3/README.md) | [sase-p1.3](sase-p1.3.md) | 0 |
 | [bbugyi200.athena.sase-p1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.4/README.md) | [sase-p1.4](sase-p1.4.md) | 0 |
 | [bbugyi200.athena.sase-p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.5/README.md) | [sase-p1.5](sase-p1.5.md) | 0 |
@@ -69,3 +68,9 @@ flowchart TD
 | [bbugyi200.athena.sase-p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.7/README.md) | [sase-p1.7](sase-p1.7.md) | 0 |
 | [bbugyi200.athena.sase-p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.8/README.md) | [sase-p1.8](sase-p1.8.md) | 0 |
 | [bbugyi200.athena.sase-p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.land/README.md) | [sase-p1](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`20ba691`](https://github.com/sase-org/sase/commit/20ba691616734f2f92760c5bb58cd2070afc5d13) | feat(glossary): add CLI add and del commands | [sase-p1.2](sase-p1.2.md) | 2026-08-17 19:24:26 EDT |
