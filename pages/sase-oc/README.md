@@ -34,7 +34,7 @@ PROPOSED BY: the land agent for epic sase-o9 (First-class sase monitors on the A
 | [sase-oc.1](sase-oc.1.md) | Completion spec model and argparse walker | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.2](sase-oc.2.md) | Zsh emitter and the sase completion command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.3](sase-oc.3.md) | Bash and fish emitters | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.6](sase-oc.6.md) | Dynamic values wired into every shell | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.7](sase-oc.7.md) | Install, verification, doctor, and refresh | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n1["sase-oc.1: Completion spec model and argparse walker [closed]"]
     n2["sase-oc.2: Zsh emitter and the sase completion command group [closed]"]
     n3["sase-oc.3: Bash and fish emitters [closed]"]
-    n4["sase-oc.4: Pre-argparse candidates fast path [in_progress]"]
+    n4["sase-oc.4: Pre-argparse candidates fast path [closed]"]
     n5["sase-oc.5: Value-kind provider catalog [in_progress]"]
     n6["sase-oc.6: Dynamic values wired into every shell [in_progress]"]
     n7["sase-oc.7: Install, verification, doctor, and refresh [in_progress]"]
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oc.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.1/README.md) | [sase-oc.1](sase-oc.1.md) | 1 |
 | [bbugyi200.athena.sase-oc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.2/README.md) | [sase-oc.2](sase-oc.2.md) | 1 |
 | [bbugyi200.athena.sase-oc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.3/README.md) | [sase-oc.3](sase-oc.3.md) | 1 |
-| [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-oc.4.md) | [sase-oc.4](sase-oc.4.md) | 0 |
+| [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.4/README.md) | [sase-oc.4](sase-oc.4.md) | 1 |
 | [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 0 |
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 0 |
 | [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase | [`48856bc`](https://github.com/sase-org/sase/commit/48856bc891f0a3f30dc5e3805c53f6bd2c840c18) | feat(completion): add the CompletionSpec model and argparse tree walker | [sase-oc.1](sase-oc.1.md) | 2026-08-17 10:03:17 EDT |
 | sase | [`1482fc1`](https://github.com/sase-org/sase/commit/1482fc1dc573af7f34dfb872110d822ee3b72eb0) | feat(completion): add native zsh emitter and sase completion CLI | [sase-oc.2](sase-oc.2.md) | 2026-08-17 10:53:53 EDT |
 | sase | [`c3da174`](https://github.com/sase-org/sase/commit/c3da174ea12448497bafe9ace114e4bcd7e6c513) | feat(completion): emit bash and fish scripts from the shared spec | [sase-oc.3](sase-oc.3.md) | 2026-08-17 11:32:38 EDT |
+| sase | [`24d892b`](https://github.com/sase-org/sase/commit/24d892b4de80ef1cc77849217352d91dbbcdfc39) | feat(completion): add pre-argparse candidates fast path | [sase-oc.4](sase-oc.4.md) | 2026-08-17 11:59:30 EDT |

@@ -21,7 +21,7 @@ zsh: emit a native `_arguments` compsys script from the spec with descriptions, 
 
 - **Depends on:** [sase-oc.1](sase-oc.1.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-oc.3](sase-oc.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-oc.4](sase-oc.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-oc.4](sase-oc.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
