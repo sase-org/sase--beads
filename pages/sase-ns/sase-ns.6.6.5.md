@@ -55,6 +55,15 @@ tests/test_plan_approval_actions.py as specified.
 
 [2026-08-17T08:53:22Z · sase-ns.6.6.5] no-op recheck
 
+[2026-08-17T09:12:10Z · sase-ns.6.6.5--1] just check-full full-lane result (monitor swk45sjycf4e): FAILED, exit 1, 680.50s.
+1 failed, 31845 passed, 11 skipped.
+
+Target node tests/test_plan_approval_actions.py::test_headless_epic_approval_submits_while_inflight_launch_holds_anchor did NOT fail -- it does not appear in the FAILED summary or anywhere else in the run output. The in-process flock seam holds under the full parallel lane; this is not a regression of approval_anchor.
+
+The single failure was unrelated: tests/test_config_cache.py::test_selector_change_eventually_invalidates_merged_config, at the "test cost" step (Justfile:394, `just test-cost`). Per Justfile:640-641, `check-full` runs `test-cost` then `selection-health --fail-on-new-flake` ("flake baseline") as separate recipe lines; a failing line aborts the recipe before the next one runs (confirmed by the trailing `error: recipe \`test-cost\` failed on line 394` / `error: recipe \`check-full\` failed on line 640`, and no "flake baseline gate:" text anywhere in the log). So the flake baseline gate did not execute this run and produced no node list -- there is none to name.
+
+PROPOSED FOLLOW-UP: tests/test_config_cache.py::test_selector_change_eventually_invalidates_merged_config failed under just check-full's full parallel lane (`assert load_merged_config() is first` false after a monkeypatched time.monotonic advance past _CONFIG_TOKEN_REFRESH_INTERVAL_SECONDS). Not in tests/reproducible_flake_baseline.txt and unrelated to this phase's scope (test_plan_approval_actions.py only) -- worth a fresh full-lane rerun to confirm it's a flake vs. a real regression, since it blocked the flake baseline gate from running at all this pass.
+
 ## Dependencies
 
 - **Depends on:** [sase-ns.6.6.1](sase-ns.6.6.1.md) ✓ · ⧖ 2026-08-17

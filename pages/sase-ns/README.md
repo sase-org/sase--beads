@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ns.6.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.3/README.md) | [sase-ns.6.6.3](sase-ns.6.6.3.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.4.md) | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 1 |
-| [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.land/README.md) | [sase-ns.6.6](sase-ns.6.6.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.land/README.md) | [sase-ns.6.6](sase-ns.6.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.land.md) | [sase-ns.6](sase-ns.6.md) | 1 |
 | [bbugyi200.athena.sase-ns.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.land.md) | [sase-ns](README.md) | 2 |
 
@@ -152,3 +152,4 @@ flowchart TD
 | sase | [`99b4e43`](https://github.com/sase-org/sase/commit/99b4e43a15fc558c96896b63e8807b51e9fec878) | test: add regression gate for committed memory-file drift | [sase-ns.6.6.2](sase-ns.6.6.2.md) | 2026-08-17 04:22:31 EDT |
 | sase | [`f9ab15d`](https://github.com/sase-org/sase/commit/f9ab15d9c2a271d0db6f922885803ee257299771) | test(monitor): deflake idle timeout liveness bound | [sase-ns.6.6.4](sase-ns.6.6.4.md) | 2026-08-17 04:41:25 EDT |
 | sase | [`b6246f1`](https://github.com/sase-org/sase/commit/b6246f1cfb8b1d4d9c2d524efab7c4082ba2ee93) | test: deflake headless epic approval against an in-flight launch | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 2026-08-17 04:54:01 EDT |
+| sase | [`cf7eeee`](https://github.com/sase-org/sase/commit/cf7eeee03f6c779e0ac4ba9f202a6cf5b2968dab) | test: retire the deflaked monitor and approval nodes | [sase-ns.6.6](sase-ns.6.6.md) | 2026-08-17 05:25:58 EDT |
