@@ -27,6 +27,20 @@ WHY HERE AND NOT A NEW TASK: routed via /sase_new_task. `sase bead search` over 
 
 PROPOSED BY: the land agent for epic sase-o9 (First-class sase monitors on the Admin Center Procs tab), which found it in its landing gate. sase-o9 did not cause it: its five commits (cc805197b, 6bd5d5722, 7202e847b, 790cb61ee, 26fefdab7) touch only src/sase/ace/tui/**, docs/ace.md, tests, and one transient Justfile --epic-symbol line — no argparse parser, no src/sase/completion/**.
 
+[2026-08-17T15:59:39Z · sase-ob] DISCOVERED ISSUE: just check fails at lint (feature flags) with: rule 8: live flag bead 'sase-om' has no definition (key 'completion_refresh_on_update').
+
+REPRODUCTION (sase-ob worker, 2026-08-17): just check passed fmt/keep-sorted/ruff/mypy, then died in tools/check_feature_flags before later gates. grep of this tree finds no completion_refresh_on_update definition. Flag bead sase-om is OPEN/live, created 2026-08-17T15:41:43Z by sase-oc.7.
+
+ROOT CAUSE: sase flag new writes the removal bead to the shared store immediately; the registry entry that rule 8 requires is not on this tree (phase sase-oc.7 is still in progress). That turns every other agent's just check red.
+
+IMPACT: unrelated trees cannot finish just check. This worker's own change (usage-limit e2e timestamp == flake) does not touch flags.
+
+FIX: land the registry definition in the same change that created sase-om, or close/defer the flag bead until that definition is committed.
+
+WHY HERE AND NOT A NEW TASK: routed via /sase_new_task from sase-ob. Search over every task status for completion_refresh_on_update / live flag bead / check_feature_flags, plus the --since 1w --status all task sweep, found no semantic duplicate. In-progress epic sase-oc owns the flagged sase update refresh hook (sase-oc.7 created sase-om); causal, not topical.
+
+[2026-08-17T16:07:55Z · 04z] CORROBORATION: agents_tab_unread_node_completion_keys (sase_16, 2026-08-17) hit the same just check failure independently: rule 8: live flag bead 'sase-om' has no definition (key 'completion_refresh_on_update'). Confirmed unrelated to my change via git stash on clean master. No new task filed — already tracked on this epic per the prior DISCOVERED ISSUE notes.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,7 +51,7 @@ PROPOSED BY: the land agent for epic sase-o9 (First-class sase monitors on the A
 | [sase-oc.4](sase-oc.4.md) | Pre-argparse candidates fast path | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.5](sase-oc.5.md) | Value-kind provider catalog | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-oc.6](sase-oc.6.md) | Dynamic values wired into every shell | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
-| [sase-oc.7](sase-oc.7.md) | Install, verification, doctor, and refresh | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-oc.7](sase-oc.7.md) | Install, verification, doctor, and refresh | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-oc.8](sase-oc.8.md) | Documentation, polish, and reach | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +65,7 @@ flowchart TD
     n4["sase-oc.4: Pre-argparse candidates fast path [closed]"]
     n5["sase-oc.5: Value-kind provider catalog [in_progress]"]
     n6["sase-oc.6: Dynamic values wired into every shell [in_progress]"]
-    n7["sase-oc.7: Install, verification, doctor, and refresh [in_progress]"]
+    n7["sase-oc.7: Install, verification, doctor, and refresh [closed]"]
     n8["sase-oc.8: Documentation, polish, and reach [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -82,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.sase-oc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.4/README.md) | [sase-oc.4](sase-oc.4.md) | 1 |
 | [bbugyi200.athena.sase-oc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.5/README.md) | [sase-oc.5](sase-oc.5.md) | 0 |
 | [bbugyi200.athena.sase-oc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.6/README.md) | [sase-oc.6](sase-oc.6.md) | 0 |
-| [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 0 |
+| [bbugyi200.athena.sase-oc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.7/README.md) | [sase-oc.7](sase-oc.7.md) | 1 |
 | [bbugyi200.athena.sase-oc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.8/README.md) | [sase-oc.8](sase-oc.8.md) | 0 |
 | [bbugyi200.athena.sase-oc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-oc.land/README.md) | [sase-oc](README.md) | 0 |
 
@@ -94,3 +108,4 @@ flowchart TD
 | sase | [`1482fc1`](https://github.com/sase-org/sase/commit/1482fc1dc573af7f34dfb872110d822ee3b72eb0) | feat(completion): add native zsh emitter and sase completion CLI | [sase-oc.2](sase-oc.2.md) | 2026-08-17 10:53:53 EDT |
 | sase | [`c3da174`](https://github.com/sase-org/sase/commit/c3da174ea12448497bafe9ace114e4bcd7e6c513) | feat(completion): emit bash and fish scripts from the shared spec | [sase-oc.3](sase-oc.3.md) | 2026-08-17 11:32:38 EDT |
 | sase | [`24d892b`](https://github.com/sase-org/sase/commit/24d892b4de80ef1cc77849217352d91dbbcdfc39) | feat(completion): add pre-argparse candidates fast path | [sase-oc.4](sase-oc.4.md) | 2026-08-17 11:59:30 EDT |
+| sase | [`3e9be9c`](https://github.com/sase-org/sase/commit/3e9be9ce44876f800bc21cc1b86e787c6be58132) | feat(completion): install scripts, doctor checks, and update refresh | [sase-oc.7](sase-oc.7.md) | 2026-08-17 12:26:21 EDT |
