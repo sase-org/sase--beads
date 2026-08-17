@@ -19,4 +19,4 @@ approval_anchor: root-cause and fix tests/test_plan_approval_actions.py::test_he
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ns.6.6.5/README.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 0 |
+| [bbugyi200.athena.sase-ns.6.6.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ns.6.6.5.md) | [sase-ns.6.6.5](sase-ns.6.6.5.md) | 0 |

@@ -19,7 +19,7 @@ flake_retire: declare `# fixed-at:` retirement in tests/reproducible_flake_basel
 
 ## Dependencies
 
-- **Blocks:** [sase-ns.6.6.4](sase-ns.6.6.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-ns.6.6.4](sase-ns.6.6.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-ns.6.6.5](sase-ns.6.6.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
