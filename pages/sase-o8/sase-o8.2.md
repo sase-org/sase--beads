@@ -23,7 +23,7 @@ store: grow the durable common-placeholder store to version 2 with per-entry con
 
 ## Dependencies
 
-- **Blocks:** [sase-o8.3](sase-o8.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-o8.3](sase-o8.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

@@ -13,7 +13,7 @@ wiring: hold the placeholder index in the app-global warm cache, feed ranked sav
 
 ## Dependencies
 
-- **Depends on:** [sase-o8.3](sase-o8.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-o8.3](sase-o8.3.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-o8.5](sase-o8.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
