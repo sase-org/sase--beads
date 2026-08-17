@@ -19,4 +19,4 @@ use-prefix: require `<plugin>@<id>` on artifact-ref and file-hook `use:` values,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.3/README.md) | [sase-p3.3](sase-p3.3.md) | 0 |
+| [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.3.md) | [sase-p3.3](sase-p3.3.md) | 0 |

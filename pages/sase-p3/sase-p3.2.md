@@ -13,11 +13,17 @@ core-type-spec: add the task-type spec wire, its validators, its stable digest, 
 
 ## Dependencies
 
-- **Depends on:** [sase-p3.1](sase-p3.1.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p3.1](sase-p3.1.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.5](sase-p3.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 0 |
+| [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@82b10b5`](https://github.com/sase-org/sase-core/commit/82b10b5e43da7a1828e97554ae4a1416f3946e74) | feat(task\_type): add spec validation, digest, and body rendering | [sase-p3.2](sase-p3.2.md) | 2026-08-17 19:47:28 EDT |

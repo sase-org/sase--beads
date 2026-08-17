@@ -15,13 +15,13 @@ Every new task bead carries a required, plugin-extensible `task_type` whose decl
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-p3.1](sase-p3.1.md) | Task type on the bead wire and store | ◐ in_progress | medium | 2026-08-17 | 1 | 1 |
+| [sase-p3.1](sase-p3.1.md) | Task type on the bead wire and store | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.10](sase-p3.10.md) | Committed catalog snapshot and the generated task-type memory note | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.11](sase-p3.11.md) | Missing-plugin gate offering to install | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 | [sase-p3.13](sase-p3.13.md) | Make \`task\_type\` required end to end | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 | [sase-p3.14](sase-p3.14.md) | Documentation, glossary, and end-to-end verification | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
-| [sase-p3.2](sase-p3.2.md) | Task-type spec validation, digest, and body rendering in Rust | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.2](sase-p3.2.md) | Task-type spec validation, digest, and body rendering in Rust | ◐ in_progress | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.3](sase-p3.3.md) | Required plugin prefix for every \`use:\` field | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.4](sase-p3.4.md) | Required-plugin project config and graded enforcement | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -35,7 +35,7 @@ Every new task bead carries a required, plugin-extensible `task_type` whose decl
 ```mermaid
 flowchart TD
     n0["sase-p3: Plugin-extensible task bead types [in_progress]"]
-    n1["sase-p3.1: Task type on the bead wire and store [in_progress]"]
+    n1["sase-p3.1: Task type on the bead wire and store [closed]"]
     n2["sase-p3.10: Committed catalog snapshot and the generated task-type memory note [in_progress]"]
     n3["sase-p3.11: Missing-plugin gate offering to install [in_progress]"]
     n4["sase-p3.12: The `github` task type and mirror wiring [in_progress]"]
@@ -95,8 +95,8 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 0 |
 | [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 0 |
 | [bbugyi200.athena.sase-p3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.14/README.md) | [sase-p3.14](sase-p3.14.md) | 0 |
-| [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 0 |
-| [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.3/README.md) | [sase-p3.3](sase-p3.3.md) | 0 |
+| [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
+| [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.3.md) | [sase-p3.3](sase-p3.3.md) | 0 |
 | [bbugyi200.athena.sase-p3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.4/README.md) | [sase-p3.4](sase-p3.4.md) | 0 |
 | [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 0 |
 | [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 0 |
@@ -110,3 +110,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@85cc322`](https://github.com/sase-org/sase-core/commit/85cc32278a409307a93af299e3fa24a5e42a3827) | feat(bead): add optional task\_type to the issue wire and store | [sase-p3.1](sase-p3.1.md) | 2026-08-17 19:10:05 EDT |
+| sase-core | [`sase-core@82b10b5`](https://github.com/sase-org/sase-core/commit/82b10b5e43da7a1828e97554ae4a1416f3946e74) | feat(task\_type): add spec validation, digest, and body rendering | [sase-p3.2](sase-p3.2.md) | 2026-08-17 19:47:28 EDT |
