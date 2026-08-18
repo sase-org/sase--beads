@@ -15,4 +15,10 @@ The sase-github plugin acquires workspaces the same way the rest of SASE does: e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-q0.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.land/README.md) | [sase-q0.5](sase-q0.5.md) | 0 |
+| [bbugyi200.athena.sase-q0.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.land/README.md) | [sase-q0.5](sase-q0.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-github | [`sase-github@99a6277`](https://github.com/sase-org/sase-github/commit/99a6277ecceb47d702c42351623ed27fbed11822) | fix(workspace): release the gh setup claim when the occupancy guard refuses | [sase-q0.5](sase-q0.5.md) | 2026-08-18 18:37:25 EDT |

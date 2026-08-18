@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-q0.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-q0.4.md) | [sase-q0.4](sase-q0.4.md) | 1 |
 | [bbugyi200.athena.sase-q0.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.1/README.md) | [sase-q0.5.1](sase-q0.5.1.md) | 1 |
 | [bbugyi200.athena.sase-q0.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.2/README.md) | [sase-q0.5.2](sase-q0.5.2.md) | 1 |
-| [bbugyi200.athena.sase-q0.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.land/README.md) | [sase-q0.5](sase-q0.5.md) | 0 |
+| [bbugyi200.athena.sase-q0.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.5.land/README.md) | [sase-q0.5](sase-q0.5.md) | 1 |
 | [bbugyi200.athena.sase-q0.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-q0.land.md) | [sase-q0](README.md) | 0 |
 
 ## Commits
@@ -105,3 +105,4 @@ flowchart TD
 | sase | [`716e9de`](https://github.com/sase-org/sase/commit/716e9de98f2f6346ef0ae23ba92be08f17397730) | feat(doctor): detect workspace occupancy conflicts | [sase-q0.4](sase-q0.4.md) | 2026-08-18 17:14:53 EDT |
 | sase-github | [`sase-github@61dd36f`](https://github.com/sase-org/sase-github/commit/61dd36fa1aef7ec71475608e19de3ddf91b67b74) | feat: claim GitHub workspaces atomically | [sase-q0.5.1](sase-q0.5.1.md) | 2026-08-18 18:03:55 EDT |
 | sase-github | [`sase-github@51347d4`](https://github.com/sase-org/sase-github/commit/51347d4f0a256c80785e7e2633fa589259073481) | feat(workspace): guard gh workflow steps against occupied checkouts | [sase-q0.5.2](sase-q0.5.2.md) | 2026-08-18 18:23:27 EDT |
+| sase-github | [`sase-github@99a6277`](https://github.com/sase-org/sase-github/commit/99a6277ecceb47d702c42351623ed27fbed11822) | fix(workspace): release the gh setup claim when the occupancy guard refuses | [sase-q0.5](sase-q0.5.md) | 2026-08-18 18:37:25 EDT |
