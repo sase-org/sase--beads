@@ -22,7 +22,7 @@ preview: add the repo preview card `K` opens for the mention under the cursor, w
 ## Dependencies
 
 - **Depends on:** [sase-p2.2](sase-p2.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p2.4](sase-p2.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p2.4](sase-p2.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
