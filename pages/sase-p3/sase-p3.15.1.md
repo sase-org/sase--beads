@@ -17,7 +17,7 @@ install-repair: rewrite `_setup-required-plugins` to honor each `plugins.require
 
 ## Dependencies
 
-- **Blocks:** [sase-p3.15.3](sase-p3.15.3.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-p3.15.3](sase-p3.15.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

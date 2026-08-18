@@ -95,7 +95,7 @@ flowchart TD
     n7["sase-p3.15: Repair the required-plugin install path [in_progress]"]
     n8["sase-p3.15.1: Make `_setup-required-plugins` install what the project declares, verified [closed]"]
     n9["sase-p3.15.2: Stop required-plugin config from leaking into test runs [closed]"]
-    n10["sase-p3.15.3: Publish sase-research-artifacts and retire the git fallback [in_progress]"]
+    n10["sase-p3.15.3: Publish sase-research-artifacts and retire the git fallback [closed]"]
     n11["sase-p3.2: Task-type spec validation, digest, and body rendering in Rust [closed]"]
     n12["sase-p3.3: Required plugin prefix for every `use:` field [closed]"]
     n13["sase-p3.4: Required-plugin project config and graded enforcement [closed]"]
@@ -157,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.14.md) | [sase-p3.14](sase-p3.14.md) | 1 |
 | [bbugyi200.athena.sase-p3.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.1/README.md) | [sase-p3.15.1](sase-p3.15.1.md) | 1 |
 | [bbugyi200.athena.sase-p3.15.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.15.2.md) | [sase-p3.15.2](sase-p3.15.2.md) | 1 |
-| [bbugyi200.athena.sase-p3.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.3/README.md) | [sase-p3.15.3](sase-p3.15.3.md) | 0 |
+| [bbugyi200.athena.sase-p3.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.3/README.md) | [sase-p3.15.3](sase-p3.15.3.md) | 1 |
 | [bbugyi200.athena.sase-p3.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.land/README.md) | [sase-p3.15](sase-p3.15.md) | 0 |
 | [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
 | [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.3.md) | [sase-p3.3](sase-p3.3.md) | 1 |
@@ -190,3 +190,4 @@ flowchart TD
 | sase | [`1ad14c1`](https://github.com/sase-org/sase/commit/1ad14c1d1594219d1cbf233aa4203526d0ef0a46) | feat(task-types): document catalog and pin generated notes to committed types | [sase-p3.14](sase-p3.14.md) | 2026-08-18 04:12:20 EDT |
 | sase | [`eed1d9a`](https://github.com/sase-org/sase/commit/eed1d9a67d269295a69ef893cd895f4739b93d9e) | fix(plugins): install what plugins.required actually declares | [sase-p3.15.1](sase-p3.15.1.md) | 2026-08-18 05:43:49 EDT |
 | sase | [`3485cb3`](https://github.com/sase-org/sase/commit/3485cb37d9705c4a687b410e1a91df795456d82c) | test: isolate plugin sase\_config from the default fixture | [sase-p3.15.2](sase-p3.15.2.md) | 2026-08-18 06:02:29 EDT |
+| sase | [`155ba10`](https://github.com/sase-org/sase/commit/155ba102bb8638f291377d6c8f39c89a64155baf) | feat(plugins): pin sase-research-artifacts\>=0.2.0 and drop git fallback | [sase-p3.15.3](sase-p3.15.3.md) | 2026-08-18 19:10:38 EDT |
