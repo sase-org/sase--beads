@@ -25,6 +25,8 @@ release_pr: push one trigger commit to master so the release job runs under the 
 
 [2026-08-18T15:51:40Z · sase-pt.2] SECRET UPDATED: SASE_RELEASE_TOKEN updated_at is now 2026-08-18T15:36:13Z (was 2026-08-18T14:25:10Z through the three failed post-secret Publish runs). No org/pypi-env secret. No PR yet. Pushing a fourth trigger now that GitHub recorded a real secret write.
 
+[2026-08-18T15:54:18Z · sase-pt.2] TOKEN GOOD: trigger 46dc0d3 (docs: note that the sase 0.17 floor is not on PyPI yet) after SASE_RELEASE_TOKEN updated_at=2026-08-18T15:36:13Z. Publish run 32157090448 succeeded; release job 12s, build/install-smoke/publish skipped as expected (no release_created). release-please opened PR #1 chore(master): release 0.2.0 (https://github.com/sase-org/sase-research-artifacts/pull/1), matching option A. PR Title check green. CI run 32157115551 still in progress (check 3.12/3.13). Not merging. Watching PR CI before close. epic-symbols: none for sase-pt.2.
+
 ## Dependencies
 
 - **Depends on:** [sase-pt.1](sase-pt.1.md) ✓ · ⧖ 2026-08-18
@@ -34,7 +36,7 @@ release_pr: push one trigger commit to master so the release job runs under the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-pt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pt.2/README.md) | [sase-pt.2](sase-pt.2.md) | 4 |
+| [bbugyi200.athena.sase-pt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pt.2.md) | [sase-pt.2](sase-pt.2.md) | 5 |
 
 ## Commits
 
@@ -44,3 +46,4 @@ release_pr: push one trigger commit to master so the release job runs under the 
 | sase-research-artifacts | [`sase-research-artifacts@23367af`](https://github.com/sase-org/sase-research-artifacts/commit/23367aff1ac6ae588dc290d59886738771e4ad35) | docs: state the Python and sase version requirements in the README | [sase-pt.2](sase-pt.2.md) | 2026-08-18 11:03:10 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@7be097a`](https://github.com/sase-org/sase-research-artifacts/commit/7be097a70a2fda19868116404c7febec185175a2) | docs: mention just test-wheel in the agent build commands | [sase-pt.2](sase-pt.2.md) | 2026-08-18 11:07:20 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@46dc0d3`](https://github.com/sase-org/sase-research-artifacts/commit/46dc0d34cd119cba58e6a6bd07bae632196d609f) | docs: note that the sase 0.17 floor is not on PyPI yet | [sase-pt.2](sase-pt.2.md) | 2026-08-18 11:52:30 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@0bebbcf`](https://github.com/sase-org/sase-research-artifacts/commit/0bebbcfdcc961581f275c9fef5fc13dd36dbd43f) | test: require plugin-prefixed use keys against sase master | [sase-pt.2](sase-pt.2.md) | 2026-08-18 12:09:42 EDT |
