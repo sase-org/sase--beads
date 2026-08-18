@@ -13,7 +13,7 @@ chop: add the checks-lane chop that detects stalled epics, raises and reconciles
 
 ## Dependencies
 
-- **Depends on:** [sase-p4.1](sase-p4.1.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p4.1](sase-p4.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p4.3](sase-p4.3.md) ◐ · ⧖ 2026-08-17
 - **Blocks:** [sase-p4.5](sase-p4.5.md) ◐ · ⧖ 2026-08-17
 

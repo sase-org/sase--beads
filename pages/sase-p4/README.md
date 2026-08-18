@@ -15,7 +15,7 @@ When an epic's phase agent fails and the epic stops making progress, SASE raises
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-p4.1](sase-p4.1.md) | Epic stall detection policy | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p4.1](sase-p4.1.md) | Epic stall detection policy | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p4.2](sase-p4.2.md) | Detached epic resume launch | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-p4.3](sase-p4.3.md) | The EpicResume gate kind | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p4.4](sase-p4.4.md) | The epic\_resume chop and its feature flag | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -26,7 +26,7 @@ When an epic's phase agent fails and the epic stops making progress, SASE raises
 ```mermaid
 flowchart TD
     n0["sase-p4: Raise an EpicResume gate when a failed phase agent stalls an epic [in_progress]"]
-    n1["sase-p4.1: Epic stall detection policy [in_progress]"]
+    n1["sase-p4.1: Epic stall detection policy [closed]"]
     n2["sase-p4.2: Detached epic resume launch [closed]"]
     n3["sase-p4.3: The EpicResume gate kind [in_progress]"]
     n4["sase-p4.4: The epic_resume chop and its feature flag [in_progress]"]
@@ -46,9 +46,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p4.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p4.1.md) | [sase-p4.1](sase-p4.1.md) | 0 |
+| [bbugyi200.athena.sase-p4.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p4.1.md) | [sase-p4.1](sase-p4.1.md) | 1 |
 | [bbugyi200.athena.sase-p4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.2/README.md) | [sase-p4.2](sase-p4.2.md) | 1 |
-| [bbugyi200.athena.sase-p4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.3/README.md) | [sase-p4.3](sase-p4.3.md) | 0 |
+| [bbugyi200.athena.sase-p4.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p4.3.md) | [sase-p4.3](sase-p4.3.md) | 0 |
 | [bbugyi200.athena.sase-p4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.4/README.md) | [sase-p4.4](sase-p4.4.md) | 0 |
 | [bbugyi200.athena.sase-p4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.5/README.md) | [sase-p4.5](sase-p4.5.md) | 0 |
 | [bbugyi200.athena.sase-p4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.land/README.md) | [sase-p4](README.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ebdddf1`](https://github.com/sase-org/sase/commit/ebdddf18fa4af17a6ff4a1520e2996e48ef5fd86) | feat(bead): add the detached epic-resume launch helper | [sase-p4.2](sase-p4.2.md) | 2026-08-17 20:24:22 EDT |
+| sase | [`567605a`](https://github.com/sase-org/sase/commit/567605a8fba6c157337d689c6f862be025f642ab) | feat(bead): add shared epic stall detection policy | [sase-p4.1](sase-p4.1.md) | 2026-08-17 21:03:00 EDT |
