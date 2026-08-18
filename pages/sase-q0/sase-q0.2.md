@@ -27,7 +27,7 @@ atomic: replace the deferred-workspace check-then-claim with the atomic allocate
 
 ## Dependencies
 
-- **Blocks:** [sase-q0.3](sase-q0.3.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q0.3](sase-q0.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

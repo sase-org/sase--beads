@@ -14,7 +14,7 @@ detect: add a doctor check and a concurrency regression test that prove simultan
 ## Dependencies
 
 - **Depends on:** [sase-q0.1](sase-q0.1.md) ✓ · ⧖ 2026-08-18
-- **Depends on:** [sase-q0.3](sase-q0.3.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-q0.3](sase-q0.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
