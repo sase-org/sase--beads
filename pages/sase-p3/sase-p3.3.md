@@ -23,7 +23,7 @@ use-prefix: require `<plugin>@<id>` on artifact-ref and file-hook `use:` values,
 
 ## Dependencies
 
-- **Blocks:** [sase-p3.4](sase-p3.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.4](sase-p3.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

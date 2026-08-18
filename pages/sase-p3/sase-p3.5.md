@@ -15,7 +15,7 @@ registry: add the `sase_task_types` hookspec and entry-point group, the project-
 
 - **Blocks:** [sase-p3.12](sase-p3.12.md) ◐ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.2](sase-p3.2.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-p3.4](sase-p3.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p3.4](sase-p3.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.6](sase-p3.6.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
