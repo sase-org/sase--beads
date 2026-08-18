@@ -13,7 +13,7 @@ travel: render numbered SEE ALSO and REFERENCED BY chip rows on the definition c
 
 ## Dependencies
 
-- **Depends on:** [sase-p1.4](sase-p1.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p1.4](sase-p1.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p1.7](sase-p1.7.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

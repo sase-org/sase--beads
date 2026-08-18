@@ -18,7 +18,7 @@ catalog: add the ACE-side service that builds the ordered project ring for `p`/`
 ## Dependencies
 
 - **Depends on:** [sase-p1.1](sase-p1.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p1.4](sase-p1.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p1.4](sase-p1.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
