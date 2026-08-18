@@ -38,7 +38,7 @@ FOUND BY the sase-ps land agent (2026-08-18) during that epic's landing verifica
 | [sase-pv.3](sase-pv.3.md) | Two kinds, a derived default, and a rebuilt \`sase flag new\` | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.4](sase-pv.4.md) | Due-ness, identity, and integrity read task-type fields | ✓ closed | medium | 2026-08-18 | 1 | 2 |
 | [sase-pv.5](sase-pv.5.md) | FlagTriage is a task-bead gate | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-pv.6](sase-pv.6.md) | Every bead surface renders a flag as a typed task | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-pv.6](sase-pv.6.md) | Every bead surface renders a flag as a typed task | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.7](sase-pv.7.md) | Migrate the five live flag beads | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pv.8](sase-pv.8.md) | Delete the \`flag\` issue type end to end | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pv.9](sase-pv.9.md) | Memory notes, generated instructions, and documentation | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
@@ -53,7 +53,7 @@ flowchart TD
     n3["sase-pv.3: Two kinds, a derived default, and a rebuilt `sase flag new` [closed]"]
     n4["sase-pv.4: Due-ness, identity, and integrity read task-type fields [closed]"]
     n5["sase-pv.5: FlagTriage is a task-bead gate [closed]"]
-    n6["sase-pv.6: Every bead surface renders a flag as a typed task [in_progress]"]
+    n6["sase-pv.6: Every bead surface renders a flag as a typed task [closed]"]
     n7["sase-pv.7: Migrate the five live flag beads [in_progress]"]
     n8["sase-pv.8: Delete the `flag` issue type end to end [in_progress]"]
     n9["sase-pv.9: Memory notes, generated instructions, and documentation [in_progress]"]
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.3/README.md) | [sase-pv.3](sase-pv.3.md) | 1 |
 | [bbugyi200.athena.sase-pv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.4/README.md) | [sase-pv.4](sase-pv.4.md) | 2 |
 | [bbugyi200.athena.sase-pv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.5/README.md) | [sase-pv.5](sase-pv.5.md) | 1 |
-| [bbugyi200.athena.sase-pv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.6/README.md) | [sase-pv.6](sase-pv.6.md) | 0 |
+| [bbugyi200.athena.sase-pv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.6/README.md) | [sase-pv.6](sase-pv.6.md) | 1 |
 | [bbugyi200.athena.sase-pv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.7/README.md) | [sase-pv.7](sase-pv.7.md) | 0 |
 | [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.8/README.md) | [sase-pv.8](sase-pv.8.md) | 0 |
 | [bbugyi200.athena.sase-pv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.9/README.md) | [sase-pv.9](sase-pv.9.md) | 0 |
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`c5a0dcf`](https://github.com/sase-org/sase/commit/c5a0dcf4a4f3b56f548af1e02377c1c0daa9188f) | feat(flags): read flag identity and due-ness from task fields | [sase-pv.4](sase-pv.4.md) | 2026-08-18 14:13:11 EDT |
 | sase-core | [`sase-core@c121e0e`](https://github.com/sase-org/sase-core/commit/c121e0ed6bfbd1e11fa4ca27ab166f7dcf63db8d) | feat(bead): persist task\_type\_fields on bead update | [sase-pv.4](sase-pv.4.md) | 2026-08-18 14:16:26 EDT |
 | sase | [`65a34b9`](https://github.com/sase-org/sase/commit/65a34b9096c0ab8a301725697495d4bb340bcf64) | feat(flags): treat FlagTriage as a task-bead gate | [sase-pv.5](sase-pv.5.md) | 2026-08-18 15:32:29 EDT |
+| sase | [`2b2c5ed`](https://github.com/sase-org/sase/commit/2b2c5edefe1b4e94b83c6e3016bb5245d92c75cf) | feat(beads)!: render flags as typed tasks on every bead surface | [sase-pv.6](sase-pv.6.md) | 2026-08-18 15:55:19 EDT |
