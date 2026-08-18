@@ -13,7 +13,7 @@ skill: author the bundled skill source, wire it into the skill enumeration tests
 
 ## Dependencies
 
-- **Depends on:** [sase-p8.4](sase-p8.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p8.4](sase-p8.4.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p8.6](sase-p8.6.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

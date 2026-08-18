@@ -23,7 +23,7 @@ handoff: give the four marker-writing CLI hand-offs one guard/write/kill helper 
 
 ## Dependencies
 
-- **Blocks:** [sase-p8.4](sase-p8.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p8.4](sase-p8.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

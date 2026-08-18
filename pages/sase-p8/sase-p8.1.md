@@ -21,7 +21,7 @@ successor: extract the runner's repeated become-the-next-family-member dance int
 
 ## Dependencies
 
-- **Blocks:** [sase-p8.4](sase-p8.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p8.4](sase-p8.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
