@@ -11,11 +11,17 @@
 
 SASE has one "current project" derived from the VCS xprompt MRU head, shown as a uniquely colored `+<project>` chip in the ACE top bar, and used as the default project filter on every TUI surface that can filter by project.
 
+## Notes
+
+[2026-08-18T17:33:03Z · 06d] DISCOVERED ISSUE: just check lint (symvision) fails on unused public project_accent and project_accent_map in src/sase/ace/tui/project_styles.py. Closed sase-pw.2 landed both symbols for later phases; they still have no non-test caller and no --epic-symbol whitelist. sase-pw.4 (top-bar +project chip) is the intended first consumer. Re-key with --epic-symbol sase-pw.4(project_accent) and --epic-symbol sase-pw.4(project_accent_map), or consume them in sase-pw.4. Unrelated to the in-flight @path bead-CLI tale.
+
+[2026-08-18T17:49:59Z · sase-ps.land] DISCOVERED ISSUE (corroborating the 2026-08-18T17:33:03Z entry from 06d): the sase-ps land agent independently reproduced this on a clean tree at 88d2a1582 with 'just install' already run. 'just symvision' exits 1 with: Unused public functions/classes — project_accent in src/sase/ace/tui/project_styles.py, project_accent_map in src/sase/ace/tui/project_styles.py. Both symbols landed in 129bb631d (closed phase sase-pw.2) and still have no non-test caller; the only callers are tests/ace/tui/test_project_styles.py. The Justfile symvision line carries no --epic-symbol entry for either symbol (its only entries are sase-n4/sase-n4.5). Impact: 'just check'/'just check-full' is red at the symvision gate for every agent on this host until sase-pw.4 consumes them or the Justfile is re-keyed with --epic-symbol "sase-pw.4(project_accent)" and --epic-symbol "sase-pw.4(project_accent_map)". Raised as a PROPOSED FOLLOW-UP by epic phase sase-ps.4; not caused by sase-ps.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-pw.1](sase-pw.1.md) | Current-project resolver over the VCS xprompt MRU | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-pw.1](sase-pw.1.md) | Current-project resolver over the VCS xprompt MRU | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.2](sase-pw.2.md) | Per-project accent colors | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-pw.3](sase-pw.3.md) | ace.current\_project configuration | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-pw.4](sase-pw.4.md) | Top-bar +project indicator | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
@@ -30,7 +36,7 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 ```mermaid
 flowchart TD
     n0["sase-pw: Current project, derived from the VCS xprompt MRU store [in_progress]"]
-    n1["sase-pw.1: Current-project resolver over the VCS xprompt MRU [in_progress]"]
+    n1["sase-pw.1: Current-project resolver over the VCS xprompt MRU [closed]"]
     n2["sase-pw.2: Per-project accent colors [closed]"]
     n3["sase-pw.3: ace.current_project configuration [closed]"]
     n4["sase-pw.4: Top-bar +project indicator [in_progress]"]
@@ -70,7 +76,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-pw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.1/README.md) | [sase-pw.1](sase-pw.1.md) | 0 |
+| [bbugyi200.athena.sase-pw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.1/README.md) | [sase-pw.1](sase-pw.1.md) | 1 |
 | [bbugyi200.athena.sase-pw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.2/README.md) | [sase-pw.2](sase-pw.2.md) | 1 |
 | [bbugyi200.athena.sase-pw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.3/README.md) | [sase-pw.3](sase-pw.3.md) | 1 |
 | [bbugyi200.athena.sase-pw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.4/README.md) | [sase-pw.4](sase-pw.4.md) | 0 |
@@ -87,3 +93,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`129bb63`](https://github.com/sase-org/sase/commit/129bb631d3725417e77b7d97ef8e184f52dbf339) | feat(tui): add per-project accent color palette | [sase-pw.2](sase-pw.2.md) | 2026-08-18 11:52:46 EDT |
 | sase | [`54083ca`](https://github.com/sase-org/sase/commit/54083ca47c3b1fa07ff4b435a443945da1a3a2c4) | feat(ace): add typed ace.current\_project config | [sase-pw.3](sase-pw.3.md) | 2026-08-18 12:19:58 EDT |
+| sase | [`4cf7672`](https://github.com/sase-org/sase/commit/4cf7672bdf783666a3ecacaa7d72e29d6bf40a52) | feat(project): derive current project from the VCS xprompt MRU | [sase-pw.1](sase-pw.1.md) | 2026-08-18 13:55:49 EDT |
