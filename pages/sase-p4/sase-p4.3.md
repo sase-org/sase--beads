@@ -36,7 +36,7 @@ gate: register the EpicResume gate kind end to end — request spec, preview, si
 ## Dependencies
 
 - **Depends on:** [sase-p4.2](sase-p4.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p4.4](sase-p4.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p4.4](sase-p4.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

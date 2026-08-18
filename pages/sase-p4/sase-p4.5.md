@@ -13,7 +13,7 @@ docs: document the gate, the chop, the feature flag, and the config knobs across
 
 ## Dependencies
 
-- **Depends on:** [sase-p4.4](sase-p4.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p4.4](sase-p4.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

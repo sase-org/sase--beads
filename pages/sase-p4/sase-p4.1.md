@@ -27,7 +27,7 @@ policy: add the pure stalled-epic predicate, its typed clan-member input records
 
 ## Dependencies
 
-- **Blocks:** [sase-p4.4](sase-p4.4.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p4.4](sase-p4.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
