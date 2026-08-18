@@ -14,7 +14,7 @@ gates: freeze the task-type display block into the TaskTriage and BeadSnooze pay
 ## Dependencies
 
 - **Depends on:** [sase-pq.1](sase-pq.1.md) ✓ · ⧖ 2026-08-18
-- **Depends on:** [sase-pq.2](sase-pq.2.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pq.2](sase-pq.2.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.6](sase-pq.6.md) ◐ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.7](sase-pq.7.md) ◐ · ⧖ 2026-08-18
 

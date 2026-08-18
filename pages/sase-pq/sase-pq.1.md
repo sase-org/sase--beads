@@ -19,7 +19,7 @@ chip: add the generic `presentation.chip` field (glyph, label, optional color), 
 
 ## Dependencies
 
-- **Blocks:** [sase-pq.2](sase-pq.2.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pq.2](sase-pq.2.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.3](sase-pq.3.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.4](sase-pq.4.md) ◐ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.5](sase-pq.5.md) ◐ · ⧖ 2026-08-18
