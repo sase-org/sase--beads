@@ -13,7 +13,7 @@ surfaces: move the ACE beads pane, bead pages, CLI listings and detail, the mobi
 
 ## Dependencies
 
-- **Depends on:** [sase-pv.4](sase-pv.4.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pv.4](sase-pv.4.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pv.7](sase-pv.7.md) ◐ · ⧖ 2026-08-18
 
 ## Agents

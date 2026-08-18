@@ -25,7 +25,7 @@ type: add the seven-field `flag` task-type spec to `bead.task_types` in this rep
 
 - **Depends on:** [sase-pv.1](sase-pv.1.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pv.3](sase-pv.3.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pv.4](sase-pv.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pv.4](sase-pv.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
