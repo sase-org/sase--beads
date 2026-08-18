@@ -21,7 +21,7 @@ install-offer: raise one gate per project whose required plugins are missing, of
 
 ## Dependencies
 
-- **Blocks:** [sase-p3.14](sase-p3.14.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.14](sase-p3.14.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.4](sase-p3.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents

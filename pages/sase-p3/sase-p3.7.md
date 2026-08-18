@@ -23,7 +23,7 @@ create: extend the `-T` grammar to `task(<slug>)`, add repeatable `-f/--field` v
 
 - **Depends on:** [sase-p3.1](sase-p3.1.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.12](sase-p3.12.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p3.13](sase-p3.13.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.13](sase-p3.13.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.6](sase-p3.6.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.8](sase-p3.8.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.9](sase-p3.9.md) ✓ · ⧖ 2026-08-17

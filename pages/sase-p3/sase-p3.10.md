@@ -23,7 +23,7 @@ snapshot-memory: write `sase/task_types.json` from `sase memory init`, render a 
 
 ## Dependencies
 
-- **Blocks:** [sase-p3.13](sase-p3.13.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.13](sase-p3.13.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.6](sase-p3.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
