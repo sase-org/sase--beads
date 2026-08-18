@@ -13,7 +13,7 @@ guard: teach the discarded-work guard to consult the run-owned commit ledger bef
 
 ## Dependencies
 
-- **Depends on:** [sase-p5.2](sase-p5.2.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p5.2](sase-p5.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p5.4](sase-p5.4.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

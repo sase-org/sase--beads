@@ -23,7 +23,7 @@ restamp: verify and re-stamp the run's SASE_* provenance footer onto HEAD during
 
 ## Dependencies
 
-- **Blocks:** [sase-p5.2](sase-p5.2.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p5.2](sase-p5.2.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

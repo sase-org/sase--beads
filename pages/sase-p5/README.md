@@ -16,7 +16,7 @@ An agent whose work is committed and pushed is never marked FAILED by the commit
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-p5.1](sase-p5.1.md) | Make the SASE commit footer survive conflict resolution | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p5.2](sase-p5.2.md) | Record a run-owned commit ledger | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p5.2](sase-p5.2.md) | Record a run-owned commit ledger | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p5.3](sase-p5.3.md) | Decide attribution from run-owned evidence | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p5.4](sase-p5.4.md) | Stop blaming an agent for concurrent activity in shared clones | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p5.5](sase-p5.5.md) | Actionable diagnostics and regression coverage | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
@@ -27,7 +27,7 @@ An agent whose work is committed and pushed is never marked FAILED by the commit
 flowchart TD
     n0["sase-p5: Commit finalizer stops failing agents whose work actually landed [in_progress]"]
     n1["sase-p5.1: Make the SASE commit footer survive conflict resolution [closed]"]
-    n2["sase-p5.2: Record a run-owned commit ledger [in_progress]"]
+    n2["sase-p5.2: Record a run-owned commit ledger [closed]"]
     n3["sase-p5.3: Decide attribution from run-owned evidence [in_progress]"]
     n4["sase-p5.4: Stop blaming an agent for concurrent activity in shared clones [in_progress]"]
     n5["sase-p5.5: Actionable diagnostics and regression coverage [in_progress]"]
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-p5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p5.1.md) | [sase-p5.1](sase-p5.1.md) | 1 |
-| [bbugyi200.athena.sase-p5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p5.2/README.md) | [sase-p5.2](sase-p5.2.md) | 0 |
+| [bbugyi200.athena.sase-p5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p5.2/README.md) | [sase-p5.2](sase-p5.2.md) | 1 |
 | [bbugyi200.athena.sase-p5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p5.3/README.md) | [sase-p5.3](sase-p5.3.md) | 0 |
 | [bbugyi200.athena.sase-p5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p5.4/README.md) | [sase-p5.4](sase-p5.4.md) | 0 |
 | [bbugyi200.athena.sase-p5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p5.5/README.md) | [sase-p5.5](sase-p5.5.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`22e5444`](https://github.com/sase-org/sase/commit/22e5444bf29cdb1b964831c02678155911463689) | fix(commit): restamp dropped SASE footer tags on resumed commits | [sase-p5.1](sase-p5.1.md) | 2026-08-17 19:47:33 EDT |
+| sase | [`1519d20`](https://github.com/sase-org/sase/commit/1519d20f27d69c164bf33e503e8af31ce65a4708) | feat(commit): record a run-owned commit ledger | [sase-p5.2](sase-p5.2.md) | 2026-08-17 21:02:26 EDT |
