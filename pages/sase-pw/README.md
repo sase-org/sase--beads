@@ -17,7 +17,7 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 |---|---|---|---|---|---:|---:|
 | [sase-pw.1](sase-pw.1.md) | Current-project resolver over the VCS xprompt MRU | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pw.2](sase-pw.2.md) | Per-project accent colors | ✓ closed | small | 2026-08-18 | 1 | 1 |
-| [sase-pw.3](sase-pw.3.md) | ace.current\_project configuration | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
+| [sase-pw.3](sase-pw.3.md) | ace.current\_project configuration | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-pw.4](sase-pw.4.md) | Top-bar +project indicator | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pw.5](sase-pw.5.md) | Artifacts scope and Stitches startup filter | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pw.6](sase-pw.6.md) | Statistics, inventory, Glossary, and the + picker | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
@@ -32,7 +32,7 @@ flowchart TD
     n0["sase-pw: Current project, derived from the VCS xprompt MRU store [in_progress]"]
     n1["sase-pw.1: Current-project resolver over the VCS xprompt MRU [in_progress]"]
     n2["sase-pw.2: Per-project accent colors [closed]"]
-    n3["sase-pw.3: ace.current_project configuration [in_progress]"]
+    n3["sase-pw.3: ace.current_project configuration [closed]"]
     n4["sase-pw.4: Top-bar +project indicator [in_progress]"]
     n5["sase-pw.5: Artifacts scope and Stitches startup filter [in_progress]"]
     n6["sase-pw.6: Statistics, inventory, Glossary, and the + picker [in_progress]"]
@@ -72,7 +72,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-pw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.1/README.md) | [sase-pw.1](sase-pw.1.md) | 0 |
 | [bbugyi200.athena.sase-pw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.2/README.md) | [sase-pw.2](sase-pw.2.md) | 1 |
-| [bbugyi200.athena.sase-pw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.3/README.md) | [sase-pw.3](sase-pw.3.md) | 0 |
+| [bbugyi200.athena.sase-pw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.3/README.md) | [sase-pw.3](sase-pw.3.md) | 1 |
 | [bbugyi200.athena.sase-pw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.4/README.md) | [sase-pw.4](sase-pw.4.md) | 0 |
 | [bbugyi200.athena.sase-pw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.5/README.md) | [sase-pw.5](sase-pw.5.md) | 0 |
 | [bbugyi200.athena.sase-pw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.6/README.md) | [sase-pw.6](sase-pw.6.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`129bb63`](https://github.com/sase-org/sase/commit/129bb631d3725417e77b7d97ef8e184f52dbf339) | feat(tui): add per-project accent color palette | [sase-pw.2](sase-pw.2.md) | 2026-08-18 11:52:46 EDT |
+| sase | [`54083ca`](https://github.com/sase-org/sase/commit/54083ca47c3b1fa07ff4b435a443945da1a3a2c4) | feat(ace): add typed ace.current\_project config | [sase-pw.3](sase-pw.3.md) | 2026-08-18 12:19:58 EDT |

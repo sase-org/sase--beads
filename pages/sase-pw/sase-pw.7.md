@@ -14,7 +14,7 @@ agents: seed the Agents-tab search query with the current project behind the def
 ## Dependencies
 
 - **Depends on:** [sase-pw.1](sase-pw.1.md) ◐ · ⧖ 2026-08-18
-- **Depends on:** [sase-pw.3](sase-pw.3.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pw.3](sase-pw.3.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pw.9](sase-pw.9.md) ◐ · ⧖ 2026-08-18
 
 ## Agents
