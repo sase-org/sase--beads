@@ -13,7 +13,7 @@ polish: document the panel in the help modal and the ace guide, document the new
 
 ## Dependencies
 
-- **Depends on:** [sase-p1.7](sase-p1.7.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p1.7](sase-p1.7.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
