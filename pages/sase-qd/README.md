@@ -16,7 +16,7 @@ The Projects tab of the SASE Admin Center says which project is current — in t
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-qd.1](sase-qd.1.md) | A verified write path for the current project | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-qd.2](sase-qd.2.md) | Render the current project in the Projects sub-tab | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-qd.2](sase-qd.2.md) | Render the current project in the Projects sub-tab | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-qd.3](sase-qd.3.md) | Make every Projects-tab key configurable | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-qd.4](sase-qd.4.md) | The set-current keypress | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-qd.5](sase-qd.5.md) | Documentation and visual proof | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
@@ -27,7 +27,7 @@ The Projects tab of the SASE Admin Center says which project is current — in t
 flowchart TD
     n0["sase-qd: Show and set the current project from the Admin Center Projects tab [in_progress]"]
     n1["sase-qd.1: A verified write path for the current project [closed]"]
-    n2["sase-qd.2: Render the current project in the Projects sub-tab [in_progress]"]
+    n2["sase-qd.2: Render the current project in the Projects sub-tab [closed]"]
     n3["sase-qd.3: Make every Projects-tab key configurable [in_progress]"]
     n4["sase-qd.4: The set-current keypress [in_progress]"]
     n5["sase-qd.5: Documentation and visual proof [in_progress]"]
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-qd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.1/README.md) | [sase-qd.1](sase-qd.1.md) | 1 |
-| [bbugyi200.athena.sase-qd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.2/README.md) | [sase-qd.2](sase-qd.2.md) | 0 |
+| [bbugyi200.athena.sase-qd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.2/README.md) | [sase-qd.2](sase-qd.2.md) | 1 |
 | [bbugyi200.athena.sase-qd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.3/README.md) | [sase-qd.3](sase-qd.3.md) | 0 |
 | [bbugyi200.athena.sase-qd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.4/README.md) | [sase-qd.4](sase-qd.4.md) | 0 |
 | [bbugyi200.athena.sase-qd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qd.5/README.md) | [sase-qd.5](sase-qd.5.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ce53444`](https://github.com/sase-org/sase/commit/ce534441fbcf47356f8628a52bd5619416990bcb) | feat(project): add set\_current\_project and sase project set-current | [sase-qd.1](sase-qd.1.md) | 2026-08-18 18:50:20 EDT |
+| sase | [`ec048b1`](https://github.com/sase-org/sase/commit/ec048b168c365fe09dd068fd64c9a51e178e99ae) | feat(tui): show current project in Admin Center Projects tab | [sase-qd.2](sase-qd.2.md) | 2026-08-18 18:57:10 EDT |

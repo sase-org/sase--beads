@@ -13,7 +13,7 @@ keymap-scope: add the `ace.keymaps.projects` scope covering all three Projects-t
 
 ## Dependencies
 
-- **Depends on:** [sase-qd.2](sase-qd.2.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-qd.2](sase-qd.2.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-qd.4](sase-qd.4.md) ◐ · ⧖ 2026-08-18
 
 ## Agents
