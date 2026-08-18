@@ -29,7 +29,7 @@ Since sase-p1.6 (Panel add and delete surfaces) is still in progress and is the 
 | [sase-p1.2](sase-p1.2.md) | sase glossary add and del commands | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.3](sase-p1.3.md) | Multi-project glossary catalog service for the TUI | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.4](sase-p1.4.md) | Glossary panel shell, term list, filter, and project ring | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p1.5](sase-p1.5.md) | Related-term travel, relation chips, and the back trail | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p1.5](sase-p1.5.md) | Related-term travel, relation chips, and the back trail | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.6](sase-p1.6.md) | Panel add and delete surfaces | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p1.7](sase-p1.7.md) | Prompt keymap entry point and focus handoff | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 | [sase-p1.8](sase-p1.8.md) | Help, docs, and visual snapshots | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -43,7 +43,7 @@ flowchart TD
     n2["sase-p1.2: sase glossary add and del commands [closed]"]
     n3["sase-p1.3: Multi-project glossary catalog service for the TUI [closed]"]
     n4["sase-p1.4: Glossary panel shell, term list, filter, and project ring [closed]"]
-    n5["sase-p1.5: Related-term travel, relation chips, and the back trail [in_progress]"]
+    n5["sase-p1.5: Related-term travel, relation chips, and the back trail [closed]"]
     n6["sase-p1.6: Panel add and delete surfaces [in_progress]"]
     n7["sase-p1.7: Prompt keymap entry point and focus handoff [in_progress]"]
     n8["sase-p1.8: Help, docs, and visual snapshots [in_progress]"]
@@ -73,8 +73,8 @@ flowchart TD
 | [bbugyi200.athena.sase-p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.2/README.md) | [sase-p1.2](sase-p1.2.md) | 1 |
 | [bbugyi200.athena.sase-p1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.3/README.md) | [sase-p1.3](sase-p1.3.md) | 1 |
 | [bbugyi200.athena.sase-p1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p1.4.md) | [sase-p1.4](sase-p1.4.md) | 1 |
-| [bbugyi200.athena.sase-p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.5/README.md) | [sase-p1.5](sase-p1.5.md) | 0 |
-| [bbugyi200.athena.sase-p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.6/README.md) | [sase-p1.6](sase-p1.6.md) | 0 |
+| [bbugyi200.athena.sase-p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.5/README.md) | [sase-p1.5](sase-p1.5.md) | 1 |
+| [bbugyi200.athena.sase-p1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p1.6.md) | [sase-p1.6](sase-p1.6.md) | 0 |
 | [bbugyi200.athena.sase-p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.7/README.md) | [sase-p1.7](sase-p1.7.md) | 0 |
 | [bbugyi200.athena.sase-p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.8/README.md) | [sase-p1.8](sase-p1.8.md) | 0 |
 | [bbugyi200.athena.sase-p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.land/README.md) | [sase-p1](README.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | sase | [`20ba691`](https://github.com/sase-org/sase/commit/20ba691616734f2f92760c5bb58cd2070afc5d13) | feat(glossary): add CLI add and del commands | [sase-p1.2](sase-p1.2.md) | 2026-08-17 19:24:26 EDT |
 | sase | [`7275ec1`](https://github.com/sase-org/sase/commit/7275ec15a93979fdf651e39628caee54df92c65f) | feat(glossary): add TUI catalog service for the glossary panel | [sase-p1.3](sase-p1.3.md) | 2026-08-17 20:09:46 EDT |
 | sase | [`9093b14`](https://github.com/sase-org/sase/commit/9093b1447a4bf11aeed7fdc52b710aa0474d8db2) | feat(glossary): add glossary panel shell, term list, filter, and project ring | [sase-p1.4](sase-p1.4.md) | 2026-08-17 21:35:45 EDT |
+| sase | [`fc882a1`](https://github.com/sase-org/sase/commit/fc882a1cce449ef40ee625a6669bbd8cbdc1b8aa) | feat(glossary): add relation-chip travel and the back trail | [sase-p1.5](sase-p1.5.md) | 2026-08-17 22:19:12 EDT |
