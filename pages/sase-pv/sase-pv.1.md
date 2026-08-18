@@ -21,7 +21,7 @@ slug: drop `flag` from the Rust core's reserved task-type slug list so a project
 
 ## Dependencies
 
-- **Blocks:** [sase-pv.2](sase-pv.2.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pv.2](sase-pv.2.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

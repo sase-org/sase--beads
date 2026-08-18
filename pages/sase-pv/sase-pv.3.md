@@ -13,7 +13,7 @@ cli: collapse the flag kinds to `beta` and `sunset`, derive the registry default
 
 ## Dependencies
 
-- **Depends on:** [sase-pv.2](sase-pv.2.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pv.2](sase-pv.2.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pv.7](sase-pv.7.md) ◐ · ⧖ 2026-08-18
 
 ## Agents
