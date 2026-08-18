@@ -26,7 +26,7 @@ guard: write a per-checkout occupant record when an agent takes a workspace and 
 ## Dependencies
 
 - **Depends on:** [sase-q0.2](sase-q0.2.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-q0.4](sase-q0.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q0.4](sase-q0.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

@@ -23,7 +23,7 @@ ledger: record every workspace claim, transfer, hold, and release to a durable J
 
 ## Dependencies
 
-- **Blocks:** [sase-q0.4](sase-q0.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q0.4](sase-q0.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
