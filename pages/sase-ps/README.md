@@ -48,7 +48,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ps.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ps.2.md) | [sase-ps.2](sase-ps.2.md) | 1 |
 | [bbugyi200.athena.sase-ps.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.3/README.md) | [sase-ps.3](sase-ps.3.md) | 2 |
 | [bbugyi200.athena.sase-ps.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.4/README.md) | [sase-ps.4](sase-ps.4.md) | 1 |
-| [bbugyi200.athena.sase-ps.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.land/README.md) | [sase-ps](README.md) | 0 |
+| [bbugyi200.athena.sase-ps.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.land/README.md) | [sase-ps](README.md) | 1 |
 
 ## Commits
 
@@ -59,3 +59,4 @@ flowchart TD
 | sase | [`746c807`](https://github.com/sase-org/sase/commit/746c807051fc11b107bec62c475cd738d8716296) | test(stats): assert Rust historical occupancy matches Python slot count | [sase-ps.3](sase-ps.3.md) | 2026-08-18 12:03:38 EDT |
 | sase | [`f9a1afa`](https://github.com/sase-org/sase/commit/f9a1afae747f49021ca96a203ca76a8ace3a08e9) | fix(agent): count runner-slot occupancy the same way in ACE and agent listing | [sase-ps.2](sase-ps.2.md) | 2026-08-18 12:07:08 EDT |
 | sase | [`5bb381f`](https://github.com/sase-org/sase/commit/5bb381f4a22eb2943a13e4eefcaaae5c34cfd86e) | docs(runner-slots): document serial-family occupancy including monitors | [sase-ps.4](sase-ps.4.md) | 2026-08-18 12:44:05 EDT |
+| sase | [`da8be0e`](https://github.com/sase-org/sase/commit/da8be0ea95115c10257fe6e4b9af6f65ba6e744b) | test(visual): rebaseline the Statistics runners golden for the new legend | [sase-ps](README.md) | 2026-08-18 14:44:34 EDT |
