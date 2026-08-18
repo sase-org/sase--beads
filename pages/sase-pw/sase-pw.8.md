@@ -21,4 +21,4 @@ cli: add the `sase project current` subcommand with colored and `--json` output 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.8/README.md) | [sase-pw.8](sase-pw.8.md) | 0 |
+| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.8.md) | [sase-pw.8](sase-pw.8.md) | 0 |

@@ -17,6 +17,8 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 
 [2026-08-18T17:49:59Z · sase-ps.land] DISCOVERED ISSUE (corroborating the 2026-08-18T17:33:03Z entry from 06d): the sase-ps land agent independently reproduced this on a clean tree at 88d2a1582 with 'just install' already run. 'just symvision' exits 1 with: Unused public functions/classes — project_accent in src/sase/ace/tui/project_styles.py, project_accent_map in src/sase/ace/tui/project_styles.py. Both symbols landed in 129bb631d (closed phase sase-pw.2) and still have no non-test caller; the only callers are tests/ace/tui/test_project_styles.py. The Justfile symvision line carries no --epic-symbol entry for either symbol (its only entries are sase-n4/sase-n4.5). Impact: 'just check'/'just check-full' is red at the symvision gate for every agent on this host until sase-pw.4 consumes them or the Justfile is re-keyed with --epic-symbol "sase-pw.4(project_accent)" and --epic-symbol "sase-pw.4(project_accent_map)". Raised as a PROPOSED FOLLOW-UP by epic phase sase-ps.4; not caused by sase-ps.
 
+[2026-08-18T18:00:09Z · sase-px] DISCOVERED ISSUE: Independently reproduced while closing sase-px (glossary color_system mypy fix). just check passed lint (mypy) then failed lint (symvision) on unused public project_accent and project_accent_map in src/sase/ace/tui/project_styles.py. sase-px does not touch that file. Confirms the 2026-08-18T17:33:03Z and 2026-08-18T17:49:59Z notes: closed sase-pw.2 landed the symbols, sase-pw.4 is the intended consumer, and the Justfile still has no --epic-symbol whitelist for either name.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -24,7 +26,7 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 | [sase-pw.1](sase-pw.1.md) | Current-project resolver over the VCS xprompt MRU | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.2](sase-pw.2.md) | Per-project accent colors | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-pw.3](sase-pw.3.md) | ace.current\_project configuration | ✓ closed | small | 2026-08-18 | 1 | 1 |
-| [sase-pw.4](sase-pw.4.md) | Top-bar +project indicator | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-pw.4](sase-pw.4.md) | Top-bar +project indicator | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.5](sase-pw.5.md) | Artifacts scope and Stitches startup filter | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pw.6](sase-pw.6.md) | Statistics, inventory, Glossary, and the + picker | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-pw.7](sase-pw.7.md) | Agents-tab project scoping | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
@@ -39,7 +41,7 @@ flowchart TD
     n1["sase-pw.1: Current-project resolver over the VCS xprompt MRU [closed]"]
     n2["sase-pw.2: Per-project accent colors [closed]"]
     n3["sase-pw.3: ace.current_project configuration [closed]"]
-    n4["sase-pw.4: Top-bar +project indicator [in_progress]"]
+    n4["sase-pw.4: Top-bar +project indicator [closed]"]
     n5["sase-pw.5: Artifacts scope and Stitches startup filter [in_progress]"]
     n6["sase-pw.6: Statistics, inventory, Glossary, and the + picker [in_progress]"]
     n7["sase-pw.7: Agents-tab project scoping [in_progress]"]
@@ -79,11 +81,11 @@ flowchart TD
 | [bbugyi200.athena.sase-pw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.1/README.md) | [sase-pw.1](sase-pw.1.md) | 1 |
 | [bbugyi200.athena.sase-pw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.2/README.md) | [sase-pw.2](sase-pw.2.md) | 1 |
 | [bbugyi200.athena.sase-pw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.3/README.md) | [sase-pw.3](sase-pw.3.md) | 1 |
-| [bbugyi200.athena.sase-pw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.4/README.md) | [sase-pw.4](sase-pw.4.md) | 0 |
-| [bbugyi200.athena.sase-pw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.5/README.md) | [sase-pw.5](sase-pw.5.md) | 0 |
+| [bbugyi200.athena.sase-pw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.4/README.md) | [sase-pw.4](sase-pw.4.md) | 1 |
+| [bbugyi200.athena.sase-pw.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.5.md) | [sase-pw.5](sase-pw.5.md) | 0 |
 | [bbugyi200.athena.sase-pw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.6/README.md) | [sase-pw.6](sase-pw.6.md) | 0 |
 | [bbugyi200.athena.sase-pw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.7/README.md) | [sase-pw.7](sase-pw.7.md) | 0 |
-| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.8/README.md) | [sase-pw.8](sase-pw.8.md) | 0 |
+| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.8.md) | [sase-pw.8](sase-pw.8.md) | 0 |
 | [bbugyi200.athena.sase-pw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.9/README.md) | [sase-pw.9](sase-pw.9.md) | 0 |
 | [bbugyi200.athena.sase-pw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.land/README.md) | [sase-pw](README.md) | 0 |
 
@@ -94,3 +96,4 @@ flowchart TD
 | sase | [`129bb63`](https://github.com/sase-org/sase/commit/129bb631d3725417e77b7d97ef8e184f52dbf339) | feat(tui): add per-project accent color palette | [sase-pw.2](sase-pw.2.md) | 2026-08-18 11:52:46 EDT |
 | sase | [`54083ca`](https://github.com/sase-org/sase/commit/54083ca47c3b1fa07ff4b435a443945da1a3a2c4) | feat(ace): add typed ace.current\_project config | [sase-pw.3](sase-pw.3.md) | 2026-08-18 12:19:58 EDT |
 | sase | [`4cf7672`](https://github.com/sase-org/sase/commit/4cf7672bdf783666a3ecacaa7d72e29d6bf40a52) | feat(project): derive current project from the VCS xprompt MRU | [sase-pw.1](sase-pw.1.md) | 2026-08-18 13:55:49 EDT |
+| sase | [`7596e4e`](https://github.com/sase-org/sase/commit/7596e4e46ed68e977072df94d0a69a93069909ee) | feat(ace): add current-project chip to the ACE top bar | [sase-pw.4](sase-pw.4.md) | 2026-08-18 14:49:32 EDT |
