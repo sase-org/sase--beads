@@ -13,7 +13,7 @@ jump: make `Ctrl+]` on a repo mention open that repo's checkout in the editor or
 
 ## Dependencies
 
-- **Depends on:** [sase-p2.3](sase-p2.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p2.3](sase-p2.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

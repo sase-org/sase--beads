@@ -24,7 +24,7 @@ highlight: warm the catalog off the render path from the ACE app and overlay rep
 ## Dependencies
 
 - **Depends on:** [sase-p2.1](sase-p2.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p2.3](sase-p2.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p2.3](sase-p2.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
