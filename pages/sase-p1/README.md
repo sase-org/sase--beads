@@ -11,13 +11,23 @@
 
 A user drafting a prompt can press `gG` or `<ctrl+g>G` to open a Glossary panel that browses one project's terms alphabetically, travels through related terms in both directions with a back trail, cycles the visible project with `p`/`P`, and adds or deletes terms through the same engine that backs the new `sase glossary add` and `sase glossary del` commands.
 
+## Notes
+
+[2026-08-17T23:50:00Z · sase-ng.1.land--1] DISCOVERED ISSUE (reported by the sase-ng.1 land agent, not caused by this epic): master's just check / just check-full is red in the _lint-symvision gate because the Justfile still carries six --epic-symbol entries keyed to phase sase-p1.2, which closed 2026-08-17T23:19:10Z:
+
+  sase-p1.2(GlossaryConflictError), sase-p1.2(GlossaryMutationError), sase-p1.2(GlossaryMutationOutcome), sase-p1.2(GlossaryValidationError), sase-p1.2(add_glossary_term), sase-p1.2(delete_glossary_term)
+
+Symvision error per entry: "bead 'sase-p1.2' is closed. Remove this stale --epic-symbol entry and clean up the symbol." Reproduced at master c89e5bbeb in workspace sase_13 at 2026-08-18T00:0xZ; the same gate was green in a check-full run started 23:01Z, i.e. it went red exactly when sase-p1.2 closed. This is the recurring stale-epic-symbol pattern (same shape as the sase-oc.8 and sase-ng.1.5 instances).
+
+Since sase-p1.6 (Panel add and delete surfaces) is still in progress and is the phase that will call the add/delete engine, the fix is almost certainly to re-key these six lines to the still-open epic sase-p1 rather than delete the symbols -- the same move 13e9ccbc9 made for sase-oc.8(set_completion_summary). Left for this epic's own workers/land agent to do, since the symbols and the judgment about which open bead still needs the exemption belong to sase-p1. Recording here rather than filing a task bead because this epic is the direct cause and is still in progress.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-p1.1](sase-p1.1.md) | Shared glossary add/delete engine | ✓ closed | medium | 2026-08-17 | 0 | 0 |
 | [sase-p1.2](sase-p1.2.md) | sase glossary add and del commands | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p1.3](sase-p1.3.md) | Multi-project glossary catalog service for the TUI | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p1.3](sase-p1.3.md) | Multi-project glossary catalog service for the TUI | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.4](sase-p1.4.md) | Glossary panel shell, term list, filter, and project ring | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p1.5](sase-p1.5.md) | Related-term travel, relation chips, and the back trail | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p1.6](sase-p1.6.md) | Panel add and delete surfaces | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -31,7 +41,7 @@ flowchart TD
     n0["sase-p1: Glossary panel with term-and-relation navigation, project cycling, and add/delete [in_progress]"]
     n1["sase-p1.1: Shared glossary add/delete engine [closed]"]
     n2["sase-p1.2: sase glossary add and del commands [closed]"]
-    n3["sase-p1.3: Multi-project glossary catalog service for the TUI [in_progress]"]
+    n3["sase-p1.3: Multi-project glossary catalog service for the TUI [closed]"]
     n4["sase-p1.4: Glossary panel shell, term list, filter, and project ring [in_progress]"]
     n5["sase-p1.5: Related-term travel, relation chips, and the back trail [in_progress]"]
     n6["sase-p1.6: Panel add and delete surfaces [in_progress]"]
@@ -61,7 +71,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.2/README.md) | [sase-p1.2](sase-p1.2.md) | 1 |
-| [bbugyi200.athena.sase-p1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.3/README.md) | [sase-p1.3](sase-p1.3.md) | 0 |
+| [bbugyi200.athena.sase-p1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.3/README.md) | [sase-p1.3](sase-p1.3.md) | 1 |
 | [bbugyi200.athena.sase-p1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.4/README.md) | [sase-p1.4](sase-p1.4.md) | 0 |
 | [bbugyi200.athena.sase-p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.5/README.md) | [sase-p1.5](sase-p1.5.md) | 0 |
 | [bbugyi200.athena.sase-p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.6/README.md) | [sase-p1.6](sase-p1.6.md) | 0 |
@@ -74,3 +84,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`20ba691`](https://github.com/sase-org/sase/commit/20ba691616734f2f92760c5bb58cd2070afc5d13) | feat(glossary): add CLI add and del commands | [sase-p1.2](sase-p1.2.md) | 2026-08-17 19:24:26 EDT |
+| sase | [`7275ec1`](https://github.com/sase-org/sase/commit/7275ec15a93979fdf651e39628caee54df92c65f) | feat(glossary): add TUI catalog service for the glossary panel | [sase-p1.3](sase-p1.3.md) | 2026-08-17 20:09:46 EDT |

@@ -22,5 +22,5 @@ mutation: build the project-scoped glossary write engine that resolves a target 
 ## Dependencies
 
 - **Blocks:** [sase-p1.2](sase-p1.2.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p1.3](sase-p1.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p1.3](sase-p1.3.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p1.6](sase-p1.6.md) ◐ · ⧖ 2026-08-17
