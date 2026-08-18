@@ -14,7 +14,7 @@ triage: make the `+1` bar a per-type value with a spec default of zero, keep the
 ## Dependencies
 
 - **Blocks:** [sase-p3.13](sase-p3.13.md) ◐ · ⧖ 2026-08-17
-- **Depends on:** [sase-p3.7](sase-p3.7.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p3.7](sase-p3.7.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

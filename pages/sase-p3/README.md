@@ -60,7 +60,7 @@ WHY IT SURVIVED VERIFICATION: the visual suite is excluded from 'just test', 'ju
 
 REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 
-… and 559 more characters
+… and 2092 more characters
 
 ## Phases
 
@@ -77,7 +77,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 | [sase-p3.4](sase-p3.4.md) | Required-plugin project config and graded enforcement | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.6](sase-p3.6.md) | Builtin task types and the \`sase bead task-type\` command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.7](sase-p3.7.md) | Typed task creation, field values, and the rendered body block | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.7](sase-p3.7.md) | Typed task creation, field values, and the rendered body block | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.8](sase-p3.8.md) | Task-type chips on every bead surface | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.9](sase-p3.9.md) | Per-type corroboration thresholds | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 
@@ -97,7 +97,7 @@ flowchart TD
     n9["sase-p3.4: Required-plugin project config and graded enforcement [closed]"]
     n10["sase-p3.5: Task-type discovery, catalog assembly, and diagnostics [closed]"]
     n11["sase-p3.6: Builtin task types and the `sase bead task-type` command group [closed]"]
-    n12["sase-p3.7: Typed task creation, field values, and the rendered body block [in_progress]"]
+    n12["sase-p3.7: Typed task creation, field values, and the rendered body block [closed]"]
     n13["sase-p3.8: Task-type chips on every bead surface [in_progress]"]
     n14["sase-p3.9: Per-type corroboration thresholds [in_progress]"]
     n0 --> n1
@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.4/README.md) | [sase-p3.4](sase-p3.4.md) | 1 |
 | [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 1 |
 | [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 1 |
-| [bbugyi200.athena.sase-p3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.7/README.md) | [sase-p3.7](sase-p3.7.md) | 0 |
+| [bbugyi200.athena.sase-p3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.7/README.md) | [sase-p3.7](sase-p3.7.md) | 1 |
 | [bbugyi200.athena.sase-p3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.8/README.md) | [sase-p3.8](sase-p3.8.md) | 0 |
 | [bbugyi200.athena.sase-p3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.9/README.md) | [sase-p3.9](sase-p3.9.md) | 0 |
 | [bbugyi200.athena.sase-p3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.land/README.md) | [sase-p3](README.md) | 0 |
@@ -167,3 +167,4 @@ flowchart TD
 | sase | [`3aedb97`](https://github.com/sase-org/sase/commit/3aedb971fe6e855490b0b23ce3a563e38a6b2186) | feat(task-types): add task-type discovery, catalog assembly, and diagnostics | [sase-p3.5](sase-p3.5.md) | 2026-08-17 22:48:31 EDT |
 | sase | [`e4f28dd`](https://github.com/sase-org/sase/commit/e4f28dd57c9f9024d4face8cd48c3c36f2827eeb) | feat(plugins): offer a gate to install missing required plugins | [sase-p3.11](sase-p3.11.md) | 2026-08-17 23:04:14 EDT |
 | sase | [`0c4be02`](https://github.com/sase-org/sase/commit/0c4be02152b9c66b91c29c880c74c9bb50da2410) | feat(task-types): add builtin catalog and \`sase bead task-type\` | [sase-p3.6](sase-p3.6.md) | 2026-08-17 23:45:05 EDT |
+| sase | [`6f5df19`](https://github.com/sase-org/sase/commit/6f5df19d6de0af235418d1e7ef93ef847aa99c4a) | feat(task-types): create typed tasks with field values and rendered bodies | [sase-p3.7](sase-p3.7.md) | 2026-08-18 00:27:43 EDT |

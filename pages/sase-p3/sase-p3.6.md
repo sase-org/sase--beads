@@ -27,7 +27,7 @@ builtins: author the bug, ci, feature, flake, and memory builtin specs and expos
 
 - **Blocks:** [sase-p3.10](sase-p3.10.md) ◐ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.5](sase-p3.5.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p3.7](sase-p3.7.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.7](sase-p3.7.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
