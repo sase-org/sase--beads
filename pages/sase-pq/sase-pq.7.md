@@ -13,7 +13,7 @@ prove: add the one end-to-end test that drives a real typed gate through every s
 
 ## Dependencies
 
-- **Depends on:** [sase-pq.3](sase-pq.3.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pq.3](sase-pq.3.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-pq.4](sase-pq.4.md) ◐ · ⧖ 2026-08-18
 - **Depends on:** [sase-pq.5](sase-pq.5.md) ◐ · ⧖ 2026-08-18
 - **Depends on:** [sase-pq.6](sase-pq.6.md) ◐ · ⧖ 2026-08-18
