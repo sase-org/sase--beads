@@ -69,7 +69,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 | [sase-p3.1](sase-p3.1.md) | Task type on the bead wire and store | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.10](sase-p3.10.md) | Committed catalog snapshot and the generated task-type memory note | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.11](sase-p3.11.md) | Missing-plugin gate offering to install | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ✓ closed | small | 2026-08-17 | 1 | 2 |
+| [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-p3.13](sase-p3.13.md) | Make \`task\_type\` required end to end | ✓ closed | small | 2026-08-17 | 1 | 2 |
 | [sase-p3.14](sase-p3.14.md) | Documentation, glossary, and end-to-end verification | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.2](sase-p3.2.md) | Task-type spec validation, digest, and body rendering in Rust | ✓ closed | medium | 2026-08-17 | 1 | 1 |
@@ -94,7 +94,7 @@ flowchart TD
     n6["sase-p3.14: Documentation, glossary, and end-to-end verification [closed]"]
     n7["sase-p3.15: Repair the required-plugin install path [in_progress]"]
     n8["sase-p3.15.1: Make `_setup-required-plugins` install what the project declares, verified [closed]"]
-    n9["sase-p3.15.2: Stop required-plugin config from leaking into test runs [in_progress]"]
+    n9["sase-p3.15.2: Stop required-plugin config from leaking into test runs [closed]"]
     n10["sase-p3.15.3: Publish sase-research-artifacts and retire the git fallback [in_progress]"]
     n11["sase-p3.2: Task-type spec validation, digest, and body rendering in Rust [closed]"]
     n12["sase-p3.3: Required plugin prefix for every `use:` field [closed]"]
@@ -152,11 +152,11 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.1/README.md) | [sase-p3.1](sase-p3.1.md) | 1 |
 | [bbugyi200.athena.sase-p3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.10/README.md) | [sase-p3.10](sase-p3.10.md) | 1 |
 | [bbugyi200.athena.sase-p3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.11/README.md) | [sase-p3.11](sase-p3.11.md) | 1 |
-| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 2 |
+| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 1 |
 | [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 2 |
 | [bbugyi200.athena.sase-p3.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.14.md) | [sase-p3.14](sase-p3.14.md) | 1 |
 | [bbugyi200.athena.sase-p3.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.1/README.md) | [sase-p3.15.1](sase-p3.15.1.md) | 1 |
-| [bbugyi200.athena.sase-p3.15.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.15.2.md) | [sase-p3.15.2](sase-p3.15.2.md) | 0 |
+| [bbugyi200.athena.sase-p3.15.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.15.2.md) | [sase-p3.15.2](sase-p3.15.2.md) | 1 |
 | [bbugyi200.athena.sase-p3.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.3/README.md) | [sase-p3.15.3](sase-p3.15.3.md) | 0 |
 | [bbugyi200.athena.sase-p3.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.15.land/README.md) | [sase-p3.15](sase-p3.15.md) | 0 |
 | [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
@@ -183,10 +183,10 @@ flowchart TD
 | sase | [`6f5df19`](https://github.com/sase-org/sase/commit/6f5df19d6de0af235418d1e7ef93ef847aa99c4a) | feat(task-types): create typed tasks with field values and rendered bodies | [sase-p3.7](sase-p3.7.md) | 2026-08-18 00:27:43 EDT |
 | sase | [`2206e89`](https://github.com/sase-org/sase/commit/2206e89c74798383418a55e2e05a26af046cd214) | feat(task-types): snapshot the catalog and generate a task-types memory note | [sase-p3.10](sase-p3.10.md) | 2026-08-18 00:38:29 EDT |
 | sase | [`118a608`](https://github.com/sase-org/sase/commit/118a60836905cf08c8f226c610b6acec2e834880) | feat(external-mirror): stamp github task type on new mirrored issues | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:01:18 EDT |
-| sase-github | [`sase-github@a68b879`](https://github.com/sase-org/sase-github/commit/a68b879ba9a8a0ca5dc6f253a0c66563f9a90d4b) | feat: register agent-uncreatable github task type | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:03:37 EDT |
 | sase | [`66b8844`](https://github.com/sase-org/sase/commit/66b8844340fcf5f519b0cadcc5373f0b5d6718bf) | feat(task-types): add per-type corroboration thresholds for task triage | [sase-p3.9](sase-p3.9.md) | 2026-08-18 01:15:18 EDT |
 | sase | [`1dc393a`](https://github.com/sase-org/sase/commit/1dc393a64647013fd936d31e8bfb9032be2780fa) | feat(task-types): add task-type chips across every bead surface | [sase-p3.8](sase-p3.8.md) | 2026-08-18 02:15:46 EDT |
 | sase-core | [`sase-core@070a8a5`](https://github.com/sase-org/sase-core/commit/070a8a519d28a4d25a55bf6b4e83afdd1d09bb5a) | feat(bead)!: require an explicit task type on new task creation | [sase-p3.13](sase-p3.13.md) | 2026-08-18 02:32:46 EDT |
 | sase | [`ab628ca`](https://github.com/sase-org/sase/commit/ab628ca7bf2c6156dcf90b6a1ac896e72e1febf3) | feat(bead)!: require a catalog task type on new task creation | [sase-p3.13](sase-p3.13.md) | 2026-08-18 03:08:39 EDT |
 | sase | [`1ad14c1`](https://github.com/sase-org/sase/commit/1ad14c1d1594219d1cbf233aa4203526d0ef0a46) | feat(task-types): document catalog and pin generated notes to committed types | [sase-p3.14](sase-p3.14.md) | 2026-08-18 04:12:20 EDT |
 | sase | [`eed1d9a`](https://github.com/sase-org/sase/commit/eed1d9a67d269295a69ef893cd895f4739b93d9e) | fix(plugins): install what plugins.required actually declares | [sase-p3.15.1](sase-p3.15.1.md) | 2026-08-18 05:43:49 EDT |
+| sase | [`3485cb3`](https://github.com/sase-org/sase/commit/3485cb37d9705c4a687b410e1a91df795456d82c) | test: isolate plugin sase\_config from the default fixture | [sase-p3.15.2](sase-p3.15.2.md) | 2026-08-18 06:02:29 EDT |
