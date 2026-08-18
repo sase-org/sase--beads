@@ -23,6 +23,45 @@ WHY THIS EPIC: sase-p3.4 introduced plugins.required and the PyPI-fallback insta
 
 REPORTED BY: sase-p2.land while landing epic sase-p2. RELATED: sase-o6 (global 'sase' on PATH is a separate uv tool install, which still logs 'Skipping invalid file hook sase-research-artifacts@research-highlights' for the same missing-provider reason).
 
+[2026-08-18T03:09:28Z · sase-p2.land--1] DISCOVERED ISSUE: closed phase sase-p3.11 left two stale Justfile --epic-symbol entries behind, and they are currently failing the lint (symvision) gate repo-wide on clean master fd2d71afc:
+  --epic-symbol "sase-p3.11(RequiredPluginError)"
+  --epic-symbol "sase-p3.11(fail_closed_required_plugins)"
+Symvision error per entry: "bead 'sase-p3.11' is closed. Remove this stale --epic-symbol entry and clean up the symbol."
+
+REPRODUCTION: 'just check-full' (or 'just _lint-symvision' alone) on master. sase-p3.11 closed 2026-08-18T03:01:08Z; a 'just check' on this same tree passed symvision green about two minutes earlier, so the close is the trigger. Because symvision sits at Justfile line 680, the failure also aborts check-full before its remaining six gates (toobig, SASE validation, core-floor probe, committed plans, test cost, flake baseline) run, so every agent on this repo currently gets both an unrelated red and an incomplete verification.
+
+STATE I VERIFIED: both symbols are still genuinely unconsumed -- RequiredPluginError and fail_closed_required_plugins appear only inside src/sase/plugins/required.py (definition, docstring, in-file raise/format, and __all__), with no importer elsewhere in src/. So the exemption is still needed and deletion would be wrong; per the Symvision epic-whitelist policy this is the re-key case, where the entry moves to whichever still-open sase-p3 phase actually consumes them. This epic has ten open phases (sase-p3.6-.10, .12-.14), so a correct target exists, but choosing it needs this epic's plan knowledge, which is why I did not guess.
+
+ACTION NEEDED BY THIS EPIC: re-key both lines to the open later phase that will consume them (or resolve the symbols if that phase's design changed). Left for sase-p3's own agents deliberately; I am the land agent for unrelated epic sase-p2 and touching another epic's whitelist entries would be exactly the kind of blind re-key the policy warns against.
+
+Reported by sase-p2.land. Also corroborated on task sase-o7 (+8), the systemic bead for stale epic-symbol entries -- with the note that this is the PHASE-close variant, which sase-o7's current epic-close-only fix candidates would not catch.
+
+[2026-08-18T03:27:58Z · sase-p8.land] DISCOVERED ISSUE (reported by the sase-p8 land agent, 2026-08-18, workspace sase_12): the _setup-required-plugins recipe this epic added in 1e59c50e7 (bead sase-p3.4) cannot repair a BROKEN EDITABLE install of a required plugin, and the fail-closed path then hard-errors every command that loads config.
+
+REPRODUCTION: 'just validate' and '.venv/bin/sase validate' exit 1 with 'Skipping invalid file hook sase-research-artifacts@research-highlights from config layer user: unknown file-hook provider research-highlights'. Every sase CLI invocation in this workspace now prints that line on stderr. Reproduced with all local edits stashed, so it is pre-existing on master c033ca4c4.
+
+ROOT CAUSE: sase-research-artifacts 0.1.0 is installed EDITABLE into .venv, and .venv/lib/python3.14/site-packages/_editable_impl_sase_research_artifacts.pth points at <workspace>/sase/repos/linked/sase-research-artifacts/src, a directory that does not exist in this workspace (sase/repos/linked/ contains only sase-core). So importlib.metadata still discovers the entry point 'research-highlights -> sase_research_artifacts.provider:RESEARCH_HIGHLIGHTS_HOOK' from the surviving dist-info, but 'import sase_research_artifacts' raises ModuleNotFoundError, so ArtifactProviderRegistry.file_hook_providers_by_id never gains the id and _resolve_file_hook_provider (src/sase/config/file_hooks.py:307) raises.
+
+WHY _setup DOES NOT FIX IT: install_one falls through to the PyPI branch because the linked dir has no pyproject.toml, and 'uv pip install --no-deps sase-research-artifacts' sees the existing dist-info as already satisfying the requirement — the recipe prints '[setup] Installing required plugin sase-research-artifacts from PyPI.' and then 'Checked 1 package in 0.13ms' without replacing the dangling editable install. A satisfied-by-name check is not enough; the recipe needs to verify the module actually imports (or pass --reinstall / --refresh) before declaring the required plugin installed.
+
+SECOND, SMALLER DEFECT IN THE SAME MESSAGE: the remediation text tells the user to 'rerun sase doctor -C config.file_hooks', but that check id is not registered — 'sase doctor -C config.file_hooks' exits with 'unknown diagnostic check or group: config.file_hooks', and 'sase doctor -L' lists no file-hook check at all.
+
+Originally surfaced as a PROPOSED FOLLOW-UP on phase bead sase-p8.5, which confirmed it pre-existing on master via git stash. Recording it here rather than as a task bead because the causal link to this epic's required-plugin work is direct.
+
+[2026-08-18T03:36:11Z · sase-p2.land--1] DISCOVERED ISSUE (second, distinct from the 'just install' note above, same plugins.required root cause): the required-plugin install added by 1e59c50e7 breaks tests/ace/tui/visual/test_ace_png_snapshots_agents_tribe_panel.py::test_tribe_panel_display_config_png_snapshot, which now fails deterministically on clean master fd2d71afc.
+
+FAILURE: at line 256, 'assert "∴" not in research_title.plain' -> AssertionError: assert '∴' not in '∴ @research · 1 [R1]'.
+
+MECHANISM: that test deliberately asserts the 'research' tribe renders UNSTYLED, and carries an explicit comment saying research is a user-owned tribe configured in the operator's own ~/.config/sase/sase.yml, not in sase's bundled defaults, and that tests run against bundled defaults only -- ending with 'do not fix this by re-adding a bundled research entry'. That premise is now false. plugins.required force-installs sase-research-artifacts into the venv on every '_setup', the plugin declares a '[sase_config]' entry point (sase_research_artifacts = sase_research_artifacts), and its own METADATA states its default_config.yml ships 'the research tribe display config'. So a required plugin's defaults now merge into every test run, and the research tribe acquires its ∴ icon and #5FD7AF color from the plugin rather than from user config.
+
+EVIDENCE THAT USER CONFIG IS NOT THE SOURCE: re-running the test with XDG_CONFIG_HOME pointed at an empty directory still fails identically, which rules out the operator's ~/.config/sase/sase.yml and leaves the installed plugin as the only source. The repo CHANGELOG separately records e023e68 'ace-tribes: drop bundled research tribe display config', consistent with the test's premise having been correct before required plugins existed.
+
+WHY IT SURVIVED VERIFICATION: the visual suite is excluded from 'just test', 'just check', and 'just check-full'; only 'just test-visual' covers it.
+
+REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
+
+… and 559 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,7 +76,7 @@ REPORTED BY: sase-p2.land while landing epic sase-p2. RELATED: sase-o6 (global '
 | [sase-p3.3](sase-p3.3.md) | Required plugin prefix for every \`use:\` field | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.4](sase-p3.4.md) | Required-plugin project config and graded enforcement | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.6](sase-p3.6.md) | Builtin task types and the \`sase bead task-type\` command group | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.6](sase-p3.6.md) | Builtin task types and the \`sase bead task-type\` command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.7](sase-p3.7.md) | Typed task creation, field values, and the rendered body block | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.8](sase-p3.8.md) | Task-type chips on every bead surface | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.9](sase-p3.9.md) | Per-type corroboration thresholds | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
@@ -57,7 +96,7 @@ flowchart TD
     n8["sase-p3.3: Required plugin prefix for every `use:` field [closed]"]
     n9["sase-p3.4: Required-plugin project config and graded enforcement [closed]"]
     n10["sase-p3.5: Task-type discovery, catalog assembly, and diagnostics [closed]"]
-    n11["sase-p3.6: Builtin task types and the `sase bead task-type` command group [in_progress]"]
+    n11["sase-p3.6: Builtin task types and the `sase bead task-type` command group [closed]"]
     n12["sase-p3.7: Typed task creation, field values, and the rendered body block [in_progress]"]
     n13["sase-p3.8: Task-type chips on every bead surface [in_progress]"]
     n14["sase-p3.9: Per-type corroboration thresholds [in_progress]"]
@@ -111,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.3.md) | [sase-p3.3](sase-p3.3.md) | 1 |
 | [bbugyi200.athena.sase-p3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.4/README.md) | [sase-p3.4](sase-p3.4.md) | 1 |
 | [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 1 |
-| [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 0 |
+| [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 1 |
 | [bbugyi200.athena.sase-p3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.7/README.md) | [sase-p3.7](sase-p3.7.md) | 0 |
 | [bbugyi200.athena.sase-p3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.8/README.md) | [sase-p3.8](sase-p3.8.md) | 0 |
 | [bbugyi200.athena.sase-p3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.9/README.md) | [sase-p3.9](sase-p3.9.md) | 0 |
@@ -127,3 +166,4 @@ flowchart TD
 | sase | [`1e59c50`](https://github.com/sase-org/sase/commit/1e59c50e777002c9f573c78da43f7f09cdccddd7) | feat(plugins): add plugins.required config and fail-closed enforcement | [sase-p3.4](sase-p3.4.md) | 2026-08-17 22:12:55 EDT |
 | sase | [`3aedb97`](https://github.com/sase-org/sase/commit/3aedb971fe6e855490b0b23ce3a563e38a6b2186) | feat(task-types): add task-type discovery, catalog assembly, and diagnostics | [sase-p3.5](sase-p3.5.md) | 2026-08-17 22:48:31 EDT |
 | sase | [`e4f28dd`](https://github.com/sase-org/sase/commit/e4f28dd57c9f9024d4face8cd48c3c36f2827eeb) | feat(plugins): offer a gate to install missing required plugins | [sase-p3.11](sase-p3.11.md) | 2026-08-17 23:04:14 EDT |
+| sase | [`0c4be02`](https://github.com/sase-org/sase/commit/0c4be02152b9c66b91c29c880c74c9bb50da2410) | feat(task-types): add builtin catalog and \`sase bead task-type\` | [sase-p3.6](sase-p3.6.md) | 2026-08-17 23:45:05 EDT |
