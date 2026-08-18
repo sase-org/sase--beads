@@ -29,7 +29,7 @@ Files this phase and the flag epic both touch: src/sase/scripts/_bead_task_triag
 
 - **Depends on:** [sase-pq.1](sase-pq.1.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-pq.2](sase-pq.2.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pq.6](sase-pq.6.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pq.6](sase-pq.6.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pq.7](sase-pq.7.md) ◐ · ⧖ 2026-08-18
 
 ## Agents
