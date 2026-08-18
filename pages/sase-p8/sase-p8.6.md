@@ -15,7 +15,7 @@ smoke: run real agents that pipe, confirm the family chain and ACE rows, and lan
 
 - **Depends on:** [sase-p8.3](sase-p8.3.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p8.4](sase-p8.4.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-p8.5](sase-p8.5.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p8.5](sase-p8.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
