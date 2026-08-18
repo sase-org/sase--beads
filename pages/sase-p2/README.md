@@ -16,7 +16,7 @@ Repo names typed into any ACE prompt input (`sase-core`, `chezmoi`, `gh:owner/re
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-p2.1](sase-p2.1.md) | Repo mention catalog | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p2.2](sase-p2.2.md) | Prompt highlighting | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p2.2](sase-p2.2.md) | Prompt highlighting | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p2.3](sase-p2.3.md) | K opens the repo card | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p2.4](sase-p2.4.md) | Ctrl+\] opens the repo | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Repo names typed into any ACE prompt input (`sase-core`, `chezmoi`, `gh:owner/re
 flowchart TD
     n0["sase-p2: Repo mentions in the prompt — highlight, preview, and jump [in_progress]"]
     n1["sase-p2.1: Repo mention catalog [closed]"]
-    n2["sase-p2.2: Prompt highlighting [in_progress]"]
+    n2["sase-p2.2: Prompt highlighting [closed]"]
     n3["sase-p2.3: K opens the repo card [in_progress]"]
     n4["sase-p2.4: Ctrl+] opens the repo [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-p2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.1/README.md) | [sase-p2.1](sase-p2.1.md) | 1 |
-| [bbugyi200.athena.sase-p2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.2/README.md) | [sase-p2.2](sase-p2.2.md) | 0 |
+| [bbugyi200.athena.sase-p2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p2.2.md) | [sase-p2.2](sase-p2.2.md) | 1 |
 | [bbugyi200.athena.sase-p2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.3/README.md) | [sase-p2.3](sase-p2.3.md) | 0 |
 | [bbugyi200.athena.sase-p2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.4/README.md) | [sase-p2.4](sase-p2.4.md) | 0 |
 | [bbugyi200.athena.sase-p2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.land/README.md) | [sase-p2](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fb16cfa`](https://github.com/sase-org/sase/commit/fb16cfaf85fdcc9a29ba9ba64c89f6344d7e3d2e) | feat(xprompt): add project-scoped repo mention catalog | [sase-p2.1](sase-p2.1.md) | 2026-08-17 18:59:46 EDT |
+| sase | [`6c41322`](https://github.com/sase-org/sase/commit/6c4132221e506c72171827e40d9e52693b167d7c) | feat(ace): highlight repo names in the prompt as lavender links | [sase-p2.2](sase-p2.2.md) | 2026-08-17 20:52:32 EDT |

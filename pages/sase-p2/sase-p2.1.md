@@ -19,7 +19,7 @@ catalog: build the project-scoped repo mention catalog — identifier selection 
 
 ## Dependencies
 
-- **Blocks:** [sase-p2.2](sase-p2.2.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p2.2](sase-p2.2.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
