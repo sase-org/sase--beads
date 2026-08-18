@@ -13,7 +13,7 @@ docs-verify: document the registry and required-plugin config, add the glossary 
 
 ## Dependencies
 
-- **Depends on:** [sase-p3.11](sase-p3.11.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p3.11](sase-p3.11.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.13](sase-p3.13.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
