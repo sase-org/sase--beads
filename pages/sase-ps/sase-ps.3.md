@@ -24,7 +24,7 @@ stats: update the duplicated runner-eligibility predicate in the sase-core Rust 
 ## Dependencies
 
 - **Depends on:** [sase-ps.1](sase-ps.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-ps.4](sase-ps.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-ps.4](sase-ps.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

@@ -20,7 +20,7 @@ display: make the ACE capacity chip, statistics methodology text, wait modal, an
 ## Dependencies
 
 - **Depends on:** [sase-ps.1](sase-ps.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-ps.4](sase-ps.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-ps.4](sase-ps.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
