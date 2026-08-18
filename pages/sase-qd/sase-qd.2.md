@@ -23,7 +23,7 @@ pane-display: give ProjectsPane a reusable off-thread current-project resolve (r
 
 ## Dependencies
 
-- **Blocks:** [sase-qd.3](sase-qd.3.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-qd.3](sase-qd.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
