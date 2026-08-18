@@ -24,7 +24,7 @@ Every new task bead carries a required, plugin-extensible `task_type` whose decl
 | [sase-p3.2](sase-p3.2.md) | Task-type spec validation, digest, and body rendering in Rust | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.3](sase-p3.3.md) | Required plugin prefix for every \`use:\` field | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.4](sase-p3.4.md) | Required-plugin project config and graded enforcement | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.6](sase-p3.6.md) | Builtin task types and the \`sase bead task-type\` command group | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.7](sase-p3.7.md) | Typed task creation, field values, and the rendered body block | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.8](sase-p3.8.md) | Task-type chips on every bead surface | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n7["sase-p3.2: Task-type spec validation, digest, and body rendering in Rust [closed]"]
     n8["sase-p3.3: Required plugin prefix for every `use:` field [closed]"]
     n9["sase-p3.4: Required-plugin project config and graded enforcement [closed]"]
-    n10["sase-p3.5: Task-type discovery, catalog assembly, and diagnostics [in_progress]"]
+    n10["sase-p3.5: Task-type discovery, catalog assembly, and diagnostics [closed]"]
     n11["sase-p3.6: Builtin task types and the `sase bead task-type` command group [in_progress]"]
     n12["sase-p3.7: Typed task creation, field values, and the rendered body block [in_progress]"]
     n13["sase-p3.8: Task-type chips on every bead surface [in_progress]"]
@@ -98,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
 | [bbugyi200.athena.sase-p3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p3.3.md) | [sase-p3.3](sase-p3.3.md) | 1 |
 | [bbugyi200.athena.sase-p3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.4/README.md) | [sase-p3.4](sase-p3.4.md) | 1 |
-| [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 0 |
+| [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 1 |
 | [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 0 |
 | [bbugyi200.athena.sase-p3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.7/README.md) | [sase-p3.7](sase-p3.7.md) | 0 |
 | [bbugyi200.athena.sase-p3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.8/README.md) | [sase-p3.8](sase-p3.8.md) | 0 |
@@ -113,3 +113,4 @@ flowchart TD
 | sase-core | [`sase-core@82b10b5`](https://github.com/sase-org/sase-core/commit/82b10b5e43da7a1828e97554ae4a1416f3946e74) | feat(task\_type): add spec validation, digest, and body rendering | [sase-p3.2](sase-p3.2.md) | 2026-08-17 19:47:28 EDT |
 | sase | [`54da09b`](https://github.com/sase-org/sase/commit/54da09ba5c0aeca06d27ff6b7c8bbfd75c7925ba) | feat(config)!: require plugin prefix on every use: field | [sase-p3.3](sase-p3.3.md) | 2026-08-17 21:18:39 EDT |
 | sase | [`1e59c50`](https://github.com/sase-org/sase/commit/1e59c50e777002c9f573c78da43f7f09cdccddd7) | feat(plugins): add plugins.required config and fail-closed enforcement | [sase-p3.4](sase-p3.4.md) | 2026-08-17 22:12:55 EDT |
+| sase | [`3aedb97`](https://github.com/sase-org/sase/commit/3aedb971fe6e855490b0b23ce3a563e38a6b2186) | feat(task-types): add task-type discovery, catalog assembly, and diagnostics | [sase-p3.5](sase-p3.5.md) | 2026-08-17 22:48:31 EDT |

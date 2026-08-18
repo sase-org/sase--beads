@@ -21,7 +21,7 @@ plugins-required: add the `plugins.required` project config section, resolve it 
 
 - **Blocks:** [sase-p3.11](sase-p3.11.md) ◐ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.3](sase-p3.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p3.5](sase-p3.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.5](sase-p3.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

@@ -14,7 +14,7 @@ github-type: register the agent-uncreatable `github` task type from the sase-git
 ## Dependencies
 
 - **Blocks:** [sase-p3.13](sase-p3.13.md) ◐ · ⧖ 2026-08-17
-- **Depends on:** [sase-p3.5](sase-p3.5.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p3.5](sase-p3.5.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p3.7](sase-p3.7.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

@@ -20,7 +20,7 @@ core-type-spec: add the task-type spec wire, its validators, its stable digest, 
 ## Dependencies
 
 - **Depends on:** [sase-p3.1](sase-p3.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p3.5](sase-p3.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.5](sase-p3.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
