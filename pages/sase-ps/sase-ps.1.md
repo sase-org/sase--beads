@@ -20,7 +20,7 @@ count: separate slot occupancy from slot admission in the pure runner-slot core,
 ## Dependencies
 
 - **Blocks:** [sase-ps.2](sase-ps.2.md) ◐ · ⧖ 2026-08-18
-- **Blocks:** [sase-ps.3](sase-ps.3.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-ps.3](sase-ps.3.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-ps.4](sase-ps.4.md) ◐ · ⧖ 2026-08-18
 
 ## Agents

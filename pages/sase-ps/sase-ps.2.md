@@ -20,4 +20,4 @@ display: make the ACE capacity chip, statistics methodology text, wait modal, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ps.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.2/README.md) | [sase-ps.2](sase-ps.2.md) | 0 |
+| [bbugyi200.athena.sase-ps.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ps.2.md) | [sase-ps.2](sase-ps.2.md) | 0 |
