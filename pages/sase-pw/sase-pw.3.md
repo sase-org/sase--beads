@@ -23,7 +23,7 @@ config: add the `ace.current_project` config block (indicator, seed_filters, see
 
 - **Blocks:** [sase-pw.4](sase-pw.4.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pw.5](sase-pw.5.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pw.6](sase-pw.6.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pw.6](sase-pw.6.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pw.7](sase-pw.7.md) ◐ · ⧖ 2026-08-18
 
 ## Agents

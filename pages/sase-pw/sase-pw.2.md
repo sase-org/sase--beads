@@ -22,7 +22,7 @@ palette: add `sase.ace.tui.project_styles` with a curated accent palette and a h
 ## Dependencies
 
 - **Blocks:** [sase-pw.4](sase-pw.4.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pw.8](sase-pw.8.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pw.8](sase-pw.8.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
