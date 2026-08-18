@@ -19,7 +19,7 @@ Selecting a gate option opens a wide, dedicated input panel that shows exactly t
 | [sase-q3.2](sase-q3.2.md) | The GateInputPanel modal and its pure request model | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q3.3](sase-q3.3.md) | Route every gate submission through the panel | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q3.4](sase-q3.4.md) | Configurable panel keymaps and modal footers | ✓ closed | small | 2026-08-18 | 1 | 1 |
-| [sase-q3.5](sase-q3.5.md) | Panel styling, option input badges, and visual snapshots | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-q3.5](sase-q3.5.md) | Panel styling, option input badges, and visual snapshots | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q3.6](sase-q3.6.md) | Document the panel and its keys | ✓ closed | small | 2026-08-18 | 1 | 1 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-q3.2: The GateInputPanel modal and its pure request model [closed]"]
     n3["sase-q3.3: Route every gate submission through the panel [closed]"]
     n4["sase-q3.4: Configurable panel keymaps and modal footers [closed]"]
-    n5["sase-q3.5: Panel styling, option input badges, and visual snapshots [in_progress]"]
+    n5["sase-q3.5: Panel styling, option input badges, and visual snapshots [closed]"]
     n6["sase-q3.6: Document the panel and its keys [closed]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-q3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.2/README.md) | [sase-q3.2](sase-q3.2.md) | 1 |
 | [bbugyi200.athena.sase-q3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.3/README.md) | [sase-q3.3](sase-q3.3.md) | 1 |
 | [bbugyi200.athena.sase-q3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.4/README.md) | [sase-q3.4](sase-q3.4.md) | 1 |
-| [bbugyi200.athena.sase-q3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.5/README.md) | [sase-q3.5](sase-q3.5.md) | 0 |
+| [bbugyi200.athena.sase-q3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.5/README.md) | [sase-q3.5](sase-q3.5.md) | 1 |
 | [bbugyi200.athena.sase-q3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.6/README.md) | [sase-q3.6](sase-q3.6.md) | 1 |
 | [bbugyi200.athena.sase-q3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.land/README.md) | [sase-q3](README.md) | 0 |
 
@@ -67,3 +67,4 @@ flowchart TD
 | sase | [`ae29162`](https://github.com/sase-org/sase/commit/ae2916200c38bb7b969367eac1e2ea5347dd9e8c) | feat(tui): collect gate inputs in GateInputPanel | [sase-q3.3](sase-q3.3.md) | 2026-08-18 17:39:59 EDT |
 | sase | [`3f913c7`](https://github.com/sase-org/sase/commit/3f913c7b29516b4db7fb686fb959da587fb15b2b) | feat(tui): add remappable gate input-panel keymaps and footer hints | [sase-q3.4](sase-q3.4.md) | 2026-08-18 18:11:08 EDT |
 | sase | [`732e9cc`](https://github.com/sase-org/sase/commit/732e9ccf4ab1e9852b2ac8a43ab938dc6de29552) | docs(gate): document panel-based input collection and keys | [sase-q3.6](sase-q3.6.md) | 2026-08-18 18:36:52 EDT |
+| sase | [`11f7865`](https://github.com/sase-org/sase/commit/11f78656d780ddd4f546f9f044e13bf275517047) | feat(tui): style gate input panel and badge options that take input | [sase-q3.5](sase-q3.5.md) | 2026-08-18 19:13:28 EDT |
