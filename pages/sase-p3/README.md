@@ -60,7 +60,7 @@ WHY IT SURVIVED VERIFICATION: the visual suite is excluded from 'just test', 'ju
 
 REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 
-… and 4639 more characters
+… and 6867 more characters
 
 ## Phases
 
@@ -78,7 +78,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 | [sase-p3.5](sase-p3.5.md) | Task-type discovery, catalog assembly, and diagnostics | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.6](sase-p3.6.md) | Builtin task types and the \`sase bead task-type\` command group | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.7](sase-p3.7.md) | Typed task creation, field values, and the rendered body block | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.8](sase-p3.8.md) | Task-type chips on every bead surface | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.8](sase-p3.8.md) | Task-type chips on every bead surface | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.9](sase-p3.9.md) | Per-type corroboration thresholds | ✓ closed | small | 2026-08-17 | 1 | 1 |
 
 ## Lineage
@@ -98,7 +98,7 @@ flowchart TD
     n10["sase-p3.5: Task-type discovery, catalog assembly, and diagnostics [closed]"]
     n11["sase-p3.6: Builtin task types and the `sase bead task-type` command group [closed]"]
     n12["sase-p3.7: Typed task creation, field values, and the rendered body block [closed]"]
-    n13["sase-p3.8: Task-type chips on every bead surface [in_progress]"]
+    n13["sase-p3.8: Task-type chips on every bead surface [closed]"]
     n14["sase-p3.9: Per-type corroboration thresholds [closed]"]
     n0 --> n1
     n0 --> n2
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.5/README.md) | [sase-p3.5](sase-p3.5.md) | 1 |
 | [bbugyi200.athena.sase-p3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.6/README.md) | [sase-p3.6](sase-p3.6.md) | 1 |
 | [bbugyi200.athena.sase-p3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.7/README.md) | [sase-p3.7](sase-p3.7.md) | 1 |
-| [bbugyi200.athena.sase-p3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.8/README.md) | [sase-p3.8](sase-p3.8.md) | 0 |
+| [bbugyi200.athena.sase-p3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.8/README.md) | [sase-p3.8](sase-p3.8.md) | 1 |
 | [bbugyi200.athena.sase-p3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.9/README.md) | [sase-p3.9](sase-p3.9.md) | 1 |
 | [bbugyi200.athena.sase-p3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.land/README.md) | [sase-p3](README.md) | 0 |
 
@@ -171,3 +171,4 @@ flowchart TD
 | sase | [`2206e89`](https://github.com/sase-org/sase/commit/2206e89c74798383418a55e2e05a26af046cd214) | feat(task-types): snapshot the catalog and generate a task-types memory note | [sase-p3.10](sase-p3.10.md) | 2026-08-18 00:38:29 EDT |
 | sase | [`118a608`](https://github.com/sase-org/sase/commit/118a60836905cf08c8f226c610b6acec2e834880) | feat(external-mirror): stamp github task type on new mirrored issues | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:01:18 EDT |
 | sase | [`66b8844`](https://github.com/sase-org/sase/commit/66b8844340fcf5f519b0cadcc5373f0b5d6718bf) | feat(task-types): add per-type corroboration thresholds for task triage | [sase-p3.9](sase-p3.9.md) | 2026-08-18 01:15:18 EDT |
+| sase | [`1dc393a`](https://github.com/sase-org/sase/commit/1dc393a64647013fd936d31e8bfb9032be2780fa) | feat(task-types): add task-type chips across every bead surface | [sase-p3.8](sase-p3.8.md) | 2026-08-18 02:15:46 EDT |
