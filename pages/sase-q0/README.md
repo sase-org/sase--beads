@@ -16,7 +16,7 @@ Two SASE agents can never run in the same workspace checkout: workspace allocati
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-q0.1](sase-q0.1.md) | Durable RUNNING-field mutation ledger | ✓ closed | small | 2026-08-18 | 1 | 1 |
-| [sase-q0.2](sase-q0.2.md) | Atomic workspace allocation on every path | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-q0.2](sase-q0.2.md) | Atomic workspace allocation on every path | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q0.3](sase-q0.3.md) | Refuse destructive preparation of an occupied checkout | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-q0.4](sase-q0.4.md) | Detect and surface occupancy conflicts | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Two SASE agents can never run in the same workspace checkout: workspace allocati
 flowchart TD
     n0["sase-q0: Guarantee one agent per workspace [in_progress]"]
     n1["sase-q0.1: Durable RUNNING-field mutation ledger [closed]"]
-    n2["sase-q0.2: Atomic workspace allocation on every path [in_progress]"]
+    n2["sase-q0.2: Atomic workspace allocation on every path [closed]"]
     n3["sase-q0.3: Refuse destructive preparation of an occupied checkout [in_progress]"]
     n4["sase-q0.4: Detect and surface occupancy conflicts [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-q0.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-q0.1.md) | [sase-q0.1](sase-q0.1.md) | 1 |
-| [bbugyi200.athena.sase-q0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.2/README.md) | [sase-q0.2](sase-q0.2.md) | 0 |
+| [bbugyi200.athena.sase-q0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.2/README.md) | [sase-q0.2](sase-q0.2.md) | 1 |
 | [bbugyi200.athena.sase-q0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.3/README.md) | [sase-q0.3](sase-q0.3.md) | 0 |
 | [bbugyi200.athena.sase-q0.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.4/README.md) | [sase-q0.4](sase-q0.4.md) | 0 |
 | [bbugyi200.athena.sase-q0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q0.land/README.md) | [sase-q0](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`725cdb1`](https://github.com/sase-org/sase/commit/725cdb11da3778e48705e5fc8e71f6f39f807d78) | feat(running-field): record every workspace claim mutation to a durable ledger | [sase-q0.1](sase-q0.1.md) | 2026-08-18 14:25:25 EDT |
+| sase | [`75e1db1`](https://github.com/sase-org/sase/commit/75e1db1ef0e593a0a84f3b5bd7e6e13f3b66b102) | fix(workspace): claim slots before materializing checkouts | [sase-q0.2](sase-q0.2.md) | 2026-08-18 14:33:03 EDT |
