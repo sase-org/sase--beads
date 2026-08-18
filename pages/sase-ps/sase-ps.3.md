@@ -30,10 +30,11 @@ stats: update the duplicated runner-eligibility predicate in the sase-core Rust 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ps.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.3/README.md) | [sase-ps.3](sase-ps.3.md) | 1 |
+| [bbugyi200.athena.sase-ps.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.3/README.md) | [sase-ps.3](sase-ps.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@769b9bc`](https://github.com/sase-org/sase-core/commit/769b9bc8fb2195e8deb91a67044f98e937e7448c) | fix(agent\_stats): count family shells in historical runner occupancy | [sase-ps.3](sase-ps.3.md) | 2026-08-18 12:00:26 EDT |
+| sase | [`746c807`](https://github.com/sase-org/sase/commit/746c807051fc11b107bec62c475cd738d8716296) | test(stats): assert Rust historical occupancy matches Python slot count | [sase-ps.3](sase-ps.3.md) | 2026-08-18 12:03:38 EDT |
