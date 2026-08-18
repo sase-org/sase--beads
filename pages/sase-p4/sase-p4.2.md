@@ -17,7 +17,7 @@ launch: add the leased, detached submission helper that runs `sase bead work <ep
 
 ## Dependencies
 
-- **Blocks:** [sase-p4.3](sase-p4.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p4.3](sase-p4.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
