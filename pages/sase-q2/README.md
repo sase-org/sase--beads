@@ -1,0 +1,120 @@
+# Bead: sase-q2 — A wedged pytest run holds its worker-token grant forever: the suite gate bounds waiters but never bounds holders
+
+[Bead Pages](../README.md) / sase-q2
+
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **Task type:** ⨯ bug · **+1 reports:** +1
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-ps.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.land/README.md) · **Assignee:** `sase-q2` · **Size:** medium
+**Created:** 2026-08-18 14:42:33 EDT · **Closed:** 2026-08-18 16:16:56 EDT
+
+## Description
+
+The pytest suite gate reclaims a token only when the holding process *dies* -- `flock` on `token-NNN.lock` does that for free. There is no bound on how long a *live* process may hold a grant, and no health, age, or progress check on a holder. One wedged run therefore removes its whole grant from the host pool permanently, and the only recovery is a human noticing and killing the process.
+
+Observed live on athena: a `tools/run_pytest scoped` run (pid 1172645, workspace sase_12) has held 14 of the host's 32 tokens continuously for over 27 hours. A scoped run normally finishes in minutes.
+
+The gate already computes and prints each holder's `age` in its waiting and timeout messages (`_format_holders` / `_holder_identity_and_text` in `tests/_suite_gate.py`), so the diagnostic signal exists; nothing consumes it.
+
+Worth deciding as part of the fix, rather than assumed here: whether a holder past some age is *reported* (loudly, e.g. in the waiting message and `just doctor`), *reclaimed* (its tokens stolen back into the pool), or *killed*. Stealing tokens from a process that is merely slow rather than wedged would oversubscribe the host, so a progress heartbeat written alongside the existing `started` field is probably the honest signal, with a generous age cap as the backstop. `sase-ib.6` ('Fair worker allocation when agents run in parallel') built the fair-split behavior this would extend.
+
+FOUND BY the sase-ps land agent (2026-08-18) while running `just test-visual` and `just test` as part of that epic's landing verification; sase-ps (runner-slot occupancy) touches nothing in the pytest suite gate. Checked against the in-progress epic list: no active epic owns the suite gate -- sase-j7 is process-global state leaking between tests, sase-q0 is workspace claims, sase-m4 is GitHub Actions -- so this is filed as a standalone task rather than attached to an epic.
+
+---
+
+\## Bug
+
+- **Location:** `tests/_suite_gate.py (WorkerTokenLease.acquire / _try_acquire_token / _scan_active_holders)`
+
+On athena, 2026-08-18, observed directly in the live token directory:
+
+    $ cat /tmp/sase-pytest-tokens-1000/pool.lock
+    {"capacity": 32, "explicit": false, ...}
+
+    $ for f in /tmp/sase-pytest-tokens-1000/token-0*.lock; do head -c 200 $f; done
+    token-000..token-013: {"argv": "tools/run_pytest scoped", "budget": 32,
+      "granted": 14, "lease_id": "1172645-1786980248731743991", "pid": 1172645,
+      "started": 1786980248.73 ...}
+
+    $ ps -p 1172645 -o pid,lstart,etime,stat
+        PID                  STARTED     ELAPSED STAT
+    1172645 Mon Aug 17 11:24:07 2026  1-03:17:32 Sl
+
+One `tools/run_pytest scoped` run in workspace sase_12 has held tokens 000-013 --
+14 of the host's 32 -- continuously since 2026-08-17 11:24 EDT, over 27 hours. It is
+alive (state `Sl`), so `flock` never releases its tokens, but a scoped run completes in
+minutes; this one is wedged and will hold its grant until someone kills it by hand.
+
+Any run that then asks for tokens sees the pool exhausted and stalls:
+
+    $ just test
+    Waiting for a SASE pytest worker-token grant of 4-7 worker tokens; 0 tokens were
+    available below the floor. Current holders: 14 tokens: pid 1172645, grant 14,
+    age 98251s, argv 'tools/run_pytest scoped'; 6 tokens: pid 173872, grant 6,
+    age 167s, argv 'tools/run_pytest visual'; ...
+
+The waiting message already prints `age` for every holder, so the gate has the exact
+signal it needs and simply does not act on it.
+
+ROOT CAUSE: `WorkerTokenLease.acquire` in `tests/_suite_gate.py` bounds only the
+*waiter* -- `_DEFAULT_TIMEOUT_SECONDS = 45 * 60`, overridable via
+`SASE_TEST_GATE_TIMEOUT` -- and never bounds a *holder*. Reclamation is entirely
+implicit in `flock`: `_try_acquire_token` takes an exclusive lock on
+`token-NNN.lock`, so the kernel frees the token when the holding process dies. That
+covers a crashed or killed run and covers nothing else. A live-but-wedged process
+holds its full grant forever, and `_scan_active_holders` reads holder metadata
+(including `started`) purely to render the waiting/timeout message.
+
+
+Every agent on the host, for as long as the wedged run survives. The stuck grant is
+44% of the pool (14/32), so the effective host-wide test capacity is silently almost
+halved. With three other legitimate runs active, the pool hit zero and new runs got
+nothing.
+
+Concretely, during this epic's landing verification a `just test-visual` run sat
+blocked for roughly five minutes before capacity freed, and the follow-up `just test`
+run was still parked at 0 available tokens minutes later. Neither run did anything
+wrong; the only reason they eventually proceeded is that *other* runs finished. The
+45-minute `SASE_TEST_GATE_TIMEOUT` then turns a starved wait into a `pytest.UsageError`
+rather than a test result, so `just check` and `just check-full` fail for a reason that
+has nothing to do with the tree under test -- which is exactly the misattribution
+`sase-lc` (dirty-workspace flake attribution) already had to fix once for a different
+cause.
+
+Nothing surfaces the condition either. The wedged holder is visible only to whoever
+happens to read a waiting message and notice a five-digit `age`, so the pool can stay
+half-consumed for a day, as it has here, before anyone looks.
+
+## Notes
+
+[2026-08-18T18:42:56Z · sase-ps.land] RELATED: sase-lc — 'Flake gate counts audit failures from dirty workspaces, so one agent's in-progress edit blocks everyone's check-full'. Same failure shape (one agent's local state degrades every other agent's verification gate) and same misattribution risk, but a different mechanism; that fix scoped flake attribution, this one is about token-lease reclamation.
+
+[2026-08-18T18:43:13Z · sase-ps.land] RELATED: sase-ib.6 — the closed phase that built the host-global worker-token pool's fair split between concurrent runs. It is the code this task extends: fair allocation among live claimants already works, what is missing is any bound on a claimant that stops making progress.
+
+[2026-08-18T20:16:56Z · sase-q2] Live holders are now bounded. Decision: report + reclaim, not process-group kill. Holder metadata gained heartbeat/progress/starttime; pytest collection and completed calls write a progress sidecar (and refresh token files when this process holds the FDs). A holder-side watchdog self-releases if SASE_TEST_GATE_STALE (default 30m without progress) or SASE_TEST_GATE_MAX_HOLD (default 4h even with heartbeats) fires; a waiter SIGTERMs then SIGKILLs a still-held reclaimable PID after starttime identity check, skipping self. Waiting/timeout messages print age, heartbeat age, and reclaim reason. After execv, configure_suite_gate adopts inherited FDs only when LEASE_PID matches (xdist workers and nested pytest do not unlock the controller). Verified: 57 tests/test_suite_gate.py under xdist -n 4; 5 tests/test_suite_gate_integration.py; ruff + mypy clean. Live reclaim on this host: acquire signaled pid 1172645 (the original 27h 14-token tools/run_pytest scoped holder) for max-hold and the pool admitted a 12-worker suite. just check passed fmt/ruff/mypy/flags/pyscripts/test-waits/changelog/terminology and failed only lint (symvision) on pre-existing Justfile --epic-symbol sase-pw.8(project_accent_map); recorded as DISCOVERED ISSUE on in-progress epic sase-pw, not caused by this change.
+
+[2026-08-18T20:19:00Z · sase-q2] Verified the uncommitted holder-bound suite-gate fix: progress heartbeats on collection and completed calls, SASE_TEST_GATE_STALE (30m) and SASE_TEST_GATE_MAX_HOLD (4h) reclaim via holder watchdog self-release and waiter SIGTERM/SIGKILL after /proc starttime check, waiting/timeout messages include age/heartbeat/reclaim reason, execv adopts inherited lock FDs only when LEASE_PID matches. Closing again so the published close is confirmed before commit.
+
+## +1 Evidence
+
+> **+1** by `06n` · 2026-08-18 15:39:32 EDT
+> **Observed since:** 2026-08-18 15:17:47 EDT
+>
+> Independent reproduction 2026-08-18 while waiting on just test-visual for Alias History usage-strip goldens (workspace sase_23). Gate printed: 14 tokens pid 1172645 grant 14 age 101633s argv 'tools/run_pytest scoped', plus three other live scoped holders (6/4/8 tokens). Visual suite sat blocked with 0 tokens available below the floor. Same wedged holder described in the original report; age has grown past 28h. Did not kill the process.
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-q2: A wedged pytest run holds its worker-token grant forever: the suite gate bounds waiters but never bounds holders [closed]"]
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-q2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q2/README.md) | [sase-q2](README.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f7e6acb`](https://github.com/sase-org/sase/commit/f7e6acbf604a3515ab66d1587462ba89852d195e) | fix(tests): reclaim wedged suite-gate worker-token grants | [sase-q2](README.md) | 2026-08-18 16:19:54 EDT |
