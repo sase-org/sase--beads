@@ -22,7 +22,7 @@ reads: repoint every flag-domain read path — due-state, the key and countdown 
 ## Dependencies
 
 - **Depends on:** [sase-pv.2](sase-pv.2.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pv.5](sase-pv.5.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pv.5](sase-pv.5.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-pv.6](sase-pv.6.md) ◐ · ⧖ 2026-08-18
 
 ## Agents

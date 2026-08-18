@@ -14,7 +14,7 @@ migrate: rewrite the five existing flag bead event streams in place into typed t
 ## Dependencies
 
 - **Depends on:** [sase-pv.3](sase-pv.3.md) ✓ · ⧖ 2026-08-18
-- **Depends on:** [sase-pv.5](sase-pv.5.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pv.5](sase-pv.5.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-pv.6](sase-pv.6.md) ◐ · ⧖ 2026-08-18
 - **Blocks:** [sase-pv.8](sase-pv.8.md) ◐ · ⧖ 2026-08-18
 
