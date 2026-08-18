@@ -13,7 +13,7 @@ shared: classify foreign-agent and already-published transitions in machine-wide
 
 ## Dependencies
 
-- **Depends on:** [sase-p5.3](sase-p5.3.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p5.3](sase-p5.3.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p5.5](sase-p5.5.md) ◐ · ⧖ 2026-08-17
 
 ## Agents

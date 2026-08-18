@@ -18,7 +18,7 @@ ledger: persist every commit SHA this run created or finalized into the agent ar
 ## Dependencies
 
 - **Depends on:** [sase-p5.1](sase-p5.1.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p5.3](sase-p5.3.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p5.3](sase-p5.3.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
