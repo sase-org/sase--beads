@@ -69,7 +69,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 | [sase-p3.1](sase-p3.1.md) | Task type on the bead wire and store | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.10](sase-p3.10.md) | Committed catalog snapshot and the generated task-type memory note | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.11](sase-p3.11.md) | Missing-plugin gate offering to install | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ✓ closed | small | 2026-08-17 | 1 | 1 |
+| [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ✓ closed | small | 2026-08-17 | 1 | 2 |
 | [sase-p3.13](sase-p3.13.md) | Make \`task\_type\` required end to end | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 | [sase-p3.14](sase-p3.14.md) | Documentation, glossary, and end-to-end verification | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
 | [sase-p3.2](sase-p3.2.md) | Task-type spec validation, digest, and body rendering in Rust | ✓ closed | medium | 2026-08-17 | 1 | 1 |
@@ -143,7 +143,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.1/README.md) | [sase-p3.1](sase-p3.1.md) | 1 |
 | [bbugyi200.athena.sase-p3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.10/README.md) | [sase-p3.10](sase-p3.10.md) | 1 |
 | [bbugyi200.athena.sase-p3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.11/README.md) | [sase-p3.11](sase-p3.11.md) | 1 |
-| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 1 |
+| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 2 |
 | [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 0 |
 | [bbugyi200.athena.sase-p3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.14/README.md) | [sase-p3.14](sase-p3.14.md) | 0 |
 | [bbugyi200.athena.sase-p3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.2/README.md) | [sase-p3.2](sase-p3.2.md) | 1 |
@@ -170,3 +170,4 @@ flowchart TD
 | sase | [`6f5df19`](https://github.com/sase-org/sase/commit/6f5df19d6de0af235418d1e7ef93ef847aa99c4a) | feat(task-types): create typed tasks with field values and rendered bodies | [sase-p3.7](sase-p3.7.md) | 2026-08-18 00:27:43 EDT |
 | sase | [`2206e89`](https://github.com/sase-org/sase/commit/2206e89c74798383418a55e2e05a26af046cd214) | feat(task-types): snapshot the catalog and generate a task-types memory note | [sase-p3.10](sase-p3.10.md) | 2026-08-18 00:38:29 EDT |
 | sase | [`118a608`](https://github.com/sase-org/sase/commit/118a60836905cf08c8f226c610b6acec2e834880) | feat(external-mirror): stamp github task type on new mirrored issues | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:01:18 EDT |
+| sase-github | [`sase-github@a68b879`](https://github.com/sase-org/sase-github/commit/a68b879ba9a8a0ca5dc6f253a0c66563f9a90d4b) | feat: register agent-uncreatable github task type | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:03:37 EDT |

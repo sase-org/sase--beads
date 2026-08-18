@@ -33,10 +33,11 @@ github-type: register the agent-uncreatable `github` task type from the sase-git
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 1 |
+| [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`118a608`](https://github.com/sase-org/sase/commit/118a60836905cf08c8f226c610b6acec2e834880) | feat(external-mirror): stamp github task type on new mirrored issues | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:01:18 EDT |
+| sase-github | [`sase-github@a68b879`](https://github.com/sase-org/sase-github/commit/a68b879ba9a8a0ca5dc6f253a0c66563f9a90d4b) | feat: register agent-uncreatable github task type | [sase-p3.12](sase-p3.12.md) | 2026-08-18 01:03:37 EDT |
