@@ -14,7 +14,7 @@ docs: retire the "serial family follow-ups do not consume slots" claim everywher
 ## Dependencies
 
 - **Depends on:** [sase-ps.1](sase-ps.1.md) ✓ · ⧖ 2026-08-18
-- **Depends on:** [sase-ps.2](sase-ps.2.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-ps.2](sase-ps.2.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-ps.3](sase-ps.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents

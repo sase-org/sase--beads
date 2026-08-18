@@ -16,7 +16,7 @@ A running sase agent holds exactly one runner slot for as long as any of its she
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-ps.1](sase-ps.1.md) | Occupancy rule and live admission gate | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-ps.2](sase-ps.2.md) | Occupancy parity across ACE and agent listings | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-ps.2](sase-ps.2.md) | Occupancy parity across ACE and agent listings | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-ps.3](sase-ps.3.md) | Rust core parity for historical runner occupancy | ✓ closed | medium | 2026-08-18 | 1 | 2 |
 | [sase-ps.4](sase-ps.4.md) | Documentation sweep and cross-surface consistency check | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
 
@@ -26,7 +26,7 @@ A running sase agent holds exactly one runner slot for as long as any of its she
 flowchart TD
     n0["sase-ps: Count monitors and post-handoff family shells against max_running_agents [in_progress]"]
     n1["sase-ps.1: Occupancy rule and live admission gate [closed]"]
-    n2["sase-ps.2: Occupancy parity across ACE and agent listings [in_progress]"]
+    n2["sase-ps.2: Occupancy parity across ACE and agent listings [closed]"]
     n3["sase-ps.3: Rust core parity for historical runner occupancy [closed]"]
     n4["sase-ps.4: Documentation sweep and cross-surface consistency check [in_progress]"]
     n0 --> n1
@@ -45,7 +45,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ps.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.1/README.md) | [sase-ps.1](sase-ps.1.md) | 1 |
-| [bbugyi200.athena.sase-ps.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ps.2.md) | [sase-ps.2](sase-ps.2.md) | 0 |
+| [bbugyi200.athena.sase-ps.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ps.2.md) | [sase-ps.2](sase-ps.2.md) | 1 |
 | [bbugyi200.athena.sase-ps.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.3/README.md) | [sase-ps.3](sase-ps.3.md) | 2 |
 | [bbugyi200.athena.sase-ps.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.4/README.md) | [sase-ps.4](sase-ps.4.md) | 0 |
 | [bbugyi200.athena.sase-ps.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ps.land/README.md) | [sase-ps](README.md) | 0 |
@@ -57,3 +57,4 @@ flowchart TD
 | sase | [`63accbf`](https://github.com/sase-org/sase/commit/63accbfc9979f46e1ee39204f3786a269de8c624) | fix(runner-slots): count monitors and post-handoff shells against max\_running\_agents | [sase-ps.1](sase-ps.1.md) | 2026-08-18 11:02:26 EDT |
 | sase-core | [`sase-core@769b9bc`](https://github.com/sase-org/sase-core/commit/769b9bc8fb2195e8deb91a67044f98e937e7448c) | fix(agent\_stats): count family shells in historical runner occupancy | [sase-ps.3](sase-ps.3.md) | 2026-08-18 12:00:26 EDT |
 | sase | [`746c807`](https://github.com/sase-org/sase/commit/746c807051fc11b107bec62c475cd738d8716296) | test(stats): assert Rust historical occupancy matches Python slot count | [sase-ps.3](sase-ps.3.md) | 2026-08-18 12:03:38 EDT |
+| sase | [`f9a1afa`](https://github.com/sase-org/sase/commit/f9a1afae747f49021ca96a203ca76a8ace3a08e9) | fix(agent): count runner-slot occupancy the same way in ACE and agent listing | [sase-ps.2](sase-ps.2.md) | 2026-08-18 12:07:08 EDT |
