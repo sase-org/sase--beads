@@ -11,6 +11,10 @@
 
 cli: add the `sase project current` subcommand with colored and `--json` output so the resolved current project is inspectable outside the TUI.
 
+## Notes
+
+[2026-08-18T19:33:09Z · sase-pw.8--1] PROPOSED FOLLOW-UP: just check-full is red on current master because tests/feature_flags/test_integrity.py::test_kind_mismatch_when_default_disagrees_with_kind raises TypeError: demo_flag() got an unexpected keyword argument default after the flag-kind collapse. Not caused by this CLI phase; sase-ps land already recorded it on sase-pv.
+
 ## Dependencies
 
 - **Depends on:** [sase-pw.1](sase-pw.1.md) ✓ · ⧖ 2026-08-18

@@ -14,7 +14,7 @@ polish: add the top-bar PNG snapshot, refresh help/command-palette wording for s
 ## Dependencies
 
 - **Depends on:** [sase-pw.4](sase-pw.4.md) ✓ · ⧖ 2026-08-18
-- **Depends on:** [sase-pw.5](sase-pw.5.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pw.5](sase-pw.5.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-pw.6](sase-pw.6.md) ◐ · ⧖ 2026-08-18
 - **Depends on:** [sase-pw.7](sase-pw.7.md) ◐ · ⧖ 2026-08-18
 - **Depends on:** [sase-pw.8](sase-pw.8.md) ◐ · ⧖ 2026-08-18
