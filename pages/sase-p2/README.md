@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p2.2.md) | [sase-p2.2](sase-p2.2.md) | 1 |
 | [bbugyi200.athena.sase-p2.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p2.3.md) | [sase-p2.3](sase-p2.3.md) | 1 |
 | [bbugyi200.athena.sase-p2.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p2.4.md) | [sase-p2.4](sase-p2.4.md) | 1 |
-| [bbugyi200.athena.sase-p2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p2.land/README.md) | [sase-p2](README.md) | 0 |
+| [bbugyi200.athena.sase-p2.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p2.land.md) | [sase-p2](README.md) | 1 |
 
 ## Commits
 
@@ -66,3 +66,4 @@ flowchart TD
 | sase | [`6c41322`](https://github.com/sase-org/sase/commit/6c4132221e506c72171827e40d9e52693b167d7c) | feat(ace): highlight repo names in the prompt as lavender links | [sase-p2.2](sase-p2.2.md) | 2026-08-17 20:52:32 EDT |
 | sase | [`f54a911`](https://github.com/sase-org/sase/commit/f54a911753be1eed4a6576f4a14fdde7389940fe) | feat(ace): add K repo preview card for mentioned repos | [sase-p2.3](sase-p2.3.md) | 2026-08-17 22:03:01 EDT |
 | sase | [`fd2d71a`](https://github.com/sase-org/sase/commit/fd2d71afc6f26db5b086dfa6063f2a98e4f4b5f1) | feat(ace): jump to repo checkout with Ctrl+\] | [sase-p2.4](sase-p2.4.md) | 2026-08-17 22:40:56 EDT |
+| sase | [`9a3327a`](https://github.com/sase-org/sase/commit/9a3327a3b5053fea8c43e1feef6cd2963000d793) | test(ace): expect the repo-aware Ctrl+\] help label | [sase-p2](README.md) | 2026-08-17 23:38:48 EDT |
