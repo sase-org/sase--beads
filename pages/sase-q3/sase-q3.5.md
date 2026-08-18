@@ -13,7 +13,7 @@ chrome: style the panel so field text does not wrap, badge every option that dec
 
 ## Dependencies
 
-- **Depends on:** [sase-q3.4](sase-q3.4.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-q3.4](sase-q3.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

@@ -18,7 +18,7 @@ Selecting a gate option opens a wide, dedicated input panel that shows exactly t
 | [sase-q3.1](sase-q3.1.md) | Vim editing for every typed freeform field | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q3.2](sase-q3.2.md) | The GateInputPanel modal and its pure request model | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-q3.3](sase-q3.3.md) | Route every gate submission through the panel | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-q3.4](sase-q3.4.md) | Configurable panel keymaps and modal footers | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
+| [sase-q3.4](sase-q3.4.md) | Configurable panel keymaps and modal footers | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-q3.5](sase-q3.5.md) | Panel styling, option input badges, and visual snapshots | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 | [sase-q3.6](sase-q3.6.md) | Document the panel and its keys | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
 
@@ -30,7 +30,7 @@ flowchart TD
     n1["sase-q3.1: Vim editing for every typed freeform field [closed]"]
     n2["sase-q3.2: The GateInputPanel modal and its pure request model [closed]"]
     n3["sase-q3.3: Route every gate submission through the panel [closed]"]
-    n4["sase-q3.4: Configurable panel keymaps and modal footers [in_progress]"]
+    n4["sase-q3.4: Configurable panel keymaps and modal footers [closed]"]
     n5["sase-q3.5: Panel styling, option input badges, and visual snapshots [in_progress]"]
     n6["sase-q3.6: Document the panel and its keys [in_progress]"]
     n0 --> n1
@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-q3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.1/README.md) | [sase-q3.1](sase-q3.1.md) | 1 |
 | [bbugyi200.athena.sase-q3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.2/README.md) | [sase-q3.2](sase-q3.2.md) | 1 |
 | [bbugyi200.athena.sase-q3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.3/README.md) | [sase-q3.3](sase-q3.3.md) | 1 |
-| [bbugyi200.athena.sase-q3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.4/README.md) | [sase-q3.4](sase-q3.4.md) | 0 |
+| [bbugyi200.athena.sase-q3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.4/README.md) | [sase-q3.4](sase-q3.4.md) | 1 |
 | [bbugyi200.athena.sase-q3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.5/README.md) | [sase-q3.5](sase-q3.5.md) | 0 |
 | [bbugyi200.athena.sase-q3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.6/README.md) | [sase-q3.6](sase-q3.6.md) | 0 |
 | [bbugyi200.athena.sase-q3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-q3.land/README.md) | [sase-q3](README.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 | sase | [`c6bee00`](https://github.com/sase-org/sase/commit/c6bee0051d828ac1faa2818c8040a4463a8ee842) | feat(tui): use vim editors for every typed freeform field | [sase-q3.1](sase-q3.1.md) | 2026-08-18 16:31:37 EDT |
 | sase | [`76ac5bb`](https://github.com/sase-org/sase/commit/76ac5bbc61d62018047a5b6473803dadbe66bd39) | feat(tui): add GateInputPanel for per-option gate inputs | [sase-q3.2](sase-q3.2.md) | 2026-08-18 17:04:30 EDT |
 | sase | [`ae29162`](https://github.com/sase-org/sase/commit/ae2916200c38bb7b969367eac1e2ea5347dd9e8c) | feat(tui): collect gate inputs in GateInputPanel | [sase-q3.3](sase-q3.3.md) | 2026-08-18 17:39:59 EDT |
+| sase | [`3f913c7`](https://github.com/sase-org/sase/commit/3f913c7b29516b4db7fb686fb959da587fb15b2b) | feat(tui): add remappable gate input-panel keymaps and footer hints | [sase-q3.4](sase-q3.4.md) | 2026-08-18 18:11:08 EDT |

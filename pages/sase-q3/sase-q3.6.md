@@ -13,7 +13,7 @@ docs: update the notifications gate-review and gate-inputs prose, the gate keyma
 
 ## Dependencies
 
-- **Depends on:** [sase-q3.4](sase-q3.4.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-q3.4](sase-q3.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

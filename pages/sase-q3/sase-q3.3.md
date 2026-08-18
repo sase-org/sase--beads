@@ -24,7 +24,7 @@ wire: make GateBranchControls open the panel when a selection needs typed input,
 ## Dependencies
 
 - **Depends on:** [sase-q3.2](sase-q3.2.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-q3.4](sase-q3.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q3.4](sase-q3.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
