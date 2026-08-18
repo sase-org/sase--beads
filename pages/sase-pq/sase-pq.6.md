@@ -22,7 +22,7 @@ refresh: fold the frozen display block into the reconciler's presentation finger
 ## Dependencies
 
 - **Depends on:** [sase-pq.5](sase-pq.5.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pq.7](sase-pq.7.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pq.7](sase-pq.7.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

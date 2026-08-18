@@ -22,7 +22,7 @@ detail: render the declared chip as its own row in the notification modal's gate
 ## Dependencies
 
 - **Depends on:** [sase-pq.1](sase-pq.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pq.7](sase-pq.7.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pq.7](sase-pq.7.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
