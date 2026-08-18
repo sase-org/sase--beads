@@ -67,7 +67,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-p3.1](sase-p3.1.md) | Task type on the bead wire and store | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p3.10](sase-p3.10.md) | Committed catalog snapshot and the generated task-type memory note | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p3.10](sase-p3.10.md) | Committed catalog snapshot and the generated task-type memory note | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.11](sase-p3.11.md) | Missing-plugin gate offering to install | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p3.12](sase-p3.12.md) | The \`github\` task type and mirror wiring | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
 | [sase-p3.13](sase-p3.13.md) | Make \`task\_type\` required end to end | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
@@ -87,7 +87,7 @@ REPRODUCTION: SASE_PYTEST_WORKERS=1 just test-visual tests/ace/tui/visual/t
 flowchart TD
     n0["sase-p3: Plugin-extensible task bead types [in_progress]"]
     n1["sase-p3.1: Task type on the bead wire and store [closed]"]
-    n2["sase-p3.10: Committed catalog snapshot and the generated task-type memory note [in_progress]"]
+    n2["sase-p3.10: Committed catalog snapshot and the generated task-type memory note [closed]"]
     n3["sase-p3.11: Missing-plugin gate offering to install [closed]"]
     n4["sase-p3.12: The `github` task type and mirror wiring [in_progress]"]
     n5["sase-p3.13: Make `task_type` required end to end [in_progress]"]
@@ -141,7 +141,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-p3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.1/README.md) | [sase-p3.1](sase-p3.1.md) | 1 |
-| [bbugyi200.athena.sase-p3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.10/README.md) | [sase-p3.10](sase-p3.10.md) | 0 |
+| [bbugyi200.athena.sase-p3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.10/README.md) | [sase-p3.10](sase-p3.10.md) | 1 |
 | [bbugyi200.athena.sase-p3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.11/README.md) | [sase-p3.11](sase-p3.11.md) | 1 |
 | [bbugyi200.athena.sase-p3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.12/README.md) | [sase-p3.12](sase-p3.12.md) | 0 |
 | [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 0 |
@@ -168,3 +168,4 @@ flowchart TD
 | sase | [`e4f28dd`](https://github.com/sase-org/sase/commit/e4f28dd57c9f9024d4face8cd48c3c36f2827eeb) | feat(plugins): offer a gate to install missing required plugins | [sase-p3.11](sase-p3.11.md) | 2026-08-17 23:04:14 EDT |
 | sase | [`0c4be02`](https://github.com/sase-org/sase/commit/0c4be02152b9c66b91c29c880c74c9bb50da2410) | feat(task-types): add builtin catalog and \`sase bead task-type\` | [sase-p3.6](sase-p3.6.md) | 2026-08-17 23:45:05 EDT |
 | sase | [`6f5df19`](https://github.com/sase-org/sase/commit/6f5df19d6de0af235418d1e7ef93ef847aa99c4a) | feat(task-types): create typed tasks with field values and rendered bodies | [sase-p3.7](sase-p3.7.md) | 2026-08-18 00:27:43 EDT |
+| sase | [`2206e89`](https://github.com/sase-org/sase/commit/2206e89c74798383418a55e2e05a26af046cd214) | feat(task-types): snapshot the catalog and generate a task-types memory note | [sase-p3.10](sase-p3.10.md) | 2026-08-18 00:38:29 EDT |
