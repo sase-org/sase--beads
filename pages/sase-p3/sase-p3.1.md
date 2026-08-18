@@ -19,7 +19,7 @@ core-bead-wire: add optional `task_type` and `task_type_fields` to the bead wire
 
 ## Dependencies
 
-- **Blocks:** [sase-p3.2](sase-p3.2.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p3.2](sase-p3.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p3.7](sase-p3.7.md) ◐ · ⧖ 2026-08-17
 
 ## Agents
