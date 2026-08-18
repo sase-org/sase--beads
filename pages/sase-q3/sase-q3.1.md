@@ -23,7 +23,7 @@ editors: give the shared TypedInputForm a masked single-line vim editor for secr
 
 ## Dependencies
 
-- **Blocks:** [sase-q3.2](sase-q3.2.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q3.2](sase-q3.2.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
