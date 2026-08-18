@@ -23,7 +23,7 @@ entry: claim `G` on the prompt `g` prefix table so `gG` and `<ctrl+g>G` both ope
 
 - **Depends on:** [sase-p1.5](sase-p1.5.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p1.6](sase-p1.6.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p1.8](sase-p1.8.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p1.8](sase-p1.8.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

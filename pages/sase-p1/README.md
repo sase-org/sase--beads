@@ -32,7 +32,7 @@ Since sase-p1.6 (Panel add and delete surfaces) is still in progress and is the 
 | [sase-p1.5](sase-p1.5.md) | Related-term travel, relation chips, and the back trail | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.6](sase-p1.6.md) | Panel add and delete surfaces | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p1.7](sase-p1.7.md) | Prompt keymap entry point and focus handoff | ✓ closed | small | 2026-08-17 | 1 | 1 |
-| [sase-p1.8](sase-p1.8.md) | Help, docs, and visual snapshots | ◐ in_progress | medium | 2026-08-17 | 1 | 0 |
+| [sase-p1.8](sase-p1.8.md) | Help, docs, and visual snapshots | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n5["sase-p1.5: Related-term travel, relation chips, and the back trail [closed]"]
     n6["sase-p1.6: Panel add and delete surfaces [closed]"]
     n7["sase-p1.7: Prompt keymap entry point and focus handoff [closed]"]
-    n8["sase-p1.8: Help, docs, and visual snapshots [in_progress]"]
+    n8["sase-p1.8: Help, docs, and visual snapshots [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.5/README.md) | [sase-p1.5](sase-p1.5.md) | 1 |
 | [bbugyi200.athena.sase-p1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p1.6.md) | [sase-p1.6](sase-p1.6.md) | 1 |
 | [bbugyi200.athena.sase-p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.7/README.md) | [sase-p1.7](sase-p1.7.md) | 1 |
-| [bbugyi200.athena.sase-p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.8/README.md) | [sase-p1.8](sase-p1.8.md) | 0 |
+| [bbugyi200.athena.sase-p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.8/README.md) | [sase-p1.8](sase-p1.8.md) | 1 |
 | [bbugyi200.athena.sase-p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p1.land/README.md) | [sase-p1](README.md) | 0 |
 
 ## Commits
@@ -89,3 +89,4 @@ flowchart TD
 | sase | [`fc882a1`](https://github.com/sase-org/sase/commit/fc882a1cce449ef40ee625a6669bbd8cbdc1b8aa) | feat(glossary): add relation-chip travel and the back trail | [sase-p1.5](sase-p1.5.md) | 2026-08-17 22:19:12 EDT |
 | sase | [`42f0db0`](https://github.com/sase-org/sase/commit/42f0db06debdf5d5ecc21e3e569c13c75f2cc28e) | feat(tui): add glossary panel add and delete surfaces | [sase-p1.6](sase-p1.6.md) | 2026-08-17 22:45:43 EDT |
 | sase | [`ad01e3c`](https://github.com/sase-org/sase/commit/ad01e3c60647c962db7a4f1f4df8dd2453cbd5e1) | feat(tui): open glossary panel from prompt gG and Ctrl+G G | [sase-p1.7](sase-p1.7.md) | 2026-08-17 23:15:45 EDT |
+| sase | [`d4594a4`](https://github.com/sase-org/sase/commit/d4594a41645e33fc471a093688079a5848a0922e) | feat(ace): document glossary panel and record PNG goldens | [sase-p1.8](sase-p1.8.md) | 2026-08-17 23:47:58 EDT |
