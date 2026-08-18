@@ -24,4 +24,10 @@ enforce: flip task creation to require a type in both the Rust core and the CLI 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 0 |
+| [bbugyi200.athena.sase-p3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p3.13/README.md) | [sase-p3.13](sase-p3.13.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@070a8a5`](https://github.com/sase-org/sase-core/commit/070a8a519d28a4d25a55bf6b4e83afdd1d09bb5a) | feat(bead)!: require an explicit task type on new task creation | [sase-p3.13](sase-p3.13.md) | 2026-08-18 02:32:46 EDT |
