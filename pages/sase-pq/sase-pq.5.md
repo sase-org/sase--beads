@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-pq](README.md) / sase-pq.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.060](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.060.md) · **Assignee:** `sase-pq.5` · **Size:** medium
-**Created:** 2026-08-18 09:38:06 EDT
+**Created:** 2026-08-18 09:38:06 EDT · **Closed:** 2026-08-18 11:39:36 EDT
 **Plan:** [202608/task\_type\_gate\_presentation.md](https://github.com/sase-org/sase--plans/blob/main/202608/task_type_gate_presentation.md)
 
 ## Description
@@ -21,6 +21,10 @@ Keying the freezing path off 'the subject bead is a task bead that has a task_ty
 
 Files this phase and the flag epic both touch: src/sase/scripts/_bead_task_triage_gates.py, src/sase/notification_gates/kind_validation/flag_triage.py. This epic lands first; the flag epic rebases onto whatever you land.
 
+[2026-08-18T15:39:36Z · sase-pq.5] Verified typed TaskTriage and BeadSnooze gates freeze task_type_display and declare chip, notes[1], type tag, and the **Task type:** preview fact from the frozen block; untyped gates stay byte-identical (no chip, no display key, tags=['bead','task']); unresolved slugs degrade to '?' + raw field names; forged chip/tag/second note and mutated or invalid task_type_display fail with the kind-specific presentation or payload code; display without task_type is rejected; preview description/notes recovery still works with the new metadata line and blank notes. just check passed (scoped escalated to the full suite because the Justfile dropped the now-consumed sase-pq.5 epic-symbols).
+
+[2026-08-18T15:40:59Z · sase-pq.5] Verified typed TaskTriage and BeadSnooze gates freeze task_type_display and declare chip, notes[1], type tag, and the **Task type:** preview fact from the frozen block; untyped gates stay byte-identical (no chip, no display key, tags=['bead','task']); unresolved slugs degrade to '?' + raw field names; forged chip/tag/second note and mutated or invalid task_type_display fail with the kind-specific presentation or payload code; display without task_type is rejected; preview description/notes recovery still works with the new metadata line and blank notes. just check passed (scoped escalated to the full suite because the Justfile dropped the now-consumed sase-pq.5 epic-symbols).
+
 ## Dependencies
 
 - **Depends on:** [sase-pq.1](sase-pq.1.md) ✓ · ⧖ 2026-08-18
@@ -32,4 +36,10 @@ Files this phase and the flag epic both touch: src/sase/scripts/_bead_task_triag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-pq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.5/README.md) | [sase-pq.5](sase-pq.5.md) | 0 |
+| [bbugyi200.athena.sase-pq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.5/README.md) | [sase-pq.5](sase-pq.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`832e3b7`](https://github.com/sase-org/sase/commit/832e3b7e8ffaee0df0999f46949ff04846b44117) | feat(bead): freeze task-type display into task and snooze gates | [sase-pq.5](sase-pq.5.md) | 2026-08-18 11:42:07 EDT |

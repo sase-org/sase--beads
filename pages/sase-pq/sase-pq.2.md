@@ -20,7 +20,7 @@ freeze: add the module that resolves one task type into a frozen glyph, human na
 ## Dependencies
 
 - **Depends on:** [sase-pq.1](sase-pq.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pq.5](sase-pq.5.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pq.5](sase-pq.5.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

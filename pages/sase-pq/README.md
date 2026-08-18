@@ -40,7 +40,7 @@ No action is required from this epic beyond that one avoidance. Notes with the s
 | [sase-pq.2](sase-pq.2.md) | Frozen task-type presentation | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pq.3](sase-pq.3.md) | The toast and the notification row | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pq.4](sase-pq.4.md) | The gate detail pane and the gate review modal | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-pq.5](sase-pq.5.md) | Task bead gates declare their type | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-pq.5](sase-pq.5.md) | Task bead gates declare their type | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pq.6](sase-pq.6.md) | A pending gate refreshes when its type presentation changes | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
 | [sase-pq.7](sase-pq.7.md) | Prove it end to end and document it | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 
@@ -53,7 +53,7 @@ flowchart TD
     n2["sase-pq.2: Frozen task-type presentation [closed]"]
     n3["sase-pq.3: The toast and the notification row [closed]"]
     n4["sase-pq.4: The gate detail pane and the gate review modal [closed]"]
-    n5["sase-pq.5: Task bead gates declare their type [in_progress]"]
+    n5["sase-pq.5: Task bead gates declare their type [closed]"]
     n6["sase-pq.6: A pending gate refreshes when its type presentation changes [in_progress]"]
     n7["sase-pq.7: Prove it end to end and document it [in_progress]"]
     n0 --> n1
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.2/README.md) | [sase-pq.2](sase-pq.2.md) | 1 |
 | [bbugyi200.athena.sase-pq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.3/README.md) | [sase-pq.3](sase-pq.3.md) | 1 |
 | [bbugyi200.athena.sase-pq.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pq.4.md) | [sase-pq.4](sase-pq.4.md) | 1 |
-| [bbugyi200.athena.sase-pq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.5/README.md) | [sase-pq.5](sase-pq.5.md) | 0 |
+| [bbugyi200.athena.sase-pq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.5/README.md) | [sase-pq.5](sase-pq.5.md) | 1 |
 | [bbugyi200.athena.sase-pq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.6/README.md) | [sase-pq.6](sase-pq.6.md) | 0 |
 | [bbugyi200.athena.sase-pq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.7/README.md) | [sase-pq.7](sase-pq.7.md) | 0 |
 | [bbugyi200.athena.sase-pq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pq.land/README.md) | [sase-pq](README.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | sase | [`5df9ed7`](https://github.com/sase-org/sase/commit/5df9ed7600535b957e4826c1797b5c9d0dc57114) | feat(tui): show task-type chips on bead-gate toasts and rows | [sase-pq.3](sase-pq.3.md) | 2026-08-18 10:42:39 EDT |
 | sase | [`097a1a7`](https://github.com/sase-org/sase/commit/097a1a75145848c530bb68ea1d4588245f1a1b0c) | feat(task-types): freeze task-type presentation at gate-creation time | [sase-pq.2](sase-pq.2.md) | 2026-08-18 10:53:00 EDT |
 | sase | [`8786a35`](https://github.com/sase-org/sase/commit/8786a35717f7e9b67641e6234bf495418885b2d9) | feat(tui): show declared gate chips on pane and review modal | [sase-pq.4](sase-pq.4.md) | 2026-08-18 11:30:05 EDT |
+| sase | [`832e3b7`](https://github.com/sase-org/sase/commit/832e3b7e8ffaee0df0999f46949ff04846b44117) | feat(bead): freeze task-type display into task and snooze gates | [sase-pq.5](sase-pq.5.md) | 2026-08-18 11:42:07 EDT |
