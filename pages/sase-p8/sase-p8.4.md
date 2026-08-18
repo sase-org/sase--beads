@@ -14,7 +14,7 @@ pipe: add the CLI, its guards and chain bound, the pending marker it writes, and
 ## Dependencies
 
 - **Depends on:** [sase-p8.1](sase-p8.1.md) ✓ · ⧖ 2026-08-17
-- **Depends on:** [sase-p8.2](sase-p8.2.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p8.2](sase-p8.2.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p8.5](sase-p8.5.md) ◐ · ⧖ 2026-08-17
 - **Blocks:** [sase-p8.6](sase-p8.6.md) ◐ · ⧖ 2026-08-17
 
