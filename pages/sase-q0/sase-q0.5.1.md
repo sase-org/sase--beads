@@ -21,7 +21,7 @@ gh_atomic: replace the check-then-claim allocation in gh__setup and in the GitHu
 
 ## Dependencies
 
-- **Blocks:** [sase-q0.5.2](sase-q0.5.2.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q0.5.2](sase-q0.5.2.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
