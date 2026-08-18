@@ -13,7 +13,7 @@ hardening: replace the guard's dead-end failure text with an operator-actionable
 
 ## Dependencies
 
-- **Depends on:** [sase-p5.4](sase-p5.4.md) ◐ · ⧖ 2026-08-17
+- **Depends on:** [sase-p5.4](sase-p5.4.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
