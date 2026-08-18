@@ -23,7 +23,7 @@ panel: factor the duplicated focused-scope keymap loaders into one generic loade
 
 - **Depends on:** [sase-p1.3](sase-p1.3.md) ✓ · ⧖ 2026-08-17
 - **Blocks:** [sase-p1.5](sase-p1.5.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p1.6](sase-p1.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p1.6](sase-p1.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 
