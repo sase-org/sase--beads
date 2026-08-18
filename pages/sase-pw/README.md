@@ -21,6 +21,10 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 
 [2026-08-18T18:56:20Z · 06f] DISCOVERED ISSUE: just check lint (symvision) fails on five stale --epic-symbol entries keyed to closed phase sase-pw.4: CurrentProject, peek_current_project_change_token, project_accent, project_accent_map, resolve_current_project. Reproduced on HEAD c5a0dcf4a while implementing kill-and-edit identity (this tree does not touch Justfile or those symbols). just check passed fmt/ruff/mypy/flags/pyscripts/test-waits/changelog/terminology, then died at _lint-symvision: "bead sase-pw.4 is closed. Remove this stale --epic-symbol entry and clean up the symbol." sase-pw.4 closed at 2026-08-18T18:46:44Z claiming sase bead epic-symbols sase-pw.4 reported no leftovers and that unused project_accent_map was re-keyed to sase-pw.8, but this workspace Justfile still lists all five as sase-pw.4(...). Parent epic sase-pw is still in_progress (open phases .5-.9). Same mid-epic leftover pattern as sase-o7. I did not edit the Justfile.
 
+[2026-08-18T20:02:23Z · sase-q2] DISCOVERED ISSUE: just lint / just check fails at lint (symvision) on --epic-symbol 'sase-pw.8(project_accent_map)': bead 'sase-pw.8' is closed. Remove this stale --epic-symbol entry and clean up the symbol. Reproduced 2026-08-18 while verifying unrelated task sase-q2 (suite-gate live-holder reclaim). This tree does not touch Justfile or project_accent_map. just _lint-symvision dies at Justfile:342 after ruff and mypy pass. sase-pw.8 closed at 2026-08-18T19:51:14Z claiming epic-symbols reported no leftovers and that project_accent_map was consumed; this workspace Justfile still has the single leftover --epic-symbol "sase-pw.8(project_accent_map)". Parent sase-pw is in_progress with open phase sase-pw.9. Same mid-epic leftover pattern as the 2026-08-18T18:56:20Z note about sase-pw.4 entries. Cleanup belongs to this epic's land / sase-pw.9.
+
+[2026-08-18T20:11:20Z · 06o] DISCOVERED ISSUE: just check lint (symvision) fails on --epic-symbol 'sase-pw.8(project_accent_map)': bead 'sase-pw.8' is closed. Reproduced 2026-08-18 while implementing the approved tale plan task_gate_agent_liveness.md (workspace does not touch Justfile or project_accent_map). just check passed fmt/ruff/mypy/flags/pyscripts/test-waits/changelog/terminology, then died at Justfile:342. Confirms the 2026-08-18T20:02:23Z note from sase-q2. Cleanup still belongs to this epic's land / sase-pw.9.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -33,7 +37,7 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 | [sase-pw.6](sase-pw.6.md) | Statistics, inventory, Glossary, and the + picker | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.7](sase-pw.7.md) | Agents-tab project scoping | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.8](sase-pw.8.md) | sase project current | ✓ closed | small | 2026-08-18 | 1 | 1 |
-| [sase-pw.9](sase-pw.9.md) | Visual snapshot, help text, and full verification | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
+| [sase-pw.9](sase-pw.9.md) | Visual snapshot, help text, and full verification | ✓ closed | small | 2026-08-18 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +52,7 @@ flowchart TD
     n6["sase-pw.6: Statistics, inventory, Glossary, and the + picker [closed]"]
     n7["sase-pw.7: Agents-tab project scoping [closed]"]
     n8["sase-pw.8: sase project current [closed]"]
-    n9["sase-pw.9: Visual snapshot, help text, and full verification [in_progress]"]
+    n9["sase-pw.9: Visual snapshot, help text, and full verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -88,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.6/README.md) | [sase-pw.6](sase-pw.6.md) | 1 |
 | [bbugyi200.athena.sase-pw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.7.md) | [sase-pw.7](sase-pw.7.md) | 1 |
 | [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.8.md) | [sase-pw.8](sase-pw.8.md) | 1 |
-| [bbugyi200.athena.sase-pw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.9/README.md) | [sase-pw.9](sase-pw.9.md) | 0 |
+| [bbugyi200.athena.sase-pw.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.9.md) | [sase-pw.9](sase-pw.9.md) | 1 |
 | [bbugyi200.athena.sase-pw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.land/README.md) | [sase-pw](README.md) | 0 |
 
 ## Commits
@@ -103,3 +107,4 @@ flowchart TD
 | sase | [`26c53b0`](https://github.com/sase-org/sase/commit/26c53b07e76a4b87ce06d10d1be6e34101f2add8) | feat(tui): seed panes and the + picker from the current project | [sase-pw.6](sase-pw.6.md) | 2026-08-18 15:53:21 EDT |
 | sase | [`a6e374d`](https://github.com/sase-org/sase/commit/a6e374d001efceae220525746865e3f6ac709c2f) | feat(cli): add sase project current | [sase-pw.8](sase-pw.8.md) | 2026-08-18 15:54:58 EDT |
 | sase | [`831fa6b`](https://github.com/sase-org/sase/commit/831fa6bcbf5bfad84ae88b41c8eddd885ad48490) | feat(ace): seed Agents-tab query from the current project | [sase-pw.7](sase-pw.7.md) | 2026-08-18 16:02:26 EDT |
+| sase | [`00e396b`](https://github.com/sase-org/sase/commit/00e396be82b664e06a817d7ee9116a559fa89c59) | feat(ace): document current-project seed in help, docs, and snapshots | [sase-pw.9](sase-pw.9.md) | 2026-08-18 16:39:16 EDT |

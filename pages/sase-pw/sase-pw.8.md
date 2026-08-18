@@ -27,7 +27,7 @@ cli: add the `sase project current` subcommand with colored and `--json` output 
 
 - **Depends on:** [sase-pw.1](sase-pw.1.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-pw.2](sase-pw.2.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pw.9](sase-pw.9.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pw.9](sase-pw.9.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
