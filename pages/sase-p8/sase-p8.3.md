@@ -23,7 +23,7 @@ spawn: put the detached child spawn and the family-attach env encoding behind on
 
 ## Dependencies
 
-- **Blocks:** [sase-p8.6](sase-p8.6.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p8.6](sase-p8.6.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

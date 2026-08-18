@@ -20,7 +20,7 @@ An agent can end its own turn and hand the work to its next family member with o
 | [sase-p8.3](sase-p8.3.md) | Shared out-of-process family spawn | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p8.4](sase-p8.4.md) | The \`sase pipe\` command | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p8.5](sase-p8.5.md) | The \`/sase\_pipe\` skill and user documentation | ✓ closed | small | 2026-08-17 | 1 | 1 |
-| [sase-p8.6](sase-p8.6.md) | End-to-end pipe exercises | ◐ in_progress | xsmall | 2026-08-17 | 1 | 0 |
+| [sase-p8.6](sase-p8.6.md) | End-to-end pipe exercises | ✓ closed | xsmall | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-p8.3: Shared out-of-process family spawn [closed]"]
     n4["sase-p8.4: The `sase pipe` command [closed]"]
     n5["sase-p8.5: The `/sase_pipe` skill and user documentation [closed]"]
-    n6["sase-p8.6: End-to-end pipe exercises [in_progress]"]
+    n6["sase-p8.6: End-to-end pipe exercises [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p8.3/README.md) | [sase-p8.3](sase-p8.3.md) | 1 |
 | [bbugyi200.athena.sase-p8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p8.4/README.md) | [sase-p8.4](sase-p8.4.md) | 1 |
 | [bbugyi200.athena.sase-p8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p8.5/README.md) | [sase-p8.5](sase-p8.5.md) | 1 |
-| [bbugyi200.athena.sase-p8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p8.6/README.md) | [sase-p8.6](sase-p8.6.md) | 0 |
+| [bbugyi200.athena.sase-p8.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p8.6.md) | [sase-p8.6](sase-p8.6.md) | 1 |
 | [bbugyi200.athena.sase-p8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p8.land/README.md) | [sase-p8](README.md) | 0 |
 
 ## Commits
@@ -68,3 +68,4 @@ flowchart TD
 | sase | [`4edc0ab`](https://github.com/sase-org/sase/commit/4edc0ab235e29ac764df86bcbe9b65f095ad8a64) | feat(agent): share pending-handoff marker write protocol | [sase-p8.2](sase-p8.2.md) | 2026-08-17 20:58:37 EDT |
 | sase | [`98aefd3`](https://github.com/sase-org/sase/commit/98aefd35faa0b39cd6eb2f59710de1810f3371fc) | feat(cli): add sase pipe in-process successor hand-off | [sase-p8.4](sase-p8.4.md) | 2026-08-17 22:05:45 EDT |
 | sase | [`bdf9a67`](https://github.com/sase-org/sase/commit/bdf9a67f0b90e9b65838e0696442af663464060b) | docs(pipe): add /sase\_pipe skill and document sase pipe | [sase-p8.5](sase-p8.5.md) | 2026-08-17 22:34:01 EDT |
+| sase | [`c033ca4`](https://github.com/sase-org/sase/commit/c033ca4c455b7afb4a0c16e3804de41f2e34c0af) | test(pipe): add end-to-end sase pipe family exercises | [sase-p8.6](sase-p8.6.md) | 2026-08-17 23:09:33 EDT |
