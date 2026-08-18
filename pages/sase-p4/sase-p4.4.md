@@ -35,7 +35,7 @@ Recording it rather than touching it: the definition is yours to land.
 
 - **Depends on:** [sase-p4.1](sase-p4.1.md) ✓ · ⧖ 2026-08-17
 - **Depends on:** [sase-p4.3](sase-p4.3.md) ✓ · ⧖ 2026-08-17
-- **Blocks:** [sase-p4.5](sase-p4.5.md) ◐ · ⧖ 2026-08-17
+- **Blocks:** [sase-p4.5](sase-p4.5.md) ✓ · ⧖ 2026-08-17
 
 ## Agents
 

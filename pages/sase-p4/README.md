@@ -40,7 +40,7 @@ Reported by sase-p2.land. Also corroborated on task sase-o7 (+8), the systemic b
 | [sase-p4.2](sase-p4.2.md) | Detached epic resume launch | ✓ closed | small | 2026-08-17 | 1 | 1 |
 | [sase-p4.3](sase-p4.3.md) | The EpicResume gate kind | ✓ closed | medium | 2026-08-17 | 1 | 1 |
 | [sase-p4.4](sase-p4.4.md) | The epic\_resume chop and its feature flag | ✓ closed | medium | 2026-08-17 | 1 | 1 |
-| [sase-p4.5](sase-p4.5.md) | User-facing documentation | ◐ in_progress | small | 2026-08-17 | 1 | 0 |
+| [sase-p4.5](sase-p4.5.md) | User-facing documentation | ✓ closed | small | 2026-08-17 | 1 | 1 |
 
 ## Lineage
 
@@ -51,7 +51,7 @@ flowchart TD
     n2["sase-p4.2: Detached epic resume launch [closed]"]
     n3["sase-p4.3: The EpicResume gate kind [closed]"]
     n4["sase-p4.4: The epic_resume chop and its feature flag [closed]"]
-    n5["sase-p4.5: User-facing documentation [in_progress]"]
+    n5["sase-p4.5: User-facing documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-p4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.2/README.md) | [sase-p4.2](sase-p4.2.md) | 1 |
 | [bbugyi200.athena.sase-p4.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p4.3.md) | [sase-p4.3](sase-p4.3.md) | 1 |
 | [bbugyi200.athena.sase-p4.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-p4.4.md) | [sase-p4.4](sase-p4.4.md) | 1 |
-| [bbugyi200.athena.sase-p4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.5/README.md) | [sase-p4.5](sase-p4.5.md) | 0 |
+| [bbugyi200.athena.sase-p4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.5/README.md) | [sase-p4.5](sase-p4.5.md) | 1 |
 | [bbugyi200.athena.sase-p4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-p4.land/README.md) | [sase-p4](README.md) | 0 |
 
 ## Commits
@@ -82,3 +82,4 @@ flowchart TD
 | sase | [`567605a`](https://github.com/sase-org/sase/commit/567605a8fba6c157337d689c6f862be025f642ab) | feat(bead): add shared epic stall detection policy | [sase-p4.1](sase-p4.1.md) | 2026-08-17 21:03:00 EDT |
 | sase | [`d04a5d7`](https://github.com/sase-org/sase/commit/d04a5d7103389a147943d34b5a5453ce1f21292a) | feat(gates): register the EpicResume gate kind | [sase-p4.3](sase-p4.3.md) | 2026-08-17 23:07:38 EDT |
 | sase | [`11fddd5`](https://github.com/sase-org/sase/commit/11fddd525d0379a5052ec1b7eba60e22ad907fe1) | feat(bead): add the epic\_resume chop and its feature flag | [sase-p4.4](sase-p4.4.md) | 2026-08-18 00:58:27 EDT |
+| sase | [`d23a269`](https://github.com/sase-org/sase/commit/d23a269e0dad75cdd8d4c154d5744e079b651986) | docs: document the EpicResume gate, epic\_resume chop, and its config | [sase-p4.5](sase-p4.5.md) | 2026-08-18 01:13:30 EDT |
