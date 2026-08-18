@@ -22,7 +22,7 @@ panel: add the pure per-option input request/collection model and the GateInputP
 ## Dependencies
 
 - **Depends on:** [sase-q3.1](sase-q3.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-q3.3](sase-q3.3.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-q3.3](sase-q3.3.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

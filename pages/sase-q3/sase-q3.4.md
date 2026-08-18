@@ -13,7 +13,7 @@ keys: add open_inputs, next_input, and previous_input to the gate keymap scope, 
 
 ## Dependencies
 
-- **Depends on:** [sase-q3.3](sase-q3.3.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-q3.3](sase-q3.3.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-q3.5](sase-q3.5.md) ◐ · ⧖ 2026-08-18
 - **Blocks:** [sase-q3.6](sase-q3.6.md) ◐ · ⧖ 2026-08-18
 
