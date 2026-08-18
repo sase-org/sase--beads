@@ -31,8 +31,8 @@ SASE has one "current project" derived from the VCS xprompt MRU head, shown as a
 | [sase-pw.4](sase-pw.4.md) | Top-bar +project indicator | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.5](sase-pw.5.md) | Artifacts scope and Stitches startup filter | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pw.6](sase-pw.6.md) | Statistics, inventory, Glossary, and the + picker | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-pw.7](sase-pw.7.md) | Agents-tab project scoping | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
-| [sase-pw.8](sase-pw.8.md) | sase project current | ✓ closed | small | 2026-08-18 | 1 | 0 |
+| [sase-pw.7](sase-pw.7.md) | Agents-tab project scoping | ✓ closed | medium | 2026-08-18 | 1 | 1 |
+| [sase-pw.8](sase-pw.8.md) | sase project current | ✓ closed | small | 2026-08-18 | 1 | 1 |
 | [sase-pw.9](sase-pw.9.md) | Visual snapshot, help text, and full verification | ◐ in_progress | small | 2026-08-18 | 1 | 0 |
 
 ## Lineage
@@ -46,7 +46,7 @@ flowchart TD
     n4["sase-pw.4: Top-bar +project indicator [closed]"]
     n5["sase-pw.5: Artifacts scope and Stitches startup filter [closed]"]
     n6["sase-pw.6: Statistics, inventory, Glossary, and the + picker [closed]"]
-    n7["sase-pw.7: Agents-tab project scoping [in_progress]"]
+    n7["sase-pw.7: Agents-tab project scoping [closed]"]
     n8["sase-pw.8: sase project current [closed]"]
     n9["sase-pw.9: Visual snapshot, help text, and full verification [in_progress]"]
     n0 --> n1
@@ -86,8 +86,8 @@ flowchart TD
 | [bbugyi200.athena.sase-pw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.4/README.md) | [sase-pw.4](sase-pw.4.md) | 1 |
 | [bbugyi200.athena.sase-pw.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.5.md) | [sase-pw.5](sase-pw.5.md) | 1 |
 | [bbugyi200.athena.sase-pw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.6/README.md) | [sase-pw.6](sase-pw.6.md) | 1 |
-| [bbugyi200.athena.sase-pw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.7.md) | [sase-pw.7](sase-pw.7.md) | 0 |
-| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.8.md) | [sase-pw.8](sase-pw.8.md) | 0 |
+| [bbugyi200.athena.sase-pw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.7.md) | [sase-pw.7](sase-pw.7.md) | 1 |
+| [bbugyi200.athena.sase-pw.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pw.8.md) | [sase-pw.8](sase-pw.8.md) | 1 |
 | [bbugyi200.athena.sase-pw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.9/README.md) | [sase-pw.9](sase-pw.9.md) | 0 |
 | [bbugyi200.athena.sase-pw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pw.land/README.md) | [sase-pw](README.md) | 0 |
 
@@ -101,3 +101,5 @@ flowchart TD
 | sase | [`7596e4e`](https://github.com/sase-org/sase/commit/7596e4e46ed68e977072df94d0a69a93069909ee) | feat(ace): add current-project chip to the ACE top bar | [sase-pw.4](sase-pw.4.md) | 2026-08-18 14:49:32 EDT |
 | sase | [`d6f88f7`](https://github.com/sase-org/sase/commit/d6f88f7b9e73d148ee15e5e01430a9b6ba4b9e0c) | feat(tui): seed Artifacts scope from the current project | [sase-pw.5](sase-pw.5.md) | 2026-08-18 15:46:22 EDT |
 | sase | [`26c53b0`](https://github.com/sase-org/sase/commit/26c53b07e76a4b87ce06d10d1be6e34101f2add8) | feat(tui): seed panes and the + picker from the current project | [sase-pw.6](sase-pw.6.md) | 2026-08-18 15:53:21 EDT |
+| sase | [`a6e374d`](https://github.com/sase-org/sase/commit/a6e374d001efceae220525746865e3f6ac709c2f) | feat(cli): add sase project current | [sase-pw.8](sase-pw.8.md) | 2026-08-18 15:54:58 EDT |
+| sase | [`831fa6b`](https://github.com/sase-org/sase/commit/831fa6bcbf5bfad84ae88b41c8eddd885ad48490) | feat(ace): seed Agents-tab query from the current project | [sase-pw.7](sase-pw.7.md) | 2026-08-18 16:02:26 EDT |
