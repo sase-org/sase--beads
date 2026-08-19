@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-pv
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.06a](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.06a.md) · **Assignee:** `sase-pv.land`
-**Created:** 2026-08-18 11:26:02 EDT
+**Created:** 2026-08-18 11:26:02 EDT · **Closed:** 2026-08-18 22:18:53 EDT
 **Plan:** [202608/flag\_task\_type.md](https://github.com/sase-org/sase--plans/blob/main/202608/flag_task_type.md)
 
 ## Description
@@ -43,6 +43,92 @@ Those two files were the only references to the old IDs anywhere in the repo.
 
 CARRY-OVER FOR `retire` (sase-pv.8): `sase bead rm` does not delete a bead's event stream, so five tombstoned streams still carry `issue_type: "flag"` in their `issue_created` payload. `sase-pv.8` has a note with the full analysis; that phase must prune them before `IssueTypeWire::Flag` can be deleted.
 
+[2026-08-19T02:18:53Z · sase-pv.land--3] LANDED epic sase-pv. All nine phases closed; every phase note re-read and checked
+against the source and the epic's nine commits (24ce7e056, 88d2a1582, 98b27e849,
+c5a0dcf4a, 65a34b909, 2b2c5edef, a469015dc, a317a2e35, 281f3c197).
+
+VERIFIED (step 1)
+- The `flag` issue type is gone, not merely unused. `IssueType` is exactly
+  {plan, phase, task}; `FlagRecord`, `BeadFlagWire`, `flag_codec`, `FlagScope`,
+  and the `flag(...)` create grammar have no remaining reference in src/ or
+  tools/. sase-core shipped the matching wire deletion and it is RELEASED, not
+  just committed: v0.29.0 (d80fa83 "feat(bead)!: delete the flag issue type",
+  3f4e773 reserved-slug drop, c121e0e task_type_fields on update). The linked
+  sase-core checkout is clean at fa7ced2 with no uncommitted work, closing out
+  sase-pv.4's "still uncommitted" caveat.
+- Only `beta` and `sunset` kinds survive and `default` is derived from `kind`.
+  `sase flag new` requires --when-enabled/--when-disabled/--remove-when (each
+  accepting @<path>), offers -k {beta,sunset}, and has no --scope.
+- The seven-field `flag` task type is declared in this project's sase/sase.yml
+  with glyph U+2691, accent #FF875F, agent_creatable false, triage
+  min_plus_ones 0, and the committed sase/task_types.json snapshot agrees.
+- The five live flags are typed task beads: sase-qe, sase-qf, sase-qg, sase-qh,
+  sase-qi. `sase bead list -T flag` shows all five with their preserved sizes
+  and countdowns (88d/88d/89d/89d/90d, all v0.18.0); `sase bead show sase-qe`
+  renders the typed FLAG block plus the rendered body template and its
+  PROVENANCE note naming sase-nw.
+- sase-pv.7's CARRY-OVER is discharged: the five tombstoned flag event streams
+  (sase-nw, sase-nx, sase-om, sase-pa, sase-pk) are gone from the store, so
+  nothing still carries issue_type "flag".
+- `just _lint-flags` green; `sase bead doctor` reports nothing flag-related
+  (its remaining warnings are pre-existing and unrelated).
+- The epic's own DISCOVERED ISSUE note (three deterministic failures at
+  a2357e214: the completion-spec drift and the demo_flag(default=...) integrity
+  test) was fixed inside sase-pv.6 and is confirmed dead: tests/feature_flags,
+  tests/completion, tests/task_types, and tests/test_bead/test_flag_fields.py
+  run 287 passed, 1 skipped.
+- Memory and docs are regenerated: sase/memory/sase_flags.md and
+  feature_flags.md describe two kinds and the Off-branch removal rule, and no
+  doc, memory note, or AGENTS.md text still calls a flag an issue type.
+
+INTEGRATED (step 2)
+- Real gap found and fixed. sase-pv.8 added
+  `require_rust_binding("bead_needs_drop_flag_type_migration")` and
+  `..._drop_flag_type_migration_sql")`, which exist only in sase-core 0.29.0,
+  but pyproject.toml still declared `sase-core-rs>=0.27.18,<0.28.0`. The window
+  excluded every release that has them, so CI's release-core-floor-smoke leg
+  (`tools/check_sase_core_rs_bindings` against the exact declared floor) would
+  have failed and a published install would have crashed on the first bead
+  read. This is precisely the skew that gate was written for. No phase could
+  have caught it: sase-core-rs 0.29.0 was not uploaded to PyPI until
+  2026-08-19T00:50:15Z, after sase-pv.8 closed. Fixed with the sanctioned tool,
+  `tools/ratchet_core_window`, taking the window to `>=0.29.0,<0.30.0` and
+  regenerating uv.lock. `tools/probe_core_floor --advisory` went from
+  "stale_actionable: missing 11 capability(s)" to clean; it had named this
+  epic's d80fa83 for two of the eleven. The other nine belonged to the
+  task-type and workspace-occupancy epics and are fixed by the same ratchet.
+- That ratchet exposed a second defect it had to fix to land:
+  tests/test_powerful_variables_landing.py hardcoded the ceiling
+  (`,<0\.28\.0$`) in _CORE_FLOOR_RE, so any window move made the guard fail
+  with "sase-core-rs dependency is missing from pyproject.toml". That defeats
+  the guard's own documented intent ("Compare rather than pin ... an
+  exact-string guard would fail every ratchet"). The regex now accepts any
+  ceiling and still compares the floor.
+- Reviewed every non-epic commit since 24ce7e056 for conflict or duplication.
+  Nothing else needed rework: `sase flag new`'s @<path> support already routes
+  through the shared `sase.cli_file_values.read_at_path_value` added by
+  771454166 rather than duplicating it; 509170484's flake triage bump does not
+  touch the flag type's `triage.min_plus_ones: 0`; and the stale --epic-symbol
+  entries sase-pv.1 and sase-pv.5 had re-keyed to sase-pq and sase-pw are gone,
+  resolved by a3765f857 and 8437cfd9c.
+
+FOLLOW-UPS (step 3) - both phase proposals routed, no new bead created
+- sase-pv.8's flake, test_ace_page_fast_startup_is_structurally_quiet: duplicate
+  of open task sase-oz. Corroborated with `sase bead +1 sase-oz` (now +7),
+  contributing the detail earlier reports lacked - the leftover work is a
+  cancelled `sase-artifacts-project-choices` task, not just "a worker".
+- sase-pv.9's flake,
+  test_cross_navigation_and_escape_surface_disabled_workspaces: duplicate of
+  sase-qo, which sase-qd.land root-caused and fixed at 2026-08-19T01:12:58Z
+  (ec048b168's resolve-completion repaint overtaking OptionHighlighted and
+  repainting from the stale bookmark). Not +1'd: the bead is closed with a real
+  fix and my repro tree predates it, so a +1 would only record stale-window
+  evidence. It reproduces 2/3 on master de06c55ca because that fix has not been
+  committed yet; it is sase-qd's to land, not this epic's.
+- Every other PROPOSED FOLLOW-UP across the nine phases was
+
+… and 6967 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -61,7 +147,7 @@ CARRY-OVER FOR `retire` (sase-pv.8): `sase bead rm` does not delete a bead's eve
 
 ```mermaid
 flowchart TD
-    n0["sase-pv: A feature flag is a task bead, not a bead type [in_progress]"]
+    n0["sase-pv: A feature flag is a task bead, not a bead type [closed]"]
     n1["sase-pv.1: Free the `flag` task-type slug [closed]"]
     n2["sase-pv.2: Declare the `flag` task type in project config [closed]"]
     n3["sase-pv.3: Two kinds, a derived default, and a rebuilt `sase flag new` [closed]"]
@@ -105,7 +191,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.7/README.md) | [sase-pv.7](sase-pv.7.md) | 0 |
 | [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 2 |
 | [bbugyi200.athena.sase-pv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.9/README.md) | [sase-pv.9](sase-pv.9.md) | 1 |
-| [bbugyi200.athena.sase-pv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.land/README.md) | [sase-pv](README.md) | 0 |
+| [bbugyi200.athena.sase-pv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.land.md) | [sase-pv](README.md) | 1 |
 
 ## Commits
 
@@ -122,3 +208,4 @@ flowchart TD
 | sase | [`a317a2e`](https://github.com/sase-org/sase/commit/a317a2e359e8dfc1f8428473a7ebbdd106a94b0f) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:18:15 EDT |
 | sase-core | [`sase-core@d80fa83`](https://github.com/sase-org/sase-core/commit/d80fa834775591af9b744d5c819f3cc30cad4b71) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:19:13 EDT |
 | sase | [`281f3c1`](https://github.com/sase-org/sase/commit/281f3c1976767bf33b68dbd2fddf9e3dc44fef6b) | docs(flags): treat flag beads as task(flag), not a fourth issue type | [sase-pv.9](sase-pv.9.md) | 2026-08-18 20:59:32 EDT |
+| sase | [`915cdee`](https://github.com/sase-org/sase/commit/915cdeeefd711ea8ede50b90cad9449699712922) | build(deps): ratchet the sase-core-rs window to \>=0.29.0,\<0.30.0 | [sase-pv](README.md) | 2026-08-18 22:23:12 EDT |
