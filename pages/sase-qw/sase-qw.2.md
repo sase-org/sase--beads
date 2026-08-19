@@ -24,7 +24,7 @@ registry: stamp every launch-failure log entry with a stable error id, add the s
 ## Dependencies
 
 - **Depends on:** [sase-qw.1](sase-qw.1.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qw.3](sase-qw.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qw.3](sase-qw.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

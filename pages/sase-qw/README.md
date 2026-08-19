@@ -17,7 +17,7 @@ When a SASE agent launch (or chop) fails, the error toast names a leader chord, 
 |---|---|---|---|---|---:|---:|
 | [sase-qw.1](sase-qw.1.md) | Leader \`,L\` opens the Logs tab | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qw.2](sase-qw.2.md) | Registered errors and error-anchored launch logs | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-qw.3](sase-qw.3.md) | Logs pane focuses the registered error entry | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qw.3](sase-qw.3.md) | Logs pane focuses the registered error entry | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-qw: Jump to the last registered error with the ,L leader chord [in_progress]"]
     n1["sase-qw.1: Leader `,L` opens the Logs tab [closed]"]
     n2["sase-qw.2: Registered errors and error-anchored launch logs [closed]"]
-    n3["sase-qw.3: Logs pane focuses the registered error entry [in_progress]"]
+    n3["sase-qw.3: Logs pane focuses the registered error entry [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-qw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qw.1/README.md) | [sase-qw.1](sase-qw.1.md) | 1 |
 | [bbugyi200.athena.sase-qw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qw.2/README.md) | [sase-qw.2](sase-qw.2.md) | 1 |
-| [bbugyi200.athena.sase-qw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qw.3/README.md) | [sase-qw.3](sase-qw.3.md) | 0 |
+| [bbugyi200.athena.sase-qw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qw.3/README.md) | [sase-qw.3](sase-qw.3.md) | 1 |
 | [bbugyi200.athena.sase-qw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qw.land/README.md) | [sase-qw](README.md) | 0 |
 
 ## Commits
@@ -49,3 +49,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`d4f6535`](https://github.com/sase-org/sase/commit/d4f6535c467906818a310534670f16140a70994b) | feat(ace): register the ,L jump\_to\_last\_error leader action | [sase-qw.1](sase-qw.1.md) | 2026-08-19 09:55:53 EDT |
 | sase | [`422c8c2`](https://github.com/sase-org/sase/commit/422c8c2c57ad248a4e12e34c3e144eeb85ffb358) | feat(logs): stamp launch failures with a session error id | [sase-qw.2](sase-qw.2.md) | 2026-08-19 12:42:26 EDT |
+| sase | [`3285244`](https://github.com/sase-org/sase/commit/3285244e3b1b2622a19ae76f31896e83b0f45ca6) | feat(tui): jump Logs pane to the registered error entry | [sase-qw.3](sase-qw.3.md) | 2026-08-19 13:40:49 EDT |
