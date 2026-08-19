@@ -15,7 +15,7 @@ A prompt-launched Memory panel lets a user browse, add, modify, and delete SASE 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-qt.1](sase-qt.1.md) | Memory scope ring and snapshot service | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qt.1](sase-qt.1.md) | Memory scope ring and snapshot service | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qt.2](sase-qt.2.md) | Shared memory-note mutation engine | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qt.3](sase-qt.3.md) | ace.keymaps.memory binding scope | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qt.4](sase-qt.4.md) | Memory panel shell, note tree, filter, and scope switching | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
@@ -29,7 +29,7 @@ A prompt-launched Memory panel lets a user browse, add, modify, and delete SASE 
 ```mermaid
 flowchart TD
     n0["sase-qt: ACE Memory panel for browsing and editing SASE memory notes [in_progress]"]
-    n1["sase-qt.1: Memory scope ring and snapshot service [in_progress]"]
+    n1["sase-qt.1: Memory scope ring and snapshot service [closed]"]
     n2["sase-qt.2: Shared memory-note mutation engine [closed]"]
     n3["sase-qt.3: ace.keymaps.memory binding scope [closed]"]
     n4["sase-qt.4: Memory panel shell, note tree, filter, and scope switching [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-qt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.1/README.md) | [sase-qt.1](sase-qt.1.md) | 0 |
+| [bbugyi200.athena.sase-qt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.1/README.md) | [sase-qt.1](sase-qt.1.md) | 1 |
 | [bbugyi200.athena.sase-qt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.2/README.md) | [sase-qt.2](sase-qt.2.md) | 1 |
 | [bbugyi200.athena.sase-qt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.3/README.md) | [sase-qt.3](sase-qt.3.md) | 1 |
 | [bbugyi200.athena.sase-qt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.4/README.md) | [sase-qt.4](sase-qt.4.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`f388474`](https://github.com/sase-org/sase/commit/f388474d67f78c9c0ff81e0f446fb2afc0729367) | feat(ace): register focused Memory panel keymap scope | [sase-qt.3](sase-qt.3.md) | 2026-08-19 08:49:44 EDT |
 | sase | [`1ee5a72`](https://github.com/sase-org/sase/commit/1ee5a729c1e471b762b8b7647c6e5236c44c5922) | feat(memory): add CLI-free memory-note mutation engine | [sase-qt.2](sase-qt.2.md) | 2026-08-19 09:01:51 EDT |
+| sase | [`6f72aa5`](https://github.com/sase-org/sase/commit/6f72aa5eb0f73e693a178ad9cf0c3fd80e09040e) | feat(tui): add Memory panel catalog, load seed, and note filter | [sase-qt.1](sase-qt.1.md) | 2026-08-19 09:12:06 EDT |
