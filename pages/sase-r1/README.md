@@ -16,7 +16,7 @@ Pressing ,U opens a fast, keyboard-first Update panel rendered entirely from alr
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-r1.1](sase-r1.1.md) | Cached update evidence and the panel state projection | ✓ closed | small | 2026-08-19 | 1 | 1 |
-| [sase-r1.2](sase-r1.2.md) | Pane-free, scope-aware update preview | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-r1.2](sase-r1.2.md) | Pane-free, scope-aware update preview | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r1.3](sase-r1.3.md) | App-level update execution and proc submission | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r1.4](sase-r1.4.md) | The UpdatePanel modal | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r1.5](sase-r1.5.md) | Wire ,U to the panel and the scoped flow | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
@@ -29,7 +29,7 @@ Pressing ,U opens a fast, keyboard-first Update panel rendered entirely from alr
 flowchart TD
     n0["sase-r1: The ,U Update panel — scoped, cached, Admin-Center-free updates [in_progress]"]
     n1["sase-r1.1: Cached update evidence and the panel state projection [closed]"]
-    n2["sase-r1.2: Pane-free, scope-aware update preview [in_progress]"]
+    n2["sase-r1.2: Pane-free, scope-aware update preview [closed]"]
     n3["sase-r1.3: App-level update execution and proc submission [in_progress]"]
     n4["sase-r1.4: The UpdatePanel modal [in_progress]"]
     n5["sase-r1.5: Wire ,U to the panel and the scoped flow [in_progress]"]
@@ -58,7 +58,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-r1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.1/README.md) | [sase-r1.1](sase-r1.1.md) | 1 |
-| [bbugyi200.athena.sase-r1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.2/README.md) | [sase-r1.2](sase-r1.2.md) | 0 |
+| [bbugyi200.athena.sase-r1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r1.2.md) | [sase-r1.2](sase-r1.2.md) | 1 |
 | [bbugyi200.athena.sase-r1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.3/README.md) | [sase-r1.3](sase-r1.3.md) | 0 |
 | [bbugyi200.athena.sase-r1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.4/README.md) | [sase-r1.4](sase-r1.4.md) | 0 |
 | [bbugyi200.athena.sase-r1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.5/README.md) | [sase-r1.5](sase-r1.5.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`012948e`](https://github.com/sase-org/sase/commit/012948e7c749cf8f563fadef8defc236892faec6) | feat(tui): cache update evidence and project Update panel rows | [sase-r1.1](sase-r1.1.md) | 2026-08-19 13:27:53 EDT |
+| sase | [`ba03cec`](https://github.com/sase-org/sase/commit/ba03cec630e37b70d0e92da78acdbba2437f80e4) | feat(ace): scope comprehensive update preview to selected legs | [sase-r1.2](sase-r1.2.md) | 2026-08-19 14:11:14 EDT |
