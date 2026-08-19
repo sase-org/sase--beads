@@ -24,7 +24,7 @@ guard-core: enumerate the launch units one prompt will spawn, refuse before any 
 ## Dependencies
 
 - **Depends on:** [sase-qx.2](sase-qx.2.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qx.5](sase-qx.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qx.5](sase-qx.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

@@ -28,6 +28,8 @@ Routing still treats any decoded disable as today's all-or-nothing skip. That is
 
 sase-qx.2 still owns items 3-10 (preferred/sparing/unavailable, pool/fallback masks, hard-only raise/pause/retry, docs). Do not regress the v2 decode or the setter argument order: relative set is `(sase_home, provider, source, mode="hard", duration_seconds, now)`. A positional duration as the 4th arg is now interpreted as mode. `is_hard`/`is_soft` are properties; symvision does not treat them as public defs, so they do not need `--epic-symbol`.
 
+[2026-08-19T19:36:17Z · sase-qv.land] DISCOVERED ISSUE (observed by the sase-qv land agent, 2026-08-19, workspace sase_14 at HEAD be6077c7f): 'just check-full' emits a core-floor-probe warning that the DECLARED published floor sase-core-rs==0.29.0 no longer satisfies this tree's probes. Verbatim: '[core-floor-probe] could_not_determine: sase-core-rs==0.29.0 failed the published-floor probes, but the output did not name a binding or schema capability.' with excerpt 'sase_core_rs 0.29.0 exposes all 329 bindings required by .../src/sase' and '[validate_sase_core_rs] provider-disable first relative write probe returned stale outcome version: 1'. JSON: {"cache_hit": true, "declared_floor": "0.29.0", "exit_code": 1, "status": "could_not_determine"}. IMPACT TODAY: warning only -- the gate reports could_not_determine and check-full continues past it (the run's only red was an unrelated known flake, corroborated on sase-oe). WHY THIS EPIC: the failing probe is provider_disable_try_set_relative's outcome version, i.e. exactly the wire-schema-2 work this epic landed in 4d945b1cd / 11d610757 / 4245a6dfe. The tree now requires v2 outcomes while the declared floor 0.29.0 predates them, so the floor understates what src/sase needs. SCOPE FOR WHOEVER PICKS IT UP: either raise the declared sase-core-rs floor to the first release whose provider_disable_try_set_relative returns a v2 outcome, or teach the probe to classify this as a schema-capability miss so the gate names it instead of returning could_not_determine. Not filed as a separate task: it is a direct consequence of this epic's own wire bump and this epic is still in progress.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +38,7 @@ sase-qx.2 still owns items 3-10 (preferred/sparing/unavailable, pool/fallback ma
 | [sase-qx.2](sase-qx.2.md) | Mode-aware routing policy | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qx.3](sase-qx.3.md) | Launch Control soft-disable workflow | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qx.4](sase-qx.4.md) | Fail-closed launch guard | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-qx.5](sase-qx.5.md) | The ACE disabled-provider launch panel | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qx.5](sase-qx.5.md) | The ACE disabled-provider launch panel | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 
 ## Lineage
 
@@ -47,7 +49,7 @@ flowchart TD
     n2["sase-qx.2: Mode-aware routing policy [closed]"]
     n3["sase-qx.3: Launch Control soft-disable workflow [closed]"]
     n4["sase-qx.4: Fail-closed launch guard [closed]"]
-    n5["sase-qx.5: The ACE disabled-provider launch panel [in_progress]"]
+    n5["sase-qx.5: The ACE disabled-provider launch panel [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.2/README.md) | [sase-qx.2](sase-qx.2.md) | 1 |
 | [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.3.md) | [sase-qx.3](sase-qx.3.md) | 1 |
 | [bbugyi200.athena.sase-qx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.4/README.md) | [sase-qx.4](sase-qx.4.md) | 1 |
-| [bbugyi200.athena.sase-qx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.5/README.md) | [sase-qx.5](sase-qx.5.md) | 0 |
+| [bbugyi200.athena.sase-qx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.5/README.md) | [sase-qx.5](sase-qx.5.md) | 1 |
 | [bbugyi200.athena.sase-qx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.land/README.md) | [sase-qx](README.md) | 0 |
 
 ## Commits
@@ -78,3 +80,4 @@ flowchart TD
 | sase | [`11d6107`](https://github.com/sase-org/sase/commit/11d610757765ccb19e2ca0e0c417a0ff0d500bfe) | feat(llm): teach routing the hard/soft provider-disable mode | [sase-qx.2](sase-qx.2.md) | 2026-08-19 13:03:42 EDT |
 | sase | [`44415dd`](https://github.com/sase-org/sase/commit/44415dddd0904937d59d3c65fa6e5988bcb95bea) | feat(agent): refuse launches that can only run on a hard-disabled provider | [sase-qx.4](sase-qx.4.md) | 2026-08-19 14:47:47 EDT |
 | sase | [`c8a0e71`](https://github.com/sase-org/sase/commit/c8a0e7184a4eb0961fe75afe82ce90962e45eded) | feat(ace): add Launch Control soft-disable workflow | [sase-qx.3](sase-qx.3.md) | 2026-08-19 14:54:31 EDT |
+| sase | [`351a330`](https://github.com/sase-org/sase/commit/351a3308402adf5b8d882e5a4cbb0e1b75cabb0d) | feat(ace): resolve hard-disabled providers before launch submit | [sase-qx.5](sase-qx.5.md) | 2026-08-19 16:19:18 EDT |
