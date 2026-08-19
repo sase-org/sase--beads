@@ -21,7 +21,7 @@ catalog: build the `sase.tmux_agent` package core — entry model, catalog build
 
 - **Depends on:** [sase-r0.1](sase-r0.1.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r0.2](sase-r0.2.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r0.4](sase-r0.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.4](sase-r0.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
