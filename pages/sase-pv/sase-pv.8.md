@@ -34,7 +34,7 @@ SUGGESTED SHAPE (owner's call): a one-time store migration in sase-core that dro
 ## Dependencies
 
 - **Depends on:** [sase-pv.7](sase-pv.7.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pv.9](sase-pv.9.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pv.9](sase-pv.9.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
