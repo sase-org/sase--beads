@@ -20,7 +20,7 @@ Pressing `t` in Launch Control, or running `sase tmux-agent`, opens a keyboard-f
 | [sase-r0.3](sase-r0.3.md) | Catalog, launch-spec, and window-name resolution | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r0.4](sase-r0.4.md) | tmux window launch, renumber, and menu rendering | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r0.5](sase-r0.5.md) | sase tmux-agent command | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r0.6](sase-r0.6.md) | Catalog cache for menu latency | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-r0.6](sase-r0.6.md) | Catalog cache for menu latency | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r0.7](sase-r0.7.md) | Launch Control \`t\` and the tmux Agent panel | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r0.8](sase-r0.8.md) | Parity guarantee, visual snapshot, and documentation | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
 
@@ -34,7 +34,7 @@ flowchart TD
     n3["sase-r0.3: Catalog, launch-spec, and window-name resolution [closed]"]
     n4["sase-r0.4: tmux window launch, renumber, and menu rendering [closed]"]
     n5["sase-r0.5: sase tmux-agent command [closed]"]
-    n6["sase-r0.6: Catalog cache for menu latency [in_progress]"]
+    n6["sase-r0.6: Catalog cache for menu latency [closed]"]
     n7["sase-r0.7: Launch Control `t` and the tmux Agent panel [closed]"]
     n8["sase-r0.8: Parity guarantee, visual snapshot, and documentation [in_progress]"]
     n0 --> n1
@@ -64,9 +64,9 @@ flowchart TD
 | [bbugyi200.athena.sase-r0.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r0.3.md) | [sase-r0.3](sase-r0.3.md) | 1 |
 | [bbugyi200.athena.sase-r0.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.4/README.md) | [sase-r0.4](sase-r0.4.md) | 1 |
 | [bbugyi200.athena.sase-r0.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.5/README.md) | [sase-r0.5](sase-r0.5.md) | 1 |
-| [bbugyi200.athena.sase-r0.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.6/README.md) | [sase-r0.6](sase-r0.6.md) | 0 |
+| [bbugyi200.athena.sase-r0.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.6/README.md) | [sase-r0.6](sase-r0.6.md) | 1 |
 | [bbugyi200.athena.sase-r0.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.7/README.md) | [sase-r0.7](sase-r0.7.md) | 1 |
-| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.8/README.md) | [sase-r0.8](sase-r0.8.md) | 0 |
+| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r0.8.md) | [sase-r0.8](sase-r0.8.md) | 0 |
 | [bbugyi200.athena.sase-r0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.land/README.md) | [sase-r0](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`45bd0f7`](https://github.com/sase-org/sase/commit/45bd0f7c707b9b837c1579e66edd26d8b864af26) | feat(tmux-agent): add window launch, renumber, and display-menu | [sase-r0.4](sase-r0.4.md) | 2026-08-19 14:34:22 EDT |
 | sase | [`b9ece10`](https://github.com/sase-org/sase/commit/b9ece108998721586586628436778d0ddf3d3574) | feat(ace): add Launch Control tmux Agent panel bound to \`t\` | [sase-r0.7](sase-r0.7.md) | 2026-08-19 15:15:37 EDT |
 | sase | [`6339525`](https://github.com/sase-org/sase/commit/63395254ea88fa80ebb5adaa08692420d434ee08) | feat(cli): add sase tmux-agent command | [sase-r0.5](sase-r0.5.md) | 2026-08-19 15:21:15 EDT |
+| sase | [`4f25812`](https://github.com/sase-org/sase/commit/4f258124327591e3b8cb6598c569192af414e238) | perf(tmux-agent): cache catalog metadata for menu latency | [sase-r0.6](sase-r0.6.md) | 2026-08-19 16:26:11 EDT |

@@ -11,6 +11,10 @@
 
 polish: pin command parity with the shell script this feature replaces, add the PNG snapshot, and write the ACE, CLI, configuration, and plugin documentation.
 
+## Notes
+
+[2026-08-19T19:45:37Z · sase-r0.8] PROPOSED FOLLOW-UP: drop remaining sase-r1.5 --epic-symbol leftovers — just check failed because UpdateOptionChip, UpdateOptionRow, and UpdatePanelState were already used; I removed those three Justfile entries so lint could pass. UpdatePanel, UpdatePanelResult, and build_update_panel_state remain on sase-r1.5 and should be dropped as that phase consumes them.
+
 ## Dependencies
 
 - **Depends on:** [sase-r0.5](sase-r0.5.md) ✓ · ⧖ 2026-08-19
@@ -20,4 +24,4 @@ polish: pin command parity with the shell script this feature replaces, add the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.8/README.md) | [sase-r0.8](sase-r0.8.md) | 0 |
+| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r0.8.md) | [sase-r0.8](sase-r0.8.md) | 0 |
