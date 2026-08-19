@@ -17,7 +17,7 @@ keymap: register the new `jump_to_last_error` leader action on `L` across the ke
 
 ## Dependencies
 
-- **Blocks:** [sase-qw.2](sase-qw.2.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qw.2](sase-qw.2.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

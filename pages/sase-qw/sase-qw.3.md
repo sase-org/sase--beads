@@ -13,7 +13,7 @@ focus: locate the registered error's anchor in a bounded tail scan, render a win
 
 ## Dependencies
 
-- **Depends on:** [sase-qw.2](sase-qw.2.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qw.2](sase-qw.2.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
