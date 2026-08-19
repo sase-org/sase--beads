@@ -15,7 +15,7 @@ Pressing `t` in Launch Control, or running `sase tmux-agent`, opens a keyboard-f
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-r0.1](sase-r0.1.md) | tmux\_agent configuration section | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-r0.1](sase-r0.1.md) | tmux\_agent configuration section | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r0.2](sase-r0.2.md) | Interactive-CLI provider descriptor | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r0.3](sase-r0.3.md) | Catalog, launch-spec, and window-name resolution | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r0.4](sase-r0.4.md) | tmux window launch, renumber, and menu rendering | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
@@ -29,7 +29,7 @@ Pressing `t` in Launch Control, or running `sase tmux-agent`, opens a keyboard-f
 ```mermaid
 flowchart TD
     n0["sase-r0: tmux Agent — launch an interactive agent CLI in a new tmux window [in_progress]"]
-    n1["sase-r0.1: tmux_agent configuration section [in_progress]"]
+    n1["sase-r0.1: tmux_agent configuration section [closed]"]
     n2["sase-r0.2: Interactive-CLI provider descriptor [closed]"]
     n3["sase-r0.3: Catalog, launch-spec, and window-name resolution [in_progress]"]
     n4["sase-r0.4: tmux window launch, renumber, and menu rendering [in_progress]"]
@@ -59,7 +59,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-r0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.1/README.md) | [sase-r0.1](sase-r0.1.md) | 0 |
+| [bbugyi200.athena.sase-r0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.1/README.md) | [sase-r0.1](sase-r0.1.md) | 1 |
 | [bbugyi200.athena.sase-r0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.2/README.md) | [sase-r0.2](sase-r0.2.md) | 1 |
 | [bbugyi200.athena.sase-r0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.3/README.md) | [sase-r0.3](sase-r0.3.md) | 0 |
 | [bbugyi200.athena.sase-r0.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.4/README.md) | [sase-r0.4](sase-r0.4.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`88a7de4`](https://github.com/sase-org/sase/commit/88a7de4af1be4f596cca283c9f61d78350ffb212) | feat(llm): add interactive CLI descriptors and vendor metadata | [sase-r0.2](sase-r0.2.md) | 2026-08-19 12:57:18 EDT |
+| sase | [`14204d6`](https://github.com/sase-org/sase/commit/14204d6a48a7188c4c12f66a4c2f55cfea21b093) | feat(config): add tmux\_agent configuration section | [sase-r0.1](sase-r0.1.md) | 2026-08-19 13:29:27 EDT |
