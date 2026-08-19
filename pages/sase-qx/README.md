@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / sase-qx
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ○ open · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.07o](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.07o.md) · **Assignee:** `sase-qx.land`
 **Created:** 2026-08-19 09:58:30 EDT
 **Plan:** [202608/soft\_provider\_disables.md](https://github.com/sase-org/sase--plans/blob/main/202608/soft_provider_disables.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-08-19T22:28:41Z · done
+>
+> (none)
+>
+> Reopened 2026-08-19T22:30:57Z by `sase bead open`
 
 ## Description
 
@@ -34,6 +42,36 @@ sase-qx.2 still owns items 3-10 (preferred/sparing/unavailable, pool/fallback ma
 
 [2026-08-19T20:37:48Z · 084] CORRECTION: I did not re-key the Justfile in the claude_weekly_limit_autodisable tree (out of scope). The sase-qx.5 --epic-symbol entries are still stale. Please re-key to sase-qx or drop them once LaunchUnit / LaunchUnitCandidate / blocked_launch_units / plan_launch_units have real consumers.
 
+[2026-08-19T22:28:41Z · sase-qx.land_2] Verified all five closed phases against source, commits, child notes, and focused tests (209 passed).
+
+sase-qx.1 (sase-core 6169e0e): wire schema 2, ProviderDisableMode, v1-to-hard in-place migration, four set/try-set bindings defaulting to hard. Python facade (4d945b1cd) requires mode, is_hard/is_soft, and relative binding order (sase_home, provider, source, mode, duration_seconds, now). Peek maps leftover v1 files to hard without rewriting.
+
+sase-qx.2 (11d610757): MemberAvailability plus pool/fallback masks; hard-only raise/pause/retry/autodetect/override; doctor sparing note; docs/llms.md hard/soft tables.
+
+sase-qx.3 (c8a0e7184): Launch Control s key, keep-current-window, pill/picker/completion/docs, three new PNG goldens.
+
+sase-qx.4 (44415dddd): plan_launch_units/blocked_launch_units fail-closed on hard, fail-open on surprises, launch_units payload (force-reuse wins).
+
+sase-qx.5 (351a33084): ACE preflight panel e/s/1-9/m/a/A before unmounting the prompt bar; LaunchUnit consumers in ACE so no leftover --epic-symbol entries.
+
+Integration after later landings: tmux Agent (sase-r0; 4eb0c20b3) labels hard as routing-disabled and soft as soft (explicit tmux CLI launch still allowed; JSON counts.routing_disabled is hard-only). Weekly-limit auto-disable (ae87b1849) writes through try_disable_provider with default mode=hard, matching this epic's "auto-disables stay hard" decision; retry fallback still accepts a soft-disabled fallback. Privatized in-file-only _provider_routing_state.
+
+Follow-up outcomes (via /sase_new_task):
+- tests/completion/test_snapshot.py nodes from qx.2/4/5 → existing flake sase-pr (RELATED; both nodes passed isolation on this tree).
+- ACE startup flake from qx.2 → sase-oz (+1 from combined-tree check-full: leftover cancelled sase-artifacts-project-choices after AcePage exit).
+- leak-detector snapshot flake from qx.4 → DISCOVERED ISSUE on in-progress sase-j7 (already recorded by the prior land run).
+- qx.3 check-full SIGKILL declined: host contention, not a product defect.
+- qx.5 sase-r1.3 epic-symbol re-key already done.
+- Core-floor 0.29.0 probe warning (sase-qv.land) declined: docs/rust_backend.md forbids hand-editing the sase-core-rs window; the release-branch ratchet is the designated path. Schema 2 is published in sase-core-rs 0.29.1. Classifying the miss as a missing binding would diagnose the v1 function present in 0.29.0 rather than the v2 schema bump.
+- Positional duration TypeError (07t) and v2 decode crash are already fixed in the facade and first-writer probe.
+- Stale sase-qx.5 --epic-symbol entries (LaunchUnit etc.) already dropped once ACE consumed them.
+
+sase bead epic-symbols sase-qx: none.
+
+Combined-tree just check-full (prior land monitor mxxemhczqtjg, workspace sase_18): lint/mypy/symvision/validation green; 34755 passed / 1 failed (sase-oz flake) / 13 skipped.
+
+No parent_bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +86,7 @@ sase-qx.2 still owns items 3-10 (preferred/sparing/unavailable, pool/fallback ma
 
 ```mermaid
 flowchart TD
-    n0["sase-qx: Soft-disabled LLM providers and a launch guard for hard-disabled ones [in_progress]"]
+    n0["sase-qx: Soft-disabled LLM providers and a launch guard for hard-disabled ones [open]"]
     n1["sase-qx.1: Provider-disable mode on the Rust wire [closed]"]
     n2["sase-qx.2: Mode-aware routing policy [closed]"]
     n3["sase-qx.3: Launch Control soft-disable workflow [closed]"]
@@ -75,7 +113,8 @@ flowchart TD
 | [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.3.md) | [sase-qx.3](sase-qx.3.md) | 1 |
 | [bbugyi200.athena.sase-qx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.4/README.md) | [sase-qx.4](sase-qx.4.md) | 1 |
 | [bbugyi200.athena.sase-qx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.5/README.md) | [sase-qx.5](sase-qx.5.md) | 1 |
-| [bbugyi200.athena.sase-qx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.land/README.md) | [sase-qx](README.md) | 1 |
+| [bbugyi200.athena.sase-qx.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.land.md) | [sase-qx](README.md) | 1 |
+| [bbugyi200.athena.sase-qx.land\_2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.land_2/README.md) | [sase-qx](README.md) | 1 |
 
 ## Commits
 
@@ -86,3 +125,4 @@ flowchart TD
 | sase | [`c8a0e71`](https://github.com/sase-org/sase/commit/c8a0e7184a4eb0961fe75afe82ce90962e45eded) | feat(ace): add Launch Control soft-disable workflow | [sase-qx.3](sase-qx.3.md) | 2026-08-19 14:54:31 EDT |
 | sase | [`351a330`](https://github.com/sase-org/sase/commit/351a3308402adf5b8d882e5a4cbb0e1b75cabb0d) | feat(ace): resolve hard-disabled providers before launch submit | [sase-qx.5](sase-qx.5.md) | 2026-08-19 16:19:18 EDT |
 | sase | [`4eb0c20`](https://github.com/sase-org/sase/commit/4eb0c20b31c3b9ecf149f5f061d9c37a1655b725) | fix(ace): distinguish hard and soft provider disables in tmux Agent | [sase-qx](README.md) | 2026-08-19 16:47:34 EDT |
+| sase | [`46e9672`](https://github.com/sase-org/sase/commit/46e9672a6b4b82b0582c6c1c3abdc611e582a226) | fix(agent): refuse hard-disabled providers on sase bead work launches | [sase-qx](README.md) | 2026-08-19 18:49:09 EDT |
