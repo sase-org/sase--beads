@@ -54,7 +54,7 @@ CARRY-OVER FOR `retire` (sase-pv.8): `sase bead rm` does not delete a bead's eve
 | [sase-pv.5](sase-pv.5.md) | FlagTriage is a task-bead gate | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.6](sase-pv.6.md) | Every bead surface renders a flag as a typed task | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.7](sase-pv.7.md) | Migrate the five live flag beads | ✓ closed | medium | 2026-08-18 | 1 | 0 |
-| [sase-pv.8](sase-pv.8.md) | Delete the \`flag\` issue type end to end | ✓ closed | medium | 2026-08-18 | 1 | 1 |
+| [sase-pv.8](sase-pv.8.md) | Delete the \`flag\` issue type end to end | ✓ closed | medium | 2026-08-18 | 1 | 2 |
 | [sase-pv.9](sase-pv.9.md) | Memory notes, generated instructions, and documentation | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 
 ## Lineage
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.5/README.md) | [sase-pv.5](sase-pv.5.md) | 1 |
 | [bbugyi200.athena.sase-pv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.6/README.md) | [sase-pv.6](sase-pv.6.md) | 1 |
 | [bbugyi200.athena.sase-pv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.7/README.md) | [sase-pv.7](sase-pv.7.md) | 0 |
-| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 1 |
+| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 2 |
 | [bbugyi200.athena.sase-pv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.9/README.md) | [sase-pv.9](sase-pv.9.md) | 0 |
 | [bbugyi200.athena.sase-pv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.land/README.md) | [sase-pv](README.md) | 0 |
 
@@ -120,3 +120,4 @@ flowchart TD
 | sase | [`65a34b9`](https://github.com/sase-org/sase/commit/65a34b9096c0ab8a301725697495d4bb340bcf64) | feat(flags): treat FlagTriage as a task-bead gate | [sase-pv.5](sase-pv.5.md) | 2026-08-18 15:32:29 EDT |
 | sase | [`2b2c5ed`](https://github.com/sase-org/sase/commit/2b2c5edefe1b4e94b83c6e3016bb5245d92c75cf) | feat(beads)!: render flags as typed tasks on every bead surface | [sase-pv.6](sase-pv.6.md) | 2026-08-18 15:55:19 EDT |
 | sase | [`a317a2e`](https://github.com/sase-org/sase/commit/a317a2e359e8dfc1f8428473a7ebbdd106a94b0f) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:18:15 EDT |
+| sase-core | [`sase-core@d80fa83`](https://github.com/sase-org/sase-core/commit/d80fa834775591af9b744d5c819f3cc30cad4b71) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:19:13 EDT |

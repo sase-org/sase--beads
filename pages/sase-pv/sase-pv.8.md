@@ -40,10 +40,11 @@ SUGGESTED SHAPE (owner's call): a one-time store migration in sase-core that dro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 1 |
+| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a317a2e`](https://github.com/sase-org/sase/commit/a317a2e359e8dfc1f8428473a7ebbdd106a94b0f) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:18:15 EDT |
+| sase-core | [`sase-core@d80fa83`](https://github.com/sase-org/sase-core/commit/d80fa834775591af9b744d5c819f3cc30cad4b71) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:19:13 EDT |
