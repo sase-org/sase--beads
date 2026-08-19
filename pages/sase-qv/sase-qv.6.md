@@ -13,7 +13,7 @@ procs: resolve each monitor proc row's status pair from the loaded agent rows an
 
 ## Dependencies
 
-- **Depends on:** [sase-qv.3](sase-qv.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qv.3](sase-qv.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

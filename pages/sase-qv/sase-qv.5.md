@@ -13,7 +13,7 @@ family: mirror a monitor's custom status onto its agent family container row for
 
 ## Dependencies
 
-- **Depends on:** [sase-qv.3](sase-qv.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qv.3](sase-qv.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
