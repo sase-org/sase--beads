@@ -23,7 +23,7 @@ model: carry monitor_stop_status alongside monitor_start_status through the scan
 
 - **Depends on:** [sase-qv.1](sase-qv.1.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qv.4](sase-qv.4.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [sase-qv.5](sase-qv.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qv.5](sase-qv.5.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qv.6](sase-qv.6.md) ✓ · ⧖ 2026-08-19
 
 ## Agents

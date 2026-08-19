@@ -23,7 +23,7 @@ Every sase monitor declares its own running and finished status labels, those la
 | [sase-qv.2](sase-qv.2.md) | Required start and stop status flags | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qv.3](sase-qv.3.md) | Status pair plumbing and terminality | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qv.4](sase-qv.4.md) | Agents tab and agent list coloring | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
-| [sase-qv.5](sase-qv.5.md) | Agent family container status | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-qv.5](sase-qv.5.md) | Agent family container status | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qv.6](sase-qv.6.md) | Procs tab monitor status chip | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qv.7](sase-qv.7.md) | Guidance, skill, and docs | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
 
@@ -36,7 +36,7 @@ flowchart TD
     n2["sase-qv.2: Required start and stop status flags [closed]"]
     n3["sase-qv.3: Status pair plumbing and terminality [closed]"]
     n4["sase-qv.4: Agents tab and agent list coloring [in_progress]"]
-    n5["sase-qv.5: Agent family container status [in_progress]"]
+    n5["sase-qv.5: Agent family container status [closed]"]
     n6["sase-qv.6: Procs tab monitor status chip [closed]"]
     n7["sase-qv.7: Guidance, skill, and docs [in_progress]"]
     n0 --> n1
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.2/README.md) | [sase-qv.2](sase-qv.2.md) | 1 |
 | [bbugyi200.athena.sase-qv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.3/README.md) | [sase-qv.3](sase-qv.3.md) | 1 |
 | [bbugyi200.athena.sase-qv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.4/README.md) | [sase-qv.4](sase-qv.4.md) | 0 |
-| [bbugyi200.athena.sase-qv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.5/README.md) | [sase-qv.5](sase-qv.5.md) | 0 |
+| [bbugyi200.athena.sase-qv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.5/README.md) | [sase-qv.5](sase-qv.5.md) | 1 |
 | [bbugyi200.athena.sase-qv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.6/README.md) | [sase-qv.6](sase-qv.6.md) | 1 |
 | [bbugyi200.athena.sase-qv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.7/README.md) | [sase-qv.7](sase-qv.7.md) | 0 |
 | [bbugyi200.athena.sase-qv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.land/README.md) | [sase-qv](README.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`a64acb2`](https://github.com/sase-org/sase/commit/a64acb267e3e3435589b167fdeaebbcd04ab93bb) | feat(monitor)!: require start and stop status flags on monitor start | [sase-qv.2](sase-qv.2.md) | 2026-08-19 11:07:24 EDT |
 | sase | [`ebe699d`](https://github.com/sase-org/sase/commit/ebe699d075e3442c802943e39f2f8d782af489d2) | feat(monitor): carry start/stop status pairs through listings | [sase-qv.3](sase-qv.3.md) | 2026-08-19 11:39:47 EDT |
 | sase | [`4bca0e6`](https://github.com/sase-org/sase/commit/4bca0e66aabe4ac8a912cd29519f1862cf0d50af) | feat(tui): render monitor status chip in Procs tab rows | [sase-qv.6](sase-qv.6.md) | 2026-08-19 12:22:51 EDT |
+| sase | [`18dcf6b`](https://github.com/sase-org/sase/commit/18dcf6b8d5bd168884d55b916cba35b586473ef3) | feat(ace): mirror monitor status pairs onto family containers | [sase-qv.5](sase-qv.5.md) | 2026-08-19 12:35:36 EDT |
