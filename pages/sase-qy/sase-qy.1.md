@@ -15,9 +15,11 @@ chrome: give FilterBar a real idle presentation -- a profile-driven, syntax-high
 
 [2026-08-19T15:02:47Z · sase-qy.1] Verified: 75 targeted tests pass (highlighting, profile_highlighting, filter_bar persistent widget tests, commit/patch filter bar + pane click-routing); mypy clean on src (3502 files); ruff check + format clean on all touched files; epic-symbols empty. Pre-existing failures in tests/ace/tui/widgets/ (agent_model_section, summary_fold_*, etc.) traced to a ProviderDisableStateError environment issue that reproduces identically on clean master (stash-verified) -- unrelated to this phase's scope.
 
+[2026-08-19T15:34:07Z · sase-qy.1] PROPOSED FOLLOW-UP: Justfile _refresh-sase-core-checkout (line ~837) SASE_ALLOW_STALE_CORE=1 guard is a no-op -- each @-prefixed recipe line runs as its own subshell in just, so the guard's `exit 0` only ends that one line, not the recipe; the fetch+fast-forward on the next line always runs regardless of the env var. Reproduced directly: `env SASE_ALLOW_STALE_CORE=1 just _refresh-sase-core-checkout` still fast-forwards the linked sase-core checkout. Same broken pattern is duplicated at rust-install (~868-877) and rust-dev-install (~929-936). Workaround used during this phase: check out the linked sase-core repo as a detached HEAD (refresh_clean_linked_checkout skips detached checkouts) instead of relying on the env var. Fix: restructure each guard into a single shell invocation, e.g. `@if [ \"${SASE_ALLOW_STALE_CORE:-}\" != 1 ]; then just ... _refresh-...; fi` on one line, so the skip actually short-circuits the recipe. Discovered while investigating a since-independently-fixed provider_disable wire-schema-2 break (commit 4d945b1cd already landed for that separate issue).
+
 ## Dependencies
 
-- **Blocks:** [sase-qy.2](sase-qy.2.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qy.2](sase-qy.2.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

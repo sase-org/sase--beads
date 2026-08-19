@@ -13,7 +13,7 @@ documents: make PlanFilterBar persistent for the Plan pane and every `ref:<kind>
 
 ## Dependencies
 
-- **Depends on:** [sase-qy.2](sase-qy.2.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qy.2](sase-qy.2.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qy.4](sase-qy.4.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
