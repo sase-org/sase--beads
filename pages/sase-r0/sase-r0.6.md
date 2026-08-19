@@ -13,7 +13,7 @@ cache: add the fingerprinted on-disk catalog cache and `-r/--refresh` so the tmu
 
 ## Dependencies
 
-- **Depends on:** [sase-r0.5](sase-r0.5.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r0.5](sase-r0.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
