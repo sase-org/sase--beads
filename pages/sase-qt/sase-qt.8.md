@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-qt](README.md) / sase-qt.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.07j](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.07j.md) · **Assignee:** `sase-qt.8` · **Size:** small
-**Created:** 2026-08-19 08:16:40 EDT
+**Created:** 2026-08-19 08:16:40 EDT · **Closed:** 2026-08-19 13:12:03 EDT
 **Plan:** [202608/ace\_memory\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202608/ace_memory_panel.md)
 
 ## Description
@@ -14,6 +14,8 @@ memory-panel-verification: document the panel and its keymap scope, add PNG snap
 ## Notes
 
 [2026-08-19T17:09:18Z · sase-qt.8] PROPOSED FOLLOW-UP: just lint fails at _lint-symvision on clean master (4bca0e66a, before any sase-qt.8 changes) — symvision reports classify_flat_query_tokens in src/sase/ace/query/profile_highlighting.py as an unused public symbol even though tests/test_profile_highlighting.py imports and exercises it directly; likely needs a private rename, an epic-symbol allowlist entry, or a symvision test-usage fix. Unrelated to the Memory panel epic.
+
+[2026-08-19T17:12:03Z · sase-qt.8] Documented the Memory panel (docs/ace.md), ace.keymaps.memory table + remapping subsection (docs/configuration.md), and a pointer from docs/memory.md. Added 4 PNG snapshot goldens (populated/empty x dark/light) and their test module, generated via a token-gate-bypassed direct pytest run and visually inspected. Verified: 79 memory-panel tests + 770 tests across tests/memory, tests/ace/tui/modals, and keymap suites all pass; ruff and mypy clean; sase validate all-ok; sase memory init --check clean; sase doctor's only ERROR (axe.chops) and just lint's symvision failure (classify_flat_query_tokens) are both pre-existing on clean master (4bca0e66a), confirmed via git stash, and unrelated to this change — filed as a PROPOSED FOLLOW-UP note. No --epic-symbol entries for this phase.
 
 ## Dependencies
 
