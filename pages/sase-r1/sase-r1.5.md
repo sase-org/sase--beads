@@ -25,7 +25,7 @@ wire: repoint the ,U leader chord at the panel, run the selected scope as a prev
 - **Depends on:** [sase-r1.2](sase-r1.2.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r1.3](sase-r1.3.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r1.4](sase-r1.4.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r1.6](sase-r1.6.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r1.6](sase-r1.6.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r1.7](sase-r1.7.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
