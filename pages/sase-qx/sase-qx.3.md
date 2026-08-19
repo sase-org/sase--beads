@@ -20,4 +20,4 @@ provider-ui: add the `s` soft-disable action and mode-aware rendering to Provide
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.3/README.md) | [sase-qx.3](sase-qx.3.md) | 0 |
+| [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.3.md) | [sase-qx.3](sase-qx.3.md) | 0 |

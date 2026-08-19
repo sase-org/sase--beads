@@ -14,7 +14,7 @@ guard-panel: run the guard before ACE submits a launch and resolve each blocked 
 ## Dependencies
 
 - **Depends on:** [sase-qx.3](sase-qx.3.md) ◐ · ⧖ 2026-08-19
-- **Depends on:** [sase-qx.4](sase-qx.4.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qx.4](sase-qx.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

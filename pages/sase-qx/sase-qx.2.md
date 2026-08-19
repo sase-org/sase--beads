@@ -25,7 +25,7 @@ routing: teach the Python routing layer the three-state member availability (pre
 
 - **Depends on:** [sase-qx.1](sase-qx.1.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qx.3](sase-qx.3.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [sase-qx.4](sase-qx.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qx.4](sase-qx.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
