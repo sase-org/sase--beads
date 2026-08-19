@@ -23,9 +23,9 @@ panel-shell: build the modal, the nested note rail, the note card, filtering, sc
 
 - **Depends on:** [sase-qt.1](sase-qt.1.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-qt.3](sase-qt.3.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qt.5](sase-qt.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qt.5](sase-qt.5.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qt.6](sase-qt.6.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [sase-qt.7](sase-qt.7.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qt.7](sase-qt.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

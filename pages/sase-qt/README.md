@@ -19,9 +19,9 @@ A prompt-launched Memory panel lets a user browse, add, modify, and delete SASE 
 | [sase-qt.2](sase-qt.2.md) | Shared memory-note mutation engine | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qt.3](sase-qt.3.md) | ace.keymaps.memory binding scope | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qt.4](sase-qt.4.md) | Memory panel shell, note tree, filter, and scope switching | ✓ closed | medium | 2026-08-19 | 1 | 2 |
-| [sase-qt.5](sase-qt.5.md) | Parent and child link travel | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-qt.5](sase-qt.5.md) | Parent and child link travel | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qt.6](sase-qt.6.md) | Add, edit, delete, and publish surfaces | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
-| [sase-qt.7](sase-qt.7.md) | Prompt gm and Ctrl+G m entry point | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-qt.7](sase-qt.7.md) | Prompt gm and Ctrl+G m entry point | ✓ closed | small | 2026-08-19 | 1 | 0 |
 | [sase-qt.8](sase-qt.8.md) | Documentation, visual snapshots, and full verification | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
 
 ## Lineage
@@ -33,9 +33,9 @@ flowchart TD
     n2["sase-qt.2: Shared memory-note mutation engine [closed]"]
     n3["sase-qt.3: ace.keymaps.memory binding scope [closed]"]
     n4["sase-qt.4: Memory panel shell, note tree, filter, and scope switching [closed]"]
-    n5["sase-qt.5: Parent and child link travel [in_progress]"]
+    n5["sase-qt.5: Parent and child link travel [closed]"]
     n6["sase-qt.6: Add, edit, delete, and publish surfaces [in_progress]"]
-    n7["sase-qt.7: Prompt gm and Ctrl+G m entry point [in_progress]"]
+    n7["sase-qt.7: Prompt gm and Ctrl+G m entry point [closed]"]
     n8["sase-qt.8: Documentation, visual snapshots, and full verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.2/README.md) | [sase-qt.2](sase-qt.2.md) | 1 |
 | [bbugyi200.athena.sase-qt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.3/README.md) | [sase-qt.3](sase-qt.3.md) | 1 |
 | [bbugyi200.athena.sase-qt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.4/README.md) | [sase-qt.4](sase-qt.4.md) | 2 |
-| [bbugyi200.athena.sase-qt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.5/README.md) | [sase-qt.5](sase-qt.5.md) | 0 |
+| [bbugyi200.athena.sase-qt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.5/README.md) | [sase-qt.5](sase-qt.5.md) | 1 |
 | [bbugyi200.athena.sase-qt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.6/README.md) | [sase-qt.6](sase-qt.6.md) | 0 |
 | [bbugyi200.athena.sase-qt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.7/README.md) | [sase-qt.7](sase-qt.7.md) | 0 |
 | [bbugyi200.athena.sase-qt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.8/README.md) | [sase-qt.8](sase-qt.8.md) | 0 |
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`6f72aa5`](https://github.com/sase-org/sase/commit/6f72aa5eb0f73e693a178ad9cf0c3fd80e09040e) | feat(tui): add Memory panel catalog, load seed, and note filter | [sase-qt.1](sase-qt.1.md) | 2026-08-19 09:12:06 EDT |
 | sase | [`4245a6d`](https://github.com/sase-org/sase/commit/4245a6dfe84c2bca1284a8a3061294313f139716) | fix(tools): match validate\_sase\_core\_rs probe to the new provider-disable mode param | [sase-qt.4](sase-qt.4.md) | 2026-08-19 10:51:55 EDT |
 | sase | [`edf64fa`](https://github.com/sase-org/sase/commit/edf64fa1cfe8ff0de58cd04657d27331bd7ef852) | feat(tui): add Memory panel shell, note rail, filter, and scope switching | [sase-qt.4](sase-qt.4.md) | 2026-08-19 10:55:24 EDT |
+| sase | [`b2b8415`](https://github.com/sase-org/sase/commit/b2b8415b7bd37924b74f91ecc1ecc77fa3882baa) | feat(tui): add Memory panel parent/child link travel | [sase-qt.5](sase-qt.5.md) | 2026-08-19 11:55:39 EDT |
