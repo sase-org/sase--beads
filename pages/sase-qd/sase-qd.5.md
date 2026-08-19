@@ -13,7 +13,7 @@ docs-visual: rewrite the "Current project" and "Projects Tab" sections of docs/a
 
 ## Dependencies
 
-- **Depends on:** [sase-qd.4](sase-qd.4.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-qd.4](sase-qd.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

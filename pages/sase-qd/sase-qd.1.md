@@ -21,7 +21,7 @@ core-set: add `set_current_project()` to `sase.current_project` — eligibility 
 
 ## Dependencies
 
-- **Blocks:** [sase-qd.4](sase-qd.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-qd.4](sase-qd.4.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
