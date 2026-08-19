@@ -34,7 +34,7 @@ sase-qx.2 still owns items 3-10 (preferred/sparing/unavailable, pool/fallback ma
 |---|---|---|---|---|---:|---:|
 | [sase-qx.1](sase-qx.1.md) | Provider-disable mode on the Rust wire | ✓ closed | medium | 2026-08-19 | 1 | 0 |
 | [sase-qx.2](sase-qx.2.md) | Mode-aware routing policy | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-qx.3](sase-qx.3.md) | Launch Control soft-disable workflow | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qx.3](sase-qx.3.md) | Launch Control soft-disable workflow | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qx.4](sase-qx.4.md) | Fail-closed launch guard | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qx.5](sase-qx.5.md) | The ACE disabled-provider launch panel | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 
@@ -45,7 +45,7 @@ flowchart TD
     n0["sase-qx: Soft-disabled LLM providers and a launch guard for hard-disabled ones [in_progress]"]
     n1["sase-qx.1: Provider-disable mode on the Rust wire [closed]"]
     n2["sase-qx.2: Mode-aware routing policy [closed]"]
-    n3["sase-qx.3: Launch Control soft-disable workflow [in_progress]"]
+    n3["sase-qx.3: Launch Control soft-disable workflow [closed]"]
     n4["sase-qx.4: Fail-closed launch guard [closed]"]
     n5["sase-qx.5: The ACE disabled-provider launch panel [in_progress]"]
     n0 --> n1
@@ -66,7 +66,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-qx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.1/README.md) | [sase-qx.1](sase-qx.1.md) | 0 |
 | [bbugyi200.athena.sase-qx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.2/README.md) | [sase-qx.2](sase-qx.2.md) | 1 |
-| [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.3.md) | [sase-qx.3](sase-qx.3.md) | 0 |
+| [bbugyi200.athena.sase-qx.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qx.3.md) | [sase-qx.3](sase-qx.3.md) | 1 |
 | [bbugyi200.athena.sase-qx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.4/README.md) | [sase-qx.4](sase-qx.4.md) | 1 |
 | [bbugyi200.athena.sase-qx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.5/README.md) | [sase-qx.5](sase-qx.5.md) | 0 |
 | [bbugyi200.athena.sase-qx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qx.land/README.md) | [sase-qx](README.md) | 0 |
@@ -77,3 +77,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`11d6107`](https://github.com/sase-org/sase/commit/11d610757765ccb19e2ca0e0c417a0ff0d500bfe) | feat(llm): teach routing the hard/soft provider-disable mode | [sase-qx.2](sase-qx.2.md) | 2026-08-19 13:03:42 EDT |
 | sase | [`44415dd`](https://github.com/sase-org/sase/commit/44415dddd0904937d59d3c65fa6e5988bcb95bea) | feat(agent): refuse launches that can only run on a hard-disabled provider | [sase-qx.4](sase-qx.4.md) | 2026-08-19 14:47:47 EDT |
+| sase | [`c8a0e71`](https://github.com/sase-org/sase/commit/c8a0e7184a4eb0961fe75afe82ce90962e45eded) | feat(ace): add Launch Control soft-disable workflow | [sase-qx.3](sase-qx.3.md) | 2026-08-19 14:54:31 EDT |
