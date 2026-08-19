@@ -25,7 +25,7 @@ panel: build the keyboard-first UpdatePanel modal, its rows, chips, styling, and
 
 - **Depends on:** [sase-r1.1](sase-r1.1.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r1.5](sase-r1.5.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r1.7](sase-r1.7.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r1.7](sase-r1.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

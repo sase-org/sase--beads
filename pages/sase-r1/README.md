@@ -29,7 +29,7 @@ Pressing ,U opens a fast, keyboard-first Update panel rendered entirely from alr
 | [sase-r1.4](sase-r1.4.md) | The UpdatePanel modal | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r1.5](sase-r1.5.md) | Wire ,U to the panel and the scoped flow | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r1.6](sase-r1.6.md) | Retire the Admin Center auto-update path | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r1.7](sase-r1.7.md) | Visual snapshots and final verification | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-r1.7](sase-r1.7.md) | Visual snapshots and final verification | ✓ closed | small | 2026-08-19 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n4["sase-r1.4: The UpdatePanel modal [closed]"]
     n5["sase-r1.5: Wire ,U to the panel and the scoped flow [closed]"]
     n6["sase-r1.6: Retire the Admin Center auto-update path [closed]"]
-    n7["sase-r1.7: Visual snapshots and final verification [in_progress]"]
+    n7["sase-r1.7: Visual snapshots and final verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-r1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.4/README.md) | [sase-r1.4](sase-r1.4.md) | 1 |
 | [bbugyi200.athena.sase-r1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.5/README.md) | [sase-r1.5](sase-r1.5.md) | 1 |
 | [bbugyi200.athena.sase-r1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.6/README.md) | [sase-r1.6](sase-r1.6.md) | 1 |
-| [bbugyi200.athena.sase-r1.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r1.7.md) | [sase-r1.7](sase-r1.7.md) | 0 |
+| [bbugyi200.athena.sase-r1.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r1.7.md) | [sase-r1.7](sase-r1.7.md) | 1 |
 | [bbugyi200.athena.sase-r1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r1.land/README.md) | [sase-r1](README.md) | 0 |
 
 ## Commits
@@ -84,3 +84,4 @@ flowchart TD
 | sase | [`9f24f13`](https://github.com/sase-org/sase/commit/9f24f133d76ceaa4296db6d1b1465dbe2d9270d1) | feat(ace): run comprehensive updates from the ACE app mixin | [sase-r1.3](sase-r1.3.md) | 2026-08-19 15:22:16 EDT |
 | sase | [`e9ed6a3`](https://github.com/sase-org/sase/commit/e9ed6a35011ead7e3c6f06b56a9c70b0ccc9bd05) | feat(ace): wire ,U to the Update panel and scoped preview | [sase-r1.5](sase-r1.5.md) | 2026-08-19 16:17:45 EDT |
 | sase | [`f191496`](https://github.com/sase-org/sase/commit/f1914962c8f7a5fb4bb9facc0888b70aa070d87b) | feat(ace): retire Admin Center auto-update plumbing | [sase-r1.6](sase-r1.6.md) | 2026-08-19 17:03:49 EDT |
+| sase | [`74952dd`](https://github.com/sase-org/sase/commit/74952dd1a8aceb99434a62a0f42fe64ee87e99fe) | test(ace): add Update panel PNG snapshot goldens | [sase-r1.7](sase-r1.7.md) | 2026-08-19 18:17:10 EDT |
