@@ -30,7 +30,7 @@ agents_tab: color the monitor status token by its pair accent in the ACE agent l
 ## Dependencies
 
 - **Depends on:** [sase-qv.3](sase-qv.3.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qv.7](sase-qv.7.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qv.7](sase-qv.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

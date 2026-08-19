@@ -24,7 +24,7 @@ cli: make -s/--start-status and -S/--stop-status required on sase monitor start,
 ## Dependencies
 
 - **Depends on:** [sase-qv.1](sase-qv.1.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qv.7](sase-qv.7.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qv.7](sase-qv.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
