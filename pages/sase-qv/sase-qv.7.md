@@ -13,7 +13,7 @@ guidance: teach TESTING/TESTED in the build-and-run memory note, make the sase_m
 
 ## Dependencies
 
-- **Depends on:** [sase-qv.2](sase-qv.2.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qv.2](sase-qv.2.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-qv.4](sase-qv.4.md) ◐ · ⧖ 2026-08-19
 
 ## Agents

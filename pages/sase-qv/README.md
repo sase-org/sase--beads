@@ -16,7 +16,7 @@ Every sase monitor declares its own running and finished status labels, those la
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-qv.1](sase-qv.1.md) | Monitor status contract module | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-qv.2](sase-qv.2.md) | Required start and stop status flags | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qv.2](sase-qv.2.md) | Required start and stop status flags | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qv.3](sase-qv.3.md) | Status pair plumbing and terminality | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-qv.4](sase-qv.4.md) | Agents tab and agent list coloring | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-qv.5](sase-qv.5.md) | Agent family container status | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
@@ -29,7 +29,7 @@ Every sase monitor declares its own running and finished status labels, those la
 flowchart TD
     n0["sase-qv: Required custom monitor statuses with deterministic pair colors [in_progress]"]
     n1["sase-qv.1: Monitor status contract module [closed]"]
-    n2["sase-qv.2: Required start and stop status flags [in_progress]"]
+    n2["sase-qv.2: Required start and stop status flags [closed]"]
     n3["sase-qv.3: Status pair plumbing and terminality [in_progress]"]
     n4["sase-qv.4: Agents tab and agent list coloring [in_progress]"]
     n5["sase-qv.5: Agent family container status [in_progress]"]
@@ -56,7 +56,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-qv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.1/README.md) | [sase-qv.1](sase-qv.1.md) | 1 |
-| [bbugyi200.athena.sase-qv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.2/README.md) | [sase-qv.2](sase-qv.2.md) | 0 |
+| [bbugyi200.athena.sase-qv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.2/README.md) | [sase-qv.2](sase-qv.2.md) | 1 |
 | [bbugyi200.athena.sase-qv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.3/README.md) | [sase-qv.3](sase-qv.3.md) | 0 |
 | [bbugyi200.athena.sase-qv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.4/README.md) | [sase-qv.4](sase-qv.4.md) | 0 |
 | [bbugyi200.athena.sase-qv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.5/README.md) | [sase-qv.5](sase-qv.5.md) | 0 |
@@ -69,3 +69,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3e3c937`](https://github.com/sase-org/sase/commit/3e3c937748a1f001a8275943df8370466d64eb1e) | feat(monitor): add shared status-label contract and palette hash | [sase-qv.1](sase-qv.1.md) | 2026-08-19 10:03:37 EDT |
+| sase | [`a64acb2`](https://github.com/sase-org/sase/commit/a64acb267e3e3435589b167fdeaebbcd04ab93bb) | feat(monitor)!: require start and stop status flags on monitor start | [sase-qv.2](sase-qv.2.md) | 2026-08-19 11:07:24 EDT |

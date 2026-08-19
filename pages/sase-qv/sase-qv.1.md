@@ -23,7 +23,7 @@ contract: add the shared sase.monitor_status module that owns the default labels
 
 ## Dependencies
 
-- **Blocks:** [sase-qv.2](sase-qv.2.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qv.2](sase-qv.2.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qv.3](sase-qv.3.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
