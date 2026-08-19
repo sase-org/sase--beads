@@ -29,6 +29,20 @@ IMPACT: 'just check-full' and any full 'just test' are red for every agent until
 
 FOUND BY the sase-ps land agent (2026-08-18) during that epic's landing verification: a full 'just test' on a2357e214 gave 3 failed, 33525 passed, 13 skipped, and these were the only three. sase-ps (runner-slot occupancy) touches no flag or completion code, and all 105 runner-slot tests pass on the same tree. Recorded here rather than as a task because this epic is active and owns the change.
 
+[2026-08-18T22:28:15Z · sase-pv.7.f0] DESIGN CHANGE (project owner directive, 2026-08-18): the `migrate` phase no longer rewrites the five flag bead event streams in place. The plan's `migrate` section considered and rejected close-old-create-new; the owner instead directed create-new + delete-old, and that is what shipped. The original design could not ship at all: `sase.bead._stream_integrity.prepare_event_streams_for_commit` refuses any edit to an already-published event (full analysis in sase-pv.7's BLOCKED note), so `issue_type` is immutable after `issue_created` through every sanctioned path.
+
+WHAT SHIPPED IN sase-pv.7: each old flag bead was deleted with `sase bead rm` and re-created as a typed `flag` task bead through `create_flag_bead`, the same creation path `sase flag new` uses. Title, size, kind, `remove_by_date` and `remove_by_release` are preserved exactly; `when_enabled` / `when_disabled` / `remove_when` are the plan's drafts after per-flag verification against the code. Bead IDs necessarily changed, so `src/sase/feature_flags/registry.py` and `tests/feature_flags/test_consumers.py` were repointed:
+
+  sase-nw -> sase-qe  coder_inherits_planner_chat          beta    medium  2026-11-14 / 0.18.0
+  sase-nx -> sase-qf  prettier_enabled                     sunset  medium  2026-11-14 / 0.18.0
+  sase-om -> sase-qg  completion_refresh_on_update         beta    small   2026-11-15 / 0.18.0
+  sase-pa -> sase-qh  epic_resume_gate                     beta    small   2026-11-15 / 0.18.0
+  sase-pk -> sase-qi  commit_finalizer_shared_clone_exempt sunset  medium  2026-11-16 / 0.18.0
+
+Those two files were the only references to the old IDs anywhere in the repo.
+
+CARRY-OVER FOR `retire` (sase-pv.8): `sase bead rm` does not delete a bead's event stream, so five tombstoned streams still carry `issue_type: "flag"` in their `issue_created` payload. `sase-pv.8` has a note with the full analysis; that phase must prune them before `IssueTypeWire::Flag` can be deleted.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,8 +53,8 @@ FOUND BY the sase-ps land agent (2026-08-18) during that epic's landing verifica
 | [sase-pv.4](sase-pv.4.md) | Due-ness, identity, and integrity read task-type fields | ✓ closed | medium | 2026-08-18 | 1 | 2 |
 | [sase-pv.5](sase-pv.5.md) | FlagTriage is a task-bead gate | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.6](sase-pv.6.md) | Every bead surface renders a flag as a typed task | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-pv.7](sase-pv.7.md) | Migrate the five live flag beads | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
-| [sase-pv.8](sase-pv.8.md) | Delete the \`flag\` issue type end to end | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
+| [sase-pv.7](sase-pv.7.md) | Migrate the five live flag beads | ✓ closed | medium | 2026-08-18 | 1 | 0 |
+| [sase-pv.8](sase-pv.8.md) | Delete the \`flag\` issue type end to end | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-pv.9](sase-pv.9.md) | Memory notes, generated instructions, and documentation | ◐ in_progress | medium | 2026-08-18 | 1 | 0 |
 
 ## Lineage
@@ -54,8 +68,8 @@ flowchart TD
     n4["sase-pv.4: Due-ness, identity, and integrity read task-type fields [closed]"]
     n5["sase-pv.5: FlagTriage is a task-bead gate [closed]"]
     n6["sase-pv.6: Every bead surface renders a flag as a typed task [closed]"]
-    n7["sase-pv.7: Migrate the five live flag beads [in_progress]"]
-    n8["sase-pv.8: Delete the `flag` issue type end to end [in_progress]"]
+    n7["sase-pv.7: Migrate the five live flag beads [closed]"]
+    n8["sase-pv.8: Delete the `flag` issue type end to end [closed]"]
     n9["sase-pv.9: Memory notes, generated instructions, and documentation [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -89,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-pv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.5/README.md) | [sase-pv.5](sase-pv.5.md) | 1 |
 | [bbugyi200.athena.sase-pv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.6/README.md) | [sase-pv.6](sase-pv.6.md) | 1 |
 | [bbugyi200.athena.sase-pv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.7/README.md) | [sase-pv.7](sase-pv.7.md) | 0 |
-| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.8/README.md) | [sase-pv.8](sase-pv.8.md) | 0 |
+| [bbugyi200.athena.sase-pv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-pv.8.md) | [sase-pv.8](sase-pv.8.md) | 1 |
 | [bbugyi200.athena.sase-pv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.9/README.md) | [sase-pv.9](sase-pv.9.md) | 0 |
 | [bbugyi200.athena.sase-pv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-pv.land/README.md) | [sase-pv](README.md) | 0 |
 
@@ -105,3 +119,4 @@ flowchart TD
 | sase-core | [`sase-core@c121e0e`](https://github.com/sase-org/sase-core/commit/c121e0ed6bfbd1e11fa4ca27ab166f7dcf63db8d) | feat(bead): persist task\_type\_fields on bead update | [sase-pv.4](sase-pv.4.md) | 2026-08-18 14:16:26 EDT |
 | sase | [`65a34b9`](https://github.com/sase-org/sase/commit/65a34b9096c0ab8a301725697495d4bb340bcf64) | feat(flags): treat FlagTriage as a task-bead gate | [sase-pv.5](sase-pv.5.md) | 2026-08-18 15:32:29 EDT |
 | sase | [`2b2c5ed`](https://github.com/sase-org/sase/commit/2b2c5edefe1b4e94b83c6e3016bb5245d92c75cf) | feat(beads)!: render flags as typed tasks on every bead surface | [sase-pv.6](sase-pv.6.md) | 2026-08-18 15:55:19 EDT |
+| sase | [`a317a2e`](https://github.com/sase-org/sase/commit/a317a2e359e8dfc1f8428473a7ebbdd106a94b0f) | feat(bead)!: delete the flag issue type | [sase-pv.8](sase-pv.8.md) | 2026-08-18 20:18:15 EDT |

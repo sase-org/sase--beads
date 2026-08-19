@@ -26,7 +26,7 @@ gates: make the reconciler and the FlagTriage contract select and describe flag 
 ## Dependencies
 
 - **Depends on:** [sase-pv.4](sase-pv.4.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-pv.7](sase-pv.7.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-pv.7](sase-pv.7.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 

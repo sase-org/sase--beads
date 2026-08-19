@@ -13,7 +13,7 @@ docs: rewrite the two feature-flag memory notes, regenerate the instruction file
 
 ## Dependencies
 
-- **Depends on:** [sase-pv.8](sase-pv.8.md) ◐ · ⧖ 2026-08-18
+- **Depends on:** [sase-pv.8](sase-pv.8.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
