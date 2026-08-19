@@ -21,7 +21,7 @@ launcher: add the tmux command primitives that create the agent window, register
 
 - **Depends on:** [sase-r0.3](sase-r0.3.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r0.5](sase-r0.5.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [sase-r0.7](sase-r0.7.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.7](sase-r0.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

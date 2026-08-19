@@ -14,7 +14,7 @@ polish: pin command parity with the shell script this feature replaces, add the 
 ## Dependencies
 
 - **Depends on:** [sase-r0.5](sase-r0.5.md) ◐ · ⧖ 2026-08-19
-- **Depends on:** [sase-r0.7](sase-r0.7.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r0.7](sase-r0.7.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
