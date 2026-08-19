@@ -13,7 +13,7 @@ grammar: add the cross-pane regression that every non-degraded resolved sub-tab 
 
 ## Dependencies
 
-- **Depends on:** [sase-qy.3](sase-qy.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qy.3](sase-qy.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

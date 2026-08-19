@@ -24,7 +24,7 @@ panes: make BeadFilterBar and FileFilterBar persistent, add a single `_sync_quer
 ## Dependencies
 
 - **Depends on:** [sase-qy.1](sase-qy.1.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-qy.3](sase-qy.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qy.3](sase-qy.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
