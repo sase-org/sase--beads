@@ -29,7 +29,7 @@ Impact is user-visible, not test-only: _current_entry -> _entry_by_name (line 58
 | [sase-qn.2](sase-qn.2.md) | Latest-version enrichment that scales with installed count, not catalog size | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-qn.3](sase-qn.3.md) | Catalog fetch past GitHub search's 1000-result cap | ✓ closed | medium | 2026-08-18 | 1 | 1 |
 | [sase-qn.4](sase-qn.4.md) | Constant-time render, filter, and navigation paths | ✓ closed | medium | 2026-08-18 | 1 | 1 |
-| [sase-qn.5](sase-qn.5.md) | Enforce the budgets and close out the epic | ✓ closed | small | 2026-08-18 | 1 | 1 |
+| [sase-qn.5](sase-qn.5.md) | Enforce the budgets and close out the epic | ✓ closed | small | 2026-08-18 | 1 | 2 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qn.2/README.md) | [sase-qn.2](sase-qn.2.md) | 1 |
 | [bbugyi200.athena.sase-qn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qn.3/README.md) | [sase-qn.3](sase-qn.3.md) | 1 |
 | [bbugyi200.athena.sase-qn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qn.4/README.md) | [sase-qn.4](sase-qn.4.md) | 1 |
-| [bbugyi200.athena.sase-qn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qn.5.md) | [sase-qn.5](sase-qn.5.md) | 1 |
+| [bbugyi200.athena.sase-qn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qn.5.md) | [sase-qn.5](sase-qn.5.md) | 2 |
 | [bbugyi200.athena.sase-qn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qn.land/README.md) | [sase-qn](README.md) | 0 |
 
 ## Commits
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`41d9f91`](https://github.com/sase-org/sase/commit/41d9f9141b537785164d83ca665c6c30cf81d211) | perf(tui): make plugins-browser render, filter, and navigation paths constant-time | [sase-qn.4](sase-qn.4.md) | 2026-08-18 21:37:23 EDT |
 | sase | [`6641805`](https://github.com/sase-org/sase/commit/66418053282c2937c4ca79a179e5c9a21bea02a8) | feat(plugins): scale latest-version enrichment to installed count | [sase-qn.2](sase-qn.2.md) | 2026-08-18 21:53:45 EDT |
 | sase | [`ce5ddf1`](https://github.com/sase-org/sase/commit/ce5ddf13cd8030b385c430da1a5909b07849a3c1) | perf(plugins): enforce catalog-scale budgets and keep lazy latest | [sase-qn.5](sase-qn.5.md) | 2026-08-18 23:02:02 EDT |
+| sase | [`0e36971`](https://github.com/sase-org/sase/commit/0e36971e0ba2b75ffa9cc09d33ff2a00c6bcce65) | chore(perf): ignore plugin catalog scale floor-check report | [sase-qn.5](sase-qn.5.md) | 2026-08-18 23:06:15 EDT |

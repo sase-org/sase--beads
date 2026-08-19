@@ -35,6 +35,8 @@ guard: flip the recorded baselines into enforced budgets, add the regression che
 
 [2026-08-19T03:00:57Z · sase-qn.5--1] Enforced 16 ms filter/j p95 at n=2000 (filter 11.012 ms, j 0.495 ms); O(installed) enrich (scan_work=0, fetch_calls=5) and unsplittable over-cap fetch warns instead of silently dropping; just plugin-catalog-scale-check plus CI perf-floors step; plugin_catalog_scoped_latest stays beta/default-off (kind immutable; follow-up to convert); _apply_plugin_latest updates _plugin_entry_by_name so lazy highlighted-row latest is visible; just check-full lint+test-cost green, flake-baseline red on 4 host-wide historical flakes (serial isolated reruns passed, including lazy-latest after identity-map fix).
 
+[2026-08-19T03:05:32Z · sase-qn.5--1] Enforced 16 ms filter/j p95 at n=2000 (filter 11.012 ms, j 0.495 ms). Eager enrich is O(installed)=5 with scan_work=0, not O(catalog). Unsplittable over-cap fetch warns instead of silently dropping. just plugin-catalog-scale-check (10 floors) plus CI perf-floors step are wired; generated report is gitignored like sibling floors. plugin_catalog_scoped_latest stays beta/default-off (kind immutable; convert-to-sunset follow-up recorded). Identity-map fix: _apply_plugin_latest updates _plugin_entry_by_name so lazy highlighted-row latest is visible. just check-full: lint/validate/test-cost green; flake-baseline red on 4 host-wide historical flakes (serial reruns passed; follow-ups recorded). Parent sase-qn left open.
+
 ## Dependencies
 
 - **Depends on:** [sase-qn.1](sase-qn.1.md) ✓ · ⧖ 2026-08-18
@@ -46,10 +48,11 @@ guard: flip the recorded baselines into enforced budgets, add the regression che
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-qn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qn.5.md) | [sase-qn.5](sase-qn.5.md) | 1 |
+| [bbugyi200.athena.sase-qn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qn.5.md) | [sase-qn.5](sase-qn.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ce5ddf1`](https://github.com/sase-org/sase/commit/ce5ddf13cd8030b385c430da1a5909b07849a3c1) | perf(plugins): enforce catalog-scale budgets and keep lazy latest | [sase-qn.5](sase-qn.5.md) | 2026-08-18 23:02:02 EDT |
+| sase | [`0e36971`](https://github.com/sase-org/sase/commit/0e36971e0ba2b75ffa9cc09d33ff2a00c6bcce65) | chore(perf): ignore plugin catalog scale floor-check report | [sase-qn.5](sase-qn.5.md) | 2026-08-18 23:06:15 EDT |
