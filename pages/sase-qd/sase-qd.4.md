@@ -25,7 +25,7 @@ set-action: bind `set_current_project` (default `c`) in the Projects sub-tab, ru
 
 - **Depends on:** [sase-qd.1](sase-qd.1.md) ✓ · ⧖ 2026-08-18
 - **Depends on:** [sase-qd.3](sase-qd.3.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-qd.5](sase-qd.5.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-qd.5](sase-qd.5.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
