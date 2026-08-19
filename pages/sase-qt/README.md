@@ -20,7 +20,7 @@ A prompt-launched Memory panel lets a user browse, add, modify, and delete SASE 
 | [sase-qt.3](sase-qt.3.md) | ace.keymaps.memory binding scope | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qt.4](sase-qt.4.md) | Memory panel shell, note tree, filter, and scope switching | ✓ closed | medium | 2026-08-19 | 1 | 2 |
 | [sase-qt.5](sase-qt.5.md) | Parent and child link travel | ✓ closed | small | 2026-08-19 | 1 | 1 |
-| [sase-qt.6](sase-qt.6.md) | Add, edit, delete, and publish surfaces | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-qt.6](sase-qt.6.md) | Add, edit, delete, and publish surfaces | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-qt.7](sase-qt.7.md) | Prompt gm and Ctrl+G m entry point | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-qt.8](sase-qt.8.md) | Documentation, visual snapshots, and full verification | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
 
@@ -34,7 +34,7 @@ flowchart TD
     n3["sase-qt.3: ace.keymaps.memory binding scope [closed]"]
     n4["sase-qt.4: Memory panel shell, note tree, filter, and scope switching [closed]"]
     n5["sase-qt.5: Parent and child link travel [closed]"]
-    n6["sase-qt.6: Add, edit, delete, and publish surfaces [in_progress]"]
+    n6["sase-qt.6: Add, edit, delete, and publish surfaces [closed]"]
     n7["sase-qt.7: Prompt gm and Ctrl+G m entry point [closed]"]
     n8["sase-qt.8: Documentation, visual snapshots, and full verification [in_progress]"]
     n0 --> n1
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.3/README.md) | [sase-qt.3](sase-qt.3.md) | 1 |
 | [bbugyi200.athena.sase-qt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.4/README.md) | [sase-qt.4](sase-qt.4.md) | 2 |
 | [bbugyi200.athena.sase-qt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.5/README.md) | [sase-qt.5](sase-qt.5.md) | 1 |
-| [bbugyi200.athena.sase-qt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.6/README.md) | [sase-qt.6](sase-qt.6.md) | 0 |
+| [bbugyi200.athena.sase-qt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.6/README.md) | [sase-qt.6](sase-qt.6.md) | 1 |
 | [bbugyi200.athena.sase-qt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.7/README.md) | [sase-qt.7](sase-qt.7.md) | 1 |
 | [bbugyi200.athena.sase-qt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.8/README.md) | [sase-qt.8](sase-qt.8.md) | 0 |
 | [bbugyi200.athena.sase-qt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qt.land/README.md) | [sase-qt](README.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`edf64fa`](https://github.com/sase-org/sase/commit/edf64fa1cfe8ff0de58cd04657d27331bd7ef852) | feat(tui): add Memory panel shell, note rail, filter, and scope switching | [sase-qt.4](sase-qt.4.md) | 2026-08-19 10:55:24 EDT |
 | sase | [`b2b8415`](https://github.com/sase-org/sase/commit/b2b8415b7bd37924b74f91ecc1ecc77fa3882baa) | feat(tui): add Memory panel parent/child link travel | [sase-qt.5](sase-qt.5.md) | 2026-08-19 11:55:39 EDT |
 | sase | [`b419802`](https://github.com/sase-org/sase/commit/b419802f30c3c6a42eadc033fa540a80035797e9) | feat(tui): open Memory panel from prompt gm / Ctrl+G m | [sase-qt.7](sase-qt.7.md) | 2026-08-19 12:00:04 EDT |
+| sase | [`3ca09ff`](https://github.com/sase-org/sase/commit/3ca09ff47734d55e73a4ee82886b482f4fa5a287) | feat(ace): add Memory panel add, edit, delete, and publish surfaces | [sase-qt.6](sase-qt.6.md) | 2026-08-19 12:17:03 EDT |

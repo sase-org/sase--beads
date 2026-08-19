@@ -25,7 +25,7 @@ memory-writes: add a CLI-free create/update/delete engine for memory notes with 
 
 ## Dependencies
 
-- **Blocks:** [sase-qt.6](sase-qt.6.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qt.6](sase-qt.6.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
