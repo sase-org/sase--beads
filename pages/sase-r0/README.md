@@ -11,6 +11,10 @@
 
 Pressing `t` in Launch Control, or running `sase tmux-agent`, opens a keyboard-first chooser of every registered agent-CLI provider and drops the chosen one into a fresh, auto-numbered tmux window in the current directory. Both surfaces share one registry-driven catalog, so a newly registered provider plugin appears with no code change here.
 
+## Notes
+
+[2026-08-19T20:42:09Z · sase-qx.land] INTEGRATION from sase-qx.land: tmux Agent catalog already attaches any provider disable as routing_disabled without excluding the row. After soft disables landed, ACE row text and `sase tmux-agent` list/JSON now distinguish modes: hard stays "routing disabled"; soft renders "soft" (explicit tmux launch remains allowed). JSON counts.routing_disabled counts hard only; each entry still carries mode. sase-r0.8 visual snapshot/docs should show the soft status string. Tests: tests/ace/tui/test_tmux_agent_modal.py, tests/tmux_agent/test_catalog.py, tests/tmux_agent/test_cli.py.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -22,7 +26,7 @@ Pressing `t` in Launch Control, or running `sase tmux-agent`, opens a keyboard-f
 | [sase-r0.5](sase-r0.5.md) | sase tmux-agent command | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r0.6](sase-r0.6.md) | Catalog cache for menu latency | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r0.7](sase-r0.7.md) | Launch Control \`t\` and the tmux Agent panel | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r0.8](sase-r0.8.md) | Parity guarantee, visual snapshot, and documentation | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-r0.8](sase-r0.8.md) | Parity guarantee, visual snapshot, and documentation | ✓ closed | small | 2026-08-19 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +40,7 @@ flowchart TD
     n5["sase-r0.5: sase tmux-agent command [closed]"]
     n6["sase-r0.6: Catalog cache for menu latency [closed]"]
     n7["sase-r0.7: Launch Control `t` and the tmux Agent panel [closed]"]
-    n8["sase-r0.8: Parity guarantee, visual snapshot, and documentation [in_progress]"]
+    n8["sase-r0.8: Parity guarantee, visual snapshot, and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-r0.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.5/README.md) | [sase-r0.5](sase-r0.5.md) | 1 |
 | [bbugyi200.athena.sase-r0.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.6/README.md) | [sase-r0.6](sase-r0.6.md) | 1 |
 | [bbugyi200.athena.sase-r0.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.7/README.md) | [sase-r0.7](sase-r0.7.md) | 1 |
-| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r0.8.md) | [sase-r0.8](sase-r0.8.md) | 0 |
+| [bbugyi200.athena.sase-r0.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r0.8.md) | [sase-r0.8](sase-r0.8.md) | 1 |
 | [bbugyi200.athena.sase-r0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r0.land/README.md) | [sase-r0](README.md) | 0 |
 
 ## Commits
@@ -80,3 +84,4 @@ flowchart TD
 | sase | [`b9ece10`](https://github.com/sase-org/sase/commit/b9ece108998721586586628436778d0ddf3d3574) | feat(ace): add Launch Control tmux Agent panel bound to \`t\` | [sase-r0.7](sase-r0.7.md) | 2026-08-19 15:15:37 EDT |
 | sase | [`6339525`](https://github.com/sase-org/sase/commit/63395254ea88fa80ebb5adaa08692420d434ee08) | feat(cli): add sase tmux-agent command | [sase-r0.5](sase-r0.5.md) | 2026-08-19 15:21:15 EDT |
 | sase | [`4f25812`](https://github.com/sase-org/sase/commit/4f258124327591e3b8cb6598c569192af414e238) | perf(tmux-agent): cache catalog metadata for menu latency | [sase-r0.6](sase-r0.6.md) | 2026-08-19 16:26:11 EDT |
+| sase | [`aa5249d`](https://github.com/sase-org/sase/commit/aa5249d36482cedd4c2be1a400b9db4236d60baf) | test(tmux-agent): pin script parity and Launch Control snapshots | [sase-r0.8](sase-r0.8.md) | 2026-08-19 17:56:57 EDT |

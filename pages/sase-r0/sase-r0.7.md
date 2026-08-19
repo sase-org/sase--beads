@@ -22,7 +22,7 @@ ace: bind `t` in Launch Control and add the tmux Agent modal, its styles, footer
 ## Dependencies
 
 - **Depends on:** [sase-r0.4](sase-r0.4.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r0.8](sase-r0.8.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.8](sase-r0.8.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

@@ -25,7 +25,7 @@ cli: register and dispatch the `sase tmux-agent` command with its menu, direct-l
 
 - **Depends on:** [sase-r0.4](sase-r0.4.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r0.6](sase-r0.6.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r0.8](sase-r0.8.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.8](sase-r0.8.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
