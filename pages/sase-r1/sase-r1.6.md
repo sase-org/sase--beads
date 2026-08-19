@@ -13,7 +13,7 @@ retire: delete the auto_update and captured-provider plumbing that only existed 
 
 ## Dependencies
 
-- **Depends on:** [sase-r1.5](sase-r1.5.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r1.5](sase-r1.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

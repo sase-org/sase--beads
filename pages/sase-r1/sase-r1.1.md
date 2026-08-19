@@ -22,7 +22,7 @@ evidence: stash the periodic UpdateStatus on the app, share the existing update/
 ## Dependencies
 
 - **Blocks:** [sase-r1.4](sase-r1.4.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r1.5](sase-r1.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r1.5](sase-r1.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

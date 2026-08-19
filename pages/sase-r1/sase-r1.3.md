@@ -22,7 +22,7 @@ procs: move comprehensive execution, proc submission, completion, and restart on
 ## Dependencies
 
 - **Depends on:** [sase-r1.2](sase-r1.2.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r1.5](sase-r1.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r1.5](sase-r1.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

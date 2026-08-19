@@ -24,7 +24,7 @@ preview: introduce UpdateLeg/UpdateScope, collect preview inputs without the Upd
 ## Dependencies
 
 - **Blocks:** [sase-r1.3](sase-r1.3.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r1.5](sase-r1.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r1.5](sase-r1.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
