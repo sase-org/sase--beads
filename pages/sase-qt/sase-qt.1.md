@@ -27,7 +27,7 @@ memory-catalog: build the scope ring, cached per-scope note snapshots, the note 
 
 ## Dependencies
 
-- **Blocks:** [sase-qt.4](sase-qt.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qt.4](sase-qt.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

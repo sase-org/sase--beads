@@ -25,7 +25,7 @@ panel-keymaps: register the panel-scoped keymap dataclass, defaults, config sche
 
 ## Dependencies
 
-- **Blocks:** [sase-qt.4](sase-qt.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-qt.4](sase-qt.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

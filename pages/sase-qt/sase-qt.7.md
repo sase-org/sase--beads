@@ -13,7 +13,7 @@ prompt-entry: claim the prompt g-prefix m continuation, post the request message
 
 ## Dependencies
 
-- **Depends on:** [sase-qt.4](sase-qt.4.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qt.4](sase-qt.4.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-qt.8](sase-qt.8.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
