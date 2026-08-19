@@ -13,7 +13,7 @@ visual: add PNG goldens for the populated and never-checked panel states and run
 
 ## Dependencies
 
-- **Depends on:** [sase-r1.4](sase-r1.4.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r1.4](sase-r1.4.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r1.5](sase-r1.5.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
