@@ -13,7 +13,7 @@ panel-mutations: wire the add/edit forms, the delete confirmation, the tracked-p
 
 ## Dependencies
 
-- **Depends on:** [sase-qt.2](sase-qt.2.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-qt.2](sase-qt.2.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-qt.4](sase-qt.4.md) ◐ · ⧖ 2026-08-19
 - **Blocks:** [sase-qt.8](sase-qt.8.md) ◐ · ⧖ 2026-08-19
 
