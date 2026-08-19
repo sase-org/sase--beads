@@ -82,7 +82,7 @@ flowchart TD
     n7["sase-qv.7: Guidance, skill, and docs [closed]"]
     n8["sase-qv.8: Finish monitor-status landing integration [in_progress]"]
     n9["sase-qv.8.1: Honor recorded stop status in dismissed-archive wait resolution [closed]"]
-    n10["sase-qv.8.2: Refresh the remaining monitor golden and re-check later surfaces [in_progress]"]
+    n10["sase-qv.8.2: Refresh the remaining monitor golden and re-check later surfaces [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.athena.sase-qv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.6/README.md) | [sase-qv.6](sase-qv.6.md) | 1 |
 | [bbugyi200.athena.sase-qv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.7/README.md) | [sase-qv.7](sase-qv.7.md) | 1 |
 | [bbugyi200.athena.sase-qv.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.8.1/README.md) | [sase-qv.8.1](sase-qv.8.1.md) | 1 |
-| [bbugyi200.athena.sase-qv.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qv.8.2.md) | [sase-qv.8.2](sase-qv.8.2.md) | 0 |
+| [bbugyi200.athena.sase-qv.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qv.8.2.md) | [sase-qv.8.2](sase-qv.8.2.md) | 1 |
 | [bbugyi200.athena.sase-qv.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-qv.8.land/README.md) | [sase-qv.8](sase-qv.8.md) | 0 |
 | [bbugyi200.athena.sase-qv.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-qv.land.md) | [sase-qv](README.md) | 0 |
 
@@ -130,3 +130,4 @@ flowchart TD
 | sase | [`91c4323`](https://github.com/sase-org/sase/commit/91c432385a6a632726a1838072474a9c16703d29) | feat(agents): color monitor status by pair accent | [sase-qv.4](sase-qv.4.md) | 2026-08-19 13:30:19 EDT |
 | sase | [`94e3a86`](https://github.com/sase-org/sase/commit/94e3a864efbec30de29ba54f1d65e086022de685) | docs(monitors): require start and stop status labels | [sase-qv.7](sase-qv.7.md) | 2026-08-19 14:00:18 EDT |
 | sase | [`3df3452`](https://github.com/sase-org/sase/commit/3df34525c0113a5cb7693c1a52c55e81be914383) | fix(core): honor recorded monitor stop status in dismissed-archive waits | [sase-qv.8.1](sase-qv.8.1.md) | 2026-08-19 17:23:56 EDT |
+| sase | [`5df623a`](https://github.com/sase-org/sase/commit/5df623a979e1aac85752c7947cc63b356dafe385) | test(ace): refresh family-conversation monitor PNG golden | [sase-qv.8.2](sase-qv.8.2.md) | 2026-08-19 18:19:30 EDT |
