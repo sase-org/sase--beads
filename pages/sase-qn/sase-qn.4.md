@@ -20,7 +20,7 @@ tui: batch OptionList population, replace the per-keystroke linear scans with id
 ## Dependencies
 
 - **Depends on:** [sase-qn.1](sase-qn.1.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-qn.5](sase-qn.5.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-qn.5](sase-qn.5.md) ✓ · ⧖ 2026-08-18
 
 ## Agents
 
