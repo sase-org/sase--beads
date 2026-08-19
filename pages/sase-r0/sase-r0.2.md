@@ -25,7 +25,7 @@ descriptor: add the `llm_interactive_cli` hook plus vendor metadata, implement i
 
 ## Dependencies
 
-- **Blocks:** [sase-r0.3](sase-r0.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.3](sase-r0.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

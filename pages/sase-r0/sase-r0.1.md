@@ -23,7 +23,7 @@ config: add the `tmux_agent` config block, JSON schema entry, shipped defaults, 
 
 ## Dependencies
 
-- **Blocks:** [sase-r0.3](sase-r0.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r0.3](sase-r0.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
