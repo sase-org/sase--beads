@@ -27,7 +27,7 @@ bench: add a slow-marked scale bench and large synthetic catalog fixture for the
 
 - **Blocks:** [sase-qn.2](sase-qn.2.md) ◐ · ⧖ 2026-08-18
 - **Blocks:** [sase-qn.3](sase-qn.3.md) ✓ · ⧖ 2026-08-18
-- **Blocks:** [sase-qn.4](sase-qn.4.md) ◐ · ⧖ 2026-08-18
+- **Blocks:** [sase-qn.4](sase-qn.4.md) ✓ · ⧖ 2026-08-18
 - **Blocks:** [sase-qn.5](sase-qn.5.md) ◐ · ⧖ 2026-08-18
 
 ## Agents
