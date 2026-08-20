@@ -53,11 +53,10 @@ PROPOSED FOLLOW-UP: just check is blocked at lint (symvision) by Justfile `--epi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
+| [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@58256f9`](https://github.com/sase-org/sase-core/commit/58256f90d11a82bd8c104ea9bc6d90db39096fd3) | feat(task\_type): add optional create\_refusal on catalog wire | [sase-rm.3](sase-rm.3.md) | 2026-08-20 15:54:57 EDT |
-| sase | [`f136f4f`](https://github.com/sase-org/sase/commit/f136f4fbdcb8a48cde0716dd54ad71aa3c386796) | feat: reconcile memory, plan publication, and flag policy contracts | [sase-rm.3](sase-rm.3.md) | 2026-08-20 15:56:27 EDT |
