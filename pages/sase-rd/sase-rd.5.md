@@ -14,7 +14,7 @@ panel-crud-polish: add tracked conflict-safe writes, expose the requested prompt
 ## Dependencies
 
 - **Depends on:** [sase-rd.3](sase-rd.3.md) ✓ · ⧖ 2026-08-20
-- **Depends on:** [sase-rd.4](sase-rd.4.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rd.4](sase-rd.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
