@@ -22,7 +22,7 @@ Every SASE artifact has a defined artifact markdown file and a typed, committed 
 | [sase-r8.5](sase-r8.5.md) | Rendered link tables, prompt-ref cites, and companions | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r8.6](sase-r8.6.md) | Bead link events, pages, and RELATED: migration | ✓ closed | medium | 2026-08-19 | 1 | 2 |
 | [sase-r8.7](sase-r8.7.md) | ACE relation source for the link graph | ✓ closed | small | 2026-08-19 | 1 | 1 |
-| [sase-r8.8](sase-r8.8.md) | Glossary, docs, skills, and agent adoption | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-r8.8](sase-r8.8.md) | Glossary, docs, skills, and agent adoption | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-r8.5: Rendered link tables, prompt-ref cites, and companions [closed]"]
     n6["sase-r8.6: Bead link events, pages, and RELATED: migration [closed]"]
     n7["sase-r8.7: ACE relation source for the link graph [closed]"]
-    n8["sase-r8.8: Glossary, docs, skills, and agent adoption [in_progress]"]
+    n8["sase-r8.8: Glossary, docs, skills, and agent adoption [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 1 |
 | [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 2 |
 | [bbugyi200.athena.sase-r8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.7/README.md) | [sase-r8.7](sase-r8.7.md) | 1 |
-| [bbugyi200.athena.sase-r8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.8/README.md) | [sase-r8.8](sase-r8.8.md) | 0 |
+| [bbugyi200.athena.sase-r8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.8/README.md) | [sase-r8.8](sase-r8.8.md) | 1 |
 | [bbugyi200.athena.sase-r8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.land/README.md) | [sase-r8](README.md) | 0 |
 
 ## Commits
@@ -83,3 +83,4 @@ flowchart TD
 | sase | [`55ee145`](https://github.com/sase-org/sase/commit/55ee145f6c5a8fc05b34c028b08c5e8fb0262c6f) | feat(artifact): add sase artifact link and sase artifact read | [sase-r8.4](sase-r8.4.md) | 2026-08-20 08:03:12 EDT |
 | sase | [`585e34b`](https://github.com/sase-org/sase/commit/585e34b33d9c633e070fcc875a0403788297042a) | feat(beads): persist typed links in events, pages, and migrate-notes | [sase-r8.6](sase-r8.6.md) | 2026-08-20 08:31:35 EDT |
 | sase-core | [`sase-core@751d60f`](https://github.com/sase-org/sase-core/commit/751d60f600d0c7f59abe13bdb471bdbcfb7dd4b1) | feat(bead): add bead\_add\_link and bead\_remove\_link mutations | [sase-r8.6](sase-r8.6.md) | 2026-08-20 08:33:06 EDT |
+| sase | [`4687d37`](https://github.com/sase-org/sase/commit/4687d37956ac2b995fff556319180091bf71af1b) | feat(artifacts): publish relation registry snapshot | [sase-r8.8](sase-r8.8.md) | 2026-08-20 09:17:44 EDT |
