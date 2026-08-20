@@ -22,7 +22,7 @@ snippet-cli: expose add, delete, list, and show with rich and machine-readable o
 ## Dependencies
 
 - **Depends on:** [sase-rd.2](sase-rd.2.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rd.5](sase-rd.5.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rd.5](sase-rd.5.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
