@@ -22,7 +22,7 @@ catalog-mutations: build one provenance-aware Python service for catalog reads a
 ## Dependencies
 
 - **Depends on:** [sase-rd.1](sase-rd.1.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rd.3](sase-rd.3.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rd.3](sase-rd.3.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rd.4](sase-rd.4.md) ◐ · ⧖ 2026-08-20
 
 ## Agents
