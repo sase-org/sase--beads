@@ -13,7 +13,7 @@ successor_publication: eliminate research-output and artifact-directory collisio
 
 ## Dependencies
 
-- **Depends on:** [sase-rm.3](sase-rm.3.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rm.3](sase-rm.3.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
