@@ -11,6 +11,10 @@
 
 declaration-channel: add `sase final context` and atomic `submit`, opaque host-issued repository obligations, nonce and digest validation, retained invalid-attempt diagnostics, the generated `/sase_final` source, and beta-only end-of-turn prompt instructions with demand-driven one-turn recovery and mechanical intentional-handoff exemption.
 
+## Notes
+
+[2026-08-20T22:34:35Z · sase-rn.4] PROPOSED FOLLOW-UP: Remove stale admin_center_config_hub feature flag definition — just check fails rule 7 because closed flag bead sase-rk still has a surviving definition.
+
 ## Dependencies
 
 - **Depends on:** [sase-rn.3](sase-rn.3.md) ✓ · ⧖ 2026-08-20

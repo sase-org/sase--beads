@@ -27,7 +27,7 @@ host-foundation: create the beta flag through `sase flag new`, capture late-open
 
 - **Depends on:** [sase-rn.2](sase-rn.2.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rn.4](sase-rn.4.md) ◐ · ⧖ 2026-08-20
-- **Blocks:** [sase-rn.5](sase-rn.5.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rn.5](sase-rn.5.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
