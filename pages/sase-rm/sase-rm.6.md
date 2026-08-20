@@ -31,6 +31,8 @@ guardrail_cleanup: close the confirmed documentation gaps and make build, scoped
 
 [2026-08-20T19:36:57Z · sase-rm.6--2] PROPOSED FOLLOW-UP: home memory README clobber across workspaces — just check-full failed at init memory --check because ~/.local/share/chezmoi/home/sase/memory/README.md lost the generated sase_artifacts.md sentence (template change from master a1da80ddb). Chezmoi HEAD 7cb3300d already had the new text; working tree had been reverted, likely by an older-checkout sase memory init. Regenerated via sase memory init --no-commit from this workspace; check now passes. Durable fix: pin generated home README to the running tree or stop older inits from rewriting it.
 
+[2026-08-20T20:22:31Z · sase-rm.6--3] just check-full (monitor 06fhrd6fmev0) failed solely on known flake sase-qp: tests/test_suite_gate_reclaim.py::test_fresh_heartbeat_is_not_reclaimed DID NOT RAISE UsageError under the full parallel lane (35337 passed, 13 skipped). Serial 3/3 passed; this phase does not touch suite-gate reclaim. Corroborated with sase bead +1 sase-qp. sase-qp is assigned to later phase sase-rm.11 (heartbeat clocks). Re-running just check-full; will not close until that lane is green.
+
 ## Agents
 
 | Agent | Bead | Commits |
