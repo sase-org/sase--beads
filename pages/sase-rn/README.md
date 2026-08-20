@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-rn
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08y.md) · **Assignee:** `sase-rn.land`
-**Created:** 2026-08-20 16:34:59 EDT
+**Created:** 2026-08-20 16:34:59 EDT · **Closed:** 2026-08-20 19:53:20 EDT
 **Plan:** [202608/pluggable\_finalizers.md](https://github.com/sase-org/sase--plans/blob/main/202608/pluggable_finalizers.md)
 
 ## Description
 
 SASE agents finish through a beta-gated, host-owned finalizer protocol in which trusted configuration activates named built-in or plugin providers, `%final` selects those configured instances per launch, `/sase_final` submits one atomic turn-bound declaration, and the built-in `commit` instance preserves every current attribution, publication, discarded-work, and merge-conflict guarantee while requiring a reason whenever an agent refuses to commit attributable repository changes.
+
+## Notes
+
+[2026-08-20T23:53:20Z · sase-rn.land] Regenerated CLI completion snapshot to include final context and final submit subcommands; verified with test_snapshot and focused finalizer suites
 
 ## Phases
 
@@ -27,7 +31,7 @@ SASE agents finish through a beta-gated, host-owned finalizer protocol in which 
 
 ```mermaid
 flowchart TD
-    n0["sase-rn: Host-owned pluggable finalizer protocol [in_progress]"]
+    n0["sase-rn: Host-owned pluggable finalizer protocol [closed]"]
     n1["sase-rn.1: Rust finalizer protocol and resolution contract [closed]"]
     n2["sase-rn.2: Adopt the finalizer protocol core release [closed]"]
     n3["sase-rn.3: Feature flag, repository baselines, registry, and launch selection [closed]"]
@@ -62,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.5/README.md) | [sase-rn.5](sase-rn.5.md) | 1 |
 | [bbugyi200.athena.sase-rn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.6/README.md) | [sase-rn.6](sase-rn.6.md) | 1 |
 | [bbugyi200.athena.sase-rn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.7/README.md) | [sase-rn.7](sase-rn.7.md) | 1 |
-| [bbugyi200.athena.sase-rn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.land/README.md) | [sase-rn](README.md) | 0 |
+| [bbugyi200.athena.sase-rn.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rn.land.md) | [sase-rn](README.md) | 1 |
 
 ## Commits
 
@@ -75,3 +79,4 @@ flowchart TD
 | sase | [`f2b296c`](https://github.com/sase-org/sase/commit/f2b296c45cc8ec039249b9c525fca05cf437f390) | feat(finalizers): add final declaration channel | [sase-rn.4](sase-rn.4.md) | 2026-08-20 18:44:49 EDT |
 | sase | [`cad0e61`](https://github.com/sase-org/sase/commit/cad0e6100f1f7f310b9a568fb6521e32d97cc2ef) | feat(finalizers): execute builtin commit declarations | [sase-rn.6](sase-rn.6.md) | 2026-08-20 19:13:56 EDT |
 | sase | [`4afec20`](https://github.com/sase-org/sase/commit/4afec203b8dd72ac2e56ae9c964f3a76edfcbfc3) | feat(finalizers): complete beta compatibility soak | [sase-rn.7](sase-rn.7.md) | 2026-08-20 19:36:56 EDT |
+| sase | [`7c52152`](https://github.com/sase-org/sase/commit/7c52152832fbb4033f89d8d4cf0a690afbe1fbd1) | test(completion): sync cli\_spec.json snapshot with finalizer subcommands | [sase-rn](README.md) | 2026-08-20 19:53:57 EDT |
