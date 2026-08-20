@@ -30,10 +30,11 @@ beads: persist bead links in the event stream, render them on bead pages, and mi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 1 |
+| [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`585e34b`](https://github.com/sase-org/sase/commit/585e34b33d9c633e070fcc875a0403788297042a) | feat(beads): persist typed links in events, pages, and migrate-notes | [sase-r8.6](sase-r8.6.md) | 2026-08-20 08:31:35 EDT |
+| sase-core | [`sase-core@751d60f`](https://github.com/sase-org/sase-core/commit/751d60f600d0c7f59abe13bdb471bdbcfb7dd4b1) | feat(bead): add bead\_add\_link and bead\_remove\_link mutations | [sase-r8.6](sase-r8.6.md) | 2026-08-20 08:33:06 EDT |
