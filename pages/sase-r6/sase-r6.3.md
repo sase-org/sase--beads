@@ -24,7 +24,7 @@ query-limit: accept limit:N on every Artifacts dialect, inject it into each pane
 ## Dependencies
 
 - **Depends on:** [sase-r6.1](sase-r6.1.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r6.4](sase-r6.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r6.4](sase-r6.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
