@@ -22,7 +22,7 @@ core-adopt: raise the `sase-core-rs` dependency floor, refresh the lockfile, add
 ## Dependencies
 
 - **Depends on:** [sase-rn.1](sase-rn.1.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rn.3](sase-rn.3.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rn.3](sase-rn.3.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
