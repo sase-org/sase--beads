@@ -19,7 +19,7 @@ core: add the link-row wire types, relation registry, ManagedTableBlock primitiv
 
 ## Dependencies
 
-- **Blocks:** [sase-r8.3](sase-r8.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r8.3](sase-r8.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

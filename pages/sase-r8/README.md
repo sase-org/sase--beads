@@ -17,7 +17,7 @@ Every SASE artifact has a defined artifact markdown file and a typed, committed 
 |---|---|---|---|---|---:|---:|
 | [sase-r8.1](sase-r8.1.md) | Tracked sidecar home for link truth | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r8.2](sase-r8.2.md) | Link graph types and managed tables in sase-core | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r8.3](sase-r8.3.md) | Python store, flag, and aggregate index | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
+| [sase-r8.3](sase-r8.3.md) | Python store, flag, and aggregate index | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r8.4](sase-r8.4.md) | sase artifact link and sase artifact read | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r8.5](sase-r8.5.md) | Rendered link tables, prompt-ref cites, and companions | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r8.6](sase-r8.6.md) | Bead link events, pages, and RELATED: migration | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n0["sase-r8: First-class artifact link graph [in_progress]"]
     n1["sase-r8.1: Tracked sidecar home for link truth [closed]"]
     n2["sase-r8.2: Link graph types and managed tables in sase-core [closed]"]
-    n3["sase-r8.3: Python store, flag, and aggregate index [in_progress]"]
+    n3["sase-r8.3: Python store, flag, and aggregate index [closed]"]
     n4["sase-r8.4: sase artifact link and sase artifact read [in_progress]"]
     n5["sase-r8.5: Rendered link tables, prompt-ref cites, and companions [in_progress]"]
     n6["sase-r8.6: Bead link events, pages, and RELATED: migration [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-r8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.1/README.md) | [sase-r8.1](sase-r8.1.md) | 1 |
 | [bbugyi200.athena.sase-r8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.2/README.md) | [sase-r8.2](sase-r8.2.md) | 1 |
-| [bbugyi200.athena.sase-r8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.3/README.md) | [sase-r8.3](sase-r8.3.md) | 0 |
+| [bbugyi200.athena.sase-r8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.3/README.md) | [sase-r8.3](sase-r8.3.md) | 1 |
 | [bbugyi200.athena.sase-r8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.4/README.md) | [sase-r8.4](sase-r8.4.md) | 0 |
 | [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 0 |
 | [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 0 |
@@ -77,3 +77,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@3eb2a6e`](https://github.com/sase-org/sase-core/commit/3eb2a6e200f23bed460a5ec509e1207e6917ff6a) | feat(artifact\_link): add link-row types, managed tables, and bead events | [sase-r8.2](sase-r8.2.md) | 2026-08-19 19:53:29 EDT |
 | sase | [`0f3992a`](https://github.com/sase-org/sase/commit/0f3992a03caef10fb3a7e6dd930efa39969de481) | fix(sdd): commit Referenced By index under tracked links/ | [sase-r8.1](sase-r8.1.md) | 2026-08-19 20:01:49 EDT |
+| sase | [`6d87cf2`](https://github.com/sase-org/sase/commit/6d87cf2270b8d16dd6aad7de93e53cd2751e7d83) | feat(sdd): add artifact\_links store, flag, and aggregate index | [sase-r8.3](sase-r8.3.md) | 2026-08-20 07:05:27 EDT |

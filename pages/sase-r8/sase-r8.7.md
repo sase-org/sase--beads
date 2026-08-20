@@ -13,7 +13,7 @@ ace: add a links/linked_by relation source on every Artifacts pane without block
 
 ## Dependencies
 
-- **Depends on:** [sase-r8.3](sase-r8.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r8.3](sase-r8.3.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.8](sase-r8.8.md) ◐ · ⧖ 2026-08-19
 
 ## Agents

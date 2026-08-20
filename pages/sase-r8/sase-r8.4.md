@@ -13,7 +13,7 @@ cli: ship sase artifact link add/list/rm and sase artifact read with doctor chec
 
 ## Dependencies
 
-- **Depends on:** [sase-r8.3](sase-r8.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r8.3](sase-r8.3.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.8](sase-r8.8.md) ◐ · ⧖ 2026-08-19
 
 ## Agents

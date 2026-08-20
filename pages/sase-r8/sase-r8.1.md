@@ -17,9 +17,11 @@ home: stop writing the Referenced By index under .sase/, put it in a tracked lin
 
 [2026-08-20T00:00:59Z · sase-r8.1] Referenced By structured truth now lives at sidecar/links/<artifact-relpath>.json (v1, original extension preserved, no provider prefix). git_exclude.py unchanged: SASE_GIT_INFO_EXCLUDE_PATTERNS still ignore .sase/ and /sase/repos/ but not links/. commit_sdd_files includes the JSON in HEAD. sase doctor project.referenced_by_index errors when a committed unfenced Referenced By block has no links/ JSON in HEAD and ignores fenced design-doc examples. just check passed. Backfilled and pushed the one live projection (plans/links/202608/monitor_followup_wait_release.md.json); the other three research-era hits are fenced examples, not managed blocks.
 
+[2026-08-20T00:07:27Z · sase-r8.1] Referenced By structured truth lives at sidecar/links/<artifact-relpath>.json; doctor project.referenced_by_index covers missing committed indexes; live plans sidecar backfill already pushed. Agents-repo .sase-v2-stage-hbkbmy5o/ is unrelated sase-qt staging and was not committed.
+
 ## Dependencies
 
-- **Blocks:** [sase-r8.3](sase-r8.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r8.3](sase-r8.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

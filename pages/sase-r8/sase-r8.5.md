@@ -13,7 +13,7 @@ render: project the Links and Referenced By tables, write prompt-ref cites, crea
 
 ## Dependencies
 
-- **Depends on:** [sase-r8.3](sase-r8.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r8.3](sase-r8.3.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.8](sase-r8.8.md) ◐ · ⧖ 2026-08-19
 
 ## Agents
