@@ -13,7 +13,7 @@ adopt: add the Artifact and Artifact Markdown File glossary terms, rewrite the s
 
 ## Dependencies
 
-- **Depends on:** [sase-r8.4](sase-r8.4.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r8.4](sase-r8.4.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r8.5](sase-r8.5.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r8.6](sase-r8.6.md) ◐ · ⧖ 2026-08-19
 - **Depends on:** [sase-r8.7](sase-r8.7.md) ✓ · ⧖ 2026-08-19
