@@ -43,4 +43,10 @@ PROPOSED FOLLOW-UP: just check's full-suite escalation exposed unrelated termina
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.11.md) | [sase-rm.11](sase-rm.11.md) | 0 |
+| [bbugyi200.athena.sase-rm.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.11.md) | [sase-rm.11](sase-rm.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`569d425`](https://github.com/sase-org/sase/commit/569d4257b747902476422cd7b30ad7824e6b876e) | fix: stabilize process concurrency closeout | [sase-rm.11](sase-rm.11.md) | 2026-08-20 16:30:23 EDT |

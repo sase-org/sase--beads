@@ -21,10 +21,11 @@ core_storage: resolve Rust-core retention and wire gaps plus duplicate-ID report
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.1.md) | [sase-rm.1](sase-rm.1.md) | 1 |
+| [bbugyi200.athena.sase-rm.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.1.md) | [sase-rm.1](sase-rm.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@279f0e0`](https://github.com/sase-org/sase-core/commit/279f0e0ef7b694dd8ecadd6fae00124695b2d09a) | fix: repair core storage identity contracts | [sase-rm.1](sase-rm.1.md) | 2026-08-20 16:46:08 EDT |
+| sase | [`891cf60`](https://github.com/sase-org/sase/commit/891cf604f38cd4b308245210df6443dd46d60160) | fix: propagate core storage repair outcomes | [sase-rm.1](sase-rm.1.md) | 2026-08-20 16:49:36 EDT |
