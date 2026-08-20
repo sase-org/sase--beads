@@ -13,7 +13,7 @@ parity-verification: add exhaustive contract and interaction coverage for every 
 
 ## Dependencies
 
-- **Depends on:** [sase-rj.2](sase-rj.2.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rj.2](sase-rj.2.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-rj.3](sase-rj.3.md) ◐ · ⧖ 2026-08-20
 
 ## Agents

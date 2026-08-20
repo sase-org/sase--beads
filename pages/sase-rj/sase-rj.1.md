@@ -19,7 +19,7 @@ directive-contract: define the complete directive and argument schema, grammar-a
 
 ## Dependencies
 
-- **Blocks:** [sase-rj.2](sase-rj.2.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rj.2](sase-rj.2.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rj.3](sase-rj.3.md) ◐ · ⧖ 2026-08-20
 
 ## Agents
