@@ -42,8 +42,8 @@ flowchart TD
     n7["sase-r8.7: ACE relation source for the link graph [closed]"]
     n8["sase-r8.8: Glossary, docs, skills, and agent adoption [closed]"]
     n9["sase-r8.9: Publish artifact-link bead mutations and raise the floor [in_progress]"]
-    n10["sase-r8.9.1: Publish the bead-link mutation bindings [in_progress]"]
-    n11["sase-r8.9.2: Require and verify the published core release [in_progress]"]
+    n10["sase-r8.9.1: Publish the bead-link mutation bindings [closed]"]
+    n11["sase-r8.9.2: Require and verify the published core release [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -80,8 +80,8 @@ flowchart TD
 | [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 2 |
 | [bbugyi200.athena.sase-r8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.7/README.md) | [sase-r8.7](sase-r8.7.md) | 1 |
 | [bbugyi200.athena.sase-r8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.8/README.md) | [sase-r8.8](sase-r8.8.md) | 1 |
-| [bbugyi200.athena.sase-r8.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.9.1/README.md) | [sase-r8.9.1](sase-r8.9.1.md) | 1 |
-| [bbugyi200.athena.sase-r8.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.9.2/README.md) | [sase-r8.9.2](sase-r8.9.2.md) | 0 |
+| [bbugyi200.athena.sase-r8.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r8.9.1.md) | [sase-r8.9.1](sase-r8.9.1.md) | 1 |
+| [bbugyi200.athena.sase-r8.9.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r8.9.2.md) | [sase-r8.9.2](sase-r8.9.2.md) | 1 |
 | [bbugyi200.athena.sase-r8.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.9.land/README.md) | [sase-r8.9](sase-r8.9.md) | 0 |
 | [bbugyi200.athena.sase-r8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-r8.land.md) | [sase-r8](README.md) | 0 |
 
@@ -99,3 +99,4 @@ flowchart TD
 | sase-core | [`sase-core@751d60f`](https://github.com/sase-org/sase-core/commit/751d60f600d0c7f59abe13bdb471bdbcfb7dd4b1) | feat(bead): add bead\_add\_link and bead\_remove\_link mutations | [sase-r8.6](sase-r8.6.md) | 2026-08-20 08:33:06 EDT |
 | sase | [`4687d37`](https://github.com/sase-org/sase/commit/4687d37956ac2b995fff556319180091bf71af1b) | feat(artifacts): publish relation registry snapshot | [sase-r8.8](sase-r8.8.md) | 2026-08-20 09:17:44 EDT |
 | sase-core | [`sase-core@b2568ee`](https://github.com/sase-org/sase-core/commit/b2568ee5849765be7fd86ad985137f22ba84749a) | fix(bead): allow clippy::too\_many\_arguments on bead\_add\_link | [sase-r8.9.1](sase-r8.9.1.md) | 2026-08-20 09:52:00 EDT |
+| sase | [`43b79bf`](https://github.com/sase-org/sase/commit/43b79bf12b5b8c0ef5376319fec8991e7327812a) | build(deps): raise sase-core-rs floor to 0.29.5 | [sase-r8.9.2](sase-r8.9.2.md) | 2026-08-20 11:14:24 EDT |
