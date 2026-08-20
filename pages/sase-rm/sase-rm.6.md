@@ -29,6 +29,8 @@ guardrail_cleanup: close the confirmed documentation gaps and make build, scoped
 
 [2026-08-20T19:22:37Z · sase-rm.6--1] Re-keyed stale Justfile --epic-symbol SnippetsPane/SnippetsPaneHost/SnippetsPaneSessionState from closed sase-ri.4 to still-open later phase sase-ri.5. just check-full failed at lint (symvision) because sase-ri.4 closed while those unused-until-cutover public symbols still had no non-test consumer; sase-rm.6 itself has no leftovers. just _lint-symvision now passes.
 
+[2026-08-20T19:36:57Z · sase-rm.6--2] PROPOSED FOLLOW-UP: home memory README clobber across workspaces — just check-full failed at init memory --check because ~/.local/share/chezmoi/home/sase/memory/README.md lost the generated sase_artifacts.md sentence (template change from master a1da80ddb). Chezmoi HEAD 7cb3300d already had the new text; working tree had been reverted, likely by an older-checkout sase memory init. Regenerated via sase memory init --no-commit from this workspace; check now passes. Durable fix: pin generated home README to the running tree or stop older inits from rewriting it.
+
 ## Agents
 
 | Agent | Bead | Commits |

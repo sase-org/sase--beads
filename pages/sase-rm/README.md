@@ -25,7 +25,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 | [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
 | [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
 | [sase-rm.6](sase-rm.6.md) | Repair documentation, build guards, deleted imports, and plugin-isolated tests | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
-| [sase-rm.7](sase-rm.7.md) | Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
+| [sase-rm.7](sase-rm.7.md) | Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.8](sase-rm.8.md) | Finish responsive ACE layout and selected-detail coverage | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 | [sase-rm.9](sase-rm.9.md) | Eliminate snippet-name modal settle flakes | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n8["sase-rm.4: Make research publication and family handoffs collision-safe [in_progress]"]
     n9["sase-rm.5: Finish shell completion measurement, inline references, and deployment [in_progress]"]
     n10["sase-rm.6: Repair documentation, build guards, deleted imports, and plugin-isolated tests [in_progress]"]
-    n11["sase-rm.7: Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior [in_progress]"]
+    n11["sase-rm.7: Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior [closed]"]
     n12["sase-rm.8: Finish responsive ACE layout and selected-detail coverage [in_progress]"]
     n13["sase-rm.9: Eliminate snippet-name modal settle flakes [closed]"]
     n0 --> n1
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.4/README.md) | [sase-rm.4](sase-rm.4.md) | 0 |
 | [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
 | [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.6.md) | [sase-rm.6](sase-rm.6.md) | 0 |
-| [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 0 |
+| [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
 | [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 0 |
 | [bbugyi200.athena.sase-rm.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.9.md) | [sase-rm.9](sase-rm.9.md) | 1 |
 | [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.land/README.md) | [sase-rm](README.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dbb0511`](https://github.com/sase-org/sase/commit/dbb05112e7f9c3667e17b4d4b5a0c4399c83158d) | test(ace): wait for snippet-name modal analysis to settle | [sase-rm.9](sase-rm.9.md) | 2026-08-20 15:28:58 EDT |
+| sase | [`19bdc94`](https://github.com/sase-org/sase/commit/19bdc94dbde36b7f15bf16b5a2ad6de6f799167b) | feat(ace): restore notification, palette, bulk launch, and kill-edit flows | [sase-rm.7](sase-rm.7.md) | 2026-08-20 15:44:48 EDT |
