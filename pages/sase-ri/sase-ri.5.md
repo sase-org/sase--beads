@@ -13,7 +13,7 @@ cutover: complete responsive visual and interaction coverage, remove the tempora
 
 ## Dependencies
 
-- **Depends on:** [sase-ri.4](sase-ri.4.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-ri.4](sase-ri.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

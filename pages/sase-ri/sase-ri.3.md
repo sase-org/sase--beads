@@ -19,9 +19,11 @@ snippets_pane: separate Snippets content and lifecycle behavior from its standal
 
 [2026-08-20T17:38:05Z · sase-ri.3] Verified: just install; focused Snippets tests (28 passed); Snippets PNG visual snapshots (12 passed); just check lint/validation stages passed and full-suite rerun found one unrelated wall-clock budget flake whose exact rerun passed; existing check-full monitor failed only suite-wide test-cost budgets under concurrent full-suite contention; epic-symbols clean.
 
+[2026-08-20T18:02:55Z · sase-ri.3--2] Extracted the reusable Snippets pane and verified focused snippets tests, visual snippets snapshots, just check, and just check-full.
+
 ## Dependencies
 
-- **Blocks:** [sase-ri.4](sase-ri.4.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-ri.4](sase-ri.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

@@ -21,7 +21,7 @@ glossary_pane: separate Glossary content and lifecycle behavior from its standal
 
 ## Dependencies
 
-- **Blocks:** [sase-ri.4](sase-ri.4.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-ri.4](sase-ri.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
