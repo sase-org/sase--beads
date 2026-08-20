@@ -19,7 +19,7 @@ core-protocol: add versioned provider, instance, selector, plan, context, submis
 
 ## Dependencies
 
-- **Blocks:** [sase-rn.2](sase-rn.2.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rn.2](sase-rn.2.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

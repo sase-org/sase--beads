@@ -16,7 +16,7 @@ SASE agents finish through a beta-gated, host-owned finalizer protocol in which 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-rn.1](sase-rn.1.md) | Rust finalizer protocol and resolution contract | ✓ closed | medium | 2026-08-20 | 1 | 1 |
-| [sase-rn.2](sase-rn.2.md) | Adopt the finalizer protocol core release | ◐ in_progress | small | 2026-08-20 | 1 | 0 |
+| [sase-rn.2](sase-rn.2.md) | Adopt the finalizer protocol core release | ✓ closed | small | 2026-08-20 | 1 | 1 |
 | [sase-rn.3](sase-rn.3.md) | Feature flag, repository baselines, registry, and launch selection | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 | [sase-rn.4](sase-rn.4.md) | Turn-bound sase final declaration channel and skill | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 | [sase-rn.5](sase-rn.5.md) | Isolated plugin and configuration finalizer execution | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
@@ -29,7 +29,7 @@ SASE agents finish through a beta-gated, host-owned finalizer protocol in which 
 flowchart TD
     n0["sase-rn: Host-owned pluggable finalizer protocol [in_progress]"]
     n1["sase-rn.1: Rust finalizer protocol and resolution contract [closed]"]
-    n2["sase-rn.2: Adopt the finalizer protocol core release [in_progress]"]
+    n2["sase-rn.2: Adopt the finalizer protocol core release [closed]"]
     n3["sase-rn.3: Feature flag, repository baselines, registry, and launch selection [in_progress]"]
     n4["sase-rn.4: Turn-bound sase final declaration channel and skill [in_progress]"]
     n5["sase-rn.5: Isolated plugin and configuration finalizer execution [in_progress]"]
@@ -56,7 +56,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.1/README.md) | [sase-rn.1](sase-rn.1.md) | 1 |
-| [bbugyi200.athena.sase-rn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.2/README.md) | [sase-rn.2](sase-rn.2.md) | 0 |
+| [bbugyi200.athena.sase-rn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.2/README.md) | [sase-rn.2](sase-rn.2.md) | 1 |
 | [bbugyi200.athena.sase-rn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.3/README.md) | [sase-rn.3](sase-rn.3.md) | 0 |
 | [bbugyi200.athena.sase-rn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.4/README.md) | [sase-rn.4](sase-rn.4.md) | 0 |
 | [bbugyi200.athena.sase-rn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.5/README.md) | [sase-rn.5](sase-rn.5.md) | 0 |
@@ -69,3 +69,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@09576c3`](https://github.com/sase-org/sase-core/commit/09576c3acbfb8f3366f6c08dff6d4df2b1f3a134) | feat(finalizer): add shared finalizer protocol | [sase-rn.1](sase-rn.1.md) | 2026-08-20 17:07:38 EDT |
+| sase | [`8f82eb9`](https://github.com/sase-org/sase/commit/8f82eb99205cfb4f6b0db08f56d81ea0efa5bbfb) | feat(core): adopt finalizer protocol bindings | [sase-rn.2](sase-rn.2.md) | 2026-08-20 17:24:53 EDT |
