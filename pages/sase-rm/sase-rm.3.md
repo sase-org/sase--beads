@@ -47,7 +47,7 @@ PROPOSED FOLLOW-UP: just check is blocked at lint (symvision) by Justfile `--epi
 
 ## Dependencies
 
-- **Blocks:** [sase-rm.4](sase-rm.4.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rm.4](sase-rm.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
