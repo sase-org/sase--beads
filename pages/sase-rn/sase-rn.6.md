@@ -13,7 +13,7 @@ commit-reconciliation: replace the flag-on hard-coded seam with bounded plan/dec
 
 ## Dependencies
 
-- **Depends on:** [sase-rn.4](sase-rn.4.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rn.4](sase-rn.4.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-rn.5](sase-rn.5.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rn.7](sase-rn.7.md) ◐ · ⧖ 2026-08-20
 
