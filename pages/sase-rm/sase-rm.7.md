@@ -43,4 +43,10 @@ ace_navigation: complete user-facing notification, palette, launch fan-out, repl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 0 |
+| [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`19bdc94`](https://github.com/sase-org/sase/commit/19bdc94dbde36b7f15bf16b5a2ad6de6f799167b) | feat(ace): restore notification, palette, bulk launch, and kill-edit flows | [sase-rm.7](sase-rm.7.md) | 2026-08-20 15:44:48 EDT |
