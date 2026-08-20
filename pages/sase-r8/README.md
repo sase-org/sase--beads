@@ -21,7 +21,7 @@ Every SASE artifact has a defined artifact markdown file and a typed, committed 
 | [sase-r8.4](sase-r8.4.md) | sase artifact link and sase artifact read | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r8.5](sase-r8.5.md) | Rendered link tables, prompt-ref cites, and companions | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r8.6](sase-r8.6.md) | Bead link events, pages, and RELATED: migration | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
-| [sase-r8.7](sase-r8.7.md) | ACE relation source for the link graph | ◐ in_progress | small | 2026-08-19 | 1 | 0 |
+| [sase-r8.7](sase-r8.7.md) | ACE relation source for the link graph | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r8.8](sase-r8.8.md) | Glossary, docs, skills, and agent adoption | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n4["sase-r8.4: sase artifact link and sase artifact read [in_progress]"]
     n5["sase-r8.5: Rendered link tables, prompt-ref cites, and companions [in_progress]"]
     n6["sase-r8.6: Bead link events, pages, and RELATED: migration [in_progress]"]
-    n7["sase-r8.7: ACE relation source for the link graph [in_progress]"]
+    n7["sase-r8.7: ACE relation source for the link graph [closed]"]
     n8["sase-r8.8: Glossary, docs, skills, and agent adoption [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-r8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.4/README.md) | [sase-r8.4](sase-r8.4.md) | 0 |
 | [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 0 |
 | [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 0 |
-| [bbugyi200.athena.sase-r8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.7/README.md) | [sase-r8.7](sase-r8.7.md) | 0 |
+| [bbugyi200.athena.sase-r8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.7/README.md) | [sase-r8.7](sase-r8.7.md) | 1 |
 | [bbugyi200.athena.sase-r8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.8/README.md) | [sase-r8.8](sase-r8.8.md) | 0 |
 | [bbugyi200.athena.sase-r8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.land/README.md) | [sase-r8](README.md) | 0 |
 
@@ -78,3 +78,4 @@ flowchart TD
 | sase-core | [`sase-core@3eb2a6e`](https://github.com/sase-org/sase-core/commit/3eb2a6e200f23bed460a5ec509e1207e6917ff6a) | feat(artifact\_link): add link-row types, managed tables, and bead events | [sase-r8.2](sase-r8.2.md) | 2026-08-19 19:53:29 EDT |
 | sase | [`0f3992a`](https://github.com/sase-org/sase/commit/0f3992a03caef10fb3a7e6dd930efa39969de481) | fix(sdd): commit Referenced By index under tracked links/ | [sase-r8.1](sase-r8.1.md) | 2026-08-19 20:01:49 EDT |
 | sase | [`6d87cf2`](https://github.com/sase-org/sase/commit/6d87cf2270b8d16dd6aad7de93e53cd2751e7d83) | feat(sdd): add artifact\_links store, flag, and aggregate index | [sase-r8.3](sase-r8.3.md) | 2026-08-20 07:05:27 EDT |
+| sase | [`69802b3`](https://github.com/sase-org/sase/commit/69802b3267b50bb761c36d752af30fb2296eb879) | feat(ace): expose artifact link relations in panes | [sase-r8.7](sase-r8.7.md) | 2026-08-20 07:46:33 EDT |
