@@ -22,7 +22,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 | [sase-rm.13](sase-rm.13.md) | Fix visual convergence and clear the standing PNG backlog | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
 | [sase-rm.2](sase-rm.2.md) | Unify completion architecture and fast repository catalogs | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
 | [sase-rm.3](sase-rm.3.md) | Reconcile memory, plan publication, and flag policy contracts | ✓ closed | large | 2026-08-20 | 1 | 2 |
-| [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ✓ closed | large | 2026-08-20 | 1 | 1 |
+| [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
 | [sase-rm.6](sase-rm.6.md) | Repair documentation, build guards, deleted imports, and plugin-isolated tests | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 | [sase-rm.7](sase-rm.7.md) | Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior | ✓ closed | medium | 2026-08-20 | 1 | 1 |
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.13/README.md) | [sase-rm.13](sase-rm.13.md) | 0 |
 | [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 0 |
 | [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
-| [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
+| [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 2 |
 | [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
 | [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.6.md) | [sase-rm.6](sase-rm.6.md) | 0 |
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
@@ -103,3 +103,4 @@ flowchart TD
 | sase-core | [`sase-core@279f0e0`](https://github.com/sase-org/sase-core/commit/279f0e0ef7b694dd8ecadd6fae00124695b2d09a) | fix: repair core storage identity contracts | [sase-rm.1](sase-rm.1.md) | 2026-08-20 16:46:08 EDT |
 | sase | [`891cf60`](https://github.com/sase-org/sase/commit/891cf604f38cd4b308245210df6443dd46d60160) | fix: propagate core storage repair outcomes | [sase-rm.1](sase-rm.1.md) | 2026-08-20 16:49:36 EDT |
 | sase | [`982ad29`](https://github.com/sase-org/sase/commit/982ad299ee6a81eec30f496b303b4ff0a29eb15b) | fix: make successor handoffs collision-safe | [sase-rm.4](sase-rm.4.md) | 2026-08-20 17:07:14 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@83f4c01`](https://github.com/sase-org/sase-research-artifacts/commit/83f4c0154d6f5e50d527582c2377eb36bdcb2ff5) | fix: make research report targets deterministic | [sase-rm.4](sase-rm.4.md) | 2026-08-20 17:09:55 EDT |
