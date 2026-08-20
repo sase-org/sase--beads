@@ -13,7 +13,7 @@ panel-browser: build the hidden asynchronous ACE panel shell, polished cards, fi
 
 ## Dependencies
 
-- **Depends on:** [sase-rd.2](sase-rd.2.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rd.2](sase-rd.2.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rd.5](sase-rd.5.md) ◐ · ⧖ 2026-08-20
 
 ## Agents

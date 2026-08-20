@@ -19,7 +19,7 @@ core-relations: extend the shared Rust snippet composer with validated trigger, 
 
 ## Dependencies
 
-- **Blocks:** [sase-rd.2](sase-rd.2.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rd.2](sase-rd.2.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
