@@ -13,7 +13,7 @@ artifacts-keys: bind Ctrl+J / Ctrl+K on the Artifacts tab to raise or lower the 
 
 ## Dependencies
 
-- **Depends on:** [sase-r6.3](sase-r6.3.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [sase-r6.3](sase-r6.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

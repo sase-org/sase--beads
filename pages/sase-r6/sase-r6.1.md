@@ -22,7 +22,7 @@ config: add ace.page_size (default 100) and the shared limit-token helpers every
 ## Dependencies
 
 - **Blocks:** [sase-r6.2](sase-r6.2.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [sase-r6.3](sase-r6.3.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r6.3](sase-r6.3.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
