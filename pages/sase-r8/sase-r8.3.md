@@ -24,7 +24,7 @@ store: create the artifact_links beta flag, the per-artifact truth adapter, the 
 - **Depends on:** [sase-r8.1](sase-r8.1.md) ✓ · ⧖ 2026-08-19
 - **Depends on:** [sase-r8.2](sase-r8.2.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.4](sase-r8.4.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [sase-r8.5](sase-r8.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [sase-r8.5](sase-r8.5.md) ✓ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.6](sase-r8.6.md) ◐ · ⧖ 2026-08-19
 - **Blocks:** [sase-r8.7](sase-r8.7.md) ✓ · ⧖ 2026-08-19
 
