@@ -13,7 +13,7 @@ compatibility-soak: map the legacy commit-finalizer settings with explicit diagn
 
 ## Dependencies
 
-- **Depends on:** [sase-rn.6](sase-rn.6.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rn.6](sase-rn.6.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

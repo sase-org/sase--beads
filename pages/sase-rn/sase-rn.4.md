@@ -22,7 +22,7 @@ declaration-channel: add `sase final context` and atomic `submit`, opaque host-i
 ## Dependencies
 
 - **Depends on:** [sase-rn.3](sase-rn.3.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rn.6](sase-rn.6.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rn.6](sase-rn.6.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

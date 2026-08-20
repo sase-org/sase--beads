@@ -24,7 +24,7 @@ extension-runtime: implement the `sase_finalizers` subprocess protocol with sani
 ## Dependencies
 
 - **Depends on:** [sase-rn.3](sase-rn.3.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rn.6](sase-rn.6.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rn.6](sase-rn.6.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

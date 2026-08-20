@@ -20,7 +20,7 @@ SASE agents finish through a beta-gated, host-owned finalizer protocol in which 
 | [sase-rn.3](sase-rn.3.md) | Feature flag, repository baselines, registry, and launch selection | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rn.4](sase-rn.4.md) | Turn-bound sase final declaration channel and skill | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rn.5](sase-rn.5.md) | Isolated plugin and configuration finalizer execution | ✓ closed | medium | 2026-08-20 | 1 | 1 |
-| [sase-rn.6](sase-rn.6.md) | Generic controller and built-in commit parity | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
+| [sase-rn.6](sase-rn.6.md) | Generic controller and built-in commit parity | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rn.7](sase-rn.7.md) | Compatibility migration, observability, documentation, and soak gates | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n3["sase-rn.3: Feature flag, repository baselines, registry, and launch selection [closed]"]
     n4["sase-rn.4: Turn-bound sase final declaration channel and skill [closed]"]
     n5["sase-rn.5: Isolated plugin and configuration finalizer execution [closed]"]
-    n6["sase-rn.6: Generic controller and built-in commit parity [in_progress]"]
+    n6["sase-rn.6: Generic controller and built-in commit parity [closed]"]
     n7["sase-rn.7: Compatibility migration, observability, documentation, and soak gates [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.3/README.md) | [sase-rn.3](sase-rn.3.md) | 1 |
 | [bbugyi200.athena.sase-rn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.4/README.md) | [sase-rn.4](sase-rn.4.md) | 1 |
 | [bbugyi200.athena.sase-rn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.5/README.md) | [sase-rn.5](sase-rn.5.md) | 1 |
-| [bbugyi200.athena.sase-rn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.6/README.md) | [sase-rn.6](sase-rn.6.md) | 0 |
+| [bbugyi200.athena.sase-rn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.6/README.md) | [sase-rn.6](sase-rn.6.md) | 1 |
 | [bbugyi200.athena.sase-rn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.7/README.md) | [sase-rn.7](sase-rn.7.md) | 0 |
 | [bbugyi200.athena.sase-rn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rn.land/README.md) | [sase-rn](README.md) | 0 |
 
@@ -73,3 +73,4 @@ flowchart TD
 | sase | [`b1c6bb1`](https://github.com/sase-org/sase/commit/b1c6bb105fd82239c6624115ea58fa5af423657c) | feat(finalizers): add beta finalizer foundation | [sase-rn.3](sase-rn.3.md) | 2026-08-20 18:09:37 EDT |
 | sase | [`78550c9`](https://github.com/sase-org/sase/commit/78550c993bedfd12be3a4338c7f5004460120605) | feat: add pluggable finalizer execution runtime | [sase-rn.5](sase-rn.5.md) | 2026-08-20 18:38:01 EDT |
 | sase | [`f2b296c`](https://github.com/sase-org/sase/commit/f2b296c45cc8ec039249b9c525fca05cf437f390) | feat(finalizers): add final declaration channel | [sase-rn.4](sase-rn.4.md) | 2026-08-20 18:44:49 EDT |
+| sase | [`cad0e61`](https://github.com/sase-org/sase/commit/cad0e6100f1f7f310b9a568fb6521e32d97cc2ef) | feat(finalizers): execute builtin commit declarations | [sase-rn.6](sase-rn.6.md) | 2026-08-20 19:13:56 EDT |
