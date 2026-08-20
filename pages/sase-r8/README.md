@@ -18,8 +18,8 @@ Every SASE artifact has a defined artifact markdown file and a typed, committed 
 | [sase-r8.1](sase-r8.1.md) | Tracked sidecar home for link truth | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r8.2](sase-r8.2.md) | Link graph types and managed tables in sase-core | ✓ closed | medium | 2026-08-19 | 1 | 1 |
 | [sase-r8.3](sase-r8.3.md) | Python store, flag, and aggregate index | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r8.4](sase-r8.4.md) | sase artifact link and sase artifact read | ✓ closed | medium | 2026-08-19 | 1 | 1 |
-| [sase-r8.5](sase-r8.5.md) | Rendered link tables, prompt-ref cites, and companions | ✓ closed | medium | 2026-08-19 | 1 | 1 |
+| [sase-r8.4](sase-r8.4.md) | sase artifact link and sase artifact read | ✓ closed | medium | 2026-08-19 | 1 | 0 |
+| [sase-r8.5](sase-r8.5.md) | Rendered link tables, prompt-ref cites, and companions | ✓ closed | medium | 2026-08-19 | 1 | 2 |
 | [sase-r8.6](sase-r8.6.md) | Bead link events, pages, and RELATED: migration | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
 | [sase-r8.7](sase-r8.7.md) | ACE relation source for the link graph | ✓ closed | small | 2026-08-19 | 1 | 1 |
 | [sase-r8.8](sase-r8.8.md) | Glossary, docs, skills, and agent adoption | ◐ in_progress | medium | 2026-08-19 | 1 | 0 |
@@ -64,8 +64,8 @@ flowchart TD
 | [bbugyi200.athena.sase-r8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.1/README.md) | [sase-r8.1](sase-r8.1.md) | 1 |
 | [bbugyi200.athena.sase-r8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.2/README.md) | [sase-r8.2](sase-r8.2.md) | 1 |
 | [bbugyi200.athena.sase-r8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.3/README.md) | [sase-r8.3](sase-r8.3.md) | 1 |
-| [bbugyi200.athena.sase-r8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.4/README.md) | [sase-r8.4](sase-r8.4.md) | 1 |
-| [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 1 |
+| [bbugyi200.athena.sase-r8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.4/README.md) | [sase-r8.4](sase-r8.4.md) | 0 |
+| [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 2 |
 | [bbugyi200.athena.sase-r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.6/README.md) | [sase-r8.6](sase-r8.6.md) | 0 |
 | [bbugyi200.athena.sase-r8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.7/README.md) | [sase-r8.7](sase-r8.7.md) | 1 |
 | [bbugyi200.athena.sase-r8.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.8/README.md) | [sase-r8.8](sase-r8.8.md) | 0 |
@@ -80,4 +80,4 @@ flowchart TD
 | sase | [`6d87cf2`](https://github.com/sase-org/sase/commit/6d87cf2270b8d16dd6aad7de93e53cd2751e7d83) | feat(sdd): add artifact\_links store, flag, and aggregate index | [sase-r8.3](sase-r8.3.md) | 2026-08-20 07:05:27 EDT |
 | sase | [`69802b3`](https://github.com/sase-org/sase/commit/69802b3267b50bb761c36d752af30fb2296eb879) | feat(ace): expose artifact link relations in panes | [sase-r8.7](sase-r8.7.md) | 2026-08-20 07:46:33 EDT |
 | sase | [`5cfbf08`](https://github.com/sase-org/sase/commit/5cfbf08dd0ab26e9330b1d518e0ccaaebeb9cc55) | feat(sdd): render artifact link projections | [sase-r8.5](sase-r8.5.md) | 2026-08-20 08:01:17 EDT |
-| sase | [`55ee145`](https://github.com/sase-org/sase/commit/55ee145f6c5a8fc05b34c028b08c5e8fb0262c6f) | feat(artifact): add sase artifact link and sase artifact read | [sase-r8.4](sase-r8.4.md) | 2026-08-20 08:03:12 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@46fe923`](https://github.com/sase-org/sase-research-artifacts/commit/46fe9235d1043c9efdfbbffc6cff4c9f4278f5eb) | fix: exclude generated research companions from inventory | [sase-r8.5](sase-r8.5.md) | 2026-08-20 08:06:56 EDT |

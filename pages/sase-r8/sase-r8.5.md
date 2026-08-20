@@ -26,10 +26,11 @@ render: project the Links and Referenced By tables, write prompt-ref cites, crea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 1 |
+| [bbugyi200.athena.sase-r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-r8.5/README.md) | [sase-r8.5](sase-r8.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5cfbf08`](https://github.com/sase-org/sase/commit/5cfbf08dd0ab26e9330b1d518e0ccaaebeb9cc55) | feat(sdd): render artifact link projections | [sase-r8.5](sase-r8.5.md) | 2026-08-20 08:01:17 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@46fe923`](https://github.com/sase-org/sase-research-artifacts/commit/46fe9235d1043c9efdfbbffc6cff4c9f4278f5eb) | fix: exclude generated research companions from inventory | [sase-r8.5](sase-r8.5.md) | 2026-08-20 08:06:56 EDT |
