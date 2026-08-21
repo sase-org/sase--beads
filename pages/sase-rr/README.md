@@ -7,6 +7,18 @@
 **Created:** 2026-08-21 13:05:41 UTC
 **Plan:** [202608/retire\_pluggable\_finalizers.md](https://github.com/sase-org/sase--plans/blob/main/202608/retire_pluggable_finalizers.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-rz][1] | The retiring-finalizers plan surfaced this protected-memory follow-up and defines the now-unconditional contract to document. |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-rz/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Make host-owned pluggable finalization unconditional, remove the deprecated Off path and beta compatibility code, prove the complete protocol end to end, and close flag bead sase-ro only after the combined tree is green.
@@ -20,6 +32,10 @@ Make host-owned pluggable finalization unconditional, remove the deprecated Off 
 [2026-08-21T18:45:47Z · 0a0] DISCOVERED ISSUE: just check lint (symvision) on 2026-08-21 during isolate_pandoc_workdir implementation flags unused public ArtifactLinkCommitResult and ensure_artifact_link_commit_published in src/sase/sdd/_artifact_link_commit.py and auto_commit_artifact_link_indexes_if_possible in src/sase/finalizers/reconciliation.py. All three have in-file callers (and a test-only import of ensure_artifact_link_commit_published); none have a non-test consumer. The same escalated just test-scoped run then failed three fakey e2e nodes after sase-rr made pluggable finalizers unconditional: tests/fakey/test_retry_pipeline_e2e.py::test_execution_override_runs_fakey_with_requested_model_metadata (agent_meta gained a finalizers block the assertion does not expect) plus test_retryable_failure_then_success_records_lifecycle_and_nudge and test_fallback_switches_the_real_subprocess_model (both raise "sase final context requires active finalizer turn metadata: SASE_AGENT_NAME or agent_meta.json name"). Working tree only touches src/sase/attachments/markdown_pdf.py, src/sase/attachments/_markdown_pdf_rendering.py, and tests/test_markdown_pdf.py. Not a flake: the lint is static and the three fakey failures reproduced in this one escalated 1497-item run. Routed here because these files and the fakey agent_meta/finalizer protocol are owned by this epic rather than a standalone task.
 
 [2026-08-21T19:24:26Z · 09u.f0] DISCOVERED ISSUE: During compact_bead_wait_status_tokens verification on 2026-08-21, just check's escalated full scoped lane failed the three tests/fakey/test_retry_pipeline_e2e.py retry/fallback nodes. Focused rerun reproduced the same finalizer-context failure: fakey child prompts inherit the turn's SASE Final Declaration text, then fail with 'sase final context requires active finalizer turn metadata: SASE_AGENT_NAME or agent_meta.json name'. This corroborates the existing finalizer-epic note from 0a0; the wait-token diff does not touch finalizers, workflow execution, or fakey provider code.
+
+## References
+
+- file:explicit:4ac14f733cd4c83b0ca56786
 
 ## Phases
 
@@ -39,13 +55,30 @@ flowchart TD
     n2["sase-rr.2: Make pluggable finalizers unconditional and delete the old path [closed]"]
     n3["sase-rr.3: Synchronize CLI, schema, docs, and generated skill source [closed]"]
     n4["sase-rr.4: Run adversarial and live end-to-end acceptance [closed]"]
+    n5["sase-rr.5: Close finalizer protocol integrity gaps [in_progress]"]
+    n6["sase-rr.5.1: Seal and authenticate the execution plan [in_progress]"]
+    n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
+    n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [in_progress]"]
+    n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [in_progress]"]
+    n10["sase-rr.5.5: Run combined adversarial integrity acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
+    n0 --> n5
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
+    n5 --> n9
+    n5 --> n10
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
+    n6 -.-> n8
+    n6 -.-> n9
+    n7 -.-> n8
+    n8 -.-> n10
+    n9 -.-> n10
 ```
 
 ## Agents
@@ -56,7 +89,13 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.2/README.md) | [sase-rr.2](sase-rr.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.3/README.md) | [sase-rr.3](sase-rr.3.md) | 1 |
 | [bbugyi200.athena.sase-rr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.4/README.md) | [sase-rr.4](sase-rr.4.md) | 1 |
-| [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.land/README.md) | [sase-rr](README.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
+| [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.land/README.md) | [sase-rr.5](sase-rr.5.md) | 0 |
+| [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rr.land.md) | [sase-rr](README.md) | 0 |
 
 ## Commits
 
@@ -66,3 +105,4 @@ flowchart TD
 | sase | [`2f9c4ae`](https://github.com/sase-org/sase/commit/2f9c4ae2955e680f5da2249e20cccca15e0b972c) | feat(finalizers)!: make pluggable finalizers the only completion path | [sase-rr.2](sase-rr.2.md) | 2026-08-21 16:19:53 UTC |
 | sase | [`2f244b7`](https://github.com/sase-org/sase/commit/2f244b7c40336ec4d242d2180d96a43907af2728) | docs(finalizers): sync unconditional finalizer contracts | [sase-rr.3](sase-rr.3.md) | 2026-08-21 18:46:44 UTC |
 | sase | [`2800900`](https://github.com/sase-org/sase/commit/28009002d5da032104d57805a6df293ffeca6b3e) | fix(finalizers): prove live e2e acceptance and validate external payloads | [sase-rr.4](sase-rr.4.md) | 2026-08-21 19:28:17 UTC |
+| sase | [`3d66071`](https://github.com/sase-org/sase/commit/3d66071d37ce85b736bbf9561f1be0a3dd872478) | fix(finalizers): canonicalize provider identity and dispatch | [sase-rr.5.2](sase-rr.5.2.md) | 2026-08-21 21:07:40 UTC |
