@@ -14,7 +14,7 @@ shared_clone_retirement: remove commit_finalizer_shared_clone_exempt only after 
 ## Dependencies
 
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.5](sase-ru.5.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.5](sase-ru.5.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

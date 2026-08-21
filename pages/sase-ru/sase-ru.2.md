@@ -31,11 +31,10 @@ completion_soak: gather reproducible unmanaged-install evidence for completion_r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ru.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.2/README.md) | [sase-ru.2](sase-ru.2.md) | 2 |
+| [bbugyi200.athena.sase-ru.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.2/README.md) | [sase-ru.2](sase-ru.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f425005`](https://github.com/sase-org/sase/commit/f425005a0f95b1ced138ae5018ed8a60e99e2c6d) | test(completion): soak unmanaged refresh across bash, fish, and zsh | [sase-ru.2](sase-ru.2.md) | 2026-08-21 11:26:21 EDT |
-| sase--plans | [`sase--plans@84aeb6a`](https://github.com/sase-org/sase--plans/commit/84aeb6a1f82e51951f4ebd92b3266a91fa7ceeac) | docs(plans): record completion-soak artifact read of flag closeout plan | [sase-ru.2](sase-ru.2.md) | 2026-08-21 11:29:08 EDT |
