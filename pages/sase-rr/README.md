@@ -56,7 +56,7 @@ flowchart TD
     n3["sase-rr.3: Synchronize CLI, schema, docs, and generated skill source [closed]"]
     n4["sase-rr.4: Run adversarial and live end-to-end acceptance [closed]"]
     n5["sase-rr.5: Close finalizer protocol integrity gaps [in_progress]"]
-    n6["sase-rr.5.1: Seal and authenticate the execution plan [in_progress]"]
+    n6["sase-rr.5.1: Seal and authenticate the execution plan [closed]"]
     n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
     n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [in_progress]"]
     n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [in_progress]"]
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.2/README.md) | [sase-rr.2](sase-rr.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.3/README.md) | [sase-rr.3](sase-rr.3.md) | 1 |
 | [bbugyi200.athena.sase-rr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.4/README.md) | [sase-rr.4](sase-rr.4.md) | 1 |
-| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 0 |
 | [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 0 |
@@ -106,3 +106,4 @@ flowchart TD
 | sase | [`2f244b7`](https://github.com/sase-org/sase/commit/2f244b7c40336ec4d242d2180d96a43907af2728) | docs(finalizers): sync unconditional finalizer contracts | [sase-rr.3](sase-rr.3.md) | 2026-08-21 18:46:44 UTC |
 | sase | [`2800900`](https://github.com/sase-org/sase/commit/28009002d5da032104d57805a6df293ffeca6b3e) | fix(finalizers): prove live e2e acceptance and validate external payloads | [sase-rr.4](sase-rr.4.md) | 2026-08-21 19:28:17 UTC |
 | sase | [`3d66071`](https://github.com/sase-org/sase/commit/3d66071d37ce85b736bbf9561f1be0a3dd872478) | fix(finalizers): canonicalize provider identity and dispatch | [sase-rr.5.2](sase-rr.5.2.md) | 2026-08-21 21:07:40 UTC |
+| sase | [`9af9e1c`](https://github.com/sase-org/sase/commit/9af9e1c3fc6e85abd2b361f121721e35f9676160) | feat(finalizers): seal and authenticate the host-owned execution plan | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:21:24 UTC |
