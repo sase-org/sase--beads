@@ -20,7 +20,7 @@ external-editor-lsp: drive LSP names, snippets, keyword names, and contextual va
 ## Dependencies
 
 - **Depends on:** [sase-rj.1](sase-rj.1.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rj.4](sase-rj.4.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rj.4](sase-rj.4.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
