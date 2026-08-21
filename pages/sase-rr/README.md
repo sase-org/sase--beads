@@ -37,6 +37,8 @@ Make host-owned pluggable finalization unconditional, remove the deprecated Off 
 
 [2026-08-21T22:25:05Z · sase-s0.land] DISCOVERED ISSUE corroboration from epic sase-s0 phases sase-s0.2 and sase-s0.3: both independently hit tools/check_feature_flags rule 8 because live flag bead sase-ro names pluggable_finalizers after its registry definition/Off branch were removed. No standalone task created: this is explicitly owned by active epic sase-rr and is already recorded in its notes; close sase-ro as part of that epic's combined green-tree landing.
 
+[2026-08-21T23:16:27Z · sase-rr.5.land] DISCOVERED ISSUE corroboration from child phases sase-rr.5.3, sase-rr.5.4, and sase-rr.5.5: tools/check_feature_flags rule 8 fails because live flag bead sase-ro names pluggable_finalizers after the registry definition was removed. This is explicitly owned by sase-rr closeout; no standalone task created, and the parent landing must close sase-ro once combined acceptance is green.
+
 ## References
 
 - file:explicit:4ac14f733cd4c83b0ca56786
@@ -59,7 +61,7 @@ flowchart TD
     n2["sase-rr.2: Make pluggable finalizers unconditional and delete the old path [closed]"]
     n3["sase-rr.3: Synchronize CLI, schema, docs, and generated skill source [closed]"]
     n4["sase-rr.4: Run adversarial and live end-to-end acceptance [closed]"]
-    n5["sase-rr.5: Close finalizer protocol integrity gaps [in_progress]"]
+    n5["sase-rr.5: Close finalizer protocol integrity gaps [closed]"]
     n6["sase-rr.5.1: Seal and authenticate the execution plan [closed]"]
     n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
     n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [closed]"]
@@ -98,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 2 |
 | [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 2 |
-| [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.land/README.md) | [sase-rr.5](sase-rr.5.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rr.5.land.md) | [sase-rr.5](sase-rr.5.md) | 0 |
 | [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rr.land.md) | [sase-rr](README.md) | 0 |
 
 ## Commits
