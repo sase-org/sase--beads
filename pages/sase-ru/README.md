@@ -24,9 +24,9 @@ The seven in-scope SASE feature flags are retired only after their authored acce
 | [sase-ru.4](sase-ru.4.md) | Measure inherited planner chat value and cost | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-ru.5](sase-ru.5.md) | Audit commit-finalizer shared-clone exemptions | ✓ closed | medium | 2026-08-21 | 1 | 2 |
 | [sase-ru.6](sase-ru.6.md) | Complete the two-release ref-sync gesture observation gate | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
-| [sase-ru.7](sase-ru.7.md) | Make completion refresh unconditional | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
+| [sase-ru.7](sase-ru.7.md) | Make completion refresh unconditional | ✓ closed | small | 2026-08-21 | 1 | 1 |
 | [sase-ru.8](sase-ru.8.md) | Make EpicResume gating unconditional | ✓ closed | small | 2026-08-21 | 0 | 1 |
-| [sase-ru.9](sase-ru.9.md) | Resolve the planner-chat experiment into a durable behavior | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
+| [sase-ru.9](sase-ru.9.md) | Resolve the planner-chat experiment into a durable behavior | ✓ closed | medium | 2026-08-21 | 1 | 0 |
 
 ## Lineage
 
@@ -42,9 +42,9 @@ flowchart TD
     n7["sase-ru.4: Measure inherited planner chat value and cost [closed]"]
     n8["sase-ru.5: Audit commit-finalizer shared-clone exemptions [closed]"]
     n9["sase-ru.6: Complete the two-release ref-sync gesture observation gate [in_progress]"]
-    n10["sase-ru.7: Make completion refresh unconditional [in_progress]"]
+    n10["sase-ru.7: Make completion refresh unconditional [closed]"]
     n11["sase-ru.8: Make EpicResume gating unconditional [closed]"]
-    n12["sase-ru.9: Resolve the planner-chat experiment into a durable behavior [in_progress]"]
+    n12["sase-ru.9: Resolve the planner-chat experiment into a durable behavior [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -82,8 +82,8 @@ flowchart TD
 | [bbugyi200.athena.sase-ru.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.3/README.md) | [sase-ru.3](sase-ru.3.md) | 1 |
 | [bbugyi200.athena.sase-ru.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.4/README.md) | [sase-ru.4](sase-ru.4.md) | 1 |
 | [bbugyi200.athena.sase-ru.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.5/README.md) | [sase-ru.5](sase-ru.5.md) | 2 |
-| [bbugyi200.athena.sase-ru.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.6/README.md) | [sase-ru.6](sase-ru.6.md) | 0 |
-| [bbugyi200.athena.sase-ru.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.7/README.md) | [sase-ru.7](sase-ru.7.md) | 0 |
+| [bbugyi200.athena.sase-ru.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ru.6.md) | [sase-ru.6](sase-ru.6.md) | 0 |
+| [bbugyi200.athena.sase-ru.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.7/README.md) | [sase-ru.7](sase-ru.7.md) | 1 |
 | [bbugyi200.athena.sase-ru.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.9/README.md) | [sase-ru.9](sase-ru.9.md) | 0 |
 | [bbugyi200.athena.sase-ru.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.land/README.md) | [sase-ru](README.md) | 0 |
 
@@ -100,3 +100,4 @@ flowchart TD
 | sase | [`35c88fa`](https://github.com/sase-org/sase/commit/35c88fa7c1ab49a4815cb78d8bf67c289937602c) | feat(llm\_provider): retire commit\_finalizer\_shared\_clone\_exempt | [sase-ru.10](sase-ru.10.md) | 2026-08-21 12:14:51 EDT |
 | sase | [`cf53a17`](https://github.com/sase-org/sase/commit/cf53a17ad727fa9b27d8b8ba8c1ad6ccbee75317) | feat: Make EpicResume gating unconditional (sase-ru.8) | [sase-ru.8](sase-ru.8.md) | 2026-08-21 12:17:34 EDT |
 | sase | [`c60fc79`](https://github.com/sase-org/sase/commit/c60fc79083bd6216b86728a44595caa0f24563dc) | feat(flags): retire prettier\_enabled and plugin\_catalog\_scoped\_latest | [sase-ru.1](sase-ru.1.md) | 2026-08-21 12:34:47 EDT |
+| sase | [`8143f4c`](https://github.com/sase-org/sase/commit/8143f4c61071d819883e9309d7e8ead70767a4e3) | feat(completion): refresh installed completions after every successful update | [sase-ru.7](sase-ru.7.md) | 2026-08-21 12:47:41 EDT |

@@ -23,7 +23,7 @@ planner_chat_trial: compare paired coder handoffs with and without coder_inherit
 
 ## Dependencies
 
-- **Blocks:** [sase-ru.9](sase-ru.9.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-ru.9](sase-ru.9.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

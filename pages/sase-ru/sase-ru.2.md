@@ -25,7 +25,7 @@ completion_soak: gather reproducible unmanaged-install evidence for completion_r
 
 ## Dependencies
 
-- **Blocks:** [sase-ru.7](sase-ru.7.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-ru.7](sase-ru.7.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
