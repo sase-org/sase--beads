@@ -33,10 +33,11 @@ runtime: add the thin typed Python adapter, insert saved machine preferences int
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.3/README.md) | [sase-rs.3](sase-rs.3.md) | 1 |
+| [bbugyi200.athena.sase-rs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.3/README.md) | [sase-rs.3](sase-rs.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b88dfc7`](https://github.com/sase-org/sase/commit/b88dfc729359edaf7bda546e6bf581c7f2266b07) | fix(telemetry): drop duplicate sase\_finalizer catalog entries | [sase-rs.3](sase-rs.3.md) | 2026-08-21 12:55:10 EDT |
+| sase | [`9223d47`](https://github.com/sase-org/sase/commit/9223d47c4617075c6298c2dd4663b56ecb6281ac) | feat(flags): add shared Python saved-state resolution and mutation facade | [sase-rs.3](sase-rs.3.md) | 2026-08-21 12:57:16 EDT |
