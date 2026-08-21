@@ -4,7 +4,7 @@
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.096](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.096.md) · **Assignee:** `sase-rr.land`
-**Created:** 2026-08-21 09:05:41 EDT
+**Created:** 2026-08-21 13:05:41 UTC
 **Plan:** [202608/retire\_pluggable\_finalizers.md](https://github.com/sase-org/sase--plans/blob/main/202608/retire_pluggable_finalizers.md)
 
 ## Description
@@ -23,7 +23,7 @@ Make host-owned pluggable finalization unconditional, remove the deprecated Off 
 |---|---|---|---|---|---:|---:|
 | [sase-rr.1](sase-rr.1.md) | Complete the finalizer protocol and parity harness | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-rr.2](sase-rr.2.md) | Make pluggable finalizers unconditional and delete the old path | ✓ closed | medium | 2026-08-21 | 1 | 1 |
-| [sase-rr.3](sase-rr.3.md) | Synchronize CLI, schema, docs, and generated skill source | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
+| [sase-rr.3](sase-rr.3.md) | Synchronize CLI, schema, docs, and generated skill source | ✓ closed | small | 2026-08-21 | 1 | 1 |
 | [sase-rr.4](sase-rr.4.md) | Run adversarial and live end-to-end acceptance | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n0["sase-rr: Retire the pluggable finalizers beta and legacy controller [in_progress]"]
     n1["sase-rr.1: Complete the finalizer protocol and parity harness [closed]"]
     n2["sase-rr.2: Make pluggable finalizers unconditional and delete the old path [closed]"]
-    n3["sase-rr.3: Synchronize CLI, schema, docs, and generated skill source [in_progress]"]
+    n3["sase-rr.3: Synchronize CLI, schema, docs, and generated skill source [closed]"]
     n4["sase-rr.4: Run adversarial and live end-to-end acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -50,7 +50,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-rr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.1/README.md) | [sase-rr.1](sase-rr.1.md) | 1 |
 | [bbugyi200.athena.sase-rr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.2/README.md) | [sase-rr.2](sase-rr.2.md) | 1 |
-| [bbugyi200.athena.sase-rr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.3/README.md) | [sase-rr.3](sase-rr.3.md) | 0 |
+| [bbugyi200.athena.sase-rr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.3/README.md) | [sase-rr.3](sase-rr.3.md) | 1 |
 | [bbugyi200.athena.sase-rr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.4/README.md) | [sase-rr.4](sase-rr.4.md) | 0 |
 | [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.land/README.md) | [sase-rr](README.md) | 0 |
 
@@ -58,5 +58,6 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`980bedf`](https://github.com/sase-org/sase/commit/980bedfea8c30d6d6202b7b31d2254dbe679f2ef) | feat(finalizers): complete generic controller protocol and conflict resume | [sase-rr.1](sase-rr.1.md) | 2026-08-21 11:08:09 EDT |
-| sase | [`2f9c4ae`](https://github.com/sase-org/sase/commit/2f9c4ae2955e680f5da2249e20cccca15e0b972c) | feat(finalizers)!: make pluggable finalizers the only completion path | [sase-rr.2](sase-rr.2.md) | 2026-08-21 12:19:53 EDT |
+| sase | [`980bedf`](https://github.com/sase-org/sase/commit/980bedfea8c30d6d6202b7b31d2254dbe679f2ef) | feat(finalizers): complete generic controller protocol and conflict resume | [sase-rr.1](sase-rr.1.md) | 2026-08-21 15:08:09 UTC |
+| sase | [`2f9c4ae`](https://github.com/sase-org/sase/commit/2f9c4ae2955e680f5da2249e20cccca15e0b972c) | feat(finalizers)!: make pluggable finalizers the only completion path | [sase-rr.2](sase-rr.2.md) | 2026-08-21 16:19:53 UTC |
+| sase | [`2f244b7`](https://github.com/sase-org/sase/commit/2f244b7c40336ec4d242d2180d96a43907af2728) | docs(finalizers): sync unconditional finalizer contracts | [sase-rr.3](sase-rr.3.md) | 2026-08-21 18:46:44 UTC |

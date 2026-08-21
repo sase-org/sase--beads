@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.096](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.096.md) · **Assignee:** `sase-rr.2` · **Size:** medium
-**Created:** 2026-08-21 09:05:42 EDT · **Closed:** 2026-08-21 12:15:07 EDT
+**Created:** 2026-08-21 13:05:42 UTC · **Closed:** 2026-08-21 16:15:07 UTC
 **Plan:** [202608/retire\_pluggable\_finalizers.md](https://github.com/sase-org/sase--plans/blob/main/202608/retire_pluggable_finalizers.md)
 
 ## Description
@@ -26,7 +26,7 @@ retire-legacy: delete the pluggable_finalizers flag and Off branch, extract any 
 ## Dependencies
 
 - **Depends on:** [sase-rr.1](sase-rr.1.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rr.3](sase-rr.3.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.3](sase-rr.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
@@ -38,4 +38,4 @@ retire-legacy: delete the pluggable_finalizers flag and Off branch, extract any 
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`2f9c4ae`](https://github.com/sase-org/sase/commit/2f9c4ae2955e680f5da2249e20cccca15e0b972c) | feat(finalizers)!: make pluggable finalizers the only completion path | [sase-rr.2](sase-rr.2.md) | 2026-08-21 12:19:53 EDT |
+| sase | [`2f9c4ae`](https://github.com/sase-org/sase/commit/2f9c4ae2955e680f5da2249e20cccca15e0b972c) | feat(finalizers)!: make pluggable finalizers the only completion path | [sase-rr.2](sase-rr.2.md) | 2026-08-21 16:19:53 UTC |
