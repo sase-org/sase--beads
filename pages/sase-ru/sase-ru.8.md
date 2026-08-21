@@ -14,7 +14,7 @@ epic_resume_retirement: remove epic_resume_gate after its operational evidence p
 ## Dependencies
 
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.3](sase-ru.3.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.3](sase-ru.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
