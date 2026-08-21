@@ -11,12 +11,18 @@
 
 Resolve, verify, and close every currently ready SASE task bead without racing owned work, violating deferrals, or retiring live feature flags
 
+## Notes
+
+[2026-08-21T10:06:47Z · sase-ri.land] DISCOVERED ISSUE from epic sase-ri landing (phase sase-ri.5 proposal, independently reproduced at HEAD 29c537206 after just install): just symvision fails on private imports introduced by the proc-producer split and finalizer work: _ProcProducerSite/_site, commit_finalizer auto-commit/cleanup helpers, finalizers.declaration load/normalize/validate helpers, and _result_changed_files. No existing task search matched these symbols. This is causally tied to commits within active backlog epic sase-rm (including proc split/finalizer phases), not to sase-ri's Admin Center diff; resolve before sase-rm lands.
+
+[2026-08-21T10:10:33Z · sase-ri.land] DISCOVERED ISSUE from epic sase-ri landing check at HEAD 29c537206: just check now passes fmt, keep-sorted, Ruff, mypy, feature flags, pyscripts, test-waits, and changelog, then fails patch/stitch terminology on 11 unclassified legacy changespec tokens in src/sase/core/__init__.py and tests/test_lazy_facades.py. These came from the later lazy-facade/completion integration commit 4a3e69196 associated with active backlog epic sase-rm, not from sase-ri. Resolve before sase-rm lands.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-rm.1](sase-rm.1.md) | Repair core storage, wire, and concurrent bead identity defects | ✓ closed | large | 2026-08-20 | 1 | 2 |
-| [sase-rm.10](sase-rm.10.md) | Stabilize remaining ACE lifecycle and interaction flakes | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
+| [sase-rm.10](sase-rm.10.md) | Stabilize remaining ACE lifecycle and interaction flakes | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.11](sase-rm.11.md) | Stabilize monitor, process, runner-slot, suite-gate, and runner isolation | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.12](sase-rm.12.md) | Make cache, snapshot, and fixed-flake accounting deterministic | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.13](sase-rm.13.md) | Fix visual convergence and clear the standing PNG backlog | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
@@ -35,7 +41,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 flowchart TD
     n0["sase-rm: Close the actionable SASE task backlog [in_progress]"]
     n1["sase-rm.1: Repair core storage, wire, and concurrent bead identity defects [closed]"]
-    n2["sase-rm.10: Stabilize remaining ACE lifecycle and interaction flakes [in_progress]"]
+    n2["sase-rm.10: Stabilize remaining ACE lifecycle and interaction flakes [closed]"]
     n3["sase-rm.11: Stabilize monitor, process, runner-slot, suite-gate, and runner isolation [closed]"]
     n4["sase-rm.12: Make cache, snapshot, and fixed-flake accounting deterministic [closed]"]
     n5["sase-rm.13: Fix visual convergence and clear the standing PNG backlog [in_progress]"]
@@ -77,14 +83,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rm.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.1.md) | [sase-rm.1](sase-rm.1.md) | 2 |
-| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.10.md) | [sase-rm.10](sase-rm.10.md) | 0 |
+| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.10.md) | [sase-rm.10](sase-rm.10.md) | 1 |
 | [bbugyi200.athena.sase-rm.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.11.md) | [sase-rm.11](sase-rm.11.md) | 1 |
 | [bbugyi200.athena.sase-rm.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.12/README.md) | [sase-rm.12](sase-rm.12.md) | 1 |
 | [bbugyi200.athena.sase-rm.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.13/README.md) | [sase-rm.13](sase-rm.13.md) | 0 |
 | [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 2 |
 | [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
 | [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
-| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
+| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 0 |
 | [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.6/README.md) | [sase-rm.6](sase-rm.6.md) | 1 |
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
 | [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 1 |
@@ -108,3 +114,4 @@ flowchart TD
 | sase | [`671d27c`](https://github.com/sase-org/sase/commit/671d27c899d75bb610b0eae5648e2faf2db1b312) | fix(ace): stabilize responsive pane layout | [sase-rm.8](sase-rm.8.md) | 2026-08-21 05:35:06 EDT |
 | sase | [`4a3e691`](https://github.com/sase-org/sase/commit/4a3e691964b6715a8698cce29fd5a16d55d50acc) | feat(completion): add inventory and snippet candidate providers | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:48:40 EDT |
 | sase-core | [`sase-core@427d57e`](https://github.com/sase-org/sase-core/commit/427d57e743d02eafbd39388bdba0a35d1966c370) | feat(completion): share model filtering with bindings and LSP | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:50:41 EDT |
+| sase | [`b8559f3`](https://github.com/sase-org/sase/commit/b8559f36f00a3f46c0ee0ce7343dc50735275900) | fix(ace): stabilize async teardown and interaction waits | [sase-rm.10](sase-rm.10.md) | 2026-08-21 06:47:03 EDT |

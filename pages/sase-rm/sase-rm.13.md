@@ -13,7 +13,7 @@ visual_closeout: fix every mechanism-owned visual failure first, inspect each re
 
 ## Dependencies
 
-- **Depends on:** [sase-rm.10](sase-rm.10.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rm.10](sase-rm.10.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-rm.12](sase-rm.12.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-rm.7](sase-rm.7.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-rm.8](sase-rm.8.md) ✓ · ⧖ 2026-08-20

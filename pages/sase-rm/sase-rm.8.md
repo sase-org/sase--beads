@@ -23,7 +23,7 @@ ace_layout: correct Procs hints, compact tab-strip reflow, split-pane selected-d
 
 ## Dependencies
 
-- **Blocks:** [sase-rm.10](sase-rm.10.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rm.10](sase-rm.10.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rm.13](sase-rm.13.md) ◐ · ⧖ 2026-08-20
 - **Depends on:** [sase-rm.7](sase-rm.7.md) ✓ · ⧖ 2026-08-20
 

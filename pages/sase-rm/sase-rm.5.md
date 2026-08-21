@@ -19,4 +19,4 @@ shell_distribution: stabilize completion latency tests and live zsh verification
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
+| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 0 |

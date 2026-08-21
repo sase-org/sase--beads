@@ -35,7 +35,7 @@ ace_navigation: complete user-facing notification, palette, launch fan-out, repl
 
 ## Dependencies
 
-- **Blocks:** [sase-rm.10](sase-rm.10.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rm.10](sase-rm.10.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rm.13](sase-rm.13.md) ◐ · ⧖ 2026-08-20
 - **Blocks:** [sase-rm.8](sase-rm.8.md) ✓ · ⧖ 2026-08-20
 
