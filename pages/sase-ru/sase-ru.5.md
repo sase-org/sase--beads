@@ -29,10 +29,11 @@ shared_clone_audit: establish attributable shared-clone race evidence after the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ru.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.5/README.md) | [sase-ru.5](sase-ru.5.md) | 1 |
+| [bbugyi200.athena.sase-ru.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.5/README.md) | [sase-ru.5](sase-ru.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f4fde13`](https://github.com/sase-org/sase/commit/f4fde13df67b8c7df4cafc00839eab669799de30) | feat(llm\_provider): emit attributable shared-clone classification events | [sase-ru.5](sase-ru.5.md) | 2026-08-21 11:34:14 EDT |
+| sase--plans | [`sase--plans@3975633`](https://github.com/sase-org/sase--plans/commit/3975633814f39766b2b01e91d063169f25b530a9) | chore(sdd): record sase-ru.5 read of the flag closeout plan | [sase-ru.5](sase-ru.5.md) | 2026-08-21 11:38:41 EDT |

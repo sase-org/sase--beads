@@ -31,10 +31,4 @@ epic_resume_soak: exercise epic_resume_gate against controlled stalls, recovery,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ru.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.3/README.md) | [sase-ru.3](sase-ru.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`d194ec4`](https://github.com/sase-org/sase/commit/d194ec4457df92c50d46bf3e3168cc64de27a5a2) | fix(beads): stamp stall clocks so EpicResume can soak real failures | [sase-ru.3](sase-ru.3.md) | 2026-08-21 11:34:49 EDT |
+| [bbugyi200.athena.sase-ru.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.3/README.md) | [sase-ru.3](sase-ru.3.md) | 0 |
