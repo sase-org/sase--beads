@@ -48,7 +48,7 @@ flowchart TD
 | [bbugyi200.athena.sase-s0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.1/README.md) | [sase-s0.1](sase-s0.1.md) | 1 |
 | [bbugyi200.athena.sase-s0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.2/README.md) | [sase-s0.2](sase-s0.2.md) | 1 |
 | [bbugyi200.athena.sase-s0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.3/README.md) | [sase-s0.3](sase-s0.3.md) | 2 |
-| [bbugyi200.athena.sase-s0.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-s0.land.md) | [sase-s0](README.md) | 1 |
+| [bbugyi200.athena.sase-s0.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-s0.land.md) | [sase-s0](README.md) | 2 |
 
 ## Commits
 
@@ -59,3 +59,4 @@ flowchart TD
 | sase | [`f618be6`](https://github.com/sase-org/sase/commit/f618be6a809dc0f13a62a2a0e8fba8ac26adc2af) | feat(completion): expose final directive completions | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:11:28 UTC |
 | sase-core | [`sase-core@eca4d68`](https://github.com/sase-org/sase-core/commit/eca4d688a8efd66fdec512499d31c838aa294699) | feat(editor): expose final directive completion | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:13:56 UTC |
 | sase | [`6ee4e1d`](https://github.com/sase-org/sase/commit/6ee4e1d3d26c35d3641de2e267f9297d94b236e1) | test(completion): cover ACE and LSP %final completion parity | [sase-s0](README.md) | 2026-08-21 23:36:51 UTC |
+| sase-core | [`sase-core@82a5e4a`](https://github.com/sase-org/sase-core/commit/82a5e4a4331b6ec42760291e93706ce4d20df60c) | test(editor): expect final directive name and snippet completions | [sase-s0](README.md) | 2026-08-21 23:37:45 UTC |
