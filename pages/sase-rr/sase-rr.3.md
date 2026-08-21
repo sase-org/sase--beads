@@ -13,7 +13,7 @@ synchronize-contracts: describe unconditional finalization across configuration,
 
 ## Dependencies
 
-- **Depends on:** [sase-rr.2](sase-rr.2.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rr.2](sase-rr.2.md) ✓ · ⧖ 2026-08-21
 - **Blocks:** [sase-rr.4](sase-rr.4.md) ◐ · ⧖ 2026-08-21
 
 ## Agents

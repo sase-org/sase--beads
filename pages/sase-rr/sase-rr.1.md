@@ -15,6 +15,18 @@
 >
 > Reopened 2026-08-21T14:12:29Z by a status update
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-rw][1] | sase-rr.1 commit 980bedfea inserted the first sase_finalizer catalog mapping |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-rw/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 harden-protocol: turn the original acceptance matrix into executable generic-controller coverage, finish any missing fixed-point, retry, stale-state, conflict, and outside-agent behavior, and leave the flag-On path green before retirement.
@@ -35,7 +47,7 @@ Agent forgot to commit
 
 ## Dependencies
 
-- **Blocks:** [sase-rr.2](sase-rr.2.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.2](sase-rr.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
