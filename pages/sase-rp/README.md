@@ -16,7 +16,7 @@ Launch configuration becomes a polished, lazy Config sub-tab in the SASE Admin C
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-rp.1](sase-rp.1.md) | Extract reusable Launch content and lifecycle contracts | ✓ closed | medium | 2026-08-21 | 1 | 1 |
-| [sase-rp.2](sase-rp.2.md) | Integrate and route the guarded Config Launch sub-tab | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
+| [sase-rp.2](sase-rp.2.md) | Integrate and route the guarded Config Launch sub-tab | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-rp.3](sase-rp.3.md) | Polish, verify, and make Config Launch unconditional | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Launch configuration becomes a polished, lazy Config sub-tab in the SASE Admin C
 flowchart TD
     n0["sase-rp: Move Launch Control into the SASE Admin Center [in_progress]"]
     n1["sase-rp.1: Extract reusable Launch content and lifecycle contracts [closed]"]
-    n2["sase-rp.2: Integrate and route the guarded Config Launch sub-tab [in_progress]"]
+    n2["sase-rp.2: Integrate and route the guarded Config Launch sub-tab [closed]"]
     n3["sase-rp.3: Polish, verify, and make Config Launch unconditional [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rp.1/README.md) | [sase-rp.1](sase-rp.1.md) | 1 |
-| [bbugyi200.athena.sase-rp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rp.2/README.md) | [sase-rp.2](sase-rp.2.md) | 0 |
+| [bbugyi200.athena.sase-rp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rp.2/README.md) | [sase-rp.2](sase-rp.2.md) | 1 |
 | [bbugyi200.athena.sase-rp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rp.3/README.md) | [sase-rp.3](sase-rp.3.md) | 0 |
 | [bbugyi200.athena.sase-rp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rp.land/README.md) | [sase-rp](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0e18509`](https://github.com/sase-org/sase/commit/0e18509f8a664d29ee1950787a62a5c7f44a8717) | feat(tui): extract reusable launch pane | [sase-rp.1](sase-rp.1.md) | 2026-08-21 07:13:51 EDT |
+| sase | [`4421c90`](https://github.com/sase-org/sase/commit/4421c90bf1e582270386a9d2f4c781f8fddcb32b) | feat(tui): route launch settings through admin center | [sase-rp.2](sase-rp.2.md) | 2026-08-21 07:48:23 EDT |

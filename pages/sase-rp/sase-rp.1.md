@@ -21,7 +21,7 @@ launch_pane: separate Launch Control content, state, and lifecycle behavior from
 
 ## Dependencies
 
-- **Blocks:** [sase-rp.2](sase-rp.2.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rp.2](sase-rp.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

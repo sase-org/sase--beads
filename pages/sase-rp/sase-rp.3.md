@@ -13,7 +13,7 @@ launch_cutover: finish responsive visual and interaction coverage, remove the st
 
 ## Dependencies
 
-- **Depends on:** [sase-rp.2](sase-rp.2.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rp.2](sase-rp.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
