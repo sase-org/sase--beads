@@ -19,7 +19,7 @@ Users can inspect and persistently enable or disable every registered SASE featu
 | [sase-rs.2](sase-rs.2.md) | Adopt the released core binding floor | ✓ closed | small | 2026-08-21 | 1 | 2 |
 | [sase-rs.3](sase-rs.3.md) | Shared Python resolution and mutation facade | ✓ closed | medium | 2026-08-21 | 1 | 2 |
 | [sase-rs.4](sase-rs.4.md) | Persistent flag enable and disable commands | ✓ closed | medium | 2026-08-21 | 1 | 1 |
-| [sase-rs.5](sase-rs.5.md) | Beautiful Config Flags pane and controlled restart flow | ✓ closed | medium | 2026-08-21 | 1 | 1 |
+| [sase-rs.5](sase-rs.5.md) | Beautiful Config Flags pane and controlled restart flow | ✓ closed | medium | 2026-08-21 | 1 | 2 |
 | [sase-rs.6](sase-rs.6.md) | Integrated documentation, visual coverage, and release verification | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
 
 ## Lineage
@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rs.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rs.2.md) | [sase-rs.2](sase-rs.2.md) | 2 |
 | [bbugyi200.athena.sase-rs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.3/README.md) | [sase-rs.3](sase-rs.3.md) | 2 |
 | [bbugyi200.athena.sase-rs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.4/README.md) | [sase-rs.4](sase-rs.4.md) | 1 |
-| [bbugyi200.athena.sase-rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.5/README.md) | [sase-rs.5](sase-rs.5.md) | 1 |
+| [bbugyi200.athena.sase-rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.5/README.md) | [sase-rs.5](sase-rs.5.md) | 2 |
 | [bbugyi200.athena.sase-rs.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.6/README.md) | [sase-rs.6](sase-rs.6.md) | 0 |
 | [bbugyi200.athena.sase-rs.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.land/README.md) | [sase-rs](README.md) | 0 |
 
@@ -70,3 +70,4 @@ flowchart TD
 | sase | [`9223d47`](https://github.com/sase-org/sase/commit/9223d47c4617075c6298c2dd4663b56ecb6281ac) | feat(flags): add shared Python saved-state resolution and mutation facade | [sase-rs.3](sase-rs.3.md) | 2026-08-21 12:57:16 EDT |
 | sase | [`c3679dc`](https://github.com/sase-org/sase/commit/c3679dcf1e8118e8c2d5c5f4723b34c9469f76ce) | feat(flags): add persistent sase flag enable and disable commands | [sase-rs.4](sase-rs.4.md) | 2026-08-21 13:35:03 EDT |
 | sase | [`b8a827b`](https://github.com/sase-org/sase/commit/b8a827bea3807b40ab11d9f61056a77c31227376) | feat(tui): add Config Flags pane with sunset rollout and ACE+AXE restart | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:54:05 EDT |
+| sase--plans | [`sase--plans@74b93bd`](https://github.com/sase-org/sase--plans/commit/74b93bd1e8c212c2317b4ec920b7dc1caba838c6) | chore(sdd): record sase-rs.5 read of the feature-flag control-center plan | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:56:52 EDT |

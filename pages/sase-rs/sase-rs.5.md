@@ -30,10 +30,11 @@ tui: create the default-on sunset rollout flag and its live call site, add the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.5/README.md) | [sase-rs.5](sase-rs.5.md) | 1 |
+| [bbugyi200.athena.sase-rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.5/README.md) | [sase-rs.5](sase-rs.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b8a827b`](https://github.com/sase-org/sase/commit/b8a827bea3807b40ab11d9f61056a77c31227376) | feat(tui): add Config Flags pane with sunset rollout and ACE+AXE restart | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:54:05 EDT |
+| sase--plans | [`sase--plans@74b93bd`](https://github.com/sase-org/sase--plans/commit/74b93bd1e8c212c2317b4ec920b7dc1caba838c6) | chore(sdd): record sase-rs.5 read of the feature-flag control-center plan | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:56:52 EDT |
