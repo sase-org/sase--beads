@@ -31,7 +31,7 @@ test_isolation: replace process-wide read counting, isolate the agent-page cache
 
 ## Dependencies
 
-- **Blocks:** [sase-rm.13](sase-rm.13.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rm.13](sase-rm.13.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

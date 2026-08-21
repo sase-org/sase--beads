@@ -50,12 +50,4 @@ Primary full check status: final `just check` is blocked at Symvision by pre-exi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 3 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`abb80f4`](https://github.com/sase-org/sase/commit/abb80f44ac78e3ddadb3d8708613dfa144dd74e8) | feat(completion): support managed shell distribution | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:14:47 EDT |
-| chezmoi | [`chezmoi@eaf6cd4`](https://github.com/bbugyi200/dotfiles/commit/eaf6cd45c1e695f1e9ab88113032c53860aeecf0) | feat(shell): add managed SASE completions | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:15:42 EDT |
-| sase-telegram | [`sase-telegram@0c9592f`](https://github.com/sase-org/sase-telegram/commit/0c9592fb4e26807f595dcc1667a3aa63330b38fc) | ci: pin setup-just workflow inputs | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:17:31 EDT |
+| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 0 |
