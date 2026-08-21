@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.2/README.md) | [sase-rr.2](sase-rr.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.3/README.md) | [sase-rr.3](sase-rr.3.md) | 1 |
 | [bbugyi200.athena.sase-rr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.4/README.md) | [sase-rr.4](sase-rr.4.md) | 1 |
-| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 1 |
+| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 2 |
 | [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 0 |
 | [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | sase | [`2800900`](https://github.com/sase-org/sase/commit/28009002d5da032104d57805a6df293ffeca6b3e) | fix(finalizers): prove live e2e acceptance and validate external payloads | [sase-rr.4](sase-rr.4.md) | 2026-08-21 19:28:17 UTC |
 | sase | [`3d66071`](https://github.com/sase-org/sase/commit/3d66071d37ce85b736bbf9561f1be0a3dd872478) | fix(finalizers): canonicalize provider identity and dispatch | [sase-rr.5.2](sase-rr.5.2.md) | 2026-08-21 21:07:40 UTC |
 | sase | [`9af9e1c`](https://github.com/sase-org/sase/commit/9af9e1c3fc6e85abd2b361f121721e35f9676160) | feat(finalizers): seal and authenticate the host-owned execution plan | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:21:24 UTC |
+| sase-core | [`sase-core@10d3bbd`](https://github.com/sase-org/sase-core/commit/10d3bbd66d04f6440b413d58b6eebc63fcc791af) | feat(finalizer): validate and authenticate resolved plan digests | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:24:26 UTC |

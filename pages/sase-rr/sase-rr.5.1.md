@@ -30,10 +30,11 @@ seal-plan: keep the authoritative finalizer plan in host-owned state, reject art
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 1 |
+| [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9af9e1c`](https://github.com/sase-org/sase/commit/9af9e1c3fc6e85abd2b361f121721e35f9676160) | feat(finalizers): seal and authenticate the host-owned execution plan | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:21:24 UTC |
+| sase-core | [`sase-core@10d3bbd`](https://github.com/sase-org/sase-core/commit/10d3bbd66d04f6440b413d58b6eebc63fcc791af) | feat(finalizer): validate and authenticate resolved plan digests | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:24:26 UTC |
