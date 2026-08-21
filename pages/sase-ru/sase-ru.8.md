@@ -28,8 +28,8 @@ epic_resume_retirement: remove epic_resume_gate after its operational evidence p
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
 - **Depends on:** [sase-ru.3](sase-ru.3.md) ✓ · ⧖ 2026-08-21
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-ru.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.8/README.md) | [sase-ru.8](sase-ru.8.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`cf53a17`](https://github.com/sase-org/sase/commit/cf53a17ad727fa9b27d8b8ba8c1ad6ccbee75317) | feat: Make EpicResume gating unconditional (sase-ru.8) | [sase-ru.8](sase-ru.8.md) | 2026-08-21 12:17:34 EDT |

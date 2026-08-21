@@ -11,6 +11,10 @@
 
 completion_retirement: remove completion_refresh_on_update after its soak passes while preserving managed-file skips, update success, failure isolation, and bead integrity.
 
+## Notes
+
+[2026-08-21T16:28:36Z · sase-ru.7] Inventory before retirement: sase flag list -j still listed completion_refresh_on_update (sase-qg open, beta, default Off, env override On). Soak evidence already on sase-qg (sase-ru.2, file:explicit:247001ef31ee220528ea9398). Removed Off early-return in maybe_refresh_installed_completions, deleted FeatureFlag member + registry/schema/docs, converted Off tests to dry-run/upgrade-failure eligibility. Focused pytest 72 passed.
+
 ## Dependencies
 
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
