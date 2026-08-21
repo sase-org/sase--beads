@@ -22,7 +22,7 @@ launch_integration: add the lazy Launch child behind a temporary beta flag and r
 ## Dependencies
 
 - **Depends on:** [sase-rp.1](sase-rp.1.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rp.3](sase-rp.3.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rp.3](sase-rp.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
