@@ -33,10 +33,11 @@ execution-ledger: centralize whole-instance attempt, status, output, timeout, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 1 |
+| [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6639a28`](https://github.com/sase-org/sase/commit/6639a28016163be274ace52c293bd7aeebfb8470) | feat(finalizers): enforce bounded attempts and immutable evidence | [sase-rr.5.3](sase-rr.5.3.md) | 2026-08-21 22:22:29 UTC |
+| sase-core | [`sase-core@fee049e`](https://github.com/sase-org/sase-core/commit/fee049e54580fe256070c400f693a4a4d67129e3) | feat(finalizer): validate unique increasing attempt ledgers | [sase-rr.5.3](sase-rr.5.3.md) | 2026-08-21 22:23:27 UTC |
