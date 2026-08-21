@@ -84,10 +84,11 @@ Not closed: primary `just check` is blocked by an unrelated pre-existing feature
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 1 |
+| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4a3e691`](https://github.com/sase-org/sase/commit/4a3e691964b6715a8698cce29fd5a16d55d50acc) | feat(completion): add inventory and snippet candidate providers | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:48:40 EDT |
+| sase-core | [`sase-core@427d57e`](https://github.com/sase-org/sase-core/commit/427d57e743d02eafbd39388bdba0a35d1966c370) | feat(completion): share model filtering with bindings and LSP | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:50:41 EDT |
