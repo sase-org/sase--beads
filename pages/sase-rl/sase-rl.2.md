@@ -22,7 +22,7 @@ pane_mode: add the dedicated mini-xprompt pane role, scoped frontmatter editing,
 ## Dependencies
 
 - **Depends on:** [sase-rl.1](sase-rl.1.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-rl.3](sase-rl.3.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rl.3](sase-rl.3.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

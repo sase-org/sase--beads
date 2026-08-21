@@ -13,7 +13,7 @@ keymap_polish: complete the g-prefix migration, theme-safe presentation, documen
 
 ## Dependencies
 
-- **Depends on:** [sase-rl.3](sase-rl.3.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rl.3](sase-rl.3.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
