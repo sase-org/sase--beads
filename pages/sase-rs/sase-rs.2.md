@@ -26,7 +26,7 @@ floor: wait for the core release, raise sase's sase-core-rs dependency floor, re
 ## Dependencies
 
 - **Depends on:** [sase-rs.1](sase-rs.1.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rs.3](sase-rs.3.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rs.3](sase-rs.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

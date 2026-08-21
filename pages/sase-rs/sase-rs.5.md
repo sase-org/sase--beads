@@ -13,7 +13,7 @@ tui: create the default-on sunset rollout flag and its live call site, add the l
 
 ## Dependencies
 
-- **Depends on:** [sase-rs.3](sase-rs.3.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rs.3](sase-rs.3.md) ✓ · ⧖ 2026-08-21
 - **Blocks:** [sase-rs.6](sase-rs.6.md) ◐ · ⧖ 2026-08-21
 
 ## Agents
