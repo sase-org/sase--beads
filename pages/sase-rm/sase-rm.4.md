@@ -43,11 +43,10 @@ PROPOSED FOLLOW-UP: the earlier primary full-suite run exposed tests/ace/tui/wid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 2 |
+| [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`982ad29`](https://github.com/sase-org/sase/commit/982ad299ee6a81eec30f496b303b4ff0a29eb15b) | fix: make successor handoffs collision-safe | [sase-rm.4](sase-rm.4.md) | 2026-08-20 17:07:14 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@83f4c01`](https://github.com/sase-org/sase-research-artifacts/commit/83f4c0154d6f5e50d527582c2377eb36bdcb2ff5) | fix: make research report targets deterministic | [sase-rm.4](sase-rm.4.md) | 2026-08-20 17:09:55 EDT |

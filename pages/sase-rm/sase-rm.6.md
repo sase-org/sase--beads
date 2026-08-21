@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-rm](README.md) / sase-rm.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08u](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08u.md) · **Assignee:** `sase-rm.6` · **Size:** medium
-**Created:** 2026-08-20 14:47:53 EDT
+**Created:** 2026-08-20 14:47:53 EDT · **Closed:** 2026-08-21 05:25:43 EDT
 **Plan:** [202608/task\_backlog\_closeout.md](https://github.com/sase-org/sase--plans/blob/main/202608/task_backlog_closeout.md)
 
 ## Description
@@ -32,6 +32,14 @@ guardrail_cleanup: close the confirmed documentation gaps and make build, scoped
 [2026-08-20T19:36:57Z · sase-rm.6--2] PROPOSED FOLLOW-UP: home memory README clobber across workspaces — just check-full failed at init memory --check because ~/.local/share/chezmoi/home/sase/memory/README.md lost the generated sase_artifacts.md sentence (template change from master a1da80ddb). Chezmoi HEAD 7cb3300d already had the new text; working tree had been reverted, likely by an older-checkout sase memory init. Regenerated via sase memory init --no-commit from this workspace; check now passes. Durable fix: pin generated home README to the running tree or stop older inits from rewriting it.
 
 [2026-08-20T20:22:31Z · sase-rm.6--3] just check-full (monitor 06fhrd6fmev0) failed solely on known flake sase-qp: tests/test_suite_gate_reclaim.py::test_fresh_heartbeat_is_not_reclaimed DID NOT RAISE UsageError under the full parallel lane (35337 passed, 13 skipped). Serial 3/3 passed; this phase does not touch suite-gate reclaim. Corroborated with sase bead +1 sase-qp. sase-qp is assigned to later phase sase-rm.11 (heartbeat clocks). Re-running just check-full; will not close until that lane is green.
+
+[2026-08-21T09:20:22Z · sase-rm.6] PROPOSED FOLLOW-UP: just check blocked by closed flag bead sase-rk — tools/check_feature_flags reports admin_center_config_hub still has a surviving definition after sase-rk closed; this is outside guardrail_cleanup but currently makes the shared feature-flag gate red.
+
+[2026-08-21T09:21:30Z · sase-rm.6] PROPOSED FOLLOW-UP: shared lint gates still red outside guardrail_cleanup — just _lint-symvision reports removable SnippetsPaneSessionState/SnippetsPaneHost/SnippetsPane pragmas in snippets_panel.py, and just _lint-toobig reports src/sase/finalizers/declaration.py at 1038 lines.
+
+[2026-08-21T09:25:10Z · sase-rm.6] PROPOSED FOLLOW-UP: selection-health has a new reproducible-flake record outside guardrail_cleanup — just selection-health --fail-on-new-flake reports tests/ace/tui/widgets/test_directive_completion_candidates.py::test_id_parenthesized_completion_advertises_identity_keywords exceeds tests/reproducible_flake_baseline.txt and needs a filed/fixed node before landing.
+
+[2026-08-21T09:25:43Z · sase-rm.6] Verified guardrail_cleanup implementation: docs/getting_started.md separates Muse/Grok PATH autodetect from Grok alias-pool routing, docs/xprompt.md has source-matched bundled skill rows for sase_final, sase_monitor, and sase_new_task plus split Muse/Grok model comments, and docs drift tests passed. Justfile stale-core refresh is one-shell and rust-install/rust-dev-install skip refresh when SASE_ALLOW_STALE_CORE=1; focused Justfile tests passed. Deleted proc_queue imports in tests now use ObservedProc or tests/ace/tui/_compat_proc_queue.py; deleted-module AST/import guard, direct helper imports, collect-only for tests/test_agent_dismiss_persistence.py, and tests/ace/tui/test_agent_cleanup_procs.py passed. Doctor config repo tests use an isolated empty artifact-provider registry and pass 19/19 with SASE_DISABLE_PLUGINS unset and set. just fmt passed; git diff --check passed; sase bead epic-symbols sase-rm.6 reported no entries. just check was attempted after install and passed fmt/keep-sorted/ruff/mypy, then stopped at unrelated closed flag bead sase-rk admin_center_config_hub; additional unrelated blockers and selection-health flake were recorded as PROPOSED FOLLOW-UP notes.
 
 ## Agents
 
