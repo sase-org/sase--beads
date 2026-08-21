@@ -13,7 +13,7 @@ persistence: implement create, overwrite, reload, and failure-safe save flows th
 
 ## Dependencies
 
-- **Depends on:** [sase-rl.2](sase-rl.2.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rl.2](sase-rl.2.md) ✓ · ⧖ 2026-08-20
 - **Blocks:** [sase-rl.4](sase-rl.4.md) ◐ · ⧖ 2026-08-20
 
 ## Agents

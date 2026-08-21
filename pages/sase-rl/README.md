@@ -16,7 +16,7 @@ Users can create or edit one non-swarm xprompt in a focused, pane-scoped ACE wor
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-rl.1](sase-rl.1.md) | Mini-xprompt target catalog and name panel | ✓ closed | medium | 2026-08-20 | 1 | 1 |
-| [sase-rl.2](sase-rl.2.md) | Pane-scoped mini-xprompt editing lifecycle | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
+| [sase-rl.2](sase-rl.2.md) | Pane-scoped mini-xprompt editing lifecycle | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rl.3](sase-rl.3.md) | Conflict-safe mini-xprompt saves and live publication | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 | [sase-rl.4](sase-rl.4.md) | Keymap migration, visual polish, documentation, and regression audit | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Users can create or edit one non-swarm xprompt in a focused, pane-scoped ACE wor
 flowchart TD
     n0["sase-rl: Targeted mini-xprompt authoring in the ACE prompt stack [in_progress]"]
     n1["sase-rl.1: Mini-xprompt target catalog and name panel [closed]"]
-    n2["sase-rl.2: Pane-scoped mini-xprompt editing lifecycle [in_progress]"]
+    n2["sase-rl.2: Pane-scoped mini-xprompt editing lifecycle [closed]"]
     n3["sase-rl.3: Conflict-safe mini-xprompt saves and live publication [in_progress]"]
     n4["sase-rl.4: Keymap migration, visual polish, documentation, and regression audit [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.1/README.md) | [sase-rl.1](sase-rl.1.md) | 1 |
-| [bbugyi200.athena.sase-rl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.2/README.md) | [sase-rl.2](sase-rl.2.md) | 0 |
+| [bbugyi200.athena.sase-rl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.2/README.md) | [sase-rl.2](sase-rl.2.md) | 1 |
 | [bbugyi200.athena.sase-rl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.3/README.md) | [sase-rl.3](sase-rl.3.md) | 0 |
 | [bbugyi200.athena.sase-rl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.4/README.md) | [sase-rl.4](sase-rl.4.md) | 0 |
 | [bbugyi200.athena.sase-rl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.land/README.md) | [sase-rl](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f55b0b8`](https://github.com/sase-org/sase/commit/f55b0b80f94dabd0bdf5f409f0478e84e459034f) | feat(ace): add mini xprompt target name panel | [sase-rl.1](sase-rl.1.md) | 2026-08-20 15:32:48 EDT |
+| sase | [`dac3655`](https://github.com/sase-org/sase/commit/dac3655f3af39869019f591279ddae828e81725c) | feat(tui): add mini-xprompt pane lifecycle | [sase-rl.2](sase-rl.2.md) | 2026-08-21 05:47:03 EDT |

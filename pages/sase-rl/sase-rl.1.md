@@ -21,7 +21,7 @@ target_catalog: build the cached target-resolution model and live-completing new
 
 ## Dependencies
 
-- **Blocks:** [sase-rl.2](sase-rl.2.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rl.2](sase-rl.2.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
