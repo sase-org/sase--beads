@@ -33,6 +33,8 @@ Make host-owned pluggable finalization unconditional, remove the deprecated Off 
 
 [2026-08-21T19:24:26Z · 09u.f0] DISCOVERED ISSUE: During compact_bead_wait_status_tokens verification on 2026-08-21, just check's escalated full scoped lane failed the three tests/fakey/test_retry_pipeline_e2e.py retry/fallback nodes. Focused rerun reproduced the same finalizer-context failure: fakey child prompts inherit the turn's SASE Final Declaration text, then fail with 'sase final context requires active finalizer turn metadata: SASE_AGENT_NAME or agent_meta.json name'. This corroborates the existing finalizer-epic note from 0a0; the wait-token diff does not touch finalizers, workflow execution, or fakey provider code.
 
+[2026-08-21T21:33:04Z · 0a6--1] DISCOVERED ISSUE: During fix_publish_release_metadata verification on 2026-08-21, 'just check' failed at lint (feature flags) after fmt, ruff, and mypy passed. Exact failure: tools/check_feature_flags rule 8 reports live flag bead 'sase-ro' has no definition (key 'pluggable_finalizers'); the bead was created 2026-08-20T21:30:24Z by sase-rn.3. The local diff only touches tools/ratchet_core_window, .github/workflows/publish.yml, and their tests, so this is unrelated to release metadata reconciliation. Not routed to closed task sase-pp because that task fixed the young cross-workspace orphan-bead window; this pluggable_finalizers bead is now the flag bead this epic description explicitly owns closing after the combined tree is green. The finalizer closeout should restore a valid registry state or close sase-ro before relying on just check as green.
+
 ## References
 
 - file:explicit:4ac14f733cd4c83b0ca56786
@@ -59,7 +61,7 @@ flowchart TD
     n6["sase-rr.5.1: Seal and authenticate the execution plan [closed]"]
     n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
     n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [in_progress]"]
-    n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [in_progress]"]
+    n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [closed]"]
     n10["sase-rr.5.5: Run combined adversarial integrity acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -92,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 2 |
 | [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 0 |
-| [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 0 |
 | [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.land/README.md) | [sase-rr.5](sase-rr.5.md) | 0 |
 | [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rr.land.md) | [sase-rr](README.md) | 0 |
@@ -108,3 +110,4 @@ flowchart TD
 | sase | [`3d66071`](https://github.com/sase-org/sase/commit/3d66071d37ce85b736bbf9561f1be0a3dd872478) | fix(finalizers): canonicalize provider identity and dispatch | [sase-rr.5.2](sase-rr.5.2.md) | 2026-08-21 21:07:40 UTC |
 | sase | [`9af9e1c`](https://github.com/sase-org/sase/commit/9af9e1c3fc6e85abd2b361f121721e35f9676160) | feat(finalizers): seal and authenticate the host-owned execution plan | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:21:24 UTC |
 | sase-core | [`sase-core@10d3bbd`](https://github.com/sase-org/sase-core/commit/10d3bbd66d04f6440b413d58b6eebc63fcc791af) | feat(finalizer): validate and authenticate resolved plan digests | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:24:26 UTC |
+| sase | [`c2f46e8`](https://github.com/sase-org/sase/commit/c2f46e84e87edcd9994b4b8bde494099652b1941) | fix(finalizers): serialize declaration accept and host-order commits | [sase-rr.5.4](sase-rr.5.4.md) | 2026-08-21 22:15:21 UTC |

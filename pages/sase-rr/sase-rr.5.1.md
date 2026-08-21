@@ -24,7 +24,7 @@ seal-plan: keep the authoritative finalizer plan in host-owned state, reject art
 ## Dependencies
 
 - **Blocks:** [sase-rr.5.3](sase-rr.5.3.md) ◐ · ⧖ 2026-08-21
-- **Blocks:** [sase-rr.5.4](sase-rr.5.4.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.5.4](sase-rr.5.4.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
