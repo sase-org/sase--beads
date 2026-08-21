@@ -14,7 +14,7 @@ completion_retirement: remove completion_refresh_on_update after its soak passes
 ## Dependencies
 
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.2](sase-ru.2.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.2](sase-ru.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

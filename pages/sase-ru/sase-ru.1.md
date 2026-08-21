@@ -11,6 +11,10 @@
 
 fast_retirements: verify and retire prettier_enabled and plugin_catalog_scoped_latest, including compatibility cleanup, schema synchronization, focused coverage, and bead closure.
 
+## Notes
+
+[2026-08-21T15:13:19Z · sase-ru.1] PROPOSED FOLLOW-UP: live flag bead sase-rc (artifact_links) has no registry definition and fails tools/check_feature_flags rule 8 — owned by the excluded artifact_links work; this phase did not touch it.
+
 ## Dependencies
 
 - **Blocks:** [sase-ru.12](sase-ru.12.md) ◐ · ⧖ 2026-08-21
