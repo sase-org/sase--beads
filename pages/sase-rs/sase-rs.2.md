@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.09g](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.09g.md) · **Assignee:** `sase-rs.2` · **Size:** small
-**Created:** 2026-08-21 09:58:40 EDT · **Closed:** 2026-08-21 11:45:11 EDT
+**Created:** 2026-08-21 13:58:40 UTC · **Closed:** 2026-08-21 15:45:11 UTC
 **Plan:** [202608/feature\_flag\_control\_center.md](https://github.com/sase-org/sase--plans/blob/main/202608/feature_flag_control_center.md)
 
 ## Description
@@ -38,5 +38,5 @@ floor: wait for the core release, raise sase's sase-core-rs dependency floor, re
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@e5181a6`](https://github.com/sase-org/sase-core/commit/e5181a69d20f904f63499387623b6097ad39b80e) | fix(clippy): use Option::unwrap\_or in pull-request URL parser | [sase-rs.2](sase-rs.2.md) | 2026-08-21 10:56:37 EDT |
-| sase | [`f355faa`](https://github.com/sase-org/sase/commit/f355faa969513ae0bf09d27423240c3d0f167e03) | build(deps): raise sase-core-rs floor to 0.29.6 | [sase-rs.2](sase-rs.2.md) | 2026-08-21 11:48:29 EDT |
+| sase-core | [`sase-core@e5181a6`](https://github.com/sase-org/sase-core/commit/e5181a69d20f904f63499387623b6097ad39b80e) | fix(clippy): use Option::unwrap\_or in pull-request URL parser | [sase-rs.2](sase-rs.2.md) | 2026-08-21 14:56:37 UTC |
+| sase | [`f355faa`](https://github.com/sase-org/sase/commit/f355faa969513ae0bf09d27423240c3d0f167e03) | build(deps): raise sase-core-rs floor to 0.29.6 | [sase-rs.2](sase-rs.2.md) | 2026-08-21 15:48:29 UTC |

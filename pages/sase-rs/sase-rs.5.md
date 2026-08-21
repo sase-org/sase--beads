@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.09g](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.09g.md) · **Assignee:** `sase-rs.5` · **Size:** medium
-**Created:** 2026-08-21 09:58:42 EDT · **Closed:** 2026-08-21 13:50:53 EDT
+**Created:** 2026-08-21 13:58:42 UTC · **Closed:** 2026-08-21 17:50:53 UTC
 **Plan:** [202608/feature\_flag\_control\_center.md](https://github.com/sase-org/sase--plans/blob/main/202608/feature_flag_control_center.md)
 
 ## Description
@@ -24,7 +24,7 @@ tui: create the default-on sunset rollout flag and its live call site, add the l
 ## Dependencies
 
 - **Depends on:** [sase-rs.3](sase-rs.3.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rs.6](sase-rs.6.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rs.6](sase-rs.6.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
@@ -36,5 +36,5 @@ tui: create the default-on sunset rollout flag and its live call site, add the l
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`b8a827b`](https://github.com/sase-org/sase/commit/b8a827bea3807b40ab11d9f61056a77c31227376) | feat(tui): add Config Flags pane with sunset rollout and ACE+AXE restart | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:54:05 EDT |
-| sase--plans | [`sase--plans@74b93bd`](https://github.com/sase-org/sase--plans/commit/74b93bd1e8c212c2317b4ec920b7dc1caba838c6) | chore(sdd): record sase-rs.5 read of the feature-flag control-center plan | [sase-rs.5](sase-rs.5.md) | 2026-08-21 13:56:52 EDT |
+| sase | [`b8a827b`](https://github.com/sase-org/sase/commit/b8a827bea3807b40ab11d9f61056a77c31227376) | feat(tui): add Config Flags pane with sunset rollout and ACE+AXE restart | [sase-rs.5](sase-rs.5.md) | 2026-08-21 17:54:05 UTC |
+| sase--plans | [`sase--plans@74b93bd`](https://github.com/sase-org/sase--plans/commit/74b93bd1e8c212c2317b4ec920b7dc1caba838c6) | chore(sdd): record sase-rs.5 read of the feature-flag control-center plan | [sase-rs.5](sase-rs.5.md) | 2026-08-21 17:56:52 UTC |
