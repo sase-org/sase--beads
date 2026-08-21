@@ -16,17 +16,17 @@ The seven in-scope SASE feature flags are retired only after their authored acce
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-ru.1](sase-ru.1.md) | Retire the mature formatter and plugin catalog paths | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
-| [sase-ru.10](sase-ru.10.md) | Make safe shared-clone race classification unconditional | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
+| [sase-ru.10](sase-ru.10.md) | Make safe shared-clone race classification unconditional | ✓ closed | small | 2026-08-21 | 1 | 1 |
 | [sase-ru.11](sase-ru.11.md) | Make the ref-sync gesture unconditional | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
 | [sase-ru.12](sase-ru.12.md) | Reconcile the combined registry and verify the closeout | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
 | [sase-ru.2](sase-ru.2.md) | Prove update-time completion refresh across supported shells | ✓ closed | medium | 2026-08-21 | 1 | 2 |
-| [sase-ru.3](sase-ru.3.md) | Prove EpicResume behavior under real stall and handoff races | ✓ closed | medium | 2026-08-21 | 1 | 0 |
+| [sase-ru.3](sase-ru.3.md) | Prove EpicResume behavior under real stall and handoff races | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-ru.4](sase-ru.4.md) | Measure inherited planner chat value and cost | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-ru.5](sase-ru.5.md) | Audit commit-finalizer shared-clone exemptions | ✓ closed | medium | 2026-08-21 | 1 | 2 |
 | [sase-ru.6](sase-ru.6.md) | Complete the two-release ref-sync gesture observation gate | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
 | [sase-ru.7](sase-ru.7.md) | Make completion refresh unconditional | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
-| [sase-ru.8](sase-ru.8.md) | Make EpicResume gating unconditional | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
-| [sase-ru.9](sase-ru.9.md) | Resolve the planner-chat experiment into a durable behavior | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
+| [sase-ru.8](sase-ru.8.md) | Make EpicResume gating unconditional | ✓ closed | small | 2026-08-21 | 1 | 0 |
+| [sase-ru.9](sase-ru.9.md) | Resolve the planner-chat experiment into a durable behavior | ✓ closed | medium | 2026-08-21 | 1 | 0 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ The seven in-scope SASE feature flags are retired only after their authored acce
 flowchart TD
     n0["sase-ru: Close out the seven unowned SASE feature flags [in_progress]"]
     n1["sase-ru.1: Retire the mature formatter and plugin catalog paths [in_progress]"]
-    n2["sase-ru.10: Make safe shared-clone race classification unconditional [in_progress]"]
+    n2["sase-ru.10: Make safe shared-clone race classification unconditional [closed]"]
     n3["sase-ru.11: Make the ref-sync gesture unconditional [in_progress]"]
     n4["sase-ru.12: Reconcile the combined registry and verify the closeout [in_progress]"]
     n5["sase-ru.2: Prove update-time completion refresh across supported shells [closed]"]
@@ -43,8 +43,8 @@ flowchart TD
     n8["sase-ru.5: Audit commit-finalizer shared-clone exemptions [closed]"]
     n9["sase-ru.6: Complete the two-release ref-sync gesture observation gate [in_progress]"]
     n10["sase-ru.7: Make completion refresh unconditional [in_progress]"]
-    n11["sase-ru.8: Make EpicResume gating unconditional [in_progress]"]
-    n12["sase-ru.9: Resolve the planner-chat experiment into a durable behavior [in_progress]"]
+    n11["sase-ru.8: Make EpicResume gating unconditional [closed]"]
+    n12["sase-ru.9: Resolve the planner-chat experiment into a durable behavior [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -75,11 +75,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ru.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ru.1.md) | [sase-ru.1](sase-ru.1.md) | 0 |
-| [bbugyi200.athena.sase-ru.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.10/README.md) | [sase-ru.10](sase-ru.10.md) | 0 |
+| [bbugyi200.athena.sase-ru.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.10/README.md) | [sase-ru.10](sase-ru.10.md) | 1 |
 | [bbugyi200.athena.sase-ru.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.11/README.md) | [sase-ru.11](sase-ru.11.md) | 0 |
 | [bbugyi200.athena.sase-ru.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.12/README.md) | [sase-ru.12](sase-ru.12.md) | 0 |
 | [bbugyi200.athena.sase-ru.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.2/README.md) | [sase-ru.2](sase-ru.2.md) | 2 |
-| [bbugyi200.athena.sase-ru.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.3/README.md) | [sase-ru.3](sase-ru.3.md) | 0 |
+| [bbugyi200.athena.sase-ru.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.3/README.md) | [sase-ru.3](sase-ru.3.md) | 1 |
 | [bbugyi200.athena.sase-ru.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.4/README.md) | [sase-ru.4](sase-ru.4.md) | 1 |
 | [bbugyi200.athena.sase-ru.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.5/README.md) | [sase-ru.5](sase-ru.5.md) | 2 |
 | [bbugyi200.athena.sase-ru.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.6/README.md) | [sase-ru.6](sase-ru.6.md) | 0 |
@@ -96,4 +96,6 @@ flowchart TD
 | sase | [`f425005`](https://github.com/sase-org/sase/commit/f425005a0f95b1ced138ae5018ed8a60e99e2c6d) | test(completion): soak unmanaged refresh across bash, fish, and zsh | [sase-ru.2](sase-ru.2.md) | 2026-08-21 11:26:21 EDT |
 | sase--plans | [`sase--plans@84aeb6a`](https://github.com/sase-org/sase--plans/commit/84aeb6a1f82e51951f4ebd92b3266a91fa7ceeac) | docs(plans): record completion-soak artifact read of flag closeout plan | [sase-ru.2](sase-ru.2.md) | 2026-08-21 11:29:08 EDT |
 | sase | [`f4fde13`](https://github.com/sase-org/sase/commit/f4fde13df67b8c7df4cafc00839eab669799de30) | feat(llm\_provider): emit attributable shared-clone classification events | [sase-ru.5](sase-ru.5.md) | 2026-08-21 11:34:14 EDT |
+| sase | [`d194ec4`](https://github.com/sase-org/sase/commit/d194ec4457df92c50d46bf3e3168cc64de27a5a2) | fix(beads): stamp stall clocks so EpicResume can soak real failures | [sase-ru.3](sase-ru.3.md) | 2026-08-21 11:34:49 EDT |
 | sase--plans | [`sase--plans@3975633`](https://github.com/sase-org/sase--plans/commit/3975633814f39766b2b01e91d063169f25b530a9) | chore(sdd): record sase-ru.5 read of the flag closeout plan | [sase-ru.5](sase-ru.5.md) | 2026-08-21 11:38:41 EDT |
+| sase | [`35c88fa`](https://github.com/sase-org/sase/commit/35c88fa7c1ab49a4815cb78d8bf67c289937602c) | feat(llm\_provider): retire commit\_finalizer\_shared\_clone\_exempt | [sase-ru.10](sase-ru.10.md) | 2026-08-21 12:14:51 EDT |

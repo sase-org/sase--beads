@@ -7,6 +7,18 @@
 **Created:** 2026-08-21 10:44:28 EDT · **Closed:** 2026-08-21 11:31:14 EDT
 **Plan:** [202608/open\_feature\_flag\_closeout.md](https://github.com/sase-org/sase--plans/blob/main/202608/open_feature_flag_closeout.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-rw][1] | sase-ru.5 commit f4fde13df inserted the second sase_finalizer catalog mapping |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-rw/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 shared_clone_audit: establish attributable shared-clone race evidence after the separately owned finalizer work lands and determine whether commit_finalizer_shared_clone_exempt is safe to retire.
@@ -23,7 +35,7 @@ shared_clone_audit: establish attributable shared-clone race evidence after the 
 
 ## Dependencies
 
-- **Blocks:** [sase-ru.10](sase-ru.10.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-ru.10](sase-ru.10.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

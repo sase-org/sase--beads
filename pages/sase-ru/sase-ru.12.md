@@ -14,11 +14,11 @@ integrated_closeout: reconcile concurrent registry and schema edits, verify all 
 ## Dependencies
 
 - **Depends on:** [sase-ru.1](sase-ru.1.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.10](sase-ru.10.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.10](sase-ru.10.md) ✓ · ⧖ 2026-08-21
 - **Depends on:** [sase-ru.11](sase-ru.11.md) ◐ · ⧖ 2026-08-21
 - **Depends on:** [sase-ru.7](sase-ru.7.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.8](sase-ru.8.md) ◐ · ⧖ 2026-08-21
-- **Depends on:** [sase-ru.9](sase-ru.9.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.8](sase-ru.8.md) ✓ · ⧖ 2026-08-21
+- **Depends on:** [sase-ru.9](sase-ru.9.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
