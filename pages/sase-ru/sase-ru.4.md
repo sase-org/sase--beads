@@ -29,4 +29,10 @@ planner_chat_trial: compare paired coder handoffs with and without coder_inherit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ru.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.4/README.md) | [sase-ru.4](sase-ru.4.md) | 0 |
+| [bbugyi200.athena.sase-ru.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ru.4/README.md) | [sase-ru.4](sase-ru.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--plans | [`sase--plans@661460d`](https://github.com/sase-org/sase--plans/commit/661460d5bd91ec44d7fe7d820476b98e7e60c000) | docs(plan): link planner-chat trial evidence to the flag closeout plan | [sase-ru.4](sase-ru.4.md) | 2026-08-21 11:07:36 EDT |
