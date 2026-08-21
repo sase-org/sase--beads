@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / sase-rl
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08v](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08v.md) · **Assignee:** `sase-rl.land`
-**Created:** 2026-08-20 14:37:46 EDT
+**Created:** 2026-08-20 14:37:46 EDT · **Closed:** 2026-08-21 07:25:40 EDT
 **Plan:** [202608/targeted\_mini\_xprompt.md](https://github.com/sase-org/sase--plans/blob/main/202608/targeted_mini_xprompt.md)
 
 ## Description
 
 Users can create or edit one non-swarm xprompt in a focused, pane-scoped ACE workflow, while whole-stack saves, frontmatter-local helpers, and existing targeted-xprompt behavior remain clear, safe, and visually distinct.
+
+## Notes
+
+[2026-08-21T11:25:40Z · sase-rl.land] Implemented approved mini-xprompt landing gaps. Verified just install, focused mini/docs/help suites, and commits-pane helper tests passed; final just check passed formatting, ruff, and mypy, then stopped on pre-existing patch/stitch terminology audit already routed to active epic sase-rm.
 
 ## Phases
 
@@ -24,7 +28,7 @@ Users can create or edit one non-swarm xprompt in a focused, pane-scoped ACE wor
 
 ```mermaid
 flowchart TD
-    n0["sase-rl: Targeted mini-xprompt authoring in the ACE prompt stack [in_progress]"]
+    n0["sase-rl: Targeted mini-xprompt authoring in the ACE prompt stack [closed]"]
     n1["sase-rl.1: Mini-xprompt target catalog and name panel [closed]"]
     n2["sase-rl.2: Pane-scoped mini-xprompt editing lifecycle [closed]"]
     n3["sase-rl.3: Conflict-safe mini-xprompt saves and live publication [closed]"]
@@ -46,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.2/README.md) | [sase-rl.2](sase-rl.2.md) | 1 |
 | [bbugyi200.athena.sase-rl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.3/README.md) | [sase-rl.3](sase-rl.3.md) | 1 |
 | [bbugyi200.athena.sase-rl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.4/README.md) | [sase-rl.4](sase-rl.4.md) | 1 |
-| [bbugyi200.athena.sase-rl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rl.land/README.md) | [sase-rl](README.md) | 0 |
+| [bbugyi200.athena.sase-rl.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rl.land.md) | [sase-rl](README.md) | 1 |
 
 ## Commits
 
@@ -56,3 +60,4 @@ flowchart TD
 | sase | [`dac3655`](https://github.com/sase-org/sase/commit/dac3655f3af39869019f591279ddae828e81725c) | feat(tui): add mini-xprompt pane lifecycle | [sase-rl.2](sase-rl.2.md) | 2026-08-21 05:47:03 EDT |
 | sase | [`e31fef7`](https://github.com/sase-org/sase/commit/e31fef74460a9bcf58ed3c182ec81294351bbdcf) | feat(tui): persist mini-xprompt saves safely | [sase-rl.3](sase-rl.3.md) | 2026-08-21 06:15:32 EDT |
 | sase | [`996ebea`](https://github.com/sase-org/sase/commit/996ebeaa61e179d1693b5b0b991cdb8422a13fbe) | feat(ace)!: migrate prompt-local xprompt keymap | [sase-rl.4](sase-rl.4.md) | 2026-08-21 06:51:22 EDT |
+| sase | [`c1dabb1`](https://github.com/sase-org/sase/commit/c1dabb1b5154109bff5ca3c8397a6685b6886656) | fix(ace): harden mini-xprompt save targets | [sase-rl](README.md) | 2026-08-21 07:26:45 EDT |
