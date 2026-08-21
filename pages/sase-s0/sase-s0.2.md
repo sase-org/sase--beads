@@ -24,7 +24,7 @@ host_prompt_experience: derive cached completion rows from effective finalizer c
 ## Dependencies
 
 - **Depends on:** [sase-s0.1](sase-s0.1.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-s0.3](sase-s0.3.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-s0.3](sase-s0.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
