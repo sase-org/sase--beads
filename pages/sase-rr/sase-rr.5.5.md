@@ -30,10 +30,11 @@ integrity-acceptance: exercise every confirmed integrity failure through focused
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 1 |
+| [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`47830f9`](https://github.com/sase-org/sase/commit/47830f9dedcf9e44601499d6e901a979970213e9) | test(finalizer): align final directive completion expectation | [sase-rr.5.5](sase-rr.5.5.md) | 2026-08-21 23:07:31 UTC |
+| sase-core | [`sase-core@f7e8247`](https://github.com/sase-org/sase-core/commit/f7e8247d95a5dc63e244a1fb0ca3a97d61871503) | fix(finalizer): hide final directive name completion | [sase-rr.5.5](sase-rr.5.5.md) | 2026-08-21 23:09:27 UTC |
