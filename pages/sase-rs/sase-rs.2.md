@@ -13,11 +13,17 @@ floor: wait for the core release, raise sase's sase-core-rs dependency floor, re
 
 ## Dependencies
 
-- **Depends on:** [sase-rs.1](sase-rs.1.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rs.1](sase-rs.1.md) ✓ · ⧖ 2026-08-21
 - **Blocks:** [sase-rs.3](sase-rs.3.md) ◐ · ⧖ 2026-08-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.2/README.md) | [sase-rs.2](sase-rs.2.md) | 0 |
+| [bbugyi200.athena.sase-rs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.2/README.md) | [sase-rs.2](sase-rs.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@e5181a6`](https://github.com/sase-org/sase-core/commit/e5181a69d20f904f63499387623b6097ad39b80e) | fix(clippy): use Option::unwrap\_or in pull-request URL parser | [sase-rs.2](sase-rs.2.md) | 2026-08-21 10:56:37 EDT |

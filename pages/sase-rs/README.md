@@ -15,8 +15,8 @@ Users can inspect and persistently enable or disable every registered SASE featu
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-rs.1](sase-rs.1.md) | Rust feature-flag preference store and bindings | ◐ in_progress | medium | 2026-08-21 | 1 | 1 |
-| [sase-rs.2](sase-rs.2.md) | Adopt the released core binding floor | ◐ in_progress | small | 2026-08-21 | 1 | 0 |
+| [sase-rs.1](sase-rs.1.md) | Rust feature-flag preference store and bindings | ✓ closed | medium | 2026-08-21 | 1 | 1 |
+| [sase-rs.2](sase-rs.2.md) | Adopt the released core binding floor | ◐ in_progress | small | 2026-08-21 | 1 | 1 |
 | [sase-rs.3](sase-rs.3.md) | Shared Python resolution and mutation facade | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
 | [sase-rs.4](sase-rs.4.md) | Persistent flag enable and disable commands | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
 | [sase-rs.5](sase-rs.5.md) | Beautiful Config Flags pane and controlled restart flow | ◐ in_progress | medium | 2026-08-21 | 1 | 0 |
@@ -27,7 +27,7 @@ Users can inspect and persistently enable or disable every registered SASE featu
 ```mermaid
 flowchart TD
     n0["sase-rs: Durable feature-flag controls in the SASE Admin Center [in_progress]"]
-    n1["sase-rs.1: Rust feature-flag preference store and bindings [in_progress]"]
+    n1["sase-rs.1: Rust feature-flag preference store and bindings [closed]"]
     n2["sase-rs.2: Adopt the released core binding floor [in_progress]"]
     n3["sase-rs.3: Shared Python resolution and mutation facade [in_progress]"]
     n4["sase-rs.4: Persistent flag enable and disable commands [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rs.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.1/README.md) | [sase-rs.1](sase-rs.1.md) | 1 |
-| [bbugyi200.athena.sase-rs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.2/README.md) | [sase-rs.2](sase-rs.2.md) | 0 |
+| [bbugyi200.athena.sase-rs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.2/README.md) | [sase-rs.2](sase-rs.2.md) | 1 |
 | [bbugyi200.athena.sase-rs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.3/README.md) | [sase-rs.3](sase-rs.3.md) | 0 |
 | [bbugyi200.athena.sase-rs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.4/README.md) | [sase-rs.4](sase-rs.4.md) | 0 |
 | [bbugyi200.athena.sase-rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rs.5/README.md) | [sase-rs.5](sase-rs.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c04a219`](https://github.com/sase-org/sase-core/commit/c04a2192392cd0226baa68d83db17f2e148be9b2) | feat(core): add versioned feature-flag preference store | [sase-rs.1](sase-rs.1.md) | 2026-08-21 10:35:08 EDT |
+| sase-core | [`sase-core@e5181a6`](https://github.com/sase-org/sase-core/commit/e5181a69d20f904f63499387623b6097ad39b80e) | fix(clippy): use Option::unwrap\_or in pull-request URL parser | [sase-rs.2](sase-rs.2.md) | 2026-08-21 10:56:37 EDT |
