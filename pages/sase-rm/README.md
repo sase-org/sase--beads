@@ -29,7 +29,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 | [sase-rm.2](sase-rm.2.md) | Unify completion architecture and fast repository catalogs | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.3](sase-rm.3.md) | Reconcile memory, plan publication, and flag policy contracts | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ✓ closed | large | 2026-08-20 | 1 | 1 |
-| [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ✓ closed | large | 2026-08-20 | 1 | 1 |
+| [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.6](sase-rm.6.md) | Repair documentation, build guards, deleted imports, and plugin-isolated tests | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.7](sase-rm.7.md) | Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.8](sase-rm.8.md) | Finish responsive ACE layout and selected-detail coverage | ✓ closed | medium | 2026-08-20 | 1 | 1 |
@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 2 |
 | [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
 | [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
-| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 1 |
+| [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.5.md) | [sase-rm.5](sase-rm.5.md) | 2 |
 | [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.6/README.md) | [sase-rm.6](sase-rm.6.md) | 1 |
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
 | [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 1 |
@@ -116,3 +116,4 @@ flowchart TD
 | sase-core | [`sase-core@427d57e`](https://github.com/sase-org/sase-core/commit/427d57e743d02eafbd39388bdba0a35d1966c370) | feat(completion): share model filtering with bindings and LSP | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:50:41 EDT |
 | sase | [`b8559f3`](https://github.com/sase-org/sase/commit/b8559f36f00a3f46c0ee0ce7343dc50735275900) | fix(ace): stabilize async teardown and interaction waits | [sase-rm.10](sase-rm.10.md) | 2026-08-21 06:47:03 EDT |
 | sase | [`abb80f4`](https://github.com/sase-org/sase/commit/abb80f44ac78e3ddadb3d8708613dfa144dd74e8) | feat(completion): support managed shell distribution | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:14:47 EDT |
+| chezmoi | [`chezmoi@eaf6cd4`](https://github.com/bbugyi200/dotfiles/commit/eaf6cd45c1e695f1e9ab88113032c53860aeecf0) | feat(shell): add managed SASE completions | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:15:42 EDT |
