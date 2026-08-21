@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-rm
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08u](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08u.md) · **Assignee:** `sase-rm.land`
-**Created:** 2026-08-20 14:47:46 EDT
+**Created:** 2026-08-20 14:47:46 EDT · **Closed:** 2026-08-21 13:19:46 EDT
 **Plan:** [202608/task\_backlog\_closeout.md](https://github.com/sase-org/sase--plans/blob/main/202608/task_backlog_closeout.md)
 
 ## Description
@@ -39,7 +39,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 
 [2026-08-21T14:25:58Z · sase-ri.land.w2.f2.w2] DISCOVERED ISSUE: During prefixed_glossary_memory_links implementation verification on 2026-08-21 at HEAD e9d3521f4, just check passed fmt, markdown, keep-sorted, Ruff, mypy, feature flags, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed lint (symvision) on the same private-import set already recorded here: _ProcProducerSite/_site, commit_finalizer auto-commit/cleanup helpers, finalizers.declaration load/normalize/validate helpers, and _result_changed_files. The current diff only touches Glossary/Memory numbered-link prefix dispatch, chip labels, docs, tests, and populated PNG goldens; it does not touch proc-producer, commit_finalizer, or finalizers.declara
 
-… and 1579 more characters
+… and 2604 more characters
 
 ## Phases
 
@@ -63,7 +63,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 
 ```mermaid
 flowchart TD
-    n0["sase-rm: Close the actionable SASE task backlog [in_progress]"]
+    n0["sase-rm: Close the actionable SASE task backlog [closed]"]
     n1["sase-rm.1: Repair core storage, wire, and concurrent bead identity defects [closed]"]
     n2["sase-rm.10: Stabilize remaining ACE lifecycle and interaction flakes [closed]"]
     n3["sase-rm.11: Stabilize monitor, process, runner-slot, suite-gate, and runner isolation [closed]"]
@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
 | [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 1 |
 | [bbugyi200.athena.sase-rm.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.9.md) | [sase-rm.9](sase-rm.9.md) | 1 |
-| [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.land/README.md) | [sase-rm](README.md) | 0 |
+| [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.land/README.md) | [sase-rm](README.md) | 1 |
 
 ## Commits
 
@@ -142,3 +142,4 @@ flowchart TD
 | sase | [`abb80f4`](https://github.com/sase-org/sase/commit/abb80f44ac78e3ddadb3d8708613dfa144dd74e8) | feat(completion): support managed shell distribution | [sase-rm.5](sase-rm.5.md) | 2026-08-21 07:14:47 EDT |
 | sase-core | [`sase-core@1f0d236`](https://github.com/sase-org/sase-core/commit/1f0d236f940f8cde852e3de55679e8185c591c34) | fix(editor): hide final directive from name completions | [sase-rm.13](sase-rm.13.md) | 2026-08-21 12:31:34 EDT |
 | sase | [`72f93fb`](https://github.com/sase-org/sase/commit/72f93fb1fb3917c39f1859650b87ac33b6d80847) | fix: stabilize visual closeout and verification gates | [sase-rm.13](sase-rm.13.md) | 2026-08-21 12:42:29 EDT |
+| sase | [`bcb7411`](https://github.com/sase-org/sase/commit/bcb7411aca13ba9a607762f290430dd7df005108) | fix(finalizers): complete public API cleanup | [sase-rm](README.md) | 2026-08-21 13:20:36 EDT |
