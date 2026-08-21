@@ -21,4 +21,4 @@ ace_async: root-cause and fix the tracked Models, Vim, plugin-modal, startup-wor
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.10/README.md) | [sase-rm.10](sase-rm.10.md) | 0 |
+| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.10.md) | [sase-rm.10](sase-rm.10.md) | 0 |

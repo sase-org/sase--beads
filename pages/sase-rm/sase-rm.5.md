@@ -13,7 +13,7 @@ shell_distribution: stabilize completion latency tests and live zsh verification
 
 ## Dependencies
 
-- **Depends on:** [sase-rm.2](sase-rm.2.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rm.2](sase-rm.2.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

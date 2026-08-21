@@ -20,7 +20,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 | [sase-rm.11](sase-rm.11.md) | Stabilize monitor, process, runner-slot, suite-gate, and runner isolation | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.12](sase-rm.12.md) | Make cache, snapshot, and fixed-flake accounting deterministic | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.13](sase-rm.13.md) | Fix visual convergence and clear the standing PNG backlog | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
-| [sase-rm.2](sase-rm.2.md) | Unify completion architecture and fast repository catalogs | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
+| [sase-rm.2](sase-rm.2.md) | Unify completion architecture and fast repository catalogs | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.3](sase-rm.3.md) | Reconcile memory, plan publication, and flag policy contracts | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
@@ -39,7 +39,7 @@ flowchart TD
     n3["sase-rm.11: Stabilize monitor, process, runner-slot, suite-gate, and runner isolation [closed]"]
     n4["sase-rm.12: Make cache, snapshot, and fixed-flake accounting deterministic [closed]"]
     n5["sase-rm.13: Fix visual convergence and clear the standing PNG backlog [in_progress]"]
-    n6["sase-rm.2: Unify completion architecture and fast repository catalogs [in_progress]"]
+    n6["sase-rm.2: Unify completion architecture and fast repository catalogs [closed]"]
     n7["sase-rm.3: Reconcile memory, plan publication, and flag policy contracts [closed]"]
     n8["sase-rm.4: Make research publication and family handoffs collision-safe [closed]"]
     n9["sase-rm.5: Finish shell completion measurement, inline references, and deployment [in_progress]"]
@@ -77,11 +77,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-rm.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.1.md) | [sase-rm.1](sase-rm.1.md) | 2 |
-| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.10/README.md) | [sase-rm.10](sase-rm.10.md) | 0 |
+| [bbugyi200.athena.sase-rm.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.10.md) | [sase-rm.10](sase-rm.10.md) | 0 |
 | [bbugyi200.athena.sase-rm.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.11.md) | [sase-rm.11](sase-rm.11.md) | 1 |
 | [bbugyi200.athena.sase-rm.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.12/README.md) | [sase-rm.12](sase-rm.12.md) | 1 |
 | [bbugyi200.athena.sase-rm.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.13/README.md) | [sase-rm.13](sase-rm.13.md) | 0 |
-| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 0 |
+| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 1 |
 | [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
 | [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
 | [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
@@ -106,3 +106,4 @@ flowchart TD
 | sase | [`96257e1`](https://github.com/sase-org/sase/commit/96257e1fb34f28f3f28e5b42ce815b056211f92a) | fix(test): make cache and flake accounting deterministic | [sase-rm.12](sase-rm.12.md) | 2026-08-21 05:27:46 EDT |
 | sase | [`b76f53b`](https://github.com/sase-org/sase/commit/b76f53b998e3f208d339253a9ca7538469cb987a) | fix: repair guardrails for provider docs and proc imports | [sase-rm.6](sase-rm.6.md) | 2026-08-21 05:28:24 EDT |
 | sase | [`671d27c`](https://github.com/sase-org/sase/commit/671d27c899d75bb610b0eae5648e2faf2db1b312) | fix(ace): stabilize responsive pane layout | [sase-rm.8](sase-rm.8.md) | 2026-08-21 05:35:06 EDT |
+| sase | [`4a3e691`](https://github.com/sase-org/sase/commit/4a3e691964b6715a8698cce29fd5a16d55d50acc) | feat(completion): add inventory and snippet candidate providers | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:48:40 EDT |

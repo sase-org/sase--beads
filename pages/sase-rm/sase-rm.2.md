@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-rm](README.md) / sase-rm.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08u](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08u.md) · **Assignee:** `sase-rm.2` · **Size:** large
-**Created:** 2026-08-20 14:47:49 EDT
+**Created:** 2026-08-20 14:47:49 EDT · **Closed:** 2026-08-21 05:47:30 EDT
 **Plan:** [202608/task\_backlog\_closeout.md](https://github.com/sase-org/sase--plans/blob/main/202608/task_backlog_closeout.md)
 
 ## Description
@@ -57,6 +57,25 @@ Checks: snippet candidate tests (projection, native CWD/overrides, cache refresh
 
 PROPOSED FOLLOW-UP: `tests/test_suite_gate_reclaim.py::test_fresh_heartbeat_is_not_reclaimed` failed once during an escalated full-suite run with a worker-token timeout (`Timed out waiting for a SASE pytest worker-token grant`). A later isolated run of unrelated tests passed; treat as gate contention, not a product regression from this phase.
 
+[2026-08-21T09:45:24Z · sase-rm.2] RECOVERY EVIDENCE UPDATE (2026-08-21) for sase-m1 / sase-ou / sase-ov / sase-re:
+
+Implemented in this recovery pass:
+- sase-m1: `%model` filtering now has a shared Rust core implementation in `crates/sase_core/src/model_completion.rs`, a strict PyO3 `filter_model_completion_entries` bridge, Python wire serialization in `src/sase/xprompt/model_completion.py`, and LSP routing through `filter_model_completion_candidates` while preserving LSP detail/docs/filter_text rendering.
+- sase-ou: `sase.core`, `sase.sdd`, and `sase.workspace_provider` package facades now use the shared PEP 562 helper `src/sase/_lazy_exports.py` with explicit symbol-to-leaf maps, TYPE_CHECKING imports, `dir()` support, and cached attributes; subprocess import-contract coverage is in `tests/test_lazy_facades.py`.
+- sase-ov: repo completion now projects `collect_repo_inventory().records` through `repo_display_name(record)` and `{kind} · {project}` descriptions, preserving deterministic dedupe and project scoping without materializing repos. Manual probe: `sase completion candidates repo -p sase` lists primary, sidecar, linked, and external rows.
+- sase-re: `sase_core_rs.load_editor_snippet_catalog(project=None, root_dir=None)` exposes the Rust snippet catalog, and `ValueKind.SNIPPET` is attached only to `sase snippet show/delete` trigger positionals. `src/sase/completion/candidates/catalog_snippets.py` provides the lazy fast-path projection and degrades malformed/native errors to no candidates. Manual probe: `sase completion candidates snippet` returns effective triggers and generated aliases.
+
+Generated/docs updated: `tests/completion/snapshots/cli_spec.json` adds shipped kind `snippet` and marks only show/delete trigger positionals; `docs/completion.md` documents repo inventory and snippet trigger sources.
+
+Verification completed:
+- `just install` rebuilt/installed the linked `sase_core_rs` bridge.
+- Linked core: `cargo fmt --check`; `cargo test -p sase_core model_completion --lib`; `cargo test -p sase_core_py filter_model_completion_entries_binding --lib`; `cargo test -p sase_core_py load_editor_snippet_catalog_binding --lib`; `cargo test -p sase_xprompt_lsp leading_at_filters_model_completion_to_aliases --lib`; full linked-core `just check` passed.
+- Primary focused suite: `.venv/bin/pytest tests/test_xprompt_model_completion_filtering.py tests/test_xprompt_model_completion_payload.py tests/completion/test_candidates_providers.py tests/completion/test_kinds.py tests/test_lazy_facades.py tests/main/test_completion_candidates_contract.py tests/completion/test_snapshot.py` passed (71 tests).
+
+Not closed: primary `just check` is blocked by an unrelated pre-existing feature-flag lifecycle failure: rule 7 reports closed flag bead `sase-rk` still has surviving definition `admin_center_config_hub`. That cleanup is broader than this completion recovery and should not be folded into this phase without explicit direction.
+
+[2026-08-21T09:47:30Z · sase-rm.2] Implemented completion architecture recovery: Rust shared %model filtering bridged to Python/LSP, lazy facades, inventory-backed repo completions, Rust snippet completions, docs/snapshot/tests updated. Verified linked sase-core just check passed; primary focused Python suite passed; primary just check still failed on unrelated stale closed flag bead sase-rk/admin_center_config_hub.
+
 ## Dependencies
 
 - **Blocks:** [sase-rm.5](sase-rm.5.md) ◐ · ⧖ 2026-08-20
@@ -65,4 +84,10 @@ PROPOSED FOLLOW-UP: `tests/test_suite_gate_reclaim.py::test_fresh_heartbeat_is_n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 0 |
+| [bbugyi200.athena.sase-rm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.2.md) | [sase-rm.2](sase-rm.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4a3e691`](https://github.com/sase-org/sase/commit/4a3e691964b6715a8698cce29fd5a16d55d50acc) | feat(completion): add inventory and snippet candidate providers | [sase-rm.2](sase-rm.2.md) | 2026-08-21 05:48:40 EDT |
