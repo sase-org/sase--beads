@@ -19,7 +19,7 @@ core: add a versioned, locked, atomic machine-state store for persistent feature
 
 ## Dependencies
 
-- **Blocks:** [sase-rs.2](sase-rs.2.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rs.2](sase-rs.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

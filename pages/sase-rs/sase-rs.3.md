@@ -13,7 +13,7 @@ runtime: add the thin typed Python adapter, insert saved machine preferences int
 
 ## Dependencies
 
-- **Depends on:** [sase-rs.2](sase-rs.2.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rs.2](sase-rs.2.md) ✓ · ⧖ 2026-08-21
 - **Blocks:** [sase-rs.4](sase-rs.4.md) ◐ · ⧖ 2026-08-21
 - **Blocks:** [sase-rs.5](sase-rs.5.md) ◐ · ⧖ 2026-08-21
 
