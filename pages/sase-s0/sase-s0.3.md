@@ -26,10 +26,11 @@ surface_parity: reveal %final only after both clients are complete, then lock be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.3/README.md) | [sase-s0.3](sase-s0.3.md) | 1 |
+| [bbugyi200.athena.sase-s0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.3/README.md) | [sase-s0.3](sase-s0.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f618be6`](https://github.com/sase-org/sase/commit/f618be6a809dc0f13a62a2a0e8fba8ac26adc2af) | feat(completion): expose final directive completions | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:11:28 UTC |
+| sase-core | [`sase-core@eca4d68`](https://github.com/sase-org/sase-core/commit/eca4d688a8efd66fdec512499d31c838aa294699) | feat(editor): expose final directive completion | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:13:56 UTC |

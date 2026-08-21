@@ -17,7 +17,7 @@ The %final directive is easy to discover and safely completes configured finaliz
 |---|---|---|---|---|---:|---:|
 | [sase-s0.1](sase-s0.1.md) | Shared finalizer completion and LSP contract | ✓ closed | medium | 2026-08-21 | 1 | 1 |
 | [sase-s0.2](sase-s0.2.md) | Host catalog and ACE prompt experience | ✓ closed | medium | 2026-08-21 | 1 | 1 |
-| [sase-s0.3](sase-s0.3.md) | Public exposure, parity, and release verification | ✓ closed | small | 2026-08-21 | 1 | 1 |
+| [sase-s0.3](sase-s0.3.md) | Public exposure, parity, and release verification | ✓ closed | small | 2026-08-21 | 1 | 2 |
 
 ## Lineage
 
@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-s0.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.1/README.md) | [sase-s0.1](sase-s0.1.md) | 1 |
 | [bbugyi200.athena.sase-s0.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.2/README.md) | [sase-s0.2](sase-s0.2.md) | 1 |
-| [bbugyi200.athena.sase-s0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.3/README.md) | [sase-s0.3](sase-s0.3.md) | 1 |
+| [bbugyi200.athena.sase-s0.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.3/README.md) | [sase-s0.3](sase-s0.3.md) | 2 |
 | [bbugyi200.athena.sase-s0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s0.land/README.md) | [sase-s0](README.md) | 0 |
 
 ## Commits
@@ -51,3 +51,4 @@ flowchart TD
 | sase-core | [`sase-core@0ec9bbe`](https://github.com/sase-org/sase-core/commit/0ec9bbe6b74024c454953d0deb7d4ebd5410cecf) | feat(editor): add finalizer catalog completion and LSP contract | [sase-s0.1](sase-s0.1.md) | 2026-08-21 20:57:47 UTC |
 | sase | [`f88c9ed`](https://github.com/sase-org/sase/commit/f88c9eded9ea9b6395415d27ecd4a9babb5c970c) | feat(completion): add host %final catalog and ACE argument completion | [sase-s0.2](sase-s0.2.md) | 2026-08-21 21:46:53 UTC |
 | sase | [`f618be6`](https://github.com/sase-org/sase/commit/f618be6a809dc0f13a62a2a0e8fba8ac26adc2af) | feat(completion): expose final directive completions | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:11:28 UTC |
+| sase-core | [`sase-core@eca4d68`](https://github.com/sase-org/sase-core/commit/eca4d688a8efd66fdec512499d31c838aa294699) | feat(editor): expose final directive completion | [sase-s0.3](sase-s0.3.md) | 2026-08-21 22:13:56 UTC |
