@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ri.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ri.3.md) | [sase-ri.3](sase-ri.3.md) | 1 |
 | [bbugyi200.athena.sase-ri.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ri.4/README.md) | [sase-ri.4](sase-ri.4.md) | 1 |
 | [bbugyi200.athena.sase-ri.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ri.5/README.md) | [sase-ri.5](sase-ri.5.md) | 1 |
-| [bbugyi200.athena.sase-ri.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ri.land/README.md) | [sase-ri](README.md) | 0 |
+| [bbugyi200.athena.sase-ri.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ri.land/README.md) | [sase-ri](README.md) | 1 |
 
 ## Commits
 
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`4daa8b0`](https://github.com/sase-org/sase/commit/4daa8b019b775a04dfd1c8a81ca68d4d4b980c2c) | refactor(ace): extract Memory catalog into a reusable pane | [sase-ri.2](sase-ri.2.md) | 2026-08-20 13:39:15 EDT |
 | sase | [`1382a43`](https://github.com/sase-org/sase/commit/1382a43d8c5fedeb5d09b95df089c692a3e6cbcc) | feat(ace): nest Admin Center config tools behind a beta flag | [sase-ri.4](sase-ri.4.md) | 2026-08-20 15:09:49 EDT |
 | sase | [`29c5372`](https://github.com/sase-org/sase/commit/29c5372062808403edcf14f87cfd9093699122d9) | feat!: make Admin Center ConfigHub unconditional | [sase-ri.5](sase-ri.5.md) | 2026-08-21 05:54:26 EDT |
+| sase | [`b8565c5`](https://github.com/sase-org/sase/commit/b8565c5d64015cf4b0738954abb2a8492d83a6bb) | test(ace): refresh Config Hub visual snapshots | [sase-ri](README.md) | 2026-08-21 06:11:04 EDT |
