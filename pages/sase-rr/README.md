@@ -35,6 +35,8 @@ Make host-owned pluggable finalization unconditional, remove the deprecated Off 
 
 [2026-08-21T21:33:04Z · 0a6--1] DISCOVERED ISSUE: During fix_publish_release_metadata verification on 2026-08-21, 'just check' failed at lint (feature flags) after fmt, ruff, and mypy passed. Exact failure: tools/check_feature_flags rule 8 reports live flag bead 'sase-ro' has no definition (key 'pluggable_finalizers'); the bead was created 2026-08-20T21:30:24Z by sase-rn.3. The local diff only touches tools/ratchet_core_window, .github/workflows/publish.yml, and their tests, so this is unrelated to release metadata reconciliation. Not routed to closed task sase-pp because that task fixed the young cross-workspace orphan-bead window; this pluggable_finalizers bead is now the flag bead this epic description explicitly owns closing after the combined tree is green. The finalizer closeout should restore a valid registry state or close sase-ro before relying on just check as green.
 
+[2026-08-21T22:25:05Z · sase-s0.land] DISCOVERED ISSUE corroboration from epic sase-s0 phases sase-s0.2 and sase-s0.3: both independently hit tools/check_feature_flags rule 8 because live flag bead sase-ro names pluggable_finalizers after its registry definition/Off branch were removed. No standalone task created: this is explicitly owned by active epic sase-rr and is already recorded in its notes; close sase-ro as part of that epic's combined green-tree landing.
+
 ## References
 
 - file:explicit:4ac14f733cd4c83b0ca56786
@@ -62,7 +64,7 @@ flowchart TD
     n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
     n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [closed]"]
     n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [closed]"]
-    n10["sase-rr.5.5: Run combined adversarial integrity acceptance [in_progress]"]
+    n10["sase-rr.5.5: Run combined adversarial integrity acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 2 |
 | [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 1 |
-| [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.land/README.md) | [sase-rr.5](sase-rr.5.md) | 0 |
 | [bbugyi200.athena.sase-rr.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rr.land.md) | [sase-rr](README.md) | 0 |
 
@@ -113,3 +115,4 @@ flowchart TD
 | sase | [`c2f46e8`](https://github.com/sase-org/sase/commit/c2f46e84e87edcd9994b4b8bde494099652b1941) | fix(finalizers): serialize declaration accept and host-order commits | [sase-rr.5.4](sase-rr.5.4.md) | 2026-08-21 22:15:21 UTC |
 | sase | [`6639a28`](https://github.com/sase-org/sase/commit/6639a28016163be274ace52c293bd7aeebfb8470) | feat(finalizers): enforce bounded attempts and immutable evidence | [sase-rr.5.3](sase-rr.5.3.md) | 2026-08-21 22:22:29 UTC |
 | sase-core | [`sase-core@fee049e`](https://github.com/sase-org/sase-core/commit/fee049e54580fe256070c400f693a4a4d67129e3) | feat(finalizer): validate unique increasing attempt ledgers | [sase-rr.5.3](sase-rr.5.3.md) | 2026-08-21 22:23:27 UTC |
+| sase | [`47830f9`](https://github.com/sase-org/sase/commit/47830f9dedcf9e44601499d6e901a979970213e9) | test(finalizer): align final directive completion expectation | [sase-rr.5.5](sase-rr.5.5.md) | 2026-08-21 23:07:31 UTC |

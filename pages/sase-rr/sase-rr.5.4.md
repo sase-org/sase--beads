@@ -26,7 +26,7 @@ deterministic-reconcile: serialize context publication with submission acceptanc
 ## Dependencies
 
 - **Depends on:** [sase-rr.5.1](sase-rr.5.1.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rr.5.5](sase-rr.5.5.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.5.5](sase-rr.5.5.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 

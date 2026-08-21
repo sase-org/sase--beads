@@ -27,7 +27,7 @@ execution-ledger: centralize whole-instance attempt, status, output, timeout, an
 
 - **Depends on:** [sase-rr.5.1](sase-rr.5.1.md) ✓ · ⧖ 2026-08-21
 - **Depends on:** [sase-rr.5.2](sase-rr.5.2.md) ✓ · ⧖ 2026-08-21
-- **Blocks:** [sase-rr.5.5](sase-rr.5.5.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.5.5](sase-rr.5.5.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
