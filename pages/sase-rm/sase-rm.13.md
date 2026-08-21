@@ -23,4 +23,4 @@ visual_closeout: fix every mechanism-owned visual failure first, inspect each re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.13/README.md) | [sase-rm.13](sase-rm.13.md) | 0 |
+| [bbugyi200.athena.sase-rm.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.13.md) | [sase-rm.13](sase-rm.13.md) | 0 |

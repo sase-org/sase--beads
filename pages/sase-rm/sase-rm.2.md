@@ -78,7 +78,7 @@ Not closed: primary `just check` is blocked by an unrelated pre-existing feature
 
 ## Dependencies
 
-- **Blocks:** [sase-rm.5](sase-rm.5.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-rm.5](sase-rm.5.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
