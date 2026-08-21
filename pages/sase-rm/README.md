@@ -24,9 +24,9 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 | [sase-rm.3](sase-rm.3.md) | Reconcile memory, plan publication, and flag policy contracts | ✓ closed | large | 2026-08-20 | 1 | 2 |
 | [sase-rm.4](sase-rm.4.md) | Make research publication and family handoffs collision-safe | ✓ closed | large | 2026-08-20 | 1 | 1 |
 | [sase-rm.5](sase-rm.5.md) | Finish shell completion measurement, inline references, and deployment | ◐ in_progress | large | 2026-08-20 | 1 | 0 |
-| [sase-rm.6](sase-rm.6.md) | Repair documentation, build guards, deleted imports, and plugin-isolated tests | ✓ closed | medium | 2026-08-20 | 1 | 0 |
+| [sase-rm.6](sase-rm.6.md) | Repair documentation, build guards, deleted imports, and plugin-isolated tests | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.7](sase-rm.7.md) | Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior | ✓ closed | medium | 2026-08-20 | 1 | 1 |
-| [sase-rm.8](sase-rm.8.md) | Finish responsive ACE layout and selected-detail coverage | ◐ in_progress | medium | 2026-08-20 | 1 | 0 |
+| [sase-rm.8](sase-rm.8.md) | Finish responsive ACE layout and selected-detail coverage | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 | [sase-rm.9](sase-rm.9.md) | Eliminate snippet-name modal settle flakes | ✓ closed | medium | 2026-08-20 | 1 | 1 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n9["sase-rm.5: Finish shell completion measurement, inline references, and deployment [in_progress]"]
     n10["sase-rm.6: Repair documentation, build guards, deleted imports, and plugin-isolated tests [closed]"]
     n11["sase-rm.7: Restore ACE actions, navigation, bulk launch, replay, and kill-edit behavior [closed]"]
-    n12["sase-rm.8: Finish responsive ACE layout and selected-detail coverage [in_progress]"]
+    n12["sase-rm.8: Finish responsive ACE layout and selected-detail coverage [closed]"]
     n13["sase-rm.9: Eliminate snippet-name modal settle flakes [closed]"]
     n0 --> n1
     n0 --> n2
@@ -85,9 +85,9 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.3.md) | [sase-rm.3](sase-rm.3.md) | 2 |
 | [bbugyi200.athena.sase-rm.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.4.md) | [sase-rm.4](sase-rm.4.md) | 1 |
 | [bbugyi200.athena.sase-rm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.5/README.md) | [sase-rm.5](sase-rm.5.md) | 0 |
-| [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.6.md) | [sase-rm.6](sase-rm.6.md) | 0 |
+| [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.6/README.md) | [sase-rm.6](sase-rm.6.md) | 1 |
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
-| [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 0 |
+| [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 1 |
 | [bbugyi200.athena.sase-rm.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.9.md) | [sase-rm.9](sase-rm.9.md) | 1 |
 | [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.land/README.md) | [sase-rm](README.md) | 0 |
 
@@ -104,3 +104,5 @@ flowchart TD
 | sase | [`891cf60`](https://github.com/sase-org/sase/commit/891cf604f38cd4b308245210df6443dd46d60160) | fix: propagate core storage repair outcomes | [sase-rm.1](sase-rm.1.md) | 2026-08-20 16:49:36 EDT |
 | sase | [`982ad29`](https://github.com/sase-org/sase/commit/982ad299ee6a81eec30f496b303b4ff0a29eb15b) | fix: make successor handoffs collision-safe | [sase-rm.4](sase-rm.4.md) | 2026-08-20 17:07:14 EDT |
 | sase | [`96257e1`](https://github.com/sase-org/sase/commit/96257e1fb34f28f3f28e5b42ce815b056211f92a) | fix(test): make cache and flake accounting deterministic | [sase-rm.12](sase-rm.12.md) | 2026-08-21 05:27:46 EDT |
+| sase | [`b76f53b`](https://github.com/sase-org/sase/commit/b76f53b998e3f208d339253a9ca7538469cb987a) | fix: repair guardrails for provider docs and proc imports | [sase-rm.6](sase-rm.6.md) | 2026-08-21 05:28:24 EDT |
+| sase | [`671d27c`](https://github.com/sase-org/sase/commit/671d27c899d75bb610b0eae5648e2faf2db1b312) | fix(ace): stabilize responsive pane layout | [sase-rm.8](sase-rm.8.md) | 2026-08-21 05:35:06 EDT |

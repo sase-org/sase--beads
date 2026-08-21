@@ -15,7 +15,7 @@ ace_async: root-cause and fix the tracked Models, Vim, plugin-modal, startup-wor
 
 - **Blocks:** [sase-rm.13](sase-rm.13.md) ◐ · ⧖ 2026-08-20
 - **Depends on:** [sase-rm.7](sase-rm.7.md) ✓ · ⧖ 2026-08-20
-- **Depends on:** [sase-rm.8](sase-rm.8.md) ◐ · ⧖ 2026-08-20
+- **Depends on:** [sase-rm.8](sase-rm.8.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 

@@ -41,8 +41,16 @@ guardrail_cleanup: close the confirmed documentation gaps and make build, scoped
 
 [2026-08-21T09:25:43Z · sase-rm.6] Verified guardrail_cleanup implementation: docs/getting_started.md separates Muse/Grok PATH autodetect from Grok alias-pool routing, docs/xprompt.md has source-matched bundled skill rows for sase_final, sase_monitor, and sase_new_task plus split Muse/Grok model comments, and docs drift tests passed. Justfile stale-core refresh is one-shell and rust-install/rust-dev-install skip refresh when SASE_ALLOW_STALE_CORE=1; focused Justfile tests passed. Deleted proc_queue imports in tests now use ObservedProc or tests/ace/tui/_compat_proc_queue.py; deleted-module AST/import guard, direct helper imports, collect-only for tests/test_agent_dismiss_persistence.py, and tests/ace/tui/test_agent_cleanup_procs.py passed. Doctor config repo tests use an isolated empty artifact-provider registry and pass 19/19 with SASE_DISABLE_PLUGINS unset and set. just fmt passed; git diff --check passed; sase bead epic-symbols sase-rm.6 reported no entries. just check was attempted after install and passed fmt/keep-sorted/ruff/mypy, then stopped at unrelated closed flag bead sase-rk admin_center_config_hub; additional unrelated blockers and selection-health flake were recorded as PROPOSED FOLLOW-UP notes.
 
+[2026-08-21T09:27:04Z · sase-rm.6] Verified epic-symbols clear; prior focused docs, Justfile, proc import, doctor isolation tests, git diff --check, and install/format completed; just check reached unrelated shared-tree blockers recorded as PROPOSED FOLLOW-UP notes.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.6.md) | [sase-rm.6](sase-rm.6.md) | 0 |
+| [bbugyi200.athena.sase-rm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.6/README.md) | [sase-rm.6](sase-rm.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b76f53b`](https://github.com/sase-org/sase/commit/b76f53b998e3f208d339253a9ca7538469cb987a) | fix: repair guardrails for provider docs and proc imports | [sase-rm.6](sase-rm.6.md) | 2026-08-21 05:28:24 EDT |
