@@ -13,7 +13,7 @@ integrity-acceptance: exercise every confirmed integrity failure through focused
 
 ## Dependencies
 
-- **Depends on:** [sase-rr.5.3](sase-rr.5.3.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rr.5.3](sase-rr.5.3.md) ✓ · ⧖ 2026-08-21
 - **Depends on:** [sase-rr.5.4](sase-rr.5.4.md) ✓ · ⧖ 2026-08-21
 
 ## Agents

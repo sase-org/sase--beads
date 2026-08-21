@@ -60,7 +60,7 @@ flowchart TD
     n5["sase-rr.5: Close finalizer protocol integrity gaps [in_progress]"]
     n6["sase-rr.5.1: Seal and authenticate the execution plan [closed]"]
     n7["sase-rr.5.2: Normalize provider identity and dispatch [closed]"]
-    n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [in_progress]"]
+    n8["sase-rr.5.3: Enforce bounded execution and immutable evidence [closed]"]
     n9["sase-rr.5.4: Make declaration and commit reconciliation deterministic [closed]"]
     n10["sase-rr.5.5: Run combined adversarial integrity acceptance [in_progress]"]
     n0 --> n1
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.4/README.md) | [sase-rr.4](sase-rr.4.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.1/README.md) | [sase-rr.5.1](sase-rr.5.1.md) | 2 |
 | [bbugyi200.athena.sase-rr.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.2/README.md) | [sase-rr.5.2](sase-rr.5.2.md) | 1 |
-| [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 0 |
+| [bbugyi200.athena.sase-rr.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.3/README.md) | [sase-rr.5.3](sase-rr.5.3.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.4/README.md) | [sase-rr.5.4](sase-rr.5.4.md) | 1 |
 | [bbugyi200.athena.sase-rr.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.5/README.md) | [sase-rr.5.5](sase-rr.5.5.md) | 0 |
 | [bbugyi200.athena.sase-rr.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rr.5.land/README.md) | [sase-rr.5](sase-rr.5.md) | 0 |
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`9af9e1c`](https://github.com/sase-org/sase/commit/9af9e1c3fc6e85abd2b361f121721e35f9676160) | feat(finalizers): seal and authenticate the host-owned execution plan | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:21:24 UTC |
 | sase-core | [`sase-core@10d3bbd`](https://github.com/sase-org/sase-core/commit/10d3bbd66d04f6440b413d58b6eebc63fcc791af) | feat(finalizer): validate and authenticate resolved plan digests | [sase-rr.5.1](sase-rr.5.1.md) | 2026-08-21 21:24:26 UTC |
 | sase | [`c2f46e8`](https://github.com/sase-org/sase/commit/c2f46e84e87edcd9994b4b8bde494099652b1941) | fix(finalizers): serialize declaration accept and host-order commits | [sase-rr.5.4](sase-rr.5.4.md) | 2026-08-21 22:15:21 UTC |
+| sase | [`6639a28`](https://github.com/sase-org/sase/commit/6639a28016163be274ace52c293bd7aeebfb8470) | feat(finalizers): enforce bounded attempts and immutable evidence | [sase-rr.5.3](sase-rr.5.3.md) | 2026-08-21 22:22:29 UTC |

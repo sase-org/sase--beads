@@ -19,7 +19,7 @@ provider-contract: canonicalize Python distribution identities across discovery 
 
 ## Dependencies
 
-- **Blocks:** [sase-rr.5.3](sase-rr.5.3.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-rr.5.3](sase-rr.5.3.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
