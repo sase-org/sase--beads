@@ -14,7 +14,7 @@ polish: align all user documentation and help, exercise the complete CLI and TUI
 ## Dependencies
 
 - **Depends on:** [sase-rs.4](sase-rs.4.md) ✓ · ⧖ 2026-08-21
-- **Depends on:** [sase-rs.5](sase-rs.5.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-rs.5](sase-rs.5.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
