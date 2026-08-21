@@ -39,7 +39,7 @@ Resolve, verify, and close every currently ready SASE task bead without racing o
 
 [2026-08-21T14:25:58Z · sase-ri.land.w2.f2.w2] DISCOVERED ISSUE: During prefixed_glossary_memory_links implementation verification on 2026-08-21 at HEAD e9d3521f4, just check passed fmt, markdown, keep-sorted, Ruff, mypy, feature flags, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed lint (symvision) on the same private-import set already recorded here: _ProcProducerSite/_site, commit_finalizer auto-commit/cleanup helpers, finalizers.declaration load/normalize/validate helpers, and _result_changed_files. The current diff only touches Glossary/Memory numbered-link prefix dispatch, chip labels, docs, tests, and populated PNG goldens; it does not touch proc-producer, commit_finalizer, or finalizers.declara
 
-… and 2604 more characters
+… and 3031 more characters
 
 ## Phases
 
@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.sase-rm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.7/README.md) | [sase-rm.7](sase-rm.7.md) | 1 |
 | [bbugyi200.athena.sase-rm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.8/README.md) | [sase-rm.8](sase-rm.8.md) | 1 |
 | [bbugyi200.athena.sase-rm.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.9.md) | [sase-rm.9](sase-rm.9.md) | 1 |
-| [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-rm.land/README.md) | [sase-rm](README.md) | 2 |
+| [bbugyi200.athena.sase-rm.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-rm.land.md) | [sase-rm](README.md) | 3 |
 
 ## Commits
 
@@ -144,3 +144,4 @@ flowchart TD
 | sase | [`72f93fb`](https://github.com/sase-org/sase/commit/72f93fb1fb3917c39f1859650b87ac33b6d80847) | fix: stabilize visual closeout and verification gates | [sase-rm.13](sase-rm.13.md) | 2026-08-21 12:42:29 EDT |
 | sase | [`bcb7411`](https://github.com/sase-org/sase/commit/bcb7411aca13ba9a607762f290430dd7df005108) | fix(finalizers): complete public API cleanup | [sase-rm](README.md) | 2026-08-21 13:20:36 EDT |
 | sase | [`5fe0587`](https://github.com/sase-org/sase/commit/5fe0587b0134d5196ab07872ff1006e504e64b04) | fix(flags): integrate saved-state facade with retired flags | [sase-rm](README.md) | 2026-08-21 13:25:40 EDT |
+| sase | [`a1ee712`](https://github.com/sase-org/sase/commit/a1ee712381d7e5c038f576329970450a10c2c91d) | refactor(finalizers): export declaration helpers as a public API | [sase-rm](README.md) | 2026-08-21 13:43:40 EDT |
