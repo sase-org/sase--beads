@@ -24,7 +24,7 @@ config_hub: add the lazy Config sub-tab host, move every requested surface into 
 - **Depends on:** [sase-ri.1](sase-ri.1.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-ri.2](sase-ri.2.md) ✓ · ⧖ 2026-08-20
 - **Depends on:** [sase-ri.3](sase-ri.3.md) ✓ · ⧖ 2026-08-20
-- **Blocks:** [sase-ri.5](sase-ri.5.md) ◐ · ⧖ 2026-08-20
+- **Blocks:** [sase-ri.5](sase-ri.5.md) ✓ · ⧖ 2026-08-20
 
 ## Agents
 
