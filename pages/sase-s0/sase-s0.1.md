@@ -17,7 +17,7 @@ core_completion_contract: add the typed host catalog, selector-aware core candid
 
 ## Dependencies
 
-- **Blocks:** [sase-s0.2](sase-s0.2.md) ◐ · ⧖ 2026-08-21
+- **Blocks:** [sase-s0.2](sase-s0.2.md) ✓ · ⧖ 2026-08-21
 - **Blocks:** [sase-s0.3](sase-s0.3.md) ◐ · ⧖ 2026-08-21
 
 ## Agents

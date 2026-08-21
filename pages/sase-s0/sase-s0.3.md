@@ -14,7 +14,7 @@ surface_parity: reveal %final only after both clients are complete, then lock be
 ## Dependencies
 
 - **Depends on:** [sase-s0.1](sase-s0.1.md) ✓ · ⧖ 2026-08-21
-- **Depends on:** [sase-s0.2](sase-s0.2.md) ◐ · ⧖ 2026-08-21
+- **Depends on:** [sase-s0.2](sase-s0.2.md) ✓ · ⧖ 2026-08-21
 
 ## Agents
 
