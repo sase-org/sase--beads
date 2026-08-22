@@ -19,7 +19,7 @@ archive-ownership: establish one host-owned canonical plan archive operation, pu
 
 ## Dependencies
 
-- **Blocks:** [sase-s2.3](sase-s2.3.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s2.3](sase-s2.3.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 
