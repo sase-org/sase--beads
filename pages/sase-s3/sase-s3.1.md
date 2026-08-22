@@ -17,7 +17,7 @@ core_monitor_cleanup: recover the failed agent's schema-4 Rust cleanup change, r
 
 ## Dependencies
 
-- **Blocks:** [sase-s3.2](sase-s3.2.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s3.2](sase-s3.2.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 
