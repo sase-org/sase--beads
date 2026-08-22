@@ -19,4 +19,4 @@ visual-cursor-convergence: normalize focused and blurred input cursor caches bef
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.3/README.md) | [sase-s1.3](sase-s1.3.md) | 0 |
+| [bbugyi200.athena.sase-s1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-s1.3.md) | [sase-s1.3](sase-s1.3.md) | 0 |

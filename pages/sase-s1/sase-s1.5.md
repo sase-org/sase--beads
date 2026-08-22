@@ -25,4 +25,10 @@ release-lock-normalization: normalize only the trailing-slash-equivalent PyPI si
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.5/README.md) | [sase-s1.5](sase-s1.5.md) | 0 |
+| [bbugyi200.athena.sase-s1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.5/README.md) | [sase-s1.5](sase-s1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c718da9`](https://github.com/sase-org/sase/commit/c718da9119cf8dccf4a2719a8ce6717991f1ebd1) | fix(release): normalize canonical PyPI lock sources | [sase-s1.5](sase-s1.5.md) | 2026-08-22 13:22:48 UTC |
