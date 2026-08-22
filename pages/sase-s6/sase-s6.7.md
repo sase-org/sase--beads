@@ -13,7 +13,7 @@ agents-proc-shell-experience: project native proc-store records into responsive,
 
 ## Dependencies
 
-- **Depends on:** [sase-s6.5](sase-s6.5.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s6.5](sase-s6.5.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.8](sase-s6.8.md) ◐ · ⧖ 2026-08-22
 
 ## Agents
