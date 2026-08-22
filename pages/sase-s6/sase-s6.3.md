@@ -18,7 +18,7 @@ durable-launch-admission: persist and supervise approved launch-unit outcomes, r
 ## Dependencies
 
 - **Depends on:** [sase-s6.2](sase-s6.2.md) ✓ · ⧖ 2026-08-22
-- **Blocks:** [sase-s6.4](sase-s6.4.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s6.4](sase-s6.4.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.5](sase-s6.5.md) ◐ · ⧖ 2026-08-22
 
 ## Agents

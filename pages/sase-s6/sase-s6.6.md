@@ -24,11 +24,10 @@ directive-authoring-experience: expose snippets, clause completion, hover, diagn
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.6/README.md) | [sase-s6.6](sase-s6.6.md) | 2 |
+| [bbugyi200.athena.sase-s6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.6/README.md) | [sase-s6.6](sase-s6.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`057e0bb`](https://github.com/sase-org/sase/commit/057e0bbacd6170a49c254421a548ab0925978649) | feat(xprompt): surface directive recipe completions | [sase-s6.6](sase-s6.6.md) | 2026-08-22 22:23:22 UTC |
-| sase-core | [`sase-core@cc28bc5`](https://github.com/sase-org/sase-core/commit/cc28bc5bdbec73a37c1d68d28f607f967ebd8da5) | feat(editor): expose directive recipe authoring contract | [sase-s6.6](sase-s6.6.md) | 2026-08-22 22:24:06 UTC |

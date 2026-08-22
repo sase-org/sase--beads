@@ -14,7 +14,7 @@ standalone-proc-runtime: dispatch %proc units through native proc-shell identity
 ## Dependencies
 
 - **Depends on:** [sase-s6.3](sase-s6.3.md) ✓ · ⧖ 2026-08-22
-- **Depends on:** [sase-s6.4](sase-s6.4.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s6.4](sase-s6.4.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.7](sase-s6.7.md) ◐ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.8](sase-s6.8.md) ◐ · ⧖ 2026-08-22
 
