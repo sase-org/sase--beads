@@ -25,10 +25,11 @@ conditional-runtime: evaluate approved Bash or Python %if programs with bounded 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.4/README.md) | [sase-s6.4](sase-s6.4.md) | 1 |
+| [bbugyi200.athena.sase-s6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.4/README.md) | [sase-s6.4](sase-s6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`13266fd`](https://github.com/sase-org/sase/commit/13266fdcaea9f420917478ced04a12d072036246) | feat(agent-launch): evaluate sandboxed %if admission predicates | [sase-s6.4](sase-s6.4.md) | 2026-08-22 22:39:53 UTC |
+| sase-core | [`sase-core@e950120`](https://github.com/sase-org/sase-core/commit/e950120d8452608440028025f61c298d928c0cec) | feat(agent-launch): add sandboxed %if condition evaluator | [sase-s6.4](sase-s6.4.md) | 2026-08-22 22:44:01 UTC |
