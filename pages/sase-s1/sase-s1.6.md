@@ -15,7 +15,7 @@ integration-verification: combine the repairs, run focused reproductions plus fu
 
 - **Depends on:** [sase-s1.1](sase-s1.1.md) ✓ · ⧖ 2026-08-22
 - **Depends on:** [sase-s1.2](sase-s1.2.md) ✓ · ⧖ 2026-08-22
-- **Depends on:** [sase-s1.3](sase-s1.3.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s1.3](sase-s1.3.md) ✓ · ⧖ 2026-08-22
 - **Depends on:** [sase-s1.4](sase-s1.4.md) ✓ · ⧖ 2026-08-22
 - **Depends on:** [sase-s1.5](sase-s1.5.md) ✓ · ⧖ 2026-08-22
 
