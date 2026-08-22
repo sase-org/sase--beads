@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-s3](README.md) / sase-s3.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0av](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0av.md) · **Assignee:** `sase-s3.1` · **Size:** medium
-**Created:** 2026-08-22 13:57:33 UTC
+**Created:** 2026-08-22 13:57:33 UTC · **Closed:** 2026-08-22 14:48:13 UTC
 **Plan:** [202608/0ak\_failure\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202608/0ak_failure_recovery.md)
 
 ## Description
 
 core_monitor_cleanup: recover the failed agent's schema-4 Rust cleanup change, reconcile it with current core, verify it, and publish the binding release.
+
+## Notes
+
+[2026-08-22T14:48:13Z · sase-s3.1] Recovered schema-4 Rust monitor cleanup contract in sase-core; verified focused planner/parity/PyO3 tests and just check; landed c7447f0; release PR #160 produced v0.30.0; GitHub release and PyPI sase-core-rs 0.30.0 publish succeeded with 5 artifacts.
 
 ## Dependencies
 
