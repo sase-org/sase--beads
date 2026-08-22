@@ -19,11 +19,11 @@ GitHub Actions uses complete source-built Rust artifacts, portable test assertio
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-s1.1](sase-s1.1.md) | Ship the source-built xprompt LSP to every CI consumer | ◐ in_progress | medium | 2026-08-22 | 1 | 0 |
+| [sase-s1.1](sase-s1.1.md) | Ship the source-built xprompt LSP to every CI consumer | ✓ closed | medium | 2026-08-22 | 1 | 1 |
 | [sase-s1.2](sase-s1.2.md) | Make CLI and skills rendering assertions environment-independent | ◐ in_progress | small | 2026-08-22 | 1 | 0 |
 | [sase-s1.3](sase-s1.3.md) | Eliminate stale cursor paint from visual snapshots | ◐ in_progress | medium | 2026-08-22 | 1 | 0 |
 | [sase-s1.4](sase-s1.4.md) | Recalibrate the persistent-query absolute performance floor | ✓ closed | small | 2026-08-22 | 1 | 1 |
-| [sase-s1.5](sase-s1.5.md) | Accept equivalent canonical PyPI registry spellings in the release ratchet | ◐ in_progress | small | 2026-08-22 | 1 | 0 |
+| [sase-s1.5](sase-s1.5.md) | Accept equivalent canonical PyPI registry spellings in the release ratchet | ✓ closed | small | 2026-08-22 | 1 | 0 |
 | [sase-s1.6](sase-s1.6.md) | Reproduce every failed lane and run exhaustive verification | ◐ in_progress | medium | 2026-08-22 | 1 | 0 |
 
 ## Lineage
@@ -31,11 +31,11 @@ GitHub Actions uses complete source-built Rust artifacts, portable test assertio
 ```mermaid
 flowchart TD
     n0["sase-s1: Restore green GitHub Actions across source, visual, performance, and release lanes [in_progress]"]
-    n1["sase-s1.1: Ship the source-built xprompt LSP to every CI consumer [in_progress]"]
+    n1["sase-s1.1: Ship the source-built xprompt LSP to every CI consumer [closed]"]
     n2["sase-s1.2: Make CLI and skills rendering assertions environment-independent [in_progress]"]
     n3["sase-s1.3: Eliminate stale cursor paint from visual snapshots [in_progress]"]
     n4["sase-s1.4: Recalibrate the persistent-query absolute performance floor [closed]"]
-    n5["sase-s1.5: Accept equivalent canonical PyPI registry spellings in the release ratchet [in_progress]"]
+    n5["sase-s1.5: Accept equivalent canonical PyPI registry spellings in the release ratchet [closed]"]
     n6["sase-s1.6: Reproduce every failed lane and run exhaustive verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.1/README.md) | [sase-s1.1](sase-s1.1.md) | 0 |
+| [bbugyi200.athena.sase-s1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.1/README.md) | [sase-s1.1](sase-s1.1.md) | 1 |
 | [bbugyi200.athena.sase-s1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.2/README.md) | [sase-s1.2](sase-s1.2.md) | 0 |
 | [bbugyi200.athena.sase-s1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.3/README.md) | [sase-s1.3](sase-s1.3.md) | 0 |
 | [bbugyi200.athena.sase-s1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s1.4/README.md) | [sase-s1.4](sase-s1.4.md) | 1 |
@@ -67,3 +67,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0438e70`](https://github.com/sase-org/sase/commit/0438e70e702480279e4a9b40b309e695cc65f009) | test(perf): recalibrate persistent-query absolute floor | [sase-s1.4](sase-s1.4.md) | 2026-08-22 13:06:45 UTC |
+| sase | [`fd1e42e`](https://github.com/sase-org/sase/commit/fd1e42e972918b3b64329083bf9484f921f560f5) | ci: ship xprompt lsp core artifact | [sase-s1.1](sase-s1.1.md) | 2026-08-22 13:19:09 UTC |
