@@ -21,10 +21,4 @@ family_plan_preview_provenance: make replacement plans win in ACE and editor pre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s3.4/README.md) | [sase-s3.4](sase-s3.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`e674ffc`](https://github.com/sase-org/sase/commit/e674ffc6f2cbced56e60088eaf51c1a08619999c) | fix(ace): prefer latest family plan previews | [sase-s3.4](sase-s3.4.md) | 2026-08-22 14:41:23 UTC |
+| [bbugyi200.athena.sase-s3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s3.4/README.md) | [sase-s3.4](sase-s3.4.md) | 0 |

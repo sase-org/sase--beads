@@ -23,10 +23,11 @@ core_monitor_cleanup: recover the failed agent's schema-4 Rust cleanup change, r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s3.1/README.md) | [sase-s3.1](sase-s3.1.md) | 1 |
+| [bbugyi200.athena.sase-s3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s3.1/README.md) | [sase-s3.1](sase-s3.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c7447f0`](https://github.com/sase-org/sase-core/commit/c7447f03d3094fbbaf9b67973f04baf76662bd63) | feat(agent-cleanup)!: add monitor cleanup side effects | [sase-s3.1](sase-s3.1.md) | 2026-08-22 14:10:31 UTC |
+| sase-core | [`sase-core@7e1d09b`](https://github.com/sase-org/sase-core/commit/7e1d09b4f68c34324ba5cf7b6100ead7cf2cc8ff) | feat(agent-cleanup)!: add monitor cleanup side effects | [sase-s3.1](sase-s3.1.md) | 2026-08-22 14:55:50 UTC |
