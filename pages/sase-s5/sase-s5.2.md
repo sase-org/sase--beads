@@ -18,7 +18,7 @@ research-provider-policy: update the sase-research-artifacts provider to exclude
 ## Dependencies
 
 - **Depends on:** [sase-s5.1](sase-s5.1.md) ✓ · ⧖ 2026-08-22
-- **Blocks:** [sase-s5.3](sase-s5.3.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s5.3](sase-s5.3.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 
