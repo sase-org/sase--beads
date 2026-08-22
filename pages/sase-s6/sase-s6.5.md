@@ -28,10 +28,11 @@ standalone-proc-runtime: dispatch %proc units through native proc-shell identity
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-s6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.5/README.md) | [sase-s6.5](sase-s6.5.md) | 1 |
+| [bbugyi200.athena.sase-s6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.5/README.md) | [sase-s6.5](sase-s6.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0f00bec`](https://github.com/sase-org/sase/commit/0f00becd749b533f850bf4a81d1cccbefe35b792) | feat(agent-launch): dispatch stand-alone %proc units natively | [sase-s6.5](sase-s6.5.md) | 2026-08-22 23:44:30 UTC |
+| sase-core | [`sase-core@92a4fc4`](https://github.com/sase-org/sase-core/commit/92a4fc4bff40dad7e9960617da2df72a1fbf5807) | feat(agent-launch): add native %proc dispatch helpers | [sase-s6.5](sase-s6.5.md) | 2026-08-22 23:46:43 UTC |
