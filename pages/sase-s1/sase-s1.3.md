@@ -11,6 +11,10 @@
 
 visual-cursor-convergence: normalize focused and blurred input cursor caches before accepting a converged visual frame.
 
+## Notes
+
+[2026-08-22T13:18:34Z · sase-s1.3] PROPOSED FOLLOW-UP: Artifacts-tab 120x40 goldens omit the split badge — confirm_dialog_neutral and sibling artifacts snapshots fail locally with ~6605 pixels at PNG y=91-115 where actual paints the teal {█} split badge and expected is empty; reproduced on HEAD with the old focused-only cursor helper, independent of sase-s1.3 caret-cache repair. Do not mass-rebase; triage whether goldens predate badge accent paint.
+
 ## Dependencies
 
 - **Blocks:** [sase-s1.6](sase-s1.6.md) ◐ · ⧖ 2026-08-22
