@@ -14,7 +14,7 @@ e2e-verification: exercise artifact creation, commit dispatch, finalizer reconci
 ## Dependencies
 
 - **Depends on:** [sase-s5.1](sase-s5.1.md) ✓ · ⧖ 2026-08-22
-- **Depends on:** [sase-s5.2](sase-s5.2.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s5.2](sase-s5.2.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 

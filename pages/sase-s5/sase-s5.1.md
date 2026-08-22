@@ -17,7 +17,7 @@ core-producer-filter: extend the file-hook configuration and dispatch contract w
 
 ## Dependencies
 
-- **Blocks:** [sase-s5.2](sase-s5.2.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s5.2](sase-s5.2.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s5.3](sase-s5.3.md) ◐ · ⧖ 2026-08-22
 
 ## Agents
