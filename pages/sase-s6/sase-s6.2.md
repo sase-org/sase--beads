@@ -18,7 +18,7 @@ typed-launch-graph: replace agent-shaped fanout planning with a pure, schema-ver
 ## Dependencies
 
 - **Depends on:** [sase-s6.1](sase-s6.1.md) ✓ · ⧖ 2026-08-22
-- **Blocks:** [sase-s6.3](sase-s6.3.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s6.3](sase-s6.3.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.6](sase-s6.6.md) ◐ · ⧖ 2026-08-22
 
 ## Agents

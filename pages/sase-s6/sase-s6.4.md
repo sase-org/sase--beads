@@ -13,7 +13,7 @@ conditional-runtime: evaluate approved Bash or Python %if programs with bounded 
 
 ## Dependencies
 
-- **Depends on:** [sase-s6.3](sase-s6.3.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s6.3](sase-s6.3.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.5](sase-s6.5.md) ◐ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.8](sase-s6.8.md) ◐ · ⧖ 2026-08-22
 
