@@ -16,7 +16,7 @@ mixed-launch-verification: exercise the complete mixed-unit matrix, both feature
 - **Depends on:** [sase-s6.4](sase-s6.4.md) ✓ · ⧖ 2026-08-22
 - **Depends on:** [sase-s6.5](sase-s6.5.md) ✓ · ⧖ 2026-08-22
 - **Depends on:** [sase-s6.6](sase-s6.6.md) ✓ · ⧖ 2026-08-22
-- **Depends on:** [sase-s6.7](sase-s6.7.md) ◐ · ⧖ 2026-08-22
+- **Depends on:** [sase-s6.7](sase-s6.7.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 

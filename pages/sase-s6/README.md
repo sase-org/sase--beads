@@ -21,7 +21,7 @@ SASE accepts typed Agent and stand-alone Proc launch units with durable %if admi
 | [sase-s6.4](sase-s6.4.md) | Sandboxed conditional admission runtime | ✓ closed | medium | 2026-08-22 | 1 | 2 |
 | [sase-s6.5](sase-s6.5.md) | Native stand-alone proc runtime | ✓ closed | medium | 2026-08-22 | 1 | 2 |
 | [sase-s6.6](sase-s6.6.md) | Prompt-widget and LSP authoring experience | ✓ closed | medium | 2026-08-22 | 1 | 2 |
-| [sase-s6.7](sase-s6.7.md) | Beautiful stand-alone proc shells in the Agents tab | ◐ in_progress | medium | 2026-08-22 | 1 | 0 |
+| [sase-s6.7](sase-s6.7.md) | Beautiful stand-alone proc shells in the Agents tab | ✓ closed | medium | 2026-08-22 | 1 | 1 |
 | [sase-s6.8](sase-s6.8.md) | Integrated rollout, documentation, and verification | ◐ in_progress | medium | 2026-08-22 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n4["sase-s6.4: Sandboxed conditional admission runtime [closed]"]
     n5["sase-s6.5: Native stand-alone proc runtime [closed]"]
     n6["sase-s6.6: Prompt-widget and LSP authoring experience [closed]"]
-    n7["sase-s6.7: Beautiful stand-alone proc shells in the Agents tab [in_progress]"]
+    n7["sase-s6.7: Beautiful stand-alone proc shells in the Agents tab [closed]"]
     n8["sase-s6.8: Integrated rollout, documentation, and verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-s6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.4/README.md) | [sase-s6.4](sase-s6.4.md) | 2 |
 | [bbugyi200.athena.sase-s6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.5/README.md) | [sase-s6.5](sase-s6.5.md) | 2 |
 | [bbugyi200.athena.sase-s6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.6/README.md) | [sase-s6.6](sase-s6.6.md) | 2 |
-| [bbugyi200.athena.sase-s6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.7/README.md) | [sase-s6.7](sase-s6.7.md) | 0 |
+| [bbugyi200.athena.sase-s6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.7/README.md) | [sase-s6.7](sase-s6.7.md) | 1 |
 | [bbugyi200.athena.sase-s6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.8/README.md) | [sase-s6.8](sase-s6.8.md) | 0 |
 | [bbugyi200.athena.sase-s6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s6.land/README.md) | [sase-s6](README.md) | 0 |
 
@@ -88,3 +88,4 @@ flowchart TD
 | sase-core | [`sase-core@e950120`](https://github.com/sase-org/sase-core/commit/e950120d8452608440028025f61c298d928c0cec) | feat(agent-launch): add sandboxed %if condition evaluator | [sase-s6.4](sase-s6.4.md) | 2026-08-22 22:44:01 UTC |
 | sase | [`0f00bec`](https://github.com/sase-org/sase/commit/0f00becd749b533f850bf4a81d1cccbefe35b792) | feat(agent-launch): dispatch stand-alone %proc units natively | [sase-s6.5](sase-s6.5.md) | 2026-08-22 23:44:30 UTC |
 | sase-core | [`sase-core@92a4fc4`](https://github.com/sase-org/sase-core/commit/92a4fc4bff40dad7e9960617da2df72a1fbf5807) | feat(agent-launch): add native %proc dispatch helpers | [sase-s6.5](sase-s6.5.md) | 2026-08-22 23:46:43 UTC |
+| sase | [`a6a184f`](https://github.com/sase-org/sase/commit/a6a184fad0845f0a79e88aeff029a61432443002) | feat(ace): surface proc shells in agents tab | [sase-s6.7](sase-s6.7.md) | 2026-08-23 01:03:22 UTC |
