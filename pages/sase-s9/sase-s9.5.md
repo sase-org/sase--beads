@@ -18,7 +18,7 @@ monitor: add a shared quote-aware flag-token toggle helper and bind `m` to cycle
 ## Dependencies
 
 - **Depends on:** [sase-s9.4](sase-s9.4.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-s9.7](sase-s9.7.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s9.7](sase-s9.7.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 

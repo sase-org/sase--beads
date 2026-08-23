@@ -29,6 +29,8 @@ The Admin Center Procs tab has a slash-revealed query bar backed by a real, shar
 
 [2026-08-23T15:12:02Z · sase-s8.land] DISCOVERED ISSUE (already fixed, no action needed from sase-s9): the Justfile carried a stale `--epic-symbol "sase-s9(ProcQueryFilter)"` exemption. Commit 2e0ac0f37 (feat(ace): wire Procs filter bar into pane) gave ProcQueryFilter a real consumer in src/sase/ace/tui/modals/procs_pane_filter.py, so symvision started refusing the entry with "symbol 'ProcQueryFilter' is already properly used. Remove this unnecessary --epic-symbol entry." and `just check` went red at lint for every agent in the repo. Reproduction: `just symvision` at HEAD 2e0ac0f37. I removed only that one line while landing epic sase-s8, because the gate blocked my own landing; `just symvision` is now clean. The two remaining sase-s9 entries (proc_query_row, query_needs_output) are untouched and still needed. sase-s9's land agent should re-run `sase bead epic-symbols sase-s9` as usual and not be surprised that one entry is already gone.
 
+[2026-08-23T15:18:21Z · 0bt] DISCOVERED ISSUE: Independent corroboration during unrelated remove_legacy_commit_command verification. just _lint-symvision fails: --epic-symbol sase-s9(ProcQueryFilter): symbol ProcQueryFilter is already properly used. Remove this unnecessary --epic-symbol entry. Reproduction: just _lint-symvision or just check (after mypy). Confirmed not caused by this tree: Justfile is unmodified. I did not fix it; remaining in-progress phases are sase-s9.5 and sase-s9.7, and closed sase-s9.1 owned the query grammar types.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,7 +41,7 @@ The Admin Center Procs tab has a slash-revealed query bar backed by a real, shar
 | [sase-s9.4](sase-s9.4.md) | Procs pane filter session | ✓ closed | medium | 2026-08-23 | 1 | 1 |
 | [sase-s9.5](sase-s9.5.md) | The \`m\` monitor-filter cycle | ✓ closed | small | 2026-08-23 | 1 | 1 |
 | [sase-s9.6](sase-s9.6.md) | Mirror the shared grammar extensions in sase-core | ✓ closed | medium | 2026-08-23 | 1 | 2 |
-| [sase-s9.7](sase-s9.7.md) | Documentation, visual snapshot, and copy review | ◐ in_progress | small | 2026-08-23 | 1 | 0 |
+| [sase-s9.7](sase-s9.7.md) | Documentation, visual snapshot, and copy review | ✓ closed | small | 2026-08-23 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +54,7 @@ flowchart TD
     n4["sase-s9.4: Procs pane filter session [closed]"]
     n5["sase-s9.5: The `m` monitor-filter cycle [closed]"]
     n6["sase-s9.6: Mirror the shared grammar extensions in sase-core [closed]"]
-    n7["sase-s9.7: Documentation, visual snapshot, and copy review [in_progress]"]
+    n7["sase-s9.7: Documentation, visual snapshot, and copy review [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -77,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-s9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.4/README.md) | [sase-s9.4](sase-s9.4.md) | 1 |
 | [bbugyi200.athena.sase-s9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.5/README.md) | [sase-s9.5](sase-s9.5.md) | 1 |
 | [bbugyi200.athena.sase-s9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.6/README.md) | [sase-s9.6](sase-s9.6.md) | 2 |
-| [bbugyi200.athena.sase-s9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.7/README.md) | [sase-s9.7](sase-s9.7.md) | 0 |
+| [bbugyi200.athena.sase-s9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.7/README.md) | [sase-s9.7](sase-s9.7.md) | 1 |
 | [bbugyi200.athena.sase-s9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.land/README.md) | [sase-s9](README.md) | 0 |
 
 ## Commits
@@ -91,3 +93,4 @@ flowchart TD
 | sase | [`3d20654`](https://github.com/sase-org/sase/commit/3d2065412ca76bd7fd706655ec91c21c29f59c67) | feat(ace): add Procs filter bar with priority-tab handoff | [sase-s9.3](sase-s9.3.md) | 2026-08-23 09:58:41 EDT |
 | sase | [`2e0ac0f`](https://github.com/sase-org/sase/commit/2e0ac0f37c0dafb6e5ef3afc2c213abae9058d15) | feat(ace): wire Procs filter bar into pane with empty-state and count messaging | [sase-s9.4](sase-s9.4.md) | 2026-08-23 10:40:57 EDT |
 | sase | [`7db3ea9`](https://github.com/sase-org/sase/commit/7db3ea954ea0b971ba6db4d6d5d2e4f2fe29c213) | feat(ace): bind m to cycle the Procs monitor filter | [sase-s9.5](sase-s9.5.md) | 2026-08-23 11:23:54 EDT |
+| sase | [`37abe19`](https://github.com/sase-org/sase/commit/37abe195b91db320983f9a450859d5f3c4b768f0) | docs(ace): document Procs tab filtering and add filtered PNG snapshot | [sase-s9.7](sase-s9.7.md) | 2026-08-23 11:48:51 EDT |
