@@ -16,7 +16,7 @@ AXE retries oversized-file maintenance without repository-HEAD dedupe keys, and 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-sk.1](sase-sk.1.md) | Durable typed admission for AXE chop proposals | ✓ closed | medium | 2026-08-23 | 1 | 1 |
-| [sase-sk.2](sase-sk.2.md) | Admission-gate toobig\_split at the configured line floor | ◐ in_progress | medium | 2026-08-23 | 1 | 0 |
+| [sase-sk.2](sase-sk.2.md) | Admission-gate toobig\_split at the configured line floor | ✓ closed | medium | 2026-08-23 | 1 | 0 |
 | [sase-sk.3](sase-sk.3.md) | Remove revision-key guidance and roll out the guarded chop | ◐ in_progress | small | 2026-08-23 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ AXE retries oversized-file maintenance without repository-HEAD dedupe keys, and 
 flowchart TD
     n0["sase-sk: Replace toobig_split revision dedupe with conditional admission [in_progress]"]
     n1["sase-sk.1: Durable typed admission for AXE chop proposals [closed]"]
-    n2["sase-sk.2: Admission-gate toobig_split at the configured line floor [in_progress]"]
+    n2["sase-sk.2: Admission-gate toobig_split at the configured line floor [closed]"]
     n3["sase-sk.3: Remove revision-key guidance and roll out the guarded chop [in_progress]"]
     n0 --> n1
     n0 --> n2

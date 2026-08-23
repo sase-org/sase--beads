@@ -17,7 +17,7 @@ axe-chop-typed-admission: route flag-enabled AXE proposals containing %if or %pr
 
 ## Dependencies
 
-- **Blocks:** [sase-sk.2](sase-sk.2.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-sk.2](sase-sk.2.md) ✓ · ⧖ 2026-08-23
 - **Blocks:** [sase-sk.3](sase-sk.3.md) ◐ · ⧖ 2026-08-23
 
 ## Agents

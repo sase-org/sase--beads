@@ -14,7 +14,7 @@ conditional-admission-rollout: replace the prior HEAD-key documentation and dotf
 ## Dependencies
 
 - **Depends on:** [sase-sk.1](sase-sk.1.md) ✓ · ⧖ 2026-08-23
-- **Depends on:** [sase-sk.2](sase-sk.2.md) ◐ · ⧖ 2026-08-23
+- **Depends on:** [sase-sk.2](sase-sk.2.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 
