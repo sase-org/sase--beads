@@ -17,7 +17,7 @@ AXE retries oversized-file maintenance without repository-HEAD dedupe keys, and 
 |---|---|---|---|---|---:|---:|
 | [sase-sk.1](sase-sk.1.md) | Durable typed admission for AXE chop proposals | ✓ closed | medium | 2026-08-23 | 1 | 1 |
 | [sase-sk.2](sase-sk.2.md) | Admission-gate toobig\_split at the configured line floor | ✓ closed | medium | 2026-08-23 | 1 | 0 |
-| [sase-sk.3](sase-sk.3.md) | Remove revision-key guidance and roll out the guarded chop | ◐ in_progress | small | 2026-08-23 | 1 | 1 |
+| [sase-sk.3](sase-sk.3.md) | Remove revision-key guidance and roll out the guarded chop | ✓ closed | small | 2026-08-23 | 1 | 2 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-sk: Replace toobig_split revision dedupe with conditional admission [in_progress]"]
     n1["sase-sk.1: Durable typed admission for AXE chop proposals [closed]"]
     n2["sase-sk.2: Admission-gate toobig_split at the configured line floor [closed]"]
-    n3["sase-sk.3: Remove revision-key guidance and roll out the guarded chop [in_progress]"]
+    n3["sase-sk.3: Remove revision-key guidance and roll out the guarded chop [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-sk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.1/README.md) | [sase-sk.1](sase-sk.1.md) | 1 |
 | [bbugyi200.athena.sase-sk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.2/README.md) | [sase-sk.2](sase-sk.2.md) | 0 |
-| [bbugyi200.athena.sase-sk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.3/README.md) | [sase-sk.3](sase-sk.3.md) | 1 |
+| [bbugyi200.athena.sase-sk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.3/README.md) | [sase-sk.3](sase-sk.3.md) | 2 |
 | [bbugyi200.athena.sase-sk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.land/README.md) | [sase-sk](README.md) | 0 |
 
 ## Commits
@@ -50,3 +50,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`faed143`](https://github.com/sase-org/sase/commit/faed143237163b5618384fb60eb9bc16947a36bf) | feat(axe): route chop proposals through typed admission | [sase-sk.1](sase-sk.1.md) | 2026-08-23 17:24:39 EDT |
 | sase | [`30e73cf`](https://github.com/sase-org/sase/commit/30e73cfbcaad6caca47d6c49ebd809b650c8a12e) | docs(axe): document typed-admission routing for chop proposals | [sase-sk.3](sase-sk.3.md) | 2026-08-23 18:11:15 EDT |
+| chezmoi | [`chezmoi@7bff690`](https://github.com/bbugyi200/dotfiles/commit/7bff690e56812f4680dcecbef47e8a3d9255a575) | docs(config): fix content-deduped description in sase\_athena.yml | [sase-sk.3](sase-sk.3.md) | 2026-08-23 18:13:20 EDT |

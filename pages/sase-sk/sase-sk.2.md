@@ -20,7 +20,7 @@ toobig-if-guard: remove repository-HEAD and proposal-dedupe behavior from bugyi-
 ## Dependencies
 
 - **Depends on:** [sase-sk.1](sase-sk.1.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-sk.3](sase-sk.3.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-sk.3](sase-sk.3.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 
