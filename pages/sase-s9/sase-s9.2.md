@@ -16,12 +16,6 @@ dialect: author the `procs` query schema, the `ObservedProc` -> query-row adapte
 - **Depends on:** [sase-s9.1](sase-s9.1.md) ✓ · ⧖ 2026-08-23
 - **Blocks:** [sase-s9.3](sase-s9.3.md) ◐ · ⧖ 2026-08-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-s9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.2/README.md) | [sase-s9.2](sase-s9.2.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
