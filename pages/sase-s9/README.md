@@ -16,8 +16,8 @@ The Admin Center Procs tab has a slash-revealed query bar backed by a real, shar
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-s9.1](sase-s9.1.md) | Bare boolean flags and host bound keys in the shared flat grammar | ✓ closed | medium | 2026-08-23 | 1 | 1 |
-| [sase-s9.2](sase-s9.2.md) | Procs query profile and row adapter | ◐ in_progress | medium | 2026-08-23 | 0 | 1 |
-| [sase-s9.3](sase-s9.3.md) | Procs filter bar widget and Admin Center key integration | ◐ in_progress | small | 2026-08-23 | 1 | 0 |
+| [sase-s9.2](sase-s9.2.md) | Procs query profile and row adapter | ✓ closed | medium | 2026-08-23 | 0 | 1 |
+| [sase-s9.3](sase-s9.3.md) | Procs filter bar widget and Admin Center key integration | ◐ in_progress | small | 2026-08-23 | 1 | 1 |
 | [sase-s9.4](sase-s9.4.md) | Procs pane filter session | ◐ in_progress | medium | 2026-08-23 | 1 | 0 |
 | [sase-s9.5](sase-s9.5.md) | The \`m\` monitor-filter cycle | ◐ in_progress | small | 2026-08-23 | 1 | 0 |
 | [sase-s9.6](sase-s9.6.md) | Mirror the shared grammar extensions in sase-core | ✓ closed | medium | 2026-08-23 | 1 | 2 |
@@ -29,7 +29,7 @@ The Admin Center Procs tab has a slash-revealed query bar backed by a real, shar
 flowchart TD
     n0["sase-s9: Procs tab query filtering [in_progress]"]
     n1["sase-s9.1: Bare boolean flags and host bound keys in the shared flat grammar [closed]"]
-    n2["sase-s9.2: Procs query profile and row adapter [in_progress]"]
+    n2["sase-s9.2: Procs query profile and row adapter [closed]"]
     n3["sase-s9.3: Procs filter bar widget and Admin Center key integration [in_progress]"]
     n4["sase-s9.4: Procs pane filter session [in_progress]"]
     n5["sase-s9.5: The `m` monitor-filter cycle [in_progress]"]
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-s9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.1/README.md) | [sase-s9.1](sase-s9.1.md) | 1 |
-| [bbugyi200.athena.sase-s9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.3/README.md) | [sase-s9.3](sase-s9.3.md) | 0 |
+| [bbugyi200.athena.sase-s9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.3/README.md) | [sase-s9.3](sase-s9.3.md) | 1 |
 | [bbugyi200.athena.sase-s9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.4/README.md) | [sase-s9.4](sase-s9.4.md) | 0 |
 | [bbugyi200.athena.sase-s9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.5/README.md) | [sase-s9.5](sase-s9.5.md) | 0 |
 | [bbugyi200.athena.sase-s9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.6/README.md) | [sase-s9.6](sase-s9.6.md) | 2 |
@@ -70,3 +70,4 @@ flowchart TD
 | sase | [`ab02603`](https://github.com/sase-org/sase/commit/ab0260376c0af00e8b6042c4dc7651145c1b0748) | feat: Procs query profile and row adapter (sase-s9.2) | [sase-s9.2](sase-s9.2.md) | 2026-08-23 09:41:21 EDT |
 | sase | [`f0b932c`](https://github.com/sase-org/sase/commit/f0b932c9d5ce3880cc793f9252a7b4eb56f22c30) | test(query): cover Rust parity for bare flags and bound keys | [sase-s9.6](sase-s9.6.md) | 2026-08-23 09:41:27 EDT |
 | sase-core | [`sase-core@aeefa36`](https://github.com/sase-org/sase-core/commit/aeefa360c80ac12c7cc7684ee4988f745c14038e) | feat(query): port bare-boolean flags and host bound keys | [sase-s9.6](sase-s9.6.md) | 2026-08-23 09:43:40 EDT |
+| sase | [`3d20654`](https://github.com/sase-org/sase/commit/3d2065412ca76bd7fd706655ec91c21c29f59c67) | feat(ace): add Procs filter bar with priority-tab handoff | [sase-s9.3](sase-s9.3.md) | 2026-08-23 09:58:41 EDT |
