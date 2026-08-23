@@ -14,7 +14,7 @@ bar: add the `ProcsFilterBar` FilterBar subclass, a shared show-while-active res
 ## Dependencies
 
 - **Depends on:** [sase-s9.2](sase-s9.2.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-s9.4](sase-s9.4.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s9.4](sase-s9.4.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 

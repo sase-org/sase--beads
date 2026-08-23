@@ -13,7 +13,7 @@ polish: document the proc query dialect in the ACE Procs Tab reference, add a PN
 
 ## Dependencies
 
-- **Depends on:** [sase-s9.5](sase-s9.5.md) ◐ · ⧖ 2026-08-23
+- **Depends on:** [sase-s9.5](sase-s9.5.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 
