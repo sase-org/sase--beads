@@ -18,7 +18,7 @@ grammar: teach the shared profile-driven flat query grammar two closed, digest-s
 ## Dependencies
 
 - **Blocks:** [sase-s9.2](sase-s9.2.md) ◐ · ⧖ 2026-08-23
-- **Blocks:** [sase-s9.6](sase-s9.6.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s9.6](sase-s9.6.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 

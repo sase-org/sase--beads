@@ -21,3 +21,9 @@ dialect: author the `procs` query schema, the `ObservedProc` -> query-row adapte
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-s9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s9.2/README.md) | [sase-s9.2](sase-s9.2.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ab02603`](https://github.com/sase-org/sase/commit/ab0260376c0af00e8b6042c4dc7651145c1b0748) | feat: Procs query profile and row adapter (sase-s9.2) | [sase-s9.2](sase-s9.2.md) | 2026-08-23 09:41:21 EDT |
