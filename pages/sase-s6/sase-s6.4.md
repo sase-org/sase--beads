@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0b8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0b8.md) · **Assignee:** `sase-s6.4` · **Size:** medium
-**Created:** 2026-08-22 18:14:59 UTC · **Closed:** 2026-08-22 22:38:35 UTC
+**Created:** 2026-08-22 14:14:59 EDT · **Closed:** 2026-08-22 18:38:35 EDT
 **Plan:** [202608/typed\_launch\_units.md](https://github.com/sase-org/sase--plans/blob/main/202608/typed_launch_units.md)
 
 ## Description
@@ -19,7 +19,7 @@ conditional-runtime: evaluate approved Bash or Python %if programs with bounded 
 
 - **Depends on:** [sase-s6.3](sase-s6.3.md) ✓ · ⧖ 2026-08-22
 - **Blocks:** [sase-s6.5](sase-s6.5.md) ✓ · ⧖ 2026-08-22
-- **Blocks:** [sase-s6.8](sase-s6.8.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s6.8](sase-s6.8.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 
@@ -31,5 +31,5 @@ conditional-runtime: evaluate approved Bash or Python %if programs with bounded 
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`13266fd`](https://github.com/sase-org/sase/commit/13266fdcaea9f420917478ced04a12d072036246) | feat(agent-launch): evaluate sandboxed %if admission predicates | [sase-s6.4](sase-s6.4.md) | 2026-08-22 22:39:53 UTC |
-| sase-core | [`sase-core@e950120`](https://github.com/sase-org/sase-core/commit/e950120d8452608440028025f61c298d928c0cec) | feat(agent-launch): add sandboxed %if condition evaluator | [sase-s6.4](sase-s6.4.md) | 2026-08-22 22:44:01 UTC |
+| sase | [`13266fd`](https://github.com/sase-org/sase/commit/13266fdcaea9f420917478ced04a12d072036246) | feat(agent-launch): evaluate sandboxed %if admission predicates | [sase-s6.4](sase-s6.4.md) | 2026-08-22 18:39:53 EDT |
+| sase-core | [`sase-core@e950120`](https://github.com/sase-org/sase-core/commit/e950120d8452608440028025f61c298d928c0cec) | feat(agent-launch): add sandboxed %if condition evaluator | [sase-s6.4](sase-s6.4.md) | 2026-08-22 18:44:01 EDT |

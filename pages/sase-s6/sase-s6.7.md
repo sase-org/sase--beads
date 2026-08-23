@@ -4,7 +4,7 @@
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0b8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0b8.md) · **Assignee:** `sase-s6.7` · **Size:** medium
-**Created:** 2026-08-22 18:15:01 UTC · **Closed:** 2026-08-23 01:02:14 UTC
+**Created:** 2026-08-22 14:15:01 EDT · **Closed:** 2026-08-22 21:02:14 EDT
 **Plan:** [202608/typed\_launch\_units.md](https://github.com/sase-org/sase--plans/blob/main/202608/typed_launch_units.md)
 
 ## Description
@@ -18,7 +18,7 @@ agents-proc-shell-experience: project native proc-store records into responsive,
 ## Dependencies
 
 - **Depends on:** [sase-s6.5](sase-s6.5.md) ✓ · ⧖ 2026-08-22
-- **Blocks:** [sase-s6.8](sase-s6.8.md) ◐ · ⧖ 2026-08-22
+- **Blocks:** [sase-s6.8](sase-s6.8.md) ✓ · ⧖ 2026-08-22
 
 ## Agents
 
@@ -30,4 +30,4 @@ agents-proc-shell-experience: project native proc-store records into responsive,
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`a6a184f`](https://github.com/sase-org/sase/commit/a6a184fad0845f0a79e88aeff029a61432443002) | feat(ace): surface proc shells in agents tab | [sase-s6.7](sase-s6.7.md) | 2026-08-23 01:03:22 UTC |
+| sase | [`a6a184f`](https://github.com/sase-org/sase/commit/a6a184fad0845f0a79e88aeff029a61432443002) | feat(ace): surface proc shells in agents tab | [sase-s6.7](sase-s6.7.md) | 2026-08-22 21:03:22 EDT |
