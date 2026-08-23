@@ -20,4 +20,10 @@ conditional-admission-rollout: replace the prior HEAD-key documentation and dotf
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.3/README.md) | [sase-sk.3](sase-sk.3.md) | 0 |
+| [bbugyi200.athena.sase-sk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sk.3/README.md) | [sase-sk.3](sase-sk.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`30e73cf`](https://github.com/sase-org/sase/commit/30e73cfbcaad6caca47d6c49ebd809b650c8a12e) | docs(axe): document typed-admission routing for chop proposals | [sase-sk.3](sase-sk.3.md) | 2026-08-23 18:11:15 EDT |
