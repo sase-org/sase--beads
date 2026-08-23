@@ -18,7 +18,7 @@ live: add the refreshing TTY panel, the per-target "why it is not done" column, 
 ## Dependencies
 
 - **Depends on:** [sase-s8.2](sase-s8.2.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-s8.4](sase-s8.4.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s8.4](sase-s8.4.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 
