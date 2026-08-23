@@ -14,7 +14,7 @@ dialect: author the `procs` query schema, the `ObservedProc` -> query-row adapte
 ## Dependencies
 
 - **Depends on:** [sase-s9.1](sase-s9.1.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-s9.3](sase-s9.3.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s9.3](sase-s9.3.md) ✓ · ⧖ 2026-08-23
 
 ## Commits
 
