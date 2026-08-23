@@ -23,7 +23,7 @@ engine: build the presentation-neutral wait engine — resolve names to wait uni
 
 ## Dependencies
 
-- **Blocks:** [sase-s8.2](sase-s8.2.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s8.2](sase-s8.2.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 

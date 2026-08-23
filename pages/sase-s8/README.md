@@ -16,8 +16,8 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-s8.1](sase-s8.1.md) | Wait target resolution and settle engine | ✓ closed | medium | 2026-08-23 | 1 | 1 |
-| [sase-s8.2](sase-s8.2.md) | sase agent wait command and exit-code contract | ◐ in_progress | medium | 2026-08-23 | 1 | 1 |
-| [sase-s8.3](sase-s8.3.md) | Live TTY display and settle summary | ◐ in_progress | medium | 2026-08-23 | 1 | 0 |
+| [sase-s8.2](sase-s8.2.md) | sase agent wait command and exit-code contract | ✓ closed | medium | 2026-08-23 | 1 | 1 |
+| [sase-s8.3](sase-s8.3.md) | Live TTY display and settle summary | ✓ closed | medium | 2026-08-23 | 1 | 1 |
 | [sase-s8.4](sase-s8.4.md) | Documentation, help polish, and integrated verification | ◐ in_progress | small | 2026-08-23 | 1 | 0 |
 
 ## Lineage
@@ -26,8 +26,8 @@
 flowchart TD
     n0["sase-s8: sase agent wait [in_progress]"]
     n1["sase-s8.1: Wait target resolution and settle engine [closed]"]
-    n2["sase-s8.2: sase agent wait command and exit-code contract [in_progress]"]
-    n3["sase-s8.3: Live TTY display and settle summary [in_progress]"]
+    n2["sase-s8.2: sase agent wait command and exit-code contract [closed]"]
+    n3["sase-s8.3: Live TTY display and settle summary [closed]"]
     n4["sase-s8.4: Documentation, help polish, and integrated verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-s8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.1/README.md) | [sase-s8.1](sase-s8.1.md) | 1 |
 | [bbugyi200.athena.sase-s8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.2/README.md) | [sase-s8.2](sase-s8.2.md) | 1 |
-| [bbugyi200.athena.sase-s8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.3/README.md) | [sase-s8.3](sase-s8.3.md) | 0 |
+| [bbugyi200.athena.sase-s8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.3/README.md) | [sase-s8.3](sase-s8.3.md) | 1 |
 | [bbugyi200.athena.sase-s8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.4/README.md) | [sase-s8.4](sase-s8.4.md) | 0 |
 | [bbugyi200.athena.sase-s8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-s8.land/README.md) | [sase-s8](README.md) | 0 |
 
@@ -54,3 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`db4aeca`](https://github.com/sase-org/sase/commit/db4aecacb8848514825526bf890833f3460c390c) | feat(agent): add wait watch engine | [sase-s8.1](sase-s8.1.md) | 2026-08-23 08:10:25 EDT |
 | sase | [`09ec5af`](https://github.com/sase-org/sase/commit/09ec5aff1ad0a38710ac48b0de830988db8073e4) | feat(agent): add sase agent wait CLI command | [sase-s8.2](sase-s8.2.md) | 2026-08-23 08:42:28 EDT |
+| sase | [`4f32a6e`](https://github.com/sase-org/sase/commit/4f32a6ec75cc2bf14a77b98f4c15fb190741351c) | feat(agent): add live TTY panel for sase agent wait | [sase-s8.3](sase-s8.3.md) | 2026-08-23 09:42:36 EDT |

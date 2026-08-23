@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-s8](README.md) / sase-s8.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0bd](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0bd.md) · **Assignee:** `sase-s8.2` · **Size:** medium
-**Created:** 2026-08-23 07:39:40 EDT
+**Created:** 2026-08-23 07:39:40 EDT · **Closed:** 2026-08-23 08:47:56 EDT
 **Plan:** [202608/agent\_wait\_command.md](https://github.com/sase-org/sase--plans/blob/main/202608/agent_wait_command.md)
 
 ## Description
@@ -14,7 +14,7 @@ cli: register the subcommand, wire target selection and self-exclusion, implemen
 ## Dependencies
 
 - **Depends on:** [sase-s8.1](sase-s8.1.md) ✓ · ⧖ 2026-08-23
-- **Blocks:** [sase-s8.3](sase-s8.3.md) ◐ · ⧖ 2026-08-23
+- **Blocks:** [sase-s8.3](sase-s8.3.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 

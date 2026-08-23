@@ -13,7 +13,7 @@ docs: document the command and the monitor gate idiom, polish help text and exam
 
 ## Dependencies
 
-- **Depends on:** [sase-s8.3](sase-s8.3.md) ◐ · ⧖ 2026-08-23
+- **Depends on:** [sase-s8.3](sase-s8.3.md) ✓ · ⧖ 2026-08-23
 
 ## Agents
 
