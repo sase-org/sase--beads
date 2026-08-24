@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-sq](README.md) / sase-sq.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0cb](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0cb.md) · **Assignee:** `sase-sq.1` · **Size:** large
-**Created:** 2026-08-24 09:32:13 EDT
+**Created:** 2026-08-24 09:32:13 EDT · **Closed:** 2026-08-24 12:44:33 EDT
 **Plan:** [202608/memory\_webs.md](https://github.com/sase-org/sase--plans/blob/main/202608/memory_webs.md)
 
 ## Description
@@ -23,6 +23,8 @@ tiers: rename short-term/long-term memory to core/reference across the Rust tier
 
 [2026-08-24T15:25:27Z · sase-sq.1] PROPOSED FOLLOW-UP: Do a separate internal identifier rename for legacy short/long symbol names such as GeneratedLongMemoryNote, _short_memory_bodies, and inlined_short_memory_files once the user-facing vocabulary change is landed.
 
+[2026-08-24T16:44:33Z · sase-sq.1] Auto-closed by `sase stitch create` after create_commit landed c9ca0db5f ("feat(memory): rename memory tiers to core and reference"). No verification is implied by this note. Reopen with `sase bead open sase-sq.1`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Blocks:** [sase-sq.2](sase-sq.2.md) ◐ · ⧖ 2026-08-24
@@ -31,10 +33,11 @@ tiers: rename short-term/long-term memory to core/reference across the Rust tier
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.1.md) | [sase-sq.1](sase-sq.1.md) | 1 |
+| [bbugyi200.athena.sase-sq.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.1.md) | [sase-sq.1](sase-sq.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c9ca0db`](https://github.com/sase-org/sase/commit/c9ca0db5f8d0d7b5d007010e661abb1d2b5638dc) | feat(memory): rename memory tiers to core and reference | [sase-sq.1](sase-sq.1.md) | 2026-08-24 12:41:31 EDT |
+| sase-core | [`sase-core@f6eedd9`](https://github.com/sase-org/sase-core/commit/f6eedd98fbb6e72cb0adeb7fd40a71ff5b47906e) | feat(memory): support core and reference memory tiers | [sase-sq.1](sase-sq.1.md) | 2026-08-24 12:49:09 EDT |
