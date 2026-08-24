@@ -40,7 +40,14 @@ flowchart TD
     n5["sase-sq.5: Decision web and flag removal [closed]"]
     n6["sase-sq.6: Generated task-type web [in_progress]"]
     n7["sase-sq.7: Glossary migration to a core web [in_progress]"]
-    n8["sase-sq.8: Retire the config glossary [in_progress]"]
+    n8["sase-sq.7.1: Glossary migration to a core web [in_progress]"]
+    n9["sase-sq.7.1.1: File-backed glossary source wire [in_progress]"]
+    n10["sase-sq.7.1.2: Inline roster parity with the generated glossary note [in_progress]"]
+    n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [in_progress]"]
+    n12["sase-sq.7.1.4: The sase memory web migrate command [in_progress]"]
+    n13["sase-sq.7.1.5: sase glossary as a deprecating alias [in_progress]"]
+    n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [in_progress]"]
+    n15["sase-sq.8: Retire the config glossary [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -48,7 +55,14 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
-    n0 --> n8
+    n7 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
+    n8 --> n14
+    n0 --> n15
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -56,8 +70,14 @@ flowchart TD
     n4 -.-> n5
     n5 -.-> n6
     n5 -.-> n7
-    n6 -.-> n8
-    n7 -.-> n8
+    n6 -.-> n15
+    n7 -.-> n15
+    n9 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n14
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -70,7 +90,14 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.4/README.md) | [sase-sq.4](sase-sq.4.md) | 1 |
 | [bbugyi200.athena.sase-sq.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.5.md) | [sase-sq.5](sase-sq.5.md) | 1 |
 | [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 0 |
-| [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7/README.md) | [sase-sq.7](sase-sq.7.md) | 0 |
+| [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.md) | [sase-sq.7](sase-sq.7.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.2/README.md) | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 1 |
+| [bbugyi200.athena.sase-sq.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.3/README.md) | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.4/README.md) | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.5/README.md) | [sase-sq.7.1.5](sase-sq.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.6/README.md) | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.land/README.md) | [sase-sq.7.1](sase-sq.7.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8/README.md) | [sase-sq.8](sase-sq.8.md) | 0 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
 
@@ -84,3 +111,4 @@ flowchart TD
 | sase | [`cbda792`](https://github.com/sase-org/sase/commit/cbda7926f05ffc09eb1c3aaa4693f4fe6a1fbda7) | feat(memory): make memory read/show variadic over note/web/strand selectors and add the web command group | [sase-sq.3](sase-sq.3.md) | 2026-08-24 15:12:12 EDT |
 | sase | [`b3e0cc0`](https://github.com/sase-org/sase/commit/b3e0cc0e48d71722e6ec0ffa0525c4127d7cdb0b) | feat: add ACE memory web browsing | [sase-sq.4](sase-sq.4.md) | 2026-08-24 16:22:15 EDT |
 | sase | [`0adb544`](https://github.com/sase-org/sase/commit/0adb544096e9e87001cee9631c98e0a32be6c5d4) | feat(memory): remove memory\_webs flag and ship the decisions web | [sase-sq.5](sase-sq.5.md) | 2026-08-24 17:56:58 EDT |
+| sase | [`2450497`](https://github.com/sase-org/sase/commit/2450497bbc17dca97a27b08c4527612e43e0eaac) | feat(memory): add lookup and roster modules for memory web decisions | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 2026-08-24 18:32:20 EDT |

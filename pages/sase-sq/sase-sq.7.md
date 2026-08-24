@@ -20,4 +20,4 @@ glossary: generalize the Rust glossary source wire to file-backed strands, add t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7/README.md) | [sase-sq.7](sase-sq.7.md) | 0 |
+| [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.md) | [sase-sq.7](sase-sq.7.md) | 0 |
