@@ -27,7 +27,7 @@ tiers: rename short-term/long-term memory to core/reference across the Rust tier
 
 ## Dependencies
 
-- **Blocks:** [sase-sq.2](sase-sq.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.2](sase-sq.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

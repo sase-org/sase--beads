@@ -13,7 +13,7 @@ cli: make `sase memory read`/`show` variadic over note, web, and web:keyword sel
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.2](sase-sq.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.2](sase-sq.2.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.4](sase-sq.4.md) ◐ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.5](sase-sq.5.md) ◐ · ⧖ 2026-08-24
 
