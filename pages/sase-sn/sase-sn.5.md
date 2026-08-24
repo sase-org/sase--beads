@@ -23,7 +23,7 @@ rust: mirror the text-block closing rule and the narrowed `+` decoding in the sa
 
 - **Depends on:** [sase-sn.1](sase-sn.1.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sn.4](sase-sn.4.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sn.6](sase-sn.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sn.6](sase-sn.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

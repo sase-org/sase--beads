@@ -19,7 +19,7 @@ decode: apply the `+` space substitution only on the whitespace-delimited bare c
 
 - **Depends on:** [sase-sn.1](sase-sn.1.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sn.5](sase-sn.5.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sn.6](sase-sn.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sn.6](sase-sn.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

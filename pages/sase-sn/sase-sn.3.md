@@ -17,7 +17,7 @@ diagnostic: keep the best-effort unresolved-reference pre-scan from printing a f
 
 ## Dependencies
 
-- **Blocks:** [sase-sn.6](sase-sn.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sn.6](sase-sn.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
