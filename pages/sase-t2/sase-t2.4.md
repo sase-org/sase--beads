@@ -24,4 +24,10 @@ cli: retire `sase bead update --notes` behind a teaching error and add a batch `
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.4/README.md) | [sase-t2.4](sase-t2.4.md) | 0 |
+| [bbugyi200.athena.sase-t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.4/README.md) | [sase-t2.4](sase-t2.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`96151bb`](https://github.com/sase-org/sase/commit/96151bbb435c32858e61c8c0d39708d540b22896) | feat(bead): append notes from update | [sase-t2.4](sase-t2.4.md) | 2026-08-24 18:39:42 EDT |
