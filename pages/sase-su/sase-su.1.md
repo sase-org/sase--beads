@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-su](README.md) / sase-su.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ce](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ce.md) · **Assignee:** `sase-su.1` · **Size:** medium
-**Created:** 2026-08-24 10:29:13 EDT
+**Created:** 2026-08-24 10:29:13 EDT · **Closed:** 2026-08-24 11:34:04 EDT
 **Plan:** [202608/provider\_drain.md](https://github.com/sase-org/sase--plans/blob/main/202608/provider_drain.md)
 
 ## Previously Closed
@@ -23,9 +23,11 @@ engine: select the agents a disabled provider stranded, classify each one's rero
 
 This agent forgot to commit.
 
+[2026-08-24T15:34:04Z · sase-su.1] Auto-closed by `sase stitch create` after create_commit landed bf3206b8f ("feat(agent): add provider-drain planning and execution engine"). No verification is implied by this note. Reopen with `sase bead open sase-su.1`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
-- **Blocks:** [sase-su.2](sase-su.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-su.2](sase-su.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

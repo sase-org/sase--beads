@@ -13,7 +13,7 @@ auto: gate the feature behind a beta flag, submit a drain proc when a usage-limi
 
 ## Dependencies
 
-- **Depends on:** [sase-su.2](sase-su.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-su.2](sase-su.2.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-su.5](sase-su.5.md) ◐ · ⧖ 2026-08-24
 
 ## Agents

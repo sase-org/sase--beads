@@ -13,7 +13,7 @@ ace: after a manual hard disable in the Models panel, offer a single-keypress re
 
 ## Dependencies
 
-- **Depends on:** [sase-su.2](sase-su.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-su.2](sase-su.2.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-su.5](sase-su.5.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
