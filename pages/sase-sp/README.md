@@ -59,7 +59,7 @@ remaining adopt work are noted on sase-sp.2.
 | [sase-sp.1](sase-sp.1.md) | Typed deferral and a non-failing refusal policy in Rust core | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sp.2](sase-sp.2.md) | Adopt the released core floor and the deferral config schema | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-sp.3](sase-sp.3.md) | Adjudicate deferrals at submit time instead of after the turn | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-sp.4](sase-sp.4.md) | A deliberate deferral escape hatch that does not fail the run | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sp.4](sase-sp.4.md) | A deliberate deferral escape hatch that does not fail the run | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sp.5](sase-sp.5.md) | Publish the commit consent model where agents actually read it | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sp.6](sase-sp.6.md) | Historical regression corpus, live acceptance, telemetry, and docs | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 
@@ -71,7 +71,7 @@ flowchart TD
     n1["sase-sp.1: Typed deferral and a non-failing refusal policy in Rust core [closed]"]
     n2["sase-sp.2: Adopt the released core floor and the deferral config schema [closed]"]
     n3["sase-sp.3: Adjudicate deferrals at submit time instead of after the turn [closed]"]
-    n4["sase-sp.4: A deliberate deferral escape hatch that does not fail the run [in_progress]"]
+    n4["sase-sp.4: A deliberate deferral escape hatch that does not fail the run [closed]"]
     n5["sase-sp.5: Publish the commit consent model where agents actually read it [closed]"]
     n6["sase-sp.6: Historical regression corpus, live acceptance, telemetry, and docs [in_progress]"]
     n0 --> n1
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.1/README.md) | [sase-sp.1](sase-sp.1.md) | 1 |
 | [bbugyi200.athena.sase-sp.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sp.2.md) | [sase-sp.2](sase-sp.2.md) | 1 |
 | [bbugyi200.athena.sase-sp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.3/README.md) | [sase-sp.3](sase-sp.3.md) | 1 |
-| [bbugyi200.athena.sase-sp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.4/README.md) | [sase-sp.4](sase-sp.4.md) | 0 |
+| [bbugyi200.athena.sase-sp.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sp.4.md) | [sase-sp.4](sase-sp.4.md) | 1 |
 | [bbugyi200.athena.sase-sp.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.5/README.md) | [sase-sp.5](sase-sp.5.md) | 1 |
 | [bbugyi200.athena.sase-sp.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.6/README.md) | [sase-sp.6](sase-sp.6.md) | 0 |
 | [bbugyi200.athena.sase-sp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.land/README.md) | [sase-sp](README.md) | 0 |
@@ -109,3 +109,4 @@ flowchart TD
 | sase | [`570b6be`](https://github.com/sase-org/sase/commit/570b6be4b0c12eec328e1b8c66ac1440672fd81a) | feat(finalizers): raise sase-core-rs floor and wire FinalizerDeferralWire | [sase-sp.2](sase-sp.2.md) | 2026-08-24 11:01:09 EDT |
 | sase | [`524d8f2`](https://github.com/sase-org/sase/commit/524d8f26f2b3ff619132248135ef2322349463c5) | feat(finalizers): adjudicate typed deferrals at submit time | [sase-sp.3](sase-sp.3.md) | 2026-08-24 12:12:14 EDT |
 | sase | [`4580649`](https://github.com/sase-org/sase/commit/45806495fa3905e8d279f1bc504a24a9f02461e2) | feat(final): publish commit declaration consent model | [sase-sp.5](sase-sp.5.md) | 2026-08-24 12:50:15 EDT |
+| sase | [`2b046b1`](https://github.com/sase-org/sase/commit/2b046b17460b2e86e24a157c1ba54a97549fd06a) | feat(finalizers): defer commit on refusal instead of failing the turn | [sase-sp.4](sase-sp.4.md) | 2026-08-24 13:22:05 EDT |
