@@ -18,7 +18,7 @@ grammar: close a `[[...]]` text block at the first `]]` in argument-terminator p
 ## Dependencies
 
 - **Blocks:** [sase-sn.4](sase-sn.4.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sn.5](sase-sn.5.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sn.5](sase-sn.5.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sn.6](sase-sn.6.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
