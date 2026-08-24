@@ -14,7 +14,7 @@ acceptance: replay every historical refusal as a regression fixture, prove the p
 ## Dependencies
 
 - **Depends on:** [sase-sp.4](sase-sp.4.md) ◐ · ⧖ 2026-08-24
-- **Depends on:** [sase-sp.5](sase-sp.5.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sp.5](sase-sp.5.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

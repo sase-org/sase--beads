@@ -21,7 +21,7 @@ adjudicate: replace the free-text `refuse` action with typed `defer` decisions a
 
 - **Depends on:** [sase-sp.2](sase-sp.2.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sp.4](sase-sp.4.md) ◐ · ⧖ 2026-08-24
-- **Blocks:** [sase-sp.5](sase-sp.5.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sp.5](sase-sp.5.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
