@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-sp](README.md) / sase-sp.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ca](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ca.md) · **Assignee:** `sase-sp.2` · **Size:** small
-**Created:** 2026-08-24 09:19:08 EDT
+**Created:** 2026-08-24 09:19:08 EDT · **Closed:** 2026-08-24 11:01:49 EDT
 **Plan:** [202608/finalizer\_commit\_authoring.md](https://github.com/sase-org/sase--plans/blob/main/202608/finalizer_commit_authoring.md)
 
 ## Description
@@ -69,10 +69,12 @@ STILL YOURS:
 - The plan's inertness test: set `refusal: defer` and assert today's
   fail-closed behavior is unchanged until `escape` honors it.
 
+[2026-08-24T15:01:49Z · sase-sp.2--3] Auto-closed by `sase stitch create` after create_commit landed 570b6be4b ("feat(finalizers): raise sase-core-rs floor and wire FinalizerDeferralWire"). No verification is implied by this note. Reopen with `sase bead open sase-sp.2`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-sp.1](sase-sp.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sp.3](sase-sp.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sp.3](sase-sp.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

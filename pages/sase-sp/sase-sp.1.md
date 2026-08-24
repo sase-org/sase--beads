@@ -13,7 +13,7 @@ core: add the typed deferral-reason enum, the `defer` refusal policy, and the no
 
 ## Dependencies
 
-- **Blocks:** [sase-sp.2](sase-sp.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sp.2](sase-sp.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

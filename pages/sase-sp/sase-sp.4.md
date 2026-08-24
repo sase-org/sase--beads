@@ -13,7 +13,7 @@ escape: add `sase final defer`, honor `refusal: defer` in the controller, and re
 
 ## Dependencies
 
-- **Depends on:** [sase-sp.3](sase-sp.3.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sp.3](sase-sp.3.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sp.6](sase-sp.6.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
