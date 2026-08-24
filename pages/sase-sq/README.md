@@ -1,0 +1,81 @@
+# Bead: sase-sq — Memory webs and strands
+
+[Bead Pages](../README.md) / sase-sq
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0cb](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0cb.md) · **Assignee:** `sase-sq.land`
+**Created:** 2026-08-24 09:32:12 EDT
+**Plan:** [202608/memory\_webs.md](https://github.com/sase-org/sase--plans/blob/main/202608/memory_webs.md)
+
+## Description
+
+A keyed memory collection is a first-class SASE memory kind: one flat web descriptor note plus a sibling directory of strand files, configured by users adding files, rendered as core or reference memory per web, and read with `sase memory read <web>:<keyword>`. The glossary, task types, and a new decision log all run on that one substrate, and the config-backed glossary is gone.
+
+## Notes
+
+[2026-08-24T15:42:12Z · 0ch] DISCOVERED ISSUE: During unrelated pool-launch-reservation verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Failure: home memory initialization wants to refresh ~/.local/share/chezmoi/home/sase/memory/sase.md, README.md, AGENTS.md, CLAUDE.md, GEMINI.md, QWEN.md, and OPENCODE.md, and reports blocker 'unreferenced memory file sase/memory/obsidian.md'. Impact: every agent's required just check remains red after code/lint gates pass until the memory/web generator state and chezmoi home memory agree. I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the pool reservation diff. Duplicate search across task(memory) statuses found no obsidian/init-memory/unreferenced-memory match; routed here because this epic owns the active memory-web substrate and reference/core memory transition.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-sq.1](sase-sq.1.md) | Core and reference memory vocabulary | ◐ in_progress | large | 2026-08-24 | 1 | 1 |
+| [sase-sq.2](sase-sq.2.md) | Web and strand substrate | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
+| [sase-sq.3](sase-sq.3.md) | Selector-based memory read and the web command group | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.4](sase-sq.4.md) | ACE memory pane webs and strands | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.5](sase-sq.5.md) | Decision web and flag removal | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.6](sase-sq.6.md) | Generated task-type web | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.7](sase-sq.7.md) | Glossary migration to a core web | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
+| [sase-sq.8](sase-sq.8.md) | Retire the config glossary | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-sq: Memory webs and strands [in_progress]"]
+    n1["sase-sq.1: Core and reference memory vocabulary [in_progress]"]
+    n2["sase-sq.2: Web and strand substrate [in_progress]"]
+    n3["sase-sq.3: Selector-based memory read and the web command group [in_progress]"]
+    n4["sase-sq.4: ACE memory pane webs and strands [in_progress]"]
+    n5["sase-sq.5: Decision web and flag removal [in_progress]"]
+    n6["sase-sq.6: Generated task-type web [in_progress]"]
+    n7["sase-sq.7: Glossary migration to a core web [in_progress]"]
+    n8["sase-sq.8: Retire the config glossary [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n1 -.-> n2
+    n2 -.-> n3
+    n3 -.-> n4
+    n3 -.-> n5
+    n4 -.-> n5
+    n5 -.-> n6
+    n5 -.-> n7
+    n6 -.-> n8
+    n7 -.-> n8
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-sq.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.1.md) | [sase-sq.1](sase-sq.1.md) | 1 |
+| [bbugyi200.athena.sase-sq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.2/README.md) | [sase-sq.2](sase-sq.2.md) | 0 |
+| [bbugyi200.athena.sase-sq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.3/README.md) | [sase-sq.3](sase-sq.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.4/README.md) | [sase-sq.4](sase-sq.4.md) | 0 |
+| [bbugyi200.athena.sase-sq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.5/README.md) | [sase-sq.5](sase-sq.5.md) | 0 |
+| [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 0 |
+| [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7/README.md) | [sase-sq.7](sase-sq.7.md) | 0 |
+| [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8/README.md) | [sase-sq.8](sase-sq.8.md) | 0 |
+| [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c9ca0db`](https://github.com/sase-org/sase/commit/c9ca0db5f8d0d7b5d007010e661abb1d2b5638dc) | feat(memory): rename memory tiers to core and reference | [sase-sq.1](sase-sq.1.md) | 2026-08-24 12:41:31 EDT |
