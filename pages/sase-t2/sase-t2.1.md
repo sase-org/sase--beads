@@ -25,10 +25,11 @@ core: replace the free-text `notes` blob with an event-derived list of timestamp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.1/README.md) | [sase-t2.1](sase-t2.1.md) | 1 |
+| [bbugyi200.athena.sase-t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.1/README.md) | [sase-t2.1](sase-t2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b74bfa3`](https://github.com/sase-org/sase/commit/b74bfa37abe2fd6c466a086949931aeb46680e53) | feat(bead): support structured note projections | [sase-t2.1](sase-t2.1.md) | 2026-08-24 16:16:20 EDT |
+| sase-core | [`sase-core@bda9efc`](https://github.com/sase-org/sase-core/commit/bda9efc59f6ea65aa286df9c7bb0c5a89500a3be) | feat(bead)!: store notes as structured records | [sase-t2.1](sase-t2.1.md) | 2026-08-24 16:17:04 EDT |
