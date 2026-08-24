@@ -13,7 +13,7 @@ migrate: add `sase memory web migrate glossary [-n] [-p REF]`, which writes one 
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.7.1.2](sase-sq.7.1.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.7.1.2](sase-sq.7.1.2.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sq.7.1.3](sase-sq.7.1.3.md) ◐ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.7.1.6](sase-sq.7.1.6.md) ◐ · ⧖ 2026-08-24
 

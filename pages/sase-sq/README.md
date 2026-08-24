@@ -15,6 +15,8 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 
 [2026-08-24T15:42:12Z · 0ch] DISCOVERED ISSUE: During unrelated pool-launch-reservation verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Failure: home memory initialization wants to refresh ~/.local/share/chezmoi/home/sase/memory/sase.md, README.md, AGENTS.md, CLAUDE.md, GEMINI.md, QWEN.md, and OPENCODE.md, and reports blocker 'unreferenced memory file sase/memory/obsidian.md'. Impact: every agent's required just check remains red after code/lint gates pass until the memory/web generator state and chezmoi home memory agree. I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the pool reservation diff. Duplicate search across task(memory) statuses found no obsidian/init-memory/unreferenced-memory match; routed here because this epic owns the active memory-web substrate and reference/core memory transition.
 
+[2026-08-24T22:57:38Z · 0d2] DISCOVERED ISSUE: During canonical_parent_plan_refs verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Current failure wants to refresh ~/.local/share/chezmoi/home/sase/memory/sase.md (+1) and ~/.local/share/chezmoi/home/sase/memory/README.md (+8 -5). I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the parent-plan display diff. This corroborates the existing init-memory drift note on this memory-web epic rather than a new task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -24,7 +26,7 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 | [sase-sq.3](sase-sq.3.md) | Selector-based memory read and the web command group | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.4](sase-sq.4.md) | ACE memory pane webs and strands | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.5](sase-sq.5.md) | Decision web and flag removal | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-sq.6](sase-sq.6.md) | Generated task-type web | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.6](sase-sq.6.md) | Generated task-type web | ◐ in_progress | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.7](sase-sq.7.md) | Glossary migration to a core web | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
 | [sase-sq.8](sase-sq.8.md) | Retire the config glossary | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
 
@@ -42,7 +44,7 @@ flowchart TD
     n7["sase-sq.7: Glossary migration to a core web [in_progress]"]
     n8["sase-sq.7.1: Glossary migration to a core web [in_progress]"]
     n9["sase-sq.7.1.1: File-backed glossary source wire [in_progress]"]
-    n10["sase-sq.7.1.2: Inline roster parity with the generated glossary note [in_progress]"]
+    n10["sase-sq.7.1.2: Inline roster parity with the generated glossary note [closed]"]
     n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [in_progress]"]
     n12["sase-sq.7.1.4: The sase memory web migrate command [in_progress]"]
     n13["sase-sq.7.1.5: sase glossary as a deprecating alias [in_progress]"]
@@ -89,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.3/README.md) | [sase-sq.3](sase-sq.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.4/README.md) | [sase-sq.4](sase-sq.4.md) | 1 |
 | [bbugyi200.athena.sase-sq.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.5.md) | [sase-sq.5](sase-sq.5.md) | 1 |
-| [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 0 |
+| [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 1 |
 | [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.md) | [sase-sq.7](sase-sq.7.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.2/README.md) | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 1 |
@@ -112,3 +114,4 @@ flowchart TD
 | sase | [`b3e0cc0`](https://github.com/sase-org/sase/commit/b3e0cc0e48d71722e6ec0ffa0525c4127d7cdb0b) | feat: add ACE memory web browsing | [sase-sq.4](sase-sq.4.md) | 2026-08-24 16:22:15 EDT |
 | sase | [`0adb544`](https://github.com/sase-org/sase/commit/0adb544096e9e87001cee9631c98e0a32be6c5d4) | feat(memory): remove memory\_webs flag and ship the decisions web | [sase-sq.5](sase-sq.5.md) | 2026-08-24 17:56:58 EDT |
 | sase | [`2450497`](https://github.com/sase-org/sase/commit/2450497bbc17dca97a27b08c4527612e43e0eaac) | feat(memory): add lookup and roster modules for memory web decisions | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 2026-08-24 18:32:20 EDT |
+| sase | [`eb77577`](https://github.com/sase-org/sase/commit/eb775777bd4080924c17bb3910583a1c1ed828bb) | feat(memory): generate task-type strands as a memory web with structured notes | [sase-sq.6](sase-sq.6.md) | 2026-08-24 19:04:02 EDT |
