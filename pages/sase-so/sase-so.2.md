@@ -20,4 +20,10 @@ axe_clan_admission: make survivor promotion durable and prove launched chop memb
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-so.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.2/README.md) | [sase-so.2](sase-so.2.md) | 0 |
+| [bbugyi200.athena.sase-so.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.2/README.md) | [sase-so.2](sase-so.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4041c17`](https://github.com/sase-org/sase/commit/4041c17e496660326307e422196885ceb795aff7) | feat(axe): promote first eligible chop member to clan declarer at dispatch time | [sase-so.2](sase-so.2.md) | 2026-08-24 08:25:14 EDT |
