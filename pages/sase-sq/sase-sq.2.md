@@ -18,7 +18,7 @@ substrate: add the web/strand domain model, provider-based discovery, the fail-c
 ## Dependencies
 
 - **Depends on:** [sase-sq.1](sase-sq.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.3](sase-sq.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.3](sase-sq.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

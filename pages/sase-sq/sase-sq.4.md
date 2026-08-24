@@ -13,7 +13,7 @@ ace: teach the ACE memory pane to browse webs and their strands, preview strand 
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.3](sase-sq.3.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.3](sase-sq.3.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.5](sase-sq.5.md) ◐ · ⧖ 2026-08-24
 
 ## Agents

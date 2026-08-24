@@ -21,7 +21,7 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 |---|---|---|---|---|---:|---:|
 | [sase-sq.1](sase-sq.1.md) | Core and reference memory vocabulary | ✓ closed | large | 2026-08-24 | 1 | 2 |
 | [sase-sq.2](sase-sq.2.md) | Web and strand substrate | ✓ closed | large | 2026-08-24 | 1 | 1 |
-| [sase-sq.3](sase-sq.3.md) | Selector-based memory read and the web command group | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sq.3](sase-sq.3.md) | Selector-based memory read and the web command group | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.4](sase-sq.4.md) | ACE memory pane webs and strands | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 | [sase-sq.5](sase-sq.5.md) | Decision web and flag removal | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 | [sase-sq.6](sase-sq.6.md) | Generated task-type web | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
@@ -35,7 +35,7 @@ flowchart TD
     n0["sase-sq: Memory webs and strands [in_progress]"]
     n1["sase-sq.1: Core and reference memory vocabulary [closed]"]
     n2["sase-sq.2: Web and strand substrate [closed]"]
-    n3["sase-sq.3: Selector-based memory read and the web command group [in_progress]"]
+    n3["sase-sq.3: Selector-based memory read and the web command group [closed]"]
     n4["sase-sq.4: ACE memory pane webs and strands [in_progress]"]
     n5["sase-sq.5: Decision web and flag removal [in_progress]"]
     n6["sase-sq.6: Generated task-type web [in_progress]"]
@@ -66,7 +66,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-sq.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.1.md) | [sase-sq.1](sase-sq.1.md) | 2 |
 | [bbugyi200.athena.sase-sq.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.2.md) | [sase-sq.2](sase-sq.2.md) | 1 |
-| [bbugyi200.athena.sase-sq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.3/README.md) | [sase-sq.3](sase-sq.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.3/README.md) | [sase-sq.3](sase-sq.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.4/README.md) | [sase-sq.4](sase-sq.4.md) | 0 |
 | [bbugyi200.athena.sase-sq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.5/README.md) | [sase-sq.5](sase-sq.5.md) | 0 |
 | [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`c9ca0db`](https://github.com/sase-org/sase/commit/c9ca0db5f8d0d7b5d007010e661abb1d2b5638dc) | feat(memory): rename memory tiers to core and reference | [sase-sq.1](sase-sq.1.md) | 2026-08-24 12:41:31 EDT |
 | sase-core | [`sase-core@f6eedd9`](https://github.com/sase-org/sase-core/commit/f6eedd98fbb6e72cb0adeb7fd40a71ff5b47906e) | feat(memory): support core and reference memory tiers | [sase-sq.1](sase-sq.1.md) | 2026-08-24 12:49:09 EDT |
 | sase | [`f72ff9f`](https://github.com/sase-org/sase/commit/f72ff9f385643bfe1f7a9b35f72702bd4b055163) | feat(memory): add memory web substrate | [sase-sq.2](sase-sq.2.md) | 2026-08-24 13:51:40 EDT |
+| sase | [`cbda792`](https://github.com/sase-org/sase/commit/cbda7926f05ffc09eb1c3aaa4693f4fe6a1fbda7) | feat(memory): make memory read/show variadic over note/web/strand selectors and add the web command group | [sase-sq.3](sase-sq.3.md) | 2026-08-24 15:12:12 EDT |
