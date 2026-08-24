@@ -23,10 +23,11 @@ typed_identity: extend the Rust/Python typed wire, restore grouped directives, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-so.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.1/README.md) | [sase-so.1](sase-so.1.md) | 1 |
+| [bbugyi200.athena.sase-so.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.1/README.md) | [sase-so.1](sase-so.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`abefcc4`](https://github.com/sase-org/sase/commit/abefcc4fba5f44198d4375e8ed865b37a81b5c0d) | feat(agent-launch): keep clan and family identity through typed planning | [sase-so.1](sase-so.1.md) | 2026-08-24 07:50:43 EDT |
+| sase-core | [`sase-core@8d51bd8`](https://github.com/sase-org/sase-core/commit/8d51bd8df4b9de8c465c4cd8eb54174b17a79800) | feat(agent-launch): preserve grouped identity on typed AgentUnitWire | [sase-so.1](sase-so.1.md) | 2026-08-24 07:52:33 EDT |
