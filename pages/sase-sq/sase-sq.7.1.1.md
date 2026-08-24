@@ -29,10 +29,11 @@ wire: generalize sase-core's GlossarySourceWire from config_path/config_key_path
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`af27e67`](https://github.com/sase-org/sase/commit/af27e67e06f1e9e185bc08e1581832e4cdd4f743) | feat(glossary): emit v2 source wire fields | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2026-08-24 19:19:45 EDT |
+| sase-core | [`sase-core@151a37d`](https://github.com/sase-org/sase-core/commit/151a37df6a555732e08b5258b68f39bbc9cac58c) | feat(glossary): add source-backed wire v2 | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2026-08-24 19:20:39 EDT |
