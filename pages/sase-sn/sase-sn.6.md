@@ -13,7 +13,7 @@ regression: add a launch-level regression test built from the real failing promp
 
 ## Dependencies
 
-- **Depends on:** [sase-sn.1](sase-sn.1.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sn.1](sase-sn.1.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sn.2](sase-sn.2.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sn.3](sase-sn.3.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sn.4](sase-sn.4.md) ◐ · ⧖ 2026-08-24

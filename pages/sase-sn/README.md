@@ -15,7 +15,7 @@ Free-text xprompt arguments survive prose that contains `]]`, `+`, commas, and a
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-sn.1](sase-sn.1.md) | Canonical text-block closing rule in the Python scanners | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-sn.1](sase-sn.1.md) | Canonical text-block closing rule in the Python scanners | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sn.2](sase-sn.2.md) | Stop round-tripping shorthand free text through \`\[\[...\]\]\` | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sn.3](sase-sn.3.md) | Silence and sharpen expansion-failure reporting | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-sn.4](sase-sn.4.md) | Narrow the \`+\`-to-space decoding to bare colon arguments | ◐ in_progress | small | 2026-08-24 | 1 | 0 |
@@ -27,7 +27,7 @@ Free-text xprompt arguments survive prose that contains `]]`, `+`, commas, and a
 ```mermaid
 flowchart TD
     n0["sase-sn: Fix xprompt free-text argument parsing (`[[...]]` text blocks) [in_progress]"]
-    n1["sase-sn.1: Canonical text-block closing rule in the Python scanners [in_progress]"]
+    n1["sase-sn.1: Canonical text-block closing rule in the Python scanners [closed]"]
     n2["sase-sn.2: Stop round-tripping shorthand free text through `[[...]]` [closed]"]
     n3["sase-sn.3: Silence and sharpen expansion-failure reporting [closed]"]
     n4["sase-sn.4: Narrow the `+`-to-space decoding to bare colon arguments [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.1/README.md) | [sase-sn.1](sase-sn.1.md) | 0 |
+| [bbugyi200.athena.sase-sn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.1/README.md) | [sase-sn.1](sase-sn.1.md) | 1 |
 | [bbugyi200.athena.sase-sn.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sn.2.md) | [sase-sn.2](sase-sn.2.md) | 1 |
 | [bbugyi200.athena.sase-sn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.3/README.md) | [sase-sn.3](sase-sn.3.md) | 1 |
 | [bbugyi200.athena.sase-sn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.4/README.md) | [sase-sn.4](sase-sn.4.md) | 0 |
@@ -67,3 +67,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`4d0da0d`](https://github.com/sase-org/sase/commit/4d0da0d4be1c0ab5284946c3a6393c3d758a6302) | fix(xprompt): bind shorthand text directly from source, not re-lexed | [sase-sn.2](sase-sn.2.md) | 2026-08-24 06:35:32 EDT |
 | sase | [`d0ea16e`](https://github.com/sase-org/sase/commit/d0ea16ef8eac7043636b4292237d1efc2b92ba9a) | fix(xprompt): silence swallowed expansion errors and name surplus bindings | [sase-sn.3](sase-sn.3.md) | 2026-08-24 06:42:04 EDT |
+| sase | [`6ca6e79`](https://github.com/sase-org/sase/commit/6ca6e798ed2277eab8e1741abc66b2117480f455) | fix(xprompt): honor text-block terminators in python scanners | [sase-sn.1](sase-sn.1.md) | 2026-08-24 07:06:02 EDT |
