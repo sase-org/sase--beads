@@ -14,17 +14,18 @@ pyapi: carry the structured note list through the Python `Issue` model, JSONL co
 ## Dependencies
 
 - **Depends on:** [sase-t2.1](sase-t2.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-t2.3](sase-t2.3.md) ◐ · ⧖ 2026-08-24
-- **Blocks:** [sase-t2.4](sase-t2.4.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-t2.3](sase-t2.3.md) ✓ · ⧖ 2026-08-24
+- **Blocks:** [sase-t2.4](sase-t2.4.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.2/README.md) | [sase-t2.2](sase-t2.2.md) | 1 |
+| [bbugyi200.athena.sase-t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.2/README.md) | [sase-t2.2](sase-t2.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f6c1467`](https://github.com/sase-org/sase/commit/f6c14672253185772692f4183e64f07c8df396a8) | feat(bead): carry structured notes through the Python model and read consumers | [sase-t2.2](sase-t2.2.md) | 2026-08-24 17:08:28 EDT |
+| sase-core | [`sase-core@75eb619`](https://github.com/sase-org/sase-core/commit/75eb61989b173010b6f8dba23e10534867737ff7) | feat(bead): default the notes column to an empty structured list | [sase-t2.2](sase-t2.2.md) | 2026-08-24 17:10:57 EDT |

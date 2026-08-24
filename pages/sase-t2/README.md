@@ -16,9 +16,9 @@ Every bead note carries a real timestamp and author as structured data, no write
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-t2.1](sase-t2.1.md) | Structured note log in sase-core | ✓ closed | medium | 2026-08-24 | 1 | 2 |
-| [sase-t2.2](sase-t2.2.md) | Python model, projections, and text consumers | ◐ in_progress | medium | 2026-08-24 | 1 | 1 |
-| [sase-t2.3](sase-t2.3.md) | NOTES rendering in \`sase bead show\` | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
-| [sase-t2.4](sase-t2.4.md) | Append-only write surface | ◐ in_progress | small | 2026-08-24 | 1 | 0 |
+| [sase-t2.2](sase-t2.2.md) | Python model, projections, and text consumers | ◐ in_progress | medium | 2026-08-24 | 1 | 2 |
+| [sase-t2.3](sase-t2.3.md) | NOTES rendering in \`sase bead show\` | ✓ closed | medium | 2026-08-24 | 1 | 1 |
+| [sase-t2.4](sase-t2.4.md) | Append-only write surface | ✓ closed | small | 2026-08-24 | 1 | 0 |
 | [sase-t2.5](sase-t2.5.md) | Note edit and retraction | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 | [sase-t2.6](sase-t2.6.md) | Documentation and memory | ◐ in_progress | small | 2026-08-24 | 1 | 0 |
 
@@ -29,8 +29,8 @@ flowchart TD
     n0["sase-t2: Timestamped bead notes [in_progress]"]
     n1["sase-t2.1: Structured note log in sase-core [closed]"]
     n2["sase-t2.2: Python model, projections, and text consumers [in_progress]"]
-    n3["sase-t2.3: NOTES rendering in `sase bead show` [in_progress]"]
-    n4["sase-t2.4: Append-only write surface [in_progress]"]
+    n3["sase-t2.3: NOTES rendering in `sase bead show` [closed]"]
+    n4["sase-t2.4: Append-only write surface [closed]"]
     n5["sase-t2.5: Note edit and retraction [in_progress]"]
     n6["sase-t2.6: Documentation and memory [in_progress]"]
     n0 --> n1
@@ -52,8 +52,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.1/README.md) | [sase-t2.1](sase-t2.1.md) | 2 |
-| [bbugyi200.athena.sase-t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.2/README.md) | [sase-t2.2](sase-t2.2.md) | 1 |
-| [bbugyi200.athena.sase-t2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.3/README.md) | [sase-t2.3](sase-t2.3.md) | 0 |
+| [bbugyi200.athena.sase-t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.2/README.md) | [sase-t2.2](sase-t2.2.md) | 2 |
+| [bbugyi200.athena.sase-t2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.3/README.md) | [sase-t2.3](sase-t2.3.md) | 1 |
 | [bbugyi200.athena.sase-t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.4/README.md) | [sase-t2.4](sase-t2.4.md) | 0 |
 | [bbugyi200.athena.sase-t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.5/README.md) | [sase-t2.5](sase-t2.5.md) | 0 |
 | [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 0 |
@@ -66,3 +66,5 @@ flowchart TD
 | sase | [`b74bfa3`](https://github.com/sase-org/sase/commit/b74bfa37abe2fd6c466a086949931aeb46680e53) | feat(bead): support structured note projections | [sase-t2.1](sase-t2.1.md) | 2026-08-24 16:16:20 EDT |
 | sase-core | [`sase-core@bda9efc`](https://github.com/sase-org/sase-core/commit/bda9efc59f6ea65aa286df9c7bb0c5a89500a3be) | feat(bead)!: store notes as structured records | [sase-t2.1](sase-t2.1.md) | 2026-08-24 16:17:04 EDT |
 | sase | [`f6c1467`](https://github.com/sase-org/sase/commit/f6c14672253185772692f4183e64f07c8df396a8) | feat(bead): carry structured notes through the Python model and read consumers | [sase-t2.2](sase-t2.2.md) | 2026-08-24 17:08:28 EDT |
+| sase-core | [`sase-core@75eb619`](https://github.com/sase-org/sase-core/commit/75eb61989b173010b6f8dba23e10534867737ff7) | feat(bead): default the notes column to an empty structured list | [sase-t2.2](sase-t2.2.md) | 2026-08-24 17:10:57 EDT |
+| sase | [`9488beb`](https://github.com/sase-org/sase/commit/9488beb9824ef83157b076f5daf85fed2e31d18d) | feat(beads): render structured note records | [sase-t2.3](sase-t2.3.md) | 2026-08-24 18:30:49 EDT |
