@@ -13,7 +13,7 @@ glossary: generalize the Rust glossary source wire to file-backed strands, add t
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.5](sase-sq.5.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.5](sase-sq.5.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.8](sase-sq.8.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
