@@ -11,6 +11,10 @@
 
 ace: after a manual hard disable in the Models panel, offer a single-keypress relaunch chooser and submit the drain as a durable tracked proc.
 
+## Notes
+
+[2026-08-24T16:58:42Z · sase-su.4] PROPOSED FOLLOW-UP: Repair home memory init drift — just check fails in SASE validation because init memory --check reports generated home memory/provider-shim drift and unreferenced ~/.local/share/chezmoi/home/sase/memory/obsidian.md.
+
 ## Dependencies
 
 - **Depends on:** [sase-su.2](sase-su.2.md) ✓ · ⧖ 2026-08-24

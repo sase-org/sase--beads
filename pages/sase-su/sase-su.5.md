@@ -13,7 +13,7 @@ soak: prove the whole loop through the fakey provider end to end and document dr
 
 ## Dependencies
 
-- **Depends on:** [sase-su.3](sase-su.3.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-su.3](sase-su.3.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-su.4](sase-su.4.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
