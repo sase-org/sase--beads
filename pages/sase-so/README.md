@@ -15,7 +15,7 @@ Typed toobig_split admission preserves clan identity and @chop metadata while ne
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-so.1](sase-so.1.md) | Preserve grouped identity through typed launch planning | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-so.1](sase-so.1.md) | Preserve grouped identity through typed launch planning | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-so.2](sase-so.2.md) | Promote the first eligible chop member to clan declarer | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 | [sase-so.3](sase-so.3.md) | Emit keyed basename templates from bugyi-chops | ✓ closed | small | 2026-08-24 | 1 | 0 |
 | [sase-so.4](sase-so.4.md) | Deploy and exercise the repaired chop end to end | ◐ in_progress | xsmall | 2026-08-24 | 1 | 0 |
@@ -25,7 +25,7 @@ Typed toobig_split admission preserves clan identity and @chop metadata while ne
 ```mermaid
 flowchart TD
     n0["sase-so: Restore toobig_split keyed names and chop tribe membership [in_progress]"]
-    n1["sase-so.1: Preserve grouped identity through typed launch planning [in_progress]"]
+    n1["sase-so.1: Preserve grouped identity through typed launch planning [closed]"]
     n2["sase-so.2: Promote the first eligible chop member to clan declarer [in_progress]"]
     n3["sase-so.3: Emit keyed basename templates from bugyi-chops [closed]"]
     n4["sase-so.4: Deploy and exercise the repaired chop end to end [in_progress]"]
@@ -42,8 +42,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-so.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.1/README.md) | [sase-so.1](sase-so.1.md) | 0 |
+| [bbugyi200.athena.sase-so.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.1/README.md) | [sase-so.1](sase-so.1.md) | 1 |
 | [bbugyi200.athena.sase-so.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.2/README.md) | [sase-so.2](sase-so.2.md) | 0 |
 | [bbugyi200.athena.sase-so.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.3/README.md) | [sase-so.3](sase-so.3.md) | 0 |
 | [bbugyi200.athena.sase-so.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.4/README.md) | [sase-so.4](sase-so.4.md) | 0 |
 | [bbugyi200.athena.sase-so.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-so.land/README.md) | [sase-so](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`abefcc4`](https://github.com/sase-org/sase/commit/abefcc4fba5f44198d4375e8ed865b37a81b5c0d) | feat(agent-launch): keep clan and family identity through typed planning | [sase-so.1](sase-so.1.md) | 2026-08-24 07:50:43 EDT |

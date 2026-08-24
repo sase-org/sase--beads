@@ -13,7 +13,7 @@ axe_clan_admission: make survivor promotion durable and prove launched chop memb
 
 ## Dependencies
 
-- **Depends on:** [sase-so.1](sase-so.1.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-so.1](sase-so.1.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-so.4](sase-so.4.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
