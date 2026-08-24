@@ -20,7 +20,7 @@ consent: carry the commit-by-default rule and per-repository provenance evidence
 ## Dependencies
 
 - **Depends on:** [sase-sp.3](sase-sp.3.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sp.6](sase-sp.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sp.6](sase-sp.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
