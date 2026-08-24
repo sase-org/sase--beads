@@ -13,7 +13,7 @@ source: build glossary catalog entries from strand files with per-strand source 
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.7.1.1](sase-sq.7.1.1.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.7.1.1](sase-sq.7.1.1.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.7.1.4](sase-sq.7.1.4.md) ◐ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.7.1.5](sase-sq.7.1.5.md) ◐ · ⧖ 2026-08-24
 

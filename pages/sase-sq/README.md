@@ -26,7 +26,7 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 | [sase-sq.3](sase-sq.3.md) | Selector-based memory read and the web command group | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.4](sase-sq.4.md) | ACE memory pane webs and strands | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.5](sase-sq.5.md) | Decision web and flag removal | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-sq.6](sase-sq.6.md) | Generated task-type web | ◐ in_progress | medium | 2026-08-24 | 1 | 1 |
+| [sase-sq.6](sase-sq.6.md) | Generated task-type web | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.7](sase-sq.7.md) | Glossary migration to a core web | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
 | [sase-sq.8](sase-sq.8.md) | Retire the config glossary | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
 
@@ -40,10 +40,10 @@ flowchart TD
     n3["sase-sq.3: Selector-based memory read and the web command group [closed]"]
     n4["sase-sq.4: ACE memory pane webs and strands [closed]"]
     n5["sase-sq.5: Decision web and flag removal [closed]"]
-    n6["sase-sq.6: Generated task-type web [in_progress]"]
+    n6["sase-sq.6: Generated task-type web [closed]"]
     n7["sase-sq.7: Glossary migration to a core web [in_progress]"]
     n8["sase-sq.7.1: Glossary migration to a core web [in_progress]"]
-    n9["sase-sq.7.1.1: File-backed glossary source wire [in_progress]"]
+    n9["sase-sq.7.1.1: File-backed glossary source wire [closed]"]
     n10["sase-sq.7.1.2: Inline roster parity with the generated glossary note [closed]"]
     n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [in_progress]"]
     n12["sase-sq.7.1.4: The sase memory web migrate command [in_progress]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.5.md) | [sase-sq.5](sase-sq.5.md) | 1 |
 | [bbugyi200.athena.sase-sq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.6/README.md) | [sase-sq.6](sase-sq.6.md) | 1 |
 | [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.md) | [sase-sq.7](sase-sq.7.md) | 0 |
-| [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.2/README.md) | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.3/README.md) | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.4/README.md) | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 0 |
@@ -115,3 +115,4 @@ flowchart TD
 | sase | [`0adb544`](https://github.com/sase-org/sase/commit/0adb544096e9e87001cee9631c98e0a32be6c5d4) | feat(memory): remove memory\_webs flag and ship the decisions web | [sase-sq.5](sase-sq.5.md) | 2026-08-24 17:56:58 EDT |
 | sase | [`2450497`](https://github.com/sase-org/sase/commit/2450497bbc17dca97a27b08c4527612e43e0eaac) | feat(memory): add lookup and roster modules for memory web decisions | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 2026-08-24 18:32:20 EDT |
 | sase | [`eb77577`](https://github.com/sase-org/sase/commit/eb775777bd4080924c17bb3910583a1c1ed828bb) | feat(memory): generate task-type strands as a memory web with structured notes | [sase-sq.6](sase-sq.6.md) | 2026-08-24 19:04:02 EDT |
+| sase | [`af27e67`](https://github.com/sase-org/sase/commit/af27e67e06f1e9e185bc08e1581832e4cdd4f743) | feat(glossary): emit v2 source wire fields | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2026-08-24 19:19:45 EDT |
