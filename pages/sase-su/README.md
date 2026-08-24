@@ -21,8 +21,8 @@ Disabling a provider — automatically on a usage limit or by hand in Launch Con
 |---|---|---|---|---|---:|---:|
 | [sase-su.1](sase-su.1.md) | Provider-drain planning and execution engine | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-su.2](sase-su.2.md) | sase agent drain command and durable operation | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-su.3](sase-su.3.md) | Automatic drain on a usage-limit disable | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-su.4](sase-su.4.md) | Launch Control relaunch prompt after a manual disable | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-su.3](sase-su.3.md) | Automatic drain on a usage-limit disable | ✓ closed | medium | 2026-08-24 | 1 | 2 |
+| [sase-su.4](sase-su.4.md) | Launch Control relaunch prompt after a manual disable | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-su.5](sase-su.5.md) | End-to-end drill and reference documentation | ◐ in_progress | small | 2026-08-24 | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n1["sase-su.1: Provider-drain planning and execution engine [closed]"]
     n2["sase-su.2: sase agent drain command and durable operation [closed]"]
     n3["sase-su.3: Automatic drain on a usage-limit disable [closed]"]
-    n4["sase-su.4: Launch Control relaunch prompt after a manual disable [in_progress]"]
+    n4["sase-su.4: Launch Control relaunch prompt after a manual disable [closed]"]
     n5["sase-su.5: End-to-end drill and reference documentation [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -53,8 +53,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-su.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.1/README.md) | [sase-su.1](sase-su.1.md) | 1 |
 | [bbugyi200.athena.sase-su.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.2/README.md) | [sase-su.2](sase-su.2.md) | 1 |
-| [bbugyi200.athena.sase-su.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.3/README.md) | [sase-su.3](sase-su.3.md) | 1 |
-| [bbugyi200.athena.sase-su.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.4/README.md) | [sase-su.4](sase-su.4.md) | 0 |
+| [bbugyi200.athena.sase-su.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.3/README.md) | [sase-su.3](sase-su.3.md) | 2 |
+| [bbugyi200.athena.sase-su.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.4/README.md) | [sase-su.4](sase-su.4.md) | 1 |
 | [bbugyi200.athena.sase-su.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.5/README.md) | [sase-su.5](sase-su.5.md) | 0 |
 | [bbugyi200.athena.sase-su.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.land/README.md) | [sase-su](README.md) | 0 |
 
@@ -65,3 +65,5 @@ flowchart TD
 | sase | [`bf3206b`](https://github.com/sase-org/sase/commit/bf3206b8f02c7f5ced964c93ff8574c2d734b5d4) | feat(agent): add provider-drain planning and execution engine | [sase-su.1](sase-su.1.md) | 2026-08-24 11:31:49 EDT |
 | sase | [`f13361c`](https://github.com/sase-org/sase/commit/f13361ca35d7d996580e1d481582ef237ab83202) | feat(agent): add provider drain command | [sase-su.2](sase-su.2.md) | 2026-08-24 12:19:57 EDT |
 | sase | [`d06d268`](https://github.com/sase-org/sase/commit/d06d268ea6a49822adbe4bebd81518690c667431) | feat(llm): auto-drain a hard-disabled provider on a usage-limit trip | [sase-su.3](sase-su.3.md) | 2026-08-24 13:17:49 EDT |
+| sase--agents | [`sase--agents@bfcb50f`](https://github.com/sase-org/sase--agents/commit/bfcb50f4f509d99d47972851c0b624a842b22cf7) | chore(agents): archive sase-su.3 turn prompt record | [sase-su.3](sase-su.3.md) | 2026-08-24 13:18:52 EDT |
+| sase | [`54ede7f`](https://github.com/sase-org/sase/commit/54ede7fa5d078fcdd51ace041b04e5bcfdf530b5) | feat(ace): prompt provider drain relaunch after disable | [sase-su.4](sase-su.4.md) | 2026-08-24 13:27:57 EDT |

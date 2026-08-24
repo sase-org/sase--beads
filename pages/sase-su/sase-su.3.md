@@ -26,10 +26,11 @@ auto: gate the feature behind a beta flag, submit a drain proc when a usage-limi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-su.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.3/README.md) | [sase-su.3](sase-su.3.md) | 1 |
+| [bbugyi200.athena.sase-su.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-su.3/README.md) | [sase-su.3](sase-su.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d06d268`](https://github.com/sase-org/sase/commit/d06d268ea6a49822adbe4bebd81518690c667431) | feat(llm): auto-drain a hard-disabled provider on a usage-limit trip | [sase-su.3](sase-su.3.md) | 2026-08-24 13:17:49 EDT |
+| sase--agents | [`sase--agents@bfcb50f`](https://github.com/sase-org/sase--agents/commit/bfcb50f4f509d99d47972851c0b624a842b22cf7) | chore(agents): archive sase-su.3 turn prompt record | [sase-su.3](sase-su.3.md) | 2026-08-24 13:18:52 EDT |

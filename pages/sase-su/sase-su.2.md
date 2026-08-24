@@ -23,7 +23,7 @@ cli: add the `sase agent drain` subcommand with preview, confirmation, receipt, 
 
 - **Depends on:** [sase-su.1](sase-su.1.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-su.3](sase-su.3.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-su.4](sase-su.4.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-su.4](sase-su.4.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
