@@ -13,11 +13,11 @@ adopt: raise the sase_core_rs floor, mirror the new wire records in sase.core.fi
 
 ## Dependencies
 
-- **Depends on:** [sase-sp.1](sase-sp.1.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sp.1](sase-sp.1.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sp.3](sase-sp.3.md) ◐ · ⧖ 2026-08-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sp.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sp.2/README.md) | [sase-sp.2](sase-sp.2.md) | 0 |
+| [bbugyi200.athena.sase-sp.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sp.2.md) | [sase-sp.2](sase-sp.2.md) | 0 |
