@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-sn](README.md) / sase-sn.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0c5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0c5.md) · **Assignee:** `sase-sn.2` · **Size:** medium
-**Created:** 2026-08-24 06:11:47 EDT
+**Created:** 2026-08-24 06:11:47 EDT · **Closed:** 2026-08-24 06:36:12 EDT
 **Plan:** [202608/xprompt\_text\_block\_args.md](https://github.com/sase-org/sase--plans/blob/main/202608/xprompt_text_block_args.md)
 
 ## Description
 
 shorthand: bind `#name: text`, `#name:: text`, and `#name(args): text` payloads structurally during expansion so user prose is never re-serialized into source syntax and re-lexed.
+
+## Notes
+
+[2026-08-24T10:36:12Z · sase-sn.2--1] Auto-closed by `sase stitch create` after create_commit landed 4d0da0d4b ("fix(xprompt): bind shorthand text directly from source, not re-lexed"). No verification is implied by this note. Reopen with `sase bead open sase-sn.2`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
