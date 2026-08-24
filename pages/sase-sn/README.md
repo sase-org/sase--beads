@@ -20,7 +20,7 @@ Free-text xprompt arguments survive prose that contains `]]`, `+`, commas, and a
 | [sase-sn.3](sase-sn.3.md) | Silence and sharpen expansion-failure reporting | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-sn.4](sase-sn.4.md) | Narrow the \`+\`-to-space decoding to bare colon arguments | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-sn.5](sase-sn.5.md) | Rust core parity for the shared argument grammar | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-sn.6](sase-sn.6.md) | End-to-end regression coverage and documentation | ✓ closed | small | 2026-08-24 | 1 | 1 |
+| [sase-sn.6](sase-sn.6.md) | End-to-end regression coverage and documentation | ✓ closed | small | 2026-08-24 | 1 | 2 |
 
 ## Lineage
 
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.3/README.md) | [sase-sn.3](sase-sn.3.md) | 1 |
 | [bbugyi200.athena.sase-sn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.4/README.md) | [sase-sn.4](sase-sn.4.md) | 1 |
 | [bbugyi200.athena.sase-sn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.5/README.md) | [sase-sn.5](sase-sn.5.md) | 1 |
-| [bbugyi200.athena.sase-sn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.6/README.md) | [sase-sn.6](sase-sn.6.md) | 1 |
+| [bbugyi200.athena.sase-sn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.6/README.md) | [sase-sn.6](sase-sn.6.md) | 2 |
 | [bbugyi200.athena.sase-sn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.land/README.md) | [sase-sn](README.md) | 0 |
 
 ## Commits
@@ -71,3 +71,4 @@ flowchart TD
 | sase | [`ec76ec6`](https://github.com/sase-org/sase/commit/ec76ec6ef9e0ea99d1f89a96d2edbaa64372e844) | fix(xprompt): narrow +-to-space decoding to bare colon arguments | [sase-sn.4](sase-sn.4.md) | 2026-08-24 08:05:19 EDT |
 | sase-core | [`sase-core@1d3c9c6`](https://github.com/sase-org/sase-core/commit/1d3c9c6e5b7bcb408932b31d99473eeb99e49cd2) | fix(xprompt): close \[\[...\]\] blocks at terminator-position \]\] | [sase-sn.5](sase-sn.5.md) | 2026-08-24 08:52:31 EDT |
 | sase | [`1907346`](https://github.com/sase-org/sase/commit/1907346f8e4170ee31f639db9fe452930bff9ce5) | test(xprompt): add text-block launch regression and shared corpus | [sase-sn.6](sase-sn.6.md) | 2026-08-24 09:28:05 EDT |
+| sase-core | [`sase-core@81f114a`](https://github.com/sase-org/sase-core/commit/81f114a2ac7f1f01d1ffa4e0988fcedada214236) | test(xprompt): parse the shared text-block argument corpus | [sase-sn.6](sase-sn.6.md) | 2026-08-24 09:30:35 EDT |

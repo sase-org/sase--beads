@@ -29,10 +29,11 @@ regression: add a launch-level regression test built from the real failing promp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.6/README.md) | [sase-sn.6](sase-sn.6.md) | 1 |
+| [bbugyi200.athena.sase-sn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sn.6/README.md) | [sase-sn.6](sase-sn.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1907346`](https://github.com/sase-org/sase/commit/1907346f8e4170ee31f639db9fe452930bff9ce5) | test(xprompt): add text-block launch regression and shared corpus | [sase-sn.6](sase-sn.6.md) | 2026-08-24 09:28:05 EDT |
+| sase-core | [`sase-core@81f114a`](https://github.com/sase-org/sase-core/commit/81f114a2ac7f1f01d1ffa4e0988fcedada214236) | test(xprompt): parse the shared text-block argument corpus | [sase-sn.6](sase-sn.6.md) | 2026-08-24 09:30:35 EDT |
