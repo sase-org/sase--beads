@@ -14,10 +14,10 @@ land: combine every phase tree, run the exhaustive verification lane, reconcile 
 ## Dependencies
 
 - **Depends on:** [sase-th.1](sase-th.1.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-th.2](sase-th.2.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-th.2](sase-th.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-th.3](sase-th.3.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-th.4](sase-th.4.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-th.5](sase-th.5.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-th.5](sase-th.5.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-th.6](sase-th.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents

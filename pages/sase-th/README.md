@@ -16,10 +16,10 @@ Every GitHub Actions job on the sase default branch — lint, test (3.12/3.13/3.
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-th.1](sase-th.1.md) | Delete the dead glossary and memory-web symbols | ✓ closed | small | 2026-08-25 | 1 | 1 |
-| [sase-th.2](sase-th.2.md) | Refresh the bead CLI note fixtures and assertions | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
+| [sase-th.2](sase-th.2.md) | Refresh the bead CLI note fixtures and assertions | ✓ closed | small | 2026-08-25 | 1 | 1 |
 | [sase-th.3](sase-th.3.md) | Re-review the split agent-chat marker-path sites | ✓ closed | small | 2026-08-25 | 1 | 1 |
 | [sase-th.4](sase-th.4.md) | Rebaseline the stale ACE PNG goldens | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
-| [sase-th.5](sase-th.5.md) | Isolate the pooled-alias round-robin cursor from tests | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-th.5](sase-th.5.md) | Isolate the pooled-alias round-robin cursor from tests | ✓ closed | medium | 2026-08-25 | 1 | 0 |
 | [sase-th.6](sase-th.6.md) | Fix the two remaining CI-only test races | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-th.7](sase-th.7.md) | Integrate, verify, and observe a green master run | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 
@@ -29,10 +29,10 @@ Every GitHub Actions job on the sase default branch — lint, test (3.12/3.13/3.
 flowchart TD
     n0["sase-th: Repair the red master CI lanes [in_progress]"]
     n1["sase-th.1: Delete the dead glossary and memory-web symbols [closed]"]
-    n2["sase-th.2: Refresh the bead CLI note fixtures and assertions [in_progress]"]
+    n2["sase-th.2: Refresh the bead CLI note fixtures and assertions [closed]"]
     n3["sase-th.3: Re-review the split agent-chat marker-path sites [closed]"]
     n4["sase-th.4: Rebaseline the stale ACE PNG goldens [in_progress]"]
-    n5["sase-th.5: Isolate the pooled-alias round-robin cursor from tests [in_progress]"]
+    n5["sase-th.5: Isolate the pooled-alias round-robin cursor from tests [closed]"]
     n6["sase-th.6: Fix the two remaining CI-only test races [closed]"]
     n7["sase-th.7: Integrate, verify, and observe a green master run [in_progress]"]
     n0 --> n1
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-th.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-th.1/README.md) | [sase-th.1](sase-th.1.md) | 1 |
-| [bbugyi200.athena.sase-th.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-th.2/README.md) | [sase-th.2](sase-th.2.md) | 0 |
+| [bbugyi200.athena.sase-th.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-th.2/README.md) | [sase-th.2](sase-th.2.md) | 1 |
 | [bbugyi200.athena.sase-th.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-th.3/README.md) | [sase-th.3](sase-th.3.md) | 1 |
 | [bbugyi200.athena.sase-th.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-th.4/README.md) | [sase-th.4](sase-th.4.md) | 0 |
 | [bbugyi200.athena.sase-th.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-th.5.md) | [sase-th.5](sase-th.5.md) | 0 |
@@ -70,3 +70,4 @@ flowchart TD
 | sase | [`5fff948`](https://github.com/sase-org/sase/commit/5fff948a9735e7f613006a10c8cb34ea8c363d88) | fix(memory): retire dead glossary symbols | [sase-th.1](sase-th.1.md) | 2026-08-25 07:47:55 EDT |
 | sase | [`18ce1d6`](https://github.com/sase-org/sase/commit/18ce1d6e5056a25b75cde00fe3841b21be88ea8e) | test(agents): review split chat marker paths | [sase-th.3](sase-th.3.md) | 2026-08-25 07:49:59 EDT |
 | sase | [`978fc7f`](https://github.com/sase-org/sase/commit/978fc7fd6a07a368a23f4ce6b7888d96ce94e912) | test(ace): deflake plugin latest wait | [sase-th.6](sase-th.6.md) | 2026-08-25 07:54:33 EDT |
+| sase | [`436baa7`](https://github.com/sase-org/sase/commit/436baa7c1770d2b05cc471e8032424d86bec8999) | test(beads): refresh structured note CLI fixtures | [sase-th.2](sase-th.2.md) | 2026-08-25 07:58:45 EDT |
