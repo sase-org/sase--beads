@@ -15,7 +15,7 @@ The Artifacts tab gains an "Agent" pane that catalogs every agent SASE has ever 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-tj.1](sase-tj.1.md) | Widen the shared boolean query dialect's value grammar | ✓ closed | medium | 2026-08-25 | 1 | 1 |
+| [sase-tj.1](sase-tj.1.md) | Widen the shared boolean query dialect's value grammar | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tj.2](sase-tj.2.md) | Textual-free agent catalog row model | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tj.3](sase-tj.3.md) | The agents query profile | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tj.4](sase-tj.4.md) | Feature flag, pane contract, and the mounted list | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
@@ -66,7 +66,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.1/README.md) | [sase-tj.1](sase-tj.1.md) | 1 |
+| [bbugyi200.athena.sase-tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.1/README.md) | [sase-tj.1](sase-tj.1.md) | 2 |
 | [bbugyi200.athena.sase-tj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.2/README.md) | [sase-tj.2](sase-tj.2.md) | 0 |
 | [bbugyi200.athena.sase-tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.3/README.md) | [sase-tj.3](sase-tj.3.md) | 0 |
 | [bbugyi200.athena.sase-tj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.4/README.md) | [sase-tj.4](sase-tj.4.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`aad3d0a`](https://github.com/sase-org/sase/commit/aad3d0ab0e5a26c485ff05eb960efec661c24309) | fix(query): widen boolean value grammar | [sase-tj.1](sase-tj.1.md) | 2026-08-25 08:37:49 EDT |
+| sase-core | [`sase-core@6c38c68`](https://github.com/sase-org/sase-core/commit/6c38c6844d6580d7213e525d7a42c492427d2312) | fix(query): widen boolean tokenizer values | [sase-tj.1](sase-tj.1.md) | 2026-08-25 08:38:39 EDT |
