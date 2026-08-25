@@ -17,7 +17,7 @@ bench: build a pane-level first-paint benchmark over a live-scale synthetic corp
 
 ## Dependencies
 
-- **Blocks:** [sase-tt.2](sase-tt.2.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tt.2](sase-tt.2.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.3](sase-tt.3.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.4](sase-tt.4.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.5](sase-tt.5.md) ◐ · ⧖ 2026-08-25
