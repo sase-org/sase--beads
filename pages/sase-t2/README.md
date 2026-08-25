@@ -64,7 +64,7 @@ flowchart TD
     n6["sase-t2.6: Documentation and memory [closed]"]
     n7["sase-t2.7: Legacy note bytes survive bead conflict resolution [in_progress]"]
     n8["sase-t2.7.1: Preserve ancestor event bytes through the conflict resolver [closed]"]
-    n9["sase-t2.7.2: Correct the bead-notes documentation that still promises replacement [in_progress]"]
+    n9["sase-t2.7.2: Correct the bead-notes documentation that still promises replacement [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.5/README.md) | [sase-t2.5](sase-t2.5.md) | 2 |
 | [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 1 |
 | [bbugyi200.athena.sase-t2.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.7.1/README.md) | [sase-t2.7.1](sase-t2.7.1.md) | 1 |
-| [bbugyi200.athena.sase-t2.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t2.7.2.md) | [sase-t2.7.2](sase-t2.7.2.md) | 0 |
+| [bbugyi200.athena.sase-t2.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t2.7.2.md) | [sase-t2.7.2](sase-t2.7.2.md) | 1 |
 | [bbugyi200.athena.sase-t2.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.7.land/README.md) | [sase-t2.7](sase-t2.7.md) | 0 |
 | [bbugyi200.athena.sase-t2.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t2.land.md) | [sase-t2](README.md) | 0 |
 
@@ -111,3 +111,4 @@ flowchart TD
 | sase-core | [`sase-core@f06a103`](https://github.com/sase-org/sase-core/commit/f06a103287504c5348463e001f83a69654e99656) | feat(bead): add NoteEdited/NoteRemoved events and note edit/remove mutations | [sase-t2.5](sase-t2.5.md) | 2026-08-25 08:36:44 EDT |
 | sase | [`f73b56e`](https://github.com/sase-org/sase/commit/f73b56e01dc43492e4b7c651c699caad3caec1df) | docs(beads): document note --edit/--remove and update --note vs --notes | [sase-t2.6](sase-t2.6.md) | 2026-08-25 08:54:41 EDT |
 | sase | [`8c3ec87`](https://github.com/sase-org/sase/commit/8c3ec87f97d35e50cc4b2994ee3c271236a4ca9d) | fix(bead): preserve legacy conflict event bytes | [sase-t2.7.1](sase-t2.7.1.md) | 2026-08-25 10:17:31 EDT |
+| sase | [`7cb0eab`](https://github.com/sase-org/sase/commit/7cb0eab8eca0995f812d8598bcd1337de0d04741) | docs(beads): rewrite bead-notes memory for the append-only note log | [sase-t2.7.2](sase-t2.7.2.md) | 2026-08-25 10:19:22 EDT |
