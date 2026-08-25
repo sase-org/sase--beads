@@ -46,7 +46,7 @@ as a growing cost on the load path rather than a constant.
 | [sase-tt.5](sase-tt.5.md) | Cut the Python-side corpus marshalling cost | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tt.6](sase-tt.6.md) | Defer plan metadata reads past the inventory slice | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tt.7](sase-tt.7.md) | Take the external-issue network call off the Bead first-paint path | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tt.8](sase-tt.8.md) | End-to-end verification and the perf recipe | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
+| [sase-tt.8](sase-tt.8.md) | End-to-end verification and the perf recipe | ✓ closed | small | 2026-08-25 | 1 | 1 |
 
 ## Lineage
 
@@ -60,7 +60,7 @@ flowchart TD
     n5["sase-tt.5: Cut the Python-side corpus marshalling cost [closed]"]
     n6["sase-tt.6: Defer plan metadata reads past the inventory slice [closed]"]
     n7["sase-tt.7: Take the external-issue network call off the Bead first-paint path [closed]"]
-    n8["sase-tt.8: End-to-end verification and the perf recipe [in_progress]"]
+    n8["sase-tt.8: End-to-end verification and the perf recipe [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.5/README.md) | [sase-tt.5](sase-tt.5.md) | 1 |
 | [bbugyi200.athena.sase-tt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.6/README.md) | [sase-tt.6](sase-tt.6.md) | 1 |
 | [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 1 |
-| [bbugyi200.athena.sase-tt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.8/README.md) | [sase-tt.8](sase-tt.8.md) | 0 |
+| [bbugyi200.athena.sase-tt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.8/README.md) | [sase-tt.8](sase-tt.8.md) | 1 |
 | [bbugyi200.athena.sase-tt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.land/README.md) | [sase-tt](README.md) | 0 |
 
 ## Commits
@@ -108,3 +108,4 @@ flowchart TD
 | sase | [`6ffdfb0`](https://github.com/sase-org/sase/commit/6ffdfb0a97a976cdadaccf11c29595d5996d4a8f) | feat(artifacts): load agent pane in two stages | [sase-tt.3](sase-tt.3.md) | 2026-08-25 16:39:19 EDT |
 | sase | [`446e9a4`](https://github.com/sase-org/sase/commit/446e9a43c359fc8ed943f29ab4eb24c91601dd21) | perf(plans): defer plan metadata reads past the inventory slice | [sase-tt.6](sase-tt.6.md) | 2026-08-25 16:40:29 EDT |
 | sase | [`e394b9d`](https://github.com/sase-org/sase/commit/e394b9d9c062ee9b4e226442b201b0c598042890) | perf(query): reduce artifact row marshalling | [sase-tt.5](sase-tt.5.md) | 2026-08-25 16:55:27 EDT |
+| sase | [`f56cf43`](https://github.com/sase-org/sase/commit/f56cf433328eea77e9d0a634fa41018cd2d34f58) | docs(perf): record artifacts first-paint verification | [sase-tt.8](sase-tt.8.md) | 2026-08-25 17:29:44 EDT |

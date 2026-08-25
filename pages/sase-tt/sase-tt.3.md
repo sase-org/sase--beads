@@ -48,7 +48,7 @@ agent-paint: paint the Agent pane from a bounded head slice and move the full-co
 ## Dependencies
 
 - **Depends on:** [sase-tt.1](sase-tt.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tt.8](sase-tt.8.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tt.8](sase-tt.8.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

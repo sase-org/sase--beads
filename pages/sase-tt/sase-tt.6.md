@@ -20,7 +20,7 @@ plans: stop reading and YAML-parsing every archived plan file to produce fifty r
 ## Dependencies
 
 - **Depends on:** [sase-tt.1](sase-tt.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tt.8](sase-tt.8.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tt.8](sase-tt.8.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
