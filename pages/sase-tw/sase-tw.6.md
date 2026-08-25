@@ -14,7 +14,7 @@ derivation-core: add the Textual-free derivation module that turns facts SASE al
 ## Dependencies
 
 - **Blocks:** [sase-tw.10](sase-tw.10.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.3](sase-tw.3.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.3](sase-tw.3.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.5](sase-tw.5.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.7](sase-tw.7.md) ◐ · ⧖ 2026-08-25
 

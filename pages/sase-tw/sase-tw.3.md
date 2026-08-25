@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.3` · **Size:** medium
-**Created:** 2026-08-25 15:34:36 EDT
+**Created:** 2026-08-25 15:34:36 EDT · **Closed:** 2026-08-25 17:19:41 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
@@ -30,6 +30,8 @@ hand-edit the sase-core-rs version line in this repo's pyproject.toml — sase-t
 section wrongly instructs its agent to do exactly that, and has been corrected by a note
 on that bead.
 
+[2026-08-25T21:19:41Z · sase-tw.3] Auto-closed by `sase stitch create` after create_commit landed 79e51b564 ("feat(bead-links): thread link direction and uses count through Python bead link facade"). No verification is implied by this note. Reopen with `sase bead open sase-tw.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
@@ -40,10 +42,11 @@ on that bead.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 1 |
+| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`79e51b5`](https://github.com/sase-org/sase/commit/79e51b564ec987540a8a9954603fbd0a5ca2a5ec) | feat(bead-links): thread link direction and uses count through Python bead link facade | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:17:10 EDT |
+| sase-core | [`sase-core@4b1f2d6`](https://github.com/sase-org/sase-core/commit/4b1f2d64a3ed2769160893efdc201ff14a7c9319) | feat(bead-links): track link direction and uses count in bead-owned link events | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:19:56 EDT |

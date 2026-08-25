@@ -51,7 +51,7 @@ read-payoff, and migration phases touch disjoint code.
 | [sase-tw.13](sase-tw.13.md) | \`relation:\`, \`linked:\`, and \`artifact:\` on the Agent pane | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ◐ in_progress | medium | 2026-08-25 | 1 | 1 |
+| [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
@@ -71,7 +71,7 @@ flowchart TD
     n5["sase-tw.13: `relation:`, `linked:`, and `artifact:` on the Agent pane [in_progress]"]
     n6["sase-tw.14: The judgment tier, the flag removal, and the two workflow lines [in_progress]"]
     n7["sase-tw.2: Audited reads become durable and publish with the agent's commits [closed]"]
-    n8["sase-tw.3: A bead in either endpoint position gets its event [in_progress]"]
+    n8["sase-tw.3: A bead in either endpoint position gets its event [closed]"]
     n9["sase-tw.4: Links follow renames instead of dangling [in_progress]"]
     n10["sase-tw.5: Relation semantics, `derived` projection class, and a way to read them [closed]"]
     n11["sase-tw.6: One derivation module behind one flag [in_progress]"]
@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 0 |
 | [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 0 |
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 1 |
-| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 1 |
+| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
 | [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 0 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 0 |
@@ -145,3 +145,4 @@ flowchart TD
 | sase | [`b2a0c68`](https://github.com/sase-org/sase/commit/b2a0c68a3ff0e497b007f6455e225fb80ccdb6fd) | feat(artifact-refs): expand artifact link neighborhoods in prompt rendering | [sase-tw.11](sase-tw.11.md) | 2026-08-25 16:47:48 EDT |
 | sase | [`5d36fef`](https://github.com/sase-org/sase/commit/5d36fef263c6f44f7421487056ed5a12db6cc0d3) | feat(artifacts): add durable read-link outbox | [sase-tw.2](sase-tw.2.md) | 2026-08-25 17:14:12 EDT |
 | sase | [`79e51b5`](https://github.com/sase-org/sase/commit/79e51b564ec987540a8a9954603fbd0a5ca2a5ec) | feat(bead-links): thread link direction and uses count through Python bead link facade | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:17:10 EDT |
+| sase-core | [`sase-core@4b1f2d6`](https://github.com/sase-org/sase-core/commit/4b1f2d64a3ed2769160893efdc201ff14a7c9319) | feat(bead-links): track link direction and uses count in bead-owned link events | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:19:56 EDT |
