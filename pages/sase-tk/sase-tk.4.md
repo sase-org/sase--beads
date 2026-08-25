@@ -17,6 +17,10 @@ integrated_verification: run the required SASE and chop verification lanes and c
 
 [2026-08-25T16:36:20Z · sase-tk.4--1] Verified integrated phase: SASE focused launch-admission/condition-runtime/workspace-lease/AXE typed chop lanes passed earlier in this run; bugyi-chops install/lint/test and focused toobig_split integration checks passed earlier in this run; just check passed earlier in this run; just check-full ran through monitor pt75nwtaa1jp and completed the full pytest lane with 36919 passed, 13 skipped, 66 warnings, then failed only tools/check_test_cost_budgets. Reproduced the cost-budget failure with just test-cost-budget and recorded it as PROPOSED FOLLOW-UP on this phase. Re-ran epic-symbols: no --epic-symbol entries. Checked sase agent list -j and workspace list: no launch-if RUNNING agents or lease(launch-if:...) claims remain.
 
+## References
+
+- file:explicit:d3b84d02765d1a348b5fc13e
+
 ## Dependencies
 
 - **Depends on:** [sase-tk.2](sase-tk.2.md) ✓ · ⧖ 2026-08-25
