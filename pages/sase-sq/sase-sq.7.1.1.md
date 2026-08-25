@@ -23,7 +23,7 @@ wire: generalize sase-core's GlossarySourceWire from config_path/config_key_path
 
 ## Dependencies
 
-- **Blocks:** [sase-sq.7.1.3](sase-sq.7.1.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.7.1.3](sase-sq.7.1.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

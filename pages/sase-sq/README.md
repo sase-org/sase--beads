@@ -17,6 +17,8 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 
 [2026-08-24T22:57:38Z · 0d2] DISCOVERED ISSUE: During canonical_parent_plan_refs verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Current failure wants to refresh ~/.local/share/chezmoi/home/sase/memory/sase.md (+1) and ~/.local/share/chezmoi/home/sase/memory/README.md (+8 -5). I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the parent-plan display diff. This corroborates the existing init-memory drift note on this memory-web epic rather than a new task.
 
+[2026-08-24T23:54:00Z · 0d5] DISCOVERED ISSUE: During restore_chop_wait_chains verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Current failure wants to update the generated memory README at sase/memory/README.md (+2 -2). I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the AXE chop wait-chain diff. This corroborates the existing init-memory drift notes on this memory-web epic rather than a new task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,7 +47,7 @@ flowchart TD
     n8["sase-sq.7.1: Glossary migration to a core web [in_progress]"]
     n9["sase-sq.7.1.1: File-backed glossary source wire [closed]"]
     n10["sase-sq.7.1.2: Inline roster parity with the generated glossary note [closed]"]
-    n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [in_progress]"]
+    n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [closed]"]
     n12["sase-sq.7.1.4: The sase memory web migrate command [in_progress]"]
     n13["sase-sq.7.1.5: sase glossary as a deprecating alias [in_progress]"]
     n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [in_progress]"]
@@ -95,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.md) | [sase-sq.7](sase-sq.7.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.1/README.md) | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-sq.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.2/README.md) | [sase-sq.7.1.2](sase-sq.7.1.2.md) | 1 |
-| [bbugyi200.athena.sase-sq.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.3/README.md) | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.1.3.md) | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.4/README.md) | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.5/README.md) | [sase-sq.7.1.5](sase-sq.7.1.5.md) | 0 |
 | [bbugyi200.athena.sase-sq.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.6/README.md) | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 0 |
@@ -117,3 +119,4 @@ flowchart TD
 | sase | [`eb77577`](https://github.com/sase-org/sase/commit/eb775777bd4080924c17bb3910583a1c1ed828bb) | feat(memory): generate task-type strands as a memory web with structured notes | [sase-sq.6](sase-sq.6.md) | 2026-08-24 19:04:02 EDT |
 | sase | [`af27e67`](https://github.com/sase-org/sase/commit/af27e67e06f1e9e185bc08e1581832e4cdd4f743) | feat(glossary): emit v2 source wire fields | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2026-08-24 19:19:45 EDT |
 | sase-core | [`sase-core@151a37d`](https://github.com/sase-org/sase-core/commit/151a37df6a555732e08b5258b68f39bbc9cac58c) | feat(glossary): add source-backed wire v2 | [sase-sq.7.1.1](sase-sq.7.1.1.md) | 2026-08-24 19:20:39 EDT |
+| sase | [`2b16a06`](https://github.com/sase-org/sase/commit/2b16a06483d60ab04cb5dc8cc7ce4966d76c2bac) | feat(memory): back the glossary catalog with strand-backed sources and fail-closed dual truth | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 2026-08-24 20:21:42 EDT |
