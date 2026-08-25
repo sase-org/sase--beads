@@ -17,16 +17,10 @@ global-default: delete the `bead.task_types` block from the chezmoi-managed `hom
 
 ## Dependencies
 
-- **Blocks:** [sase-tn.2](sase-tn.2.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tn.2](sase-tn.2.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tn.1/README.md) | [sase-tn.1](sase-tn.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@18ef29d`](https://github.com/bbugyi200/dotfiles/commit/18ef29d0ec0bbc40f609745987da546446349088) | chore(config): drop machine-global feature task-type disable | [sase-tn.1](sase-tn.1.md) | 2026-08-25 12:39:53 EDT |
+| [bbugyi200.athena.sase-tn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tn.1/README.md) | [sase-tn.1](sase-tn.1.md) | 0 |
