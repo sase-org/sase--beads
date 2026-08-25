@@ -22,4 +22,10 @@ land: delete the flag's Off branch, close the flag bead, refresh visual goldens 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.9/README.md) | [sase-tj.9](sase-tj.9.md) | 0 |
+| [bbugyi200.athena.sase-tj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.9/README.md) | [sase-tj.9](sase-tj.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e5989fd`](https://github.com/sase-org/sase/commit/e5989fd286ed5f2e328e8928c7894028d697285a) | feat(artifacts): remove agents-pane feature flag and fix stale test fixtures | [sase-tj.9](sase-tj.9.md) | 2026-08-25 14:20:23 EDT |

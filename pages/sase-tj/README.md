@@ -33,7 +33,7 @@ Neither is caused by epic sase-ti, which touched only src/sase/finalizers/**, sr
 | [sase-tj.6](sase-tj.6.md) | Detail panel, grouping, relations, link targets, and copy | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tj.7](sase-tj.7.md) | Revival from the pane, with one mutation implementation | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tj.8](sase-tj.8.md) | sase agent search | ✓ closed | small | 2026-08-25 | 1 | 1 |
-| [sase-tj.9](sase-tj.9.md) | Remove the flag and land the pane | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tj.9](sase-tj.9.md) | Remove the flag and land the pane | ◐ in_progress | medium | 2026-08-25 | 1 | 1 |
 
 ## Lineage
 
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.6/README.md) | [sase-tj.6](sase-tj.6.md) | 1 |
 | [bbugyi200.athena.sase-tj.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.7.md) | [sase-tj.7](sase-tj.7.md) | 1 |
 | [bbugyi200.athena.sase-tj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.8/README.md) | [sase-tj.8](sase-tj.8.md) | 1 |
-| [bbugyi200.athena.sase-tj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.9/README.md) | [sase-tj.9](sase-tj.9.md) | 0 |
+| [bbugyi200.athena.sase-tj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.9/README.md) | [sase-tj.9](sase-tj.9.md) | 1 |
 | [bbugyi200.athena.sase-tj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.land/README.md) | [sase-tj](README.md) | 0 |
 
 ## Commits
@@ -99,3 +99,4 @@ flowchart TD
 | sase | [`85e2f76`](https://github.com/sase-org/sase/commit/85e2f768ec6b08d90b937590f8b9230e65624067) | feat(agent): add catalog search command | [sase-tj.8](sase-tj.8.md) | 2026-08-25 11:53:38 EDT |
 | sase | [`a1e029c`](https://github.com/sase-org/sase/commit/a1e029c657392929f52a565946829e2cf5dbbc90) | feat(tui): revive agents from artifact pane | [sase-tj.7](sase-tj.7.md) | 2026-08-25 12:09:32 EDT |
 | sase | [`b85cdff`](https://github.com/sase-org/sase/commit/b85cdffd3de6c93b04e9a43c8bf913fed69e2a31) | feat(artifacts): wire agent pane query session | [sase-tj.5](sase-tj.5.md) | 2026-08-25 13:23:35 EDT |
+| sase | [`e5989fd`](https://github.com/sase-org/sase/commit/e5989fd286ed5f2e328e8928c7894028d697285a) | feat(artifacts): remove agents-pane feature flag and fix stale test fixtures | [sase-tj.9](sase-tj.9.md) | 2026-08-25 14:20:23 EDT |
