@@ -36,7 +36,7 @@ on that bead.
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.6](sase-tw.6.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.9](sase-tw.9.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.9](sase-tw.9.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

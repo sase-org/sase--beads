@@ -17,7 +17,7 @@ suggest-and-close: add `sase artifact link suggest` over hard evidence only, rem
 - **Depends on:** [sase-tw.11](sase-tw.11.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.13](sase-tw.13.md) ◐ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.8](sase-tw.8.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.9](sase-tw.9.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.9](sase-tw.9.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

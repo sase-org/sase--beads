@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.9` · **Size:** small
-**Created:** 2026-08-25 15:34:41 EDT
+**Created:** 2026-08-25 15:34:41 EDT · **Closed:** 2026-08-25 18:29:25 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
@@ -43,7 +43,7 @@ notes-migration: verify `sase artifact link migrate-notes --apply` on a scratch 
 - sase-p3: does not match RELATED: <id>[, <id>] — <why> -- RELATED: sase-o6 (global 'sase' on PATH is a separate uv tool install, which still logs 'Skipping invalid file hook sase-research-artifacts@research-highlights' for the same missing-provider reason).
 - sase-ph: unparseable target 'sase-dc / sase-ny' -- RELATED: sase-dc / sase-ny — prior owners of the four test_ace_png_snapshots_agents_retry_e2e.py nodes (contention flakiness and stale-golden rebaselining respectively, both closed). test_real_fakey_completed_retry_chain_png_snapshot is one of
 
-… and 2390 more characters
+… and 3593 more characters
 
 ## Dependencies
 
@@ -54,4 +54,10 @@ notes-migration: verify `sase artifact link migrate-notes --apply` on a scratch 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.9/README.md) | [sase-tw.9](sase-tw.9.md) | 0 |
+| [bbugyi200.athena.sase-tw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.9/README.md) | [sase-tw.9](sase-tw.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`012a66a`](https://github.com/sase-org/sase/commit/012a66a659853bae9bd27e0c47b0f75178794a80) | fix(artifact-links): make related note migration safe | [sase-tw.9](sase-tw.9.md) | 2026-08-25 18:30:46 EDT |

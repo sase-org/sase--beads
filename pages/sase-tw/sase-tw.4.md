@@ -15,6 +15,8 @@ rename-following: consume git rename detection in the sidecar link refresh so a 
 
 [2026-08-25T20:52:51Z · sase-tw.4] PROPOSED FOLLOW-UP: repair non-rename artifact-link health leftovers — after research rename repair, doctor reports dangling=0 but still reports 19 plan-side orphaned links/ indexes with no git rename history and 3 missing screenshot companions.
 
+[2026-08-25T22:29:04Z · sase-tw.4] PROPOSED FOLLOW-UP: repair remaining non-rename artifact-link health leftovers - after rename repair and aggregate cleanup, direct link-health still reports dangling bead:sase-om, dangling research:202608/standalone_agent_cli_mode/standalone_agent_cli_mode.md with no exact git rename history, 19 plan orphaned links indexes, and stale research:202608/artifact_link_graph/artifact_link_graph.md projection.
+
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
