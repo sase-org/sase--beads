@@ -57,7 +57,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-tw.1](sase-tw.1.md) | A rebuild may delete only what it can prove was deleted | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tw.10](sase-tw.10.md) | Finish the \`links:\` frontmatter inlet as an authoring path | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tw.10](sase-tw.10.md) | Finish the \`links:\` frontmatter inlet as an authoring path | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.11](sase-tw.11.md) | Make every audited read a discovery moment | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.12](sase-tw.12.md) | ACE stops flattening the relation type | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.13](sase-tw.13.md) | \`relation:\`, \`linked:\`, and \`artifact:\` on the Agent pane | ✓ closed | medium | 2026-08-25 | 1 | 1 |
@@ -77,7 +77,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 flowchart TD
     n0["sase-tw: Artifact links that survive, derive themselves, and pay for the turn [in_progress]"]
     n1["sase-tw.1: A rebuild may delete only what it can prove was deleted [closed]"]
-    n2["sase-tw.10: Finish the `links:` frontmatter inlet as an authoring path [in_progress]"]
+    n2["sase-tw.10: Finish the `links:` frontmatter inlet as an authoring path [closed]"]
     n3["sase-tw.11: Make every audited read a discovery moment [closed]"]
     n4["sase-tw.12: ACE stops flattening the relation type [closed]"]
     n5["sase-tw.13: `relation:`, `linked:`, and `artifact:` on the Agent pane [closed]"]
@@ -132,7 +132,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-tw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.1/README.md) | [sase-tw.1](sase-tw.1.md) | 1 |
-| [bbugyi200.athena.sase-tw.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.10/README.md) | [sase-tw.10](sase-tw.10.md) | 0 |
+| [bbugyi200.athena.sase-tw.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.10/README.md) | [sase-tw.10](sase-tw.10.md) | 2 |
 | [bbugyi200.athena.sase-tw.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.11/README.md) | [sase-tw.11](sase-tw.11.md) | 1 |
 | [bbugyi200.athena.sase-tw.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.12/README.md) | [sase-tw.12](sase-tw.12.md) | 1 |
 | [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 1 |
@@ -163,3 +163,5 @@ flowchart TD
 | sase | [`012a66a`](https://github.com/sase-org/sase/commit/012a66a659853bae9bd27e0c47b0f75178794a80) | fix(artifact-links): make related note migration safe | [sase-tw.9](sase-tw.9.md) | 2026-08-25 18:30:46 EDT |
 | sase | [`678988d`](https://github.com/sase-org/sase/commit/678988da73439c5c552fcf26a4007f6fcd6a27f6) | fix(artifact-links): follow sidecar renames | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:33:35 EDT |
 | sase | [`ad2032c`](https://github.com/sase-org/sase/commit/ad2032c878bc1ee62007a1edf41efc7140a03592) | feat(agent-catalog): filter agents by artifact link facets | [sase-tw.13](sase-tw.13.md) | 2026-08-25 19:21:47 EDT |
+| sase | [`b250011`](https://github.com/sase-org/sase/commit/b25001124a8bf49f2f0011cecdb417350a720436) | feat(artifact-links): consume plan links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:22:22 EDT |
+| sase-core | [`sase-core@2664e20`](https://github.com/sase-org/sase-core/commit/2664e20e94979e81ec729f620e500f8fea07a9cb) | feat(plan): allow transient links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:23:13 EDT |
