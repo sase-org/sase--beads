@@ -17,7 +17,7 @@ roster: make the `roster: inline` managed region reproduce today's generated glo
 
 ## Dependencies
 
-- **Blocks:** [sase-sq.7.1.4](sase-sq.7.1.4.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.7.1.4](sase-sq.7.1.4.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

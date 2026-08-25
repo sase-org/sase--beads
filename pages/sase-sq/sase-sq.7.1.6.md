@@ -13,7 +13,7 @@ trees: run the migration for the sase project and the bob-cli project, regenerat
 
 ## Dependencies
 
-- **Depends on:** [sase-sq.7.1.4](sase-sq.7.1.4.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.7.1.4](sase-sq.7.1.4.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sq.7.1.5](sase-sq.7.1.5.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
