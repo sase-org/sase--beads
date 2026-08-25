@@ -16,8 +16,8 @@ Project-scoped %if predicates run only after admission claims and prepares a num
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-tk.1](sase-tk.1.md) | Claimed-workspace condition runtime | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tk.2](sase-tk.2.md) | SASE admission regressions and documentation | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
-| [sase-tk.3](sase-tk.3.md) | toobig split integration contract | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
+| [sase-tk.2](sase-tk.2.md) | SASE admission regressions and documentation | ✓ closed | small | 2026-08-25 | 1 | 0 |
+| [sase-tk.3](sase-tk.3.md) | toobig split integration contract | ✓ closed | small | 2026-08-25 | 1 | 0 |
 | [sase-tk.4](sase-tk.4.md) | Cross-repository end-to-end verification | ◐ in_progress | xsmall | 2026-08-25 | 1 | 0 |
 
 ## Lineage
@@ -26,8 +26,8 @@ Project-scoped %if predicates run only after admission claims and prepares a num
 flowchart TD
     n0["sase-tk: Evaluate project %if predicates in claimed workspaces [in_progress]"]
     n1["sase-tk.1: Claimed-workspace condition runtime [closed]"]
-    n2["sase-tk.2: SASE admission regressions and documentation [in_progress]"]
-    n3["sase-tk.3: toobig split integration contract [in_progress]"]
+    n2["sase-tk.2: SASE admission regressions and documentation [closed]"]
+    n3["sase-tk.3: toobig split integration contract [closed]"]
     n4["sase-tk.4: Cross-repository end-to-end verification [in_progress]"]
     n0 --> n1
     n0 --> n2

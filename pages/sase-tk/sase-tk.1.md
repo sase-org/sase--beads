@@ -17,8 +17,8 @@ condition_workspace_runtime: acquire, recover, and release a prepared operationa
 
 ## Dependencies
 
-- **Blocks:** [sase-tk.2](sase-tk.2.md) ◐ · ⧖ 2026-08-25
-- **Blocks:** [sase-tk.3](sase-tk.3.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tk.2](sase-tk.2.md) ✓ · ⧖ 2026-08-25
+- **Blocks:** [sase-tk.3](sase-tk.3.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

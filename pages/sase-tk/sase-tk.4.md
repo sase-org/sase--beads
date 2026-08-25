@@ -13,8 +13,8 @@ integrated_verification: run the required SASE and chop verification lanes and c
 
 ## Dependencies
 
-- **Depends on:** [sase-tk.2](sase-tk.2.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-tk.3](sase-tk.3.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tk.2](sase-tk.2.md) ✓ · ⧖ 2026-08-25
+- **Depends on:** [sase-tk.3](sase-tk.3.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
