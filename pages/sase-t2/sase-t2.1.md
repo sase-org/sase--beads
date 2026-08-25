@@ -19,7 +19,7 @@ core: replace the free-text `notes` blob with an event-derived list of timestamp
 
 ## Dependencies
 
-- **Blocks:** [sase-t2.2](sase-t2.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-t2.2](sase-t2.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

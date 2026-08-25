@@ -21,8 +21,8 @@ show: add the shared note presentation module and render one dated, attributed, 
 
 ## Dependencies
 
-- **Depends on:** [sase-t2.2](sase-t2.2.md) ◐ · ⧖ 2026-08-24
-- **Blocks:** [sase-t2.5](sase-t2.5.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-t2.2](sase-t2.2.md) ✓ · ⧖ 2026-08-24
+- **Blocks:** [sase-t2.5](sase-t2.5.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

@@ -13,7 +13,7 @@ docs: update the bead docs, the CLI reference tables, and the sase_beads memory 
 
 ## Dependencies
 
-- **Depends on:** [sase-t2.5](sase-t2.5.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-t2.5](sase-t2.5.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
