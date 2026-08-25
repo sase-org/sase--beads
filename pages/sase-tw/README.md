@@ -24,7 +24,7 @@ The artifact-link graph stops losing durable rows, grows to ~1,600 edges derived
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
-| [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.8](sase-tw.8.md) | The citation channel stops starving | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n7["sase-tw.2: Audited reads become durable and publish with the agent's commits [in_progress]"]
     n8["sase-tw.3: A bead in either endpoint position gets its event [in_progress]"]
     n9["sase-tw.4: Links follow renames instead of dangling [in_progress]"]
-    n10["sase-tw.5: Relation semantics, `derived` projection class, and a way to read them [in_progress]"]
+    n10["sase-tw.5: Relation semantics, `derived` projection class, and a way to read them [closed]"]
     n11["sase-tw.6: One derivation module behind one flag [in_progress]"]
     n12["sase-tw.7: Derive at creation, on sidecar commit, and in the hourly sweep [in_progress]"]
     n13["sase-tw.8: The citation channel stops starving [in_progress]"]
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 0 |
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 0 |
 | [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 0 |
-| [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 0 |
+| [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 0 |
 | [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
 | [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 0 |
@@ -111,3 +111,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e46adb7`](https://github.com/sase-org/sase/commit/e46adb77f14965dd49d680f35618e1b92b36a1cf) | fix(artifact-links): preserve aggregate rows across workspace rebuilds | [sase-tw.1](sase-tw.1.md) | 2026-08-25 16:02:32 EDT |
+| sase | [`1282c7a`](https://github.com/sase-org/sase/commit/1282c7a8c7ff02b328b87bdbe33e28616f9e2020) | feat(artifact-cli): add artifact link relation subcommand | [sase-tw.5](sase-tw.5.md) | 2026-08-25 16:04:13 EDT |
+| sase-core | [`sase-core@498077f`](https://github.com/sase-org/sase-core/commit/498077f19fdf4fed951b4b4f62369483a67e0d42) | feat(artifact-link): add relation module for link relation queries | [sase-tw.5](sase-tw.5.md) | 2026-08-25 16:06:33 EDT |
