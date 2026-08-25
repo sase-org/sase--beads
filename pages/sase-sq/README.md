@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-sq
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0cb](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0cb.md) · **Assignee:** `sase-sq.land`
-**Created:** 2026-08-24 09:32:12 EDT
+**Created:** 2026-08-24 09:32:12 EDT · **Closed:** 2026-08-25 04:15:17 EDT
 **Plan:** [202608/memory\_webs.md](https://github.com/sase-org/sase--plans/blob/main/202608/memory_webs.md)
 
 ## Description
@@ -18,6 +18,30 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 [2026-08-24T22:57:38Z · 0d2] DISCOVERED ISSUE: During canonical_parent_plan_refs verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Current failure wants to refresh ~/.local/share/chezmoi/home/sase/memory/sase.md (+1) and ~/.local/share/chezmoi/home/sase/memory/README.md (+8 -5). I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the parent-plan display diff. This corroborates the existing init-memory drift note on this memory-web epic rather than a new task.
 
 [2026-08-24T23:54:00Z · 0d5] DISCOVERED ISSUE: During restore_chop_wait_chains verification on 2026-08-24, just check passed fmt, Ruff, mypy, feature-flag/script/test-wait/changelog/terminology, Symvision, and toobig lint, then failed only SASE validation at init memory --check. Reproduction: just check, or .venv/bin/sase validate. Current failure wants to update the generated memory README at sase/memory/README.md (+2 -2). I did not run sase memory init because current instructions forbid memory-file/provider-shim edits without explicit user permission, and this is unrelated to the AXE chop wait-chain diff. This corroborates the existing init-memory drift notes on this memory-web epic rather than a new task.
+
+[2026-08-25T07:47:45Z · sase-sq.land] LAND PROGRESS (sase-sq.land, master 39bc4bc70 + uncommitted landing diff). Recording state before handing the full suite to a monitor.
+
+VERIFIED (step 1). Read the epic bead, all 8 phase beads, both nested child epics (sase-sq.7.1, sase-sq.8.1) and every note. All 8 phases are CLOSED/done. Checked the plan's five acceptance criteria against the tree, not the notes: sase/memory/glossary.md is a user-owned core web (web: true, roster: inline, closure: mentions) with 39 strands and no memory.glossary in sase/sase.yml, home, or bob-cli origin/master; sase/memory/task_types.md is a generated core web with 5 registry-driven strands; sase/memory/decisions.md is a core web with 6 records; AGENTS.md carries '## Tier 1 (core) Memory' / '## Tier 2 (reference) Memory'; the memory_webs flag is gone from src/sase/feature_flags/ and its flag bead sase-sy is closed. Verified the rendering invariant directly: no strand body from any of the three webs appears in AGENTS.md. Verified the sase-core half in the linked checkout at v0.32.3 (c0958b0): MemoryTierWire parses core/reference with short/long serde aliases, GLOSSARY_WIRE_SCHEMA_VERSION = 2. Exercised the CLI end to end: memory web list shows all three webs, memory web show decisions renders the index, and a mixed batch read of glossary:stitch decisions:memory-webs task_types:bug resolves with the glossary's mention closure intact. sase bead epic-symbols sase-sq reports no entries.
+
+INTEGRATED (step 2). Reviewed all 64 commits since c9ca0db5f, 48 of them non-epic. The nested land agents covered the windows after af27e67e0; I reviewed the earlier window they never saw. One commit genuinely interacts: c09fe5170 (core memory priority) landed mid-epic and already integrated itself — memory/web/frontmatter.py parses priority, rejects it on reference webs, models.py carries it, root_planning.py:237 passes web.priority into the core-note overlay, and amd/_memory.py:248 orders by (priority, path). 39bc4bc70, the only commit after the last epic commit, is an unrelated script split. No conflicts or duplication found.
+
+FIXED AS EPIC WORK. sase-sq.8.1's close note claims six gap-fixes; none of them were ever committed to this repo (there is no commit from sase-sq.8.1.land, and the tree still carried all six defects). All six are epic-caused and are fixed in this turn's diff:
+1. memory-README.template.md emitted *is* / *renders* while prettier normalizes generated Markdown to _is_ / _renders_, so sase memory init --check reported permanent one-line drift in the sase and home roots. This is the exact blocker behind this epic's own notes 1-3. Fixed the template; sase memory init --check and sase validate are now clean for every root, and bob-cli's origin/master README already carries _is_, so all three roots agree.
+2. cebab38a1 dropped `from datetime import UTC, datetime` from tests/main/test_memory_log.py along with the glossary-log tests, leaving two proposal tests raising NameError. Restored; 12 passed.
+3. tests/ace/tui/widgets/test_prompt_glossary_panel_entry.py still asserted GlossaryPanelRequested.term, removed by 93d379e0a. Rewritten against note_identity, including a real source_path case that exercises the glossary:<slug> derivation and a new no-source-path miss case; 7 passed.
+4. tests/xprompt/test_repo_mention_catalog.py::test_glossary_claimed_name_excluded seeded its exclusion from a memory.glossary config block that no longer feeds the catalog. Reseeded from a real glossary web descriptor plus strand; 13 passed.
+5. Removing the Glossary sub-tab left _config_hub_strip_thresholds branching at tab_count >= 7, which is now unreachable, so both flag states fell back to the 5-tab-era 85/73 and micro kicked in at 73 against a 59-cell compact strip. I re-measured the rendered strip myself rather than trusting the phase note: 6 tabs (Flags on) render 81 full / 59 compact, 5 tabs (Flags off) 68 / 48. Retuned to 82/60 and 69/49 with the branch at >= 6, and rewrote the stale comments that still named a Gloss tab. Updated the paired threshold test plus five more that assumed the old tab count: config-hub digit navigation (04->03 launch, f4+6->f4+5 snippets), the flags-pane prefix forward (07->06 xprompts), and two feature-flags catalog assertions (six shortcuts -> five, and the tab-id tuple that still listed 'glossary').
+6. Rebaselined 18 Config-hub PNG goldens. I checked every diff first by computing its changed-pixel bounding box: all 18 are confined to a single 26px text row, the tab strip, with no change anywhere else in any frame. The two 70x32 frames also flip micro -> compact, which is the point of fix 5.
+
+GATES SO FAR. just check passes fmt (python), fmt (markdown), keep-sorted, ruff, mypy, feature flags, pyscripts, test waits, changelog, patch/stitch terminology, and toobig, then fails only at lint (symvision) on sase-tb (18 private chat_fork imports from unrelated commit 9a7fd2e99, +4 corroborations, not this epic's files). sase validate is green on all seven checks. Targeted suites green: 294 memory/init-memory, 573 scoped-selection, 382 ACE config, 20 config-hub visual. tools/select_tests escalates to the full suite on this diff, so the full suite is running under a monitor before this epic closes.
+
+FOLLOW-UPS (step 3). Every PROPOSED FOLLOW-UP on the direct phase beads is dispositioned. sase-sq.1: (n1) ratchet the sase-core-rs floor — the release exists as v0.32.3 and 7.1.land already recorded it as evidence on sase-so.5.1, the in-progress phase that owns the ratchet; no action. (n2) regenerate bob-cli memory — done; bob-cli origin/master carries type: core / type: reference notes, 4 glossary strands, 4 task-type strands, and no memory.glossary; the local checkout being 5 commits behind origin is stale-clone drift, not epic work. (n3) sase skill init — done; the deployed ~/.claude/skills/sase_memory_read/SKILL.md documents the two-axis model and web:keyword reads, and sase skill init --check is clean. (n4) memory-directory-map.png/prompt still say short/long — filed as sase-te (bug, small); regenerating the PNG needs an image model, so it could not be discharged here. (n5) internal short/long identifier rename — filed as sase-tf (bug, medium), 121 sites, linked related to sase-te. sase-sq.3: (n1) config-schema 'defer' refusal — already fixed on master by 6a91ae88e and recorded on sase-o0. (n2) test_canonical_query_round_trip_property Hypothesis too_slow — duplicate of sase-sv, which already carries a +1 naming the exact tests/test_vcs_log_filter_query.py node; I could not reproduce it (passes in 0.47s, absent from tests/reproducible_flake_baseline.txt) so I recorded a negative-reproduction note rather than a +1. (n3) test_project_beads_skips_when_store_is_absent — already a +1 on sase-eq. sase-sq.5: (n1) roster.py inline-branch wrapping — already fixed; roster.py:48 wraps through wrap_markdown at markdown_print_width(). (n2) sase-core v0.32.0 bead-notes schema break — routed to sase-t2 by 7.1.land and no longer reproducing: this workspace rebuilt sase_core_rs from the v0.32.3 checkout and every bead mutation this turn succeeded.
+
+[2026-08-25T08:15:17Z · sase-sq.land--1] LAND COMPLETE (sase-sq.land, master 39bc4bc70 + landing diff). Full detail of steps 1-2 is in note #4; this note records the verification that gated the close.
+
+VERIFIED (step 1). Read the epic, al
+
+… and 5306 more characters
 
 ## Phases
 
@@ -36,7 +60,7 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 
 ```mermaid
 flowchart TD
-    n0["sase-sq: Memory webs and strands [in_progress]"]
+    n0["sase-sq: Memory webs and strands [closed]"]
     n1["sase-sq.1: Core and reference memory vocabulary [closed]"]
     n2["sase-sq.2: Web and strand substrate [closed]"]
     n3["sase-sq.3: Selector-based memory read and the web command group [closed]"]
@@ -118,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 1 |
-| [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
+| [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.land.md) | [sase-sq](README.md) | 1 |
 
 ## Commits
 
@@ -143,3 +167,4 @@ flowchart TD
 | sase | [`93d379e`](https://github.com/sase-org/sase/commit/93d379e0a66d4299fa429882a244450a47757418) | feat(memory): migrate glossary panel to memory panel and extract keymaps registry | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 2026-08-25 00:54:34 EDT |
 | sase | [`882ba36`](https://github.com/sase-org/sase/commit/882ba36f5ae84d3a82230ea2b7ee30f6e8a7d29d) | docs(memory): retire glossary strand references across docs and skills | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 2026-08-25 01:32:09 EDT |
 | sase | [`b592cfa`](https://github.com/sase-org/sase/commit/b592cfa5760d6f3f8c1b2f948780b0a8e25ae1cf) | fix(memory): finish retiring the config glossary across ACE and generated memory | [sase-sq.8.1](sase-sq.8.1.md) | 2026-08-25 02:53:12 EDT |
+| sase | [`6271aa5`](https://github.com/sase-org/sase/commit/6271aa52d9a8c952feabd9998b60a15f9fa6a9de) | fix(memory): repair memory-web landing gaps and config hub tab strip | [sase-sq](README.md) | 2026-08-25 04:23:43 EDT |
