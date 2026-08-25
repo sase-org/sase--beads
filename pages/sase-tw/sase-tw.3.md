@@ -40,4 +40,10 @@ on that bead.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 0 |
+| [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`79e51b5`](https://github.com/sase-org/sase/commit/79e51b564ec987540a8a9954603fbd0a5ca2a5ec) | feat(bead-links): thread link direction and uses count through Python bead link facade | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:17:10 EDT |
