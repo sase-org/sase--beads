@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.13
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.13` · **Size:** medium
-**Created:** 2026-08-25 15:34:44 EDT
+**Created:** 2026-08-25 15:34:44 EDT · **Closed:** 2026-08-25 19:20:26 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
@@ -51,6 +51,8 @@ Three consequences.
    index-durability as the fix for: a lossy index is not the only way the corpus can be
    incomplete.
 
+[2026-08-25T23:20:26Z · sase-tw.13] Implemented Agent-pane/catalog link filters for relation, artifact, and linked facets. Verified: sase bead epic-symbols sase-tw.13 reported no entries; focused query/search/help tests passed; .venv/bin/sase agent search 'relation:read linked:true' -j -l 5 returned live rows; tests/perf/bench_artifacts_first_paint.py Agent first-paint p50 182.70ms after vs 169.30ms pre-phase integration baseline, still <=400ms target; just check passed.
+
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
@@ -61,4 +63,10 @@ Three consequences.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 0 |
+| [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ad2032c`](https://github.com/sase-org/sase/commit/ad2032c878bc1ee62007a1edf41efc7140a03592) | feat(agent-catalog): filter agents by artifact link facets | [sase-tw.13](sase-tw.13.md) | 2026-08-25 19:21:47 EDT |

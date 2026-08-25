@@ -28,11 +28,10 @@ rename-following: consume git rename detection in the sidecar link refresh so a 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 2 |
+| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`678988d`](https://github.com/sase-org/sase/commit/678988da73439c5c552fcf26a4007f6fcd6a27f6) | fix(artifact-links): follow sidecar renames | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:33:35 EDT |
-| sase--research | [`sase--research@1ecda82`](https://github.com/sase-org/sase--research/commit/1ecda82d17d2859476d90de64e89706d6d76c6a2) | fix(research): repair artifact link indexes | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:41:21 EDT |

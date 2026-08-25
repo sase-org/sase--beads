@@ -18,7 +18,7 @@ index-durability: make `preview_aggregate` carry forward prior rows whose owning
 ## Dependencies
 
 - **Blocks:** [sase-tw.11](sase-tw.11.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.13](sase-tw.13.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.13](sase-tw.13.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.2](sase-tw.2.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.3](sase-tw.3.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.4](sase-tw.4.md) ✓ · ⧖ 2026-08-25

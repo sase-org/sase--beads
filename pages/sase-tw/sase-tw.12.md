@@ -34,7 +34,7 @@ side covered it.
 
 ## Dependencies
 
-- **Blocks:** [sase-tw.13](sase-tw.13.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.13](sase-tw.13.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.5](sase-tw.5.md) ✓ · ⧖ 2026-08-25
 
 ## Agents

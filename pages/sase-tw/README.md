@@ -50,6 +50,8 @@ REPRODUCTION: .venv/bin/python -m pytest -q -p no:randomly tests/completion/test
 
 FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Routed to this epic rather than a new task bead because sase-tw owns the causing commit and phases sase-tw.13/sase-tw.14 are still in flight on the same CLI surface; the completion-snapshot half is also corroborated on task sase-pr (+1 by sase-tt.land). Found while landing epic sase-tt and originally recorded as a PROPOSED FOLLOW-UP on bead sase-tt.8; verified NOT caused by sase-tt.
 
+[2026-08-25T22:42:11Z · 0dv] DISCOVERED ISSUE CORROBORATION: During bead_show_paging_and_multi_id verification on 2026-08-25, just check escalated to the governed full pytest lane and failed tests/main/test_artifact_handler.py::test_public_long_options_are_alphabetical_and_have_short_aliases. A focused rerun reproduced deterministically: the artifact link subcommands now include relation, but the test still expects ['add', 'list', 'migrate-notes', 'rm']. The local diff is bead show paging/multi-ID/parser/docs/tests work and does not touch artifact link relation parsing. This corroborates note #4 on this active epic rather than creating a standalone task bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,11 +60,11 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | [sase-tw.10](sase-tw.10.md) | Finish the \`links:\` frontmatter inlet as an authoring path | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.11](sase-tw.11.md) | Make every audited read a discovery moment | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.12](sase-tw.12.md) | ACE stops flattening the relation type | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tw.13](sase-tw.13.md) | \`relation:\`, \`linked:\`, and \`artifact:\` on the Agent pane | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tw.13](sase-tw.13.md) | \`relation:\`, \`linked:\`, and \`artifact:\` on the Agent pane | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
-| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 2 |
+| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
@@ -78,7 +80,7 @@ flowchart TD
     n2["sase-tw.10: Finish the `links:` frontmatter inlet as an authoring path [in_progress]"]
     n3["sase-tw.11: Make every audited read a discovery moment [closed]"]
     n4["sase-tw.12: ACE stops flattening the relation type [closed]"]
-    n5["sase-tw.13: `relation:`, `linked:`, and `artifact:` on the Agent pane [in_progress]"]
+    n5["sase-tw.13: `relation:`, `linked:`, and `artifact:` on the Agent pane [closed]"]
     n6["sase-tw.14: The judgment tier, the flag removal, and the two workflow lines [in_progress]"]
     n7["sase-tw.2: Audited reads become durable and publish with the agent's commits [closed]"]
     n8["sase-tw.3: A bead in either endpoint position gets its event [closed]"]
@@ -133,11 +135,11 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.10/README.md) | [sase-tw.10](sase-tw.10.md) | 0 |
 | [bbugyi200.athena.sase-tw.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.11/README.md) | [sase-tw.11](sase-tw.11.md) | 1 |
 | [bbugyi200.athena.sase-tw.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.12/README.md) | [sase-tw.12](sase-tw.12.md) | 1 |
-| [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 0 |
+| [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 1 |
 | [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 0 |
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 1 |
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
-| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 2 |
+| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 1 |
 | [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
@@ -160,4 +162,4 @@ flowchart TD
 | sase | [`7015c79`](https://github.com/sase-org/sase/commit/7015c7938d984037447ed7de29ff952b5aab0650) | feat(artifact-links): add Textual-free derivation module behind a beta flag | [sase-tw.6](sase-tw.6.md) | 2026-08-25 18:28:07 EDT |
 | sase | [`012a66a`](https://github.com/sase-org/sase/commit/012a66a659853bae9bd27e0c47b0f75178794a80) | fix(artifact-links): make related note migration safe | [sase-tw.9](sase-tw.9.md) | 2026-08-25 18:30:46 EDT |
 | sase | [`678988d`](https://github.com/sase-org/sase/commit/678988da73439c5c552fcf26a4007f6fcd6a27f6) | fix(artifact-links): follow sidecar renames | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:33:35 EDT |
-| sase--research | [`sase--research@1ecda82`](https://github.com/sase-org/sase--research/commit/1ecda82d17d2859476d90de64e89706d6d76c6a2) | fix(research): repair artifact link indexes | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:41:21 EDT |
+| sase | [`ad2032c`](https://github.com/sase-org/sase/commit/ad2032c878bc1ee62007a1edf41efc7140a03592) | feat(agent-catalog): filter agents by artifact link facets | [sase-tw.13](sase-tw.13.md) | 2026-08-25 19:21:47 EDT |
