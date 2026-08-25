@@ -14,7 +14,7 @@ derivation-hooks: call the derivation module from `sase plan propose` and `sase 
 ## Dependencies
 
 - **Depends on:** [sase-tw.2](sase-tw.2.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.4](sase-tw.4.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.4](sase-tw.4.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.6](sase-tw.6.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.8](sase-tw.8.md) ◐ · ⧖ 2026-08-25
 
