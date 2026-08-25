@@ -14,7 +14,7 @@ retire: delete the config-backed glossary package, schema, completion source, an
 ## Dependencies
 
 - **Depends on:** [sase-sq.6](sase-sq.6.md) ✓ · ⧖ 2026-08-24
-- **Depends on:** [sase-sq.7](sase-sq.7.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.7](sase-sq.7.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

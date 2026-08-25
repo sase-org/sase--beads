@@ -24,7 +24,7 @@ decisions: remove the memory_webs beta flag and close its flag bead, then ship t
 - **Depends on:** [sase-sq.3](sase-sq.3.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-sq.4](sase-sq.4.md) ✓ · ⧖ 2026-08-24
 - **Blocks:** [sase-sq.6](sase-sq.6.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.7](sase-sq.7.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.7](sase-sq.7.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
