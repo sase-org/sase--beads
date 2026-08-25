@@ -14,7 +14,7 @@ frontmatter-inlet: give the orphaned Rust `links:` parser its production caller 
 ## Dependencies
 
 - **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.6](sase-tw.6.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.6](sase-tw.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

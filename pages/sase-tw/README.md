@@ -40,6 +40,16 @@ read-payoff, and migration phases touch disjoint code.
 
 [2026-08-25T21:09:54Z · research.14.cdx] DISCOVERED ISSUE CORROBORATION: While verifying the unrelated direct-agent-CLI compatibility research report, just check independently failed deterministically at lint (symvision) on HEAD 446e9a43c359fc8ed943f29ab4eb24c91601dd21. The only reported symbols were handle_link_relation_list and handle_link_relation_show in src/sase/artifact_cli/link_relations.py. All preceding gates passed (Python/Markdown formatting, keep-sorted, Ruff, mypy, feature flags, pyscripts, test waits, changelog, and patch/stitch terminology). This is the same phase-caused failure already recorded in note #2; no standalone task was created.
 
+[2026-08-25T22:10:50Z · sase-tt.land] DISCOVERED ISSUE (sase-tt.land, master f56cf4333): phase sase-tw.5's commit 1282c7a8c ('feat(artifact-cli): add artifact link relation subcommand') added the 'sase artifact link relation' subparser and its 'list' child without updating two derived expectations, leaving three nodes red on clean master:
+
+  - tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift
+  - tests/completion/test_snapshot.py::test_current_structural_view_matches_checked_in_snapshot
+  - tests/main/test_artifact_handler.py::test_public_long_options_are_alphabetical_and_have_short_aliases
+
+REPRODUCTION: .venv/bin/python -m pytest -q -p no:randomly tests/completion/test_snapshot.py tests/main/test_artifact_handler.py -> 3 failed, deterministic in isolation (not a parallel-lane flake). Diffing current_structural_view() against tests/completion/snapshots/cli_spec.json shows the whole delta is the new .root.subcommands[artifact].subcommands[link].subcommands[relation] subtree; nothing else drifted. test_artifact_handler asserts list(link_subcommands.choices) == ['add','list','migrate-notes','rm'], which 'relation' now breaks.
+
+FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Routed to this epic rather than a new task bead because sase-tw owns the causing commit and phases sase-tw.13/sase-tw.14 are still in flight on the same CLI surface; the completion-snapshot half is also corroborated on task sase-pr (+1 by sase-tt.land). Found while landing epic sase-tt and originally recorded as a PROPOSED FOLLOW-UP on bead sase-tt.8; verified NOT caused by sase-tt.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -54,7 +64,7 @@ read-payoff, and migration phases touch disjoint code.
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
-| [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.8](sase-tw.8.md) | The citation channel stops starving | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.9](sase-tw.9.md) | Run the RELATED: note backfill | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
@@ -74,7 +84,7 @@ flowchart TD
     n8["sase-tw.3: A bead in either endpoint position gets its event [closed]"]
     n9["sase-tw.4: Links follow renames instead of dangling [in_progress]"]
     n10["sase-tw.5: Relation semantics, `derived` projection class, and a way to read them [closed]"]
-    n11["sase-tw.6: One derivation module behind one flag [in_progress]"]
+    n11["sase-tw.6: One derivation module behind one flag [closed]"]
     n12["sase-tw.7: Derive at creation, on sidecar commit, and in the hourly sweep [in_progress]"]
     n13["sase-tw.8: The citation channel stops starving [in_progress]"]
     n14["sase-tw.9: Run the RELATED: note backfill [in_progress]"]
@@ -129,7 +139,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
 | [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 0 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
-| [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 0 |
+| [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 1 |
 | [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
 | [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 0 |
 | [bbugyi200.athena.sase-tw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.9/README.md) | [sase-tw.9](sase-tw.9.md) | 0 |
@@ -147,3 +157,4 @@ flowchart TD
 | sase | [`79e51b5`](https://github.com/sase-org/sase/commit/79e51b564ec987540a8a9954603fbd0a5ca2a5ec) | feat(bead-links): thread link direction and uses count through Python bead link facade | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:17:10 EDT |
 | sase-core | [`sase-core@4b1f2d6`](https://github.com/sase-org/sase-core/commit/4b1f2d64a3ed2769160893efdc201ff14a7c9319) | feat(bead-links): track link direction and uses count in bead-owned link events | [sase-tw.3](sase-tw.3.md) | 2026-08-25 17:19:56 EDT |
 | sase | [`2730cfe`](https://github.com/sase-org/sase/commit/2730cfedca0d162646a69d9d4b1e262ef8cc6a1b) | feat(artifact): preserve typed link relations in ACE | [sase-tw.12](sase-tw.12.md) | 2026-08-25 18:24:19 EDT |
+| sase | [`7015c79`](https://github.com/sase-org/sase/commit/7015c7938d984037447ed7de29ff952b5aab0650) | feat(artifact-links): add Textual-free derivation module behind a beta flag | [sase-tw.6](sase-tw.6.md) | 2026-08-25 18:28:07 EDT |

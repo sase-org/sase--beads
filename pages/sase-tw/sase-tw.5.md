@@ -19,7 +19,7 @@ relation-registry: settle `plan implements bead` in the registry with direction,
 
 - **Blocks:** [sase-tw.11](sase-tw.11.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.12](sase-tw.12.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.6](sase-tw.6.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.6](sase-tw.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
