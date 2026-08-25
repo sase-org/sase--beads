@@ -38,7 +38,7 @@ rather than force-accepting it.
 - **Depends on:** [sase-tt.2](sase-tt.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tt.3](sase-tt.3.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tt.4](sase-tt.4.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-tt.5](sase-tt.5.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tt.5](sase-tt.5.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tt.6](sase-tt.6.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tt.7](sase-tt.7.md) ✓ · ⧖ 2026-08-25
 
