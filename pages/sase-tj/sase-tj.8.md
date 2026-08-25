@@ -13,7 +13,7 @@ cli: ship the headless catalog search command over the same row model and dialec
 
 ## Dependencies
 
-- **Depends on:** [sase-tj.2](sase-tj.2.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tj.2](sase-tj.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tj.3](sase-tj.3.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.9](sase-tj.9.md) ◐ · ⧖ 2026-08-25
 
