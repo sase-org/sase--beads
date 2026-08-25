@@ -19,4 +19,10 @@ navigation: add agents_next/agents_prev over the pane's existing move_selection(
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.2/README.md) | [sase-tj.10.2](sase-tj.10.2.md) | 0 |
+| [bbugyi200.athena.sase-tj.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.2/README.md) | [sase-tj.10.2](sase-tj.10.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9b4f7d4`](https://github.com/sase-org/sase/commit/9b4f7d41a6d4de19454f1972d1e8f54391723205) | feat(artifacts-agents): bind j/k navigation on the Agent pane and guard capability reachability | [sase-tj.10.2](sase-tj.10.2.md) | 2026-08-25 15:35:02 EDT |
