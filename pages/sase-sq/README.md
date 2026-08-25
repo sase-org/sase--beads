@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.land/README.md) | [sase-sq.7.1](sase-sq.7.1.md) | 1 |
 | [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.8.md) | [sase-sq.8](sase-sq.8.md) | 0 |
 | [bbugyi200.athena.sase-sq.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.1/README.md) | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 1 |
-| [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 0 |
 | [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
@@ -140,3 +140,4 @@ flowchart TD
 | sase | [`df95621`](https://github.com/sase-org/sase/commit/df956212be2c5c246cb45207c753623b3ca92f5e) | feat(memory): migrate sase glossary to web | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 2026-08-24 22:24:33 EDT |
 | sase | [`d9341f2`](https://github.com/sase-org/sase/commit/d9341f2366a7b1cc16db3a9212aed97c772bf793) | fix(memory): wrap the migrated glossary descriptor preamble | [sase-sq.7.1](sase-sq.7.1.md) | 2026-08-24 23:05:35 EDT |
 | sase | [`cebab38`](https://github.com/sase-org/sase/commit/cebab38a1f9b793c59c0671954aab837ab76aee3) | feat(memory): retire config glossary infrastructure | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 2026-08-24 23:55:11 EDT |
+| sase | [`93d379e`](https://github.com/sase-org/sase/commit/93d379e0a66d4299fa429882a244450a47757418) | feat(memory): migrate glossary panel to memory panel and extract keymaps registry | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 2026-08-25 00:54:34 EDT |

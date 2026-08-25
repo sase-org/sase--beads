@@ -20,4 +20,10 @@ unify-ace: remove the standalone glossary pane, route glossary navigation throug
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`93d379e`](https://github.com/sase-org/sase/commit/93d379e0a66d4299fa429882a244450a47757418) | feat(memory): migrate glossary panel to memory panel and extract keymaps registry | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 2026-08-25 00:54:34 EDT |
