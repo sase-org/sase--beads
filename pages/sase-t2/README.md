@@ -27,6 +27,19 @@ Every bead note carries a real timestamp and author as structured data, no write
 
 [2026-08-25T11:16:08Z · codex-01a03885] CORROBORATION: During beads-sidecar clone reliability verification at HEAD 2d908ca1145b, the governed 36,803-test lane reproduced the timestamped-note golden/search drift: six test_bead_cli_golden parameter cases (list_full, list_json, list_json_limit, list_implicit_closed_json, show_json, show_phase_json) plus test_handle_bead_search_compact_includes_closed_and_match_reason. The local diff only touches SDD sidecar clone reference/retry behavior, its tests, and a destructive-operation audit allowlist. The separate history-date failure was corroborated on exact task sase-t9.
 
+[2026-08-25T13:30:15Z · sase-t2.land] LAND VERIFICATION (sase-t2.land, master 9c5d26eac) — landing INTERRUPTED, epic stays open pending a child epic.
+
+VERIFIED COMPLETE. All six phases are implemented in tracked code, not just reported. sase-core (linked repo, opened via /sase_repo): BeadNoteWire with validate() and parse_legacy_note_blob in bead/wire.rs, NoteEdited/NoteRemoved operations + payloads + reducer arms in bead/events.rs, bead_append_note/bead_note_edit/bead_note_remove PyO3 bindings with round-trip tests in sase_core_py/lib.rs. sase: frozen BeadNote dataclass and Issue.notes_text in bead/model.py, note_codec.py, note_presentation.py (bead_note_label/bead_note_search_text/NOTE_EDITED_MARKER), cli_detail_json.py emitting notes + notes_text, the --notes tombstone in cli_crud_update.py (live probe exits 1 with the teaching error naming sase bead note), -n/--note on update and -e/--edit / -x/--remove on note in parser_bead_lifecycle.py, and tools/check_bead_note_migration. Every text consumer named in the plan reads notes_text. docs/beads.md and docs/configuration.md document the record shape, the deliberate --format json break, and the --edit/--remove repair path.
+
+DISCOVERED-ISSUE NOTES 1-7 ON THIS BEAD ARE RESOLVED. The bead-CLI structured-note drift that seven agents corroborated between 2026-08-24 18:56 and 2026-08-25 07:16 no longer reproduces. Commit 436baa7c1 (bead sase-th.2) refreshed the six golden CLI fixtures, the stale test_cli_search.py flat-notes assertion, and the test_cli_history.py hardcoded date. Verified: .venv/bin/python -m pytest tests/test_bead/test_cli_golden.py tests/test_bead/test_cli_search.py tests/test_bead/test_cli_history.py -q gives 83 passed. sase bead epic-symbols sase-t2 reports no entries and just symvision is clean.
+
+INTEGRATION. Reviewed every commit from b74bfa37a (this epic's first) to HEAD. Nothing since the epic started duplicates or conflicts with the structured note log; the one place that had to integrate with it (the golden fixtures) already did, in 436baa7c1. No src/ module outside the bead package still reads Issue.notes as a string.
+
+REMAINING EPIC WORK — proposing child epic plan sase_plan_legacy_note_bytes_in_conflict_resolution.md with this bead as parent, so its land agent resumes this landing.
+(1) src/sase/bead/conflict_resolver.py round-trips every CONFLICTED stream through the bead_merge_event_streams_with_relocation binding, and since IssueWire.notes became Vec<BeadNoteWire> that round-trip rewrites historical bytes. Confirmed empirically against the live binding: an issue_created payload with "notes":"" loses the field entirely, and a non-empty legacy string becomes a structured record array. That is the exact corruption _stream_integrity.py refuses to publish
+
+… and 5193 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +49,7 @@ Every bead note carries a real timestamp and author as structured data, no write
 | [sase-t2.3](sase-t2.3.md) | NOTES rendering in \`sase bead show\` | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-t2.4](sase-t2.4.md) | Append-only write surface | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-t2.5](sase-t2.5.md) | Note edit and retraction | ✓ closed | medium | 2026-08-24 | 1 | 2 |
-| [sase-t2.6](sase-t2.6.md) | Documentation and memory | ◐ in_progress | small | 2026-08-24 | 1 | 1 |
+| [sase-t2.6](sase-t2.6.md) | Documentation and memory | ✓ closed | small | 2026-08-24 | 1 | 1 |
 
 ## Lineage
 
@@ -48,13 +61,19 @@ flowchart TD
     n3["sase-t2.3: NOTES rendering in `sase bead show` [closed]"]
     n4["sase-t2.4: Append-only write surface [closed]"]
     n5["sase-t2.5: Note edit and retraction [closed]"]
-    n6["sase-t2.6: Documentation and memory [in_progress]"]
+    n6["sase-t2.6: Documentation and memory [closed]"]
+    n7["sase-t2.7: Legacy note bytes survive bead conflict resolution [in_progress]"]
+    n8["sase-t2.7.1: Preserve ancestor event bytes through the conflict resolver [closed]"]
+    n9["sase-t2.7.2: Correct the bead-notes documentation that still promises replacement [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -73,7 +92,10 @@ flowchart TD
 | [bbugyi200.athena.sase-t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.4/README.md) | [sase-t2.4](sase-t2.4.md) | 1 |
 | [bbugyi200.athena.sase-t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.5/README.md) | [sase-t2.5](sase-t2.5.md) | 2 |
 | [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 1 |
-| [bbugyi200.athena.sase-t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.land/README.md) | [sase-t2](README.md) | 0 |
+| [bbugyi200.athena.sase-t2.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.7.1/README.md) | [sase-t2.7.1](sase-t2.7.1.md) | 1 |
+| [bbugyi200.athena.sase-t2.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t2.7.2.md) | [sase-t2.7.2](sase-t2.7.2.md) | 0 |
+| [bbugyi200.athena.sase-t2.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.7.land/README.md) | [sase-t2.7](sase-t2.7.md) | 0 |
+| [bbugyi200.athena.sase-t2.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t2.land.md) | [sase-t2](README.md) | 0 |
 
 ## Commits
 
@@ -88,3 +110,4 @@ flowchart TD
 | sase | [`868fa81`](https://github.com/sase-org/sase/commit/868fa81e1ac8df8de112608b769721b047290abb) | feat(bead): add sase bead note --edit/--remove for note edit and retraction | [sase-t2.5](sase-t2.5.md) | 2026-08-25 08:35:46 EDT |
 | sase-core | [`sase-core@f06a103`](https://github.com/sase-org/sase-core/commit/f06a103287504c5348463e001f83a69654e99656) | feat(bead): add NoteEdited/NoteRemoved events and note edit/remove mutations | [sase-t2.5](sase-t2.5.md) | 2026-08-25 08:36:44 EDT |
 | sase | [`f73b56e`](https://github.com/sase-org/sase/commit/f73b56e01dc43492e4b7c651c699caad3caec1df) | docs(beads): document note --edit/--remove and update --note vs --notes | [sase-t2.6](sase-t2.6.md) | 2026-08-25 08:54:41 EDT |
+| sase | [`8c3ec87`](https://github.com/sase-org/sase/commit/8c3ec87f97d35e50cc4b2994ee3c271236a4ca9d) | fix(bead): preserve legacy conflict event bytes | [sase-t2.7.1](sase-t2.7.1.md) | 2026-08-25 10:17:31 EDT |

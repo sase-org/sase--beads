@@ -27,7 +27,7 @@ repair: add `sase bead note --edit` and `--remove` with their own events, an `ed
 
 - **Depends on:** [sase-t2.3](sase-t2.3.md) ✓ · ⧖ 2026-08-24
 - **Depends on:** [sase-t2.4](sase-t2.4.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-t2.6](sase-t2.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-t2.6](sase-t2.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
