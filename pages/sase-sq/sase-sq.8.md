@@ -20,4 +20,4 @@ retire: delete the config-backed glossary package, schema, completion source, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8/README.md) | [sase-sq.8](sase-sq.8.md) | 0 |
+| [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.8.md) | [sase-sq.8](sase-sq.8.md) | 0 |

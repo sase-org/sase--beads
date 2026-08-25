@@ -52,6 +52,10 @@ flowchart TD
     n13["sase-sq.7.1.5: sase glossary as a deprecating alias [closed]"]
     n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [closed]"]
     n15["sase-sq.8: Retire the config glossary [in_progress]"]
+    n16["sase-sq.8.1: Retire the config glossary [in_progress]"]
+    n17["sase-sq.8.1.1: Remove config glossary and legacy command infrastructure [closed]"]
+    n18["sase-sq.8.1.2: Consolidate glossary browsing and mutation into MemoryPane [in_progress]"]
+    n19["sase-sq.8.1.3: Finish memory-web documentation and generated skill source [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,6 +71,10 @@ flowchart TD
     n8 --> n13
     n8 --> n14
     n0 --> n15
+    n15 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -82,6 +90,9 @@ flowchart TD
     n11 -.-> n13
     n12 -.-> n14
     n13 -.-> n14
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n19
 ```
 
 ## Agents
@@ -102,7 +113,11 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.5/README.md) | [sase-sq.7.1.5](sase-sq.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.1.6.md) | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.land/README.md) | [sase-sq.7.1](sase-sq.7.1.md) | 1 |
-| [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8/README.md) | [sase-sq.8](sase-sq.8.md) | 0 |
+| [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.8.md) | [sase-sq.8](sase-sq.8.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.1/README.md) | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 1 |
+| [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
 
 ## Commits
@@ -124,3 +139,4 @@ flowchart TD
 | sase | [`f7aa438`](https://github.com/sase-org/sase/commit/f7aa438ba77c65f3055eb469905d24ba1b29a449) | feat(memory): add glossary web migration command | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 2026-08-24 21:22:16 EDT |
 | sase | [`df95621`](https://github.com/sase-org/sase/commit/df956212be2c5c246cb45207c753623b3ca92f5e) | feat(memory): migrate sase glossary to web | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 2026-08-24 22:24:33 EDT |
 | sase | [`d9341f2`](https://github.com/sase-org/sase/commit/d9341f2366a7b1cc16db3a9212aed97c772bf793) | fix(memory): wrap the migrated glossary descriptor preamble | [sase-sq.7.1](sase-sq.7.1.md) | 2026-08-24 23:05:35 EDT |
+| sase | [`cebab38`](https://github.com/sase-org/sase/commit/cebab38a1f9b793c59c0671954aab837ab76aee3) | feat(memory): retire config glossary infrastructure | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 2026-08-24 23:55:11 EDT |
