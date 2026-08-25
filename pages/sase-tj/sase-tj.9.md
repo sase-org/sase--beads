@@ -15,7 +15,7 @@ land: delete the flag's Off branch, close the flag bead, refresh visual goldens 
 
 - **Depends on:** [sase-tj.5](sase-tj.5.md) ◐ · ⧖ 2026-08-25
 - **Depends on:** [sase-tj.6](sase-tj.6.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-tj.7](sase-tj.7.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tj.7](sase-tj.7.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tj.8](sase-tj.8.md) ✓ · ⧖ 2026-08-25
 
 ## Agents

@@ -31,7 +31,7 @@ Neither is caused by epic sase-ti, which touched only src/sase/finalizers/**, sr
 | [sase-tj.4](sase-tj.4.md) | Feature flag, pane contract, and the mounted list | ✓ closed | medium | 2026-08-25 | 0 | 1 |
 | [sase-tj.5](sase-tj.5.md) | Filter bar, Rust evaluation, saved queries, and history | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tj.6](sase-tj.6.md) | Detail panel, grouping, relations, link targets, and copy | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tj.7](sase-tj.7.md) | Revival from the pane, with one mutation implementation | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tj.7](sase-tj.7.md) | Revival from the pane, with one mutation implementation | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tj.8](sase-tj.8.md) | sase agent search | ✓ closed | small | 2026-08-25 | 1 | 1 |
 | [sase-tj.9](sase-tj.9.md) | Remove the flag and land the pane | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n4["sase-tj.4: Feature flag, pane contract, and the mounted list [closed]"]
     n5["sase-tj.5: Filter bar, Rust evaluation, saved queries, and history [in_progress]"]
     n6["sase-tj.6: Detail panel, grouping, relations, link targets, and copy [closed]"]
-    n7["sase-tj.7: Revival from the pane, with one mutation implementation [in_progress]"]
+    n7["sase-tj.7: Revival from the pane, with one mutation implementation [closed]"]
     n8["sase-tj.8: sase agent search [closed]"]
     n9["sase-tj.9: Remove the flag and land the pane [in_progress]"]
     n0 --> n1
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.3/README.md) | [sase-tj.3](sase-tj.3.md) | 1 |
 | [bbugyi200.athena.sase-tj.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.5.md) | [sase-tj.5](sase-tj.5.md) | 0 |
 | [bbugyi200.athena.sase-tj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.6/README.md) | [sase-tj.6](sase-tj.6.md) | 1 |
-| [bbugyi200.athena.sase-tj.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.7.md) | [sase-tj.7](sase-tj.7.md) | 0 |
+| [bbugyi200.athena.sase-tj.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.7.md) | [sase-tj.7](sase-tj.7.md) | 1 |
 | [bbugyi200.athena.sase-tj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.8/README.md) | [sase-tj.8](sase-tj.8.md) | 1 |
 | [bbugyi200.athena.sase-tj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.9/README.md) | [sase-tj.9](sase-tj.9.md) | 0 |
 | [bbugyi200.athena.sase-tj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.land/README.md) | [sase-tj](README.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | sase | [`ec2044b`](https://github.com/sase-org/sase/commit/ec2044ba9d7ab7a9c937a15c8add25a7ea3c2a65) | feat: Feature flag, pane contract, and the mounted list (sase-tj.4) | [sase-tj.4](sase-tj.4.md) | 2026-08-25 10:50:57 EDT |
 | sase | [`2fa772b`](https://github.com/sase-org/sase/commit/2fa772b93d3e28c1ffaab259a7b946eac897203f) | feat(ace-tui): add agents pane with detail view and artifact relations | [sase-tj.6](sase-tj.6.md) | 2026-08-25 11:48:31 EDT |
 | sase | [`85e2f76`](https://github.com/sase-org/sase/commit/85e2f768ec6b08d90b937590f8b9230e65624067) | feat(agent): add catalog search command | [sase-tj.8](sase-tj.8.md) | 2026-08-25 11:53:38 EDT |
+| sase | [`a1e029c`](https://github.com/sase-org/sase/commit/a1e029c657392929f52a565946829e2cf5dbbc90) | feat(tui): revive agents from artifact pane | [sase-tj.7](sase-tj.7.md) | 2026-08-25 12:09:32 EDT |
