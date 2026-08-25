@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-tt](README.md) / sase-tt.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0do](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0do.md) · **Assignee:** `sase-tt.1` · **Size:** small
-**Created:** 2026-08-25 14:59:12 EDT
+**Created:** 2026-08-25 14:59:12 EDT · **Closed:** 2026-08-25 15:49:30 EDT
 **Plan:** [202608/artifacts\_query\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_query_performance.md)
 
 ## Description
 
 bench: build a pane-level first-paint benchmark over a live-scale synthetic corpus and repair the agent-catalog bench, whose fixture structurally omits the two costs that actually dominate the real registry load.
+
+## Notes
+
+[2026-08-25T19:49:30Z · sase-tt.1] Auto-closed by `sase stitch create` after create_commit landed 4fcd56796 ("test(perf): add first-paint bench for artifacts pane and dedupe agent-catalog bench helpers"). No verification is implied by this note. Reopen with `sase bead open sase-tt.1`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
@@ -18,7 +22,7 @@ bench: build a pane-level first-paint benchmark over a live-scale synthetic corp
 - **Blocks:** [sase-tt.4](sase-tt.4.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.5](sase-tt.5.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.6](sase-tt.6.md) ◐ · ⧖ 2026-08-25
-- **Blocks:** [sase-tt.7](sase-tt.7.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tt.7](sase-tt.7.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

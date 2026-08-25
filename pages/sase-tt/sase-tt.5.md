@@ -11,9 +11,33 @@
 
 entry-projection: stop materializing each query row three times on the Python side and shrink the per-row projection work in the agent catalog's query-entry adapter, without changing the row wire shape.
 
+## Notes
+
+[2026-08-25T20:09:58Z · 0ds] INTEGRATION: the "byte-identical wire shape" invariant in this phase's plan section is
+scoped to composing with sase-tt.4 in either order. It is not a permanent schema freeze.
+Phase sase-tw.13 of epic sase-tw adds three fields — relation, artifact, and linked — to
+the same agent-catalog wire dict. Write the golden test so that is a deliberate
+one-line regeneration with a visible diff, and say so in the test's docstring, so the
+next agent reads it as a change-detector rather than a wall.
+
+Two things that make sase-tw.13 cheap if you leave room for them:
+
+- agent_catalog_query_entry's signature is (row, *, project_ref_display=None).
+  sase-tw.13 threads a link-facet map through as a second optional keyword-only
+  argument. Keep the function keyword-extensible, and keep sase.agents.catalog
+  Textual-free.
+- The three new fields introduce no new wire types: linked is a bool like the existing
+  hidden / dismissed / revivable / attention, and relation / artifact are multi-valued
+  like the existing label / text / project. sase-tt.4's direct PyDict-to-QueryRow path
+  therefore composes with them; only the golden collides.
+
+sase-tw.13 adds per-row work to this exact function, which costs a measured 408ms over
+11,783 rows today. It has been told on its own bead to re-run
+tests/perf/bench_artifacts_first_paint.py and hold this epic's ≤400ms Agent target.
+
 ## Dependencies
 
-- **Depends on:** [sase-tt.1](sase-tt.1.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tt.1](sase-tt.1.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.8](sase-tt.8.md) ◐ · ⧖ 2026-08-25
 
 ## Agents

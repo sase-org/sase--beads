@@ -13,11 +13,11 @@ registry: make the process-cached registry stop paying a full source-signature s
 
 ## Dependencies
 
-- **Depends on:** [sase-tt.1](sase-tt.1.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tt.1](sase-tt.1.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tt.8](sase-tt.8.md) ◐ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.2/README.md) | [sase-tt.2](sase-tt.2.md) | 0 |
+| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tt.2.md) | [sase-tt.2](sase-tt.2.md) | 0 |
