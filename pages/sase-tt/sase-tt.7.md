@@ -1,0 +1,23 @@
+# Bead: sase-tt.7 — Take the external-issue network call off the Bead first-paint path
+
+[Bead Pages](../README.md) / [sase-tt](README.md) / sase-tt.7
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0do](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0do.md) · **Assignee:** `sase-tt.7` · **Size:** medium
+**Created:** 2026-08-25 14:59:16 EDT
+**Plan:** [202608/artifacts\_query\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_query_performance.md)
+
+## Description
+
+beads: move the in-band `gh` subprocess out of the Bead snapshot worker into a background refresh, and remove the repeated project-alias and external-ref work in the same load.
+
+## Dependencies
+
+- **Depends on:** [sase-tt.1](sase-tt.1.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tt.8](sase-tt.8.md) ◐ · ⧖ 2026-08-25
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 0 |
