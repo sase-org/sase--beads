@@ -13,9 +13,9 @@ verify: add a live end-to-end regression that reproduces the original research.1
 
 ## Dependencies
 
-- **Depends on:** [sase-ti.2](sase-ti.2.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-ti.2](sase-ti.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-ti.3](sase-ti.3.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-ti.4](sase-ti.4.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-ti.4](sase-ti.4.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-ti.5](sase-ti.5.md) ◐ · ⧖ 2026-08-25
 
 ## Agents

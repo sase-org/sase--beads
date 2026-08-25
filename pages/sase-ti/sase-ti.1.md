@@ -19,8 +19,8 @@ scope: give finalizer_baseline.json a single documented read contract so the evi
 
 ## Dependencies
 
-- **Blocks:** [sase-ti.2](sase-ti.2.md) ◐ · ⧖ 2026-08-25
-- **Blocks:** [sase-ti.4](sase-ti.4.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.2](sase-ti.2.md) ✓ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.4](sase-ti.4.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
