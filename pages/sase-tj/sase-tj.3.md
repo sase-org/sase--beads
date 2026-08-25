@@ -21,7 +21,7 @@ dialect: author agents_query_schema(), register it as a built-in pane profile, a
 
 - **Depends on:** [sase-tj.1](sase-tj.1.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.4](sase-tj.4.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tj.8](sase-tj.8.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tj.8](sase-tj.8.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

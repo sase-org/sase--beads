@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-tj](README.md) / sase-tj.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0da](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0da.md) · **Assignee:** `sase-tj.6` · **Size:** medium
-**Created:** 2026-08-25 08:09:41 EDT
+**Created:** 2026-08-25 08:09:41 EDT · **Closed:** 2026-08-25 11:49:15 EDT
 **Plan:** [202608/artifacts\_agents\_pane.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_agents_pane.md)
 
 ## Description
 
 detail: add lazy agent detail, family/state grouping banners, declared relations plus artifact-link edges, the agent branch in link target resolution, copy targets, and marks.
+
+## Notes
+
+[2026-08-25T15:49:15Z · sase-tj.6] Auto-closed by `sase stitch create` after create_commit landed 2fa772b93 ("feat(ace-tui): add agents pane with detail view and artifact relations"). No verification is implied by this note. Reopen with `sase bead open sase-tj.6`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
