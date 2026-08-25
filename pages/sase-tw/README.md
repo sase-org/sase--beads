@@ -67,7 +67,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.8](sase-tw.8.md) | The citation channel stops starving | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.9](sase-tw.9.md) | Run the RELATED: note backfill | ✓ closed | small | 2026-08-25 | 1 | 1 |
 
@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 1 |
-| [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
+| [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 1 |
 | [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 0 |
 | [bbugyi200.athena.sase-tw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.9/README.md) | [sase-tw.9](sase-tw.9.md) | 1 |
 | [bbugyi200.athena.sase-tw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.land/README.md) | [sase-tw](README.md) | 0 |
@@ -165,3 +165,4 @@ flowchart TD
 | sase | [`ad2032c`](https://github.com/sase-org/sase/commit/ad2032c878bc1ee62007a1edf41efc7140a03592) | feat(agent-catalog): filter agents by artifact link facets | [sase-tw.13](sase-tw.13.md) | 2026-08-25 19:21:47 EDT |
 | sase | [`b250011`](https://github.com/sase-org/sase/commit/b25001124a8bf49f2f0011cecdb417350a720436) | feat(artifact-links): consume plan links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:22:22 EDT |
 | sase-core | [`sase-core@2664e20`](https://github.com/sase-org/sase-core/commit/2664e20e94979e81ec729f620e500f8fea07a9cb) | feat(plan): allow transient links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:23:13 EDT |
+| sase | [`9606947`](https://github.com/sase-org/sase/commit/960694738960861c480229edcbd7087767d6f827) | feat(artifact-links): derive links from commits and backfill existing artifacts | [sase-tw.7](sase-tw.7.md) | 2026-08-25 19:33:07 EDT |

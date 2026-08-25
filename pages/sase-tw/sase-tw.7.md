@@ -22,4 +22,10 @@ derivation-hooks: call the derivation module from `sase plan propose` and `sase 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
+| [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9606947`](https://github.com/sase-org/sase/commit/960694738960861c480229edcbd7087767d6f827) | feat(artifact-links): derive links from commits and backfill existing artifacts | [sase-tw.7](sase-tw.7.md) | 2026-08-25 19:33:07 EDT |
