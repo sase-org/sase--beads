@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-sq.8.1](sase-sq.8.1.md) / sase-sq.8.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.8.md) · **Assignee:** `sase-sq.8.1.2` · **Size:** medium
-**Created:** 2026-08-24 23:10:54 EDT
+**Created:** 2026-08-24 23:10:54 EDT · **Closed:** 2026-08-25 00:57:22 EDT
 **Plan:** [202608/retire\_config\_glossary.md](https://github.com/sase-org/sase--plans/blob/main/202608/retire_config_glossary.md)
 
 ## Description
 
 unify-ace: remove the standalone glossary pane, route glossary navigation through MemoryPane, add strand mutation and closure travel there, and retain inert keymap compatibility with a doctor warning.
+
+## Notes
+
+[2026-08-25T04:57:22Z · sase-sq.8.1.2] Auto-closed by `sase stitch create` after create_commit landed 93d379e0a ("feat(memory): migrate glossary panel to memory panel and extract keymaps registry"). No verification is implied by this note. Reopen with `sase bead open sase-sq.8.1.2`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 

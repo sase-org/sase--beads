@@ -54,7 +54,7 @@ flowchart TD
     n15["sase-sq.8: Retire the config glossary [in_progress]"]
     n16["sase-sq.8.1: Retire the config glossary [in_progress]"]
     n17["sase-sq.8.1.1: Remove config glossary and legacy command infrastructure [closed]"]
-    n18["sase-sq.8.1.2: Consolidate glossary browsing and mutation into MemoryPane [in_progress]"]
+    n18["sase-sq.8.1.2: Consolidate glossary browsing and mutation into MemoryPane [closed]"]
     n19["sase-sq.8.1.3: Finish memory-web documentation and generated skill source [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.8.md) | [sase-sq.8](sase-sq.8.md) | 0 |
 | [bbugyi200.athena.sase-sq.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.1/README.md) | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 1 |
-| [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
 
@@ -141,3 +141,4 @@ flowchart TD
 | sase | [`d9341f2`](https://github.com/sase-org/sase/commit/d9341f2366a7b1cc16db3a9212aed97c772bf793) | fix(memory): wrap the migrated glossary descriptor preamble | [sase-sq.7.1](sase-sq.7.1.md) | 2026-08-24 23:05:35 EDT |
 | sase | [`cebab38`](https://github.com/sase-org/sase/commit/cebab38a1f9b793c59c0671954aab837ab76aee3) | feat(memory): retire config glossary infrastructure | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 2026-08-24 23:55:11 EDT |
 | sase | [`93d379e`](https://github.com/sase-org/sase/commit/93d379e0a66d4299fa429882a244450a47757418) | feat(memory): migrate glossary panel to memory panel and extract keymaps registry | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 2026-08-25 00:54:34 EDT |
+| sase | [`882ba36`](https://github.com/sase-org/sase/commit/882ba36f5ae84d3a82230ea2b7ee30f6e8a7d29d) | docs(memory): retire glossary strand references across docs and skills | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 2026-08-25 01:32:09 EDT |

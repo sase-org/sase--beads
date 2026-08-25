@@ -14,10 +14,16 @@ finish-docs: document the final strand-only glossary and two-axis memory model, 
 ## Dependencies
 
 - **Depends on:** [sase-sq.8.1.1](sase-sq.8.1.1.md) ✓ · ⧖ 2026-08-24
-- **Depends on:** [sase-sq.8.1.2](sase-sq.8.1.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [sase-sq.8.1.2](sase-sq.8.1.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`882ba36`](https://github.com/sase-org/sase/commit/882ba36f5ae84d3a82230ea2b7ee30f6e8a7d29d) | docs(memory): retire glossary strand references across docs and skills | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 2026-08-25 01:32:09 EDT |
