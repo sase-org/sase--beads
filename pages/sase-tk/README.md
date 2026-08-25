@@ -16,9 +16,9 @@ Project-scoped %if predicates run only after admission claims and prepares a num
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-tk.1](sase-tk.1.md) | Claimed-workspace condition runtime | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tk.2](sase-tk.2.md) | SASE admission regressions and documentation | ✓ closed | small | 2026-08-25 | 1 | 0 |
+| [sase-tk.2](sase-tk.2.md) | SASE admission regressions and documentation | ✓ closed | small | 2026-08-25 | 0 | 1 |
 | [sase-tk.3](sase-tk.3.md) | toobig split integration contract | ✓ closed | small | 2026-08-25 | 1 | 0 |
-| [sase-tk.4](sase-tk.4.md) | Cross-repository end-to-end verification | ◐ in_progress | xsmall | 2026-08-25 | 1 | 0 |
+| [sase-tk.4](sase-tk.4.md) | Cross-repository end-to-end verification | ✓ closed | xsmall | 2026-08-25 | 1 | 0 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-tk.1: Claimed-workspace condition runtime [closed]"]
     n2["sase-tk.2: SASE admission regressions and documentation [closed]"]
     n3["sase-tk.3: toobig split integration contract [closed]"]
-    n4["sase-tk.4: Cross-repository end-to-end verification [in_progress]"]
+    n4["sase-tk.4: Cross-repository end-to-end verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -44,9 +44,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-tk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.1/README.md) | [sase-tk.1](sase-tk.1.md) | 1 |
-| [bbugyi200.athena.sase-tk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.2/README.md) | [sase-tk.2](sase-tk.2.md) | 0 |
 | [bbugyi200.athena.sase-tk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.3/README.md) | [sase-tk.3](sase-tk.3.md) | 0 |
-| [bbugyi200.athena.sase-tk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.4/README.md) | [sase-tk.4](sase-tk.4.md) | 0 |
+| [bbugyi200.athena.sase-tk.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tk.4.md) | [sase-tk.4](sase-tk.4.md) | 0 |
 | [bbugyi200.athena.sase-tk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.land/README.md) | [sase-tk](README.md) | 0 |
 
 ## Commits
@@ -54,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9cf6049`](https://github.com/sase-org/sase/commit/9cf60497818ced2098ef7483302e64ee411b46a7) | feat(agent): lease workspaces for project conditions | [sase-tk.1](sase-tk.1.md) | 2026-08-25 10:16:54 EDT |
+| sase | [`9fb3a18`](https://github.com/sase-org/sase/commit/9fb3a1805e3cdec51e7d6a42a2340e834f514904) | feat: SASE admission regressions and documentation (sase-tk.2) | [sase-tk.2](sase-tk.2.md) | 2026-08-25 10:52:42 EDT |

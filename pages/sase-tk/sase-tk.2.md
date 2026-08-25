@@ -20,10 +20,10 @@ sase_regressions: exercise ordering, synchronization, cleanup, and failure behav
 ## Dependencies
 
 - **Depends on:** [sase-tk.1](sase-tk.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tk.4](sase-tk.4.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tk.4](sase-tk.4.md) ✓ · ⧖ 2026-08-25
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-tk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tk.2/README.md) | [sase-tk.2](sase-tk.2.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9fb3a18`](https://github.com/sase-org/sase/commit/9fb3a1805e3cdec51e7d6a42a2340e834f514904) | feat: SASE admission regressions and documentation (sase-tk.2) | [sase-tk.2](sase-tk.2.md) | 2026-08-25 10:52:42 EDT |

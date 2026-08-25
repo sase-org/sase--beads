@@ -20,7 +20,7 @@ toobig_contract: update the external chop's stale-check regression and documenta
 ## Dependencies
 
 - **Depends on:** [sase-tk.1](sase-tk.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tk.4](sase-tk.4.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tk.4](sase-tk.4.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
