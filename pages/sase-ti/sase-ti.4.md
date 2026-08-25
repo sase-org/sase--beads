@@ -18,7 +18,7 @@ guard: detect before dispatch that every changed path in a repository is exclude
 ## Dependencies
 
 - **Depends on:** [sase-ti.1](sase-ti.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-ti.6](sase-ti.6.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.6](sase-ti.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

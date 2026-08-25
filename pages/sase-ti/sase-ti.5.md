@@ -21,7 +21,7 @@ fidelity: carry the VCS provider's real reason through the failure message, diag
 
 ## Dependencies
 
-- **Blocks:** [sase-ti.6](sase-ti.6.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.6](sase-ti.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

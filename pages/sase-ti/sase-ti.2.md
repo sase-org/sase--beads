@@ -18,7 +18,7 @@ checkouts: snapshot every repository checkout already present in the workspace a
 ## Dependencies
 
 - **Depends on:** [sase-ti.1](sase-ti.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-ti.6](sase-ti.6.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.6](sase-ti.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

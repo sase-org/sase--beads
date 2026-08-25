@@ -19,7 +19,7 @@ attribution: stop discarding the absolute tool-call path before the only code th
 
 ## Dependencies
 
-- **Blocks:** [sase-ti.6](sase-ti.6.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-ti.6](sase-ti.6.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
