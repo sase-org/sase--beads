@@ -26,4 +26,10 @@ plans: stop reading and YAML-parsing every archived plan file to produce fifty r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.6/README.md) | [sase-tt.6](sase-tt.6.md) | 0 |
+| [bbugyi200.athena.sase-tt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.6/README.md) | [sase-tt.6](sase-tt.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`446e9a4`](https://github.com/sase-org/sase/commit/446e9a43c359fc8ed943f29ab4eb24c91601dd21) | perf(plans): defer plan metadata reads past the inventory slice | [sase-tt.6](sase-tt.6.md) | 2026-08-25 16:40:29 EDT |
