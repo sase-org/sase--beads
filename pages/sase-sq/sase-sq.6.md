@@ -14,7 +14,7 @@ task_types: add the generated web provider driven by the task-type registry and 
 ## Dependencies
 
 - **Depends on:** [sase-sq.5](sase-sq.5.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.8](sase-sq.8.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.8](sase-sq.8.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

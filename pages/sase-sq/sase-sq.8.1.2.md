@@ -18,7 +18,7 @@ unify-ace: remove the standalone glossary pane, route glossary navigation throug
 ## Dependencies
 
 - **Depends on:** [sase-sq.8.1.1](sase-sq.8.1.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.8.1.3](sase-sq.8.1.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.8.1.3](sase-sq.8.1.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

@@ -20,7 +20,7 @@ retire-core: remove config-backed glossary, CLI, completion, migration, and gene
 ## Dependencies
 
 - **Blocks:** [sase-sq.8.1.2](sase-sq.8.1.2.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.8.1.3](sase-sq.8.1.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.8.1.3](sase-sq.8.1.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

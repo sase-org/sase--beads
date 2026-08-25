@@ -30,7 +30,7 @@ A keyed memory collection is a first-class SASE memory kind: one flat web descri
 | [sase-sq.5](sase-sq.5.md) | Decision web and flag removal | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.6](sase-sq.6.md) | Generated task-type web | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-sq.7](sase-sq.7.md) | Glossary migration to a core web | ✓ closed | large | 2026-08-24 | 1 | 0 |
-| [sase-sq.8](sase-sq.8.md) | Retire the config glossary | ◐ in_progress | large | 2026-08-24 | 1 | 0 |
+| [sase-sq.8](sase-sq.8.md) | Retire the config glossary | ✓ closed | large | 2026-08-24 | 1 | 0 |
 
 ## Lineage
 
@@ -51,11 +51,11 @@ flowchart TD
     n12["sase-sq.7.1.4: The sase memory web migrate command [closed]"]
     n13["sase-sq.7.1.5: sase glossary as a deprecating alias [closed]"]
     n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [closed]"]
-    n15["sase-sq.8: Retire the config glossary [in_progress]"]
-    n16["sase-sq.8.1: Retire the config glossary [in_progress]"]
+    n15["sase-sq.8: Retire the config glossary [closed]"]
+    n16["sase-sq.8.1: Retire the config glossary [closed]"]
     n17["sase-sq.8.1.1: Remove config glossary and legacy command infrastructure [closed]"]
     n18["sase-sq.8.1.2: Consolidate glossary browsing and mutation into MemoryPane [closed]"]
-    n19["sase-sq.8.1.3: Finish memory-web documentation and generated skill source [in_progress]"]
+    n19["sase-sq.8.1.3: Finish memory-web documentation and generated skill source [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.1/README.md) | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.2/README.md) | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 1 |
 | [bbugyi200.athena.sase-sq.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.3/README.md) | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 1 |
-| [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 0 |
+| [bbugyi200.athena.sase-sq.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8.1.land/README.md) | [sase-sq.8.1](sase-sq.8.1.md) | 1 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
 
 ## Commits
@@ -142,3 +142,4 @@ flowchart TD
 | sase | [`cebab38`](https://github.com/sase-org/sase/commit/cebab38a1f9b793c59c0671954aab837ab76aee3) | feat(memory): retire config glossary infrastructure | [sase-sq.8.1.1](sase-sq.8.1.1.md) | 2026-08-24 23:55:11 EDT |
 | sase | [`93d379e`](https://github.com/sase-org/sase/commit/93d379e0a66d4299fa429882a244450a47757418) | feat(memory): migrate glossary panel to memory panel and extract keymaps registry | [sase-sq.8.1.2](sase-sq.8.1.2.md) | 2026-08-25 00:54:34 EDT |
 | sase | [`882ba36`](https://github.com/sase-org/sase/commit/882ba36f5ae84d3a82230ea2b7ee30f6e8a7d29d) | docs(memory): retire glossary strand references across docs and skills | [sase-sq.8.1.3](sase-sq.8.1.3.md) | 2026-08-25 01:32:09 EDT |
+| sase | [`b592cfa`](https://github.com/sase-org/sase/commit/b592cfa5760d6f3f8c1b2f948780b0a8e25ae1cf) | fix(memory): finish retiring the config glossary across ACE and generated memory | [sase-sq.8.1](sase-sq.8.1.md) | 2026-08-25 02:53:12 EDT |
