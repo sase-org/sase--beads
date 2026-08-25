@@ -17,7 +17,7 @@ chops_release_readiness: repair the red typed-launch integration tests, harden t
 
 ## Dependencies
 
-- **Blocks:** [sase-to.3](sase-to.3.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-to.3](sase-to.3.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
