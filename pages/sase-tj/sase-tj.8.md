@@ -21,4 +21,4 @@ cli: ship the headless catalog search command over the same row model and dialec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.8/README.md) | [sase-tj.8](sase-tj.8.md) | 0 |
+| [bbugyi200.athena.sase-tj.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.8.md) | [sase-tj.8](sase-tj.8.md) | 0 |

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tj](README.md) / sase-tj.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0da](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0da.md) · **Assignee:** `sase-tj.4` · **Size:** medium
-**Created:** 2026-08-25 08:09:40 EDT
+**Created:** 2026-08-25 08:09:40 EDT · **Closed:** 2026-08-25 10:51:39 EDT
 **Plan:** [202608/artifacts\_agents\_pane.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_agents_pane.md)
 
 ## Description
@@ -19,8 +19,8 @@ pane: create the disabled beta flag, register the built-in adapter/descriptor be
 - **Blocks:** [sase-tj.6](sase-tj.6.md) ◐ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.7](sase-tj.7.md) ◐ · ⧖ 2026-08-25
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-tj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.4/README.md) | [sase-tj.4](sase-tj.4.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ec2044b`](https://github.com/sase-org/sase/commit/ec2044ba9d7ab7a9c937a15c8add25a7ea3c2a65) | feat: Feature flag, pane contract, and the mounted list (sase-tj.4) | [sase-tj.4](sase-tj.4.md) | 2026-08-25 10:50:57 EDT |

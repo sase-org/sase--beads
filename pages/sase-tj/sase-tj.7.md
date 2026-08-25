@@ -13,11 +13,11 @@ revive: give the existing revive path a completion delta, make the main tab a co
 
 ## Dependencies
 
-- **Depends on:** [sase-tj.4](sase-tj.4.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tj.4](sase-tj.4.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.9](sase-tj.9.md) ◐ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.7/README.md) | [sase-tj.7](sase-tj.7.md) | 0 |
+| [bbugyi200.athena.sase-tj.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.7.md) | [sase-tj.7](sase-tj.7.md) | 0 |

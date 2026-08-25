@@ -13,11 +13,17 @@ detail: add lazy agent detail, family/state grouping banners, declared relations
 
 ## Dependencies
 
-- **Depends on:** [sase-tj.4](sase-tj.4.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tj.4](sase-tj.4.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.9](sase-tj.9.md) ◐ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.6/README.md) | [sase-tj.6](sase-tj.6.md) | 0 |
+| [bbugyi200.athena.sase-tj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.6/README.md) | [sase-tj.6](sase-tj.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2fa772b`](https://github.com/sase-org/sase/commit/2fa772b93d3e28c1ffaab259a7b946eac897203f) | feat(ace-tui): add agents pane with detail view and artifact relations | [sase-tj.6](sase-tj.6.md) | 2026-08-25 11:48:31 EDT |

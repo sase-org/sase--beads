@@ -13,11 +13,11 @@ query: wire the profile filter bar and ArtifactQuerySession over a Rust query in
 
 ## Dependencies
 
-- **Depends on:** [sase-tj.4](sase-tj.4.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tj.4](sase-tj.4.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.9](sase-tj.9.md) ◐ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.5/README.md) | [sase-tj.5](sase-tj.5.md) | 0 |
+| [bbugyi200.athena.sase-tj.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.5.md) | [sase-tj.5](sase-tj.5.md) | 0 |
