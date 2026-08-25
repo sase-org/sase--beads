@@ -19,4 +19,10 @@ git_fallback: add typed public-index availability probing and apply the conserva
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-to.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.1/README.md) | [sase-to.1](sase-to.1.md) | 0 |
+| [bbugyi200.athena.sase-to.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.1/README.md) | [sase-to.1](sase-to.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f818f16`](https://github.com/sase-org/sase/commit/f818f16a10c6b46e49e0ea8b87d79e7b4d830bd4) | feat(plugins): fall back to git install only on definitive PyPI 404 | [sase-to.1](sase-to.1.md) | 2026-08-25 13:52:44 EDT |

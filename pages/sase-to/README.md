@@ -15,7 +15,7 @@ Catalog plugin installs automatically fall back to the repository only when publ
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-to.1](sase-to.1.md) | Definitive index-to-git fallback | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-to.1](sase-to.1.md) | Definitive index-to-git fallback | ◐ in_progress | medium | 2026-08-25 | 1 | 1 |
 | [sase-to.2](sase-to.2.md) | bugyi-chops release readiness | ✓ closed | small | 2026-08-25 | 1 | 0 |
 | [sase-to.3](sase-to.3.md) | Cross-repository release gate | ◐ in_progress | xsmall | 2026-08-25 | 1 | 0 |
 | [sase-to.4](sase-to.4.md) | Publish and verify bugyi-chops 0.7.0 | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
@@ -42,8 +42,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-to.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.1/README.md) | [sase-to.1](sase-to.1.md) | 0 |
+| [bbugyi200.athena.sase-to.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.1/README.md) | [sase-to.1](sase-to.1.md) | 1 |
 | [bbugyi200.athena.sase-to.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.2/README.md) | [sase-to.2](sase-to.2.md) | 0 |
 | [bbugyi200.athena.sase-to.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.3/README.md) | [sase-to.3](sase-to.3.md) | 0 |
 | [bbugyi200.athena.sase-to.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.4/README.md) | [sase-to.4](sase-to.4.md) | 0 |
 | [bbugyi200.athena.sase-to.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-to.land/README.md) | [sase-to](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f818f16`](https://github.com/sase-org/sase/commit/f818f16a10c6b46e49e0ea8b87d79e7b4d830bd4) | feat(plugins): fall back to git install only on definitive PyPI 404 | [sase-to.1](sase-to.1.md) | 2026-08-25 13:52:44 EDT |
