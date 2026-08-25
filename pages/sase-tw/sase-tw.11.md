@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.11` · **Size:** medium
-**Created:** 2026-08-25 15:34:43 EDT
+**Created:** 2026-08-25 15:34:43 EDT · **Closed:** 2026-08-25 16:50:22 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
 
 read-payoff: print a one-line typed neighborhood footer from `sase artifact read`, warn when the artifact being read is superseded, and expand exactly one typed hop when a launch prompt cites an artifact.
+
+## Notes
+
+[2026-08-25T20:50:22Z · sase-tw.11] Auto-closed by `sase stitch create` after create_commit landed b2a0c68a3 ("feat(artifact-refs): expand artifact link neighborhoods in prompt rendering"). No verification is implied by this note. Reopen with `sase bead open sase-tw.11`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 

@@ -11,6 +11,10 @@
 
 rename-following: consume git rename detection in the sidecar link refresh so a moved artifact carries its rows and its `links/` companion, then repair every dangling ref and orphaned companion the research workflow has already created.
 
+## Notes
+
+[2026-08-25T20:52:51Z · sase-tw.4] PROPOSED FOLLOW-UP: repair non-rename artifact-link health leftovers — after research rename repair, doctor reports dangling=0 but still reports 19 plan-side orphaned links/ indexes with no git rename history and 3 missing screenshot companions.
+
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
