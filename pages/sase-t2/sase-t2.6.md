@@ -19,4 +19,10 @@ docs: update the bead docs, the CLI reference tables, and the sase_beads memory 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 0 |
+| [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f73b56e`](https://github.com/sase-org/sase/commit/f73b56e01dc43492e4b7c651c699caad3caec1df) | docs(beads): document note --edit/--remove and update --note vs --notes | [sase-t2.6](sase-t2.6.md) | 2026-08-25 08:54:41 EDT |

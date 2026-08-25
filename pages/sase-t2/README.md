@@ -36,7 +36,7 @@ Every bead note carries a real timestamp and author as structured data, no write
 | [sase-t2.3](sase-t2.3.md) | NOTES rendering in \`sase bead show\` | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-t2.4](sase-t2.4.md) | Append-only write surface | ✓ closed | small | 2026-08-24 | 1 | 1 |
 | [sase-t2.5](sase-t2.5.md) | Note edit and retraction | ✓ closed | medium | 2026-08-24 | 1 | 2 |
-| [sase-t2.6](sase-t2.6.md) | Documentation and memory | ◐ in_progress | small | 2026-08-24 | 1 | 0 |
+| [sase-t2.6](sase-t2.6.md) | Documentation and memory | ◐ in_progress | small | 2026-08-24 | 1 | 1 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-t2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.3/README.md) | [sase-t2.3](sase-t2.3.md) | 1 |
 | [bbugyi200.athena.sase-t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.4/README.md) | [sase-t2.4](sase-t2.4.md) | 1 |
 | [bbugyi200.athena.sase-t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.5/README.md) | [sase-t2.5](sase-t2.5.md) | 2 |
-| [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 0 |
+| [bbugyi200.athena.sase-t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.6/README.md) | [sase-t2.6](sase-t2.6.md) | 1 |
 | [bbugyi200.athena.sase-t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t2.land/README.md) | [sase-t2](README.md) | 0 |
 
 ## Commits
@@ -87,3 +87,4 @@ flowchart TD
 | sase | [`96151bb`](https://github.com/sase-org/sase/commit/96151bbb435c32858e61c8c0d39708d540b22896) | feat(bead): append notes from update | [sase-t2.4](sase-t2.4.md) | 2026-08-24 18:39:42 EDT |
 | sase | [`868fa81`](https://github.com/sase-org/sase/commit/868fa81e1ac8df8de112608b769721b047290abb) | feat(bead): add sase bead note --edit/--remove for note edit and retraction | [sase-t2.5](sase-t2.5.md) | 2026-08-25 08:35:46 EDT |
 | sase-core | [`sase-core@f06a103`](https://github.com/sase-org/sase-core/commit/f06a103287504c5348463e001f83a69654e99656) | feat(bead): add NoteEdited/NoteRemoved events and note edit/remove mutations | [sase-t2.5](sase-t2.5.md) | 2026-08-25 08:36:44 EDT |
+| sase | [`f73b56e`](https://github.com/sase-org/sase/commit/f73b56e01dc43492e4b7c651c699caad3caec1df) | docs(beads): document note --edit/--remove and update --note vs --notes | [sase-t2.6](sase-t2.6.md) | 2026-08-25 08:54:41 EDT |
