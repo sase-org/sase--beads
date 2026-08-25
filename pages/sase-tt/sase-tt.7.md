@@ -26,4 +26,10 @@ beads: move the in-band `gh` subprocess out of the Bead snapshot worker into a b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 0 |
+| [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e234d5d`](https://github.com/sase-org/sase/commit/e234d5df9bd3422c6fa099bbd727ee90f54dac1a) | perf(beads): defer external issue refresh | [sase-tt.7](sase-tt.7.md) | 2026-08-25 16:23:47 EDT |

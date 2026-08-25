@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tt](README.md) / sase-tt.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0do](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0do.md) · **Assignee:** `sase-tt.3` · **Size:** medium
-**Created:** 2026-08-25 14:59:13 EDT
+**Created:** 2026-08-25 14:59:13 EDT · **Closed:** 2026-08-25 16:37:59 EDT
 **Plan:** [202608/artifacts\_query\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_query_performance.md)
 
 ## Description
@@ -41,6 +41,10 @@ agent-paint: paint the Agent pane from a bounded head slice and move the full-co
    partial snapshot, or make the count explicitly a lower bound — _sync_agent_query_bar
    already accepts lower_bound and coverage_label for exactly that case.
 
+[2026-08-25T20:37:29Z · sase-tt.3] PROPOSED FOLLOW-UP: Refresh generated SASE memory shims — just check fails in sase validate because init memory --check wants AGENTS.md, CLAUDE.md, GEMINI.md, QWEN.md, and OPENCODE.md regenerated via sase memory init.
+
+[2026-08-25T20:37:59Z · sase-tt.3] Verified no epic symbols remain; ruff check, just lint, focused Agent pane tests, slow first-paint benchmark, and escalated just test-scoped full suite passed. just check is blocked by stale generated memory shims in init memory --check; recorded as PROPOSED FOLLOW-UP.
+
 ## Dependencies
 
 - **Depends on:** [sase-tt.1](sase-tt.1.md) ✓ · ⧖ 2026-08-25
@@ -50,4 +54,10 @@ agent-paint: paint the Agent pane from a bounded head slice and move the full-co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.3/README.md) | [sase-tt.3](sase-tt.3.md) | 0 |
+| [bbugyi200.athena.sase-tt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.3/README.md) | [sase-tt.3](sase-tt.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6ffdfb0`](https://github.com/sase-org/sase/commit/6ffdfb0a97a976cdadaccf11c29595d5996d4a8f) | feat(artifacts): load agent pane in two stages | [sase-tt.3](sase-tt.3.md) | 2026-08-25 16:39:19 EDT |

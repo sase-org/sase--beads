@@ -40,12 +40,12 @@ as a growing cost on the load path rather than a constant.
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-tt.1](sase-tt.1.md) | Honest first-paint benchmarks for the Artifacts panes | ✓ closed | small | 2026-08-25 | 1 | 1 |
-| [sase-tt.2](sase-tt.2.md) | Stop revalidating the agent-name registry on every load | ✓ closed | medium | 2026-08-25 | 1 | 0 |
-| [sase-tt.3](sase-tt.3.md) | Two-stage Agent pane load | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-tt.2](sase-tt.2.md) | Stop revalidating the agent-name registry on every load | ✓ closed | medium | 2026-08-25 | 1 | 1 |
+| [sase-tt.3](sase-tt.3.md) | Two-stage Agent pane load | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tt.4](sase-tt.4.md) | Direct dict-to-QueryRow corpus construction in sase-core | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tt.5](sase-tt.5.md) | Cut the Python-side corpus marshalling cost | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
-| [sase-tt.6](sase-tt.6.md) | Defer plan metadata reads past the inventory slice | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
-| [sase-tt.7](sase-tt.7.md) | Take the external-issue network call off the Bead first-paint path | ✓ closed | medium | 2026-08-25 | 1 | 0 |
+| [sase-tt.6](sase-tt.6.md) | Defer plan metadata reads past the inventory slice | ✓ closed | medium | 2026-08-25 | 1 | 0 |
+| [sase-tt.7](sase-tt.7.md) | Take the external-issue network call off the Bead first-paint path | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tt.8](sase-tt.8.md) | End-to-end verification and the perf recipe | ◐ in_progress | small | 2026-08-25 | 1 | 0 |
 
 ## Lineage
@@ -55,10 +55,10 @@ flowchart TD
     n0["sase-tt: Make Artifacts sub-tab queries fast, starting with the Agent pane [in_progress]"]
     n1["sase-tt.1: Honest first-paint benchmarks for the Artifacts panes [closed]"]
     n2["sase-tt.2: Stop revalidating the agent-name registry on every load [closed]"]
-    n3["sase-tt.3: Two-stage Agent pane load [in_progress]"]
+    n3["sase-tt.3: Two-stage Agent pane load [closed]"]
     n4["sase-tt.4: Direct dict-to-QueryRow corpus construction in sase-core [closed]"]
     n5["sase-tt.5: Cut the Python-side corpus marshalling cost [in_progress]"]
-    n6["sase-tt.6: Defer plan metadata reads past the inventory slice [in_progress]"]
+    n6["sase-tt.6: Defer plan metadata reads past the inventory slice [closed]"]
     n7["sase-tt.7: Take the external-issue network call off the Bead first-paint path [closed]"]
     n8["sase-tt.8: End-to-end verification and the perf recipe [in_progress]"]
     n0 --> n1
@@ -88,12 +88,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-tt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.1/README.md) | [sase-tt.1](sase-tt.1.md) | 1 |
-| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tt.2.md) | [sase-tt.2](sase-tt.2.md) | 0 |
-| [bbugyi200.athena.sase-tt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.3/README.md) | [sase-tt.3](sase-tt.3.md) | 0 |
+| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tt.2.md) | [sase-tt.2](sase-tt.2.md) | 1 |
+| [bbugyi200.athena.sase-tt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.3/README.md) | [sase-tt.3](sase-tt.3.md) | 1 |
 | [bbugyi200.athena.sase-tt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.4/README.md) | [sase-tt.4](sase-tt.4.md) | 1 |
 | [bbugyi200.athena.sase-tt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.5/README.md) | [sase-tt.5](sase-tt.5.md) | 0 |
 | [bbugyi200.athena.sase-tt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.6/README.md) | [sase-tt.6](sase-tt.6.md) | 0 |
-| [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 0 |
+| [bbugyi200.athena.sase-tt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.7/README.md) | [sase-tt.7](sase-tt.7.md) | 1 |
 | [bbugyi200.athena.sase-tt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.8/README.md) | [sase-tt.8](sase-tt.8.md) | 0 |
 | [bbugyi200.athena.sase-tt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tt.land/README.md) | [sase-tt](README.md) | 0 |
 
@@ -102,4 +102,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4fcd567`](https://github.com/sase-org/sase/commit/4fcd56796af06c5d42611f9b94c2cc92ec8c3918) | test(perf): add first-paint bench for artifacts pane and dedupe agent-catalog bench helpers | [sase-tt.1](sase-tt.1.md) | 2026-08-25 15:46:55 EDT |
+| sase | [`e234d5d`](https://github.com/sase-org/sase/commit/e234d5df9bd3422c6fa099bbd727ee90f54dac1a) | perf(beads): defer external issue refresh | [sase-tt.7](sase-tt.7.md) | 2026-08-25 16:23:47 EDT |
+| sase | [`fe66394`](https://github.com/sase-org/sase/commit/fe663948fa8d495d3eda69d67a7dc7f0ae757f75) | perf(agent-names): memoize registry staleness checks | [sase-tt.2](sase-tt.2.md) | 2026-08-25 16:25:21 EDT |
 | sase-core | [`sase-core@6e76e37`](https://github.com/sase-org/sase-core/commit/6e76e37df9905f3e1ebd2cef0dfd822ffd303e7e) | perf(query): build QueryRow directly from PyDict rows in compile\_corpus\_with\_profile | [sase-tt.4](sase-tt.4.md) | 2026-08-25 16:27:24 EDT |
+| sase | [`6ffdfb0`](https://github.com/sase-org/sase/commit/6ffdfb0a97a976cdadaccf11c29595d5996d4a8f) | feat(artifacts): load agent pane in two stages | [sase-tt.3](sase-tt.3.md) | 2026-08-25 16:39:19 EDT |
