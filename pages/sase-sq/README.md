@@ -50,7 +50,7 @@ flowchart TD
     n11["sase-sq.7.1.3: Strand-backed glossary catalog and fail-closed dual truth [closed]"]
     n12["sase-sq.7.1.4: The sase memory web migrate command [closed]"]
     n13["sase-sq.7.1.5: sase glossary as a deprecating alias [closed]"]
-    n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [in_progress]"]
+    n14["sase-sq.7.1.6: Migrate the sase and bob-cli trees [closed]"]
     n15["sase-sq.8: Retire the config glossary [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-sq.7.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.1.3.md) | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.4/README.md) | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.5/README.md) | [sase-sq.7.1.5](sase-sq.7.1.5.md) | 1 |
-| [bbugyi200.athena.sase-sq.7.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.6/README.md) | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 0 |
+| [bbugyi200.athena.sase-sq.7.1.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-sq.7.1.6.md) | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 1 |
 | [bbugyi200.athena.sase-sq.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.7.1.land/README.md) | [sase-sq.7.1](sase-sq.7.1.md) | 0 |
 | [bbugyi200.athena.sase-sq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.8/README.md) | [sase-sq.8](sase-sq.8.md) | 0 |
 | [bbugyi200.athena.sase-sq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-sq.land/README.md) | [sase-sq](README.md) | 0 |
@@ -122,3 +122,4 @@ flowchart TD
 | sase | [`2b16a06`](https://github.com/sase-org/sase/commit/2b16a06483d60ab04cb5dc8cc7ce4966d76c2bac) | feat(memory): back the glossary catalog with strand-backed sources and fail-closed dual truth | [sase-sq.7.1.3](sase-sq.7.1.3.md) | 2026-08-24 20:21:42 EDT |
 | sase | [`ec889f5`](https://github.com/sase-org/sase/commit/ec889f58788ba027631ba901c4be2232b983f5c0) | feat(glossary): add web-memory compat shim and strand mutation engine | [sase-sq.7.1.5](sase-sq.7.1.5.md) | 2026-08-24 21:01:08 EDT |
 | sase | [`f7aa438`](https://github.com/sase-org/sase/commit/f7aa438ba77c65f3055eb469905d24ba1b29a449) | feat(memory): add glossary web migration command | [sase-sq.7.1.4](sase-sq.7.1.4.md) | 2026-08-24 21:22:16 EDT |
+| sase | [`df95621`](https://github.com/sase-org/sase/commit/df956212be2c5c246cb45207c753623b3ca92f5e) | feat(memory): migrate sase glossary to web | [sase-sq.7.1.6](sase-sq.7.1.6.md) | 2026-08-24 22:24:33 EDT |

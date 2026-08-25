@@ -22,7 +22,7 @@ compat: give `sase glossary read|show|all|list|log` a one-line deprecation notic
 ## Dependencies
 
 - **Depends on:** [sase-sq.7.1.3](sase-sq.7.1.3.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-sq.7.1.6](sase-sq.7.1.6.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-sq.7.1.6](sase-sq.7.1.6.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
