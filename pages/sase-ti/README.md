@@ -20,7 +20,7 @@ A turn's own work is never mistaken for foreign dirt. The dirty-path baseline is
 | [sase-ti.3](sase-ti.3.md) | Repair run-written path attribution outside the primary repo | ✓ closed | small | 2026-08-25 | 1 | 1 |
 | [sase-ti.4](sase-ti.4.md) | Never dispatch a stitch that protection has already emptied | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-ti.5](sase-ti.5.md) | Truthful stitch failures and a retry budget that cannot be wasted | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-ti.6](sase-ti.6.md) | Replay the failure end to end and land the tree | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
+| [sase-ti.6](sase-ti.6.md) | Replay the failure end to end and land the tree | ◐ in_progress | medium | 2026-08-25 | 1 | 1 |
 
 ## Lineage
 
@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ti.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.3/README.md) | [sase-ti.3](sase-ti.3.md) | 1 |
 | [bbugyi200.athena.sase-ti.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.4/README.md) | [sase-ti.4](sase-ti.4.md) | 1 |
 | [bbugyi200.athena.sase-ti.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ti.5.md) | [sase-ti.5](sase-ti.5.md) | 1 |
-| [bbugyi200.athena.sase-ti.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.6/README.md) | [sase-ti.6](sase-ti.6.md) | 0 |
+| [bbugyi200.athena.sase-ti.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.6/README.md) | [sase-ti.6](sase-ti.6.md) | 1 |
 | [bbugyi200.athena.sase-ti.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.land/README.md) | [sase-ti](README.md) | 0 |
 
 ## Commits
@@ -68,3 +68,4 @@ flowchart TD
 | sase | [`fab5f73`](https://github.com/sase-org/sase/commit/fab5f731eb32478b32edd4d91f39f2272e541207) | feat(finalizers): refuse a stitch dispatch protection has already emptied | [sase-ti.4](sase-ti.4.md) | 2026-08-25 08:33:59 EDT |
 | sase | [`222a11e`](https://github.com/sase-org/sase/commit/222a11ea0d19603031071abddebd30e44f41435f) | fix(finalizer): baseline pre-existing checkouts | [sase-ti.2](sase-ti.2.md) | 2026-08-25 08:41:40 EDT |
 | sase | [`bd26194`](https://github.com/sase-org/sase/commit/bd26194672f76c4e5690d0047c70721875c4ab6c) | fix(finalizers): stop wasting stitch retries and fix a retry-loop hang | [sase-ti.5](sase-ti.5.md) | 2026-08-25 09:05:50 EDT |
+| sase | [`9c16452`](https://github.com/sase-org/sase/commit/9c164528e3eb51989b7086db72f49aec17c7309c) | test(finalizers): add commit dispatch protection guard and live e2e regression coverage | [sase-ti.6](sase-ti.6.md) | 2026-08-25 10:46:59 EDT |

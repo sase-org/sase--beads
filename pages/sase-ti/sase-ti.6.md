@@ -15,6 +15,8 @@ verify: add a live end-to-end regression that reproduces the original research.1
 
 [2026-08-25T12:55:32Z · 0db] During unrelated implementation of plan:202608/agents_memory_read_view.md, `just check` on workspace HEAD 1fe598e2d4cf9161d8a7d8e081cbaa0d547d7fbe passed earlier gates but failed at lint (symvision): unused public FinalizerBaselineRecord in src/sase/llm_provider/commit_finalizer_baseline.py. This appears causally related to the active commit-finalizer baseline landing work, not to the Agents memory-read report changes.
 
+[2026-08-25T13:57:07Z · sase-ti.6] PROPOSED FOLLOW-UP: Investigate unrelated just-check full-suite red — `just check` escalated to the full suite and failed `tests/sdd_store/test_sidecar_clone.py::test_sidecar_clone_retries_transient_transport_failures` deterministically with ImportError for `sase.sdd._store_link.time.sleep`; it also reported `tests/test_global_state_leak_detector.py::test_snapshot_includes_live_config_token_refresh_threads`, which passed on direct rerun.
+
 ## Dependencies
 
 - **Depends on:** [sase-ti.2](sase-ti.2.md) ✓ · ⧖ 2026-08-25
@@ -26,4 +28,10 @@ verify: add a live end-to-end regression that reproduces the original research.1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ti.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.6/README.md) | [sase-ti.6](sase-ti.6.md) | 0 |
+| [bbugyi200.athena.sase-ti.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ti.6/README.md) | [sase-ti.6](sase-ti.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9c16452`](https://github.com/sase-org/sase/commit/9c164528e3eb51989b7086db72f49aec17c7309c) | test(finalizers): add commit dispatch protection guard and live e2e regression coverage | [sase-ti.6](sase-ti.6.md) | 2026-08-25 10:46:59 EDT |
