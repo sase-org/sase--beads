@@ -15,7 +15,7 @@ pane: create the disabled beta flag, register the built-in adapter/descriptor be
 
 - **Depends on:** [sase-tj.2](sase-tj.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tj.3](sase-tj.3.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tj.5](sase-tj.5.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tj.5](sase-tj.5.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.6](sase-tj.6.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tj.7](sase-tj.7.md) ✓ · ⧖ 2026-08-25
 
