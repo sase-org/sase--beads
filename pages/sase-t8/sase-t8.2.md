@@ -40,7 +40,7 @@ tests/test_axe_run_agent_failed_fork_admission.py rather than dropping the cover
 ## Dependencies
 
 - **Depends on:** [sase-t8.1](sase-t8.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-t8.3](sase-t8.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-t8.3](sase-t8.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

@@ -14,7 +14,7 @@ shell-history: resolve terminal agent and proc shells into typed, intuitive hist
 ## Dependencies
 
 - **Blocks:** [sase-t8.2](sase-t8.2.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [sase-t8.3](sase-t8.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [sase-t8.3](sase-t8.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

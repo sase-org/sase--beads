@@ -54,7 +54,7 @@ sase-t8.2's typed fork-dependency model should also uphold once it lands.
 |---|---|---|---|---|---:|---:|
 | [sase-t8.1](sase-t8.1.md) | Generalize fork source resolution and history rendering | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [sase-t8.2](sase-t8.2.md) | Make implicit fork waits shell-aware | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [sase-t8.3](sase-t8.3.md) | Expose shell forks throughout ACE | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [sase-t8.3](sase-t8.3.md) | Expose shell forks throughout ACE | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
     n0["sase-t8: Fork every SASE shell [in_progress]"]
     n1["sase-t8.1: Generalize fork source resolution and history rendering [closed]"]
     n2["sase-t8.2: Make implicit fork waits shell-aware [closed]"]
-    n3["sase-t8.3: Expose shell forks throughout ACE [in_progress]"]
+    n3["sase-t8.3: Expose shell forks throughout ACE [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -78,7 +78,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-t8.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t8.1.md) | [sase-t8.1](sase-t8.1.md) | 0 |
 | [bbugyi200.athena.sase-t8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t8.2/README.md) | [sase-t8.2](sase-t8.2.md) | 1 |
-| [bbugyi200.athena.sase-t8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t8.3/README.md) | [sase-t8.3](sase-t8.3.md) | 0 |
+| [bbugyi200.athena.sase-t8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-t8.3.md) | [sase-t8.3](sase-t8.3.md) | 1 |
 | [bbugyi200.athena.sase-t8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-t8.land/README.md) | [sase-t8](README.md) | 0 |
 
 ## Commits
@@ -87,3 +87,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`4fb8f3b`](https://github.com/sase-org/sase/commit/4fb8f3baee6d17b387f8eda4ee5242be8d936241) | feat: Generalize fork source resolution and history rendering (sase-t8.1) | [sase-t8.1](sase-t8.1.md) | 2026-08-24 19:18:57 EDT |
 | sase | [`2a3e1d2`](https://github.com/sase-org/sase/commit/2a3e1d2c658bd6357bd71c8c8b91d4a56c4c65c2) | feat(agent): make implicit fork waits shell-aware | [sase-t8.2](sase-t8.2.md) | 2026-08-24 20:25:54 EDT |
+| sase | [`69dc50a`](https://github.com/sase-org/sase/commit/69dc50a31af35724d9784b775f557fad3ea0a57f) | feat(ace): expose shell forks throughout ACE | [sase-t8.3](sase-t8.3.md) | 2026-08-24 21:16:35 EDT |
