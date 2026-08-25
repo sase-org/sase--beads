@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.12` · **Size:** medium
-**Created:** 2026-08-25 15:34:43 EDT
+**Created:** 2026-08-25 15:34:43 EDT · **Closed:** 2026-08-25 17:32:23 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
@@ -28,6 +28,10 @@ this phase changes what a relation edge carries, the bounded-pass answer for rel
 targets belongs to both epics. Verify it after both land rather than assuming either
 side covered it.
 
+[2026-08-25T21:31:50Z · sase-tw.12] PROPOSED FOLLOW-UP: agent-name registry stale-proof tests fail outside this phase -- just check full-suite selection reports tests/test_agent_name_registry_rebuild.py::test_stale_proof_memo_invalidated_by_mutation and tests/test_agent_names_auto_name.py::TestGetNextAutoName::test_dotted_suffix_reserves_prefix, and both fail in isolation on the current tree.
+
+[2026-08-25T21:32:23Z · sase-tw.12] Verified focused artifact-link relation/action tests, git diff --check, and just check static gates; just check full-suite selection passed 37046 tests with 2 unrelated agent-name registry failures recorded as a PROPOSED FOLLOW-UP on this phase.
+
 ## Dependencies
 
 - **Blocks:** [sase-tw.13](sase-tw.13.md) ◐ · ⧖ 2026-08-25
@@ -37,4 +41,10 @@ side covered it.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.12/README.md) | [sase-tw.12](sase-tw.12.md) | 0 |
+| [bbugyi200.athena.sase-tw.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.12/README.md) | [sase-tw.12](sase-tw.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2730cfe`](https://github.com/sase-org/sase/commit/2730cfedca0d162646a69d9d4b1e262ef8cc6a1b) | feat(artifact): preserve typed link relations in ACE | [sase-tw.12](sase-tw.12.md) | 2026-08-25 18:24:19 EDT |

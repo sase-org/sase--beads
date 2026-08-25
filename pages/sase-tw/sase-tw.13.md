@@ -54,7 +54,7 @@ Three consequences.
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.12](sase-tw.12.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.12](sase-tw.12.md) ✓ · ⧖ 2026-08-25
 - **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
 
 ## Agents
