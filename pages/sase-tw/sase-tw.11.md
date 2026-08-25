@@ -21,4 +21,10 @@ read-payoff: print a one-line typed neighborhood footer from `sase artifact read
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.11/README.md) | [sase-tw.11](sase-tw.11.md) | 0 |
+| [bbugyi200.athena.sase-tw.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.11/README.md) | [sase-tw.11](sase-tw.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b2a0c68`](https://github.com/sase-org/sase/commit/b2a0c68a3ff0e497b007f6455e225fb80ccdb6fd) | feat(artifact-refs): expand artifact link neighborhoods in prompt rendering | [sase-tw.11](sase-tw.11.md) | 2026-08-25 16:47:48 EDT |

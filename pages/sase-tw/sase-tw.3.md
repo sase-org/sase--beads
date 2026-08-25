@@ -11,6 +11,25 @@
 
 bead-endpoints: teach the sase-core bead link wire a direction, fire `_upsert_bead` when the bead is the target as well as the source, backfill the endpoint events one-sided writes never produced, and make `sase artifact create --bead` write a typed link with `reference_added` kept as a legacy alias.
 
+## Notes
+
+[2026-08-25T20:11:08Z · 0ds] INTEGRATION: your plan section correctly says to let the release-branch reconciler
+ratchet the pyproject window rather than hand-editing it. Hold that line — it matches
+tools/validate_sase_core_rs_version:250-260 and tools/ratchet_core_window.
+
+Coordination (updated): sibling phase sase-tw.5 (relation registry gains direction
+sentences, worked examples, and recommended endpoint kinds) has since landed — closed
+2026-08-25T20:05:10Z via commit 1282c7a8c ("feat(artifact-cli): add artifact link
+relation subcommand") — without touching pyproject.toml or crates/. It shipped against
+the already-published core window, so it needed no release and is no longer a
+coordination concern. One phase across the other concurrent epic still does release
+sase-core: sase-tt.4 of epic sase-tt (direct dict-to-QueryRow corpus construction in
+crates/sase_core_py/src/lib.rs). Different modules, no Rust conflict, but the releases
+serialize. Check whether it has a core change pending before you release. Do not
+hand-edit the sase-core-rs version line in this repo's pyproject.toml — sase-tt.4's plan
+section wrongly instructs its agent to do exactly that, and has been corrected by a note
+on that bead.
+
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
