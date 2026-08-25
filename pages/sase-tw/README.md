@@ -62,7 +62,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
-| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 1 |
+| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ◐ in_progress | medium | 2026-08-25 | 1 | 0 |
@@ -137,7 +137,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 0 |
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 1 |
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
-| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
+| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 2 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 1 |
 | [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 0 |
@@ -160,3 +160,4 @@ flowchart TD
 | sase | [`7015c79`](https://github.com/sase-org/sase/commit/7015c7938d984037447ed7de29ff952b5aab0650) | feat(artifact-links): add Textual-free derivation module behind a beta flag | [sase-tw.6](sase-tw.6.md) | 2026-08-25 18:28:07 EDT |
 | sase | [`012a66a`](https://github.com/sase-org/sase/commit/012a66a659853bae9bd27e0c47b0f75178794a80) | fix(artifact-links): make related note migration safe | [sase-tw.9](sase-tw.9.md) | 2026-08-25 18:30:46 EDT |
 | sase | [`678988d`](https://github.com/sase-org/sase/commit/678988da73439c5c552fcf26a4007f6fcd6a27f6) | fix(artifact-links): follow sidecar renames | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:33:35 EDT |
+| sase--research | [`sase--research@1ecda82`](https://github.com/sase-org/sase--research/commit/1ecda82d17d2859476d90de64e89706d6d76c6a2) | fix(research): repair artifact link indexes | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:41:21 EDT |
