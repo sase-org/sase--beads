@@ -11,12 +11,16 @@
 
 verify: add a live end-to-end regression that reproduces the original research.13.cdx sequence and now commits, then run the full landing gate.
 
+## Notes
+
+[2026-08-25T12:55:32Z · 0db] During unrelated implementation of plan:202608/agents_memory_read_view.md, `just check` on workspace HEAD 1fe598e2d4cf9161d8a7d8e081cbaa0d547d7fbe passed earlier gates but failed at lint (symvision): unused public FinalizerBaselineRecord in src/sase/llm_provider/commit_finalizer_baseline.py. This appears causally related to the active commit-finalizer baseline landing work, not to the Agents memory-read report changes.
+
 ## Dependencies
 
 - **Depends on:** [sase-ti.2](sase-ti.2.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-ti.3](sase-ti.3.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-ti.4](sase-ti.4.md) ✓ · ⧖ 2026-08-25
-- **Depends on:** [sase-ti.5](sase-ti.5.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-ti.5](sase-ti.5.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
