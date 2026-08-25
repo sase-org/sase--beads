@@ -26,10 +26,4 @@ registry: make the process-cached registry stop paying a full source-signature s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tt.2.md) | [sase-tt.2](sase-tt.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`fe66394`](https://github.com/sase-org/sase/commit/fe663948fa8d495d3eda69d67a7dc7f0ae757f75) | perf(agent-names): memoize registry staleness checks | [sase-tt.2](sase-tt.2.md) | 2026-08-25 16:25:21 EDT |
+| [bbugyi200.athena.sase-tt.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tt.2.md) | [sase-tt.2](sase-tt.2.md) | 0 |
