@@ -19,7 +19,7 @@ grammar: teach the boolean profile dialect to spell dotted and digit-leading val
 
 ## Dependencies
 
-- **Blocks:** [sase-tj.3](sase-tj.3.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tj.3](sase-tj.3.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
