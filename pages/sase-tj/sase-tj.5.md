@@ -22,7 +22,7 @@ query: wire the profile filter bar and ArtifactQuerySession over a Rust query in
 ## Dependencies
 
 - **Depends on:** [sase-tj.4](sase-tj.4.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tj.9](sase-tj.9.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tj.9](sase-tj.9.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

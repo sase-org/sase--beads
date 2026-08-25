@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-tj](README.md) / sase-tj.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0da](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0da.md) · **Assignee:** `sase-tj.9` · **Size:** medium
-**Created:** 2026-08-25 08:09:43 EDT
+**Created:** 2026-08-25 08:09:43 EDT · **Closed:** 2026-08-25 14:22:20 EDT
 **Plan:** [202608/artifacts\_agents\_pane.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifacts_agents_pane.md)
 
 ## Description
 
 land: delete the flag's Off branch, close the flag bead, refresh visual goldens and help text, and gate landing on a monitored full verification run.
+
+## Notes
+
+[2026-08-25T18:22:20Z · sase-tj.9] Auto-closed by `sase stitch create` after create_commit landed e5989fd28 ("feat(artifacts): remove agents-pane feature flag and fix stale test fixtures"). No verification is implied by this note. Reopen with `sase bead open sase-tj.9`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
