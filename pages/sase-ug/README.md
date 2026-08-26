@@ -1,0 +1,99 @@
+# Bead: sase-ug — A link rail on every tab
+
+[Bead Pages](../README.md) / sase-ug
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0eh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0eh.md) · **Assignee:** `sase-ug.land`
+**Created:** 2026-08-26 14:48:23 EDT
+**Plan:** [202608/link\_rail\_every\_tab.md](https://github.com/sase-org/sase--plans/blob/main/202608/link_rail_every_tab.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202608/link_rail_every_tab.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202608/link_rail_every_tab.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Every ACE tab shows the selected entity's typed artifact links in one place, in one line, in the same place; `$` plus one key follows any of them across tabs and panes; the surface is invisible when the selection has no links; and the read model it draws from stops silently losing whole relation classes.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-ug.1](sase-ug.1.md) | One projection for the machine-local read model | ✓ closed | medium | 2026-08-26 | 1 | 1 |
+| [sase-ug.10](sase-ug.10.md) | Retire the duplicates and land the rail | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
+| [sase-ug.4](sase-ug.4.md) | A way to read durable truth and see the drift | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.6](sase-ug.6.md) | The Link Rail, read-only | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.7](sase-ug.7.md) | The \`$\` grammar and a jump that always lands | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
+| [sase-ug.8](sase-ug.8.md) | Walking back across surfaces | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.9](sase-ug.9.md) | The \`$0\` Links panel | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-ug: A link rail on every tab [in_progress]"]
+    n1["sase-ug.1: One projection for the machine-local read model [closed]"]
+    n2["sase-ug.10: Retire the duplicates and land the rail [in_progress]"]
+    n3["sase-ug.2: A stale clone may not prove deletion [in_progress]"]
+    n4["sase-ug.3: Projected edges from facts SASE already owns [in_progress]"]
+    n5["sase-ug.4: A way to read durable truth and see the drift [in_progress]"]
+    n6["sase-ug.5: One selected-entity ref and one O(1) link index [in_progress]"]
+    n7["sase-ug.6: The Link Rail, read-only [in_progress]"]
+    n8["sase-ug.7: The `$` grammar and a jump that always lands [in_progress]"]
+    n9["sase-ug.8: Walking back across surfaces [in_progress]"]
+    n10["sase-ug.9: The `$0` Links panel [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n0 --> n10
+    n1 -.-> n3
+    n1 -.-> n4
+    n1 -.-> n5
+    n4 -.-> n5
+    n5 -.-> n6
+    n6 -.-> n7
+    n7 -.-> n8
+    n8 -.-> n9
+    n8 -.-> n10
+    n9 -.-> n2
+    n10 -.-> n2
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ug.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.1/README.md) | [sase-ug.1](sase-ug.1.md) | 1 |
+| [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 0 |
+| [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 0 |
+| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.3/README.md) | [sase-ug.3](sase-ug.3.md) | 0 |
+| [bbugyi200.athena.sase-ug.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.4/README.md) | [sase-ug.4](sase-ug.4.md) | 0 |
+| [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 0 |
+| [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 0 |
+| [bbugyi200.athena.sase-ug.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.7/README.md) | [sase-ug.7](sase-ug.7.md) | 0 |
+| [bbugyi200.athena.sase-ug.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.8/README.md) | [sase-ug.8](sase-ug.8.md) | 0 |
+| [bbugyi200.athena.sase-ug.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.9/README.md) | [sase-ug.9](sase-ug.9.md) | 0 |
+| [bbugyi200.athena.sase-ug.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.land/README.md) | [sase-ug](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`452ac54`](https://github.com/sase-org/sase/commit/452ac54cf967dae7f8974eec522dd564007d6545) | fix(sdd): converge artifact-link aggregate projections on one read model | [sase-ug.1](sase-ug.1.md) | 2026-08-26 15:15:17 EDT |
