@@ -49,13 +49,20 @@ flowchart TD
     n2["sase-u6.2: The pane brief [closed]"]
     n3["sase-u6.3: Sub-tab hover tooltips [closed]"]
     n4["sase-u6.4: Visual goldens and end-to-end verification [closed]"]
+    n5["sase-u6.5: Finish Artifacts description visual coverage [in_progress]"]
+    n6["sase-u6.5.1: Repair the missed Stitches goldens [closed]"]
+    n7["sase-u6.5.2: Audit the remaining visual corpus and verify the repair [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
+    n0 --> n5
+    n5 --> n6
+    n5 --> n7
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
+    n6 -.-> n7
 ```
 
 ## Agents
@@ -66,7 +73,10 @@ flowchart TD
 | [bbugyi200.athena.sase-u6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.2/README.md) | [sase-u6.2](sase-u6.2.md) | 1 |
 | [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 1 |
 | [bbugyi200.athena.sase-u6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-u6.4.md) | [sase-u6.4](sase-u6.4.md) | 1 |
-| [bbugyi200.athena.sase-u6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.land/README.md) | [sase-u6](README.md) | 0 |
+| [bbugyi200.athena.sase-u6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.5.1/README.md) | [sase-u6.5.1](sase-u6.5.1.md) | 1 |
+| [bbugyi200.athena.sase-u6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.5.2/README.md) | [sase-u6.5.2](sase-u6.5.2.md) | 0 |
+| [bbugyi200.athena.sase-u6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.5.land/README.md) | [sase-u6.5](sase-u6.5.md) | 0 |
+| [bbugyi200.athena.sase-u6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-u6.land.md) | [sase-u6](README.md) | 0 |
 
 ## Commits
 
@@ -76,3 +86,4 @@ flowchart TD
 | sase | [`ceaa377`](https://github.com/sase-org/sase/commit/ceaa377fe3d539948edaac34bcb401fe630d658b) | feat(artifacts): add the pane description brief | [sase-u6.2](sase-u6.2.md) | 2026-08-26 11:23:55 EDT |
 | sase | [`23b7abf`](https://github.com/sase-org/sase/commit/23b7abf1b2e1817aaa307468209039253baadab6) | feat(tui): add tooltips to panel tab strip | [sase-u6.3](sase-u6.3.md) | 2026-08-26 11:43:05 EDT |
 | sase | [`2cbe2f1`](https://github.com/sase-org/sase/commit/2cbe2f17d0d4e0b5fd7d1eec0cdf970303472268) | test(artifacts): add pane-description PNG goldens and rebaseline visuals | [sase-u6.4](sase-u6.4.md) | 2026-08-26 12:55:14 EDT |
+| sase | [`8d074c8`](https://github.com/sase-org/sase/commit/8d074c8dd3c620b014a041f98a41990884125cf5) | test(tui): update stitches artifact visual snapshots | [sase-u6.5.1](sase-u6.5.1.md) | 2026-08-26 13:26:03 EDT |
