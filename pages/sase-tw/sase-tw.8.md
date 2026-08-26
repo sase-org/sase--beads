@@ -2,18 +2,22 @@
 
 [Bead Pages](../README.md) / [sase-tw](README.md) / sase-tw.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-tj.land.w3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.land.w3.md) · **Assignee:** `sase-tw.8` · **Size:** medium
-**Created:** 2026-08-25 15:34:41 EDT
+**Created:** 2026-08-25 15:34:41 EDT · **Closed:** 2026-08-25 20:11:51 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
 ## Description
 
 citations: derive `agent cites plan` from the archived prompt's own header block and resolve prose sidecar paths in published prompts into `cites` rows, while explicitly holding the plan `AGENTS`/`COMMITS` sections out of the graph.
 
+## Notes
+
+[2026-08-26T00:11:51Z · sase-tw.8] Auto-closed by `sase stitch create` after create_commit landed c7e0a29e5 ("feat(artifact-links): derive links from agent-cited plans in prompt archives"). No verification is implied by this note. Reopen with `sase bead open sase-tw.8`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
-- **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.14](sase-tw.14.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.7](sase-tw.7.md) ✓ · ⧖ 2026-08-25
 
 ## Agents

@@ -18,7 +18,7 @@ read-payoff: print a one-line typed neighborhood footer from `sase artifact read
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.14](sase-tw.14.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.5](sase-tw.5.md) ✓ · ⧖ 2026-08-25
 
 ## Agents

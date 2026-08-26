@@ -47,7 +47,7 @@ notes-migration: verify `sase artifact link migrate-notes --apply` on a scratch 
 
 ## Dependencies
 
-- **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.14](sase-tw.14.md) ✓ · ⧖ 2026-08-25
 - **Depends on:** [sase-tw.3](sase-tw.3.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
