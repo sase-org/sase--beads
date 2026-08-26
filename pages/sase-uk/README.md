@@ -29,7 +29,7 @@ SASE has one reading surface. `sase bead show`, the Agents-tab `v` keymap, `sase
 |---|---|---|---|---|---:|---:|
 | [sase-uk.1](sase-uk.1.md) | The allocator and the scanner | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.10](sase-uk.10.md) | Four pagers become one | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
-| [sase-uk.2](sase-uk.2.md) | A document of sections, not a string | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-uk.2](sase-uk.2.md) | A document of sections, not a string | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.3](sase-uk.3.md) | The reading surface | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-uk.4](sase-uk.4.md) | Keys painted ahead of time | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-uk.5](sase-uk.5.md) | A press that always lands | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n0["sase-uk: A link-traversing SASE pager [in_progress]"]
     n1["sase-uk.1: The allocator and the scanner [closed]"]
     n2["sase-uk.10: Four pagers become one [in_progress]"]
-    n3["sase-uk.2: A document of sections, not a string [in_progress]"]
+    n3["sase-uk.2: A document of sections, not a string [closed]"]
     n4["sase-uk.3: The reading surface [in_progress]"]
     n5["sase-uk.4: Keys painted ahead of time [in_progress]"]
     n6["sase-uk.5: A press that always lands [in_progress]"]
@@ -81,7 +81,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-uk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.1/README.md) | [sase-uk.1](sase-uk.1.md) | 1 |
 | [bbugyi200.athena.sase-uk.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.10/README.md) | [sase-uk.10](sase-uk.10.md) | 0 |
-| [bbugyi200.athena.sase-uk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.2/README.md) | [sase-uk.2](sase-uk.2.md) | 0 |
+| [bbugyi200.athena.sase-uk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.2/README.md) | [sase-uk.2](sase-uk.2.md) | 1 |
 | [bbugyi200.athena.sase-uk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.3/README.md) | [sase-uk.3](sase-uk.3.md) | 0 |
 | [bbugyi200.athena.sase-uk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.4/README.md) | [sase-uk.4](sase-uk.4.md) | 0 |
 | [bbugyi200.athena.sase-uk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.5/README.md) | [sase-uk.5](sase-uk.5.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e877263`](https://github.com/sase-org/sase/commit/e877263b65463ef942317df70ab94ba3f168a87c) | feat(pager): add prefix-free jump-hint allocator and link scanner | [sase-uk.1](sase-uk.1.md) | 2026-08-26 18:30:41 EDT |
+| sase | [`2e5cd29`](https://github.com/sase-org/sase/commit/2e5cd29e680aaa08f57ae9573d11fc93fa9c7025) | feat(pager): add structured document adapters | [sase-uk.2](sase-uk.2.md) | 2026-08-26 18:57:47 EDT |

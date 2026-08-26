@@ -21,7 +21,7 @@ primitives: create the beta flag, extend `jump_hints` with prefix-free variable-
 
 ## Dependencies
 
-- **Blocks:** [sase-uk.2](sase-uk.2.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.2](sase-uk.2.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
