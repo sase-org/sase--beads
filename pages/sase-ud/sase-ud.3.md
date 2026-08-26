@@ -19,7 +19,7 @@ gate-shell: add the additive `shell` block to the v3 gate request, create the ga
 
 - **Depends on:** [sase-ud.2](sase-ud.2.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.4](sase-ud.4.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.5](sase-ud.5.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.5](sase-ud.5.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ gate-shell: add the additive `shell` block to the v3 gate request, create the ga
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1cb772d`](https://github.com/sase-org/sase/commit/1cb772d9c38e648f432460e0a097e78e4ef06df6) | feat(gate): add gate shell lifecycle | [sase-ud.3](sase-ud.3.md) | 2026-08-26 16:52:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-ug.3--1][1] | final verification check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md
+
+<!-- sase:referenced-by:end -->
