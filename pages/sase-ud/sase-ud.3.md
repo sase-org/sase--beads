@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-ud](README.md) / sase-ud.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0eg](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0eg.md) · **Assignee:** `sase-ud.3` · **Size:** large
-**Created:** 2026-08-26 14:02:52 EDT
+**Created:** 2026-08-26 14:02:52 EDT · **Closed:** 2026-08-26 16:54:27 EDT
 **Plan:** [202608/gate\_shells.md](https://github.com/sase-org/sase--plans/blob/main/202608/gate_shells.md)
 
 ## Description
 
 gate-shell: add the additive `shell` block to the v3 gate request, create the gate-shell family member with promotion and claim transfer, hand off and kill the creator through .sase_gate_pending, run the ordered settlement, short-circuit %auto, and bound pending gate shells with a required timeout and a reclaim chop.
 
+## Notes
+
+[2026-08-26T20:54:27Z · sase-ud.3] Auto-closed by `sase stitch create` after create_commit landed 1cb772d9c ("feat(gate): add gate shell lifecycle"). No verification is implied by this note. Reopen with `sase bead open sase-ud.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-ud.2](sase-ud.2.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.4](sase-ud.4.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.4](sase-ud.4.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.5](sase-ud.5.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

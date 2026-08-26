@@ -17,7 +17,7 @@ shells: extract member creation, suffix allocation, handoff, settlement, follow-
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.3](sase-ud.3.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.3](sase-ud.3.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
