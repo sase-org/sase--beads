@@ -13,7 +13,7 @@ hover: teach the shared PanelTabStrip to carry a per-tab description and show it
 
 ## Dependencies
 
-- **Depends on:** [sase-u6.2](sase-u6.2.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-u6.2](sase-u6.2.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-u6.4](sase-u6.4.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

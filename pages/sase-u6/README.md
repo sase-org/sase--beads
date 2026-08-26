@@ -36,7 +36,7 @@ Every Artifacts sub-tab — the five built-ins, the Plan pane, and every pane a 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-u6.1](sase-u6.1.md) | Pane description resolution layer | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-u6.2](sase-u6.2.md) | The pane brief | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-u6.2](sase-u6.2.md) | The pane brief | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-u6.3](sase-u6.3.md) | Sub-tab hover tooltips | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 | [sase-u6.4](sase-u6.4.md) | Visual goldens and end-to-end verification | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 
@@ -46,7 +46,7 @@ Every Artifacts sub-tab — the five built-ins, the Plan pane, and every pane a 
 flowchart TD
     n0["sase-u6: Artifacts sub-tab descriptions [in_progress]"]
     n1["sase-u6.1: Pane description resolution layer [closed]"]
-    n2["sase-u6.2: The pane brief [in_progress]"]
+    n2["sase-u6.2: The pane brief [closed]"]
     n3["sase-u6.3: Sub-tab hover tooltips [in_progress]"]
     n4["sase-u6.4: Visual goldens and end-to-end verification [in_progress]"]
     n0 --> n1
@@ -63,7 +63,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-u6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.1/README.md) | [sase-u6.1](sase-u6.1.md) | 1 |
-| [bbugyi200.athena.sase-u6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.2/README.md) | [sase-u6.2](sase-u6.2.md) | 0 |
+| [bbugyi200.athena.sase-u6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.2/README.md) | [sase-u6.2](sase-u6.2.md) | 1 |
 | [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 0 |
 | [bbugyi200.athena.sase-u6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.4/README.md) | [sase-u6.4](sase-u6.4.md) | 0 |
 | [bbugyi200.athena.sase-u6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.land/README.md) | [sase-u6](README.md) | 0 |
@@ -73,3 +73,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a792f5d`](https://github.com/sase-org/sase/commit/a792f5dc7eef7b937cf2d59f9d286840d392da82) | feat(artifacts): resolve pane descriptions | [sase-u6.1](sase-u6.1.md) | 2026-08-26 10:28:23 EDT |
+| sase | [`ceaa377`](https://github.com/sase-org/sase/commit/ceaa377fe3d539948edaac34bcb401fe630d658b) | feat(artifacts): add the pane description brief | [sase-u6.2](sase-u6.2.md) | 2026-08-26 11:23:55 EDT |

@@ -17,7 +17,7 @@ resolve: add a total, auditable description resolution ladder (user config → p
 
 ## Dependencies
 
-- **Blocks:** [sase-u6.2](sase-u6.2.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-u6.2](sase-u6.2.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
