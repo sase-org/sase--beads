@@ -13,7 +13,7 @@ labels: paint one stable key capsule before every scanned link, match keypresses
 
 ## Dependencies
 
-- **Depends on:** [sase-uk.3](sase-uk.3.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-uk.3](sase-uk.3.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-uk.5](sase-uk.5.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

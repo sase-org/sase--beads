@@ -20,7 +20,7 @@ document: add `PagerDocument`/`PagerSection`/`PagerOrigin`, ingest ANSI bodies t
 ## Dependencies
 
 - **Depends on:** [sase-uk.1](sase-uk.1.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-uk.3](sase-uk.3.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.3](sase-uk.3.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
