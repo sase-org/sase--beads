@@ -20,7 +20,7 @@ read-outbox: add a machine-local, replayable artifact-link outbox so `sase artif
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.7](sase-tw.7.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.7](sase-tw.7.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 

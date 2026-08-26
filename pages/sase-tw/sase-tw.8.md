@@ -14,10 +14,16 @@ citations: derive `agent cites plan` from the archived prompt's own header block
 ## Dependencies
 
 - **Blocks:** [sase-tw.14](sase-tw.14.md) ◐ · ⧖ 2026-08-25
-- **Depends on:** [sase-tw.7](sase-tw.7.md) ◐ · ⧖ 2026-08-25
+- **Depends on:** [sase-tw.7](sase-tw.7.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 0 |
+| [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c7e0a29`](https://github.com/sase-org/sase/commit/c7e0a29e50e6914d68b859c9caf25608cb1ec762) | feat(artifact-links): derive links from agent-cited plans in prompt archives | [sase-tw.8](sase-tw.8.md) | 2026-08-25 20:09:36 EDT |

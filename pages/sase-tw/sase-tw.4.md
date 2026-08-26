@@ -22,7 +22,7 @@ rename-following: consume git rename detection in the sidecar link refresh so a 
 ## Dependencies
 
 - **Depends on:** [sase-tw.1](sase-tw.1.md) ✓ · ⧖ 2026-08-25
-- **Blocks:** [sase-tw.7](sase-tw.7.md) ◐ · ⧖ 2026-08-25
+- **Blocks:** [sase-tw.7](sase-tw.7.md) ✓ · ⧖ 2026-08-25
 
 ## Agents
 
