@@ -27,13 +27,13 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-ud.1](sase-ud.1.md) | Bounded gate response lock | ◐ in_progress | small | 2026-08-26 | 1 | 1 |
+| [sase-ud.1](sase-ud.1.md) | Bounded gate response lock | ✓ closed | small | 2026-08-26 | 1 | 1 |
 | [sase-ud.10](sase-ud.10.md) | Migrate /sase\_questions | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.11](sase-ud.11.md) | Migrate /sase\_plan | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.12](sase-ud.12.md) | Retire the --q asker suffix | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.13](sase-ud.13.md) | Collapse the status machinery and remove the flag | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.14](sase-ud.14.md) | Memory, decision record, and skills | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
-| [sase-ud.2](sase-ud.2.md) | The sase.shells family-shell substrate | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
+| [sase-ud.2](sase-ud.2.md) | The sase.shells family-shell substrate | ◐ in_progress | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.3](sase-ud.3.md) | Gate shell creation, handoff, and settlement | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.4](sase-ud.4.md) | Rust read-side gate shell rules | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ud.5](sase-ud.5.md) | Durable gate execution and live output | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
@@ -47,7 +47,7 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 ```mermaid
 flowchart TD
     n0["sase-ud: Gate shells — a decision that outlives the agent that asked [in_progress]"]
-    n1["sase-ud.1: Bounded gate response lock [in_progress]"]
+    n1["sase-ud.1: Bounded gate response lock [closed]"]
     n2["sase-ud.10: Migrate /sase_questions [in_progress]"]
     n3["sase-ud.11: Migrate /sase_plan [in_progress]"]
     n4["sase-ud.12: Retire the --q asker suffix [in_progress]"]
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.12/README.md) | [sase-ud.12](sase-ud.12.md) | 0 |
 | [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13/README.md) | [sase-ud.13](sase-ud.13.md) | 0 |
 | [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
-| [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 0 |
+| [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.3/README.md) | [sase-ud.3](sase-ud.3.md) | 0 |
 | [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 0 |
 | [bbugyi200.athena.sase-ud.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.5/README.md) | [sase-ud.5](sase-ud.5.md) | 0 |
@@ -118,3 +118,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`00bb5a0`](https://github.com/sase-org/sase/commit/00bb5a0824bc02a0eadadcf9b1aa352ef17cd920) | fix(notification-gates): bound cancel\_gate lock acquisition with a timeout | [sase-ud.1](sase-ud.1.md) | 2026-08-26 14:18:31 EDT |
+| sase | [`e16872c`](https://github.com/sase-org/sase/commit/e16872c9deaa9e48cf73e9d26196adf6bae621d8) | feat(shells): add shells substrate | [sase-ud.2](sase-ud.2.md) | 2026-08-26 15:53:46 EDT |
