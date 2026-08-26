@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-ug](README.md) / sase-ug.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0eh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0eh.md) · **Assignee:** `sase-ug.3` · **Size:** large
-**Created:** 2026-08-26 14:48:25 EDT
+**Created:** 2026-08-26 14:48:25 EDT · **Closed:** 2026-08-26 18:47:47 EDT
 **Plan:** [202608/link\_rail\_every\_tab.md](https://github.com/sase-org/sase--plans/blob/main/202608/link_rail_every_tab.md)
 
 ## Description
@@ -32,6 +32,8 @@ Also closing note for sase-uj: the pre-existing `tests/test_notification_gate_du
 
 Plan (sase-ug.3) is implementation-complete, tested, and verified.
 
+[2026-08-26T22:47:47Z · sase-ug.3--2] Auto-closed by `sase stitch create` after create_commit landed 4bce1a4f6 ("feat(artifact-links): project recomputed edges into the read model (sase-ug.3)"). No verification is implied by this note. Reopen with `sase bead open sase-ug.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-ug.1](sase-ug.1.md) ✓ · ⧖ 2026-08-26
@@ -41,10 +43,11 @@ Plan (sase-ug.3) is implementation-complete, tested, and verified.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 1 |
+| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4bce1a4`](https://github.com/sase-org/sase/commit/4bce1a4f68d985c623611416ea8187da7052609f) | feat(artifact-links): project recomputed edges into the read model (sase-ug.3) | [sase-ug.3](sase-ug.3.md) | 2026-08-26 18:45:13 EDT |
+| sase-core | [`sase-core@917951d`](https://github.com/sase-org/sase-core/commit/917951d207b47099162423247c1811bcdf6aa31a) | feat(artifact-links): add projection relation builtins | [sase-ug.3](sase-ug.3.md) | 2026-08-26 18:49:40 EDT |
