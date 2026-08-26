@@ -1,0 +1,23 @@
+# Bead: sase-uk.4 — Keys painted ahead of time
+
+[Bead Pages](../README.md) / [sase-uk](README.md) / sase-uk.4
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ej](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ej.md) · **Assignee:** `sase-uk.4` · **Size:** medium
+**Created:** 2026-08-26 17:44:37 EDT
+**Plan:** [202608/link\_traversing\_pager.md](https://github.com/sase-org/sase--plans/blob/main/202608/link_traversing_pager.md)
+
+## Description
+
+labels: paint one stable key capsule before every scanned link, match keypresses through `normalize_jump_key` and `match_jump_hint`, give pending prefixes visible feedback, and ship the window-scoped fallback dormant.
+
+## Dependencies
+
+- **Depends on:** [sase-uk.3](sase-uk.3.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.5](sase-uk.5.md) ◐ · ⧖ 2026-08-26
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-uk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.4/README.md) | [sase-uk.4](sase-uk.4.md) | 0 |
