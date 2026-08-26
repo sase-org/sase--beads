@@ -29,7 +29,7 @@ Every ACE tab shows the selected entity's typed artifact links in one place, in 
 |---|---|---|---|---|---:|---:|
 | [sase-ug.1](sase-ug.1.md) | One projection for the machine-local read model | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.10](sase-ug.10.md) | Retire the duplicates and land the rail | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
-| [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ug.4](sase-ug.4.md) | A way to read durable truth and see the drift | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n0["sase-ug: A link rail on every tab [in_progress]"]
     n1["sase-ug.1: One projection for the machine-local read model [closed]"]
     n2["sase-ug.10: Retire the duplicates and land the rail [in_progress]"]
-    n3["sase-ug.2: A stale clone may not prove deletion [in_progress]"]
+    n3["sase-ug.2: A stale clone may not prove deletion [closed]"]
     n4["sase-ug.3: Projected edges from facts SASE already owns [in_progress]"]
     n5["sase-ug.4: A way to read durable truth and see the drift [in_progress]"]
     n6["sase-ug.5: One selected-entity ref and one O(1) link index [in_progress]"]
@@ -82,8 +82,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-ug.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.1/README.md) | [sase-ug.1](sase-ug.1.md) | 1 |
 | [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 0 |
-| [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 0 |
-| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.3/README.md) | [sase-ug.3](sase-ug.3.md) | 0 |
+| [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 1 |
+| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 0 |
 | [bbugyi200.athena.sase-ug.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.4/README.md) | [sase-ug.4](sase-ug.4.md) | 0 |
 | [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 0 |
 | [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`452ac54`](https://github.com/sase-org/sase/commit/452ac54cf967dae7f8974eec522dd564007d6545) | fix(sdd): converge artifact-link aggregate projections on one read model | [sase-ug.1](sase-ug.1.md) | 2026-08-26 15:15:17 EDT |
+| sase | [`9a477bf`](https://github.com/sase-org/sase/commit/9a477bfd1cf8f3aa1fec9e1eae900c9f3cb3970a) | fix(artifact-links): require fresh deletion authority | [sase-ug.2](sase-ug.2.md) | 2026-08-26 15:40:59 EDT |

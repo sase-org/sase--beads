@@ -20,4 +20,4 @@ project: add a recomputed projection layer that turns commit trailers, agent met
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.3/README.md) | [sase-ug.3](sase-ug.3.md) | 0 |
+| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 0 |
