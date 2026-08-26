@@ -7,6 +7,18 @@
 **Created:** 2026-08-25 15:34:34 EDT
 **Plan:** [202608/artifact\_link\_durability\_and\_derivation.md](https://github.com/sase-org/sase--plans/blob/main/202608/artifact_link_durability_and_derivation.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-u3][1] | the epic whose land-agent verification found this; its phase sase-tw.4 owns the rename-repair pass this report sits on top of, and its phase notes #1/#2 proposed repairing the residue |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-u3/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The artifact-link graph stops losing durable rows, grows to ~1,600 edges derived from facts SASE already owns without adding one token to the average agent's context, and becomes load-bearing: every audited read shows its neighborhood, ACE carries the relation type, and the Artifacts Agent pane filters on `relation:`, `linked:`, and `artifact:`.
@@ -56,6 +68,41 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 
 [2026-08-26T00:38:55Z · toobig-4d.test_launch_condition_workspace.0] DISCOVERED ISSUE CORROBORATION: During tests/test_launch_condition_workspace.py split verification on 2026-08-25, mandatory just check failed at lint (symvision) after passing fmt, keep-sorted, Ruff, mypy, feature flags, pyscripts, test waits, changelog, and patch/stitch terminology. The reported symbols were ArtifactLinkBackfillReport, ArtifactLinkReconcileReport, and sweepable_artifact_link_documents in src/sase/sdd/artifact_link_backfill.py. The local diff is limited to splitting launch condition workspace tests plus a private test helper; the affected 14 split tests passed in the workspace venv, so this corroborates existing note #6 on this active epic rather than a new task bead.
 
+[2026-08-26T01:20:47Z · toobig-3j.availability.0] DISCOVERED ISSUE: During availability module-split verification on 2026-08-25, mandatory just check failed at lint (symvision) after fmt, keep-sorted, Ruff, mypy, feature flags, pyscripts, test waits, changelog, and patch/stitch terminology passed. The reported blocker is stale --epic-symbol entries for closed phase sase-tw.14: ReadCitationCandidate and rank_read_citation_candidates. The local diff only splits src/sase/ace/tui/commands/availability.py into sibling availability modules and does not touch Justfile, Symvision config, or xprompt discovery_order.py. This is causally linked to epic sase-tw because the stale waivers point at its closed phase, so recorded here rather than as a standalone task.
+
+[2026-08-26T01:46:03Z · sase-tw.land] LANDING VERIFICATION (sase-tw.land, master 7f6f936de). All 14 phases have commits and
+their notes are addressed, but two of the epic's own acceptance conditions are unmet, so
+this epic is NOT being closed yet; a child tale plan carries the remainder.
+
+VERIFIED WORKING (read the code and exercised the live CLI, not just the phase notes):
+- sase-tw.1/.2/.3: reconcile_aggregate() wired to artifact doctor --fix; the outbox
+  drains from workflow_publication.py and from the hourly chop; BeadLinkWire carries
+  `direction` and `sase bead show sase-t1` renders both endpoints.
+- sase-tw.5: `sase artifact link relation show implements` prints the direction
+  sentence, both worked examples, and recommended endpoint kinds; `relation list` prints
+  all six slugs. The completion snapshot and
+  tests/main/test_artifact_handler.py now carry `relation` and `suggest` (epic notes #2,
+  #3, #4, #5 are all resolved: 22 focused tests pass).
+- sase-tw.9: 278 `migrated` rows are live in the aggregate.
+- sase-tw.11: `sase artifact read plan:202608/retire_pluggable_finalizers.md` prints
+  `Links: related research:... · read-by agent:... (+1 more)` on stderr.
+- sase-tw.13: re-verified AFTER e1171e329 (profile_evaluator split) landed on top of it —
+  `sase agent search 'relation:read linked:true'` returns rows, and the acceptance
+  invariant holds exactly: linked:true 61 + linked:false 6444 = 6505 unfiltered.
+- sase-tw.14: `sase artifact link suggest` prints ranked candidates with evidence and
+  writes nothing; both agent-facing fact lines shipped (src/sase/xprompts/skills/
+  sase_plan.md:12 and, in the linked plugin repo, sase-research-artifacts commit 15a4b09
+  research_swarm.md:47). Flag bead sase-tx is now closed.
+- `just lint` exits 0 on master (symvision, feature flags, memory init check included);
+  the two unreleased sase-core commits (4b1f2d6 direction, 2664e20 links inlet) are
+  queued in release PR #182 for v0.32.6, which is the intended reconciler path.
+
+DEFECT 1 (blocks close): the `implements` derivation reads the wrong frontmatter key.
+src/sase/artifact_links/derive/_plan_implements.py reads `frontmatter.get("bead")`, but
+sase-core's plan schema defines `bead` as "bead id of the AGENT THAT PROPOSED t
+
+… and 5043 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,7 +115,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
-| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 1 |
+| [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.5](sase-tw.5.md) | Relation semantics, \`derived\` projection class, and a way to read them | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.6](sase-tw.6.md) | One derivation module behind one flag | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.7](sase-tw.7.md) | Derive at creation, on sidecar commit, and in the hourly sweep | ✓ closed | medium | 2026-08-25 | 1 | 1 |
@@ -143,13 +190,13 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 2 |
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 1 |
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
-| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
+| [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 2 |
 | [bbugyi200.athena.sase-tw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.5/README.md) | [sase-tw.5](sase-tw.5.md) | 2 |
 | [bbugyi200.athena.sase-tw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.6/README.md) | [sase-tw.6](sase-tw.6.md) | 1 |
 | [bbugyi200.athena.sase-tw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.7/README.md) | [sase-tw.7](sase-tw.7.md) | 1 |
 | [bbugyi200.athena.sase-tw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.8/README.md) | [sase-tw.8](sase-tw.8.md) | 1 |
 | [bbugyi200.athena.sase-tw.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.9/README.md) | [sase-tw.9](sase-tw.9.md) | 1 |
-| [bbugyi200.athena.sase-tw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.land/README.md) | [sase-tw](README.md) | 0 |
+| [bbugyi200.athena.sase-tw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tw.land.md) | [sase-tw](README.md) | 1 |
 
 ## Commits
 
@@ -166,6 +213,7 @@ flowchart TD
 | sase | [`7015c79`](https://github.com/sase-org/sase/commit/7015c7938d984037447ed7de29ff952b5aab0650) | feat(artifact-links): add Textual-free derivation module behind a beta flag | [sase-tw.6](sase-tw.6.md) | 2026-08-25 18:28:07 EDT |
 | sase | [`012a66a`](https://github.com/sase-org/sase/commit/012a66a659853bae9bd27e0c47b0f75178794a80) | fix(artifact-links): make related note migration safe | [sase-tw.9](sase-tw.9.md) | 2026-08-25 18:30:46 EDT |
 | sase | [`678988d`](https://github.com/sase-org/sase/commit/678988da73439c5c552fcf26a4007f6fcd6a27f6) | fix(artifact-links): follow sidecar renames | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:33:35 EDT |
+| sase--research | [`sase--research@1ecda82`](https://github.com/sase-org/sase--research/commit/1ecda82d17d2859476d90de64e89706d6d76c6a2) | fix(research): repair artifact link indexes | [sase-tw.4](sase-tw.4.md) | 2026-08-25 18:41:21 EDT |
 | sase | [`ad2032c`](https://github.com/sase-org/sase/commit/ad2032c878bc1ee62007a1edf41efc7140a03592) | feat(agent-catalog): filter agents by artifact link facets | [sase-tw.13](sase-tw.13.md) | 2026-08-25 19:21:47 EDT |
 | sase | [`b250011`](https://github.com/sase-org/sase/commit/b25001124a8bf49f2f0011cecdb417350a720436) | feat(artifact-links): consume plan links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:22:22 EDT |
 | sase-core | [`sase-core@2664e20`](https://github.com/sase-org/sase-core/commit/2664e20e94979e81ec729f620e500f8fea07a9cb) | feat(plan): allow transient links frontmatter | [sase-tw.10](sase-tw.10.md) | 2026-08-25 19:23:13 EDT |
@@ -173,3 +221,4 @@ flowchart TD
 | sase | [`c7e0a29`](https://github.com/sase-org/sase/commit/c7e0a29e50e6914d68b859c9caf25608cb1ec762) | feat(artifact-links): derive links from agent-cited plans in prompt archives | [sase-tw.8](sase-tw.8.md) | 2026-08-25 20:09:36 EDT |
 | sase | [`7f6f936`](https://github.com/sase-org/sase/commit/7f6f936deca3cdb0345292effc2ee3af4b170277) | feat(artifact): add hard-evidence link suggestions | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:07:52 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@15a4b09`](https://github.com/sase-org/sase-research-artifacts/commit/15a4b095489f241459a5700d446cc0b5f996a4fe) | feat(xprompt): mention artifact-read derivation in research swarm | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:09:54 EDT |
+| sase | [`e391b1a`](https://github.com/sase-org/sase/commit/e391b1a28354166b00437f4ca895eaec81231fe7) | feat(artifact-links): derive plan implements-key and backfill sweep | [sase-tw](README.md) | 2026-08-26 02:37:35 EDT |
