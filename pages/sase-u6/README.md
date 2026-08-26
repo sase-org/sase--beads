@@ -37,7 +37,7 @@ Every Artifacts sub-tab — the five built-ins, the Plan pane, and every pane a 
 |---|---|---|---|---|---:|---:|
 | [sase-u6.1](sase-u6.1.md) | Pane description resolution layer | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-u6.2](sase-u6.2.md) | The pane brief | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-u6.3](sase-u6.3.md) | Sub-tab hover tooltips | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
+| [sase-u6.3](sase-u6.3.md) | Sub-tab hover tooltips | ◐ in_progress | small | 2026-08-26 | 1 | 1 |
 | [sase-u6.4](sase-u6.4.md) | Visual goldens and end-to-end verification | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 
 ## Lineage
@@ -64,7 +64,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-u6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.1/README.md) | [sase-u6.1](sase-u6.1.md) | 1 |
 | [bbugyi200.athena.sase-u6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.2/README.md) | [sase-u6.2](sase-u6.2.md) | 1 |
-| [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 0 |
+| [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 1 |
 | [bbugyi200.athena.sase-u6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.4/README.md) | [sase-u6.4](sase-u6.4.md) | 0 |
 | [bbugyi200.athena.sase-u6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.land/README.md) | [sase-u6](README.md) | 0 |
 
@@ -74,3 +74,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`a792f5d`](https://github.com/sase-org/sase/commit/a792f5dc7eef7b937cf2d59f9d286840d392da82) | feat(artifacts): resolve pane descriptions | [sase-u6.1](sase-u6.1.md) | 2026-08-26 10:28:23 EDT |
 | sase | [`ceaa377`](https://github.com/sase-org/sase/commit/ceaa377fe3d539948edaac34bcb401fe630d658b) | feat(artifacts): add the pane description brief | [sase-u6.2](sase-u6.2.md) | 2026-08-26 11:23:55 EDT |
+| sase | [`23b7abf`](https://github.com/sase-org/sase/commit/23b7abf1b2e1817aaa307468209039253baadab6) | feat(tui): add tooltips to panel tab strip | [sase-u6.3](sase-u6.3.md) | 2026-08-26 11:43:05 EDT |

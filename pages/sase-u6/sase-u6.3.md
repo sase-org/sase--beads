@@ -20,4 +20,10 @@ hover: teach the shared PanelTabStrip to carry a per-tab description and show it
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 0 |
+| [bbugyi200.athena.sase-u6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-u6.3/README.md) | [sase-u6.3](sase-u6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`23b7abf`](https://github.com/sase-org/sase/commit/23b7abf1b2e1817aaa307468209039253baadab6) | feat(tui): add tooltips to panel tab strip | [sase-u6.3](sase-u6.3.md) | 2026-08-26 11:43:05 EDT |
