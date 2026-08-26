@@ -65,7 +65,7 @@ FIX: run 'just sync-completion-spec' and add 'relation' to that assertion. Route
 | [sase-tw.11](sase-tw.11.md) | Make every audited read a discovery moment | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.12](sase-tw.12.md) | ACE stops flattening the relation type | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.13](sase-tw.13.md) | \`relation:\`, \`linked:\`, and \`artifact:\` on the Agent pane | ✓ closed | medium | 2026-08-25 | 1 | 1 |
-| [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ✓ closed | medium | 2026-08-25 | 1 | 1 |
+| [sase-tw.14](sase-tw.14.md) | The judgment tier, the flag removal, and the two workflow lines | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.2](sase-tw.2.md) | Audited reads become durable and publish with the agent's commits | ✓ closed | medium | 2026-08-25 | 1 | 1 |
 | [sase-tw.3](sase-tw.3.md) | A bead in either endpoint position gets its event | ✓ closed | medium | 2026-08-25 | 1 | 2 |
 | [sase-tw.4](sase-tw.4.md) | Links follow renames instead of dangling | ✓ closed | medium | 2026-08-25 | 1 | 1 |
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tw.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.11/README.md) | [sase-tw.11](sase-tw.11.md) | 1 |
 | [bbugyi200.athena.sase-tw.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.12/README.md) | [sase-tw.12](sase-tw.12.md) | 1 |
 | [bbugyi200.athena.sase-tw.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.13/README.md) | [sase-tw.13](sase-tw.13.md) | 1 |
-| [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 1 |
+| [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 2 |
 | [bbugyi200.athena.sase-tw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.2/README.md) | [sase-tw.2](sase-tw.2.md) | 1 |
 | [bbugyi200.athena.sase-tw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.3/README.md) | [sase-tw.3](sase-tw.3.md) | 2 |
 | [bbugyi200.athena.sase-tw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.4/README.md) | [sase-tw.4](sase-tw.4.md) | 1 |
@@ -172,3 +172,4 @@ flowchart TD
 | sase | [`9606947`](https://github.com/sase-org/sase/commit/960694738960861c480229edcbd7087767d6f827) | feat(artifact-links): derive links from commits and backfill existing artifacts | [sase-tw.7](sase-tw.7.md) | 2026-08-25 19:33:07 EDT |
 | sase | [`c7e0a29`](https://github.com/sase-org/sase/commit/c7e0a29e50e6914d68b859c9caf25608cb1ec762) | feat(artifact-links): derive links from agent-cited plans in prompt archives | [sase-tw.8](sase-tw.8.md) | 2026-08-25 20:09:36 EDT |
 | sase | [`7f6f936`](https://github.com/sase-org/sase/commit/7f6f936deca3cdb0345292effc2ee3af4b170277) | feat(artifact): add hard-evidence link suggestions | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:07:52 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@15a4b09`](https://github.com/sase-org/sase-research-artifacts/commit/15a4b095489f241459a5700d446cc0b5f996a4fe) | feat(xprompt): mention artifact-read derivation in research swarm | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:09:54 EDT |

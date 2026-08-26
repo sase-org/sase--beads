@@ -29,10 +29,11 @@ suggest-and-close: add `sase artifact link suggest` over hard evidence only, rem
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 1 |
+| [bbugyi200.athena.sase-tw.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tw.14/README.md) | [sase-tw.14](sase-tw.14.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7f6f936`](https://github.com/sase-org/sase/commit/7f6f936deca3cdb0345292effc2ee3af4b170277) | feat(artifact): add hard-evidence link suggestions | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:07:52 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@15a4b09`](https://github.com/sase-org/sase-research-artifacts/commit/15a4b095489f241459a5700d446cc0b5f996a4fe) | feat(xprompt): mention artifact-read derivation in research swarm | [sase-tw.14](sase-tw.14.md) | 2026-08-25 21:09:54 EDT |
