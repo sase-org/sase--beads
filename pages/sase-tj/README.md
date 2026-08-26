@@ -106,6 +106,49 @@ NOT VERIFIED. The land phase's monitored `just check-full` gate never ran, and j
 p95 was never captured. Both belong to the resumed landing; p95 is blocked on
 defect 2 and is assigned to the child plan's navigation phase.
 
+[2026-08-26T11:28:47Z · sase-tj.10.land] DISCOVERED ISSUE (sase-tj.10 land agent, master e8de34fe0): the Copy as palette is unreachable on the Artifacts Agent pane, so the entire artifacts_agents copy group this epic shipped is dead code. Caused by this epic, not by sase-tj.10.
+
+REPRODUCTION (run on this tree, not inferred):
+  .venv/bin/python -c '
+  from tests.ace.tui._copy_as_palette_helpers import PaletteHarness
+  from sase.ace.tui.actions.clipboard._palette import build_copy_as_context
+  app = PaletteHarness(); app.current_tab = "artifacts"
+  app.current_artifacts_subtab = "agents"
+  print(build_copy_as_context(app), app.notifications)'
+prints 'None [("No Patch to copy", "warning")]'.
+
+ROOT CAUSE: src/sase/ace/tui/actions/clipboard/_palette.py:28 declares
+_ARTIFACT_SUBTABS = frozenset({"stitches", "beads", "files"}). build_copy_as_context()
+routes to build_artifacts_context() only when the leaf pane is in that set or is a
+document pane; 'agents' is neither, so it falls through to _build_patch_context(app).
+That file was last touched by 7060a2ec4, before this epic added the pane, so the pane
+was never added to the set.
+
+USER IMPACT: '%' (copy_tab_content -> action_start_copy_mode) is the only entry to the
+Copy as palette, and action_start_copy_mode returns early when the context is None, so
+_copy_mode_active is never set and the copy footer never paints. On the Agent pane it
+warns 'No Patch to copy'. Nine copy targets this epic declared and keyed are therefore
+unreachable: copy_targets_for('artifacts_agents') returns
+['reference','name','link','path','chat','prompt','json','handoff','snapshot'] and
+src/sase/default_config.yml:695-704 binds all of them. Only 'reference' has another
+door ('y' -> artifacts_copy_reference); the other eight have none. The docstring at
+src/sase/ace/tui/actions/clipboard/_artifacts.py:103 states the intended contract --
+'Sha/bug/id/etc. copies remain reachable through copy mode (%)' -- which does not hold
+for this pane.
+
+NOT A ONE-LINE FIX. Adding 'agents' to _ARTIFACT_SUBTABS is necessary but not
+sufficient: in _palette_artifacts.py, _selected_artifact_object() (line 130) falls
+through to getattr(pane, 'selected_issue') and _artifact_objects() (line 145) falls
+through to pane.issues/_issue_target for any subtab that is not
+stitches/beads/files/document, so both return nothing for the Agent pane. Each needs an
+agents branch, and artifact_target_state() needs warm previews for the nine targets,
+plus palette coverage in tests/ace/tui/test_copy_as_palette_contexts.py (which has no
+agents case today) and a _copy_as_palette_helpers.PaletteHarness._agents_pane resolver.
+
+WHY THIS IS RECORDED HERE: th
+
+… and 2466 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -126,10 +169,10 @@ defect 2 and is assigned to the child plan's navigation phase.
 flowchart TD
     n0["sase-tj: Artifacts Agent pane — a queryable agent catalog with revival [in_progress]"]
     n1["sase-tj.1: Widen the shared boolean query dialect's value grammar [closed]"]
-    n2["sase-tj.10: Agent pane landing gaps — reachable navigation, a working CLI, and real visual coverage [in_progress]"]
+    n2["sase-tj.10: Agent pane landing gaps — reachable navigation, a working CLI, and real visual coverage [closed]"]
     n3["sase-tj.10.1: Make `sase agent search` accept its options after the query [closed]"]
-    n4["sase-tj.10.2: Bind j/k entry navigation on the Agent pane and guard the capability gap [in_progress]"]
-    n5["sase-tj.10.3: Put the Agent pane in the fast-startup inventory and rebaseline the goldens [in_progress]"]
+    n4["sase-tj.10.2: Bind j/k entry navigation on the Agent pane and guard the capability gap [closed]"]
+    n5["sase-tj.10.3: Put the Agent pane in the fast-startup inventory and rebaseline the goldens [closed]"]
     n6["sase-tj.2: Textual-free agent catalog row model [closed]"]
     n7["sase-tj.3: The agents query profile [closed]"]
     n8["sase-tj.4: Feature flag, pane contract, and the mounted list [closed]"]
@@ -173,8 +216,7 @@ flowchart TD
 | [bbugyi200.athena.sase-tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.1/README.md) | [sase-tj.1](sase-tj.1.md) | 2 |
 | [bbugyi200.athena.sase-tj.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.1/README.md) | [sase-tj.10.1](sase-tj.10.1.md) | 1 |
 | [bbugyi200.athena.sase-tj.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.2/README.md) | [sase-tj.10.2](sase-tj.10.2.md) | 1 |
-| [bbugyi200.athena.sase-tj.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.3/README.md) | [sase-tj.10.3](sase-tj.10.3.md) | 0 |
-| [bbugyi200.athena.sase-tj.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.10.land/README.md) | [sase-tj.10](sase-tj.10.md) | 0 |
+| [bbugyi200.athena.sase-tj.10.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.10.land.md) | [sase-tj.10](sase-tj.10.md) | 1 |
 | [bbugyi200.athena.sase-tj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.2/README.md) | [sase-tj.2](sase-tj.2.md) | 1 |
 | [bbugyi200.athena.sase-tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-tj.3/README.md) | [sase-tj.3](sase-tj.3.md) | 1 |
 | [bbugyi200.athena.sase-tj.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-tj.5.md) | [sase-tj.5](sase-tj.5.md) | 1 |
@@ -200,3 +242,5 @@ flowchart TD
 | sase | [`e5989fd`](https://github.com/sase-org/sase/commit/e5989fd286ed5f2e328e8928c7894028d697285a) | feat(artifacts): remove agents-pane feature flag and fix stale test fixtures | [sase-tj.9](sase-tj.9.md) | 2026-08-25 14:20:23 EDT |
 | sase | [`ba8a9cc`](https://github.com/sase-org/sase/commit/ba8a9cc75d0e50442257f01ef9b5a7aec5d9b7b9) | fix(agent-search): let \`sase agent search\` accept -j/-l/-p after the query | [sase-tj.10.1](sase-tj.10.1.md) | 2026-08-25 15:23:29 EDT |
 | sase | [`9b4f7d4`](https://github.com/sase-org/sase/commit/9b4f7d41a6d4de19454f1972d1e8f54391723205) | feat(artifacts-agents): bind j/k navigation on the Agent pane and guard capability reachability | [sase-tj.10.2](sase-tj.10.2.md) | 2026-08-25 15:35:02 EDT |
+| sase | [`e8de34f`](https://github.com/sase-org/sase/commit/e8de34fe0c52a13610fd78ae865f982ffde1b4c6) | feat: Put the Agent pane in the fast-startup inventory and rebaseline and rebase the goldens (sase-tj.10.3) | [sase-tj.10.3](sase-tj.10.3.md) | 2026-08-26 06:37:43 EDT |
+| sase | [`a5989a8`](https://github.com/sase-org/sase/commit/a5989a8738023567daf8b215a2b2a1c4865453bc) | test(artifacts-agents): repair the Agent pane visual fixture and rebaseline one golden | [sase-tj.10](sase-tj.10.md) | 2026-08-26 08:21:15 EDT |
