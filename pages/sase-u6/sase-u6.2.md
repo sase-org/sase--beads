@@ -20,7 +20,7 @@ brief: render the resolved description as a host-owned accent-gutter brief under
 ## Dependencies
 
 - **Depends on:** [sase-u6.1](sase-u6.1.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-u6.3](sase-u6.3.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-u6.3](sase-u6.3.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
