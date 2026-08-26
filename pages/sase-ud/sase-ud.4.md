@@ -26,10 +26,11 @@ gate-core-rs: add the flat gate fields to AgentMetaWire and DoneMarkerWire, add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 1 |
+| [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5a82847`](https://github.com/sase-org/sase/commit/5a8284733de96e1aa0665bdcc7d5ac5a82a3be0c) | feat: project gate shell read metadata | [sase-ud.4](sase-ud.4.md) | 2026-08-26 17:26:04 EDT |
+| sase-core | [`sase-core@1983158`](https://github.com/sase-org/sase-core/commit/1983158782d1ce0d1c8431cadc62493101fd4ddf) | feat: scan gate shell read metadata | [sase-ud.4](sase-ud.4.md) | 2026-08-26 17:27:00 EDT |

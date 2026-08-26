@@ -35,7 +35,7 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 | [sase-ud.14](sase-ud.14.md) | Memory, decision record, and skills | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 | [sase-ud.2](sase-ud.2.md) | The sase.shells family-shell substrate | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.3](sase-ud.3.md) | Gate shell creation, handoff, and settlement | ✓ closed | large | 2026-08-26 | 1 | 1 |
-| [sase-ud.4](sase-ud.4.md) | Rust read-side gate shell rules | ✓ closed | medium | 2026-08-26 | 1 | 1 |
+| [sase-ud.4](sase-ud.4.md) | Rust read-side gate shell rules | ✓ closed | medium | 2026-08-26 | 1 | 2 |
 | [sase-ud.5](sase-ud.5.md) | Durable gate execution and live output | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ud.6](sase-ud.6.md) | Gate shells in ACE | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.7](sase-ud.7.md) | Configurable per-branch follow-up | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
 | [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.3.md) | [sase-ud.3](sase-ud.3.md) | 1 |
-| [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 1 |
+| [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 2 |
 | [bbugyi200.athena.sase-ud.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.5/README.md) | [sase-ud.5](sase-ud.5.md) | 0 |
 | [bbugyi200.athena.sase-ud.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.6/README.md) | [sase-ud.6](sase-ud.6.md) | 0 |
 | [bbugyi200.athena.sase-ud.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.7/README.md) | [sase-ud.7](sase-ud.7.md) | 0 |
@@ -121,3 +121,4 @@ flowchart TD
 | sase | [`e16872c`](https://github.com/sase-org/sase/commit/e16872c9deaa9e48cf73e9d26196adf6bae621d8) | feat(shells): add shells substrate | [sase-ud.2](sase-ud.2.md) | 2026-08-26 15:53:46 EDT |
 | sase | [`1cb772d`](https://github.com/sase-org/sase/commit/1cb772d9c38e648f432460e0a097e78e4ef06df6) | feat(gate): add gate shell lifecycle | [sase-ud.3](sase-ud.3.md) | 2026-08-26 16:52:30 EDT |
 | sase | [`5a82847`](https://github.com/sase-org/sase/commit/5a8284733de96e1aa0665bdcc7d5ac5a82a3be0c) | feat: project gate shell read metadata | [sase-ud.4](sase-ud.4.md) | 2026-08-26 17:26:04 EDT |
+| sase-core | [`sase-core@1983158`](https://github.com/sase-org/sase-core/commit/1983158782d1ce0d1c8431cadc62493101fd4ddf) | feat: scan gate shell read metadata | [sase-ud.4](sase-ud.4.md) | 2026-08-26 17:27:00 EDT |
