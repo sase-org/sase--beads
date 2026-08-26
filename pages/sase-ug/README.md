@@ -23,6 +23,10 @@
 
 Every ACE tab shows the selected entity's typed artifact links in one place, in one line, in the same place; `$` plus one key follows any of them across tabs and panes; the surface is invisible when the selection has no links; and the read model it draws from stops silently losing whole relation classes.
 
+## Notes
+
+[2026-08-26T20:50:33Z · sase-ud.3] DISCOVERED ISSUE: During gate_shell.md implementation verification on 2026-08-26, just check passed formatting, ruff, mypy, feature-flag, pyscript, test-wait, changelog, terminology, symvision, and toobig lints, then failed only SASE validation at init memory --check. The stale generated files are artifact-relation-specific: sase/artifact_relations.json (-32), sase/memory/sase_artifacts.md (-2), and sase/memory/README.md (+4 -4). Repro: just check, or .venv/bin/sase validate. This appears causally related to this epic's artifact-link/relation read-model work rather than the gate-shell diff; memory files were not regenerated because agent instructions require explicit user approval before changing SASE memory.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -30,7 +34,7 @@ Every ACE tab shows the selected entity's typed artifact links in one place, in 
 | [sase-ug.1](sase-ug.1.md) | One projection for the machine-local read model | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.10](sase-ug.10.md) | Retire the duplicates and land the rail | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
+| [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ◐ in_progress | large | 2026-08-26 | 1 | 1 |
 | [sase-ug.4](sase-ug.4.md) | A way to read durable truth and see the drift | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ug.6](sase-ug.6.md) | The Link Rail, read-only | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
@@ -83,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ug.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.1/README.md) | [sase-ug.1](sase-ug.1.md) | 1 |
 | [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 0 |
 | [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 1 |
-| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 0 |
+| [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 1 |
 | [bbugyi200.athena.sase-ug.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.4/README.md) | [sase-ug.4](sase-ug.4.md) | 0 |
 | [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 0 |
 | [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 0 |
@@ -98,3 +102,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`452ac54`](https://github.com/sase-org/sase/commit/452ac54cf967dae7f8974eec522dd564007d6545) | fix(sdd): converge artifact-link aggregate projections on one read model | [sase-ug.1](sase-ug.1.md) | 2026-08-26 15:15:17 EDT |
 | sase | [`9a477bf`](https://github.com/sase-org/sase/commit/9a477bfd1cf8f3aa1fec9e1eae900c9f3cb3970a) | fix(artifact-links): require fresh deletion authority | [sase-ug.2](sase-ug.2.md) | 2026-08-26 15:40:59 EDT |
+| sase | [`4bce1a4`](https://github.com/sase-org/sase/commit/4bce1a4f68d985c623611416ea8187da7052609f) | feat(artifact-links): project recomputed edges into the read model (sase-ug.3) | [sase-ug.3](sase-ug.3.md) | 2026-08-26 18:45:13 EDT |
