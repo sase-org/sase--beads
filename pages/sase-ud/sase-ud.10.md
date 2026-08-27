@@ -21,4 +21,10 @@ questions-migration: make the question gate a gate shell behind the epic's beta 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.10/README.md) | [sase-ud.10](sase-ud.10.md) | 0 |
+| [bbugyi200.athena.sase-ud.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.10.md) | [sase-ud.10](sase-ud.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`05ce87f`](https://github.com/sase-org/sase/commit/05ce87fbf3d0942372ccc3b74cec299f8374af39) | feat(gate-shell): migrate /sase\_questions to a gate shell behind gate\_shell\_handoff | [sase-ud.10](sase-ud.10.md) | 2026-08-27 00:13:19 EDT |

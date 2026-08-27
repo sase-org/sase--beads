@@ -26,11 +26,10 @@ gate-fork-cli: classify a settled gate shell in resolve_family_member_shell with
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.8/README.md) | [sase-ud.8](sase-ud.8.md) | 2 |
+| [bbugyi200.athena.sase-ud.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.8/README.md) | [sase-ud.8](sase-ud.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d4c3bb4`](https://github.com/sase-org/sase/commit/d4c3bb4083fe11d0b74d3e9ab3fa7ebe0b19e6e1) | feat(gate-shell): add fork classification, CLI list/show/cancel, and shell conformance | [sase-ud.8](sase-ud.8.md) | 2026-08-26 22:43:35 EDT |
-| sase-telegram | [`sase-telegram@b37eb45`](https://github.com/sase-org/sase-telegram/commit/b37eb45a8c2cb5829f54c05812e896b24266e4c5) | fix(gates): settle gate shells answered from Telegram | [sase-ud.8](sase-ud.8.md) | 2026-08-26 22:45:59 EDT |
