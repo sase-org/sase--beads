@@ -20,4 +20,10 @@ planner-strip: decide whether a plan family still shows its planner's own work w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b69b07b`](https://github.com/sase-org/sase/commit/b69b07bc97a29720357db3d6105745e677e2e261) | refactor(tui): rework agent status family/render-cache modules and fix status-override tests | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 2026-08-27 14:33:10 EDT |
