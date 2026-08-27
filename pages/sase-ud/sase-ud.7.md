@@ -22,4 +22,4 @@ gate-followup: implement the branch-keyed next map with prompt, output, fork, mo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.7/README.md) | [sase-ud.7](sase-ud.7.md) | 0 |
+| [bbugyi200.athena.sase-ud.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.7.md) | [sase-ud.7](sase-ud.7.md) | 0 |

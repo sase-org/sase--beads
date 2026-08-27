@@ -20,7 +20,7 @@ gate-core-rs: add the flat gate fields to AgentMetaWire and DoneMarkerWire, add 
 ## Dependencies
 
 - **Depends on:** [sase-ud.3](sase-ud.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.6](sase-ud.6.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.6](sase-ud.6.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

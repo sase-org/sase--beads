@@ -24,7 +24,7 @@ gate-exec: bind the executor's three streaming callbacks to the gate shell's gat
 ## Dependencies
 
 - **Depends on:** [sase-ud.3](sase-ud.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.6](sase-ud.6.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.6](sase-ud.6.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.7](sase-ud.7.md) ◐ · ⧖ 2026-08-26
 
 ## Agents
