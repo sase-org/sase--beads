@@ -22,8 +22,8 @@ delta: replace the all-or-nothing watcher-path classification with partial appli
 - **Depends on:** [sase-uv.1](sase-uv.1.md) ✓ · ⧖ 2026-08-27
 - **Blocks:** [sase-uv.8](sase-uv.8.md) ◐ · ⧖ 2026-08-27
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-uv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.4/README.md) | [sase-uv.4](sase-uv.4.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`794fbd3`](https://github.com/sase-org/sase/commit/794fbd3db9f87417599200477ba3a5b149b4f807) | perf: Make the artifact delta the default refresh, not the 2% exception (sase-uv.4) | [sase-uv.4](sase-uv.4.md) | 2026-08-27 16:51:49 EDT |

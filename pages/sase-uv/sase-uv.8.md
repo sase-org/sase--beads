@@ -21,4 +21,10 @@ viewport: wire the bounded read window through DirectAgentsDataProvider so a ref
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.8/README.md) | [sase-uv.8](sase-uv.8.md) | 0 |
+| [bbugyi200.athena.sase-uv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.8.md) | [sase-uv.8](sase-uv.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a805b0d`](https://github.com/sase-org/sase/commit/a805b0da2f23de59d628c9c16ff4855fb68d8a02) | feat(agents): add bounded viewport loading | [sase-uv.8](sase-uv.8.md) | 2026-08-27 18:49:33 EDT |
