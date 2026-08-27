@@ -25,6 +25,8 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 [2026-08-27T17:14:34Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: Master Gate shard-2 temp-path leakage cluster - in run 33095454790 on 612cabf85, tests/test_bead/test_bead_page_associations.py::test_builds_associations_with_one_store_read_and_history_walk, tests/test_bead/test_bead_page_associations.py::test_source_failures_are_diagnostics_instead_of_exceptions, tests/test_bead/test_bead_page_associations.py::test_builds_associations_across_project_owned_repositories, tests/test_bead/test_task_beads.py::test_create_plan_prefers_frontmatter_proposer, tests/test_bead/test_task_beads.py::test_ready_stats_and_detail_handlers_render_task_semantics, and tests/ace/tui/widgets/test_agent_display_artifact_file_metadata.py::TestArtifactFileMetadata::test_committed_plan_reference_resolves_and_dedupes_against_artifacts failed with temp-path/cross-test leakage symptoms; all six passed locally together in 5.71s.
 
+[2026-08-27T18:53:05Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: tests/pager/test_rail_parity.py parametrized plan link_traversing_pager expected_target5 source/target cases - failed once during local just check full-suite escalation after core pin ratchet; both node ids passed directly and the whole file passed locally in 2.50s.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.5.1.1](sase-um.5.1.1.md) ✓ · ⧖ 2026-08-27
@@ -34,7 +36,7 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 3 |
+| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 4 |
 
 ## Commits
 
@@ -43,3 +45,4 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 | sase | [`95444f8`](https://github.com/sase-org/sase/commit/95444f8685283a0635310688a7fa0906d5f4b709) | test(suite-gate): clear parent shard for scaled children | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 11:03:54 EDT |
 | sase | [`612cabf`](https://github.com/sase-org/sase/commit/612cabf85a786d9bd2beedbb6556788f6869e70e) | fix(agent): carry process identity through scan liveness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 12:52:13 EDT |
 | sase | [`8690fe2`](https://github.com/sase-org/sase/commit/8690fe23a096538bd8c40115028b70a038d95771) | test(sdd): restore checkout marker facade after project-key tests | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 13:38:31 EDT |
+| sase | [`5f06c64`](https://github.com/sase-org/sase/commit/5f06c647359cd3362f913d1e9fac3164ad99fc58) | chore(core): ratchet pinned core to v0.32.10 | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 15:27:30 EDT |
