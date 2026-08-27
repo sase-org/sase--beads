@@ -20,4 +20,10 @@ land: move link relations out of the pane relation panel, delete the two bespoke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 0 |
+| [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a7b7028`](https://github.com/sase-org/sase/commit/a7b702863fe57552d09ae9cae31f0cbe894959ea) | feat(tui): move links to app-level rail, drop link\_rail flag and L bindings | [sase-ug.10](sase-ug.10.md) | 2026-08-27 01:50:31 EDT |

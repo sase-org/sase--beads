@@ -32,7 +32,7 @@ Every ACE tab shows the selected entity's typed artifact links in one place, in 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-ug.1](sase-ug.1.md) | One projection for the machine-local read model | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-ug.10](sase-ug.10.md) | Retire the duplicates and land the rail | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.10](sase-ug.10.md) | Retire the duplicates and land the rail | ◐ in_progress | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ✓ closed | large | 2026-08-26 | 1 | 2 |
 | [sase-ug.4](sase-ug.4.md) | A way to read durable truth and see the drift | ✓ closed | medium | 2026-08-26 | 1 | 1 |
@@ -85,7 +85,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ug.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.1/README.md) | [sase-ug.1](sase-ug.1.md) | 1 |
-| [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 0 |
+| [bbugyi200.athena.sase-ug.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.10/README.md) | [sase-ug.10](sase-ug.10.md) | 1 |
 | [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 1 |
 | [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 2 |
 | [bbugyi200.athena.sase-ug.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.4/README.md) | [sase-ug.4](sase-ug.4.md) | 1 |
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`d070280`](https://github.com/sase-org/sase/commit/d07028050cb831849d1e666ab267a39223779f9b) | feat(tui): add link-follow key grammar | [sase-ug.7](sase-ug.7.md) | 2026-08-26 23:45:35 EDT |
 | sase | [`e8f30d2`](https://github.com/sase-org/sase/commit/e8f30d25fba529b2cf16d755fd632915a8f53efe) | feat(ace): add artifact links panel | [sase-ug.9](sase-ug.9.md) | 2026-08-27 00:44:25 EDT |
 | sase | [`d8e8b5a`](https://github.com/sase-org/sase/commit/d8e8b5ab8ed264a983fd892b29d8e6f752428a93) | feat(tui): add app-level link trail for Ctrl+O/Ctrl+Shift+O across tabs | [sase-ug.8](sase-ug.8.md) | 2026-08-27 01:04:08 EDT |
+| sase | [`a7b7028`](https://github.com/sase-org/sase/commit/a7b702863fe57552d09ae9cae31f0cbe894959ea) | feat(tui): move links to app-level rail, drop link\_rail flag and L bindings | [sase-ug.10](sase-ug.10.md) | 2026-08-27 01:50:31 EDT |
