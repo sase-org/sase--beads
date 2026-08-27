@@ -54,10 +54,10 @@ flowchart TD
     n5["sase-ud.13: Collapse the status machinery and remove the flag [in_progress]"]
     n6["sase-ud.13.1: Collapse the gate-shell status machinery and remove the beta flag [in_progress]"]
     n7["sase-ud.13.1.1: Pin the plan and epic gate accents [closed]"]
-    n8["sase-ud.13.1.2: Remove the gate_shell_handoff flag and the blocking Off branch [in_progress]"]
+    n8["sase-ud.13.1.2: Remove the gate_shell_handoff flag and the blocking Off branch [closed]"]
     n9["sase-ud.13.1.3: Retire the notification and family status overrides [in_progress]"]
     n10["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
-    n11["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [in_progress]"]
+    n11["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
     n12["sase-ud.14: Memory, decision record, and skills [in_progress]"]
     n13["sase-ud.2: The sase.shells family-shell substrate [closed]"]
     n14["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
@@ -121,7 +121,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.13.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.2.md) | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3/README.md) | [sase-ud.13.1.3](sase-ud.13.1.3.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.4/README.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 0 |
-| [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
 | [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
 | [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 1 |
@@ -153,3 +153,4 @@ flowchart TD
 | sase | [`32da1f3`](https://github.com/sase-org/sase/commit/32da1f3d2d76878f61dec184514b7e8620e0b461) | feat(plan): add shell-backed approval handoff | [sase-ud.11](sase-ud.11.md) | 2026-08-27 01:34:36 EDT |
 | sase | [`777e51e`](https://github.com/sase-org/sase/commit/777e51e734a6770e232e039ecfa159a199247295) | feat(agents): retire q asker suffix | [sase-ud.12](sase-ud.12.md) | 2026-08-27 08:31:56 EDT |
 | sase | [`c133ff7`](https://github.com/sase-org/sase/commit/c133ff76868f706033770ba7488cfbac869b60b0) | fix(plan-shell): pin gate accents to ladder | [sase-ud.13.1.1](sase-ud.13.1.1.md) | 2026-08-27 09:08:36 EDT |
+| sase | [`588a1cf`](https://github.com/sase-org/sase/commit/588a1cfaeb86331ce59ec5e649a77682674f2015) | feat(agent-scan): fold monitor\_\*/gate\_\* wire fields into nested family\_shell at schema v7 | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2026-08-27 11:06:51 EDT |
