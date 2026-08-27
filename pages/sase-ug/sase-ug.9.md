@@ -14,7 +14,7 @@ panel: build the overflow inspector that owns the long tail, the full `why`, pro
 ## Dependencies
 
 - **Blocks:** [sase-ug.10](sase-ug.10.md) ◐ · ⧖ 2026-08-26
-- **Depends on:** [sase-ug.7](sase-ug.7.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ug.7](sase-ug.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

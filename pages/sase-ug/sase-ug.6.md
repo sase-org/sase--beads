@@ -18,16 +18,17 @@ rail: mount the one-line, app-owned rail above the footer on every tab, with the
 ## Dependencies
 
 - **Depends on:** [sase-ug.5](sase-ug.5.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ug.7](sase-ug.7.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ug.7](sase-ug.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 1 |
+| [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`48e019a`](https://github.com/sase-org/sase/commit/48e019af82f279fc51d53d0e1f1ec51123bebd80) | feat(ace): add read-only link rail | [sase-ug.6](sase-ug.6.md) | 2026-08-26 22:22:44 EDT |
+| sase--agents | [`sase--agents@b438c6d`](https://github.com/sase-org/sase--agents/commit/b438c6dea33ab4a04d4800ef29acf6b501c24333) | chore(agents): archive link rail prompt | [sase-ug.6](sase-ug.6.md) | 2026-08-26 22:25:24 EDT |
