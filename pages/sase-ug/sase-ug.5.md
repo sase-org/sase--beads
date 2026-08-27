@@ -13,7 +13,7 @@ subject: resolve the selected entity to a canonical ref on all three tabs and bu
 
 ## Dependencies
 
-- **Depends on:** [sase-ug.4](sase-ug.4.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ug.4](sase-ug.4.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ug.6](sase-ug.6.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

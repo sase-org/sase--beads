@@ -37,7 +37,7 @@ Plan (sase-ug.3) is implementation-complete, tested, and verified.
 ## Dependencies
 
 - **Depends on:** [sase-ug.1](sase-ug.1.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ug.4](sase-ug.4.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ug.4](sase-ug.4.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

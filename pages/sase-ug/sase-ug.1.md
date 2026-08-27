@@ -25,7 +25,7 @@ Verified: full tests/sdd, tests/doctor, tests/main/test_artifact_cli_link_health
 
 - **Blocks:** [sase-ug.2](sase-ug.2.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ug.3](sase-ug.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ug.4](sase-ug.4.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ug.4](sase-ug.4.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
