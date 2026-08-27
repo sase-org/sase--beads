@@ -20,4 +20,10 @@ subject: resolve the selected entity to a canonical ref on all three tabs and bu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 0 |
+| [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`38c1588`](https://github.com/sase-org/sase/commit/38c15881ed3047ff976883b56f7e3e17c10f0af5) | feat(artifact-links): add link subject resolution and follow-link action wiring | [sase-ug.5](sase-ug.5.md) | 2026-08-26 21:26:56 EDT |

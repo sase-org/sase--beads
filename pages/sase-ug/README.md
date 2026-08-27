@@ -36,7 +36,7 @@ Every ACE tab shows the selected entity's typed artifact links in one place, in 
 | [sase-ug.2](sase-ug.2.md) | A stale clone may not prove deletion | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.3](sase-ug.3.md) | Projected edges from facts SASE already owns | ✓ closed | large | 2026-08-26 | 1 | 2 |
 | [sase-ug.4](sase-ug.4.md) | A way to read durable truth and see the drift | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ◐ in_progress | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.6](sase-ug.6.md) | The Link Rail, read-only | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-ug.7](sase-ug.7.md) | The \`$\` grammar and a jump that always lands | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ug.8](sase-ug.8.md) | Walking back across surfaces | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ug.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.2/README.md) | [sase-ug.2](sase-ug.2.md) | 1 |
 | [bbugyi200.athena.sase-ug.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.3.md) | [sase-ug.3](sase-ug.3.md) | 2 |
 | [bbugyi200.athena.sase-ug.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.4/README.md) | [sase-ug.4](sase-ug.4.md) | 1 |
-| [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 0 |
+| [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 1 |
 | [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 0 |
 | [bbugyi200.athena.sase-ug.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.7/README.md) | [sase-ug.7](sase-ug.7.md) | 0 |
 | [bbugyi200.athena.sase-ug.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.8/README.md) | [sase-ug.8](sase-ug.8.md) | 0 |
@@ -105,3 +105,4 @@ flowchart TD
 | sase | [`4bce1a4`](https://github.com/sase-org/sase/commit/4bce1a4f68d985c623611416ea8187da7052609f) | feat(artifact-links): project recomputed edges into the read model (sase-ug.3) | [sase-ug.3](sase-ug.3.md) | 2026-08-26 18:45:13 EDT |
 | sase-core | [`sase-core@917951d`](https://github.com/sase-org/sase-core/commit/917951d207b47099162423247c1811bcdf6aa31a) | feat(artifact-links): add projection relation builtins | [sase-ug.3](sase-ug.3.md) | 2026-08-26 18:49:40 EDT |
 | sase | [`58e5a83`](https://github.com/sase-org/sase/commit/58e5a8310e26bd823209156c8890ee4fcb2ddfef) | feat(artifact-links): add durable truth drift reporting | [sase-ug.4](sase-ug.4.md) | 2026-08-26 20:32:42 EDT |
+| sase | [`38c1588`](https://github.com/sase-org/sase/commit/38c15881ed3047ff976883b56f7e3e17c10f0af5) | feat(artifact-links): add link subject resolution and follow-link action wiring | [sase-ug.5](sase-ug.5.md) | 2026-08-26 21:26:56 EDT |
