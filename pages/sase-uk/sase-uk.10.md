@@ -13,7 +13,7 @@ land: delete `_print_or_page`, `_view_files_with_pager`, and the `less` back end
 
 ## Dependencies
 
-- **Depends on:** [sase-uk.9](sase-uk.9.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-uk.9](sase-uk.9.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
