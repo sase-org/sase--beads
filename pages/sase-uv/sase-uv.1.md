@@ -47,8 +47,8 @@ Filed one PROPOSED FOLLOW-UP note above for an unrelated hang discovered while r
 
 ## Dependencies
 
-- **Blocks:** [sase-uv.4](sase-uv.4.md) ◐ · ⧖ 2026-08-27
-- **Blocks:** [sase-uv.5](sase-uv.5.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.4](sase-uv.4.md) ✓ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.5](sase-uv.5.md) ✓ · ⧖ 2026-08-27
 - **Blocks:** [sase-uv.6](sase-uv.6.md) ✓ · ⧖ 2026-08-27
 
 ## Agents

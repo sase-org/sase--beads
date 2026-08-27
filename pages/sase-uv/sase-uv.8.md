@@ -13,8 +13,8 @@ viewport: wire the bounded read window through DirectAgentsDataProvider so a ref
 
 ## Dependencies
 
-- **Depends on:** [sase-uv.4](sase-uv.4.md) ◐ · ⧖ 2026-08-27
-- **Depends on:** [sase-uv.5](sase-uv.5.md) ◐ · ⧖ 2026-08-27
+- **Depends on:** [sase-uv.4](sase-uv.4.md) ✓ · ⧖ 2026-08-27
+- **Depends on:** [sase-uv.5](sase-uv.5.md) ✓ · ⧖ 2026-08-27
 - **Depends on:** [sase-uv.7](sase-uv.7.md) ◐ · ⧖ 2026-08-27
 
 ## Agents
