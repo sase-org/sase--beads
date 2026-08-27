@@ -33,7 +33,7 @@ sase-org/sase ships releases again without slowing agent velocity: every master 
 | [sase-um.4](sase-um.4.md) | Throttle release-please to a schedule | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-um.5](sase-um.5.md) | Drive the master gate green | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-um.6](sase-um.6.md) | Pin the Rust core revision CI builds | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
-| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
+| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ✓ closed | small | 2026-08-26 | 1 | 1 |
 | [sase-um.8](sase-um.8.md) | Measure the acceptance criteria and ship v0.17.0 | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n8["sase-um.5.1.2: Realign the ACE visual lane with the shipped Artifacts and Link Rail UI [in_progress]"]
     n9["sase-um.5.1.3: Land, sample the gate on the tip, and record the flakes [in_progress]"]
     n10["sase-um.6: Pin the Rust core revision CI builds [in_progress]"]
-    n11["sase-um.7: Chop configuration rollout [in_progress]"]
+    n11["sase-um.7: Chop configuration rollout [closed]"]
     n12["sase-um.8: Measure the acceptance criteria and ship v0.17.0 [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.land/README.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.6/README.md) | [sase-um.6](sase-um.6.md) | 0 |
-| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
+| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 1 |
 | [bbugyi200.athena.sase-um.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.8/README.md) | [sase-um.8](sase-um.8.md) | 0 |
 | [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.land/README.md) | [sase-um](README.md) | 0 |
 
@@ -105,3 +105,4 @@ flowchart TD
 | sase | [`bee0592`](https://github.com/sase-org/sase/commit/bee05929dd7104804fd9d13252da1789fcd6e2bb) | ci(release): throttle release-please workflow | [sase-um.4](sase-um.4.md) | 2026-08-26 19:49:15 EDT |
 | sase | [`5d8872f`](https://github.com/sase-org/sase/commit/5d8872f4d2ed263d38a41bcedea44fd15e7ba206) | feat(ci): add fast per-SHA master gate with sharded test matrix | [sase-um.1](sase-um.1.md) | 2026-08-27 07:51:23 EDT |
 | sase | [`840dd3e`](https://github.com/sase-org/sase/commit/840dd3eb4af4c5c93f4806ef00b31fad3ce02758) | ci: move exhaustive workflow to scheduled full lane | [sase-um.3](sase-um.3.md) | 2026-08-27 08:29:47 EDT |
+| chezmoi | [`chezmoi@ae29a7c`](https://github.com/bbugyi200/dotfiles/commit/ae29a7c7dc1373b4716323451a80905ec6927cc0) | feat(ci): roll out ci\_watch release gate config | [sase-um.7](sase-um.7.md) | 2026-08-27 08:39:20 EDT |

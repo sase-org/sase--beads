@@ -16,7 +16,7 @@ verify: measure every acceptance criterion against live run data, confirm the re
 - **Depends on:** [sase-um.4](sase-um.4.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.5](sase-um.5.md) ◐ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.6](sase-um.6.md) ◐ · ⧖ 2026-08-26
-- **Depends on:** [sase-um.7](sase-um.7.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-um.7](sase-um.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

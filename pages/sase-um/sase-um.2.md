@@ -17,7 +17,7 @@ chop: teach ci_watch a gating_workflows allowlist evaluated against HEAD-scoped 
 
 ## Dependencies
 
-- **Blocks:** [sase-um.7](sase-um.7.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.7](sase-um.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
