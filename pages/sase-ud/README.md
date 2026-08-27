@@ -58,7 +58,7 @@ flowchart TD
     n9["sase-ud.13.1.3: Retire the notification and family status overrides [in_progress]"]
     n10["sase-ud.13.1.3.1: Retire the notification and family status overrides [in_progress]"]
     n11["sase-ud.13.1.3.1.1: Pin the post-gate-shell family projection contract [closed]"]
-    n12["sase-ud.13.1.3.1.2: Retire the notification-driven status writes [in_progress]"]
+    n12["sase-ud.13.1.3.1.2: Retire the notification-driven status writes [closed]"]
     n13["sase-ud.13.1.3.1.3: Retire the synthetic planner children [in_progress]"]
     n14["sase-ud.13.1.3.1.4: Retire the timestamp-reconstruction status passes [in_progress]"]
     n15["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.13.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.2.md) | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.md) | [sase-ud.13.1.3](sase-ud.13.1.3.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.1.md) | [sase-ud.13.1.3.1.1](sase-ud.13.1.3.1.1.md) | 1 |
-| [bbugyi200.athena.sase-ud.13.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.2/README.md) | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.2/README.md) | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.4/README.md) | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.land/README.md) | [sase-ud.13.1.3.1](sase-ud.13.1.3.1.md) | 0 |
@@ -175,3 +175,4 @@ flowchart TD
 | sase-core | [`sase-core@f0224ef`](https://github.com/sase-org/sase-core/commit/f0224efa66a0f31f1d4b96b7e4bcd04f2902c80b) | feat(agent-scan): fold monitor\_\*/gate\_\* wire fields into nested family\_shell at schema v7 | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2026-08-27 11:07:52 EDT |
 | sase | [`a646bda`](https://github.com/sase-org/sase/commit/a646bdaf6b75838326f8c9d16f42fb935393e5c1) | refactor(plan-gate): remove the gate\_shell\_handoff flag and blocking Off branch | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 2026-08-27 11:14:29 EDT |
 | sase | [`2f8bc9a`](https://github.com/sase-org/sase/commit/2f8bc9abb4e90d23f5e1dd1c171da61d5639b1b8) | test(status-strip): pin gate-shell family projection contract for \_apply\_status\_overrides | [sase-ud.13.1.3.1.1](sase-ud.13.1.3.1.1.md) | 2026-08-27 12:27:38 EDT |
+| sase | [`a771258`](https://github.com/sase-org/sase/commit/a771258edf6e815bb05995918c070b6f3da19c55) | refactor(tui): retire notification status overrides | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 2026-08-27 13:32:21 EDT |

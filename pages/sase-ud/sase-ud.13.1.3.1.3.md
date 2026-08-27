@@ -13,7 +13,7 @@ planner-strip: decide whether a plan family still shows its planner's own work w
 
 ## Dependencies
 
-- **Depends on:** [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) ◐ · ⧖ 2026-08-27
+- **Depends on:** [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) ✓ · ⧖ 2026-08-27
 - **Blocks:** [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) ◐ · ⧖ 2026-08-27
 
 ## Agents

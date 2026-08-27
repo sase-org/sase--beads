@@ -19,7 +19,7 @@ gate-contract: add guard tests that a family whose newest member is a plan or qu
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
