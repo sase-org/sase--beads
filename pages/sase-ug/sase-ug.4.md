@@ -19,7 +19,7 @@ truthread: give the CLI and doctor a durable-truth read path and a row-level dri
 
 - **Depends on:** [sase-ug.1](sase-ug.1.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ug.3](sase-ug.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ug.5](sase-ug.5.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ug.5](sase-ug.5.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
