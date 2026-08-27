@@ -13,7 +13,7 @@ cli: add the `sase pager` top-level command over refs, paths, and stdin; route `
 
 ## Dependencies
 
-- **Depends on:** [sase-uk.6](sase-uk.6.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-uk.6](sase-uk.6.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-uk.9](sase-uk.9.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

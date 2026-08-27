@@ -32,8 +32,8 @@ SASE has one reading surface. `sase bead show`, the Agents-tab `v` keymap, `sase
 | [sase-uk.2](sase-uk.2.md) | A document of sections, not a string | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.3](sase-uk.3.md) | The reading surface | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.4](sase-uk.4.md) | Keys painted ahead of time | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-uk.5](sase-uk.5.md) | A press that always lands | ◐ in_progress | medium | 2026-08-26 | 1 | 1 |
-| [sase-uk.6](sase-uk.6.md) | Breadcrumbs you can see and walk back | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-uk.5](sase-uk.5.md) | A press that always lands | ✓ closed | medium | 2026-08-26 | 1 | 1 |
+| [sase-uk.6](sase-uk.6.md) | Breadcrumbs you can see and walk back | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.7](sase-uk.7.md) | The \`sase pager\` command | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-uk.8](sase-uk.8.md) | \`v\` opens the pager | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
 | [sase-uk.9](sase-uk.9.md) | One ref, one destination, one glyph | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
@@ -48,8 +48,8 @@ flowchart TD
     n3["sase-uk.2: A document of sections, not a string [closed]"]
     n4["sase-uk.3: The reading surface [closed]"]
     n5["sase-uk.4: Keys painted ahead of time [closed]"]
-    n6["sase-uk.5: A press that always lands [in_progress]"]
-    n7["sase-uk.6: Breadcrumbs you can see and walk back [in_progress]"]
+    n6["sase-uk.5: A press that always lands [closed]"]
+    n7["sase-uk.6: Breadcrumbs you can see and walk back [closed]"]
     n8["sase-uk.7: The `sase pager` command [in_progress]"]
     n9["sase-uk.8: `v` opens the pager [in_progress]"]
     n10["sase-uk.9: One ref, one destination, one glyph [in_progress]"]
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-uk.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uk.3.md) | [sase-uk.3](sase-uk.3.md) | 1 |
 | [bbugyi200.athena.sase-uk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.4/README.md) | [sase-uk.4](sase-uk.4.md) | 1 |
 | [bbugyi200.athena.sase-uk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.5/README.md) | [sase-uk.5](sase-uk.5.md) | 1 |
-| [bbugyi200.athena.sase-uk.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.6/README.md) | [sase-uk.6](sase-uk.6.md) | 0 |
+| [bbugyi200.athena.sase-uk.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.6/README.md) | [sase-uk.6](sase-uk.6.md) | 1 |
 | [bbugyi200.athena.sase-uk.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.7/README.md) | [sase-uk.7](sase-uk.7.md) | 0 |
 | [bbugyi200.athena.sase-uk.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.8/README.md) | [sase-uk.8](sase-uk.8.md) | 0 |
 | [bbugyi200.athena.sase-uk.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.9/README.md) | [sase-uk.9](sase-uk.9.md) | 0 |
@@ -100,3 +100,4 @@ flowchart TD
 | sase | [`54f0c2a`](https://github.com/sase-org/sase/commit/54f0c2aaa5ebde3bdd2117b82af2a4442c53cf9e) | feat(pager): add SasePager reading surface | [sase-uk.3](sase-uk.3.md) | 2026-08-26 19:51:44 EDT |
 | sase | [`338ecef`](https://github.com/sase-org/sase/commit/338ecef9cbddee88b74818c28d676de9066a38eb) | feat(pager): paint link labels | [sase-uk.4](sase-uk.4.md) | 2026-08-26 20:24:05 EDT |
 | sase | [`699037f`](https://github.com/sase-org/sase/commit/699037f215b69128b8e49a5ccd7a2c588b002c27) | feat(pager): add link resolution and follow/copy/edit actions | [sase-uk.5](sase-uk.5.md) | 2026-08-26 21:19:08 EDT |
+| sase | [`a6aab3b`](https://github.com/sase-org/sase/commit/a6aab3b799a3f64d63135d1645908463f52b1e96) | feat(pager): add breadcrumb trail navigation | [sase-uk.6](sase-uk.6.md) | 2026-08-26 21:53:01 EDT |
