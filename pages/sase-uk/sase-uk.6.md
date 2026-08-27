@@ -19,7 +19,7 @@ trail: add the bounded pager-owned trail whose entries restore the view rather t
 
 - **Depends on:** [sase-uk.5](sase-uk.5.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-uk.7](sase-uk.7.md) ◐ · ⧖ 2026-08-26
-- **Blocks:** [sase-uk.8](sase-uk.8.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.8](sase-uk.8.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
