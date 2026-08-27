@@ -20,4 +20,4 @@ projection: add a list-shaped record projection in sase-core that omits the four
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.7/README.md) | [sase-uv.7](sase-uv.7.md) | 0 |
+| [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.7.md) | [sase-uv.7](sase-uv.7.md) | 0 |

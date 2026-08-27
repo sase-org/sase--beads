@@ -20,4 +20,10 @@ stepmeta: eliminate the 1,532 per-load enrich_agent_from_meta filesystem calls t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.5/README.md) | [sase-uv.5](sase-uv.5.md) | 0 |
+| [bbugyi200.athena.sase-uv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.5/README.md) | [sase-uv.5](sase-uv.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6687426`](https://github.com/sase-org/sase/commit/6687426783e2db699ba3fd2ffc8882cc8f435e8f) | perf(ace-tui): reuse parent record markers for workflow step enrichment | [sase-uv.5](sase-uv.5.md) | 2026-08-27 14:49:35 EDT |

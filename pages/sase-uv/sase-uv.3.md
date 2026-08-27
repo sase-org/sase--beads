@@ -23,4 +23,10 @@ railcalls: cache the resolved LinkSubject per selection and coalesce the three c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.3/README.md) | [sase-uv.3](sase-uv.3.md) | 0 |
+| [bbugyi200.athena.sase-uv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.3/README.md) | [sase-uv.3](sase-uv.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1e8cd69`](https://github.com/sase-org/sase/commit/1e8cd69ef4f639973c61e9dff8fb7fdeef3c7382) | perf(ace): cache link subjects per selection | [sase-uv.3](sase-uv.3.md) | 2026-08-27 14:25:27 EDT |
