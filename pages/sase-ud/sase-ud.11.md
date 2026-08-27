@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-ud](README.md) / sase-ud.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0eg](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0eg.md) · **Assignee:** `sase-ud.11` · **Size:** large
-**Created:** 2026-08-26 14:02:58 EDT
+**Created:** 2026-08-26 14:02:58 EDT · **Closed:** 2026-08-27 01:35:24 EDT
 **Plan:** [202608/gate\_shells.md](https://github.com/sase-org/sase--plans/blob/main/202608/gate_shells.md)
 
 ## Description
 
 plan-migration: make the tale and epic plan gates gate shells behind the same flag, launch the coder from the approve branch with the launch it uses today, persist feedback rounds on gate shells, and delete handle_plan_approval's wait loop.
 
+## Notes
+
+[2026-08-27T05:35:24Z · sase-ud.11] Auto-closed by `sase stitch create` after create_commit landed 32da1f3d2 ("feat(plan): add shell-backed approval handoff"). No verification is implied by this note. Reopen with `sase bead open sase-ud.11`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-ud.10](sase-ud.10.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.12](sase-ud.12.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.12](sase-ud.12.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

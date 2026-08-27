@@ -13,7 +13,7 @@ status-collapse: fold the flat monitor_* and gate_* wire blocks into one nested 
 
 ## Dependencies
 
-- **Depends on:** [sase-ud.12](sase-ud.12.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ud.12](sase-ud.12.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.14](sase-ud.14.md) ◐ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.6](sase-ud.6.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.9](sase-ud.9.md) ✓ · ⧖ 2026-08-26

@@ -29,8 +29,8 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 |---|---|---|---|---|---:|---:|
 | [sase-ud.1](sase-ud.1.md) | Bounded gate response lock | ✓ closed | small | 2026-08-26 | 1 | 1 |
 | [sase-ud.10](sase-ud.10.md) | Migrate /sase\_questions | ✓ closed | large | 2026-08-26 | 1 | 1 |
-| [sase-ud.11](sase-ud.11.md) | Migrate /sase\_plan | ◐ in_progress | large | 2026-08-26 | 1 | 1 |
-| [sase-ud.12](sase-ud.12.md) | Retire the --q asker suffix | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
+| [sase-ud.11](sase-ud.11.md) | Migrate /sase\_plan | ✓ closed | large | 2026-08-26 | 1 | 1 |
+| [sase-ud.12](sase-ud.12.md) | Retire the --q asker suffix | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.13](sase-ud.13.md) | Collapse the status machinery and remove the flag | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
 | [sase-ud.14](sase-ud.14.md) | Memory, decision record, and skills | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
 | [sase-ud.2](sase-ud.2.md) | The sase.shells family-shell substrate | ✓ closed | large | 2026-08-26 | 1 | 1 |
@@ -49,8 +49,8 @@ flowchart TD
     n0["sase-ud: Gate shells — a decision that outlives the agent that asked [in_progress]"]
     n1["sase-ud.1: Bounded gate response lock [closed]"]
     n2["sase-ud.10: Migrate /sase_questions [closed]"]
-    n3["sase-ud.11: Migrate /sase_plan [in_progress]"]
-    n4["sase-ud.12: Retire the --q asker suffix [in_progress]"]
+    n3["sase-ud.11: Migrate /sase_plan [closed]"]
+    n4["sase-ud.12: Retire the --q asker suffix [closed]"]
     n5["sase-ud.13: Collapse the status machinery and remove the flag [in_progress]"]
     n6["sase-ud.14: Memory, decision record, and skills [in_progress]"]
     n7["sase-ud.2: The sase.shells family-shell substrate [closed]"]
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.1/README.md) | [sase-ud.1](sase-ud.1.md) | 1 |
 | [bbugyi200.athena.sase-ud.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.10.md) | [sase-ud.10](sase-ud.10.md) | 1 |
 | [bbugyi200.athena.sase-ud.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.11.md) | [sase-ud.11](sase-ud.11.md) | 1 |
-| [bbugyi200.athena.sase-ud.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.12/README.md) | [sase-ud.12](sase-ud.12.md) | 0 |
+| [bbugyi200.athena.sase-ud.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.12.md) | [sase-ud.12](sase-ud.12.md) | 1 |
 | [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13/README.md) | [sase-ud.13](sase-ud.13.md) | 0 |
 | [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
 | [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 1 |
@@ -130,3 +130,4 @@ flowchart TD
 | sase | [`d4c3bb4`](https://github.com/sase-org/sase/commit/d4c3bb4083fe11d0b74d3e9ab3fa7ebe0b19e6e1) | feat(gate-shell): add fork classification, CLI list/show/cancel, and shell conformance | [sase-ud.8](sase-ud.8.md) | 2026-08-26 22:43:35 EDT |
 | sase | [`05ce87f`](https://github.com/sase-org/sase/commit/05ce87fbf3d0942372ccc3b74cec299f8374af39) | feat(gate-shell): migrate /sase\_questions to a gate shell behind gate\_shell\_handoff | [sase-ud.10](sase-ud.10.md) | 2026-08-27 00:13:19 EDT |
 | sase | [`32da1f3`](https://github.com/sase-org/sase/commit/32da1f3d2d76878f61dec184514b7e8620e0b461) | feat(plan): add shell-backed approval handoff | [sase-ud.11](sase-ud.11.md) | 2026-08-27 01:34:36 EDT |
+| sase | [`777e51e`](https://github.com/sase-org/sase/commit/777e51e734a6770e232e039ecfa159a199247295) | feat(agents): retire q asker suffix | [sase-ud.12](sase-ud.12.md) | 2026-08-27 08:31:56 EDT |
