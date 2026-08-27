@@ -35,7 +35,7 @@ Pressing a key in `sase ace` never blocks on provider discovery, git subprocesse
 | [sase-uv.6](sase-uv.6.md) | Drop the double tree build in the artifact-index PyO3 binding | ◐ in_progress | medium | 2026-08-27 | 1 | 0 |
 | [sase-uv.7](sase-uv.7.md) | Project the heavy record\_json leaves off the list-render path | ◐ in_progress | large | 2026-08-27 | 1 | 0 |
 | [sase-uv.8](sase-uv.8.md) | Honour the AgentsViewport contract instead of discarding it | ◐ in_progress | large | 2026-08-27 | 1 | 0 |
-| [sase-uv.9](sase-uv.9.md) | Index retention tooling and self-inflicted stall fixes | ✓ closed | medium | 2026-08-27 | 1 | 1 |
+| [sase-uv.9](sase-uv.9.md) | Index retention tooling and self-inflicted stall fixes | ✓ closed | medium | 2026-08-27 | 1 | 2 |
 
 ## Lineage
 
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-uv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.6/README.md) | [sase-uv.6](sase-uv.6.md) | 0 |
 | [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.7/README.md) | [sase-uv.7](sase-uv.7.md) | 0 |
 | [bbugyi200.athena.sase-uv.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.8/README.md) | [sase-uv.8](sase-uv.8.md) | 0 |
-| [bbugyi200.athena.sase-uv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.9/README.md) | [sase-uv.9](sase-uv.9.md) | 1 |
+| [bbugyi200.athena.sase-uv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.9/README.md) | [sase-uv.9](sase-uv.9.md) | 2 |
 | [bbugyi200.athena.sase-uv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.land/README.md) | [sase-uv](README.md) | 0 |
 
 ## Commits
@@ -91,3 +91,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`795afdc`](https://github.com/sase-org/sase/commit/795afdc5faee02e63f5753f3ca7e822797b29538) | fix(ace): keep artifact discovery off key path | [sase-uv.2](sase-uv.2.md) | 2026-08-27 14:03:06 EDT |
 | sase | [`c862ddd`](https://github.com/sase-org/sase/commit/c862dddcba39165fe5b21a94e22a5bdf0c3a1bde) | fix(tui): write pump-stall records off the event loop and add index vacuum tooling | [sase-uv.9](sase-uv.9.md) | 2026-08-27 14:14:13 EDT |
+| sase-core | [`sase-core@b786e90`](https://github.com/sase-org/sase-core/commit/b786e90b5655c10a4cc7212b24a765a2505d6190) | feat(agent-scan): add read-only index opens and a VACUUM binding | [sase-uv.9](sase-uv.9.md) | 2026-08-27 14:15:02 EDT |
