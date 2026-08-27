@@ -13,7 +13,7 @@ land: move link relations out of the pane relation panel, delete the two bespoke
 
 ## Dependencies
 
-- **Depends on:** [sase-ug.8](sase-ug.8.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ug.8](sase-ug.8.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ug.9](sase-ug.9.md) ✓ · ⧖ 2026-08-26
 
 ## Agents

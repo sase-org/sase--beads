@@ -39,7 +39,7 @@ Every ACE tab shows the selected entity's typed artifact links in one place, in 
 | [sase-ug.5](sase-ug.5.md) | One selected-entity ref and one O(1) link index | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.6](sase-ug.6.md) | The Link Rail, read-only | ✓ closed | medium | 2026-08-26 | 1 | 2 |
 | [sase-ug.7](sase-ug.7.md) | The \`$\` grammar and a jump that always lands | ✓ closed | large | 2026-08-26 | 1 | 1 |
-| [sase-ug.8](sase-ug.8.md) | Walking back across surfaces | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-ug.8](sase-ug.8.md) | Walking back across surfaces | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ug.9](sase-ug.9.md) | The \`$0\` Links panel | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 
 ## Lineage
@@ -55,7 +55,7 @@ flowchart TD
     n6["sase-ug.5: One selected-entity ref and one O(1) link index [closed]"]
     n7["sase-ug.6: The Link Rail, read-only [closed]"]
     n8["sase-ug.7: The `$` grammar and a jump that always lands [closed]"]
-    n9["sase-ug.8: Walking back across surfaces [in_progress]"]
+    n9["sase-ug.8: Walking back across surfaces [closed]"]
     n10["sase-ug.9: The `$0` Links panel [closed]"]
     n0 --> n1
     n0 --> n2
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ug.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.5/README.md) | [sase-ug.5](sase-ug.5.md) | 1 |
 | [bbugyi200.athena.sase-ug.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.6/README.md) | [sase-ug.6](sase-ug.6.md) | 2 |
 | [bbugyi200.athena.sase-ug.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.7.md) | [sase-ug.7](sase-ug.7.md) | 1 |
-| [bbugyi200.athena.sase-ug.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.8/README.md) | [sase-ug.8](sase-ug.8.md) | 0 |
+| [bbugyi200.athena.sase-ug.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ug.8.md) | [sase-ug.8](sase-ug.8.md) | 1 |
 | [bbugyi200.athena.sase-ug.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.9/README.md) | [sase-ug.9](sase-ug.9.md) | 1 |
 | [bbugyi200.athena.sase-ug.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ug.land/README.md) | [sase-ug](README.md) | 0 |
 
@@ -110,3 +110,4 @@ flowchart TD
 | sase--agents | [`sase--agents@b438c6d`](https://github.com/sase-org/sase--agents/commit/b438c6dea33ab4a04d4800ef29acf6b501c24333) | chore(agents): archive link rail prompt | [sase-ug.6](sase-ug.6.md) | 2026-08-26 22:25:24 EDT |
 | sase | [`d070280`](https://github.com/sase-org/sase/commit/d07028050cb831849d1e666ab267a39223779f9b) | feat(tui): add link-follow key grammar | [sase-ug.7](sase-ug.7.md) | 2026-08-26 23:45:35 EDT |
 | sase | [`e8f30d2`](https://github.com/sase-org/sase/commit/e8f30d25fba529b2cf16d755fd632915a8f53efe) | feat(ace): add artifact links panel | [sase-ug.9](sase-ug.9.md) | 2026-08-27 00:44:25 EDT |
+| sase | [`d8e8b5a`](https://github.com/sase-org/sase/commit/d8e8b5ab8ed264a983fd892b29d8e6f752428a93) | feat(tui): add app-level link trail for Ctrl+O/Ctrl+Shift+O across tabs | [sase-ug.8](sase-ug.8.md) | 2026-08-27 01:04:08 EDT |
