@@ -27,7 +27,7 @@ Pressing a key in `sase ace` never blocks on provider discovery, git subprocesse
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-uv.1](sase-uv.1.md) | Fresh perf baseline and durable budget benches | ◐ in_progress | small | 2026-08-27 | 1 | 0 |
+| [sase-uv.1](sase-uv.1.md) | Fresh perf baseline and durable budget benches | ✓ closed | small | 2026-08-27 | 1 | 1 |
 | [sase-uv.2](sase-uv.2.md) | Take provider discovery off the keystroke path | ✓ closed | medium | 2026-08-27 | 1 | 1 |
 | [sase-uv.3](sase-uv.3.md) | Collapse the redundant link-subject resolutions per keystroke | ◐ in_progress | small | 2026-08-27 | 1 | 0 |
 | [sase-uv.4](sase-uv.4.md) | Make the artifact delta the default refresh, not the 2% exception | ◐ in_progress | medium | 2026-08-27 | 1 | 0 |
@@ -42,7 +42,7 @@ Pressing a key in `sase ace` never blocks on provider discovery, git subprocesse
 ```mermaid
 flowchart TD
     n0["sase-uv: Restore ACE TUI responsiveness [in_progress]"]
-    n1["sase-uv.1: Fresh perf baseline and durable budget benches [in_progress]"]
+    n1["sase-uv.1: Fresh perf baseline and durable budget benches [closed]"]
     n2["sase-uv.2: Take provider discovery off the keystroke path [closed]"]
     n3["sase-uv.3: Collapse the redundant link-subject resolutions per keystroke [in_progress]"]
     n4["sase-uv.4: Make the artifact delta the default refresh, not the 2% exception [in_progress]"]
@@ -74,7 +74,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.1/README.md) | [sase-uv.1](sase-uv.1.md) | 0 |
+| [bbugyi200.athena.sase-uv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.1/README.md) | [sase-uv.1](sase-uv.1.md) | 1 |
 | [bbugyi200.athena.sase-uv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.2/README.md) | [sase-uv.2](sase-uv.2.md) | 1 |
 | [bbugyi200.athena.sase-uv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.3/README.md) | [sase-uv.3](sase-uv.3.md) | 0 |
 | [bbugyi200.athena.sase-uv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.4/README.md) | [sase-uv.4](sase-uv.4.md) | 0 |
@@ -92,3 +92,4 @@ flowchart TD
 | sase | [`795afdc`](https://github.com/sase-org/sase/commit/795afdc5faee02e63f5753f3ca7e822797b29538) | fix(ace): keep artifact discovery off key path | [sase-uv.2](sase-uv.2.md) | 2026-08-27 14:03:06 EDT |
 | sase | [`c862ddd`](https://github.com/sase-org/sase/commit/c862dddcba39165fe5b21a94e22a5bdf0c3a1bde) | fix(tui): write pump-stall records off the event loop and add index vacuum tooling | [sase-uv.9](sase-uv.9.md) | 2026-08-27 14:14:13 EDT |
 | sase-core | [`sase-core@b786e90`](https://github.com/sase-org/sase-core/commit/b786e90b5655c10a4cc7212b24a765a2505d6190) | feat(agent-scan): add read-only index opens and a VACUUM binding | [sase-uv.9](sase-uv.9.md) | 2026-08-27 14:15:02 EDT |
+| sase | [`a9273e7`](https://github.com/sase-org/sase/commit/a9273e768052cf4d69fed1ffd203ca1598d2dfa3) | test(ace-tui): assert keystroke-to-paint budgets and add keypath discovery regression gate | [sase-uv.1](sase-uv.1.md) | 2026-08-27 14:17:01 EDT |
