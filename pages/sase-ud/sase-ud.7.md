@@ -19,7 +19,7 @@ gate-followup: implement the branch-keyed next map with prompt, output, fork, mo
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.10](sase-ud.10.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.10](sase-ud.10.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.5](sase-ud.5.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.8](sase-ud.8.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.9](sase-ud.9.md) ✓ · ⧖ 2026-08-26

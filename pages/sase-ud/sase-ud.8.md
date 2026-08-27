@@ -19,7 +19,7 @@ gate-fork-cli: classify a settled gate shell in resolve_family_member_shell with
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.10](sase-ud.10.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.10](sase-ud.10.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.7](sase-ud.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents

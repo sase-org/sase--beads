@@ -13,11 +13,17 @@ plan-migration: make the tale and epic plan gates gate shells behind the same fl
 
 ## Dependencies
 
-- **Depends on:** [sase-ud.10](sase-ud.10.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ud.10](sase-ud.10.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ud.12](sase-ud.12.md) ◐ · ⧖ 2026-08-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.11/README.md) | [sase-ud.11](sase-ud.11.md) | 0 |
+| [bbugyi200.athena.sase-ud.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.11.md) | [sase-ud.11](sase-ud.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`32da1f3`](https://github.com/sase-org/sase/commit/32da1f3d2d76878f61dec184514b7e8620e0b461) | feat(plan): add shell-backed approval handoff | [sase-ud.11](sase-ud.11.md) | 2026-08-27 01:34:36 EDT |
