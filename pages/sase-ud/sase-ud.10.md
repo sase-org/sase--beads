@@ -15,7 +15,7 @@ questions-migration: make the question gate a gate shell behind the epic's beta 
 
 - **Blocks:** [sase-ud.11](sase-ud.11.md) ◐ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.7](sase-ud.7.md) ✓ · ⧖ 2026-08-26
-- **Depends on:** [sase-ud.8](sase-ud.8.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-ud.8](sase-ud.8.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

@@ -39,7 +39,7 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 | [sase-ud.5](sase-ud.5.md) | Durable gate execution and live output | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-ud.6](sase-ud.6.md) | Gate shells in ACE | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.7](sase-ud.7.md) | Configurable per-branch follow-up | ✓ closed | large | 2026-08-26 | 1 | 1 |
-| [sase-ud.8](sase-ud.8.md) | Fork, CLI, and conformance | ◐ in_progress | medium | 2026-08-26 | 1 | 1 |
+| [sase-ud.8](sase-ud.8.md) | Fork, CLI, and conformance | ✓ closed | medium | 2026-08-26 | 1 | 2 |
 | [sase-ud.9](sase-ud.9.md) | Migrate HITL and launch approval | ✓ closed | medium | 2026-08-26 | 1 | 2 |
 
 ## Lineage
@@ -59,7 +59,7 @@ flowchart TD
     n10["sase-ud.5: Durable gate execution and live output [closed]"]
     n11["sase-ud.6: Gate shells in ACE [closed]"]
     n12["sase-ud.7: Configurable per-branch follow-up [closed]"]
-    n13["sase-ud.8: Fork, CLI, and conformance [in_progress]"]
+    n13["sase-ud.8: Fork, CLI, and conformance [closed]"]
     n14["sase-ud.9: Migrate HITL and launch approval [closed]"]
     n0 --> n1
     n0 --> n2
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.5/README.md) | [sase-ud.5](sase-ud.5.md) | 1 |
 | [bbugyi200.athena.sase-ud.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.6.md) | [sase-ud.6](sase-ud.6.md) | 1 |
 | [bbugyi200.athena.sase-ud.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.7.md) | [sase-ud.7](sase-ud.7.md) | 1 |
-| [bbugyi200.athena.sase-ud.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.8/README.md) | [sase-ud.8](sase-ud.8.md) | 1 |
+| [bbugyi200.athena.sase-ud.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.8/README.md) | [sase-ud.8](sase-ud.8.md) | 2 |
 | [bbugyi200.athena.sase-ud.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.9/README.md) | [sase-ud.9](sase-ud.9.md) | 2 |
 | [bbugyi200.athena.sase-ud.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.land/README.md) | [sase-ud](README.md) | 0 |
 
@@ -128,3 +128,4 @@ flowchart TD
 | sase | [`277099e`](https://github.com/sase-org/sase/commit/277099e77516daba6b338faa866dd9b5f0a12d8b) | feat(gates): migrate HITL and launch approval to shells | [sase-ud.9](sase-ud.9.md) | 2026-08-26 22:22:41 EDT |
 | sase--agents | [`sase--agents@8fc9605`](https://github.com/sase-org/sase--agents/commit/8fc96055cba06fda99105f666273697b068350f8) | docs(prompts): archive August prompt materials | [sase-ud.9](sase-ud.9.md) | 2026-08-26 22:40:36 EDT |
 | sase | [`d4c3bb4`](https://github.com/sase-org/sase/commit/d4c3bb4083fe11d0b74d3e9ab3fa7ebe0b19e6e1) | feat(gate-shell): add fork classification, CLI list/show/cancel, and shell conformance | [sase-ud.8](sase-ud.8.md) | 2026-08-26 22:43:35 EDT |
+| sase-telegram | [`sase-telegram@b37eb45`](https://github.com/sase-org/sase-telegram/commit/b37eb45a8c2cb5829f54c05812e896b24266e4c5) | fix(gates): settle gate shells answered from Telegram | [sase-ud.8](sase-ud.8.md) | 2026-08-26 22:45:59 EDT |
