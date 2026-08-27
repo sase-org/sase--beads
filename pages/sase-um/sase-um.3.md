@@ -22,7 +22,7 @@ heavy: make ci.yml pull-request-and-workflow_call only, add full.yml as a schedu
 ## Dependencies
 
 - **Depends on:** [sase-um.1](sase-um.1.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-um.6](sase-um.6.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.6](sase-um.6.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-um.7](sase-um.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
