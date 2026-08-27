@@ -56,17 +56,22 @@ flowchart TD
     n7["sase-ud.13.1.1: Pin the plan and epic gate accents [closed]"]
     n8["sase-ud.13.1.2: Remove the gate_shell_handoff flag and the blocking Off branch [closed]"]
     n9["sase-ud.13.1.3: Retire the notification and family status overrides [in_progress]"]
-    n10["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
-    n11["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
-    n12["sase-ud.14: Memory, decision record, and skills [in_progress]"]
-    n13["sase-ud.2: The sase.shells family-shell substrate [closed]"]
-    n14["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
-    n15["sase-ud.4: Rust read-side gate shell rules [closed]"]
-    n16["sase-ud.5: Durable gate execution and live output [closed]"]
-    n17["sase-ud.6: Gate shells in ACE [closed]"]
-    n18["sase-ud.7: Configurable per-branch follow-up [closed]"]
-    n19["sase-ud.8: Fork, CLI, and conformance [closed]"]
-    n20["sase-ud.9: Migrate HITL and launch approval [closed]"]
+    n10["sase-ud.13.1.3.1: Retire the notification and family status overrides [in_progress]"]
+    n11["sase-ud.13.1.3.1.1: Pin the post-gate-shell family projection contract [closed]"]
+    n12["sase-ud.13.1.3.1.2: Retire the notification-driven status writes [in_progress]"]
+    n13["sase-ud.13.1.3.1.3: Retire the synthetic planner children [in_progress]"]
+    n14["sase-ud.13.1.3.1.4: Retire the timestamp-reconstruction status passes [in_progress]"]
+    n15["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
+    n16["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
+    n17["sase-ud.14: Memory, decision record, and skills [in_progress]"]
+    n18["sase-ud.2: The sase.shells family-shell substrate [closed]"]
+    n19["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
+    n20["sase-ud.4: Rust read-side gate shell rules [closed]"]
+    n21["sase-ud.5: Durable gate execution and live output [closed]"]
+    n22["sase-ud.6: Gate shells in ACE [closed]"]
+    n23["sase-ud.7: Configurable per-branch follow-up [closed]"]
+    n24["sase-ud.8: Fork, CLI, and conformance [closed]"]
+    n25["sase-ud.9: Migrate HITL and launch approval [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -76,36 +81,44 @@ flowchart TD
     n6 --> n7
     n6 --> n8
     n6 --> n9
-    n6 --> n10
-    n6 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
-    n0 --> n16
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n10 --> n14
+    n6 --> n15
+    n6 --> n16
     n0 --> n17
     n0 --> n18
     n0 --> n19
     n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n0 --> n24
+    n0 --> n25
     n2 -.-> n3
     n3 -.-> n4
     n4 -.-> n5
-    n5 -.-> n12
-    n7 -.-> n10
+    n5 -.-> n17
+    n7 -.-> n15
     n8 -.-> n9
-    n9 -.-> n10
+    n9 -.-> n15
+    n11 -.-> n12
+    n12 -.-> n13
     n13 -.-> n14
-    n14 -.-> n15
-    n14 -.-> n16
-    n15 -.-> n17
-    n16 -.-> n17
-    n16 -.-> n18
-    n17 -.-> n5
-    n18 -.-> n2
     n18 -.-> n19
-    n18 -.-> n20
-    n19 -.-> n2
-    n20 -.-> n5
+    n19 -.-> n20
+    n19 -.-> n21
+    n20 -.-> n22
+    n21 -.-> n22
+    n21 -.-> n23
+    n22 -.-> n5
+    n23 -.-> n2
+    n23 -.-> n24
+    n23 -.-> n25
+    n24 -.-> n2
+    n25 -.-> n5
 ```
 
 ## Agents
@@ -118,8 +131,13 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.12.md) | [sase-ud.12](sase-ud.12.md) | 1 |
 | [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.md) | [sase-ud.13](sase-ud.13.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.1/README.md) | [sase-ud.13.1.1](sase-ud.13.1.1.md) | 1 |
-| [bbugyi200.athena.sase-ud.13.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.2.md) | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 0 |
-| [bbugyi200.athena.sase-ud.13.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3/README.md) | [sase-ud.13.1.3](sase-ud.13.1.3.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.2.md) | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 1 |
+| [bbugyi200.athena.sase-ud.13.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.md) | [sase-ud.13.1.3](sase-ud.13.1.3.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.1.md) | [sase-ud.13.1.3.1.1](sase-ud.13.1.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.2/README.md) | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.4/README.md) | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.land/README.md) | [sase-ud.13.1.3.1](sase-ud.13.1.3.1.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.4/README.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2 |
 | [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
@@ -155,3 +173,5 @@ flowchart TD
 | sase | [`c133ff7`](https://github.com/sase-org/sase/commit/c133ff76868f706033770ba7488cfbac869b60b0) | fix(plan-shell): pin gate accents to ladder | [sase-ud.13.1.1](sase-ud.13.1.1.md) | 2026-08-27 09:08:36 EDT |
 | sase | [`588a1cf`](https://github.com/sase-org/sase/commit/588a1cfaeb86331ce59ec5e649a77682674f2015) | feat(agent-scan): fold monitor\_\*/gate\_\* wire fields into nested family\_shell at schema v7 | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2026-08-27 11:06:51 EDT |
 | sase-core | [`sase-core@f0224ef`](https://github.com/sase-org/sase-core/commit/f0224efa66a0f31f1d4b96b7e4bcd04f2902c80b) | feat(agent-scan): fold monitor\_\*/gate\_\* wire fields into nested family\_shell at schema v7 | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2026-08-27 11:07:52 EDT |
+| sase | [`a646bda`](https://github.com/sase-org/sase/commit/a646bdaf6b75838326f8c9d16f42fb935393e5c1) | refactor(plan-gate): remove the gate\_shell\_handoff flag and blocking Off branch | [sase-ud.13.1.2](sase-ud.13.1.2.md) | 2026-08-27 11:14:29 EDT |
+| sase | [`2f8bc9a`](https://github.com/sase-org/sase/commit/2f8bc9abb4e90d23f5e1dd1c171da61d5639b1b8) | test(status-strip): pin gate-shell family projection contract for \_apply\_status\_overrides | [sase-ud.13.1.3.1.1](sase-ud.13.1.3.1.1.md) | 2026-08-27 12:27:38 EDT |

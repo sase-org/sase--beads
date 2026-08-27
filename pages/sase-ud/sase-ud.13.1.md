@@ -23,6 +23,10 @@
 
 The gate shell is the only thing that publishes a plan or question status: the `gate_shell_handoff` beta flag and its blocking Off branch are gone, the notification and family-policy status overrides that existed only to give a blocked plan chain a visible row are gone, the agent-list colour ladder is one shared pair-accent path over declared gate accents, and the flat `monitor_*` / `gate_*` wire blocks are one nested `family_shell` record at wire schema v7.
 
+## Notes
+
+[2026-08-27T15:59:39Z · 0ew] DISCOVERED ISSUE: While verifying unrelated plan:202608/pager_screen.md on 2026-08-27, `just check` failed in `_setup` before lint/tests after rebuilding linked sase-core 0.32.9 from the linked checkout: `[validate_sase_core_rs] scan_agent_artifacts probe returned stale schema: got 7, expected 6`; exit 1. The pager diff only touches pager/ACE view-file modules and tests and passes focused pytest, ruff, mypy, and visual lanes, so this is not caused by the pager-screen change. It is causally linked here because child phase `sase-ud.13.1.5` intentionally bumped the agent-scan wire schema to 7 in sase-core; this checkout Python-side validator still expects 6 until the phase Python/schema update is integrated here or the linked-core checkout is brought back into the compatible window.
+
 ## Agents
 
 | Agent | Bead | Commits |
