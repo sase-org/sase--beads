@@ -18,7 +18,7 @@ stepmeta: eliminate the 1,532 per-load enrich_agent_from_meta filesystem calls t
 ## Dependencies
 
 - **Depends on:** [sase-uv.1](sase-uv.1.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [sase-uv.8](sase-uv.8.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.8](sase-uv.8.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

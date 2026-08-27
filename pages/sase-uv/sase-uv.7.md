@@ -24,7 +24,7 @@ projection: add a list-shaped record projection in sase-core that omits the four
 ## Dependencies
 
 - **Depends on:** [sase-uv.6](sase-uv.6.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [sase-uv.8](sase-uv.8.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.8](sase-uv.8.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

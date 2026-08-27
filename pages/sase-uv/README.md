@@ -34,7 +34,7 @@ Pressing a key in `sase ace` never blocks on provider discovery, git subprocesse
 | [sase-uv.5](sase-uv.5.md) | Remove the per-workflow-step filesystem enrichment from every load | ✓ closed | medium | 2026-08-27 | 1 | 1 |
 | [sase-uv.6](sase-uv.6.md) | Drop the double tree build in the artifact-index PyO3 binding | ✓ closed | medium | 2026-08-27 | 1 | 1 |
 | [sase-uv.7](sase-uv.7.md) | Project the heavy record\_json leaves off the list-render path | ✓ closed | large | 2026-08-27 | 1 | 2 |
-| [sase-uv.8](sase-uv.8.md) | Honour the AgentsViewport contract instead of discarding it | ◐ in_progress | large | 2026-08-27 | 1 | 1 |
+| [sase-uv.8](sase-uv.8.md) | Honour the AgentsViewport contract instead of discarding it | ✓ closed | large | 2026-08-27 | 1 | 2 |
 | [sase-uv.9](sase-uv.9.md) | Index retention tooling and self-inflicted stall fixes | ✓ closed | medium | 2026-08-27 | 1 | 2 |
 
 ## Lineage
@@ -49,7 +49,7 @@ flowchart TD
     n5["sase-uv.5: Remove the per-workflow-step filesystem enrichment from every load [closed]"]
     n6["sase-uv.6: Drop the double tree build in the artifact-index PyO3 binding [closed]"]
     n7["sase-uv.7: Project the heavy record_json leaves off the list-render path [closed]"]
-    n8["sase-uv.8: Honour the AgentsViewport contract instead of discarding it [in_progress]"]
+    n8["sase-uv.8: Honour the AgentsViewport contract instead of discarding it [closed]"]
     n9["sase-uv.9: Index retention tooling and self-inflicted stall fixes [closed]"]
     n0 --> n1
     n0 --> n2
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-uv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.5/README.md) | [sase-uv.5](sase-uv.5.md) | 1 |
 | [bbugyi200.athena.sase-uv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.6/README.md) | [sase-uv.6](sase-uv.6.md) | 1 |
 | [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.7.md) | [sase-uv.7](sase-uv.7.md) | 2 |
-| [bbugyi200.athena.sase-uv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.8.md) | [sase-uv.8](sase-uv.8.md) | 1 |
+| [bbugyi200.athena.sase-uv.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.8.md) | [sase-uv.8](sase-uv.8.md) | 2 |
 | [bbugyi200.athena.sase-uv.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.9/README.md) | [sase-uv.9](sase-uv.9.md) | 2 |
 | [bbugyi200.athena.sase-uv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uv.land/README.md) | [sase-uv](README.md) | 0 |
 
@@ -99,3 +99,4 @@ flowchart TD
 | sase-core | [`sase-core@bdce575`](https://github.com/sase-org/sase-core/commit/bdce575a5bea16a97f0f5fd31947d42a7de81dd1) | feat(agent-scan): project list-shaped artifact records | [sase-uv.7](sase-uv.7.md) | 2026-08-27 16:19:51 EDT |
 | sase | [`794fbd3`](https://github.com/sase-org/sase/commit/794fbd3db9f87417599200477ba3a5b149b4f807) | perf: Make the artifact delta the default refresh, not the 2% exception (sase-uv.4) | [sase-uv.4](sase-uv.4.md) | 2026-08-27 16:51:49 EDT |
 | sase | [`a805b0d`](https://github.com/sase-org/sase/commit/a805b0da2f23de59d628c9c16ff4855fb68d8a02) | feat(agents): add bounded viewport loading | [sase-uv.8](sase-uv.8.md) | 2026-08-27 18:49:33 EDT |
+| sase-core | [`sase-core@07bd0f5`](https://github.com/sase-org/sase-core/commit/07bd0f589434f90c51faab4994c0ef0d4db1c31d) | feat(agent-scan): support windowed index reads | [sase-uv.8](sase-uv.8.md) | 2026-08-27 18:52:28 EDT |

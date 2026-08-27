@@ -20,7 +20,7 @@ delta: replace the all-or-nothing watcher-path classification with partial appli
 ## Dependencies
 
 - **Depends on:** [sase-uv.1](sase-uv.1.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [sase-uv.8](sase-uv.8.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.8](sase-uv.8.md) ✓ · ⧖ 2026-08-27
 
 ## Commits
 
