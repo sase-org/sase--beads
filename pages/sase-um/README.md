@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.md) | [sase-um.5](sase-um.5.md) | 0 |
 | [bbugyi200.athena.sase-um.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.1/README.md) | [sase-um.5.1.1](sase-um.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-um.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.2/README.md) | [sase-um.5.1.2](sase-um.5.1.2.md) | 1 |
-| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 6 |
+| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 7 |
 | [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.land/README.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.6/README.md) | [sase-um.6](sase-um.6.md) | 1 |
 | [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
@@ -114,3 +114,4 @@ flowchart TD
 | sase | [`5f06c64`](https://github.com/sase-org/sase/commit/5f06c647359cd3362f913d1e9fac3164ad99fc58) | chore(core): ratchet pinned core to v0.32.10 | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 15:27:30 EDT |
 | sase | [`4d31563`](https://github.com/sase-org/sase/commit/4d315636322392d692e737651c6d10174ed7d81c) | fix(agent): restore logical planner projection rows | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 17:13:56 EDT |
 | sase | [`ebdc9dd`](https://github.com/sase-org/sase/commit/ebdc9dda0c316fb8403d77e42efbbfdef7ada8de) | test(perf): isolate view-hints trace harness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 18:38:42 EDT |
+| sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |

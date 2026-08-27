@@ -29,6 +29,8 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 [2026-08-27T21:04:28Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: tests/test_provider_disable.py::test_facade_try_disable_one_winner_under_process_contention - failed once during local just check full-suite escalation after core pin ratchet; exact node passed directly in 3.18s alongside the known rail-parity flakes.
 
+[2026-08-27T23:42:51Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: tests/pager/test_rail_parity.py link_traversing_pager expected_target5 source/target repeated local fail-then-pass — just check full-suite escalation failed those two parametrizations after linked-core 0.32.12 rebuild on 2026-08-27; direct rerun of both nodes passed.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.5.1.1](sase-um.5.1.1.md) ✓ · ⧖ 2026-08-27
@@ -38,7 +40,7 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 6 |
+| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 7 |
 
 ## Commits
 
@@ -50,3 +52,4 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 | sase | [`5f06c64`](https://github.com/sase-org/sase/commit/5f06c647359cd3362f913d1e9fac3164ad99fc58) | chore(core): ratchet pinned core to v0.32.10 | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 15:27:30 EDT |
 | sase | [`4d31563`](https://github.com/sase-org/sase/commit/4d315636322392d692e737651c6d10174ed7d81c) | fix(agent): restore logical planner projection rows | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 17:13:56 EDT |
 | sase | [`ebdc9dd`](https://github.com/sase-org/sase/commit/ebdc9dda0c316fb8403d77e42efbbfdef7ada8de) | test(perf): isolate view-hints trace harness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 18:38:42 EDT |
+| sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |
