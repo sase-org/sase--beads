@@ -19,7 +19,7 @@ follow: bind `$` as a one-shot prefix for `$1`-`$9`/`$$`, gate it on availabilit
 
 - **Depends on:** [sase-ug.6](sase-ug.6.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-ug.8](sase-ug.8.md) ◐ · ⧖ 2026-08-26
-- **Blocks:** [sase-ug.9](sase-ug.9.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ug.9](sase-ug.9.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
