@@ -11,6 +11,12 @@
 
 follow: define the `resolve_ref` interface with its CLI-backed implementation, open resolved targets as new pager documents rather than escaping to a viewer, remember and dim dead ends, delegate media to `graphics`, and add the one-shot `y`/`E` prefixes.
 
+## Notes
+
+[2026-08-27T01:14:54Z · sase-uk.5] PROPOSED FOLLOW-UP: target_resolution_ref() cannot build a valid commit: ref for DIFF-origin bare short-sha tokens (commit refs require <repo>@<sha>, and the scanner has no repo context) — those links paint but a press toasts "nothing to follow/edit/copy" instead of resolving. No adapter emits PagerOrigin.DIFF documents yet, so this is latent until the diff/cli scanning adapter lands; that adapter will need to either attach typed commit targets itself or extend target_resolution_ref with repo context.
+
+[2026-08-27T01:15:18Z · sase-uk.5] PROPOSED FOLLOW-UP: resolve.py._bead_link_target() builds its document via resolve_show_batch()/build_show_batch_document() but deliberately skips the detail_enricher=_with_artifact_link_neighborhood step that `sase bead show --format full` uses, because that enricher calls sys.exit(1) on failure (unsafe inside a keypress handler). So a bead reached by following a link in the pager shows a slightly less enriched LINKS section than opening the same bead directly via `sase bead show`. Fixing this needs a non-exiting variant of the enricher.
+
 ## Dependencies
 
 - **Depends on:** [sase-uk.4](sase-uk.4.md) ✓ · ⧖ 2026-08-26
@@ -20,4 +26,10 @@ follow: define the `resolve_ref` interface with its CLI-backed implementation, o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.5/README.md) | [sase-uk.5](sase-uk.5.md) | 0 |
+| [bbugyi200.athena.sase-uk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.5/README.md) | [sase-uk.5](sase-uk.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`699037f`](https://github.com/sase-org/sase/commit/699037f215b69128b8e49a5ccd7a2c588b002c27) | feat(pager): add link resolution and follow/copy/edit actions | [sase-uk.5](sase-uk.5.md) | 2026-08-26 21:19:08 EDT |
