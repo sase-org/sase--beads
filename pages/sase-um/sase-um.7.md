@@ -13,9 +13,9 @@ config: update the ci_watch chop's chezmoi configuration with the new gating and
 
 ## Dependencies
 
-- **Depends on:** [sase-um.1](sase-um.1.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-um.1](sase-um.1.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.2](sase-um.2.md) ✓ · ⧖ 2026-08-26
-- **Depends on:** [sase-um.3](sase-um.3.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-um.3](sase-um.3.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-um.8](sase-um.8.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

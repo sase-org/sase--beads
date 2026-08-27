@@ -13,11 +13,11 @@ green: use the new per-commit signal to attribute and fix every failure the gate
 
 ## Dependencies
 
-- **Depends on:** [sase-um.1](sase-um.1.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-um.1](sase-um.1.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-um.8](sase-um.8.md) ◐ · ⧖ 2026-08-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5/README.md) | [sase-um.5](sase-um.5.md) | 0 |
+| [bbugyi200.athena.sase-um.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.md) | [sase-um.5](sase-um.5.md) | 0 |
