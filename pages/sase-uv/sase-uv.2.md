@@ -19,7 +19,7 @@ keypath: make accent/icon resolution for fixed panes table-driven, memoize fixed
 
 ## Dependencies
 
-- **Blocks:** [sase-uv.3](sase-uv.3.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.3](sase-uv.3.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
