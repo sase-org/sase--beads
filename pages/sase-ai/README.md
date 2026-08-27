@@ -7,6 +7,18 @@
 **Created:** 2026-07-28 14:22:24 EDT · **Closed:** 2026-07-28 18:20:43 EDT
 **Plan:** [202607/bead\_pages.md](https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202607/bead_pages.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202607/bead_pages.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every bead that a SASE agent commits against has a beautiful, self-healing GitHub page in the project's `--beads` sidecar that links out to its plan, its agents, its commits, and its related beads, and every commit reaches it through a `SASE_BEAD` footer tag instead of a parenthetical bolted onto the headline.
