@@ -14,7 +14,7 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 ## Dependencies
 
 - **Depends on:** [sase-um.5.1.1](sase-um.5.1.1.md) ✓ · ⧖ 2026-08-27
-- **Depends on:** [sase-um.5.1.2](sase-um.5.1.2.md) ◐ · ⧖ 2026-08-27
+- **Depends on:** [sase-um.5.1.2](sase-um.5.1.2.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
