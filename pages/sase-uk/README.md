@@ -28,7 +28,7 @@ SASE has one reading surface. `sase bead show`, the Agents-tab `v` keymap, `sase
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-uk.1](sase-uk.1.md) | The allocator and the scanner | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-uk.10](sase-uk.10.md) | Four pagers become one | ◐ in_progress | medium | 2026-08-26 | 1 | 0 |
+| [sase-uk.10](sase-uk.10.md) | Four pagers become one | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.2](sase-uk.2.md) | A document of sections, not a string | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.3](sase-uk.3.md) | The reading surface | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-uk.4](sase-uk.4.md) | Keys painted ahead of time | ✓ closed | medium | 2026-08-26 | 1 | 1 |
@@ -44,7 +44,7 @@ SASE has one reading surface. `sase bead show`, the Agents-tab `v` keymap, `sase
 flowchart TD
     n0["sase-uk: A link-traversing SASE pager [in_progress]"]
     n1["sase-uk.1: The allocator and the scanner [closed]"]
-    n2["sase-uk.10: Four pagers become one [in_progress]"]
+    n2["sase-uk.10: Four pagers become one [closed]"]
     n3["sase-uk.2: A document of sections, not a string [closed]"]
     n4["sase-uk.3: The reading surface [closed]"]
     n5["sase-uk.4: Keys painted ahead of time [closed]"]
@@ -80,7 +80,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-uk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.1/README.md) | [sase-uk.1](sase-uk.1.md) | 1 |
-| [bbugyi200.athena.sase-uk.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.10/README.md) | [sase-uk.10](sase-uk.10.md) | 0 |
+| [bbugyi200.athena.sase-uk.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.10/README.md) | [sase-uk.10](sase-uk.10.md) | 1 |
 | [bbugyi200.athena.sase-uk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.2/README.md) | [sase-uk.2](sase-uk.2.md) | 1 |
 | [bbugyi200.athena.sase-uk.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uk.3.md) | [sase-uk.3](sase-uk.3.md) | 1 |
 | [bbugyi200.athena.sase-uk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-uk.4/README.md) | [sase-uk.4](sase-uk.4.md) | 1 |
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`841255d`](https://github.com/sase-org/sase/commit/841255df480a0ef7562aacc4a74c730968f103bf) | feat(ace): route the Agents-tab v keymap to SasePager under suspend() | [sase-uk.8](sase-uk.8.md) | 2026-08-27 07:44:31 EDT |
 | sase | [`b52341b`](https://github.com/sase-org/sase/commit/b52341b5506a304356a77143a09a986b7fb08683) | feat(pager): add sase pager command | [sase-uk.7](sase-uk.7.md) | 2026-08-27 07:57:58 EDT |
 | sase | [`5fb2189`](https://github.com/sase-org/sase/commit/5fb2189c2139663a502af8d6c5d7e3d9feaaead6) | feat(pager): align link resolution with rail index | [sase-uk.9](sase-uk.9.md) | 2026-08-27 08:41:22 EDT |
+| sase | [`259f399`](https://github.com/sase-org/sase/commit/259f399012febb6778e7ca1bfb94e7251d642b94) | feat(pager): retire legacy text paging paths | [sase-uk.10](sase-uk.10.md) | 2026-08-27 09:21:55 EDT |

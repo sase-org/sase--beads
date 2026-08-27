@@ -19,7 +19,7 @@ parity: assert with one shared test that the pager and the `sase-ug` link rail r
 
 ## Dependencies
 
-- **Blocks:** [sase-uk.10](sase-uk.10.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.10](sase-uk.10.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-uk.7](sase-uk.7.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-uk.8](sase-uk.8.md) ✓ · ⧖ 2026-08-26
 
