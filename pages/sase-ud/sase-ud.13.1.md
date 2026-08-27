@@ -1,0 +1,30 @@
+# Bead: sase-ud.13.1 — Collapse the gate-shell status machinery and remove the beta flag
+
+[Bead Pages](../README.md) / [sase-ud.13](sase-ud.13.md) / sase-ud.13.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.md) · **Assignee:** `sase-ud.13.1.land`
+**Created:** 2026-08-27 08:49:03 EDT
+**Plan:** [202608/gate\_shell\_status\_collapse.md](https://github.com/sase-org/sase--plans/blob/main/202608/gate_shell_status_collapse.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202608/gate_shell_status_collapse.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202608/gate_shell_status_collapse.md
+
+<!-- sase:links:end -->
+
+## Description
+
+The gate shell is the only thing that publishes a plan or question status: the `gate_shell_handoff` beta flag and its blocking Off branch are gone, the notification and family-policy status overrides that existed only to give a blocked plan chain a visible row are gone, the agent-list colour ladder is one shared pair-accent path over declared gate accents, and the flat `monitor_*` / `gate_*` wire blocks are one nested `family_shell` record at wire schema v7.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |

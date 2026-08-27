@@ -22,4 +22,4 @@ status-collapse: fold the flat monitor_* and gate_* wire blocks into one nested 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13/README.md) | [sase-ud.13](sase-ud.13.md) | 0 |
+| [bbugyi200.athena.sase-ud.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.md) | [sase-ud.13](sase-ud.13.md) | 0 |
