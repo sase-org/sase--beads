@@ -18,7 +18,7 @@ marshal: serialize the query snapshot straight into Python objects instead of bu
 ## Dependencies
 
 - **Depends on:** [sase-uv.1](sase-uv.1.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [sase-uv.7](sase-uv.7.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-uv.7](sase-uv.7.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

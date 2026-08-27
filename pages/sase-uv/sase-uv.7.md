@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-uv](README.md) / sase-uv.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ex](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ex.md) · **Assignee:** `sase-uv.7` · **Size:** large
-**Created:** 2026-08-27 12:26:47 EDT
+**Created:** 2026-08-27 12:26:47 EDT · **Closed:** 2026-08-27 16:19:23 EDT
 **Plan:** [202608/ace\_tui\_responsiveness.md](https://github.com/sase-org/sase--plans/blob/main/202608/ace_tui_responsiveness.md)
 
 ## Description
@@ -19,6 +19,8 @@ projection: add a list-shaped record projection in sase-core that omits the four
 
 [2026-08-27T20:14:49Z · sase-uv.7] PROPOSED FOLLOW-UP: ratchet the pinned Rust core revision before landing — this phase added the load_agent_artifact_records PyO3 binding and the local core-floor probe reports it has no containing release tag yet, so CI's pinned-core binding gate will fail until sase-core-revision.txt is moved past the core commit and the published window sequencing is handled by the release flow.
 
+[2026-08-27T20:19:23Z · sase-uv.7] Auto-closed by `sase stitch create` after create_commit landed a615273b1 ("feat(tui): hydrate list-shaped artifact records"). No verification is implied by this note. Reopen with `sase bead open sase-uv.7`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-uv.6](sase-uv.6.md) ✓ · ⧖ 2026-08-27
@@ -28,10 +30,11 @@ projection: add a list-shaped record projection in sase-core that omits the four
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.7.md) | [sase-uv.7](sase-uv.7.md) | 1 |
+| [bbugyi200.athena.sase-uv.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-uv.7.md) | [sase-uv.7](sase-uv.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a615273`](https://github.com/sase-org/sase/commit/a615273b13a5e0615ddbbc6a6c3747c58c19f8f8) | feat(tui): hydrate list-shaped artifact records | [sase-uv.7](sase-uv.7.md) | 2026-08-27 16:16:41 EDT |
+| sase-core | [`sase-core@bdce575`](https://github.com/sase-org/sase-core/commit/bdce575a5bea16a97f0f5fd31947d42a7de81dd1) | feat(agent-scan): project list-shaped artifact records | [sase-uv.7](sase-uv.7.md) | 2026-08-27 16:19:51 EDT |
