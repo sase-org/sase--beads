@@ -13,7 +13,7 @@ follow: define the `resolve_ref` interface with its CLI-backed implementation, o
 
 ## Dependencies
 
-- **Depends on:** [sase-uk.4](sase-uk.4.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [sase-uk.4](sase-uk.4.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-uk.6](sase-uk.6.md) ◐ · ⧖ 2026-08-26
 
 ## Agents

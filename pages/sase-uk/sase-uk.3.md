@@ -18,7 +18,7 @@ viewer: build the `SasePager` Textual app shell — the sticky chrome band, sect
 ## Dependencies
 
 - **Depends on:** [sase-uk.2](sase-uk.2.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-uk.4](sase-uk.4.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-uk.4](sase-uk.4.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
