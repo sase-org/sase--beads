@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
 | [bbugyi200.athena.sase-um.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.8/README.md) | [sase-um.8](sase-um.8.md) | 0 |
 | [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 0 |
-| [bbugyi200.athena.sase-um.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.2/README.md) | [sase-um.9.2](sase-um.9.2.md) | 0 |
+| [bbugyi200.athena.sase-um.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.2/README.md) | [sase-um.9.2](sase-um.9.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.3/README.md) | [sase-um.9.3](sase-um.9.3.md) | 1 |
 | [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.4/README.md) | [sase-um.9.4](sase-um.9.4.md) | 0 |
 | [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.land/README.md) | [sase-um.9](sase-um.9.md) | 0 |
@@ -211,3 +211,4 @@ flowchart TD
 | sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |
 | sase | [`30b495e`](https://github.com/sase-org/sase/commit/30b495e66613e707ac43a7d7641aac869795d9c1) | fix(tui): defer confirm dialog default focus | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-28 03:15:19 EDT |
 | sase | [`69d3d71`](https://github.com/sase-org/sase/commit/69d3d71902aec6cbde1dd6d44054d5a1ab166e75) | perf(ci): raise Master Gate to eight shards and refresh timings from CI | [sase-um.9.3](sase-um.9.3.md) | 2026-08-28 16:58:05 EDT |
+| sase | [`ed74b9f`](https://github.com/sase-org/sase/commit/ed74b9f7b742e4e252ef6693cdd9096711cb2958) | test: stabilize full ci release gate | [sase-um.9.2](sase-um.9.2.md) | 2026-08-28 17:18:10 EDT |
