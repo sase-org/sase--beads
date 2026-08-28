@@ -18,7 +18,7 @@ q-suffix-cleanup: delete PLAN_CHAIN_QUESTION_SUFFIX and the root/phase-question 
 ## Dependencies
 
 - **Depends on:** [sase-ud.11](sase-ud.11.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-ud.13](sase-ud.13.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.13](sase-ud.13.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

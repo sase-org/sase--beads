@@ -45,8 +45,8 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 | [sase-ud.10](sase-ud.10.md) | Migrate /sase\_questions | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.11](sase-ud.11.md) | Migrate /sase\_plan | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.12](sase-ud.12.md) | Retire the --q asker suffix | ✓ closed | large | 2026-08-26 | 1 | 1 |
-| [sase-ud.13](sase-ud.13.md) | Collapse the status machinery and remove the flag | ◐ in_progress | large | 2026-08-26 | 1 | 0 |
-| [sase-ud.14](sase-ud.14.md) | Memory, decision record, and skills | ◐ in_progress | small | 2026-08-26 | 1 | 0 |
+| [sase-ud.13](sase-ud.13.md) | Collapse the status machinery and remove the flag | ✓ closed | large | 2026-08-26 | 1 | 0 |
+| [sase-ud.14](sase-ud.14.md) | Memory, decision record, and skills | ✓ closed | small | 2026-08-26 | 1 | 1 |
 | [sase-ud.2](sase-ud.2.md) | The sase.shells family-shell substrate | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.3](sase-ud.3.md) | Gate shell creation, handoff, and settlement | ✓ closed | large | 2026-08-26 | 1 | 1 |
 | [sase-ud.4](sase-ud.4.md) | Rust read-side gate shell rules | ✓ closed | medium | 2026-08-26 | 1 | 2 |
@@ -65,8 +65,8 @@ flowchart TD
     n2["sase-ud.10: Migrate /sase_questions [closed]"]
     n3["sase-ud.11: Migrate /sase_plan [closed]"]
     n4["sase-ud.12: Retire the --q asker suffix [closed]"]
-    n5["sase-ud.13: Collapse the status machinery and remove the flag [in_progress]"]
-    n6["sase-ud.13.1: Collapse the gate-shell status machinery and remove the beta flag [in_progress]"]
+    n5["sase-ud.13: Collapse the status machinery and remove the flag [closed]"]
+    n6["sase-ud.13.1: Collapse the gate-shell status machinery and remove the beta flag [closed]"]
     n7["sase-ud.13.1.1: Pin the plan and epic gate accents [closed]"]
     n8["sase-ud.13.1.2: Remove the gate_shell_handoff flag and the blocking Off branch [closed]"]
     n9["sase-ud.13.1.3: Retire the notification and family status overrides [closed]"]
@@ -79,7 +79,7 @@ flowchart TD
     n16["sase-ud.13.1.3.1.5.1: Reconcile the restored planner and timestamp status machinery [closed]"]
     n17["sase-ud.13.1.4: Collapse the agent-list status colour ladder [closed]"]
     n18["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
-    n19["sase-ud.14: Memory, decision record, and skills [in_progress]"]
+    n19["sase-ud.14: Memory, decision record, and skills [closed]"]
     n20["sase-ud.2: The sase.shells family-shell substrate [closed]"]
     n21["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
     n22["sase-ud.4: Rust read-side gate shell rules [closed]"]
@@ -158,8 +158,8 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.13.1.3.1.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.5.1.md) | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.4.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2 |
-| [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
-| [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.land.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
+| [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 1 |
 | [bbugyi200.athena.sase-ud.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.2.md) | [sase-ud.2](sase-ud.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.3.md) | [sase-ud.3](sase-ud.3.md) | 1 |
 | [bbugyi200.athena.sase-ud.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.4/README.md) | [sase-ud.4](sase-ud.4.md) | 2 |
@@ -198,3 +198,4 @@ flowchart TD
 | sase | [`8efce6d`](https://github.com/sase-org/sase/commit/8efce6de9d31fa63384767d58606a83f9274ec9e) | fix(ace): retire timestamp reconstruction statuses | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 2026-08-28 02:34:37 EDT |
 | sase | [`de491c7`](https://github.com/sase-org/sase/commit/de491c710dda33645f6cdfe7c976e1784d7a5200) | feat(ace): remove synthetic planner status reconciliation | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 2026-08-28 08:42:07 EDT |
 | sase | [`f24aed1`](https://github.com/sase-org/sase/commit/f24aed1dfa6eaad588d456b7f41270a46646ff18) | feat(ace): collapse the agent-list status colour ladder | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 2026-08-28 12:23:56 EDT |
+| sase | [`7bc0c0d`](https://github.com/sase-org/sase/commit/7bc0c0d98e4a21870177eb08de23ff129721bacd) | docs(memory): add the Gate Shell glossary strand and gates-never-block decision record | [sase-ud.14](sase-ud.14.md) | 2026-08-28 13:28:07 EDT |

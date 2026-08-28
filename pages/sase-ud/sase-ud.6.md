@@ -17,7 +17,7 @@ gate-tui: add the ⋔ gate glyph and legend entry, per-kind shell lanes and chip
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.13](sase-ud.13.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.13](sase-ud.13.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.4](sase-ud.4.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.5](sase-ud.5.md) ✓ · ⧖ 2026-08-26
 

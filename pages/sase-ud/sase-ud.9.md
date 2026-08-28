@@ -17,7 +17,7 @@ hitl-launch-migration: convert workflow_hitl_gate and launch_request_response fr
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.13](sase-ud.13.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-ud.13](sase-ud.13.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-ud.7](sase-ud.7.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
