@@ -32,7 +32,7 @@ The ACE TUI stays responsive while typing in the prompt input and while navigati
 | [sase-v2.3](sase-v2.3.md) | Stop per-tick config-token thread churn and per-key token lookups | ✓ closed | small | 2026-08-28 | 1 | 1 |
 | [sase-v2.4](sase-v2.4.md) | Take per-project disk I/O off the prompt completion keystroke path | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 | [sase-v2.5](sase-v2.5.md) | Index artifact link targets instead of scanning them per ref | ✓ closed | small | 2026-08-28 | 1 | 1 |
-| [sase-v2.6](sase-v2.6.md) | Regression guards for the repaired hot paths | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
+| [sase-v2.6](sase-v2.6.md) | Regression guards for the repaired hot paths | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["sase-v2.3: Stop per-tick config-token thread churn and per-key token lookups [closed]"]
     n4["sase-v2.4: Take per-project disk I/O off the prompt completion keystroke path [closed]"]
     n5["sase-v2.5: Index artifact link targets instead of scanning them per ref [closed]"]
-    n6["sase-v2.6: Regression guards for the repaired hot paths [in_progress]"]
+    n6["sase-v2.6: Regression guards for the repaired hot paths [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-v2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.3/README.md) | [sase-v2.3](sase-v2.3.md) | 1 |
 | [bbugyi200.athena.sase-v2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.4/README.md) | [sase-v2.4](sase-v2.4.md) | 1 |
 | [bbugyi200.athena.sase-v2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.5/README.md) | [sase-v2.5](sase-v2.5.md) | 1 |
-| [bbugyi200.athena.sase-v2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.6/README.md) | [sase-v2.6](sase-v2.6.md) | 0 |
+| [bbugyi200.athena.sase-v2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.6/README.md) | [sase-v2.6](sase-v2.6.md) | 1 |
 | [bbugyi200.athena.sase-v2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.land/README.md) | [sase-v2](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`cff6988`](https://github.com/sase-org/sase/commit/cff6988dadfc2a49fc55e34c9a0621afcc7e63f1) | fix(tui): move prompt completion lookups off pump | [sase-v2.4](sase-v2.4.md) | 2026-08-28 10:03:29 EDT |
 | sase | [`4a3cd44`](https://github.com/sase-org/sase/commit/4a3cd4404f7cd82814d7ac5baaeaf969c7ad1995) | perf(tui): index artifact link targets | [sase-v2.5](sase-v2.5.md) | 2026-08-28 10:04:49 EDT |
 | sase | [`9415b82`](https://github.com/sase-org/sase/commit/9415b82af119de673bcc47c9ee19e8464c098d61) | fix(config): reduce config token refresh churn | [sase-v2.3](sase-v2.3.md) | 2026-08-28 10:07:44 EDT |
+| sase | [`29e15be`](https://github.com/sase-org/sase/commit/29e15be0d4fd12e6c2ed63bbc5e4adc8e3982894) | test(tui): guard repaired freeze hot paths | [sase-v2.6](sase-v2.6.md) | 2026-08-28 10:34:20 EDT |

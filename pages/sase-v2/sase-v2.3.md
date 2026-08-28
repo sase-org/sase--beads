@@ -17,7 +17,7 @@ config_token: move the refresh-thread spawn out of the config-token cache lock, 
 
 ## Dependencies
 
-- **Blocks:** [sase-v2.6](sase-v2.6.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-v2.6](sase-v2.6.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

@@ -17,7 +17,7 @@ artifact_index: replace the linear known-target scan in _known_target_for_ref wi
 
 ## Dependencies
 
-- **Blocks:** [sase-v2.6](sase-v2.6.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-v2.6](sase-v2.6.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

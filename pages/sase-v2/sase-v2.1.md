@@ -17,7 +17,7 @@ section_visual: memoize prompt-panel section anchors per (generation, width) and
 
 ## Dependencies
 
-- **Blocks:** [sase-v2.6](sase-v2.6.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-v2.6](sase-v2.6.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

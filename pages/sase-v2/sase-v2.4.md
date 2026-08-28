@@ -19,7 +19,7 @@ prompt_completion: cache project workflow-type and changespec-name lookups acros
 
 ## Dependencies
 
-- **Blocks:** [sase-v2.6](sase-v2.6.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-v2.6](sase-v2.6.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

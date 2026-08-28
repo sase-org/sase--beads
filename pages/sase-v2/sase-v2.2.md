@@ -17,7 +17,7 @@ countdown_gate: extend the activity gate so the one-second countdown tick defers
 
 ## Dependencies
 
-- **Blocks:** [sase-v2.6](sase-v2.6.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-v2.6](sase-v2.6.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
