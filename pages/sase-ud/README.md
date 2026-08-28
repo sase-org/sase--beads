@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-ud
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0eg](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0eg.md) · **Assignee:** `sase-ud.land`
-**Created:** 2026-08-26 14:02:50 EDT
+**Created:** 2026-08-26 14:02:50 EDT · **Closed:** 2026-08-28 14:17:35 EDT
 **Plan:** [202608/gate\_shells.md](https://github.com/sase-org/sase--plans/blob/main/202608/gate_shells.md)
 
 <!-- sase:links:start -->
@@ -37,6 +37,15 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 
 [2026-08-28T15:31:36Z · 0fi--1] Correction to the earlier Note #4 resolution: 0fi--code implemented GateShellReclaimSummary + the chop contract in a different workspace clone, then the check-full follow-up resumed on a clean tree that did not contain those files. This follow-up re-applied the verified implementation in the landing workspace. Settlement semantics are still unchanged; the public reclaim result contract and chop rewrite are present again and will be declared for host-owned commit from this run.
 
+[2026-08-28T18:17:35Z · sase-ud.land] LAND VERIFICATION (sase-ud.land).
+
+Phases. All 14 phases closed and verified against the tree at 7bc0c0d98 plus this
+landing's changes. Spot-checked in source, not just in notes: the sase.shells substrate
+exists as a kind-parameterized package (member/naming/handoff/settlement/followup/prompt/
+output/state/status); gate_shell/ carries the full lifecycle (tran
+
+… and 5395 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -60,7 +69,7 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 
 ```mermaid
 flowchart TD
-    n0["sase-ud: Gate shells — a decision that outlives the agent that asked [in_progress]"]
+    n0["sase-ud: Gate shells — a decision that outlives the agent that asked [closed]"]
     n1["sase-ud.1: Bounded gate response lock [closed]"]
     n2["sase-ud.10: Migrate /sase_questions [closed]"]
     n3["sase-ud.11: Migrate /sase_plan [closed]"]
@@ -168,7 +177,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.7.md) | [sase-ud.7](sase-ud.7.md) | 1 |
 | [bbugyi200.athena.sase-ud.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.8/README.md) | [sase-ud.8](sase-ud.8.md) | 1 |
 | [bbugyi200.athena.sase-ud.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.9/README.md) | [sase-ud.9](sase-ud.9.md) | 2 |
-| [bbugyi200.athena.sase-ud.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.land/README.md) | [sase-ud](README.md) | 0 |
+| [bbugyi200.athena.sase-ud.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.land.md) | [sase-ud](README.md) | 1 |
 
 ## Commits
 
@@ -199,3 +208,4 @@ flowchart TD
 | sase | [`de491c7`](https://github.com/sase-org/sase/commit/de491c710dda33645f6cdfe7c976e1784d7a5200) | feat(ace): remove synthetic planner status reconciliation | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 2026-08-28 08:42:07 EDT |
 | sase | [`f24aed1`](https://github.com/sase-org/sase/commit/f24aed1dfa6eaad588d456b7f41270a46646ff18) | feat(ace): collapse the agent-list status colour ladder | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 2026-08-28 12:23:56 EDT |
 | sase | [`7bc0c0d`](https://github.com/sase-org/sase/commit/7bc0c0d98e4a21870177eb08de23ff129721bacd) | docs(memory): add the Gate Shell glossary strand and gates-never-block decision record | [sase-ud.14](sase-ud.14.md) | 2026-08-28 13:28:07 EDT |
+| sase | [`22f7221`](https://github.com/sase-org/sase/commit/22f7221684a6745a3054a977abbf4834e2dc5077) | fix(gate-shell): stop the ACE loader reaping pending gate claims | [sase-ud](README.md) | 2026-08-28 14:41:22 EDT |
