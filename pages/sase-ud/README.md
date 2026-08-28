@@ -31,6 +31,8 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 
 [2026-08-27T23:29:32Z · 0fb] DISCOVERED ISSUE: a pending gate shell never actually holds its workspace — ACE's Agents-tab loader frees it within ~10-30s of creation, every time. gate_shell/start_claim.move_gate_shell_claim transfers the creator's RUNNING-field claim to workflow 'ace-gate' keeping from_pid == to_pid == creator_pid, then the creator process is killed; ace/scheduler/stale_running_cleanup._gate_claim_is_releasable documents and respects that ('Pending gate shells intentionally keep the creator's old PID in the RUNNING row'), but ace/tui/models/_loaders/_running_loaders.py:139 does not: load_agents_from_running_field calls _release_stale_running_claim on ANY unpinned claim whose pid is not live, with no monitor/gate awareness and no caller_tag. Evidence from ~/.sase/logs/workspace_claims.jsonl for 2026-08-27: 7 of 7 gate-shell claims that survived creation were released by the ACE TUI (pid 3425508, untagged 'release') shortly after their 'gate-shell-create' transfer — 190424 create ws#10 -> 190440 release; 140926 -> 140933; 141042 -> 141108; 141808 -> 142010; 142327 -> 142348; 143115 -> 143128; 121141 -> 121149. Consequence at settlement: gate_shell/followup.py passes transfer_from_pid=gate_creator_claim_pid, the transfer fails ('workspace #10 with pid 290816 was not found'), and the follow-up records gate_followup_outcome 'launched-degraded' with _fresh_claim_degraded_reason — visible verbatim in 0f9--gate's done.json. Every gate-shell follow-up launch on this host is therefore degraded. Worse latent case: between the release and the settlement the workspace is back in the free pool, so an unrelated agent can take it and the follow-up degrades all the way to workspace #0 (_workspace_zero_degraded_reason), losing the gate's approved-command workspace. Monitor claims are not affected because a monitor's supervisor pid is live. Likely fix: teach the loader the same rule stale_running_cleanup already encodes — skip GATE_WORKSPACE_CLAIM_WORKFLOW ('ace-gate') claims unless the owning gate-shell member's marker says it is terminal, and pass a caller_tag so the ledger attributes the release. Separate root cause from the 'gated' outcome-parity issue noted above; not covered by the tale plan being proposed for that one.
 
+[2026-08-28T11:24:08Z · 0fc--code] DISCOVERED ISSUE: Approved plan 202608/axe_chop_summary_contract.md fixed the gate_shell_reclaim chop's result-reporting contract, but the public helper src/sase/gate_shell/reclaim.py::reclaim_pending_gate_shells still returns the private dataclass _GateShellReclaimSummary. That shape is now consumed by the builtin chop's structured summary path, so the gate-shell epic should decide whether the summary type should be public or the public helper should expose a stable non-private result contract. Scope: make the reclaim summary API explicit and keep symvision expectations aligned.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,18 +70,20 @@ flowchart TD
     n11["sase-ud.13.1.3.1.1: Pin the post-gate-shell family projection contract [closed]"]
     n12["sase-ud.13.1.3.1.2: Retire the notification-driven status writes [closed]"]
     n13["sase-ud.13.1.3.1.3: Retire the synthetic planner children [closed]"]
-    n14["sase-ud.13.1.3.1.4: Retire the timestamp-reconstruction status passes [in_progress]"]
-    n15["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
-    n16["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
-    n17["sase-ud.14: Memory, decision record, and skills [in_progress]"]
-    n18["sase-ud.2: The sase.shells family-shell substrate [closed]"]
-    n19["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
-    n20["sase-ud.4: Rust read-side gate shell rules [closed]"]
-    n21["sase-ud.5: Durable gate execution and live output [closed]"]
-    n22["sase-ud.6: Gate shells in ACE [closed]"]
-    n23["sase-ud.7: Configurable per-branch follow-up [closed]"]
-    n24["sase-ud.8: Fork, CLI, and conformance [closed]"]
-    n25["sase-ud.9: Migrate HITL and launch approval [closed]"]
+    n14["sase-ud.13.1.3.1.4: Retire the timestamp-reconstruction status passes [closed]"]
+    n15["sase-ud.13.1.3.1.5: Finish the status-strip integration after planner restoration drift [in_progress]"]
+    n16["sase-ud.13.1.3.1.5.1: Reconcile the restored planner and timestamp status machinery [closed]"]
+    n17["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
+    n18["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
+    n19["sase-ud.14: Memory, decision record, and skills [in_progress]"]
+    n20["sase-ud.2: The sase.shells family-shell substrate [closed]"]
+    n21["sase-ud.3: Gate shell creation, handoff, and settlement [closed]"]
+    n22["sase-ud.4: Rust read-side gate shell rules [closed]"]
+    n23["sase-ud.5: Durable gate execution and live output [closed]"]
+    n24["sase-ud.6: Gate shells in ACE [closed]"]
+    n25["sase-ud.7: Configurable per-branch follow-up [closed]"]
+    n26["sase-ud.8: Fork, CLI, and conformance [closed]"]
+    n27["sase-ud.9: Migrate HITL and launch approval [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -94,10 +98,10 @@ flowchart TD
     n10 --> n12
     n10 --> n13
     n10 --> n14
-    n6 --> n15
-    n6 --> n16
-    n0 --> n17
-    n0 --> n18
+    n10 --> n15
+    n15 --> n16
+    n6 --> n17
+    n6 --> n18
     n0 --> n19
     n0 --> n20
     n0 --> n21
@@ -105,28 +109,30 @@ flowchart TD
     n0 --> n23
     n0 --> n24
     n0 --> n25
+    n0 --> n26
+    n0 --> n27
     n2 -.-> n3
     n3 -.-> n4
     n4 -.-> n5
-    n5 -.-> n17
-    n7 -.-> n15
+    n5 -.-> n19
+    n7 -.-> n17
     n8 -.-> n9
-    n9 -.-> n15
+    n9 -.-> n17
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
-    n18 -.-> n19
-    n19 -.-> n20
-    n19 -.-> n21
-    n20 -.-> n22
+    n20 -.-> n21
     n21 -.-> n22
     n21 -.-> n23
-    n22 -.-> n5
-    n23 -.-> n2
+    n22 -.-> n24
     n23 -.-> n24
     n23 -.-> n25
-    n24 -.-> n2
-    n25 -.-> n5
+    n24 -.-> n5
+    n25 -.-> n2
+    n25 -.-> n26
+    n25 -.-> n27
+    n26 -.-> n2
+    n27 -.-> n5
 ```
 
 ## Agents
@@ -145,7 +151,8 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.13.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.2/README.md) | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.4.md) | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 1 |
-| [bbugyi200.athena.sase-ud.13.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.land/README.md) | [sase-ud.13.1.3.1](sase-ud.13.1.3.1.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.5.1.md) | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 1 |
+| [bbugyi200.athena.sase-ud.13.1.3.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.5.land/README.md) | [sase-ud.13.1.3.1.5](sase-ud.13.1.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.4/README.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 0 |
 | [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2 |
 | [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
@@ -186,3 +193,4 @@ flowchart TD
 | sase | [`a771258`](https://github.com/sase-org/sase/commit/a771258edf6e815bb05995918c070b6f3da19c55) | refactor(tui): retire notification status overrides | [sase-ud.13.1.3.1.2](sase-ud.13.1.3.1.2.md) | 2026-08-27 13:32:21 EDT |
 | sase | [`b69b07b`](https://github.com/sase-org/sase/commit/b69b07bc97a29720357db3d6105745e677e2e261) | refactor(tui): rework agent status family/render-cache modules and fix status-override tests | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 2026-08-27 14:33:10 EDT |
 | sase | [`8efce6d`](https://github.com/sase-org/sase/commit/8efce6de9d31fa63384767d58606a83f9274ec9e) | fix(ace): retire timestamp reconstruction statuses | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 2026-08-28 02:34:37 EDT |
+| sase | [`de491c7`](https://github.com/sase-org/sase/commit/de491c710dda33645f6cdfe7c976e1784d7a5200) | feat(ace): remove synthetic planner status reconciliation | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 2026-08-28 08:42:07 EDT |
