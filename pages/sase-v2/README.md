@@ -27,7 +27,7 @@ The ACE TUI stays responsive while typing in the prompt input and while navigati
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-v2.1](sase-v2.1.md) | Stop the prompt panel double-render and cache its section anchors | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
+| [sase-v2.1](sase-v2.1.md) | Stop the prompt panel double-render and cache its section anchors | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 | [sase-v2.2](sase-v2.2.md) | Gate the countdown tick on prompt typing, not just j/k | ✓ closed | small | 2026-08-28 | 1 | 1 |
 | [sase-v2.3](sase-v2.3.md) | Stop per-tick config-token thread churn and per-key token lookups | ◐ in_progress | small | 2026-08-28 | 1 | 0 |
 | [sase-v2.4](sase-v2.4.md) | Take per-project disk I/O off the prompt completion keystroke path | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
@@ -39,7 +39,7 @@ The ACE TUI stays responsive while typing in the prompt input and while navigati
 ```mermaid
 flowchart TD
     n0["sase-v2: Fix ACE TUI freezes and prompt-input lag [in_progress]"]
-    n1["sase-v2.1: Stop the prompt panel double-render and cache its section anchors [in_progress]"]
+    n1["sase-v2.1: Stop the prompt panel double-render and cache its section anchors [closed]"]
     n2["sase-v2.2: Gate the countdown tick on prompt typing, not just j/k [closed]"]
     n3["sase-v2.3: Stop per-tick config-token thread churn and per-key token lookups [in_progress]"]
     n4["sase-v2.4: Take per-project disk I/O off the prompt completion keystroke path [in_progress]"]
@@ -62,7 +62,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-v2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.1/README.md) | [sase-v2.1](sase-v2.1.md) | 0 |
+| [bbugyi200.athena.sase-v2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.1/README.md) | [sase-v2.1](sase-v2.1.md) | 1 |
 | [bbugyi200.athena.sase-v2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.2/README.md) | [sase-v2.2](sase-v2.2.md) | 1 |
 | [bbugyi200.athena.sase-v2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.3/README.md) | [sase-v2.3](sase-v2.3.md) | 0 |
 | [bbugyi200.athena.sase-v2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-v2.4/README.md) | [sase-v2.4](sase-v2.4.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a01d3e5`](https://github.com/sase-org/sase/commit/a01d3e56cb466e47baecf1da507a4b5e8132385e) | fix(tui): defer countdown repaint during prompt input | [sase-v2.2](sase-v2.2.md) | 2026-08-28 09:30:24 EDT |
+| sase | [`1858f75`](https://github.com/sase-org/sase/commit/1858f75606b82b31087410dc5447ccfcf731759c) | fix(tui): cache prompt panel section visuals | [sase-v2.1](sase-v2.1.md) | 2026-08-28 09:49:43 EDT |

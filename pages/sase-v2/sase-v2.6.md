@@ -13,7 +13,7 @@ perf_guards: add benches and unit guards that fail if the prompt panel double-re
 
 ## Dependencies
 
-- **Depends on:** [sase-v2.1](sase-v2.1.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-v2.1](sase-v2.1.md) ✓ · ⧖ 2026-08-28
 - **Depends on:** [sase-v2.2](sase-v2.2.md) ✓ · ⧖ 2026-08-28
 - **Depends on:** [sase-v2.3](sase-v2.3.md) ◐ · ⧖ 2026-08-28
 - **Depends on:** [sase-v2.4](sase-v2.4.md) ◐ · ⧖ 2026-08-28
