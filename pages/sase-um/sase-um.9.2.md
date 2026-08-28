@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.9](sase-um.9.md) / sase-um.9.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.land.md) · **Assignee:** `sase-um.9.2` · **Size:** medium
-**Created:** 2026-08-28 15:48:59 EDT
+**Created:** 2026-08-28 15:48:59 EDT · **Closed:** 2026-08-28 17:20:30 EDT
 **Plan:** [202608/release\_gate\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_completion.md)
 
 ## Description
@@ -16,6 +16,8 @@ heavy: fix the three drifted ACE PNG goldens that reproduce deterministically on
 [2026-08-28T21:11:53Z · sase-um.9.2] PROPOSED FOLLOW-UP: Refresh generated SASE memory/provider shims — `just check` fails `sase validate` because `init memory --check` reports stale generated SASE memory files and provider shims under the home/chezmoi memory output; needs owner-authorized memory regeneration.
 
 [2026-08-28T21:16:36Z · sase-um.9.2] STATUS: Visual repair complete and verified with `just test-visual` (842 passed, 1 skipped); targeted non-visual attribution nodes pass locally, under py313 for the ACE checkout test, and under `just test-contexts` for the three coverage-contexts nodes. Not closing yet because the post-pin `just check` rerun is blocked by generated SASE memory/provider-shim drift and no completed green Full CI run includes this repair.
+
+[2026-08-28T21:20:30Z · sase-um.9.2] Auto-closed by `sase stitch create` after create_commit landed ed74b9f7b ("test: stabilize full ci release gate"). No verification is implied by this note. Reopen with `sase bead open sase-um.9.2`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
