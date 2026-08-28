@@ -20,7 +20,7 @@ notification-strip: delete the pending-plan and `UserQuestion` override writes i
 ## Dependencies
 
 - **Depends on:** [sase-ud.13.1.3.1.1](sase-ud.13.1.3.1.1.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
