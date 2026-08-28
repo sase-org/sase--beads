@@ -31,6 +31,8 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 [2026-08-27T23:42:51Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: tests/pager/test_rail_parity.py link_traversing_pager expected_target5 source/target repeated local fail-then-pass — just check full-suite escalation failed those two parametrizations after linked-core 0.32.12 rebuild on 2026-08-27; direct rerun of both nodes passed.
 
+[2026-08-28T07:03:49Z · sase-um.5.1.3--w] PROPOSED FOLLOW-UP: Investigate scoped-suite flake in tests/ace/tui/test_plugins_browser_pane_sase_update.py::test_updates_pane_sase_update_confirm_executes_and_refreshes - just check expanded scoped lane timed out waiting for fake update execution and restart timer after 2969 passes on 2026-08-28; immediate single-test rerun passed.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.5.1.1](sase-um.5.1.1.md) ✓ · ⧖ 2026-08-27
@@ -40,7 +42,7 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 7 |
+| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.3.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 8 |
 
 ## Commits
 
@@ -53,3 +55,4 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 | sase | [`4d31563`](https://github.com/sase-org/sase/commit/4d315636322392d692e737651c6d10174ed7d81c) | fix(agent): restore logical planner projection rows | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 17:13:56 EDT |
 | sase | [`ebdc9dd`](https://github.com/sase-org/sase/commit/ebdc9dda0c316fb8403d77e42efbbfdef7ada8de) | test(perf): isolate view-hints trace harness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 18:38:42 EDT |
 | sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |
+| sase | [`30b495e`](https://github.com/sase-org/sase/commit/30b495e66613e707ac43a7d7641aac869795d9c1) | fix(tui): defer confirm dialog default focus | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-28 03:15:19 EDT |
