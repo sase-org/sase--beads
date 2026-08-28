@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.9](sase-um.9.md) / sase-um.9.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.land.md) · **Assignee:** `sase-um.9.1` · **Size:** large
-**Created:** 2026-08-28 15:48:58 EDT
+**Created:** 2026-08-28 15:48:58 EDT · **Closed:** 2026-08-28 16:24:30 EDT
 **Plan:** [202608/release\_gate\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_completion.md)
 
 ## Description
@@ -17,14 +17,10 @@ chopscope: make ci_watch's merge_method, gating_workflows, heavy_workflows, and 
 
 [2026-08-28T20:18:11Z · sase-um.9.1] PROPOSED FOLLOW-UP: bugyi-chops default dev env depends on unreleased/current SASE behavior — plain `just check` with PyPI `sase==0.16.0` fails existing toobig typed-launch tests because that package lacks `sase.feature_flags` and `PromptDirectives.if_code`; the source-SASE env passes, so publish/order the matching SASE runtime or ratchet the bugyi-chops dependency before PyPI release.
 
+[2026-08-28T20:24:30Z · sase-um.9.1] Auto-closed by `sase stitch create` after create_commit landed c3d613d ("feat(ci-watch): scope release gates by repository"). No verification is implied by this note. Reopen with `sase bead open sase-um.9.1`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@ec5e82f`](https://github.com/bbugyi200/dotfiles/commit/ec5e82fb7490b21395a60bccd92cecf5c4b91379) | chore(config): scope ci\_watch release gates by repo | [sase-um.9.1](sase-um.9.1.md) | 2026-08-28 16:21:16 EDT |
+| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 0 |

@@ -110,7 +110,7 @@ subtree):
 | [sase-um.4](sase-um.4.md) | Throttle release-please to a schedule | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-um.5](sase-um.5.md) | Drive the master gate green | ✓ closed | large | 2026-08-26 | 1 | 0 |
 | [sase-um.6](sase-um.6.md) | Pin the Rust core revision CI builds | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ✓ closed | small | 2026-08-26 | 1 | 1 |
+| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ✓ closed | small | 2026-08-26 | 1 | 0 |
 | [sase-um.8](sase-um.8.md) | Measure the acceptance criteria and ship v0.17.0 | ✓ closed | small | 2026-08-26 | 1 | 0 |
 
 ## Lineage
@@ -131,9 +131,9 @@ flowchart TD
     n11["sase-um.7: Chop configuration rollout [closed]"]
     n12["sase-um.8: Measure the acceptance criteria and ship v0.17.0 [closed]"]
     n13["sase-um.9: Finish the release gate — repair the chop's per-repo scoping, green both lanes, and ship v0.17.0 [in_progress]"]
-    n14["sase-um.9.1: Scope ci_watch's release-gate variables per repository [in_progress]"]
+    n14["sase-um.9.1: Scope ci_watch's release-gate variables per repository [closed]"]
     n15["sase-um.9.2: Drive Full CI green [in_progress]"]
-    n16["sase-um.9.3: Bring the Master Gate to a durable green inside its 8-minute p50 budget [in_progress]"]
+    n16["sase-um.9.3: Bring the Master Gate to a durable green inside its 8-minute p50 budget [closed]"]
     n17["sase-um.9.4: Ship v0.17.0 and re-measure every acceptance criterion [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -183,11 +183,11 @@ flowchart TD
 | [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.3.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 8 |
 | [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.land.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.6/README.md) | [sase-um.6](sase-um.6.md) | 1 |
-| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 1 |
+| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
 | [bbugyi200.athena.sase-um.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.8/README.md) | [sase-um.8](sase-um.8.md) | 0 |
-| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 1 |
+| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 0 |
 | [bbugyi200.athena.sase-um.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.2/README.md) | [sase-um.9.2](sase-um.9.2.md) | 0 |
-| [bbugyi200.athena.sase-um.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.3/README.md) | [sase-um.9.3](sase-um.9.3.md) | 0 |
+| [bbugyi200.athena.sase-um.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.3/README.md) | [sase-um.9.3](sase-um.9.3.md) | 1 |
 | [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.4/README.md) | [sase-um.9.4](sase-um.9.4.md) | 0 |
 | [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.land/README.md) | [sase-um.9](sase-um.9.md) | 0 |
 | [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.land.md) | [sase-um](README.md) | 0 |
@@ -199,7 +199,6 @@ flowchart TD
 | sase | [`bee0592`](https://github.com/sase-org/sase/commit/bee05929dd7104804fd9d13252da1789fcd6e2bb) | ci(release): throttle release-please workflow | [sase-um.4](sase-um.4.md) | 2026-08-26 19:49:15 EDT |
 | sase | [`5d8872f`](https://github.com/sase-org/sase/commit/5d8872f4d2ed263d38a41bcedea44fd15e7ba206) | feat(ci): add fast per-SHA master gate with sharded test matrix | [sase-um.1](sase-um.1.md) | 2026-08-27 07:51:23 EDT |
 | sase | [`840dd3e`](https://github.com/sase-org/sase/commit/840dd3eb4af4c5c93f4806ef00b31fad3ce02758) | ci: move exhaustive workflow to scheduled full lane | [sase-um.3](sase-um.3.md) | 2026-08-27 08:29:47 EDT |
-| chezmoi | [`chezmoi@ae29a7c`](https://github.com/bbugyi200/dotfiles/commit/ae29a7c7dc1373b4716323451a80905ec6927cc0) | feat(ci): roll out ci\_watch release gate config | [sase-um.7](sase-um.7.md) | 2026-08-27 08:39:20 EDT |
 | sase | [`30f3843`](https://github.com/sase-org/sase/commit/30f384324343eb9f2a6f6a84488276c464532ddb) | fix(fastlane): repair master gate fast-suite failures | [sase-um.5.1.1](sase-um.5.1.1.md) | 2026-08-27 08:43:37 EDT |
 | sase | [`eaf4ea8`](https://github.com/sase-org/sase/commit/eaf4ea8919058d4ae5494b56be8007d128b70b26) | test(ace-tui-visual): route Artifacts digit presses through the live seam and rebaseline PNG goldens | [sase-um.5.1.2](sase-um.5.1.2.md) | 2026-08-27 09:11:16 EDT |
 | sase | [`a8e72ce`](https://github.com/sase-org/sase/commit/a8e72cebeb234ff9a7c69483bc4ee800fd6e5ec8) | feat(ci): pin the sase-core revision CI builds from | [sase-um.6](sase-um.6.md) | 2026-08-27 09:41:48 EDT |
@@ -211,4 +210,4 @@ flowchart TD
 | sase | [`ebdc9dd`](https://github.com/sase-org/sase/commit/ebdc9dda0c316fb8403d77e42efbbfdef7ada8de) | test(perf): isolate view-hints trace harness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 18:38:42 EDT |
 | sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |
 | sase | [`30b495e`](https://github.com/sase-org/sase/commit/30b495e66613e707ac43a7d7641aac869795d9c1) | fix(tui): defer confirm dialog default focus | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-28 03:15:19 EDT |
-| chezmoi | [`chezmoi@ec5e82f`](https://github.com/bbugyi200/dotfiles/commit/ec5e82fb7490b21395a60bccd92cecf5c4b91379) | chore(config): scope ci\_watch release gates by repo | [sase-um.9.1](sase-um.9.1.md) | 2026-08-28 16:21:16 EDT |
+| sase | [`69d3d71`](https://github.com/sase-org/sase/commit/69d3d71902aec6cbde1dd6d44054d5a1ab166e75) | perf(ci): raise Master Gate to eight shards and refresh timings from CI | [sase-um.9.3](sase-um.9.3.md) | 2026-08-28 16:58:05 EDT |

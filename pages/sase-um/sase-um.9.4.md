@@ -14,7 +14,7 @@ ship: watch ci_watch reach eligible on sase-org/sase, confirm the guarded merge 
 ## Dependencies
 
 - **Depends on:** [sase-um.9.2](sase-um.9.2.md) ◐ · ⧖ 2026-08-28
-- **Depends on:** [sase-um.9.3](sase-um.9.3.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-um.9.3](sase-um.9.3.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
