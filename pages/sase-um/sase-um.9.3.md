@@ -23,7 +23,7 @@ gatewall: attribute and fix the intermittent Master Gate shard failures, cut the
 
 ## Dependencies
 
-- **Blocks:** [sase-um.9.4](sase-um.9.4.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-um.9.4](sase-um.9.4.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

@@ -21,7 +21,7 @@ heavy: fix the three drifted ACE PNG goldens that reproduce deterministically on
 
 ## Dependencies
 
-- **Blocks:** [sase-um.9.4](sase-um.9.4.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-um.9.4](sase-um.9.4.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

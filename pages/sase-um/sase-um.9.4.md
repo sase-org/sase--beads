@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.9](sase-um.9.md) / sase-um.9.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.land.md) · **Assignee:** `sase-um.9.4` · **Size:** medium
-**Created:** 2026-08-28 15:49:00 EDT
+**Created:** 2026-08-28 15:49:00 EDT · **Closed:** 2026-08-28 19:54:32 EDT
 **Plan:** [202608/release\_gate\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_completion.md)
 
 ## Description
@@ -23,6 +23,8 @@ ship: watch ci_watch reach eligible on sase-org/sase, confirm the guarded merge 
 
 [2026-08-28T23:50:44Z · sase-um.9.4--2] STATUS: just check passed (ky488s13h53d, exit 0, 4m18s). Pin a320fc88922a plus wait_for_snapshot_idle are still uncommitted; submitting host stitch next. This is a mid-flight ship-phase commit: do not treat it as phase completion. After it lands on origin/master, continue: confirm Master Gate on the new HEAD, dispatch Full CI, watch ci_watch merge #284, confirm v0.17.0 publish, re-measure all seven ACs, then close only this bead.
 
+[2026-08-28T23:54:32Z · sase-um.9.4--2] Auto-closed by `sase stitch create` after create_commit landed fa74163b5 ("fix(ci): ratchet core pin and wait for models-panel snapshot refresh"). No verification is implied by this note. Reopen with `sase bead open sase-um.9.4`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.2](sase-um.9.2.md) ✓ · ⧖ 2026-08-28
@@ -32,10 +34,11 @@ ship: watch ci_watch reach eligible on sase-org/sase, confirm the guarded merge 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 1 |
+| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fa74163`](https://github.com/sase-org/sase/commit/fa74163b5a742fa1cd7e8bfcf98fdd5c0b579da3) | fix(ci): ratchet core pin and wait for models-panel snapshot refresh | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:52:06 EDT |
+| chezmoi | [`chezmoi@aec90fe`](https://github.com/bbugyi200/dotfiles/commit/aec90fe238281b4ac8c9543c7c3d7c8e3d2cf8da) | fix(config): force colorless gh JSON for the ci\_watch chop | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:55:00 EDT |
