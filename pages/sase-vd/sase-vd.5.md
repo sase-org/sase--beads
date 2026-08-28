@@ -14,7 +14,7 @@ one-workspace-invariant-coverage: add a doctor check that reports any single liv
 ## Dependencies
 
 - **Depends on:** [sase-vd.1](sase-vd.1.md) ✓ · ⧖ 2026-08-28
-- **Depends on:** [sase-vd.2](sase-vd.2.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-vd.2](sase-vd.2.md) ✓ · ⧖ 2026-08-28
 - **Depends on:** [sase-vd.3](sase-vd.3.md) ◐ · ⧖ 2026-08-28
 - **Depends on:** [sase-vd.4](sase-vd.4.md) ◐ · ⧖ 2026-08-28
 

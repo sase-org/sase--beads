@@ -27,8 +27,8 @@ Close the workspace-collision hole in which a `#gh:`/`#git:` agent works in a se
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-vd.1](sase-vd.1.md) | VCS setup adopts the runner's existing workspace | ✓ closed | medium | 2026-08-28 | 1 | 1 |
-| [sase-vd.2](sase-vd.2.md) | Pre-allocation survives shell follow-up launches | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
+| [sase-vd.1](sase-vd.1.md) | VCS setup adopts the runner's existing workspace | ✓ closed | medium | 2026-08-28 | 1 | 2 |
+| [sase-vd.2](sase-vd.2.md) | Pre-allocation survives shell follow-up launches | ✓ closed | medium | 2026-08-28 | 1 | 0 |
 | [sase-vd.3](sase-vd.3.md) | One workspace identity per runner | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
 | [sase-vd.4](sase-vd.4.md) | VCS release never frees a workspace the family still holds | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
 | [sase-vd.5](sase-vd.5.md) | Coverage for the one-workspace invariant | ◐ in_progress | small | 2026-08-28 | 1 | 0 |
@@ -39,7 +39,7 @@ Close the workspace-collision hole in which a `#gh:`/`#git:` agent works in a se
 flowchart TD
     n0["sase-vd: One workspace per agent family [in_progress]"]
     n1["sase-vd.1: VCS setup adopts the runner's existing workspace [closed]"]
-    n2["sase-vd.2: Pre-allocation survives shell follow-up launches [in_progress]"]
+    n2["sase-vd.2: Pre-allocation survives shell follow-up launches [closed]"]
     n3["sase-vd.3: One workspace identity per runner [in_progress]"]
     n4["sase-vd.4: VCS release never frees a workspace the family still holds [in_progress]"]
     n5["sase-vd.5: Coverage for the one-workspace invariant [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.1/README.md) | [sase-vd.1](sase-vd.1.md) | 1 |
+| [bbugyi200.athena.sase-vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.1/README.md) | [sase-vd.1](sase-vd.1.md) | 2 |
 | [bbugyi200.athena.sase-vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.2/README.md) | [sase-vd.2](sase-vd.2.md) | 0 |
 | [bbugyi200.athena.sase-vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.3/README.md) | [sase-vd.3](sase-vd.3.md) | 0 |
 | [bbugyi200.athena.sase-vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.4/README.md) | [sase-vd.4](sase-vd.4.md) | 0 |
@@ -72,3 +72,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8426315`](https://github.com/sase-org/sase/commit/84263159f6499bf922e33ae58c7b4ce193e6698f) | feat(git-setup): adopt the runner's numbered workspace claim | [sase-vd.1](sase-vd.1.md) | 2026-08-28 18:44:44 EDT |
+| sase-github | [`sase-github@5e8e9ea`](https://github.com/sase-org/sase-github/commit/5e8e9ea6a48b5b285a65d9cb1fa087f74d52b6b0) | feat(gh-setup): adopt the runner's numbered workspace claim | [sase-vd.1](sase-vd.1.md) | 2026-08-28 18:46:43 EDT |
