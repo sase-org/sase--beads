@@ -33,6 +33,10 @@ Every sase gate that an agent creates becomes a named gate shell in that agent's
 
 [2026-08-28T11:24:08Z · 0fc--code] DISCOVERED ISSUE: Approved plan 202608/axe_chop_summary_contract.md fixed the gate_shell_reclaim chop's result-reporting contract, but the public helper src/sase/gate_shell/reclaim.py::reclaim_pending_gate_shells still returns the private dataclass _GateShellReclaimSummary. That shape is now consumed by the builtin chop's structured summary path, so the gate-shell epic should decide whether the summary type should be public or the public helper should expose a stable non-private result contract. Scope: make the reclaim summary API explicit and keep symvision expectations aligned.
 
+[2026-08-28T14:47:15Z · 0fi--code] Note #4 is resolved by tale plan 202608/gate_shell_reclaim_chop_contract.md (this workspace): _GateShellReclaimSummary is now the public GateShellReclaimSummary with bounded error_details, and sase_chop_gate_shell_reclaim consumes that type by name so the symbol stays live for symvision. Settlement semantics are unchanged.
+
+[2026-08-28T15:31:36Z · 0fi--1] Correction to the earlier Note #4 resolution: 0fi--code implemented GateShellReclaimSummary + the chop contract in a different workspace clone, then the check-full follow-up resumed on a clean tree that did not contain those files. This follow-up re-applied the verified implementation in the landing workspace. Settlement semantics are still unchanged; the public reclaim result contract and chop rewrite are present again and will be declared for host-owned commit from this run.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -65,15 +69,15 @@ flowchart TD
     n6["sase-ud.13.1: Collapse the gate-shell status machinery and remove the beta flag [in_progress]"]
     n7["sase-ud.13.1.1: Pin the plan and epic gate accents [closed]"]
     n8["sase-ud.13.1.2: Remove the gate_shell_handoff flag and the blocking Off branch [closed]"]
-    n9["sase-ud.13.1.3: Retire the notification and family status overrides [in_progress]"]
-    n10["sase-ud.13.1.3.1: Retire the notification and family status overrides [in_progress]"]
+    n9["sase-ud.13.1.3: Retire the notification and family status overrides [closed]"]
+    n10["sase-ud.13.1.3.1: Retire the notification and family status overrides [closed]"]
     n11["sase-ud.13.1.3.1.1: Pin the post-gate-shell family projection contract [closed]"]
     n12["sase-ud.13.1.3.1.2: Retire the notification-driven status writes [closed]"]
     n13["sase-ud.13.1.3.1.3: Retire the synthetic planner children [closed]"]
     n14["sase-ud.13.1.3.1.4: Retire the timestamp-reconstruction status passes [closed]"]
-    n15["sase-ud.13.1.3.1.5: Finish the status-strip integration after planner restoration drift [in_progress]"]
+    n15["sase-ud.13.1.3.1.5: Finish the status-strip integration after planner restoration drift [closed]"]
     n16["sase-ud.13.1.3.1.5.1: Reconcile the restored planner and timestamp status machinery [closed]"]
-    n17["sase-ud.13.1.4: Collapse the agent-list status colour ladder [in_progress]"]
+    n17["sase-ud.13.1.4: Collapse the agent-list status colour ladder [closed]"]
     n18["sase-ud.13.1.5: One nested family_shell wire record at schema v7 [closed]"]
     n19["sase-ud.14: Memory, decision record, and skills [in_progress]"]
     n20["sase-ud.2: The sase.shells family-shell substrate [closed]"]
@@ -152,8 +156,7 @@ flowchart TD
 | [bbugyi200.athena.sase-ud.13.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.3/README.md) | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.4.md) | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.3.1.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.3.1.5.1.md) | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 1 |
-| [bbugyi200.athena.sase-ud.13.1.3.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.3.1.5.land/README.md) | [sase-ud.13.1.3.1.5](sase-ud.13.1.3.1.5.md) | 0 |
-| [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.4/README.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 0 |
+| [bbugyi200.athena.sase-ud.13.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-ud.13.1.4.md) | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 1 |
 | [bbugyi200.athena.sase-ud.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.5/README.md) | [sase-ud.13.1.5](sase-ud.13.1.5.md) | 2 |
 | [bbugyi200.athena.sase-ud.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.13.1.land/README.md) | [sase-ud.13.1](sase-ud.13.1.md) | 0 |
 | [bbugyi200.athena.sase-ud.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ud.14/README.md) | [sase-ud.14](sase-ud.14.md) | 0 |
@@ -194,3 +197,4 @@ flowchart TD
 | sase | [`b69b07b`](https://github.com/sase-org/sase/commit/b69b07bc97a29720357db3d6105745e677e2e261) | refactor(tui): rework agent status family/render-cache modules and fix status-override tests | [sase-ud.13.1.3.1.3](sase-ud.13.1.3.1.3.md) | 2026-08-27 14:33:10 EDT |
 | sase | [`8efce6d`](https://github.com/sase-org/sase/commit/8efce6de9d31fa63384767d58606a83f9274ec9e) | fix(ace): retire timestamp reconstruction statuses | [sase-ud.13.1.3.1.4](sase-ud.13.1.3.1.4.md) | 2026-08-28 02:34:37 EDT |
 | sase | [`de491c7`](https://github.com/sase-org/sase/commit/de491c710dda33645f6cdfe7c976e1784d7a5200) | feat(ace): remove synthetic planner status reconciliation | [sase-ud.13.1.3.1.5.1](sase-ud.13.1.3.1.5.1.md) | 2026-08-28 08:42:07 EDT |
+| sase | [`f24aed1`](https://github.com/sase-org/sase/commit/f24aed1dfa6eaad588d456b7f41270a46646ff18) | feat(ace): collapse the agent-list status colour ladder | [sase-ud.13.1.4](sase-ud.13.1.4.md) | 2026-08-28 12:23:56 EDT |

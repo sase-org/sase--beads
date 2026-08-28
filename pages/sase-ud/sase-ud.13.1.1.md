@@ -17,7 +17,7 @@ accent-pin: transcribe the agent-list ladder's hand-tuned plan, tale, epic, feed
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.13.1.4](sase-ud.13.1.4.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-ud.13.1.4](sase-ud.13.1.4.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

@@ -19,7 +19,7 @@ flag-removal: make the gate-shell handoff unconditional in the plan and question
 
 ## Dependencies
 
-- **Blocks:** [sase-ud.13.1.3](sase-ud.13.1.3.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-ud.13.1.3](sase-ud.13.1.3.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
