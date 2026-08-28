@@ -23,7 +23,7 @@ corepin: record a sase-core revision in-repo, build CI's core wheel from that re
 
 - **Depends on:** [sase-um.1](sase-um.1.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.3](sase-um.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-um.8](sase-um.8.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.8](sase-um.8.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

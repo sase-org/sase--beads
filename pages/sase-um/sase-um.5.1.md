@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.5](sase-um.5.md) / sase-um.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.md) · **Assignee:** `sase-um.5.1.land`
-**Created:** 2026-08-27 08:17:48 EDT
+**Created:** 2026-08-27 08:17:48 EDT · **Closed:** 2026-08-28 15:11:51 EDT
 **Plan:** [202608/master\_gate\_green.md](https://github.com/sase-org/sase--plans/blob/main/202608/master_gate_green.md)
 
 <!-- sase:links:start -->
@@ -27,4 +27,4 @@ The Master Gate reaches a green conclusion on the tip of master and stays there,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.land/README.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |
+| [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.land.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |

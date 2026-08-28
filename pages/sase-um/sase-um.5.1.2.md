@@ -19,7 +19,7 @@ visual: replace every hard-coded Artifacts digit press in the visual suite with 
 
 ## Dependencies
 
-- **Blocks:** [sase-um.5.1.3](sase-um.5.1.3.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [sase-um.5.1.3](sase-um.5.1.3.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

@@ -1,0 +1,30 @@
+# Bead: sase-um.9.1 — Scope ci\_watch's release-gate variables per repository
+
+[Bead Pages](../README.md) / [sase-um.9](sase-um.9.md) / sase-um.9.1
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.land.md) · **Assignee:** `sase-um.9.1` · **Size:** large
+**Created:** 2026-08-28 15:48:58 EDT
+**Plan:** [202608/release\_gate\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_completion.md)
+
+## Description
+
+chopscope: make ci_watch's merge_method, gating_workflows, heavy_workflows, and heavy_max_age_hours resolvable per repository instead of chop-global, release bugyi-chops, roll the chezmoi config forward, and prove sase-telegram PR #21 and sase-github stop reporting gating_workflow_missing.
+
+## Notes
+
+[2026-08-28T20:17:42Z · sase-um.9.1] PROPOSED FOLLOW-UP: source-env chop doctor Telegram script gap — after installing bugyi-chops 0.9.0 into the source SASE venv, `sase axe chop doctor` still exits ERROR because configured telegram chops `sase_chop_tg_inbound` and `sase_chop_tg_outbound` are not installed in that same venv; ci_watch itself resolves and the dry-run tick succeeds.
+
+[2026-08-28T20:18:11Z · sase-um.9.1] PROPOSED FOLLOW-UP: bugyi-chops default dev env depends on unreleased/current SASE behavior — plain `just check` with PyPI `sase==0.16.0` fails existing toobig typed-launch tests because that package lacks `sase.feature_flags` and `PromptDirectives.if_code`; the source-SASE env passes, so publish/order the matching SASE runtime or ratchet the bugyi-chops dependency before PyPI release.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@ec5e82f`](https://github.com/bbugyi200/dotfiles/commit/ec5e82fb7490b21395a60bccd92cecf5c4b91379) | chore(config): scope ci\_watch release gates by repo | [sase-um.9.1](sase-um.9.1.md) | 2026-08-28 16:21:16 EDT |

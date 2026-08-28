@@ -19,7 +19,7 @@ throttle: move publish.yml's release-please and release-metadata reconciliation 
 
 ## Dependencies
 
-- **Blocks:** [sase-um.8](sase-um.8.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.8](sase-um.8.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 

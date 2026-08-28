@@ -20,10 +20,16 @@ config: update the ci_watch chop's chezmoi configuration with the new gating and
 - **Depends on:** [sase-um.1](sase-um.1.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.2](sase-um.2.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.3](sase-um.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-um.8](sase-um.8.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.8](sase-um.8.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
+| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@ae29a7c`](https://github.com/bbugyi200/dotfiles/commit/ae29a7c7dc1373b4716323451a80905ec6927cc0) | feat(ci): roll out ci\_watch release gate config | [sase-um.7](sase-um.7.md) | 2026-08-27 08:39:20 EDT |

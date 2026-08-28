@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.5.1](sase-um.5.1.md) / sase-um.5.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.md) · **Assignee:** `sase-um.5.1.3` · **Size:** medium
-**Created:** 2026-08-27 08:17:52 EDT
+**Created:** 2026-08-27 08:17:52 EDT · **Closed:** 2026-08-28 03:17:13 EDT
 **Plan:** [202608/master\_gate\_green.md](https://github.com/sase-org/sase--plans/blob/main/202608/master_gate_green.md)
 
 ## Description
@@ -32,6 +32,8 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 [2026-08-27T23:42:51Z · sase-um.5.1.3] PROPOSED FOLLOW-UP: tests/pager/test_rail_parity.py link_traversing_pager expected_target5 source/target repeated local fail-then-pass — just check full-suite escalation failed those two parametrizations after linked-core 0.32.12 rebuild on 2026-08-27; direct rerun of both nodes passed.
 
 [2026-08-28T07:03:49Z · sase-um.5.1.3--w] PROPOSED FOLLOW-UP: Investigate scoped-suite flake in tests/ace/tui/test_plugins_browser_pane_sase_update.py::test_updates_pane_sase_update_confirm_executes_and_refreshes - just check expanded scoped lane timed out waiting for fake update execution and restart timer after 2969 passes on 2026-08-28; immediate single-test rerun passed.
+
+[2026-08-28T07:17:13Z · sase-um.5.1.3--x] Auto-closed by `sase stitch create` after create_commit landed 30b495e66 ("fix(tui): defer confirm dialog default focus"). No verification is implied by this note. Reopen with `sase bead open sase-um.5.1.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 

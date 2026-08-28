@@ -18,7 +18,7 @@ gate: add master-gate.yml — a per-SHA, never-cancelled push lane that runs the
 ## Dependencies
 
 - **Blocks:** [sase-um.3](sase-um.3.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [sase-um.5](sase-um.5.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [sase-um.5](sase-um.5.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-um.6](sase-um.6.md) ✓ · ⧖ 2026-08-26
 - **Blocks:** [sase-um.7](sase-um.7.md) ✓ · ⧖ 2026-08-26
 
