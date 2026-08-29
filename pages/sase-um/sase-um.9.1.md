@@ -7,6 +7,18 @@
 **Created:** 2026-08-28 15:48:58 EDT · **Closed:** 2026-08-28 16:24:30 EDT
 **Plan:** [202608/release\_gate\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_completion.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-ve][1] | proposed by phase note #1 while validating ci_watch rollout; unrelated to the phase's per-repo config change |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-ve/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 chopscope: make ci_watch's merge_method, gating_workflows, heavy_workflows, and heavy_max_age_hours resolvable per repository instead of chop-global, release bugyi-chops, roll the chezmoi config forward, and prove sase-telegram PR #21 and sase-github stop reporting gating_workflow_missing.
@@ -23,10 +35,4 @@ chopscope: make ci_watch's merge_method, gating_workflows, heavy_workflows, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@ec5e82f`](https://github.com/bbugyi200/dotfiles/commit/ec5e82fb7490b21395a60bccd92cecf5c4b91379) | chore(config): scope ci\_watch release gates by repo | [sase-um.9.1](sase-um.9.1.md) | 2026-08-28 16:21:16 EDT |
+| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 0 |

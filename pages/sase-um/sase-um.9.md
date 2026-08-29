@@ -27,4 +27,4 @@ The three release repositories sase-org/sase, sase-org/sase-github, and sase-org
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.land/README.md) | [sase-um.9](sase-um.9.md) | 0 |
+| [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.land.md) | [sase-um.9](sase-um.9.md) | 0 |
