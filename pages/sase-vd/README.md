@@ -29,7 +29,7 @@ Close the workspace-collision hole in which a `#gh:`/`#git:` agent works in a se
 |---|---|---|---|---|---:|---:|
 | [sase-vd.1](sase-vd.1.md) | VCS setup adopts the runner's existing workspace | ✓ closed | medium | 2026-08-28 | 1 | 2 |
 | [sase-vd.2](sase-vd.2.md) | Pre-allocation survives shell follow-up launches | ✓ closed | medium | 2026-08-28 | 1 | 1 |
-| [sase-vd.3](sase-vd.3.md) | One workspace identity per runner | ✓ closed | medium | 2026-08-28 | 1 | 2 |
+| [sase-vd.3](sase-vd.3.md) | One workspace identity per runner | ✓ closed | medium | 2026-08-28 | 1 | 3 |
 | [sase-vd.4](sase-vd.4.md) | VCS release never frees a workspace the family still holds | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
 | [sase-vd.5](sase-vd.5.md) | Coverage for the one-workspace invariant | ◐ in_progress | small | 2026-08-28 | 1 | 0 |
 
@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.1/README.md) | [sase-vd.1](sase-vd.1.md) | 2 |
 | [bbugyi200.athena.sase-vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.2/README.md) | [sase-vd.2](sase-vd.2.md) | 1 |
-| [bbugyi200.athena.sase-vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.3/README.md) | [sase-vd.3](sase-vd.3.md) | 2 |
+| [bbugyi200.athena.sase-vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.3/README.md) | [sase-vd.3](sase-vd.3.md) | 3 |
 | [bbugyi200.athena.sase-vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.4/README.md) | [sase-vd.4](sase-vd.4.md) | 0 |
 | [bbugyi200.athena.sase-vd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.5/README.md) | [sase-vd.5](sase-vd.5.md) | 0 |
 | [bbugyi200.athena.sase-vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.land/README.md) | [sase-vd](README.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | sase-github | [`sase-github@5e8e9ea`](https://github.com/sase-org/sase-github/commit/5e8e9ea6a48b5b285a65d9cb1fa087f74d52b6b0) | feat(gh-setup): adopt the runner's numbered workspace claim | [sase-vd.1](sase-vd.1.md) | 2026-08-28 18:46:43 EDT |
 | sase | [`b7fcee9`](https://github.com/sase-org/sase/commit/b7fcee9db595cebb6b5fcbc474898fab8c6595e8) | feat(agent): rebind runner workspace identity | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:19:02 EDT |
 | sase-core | [`sase-core@4f16434`](https://github.com/sase-org/sase-core/commit/4f16434b5a5be70711d4617ef9a164c4efa28905) | fix(agent-launch): transfer workspace claim names | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:21:21 EDT |
+| sase-github | [`sase-github@f4663ae`](https://github.com/sase-org/sase-github/commit/f4663ae526929b23378372005662c20b495bd0f7) | feat(gh): mark runner-bound workspace allocations | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:23:10 EDT |
