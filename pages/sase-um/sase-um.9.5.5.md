@@ -13,7 +13,7 @@ choppublish: update bugyi-chops to the released SASE 0.17 dependency window, pro
 
 ## Dependencies
 
-- **Depends on:** [sase-um.9.5.4](sase-um.9.5.4.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-um.9.5.4](sase-um.9.5.4.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

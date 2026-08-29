@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.9.5](sase-um.9.5.md) / sase-um.9.5.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.land.md) · **Assignee:** `sase-um.9.5.4` · **Size:** medium
-**Created:** 2026-08-28 20:17:50 EDT
+**Created:** 2026-08-28 20:17:50 EDT · **Closed:** 2026-08-29 13:38:39 EDT
 **Plan:** [202608/finish\_release\_gate\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202608/finish_release_gate_landing.md)
 
 ## Description
@@ -39,7 +39,7 @@ PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches
 
 [2026-08-29T13:18:47Z · sase-um.9.5.4--6] STATUS: Full CI 33249788999 on 4a8b8358f is RED. Sole failed node: coverage-contexts job 99094187508. FAILED tests/ace/tui/test_plugins_browser_pane_sase_update.py::test_updates_pane_sase_update_confirm_executes_and_refreshes — wait_for 15s for timer_callbacks after the worker finished. App.set_timer mock swallowed every 1.0s delay, including PROC_RECONCILE_STARTUP_DELAY_SECONDS, so the restart-poll callback never registered and settle could not pump Worker.StateChanged. visual-test, lint, test(3.12), and test(3.14) green; test(3.13) cancelled after 90m with no harness assertion. Landed 60043deb9 with stitch -B (capture only the restart helper's poll timer; keep the blocker visible to running_background_procs). just check green (scoped 63 files). Fast-forwarded onto origin/master through 80f389d74. Dispatched Full CI 33254626035 and publish.yml 33254626982 (publish_existing=false) on 60043deb9. Master
 
-… and 128 more characters
+… and 5780 more characters
 
 ## Dependencies
 

@@ -139,7 +139,7 @@ flowchart TD
     n19["sase-um.9.5.1: Make bugyi-chops parse gh JSON without host-only environment overrides [closed]"]
     n20["sase-um.9.5.2: Bring successful Master Gate runs and the trailing median inside eight minutes [closed]"]
     n21["sase-um.9.5.3: Drive Full CI green on the final integrated SASE tip [closed]"]
-    n22["sase-um.9.5.4: Let ci_watch merge and publish SASE v0.17.0, then remeasure acceptance [in_progress]"]
+    n22["sase-um.9.5.4: Let ci_watch merge and publish SASE v0.17.0, then remeasure acceptance [closed]"]
     n23["sase-um.9.5.5: Ratchet and publish bugyi-chops 0.9.0 against released SASE v0.17.0 [in_progress]"]
     n0 --> n1
     n0 --> n2

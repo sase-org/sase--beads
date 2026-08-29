@@ -17,7 +17,7 @@ chopcolor: harden the GitHub command environment, verify ci_watch against source
 
 ## Dependencies
 
-- **Blocks:** [sase-um.9.5.4](sase-um.9.5.4.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-um.9.5.4](sase-um.9.5.4.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
