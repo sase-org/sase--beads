@@ -20,7 +20,7 @@ single-workspace-identity: when a VCS workflow legitimately allocates a workspac
 ## Dependencies
 
 - **Depends on:** [sase-vd.1](sase-vd.1.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [sase-vd.4](sase-vd.4.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-vd.4](sase-vd.4.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
 
 ## Agents
