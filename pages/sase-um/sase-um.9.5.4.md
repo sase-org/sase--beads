@@ -25,6 +25,8 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 [2026-08-29T04:13:57Z · sase-um.9.5.4--2] STATUS: Master Gate 33232866336 on 49d6c4188 is GREEN (core-wheel, lint, test 1-8 all success; cache 400s are annotations only). PR #284 is OPEN MERGEABLE/CLEAN (head eaeaf47f, chore(master): release 0.17.0 + sync metadata). publish.yml 33232979152 (publish_existing=false) succeeded. Dry-run `sase axe chop run ci_watch -n -V` parsed JSON with errors=0: sase-org/sase green on master@49d6c4188; #284 skipped heavy workflow not green (expected); telegram #21 merge_state_not_clean (not gating_workflow_missing); github no_release_pr. Full CI 33232978442 pending on 49d6c4188 behind in-progress 33231000542 (old SHA 623788895: test 3.12/3.14 and coverage-contexts already failed; test 3.13 still running; concurrency group full-ci cancel-in-progress:false). Monitoring 33232978442 (4h). Do not hand-merge. Do not auto-close.
 
+[2026-08-29T07:09:43Z · sase-um.9.5.4--3] STATUS: Full CI 33232978442 on 49d6c4188 is RED. Failed nodes (ignore obsolete 623788895): (1) full/test(3.12) job 99053300955 coverage leg FAILED tests/fakey/test_pipe_e2e.py::test_default_pipe_creates_family_member_with_fork_and_shared_workspace — successor invoke used LaunchSelection(provider=claude, model=opus, alias_origin=default_model) instead of inherited fakey; BrokenPipeError on Claude CLI stdin. test(3.14) green; test(3.13) cancelled. (2) full/visual-test job 99053300958 FAILED tests/ace/tui/visual/test_ace_png_snapshots_artifacts_files_empty.py wait_for _project_display_name==Alpha after 15s. Landed c1a5b36f5 with stitch -B: anonymous workflow prompt steps inherit agent_meta llm_provider/model when there is no %model and no live reservation; Artifacts Files panes that missed the first inventory get the seeded Alpha label without overwriting a live pane-local scope. just check green (escalated full suite). PR #284 OPEN MERGEABLE/CLEAN (head ebf8dfe8). publish.yml schedule 33239989521 succeeded; dispatched 33240161029 (publish_existing=false). Master Gate 33239974901 in progress on c1a5b36f5. Full CI 33240119114 (schedule, in_progress) and 33240160035 (dispatch, pending) both on c1a5b36f5; concurrency group full-ci cancel-in-progress:false. Monitoring 33240119114 (4h). Do not hand-merge. Do not auto-close.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
@@ -35,7 +37,7 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 3 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 4 |
 
 ## Commits
 
@@ -44,3 +46,4 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 | sase | [`e856c68`](https://github.com/sase-org/sase/commit/e856c68041ecee74e0a33836a86417a6d95d0a88) | fix(ace): reflow panel tabs after layout settles | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-28 23:43:28 EDT |
 | sase | [`49d6c41`](https://github.com/sase-org/sase/commit/49d6c4188d1a282a73f600d334aca67718a7a81c) | test(agents-sync): harden cross-machine clone against auto-gc races | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 00:02:49 EDT |
 | sase | [`c1a5b36`](https://github.com/sase-org/sase/commit/c1a5b36f5faf6f014d9d0bddea435a4e9fc4b0ee) | fix(pipe): inherit the parent model when a successor has no %model | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 03:04:20 EDT |
+| sase | [`ca7692e`](https://github.com/sase-org/sase/commit/ca7692ee3329b17ef1e176e5deb95dadbc3cfc3a) | test(agent): stub pid\_is\_thread so fixture PIDs survive host TID collisions | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 04:57:19 EDT |
