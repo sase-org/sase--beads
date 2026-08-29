@@ -45,7 +45,7 @@ PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
 - **Depends on:** [sase-um.9.5.3](sase-um.9.5.3.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [sase-um.9.5.5](sase-um.9.5.5.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-um.9.5.5](sase-um.9.5.5.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

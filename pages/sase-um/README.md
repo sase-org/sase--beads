@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-um
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ek](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ek.md) · **Assignee:** `sase-um.land`
-**Created:** 2026-08-26 19:12:23 EDT
+**Created:** 2026-08-26 19:12:23 EDT · **Closed:** 2026-08-29 14:34:26 EDT
 **Plan:** [202608/release\_gate\_liveness.md](https://github.com/sase-org/sase--plans/blob/main/202608/release_gate_liveness.md)
 
 <!-- sase:links:start -->
@@ -100,6 +100,72 @@ subtree):
   not to a standalone flake bead. The heavy-lane red and the gate flakiness (sase-um.8 #2
   and #3) are likewise epic work, not follow-ups.
 
+[2026-08-29T18:34:26Z · sase-um.9.5.land] LANDED by sase-um.9.5.land on 2026-08-29, completing the landing that sase-um.land
+recorded as INTERRUPTED on 2026-08-28 (note #1). Both reasons that note gave for holding
+the epic open are now resolved, and I rechecked them against live data rather than
+inheriting the child epics' verdicts.
+
+\## The two blockers from note #1
+
+1. NOT COMPLETE: "v0.17.0 has not shipped." It has. Tag v0.17.0 -> ec24701af; GitHub
+   release published 2026-08-29T17:32:03Z; PyPI latest 0.17.0. PR #284 was merged by
+   ci_watch's own guarded merge, not by hand: merge commit ec24701af has two parents,
+   31b7cba99 (master) and bb40e49979 (PR head), from
+   `gh pr merge 284 --repo sase-org/sase --merge --match-head-commit bb40e499`.
+
+2. REGRESSION (phase sase-um.7, chop-global release-gate variables applied to three
+   repositories). Repaired by child epic sase-um.9 phase 1: bugyi-chops c3d613d accepts
+   flat or per-repository merge_method / gating_workflows / heavy_workflows /
+   heavy_max_age_hours with built-in/default/repository precedence. Live effect
+   rechecked today: sase-github resolves to `no_release_pr` and sase-telegram to
+   `release_pr_not_clean`; neither reports `gating_workflow_missing` or
+   `heavy_lane_not_green`, so the mirror-image failure this epic introduced in the two
+   plugin repositories is gone. sase-telegram #21 is still unmerged on its own dirty
+   merge state, which is a repository condition rather than a gate defect and is not one
+   of this plan's acceptance criteria.
+
+\## All seven acceptance criteria, measured 2026-08-29T18:0xZ
+
+1. Cancelled conclusions in the trailing 50 Master Gate runs on master: 0.
+2. Trailing-50 completed median wall: 7.27 min (mean 9.21, min 6.13, max 23.35;
+   success-only median 7.44 over n=22). Meets <=8 min.
+3. Master commits in the last 24h with a completed Master Gate run: 46/46 (100%).
+   Meets >=90%.
+4. ci_watch reaches `eligible`: the 2026-08-29T13:29:16-04:00 live tick merged #284
+   (classification_reason=green, release_reason=merged); daily reasons are
+   gating/heavy, never default_branch_not_green.
+5. Guarded merge succeeded against the repository's allowed strategy (see above).
+6. PR ci.yml pull_request queue wait: p50 0.00s over 30 runs. Meets <=1 min.
+7. v0.17.0 tagged and on PyPI.
+
+Also rechecked the plan's job-minute guardrail, since raising SHARD_COUNT 6->8 was the
+lever the child epics used: green run 33261735456 on 25565fca1 cost 55.82 job-minutes
+across 10 jobs, including a 9.67-minute core-wheel cache miss. Under the <=60
+job-min/commit ceiling.
+
+\## The one item note #1 declined as a task and folded into the child plan
+
+The Master Gate shard-2 temp-path leakage cluster (sase-um.5.1.3 note #6: six
+tests/test_bead and ACE artifact-metadata nodes failing together in run 33095454790 on
+the 6-shard layout, all passing locally in 5.71s). It has not recurred. The shard layout
+changed twice since -- 6->8 in sase-um.9.3 and again when sase-um.9.5.2 moved the fast
+lanes off install-visual and refreshed tests/shard_timings.json -- and none of those six
+nodes appears in the trailing 20 Master Gate runs. Treating it as gate-green work rather
+than a standalone flake bead was the right call.
+
+\## Post-child drift, attributed
+
+Nine of the trailing 20 Master Gate runs are red and every one is accounted for: three on
+the generated-memory version drift that publishing 0.17.0 caused (fixed inside
+sase-um.9.5's landing by dropping the installed-version field from the generated
+task-type strands, `just check` green on the fix); five on the wait-directive
+completion-range family that sase-um.9.5.4's commit 25565fca1 fixed by ratcheting
+sase-core-rs to 0.32.16, all on SHAs predating it; and one on a local `git clone` exiting
+128 with stderr swallowed, recorded as a third site on task sase-vp. No red master lane
+remains attributable to this epic once the sase-um.9.5 fix lands.
+
+`sase bead epic-symbols sase-um` reports no entries; `just symvision` is clean.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -110,14 +176,14 @@ subtree):
 | [sase-um.4](sase-um.4.md) | Throttle release-please to a schedule | ✓ closed | medium | 2026-08-26 | 1 | 1 |
 | [sase-um.5](sase-um.5.md) | Drive the master gate green | ✓ closed | large | 2026-08-26 | 1 | 0 |
 | [sase-um.6](sase-um.6.md) | Pin the Rust core revision CI builds | ✓ closed | medium | 2026-08-26 | 1 | 1 |
-| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ✓ closed | small | 2026-08-26 | 1 | 0 |
+| [sase-um.7](sase-um.7.md) | Chop configuration rollout | ✓ closed | small | 2026-08-26 | 1 | 1 |
 | [sase-um.8](sase-um.8.md) | Measure the acceptance criteria and ship v0.17.0 | ✓ closed | small | 2026-08-26 | 0 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-um: Release gate liveness — a fast per-SHA master gate, a scheduled heavy lane, and a ci_watch allowlist [in_progress]"]
+    n0["sase-um: Release gate liveness — a fast per-SHA master gate, a scheduled heavy lane, and a ci_watch allowlist [closed]"]
     n1["sase-um.1: Fast per-SHA master gate [closed]"]
     n2["sase-um.2: ci_watch gating allowlist, heavy-lane freshness, and merge strategy [closed]"]
     n3["sase-um.3: Scheduled heavy lane off the push path [closed]"]
@@ -130,17 +196,17 @@ flowchart TD
     n10["sase-um.6: Pin the Rust core revision CI builds [closed]"]
     n11["sase-um.7: Chop configuration rollout [closed]"]
     n12["sase-um.8: Measure the acceptance criteria and ship v0.17.0 [closed]"]
-    n13["sase-um.9: Finish the release gate — repair the chop's per-repo scoping, green both lanes, and ship v0.17.0 [in_progress]"]
+    n13["sase-um.9: Finish the release gate — repair the chop's per-repo scoping, green both lanes, and ship v0.17.0 [closed]"]
     n14["sase-um.9.1: Scope ci_watch's release-gate variables per repository [closed]"]
     n15["sase-um.9.2: Drive Full CI green [closed]"]
     n16["sase-um.9.3: Bring the Master Gate to a durable green inside its 8-minute p50 budget [closed]"]
     n17["sase-um.9.4: Ship v0.17.0 and re-measure every acceptance criterion [closed]"]
-    n18["sase-um.9.5: Complete the interrupted sase-um.9 release-gate landing [in_progress]"]
+    n18["sase-um.9.5: Complete the interrupted sase-um.9 release-gate landing [closed]"]
     n19["sase-um.9.5.1: Make bugyi-chops parse gh JSON without host-only environment overrides [closed]"]
     n20["sase-um.9.5.2: Bring successful Master Gate runs and the trailing median inside eight minutes [closed]"]
     n21["sase-um.9.5.3: Drive Full CI green on the final integrated SASE tip [closed]"]
     n22["sase-um.9.5.4: Let ci_watch merge and publish SASE v0.17.0, then remeasure acceptance [closed]"]
-    n23["sase-um.9.5.5: Ratchet and publish bugyi-chops 0.9.0 against released SASE v0.17.0 [in_progress]"]
+    n23["sase-um.9.5.5: Ratchet and publish bugyi-chops 0.9.0 against released SASE v0.17.0 [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -198,17 +264,17 @@ flowchart TD
 | [bbugyi200.athena.sase-um.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.2/README.md) | [sase-um.5.1.2](sase-um.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 8 |
 | [bbugyi200.athena.sase-um.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.6/README.md) | [sase-um.6](sase-um.6.md) | 1 |
-| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 0 |
-| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 0 |
+| [bbugyi200.athena.sase-um.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.7/README.md) | [sase-um.7](sase-um.7.md) | 1 |
+| [bbugyi200.athena.sase-um.9.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.1.md) | [sase-um.9.1](sase-um.9.1.md) | 1 |
 | [bbugyi200.athena.sase-um.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.2/README.md) | [sase-um.9.2](sase-um.9.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.3/README.md) | [sase-um.9.3](sase-um.9.3.md) | 1 |
-| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 1 |
+| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 2 |
 | [bbugyi200.athena.sase-um.9.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.1/README.md) | [sase-um.9.5.1](sase-um.9.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.3.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 7 |
-| [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.5/README.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
-| [bbugyi200.athena.sase-um.9.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.land/README.md) | [sase-um.9.5](sase-um.9.5.md) | 0 |
+| [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.5.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
+| [bbugyi200.athena.sase-um.9.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.land/README.md) | [sase-um.9.5](sase-um.9.5.md) | 1 |
 
 ## Commits
 
@@ -217,6 +283,7 @@ flowchart TD
 | sase | [`bee0592`](https://github.com/sase-org/sase/commit/bee05929dd7104804fd9d13252da1789fcd6e2bb) | ci(release): throttle release-please workflow | [sase-um.4](sase-um.4.md) | 2026-08-26 19:49:15 EDT |
 | sase | [`5d8872f`](https://github.com/sase-org/sase/commit/5d8872f4d2ed263d38a41bcedea44fd15e7ba206) | feat(ci): add fast per-SHA master gate with sharded test matrix | [sase-um.1](sase-um.1.md) | 2026-08-27 07:51:23 EDT |
 | sase | [`840dd3e`](https://github.com/sase-org/sase/commit/840dd3eb4af4c5c93f4806ef00b31fad3ce02758) | ci: move exhaustive workflow to scheduled full lane | [sase-um.3](sase-um.3.md) | 2026-08-27 08:29:47 EDT |
+| chezmoi | [`chezmoi@ae29a7c`](https://github.com/bbugyi200/dotfiles/commit/ae29a7c7dc1373b4716323451a80905ec6927cc0) | feat(ci): roll out ci\_watch release gate config | [sase-um.7](sase-um.7.md) | 2026-08-27 08:39:20 EDT |
 | sase | [`30f3843`](https://github.com/sase-org/sase/commit/30f384324343eb9f2a6f6a84488276c464532ddb) | fix(fastlane): repair master gate fast-suite failures | [sase-um.5.1.1](sase-um.5.1.1.md) | 2026-08-27 08:43:37 EDT |
 | sase | [`eaf4ea8`](https://github.com/sase-org/sase/commit/eaf4ea8919058d4ae5494b56be8007d128b70b26) | test(ace-tui-visual): route Artifacts digit presses through the live seam and rebaseline PNG goldens | [sase-um.5.1.2](sase-um.5.1.2.md) | 2026-08-27 09:11:16 EDT |
 | sase | [`a8e72ce`](https://github.com/sase-org/sase/commit/a8e72cebeb234ff9a7c69483bc4ee800fd6e5ec8) | feat(ci): pin the sase-core revision CI builds from | [sase-um.6](sase-um.6.md) | 2026-08-27 09:41:48 EDT |
@@ -228,9 +295,11 @@ flowchart TD
 | sase | [`ebdc9dd`](https://github.com/sase-org/sase/commit/ebdc9dda0c316fb8403d77e42efbbfdef7ada8de) | test(perf): isolate view-hints trace harness | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 18:38:42 EDT |
 | sase | [`69527b8`](https://github.com/sase-org/sase/commit/69527b84a5d139087ff7ae997625ce529812b22c) | fix(agents): preserve planner projection status | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-27 19:50:12 EDT |
 | sase | [`30b495e`](https://github.com/sase-org/sase/commit/30b495e66613e707ac43a7d7641aac869795d9c1) | fix(tui): defer confirm dialog default focus | [sase-um.5.1.3](sase-um.5.1.3.md) | 2026-08-28 03:15:19 EDT |
+| chezmoi | [`chezmoi@ec5e82f`](https://github.com/bbugyi200/dotfiles/commit/ec5e82fb7490b21395a60bccd92cecf5c4b91379) | chore(config): scope ci\_watch release gates by repo | [sase-um.9.1](sase-um.9.1.md) | 2026-08-28 16:21:16 EDT |
 | sase | [`69d3d71`](https://github.com/sase-org/sase/commit/69d3d71902aec6cbde1dd6d44054d5a1ab166e75) | perf(ci): raise Master Gate to eight shards and refresh timings from CI | [sase-um.9.3](sase-um.9.3.md) | 2026-08-28 16:58:05 EDT |
 | sase | [`ed74b9f`](https://github.com/sase-org/sase/commit/ed74b9f7b742e4e252ef6693cdd9096711cb2958) | test: stabilize full ci release gate | [sase-um.9.2](sase-um.9.2.md) | 2026-08-28 17:18:10 EDT |
 | sase | [`fa74163`](https://github.com/sase-org/sase/commit/fa74163b5a742fa1cd7e8bfcf98fdd5c0b579da3) | fix(ci): ratchet core pin and wait for models-panel snapshot refresh | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:52:06 EDT |
+| chezmoi | [`chezmoi@aec90fe`](https://github.com/bbugyi200/dotfiles/commit/aec90fe238281b4ac8c9543c7c3d7c8e3d2cf8da) | fix(config): force colorless gh JSON for the ci\_watch chop | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:55:00 EDT |
 | sase | [`a97cabe`](https://github.com/sase-org/sase/commit/a97cabe3a2f4dd2186ee3775b85b57244efe3ef6) | perf(ci): trim Master Gate fast setup | [sase-um.9.5.2](sase-um.9.5.2.md) | 2026-08-28 21:01:09 EDT |
 | sase | [`6237888`](https://github.com/sase-org/sase/commit/6237888953d823c5a382c78e4f1d388b5357c627) | fix(ci): ratchet core 0.32.15 and stop GitHub CPU false fails | [sase-um.9.5.3](sase-um.9.5.3.md) | 2026-08-28 23:04:15 EDT |
 | sase | [`e856c68`](https://github.com/sase-org/sase/commit/e856c68041ecee74e0a33836a86417a6d95d0a88) | fix(ace): reflow panel tabs after layout settles | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-28 23:43:28 EDT |
@@ -240,3 +309,4 @@ flowchart TD
 | sase | [`4a8b835`](https://github.com/sase-org/sase/commit/4a8b8358fdb55ef9f19c397959ed364dd50ea1c9) | test(ace): wait for TUI settle in CI-flaky flags and plugin tests | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 07:14:17 EDT |
 | sase | [`60043de`](https://github.com/sase-org/sase/commit/60043deb95c5a2c730e278bd744462218de94d2b) | test(ace): capture only the sase-update restart poll timer | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 09:14:16 EDT |
 | sase | [`25565fc`](https://github.com/sase-org/sase/commit/25565fca12325aa6507a6f144b81d9add550ae71) | fix(ci): ratchet core 0.32.16 and harden archive-start waits | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 11:59:33 EDT |
+| sase | [`e9d1a97`](https://github.com/sase-org/sase/commit/e9d1a973a0779c71425b24944d4065feaed230a5) | fix(memory): drop the installed version from generated task-type strands | [sase-um.9.5](sase-um.9.5.md) | 2026-08-29 14:36:35 EDT |

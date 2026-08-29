@@ -34,10 +34,11 @@ ship: watch ci_watch reach eligible on sase-org/sase, confirm the guarded merge 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 1 |
+| [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fa74163`](https://github.com/sase-org/sase/commit/fa74163b5a742fa1cd7e8bfcf98fdd5c0b579da3) | fix(ci): ratchet core pin and wait for models-panel snapshot refresh | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:52:06 EDT |
+| chezmoi | [`chezmoi@aec90fe`](https://github.com/bbugyi200/dotfiles/commit/aec90fe238281b4ac8c9543c7c3d7c8e3d2cf8da) | fix(config): force colorless gh JSON for the ci\_watch chop | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:55:00 EDT |
