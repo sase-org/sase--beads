@@ -27,6 +27,10 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 [2026-08-29T07:09:43Z · sase-um.9.5.4--3] STATUS: Full CI 33232978442 on 49d6c4188 is RED. Failed nodes (ignore obsolete 623788895): (1) full/test(3.12) job 99053300955 coverage leg FAILED tests/fakey/test_pipe_e2e.py::test_default_pipe_creates_family_member_with_fork_and_shared_workspace — successor invoke used LaunchSelection(provider=claude, model=opus, alias_origin=default_model) instead of inherited fakey; BrokenPipeError on Claude CLI stdin. test(3.14) green; test(3.13) cancelled. (2) full/visual-test job 99053300958 FAILED tests/ace/tui/visual/test_ace_png_snapshots_artifacts_files_empty.py wait_for _project_display_name==Alpha after 15s. Landed c1a5b36f5 with stitch -B: anonymous workflow prompt steps inherit agent_meta llm_provider/model when there is no %model and no live reservation; Artifacts Files panes that missed the first inventory get the seeded Alpha label without overwriting a live pane-local scope. just check green (escalated full suite). PR #284 OPEN MERGEABLE/CLEAN (head ebf8dfe8). publish.yml schedule 33239989521 succeeded; dispatched 33240161029 (publish_existing=false). Master Gate 33239974901 in progress on c1a5b36f5. Full CI 33240119114 (schedule, in_progress) and 33240160035 (dispatch, pending) both on c1a5b36f5; concurrency group full-ci cancel-in-progress:false. Monitoring 33240119114 (4h). Do not hand-merge. Do not auto-close.
 
+[2026-08-29T09:01:46Z · sase-um.9.5.4--4] STATUS: Full CI 33240119114 on c1a5b36f5 is RED. Failed nodes (ignore obsolete 49d6c4188/623788895): (1) full/test(3.12) job 99068560982 coverage leg FAILED tests/test_running_agents_snapshot.py::test_list_all_agents_includes_done_and_failed — expected TS_ACE_RUN_RETRIED_CHILD (20260427140500, pid 33333) missing from list_all_agents. Reproduced: pid_is_thread(33333) is true when that number is a live host TID, so is_process_alive treats the retried child as dead. test(3.14) and coverage-contexts green on the same SHA; visual-test green (Alpha wait_for held); pipe e2e did not regress. (2) full/contention-test job 99068561001 FAILED after runner shutdown/cancel once 3.12 failed (no harness assertion). test(3.13) cancelled. Landed ca7692ee3 with stitch -B: stub pid_is_thread in the snapshot process fixture plus a colliding /proc regression. just check green (scoped 63 files). Cancelled obsolete Full CI 33240160035 (c1a5b36f5). PR #284 OPEN MERGEABLE/CLEAN (head ebf8dfe8). Dispatched Full CI 33244467241 and publish.yml 33244468516 (publish_existing=false) on ca7692ee3. Master Gate 33244341435 in progress. Monitoring 33244467241 (4h). Do not hand-merge. Do not auto-close.
+
+PROPOSED FOLLOW-UP: other tests that plant hardcoded PIDs (11111/22222 in kill-named-agent helpers) without stubbing pid_is_thread can drop live fixture agents the same way on a busy runner.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
@@ -37,7 +41,7 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 4 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 5 |
 
 ## Commits
 
@@ -47,3 +51,4 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 | sase | [`49d6c41`](https://github.com/sase-org/sase/commit/49d6c4188d1a282a73f600d334aca67718a7a81c) | test(agents-sync): harden cross-machine clone against auto-gc races | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 00:02:49 EDT |
 | sase | [`c1a5b36`](https://github.com/sase-org/sase/commit/c1a5b36f5faf6f014d9d0bddea435a4e9fc4b0ee) | fix(pipe): inherit the parent model when a successor has no %model | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 03:04:20 EDT |
 | sase | [`ca7692e`](https://github.com/sase-org/sase/commit/ca7692ee3329b17ef1e176e5deb95dadbc3cfc3a) | test(agent): stub pid\_is\_thread so fixture PIDs survive host TID collisions | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 04:57:19 EDT |
+| sase | [`4a8b835`](https://github.com/sase-org/sase/commit/4a8b8358fdb55ef9f19c397959ed364dd50ea1c9) | test(ace): wait for TUI settle in CI-flaky flags and plugin tests | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 07:14:17 EDT |

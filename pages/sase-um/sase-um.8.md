@@ -43,9 +43,3 @@ v0.17.0 has NOT shipped. 3/7 criteria pass (3, 6), 1 partial (4), 3 fail (1, 2, 
 - **Depends on:** [sase-um.5](sase-um.5.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.6](sase-um.6.md) ✓ · ⧖ 2026-08-26
 - **Depends on:** [sase-um.7](sase-um.7.md) ✓ · ⧖ 2026-08-26
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-um.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.8/README.md) | [sase-um.8](sase-um.8.md) | 0 |

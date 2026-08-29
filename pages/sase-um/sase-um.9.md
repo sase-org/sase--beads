@@ -22,9 +22,3 @@
 ## Description
 
 The three release repositories sase-org/sase, sase-org/sase-github, and sase-org/sase-telegram each merge their release PRs again under the merge strategy and gating workflows that repository actually has; Full CI and the Master Gate are both green on the tip; and sase v0.17.0 is tagged and published to PyPI.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.land.md) | [sase-um.9](sase-um.9.md) | 0 |

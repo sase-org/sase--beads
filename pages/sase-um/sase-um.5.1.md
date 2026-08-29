@@ -22,9 +22,3 @@
 ## Description
 
 The Master Gate reaches a green conclusion on the tip of master and stays there, and the exhaustive visual lane is green again, so the release gate's default-branch and heavy-lane-freshness conditions can both open.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.land.md) | [sase-um.5.1](sase-um.5.1.md) | 0 |

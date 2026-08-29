@@ -44,7 +44,7 @@ converge: land both lanes, sample Master Gate on the moving tip until it is dura
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.5.1.3.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 8 |
+| [bbugyi200.athena.sase-um.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.5.1.3/README.md) | [sase-um.5.1.3](sase-um.5.1.3.md) | 8 |
 
 ## Commits
 
