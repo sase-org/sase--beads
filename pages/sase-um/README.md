@@ -208,7 +208,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.9.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.1/README.md) | [sase-um.9.5.1](sase-um.9.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.3.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 1 |
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 2 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 3 |
 | [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.5/README.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.land/README.md) | [sase-um.9.5](sase-um.9.5.md) | 0 |
 | [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.land.md) | [sase-um.9](sase-um.9.md) | 0 |
@@ -239,3 +239,4 @@ flowchart TD
 | sase | [`6237888`](https://github.com/sase-org/sase/commit/6237888953d823c5a382c78e4f1d388b5357c627) | fix(ci): ratchet core 0.32.15 and stop GitHub CPU false fails | [sase-um.9.5.3](sase-um.9.5.3.md) | 2026-08-28 23:04:15 EDT |
 | sase | [`e856c68`](https://github.com/sase-org/sase/commit/e856c68041ecee74e0a33836a86417a6d95d0a88) | fix(ace): reflow panel tabs after layout settles | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-28 23:43:28 EDT |
 | sase | [`49d6c41`](https://github.com/sase-org/sase/commit/49d6c4188d1a282a73f600d334aca67718a7a81c) | test(agents-sync): harden cross-machine clone against auto-gc races | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 00:02:49 EDT |
+| sase | [`c1a5b36`](https://github.com/sase-org/sase/commit/c1a5b36f5faf6f014d9d0bddea435a4e9fc4b0ee) | fix(pipe): inherit the parent model when a successor has no %model | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 03:04:20 EDT |

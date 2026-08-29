@@ -21,6 +21,10 @@ ship: install the hardened chop revision, exercise its guarded live merge of PR 
 
 PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-failure helper to tests/agents_sync/git_sync_fixtures.py (shared git() used by other agents-sync verify clones). Consider GIT_OPTIONAL_LOCKS=0 (and GIT_DIR/GIT_WORK_TREE pop) in production sase.agents_sync.git._noninteractive_git_env so live sidecar clones cannot race receive-pack auto-gc.
 
+[2026-08-29T04:06:03Z · sase-um.9.5.4--1] STATUS: landed 49d6c4188 (cross-machine e2e clone hardening: --no-local, gc.auto=0, GIT_OPTIONAL_LOCKS=0, stderr on git failure) with stitch -B so this bead stays in_progress. just check green (scoped 63 files). Master Gate 33232866336 in progress on 49d6c4188. Full CI 33232978442 queued on 49d6c4188 behind 33231000542 (623788895). 33232205513 (e856c6804) cancelled. publish.yml 33232979152 (publish_existing=false) queued to refresh PR #284. Do not hand-merge. Do not auto-close.
+
+[2026-08-29T04:13:57Z · sase-um.9.5.4--2] STATUS: Master Gate 33232866336 on 49d6c4188 is GREEN (core-wheel, lint, test 1-8 all success; cache 400s are annotations only). PR #284 is OPEN MERGEABLE/CLEAN (head eaeaf47f, chore(master): release 0.17.0 + sync metadata). publish.yml 33232979152 (publish_existing=false) succeeded. Dry-run `sase axe chop run ci_watch -n -V` parsed JSON with errors=0: sase-org/sase green on master@49d6c4188; #284 skipped heavy workflow not green (expected); telegram #21 merge_state_not_clean (not gating_workflow_missing); github no_release_pr. Full CI 33232978442 pending on 49d6c4188 behind in-progress 33231000542 (old SHA 623788895: test 3.12/3.14 and coverage-contexts already failed; test 3.13 still running; concurrency group full-ci cancel-in-progress:false). Monitoring 33232978442 (4h). Do not hand-merge. Do not auto-close.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
@@ -31,7 +35,7 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 2 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 3 |
 
 ## Commits
 
@@ -39,3 +43,4 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 |---|---|---|---|---|
 | sase | [`e856c68`](https://github.com/sase-org/sase/commit/e856c68041ecee74e0a33836a86417a6d95d0a88) | fix(ace): reflow panel tabs after layout settles | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-28 23:43:28 EDT |
 | sase | [`49d6c41`](https://github.com/sase-org/sase/commit/49d6c4188d1a282a73f600d334aca67718a7a81c) | test(agents-sync): harden cross-machine clone against auto-gc races | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 00:02:49 EDT |
+| sase | [`c1a5b36`](https://github.com/sase-org/sase/commit/c1a5b36f5faf6f014d9d0bddea435a4e9fc4b0ee) | fix(pipe): inherit the parent model when a successor has no %model | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 03:04:20 EDT |
