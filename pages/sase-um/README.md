@@ -207,7 +207,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.1/README.md) | [sase-um.9.5.1](sase-um.9.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 1 |
-| [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.3/README.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 0 |
+| [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.3.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.4/README.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.5/README.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.land/README.md) | [sase-um.9.5](sase-um.9.5.md) | 0 |
@@ -236,3 +236,4 @@ flowchart TD
 | sase | [`ed74b9f`](https://github.com/sase-org/sase/commit/ed74b9f7b742e4e252ef6693cdd9096711cb2958) | test: stabilize full ci release gate | [sase-um.9.2](sase-um.9.2.md) | 2026-08-28 17:18:10 EDT |
 | sase | [`fa74163`](https://github.com/sase-org/sase/commit/fa74163b5a742fa1cd7e8bfcf98fdd5c0b579da3) | fix(ci): ratchet core pin and wait for models-panel snapshot refresh | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:52:06 EDT |
 | sase | [`a97cabe`](https://github.com/sase-org/sase/commit/a97cabe3a2f4dd2186ee3775b85b57244efe3ef6) | perf(ci): trim Master Gate fast setup | [sase-um.9.5.2](sase-um.9.5.2.md) | 2026-08-28 21:01:09 EDT |
+| sase | [`6237888`](https://github.com/sase-org/sase/commit/6237888953d823c5a382c78e4f1d388b5357c627) | fix(ci): ratchet core 0.32.15 and stop GitHub CPU false fails | [sase-um.9.5.3](sase-um.9.5.3.md) | 2026-08-28 23:04:15 EDT |
