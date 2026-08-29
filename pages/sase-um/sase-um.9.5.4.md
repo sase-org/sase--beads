@@ -31,6 +31,12 @@ PROPOSED FOLLOW-UP: apply the same clone/--no-local + gc.auto=0 + stderr-on-fail
 
 PROPOSED FOLLOW-UP: other tests that plant hardcoded PIDs (11111/22222 in kill-named-agent helpers) without stubbing pid_is_thread can drop live fixture agents the same way on a busy runner.
 
+[2026-08-29T11:18:10Z · sase-um.9.5.4--5] STATUS: Full CI 33244467241 on ca7692ee3 RED. Real failed nodes: (1) full/visual-test job 99080268574 — tests/ace/tui/visual/test_ace_png_snapshots_feature_flags.py::test_config_center_flags_narrow_png_snapshot, PNG mismatch config_center_flags_populated_70x32 (9499/724632 px). Detail title clipped to one line so ON/SUNSET wrap was missing and EFFECTIVE SOURCE showed; wait_for_visual_idle accepted that frame. Other flags snapshots passed. (2) full/coverage-contexts job 99080268747 — tests/ace/tui/test_plugins_browser_pane_sase_update.py::test_updates_pane_sase_update_confirm_executes_and_refreshes wait_for 5s for executed+timer_callbacks; the test's set_timer mock swallowed non-1.0 timers. test(3.12) GREEN. test(3.13)/test(3.14) cancelled after ~90m with no harness assertion (cascade). docs-build, release-core-floor-smoke, contention-test skipped. Master Gate 33244341435 RED: test(6) 99079107049 test_incompatible_exact_match_refuses_open still showed "Checking #review in ..." after pause(0.25); test(7) 99079106997 test_enter_returns_while_xprompt_file_read_is_blocked unhandled NoMatches #frontmatter-raw on hidden FrontmatterPanel during prompt-bar mount after blocked Path.read_text (production on_mount race — not patched; deferring that mount broke 468 PromptInputBar tests).
+
+Landed 4a8b8358f (test-only waits: SUNSET sentinel + flags debounce idle; mini-xprompt wait_for verdict/analysis idle; sase-update set_timer passthrough + 15s wait; blocked-load wait for PromptTextArea) with stitch -B so this bead stays in_progress. just check green (scoped 65 files). Origin/master rebased over 1c184fb72, 72a96a801, a925744e4. Master Gate 33249652244 in progress on 4a8b8358f. Full CI 33249788999 in_progress and publish.yml 33249789774 queued (publish_existing=false) on 4a8b8358f. PR #284 OPEN MERGEABLE/CLEAN (head 7938caa41). Do not hand-merge #284. Do not auto-close.
+
+PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches (#frontmatter-raw, #prompt-input-g0-p0) when load_xprompt_definition_into_home_prompt_bar mounts the bar after pop_screen while Path.read_text was blocked. A call_after_refresh deferral of on_mount setup failed 468 prompt-bar tests (query empty during on_mount always). Needs a mount-safe bind that does not skip the common path.
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
@@ -41,7 +47,7 @@ PROPOSED FOLLOW-UP: other tests that plant hardcoded PIDs (11111/22222 in kill-n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 5 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 6 |
 
 ## Commits
 
@@ -52,3 +58,4 @@ PROPOSED FOLLOW-UP: other tests that plant hardcoded PIDs (11111/22222 in kill-n
 | sase | [`c1a5b36`](https://github.com/sase-org/sase/commit/c1a5b36f5faf6f014d9d0bddea435a4e9fc4b0ee) | fix(pipe): inherit the parent model when a successor has no %model | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 03:04:20 EDT |
 | sase | [`ca7692e`](https://github.com/sase-org/sase/commit/ca7692ee3329b17ef1e176e5deb95dadbc3cfc3a) | test(agent): stub pid\_is\_thread so fixture PIDs survive host TID collisions | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 04:57:19 EDT |
 | sase | [`4a8b835`](https://github.com/sase-org/sase/commit/4a8b8358fdb55ef9f19c397959ed364dd50ea1c9) | test(ace): wait for TUI settle in CI-flaky flags and plugin tests | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 07:14:17 EDT |
+| sase | [`60043de`](https://github.com/sase-org/sase/commit/60043deb95c5a2c730e278bd744462218de94d2b) | test(ace): capture only the sase-update restart poll timer | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 09:14:16 EDT |
