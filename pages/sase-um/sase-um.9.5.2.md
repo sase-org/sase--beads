@@ -17,7 +17,7 @@ gatebudget: measure warm successful eight-shard runs and apply only the next pro
 
 ## Dependencies
 
-- **Blocks:** [sase-um.9.5.3](sase-um.9.5.3.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-um.9.5.3](sase-um.9.5.3.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

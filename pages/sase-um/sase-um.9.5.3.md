@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-um.9.5](sase-um.9.5.md) / sase-um.9.5.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-um.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.land.md) · **Assignee:** `sase-um.9.5.3` · **Size:** medium
-**Created:** 2026-08-28 20:17:50 EDT
+**Created:** 2026-08-28 20:17:50 EDT · **Closed:** 2026-08-28 23:06:18 EDT
 **Plan:** [202608/finish\_release\_gate\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202608/finish_release_gate_landing.md)
 
 ## Description
@@ -28,6 +28,8 @@ fullgreen: attribute the overlapping old-SHA failures, fix in-scope defects, and
 [2026-08-29T03:01:56Z · sase-um.9.5.3--1] PROPOSED FOLLOW-UP: GitHub runner jitter tests/perf/phase7_check_regression.py evaluate_query_many.synthetic_1000_specs.persistent_query_keystroke — Full CI 33226037754 perf-floors job 99030887383, SHA 1a1463028: rust median 193.90us exceeds 2.90x ceiling 193.44us by 0.46us while still beating live Python ~27x (5292us). Other Phase 7E/launch/view-hints/disk-load/catalog floors passed. Do not raise the per-anchor floor to hide hosted-runner noise. Related closed calibration: sase-s1.4. No open task. Do not mute.
 
 [2026-08-29T03:02:15Z · sase-um.9.5.3--1] STATUS: in-scope fixes on origin/master 651619dcb + dirty tree, just check green (escalated full suite: core-identity-changed, packaging-config). Ratcheted sase-core-revision.txt a320fc8 (0.32.14) -> 5e7fc3d (0.32.15) and sase-core-rs window to >=0.32.15,<0.33.0. Pager _body_to_text restores exact trailing newlines. PanelTabStrip reflow test pauses after each resize. check_test_cost_budgets --ci reports CPU as advisory; count/RSS remain hard. Stitch create will auto-close this in_progress phase bead; that is NOT acceptance. Reopen sase-um.9.5.3 if closed, dispatch full.yml on the post-stitch master tip, wait with sase monitor. Do not close parent sase-um.9.5. sase-r2 pipe_e2e and sase-sf archive_publication did not fail this run.
+
+[2026-08-29T03:06:18Z · sase-um.9.5.3--1] Auto-closed by `sase stitch create` after create_commit landed 623788895 ("fix(ci): ratchet core 0.32.15 and stop GitHub CPU false fails"). No verification is implied by this note. Reopen with `sase bead open sase-um.9.5.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
