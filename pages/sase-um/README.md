@@ -206,7 +206,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.9.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.1/README.md) | [sase-um.9.5.1](sase-um.9.5.1.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.3.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 1 |
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 6 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 7 |
 | [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.5/README.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.land/README.md) | [sase-um.9.5](sase-um.9.5.md) | 0 |
 
@@ -239,3 +239,4 @@ flowchart TD
 | sase | [`ca7692e`](https://github.com/sase-org/sase/commit/ca7692ee3329b17ef1e176e5deb95dadbc3cfc3a) | test(agent): stub pid\_is\_thread so fixture PIDs survive host TID collisions | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 04:57:19 EDT |
 | sase | [`4a8b835`](https://github.com/sase-org/sase/commit/4a8b8358fdb55ef9f19c397959ed364dd50ea1c9) | test(ace): wait for TUI settle in CI-flaky flags and plugin tests | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 07:14:17 EDT |
 | sase | [`60043de`](https://github.com/sase-org/sase/commit/60043deb95c5a2c730e278bd744462218de94d2b) | test(ace): capture only the sase-update restart poll timer | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 09:14:16 EDT |
+| sase | [`25565fc`](https://github.com/sase-org/sase/commit/25565fca12325aa6507a6f144b81d9add550ae71) | fix(ci): ratchet core 0.32.16 and harden archive-start waits | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 11:59:33 EDT |

@@ -37,6 +37,10 @@ Landed 4a8b8358f (test-only waits: SUNSET sentinel + flags debounce idle; mini-x
 
 PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches (#frontmatter-raw, #prompt-input-g0-p0) when load_xprompt_definition_into_home_prompt_bar mounts the bar after pop_screen while Path.read_text was blocked. A call_after_refresh deferral of on_mount setup failed 468 prompt-bar tests (query empty during on_mount always). Needs a mount-safe bind that does not skip the common path.
 
+[2026-08-29T13:18:47Z · sase-um.9.5.4--6] STATUS: Full CI 33249788999 on 4a8b8358f is RED. Sole failed node: coverage-contexts job 99094187508. FAILED tests/ace/tui/test_plugins_browser_pane_sase_update.py::test_updates_pane_sase_update_confirm_executes_and_refreshes — wait_for 15s for timer_callbacks after the worker finished. App.set_timer mock swallowed every 1.0s delay, including PROC_RECONCILE_STARTUP_DELAY_SECONDS, so the restart-poll callback never registered and settle could not pump Worker.StateChanged. visual-test, lint, test(3.12), and test(3.14) green; test(3.13) cancelled after 90m with no harness assertion. Landed 60043deb9 with stitch -B (capture only the restart helper's poll timer; keep the blocker visible to running_background_procs). just check green (scoped 63 files). Fast-forwarded onto origin/master through 80f389d74. Dispatched Full CI 33254626035 and publish.yml 33254626982 (publish_existing=false) on 60043deb9. Master
+
+… and 128 more characters
+
 ## Dependencies
 
 - **Depends on:** [sase-um.9.5.1](sase-um.9.5.1.md) ✓ · ⧖ 2026-08-28
@@ -47,7 +51,7 @@ PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 6 |
+| [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.5.4.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 7 |
 
 ## Commits
 
@@ -59,3 +63,4 @@ PROPOSED FOLLOW-UP: PromptInputBar/FrontmatterPanel on_mount can raise NoMatches
 | sase | [`ca7692e`](https://github.com/sase-org/sase/commit/ca7692ee3329b17ef1e176e5deb95dadbc3cfc3a) | test(agent): stub pid\_is\_thread so fixture PIDs survive host TID collisions | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 04:57:19 EDT |
 | sase | [`4a8b835`](https://github.com/sase-org/sase/commit/4a8b8358fdb55ef9f19c397959ed364dd50ea1c9) | test(ace): wait for TUI settle in CI-flaky flags and plugin tests | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 07:14:17 EDT |
 | sase | [`60043de`](https://github.com/sase-org/sase/commit/60043deb95c5a2c730e278bd744462218de94d2b) | test(ace): capture only the sase-update restart poll timer | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 09:14:16 EDT |
+| sase | [`25565fc`](https://github.com/sase-org/sase/commit/25565fca12325aa6507a6f144b81d9add550ae71) | fix(ci): ratchet core 0.32.16 and harden archive-start waits | [sase-um.9.5.4](sase-um.9.5.4.md) | 2026-08-29 11:59:33 EDT |
