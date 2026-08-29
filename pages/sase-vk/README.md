@@ -28,7 +28,7 @@ Generated agent instruction files render three tier-free sections — core memor
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-vk.1](sase-vk.1.md) | Web descriptors stop declaring a rendering tier | ✓ closed | medium | 2026-08-29 | 1 | 1 |
-| [sase-vk.2](sase-vk.2.md) | Tier-free H2 sections and the new Memory Webs section | ◐ in_progress | medium | 2026-08-29 | 1 | 0 |
+| [sase-vk.2](sase-vk.2.md) | Tier-free H2 sections and the new Memory Webs section | ✓ closed | medium | 2026-08-29 | 1 | 1 |
 | [sase-vk.3](sase-vk.3.md) | Documentation, memory notes, and regenerated artifacts | ◐ in_progress | medium | 2026-08-29 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ Generated agent instruction files render three tier-free sections — core memor
 flowchart TD
     n0["sase-vk: Memory webs get their own agent-instruction section [in_progress]"]
     n1["sase-vk.1: Web descriptors stop declaring a rendering tier [closed]"]
-    n2["sase-vk.2: Tier-free H2 sections and the new Memory Webs section [in_progress]"]
+    n2["sase-vk.2: Tier-free H2 sections and the new Memory Webs section [closed]"]
     n3["sase-vk.3: Documentation, memory notes, and regenerated artifacts [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-vk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vk.1/README.md) | [sase-vk.1](sase-vk.1.md) | 1 |
-| [bbugyi200.athena.sase-vk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vk.2/README.md) | [sase-vk.2](sase-vk.2.md) | 0 |
+| [bbugyi200.athena.sase-vk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vk.2/README.md) | [sase-vk.2](sase-vk.2.md) | 1 |
 | [bbugyi200.athena.sase-vk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vk.3/README.md) | [sase-vk.3](sase-vk.3.md) | 0 |
 | [bbugyi200.athena.sase-vk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vk.land/README.md) | [sase-vk](README.md) | 0 |
 
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1be5429`](https://github.com/sase-org/sase/commit/1be5429ea9812ff722c94cd2f1103ffc9b6142da) | feat(memory): make web descriptors tier-free | [sase-vk.1](sase-vk.1.md) | 2026-08-29 12:34:50 EDT |
+| sase | [`b726d0a`](https://github.com/sase-org/sase/commit/b726d0a18cf690c871b12b4bb56ef5d07652afeb) | feat(memory): give agent docs a Memory Webs section | [sase-vk.2](sase-vk.2.md) | 2026-08-29 13:30:53 EDT |

@@ -13,7 +13,7 @@ docs: rewrite the tier vocabulary in docs/, the generated sase.md and README mem
 
 ## Dependencies
 
-- **Depends on:** [sase-vk.2](sase-vk.2.md) ◐ · ⧖ 2026-08-29
+- **Depends on:** [sase-vk.2](sase-vk.2.md) ✓ · ⧖ 2026-08-29
 
 ## Agents
 

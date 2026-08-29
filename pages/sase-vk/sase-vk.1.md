@@ -17,7 +17,7 @@ webkind: delete MemoryWeb.rendering_type, stop reading type:/parent: from web de
 
 ## Dependencies
 
-- **Blocks:** [sase-vk.2](sase-vk.2.md) ◐ · ⧖ 2026-08-29
+- **Blocks:** [sase-vk.2](sase-vk.2.md) ✓ · ⧖ 2026-08-29
 
 ## Agents
 
