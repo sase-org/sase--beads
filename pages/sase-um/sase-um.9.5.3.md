@@ -13,7 +13,7 @@ fullgreen: attribute the overlapping old-SHA failures, fix in-scope defects, and
 
 ## Dependencies
 
-- **Depends on:** [sase-um.9.5.2](sase-um.9.5.2.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-um.9.5.2](sase-um.9.5.2.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [sase-um.9.5.4](sase-um.9.5.4.md) ◐ · ⧖ 2026-08-28
 
 ## Agents

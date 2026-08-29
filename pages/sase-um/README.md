@@ -137,7 +137,7 @@ flowchart TD
     n17["sase-um.9.4: Ship v0.17.0 and re-measure every acceptance criterion [closed]"]
     n18["sase-um.9.5: Complete the interrupted sase-um.9 release-gate landing [in_progress]"]
     n19["sase-um.9.5.1: Make bugyi-chops parse gh JSON without host-only environment overrides [closed]"]
-    n20["sase-um.9.5.2: Bring successful Master Gate runs and the trailing median inside eight minutes [in_progress]"]
+    n20["sase-um.9.5.2: Bring successful Master Gate runs and the trailing median inside eight minutes [closed]"]
     n21["sase-um.9.5.3: Drive Full CI green on the final integrated SASE tip [in_progress]"]
     n22["sase-um.9.5.4: Let ci_watch merge and publish SASE v0.17.0, then remeasure acceptance [in_progress]"]
     n23["sase-um.9.5.5: Ratchet and publish bugyi-chops 0.9.0 against released SASE v0.17.0 [in_progress]"]
@@ -206,7 +206,7 @@ flowchart TD
 | [bbugyi200.athena.sase-um.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.3/README.md) | [sase-um.9.3](sase-um.9.3.md) | 1 |
 | [bbugyi200.athena.sase-um.9.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-um.9.4.md) | [sase-um.9.4](sase-um.9.4.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.1/README.md) | [sase-um.9.5.1](sase-um.9.5.1.md) | 0 |
-| [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 0 |
+| [bbugyi200.athena.sase-um.9.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.2/README.md) | [sase-um.9.5.2](sase-um.9.5.2.md) | 1 |
 | [bbugyi200.athena.sase-um.9.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.3/README.md) | [sase-um.9.5.3](sase-um.9.5.3.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.4/README.md) | [sase-um.9.5.4](sase-um.9.5.4.md) | 0 |
 | [bbugyi200.athena.sase-um.9.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-um.9.5.5/README.md) | [sase-um.9.5.5](sase-um.9.5.5.md) | 0 |
@@ -235,3 +235,4 @@ flowchart TD
 | sase | [`69d3d71`](https://github.com/sase-org/sase/commit/69d3d71902aec6cbde1dd6d44054d5a1ab166e75) | perf(ci): raise Master Gate to eight shards and refresh timings from CI | [sase-um.9.3](sase-um.9.3.md) | 2026-08-28 16:58:05 EDT |
 | sase | [`ed74b9f`](https://github.com/sase-org/sase/commit/ed74b9f7b742e4e252ef6693cdd9096711cb2958) | test: stabilize full ci release gate | [sase-um.9.2](sase-um.9.2.md) | 2026-08-28 17:18:10 EDT |
 | sase | [`fa74163`](https://github.com/sase-org/sase/commit/fa74163b5a742fa1cd7e8bfcf98fdd5c0b579da3) | fix(ci): ratchet core pin and wait for models-panel snapshot refresh | [sase-um.9.4](sase-um.9.4.md) | 2026-08-28 19:52:06 EDT |
+| sase | [`a97cabe`](https://github.com/sase-org/sase/commit/a97cabe3a2f4dd2186ee3775b85b57244efe3ef6) | perf(ci): trim Master Gate fast setup | [sase-um.9.5.2](sase-um.9.5.2.md) | 2026-08-28 21:01:09 EDT |
