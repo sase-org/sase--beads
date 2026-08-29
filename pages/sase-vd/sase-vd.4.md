@@ -18,17 +18,16 @@ handoff-safe-vcs-release: make the `#git:`/`#gh:` release step identity-checked 
 ## Dependencies
 
 - **Depends on:** [sase-vd.3](sase-vd.3.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-vd.5](sase-vd.5.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.4/README.md) | [sase-vd.4](sase-vd.4.md) | 2 |
+| [bbugyi200.athena.sase-vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.4/README.md) | [sase-vd.4](sase-vd.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a14630`](https://github.com/sase-org/sase/commit/1a1463028a7619fa7bcd6ad3331ee640ac5f69c5) | feat(workspace): skip VCS release on handoff and pid mismatch | [sase-vd.4](sase-vd.4.md) | 2026-08-28 21:08:15 EDT |
-| sase-github | [`sase-github@2571c9d`](https://github.com/sase-org/sase-github/commit/2571c9d7466d4c6020a87b6ee86068c12170cdab) | feat(workspace): identity-check #gh release and skip on handoff | [sase-vd.4](sase-vd.4.md) | 2026-08-28 21:10:16 EDT |

@@ -21,13 +21,13 @@ single-workspace-identity: when a VCS workflow legitimately allocates a workspac
 
 - **Depends on:** [sase-vd.1](sase-vd.1.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [sase-vd.4](sase-vd.4.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-vd.5](sase-vd.5.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.3/README.md) | [sase-vd.3](sase-vd.3.md) | 3 |
+| [bbugyi200.athena.sase-vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vd.3/README.md) | [sase-vd.3](sase-vd.3.md) | 2 |
 
 ## Commits
 
@@ -35,4 +35,3 @@ single-workspace-identity: when a VCS workflow legitimately allocates a workspac
 |---|---|---|---|---|
 | sase | [`b7fcee9`](https://github.com/sase-org/sase/commit/b7fcee9db595cebb6b5fcbc474898fab8c6595e8) | feat(agent): rebind runner workspace identity | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:19:02 EDT |
 | sase-core | [`sase-core@4f16434`](https://github.com/sase-org/sase-core/commit/4f16434b5a5be70711d4617ef9a164c4efa28905) | fix(agent-launch): transfer workspace claim names | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:21:21 EDT |
-| sase-github | [`sase-github@f4663ae`](https://github.com/sase-org/sase-github/commit/f4663ae526929b23378372005662c20b495bd0f7) | feat(gh): mark runner-bound workspace allocations | [sase-vd.3](sase-vd.3.md) | 2026-08-28 20:23:10 EDT |

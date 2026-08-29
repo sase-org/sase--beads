@@ -17,7 +17,7 @@ preallocate-shell-followups: record the starter's VCS workflow ref in shell memb
 
 ## Dependencies
 
-- **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-vd.5](sase-vd.5.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
