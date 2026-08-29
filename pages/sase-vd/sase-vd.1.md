@@ -19,7 +19,7 @@ adopt-runner-workspace: make the `#git:` and `#gh:` setup steps adopt the live n
 
 ## Dependencies
 
-- **Blocks:** [sase-vd.3](sase-vd.3.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [sase-vd.3](sase-vd.3.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
 
 ## Agents

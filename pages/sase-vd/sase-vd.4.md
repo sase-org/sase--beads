@@ -13,7 +13,7 @@ handoff-safe-vcs-release: make the `#git:`/`#gh:` release step identity-checked 
 
 ## Dependencies
 
-- **Depends on:** [sase-vd.3](sase-vd.3.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [sase-vd.3](sase-vd.3.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [sase-vd.5](sase-vd.5.md) ◐ · ⧖ 2026-08-28
 
 ## Agents
