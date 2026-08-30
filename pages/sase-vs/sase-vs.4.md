@@ -14,7 +14,7 @@ gate_wait_input: declare `wait` on the tale and epic approval option schemas, va
 ## Dependencies
 
 - **Depends on:** [sase-vs.2](sase-vs.2.md) ✓ · ⧖ 2026-08-30
-- **Depends on:** [sase-vs.3](sase-vs.3.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vs.3](sase-vs.3.md) ✓ · ⧖ 2026-08-30
 - **Blocks:** [sase-vs.5](sase-vs.5.md) ◐ · ⧖ 2026-08-30
 - **Blocks:** [sase-vs.6](sase-vs.6.md) ◐ · ⧖ 2026-08-30
 

@@ -17,7 +17,7 @@ bead_work_wait: add the shared `agent,bead=<id>` wait-spec parser and a `sase be
 
 ## Dependencies
 
-- **Blocks:** [sase-vs.3](sase-vs.3.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vs.3](sase-vs.3.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 
