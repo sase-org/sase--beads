@@ -17,7 +17,7 @@ scan: add the `[[target]]` / `![[target]]` body scanner that skips code zones, p
 
 ## Dependencies
 
-- **Blocks:** [sase-vw.3](sase-vw.3.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vw.3](sase-vw.3.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

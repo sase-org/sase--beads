@@ -21,7 +21,7 @@ schema: add `link_reference` and `link_rendering` frontmatter to flat notes, web
 
 ## Dependencies
 
-- **Blocks:** [sase-vw.3](sase-vw.3.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vw.3](sase-vw.3.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 
