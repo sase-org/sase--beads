@@ -32,7 +32,7 @@ Memory notes, web descriptors, and strands declare how links to other memory fil
 | [sase-vw.3](sase-vw.3.md) | Links in the closure walk | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 | [sase-vw.4](sase-vw.4.md) | Linked References output | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 | [sase-vw.5](sase-vw.5.md) | Declare existing web strategies | ◐ in_progress | small | 2026-08-30 | 1 | 0 |
-| [sase-vw.6](sase-vw.6.md) | Generated task-type strand links | ◐ in_progress | small | 2026-08-30 | 1 | 0 |
+| [sase-vw.6](sase-vw.6.md) | Generated task-type strand links | ✓ closed | small | 2026-08-30 | 1 | 1 |
 | [sase-vw.7](sase-vw.7.md) | Link the existing corpus | ◐ in_progress | medium | 2026-08-30 | 1 | 0 |
 | [sase-vw.8](sase-vw.8.md) | Skill and documentation updates | ◐ in_progress | small | 2026-08-30 | 1 | 0 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n3["sase-vw.3: Links in the closure walk [closed]"]
     n4["sase-vw.4: Linked References output [closed]"]
     n5["sase-vw.5: Declare existing web strategies [in_progress]"]
-    n6["sase-vw.6: Generated task-type strand links [in_progress]"]
+    n6["sase-vw.6: Generated task-type strand links [closed]"]
     n7["sase-vw.7: Link the existing corpus [in_progress]"]
     n8["sase-vw.8: Skill and documentation updates [in_progress]"]
     n0 --> n1
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-vw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.3/README.md) | [sase-vw.3](sase-vw.3.md) | 1 |
 | [bbugyi200.athena.sase-vw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.4/README.md) | [sase-vw.4](sase-vw.4.md) | 1 |
 | [bbugyi200.athena.sase-vw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.5/README.md) | [sase-vw.5](sase-vw.5.md) | 0 |
-| [bbugyi200.athena.sase-vw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.6/README.md) | [sase-vw.6](sase-vw.6.md) | 0 |
+| [bbugyi200.athena.sase-vw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.6/README.md) | [sase-vw.6](sase-vw.6.md) | 1 |
 | [bbugyi200.athena.sase-vw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.7/README.md) | [sase-vw.7](sase-vw.7.md) | 0 |
 | [bbugyi200.athena.sase-vw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.8/README.md) | [sase-vw.8](sase-vw.8.md) | 0 |
 | [bbugyi200.athena.sase-vw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.land/README.md) | [sase-vw](README.md) | 0 |
@@ -88,3 +88,4 @@ flowchart TD
 | sase | [`7c8117b`](https://github.com/sase-org/sase/commit/7c8117b17e92674f99f52d98f2a44ad5481f86b8) | feat(memory): add link\_reference and link\_rendering frontmatter | [sase-vw.1](sase-vw.1.md) | 2026-08-30 10:50:34 EDT |
 | sase | [`90e3a38`](https://github.com/sase-org/sase/commit/90e3a385c526e7659b93b29a5ce599d1e6deade6) | feat(memory): fold authored links into the closure walk | [sase-vw.3](sase-vw.3.md) | 2026-08-30 11:32:44 EDT |
 | sase | [`40cd8ce`](https://github.com/sase-org/sase/commit/40cd8ce6eaf4204f7cf55eab58193841f98a911e) | feat(memory): render Linked References for show and read | [sase-vw.4](sase-vw.4.md) | 2026-08-30 12:00:46 EDT |
+| sase | [`19a77ee`](https://github.com/sase-org/sase/commit/19a77eea96af28f13f973f191cc0415afd1fcf3d) | feat(memory): emit Related Task Types links on generated strands | [sase-vw.6](sase-vw.6.md) | 2026-08-30 12:34:28 EDT |

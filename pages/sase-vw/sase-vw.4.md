@@ -19,7 +19,7 @@ render: emit a numbered `## Linked References` section for every note and web un
 
 - **Depends on:** [sase-vw.3](sase-vw.3.md) ✓ · ⧖ 2026-08-30
 - **Blocks:** [sase-vw.5](sase-vw.5.md) ◐ · ⧖ 2026-08-30
-- **Blocks:** [sase-vw.6](sase-vw.6.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vw.6](sase-vw.6.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 
