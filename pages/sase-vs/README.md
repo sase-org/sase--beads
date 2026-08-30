@@ -32,7 +32,7 @@ Approving a tale or an epic can name agent and bead dependencies, and the work t
 | [sase-vs.3](sase-vs.3.md) | Thread a wait spec through the host-owned epic launch | ✓ closed | small | 2026-08-30 | 1 | 1 |
 | [sase-vs.4](sase-vs.4.md) | Accept \`wait\` on the plan gate approval options | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 | [sase-vs.5](sase-vs.5.md) | \`sase plan approve --wait\` | ✓ closed | small | 2026-08-30 | 1 | 1 |
-| [sase-vs.6](sase-vs.6.md) | Wait field in the ACE approval modal | ◐ in_progress | medium | 2026-08-30 | 1 | 0 |
+| [sase-vs.6](sase-vs.6.md) | Wait field in the ACE approval modal | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["sase-vs.3: Thread a wait spec through the host-owned epic launch [closed]"]
     n4["sase-vs.4: Accept `wait` on the plan gate approval options [closed]"]
     n5["sase-vs.5: `sase plan approve --wait` [closed]"]
-    n6["sase-vs.6: Wait field in the ACE approval modal [in_progress]"]
+    n6["sase-vs.6: Wait field in the ACE approval modal [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-vs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.3/README.md) | [sase-vs.3](sase-vs.3.md) | 1 |
 | [bbugyi200.athena.sase-vs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.4/README.md) | [sase-vs.4](sase-vs.4.md) | 1 |
 | [bbugyi200.athena.sase-vs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.5/README.md) | [sase-vs.5](sase-vs.5.md) | 1 |
-| [bbugyi200.athena.sase-vs.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.6/README.md) | [sase-vs.6](sase-vs.6.md) | 0 |
+| [bbugyi200.athena.sase-vs.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.6/README.md) | [sase-vs.6](sase-vs.6.md) | 1 |
 | [bbugyi200.athena.sase-vs.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vs.land/README.md) | [sase-vs](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`2bf5164`](https://github.com/sase-org/sase/commit/2bf51641d2aa1952c359f787b5f075e8dbe9b47e) | feat(bead): thread wait spec through the host-owned epic launch | [sase-vs.3](sase-vs.3.md) | 2026-08-30 08:40:24 EDT |
 | sase | [`15be5ac`](https://github.com/sase-org/sase/commit/15be5ac470cafd2f31ba03b511ae11b959c951d6) | feat(plan): accept wait on tale and epic approval options | [sase-vs.4](sase-vs.4.md) | 2026-08-30 09:18:29 EDT |
 | sase | [`c507cea`](https://github.com/sase-org/sase/commit/c507ceab9b2334268aeefda9a6272c838e33d677) | feat(plan): add approval wait CLI | [sase-vs.5](sase-vs.5.md) | 2026-08-30 09:38:51 EDT |
+| sase | [`18fa499`](https://github.com/sase-org/sase/commit/18fa499a3af9c4d941123f51aa0827c6ab0a68d6) | feat(ace): add approval wait editor | [sase-vs.6](sase-vs.6.md) | 2026-08-30 09:46:42 EDT |
