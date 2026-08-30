@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-vw](README.md) / sase-vw.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-vk.land.w1.w0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-vk.land.w1.w0.md) · **Assignee:** `sase-vw.8` · **Size:** small
-**Created:** 2026-08-30 10:02:20 EDT
+**Created:** 2026-08-30 10:02:20 EDT · **Closed:** 2026-08-30 12:49:10 EDT
 **Plan:** [202608/memory\_link\_strategies.md](https://github.com/sase-org/sase--plans/blob/main/202608/memory_link_strategies.md)
 
 ## Description
 
 docs: teach `/sase_memory_write` to author links, and document the two strategies in `docs/memory.md` and the generated memory README.
+
+## Notes
+
+[2026-08-30T16:49:10Z · sase-vw.8] Auto-closed by `sase stitch create` after create_commit landed 8a377b070 ("docs(memory): document memory link syntax and target forms"). No verification is implied by this note. Reopen with `sase bead open sase-vw.8`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
