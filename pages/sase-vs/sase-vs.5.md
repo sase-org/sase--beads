@@ -13,7 +13,7 @@ plan_approve_cli: add a `-w/--wait` option to `sase plan approve` that validates
 
 ## Dependencies
 
-- **Depends on:** [sase-vs.4](sase-vs.4.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vs.4](sase-vs.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

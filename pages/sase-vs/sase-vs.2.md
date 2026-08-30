@@ -19,7 +19,7 @@ tale_coder_wait: give `PlanApprovalResult` wait fields and stamp a canonical `%w
 
 ## Dependencies
 
-- **Blocks:** [sase-vs.4](sase-vs.4.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vs.4](sase-vs.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

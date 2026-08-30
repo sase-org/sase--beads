@@ -13,7 +13,7 @@ ace_approval_wait: add an editable wait row to the ACE custom-approval modal and
 
 ## Dependencies
 
-- **Depends on:** [sase-vs.4](sase-vs.4.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vs.4](sase-vs.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

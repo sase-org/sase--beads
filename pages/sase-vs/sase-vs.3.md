@@ -18,7 +18,7 @@ epic_launch_wait: pass an optional wait spec from `prepare_epic_launch` through 
 ## Dependencies
 
 - **Depends on:** [sase-vs.1](sase-vs.1.md) ✓ · ⧖ 2026-08-30
-- **Blocks:** [sase-vs.4](sase-vs.4.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vs.4](sase-vs.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 
