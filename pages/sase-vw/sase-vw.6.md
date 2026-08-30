@@ -13,7 +13,7 @@ taskgen: make the generated task-type strands emit a Related Task Types section 
 
 ## Dependencies
 
-- **Depends on:** [sase-vw.4](sase-vw.4.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vw.4](sase-vw.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

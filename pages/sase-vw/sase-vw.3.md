@@ -23,7 +23,7 @@ closure: classify each detected link as an inline or reference edge from the eff
 
 - **Depends on:** [sase-vw.1](sase-vw.1.md) ✓ · ⧖ 2026-08-30
 - **Depends on:** [sase-vw.2](sase-vw.2.md) ✓ · ⧖ 2026-08-30
-- **Blocks:** [sase-vw.4](sase-vw.4.md) ◐ · ⧖ 2026-08-30
+- **Blocks:** [sase-vw.4](sase-vw.4.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

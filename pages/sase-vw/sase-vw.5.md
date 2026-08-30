@@ -13,7 +13,7 @@ migrate: state `glossary`'s implicit/inline strategies explicitly, drop the lega
 
 ## Dependencies
 
-- **Depends on:** [sase-vw.4](sase-vw.4.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vw.4](sase-vw.4.md) ✓ · ⧖ 2026-08-30
 - **Blocks:** [sase-vw.7](sase-vw.7.md) ◐ · ⧖ 2026-08-30
 - **Blocks:** [sase-vw.8](sase-vw.8.md) ◐ · ⧖ 2026-08-30
 
