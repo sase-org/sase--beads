@@ -18,7 +18,7 @@ section: rename the generated H2 anchors to Core Memory / Memory Webs / Referenc
 ## Dependencies
 
 - **Depends on:** [sase-vk.1](sase-vk.1.md) ✓ · ⧖ 2026-08-29
-- **Blocks:** [sase-vk.3](sase-vk.3.md) ◐ · ⧖ 2026-08-29
+- **Blocks:** [sase-vk.3](sase-vk.3.md) ✓ · ⧖ 2026-08-29
 
 ## Agents
 
