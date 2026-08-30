@@ -13,7 +13,7 @@ content: add links across the hand-authored notes and strands that already cross
 
 ## Dependencies
 
-- **Depends on:** [sase-vw.5](sase-vw.5.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vw.5](sase-vw.5.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 

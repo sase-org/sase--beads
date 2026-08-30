@@ -13,7 +13,7 @@ docs: teach `/sase_memory_write` to author links, and document the two strategie
 
 ## Dependencies
 
-- **Depends on:** [sase-vw.5](sase-vw.5.md) ◐ · ⧖ 2026-08-30
+- **Depends on:** [sase-vw.5](sase-vw.5.md) ✓ · ⧖ 2026-08-30
 
 ## Agents
 
