@@ -19,4 +19,10 @@ docs: teach `/sase_memory_write` to author links, and document the two strategie
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-vw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.8/README.md) | [sase-vw.8](sase-vw.8.md) | 0 |
+| [bbugyi200.athena.sase-vw.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.8/README.md) | [sase-vw.8](sase-vw.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8a377b0`](https://github.com/sase-org/sase/commit/8a377b0704e211eb18839fab5b5acd12a8c40956) | docs(memory): document memory link syntax and target forms | [sase-vw.8](sase-vw.8.md) | 2026-08-30 12:48:20 EDT |
