@@ -27,7 +27,7 @@ Memory notes, web descriptors, and strands declare how links to other memory fil
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-vw.1](sase-vw.1.md) | Link strategy frontmatter | ◐ in_progress | medium | 2026-08-30 | 1 | 0 |
+| [sase-vw.1](sase-vw.1.md) | Link strategy frontmatter | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 | [sase-vw.2](sase-vw.2.md) | Link scanner and target resolver | ✓ closed | medium | 2026-08-30 | 1 | 1 |
 | [sase-vw.3](sase-vw.3.md) | Links in the closure walk | ◐ in_progress | medium | 2026-08-30 | 1 | 0 |
 | [sase-vw.4](sase-vw.4.md) | Linked References output | ◐ in_progress | medium | 2026-08-30 | 1 | 0 |
@@ -41,7 +41,7 @@ Memory notes, web descriptors, and strands declare how links to other memory fil
 ```mermaid
 flowchart TD
     n0["sase-vw: Memory link reference and rendering strategies [in_progress]"]
-    n1["sase-vw.1: Link strategy frontmatter [in_progress]"]
+    n1["sase-vw.1: Link strategy frontmatter [closed]"]
     n2["sase-vw.2: Link scanner and target resolver [closed]"]
     n3["sase-vw.3: Links in the closure walk [in_progress]"]
     n4["sase-vw.4: Linked References output [in_progress]"]
@@ -70,7 +70,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-vw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.1/README.md) | [sase-vw.1](sase-vw.1.md) | 0 |
+| [bbugyi200.athena.sase-vw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.1/README.md) | [sase-vw.1](sase-vw.1.md) | 1 |
 | [bbugyi200.athena.sase-vw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.2/README.md) | [sase-vw.2](sase-vw.2.md) | 1 |
 | [bbugyi200.athena.sase-vw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.3/README.md) | [sase-vw.3](sase-vw.3.md) | 0 |
 | [bbugyi200.athena.sase-vw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-vw.4/README.md) | [sase-vw.4](sase-vw.4.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ae83faa`](https://github.com/sase-org/sase/commit/ae83faa2e020c5b9966badd44a0758b4cb271331) | feat(memory): add authored link scanner and resolver | [sase-vw.2](sase-vw.2.md) | 2026-08-30 10:47:13 EDT |
+| sase | [`7c8117b`](https://github.com/sase-org/sase/commit/7c8117b17e92674f99f52d98f2a44ad5481f86b8) | feat(memory): add link\_reference and link\_rendering frontmatter | [sase-vw.1](sase-vw.1.md) | 2026-08-30 10:50:34 EDT |
