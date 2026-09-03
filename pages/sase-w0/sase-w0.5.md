@@ -14,7 +14,7 @@ docs: rewrite the four documentation surfaces that describe the retired sub-tabs
 ## Dependencies
 
 - **Depends on:** [sase-w0.3](sase-w0.3.md) ◐ · ⧖ 2026-09-03
-- **Depends on:** [sase-w0.4](sase-w0.4.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w0.4](sase-w0.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 

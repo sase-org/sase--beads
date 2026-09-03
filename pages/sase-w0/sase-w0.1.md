@@ -13,7 +13,7 @@ rows: add the pure UpdateRow model, capability derivation, and shared version-la
 
 ## Dependencies
 
-- **Blocks:** [sase-w0.2](sase-w0.2.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w0.2](sase-w0.2.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 

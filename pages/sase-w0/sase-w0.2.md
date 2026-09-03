@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-w0](README.md) / sase-w0.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.5.md) · **Assignee:** `sase-w0.2` · **Size:** large
-**Created:** 2026-09-03 06:53:42 EDT
+**Created:** 2026-09-03 06:53:42 EDT · **Closed:** 2026-09-03 17:10:06 EDT
 **Plan:** [202609/unified\_updates\_tab\_1.md](https://github.com/sase-org/sase--plans/blob/main/202609/unified_updates_tab_1.md)
 
 ## Description
@@ -17,11 +17,13 @@ list: replace the tab strip, ContentSwitcher, and two OptionList/detail pairs wi
 
 PROPOSED FOLLOW-UP: jump-hint allocation at n=2000 is still hundreds of ms (not gated; filter/j-press p95 stay under 16ms). Recorded TUI baseline JSON was left for the docs phase.
 
+[2026-09-03T21:10:06Z · sase-w0.2--1] Auto-closed by `sase stitch create` after create_commit landed 4c1c7b24e ("feat(ace): merge Updates tab into one scoped inventory list"). No verification is implied by this note. Reopen with `sase bead open sase-w0.2`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Depends on:** [sase-w0.1](sase-w0.1.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w0.3](sase-w0.3.md) ◐ · ⧖ 2026-09-03
-- **Blocks:** [sase-w0.4](sase-w0.4.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w0.4](sase-w0.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
