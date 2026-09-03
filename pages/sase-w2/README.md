@@ -29,7 +29,7 @@ Agents synced from another machine import over the v2 transport as dismissed, fu
 |---|---|---|---|---|---:|---:|
 | [sase-w2.1](sase-w2.1.md) | Persist the full durable record through TUI dismissal | ◐ in_progress | medium | 2026-09-03 | 1 | 0 |
 | [sase-w2.2](sase-w2.2.md) | Capture revival inputs when the run starts | ✓ closed | medium | 2026-09-03 | 1 | 1 |
-| [sase-w2.3](sase-w2.3.md) | Make sidecar validation and import scale | ✓ closed | medium | 2026-09-03 | 1 | 0 |
+| [sase-w2.3](sase-w2.3.md) | Make sidecar validation and import scale | ✓ closed | medium | 2026-09-03 | 1 | 1 |
 | [sase-w2.4](sase-w2.4.md) | Evidence-backed v1-to-v2 adoption unwedges blocked machines | ◐ in_progress | large | 2026-09-03 | 1 | 0 |
 | [sase-w2.5](sase-w2.5.md) | Retire v1 as an import source behind a sunset flag | ◐ in_progress | medium | 2026-09-03 | 1 | 0 |
 | [sase-w2.6](sase-w2.6.md) | Typed owner-aware identity in sase-core | ◐ in_progress | large | 2026-09-03 | 1 | 0 |
@@ -71,7 +71,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-w2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.1/README.md) | [sase-w2.1](sase-w2.1.md) | 0 |
 | [bbugyi200.apollo.sase-w2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.2/README.md) | [sase-w2.2](sase-w2.2.md) | 1 |
-| [bbugyi200.apollo.sase-w2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.3/README.md) | [sase-w2.3](sase-w2.3.md) | 0 |
+| [bbugyi200.apollo.sase-w2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.3/README.md) | [sase-w2.3](sase-w2.3.md) | 1 |
 | [bbugyi200.apollo.sase-w2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.4/README.md) | [sase-w2.4](sase-w2.4.md) | 0 |
 | [bbugyi200.apollo.sase-w2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.5/README.md) | [sase-w2.5](sase-w2.5.md) | 0 |
 | [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e09a5f9`](https://github.com/sase-org/sase/commit/e09a5f9ab196011e9781c7616b331a739c41ad86) | fix(agents-sync): capture revival inputs at agent launch | [sase-w2.2](sase-w2.2.md) | 2026-09-03 15:26:34 EDT |
+| sase | [`b0fb991`](https://github.com/sase-org/sase/commit/b0fb991b14baec042bb4d19cb99ed3743b9be712) | perf(agents-sync): batch fetched sidecar object reads | [sase-w2.3](sase-w2.3.md) | 2026-09-03 15:32:55 EDT |

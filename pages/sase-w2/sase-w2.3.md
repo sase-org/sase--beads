@@ -27,4 +27,10 @@ batched-sidecar-reads: replace per-file git show subprocesses with a git cat-fil
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.3/README.md) | [sase-w2.3](sase-w2.3.md) | 0 |
+| [bbugyi200.apollo.sase-w2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.3/README.md) | [sase-w2.3](sase-w2.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b0fb991`](https://github.com/sase-org/sase/commit/b0fb991b14baec042bb4d19cb99ed3743b9be712) | perf(agents-sync): batch fetched sidecar object reads | [sase-w2.3](sase-w2.3.md) | 2026-09-03 15:32:55 EDT |
