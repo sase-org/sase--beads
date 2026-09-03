@@ -13,7 +13,7 @@ archive-visibility-capabilities: key imported records by canonical source identi
 
 ## Dependencies
 
-- **Depends on:** [sase-w2.4](sase-w2.4.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w2.4](sase-w2.4.md) ✓ · ⧖ 2026-09-03
 - **Depends on:** [sase-w2.6](sase-w2.6.md) ◐ · ⧖ 2026-09-03
 
 ## Agents

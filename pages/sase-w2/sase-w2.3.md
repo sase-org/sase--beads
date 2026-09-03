@@ -21,7 +21,7 @@ batched-sidecar-reads: replace per-file git show subprocesses with a git cat-fil
 
 ## Dependencies
 
-- **Blocks:** [sase-w2.4](sase-w2.4.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w2.4](sase-w2.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
