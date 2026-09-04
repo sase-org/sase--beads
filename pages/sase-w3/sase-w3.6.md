@@ -19,4 +19,10 @@ reveal-ui: show a lens chip while a LinkReveal is live, pre-flag Links-panel row
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.6/README.md) | [sase-w3.6](sase-w3.6.md) | 0 |
+| [bbugyi200.apollo.sase-w3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.6/README.md) | [sase-w3.6](sase-w3.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a81bc8d`](https://github.com/sase-org/sase/commit/a81bc8d5982c01c951294da4a1d3d0c22d844176) | feat(ace): show link-reveal lens chip and pre-flag Links-panel rows (sase-w3.6) | [sase-w3.6](sase-w3.6.md) | 2026-09-04 11:41:36 EDT |

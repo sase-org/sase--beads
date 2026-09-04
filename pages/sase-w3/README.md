@@ -32,7 +32,7 @@ Following a link from the Artifacts Links panel ($0) or the link rail ($1-$9) vi
 | [sase-w3.3](sase-w3.3.md) | Tri-state completion and the follow coordinator | ✓ closed | large | 2026-09-03 | 1 | 1 |
 | [sase-w3.4](sase-w3.4.md) | The generic host-owned reveal ladder | ✓ closed | large | 2026-09-03 | 1 | 1 |
 | [sase-w3.5](sase-w3.5.md) | Identity query fields and the identity-reveal rung | ◐ in_progress | medium | 2026-09-03 | 1 | 0 |
-| [sase-w3.6](sase-w3.6.md) | Reveal visibility and Links-panel pre-flagging | ◐ in_progress | small | 2026-09-03 | 1 | 0 |
+| [sase-w3.6](sase-w3.6.md) | Reveal visibility and Links-panel pre-flagging | ◐ in_progress | small | 2026-09-03 | 1 | 1 |
 | [sase-w3.7](sase-w3.7.md) | Targeted hydration for never-fetched rows | ◐ in_progress | large | 2026-09-03 | 1 | 0 |
 
 ## Lineage
@@ -70,8 +70,8 @@ flowchart TD
 | [bbugyi200.apollo.sase-w3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.3.md) | [sase-w3.3](sase-w3.3.md) | 1 |
 | [bbugyi200.apollo.sase-w3.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.4.md) | [sase-w3.4](sase-w3.4.md) | 1 |
 | [bbugyi200.apollo.sase-w3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.5/README.md) | [sase-w3.5](sase-w3.5.md) | 0 |
-| [bbugyi200.apollo.sase-w3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.6/README.md) | [sase-w3.6](sase-w3.6.md) | 0 |
-| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.7/README.md) | [sase-w3.7](sase-w3.7.md) | 0 |
+| [bbugyi200.apollo.sase-w3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.6/README.md) | [sase-w3.6](sase-w3.6.md) | 1 |
+| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.7.md) | [sase-w3.7](sase-w3.7.md) | 0 |
 | [bbugyi200.apollo.sase-w3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.land/README.md) | [sase-w3](README.md) | 0 |
 
 ## Commits
@@ -83,3 +83,4 @@ flowchart TD
 | sase | [`b93a189`](https://github.com/sase-org/sase/commit/b93a1894ddc88153bc85446a029092097cc393b3) | feat: Panes resolve refs; the follow path addresses by canonical ref (sase-w3.2) | [sase-w3.2](sase-w3.2.md) | 2026-09-04 06:47:49 EDT |
 | sase | [`82dc1e2`](https://github.com/sase-org/sase/commit/82dc1e2246875a66a8084b79d62baed734a2728a) | feat(ace): tri-state link-follow coordinator for artifact panes (sase-w3.3) | [sase-w3.3](sase-w3.3.md) | 2026-09-04 08:05:59 EDT |
 | sase | [`0f66320`](https://github.com/sase-org/sase/commit/0f66320dffd890e83975d016e0d18c8b2e4d5b39) | feat(tui): add host-owned artifact link reveal ladder | [sase-w3.4](sase-w3.4.md) | 2026-09-04 10:59:05 EDT |
+| sase | [`a81bc8d`](https://github.com/sase-org/sase/commit/a81bc8d5982c01c951294da4a1d3d0c22d844176) | feat(ace): show link-reveal lens chip and pre-flag Links-panel rows (sase-w3.6) | [sase-w3.6](sase-w3.6.md) | 2026-09-04 11:41:36 EDT |

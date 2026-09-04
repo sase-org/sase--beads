@@ -19,4 +19,4 @@ targeted-hydration: when every rung misses but the ref is not dangling, acquire 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.7/README.md) | [sase-w3.7](sase-w3.7.md) | 0 |
+| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.7.md) | [sase-w3.7](sase-w3.7.md) | 0 |
