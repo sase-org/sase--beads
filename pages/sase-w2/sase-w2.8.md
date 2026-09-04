@@ -20,4 +20,4 @@ imported-family-ui: materialize imported family containers as root rows so membe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.8/README.md) | [sase-w2.8](sase-w2.8.md) | 0 |
+| [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.8.md) | [sase-w2.8](sase-w2.8.md) | 0 |

@@ -20,4 +20,10 @@ archive-visibility-capabilities: key imported records by canonical source identi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.7/README.md) | [sase-w2.7](sase-w2.7.md) | 0 |
+| [bbugyi200.apollo.sase-w2.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.7.md) | [sase-w2.7](sase-w2.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b1c108f`](https://github.com/sase-org/sase/commit/b1c108fd7941c413faffbedb58331543ac7f4405) | feat(agent): add archive visibility capabilities | [sase-w2.7](sase-w2.7.md) | 2026-09-04 02:43:38 EDT |
