@@ -13,7 +13,7 @@ ace-axe-status-cache: stop collect_axe_status_data re-parsing ~600 files per tic
 
 ## Dependencies
 
-- **Depends on:** [sase-wn.5](sase-wn.5.md) ◐ · ⧖ 2026-09-04
+- **Depends on:** [sase-wn.5](sase-wn.5.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
