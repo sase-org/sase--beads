@@ -26,7 +26,7 @@ v2-adoption: let v2 claims supersede matching legacy v1 registry state, refresh 
 - **Depends on:** [sase-w2.3](sase-w2.3.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w2.5](sase-w2.5.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w2.7](sase-w2.7.md) ✓ · ⧖ 2026-09-03
-- **Blocks:** [sase-w2.8](sase-w2.8.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w2.8](sase-w2.8.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
