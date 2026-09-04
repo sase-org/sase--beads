@@ -14,7 +14,7 @@ kill-last-keymap-resolved: register kill_and_edit_last on key X across all eight
 ## Dependencies
 
 - **Depends on:** [sase-w8.1](sase-w8.1.md) ✓ · ⧖ 2026-09-03
-- **Blocks:** [sase-w8.3](sase-w8.3.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w8.3](sase-w8.3.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
