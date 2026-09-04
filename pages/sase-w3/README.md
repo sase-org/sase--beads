@@ -23,6 +23,10 @@
 
 Following a link from the Artifacts Links panel ($0) or the link rail ($1-$9) virtually never fails: refs resolve to real row identities, filtered-out rows are revealed by narrow ^-reversible query rewrites, loading is never reported as absence, and only genuinely dangling refs still warn.
 
+## Notes
+
+[2026-09-04T17:06:45Z · r] DISCOVERED ISSUE: During unrelated family-runtime monitor-starter verification on 2026-09-04 at HEAD ae196a367bf2f0a48533ce3af48e735c73ee44ff, just check is blocked at lint (toobig): src/sase/ace/tui/actions/link_follow.py has 1066 lines against the 1000-line limit. The local runtime diff does not touch that source file; git status only shows src/sase/ace/tui/models/agent_time.py, tests/ace/tui/widgets/test_agent_list_runtime_compute.py, and tests/ace/tui/test_link_follow.py wait-lint pragmas. This is a deterministic static lint failure, not a flake, and it is causally tied to this epic's link-follow action work.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -31,9 +35,9 @@ Following a link from the Artifacts Links panel ($0) or the link rail ($1-$9) vi
 | [sase-w3.2](sase-w3.2.md) | Panes resolve refs; the follow path addresses by canonical ref | ✓ closed | medium | 2026-09-03 | 0 | 1 |
 | [sase-w3.3](sase-w3.3.md) | Tri-state completion and the follow coordinator | ✓ closed | large | 2026-09-03 | 1 | 1 |
 | [sase-w3.4](sase-w3.4.md) | The generic host-owned reveal ladder | ✓ closed | large | 2026-09-03 | 1 | 1 |
-| [sase-w3.5](sase-w3.5.md) | Identity query fields and the identity-reveal rung | ◐ in_progress | medium | 2026-09-03 | 1 | 0 |
+| [sase-w3.5](sase-w3.5.md) | Identity query fields and the identity-reveal rung | ✓ closed | medium | 2026-09-03 | 1 | 1 |
 | [sase-w3.6](sase-w3.6.md) | Reveal visibility and Links-panel pre-flagging | ✓ closed | small | 2026-09-03 | 1 | 1 |
-| [sase-w3.7](sase-w3.7.md) | Targeted hydration for never-fetched rows | ◐ in_progress | large | 2026-09-03 | 1 | 1 |
+| [sase-w3.7](sase-w3.7.md) | Targeted hydration for never-fetched rows | ✓ closed | large | 2026-09-03 | 1 | 1 |
 
 ## Lineage
 
@@ -44,9 +48,9 @@ flowchart TD
     n2["sase-w3.2: Panes resolve refs; the follow path addresses by canonical ref [closed]"]
     n3["sase-w3.3: Tri-state completion and the follow coordinator [closed]"]
     n4["sase-w3.4: The generic host-owned reveal ladder [closed]"]
-    n5["sase-w3.5: Identity query fields and the identity-reveal rung [in_progress]"]
+    n5["sase-w3.5: Identity query fields and the identity-reveal rung [closed]"]
     n6["sase-w3.6: Reveal visibility and Links-panel pre-flagging [closed]"]
-    n7["sase-w3.7: Targeted hydration for never-fetched rows [in_progress]"]
+    n7["sase-w3.7: Targeted hydration for never-fetched rows [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-w3.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.1.md) | [sase-w3.1](sase-w3.1.md) | 1 |
 | [bbugyi200.apollo.sase-w3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.3.md) | [sase-w3.3](sase-w3.3.md) | 1 |
 | [bbugyi200.apollo.sase-w3.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.4.md) | [sase-w3.4](sase-w3.4.md) | 1 |
-| [bbugyi200.apollo.sase-w3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.5/README.md) | [sase-w3.5](sase-w3.5.md) | 0 |
+| [bbugyi200.apollo.sase-w3.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.5.md) | [sase-w3.5](sase-w3.5.md) | 1 |
 | [bbugyi200.apollo.sase-w3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.6/README.md) | [sase-w3.6](sase-w3.6.md) | 1 |
 | [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.7.md) | [sase-w3.7](sase-w3.7.md) | 1 |
 | [bbugyi200.apollo.sase-w3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.land/README.md) | [sase-w3](README.md) | 0 |
@@ -85,3 +89,4 @@ flowchart TD
 | sase | [`0f66320`](https://github.com/sase-org/sase/commit/0f66320dffd890e83975d016e0d18c8b2e4d5b39) | feat(tui): add host-owned artifact link reveal ladder | [sase-w3.4](sase-w3.4.md) | 2026-09-04 10:59:05 EDT |
 | sase | [`a81bc8d`](https://github.com/sase-org/sase/commit/a81bc8d5982c01c951294da4a1d3d0c22d844176) | feat(ace): show link-reveal lens chip and pre-flag Links-panel rows (sase-w3.6) | [sase-w3.6](sase-w3.6.md) | 2026-09-04 11:41:36 EDT |
 | sase | [`ae196a3`](https://github.com/sase-org/sase/commit/ae196a367bf2f0a48533ce3af48e735c73ee44ff) | feat(ace): add targeted hydration for artifact link-follow panes | [sase-w3.7](sase-w3.7.md) | 2026-09-04 12:09:16 EDT |
+| sase | [`df465e0`](https://github.com/sase-org/sase/commit/df465e063ad94af3e01aa9db964d931fbc1891f6) | feat(ace): add identity query fields and identity-reveal rung (sase-w3.5) | [sase-w3.5](sase-w3.5.md) | 2026-09-04 19:31:03 EDT |

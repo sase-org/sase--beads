@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-w3](README.md) / sase-w3.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.b](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.b.md) · **Assignee:** `sase-w3.7` · **Size:** large
-**Created:** 2026-09-03 12:48:36 EDT
+**Created:** 2026-09-03 12:48:36 EDT · **Closed:** 2026-09-04 12:12:36 EDT
 **Plan:** [202609/link\_follow\_reliability.md](https://github.com/sase-org/sase--plans/blob/main/202609/link_follow_reliability.md)
 
 ## Description
 
 targeted-hydration: when every rung misses but the ref is not dangling, acquire the row directly (stitch SHAs via the VCS provider, files via the artifact index, documents via their provider, agents/beads via direct lookup) off the pump with pending/failed reporting, then re-enter the ladder.
+
+## Notes
+
+[2026-09-04T16:12:36Z · sase-w3.7] Auto-closed by `sase stitch create` after create_commit landed ae196a367 ("feat(ace): add targeted hydration for artifact link-follow panes"). No verification is implied by this note. Reopen with `sase bead open sase-w3.7`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 
