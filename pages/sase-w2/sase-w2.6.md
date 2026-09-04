@@ -17,7 +17,7 @@ typed-owner-identity: add OwnerRoot and owner-aware name parsing/projection to s
 
 ## Dependencies
 
-- **Blocks:** [sase-w2.7](sase-w2.7.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w2.7](sase-w2.7.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w2.8](sase-w2.8.md) ◐ · ⧖ 2026-09-03
 
 ## Agents
