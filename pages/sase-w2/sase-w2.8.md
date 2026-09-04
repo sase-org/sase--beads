@@ -14,7 +14,7 @@ imported-family-ui: materialize imported family containers as root rows so membe
 ## Dependencies
 
 - **Depends on:** [sase-w2.4](sase-w2.4.md) ✓ · ⧖ 2026-09-03
-- **Depends on:** [sase-w2.6](sase-w2.6.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w2.6](sase-w2.6.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
