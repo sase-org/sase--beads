@@ -26,10 +26,11 @@ imported-family-ui: materialize imported family containers as root rows so membe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.8.md) | [sase-w2.8](sase-w2.8.md) | 1 |
+| [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.8.md) | [sase-w2.8](sase-w2.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5ab116d`](https://github.com/sase-org/sase/commit/5ab116df73f32f87c73174881b13e70b3d27e296) | feat(ace): group imported families and surface owner badges | [sase-w2.8](sase-w2.8.md) | 2026-09-04 03:27:49 EDT |
+| sase-core | [`sase-core@cb2362c`](https://github.com/sase-org/sase-core/commit/cb2362ca9155cfac2ad85ef1b5a9d6bb983967f7) | feat(agent): persist imported\_source\_owner through scan wire | [sase-w2.8](sase-w2.8.md) | 2026-09-04 03:30:35 EDT |
