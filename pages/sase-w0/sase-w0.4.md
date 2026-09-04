@@ -18,7 +18,7 @@ marks: collapse the two disjoint mark sets into one keyed by row identity with t
 ## Dependencies
 
 - **Depends on:** [sase-w0.2](sase-w0.2.md) ✓ · ⧖ 2026-09-03
-- **Blocks:** [sase-w0.5](sase-w0.5.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w0.5](sase-w0.5.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
