@@ -20,4 +20,4 @@ ace-refresh-tokens: replace ace's unconditional full reconcile every refresh_int
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.5/README.md) | [sase-wn.5](sase-wn.5.md) | 0 |
+| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 0 |

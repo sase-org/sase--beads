@@ -29,7 +29,7 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 |---|---|---|---|---|---:|---:|
 | [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
-| [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ◐ in_progress | medium | 2026-09-04 | 1 | 1 |
+| [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ◐ in_progress | medium | 2026-09-04 | 1 | 2 |
 | [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.4](sase-wn.4.md) | Make wait\_checks and bead\_claim\_checks incremental | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.5](sase-wn.5.md) | Per-surface change tokens for ace auto-refresh | ◐ in_progress | large | 2026-09-04 | 1 | 0 |
@@ -76,10 +76,10 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 0 |
 | [bbugyi200.apollo.sase-wn.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.10/README.md) | [sase-wn.10](sase-wn.10.md) | 0 |
-| [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 1 |
+| [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 2 |
 | [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 0 |
 | [bbugyi200.apollo.sase-wn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.4/README.md) | [sase-wn.4](sase-wn.4.md) | 0 |
-| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.5/README.md) | [sase-wn.5](sase-wn.5.md) | 0 |
+| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 0 |
 | [bbugyi200.apollo.sase-wn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.6/README.md) | [sase-wn.6](sase-wn.6.md) | 0 |
 | [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 0 |
 | [bbugyi200.apollo.sase-wn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.8/README.md) | [sase-wn.8](sase-wn.8.md) | 0 |
@@ -91,3 +91,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3a48a4c`](https://github.com/sase-org/sase/commit/3a48a4c65b10d7a5e1aa777669fa258b2d5aa2d6) | feat(axe): add pluggable chop trigger provider policy with fs support | [sase-wn.2](sase-wn.2.md) | 2026-09-04 12:50:58 EDT |
+| sase-core | [`sase-core@31abd5f`](https://github.com/sase-org/sase-core/commit/31abd5f0b65fe2586b12fc3456e3bf29d4f49da1) | feat(axe\_chop): add trigger provider config, decision, and wire types | [sase-wn.2](sase-wn.2.md) | 2026-09-04 13:20:44 EDT |

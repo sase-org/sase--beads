@@ -19,10 +19,11 @@ chop-trigger-provider: add an fs change-token trigger provider to the sase-core 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 1 |
+| [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3a48a4c`](https://github.com/sase-org/sase/commit/3a48a4c65b10d7a5e1aa777669fa258b2d5aa2d6) | feat(axe): add pluggable chop trigger provider policy with fs support | [sase-wn.2](sase-wn.2.md) | 2026-09-04 12:50:58 EDT |
+| sase-core | [`sase-core@31abd5f`](https://github.com/sase-org/sase-core/commit/31abd5f0b65fe2586b12fc3456e3bf29d4f49da1) | feat(axe\_chop): add trigger provider config, decision, and wire types | [sase-wn.2](sase-wn.2.md) | 2026-09-04 13:20:44 EDT |
