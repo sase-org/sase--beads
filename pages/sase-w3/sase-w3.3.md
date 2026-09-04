@@ -13,11 +13,17 @@ tristate-completion: replace the Boolean follow contract with SELECTED/PENDING/M
 
 ## Dependencies
 
-- **Depends on:** [sase-w3.2](sase-w3.2.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w3.2](sase-w3.2.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w3.4](sase-w3.4.md) ◐ · ⧖ 2026-09-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.3/README.md) | [sase-w3.3](sase-w3.3.md) | 0 |
+| [bbugyi200.apollo.sase-w3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.3.md) | [sase-w3.3](sase-w3.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`82dc1e2`](https://github.com/sase-org/sase/commit/82dc1e2246875a66a8084b79d62baed734a2728a) | feat(ace): tri-state link-follow coordinator for artifact panes (sase-w3.3) | [sase-w3.3](sase-w3.3.md) | 2026-09-04 08:05:59 EDT |

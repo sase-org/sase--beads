@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-w3](README.md) / sase-w3.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.b](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.b.md) · **Assignee:** `sase-w3.2` · **Size:** medium
-**Created:** 2026-09-03 12:48:28 EDT
+**Created:** 2026-09-03 12:48:28 EDT · **Closed:** 2026-09-04 06:48:58 EDT
 **Plan:** [202609/link\_follow\_reliability.md](https://github.com/sase-org/sase--plans/blob/main/202609/link_follow_reliability.md)
 
 ## Description
@@ -16,8 +16,8 @@ pane-ref-resolvers: add entry_target_for_ref to the ArtifactEntryNavigator contr
 - **Depends on:** [sase-w3.1](sase-w3.1.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w3.3](sase-w3.3.md) ◐ · ⧖ 2026-09-03
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.apollo.sase-w3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w3.2/README.md) | [sase-w3.2](sase-w3.2.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b93a189`](https://github.com/sase-org/sase/commit/b93a1894ddc88153bc85446a029092097cc393b3) | feat: Panes resolve refs; the follow path addresses by canonical ref (sase-w3.2) | [sase-w3.2](sase-w3.2.md) | 2026-09-04 06:47:49 EDT |

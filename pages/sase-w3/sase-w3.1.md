@@ -17,7 +17,7 @@ core-ref-resolution: port ref→row-identity matching predicates (bead kind/proj
 
 ## Dependencies
 
-- **Blocks:** [sase-w3.2](sase-w3.2.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w3.2](sase-w3.2.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
@@ -30,3 +30,4 @@ core-ref-resolution: port ref→row-identity matching predicates (bead kind/proj
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8c3e7b6`](https://github.com/sase-org/sase/commit/8c3e7b6bffd9f518ec33ce1698f717b69a49a394) | feat: use core artifact row resolution | [sase-w3.1](sase-w3.1.md) | 2026-09-03 17:06:53 EDT |
+| sase-core | [`sase-core@30fe0b2`](https://github.com/sase-org/sase-core/commit/30fe0b283820af47514ff1ba2202919888373049) | feat: nonical ref to row resolution rules in sase-core (sase-w3.1) | [sase-w3.1](sase-w3.1.md) | 2026-09-03 17:20:02 EDT |
