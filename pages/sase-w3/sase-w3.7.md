@@ -13,7 +13,7 @@ targeted-hydration: when every rung misses but the ref is not dangling, acquire 
 
 ## Dependencies
 
-- **Depends on:** [sase-w3.4](sase-w3.4.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w3.4](sase-w3.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 

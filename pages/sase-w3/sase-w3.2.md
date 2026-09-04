@@ -14,7 +14,7 @@ pane-ref-resolvers: add entry_target_for_ref to the ArtifactEntryNavigator contr
 ## Dependencies
 
 - **Depends on:** [sase-w3.1](sase-w3.1.md) ✓ · ⧖ 2026-09-03
-- **Blocks:** [sase-w3.3](sase-w3.3.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w3.3](sase-w3.3.md) ✓ · ⧖ 2026-09-03
 
 ## Commits
 

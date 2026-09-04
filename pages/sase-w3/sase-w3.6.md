@@ -13,7 +13,7 @@ reveal-ui: show a lens chip while a LinkReveal is live, pre-flag Links-panel row
 
 ## Dependencies
 
-- **Depends on:** [sase-w3.4](sase-w3.4.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w3.4](sase-w3.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 

@@ -13,7 +13,7 @@ identity-queries: add closed identity fields to the bead, stitch, file, and plan
 
 ## Dependencies
 
-- **Depends on:** [sase-w3.4](sase-w3.4.md) ◐ · ⧖ 2026-09-03
+- **Depends on:** [sase-w3.4](sase-w3.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
 
