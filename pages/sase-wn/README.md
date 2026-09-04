@@ -27,14 +27,14 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ◐ in_progress | medium | 2026-09-04 | 1 | 1 |
+| [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ◐ in_progress | medium | 2026-09-04 | 1 | 2 |
 | [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.4](sase-wn.4.md) | Make wait\_checks and bead\_claim\_checks incremental | ✓ closed | medium | 2026-09-04 | 0 | 1 |
 | [sase-wn.5](sase-wn.5.md) | Per-surface change tokens for ace auto-refresh | ✓ closed | large | 2026-09-04 | 1 | 0 |
 | [sase-wn.6](sase-wn.6.md) | Cache immutable axe status reads in ace | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
-| [sase-wn.7](sase-wn.7.md) | Stop multi-second idle re-renders of the prompt panel | ✓ closed | medium | 2026-09-04 | 1 | 0 |
+| [sase-wn.7](sase-wn.7.md) | Stop multi-second idle re-renders of the prompt panel | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.8](sase-wn.8.md) | Small ace I/O fixes (agents-sync reads, bead N+1) | ✓ closed | small | 2026-09-04 | 1 | 1 |
 | [sase-wn.9](sase-wn.9.md) | Reuse sase-core release builds across workspaces | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 
@@ -43,7 +43,7 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 ```mermaid
 flowchart TD
     n0["sase-wn: Idle CPU diet: stop sase from burning ~4 cores at rest [in_progress]"]
-    n1["sase-wn.1: Slim chop subprocess imports [in_progress]"]
+    n1["sase-wn.1: Slim chop subprocess imports [closed]"]
     n2["sase-wn.10: Perf counters, budgets, and regression guardrails [in_progress]"]
     n3["sase-wn.2: Filesystem change-token trigger provider (sase-core) [in_progress]"]
     n4["sase-wn.3: Wire pre-spawn guards into shipped chop defaults [in_progress]"]
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 0 |
 | [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 0 |
 | [bbugyi200.apollo.sase-wn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.6/README.md) | [sase-wn.6](sase-wn.6.md) | 0 |
-| [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 0 |
+| [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 1 |
 | [bbugyi200.apollo.sase-wn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.8/README.md) | [sase-wn.8](sase-wn.8.md) | 1 |
 | [bbugyi200.apollo.sase-wn.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.9/README.md) | [sase-wn.9](sase-wn.9.md) | 1 |
 | [bbugyi200.apollo.sase-wn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.land/README.md) | [sase-wn](README.md) | 0 |
@@ -95,3 +95,4 @@ flowchart TD
 | sase | [`c0ae9d2`](https://github.com/sase-org/sase/commit/c0ae9d2d05901cfd9a96f36fdf8240ae2804f1bd) | perf(ace): buffer cat-file reads and batch wait-bead status lookups | [sase-wn.8](sase-wn.8.md) | 2026-09-04 15:40:57 EDT |
 | sase | [`da95c82`](https://github.com/sase-org/sase/commit/da95c82480b8ab258478fdd5eacdaf49abfd519c) | feat: cache sase-core release wheels | [sase-wn.9](sase-wn.9.md) | 2026-09-04 17:33:47 EDT |
 | sase | [`c0b741c`](https://github.com/sase-org/sase/commit/c0b741c9363e58abadf8732ef7bd6fa35521f212) | perf(chops): defer heavy runner imports to cut chop import budget | [sase-wn.1](sase-wn.1.md) | 2026-09-04 17:56:43 EDT |
+| sase | [`969c22b`](https://github.com/sase-org/sase/commit/969c22ba06edd575ff26629f2c11a6547ab3b71b) | feat(ace): cache idle prompt-panel renders of unchanged documents | [sase-wn.7](sase-wn.7.md) | 2026-09-04 19:06:31 EDT |

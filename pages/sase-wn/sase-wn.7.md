@@ -21,4 +21,10 @@ ace-idle-render-cache: make prompt-panel rendering (section-navigation strips/he
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 0 |
+| [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`969c22b`](https://github.com/sase-org/sase/commit/969c22ba06edd575ff26629f2c11a6547ab3b71b) | feat(ace): cache idle prompt-panel renders of unchanged documents | [sase-wn.7](sase-wn.7.md) | 2026-09-04 19:06:31 EDT |

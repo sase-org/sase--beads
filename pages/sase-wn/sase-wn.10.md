@@ -13,7 +13,7 @@ perf-guardrails: land the counters that prove the wins (chop spawns/min and no-o
 
 ## Dependencies
 
-- **Depends on:** [sase-wn.1](sase-wn.1.md) ◐ · ⧖ 2026-09-04
+- **Depends on:** [sase-wn.1](sase-wn.1.md) ✓ · ⧖ 2026-09-04
 - **Depends on:** [sase-wn.3](sase-wn.3.md) ◐ · ⧖ 2026-09-04
 - **Depends on:** [sase-wn.5](sase-wn.5.md) ✓ · ⧖ 2026-09-04
 
