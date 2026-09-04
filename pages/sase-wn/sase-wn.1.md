@@ -19,4 +19,10 @@ chop-import-slim: cut the ~0.6s/1,251-module import cost every sase_chop_* subpr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 0 |
+| [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c0b741c`](https://github.com/sase-org/sase/commit/c0b741c9363e58abadf8732ef7bd6fa35521f212) | perf(chops): defer heavy runner imports to cut chop import budget | [sase-wn.1](sase-wn.1.md) | 2026-09-04 17:56:43 EDT |

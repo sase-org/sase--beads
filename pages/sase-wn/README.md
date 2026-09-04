@@ -27,7 +27,7 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
+| [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ◐ in_progress | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ◐ in_progress | medium | 2026-09-04 | 1 | 2 |
 | [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
@@ -74,7 +74,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 0 |
+| [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 1 |
 | [bbugyi200.apollo.sase-wn.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.10/README.md) | [sase-wn.10](sase-wn.10.md) | 0 |
 | [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 2 |
 | [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 0 |
@@ -94,3 +94,4 @@ flowchart TD
 | sase | [`4924c8b`](https://github.com/sase-org/sase/commit/4924c8b9b9027c771441361904d4ddc07775dfb9) | feat: Make wait\_checks and bead\_claim\_checks incremental (sase-wn.4) | [sase-wn.4](sase-wn.4.md) | 2026-09-04 14:53:05 EDT |
 | sase | [`c0ae9d2`](https://github.com/sase-org/sase/commit/c0ae9d2d05901cfd9a96f36fdf8240ae2804f1bd) | perf(ace): buffer cat-file reads and batch wait-bead status lookups | [sase-wn.8](sase-wn.8.md) | 2026-09-04 15:40:57 EDT |
 | sase | [`da95c82`](https://github.com/sase-org/sase/commit/da95c82480b8ab258478fdd5eacdaf49abfd519c) | feat: cache sase-core release wheels | [sase-wn.9](sase-wn.9.md) | 2026-09-04 17:33:47 EDT |
+| sase | [`c0b741c`](https://github.com/sase-org/sase/commit/c0b741c9363e58abadf8732ef7bd6fa35521f212) | perf(chops): defer heavy runner imports to cut chop import budget | [sase-wn.1](sase-wn.1.md) | 2026-09-04 17:56:43 EDT |
