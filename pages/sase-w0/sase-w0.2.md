@@ -22,7 +22,7 @@ PROPOSED FOLLOW-UP: jump-hint allocation at n=2000 is still hundreds of ms (not 
 ## Dependencies
 
 - **Depends on:** [sase-w0.1](sase-w0.1.md) ✓ · ⧖ 2026-09-03
-- **Blocks:** [sase-w0.3](sase-w0.3.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w0.3](sase-w0.3.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w0.4](sase-w0.4.md) ✓ · ⧖ 2026-09-03
 
 ## Agents
