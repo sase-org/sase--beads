@@ -19,4 +19,10 @@ targeted-hydration: when every rung misses but the ref is not dangling, acquire 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.7.md) | [sase-w3.7](sase-w3.7.md) | 0 |
+| [bbugyi200.apollo.sase-w3.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.7.md) | [sase-w3.7](sase-w3.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ae196a3`](https://github.com/sase-org/sase/commit/ae196a367bf2f0a48533ce3af48e735c73ee44ff) | feat(ace): add targeted hydration for artifact link-follow panes | [sase-w3.7](sase-w3.7.md) | 2026-09-04 12:09:16 EDT |

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-w3](README.md) / sase-w3.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.b](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.b.md) · **Assignee:** `sase-w3.6` · **Size:** small
-**Created:** 2026-09-03 12:48:35 EDT
+**Created:** 2026-09-03 12:48:35 EDT · **Closed:** 2026-09-04 11:42:39 EDT
 **Plan:** [202609/link\_follow\_reliability.md](https://github.com/sase-org/sase--plans/blob/main/202609/link_follow_reliability.md)
 
 ## Description
 
 reveal-ui: show a lens chip while a LinkReveal is live, pre-flag Links-panel rows that would need a reveal or are dangling via the existing staleness pass, update the help modal, and add PNG snapshot coverage.
+
+## Notes
+
+[2026-09-04T15:42:39Z · sase-w3.6] Auto-closed by `sase stitch create` after create_commit landed a81bc8d59 ("feat(ace): show link-reveal lens chip and pre-flag Links-panel rows (sase-w3.6)"). No verification is implied by this note. Reopen with `sase bead open sase-w3.6`, or pass `-B|--do-not-close-bead` on mid-flight commits.
 
 ## Dependencies
 

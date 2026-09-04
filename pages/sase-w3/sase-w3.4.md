@@ -19,7 +19,7 @@ reveal-ladder: replace the old fallback rungs with an ordered ladder (fold expan
 
 - **Depends on:** [sase-w3.3](sase-w3.3.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w3.5](sase-w3.5.md) ◐ · ⧖ 2026-09-03
-- **Blocks:** [sase-w3.6](sase-w3.6.md) ◐ · ⧖ 2026-09-03
+- **Blocks:** [sase-w3.6](sase-w3.6.md) ✓ · ⧖ 2026-09-03
 - **Blocks:** [sase-w3.7](sase-w3.7.md) ◐ · ⧖ 2026-09-03
 
 ## Agents
