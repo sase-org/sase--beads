@@ -32,7 +32,7 @@ Agents synced from another machine import over the v2 transport as dismissed, fu
 | [sase-w2.3](sase-w2.3.md) | Make sidecar validation and import scale | ✓ closed | medium | 2026-09-03 | 1 | 1 |
 | [sase-w2.4](sase-w2.4.md) | Evidence-backed v1-to-v2 adoption unwedges blocked machines | ✓ closed | large | 2026-09-03 | 1 | 1 |
 | [sase-w2.5](sase-w2.5.md) | Retire v1 as an import source behind a sunset flag | ✓ closed | medium | 2026-09-03 | 1 | 1 |
-| [sase-w2.6](sase-w2.6.md) | Typed owner-aware identity in sase-core | ◐ in_progress | large | 2026-09-03 | 1 | 0 |
+| [sase-w2.6](sase-w2.6.md) | Typed owner-aware identity in sase-core | ◐ in_progress | large | 2026-09-03 | 1 | 1 |
 | [sase-w2.7](sase-w2.7.md) | Immutable archive, visibility projection, honest capabilities | ◐ in_progress | large | 2026-09-03 | 1 | 0 |
 | [sase-w2.8](sase-w2.8.md) | Family grouping and provenance in ACE | ◐ in_progress | medium | 2026-09-03 | 1 | 0 |
 
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-w2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.3/README.md) | [sase-w2.3](sase-w2.3.md) | 1 |
 | [bbugyi200.apollo.sase-w2.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.4.md) | [sase-w2.4](sase-w2.4.md) | 1 |
 | [bbugyi200.apollo.sase-w2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.5/README.md) | [sase-w2.5](sase-w2.5.md) | 1 |
-| [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 0 |
+| [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 1 |
 | [bbugyi200.apollo.sase-w2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.7/README.md) | [sase-w2.7](sase-w2.7.md) | 0 |
 | [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.8/README.md) | [sase-w2.8](sase-w2.8.md) | 0 |
 | [bbugyi200.apollo.sase-w2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.land/README.md) | [sase-w2](README.md) | 0 |
@@ -88,3 +88,4 @@ flowchart TD
 | sase | [`9e2d95b`](https://github.com/sase-org/sase/commit/9e2d95bb0e85eb546502a069c1a0d7d773d715bf) | fix(ace): persist the full durable record through TUI dismissal | [sase-w2.1](sase-w2.1.md) | 2026-09-03 15:42:21 EDT |
 | sase | [`bdd2ead`](https://github.com/sase-org/sase/commit/bdd2eadcf65b84d467ce26cfae34f11f2fb67fee) | feat(agents-sync): evidence-backed v1-to-v2 adoption unwedges blocked machines | [sase-w2.4](sase-w2.4.md) | 2026-09-03 17:30:08 EDT |
 | sase | [`ffa4c76`](https://github.com/sase-org/sase/commit/ffa4c765d8b54732101964229b026d57a18b392d) | feat(agents-sync): retire v1 as an import source behind a sunset flag | [sase-w2.5](sase-w2.5.md) | 2026-09-03 19:50:46 EDT |
+| sase | [`f4032c5`](https://github.com/sase-org/sase/commit/f4032c55d73694a137cc2ef5d3276870abb996a1) | feat(agent): wire typed owner identity through SASE | [sase-w2.6](sase-w2.6.md) | 2026-09-04 00:00:05 EDT |

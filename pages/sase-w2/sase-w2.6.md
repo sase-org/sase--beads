@@ -20,4 +20,10 @@ typed-owner-identity: add OwnerRoot and owner-aware name parsing/projection to s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 0 |
+| [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f4032c5`](https://github.com/sase-org/sase/commit/f4032c55d73694a137cc2ef5d3276870abb996a1) | feat(agent): wire typed owner identity through SASE | [sase-w2.6](sase-w2.6.md) | 2026-09-04 00:00:05 EDT |
