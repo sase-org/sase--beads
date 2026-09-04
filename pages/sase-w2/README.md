@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-w2.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.6.md) | [sase-w2.6](sase-w2.6.md) | 2 |
 | [bbugyi200.apollo.sase-w2.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.7.md) | [sase-w2.7](sase-w2.7.md) | 2 |
 | [bbugyi200.apollo.sase-w2.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w2.8.md) | [sase-w2.8](sase-w2.8.md) | 2 |
-| [bbugyi200.apollo.sase-w2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.land/README.md) | [sase-w2](README.md) | 0 |
+| [bbugyi200.apollo.sase-w2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w2.land/README.md) | [sase-w2](README.md) | 1 |
 
 ## Commits
 
@@ -94,3 +94,4 @@ flowchart TD
 | sase-core | [`sase-core@98552a4`](https://github.com/sase-org/sase-core/commit/98552a4afe87a1b17d5f8794b3d591e83e0bd49b) | feat(agent-archive): validate archive capabilities | [sase-w2.7](sase-w2.7.md) | 2026-09-04 02:47:14 EDT |
 | sase | [`5ab116d`](https://github.com/sase-org/sase/commit/5ab116df73f32f87c73174881b13e70b3d27e296) | feat(ace): group imported families and surface owner badges | [sase-w2.8](sase-w2.8.md) | 2026-09-04 03:27:49 EDT |
 | sase-core | [`sase-core@cb2362c`](https://github.com/sase-org/sase-core/commit/cb2362ca9155cfac2ad85ef1b5a9d6bb983967f7) | feat(agent): persist imported\_source\_owner through scan wire | [sase-w2.8](sase-w2.8.md) | 2026-09-04 03:30:35 EDT |
+| sase | [`239f9bf`](https://github.com/sase-org/sase/commit/239f9bf4c422df79388c2a4c4f2918383c3393d1) | refactor(agents-sync): dedupe \_source\_run\_id and raise sase-core-rs floor | [sase-w2](README.md) | 2026-09-04 04:08:28 EDT |
