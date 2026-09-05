@@ -66,7 +66,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-w8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.1/README.md) | [sase-w8.4.1](sase-w8.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-w8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.2/README.md) | [sase-w8.4.2](sase-w8.4.2.md) | 1 |
-| [bbugyi200.apollo.sase-w8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.land/README.md) | [sase-w8.4](sase-w8.4.md) | 1 |
+| [bbugyi200.apollo.sase-w8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.land/README.md) | [sase-w8.4](sase-w8.4.md) | 2 |
 | [bbugyi200.apollo.sase-w8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w8.land.md) | [sase-w8](README.md) | 0 |
 | [bbugyi200.kellys\_mbp.sase-w8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.kellys_mbp.sase-w8.2/README.md) | [sase-w8.2](sase-w8.2.md) | 1 |
 | [bbugyi200.kellys\_mbp.sase-w8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.kellys_mbp.sase-w8.3/README.md) | [sase-w8.3](sase-w8.3.md) | 1 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`5a90ff8`](https://github.com/sase-org/sase/commit/5a90ff8826f51d6d4c363bf28944de81ec77bc4c) | fix(ace): delay last-launch record consumption | [sase-w8.4.1](sase-w8.4.1.md) | 2026-09-04 17:37:02 EDT |
 | sase--plans | [`sase--plans@f99ccb8`](https://github.com/sase-org/sase--plans/commit/f99ccb86d7abaec7a961e6b0b21f11590c85009b) | docs(plan): restore missing sase-w8 kill\_and\_edit\_last\_launch epic plan | [sase-w8.4.2](sase-w8.4.2.md) | 2026-09-04 18:17:46 EDT |
 | sase | [`e7298cb`](https://github.com/sase-org/sase/commit/e7298cbfefdd624d62d961d0e2d24b4e872cf114) | docs(ace): describe ,X resolved-action consumption in the launch history | [sase-w8.4](sase-w8.4.md) | 2026-09-04 19:59:43 EDT |
+| sase--plans | [`sase--plans@7676054`](https://github.com/sase-org/sase--plans/commit/7676054375ccb5aded33ca4726712270bfe00a7c) | chore(plans): mark the kill-and-edit-last epic plan done | [sase-w8.4](sase-w8.4.md) | 2026-09-04 20:00:55 EDT |

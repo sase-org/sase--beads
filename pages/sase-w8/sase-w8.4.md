@@ -31,10 +31,11 @@ Resolved ,X actions retain the newest launch record until a kill or dismissal is
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.land/README.md) | [sase-w8.4](sase-w8.4.md) | 1 |
+| [bbugyi200.apollo.sase-w8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-w8.4.land/README.md) | [sase-w8.4](sase-w8.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e7298cb`](https://github.com/sase-org/sase/commit/e7298cbfefdd624d62d961d0e2d24b4e872cf114) | docs(ace): describe ,X resolved-action consumption in the launch history | [sase-w8.4](sase-w8.4.md) | 2026-09-04 19:59:43 EDT |
+| sase--plans | [`sase--plans@7676054`](https://github.com/sase-org/sase--plans/commit/7676054375ccb5aded33ca4726712270bfe00a7c) | chore(plans): mark the kill-and-edit-last epic plan done | [sase-w8.4](sase-w8.4.md) | 2026-09-04 20:00:55 EDT |
