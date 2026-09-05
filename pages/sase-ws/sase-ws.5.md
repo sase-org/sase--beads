@@ -18,7 +18,7 @@ rust-core-cleanup: remove sase-core identity and wire surface whose only callers
 ## Dependencies
 
 - **Depends on:** [sase-ws.4](sase-ws.4.md) ✓ · ⧖ 2026-09-04
-- **Blocks:** [sase-ws.6](sase-ws.6.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-ws.6](sase-ws.6.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
