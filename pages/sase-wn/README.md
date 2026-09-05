@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 1 |
 | [bbugyi200.apollo.sase-wn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.8/README.md) | [sase-wn.8](sase-wn.8.md) | 1 |
 | [bbugyi200.apollo.sase-wn.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.9/README.md) | [sase-wn.9](sase-wn.9.md) | 1 |
-| [bbugyi200.apollo.sase-wn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.land/README.md) | [sase-wn](README.md) | 0 |
+| [bbugyi200.apollo.sase-wn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.land/README.md) | [sase-wn](README.md) | 1 |
 
 ## Commits
 
@@ -100,3 +100,4 @@ flowchart TD
 | sase | [`0927b10`](https://github.com/sase-org/sase/commit/0927b10928b344372127ac956226855f6ccb8b44) | perf(ace): cache immutable axe status reads across ticks | [sase-wn.6](sase-wn.6.md) | 2026-09-04 22:30:20 EDT |
 | sase | [`ad5bcc9`](https://github.com/sase-org/sase/commit/ad5bcc914b84c5ef3696bf43805038ba354e1800) | feat(ace): wire fs change-token guards into shipped hooks/waits chops | [sase-wn.3](sase-wn.3.md) | 2026-09-05 06:51:02 EDT |
 | sase | [`9ed0f11`](https://github.com/sase-org/sase/commit/9ed0f11b7c21c5da288833b44bfeb85ca12f16fc) | feat(axe): add idle-host perf counters, budgets, and status overlay | [sase-wn.10](sase-wn.10.md) | 2026-09-05 17:36:31 EDT |
+| sase | [`4acd90b`](https://github.com/sase-org/sase/commit/4acd90b9c5e8a259c6e56b3f2851643a96b51e98) | docs(perf): align runbook idle-CPU criterion with sase-wn.10 perf counters (sase-wn) | [sase-wn](README.md) | 2026-09-05 18:15:03 EDT |
