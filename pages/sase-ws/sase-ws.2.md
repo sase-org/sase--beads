@@ -18,7 +18,7 @@ cli-publish-only: strip the import pass from full sync, the commit-time publicat
 ## Dependencies
 
 - **Depends on:** [sase-ws.1](sase-ws.1.md) ✓ · ⧖ 2026-09-04
-- **Blocks:** [sase-ws.3](sase-ws.3.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-ws.3](sase-ws.3.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
