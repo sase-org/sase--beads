@@ -29,7 +29,7 @@ On the Admin Center Projects sub-tab, `i` initializes the marked or highlighted 
 |---|---|---|---|---|---:|---:|
 | [sase-wm.1](sase-wm.1.md) | Project selector and structured check output for \`sase init\` | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wm.2](sase-wm.2.md) | The i/I gestures, the InitPlanModal preview, and the streaming apply proc | ✓ closed | large | 2026-09-04 | 1 | 1 |
-| [sase-wm.3](sase-wm.3.md) | The run-in-terminal valve for TTY-only blockers | ◐ in_progress | small | 2026-09-04 | 1 | 0 |
+| [sase-wm.3](sase-wm.3.md) | The run-in-terminal valve for TTY-only blockers | ◐ in_progress | small | 2026-09-04 | 1 | 1 |
 | [sase-wm.4](sase-wm.4.md) | Hint line, key help, docs, and PNG snapshot goldens | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
 | [sase-wm.5](sase-wm.5.md) | End-to-end verification of the init loop | ◐ in_progress | small | 2026-09-04 | 1 | 0 |
 
@@ -60,7 +60,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-wm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.1/README.md) | [sase-wm.1](sase-wm.1.md) | 1 |
 | [bbugyi200.apollo.sase-wm.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wm.2.md) | [sase-wm.2](sase-wm.2.md) | 1 |
-| [bbugyi200.apollo.sase-wm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.3/README.md) | [sase-wm.3](sase-wm.3.md) | 0 |
+| [bbugyi200.apollo.sase-wm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.3/README.md) | [sase-wm.3](sase-wm.3.md) | 1 |
 | [bbugyi200.apollo.sase-wm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.4/README.md) | [sase-wm.4](sase-wm.4.md) | 0 |
 | [bbugyi200.apollo.sase-wm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.5/README.md) | [sase-wm.5](sase-wm.5.md) | 0 |
 | [bbugyi200.apollo.sase-wm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wm.land/README.md) | [sase-wm](README.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`07aa560`](https://github.com/sase-org/sase/commit/07aa560950bea6dfc99155071503bd0e18d093b5) | feat(init): add project selector and JSON check output | [sase-wm.1](sase-wm.1.md) | 2026-09-04 15:39:03 EDT |
 | sase | [`29ce9cd`](https://github.com/sase-org/sase/commit/29ce9cd8b202e6bfe6c1716ad773c25542b31ddc) | feat(ace): add Projects tab i/I init plan modal and streaming apply | [sase-wm.2](sase-wm.2.md) | 2026-09-04 22:10:36 EDT |
+| sase | [`c018b74`](https://github.com/sase-org/sase/commit/c018b74987ac18c8ebd34be720a1391db8dc3824) | feat(ace): add run-in-terminal valve for tty-blocked init plans | [sase-wm.3](sase-wm.3.md) | 2026-09-04 22:31:22 EDT |
