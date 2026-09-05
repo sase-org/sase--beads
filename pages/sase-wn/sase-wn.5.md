@@ -30,4 +30,10 @@ Tests: previously failing 7 now pass (completion snapshot after just sync-comple
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 0 |
+| [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2eb1335`](https://github.com/sase-org/sase/commit/2eb13350f991a84b340f4d6619334b9311bd7f9c) | feat(ace): gate auto-refresh on per-surface change tokens | [sase-wn.5](sase-wn.5.md) | 2026-09-04 20:53:28 EDT |
