@@ -17,7 +17,7 @@ chop-import-slim: cut the ~0.6s/1,251-module import cost every sase_chop_* subpr
 
 ## Dependencies
 
-- **Blocks:** [sase-wn.10](sase-wn.10.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wn.10](sase-wn.10.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 

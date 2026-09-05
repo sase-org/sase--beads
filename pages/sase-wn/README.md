@@ -28,7 +28,7 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ✓ closed | medium | 2026-09-04 | 1 | 1 |
-| [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
+| [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ✓ closed | medium | 2026-09-04 | 1 | 2 |
 | [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.4](sase-wn.4.md) | Make wait\_checks and bead\_claim\_checks incremental | ✓ closed | medium | 2026-09-04 | 0 | 1 |
@@ -44,7 +44,7 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 flowchart TD
     n0["sase-wn: Idle CPU diet: stop sase from burning ~4 cores at rest [in_progress]"]
     n1["sase-wn.1: Slim chop subprocess imports [closed]"]
-    n2["sase-wn.10: Perf counters, budgets, and regression guardrails [in_progress]"]
+    n2["sase-wn.10: Perf counters, budgets, and regression guardrails [closed]"]
     n3["sase-wn.2: Filesystem change-token trigger provider (sase-core) [closed]"]
     n4["sase-wn.3: Wire pre-spawn guards into shipped chop defaults [closed]"]
     n5["sase-wn.4: Make wait_checks and bead_claim_checks incremental [closed]"]
@@ -75,7 +75,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 1 |
-| [bbugyi200.apollo.sase-wn.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.10/README.md) | [sase-wn.10](sase-wn.10.md) | 0 |
+| [bbugyi200.apollo.sase-wn.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.10.md) | [sase-wn.10](sase-wn.10.md) | 1 |
 | [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 2 |
 | [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 1 |
 | [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 1 |
@@ -99,3 +99,4 @@ flowchart TD
 | sase | [`2eb1335`](https://github.com/sase-org/sase/commit/2eb13350f991a84b340f4d6619334b9311bd7f9c) | feat(ace): gate auto-refresh on per-surface change tokens | [sase-wn.5](sase-wn.5.md) | 2026-09-04 20:53:28 EDT |
 | sase | [`0927b10`](https://github.com/sase-org/sase/commit/0927b10928b344372127ac956226855f6ccb8b44) | perf(ace): cache immutable axe status reads across ticks | [sase-wn.6](sase-wn.6.md) | 2026-09-04 22:30:20 EDT |
 | sase | [`ad5bcc9`](https://github.com/sase-org/sase/commit/ad5bcc914b84c5ef3696bf43805038ba354e1800) | feat(ace): wire fs change-token guards into shipped hooks/waits chops | [sase-wn.3](sase-wn.3.md) | 2026-09-05 06:51:02 EDT |
+| sase | [`9ed0f11`](https://github.com/sase-org/sase/commit/9ed0f11b7c21c5da288833b44bfeb85ca12f16fc) | feat(axe): add idle-host perf counters, budgets, and status overlay | [sase-wn.10](sase-wn.10.md) | 2026-09-05 17:36:31 EDT |

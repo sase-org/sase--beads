@@ -19,7 +19,7 @@ chop-guard-defaults: give every high-frequency shipped chop in default_config.ym
 
 ## Dependencies
 
-- **Blocks:** [sase-wn.10](sase-wn.10.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wn.10](sase-wn.10.md) ✓ · ⧖ 2026-09-04
 - **Depends on:** [sase-wn.2](sase-wn.2.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
