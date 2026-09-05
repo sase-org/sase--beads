@@ -20,7 +20,7 @@ polish: surface the new keys in the Projects hint line and key help, document th
 ## Dependencies
 
 - **Depends on:** [sase-wm.3](sase-wm.3.md) ✓ · ⧖ 2026-09-04
-- **Blocks:** [sase-wm.5](sase-wm.5.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wm.5](sase-wm.5.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
