@@ -24,10 +24,11 @@ rust-core-cleanup: remove sase-core identity and wire surface whose only callers
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-ws.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-ws.5/README.md) | [sase-ws.5](sase-ws.5.md) | 1 |
+| [bbugyi200.apollo.sase-ws.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-ws.5/README.md) | [sase-ws.5](sase-ws.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3102527`](https://github.com/sase-org/sase/commit/3102527cd4464e881100bf663e9f2de095acf057) | refactor(agent-identity): drop legacy import facade APIs | [sase-ws.5](sase-ws.5.md) | 2026-09-05 15:22:59 EDT |
+| sase-core | [`sase-core@1416679`](https://github.com/sase-org/sase-core/commit/141667964adeae1e7fa331303830463fee783801) | refactor(agent-identity): remove legacy import bindings | [sase-ws.5](sase-ws.5.md) | 2026-09-05 15:24:56 EDT |
