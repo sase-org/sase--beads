@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-ws](README.md) / sase-ws.5
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.kellys\_mbp.y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.kellys_mbp.y.md) · **Assignee:** `sase-ws.5` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.y` · **Assignee:** `sase-ws.5` · **Size:** medium
 **Created:** 2026-09-04 13:48:31 EDT
 **Plan:** [202609/remove\_agents\_sync\_import.md](https://github.com/sase-org/sase--plans/blob/main/202609/remove_agents_sync_import.md)
 

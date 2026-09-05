@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-ws](README.md) / sase-ws.4
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.kellys\_mbp.y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.kellys_mbp.y.md) · **Assignee:** `sase-ws.4` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.y` · **Assignee:** `sase-ws.4` · **Size:** large
 **Created:** 2026-09-04 13:48:30 EDT
 **Plan:** [202609/remove\_agents\_sync\_import.md](https://github.com/sase-org/sase--plans/blob/main/202609/remove_agents_sync_import.md)
 
@@ -15,3 +15,9 @@ delete-import-engine: delete the v2 importer, incoming cache/detection, v1 integ
 
 - **Depends on:** [sase-ws.3](sase-ws.3.md) ◐ · ⧖ 2026-09-04
 - **Blocks:** [sase-ws.5](sase-ws.5.md) ◐ · ⧖ 2026-09-04
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-ws.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-ws.4/README.md) | [sase-ws.4](sase-ws.4.md) | 0 |

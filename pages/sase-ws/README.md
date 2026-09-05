@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / sase-ws
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.kellys\_mbp.y](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.kellys_mbp.y.md) · **Assignee:** `sase-ws.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.y` · **Assignee:** `sase-ws.land`
 **Created:** 2026-09-04 13:48:25 EDT
 **Plan:** [202609/remove\_agents\_sync\_import.md](https://github.com/sase-org/sase--plans/blob/main/202609/remove_agents_sync_import.md)
 
@@ -31,10 +31,10 @@ Syncing agents from remote machines to local disk is completely removed: no impo
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-ws.1](sase-ws.1.md) | Remove ACE import surfaces | ✓ closed | large | 2026-09-04 | 1 | 1 |
+| [sase-ws.1](sase-ws.1.md) | Remove ACE import surfaces | ✓ closed | large | 2026-09-04 | 0 | 1 |
 | [sase-ws.2](sase-ws.2.md) | Rescope sase agent sync to publication | ✓ closed | medium | 2026-09-04 | 1 | 1 |
-| [sase-ws.3](sase-ws.3.md) | One explicit purge for imported local state | ◐ in_progress | medium | 2026-09-04 | 0 | 0 |
-| [sase-ws.4](sase-ws.4.md) | Delete the import engine and v1 leg | ◐ in_progress | large | 2026-09-04 | 0 | 0 |
+| [sase-ws.3](sase-ws.3.md) | One explicit purge for imported local state | ◐ in_progress | medium | 2026-09-04 | 1 | 1 |
+| [sase-ws.4](sase-ws.4.md) | Delete the import engine and v1 leg | ◐ in_progress | large | 2026-09-04 | 1 | 0 |
 | [sase-ws.5](sase-ws.5.md) | Drop orphaned Rust import APIs | ◐ in_progress | medium | 2026-09-04 | 0 | 0 |
 | [sase-ws.6](sase-ws.6.md) | Docs, memory record, and final sweep | ◐ in_progress | medium | 2026-09-04 | 0 | 0 |
 
@@ -66,7 +66,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.kellys\_mbp.sase-ws.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.kellys_mbp.sase-ws.1.md) | [sase-ws.1](sase-ws.1.md) | 0 |
+| [bbugyi200.apollo.sase-ws.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-ws.3/README.md) | [sase-ws.3](sase-ws.3.md) | 1 |
+| [bbugyi200.apollo.sase-ws.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-ws.4/README.md) | [sase-ws.4](sase-ws.4.md) | 0 |
 | [bbugyi200.kellys\_mbp.sase-ws.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.kellys_mbp.sase-ws.2/README.md) | [sase-ws.2](sase-ws.2.md) | 1 |
 
 ## Commits
@@ -75,3 +76,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`61d7286`](https://github.com/sase-org/sase/commit/61d72860a1a8b636c0f8ec4e1a6d15d6172db054) | feat: Remove ACE agents-sync import surfaces (sase-ws.1) | [sase-ws.1](sase-ws.1.md) | 2026-09-04 14:58:26 EDT |
 | sase | [`470442d`](https://github.com/sase-org/sase/commit/470442d3d828e720d99d44c7a0f305dfc225e3ff) | feat(agent-sync): make sync publication-only | [sase-ws.2](sase-ws.2.md) | 2026-09-05 06:13:38 EDT |
+| sase | [`2a216ed`](https://github.com/sase-org/sase/commit/2a216eda9158cd57ed903d02e9ede93140f0753b) | feat(agents-sync): add purge-local-state command for incoming agent caches | [sase-ws.3](sase-ws.3.md) | 2026-09-05 11:22:21 EDT |
