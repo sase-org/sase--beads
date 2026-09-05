@@ -23,10 +23,11 @@ identity-queries: add closed identity fields to the bead, stitch, file, and plan
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-w3.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.5.md) | [sase-w3.5](sase-w3.5.md) | 1 |
+| [bbugyi200.apollo.sase-w3.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-w3.5.md) | [sase-w3.5](sase-w3.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`df465e0`](https://github.com/sase-org/sase/commit/df465e063ad94af3e01aa9db964d931fbc1891f6) | feat(ace): add identity query fields and identity-reveal rung (sase-w3.5) | [sase-w3.5](sase-w3.5.md) | 2026-09-04 19:31:03 EDT |
+| sase-core | [`sase-core@3e99850`](https://github.com/sase-org/sase-core/commit/3e99850e17d6ee555dc35974b6b7f7ff6325b1ad) | feat(query): prefix-match sha field values in the evaluator | [sase-w3.5](sase-w3.5.md) | 2026-09-04 21:42:50 EDT |
