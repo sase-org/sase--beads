@@ -13,7 +13,7 @@ docs-memory-sweep: rewrite the import sections out of the docs, supersede the v1
 
 ## Dependencies
 
-- **Depends on:** [sase-ws.5](sase-ws.5.md) ◐ · ⧖ 2026-09-04
+- **Depends on:** [sase-ws.5](sase-ws.5.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 

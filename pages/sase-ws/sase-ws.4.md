@@ -18,7 +18,7 @@ delete-import-engine: delete the v2 importer, incoming cache/detection, v1 integ
 ## Dependencies
 
 - **Depends on:** [sase-ws.3](sase-ws.3.md) ✓ · ⧖ 2026-09-04
-- **Blocks:** [sase-ws.5](sase-ws.5.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-ws.5](sase-ws.5.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
