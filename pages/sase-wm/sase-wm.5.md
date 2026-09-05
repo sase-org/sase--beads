@@ -13,7 +13,7 @@ verify: run the full verification gates and drive the real TUI through single, m
 
 ## Dependencies
 
-- **Depends on:** [sase-wm.4](sase-wm.4.md) ◐ · ⧖ 2026-09-04
+- **Depends on:** [sase-wm.4](sase-wm.4.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 

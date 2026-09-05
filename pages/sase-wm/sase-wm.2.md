@@ -18,7 +18,7 @@ flow: wire `i`/`I` through the full Projects keymap chain, plan off-thread via a
 ## Dependencies
 
 - **Depends on:** [sase-wm.1](sase-wm.1.md) ✓ · ⧖ 2026-09-04
-- **Blocks:** [sase-wm.3](sase-wm.3.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wm.3](sase-wm.3.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
