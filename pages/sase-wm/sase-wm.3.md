@@ -13,7 +13,7 @@ valve: when the plan reports TTY-only blockers, offer a "Run in terminal" button
 
 ## Dependencies
 
-- **Depends on:** [sase-wm.2](sase-wm.2.md) ◐ · ⧖ 2026-09-04
+- **Depends on:** [sase-wm.2](sase-wm.2.md) ✓ · ⧖ 2026-09-04
 - **Blocks:** [sase-wm.4](sase-wm.4.md) ◐ · ⧖ 2026-09-04
 
 ## Agents

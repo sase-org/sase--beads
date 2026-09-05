@@ -17,7 +17,7 @@ cli: add the repeatable `-p/--project` selector beside `--all`, a `-j/--json` mo
 
 ## Dependencies
 
-- **Blocks:** [sase-wm.2](sase-wm.2.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wm.2](sase-wm.2.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 
