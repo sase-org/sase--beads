@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-wn](README.md) / sase-wn.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.o.f0` · **Assignee:** `sase-wn.2` · **Size:** medium
-**Created:** 2026-09-04 12:11:01 EDT
+**Created:** 2026-09-04 12:11:01 EDT · **Closed:** 2026-09-05 06:07:03 EDT
 **Plan:** [202609/sase\_idle\_cpu\_diet.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_idle_cpu_diet.md)
 
 ## Description
@@ -13,7 +13,7 @@ chop-trigger-provider: add an fs change-token trigger provider to the sase-core 
 
 ## Dependencies
 
-- **Blocks:** [sase-wn.3](sase-wn.3.md) ◐ · ⧖ 2026-09-04
+- **Blocks:** [sase-wn.3](sase-wn.3.md) ✓ · ⧖ 2026-09-04
 
 ## Agents
 

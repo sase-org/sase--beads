@@ -29,8 +29,8 @@ An idle sase host (ace open, lumberjacks running, no agent work) drops from roug
 |---|---|---|---|---|---:|---:|
 | [sase-wn.1](sase-wn.1.md) | Slim chop subprocess imports | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.10](sase-wn.10.md) | Perf counters, budgets, and regression guardrails | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
-| [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ◐ in_progress | medium | 2026-09-04 | 1 | 2 |
-| [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ◐ in_progress | medium | 2026-09-04 | 1 | 0 |
+| [sase-wn.2](sase-wn.2.md) | Filesystem change-token trigger provider (sase-core) | ✓ closed | medium | 2026-09-04 | 1 | 2 |
+| [sase-wn.3](sase-wn.3.md) | Wire pre-spawn guards into shipped chop defaults | ✓ closed | medium | 2026-09-04 | 1 | 1 |
 | [sase-wn.4](sase-wn.4.md) | Make wait\_checks and bead\_claim\_checks incremental | ✓ closed | medium | 2026-09-04 | 0 | 1 |
 | [sase-wn.5](sase-wn.5.md) | Per-surface change tokens for ace auto-refresh | ✓ closed | large | 2026-09-04 | 1 | 1 |
 | [sase-wn.6](sase-wn.6.md) | Cache immutable axe status reads in ace | ✓ closed | medium | 2026-09-04 | 1 | 1 |
@@ -45,8 +45,8 @@ flowchart TD
     n0["sase-wn: Idle CPU diet: stop sase from burning ~4 cores at rest [in_progress]"]
     n1["sase-wn.1: Slim chop subprocess imports [closed]"]
     n2["sase-wn.10: Perf counters, budgets, and regression guardrails [in_progress]"]
-    n3["sase-wn.2: Filesystem change-token trigger provider (sase-core) [in_progress]"]
-    n4["sase-wn.3: Wire pre-spawn guards into shipped chop defaults [in_progress]"]
+    n3["sase-wn.2: Filesystem change-token trigger provider (sase-core) [closed]"]
+    n4["sase-wn.3: Wire pre-spawn guards into shipped chop defaults [closed]"]
     n5["sase-wn.4: Make wait_checks and bead_claim_checks incremental [closed]"]
     n6["sase-wn.5: Per-surface change tokens for ace auto-refresh [closed]"]
     n7["sase-wn.6: Cache immutable axe status reads in ace [closed]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-wn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.1/README.md) | [sase-wn.1](sase-wn.1.md) | 1 |
 | [bbugyi200.apollo.sase-wn.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.10/README.md) | [sase-wn.10](sase-wn.10.md) | 0 |
 | [bbugyi200.apollo.sase-wn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.2/README.md) | [sase-wn.2](sase-wn.2.md) | 2 |
-| [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 0 |
+| [bbugyi200.apollo.sase-wn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.3/README.md) | [sase-wn.3](sase-wn.3.md) | 1 |
 | [bbugyi200.apollo.sase-wn.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-wn.5.md) | [sase-wn.5](sase-wn.5.md) | 1 |
 | [bbugyi200.apollo.sase-wn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.6/README.md) | [sase-wn.6](sase-wn.6.md) | 1 |
 | [bbugyi200.apollo.sase-wn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-wn.7/README.md) | [sase-wn.7](sase-wn.7.md) | 1 |
@@ -98,3 +98,4 @@ flowchart TD
 | sase | [`969c22b`](https://github.com/sase-org/sase/commit/969c22ba06edd575ff26629f2c11a6547ab3b71b) | feat(ace): cache idle prompt-panel renders of unchanged documents | [sase-wn.7](sase-wn.7.md) | 2026-09-04 19:06:31 EDT |
 | sase | [`2eb1335`](https://github.com/sase-org/sase/commit/2eb13350f991a84b340f4d6619334b9311bd7f9c) | feat(ace): gate auto-refresh on per-surface change tokens | [sase-wn.5](sase-wn.5.md) | 2026-09-04 20:53:28 EDT |
 | sase | [`0927b10`](https://github.com/sase-org/sase/commit/0927b10928b344372127ac956226855f6ccb8b44) | perf(ace): cache immutable axe status reads across ticks | [sase-wn.6](sase-wn.6.md) | 2026-09-04 22:30:20 EDT |
+| sase | [`ad5bcc9`](https://github.com/sase-org/sase/commit/ad5bcc914b84c5ef3696bf43805038ba354e1800) | feat(ace): wire fs change-token guards into shipped hooks/waits chops | [sase-wn.3](sase-wn.3.md) | 2026-09-05 06:51:02 EDT |
