@@ -18,7 +18,7 @@ wait-context: share waited-producer resolution, inject wait.chats and lazy wait.
 ## Dependencies
 
 - **Depends on:** [sase-x8.1](sase-x8.1.md) ✓ · ⧖ 2026-09-05
-- **Blocks:** [sase-x8.3](sase-x8.3.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x8.3](sase-x8.3.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 

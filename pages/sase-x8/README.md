@@ -29,7 +29,7 @@ Research leads receive their two predecessors' registered report paths without t
 |---|---|---|---|---|---:|---:|
 | [sase-x8.1](sase-x8.1.md) | Add a batched Rust query for waited producers' artifact metadata | ✓ closed | medium | 2026-09-05 | 1 | 2 |
 | [sase-x8.2](sase-x8.2.md) | Expose the wait namespace at the runtime rendering boundary | ✓ closed | medium | 2026-09-05 | 1 | 1 |
-| [sase-x8.3](sase-x8.3.md) | Register research reports and pass their paths to the lead | ◐ in_progress | medium | 2026-09-05 | 1 | 0 |
+| [sase-x8.3](sase-x8.3.md) | Register research reports and pass their paths to the lead | ✓ closed | medium | 2026-09-05 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["sase-x8: Give the research lead report paths through a shared wait namespace [in_progress]"]
     n1["sase-x8.1: Add a batched Rust query for waited producers' artifact metadata [closed]"]
     n2["sase-x8.2: Expose the wait namespace at the runtime rendering boundary [closed]"]
-    n3["sase-x8.3: Register research reports and pass their paths to the lead [in_progress]"]
+    n3["sase-x8.3: Register research reports and pass their paths to the lead [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -52,7 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-x8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.1/README.md) | [sase-x8.1](sase-x8.1.md) | 2 |
 | [bbugyi200.athena.sase-x8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.2/README.md) | [sase-x8.2](sase-x8.2.md) | 1 |
-| [bbugyi200.athena.sase-x8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.3/README.md) | [sase-x8.3](sase-x8.3.md) | 0 |
+| [bbugyi200.athena.sase-x8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.3/README.md) | [sase-x8.3](sase-x8.3.md) | 1 |
 | [bbugyi200.athena.sase-x8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.land/README.md) | [sase-x8](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 | sase | [`d64696c`](https://github.com/sase-org/sase/commit/d64696cce522d9a7a13f4304ac650c86d45be334) | feat(core): add exact-producer artifact-context query facade | [sase-x8.1](sase-x8.1.md) | 2026-09-05 20:30:14 EDT |
 | sase-core | [`sase-core@84a4529`](https://github.com/sase-org/sase-core/commit/84a4529433ee1ebebcf180240fb4a7d9ac0a863f) | feat(artifact-file): add batched exact-producer artifact-context query | [sase-x8.1](sase-x8.1.md) | 2026-09-05 20:33:02 EDT |
 | sase | [`f3b00cd`](https://github.com/sase-org/sase/commit/f3b00cd9f7a121cc7631bba46ead433066d36f84) | feat(xprompt): expose runtime wait context | [sase-x8.2](sase-x8.2.md) | 2026-09-05 22:04:45 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@babfb46`](https://github.com/sase-org/sase-research-artifacts/commit/babfb46eebf7fe47047ef89034a6456cd8474d8b) | feat(xprompts): hand research reports to the lead via wait.artifacts | [sase-x8.3](sase-x8.3.md) | 2026-09-05 22:19:52 EDT |
