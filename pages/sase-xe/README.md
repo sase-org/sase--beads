@@ -34,7 +34,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.13](sase-xe.13.md) | Remote lifecycle management parity | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
-| [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 1 |
+| [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.5](sase-xe.5.md) | Bounded remote read protocol with recoverable events | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.13/README.md) | [sase-xe.13](sase-xe.13.md) | 0 |
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.14/README.md) | [sase-xe.14](sase-xe.14.md) | 0 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.15/README.md) | [sase-xe.15](sase-xe.15.md) | 0 |
-| [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 0 |
 | [bbugyi200.athena.sase-xe.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.4/README.md) | [sase-xe.4](sase-xe.4.md) | 0 |
 | [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.5/README.md) | [sase-xe.5](sase-xe.5.md) | 0 |
@@ -127,3 +127,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`27442bd`](https://github.com/sase-org/sase/commit/27442bd8e1fd96ed2e2f3b1b9a43bb27ab5e7d66) | test(fleet): cover portable contract bindings | [sase-xe.2](sase-xe.2.md) | 2026-09-06 16:10:16 EDT |
+| sase-core | [`sase-core@ee7163e`](https://github.com/sase-org/sase-core/commit/ee7163e00d02a803afe4cdec3de1b00f577e16d4) | feat(fleet): add portable identity contracts | [sase-xe.2](sase-xe.2.md) | 2026-09-06 16:11:20 EDT |
