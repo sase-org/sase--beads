@@ -20,7 +20,7 @@ identity-contracts: define per-user installation identity, origin/agent/family/r
 - **Blocks:** [sase-xe.3](sase-xe.3.md) ◐ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.4](sase-xe.4.md) ◐ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.7](sase-xe.7.md) ◐ · ⧖ 2026-09-06
-- **Blocks:** [sase-xe.9](sase-xe.9.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.9](sase-xe.9.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

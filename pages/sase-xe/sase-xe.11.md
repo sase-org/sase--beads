@@ -16,7 +16,7 @@ fleet-ui: add an agents-header strip with Focus and Fleet modes over the existin
 - **Depends on:** [sase-xe.10](sase-xe.10.md) ◐ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.13](sase-xe.13.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.3](sase-xe.3.md) ◐ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.9](sase-xe.9.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.9](sase-xe.9.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
