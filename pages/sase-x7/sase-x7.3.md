@@ -11,10 +11,16 @@
 
 canonical-producers: Plan and update chezmoi sources, project and home prompts, generated skills and memory guidance, Neovim producers, scripts, and plugin callers to emit canonical forms already supported by the bridge runtime; deploy from landed sources on all three machines.
 
+## Notes
+
+[2026-09-06T12:17:51Z · sase-x7.2.1.5.land] DISCOVERED ISSUE (proposed by sase-x7.2.1.5.2 note #2): mac sase completion list reports /home/bryan Linux targets missing although the real mac-native files exist. G3 evidence shows the live completion stamps are chezmoi-owned, and current linked chezmoi source confirms home/dot_sase/completion/stamp/{bash,fish,zsh}.json hard-code /home/bryan targets. canonical-producers already owns updating chezmoi sources and deploying them on all three hosts; make these stamp targets home/platform-aware and verify sase completion list on mac. Routed here rather than creating a standalone task.
+
+[2026-09-06T12:18:28Z · sase-x7.2.1.5.land] DISCOVERED ISSUE (proposed by sase-x7.2.1.5.2 note #2): mac sase completion list reports /home/bryan Linux targets missing although the real mac-native files exist. G3 evidence shows the live completion stamps are chezmoi-owned, and current linked chezmoi source confirms home/dot_sase/completion/stamp/{bash,fish,zsh}.json hard-code /home/bryan targets. canonical-producers already owns updating chezmoi sources and deploying them on all three hosts; make these stamp targets home/platform-aware and verify sase completion list on mac. Routed here rather than creating a standalone task.
+
 ## Dependencies
 
 - **Depends on:** [sase-x7.1](sase-x7.1.md) ✓ · ⧖ 2026-09-05
-- **Depends on:** [sase-x7.2](sase-x7.2.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.2](sase-x7.2.md) ✓ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.4](sase-x7.4.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.6](sase-x7.6.md) ◐ · ⧖ 2026-09-05
 
@@ -22,4 +28,4 @@ canonical-producers: Plan and update chezmoi sources, project and home prompts, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-x7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3/README.md) | [sase-x7.3](sase-x7.3.md) | 0 |
+| [bbugyi200.athena.sase-x7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.3.md) | [sase-x7.3](sase-x7.3.md) | 0 |

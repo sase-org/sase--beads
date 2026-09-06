@@ -32,7 +32,7 @@ fleet-census: Build a versioned contract-by-host census, inspect all projects an
 
 ## Dependencies
 
-- **Blocks:** [sase-x7.2](sase-x7.2.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x7.2](sase-x7.2.md) ✓ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.3](sase-x7.3.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.4](sase-x7.4.md) ◐ · ⧖ 2026-09-05
 

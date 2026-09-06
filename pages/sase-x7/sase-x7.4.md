@@ -14,7 +14,7 @@ telegram-bridge: Implement and test the Telegram adapter to the canonical shared
 ## Dependencies
 
 - **Depends on:** [sase-x7.1](sase-x7.1.md) ✓ · ⧖ 2026-09-05
-- **Depends on:** [sase-x7.2](sase-x7.2.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.2](sase-x7.2.md) ✓ · ⧖ 2026-09-05
 - **Depends on:** [sase-x7.3](sase-x7.3.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.5](sase-x7.5.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.7](sase-x7.7.md) ◐ · ⧖ 2026-09-05

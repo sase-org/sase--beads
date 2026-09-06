@@ -13,7 +13,7 @@ shared-format-bridge: Plan and implement parser-aware conversions for Patch, pla
 
 ## Dependencies
 
-- **Depends on:** [sase-x7.2](sase-x7.2.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.2](sase-x7.2.md) ✓ · ⧖ 2026-09-05
 - **Depends on:** [sase-x7.4](sase-x7.4.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.8](sase-x7.8.md) ◐ · ⧖ 2026-09-05
 

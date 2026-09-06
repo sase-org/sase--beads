@@ -2,10 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-x7.2.1](sase-x7.2.1.md) / sase-x7.2.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-x7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.2.md) · **Assignee:** `sase-x7.2.1.4` · **Size:** medium
-**Created:** 2026-09-05 19:32:06 EDT
+**Created:** 2026-09-05 19:32:06 EDT · **Closed:** 2026-09-05 23:55:20 EDT
 **Plan:** [202609/migration\_kit.md](https://github.com/sase-org/sase--plans/blob/main/202609/migration_kit.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:4448c6edceb528c36af3e04e | attached via sase artifact create --bead |
+| related | file:explicit:7f8d1c21d89f50bbbeb910e0 | attached via sase artifact create --bead |
+| related | file:explicit:abd69e7c49c9a80e10a7ddc4 | attached via sase artifact create --bead |
+| related | file:explicit:d994f4801484d01cdf516716 | attached via sase artifact create --bead |
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -24,6 +37,10 @@ sase bead epic-symbols sase-x7.2.1.4 is clean (no --epic-symbol entries).
 Draft per-host manifests (athena, apollo) and the rehearsal receipt are written locally at /var/tmp/sase-x7-2-1-4-rehearsal/evidence/{athena_manifest,apollo_manifest,rehearsal_receipt}.md, held back from `sase artifact create` until the mac leg is folded in, per the plan's explicit "no Linux-only close" rule. Once mac is reachable: rehearse the same matrix there (clone off-worktree, build sase_core_rs from source into a throwaway uv venv, confirm the backup root is outside iCloud sync), complete its deferred G3 probe (distributions/entry points/completions/launchd/cron -- kit-backup explicitly deferred this to this phase's reachability window), fold the results into the receipt and manifest, publish all three as artifacts, then close.
 
 [2026-09-06T03:52:07Z · sase-x7.2.1.4] PROPOSED FOLLOW-UP: procs-residue can never archive athena's real tasks.jsonl residue as scoped -- all 22 real legacy rows (created 2026-08-14) are unmatched against the current procs.jsonl (101 rows, all created 2026-08-29 or later), because the canonical proc store only retains a rolling recent window rather than every historical record. local-state-cutover needs either a human-verified manual archive path for residue whose canonical siblings have already rotated out, or a widened reconciliation rule (e.g. accept a legacy row as safe when no live proc record of any kind references its id and it predates the canonical store's oldest retained row). Filing as a note per phase-worker rules rather than a bead; the epic's land agent should triage this into a task bead for local-state-cutover.
+
+[2026-09-06T03:55:20Z · sase-x7.2.1.4] Auto-closed by `sase stitch create` after create_commit landed 16153bf56 ("test(migration-kit): rehearse remaining synthetic edge-case matrix"). No verification is implied by this note. Reopen with `sase bead open sase-x7.2.1.4`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
+[2026-09-06T04:14:17Z · sase-x7.2.1.land] LANDING REVIEW (sase-x7.2.1.land, 2026-09-06): this phase's CLOSED status is a mechanical side effect, not a completion. Note #3 records that 'sase stitch create' auto-closed the bead when commit 16153bf56 landed, immediately after note #1 had explicitly declined to close because the mac leg was blocked. The phase acceptance bar is NOT met and I am not treating it as met. Verified unmet on 2026-09-06: (1) the macOS rehearsal leg was never run -- 'tailscale status' still reports kellys-macbook-pro offline (last seen 33m ago) and both an SSH attempt and 'tailscale ping' timed out, so mac's rehearsal matrix and its deferred G3 probe (distributions, entry points, shell completions, launchd agents, cron) remain outstanding; (2) NONE of the phase's three required artifacts were published -- 'sase artifact list -e' finds no per-host operation manifest and no rehearsal receipt for any host; the athena and apollo manifests and the receipt exist only as local drafts under /var/tmp/sase-x7-2-1-4-rehearsal/evidence/, deliberately held back per the plan's no-Linux-only-close rule, and the receipt's own title still reads 'DRAFT -- mac leg outstanding, not yet published'. What this phase DID land is real and verified: tests/migration_kit/test_synthetic_matrix.py plus test_backup.py::test_apply_reports_corrupted_sqlite_source cover the remaining matrix cases, and the whole kit lane is green (72 passed: tests/migration_kit, tests/main/test_migrate_parser.py, tests/main/test_migrate_startup_isolation.py, tests/test_check_sase_core_rs_bindings_tool.py). This bead is being left closed rather than reopened so the epic's phase set stays launchable; the outstanding mac leg and artifact publication are carried by a child plan under sase-x7.2.1, whose parent_bead handoff resumes this landing.
 
 ## Dependencies
 
