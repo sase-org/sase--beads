@@ -13,7 +13,7 @@ research-handoff: register reports through the existing artifact command, replac
 
 ## Dependencies
 
-- **Depends on:** [sase-x8.2](sase-x8.2.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x8.2](sase-x8.2.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 

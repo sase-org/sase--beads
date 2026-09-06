@@ -19,16 +19,17 @@ artifact-query: implement the exact-producer metadata contract in Rust, its Pyth
 
 ## Dependencies
 
-- **Blocks:** [sase-x8.2](sase-x8.2.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x8.2](sase-x8.2.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-x8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.1/README.md) | [sase-x8.1](sase-x8.1.md) | 1 |
+| [bbugyi200.athena.sase-x8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.1/README.md) | [sase-x8.1](sase-x8.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d64696c`](https://github.com/sase-org/sase/commit/d64696cce522d9a7a13f4304ac650c86d45be334) | feat(core): add exact-producer artifact-context query facade | [sase-x8.1](sase-x8.1.md) | 2026-09-05 20:30:14 EDT |
+| sase-core | [`sase-core@84a4529`](https://github.com/sase-org/sase-core/commit/84a4529433ee1ebebcf180240fb4a7d9ac0a863f) | feat(artifact-file): add batched exact-producer artifact-context query | [sase-x8.1](sase-x8.1.md) | 2026-09-05 20:33:02 EDT |
