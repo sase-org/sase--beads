@@ -14,7 +14,7 @@ gateway-auth: add a fleet API with target-authorized bootstrap enrollment, short
 ## Dependencies
 
 - **Depends on:** [sase-xe.2](sase-xe.2.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xe.5](sase-xe.5.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.5](sase-xe.5.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.6](sase-xe.6.md) ◐ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.8](sase-xe.8.md) ◐ · ⧖ 2026-09-06
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.5` · **Size:** large
-**Created:** 2026-09-06 14:06:42 EDT
+**Created:** 2026-09-06 14:06:42 EDT · **Closed:** 2026-09-06 19:37:16 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
 <!-- sase:links:start -->
@@ -22,6 +22,10 @@
 ## Description
 
 gateway-reads: serve maintained resolved summaries, bounded catalog pages, batch followed-ID lookups, lazy detail, and content handles over versioned HTTP/JSON by calling the core scan/index in-process, and make the SSE stream actually deliver post-connect invalidations through a broadcast channel with a generation-plus-sequence cursor and an explicit resync path.
+
+## Notes
+
+[2026-09-06T23:37:16Z · sase-xe.5] Implemented gateway fleet reads in Rust core/gateway: summary, catalog, batch, detail, content, project eligibility, and invalidation SSE. Verified focused core and gateway tests, content and event fault cases, regenerated contract snapshot, and ran just check with an isolated CARGO_TARGET_DIR plus Python LD_LIBRARY_PATH.
 
 ## Dependencies
 

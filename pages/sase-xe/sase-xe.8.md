@@ -21,4 +21,4 @@ machine-cli: add the sase machine command group (add, discover, list, remove, re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.8/README.md) | [sase-xe.8](sase-xe.8.md) | 0 |
+| [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.8.md) | [sase-xe.8](sase-xe.8.md) | 0 |
