@@ -58,7 +58,7 @@ flowchart TD
     n8["sase-x7.2: Build and rehearse the temporary migration tooling [in_progress]"]
     n9["sase-x7.2.1: Temporary offline migration kit for the canonical-only cutover [in_progress]"]
     n10["sase-x7.2.1.1: Land the migration wire contract and bindings in the Rust core [closed]"]
-    n11["sase-x7.2.1.2: Build the backup and restore engine and the host drain inventory [in_progress]"]
+    n11["sase-x7.2.1.2: Build the backup and restore engine and the host drain inventory [closed]"]
     n12["sase-x7.2.1.3: Build the dry-run, apply, journal, and operation catalog [in_progress]"]
     n13["sase-x7.2.1.4: Rehearse the kit on real data across Linux and macOS [in_progress]"]
     n14["sase-x7.3: Migrate configuration, prompts, editor integration, and automation [in_progress]"]
@@ -128,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.sase-x7.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.15/README.md) | [sase-x7.15](sase-x7.15.md) | 0 |
 | [bbugyi200.athena.sase-x7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.2.md) | [sase-x7.2](sase-x7.2.md) | 0 |
 | [bbugyi200.athena.sase-x7.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.1/README.md) | [sase-x7.2.1.1](sase-x7.2.1.1.md) | 2 |
-| [bbugyi200.athena.sase-x7.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.2/README.md) | [sase-x7.2.1.2](sase-x7.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-x7.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.2/README.md) | [sase-x7.2.1.2](sase-x7.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-x7.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.3/README.md) | [sase-x7.2.1.3](sase-x7.2.1.3.md) | 0 |
 | [bbugyi200.athena.sase-x7.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.4/README.md) | [sase-x7.2.1.4](sase-x7.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-x7.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.2.1.land/README.md) | [sase-x7.2.1](sase-x7.2.1.md) | 0 |
@@ -147,3 +147,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`13ebfeb`](https://github.com/sase-org/sase/commit/13ebfeb061db13fbcc2bea86a83727da6f8398ef) | test(core): require migration bindings in floor checks | [sase-x7.2.1.1](sase-x7.2.1.1.md) | 2026-09-05 20:31:29 EDT |
 | sase-core | [`sase-core@1bf6023`](https://github.com/sase-org/sase-core/commit/1bf602388722385460c48d244d1e1571840a8922) | feat(migration): add offline migration wire contract | [sase-x7.2.1.1](sase-x7.2.1.1.md) | 2026-09-05 20:37:56 EDT |
+| sase | [`43164ea`](https://github.com/sase-org/sase/commit/43164eace6ba51bce0ec00065f645e1ab78feac6) | feat(migrate): add sase migrate backup/restore and G3 fleet inventory | [sase-x7.2.1.2](sase-x7.2.1.2.md) | 2026-09-05 21:40:14 EDT |

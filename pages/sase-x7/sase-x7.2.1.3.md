@@ -13,7 +13,7 @@ kit-driver: Add `sase migrate list|plan|resume|run|status|verify`, the operation
 
 ## Dependencies
 
-- **Depends on:** [sase-x7.2.1.2](sase-x7.2.1.2.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.2.1.2](sase-x7.2.1.2.md) ✓ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.2.1.4](sase-x7.2.1.4.md) ◐ · ⧖ 2026-09-05
 
 ## Agents

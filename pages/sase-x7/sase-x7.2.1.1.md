@@ -19,7 +19,7 @@ kit-contract: Add a temporary `migration` module to sase_core (manifest and jour
 
 ## Dependencies
 
-- **Blocks:** [sase-x7.2.1.2](sase-x7.2.1.2.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x7.2.1.2](sase-x7.2.1.2.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 
