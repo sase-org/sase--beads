@@ -24,10 +24,4 @@ editor-producers: migrate Neovim filetype, schema, catalog, reference, and fallb
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-x7.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.2/README.md) | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-nvim | [`sase-nvim@84d55af`](https://github.com/sase-org/sase-nvim/commit/84d55afb8301fa464d370e490d29e6e67a6fd96d) | feat(nvim): canonicalize project specs and picker fallback | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 2026-09-06 10:15:47 EDT |
+| [bbugyi200.athena.sase-x7.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.2/README.md) | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 0 |
