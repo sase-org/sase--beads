@@ -75,7 +75,7 @@ flowchart TD
     n17["sase-x7.3: Migrate configuration, prompts, editor integration, and automation [in_progress]"]
     n18["sase-x7.3.1: Canonical producer fleet migration [in_progress]"]
     n19["sase-x7.3.1.1: Canonicalize authoritative SASE producers [closed]"]
-    n20["sase-x7.3.1.2: Canonicalize the Neovim integration [in_progress]"]
+    n20["sase-x7.3.1.2: Canonicalize the Neovim integration [closed]"]
     n21["sase-x7.3.1.3: Canonicalize plugin prompts and callers [in_progress]"]
     n22["sase-x7.3.1.4: Regenerate canonical chezmoi sources [in_progress]"]
     n23["sase-x7.3.1.5: Deploy and verify the canonical fleet [in_progress]"]
@@ -169,7 +169,7 @@ flowchart TD
 | [bbugyi200.athena.sase-x7.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.2.1.land.md) | [sase-x7.2.1](sase-x7.2.1.md) | 0 |
 | [bbugyi200.athena.sase-x7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.3.md) | [sase-x7.3](sase-x7.3.md) | 0 |
 | [bbugyi200.athena.sase-x7.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.1/README.md) | [sase-x7.3.1.1](sase-x7.3.1.1.md) | 1 |
-| [bbugyi200.athena.sase-x7.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.2/README.md) | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-x7.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.2/README.md) | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-x7.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.3/README.md) | [sase-x7.3.1.3](sase-x7.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-x7.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.4/README.md) | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-x7.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.5/README.md) | [sase-x7.3.1.5](sase-x7.3.1.5.md) | 0 |
@@ -192,3 +192,4 @@ flowchart TD
 | sase | [`bea92ce`](https://github.com/sase-org/sase/commit/bea92ce9287cec7250384a1fe88ba4fdcca4932b) | feat(migration-kit): add driver operation catalog | [sase-x7.2.1.3](sase-x7.2.1.3.md) | 2026-09-05 23:06:11 EDT |
 | sase | [`16153bf`](https://github.com/sase-org/sase/commit/16153bf5606f085fcd1b13b58b188cb7eb4af954) | test(migration-kit): rehearse remaining synthetic edge-case matrix | [sase-x7.2.1.4](sase-x7.2.1.4.md) | 2026-09-05 23:53:32 EDT |
 | sase | [`caa7917`](https://github.com/sase-org/sase/commit/caa7917ac966141b5cd6757e89ca245710e95950) | feat(cli): canonicalize host producers for the fleet cutover | [sase-x7.3.1.1](sase-x7.3.1.1.md) | 2026-09-06 09:54:28 EDT |
+| sase-nvim | [`sase-nvim@84d55af`](https://github.com/sase-org/sase-nvim/commit/84d55afb8301fa464d370e490d29e6e67a6fd96d) | feat(nvim): canonicalize project specs and picker fallback | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 2026-09-06 10:15:47 EDT |

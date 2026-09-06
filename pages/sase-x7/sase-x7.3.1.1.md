@@ -23,7 +23,7 @@ CHEZMOI-AUTHORITY PREVIEWS from this tree (do not deploy unlanded): `sase skill 
 
 ## Dependencies
 
-- **Blocks:** [sase-x7.3.1.2](sase-x7.3.1.2.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-x7.3.1.2](sase-x7.3.1.2.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-x7.3.1.3](sase-x7.3.1.3.md) ◐ · ⧖ 2026-09-06
 
 ## Agents
