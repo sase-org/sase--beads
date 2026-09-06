@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-x8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.1/README.md) | [sase-x8.1](sase-x8.1.md) | 2 |
 | [bbugyi200.athena.sase-x8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.2/README.md) | [sase-x8.2](sase-x8.2.md) | 1 |
 | [bbugyi200.athena.sase-x8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.3/README.md) | [sase-x8.3](sase-x8.3.md) | 1 |
-| [bbugyi200.athena.sase-x8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x8.land/README.md) | [sase-x8](README.md) | 0 |
+| [bbugyi200.athena.sase-x8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x8.land.md) | [sase-x8](README.md) | 1 |
 
 ## Commits
 
@@ -63,3 +63,4 @@ flowchart TD
 | sase-core | [`sase-core@84a4529`](https://github.com/sase-org/sase-core/commit/84a4529433ee1ebebcf180240fb4a7d9ac0a863f) | feat(artifact-file): add batched exact-producer artifact-context query | [sase-x8.1](sase-x8.1.md) | 2026-09-05 20:33:02 EDT |
 | sase | [`f3b00cd`](https://github.com/sase-org/sase/commit/f3b00cd9f7a121cc7631bba46ead433066d36f84) | feat(xprompt): expose runtime wait context | [sase-x8.2](sase-x8.2.md) | 2026-09-05 22:04:45 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@babfb46`](https://github.com/sase-org/sase-research-artifacts/commit/babfb46eebf7fe47047ef89034a6456cd8474d8b) | feat(xprompts): hand research reports to the lead via wait.artifacts | [sase-x8.3](sase-x8.3.md) | 2026-09-05 22:19:52 EDT |
+| sase | [`18b3cf0`](https://github.com/sase-org/sase/commit/18b3cf0fae9238517aefc963fac6387cca660c67) | fix(deps): raise sase-core-rs floor to 0.32.25 for wait.artifacts | [sase-x8](README.md) | 2026-09-05 22:52:57 EDT |
