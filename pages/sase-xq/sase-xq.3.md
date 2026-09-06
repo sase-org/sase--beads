@@ -11,6 +11,10 @@
 
 store-reheal-and-pin: raise the sase-core-rs floor to the fixed release, reproject the shared beads store once with doctor --fix-projection, and verify the store stays clean.
 
+## Notes
+
+[2026-09-06T21:38:32Z · sase-xq.3] BLOCKED: fixed core commit 530a1c0 is not available in a published sase-core-rs release; PyPI latest 0.32.28 still contains the link mutation updated_at divergence, so the Python dependency floor cannot be safely raised and the shared store should not be declared settled yet.
+
 ## Dependencies
 
 - **Depends on:** [sase-xq.1](sase-xq.1.md) ✓ · ⧖ 2026-09-06
