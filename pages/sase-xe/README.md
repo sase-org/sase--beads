@@ -35,8 +35,8 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 2 |
-| [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
-| [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ◐ in_progress | large | 2026-09-06 | 1 | 1 |
+| [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ✓ closed | medium | 2026-09-06 | 1 | 1 |
+| [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.5](sase-xe.5.md) | Bounded remote read protocol with recoverable events | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.6](sase-xe.6.md) | Durable mutation journal and launch admission recovery | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.7](sase-xe.7.md) | Dispatch provider plugin hooks, built-in providers, and config schema | ✓ closed | large | 2026-09-06 | 1 | 0 |
@@ -56,8 +56,8 @@ flowchart TD
     n6["sase-xe.14: Remote questions, gates, and notification deduplication [in_progress]"]
     n7["sase-xe.15: Fleet-wide acceptance, flag removal, and polish [in_progress]"]
     n8["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
-    n9["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [in_progress]"]
-    n10["sase-xe.4: Authenticated enrollment and hardened gateway access [in_progress]"]
+    n9["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
+    n10["sase-xe.4: Authenticated enrollment and hardened gateway access [closed]"]
     n11["sase-xe.5: Bounded remote read protocol with recoverable events [in_progress]"]
     n12["sase-xe.6: Durable mutation journal and launch admission recovery [in_progress]"]
     n13["sase-xe.7: Dispatch provider plugin hooks, built-in providers, and config schema [closed]"]
@@ -113,10 +113,10 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.14/README.md) | [sase-xe.14](sase-xe.14.md) | 0 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.15/README.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 | [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
-| [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.4.md) | [sase-xe.4](sase-xe.4.md) | 1 |
-| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.5/README.md) | [sase-xe.5](sase-xe.5.md) | 0 |
-| [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.6/README.md) | [sase-xe.6](sase-xe.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.5.md) | [sase-xe.5](sase-xe.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.6.md) | [sase-xe.6](sase-xe.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.7.md) | [sase-xe.7](sase-xe.7.md) | 0 |
 | [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.8/README.md) | [sase-xe.8](sase-xe.8.md) | 0 |
 | [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 2 |
@@ -132,3 +132,4 @@ flowchart TD
 | sase-core | [`sase-core@f00ed92`](https://github.com/sase-org/sase-core/commit/f00ed92aa41f5bb0a94216b74031b38ac608824f) | feat(gateway): add fleet authentication | [sase-xe.4](sase-xe.4.md) | 2026-09-06 17:00:45 EDT |
 | sase | [`fdfb4e2`](https://github.com/sase-org/sase/commit/fdfb4e238a386b5470a67025da8db1c30bc92e90) | feat(fleet): add durable follow store | [sase-xe.9](sase-xe.9.md) | 2026-09-06 17:59:43 EDT |
 | sase-core | [`sase-core@7d382db`](https://github.com/sase-org/sase-core/commit/7d382db7d986a1e29ab6edc27689c6058b55ebf8) | feat(fleet): add follow reconciliation contracts | [sase-xe.9](sase-xe.9.md) | 2026-09-06 18:02:54 EDT |
+| sase | [`804c8ed`](https://github.com/sase-org/sase/commit/804c8ed5bed91652fc4ae249b614bc56a8f29d09) | feat(ace): split running loader owner resolution | [sase-xe.3](sase-xe.3.md) | 2026-09-06 19:07:58 EDT |

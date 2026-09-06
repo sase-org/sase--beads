@@ -7,6 +7,18 @@
 **Created:** 2026-09-06 14:06:42 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/gateway_reads.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/gateway_reads.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 gateway-reads: serve maintained resolved summaries, bounded catalog pages, batch followed-ID lookups, lazy detail, and content handles over versioned HTTP/JSON by calling the core scan/index in-process, and make the SSE stream actually deliver post-connect invalidations through a broadcast channel with a generation-plus-sequence cursor and an explicit resync path.
@@ -14,10 +26,10 @@ gateway-reads: serve maintained resolved summaries, bounded catalog pages, batch
 ## Dependencies
 
 - **Blocks:** [sase-xe.10](sase-xe.10.md) ◐ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.4](sase-xe.4.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.4](sase-xe.4.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.5/README.md) | [sase-xe.5](sase-xe.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.5.md) | [sase-xe.5](sase-xe.5.md) | 0 |

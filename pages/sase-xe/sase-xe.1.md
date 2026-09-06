@@ -17,7 +17,7 @@ local-reads: remove the redundant child-summary scan from the CLI agent listing,
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.3](sase-xe.3.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.3](sase-xe.3.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

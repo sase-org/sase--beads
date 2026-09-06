@@ -7,6 +7,18 @@
 **Created:** 2026-09-06 14:06:43 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/durable_fleet_operation_journal.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/durable_fleet_operation_journal.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 op-journal: add operation keys with payload fingerprints, receipts and tombstones through a documented retry window, atomic run reservation before spawn, crash recovery that finds the admitted run instead of relaunching, and exact-instance fencing so a reused name or PID is never targeted.
@@ -14,10 +26,10 @@ op-journal: add operation keys with payload fingerprints, receipts and tombstone
 ## Dependencies
 
 - **Blocks:** [sase-xe.12](sase-xe.12.md) ◐ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.4](sase-xe.4.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.4](sase-xe.4.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.6/README.md) | [sase-xe.6](sase-xe.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.6.md) | [sase-xe.6](sase-xe.6.md) | 0 |

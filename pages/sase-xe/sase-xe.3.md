@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.3` · **Size:** medium
-**Created:** 2026-09-06 14:06:41 EDT
+**Created:** 2026-09-06 14:06:41 EDT · **Closed:** 2026-09-06 19:06:15 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
 ## Description
 
 viewer-purity: extract the local side effects concentrated in the ACE running-agent loaders (stale-claim release, running-marker unlink, artifact-index mutation, PID liveness) into an owner-resolution step so rendering consumes resolved records and opaque handles only, with effect-failing tests proving remote-origin records can never trigger local process or path effects.
+
+## Notes
+
+[2026-09-06T23:06:15Z · sase-xe.3] Implemented ACE running-loader owner-resolution split; verified targeted loader/audit tests and just check (full non-visual suite escalation) passed.
 
 ## Dependencies
 
@@ -21,4 +25,10 @@ viewer-purity: extract the local side effects concentrated in the ACE running-ag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`804c8ed`](https://github.com/sase-org/sase/commit/804c8ed5bed91652fc4ae249b614bc56a8f29d09) | feat(ace): split running loader owner resolution | [sase-xe.3](sase-xe.3.md) | 2026-09-06 19:07:58 EDT |
