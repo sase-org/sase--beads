@@ -77,7 +77,7 @@ flowchart TD
     n19["sase-x7.3.1.1: Canonicalize authoritative SASE producers [closed]"]
     n20["sase-x7.3.1.2: Canonicalize the Neovim integration [closed]"]
     n21["sase-x7.3.1.3: Canonicalize plugin prompts and callers [closed]"]
-    n22["sase-x7.3.1.4: Regenerate canonical chezmoi sources [in_progress]"]
+    n22["sase-x7.3.1.4: Regenerate canonical chezmoi sources [closed]"]
     n23["sase-x7.3.1.5: Deploy and verify the canonical fleet [in_progress]"]
     n24["sase-x7.4: Move Telegram to the shared pending-action API [in_progress]"]
     n25["sase-x7.5: Prepare canonical shared formats and coordinated wire contracts [in_progress]"]
@@ -170,8 +170,8 @@ flowchart TD
 | [bbugyi200.athena.sase-x7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-x7.3.md) | [sase-x7.3](sase-x7.3.md) | 0 |
 | [bbugyi200.athena.sase-x7.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.1/README.md) | [sase-x7.3.1.1](sase-x7.3.1.1.md) | 1 |
 | [bbugyi200.athena.sase-x7.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.2/README.md) | [sase-x7.3.1.2](sase-x7.3.1.2.md) | 0 |
-| [bbugyi200.athena.sase-x7.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.3/README.md) | [sase-x7.3.1.3](sase-x7.3.1.3.md) | 2 |
-| [bbugyi200.athena.sase-x7.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.4/README.md) | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-x7.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.3/README.md) | [sase-x7.3.1.3](sase-x7.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-x7.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.4/README.md) | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-x7.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.5/README.md) | [sase-x7.3.1.5](sase-x7.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-x7.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.land/README.md) | [sase-x7.3.1](sase-x7.3.1.md) | 0 |
 | [bbugyi200.athena.sase-x7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.4/README.md) | [sase-x7.4](sase-x7.4.md) | 0 |
@@ -192,5 +192,4 @@ flowchart TD
 | sase | [`bea92ce`](https://github.com/sase-org/sase/commit/bea92ce9287cec7250384a1fe88ba4fdcca4932b) | feat(migration-kit): add driver operation catalog | [sase-x7.2.1.3](sase-x7.2.1.3.md) | 2026-09-05 23:06:11 EDT |
 | sase | [`16153bf`](https://github.com/sase-org/sase/commit/16153bf5606f085fcd1b13b58b188cb7eb4af954) | test(migration-kit): rehearse remaining synthetic edge-case matrix | [sase-x7.2.1.4](sase-x7.2.1.4.md) | 2026-09-05 23:53:32 EDT |
 | sase | [`caa7917`](https://github.com/sase-org/sase/commit/caa7917ac966141b5cd6757e89ca245710e95950) | feat(cli): canonicalize host producers for the fleet cutover | [sase-x7.3.1.1](sase-x7.3.1.1.md) | 2026-09-06 09:54:28 EDT |
-| sase-github | [`sase-github@095181a`](https://github.com/sase-org/sase-github/commit/095181a338bd8295e7b450d341b238e587a0d78a) | refactor(workspace): canonicalize Patch imports and drop ChangeSpec facade | [sase-x7.3.1.3](sase-x7.3.1.3.md) | 2026-09-06 10:20:28 EDT |
-| sase-telegram | [`sase-telegram@9cc66ab`](https://github.com/sase-org/sase-telegram/commit/9cc66ab7e627adf2b2df2e58a8f947ee9d628c76) | refactor(inbound): canonicalize patch\_tags/project\_spec\_path imports | [sase-x7.3.1.3](sase-x7.3.1.3.md) | 2026-09-06 10:22:56 EDT |
+| chezmoi | [`chezmoi@fbfddd8`](https://github.com/bbugyi200/dotfiles/commit/fbfddd8c0aa2bb6d0225a89654f9f13d971cbfad) | feat(sase): regenerate canonical chezmoi sources for the fleet cutover | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 2026-09-06 10:49:08 EDT |

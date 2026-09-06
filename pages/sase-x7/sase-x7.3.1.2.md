@@ -18,7 +18,7 @@ editor-producers: migrate Neovim filetype, schema, catalog, reference, and fallb
 ## Dependencies
 
 - **Depends on:** [sase-x7.3.1.1](sase-x7.3.1.1.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-x7.3.1.4](sase-x7.3.1.4.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-x7.3.1.4](sase-x7.3.1.4.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

@@ -13,7 +13,7 @@ fleet-deploy: apply exact landed revisions on all three hosts, reconcile Mac dri
 
 ## Dependencies
 
-- **Depends on:** [sase-x7.3.1.4](sase-x7.3.1.4.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-x7.3.1.4](sase-x7.3.1.4.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
