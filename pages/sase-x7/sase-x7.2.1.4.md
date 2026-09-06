@@ -13,7 +13,7 @@ kit-rehearsal: Run the synthetic edge-case matrix and protected real-data rehear
 
 ## Dependencies
 
-- **Depends on:** [sase-x7.2.1.3](sase-x7.2.1.3.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.2.1.3](sase-x7.2.1.3.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 
