@@ -15,7 +15,7 @@ machine-cli: add the sase machine command group (add, discover, list, remove, re
 
 - **Blocks:** [sase-xe.12](sase-xe.12.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.4](sase-xe.4.md) ◐ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.7](sase-xe.7.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.7](sase-xe.7.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

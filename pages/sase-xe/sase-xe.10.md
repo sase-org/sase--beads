@@ -16,7 +16,7 @@ federation-worker: build the on-demand per-user Rust worker that owns remote con
 - **Blocks:** [sase-xe.11](sase-xe.11.md) ◐ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.12](sase-xe.12.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.5](sase-xe.5.md) ◐ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.7](sase-xe.7.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.7](sase-xe.7.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

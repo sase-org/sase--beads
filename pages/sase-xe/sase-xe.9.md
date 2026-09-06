@@ -26,10 +26,11 @@ follow-store: persist viewer-local follow records keyed by origin and logical ag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 1 |
+| [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fdfb4e2`](https://github.com/sase-org/sase/commit/fdfb4e238a386b5470a67025da8db1c30bc92e90) | feat(fleet): add durable follow store | [sase-xe.9](sase-xe.9.md) | 2026-09-06 17:59:43 EDT |
+| sase-core | [`sase-core@7d382db`](https://github.com/sase-org/sase-core/commit/7d382db7d986a1e29ab6edc27689c6058b55ebf8) | feat(fleet): add follow reconciliation contracts | [sase-xe.9](sase-xe.9.md) | 2026-09-06 18:02:54 EDT |
