@@ -27,7 +27,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-xe.1](sase-xe.1.md) | Bounded index-backed local listing reads | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
+| [sase-xe.1](sase-xe.1.md) | Bounded index-backed local listing reads | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xe.10](sase-xe.10.md) | Local federation worker and Python remote facade | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.11](sase-xe.11.md) | Focus and Fleet sub-views of the Agents tab | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.12](sase-xe.12.md) | The %dispatch directive and reliable remote launch | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
@@ -36,7 +36,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
-| [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
+| [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ◐ in_progress | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.5](sase-xe.5.md) | Bounded remote read protocol with recoverable events | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.6](sase-xe.6.md) | Durable mutation journal and launch admission recovery | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.7](sase-xe.7.md) | Dispatch provider plugin hooks, built-in providers, and config schema | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
@@ -48,7 +48,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 ```mermaid
 flowchart TD
     n0["sase-xe: Remote dispatch and the Focus/Fleet agents experience [in_progress]"]
-    n1["sase-xe.1: Bounded index-backed local listing reads [in_progress]"]
+    n1["sase-xe.1: Bounded index-backed local listing reads [closed]"]
     n2["sase-xe.10: Local federation worker and Python remote facade [in_progress]"]
     n3["sase-xe.11: Focus and Fleet sub-views of the Agents tab [in_progress]"]
     n4["sase-xe.12: The %dispatch directive and reliable remote launch [in_progress]"]
@@ -105,7 +105,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.1/README.md) | [sase-xe.1](sase-xe.1.md) | 0 |
+| [bbugyi200.athena.sase-xe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.1/README.md) | [sase-xe.1](sase-xe.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.10/README.md) | [sase-xe.10](sase-xe.10.md) | 0 |
 | [bbugyi200.athena.sase-xe.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.11/README.md) | [sase-xe.11](sase-xe.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.12/README.md) | [sase-xe.12](sase-xe.12.md) | 0 |
@@ -114,10 +114,10 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.15/README.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 | [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 0 |
-| [bbugyi200.athena.sase-xe.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.4/README.md) | [sase-xe.4](sase-xe.4.md) | 0 |
+| [bbugyi200.athena.sase-xe.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.4.md) | [sase-xe.4](sase-xe.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.5/README.md) | [sase-xe.5](sase-xe.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.6/README.md) | [sase-xe.6](sase-xe.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.7/README.md) | [sase-xe.7](sase-xe.7.md) | 0 |
+| [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.7.md) | [sase-xe.7](sase-xe.7.md) | 0 |
 | [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.8/README.md) | [sase-xe.8](sase-xe.8.md) | 0 |
 | [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 0 |
 | [bbugyi200.athena.sase-xe.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.land/README.md) | [sase-xe](README.md) | 0 |
@@ -128,3 +128,5 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`27442bd`](https://github.com/sase-org/sase/commit/27442bd8e1fd96ed2e2f3b1b9a43bb27ab5e7d66) | test(fleet): cover portable contract bindings | [sase-xe.2](sase-xe.2.md) | 2026-09-06 16:10:16 EDT |
 | sase-core | [`sase-core@ee7163e`](https://github.com/sase-org/sase-core/commit/ee7163e00d02a803afe4cdec3de1b00f577e16d4) | feat(fleet): add portable identity contracts | [sase-xe.2](sase-xe.2.md) | 2026-09-06 16:11:20 EDT |
+| sase | [`8efecdd`](https://github.com/sase-org/sase/commit/8efecdd7390a0103f66ce7a3f4b54376a2079a63) | feat(agent-listing): use bounded index snapshots | [sase-xe.1](sase-xe.1.md) | 2026-09-06 16:25:23 EDT |
+| sase-core | [`sase-core@f00ed92`](https://github.com/sase-org/sase-core/commit/f00ed92aa41f5bb0a94216b74031b38ac608824f) | feat(gateway): add fleet authentication | [sase-xe.4](sase-xe.4.md) | 2026-09-06 17:00:45 EDT |

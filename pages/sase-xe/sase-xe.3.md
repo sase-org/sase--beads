@@ -13,7 +13,7 @@ viewer-purity: extract the local side effects concentrated in the ACE running-ag
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.1](sase-xe.1.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.1](sase-xe.1.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.11](sase-xe.11.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.2](sase-xe.2.md) ✓ · ⧖ 2026-09-06
 

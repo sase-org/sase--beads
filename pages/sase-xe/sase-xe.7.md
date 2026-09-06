@@ -21,4 +21,4 @@ dispatch-plugins: add the sase_dispatch entry-point group with dispatch_provider
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.7/README.md) | [sase-xe.7](sase-xe.7.md) | 0 |
+| [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.7.md) | [sase-xe.7](sase-xe.7.md) | 0 |
