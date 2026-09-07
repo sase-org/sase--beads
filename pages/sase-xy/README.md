@@ -23,6 +23,10 @@
 
 Pager link presses land on the file or artifact the text's author meant: file paths and typed refs resolve against the workspace directory where the corresponding agent ran when knowable, fall back through reliable anchors, and spans carry :line suffixes faithfully.
 
+## Notes
+
+[2026-09-07T16:07:48Z · sase-xy.land] LAND AUDIT PAUSED FOR REMAINING EPIC WORK: all three phase commits and current entry-point wiring were reviewed; the focused pager/ACE/artifact/bead CLI suite passes (189 tests), and the sole child PROPOSED FOLLOW-UP from sase-xy.1 is already fixed on master by 777ec37dc (the exact lock test passes), so no task was filed. The three phase commits independently reproduce ready task sase-vh's stale SASE_PLAN provenance bug, so sase-vh was corroborated with +1 rather than duplicated. Post-start non-epic commits 777ec37dc and 287048d60 do not add a pager entry point or conflict with link contexts. Remaining epic-caused defects: a dead-end file press runs the git suffix search once in the background resolver and again synchronously from _apply_resolution/_unresolved_message to construct the toast (reproduction: git calls rise from 1 after resolve_ref to 2 after file_path_unresolved_message), violating one-search-per-anchor and the no-event-loop-I/O rule; merge_link_context also existence-checks/resolves anchors synchronously per label press; ACE _prepare_view_input constructs agent/patch contexts synchronously; and dangling-ref identity drops workspace_num even though typed-ref resolution depends on it. A child correction plan is being proposed; resume landing after it closes.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,11 +43,18 @@ flowchart TD
     n1["sase-xy.1: Context-aware hard search in the resolver [closed]"]
     n2["sase-xy.2: Thread real contexts from every pager entry point [closed]"]
     n3["sase-xy.3: Scanned spans carry line suffixes and shed trailing dots [closed]"]
+    n4["sase-xy.4: Finish reliable pager link landing [in_progress]"]
+    n5["sase-xy.4.1: Resolve dead ends once off the event loop [closed]"]
+    n6["sase-xy.4.2: Make pager context handling pure and identity-safe [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
+    n0 --> n4
+    n4 --> n5
+    n4 --> n6
     n1 -.-> n2
     n1 -.-> n3
+    n5 -.-> n6
 ```
 
 ## Agents
@@ -53,7 +64,10 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.1/README.md) | [sase-xy.1](sase-xy.1.md) | 1 |
 | [bbugyi200.athena.sase-xy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.2/README.md) | [sase-xy.2](sase-xy.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.3/README.md) | [sase-xy.3](sase-xy.3.md) | 1 |
-| [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.land/README.md) | [sase-xy](README.md) | 0 |
+| [bbugyi200.athena.sase-xy.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.1/README.md) | [sase-xy.4.1](sase-xy.4.1.md) | 1 |
+| [bbugyi200.athena.sase-xy.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.2/README.md) | [sase-xy.4.2](sase-xy.4.2.md) | 0 |
+| [bbugyi200.athena.sase-xy.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.land/README.md) | [sase-xy.4](sase-xy.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
 
 ## Commits
 
@@ -62,3 +76,4 @@ flowchart TD
 | sase | [`4bb47fc`](https://github.com/sase-org/sase/commit/4bb47fc987541c33386ee508024a956c44cbb79d) | feat(pager): resolve links against ordered workspace anchors | [sase-xy.1](sase-xy.1.md) | 2026-09-07 10:44:14 EDT |
 | sase | [`f6501e3`](https://github.com/sase-org/sase/commit/f6501e308fbf83d544501c724e201c54762361b6) | feat(pager): include :line suffixes in scanned file-path spans | [sase-xy.3](sase-xy.3.md) | 2026-09-07 11:08:47 EDT |
 | sase | [`a0fcc5a`](https://github.com/sase-org/sase/commit/a0fcc5ade1600a815f1f250dcc15d95e67060aaf) | feat(pager): thread link context through entry points | [sase-xy.2](sase-xy.2.md) | 2026-09-07 11:46:36 EDT |
+| sase | [`5144564`](https://github.com/sase-org/sase/commit/51445642c37303762ef7bb51be7c49c680c19ee4) | feat(pager): resolve dead ends in one background pass | [sase-xy.4.1](sase-xy.4.1.md) | 2026-09-07 13:03:05 EDT |
