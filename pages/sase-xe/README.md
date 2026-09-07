@@ -40,7 +40,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.5](sase-xe.5.md) | Bounded remote read protocol with recoverable events | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.6](sase-xe.6.md) | Durable mutation journal and launch admission recovery | ✓ closed | large | 2026-09-06 | 0 | 0 |
 | [sase-xe.7](sase-xe.7.md) | Dispatch provider plugin hooks, built-in providers, and config schema | ✓ closed | large | 2026-09-06 | 1 | 0 |
-| [sase-xe.8](sase-xe.8.md) | sase machine CLI group and sase init enrollment | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
+| [sase-xe.8](sase-xe.8.md) | sase machine CLI group and sase init enrollment | ✓ closed | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.9](sase-xe.9.md) | Durable follow subscriptions with family continuity | ✓ closed | medium | 2026-09-06 | 1 | 2 |
 
 ## Lineage
@@ -61,7 +61,7 @@ flowchart TD
     n11["sase-xe.5: Bounded remote read protocol with recoverable events [closed]"]
     n12["sase-xe.6: Durable mutation journal and launch admission recovery [closed]"]
     n13["sase-xe.7: Dispatch provider plugin hooks, built-in providers, and config schema [closed]"]
-    n14["sase-xe.8: sase machine CLI group and sase init enrollment [in_progress]"]
+    n14["sase-xe.8: sase machine CLI group and sase init enrollment [closed]"]
     n15["sase-xe.9: Durable follow subscriptions with family continuity [closed]"]
     n0 --> n1
     n0 --> n2

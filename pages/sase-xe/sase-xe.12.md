@@ -16,7 +16,7 @@ dispatch-launch: add %dispatch:<machine> to the dual-sourced directive vocabular
 - **Depends on:** [sase-xe.10](sase-xe.10.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.13](sase-xe.13.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.6](sase-xe.6.md) ✓ · ⧖ 2026-09-06
-- **Depends on:** [sase-xe.8](sase-xe.8.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.8](sase-xe.8.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
