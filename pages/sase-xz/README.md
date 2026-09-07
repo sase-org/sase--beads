@@ -29,7 +29,7 @@ Make source files, Markdown documents, and diffs quietly beautiful in every page
 |---|---|---|---|---|---:|---:|
 | [sase-xz.1](sase-xz.1.md) | Shared source-language policy and Python binding | ✓ closed | medium | 2026-09-07 | 1 | 2 |
 | [sase-xz.2](sase-xz.2.md) | Offset-preserving syntax spans and adaptive palette | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-xz.3](sase-xz.3.md) | Responsive syntax composition and styled search | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-xz.3](sase-xz.3.md) | Responsive syntax composition and styled search | ◐ in_progress | medium | 2026-09-07 | 1 | 1 |
 | [sase-xz.4](sase-xz.4.md) | Enable all pager entry points and verify the finished experience | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 
 ## Lineage
@@ -58,7 +58,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-xz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.1/README.md) | [sase-xz.1](sase-xz.1.md) | 2 |
 | [bbugyi200.athena.sase-xz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.2/README.md) | [sase-xz.2](sase-xz.2.md) | 1 |
-| [bbugyi200.athena.sase-xz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.3/README.md) | [sase-xz.3](sase-xz.3.md) | 0 |
+| [bbugyi200.athena.sase-xz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.3/README.md) | [sase-xz.3](sase-xz.3.md) | 1 |
 | [bbugyi200.athena.sase-xz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.4/README.md) | [sase-xz.4](sase-xz.4.md) | 0 |
 | [bbugyi200.athena.sase-xz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xz.land/README.md) | [sase-xz](README.md) | 0 |
 
@@ -69,3 +69,4 @@ flowchart TD
 | sase | [`7ca1654`](https://github.com/sase-org/sase/commit/7ca1654a2175b3e042b862f9bacb20f04535d2bc) | feat(pager): add source-language facade over the rust contract | [sase-xz.1](sase-xz.1.md) | 2026-09-07 12:37:22 EDT |
 | sase-core | [`sase-core@eacd178`](https://github.com/sase-org/sase-core/commit/eacd17823834d441f205289b0c4f30510918734f) | feat(source-language): add pager language policy and wire API | [sase-xz.1](sase-xz.1.md) | 2026-09-07 12:42:24 EDT |
 | sase | [`0aa7cb9`](https://github.com/sase-org/sase/commit/0aa7cb9e965b504f08a6b3fccef69b84902c03a7) | feat(pager): add inactive syntax span engine | [sase-xz.2](sase-xz.2.md) | 2026-09-07 13:24:59 EDT |
+| sase | [`a9f95ca`](https://github.com/sase-org/sase/commit/a9f95ca5e64510df9f6161ee259d4d99d042537f) | feat(pager): thread source-language syntax hints through screen and layout | [sase-xz.3](sase-xz.3.md) | 2026-09-07 14:10:25 EDT |
