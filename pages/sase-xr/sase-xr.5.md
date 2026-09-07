@@ -18,7 +18,7 @@ launch-batch: reserve deterministic phase and land names together, consume those
 ## Dependencies
 
 - **Depends on:** [sase-xr.4](sase-xr.4.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xr.6](sase-xr.6.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xr.6](sase-xr.6.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

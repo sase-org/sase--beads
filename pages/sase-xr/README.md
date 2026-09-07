@@ -32,7 +32,7 @@ Launching or relaunching one or several epics spends seconds on local preparatio
 | [sase-xr.3](sase-xr.3.md) | Make reservation transactions reuse one fresh view | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xr.4](sase-xr.4.md) | Discover and clean replacement owners as one batch | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xr.5](sase-xr.5.md) | Carry bulk reservations through epic fan-out | ✓ closed | medium | 2026-09-06 | 1 | 1 |
-| [sase-xr.6](sase-xr.6.md) | Prove speed, concurrency safety, and recovery | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
+| [sase-xr.6](sase-xr.6.md) | Prove speed, concurrency safety, and recovery | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["sase-xr.3: Make reservation transactions reuse one fresh view [closed]"]
     n4["sase-xr.4: Discover and clean replacement owners as one batch [closed]"]
     n5["sase-xr.5: Carry bulk reservations through epic fan-out [closed]"]
-    n6["sase-xr.6: Prove speed, concurrency safety, and recovery [in_progress]"]
+    n6["sase-xr.6: Prove speed, concurrency safety, and recovery [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.3/README.md) | [sase-xr.3](sase-xr.3.md) | 1 |
 | [bbugyi200.athena.sase-xr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.4/README.md) | [sase-xr.4](sase-xr.4.md) | 1 |
 | [bbugyi200.athena.sase-xr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.5/README.md) | [sase-xr.5](sase-xr.5.md) | 1 |
-| [bbugyi200.athena.sase-xr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.6/README.md) | [sase-xr.6](sase-xr.6.md) | 0 |
+| [bbugyi200.athena.sase-xr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.6/README.md) | [sase-xr.6](sase-xr.6.md) | 1 |
 | [bbugyi200.athena.sase-xr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.land/README.md) | [sase-xr](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`272ebad`](https://github.com/sase-org/sase/commit/272ebad820f82a24901abd8dd84e1318e640cfee) | feat(agent): add batch registry reservation transactions | [sase-xr.3](sase-xr.3.md) | 2026-09-06 23:34:46 EDT |
 | sase | [`34fb561`](https://github.com/sase-org/sase/commit/34fb561dd986ef362f1b68ab2a2fdd3171507aac) | perf(agent-names): batch forced-reuse cleanup | [sase-xr.4](sase-xr.4.md) | 2026-09-07 01:18:23 EDT |
 | sase | [`4d5c30d`](https://github.com/sase-org/sase/commit/4d5c30dc7d8ab53f13ade98d4b59467ca31bbf6a) | feat: batch epic launch reservations | [sase-xr.5](sase-xr.5.md) | 2026-09-07 02:06:58 EDT |
+| sase | [`fd2ceba`](https://github.com/sase-org/sase/commit/fd2cebac49e96876c2ffa39a0fa6aa474330fd66) | perf(beads): bound epic-launch history work and prove scale | [sase-xr.6](sase-xr.6.md) | 2026-09-07 08:38:51 EDT |
