@@ -17,6 +17,8 @@ document-targets: add the Rust document-link scanner and binding contract, separ
 
 [2026-09-07T18:14:50Z · sase-xy.5.1] Implemented Rust document scanner/binding and Python pager adapter. Verified linked core just check with LD_LIBRARY_PATH for uv Python 3.14; focused Rust artifact_ref scanner and PyO3 binding tests; focused pytest artifact_refs/pager (62 passed). Primary just check clears fmt/mypy/lint lanes until unrelated pre-existing pending_actions.py symvision URI-pragma failures, recorded as PROPOSED FOLLOW-UP. epic-symbol guard clean.
 
+[2026-09-07T23:18:31Z · 06c] RECONCILIATION UPDATE / x74_telegram_finalization_repair / 2026-09-07: The pending_actions Symvision URI pragma follow-up noted here is resolved by landing the Telegram adapter against the shared pending-action API. External Symvision with SYMVISION_EXTERNAL_REPO_PATHS=linked sase-telegram passes. Host pager cleanup was required only for current host lint gates: made GutterSection private, removed dead _measure_section_heights test hook, and split goto tests below toobig limit; focused pager tests pass. Remaining host just check failure is the unrelated sase-xe %dispatch core/host contract mismatch recorded on sase-xe, not a Telegram or pager-target regression.
+
 ## Dependencies
 
 - **Blocks:** [sase-xy.5.2](sase-xy.5.2.md) ✓ · ⧖ 2026-09-07

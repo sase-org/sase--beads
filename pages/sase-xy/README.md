@@ -52,7 +52,7 @@ flowchart TD
     n8["sase-xy.5.1: Parse document links into faithful semantic targets [closed]"]
     n9["sase-xy.5.2: Resolve targets using document ownership and repository identity [closed]"]
     n10["sase-xy.5.3: Carry semantic targets through every pager entry and action [closed]"]
-    n11["sase-xy.5.4: Exercise every rendered link through real pager navigation [in_progress]"]
+    n11["sase-xy.5.4: Exercise every rendered link through real pager navigation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.4.land.md) | [sase-xy.4](sase-xy.4.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.2/README.md) | [sase-xy.5.2](sase-xy.5.2.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.3/README.md) | [sase-xy.5.3](sase-xy.5.3.md) | 1 |
-| [bbugyi200.athena.sase-xy.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.4/README.md) | [sase-xy.5.4](sase-xy.5.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.4/README.md) | [sase-xy.5.4](sase-xy.5.4.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.land/README.md) | [sase-xy.5](sase-xy.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
 
@@ -101,3 +101,4 @@ flowchart TD
 | sase | [`d8a299c`](https://github.com/sase-org/sase/commit/d8a299c2c3e401d9a08f5802849c15afb3eceb7b) | feat(pager-refs): add Python adapter for document-owned source-path resolution | [sase-xy.5.2](sase-xy.5.2.md) | 2026-09-07 17:56:02 EDT |
 | sase-core | [`sase-core@0ec3050`](https://github.com/sase-org/sase-core/commit/0ec30508fc0baa339cec0d89b1c5b70c3d800538) | feat(artifact-ref): resolve document-owned source paths by repository identity | [sase-xy.5.2](sase-xy.5.2.md) | 2026-09-07 17:58:40 EDT |
 | sase | [`2b08ca3`](https://github.com/sase-org/sase/commit/2b08ca3017aade6523ab8fcb16d36460f6ed8866) | feat(pager): carry semantic targets and owner provenance through every action | [sase-xy.5.3](sase-xy.5.3.md) | 2026-09-07 18:50:46 EDT |
+| sase | [`2ba228d`](https://github.com/sase-org/sase/commit/2ba228da326eedba37e66c5b8eb73ed4525b2967) | test(pager): enforce rendered-link contract through real navigation | [sase-xy.5.4](sase-xy.5.4.md) | 2026-09-07 19:51:30 EDT |

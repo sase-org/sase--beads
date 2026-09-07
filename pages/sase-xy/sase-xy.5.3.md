@@ -19,7 +19,7 @@ pager-integration: integrate normalized targets and provenance into pager constr
 
 - **Depends on:** [sase-xy.5.1](sase-xy.5.1.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-xy.5.2](sase-xy.5.2.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-xy.5.4](sase-xy.5.4.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.4](sase-xy.5.4.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
