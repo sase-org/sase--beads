@@ -29,5 +29,5 @@ op-journal: add operation keys with payload fingerprints, receipts and tombstone
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.12](sase-xe.12.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.12](sase-xe.12.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.4](sase-xe.4.md) ✓ · ⧖ 2026-09-06

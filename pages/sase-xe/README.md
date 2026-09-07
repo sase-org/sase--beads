@@ -30,7 +30,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.1](sase-xe.1.md) | Bounded index-backed local listing reads | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xe.10](sase-xe.10.md) | Local federation worker and Python remote facade | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.11](sase-xe.11.md) | Focus and Fleet sub-views of the Agents tab | ✓ closed | large | 2026-09-06 | 1 | 1 |
-| [sase-xe.12](sase-xe.12.md) | The %dispatch directive and reliable remote launch | ◐ in_progress | large | 2026-09-06 | 1 | 1 |
+| [sase-xe.12](sase-xe.12.md) | The %dispatch directive and reliable remote launch | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.13](sase-xe.13.md) | Remote lifecycle management parity | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ◐ in_progress | large | 2026-09-06 | 1 | 0 |
 | [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n1["sase-xe.1: Bounded index-backed local listing reads [closed]"]
     n2["sase-xe.10: Local federation worker and Python remote facade [closed]"]
     n3["sase-xe.11: Focus and Fleet sub-views of the Agents tab [closed]"]
-    n4["sase-xe.12: The %dispatch directive and reliable remote launch [in_progress]"]
+    n4["sase-xe.12: The %dispatch directive and reliable remote launch [closed]"]
     n5["sase-xe.13: Remote lifecycle management parity [in_progress]"]
     n6["sase-xe.14: Remote questions, gates, and notification deduplication [in_progress]"]
     n7["sase-xe.15: Fleet-wide acceptance, flag removal, and polish [in_progress]"]
@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.1/README.md) | [sase-xe.1](sase-xe.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.10.md) | [sase-xe.10](sase-xe.10.md) | 2 |
 | [bbugyi200.athena.sase-xe.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.11.md) | [sase-xe.11](sase-xe.11.md) | 1 |
-| [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 1 |
+| [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 2 |
 | [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.13/README.md) | [sase-xe.13](sase-xe.13.md) | 0 |
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.14/README.md) | [sase-xe.14](sase-xe.14.md) | 0 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.15/README.md) | [sase-xe.15](sase-xe.15.md) | 0 |
@@ -138,3 +138,4 @@ flowchart TD
 | sase-core | [`sase-core@69f24c9`](https://github.com/sase-org/sase-core/commit/69f24c90d134ebee039da0236cdcafde035253ad) | feat(gateway): add local federation worker | [sase-xe.10](sase-xe.10.md) | 2026-09-06 21:05:48 EDT |
 | sase | [`e2fc10c`](https://github.com/sase-org/sase/commit/e2fc10c3c70d1ac1b778dbb267689e10e39fc264) | feat(tui): add focus and fleet agents views | [sase-xe.11](sase-xe.11.md) | 2026-09-07 00:30:29 EDT |
 | sase | [`50b1405`](https://github.com/sase-org/sase/commit/50b1405f4268eae9e84302bb3f32bc429fe09d85) | feat(dispatch): launch agents on remote machines | [sase-xe.12](sase-xe.12.md) | 2026-09-07 02:32:38 EDT |
+| sase-core | [`sase-core@06fb5c3`](https://github.com/sase-org/sase-core/commit/06fb5c38ec612253ce1d6ced75e4a4ae89278ed4) | feat(fleet): add remote launch dispatch contract | [sase-xe.12](sase-xe.12.md) | 2026-09-07 02:36:29 EDT |
