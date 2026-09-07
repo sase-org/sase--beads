@@ -18,7 +18,7 @@ core-batch: add Rust contracts for coherent ownership snapshots, batch cleanup c
 ## Dependencies
 
 - **Depends on:** [sase-xr.1](sase-xr.1.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xr.3](sase-xr.3.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xr.3](sase-xr.3.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
