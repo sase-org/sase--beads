@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.2/README.md) | [sase-xq.2](sase-xq.2.md) | 1 |
 | [bbugyi200.athena.sase-xq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.3/README.md) | [sase-xq.3](sase-xq.3.md) | 1 |
 | [bbugyi200.athena.sase-xq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xq.land.md) | [sase-xq](README.md) | 0 |
-| [bbugyi200.athena.sase-xq.land.r0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xq.land.r0.md) | [sase-xq](README.md) | 1 |
+| [bbugyi200.athena.sase-xq.land.r0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xq.land.r0.md) | [sase-xq](README.md) | 2 |
 
 ## Commits
 
@@ -101,3 +101,4 @@ flowchart TD
 | sase | [`4093493`](https://github.com/sase-org/sase/commit/4093493a4c504e1e4cb7d96c3cb135709085901d) | fix(finalizers): auto-commit bead reprojections | [sase-xq.2](sase-xq.2.md) | 2026-09-06 19:15:52 EDT |
 | sase | [`4c3dace`](https://github.com/sase-org/sase/commit/4c3dace967966f1ef544a539f4922fc7236bd6a5) | fix(build): require fixed core and install lsp from isolated target | [sase-xq.3](sase-xq.3.md) | 2026-09-06 20:20:33 EDT |
 | sase | [`144c2be`](https://github.com/sase-org/sase/commit/144c2be656233e727f80a063e7dbf3833743b2df) | test: calibrate suite budgets and record owned flake debt | [sase-xq](README.md) | 2026-09-07 02:34:46 EDT |
+| sase--plans | [`sase--plans@645fa8b`](https://github.com/sase-org/sase--plans/commit/645fa8b418e6950a2138dc14dae13eef8334c65a) | docs(plans): archive completed bead projection determinism plan | [sase-xq](README.md) | 2026-09-07 02:36:33 EDT |
