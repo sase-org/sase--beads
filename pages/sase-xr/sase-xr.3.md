@@ -13,7 +13,7 @@ registry-batch: add guarded batch registry operations, short mutation locks, and
 
 ## Dependencies
 
-- **Depends on:** [sase-xr.2](sase-xr.2.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xr.2](sase-xr.2.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xr.4](sase-xr.4.md) ◐ · ⧖ 2026-09-06
 
 ## Agents

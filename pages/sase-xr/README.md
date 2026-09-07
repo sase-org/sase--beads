@@ -28,7 +28,7 @@ Launching or relaunching one or several epics spends seconds on local preparatio
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-xr.1](sase-xr.1.md) | Establish launch cost and safety baselines | ✓ closed | small | 2026-09-06 | 1 | 1 |
-| [sase-xr.2](sase-xr.2.md) | Implement shared batch ownership and cleanup planning | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
+| [sase-xr.2](sase-xr.2.md) | Implement shared batch ownership and cleanup planning | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xr.3](sase-xr.3.md) | Make reservation transactions reuse one fresh view | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xr.4](sase-xr.4.md) | Discover and clean replacement owners as one batch | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xr.5](sase-xr.5.md) | Carry bulk reservations through epic fan-out | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
@@ -40,7 +40,7 @@ Launching or relaunching one or several epics spends seconds on local preparatio
 flowchart TD
     n0["sase-xr: Make epic launches and relaunches scale with the requested work [in_progress]"]
     n1["sase-xr.1: Establish launch cost and safety baselines [closed]"]
-    n2["sase-xr.2: Implement shared batch ownership and cleanup planning [in_progress]"]
+    n2["sase-xr.2: Implement shared batch ownership and cleanup planning [closed]"]
     n3["sase-xr.3: Make reservation transactions reuse one fresh view [in_progress]"]
     n4["sase-xr.4: Discover and clean replacement owners as one batch [in_progress]"]
     n5["sase-xr.5: Carry bulk reservations through epic fan-out [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.1/README.md) | [sase-xr.1](sase-xr.1.md) | 1 |
-| [bbugyi200.athena.sase-xr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.2/README.md) | [sase-xr.2](sase-xr.2.md) | 0 |
+| [bbugyi200.athena.sase-xr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.2/README.md) | [sase-xr.2](sase-xr.2.md) | 1 |
 | [bbugyi200.athena.sase-xr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.3/README.md) | [sase-xr.3](sase-xr.3.md) | 0 |
 | [bbugyi200.athena.sase-xr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.4/README.md) | [sase-xr.4](sase-xr.4.md) | 0 |
 | [bbugyi200.athena.sase-xr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xr.5/README.md) | [sase-xr.5](sase-xr.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`223cd2e`](https://github.com/sase-org/sase/commit/223cd2e84a190beb09fa848a13a8ec2e9855e513) | feat(beads): instrument epic launch timing | [sase-xr.1](sase-xr.1.md) | 2026-09-06 20:44:32 EDT |
+| sase-core | [`sase-core@09a10b4`](https://github.com/sase-org/sase-core/commit/09a10b4e894c664b81c5e4683537bb61078f4203) | feat(agent-ownership): add batch ownership planner | [sase-xr.2](sase-xr.2.md) | 2026-09-06 21:28:25 EDT |

@@ -17,7 +17,7 @@ measure: add nested launch timing and an isolated history-scale benchmark that s
 
 ## Dependencies
 
-- **Blocks:** [sase-xr.2](sase-xr.2.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xr.2](sase-xr.2.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
