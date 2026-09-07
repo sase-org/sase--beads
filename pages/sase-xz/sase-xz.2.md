@@ -17,8 +17,8 @@ syntax_engine: implement bounded Pygments token spans, corrected Markdown frontm
 
 ## Dependencies
 
-- **Blocks:** [sase-xz.3](sase-xz.3.md) ◐ · ⧖ 2026-09-07
-- **Blocks:** [sase-xz.4](sase-xz.4.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xz.3](sase-xz.3.md) ✓ · ⧖ 2026-09-07
+- **Blocks:** [sase-xz.4](sase-xz.4.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

@@ -17,8 +17,8 @@ language_contract: implement deterministic language selection, filename provenan
 
 ## Dependencies
 
-- **Blocks:** [sase-xz.3](sase-xz.3.md) ◐ · ⧖ 2026-09-07
-- **Blocks:** [sase-xz.4](sase-xz.4.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xz.3](sase-xz.3.md) ✓ · ⧖ 2026-09-07
+- **Blocks:** [sase-xz.4](sase-xz.4.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
