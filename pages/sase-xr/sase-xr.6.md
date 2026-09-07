@@ -13,7 +13,7 @@ acceptance: verify fresh and repeated launches at real history scale, exercise r
 
 ## Dependencies
 
-- **Depends on:** [sase-xr.5](sase-xr.5.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xr.5](sase-xr.5.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

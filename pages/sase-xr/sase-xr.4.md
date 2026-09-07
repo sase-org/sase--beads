@@ -18,7 +18,7 @@ cleanup-batch: replace per-owner archive scans and rebuilds with one catalog and
 ## Dependencies
 
 - **Depends on:** [sase-xr.3](sase-xr.3.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xr.5](sase-xr.5.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xr.5](sase-xr.5.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
