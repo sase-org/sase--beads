@@ -17,7 +17,7 @@ one-pass-dead-ends: return the file-path search diagnostics needed by the pager 
 
 ## Dependencies
 
-- **Blocks:** [sase-xy.4.2](sase-xy.4.2.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.4.2](sase-xy.4.2.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

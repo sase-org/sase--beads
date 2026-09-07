@@ -45,16 +45,30 @@ flowchart TD
     n3["sase-xy.3: Scanned spans carry line suffixes and shed trailing dots [closed]"]
     n4["sase-xy.4: Finish reliable pager link landing [in_progress]"]
     n5["sase-xy.4.1: Resolve dead ends once off the event loop [closed]"]
-    n6["sase-xy.4.2: Make pager context handling pure and identity-safe [in_progress]"]
+    n6["sase-xy.4.2: Make pager context handling pure and identity-safe [closed]"]
+    n7["sase-xy.5: Preserve pager link identity and resolve targets in their owning repositories [in_progress]"]
+    n8["sase-xy.5.1: Parse document links into faithful semantic targets [in_progress]"]
+    n9["sase-xy.5.2: Resolve targets using document ownership and repository identity [in_progress]"]
+    n10["sase-xy.5.3: Carry semantic targets through every pager entry and action [in_progress]"]
+    n11["sase-xy.5.4: Exercise every rendered link through real pager navigation [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n4 --> n5
     n4 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
     n1 -.-> n2
     n1 -.-> n3
     n5 -.-> n6
+    n8 -.-> n9
+    n8 -.-> n10
+    n9 -.-> n10
+    n10 -.-> n11
 ```
 
 ## Agents
@@ -65,8 +79,13 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.2/README.md) | [sase-xy.2](sase-xy.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.3/README.md) | [sase-xy.3](sase-xy.3.md) | 1 |
 | [bbugyi200.athena.sase-xy.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.1/README.md) | [sase-xy.4.1](sase-xy.4.1.md) | 1 |
-| [bbugyi200.athena.sase-xy.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.2/README.md) | [sase-xy.4.2](sase-xy.4.2.md) | 0 |
+| [bbugyi200.athena.sase-xy.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.2/README.md) | [sase-xy.4.2](sase-xy.4.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.4.land/README.md) | [sase-xy.4](sase-xy.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.1/README.md) | [sase-xy.5.1](sase-xy.5.1.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.2/README.md) | [sase-xy.5.2](sase-xy.5.2.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.3/README.md) | [sase-xy.5.3](sase-xy.5.3.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.4/README.md) | [sase-xy.5.4](sase-xy.5.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.land/README.md) | [sase-xy.5](sase-xy.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
 
 ## Commits
@@ -77,3 +96,4 @@ flowchart TD
 | sase | [`f6501e3`](https://github.com/sase-org/sase/commit/f6501e308fbf83d544501c724e201c54762361b6) | feat(pager): include :line suffixes in scanned file-path spans | [sase-xy.3](sase-xy.3.md) | 2026-09-07 11:08:47 EDT |
 | sase | [`a0fcc5a`](https://github.com/sase-org/sase/commit/a0fcc5ade1600a815f1f250dcc15d95e67060aaf) | feat(pager): thread link context through entry points | [sase-xy.2](sase-xy.2.md) | 2026-09-07 11:46:36 EDT |
 | sase | [`5144564`](https://github.com/sase-org/sase/commit/51445642c37303762ef7bb51be7c49c680c19ee4) | feat(pager): resolve dead ends in one background pass | [sase-xy.4.1](sase-xy.4.1.md) | 2026-09-07 13:03:05 EDT |
+| sase | [`4b90cc9`](https://github.com/sase-org/sase/commit/4b90cc9ee824c14021e0b2239f28ff7e509fd97c) | fix(pager): keep context merge pure and dangling identity workspace-safe | [sase-xy.4.2](sase-xy.4.2.md) | 2026-09-07 13:49:34 EDT |
