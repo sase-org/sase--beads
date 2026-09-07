@@ -13,7 +13,7 @@ acceptance: run the performance and failure acceptance matrix (local-first paint
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.14](sase-xe.14.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xe.14](sase-xe.14.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

@@ -21,7 +21,7 @@ remote-actions: execute kill/stop, retry, and fork-on-target for followed remote
 
 - **Depends on:** [sase-xe.11](sase-xe.11.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.12](sase-xe.12.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xe.14](sase-xe.14.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.14](sase-xe.14.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

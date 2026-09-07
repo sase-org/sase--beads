@@ -32,7 +32,7 @@ A user can enroll remote machines (Tailnet by default, plain HTTPS without Tails
 | [sase-xe.11](sase-xe.11.md) | Focus and Fleet sub-views of the Agents tab | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.12](sase-xe.12.md) | The %dispatch directive and reliable remote launch | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.13](sase-xe.13.md) | Remote lifecycle management parity | ✓ closed | large | 2026-09-06 | 1 | 2 |
-| [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ◐ in_progress | large | 2026-09-06 | 1 | 1 |
+| [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 | [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ✓ closed | medium | 2026-09-06 | 1 | 1 |
@@ -53,7 +53,7 @@ flowchart TD
     n3["sase-xe.11: Focus and Fleet sub-views of the Agents tab [closed]"]
     n4["sase-xe.12: The %dispatch directive and reliable remote launch [closed]"]
     n5["sase-xe.13: Remote lifecycle management parity [closed]"]
-    n6["sase-xe.14: Remote questions, gates, and notification deduplication [in_progress]"]
+    n6["sase-xe.14: Remote questions, gates, and notification deduplication [closed]"]
     n7["sase-xe.15: Fleet-wide acceptance, flag removal, and polish [in_progress]"]
     n8["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
     n9["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.11.md) | [sase-xe.11](sase-xe.11.md) | 1 |
 | [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 2 |
 | [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md) | [sase-xe.13](sase-xe.13.md) | 2 |
-| [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.14.md) | [sase-xe.14](sase-xe.14.md) | 1 |
+| [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.14.md) | [sase-xe.14](sase-xe.14.md) | 2 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.15/README.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 | [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 1 |
@@ -142,3 +142,4 @@ flowchart TD
 | sase | [`1a3a12a`](https://github.com/sase-org/sase/commit/1a3a12a7eff807fa93da4d788242a3adbfba5b6d) | feat(dispatch): add remote fleet stop, retry, fork, and bounded content | [sase-xe.13](sase-xe.13.md) | 2026-09-07 09:27:01 EDT |
 | sase-core | [`sase-core@3965615`](https://github.com/sase-org/sase-core/commit/396561556ec0d0c4f8ede23b01a182913e3a359d) | feat(fleet): add journaled mutation contract and mutate gateway | [sase-xe.13](sase-xe.13.md) | 2026-09-07 09:29:54 EDT |
 | sase | [`287048d`](https://github.com/sase-org/sase/commit/287048d601b6a2003aa01e12743c2ed053c7c982) | feat(dispatch): surface and answer remote question/gate attention in Focus | [sase-xe.14](sase-xe.14.md) | 2026-09-07 11:24:08 EDT |
+| sase-core | [`sase-core@b19c603`](https://github.com/sase-org/sase-core/commit/b19c6030c7c289ef26238073cc9a4c4aad24fe62) | feat(fleet): add attention contract, gateway routes, and federation ops | [sase-xe.14](sase-xe.14.md) | 2026-09-07 11:27:35 EDT |
