@@ -20,7 +20,7 @@ resolve-search: add LinkResolutionContext with ordered workspace anchors, rework
 ## Dependencies
 
 - **Blocks:** [sase-xy.2](sase-xy.2.md) ◐ · ⧖ 2026-09-07
-- **Blocks:** [sase-xy.3](sase-xy.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.3](sase-xy.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
