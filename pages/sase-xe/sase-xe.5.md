@@ -29,11 +29,17 @@ gateway-reads: serve maintained resolved summaries, bounded catalog pages, batch
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.10](sase-xe.10.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.10](sase-xe.10.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.4](sase-xe.4.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.5.md) | [sase-xe.5](sase-xe.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.5.md) | [sase-xe.5](sase-xe.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@9492663`](https://github.com/sase-org/sase-core/commit/9492663599f95d49dfa778a23b19d791c3af57e7) | feat(gateway): add fleet read API | [sase-xe.5](sase-xe.5.md) | 2026-09-06 19:40:08 EDT |

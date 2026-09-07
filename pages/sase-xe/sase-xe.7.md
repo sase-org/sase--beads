@@ -17,7 +17,7 @@ dispatch-plugins: add the sase_dispatch entry-point group with dispatch_provider
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.10](sase-xe.10.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.10](sase-xe.10.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.2](sase-xe.2.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.8](sase-xe.8.md) ◐ · ⧖ 2026-09-06
 
