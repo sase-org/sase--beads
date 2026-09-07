@@ -27,13 +27,14 @@ remote-actions: execute kill/stop, retry, and fork-on-target for followed remote
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md) | [sase-xe.13](sase-xe.13.md) | 1 |
+| [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md) | [sase-xe.13](sase-xe.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a3a12a`](https://github.com/sase-org/sase/commit/1a3a12a7eff807fa93da4d788242a3adbfba5b6d) | feat(dispatch): add remote fleet stop, retry, fork, and bounded content | [sase-xe.13](sase-xe.13.md) | 2026-09-07 09:27:01 EDT |
+| sase-core | [`sase-core@3965615`](https://github.com/sase-org/sase-core/commit/396561556ec0d0c4f8ede23b01a182913e3a359d) | feat(fleet): add journaled mutation contract and mutate gateway | [sase-xe.13](sase-xe.13.md) | 2026-09-07 09:29:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
