@@ -19,7 +19,7 @@ follow-store: persist viewer-local follow records keyed by origin and logical ag
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.11](sase-xe.11.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.11](sase-xe.11.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.2](sase-xe.2.md) ✓ · ⧖ 2026-09-06
 
 ## Agents

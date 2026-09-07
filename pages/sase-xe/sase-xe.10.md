@@ -17,7 +17,7 @@ federation-worker: build the on-demand per-user Rust worker that owns remote con
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.11](sase-xe.11.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.11](sase-xe.11.md) ✓ · ⧖ 2026-09-06
 - **Blocks:** [sase-xe.12](sase-xe.12.md) ◐ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.5](sase-xe.5.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.7](sase-xe.7.md) ✓ · ⧖ 2026-09-06
@@ -26,10 +26,11 @@ federation-worker: build the on-demand per-user Rust worker that owns remote con
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.10.md) | [sase-xe.10](sase-xe.10.md) | 1 |
+| [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.10.md) | [sase-xe.10](sase-xe.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e48d28c`](https://github.com/sase-org/sase/commit/e48d28c9517396c4818392c68a49ff1747bc6eda) | feat(dispatch): add federation worker facade | [sase-xe.10](sase-xe.10.md) | 2026-09-06 21:01:45 EDT |
+| sase-core | [`sase-core@69f24c9`](https://github.com/sase-org/sase-core/commit/69f24c90d134ebee039da0236cdcafde035253ad) | feat(gateway): add local federation worker | [sase-xe.10](sase-xe.10.md) | 2026-09-06 21:05:48 EDT |
