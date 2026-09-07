@@ -22,4 +22,10 @@ dispatch-launch: add %dispatch:<machine> to the dual-sourced directive vocabular
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 0 |
+| [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`50b1405`](https://github.com/sase-org/sase/commit/50b1405f4268eae9e84302bb3f32bc429fe09d85) | feat(dispatch): launch agents on remote machines | [sase-xe.12](sase-xe.12.md) | 2026-09-07 02:32:38 EDT |
