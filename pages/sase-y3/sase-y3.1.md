@@ -17,7 +17,7 @@ stage-removed-link-indexes: validate deleted per-artifact link-index paths by ca
 
 ## Dependencies
 
-- **Blocks:** [sase-y3.2](sase-y3.2.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y3.2](sase-y3.2.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y3.3](sase-y3.3.md) ◐ · ⧖ 2026-09-07
 
 ## Agents

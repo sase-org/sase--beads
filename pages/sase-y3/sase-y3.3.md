@@ -14,7 +14,7 @@ hidden-clone-machine-writes: add a machine-context artifact-link store resolutio
 ## Dependencies
 
 - **Depends on:** [sase-y3.1](sase-y3.1.md) ✓ · ⧖ 2026-09-07
-- **Depends on:** [sase-y3.2](sase-y3.2.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y3.2](sase-y3.2.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y3.4](sase-y3.4.md) ◐ · ⧖ 2026-09-07
 
 ## Agents

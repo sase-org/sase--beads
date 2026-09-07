@@ -28,7 +28,7 @@ SASE background link maintenance never dirties or commits into the sidecar clone
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-y3.1](sase-y3.1.md) | Make removed link indexes committable | ✓ closed | small | 2026-09-07 | 1 | 1 |
-| [sase-y3.2](sase-y3.2.md) | Authorize before mutating, with honest machine origin | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y3.2](sase-y3.2.md) | Authorize before mutating, with honest machine origin | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y3.3](sase-y3.3.md) | Machine writes move to hidden host-owned sidecar clones | ◐ in_progress | large | 2026-09-07 | 1 | 0 |
 | [sase-y3.4](sase-y3.4.md) | Heal stranded deletions and add a doctor guardrail | ◐ in_progress | small | 2026-09-07 | 1 | 0 |
 
@@ -38,7 +38,7 @@ SASE background link maintenance never dirties or commits into the sidecar clone
 flowchart TD
     n0["sase-y3: Keep machine artifact-link mutations out of primary sidecar clones [in_progress]"]
     n1["sase-y3.1: Make removed link indexes committable [closed]"]
-    n2["sase-y3.2: Authorize before mutating, with honest machine origin [in_progress]"]
+    n2["sase-y3.2: Authorize before mutating, with honest machine origin [closed]"]
     n3["sase-y3.3: Machine writes move to hidden host-owned sidecar clones [in_progress]"]
     n4["sase-y3.4: Heal stranded deletions and add a doctor guardrail [in_progress]"]
     n0 --> n1
@@ -56,7 +56,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-y3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.1/README.md) | [sase-y3.1](sase-y3.1.md) | 1 |
-| [bbugyi200.athena.sase-y3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.2/README.md) | [sase-y3.2](sase-y3.2.md) | 0 |
+| [bbugyi200.athena.sase-y3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.2/README.md) | [sase-y3.2](sase-y3.2.md) | 1 |
 | [bbugyi200.athena.sase-y3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.3/README.md) | [sase-y3.3](sase-y3.3.md) | 0 |
 | [bbugyi200.athena.sase-y3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.4/README.md) | [sase-y3.4](sase-y3.4.md) | 0 |
 | [bbugyi200.athena.sase-y3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.land/README.md) | [sase-y3](README.md) | 0 |
@@ -66,3 +66,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ec6bc4a`](https://github.com/sase-org/sase/commit/ec6bc4a422f56b8fa45dc809f26cc8f6ea7c3e33) | fix(artifact-links): commit removed link indexes | [sase-y3.1](sase-y3.1.md) | 2026-09-07 15:41:02 EDT |
+| sase | [`87f4cf1`](https://github.com/sase-org/sase/commit/87f4cf1416da9963e599e4e3fc0e04eeef64b6b5) | fix(sdd): gate background artifact-link writers on machine writability | [sase-y3.2](sase-y3.2.md) | 2026-09-07 18:09:28 EDT |
