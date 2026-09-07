@@ -13,7 +13,7 @@ priority-tui: Add duration and clear controls, priority and backup presentation,
 
 ## Dependencies
 
-- **Depends on:** [sase-xf.2](sase-xf.2.md) ◐ · ⧖ 2026-09-06
+- **Depends on:** [sase-xf.2](sase-xf.2.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

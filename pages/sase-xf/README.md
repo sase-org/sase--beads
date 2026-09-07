@@ -28,7 +28,7 @@ Let users temporarily favor one provider in model alias pools through Provider R
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-xf.1](sase-xf.1.md) | Add provider priority state and policy to Rust core | ✓ closed | medium | 2026-09-06 | 1 | 1 |
-| [sase-xf.2](sase-xf.2.md) | Integrate provider priority into routing and cached previews | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
+| [sase-xf.2](sase-xf.2.md) | Integrate provider priority into routing and cached previews | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xf.3](sase-xf.3.md) | Ship the prioritize interaction and visual treatment | ◐ in_progress | medium | 2026-09-06 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ Let users temporarily favor one provider in model alias pools through Provider R
 flowchart TD
     n0["sase-xf: Temporary provider priority in Provider Routing [in_progress]"]
     n1["sase-xf.1: Add provider priority state and policy to Rust core [closed]"]
-    n2["sase-xf.2: Integrate provider priority into routing and cached previews [in_progress]"]
+    n2["sase-xf.2: Integrate provider priority into routing and cached previews [closed]"]
     n3["sase-xf.3: Ship the prioritize interaction and visual treatment [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.1/README.md) | [sase-xf.1](sase-xf.1.md) | 1 |
-| [bbugyi200.athena.sase-xf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.2/README.md) | [sase-xf.2](sase-xf.2.md) | 0 |
+| [bbugyi200.athena.sase-xf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.2/README.md) | [sase-xf.2](sase-xf.2.md) | 1 |
 | [bbugyi200.athena.sase-xf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.3/README.md) | [sase-xf.3](sase-xf.3.md) | 0 |
 | [bbugyi200.athena.sase-xf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.land/README.md) | [sase-xf](README.md) | 0 |
 
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@08c4c84`](https://github.com/sase-org/sase-core/commit/08c4c84044f533204d92779c8a6f9f023dee5a8a) | feat(provider): add provider priority core policy | [sase-xf.1](sase-xf.1.md) | 2026-09-06 15:03:30 EDT |
+| sase | [`24ac549`](https://github.com/sase-org/sase/commit/24ac549dd1a6079081fd8fbd216e65689abb9405) | feat: integrate provider priority routing context | [sase-xf.2](sase-xf.2.md) | 2026-09-06 22:44:15 EDT |

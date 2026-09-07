@@ -17,7 +17,7 @@ priority-core: Add independent priority persistence, coherent routing snapshots,
 
 ## Dependencies
 
-- **Blocks:** [sase-xf.2](sase-xf.2.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xf.2](sase-xf.2.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
