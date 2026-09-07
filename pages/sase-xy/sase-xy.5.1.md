@@ -20,4 +20,4 @@ document-targets: add the Rust document-link scanner and binding contract, separ
 ## Dependencies
 
 - **Blocks:** [sase-xy.5.2](sase-xy.5.2.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-xy.5.3](sase-xy.5.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.3](sase-xy.5.3.md) ✓ · ⧖ 2026-09-07

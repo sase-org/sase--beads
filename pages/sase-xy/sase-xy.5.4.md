@@ -13,7 +13,7 @@ rendered-link-contract: build the screenshot regression corpus and real scanner-
 
 ## Dependencies
 
-- **Depends on:** [sase-xy.5.3](sase-xy.5.3.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-xy.5.3](sase-xy.5.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

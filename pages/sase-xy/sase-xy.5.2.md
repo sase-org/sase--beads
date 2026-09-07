@@ -20,7 +20,7 @@ repository-resolution: add shared provenance and repository-aware candidate sele
 ## Dependencies
 
 - **Depends on:** [sase-xy.5.1](sase-xy.5.1.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-xy.5.3](sase-xy.5.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.3](sase-xy.5.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
