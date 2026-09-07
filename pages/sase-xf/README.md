@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.1/README.md) | [sase-xf.1](sase-xf.1.md) | 1 |
 | [bbugyi200.athena.sase-xf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.2/README.md) | [sase-xf.2](sase-xf.2.md) | 1 |
 | [bbugyi200.athena.sase-xf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.3/README.md) | [sase-xf.3](sase-xf.3.md) | 1 |
-| [bbugyi200.athena.sase-xf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xf.land/README.md) | [sase-xf](README.md) | 0 |
+| [bbugyi200.athena.sase-xf.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xf.land.md) | [sase-xf](README.md) | 1 |
 
 ## Commits
 
@@ -62,3 +62,4 @@ flowchart TD
 | sase-core | [`sase-core@08c4c84`](https://github.com/sase-org/sase-core/commit/08c4c84044f533204d92779c8a6f9f023dee5a8a) | feat(provider): add provider priority core policy | [sase-xf.1](sase-xf.1.md) | 2026-09-06 15:03:30 EDT |
 | sase | [`24ac549`](https://github.com/sase-org/sase/commit/24ac549dd1a6079081fd8fbd216e65689abb9405) | feat: integrate provider priority routing context | [sase-xf.2](sase-xf.2.md) | 2026-09-06 22:44:15 EDT |
 | sase | [`b4e9e8a`](https://github.com/sase-org/sase/commit/b4e9e8a0b5fa4041ec6b5bde1344c831b7141240) | feat(ace): ship provider priority controls | [sase-xf.3](sase-xf.3.md) | 2026-09-07 00:58:14 EDT |
+| sase | [`5db3185`](https://github.com/sase-org/sase/commit/5db318521be61fd497dbbc94929d820f9e6f074e) | fix(tui): show unavailable provider priorities | [sase-xf](README.md) | 2026-09-07 01:42:10 EDT |
