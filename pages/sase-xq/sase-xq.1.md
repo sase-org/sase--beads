@@ -17,7 +17,7 @@ core-link-replay-parity: remove the mutation-side updated_at bump on bead link a
 
 ## Dependencies
 
-- **Blocks:** [sase-xq.3](sase-xq.3.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xq.3](sase-xq.3.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 

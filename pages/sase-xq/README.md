@@ -29,7 +29,7 @@ Regenerating issues.jsonl from bead event streams is byte-stable in every worksp
 |---|---|---|---|---|---:|---:|
 | [sase-xq.1](sase-xq.1.md) | Align link mutation and replay in sase-core | ✓ closed | small | 2026-09-06 | 1 | 1 |
 | [sase-xq.2](sase-xq.2.md) | Auto-commit proven reprojection-only beads diffs | ✓ closed | medium | 2026-09-06 | 1 | 1 |
-| [sase-xq.3](sase-xq.3.md) | Settle the shared beads store and require the fixed core | ◐ in_progress | small | 2026-09-06 | 1 | 0 |
+| [sase-xq.3](sase-xq.3.md) | Settle the shared beads store and require the fixed core | ✓ closed | small | 2026-09-06 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["sase-xq: Bead projection determinism fix [in_progress]"]
     n1["sase-xq.1: Align link mutation and replay in sase-core [closed]"]
     n2["sase-xq.2: Auto-commit proven reprojection-only beads diffs [closed]"]
-    n3["sase-xq.3: Settle the shared beads store and require the fixed core [in_progress]"]
+    n3["sase-xq.3: Settle the shared beads store and require the fixed core [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -51,7 +51,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-xq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.1/README.md) | [sase-xq.1](sase-xq.1.md) | 1 |
 | [bbugyi200.athena.sase-xq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.2/README.md) | [sase-xq.2](sase-xq.2.md) | 1 |
-| [bbugyi200.athena.sase-xq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.3/README.md) | [sase-xq.3](sase-xq.3.md) | 0 |
+| [bbugyi200.athena.sase-xq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.3/README.md) | [sase-xq.3](sase-xq.3.md) | 1 |
 | [bbugyi200.athena.sase-xq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xq.land/README.md) | [sase-xq](README.md) | 0 |
 
 ## Commits
@@ -60,3 +60,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@530a1c0`](https://github.com/sase-org/sase-core/commit/530a1c0d0b6724758e7d7fb4406fc2955808454c) | fix(beads): align link mutation replay projection | [sase-xq.1](sase-xq.1.md) | 2026-09-06 17:29:14 EDT |
 | sase | [`4093493`](https://github.com/sase-org/sase/commit/4093493a4c504e1e4cb7d96c3cb135709085901d) | fix(finalizers): auto-commit bead reprojections | [sase-xq.2](sase-xq.2.md) | 2026-09-06 19:15:52 EDT |
+| sase | [`4c3dace`](https://github.com/sase-org/sase/commit/4c3dace967966f1ef544a539f4922fc7236bd6a5) | fix(build): require fixed core and install lsp from isolated target | [sase-xq.3](sase-xq.3.md) | 2026-09-06 20:20:33 EDT |
