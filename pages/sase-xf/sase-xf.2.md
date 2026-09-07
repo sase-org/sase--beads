@@ -18,7 +18,7 @@ priority-routing: Add typed Python adapters, one captured routing context per re
 ## Dependencies
 
 - **Depends on:** [sase-xf.1](sase-xf.1.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xf.3](sase-xf.3.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xf.3](sase-xf.3.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
