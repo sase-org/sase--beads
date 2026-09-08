@@ -17,7 +17,7 @@ capacity-domain: Implement the Rust observation and public read contracts, valid
 
 ## Dependencies
 
-- **Blocks:** [sase-y5.2](sase-y5.2.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.2](sase-y5.2.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

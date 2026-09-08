@@ -30,8 +30,8 @@ Let subscription users inspect remaining provider allowances, their scope, reset
 | [sase-y5.1](sase-y5.1.md) | Define the shared subscription capacity model | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.10](sase-y5.10.md) | Show scoped capacity hints where users choose providers | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
-| [sase-y5.2](sase-y5.2.md) | Persist observations and fence stale writers | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
-| [sase-y5.3](sase-y5.3.md) | Add the provider extension and bounded probe runtime | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.2](sase-y5.2.md) | Persist observations and fence stale writers | ✓ closed | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.3](sase-y5.3.md) | Add the provider extension and bounded probe runtime | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.5](sase-y5.5.md) | Collect Codex subscription windows through app-server | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.6](sase-y5.6.md) | Collect Grok subscription allowance through ACP | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
@@ -47,8 +47,8 @@ flowchart TD
     n1["sase-y5.1: Define the shared subscription capacity model [closed]"]
     n2["sase-y5.10: Show scoped capacity hints where users choose providers [in_progress]"]
     n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [in_progress]"]
-    n4["sase-y5.2: Persist observations and fence stale writers [in_progress]"]
-    n5["sase-y5.3: Add the provider extension and bounded probe runtime [in_progress]"]
+    n4["sase-y5.2: Persist observations and fence stale writers [closed]"]
+    n5["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
     n6["sase-y5.4: Collect Claude subscription windows and passive updates [in_progress]"]
     n7["sase-y5.5: Collect Codex subscription windows through app-server [in_progress]"]
     n8["sase-y5.6: Collect Grok subscription allowance through ACP [in_progress]"]
@@ -88,8 +88,8 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.1/README.md) | [sase-y5.1](sase-y5.1.md) | 1 |
 | [bbugyi200.athena.sase-y5.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.10/README.md) | [sase-y5.10](sase-y5.10.md) | 0 |
 | [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 0 |
-| [bbugyi200.athena.sase-y5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.2/README.md) | [sase-y5.2](sase-y5.2.md) | 0 |
-| [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 0 |
+| [bbugyi200.athena.sase-y5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y5.2.md) | [sase-y5.2](sase-y5.2.md) | 0 |
+| [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 1 |
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 0 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 0 |
 | [bbugyi200.athena.sase-y5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.6/README.md) | [sase-y5.6](sase-y5.6.md) | 0 |
@@ -103,3 +103,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@07bd3bc`](https://github.com/sase-org/sase-core/commit/07bd3bc80be6cefba3643a36b74c1ebf2f6e6b20) | feat(provider-usage): add observation and public read contracts | [sase-y5.1](sase-y5.1.md) | 2026-09-07 16:55:07 EDT |
+| sase | [`502b3e7`](https://github.com/sase-org/sase/commit/502b3e7675b88110f91f88135562d4ad854f89cf) | feat(llm): add subscription usage probe runtime and beta flag | [sase-y5.3](sase-y5.3.md) | 2026-09-08 06:30:00 EDT |
