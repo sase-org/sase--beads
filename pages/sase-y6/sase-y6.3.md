@@ -20,7 +20,7 @@ panel: render +1 badges and an evidence section in the ACE notification modal, a
 ## Dependencies
 
 - **Depends on:** [sase-y6.2](sase-y6.2.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y6.5](sase-y6.5.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y6.5](sase-y6.5.md) ○ · ⧖ 2026-09-07
 
 ## Agents
 
