@@ -127,7 +127,7 @@ flowchart TD
     n11["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [in_progress]"]
     n12["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [in_progress]"]
     n13["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [in_progress]"]
-    n14["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [in_progress]"]
+    n14["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
     n15["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [in_progress]"]
     n16["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
     n17["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [in_progress]"]
@@ -208,14 +208,14 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md) | [sase-xe.13](sase-xe.13.md) | 2 |
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.14.md) | [sase-xe.14](sase-xe.14.md) | 2 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.15.md) | [sase-xe.15](sase-xe.15.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.10/README.md) | [sase-xe.16.10](sase-xe.16.10.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.6/README.md) | [sase-xe.16.6](sase-xe.16.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.land/README.md) | [sase-xe.16](sase-xe.16.md) | 0 |
@@ -253,6 +253,9 @@ flowchart TD
 | sase | [`ac1ba1b`](https://github.com/sase-org/sase/commit/ac1ba1be92a6d3f082d4082436617c43443f692e) | feat: Fleet-wide acceptance, flag removal, and polish (sase-xe.15) | [sase-xe.15](sase-xe.15.md) | 2026-09-07 17:17:28 EDT |
 | sase | [`8e00e74`](https://github.com/sase-org/sase/commit/8e00e742be932d81064cb69bc5aa3b417023b4e6) | feat(dispatch): integrate and harden remote dispatch during the sase-xe landing | [sase-xe](README.md) | 2026-09-07 21:09:26 EDT |
 | sase-core | [`sase-core@65203fc`](https://github.com/sase-org/sase-core/commit/65203fc3b851a71a9925df79e02396435b15d2ef) | feat(editor): drop the removed remote\_dispatch directive gate (sase-xe) | [sase-xe](README.md) | 2026-09-07 21:16:24 EDT |
+| sase | [`8c4f8fd`](https://github.com/sase-org/sase/commit/8c4f8fd22ae92ddb1e56e67c13778673476aa79d) | test(tui): add offline fleet refresh fixture | [sase-xe.16.7](sase-xe.16.7.md) | 2026-09-08 10:49:43 EDT |
+| sase-core | [`sase-core@9adb209`](https://github.com/sase-org/sase-core/commit/9adb209f95ab67a83b6bfe39303a065dd232ec33) | feat(gateway): expose fleet setup surface | [sase-xe.16.1](sase-xe.16.1.md) | 2026-09-08 11:22:18 EDT |
+| sase | [`f081f23`](https://github.com/sase-org/sase/commit/f081f23038f4bb21170cc7860c24e5894ab36616) | feat(dispatch): isolate third-party provider hooks | [sase-xe.16.5](sase-xe.16.5.md) | 2026-09-08 11:29:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

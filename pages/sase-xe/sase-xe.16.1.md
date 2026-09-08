@@ -24,4 +24,10 @@ core-fleet-surface: in sase-core, make a normally installed wheel a usable dispa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@9adb209`](https://github.com/sase-org/sase-core/commit/9adb209f95ab67a83b6bfe39303a065dd232ec33) | feat(gateway): expose fleet setup surface | [sase-xe.16.1](sase-xe.16.1.md) | 2026-09-08 11:22:18 EDT |
