@@ -122,7 +122,7 @@ flowchart TD
     n6["sase-xe.14: Remote questions, gates, and notification deduplication [closed]"]
     n7["sase-xe.15: Fleet-wide acceptance, flag removal, and polish [closed]"]
     n8["sase-xe.16: Complete remote dispatch - target bootstrap, tailnet discovery, canonical machine init, and the live Apollo proof [in_progress]"]
-    n9["sase-xe.16.1: Package the gateway, bind bootstrap issuance, advertise fleet protocol [in_progress]"]
+    n9["sase-xe.16.1: Package the gateway, bind bootstrap issuance, advertise fleet protocol [closed]"]
     n10["sase-xe.16.10: Runbook plus live Athena-to-Apollo end-to-end proof [in_progress]"]
     n11["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [in_progress]"]
     n12["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [in_progress]"]
@@ -215,9 +215,9 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.6/README.md) | [sase-xe.16.6](sase-xe.16.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.9/README.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.land/README.md) | [sase-xe.16](sase-xe.16.md) | 0 |
 | [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 1 |
@@ -253,7 +253,6 @@ flowchart TD
 | sase | [`ac1ba1b`](https://github.com/sase-org/sase/commit/ac1ba1be92a6d3f082d4082436617c43443f692e) | feat: Fleet-wide acceptance, flag removal, and polish (sase-xe.15) | [sase-xe.15](sase-xe.15.md) | 2026-09-07 17:17:28 EDT |
 | sase | [`8e00e74`](https://github.com/sase-org/sase/commit/8e00e742be932d81064cb69bc5aa3b417023b4e6) | feat(dispatch): integrate and harden remote dispatch during the sase-xe landing | [sase-xe](README.md) | 2026-09-07 21:09:26 EDT |
 | sase-core | [`sase-core@65203fc`](https://github.com/sase-org/sase-core/commit/65203fc3b851a71a9925df79e02396435b15d2ef) | feat(editor): drop the removed remote\_dispatch directive gate (sase-xe) | [sase-xe](README.md) | 2026-09-07 21:16:24 EDT |
-| sase | [`8c4f8fd`](https://github.com/sase-org/sase/commit/8c4f8fd22ae92ddb1e56e67c13778673476aa79d) | test(tui): add offline fleet refresh fixture | [sase-xe.16.7](sase-xe.16.7.md) | 2026-09-08 10:49:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

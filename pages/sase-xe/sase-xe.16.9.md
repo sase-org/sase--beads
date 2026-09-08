@@ -19,4 +19,4 @@ fleet-perf-faults: extend the j/k agents bench suite with fleet scenarios - a hu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.9/README.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
