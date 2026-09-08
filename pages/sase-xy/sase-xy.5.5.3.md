@@ -14,7 +14,7 @@ clean-install-contract: publish or consume the completed core contract, ratchet 
 ## Dependencies
 
 - **Depends on:** [sase-xy.5.5.1](sase-xy.5.5.1.md) ✓ · ⧖ 2026-09-07
-- **Depends on:** [sase-xy.5.5.2](sase-xy.5.5.2.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-xy.5.5.2](sase-xy.5.5.2.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

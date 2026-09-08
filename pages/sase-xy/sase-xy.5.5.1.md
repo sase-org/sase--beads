@@ -19,7 +19,7 @@ repository-target-contract: make source-directory, checkout identity, revision, 
 
 ## Dependencies
 
-- **Blocks:** [sase-xy.5.5.2](sase-xy.5.5.2.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.5.2](sase-xy.5.5.2.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-xy.5.5.3](sase-xy.5.5.3.md) ◐ · ⧖ 2026-09-07
 
 ## Agents
