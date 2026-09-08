@@ -18,7 +18,7 @@ core-fleet-surface: in sase-core, make a normally installed wheel a usable dispa
 ## Dependencies
 
 - **Blocks:** [sase-xe.16.2](sase-xe.16.2.md) ◐ · ⧖ 2026-09-08
-- **Blocks:** [sase-xe.16.3](sase-xe.16.3.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-xe.16.3](sase-xe.16.3.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 
