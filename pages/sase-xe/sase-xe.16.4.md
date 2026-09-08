@@ -17,7 +17,7 @@ tailnet-discovery: implement `BuiltinDispatchProviders.dispatch_discover` for re
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.6](sase-xe.16.6.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-xe.16.6](sase-xe.16.6.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 

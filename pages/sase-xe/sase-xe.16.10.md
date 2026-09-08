@@ -15,7 +15,7 @@ live-apollo-proof: write the target-preparation runbook (docs/) covering support
 
 - **Depends on:** [sase-xe.16.2](sase-xe.16.2.md) ✓ · ⧖ 2026-09-08
 - **Depends on:** [sase-xe.16.3](sase-xe.16.3.md) ✓ · ⧖ 2026-09-08
-- **Depends on:** [sase-xe.16.6](sase-xe.16.6.md) ◐ · ⧖ 2026-09-08
+- **Depends on:** [sase-xe.16.6](sase-xe.16.6.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 

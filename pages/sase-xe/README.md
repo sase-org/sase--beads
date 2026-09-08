@@ -128,7 +128,7 @@ flowchart TD
     n12["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
     n13["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [closed]"]
     n14["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
-    n15["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [in_progress]"]
+    n15["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [closed]"]
     n16["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
     n17["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [closed]"]
     n18["sase-xe.16.9: Fleet benches under faults and the remaining failure-table tests [closed]"]
@@ -214,7 +214,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.6/README.md) | [sase-xe.16.6](sase-xe.16.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.6.md) | [sase-xe.16.6](sase-xe.16.6.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 1 |
@@ -261,6 +261,7 @@ flowchart TD
 | sase | [`7ee2e51`](https://github.com/sase-org/sase/commit/7ee2e51778692064bb4bc588c07a943b616475b1) | feat(fleet): harden fault refresh performance coverage | [sase-xe.16.9](sase-xe.16.9.md) | 2026-09-08 13:27:02 EDT |
 | sase | [`5015d76`](https://github.com/sase-org/sase/commit/5015d76e9561cc68e0526627473aef9e159bc647) | chore(deps): ratchet sase-core pin and floor | [sase-xe.16.2](sase-xe.16.2.md) | 2026-09-08 13:33:48 EDT |
 | sase | [`ace9e2c`](https://github.com/sase-org/sase/commit/ace9e2cd468ff998b1a3b849ea3f7adf12820231) | feat(dispatch): discover tailnet machines | [sase-xe.16.4](sase-xe.16.4.md) | 2026-09-08 16:44:35 EDT |
+| sase | [`338e3b3`](https://github.com/sase-org/sase/commit/338e3b349e131797f122bff3e5fd8583279ca913) | feat(machine): add canonical sase machine init with verified activation | [sase-xe.16.6](sase-xe.16.6.md) | 2026-09-08 17:47:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
