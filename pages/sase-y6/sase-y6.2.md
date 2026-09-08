@@ -22,7 +22,7 @@ cli: mirror the new wire in Python, add the notify +1 subcommand and create dedu
 ## Dependencies
 
 - **Depends on:** [sase-y6.1](sase-y6.1.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y6.3](sase-y6.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y6.3](sase-y6.3.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y6.4](sase-y6.4.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
