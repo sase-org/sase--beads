@@ -31,7 +31,7 @@ A repeated CI failure adds a quiet, visible +1 note to its existing notification
 | [sase-y6.2](sase-y6.2.md) | sase notify +1 and create upsert | ✓ closed | medium | 2026-09-07 | 1 | 0 |
 | [sase-y6.3](sase-y6.3.md) | Notification panel +1 badges and iteration | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y6.4](sase-y6.4.md) | ci\_watch incident-combination notifications | ✓ closed | medium | 2026-09-07 | 1 | 0 |
-| [sase-y6.5](sase-y6.5.md) | Integrated verification and config alignment | ○ open | small | 2026-09-07 | 1 | 1 |
+| [sase-y6.5](sase-y6.5.md) | Integrated verification and config alignment | ○ open | small | 2026-09-07 | 1 | 2 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.2/README.md) | [sase-y6.2](sase-y6.2.md) | 0 |
 | [bbugyi200.athena.sase-y6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.3/README.md) | [sase-y6.3](sase-y6.3.md) | 1 |
 | [bbugyi200.athena.sase-y6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.4/README.md) | [sase-y6.4](sase-y6.4.md) | 0 |
-| [bbugyi200.athena.sase-y6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.5/README.md) | [sase-y6.5](sase-y6.5.md) | 1 |
+| [bbugyi200.athena.sase-y6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.5/README.md) | [sase-y6.5](sase-y6.5.md) | 2 |
 | [bbugyi200.athena.sase-y6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y6.land/README.md) | [sase-y6](README.md) | 0 |
 
 ## Commits
@@ -73,3 +73,4 @@ flowchart TD
 | sase-core | [`sase-core@a86bb91`](https://github.com/sase-org/sase-core/commit/a86bb91bf4978925d98b877688af3298fe408d96) | feat(notifications): add plus-one entries, dedup key, and create-or-plus-one upsert | [sase-y6.1](sase-y6.1.md) | 2026-09-07 17:39:43 EDT |
 | sase | [`5665525`](https://github.com/sase-org/sase/commit/5665525e7f27d90cf2898ca75de9982537267c4d) | feat(notifications): render +1 badges and iterate evidence in the ACE panel | [sase-y6.3](sase-y6.3.md) | 2026-09-08 06:26:37 EDT |
 | sase | [`9abf472`](https://github.com/sase-org/sase/commit/9abf4724ce37b0a3e580c628f4fd9fbf5e9a1b57) | feat(notifications): add +1 badge CLI and split notification store into facade/wire/catalog layers | [sase-y6.5](sase-y6.5.md) | 2026-09-08 06:55:08 EDT |
+| chezmoi | [`chezmoi@e0d428a`](https://github.com/bbugyi200/dotfiles/commit/e0d428a444fec1ff3a4ace7d821349736b73b91e) | chore(sase): add athena notification config for the +1 badge feature | [sase-y6.5](sase-y6.5.md) | 2026-09-08 06:57:31 EDT |
