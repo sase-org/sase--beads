@@ -23,6 +23,18 @@
 
 Let subscription users inspect remaining provider allowances, their scope, resets, and freshness through an extensible shared backend, CLI, and responsive ACE experience.
 
+## Notes
+
+[2026-09-08T12:51:28Z · sase-y3.land--1] DISCOVERED ISSUE (found by the sase-y3 land agent while completing the two check-full steps that never ran after test-cost failed): phase sase-y5.2's commit b0f6f4f11 'feat: Persist observations and fence stale writers (sase-y5.2)' made tests/reproducible_flake_baseline.txt malformed, so check-full's final gate errors out on every tree.
+
+SYMPTOM: just selection-health --fail-on-new-flake exits 2 with 'flake baseline gate: tests/reproducible_flake_baseline.txt:410: duplicate fixed-at entry for tests/test_xprompt_directive_completion_parity.py::test_ace_and_lsp_directive_name_rows_match'. This is load_flake_baseline() raising ValueError, i.e. the gate cannot judge flakes at all -- it is a parse failure, not a new-flake verdict.
+
+EVIDENCE: the node now has two fixed-at lines -- line 239 (2026-09-08T00:21:54Z, added by b0f6f4f11) and line 410 (2026-09-08T00:40:36Z, added earlier by 8e00e742b 'feat(dispatch): integrate and harden remote dispatch during the sase-xe landing'). Count of matching fixed-at lines by revision: 8e00e742b -> 1, ddbd1b10a -> 1, b0f6f4f11^ -> 1, b0f6f4f11 -> 2, HEAD (63f385c9a) -> 2. b0f6f4f11 is the commit that introduced the collision. Its own block comment at lines 407-408 asserts 'directive_name_rows_match's earlier sase-s6 fixed-at line was removed rather than duplicated; this instant is a strict superset', so the intended dedup did not happen -- note the surviving duplicate is the OLDER-timestamped line the new commit added, so decide deliberately which line to keep rather than assuming the newer one wins.
+
+NOT CAUSED BY sase-y3: tests/reproducible_flake_baseline.txt is unmodified in the sase-y3 landing tree (git status clean for that path); the defect reproduces at committed HEAD.
+
+FIX: remove the redundant fixed-at line so exactly one remains for that node, and re-run just selection-health --fail-on-new-flake to confirm it reaches a real verdict instead of exit 2.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,10 +44,10 @@ Let subscription users inspect remaining provider allowances, their scope, reset
 | [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.2](sase-y5.2.md) | Persist observations and fence stale writers | ✓ closed | medium | 2026-09-07 | 0 | 2 |
 | [sase-y5.3](sase-y5.3.md) | Add the provider extension and bounded probe runtime | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ✓ closed | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.5](sase-y5.5.md) | Collect Codex subscription windows through app-server | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.6](sase-y5.6.md) | Collect Grok subscription allowance through ACP | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.8](sase-y5.8.md) | Expose cached usage and explicit refresh in the CLI | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.9](sase-y5.9.md) | Add a read-only Usage view to the Providers home | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 
@@ -49,10 +61,10 @@ flowchart TD
     n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [in_progress]"]
     n4["sase-y5.2: Persist observations and fence stale writers [closed]"]
     n5["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
-    n6["sase-y5.4: Collect Claude subscription windows and passive updates [in_progress]"]
+    n6["sase-y5.4: Collect Claude subscription windows and passive updates [closed]"]
     n7["sase-y5.5: Collect Codex subscription windows through app-server [closed]"]
     n8["sase-y5.6: Collect Grok subscription allowance through ACP [closed]"]
-    n9["sase-y5.7: Supervise and coalesce refreshes across clients [in_progress]"]
+    n9["sase-y5.7: Supervise and coalesce refreshes across clients [closed]"]
     n10["sase-y5.8: Expose cached usage and explicit refresh in the CLI [in_progress]"]
     n11["sase-y5.9: Add a read-only Usage view to the Providers home [in_progress]"]
     n0 --> n1
@@ -92,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 0 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
 | [bbugyi200.athena.sase-y5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.6/README.md) | [sase-y5.6](sase-y5.6.md) | 1 |
-| [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 0 |
+| [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 1 |
 | [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 0 |
 | [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 0 |
 | [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.land/README.md) | [sase-y5](README.md) | 0 |
@@ -107,3 +119,4 @@ flowchart TD
 | sase-core | [`sase-core@0c26b04`](https://github.com/sase-org/sase-core/commit/0c26b043da326c081863ed67833cb044a827dfdf) | feat: Persist observations and fence stale writers (sase-y5.2) | [sase-y5.2](sase-y5.2.md) | 2026-09-08 06:57:42 EDT |
 | sase | [`63f385c`](https://github.com/sase-org/sase/commit/63f385c9a626872840b6e74f6b8c32211944a8fa) | feat(llm): add Codex subscription usage collector | [sase-y5.5](sase-y5.5.md) | 2026-09-08 07:49:20 EDT |
 | sase | [`0f71004`](https://github.com/sase-org/sase/commit/0f71004c5a4aaf12558d6b50934eec602e15084d) | feat(llm): collect Grok subscription allowance through ACP | [sase-y5.6](sase-y5.6.md) | 2026-09-08 07:55:21 EDT |
+| sase | [`a0ac015`](https://github.com/sase-org/sase/commit/a0ac015e0bda1d0cc1e1eeb859e92e2f0314cdfe) | feat(llm): add shared subscription usage refresh service | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:23:27 EDT |

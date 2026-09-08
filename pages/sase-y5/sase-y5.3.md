@@ -20,10 +20,10 @@ probe-runtime: Add optional dynamic usage hooks, typed probe contexts/results, p
 ## Dependencies
 
 - **Depends on:** [sase-y5.2](sase-y5.2.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y5.4](sase-y5.4.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.4](sase-y5.4.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y5.5](sase-y5.5.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y5.6](sase-y5.6.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y5.7](sase-y5.7.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.7](sase-y5.7.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

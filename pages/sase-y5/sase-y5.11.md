@@ -14,7 +14,7 @@ usage-release: Integrate all collectors and surfaces, run adversarial end-to-end
 ## Dependencies
 
 - **Depends on:** [sase-y5.10](sase-y5.10.md) ◐ · ⧖ 2026-09-07
-- **Depends on:** [sase-y5.4](sase-y5.4.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y5.4](sase-y5.4.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.5](sase-y5.5.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.6](sase-y5.6.md) ✓ · ⧖ 2026-09-07
 
