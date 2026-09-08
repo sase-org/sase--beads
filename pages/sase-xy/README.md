@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-xy
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.01q](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.01q.md) · **Assignee:** `sase-xy.land`
-**Created:** 2026-09-07 10:02:18 EDT
+**Created:** 2026-09-07 10:02:18 EDT · **Closed:** 2026-09-08 02:04:51 EDT
 **Plan:** [202609/pager\_link\_reliability.md](https://github.com/sase-org/sase--plans/blob/main/202609/pager_link_reliability.md)
 
 <!-- sase:links:start -->
@@ -29,6 +29,8 @@ Pager link presses land on the file or artifact the text's author meant: file pa
 
 [2026-09-07T19:00:23Z · sase-xy.4.land--1] NESTED LANDING BLOCKER after sase-xy.4 closed: rechecked the parent landing note, every current descendant and note, plan:202609/pager_link_reliability.md, current origin/master drift through a9f95ca5e, and the parent epic-symbol ledger. The correction child sase-xy.4 is closed and its plan is done; post-close just symvision passes and sase-xy has no epic-symbol entries. Parent sase-xy cannot close yet because sibling child epic sase-xy.5 remains in_progress: only phase 5.1 is closed, while repository-resolution 5.2, pager-integration 5.3, and rendered-link-contract 5.4 are still in_progress. Its phase 5.1 also has a PROPOSED FOLLOW-UP for stale pending_actions Symvision URI pragmas that its own land agent must triage. The parent plan therefore remains active; resume its landing audit after sase-xy.5 closes.
 
+[2026-09-08T06:04:51Z · sase-xy.5.5.4.land--1] LAND COMPLETE (2026-09-08), resuming the landing paused by note #1 and blocked by note #2. All three phases (sase-xy.1-.3) and both child epics (sase-xy.4, sase-xy.5) are CLOSED, with sase-xy.5's own remediation child sase-xy.5.5 and grandchild sase-xy.5.5.4 closed in this same landing pass; note #2's stated blocker (sase-xy.5 in_progress with phases 5.2-5.4 open) no longer holds. Re-verified note #1's four epic-caused defects against current source: (a) one-search-per-anchor is restored - resolve.py builds the toast from the already-computed owned-source result via owned_source_unresolved_message(last_path, last) instead of re-running the suffix search; (b) merge_link_context is documented and implemented as pure in-memory combination that does not stat, resolve, or normalize directories; (c) ACE _prepare_view_input is now only a UI-thread validation/snapshot step, with document construction moved behind asyncio.to_thread in build_pager_document; (d) _dangling_ref_key includes anchor.workspace_num in its identity tuple. Rechecked plan:202609/pager_link_reliability.md and all descendant notes; no descendant left an unaddressed PROPOSED FOLLOW-UP. Follow-up outcomes stand as recorded and no duplicates were filed: the sase-xy.1 proposal was already fixed by 777ec37dc, stale-SASE_PLAN task sase-vh remains open and corroborated (+1) rather than duplicated, and the bare-directory proposal remains open feature task sase-yb. Pre-existing PNG golden drift stays with open task sase-x5. Post-child drift check: git fetch shows local master identical to origin/master, so no later commit adds an unintegrated pager entry point. sase bead epic-symbols sase-xy is empty and just symvision is clean. Landing gate just check-full passed on the combined tree (exit 0; only advisory test-cost wall-clock entries, no failures).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -41,23 +43,23 @@ Pager link presses land on the file or artifact the text's author meant: file pa
 
 ```mermaid
 flowchart TD
-    n0["sase-xy: Reliable pager links [in_progress]"]
+    n0["sase-xy: Reliable pager links [closed]"]
     n1["sase-xy.1: Context-aware hard search in the resolver [closed]"]
     n2["sase-xy.2: Thread real contexts from every pager entry point [closed]"]
     n3["sase-xy.3: Scanned spans carry line suffixes and shed trailing dots [closed]"]
     n4["sase-xy.4: Finish reliable pager link landing [closed]"]
     n5["sase-xy.4.1: Resolve dead ends once off the event loop [closed]"]
     n6["sase-xy.4.2: Make pager context handling pure and identity-safe [closed]"]
-    n7["sase-xy.5: Preserve pager link identity and resolve targets in their owning repositories [in_progress]"]
+    n7["sase-xy.5: Preserve pager link identity and resolve targets in their owning repositories [closed]"]
     n8["sase-xy.5.1: Parse document links into faithful semantic targets [closed]"]
     n9["sase-xy.5.2: Resolve targets using document ownership and repository identity [closed]"]
     n10["sase-xy.5.3: Carry semantic targets through every pager entry and action [closed]"]
     n11["sase-xy.5.4: Exercise every rendered link through real pager navigation [closed]"]
-    n12["sase-xy.5.5: Complete pager target identity before landing sase-xy.5 [in_progress]"]
+    n12["sase-xy.5.5: Complete pager target identity before landing sase-xy.5 [closed]"]
     n13["sase-xy.5.5.1: Finish repository-owned target selection in Rust core [closed]"]
     n14["sase-xy.5.5.2: Preserve the complete scanner target through pager actions [closed]"]
     n15["sase-xy.5.5.3: Ratchet the binding floor and prove the combined clean-install contract [closed]"]
-    n16["sase-xy.5.5.4: Finish pager target ownership at every action and entry point [in_progress]"]
+    n16["sase-xy.5.5.4: Finish pager target ownership at every action and entry point [closed]"]
     n17["sase-xy.5.5.4.1: Bound source-directory resolution to proved owner provenance [closed]"]
     n18["sase-xy.5.5.4.2: Make pager copy and scanning honor the complete target contract [closed]"]
     n19["sase-xy.5.5.4.3: Publish and ratchet the completed clean-install contract [closed]"]
@@ -113,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.2/README.md) | [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.4.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.4.3.md) | [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) | 1 |
-| [bbugyi200.athena.sase-xy.5.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.land/README.md) | [sase-xy.5.5.4](sase-xy.5.5.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.4.land.md) | [sase-xy.5.5.4](sase-xy.5.5.4.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.land.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.land.md) | [sase-xy.5](sase-xy.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
@@ -139,3 +141,4 @@ flowchart TD
 | sase-core | [`sase-core@d5c0f55`](https://github.com/sase-org/sase-core/commit/d5c0f55d0757391be06821be856c621bb029e174) | fix(artifact-ref): require proved owner provenance for source-directory hits | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:49:13 EDT |
 | sase | [`3763cce`](https://github.com/sase-org/sase/commit/3763cce8fb584b3af323742a062606cbf7afc0e0) | fix(pager): honor owner-scoped copy and freeze configured kinds | [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) | 2026-09-07 23:49:36 EDT |
 | sase | [`ce3d670`](https://github.com/sase-org/sase/commit/ce3d6708714127486f069a04fbba065350e289a6) | chore(deps): ratchet sase-core-rs to 0.32.42 | [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) | 2026-09-08 01:11:21 EDT |
+| sase | [`6b7edb2`](https://github.com/sase-org/sase/commit/6b7edb2dda9b54e0ce6d078ab77a231a895c0057) | fix(pager): freeze configured kinds on the ACE commit manifest | [sase-xy.5.5.4](sase-xy.5.5.4.md) | 2026-09-08 02:06:51 EDT |
