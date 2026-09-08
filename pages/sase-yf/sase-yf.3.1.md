@@ -25,10 +25,11 @@ alias_behavioral_hardening: add the missing widget and catalog coverage for navi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yf.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yf.3.1/README.md) | [sase-yf.3.1](sase-yf.3.1.md) | 1 |
+| [bbugyi200.athena.sase-yf.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yf.3.1/README.md) | [sase-yf.3.1](sase-yf.3.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5620ac0`](https://github.com/sase-org/sase/commit/5620ac028d1a56439705849330f5937946b1fb7b) | fix(model-alias): harden shortcut completion behavior | [sase-yf.3.1](sase-yf.3.1.md) | 2026-09-08 17:10:22 EDT |
+| sase-core | [`sase-core@76145a0`](https://github.com/sase-org/sase-core/commit/76145a0de75e1618a4ffd49c76c254f858fc2393) | fix(model-alias): exclude jinja shortcut regions | [sase-yf.3.1](sase-yf.3.1.md) | 2026-09-08 17:20:31 EDT |
