@@ -20,7 +20,7 @@ usage-refresh: Implement the shared durable refresh service, per-provider admiss
 ## Dependencies
 
 - **Depends on:** [sase-y5.3](sase-y5.3.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y5.8](sase-y5.8.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.8](sase-y5.8.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

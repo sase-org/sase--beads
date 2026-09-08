@@ -39,6 +39,8 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 
 [2026-09-08T14:31:30Z · sase-y6.land--1] DISCOVERED ISSUE (found by the sase-y6 land agent's check-full landing gate): tests/llm_provider/test_grok_usage_probe.py::test_grok_usage_probe_reaps_descendant_processes is flaky — introduced by sase-y5.6 commit 0f71004c5. Evidence: failed once in the full parallel check-full lane (2026-09-08 monitor gjydvdfzbtz0), then on the same unchanged tree serial reruns gave 1 fail / 2 pass ('.venv/bin/python -m pytest tests/llm_provider/test_grok_usage_probe.py::test_grok_usage_probe_reaps_descendant_processes -q'). Failure mode: ValueError int('') at test line 303 — the test waits only for the child pidfile to EXIST, then immediately reads it, racing the fake grok child (tests/llm_provider/fixtures/usage_probe/grok_acp_cli.py) which creates the file before its pid content is flushed. Fix suggestion: write the pidfile atomically (write temp + rename) or poll until the file is non-empty. Suitable for sase-y5.11 (verify phase) to absorb.
 
+[2026-09-08T17:06:49Z · 08z--code] DISCOVERED ISSUE: During pager_bead_links verification on 2026-09-08, just check passed formatting, Ruff, mypy, feature-flag lint, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed at just _lint-symvision because Justfile still whitelists six public usage-refresh symbols under closed phase sase-y5.8: UsageRefreshProviderResult, UsageRefreshReceipt, eligible_usage_providers, mark_usage_refresh_due, run_admitted_refresh, and submit_usage_refresh. Re-running Symvision without those closed-bead --epic-symbol entries shows those six symbols are currently unused by src/sase. This is unrelated to the pager bead-link diff and belongs to the open verify/remove-scaffolding scope of sase-y5.11.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -52,7 +54,7 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 | [sase-y5.5](sase-y5.5.md) | Collect Codex subscription windows through app-server | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.6](sase-y5.6.md) | Collect Grok subscription allowance through ACP | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ✓ closed | medium | 2026-09-07 | 1 | 2 |
-| [sase-y5.8](sase-y5.8.md) | Expose cached usage and explicit refresh in the CLI | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.8](sase-y5.8.md) | Expose cached usage and explicit refresh in the CLI | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.9](sase-y5.9.md) | Add a read-only Usage view to the Providers home | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 
 ## Lineage
@@ -69,7 +71,7 @@ flowchart TD
     n7["sase-y5.5: Collect Codex subscription windows through app-server [closed]"]
     n8["sase-y5.6: Collect Grok subscription allowance through ACP [closed]"]
     n9["sase-y5.7: Supervise and coalesce refreshes across clients [closed]"]
-    n10["sase-y5.8: Expose cached usage and explicit refresh in the CLI [in_progress]"]
+    n10["sase-y5.8: Expose cached usage and explicit refresh in the CLI [closed]"]
     n11["sase-y5.9: Add a read-only Usage view to the Providers home [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -109,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
 | [bbugyi200.athena.sase-y5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.6/README.md) | [sase-y5.6](sase-y5.6.md) | 1 |
 | [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 2 |
-| [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 0 |
+| [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 1 |
 | [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 0 |
 | [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.land/README.md) | [sase-y5](README.md) | 0 |
 
@@ -126,3 +128,4 @@ flowchart TD
 | sase | [`a0ac015`](https://github.com/sase-org/sase/commit/a0ac015e0bda1d0cc1e1eeb859e92e2f0314cdfe) | feat(llm): add shared subscription usage refresh service | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:23:27 EDT |
 | sase-core | [`sase-core@f829e0b`](https://github.com/sase-org/sase-core/commit/f829e0bb8a26d5f96f0977cbc0cdaa8b50bec97d) | feat(provider-usage): add refresh admission, due, and backoff | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:28:56 EDT |
 | sase | [`cc58987`](https://github.com/sase-org/sase/commit/cc58987c2bab268906eb48f8ebe7688637ad8807) | feat(usage): collect Claude subscription windows | [sase-y5.4](sase-y5.4.md) | 2026-09-08 10:42:10 EDT |
+| sase | [`3f9c7b4`](https://github.com/sase-org/sase/commit/3f9c7b451655ec5bb6857b7c0b6bfefffdeac49d) | feat(usage): add cached usage CLI | [sase-y5.8](sase-y5.8.md) | 2026-09-08 13:52:40 EDT |

@@ -14,7 +14,7 @@ providers-usage-ui: Evolve the provider modal into a shared Providers home with 
 ## Dependencies
 
 - **Blocks:** [sase-y5.10](sase-y5.10.md) ◐ · ⧖ 2026-09-07
-- **Depends on:** [sase-y5.8](sase-y5.8.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y5.8](sase-y5.8.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
