@@ -17,7 +17,7 @@ core_alias_shortcut: implement literal-aware trigger detection, replacement plan
 
 ## Dependencies
 
-- **Blocks:** [sase-yf.2](sase-yf.2.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-yf.2](sase-yf.2.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 
