@@ -18,7 +18,7 @@ attention-parity: surface remote question and gate attention in Focus promptly, 
 ## Dependencies
 
 - **Depends on:** [sase-xe.13](sase-xe.13.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-xe.15](sase-xe.15.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-xe.15](sase-xe.15.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
