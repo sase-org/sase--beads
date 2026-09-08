@@ -23,11 +23,10 @@ publication: complete sase-ye by persisting retry state for hidden document side
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 2 |
+| [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`46f7f54`](https://github.com/sase-org/sase/commit/46f7f549ef2edc9d4e7f9136d810786cb9792b48) | fix(sdd): retry unpublished artifact-link sidecars | [sase-yh.3](sase-yh.3.md) | 2026-09-08 16:48:27 EDT |
-| sase-core | [`sase-core@ff0a72e`](https://github.com/sase-org/sase-core/commit/ff0a72e1f060130d34e49af4c8b8ba94666db453) | feat(artifact-link): add publication retry policy | [sase-yh.3](sase-yh.3.md) | 2026-09-08 16:50:16 EDT |
