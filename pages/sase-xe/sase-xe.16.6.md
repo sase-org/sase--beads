@@ -14,7 +14,7 @@ machine-init: add canonical `sase machine init` and refactor `sase init machine`
 ## Dependencies
 
 - **Blocks:** [sase-xe.16.10](sase-xe.16.10.md) ◐ · ⧖ 2026-09-08
-- **Depends on:** [sase-xe.16.4](sase-xe.16.4.md) ◐ · ⧖ 2026-09-08
+- **Depends on:** [sase-xe.16.4](sase-xe.16.4.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 

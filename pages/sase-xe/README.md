@@ -124,13 +124,13 @@ flowchart TD
     n8["sase-xe.16: Complete remote dispatch - target bootstrap, tailnet discovery, canonical machine init, and the live Apollo proof [in_progress]"]
     n9["sase-xe.16.1: Package the gateway, bind bootstrap issuance, advertise fleet protocol [closed]"]
     n10["sase-xe.16.10: Runbook plus live Athena-to-Apollo end-to-end proof [in_progress]"]
-    n11["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [in_progress]"]
+    n11["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
     n12["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
-    n13["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [in_progress]"]
+    n13["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [closed]"]
     n14["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
     n15["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [in_progress]"]
     n16["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
-    n17["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [in_progress]"]
+    n17["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [closed]"]
     n18["sase-xe.16.9: Fleet benches under faults and the remaining failure-table tests [in_progress]"]
     n19["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
     n20["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
@@ -216,7 +216,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.6/README.md) | [sase-xe.16.6](sase-xe.16.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.land/README.md) | [sase-xe.16](sase-xe.16.md) | 0 |
 | [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
@@ -257,6 +257,7 @@ flowchart TD
 | sase-core | [`sase-core@9adb209`](https://github.com/sase-org/sase-core/commit/9adb209f95ab67a83b6bfe39303a065dd232ec33) | feat(gateway): expose fleet setup surface | [sase-xe.16.1](sase-xe.16.1.md) | 2026-09-08 11:22:18 EDT |
 | sase | [`f081f23`](https://github.com/sase-org/sase/commit/f081f23038f4bb21170cc7860c24e5894ab36616) | feat(dispatch): isolate third-party provider hooks | [sase-xe.16.5](sase-xe.16.5.md) | 2026-09-08 11:29:47 EDT |
 | sase | [`18b0a91`](https://github.com/sase-org/sase/commit/18b0a91a264ddd3e9b55a609c9a62c209b87a06a) | feat(machine): add target bootstrap CLI | [sase-xe.16.3](sase-xe.16.3.md) | 2026-09-08 12:39:32 EDT |
+| sase | [`6ae983d`](https://github.com/sase-org/sase/commit/6ae983ddc2b607513cf5cebf1c6e9ea5ea2318f6) | test(tui): add Fleet and Focus PNG coverage | [sase-xe.16.8](sase-xe.16.8.md) | 2026-09-08 13:21:01 EDT |
 
 <!-- sase:referenced-by:start -->
 

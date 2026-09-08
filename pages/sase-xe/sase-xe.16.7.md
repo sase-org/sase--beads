@@ -19,7 +19,7 @@ fleet-fixture: build a reusable offline test substrate that synthesizes resolved
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.8](sase-xe.16.8.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-xe.16.8](sase-xe.16.8.md) ✓ · ⧖ 2026-09-08
 - **Blocks:** [sase-xe.16.9](sase-xe.16.9.md) ◐ · ⧖ 2026-09-08
 
 ## Agents
