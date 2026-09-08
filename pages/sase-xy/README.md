@@ -57,6 +57,10 @@ flowchart TD
     n13["sase-xy.5.5.1: Finish repository-owned target selection in Rust core [closed]"]
     n14["sase-xy.5.5.2: Preserve the complete scanner target through pager actions [closed]"]
     n15["sase-xy.5.5.3: Ratchet the binding floor and prove the combined clean-install contract [closed]"]
+    n16["sase-xy.5.5.4: Finish pager target ownership at every action and entry point [in_progress]"]
+    n17["sase-xy.5.5.4.1: Bound source-directory resolution to proved owner provenance [closed]"]
+    n18["sase-xy.5.5.4.2: Make pager copy and scanning honor the complete target contract [in_progress]"]
+    n19["sase-xy.5.5.4.3: Publish and ratchet the completed clean-install contract [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,6 +76,10 @@ flowchart TD
     n12 --> n13
     n12 --> n14
     n12 --> n15
+    n12 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
     n1 -.-> n2
     n1 -.-> n3
     n5 -.-> n6
@@ -82,6 +90,8 @@ flowchart TD
     n13 -.-> n14
     n13 -.-> n15
     n14 -.-> n15
+    n17 -.-> n19
+    n18 -.-> n19
 ```
 
 ## Agents
@@ -100,7 +110,11 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.1/README.md) | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.2/README.md) | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.3.md) | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 1 |
-| [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.land/README.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 1 |
+| [bbugyi200.athena.sase-xy.5.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.2/README.md) | [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.3/README.md) | [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.land/README.md) | [sase-xy.5.5.4](sase-xy.5.5.4.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.land.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.land.md) | [sase-xy.5](sase-xy.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
 
@@ -121,3 +135,4 @@ flowchart TD
 | sase-core | [`sase-core@885a61b`](https://github.com/sase-org/sase-core/commit/885a61bd819ab239b2058ef8d6ef5bb6cc051c8e) | fix(artifact-ref): make document source resolution repository-owned | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2026-09-07 21:22:18 EDT |
 | sase | [`e38f065`](https://github.com/sase-org/sase/commit/e38f065b8ba25478f38a2edae7c8a94fa7c2abe7) | feat(pager): preserve semantic target identity | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 2026-09-07 22:08:09 EDT |
 | sase | [`b67c74c`](https://github.com/sase-org/sase/commit/b67c74ce7ecf2268a3abba0d61e0fdbabf7f56e1) | feat(artifact-ref): ratchet sase-core-rs floor to 0.32.41 and extend contract validation | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 2026-09-07 22:58:04 EDT |
+| sase | [`eccc091`](https://github.com/sase-org/sase/commit/eccc0916048d844dfeaa64ee13ae4a411df2cd35) | fix(artifact-ref): send selected\_project and honor owner project in context assembly | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:46:50 EDT |

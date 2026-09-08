@@ -27,4 +27,4 @@ Pager links use the complete semantic target and owning-repository contract on c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.land/README.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.land.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
