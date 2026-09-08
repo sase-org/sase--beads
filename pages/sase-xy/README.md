@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.1/README.md) | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.2/README.md) | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.3.md) | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 1 |
-| [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 1 |
+| [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.2/README.md) | [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.3/README.md) | [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.land/README.md) | [sase-xy.5.5.4](sase-xy.5.5.4.md) | 0 |
@@ -136,3 +136,4 @@ flowchart TD
 | sase | [`e38f065`](https://github.com/sase-org/sase/commit/e38f065b8ba25478f38a2edae7c8a94fa7c2abe7) | feat(pager): preserve semantic target identity | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 2026-09-07 22:08:09 EDT |
 | sase | [`b67c74c`](https://github.com/sase-org/sase/commit/b67c74ce7ecf2268a3abba0d61e0fdbabf7f56e1) | feat(artifact-ref): ratchet sase-core-rs floor to 0.32.41 and extend contract validation | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 2026-09-07 22:58:04 EDT |
 | sase | [`eccc091`](https://github.com/sase-org/sase/commit/eccc0916048d844dfeaa64ee13ae4a411df2cd35) | fix(artifact-ref): send selected\_project and honor owner project in context assembly | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:46:50 EDT |
+| sase-core | [`sase-core@d5c0f55`](https://github.com/sase-org/sase-core/commit/d5c0f55d0757391be06821be856c621bb029e174) | fix(artifact-ref): require proved owner provenance for source-directory hits | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:49:13 EDT |

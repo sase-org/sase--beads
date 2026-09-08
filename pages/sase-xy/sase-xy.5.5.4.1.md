@@ -23,10 +23,11 @@ prove-owner-provenance: make source-directory and project identity constrain rep
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 1 |
+| [bbugyi200.athena.sase-xy.5.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.4.1/README.md) | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`eccc091`](https://github.com/sase-org/sase/commit/eccc0916048d844dfeaa64ee13ae4a411df2cd35) | fix(artifact-ref): send selected\_project and honor owner project in context assembly | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:46:50 EDT |
+| sase-core | [`sase-core@d5c0f55`](https://github.com/sase-org/sase-core/commit/d5c0f55d0757391be06821be856c621bb029e174) | fix(artifact-ref): require proved owner provenance for source-directory hits | [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) | 2026-09-07 23:49:13 EDT |
