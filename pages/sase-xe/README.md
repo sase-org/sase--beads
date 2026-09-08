@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-xe
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.land`
-**Created:** 2026-09-06 14:06:39 EDT
+**Created:** 2026-09-06 14:06:39 EDT · **Closed:** 2026-09-07 21:11:58 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
 <!-- sase:links:start -->
@@ -85,7 +85,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 
 [2026-09-08T00:07:04Z · sase-xe.land] LANDING PROGRESS (sase-xe.land, 2026-09-07): steps 1-2 verified and integrated; close deferred pending remaining epic work. State of this landing turn,
 
-… and 8138 more characters
+… and 8473 more characters
 
 ## Phases
 
@@ -111,7 +111,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 
 ```mermaid
 flowchart TD
-    n0["sase-xe: Remote dispatch and the Focus/Fleet agents experience [in_progress]"]
+    n0["sase-xe: Remote dispatch and the Focus/Fleet agents experience [closed]"]
     n1["sase-xe.1: Bounded index-backed local listing reads [closed]"]
     n2["sase-xe.10: Local federation worker and Python remote facade [closed]"]
     n3["sase-xe.11: Focus and Fleet sub-views of the Agents tab [closed]"]
@@ -183,7 +183,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.7.md) | [sase-xe.7](sase-xe.7.md) | 0 |
 | [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.8.md) | [sase-xe.8](sase-xe.8.md) | 1 |
 | [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 2 |
-| [bbugyi200.athena.sase-xe.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.land.md) | [sase-xe](README.md) | 1 |
+| [bbugyi200.athena.sase-xe.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.land.md) | [sase-xe](README.md) | 2 |
 
 ## Commits
 
@@ -209,3 +209,4 @@ flowchart TD
 | sase-core | [`sase-core@b19c603`](https://github.com/sase-org/sase-core/commit/b19c6030c7c289ef26238073cc9a4c4aad24fe62) | feat(fleet): add attention contract, gateway routes, and federation ops | [sase-xe.14](sase-xe.14.md) | 2026-09-07 11:27:35 EDT |
 | sase | [`ac1ba1b`](https://github.com/sase-org/sase/commit/ac1ba1be92a6d3f082d4082436617c43443f692e) | feat: Fleet-wide acceptance, flag removal, and polish (sase-xe.15) | [sase-xe.15](sase-xe.15.md) | 2026-09-07 17:17:28 EDT |
 | sase | [`8e00e74`](https://github.com/sase-org/sase/commit/8e00e742be932d81064cb69bc5aa3b417023b4e6) | feat(dispatch): integrate and harden remote dispatch during the sase-xe landing | [sase-xe](README.md) | 2026-09-07 21:09:26 EDT |
+| sase-core | [`sase-core@65203fc`](https://github.com/sase-org/sase-core/commit/65203fc3b851a71a9925df79e02396435b15d2ef) | feat(editor): drop the removed remote\_dispatch directive gate (sase-xe) | [sase-xe](README.md) | 2026-09-07 21:16:24 EDT |
