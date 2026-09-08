@@ -18,7 +18,7 @@ authorize-before-mutate: gate every background link-maintenance writer (rename r
 ## Dependencies
 
 - **Depends on:** [sase-y3.1](sase-y3.1.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y3.3](sase-y3.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y3.3](sase-y3.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
