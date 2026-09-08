@@ -28,10 +28,11 @@ origins: reconcile a proven stale managed-clone origin before provider selection
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.1/README.md) | [sase-yh.1](sase-yh.1.md) | 1 |
+| [bbugyi200.athena.sase-yh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.1/README.md) | [sase-yh.1](sase-yh.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3ec9b78`](https://github.com/sase-org/sase/commit/3ec9b78b2e128554f281409e80043f77888418db) | fix(workspace): reconcile managed clone origins before stitch | [sase-yh.1](sase-yh.1.md) | 2026-09-08 17:16:31 EDT |
+| sase-core | [`sase-core@d9ee8c2`](https://github.com/sase-org/sase-core/commit/d9ee8c2e3f6c0fee952f7cc4fe109b624d05c311) | feat(core): decide managed origin reconciliation | [sase-yh.1](sase-yh.1.md) | 2026-09-08 17:20:58 EDT |
