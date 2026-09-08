@@ -14,7 +14,7 @@ publish-complete-contract: release the corrected Rust resolver, raise sase's min
 ## Dependencies
 
 - **Depends on:** [sase-xy.5.5.4.1](sase-xy.5.5.4.1.md) ✓ · ⧖ 2026-09-07
-- **Depends on:** [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-xy.5.5.4.2](sase-xy.5.5.4.2.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
