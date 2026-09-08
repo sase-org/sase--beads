@@ -20,4 +20,10 @@ codex-usage: Implement bounded app-server initialization, account/read and accou
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 0 |
+| [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`63f385c`](https://github.com/sase-org/sase/commit/63f385c9a626872840b6e74f6b8c32211944a8fa) | feat(llm): add Codex subscription usage collector | [sase-y5.5](sase-y5.5.md) | 2026-09-08 07:49:20 EDT |

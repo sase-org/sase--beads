@@ -20,8 +20,9 @@ capacity-store: Add the machine-local Rust store, account-generation fencing, co
 - **Depends on:** [sase-y5.1](sase-y5.1.md) ✓ · ⧖ 2026-09-07
 - **Blocks:** [sase-y5.3](sase-y5.3.md) ✓ · ⧖ 2026-09-07
 
-## Agents
+## Commits
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-y5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y5.2.md) | [sase-y5.2](sase-y5.2.md) | 0 |
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b0f6f4f`](https://github.com/sase-org/sase/commit/b0f6f4f112b8f8e5c94898acbe5215bc1eedf957) | feat: Persist observations and fence stale writers (sase-y5.2) | [sase-y5.2](sase-y5.2.md) | 2026-09-08 06:57:14 EDT |
+| sase-core | [`sase-core@0c26b04`](https://github.com/sase-org/sase-core/commit/0c26b043da326c081863ed67833cb044a827dfdf) | feat: Persist observations and fence stale writers (sase-y5.2) | [sase-y5.2](sase-y5.2.md) | 2026-09-08 06:57:42 EDT |
