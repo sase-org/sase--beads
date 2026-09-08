@@ -56,7 +56,7 @@ flowchart TD
     n12["sase-xy.5.5: Complete pager target identity before landing sase-xy.5 [in_progress]"]
     n13["sase-xy.5.5.1: Finish repository-owned target selection in Rust core [closed]"]
     n14["sase-xy.5.5.2: Preserve the complete scanner target through pager actions [closed]"]
-    n15["sase-xy.5.5.3: Ratchet the binding floor and prove the combined clean-install contract [in_progress]"]
+    n15["sase-xy.5.5.3: Ratchet the binding floor and prove the combined clean-install contract [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xy.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.4/README.md) | [sase-xy.5.4](sase-xy.5.4.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.1/README.md) | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2 |
 | [bbugyi200.athena.sase-xy.5.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.2/README.md) | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 1 |
-| [bbugyi200.athena.sase-xy.5.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.3/README.md) | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 0 |
+| [bbugyi200.athena.sase-xy.5.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.5.3.md) | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 1 |
 | [bbugyi200.athena.sase-xy.5.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xy.5.5.land/README.md) | [sase-xy.5.5](sase-xy.5.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.5.land.md) | [sase-xy.5](sase-xy.5.md) | 0 |
 | [bbugyi200.athena.sase-xy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xy.land.md) | [sase-xy](README.md) | 0 |
@@ -120,3 +120,4 @@ flowchart TD
 | sase | [`d101fbd`](https://github.com/sase-org/sase/commit/d101fbd08657694233523cca298a526ada3b2609) | feat(artifact-ref): transport optional source path\_globs on document owner | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2026-09-07 21:20:08 EDT |
 | sase-core | [`sase-core@885a61b`](https://github.com/sase-org/sase-core/commit/885a61bd819ab239b2058ef8d6ef5bb6cc051c8e) | fix(artifact-ref): make document source resolution repository-owned | [sase-xy.5.5.1](sase-xy.5.5.1.md) | 2026-09-07 21:22:18 EDT |
 | sase | [`e38f065`](https://github.com/sase-org/sase/commit/e38f065b8ba25478f38a2edae7c8a94fa7c2abe7) | feat(pager): preserve semantic target identity | [sase-xy.5.5.2](sase-xy.5.5.2.md) | 2026-09-07 22:08:09 EDT |
+| sase | [`b67c74c`](https://github.com/sase-org/sase/commit/b67c74ce7ecf2268a3abba0d61e0fdbabf7f56e1) | feat(artifact-ref): ratchet sase-core-rs floor to 0.32.41 and extend contract validation | [sase-xy.5.5.3](sase-xy.5.5.3.md) | 2026-09-07 22:58:04 EDT |

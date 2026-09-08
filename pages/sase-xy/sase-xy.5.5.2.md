@@ -18,7 +18,7 @@ semantic-pager-contract: carry configured kinds, Markdown destinations and fragm
 ## Dependencies
 
 - **Depends on:** [sase-xy.5.5.1](sase-xy.5.5.1.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-xy.5.5.3](sase-xy.5.5.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.5.3](sase-xy.5.5.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
