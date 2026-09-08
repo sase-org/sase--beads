@@ -55,7 +55,7 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 | [sase-y5.6](sase-y5.6.md) | Collect Grok subscription allowance through ACP | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ✓ closed | medium | 2026-09-07 | 1 | 2 |
 | [sase-y5.8](sase-y5.8.md) | Expose cached usage and explicit refresh in the CLI | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y5.9](sase-y5.9.md) | Add a read-only Usage view to the Providers home | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.9](sase-y5.9.md) | Add a read-only Usage view to the Providers home | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
     n8["sase-y5.6: Collect Grok subscription allowance through ACP [closed]"]
     n9["sase-y5.7: Supervise and coalesce refreshes across clients [closed]"]
     n10["sase-y5.8: Expose cached usage and explicit refresh in the CLI [closed]"]
-    n11["sase-y5.9: Add a read-only Usage view to the Providers home [in_progress]"]
+    n11["sase-y5.9: Add a read-only Usage view to the Providers home [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.6/README.md) | [sase-y5.6](sase-y5.6.md) | 1 |
 | [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 2 |
 | [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 1 |
-| [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 0 |
+| [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 1 |
 | [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.land/README.md) | [sase-y5](README.md) | 0 |
 
 ## Commits
@@ -129,3 +129,4 @@ flowchart TD
 | sase-core | [`sase-core@f829e0b`](https://github.com/sase-org/sase-core/commit/f829e0bb8a26d5f96f0977cbc0cdaa8b50bec97d) | feat(provider-usage): add refresh admission, due, and backoff | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:28:56 EDT |
 | sase | [`cc58987`](https://github.com/sase-org/sase/commit/cc58987c2bab268906eb48f8ebe7688637ad8807) | feat(usage): collect Claude subscription windows | [sase-y5.4](sase-y5.4.md) | 2026-09-08 10:42:10 EDT |
 | sase | [`3f9c7b4`](https://github.com/sase-org/sase/commit/3f9c7b451655ec5bb6857b7c0b6bfefffdeac49d) | feat(usage): add cached usage CLI | [sase-y5.8](sase-y5.8.md) | 2026-09-08 13:52:40 EDT |
+| sase | [`65fe412`](https://github.com/sase-org/sase/commit/65fe4124f62acde7394102045c1882df939e71f2) | feat(ace): add Providers · Usage view to Models panel | [sase-y5.9](sase-y5.9.md) | 2026-09-08 16:11:28 EDT |

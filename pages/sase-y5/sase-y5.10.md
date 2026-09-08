@@ -14,7 +14,7 @@ usage-context: Add model and alias-member capacity hints and merge quiet usage a
 ## Dependencies
 
 - **Blocks:** [sase-y5.11](sase-y5.11.md) ◐ · ⧖ 2026-09-07
-- **Depends on:** [sase-y5.9](sase-y5.9.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y5.9](sase-y5.9.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

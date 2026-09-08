@@ -18,7 +18,7 @@ usage-cli: Add sase usage list and refresh, a stable JSON contract, plain/Rich p
 ## Dependencies
 
 - **Depends on:** [sase-y5.7](sase-y5.7.md) ✓ · ⧖ 2026-09-07
-- **Blocks:** [sase-y5.9](sase-y5.9.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.9](sase-y5.9.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
