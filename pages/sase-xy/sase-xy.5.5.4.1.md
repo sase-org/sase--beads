@@ -17,7 +17,7 @@ prove-owner-provenance: make source-directory and project identity constrain rep
 
 ## Dependencies
 
-- **Blocks:** [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

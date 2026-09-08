@@ -17,7 +17,7 @@ close-pager-actions: treat every returned owner-scoped outcome as terminal for c
 
 ## Dependencies
 
-- **Blocks:** [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-xy.5.5.4.3](sase-xy.5.5.4.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
