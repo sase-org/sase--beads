@@ -29,7 +29,7 @@ Prevent stale workspace origins from breaking stitch resume, finish run-owned pe
 |---|---|---|---|---|---:|---:|
 | [sase-yh.1](sase-yh.1.md) | Validate managed origins at stitch execution boundaries | ✓ closed | medium | 2026-09-08 | 1 | 0 |
 | [sase-yh.2](sase-yh.2.md) | Resume owned checkpoints and preserve unpushed evidence | ◐ in_progress | medium | 2026-09-08 | 1 | 0 |
-| [sase-yh.3](sase-yh.3.md) | Retry and report aging artifact-link publications | ✓ closed | medium | 2026-09-08 | 1 | 1 |
+| [sase-yh.3](sase-yh.3.md) | Retry and report aging artifact-link publications | ✓ closed | medium | 2026-09-08 | 1 | 2 |
 | [sase-yh.4](sase-yh.4.md) | Verify recovery end to end and close the three tasks | ◐ in_progress | medium | 2026-09-08 | 1 | 0 |
 
 ## Lineage
@@ -57,7 +57,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-yh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.1/README.md) | [sase-yh.1](sase-yh.1.md) | 0 |
 | [bbugyi200.athena.sase-yh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.2/README.md) | [sase-yh.2](sase-yh.2.md) | 0 |
-| [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 1 |
+| [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 2 |
 | [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.4/README.md) | [sase-yh.4](sase-yh.4.md) | 0 |
 | [bbugyi200.athena.sase-yh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.land/README.md) | [sase-yh](README.md) | 0 |
 
@@ -66,3 +66,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`46f7f54`](https://github.com/sase-org/sase/commit/46f7f549ef2edc9d4e7f9136d810786cb9792b48) | fix(sdd): retry unpublished artifact-link sidecars | [sase-yh.3](sase-yh.3.md) | 2026-09-08 16:48:27 EDT |
+| sase-core | [`sase-core@ff0a72e`](https://github.com/sase-org/sase-core/commit/ff0a72e1f060130d34e49af4c8b8ba94666db453) | feat(artifact-link): add publication retry policy | [sase-yh.3](sase-yh.3.md) | 2026-09-08 16:50:16 EDT |
