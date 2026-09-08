@@ -28,9 +28,9 @@ A repeated CI failure adds a quiet, visible +1 note to its existing notification
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-y6.1](sase-y6.1.md) | Rust notification store +1 model and upsert | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y6.2](sase-y6.2.md) | sase notify +1 and create upsert | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y6.2](sase-y6.2.md) | sase notify +1 and create upsert | ✓ closed | medium | 2026-09-07 | 1 | 0 |
 | [sase-y6.3](sase-y6.3.md) | Notification panel +1 badges and iteration | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
-| [sase-y6.4](sase-y6.4.md) | ci\_watch incident-combination notifications | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y6.4](sase-y6.4.md) | ci\_watch incident-combination notifications | ✓ closed | medium | 2026-09-07 | 1 | 0 |
 | [sase-y6.5](sase-y6.5.md) | Integrated verification and config alignment | ◐ in_progress | small | 2026-09-07 | 1 | 0 |
 
 ## Lineage
@@ -39,9 +39,9 @@ A repeated CI failure adds a quiet, visible +1 note to its existing notification
 flowchart TD
     n0["sase-y6: Notification +1 corroboration and ci_watch incident-combination dedup [in_progress]"]
     n1["sase-y6.1: Rust notification store +1 model and upsert [closed]"]
-    n2["sase-y6.2: sase notify +1 and create upsert [in_progress]"]
+    n2["sase-y6.2: sase notify +1 and create upsert [closed]"]
     n3["sase-y6.3: Notification panel +1 badges and iteration [in_progress]"]
-    n4["sase-y6.4: ci_watch incident-combination notifications [in_progress]"]
+    n4["sase-y6.4: ci_watch incident-combination notifications [closed]"]
     n5["sase-y6.5: Integrated verification and config alignment [in_progress]"]
     n0 --> n1
     n0 --> n2

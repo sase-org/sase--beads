@@ -17,7 +17,7 @@ core: add plus-one entries and a dedup key to the Rust notification row, an appe
 
 ## Dependencies
 
-- **Blocks:** [sase-y6.2](sase-y6.2.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y6.2](sase-y6.2.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 

@@ -14,7 +14,7 @@ verify: run both repos' verification lanes plus the monitored check-full landing
 ## Dependencies
 
 - **Depends on:** [sase-y6.3](sase-y6.3.md) ◐ · ⧖ 2026-09-07
-- **Depends on:** [sase-y6.4](sase-y6.4.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y6.4](sase-y6.4.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
 
