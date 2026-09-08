@@ -35,6 +35,8 @@ NOT CAUSED BY sase-y3: tests/reproducible_flake_baseline.txt is unmodified in th
 
 FIX: remove the redundant fixed-at line so exactly one remains for that node, and re-run just selection-health --fail-on-new-flake to confirm it reaches a real verdict instead of exit 2.
 
+[2026-09-08T13:13:07Z · sase-y6.land] Update on note #1 (malformed tests/reproducible_flake_baseline.txt from sase-y5.2 commit b0f6f4f11): repaired during the sase-y6 landing. The duplicate fixed-at entry for test_ace_and_lsp_directive_name_rows_match (00:21:54Z in the sase-s6 block) was removed; the sase-xe block's 00:40:36Z instant is a strict superset, so no evidence retirement was lost. selection-health --fail-on-new-flake exits 0 again. The same landing also re-keyed the stale --epic-symbol sase-y5.7(SyntheticUsageProvider) Justfile entry to open bead sase-y5.11, since the symbol still has no non-test consumer; sase-y5.11 must resolve or retire it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +49,7 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 | [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ✓ closed | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.5](sase-y5.5.md) | Collect Codex subscription windows through app-server | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.6](sase-y5.6.md) | Collect Grok subscription allowance through ACP | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ✓ closed | medium | 2026-09-07 | 1 | 1 |
+| [sase-y5.7](sase-y5.7.md) | Supervise and coalesce refreshes across clients | ✓ closed | medium | 2026-09-07 | 1 | 2 |
 | [sase-y5.8](sase-y5.8.md) | Expose cached usage and explicit refresh in the CLI | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 | [sase-y5.9](sase-y5.9.md) | Add a read-only Usage view to the Providers home | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
 
@@ -104,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 0 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
 | [bbugyi200.athena.sase-y5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.6/README.md) | [sase-y5.6](sase-y5.6.md) | 1 |
-| [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 1 |
+| [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 2 |
 | [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 0 |
 | [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 0 |
 | [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.land/README.md) | [sase-y5](README.md) | 0 |
@@ -120,3 +122,4 @@ flowchart TD
 | sase | [`63f385c`](https://github.com/sase-org/sase/commit/63f385c9a626872840b6e74f6b8c32211944a8fa) | feat(llm): add Codex subscription usage collector | [sase-y5.5](sase-y5.5.md) | 2026-09-08 07:49:20 EDT |
 | sase | [`0f71004`](https://github.com/sase-org/sase/commit/0f71004c5a4aaf12558d6b50934eec602e15084d) | feat(llm): collect Grok subscription allowance through ACP | [sase-y5.6](sase-y5.6.md) | 2026-09-08 07:55:21 EDT |
 | sase | [`a0ac015`](https://github.com/sase-org/sase/commit/a0ac015e0bda1d0cc1e1eeb859e92e2f0314cdfe) | feat(llm): add shared subscription usage refresh service | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:23:27 EDT |
+| sase-core | [`sase-core@f829e0b`](https://github.com/sase-org/sase-core/commit/f829e0bb8a26d5f96f0977cbc0cdaa8b50bec97d) | feat(provider-usage): add refresh admission, due, and backoff | [sase-y5.7](sase-y5.7.md) | 2026-09-08 09:28:56 EDT |
