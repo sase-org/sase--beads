@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y3.2/README.md) | [sase-y3.2](sase-y3.2.md) | 1 |
 | [bbugyi200.athena.sase-y3.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y3.3.md) | [sase-y3.3](sase-y3.3.md) | 0 |
 | [bbugyi200.athena.sase-y3.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y3.4.md) | [sase-y3.4](sase-y3.4.md) | 0 |
-| [bbugyi200.athena.sase-y3.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y3.land.md) | [sase-y3](README.md) | 1 |
+| [bbugyi200.athena.sase-y3.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y3.land.md) | [sase-y3](README.md) | 2 |
 
 ## Commits
 
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`ec6bc4a`](https://github.com/sase-org/sase/commit/ec6bc4a422f56b8fa45dc809f26cc8f6ea7c3e33) | fix(artifact-links): commit removed link indexes | [sase-y3.1](sase-y3.1.md) | 2026-09-07 15:41:02 EDT |
 | sase | [`87f4cf1`](https://github.com/sase-org/sase/commit/87f4cf1416da9963e599e4e3fc0e04eeef64b6b5) | fix(sdd): gate background artifact-link writers on machine writability | [sase-y3.2](sase-y3.2.md) | 2026-09-07 18:09:28 EDT |
 | sase | [`2edf986`](https://github.com/sase-org/sase/commit/2edf986b6dc2921ae297d556d12ffaf60d874523) | feat(sdd): route machine artifact-link writes to hidden host-owned clones | [sase-y3](README.md) | 2026-09-08 08:55:45 EDT |
+| sase--plans | [`sase--plans@6501730`](https://github.com/sase-org/sase--plans/commit/6501730abeaf56cc36460121cdb4c0835c6aeef4) | docs(plans): mark machine\_link\_mutations\_off\_primary done | [sase-y3](README.md) | 2026-09-08 08:58:19 EDT |
