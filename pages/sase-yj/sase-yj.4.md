@@ -14,7 +14,7 @@ verification: exercise runtime and editor parity, complete repository gates, aud
 ## Dependencies
 
 - **Depends on:** [sase-yj.1](sase-yj.1.md) ✓ · ⧖ 2026-09-08
-- **Depends on:** [sase-yj.2](sase-yj.2.md) ◐ · ⧖ 2026-09-08
+- **Depends on:** [sase-yj.2](sase-yj.2.md) ✓ · ⧖ 2026-09-08
 - **Depends on:** [sase-yj.3](sase-yj.3.md) ◐ · ⧖ 2026-09-08
 
 ## Agents

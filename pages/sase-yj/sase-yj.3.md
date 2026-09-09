@@ -14,7 +14,7 @@ migration: convert all maintained consumers and documentation, reject retired wa
 ## Dependencies
 
 - **Depends on:** [sase-yj.1](sase-yj.1.md) ✓ · ⧖ 2026-09-08
-- **Depends on:** [sase-yj.2](sase-yj.2.md) ◐ · ⧖ 2026-09-08
+- **Depends on:** [sase-yj.2](sase-yj.2.md) ✓ · ⧖ 2026-09-08
 - **Blocks:** [sase-yj.4](sase-yj.4.md) ◐ · ⧖ 2026-09-08
 
 ## Agents
