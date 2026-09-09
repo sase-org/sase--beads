@@ -14,6 +14,7 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/subscription_capacity.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:762a0fcfad720e2b70a9331b | attached via sase artifact create --bead |
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/subscription_capacity.md
 
@@ -43,13 +44,15 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 
 [2026-09-09T01:07:26Z · sase-xe.16.land] Supplementary historical evidence proposed by sase-xe.16.8 note #1: its full-lane test_grok_usage_probe_reaps_descendant_processes failure passed immediately in focused rerun (with clan-summary SIGTERM test, 2 passed in 9.52s). This duplicates note #3 and remains with the subscription-capacity verification scope. The sase-xe.16 land audit did not reproduce a new failure; no new task or flake allowance was created.
 
+[2026-09-09T09:59:19Z · sase-y5.land] DISCOVERED ISSUE (sase-y5 land agent): phase sase-y5.10 closed at 2026-09-08T21:04Z claiming verified work, but its commit never landed — the workflow's 'sase stitch create' failed at 17:05 EDT because the before-commit hook (just fix) hit ENOSPC rebuilding sase_core_rs (/mnt/poseidon was 100% full; same root cause later blocked just install for this landing). The worker's tracked-file edits (picker/indicator/store wiring) were subsequently lost to workspace resets; only its new files survived as untracked and were recovered from a git stash. Recovery artifact: file:explicit:762a0fcfad720e2b70a9331b (git-apply patch vs 1cad7ed16 with usage/hints.py, usage/peek.py, 6 test files, 2 PNG goldens; 8 stale provider_usage_metrics/override_flags references need adapting to the post-flag-removal tree, and store.py needs a provider_usage_window_applies re-export from sase_core_rs). Land agent freed 197G on /mnt/poseidon by deleting stale per-bead cargo target dirs (sase-y5-2, sase-y5-7, sase27, debug, maturin, tmp). Remaining epic work (usage-context re-implementation + release residue) is being planned as a child plan.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-y5.1](sase-y5.1.md) | Define the shared subscription capacity model | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.10](sase-y5.10.md) | Show scoped capacity hints where users choose providers | ✓ closed | medium | 2026-09-07 | 0 | 0 |
-| [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ◐ in_progress | medium | 2026-09-07 | 1 | 1 |
+| [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.2](sase-y5.2.md) | Persist observations and fence stale writers | ✓ closed | medium | 2026-09-07 | 0 | 2 |
 | [sase-y5.3](sase-y5.3.md) | Add the provider extension and bounded probe runtime | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ✓ closed | medium | 2026-09-07 | 1 | 1 |
@@ -66,39 +69,45 @@ flowchart TD
     n0["sase-y5: Subscription capacity for Claude, Codex, and Grok [in_progress]"]
     n1["sase-y5.1: Define the shared subscription capacity model [closed]"]
     n2["sase-y5.10: Show scoped capacity hints where users choose providers [closed]"]
-    n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [in_progress]"]
-    n4["sase-y5.2: Persist observations and fence stale writers [closed]"]
-    n5["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
-    n6["sase-y5.4: Collect Claude subscription windows and passive updates [closed]"]
-    n7["sase-y5.5: Collect Codex subscription windows through app-server [closed]"]
-    n8["sase-y5.6: Collect Grok subscription allowance through ACP [closed]"]
-    n9["sase-y5.7: Supervise and coalesce refreshes across clients [closed]"]
-    n10["sase-y5.8: Expose cached usage and explicit refresh in the CLI [closed]"]
-    n11["sase-y5.9: Add a read-only Usage view to the Providers home [closed]"]
+    n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [closed]"]
+    n4["sase-y5.12: Recover and land the sase-y5 usage-context surface [in_progress]"]
+    n5["sase-y5.12.1: Re-implement scoped capacity hints and usage attention [in_progress]"]
+    n6["sase-y5.12.2: Fix the verbose reset label, baseline the pager flake, and finish docs [closed]"]
+    n7["sase-y5.2: Persist observations and fence stale writers [closed]"]
+    n8["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
+    n9["sase-y5.4: Collect Claude subscription windows and passive updates [closed]"]
+    n10["sase-y5.5: Collect Codex subscription windows through app-server [closed]"]
+    n11["sase-y5.6: Collect Grok subscription allowance through ACP [closed]"]
+    n12["sase-y5.7: Supervise and coalesce refreshes across clients [closed]"]
+    n13["sase-y5.8: Expose cached usage and explicit refresh in the CLI [closed]"]
+    n14["sase-y5.9: Add a read-only Usage view to the Providers home [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
-    n0 --> n5
-    n0 --> n6
+    n4 --> n5
+    n4 --> n6
     n0 --> n7
     n0 --> n8
     n0 --> n9
     n0 --> n10
     n0 --> n11
-    n1 -.-> n4
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n1 -.-> n7
     n2 -.-> n3
-    n4 -.-> n5
-    n5 -.-> n6
-    n5 -.-> n7
-    n5 -.-> n8
-    n5 -.-> n9
-    n6 -.-> n3
-    n7 -.-> n3
-    n8 -.-> n3
-    n9 -.-> n10
-    n10 -.-> n11
-    n11 -.-> n2
+    n7 -.-> n8
+    n8 -.-> n9
+    n8 -.-> n10
+    n8 -.-> n11
+    n8 -.-> n12
+    n9 -.-> n3
+    n10 -.-> n3
+    n11 -.-> n3
+    n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n2
 ```
 
 ## Agents
@@ -107,6 +116,9 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-y5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.1/README.md) | [sase-y5.1](sase-y5.1.md) | 1 |
 | [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 1 |
+| [bbugyi200.athena.sase-y5.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.1/README.md) | [sase-y5.12.1](sase-y5.12.1.md) | 0 |
+| [bbugyi200.athena.sase-y5.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.2/README.md) | [sase-y5.12.2](sase-y5.12.2.md) | 1 |
+| [bbugyi200.athena.sase-y5.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.land/README.md) | [sase-y5.12](sase-y5.12.md) | 0 |
 | [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 1 |
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 1 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
@@ -114,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.7/README.md) | [sase-y5.7](sase-y5.7.md) | 2 |
 | [bbugyi200.athena.sase-y5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.8/README.md) | [sase-y5.8](sase-y5.8.md) | 1 |
 | [bbugyi200.athena.sase-y5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.9/README.md) | [sase-y5.9](sase-y5.9.md) | 1 |
-| [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.land/README.md) | [sase-y5](README.md) | 0 |
+| [bbugyi200.athena.sase-y5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y5.land.md) | [sase-y5](README.md) | 0 |
 
 ## Commits
 
@@ -132,3 +144,4 @@ flowchart TD
 | sase | [`3f9c7b4`](https://github.com/sase-org/sase/commit/3f9c7b451655ec5bb6857b7c0b6bfefffdeac49d) | feat(usage): add cached usage CLI | [sase-y5.8](sase-y5.8.md) | 2026-09-08 13:52:40 EDT |
 | sase | [`65fe412`](https://github.com/sase-org/sase/commit/65fe4124f62acde7394102045c1882df939e71f2) | feat(ace): add Providers · Usage view to Models panel | [sase-y5.9](sase-y5.9.md) | 2026-09-08 16:11:28 EDT |
 | sase | [`1cad7ed`](https://github.com/sase-org/sase/commit/1cad7ed16e4af8de850cf2f35cfe35164706fc2c) | feat(usage): make provider usage tracking default-on and drop the beta flag | [sase-y5.11](sase-y5.11.md) | 2026-09-09 05:28:42 EDT |
+| sase | [`d165fbb`](https://github.com/sase-org/sase/commit/d165fbbaaf0abfac0a23114e4a25a5381715beb6) | fix(usage): omit relative age on future verbose reset labels | [sase-y5.12.2](sase-y5.12.2.md) | 2026-09-09 07:40:24 EDT |

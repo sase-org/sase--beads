@@ -17,7 +17,7 @@ codex-usage: Implement bounded app-server initialization, account/read and accou
 
 ## Dependencies
 
-- **Blocks:** [sase-y5.11](sase-y5.11.md) ◐ · ⧖ 2026-09-07
+- **Blocks:** [sase-y5.11](sase-y5.11.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.3](sase-y5.3.md) ✓ · ⧖ 2026-09-07
 
 ## Agents
