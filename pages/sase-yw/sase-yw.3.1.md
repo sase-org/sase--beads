@@ -19,7 +19,7 @@ core_safety: reject catalog values that cannot safely become one inline model di
 
 ## Dependencies
 
-- **Blocks:** [sase-yw.3.2](sase-yw.3.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yw.3.2](sase-yw.3.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
