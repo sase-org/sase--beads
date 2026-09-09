@@ -21,4 +21,10 @@ migration: convert all maintained consumers and documentation, reject retired wa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 0 |
+| [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3f23a53`](https://github.com/sase-org/sase/commit/3f23a53745761c38d0c25a268f634d98b5720bdf) | refactor(xprompt): retire wait\_queue flag, make %queue directive unconditional | [sase-yj.3](sase-yj.3.md) | 2026-09-08 21:37:51 EDT |

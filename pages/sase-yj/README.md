@@ -23,13 +23,17 @@
 
 Move runners and priority from %wait to %queue, support positional runners and p=, preserve admission behavior, provide matching ACE and LSP completion, and migrate maintained prompt producers and documentation across linked repositories.
 
+## Notes
+
+[2026-09-09T01:26:46Z · sase-xe.16.land--1] DISCOVERED ISSUE: Independent remote-dispatch landing check on unchanged sase HEAD 890660e25 (monitor kfbm6fy1sy53, 2026-09-09 01:15-01:19 UTC) passed overall but reported a stale published core floor. pyproject.toml still permits sase-core-rs 0.32.46; the probe names collect_queue_fields, format_queue_directive, and queue_directive_flag_key as absent there and first released by core commit 2d8b662 in v0.32.50. Python c235300c6 / phase sase-yj.2 consumes the queue surface. Include the published floor ratchet and installed binding/LSP parity in this epic's acceptance. One coordinated floor bump to a published release carrying every current binding also resolves six retry/origin capabilities routed to sase-yh and four eligibility capabilities from dd1f829c2, for 13 total. Full exact probe output: file:explicit:831bc61700629257ea205a90. Existing sase-xn and sase-wg track older distinct requirements, so this evidence was routed to active causal epics via /sase_new_task without duplicate tasks.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-yj.1](sase-yj.1.md) | Shared queue grammar and editor contract | ✓ closed | medium | 2026-09-08 | 1 | 2 |
 | [sase-yj.2](sase-yj.2.md) | Python runtime and prompt editing integration | ✓ closed | medium | 2026-09-08 | 1 | 1 |
-| [sase-yj.3](sase-yj.3.md) | Repository migration and unconditional cutover | ◐ in_progress | medium | 2026-09-08 | 1 | 0 |
+| [sase-yj.3](sase-yj.3.md) | Repository migration and unconditional cutover | ◐ in_progress | medium | 2026-09-08 | 1 | 1 |
 | [sase-yj.4](sase-yj.4.md) | Cross-repository acceptance and landing preparation | ◐ in_progress | medium | 2026-09-08 | 1 | 0 |
 
 ## Lineage
@@ -59,7 +63,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-yj.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yj.1.md) | [sase-yj.1](sase-yj.1.md) | 2 |
 | [bbugyi200.athena.sase-yj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.2/README.md) | [sase-yj.2](sase-yj.2.md) | 1 |
-| [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 0 |
+| [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 1 |
 | [bbugyi200.athena.sase-yj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.4/README.md) | [sase-yj.4](sase-yj.4.md) | 0 |
 | [bbugyi200.athena.sase-yj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.land/README.md) | [sase-yj](README.md) | 0 |
 
@@ -70,3 +74,4 @@ flowchart TD
 | sase | [`c235300`](https://github.com/sase-org/sase/commit/c235300c6228bdd28f806760bdbd15284aa242c9) | feat(xprompt): add thin Python adapter for shared %queue/%q contract | [sase-yj.1](sase-yj.1.md) | 2026-09-08 19:51:35 EDT |
 | sase-core | [`sase-core@2d8b662`](https://github.com/sase-org/sase-core/commit/2d8b66269bfe2d779612c79ae4beec64716f5464) | feat(core): add shared %queue/%q contract behind queue\_directive flag | [sase-yj.1](sase-yj.1.md) | 2026-09-08 19:55:39 EDT |
 | sase | [`0770357`](https://github.com/sase-org/sase/commit/0770357cd84dfc16b7bd1ac59f0bfae3dc3408b7) | feat(xprompt): wire queue directive into python runtime | [sase-yj.2](sase-yj.2.md) | 2026-09-08 20:48:30 EDT |
+| sase | [`3f23a53`](https://github.com/sase-org/sase/commit/3f23a53745761c38d0c25a268f634d98b5720bdf) | refactor(xprompt): retire wait\_queue flag, make %queue directive unconditional | [sase-yj.3](sase-yj.3.md) | 2026-09-08 21:37:51 EDT |
