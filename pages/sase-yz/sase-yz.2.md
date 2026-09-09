@@ -20,4 +20,4 @@ drift-probes: add a shared bounded probe-strategy runner with drift classificati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.2/README.md) | [sase-yz.2](sase-yz.2.md) | 0 |
+| [bbugyi200.athena.sase-yz.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yz.2.md) | [sase-yz.2](sase-yz.2.md) | 0 |
