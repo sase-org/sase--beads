@@ -17,7 +17,7 @@ core_lsp: extend the Rust shortcut contract and Python bindings with explicit mo
 
 ## Dependencies
 
-- **Blocks:** [sase-yw.2](sase-yw.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yw.2](sase-yw.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
