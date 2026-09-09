@@ -19,9 +19,3 @@ stitch-recovery: complete sase-yg and sase-xi by recording resumed push failures
 
 - **Depends on:** [sase-yh.1](sase-yh.1.md) ✓ · ⧖ 2026-09-08
 - **Blocks:** [sase-yh.4](sase-yh.4.md) ✓ · ⧖ 2026-09-08
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-yh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.2/README.md) | [sase-yh.2](sase-yh.2.md) | 0 |
