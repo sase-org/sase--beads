@@ -18,8 +18,8 @@ integration: connect queue parsing, admission detection, AXE generation, durable
 ## Dependencies
 
 - **Depends on:** [sase-yj.1](sase-yj.1.md) ✓ · ⧖ 2026-09-08
-- **Blocks:** [sase-yj.3](sase-yj.3.md) ◐ · ⧖ 2026-09-08
-- **Blocks:** [sase-yj.4](sase-yj.4.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-yj.3](sase-yj.3.md) ✓ · ⧖ 2026-09-08
+- **Blocks:** [sase-yj.4](sase-yj.4.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 

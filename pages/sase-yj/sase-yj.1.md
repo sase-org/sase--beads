@@ -20,8 +20,8 @@ core: implement shared Rust queue validation, formatting, launch parsing, bindin
 ## Dependencies
 
 - **Blocks:** [sase-yj.2](sase-yj.2.md) ✓ · ⧖ 2026-09-08
-- **Blocks:** [sase-yj.3](sase-yj.3.md) ◐ · ⧖ 2026-09-08
-- **Blocks:** [sase-yj.4](sase-yj.4.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-yj.3](sase-yj.3.md) ✓ · ⧖ 2026-09-08
+- **Blocks:** [sase-yj.4](sase-yj.4.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 
