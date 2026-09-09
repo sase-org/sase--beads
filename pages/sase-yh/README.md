@@ -51,7 +51,7 @@ flowchart TD
     n4["sase-yh.4: Verify recovery end to end and close the three tasks [closed]"]
     n5["sase-yh.5: Finish stitch recovery ownership and publication preservation [in_progress]"]
     n6["sase-yh.5.1: Bind automatic checkpoint recovery to authenticated durable evidence [closed]"]
-    n7["sase-yh.5.2: Preserve unpublished sidecars under retry and configuration drift [in_progress]"]
+    n7["sase-yh.5.2: Preserve unpublished sidecars under retry and configuration drift [closed]"]
     n8["sase-yh.5.3: Publish and ratchet the corrected recovery contract [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 2 |
 | [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.4.md) | [sase-yh.4](sase-yh.4.md) | 2 |
 | [bbugyi200.athena.sase-yh.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.1/README.md) | [sase-yh.5.1](sase-yh.5.1.md) | 2 |
-| [bbugyi200.athena.sase-yh.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.2/README.md) | [sase-yh.5.2](sase-yh.5.2.md) | 0 |
+| [bbugyi200.athena.sase-yh.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.2/README.md) | [sase-yh.5.2](sase-yh.5.2.md) | 1 |
 | [bbugyi200.athena.sase-yh.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.3/README.md) | [sase-yh.5.3](sase-yh.5.3.md) | 0 |
 | [bbugyi200.athena.sase-yh.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.land/README.md) | [sase-yh.5](sase-yh.5.md) | 0 |
 | [bbugyi200.athena.sase-yh.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.land.md) | [sase-yh](README.md) | 0 |
@@ -94,3 +94,4 @@ flowchart TD
 | sase-core | [`sase-core@03ec116`](https://github.com/sase-org/sase-core/commit/03ec116f6a15bfbbefecc394dc1786f0b7c216e0) | feat(core): decide pending commit checkpoint recovery | [sase-yh.4](sase-yh.4.md) | 2026-09-09 06:45:42 EDT |
 | sase | [`27bbd2f`](https://github.com/sase-org/sase/commit/27bbd2f4e4bcab9c364b175ad44c3fa24e13250d) | fix(commit): authenticate checkpoint recovery evidence | [sase-yh.5.1](sase-yh.5.1.md) | 2026-09-09 08:20:06 EDT |
 | sase-core | [`sase-core@7af2640`](https://github.com/sase-org/sase-core/commit/7af26400fbca87eb70102c7082a1b029c65e310b) | fix(core): authenticate pending checkpoint recovery | [sase-yh.5.1](sase-yh.5.1.md) | 2026-09-09 08:21:04 EDT |
+| sase | [`a1b08d0`](https://github.com/sase-org/sase/commit/a1b08d06c9b0419c96d91b76f8dc77a78bee82a0) | fix(sdd): preserve unpublished artifact sidecars | [sase-yh.5.2](sase-yh.5.2.md) | 2026-09-09 08:37:10 EDT |

@@ -14,7 +14,7 @@ published-integration: publish the first normal sase-core-rs release containing 
 ## Dependencies
 
 - **Depends on:** [sase-yh.5.1](sase-yh.5.1.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-yh.5.2](sase-yh.5.2.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yh.5.2](sase-yh.5.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
