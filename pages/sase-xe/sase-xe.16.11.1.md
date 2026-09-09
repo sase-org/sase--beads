@@ -35,7 +35,7 @@ Python still owns subprocess/HTTP I/O. Do not ratchet sase-core-revision or repl
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.2](sase-xe.16.11.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.2](sase-xe.16.11.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

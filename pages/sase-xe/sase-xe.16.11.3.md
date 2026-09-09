@@ -13,7 +13,7 @@ real-fault-proofs: add real worker/gateway fault tests for a hung host beside a 
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.2](sase-xe.16.11.2.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.2](sase-xe.16.11.2.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.4](sase-xe.16.11.4.md) ◐ · ⧖ 2026-09-09
 
 ## Agents
