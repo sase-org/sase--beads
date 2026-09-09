@@ -71,7 +71,7 @@ flowchart TD
     n2["sase-y5.10: Show scoped capacity hints where users choose providers [closed]"]
     n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [closed]"]
     n4["sase-y5.12: Recover and land the sase-y5 usage-context surface [in_progress]"]
-    n5["sase-y5.12.1: Re-implement scoped capacity hints and usage attention [in_progress]"]
+    n5["sase-y5.12.1: Re-implement scoped capacity hints and usage attention [closed]"]
     n6["sase-y5.12.2: Fix the verbose reset label, baseline the pager flake, and finish docs [closed]"]
     n7["sase-y5.2: Persist observations and fence stale writers [closed]"]
     n8["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
@@ -116,7 +116,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-y5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.1/README.md) | [sase-y5.1](sase-y5.1.md) | 1 |
 | [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 1 |
-| [bbugyi200.athena.sase-y5.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.1/README.md) | [sase-y5.12.1](sase-y5.12.1.md) | 0 |
+| [bbugyi200.athena.sase-y5.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.1/README.md) | [sase-y5.12.1](sase-y5.12.1.md) | 1 |
 | [bbugyi200.athena.sase-y5.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.2/README.md) | [sase-y5.12.2](sase-y5.12.2.md) | 1 |
 | [bbugyi200.athena.sase-y5.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.land/README.md) | [sase-y5.12](sase-y5.12.md) | 0 |
 | [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 1 |
@@ -145,3 +145,4 @@ flowchart TD
 | sase | [`65fe412`](https://github.com/sase-org/sase/commit/65fe4124f62acde7394102045c1882df939e71f2) | feat(ace): add Providers · Usage view to Models panel | [sase-y5.9](sase-y5.9.md) | 2026-09-08 16:11:28 EDT |
 | sase | [`1cad7ed`](https://github.com/sase-org/sase/commit/1cad7ed16e4af8de850cf2f35cfe35164706fc2c) | feat(usage): make provider usage tracking default-on and drop the beta flag | [sase-y5.11](sase-y5.11.md) | 2026-09-09 05:28:42 EDT |
 | sase | [`d165fbb`](https://github.com/sase-org/sase/commit/d165fbbaaf0abfac0a23114e4a25a5381715beb6) | fix(usage): omit relative age on future verbose reset labels | [sase-y5.12.2](sase-y5.12.2.md) | 2026-09-09 07:40:24 EDT |
+| sase | [`cef06cd`](https://github.com/sase-org/sase/commit/cef06cdcad1c34723d9f1ce1d9c9bce013624fed) | feat(usage): restore scoped capacity hints and usage attention (sase-y5.12.1) | [sase-y5.12.1](sase-y5.12.1.md) | 2026-09-09 07:57:47 EDT |
