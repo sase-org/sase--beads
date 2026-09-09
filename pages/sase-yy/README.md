@@ -30,7 +30,7 @@ Automatic artifact-link writes never produce a merge conflict an agent must hand
 | [sase-yy.1](sase-yy.1.md) | Semantic resolver for link-index conflicts | ✓ closed | large | 2026-09-09 | 1 | 2 |
 | [sase-yy.2](sase-yy.2.md) | Immutable link-event contract and reducer in Rust core | ✓ closed | large | 2026-09-09 | 1 | 2 |
 | [sase-yy.3](sase-yy.3.md) | Durable operation identity in the link outbox | ✓ closed | medium | 2026-09-09 | 1 | 1 |
-| [sase-yy.4](sase-yy.4.md) | Automatic link writes publish as events through the machine lane | ◐ in_progress | large | 2026-09-09 | 1 | 1 |
+| [sase-yy.4](sase-yy.4.md) | Automatic link writes publish as events through the machine lane | ✓ closed | large | 2026-09-09 | 1 | 2 |
 | [sase-yy.5](sase-yy.5.md) | Readers, projections, and maintenance consume reduced events | ◐ in_progress | large | 2026-09-09 | 1 | 0 |
 | [sase-yy.6](sase-yy.6.md) | Fence, import legacy indexes, and cut over | ◐ in_progress | large | 2026-09-09 | 1 | 0 |
 | [sase-yy.7](sase-yy.7.md) | Multi-clone acceptance suite and conflict-free guarantee | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
@@ -43,7 +43,7 @@ flowchart TD
     n1["sase-yy.1: Semantic resolver for link-index conflicts [closed]"]
     n2["sase-yy.2: Immutable link-event contract and reducer in Rust core [closed]"]
     n3["sase-yy.3: Durable operation identity in the link outbox [closed]"]
-    n4["sase-yy.4: Automatic link writes publish as events through the machine lane [in_progress]"]
+    n4["sase-yy.4: Automatic link writes publish as events through the machine lane [closed]"]
     n5["sase-yy.5: Readers, projections, and maintenance consume reduced events [in_progress]"]
     n6["sase-yy.6: Fence, import legacy indexes, and cut over [in_progress]"]
     n7["sase-yy.7: Multi-clone acceptance suite and conflict-free guarantee [in_progress]"]
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.1.md) | [sase-yy.1](sase-yy.1.md) | 2 |
 | [bbugyi200.athena.sase-yy.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.2.md) | [sase-yy.2](sase-yy.2.md) | 2 |
 | [bbugyi200.athena.sase-yy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.3/README.md) | [sase-yy.3](sase-yy.3.md) | 1 |
-| [bbugyi200.athena.sase-yy.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.4.md) | [sase-yy.4](sase-yy.4.md) | 1 |
+| [bbugyi200.athena.sase-yy.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.4.md) | [sase-yy.4](sase-yy.4.md) | 2 |
 | [bbugyi200.athena.sase-yy.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.5.md) | [sase-yy.5](sase-yy.5.md) | 0 |
 | [bbugyi200.athena.sase-yy.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.6/README.md) | [sase-yy.6](sase-yy.6.md) | 0 |
 | [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 0 |
@@ -87,3 +87,4 @@ flowchart TD
 | sase-core | [`sase-core@55770cb`](https://github.com/sase-org/sase-core/commit/55770cb46f4ab99d61289fb6efee7c6fb96877db) | feat(artifact-links): merge link indexes | [sase-yy.1](sase-yy.1.md) | 2026-09-09 13:42:52 EDT |
 | sase | [`fb89440`](https://github.com/sase-org/sase/commit/fb89440a55d1971bb0bb17934ef0ebace24ddeee) | feat(artifact-links): add operation-aware link outbox | [sase-yy.3](sase-yy.3.md) | 2026-09-09 14:25:28 EDT |
 | sase | [`37ab56b`](https://github.com/sase-org/sase/commit/37ab56bd93a84d851c80cc5c50e63c75747f4aa6) | feat(artifact-links): publish immutable link events | [sase-yy.4](sase-yy.4.md) | 2026-09-09 16:23:43 EDT |
+| sase-core | [`sase-core@1842f29`](https://github.com/sase-org/sase-core/commit/1842f29c00a9288f90d8cbc898ef8c8a40731c85) | feat(beads): support link operation ids | [sase-yy.4](sase-yy.4.md) | 2026-09-09 16:27:08 EDT |

@@ -20,7 +20,7 @@ outbox-identity: give every queued link mutation a full-strength operation id, s
 ## Dependencies
 
 - **Depends on:** [sase-yy.2](sase-yy.2.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yy.4](sase-yy.4.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yy.4](sase-yy.4.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yy.5](sase-yy.5.md) ◐ · ⧖ 2026-09-09
 
 ## Agents
