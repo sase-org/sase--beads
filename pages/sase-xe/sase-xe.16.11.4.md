@@ -17,8 +17,8 @@ setup-integration: consume the published core surface through thin adapters, pre
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-xe.16.11.5](sase-xe.16.11.5.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ○ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.5](sase-xe.16.11.5.md) ○ · ⧖ 2026-09-09
 
 ## Agents
 

@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-xe.16.11](sase-xe.16.11.md) / sase-xe.16.11.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-xe.16.land--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.land.md) · **Assignee:** `sase-xe.16.11.5` · **Size:** medium
 **Created:** 2026-09-09 04:38:30 EDT
 **Plan:** [202609/remote\_dispatch\_landing\_remaining.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_landing_remaining.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-09-09T16:02:53Z · done
+>
+> (none)
+>
+> Reopened 2026-09-09T16:12:23Z by `sase bead open`
 
 ## Description
 
@@ -27,6 +35,10 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 
 [2026-09-09T15:39:32Z · sase-xe.16.11.5] PROPOSED FOLLOW-UP: Fleet catalog hydration did not include a just-launched Apollo running agent in the same ACE session (153 rows / Fleet chip 1 unchanged). Force a cache-busting catalog after a dispatch receipt, and make sase machine agent stop resolve operation-id names like dispatch-<hex> / ace(run)-<stamp> from the target, not only currently projected Fleet rows.
 
+[2026-09-09T16:02:53Z · sase-xe.16.11.5] Auto-closed by `sase stitch create` after create_commit landed b7c6bc006 ("fix(ace): decode live Fleet worker envelopes for Apollo catalog rows"). No verification is implied by this note. Reopen with `sase bead open sase-xe.16.11.5`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
+[2026-09-09T16:14:31Z · sase-xe.16.11.land] LAND AUDIT: Reopened after automatic-close note #8 because note #4 explicitly leaves receipt/launch visibility/TUI output/stop unmet; note #3 only proves unavailable content on a stale row. b7c6bc006 improves real envelope traversal, legal requests, basic metadata and canonical project alias resolution, but proposals #5-#7 are required epic work. Fresh audit probes: payload.freshness.partial=True projects partial=False; summary.observed_at_unix=1800000000 projects fleet_observed_at_unix=None; one followed DONE row with host-wide counts.running=9 projects Focus remote running=9; raw worker host objects still fail the Rust count schema on alias and are silently swallowed. Gateway batch_lookup confirms counts are host-wide. catalog_next_cursor chooses one host cursor and _fetch_fleet_catalog broadcasts it to all hosts with a hard three-page stop. Preserve the successful Serve/init/hello evidence from #1-#2, but require matching published builds and same-session live launch receipt, fresh visibility, known recent DONE, follow/output/stop and gateway restart recovery before normal close. The remaining-work child plan owns all repairs; do not create standalone debt for these proposals.
+
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.4](sase-xe.16.11.4.md) ✓ · ⧖ 2026-09-09
@@ -36,12 +48,14 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
+| [bbugyi200.athena.toobig-52.machine\_init.0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.toobig-52.machine_init.0.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b7c6bc0`](https://github.com/sase-org/sase/commit/b7c6bc0067032b53f30e841b54a6f179d4ff52e1) | fix(ace): decode live Fleet worker envelopes for Apollo catalog rows | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 11:59:41 EDT |
+| sase | [`54b1d07`](https://github.com/sase-org/sase/commit/54b1d07a4ca2bdefb15cb2fecfb0e34ed892ced5) | refactor(dispatch): split machine init helpers | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 12:48:39 EDT |
 
 <!-- sase:referenced-by:start -->
 

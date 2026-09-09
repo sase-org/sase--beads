@@ -135,25 +135,32 @@ flowchart TD
     n11["sase-xe.16.11: Finish remote dispatch setup correctness and live acceptance [in_progress]"]
     n12["sase-xe.16.11.1: Put discovery and enrollment reconciliation policy in Rust [closed]"]
     n13["sase-xe.16.11.2: Share followed-family promotion decisions across frontends [closed]"]
-    n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [closed]"]
+    n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [open]"]
     n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [closed]"]
-    n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [in_progress]"]
-    n17["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
-    n18["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
-    n19["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [closed]"]
-    n20["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
-    n21["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [closed]"]
-    n22["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
-    n23["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [closed]"]
-    n24["sase-xe.16.9: Fleet benches under faults and the remaining failure-table tests [closed]"]
-    n25["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
-    n26["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
-    n27["sase-xe.4: Authenticated enrollment and hardened gateway access [closed]"]
-    n28["sase-xe.5: Bounded remote read protocol with recoverable events [closed]"]
-    n29["sase-xe.6: Durable mutation journal and launch admission recovery [closed]"]
-    n30["sase-xe.7: Dispatch provider plugin hooks, built-in providers, and config schema [closed]"]
-    n31["sase-xe.8: sase machine CLI group and sase init enrollment [closed]"]
-    n32["sase-xe.9: Durable follow subscriptions with family continuity [closed]"]
+    n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [open]"]
+    n17["sase-xe.16.11.6: Finish Fleet contracts, reliable dispatch, and Apollo acceptance [in_progress]"]
+    n18["sase-xe.16.11.6.1: Share Fleet request, projection, freshness, and count policy in Rust [in_progress]"]
+    n19["sase-xe.16.11.6.2: Honor TLS trust and isolate catalog continuation by host [in_progress]"]
+    n20["sase-xe.16.11.6.3: Recover delayed launch receipts and newly launched remote identities [in_progress]"]
+    n21["sase-xe.16.11.6.4: Consume published contracts and implement honest Fleet navigation [in_progress]"]
+    n22["sase-xe.16.11.6.5: Drive ACE requests through real worker envelopes and refresh the fixtures [in_progress]"]
+    n23["sase-xe.16.11.6.6: Complete and record the same-session Athena-to-Apollo workflow [in_progress]"]
+    n24["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
+    n25["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
+    n26["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [closed]"]
+    n27["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
+    n28["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [closed]"]
+    n29["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
+    n30["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [closed]"]
+    n31["sase-xe.16.9: Fleet benches under faults and the remaining failure-table tests [closed]"]
+    n32["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
+    n33["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
+    n34["sase-xe.4: Authenticated enrollment and hardened gateway access [closed]"]
+    n35["sase-xe.5: Bounded remote read protocol with recoverable events [closed]"]
+    n36["sase-xe.6: Durable mutation journal and launch admission recovery [closed]"]
+    n37["sase-xe.7: Dispatch provider plugin hooks, built-in providers, and config schema [closed]"]
+    n38["sase-xe.8: sase machine CLI group and sase init enrollment [closed]"]
+    n39["sase-xe.9: Durable follow subscriptions with family continuity [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -170,55 +177,67 @@ flowchart TD
     n11 --> n14
     n11 --> n15
     n11 --> n16
-    n8 --> n17
-    n8 --> n18
-    n8 --> n19
-    n8 --> n20
-    n8 --> n21
-    n8 --> n22
-    n8 --> n23
+    n11 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n17 --> n22
+    n17 --> n23
     n8 --> n24
-    n0 --> n25
-    n0 --> n26
-    n0 --> n27
-    n0 --> n28
-    n0 --> n29
-    n0 --> n30
-    n0 --> n31
+    n8 --> n25
+    n8 --> n26
+    n8 --> n27
+    n8 --> n28
+    n8 --> n29
+    n8 --> n30
+    n8 --> n31
     n0 --> n32
-    n1 -.-> n26
+    n0 --> n33
+    n0 --> n34
+    n0 --> n35
+    n0 --> n36
+    n0 --> n37
+    n0 --> n38
+    n0 --> n39
+    n1 -.-> n33
     n2 -.-> n3
     n2 -.-> n4
     n3 -.-> n5
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
-    n9 -.-> n17
-    n9 -.-> n18
+    n9 -.-> n24
+    n9 -.-> n25
     n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
     n15 -.-> n16
-    n17 -.-> n10
-    n18 -.-> n10
-    n19 -.-> n21
-    n21 -.-> n10
+    n18 -.-> n19
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n22
     n22 -.-> n23
-    n22 -.-> n24
-    n25 -.-> n26
-    n25 -.-> n27
-    n25 -.-> n30
-    n25 -.-> n32
-    n26 -.-> n3
-    n27 -.-> n28
-    n27 -.-> n29
-    n27 -.-> n31
-    n28 -.-> n2
-    n29 -.-> n4
-    n30 -.-> n2
-    n30 -.-> n31
-    n31 -.-> n4
-    n32 -.-> n3
+    n24 -.-> n10
+    n25 -.-> n10
+    n26 -.-> n28
+    n28 -.-> n10
+    n29 -.-> n30
+    n29 -.-> n31
+    n32 -.-> n33
+    n32 -.-> n34
+    n32 -.-> n37
+    n32 -.-> n39
+    n33 -.-> n3
+    n34 -.-> n35
+    n34 -.-> n36
+    n34 -.-> n38
+    n35 -.-> n2
+    n36 -.-> n4
+    n37 -.-> n2
+    n37 -.-> n38
+    n38 -.-> n4
+    n39 -.-> n3
 ```
 
 ## Agents
@@ -239,7 +258,14 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.land/README.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.1/README.md) | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.2/README.md) | [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.3/README.md) | [sase-xe.16.11.6.3](sase-xe.16.11.6.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.4/README.md) | [sase-xe.16.11.6.4](sase-xe.16.11.6.4.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.5/README.md) | [sase-xe.16.11.6.5](sase-xe.16.11.6.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.6/README.md) | [sase-xe.16.11.6.6](sase-xe.16.11.6.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.land/README.md) | [sase-xe.16.11.6](sase-xe.16.11.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.land.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 1 |
@@ -257,6 +283,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.8.md) | [sase-xe.8](sase-xe.8.md) | 1 |
 | [bbugyi200.athena.sase-xe.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.9/README.md) | [sase-xe.9](sase-xe.9.md) | 2 |
 | [bbugyi200.athena.sase-xe.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.land.md) | [sase-xe](README.md) | 2 |
+| [bbugyi200.athena.toobig-52.machine\_init.0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.toobig-52.machine_init.0.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 
 ## Commits
 
@@ -299,6 +326,7 @@ flowchart TD
 | sase-core | [`sase-core@a6d40ba`](https://github.com/sase-org/sase-core/commit/a6d40bad16a8f0b8e16510edcd58067a8af56137) | fix(gateway): bound outer deadline grace and prove worker/routes fencing with real fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:23:06 EDT |
 | sase | [`20c7b98`](https://github.com/sase-org/sase/commit/20c7b9804577b7db315f42131b5702379f4d1c49) | feat(dispatch): integrate core setup policy and durable activation | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 2026-09-09 10:13:15 EDT |
 | sase | [`b7c6bc0`](https://github.com/sase-org/sase/commit/b7c6bc0067032b53f30e841b54a6f179d4ff52e1) | fix(ace): decode live Fleet worker envelopes for Apollo catalog rows | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 11:59:41 EDT |
+| sase | [`54b1d07`](https://github.com/sase-org/sase/commit/54b1d07a4ca2bdefb15cb2fecfb0e34ed892ced5) | refactor(dispatch): split machine init helpers | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 12:48:39 EDT |
 
 <!-- sase:referenced-by:start -->
 

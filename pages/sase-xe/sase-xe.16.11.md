@@ -47,11 +47,23 @@ The snapshot's 152 catalog records (90 DONE) versus one logical running agent an
 
 Source: research:202609/apollo_fleet_contract_repair/apollo_fleet_contract_repair.md; immutable report snapshot file:explicit:42276af3c0f32fd66859f99d. No implementation or live acceptance was performed while adding these notes.
 
+[2026-09-09T16:15:27Z · sase-xe.16.11.land] LANDING AUDIT / REMAINING WORK: Read this epic and all four original epic notes, all five child beads and all sixteen original child note entries; read the linked plan and consolidated Apollo contract research using audited artifact reads. Verified core commits 0318b31, 06025ba, a6d40ba and SASE d015f48cb, 20c7b9804, b7c6bc006 against current source. Setup and follow-promotion policies/bindings/adapters, detailed discovery, shared activation, repair credential retention, tracked apply, setup guidance, bootstrap round-trip tests and actual benchmark overlap are implemented. Reopened .3 (fast connection refusal is not a successful healthy host; instance test fabricates the old locator) and .5 (automatic close contradicts explicit unmet live gate). No epic or linked plan is marked done.
+
+SOURCE AND PROBE FINDINGS: worker RemoteHost ignores plan.tls; fast-host deadline test expressly asserts status != ok. New Python Fleet traversal handles rows and some metadata but still duplicates shared backend policy; the real count binding rejects raw worker hosts on alias and fallback swallows it. A followed DONE row inherited host-wide running=9 as Focus remote=9, partial=True at payload.freshness became projection.partial=False, and summary observed_at became None. One global cursor is broadcast across hosts and a hard three-page loop has no continuation. The original synthetic fleet_fixture and much coverage still use hosts.summaries and invented metadata. Target launch synchronously waits for agent_bridge launch_text before returning a settled receipt; controller uses the generic short request timeout, while source notes prove an agent started after its reply deadline and remained absent from the catalog. Recovery and same-session output/stop remain required.
+
+INTEGRATION: Fetched origin/master equals HEAD b7c6bc006; inspected all SASE commits since epic creation (earlier than the first Python epic commit), plus core history from 0318b31 to 3baa689 (0.32.55). Queue unconditional/floor changes, star model completion/LSP, checkpoint evidence, usage/pager chrome, hidden-sidecar deadlines, and test-cost updates do not repair these gaps. Preserve queue/dispatch rejection, shared model alias/LSP parity, current core floor and the pytest_plugins benchmark fixture registration from f4ca78c0f. Later core release/model-shortcut commits remain compatible; republish and ratchet when new bindings are consumed. No outstanding base commits at audit time.
+
+ALL PROPOSED FOLLOW-UP DISPOSITIONS: .3#1 TLS -> absorb into missing authenticated healthy-host proof; .3#2 merged Fleet panel/performance -> absorb into realistic fixture/navigation and machine-section integration, since it arises from epic Fleet rows and its stress contract (do not blindly set a local tribe). .5#5 Rust extraction -> mandatory epic backend-boundary repair, not optional debt. .5#6 late launch receipt/diagnostics -> mandatory reliable dispatch and live acceptance work. .5#7 missing launched catalog row/stop identity -> mandatory launch visibility/recovery and exact-instance management work; diagnose owner snapshot/cache/identity instead of assuming one cache-bust fixes it. No proposals were discarded; standalone tasks declined because all five belong to this active epic. /sase_new_task usage recorded; bug and all-type searches, complete recent-task sweeps and active-epic/related-phase inspection found no duplicate task. sase-ya is only documentation memory work, not a repair duplicate.
+
+VERIFICATI
+
+… and 748 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.land/README.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.land.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
