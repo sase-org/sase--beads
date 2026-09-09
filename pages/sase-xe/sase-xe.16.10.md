@@ -39,6 +39,8 @@ live-apollo-proof: write the target-preparation runbook (docs/) covering support
 
 [2026-09-09T01:12:15Z · sase-xe.16.land] LAND AUDIT: reopened this phase because note #7 explicitly leaves bootstrap/enrollment/dispatch proof blocked and note #8 is an automatic stitch close without verification. Fresh read-only SSH during landing confirms sase-gateway-proof.service active, loopback GET /api/v1/health status=ok with fleet protocol 1 and core 0.32.48, but tailscale serve status still says No serve config. Live enrollment, launches, TUI follow/output/stop and restart recovery remain required. They are included in the remaining-work child plan being prepared under sase-xe.16; do not count the runbook commit as live proof.
 
+[2026-09-09T15:39:54Z · sase-xe.16.11.5] LIVE PROOF UPDATE from sase-xe.16.11.5: Tailscale Serve on Apollo is configured (HTTPS root -> 127.0.0.1:7629). Canonical init enrolled apollo; authenticated hello ok protocol 1; doctor dispatch OK. ACE Fleet shows Apollo rows/counts after adapter repair. Remaining unmet: Athena dispatch receipt/deadline, TUI output/stop of a newly launched remote observation agent. Do not treat this as phase close.
+
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.2](sase-xe.16.2.md) ✓ · ⧖ 2026-09-08
