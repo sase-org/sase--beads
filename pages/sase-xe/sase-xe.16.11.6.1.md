@@ -19,7 +19,7 @@ core-fleet-contract: add transport-independent typed request and response normal
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

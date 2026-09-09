@@ -25,7 +25,7 @@
 | related | [bead:sase-y9][2] | epic sase-xe landed the %dispatch directive vocabulary (50b1405f4) whose head produced two of the three promoting records |
 | related | [bead:sase-ya][3] | Epic sase-xe shipped the remote dispatch feature this memory note must document; its plan and phase notes are the primary sources. |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-y9/README.md
@@ -117,129 +117,6 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [sase-xe.8](sase-xe.8.md) | sase machine CLI group and sase init enrollment | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.9](sase-xe.9.md) | Durable follow subscriptions with family continuity | ✓ closed | medium | 2026-09-06 | 1 | 2 |
 
-## Lineage
-
-```mermaid
-flowchart TD
-    n0["sase-xe: Remote dispatch and the Focus/Fleet agents experience [open]"]
-    n1["sase-xe.1: Bounded index-backed local listing reads [closed]"]
-    n2["sase-xe.10: Local federation worker and Python remote facade [closed]"]
-    n3["sase-xe.11: Focus and Fleet sub-views of the Agents tab [closed]"]
-    n4["sase-xe.12: The %dispatch directive and reliable remote launch [closed]"]
-    n5["sase-xe.13: Remote lifecycle management parity [closed]"]
-    n6["sase-xe.14: Remote questions, gates, and notification deduplication [closed]"]
-    n7["sase-xe.15: Fleet-wide acceptance, flag removal, and polish [closed]"]
-    n8["sase-xe.16: Complete remote dispatch - target bootstrap, tailnet discovery, canonical machine init, and the live Apollo proof [in_progress]"]
-    n9["sase-xe.16.1: Package the gateway, bind bootstrap issuance, advertise fleet protocol [closed]"]
-    n10["sase-xe.16.10: Runbook plus live Athena-to-Apollo end-to-end proof [open]"]
-    n11["sase-xe.16.11: Finish remote dispatch setup correctness and live acceptance [in_progress]"]
-    n12["sase-xe.16.11.1: Put discovery and enrollment reconciliation policy in Rust [closed]"]
-    n13["sase-xe.16.11.2: Share followed-family promotion decisions across frontends [closed]"]
-    n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [open]"]
-    n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [closed]"]
-    n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [open]"]
-    n17["sase-xe.16.11.6: Finish Fleet contracts, reliable dispatch, and Apollo acceptance [in_progress]"]
-    n18["sase-xe.16.11.6.1: Share Fleet request, projection, freshness, and count policy in Rust [closed]"]
-    n19["sase-xe.16.11.6.2: Honor TLS trust and isolate catalog continuation by host [in_progress]"]
-    n20["sase-xe.16.11.6.3: Recover delayed launch receipts and newly launched remote identities [in_progress]"]
-    n21["sase-xe.16.11.6.4: Consume published contracts and implement honest Fleet navigation [in_progress]"]
-    n22["sase-xe.16.11.6.5: Drive ACE requests through real worker envelopes and refresh the fixtures [in_progress]"]
-    n23["sase-xe.16.11.6.6: Complete and record the same-session Athena-to-Apollo workflow [in_progress]"]
-    n24["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
-    n25["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
-    n26["sase-xe.16.4: Real builtin tailnet discovery with bounded probes and honest defaults [closed]"]
-    n27["sase-xe.16.5: Third-party provider imports follow the finalizers trust model [closed]"]
-    n28["sase-xe.16.6: Canonical `sase machine init` with real activation and honest outcomes [closed]"]
-    n29["sase-xe.16.7: Offline fleet fixture and hidden-Fleet laziness regression tests [closed]"]
-    n30["sase-xe.16.8: PNG snapshot coverage for Fleet and Focus states [closed]"]
-    n31["sase-xe.16.9: Fleet benches under faults and the remaining failure-table tests [closed]"]
-    n32["sase-xe.2: Portable identity, resolved records, and operation contracts in sase-core [closed]"]
-    n33["sase-xe.3: Split owner resolution from pure presentation in ACE loaders [closed]"]
-    n34["sase-xe.4: Authenticated enrollment and hardened gateway access [closed]"]
-    n35["sase-xe.5: Bounded remote read protocol with recoverable events [closed]"]
-    n36["sase-xe.6: Durable mutation journal and launch admission recovery [closed]"]
-    n37["sase-xe.7: Dispatch provider plugin hooks, built-in providers, and config schema [closed]"]
-    n38["sase-xe.8: sase machine CLI group and sase init enrollment [closed]"]
-    n39["sase-xe.9: Durable follow subscriptions with family continuity [closed]"]
-    n0 --> n1
-    n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n8 --> n9
-    n8 --> n10
-    n8 --> n11
-    n11 --> n12
-    n11 --> n13
-    n11 --> n14
-    n11 --> n15
-    n11 --> n16
-    n11 --> n17
-    n17 --> n18
-    n17 --> n19
-    n17 --> n20
-    n17 --> n21
-    n17 --> n22
-    n17 --> n23
-    n8 --> n24
-    n8 --> n25
-    n8 --> n26
-    n8 --> n27
-    n8 --> n28
-    n8 --> n29
-    n8 --> n30
-    n8 --> n31
-    n0 --> n32
-    n0 --> n33
-    n0 --> n34
-    n0 --> n35
-    n0 --> n36
-    n0 --> n37
-    n0 --> n38
-    n0 --> n39
-    n1 -.-> n33
-    n2 -.-> n3
-    n2 -.-> n4
-    n3 -.-> n5
-    n4 -.-> n5
-    n5 -.-> n6
-    n6 -.-> n7
-    n9 -.-> n24
-    n9 -.-> n25
-    n12 -.-> n13
-    n13 -.-> n14
-    n14 -.-> n15
-    n15 -.-> n16
-    n18 -.-> n19
-    n19 -.-> n20
-    n20 -.-> n21
-    n21 -.-> n22
-    n22 -.-> n23
-    n24 -.-> n10
-    n25 -.-> n10
-    n26 -.-> n28
-    n28 -.-> n10
-    n29 -.-> n30
-    n29 -.-> n31
-    n32 -.-> n33
-    n32 -.-> n34
-    n32 -.-> n37
-    n32 -.-> n39
-    n33 -.-> n3
-    n34 -.-> n35
-    n34 -.-> n36
-    n34 -.-> n38
-    n35 -.-> n2
-    n36 -.-> n4
-    n37 -.-> n2
-    n37 -.-> n38
-    n38 -.-> n4
-    n39 -.-> n3
-```
-
 ## Agents
 
 | Agent | Bead | Commits |
@@ -259,12 +136,20 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.1/README.md) | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.2/README.md) | [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.3/README.md) | [sase-xe.16.11.6.3](sase-xe.16.11.6.3.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.4/README.md) | [sase-xe.16.11.6.4](sase-xe.16.11.6.4.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.5/README.md) | [sase-xe.16.11.6.5](sase-xe.16.11.6.5.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.6/README.md) | [sase-xe.16.11.6.6](sase-xe.16.11.6.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.land/README.md) | [sase-xe.16.11.6](sase-xe.16.11.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.1/README.md) | [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.10/README.md) | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.11/README.md) | [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.12/README.md) | [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.13/README.md) | [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.5/README.md) | [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.6/README.md) | [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.7/README.md) | [sase-xe.16.11.7.7](sase-xe.16.11.7.7.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.8/README.md) | [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.9/README.md) | [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.land/README.md) | [sase-xe.16.11.7](sase-xe.16.11.7.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.land.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 1 |
@@ -328,6 +213,7 @@ flowchart TD
 | sase | [`b7c6bc0`](https://github.com/sase-org/sase/commit/b7c6bc0067032b53f30e841b54a6f179d4ff52e1) | fix(ace): decode live Fleet worker envelopes for Apollo catalog rows | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 11:59:41 EDT |
 | sase | [`54b1d07`](https://github.com/sase-org/sase/commit/54b1d07a4ca2bdefb15cb2fecfb0e34ed892ced5) | refactor(dispatch): split machine init helpers | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 12:48:39 EDT |
 | sase | [`8c8dfc3`](https://github.com/sase-org/sase/commit/8c8dfc3f6b08a1ce26304fff822f339c9c84b591) | feat(fleet): consume Rust federation counts | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 2026-09-09 15:02:16 EDT |
+| sase-core | [`sase-core@6b29558`](https://github.com/sase-org/sase-core/commit/6b29558e8ac031df97133fd2a4991dd67f339ee2) | feat(fleet): normalize federation read envelopes | [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) | 2026-09-09 16:45:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -337,8 +223,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.1n.final][1] | Record direct epic evidence for the consolidated initialization report | 1 |
 | read-by | [agent:research.1p.final][2] | Record parent epic history as context for the Fleet contract repair recommendation | 1 |
+| read-by | [agent:research.1q.final_2][3] | Record epic context after the bead command refreshed the published page | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1n.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1q.final_2/README.md
 
 <!-- sase:referenced-by:end -->

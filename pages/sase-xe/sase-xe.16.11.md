@@ -14,8 +14,9 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/remote_dispatch_landing_remaining.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:edfec327db7e0bf48738d238 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_landing_remaining.md
 
@@ -72,7 +73,9 @@ VERIFICATI
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.1p.final][1] | Record the active epic ownership and current Fleet repair gap for the consolidated research | 1 |
+| read-by | [agent:research.1q.final_2][2] | Read the current remaining-work epic so the UX recommendation distinguishes design changes from known acceptance gaps | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1q.final_2/README.md
 
 <!-- sase:referenced-by:end -->
