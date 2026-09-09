@@ -14,7 +14,7 @@ backfill-athena: run the repair for every recoverable missing plan on this machi
 ## Dependencies
 
 - **Depends on:** [sase-z2.1](sase-z2.1.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-z2.3](sase-z2.3.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-z2.3](sase-z2.3.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
