@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-xe.16](sase-xe.16.md) / sase-xe.16.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08c](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08c.md) · **Assignee:** `sase-xe.16.10` · **Size:** medium
 **Created:** 2026-09-08 10:21:40 EDT
 **Plan:** [202609/remote\_dispatch\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_completion.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-09-09T00:52:17Z · done
+>
+> (none)
+>
+> Reopened 2026-09-09T01:00:46Z by `sase bead open`
 
 ## Description
 
@@ -26,6 +34,10 @@ live-apollo-proof: write the target-preparation runbook (docs/) covering support
 [2026-09-08T22:35:18Z · sase-xe.16.10] PROPOSED FOLLOW-UP: just check fails on unused public artifact_link_eligibility_wire_schema_version in src/sase/core/eligibility_facade.py (in-file + tests only; landed on master in dd1f829c2). Make it private and stop importing it from tests. Outside live-apollo-proof surfaces.
 
 [2026-09-09T00:16:19Z · sase-xe.16.10] LIVE PROOF UPDATE: restored remote dispatch runbook docs/remote_dispatch.md and links (mkdocs nav, init, mobile gateway, CLI machine epilog); fixed symvision by making eligibility schema-version helper private and refreshed contract manifest. Verified CARGO_TARGET_DIR=/var/tmp/sase-core-target-sase13-release just check passed; mkdocs build --strict passed; focused parser/eligibility tests passed. Apollo gateway remains locally healthy on 127.0.0.1:7629 with supported_protocol_versions=[1], but tailscale serve --bg --yes 7629 still times out with "Serve is not enabled on your tailnet" and no Serve config; sase machine discover sees Apollo at https://apollo.tail297af1.ts.net but HTTPS health is ConnectionRefusedError. Bootstrap/enrollment/%dispatch proof remains blocked externally, so phase left open.
+
+[2026-09-09T00:52:17Z · sase-xe.16.10] Auto-closed by `sase stitch create` after create_commit landed 890660e25 ("docs(dispatch): add remote setup runbook"). No verification is implied by this note. Reopen with `sase bead open sase-xe.16.10`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
+[2026-09-09T01:12:15Z · sase-xe.16.land] LAND AUDIT: reopened this phase because note #7 explicitly leaves bootstrap/enrollment/dispatch proof blocked and note #8 is an automatic stitch close without verification. Fresh read-only SSH during landing confirms sase-gateway-proof.service active, loopback GET /api/v1/health status=ok with fleet protocol 1 and core 0.32.48, but tailscale serve status still says No serve config. Live enrollment, launches, TUI follow/output/stop and restart recovery remain required. They are included in the remaining-work child plan being prepared under sase-xe.16; do not count the runbook commit as live proof.
 
 ## Dependencies
 

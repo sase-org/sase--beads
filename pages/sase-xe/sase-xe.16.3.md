@@ -18,7 +18,7 @@ machine-bootstrap-cli: add `sase machine bootstrap [-e|--expires SECONDS] [-j|--
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.1](sase-xe.16.1.md) ✓ · ⧖ 2026-09-08
-- **Blocks:** [sase-xe.16.10](sase-xe.16.10.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-xe.16.10](sase-xe.16.10.md) ○ · ⧖ 2026-09-08
 
 ## Agents
 
