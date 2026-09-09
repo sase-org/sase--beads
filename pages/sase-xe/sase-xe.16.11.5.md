@@ -20,3 +20,15 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.1p.final][1] | Record the live Apollo acceptance gate that must not pass with empty Fleet or broken Focus | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
+
+<!-- sase:referenced-by:end -->

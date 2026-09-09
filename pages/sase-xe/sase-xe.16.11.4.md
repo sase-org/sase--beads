@@ -13,7 +13,7 @@ setup-integration: consume the published core surface through thin adapters, pre
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.5](sase-xe.16.11.5.md) ◐ · ⧖ 2026-09-09
 
 ## Agents
@@ -21,3 +21,15 @@ setup-integration: consume the published core surface through thin adapters, pre
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.1p.final][1] | Record the setup-integration scope and its separation from Fleet catalog decoding | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
+
+<!-- sase:referenced-by:end -->

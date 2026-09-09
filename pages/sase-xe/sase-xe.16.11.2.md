@@ -33,7 +33,7 @@ TUI projection and off-thread persistence stay in Python. Do not ratchet sase-co
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.1](sase-xe.16.11.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.3](sase-xe.16.11.3.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

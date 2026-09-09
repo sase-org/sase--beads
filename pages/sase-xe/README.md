@@ -25,7 +25,7 @@
 | related | [bead:sase-y9][2] | epic sase-xe landed the %dispatch directive vocabulary (50b1405f4) whose head produced two of the three promoting records |
 | related | [bead:sase-ya][3] | Epic sase-xe shipped the remote dispatch feature this memory note must document; its plan and phase notes are the primary sources. |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-y9/README.md
@@ -135,7 +135,7 @@ flowchart TD
     n11["sase-xe.16.11: Finish remote dispatch setup correctness and live acceptance [in_progress]"]
     n12["sase-xe.16.11.1: Put discovery and enrollment reconciliation policy in Rust [closed]"]
     n13["sase-xe.16.11.2: Share followed-family promotion decisions across frontends [closed]"]
-    n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [in_progress]"]
+    n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [closed]"]
     n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [in_progress]"]
     n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [in_progress]"]
     n17["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
@@ -236,7 +236,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.10.md) | [sase-xe.16.10](sase-xe.16.10.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.1/README.md) | [sase-xe.16.11.1](sase-xe.16.11.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.2/README.md) | [sase-xe.16.11.2](sase-xe.16.11.2.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.3/README.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.land/README.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
@@ -295,6 +295,7 @@ flowchart TD
 | sase | [`890660e`](https://github.com/sase-org/sase/commit/890660e257526d3c8fd1d78ec3e0ab53a062321c) | docs(dispatch): add remote setup runbook | [sase-xe.16.10](sase-xe.16.10.md) | 2026-09-08 20:49:56 EDT |
 | sase-core | [`sase-core@0318b31`](https://github.com/sase-org/sase-core/commit/0318b317e8bd96482f2dca4ea4819527ab907055) | feat(core): add Tailnet discovery and enrollment reconciliation policy | [sase-xe.16.11.1](sase-xe.16.11.1.md) | 2026-09-09 05:05:05 EDT |
 | sase-core | [`sase-core@06025ba`](https://github.com/sase-org/sase-core/commit/06025baef6985f7a84d997325f774468d8efcaca) | feat(core): derive followed-batch singleton-to-family follow promotions | [sase-xe.16.11.2](sase-xe.16.11.2.md) | 2026-09-09 05:32:12 EDT |
+| sase | [`d015f48`](https://github.com/sase-org/sase/commit/d015f48cb014c70483ee31d3b729c099bdd3e9d5) | fix(dispatch): clarify replayed-bootstrap 409 handling and prove it with real gateway + Fleet fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:19:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -303,7 +304,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.1n.final][1] | Record direct epic evidence for the consolidated initialization report | 1 |
+| read-by | [agent:research.1p.final][2] | Record parent epic history as context for the Fleet contract repair recommendation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1n.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
 
 <!-- sase:referenced-by:end -->
