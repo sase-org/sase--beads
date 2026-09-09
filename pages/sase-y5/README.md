@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-y5
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.052](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.052.md) · **Assignee:** `sase-y5.land`
-**Created:** 2026-09-07 16:09:18 EDT
+**Created:** 2026-09-07 16:09:18 EDT · **Closed:** 2026-09-09 09:07:24 EDT
 **Plan:** [202609/subscription\_capacity.md](https://github.com/sase-org/sase--plans/blob/main/202609/subscription_capacity.md)
 
 <!-- sase:links:start -->
@@ -46,6 +46,20 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 
 [2026-09-09T09:59:19Z · sase-y5.land] DISCOVERED ISSUE (sase-y5 land agent): phase sase-y5.10 closed at 2026-09-08T21:04Z claiming verified work, but its commit never landed — the workflow's 'sase stitch create' failed at 17:05 EDT because the before-commit hook (just fix) hit ENOSPC rebuilding sase_core_rs (/mnt/poseidon was 100% full; same root cause later blocked just install for this landing). The worker's tracked-file edits (picker/indicator/store wiring) were subsequently lost to workspace resets; only its new files survived as untracked and were recovered from a git stash. Recovery artifact: file:explicit:762a0fcfad720e2b70a9331b (git-apply patch vs 1cad7ed16 with usage/hints.py, usage/peek.py, 6 test files, 2 PNG goldens; 8 stale provider_usage_metrics/override_flags references need adapting to the post-flag-removal tree, and store.py needs a provider_usage_window_applies re-export from sase_core_rs). Land agent freed 197G on /mnt/poseidon by deleting stale per-bead cargo target dirs (sase-y5-2, sase-y5-7, sase27, debug, maturin, tmp). Remaining epic work (usage-context re-implementation + release residue) is being planned as a child plan.
 
+[2026-09-09T13:07:24Z · sase-y5.12.land--1] Land verification (continued landing from child epic sase-y5.12, which closed first). All 12 children are closed: phases sase-y5.1 through sase-y5.11 and child epic sase-y5.12. `sase bead epic-symbols sase-y5` is empty and `just symvision` reports "All public/private classes/functions are used properly!". I rechecked every open thread on this bead independently rather than inheriting the previous landing note's summary:
+
+- Note #1/#2 (malformed tests/reproducible_flake_baseline.txt from sase-y5.2 commit b0f6f4f11): repaired during the sase-y6 landing. Re-verified here: `just selection-health --fail-on-new-flake` exits 0, so the gate parses the baseline and renders a verdict again.
+- Note #3/#5 (test_grok_usage_probe_reaps_descendant_processes flake introduced by sase-y5.6): fixed. tests/llm_provider/fixtures/usage_probe/grok_acp_cli.py now writes the child pidfile through _write_text_atomic (temp file + os.replace), which closes the create-before-flush race the note described, and the node carries a `fixed-at: 2026-09-08T22:11:29Z` entry rather than a live suppression.
+- Note #4 (six usage-refresh --epic-symbol whitelist entries keyed to closed phase sase-y5.8) and the sase-y5.7(SyntheticUsageProvider) entry that note #2 re-keyed to sase-y5.11: all gone. `grep -n "epic-symbol" Justfile` returns nothing at all, and all seven symbols (UsageRefreshProviderResult, UsageRefreshReceipt, eligible_usage_providers, mark_usage_refresh_due, run_admitted_refresh, submit_usage_refresh, SyntheticUsageProvider) now have non-test consumers in src/, which is why symvision passes without any exemption.
+- Note #6 (phase sase-y5.10 closed as verified but its commit never landed, ENOSPC in the before-commit hook): that is exactly what child epic sase-y5.12 recovered and landed, in cef06cdca and d165fbbaa.
+- Phase follow-ups sase-y5.3 (store persistence) and sase-y5.4/sase-y5.7 (sase-core-rs floor ratchet) are satisfied at the declared floor 0.32.50, which carries every provider_usage_* binding this epic uses. sase-y5.9 note 1 (pager rendered-link flake) is the sase-yq baseline entry, and its note 2 (verbose reset label) was fixed by sase-y5.12.2.
+
+STATED PLAINLY, BECAUSE IT AFFECTS HOW MUCH THIS CLOSE IS WORTH: phase sase-y5.11 ("Verify the combined feature and remove epic scaffolding") was never worked by an agent. It was auto-closed by `sase stitch create` when create_commit landed 1cad7ed16, and its only note says so explicitly: "No verification is implied by this note." I did not force that phase or paper over it. Instead I checked whether its two deliverables actually happened: the scaffolding removal is done and independently confirmed above (zero --epic-symbol entries, symvision clean), and the combined-feature acceptance is supplied by the monitored `just check-full` this landing ran on the combined tree, which passed every lint gate plus the full test suite. That is the integrated acceptance evidence the usage-release phase called for, arrived at by a different route than planned.
+
+Acceptance run detail and its limits: the monitored command was `just check-full && just test-visual` (b16fy3zcmdcv, 29m36s). check-full passed in full. The chained `just test-visual` failed 35 of 897, and I triaged every one of them rather than rebaselining. Two were contention flakes (one of them this epic's own models_panel_usage golden, now filed as sase-yv). The other 33 are deterministic and provably not this epic's: reverting the whole sase-y5.12 src diff and re-running the same 33 node IDs reproduced all 33 failures against pre-epic source. Their causes are stale goldens left by other landings (sase-wn.10's axe perf-counter row, sase-ws.1's agents-sync import removal, sase-yj.4's %wait to %queue rename), corroborated onto the existing sase-x5, plus one hard assertion failure filed as sase-yu. `just test-visual` is not part of `just check` or `just check-full`, so this lane was already red before this epic and is re
+
+… and 1002 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,11 +80,11 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 
 ```mermaid
 flowchart TD
-    n0["sase-y5: Subscription capacity for Claude, Codex, and Grok [in_progress]"]
+    n0["sase-y5: Subscription capacity for Claude, Codex, and Grok [closed]"]
     n1["sase-y5.1: Define the shared subscription capacity model [closed]"]
     n2["sase-y5.10: Show scoped capacity hints where users choose providers [closed]"]
     n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [closed]"]
-    n4["sase-y5.12: Recover and land the sase-y5 usage-context surface [in_progress]"]
+    n4["sase-y5.12: Recover and land the sase-y5 usage-context surface [closed]"]
     n5["sase-y5.12.1: Re-implement scoped capacity hints and usage attention [closed]"]
     n6["sase-y5.12.2: Fix the verbose reset label, baseline the pager flake, and finish docs [closed]"]
     n7["sase-y5.2: Persist observations and fence stale writers [closed]"]
@@ -118,7 +132,7 @@ flowchart TD
 | [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 1 |
 | [bbugyi200.athena.sase-y5.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.1/README.md) | [sase-y5.12.1](sase-y5.12.1.md) | 1 |
 | [bbugyi200.athena.sase-y5.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.2/README.md) | [sase-y5.12.2](sase-y5.12.2.md) | 1 |
-| [bbugyi200.athena.sase-y5.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.12.land/README.md) | [sase-y5.12](sase-y5.12.md) | 0 |
+| [bbugyi200.athena.sase-y5.12.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-y5.12.land.md) | [sase-y5.12](sase-y5.12.md) | 1 |
 | [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 1 |
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 1 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
@@ -146,3 +160,4 @@ flowchart TD
 | sase | [`1cad7ed`](https://github.com/sase-org/sase/commit/1cad7ed16e4af8de850cf2f35cfe35164706fc2c) | feat(usage): make provider usage tracking default-on and drop the beta flag | [sase-y5.11](sase-y5.11.md) | 2026-09-09 05:28:42 EDT |
 | sase | [`d165fbb`](https://github.com/sase-org/sase/commit/d165fbbaaf0abfac0a23114e4a25a5381715beb6) | fix(usage): omit relative age on future verbose reset labels | [sase-y5.12.2](sase-y5.12.2.md) | 2026-09-09 07:40:24 EDT |
 | sase | [`cef06cd`](https://github.com/sase-org/sase/commit/cef06cdcad1c34723d9f1ce1d9c9bce013624fed) | feat(usage): restore scoped capacity hints and usage attention (sase-y5.12.1) | [sase-y5.12.1](sase-y5.12.1.md) | 2026-09-09 07:57:47 EDT |
+| sase | [`2e30cf4`](https://github.com/sase-org/sase/commit/2e30cf499691e1f35bdf90950cc72f69d1c5d947) | refactor(usage): drop the write-only peek path global | [sase-y5.12](sase-y5.12.md) | 2026-09-09 09:25:23 EDT |
