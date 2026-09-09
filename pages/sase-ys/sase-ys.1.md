@@ -17,7 +17,7 @@ core_lsp_star_alias: make the Rust shortcut filter and edit plan directly consum
 
 ## Dependencies
 
-- **Blocks:** [sase-ys.2](sase-ys.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-ys.2](sase-ys.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

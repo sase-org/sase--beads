@@ -28,7 +28,7 @@ Give xprompt LSP clients the same safe, canonical star-triggered model alias exp
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-ys.1](sase-ys.1.md) | Share the star alias contract with the xprompt LSP | ✓ closed | medium | 2026-09-09 | 1 | 1 |
-| [sase-ys.2](sase-ys.2.md) | Pin the core and prove ACE/LSP parity | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
+| [sase-ys.2](sase-ys.2.md) | Pin the core and prove ACE/LSP parity | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ Give xprompt LSP clients the same safe, canonical star-triggered model alias exp
 flowchart TD
     n0["sase-ys: External-editor star model alias completion [in_progress]"]
     n1["sase-ys.1: Share the star alias contract with the xprompt LSP [closed]"]
-    n2["sase-ys.2: Pin the core and prove ACE/LSP parity [in_progress]"]
+    n2["sase-ys.2: Pin the core and prove ACE/LSP parity [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-ys.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ys.1/README.md) | [sase-ys.1](sase-ys.1.md) | 1 |
-| [bbugyi200.athena.sase-ys.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ys.2/README.md) | [sase-ys.2](sase-ys.2.md) | 0 |
+| [bbugyi200.athena.sase-ys.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ys.2/README.md) | [sase-ys.2](sase-ys.2.md) | 1 |
 | [bbugyi200.athena.sase-ys.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-ys.land/README.md) | [sase-ys](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cb669ec`](https://github.com/sase-org/sase-core/commit/cb669ec96526294cb14b07cd936c28b8b39be9bc) | feat(editor): share the star model-alias shortcut contract with the xprompt LSP | [sase-ys.1](sase-ys.1.md) | 2026-09-09 07:30:41 EDT |
+| sase | [`1852f09`](https://github.com/sase-org/sase/commit/1852f091ac3a4ebe8ac0cc25c6298d87d7edd3ee) | feat(xprompt): pin core and share ACE/LSP star-alias completion | [sase-ys.2](sase-ys.2.md) | 2026-09-09 08:26:55 EDT |
