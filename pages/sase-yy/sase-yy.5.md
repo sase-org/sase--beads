@@ -21,4 +21,4 @@ event-readers: aggregate rebuilds, link list/doctor, managed Markdown blocks, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.5/README.md) | [sase-yy.5](sase-yy.5.md) | 0 |
+| [bbugyi200.athena.sase-yy.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.5.md) | [sase-yy.5](sase-yy.5.md) | 0 |
