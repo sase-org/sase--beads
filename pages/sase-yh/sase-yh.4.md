@@ -33,10 +33,11 @@ verification: reconcile the incident against current published history, test the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.4.md) | [sase-yh.4](sase-yh.4.md) | 1 |
+| [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.4.md) | [sase-yh.4](sase-yh.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4068437`](https://github.com/sase-org/sase/commit/4068437a2c231e9b0826f18db33b48890cc83c7c) | fix(commit): resume pending checkpoints and record unpushed stitch evidence | [sase-yh.4](sase-yh.4.md) | 2026-09-09 06:43:20 EDT |
+| sase-core | [`sase-core@03ec116`](https://github.com/sase-org/sase-core/commit/03ec116f6a15bfbbefecc394dc1786f0b7c216e0) | feat(core): decide pending commit checkpoint recovery | [sase-yh.4](sase-yh.4.md) | 2026-09-09 06:45:42 EDT |

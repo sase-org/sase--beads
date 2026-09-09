@@ -36,7 +36,7 @@ Prevent stale workspace origins from breaking stitch resume, finish run-owned pe
 | [sase-yh.1](sase-yh.1.md) | Validate managed origins at stitch execution boundaries | ✓ closed | medium | 2026-09-08 | 1 | 2 |
 | [sase-yh.2](sase-yh.2.md) | Resume owned checkpoints and preserve unpushed evidence | ✓ closed | medium | 2026-09-08 | 1 | 0 |
 | [sase-yh.3](sase-yh.3.md) | Retry and report aging artifact-link publications | ✓ closed | medium | 2026-09-08 | 1 | 2 |
-| [sase-yh.4](sase-yh.4.md) | Verify recovery end to end and close the three tasks | ✓ closed | medium | 2026-09-08 | 1 | 1 |
+| [sase-yh.4](sase-yh.4.md) | Verify recovery end to end and close the three tasks | ✓ closed | medium | 2026-09-08 | 1 | 2 |
 
 ## Lineage
 
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.1/README.md) | [sase-yh.1](sase-yh.1.md) | 2 |
 | [bbugyi200.athena.sase-yh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.2/README.md) | [sase-yh.2](sase-yh.2.md) | 0 |
 | [bbugyi200.athena.sase-yh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.3/README.md) | [sase-yh.3](sase-yh.3.md) | 2 |
-| [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.4.md) | [sase-yh.4](sase-yh.4.md) | 1 |
+| [bbugyi200.athena.sase-yh.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.4.md) | [sase-yh.4](sase-yh.4.md) | 2 |
 | [bbugyi200.athena.sase-yh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.land/README.md) | [sase-yh](README.md) | 0 |
 
 ## Commits
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`3ec9b78`](https://github.com/sase-org/sase/commit/3ec9b78b2e128554f281409e80043f77888418db) | fix(workspace): reconcile managed clone origins before stitch | [sase-yh.1](sase-yh.1.md) | 2026-09-08 17:16:31 EDT |
 | sase-core | [`sase-core@d9ee8c2`](https://github.com/sase-org/sase-core/commit/d9ee8c2e3f6c0fee952f7cc4fe109b624d05c311) | feat(core): decide managed origin reconciliation | [sase-yh.1](sase-yh.1.md) | 2026-09-08 17:20:58 EDT |
 | sase | [`4068437`](https://github.com/sase-org/sase/commit/4068437a2c231e9b0826f18db33b48890cc83c7c) | fix(commit): resume pending checkpoints and record unpushed stitch evidence | [sase-yh.4](sase-yh.4.md) | 2026-09-09 06:43:20 EDT |
+| sase-core | [`sase-core@03ec116`](https://github.com/sase-org/sase-core/commit/03ec116f6a15bfbbefecc394dc1786f0b7c216e0) | feat(core): decide pending commit checkpoint recovery | [sase-yh.4](sase-yh.4.md) | 2026-09-09 06:45:42 EDT |
