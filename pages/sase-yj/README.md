@@ -40,7 +40,7 @@ Move runners and priority from %wait to %queue, support positional runners and p
 | [sase-yj.1](sase-yj.1.md) | Shared queue grammar and editor contract | ✓ closed | medium | 2026-09-08 | 1 | 2 |
 | [sase-yj.2](sase-yj.2.md) | Python runtime and prompt editing integration | ✓ closed | medium | 2026-09-08 | 1 | 1 |
 | [sase-yj.3](sase-yj.3.md) | Repository migration and unconditional cutover | ✓ closed | medium | 2026-09-08 | 1 | 2 |
-| [sase-yj.4](sase-yj.4.md) | Cross-repository acceptance and landing preparation | ✓ closed | medium | 2026-09-08 | 1 | 2 |
+| [sase-yj.4](sase-yj.4.md) | Cross-repository acceptance and landing preparation | ✓ closed | medium | 2026-09-08 | 1 | 3 |
 
 ## Lineage
 
@@ -70,8 +70,8 @@ flowchart TD
 | [bbugyi200.athena.sase-yj.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yj.1.md) | [sase-yj.1](sase-yj.1.md) | 2 |
 | [bbugyi200.athena.sase-yj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.2/README.md) | [sase-yj.2](sase-yj.2.md) | 1 |
 | [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 2 |
-| [bbugyi200.athena.sase-yj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.4/README.md) | [sase-yj.4](sase-yj.4.md) | 2 |
-| [bbugyi200.athena.sase-yj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.land/README.md) | [sase-yj](README.md) | 0 |
+| [bbugyi200.athena.sase-yj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.4/README.md) | [sase-yj.4](sase-yj.4.md) | 3 |
+| [bbugyi200.athena.sase-yj.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yj.land.md) | [sase-yj](README.md) | 1 |
 
 ## Commits
 
@@ -84,3 +84,5 @@ flowchart TD
 | chezmoi | [`chezmoi@93e4fd2`](https://github.com/bbugyi200/dotfiles/commit/93e4fd2b744fe43dfbe1e07036ab0d560f9cd500) | refactor(config): switch runners abbreviation to %q directive | [sase-yj.3](sase-yj.3.md) | 2026-09-08 21:40:40 EDT |
 | sase | [`ff6271e`](https://github.com/sase-org/sase/commit/ff6271e53ad2a0f87a961e9c05c4a2b4da549a68) | chore(xprompt): require queue directive core support | [sase-yj.4](sase-yj.4.md) | 2026-09-09 06:23:40 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@cebc7c4`](https://github.com/sase-org/sase-research-artifacts/commit/cebc7c4c6a1403f9df7e0bdf40681f1d898b935d) | fix(xprompts): emit queue priority directive | [sase-yj.4](sase-yj.4.md) | 2026-09-09 06:26:21 EDT |
+| sase-core | [`sase-core@30e31a1`](https://github.com/sase-org/sase-core/commit/30e31a1d8053c7478ef744b7a00f259f03c09c8a) | refactor(xprompt): make queue directive unconditional | [sase-yj.4](sase-yj.4.md) | 2026-09-09 06:32:18 EDT |
+| sase | [`f4ca78c`](https://github.com/sase-org/sase/commit/f4ca78c0ff3413aad43086051d892a0ae1e5fea0) | fix(queue): land directive core floor | [sase-yj](README.md) | 2026-09-09 08:50:49 EDT |
