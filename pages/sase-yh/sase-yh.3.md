@@ -17,7 +17,7 @@ publication: complete sase-ye by persisting retry state for hidden document side
 
 ## Dependencies
 
-- **Blocks:** [sase-yh.4](sase-yh.4.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-yh.4](sase-yh.4.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 
