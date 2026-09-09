@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-yj
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.09b](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.09b.md) · **Assignee:** `sase-yj.land`
-**Created:** 2026-09-08 17:56:08 EDT
+**Created:** 2026-09-08 17:56:08 EDT · **Closed:** 2026-09-09 08:53:26 EDT
 **Plan:** [202609/queue\_directive.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_directive.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,8 @@ Move runners and priority from %wait to %queue, support positional runners and p
 
 [2026-09-09T07:22:26Z · toobig-51.model_completion.0] DISCOVERED ISSUE: During unrelated model_completion.py splitting on 2026-09-09, just check passed formatting, ruff, mypy, feature-flag lint, pyscripts, wait/changelog/terminology lint, Symvision, toobig, and SASE validation, then failed only the diff-scoped pytest lane after selecting 249 files. The deterministic failures were tests/test_xprompt_directive_completion_parity.py::test_ace_and_lsp_include_queue_directive, the three queue argument parametrizations for %queue( / %q( / %q:, and test_wait_keywords_exclude_queue_fields. ACE and LSP agreed when queue_directive was absent, while the tests expect the post-migration %queue surface; briefly passing the legacy Rust queue_directive key restored ACE rows but exposed the already-known LSP/env and stale wait-test expectations, so the model-completion split was kept isolated. This corroborates notes #2/#3 and belongs to this epic's queue flag-retirement/core-floor acceptance work.
 
+[2026-09-09T12:53:26Z · sase-yj.land] Auto-closed by `sase stitch create` after create_commit landed f4ca78c0f ("fix(queue): land directive core floor"). No verification is implied by this note. Reopen with `sase bead open sase-yj`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,7 +48,7 @@ Move runners and priority from %wait to %queue, support positional runners and p
 
 ```mermaid
 flowchart TD
-    n0["sase-yj: Separate agent queue controls into %queue and %q [in_progress]"]
+    n0["sase-yj: Separate agent queue controls into %queue and %q [closed]"]
     n1["sase-yj.1: Shared queue grammar and editor contract [closed]"]
     n2["sase-yj.2: Python runtime and prompt editing integration [closed]"]
     n3["sase-yj.3: Repository migration and unconditional cutover [closed]"]
@@ -71,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.2/README.md) | [sase-yj.2](sase-yj.2.md) | 1 |
 | [bbugyi200.athena.sase-yj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.3/README.md) | [sase-yj.3](sase-yj.3.md) | 2 |
 | [bbugyi200.athena.sase-yj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yj.4/README.md) | [sase-yj.4](sase-yj.4.md) | 3 |
-| [bbugyi200.athena.sase-yj.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yj.land.md) | [sase-yj](README.md) | 1 |
+| [bbugyi200.athena.sase-yj.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yj.land.md) | [sase-yj](README.md) | 2 |
 
 ## Commits
 
@@ -86,3 +88,4 @@ flowchart TD
 | sase-research-artifacts | [`sase-research-artifacts@cebc7c4`](https://github.com/sase-org/sase-research-artifacts/commit/cebc7c4c6a1403f9df7e0bdf40681f1d898b935d) | fix(xprompts): emit queue priority directive | [sase-yj.4](sase-yj.4.md) | 2026-09-09 06:26:21 EDT |
 | sase-core | [`sase-core@30e31a1`](https://github.com/sase-org/sase-core/commit/30e31a1d8053c7478ef744b7a00f259f03c09c8a) | refactor(xprompt): make queue directive unconditional | [sase-yj.4](sase-yj.4.md) | 2026-09-09 06:32:18 EDT |
 | sase | [`f4ca78c`](https://github.com/sase-org/sase/commit/f4ca78c0ff3413aad43086051d892a0ae1e5fea0) | fix(queue): land directive core floor | [sase-yj](README.md) | 2026-09-09 08:50:49 EDT |
+| sase-nvim | [`sase-nvim@2618517`](https://github.com/sase-org/sase-nvim/commit/261851742104de5c23adcda21529bafd73b04e9b) | test: cover queue directive lsp completion | [sase-yj](README.md) | 2026-09-09 08:53:57 EDT |
