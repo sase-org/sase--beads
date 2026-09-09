@@ -28,13 +28,14 @@ real-fault-proofs: add real worker/gateway fault tests for a hung host beside a 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d015f48`](https://github.com/sase-org/sase/commit/d015f48cb014c70483ee31d3b729c099bdd3e9d5) | fix(dispatch): clarify replayed-bootstrap 409 handling and prove it with real gateway + Fleet fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:19:51 EDT |
+| sase-core | [`sase-core@a6d40ba`](https://github.com/sase-org/sase-core/commit/a6d40bad16a8f0b8e16510edcd58067a8af56137) | fix(gateway): bound outer deadline grace and prove worker/routes fencing with real fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:23:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
