@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.1/README.md) | [sase-yw.1](sase-yw.1.md) | 1 |
 | [bbugyi200.athena.sase-yw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.2/README.md) | [sase-yw.2](sase-yw.2.md) | 2 |
 | [bbugyi200.athena.sase-yw.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.3.1/README.md) | [sase-yw.3.1](sase-yw.3.1.md) | 1 |
-| [bbugyi200.athena.sase-yw.3.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yw.3.2.md) | [sase-yw.3.2](sase-yw.3.2.md) | 2 |
+| [bbugyi200.athena.sase-yw.3.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yw.3.2.md) | [sase-yw.3.2](sase-yw.3.2.md) | 3 |
 | [bbugyi200.athena.sase-yw.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.3.land/README.md) | [sase-yw.3](sase-yw.3.md) | 0 |
 | [bbugyi200.athena.sase-yw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yw.land.md) | [sase-yw](README.md) | 0 |
 
@@ -70,3 +70,4 @@ flowchart TD
 | sase-core | [`sase-core@6b84036`](https://github.com/sase-org/sase-core/commit/6b84036d96ff5d5495ebaf9836440c64ee65b37d) | fix(editor): reject unsafe model shortcut values | [sase-yw.3.1](sase-yw.3.1.md) | 2026-09-09 13:30:44 EDT |
 | sase | [`fb3ff15`](https://github.com/sase-org/sase/commit/fb3ff15893d507832ab28c0e4684d0ea66d44af9) | feat(ace): add model directive completion | [sase-yw.3.2](sase-yw.3.2.md) | 2026-09-09 16:38:37 EDT |
 | sase-core | [`sase-core@937bab2`](https://github.com/sase-org/sase-core/commit/937bab258773c7a959ccb3f4642a8d3c727cd5da) | feat(core): add model completion support | [sase-yw.3.2](sase-yw.3.2.md) | 2026-09-09 16:45:37 EDT |
+| sase-nvim | [`sase-nvim@3d17044`](https://github.com/sase-org/sase-nvim/commit/3d17044040ad276416b2f2c81c2cc3737b6e0d66) | test(nvim): cover model shortcut completion | [sase-yw.3.2](sase-yw.3.2.md) | 2026-09-09 16:48:13 EDT |
