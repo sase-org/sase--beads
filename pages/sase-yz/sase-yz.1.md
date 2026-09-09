@@ -30,10 +30,11 @@ health-core: track failure-streak start in the refresh schedule, project a per-p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.1/README.md) | [sase-yz.1](sase-yz.1.md) | 1 |
+| [bbugyi200.athena.sase-yz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.1/README.md) | [sase-yz.1](sase-yz.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7a4fb21`](https://github.com/sase-org/sase/commit/7a4fb2149a1d308299d968f0f3d7c477c72dbaec) | feat(usage): accept vendor drift reason | [sase-yz.1](sase-yz.1.md) | 2026-09-09 14:23:37 EDT |
+| sase-core | [`sase-core@fcd4b4e`](https://github.com/sase-org/sase-core/commit/fcd4b4e9b955e6c2073b663712627ca5433eaad5) | feat(provider-usage): expose collector health | [sase-yz.1](sase-yz.1.md) | 2026-09-09 14:26:58 EDT |

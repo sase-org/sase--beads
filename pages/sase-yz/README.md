@@ -27,7 +27,7 @@ Provider usage collection classifies and survives vendor CLI drift, exposes an h
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-yz.1](sase-yz.1.md) | Collector health domain model in the Rust core | ✓ closed | medium | 2026-09-09 | 1 | 1 |
+| [sase-yz.1](sase-yz.1.md) | Collector health domain model in the Rust core | ✓ closed | medium | 2026-09-09 | 1 | 2 |
 | [sase-yz.2](sase-yz.2.md) | Drift-classifying probe strategies for all collectors | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
 | [sase-yz.3](sase-yz.3.md) | Collector health in the usage CLI and doctor | ◐ in_progress | small | 2026-09-09 | 1 | 0 |
 | [sase-yz.4](sase-yz.4.md) | Failing-collector indicator across ACE surfaces | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
@@ -62,7 +62,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.1/README.md) | [sase-yz.1](sase-yz.1.md) | 1 |
+| [bbugyi200.athena.sase-yz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.1/README.md) | [sase-yz.1](sase-yz.1.md) | 2 |
 | [bbugyi200.athena.sase-yz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.2/README.md) | [sase-yz.2](sase-yz.2.md) | 0 |
 | [bbugyi200.athena.sase-yz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.3/README.md) | [sase-yz.3](sase-yz.3.md) | 0 |
 | [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7a4fb21`](https://github.com/sase-org/sase/commit/7a4fb2149a1d308299d968f0f3d7c477c72dbaec) | feat(usage): accept vendor drift reason | [sase-yz.1](sase-yz.1.md) | 2026-09-09 14:23:37 EDT |
+| sase-core | [`sase-core@fcd4b4e`](https://github.com/sase-org/sase-core/commit/fcd4b4e9b955e6c2073b663712627ca5433eaad5) | feat(provider-usage): expose collector health | [sase-yz.1](sase-yz.1.md) | 2026-09-09 14:26:58 EDT |
