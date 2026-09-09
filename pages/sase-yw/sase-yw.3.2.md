@@ -25,10 +25,11 @@ surface_proof: integrate the landed core revision, preserve advisory metadata an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yw.3.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yw.3.2.md) | [sase-yw.3.2](sase-yw.3.2.md) | 1 |
+| [bbugyi200.athena.sase-yw.3.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yw.3.2.md) | [sase-yw.3.2](sase-yw.3.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fb3ff15`](https://github.com/sase-org/sase/commit/fb3ff15893d507832ab28c0e4684d0ea66d44af9) | feat(ace): add model directive completion | [sase-yw.3.2](sase-yw.3.2.md) | 2026-09-09 16:38:37 EDT |
+| sase-core | [`sase-core@937bab2`](https://github.com/sase-org/sase-core/commit/937bab258773c7a959ccb3f4642a8d3c727cd5da) | feat(core): add model completion support | [sase-yw.3.2](sase-yw.3.2.md) | 2026-09-09 16:45:37 EDT |
