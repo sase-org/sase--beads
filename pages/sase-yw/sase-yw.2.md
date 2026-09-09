@@ -23,10 +23,11 @@ prompt_integration: pin the landed core, integrate the explicit-model menu into 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.2/README.md) | [sase-yw.2](sase-yw.2.md) | 1 |
+| [bbugyi200.athena.sase-yw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yw.2/README.md) | [sase-yw.2](sase-yw.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4b1e5f8`](https://github.com/sase-org/sase/commit/4b1e5f8eb40e5e9deeae9e129f40860367fefd6e) | feat(ace): add explicit model shortcut completion | [sase-yw.2](sase-yw.2.md) | 2026-09-09 12:45:20 EDT |
+| sase-nvim | [`sase-nvim@9858fea`](https://github.com/sase-org/sase-nvim/commit/9858feae71821ffb6325ee72704f2b661d0d6ad0) | test(lsp): smoke model shortcut completion | [sase-yw.2](sase-yw.2.md) | 2026-09-09 12:48:23 EDT |
