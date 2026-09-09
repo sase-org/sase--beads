@@ -19,7 +19,7 @@ alias_behavioral_hardening: add the missing widget and catalog coverage for navi
 
 ## Dependencies
 
-- **Blocks:** [sase-yf.3.2](sase-yf.3.2.md) ◐ · ⧖ 2026-09-08
+- **Blocks:** [sase-yf.3.2](sase-yf.3.2.md) ✓ · ⧖ 2026-09-08
 
 ## Agents
 
