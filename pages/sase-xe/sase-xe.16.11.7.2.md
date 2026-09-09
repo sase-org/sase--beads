@@ -25,10 +25,11 @@ attention-wire: add an owner-side bounded pending-attention inventory with conti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c1d8efd`](https://github.com/sase-org/sase/commit/c1d8efd3c0a56c779bccdf36b0a2633aa4cf3f83) | feat(dispatch): expose remote attention inventory | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2026-09-09 16:51:12 EDT |
+| sase-core | [`sase-core@86a1ab6`](https://github.com/sase-org/sase-core/commit/86a1ab6905d7056549c64acd671153e918d7f8e2) | feat(fleet): add pending attention inventory contract | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2026-09-09 17:02:15 EDT |

@@ -23,10 +23,11 @@ launch-durability: settle slow accepted launches durably, reconcile lost replies
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bc4566d`](https://github.com/sase-org/sase/commit/bc4566dfbf2d47bf9465f717dbbcf825613ad04f) | fix(dispatch): handle failed remote launch receipts | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:47:28 EDT |
+| sase-core | [`sase-core@faebd5c`](https://github.com/sase-org/sase-core/commit/faebd5c6634d0380e75da306688cde066926490f) | fix(gateway): settle fleet launches durably | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:52:49 EDT |

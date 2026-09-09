@@ -141,9 +141,9 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.11.7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.11/README.md) | [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.12/README.md) | [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.13/README.md) | [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.5/README.md) | [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.6/README.md) | [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.7/README.md) | [sase-xe.16.11.7.7](sase-xe.16.11.7.7.md) | 0 |
@@ -215,7 +215,9 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase | [`8c8dfc3`](https://github.com/sase-org/sase/commit/8c8dfc3f6b08a1ce26304fff822f339c9c84b591) | feat(fleet): consume Rust federation counts | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 2026-09-09 15:02:16 EDT |
 | sase-core | [`sase-core@6b29558`](https://github.com/sase-org/sase-core/commit/6b29558e8ac031df97133fd2a4991dd67f339ee2) | feat(fleet): normalize federation read envelopes | [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) | 2026-09-09 16:45:52 EDT |
 | sase | [`c1d8efd`](https://github.com/sase-org/sase/commit/c1d8efd3c0a56c779bccdf36b0a2633aa4cf3f83) | feat(dispatch): expose remote attention inventory | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2026-09-09 16:51:12 EDT |
+| sase-core | [`sase-core@86a1ab6`](https://github.com/sase-org/sase-core/commit/86a1ab6905d7056549c64acd671153e918d7f8e2) | feat(fleet): add pending attention inventory contract | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2026-09-09 17:02:15 EDT |
 | sase | [`bc4566d`](https://github.com/sase-org/sase/commit/bc4566dfbf2d47bf9465f717dbbcf825613ad04f) | fix(dispatch): handle failed remote launch receipts | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:47:28 EDT |
+| sase-core | [`sase-core@faebd5c`](https://github.com/sase-org/sase-core/commit/faebd5c6634d0380e75da306688cde066926490f) | fix(gateway): settle fleet launches durably | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:52:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
