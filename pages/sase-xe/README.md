@@ -209,7 +209,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.14.md) | [sase-xe.14](sase-xe.14.md) | 2 |
 | [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.15.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.10/README.md) | [sase-xe.16.10](sase-xe.16.10.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.10.md) | [sase-xe.16.10](sase-xe.16.10.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 1 |
@@ -262,6 +262,7 @@ flowchart TD
 | sase | [`5015d76`](https://github.com/sase-org/sase/commit/5015d76e9561cc68e0526627473aef9e159bc647) | chore(deps): ratchet sase-core pin and floor | [sase-xe.16.2](sase-xe.16.2.md) | 2026-09-08 13:33:48 EDT |
 | sase | [`ace9e2c`](https://github.com/sase-org/sase/commit/ace9e2cd468ff998b1a3b849ea3f7adf12820231) | feat(dispatch): discover tailnet machines | [sase-xe.16.4](sase-xe.16.4.md) | 2026-09-08 16:44:35 EDT |
 | sase | [`338e3b3`](https://github.com/sase-org/sase/commit/338e3b349e131797f122bff3e5fd8583279ca913) | feat(machine): add canonical sase machine init with verified activation | [sase-xe.16.6](sase-xe.16.6.md) | 2026-09-08 17:47:40 EDT |
+| sase | [`890660e`](https://github.com/sase-org/sase/commit/890660e257526d3c8fd1d78ec3e0ab53a062321c) | docs(dispatch): add remote setup runbook | [sase-xe.16.10](sase-xe.16.10.md) | 2026-09-08 20:49:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
