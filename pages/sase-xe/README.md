@@ -136,7 +136,7 @@ flowchart TD
     n12["sase-xe.16.11.1: Put discovery and enrollment reconciliation policy in Rust [closed]"]
     n13["sase-xe.16.11.2: Share followed-family promotion decisions across frontends [closed]"]
     n14["sase-xe.16.11.3: Exercise actual deadlines, instance fencing, and bootstrap enrollment [closed]"]
-    n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [in_progress]"]
+    n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [closed]"]
     n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [in_progress]"]
     n17["sase-xe.16.2: Ratchet the core pin and dependency floor past the new surface [closed]"]
     n18["sase-xe.16.3: Target-local `sase machine bootstrap` and packaged-command resolution [closed]"]
@@ -237,7 +237,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.1/README.md) | [sase-xe.16.11.1](sase-xe.16.11.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.2/README.md) | [sase-xe.16.11.2](sase-xe.16.11.2.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2 |
-| [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.land/README.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
@@ -297,6 +297,7 @@ flowchart TD
 | sase-core | [`sase-core@06025ba`](https://github.com/sase-org/sase-core/commit/06025baef6985f7a84d997325f774468d8efcaca) | feat(core): derive followed-batch singleton-to-family follow promotions | [sase-xe.16.11.2](sase-xe.16.11.2.md) | 2026-09-09 05:32:12 EDT |
 | sase | [`d015f48`](https://github.com/sase-org/sase/commit/d015f48cb014c70483ee31d3b729c099bdd3e9d5) | fix(dispatch): clarify replayed-bootstrap 409 handling and prove it with real gateway + Fleet fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:19:51 EDT |
 | sase-core | [`sase-core@a6d40ba`](https://github.com/sase-org/sase-core/commit/a6d40bad16a8f0b8e16510edcd58067a8af56137) | fix(gateway): bound outer deadline grace and prove worker/routes fencing with real fault tests | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2026-09-09 09:23:06 EDT |
+| sase | [`20c7b98`](https://github.com/sase-org/sase/commit/20c7b9804577b7db315f42131b5702379f4d1c49) | feat(dispatch): integrate core setup policy and durable activation | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 2026-09-09 10:13:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.4](sase-xe.16.11.4.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.4](sase-xe.16.11.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
