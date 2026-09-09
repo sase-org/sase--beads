@@ -13,7 +13,7 @@ usage-release: Integrate all collectors and surfaces, run adversarial end-to-end
 
 ## Dependencies
 
-- **Depends on:** [sase-y5.10](sase-y5.10.md) ◐ · ⧖ 2026-09-07
+- **Depends on:** [sase-y5.10](sase-y5.10.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.4](sase-y5.4.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.5](sase-y5.5.md) ✓ · ⧖ 2026-09-07
 - **Depends on:** [sase-y5.6](sase-y5.6.md) ✓ · ⧖ 2026-09-07
@@ -22,4 +22,10 @@ usage-release: Integrate all collectors and surfaces, run adversarial end-to-end
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 0 |
+| [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1cad7ed`](https://github.com/sase-org/sase/commit/1cad7ed16e4af8de850cf2f35cfe35164706fc2c) | feat(usage): make provider usage tracking default-on and drop the beta flag | [sase-y5.11](sase-y5.11.md) | 2026-09-09 05:28:42 EDT |

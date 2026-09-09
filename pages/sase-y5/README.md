@@ -41,13 +41,15 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 
 [2026-09-08T17:06:49Z · 08z--code] DISCOVERED ISSUE: During pager_bead_links verification on 2026-09-08, just check passed formatting, Ruff, mypy, feature-flag lint, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed at just _lint-symvision because Justfile still whitelists six public usage-refresh symbols under closed phase sase-y5.8: UsageRefreshProviderResult, UsageRefreshReceipt, eligible_usage_providers, mark_usage_refresh_due, run_admitted_refresh, and submit_usage_refresh. Re-running Symvision without those closed-bead --epic-symbol entries shows those six symbols are currently unused by src/sase. This is unrelated to the pager bead-link diff and belongs to the open verify/remove-scaffolding scope of sase-y5.11.
 
+[2026-09-09T01:07:26Z · sase-xe.16.land] Supplementary historical evidence proposed by sase-xe.16.8 note #1: its full-lane test_grok_usage_probe_reaps_descendant_processes failure passed immediately in focused rerun (with clan-summary SIGTERM test, 2 passed in 9.52s). This duplicates note #3 and remains with the subscription-capacity verification scope. The sase-xe.16 land audit did not reproduce a new failure; no new task or flake allowance was created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-y5.1](sase-y5.1.md) | Define the shared subscription capacity model | ✓ closed | medium | 2026-09-07 | 1 | 1 |
-| [sase-y5.10](sase-y5.10.md) | Show scoped capacity hints where users choose providers | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
-| [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ◐ in_progress | medium | 2026-09-07 | 1 | 0 |
+| [sase-y5.10](sase-y5.10.md) | Show scoped capacity hints where users choose providers | ✓ closed | medium | 2026-09-07 | 0 | 0 |
+| [sase-y5.11](sase-y5.11.md) | Verify the combined feature and remove epic scaffolding | ◐ in_progress | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.2](sase-y5.2.md) | Persist observations and fence stale writers | ✓ closed | medium | 2026-09-07 | 0 | 2 |
 | [sase-y5.3](sase-y5.3.md) | Add the provider extension and bounded probe runtime | ✓ closed | medium | 2026-09-07 | 1 | 1 |
 | [sase-y5.4](sase-y5.4.md) | Collect Claude subscription windows and passive updates | ✓ closed | medium | 2026-09-07 | 1 | 1 |
@@ -63,7 +65,7 @@ FIX: remove the redundant fixed-at line so exactly one remains for that node, an
 flowchart TD
     n0["sase-y5: Subscription capacity for Claude, Codex, and Grok [in_progress]"]
     n1["sase-y5.1: Define the shared subscription capacity model [closed]"]
-    n2["sase-y5.10: Show scoped capacity hints where users choose providers [in_progress]"]
+    n2["sase-y5.10: Show scoped capacity hints where users choose providers [closed]"]
     n3["sase-y5.11: Verify the combined feature and remove epic scaffolding [in_progress]"]
     n4["sase-y5.2: Persist observations and fence stale writers [closed]"]
     n5["sase-y5.3: Add the provider extension and bounded probe runtime [closed]"]
@@ -104,8 +106,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-y5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.1/README.md) | [sase-y5.1](sase-y5.1.md) | 1 |
-| [bbugyi200.athena.sase-y5.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.10/README.md) | [sase-y5.10](sase-y5.10.md) | 0 |
-| [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 0 |
+| [bbugyi200.athena.sase-y5.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.11/README.md) | [sase-y5.11](sase-y5.11.md) | 1 |
 | [bbugyi200.athena.sase-y5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.3/README.md) | [sase-y5.3](sase-y5.3.md) | 1 |
 | [bbugyi200.athena.sase-y5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.4/README.md) | [sase-y5.4](sase-y5.4.md) | 1 |
 | [bbugyi200.athena.sase-y5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-y5.5/README.md) | [sase-y5.5](sase-y5.5.md) | 1 |
@@ -130,3 +131,4 @@ flowchart TD
 | sase | [`cc58987`](https://github.com/sase-org/sase/commit/cc58987c2bab268906eb48f8ebe7688637ad8807) | feat(usage): collect Claude subscription windows | [sase-y5.4](sase-y5.4.md) | 2026-09-08 10:42:10 EDT |
 | sase | [`3f9c7b4`](https://github.com/sase-org/sase/commit/3f9c7b451655ec5bb6857b7c0b6bfefffdeac49d) | feat(usage): add cached usage CLI | [sase-y5.8](sase-y5.8.md) | 2026-09-08 13:52:40 EDT |
 | sase | [`65fe412`](https://github.com/sase-org/sase/commit/65fe4124f62acde7394102045c1882df939e71f2) | feat(ace): add Providers · Usage view to Models panel | [sase-y5.9](sase-y5.9.md) | 2026-09-08 16:11:28 EDT |
+| sase | [`1cad7ed`](https://github.com/sase-org/sase/commit/1cad7ed16e4af8de850cf2f35cfe35164706fc2c) | feat(usage): make provider usage tracking default-on and drop the beta flag | [sase-y5.11](sase-y5.11.md) | 2026-09-09 05:28:42 EDT |
