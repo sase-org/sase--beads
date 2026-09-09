@@ -27,4 +27,4 @@ Automatic stitch recovery resumes only an authenticated run-owned durable checkp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yh.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.land/README.md) | [sase-yh.5](sase-yh.5.md) | 0 |
+| [bbugyi200.athena.sase-yh.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.5.land.md) | [sase-yh.5](sase-yh.5.md) | 0 |

@@ -17,7 +17,7 @@ publication-preservation: make missing upstream an explicit failure, prevent mis
 
 ## Dependencies
 
-- **Blocks:** [sase-yh.5.3](sase-yh.5.3.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yh.5.3](sase-yh.5.3.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

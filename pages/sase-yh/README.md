@@ -31,6 +31,8 @@ Prevent stale workspace origins from breaking stitch resume, finish run-owned pe
 
 [2026-09-09T11:12:48Z · sase-yh.land] LAND AUDIT (remaining work): Reviewed the epic plan and every note on sase-yh and closed children sase-yh.1 through sase-yh.4; inspected the reported main commits 46f7f549e/3ec9b78b2/4068437a2, core commits ff0a72e/d9ee8c2/03ec116, github commit d09ee25, current source, and post-epic integration commits through main HEAD 4068437a2. Managed-origin reconciliation and the post-split callers are integrated, but the epic is not complete: automatic checkpoint recovery does not authenticate run/agent or full payload identity, legacy ownership is asserted unconditionally, persistence failures can be reported as durable success, publication retry treats missing upstream as success, remote drift can replace an unpublished hidden clone, probes/locks are not clipped to the chop deadline, role traversal can starve later roots, required retry regressions are absent, and the published core floor does not yet contain the corrected contract. sase bead epic-symbols sase-yh listed no entries. I prepared and validated the child epic plan Finish stitch recovery ownership and publication preservation with parent_bead sase-yh. Follow-ups: yh.1 note #1 corroborated/reopened sase-lk with verified-after-close evidence; yh.1 note #2 corroborated sase-xb; yh.4 note #1 was declined as a new task because the identical queue failures are already recorded on causally responsible active epic sase-yj and flag sase-yl; yh.4 note #2 corroborated sase-ym; yh.4 note #3 remains an unconfirmed single TUI timeout and is assigned a rerun in the child landing, with task creation only after fail-then-pass confirmation. The parent remains open pending the child.
 
+[2026-09-09T13:06:29Z · sase-y5.12.land--1] DISCOVERED ISSUE (found by the sase-y5.12 land agent in the check-full core-floor-probe output during the sase-y5 landing gate, monitor b16fy3zcmdcv, 2026-09-09): the probe reports stale_actionable — declared floor sase-core-rs==0.32.50 is missing 2 capabilities that a published sase-core release already carries. Both are this epic's: decide_pending_commit_checkpoint_recovery and pending_commit_checkpoint_wire_schema_version, first appearing in sase-core 03ec116 'feat(core): decide pending commit checkpoint recovery', shipped in release v0.32.53. pyproject.toml still declares 'sase-core-rs>=0.32.50,<0.33.0' on both this workspace's HEAD (cef06cdca) and origin/master (a1b08d06c), so 1852f091a's core pin did not ratchet the floor. This is advisory today — check-full still exits 0 — so it blocks nothing, but sase-yh.4 (4068437a2) and sase-yh.5.1 (27bbd2f4e) depend on wire behavior the declared floor does not guarantee. Recording rather than fixing, since the floor ratchet belongs to this epic's landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -52,7 +54,9 @@ flowchart TD
     n5["sase-yh.5: Finish stitch recovery ownership and publication preservation [in_progress]"]
     n6["sase-yh.5.1: Bind automatic checkpoint recovery to authenticated durable evidence [closed]"]
     n7["sase-yh.5.2: Preserve unpublished sidecars under retry and configuration drift [closed]"]
-    n8["sase-yh.5.3: Publish and ratchet the corrected recovery contract [in_progress]"]
+    n8["sase-yh.5.3: Publish and ratchet the corrected recovery contract [closed]"]
+    n9["sase-yh.5.4: Finish stitch recovery deadline and published-core landing [in_progress]"]
+    n10["sase-yh.5.4.1: Finish deadline propagation and published-core integration [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -61,6 +65,8 @@ flowchart TD
     n5 --> n6
     n5 --> n7
     n5 --> n8
+    n5 --> n9
+    n9 --> n10
     n1 -.-> n2
     n1 -.-> n4
     n2 -.-> n4
@@ -79,7 +85,9 @@ flowchart TD
 | [bbugyi200.athena.sase-yh.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.1/README.md) | [sase-yh.5.1](sase-yh.5.1.md) | 2 |
 | [bbugyi200.athena.sase-yh.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.2/README.md) | [sase-yh.5.2](sase-yh.5.2.md) | 1 |
 | [bbugyi200.athena.sase-yh.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.3/README.md) | [sase-yh.5.3](sase-yh.5.3.md) | 1 |
-| [bbugyi200.athena.sase-yh.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.land/README.md) | [sase-yh.5](sase-yh.5.md) | 0 |
+| [bbugyi200.athena.sase-yh.5.4.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.5.4.1.md) | [sase-yh.5.4.1](sase-yh.5.4.1.md) | 1 |
+| [bbugyi200.athena.sase-yh.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.4.land/README.md) | [sase-yh.5.4](sase-yh.5.4.md) | 0 |
+| [bbugyi200.athena.sase-yh.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.5.land.md) | [sase-yh.5](sase-yh.5.md) | 0 |
 | [bbugyi200.athena.sase-yh.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yh.land.md) | [sase-yh](README.md) | 0 |
 
 ## Commits
@@ -96,3 +104,4 @@ flowchart TD
 | sase-core | [`sase-core@7af2640`](https://github.com/sase-org/sase-core/commit/7af26400fbca87eb70102c7082a1b029c65e310b) | fix(core): authenticate pending checkpoint recovery | [sase-yh.5.1](sase-yh.5.1.md) | 2026-09-09 08:21:04 EDT |
 | sase | [`a1b08d0`](https://github.com/sase-org/sase/commit/a1b08d06c9b0419c96d91b76f8dc77a78bee82a0) | fix(sdd): preserve unpublished artifact sidecars | [sase-yh.5.2](sase-yh.5.2.md) | 2026-09-09 08:37:10 EDT |
 | sase-core | [`sase-core@c2161c7`](https://github.com/sase-org/sase-core/commit/c2161c770437f39af0d9fe7d52db5d9a8107b2cf) | style(core): format xprompt LSP test | [sase-yh.5.3](sase-yh.5.3.md) | 2026-09-09 08:56:29 EDT |
+| sase | [`1a32558`](https://github.com/sase-org/sase/commit/1a32558a20bc832c930b87089cf1a59f80eaaac9) | fix(sdd): propagate hidden sidecar clone deadline | [sase-yh.5.4.1](sase-yh.5.4.1.md) | 2026-09-09 10:55:57 EDT |
