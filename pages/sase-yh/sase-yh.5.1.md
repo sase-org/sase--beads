@@ -25,10 +25,11 @@ checkpoint-proof: compare checkpoint run, agent, repository, and complete accept
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yh.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.1/README.md) | [sase-yh.5.1](sase-yh.5.1.md) | 1 |
+| [bbugyi200.athena.sase-yh.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yh.5.1/README.md) | [sase-yh.5.1](sase-yh.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`27bbd2f`](https://github.com/sase-org/sase/commit/27bbd2f4e4bcab9c364b175ad44c3fa24e13250d) | fix(commit): authenticate checkpoint recovery evidence | [sase-yh.5.1](sase-yh.5.1.md) | 2026-09-09 08:20:06 EDT |
+| sase-core | [`sase-core@7af2640`](https://github.com/sase-org/sase-core/commit/7af26400fbca87eb70102c7082a1b029c65e310b) | fix(core): authenticate pending checkpoint recovery | [sase-yh.5.1](sase-yh.5.1.md) | 2026-09-09 08:21:04 EDT |
