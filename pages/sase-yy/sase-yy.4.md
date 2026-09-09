@@ -13,7 +13,7 @@ event-publisher: behind a new beta flag, automatic writers enqueue events instea
 
 ## Dependencies
 
-- **Depends on:** [sase-yy.3](sase-yy.3.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yy.3](sase-yy.3.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yy.6](sase-yy.6.md) ◐ · ⧖ 2026-09-09
 
 ## Agents

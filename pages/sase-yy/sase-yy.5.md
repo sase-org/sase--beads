@@ -14,7 +14,7 @@ event-readers: aggregate rebuilds, link list/doctor, managed Markdown blocks, an
 ## Dependencies
 
 - **Depends on:** [sase-yy.2](sase-yy.2.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-yy.3](sase-yy.3.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yy.3](sase-yy.3.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yy.6](sase-yy.6.md) ◐ · ⧖ 2026-09-09
 
 ## Agents
