@@ -139,7 +139,7 @@ flowchart TD
     n15["sase-xe.16.11.4: Integrate shared policy, honest discovery, and durable activation [closed]"]
     n16["sase-xe.16.11.5: Complete the real Athena-to-Apollo workflow [open]"]
     n17["sase-xe.16.11.6: Finish Fleet contracts, reliable dispatch, and Apollo acceptance [in_progress]"]
-    n18["sase-xe.16.11.6.1: Share Fleet request, projection, freshness, and count policy in Rust [in_progress]"]
+    n18["sase-xe.16.11.6.1: Share Fleet request, projection, freshness, and count policy in Rust [closed]"]
     n19["sase-xe.16.11.6.2: Honor TLS trust and isolate catalog continuation by host [in_progress]"]
     n20["sase-xe.16.11.6.3: Recover delayed launch receipts and newly launched remote identities [in_progress]"]
     n21["sase-xe.16.11.6.4: Consume published contracts and implement honest Fleet navigation [in_progress]"]
@@ -258,7 +258,7 @@ flowchart TD
 | [bbugyi200.athena.sase-xe.16.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.3.md) | [sase-xe.16.11.3](sase-xe.16.11.3.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.1/README.md) | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.1/README.md) | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.2/README.md) | [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.3/README.md) | [sase-xe.16.11.6.3](sase-xe.16.11.6.3.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.4/README.md) | [sase-xe.16.11.6.4](sase-xe.16.11.6.4.md) | 0 |
@@ -327,6 +327,7 @@ flowchart TD
 | sase | [`20c7b98`](https://github.com/sase-org/sase/commit/20c7b9804577b7db315f42131b5702379f4d1c49) | feat(dispatch): integrate core setup policy and durable activation | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 2026-09-09 10:13:15 EDT |
 | sase | [`b7c6bc0`](https://github.com/sase-org/sase/commit/b7c6bc0067032b53f30e841b54a6f179d4ff52e1) | fix(ace): decode live Fleet worker envelopes for Apollo catalog rows | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 11:59:41 EDT |
 | sase | [`54b1d07`](https://github.com/sase-org/sase/commit/54b1d07a4ca2bdefb15cb2fecfb0e34ed892ced5) | refactor(dispatch): split machine init helpers | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 12:48:39 EDT |
+| sase | [`8c8dfc3`](https://github.com/sase-org/sase/commit/8c8dfc3f6b08a1ce26304fff822f339c9c84b591) | feat(fleet): consume Rust federation counts | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 2026-09-09 15:02:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
