@@ -17,7 +17,7 @@ core_equals_shortcuts: change the Rust-owned model-shortcut detector, edit plann
 
 ## Dependencies
 
-- **Blocks:** [sase-z3.2](sase-z3.2.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z3.2](sase-z3.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

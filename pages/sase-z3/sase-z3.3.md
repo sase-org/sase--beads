@@ -13,7 +13,7 @@ integrated_verification: rebuild ACE against the linked core revision, prove ACE
 
 ## Dependencies
 
-- **Depends on:** [sase-z3.2](sase-z3.2.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-z3.2](sase-z3.2.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
