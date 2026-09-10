@@ -22,7 +22,7 @@ cutover-import: one-shot deterministic import of frozen legacy indexes into base
 - **Depends on:** [sase-yy.1](sase-yy.1.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-yy.4](sase-yy.4.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-yy.5](sase-yy.5.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yy.7](sase-yy.7.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yy.7](sase-yy.7.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

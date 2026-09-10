@@ -33,7 +33,7 @@ Automatic artifact-link writes never produce a merge conflict an agent must hand
 | [sase-yy.4](sase-yy.4.md) | Automatic link writes publish as events through the machine lane | ✓ closed | large | 2026-09-09 | 1 | 2 |
 | [sase-yy.5](sase-yy.5.md) | Readers, projections, and maintenance consume reduced events | ✓ closed | large | 2026-09-09 | 1 | 1 |
 | [sase-yy.6](sase-yy.6.md) | Fence, import legacy indexes, and cut over | ✓ closed | large | 2026-09-09 | 1 | 1 |
-| [sase-yy.7](sase-yy.7.md) | Multi-clone acceptance suite and conflict-free guarantee | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
+| [sase-yy.7](sase-yy.7.md) | Multi-clone acceptance suite and conflict-free guarantee | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n4["sase-yy.4: Automatic link writes publish as events through the machine lane [closed]"]
     n5["sase-yy.5: Readers, projections, and maintenance consume reduced events [closed]"]
     n6["sase-yy.6: Fence, import legacy indexes, and cut over [closed]"]
-    n7["sase-yy.7: Multi-clone acceptance suite and conflict-free guarantee [in_progress]"]
+    n7["sase-yy.7: Multi-clone acceptance suite and conflict-free guarantee [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.4.md) | [sase-yy.4](sase-yy.4.md) | 2 |
 | [bbugyi200.athena.sase-yy.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.5.md) | [sase-yy.5](sase-yy.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.6.md) | [sase-yy.6](sase-yy.6.md) | 1 |
-| [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 0 |
+| [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 1 |
 | [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.land/README.md) | [sase-yy](README.md) | 0 |
 
 ## Commits
@@ -90,3 +90,4 @@ flowchart TD
 | sase-core | [`sase-core@1842f29`](https://github.com/sase-org/sase-core/commit/1842f29c00a9288f90d8cbc898ef8c8a40731c85) | feat(beads): support link operation ids | [sase-yy.4](sase-yy.4.md) | 2026-09-09 16:27:08 EDT |
 | sase | [`ba73bc3`](https://github.com/sase-org/sase/commit/ba73bc30e4c0438e8861dfbe3e95a3754d121252) | feat(artifact-links): consume reduced event truth | [sase-yy.5](sase-yy.5.md) | 2026-09-10 09:59:41 EDT |
 | sase | [`a8d99d2`](https://github.com/sase-org/sase/commit/a8d99d2952681d2aed4e755a30942e8cc82a0424) | feat(artifact-links): cut over legacy indexes to events | [sase-yy.6](sase-yy.6.md) | 2026-09-10 13:34:12 EDT |
+| sase | [`abdcb86`](https://github.com/sase-org/sase/commit/abdcb86d6af27acbadc809013dfd968648ae9a1f) | fix(sdd): harden artifact link event publication | [sase-yy.7](sase-yy.7.md) | 2026-09-10 14:07:25 EDT |
