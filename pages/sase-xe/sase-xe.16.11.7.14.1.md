@@ -28,7 +28,7 @@ PROPOSED FOLLOW-UP: scripts/check.sh's PYO3_PYTHON auto-selection finds a qualif
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.14.3](sase-xe.16.11.7.14.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-xe.16.11.7.14.3](sase-xe.16.11.7.14.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

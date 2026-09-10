@@ -42,6 +42,19 @@ HANDOFF: validate/revalidate/propose only the remaining-work child. Original .10
 
 [2026-09-09T16:19:52Z · sase-xe.16.11.land] LANDING BLOCKER from sase-xe.16.11.land: The child remains incomplete. Its fault phase .11.3 and live phase .11.5 were reopened after source verification: the healthy-host fixture actually fast-fails, and live receipt/visibility/output/stop were explicitly unmet before automatic commit closure. Mandatory Fleet Rust-contract, count/freshness/pagination, trust and launch-recovery gaps are recorded in .11 note LANDING AUDIT / REMAINING WORK and planned in sase_plan_remote_dispatch_contract_and_acceptance.md (parent_bead=sase-xe.16.11). Original .16.10 stays open. No ancestor or plan status has been marked done; resume only after complete child evidence and normal phase readiness checks.
 
+[2026-09-10T21:58:46Z · 0ix.f0--4] DISCOVERED ISSUE: 11 tests fail on current master, reproduced 2026-09-10 in workspace sase_21 while verifying an unrelated usage-limit provider diff (no ace/tui/fleet/fleet_contract files touched). Confirmed pre-existing via git stash -u (diff removed, same failures) for a representative sample; all 11 are in fleet/agents-catalog test files unrelated to that diff's scope.
+
+Failing nodes:
+- tests/ace/tui/test_agents_fleet_refresh_laziness.py::test_agents_refresh_hydrates_catalog_in_focus_mode, ::test_fleet_refresh_apply_defers_behind_active_navigation, ::test_fleet_catalog_refresh_requests_legal_pages_and_logical_keys
+- tests/ace/tui/test_fleet_agents.py::test_project_fleet_agents_marks_followed_and_preserves_machine_sections, ::test_project_fleet_agents_maps_pending_attention_onto_local_statuses, ::test_offline_fleet_fixture_projects_rows_counts_and_diagnostics, ::test_followed_batch_family_promotions_promote_explicit_singleton, ::test_project_fleet_agents_reads_worker_catalog_page_rows, ::test_project_fleet_agents_reads_followed_batch_entry_summaries, ::test_merge_catalog_pages_keeps_authoritative_counts_and_second_page_rows
+- tests/test_fleet_contract_counts_sase_core_rs.py::test_count_contract_deduplicates_current_instances_and_buckets
+
+Sample assertion (test_agents_refresh_hydrates_catalog_in_focus_mode): expected catalog rows ['local-work', 'sase-main'] but got only ['local-work'] — a 'sase-main' row the fixture expects is missing from the built fleet-agents list. This also reproduces unchanged against a throwaway worktree at this repo's origin/master tip (4a862d6ea, 'feat(ace-tui): render status subgroup banners in by-machine agent grouping' — one of the 4 commits this workspace was behind), so it is not explained by workspace staleness.
+
+Separately, test_count_contract_deduplicates_current_instances_and_buckets fails with ValueError('summary family_role is inconsistent with row_kind') from the fleet_count_logical_agents Rust binding when given a monitor-row summary alongside agent-role summaries — may be the same class or a distinct fleet-contract regression; flagging alongside the others since it is also fleet/catalog-shaped and unrelated to my diff.
+
+Routing here rather than filing a new CI task bead given flag sase-z6 (ace_unified_agents, created by this epic's phase .7.6) covers exactly this fleet/agents-catalog surface.
+
 ## Agents
 
 | Agent | Bead | Commits |
