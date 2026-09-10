@@ -19,7 +19,7 @@ fleet-wire: normalize real federation envelopes, own counts and freshness in sas
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ◐ · ⧖ 2026-09-09
 
 ## Agents

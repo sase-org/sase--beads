@@ -142,7 +142,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.11.7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.12/README.md) | [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.13/README.md) | [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2 |
-| [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.5/README.md) | [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.6/README.md) | [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) | 0 |
@@ -218,6 +218,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase-core | [`sase-core@86a1ab6`](https://github.com/sase-org/sase-core/commit/86a1ab6905d7056549c64acd671153e918d7f8e2) | feat(fleet): add pending attention inventory contract | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2026-09-09 17:02:15 EDT |
 | sase | [`bc4566d`](https://github.com/sase-org/sase/commit/bc4566dfbf2d47bf9465f717dbbcf825613ad04f) | fix(dispatch): handle failed remote launch receipts | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:47:28 EDT |
 | sase-core | [`sase-core@faebd5c`](https://github.com/sase-org/sase-core/commit/faebd5c6634d0380e75da306688cde066926490f) | fix(gateway): settle fleet launches durably | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2026-09-09 17:52:49 EDT |
+| sase | [`dacce95`](https://github.com/sase-org/sase/commit/dacce95f3b441832bfe5d32544907652b75b57ef) | fix(fleet): continue catalog pages per host | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 2026-09-09 20:07:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
