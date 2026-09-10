@@ -20,7 +20,7 @@ one-list: behind a new beta flag, replace Focus/Fleet with a single list carryin
 - **Blocks:** [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) ◐ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

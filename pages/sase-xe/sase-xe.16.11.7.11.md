@@ -18,7 +18,7 @@ real-contract-proof: replace synthetic fixtures with serialized real envelopes, 
 - **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.7](sase-xe.16.11.7.7.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
