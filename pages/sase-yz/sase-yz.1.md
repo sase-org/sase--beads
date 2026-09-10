@@ -24,7 +24,7 @@ health-core: track failure-streak start in the refresh schedule, project a per-p
 - **Blocks:** [sase-yz.2](sase-yz.2.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yz.3](sase-yz.3.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yz.4](sase-yz.4.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yz.5](sase-yz.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yz.5](sase-yz.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

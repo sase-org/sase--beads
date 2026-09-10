@@ -22,7 +22,7 @@ drift-probes: add a shared bounded probe-strategy runner with drift classificati
 ## Dependencies
 
 - **Depends on:** [sase-yz.1](sase-yz.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yz.5](sase-yz.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yz.5](sase-yz.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

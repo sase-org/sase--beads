@@ -19,7 +19,7 @@ health-tui: give the failing-collector state one visual identity (glyph, color, 
 
 - **Depends on:** [sase-yz.1](sase-yz.1.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-yz.3](sase-yz.3.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yz.5](sase-yz.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yz.5](sase-yz.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

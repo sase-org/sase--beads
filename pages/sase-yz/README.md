@@ -31,7 +31,7 @@ Provider usage collection classifies and survives vendor CLI drift, exposes an h
 | [sase-yz.2](sase-yz.2.md) | Drift-classifying probe strategies for all collectors | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-yz.3](sase-yz.3.md) | Collector health in the usage CLI and doctor | ✓ closed | small | 2026-09-09 | 1 | 1 |
 | [sase-yz.4](sase-yz.4.md) | Failing-collector indicator across ACE surfaces | ✓ closed | medium | 2026-09-09 | 1 | 1 |
-| [sase-yz.5](sase-yz.5.md) | Integrated verification, live smoke, and docs | ◐ in_progress | small | 2026-09-09 | 1 | 0 |
+| [sase-yz.5](sase-yz.5.md) | Integrated verification, live smoke, and docs | ✓ closed | small | 2026-09-09 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n2["sase-yz.2: Drift-classifying probe strategies for all collectors [closed]"]
     n3["sase-yz.3: Collector health in the usage CLI and doctor [closed]"]
     n4["sase-yz.4: Failing-collector indicator across ACE surfaces [closed]"]
-    n5["sase-yz.5: Integrated verification, live smoke, and docs [in_progress]"]
+    n5["sase-yz.5: Integrated verification, live smoke, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,8 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yz.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yz.2.md) | [sase-yz.2](sase-yz.2.md) | 1 |
 | [bbugyi200.athena.sase-yz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.3/README.md) | [sase-yz.3](sase-yz.3.md) | 1 |
 | [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 1 |
-| [bbugyi200.athena.sase-yz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.5/README.md) | [sase-yz.5](sase-yz.5.md) | 0 |
-| [bbugyi200.athena.sase-yz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.land/README.md) | [sase-yz](README.md) | 0 |
+| [bbugyi200.athena.sase-yz.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yz.5.md) | [sase-yz.5](sase-yz.5.md) | 1 |
 
 ## Commits
 
@@ -78,3 +77,4 @@ flowchart TD
 | sase | [`0879bfe`](https://github.com/sase-org/sase/commit/0879bfe5fddb08db00fb7ce1b117979286909ee9) | feat(usage): show collector health in CLI and doctor | [sase-yz.3](sase-yz.3.md) | 2026-09-09 15:47:07 EDT |
 | sase | [`afc5226`](https://github.com/sase-org/sase/commit/afc52262f4dcaa9b4144c772c8795b3373870230) | feat(usage): add drift-classifying probe strategies | [sase-yz.2](sase-yz.2.md) | 2026-09-09 20:32:47 EDT |
 | sase | [`41f8dfe`](https://github.com/sase-org/sase/commit/41f8dfe615da3d7085eed9abae80e88600138764) | feat(ace): show failing collector usage health | [sase-yz.4](sase-yz.4.md) | 2026-09-09 22:52:47 EDT |
+| sase | [`5aef515`](https://github.com/sase-org/sase/commit/5aef515e688e98736a9a0417e39fb28923a9aa28) | docs(usage): document collector health and land health-verify | [sase-yz.5](sase-yz.5.md) | 2026-09-10 05:23:57 EDT |
