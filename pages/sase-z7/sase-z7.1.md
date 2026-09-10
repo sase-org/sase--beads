@@ -18,7 +18,7 @@ window-policy: implement Rust classification, policy validation and selection, t
 ## Dependencies
 
 - **Blocks:** [sase-z7.2](sase-z7.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z7.3](sase-z7.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z7.3](sase-z7.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

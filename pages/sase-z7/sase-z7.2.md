@@ -18,7 +18,7 @@ config-and-cache: integrate Python adapters, schema and defaults, live config in
 ## Dependencies
 
 - **Depends on:** [sase-z7.1](sase-z7.1.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z7.3](sase-z7.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z7.3](sase-z7.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

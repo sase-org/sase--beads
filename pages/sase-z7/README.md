@@ -29,7 +29,7 @@ Make each provider usage window independently configurable and show compact, tru
 |---|---|---|---|---|---:|---:|
 | [sase-z7.1](sase-z7.1.md) | Define shared usage window identity and visibility policy | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-z7.2](sase-z7.2.md) | Integrate configuration and time-aware cached display data | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [sase-z7.3](sase-z7.3.md) | Render and verify the compact usage window display | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
+| [sase-z7.3](sase-z7.3.md) | Render and verify the compact usage window display | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["sase-z7: Compact, configurable usage window indicators [in_progress]"]
     n1["sase-z7.1: Define shared usage window identity and visibility policy [closed]"]
     n2["sase-z7.2: Integrate configuration and time-aware cached display data [closed]"]
-    n3["sase-z7.3: Render and verify the compact usage window display [in_progress]"]
+    n3["sase-z7.3: Render and verify the compact usage window display [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -53,7 +53,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-z7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.1/README.md) | [sase-z7.1](sase-z7.1.md) | 1 |
 | [bbugyi200.athena.sase-z7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.2/README.md) | [sase-z7.2](sase-z7.2.md) | 1 |
-| [bbugyi200.athena.sase-z7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.3/README.md) | [sase-z7.3](sase-z7.3.md) | 0 |
+| [bbugyi200.athena.sase-z7.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z7.3.md) | [sase-z7.3](sase-z7.3.md) | 1 |
 | [bbugyi200.athena.sase-z7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.land/README.md) | [sase-z7](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@7c949b4`](https://github.com/sase-org/sase-core/commit/7c949b46c3ae656a84b5a94759ddcb926fa6f3c1) | feat: add usage indicator policy projection | [sase-z7.1](sase-z7.1.md) | 2026-09-10 07:52:17 EDT |
 | sase | [`4504b1b`](https://github.com/sase-org/sase/commit/4504b1b84f70252596818fc8908fad8c926c6f82) | feat(usage): integrate usage indicator config | [sase-z7.2](sase-z7.2.md) | 2026-09-10 09:59:06 EDT |
+| sase | [`1ef9c09`](https://github.com/sase-org/sase/commit/1ef9c092e35cdeba38fed1fa76799dc661d15295) | feat(ace): render compact provider usage window badges | [sase-z7.3](sase-z7.3.md) | 2026-09-10 16:17:34 EDT |
