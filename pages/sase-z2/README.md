@@ -28,7 +28,7 @@ Approved plan files always reach the plans sidecar remote: the epic-launch archi
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-z2.1](sase-z2.1.md) | Publish plans-repo commits made by the epic launch path | ✓ closed | medium | 2026-09-09 | 1 | 1 |
-| [sase-z2.2](sase-z2.2.md) | Protect unpushed sidecar commits from workspace re-provisioning | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
+| [sase-z2.2](sase-z2.2.md) | Protect unpushed sidecar commits from workspace re-provisioning | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-z2.3](sase-z2.3.md) | Detect and repair missing archived plans | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-z2.4](sase-z2.4.md) | Backfill the lost plans on this machine and verify | ✓ closed | small | 2026-09-09 | 1 | 1 |
 
@@ -38,7 +38,7 @@ Approved plan files always reach the plans sidecar remote: the epic-launch archi
 flowchart TD
     n0["sase-z2: Durable plan-archive publication for approved epic plans [in_progress]"]
     n1["sase-z2.1: Publish plans-repo commits made by the epic launch path [closed]"]
-    n2["sase-z2.2: Protect unpushed sidecar commits from workspace re-provisioning [in_progress]"]
+    n2["sase-z2.2: Protect unpushed sidecar commits from workspace re-provisioning [closed]"]
     n3["sase-z2.3: Detect and repair missing archived plans [closed]"]
     n4["sase-z2.4: Backfill the lost plans on this machine and verify [closed]"]
     n0 --> n1
@@ -54,7 +54,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-z2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z2.1/README.md) | [sase-z2.1](sase-z2.1.md) | 1 |
-| [bbugyi200.athena.sase-z2.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z2.2.md) | [sase-z2.2](sase-z2.2.md) | 0 |
+| [bbugyi200.athena.sase-z2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z2.2/README.md) | [sase-z2.2](sase-z2.2.md) | 1 |
 | [bbugyi200.athena.sase-z2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z2.3/README.md) | [sase-z2.3](sase-z2.3.md) | 1 |
 | [bbugyi200.athena.sase-z2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z2.4/README.md) | [sase-z2.4](sase-z2.4.md) | 1 |
 | [bbugyi200.athena.sase-z2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z2.land/README.md) | [sase-z2](README.md) | 0 |
@@ -66,3 +66,4 @@ flowchart TD
 | sase | [`d6b1163`](https://github.com/sase-org/sase/commit/d6b116360301dda75ed92c63ca61eb64b2c4c717) | fix(bead): publish epic plan archives after launch | [sase-z2.1](sase-z2.1.md) | 2026-09-09 19:27:19 EDT |
 | sase | [`b8ac9f3`](https://github.com/sase-org/sase/commit/b8ac9f39290d48a3710277541c438a0cd154d107) | feat(beads): add plan archive doctor repair | [sase-z2.3](sase-z2.3.md) | 2026-09-09 19:40:47 EDT |
 | sase | [`93de142`](https://github.com/sase-org/sase/commit/93de1427708a8fc8b6b1bcb02d1ee944ab57bed1) | fix(beads): skip invalid plan archive sources | [sase-z2.4](sase-z2.4.md) | 2026-09-09 20:16:42 EDT |
+| sase | [`54d9c11`](https://github.com/sase-org/sase/commit/54d9c112af8c732bb2a2a664971e3d85f5112100) | fix(workspace): protect sidecar clones before eviction | [sase-z2.2](sase-z2.2.md) | 2026-09-10 11:56:50 EDT |
