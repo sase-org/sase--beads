@@ -17,7 +17,7 @@ capacity-policy: fix decimal-boundary admission, model serial claim ownership th
 
 ## Dependencies
 
-- **Blocks:** [sase-z4.6.2](sase-z4.6.2.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.2](sase-z4.6.2.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
