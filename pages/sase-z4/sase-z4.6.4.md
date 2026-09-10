@@ -25,10 +25,11 @@ release-acceptance: establish real published package floors, add wheel-only comp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4f6eb2b`](https://github.com/sase-org/sase/commit/4f6eb2b173aacb3f4aeb954753fb57aefcb01f10) | deps(core): ratchet weighted capacity floor | [sase-z4.6.4](sase-z4.6.4.md) | 2026-09-10 12:57:36 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@8f00896`](https://github.com/sase-org/sase-research-artifacts/commit/8f0089629bad7470dc57fdae9d0b6f8eb74bb259) | test(release): verify weighted wheel floors | [sase-z4.6.4](sase-z4.6.4.md) | 2026-09-10 13:01:10 EDT |
