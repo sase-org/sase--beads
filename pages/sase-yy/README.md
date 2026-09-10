@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.6.md) | [sase-yy.6](sase-yy.6.md) | 1 |
 | [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.1/README.md) | [sase-yy.8.1](sase-yy.8.1.md) | 2 |
-| [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.3/README.md) | [sase-yy.8.3](sase-yy.8.3.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.4/README.md) | [sase-yy.8.4](sase-yy.8.4.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.5/README.md) | [sase-yy.8.5](sase-yy.8.5.md) | 0 |
@@ -127,3 +127,4 @@ flowchart TD
 | sase | [`f5a3f5c`](https://github.com/sase-org/sase/commit/f5a3f5c99ec7c55a44ff0517c7eea820f0b46c3c) | fix(artifact-links): freeze replayable producer identity | [sase-yy.8.1](sase-yy.8.1.md) | 2026-09-10 15:08:10 EDT |
 | sase-core | [`sase-core@d5d5be4`](https://github.com/sase-org/sase-core/commit/d5d5be4baa62d807a4a8959d2f43f12ff292bcf5) | fix(artifact-links): expose stable producer identity helpers | [sase-yy.8.1](sase-yy.8.1.md) | 2026-09-10 15:10:33 EDT |
 | sase | [`811700b`](https://github.com/sase-org/sase/commit/811700bc3830558df0db9ff7eaefecb2b6e7614b) | fix(artifact-links): require durable publication receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:42:07 EDT |
+| sase-core | [`sase-core@da0a738`](https://github.com/sase-org/sase-core/commit/da0a73895ff8d5aa3597df4abb3fe6004c443489) | feat(artifact-links): add publication ownership receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:45:16 EDT |

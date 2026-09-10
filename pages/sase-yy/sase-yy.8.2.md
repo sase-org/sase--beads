@@ -32,10 +32,11 @@ publication_durability: prevent false acknowledgements for missing owners, prese
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`811700b`](https://github.com/sase-org/sase/commit/811700bc3830558df0db9ff7eaefecb2b6e7614b) | fix(artifact-links): require durable publication receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:42:07 EDT |
+| sase-core | [`sase-core@da0a738`](https://github.com/sase-org/sase-core/commit/da0a73895ff8d5aa3597df4abb3fe6004c443489) | feat(artifact-links): add publication ownership receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:45:16 EDT |
