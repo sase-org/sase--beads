@@ -7,6 +7,18 @@
 **Created:** 2026-09-06 09:14:54 EDT · **Closed:** 2026-09-06 10:19:34 EDT
 **Plan:** [202609/canonical\_producers.md](https://github.com/sase-org/sase--plans/blob/main/202609/canonical_producers.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-xg][1] | Proposed by phase note 1 and verified by its land agent |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-xg/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 plugin-producers: remove available plugin prompt and import facades while preserving later bridge-owned wire and persisted-data readers.

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-x7](README.md) / sase-x7.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gk](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gk.md) · **Assignee:** `sase-x7.6` · **Size:** medium
-**Created:** 2026-09-05 18:55:31 EDT
+**Created:** 2026-09-05 18:55:31 EDT · **Closed:** 2026-09-06 19:21:02 EDT
 **Plan:** [202609/canonical\_only\_fleet\_cutover.md](https://github.com/sase-org/sase--plans/blob/main/202609/canonical_only_fleet_cutover.md)
 
 ## Description
@@ -17,10 +17,14 @@ local-state-cutover: Execute the rehearsed maintenance runbook on athena, mac, a
 
 [2026-09-06T12:17:31Z · sase-x7.2.1.5.land] DISCOVERED ISSUE (proposed by sase-x7.2.1.5.2 note #1): mac and apollo live sase-core-rs remain 0.32.23, below the migration kit floor >=0.32.25. The mac rehearsal proved the isolated 0.32.25 build and deliberately did not touch the editable live install. Before any real apply, local-state-cutover must raise and verify the live floor on both hosts using a planned install path, not sase update against mac's editable checkout mid-window. This is already a hard precondition in the published mac/apollo manifests, so it is owned by this active phase rather than a new task bead.
 
+[2026-09-06T23:20:17Z · sase-x7.6] PROPOSED FOLLOW-UP: migration kit live-root planning is too broad for post-cutover verification -- after athena import purge/manual residue archive, `sase migrate plan procs-residue` failed hashing live ~/.sase when chats_catalog.sqlite-shm disappeared, and timed state/lock plans did not complete; later kit cleanup should either narrow root digests or document this migration-kit-only limitation before deletion.
+
+[2026-09-06T23:21:02Z · sase-x7.6] Verified local-state cutover on 2026-09-06: mac and apollo reachable, live uv tool installs report sase-core-rs 0.32.25, import-purge previews empty, latest procs/state residue verifies clean, and legacy roots absent with code-swap-v2.lock retained. On athena, verified backup athena-20260906T182328-d91f9e exists, applied supported import purge with no errors, after-preview is empty across artifact_dirs/bundle_files/chat_files/import_dirs/receipt_files/cache_dirs/dismissed_identities/surviving_import_names, manually archived stale tasks/agent_tags/plan_approval/user_question/code-swap.lock to that backup under migration-archives/manual-athena-local-state-20260906T231519Z, confirmed archive counts 14886 task files, 7 plan-approval files, 39 question files, agent_tags.json 245212 bytes, no open handles, no symlinks, no legacy proc id overlap with current procs, legacy proc rows predate the current proc window, originals absent, canonical procs still has 101 rows, and current code-swap-v2.lock remains present. Ran sase bead epic-symbols sase-x7.6 after work: no entries.
+
 ## Dependencies
 
 - **Depends on:** [sase-x7.2](sase-x7.2.md) ✓ · ⧖ 2026-09-05
-- **Depends on:** [sase-x7.3](sase-x7.3.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.3](sase-x7.3.md) ✓ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.7](sase-x7.7.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.8](sase-x7.8.md) ◐ · ⧖ 2026-09-05
 

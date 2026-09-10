@@ -29,16 +29,10 @@ APPLY: not run; fleet-deploy (sase-x7.3.1.5) owns chezmoi update on athena/mac/a
 
 - **Depends on:** [sase-x7.3.1.2](sase-x7.3.1.2.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-x7.3.1.3](sase-x7.3.1.3.md) ✓ · ⧖ 2026-09-06
-- **Blocks:** [sase-x7.3.1.5](sase-x7.3.1.5.md) ◐ · ⧖ 2026-09-06
+- **Blocks:** [sase-x7.3.1.5](sase-x7.3.1.5.md) ✓ · ⧖ 2026-09-06
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-x7.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.4/README.md) | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@fbfddd8`](https://github.com/bbugyi200/dotfiles/commit/fbfddd8c0aa2bb6d0225a89654f9f13d971cbfad) | feat(sase): regenerate canonical chezmoi sources for the fleet cutover | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 2026-09-06 10:49:08 EDT |
+| [bbugyi200.athena.sase-x7.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-x7.3.1.4/README.md) | [sase-x7.3.1.4](sase-x7.3.1.4.md) | 0 |

@@ -20,10 +20,10 @@ migration-kit: Plan and implement a bounded offline migration kit with dry-run m
 ## Dependencies
 
 - **Depends on:** [sase-x7.1](sase-x7.1.md) ✓ · ⧖ 2026-09-05
-- **Blocks:** [sase-x7.3](sase-x7.3.md) ◐ · ⧖ 2026-09-05
-- **Blocks:** [sase-x7.4](sase-x7.4.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x7.3](sase-x7.3.md) ✓ · ⧖ 2026-09-05
+- **Blocks:** [sase-x7.4](sase-x7.4.md) ✓ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.5](sase-x7.5.md) ◐ · ⧖ 2026-09-05
-- **Blocks:** [sase-x7.6](sase-x7.6.md) ◐ · ⧖ 2026-09-05
+- **Blocks:** [sase-x7.6](sase-x7.6.md) ✓ · ⧖ 2026-09-05
 
 ## Agents
 

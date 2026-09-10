@@ -14,7 +14,7 @@ shared-data-cutover: Freeze affected writers across all hosts, deploy and verify
 ## Dependencies
 
 - **Depends on:** [sase-x7.5](sase-x7.5.md) ◐ · ⧖ 2026-09-05
-- **Depends on:** [sase-x7.6](sase-x7.6.md) ◐ · ⧖ 2026-09-05
+- **Depends on:** [sase-x7.6](sase-x7.6.md) ✓ · ⧖ 2026-09-05
 - **Depends on:** [sase-x7.7](sase-x7.7.md) ◐ · ⧖ 2026-09-05
 - **Blocks:** [sase-x7.9](sase-x7.9.md) ◐ · ⧖ 2026-09-05
 
