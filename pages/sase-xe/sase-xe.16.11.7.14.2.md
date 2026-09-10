@@ -25,10 +25,11 @@ dismissal-reconcile: extend the cleanup cascade to cover member records discover
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.2/README.md) | [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.2/README.md) | [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f22339c`](https://github.com/sase-org/sase/commit/f22339c182702051cd2d8dd104414912721e8172) | fix(agent-index): reconcile dismissed family identities | [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) | 2026-09-10 15:40:21 EDT |
+| sase-core | [`sase-core@70df126`](https://github.com/sase-org/sase-core/commit/70df1267359f4a5e5edf01c70b1cb99aeb1b9d99) | fix(agent-scan): backfill dismissed family identities | [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) | 2026-09-10 15:42:24 EDT |
