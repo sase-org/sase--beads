@@ -19,7 +19,7 @@ attention-wire: add an owner-side bounded pending-attention inventory with conti
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

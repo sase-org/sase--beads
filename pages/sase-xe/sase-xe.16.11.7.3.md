@@ -18,16 +18,17 @@ trust-fencing: apply validated TLS trust in the federation worker, thread per-ho
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dacce95`](https://github.com/sase-org/sase/commit/dacce95f3b441832bfe5d32544907652b75b57ef) | fix(fleet): continue catalog pages per host | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 2026-09-09 20:07:44 EDT |
+| sase-core | [`sase-core@bc45534`](https://github.com/sase-org/sase-core/commit/bc45534a29afcabeb07fc8946bb072a4d7963d95) | fix(federation): enforce TLS trust for remote hosts | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 2026-09-09 20:13:44 EDT |
