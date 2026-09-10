@@ -13,7 +13,7 @@ presets-rollout: apply 2.0 to bundled epic landers and 0.25 to all four research
 
 ## Dependencies
 
-- **Depends on:** [sase-z4.4](sase-z4.4.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-z4.4](sase-z4.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

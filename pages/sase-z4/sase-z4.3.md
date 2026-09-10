@@ -18,7 +18,7 @@ admission-lifecycle: connect Rust capacity policy to the locked runner gate and 
 ## Dependencies
 
 - **Depends on:** [sase-z4.2](sase-z4.2.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-z4.4](sase-z4.4.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z4.4](sase-z4.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
