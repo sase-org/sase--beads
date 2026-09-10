@@ -13,7 +13,7 @@ slot-poll-diet: switch the runner-slot wait loop to the capacity-only scan, shar
 
 ## Dependencies
 
-- **Depends on:** [sase-za.1](sase-za.1.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-za.1](sase-za.1.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-za.4](sase-za.4.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
