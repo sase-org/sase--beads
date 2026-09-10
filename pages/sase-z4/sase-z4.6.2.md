@@ -18,7 +18,7 @@ lifecycle-boundaries: exclude unadmitted successors from their own claims, prese
 ## Dependencies
 
 - **Depends on:** [sase-z4.6.1](sase-z4.6.1.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.3](sase-z4.6.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.3](sase-z4.6.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

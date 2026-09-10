@@ -13,7 +13,7 @@ release-acceptance: establish real published package floors, add wheel-only comp
 
 ## Dependencies
 
-- **Depends on:** [sase-z4.6.3](sase-z4.6.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-z4.6.3](sase-z4.6.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
