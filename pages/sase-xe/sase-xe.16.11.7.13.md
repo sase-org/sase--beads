@@ -13,7 +13,7 @@ live-acceptance: execute the research validation scenarios live between Athena a
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
