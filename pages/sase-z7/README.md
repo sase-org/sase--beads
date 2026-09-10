@@ -28,7 +28,7 @@ Make each provider usage window independently configurable and show compact, tru
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-z7.1](sase-z7.1.md) | Define shared usage window identity and visibility policy | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [sase-z7.2](sase-z7.2.md) | Integrate configuration and time-aware cached display data | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
+| [sase-z7.2](sase-z7.2.md) | Integrate configuration and time-aware cached display data | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-z7.3](sase-z7.3.md) | Render and verify the compact usage window display | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ Make each provider usage window independently configurable and show compact, tru
 flowchart TD
     n0["sase-z7: Compact, configurable usage window indicators [in_progress]"]
     n1["sase-z7.1: Define shared usage window identity and visibility policy [closed]"]
-    n2["sase-z7.2: Integrate configuration and time-aware cached display data [in_progress]"]
+    n2["sase-z7.2: Integrate configuration and time-aware cached display data [closed]"]
     n3["sase-z7.3: Render and verify the compact usage window display [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-z7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.1/README.md) | [sase-z7.1](sase-z7.1.md) | 1 |
-| [bbugyi200.athena.sase-z7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.2/README.md) | [sase-z7.2](sase-z7.2.md) | 0 |
+| [bbugyi200.athena.sase-z7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.2/README.md) | [sase-z7.2](sase-z7.2.md) | 1 |
 | [bbugyi200.athena.sase-z7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.3/README.md) | [sase-z7.3](sase-z7.3.md) | 0 |
 | [bbugyi200.athena.sase-z7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z7.land/README.md) | [sase-z7](README.md) | 0 |
 
@@ -61,3 +61,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7c949b4`](https://github.com/sase-org/sase-core/commit/7c949b46c3ae656a84b5a94759ddcb926fa6f3c1) | feat: add usage indicator policy projection | [sase-z7.1](sase-z7.1.md) | 2026-09-10 07:52:17 EDT |
+| sase | [`4504b1b`](https://github.com/sase-org/sase/commit/4504b1b84f70252596818fc8908fad8c926c6f82) | feat(usage): integrate usage indicator config | [sase-z7.2](sase-z7.2.md) | 2026-09-10 09:59:06 EDT |

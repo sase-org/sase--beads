@@ -14,7 +14,7 @@ compact-display: implement icon badges, countdowns, ten-color themes, bounded la
 ## Dependencies
 
 - **Depends on:** [sase-z7.1](sase-z7.1.md) ✓ · ⧖ 2026-09-10
-- **Depends on:** [sase-z7.2](sase-z7.2.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-z7.2](sase-z7.2.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
