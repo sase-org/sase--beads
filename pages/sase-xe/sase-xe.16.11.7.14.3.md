@@ -14,7 +14,7 @@ core-ratchet: release the core changes, ratchet the revision pin and dependency 
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.14.1](sase-xe.16.11.7.14.1.md) ✓ · ⧖ 2026-09-10
-- **Depends on:** [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-xe.16.11.7.14.4](sase-xe.16.11.7.14.4.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
