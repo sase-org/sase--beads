@@ -30,7 +30,7 @@ Provider usage collection classifies and survives vendor CLI drift, exposes an h
 | [sase-yz.1](sase-yz.1.md) | Collector health domain model in the Rust core | ✓ closed | medium | 2026-09-09 | 1 | 2 |
 | [sase-yz.2](sase-yz.2.md) | Drift-classifying probe strategies for all collectors | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-yz.3](sase-yz.3.md) | Collector health in the usage CLI and doctor | ✓ closed | small | 2026-09-09 | 1 | 1 |
-| [sase-yz.4](sase-yz.4.md) | Failing-collector indicator across ACE surfaces | ✓ closed | medium | 2026-09-09 | 1 | 0 |
+| [sase-yz.4](sase-yz.4.md) | Failing-collector indicator across ACE surfaces | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-yz.5](sase-yz.5.md) | Integrated verification, live smoke, and docs | ◐ in_progress | small | 2026-09-09 | 1 | 0 |
 
 ## Lineage
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yz.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.1/README.md) | [sase-yz.1](sase-yz.1.md) | 2 |
 | [bbugyi200.athena.sase-yz.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yz.2.md) | [sase-yz.2](sase-yz.2.md) | 1 |
 | [bbugyi200.athena.sase-yz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.3/README.md) | [sase-yz.3](sase-yz.3.md) | 1 |
-| [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 0 |
+| [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 1 |
 | [bbugyi200.athena.sase-yz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.5/README.md) | [sase-yz.5](sase-yz.5.md) | 0 |
 | [bbugyi200.athena.sase-yz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.land/README.md) | [sase-yz](README.md) | 0 |
 
@@ -77,3 +77,4 @@ flowchart TD
 | sase-core | [`sase-core@fcd4b4e`](https://github.com/sase-org/sase-core/commit/fcd4b4e9b955e6c2073b663712627ca5433eaad5) | feat(provider-usage): expose collector health | [sase-yz.1](sase-yz.1.md) | 2026-09-09 14:26:58 EDT |
 | sase | [`0879bfe`](https://github.com/sase-org/sase/commit/0879bfe5fddb08db00fb7ce1b117979286909ee9) | feat(usage): show collector health in CLI and doctor | [sase-yz.3](sase-yz.3.md) | 2026-09-09 15:47:07 EDT |
 | sase | [`afc5226`](https://github.com/sase-org/sase/commit/afc52262f4dcaa9b4144c772c8795b3373870230) | feat(usage): add drift-classifying probe strategies | [sase-yz.2](sase-yz.2.md) | 2026-09-09 20:32:47 EDT |
+| sase | [`41f8dfe`](https://github.com/sase-org/sase/commit/41f8dfe615da3d7085eed9abae80e88600138764) | feat(ace): show failing collector usage health | [sase-yz.4](sase-yz.4.md) | 2026-09-09 22:52:47 EDT |

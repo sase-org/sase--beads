@@ -25,4 +25,10 @@ health-tui: give the failing-collector state one visual identity (glyph, color, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 0 |
+| [bbugyi200.athena.sase-yz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yz.4/README.md) | [sase-yz.4](sase-yz.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`41f8dfe`](https://github.com/sase-org/sase/commit/41f8dfe615da3d7085eed9abae80e88600138764) | feat(ace): show failing collector usage health | [sase-yz.4](sase-yz.4.md) | 2026-09-09 22:52:47 EDT |
