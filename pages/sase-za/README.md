@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-za.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.2/README.md) | [sase-za.2](sase-za.2.md) | 1 |
 | [bbugyi200.athena.sase-za.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.3/README.md) | [sase-za.3](sase-za.3.md) | 1 |
 | [bbugyi200.athena.sase-za.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.4/README.md) | [sase-za.4](sase-za.4.md) | 1 |
-| [bbugyi200.athena.sase-za.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.land/README.md) | [sase-za](README.md) | 0 |
+| [bbugyi200.athena.sase-za.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.land/README.md) | [sase-za](README.md) | 1 |
 
 ## Commits
 
@@ -83,3 +83,4 @@ flowchart TD
 | sase-core | [`sase-core@dc3d0a8`](https://github.com/sase-org/sase-core/commit/dc3d0a8b4e7e73538615c3e3aaec4c597a7252d3) | feat(notifications): compact old dismissed rows | [sase-za.3](sase-za.3.md) | 2026-09-10 12:42:00 EDT |
 | sase | [`755ef4a`](https://github.com/sase-org/sase/commit/755ef4a7b60a3bae79072a94b3c8cf4f010f7574) | perf(axe): cheapen parked runner-slot waiters | [sase-za.2](sase-za.2.md) | 2026-09-10 13:50:52 EDT |
 | sase | [`b8a4b90`](https://github.com/sase-org/sase/commit/b8a4b9003945e08ed4bb3a1730df7f00716b5b28) | perf(tests): add capacity-scan and mostly-dismissed notification floors | [sase-za.4](sase-za.4.md) | 2026-09-10 14:54:18 EDT |
+| sase | [`1bfd9f0`](https://github.com/sase-org/sase/commit/1bfd9f0a1c181392a3fa9e7d9d40875a61c928b3) | fix(logs): read archived notifications when packing logs | [sase-za](README.md) | 2026-09-10 15:42:30 EDT |
