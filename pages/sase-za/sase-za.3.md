@@ -19,7 +19,7 @@ notification-compaction: add crash-safe automatic compaction with a retention wi
 
 ## Dependencies
 
-- **Blocks:** [sase-za.4](sase-za.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-za.4](sase-za.4.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
