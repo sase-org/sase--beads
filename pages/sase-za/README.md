@@ -27,9 +27,9 @@ Parked agent runners and the ACE TUI stop consuming CPU, RSS, and swap in propor
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-za.1](sase-za.1.md) | Capacity-only artifact scan in the Rust core | ✓ closed | medium | 2026-09-10 | 1 | 2 |
+| [sase-za.1](sase-za.1.md) | Capacity-only artifact scan in the Rust core | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-za.2](sase-za.2.md) | Make parked runners cheap | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
-| [sase-za.3](sase-za.3.md) | Keep notifications.jsonl O(live) | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
+| [sase-za.3](sase-za.3.md) | Keep notifications.jsonl O(live) | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-za.4](sase-za.4.md) | Live verification and perf floors | ◐ in_progress | small | 2026-09-10 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n0["sase-za: Host resource diet for parked runners and the notification store [in_progress]"]
     n1["sase-za.1: Capacity-only artifact scan in the Rust core [closed]"]
     n2["sase-za.2: Make parked runners cheap [in_progress]"]
-    n3["sase-za.3: Keep notifications.jsonl O(live) [in_progress]"]
+    n3["sase-za.3: Keep notifications.jsonl O(live) [closed]"]
     n4["sase-za.4: Live verification and perf floors [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,9 +54,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-za.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.1/README.md) | [sase-za.1](sase-za.1.md) | 2 |
+| [bbugyi200.athena.sase-za.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.1/README.md) | [sase-za.1](sase-za.1.md) | 1 |
 | [bbugyi200.athena.sase-za.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.2/README.md) | [sase-za.2](sase-za.2.md) | 0 |
-| [bbugyi200.athena.sase-za.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.3/README.md) | [sase-za.3](sase-za.3.md) | 0 |
+| [bbugyi200.athena.sase-za.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.3/README.md) | [sase-za.3](sase-za.3.md) | 1 |
 | [bbugyi200.athena.sase-za.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.4/README.md) | [sase-za.4](sase-za.4.md) | 0 |
 | [bbugyi200.athena.sase-za.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-za.land/README.md) | [sase-za](README.md) | 0 |
 
@@ -64,5 +64,5 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`ae07c41`](https://github.com/sase-org/sase/commit/ae07c41f4b3b673650114b9763a511a055e75940) | feat(core): add capacity\_only mode to agent scan wire | [sase-za.1](sase-za.1.md) | 2026-09-10 12:27:29 EDT |
 | sase-core | [`sase-core@161206b`](https://github.com/sase-org/sase-core/commit/161206bac94875d1c5aac1be8d89095c85877507) | feat(agent\_scan): add capacity\_only fast path to scanner | [sase-za.1](sase-za.1.md) | 2026-09-10 12:30:34 EDT |
+| sase-core | [`sase-core@dc3d0a8`](https://github.com/sase-org/sase-core/commit/dc3d0a8b4e7e73538615c3e3aaec4c597a7252d3) | feat(notifications): compact old dismissed rows | [sase-za.3](sase-za.3.md) | 2026-09-10 12:42:00 EDT |
