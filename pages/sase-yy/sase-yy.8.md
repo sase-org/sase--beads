@@ -19,6 +19,14 @@ Repair the reproduced sase-yy landing failures so immutable link operations surv
 
 CORROBORATION of this epic's note #1 (feature-flag lint gate): two more agents independently hit the same block earlier today, before 0ix--code's 17:17 report. Phase agent sase-z4.6.5.1--2 recorded it at 15:30 and sase-z4.6.5.2 again at 16:30, both while verifying unrelated runner-slot/admission work. sase-z4.6.5.1--2 added one detail worth keeping: check_feature_flags rule 8 escalates from warning to error once the landing grace expires, so this went from tolerable to blocking about 24h after sase-z0's registry definition (FeatureFlag.link_events) was removed from src/, and it now blocks `just check` for every agent sharing this repo. That agent also confirmed `just validate`'s static `check_feature_flags --static` still passes cleanly, so only the live-bead rule is red.
 
+[2026-09-10T21:57:54Z · 0ix.f0--4] DISCOVERED ISSUE: 4 tests fail on current master, reproduced 2026-09-10 in workspace sase_21 while verifying an unrelated usage-limit provider diff (touches only src/sase/llm_provider/usage_limit_*, notifications/senders.py, ops/commands/_agent_drain_notify.py — no artifact-link/sdd_store files). Reran each individually with the diff fully stashed out (git stash -u) and failures reproduced identically, so this is pre-existing, not caused by that diff.
+
+1) tests/sdd_store/test_sidecar_init_creation.py::test_split_init_creates_both_repos_before_writing_record and tests/sdd_store/test_sidecar_bead_adoption.py::test_fresh_init_records_and_seeds_root_beads_sidecar and tests/sdd_store/test_artifact_link_ignore.py::test_lock_ignore_appends_without_disturbing_existing_content all assert a stale expected .gitignore pattern list (ending at '/links/**/*.lock') but the actual written .gitignore now also includes a newer '/link-events/**/.staging/' line — the test fixtures were not updated alongside the link-events staging-directory change.
+
+2) tests/test_artifact_create_bead_attachment.py::test_an_explicit_bead_id_receives_the_minted_reference (and test_a_bare_flag_attaches_to_the_agents_own_bead) fail with handle_create returning 1 instead of 0; stderr shows 'Error: artifact-link bead event publication failed: artifact-link bead store is unavailable' / 'artifact-link bead projection is not committed' / 'Error: failed to attach ... to bead ...'. This matches the exact failure mode already described in this epic's note #2 (hidden machine-owned plans clone stuck with unpublished commits / silent degradation), just observed here as a hard test failure rather than silent no-op.
+
+Routing here per this epic's explicit scope over link-event publication ownership/durable receipts (phases .8.2/.8.4) rather than filing a new CI task bead.
+
 ## Agents
 
 | Agent | Bead | Commits |

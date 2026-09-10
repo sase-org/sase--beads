@@ -57,7 +57,7 @@ flowchart TD
     n9["sase-yy.8.1: Freeze derived and alias operation identity across retries [closed]"]
     n10["sase-yy.8.2: Require durable owners and publish complete event files atomically [closed]"]
     n11["sase-yy.8.3: Reduce event unions and keep bead projections consistent [closed]"]
-    n12["sase-yy.8.4: Make legacy cutover resumable and preserve frozen history [in_progress]"]
+    n12["sase-yy.8.4: Make legacy cutover resumable and preserve frozen history [closed]"]
     n13["sase-yy.8.5: Verify real producer, crash, and reconciliation paths end to end [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -104,8 +104,8 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.1/README.md) | [sase-yy.8.1](sase-yy.8.1.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 2 |
-| [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.3.md) | [sase-yy.8.3](sase-yy.8.3.md) | 1 |
-| [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.4/README.md) | [sase-yy.8.4](sase-yy.8.4.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.3.md) | [sase-yy.8.3](sase-yy.8.3.md) | 2 |
+| [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.4.md) | [sase-yy.8.4](sase-yy.8.4.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.5/README.md) | [sase-yy.8.5](sase-yy.8.5.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.land/README.md) | [sase-yy.8](sase-yy.8.md) | 0 |
 | [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.land.md) | [sase-yy](README.md) | 0 |
@@ -129,3 +129,5 @@ flowchart TD
 | sase | [`811700b`](https://github.com/sase-org/sase/commit/811700bc3830558df0db9ff7eaefecb2b6e7614b) | fix(artifact-links): require durable publication receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:42:07 EDT |
 | sase-core | [`sase-core@da0a738`](https://github.com/sase-org/sase-core/commit/da0a73895ff8d5aa3597df4abb3fe6004c443489) | feat(artifact-links): add publication ownership receipts | [sase-yy.8.2](sase-yy.8.2.md) | 2026-09-10 16:45:16 EDT |
 | sase | [`840824c`](https://github.com/sase-org/sase/commit/840824c5bb71a9d78e46ee446625f47cdea0b7d4) | feat(sdd): reconcile artifact link event unions | [sase-yy.8.3](sase-yy.8.3.md) | 2026-09-10 17:53:38 EDT |
+| sase-core | [`sase-core@717c36e`](https://github.com/sase-org/sase-core/commit/717c36e7fa0d9ca5e967fb4e058317242570bd50) | feat(beads): project artifact links by edge receipt | [sase-yy.8.3](sase-yy.8.3.md) | 2026-09-10 17:56:21 EDT |
+| sase | [`2dcd6a1`](https://github.com/sase-org/sase/commit/2dcd6a136c715427c3916581a4e942822dc47155) | feat(artifact-links): make cutover import resumable | [sase-yy.8.4](sase-yy.8.4.md) | 2026-09-10 19:37:26 EDT |

@@ -18,17 +18,18 @@ event_reconciliation: union immutable operations before cross-clone reduction, p
 ## Dependencies
 
 - **Depends on:** [sase-yy.8.2](sase-yy.8.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-yy.8.4](sase-yy.8.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-yy.8.4](sase-yy.8.4.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.3.md) | [sase-yy.8.3](sase-yy.8.3.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.3.md) | [sase-yy.8.3](sase-yy.8.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`840824c`](https://github.com/sase-org/sase/commit/840824c5bb71a9d78e46ee446625f47cdea0b7d4) | feat(sdd): reconcile artifact link event unions | [sase-yy.8.3](sase-yy.8.3.md) | 2026-09-10 17:53:38 EDT |
+| sase-core | [`sase-core@717c36e`](https://github.com/sase-org/sase-core/commit/717c36e7fa0d9ca5e967fb4e058317242570bd50) | feat(beads): project artifact links by edge receipt | [sase-yy.8.3](sase-yy.8.3.md) | 2026-09-10 17:56:21 EDT |
