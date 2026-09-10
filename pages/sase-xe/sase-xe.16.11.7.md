@@ -22,3 +22,9 @@
 ## Description
 
 ACE presents one trustworthy Agents list across the local machine and every enrolled machine — with durable fleet-wide attention, explicit launch targets, and a Machines home — built on repaired Rust-owned fleet contracts and proven by live Athena-to-Apollo acceptance.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.16.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.land/README.md) | [sase-xe.16.11.7](sase-xe.16.11.7.md) | 0 |

@@ -24,4 +24,10 @@ machines-home: give machines one administration home with health, capacity, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.10/README.md) | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.10/README.md) | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d598883`](https://github.com/sase-org/sase/commit/d598883d8194be5b51acb821f3ea248dc4e243b9) | feat(ace): add machines admin center pane | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 2026-09-10 06:52:33 EDT |
