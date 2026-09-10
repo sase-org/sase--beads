@@ -15,9 +15,3 @@ cutover: make the unified experience unconditional, delete the legacy Focus/Flee
 
 - **Depends on:** [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) ◐ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) ◐ · ⧖ 2026-09-09
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.12/README.md) | [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) | 0 |

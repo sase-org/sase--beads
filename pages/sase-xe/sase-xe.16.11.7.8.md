@@ -15,9 +15,3 @@ unified-actions: give local and remote rows the same verbs with bound keys, owne
 
 - **Blocks:** [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) ◐ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ✓ · ⧖ 2026-09-09
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.8/README.md) | [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) | 0 |

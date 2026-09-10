@@ -13,15 +13,9 @@ real-contract-proof: replace synthetic fixtures with serialized real envelopes, 
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) ◐ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.7](sase-xe.16.11.7.7.md) ◐ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) ◐ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) ◐ · ⧖ 2026-09-09
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.11/README.md) | [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) | 0 |

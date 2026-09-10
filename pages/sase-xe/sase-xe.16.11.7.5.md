@@ -20,7 +20,7 @@ unified-projection: ratchet to the published core, replace Python normalization 
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) ✓ · ⧖ 2026-09-09

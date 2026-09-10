@@ -48,6 +48,7 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
+| [bbugyi200.athena.toobig-52.artifact\_link\_publication\_retry.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-52.artifact_link_publication_retry.0/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 | [bbugyi200.athena.toobig-52.machine\_init.0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.toobig-52.machine_init.0.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 
 ## Commits
@@ -56,6 +57,7 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 |---|---|---|---|---|
 | sase | [`b7c6bc0`](https://github.com/sase-org/sase/commit/b7c6bc0067032b53f30e841b54a6f179d4ff52e1) | fix(ace): decode live Fleet worker envelopes for Apollo catalog rows | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 11:59:41 EDT |
 | sase | [`54b1d07`](https://github.com/sase-org/sase/commit/54b1d07a4ca2bdefb15cb2fecfb0e34ed892ced5) | refactor(dispatch): split machine init helpers | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-09 12:48:39 EDT |
+| sase | [`9c738c2`](https://github.com/sase-org/sase/commit/9c738c25f62ebc0962898e83d222b4c960afd7ae) | refactor(sdd): split artifact-link publication retry into sibling modules | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-10 04:16:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

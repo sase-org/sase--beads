@@ -14,9 +14,3 @@ live-acceptance: execute the research validation scenarios live between Athena a
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) ◐ · ⧖ 2026-09-09
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.13/README.md) | [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) | 0 |
