@@ -17,7 +17,7 @@ links-resolver: add a Rust three-way links/*.json index merge and wire a second 
 
 ## Dependencies
 
-- **Blocks:** [sase-yy.6](sase-yy.6.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yy.6](sase-yy.6.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

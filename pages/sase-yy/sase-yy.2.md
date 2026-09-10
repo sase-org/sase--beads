@@ -20,7 +20,7 @@ event-contract: define content-addressed link-event files, canonical serializati
 ## Dependencies
 
 - **Blocks:** [sase-yy.3](sase-yy.3.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yy.5](sase-yy.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yy.5](sase-yy.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

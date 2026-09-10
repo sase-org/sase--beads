@@ -13,7 +13,7 @@ acceptance: end-to-end suite with independent clones and two simulated machines 
 
 ## Dependencies
 
-- **Depends on:** [sase-yy.6](sase-yy.6.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yy.6](sase-yy.6.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
