@@ -24,10 +24,11 @@ capacity-presentation: project global local claims before display transformation
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cceed09`](https://github.com/sase-org/sase/commit/cceed09a993f4395f045310f72ca6f25b14174c9) | fix(ace): display weighted runner capacity from source rows | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:40:27 EDT |
+| sase-core | [`sase-core@8e491c3`](https://github.com/sase-org/sase-core/commit/8e491c337cafd43c44d1d34278fe16d64e069811) | feat(fleet): expose queue weight metadata | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:43:37 EDT |

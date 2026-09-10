@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.1/README.md) | [sase-z4.6.1](sase-z4.6.1.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.2/README.md) | [sase-z4.6.2](sase-z4.6.2.md) | 1 |
-| [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.land/README.md) | [sase-z4.6](sase-z4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
@@ -103,3 +103,4 @@ flowchart TD
 | sase-core | [`sase-core@8b672ab`](https://github.com/sase-org/sase-core/commit/8b672ab09b2e4351cfa0f0f243ea71e68d71c3a2) | fix(runner-capacity): repair weighted claim lineage | [sase-z4.6.1](sase-z4.6.1.md) | 2026-09-10 08:47:09 EDT |
 | sase | [`7da379e`](https://github.com/sase-org/sase/commit/7da379ea28e86cede528d1e58c8a0f7075aba5f1) | fix(agent-runner): make weighted shell admission atomic | [sase-z4.6.2](sase-z4.6.2.md) | 2026-09-10 09:45:23 EDT |
 | sase | [`cceed09`](https://github.com/sase-org/sase/commit/cceed09a993f4395f045310f72ca6f25b14174c9) | fix(ace): display weighted runner capacity from source rows | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:40:27 EDT |
+| sase-core | [`sase-core@8e491c3`](https://github.com/sase-org/sase-core/commit/8e491c337cafd43c44d1d34278fe16d64e069811) | feat(fleet): expose queue weight metadata | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:43:37 EDT |
