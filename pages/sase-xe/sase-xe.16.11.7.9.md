@@ -14,7 +14,7 @@ launch-experience: add a target selector synchronized with %dispatch, show resol
 ## Dependencies
 
 - **Blocks:** [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) ◐ · ⧖ 2026-09-09
-- **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

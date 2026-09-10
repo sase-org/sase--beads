@@ -14,7 +14,7 @@ unified-actions: give local and remote rows the same verbs with bound keys, owne
 ## Dependencies
 
 - **Blocks:** [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) ◐ · ⧖ 2026-09-09
-- **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
