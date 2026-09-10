@@ -23,6 +23,10 @@
 
 Weighted capacity uses authoritative durable lineage end to end, passes integrated lifecycle acceptance, and ships with verified published package floors.
 
+## Notes
+
+[2026-09-10T20:36:01Z · sase-z7.land] DISCOVERED ISSUE: stale agents-pane PNG goldens from the weighted capacity status strip are still unfixed and keep `just test-visual` red on clean master. Full evidence is on the root epic sase-z4 (note added 2026-09-10 by the sase-z7 land agent): 44 failed / 12 passed across a fixed 12-file agents-pane subset at HEAD 1ef9c092e, every diff confined to the status-strip row where the goldens still expect '[0/10 running' and the render now emits '0.0/10.0 [0 running'. Origin is sase-z4.4's commit 81064c144, which added _append_capacity_prefix without regenerating any goldens; sase-z4.6.3's cceed09a9 refreshed only 3 and added 2. Flagging it here because this is the active epic finishing weighted-capacity acceptance: whoever settles the final capacity-strip text should regenerate the corpus deliberately (inspecting the PNGs) in the same change, rather than leaving a bulk --sase-update-visual-snapshots for an unrelated agent.
+
 ## Agents
 
 | Agent | Bead | Commits |
