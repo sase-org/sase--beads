@@ -14,9 +14,9 @@ health-verify: run the combined acceptance checks including check-full through a
 ## Dependencies
 
 - **Depends on:** [sase-yz.1](sase-yz.1.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-yz.2](sase-yz.2.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yz.2](sase-yz.2.md) ✓ · ⧖ 2026-09-09
 - **Depends on:** [sase-yz.3](sase-yz.3.md) ✓ · ⧖ 2026-09-09
-- **Depends on:** [sase-yz.4](sase-yz.4.md) ◐ · ⧖ 2026-09-09
+- **Depends on:** [sase-yz.4](sase-yz.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

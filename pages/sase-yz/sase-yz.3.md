@@ -18,7 +18,7 @@ health-cli: render collector health in sase usage list status cells and verbose 
 ## Dependencies
 
 - **Depends on:** [sase-yz.1](sase-yz.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-yz.4](sase-yz.4.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-yz.4](sase-yz.4.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-yz.5](sase-yz.5.md) ◐ · ⧖ 2026-09-09
 
 ## Agents
