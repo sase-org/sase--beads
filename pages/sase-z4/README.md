@@ -65,7 +65,7 @@ flowchart TD
     n16["sase-z4.6.5.4.1: Ratchet the core revision pin to the commit that carries the lineage wire [closed]"]
     n17["sase-z4.6.5.4.2: Add the missing weight-2 monitor and gate lifecycle acceptance [closed]"]
     n18["sase-z4.6.5.4.3: Compare runtime, CLI, and TUI capacity from one captured snapshot [closed]"]
-    n19["sase-z4.6.5.4.4: Regenerate the capacity-strip visual corpus deliberately [in_progress]"]
+    n19["sase-z4.6.5.4.4: Regenerate the capacity-strip visual corpus deliberately [closed]"]
     n20["sase-z4.6.5.4.5: Prove actual released floors and retire the rollout flag [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.1/README.md) | [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.2/README.md) | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.3/README.md) | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 1 |
-| [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.5/README.md) | [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.land/README.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.land.md) | [sase-z4.6.5](sase-z4.6.5.md) | 0 |
@@ -155,3 +155,4 @@ flowchart TD
 | sase | [`3e32c5c`](https://github.com/sase-org/sase/commit/3e32c5cc665828662a0d316cdb61ecbacdf40a5b) | fix(core-pin): ratchet sase-core-revision.txt to the lineage-wire commit | [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) | 2026-09-10 17:49:45 EDT |
 | sase | [`74a4e42`](https://github.com/sase-org/sase/commit/74a4e4282f7dbf29a4e258de2dad8687da01d6ae) | test(capacity-snapshot): add cross-view weighted-capacity parity tests | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 2026-09-10 18:36:17 EDT |
 | sase | [`25b5d4c`](https://github.com/sase-org/sase/commit/25b5d4cf7007610448a72754cf4445c379eb9fe4) | test(fakey): add real monitor/gate weighted-capacity lifecycle e2e tests | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 2026-09-10 19:03:20 EDT |
+| sase | [`3e39ebd`](https://github.com/sase-org/sase/commit/3e39ebdce2c297430b17da09760bf23ceb2cce4a) | test(tui): refresh capacity-strip PNG goldens | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 2026-09-10 19:07:28 EDT |
