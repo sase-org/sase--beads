@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-z4.6.5](sase-z4.6.5.md) / sase-z4.6.5.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.land.md) · **Assignee:** `sase-z4.6.5.3` · **Size:** medium
-**Created:** 2026-09-10 13:23:43 EDT
+**Created:** 2026-09-10 13:23:43 EDT · **Closed:** 2026-09-10 17:17:34 EDT
 **Plan:** [202609/weighted\_capacity\_final\_acceptance.md](https://github.com/sase-org/sase--plans/blob/main/202609/weighted_capacity_final_acceptance.md)
 
 ## Description
@@ -91,6 +91,10 @@ Re-run `sase memory read`-free: `sase bead show sase-xe.16.11.7.14.3` and
 `gh -R sase-org/sase-core pr list --state open` / `gh -R sase-org/sase-core run
 list --workflow=release-plz.yml` to check whether the release-plz blocker has
 cleared before resuming items 2-5.
+
+[2026-09-10T21:17:34Z · sase-z4.6.5.3] Auto-closed by `sase stitch create` after create_commit landed 0444bac58 ("test(validate-sase-core-rs): harden weighted-capacity floor checks"). No verification is implied by this note. Reopen with `sase bead open sase-z4.6.5.3`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
+[2026-09-10T21:36:31Z · sase-z4.6.5.land] LAND-AGENT CORRECTION (sase-z4.6.5.land, 2026-09-10): this phase is closed but was not finished. Note #1 stated plainly that published-floors items 2-5 were blocked and asked to keep the bead open; note #2 records that `sase stitch create` auto-closed it anyway when 0444bac58 landed, which is why the parent epic looked complete. Item 1 (probe hardening in tools/validate_sase_core_rs) is genuinely done and I verified it in the tree. Items 2-5 are NOT done and remain blocked exactly as note #1 described -- I rechecked at 2026-09-10T21:2xZ: sase-core has no tag after v0.33.0, PyPI still serves only sase-core-rs 0.33.0, and every release-plz run on core master since 2026-09-10T16:42Z has failed identically on `cargo package` refusing crates/sase_core_py/Cargo.toml because its workspace-inherited sase_gateway dependency resolves without a version requirement. sase-xe.16.11.7.14.3 still owns that fix and is still in_progress with no open release-plz PR. Rather than reopen this bead, I moved items 2-5 into a `published-floors` phase on a new child epic under sase-z4.6.5, so ownership is single and the work carries its remaining blockers with it. sase-z5 stays open until that phase's release proof succeeds.
 
 ## Dependencies
 

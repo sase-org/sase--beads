@@ -24,7 +24,7 @@ admission-authority: connect the Rust runner-capacity candidate decision and dur
 ## Dependencies
 
 - **Blocks:** [sase-z4.6.5.2](sase-z4.6.5.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.5.3](sase-z4.6.5.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.3](sase-z4.6.5.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

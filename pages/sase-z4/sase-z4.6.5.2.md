@@ -22,7 +22,7 @@ integrated-acceptance: exercise weighted claims, parallel-lineage handoffs, moni
 ## Dependencies
 
 - **Depends on:** [sase-z4.6.5.1](sase-z4.6.5.1.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.5.3](sase-z4.6.5.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.3](sase-z4.6.5.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
