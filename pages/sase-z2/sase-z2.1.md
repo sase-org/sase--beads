@@ -17,7 +17,7 @@ launch-plan-push: make `sase bead work <plan.md>` publish its plan archive and b
 
 ## Dependencies
 
-- **Blocks:** [sase-z2.4](sase-z2.4.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z2.4](sase-z2.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 

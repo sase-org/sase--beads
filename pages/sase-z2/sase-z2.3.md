@@ -17,7 +17,7 @@ plan-archive-doctor: add a doctor-style check that cross-references plan beads, 
 
 ## Dependencies
 
-- **Blocks:** [sase-z2.4](sase-z2.4.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z2.4](sase-z2.4.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
