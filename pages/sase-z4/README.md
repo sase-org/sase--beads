@@ -62,9 +62,9 @@ flowchart TD
     n13["sase-z4.6.5.2: Add the missing integrated weighted workload acceptance [closed]"]
     n14["sase-z4.6.5.3: Prove actual released floors and retire the rollout flag [closed]"]
     n15["sase-z4.6.5.4: Finish the weighted-capacity core pin, lifecycle acceptance, and released floors [in_progress]"]
-    n16["sase-z4.6.5.4.1: Ratchet the core revision pin to the commit that carries the lineage wire [in_progress]"]
+    n16["sase-z4.6.5.4.1: Ratchet the core revision pin to the commit that carries the lineage wire [closed]"]
     n17["sase-z4.6.5.4.2: Add the missing weight-2 monitor and gate lifecycle acceptance [in_progress]"]
-    n18["sase-z4.6.5.4.3: Compare runtime, CLI, and TUI capacity from one captured snapshot [in_progress]"]
+    n18["sase-z4.6.5.4.3: Compare runtime, CLI, and TUI capacity from one captured snapshot [closed]"]
     n19["sase-z4.6.5.4.4: Regenerate the capacity-strip visual corpus deliberately [in_progress]"]
     n20["sase-z4.6.5.4.5: Prove actual released floors and retire the rollout flag [in_progress]"]
     n0 --> n1
@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.3/README.md) | [sase-z4.6.5.3](sase-z4.6.5.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.1/README.md) | [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.2/README.md) | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 0 |
-| [bbugyi200.athena.sase-z4.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.3/README.md) | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.3/README.md) | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.5/README.md) | [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.land/README.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
@@ -153,3 +153,4 @@ flowchart TD
 | sase | [`788c63e`](https://github.com/sase-org/sase/commit/788c63e286604dbdda92ad476750fe02be9abc9f) | test(runner-slots): add integrated weighted fakey acceptance | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 2026-09-10 16:32:28 EDT |
 | sase | [`0444bac`](https://github.com/sase-org/sase/commit/0444bac58336afc9bf179303d66f4418cb7a1eea) | test(validate-sase-core-rs): harden weighted-capacity floor checks | [sase-z4.6.5.3](sase-z4.6.5.3.md) | 2026-09-10 17:15:16 EDT |
 | sase | [`3e32c5c`](https://github.com/sase-org/sase/commit/3e32c5cc665828662a0d316cdb61ecbacdf40a5b) | fix(core-pin): ratchet sase-core-revision.txt to the lineage-wire commit | [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) | 2026-09-10 17:49:45 EDT |
+| sase | [`74a4e42`](https://github.com/sase-org/sase/commit/74a4e4282f7dbf29a4e258de2dad8687da01d6ae) | test(capacity-snapshot): add cross-view weighted-capacity parity tests | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 2026-09-10 18:36:17 EDT |

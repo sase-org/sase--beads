@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [sase-z4.6.5.4](sase-z4.6.5.4.md) / sase-z4.6.5.4.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.land.md) · **Assignee:** `sase-z4.6.5.4.1` · **Size:** medium
-**Created:** 2026-09-10 17:42:14 EDT
+**Created:** 2026-09-10 17:42:14 EDT · **Closed:** 2026-09-10 17:52:16 EDT
 **Plan:** [202609/weighted\_capacity\_remaining\_acceptance.md](https://github.com/sase-org/sase--plans/blob/main/202609/weighted_capacity_remaining_acceptance.md)
 
 ## Description
 
 core-pin: advance sase-core-revision.txt to a core commit containing the agent-scan runner_claim_owner_key wire field and index schema 27, then prove a clean provision from the pin builds and passes.
 
+## Notes
+
+[2026-09-10T21:52:16Z · sase-z4.6.5.4.1] Auto-closed by `sase stitch create` after create_commit landed 3e32c5cc6 ("fix(core-pin): ratchet sase-core-revision.txt to the lineage-wire commit"). No verification is implied by this note. Reopen with `sase bead open sase-z4.6.5.4.1`, or pass `-B|--do-not-close-bead` on mid-flight commits.
+
 ## Dependencies
 
 - **Blocks:** [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) ◐ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) ◐ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ◐ · ⧖ 2026-09-10
 

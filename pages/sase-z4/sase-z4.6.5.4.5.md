@@ -13,9 +13,9 @@ published-floors: establish releases containing the repaired core and host work,
 
 ## Dependencies
 
-- **Depends on:** [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) ◐ · ⧖ 2026-09-10
-- **Depends on:** [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
