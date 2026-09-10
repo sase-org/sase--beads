@@ -23,6 +23,10 @@
 
 Automatic artifact-link writes never produce a merge conflict an agent must hand-resolve: link mutations become immutable, content-addressed events reduced deterministically in Rust core and published through the host-owned machine lane, consuming the publication retry/aging ledger sase-yh landed instead of building a second one, while a conservative semantic resolver auto-repairs legacy links/*.json conflicts during rollout.
 
+## Notes
+
+[2026-09-10T18:25:25Z · sase-yy.land] LANDING AUDIT: Not ready to close. Reviewed the epic (no prior notes; no parent), all seven closed children and every note, the linked original plan, the seven primary epic commits and Rust commits 528c3db/55770cb/1842f29, current source, and relevant overlap among 53 non-epic commits since the first exact epic commit. Fetched origin/master; both it and HEAD are abdcb86d6. Module splits/public facade repair, sidecar eviction protection, clone fallback, and the existing publication retry ledger must remain integrated. Binding validator exited 0; 35 focused event/import/resolver/rebase tests passed in 17.96s. Isolated reproductions nevertheless confirm: derived sweeps reuse an ID with different timestamps/bytes; an ineligible mixed-v1/v2 drain silently removes v1 with drained=0,dropped=0; no-owner events report published=1 but keep no event/aggregate row; SIGKILL after final-path creation leaves an unretryable zero-byte event; interrupted multi-role marker writes cannot resume; post-import rename rewrites/deletes frozen legacy indexes; cross-clone row reconciliation counts two distinct observations as one. Also inspected manual/inlet checkout-store routing, alias actor/eligibility, missing fleet-capability attestation, Rust boundary gaps, and bead projection/receipt parity requirements. All are remaining epic work, not external bug follow-ups. Audit file:explicit:e7416d60ce1cf8d99a71fe3c; reproduction script file:explicit:7f5e04013d3b9e6e1b5a54db; results file:explicit:a6e3025e88ceccabf89d82ae. Child-note outcomes: sase-yy.2 note 1 and sase-yy.3 note 1 propose the same Rust floor ratchet and are already addressed by >=0.33.0,<0.34.0 plus the successful binding validator; no tasks created. sase-yy.6 note 1 proposes closing existing flag bead sase-z0: code-level flag/schema removal is confirmed, but retain it until repaired cutover/acceptance satisfies its removal condition. The optional original-plan suggestion for a decisions memory task is deferred until a successful landing establishes the settled behavior. sase-yy.4's auto-close note is not verification; the independent publisher audit uncovered the blockers above. sase bead epic-symbols sase-yy reports no entries. No production source edits or live cutover performed; full just check-full remains required on the repaired combined tree through sase_monitor before closing. Submitting a five-phase repair epic with parent_bead: sase-yy; validated with --explain and again without it, both passed with no warnings. Keep this epic and its original plan unfinished. After the repair child lands, recheck all descendants/notes, original requirements, drift and full verification, resolve the flag proposal, rerun epic-symbols, and close normally only if complete; there is no parent ancestor above sase-yy.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,6 +51,12 @@ flowchart TD
     n5["sase-yy.5: Readers, projections, and maintenance consume reduced events [closed]"]
     n6["sase-yy.6: Fence, import legacy indexes, and cut over [closed]"]
     n7["sase-yy.7: Multi-clone acceptance suite and conflict-free guarantee [closed]"]
+    n8["sase-yy.8: Complete artifact-link event identity, publication, and cutover guarantees [in_progress]"]
+    n9["sase-yy.8.1: Freeze derived and alias operation identity across retries [closed]"]
+    n10["sase-yy.8.2: Require durable owners and publish complete event files atomically [in_progress]"]
+    n11["sase-yy.8.3: Reduce event unions and keep bead projections consistent [in_progress]"]
+    n12["sase-yy.8.4: Make legacy cutover resumable and preserve frozen history [in_progress]"]
+    n13["sase-yy.8.5: Verify real producer, crash, and reconciliation paths end to end [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,6 +64,12 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
     n1 -.-> n6
     n2 -.-> n3
     n2 -.-> n5
@@ -62,6 +78,15 @@ flowchart TD
     n4 -.-> n6
     n5 -.-> n6
     n6 -.-> n7
+    n9 -.-> n10
+    n9 -.-> n12
+    n9 -.-> n13
+    n10 -.-> n11
+    n10 -.-> n12
+    n10 -.-> n13
+    n11 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n13
 ```
 
 ## Agents
@@ -75,7 +100,13 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.5.md) | [sase-yy.5](sase-yy.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.6.md) | [sase-yy.6](sase-yy.6.md) | 1 |
 | [bbugyi200.athena.sase-yy.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.7/README.md) | [sase-yy.7](sase-yy.7.md) | 1 |
-| [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.land/README.md) | [sase-yy](README.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.1/README.md) | [sase-yy.8.1](sase-yy.8.1.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.2/README.md) | [sase-yy.8.2](sase-yy.8.2.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.3/README.md) | [sase-yy.8.3](sase-yy.8.3.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.4/README.md) | [sase-yy.8.4](sase-yy.8.4.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.5/README.md) | [sase-yy.8.5](sase-yy.8.5.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.land/README.md) | [sase-yy.8](sase-yy.8.md) | 0 |
+| [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.land.md) | [sase-yy](README.md) | 0 |
 
 ## Commits
 
@@ -91,3 +122,4 @@ flowchart TD
 | sase | [`ba73bc3`](https://github.com/sase-org/sase/commit/ba73bc30e4c0438e8861dfbe3e95a3754d121252) | feat(artifact-links): consume reduced event truth | [sase-yy.5](sase-yy.5.md) | 2026-09-10 09:59:41 EDT |
 | sase | [`a8d99d2`](https://github.com/sase-org/sase/commit/a8d99d2952681d2aed4e755a30942e8cc82a0424) | feat(artifact-links): cut over legacy indexes to events | [sase-yy.6](sase-yy.6.md) | 2026-09-10 13:34:12 EDT |
 | sase | [`abdcb86`](https://github.com/sase-org/sase/commit/abdcb86d6af27acbadc809013dfd968648ae9a1f) | fix(sdd): harden artifact link event publication | [sase-yy.7](sase-yy.7.md) | 2026-09-10 14:07:25 EDT |
+| sase | [`f5a3f5c`](https://github.com/sase-org/sase/commit/f5a3f5c99ec7c55a44ff0517c7eea820f0b46c3c) | fix(artifact-links): freeze replayable producer identity | [sase-yy.8.1](sase-yy.8.1.md) | 2026-09-10 15:08:10 EDT |
