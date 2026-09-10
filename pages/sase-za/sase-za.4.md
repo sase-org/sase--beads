@@ -13,7 +13,7 @@ verify-resource-diet: capture after-measurements on the live host, add perf-floo
 
 ## Dependencies
 
-- **Depends on:** [sase-za.2](sase-za.2.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-za.2](sase-za.2.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-za.3](sase-za.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
