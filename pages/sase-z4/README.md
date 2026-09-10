@@ -27,8 +27,8 @@ Support positive fractional weights on %queue/%q, enforce and display weighted c
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-z4.1](sase-z4.1.md) | Define weighted queue contracts and shared capacity policy in Rust | ✓ closed | medium | 2026-09-09 | 1 | 0 |
-| [sase-z4.2](sase-z4.2.md) | Preserve weight through prompt editing and durable launch metadata | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
+| [sase-z4.1](sase-z4.1.md) | Define weighted queue contracts and shared capacity policy in Rust | ✓ closed | medium | 2026-09-09 | 1 | 1 |
+| [sase-z4.2](sase-z4.2.md) | Preserve weight through prompt editing and durable launch metadata | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-z4.3](sase-z4.3.md) | Enforce weighted claims through admission, handoffs, and cleanup | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
 | [sase-z4.4](sase-z4.4.md) | Separate capacity from counts and render quiet weight badges | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
 | [sase-z4.5](sase-z4.5.md) | Adopt workload weights and complete the coordinated rollout | ◐ in_progress | medium | 2026-09-09 | 1 | 0 |
@@ -39,7 +39,7 @@ Support positive fractional weights on %queue/%q, enforce and display weighted c
 flowchart TD
     n0["sase-z4: Weighted agent capacity with clear queue and status presentation [in_progress]"]
     n1["sase-z4.1: Define weighted queue contracts and shared capacity policy in Rust [closed]"]
-    n2["sase-z4.2: Preserve weight through prompt editing and durable launch metadata [in_progress]"]
+    n2["sase-z4.2: Preserve weight through prompt editing and durable launch metadata [closed]"]
     n3["sase-z4.3: Enforce weighted claims through admission, handoffs, and cleanup [in_progress]"]
     n4["sase-z4.4: Separate capacity from counts and render quiet weight badges [in_progress]"]
     n5["sase-z4.5: Adopt workload weights and complete the coordinated rollout [in_progress]"]
@@ -58,9 +58,16 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.1/README.md) | [sase-z4.1](sase-z4.1.md) | 0 |
-| [bbugyi200.athena.sase-z4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.2/README.md) | [sase-z4.2](sase-z4.2.md) | 0 |
+| [bbugyi200.athena.sase-z4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.1/README.md) | [sase-z4.1](sase-z4.1.md) | 1 |
+| [bbugyi200.athena.sase-z4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.2/README.md) | [sase-z4.2](sase-z4.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.3/README.md) | [sase-z4.3](sase-z4.3.md) | 0 |
 | [bbugyi200.athena.sase-z4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.4/README.md) | [sase-z4.4](sase-z4.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.land/README.md) | [sase-z4](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@63bb275`](https://github.com/sase-org/sase-core/commit/63bb275ef9563903b8d8c02b666997cfe1312c87) | feat(core): add weighted queue capacity contracts | [sase-z4.1](sase-z4.1.md) | 2026-09-09 21:34:32 EDT |
+| sase | [`7c31d9a`](https://github.com/sase-org/sase/commit/7c31d9abac15e0c772d4d9f2bacbd3536417cfe9) | feat(agent-launch): preserve weighted queue metadata | [sase-z4.2](sase-z4.2.md) | 2026-09-09 23:08:03 EDT |
