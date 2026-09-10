@@ -17,7 +17,7 @@ core-pin: advance sase-core-revision.txt to a core commit containing the agent-s
 
 ## Dependencies
 
-- **Blocks:** [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) ◐ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ◐ · ⧖ 2026-09-10
