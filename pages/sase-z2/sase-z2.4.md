@@ -7,6 +7,18 @@
 **Created:** 2026-09-09 18:25:01 EDT · **Closed:** 2026-09-09 20:13:48 EDT
 **Plan:** [202609/durable\_plan\_archive\_publication.md](https://github.com/sase-org/sase--plans/blob/main/202609/durable_plan_archive_publication.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-zb][1] | Phase sase-z2.4 proposed this metadata-normalization follow-up after valid archive backfills were intentionally separated from legacy invalid local plans |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-zb/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 backfill-athena: run the repair for every recoverable missing plan on this machine — 202609/unified_agents_across_machines.md first — verify the sidecar remote now serves them with correct bead_id frontmatter, and record follow-ups for plans only recoverable from another machine.
