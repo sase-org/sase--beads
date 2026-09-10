@@ -15,7 +15,7 @@ cutover_recovery: preserve legacy outbox rows during ordinary drains, resume int
 
 - **Depends on:** [sase-yy.8.1](sase-yy.8.1.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-yy.8.2](sase-yy.8.2.md) ✓ · ⧖ 2026-09-10
-- **Depends on:** [sase-yy.8.3](sase-yy.8.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-yy.8.3](sase-yy.8.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ◐ · ⧖ 2026-09-10
 
 ## Agents

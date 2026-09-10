@@ -15,7 +15,7 @@ acceptance: extend multi-clone tests through production producers and actual pro
 
 - **Depends on:** [sase-yy.8.1](sase-yy.8.1.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-yy.8.2](sase-yy.8.2.md) ✓ · ⧖ 2026-09-10
-- **Depends on:** [sase-yy.8.3](sase-yy.8.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-yy.8.3](sase-yy.8.3.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [sase-yy.8.4](sase-yy.8.4.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
