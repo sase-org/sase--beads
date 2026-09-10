@@ -57,7 +57,7 @@ flowchart TD
     n10["sase-z4.6.4: Prove packaged compatibility and integrated weighted workloads [closed]"]
     n11["sase-z4.6.5: Finish weighted-capacity acceptance [in_progress]"]
     n12["sase-z4.6.5.1: Make Rust candidate lineage authoritative at admission [closed]"]
-    n13["sase-z4.6.5.2: Add the missing integrated weighted workload acceptance [in_progress]"]
+    n13["sase-z4.6.5.2: Add the missing integrated weighted workload acceptance [closed]"]
     n14["sase-z4.6.5.3: Prove actual released floors and retire the rollout flag [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.1.md) | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2 |
-| [bbugyi200.athena.sase-z4.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.2/README.md) | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.2/README.md) | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.3/README.md) | [sase-z4.6.5.3](sase-z4.6.5.3.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.land/README.md) | [sase-z4.6.5](sase-z4.6.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.land.md) | [sase-z4.6](sase-z4.6.md) | 0 |
@@ -124,3 +124,4 @@ flowchart TD
 | sase-research-artifacts | [`sase-research-artifacts@8f00896`](https://github.com/sase-org/sase-research-artifacts/commit/8f0089629bad7470dc57fdae9d0b6f8eb74bb259) | test(release): verify weighted wheel floors | [sase-z4.6.4](sase-z4.6.4.md) | 2026-09-10 13:01:10 EDT |
 | sase | [`3260f6a`](https://github.com/sase-org/sase/commit/3260f6a42b5f6ae22a5cab4473aacd7c6e2ebac1) | feat(runner-slots): make Rust candidate lineage authoritative at admission | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2026-09-10 15:49:06 EDT |
 | sase-core | [`sase-core@120556a`](https://github.com/sase-org/sase-core/commit/120556af3243255921d640845d07686b544dca69) | feat(agent-scan): add runner\_claim\_owner\_key wire field and lineage lookup | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2026-09-10 15:51:20 EDT |
+| sase | [`788c63e`](https://github.com/sase-org/sase/commit/788c63e286604dbdda92ad476750fe02be9abc9f) | test(runner-slots): add integrated weighted fakey acceptance | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 2026-09-10 16:32:28 EDT |
