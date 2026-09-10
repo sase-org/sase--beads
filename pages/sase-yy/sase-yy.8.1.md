@@ -27,10 +27,11 @@ producer_identity: make repeated derivation and rename discovery reuse byte-iden
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.1/README.md) | [sase-yy.8.1](sase-yy.8.1.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.1/README.md) | [sase-yy.8.1](sase-yy.8.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f5a3f5c`](https://github.com/sase-org/sase/commit/f5a3f5c99ec7c55a44ff0517c7eea820f0b46c3c) | fix(artifact-links): freeze replayable producer identity | [sase-yy.8.1](sase-yy.8.1.md) | 2026-09-10 15:08:10 EDT |
+| sase-core | [`sase-core@d5d5be4`](https://github.com/sase-org/sase-core/commit/d5d5be4baa62d807a4a8959d2f43f12ff292bcf5) | fix(artifact-links): expose stable producer identity helpers | [sase-yy.8.1](sase-yy.8.1.md) | 2026-09-10 15:10:33 EDT |
