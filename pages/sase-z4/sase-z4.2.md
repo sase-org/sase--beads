@@ -18,7 +18,7 @@ launch-plumbing: add temporary beta rollout scaffolding and preserve authored an
 ## Dependencies
 
 - **Depends on:** [sase-z4.1](sase-z4.1.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-z4.3](sase-z4.3.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z4.3](sase-z4.3.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
