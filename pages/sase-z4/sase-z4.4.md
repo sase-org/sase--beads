@@ -18,7 +18,7 @@ capacity-ux: feed shared capacity into the TUI and CLI, render global usage befo
 ## Dependencies
 
 - **Depends on:** [sase-z4.3](sase-z4.3.md) ✓ · ⧖ 2026-09-09
-- **Blocks:** [sase-z4.5](sase-z4.5.md) ◐ · ⧖ 2026-09-09
+- **Blocks:** [sase-z4.5](sase-z4.5.md) ✓ · ⧖ 2026-09-09
 
 ## Agents
 
