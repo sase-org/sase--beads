@@ -13,7 +13,7 @@ capacity_docs_integration: synchronize CLI and directive documentation, referenc
 
 ## Dependencies
 
-- **Depends on:** [sase-zp.3](sase-zp.3.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zp.3](sase-zp.3.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

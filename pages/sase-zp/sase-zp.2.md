@@ -20,7 +20,7 @@ bead_capacity: add -c/--capacity, move --cl-name to -C, and preserve capacity ac
 ## Dependencies
 
 - **Depends on:** [sase-zp.1](sase-zp.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zp.3](sase-zp.3.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zp.3](sase-zp.3.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
