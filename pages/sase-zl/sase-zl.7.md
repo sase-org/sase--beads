@@ -13,7 +13,7 @@ dispatch: persist outcome policies and delivery identities, deduplicate successo
 
 ## Dependencies
 
-- **Depends on:** [sase-zl.6](sase-zl.6.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.6](sase-zl.6.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.8](sase-zl.8.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

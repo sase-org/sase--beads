@@ -24,7 +24,7 @@ replay: integrate unique-node serial replay, exact fork targets, stable blocks a
 ## Dependencies
 
 - **Depends on:** [sase-zl.3](sase-zl.3.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.6](sase-zl.6.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.6](sase-zl.6.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

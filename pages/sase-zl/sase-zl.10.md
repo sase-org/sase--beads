@@ -14,7 +14,7 @@ budgets: enforce expanded-prompt budgets, reuse explicit checkpoints at threshol
 ## Dependencies
 
 - **Blocks:** [sase-zl.11](sase-zl.11.md) ◐ · ⧖ 2026-09-11
-- **Depends on:** [sase-zl.6](sase-zl.6.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.6](sase-zl.6.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
