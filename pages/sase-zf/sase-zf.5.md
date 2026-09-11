@@ -13,7 +13,7 @@ docs-and-sweep: rewrite the user docs for the unified dialect including the lega
 
 ## Dependencies
 
-- **Depends on:** [sase-zf.4](sase-zf.4.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-zf.4](sase-zf.4.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

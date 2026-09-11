@@ -24,7 +24,7 @@ consumers-and-pushdown: compile the new dialect into the existing Rust candidate
 ## Dependencies
 
 - **Depends on:** [sase-zf.2](sase-zf.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-zf.4](sase-zf.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-zf.4](sase-zf.4.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

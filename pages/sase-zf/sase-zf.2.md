@@ -19,7 +19,7 @@ live-engine: swap the Agents tab committed-query parse/evaluate path to the agen
 
 - **Depends on:** [sase-zf.1](sase-zf.1.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-zf.3](sase-zf.3.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-zf.4](sase-zf.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-zf.4](sase-zf.4.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
