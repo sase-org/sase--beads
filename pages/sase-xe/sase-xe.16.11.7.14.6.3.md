@@ -24,4 +24,10 @@ catalog-snapshots: make older history explicitly pageable and bind catalog conti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.3.md) | [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.3.md) | [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@5b0187e`](https://github.com/sase-org/sase-core/commit/5b0187e70869621474c2a574534e70eb891121d6) | feat(fleet): add catalog snapshot history | [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) | 2026-09-10 23:06:01 EDT |
