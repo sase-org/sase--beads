@@ -27,10 +27,11 @@ projection_convergence: separate occurrence deduplication from state projection 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8f6e653`](https://github.com/sase-org/sase/commit/8f6e65361d1803160446bb3bdff16c061c7fa050) | test(sdd): cover bead projection convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 08:56:55 EDT |
+| sase-core | [`sase-core@b8ec0cb`](https://github.com/sase-org/sase-core/commit/b8ec0cb2170fc2da4b1eb64b8dbc4b13a4e1bad6) | fix(bead): repair projection receipt convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 09:00:36 EDT |

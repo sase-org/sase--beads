@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.5.md) | [sase-yy.8.5](sase-yy.8.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.1/README.md) | [sase-yy.8.6.1](sase-yy.8.6.1.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.2/README.md) | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2 |
-| [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.4/README.md) | [sase-yy.8.6.4](sase-yy.8.6.4.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.5/README.md) | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.6/README.md) | [sase-yy.8.6.6](sase-yy.8.6.6.md) | 0 |
@@ -169,3 +169,4 @@ flowchart TD
 | sase | [`49f4a5f`](https://github.com/sase-org/sase/commit/49f4a5f9fd1e62d737e9591ac0ca857ccaa55b08) | fix(artifact-links): verify publication on no-op retries | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 2026-09-11 08:12:09 EDT |
 | sase-core | [`sase-core@18a78c8`](https://github.com/sase-org/sase-core/commit/18a78c8441d11f450ca332863e1483481a144ca6) | fix(artifact-links): require durable bead history receipt | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2026-09-11 08:14:36 EDT |
 | sase | [`8f6e653`](https://github.com/sase-org/sase/commit/8f6e65361d1803160446bb3bdff16c061c7fa050) | test(sdd): cover bead projection convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 08:56:55 EDT |
+| sase-core | [`sase-core@b8ec0cb`](https://github.com/sase-org/sase-core/commit/b8ec0cb2170fc2da4b1eb64b8dbc4b13a4e1bad6) | fix(bead): repair projection receipt convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 09:00:36 EDT |
