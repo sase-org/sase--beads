@@ -20,7 +20,7 @@ bead_history: require canonical durable operation history for bead-only publicat
 ## Dependencies
 
 - **Depends on:** [sase-yy.8.6.1](sase-yy.8.6.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-yy.8.6.3](sase-yy.8.6.3.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-yy.8.6.3](sase-yy.8.6.3.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-yy.8.6.6](sase-yy.8.6.6.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

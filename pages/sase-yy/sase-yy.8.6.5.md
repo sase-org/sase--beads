@@ -28,4 +28,10 @@ synchronous_recovery: retry or report outstanding publication even when the requ
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.5/README.md) | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.5/README.md) | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`49f4a5f`](https://github.com/sase-org/sase/commit/49f4a5f9fd1e62d737e9591ac0ca857ccaa55b08) | fix(artifact-links): verify publication on no-op retries | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 2026-09-11 08:12:09 EDT |
