@@ -16,16 +16,16 @@ Monitor chains preserve the user's intent without recursively replaying history,
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-zl.1](sase-zl.1.md) | Reproduce failures and measure continuation costs | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 0 | 2 |
+| [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.5](sase-zl.5.md) | Preserve structured verification evidence | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.6](sase-zl.6.md) | Deliver each monitor result once | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ✓ closed | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 
 ## Lineage
@@ -34,7 +34,7 @@ Monitor chains preserve the user's intent without recursively replaying history,
 flowchart TD
     n0["sase-zl: Reliable monitor continuations with clear results and bounded context [in_progress]"]
     n1["sase-zl.1: Reproduce failures and measure continuation costs [closed]"]
-    n2["sase-zl.10: Bound continuation context without losing instructions [in_progress]"]
+    n2["sase-zl.10: Bound continuation context without losing instructions [closed]"]
     n3["sase-zl.11: Present a coherent monitor workflow [in_progress]"]
     n4["sase-zl.12: Validate the combined feature and activate it [in_progress]"]
     n5["sase-zl.2: Define the Rust continuation and result contracts [closed]"]
@@ -42,8 +42,8 @@ flowchart TD
     n7["sase-zl.4: Reconstruct ancestry without recursive transcript replay [closed]"]
     n8["sase-zl.5: Preserve structured verification evidence [closed]"]
     n9["sase-zl.6: Deliver each monitor result once [closed]"]
-    n10["sase-zl.7: Make outcome delivery durable and deduplicated [in_progress]"]
-    n11["sase-zl.8: Prepare conditional completion declarations [in_progress]"]
+    n10["sase-zl.7: Make outcome delivery durable and deduplicated [closed]"]
+    n11["sase-zl.8: Prepare conditional completion declarations [closed]"]
     n12["sase-zl.9: Complete eligible verification through the host [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -84,12 +84,13 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
 | [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.12/README.md) | [sase-zl.12](sase-zl.12.md) | 0 |
+| [bbugyi200.athena.sase-zl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.2/README.md) | [sase-zl.2](sase-zl.2.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 2 |
 | [bbugyi200.athena.sase-zl.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.5/README.md) | [sase-zl.5](sase-zl.5.md) | 1 |
 | [bbugyi200.athena.sase-zl.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.6/README.md) | [sase-zl.6](sase-zl.6.md) | 1 |
 | [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
-| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 0 |
+| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 1 |
 | [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 0 |
 | [bbugyi200.athena.sase-zl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.land/README.md) | [sase-zl](README.md) | 0 |
 
@@ -105,3 +106,6 @@ flowchart TD
 | sase | [`64360fe`](https://github.com/sase-org/sase/commit/64360feed600faeaf52950cfa8116be50d693cb6) | feat(continuation): render versioned replay forks | [sase-zl.4](sase-zl.4.md) | 2026-09-11 10:48:37 EDT |
 | sase-core | [`sase-core@f10d25d`](https://github.com/sase-org/sase-core/commit/f10d25d849f0f17a0e051bb06a89d5ffae6c325f) | feat(continuation): expose stable replay blocks | [sase-zl.4](sase-zl.4.md) | 2026-09-11 10:51:21 EDT |
 | sase | [`875447e`](https://github.com/sase-org/sase/commit/875447e2142f71dc04daeb49eab72c655c343be7) | feat(monitor): freeze monitor result evidence | [sase-zl.6](sase-zl.6.md) | 2026-09-11 12:15:45 EDT |
+| sase | [`0cc6632`](https://github.com/sase-org/sase/commit/0cc66329ebdce3e0d4e8f912606d0d2bc816d8c1) | feat: Bound continuation context without losing instructions (sase-zl.10) | [sase-zl.10](sase-zl.10.md) | 2026-09-11 13:31:08 EDT |
+| sase-core | [`sase-core@e1ab1d0`](https://github.com/sase-org/sase-core/commit/e1ab1d0efbbd0e518287f1d3954dae3de0b769f0) | feat: Bound continuation context without losing instructions (sase-zl.10) | [sase-zl.10](sase-zl.10.md) | 2026-09-11 13:31:23 EDT |
+| sase | [`d70fa0a`](https://github.com/sase-org/sase/commit/d70fa0ace8f3f02d73db172337e28ec0ec339953) | feat(monitor): prepare host-sealed conditional completion intents | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:16:05 EDT |

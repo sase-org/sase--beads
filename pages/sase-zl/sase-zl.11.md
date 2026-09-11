@@ -13,7 +13,7 @@ experience: expose the profile and evidence controls, implement compact result a
 
 ## Dependencies
 
-- **Depends on:** [sase-zl.10](sase-zl.10.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.10](sase-zl.10.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.12](sase-zl.12.md) ◐ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.9](sase-zl.9.md) ◐ · ⧖ 2026-09-11
 
