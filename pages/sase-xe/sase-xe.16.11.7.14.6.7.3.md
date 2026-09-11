@@ -13,7 +13,7 @@ acceptance-regressions: complete the captured-old-instance fencing proof, verify
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.14.6.7.1](sase-xe.16.11.7.14.6.7.1.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-xe.16.11.7.14.6.7.1](sase-xe.16.11.7.14.6.7.1.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-xe.16.11.7.14.6.7.4](sase-xe.16.11.7.14.6.7.4.md) ◐ · ⧖ 2026-09-11
 
