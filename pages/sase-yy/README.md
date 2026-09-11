@@ -58,7 +58,7 @@ flowchart TD
     n10["sase-yy.8.2: Require durable owners and publish complete event files atomically [closed]"]
     n11["sase-yy.8.3: Reduce event unions and keep bead projections consistent [closed]"]
     n12["sase-yy.8.4: Make legacy cutover resumable and preserve frozen history [closed]"]
-    n13["sase-yy.8.5: Verify real producer, crash, and reconciliation paths end to end [in_progress]"]
+    n13["sase-yy.8.5: Verify real producer, crash, and reconciliation paths end to end [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.8.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.2.md) | [sase-yy.8.2](sase-yy.8.2.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.3.md) | [sase-yy.8.3](sase-yy.8.3.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.4.md) | [sase-yy.8.4](sase-yy.8.4.md) | 2 |
-| [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.5/README.md) | [sase-yy.8.5](sase-yy.8.5.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.5.md) | [sase-yy.8.5](sase-yy.8.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.land/README.md) | [sase-yy.8](sase-yy.8.md) | 0 |
 | [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.land.md) | [sase-yy](README.md) | 0 |
 
@@ -132,3 +132,4 @@ flowchart TD
 | sase-core | [`sase-core@717c36e`](https://github.com/sase-org/sase-core/commit/717c36e7fa0d9ca5e967fb4e058317242570bd50) | feat(beads): project artifact links by edge receipt | [sase-yy.8.3](sase-yy.8.3.md) | 2026-09-10 17:56:21 EDT |
 | sase | [`2dcd6a1`](https://github.com/sase-org/sase/commit/2dcd6a136c715427c3916581a4e942822dc47155) | feat(artifact-links): make cutover import resumable | [sase-yy.8.4](sase-yy.8.4.md) | 2026-09-10 19:37:26 EDT |
 | sase-core | [`sase-core@e0f105d`](https://github.com/sase-org/sase-core/commit/e0f105d68045ffe00ae78f64263cd4bfb6f3d559) | feat(artifact-links): add cutover recovery policy | [sase-yy.8.4](sase-yy.8.4.md) | 2026-09-10 19:40:18 EDT |
+| sase | [`8eabf9e`](https://github.com/sase-org/sase/commit/8eabf9ecf82518d960cadb41f9cc17318e6d6558) | test(artifact-links): cover process death, mutation isolation, and cutover resume | [sase-yy.8.5](sase-yy.8.5.md) | 2026-09-10 20:28:17 EDT |

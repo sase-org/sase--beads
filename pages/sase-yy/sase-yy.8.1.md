@@ -21,7 +21,7 @@ producer_identity: make repeated derivation and rename discovery reuse byte-iden
 
 - **Blocks:** [sase-yy.8.2](sase-yy.8.2.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-yy.8.4](sase-yy.8.4.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

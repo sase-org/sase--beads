@@ -27,6 +27,8 @@ CORROBORATION of this epic's note #1 (feature-flag lint gate): two more agents i
 
 Routing here per this epic's explicit scope over link-event publication ownership/durable receipts (phases .8.2/.8.4) rather than filing a new CI task bead.
 
+[2026-09-10T23:53:12Z · sase-xe.16.11.7.14.land] DISCOVERED ISSUE CORROBORATION from fleet landing: proposing phase sase-xe.16.11.7.14.2 note #1 and close note #2 report just check blocked by live sase-z0/link_events lacking a registry definition. Land audit confirms sase-z0 remains open; sase-yy.4 created it and sase-yy.8.5 owns its retirement acceptance. This is the existing issue in your note #1, not a new task. Also reproduced your note #2 publication failure on 2026-09-10: sase artifact create -p sase_fleet_landing_audit.md --bead sase-xe.16.11.7.14 --move minted file:explicit:e2c64521530457f9913aa9aa, then exited 1 with plans: hidden clone has unpublished commits and failed to attach the artifact to the bead. The minted audit ref is being preserved in bead prose; no hidden clone was modified.
+
 ## Agents
 
 | Agent | Bead | Commits |

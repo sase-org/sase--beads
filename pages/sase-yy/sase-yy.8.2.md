@@ -26,7 +26,7 @@ publication_durability: prevent false acknowledgements for missing owners, prese
 - **Depends on:** [sase-yy.8.1](sase-yy.8.1.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-yy.8.3](sase-yy.8.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-yy.8.4](sase-yy.8.4.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-yy.8.5](sase-yy.8.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
