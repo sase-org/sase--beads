@@ -19,4 +19,4 @@ live-acceptance: verify released Athena-to-Apollo presentation, controlled dismi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.6/README.md) | [sase-xe.16.11.7.14.6.6](sase-xe.16.11.7.14.6.6.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.6.md) | [sase-xe.16.11.7.14.6.6](sase-xe.16.11.7.14.6.6.md) | 0 |
