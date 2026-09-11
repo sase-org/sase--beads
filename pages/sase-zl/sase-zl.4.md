@@ -30,10 +30,11 @@ replay: integrate unique-node serial replay, exact fork targets, stable blocks a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 1 |
+| [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`64360fe`](https://github.com/sase-org/sase/commit/64360feed600faeaf52950cfa8116be50d693cb6) | feat(continuation): render versioned replay forks | [sase-zl.4](sase-zl.4.md) | 2026-09-11 10:48:37 EDT |
+| sase-core | [`sase-core@f10d25d`](https://github.com/sase-org/sase-core/commit/f10d25d849f0f17a0e051bb06a89d5ffae6c325f) | feat(continuation): expose stable replay blocks | [sase-zl.4](sase-zl.4.md) | 2026-09-11 10:51:21 EDT |
