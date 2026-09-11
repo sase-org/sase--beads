@@ -31,7 +31,7 @@ The top-level Agents tab filters with the same boolean query-profile dialect, Ru
 | [sase-zf.2](sase-zf.2.md) | Rust-backed committed-query engine behind a sunset flag | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-zf.3](sase-zf.3.md) | Load-path pushdown parity and secondary query consumers | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [sase-zf.4](sase-zf.4.md) | Auto-hiding FilterBar chrome on the Agents tab | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [sase-zf.5](sase-zf.5.md) | Documentation rewrite and verification sweep | ◐ in_progress | small | 2026-09-10 | 1 | 0 |
+| [sase-zf.5](sase-zf.5.md) | Documentation rewrite and verification sweep | ✓ closed | small | 2026-09-10 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n2["sase-zf.2: Rust-backed committed-query engine behind a sunset flag [closed]"]
     n3["sase-zf.3: Load-path pushdown parity and secondary query consumers [closed]"]
     n4["sase-zf.4: Auto-hiding FilterBar chrome on the Agents tab [closed]"]
-    n5["sase-zf.5: Documentation rewrite and verification sweep [in_progress]"]
+    n5["sase-zf.5: Documentation rewrite and verification sweep [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.2/README.md) | [sase-zf.2](sase-zf.2.md) | 1 |
 | [bbugyi200.athena.sase-zf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.3/README.md) | [sase-zf.3](sase-zf.3.md) | 1 |
 | [bbugyi200.athena.sase-zf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.4/README.md) | [sase-zf.4](sase-zf.4.md) | 1 |
-| [bbugyi200.athena.sase-zf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.5/README.md) | [sase-zf.5](sase-zf.5.md) | 0 |
+| [bbugyi200.athena.sase-zf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.5/README.md) | [sase-zf.5](sase-zf.5.md) | 1 |
 | [bbugyi200.athena.sase-zf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zf.land/README.md) | [sase-zf](README.md) | 0 |
 
 ## Commits
@@ -75,3 +75,4 @@ flowchart TD
 | sase | [`699d2ad`](https://github.com/sase-org/sase/commit/699d2adf7a8ab928c0bcfa57dedfb54357f9189c) | feat(agents-tab): add Rust-backed committed-query engine behind sunset flag | [sase-zf.2](sase-zf.2.md) | 2026-09-10 20:02:31 EDT |
 | sase | [`e62e96f`](https://github.com/sase-org/sase/commit/e62e96f5ff917f5837051f2a192f842f453ce18d) | feat(agents): push down live query filters | [sase-zf.3](sase-zf.3.md) | 2026-09-10 20:45:16 EDT |
 | sase | [`6278e02`](https://github.com/sase-org/sase/commit/6278e02c446a430671c96273b034fd0ada67c157) | feat(agents-tab): add auto-hiding FilterBar chrome (sase-zf.4) | [sase-zf.4](sase-zf.4.md) | 2026-09-10 22:04:56 EDT |
+| sase | [`a53f4d0`](https://github.com/sase-org/sase/commit/a53f4d04e5fa8e45452a3e293d1edeee6188fc23) | docs(ace): document unified agents query syntax | [sase-zf.5](sase-zf.5.md) | 2026-09-10 22:28:25 EDT |
