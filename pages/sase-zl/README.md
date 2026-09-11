@@ -25,8 +25,8 @@ Monitor chains preserve the user's intent without recursively replaying history,
 | [sase-zl.5](sase-zl.5.md) | Preserve structured verification evidence | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.6](sase-zl.6.md) | Deliver each monitor result once | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ✓ closed | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ✓ closed | medium | 2026-09-11 | 1 | 2 |
+| [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n9["sase-zl.6: Deliver each monitor result once [closed]"]
     n10["sase-zl.7: Make outcome delivery durable and deduplicated [closed]"]
     n11["sase-zl.8: Prepare conditional completion declarations [closed]"]
-    n12["sase-zl.9: Complete eligible verification through the host [in_progress]"]
+    n12["sase-zl.9: Complete eligible verification through the host [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -90,8 +90,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.5/README.md) | [sase-zl.5](sase-zl.5.md) | 1 |
 | [bbugyi200.athena.sase-zl.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.6/README.md) | [sase-zl.6](sase-zl.6.md) | 1 |
 | [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
-| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 1 |
-| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 0 |
+| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 2 |
+| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 1 |
 | [bbugyi200.athena.sase-zl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.land/README.md) | [sase-zl](README.md) | 0 |
 
 ## Commits
@@ -109,3 +109,5 @@ flowchart TD
 | sase | [`0cc6632`](https://github.com/sase-org/sase/commit/0cc66329ebdce3e0d4e8f912606d0d2bc816d8c1) | feat: Bound continuation context without losing instructions (sase-zl.10) | [sase-zl.10](sase-zl.10.md) | 2026-09-11 13:31:08 EDT |
 | sase-core | [`sase-core@e1ab1d0`](https://github.com/sase-org/sase-core/commit/e1ab1d0efbbd0e518287f1d3954dae3de0b769f0) | feat: Bound continuation context without losing instructions (sase-zl.10) | [sase-zl.10](sase-zl.10.md) | 2026-09-11 13:31:23 EDT |
 | sase | [`d70fa0a`](https://github.com/sase-org/sase/commit/d70fa0ace8f3f02d73db172337e28ec0ec339953) | feat(monitor): prepare host-sealed conditional completion intents | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:16:05 EDT |
+| sase-core | [`sase-core@633c0cb`](https://github.com/sase-org/sase-core/commit/633c0cbd800ac205c49fa48325c0f3d6961a702e) | feat(continuation): add conditional completion seal and bind contracts | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:19:18 EDT |
+| sase | [`0b653f0`](https://github.com/sase-org/sase/commit/0b653f0a2b1ca7aba2942fc0e7b71322066cfb7e) | feat(monitor): complete eligible verification through the host | [sase-zl.9](sase-zl.9.md) | 2026-09-11 16:34:04 EDT |

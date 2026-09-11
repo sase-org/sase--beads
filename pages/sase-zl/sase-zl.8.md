@@ -20,16 +20,17 @@ prepare: add a host-sealed completion intent with repository decisions, verifica
 ## Dependencies
 
 - **Depends on:** [sase-zl.7](sase-zl.7.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.9](sase-zl.9.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.9](sase-zl.9.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 1 |
+| [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d70fa0a`](https://github.com/sase-org/sase/commit/d70fa0ace8f3f02d73db172337e28ec0ec339953) | feat(monitor): prepare host-sealed conditional completion intents | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:16:05 EDT |
+| sase-core | [`sase-core@633c0cb`](https://github.com/sase-org/sase-core/commit/633c0cbd800ac205c49fa48325c0f3d6961a702e) | feat(continuation): add conditional completion seal and bind contracts | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:19:18 EDT |
