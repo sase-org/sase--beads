@@ -34,6 +34,7 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 | [bbugyi200.athena.toobig-55.test\_artifact\_link\_event\_acceptance.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_artifact_link_event_acceptance.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.test\_fleet\_agents.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_fleet_agents.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.test\_monitor\_gate\_capacity\_e2e.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_monitor_gate_capacity_e2e.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
+| [bbugyi200.athena.toobig-55.test\_sidecar\_clone.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_sidecar_clone.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.update\_handler.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.update_handler.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 
 ## Commits
@@ -49,3 +50,4 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 | sase | [`8b5039b`](https://github.com/sase-org/sase/commit/8b5039b571f7607b234616a9f350581564eabe50) | test: split fleet agent tests by concern | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 23:14:44 EDT |
 | sase | [`b43f399`](https://github.com/sase-org/sase/commit/b43f399ae34689a0dd75cc5e6bb625eef8ee4705) | test(fakey): split monitor and gate capacity e2e tests by topic | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 23:27:28 EDT |
 | sase | [`42c332a`](https://github.com/sase-org/sase/commit/42c332aed5022764fb6212186f8a7826d64662fd) | test(sdd): split artifact link event acceptance tests | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 23:40:41 EDT |
+| sase | [`cf19ea2`](https://github.com/sase-org/sase/commit/cf19ea28eb430f8ad82c1c74f7f09fae875d2c73) | test(sdd): split test\_sidecar\_clone.py by concern | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 23:54:50 EDT |
