@@ -24,10 +24,11 @@ dismissal-parity: prove unloaded-member cleanup, preserve live and protected rec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.2/README.md) | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.2/README.md) | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`49cddab`](https://github.com/sase-org/sase/commit/49cddaba38ddfe32bb56bf00d13e77828e4c4764) | fix(fleet): surface dismissed index sync failures | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 2026-09-10 22:08:14 EDT |
+| sase-core | [`sase-core@4eec518`](https://github.com/sase-org/sase-core/commit/4eec518c2658cf8b064e1832f75e7d5729975e8c) | fix(agent-scan): reconcile unloaded dismissed families | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 2026-09-10 22:12:02 EDT |
