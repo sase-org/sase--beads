@@ -15,7 +15,7 @@ results: freeze terminal results and apply auto, tail, file and none policies co
 
 - **Blocks:** [sase-zl.10](sase-zl.10.md) ◐ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.4](sase-zl.4.md) ◐ · ⧖ 2026-09-11
-- **Depends on:** [sase-zl.5](sase-zl.5.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.5](sase-zl.5.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.7](sase-zl.7.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

@@ -25,7 +25,7 @@ contract: implement versioned exact-identity records, deterministic replay plann
 
 - **Depends on:** [sase-zl.1](sase-zl.1.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.3](sase-zl.3.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.5](sase-zl.5.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.5](sase-zl.5.md) ✓ · ⧖ 2026-09-11
 
 ## Commits
 
