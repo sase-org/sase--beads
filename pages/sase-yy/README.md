@@ -67,7 +67,7 @@ flowchart TD
     n17["sase-yy.8.6.3: Repair bead projections from complete event truth [closed]"]
     n18["sase-yy.8.6.4: Accept valid out-of-order tombstones on read surfaces [closed]"]
     n19["sase-yy.8.6.5: Verify remote publication on unchanged CLI and import retries [closed]"]
-    n20["sase-yy.8.6.6: Prove durable history and recovery through production paths [in_progress]"]
+    n20["sase-yy.8.6.6: Prove durable history and recovery through production paths [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -137,10 +137,9 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.4/README.md) | [sase-yy.8.6.4](sase-yy.8.6.4.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.5/README.md) | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 1 |
-| [bbugyi200.athena.sase-yy.8.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.6/README.md) | [sase-yy.8.6.6](sase-yy.8.6.6.md) | 0 |
+| [bbugyi200.athena.sase-yy.8.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.6/README.md) | [sase-yy.8.6.6](sase-yy.8.6.6.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.land/README.md) | [sase-yy.8.6](sase-yy.8.6.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.land.md) | [sase-yy.8](sase-yy.8.md) | 0 |
-| [bbugyi200.athena.sase-yy.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.land.md) | [sase-yy](README.md) | 0 |
 
 ## Commits
 
@@ -171,3 +170,4 @@ flowchart TD
 | sase | [`8f6e653`](https://github.com/sase-org/sase/commit/8f6e65361d1803160446bb3bdff16c061c7fa050) | test(sdd): cover bead projection convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 08:56:55 EDT |
 | sase-core | [`sase-core@b8ec0cb`](https://github.com/sase-org/sase-core/commit/b8ec0cb2170fc2da4b1eb64b8dbc4b13a4e1bad6) | fix(bead): repair projection receipt convergence | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 2026-09-11 09:00:36 EDT |
 | sase | [`06b23d9`](https://github.com/sase-org/sase/commit/06b23d9d71e676b027bdd25c22c0166e279ebb44) | fix(artifact-links): accept out-of-order tombstones | [sase-yy.8.6.4](sase-yy.8.6.4.md) | 2026-09-11 09:38:44 EDT |
+| sase | [`e2c5c28`](https://github.com/sase-org/sase/commit/e2c5c284a59f457d88def510d93ccdd7838500fc) | test(artifact-links): cover acceptance recovery paths | [sase-yy.8.6.6](sase-yy.8.6.6.md) | 2026-09-11 10:18:28 EDT |
