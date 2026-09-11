@@ -66,7 +66,7 @@ flowchart TD
     n16["sase-yy.8.6.2: Persist immutable history for bead-owned link operations [closed]"]
     n17["sase-yy.8.6.3: Repair bead projections from complete event truth [in_progress]"]
     n18["sase-yy.8.6.4: Accept valid out-of-order tombstones on read surfaces [in_progress]"]
-    n19["sase-yy.8.6.5: Verify remote publication on unchanged CLI and import retries [in_progress]"]
+    n19["sase-yy.8.6.5: Verify remote publication on unchanged CLI and import retries [closed]"]
     n20["sase-yy.8.6.6: Prove durable history and recovery through production paths [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-yy.8.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.4.md) | [sase-yy.8.4](sase-yy.8.4.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-yy.8.5.md) | [sase-yy.8.5](sase-yy.8.5.md) | 1 |
 | [bbugyi200.athena.sase-yy.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.1/README.md) | [sase-yy.8.6.1](sase-yy.8.6.1.md) | 0 |
-| [bbugyi200.athena.sase-yy.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.2/README.md) | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.2/README.md) | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2 |
 | [bbugyi200.athena.sase-yy.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.3/README.md) | [sase-yy.8.6.3](sase-yy.8.6.3.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.4/README.md) | [sase-yy.8.6.4](sase-yy.8.6.4.md) | 0 |
 | [bbugyi200.athena.sase-yy.8.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.5/README.md) | [sase-yy.8.6.5](sase-yy.8.6.5.md) | 0 |
@@ -166,3 +166,4 @@ flowchart TD
 | sase-core | [`sase-core@e0f105d`](https://github.com/sase-org/sase-core/commit/e0f105d68045ffe00ae78f64263cd4bfb6f3d559) | feat(artifact-links): add cutover recovery policy | [sase-yy.8.4](sase-yy.8.4.md) | 2026-09-10 19:40:18 EDT |
 | sase | [`8eabf9e`](https://github.com/sase-org/sase/commit/8eabf9ecf82518d960cadb41f9cc17318e6d6558) | test(artifact-links): cover process death, mutation isolation, and cutover resume | [sase-yy.8.5](sase-yy.8.5.md) | 2026-09-10 20:28:17 EDT |
 | sase | [`2f9bef1`](https://github.com/sase-org/sase/commit/2f9bef14cbce4405e0c7c2a83812215125dd6492) | fix(artifact-links): persist bead-owned event history | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2026-09-11 08:11:48 EDT |
+| sase-core | [`sase-core@18a78c8`](https://github.com/sase-org/sase-core/commit/18a78c8441d11f450ca332863e1483481a144ca6) | fix(artifact-links): require durable bead history receipt | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2026-09-11 08:14:36 EDT |

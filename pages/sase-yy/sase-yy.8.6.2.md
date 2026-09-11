@@ -27,10 +27,11 @@ bead_history: require canonical durable operation history for bead-only publicat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-yy.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.2/README.md) | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 1 |
+| [bbugyi200.athena.sase-yy.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-yy.8.6.2/README.md) | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2f9bef1`](https://github.com/sase-org/sase/commit/2f9bef14cbce4405e0c7c2a83812215125dd6492) | fix(artifact-links): persist bead-owned event history | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2026-09-11 08:11:48 EDT |
+| sase-core | [`sase-core@18a78c8`](https://github.com/sase-org/sase-core/commit/18a78c8441d11f450ca332863e1483481a144ca6) | fix(artifact-links): require durable bead history receipt | [sase-yy.8.6.2](sase-yy.8.6.2.md) | 2026-09-11 08:14:36 EDT |
