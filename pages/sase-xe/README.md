@@ -22,12 +22,14 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/remote_dispatch_fleet.md][1] | derived from the plan's `bead_id:` frontmatter field |
-| related | bead:sase-y9 | epic sase-xe landed the %dispatch directive vocabulary (50b1405f4) whose head produced two of the three promoting records |
-| related | bead:sase-ya | Epic sase-xe shipped the remote dispatch feature this memory note must document; its plan and phase notes are the primary sources. |
+| related | [bead:sase-y9][2] | epic sase-xe landed the %dispatch directive vocabulary (50b1405f4) whose head produced two of the three promoting records |
+| related | [bead:sase-ya][3] | Epic sase-xe shipped the remote dispatch feature this memory note must document; its plan and phase notes are the primary sources. |
 
 _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-y9/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-ya/README.md
 
 <!-- sase:links:end -->
 
@@ -170,7 +172,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.land.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
 
-… and 21 more agents
+… and 22 more agents
 
 ## Commits
 
@@ -227,7 +229,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase | [`9c738c2`](https://github.com/sase-org/sase/commit/9c738c25f62ebc0962898e83d222b4c960afd7ae) | refactor(sdd): split artifact-link publication retry into sibling modules | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-10 04:16:15 EDT |
 | sase | [`d598883`](https://github.com/sase-org/sase/commit/d598883d8194be5b51acb821f3ea248dc4e243b9) | feat(ace): add machines admin center pane | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 2026-09-10 06:52:33 EDT |
 
-… and 14 more commits
+… and 15 more commits
 
 <!-- sase:referenced-by:start -->
 

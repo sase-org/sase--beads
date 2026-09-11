@@ -26,6 +26,7 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.7.14.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.5.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 0 |
+| [bbugyi200.athena.toobig-55.install.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.install.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.link\_health.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.link_health.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.prompt\_input\_bar.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.prompt_input_bar.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 
@@ -35,3 +36,4 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 |---|---|---|---|---|
 | sase | [`9ec4dd5`](https://github.com/sase-org/sase/commit/9ec4dd5080bf50e8c9e523a04672f3660a09618c) | refactor(tui): split prompt input bar | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 21:10:57 EDT |
 | sase | [`05df2e0`](https://github.com/sase-org/sase/commit/05df2e0ce80aaa1ec1e08a6060f20409781a12f5) | refactor(artifact-cli): split link\_health.py into focused modules | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 21:29:00 EDT |
+| sase | [`3c2bd38`](https://github.com/sase-org/sase/commit/3c2bd38cb55fa7b06ffa6244ea0119371028f573) | refactor(completion): split install helpers | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-10 21:52:38 EDT |
