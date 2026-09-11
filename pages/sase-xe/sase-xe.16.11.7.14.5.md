@@ -38,6 +38,7 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 | [bbugyi200.athena.toobig-55.test\_monitor\_gate\_capacity\_e2e.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_monitor_gate_capacity_e2e.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.test\_provider\_disables\_indicator.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_provider_disables_indicator.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.test\_sidecar\_clone.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_sidecar_clone.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
+| [bbugyi200.athena.toobig-55.test\_validate\_sase\_core\_rs\_contracts\_tool.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.test_validate_sase_core_rs_contracts_tool.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.update\_handler.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.update_handler.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 
 ## Commits
@@ -57,3 +58,4 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 | sase | [`fcb60a6`](https://github.com/sase-org/sase/commit/fcb60a6113d7619fb232a534321bc306804b7f3c) | test(agents): split incomplete merge tests | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-11 00:06:53 EDT |
 | sase | [`920b9a5`](https://github.com/sase-org/sase/commit/920b9a583c2667a2727318c3528f3ea007216ca3) | test(llm\_provider): split usage-limit-disable tests by concern | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-11 00:22:03 EDT |
 | sase | [`3a894b9`](https://github.com/sase-org/sase/commit/3a894b939aafe1956ca33d80a6d76adc93807c1b) | test: split provider disables indicator tests | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-11 00:46:07 EDT |
+| sase | [`e372128`](https://github.com/sase-org/sase/commit/e372128ffe0dea78ea5b6479472469ac0b6895fa) | test: split test\_validate\_sase\_core\_rs\_contracts\_tool.py by domain | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 2026-09-11 01:12:07 EDT |
