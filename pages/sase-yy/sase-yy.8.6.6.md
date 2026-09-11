@@ -14,7 +14,7 @@ acceptance: cover all five reproduced failures with production-path regression t
 ## Dependencies
 
 - **Depends on:** [sase-yy.8.6.1](sase-yy.8.6.1.md) ✓ · ⧖ 2026-09-11
-- **Depends on:** [sase-yy.8.6.2](sase-yy.8.6.2.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-yy.8.6.2](sase-yy.8.6.2.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-yy.8.6.3](sase-yy.8.6.3.md) ◐ · ⧖ 2026-09-11
 - **Depends on:** [sase-yy.8.6.4](sase-yy.8.6.4.md) ◐ · ⧖ 2026-09-11
 - **Depends on:** [sase-yy.8.6.5](sase-yy.8.6.5.md) ◐ · ⧖ 2026-09-11

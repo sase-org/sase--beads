@@ -19,7 +19,7 @@ binding_baseline: ratchet the core revision to include existing projection and c
 
 ## Dependencies
 
-- **Blocks:** [sase-yy.8.6.2](sase-yy.8.6.2.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-yy.8.6.2](sase-yy.8.6.2.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-yy.8.6.5](sase-yy.8.6.5.md) ◐ · ⧖ 2026-09-11
 - **Blocks:** [sase-yy.8.6.6](sase-yy.8.6.6.md) ◐ · ⧖ 2026-09-11
 
