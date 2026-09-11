@@ -17,7 +17,7 @@ Monitor chains preserve the user's intent without recursively replaying history,
 |---|---|---|---|---|---:|---:|
 | [sase-zl.1](sase-zl.1.md) | Reproduce failures and measure continuation costs | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ✓ closed | medium | 2026-09-11 | 1 | 2 |
-| [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ✓ closed | medium | 2026-09-11 | 1 | 1 |
@@ -35,7 +35,7 @@ flowchart TD
     n0["sase-zl: Reliable monitor continuations with clear results and bounded context [in_progress]"]
     n1["sase-zl.1: Reproduce failures and measure continuation costs [closed]"]
     n2["sase-zl.10: Bound continuation context without losing instructions [closed]"]
-    n3["sase-zl.11: Present a coherent monitor workflow [in_progress]"]
+    n3["sase-zl.11: Present a coherent monitor workflow [closed]"]
     n4["sase-zl.12: Validate the combined feature and activate it [in_progress]"]
     n5["sase-zl.2: Define the Rust continuation and result contracts [closed]"]
     n6["sase-zl.3: Persist local deltas and handoff checkpoints [closed]"]
@@ -82,7 +82,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-zl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.1/README.md) | [sase-zl.1](sase-zl.1.md) | 1 |
 | [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
-| [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 0 |
+| [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 1 |
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.12/README.md) | [sase-zl.12](sase-zl.12.md) | 0 |
 | [bbugyi200.athena.sase-zl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.2/README.md) | [sase-zl.2](sase-zl.2.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
@@ -112,3 +112,4 @@ flowchart TD
 | sase-core | [`sase-core@633c0cb`](https://github.com/sase-org/sase-core/commit/633c0cbd800ac205c49fa48325c0f3d6961a702e) | feat(continuation): add conditional completion seal and bind contracts | [sase-zl.8](sase-zl.8.md) | 2026-09-11 15:19:18 EDT |
 | sase | [`0b653f0`](https://github.com/sase-org/sase/commit/0b653f0a2b1ca7aba2942fc0e7b71322066cfb7e) | feat(monitor): complete eligible verification through the host | [sase-zl.9](sase-zl.9.md) | 2026-09-11 16:34:04 EDT |
 | sase-core | [`sase-core@5c03775`](https://github.com/sase-org/sase-core/commit/5c03775530ea7785a1519b6233ca61d3dee05c0e) | feat(continuation): evaluate and consume host completion intents | [sase-zl.9](sase-zl.9.md) | 2026-09-11 16:36:57 EDT |
+| sase | [`15fa55e`](https://github.com/sase-org/sase/commit/15fa55e5ed125956e3f7b7df8354837350ba76d4) | feat(monitor): present coherent workflow status | [sase-zl.11](sase-zl.11.md) | 2026-09-11 18:27:11 EDT |

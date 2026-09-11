@@ -19,7 +19,7 @@ completion: consume valid success intents through existing finalizers without a 
 
 ## Dependencies
 
-- **Blocks:** [sase-zl.11](sase-zl.11.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.11](sase-zl.11.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.8](sase-zl.8.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
