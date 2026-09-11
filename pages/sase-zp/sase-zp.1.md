@@ -19,16 +19,17 @@ capacity_contract: rename the directive field in Rust and its Python adapters, e
 
 ## Dependencies
 
-- **Blocks:** [sase-zp.2](sase-zp.2.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zp.2](sase-zp.2.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zp.1/README.md) | [sase-zp.1](sase-zp.1.md) | 1 |
+| [bbugyi200.athena.sase-zp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zp.1/README.md) | [sase-zp.1](sase-zp.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e48aa7d`](https://github.com/sase-org/sase/commit/e48aa7db0fdcb39c35895b0bff82171c56e452c1) | feat(queue): rename runners to weighted capacity in Python adapters and TUI | [sase-zp.1](sase-zp.1.md) | 2026-09-11 15:39:48 EDT |
+| sase-core | [`sase-core@d2f8d72`](https://github.com/sase-org/sase-core/commit/d2f8d72734c6a74ea116ed7d7ddf97b3a05bf796) | feat(queue): replace runners with weighted-load capacity contract | [sase-zp.1](sase-zp.1.md) | 2026-09-11 15:45:10 EDT |
