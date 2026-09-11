@@ -19,14 +19,14 @@ Monitor chains preserve the user's intent without recursively replaying history,
 | [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 0 | 2 |
+| [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.5](sase-zl.5.md) | Preserve structured verification evidence | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.6](sase-zl.6.md) | Deliver each monitor result once | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ◐ in_progress | medium | 2026-09-11 | 0 | 0 |
+| [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 
 ## Lineage
 
@@ -37,8 +37,8 @@ flowchart TD
     n2["sase-zl.10: Bound continuation context without losing instructions [in_progress]"]
     n3["sase-zl.11: Present a coherent monitor workflow [in_progress]"]
     n4["sase-zl.12: Validate the combined feature and activate it [in_progress]"]
-    n5["sase-zl.2: Define the Rust continuation and result contracts [in_progress]"]
-    n6["sase-zl.3: Persist local deltas and handoff checkpoints [in_progress]"]
+    n5["sase-zl.2: Define the Rust continuation and result contracts [closed]"]
+    n6["sase-zl.3: Persist local deltas and handoff checkpoints [closed]"]
     n7["sase-zl.4: Reconstruct ancestry without recursive transcript replay [in_progress]"]
     n8["sase-zl.5: Preserve structured verification evidence [in_progress]"]
     n9["sase-zl.6: Deliver each monitor result once [in_progress]"]
@@ -80,13 +80,13 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
 | [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.12/README.md) | [sase-zl.12](sase-zl.12.md) | 0 |
-| [bbugyi200.athena.sase-zl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.2/README.md) | [sase-zl.2](sase-zl.2.md) | 0 |
-| [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 0 |
+| [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 0 |
 | [bbugyi200.athena.sase-zl.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.5/README.md) | [sase-zl.5](sase-zl.5.md) | 0 |
 | [bbugyi200.athena.sase-zl.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.6/README.md) | [sase-zl.6](sase-zl.6.md) | 0 |
 | [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
 | [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 0 |
+| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 0 |
 | [bbugyi200.athena.sase-zl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.land/README.md) | [sase-zl](README.md) | 0 |
 
 ## Commits
@@ -94,3 +94,6 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e40da3e`](https://github.com/sase-org/sase/commit/e40da3e1aa29f8518bb54bae45f2739a71ae2998) | feat(monitor): record continuation baseline measurements | [sase-zl.1](sase-zl.1.md) | 2026-09-11 07:16:33 EDT |
+| sase-core | [`sase-core@a5d2609`](https://github.com/sase-org/sase-core/commit/a5d2609b31ed13143602ae94801f0cbfa1f2c680) | feat: Define the Rust continuation and result contracts (sase-zl.2) | [sase-zl.2](sase-zl.2.md) | 2026-09-11 08:47:21 EDT |
+| sase | [`a657cba`](https://github.com/sase-org/sase/commit/a657cba4272651b1a83c9b014713a5cb9468cead) | feat: Define the Rust continuation and result contracts (sase-zl.2) | [sase-zl.2](sase-zl.2.md) | 2026-09-11 08:47:39 EDT |
+| sase | [`de84c60`](https://github.com/sase-org/sase/commit/de84c60d1c9908fef3402fd41ddd514f8f05297a) | feat(continuation): persist local turn capture | [sase-zl.3](sase-zl.3.md) | 2026-09-11 09:44:40 EDT |

@@ -13,7 +13,7 @@ diagnostics: capture first-party stage results before temporary output disappear
 
 ## Dependencies
 
-- **Depends on:** [sase-zl.2](sase-zl.2.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.2](sase-zl.2.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.6](sase-zl.6.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

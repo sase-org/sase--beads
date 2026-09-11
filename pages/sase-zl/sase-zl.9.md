@@ -15,3 +15,9 @@ completion: consume valid success intents through existing finalizers without a 
 
 - **Blocks:** [sase-zl.11](sase-zl.11.md) ◐ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.8](sase-zl.8.md) ◐ · ⧖ 2026-09-11
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 0 |

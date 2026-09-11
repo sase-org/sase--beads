@@ -19,7 +19,7 @@ baseline: add deterministic replay, evidence and lifecycle fixtures plus compone
 
 ## Dependencies
 
-- **Blocks:** [sase-zl.2](sase-zl.2.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.2](sase-zl.2.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
