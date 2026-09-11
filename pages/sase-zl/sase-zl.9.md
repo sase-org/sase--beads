@@ -26,10 +26,11 @@ completion: consume valid success intents through existing finalizers without a 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 1 |
+| [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0b653f0`](https://github.com/sase-org/sase/commit/0b653f0a2b1ca7aba2942fc0e7b71322066cfb7e) | feat(monitor): complete eligible verification through the host | [sase-zl.9](sase-zl.9.md) | 2026-09-11 16:34:04 EDT |
+| sase-core | [`sase-core@5c03775`](https://github.com/sase-org/sase-core/commit/5c03775530ea7785a1519b6233ca61d3dee05c0e) | feat(continuation): evaluate and consume host completion intents | [sase-zl.9](sase-zl.9.md) | 2026-09-11 16:36:57 EDT |
