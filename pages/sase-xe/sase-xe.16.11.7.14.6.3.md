@@ -18,7 +18,7 @@ catalog-snapshots: make older history explicitly pageable and bind catalog conti
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-xe.16.11.7.14.6.4](sase-xe.16.11.7.14.6.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-xe.16.11.7.14.6.4](sase-xe.16.11.7.14.6.4.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

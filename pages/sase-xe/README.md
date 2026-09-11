@@ -156,7 +156,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.2/README.md) | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.3.md) | [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.4/README.md) | [sase-xe.16.11.7.14.6.4](sase-xe.16.11.7.14.6.4.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.5/README.md) | [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) | 0 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.5/README.md) | [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.6/README.md) | [sase-xe.16.11.7.14.6.6](sase-xe.16.11.7.14.6.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.land/README.md) | [sase-xe.16.11.7.14.6](sase-xe.16.11.7.14.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.land.md) | [sase-xe.16.11.7.14](sase-xe.16.11.7.14.md) | 0 |
@@ -229,7 +229,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase | [`9c738c2`](https://github.com/sase-org/sase/commit/9c738c25f62ebc0962898e83d222b4c960afd7ae) | refactor(sdd): split artifact-link publication retry into sibling modules | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-10 04:16:15 EDT |
 | sase | [`d598883`](https://github.com/sase-org/sase/commit/d598883d8194be5b51acb821f3ea248dc4e243b9) | feat(ace): add machines admin center pane | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 2026-09-10 06:52:33 EDT |
 
-… and 29 more commits
+… and 30 more commits
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ live-acceptance: verify released Athena-to-Apollo presentation, controlled dismi
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
