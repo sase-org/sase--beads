@@ -19,7 +19,7 @@ shared-profile: factor shared agent query field specs out of the Artifacts agent
 
 ## Dependencies
 
-- **Blocks:** [sase-zf.2](sase-zf.2.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-zf.2](sase-zf.2.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

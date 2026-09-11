@@ -13,8 +13,8 @@ filter-bar-ui: replace the query-edit modal with an auto-hiding FilterBar plus a
 
 ## Dependencies
 
-- **Depends on:** [sase-zf.2](sase-zf.2.md) ◐ · ⧖ 2026-09-10
-- **Depends on:** [sase-zf.3](sase-zf.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-zf.2](sase-zf.2.md) ✓ · ⧖ 2026-09-10
+- **Depends on:** [sase-zf.3](sase-zf.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-zf.5](sase-zf.5.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
