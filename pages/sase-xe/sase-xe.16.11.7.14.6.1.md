@@ -31,10 +31,11 @@ payload-safety: normalize owner-produced display intent and repair correlated wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.1.md) | [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.1.md) | [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1546398`](https://github.com/sase-org/sase/commit/1546398faaea22036fa060f979a261737a46e6cc) | test(fleet): mirror intent normalization regressions and unblock check | [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) | 2026-09-10 21:13:56 EDT |
+| sase-core | [`sase-core@381b643`](https://github.com/sase-org/sase-core/commit/381b643b6b2174b50bde8b3bcc978140daa3175c) | fix(fleet): keep owner-produced display intent presentable | [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) | 2026-09-10 21:17:15 EDT |
