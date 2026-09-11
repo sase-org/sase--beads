@@ -30,10 +30,11 @@ requester-continuation: add an explicit durable continuation contract for helper
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.2/README.md) | [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.2/README.md) | [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e47d159`](https://github.com/sase-org/sase/commit/e47d159b55f4a828929827980474ea6572f6d3ad) | fix(launch): resume requesters after launch gates | [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) | 2026-09-11 10:48:05 EDT |
+| sase-core | [`sase-core@37588f6`](https://github.com/sase-org/sase-core/commit/37588f67f9a42297adcf3e589c8a8fe61a5077f4) | feat(continuation): validate launch requester continuations | [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) | 2026-09-11 10:50:29 EDT |

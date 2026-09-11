@@ -52,6 +52,8 @@ VERIFICATION LIMIT: no full suite run or source edits in this audit. The checkou
 
 HANDOFF: authored and validated sase_plan_fleet_remaining_acceptance.md as a child epic with parent_bead=sase-xe.16.11.7.14. Six dependency-ordered phases cover payload/fixtures, dismissal, catalog snapshots/history, real published builds, viewer integration, and live acceptance. Parent close, post-close symvision, and parent plan status are deliberately absent from child phases; the parent link resumes this landing. This epic, its original plan, and every ancestor remain open until the actual work is complete.
 
+[2026-09-11T15:14:14Z · sase-yy.8.6.land--2] DISCOVERED ISSUE from sase-yy.8.6.5 note #2, also covered by .2/.6 broad verification reports: eight tests in tests/main/test_artifact_cli_link_health.py fail because their monkeypatch target sase.artifact_cli.link_health.resolve_cli_reference no longer exists. Reproduced at primary 2b811499c/core 7f9a346 in monitor xpyxmjs6tzen (64 passed, 8 existing fixture failures plus 3 temporary probe setup failures). Introducing commit 05df2e0ce split link_health into _link_health_refs and sibling modules and is tagged SASE_BEAD=sase-xe.16.11.7.14.5. It moved the resolver without updating these eight string monkeypatch targets. Route this maintenance-hook integration regression to the owning epic; do not create a duplicate umbrella task or restore a fake public alias instead of checking the consumer seam. Durable log file:explicit:cde143710785378d59eaae39. This audit changes no link-health source.
+
 ## Agents
 
 | Agent | Bead | Commits |
