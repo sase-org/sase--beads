@@ -25,7 +25,7 @@ payload-safety: normalize owner-produced display intent and repair correlated wi
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
