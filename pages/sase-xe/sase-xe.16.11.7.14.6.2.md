@@ -18,7 +18,7 @@ dismissal-parity: prove unloaded-member cleanup, preserve live and protected rec
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

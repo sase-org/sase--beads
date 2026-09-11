@@ -13,7 +13,7 @@ released-builds: repair release-plz packaging, publish the repaired core, ratche
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
