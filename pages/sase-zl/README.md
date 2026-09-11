@@ -21,7 +21,7 @@ Monitor chains preserve the user's intent without recursively replaying history,
 | [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 0 | 2 |
 | [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.5](sase-zl.5.md) | Preserve structured verification evidence | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.6](sase-zl.6.md) | Deliver each monitor result once | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
 | [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
@@ -39,7 +39,7 @@ flowchart TD
     n4["sase-zl.12: Validate the combined feature and activate it [in_progress]"]
     n5["sase-zl.2: Define the Rust continuation and result contracts [closed]"]
     n6["sase-zl.3: Persist local deltas and handoff checkpoints [closed]"]
-    n7["sase-zl.4: Reconstruct ancestry without recursive transcript replay [in_progress]"]
+    n7["sase-zl.4: Reconstruct ancestry without recursive transcript replay [closed]"]
     n8["sase-zl.5: Preserve structured verification evidence [closed]"]
     n9["sase-zl.6: Deliver each monitor result once [in_progress]"]
     n10["sase-zl.7: Make outcome delivery durable and deduplicated [in_progress]"]
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.12/README.md) | [sase-zl.12](sase-zl.12.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
-| [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 0 |
+| [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 1 |
 | [bbugyi200.athena.sase-zl.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.5/README.md) | [sase-zl.5](sase-zl.5.md) | 1 |
 | [bbugyi200.athena.sase-zl.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.6/README.md) | [sase-zl.6](sase-zl.6.md) | 0 |
 | [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
@@ -98,3 +98,4 @@ flowchart TD
 | sase | [`a657cba`](https://github.com/sase-org/sase/commit/a657cba4272651b1a83c9b014713a5cb9468cead) | feat: Define the Rust continuation and result contracts (sase-zl.2) | [sase-zl.2](sase-zl.2.md) | 2026-09-11 08:47:39 EDT |
 | sase | [`de84c60`](https://github.com/sase-org/sase/commit/de84c60d1c9908fef3402fd41ddd514f8f05297a) | feat(continuation): persist local turn capture | [sase-zl.3](sase-zl.3.md) | 2026-09-11 09:44:40 EDT |
 | sase | [`e3feeb1`](https://github.com/sase-org/sase/commit/e3feeb1ec19afb04788f996d704475e8bf48a6ab) | feat(monitor): preserve diagnostic evidence | [sase-zl.5](sase-zl.5.md) | 2026-09-11 10:01:27 EDT |
+| sase | [`64360fe`](https://github.com/sase-org/sase/commit/64360feed600faeaf52950cfa8116be50d693cb6) | feat(continuation): render versioned replay forks | [sase-zl.4](sase-zl.4.md) | 2026-09-11 10:48:37 EDT |

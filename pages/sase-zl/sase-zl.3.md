@@ -20,7 +20,7 @@ capture: capture provenance during expansion and persist immutable local turns, 
 ## Dependencies
 
 - **Depends on:** [sase-zl.2](sase-zl.2.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.4](sase-zl.4.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.4](sase-zl.4.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
