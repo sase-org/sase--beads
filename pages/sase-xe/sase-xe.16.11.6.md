@@ -22,3 +22,9 @@
 ## Description
 
 Remote Fleet and Focus consume Rust-owned contracts, preserve successful hosts under faults, recover delayed launch receipts, and pass the complete Athena-to-Apollo workflow.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.16.11.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.land/README.md) | [sase-xe.16.11.6](sase-xe.16.11.6.md) | 0 |

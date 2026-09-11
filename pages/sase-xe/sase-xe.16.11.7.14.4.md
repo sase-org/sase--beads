@@ -22,7 +22,7 @@ viewer-honesty: make status projection consult liveness and connection health, s
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.14.3](sase-xe.16.11.7.14.3.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

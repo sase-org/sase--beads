@@ -15,3 +15,9 @@ worker-trust-and-pages: apply validated connection-plan trust settings, provide 
 
 - **Depends on:** [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.6.3](sase-xe.16.11.6.3.md) ✓ · ⧖ 2026-09-09
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.16.11.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.2/README.md) | [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) | 0 |

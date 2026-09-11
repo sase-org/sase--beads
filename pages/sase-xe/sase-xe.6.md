@@ -31,3 +31,9 @@ op-journal: add operation keys with payload fingerprints, receipts and tombstone
 
 - **Blocks:** [sase-xe.12](sase-xe.12.md) ✓ · ⧖ 2026-09-06
 - **Depends on:** [sase-xe.4](sase-xe.4.md) ✓ · ⧖ 2026-09-06
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.6/README.md) | [sase-xe.6](sase-xe.6.md) | 0 |

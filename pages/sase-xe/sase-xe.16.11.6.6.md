@@ -14,3 +14,9 @@ live-apollo-acceptance: deploy matching published builds, verify durable enrollm
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.6.5](sase-xe.16.11.6.5.md) ✓ · ⧖ 2026-09-09
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.16.11.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.6/README.md) | [sase-xe.16.11.6.6](sase-xe.16.11.6.6.md) | 0 |

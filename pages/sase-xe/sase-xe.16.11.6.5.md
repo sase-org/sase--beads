@@ -15,3 +15,9 @@ real-contract-regressions: exercise ACE-generated requests through actual serial
 
 - **Depends on:** [sase-xe.16.11.6.4](sase-xe.16.11.6.4.md) ✓ · ⧖ 2026-09-09
 - **Blocks:** [sase-xe.16.11.6.6](sase-xe.16.11.6.6.md) ✓ · ⧖ 2026-09-09
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-xe.16.11.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.5/README.md) | [sase-xe.16.11.6.5](sase-xe.16.11.6.5.md) | 0 |
