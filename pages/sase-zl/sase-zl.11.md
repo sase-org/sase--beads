@@ -26,17 +26,18 @@ experience: expose the profile and evidence controls, implement compact result a
 ## Dependencies
 
 - **Depends on:** [sase-zl.10](sase-zl.10.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.12](sase-zl.12.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.12](sase-zl.12.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.9](sase-zl.9.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 1 |
+| [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`15fa55e`](https://github.com/sase-org/sase/commit/15fa55e5ed125956e3f7b7df8354837350ba76d4) | feat(monitor): present coherent workflow status | [sase-zl.11](sase-zl.11.md) | 2026-09-11 18:27:11 EDT |
+| sase-core | [`sase-core@477e406`](https://github.com/sase-org/sase-core/commit/477e4062da4f56fef9c4f15347f08c1292ffe3c6) | feat(agent-scan): expose monitor workflow metadata | [sase-zl.11](sase-zl.11.md) | 2026-09-11 18:40:45 EDT |
