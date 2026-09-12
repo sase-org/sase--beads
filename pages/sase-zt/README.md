@@ -24,8 +24,8 @@
 | [sase-zt.1](sase-zt.1.md) | Rust admission contract — capacity is the limit | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zt.2](sase-zt.2.md) | Python adapters, launcher, and the sunset flag | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zt.3](sase-zt.3.md) | The capacity badge and the live/authored split | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zt.4](sase-zt.4.md) | Documentation sweep and the xprompts memory correction | ◐ in_progress | small | 2026-09-12 | 1 | 0 |
-| [sase-zt.5](sase-zt.5.md) | Live admission and display smoke | ◐ in_progress | xsmall | 2026-09-12 | 1 | 0 |
+| [sase-zt.4](sase-zt.4.md) | Documentation sweep and the xprompts memory correction | ✓ closed | small | 2026-09-12 | 1 | 1 |
+| [sase-zt.5](sase-zt.5.md) | Live admission and display smoke | ✓ closed | xsmall | 2026-09-12 | 0 | 0 |
 
 ## Lineage
 
@@ -35,8 +35,8 @@ flowchart TD
     n1["sase-zt.1: Rust admission contract — capacity is the limit [closed]"]
     n2["sase-zt.2: Python adapters, launcher, and the sunset flag [closed]"]
     n3["sase-zt.3: The capacity badge and the live/authored split [closed]"]
-    n4["sase-zt.4: Documentation sweep and the xprompts memory correction [in_progress]"]
-    n5["sase-zt.5: Live admission and display smoke [in_progress]"]
+    n4["sase-zt.4: Documentation sweep and the xprompts memory correction [closed]"]
+    n5["sase-zt.5: Live admission and display smoke [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -56,9 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.1/README.md) | [sase-zt.1](sase-zt.1.md) | 1 |
 | [bbugyi200.athena.sase-zt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.2/README.md) | [sase-zt.2](sase-zt.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.3/README.md) | [sase-zt.3](sase-zt.3.md) | 1 |
-| [bbugyi200.athena.sase-zt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.4/README.md) | [sase-zt.4](sase-zt.4.md) | 0 |
-| [bbugyi200.athena.sase-zt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.5/README.md) | [sase-zt.5](sase-zt.5.md) | 0 |
-| [bbugyi200.athena.sase-zt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.land/README.md) | [sase-zt](README.md) | 0 |
+| [bbugyi200.athena.sase-zt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.4/README.md) | [sase-zt.4](sase-zt.4.md) | 1 |
 
 ## Commits
 
@@ -67,3 +65,4 @@ flowchart TD
 | sase-core | [`sase-core@c55326f`](https://github.com/sase-org/sase-core/commit/c55326f7718abf588b8fecd21b52837ff47747db) | feat: make queue capacity an admission budget | [sase-zt.1](sase-zt.1.md) | 2026-09-12 11:41:47 EDT |
 | sase | [`89d5130`](https://github.com/sase-org/sase/commit/89d51301fa153c9d53ecd7d328ae2702dff192ae) | feat: adopt queue capacity budget adapters | [sase-zt.2](sase-zt.2.md) | 2026-09-12 15:09:15 EDT |
 | sase | [`3c89591`](https://github.com/sase-org/sase/commit/3c89591db8b4e46108fa56dd501b00060aa70cc0) | feat(ace): show authored queue capacity budgets | [sase-zt.3](sase-zt.3.md) | 2026-09-12 17:26:47 EDT |
+| sase | [`dd1ed61`](https://github.com/sase-org/sase/commit/dd1ed61a4ab21d41d13b138b3c17b99e047746ba) | docs: describe queue capacity budgets | [sase-zt.4](sase-zt.4.md) | 2026-09-12 19:05:53 EDT |
