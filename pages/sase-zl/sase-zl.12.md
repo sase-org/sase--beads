@@ -26,7 +26,7 @@ release: exercise failure recovery and visual contracts, evaluate task-level eff
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.6.md) | [sase-zl.12](sase-zl.12.md) | 1 |
-| [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 1 |
+| [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 2 |
 
 ## Commits
 
@@ -34,3 +34,4 @@ release: exercise failure recovery and visual contracts, evaluate task-level eff
 |---|---|---|---|---|
 | sase | [`ae7fde6`](https://github.com/sase-org/sase/commit/ae7fde656f3a39c61560e66f1418780564dee14b) | test(ace): align fleet PNG snapshots with the unified Agents list | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:04:16 EDT |
 | sase | [`9202146`](https://github.com/sase-org/sase/commit/9202146ca4133fe28721cd2d4f5ca6f3ecaec1c4) | feat(continuation): activate monitor continuation replay | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:19:28 EDT |
+| sase-core | [`sase-core@acab7b4`](https://github.com/sase-org/sase-core/commit/acab7b44e09f8c2db36be4f6d195ecab756c5c2c) | fix(continuation): allow long monitor commands | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:22:53 EDT |
