@@ -19,4 +19,4 @@ cargo: make the dev-update profile non-incremental, keep every dev-install entry
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.4/README.md) | [sase-zw.4](sase-zw.4.md) | 0 |
+| [bbugyi200.athena.sase-zw.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.4.md) | [sase-zw.4](sase-zw.4.md) | 0 |

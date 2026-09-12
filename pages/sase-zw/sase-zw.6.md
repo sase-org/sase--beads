@@ -19,4 +19,4 @@ wsobjects: stop every managed checkout from carrying its own full copy of the pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.6/README.md) | [sase-zw.6](sase-zw.6.md) | 0 |
+| [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 0 |

@@ -11,6 +11,12 @@
 
 artifacts: give ace-run month shards a retention horizon that protects referenced and recent runs, and drop the empty out-of-range shards that starve shard watches.
 
+## Notes
+
+[2026-09-12T20:21:32Z · sase-zw.5] READER AUDIT: artifacts/ace-run readers checked for retention horizon - ACE Agents tab and agent index need active, recent, incomplete, and referenced runs; chat transcript lookup and named-agent lookup need retained agent names and dirs; agent prompt archives remain sidecar-backed; artifact-file rows, artifact links, beads, plans, gates, and sidecars protect producer dirs or agent refs; housekeeping keeps the newest 2 months whole and dry-run/apply blocks on protection-source gaps.
+
+[2026-09-12T20:22:02Z · sase-zw.5] PROPOSED FOLLOW-UP: Reject future trusted launch timestamps before creating ace-run shards - retention now protects future non-empty runs and reports empty out-of-range shards for apply cleanup, but launch timestamp validation should reject future YYmmdd_HHMMSS inputs before mkdir.
+
 ## Dependencies
 
 - **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
