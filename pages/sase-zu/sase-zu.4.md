@@ -13,7 +13,7 @@ tui_full_history: route the TUI's full-history load through the artifact index w
 
 ## Dependencies
 
-- **Depends on:** [sase-zu.3](sase-zu.3.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zu.3](sase-zu.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.6](sase-zu.6.md) ◐ · ⧖ 2026-09-12
 
 ## Agents

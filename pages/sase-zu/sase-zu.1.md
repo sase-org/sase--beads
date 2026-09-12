@@ -18,7 +18,7 @@ harness: build the synthetic large-archive fixture, the parity oracle that prove
 ## Dependencies
 
 - **Blocks:** [sase-zu.2](sase-zu.2.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zu.3](sase-zu.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zu.3](sase-zu.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.7](sase-zu.7.md) ◐ · ⧖ 2026-09-12
 
 ## Commits
