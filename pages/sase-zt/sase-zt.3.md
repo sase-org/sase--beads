@@ -13,7 +13,7 @@ display: add the `cN` capacity badge to agent nodes and agent family nodes besid
 
 ## Dependencies
 
-- **Depends on:** [sase-zt.2](sase-zt.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zt.2](sase-zt.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zt.4](sase-zt.4.md) ◐ · ⧖ 2026-09-12
 - **Blocks:** [sase-zt.5](sase-zt.5.md) ◐ · ⧖ 2026-09-12
 

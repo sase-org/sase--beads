@@ -13,7 +13,7 @@ docs: restate capacity as a per-launch budget across the xprompt, ACE, configura
 
 ## Dependencies
 
-- **Depends on:** [sase-zt.2](sase-zt.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zt.2](sase-zt.2.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zt.3](sase-zt.3.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
