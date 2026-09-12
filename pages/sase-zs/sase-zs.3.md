@@ -20,7 +20,7 @@ classifier: port transient-failure detection for git and `gh` output into sase_c
 ## Dependencies
 
 - **Blocks:** [sase-zs.5](sase-zs.5.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zs.6](sase-zs.6.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zs.6](sase-zs.6.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zs.8](sase-zs.8.md) ✓ · ⧖ 2026-09-12
 
 ## Agents

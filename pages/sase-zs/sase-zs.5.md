@@ -20,7 +20,7 @@ gh-runner: add one bounded, non-interactive `gh` execution boundary that applies
 ## Dependencies
 
 - **Depends on:** [sase-zs.3](sase-zs.3.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zs.6](sase-zs.6.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zs.6](sase-zs.6.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
