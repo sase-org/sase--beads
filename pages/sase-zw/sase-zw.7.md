@@ -18,4 +18,4 @@ pressure: add the sase disk command group over every owner the earlier phases cr
 - **Depends on:** [sase-zw.3](sase-zw.3.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zw.4](sase-zw.4.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zw.5](sase-zw.5.md) ✓ · ⧖ 2026-09-12
-- **Depends on:** [sase-zw.6](sase-zw.6.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zw.6](sase-zw.6.md) ✓ · ⧖ 2026-09-12
