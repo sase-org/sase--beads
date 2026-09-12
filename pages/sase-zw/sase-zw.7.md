@@ -17,11 +17,5 @@ pressure: add the sase disk command group over every owner the earlier phases cr
 - **Depends on:** [sase-zw.2](sase-zw.2.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zw.3](sase-zw.3.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zw.4](sase-zw.4.md) ✓ · ⧖ 2026-09-12
-- **Depends on:** [sase-zw.5](sase-zw.5.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zw.5](sase-zw.5.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zw.6](sase-zw.6.md) ◐ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.7/README.md) | [sase-zw.7](sase-zw.7.md) | 0 |

@@ -14,9 +14,3 @@ wsobjects: stop every managed checkout from carrying its own full copy of the pr
 ## Dependencies
 
 - **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 0 |

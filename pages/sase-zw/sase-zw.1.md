@@ -20,9 +20,3 @@ triage: reclaim the already-leaked bytes through one approval gate, then re-meas
 ## Dependencies
 
 - **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.1/README.md) | [sase-zw.1](sase-zw.1.md) | 0 |
