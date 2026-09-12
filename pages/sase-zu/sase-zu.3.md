@@ -18,17 +18,18 @@ rust_index: in sase-core, apply the candidate filter on the non-windowed selecti
 ## Dependencies
 
 - **Depends on:** [sase-zu.1](sase-zu.1.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zu.4](sase-zu.4.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zu.4](sase-zu.4.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.5](sase-zu.5.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.3/README.md) | [sase-zu.3](sase-zu.3.md) | 1 |
+| [bbugyi200.athena.sase-zu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.3/README.md) | [sase-zu.3](sase-zu.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3c1185c`](https://github.com/sase-org/sase/commit/3c1185c2819b3e693b1686b64348daaef2cdc013) | feat(agent-scan): mirror schema 28 index filtering | [sase-zu.3](sase-zu.3.md) | 2026-09-12 16:47:37 EDT |
+| sase-core | [`sase-core@7949496`](https://github.com/sase-org/sase-core/commit/79494966a0f3b13ad8994fa1c1c0489b5adbdde7) | feat(agent-scan): filter full-history index candidates | [sase-zu.3](sase-zu.3.md) | 2026-09-12 16:50:17 EDT |

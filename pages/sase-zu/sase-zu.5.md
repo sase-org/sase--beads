@@ -15,9 +15,3 @@ machine_pushdown: make `machine:` pushable with proven negation parity and add t
 
 - **Depends on:** [sase-zu.3](sase-zu.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.7](sase-zu.7.md) ◐ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.5/README.md) | [sase-zu.5](sase-zu.5.md) | 0 |

@@ -17,9 +17,3 @@ land: delete the three beta flags' disabled branches, close their flag beads, pu
 - **Depends on:** [sase-zu.2](sase-zu.2.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zu.5](sase-zu.5.md) ◐ · ⧖ 2026-09-12
 - **Depends on:** [sase-zu.6](sase-zu.6.md) ◐ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.7/README.md) | [sase-zu.7](sase-zu.7.md) | 0 |
