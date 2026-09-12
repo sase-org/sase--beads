@@ -25,4 +25,10 @@ materialization: cap concurrent remote clones so parallel launches stop saturati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.7/README.md) | [sase-zs.7](sase-zs.7.md) | 0 |
+| [bbugyi200.athena.sase-zs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.7/README.md) | [sase-zs.7](sase-zs.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`336c17e`](https://github.com/sase-org/sase/commit/336c17e94e0b19a8392c4c50f313147ca0ded143) | fix(sdd): bound transient remote clone setup failures | [sase-zs.7](sase-zs.7.md) | 2026-09-12 17:00:50 EDT |

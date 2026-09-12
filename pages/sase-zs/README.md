@@ -21,7 +21,7 @@ A slow, congested, or degraded GitHub transport degrades SASE gracefully instead
 | [sase-zs.4](sase-zs.4.md) | Replace fixed wall-clock timeouts with stall-aware deadlines | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zs.5](sase-zs.5.md) | Single retrying chokepoint for gh CLI calls | ✓ closed | medium | 2026-09-12 | 1 | 0 |
 | [sase-zs.6](sase-zs.6.md) | Migrate ad-hoc GitHub call sites onto the shared runners | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zs.7](sase-zs.7.md) | Bound clone concurrency and stop stranding workspaces on transient failure | ✓ closed | medium | 2026-09-12 | 1 | 0 |
+| [sase-zs.7](sase-zs.7.md) | Bound clone concurrency and stop stranding workspaces on transient failure | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zs.8](sase-zs.8.md) | Surface transport degradation before it fails a run | ✓ closed | small | 2026-09-12 | 1 | 1 |
 
 ## Lineage
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 1 |
 | [bbugyi200.athena.sase-zs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.5/README.md) | [sase-zs.5](sase-zs.5.md) | 0 |
 | [bbugyi200.athena.sase-zs.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.6/README.md) | [sase-zs.6](sase-zs.6.md) | 1 |
-| [bbugyi200.athena.sase-zs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.7/README.md) | [sase-zs.7](sase-zs.7.md) | 0 |
+| [bbugyi200.athena.sase-zs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.7/README.md) | [sase-zs.7](sase-zs.7.md) | 1 |
 | [bbugyi200.athena.sase-zs.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.8/README.md) | [sase-zs.8](sase-zs.8.md) | 1 |
 | [bbugyi200.athena.sase-zs.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.land/README.md) | [sase-zs](README.md) | 0 |
 
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`ecea389`](https://github.com/sase-org/sase/commit/ecea389efd48ff04d3ab054c99496748299f3f9d) | feat(sdd): stream network git progress | [sase-zs.4](sase-zs.4.md) | 2026-09-12 12:03:05 EDT |
 | sase | [`b681d50`](https://github.com/sase-org/sase/commit/b681d5072ff06553a95402e36917b0e697ce0905) | feat(sdd): surface git transport degradation | [sase-zs.8](sase-zs.8.md) | 2026-09-12 15:31:13 EDT |
 | sase | [`072d657`](https://github.com/sase-org/sase/commit/072d657ab75d67d4b613393933474176a86d3a29) | fix(github): route network calls through shared runners | [sase-zs.6](sase-zs.6.md) | 2026-09-12 16:12:08 EDT |
+| sase | [`336c17e`](https://github.com/sase-org/sase/commit/336c17e94e0b19a8392c4c50f313147ca0ded143) | fix(sdd): bound transient remote clone setup failures | [sase-zs.7](sase-zs.7.md) | 2026-09-12 17:00:50 EDT |
