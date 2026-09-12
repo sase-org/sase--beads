@@ -50,7 +50,7 @@ REMAINING-WORK HANDOFF: sase_plan_monitor_continuation_landing_repairs.md has pa
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-zl.1](sase-zl.1.md) | Reproduce failures and measure continuation costs | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ✓ closed | medium | 2026-09-11 | 1 | 2 |
+| [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ✓ closed | medium | 2026-09-11 | 0 | 2 |
 | [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ✓ closed | medium | 2026-09-11 | 2 | 3 |
 | [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 0 | 2 |
@@ -58,7 +58,7 @@ REMAINING-WORK HANDOFF: sase_plan_monitor_continuation_landing_repairs.md has pa
 | [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.5](sase-zl.5.md) | Preserve structured verification evidence | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.6](sase-zl.6.md) | Deliver each monitor result once | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ✓ closed | medium | 2026-09-11 | 1 | 0 |
+| [sase-zl.7](sase-zl.7.md) | Make outcome delivery durable and deduplicated | ✓ closed | medium | 2026-09-11 | 0 | 0 |
 | [sase-zl.8](sase-zl.8.md) | Prepare conditional completion declarations | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.9](sase-zl.9.md) | Complete eligible verification through the host | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 
@@ -73,7 +73,7 @@ flowchart TD
     n4["sase-zl.12: Validate the combined feature and activate it [closed]"]
     n5["sase-zl.13: Finish monitor continuation correctness and production acceptance [in_progress]"]
     n6["sase-zl.13.1: Preserve local provenance and durable exact handoffs [closed]"]
-    n7["sase-zl.13.10: Prove the complete route and compatibility rollout [in_progress]"]
+    n7["sase-zl.13.10: Prove the complete route and compatibility rollout [closed]"]
     n8["sase-zl.13.2: Hydrate ancestry and retain protected context [closed]"]
     n9["sase-zl.13.3: Materialize selected diagnostics from one frozen result [closed]"]
     n10["sase-zl.13.4: Execute validated frozen outcome policies [closed]"]
@@ -152,11 +152,10 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.6.md) | [sase-zl.12](sase-zl.12.md) | 1 |
 | [bbugyi200.athena.sase-zl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.1/README.md) | [sase-zl.1](sase-zl.1.md) | 1 |
-| [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
 | [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 2 |
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 2 |
 | [bbugyi200.athena.sase-zl.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.1/README.md) | [sase-zl.13.1](sase-zl.13.1.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.10/README.md) | [sase-zl.13.10](sase-zl.13.10.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.10.md) | [sase-zl.13.10](sase-zl.13.10.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.3/README.md) | [sase-zl.13.3](sase-zl.13.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 2 |
@@ -164,15 +163,12 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.6/README.md) | [sase-zl.13.6](sase-zl.13.6.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.7/README.md) | [sase-zl.13.7](sase-zl.13.7.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.9/README.md) | [sase-zl.13.9](sase-zl.13.9.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.land/README.md) | [sase-zl.13](sase-zl.13.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 2 |
 | [bbugyi200.athena.sase-zl.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.5/README.md) | [sase-zl.5](sase-zl.5.md) | 1 |
 | [bbugyi200.athena.sase-zl.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.6/README.md) | [sase-zl.6](sase-zl.6.md) | 1 |
-| [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
 | [bbugyi200.athena.sase-zl.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.8/README.md) | [sase-zl.8](sase-zl.8.md) | 2 |
 | [bbugyi200.athena.sase-zl.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.9/README.md) | [sase-zl.9](sase-zl.9.md) | 2 |
-| [bbugyi200.athena.sase-zl.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.land.md) | [sase-zl](README.md) | 0 |
 
 ## Commits
 
@@ -208,3 +204,4 @@ flowchart TD
 | sase | [`7ce8056`](https://github.com/sase-org/sase/commit/7ce80566f5193e5d903e6ca240b13d3e30fe954d) | feat(monitor): repair host-finalizer recovery and receipts | [sase-zl.13.7](sase-zl.13.7.md) | 2026-09-12 07:12:34 EDT |
 | sase | [`2eb5205`](https://github.com/sase-org/sase/commit/2eb520541192cf6964a0de898627eacdf2f233bb) | feat: Apply checkpoint projections and provider-aware budgets (sase-zl.13.8) | [sase-zl.13.8](sase-zl.13.8.md) | 2026-09-12 13:40:18 EDT |
 | sase | [`addeb78`](https://github.com/sase-org/sase/commit/addeb78f5a4ee26ea5ae1233a6bfd5c4738a4337) | feat(monitor): complete recovery control contracts | [sase-zl.13.9](sase-zl.13.9.md) | 2026-09-12 16:49:32 EDT |
+| sase | [`6386476`](https://github.com/sase-org/sase/commit/638647694b87c5bce84e56f9449de06b232a15f0) | feat(monitor): complete continuation capture rollout | [sase-zl.13.10](sase-zl.13.10.md) | 2026-09-12 19:24:24 EDT |

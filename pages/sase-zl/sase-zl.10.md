@@ -22,12 +22,6 @@ budgets: enforce expanded-prompt budgets, reuse explicit checkpoints at threshol
 - **Blocks:** [sase-zl.11](sase-zl.11.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.6](sase-zl.6.md) ✓ · ⧖ 2026-09-11
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |

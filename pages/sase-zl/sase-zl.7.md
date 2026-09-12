@@ -23,9 +23,3 @@ dispatch: persist outcome policies and delivery identities, deduplicate successo
 
 - **Depends on:** [sase-zl.6](sase-zl.6.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.8](sase-zl.8.md) ✓ · ⧖ 2026-09-11
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zl.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.7/README.md) | [sase-zl.7](sase-zl.7.md) | 0 |
