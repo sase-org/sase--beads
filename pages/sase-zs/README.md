@@ -17,11 +17,11 @@ A slow, congested, or degraded GitHub transport degrades SASE gracefully instead
 |---|---|---|---|---|---:|---:|
 | [sase-zs.1](sase-zs.1.md) | Borrow local objects when materializing sidecar SDD clones | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zs.2](sase-zs.2.md) | Make remote clone timeouts retryable instead of fatal | ✓ closed | small | 2026-09-12 | 1 | 1 |
-| [sase-zs.3](sase-zs.3.md) | Deterministic retryability classifier in the Rust core | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zs.4](sase-zs.4.md) | Replace fixed wall-clock timeouts with stall-aware deadlines | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
+| [sase-zs.3](sase-zs.3.md) | Deterministic retryability classifier in the Rust core | ✓ closed | medium | 2026-09-12 | 1 | 2 |
+| [sase-zs.4](sase-zs.4.md) | Replace fixed wall-clock timeouts with stall-aware deadlines | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zs.5](sase-zs.5.md) | Single retrying chokepoint for gh CLI calls | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
 | [sase-zs.6](sase-zs.6.md) | Migrate ad-hoc GitHub call sites onto the shared runners | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
-| [sase-zs.7](sase-zs.7.md) | Bound clone concurrency and stop stranding workspaces on transient failure | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
+| [sase-zs.7](sase-zs.7.md) | Bound clone concurrency and stop stranding workspaces on transient failure | ✓ closed | medium | 2026-09-12 | 1 | 0 |
 | [sase-zs.8](sase-zs.8.md) | Surface transport degradation before it fails a run | ◐ in_progress | small | 2026-09-12 | 1 | 0 |
 
 ## Lineage
@@ -32,10 +32,10 @@ flowchart TD
     n1["sase-zs.1: Borrow local objects when materializing sidecar SDD clones [closed]"]
     n2["sase-zs.2: Make remote clone timeouts retryable instead of fatal [closed]"]
     n3["sase-zs.3: Deterministic retryability classifier in the Rust core [closed]"]
-    n4["sase-zs.4: Replace fixed wall-clock timeouts with stall-aware deadlines [in_progress]"]
+    n4["sase-zs.4: Replace fixed wall-clock timeouts with stall-aware deadlines [closed]"]
     n5["sase-zs.5: Single retrying chokepoint for gh CLI calls [in_progress]"]
     n6["sase-zs.6: Migrate ad-hoc GitHub call sites onto the shared runners [in_progress]"]
-    n7["sase-zs.7: Bound clone concurrency and stop stranding workspaces on transient failure [in_progress]"]
+    n7["sase-zs.7: Bound clone concurrency and stop stranding workspaces on transient failure [closed]"]
     n8["sase-zs.8: Surface transport degradation before it fails a run [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -60,8 +60,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-zs.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.1/README.md) | [sase-zs.1](sase-zs.1.md) | 1 |
 | [bbugyi200.athena.sase-zs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.2/README.md) | [sase-zs.2](sase-zs.2.md) | 1 |
-| [bbugyi200.athena.sase-zs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.3/README.md) | [sase-zs.3](sase-zs.3.md) | 1 |
-| [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 0 |
+| [bbugyi200.athena.sase-zs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.3/README.md) | [sase-zs.3](sase-zs.3.md) | 2 |
+| [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 1 |
 | [bbugyi200.athena.sase-zs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.5/README.md) | [sase-zs.5](sase-zs.5.md) | 0 |
 | [bbugyi200.athena.sase-zs.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.6/README.md) | [sase-zs.6](sase-zs.6.md) | 0 |
 | [bbugyi200.athena.sase-zs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.7/README.md) | [sase-zs.7](sase-zs.7.md) | 0 |
@@ -75,3 +75,5 @@ flowchart TD
 | sase | [`63653c5`](https://github.com/sase-org/sase/commit/63653c5ee1593d8deef0aa6890639af8f79ccfdb) | fix(sdd): reuse primary sidecar clone references | [sase-zs.1](sase-zs.1.md) | 2026-09-12 10:25:10 EDT |
 | sase | [`4ea8a15`](https://github.com/sase-org/sase/commit/4ea8a1531b366d644522ddd7795d6cc8cb878ea1) | fix(sdd): retry remote clone timeouts | [sase-zs.2](sase-zs.2.md) | 2026-09-12 10:28:26 EDT |
 | sase | [`186c543`](https://github.com/sase-org/sase/commit/186c543d0e79e0518a7da20a96754dd7295ea3da) | feat(github): add retryability classifier facade | [sase-zs.3](sase-zs.3.md) | 2026-09-12 10:40:55 EDT |
+| sase-core | [`sase-core@61da8ef`](https://github.com/sase-org/sase-core/commit/61da8ef28d91ab851c00f94db84473328419e89a) | feat(retryability): classify git and gh failures | [sase-zs.3](sase-zs.3.md) | 2026-09-12 10:43:55 EDT |
+| sase | [`ecea389`](https://github.com/sase-org/sase/commit/ecea389efd48ff04d3ab054c99496748299f3f9d) | feat(sdd): stream network git progress | [sase-zs.4](sase-zs.4.md) | 2026-09-12 12:03:05 EDT |

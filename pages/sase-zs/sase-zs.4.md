@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-zs](README.md) / sase-zs.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0k6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0k6.md) · **Assignee:** `sase-zs.4` · **Size:** medium
-**Created:** 2026-09-12 09:44:52 EDT
+**Created:** 2026-09-12 09:44:52 EDT · **Closed:** 2026-09-12 12:01:29 EDT
 **Plan:** [202609/github\_network\_resilience.md](https://github.com/sase-org/sase--plans/blob/main/202609/github_network_resilience.md)
 
 ## Description
 
 stall-deadline: stream git progress output so a slow-but-advancing transfer is distinguished from a genuinely stalled one, bounding idle time rather than total duration.
+
+## Notes
+
+[2026-09-12T16:01:29Z · sase-zs.4] Implemented stall-aware streaming for git clone/fetch/push with progress stderr, distinct stall/ceiling timeout telemetry, and regression coverage. Verified with targeted tests and just check, which escalated to the full suite and passed.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ stall-deadline: stream git progress output so a slow-but-advancing transfer is d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 0 |
+| [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ecea389`](https://github.com/sase-org/sase/commit/ecea389efd48ff04d3ab054c99496748299f3f9d) | feat(sdd): stream network git progress | [sase-zs.4](sase-zs.4.md) | 2026-09-12 12:03:05 EDT |

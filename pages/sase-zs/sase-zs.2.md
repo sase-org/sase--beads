@@ -17,8 +17,8 @@ clone-retry: close the hole where `SddGitCommandTimeout` bypasses the clone retr
 
 ## Dependencies
 
-- **Blocks:** [sase-zs.4](sase-zs.4.md) ◐ · ⧖ 2026-09-12
-- **Blocks:** [sase-zs.7](sase-zs.7.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zs.4](sase-zs.4.md) ✓ · ⧖ 2026-09-12
+- **Blocks:** [sase-zs.7](sase-zs.7.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

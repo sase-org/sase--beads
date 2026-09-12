@@ -27,10 +27,11 @@ classifier: port transient-failure detection for git and `gh` output into sase_c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.3/README.md) | [sase-zs.3](sase-zs.3.md) | 1 |
+| [bbugyi200.athena.sase-zs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.3/README.md) | [sase-zs.3](sase-zs.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`186c543`](https://github.com/sase-org/sase/commit/186c543d0e79e0518a7da20a96754dd7295ea3da) | feat(github): add retryability classifier facade | [sase-zs.3](sase-zs.3.md) | 2026-09-12 10:40:55 EDT |
+| sase-core | [`sase-core@61da8ef`](https://github.com/sase-org/sase-core/commit/61da8ef28d91ab851c00f94db84473328419e89a) | feat(retryability): classify git and gh failures | [sase-zs.3](sase-zs.3.md) | 2026-09-12 10:43:55 EDT |
