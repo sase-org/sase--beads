@@ -14,7 +14,7 @@ experience: expose working recovery and evidence controls, synchronize docs and 
 ## Dependencies
 
 - **Blocks:** [sase-zl.13.10](sase-zl.13.10.md) ◐ · ⧖ 2026-09-11
-- **Depends on:** [sase-zl.13.7](sase-zl.13.7.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.13.7](sase-zl.13.7.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.13.8](sase-zl.13.8.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

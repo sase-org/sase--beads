@@ -22,4 +22,4 @@ budgets: select and render safe checkpoint reductions, use actual provider and t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.8/README.md) | [sase-zl.13.8](sase-zl.13.8.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.8.md) | [sase-zl.13.8](sase-zl.13.8.md) | 0 |
