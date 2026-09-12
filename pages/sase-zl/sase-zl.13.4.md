@@ -22,16 +22,17 @@ Verified: CLI parser through start and settlement with fake effects — policy n
 ## Dependencies
 
 - **Depends on:** [sase-zl.13.1](sase-zl.13.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.13.5](sase-zl.13.5.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.13.5](sase-zl.13.5.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`683cdf7`](https://github.com/sase-org/sase/commit/683cdf70d5db854506b47c5a533ba27c7c127865) | feat(monitor): freeze validated outcome policies before start | [sase-zl.13.4](sase-zl.13.4.md) | 2026-09-12 02:37:04 EDT |
+| sase-core | [`sase-core@76fa58a`](https://github.com/sase-org/sase-core/commit/76fa58a382e2a4046ba7ae31172166e4bbed30dd) | feat(continuation): freeze validated monitor outcome policies | [sase-zl.13.4](sase-zl.13.4.md) | 2026-09-12 02:42:12 EDT |

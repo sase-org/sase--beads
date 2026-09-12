@@ -18,7 +18,7 @@ evidence: feed frozen results and bounded stage diagnostics through every projec
 ## Dependencies
 
 - **Depends on:** [sase-zl.13.1](sase-zl.13.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.13.5](sase-zl.13.5.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.13.5](sase-zl.13.5.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.13.8](sase-zl.13.8.md) ◐ · ⧖ 2026-09-11
 
 ## Agents
