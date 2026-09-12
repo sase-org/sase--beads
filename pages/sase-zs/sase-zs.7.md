@@ -13,7 +13,7 @@ materialization: cap concurrent remote clones so parallel launches stop saturati
 
 ## Dependencies
 
-- **Depends on:** [sase-zs.2](sase-zs.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zs.2](sase-zs.2.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

@@ -16,7 +16,7 @@ A slow, congested, or degraded GitHub transport degrades SASE gracefully instead
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-zs.1](sase-zs.1.md) | Borrow local objects when materializing sidecar SDD clones | ✓ closed | small | 2026-09-12 | 1 | 1 |
-| [sase-zs.2](sase-zs.2.md) | Make remote clone timeouts retryable instead of fatal | ◐ in_progress | small | 2026-09-12 | 1 | 0 |
+| [sase-zs.2](sase-zs.2.md) | Make remote clone timeouts retryable instead of fatal | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zs.3](sase-zs.3.md) | Deterministic retryability classifier in the Rust core | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
 | [sase-zs.4](sase-zs.4.md) | Replace fixed wall-clock timeouts with stall-aware deadlines | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
 | [sase-zs.5](sase-zs.5.md) | Single retrying chokepoint for gh CLI calls | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
@@ -30,7 +30,7 @@ A slow, congested, or degraded GitHub transport degrades SASE gracefully instead
 flowchart TD
     n0["sase-zs: Harden every GitHub network interaction against slow and degraded transports [in_progress]"]
     n1["sase-zs.1: Borrow local objects when materializing sidecar SDD clones [closed]"]
-    n2["sase-zs.2: Make remote clone timeouts retryable instead of fatal [in_progress]"]
+    n2["sase-zs.2: Make remote clone timeouts retryable instead of fatal [closed]"]
     n3["sase-zs.3: Deterministic retryability classifier in the Rust core [in_progress]"]
     n4["sase-zs.4: Replace fixed wall-clock timeouts with stall-aware deadlines [in_progress]"]
     n5["sase-zs.5: Single retrying chokepoint for gh CLI calls [in_progress]"]
@@ -59,7 +59,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-zs.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.1/README.md) | [sase-zs.1](sase-zs.1.md) | 1 |
-| [bbugyi200.athena.sase-zs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.2/README.md) | [sase-zs.2](sase-zs.2.md) | 0 |
+| [bbugyi200.athena.sase-zs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.2/README.md) | [sase-zs.2](sase-zs.2.md) | 1 |
 | [bbugyi200.athena.sase-zs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.3/README.md) | [sase-zs.3](sase-zs.3.md) | 0 |
 | [bbugyi200.athena.sase-zs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.4/README.md) | [sase-zs.4](sase-zs.4.md) | 0 |
 | [bbugyi200.athena.sase-zs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.5/README.md) | [sase-zs.5](sase-zs.5.md) | 0 |
@@ -73,3 +73,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`63653c5`](https://github.com/sase-org/sase/commit/63653c5ee1593d8deef0aa6890639af8f79ccfdb) | fix(sdd): reuse primary sidecar clone references | [sase-zs.1](sase-zs.1.md) | 2026-09-12 10:25:10 EDT |
+| sase | [`4ea8a15`](https://github.com/sase-org/sase/commit/4ea8a1531b366d644522ddd7795d6cc8cb878ea1) | fix(sdd): retry remote clone timeouts | [sase-zs.2](sase-zs.2.md) | 2026-09-12 10:28:26 EDT |

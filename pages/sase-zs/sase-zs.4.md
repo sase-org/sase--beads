@@ -13,7 +13,7 @@ stall-deadline: stream git progress output so a slow-but-advancing transfer is d
 
 ## Dependencies
 
-- **Depends on:** [sase-zs.2](sase-zs.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zs.2](sase-zs.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zs.8](sase-zs.8.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
