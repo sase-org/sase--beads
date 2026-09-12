@@ -18,7 +18,7 @@ admission: register the `queue_capacity_budget` sunset flag, pass it into the Ru
 ## Dependencies
 
 - **Depends on:** [sase-zt.1](sase-zt.1.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zt.3](sase-zt.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zt.3](sase-zt.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zt.4](sase-zt.4.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
