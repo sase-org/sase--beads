@@ -27,12 +27,6 @@ contract: implement versioned exact-identity records, deterministic replay plann
 - **Blocks:** [sase-zl.3](sase-zl.3.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.5](sase-zl.5.md) ✓ · ⧖ 2026-09-11
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.2/README.md) | [sase-zl.2](sase-zl.2.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
