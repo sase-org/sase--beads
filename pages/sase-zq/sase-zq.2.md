@@ -20,7 +20,7 @@ integrate_policy: replace the opt-out CLI, enforce preflight and resume rules, c
 ## Dependencies
 
 - **Depends on:** [sase-zq.1](sase-zq.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zq.3](sase-zq.3.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zq.3](sase-zq.3.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

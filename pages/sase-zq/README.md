@@ -21,7 +21,7 @@ Prevent commits from closing unfinished beads by requiring an explicit close or 
 |---|---|---|---|---|---:|---:|
 | [sase-zq.1](sase-zq.1.md) | Shared bead decision contract | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zq.2](sase-zq.2.md) | Enforce and carry the decision through every commit path | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zq.3](sase-zq.3.md) | Verify lifecycle and recovery across the integrated system | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
+| [sase-zq.3](sase-zq.3.md) | Verify lifecycle and recovery across the integrated system | ✓ closed | medium | 2026-09-11 | 0 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n0["sase-zq: Require explicit bead decisions when creating stitches [in_progress]"]
     n1["sase-zq.1: Shared bead decision contract [closed]"]
     n2["sase-zq.2: Enforce and carry the decision through every commit path [closed]"]
-    n3["sase-zq.3: Verify lifecycle and recovery across the integrated system [in_progress]"]
+    n3["sase-zq.3: Verify lifecycle and recovery across the integrated system [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -44,8 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-zq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zq.1/README.md) | [sase-zq.1](sase-zq.1.md) | 0 |
 | [bbugyi200.athena.sase-zq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zq.2/README.md) | [sase-zq.2](sase-zq.2.md) | 1 |
-| [bbugyi200.athena.sase-zq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zq.3/README.md) | [sase-zq.3](sase-zq.3.md) | 0 |
-| [bbugyi200.athena.sase-zq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zq.land/README.md) | [sase-zq](README.md) | 0 |
+| [bbugyi200.athena.sase-zq.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zq.land.md) | [sase-zq](README.md) | 1 |
 
 ## Commits
 
@@ -54,3 +53,5 @@ flowchart TD
 | sase-core | [`sase-core@3102a21`](https://github.com/sase-org/sase-core/commit/3102a210930db10c5ff44a584526090599b77c29) | feat: Shared bead decision contract (sase-zq.1) | [sase-zq.1](sase-zq.1.md) | 2026-09-12 05:19:34 EDT |
 | sase | [`ed11c13`](https://github.com/sase-org/sase/commit/ed11c135483179910fcf5f2c89a3431facfd570d) | feat: Shared bead decision contract (sase-zq.1) | [sase-zq.1](sase-zq.1.md) | 2026-09-12 05:19:53 EDT |
 | sase | [`df33453`](https://github.com/sase-org/sase/commit/df33453b7f9b0012f549b64174d9364e05889da5) | feat(commit): require explicit bead action | [sase-zq.2](sase-zq.2.md) | 2026-09-12 10:45:26 EDT |
+| sase | [`89540f5`](https://github.com/sase-org/sase/commit/89540f59231f411646f02174f03c9f5cdf2da0be) | feat: Verify lifecycle and recovery across the integrated system (sase-zq.3) | [sase-zq.3](sase-zq.3.md) | 2026-09-12 12:22:53 EDT |
+| sase | [`92f99bc`](https://github.com/sase-org/sase/commit/92f99bc14ce9b8e72f83c98c9f7c6f396439ad79) | fix(final): finish explicit bead action integration | [sase-zq](README.md) | 2026-09-12 15:09:26 EDT |
