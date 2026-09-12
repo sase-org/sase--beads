@@ -18,7 +18,7 @@ Monitor chains preserve the user's intent without recursively replaying history,
 | [sase-zl.1](sase-zl.1.md) | Reproduce failures and measure continuation costs | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.10](sase-zl.10.md) | Bound continuation context without losing instructions | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.11](sase-zl.11.md) | Present a coherent monitor workflow | ✓ closed | medium | 2026-09-11 | 1 | 2 |
-| [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ✓ closed | medium | 2026-09-11 | 2 | 1 |
+| [sase-zl.12](sase-zl.12.md) | Validate the combined feature and activate it | ✓ closed | medium | 2026-09-11 | 2 | 2 |
 | [sase-zl.2](sase-zl.2.md) | Define the Rust continuation and result contracts | ✓ closed | medium | 2026-09-11 | 1 | 2 |
 | [sase-zl.3](sase-zl.3.md) | Persist local deltas and handoff checkpoints | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zl.4](sase-zl.4.md) | Reconstruct ancestry without recursive transcript replay | ✓ closed | medium | 2026-09-11 | 1 | 2 |
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.1/README.md) | [sase-zl.1](sase-zl.1.md) | 1 |
 | [bbugyi200.athena.sase-zl.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.10/README.md) | [sase-zl.10](sase-zl.10.md) | 0 |
 | [bbugyi200.athena.sase-zl.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.11/README.md) | [sase-zl.11](sase-zl.11.md) | 2 |
-| [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 0 |
+| [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 1 |
 | [bbugyi200.athena.sase-zl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.2/README.md) | [sase-zl.2](sase-zl.2.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.4/README.md) | [sase-zl.4](sase-zl.4.md) | 2 |
@@ -116,3 +116,4 @@ flowchart TD
 | sase | [`15fa55e`](https://github.com/sase-org/sase/commit/15fa55e5ed125956e3f7b7df8354837350ba76d4) | feat(monitor): present coherent workflow status | [sase-zl.11](sase-zl.11.md) | 2026-09-11 18:27:11 EDT |
 | sase-core | [`sase-core@477e406`](https://github.com/sase-org/sase-core/commit/477e4062da4f56fef9c4f15347f08c1292ffe3c6) | feat(agent-scan): expose monitor workflow metadata | [sase-zl.11](sase-zl.11.md) | 2026-09-11 18:40:45 EDT |
 | sase | [`ae7fde6`](https://github.com/sase-org/sase/commit/ae7fde656f3a39c61560e66f1418780564dee14b) | test(ace): align fleet PNG snapshots with the unified Agents list | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:04:16 EDT |
+| sase | [`9202146`](https://github.com/sase-org/sase/commit/9202146ca4133fe28721cd2d4f5ca6f3ecaec1c4) | feat(continuation): activate monitor continuation replay | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:19:28 EDT |
