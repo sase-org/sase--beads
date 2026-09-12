@@ -15,7 +15,7 @@ verify: re-run the documented capture recipe on athena under real agent load and
 
 - **Depends on:** [sase-zn.3](sase-zn.3.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zn.5](sase-zn.5.md) ✓ · ⧖ 2026-09-11
-- **Depends on:** [sase-zn.6](sase-zn.6.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zn.6](sase-zn.6.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zn.7](sase-zn.7.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

@@ -17,7 +17,7 @@ host-relief: reclaim the two 31 GB scratch piles on athena, relocate SASE_TMPDIR
 
 ## Dependencies
 
-- **Blocks:** [sase-zn.6](sase-zn.6.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zn.6](sase-zn.6.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zn.7](sase-zn.7.md) ◐ · ⧖ 2026-09-11
 
 ## Agents
@@ -25,3 +25,9 @@ host-relief: reclaim the two 31 GB scratch piles on athena, relocate SASE_TMPDIR
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-zn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.1/README.md) | [sase-zn.1](sase-zn.1.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`32879ff`](https://github.com/sase-org/sase/commit/32879ff7f2416f123a86e2547ab2da1653edee61) | feat: Reclaim athena now and move SASE\_TMPDIR off tmpfs and out of Syncthing (sase-zn.1) | [sase-zn.1](sase-zn.1.md) | 2026-09-12 05:27:24 EDT |

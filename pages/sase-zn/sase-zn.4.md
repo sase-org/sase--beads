@@ -26,3 +26,9 @@ stream-bound: cap the unbounded in-memory output list in _stream_subprocess and 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-zn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.4/README.md) | [sase-zn.4](sase-zn.4.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`96c3877`](https://github.com/sase-org/sase/commit/96c3877e08e643cf3cf8fe60a5438d4be4c87aac) | feat: Bound retained child-process output in the session proc reporter (sase-zn.4) | [sase-zn.4](sase-zn.4.md) | 2026-09-12 05:28:36 EDT |
