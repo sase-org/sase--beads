@@ -14,7 +14,7 @@ adoption: move the scattered direct `gh` subprocess calls and the remaining netw
 ## Dependencies
 
 - **Depends on:** [sase-zs.3](sase-zs.3.md) ✓ · ⧖ 2026-09-12
-- **Depends on:** [sase-zs.5](sase-zs.5.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zs.5](sase-zs.5.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
