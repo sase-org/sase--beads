@@ -74,7 +74,7 @@ flowchart TD
     n5["sase-zl.13: Finish monitor continuation correctness and production acceptance [in_progress]"]
     n6["sase-zl.13.1: Preserve local provenance and durable exact handoffs [closed]"]
     n7["sase-zl.13.10: Prove the complete route and compatibility rollout [in_progress]"]
-    n8["sase-zl.13.2: Hydrate ancestry and retain protected context [in_progress]"]
+    n8["sase-zl.13.2: Hydrate ancestry and retain protected context [closed]"]
     n9["sase-zl.13.3: Materialize selected diagnostics from one frozen result [closed]"]
     n10["sase-zl.13.4: Execute validated frozen outcome policies [in_progress]"]
     n11["sase-zl.13.5: Reserve and adopt ordinary continuation deliveries [in_progress]"]
@@ -157,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.12.md) | [sase-zl.12](sase-zl.12.md) | 2 |
 | [bbugyi200.athena.sase-zl.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.1/README.md) | [sase-zl.13.1](sase-zl.13.1.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.10/README.md) | [sase-zl.13.10](sase-zl.13.10.md) | 0 |
-| [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.3/README.md) | [sase-zl.13.3](sase-zl.13.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.5/README.md) | [sase-zl.13.5](sase-zl.13.5.md) | 0 |
@@ -201,3 +201,4 @@ flowchart TD
 | sase-core | [`sase-core@acab7b4`](https://github.com/sase-org/sase-core/commit/acab7b44e09f8c2db36be4f6d195ecab756c5c2c) | fix(continuation): allow long monitor commands | [sase-zl.12](sase-zl.12.md) | 2026-09-11 23:22:53 EDT |
 | sase | [`e530d97`](https://github.com/sase-org/sase/commit/e530d978f0aa861e832ab14fb202cd44cbfa488b) | feat(continuation): persist local provenance and exact monitor handoffs | [sase-zl.13.1](sase-zl.13.1.md) | 2026-09-12 01:08:01 EDT |
 | sase | [`1fa3276`](https://github.com/sase-org/sase/commit/1fa3276a13548b5a7ef420a699b0ecd9fe9720a2) | feat(monitor): materialize selected diagnostics | [sase-zl.13.3](sase-zl.13.3.md) | 2026-09-12 01:44:43 EDT |
+| sase | [`01a9bd3`](https://github.com/sase-org/sase/commit/01a9bd3390bf41b7e8639d048f4aac3243c53c83) | feat(history): hydrate exact continuation ancestry for replay | [sase-zl.13.2](sase-zl.13.2.md) | 2026-09-12 02:09:31 EDT |

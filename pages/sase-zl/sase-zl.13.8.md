@@ -13,7 +13,7 @@ budgets: select and render safe checkpoint reductions, use actual provider and t
 
 ## Dependencies
 
-- **Depends on:** [sase-zl.13.2](sase-zl.13.2.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.13.2](sase-zl.13.2.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.13.3](sase-zl.13.3.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.13.6](sase-zl.13.6.md) ◐ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.13.9](sase-zl.13.9.md) ◐ · ⧖ 2026-09-11
