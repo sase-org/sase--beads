@@ -78,7 +78,7 @@ flowchart TD
     n9["sase-zl.13.3: Materialize selected diagnostics from one frozen result [closed]"]
     n10["sase-zl.13.4: Execute validated frozen outcome policies [closed]"]
     n11["sase-zl.13.5: Reserve and adopt ordinary continuation deliveries [closed]"]
-    n12["sase-zl.13.6: Reconcile terminal delivery and implement manual resume [in_progress]"]
+    n12["sase-zl.13.6: Reconcile terminal delivery and implement manual resume [closed]"]
     n13["sase-zl.13.7: Repair real host-finalizer recovery and receipts [in_progress]"]
     n14["sase-zl.13.8: Apply checkpoint projections and provider-aware budgets [in_progress]"]
     n15["sase-zl.13.9: Complete monitor controls and visual contracts [in_progress]"]
@@ -160,8 +160,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.3/README.md) | [sase-zl.13.3](sase-zl.13.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 2 |
-| [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.5.md) | [sase-zl.13.5](sase-zl.13.5.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.6/README.md) | [sase-zl.13.6](sase-zl.13.6.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.5.md) | [sase-zl.13.5](sase-zl.13.5.md) | 2 |
+| [bbugyi200.athena.sase-zl.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.6/README.md) | [sase-zl.13.6](sase-zl.13.6.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.7/README.md) | [sase-zl.13.7](sase-zl.13.7.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.8/README.md) | [sase-zl.13.8](sase-zl.13.8.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.9/README.md) | [sase-zl.13.9](sase-zl.13.9.md) | 0 |
@@ -205,3 +205,5 @@ flowchart TD
 | sase | [`683cdf7`](https://github.com/sase-org/sase/commit/683cdf70d5db854506b47c5a533ba27c7c127865) | feat(monitor): freeze validated outcome policies before start | [sase-zl.13.4](sase-zl.13.4.md) | 2026-09-12 02:37:04 EDT |
 | sase-core | [`sase-core@76fa58a`](https://github.com/sase-org/sase-core/commit/76fa58a382e2a4046ba7ae31172166e4bbed30dd) | feat(continuation): freeze validated monitor outcome policies | [sase-zl.13.4](sase-zl.13.4.md) | 2026-09-12 02:42:12 EDT |
 | sase | [`56ceab3`](https://github.com/sase-org/sase/commit/56ceab3f99952c4959717a3230cf4f27e8bdc915) | feat(monitor): reserve and adopt ordinary continuation deliveries | [sase-zl.13.5](sase-zl.13.5.md) | 2026-09-12 04:06:38 EDT |
+| sase-core | [`sase-core@fa63ec7`](https://github.com/sase-org/sase-core/commit/fa63ec7bfc83a6f2b0b9bd1f30afdd0514f96797) | feat(continuation): add ordinary delivery reservation transitions | [sase-zl.13.5](sase-zl.13.5.md) | 2026-09-12 04:09:34 EDT |
+| sase | [`4c0d1c2`](https://github.com/sase-org/sase/commit/4c0d1c216ce72dad2380bc0526ef6389108cae52) | feat(monitor): resume terminal continuation deliveries | [sase-zl.13.6](sase-zl.13.6.md) | 2026-09-12 05:20:49 EDT |

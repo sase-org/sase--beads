@@ -22,16 +22,17 @@ adoption: add Rust-owned delivery transitions and exact receiver adoption throug
 - **Depends on:** [sase-zl.13.2](sase-zl.13.2.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.13.3](sase-zl.13.3.md) ✓ · ⧖ 2026-09-11
 - **Depends on:** [sase-zl.13.4](sase-zl.13.4.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.13.6](sase-zl.13.6.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.13.6](sase-zl.13.6.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.5.md) | [sase-zl.13.5](sase-zl.13.5.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.5.md) | [sase-zl.13.5](sase-zl.13.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`56ceab3`](https://github.com/sase-org/sase/commit/56ceab3f99952c4959717a3230cf4f27e8bdc915) | feat(monitor): reserve and adopt ordinary continuation deliveries | [sase-zl.13.5](sase-zl.13.5.md) | 2026-09-12 04:06:38 EDT |
+| sase-core | [`sase-core@fa63ec7`](https://github.com/sase-org/sase-core/commit/fa63ec7bfc83a6f2b0b9bd1f30afdd0514f96797) | feat(continuation): add ordinary delivery reservation transitions | [sase-zl.13.5](sase-zl.13.5.md) | 2026-09-12 04:09:34 EDT |

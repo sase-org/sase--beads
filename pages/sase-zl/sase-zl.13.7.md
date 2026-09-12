@@ -13,7 +13,7 @@ completion: repair recovery launcher arguments, serialize host adoption, and ver
 
 ## Dependencies
 
-- **Depends on:** [sase-zl.13.6](sase-zl.13.6.md) ◐ · ⧖ 2026-09-11
+- **Depends on:** [sase-zl.13.6](sase-zl.13.6.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.13.9](sase-zl.13.9.md) ◐ · ⧖ 2026-09-11
 
 ## Agents
