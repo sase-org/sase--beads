@@ -19,7 +19,7 @@ capture: exclude injected ancestry from canonical local records, accept authored
 
 - **Blocks:** [sase-zl.13.2](sase-zl.13.2.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zl.13.3](sase-zl.13.3.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zl.13.4](sase-zl.13.4.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zl.13.4](sase-zl.13.4.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 
