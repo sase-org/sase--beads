@@ -18,7 +18,7 @@ tmp-hygiene: give agent-created cargo/build scratch a managed home the reaper ca
 ## Dependencies
 
 - **Depends on:** [sase-zn.1](sase-zn.1.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zn.8](sase-zn.8.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zn.8](sase-zn.8.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

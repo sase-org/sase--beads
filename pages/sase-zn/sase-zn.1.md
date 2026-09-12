@@ -18,7 +18,7 @@ host-relief: reclaim the two 31 GB scratch piles on athena, relocate SASE_TMPDIR
 ## Dependencies
 
 - **Blocks:** [sase-zn.6](sase-zn.6.md) ✓ · ⧖ 2026-09-11
-- **Blocks:** [sase-zn.7](sase-zn.7.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zn.7](sase-zn.7.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

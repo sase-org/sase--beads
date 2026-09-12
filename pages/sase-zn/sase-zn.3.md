@@ -19,7 +19,7 @@ notif-snapshot: cache the parsed notification snapshot against a cheap change to
 
 ## Dependencies
 
-- **Blocks:** [sase-zn.8](sase-zn.8.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zn.8](sase-zn.8.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

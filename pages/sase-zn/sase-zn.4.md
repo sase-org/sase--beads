@@ -19,7 +19,7 @@ stream-bound: cap the unbounded in-memory output list in _stream_subprocess and 
 
 ## Dependencies
 
-- **Blocks:** [sase-zn.7](sase-zn.7.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-zn.7](sase-zn.7.md) ✓ · ⧖ 2026-09-11
 
 ## Agents
 

@@ -33,8 +33,8 @@ Typing in the ACE prompt input stays responsive on athena under normal agent loa
 | [sase-zn.4](sase-zn.4.md) | Bound retained child-process output in the session proc reporter | ✓ closed | small | 2026-09-11 | 1 | 1 |
 | [sase-zn.5](sase-zn.5.md) | Narrow the artifact-index lock and stop authoritative syncs bypassing the signature check | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zn.6](sase-zn.6.md) | Extend scratch hygiene to agent-created build directories and disk pressure | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zn.7](sase-zn.7.md) | Attribute and fix the residual ACE heap growth | ◐ in_progress | medium | 2026-09-11 | 1 | 0 |
-| [sase-zn.8](sase-zn.8.md) | Re-measure on athena against explicit responsiveness targets | ◐ in_progress | small | 2026-09-11 | 1 | 0 |
+| [sase-zn.7](sase-zn.7.md) | Attribute and fix the residual ACE heap growth | ✓ closed | medium | 2026-09-11 | 0 | 1 |
+| [sase-zn.8](sase-zn.8.md) | Re-measure on athena against explicit responsiveness targets | ✓ closed | small | 2026-09-11 | 1 | 1 |
 
 ## Lineage
 
@@ -47,8 +47,8 @@ flowchart TD
     n4["sase-zn.4: Bound retained child-process output in the session proc reporter [closed]"]
     n5["sase-zn.5: Narrow the artifact-index lock and stop authoritative syncs bypassing the signature check [closed]"]
     n6["sase-zn.6: Extend scratch hygiene to agent-created build directories and disk pressure [closed]"]
-    n7["sase-zn.7: Attribute and fix the residual ACE heap growth [in_progress]"]
-    n8["sase-zn.8: Re-measure on athena against explicit responsiveness targets [in_progress]"]
+    n7["sase-zn.7: Attribute and fix the residual ACE heap growth [closed]"]
+    n8["sase-zn.8: Re-measure on athena against explicit responsiveness targets [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -77,8 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.4/README.md) | [sase-zn.4](sase-zn.4.md) | 0 |
 | [bbugyi200.athena.sase-zn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.5/README.md) | [sase-zn.5](sase-zn.5.md) | 1 |
 | [bbugyi200.athena.sase-zn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.6/README.md) | [sase-zn.6](sase-zn.6.md) | 1 |
-| [bbugyi200.athena.sase-zn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.7/README.md) | [sase-zn.7](sase-zn.7.md) | 0 |
-| [bbugyi200.athena.sase-zn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.8/README.md) | [sase-zn.8](sase-zn.8.md) | 0 |
+| [bbugyi200.athena.sase-zn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.8/README.md) | [sase-zn.8](sase-zn.8.md) | 1 |
 | [bbugyi200.athena.sase-zn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.land/README.md) | [sase-zn](README.md) | 0 |
 
 ## Commits
@@ -92,3 +91,5 @@ flowchart TD
 | sase | [`32879ff`](https://github.com/sase-org/sase/commit/32879ff7f2416f123a86e2547ab2da1653edee61) | feat: Reclaim athena now and move SASE\_TMPDIR off tmpfs and out of Syncthing (sase-zn.1) | [sase-zn.1](sase-zn.1.md) | 2026-09-12 05:27:24 EDT |
 | sase | [`96c3877`](https://github.com/sase-org/sase/commit/96c3877e08e643cf3cf8fe60a5438d4be4c87aac) | feat: Bound retained child-process output in the session proc reporter (sase-zn.4) | [sase-zn.4](sase-zn.4.md) | 2026-09-12 05:28:36 EDT |
 | sase | [`2614668`](https://github.com/sase-org/sase/commit/2614668f48e89a61ee5c44dd380fd2707542f67a) | feat(tmp): route agent build scratch through managed reaper | [sase-zn.6](sase-zn.6.md) | 2026-09-12 11:05:07 EDT |
+| sase | [`10bc40e`](https://github.com/sase-org/sase/commit/10bc40e94e024999d6021a82fd483f0be54057a8) | feat: Attribute and fix the residual ACE heap growth (sase-zn.7) | [sase-zn.7](sase-zn.7.md) | 2026-09-12 12:24:51 EDT |
+| sase | [`ebb17c4`](https://github.com/sase-org/sase/commit/ebb17c4c291817779da96273854396d764252717) | docs(perf): record athena ace verification | [sase-zn.8](sase-zn.8.md) | 2026-09-12 14:07:58 EDT |
