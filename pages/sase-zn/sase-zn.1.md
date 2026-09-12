@@ -20,12 +20,6 @@ host-relief: reclaim the two 31 GB scratch piles on athena, relocate SASE_TMPDIR
 - **Blocks:** [sase-zn.6](sase-zn.6.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-zn.7](sase-zn.7.md) ✓ · ⧖ 2026-09-11
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.1/README.md) | [sase-zn.1](sase-zn.1.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |

@@ -21,12 +21,6 @@ stream-bound: cap the unbounded in-memory output list in _stream_subprocess and 
 
 - **Blocks:** [sase-zn.7](sase-zn.7.md) ✓ · ⧖ 2026-09-11
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.4/README.md) | [sase-zn.4](sase-zn.4.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
