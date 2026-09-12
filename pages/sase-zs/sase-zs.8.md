@@ -13,7 +13,7 @@ observability: record near-miss margin and retry outcomes on network git operati
 
 ## Dependencies
 
-- **Depends on:** [sase-zs.3](sase-zs.3.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zs.3](sase-zs.3.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zs.4](sase-zs.4.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
