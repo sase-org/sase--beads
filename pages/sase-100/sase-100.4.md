@@ -13,7 +13,7 @@ finish: document the panel in docs/ace.md, correct the stale refresh-key prose, 
 
 ## Dependencies
 
-- **Depends on:** [sase-100.3](sase-100.3.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-100.3](sase-100.3.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

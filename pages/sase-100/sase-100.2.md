@@ -20,7 +20,7 @@ panel: build the RefreshPanelModal single-key chooser, its rows, cursor, banner,
 ## Dependencies
 
 - **Depends on:** [sase-100.1](sase-100.1.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-100.3](sase-100.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-100.3](sase-100.3.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
