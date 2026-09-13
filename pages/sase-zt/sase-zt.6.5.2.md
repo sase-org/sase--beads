@@ -20,7 +20,7 @@ pin-and-launch: ratchet the current core cohort and repair or disprove the repor
 ## Dependencies
 
 - **Depends on:** [sase-zt.6.5.1](sase-zt.6.5.1.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zt.6.5.3](sase-zt.6.5.3.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.5.3](sase-zt.6.5.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
