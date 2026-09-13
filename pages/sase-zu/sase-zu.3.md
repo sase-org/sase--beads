@@ -19,7 +19,7 @@ rust_index: in sase-core, apply the candidate filter on the non-windowed selecti
 
 - **Depends on:** [sase-zu.1](sase-zu.1.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.4](sase-zu.4.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zu.5](sase-zu.5.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zu.5](sase-zu.5.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
