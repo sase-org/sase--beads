@@ -21,16 +21,17 @@ core-contracts: preserve canonical and legacy capacity through metadata, waiting
 
 ## Dependencies
 
-- **Blocks:** [sase-zt.6.2](sase-zt.6.2.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.2](sase-zt.6.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zt.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.1/README.md) | [sase-zt.6.1](sase-zt.6.1.md) | 1 |
+| [bbugyi200.athena.sase-zt.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.1/README.md) | [sase-zt.6.1](sase-zt.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fa84150`](https://github.com/sase-org/sase/commit/fa84150cd9ef52097aacbd3b276db9ba023b58d4) | feat(ace): honor queue\_capacity\_budget in LSP and editor contract | [sase-zt.6.1](sase-zt.6.1.md) | 2026-09-13 08:15:53 EDT |
+| sase-core | [`sase-core@ba651fe`](https://github.com/sase-org/sase-core/commit/ba651fe5b2f6ab18ebe2cb472d7d9157c0f33502) | feat(agent-scan): preserve canonical queue capacity through scan and editor | [sase-zt.6.1](sase-zt.6.1.md) | 2026-09-13 08:17:28 EDT |
