@@ -13,7 +13,7 @@ acceptance: observe the authorized live capacity scenarios, inspect targeted vis
 
 ## Dependencies
 
-- **Depends on:** [sase-zt.6.5.2](sase-zt.6.5.2.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zt.6.5.2](sase-zt.6.5.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

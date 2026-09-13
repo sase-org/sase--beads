@@ -17,10 +17,16 @@ core-completion: select flag-aware queue metadata for directive-name completion 
 
 ## Dependencies
 
-- **Blocks:** [sase-zt.6.5.2](sase-zt.6.5.2.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.5.2](sase-zt.6.5.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zt.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.1/README.md) | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.1/README.md) | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@7f43a99`](https://github.com/sase-org/sase-core/commit/7f43a996e9393449e838881f907d40fc76d0fdc6) | fix(editor): honor queue flag in directive completion | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 2026-09-13 14:50:43 EDT |

@@ -62,7 +62,7 @@ flowchart TD
     n10["sase-zt.6.4: Complete visual, live and combined-tree acceptance [closed]"]
     n11["sase-zt.6.5: Finish queue-capacity landing integration [in_progress]"]
     n12["sase-zt.6.5.1: Finish flag-aware queue name completion in the current Rust core [closed]"]
-    n13["sase-zt.6.5.2: Pin the integrated core and prove LaunchApproval preserves capacity [in_progress]"]
+    n13["sase-zt.6.5.2: Pin the integrated core and prove LaunchApproval preserves capacity [closed]"]
     n14["sase-zt.6.5.3: Complete live and combined-tree capacity acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -103,8 +103,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zt.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.2/README.md) | [sase-zt.6.2](sase-zt.6.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.3/README.md) | [sase-zt.6.3](sase-zt.6.3.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.4.md) | [sase-zt.6.4](sase-zt.6.4.md) | 1 |
-| [bbugyi200.athena.sase-zt.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.1/README.md) | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 0 |
-| [bbugyi200.athena.sase-zt.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.2/README.md) | [sase-zt.6.5.2](sase-zt.6.5.2.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.1/README.md) | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 1 |
+| [bbugyi200.athena.sase-zt.6.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.5.2.md) | [sase-zt.6.5.2](sase-zt.6.5.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.3/README.md) | [sase-zt.6.5.3](sase-zt.6.5.3.md) | 0 |
 | [bbugyi200.athena.sase-zt.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.land/README.md) | [sase-zt.6.5](sase-zt.6.5.md) | 0 |
 | [bbugyi200.athena.sase-zt.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.land.md) | [sase-zt.6](sase-zt.6.md) | 0 |
@@ -123,3 +123,5 @@ flowchart TD
 | sase | [`bb68af0`](https://github.com/sase-org/sase/commit/bb68af0fe50be89b3ab7d483aa31f5f2517cba67) | feat(queue): adopt canonical capacity wire and preserve continuation budgets | [sase-zt.6.2](sase-zt.6.2.md) | 2026-09-13 10:13:43 EDT |
 | sase | [`84a3ea2`](https://github.com/sase-org/sase/commit/84a3ea2dd685a3ea677b51fe5529fae5b38c286d) | feat(tui): show authored queue capacity metadata | [sase-zt.6.3](sase-zt.6.3.md) | 2026-09-13 11:48:57 EDT |
 | sase | [`7f22623`](https://github.com/sase-org/sase/commit/7f22623bc5a9798f52dca261b15ce78aad8a146e) | test(ace-tui): add visual coverage for the capacity budget accent | [sase-zt.6.4](sase-zt.6.4.md) | 2026-09-13 12:39:05 EDT |
+| sase-core | [`sase-core@7f43a99`](https://github.com/sase-org/sase-core/commit/7f43a996e9393449e838881f907d40fc76d0fdc6) | fix(editor): honor queue flag in directive completion | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 2026-09-13 14:50:43 EDT |
+| sase | [`3224d46`](https://github.com/sase-org/sase/commit/3224d4611d43a88be0ec4849693ee574b1c95ea9) | fix(agent): preserve launch approval queue capacity | [sase-zt.6.5.2](sase-zt.6.5.2.md) | 2026-09-13 16:31:14 EDT |
