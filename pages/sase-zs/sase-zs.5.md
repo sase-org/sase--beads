@@ -21,9 +21,3 @@ gh-runner: add one bounded, non-interactive `gh` execution boundary that applies
 
 - **Depends on:** [sase-zs.3](sase-zs.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zs.6](sase-zs.6.md) ✓ · ⧖ 2026-09-12
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zs.5/README.md) | [sase-zs.5](sase-zs.5.md) | 0 |
