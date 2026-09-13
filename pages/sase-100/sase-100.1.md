@@ -17,7 +17,7 @@ freshness: add the in-memory per-surface "last reloaded" recorder, stamp it from
 
 ## Dependencies
 
-- **Blocks:** [sase-100.2](sase-100.2.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-100.2](sase-100.2.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
