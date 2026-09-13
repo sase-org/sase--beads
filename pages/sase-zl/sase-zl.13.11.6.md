@@ -14,7 +14,7 @@ acceptance: exercise integrated capture-through-invocation and recovery paths, p
 ## Dependencies
 
 - **Depends on:** [sase-zl.13.11.4](sase-zl.13.11.4.md) ◐ · ⧖ 2026-09-13
-- **Depends on:** [sase-zl.13.11.5](sase-zl.13.11.5.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zl.13.11.5](sase-zl.13.11.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

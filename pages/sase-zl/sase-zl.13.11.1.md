@@ -19,7 +19,7 @@ frozen_context: bind ordinary and recovery successors to the exact result graph 
 
 - **Blocks:** [sase-zl.13.11.2](sase-zl.13.11.2.md) ◐ · ⧖ 2026-09-13
 - **Blocks:** [sase-zl.13.11.3](sase-zl.13.11.3.md) ◐ · ⧖ 2026-09-13
-- **Blocks:** [sase-zl.13.11.5](sase-zl.13.11.5.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zl.13.11.5](sase-zl.13.11.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

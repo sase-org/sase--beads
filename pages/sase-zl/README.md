@@ -79,7 +79,7 @@ flowchart TD
     n10["sase-zl.13.11.2: Budget from trusted provenance and explicit checkpoint coverage [in_progress]"]
     n11["sase-zl.13.11.3: Fence manual resume against concurrent receiver adoption [in_progress]"]
     n12["sase-zl.13.11.4: Preserve persisted protocol semantics across rollout changes [in_progress]"]
-    n13["sase-zl.13.11.5: Protect and recover referenced continuation ancestry [in_progress]"]
+    n13["sase-zl.13.11.5: Protect and recover referenced continuation ancestry [closed]"]
     n14["sase-zl.13.11.6: Prove repaired production routes and combined compatibility [in_progress]"]
     n15["sase-zl.13.2: Hydrate ancestry and retain protected context [closed]"]
     n16["sase-zl.13.3: Materialize selected diagnostics from one frozen result [closed]"]
@@ -181,7 +181,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.2/README.md) | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.3.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.4/README.md) | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 0 |
-| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.land/README.md) | [sase-zl.13.11](sase-zl.13.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
@@ -190,6 +190,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.5.md) | [sase-zl.13.5](sase-zl.13.5.md) | 2 |
 | [bbugyi200.athena.sase-zl.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.6/README.md) | [sase-zl.13.6](sase-zl.13.6.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.7/README.md) | [sase-zl.13.7](sase-zl.13.7.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.8/README.md) | [sase-zl.13.8](sase-zl.13.8.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.9/README.md) | [sase-zl.13.9](sase-zl.13.9.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.land.md) | [sase-zl.13](sase-zl.13.md) | 0 |
 | [bbugyi200.athena.sase-zl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.3/README.md) | [sase-zl.3](sase-zl.3.md) | 1 |
@@ -238,3 +239,4 @@ flowchart TD
 | sase | [`97dee34`](https://github.com/sase-org/sase/commit/97dee340a299cd972f4b3a3fe367632d20f1d94b) | fix(monitor): render continuations from frozen context | [sase-zl.13.11.1](sase-zl.13.11.1.md) | 2026-09-13 07:34:05 EDT |
 | sase | [`cfc7d4a`](https://github.com/sase-org/sase/commit/cfc7d4a30e542e2d6b5a3a3af7f6d422d1fde7ef) | fix(continuation): rebuild budget projection on marker-based span discovery | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 2026-09-13 08:17:16 EDT |
 | sase | [`897147e`](https://github.com/sase-org/sase/commit/897147eac21d7a65d88b3270eda775e5057adcfc) | fix(monitor): fence manual resume against concurrent receiver adoption | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 2026-09-13 09:41:46 EDT |
+| sase | [`a6f6ae5`](https://github.com/sase-org/sase/commit/a6f6ae5c66336d64841e71f547c1f81c4121b2ba) | feat(continuation): protect referenced ancestry and register portable locators | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:56:45 EDT |
