@@ -11,6 +11,10 @@
 
 land: delete the three beta flags' disabled branches, close their flag beads, publish before/after numbers in the perf runbook, and file the memory task bead.
 
+## Notes
+
+[2026-09-13T12:52:09Z · sase-zu.7] PROPOSED FOLLOW-UP: Capture load-tiering query-size rule in tui_perf memory - a query the index cannot narrow makes a result incomplete, never a load larger; pushdown coverage is a declared contract.
+
 ## Dependencies
 
 - **Depends on:** [sase-zu.1](sase-zu.1.md) ✓ · ⧖ 2026-09-12
@@ -22,4 +26,10 @@ land: delete the three beta flags' disabled branches, close their flag beads, pu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.7/README.md) | [sase-zu.7](sase-zu.7.md) | 0 |
+| [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.7.md) | [sase-zu.7](sase-zu.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ea18f53`](https://github.com/sase-org/sase/commit/ea18f5366e74258a7d5b62ffd725fdffdb8dc5f5) | fix(tools): sync validate\_sase\_core\_rs expected schema version to 9 | [sase-zu.7](sase-zu.7.md) | 2026-09-13 09:09:46 EDT |

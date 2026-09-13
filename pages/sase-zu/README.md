@@ -21,7 +21,7 @@ A committed Agents-tab filter never decides how much of the artifact archive a l
 | [sase-zu.4](sase-zu.4.md) | TUI full-history loads read the index instead of walking the filesystem | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zu.5](sase-zu.5.md) | machine filters become window-safe, and pushdown coverage becomes a contract | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zu.6](sase-zu.6.md) | Refreshes stop re-paying for history the session already has | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zu.7](sase-zu.7.md) | Remove the epic flags and land the measured result | ◐ in_progress | small | 2026-09-12 | 1 | 0 |
+| [sase-zu.7](sase-zu.7.md) | Remove the epic flags and land the measured result | ◐ in_progress | small | 2026-09-12 | 1 | 1 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.4/README.md) | [sase-zu.4](sase-zu.4.md) | 1 |
 | [bbugyi200.athena.sase-zu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.5/README.md) | [sase-zu.5](sase-zu.5.md) | 1 |
 | [bbugyi200.athena.sase-zu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.6/README.md) | [sase-zu.6](sase-zu.6.md) | 1 |
-| [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.7/README.md) | [sase-zu.7](sase-zu.7.md) | 0 |
+| [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.7.md) | [sase-zu.7](sase-zu.7.md) | 1 |
 | [bbugyi200.athena.sase-zu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.land/README.md) | [sase-zu](README.md) | 0 |
 
 ## Commits
@@ -77,3 +77,4 @@ flowchart TD
 | sase | [`f609668`](https://github.com/sase-org/sase/commit/f609668b7276bccd14ccf2a5d78051c1f7dea6de) | feat(agents): load full history from artifact index | [sase-zu.4](sase-zu.4.md) | 2026-09-12 17:36:42 EDT |
 | sase | [`2e08f08`](https://github.com/sase-org/sase/commit/2e08f0842d0be3c7526807e29b2c98d5be5509a8) | fix(agents): reuse full-history refreshes by query | [sase-zu.6](sase-zu.6.md) | 2026-09-13 06:49:43 EDT |
 | sase | [`a45ee03`](https://github.com/sase-org/sase/commit/a45ee03542bbb3a5d9d3477432f63a303420f21f) | feat(ace): push machine: Agents-tab filters into the artifact index | [sase-zu.5](sase-zu.5.md) | 2026-09-13 07:59:35 EDT |
+| sase | [`ea18f53`](https://github.com/sase-org/sase/commit/ea18f5366e74258a7d5b62ffd725fdffdb8dc5f5) | fix(tools): sync validate\_sase\_core\_rs expected schema version to 9 | [sase-zu.7](sase-zu.7.md) | 2026-09-13 09:09:46 EDT |
