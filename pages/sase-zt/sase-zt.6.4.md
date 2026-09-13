@@ -13,7 +13,7 @@ acceptance: inspect the required PNG changes, observe the real admission and TUI
 
 ## Dependencies
 
-- **Depends on:** [sase-zt.6.3](sase-zt.6.3.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zt.6.3](sase-zt.6.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
