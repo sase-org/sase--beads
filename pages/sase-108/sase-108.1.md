@@ -19,10 +19,16 @@ core-location: in sase-core, add the one link-location grammar (split_link_locat
 
 ## Dependencies
 
-- **Blocks:** [sase-108.3](sase-108.3.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-108.3](sase-108.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-108.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-108.1/README.md) | [sase-108.1](sase-108.1.md) | 0 |
+| [bbugyi200.athena.sase-108.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-108.1/README.md) | [sase-108.1](sase-108.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@17947a0`](https://github.com/sase-org/sase-core/commit/17947a05ffd6aea9555a8498f42da0777229b8ea) | feat(artifact-ref): add the one link-location grammar | [sase-108.1](sase-108.1.md) | 2026-09-13 11:11:32 EDT |
