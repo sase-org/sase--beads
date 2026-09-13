@@ -14,5 +14,11 @@ heap_attribution: use the shipped sampler on a representative long-lived ACE ses
 ## Dependencies
 
 - **Depends on:** [sase-zn.9.1](sase-zn.9.1.md) ✓ · ⧖ 2026-09-12
-- **Depends on:** [sase-zn.9.2](sase-zn.9.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zn.9.2](sase-zn.9.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zn.9.5](sase-zn.9.5.md) ◐ · ⧖ 2026-09-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-zn.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.3/README.md) | [sase-zn.9.3](sase-zn.9.3.md) | 0 |

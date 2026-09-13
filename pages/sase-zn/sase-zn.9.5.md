@@ -14,4 +14,10 @@ sustained_acceptance: capture a multi-day RSS series and current latency, CPU, w
 ## Dependencies
 
 - **Depends on:** [sase-zn.9.3](sase-zn.9.3.md) ◐ · ⧖ 2026-09-12
-- **Depends on:** [sase-zn.9.4](sase-zn.9.4.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zn.9.4](sase-zn.9.4.md) ✓ · ⧖ 2026-09-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-zn.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.5/README.md) | [sase-zn.9.5](sase-zn.9.5.md) | 0 |

@@ -73,9 +73,9 @@ flowchart TD
     n8["sase-zn.8: Re-measure on athena against explicit responsiveness targets [closed]"]
     n9["sase-zn.9: Finish ACE typing-lag correctness and measured acceptance [in_progress]"]
     n10["sase-zn.9.1: Make cached notification snapshots safe across concurrent writers [closed]"]
-    n11["sase-zn.9.2: Finish safe disk-pressure reaping in the Rust core [in_progress]"]
+    n11["sase-zn.9.2: Finish safe disk-pressure reaping in the Rust core [closed]"]
     n12["sase-zn.9.3: Attribute residual ACE retention and guard the whole application [in_progress]"]
-    n13["sase-zn.9.4: Integrate later refresh changes and resolve measured input hitches [in_progress]"]
+    n13["sase-zn.9.4: Integrate later refresh changes and resolve measured input hitches [closed]"]
     n14["sase-zn.9.5: Prove sustained responsiveness on the integrated tree [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -117,6 +117,12 @@ flowchart TD
 | [bbugyi200.athena.sase-zn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.6/README.md) | [sase-zn.6](sase-zn.6.md) | 1 |
 | [bbugyi200.athena.sase-zn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.8/README.md) | [sase-zn.8](sase-zn.8.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.1/README.md) | [sase-zn.9.1](sase-zn.9.1.md) | 1 |
+| [bbugyi200.athena.sase-zn.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.2/README.md) | [sase-zn.9.2](sase-zn.9.2.md) | 1 |
+| [bbugyi200.athena.sase-zn.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.3/README.md) | [sase-zn.9.3](sase-zn.9.3.md) | 0 |
+| [bbugyi200.athena.sase-zn.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.4/README.md) | [sase-zn.9.4](sase-zn.9.4.md) | 1 |
+| [bbugyi200.athena.sase-zn.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.5/README.md) | [sase-zn.9.5](sase-zn.9.5.md) | 0 |
+| [bbugyi200.athena.sase-zn.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.land/README.md) | [sase-zn.9](sase-zn.9.md) | 0 |
+| [bbugyi200.athena.sase-zn.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zn.land.md) | [sase-zn](README.md) | 0 |
 
 ## Commits
 
@@ -132,3 +138,6 @@ flowchart TD
 | sase | [`10bc40e`](https://github.com/sase-org/sase/commit/10bc40e94e024999d6021a82fd483f0be54057a8) | feat: Attribute and fix the residual ACE heap growth (sase-zn.7) | [sase-zn.7](sase-zn.7.md) | 2026-09-12 12:24:51 EDT |
 | sase | [`ebb17c4`](https://github.com/sase-org/sase/commit/ebb17c4c291817779da96273854396d764252717) | docs(perf): record athena ace verification | [sase-zn.8](sase-zn.8.md) | 2026-09-12 14:07:58 EDT |
 | sase | [`5554dfb`](https://github.com/sase-org/sase/commit/5554dfb0ce7d46250422eb8c1989201a8634ca5a) | fix(notifications): guard snapshot cache token publication | [sase-zn.9.1](sase-zn.9.1.md) | 2026-09-12 18:20:10 EDT |
+| sase | [`70b018b`](https://github.com/sase-org/sase/commit/70b018b91ae4b93dac9011612b33fde6dab4f34e) | feat(chop): harden managed temp pressure reaping | [sase-zn.9.2](sase-zn.9.2.md) | 2026-09-13 04:45:51 EDT |
+| sase-core | [`sase-core@a64c40d`](https://github.com/sase-org/sase-core/commit/a64c40dfc3719eefcbadb6a5869adb28f0158806) | feat: Finish safe disk-pressure reaping in the Rust core (sase-zn.9.2) | [sase-zn.9.2](sase-zn.9.2.md) | 2026-09-13 04:46:20 EDT |
+| sase | [`63e16c0`](https://github.com/sase-org/sase/commit/63e16c0fd2d84bd6c59edc4c2a09d6bc908de982) | fix(ace): reduce prompt panel render hitches | [sase-zn.9.4](sase-zn.9.4.md) | 2026-09-13 10:59:56 EDT |
