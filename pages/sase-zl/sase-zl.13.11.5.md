@@ -26,10 +26,11 @@ ancestry_retention: integrate the run-retention planner with active continuation
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a6f6ae5`](https://github.com/sase-org/sase/commit/a6f6ae5c66336d64841e71f547c1f81c4121b2ba) | feat(continuation): protect referenced ancestry and register portable locators | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:56:45 EDT |
+| sase-core | [`sase-core@23f19f0`](https://github.com/sase-org/sase-core/commit/23f19f0b4566a9e5db8ff13b3b08bedd64661fac) | feat(continuation): plan ancestry retention and resume-adoption decisions | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:59:17 EDT |

@@ -76,9 +76,9 @@ flowchart TD
     n7["sase-zl.13.10: Prove the complete route and compatibility rollout [closed]"]
     n8["sase-zl.13.11: Repair the remaining monitor continuation contracts [in_progress]"]
     n9["sase-zl.13.11.1: Route and render successors from immutable result context [closed]"]
-    n10["sase-zl.13.11.2: Budget from trusted provenance and explicit checkpoint coverage [in_progress]"]
-    n11["sase-zl.13.11.3: Fence manual resume against concurrent receiver adoption [in_progress]"]
-    n12["sase-zl.13.11.4: Preserve persisted protocol semantics across rollout changes [in_progress]"]
+    n10["sase-zl.13.11.2: Budget from trusted provenance and explicit checkpoint coverage [closed]"]
+    n11["sase-zl.13.11.3: Fence manual resume against concurrent receiver adoption [closed]"]
+    n12["sase-zl.13.11.4: Preserve persisted protocol semantics across rollout changes [closed]"]
     n13["sase-zl.13.11.5: Protect and recover referenced continuation ancestry [closed]"]
     n14["sase-zl.13.11.6: Prove repaired production routes and combined compatibility [in_progress]"]
     n15["sase-zl.13.2: Hydrate ancestry and retain protected context [closed]"]
@@ -180,8 +180,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.1/README.md) | [sase-zl.13.11.1](sase-zl.13.11.1.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.2/README.md) | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.3.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.4/README.md) | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 0 |
-| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.4/README.md) | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 1 |
+| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2 |
 | [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.land/README.md) | [sase-zl.13.11](sase-zl.13.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
@@ -240,3 +240,5 @@ flowchart TD
 | sase | [`cfc7d4a`](https://github.com/sase-org/sase/commit/cfc7d4a30e542e2d6b5a3a3af7f6d422d1fde7ef) | fix(continuation): rebuild budget projection on marker-based span discovery | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 2026-09-13 08:17:16 EDT |
 | sase | [`897147e`](https://github.com/sase-org/sase/commit/897147eac21d7a65d88b3270eda775e5057adcfc) | fix(monitor): fence manual resume against concurrent receiver adoption | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 2026-09-13 09:41:46 EDT |
 | sase | [`a6f6ae5`](https://github.com/sase-org/sase/commit/a6f6ae5c66336d64841e71f547c1f81c4121b2ba) | feat(continuation): protect referenced ancestry and register portable locators | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:56:45 EDT |
+| sase-core | [`sase-core@23f19f0`](https://github.com/sase-org/sase-core/commit/23f19f0b4566a9e5db8ff13b3b08bedd64661fac) | feat(continuation): plan ancestry retention and resume-adoption decisions | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:59:17 EDT |
+| sase | [`faad5c3`](https://github.com/sase-org/sase/commit/faad5c3dc3f00539ab9ef8441aabf7b9de2153a0) | fix(monitor): preserve continuation protocol semantics | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 2026-09-13 14:44:52 EDT |
