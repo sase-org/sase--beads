@@ -179,9 +179,9 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.10.md) | [sase-zl.13.10](sase-zl.13.10.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.1/README.md) | [sase-zl.13.11.1](sase-zl.13.11.1.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.2/README.md) | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.3/README.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.3.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.4/README.md) | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 0 |
-| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.5/README.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.land/README.md) | [sase-zl.13.11](sase-zl.13.11.md) | 0 |
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
@@ -237,3 +237,4 @@ flowchart TD
 | sase | [`6386476`](https://github.com/sase-org/sase/commit/638647694b87c5bce84e56f9449de06b232a15f0) | feat(monitor): complete continuation capture rollout | [sase-zl.13.10](sase-zl.13.10.md) | 2026-09-12 19:24:24 EDT |
 | sase | [`97dee34`](https://github.com/sase-org/sase/commit/97dee340a299cd972f4b3a3fe367632d20f1d94b) | fix(monitor): render continuations from frozen context | [sase-zl.13.11.1](sase-zl.13.11.1.md) | 2026-09-13 07:34:05 EDT |
 | sase | [`cfc7d4a`](https://github.com/sase-org/sase/commit/cfc7d4a30e542e2d6b5a3a3af7f6d422d1fde7ef) | fix(continuation): rebuild budget projection on marker-based span discovery | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 2026-09-13 08:17:16 EDT |
+| sase | [`897147e`](https://github.com/sase-org/sase/commit/897147eac21d7a65d88b3270eda775e5057adcfc) | fix(monitor): fence manual resume against concurrent receiver adoption | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 2026-09-13 09:41:46 EDT |

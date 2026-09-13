@@ -20,4 +20,4 @@ ancestry_retention: integrate the run-retention planner with active continuation
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.5/README.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 0 |

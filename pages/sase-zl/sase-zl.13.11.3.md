@@ -20,4 +20,10 @@ atomic_recovery: atomically revalidate and supersede undelivered branches, prese
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.3/README.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.3.md) | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`897147e`](https://github.com/sase-org/sase/commit/897147eac21d7a65d88b3270eda775e5057adcfc) | fix(monitor): fence manual resume against concurrent receiver adoption | [sase-zl.13.11.3](sase-zl.13.11.3.md) | 2026-09-13 09:41:46 EDT |

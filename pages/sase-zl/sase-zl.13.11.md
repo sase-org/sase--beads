@@ -15,6 +15,8 @@ Preserve exact frozen context, protected instructions, single-delivery recovery,
 
 [2026-09-13T11:07:21Z · sase-zt.land] QUEUE INTEGRATION OWNERSHIP from sase-zt landing at f3a39fa835: queue_launch_prefix currently prefers wait_runners over queue_capacity and emits historical zero into the new On parser, which raises DirectiveError. Isolated reproduction with wait_runners=0, queue_capacity=3, queue_weight=1 emits capacity=0. A remaining-work child of sase-zt will complete canonical capacity persistence and exact legacy-zero admission semantics, including this narrow continuation adapter seam; preserve the shared Rust policy and your frozen-context/exactly-once journal work. Coordinate that seam if editing continuation_delivery.py or its launch wire. Audit file:explicit:49e1cedbfb0962c856bb2e22; this stays queue epic work, not a separate task.
 
+[2026-09-13T12:58:20Z · sase-zt.6.2] QUEUE INTEGRATION from sase-zt.6.2: continuation_delivery.queue_launch_prefix now prefers canonical queue_capacity, uses normalize_persisted_queue_capacity.reauthor_capacity so historical explicit zero is omitted from the On parser (legacy-zero Off still emits capacity=0), and launch_wire_extra journals queue_capacity/queue_capacity_explicit on the existing admission journal. Positive budget, priority 0, and fractional weight still go through the reconstructed %queue prefix. Did not add a second delivery journal.
+
 ## Agents
 
 | Agent | Bead | Commits |
