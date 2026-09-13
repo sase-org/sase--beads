@@ -17,7 +17,7 @@ cargo: make the dev-update profile non-incremental, keep every dev-install entry
 
 ## Dependencies
 
-- **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zw.7](sase-zw.7.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

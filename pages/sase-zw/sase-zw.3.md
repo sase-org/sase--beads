@@ -17,7 +17,7 @@ procreap: delete a pruned proc's runtime directory alongside its logs and sweep 
 
 ## Dependencies
 
-- **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zw.7](sase-zw.7.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

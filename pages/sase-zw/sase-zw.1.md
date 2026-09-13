@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-zw](README.md) / sase-zw.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ka](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ka.md) · **Assignee:** `sase-zw.1` · **Size:** small
-**Created:** 2026-09-12 13:26:40 EDT
+**Created:** 2026-09-12 13:26:40 EDT · **Closed:** 2026-09-13 15:30:59 EDT
 **Plan:** [202609/bound\_sase\_disk\_footprint.md](https://github.com/sase-org/sase--plans/blob/main/202609/bound_sase_disk_footprint.md)
 
 ## Description
@@ -19,4 +19,10 @@ triage: reclaim the already-leaked bytes through one approval gate, then re-meas
 
 ## Dependencies
 
-- **Blocks:** [sase-zw.7](sase-zw.7.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zw.7](sase-zw.7.md) ✓ · ⧖ 2026-09-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-zw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.1/README.md) | [sase-zw.1](sase-zw.1.md) | 0 |

@@ -19,26 +19,26 @@ Every class of disk SASE creates — Rust build output, managed scratch, proc ru
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-zw.1](sase-zw.1.md) | Reclaim the measured backlog under one gate | ◐ in_progress | small | 2026-09-12 | 0 | 0 |
+| [sase-zw.1](sase-zw.1.md) | Reclaim the measured backlog under one gate | ✓ closed | small | 2026-09-12 | 1 | 0 |
 | [sase-zw.2](sase-zw.2.md) | Close the managed-temp reaper's coverage gaps | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zw.3](sase-zw.3.md) | Reap proc runtime directories with proc-row retention | ✓ closed | small | 2026-09-12 | 1 | 1 |
 | [sase-zw.4](sase-zw.4.md) | Stop the Rust dev-build target leak at its source | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zw.5](sase-zw.5.md) | Bound per-project agent artifact directories | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zw.6](sase-zw.6.md) | Share Git objects across managed workspace checkouts | ✓ closed | large | 2026-09-12 | 1 | 1 |
-| [sase-zw.7](sase-zw.7.md) | Make the footprint visible and self-correcting | ◐ in_progress | medium | 2026-09-12 | 0 | 0 |
+| [sase-zw.7](sase-zw.7.md) | Make the footprint visible and self-correcting | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-zw: Bound SASE's disk footprint on a long-running host [in_progress]"]
-    n1["sase-zw.1: Reclaim the measured backlog under one gate [in_progress]"]
+    n1["sase-zw.1: Reclaim the measured backlog under one gate [closed]"]
     n2["sase-zw.2: Close the managed-temp reaper's coverage gaps [closed]"]
     n3["sase-zw.3: Reap proc runtime directories with proc-row retention [closed]"]
     n4["sase-zw.4: Stop the Rust dev-build target leak at its source [closed]"]
     n5["sase-zw.5: Bound per-project agent artifact directories [closed]"]
     n6["sase-zw.6: Share Git objects across managed workspace checkouts [closed]"]
-    n7["sase-zw.7: Make the footprint visible and self-correcting [in_progress]"]
+    n7["sase-zw.7: Make the footprint visible and self-correcting [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -58,11 +58,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-zw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.1/README.md) | [sase-zw.1](sase-zw.1.md) | 0 |
 | [bbugyi200.athena.sase-zw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.2/README.md) | [sase-zw.2](sase-zw.2.md) | 1 |
 | [bbugyi200.athena.sase-zw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.3/README.md) | [sase-zw.3](sase-zw.3.md) | 1 |
 | [bbugyi200.athena.sase-zw.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.4.md) | [sase-zw.4](sase-zw.4.md) | 1 |
 | [bbugyi200.athena.sase-zw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.5/README.md) | [sase-zw.5](sase-zw.5.md) | 1 |
 | [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 1 |
+| [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.7.md) | [sase-zw.7](sase-zw.7.md) | 1 |
+| [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.land/README.md) | [sase-zw](README.md) | 0 |
 
 ## Commits
 
@@ -73,3 +76,4 @@ flowchart TD
 | sase | [`edaf35b`](https://github.com/sase-org/sase/commit/edaf35bd95fd9312a3704e0e8ddf7830cbdcdeb6) | fix(rust): keep dev builds in managed targets | [sase-zw.4](sase-zw.4.md) | 2026-09-12 17:09:13 EDT |
 | sase | [`b9684d7`](https://github.com/sase-org/sase/commit/b9684d76e60fc42e6778036d5d636663c44f9c30) | feat(artifacts): prune old ace-run artifact dirs | [sase-zw.5](sase-zw.5.md) | 2026-09-12 18:38:45 EDT |
 | sase | [`4460e13`](https://github.com/sase-org/sase/commit/4460e13c4465fa36f2394f88a0723d67d7bb5970) | feat(workspace): share git objects across checkouts | [sase-zw.6](sase-zw.6.md) | 2026-09-12 19:57:44 EDT |
+| sase | [`8f7dad6`](https://github.com/sase-org/sase/commit/8f7dad695bf775dc5fa149147129081a69b7212e) | feat(disk): add pressure footprint reporting | [sase-zw.7](sase-zw.7.md) | 2026-09-13 18:16:24 EDT |
