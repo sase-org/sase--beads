@@ -18,7 +18,7 @@ defer: stop letting a non-window-safe committed query escalate the load tier; se
 ## Dependencies
 
 - **Depends on:** [sase-zu.1](sase-zu.1.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zu.6](sase-zu.6.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zu.6](sase-zu.6.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.7](sase-zu.7.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
