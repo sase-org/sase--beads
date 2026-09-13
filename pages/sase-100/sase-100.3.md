@@ -20,7 +20,7 @@ wire: create the sunset refresh_panel flag, route R and `,y` through the panel w
 ## Dependencies
 
 - **Depends on:** [sase-100.2](sase-100.2.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-100.4](sase-100.4.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-100.4](sase-100.4.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
