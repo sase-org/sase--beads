@@ -60,6 +60,10 @@ flowchart TD
     n8["sase-zt.6.2: Adopt the complete capacity wire and preserve continuation budgets [closed]"]
     n9["sase-zt.6.3: Complete capacity metadata, colors and both-state presentation [closed]"]
     n10["sase-zt.6.4: Complete visual, live and combined-tree acceptance [closed]"]
+    n11["sase-zt.6.5: Finish queue-capacity landing integration [in_progress]"]
+    n12["sase-zt.6.5.1: Finish flag-aware queue name completion in the current Rust core [closed]"]
+    n13["sase-zt.6.5.2: Pin the integrated core and prove LaunchApproval preserves capacity [in_progress]"]
+    n14["sase-zt.6.5.3: Complete live and combined-tree capacity acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,6 +74,10 @@ flowchart TD
     n6 --> n8
     n6 --> n9
     n6 --> n10
+    n6 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -78,6 +86,8 @@ flowchart TD
     n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
+    n12 -.-> n13
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -93,7 +103,11 @@ flowchart TD
 | [bbugyi200.athena.sase-zt.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.2/README.md) | [sase-zt.6.2](sase-zt.6.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.3/README.md) | [sase-zt.6.3](sase-zt.6.3.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.4.md) | [sase-zt.6.4](sase-zt.6.4.md) | 1 |
-| [bbugyi200.athena.sase-zt.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.land/README.md) | [sase-zt.6](sase-zt.6.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.1/README.md) | [sase-zt.6.5.1](sase-zt.6.5.1.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.2/README.md) | [sase-zt.6.5.2](sase-zt.6.5.2.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.3/README.md) | [sase-zt.6.5.3](sase-zt.6.5.3.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.land/README.md) | [sase-zt.6.5](sase-zt.6.5.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.land.md) | [sase-zt.6](sase-zt.6.md) | 0 |
 | [bbugyi200.athena.sase-zt.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.land.md) | [sase-zt](README.md) | 0 |
 
 ## Commits
