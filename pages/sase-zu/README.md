@@ -19,7 +19,7 @@ A committed Agents-tab filter never decides how much of the artifact archive a l
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-zu.1](sase-zu.1.md) | Load-path parity oracle and archive-scale benchmark | ✓ closed | medium | 2026-09-12 | 0 | 1 |
+| [sase-zu.1](sase-zu.1.md) | Load-path parity oracle and archive-scale benchmark | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zu.2](sase-zu.2.md) | Pushdown misses degrade to deferred history, not to a blocking full scan | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 | [sase-zu.3](sase-zu.3.md) | Artifact index gains full-history candidate filtering and machine provenance | ✓ closed | medium | 2026-09-12 | 1 | 2 |
 | [sase-zu.4](sase-zu.4.md) | TUI full-history loads read the index instead of walking the filesystem | ✓ closed | small | 2026-09-12 | 1 | 1 |
@@ -44,7 +44,7 @@ flowchart TD
     n10["sase-zu.8.2: Make indexed history authoritative without archive-wide marker repair [closed]"]
     n11["sase-zu.8.3: Repair machine candidate parity across provenance and tree projection [closed]"]
     n12["sase-zu.8.4: Finish query-keyed delta reuse and integrate completion with Refresh [closed]"]
-    n13["sase-zu.8.5: Verify the pinned cohort and complete measured acceptance [in_progress]"]
+    n13["sase-zu.8.5: Verify the pinned cohort and complete measured acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -78,6 +78,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-zu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.1/README.md) | [sase-zu.1](sase-zu.1.md) | 0 |
 | [bbugyi200.athena.sase-zu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.2/README.md) | [sase-zu.2](sase-zu.2.md) | 1 |
 | [bbugyi200.athena.sase-zu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.3/README.md) | [sase-zu.3](sase-zu.3.md) | 2 |
 | [bbugyi200.athena.sase-zu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.4/README.md) | [sase-zu.4](sase-zu.4.md) | 1 |
@@ -88,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 2 |
 | [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 2 |
 | [bbugyi200.athena.sase-zu.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.4/README.md) | [sase-zu.8.4](sase-zu.8.4.md) | 1 |
-| [bbugyi200.athena.sase-zu.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.5/README.md) | [sase-zu.8.5](sase-zu.8.5.md) | 0 |
+| [bbugyi200.athena.sase-zu.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.8.5.md) | [sase-zu.8.5](sase-zu.8.5.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.land/README.md) | [sase-zu.8](sase-zu.8.md) | 0 |
 | [bbugyi200.athena.sase-zu.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.land.md) | [sase-zu](README.md) | 0 |
 
@@ -110,3 +111,4 @@ flowchart TD
 | sase | [`1cd445a`](https://github.com/sase-org/sase/commit/1cd445ae4fc3a08b3f318e578c112d7075262bee) | fix(ace): keep conflicting machine provenance in indexed candidates | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:43:27 EDT |
 | sase-core | [`sase-core@b79accb`](https://github.com/sase-org/sase-core/commit/b79accb31708e350ef921c985374e01199eea249) | fix(agent-scan): project every live machine value into candidate filters | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:46:19 EDT |
 | sase | [`d698f92`](https://github.com/sase-org/sase/commit/d698f92e0598f5579d249579dd8d0827786e96fa) | fix(tui): preserve query-keyed agents refresh | [sase-zu.8.4](sase-zu.8.4.md) | 2026-09-13 14:18:59 EDT |
+| sase | [`ef254fd`](https://github.com/sase-org/sase/commit/ef254fd6dcb4bfbf3d14243579d2f96ea6a8708c) | test(perf): complete agent load tiering measured acceptance | [sase-zu.8.5](sase-zu.8.5.md) | 2026-09-13 17:21:40 EDT |
