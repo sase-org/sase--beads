@@ -31,7 +31,7 @@ sase bead epic-symbols sase-z4.6.5.4.2: no --epic-symbol entries.
 ## Dependencies
 
 - **Depends on:** [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

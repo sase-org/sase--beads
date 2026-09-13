@@ -25,7 +25,7 @@ snapshot-parity: from one captured source snapshot, compare runtime admission, s
 
 - **Depends on:** [sase-z4.6.5.4.1](sase-z4.6.5.4.1.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

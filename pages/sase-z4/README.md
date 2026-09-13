@@ -32,6 +32,8 @@ Support positive fractional weights on %queue/%q, enforce and display weighted c
 
 [2026-09-10T20:35:32Z · sase-z7.land] DISCOVERED ISSUE: the agents-pane PNG golden corpus was never regenerated after this epic changed the agents status strip, so `just test-visual` is broadly red on clean master. Reproduced 2026-09-10 at master HEAD 1ef9c092e on a clean tree (workspace sase_16, freshly built local sase_core_rs): a fixed 12-file agents-pane subset gives 44 failed / 12 passed in 30.10s. Every diff is confined to the single status-strip row; for tests/ace/tui/visual/snapshots/png/agents_list_120x40.png the golden reads '3 [0/10 running · 1 failed · 2 done]' while the render now reads '3  0.0/10.0 [0 running · 1 failed · 2 done]' (7317/1520532 changed pixels, 0.481%). Cause: phase sase-z4.4's commit 81064c144 (feat(tui): show weighted runner capacity) added ProviderInfoPanel._append_capacity_prefix / _append_status_strip in src/sase/ace/tui/widgets/agent_info_panel.py and updated zero PNG goldens; sase-z4.6.3's commit cceed09a9 refreshed only 3 goldens and added 2 new ones, leaving the rest of the corpus stale. This is not renderer drift, so it is a different root cause from task sase-x5, and it needs one deliberate golden regeneration by whoever owns the final weighted-capacity display text, not a bulk accept by an unrelated agent. Found by the sase-z7 land agent while verifying epic sase-z7 (proposed in sase-z7.3 note #3); sase-z7's own usage-indicator visual lane is 10/10 green and its badges do not appear in these diffs. Recorded here because this epic's 2026-09-10 landing review already lists weighted PNG acceptance as incomplete; see the matching note on sase-z4.6.5.
 
+[2026-09-11T02:52:55Z · sase-zf.land] DISCOVERED ISSUE: check_feature_flags rule 8 has escalated from warning to hard error for this epic's live flag bead sase-z5 (key weighted_queue_capacity has no registry definition), so `just check` now fails at the lint gate on every clean workspace before tests run. Reproduced 2026-09-10 ~22:40 EDT on master 26d84256a in workspace sase_16: `just _lint-flags` exits 1 with "rule 8: live flag bead 'sase-z5' has no definition (key 'weighted_queue_capacity') ... add the registry definition or close the bead"; sase-z6 and sase-z9 are still within their landing grace and only warn. This epic's 2026-09-10 08:13 landing review already dispositioned the retired flag onto sase-z5 "after acceptance", but the grace expired before acceptance finished, so every other agent's required check is now blocked repo-wide until the definition is restored or sase-z5 is closed. First observed 18:53 EDT by sase-zf.1; also recorded on sase-zf.3 note #1 and sase-zf.5 note #1. Reported by the sase-zf land agent while landing that epic.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,7 +68,11 @@ flowchart TD
     n17["sase-z4.6.5.4.2: Add the missing weight-2 monitor and gate lifecycle acceptance [closed]"]
     n18["sase-z4.6.5.4.3: Compare runtime, CLI, and TUI capacity from one captured snapshot [closed]"]
     n19["sase-z4.6.5.4.4: Regenerate the capacity-strip visual corpus deliberately [closed]"]
-    n20["sase-z4.6.5.4.5: Prove actual released floors and retire the rollout flag [in_progress]"]
+    n20["sase-z4.6.5.4.5: Prove actual released floors and retire the rollout flag [closed]"]
+    n21["sase-z4.6.5.4.6: Finish weighted-capacity lifecycle and published-package proof [in_progress]"]
+    n22["sase-z4.6.5.4.6.1: Complete production-path weighted lifecycle acceptance [in_progress]"]
+    n23["sase-z4.6.5.4.6.2: Repair the research package compatibility contract [in_progress]"]
+    n24["sase-z4.6.5.4.6.3: Establish and verify the published minimum-version cohort [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -87,6 +93,10 @@ flowchart TD
     n15 --> n18
     n15 --> n19
     n15 --> n20
+    n15 --> n21
+    n21 --> n22
+    n21 --> n23
+    n21 --> n24
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -105,7 +115,13 @@ flowchart TD
     n18 -.-> n19
     n18 -.-> n20
     n19 -.-> n20
+    n22 -.-> n24
+    n23 -.-> n24
 ```
+
+## Dependencies
+
+- **Blocks:** [sase-zm.2](../sase-zm/sase-zm.2.md) ◐ · ⧖ 2026-09-11
 
 ## Agents
 
@@ -128,7 +144,11 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.3/README.md) | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.5/README.md) | [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) | 0 |
-| [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.land/README.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.1/README.md) | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.2/README.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.land.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.land.md) | [sase-z4.6.5](sase-z4.6.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.land.md) | [sase-z4.6](sase-z4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
@@ -156,3 +176,4 @@ flowchart TD
 | sase | [`74a4e42`](https://github.com/sase-org/sase/commit/74a4e4282f7dbf29a4e258de2dad8687da01d6ae) | test(capacity-snapshot): add cross-view weighted-capacity parity tests | [sase-z4.6.5.4.3](sase-z4.6.5.4.3.md) | 2026-09-10 18:36:17 EDT |
 | sase | [`25b5d4c`](https://github.com/sase-org/sase/commit/25b5d4cf7007610448a72754cf4445c379eb9fe4) | test(fakey): add real monitor/gate weighted-capacity lifecycle e2e tests | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 2026-09-10 19:03:20 EDT |
 | sase | [`3e39ebd`](https://github.com/sase-org/sase/commit/3e39ebdce2c297430b17da09760bf23ceb2cce4a) | test(tui): refresh capacity-strip PNG goldens | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 2026-09-10 19:07:28 EDT |
+| sase | [`de85730`](https://github.com/sase-org/sase/commit/de85730bf6931a9bfb932d56a03f2e5e9702f4de) | test(monitor): drive weight-2 --next handoff through real settlement, add timeout/crash reclaim acceptance; fix(gate): claim capacity for creation-time %auto shell gates | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 2026-09-13 17:13:39 EDT |
