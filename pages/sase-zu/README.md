@@ -41,7 +41,7 @@ flowchart TD
     n7["sase-zu.7: Remove the epic flags and land the measured result [closed]"]
     n8["sase-zu.8: Finish indexed agent-history correctness, reuse and measured acceptance [in_progress]"]
     n9["sase-zu.8.1: Make the parity oracle exercise production history and refresh paths [closed]"]
-    n10["sase-zu.8.2: Make indexed history authoritative without archive-wide marker repair [in_progress]"]
+    n10["sase-zu.8.2: Make indexed history authoritative without archive-wide marker repair [closed]"]
     n11["sase-zu.8.3: Repair machine candidate parity across provenance and tree projection [in_progress]"]
     n12["sase-zu.8.4: Finish query-keyed delta reuse and integrate completion with Refresh [in_progress]"]
     n13["sase-zu.8.5: Verify the pinned cohort and complete measured acceptance [in_progress]"]
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.6/README.md) | [sase-zu.6](sase-zu.6.md) | 1 |
 | [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.7.md) | [sase-zu.7](sase-zu.7.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.1/README.md) | [sase-zu.8.1](sase-zu.8.1.md) | 1 |
-| [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 0 |
+| [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 0 |
 | [bbugyi200.athena.sase-zu.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.4/README.md) | [sase-zu.8.4](sase-zu.8.4.md) | 0 |
 | [bbugyi200.athena.sase-zu.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.5/README.md) | [sase-zu.8.5](sase-zu.8.5.md) | 0 |
@@ -105,3 +105,4 @@ flowchart TD
 | sase | [`a45ee03`](https://github.com/sase-org/sase/commit/a45ee03542bbb3a5d9d3477432f63a303420f21f) | feat(ace): push machine: Agents-tab filters into the artifact index | [sase-zu.5](sase-zu.5.md) | 2026-09-13 07:59:35 EDT |
 | sase | [`ea18f53`](https://github.com/sase-org/sase/commit/ea18f5366e74258a7d5b62ffd725fdffdb8dc5f5) | fix(tools): sync validate\_sase\_core\_rs expected schema version to 9 | [sase-zu.7](sase-zu.7.md) | 2026-09-13 09:09:46 EDT |
 | sase | [`db6fd25`](https://github.com/sase-org/sase/commit/db6fd25182dbf8278b926a0b37c7acf6f685d1ed) | test(agent-load-tiering): route the parity oracle through the production TUI loader | [sase-zu.8.1](sase-zu.8.1.md) | 2026-09-13 11:08:40 EDT |
+| sase | [`5beda06`](https://github.com/sase-org/sase/commit/5beda061fc5e3ac8e9c6954ba5e7398ff00129ce) | fix(ace): adopt rust index completeness for full-history loads | [sase-zu.8.2](sase-zu.8.2.md) | 2026-09-13 12:42:05 EDT |

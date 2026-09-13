@@ -21,7 +21,7 @@ production-oracle: extend the harness to reproduce unseen artifacts, conflicting
 
 ## Dependencies
 
-- **Blocks:** [sase-zu.8.2](sase-zu.8.2.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zu.8.2](sase-zu.8.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

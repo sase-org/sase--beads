@@ -13,7 +13,7 @@ machine-parity: make candidate selection preserve every live row across source-o
 
 ## Dependencies
 
-- **Depends on:** [sase-zu.8.2](sase-zu.8.2.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zu.8.2](sase-zu.8.2.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-zu.8.4](sase-zu.8.4.md) ◐ · ⧖ 2026-09-13
 
 ## Agents
