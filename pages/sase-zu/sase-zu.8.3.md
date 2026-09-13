@@ -20,16 +20,17 @@ Verified: sase-core fmt/clippy pass; new index tests cover conflicting source/ow
 ## Dependencies
 
 - **Depends on:** [sase-zu.8.2](sase-zu.8.2.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zu.8.4](sase-zu.8.4.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zu.8.4](sase-zu.8.4.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 1 |
+| [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1cd445a`](https://github.com/sase-org/sase/commit/1cd445ae4fc3a08b3f318e578c112d7075262bee) | fix(ace): keep conflicting machine provenance in indexed candidates | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:43:27 EDT |
+| sase-core | [`sase-core@b79accb`](https://github.com/sase-org/sase-core/commit/b79accb31708e350ef921c985374e01199eea249) | fix(agent-scan): project every live machine value into candidate filters | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:46:19 EDT |

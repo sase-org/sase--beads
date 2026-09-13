@@ -43,7 +43,7 @@ flowchart TD
     n9["sase-zu.8.1: Make the parity oracle exercise production history and refresh paths [closed]"]
     n10["sase-zu.8.2: Make indexed history authoritative without archive-wide marker repair [closed]"]
     n11["sase-zu.8.3: Repair machine candidate parity across provenance and tree projection [closed]"]
-    n12["sase-zu.8.4: Finish query-keyed delta reuse and integrate completion with Refresh [in_progress]"]
+    n12["sase-zu.8.4: Finish query-keyed delta reuse and integrate completion with Refresh [closed]"]
     n13["sase-zu.8.5: Verify the pinned cohort and complete measured acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -86,8 +86,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zu.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.7.md) | [sase-zu.7](sase-zu.7.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.1/README.md) | [sase-zu.8.1](sase-zu.8.1.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 2 |
-| [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 1 |
-| [bbugyi200.athena.sase-zu.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.4/README.md) | [sase-zu.8.4](sase-zu.8.4.md) | 0 |
+| [bbugyi200.athena.sase-zu.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.3/README.md) | [sase-zu.8.3](sase-zu.8.3.md) | 2 |
+| [bbugyi200.athena.sase-zu.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.4/README.md) | [sase-zu.8.4](sase-zu.8.4.md) | 1 |
 | [bbugyi200.athena.sase-zu.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.5/README.md) | [sase-zu.8.5](sase-zu.8.5.md) | 0 |
 | [bbugyi200.athena.sase-zu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.land/README.md) | [sase-zu.8](sase-zu.8.md) | 0 |
 | [bbugyi200.athena.sase-zu.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zu.land.md) | [sase-zu](README.md) | 0 |
@@ -108,3 +108,5 @@ flowchart TD
 | sase | [`5beda06`](https://github.com/sase-org/sase/commit/5beda061fc5e3ac8e9c6954ba5e7398ff00129ce) | fix(ace): adopt rust index completeness for full-history loads | [sase-zu.8.2](sase-zu.8.2.md) | 2026-09-13 12:42:05 EDT |
 | sase-core | [`sase-core@1b12228`](https://github.com/sase-org/sase-core/commit/1b12228757318afbd7b4b2061e7303e153d75524) | fix(agent-scan): discover source dirs before claiming complete history | [sase-zu.8.2](sase-zu.8.2.md) | 2026-09-13 12:44:08 EDT |
 | sase | [`1cd445a`](https://github.com/sase-org/sase/commit/1cd445ae4fc3a08b3f318e578c112d7075262bee) | fix(ace): keep conflicting machine provenance in indexed candidates | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:43:27 EDT |
+| sase-core | [`sase-core@b79accb`](https://github.com/sase-org/sase-core/commit/b79accb31708e350ef921c985374e01199eea249) | fix(agent-scan): project every live machine value into candidate filters | [sase-zu.8.3](sase-zu.8.3.md) | 2026-09-13 13:46:19 EDT |
+| sase | [`d698f92`](https://github.com/sase-org/sase/commit/d698f92e0598f5579d249579dd8d0827786e96fa) | fix(tui): preserve query-keyed agents refresh | [sase-zu.8.4](sase-zu.8.4.md) | 2026-09-13 14:18:59 EDT |

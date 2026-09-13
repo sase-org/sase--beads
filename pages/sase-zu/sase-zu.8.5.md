@@ -13,7 +13,7 @@ acceptance: verify the selected Rust revision and supported install, prove produ
 
 ## Dependencies
 
-- **Depends on:** [sase-zu.8.4](sase-zu.8.4.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zu.8.4](sase-zu.8.4.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
