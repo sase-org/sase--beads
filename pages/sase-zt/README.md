@@ -59,7 +59,7 @@ flowchart TD
     n7["sase-zt.6.1: Complete canonical capacity records and editor semantics in Rust [closed]"]
     n8["sase-zt.6.2: Adopt the complete capacity wire and preserve continuation budgets [closed]"]
     n9["sase-zt.6.3: Complete capacity metadata, colors and both-state presentation [closed]"]
-    n10["sase-zt.6.4: Complete visual, live and combined-tree acceptance [in_progress]"]
+    n10["sase-zt.6.4: Complete visual, live and combined-tree acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zt.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.1/README.md) | [sase-zt.6.1](sase-zt.6.1.md) | 2 |
 | [bbugyi200.athena.sase-zt.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.2/README.md) | [sase-zt.6.2](sase-zt.6.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.3/README.md) | [sase-zt.6.3](sase-zt.6.3.md) | 1 |
-| [bbugyi200.athena.sase-zt.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.4/README.md) | [sase-zt.6.4](sase-zt.6.4.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.4.md) | [sase-zt.6.4](sase-zt.6.4.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.land/README.md) | [sase-zt.6](sase-zt.6.md) | 0 |
 | [bbugyi200.athena.sase-zt.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.land.md) | [sase-zt](README.md) | 0 |
 
@@ -108,3 +108,4 @@ flowchart TD
 | sase-core | [`sase-core@ba651fe`](https://github.com/sase-org/sase-core/commit/ba651fe5b2f6ab18ebe2cb472d7d9157c0f33502) | feat(agent-scan): preserve canonical queue capacity through scan and editor | [sase-zt.6.1](sase-zt.6.1.md) | 2026-09-13 08:17:28 EDT |
 | sase | [`bb68af0`](https://github.com/sase-org/sase/commit/bb68af0fe50be89b3ab7d483aa31f5f2517cba67) | feat(queue): adopt canonical capacity wire and preserve continuation budgets | [sase-zt.6.2](sase-zt.6.2.md) | 2026-09-13 10:13:43 EDT |
 | sase | [`84a3ea2`](https://github.com/sase-org/sase/commit/84a3ea2dd685a3ea677b51fe5529fae5b38c286d) | feat(tui): show authored queue capacity metadata | [sase-zt.6.3](sase-zt.6.3.md) | 2026-09-13 11:48:57 EDT |
+| sase | [`7f22623`](https://github.com/sase-org/sase/commit/7f22623bc5a9798f52dca261b15ce78aad8a146e) | test(ace-tui): add visual coverage for the capacity budget accent | [sase-zt.6.4](sase-zt.6.4.md) | 2026-09-13 12:39:05 EDT |

@@ -20,7 +20,7 @@ presentation: show authored capacity in the detail header and every eligible row
 ## Dependencies
 
 - **Depends on:** [sase-zt.6.2](sase-zt.6.2.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zt.6.4](sase-zt.6.4.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.4](sase-zt.6.4.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
