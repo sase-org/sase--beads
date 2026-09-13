@@ -20,3 +20,9 @@ verify: launch real agents against a lowered runner limit to confirm a high-capa
 ## Dependencies
 
 - **Depends on:** [sase-zt.3](sase-zt.3.md) ✓ · ⧖ 2026-09-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-zt.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.5.md) | [sase-zt.5](sase-zt.5.md) | 0 |
