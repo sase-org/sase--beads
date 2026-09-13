@@ -20,4 +20,10 @@ protected_budget: replace Markdown-based reduction discovery with attributed pro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.2/README.md) | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.2/README.md) | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`cfc7d4a`](https://github.com/sase-org/sase/commit/cfc7d4a30e542e2d6b5a3a3af7f6d422d1fde7ef) | fix(continuation): rebuild budget projection on marker-based span discovery | [sase-zl.13.11.2](sase-zl.13.11.2.md) | 2026-09-13 08:17:16 EDT |
