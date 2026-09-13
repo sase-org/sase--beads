@@ -14,7 +14,7 @@ published-proof: establish real containing releases through existing automation,
 ## Dependencies
 
 - **Depends on:** [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) ◐ · ⧖ 2026-09-12
-- **Depends on:** [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
