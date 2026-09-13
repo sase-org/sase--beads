@@ -21,12 +21,6 @@ harness: build the synthetic large-archive fixture, the parity oracle that prove
 - **Blocks:** [sase-zu.3](sase-zu.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zu.7](sase-zu.7.md) ✓ · ⧖ 2026-09-12
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-zu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.1/README.md) | [sase-zu.1](sase-zu.1.md) | 0 |
-
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
