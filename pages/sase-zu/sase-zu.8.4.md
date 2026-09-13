@@ -13,7 +13,7 @@ refresh-integration: preserve exact deltas under committed queries, invalidate o
 
 ## Dependencies
 
-- **Depends on:** [sase-zu.8.3](sase-zu.8.3.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zu.8.3](sase-zu.8.3.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-zu.8.5](sase-zu.8.5.md) ◐ · ⧖ 2026-09-13
 
 ## Agents

@@ -20,16 +20,17 @@ Verified: sase-core clippy/fmt pass; new index tests cover discovery, deletion, 
 ## Dependencies
 
 - **Depends on:** [sase-zu.8.1](sase-zu.8.1.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zu.8.3](sase-zu.8.3.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zu.8.3](sase-zu.8.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 1 |
+| [bbugyi200.athena.sase-zu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zu.8.2/README.md) | [sase-zu.8.2](sase-zu.8.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5beda06`](https://github.com/sase-org/sase/commit/5beda061fc5e3ac8e9c6954ba5e7398ff00129ce) | fix(ace): adopt rust index completeness for full-history loads | [sase-zu.8.2](sase-zu.8.2.md) | 2026-09-13 12:42:05 EDT |
+| sase-core | [`sase-core@1b12228`](https://github.com/sase-org/sase-core/commit/1b12228757318afbd7b4b2061e7303e153d75524) | fix(agent-scan): discover source dirs before claiming complete history | [sase-zu.8.2](sase-zu.8.2.md) | 2026-09-13 12:44:08 EDT |
