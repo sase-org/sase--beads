@@ -23,10 +23,4 @@ landing-mark: generalize the goto mark into a line/range mark rendered as an acc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-108.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-108.2/README.md) | [sase-108.2](sase-108.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`0e48a25`](https://github.com/sase-org/sase/commit/0e48a25277ca710b68e6855de464e70141dd4a86) | feat(pager): rail landed line ranges at a shared reading position | [sase-108.2](sase-108.2.md) | 2026-09-13 11:07:11 EDT |
+| [bbugyi200.athena.sase-108.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-108.2/README.md) | [sase-108.2](sase-108.2.md) | 0 |

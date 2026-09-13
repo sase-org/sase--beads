@@ -13,7 +13,7 @@ location-resolution: ratchet sase-core, add the Python adapter, split locations 
 
 ## Dependencies
 
-- **Depends on:** [sase-108.1](sase-108.1.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-108.1](sase-108.1.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-108.2](sase-108.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
