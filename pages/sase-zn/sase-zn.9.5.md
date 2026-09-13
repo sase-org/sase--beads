@@ -13,7 +13,7 @@ sustained_acceptance: capture a multi-day RSS series and current latency, CPU, w
 
 ## Dependencies
 
-- **Depends on:** [sase-zn.9.3](sase-zn.9.3.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zn.9.3](sase-zn.9.3.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zn.9.4](sase-zn.9.4.md) ✓ · ⧖ 2026-09-12
 
 ## Agents

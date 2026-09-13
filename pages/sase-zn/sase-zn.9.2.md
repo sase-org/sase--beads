@@ -17,7 +17,7 @@ scratch_pressure: preserve fresh children and live build scratch, implement the 
 
 ## Dependencies
 
-- **Blocks:** [sase-zn.9.3](sase-zn.9.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zn.9.3](sase-zn.9.3.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zn.9.4](sase-zn.9.4.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
