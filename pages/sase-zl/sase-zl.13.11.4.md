@@ -19,7 +19,7 @@ record_semantics: select the protocol for new starts with the rollout flag while
 
 - **Depends on:** [sase-zl.13.11.2](sase-zl.13.11.2.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-zl.13.11.3](sase-zl.13.11.3.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zl.13.11.6](sase-zl.13.11.6.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zl.13.11.6](sase-zl.13.11.6.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

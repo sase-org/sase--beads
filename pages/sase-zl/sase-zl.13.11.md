@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-zl.13](sase-zl.13.md) / sase-zl.13.11
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-zl.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.land.md) · **Assignee:** `sase-zl.13.11.land`
-**Created:** 2026-09-13 06:00:39 EDT
+**Created:** 2026-09-13 06:00:39 EDT · **Closed:** 2026-09-13 18:28:00 EDT
 **Plan:** [202609/monitor\_continuation\_remaining\_contracts.md](https://github.com/sase-org/sase--plans/blob/main/202609/monitor_continuation_remaining_contracts.md)
 
 ## Description
@@ -23,8 +23,18 @@ Preserve exact frozen context, protected instructions, single-delivery recovery,
 
 [2026-09-13T16:44:13Z · sase-108.land] DISCOVERED ISSUE corroboration (sase-108.3 PROPOSED FOLLOW-UP, confirmed by sase-108.land 2026-09-13): the continuation_decide_resume_adoption binding gap still blocks unrelated agents' full just check. With the sase-core pin at 17947a05 (origin/master tip, a fast-forward of the prior pin ba651fe5), the installed sase_core_rs lacks the binding and tests/monitor reports 10 failed / 294 passed with AttributeError from require_rust_binding. git log --all -S in sase-core still finds no commit adding the symbol. Recorded here rather than as a new task per the active-epic routing rule.
 
+[2026-09-13T22:18:37Z · sase-zt.6.5.3--3] DISCOVERED ISSUE: tests/monitor/test_monitor_resume.py::test_resume_dispatch_real_preprocess_adopt_budget_and_provider_invoke_combine (3781cd264c combined-route) failed sase-zt.6.5.3 just check-full because assert "49" not in sent_query matched a continuation checkpoint hex digest (...ab49a249...) while "{{ 7 * 7 }}" remained literal. Isolated rerun passed. sase-zt.6.5.3 is bounding the 49 check to the hostile captured-output span; frozen-context product behavior is intact. No new task.
+
+[2026-09-13T22:28:00Z · sase-zl.13.11.land--1] Verified all 6 phases in code and their commits (97dee340a2, cfc7d4a30e, 897147eac2, a6f6ae5c66, faad5c3dc3, 3781cd264c). Child-note dispositions: queue-seam notes 1-2 resolved by sase-zt.6.2; note 3 symvision fix confirmed (_apply_resume_adoption); notes 4-5 resolved by ratcheting sase-core-revision.txt 17947a05 -> b5983373e19a (both continuation bindings exist on sase-core origin/master commit 23f19f0; local core wheel rebuilt and verified). The one PROPOSED FOLLOW-UP (fleet_mutate sase-core test) was corroborated onto task sase-10a (+2), not caused by this epic. Integration: fixed the flaky combined-route assert in tests/monitor/test_monitor_resume.py (random hex IDs tripped a substring check). epic-symbols empty. Landing gate just check-full (monitor yq3nkkcww4vv): 41388 passed, 4 failed, none caused by this epic - (1)+(2) tests/ace/tui/actions/test_agent_search_history_split.py stale-query TypeError and tests/test_agent_loader_incomplete_history_dedup.py suffix-guard assert are deterministic regressions from d698f92e05 (sase-zu.8.4), recorded as DISCOVERED ISSUE on active epic sase-zu.8; (3) test_run_supervisor_escalates_term_ignoring_chatty_child 15s timeout under the saturated lane, passes in 2.5s on the unchanged tree, corroborated on sase-lk (+10); (4) test_prepare_pytest_tmpdir_leak 60s inner-pytest timeout under load, passes in 5.3s on the unchanged tree, filed as flake task sase-10f. All monitor/continuation areas this epic touched passed.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.land/README.md) | [sase-zl.13.11](sase-zl.13.11.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.land.md) | [sase-zl.13.11](sase-zl.13.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`eda187a`](https://github.com/sase-org/sase/commit/eda187a0e5e800974d2587fb8f2b6f1f7022b191) | fix(monitor): ratchet core pin and deflake combined-route resume test | [sase-zl.13.11](sase-zl.13.11.md) | 2026-09-13 19:12:31 EDT |

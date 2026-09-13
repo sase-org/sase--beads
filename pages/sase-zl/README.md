@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-zl
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0j2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0j2.md) · **Assignee:** `sase-zl.land`
-**Created:** 2026-09-11 06:30:10 EDT
+**Created:** 2026-09-11 06:30:10 EDT · **Closed:** 2026-09-13 18:34:51 EDT
 **Plan:** [202609/monitor\_continuations.md](https://github.com/sase-org/sase--plans/blob/main/202609/monitor_continuations.md)
 
 ## Description
@@ -41,6 +41,8 @@ Task skill registered; all-status task searches, recent-week sweep and active-ep
 
 REMAINING-WORK HANDOFF: sase_plan_monitor_continuation_landing_repairs.md has parent_bead: sase-zl and ten sized implementation/acceptance phases. Both validate --explain and revalidate passed with zero warnings. Submit through sase_plan; child landing resumes this parent normally. Parent close, post-close symvision and parent plan-done are not child phases. Final acceptance must run coordinated Rust/PyO3 checks, real visual/evaluation evidence and just check-full through sase_monitor before this landing can complete. No tracked application source was changed in this review.
 
+[2026-09-13T22:34:51Z · sase-zl.13.11.land--1] Rechecked after child epic sase-zl.13 landed. All twelve phases and the child epic are closed; epic-symbols empty; no post-child drift (HEAD 3781cd264c is the final child commit). The original audit's blockers (file:explicit:b356c51cb45677f60961e909, note #1) were repaired across sase-zl.13's ten phases and its child sase-zl.13.11's six phases: ancestry hydration with protected context, durable exact handoffs and portable locators, frozen-result diagnostics materialization, validated frozen outcome policies, reserved-key delivery adoption, terminal reconciliation plus manual resume with adoption fencing, real host-finalizer recovery (launch_followup_agent keywords), checkpoint projections and provider-aware budgets, monitor controls/visual contracts, and the records_v1 rollout. Final acceptance per the audit ran: coordinated Rust/PyO3 verification (sase-core pin ratcheted to b5983373e19a; both continuation bindings verified on origin/master 23f19f0; local wheel rebuilt), visual goldens (ecfde919c5), and just check-full through sase_monitor on the combined tree (monitor yq3nkkcww4vv: 41388 passed; 4 failures dispositioned not-this-epic: two deterministic sase-zu.8.4 regressions recorded as DISCOVERED ISSUE on active epic sase-zu.8, one sase-lk flake +1 (now +10), one new flake task sase-10f). Integration preservation verified: capture/replay package splits (b49a92212/485906e0d), typed launch and requester recovery (5428b9943/e47d159b5), weighted capacity incl. the explicit-zero queue-prefix repair (bb68af0fe5/sase-zt.6.2), unified Agents query/search keys, and the Grok core-binding floor. CARRIED 20 PROPOSED FOLLOW-UP OUTCOMES from note #1 and the durable audit: .1#1/.2#1/.3#1/.4#1/.5#1/.6#1/.7#1 resolved flag reports, no tasks; .2#3/.11#2 historical Symvision root stays on sase-zk; .4#2/.7#2/.9#1/.11#3 capture toobig delivered by b49a92212; .8#1 fixed by 0b653f0a2; .10#1 core 0.34.15+ binding integrated; .11#1 z9 orphan canceled; .2#2/.4#3/.11#4 final-full-gate requirement satisfied by the sase-zl.13.11 combined landing gate with node-specific triage of the four unrelated failures; .12#1 stays tracked on causal epic sase-z4.6.5.4; sase-zo corroboration stands. Successor work: independent monitor command weights remain with sase-zm.5, which this close unblocks.
+
 ## References
 
 - file:explicit:b356c51cb45677f60961e909
@@ -66,21 +68,21 @@ REMAINING-WORK HANDOFF: sase_plan_monitor_continuation_landing_repairs.md has pa
 
 ```mermaid
 flowchart TD
-    n0["sase-zl: Reliable monitor continuations with clear results and bounded context [in_progress]"]
+    n0["sase-zl: Reliable monitor continuations with clear results and bounded context [closed]"]
     n1["sase-zl.1: Reproduce failures and measure continuation costs [closed]"]
     n2["sase-zl.10: Bound continuation context without losing instructions [closed]"]
     n3["sase-zl.11: Present a coherent monitor workflow [closed]"]
     n4["sase-zl.12: Validate the combined feature and activate it [closed]"]
-    n5["sase-zl.13: Finish monitor continuation correctness and production acceptance [in_progress]"]
+    n5["sase-zl.13: Finish monitor continuation correctness and production acceptance [closed]"]
     n6["sase-zl.13.1: Preserve local provenance and durable exact handoffs [closed]"]
     n7["sase-zl.13.10: Prove the complete route and compatibility rollout [closed]"]
-    n8["sase-zl.13.11: Repair the remaining monitor continuation contracts [in_progress]"]
+    n8["sase-zl.13.11: Repair the remaining monitor continuation contracts [closed]"]
     n9["sase-zl.13.11.1: Route and render successors from immutable result context [closed]"]
     n10["sase-zl.13.11.2: Budget from trusted provenance and explicit checkpoint coverage [closed]"]
     n11["sase-zl.13.11.3: Fence manual resume against concurrent receiver adoption [closed]"]
     n12["sase-zl.13.11.4: Preserve persisted protocol semantics across rollout changes [closed]"]
     n13["sase-zl.13.11.5: Protect and recover referenced continuation ancestry [closed]"]
-    n14["sase-zl.13.11.6: Prove repaired production routes and combined compatibility [in_progress]"]
+    n14["sase-zl.13.11.6: Prove repaired production routes and combined compatibility [closed]"]
     n15["sase-zl.13.2: Hydrate ancestry and retain protected context [closed]"]
     n16["sase-zl.13.3: Materialize selected diagnostics from one frozen result [closed]"]
     n17["sase-zl.13.4: Execute validated frozen outcome policies [closed]"]
@@ -183,7 +185,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zl.13.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.4/README.md) | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.11.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.5.md) | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2 |
 | [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 1 |
-| [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.land/README.md) | [sase-zl.13.11](sase-zl.13.11.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zl.13.11.land.md) | [sase-zl.13.11](sase-zl.13.11.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.2/README.md) | [sase-zl.13.2](sase-zl.13.2.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.3/README.md) | [sase-zl.13.3](sase-zl.13.3.md) | 1 |
 | [bbugyi200.athena.sase-zl.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.4/README.md) | [sase-zl.13.4](sase-zl.13.4.md) | 2 |
@@ -243,3 +245,4 @@ flowchart TD
 | sase-core | [`sase-core@23f19f0`](https://github.com/sase-org/sase-core/commit/23f19f0b4566a9e5db8ff13b3b08bedd64661fac) | feat(continuation): plan ancestry retention and resume-adoption decisions | [sase-zl.13.11.5](sase-zl.13.11.5.md) | 2026-09-13 13:59:17 EDT |
 | sase | [`faad5c3`](https://github.com/sase-org/sase/commit/faad5c3dc3f00539ab9ef8441aabf7b9de2153a0) | fix(monitor): preserve continuation protocol semantics | [sase-zl.13.11.4](sase-zl.13.11.4.md) | 2026-09-13 14:44:52 EDT |
 | sase | [`3781cd2`](https://github.com/sase-org/sase/commit/3781cd264c43fd9730a5112e2e3f174f0a3e5446) | test(monitor): fix stale continuation-protocol fixtures and add a combined-route regression | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 2026-09-13 15:35:51 EDT |
+| sase | [`eda187a`](https://github.com/sase-org/sase/commit/eda187a0e5e800974d2587fb8f2b6f1f7022b191) | fix(monitor): ratchet core pin and deflake combined-route resume test | [sase-zl.13.11](sase-zl.13.11.md) | 2026-09-13 19:12:31 EDT |
