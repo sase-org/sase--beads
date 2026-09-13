@@ -20,4 +20,10 @@ acceptance: exercise integrated capture-through-invocation and recovery paths, p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 0 |
+| [bbugyi200.athena.sase-zl.13.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zl.13.11.6/README.md) | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3781cd2`](https://github.com/sase-org/sase/commit/3781cd264c43fd9730a5112e2e3f174f0a3e5446) | test(monitor): fix stale continuation-protocol fixtures and add a combined-route regression | [sase-zl.13.11.6](sase-zl.13.11.6.md) | 2026-09-13 15:35:51 EDT |
