@@ -26,10 +26,11 @@ skill-guard: author the generated /sase_sudo skill teaching the request contract
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-110.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.5/README.md) | [sase-110.5](sase-110.5.md) | 1 |
+| [bbugyi200.athena.sase-110.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.5/README.md) | [sase-110.5](sase-110.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`378f18b`](https://github.com/sase-org/sase/commit/378f18b2ef0ccb6b12a91408ddf9adb80fa8511e) | feat(skills): add reviewed sudo request guidance | [sase-110.5](sase-110.5.md) | 2026-09-14 13:28:46 EDT |
+| chezmoi | [`chezmoi@ca9aa21`](https://github.com/bbugyi200/dotfiles/commit/ca9aa21d3ff2b558ecd8b422526c87cc2ff0b16a) | feat(claude): deny raw sudo in agent Bash hooks | [sase-110.5](sase-110.5.md) | 2026-09-14 13:31:24 EDT |
