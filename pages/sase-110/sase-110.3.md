@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-110](README.md) / sase-110.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0kl](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0kl.md) · **Assignee:** `sase-110.3` · **Size:** small
-**Created:** 2026-09-14 11:33:16 EDT
+**Created:** 2026-09-14 11:33:16 EDT · **Closed:** 2026-09-14 13:58:12 EDT
 **Plan:** [202609/agent\_sudo\_requests.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_sudo_requests.md)
 
 ## Description
@@ -13,9 +13,7 @@ core-pin: ratchet sase-core-revision.txt and the sase-core-rs floor to the relea
 
 ## Notes
 
-[2026-09-14T16:56:45Z · sase-110.3] PROPOSED FOLLOW-UP: Publish and ratchet sudo core binding floor — once the release carrying core commit ab68522 is on PyPI, bump the sase-core-rs floor and flip src/sase/sudo/core.py from the Python fallback seam to the real sudo_manifest_sha256/sudo_derive_risk_badges bindings with validator coverage.
-
-[2026-09-14T17:10:20Z · sase-110.3] PROPOSED FOLLOW-UP: Resolve existing disk-pressure binding skew — committed src/sase/core/disk_pressure.py requires classify_disk_pressure and disk_pressure_wire_schema_version, but current sase-core HEAD ab68522 does not export them, so tools/check_sase_core_rs_bindings is red independent of the sudo pin ratchet.
+[2026-09-14T17:58:12Z · sase-110.3] Ratchet verified: sase-core-revision.txt -> 3566872b4916123fedf100b7c5684c701085655c (sase-core v0.34.28), pyproject/uv.lock floor -> sase-core-rs>=0.34.28,<0.35.0; .venv installed 0.34.28 with sudo_runner_main and classify_disk_pressure bindings; validate_sase_core_rs_version --published-minimum, check_sase_core_rs_bindings, validate_sase_core_rs, git diff --check, and final just check passed; sase bead epic-symbols sase-110.3 reported no entries.
 
 ## Dependencies
 
@@ -26,4 +24,10 @@ core-pin: ratchet sase-core-revision.txt and the sase-core-rs floor to the relea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-110.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.3/README.md) | [sase-110.3](sase-110.3.md) | 0 |
+| [bbugyi200.athena.sase-110.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.3/README.md) | [sase-110.3](sase-110.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`dd672fd`](https://github.com/sase-org/sase/commit/dd672fd6cbd3e5bcf89ae51ea12e77ce62f1228d) | chore(core): ratchet sudo runner core floor | [sase-110.3](sase-110.3.md) | 2026-09-14 13:59:50 EDT |

@@ -14,7 +14,7 @@ ace-review: add the 🔐 sudo review modal, the synchronous Approve-and-run susp
 ## Dependencies
 
 - **Depends on:** [sase-110.2](sase-110.2.md) ✓ · ⧖ 2026-09-14
-- **Depends on:** [sase-110.3](sase-110.3.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-110.3](sase-110.3.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-110.6](sase-110.6.md) ◐ · ⧖ 2026-09-14
 - **Blocks:** [sase-110.7](sase-110.7.md) ◐ · ⧖ 2026-09-14
 

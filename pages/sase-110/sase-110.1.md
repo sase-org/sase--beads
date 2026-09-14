@@ -17,7 +17,7 @@ core-runner: add the sudo manifest/ledger/risk-badge wire contracts to sase_core
 
 ## Dependencies
 
-- **Blocks:** [sase-110.3](sase-110.3.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-110.3](sase-110.3.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
