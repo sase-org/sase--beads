@@ -15,6 +15,24 @@ Every class of disk SASE creates — Rust build output, managed scratch, proc ru
 
 [2026-09-12T21:23:57Z · sase-zn.land] DISCOVERED ISSUE from sase-zn landing integration at e498ce822: 3114dbd03 (sase-zw.2) makes unknown directories stable buckets in the age pass, but _pressure_candidates still selects the entire unknown directory when horizon is None. Isolated reproduction: old unknown-bucket mtime=now-13h, fresh child containing 4096 bytes, horizons={}, pressure_max_bytes=100, target=50, min_entry=1; age pass preserves it, pressure pass removes both bucket and fresh child. No live state touched. The missing free-filesystem-space pressure trigger is also original sase-zn.6 work. A remaining-work child of sase-zn will repair the shared pressure contract in Rust and preserve your coverage changes; do not duplicate that repair. Preserve proc retention from sase-zw.3; separate payload minimization is task sase-104. Audit file:explicit:02de8d015400f55bd6267c43.
 
+[2026-09-13T22:36:43Z · sase-zw.land] LANDING AUDIT at main 8f7dad695b, core pin 7f43a996 (2026-09-13): reviewed this epic and every note on all seven children, original linked plan and phase-6 sharing plan, epic commits 3114dbd03/e498ce822/edaf35bd95/b9684d76e6/4460e13c44/8f7dad695b, actual source/tests, and later main/core/provider changes. Full audit: file:explicit:b165eb0a7616cb5051633c9c. Artifact creation succeeded; automatic link attachment failed because the hidden plans clone has unrelated uncommitted/untracked changes. Preserve that clone.
+
+NOT COMPLETE. Confirmed remaining epic work: proc orphan sweep deletes fresh/invalid directories without age/budget or synchronized reservation protection (isolated 4,000-directory reproduction left zero survivors), runs on append/reserve and lacks an ordinary hourly sweep; core dev-update still has incremental=true; muse-prompts gets 12h instead of planned 3d; Python duplicates the already-landed Rust scratch owner; artifact apply lacks refreshed ordinary reference protections, empty nested run dirs prevent shard cleanup (isolated reproduction: zero removed/two errors), and hourly preview only logs; shared-object repair/reuse needs safe dependency preservation, eligibility checks and broken-source opt-out recovery; disk pressure thresholds disagree (875 GiB total/40 GiB free => doctor WARN, managed pressure none), inventory fallback is unbounded, and preview/apply outcomes need owner-backed accuracy. Shared backend decisions belong in Rust. Operational and full combined-tree acceptance remain unfinished.
+
+Integration reviewed: 70b018b91a/core a64c40d resolves this epic note #1's pressure bug and preserves unknown/fresh descendants, but Python never adopted its binding. eea8af0421 adds CARGO_BUILD_BUILD_DIR and launch overrides that cleanup/inventory must honor. a6f6ae5c66/core 23f19f0 and 52c80c9528 add continuation protection/portable locators/fail-closed planning; preserve these and core 3fa0a54 retention-cap repair. ef254fd6dc/index-schema-30/scan-wire-9 changes must stay compatible with retention deindexing. 638647694b fixes monitor project inference. GitHub provider normal materialization already uses ensure_workspace_checkout. Other post-start pager/keymap/cache/memory changes require no new disk owner. This is master, not a PR branch.
+
+Recovered phase .1 gate result custom-68f1bf05-931f-4b34-b58e-036db7d1c9aa: user selected ONLY remove_leaked_state. Removed 821 stale runtime dirs plus ace-run/202608 and managed build-targets; no var-tmp candidates. A/B were already absent. Backups were NOT selected. Sync .stignore exists with all four patterns. Never reinterpret this as approval for backups or new candidates. No durable before/after/doctor report was recorded by the phase. Current root available space ~85.6 GiB; live inventory reports cargo-targets ~136.4 GiB, build-targets ~34.6 GiB, SASE workspaces ~122.3 GiB. List took minutes and stray scan was truncated, so no-unowned acceptance is unproved.
+
+Every PROPOSED FOLLOW-UP disposition: .1 #2 gate creator import independently reproduced and corroborated existing ready sase-106 (+1). .5 #2 future timestamp/shard prevention corroborated existing ready sase-v4 (+1 with live 202704/202712 shards); no duplicate creator task. .6 #1 var test fail/pass history forwarded to exact existing flake sase-xk (+1, identifies proposer); current stale-extension mismatch is not claimed as another flake. .6 #1 tiering oracle report forwarded as a note to active owning epic sase-zu: its test/harness was rewritten by ef254fd6dc, and current old-wheel failure cannot establish a new flake, so no speculative task. .6 #1 monitor alias proposal declined as fixed by 638647694b and its regression now passes. .7 #1 stale refresh fixture and suffix-merge proposals declined as fixed by ef254fd6dc (confirmed by sase-zu.8.5 #7 and current tests). .7 #1 installed research_swarm runners=0 report did not reproduce in current launcher qualification; retain installed-cohort acceptance in remaining work, no new task without current evidence, and do not reopen unrelated cache-collision task sase-qs. Additional unrelated configured-repo alias defect corroborated sase-zo, and supported old-core dependency impact corroborated sase-10d. No new task was necessary.
+
+Verification: focused combined run 98 passed/8 failed in 11.22s; failures are stale local extension (wire8/index27/missing continuation_plan_retention) versus current pinned source, so fresh just install is required before definitive testing. Separate monitor-alias/stale-search/incomplete-merge/multi-prompt run: 21 passed in 18.54s. Existing temp/proc/workspace focused checks passed but omitted the reproduced acceptance gaps. No full-suite success claimed. epic-symbols sase-zw is empty; no parent bead exists.
+
+Prepared remaining-work child epic plan sase_plan_disk_footprint_remaining_work.md with parent_bead sase-zw: scratch, procs, runs, objects, pressure, acceptance. Completed validate --explain, edited, then revalidated with zero warnings. Only remaining repairs and acceptance are phased; parent close/post-close Symvision/plan-status update are not phases. Keep sase-zw and the original plan in progress. Child landing must recheck this audit, every new descendant/note and drift, pass combined verification, then resume normal parent landing without force.
+
+## References
+
+- file:explicit:b165eb0a7616cb5051633c9c
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,6 +57,13 @@ flowchart TD
     n5["sase-zw.5: Bound per-project agent artifact directories [closed]"]
     n6["sase-zw.6: Share Git objects across managed workspace checkouts [closed]"]
     n7["sase-zw.7: Make the footprint visible and self-correcting [closed]"]
+    n8["sase-zw.8: Finish disk retention safety and integrated footprint acceptance [in_progress]"]
+    n9["sase-zw.8.1: Adopt the Rust scratch owner and finish Cargo leak prevention [in_progress]"]
+    n10["sase-zw.8.2: Make proc runtime retention bounded and safe against concurrent launches [in_progress]"]
+    n11["sase-zw.8.3: Complete protected run retention and empty-shard cleanup [in_progress]"]
+    n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [in_progress]"]
+    n13["sase-zw.8.5: Unify disk inventory, pressure decisions and owner delegation [in_progress]"]
+    n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -46,12 +71,27 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
+    n8 --> n14
     n1 -.-> n7
     n2 -.-> n7
     n3 -.-> n7
     n4 -.-> n7
     n5 -.-> n7
     n6 -.-> n7
+    n9 -.-> n10
+    n9 -.-> n13
+    n10 -.-> n11
+    n10 -.-> n13
+    n11 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n13
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -65,7 +105,14 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.5/README.md) | [sase-zw.5](sase-zw.5.md) | 1 |
 | [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.7.md) | [sase-zw.7](sase-zw.7.md) | 1 |
-| [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.land/README.md) | [sase-zw](README.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.1/README.md) | [sase-zw.8.1](sase-zw.8.1.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.land/README.md) | [sase-zw.8](sase-zw.8.md) | 0 |
+| [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) | [sase-zw](README.md) | 0 |
 
 ## Commits
 
@@ -77,3 +124,4 @@ flowchart TD
 | sase | [`b9684d7`](https://github.com/sase-org/sase/commit/b9684d76e60fc42e6778036d5d636663c44f9c30) | feat(artifacts): prune old ace-run artifact dirs | [sase-zw.5](sase-zw.5.md) | 2026-09-12 18:38:45 EDT |
 | sase | [`4460e13`](https://github.com/sase-org/sase/commit/4460e13c4465fa36f2394f88a0723d67d7bb5970) | feat(workspace): share git objects across checkouts | [sase-zw.6](sase-zw.6.md) | 2026-09-12 19:57:44 EDT |
 | sase | [`8f7dad6`](https://github.com/sase-org/sase/commit/8f7dad695bf775dc5fa149147129081a69b7212e) | feat(disk): add pressure footprint reporting | [sase-zw.7](sase-zw.7.md) | 2026-09-13 18:16:24 EDT |
+| sase | [`6a60ee5`](https://github.com/sase-org/sase/commit/6a60ee5fb7c924ffc9bbe0613660f18cc68cec19) | feat(managed-tmp): make reaper horizons and pressure limits configurable | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:39:12 EDT |
