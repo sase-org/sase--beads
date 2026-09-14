@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.5/README.md) | [sase-zw.5](sase-zw.5.md) | 1 |
 | [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.7.md) | [sase-zw.7](sase-zw.7.md) | 1 |
-| [bbugyi200.athena.sase-zw.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.1/README.md) | [sase-zw.8.1](sase-zw.8.1.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.1/README.md) | [sase-zw.8.1](sase-zw.8.1.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 0 |
@@ -125,3 +125,4 @@ flowchart TD
 | sase | [`4460e13`](https://github.com/sase-org/sase/commit/4460e13c4465fa36f2394f88a0723d67d7bb5970) | feat(workspace): share git objects across checkouts | [sase-zw.6](sase-zw.6.md) | 2026-09-12 19:57:44 EDT |
 | sase | [`8f7dad6`](https://github.com/sase-org/sase/commit/8f7dad695bf775dc5fa149147129081a69b7212e) | feat(disk): add pressure footprint reporting | [sase-zw.7](sase-zw.7.md) | 2026-09-13 18:16:24 EDT |
 | sase | [`6a60ee5`](https://github.com/sase-org/sase/commit/6a60ee5fb7c924ffc9bbe0613660f18cc68cec19) | feat(managed-tmp): make reaper horizons and pressure limits configurable | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:39:12 EDT |
+| sase-core | [`sase-core@244eb3f`](https://github.com/sase-org/sase-core/commit/244eb3fc7b25d3ec8aafb2d2a9b584b9d5b49109) | build(release): disable incremental compilation to preserve isolated build scratch directories | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:41:28 EDT |
