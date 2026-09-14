@@ -14,3 +14,9 @@ live-acceptance: reproduce the original defect scenario live from Athena viewing
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ◐ · ⧖ 2026-09-13
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.7/README.md) | [sase-xe.16.11.7.15.7](sase-xe.16.11.7.15.7.md) | 0 |

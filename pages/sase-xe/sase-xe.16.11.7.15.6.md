@@ -16,3 +16,9 @@ parity-proof: same-body-of-work equality regression rendering one population thr
 - **Depends on:** [sase-xe.16.11.7.15.1](sase-xe.16.11.7.15.1.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) ◐ · ⧖ 2026-09-13
 - **Blocks:** [sase-xe.16.11.7.15.7](sase-xe.16.11.7.15.7.md) ◐ · ⧖ 2026-09-13
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.6/README.md) | [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) | 0 |

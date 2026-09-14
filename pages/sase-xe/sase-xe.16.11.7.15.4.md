@@ -13,5 +13,11 @@ published-core-adoption: wait for release-plz to publish the new core surface, r
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.15.3](sase-xe.16.11.7.15.3.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-xe.16.11.7.15.3](sase-xe.16.11.7.15.3.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) ◐ · ⧖ 2026-09-13
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.4/README.md) | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 0 |

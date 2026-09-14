@@ -10,3 +10,9 @@
 ## Description
 
 Remote agents in the ACE Agents tab are displayed identically to local agents — same family/clan nodes, member shells, counts, timestamps, and project names — except that remote agent nodes carry their host's name, and local nodes never carry a `here` indicator.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.land/README.md) | [sase-xe.16.11.7.15](sase-xe.16.11.7.15.md) | 0 |

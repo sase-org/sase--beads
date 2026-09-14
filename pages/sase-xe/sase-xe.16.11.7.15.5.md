@@ -13,6 +13,12 @@ remote-render-integration: map timestamps, workspace numbers, clan identity, and
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) ◐ · ⧖ 2026-09-13
 - **Blocks:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ◐ · ⧖ 2026-09-13
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.5/README.md) | [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) | 0 |
