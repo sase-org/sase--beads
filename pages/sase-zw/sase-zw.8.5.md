@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-zw.8](sase-zw.8.md) / sase-zw.8.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) · **Assignee:** `sase-zw.8.5` · **Size:** medium
-**Created:** 2026-09-13 18:40:42 EDT
+**Created:** 2026-09-13 18:40:42 EDT · **Closed:** 2026-09-14 12:05:34 EDT
 **Plan:** [202609/disk\_footprint\_remaining\_work.md](https://github.com/sase-org/sase--plans/blob/main/202609/disk_footprint_remaining_work.md)
 
 ## Description
 
 pressure: make disk inventory bounded and complete about partial scans, share pressure thresholds across surfaces, and return truthful preview/apply outcomes from owner APIs.
+
+## Notes
+
+[2026-09-14T15:28:58Z · 0kk--code] COORDINATION from sase-10r: managed-tmp pressure now takes additive wire field `pressure_low_free_space_min_age_seconds` (config `managed_tmp.pressure.low_free_space_min_age_seconds`, default 1h) and reports `pressure_effective_min_age_seconds`. Whenever the free-space floor is breached, regardless of trigger (`free_space` or `size_and_free_space`), the effective pressure min age is `min(base, low-space)`; size-only pressure keeps the base min age. When unifying the pressure contract, preserve this behavior and its Rust/Python tests.
+
+[2026-09-14T16:05:34Z · sase-zw.8.5] Implemented bounded disk inventory diagnostics, shared Rust disk-pressure classification, truthful managed-tmp preview/apply results, and pressure-owner orchestration; verified core LD_LIBRARY_PATH=/home/bryan/.local/share/uv/python/cpython-3.14.7-linux-x86_64-gnu/lib just check, main just install, focused pytest disk/retention suites, just _lint-symvision, and main just check; sase bead epic-symbols sase-zw.8.5 reported no entries.
 
 ## Dependencies
 
@@ -23,4 +29,10 @@ pressure: make disk inventory bounded and complete about partial scans, share pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c402a04`](https://github.com/sase-org/sase/commit/c402a04317228e8709a5e915e19d36328d7b6615) | feat(disk): unify pressure cleanup orchestration | [sase-zw.8.5](sase-zw.8.5.md) | 2026-09-14 12:41:28 EDT |

@@ -15,7 +15,7 @@ runs: move shared run-retention decisions into Rust, revalidate protection befor
 
 - **Depends on:** [sase-zw.8.2](sase-zw.8.2.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-zw.8.4](sase-zw.8.4.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

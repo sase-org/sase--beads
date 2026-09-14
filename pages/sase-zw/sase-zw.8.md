@@ -11,6 +11,10 @@
 
 SASE disk owners enforce bounded, safe retention through Rust core, disk pressure reports and invokes the same policies, and the remaining host acceptance is measured.
 
+## Notes
+
+[2026-09-14T15:29:22Z · 0kk--code] COORDINATION from sase-10r: managed-tmp pressure now takes additive wire field `pressure_low_free_space_min_age_seconds` (config `managed_tmp.pressure.low_free_space_min_age_seconds`, default 1h) and reports `pressure_effective_min_age_seconds`. Whenever the free-space floor is breached, regardless of trigger, the effective pressure min age is `min(base, low-space)`. Please preserve this and its tests while completing disk-pressure owner delegation.
+
 ## Agents
 
 | Agent | Bead | Commits |

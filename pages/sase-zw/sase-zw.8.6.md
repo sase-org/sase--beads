@@ -13,7 +13,7 @@ acceptance: verify the installed cohort, account for the prior cleanup decision,
 
 ## Dependencies
 
-- **Depends on:** [sase-zw.8.5](sase-zw.8.5.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zw.8.5](sase-zw.8.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

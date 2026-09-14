@@ -20,7 +20,7 @@ objects: complete Rust-owned sharing and repair safety, retain foreign alternate
 ## Dependencies
 
 - **Depends on:** [sase-zw.8.3](sase-zw.8.3.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

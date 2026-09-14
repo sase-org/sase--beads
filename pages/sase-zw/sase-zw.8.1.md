@@ -14,7 +14,7 @@ scratch: replace the duplicate temp reaper with the existing Rust API, complete 
 ## Dependencies
 
 - **Blocks:** [sase-zw.8.2](sase-zw.8.2.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
