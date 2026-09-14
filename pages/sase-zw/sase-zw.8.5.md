@@ -15,8 +15,8 @@ pressure: make disk inventory bounded and complete about partial scans, share pr
 
 - **Depends on:** [sase-zw.8.1](sase-zw.8.1.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-zw.8.2](sase-zw.8.2.md) ✓ · ⧖ 2026-09-13
-- **Depends on:** [sase-zw.8.3](sase-zw.8.3.md) ◐ · ⧖ 2026-09-13
-- **Depends on:** [sase-zw.8.4](sase-zw.8.4.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-zw.8.3](sase-zw.8.3.md) ✓ · ⧖ 2026-09-13
+- **Depends on:** [sase-zw.8.4](sase-zw.8.4.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-zw.8.6](sase-zw.8.6.md) ◐ · ⧖ 2026-09-13
 
 ## Agents

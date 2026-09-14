@@ -60,8 +60,8 @@ flowchart TD
     n8["sase-zw.8: Finish disk retention safety and integrated footprint acceptance [in_progress]"]
     n9["sase-zw.8.1: Adopt the Rust scratch owner and finish Cargo leak prevention [closed]"]
     n10["sase-zw.8.2: Make proc runtime retention bounded and safe against concurrent launches [closed]"]
-    n11["sase-zw.8.3: Complete protected run retention and empty-shard cleanup [in_progress]"]
-    n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [in_progress]"]
+    n11["sase-zw.8.3: Complete protected run retention and empty-shard cleanup [closed]"]
+    n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [closed]"]
     n13["sase-zw.8.5: Unify disk inventory, pressure decisions and owner delegation [in_progress]"]
     n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [in_progress]"]
     n0 --> n1
@@ -107,8 +107,8 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.7.md) | [sase-zw.7](sase-zw.7.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.1/README.md) | [sase-zw.8.1](sase-zw.8.1.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 0 |
-| [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.land/README.md) | [sase-zw.8](sase-zw.8.md) | 0 |
@@ -128,3 +128,6 @@ flowchart TD
 | sase-core | [`sase-core@244eb3f`](https://github.com/sase-org/sase-core/commit/244eb3fc7b25d3ec8aafb2d2a9b584b9d5b49109) | build(release): disable incremental compilation to preserve isolated build scratch directories | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:41:28 EDT |
 | sase | [`6c433c1`](https://github.com/sase-org/sase/commit/6c433c14d1ec0accb17ea6357ebe1da0b4ea528b) | feat(procs): route runtime retention through Rust owner | [sase-zw.8.2](sase-zw.8.2.md) | 2026-09-14 08:56:21 EDT |
 | sase-core | [`sase-core@bc78952`](https://github.com/sase-org/sase-core/commit/bc7895217b29b095de3fea339a1f437d2f32cc27) | feat(procs): add runtime retention owner | [sase-zw.8.2](sase-zw.8.2.md) | 2026-09-14 08:58:43 EDT |
+| sase | [`347e53b`](https://github.com/sase-org/sase/commit/347e53beabe7b04c6a5a331aa31cd513d97f5d10) | feat(artifacts): route agent artifact run retention pruning through Rust owner | [sase-zw.8.3](sase-zw.8.3.md) | 2026-09-14 09:51:12 EDT |
+| sase-core | [`sase-core@4faf1d9`](https://github.com/sase-org/sase-core/commit/4faf1d95d56aa8cd06fd4817c5d76369a75b4311) | feat: Complete protected run retention and empty-shard cleanup (sase-zw.8.3) | [sase-zw.8.3](sase-zw.8.3.md) | 2026-09-14 09:51:31 EDT |
+| sase | [`16ee9c2`](https://github.com/sase-org/sase/commit/16ee9c2336456f25e1f1cb4f6650bdd58dd9ff92) | fix(workspace): preserve shared object dependencies | [sase-zw.8.4](sase-zw.8.4.md) | 2026-09-14 10:49:04 EDT |
