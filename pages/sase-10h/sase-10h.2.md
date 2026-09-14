@@ -17,7 +17,7 @@ gate-exec-nonblocking: replace the wait_for_runner_slot loop in gate_shell/log.p
 
 ## Dependencies
 
-- **Blocks:** [sase-10h.3](sase-10h.3.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-10h.3](sase-10h.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
