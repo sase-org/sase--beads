@@ -58,8 +58,8 @@ flowchart TD
     n6["sase-zw.6: Share Git objects across managed workspace checkouts [closed]"]
     n7["sase-zw.7: Make the footprint visible and self-correcting [closed]"]
     n8["sase-zw.8: Finish disk retention safety and integrated footprint acceptance [in_progress]"]
-    n9["sase-zw.8.1: Adopt the Rust scratch owner and finish Cargo leak prevention [in_progress]"]
-    n10["sase-zw.8.2: Make proc runtime retention bounded and safe against concurrent launches [in_progress]"]
+    n9["sase-zw.8.1: Adopt the Rust scratch owner and finish Cargo leak prevention [closed]"]
+    n10["sase-zw.8.2: Make proc runtime retention bounded and safe against concurrent launches [closed]"]
     n11["sase-zw.8.3: Complete protected run retention and empty-shard cleanup [in_progress]"]
     n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [in_progress]"]
     n13["sase-zw.8.5: Unify disk inventory, pressure decisions and owner delegation [in_progress]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.6.md) | [sase-zw.6](sase-zw.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.7.md) | [sase-zw.7](sase-zw.7.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.1/README.md) | [sase-zw.8.1](sase-zw.8.1.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 0 |
@@ -126,3 +126,4 @@ flowchart TD
 | sase | [`8f7dad6`](https://github.com/sase-org/sase/commit/8f7dad695bf775dc5fa149147129081a69b7212e) | feat(disk): add pressure footprint reporting | [sase-zw.7](sase-zw.7.md) | 2026-09-13 18:16:24 EDT |
 | sase | [`6a60ee5`](https://github.com/sase-org/sase/commit/6a60ee5fb7c924ffc9bbe0613660f18cc68cec19) | feat(managed-tmp): make reaper horizons and pressure limits configurable | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:39:12 EDT |
 | sase-core | [`sase-core@244eb3f`](https://github.com/sase-org/sase-core/commit/244eb3fc7b25d3ec8aafb2d2a9b584b9d5b49109) | build(release): disable incremental compilation to preserve isolated build scratch directories | [sase-zw.8.1](sase-zw.8.1.md) | 2026-09-14 07:41:28 EDT |
+| sase | [`6c433c1`](https://github.com/sase-org/sase/commit/6c433c14d1ec0accb17ea6357ebe1da0b4ea528b) | feat(procs): route runtime retention through Rust owner | [sase-zw.8.2](sase-zw.8.2.md) | 2026-09-14 08:56:21 EDT |

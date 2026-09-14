@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-zw.8](sase-zw.8.md) / sase-zw.8.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) · **Assignee:** `sase-zw.8.1` · **Size:** medium
-**Created:** 2026-09-13 18:40:38 EDT
+**Created:** 2026-09-13 18:40:38 EDT · **Closed:** 2026-09-14 07:45:28 EDT
 **Plan:** [202609/disk\_footprint\_remaining\_work.md](https://github.com/sase-org/sase--plans/blob/main/202609/disk_footprint_remaining_work.md)
 
 ## Description
@@ -13,7 +13,7 @@ scratch: replace the duplicate temp reaper with the existing Rust API, complete 
 
 ## Dependencies
 
-- **Blocks:** [sase-zw.8.2](sase-zw.8.2.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zw.8.2](sase-zw.8.2.md) ✓ · ⧖ 2026-09-13
 - **Blocks:** [sase-zw.8.5](sase-zw.8.5.md) ◐ · ⧖ 2026-09-13
 
 ## Agents
