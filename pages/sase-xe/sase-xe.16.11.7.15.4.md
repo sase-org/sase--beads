@@ -20,7 +20,7 @@ published-core-adoption: wait for release-plz to publish the new core surface, r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.15.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.15.4.md) | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 2 |
+| [bbugyi200.apollo.sase-xe.16.11.7.15.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.15.4.md) | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 3 |
 
 ## Commits
 
@@ -28,3 +28,4 @@ published-core-adoption: wait for release-plz to publish the new core surface, r
 |---|---|---|---|---|
 | sase | [`631e0b5`](https://github.com/sase-org/sase/commit/631e0b510d89ce4fdaa224e9cad3b601c8b3b0ee) | chore(core): ratchet sase-core revision pin to published v0.34.25 | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 2026-09-13 22:01:58 EDT |
 | sase | [`7e922da`](https://github.com/sase-org/sase/commit/7e922da66631b2283ae2d31626abf3acaf4d4c59) | chore(core): ratchet sase-core-revision.txt to a35b18220fb3 | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 2026-09-14 08:26:43 EDT |
+| sase | [`d699f27`](https://github.com/sase-org/sase/commit/d699f2761a4da7ec0387ff1a10ee5e3cea0563f5) | fix(monitor): use absolute import for store module in store\_lane.py | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 2026-09-14 08:32:09 EDT |
