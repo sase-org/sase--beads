@@ -27,7 +27,7 @@ presets-rollout: apply 2.0 to bundled epic landers and 0.25 to all four research
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 2 |
+| [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 3 |
 
 ## Commits
 
@@ -35,3 +35,4 @@ presets-rollout: apply 2.0 to bundled epic landers and 0.25 to all four research
 |---|---|---|---|---|
 | sase | [`0afe85b`](https://github.com/sase-org/sase/commit/0afe85be475848d994eb78f622980097a017cbfb) | feat(xprompt): complete weighted queue rollout | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:52:27 EDT |
 | sase-core | [`sase-core@41bec95`](https://github.com/sase-org/sase-core/commit/41bec95d3c4ad741452a4f259a1fef102c90e8a5) | chore(migration): classify legacy patch heading | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:55:29 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@526604b`](https://github.com/sase-org/sase-research-artifacts/commit/526604b6ea706ccf4668d6aed6aaf7d3a3003eb2) | feat(research): weight research swarm segments | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:57:16 EDT |
