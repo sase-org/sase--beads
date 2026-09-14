@@ -17,7 +17,7 @@ sudo-gate: register the sudo gate kind, add the sase sudo request/answer/list/sh
 
 ## Dependencies
 
-- **Blocks:** [sase-110.4](sase-110.4.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-110.4](sase-110.4.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-110.5](sase-110.5.md) ✓ · ⧖ 2026-09-14
 
 ## Agents

@@ -18,7 +18,7 @@ core-pin: ratchet sase-core-revision.txt and the sase-core-rs floor to the relea
 ## Dependencies
 
 - **Depends on:** [sase-110.1](sase-110.1.md) ✓ · ⧖ 2026-09-14
-- **Blocks:** [sase-110.4](sase-110.4.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-110.4](sase-110.4.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
