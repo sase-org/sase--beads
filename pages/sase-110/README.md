@@ -15,8 +15,8 @@ An agent on any machine can request that Bryan authenticate an exact, reviewed b
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-110.1](sase-110.1.md) | Sudo manifest contracts and the TTY-attached runner in sase-core | ◐ in_progress | large | 2026-09-14 | 1 | 0 |
-| [sase-110.2](sase-110.2.md) | Typed sudo gate kind with the sase sudo front doors | ✓ closed | large | 2026-09-14 | 1 | 1 |
+| [sase-110.1](sase-110.1.md) | Sudo manifest contracts and the TTY-attached runner in sase-core | ✓ closed | large | 2026-09-14 | 1 | 1 |
+| [sase-110.2](sase-110.2.md) | Typed sudo gate kind with the sase sudo front doors | ✓ closed | large | 2026-09-14 | 1 | 0 |
 | [sase-110.3](sase-110.3.md) | Ratchet the core pin and dependency floor past the runner surface | ◐ in_progress | small | 2026-09-14 | 1 | 0 |
 | [sase-110.4](sase-110.4.md) | ACE review modal and the Authenticate terminal handoff | ◐ in_progress | large | 2026-09-14 | 1 | 0 |
 | [sase-110.5](sase-110.5.md) | The /sase\_sudo generated skill and the raw-sudo PreToolUse guard | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
@@ -29,7 +29,7 @@ An agent on any machine can request that Bryan authenticate an exact, reviewed b
 ```mermaid
 flowchart TD
     n0["sase-110: Agent sudo requests with terminal-handoff authentication [in_progress]"]
-    n1["sase-110.1: Sudo manifest contracts and the TTY-attached runner in sase-core [in_progress]"]
+    n1["sase-110.1: Sudo manifest contracts and the TTY-attached runner in sase-core [closed]"]
     n2["sase-110.2: Typed sudo gate kind with the sase sudo front doors [closed]"]
     n3["sase-110.3: Ratchet the core pin and dependency floor past the runner surface [in_progress]"]
     n4["sase-110.4: ACE review modal and the Authenticate terminal handoff [in_progress]"]
@@ -60,8 +60,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-110.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.1.md) | [sase-110.1](sase-110.1.md) | 0 |
-| [bbugyi200.athena.sase-110.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.2.md) | [sase-110.2](sase-110.2.md) | 1 |
+| [bbugyi200.athena.sase-110.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.1.md) | [sase-110.1](sase-110.1.md) | 1 |
+| [bbugyi200.athena.sase-110.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.2.md) | [sase-110.2](sase-110.2.md) | 0 |
 | [bbugyi200.athena.sase-110.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.3/README.md) | [sase-110.3](sase-110.3.md) | 0 |
 | [bbugyi200.athena.sase-110.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.4/README.md) | [sase-110.4](sase-110.4.md) | 0 |
 | [bbugyi200.athena.sase-110.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-110.5/README.md) | [sase-110.5](sase-110.5.md) | 0 |
@@ -74,4 +74,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`7b85eb6`](https://github.com/sase-org/sase/commit/7b85eb6c11ed1b098c06f372d62609ca55fae3e4) | feat(sudo): add typed sudo gate workflow | [sase-110.2](sase-110.2.md) | 2026-09-14 12:40:05 EDT |
+| sase-core | [`sase-core@ab68522`](https://github.com/sase-org/sase-core/commit/ab68522ac465d11544d48d6881ad1ea0c9f372d3) | feat(sudo): add reviewed sudo runner contracts | [sase-110.1](sase-110.1.md) | 2026-09-14 12:47:27 EDT |
