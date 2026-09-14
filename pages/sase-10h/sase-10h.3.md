@@ -14,7 +14,7 @@ epic-monitor-zero-weight: author queue_weight 0 on the epic-launch monitor membe
 ## Dependencies
 
 - **Depends on:** [sase-10h.1](sase-10h.1.md) ✓ · ⧖ 2026-09-13
-- **Depends on:** [sase-10h.2](sase-10h.2.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-10h.2](sase-10h.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
