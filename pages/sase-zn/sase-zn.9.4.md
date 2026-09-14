@@ -27,7 +27,7 @@ responsiveness: preserve deferred/indexed history and bounded reads, locate the 
 
 - **Depends on:** [sase-zn.9.1](sase-zn.9.1.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zn.9.2](sase-zn.9.2.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zn.9.5](sase-zn.9.5.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zn.9.5](sase-zn.9.5.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

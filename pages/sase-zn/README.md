@@ -45,6 +45,12 @@ CHECKS: queue directive + notification facade tests 38 passed/14.95s on then-ins
 
 BOOKKEEPING LIMIT: audit artifact creation succeeded and scratch moved, but attaching its ref to this epic and adding typed related link sase-104 -> sase-zw were rejected because the host-owned hidden plans clone has uncommitted/untracked changes. Did not inspect/edit/reset that foreign checkout. Task descriptions/refs and this note preserve the relationship and evidence; retry those two links when publication is available. Plan has passed validate --explain and revalidation with zero warnings. Before any resumed successful close, re-read every descendant/plan/note, recheck post-child drift and epic symbols, and run required combined-tree verification.
 
+[2026-09-13T21:58:01Z · sase-zu.8.land] DISCOVERED ISSUE: ACE bounded Agents loads fall back to a 6.7-7.4 s full source scan when the process-local artifact-index RLock stays held past its 50 ms read timeout — query_agent_artifact_index_bounded (62ad9b657c, phase sase-zn.5) falls back to scan_agent_artifacts on lock busy. The athena sase-zu.8.5 acceptance session (2026-09-13) logged 3 such auto_refresh/dismissed_index_sync fallbacks before settling. Retry or defer to the index instead of paying a full source scan. Reported by sase-zu.8.land from sase-zu.8.5 PROPOSED FOLLOW-UP #1.
+
+[2026-09-13T21:58:24Z · sase-zu.8.land] DISCOVERED ISSUE: source-scan fallback loads show members of dismissed families that index loads hide — the Rust index lineage dismissal (sase-core 34b3229, phase sase-zn.2) hides descendants of dismissed family roots, but the Python fallback path via compute_apply_loaded_agents does not. Athena showed 13 such --code/--mon rows during the sase-zu.8.5 acceptance session (2026-09-13). Make the fallback adopt the Rust dismissal decision. Reported by sase-zu.8.land from sase-zu.8.5 PROPOSED FOLLOW-UP #4.
+
+[2026-09-14T12:23:48Z · sase-zn.9.land--2] Child epic sase-zn.9 closed on 2026-09-14 by its land agent: all 5 phases verified real in code, integration review of ~82 post-epic commits done, combined-tree check-full green except failures triaged pre-existing/unrelated (sase-10s, sase-10p, sase-10q, sase-10g; new machines-pane flake noted on sase-xe.16.11.7), plan finish_ace_typing_lag.md marked done. sase-zn itself is NOT ready to close — its interrupted landing has two unresolved epic-caused defects recorded as notes #2 and #3 (from sase-zu.8.land, 2026-09-13): (1) bounded index reads fall back to 6.7-7.4 s full source scans on RLock timeout, introduced by phase sase-zn.9.5's scope; (2) that fallback path shows dismissed-family members the Rust index hides, introduced by phase .2's scope. Additionally the original multi-day sustained acceptance was waived only at the sase-zn.9.5 child level by the owner; sase-zn's own acceptance criteria were never re-evaluated against that waiver. sase-zn's already-waiting land agent should resolve notes #2/#3 (or plan them) and decide the acceptance question before closing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -55,7 +61,7 @@ BOOKKEEPING LIMIT: audit artifact creation succeeded and scratch moved, but atta
 | [sase-zn.4](sase-zn.4.md) | Bound retained child-process output in the session proc reporter | ✓ closed | small | 2026-09-11 | 0 | 1 |
 | [sase-zn.5](sase-zn.5.md) | Narrow the artifact-index lock and stop authoritative syncs bypassing the signature check | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zn.6](sase-zn.6.md) | Extend scratch hygiene to agent-created build directories and disk pressure | ✓ closed | medium | 2026-09-11 | 1 | 1 |
-| [sase-zn.7](sase-zn.7.md) | Attribute and fix the residual ACE heap growth | ✓ closed | medium | 2026-09-11 | 0 | 1 |
+| [sase-zn.7](sase-zn.7.md) | Attribute and fix the residual ACE heap growth | ✓ closed | medium | 2026-09-11 | 1 | 1 |
 | [sase-zn.8](sase-zn.8.md) | Re-measure on athena against explicit responsiveness targets | ✓ closed | small | 2026-09-11 | 1 | 1 |
 
 ## Lineage
@@ -71,12 +77,12 @@ flowchart TD
     n6["sase-zn.6: Extend scratch hygiene to agent-created build directories and disk pressure [closed]"]
     n7["sase-zn.7: Attribute and fix the residual ACE heap growth [closed]"]
     n8["sase-zn.8: Re-measure on athena against explicit responsiveness targets [closed]"]
-    n9["sase-zn.9: Finish ACE typing-lag correctness and measured acceptance [in_progress]"]
+    n9["sase-zn.9: Finish ACE typing-lag correctness and measured acceptance [closed]"]
     n10["sase-zn.9.1: Make cached notification snapshots safe across concurrent writers [closed]"]
     n11["sase-zn.9.2: Finish safe disk-pressure reaping in the Rust core [closed]"]
     n12["sase-zn.9.3: Attribute residual ACE retention and guard the whole application [closed]"]
     n13["sase-zn.9.4: Integrate later refresh changes and resolve measured input hitches [closed]"]
-    n14["sase-zn.9.5: Prove sustained responsiveness on the integrated tree [in_progress]"]
+    n14["sase-zn.9.5: Prove sustained responsiveness on the integrated tree [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -115,13 +121,14 @@ flowchart TD
 | [bbugyi200.athena.sase-zn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.3/README.md) | [sase-zn.3](sase-zn.3.md) | 1 |
 | [bbugyi200.athena.sase-zn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.5/README.md) | [sase-zn.5](sase-zn.5.md) | 1 |
 | [bbugyi200.athena.sase-zn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.6/README.md) | [sase-zn.6](sase-zn.6.md) | 1 |
+| [bbugyi200.athena.sase-zn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.7/README.md) | [sase-zn.7](sase-zn.7.md) | 0 |
 | [bbugyi200.athena.sase-zn.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.8/README.md) | [sase-zn.8](sase-zn.8.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.1/README.md) | [sase-zn.9.1](sase-zn.9.1.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.2/README.md) | [sase-zn.9.2](sase-zn.9.2.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.3/README.md) | [sase-zn.9.3](sase-zn.9.3.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.4/README.md) | [sase-zn.9.4](sase-zn.9.4.md) | 1 |
 | [bbugyi200.athena.sase-zn.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.5/README.md) | [sase-zn.9.5](sase-zn.9.5.md) | 0 |
-| [bbugyi200.athena.sase-zn.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zn.9.land/README.md) | [sase-zn.9](sase-zn.9.md) | 0 |
+| [bbugyi200.athena.sase-zn.9.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zn.9.land.md) | [sase-zn.9](sase-zn.9.md) | 1 |
 | [bbugyi200.athena.sase-zn.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zn.land.md) | [sase-zn](README.md) | 0 |
 
 ## Commits
@@ -142,3 +149,4 @@ flowchart TD
 | sase-core | [`sase-core@a64c40d`](https://github.com/sase-org/sase-core/commit/a64c40dfc3719eefcbadb6a5869adb28f0158806) | feat: Finish safe disk-pressure reaping in the Rust core (sase-zn.9.2) | [sase-zn.9.2](sase-zn.9.2.md) | 2026-09-13 04:46:20 EDT |
 | sase | [`63e16c0`](https://github.com/sase-org/sase/commit/63e16c0fd2d84bd6c59edc4c2a09d6bc908de982) | fix(ace): reduce prompt panel render hitches | [sase-zn.9.4](sase-zn.9.4.md) | 2026-09-13 10:59:56 EDT |
 | sase | [`e5f902d`](https://github.com/sase-org/sase/commit/e5f902ddd66c2c0c63e447f9365d7c99b0deef02) | fix(ace-tui): bound six unbounded module-level caches driving residual heap growth | [sase-zn.9.3](sase-zn.9.3.md) | 2026-09-13 11:32:39 EDT |
+| sase | [`8987960`](https://github.com/sase-org/sase/commit/89879609d10a65c49c5cec2e591458455bfc3be5) | refactor(core): land sase-zn.9 typing-lag epic integration | [sase-zn.9](sase-zn.9.md) | 2026-09-14 09:08:21 EDT |
