@@ -152,6 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.land.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
+| [bbugyi200.athena.toobig-5c.commit.0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.toobig-5c.commit.0.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.toobig-5c.disk\_footprint.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.disk_footprint.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 
 ## Commits
@@ -180,3 +181,4 @@ flowchart TD
 | sase | [`de85730`](https://github.com/sase-org/sase/commit/de85730bf6931a9bfb932d56a03f2e5e9702f4de) | test(monitor): drive weight-2 --next handoff through real settlement, add timeout/crash reclaim acceptance; fix(gate): claim capacity for creation-time %auto shell gates | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 2026-09-13 17:13:39 EDT |
 | sase | [`1690400`](https://github.com/sase-org/sase/commit/1690400b2fe8e3f6afd421cc16f896ad6ef79198) | fix(capacity): ratchet published core floor and fix stale zero-capacity fakey assertion | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-13 21:41:25 EDT |
 | sase | [`620d872`](https://github.com/sase-org/sase/commit/620d872547a6980374e6814e28fa164e24597558) | refactor(core): split disk footprint module | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 00:03:03 EDT |
+| sase | [`2863ed2`](https://github.com/sase-org/sase/commit/2863ed2f19a2431baeff25cca3f943f44e3e81c8) | refactor(finalizers): split commit finalizer helpers | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 00:43:42 EDT |
