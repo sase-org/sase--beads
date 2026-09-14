@@ -30,9 +30,3 @@ Repair the remaining sase-z4 acceptance failures and integrate weighted capacity
 Failure: plan_typed_launch_units(expand_prompt_for_typed_launch('#research_swarm:: weighted queue acceptance'), selected_project='sase') raises ValueError('%wait(priority=...) has moved to %queue. Use %queue(priority=N) or %q(p=N), and keep dependencies on %wait.') from the Rust binding (src/sase/core/agent_launch_facade.py:192). The installed sase-core-rs wheel (0.33.0, matches the >=0.33.0,<0.34.0 pin) already rejects %wait(priority=...), but the research_swarm xprompt / test fixture still emits the old %wait(priority=...) syntax instead of %queue(priority=N).
 
 Routing here rather than filing a new CI task bead because the %wait→%queue migration is this epic's weighted-queue-capacity surface (flag sase-z5, created by this epic's phase .2).
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.land.md) | [sase-z4.6](sase-z4.6.md) | 0 |

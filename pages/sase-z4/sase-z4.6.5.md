@@ -129,9 +129,3 @@ import with "sase_core_rs is not importable in this environment"; the cargo targ
 empty, so restoring it is a cold Rust build. Every claim above is from reading source, git
 history, bead records, sase-core's git state, PyPI, and GitHub Actions run logs -- not from a
 green run. The child epic's core-pin phase is written to establish that build first.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.land.md) | [sase-z4.6.5](sase-z4.6.5.md) | 0 |

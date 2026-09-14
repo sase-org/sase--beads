@@ -34,6 +34,8 @@ Support positive fractional weights on %queue/%q, enforce and display weighted c
 
 [2026-09-11T02:52:55Z · sase-zf.land] DISCOVERED ISSUE: check_feature_flags rule 8 has escalated from warning to hard error for this epic's live flag bead sase-z5 (key weighted_queue_capacity has no registry definition), so `just check` now fails at the lint gate on every clean workspace before tests run. Reproduced 2026-09-10 ~22:40 EDT on master 26d84256a in workspace sase_16: `just _lint-flags` exits 1 with "rule 8: live flag bead 'sase-z5' has no definition (key 'weighted_queue_capacity') ... add the registry definition or close the bead"; sase-z6 and sase-z9 are still within their landing grace and only warn. This epic's 2026-09-10 08:13 landing review already dispositioned the retired flag onto sase-z5 "after acceptance", but the grace expired before acceptance finished, so every other agent's required check is now blocked repo-wide until the definition is restored or sase-z5 is closed. First observed 18:53 EDT by sase-zf.1; also recorded on sase-zf.3 note #1 and sase-zf.5 note #1. Reported by the sase-zf land agent while landing that epic.
 
+[2026-09-13T23:09:11Z · fa] DISCOVERED ISSUE: sase-z4.6.2's atomic gate-shell admission (SASE commit 7da379ea28) makes answering any shell-backed gate hang indefinitely at full weighted capacity. _claim_gate_shell_execution_capacity in src/sase/gate_shell/log.py runs wait_for_runner_slot inside on_command_start, so the executor blocks before the first option command spawns, while holding the bundle's .response.lock (cancel_gate then fails with lock_timeout after 5s). Reproduced live on apollo 2026-09-13: tale gate 84a425e2 (w--gate, plan mac_capture_route_plus_commit.md) journaled attempt_started 22:42:08Z, wrote waiting.json (queue_weight 1.0, queue_capacity 0) at 22:42:09Z, flock on .response.lock held by ACE pid 1612764 since then, no option-command child ever spawned, no response.json, gate still pending 20+ minutes later; the approved tale's coder agent was never launched. Affects approve, reject, and feedback on every surface (in-process ACE, sase gate answer detached proc, telegram, auto-resolution). A repair epic plan (gate approval never blocks on weighted capacity: single non-blocking claim attempt degrading to a QUEUED successor, plus explicit queue_weight 0 for epic-launch monitors) is being proposed by the sase_16 workspace agent at Bryan's request.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -70,7 +72,7 @@ flowchart TD
     n19["sase-z4.6.5.4.4: Regenerate the capacity-strip visual corpus deliberately [closed]"]
     n20["sase-z4.6.5.4.5: Prove actual released floors and retire the rollout flag [closed]"]
     n21["sase-z4.6.5.4.6: Finish weighted-capacity lifecycle and published-package proof [in_progress]"]
-    n22["sase-z4.6.5.4.6.1: Complete production-path weighted lifecycle acceptance [in_progress]"]
+    n22["sase-z4.6.5.4.6.1: Complete production-path weighted lifecycle acceptance [closed]"]
     n23["sase-z4.6.5.4.6.2: Repair the research package compatibility contract [closed]"]
     n24["sase-z4.6.5.4.6.3: Establish and verify the published minimum-version cohort [in_progress]"]
     n0 --> n1
@@ -145,12 +147,10 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.5/README.md) | [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.1/README.md) | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 1 |
-| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 0 |
-| [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 0 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.land.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
-| [bbugyi200.athena.sase-z4.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.land.md) | [sase-z4.6.5](sase-z4.6.5.md) | 0 |
-| [bbugyi200.athena.sase-z4.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.land.md) | [sase-z4.6](sase-z4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
 
 ## Commits
@@ -179,3 +179,5 @@ flowchart TD
 | sase | [`25b5d4c`](https://github.com/sase-org/sase/commit/25b5d4cf7007610448a72754cf4445c379eb9fe4) | test(fakey): add real monitor/gate weighted-capacity lifecycle e2e tests | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 2026-09-10 19:03:20 EDT |
 | sase | [`3e39ebd`](https://github.com/sase-org/sase/commit/3e39ebdce2c297430b17da09760bf23ceb2cce4a) | test(tui): refresh capacity-strip PNG goldens | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 2026-09-10 19:07:28 EDT |
 | sase | [`de85730`](https://github.com/sase-org/sase/commit/de85730bf6931a9bfb932d56a03f2e5e9702f4de) | test(monitor): drive weight-2 --next handoff through real settlement, add timeout/crash reclaim acceptance; fix(gate): claim capacity for creation-time %auto shell gates | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 2026-09-13 17:13:39 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@1a7643f`](https://github.com/sase-org/sase-research-artifacts/commit/1a7643ff24179e0c5b4b85bd97b7df4ed3a41bea) | fix(compat): align plugin core window with SASE 0.34.x | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 2026-09-13 18:53:39 EDT |
+| sase | [`1690400`](https://github.com/sase-org/sase/commit/1690400b2fe8e3f6afd421cc16f896ad6ef79198) | fix(capacity): ratchet published core floor and fix stale zero-capacity fakey assertion | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-13 21:41:25 EDT |
