@@ -25,6 +25,7 @@ published-proof: establish real containing releases through existing automation,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
+| [bbugyi200.athena.toobig-5c.agent.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.agent.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.toobig-5c.commit.0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.toobig-5c.commit.0.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.toobig-5c.disk\_footprint.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.disk_footprint.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.toobig-5c.followup.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.followup.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
@@ -39,3 +40,4 @@ published-proof: establish real containing releases through existing automation,
 | sase | [`2863ed2`](https://github.com/sase-org/sase/commit/2863ed2f19a2431baeff25cca3f943f44e3e81c8) | refactor(finalizers): split commit finalizer helpers | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 00:43:42 EDT |
 | sase | [`f486b2e`](https://github.com/sase-org/sase/commit/f486b2efa105bc40b9baaf669ed1bdb9fab848f6) | refactor(monitor): split followup helpers | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 02:21:05 EDT |
 | sase | [`f36cc14`](https://github.com/sase-org/sase/commit/f36cc145c0cc49bb74370420a7f66b5d24a587f0) | refactor(monitor): split resume.py into focused modules | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 02:49:46 EDT |
+| sase | [`9dbc850`](https://github.com/sase-org/sase/commit/9dbc8500624654c43156beea025b0e9dbfcb3caa) | refactor(ops): split agent command helpers | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 04:14:07 EDT |
