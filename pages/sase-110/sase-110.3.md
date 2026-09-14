@@ -11,6 +11,12 @@
 
 core-pin: ratchet sase-core-revision.txt and the sase-core-rs floor to the release carrying the sudo runner and bindings, keeping binding validators green.
 
+## Notes
+
+[2026-09-14T16:56:45Z · sase-110.3] PROPOSED FOLLOW-UP: Publish and ratchet sudo core binding floor — once the release carrying core commit ab68522 is on PyPI, bump the sase-core-rs floor and flip src/sase/sudo/core.py from the Python fallback seam to the real sudo_manifest_sha256/sudo_derive_risk_badges bindings with validator coverage.
+
+[2026-09-14T17:10:20Z · sase-110.3] PROPOSED FOLLOW-UP: Resolve existing disk-pressure binding skew — committed src/sase/core/disk_pressure.py requires classify_disk_pressure and disk_pressure_wire_schema_version, but current sase-core HEAD ab68522 does not export them, so tools/check_sase_core_rs_bindings is red independent of the sudo pin ratchet.
+
 ## Dependencies
 
 - **Depends on:** [sase-110.1](sase-110.1.md) ✓ · ⧖ 2026-09-14

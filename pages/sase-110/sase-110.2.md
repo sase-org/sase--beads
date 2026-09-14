@@ -18,10 +18,16 @@ sudo-gate: register the sudo gate kind, add the sase sudo request/answer/list/sh
 ## Dependencies
 
 - **Blocks:** [sase-110.4](sase-110.4.md) ◐ · ⧖ 2026-09-14
-- **Blocks:** [sase-110.5](sase-110.5.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-110.5](sase-110.5.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-110.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.2.md) | [sase-110.2](sase-110.2.md) | 0 |
+| [bbugyi200.athena.sase-110.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-110.2.md) | [sase-110.2](sase-110.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7b85eb6`](https://github.com/sase-org/sase/commit/7b85eb6c11ed1b098c06f372d62609ca55fae3e4) | feat(sudo): add typed sudo gate workflow | [sase-110.2](sase-110.2.md) | 2026-09-14 12:40:05 EDT |

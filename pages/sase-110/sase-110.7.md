@@ -14,7 +14,7 @@ athena-policy: guard the chezmoi run_onchange scripts against password-required 
 ## Dependencies
 
 - **Depends on:** [sase-110.4](sase-110.4.md) ◐ · ⧖ 2026-09-14
-- **Depends on:** [sase-110.5](sase-110.5.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-110.5](sase-110.5.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-110.8](sase-110.8.md) ◐ · ⧖ 2026-09-14
 
 ## Agents
