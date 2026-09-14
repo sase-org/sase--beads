@@ -17,7 +17,7 @@ additive-provenance-merge: make refresh_association_sections and both refresh ca
 
 ## Dependencies
 
-- **Blocks:** [sase-112.2](sase-112.2.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-112.2](sase-112.2.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
