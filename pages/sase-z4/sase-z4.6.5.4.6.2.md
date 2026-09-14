@@ -30,7 +30,7 @@ Did not ratchet SASE's own floor (already 0.34.23) and did not hand-edit release
 
 ## Dependencies
 
-- **Blocks:** [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

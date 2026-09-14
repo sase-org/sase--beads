@@ -13,7 +13,7 @@ lifecycle-proof: drive real monitor-next delivery and gate execution under conte
 
 ## Dependencies
 
-- **Blocks:** [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
