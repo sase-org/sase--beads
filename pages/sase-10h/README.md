@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-10h.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10h.1/README.md) | [sase-10h.1](sase-10h.1.md) | 1 |
 | [bbugyi200.athena.sase-10h.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10h.2/README.md) | [sase-10h.2](sase-10h.2.md) | 1 |
 | [bbugyi200.athena.sase-10h.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-10h.3.md) | [sase-10h.3](sase-10h.3.md) | 0 |
-| [bbugyi200.athena.sase-10h.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-10h.land.md) | [sase-10h](README.md) | 1 |
+| [bbugyi200.athena.sase-10h.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-10h.land.md) | [sase-10h](README.md) | 2 |
 
 ## Commits
 
@@ -54,3 +54,4 @@ flowchart TD
 | sase-core | [`sase-core@e3e926f`](https://github.com/sase-org/sase-core/commit/e3e926f7f544aa6698f4493ded815d4a3c3c3ff2) | feat(runner\_capacity): accept explicit zero-weight capacity records | [sase-10h.1](sase-10h.1.md) | 2026-09-13 19:49:26 EDT |
 | sase | [`78570c0`](https://github.com/sase-org/sase/commit/78570c06110f05075acf44ac3d1cc847ee0caa1d) | fix(gate-shell): do not block gate execution on runner capacity | [sase-10h.2](sase-10h.2.md) | 2026-09-13 20:00:35 EDT |
 | sase | [`8bd8fb8`](https://github.com/sase-org/sase/commit/8bd8fb891dd95d776dd06a712864de23d48d4c34) | fix(monitor): preserve explicit zero queue weight through capacity and fleet projections | [sase-10h](README.md) | 2026-09-14 07:56:24 EDT |
+| sase-core | [`sase-core@3f1ca28`](https://github.com/sase-org/sase-core/commit/3f1ca286e53b7e702c92f8a9662dcd77c3777e9d) | fix(fleet\_contract): accept explicit zero queue weight in scan and validation | [sase-10h](README.md) | 2026-09-14 07:59:30 EDT |
