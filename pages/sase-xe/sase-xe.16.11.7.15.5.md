@@ -23,7 +23,7 @@ remote-render-integration: map timestamps, workspace numbers, clan identity, and
 
 - **Depends on:** [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) ✓ · ⧖ 2026-09-13
 - **Depends on:** [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

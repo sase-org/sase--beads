@@ -13,7 +13,7 @@ live-acceptance: reproduce the original defect scenario live from Athena viewing
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ◐ · ⧖ 2026-09-13
+- **Depends on:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

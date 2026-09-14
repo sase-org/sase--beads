@@ -17,7 +17,7 @@ no-here-chip: invert the machine-chip policy — delete the here fallback so loc
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
