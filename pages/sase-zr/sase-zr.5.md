@@ -20,10 +20,16 @@ telegram-continuous-receiver: Measure the effective inbound cadence and integrat
 ## Dependencies
 
 - **Depends on:** [sase-zr.4](sase-zr.4.md) ✓ · ⧖ 2026-09-12
-- **Blocks:** [sase-zr.6](sase-zr.6.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zr.6](sase-zr.6.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 0 |
+| [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-telegram | [`sase-telegram@829e738`](https://github.com/sase-org/sase-telegram/commit/829e73801ba60f0ac8611c30aa8f0c97a95c5e56) | feat(inbound): replace polling gap with a supervised long-poll receiver | [sase-zr.5](sase-zr.5.md) | 2026-09-14 10:28:38 EDT |

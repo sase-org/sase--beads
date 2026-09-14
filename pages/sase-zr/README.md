@@ -22,9 +22,9 @@ Publish durable tale and epic approval decisions and refresh ACE and Telegram pr
 | [sase-zr.1](sase-zr.1.md) | Measure approval stages and replace full-history gate lookup | ✓ closed | medium | 2026-09-12 | 1 | 2 |
 | [sase-zr.2](sase-zr.2.md) | Separate durable decision acceptance from slow execution | ✓ closed | medium | 2026-09-12 | 1 | 3 |
 | [sase-zr.3](sase-zr.3.md) | Apply decision and notification changes through ACE's fast path | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zr.4](sase-zr.4.md) | Decouple Telegram acknowledgements and cleanup from gate execution | ✓ closed | medium | 2026-09-12 | 1 | 0 |
-| [sase-zr.5](sase-zr.5.md) | Remove Telegram's periodic polling delay | ✓ closed | medium | 2026-09-12 | 1 | 0 |
-| [sase-zr.6](sase-zr.6.md) | Verify latency, recovery, and coordinated rollout | ◐ in_progress | medium | 2026-09-12 | 1 | 0 |
+| [sase-zr.4](sase-zr.4.md) | Decouple Telegram acknowledgements and cleanup from gate execution | ✓ closed | medium | 2026-09-12 | 1 | 1 |
+| [sase-zr.5](sase-zr.5.md) | Remove Telegram's periodic polling delay | ✓ closed | medium | 2026-09-12 | 1 | 1 |
+| [sase-zr.6](sase-zr.6.md) | Verify latency, recovery, and coordinated rollout | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n3["sase-zr.3: Apply decision and notification changes through ACE's fast path [closed]"]
     n4["sase-zr.4: Decouple Telegram acknowledgements and cleanup from gate execution [closed]"]
     n5["sase-zr.5: Remove Telegram's periodic polling delay [closed]"]
-    n6["sase-zr.6: Verify latency, recovery, and coordinated rollout [in_progress]"]
+    n6["sase-zr.6: Verify latency, recovery, and coordinated rollout [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -58,9 +58,9 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.1.md) | [sase-zr.1](sase-zr.1.md) | 2 |
 | [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.2.md) | [sase-zr.2](sase-zr.2.md) | 3 |
 | [bbugyi200.apollo.sase-zr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.3/README.md) | [sase-zr.3](sase-zr.3.md) | 1 |
-| [bbugyi200.apollo.sase-zr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.4/README.md) | [sase-zr.4](sase-zr.4.md) | 0 |
-| [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 0 |
-| [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.6/README.md) | [sase-zr.6](sase-zr.6.md) | 0 |
+| [bbugyi200.apollo.sase-zr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.4/README.md) | [sase-zr.4](sase-zr.4.md) | 1 |
+| [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 1 |
+| [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.6.md) | [sase-zr.6](sase-zr.6.md) | 1 |
 | [bbugyi200.apollo.sase-zr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.land/README.md) | [sase-zr](README.md) | 0 |
 
 ## Commits
@@ -72,4 +72,7 @@ flowchart TD
 | sase | [`c8152f4`](https://github.com/sase-org/sase/commit/c8152f4978272b6c6cce30ec9f23470926fff144) | feat(gate-shell): accept gate decisions durably before slow execution | [sase-zr.2](sase-zr.2.md) | 2026-09-13 21:51:48 EDT |
 | sase-core | [`sase-core@809f45e`](https://github.com/sase-org/sase-core/commit/809f45ed26a656d8fb8152afb1f077dd6070f022) | feat(gate\_decision): add durable decision-acceptance policy and binding | [sase-zr.2](sase-zr.2.md) | 2026-09-13 21:53:32 EDT |
 | sase | [`d2ba89c`](https://github.com/sase-org/sase/commit/d2ba89cb420aea18ac27b4192e6bb49731729cbd) | fix(monitor): keep lookup helpers private | [sase-zr.2](sase-zr.2.md) | 2026-09-14 08:59:17 EDT |
+| sase-telegram | [`sase-telegram@c34432c`](https://github.com/sase-org/sase-telegram/commit/c34432cac2dcf8fb27a8139c877446350607b89b) | feat(gate,inbound): submit Telegram gate answers through the shared supervised proc | [sase-zr.4](sase-zr.4.md) | 2026-09-14 09:41:27 EDT |
+| sase-telegram | [`sase-telegram@829e738`](https://github.com/sase-org/sase-telegram/commit/829e73801ba60f0ac8611c30aa8f0c97a95c5e56) | feat(inbound): replace polling gap with a supervised long-poll receiver | [sase-zr.5](sase-zr.5.md) | 2026-09-14 10:28:38 EDT |
 | sase | [`ae6afe9`](https://github.com/sase-org/sase/commit/ae6afe968541d24496496b5c82755f381435afc7) | feat(ace): submit plan gates through durable answers | [sase-zr.3](sase-zr.3.md) | 2026-09-14 14:16:18 EDT |
+| sase | [`7f7700d`](https://github.com/sase-org/sase/commit/7f7700d030c3806b56e326db9567cfa9345cc2f5) | docs(notifications): document gate decision receipts, rollout order, and latency probes | [sase-zr.6](sase-zr.6.md) | 2026-09-14 19:28:12 EDT |
