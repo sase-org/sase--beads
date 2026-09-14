@@ -23,7 +23,7 @@ wire-parity-fields: renderer-driven audit of Agent fields versus wire sources, t
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 

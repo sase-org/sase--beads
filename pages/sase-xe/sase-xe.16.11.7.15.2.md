@@ -23,7 +23,7 @@ Verification:
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
