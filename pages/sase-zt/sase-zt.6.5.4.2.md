@@ -26,7 +26,7 @@ remote-consumer: ratchet the supported core cohort, consume the new fleet fields
 ## Dependencies
 
 - **Depends on:** [sase-zt.6.5.4.1](sase-zt.6.5.4.1.md) ✓ · ⧖ 2026-09-13
-- **Blocks:** [sase-zt.6.5.4.3](sase-zt.6.5.4.3.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.5.4.3](sase-zt.6.5.4.3.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
