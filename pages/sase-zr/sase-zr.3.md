@@ -13,7 +13,7 @@ ace-immediate-projection: Update neutral plan and generic gate submissions in sa
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.2](sase-zr.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zr.2](sase-zr.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zr.6](sase-zr.6.md) ◐ · ⧖ 2026-09-12
 
 ## Agents

@@ -21,7 +21,7 @@ bounded-gate-resolution: In sase-core and sase, instrument the approval boundari
 
 ## Dependencies
 
-- **Blocks:** [sase-zr.2](sase-zr.2.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zr.2](sase-zr.2.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

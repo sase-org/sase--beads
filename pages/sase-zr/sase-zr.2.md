@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-zr](README.md) / sase-zr.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0js` · **Assignee:** `sase-zr.2` · **Size:** medium
-**Created:** 2026-09-12 05:06:14 EDT
+**Created:** 2026-09-12 05:06:14 EDT · **Closed:** 2026-09-14 08:57:12 EDT
 **Plan:** [202609/prompt\_gate\_approval.md](https://github.com/sase-org/sase--plans/blob/main/202609/prompt_gate_approval.md)
 
 ## Description
@@ -19,6 +19,8 @@ durable-approval-publication: Implement shared acceptance and execution policy i
 
 [2026-09-14T01:49:47Z · sase-zr.2] PROPOSED FOLLOW-UP: `sase repo open sase-core` fails with "Unknown repo 'sase-core'" even though this project's own Justfile/AGENTS.md tell developers to run exactly that command to refresh a stale sase-core checkout, and a real local dev checkout already exists at sase/repos/linked/sase-core (used by `just rust-install` for the editable sase_core_rs binding, distinct from an externally-opened gh:sase-org/sase-core clone). Either sase-core should be registered as a proper linked repo for this project, or the AGENTS.md/Justfile guidance pointing at `sase repo open sase-core` should be corrected to describe the actual mechanism.
 
+[2026-09-14T12:57:12Z · sase-zr.2--1] Verified: just _lint-symvision passed after making monitor store lookup helpers private; focused monitor/audit reruns passed (39 monitor tests and 4 prior full-suite failures); just check passed, with test-scoped escalating to the full suite due core-identity-changed; sase bead epic-symbols sase-zr.2 reported no entries.
+
 ## Dependencies
 
 - **Depends on:** [sase-zr.1](sase-zr.1.md) ✓ · ⧖ 2026-09-12
@@ -29,7 +31,7 @@ durable-approval-publication: Implement shared acceptance and execution policy i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.2/README.md) | [sase-zr.2](sase-zr.2.md) | 2 |
+| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.2.md) | [sase-zr.2](sase-zr.2.md) | 3 |
 
 ## Commits
 
@@ -37,3 +39,4 @@ durable-approval-publication: Implement shared acceptance and execution policy i
 |---|---|---|---|---|
 | sase | [`c8152f4`](https://github.com/sase-org/sase/commit/c8152f4978272b6c6cce30ec9f23470926fff144) | feat(gate-shell): accept gate decisions durably before slow execution | [sase-zr.2](sase-zr.2.md) | 2026-09-13 21:51:48 EDT |
 | sase-core | [`sase-core@809f45e`](https://github.com/sase-org/sase-core/commit/809f45ed26a656d8fb8152afb1f077dd6070f022) | feat(gate\_decision): add durable decision-acceptance policy and binding | [sase-zr.2](sase-zr.2.md) | 2026-09-13 21:53:32 EDT |
+| sase | [`d2ba89c`](https://github.com/sase-org/sase/commit/d2ba89cb420aea18ac27b4192e6bb49731729cbd) | fix(monitor): keep lookup helpers private | [sase-zr.2](sase-zr.2.md) | 2026-09-14 08:59:17 EDT |

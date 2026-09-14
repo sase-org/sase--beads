@@ -13,7 +13,7 @@ telegram-prompt-actions: In the sase-telegram repository, replace synchronous re
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.2](sase-zr.2.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zr.2](sase-zr.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zr.5](sase-zr.5.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
