@@ -11,6 +11,10 @@
 
 Master Gate and Full CI pass on the master tip, the diff-scoped test lane stops escalating on stale coverage baselines so `just check` gets fast again, and sase v0.17.2 reaches PyPI through the ci_watch-owned release path.
 
+## Notes
+
+[2026-09-14T15:28:25Z · 0kk--code] DISCOVERED ISSUE from sase-10r implementation verification (2026-09-14): current main checkout still has unrelated verification gates red outside the apollo disk-reclaim diff. Core repo `just check` failed in clippy before tests with `crates/sase_core/src/procs/runtime.rs:189 evaluate_candidate` hitting `clippy::too_many_arguments` (8/7); this turn did not touch that file, and focused Rust managed_tmp tests passed (17 passed). Main repo `just check` passed fmt, ruff, mypy, feature flags, pyscripts, test-waits, changelog, and patch/stitch terminology, then failed only lint(symvision) on unused public `continuation_protected_dirs` in `src/sase/core/continuation_retention.py` and `iter_ace_run_month_dirs` in `src/sase/core/agent_artifact_shards.py`; this turn did not touch those files. Focused Python tests for the apollo work passed (106 passed). Routing here because this epic owns green CI / red-lane acceptance on current master; no standalone task bead created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -19,7 +23,7 @@ Master Gate and Full CI pass on the master tip, the diff-scoped test lane stops 
 | [sase-10w.2](sase-10w.2.md) | Test-owned git identity for every test-created repository | ✓ closed | medium | 2026-09-14 | 1 | 1 |
 | [sase-10w.3](sase-10w.3.md) | Rebaseline the drifted ACE PNG goldens | ✓ closed | medium | 2026-09-14 | 1 | 1 |
 | [sase-10w.4](sase-10w.4.md) | Re-derive the scoped lane's serial-budget crossover from current evidence | ✓ closed | small | 2026-09-14 | 1 | 1 |
-| [sase-10w.5](sase-10w.5.md) | Observe green CI and feed the selector a fresh baseline | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
+| [sase-10w.5](sase-10w.5.md) | Observe green CI and feed the selector a fresh baseline | ◐ in_progress | medium | 2026-09-14 | 1 | 1 |
 | [sase-10w.6](sase-10w.6.md) | Ship sase v0.17.2 to PyPI through ci\_watch | ◐ in_progress | small | 2026-09-14 | 1 | 0 |
 
 ## Lineage
@@ -55,7 +59,7 @@ flowchart TD
 | [bbugyi200.athena.sase-10w.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.2/README.md) | [sase-10w.2](sase-10w.2.md) | 1 |
 | [bbugyi200.athena.sase-10w.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.3/README.md) | [sase-10w.3](sase-10w.3.md) | 1 |
 | [bbugyi200.athena.sase-10w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.4/README.md) | [sase-10w.4](sase-10w.4.md) | 1 |
-| [bbugyi200.athena.sase-10w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.5/README.md) | [sase-10w.5](sase-10w.5.md) | 0 |
+| [bbugyi200.athena.sase-10w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.5/README.md) | [sase-10w.5](sase-10w.5.md) | 1 |
 | [bbugyi200.athena.sase-10w.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.6/README.md) | [sase-10w.6](sase-10w.6.md) | 0 |
 | [bbugyi200.athena.sase-10w.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.land/README.md) | [sase-10w](README.md) | 0 |
 
@@ -67,3 +71,4 @@ flowchart TD
 | sase | [`526df13`](https://github.com/sase-org/sase/commit/526df13e48b81e8128b37552e76233e362d75775) | fix(scope): recalibrate scoped lane budget | [sase-10w.4](sase-10w.4.md) | 2026-09-14 10:14:34 EDT |
 | sase | [`d0a849d`](https://github.com/sase-org/sase/commit/d0a849df74be36f030ec392f30e159b54a65cb36) | test(ace): rebaseline drifted ACE PNG goldens and fix shell-label squeeze truncation | [sase-10w.3](sase-10w.3.md) | 2026-09-14 11:15:49 EDT |
 | sase | [`cc91c0a`](https://github.com/sase-org/sase/commit/cc91c0aa435c225402a4598dc6adf998ef257510) | test: make git identity hermetic in tests | [sase-10w.2](sase-10w.2.md) | 2026-09-14 11:18:09 EDT |
+| sase | [`9ff2662`](https://github.com/sase-org/sase/commit/9ff2662c0cb7ea116faa07d58515e26985c52e15) | fix(ci): bump pinned sase-core revision | [sase-10w.5](sase-10w.5.md) | 2026-09-14 11:42:24 EDT |
