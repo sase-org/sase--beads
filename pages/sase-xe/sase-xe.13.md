@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.13
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.13` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0gq` · **Assignee:** `sase-xe.13` · **Size:** large
 **Created:** 2026-09-06 14:06:48 EDT · **Closed:** 2026-09-07 09:25:13 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
@@ -44,6 +44,6 @@ remote-actions: execute kill/stop, retry, and fork-on-target for followed remote
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-xe.13][1] | Need assigned phase scope, status, and notes before implementing remote action parity | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.13/README.md
 
 <!-- sase:referenced-by:end -->

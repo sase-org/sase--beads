@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16.11](sase-xe.16.11.md) / sase-xe.16.11.5
 
 **Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-xe.16.land--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.land.md) · **Assignee:** `sase-xe.16.11.5` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.sase-xe.16.land--1` · **Assignee:** `sase-xe.16.11.5` · **Size:** medium
 **Created:** 2026-09-09 04:38:30 EDT
 **Plan:** [202609/remote\_dispatch\_landing\_remaining.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_landing_remaining.md)
 
@@ -67,6 +67,6 @@ live-apollo-acceptance: finish the reopened sase-xe.16.10 acceptance using node-
 | --- | --- | --- | ---: |
 | read-by | [agent:research.1p.final][1] | Record the live Apollo acceptance gate that must not pass with empty Fleet or broken Focus | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1p.final/README.md
 
 <!-- sase:referenced-by:end -->

@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16](sase-xe.16.md) / sase-xe.16.11
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-xe.16.land--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.land.md) · **Assignee:** `sase-xe.16.11.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.sase-xe.16.land--1` · **Assignee:** `sase-xe.16.11.land`
 **Created:** 2026-09-09 04:38:25 EDT
 **Plan:** [202609/remote\_dispatch\_landing\_remaining.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_landing_remaining.md)
 
@@ -58,13 +58,7 @@ ALL PROPOSED FOLLOW-UP DISPOSITIONS: .3#1 TLS -> absorb into missing authenticat
 
 VERIFICATI
 
-… and 748 more characters
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.land.md) | [sase-xe.16.11](sase-xe.16.11.md) | 0 |
+… and 1425 more characters
 
 <!-- sase:referenced-by:start -->
 
@@ -75,7 +69,7 @@ VERIFICATI
 | read-by | [agent:research.1p.final][1] | Record the active epic ownership and current Fleet repair gap for the consolidated research | 1 |
 | read-by | [agent:research.1q.final_2][2] | Read the current remaining-work epic so the UX recommendation distinguishes design changes from known acceptance gaps | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1q.final_2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1p.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1q.final_2/README.md
 
 <!-- sase:referenced-by:end -->

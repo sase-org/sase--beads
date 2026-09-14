@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.14
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.14` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0gq` · **Assignee:** `sase-xe.14` · **Size:** large
 **Created:** 2026-09-06 14:06:49 EDT · **Closed:** 2026-09-07 11:27:05 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 

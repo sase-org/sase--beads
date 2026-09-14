@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / sase-xe
 
 **Status:** ○ open · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0gq` · **Assignee:** `sase-xe.land`
 **Created:** 2026-09-06 14:06:39 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
@@ -107,13 +107,13 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [sase-xe.12](sase-xe.12.md) | The %dispatch directive and reliable remote launch | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.13](sase-xe.13.md) | Remote lifecycle management parity | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.14](sase-xe.14.md) | Remote questions, gates, and notification deduplication | ✓ closed | large | 2026-09-06 | 1 | 2 |
-| [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ✓ closed | medium | 2026-09-06 | 1 | 1 |
+| [sase-xe.15](sase-xe.15.md) | Fleet-wide acceptance, flag removal, and polish | ✓ closed | medium | 2026-09-06 | 0 | 1 |
 | [sase-xe.2](sase-xe.2.md) | Portable identity, resolved records, and operation contracts in sase-core | ✓ closed | large | 2026-09-06 | 1 | 2 |
 | [sase-xe.3](sase-xe.3.md) | Split owner resolution from pure presentation in ACE loaders | ✓ closed | medium | 2026-09-06 | 1 | 1 |
 | [sase-xe.4](sase-xe.4.md) | Authenticated enrollment and hardened gateway access | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.5](sase-xe.5.md) | Bounded remote read protocol with recoverable events | ✓ closed | large | 2026-09-06 | 1 | 1 |
-| [sase-xe.6](sase-xe.6.md) | Durable mutation journal and launch admission recovery | ✓ closed | large | 2026-09-06 | 1 | 0 |
-| [sase-xe.7](sase-xe.7.md) | Dispatch provider plugin hooks, built-in providers, and config schema | ✓ closed | large | 2026-09-06 | 1 | 0 |
+| [sase-xe.6](sase-xe.6.md) | Durable mutation journal and launch admission recovery | ✓ closed | large | 2026-09-06 | 0 | 0 |
+| [sase-xe.7](sase-xe.7.md) | Dispatch provider plugin hooks, built-in providers, and config schema | ✓ closed | large | 2026-09-06 | 0 | 0 |
 | [sase-xe.8](sase-xe.8.md) | sase machine CLI group and sase init enrollment | ✓ closed | large | 2026-09-06 | 1 | 1 |
 | [sase-xe.9](sase-xe.9.md) | Durable follow subscriptions with family continuity | ✓ closed | medium | 2026-09-06 | 1 | 2 |
 
@@ -121,13 +121,13 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.1/README.md) | [sase-xe.16.11.7.15.1](sase-xe.16.11.7.15.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.1/README.md) | [sase-xe.1](sase-xe.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.10.md) | [sase-xe.10](sase-xe.10.md) | 2 |
 | [bbugyi200.athena.sase-xe.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.11.md) | [sase-xe.11](sase-xe.11.md) | 1 |
 | [bbugyi200.athena.sase-xe.12](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.12.md) | [sase-xe.12](sase-xe.12.md) | 2 |
 | [bbugyi200.athena.sase-xe.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.13.md) | [sase-xe.13](sase-xe.13.md) | 2 |
 | [bbugyi200.athena.sase-xe.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.14.md) | [sase-xe.14](sase-xe.14.md) | 2 |
-| [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.15.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.1.md) | [sase-xe.16.1](sase-xe.16.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.10.md) | [sase-xe.16.10](sase-xe.16.10.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.1/README.md) | [sase-xe.16.11.1](sase-xe.16.11.1.md) | 1 |
@@ -136,43 +136,43 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.4/README.md) | [sase-xe.16.11.4](sase-xe.16.11.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.5/README.md) | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.1/README.md) | [sase-xe.16.11.6.1](sase-xe.16.11.6.1.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.2/README.md) | [sase-xe.16.11.6.2](sase-xe.16.11.6.2.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.3/README.md) | [sase-xe.16.11.6.3](sase-xe.16.11.6.3.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.4/README.md) | [sase-xe.16.11.6.4](sase-xe.16.11.6.4.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.5/README.md) | [sase-xe.16.11.6.5](sase-xe.16.11.6.5.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.6/README.md) | [sase-xe.16.11.6.6](sase-xe.16.11.6.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.6.land/README.md) | [sase-xe.16.11.6](sase-xe.16.11.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.1/README.md) | [sase-xe.16.11.7.1](sase-xe.16.11.7.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.10/README.md) | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.11/README.md) | [sase-xe.16.11.7.11](sase-xe.16.11.7.11.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.12/README.md) | [sase-xe.16.11.7.12](sase-xe.16.11.7.12.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.13/README.md) | [sase-xe.16.11.7.13](sase-xe.16.11.7.13.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.1.md) | [sase-xe.16.11.7.14.1](sase-xe.16.11.7.14.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.2/README.md) | [sase-xe.16.11.7.14.2](sase-xe.16.11.7.14.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.3/README.md) | [sase-xe.16.11.7.14.3](sase-xe.16.11.7.14.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.4/README.md) | [sase-xe.16.11.7.14.4](sase-xe.16.11.7.14.4.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.5.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.1.md) | [sase-xe.16.11.7.14.6.1](sase-xe.16.11.7.14.6.1.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.2/README.md) | [sase-xe.16.11.7.14.6.2](sase-xe.16.11.7.14.6.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.3.md) | [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.4/README.md) | [sase-xe.16.11.7.14.6.4](sase-xe.16.11.7.14.6.4.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.5/README.md) | [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.6.6.md) | [sase-xe.16.11.7.14.6.6](sase-xe.16.11.7.14.6.6.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.1/README.md) | [sase-xe.16.11.7.14.6.7.1](sase-xe.16.11.7.14.6.7.1.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.14.6.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.2/README.md) | [sase-xe.16.11.7.14.6.7.2](sase-xe.16.11.7.14.6.7.2.md) | 2 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.3/README.md) | [sase-xe.16.11.7.14.6.7.3](sase-xe.16.11.7.14.6.7.3.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.4/README.md) | [sase-xe.16.11.7.14.6.7.4](sase-xe.16.11.7.14.6.7.4.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.5/README.md) | [sase-xe.16.11.7.14.6.7.5](sase-xe.16.11.7.14.6.7.5.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.6/README.md) | [sase-xe.16.11.7.14.6.7.6](sase-xe.16.11.7.14.6.7.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.7.land/README.md) | [sase-xe.16.11.7.14.6.7](sase-xe.16.11.7.14.6.7.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.land/README.md) | [sase-xe.16.11.7.14.6](sase-xe.16.11.7.14.6.md) | 0 |
-| [bbugyi200.athena.sase-xe.16.11.7.14.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.land.md) | [sase-xe.16.11.7.14](sase-xe.16.11.7.14.md) | 0 |
 | [bbugyi200.athena.sase-xe.16.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.2/README.md) | [sase-xe.16.11.7.2](sase-xe.16.11.7.2.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.3/README.md) | [sase-xe.16.11.7.3](sase-xe.16.11.7.3.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.4/README.md) | [sase-xe.16.11.7.4](sase-xe.16.11.7.4.md) | 2 |
 | [bbugyi200.athena.sase-xe.16.11.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.5/README.md) | [sase-xe.16.11.7.5](sase-xe.16.11.7.5.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.6/README.md) | [sase-xe.16.11.7.6](sase-xe.16.11.7.6.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.7/README.md) | [sase-xe.16.11.7.7](sase-xe.16.11.7.7.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.8/README.md) | [sase-xe.16.11.7.8](sase-xe.16.11.7.8.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.11.7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.9/README.md) | [sase-xe.16.11.7.9](sase-xe.16.11.7.9.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.2/README.md) | [sase-xe.16.2](sase-xe.16.2.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.3/README.md) | [sase-xe.16.3](sase-xe.16.3.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.6.md) | [sase-xe.16.6](sase-xe.16.6.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.8/README.md) | [sase-xe.16.8](sase-xe.16.8.md) | 1 |
+| [bbugyi200.athena.sase-xe.16.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.9.md) | [sase-xe.16.9](sase-xe.16.9.md) | 1 |
+| [bbugyi200.athena.sase-xe.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.2.md) | [sase-xe.2](sase-xe.2.md) | 2 |
+| [bbugyi200.athena.sase-xe.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.3/README.md) | [sase-xe.3](sase-xe.3.md) | 1 |
+| [bbugyi200.athena.sase-xe.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.4.md) | [sase-xe.4](sase-xe.4.md) | 1 |
+| [bbugyi200.athena.sase-xe.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.5.md) | [sase-xe.5](sase-xe.5.md) | 1 |
+| [bbugyi200.athena.sase-xe.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.8.md) | [sase-xe.8](sase-xe.8.md) | 1 |
 
-… and 40 more agents
+… and 18 more agents
 
 ## Commits
 
@@ -229,7 +229,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase | [`9c738c2`](https://github.com/sase-org/sase/commit/9c738c25f62ebc0962898e83d222b4c960afd7ae) | refactor(sdd): split artifact-link publication retry into sibling modules | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-10 04:16:15 EDT |
 | sase | [`d598883`](https://github.com/sase-org/sase/commit/d598883d8194be5b51acb821f3ea248dc4e243b9) | feat(ace): add machines admin center pane | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 2026-09-10 06:52:33 EDT |
 
-… and 34 more commits
+… and 36 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -241,8 +241,8 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | read-by | [agent:research.1p.final][2] | Record parent epic history as context for the Fleet contract repair recommendation | 1 |
 | read-by | [agent:research.1q.final_2][3] | Record epic context after the bead command refreshed the published page | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1n.final/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1p.final/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1q.final_2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1n.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1p.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1q.final_2/README.md
 
 <!-- sase:referenced-by:end -->

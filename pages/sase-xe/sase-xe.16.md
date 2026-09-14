@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.16
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08c](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08c.md) · **Assignee:** `sase-xe.16.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.08c` · **Assignee:** `sase-xe.16.land`
 **Created:** 2026-09-08 10:21:31 EDT
 **Plan:** [202609/remote\_dispatch\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_completion.md)
 
@@ -54,9 +54,3 @@ Sample assertion (test_agents_refresh_hydrates_catalog_in_focus_mode): expected 
 Separately, test_count_contract_deduplicates_current_instances_and_buckets fails with ValueError('summary family_role is inconsistent with row_kind') from the fleet_count_logical_agents Rust binding when given a monitor-row summary alongside agent-role summaries — may be the same class or a distinct fleet-contract regression; flagging alongside the others since it is also fleet/catalog-shaped and unrelated to my diff.
 
 Routing here rather than filing a new CI task bead given flag sase-z6 (ace_unified_agents, created by this epic's phase .7.6) covers exactly this fleet/agents-catalog surface.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.land.md) | [sase-xe.16](sase-xe.16.md) | 0 |

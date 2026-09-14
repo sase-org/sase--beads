@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16](sase-xe.16.md) / sase-xe.16.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08c](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08c.md) · **Assignee:** `sase-xe.16.9` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.08c` · **Assignee:** `sase-xe.16.9` · **Size:** large
 **Created:** 2026-09-08 10:21:39 EDT · **Closed:** 2026-09-08 13:24:12 EDT
 **Plan:** [202609/remote\_dispatch\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_completion.md)
 

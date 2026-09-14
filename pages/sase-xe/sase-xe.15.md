@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe](README.md) / sase-xe.15
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0gq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0gq.md) · **Assignee:** `sase-xe.15` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0gq` · **Assignee:** `sase-xe.15` · **Size:** medium
 **Created:** 2026-09-06 14:06:49 EDT · **Closed:** 2026-09-07 17:20:40 EDT
 **Plan:** [202609/remote\_dispatch\_fleet.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_fleet.md)
 
@@ -62,12 +62,6 @@ This epic deliberately left sase/memory/ untouched throughout (per its own phase
 ## Dependencies
 
 - **Depends on:** [sase-xe.14](sase-xe.14.md) ✓ · ⧖ 2026-09-06
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.15](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.15.md) | [sase-xe.15](sase-xe.15.md) | 0 |
 
 ## Commits
 

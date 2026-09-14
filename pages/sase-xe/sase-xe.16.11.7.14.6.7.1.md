@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16.11.7.14.6.7](sase-xe.16.11.7.14.6.7.md) / sase-xe.16.11.7.14.6.7.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0jc](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0jc.md) · **Assignee:** `sase-xe.16.11.7.14.6.7.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0jc` · **Assignee:** `sase-xe.16.11.7.14.6.7.1` · **Size:** medium
 **Created:** 2026-09-11 09:46:26 EDT · **Closed:** 2026-09-11 11:12:34 EDT
 **Plan:** [202609/launch\_recovery\_and\_xe\_closeout.md](https://github.com/sase-org/sase--plans/blob/main/202609/launch_recovery_and_xe_closeout.md)
 
@@ -17,7 +17,7 @@ launch-targets: repair the Rust typed launch round trip and Python approved disp
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.14.6.7.3](sase-xe.16.11.7.14.6.7.3.md) ◐ · ⧖ 2026-09-11
+- **Blocks:** [sase-xe.16.11.7.14.6.7.3](sase-xe.16.11.7.14.6.7.3.md) ✓ · ⧖ 2026-09-11
 - **Blocks:** [sase-xe.16.11.7.14.6.7.4](sase-xe.16.11.7.14.6.7.4.md) ◐ · ⧖ 2026-09-11
 
 ## Agents

@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16](sase-xe.16.md) / sase-xe.16.6
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.08c](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.08c.md) · **Assignee:** `sase-xe.16.6` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.08c` · **Assignee:** `sase-xe.16.6` · **Size:** large
 **Created:** 2026-09-08 10:21:36 EDT · **Closed:** 2026-09-08 17:44:12 EDT
 **Plan:** [202609/remote\_dispatch\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_dispatch_completion.md)
 
@@ -42,6 +42,6 @@ machine-init: add canonical `sase machine init` and refactor `sase init machine`
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-xe.16.6][1] | Need the phase bead scope and status before implementing | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.6/README.md
 
 <!-- sase:referenced-by:end -->

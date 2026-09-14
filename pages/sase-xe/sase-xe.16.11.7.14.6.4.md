@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16.11.7.14.6](sase-xe.16.11.7.14.6.md) / sase-xe.16.11.7.14.6.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-xe.16.11.7.14.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.land.md) · **Assignee:** `sase-xe.16.11.7.14.6.4` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.sase-xe.16.11.7.14.land` · **Assignee:** `sase-xe.16.11.7.14.6.4` · **Size:** medium
 **Created:** 2026-09-10 19:58:03 EDT · **Closed:** 2026-09-11 07:52:09 EDT
 **Plan:** [202609/fleet\_remaining\_acceptance.md](https://github.com/sase-org/sase--plans/blob/main/202609/fleet_remaining_acceptance.md)
 
@@ -77,9 +77,3 @@ earlier phases is unaffected; this note is scoped to released-builds only.
 
 - **Depends on:** [sase-xe.16.11.7.14.6.3](sase-xe.16.11.7.14.6.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [sase-xe.16.11.7.14.6.5](sase-xe.16.11.7.14.6.5.md) ✓ · ⧖ 2026-09-10
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.11.7.14.6.4/README.md) | [sase-xe.16.11.7.14.6.4](sase-xe.16.11.7.14.6.4.md) | 0 |

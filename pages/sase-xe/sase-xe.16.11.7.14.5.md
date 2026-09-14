@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-xe.16.11.7.14](sase-xe.16.11.7.14.md) / sase-xe.16.11.7.14.5
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0it](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0it.md) · **Assignee:** `sase-xe.16.11.7.14.5` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0it` · **Assignee:** `sase-xe.16.11.7.14.5` · **Size:** small
 **Created:** 2026-09-10 13:39:07 EDT · **Closed:** 2026-09-10 19:40:11 EDT
 **Plan:** [202609/fleet\_stale\_remote\_rows.md](https://github.com/sase-org/sase--plans/blob/main/202609/fleet_stale_remote_rows.md)
 
@@ -25,7 +25,6 @@ live-proof: run gc reconciliation on both machines, verify athena's apollo group
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-xe.16.11.7.14.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.11.7.14.5.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 0 |
 | [bbugyi200.athena.toobig-55.install.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.install.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.link\_health.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.link_health.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
 | [bbugyi200.athena.toobig-55.prompt\_input\_bar.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-55.prompt_input_bar.0/README.md) | [sase-xe.16.11.7.14.5](sase-xe.16.11.7.14.5.md) | 1 |
