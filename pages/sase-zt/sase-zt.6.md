@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-zt](README.md) / sase-zt.6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-zt.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.land.md) · **Assignee:** `sase-zt.6.land`
-**Created:** 2026-09-13 07:09:17 EDT
+**Created:** 2026-09-13 07:09:17 EDT · **Closed:** 2026-09-14 01:55:19 EDT
 **Plan:** [202609/queue\_capacity\_landing\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_capacity_landing_repairs.md)
 
 ## Description
@@ -22,6 +22,27 @@ Post-start drift reviewed: 798933f's admission split was integrated before bb68a
 All PROPOSED FOLLOW-UP dispositions: .1 #2 gateway seeded-row failure is unrelated and exact existing ready CI task sase-10a; recorded an independent +1 identifying proposer and isolation evidence. .2 #1 flag-aware queue name documentation is caused by this epic and remains plan work. .2 #2 machines-pane KeyError under the 14-worker lane passed in isolation, had no exact task match, and was recorded on causally matching active flake epic sase-j7. .3 #1 and .4 #3 missing continuation binding are unrelated queue work; core 23f19f0 now implements it and active sase-zl.13.11.6 owns released-package/combined acceptance, so no task was created. .4 #1 broad visual drift is unrelated and matches ready CI task sase-x5; added +1 with the version-subtitle diff evidence. .4 #2's creator-handoff ImportError remains existing sase-106; its alleged queue loss stays epic acceptance work until the production path proves or repairs it. .4 #4 is an intermediate status superseded by final note #5, except for the still-missing combined live smoke noted above.
 
 Authored sase_plan_queue_capacity_final_integration.md with parent_bead sase-zt.6 and phases core-completion, pin-and-launch, acceptance. It passed required validate --explain correction and final validation with 0 warnings. The plan contains only remaining work; it does not include epic close, epic-symbol cleanup, post-close Symvision, or parent-plan status changes. Leave sase-zt.6 and sase-zt open until the child completes and landing is re-audited.
+
+[2026-09-14T05:55:19Z · sase-zt.6.5.4.land] RESUMED LANDING RE-AUDIT at main 74d532a22d / core pin a86cd9e9f5 (release v0.34.26), after child epic sase-zt.6.5 and its nested child sase-zt.6.5.4 closed.
+
+DESCENDANTS: phases .1-.4 were closed earlier. Child epic .5 is now closed (phases .5.1-.5.3, plus nested epic .5.4 and its phases .5.4.1-.5.4.3). Epic-symbols for sase-zt.6: none. The linked plan queue_capacity_landing_repairs.md validates as an epic plan with 0 warnings.
+
+THE THREE GAPS FROM THIS EPIC'S LANDING AUDIT ARE CLOSED:
+1. Flag-aware %queue name completion: core 7f43a99 is an ancestor of the pin. directive.rs builds the name row from queue_directive_metadata(enabled_feature_flags), with Rust and LSP tests present.
+2. Stale core pin: the pin moved from 17947a05 to a86cd9e, which contains 23f19f0 (continuation bindings) and 1b122287/b79accb3 (schema-30 full history and machine provenance). The rebuilt pinned extension imports, and focused suites pass.
+3. Live smoke and production LaunchApproval path:
+   - Main 3224d4611d adds tests/test_launch_approval_queue_capacity.py; with the capacity suites, 19 tests pass.
+   - The sase-zt.6.5.3 live smoke observed capacity=100 admitted over the limit and capacity=1 parked with a canonical-only waiting.json, with red C/L, gold c100, quiet c1 and Capacity detail.
+   - The sase-zt.6.5.4 landing observed canonical c1 park then admit after drain, in an isolated real-subprocess fakey harness.
+   - Remote fleet rows keep c100/c0 badges and detail through core a86cd9e and main 1dd9160fdb.
+The final combined-tree just check-full passed on the tree committed as 74d532a22d. Capacity-specific PNG content was inspected and is correct; the only visual diffs are unrelated footer drift, corroborated on sase-x5.
+
+PRESERVED BEHAVIOR checked in source and tests: canonical-only writers with legacy readers, canonical-wins resolution, explicit zero, schema-30 history, LaunchApproval preservation, continuation fixtures (1ebcb2f189, 0eb2bbea5a).
+
+POST-CHILD DRIFT: only upstream 6218d1585d, a continuation_budget toobig split with no queue-capacity intersection. The only core commit after the pin is release a35b182.
+
+FOLLOW-UP OUTCOMES CARRIED FORWARD from this epic's audit note: sase-10a +1; the machines-pane node on sase-j7; continuation bindings via 23f19f0 and sase-zl.13.11.6; sase-x5 +1; sase-106 remains open for creator handoff.
+From the child landings: sase-10k and sase-10m closed as fixed by 74d532a22d; sase-10l got a supplementary note; sase-x5 got another +1; new ci task sase-10n (the only current symvision failures: toobig split private imports, unrelated to this epic); the 19 flake-baseline nodes routed to their filed owners. Full detail is in the sase-zt.6.5 and sase-zt.6.5.4 close notes.
 
 ## Agents
 

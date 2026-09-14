@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-zt
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.06.f0` · **Assignee:** `sase-zt.land`
-**Created:** 2026-09-12 10:33:26 EDT
+**Created:** 2026-09-12 10:33:26 EDT · **Closed:** 2026-09-14 01:58:36 EDT
 **Plan:** [202609/queue\_capacity\_budget.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_capacity_budget.md)
 
 ## Description
@@ -35,6 +35,21 @@ ALL PROPOSED FOLLOW-UP DISPOSITIONS (carry into eventual close note): sase-zt.1 
 
 [2026-09-13T11:07:54Z · sase-zt.land] LANDING HANDOFF ADDENDUM: remaining-work epic draft sase_plan_queue_capacity_landing_repairs.md passed validate --explain and final validation with zero warnings; parent_bead is sase-zt and phases are core-contracts, adapters-continuations, presentation, acceptance. No parent close, post-close Symvision or plan-status phase. Task sase-106 is READY with audit ref attached. Its typed related link to the requester-continuation epic also failed on the dirty hidden plans clone and is preserved in sase-106 prose; no duplicate link or hidden clone cleanup. Queue/legacy-zero continuation ownership was recorded on active sase-zl.13.11 to avoid conflicting implementations. This turn changes no tracked main/core source; full verification is deferred until the repair exists, not waived.
 
+[2026-09-14T05:58:36Z · sase-zt.6.5.4.land] RESUMED LANDING RE-AUDIT at main 74d532a22d / core pin a86cd9e9f5 (release v0.34.26), after child epic sase-zt.6 and its nested sase-zt.6.5 / sase-zt.6.5.4 chain closed.
+
+DESCENDANTS: original phases .1-.5 and child epic .6 are closed; .6.1-.6.4, .6.5.1-.6.5.3 and .6.5.4.1-.6.5.4.3 are all closed. Epic-symbols for sase-zt: none. The linked plan queue_capacity_budget.md validates as an epic plan with 0 warnings.
+
+GOAL VERIFIED:
+- %q:N is this launch's budget. The core schema-4 inequality uses a per-waiter admission_limit. In the sase-zt.6.5.3 live smoke, LaunchApproval capacity=100 was admitted at 9.0 over a global 8.0.
+- Canonical c1 parks, then admits after drain: observed in an isolated real-subprocess fakey harness during the sase-zt.6.5.4 landing.
+- Unsatisfiable authoring is rejected: %q:0, and %q(capacity=1, w=2) as weight exceeds capacity (sase-zt.6.5.3).
+- Agent and family nodes show authored capacity: gold c100, quiet c1, Capacity detail, red C/L, for local rows (sase-zt.3/.6.3) and remote fleet rows (core a86cd9e + main 1dd9160fdb).
+- Flag-aware editor completion is in core 7f43a99. LaunchApproval preservation is in 3224d4611d, whose tests pass.
+- Docs no longer carry the retired threshold wording.
+- The
+
+… and 2300 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,22 +64,22 @@ ALL PROPOSED FOLLOW-UP DISPOSITIONS (carry into eventual close note): sase-zt.1 
 
 ```mermaid
 flowchart TD
-    n0["sase-zt: Make %queue capacity a per-launch capacity budget [in_progress]"]
+    n0["sase-zt: Make %queue capacity a per-launch capacity budget [closed]"]
     n1["sase-zt.1: Rust admission contract — capacity is the limit [closed]"]
     n2["sase-zt.2: Python adapters, launcher, and the sunset flag [closed]"]
     n3["sase-zt.3: The capacity badge and the live/authored split [closed]"]
     n4["sase-zt.4: Documentation sweep and the xprompts memory correction [closed]"]
     n5["sase-zt.5: Live admission and display smoke [closed]"]
-    n6["sase-zt.6: Finish queue capacity persistence, authoring and display [in_progress]"]
+    n6["sase-zt.6: Finish queue capacity persistence, authoring and display [closed]"]
     n7["sase-zt.6.1: Complete canonical capacity records and editor semantics in Rust [closed]"]
     n8["sase-zt.6.2: Adopt the complete capacity wire and preserve continuation budgets [closed]"]
     n9["sase-zt.6.3: Complete capacity metadata, colors and both-state presentation [closed]"]
     n10["sase-zt.6.4: Complete visual, live and combined-tree acceptance [closed]"]
-    n11["sase-zt.6.5: Finish queue-capacity landing integration [in_progress]"]
+    n11["sase-zt.6.5: Finish queue-capacity landing integration [closed]"]
     n12["sase-zt.6.5.1: Finish flag-aware queue name completion in the current Rust core [closed]"]
     n13["sase-zt.6.5.2: Pin the integrated core and prove LaunchApproval preserves capacity [closed]"]
     n14["sase-zt.6.5.3: Complete live and combined-tree capacity acceptance [closed]"]
-    n15["sase-zt.6.5.4: Finish queue-capacity remote parity and landing acceptance [in_progress]"]
+    n15["sase-zt.6.5.4: Finish queue-capacity remote parity and landing acceptance [closed]"]
     n16["sase-zt.6.5.4.1: Carry canonical queue capacity through the Rust fleet summary [closed]"]
     n17["sase-zt.6.5.4.2: Restore queue-capacity parity in synthesized remote agent rows [closed]"]
     n18["sase-zt.6.5.4.3: Complete drain, remote, and full landing acceptance [closed]"]
@@ -119,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zt.6.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.4.1/README.md) | [sase-zt.6.5.4.1](sase-zt.6.5.4.1.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.4.2/README.md) | [sase-zt.6.5.4.2](sase-zt.6.5.4.2.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.5.4.3.md) | [sase-zt.6.5.4.3](sase-zt.6.5.4.3.md) | 1 |
-| [bbugyi200.athena.sase-zt.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.4.land/README.md) | [sase-zt.6.5.4](sase-zt.6.5.4.md) | 0 |
+| [bbugyi200.athena.sase-zt.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zt.6.5.4.land/README.md) | [sase-zt.6.5.4](sase-zt.6.5.4.md) | 1 |
 | [bbugyi200.athena.sase-zt.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.5.land.md) | [sase-zt.6.5](sase-zt.6.5.md) | 0 |
 | [bbugyi200.athena.sase-zt.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.6.land.md) | [sase-zt.6](sase-zt.6.md) | 0 |
 | [bbugyi200.athena.sase-zt.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zt.land.md) | [sase-zt](README.md) | 0 |
@@ -143,3 +158,4 @@ flowchart TD
 | sase-core | [`sase-core@a86cd9e`](https://github.com/sase-org/sase-core/commit/a86cd9e9f56a9d92c2bf71603e8d51120df43b4d) | feat(fleet): publish queue capacity in summaries | [sase-zt.6.5.4.1](sase-zt.6.5.4.1.md) | 2026-09-13 22:43:23 EDT |
 | sase | [`1dd9160`](https://github.com/sase-org/sase/commit/1dd9160fdb98c187bbd09abf38f465df4345b0c1) | feat(ace/fleet): restore queue capacity parity for remote fleet agent rows | [sase-zt.6.5.4.2](sase-zt.6.5.4.2.md) | 2026-09-13 23:45:56 EDT |
 | sase | [`74d532a`](https://github.com/sase-org/sase/commit/74d532a22d8bf76a32a4ac5deaeb6adf81ec8068) | fix(ace,axe,gates): complete drain, remote, and full landing acceptance | [sase-zt.6.5.4.3](sase-zt.6.5.4.3.md) | 2026-09-14 01:28:43 EDT |
+| sase--plans | [`sase--plans@23583cb`](https://github.com/sase-org/sase--plans/commit/23583cb1268a3b773b9d5d9c5af4cfb5ad10e518) | chore(plans): mark queue-capacity epic chain plans done | [sase-zt.6.5.4](sase-zt.6.5.4.md) | 2026-09-14 02:00:20 EDT |
