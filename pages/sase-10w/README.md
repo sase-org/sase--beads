@@ -15,10 +15,10 @@ Master Gate and Full CI pass on the master tip, the diff-scoped test lane stops 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-10w.1](sase-10w.1.md) | Fix the deterministic red-lane test failures at master tip | ◐ in_progress | medium | 2026-09-14 | 1 | 1 |
+| [sase-10w.1](sase-10w.1.md) | Fix the deterministic red-lane test failures at master tip | ✓ closed | medium | 2026-09-14 | 1 | 1 |
 | [sase-10w.2](sase-10w.2.md) | Test-owned git identity for every test-created repository | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
 | [sase-10w.3](sase-10w.3.md) | Rebaseline the drifted ACE PNG goldens | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
-| [sase-10w.4](sase-10w.4.md) | Re-derive the scoped lane's serial-budget crossover from current evidence | ◐ in_progress | small | 2026-09-14 | 1 | 0 |
+| [sase-10w.4](sase-10w.4.md) | Re-derive the scoped lane's serial-budget crossover from current evidence | ✓ closed | small | 2026-09-14 | 1 | 1 |
 | [sase-10w.5](sase-10w.5.md) | Observe green CI and feed the selector a fresh baseline | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
 | [sase-10w.6](sase-10w.6.md) | Ship sase v0.17.2 to PyPI through ci\_watch | ◐ in_progress | small | 2026-09-14 | 1 | 0 |
 
@@ -27,10 +27,10 @@ Master Gate and Full CI pass on the master tip, the diff-scoped test lane stops 
 ```mermaid
 flowchart TD
     n0["sase-10w: Green CI, a fed selector, and the v0.17.2 release [in_progress]"]
-    n1["sase-10w.1: Fix the deterministic red-lane test failures at master tip [in_progress]"]
+    n1["sase-10w.1: Fix the deterministic red-lane test failures at master tip [closed]"]
     n2["sase-10w.2: Test-owned git identity for every test-created repository [in_progress]"]
     n3["sase-10w.3: Rebaseline the drifted ACE PNG goldens [in_progress]"]
-    n4["sase-10w.4: Re-derive the scoped lane's serial-budget crossover from current evidence [in_progress]"]
+    n4["sase-10w.4: Re-derive the scoped lane's serial-budget crossover from current evidence [closed]"]
     n5["sase-10w.5: Observe green CI and feed the selector a fresh baseline [in_progress]"]
     n6["sase-10w.6: Ship sase v0.17.2 to PyPI through ci_watch [in_progress]"]
     n0 --> n1
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-10w.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.1/README.md) | [sase-10w.1](sase-10w.1.md) | 1 |
 | [bbugyi200.athena.sase-10w.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.2/README.md) | [sase-10w.2](sase-10w.2.md) | 0 |
 | [bbugyi200.athena.sase-10w.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.3/README.md) | [sase-10w.3](sase-10w.3.md) | 0 |
-| [bbugyi200.athena.sase-10w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.4/README.md) | [sase-10w.4](sase-10w.4.md) | 0 |
+| [bbugyi200.athena.sase-10w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.4/README.md) | [sase-10w.4](sase-10w.4.md) | 1 |
 | [bbugyi200.athena.sase-10w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.5/README.md) | [sase-10w.5](sase-10w.5.md) | 0 |
 | [bbugyi200.athena.sase-10w.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.6/README.md) | [sase-10w.6](sase-10w.6.md) | 0 |
 | [bbugyi200.athena.sase-10w.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-10w.land/README.md) | [sase-10w](README.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5024571`](https://github.com/sase-org/sase/commit/5024571a3254393d56c2c9d5cf45fac996d18128) | fix(monitor): repair store\_lane and monitor \_\_init\_\_ imports | [sase-10w.1](sase-10w.1.md) | 2026-09-14 09:28:11 EDT |
+| sase | [`526df13`](https://github.com/sase-org/sase/commit/526df13e48b81e8128b37552e76233e362d75775) | fix(scope): recalibrate scoped lane budget | [sase-10w.4](sase-10w.4.md) | 2026-09-14 10:14:34 EDT |

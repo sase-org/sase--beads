@@ -13,7 +13,7 @@ visual-goldens: re-run the visual suite, audit each mismatching golden against t
 
 ## Dependencies
 
-- **Depends on:** [sase-10w.1](sase-10w.1.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-10w.1](sase-10w.1.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-10w.5](sase-10w.5.md) ◐ · ⧖ 2026-09-14
 
 ## Agents
