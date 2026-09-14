@@ -14,8 +14,8 @@ green-ci-and-baseline: watch Master Gate go green on the tip, dispatch and watch
 ## Dependencies
 
 - **Depends on:** [sase-10w.1](sase-10w.1.md) ✓ · ⧖ 2026-09-14
-- **Depends on:** [sase-10w.2](sase-10w.2.md) ◐ · ⧖ 2026-09-14
-- **Depends on:** [sase-10w.3](sase-10w.3.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-10w.2](sase-10w.2.md) ✓ · ⧖ 2026-09-14
+- **Depends on:** [sase-10w.3](sase-10w.3.md) ✓ · ⧖ 2026-09-14
 - **Depends on:** [sase-10w.4](sase-10w.4.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-10w.6](sase-10w.6.md) ◐ · ⧖ 2026-09-14
 

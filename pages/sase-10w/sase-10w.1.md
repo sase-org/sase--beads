@@ -13,7 +13,7 @@ red-lane-fixes: repair the stale Justfile-lint assertion, the require_rust_bindi
 
 ## Dependencies
 
-- **Blocks:** [sase-10w.3](sase-10w.3.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-10w.3](sase-10w.3.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-10w.5](sase-10w.5.md) ◐ · ⧖ 2026-09-14
 
 ## Agents
