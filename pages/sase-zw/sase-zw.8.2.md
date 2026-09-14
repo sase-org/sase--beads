@@ -29,10 +29,11 @@ procs: implement validated, age-bounded runtime retention in Rust, protect concu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.2/README.md) | [sase-zw.8.2](sase-zw.8.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6c433c1`](https://github.com/sase-org/sase/commit/6c433c14d1ec0accb17ea6357ebe1da0b4ea528b) | feat(procs): route runtime retention through Rust owner | [sase-zw.8.2](sase-zw.8.2.md) | 2026-09-14 08:56:21 EDT |
+| sase-core | [`sase-core@bc78952`](https://github.com/sase-org/sase-core/commit/bc7895217b29b095de3fea339a1f437d2f32cc27) | feat(procs): add runtime retention owner | [sase-zw.8.2](sase-zw.8.2.md) | 2026-09-14 08:58:43 EDT |
