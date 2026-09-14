@@ -13,7 +13,7 @@ integrated-latency-verification: Exercise both approval tiers across ACE, Telegr
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.3](sase-zr.3.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zr.3](sase-zr.3.md) ✓ · ⧖ 2026-09-12
 - **Depends on:** [sase-zr.5](sase-zr.5.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
