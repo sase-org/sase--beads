@@ -36,10 +36,4 @@ Did not ratchet SASE's own floor (already 0.34.23) and did not hand-edit release
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-research-artifacts | [`sase-research-artifacts@1a7643f`](https://github.com/sase-org/sase-research-artifacts/commit/1a7643ff24179e0c5b4b85bd97b7df4ed3a41bea) | fix(compat): align plugin core window with SASE 0.34.x | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 2026-09-13 18:53:39 EDT |
+| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 0 |

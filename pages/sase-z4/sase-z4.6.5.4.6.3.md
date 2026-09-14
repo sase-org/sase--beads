@@ -25,9 +25,11 @@ published-proof: establish real containing releases through existing automation,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
+| [bbugyi200.athena.toobig-5c.disk\_footprint.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.disk_footprint.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1690400`](https://github.com/sase-org/sase/commit/1690400b2fe8e3f6afd421cc16f896ad6ef79198) | fix(capacity): ratchet published core floor and fix stale zero-capacity fakey assertion | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-13 21:41:25 EDT |
+| sase | [`620d872`](https://github.com/sase-org/sase/commit/620d872547a6980374e6814e28fa164e24597558) | refactor(core): split disk footprint module | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 00:03:03 EDT |

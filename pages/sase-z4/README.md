@@ -44,7 +44,7 @@ Support positive fractional weights on %queue/%q, enforce and display weighted c
 | [sase-z4.2](sase-z4.2.md) | Preserve weight through prompt editing and durable launch metadata | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-z4.3](sase-z4.3.md) | Enforce weighted claims through admission, handoffs, and cleanup | ✓ closed | medium | 2026-09-09 | 1 | 1 |
 | [sase-z4.4](sase-z4.4.md) | Separate capacity from counts and render quiet weight badges | ✓ closed | medium | 2026-09-09 | 1 | 1 |
-| [sase-z4.5](sase-z4.5.md) | Adopt workload weights and complete the coordinated rollout | ✓ closed | medium | 2026-09-09 | 1 | 3 |
+| [sase-z4.5](sase-z4.5.md) | Adopt workload weights and complete the coordinated rollout | ✓ closed | medium | 2026-09-09 | 1 | 2 |
 
 ## Lineage
 
@@ -133,11 +133,11 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.2/README.md) | [sase-z4.2](sase-z4.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.3/README.md) | [sase-z4.3](sase-z4.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.4/README.md) | [sase-z4.4](sase-z4.4.md) | 1 |
-| [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 3 |
+| [bbugyi200.athena.sase-z4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.5/README.md) | [sase-z4.5](sase-z4.5.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.1/README.md) | [sase-z4.6.1](sase-z4.6.1.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.2/README.md) | [sase-z4.6.2](sase-z4.6.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.3/README.md) | [sase-z4.6.3](sase-z4.6.3.md) | 2 |
-| [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 2 |
+| [bbugyi200.athena.sase-z4.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.4/README.md) | [sase-z4.6.4](sase-z4.6.4.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.1.md) | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.2/README.md) | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.3/README.md) | [sase-z4.6.5.3](sase-z4.6.5.3.md) | 1 |
@@ -147,11 +147,12 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.4/README.md) | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.5/README.md) | [sase-z4.6.5.4.5](sase-z4.6.5.4.5.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.1/README.md) | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 1 |
-| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 0 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.land.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
+| [bbugyi200.athena.toobig-5c.disk\_footprint.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.disk_footprint.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
 
 ## Commits
 
@@ -163,13 +164,11 @@ flowchart TD
 | sase | [`81064c1`](https://github.com/sase-org/sase/commit/81064c144a7ef289d0c9080a7565a6f62ecae0f7) | feat(tui): show weighted runner capacity | [sase-z4.4](sase-z4.4.md) | 2026-09-10 01:25:48 EDT |
 | sase | [`0afe85b`](https://github.com/sase-org/sase/commit/0afe85be475848d994eb78f622980097a017cbfb) | feat(xprompt): complete weighted queue rollout | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:52:27 EDT |
 | sase-core | [`sase-core@41bec95`](https://github.com/sase-org/sase-core/commit/41bec95d3c4ad741452a4f259a1fef102c90e8a5) | chore(migration): classify legacy patch heading | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:55:29 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@526604b`](https://github.com/sase-org/sase-research-artifacts/commit/526604b6ea706ccf4668d6aed6aaf7d3a3003eb2) | feat(research): weight research swarm segments | [sase-z4.5](sase-z4.5.md) | 2026-09-10 07:57:16 EDT |
 | sase-core | [`sase-core@8b672ab`](https://github.com/sase-org/sase-core/commit/8b672ab09b2e4351cfa0f0f243ea71e68d71c3a2) | fix(runner-capacity): repair weighted claim lineage | [sase-z4.6.1](sase-z4.6.1.md) | 2026-09-10 08:47:09 EDT |
 | sase | [`7da379e`](https://github.com/sase-org/sase/commit/7da379ea28e86cede528d1e58c8a0f7075aba5f1) | fix(agent-runner): make weighted shell admission atomic | [sase-z4.6.2](sase-z4.6.2.md) | 2026-09-10 09:45:23 EDT |
 | sase | [`cceed09`](https://github.com/sase-org/sase/commit/cceed09a993f4395f045310f72ca6f25b14174c9) | fix(ace): display weighted runner capacity from source rows | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:40:27 EDT |
 | sase-core | [`sase-core@8e491c3`](https://github.com/sase-org/sase-core/commit/8e491c337cafd43c44d1d34278fe16d64e069811) | feat(fleet): expose queue weight metadata | [sase-z4.6.3](sase-z4.6.3.md) | 2026-09-10 11:43:37 EDT |
 | sase | [`4f6eb2b`](https://github.com/sase-org/sase/commit/4f6eb2b173aacb3f4aeb954753fb57aefcb01f10) | deps(core): ratchet weighted capacity floor | [sase-z4.6.4](sase-z4.6.4.md) | 2026-09-10 12:57:36 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@8f00896`](https://github.com/sase-org/sase-research-artifacts/commit/8f0089629bad7470dc57fdae9d0b6f8eb74bb259) | test(release): verify weighted wheel floors | [sase-z4.6.4](sase-z4.6.4.md) | 2026-09-10 13:01:10 EDT |
 | sase | [`3260f6a`](https://github.com/sase-org/sase/commit/3260f6a42b5f6ae22a5cab4473aacd7c6e2ebac1) | feat(runner-slots): make Rust candidate lineage authoritative at admission | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2026-09-10 15:49:06 EDT |
 | sase-core | [`sase-core@120556a`](https://github.com/sase-org/sase-core/commit/120556af3243255921d640845d07686b544dca69) | feat(agent-scan): add runner\_claim\_owner\_key wire field and lineage lookup | [sase-z4.6.5.1](sase-z4.6.5.1.md) | 2026-09-10 15:51:20 EDT |
 | sase | [`788c63e`](https://github.com/sase-org/sase/commit/788c63e286604dbdda92ad476750fe02be9abc9f) | test(runner-slots): add integrated weighted fakey acceptance | [sase-z4.6.5.2](sase-z4.6.5.2.md) | 2026-09-10 16:32:28 EDT |
@@ -179,5 +178,5 @@ flowchart TD
 | sase | [`25b5d4c`](https://github.com/sase-org/sase/commit/25b5d4cf7007610448a72754cf4445c379eb9fe4) | test(fakey): add real monitor/gate weighted-capacity lifecycle e2e tests | [sase-z4.6.5.4.2](sase-z4.6.5.4.2.md) | 2026-09-10 19:03:20 EDT |
 | sase | [`3e39ebd`](https://github.com/sase-org/sase/commit/3e39ebdce2c297430b17da09760bf23ceb2cce4a) | test(tui): refresh capacity-strip PNG goldens | [sase-z4.6.5.4.4](sase-z4.6.5.4.4.md) | 2026-09-10 19:07:28 EDT |
 | sase | [`de85730`](https://github.com/sase-org/sase/commit/de85730bf6931a9bfb932d56a03f2e5e9702f4de) | test(monitor): drive weight-2 --next handoff through real settlement, add timeout/crash reclaim acceptance; fix(gate): claim capacity for creation-time %auto shell gates | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 2026-09-13 17:13:39 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@1a7643f`](https://github.com/sase-org/sase-research-artifacts/commit/1a7643ff24179e0c5b4b85bd97b7df4ed3a41bea) | fix(compat): align plugin core window with SASE 0.34.x | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 2026-09-13 18:53:39 EDT |
 | sase | [`1690400`](https://github.com/sase-org/sase/commit/1690400b2fe8e3f6afd421cc16f896ad6ef79198) | fix(capacity): ratchet published core floor and fix stale zero-capacity fakey assertion | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-13 21:41:25 EDT |
+| sase | [`620d872`](https://github.com/sase-org/sase/commit/620d872547a6980374e6814e28fa164e24597558) | refactor(core): split disk footprint module | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 00:03:03 EDT |
