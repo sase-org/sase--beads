@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-10j](README.md) / sase-10j.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.kellys\_mbp.0i.f0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.kellys_mbp.0i.f0.md) · **Assignee:** `sase-10j.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.kellys_mbp.0i.f0` · **Assignee:** `sase-10j.1` · **Size:** medium
 **Created:** 2026-09-13 21:53:04 EDT · **Closed:** 2026-09-13 23:54:20 EDT
 **Plan:** [202609/failed\_monitor\_blocks\_family\_wait.md](https://github.com/sase-org/sase--plans/blob/main/202609/failed_monitor_blocks_family_wait.md)
 
