@@ -17,7 +17,7 @@ Concurrent plan provenance refreshes from different repos and machines converge 
 |---|---|---|---|---|---:|---:|
 | [sase-112.1](sase-112.1.md) | Additive provenance section merging | ✓ closed | medium | 2026-09-14 | 1 | 1 |
 | [sase-112.2](sase-112.2.md) | Plan-header semantic conflict resolver | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
-| [sase-112.3](sase-112.3.md) | Stop stale SASE\_PLAN attribution | ◐ in_progress | medium | 2026-09-14 | 1 | 0 |
+| [sase-112.3](sase-112.3.md) | Stop stale SASE\_PLAN attribution | ✓ closed | medium | 2026-09-14 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-112: Eliminate recurring plans-sidecar provenance merge conflicts [in_progress]"]
     n1["sase-112.1: Additive provenance section merging [closed]"]
     n2["sase-112.2: Plan-header semantic conflict resolver [in_progress]"]
-    n3["sase-112.3: Stop stale SASE_PLAN attribution [in_progress]"]
+    n3["sase-112.3: Stop stale SASE_PLAN attribution [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -39,7 +39,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-112.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-112.1/README.md) | [sase-112.1](sase-112.1.md) | 1 |
 | [bbugyi200.athena.sase-112.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-112.2/README.md) | [sase-112.2](sase-112.2.md) | 0 |
-| [bbugyi200.athena.sase-112.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-112.3/README.md) | [sase-112.3](sase-112.3.md) | 0 |
+| [bbugyi200.athena.sase-112.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-112.3/README.md) | [sase-112.3](sase-112.3.md) | 1 |
 | [bbugyi200.athena.sase-112.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-112.land/README.md) | [sase-112](README.md) | 0 |
 
 ## Commits
@@ -47,3 +47,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f692235`](https://github.com/sase-org/sase/commit/f692235fc3c0fe2161bc1ef5e92699b9d567d89f) | fix(sdd): merge plan provenance entries additively | [sase-112.1](sase-112.1.md) | 2026-09-14 14:32:00 EDT |
+| sase | [`2e0dd5e`](https://github.com/sase-org/sase/commit/2e0dd5ee46fe4b8ef583e2c6a2c901c3652a8685) | fix(commit): stop stale plan attribution | [sase-112.3](sase-112.3.md) | 2026-09-14 14:42:21 EDT |
