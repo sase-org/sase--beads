@@ -25,7 +25,7 @@ durable-approval-publication: Implement shared acceptance and execution policy i
 
 - **Depends on:** [sase-zr.1](sase-zr.1.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zr.3](sase-zr.3.md) ◐ · ⧖ 2026-09-12
-- **Blocks:** [sase-zr.4](sase-zr.4.md) ◐ · ⧖ 2026-09-12
+- **Blocks:** [sase-zr.4](sase-zr.4.md) ✓ · ⧖ 2026-09-12
 
 ## Agents
 

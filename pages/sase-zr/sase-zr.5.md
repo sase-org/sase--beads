@@ -13,7 +13,7 @@ telegram-continuous-receiver: Measure the effective inbound cadence and integrat
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.4](sase-zr.4.md) ◐ · ⧖ 2026-09-12
+- **Depends on:** [sase-zr.4](sase-zr.4.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zr.6](sase-zr.6.md) ◐ · ⧖ 2026-09-12
 
 ## Agents
