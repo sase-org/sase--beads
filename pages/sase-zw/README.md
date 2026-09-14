@@ -63,7 +63,7 @@ flowchart TD
     n11["sase-zw.8.3: Complete protected run retention and empty-shard cleanup [closed]"]
     n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [closed]"]
     n13["sase-zw.8.5: Unify disk inventory, pressure decisions and owner delegation [closed]"]
-    n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [in_progress]"]
+    n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.3/README.md) | [sase-zw.8.3](sase-zw.8.3.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.land/README.md) | [sase-zw.8](sase-zw.8.md) | 0 |
 | [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) | [sase-zw](README.md) | 0 |
 
@@ -134,3 +134,4 @@ flowchart TD
 | sase-core | [`sase-core@afe7b70`](https://github.com/sase-org/sase-core/commit/afe7b70dbede84164be66c55b62f2b912262a87f) | feat(core): plan git object sharing rewrites | [sase-zw.8.4](sase-zw.8.4.md) | 2026-09-14 10:51:31 EDT |
 | sase | [`c402a04`](https://github.com/sase-org/sase/commit/c402a04317228e8709a5e915e19d36328d7b6615) | feat(disk): unify pressure cleanup orchestration | [sase-zw.8.5](sase-zw.8.5.md) | 2026-09-14 12:41:28 EDT |
 | sase-core | [`sase-core@6643634`](https://github.com/sase-org/sase-core/commit/664363431865bdade8d646d8ac4040f00d311e26) | feat(disk): add pressure classification contract | [sase-zw.8.5](sase-zw.8.5.md) | 2026-09-14 12:58:23 EDT |
+| sase | [`6b4bee9`](https://github.com/sase-org/sase/commit/6b4bee96ddfd93478264de0356ddbdf266d3cab7) | test(global-state): ignore harness git env in leak snapshots | [sase-zw.8.6](sase-zw.8.6.md) | 2026-09-14 16:10:06 EDT |
