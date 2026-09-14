@@ -17,7 +17,7 @@ remote-wire: extend the current Rust fleet summary contract and owner projection
 
 ## Dependencies
 
-- **Blocks:** [sase-zt.6.5.4.2](sase-zt.6.5.4.2.md) ◐ · ⧖ 2026-09-13
+- **Blocks:** [sase-zt.6.5.4.2](sase-zt.6.5.4.2.md) ✓ · ⧖ 2026-09-13
 
 ## Agents
 
