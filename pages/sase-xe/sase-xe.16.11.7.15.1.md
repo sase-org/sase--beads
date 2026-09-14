@@ -23,4 +23,10 @@ no-here-chip: invert the machine-chip policy — delete the here fallback so loc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.1/README.md) | [sase-xe.16.11.7.15.1](sase-xe.16.11.7.15.1.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.1/README.md) | [sase-xe.16.11.7.15.1](sase-xe.16.11.7.15.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f0fb9c8`](https://github.com/sase-org/sase/commit/f0fb9c8843c5ad509960c6ff58cb05fd6cade972) | fix(ace-tui): drop here chips and show host chips on remote nodes | [sase-xe.16.11.7.15.1](sase-xe.16.11.7.15.1.md) | 2026-09-13 20:04:05 EDT |

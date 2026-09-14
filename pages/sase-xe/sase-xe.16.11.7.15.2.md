@@ -29,4 +29,10 @@ Verification:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.15.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.15.2.md) | [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.15.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.15.2.md) | [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`65f876a`](https://github.com/sase-org/sase/commit/65f876aafcedd8512eaf900497d1363939a656f4) | feat(ace): synthesize remote fleet rows into family and clan nodes | [sase-xe.16.11.7.15.2](sase-xe.16.11.7.15.2.md) | 2026-09-13 20:10:46 EDT |

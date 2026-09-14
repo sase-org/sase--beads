@@ -35,4 +35,4 @@ wire-parity-fields: renderer-driven audit of Agent fields versus wire sources, t
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase--research | [`sase--research@7410ff1`](https://github.com/sase-org/sase--research/commit/7410ff16073bd2915db9268baff9f0d9e457e75f) | chore(research): update generated link metadata | [sase-xe.16.11.7.15.3](sase-xe.16.11.7.15.3.md) | 2026-09-13 20:08:17 EDT |
+| sase-core | [`sase-core@d0ec62c`](https://github.com/sase-org/sase-core/commit/d0ec62c329e228a2b04f30bc4d087969c895ddf8) | feat(fleet): publish remote renderer parity fields | [sase-xe.16.11.7.15.3](sase-xe.16.11.7.15.3.md) | 2026-09-13 20:11:57 EDT |

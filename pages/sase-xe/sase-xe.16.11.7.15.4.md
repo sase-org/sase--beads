@@ -20,4 +20,10 @@ published-core-adoption: wait for release-plz to publish the new core surface, r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.15.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.4/README.md) | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.15.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.4/README.md) | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`631e0b5`](https://github.com/sase-org/sase/commit/631e0b510d89ce4fdaa224e9cad3b601c8b3b0ee) | chore(core): ratchet sase-core revision pin to published v0.34.25 | [sase-xe.16.11.7.15.4](sase-xe.16.11.7.15.4.md) | 2026-09-13 22:01:58 EDT |

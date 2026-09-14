@@ -54,3 +54,5 @@ Sample assertion (test_agents_refresh_hydrates_catalog_in_focus_mode): expected 
 Separately, test_count_contract_deduplicates_current_instances_and_buckets fails with ValueError('summary family_role is inconsistent with row_kind') from the fleet_count_logical_agents Rust binding when given a monitor-row summary alongside agent-role summaries — may be the same class or a distinct fleet-contract regression; flagging alongside the others since it is also fleet/catalog-shaped and unrelated to my diff.
 
 Routing here rather than filing a new CI task bead given flag sase-z6 (ace_unified_agents, created by this epic's phase .7.6) covers exactly this fleet/agents-catalog surface.
+
+[2026-09-14T01:59:27Z · sase-zt.6.5.land] DISCOVERED ISSUE: PROPOSED BY sase-zt.6.5.3 note #6. Current selection-health reports tests/gateway/test_bootstrap_issue.py::test_bootstrap_issue_enroll_hello_round_trip_through_real_gateway from dirty-tree full-lane records; it passed the phase final full test-cost run. No exact task matched. Routed here because this active epic owns remote bootstrap and real gateway acceptance; this is historical gate evidence, not a fresh reproduction.
