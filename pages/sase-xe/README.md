@@ -128,7 +128,8 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.apollo.sase-xe.16.11.7.15.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.15.5.md) | [sase-xe.16.11.7.15.5](sase-xe.16.11.7.15.5.md) | 1 |
 | [bbugyi200.apollo.sase-xe.16.11.7.15.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.6/README.md) | [sase-xe.16.11.7.15.6](sase-xe.16.11.7.15.6.md) | 1 |
 | [bbugyi200.apollo.sase-xe.16.11.7.15.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.7/README.md) | [sase-xe.16.11.7.15.7](sase-xe.16.11.7.15.7.md) | 0 |
-| [bbugyi200.apollo.sase-xe.16.11.7.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.15.land/README.md) | [sase-xe.16.11.7.15](sase-xe.16.11.7.15.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.16.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.16.1/README.md) | [sase-xe.16.11.7.16.1](sase-xe.16.11.7.16.1.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.16.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.16.3.md) | [sase-xe.16.11.7.16.3](sase-xe.16.11.7.16.3.md) | 1 |
 | [bbugyi200.athena.sase-xe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.1/README.md) | [sase-xe.1](sase-xe.1.md) | 1 |
 | [bbugyi200.athena.sase-xe.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.10.md) | [sase-xe.10](sase-xe.10.md) | 2 |
 | [bbugyi200.athena.sase-xe.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.11.md) | [sase-xe.11](sase-xe.11.md) | 1 |
@@ -170,9 +171,8 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | [bbugyi200.athena.sase-xe.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.4/README.md) | [sase-xe.16.4](sase-xe.16.4.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.5/README.md) | [sase-xe.16.5](sase-xe.16.5.md) | 1 |
 | [bbugyi200.athena.sase-xe.16.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-xe.16.6.md) | [sase-xe.16.6](sase-xe.16.6.md) | 1 |
-| [bbugyi200.athena.sase-xe.16.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-xe.16.7/README.md) | [sase-xe.16.7](sase-xe.16.7.md) | 1 |
 
-… and 25 more agents
+… and 26 more agents
 
 ## Commits
 
@@ -229,7 +229,7 @@ RELATED: sase-y9 filed these same parity nodes as a flake ('pass in isolation');
 | sase | [`9c738c2`](https://github.com/sase-org/sase/commit/9c738c25f62ebc0962898e83d222b4c960afd7ae) | refactor(sdd): split artifact-link publication retry into sibling modules | [sase-xe.16.11.5](sase-xe.16.11.5.md) | 2026-09-10 04:16:15 EDT |
 | sase | [`d598883`](https://github.com/sase-org/sase/commit/d598883d8194be5b51acb821f3ea248dc4e243b9) | feat(ace): add machines admin center pane | [sase-xe.16.11.7.10](sase-xe.16.11.7.10.md) | 2026-09-10 06:52:33 EDT |
 
-… and 43 more commits
+… and 44 more commits
 
 <!-- sase:referenced-by:start -->
 
