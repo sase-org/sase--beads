@@ -25,10 +25,11 @@ Prove real weighted monitor and gate handoffs on the integrated tree and deliver
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d2687b6`](https://github.com/sase-org/sase/commit/d2687b6799fbb9abce31e49c40ab3c43a616219f) | test(capacity): retire quarter-weight research flake evidence and repair split audit paths | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2026-09-14 08:28:53 EDT |
+| sase--plans | [`sase--plans@1d80322`](https://github.com/sase-org/sase--plans/commit/1d80322d4df6eda72d441222a811a3173b8ff038) | docs(plans): mark weighted capacity lifecycle and release plan done | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2026-09-14 08:31:39 EDT |

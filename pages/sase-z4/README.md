@@ -149,7 +149,7 @@ flowchart TD
 | [bbugyi200.athena.sase-z4.6.5.4.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.1/README.md) | [sase-z4.6.5.4.6.1](sase-z4.6.5.4.6.1.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.6.2.md) | [sase-z4.6.5.4.6.2](sase-z4.6.5.4.6.2.md) | 1 |
 | [bbugyi200.athena.sase-z4.6.5.4.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.3/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2 |
-| [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 1 |
+| [bbugyi200.athena.sase-z4.6.5.4.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-z4.6.5.4.6.land/README.md) | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2 |
 | [bbugyi200.athena.sase-z4.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.6.5.4.land.md) | [sase-z4.6.5.4](sase-z4.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-z4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-z4.land.md) | [sase-z4](README.md) | 0 |
 | [bbugyi200.athena.toobig-5c.agent.0](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-5c.agent.0/README.md) | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 1 |
@@ -193,3 +193,4 @@ flowchart TD
 | sase | [`9dbc850`](https://github.com/sase-org/sase/commit/9dbc8500624654c43156beea025b0e9dbfcb3caa) | refactor(ops): split agent command helpers | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 04:14:07 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@9b36ea8`](https://github.com/sase-org/sase-research-artifacts/commit/9b36ea887ccca087fc0e548cd49a8f6dc508fc13) | fix(research): plan swarm queue release smokes | [sase-z4.6.5.4.6.3](sase-z4.6.5.4.6.3.md) | 2026-09-14 07:35:05 EDT |
 | sase | [`d2687b6`](https://github.com/sase-org/sase/commit/d2687b6799fbb9abce31e49c40ab3c43a616219f) | test(capacity): retire quarter-weight research flake evidence and repair split audit paths | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2026-09-14 08:28:53 EDT |
+| sase--plans | [`sase--plans@1d80322`](https://github.com/sase-org/sase--plans/commit/1d80322d4df6eda72d441222a811a3173b8ff038) | docs(plans): mark weighted capacity lifecycle and release plan done | [sase-z4.6.5.4.6](sase-z4.6.5.4.6.md) | 2026-09-14 08:31:39 EDT |
