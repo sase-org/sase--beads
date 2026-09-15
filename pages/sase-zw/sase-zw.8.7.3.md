@@ -20,7 +20,7 @@ runs: fix symlink-ancestor validation, protect empty referenced runs, refresh pr
 ## Dependencies
 
 - **Depends on:** [sase-zw.8.7.2](sase-zw.8.7.2.md) ✓ · ⧖ 2026-09-14
-- **Blocks:** [sase-zw.8.7.4](sase-zw.8.7.4.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-zw.8.7.4](sase-zw.8.7.4.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
