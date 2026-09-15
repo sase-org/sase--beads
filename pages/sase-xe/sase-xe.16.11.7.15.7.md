@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-xe.16.11.7.15](sase-xe.16.11.7.15.md) / sase-xe.16.11.7.15.7
 
-**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.v](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.v.md) · **Assignee:** `sase-xe.16.11.7.15.7` · **Size:** medium
-**Created:** 2026-09-13 18:38:09 EDT
+**Created:** 2026-09-13 18:38:09 EDT · **Closed:** 2026-09-15 16:52:50 EDT
 **Plan:** [202609/remote\_agents\_display\_parity.md](https://github.com/sase-org/sase--plans/blob/main/202609/remote_agents_display_parity.md)
 
 ## Previously Closed
@@ -29,10 +29,15 @@ live-acceptance: reproduce the original defect scenario live from Athena viewing
 
 [2026-09-15T12:28:14Z · sase-xe.16.11.7.16.land] LAND AUDIT REOPEN: the 2026-09-15 close contradicted notes #2-#3 and the binding acceptance gate. A fresh Athena pane still rendered terminal orphan-family lane while Apollo-local 'sase agent list -a -p proj --json' returned []; restored to open for the nested remaining-work plan.
 
+[2026-09-15T20:51:41Z · sase-xe.16.11.7.16.5.5.1] RESULT: Fresh 2026-09-15 Athena-to-Apollo acceptance passed; evidence file:explicit:18f0b0d3403c5270751a6179. Earlier failures rendered Apollo terminal ghost display labels (`lane`, `attempt-0`, `y--plan`) while Apollo-local project views were empty. The current proof shows owner-side terminal-family suppression plus logical-label fallback keep forbidden locator internals out of displayed rows: fresh authenticated catalog/projection has display_forbidden_row_count=0 and here_state_row_count=0 while raw locators may still contain attempt-0; Apollo-local `sase agent list -a -p proj --json` and `-p sase --json` both return []; Athena TUI by-status/by-machine/by-project captures filtered to machine:apollo contain no forbidden display labels and no remote local-only here state; focused Rust and Python regressions passed.
+
+[2026-09-15T20:52:50Z · sase-xe.16.11.7.16.5.5.1] Verified fresh 2026-09-15 Athena-to-Apollo live acceptance passed with evidence file:explicit:18f0b0d3403c5270751a6179 attached; no lane/attempt-0/y--plan display labels in fresh projection or by-status/by-machine/by-project TUI captures; Apollo-local proj/sase listings are empty; focused Rust and Python fleet/status/projection/display diagnostics passed.
+
 ## References
 
 - file:explicit:977335797329d1bd2e594252
 - file:explicit:9ef9c53afdba41df1c8586d6
+- file:explicit:18f0b0d3403c5270751a6179
 
 ## Dependencies
 
