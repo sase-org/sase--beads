@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-117.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.4/README.md) | [sase-117.4](sase-117.4.md) | 1 |
 | [bbugyi200.athena.sase-117.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.5.1/README.md) | [sase-117.5.1](sase-117.5.1.md) | 1 |
 | [bbugyi200.athena.sase-117.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.5.2/README.md) | [sase-117.5.2](sase-117.5.2.md) | 1 |
-| [bbugyi200.athena.sase-117.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.5.land/README.md) | [sase-117.5](sase-117.5.md) | 0 |
+| [bbugyi200.athena.sase-117.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-117.5.land.md) | [sase-117.5](sase-117.5.md) | 1 |
 | [bbugyi200.athena.sase-117.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-117.land.md) | [sase-117](README.md) | 0 |
 
 ## Commits
@@ -73,3 +73,4 @@ flowchart TD
 | sase | [`21c18cc`](https://github.com/sase-org/sase/commit/21c18cc34bda871773519abfb14982dec2826e87) | test(completion): refresh CLI snapshot | [sase-117.4](sase-117.4.md) | 2026-09-15 12:52:38 EDT |
 | sase | [`dcfb1c1`](https://github.com/sase-org/sase/commit/dcfb1c1db7b475cf216bae671856cdbc9d5d2943) | fix(monitor): defer epic launch completion until settlement | [sase-117.5.1](sase-117.5.1.md) | 2026-09-15 14:02:50 EDT |
 | sase | [`9afd1bb`](https://github.com/sase-org/sase/commit/9afd1bb0020419b53919fb694ae05dfe187a2f2b) | fix(tui): target production settlement completions | [sase-117.5.2](sase-117.5.2.md) | 2026-09-15 14:41:47 EDT |
+| sase | [`824ef83`](https://github.com/sase-org/sase/commit/824ef831c88a5c78f33b3ae2cd0d308f5afd41b2) | fix(epic-launch): recover monitor completion handoff | [sase-117.5](sase-117.5.md) | 2026-09-15 15:17:16 EDT |

@@ -15,4 +15,10 @@ Epic-launch monitor completion is notified exactly once only after the monitor's
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-117.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.5.land/README.md) | [sase-117.5](sase-117.5.md) | 0 |
+| [bbugyi200.athena.sase-117.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-117.5.land.md) | [sase-117.5](sase-117.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`824ef83`](https://github.com/sase-org/sase/commit/824ef831c88a5c78f33b3ae2cd0d308f5afd41b2) | fix(epic-launch): recover monitor completion handoff | [sase-117.5](sase-117.5.md) | 2026-09-15 15:17:16 EDT |
