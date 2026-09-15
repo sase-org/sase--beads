@@ -11,6 +11,10 @@
 
 athena-policy: guard the chezmoi run_onchange scripts against password-required sudo, then live-tighten athena by replacing the NOPASSWD:ALL sudoers rule and setting ptrace_scope=1 through the shipped /sase_sudo flow itself.
 
+## Notes
+
+[2026-09-14T20:49:23Z · sase-110.7] PROPOSED FOLLOW-UP: Sudo runner bootstrap preflight — teach the agent_sudo_requests flow or runbook to detect hosts whose current sudoers lacks CWD=* before attempting sudo -D, because athena needed a temporary CWD NOPASSWD drop-in to let the runner execute its first reviewed command.
+
 ## Dependencies
 
 - **Depends on:** [sase-110.4](sase-110.4.md) ✓ · ⧖ 2026-09-14
