@@ -18,7 +18,7 @@ pressure: align doctor, housekeeping and manual cleanup thresholds per filesyste
 ## Dependencies
 
 - **Depends on:** [sase-zw.8.7.5](sase-zw.8.7.5.md) ✓ · ⧖ 2026-09-14
-- **Blocks:** [sase-zw.8.7.7](sase-zw.8.7.7.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-zw.8.7.7](sase-zw.8.7.7.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 

@@ -73,7 +73,7 @@ flowchart TD
     n19["sase-zw.8.7.4: Apply dependency-preserving repair rules to normal borrower reuse [closed]"]
     n20["sase-zw.8.7.5: Make inventory bounded and accurate about ownership and coverage [closed]"]
     n21["sase-zw.8.7.6: Use owner filesystem observations and structured cleanup results [closed]"]
-    n22["sase-zw.8.7.7: Prove the repaired combined tree and refresh host acceptance [in_progress]"]
+    n22["sase-zw.8.7.7: Prove the repaired combined tree and refresh host acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.6/README.md) | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 1 |
-| [bbugyi200.athena.sase-zw.8.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.7/README.md) | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.8.7.7.md) | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.land/README.md) | [sase-zw.8.7](sase-zw.8.7.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.8.land.md) | [sase-zw.8](sase-zw.8.md) | 0 |
 | [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) | [sase-zw](README.md) | 0 |
@@ -176,3 +176,4 @@ flowchart TD
 | sase | [`028c513`](https://github.com/sase-org/sase/commit/028c5137beeed48abef3bf9cc38ce9918423952a) | fix(disk): bound inventory coverage classification | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2026-09-15 13:17:09 EDT |
 | sase-core | [`sase-core@fd7bc24`](https://github.com/sase-org/sase-core/commit/fd7bc243cec73e0c5645950dc06f6f16e65f86b1) | feat(disk): add inventory classification contract | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2026-09-15 13:20:08 EDT |
 | sase | [`93476ef`](https://github.com/sase-org/sase/commit/93476ef6aa519bff3185f5fd5398ce1edc8e45df) | feat(disk): propagate owner cleanup pressure results | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 2026-09-15 14:57:11 EDT |
+| sase | [`05be391`](https://github.com/sase-org/sase/commit/05be391f7aeb275b84e2dab716166dfdd7b553e4) | test(disk): finish retention acceptance gate | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 2026-09-15 18:06:19 EDT |
