@@ -17,7 +17,7 @@ core-routing: implement tested Rust routing policy and bindings, add a thin Pyth
 
 ## Dependencies
 
-- **Blocks:** [sase-116.2](sase-116.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-116.2](sase-116.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

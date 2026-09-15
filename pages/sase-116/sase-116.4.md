@@ -13,7 +13,7 @@ work-and-pages: propagate the owning project through bead work and parent overri
 
 ## Dependencies
 
-- **Depends on:** [sase-116.2](sase-116.2.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-116.2](sase-116.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

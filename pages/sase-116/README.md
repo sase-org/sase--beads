@@ -16,7 +16,7 @@ Every existing-bead argument to sase bead resolves a full ID independently of th
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-116.1](sase-116.1.md) | Shared Rust bead target resolution | ✓ closed | medium | 2026-09-15 | 1 | 2 |
-| [sase-116.2](sase-116.2.md) | Route reads and writes through one explicit operation context | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
+| [sase-116.2](sase-116.2.md) | Route reads and writes through one explicit operation context | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-116.3](sase-116.3.md) | Integrate lifecycle, relationship, and history commands | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-116.4](sase-116.4.md) | Route work launches, pages, and epic symbol checks | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Every existing-bead argument to sase bead resolves a full ID independently of th
 flowchart TD
     n0["sase-116: Resolve full bead IDs across enabled projects for every bead command [in_progress]"]
     n1["sase-116.1: Shared Rust bead target resolution [closed]"]
-    n2["sase-116.2: Route reads and writes through one explicit operation context [in_progress]"]
+    n2["sase-116.2: Route reads and writes through one explicit operation context [closed]"]
     n3["sase-116.3: Integrate lifecycle, relationship, and history commands [in_progress]"]
     n4["sase-116.4: Route work launches, pages, and epic symbol checks [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-116.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.1/README.md) | [sase-116.1](sase-116.1.md) | 2 |
-| [bbugyi200.athena.sase-116.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.2/README.md) | [sase-116.2](sase-116.2.md) | 0 |
+| [bbugyi200.athena.sase-116.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.2/README.md) | [sase-116.2](sase-116.2.md) | 1 |
 | [bbugyi200.athena.sase-116.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.3/README.md) | [sase-116.3](sase-116.3.md) | 0 |
 | [bbugyi200.athena.sase-116.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.4/README.md) | [sase-116.4](sase-116.4.md) | 0 |
 | [bbugyi200.athena.sase-116.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.land/README.md) | [sase-116](README.md) | 0 |
@@ -54,3 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`df87d68`](https://github.com/sase-org/sase/commit/df87d68dcbc6628e21bd4a4c75f8eb994cbf37ea) | feat(bead): route show targets through shared resolver | [sase-116.1](sase-116.1.md) | 2026-09-15 10:38:53 EDT |
 | sase-core | [`sase-core@dd64c84`](https://github.com/sase-org/sase-core/commit/dd64c845aff247a9a74d00d50eac15a1ea827824) | feat(bead): add target routing policy | [sase-116.1](sase-116.1.md) | 2026-09-15 10:41:12 EDT |
+| sase | [`dbe3cd4`](https://github.com/sase-org/sase/commit/dbe3cd4bcea0991d1a561be9465594173ef27c04) | feat(bead): route operations through explicit contexts | [sase-116.2](sase-116.2.md) | 2026-09-15 11:57:33 EDT |
