@@ -19,10 +19,4 @@ caps-readcompat: in sase-core fleet_contract.rs, stop rejecting older-but-readab
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.16.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.16.2.md) | [sase-xe.16.11.7.16.2](sase-xe.16.11.7.16.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@4426269`](https://github.com/sase-org/sase-core/commit/4426269c4f1e8d5b7a0a157b887cd6b0d7a46f74) | fix(fleet): accept compatible capability summaries | [sase-xe.16.11.7.16.2](sase-xe.16.11.7.16.2.md) | 2026-09-15 07:57:46 EDT |
+| [bbugyi200.apollo.sase-xe.16.11.7.16.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.16.2.md) | [sase-xe.16.11.7.16.2](sase-xe.16.11.7.16.2.md) | 0 |
