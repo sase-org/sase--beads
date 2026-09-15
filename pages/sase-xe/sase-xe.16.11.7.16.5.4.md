@@ -13,9 +13,9 @@ release-live-acceptance: release and adopt the Rust changes, redeploy both machi
 
 ## Dependencies
 
-- **Depends on:** [sase-xe.16.11.7.16.5.1](sase-xe.16.11.7.16.5.1.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-xe.16.11.7.16.5.1](sase-xe.16.11.7.16.5.1.md) ✓ · ⧖ 2026-09-15
 - **Depends on:** [sase-xe.16.11.7.16.5.2](sase-xe.16.11.7.16.5.2.md) ✓ · ⧖ 2026-09-15
-- **Depends on:** [sase-xe.16.11.7.16.5.3](sase-xe.16.11.7.16.5.3.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-xe.16.11.7.16.5.3](sase-xe.16.11.7.16.5.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
