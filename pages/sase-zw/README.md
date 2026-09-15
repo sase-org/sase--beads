@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 1 |
-| [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.6/README.md) | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 0 |
@@ -170,3 +170,4 @@ flowchart TD
 | sase-core | [`sase-core@c657ee5`](https://github.com/sase-org/sase-core/commit/c657ee56b6c5580402609a0d69f728cbc6d1d020) | fix(managed-tmp): report cleanup outcomes | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:41:23 EDT |
 | sase-core | [`sase-core@37d6c5c`](https://github.com/sase-org/sase-core/commit/37d6c5c4916333279796396df2ca1bc16466ebc2) | fix(procs): fail closed on incomplete runtime stores | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 2026-09-15 09:26:10 EDT |
 | sase | [`53c6c51`](https://github.com/sase-org/sase/commit/53c6c51c3b09ad33239c581d138fc94cff1205cc) | fix(retention): preserve protected artifact runs | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:16:11 EDT |
+| sase-core | [`sase-core@466b310`](https://github.com/sase-org/sase-core/commit/466b3108d5359c4345bfce3be7153c2869f2ccb3) | fix(retention): harden artifact run pruning safety | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:18:30 EDT |

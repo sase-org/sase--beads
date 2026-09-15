@@ -26,10 +26,11 @@ runs: fix symlink-ancestor validation, protect empty referenced runs, refresh pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`53c6c51`](https://github.com/sase-org/sase/commit/53c6c51c3b09ad33239c581d138fc94cff1205cc) | fix(retention): preserve protected artifact runs | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:16:11 EDT |
+| sase-core | [`sase-core@466b310`](https://github.com/sase-org/sase-core/commit/466b3108d5359c4345bfce3be7153c2869f2ccb3) | fix(retention): harden artifact run pruning safety | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:18:30 EDT |
