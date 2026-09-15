@@ -29,6 +29,8 @@ Verification: focused combined run 98 passed/8 failed in 11.22s; failures are st
 
 Prepared remaining-work child epic plan sase_plan_disk_footprint_remaining_work.md with parent_bead sase-zw: scratch, procs, runs, objects, pressure, acceptance. Completed validate --explain, edited, then revalidated with zero warnings. Only remaining repairs and acceptance are phased; parent close/post-close Symvision/plan-status update are not phases. Keep sase-zw and the original plan in progress. Child landing must recheck this audit, every new descendant/note and drift, pass combined verification, then resume normal parent landing without force.
 
+[2026-09-14T20:45:28Z · sase-zw.8.land] CHILD LANDING BLOCKER (sase-zw.8, 2026-09-14): child audit at main 00acd607f / core v0.34.28 found remaining deletion-safety and integration gaps despite all six phase closes and 147 passing focused tests. Missing/malformed proc stores permit runtime deletion; run cleanup follows symlink ancestors and deletes protected empty runs; normal borrower reuse can break connectivity; disk results suppress errors and use the wrong owner filesystem. Full audit file:explicit:1b136cd32d914b18447bed0a and complete note/follow-up dispositions are on sase-zw.8. Its remaining-only child plan has parent_bead sase-zw.8 and passed validation. Keep this parent and its plan in progress; resume readiness review only after the repair child and sase-zw.8 land. Orphan-log proposal became ready large task sase-115; hidden audit-link attachment failure corroborated existing sase-10y (+1). No live cleanup, forced close, or plan done transition was performed.
+
 ## References
 
 - file:explicit:b165eb0a7616cb5051633c9c
@@ -64,6 +66,14 @@ flowchart TD
     n12["sase-zw.8.4: Preserve shared-object dependencies throughout repair and reuse [closed]"]
     n13["sase-zw.8.5: Unify disk inventory, pressure decisions and owner delegation [closed]"]
     n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [closed]"]
+    n15["sase-zw.8.7: Finish the remaining disk-retention safety and integration gaps [in_progress]"]
+    n16["sase-zw.8.7.1: Share scratch liveness and report every cleanup outcome [closed]"]
+    n17["sase-zw.8.7.2: Refuse proc cleanup when durable protection coverage is incomplete [in_progress]"]
+    n18["sase-zw.8.7.3: Preserve run protections through deletion and empty-shard cleanup [in_progress]"]
+    n19["sase-zw.8.7.4: Apply dependency-preserving repair rules to normal borrower reuse [in_progress]"]
+    n20["sase-zw.8.7.5: Make inventory bounded and accurate about ownership and coverage [in_progress]"]
+    n21["sase-zw.8.7.6: Use owner filesystem observations and structured cleanup results [in_progress]"]
+    n22["sase-zw.8.7.7: Prove the repaired combined tree and refresh host acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -78,6 +88,14 @@ flowchart TD
     n8 --> n12
     n8 --> n13
     n8 --> n14
+    n8 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
+    n15 --> n20
+    n15 --> n21
+    n15 --> n22
     n1 -.-> n7
     n2 -.-> n7
     n3 -.-> n7
@@ -92,6 +110,12 @@ flowchart TD
     n11 -.-> n13
     n12 -.-> n13
     n13 -.-> n14
+    n16 -.-> n17
+    n17 -.-> n18
+    n18 -.-> n19
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n22
 ```
 
 ## Agents
@@ -111,7 +135,15 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.4/README.md) | [sase-zw.8.4](sase-zw.8.4.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 1 |
-| [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.land/README.md) | [sase-zw.8](sase-zw.8.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.6/README.md) | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.7/README.md) | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.land/README.md) | [sase-zw.8.7](sase-zw.8.7.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.8.land.md) | [sase-zw.8](sase-zw.8.md) | 0 |
 | [bbugyi200.athena.sase-zw.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-zw.land.md) | [sase-zw](README.md) | 0 |
 
 ## Commits
@@ -135,3 +167,4 @@ flowchart TD
 | sase | [`c402a04`](https://github.com/sase-org/sase/commit/c402a04317228e8709a5e915e19d36328d7b6615) | feat(disk): unify pressure cleanup orchestration | [sase-zw.8.5](sase-zw.8.5.md) | 2026-09-14 12:41:28 EDT |
 | sase-core | [`sase-core@6643634`](https://github.com/sase-org/sase-core/commit/664363431865bdade8d646d8ac4040f00d311e26) | feat(disk): add pressure classification contract | [sase-zw.8.5](sase-zw.8.5.md) | 2026-09-14 12:58:23 EDT |
 | sase | [`6b4bee9`](https://github.com/sase-org/sase/commit/6b4bee96ddfd93478264de0356ddbdf266d3cab7) | test(global-state): ignore harness git env in leak snapshots | [sase-zw.8.6](sase-zw.8.6.md) | 2026-09-14 16:10:06 EDT |
+| sase | [`b2a1077`](https://github.com/sase-org/sase/commit/b2a10778e6f8cacb79605c5cfcee26591cb96cce) | fix(managed-tmp): use owner for launch scratch cleanup | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:38:33 EDT |
