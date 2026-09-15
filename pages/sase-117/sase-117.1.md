@@ -19,7 +19,7 @@ repro-harness: build a sandbox-home pytest harness that replays the recorded sta
 
 ## Dependencies
 
-- **Blocks:** [sase-117.2](sase-117.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-117.2](sase-117.2.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-117.3](sase-117.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
