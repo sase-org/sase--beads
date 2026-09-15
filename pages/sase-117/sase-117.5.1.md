@@ -17,7 +17,7 @@ settlement_handoff: defer the existing epic-launch completion notification throu
 
 ## Dependencies
 
-- **Blocks:** [sase-117.5.2](sase-117.5.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-117.5.2](sase-117.5.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
