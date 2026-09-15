@@ -21,7 +21,7 @@ operation-context: provide routed read and mutation contexts, preserve store own
 
 - **Depends on:** [sase-116.1](sase-116.1.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-116.3](sase-116.3.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-116.4](sase-116.4.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-116.4](sase-116.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
