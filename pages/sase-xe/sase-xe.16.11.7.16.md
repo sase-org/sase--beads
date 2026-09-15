@@ -15,4 +15,4 @@ Athena's ACE never silently renders stale ghost agents for a remote host: the sa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-xe.16.11.7.16.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.16.land/README.md) | [sase-xe.16.11.7.16](sase-xe.16.11.7.16.md) | 0 |
+| [bbugyi200.apollo.sase-xe.16.11.7.16.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-xe.16.11.7.16.land.md) | [sase-xe.16.11.7.16](sase-xe.16.11.7.16.md) | 0 |
