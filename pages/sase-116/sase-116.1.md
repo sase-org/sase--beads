@@ -23,10 +23,11 @@ core-routing: implement tested Rust routing policy and bindings, add a thin Pyth
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-116.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.1/README.md) | [sase-116.1](sase-116.1.md) | 1 |
+| [bbugyi200.athena.sase-116.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-116.1/README.md) | [sase-116.1](sase-116.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`df87d68`](https://github.com/sase-org/sase/commit/df87d68dcbc6628e21bd4a4c75f8eb994cbf37ea) | feat(bead): route show targets through shared resolver | [sase-116.1](sase-116.1.md) | 2026-09-15 10:38:53 EDT |
+| sase-core | [`sase-core@dd64c84`](https://github.com/sase-org/sase-core/commit/dd64c845aff247a9a74d00d50eac15a1ea827824) | feat(bead): add target routing policy | [sase-116.1](sase-116.1.md) | 2026-09-15 10:41:12 EDT |
