@@ -18,7 +18,7 @@ gateway-version-contract: add an honest read-compatible gateway service/version 
 ## Dependencies
 
 - **Blocks:** [sase-xe.16.11.7.16.5.3](sase-xe.16.11.7.16.5.3.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

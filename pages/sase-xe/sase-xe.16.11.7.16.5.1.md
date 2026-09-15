@@ -17,7 +17,7 @@ owner-presentation-parity: suppress orphan terminal family members in the shared
 
 ## Dependencies
 
-- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

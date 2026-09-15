@@ -22,7 +22,7 @@ viewer-feed-honesty: consume the real gateway version and preserve reachable inv
 ## Dependencies
 
 - **Depends on:** [sase-xe.16.11.7.16.5.2](sase-xe.16.11.7.16.5.2.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-xe.16.11.7.16.5.4](sase-xe.16.11.7.16.5.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
