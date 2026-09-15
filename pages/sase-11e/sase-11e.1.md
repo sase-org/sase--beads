@@ -27,7 +27,7 @@ config_contract: implement Rust-owned public configuration name translation, exa
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.2](sase-11e.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11e.2](sase-11e.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

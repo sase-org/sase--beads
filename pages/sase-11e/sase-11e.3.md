@@ -25,7 +25,7 @@ cli_contract: expose axe routine and axe job commands, public JSON projections, 
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.2](sase-11e.2.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11e.2](sase-11e.2.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11e.4](sase-11e.4.md) ◐ · ⧖ 2026-09-15
 
 ## Agents
