@@ -17,7 +17,7 @@ routing-contract-repairs: make operation routing discover foreign stores only af
 
 ## Dependencies
 
-- **Blocks:** [sase-116.5.2](sase-116.5.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-116.5.2](sase-116.5.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
