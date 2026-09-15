@@ -23,10 +23,11 @@ scratch: integrate launch-exit cleanup with the Rust scratch owner and expose or
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b2a1077`](https://github.com/sase-org/sase/commit/b2a10778e6f8cacb79605c5cfcee26591cb96cce) | fix(managed-tmp): use owner for launch scratch cleanup | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:38:33 EDT |
+| sase-core | [`sase-core@c657ee5`](https://github.com/sase-org/sase-core/commit/c657ee56b6c5580402609a0d69f728cbc6d1d020) | fix(managed-tmp): report cleanup outcomes | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:41:23 EDT |
