@@ -10,3 +10,9 @@
 ## Description
 
 Athena's ACE never silently renders stale ghost agents for a remote host: the sase-xe.16.11.7.15 live-acceptance phase is completed and closed on today's verified-live fleet view, capability-set validation honors the contract's claimed v1 read-compatibility so mixed-version hosts do not collapse to zero rows behind a hello-ok status, and a host whose feed is invalid or stale is rendered loudly (host-level error surfacing plus honest staleness chrome on every cached row) instead of masquerading as healthy.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.16.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.16.land/README.md) | [sase-xe.16.11.7.16](sase-xe.16.11.7.16.md) | 0 |

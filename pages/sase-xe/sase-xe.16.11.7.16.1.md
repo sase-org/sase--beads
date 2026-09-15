@@ -15,6 +15,8 @@ close-live-acceptance: with SSH from Apollo to Athena now working and Apollo's g
 
 [2026-09-14T20:37:11Z · sase-xe.16.11.7.16.1] UNMET ACCEPTANCE GATE: attempted the required Athena-side `sase ace` live acceptance for target phase sase-xe.16.11.7.15.7. Preconditions now pass and raw federation is live/current, but the pane still shows bracketed/aging Apollo rows (`attempt-0`, `lane`) that the acceptance checklist says must be absent. Evidence: file:explicit:977335797329d1bd2e594252. Leaving the close-live-acceptance work open.
 
+[2026-09-15T11:49:21Z · sase-xe.16.11.7.16.1] UNMET ACCEPTANCE GATE: reran the required Athena-side live acceptance for target phase sase-xe.16.11.7.15.7 on 2026-09-15. Preconditions pass (SSH Apollo→Athena works; both machines SASE 0.17.1+664.g7420b8298/core 0.34.28; Apollo gateway active since 2026-09-14 19:55:35 UTC; Athena reports Apollo hello ok), and evidence is attached to the target bead as file:explicit:9ef9c53afdba41df1c8586d6. The pane still renders the forbidden Apollo `lane` row while Apollo-local `sase agent list -a -p proj` reports zero agents. Per the design gate, I did not close target phase sase-xe.16.11.7.15.7 or this close-live-acceptance phase.
+
 ## Agents
 
 | Agent | Bead | Commits |

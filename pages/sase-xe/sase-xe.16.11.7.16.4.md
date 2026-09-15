@@ -10,3 +10,9 @@
 ## Description
 
 gateway-skew-loudness: surface remote gateway service/contract version skew in `sase machine status` output (hello already carries service versions) so an outdated target gateway is visible instead of hiding behind "hello ok", and extend docs/remote_dispatch.md with the restart-after-upgrade requirement for supervised gateways, whose Restart=on-failure units keep running the old binary after an install upgrade.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-xe.16.11.7.16.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-xe.16.11.7.16.4/README.md) | [sase-xe.16.11.7.16.4](sase-xe.16.11.7.16.4.md) | 0 |

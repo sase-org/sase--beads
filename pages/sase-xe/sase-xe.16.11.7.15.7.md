@@ -17,9 +17,12 @@ live-acceptance: reproduce the original defect scenario live from Athena viewing
 
 [2026-09-14T20:37:02Z · sase-xe.16.11.7.16.1] UNMET ACCEPTANCE GATE: 2026-09-14 Athena-side live check reached Apollo successfully (Athena SASE 0.17.1+648/core 0.34.28; Apollo SASE 0.17.1+645/core 0.34.28; Apollo gateway active since 2026-09-14 19:55:35 UTC; raw federation status=ok cached=False schema-v3 rows), but the ACE pane with filter machine:apollo still renders acceptance failures: `apollo [agent] sase (UNKNOWN) attempt-0 unknown · aging`, `apollo proj (GATED) ... lane ... 6h03m`, and offline/aging remote chrome. Evidence snapshot file:explicit:977335797329d1bd2e594252; prior blocker evidence file:explicit:b79d37e46dc8755ef4d5daef. Leaving this phase open per plan.
 
+[2026-09-15T11:49:17Z · sase-xe.16.11.7.16.1] UNMET ACCEPTANCE GATE: 2026-09-15 Athena-side rerun again reached Apollo successfully (SSH ok; Athena and Apollo both SASE 0.17.1+664.g7420b8298/core 0.34.28; Apollo gateway active since 2026-09-14 19:55:35 UTC; Athena machine status hello ok), but the ACE pane filtered to machine:apollo still renders the forbidden ghost row `apollo proj (GATED) ... lane Sep 14 15:36 · 6h03m`. Apollo-local `sase agent list -a -p proj` reports zero agents, so the `lane` row is not present in Apollo current local project view. `attempt-0` and `y--plan` were not visible in this capture, but the checklist explicitly requires no `lane` rows. Evidence: file:explicit:9ef9c53afdba41df1c8586d6; prior blocker/ghost evidence file:explicit:b79d37e46dc8755ef4d5daef and file:explicit:977335797329d1bd2e594252. Leaving this phase open per plan.
+
 ## References
 
 - file:explicit:977335797329d1bd2e594252
+- file:explicit:9ef9c53afdba41df1c8586d6
 
 ## Dependencies
 
