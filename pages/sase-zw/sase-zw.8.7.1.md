@@ -17,7 +17,7 @@ scratch: integrate launch-exit cleanup with the Rust scratch owner and expose or
 
 ## Dependencies
 
-- **Blocks:** [sase-zw.8.7.2](sase-zw.8.7.2.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-zw.8.7.2](sase-zw.8.7.2.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 

@@ -68,7 +68,7 @@ flowchart TD
     n14["sase-zw.8.6: Complete host reclamation and combined verification evidence [closed]"]
     n15["sase-zw.8.7: Finish the remaining disk-retention safety and integration gaps [in_progress]"]
     n16["sase-zw.8.7.1: Share scratch liveness and report every cleanup outcome [closed]"]
-    n17["sase-zw.8.7.2: Refuse proc cleanup when durable protection coverage is incomplete [in_progress]"]
+    n17["sase-zw.8.7.2: Refuse proc cleanup when durable protection coverage is incomplete [closed]"]
     n18["sase-zw.8.7.3: Preserve run protections through deletion and empty-shard cleanup [in_progress]"]
     n19["sase-zw.8.7.4: Apply dependency-preserving repair rules to normal borrower reuse [in_progress]"]
     n20["sase-zw.8.7.5: Make inventory bounded and accurate about ownership and coverage [in_progress]"]
@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.5/README.md) | [sase-zw.8.5](sase-zw.8.5.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.6/README.md) | [sase-zw.8.6](sase-zw.8.6.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 0 |
@@ -169,3 +169,4 @@ flowchart TD
 | sase | [`6b4bee9`](https://github.com/sase-org/sase/commit/6b4bee96ddfd93478264de0356ddbdf266d3cab7) | test(global-state): ignore harness git env in leak snapshots | [sase-zw.8.6](sase-zw.8.6.md) | 2026-09-14 16:10:06 EDT |
 | sase | [`b2a1077`](https://github.com/sase-org/sase/commit/b2a10778e6f8cacb79605c5cfcee26591cb96cce) | fix(managed-tmp): use owner for launch scratch cleanup | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:38:33 EDT |
 | sase-core | [`sase-core@c657ee5`](https://github.com/sase-org/sase-core/commit/c657ee56b6c5580402609a0d69f728cbc6d1d020) | fix(managed-tmp): report cleanup outcomes | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2026-09-15 08:41:23 EDT |
+| sase-core | [`sase-core@37d6c5c`](https://github.com/sase-org/sase-core/commit/37d6c5c4916333279796396df2ca1bc16466ebc2) | fix(procs): fail closed on incomplete runtime stores | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 2026-09-15 09:26:10 EDT |
