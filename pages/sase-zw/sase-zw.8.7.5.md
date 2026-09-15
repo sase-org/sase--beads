@@ -24,10 +24,11 @@ inventory: move shared inventory classification to Rust, apply a whole-pass budg
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`028c513`](https://github.com/sase-org/sase/commit/028c5137beeed48abef3bf9cc38ce9918423952a) | fix(disk): bound inventory coverage classification | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2026-09-15 13:17:09 EDT |
+| sase-core | [`sase-core@fd7bc24`](https://github.com/sase-org/sase-core/commit/fd7bc243cec73e0c5645950dc06f6f16e65f86b1) | feat(disk): add inventory classification contract | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2026-09-15 13:20:08 EDT |
