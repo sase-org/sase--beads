@@ -18,7 +18,7 @@ convergence-fix: stop dropping queued exact artifact dirs in fallback state, fix
 ## Dependencies
 
 - **Depends on:** [sase-117.1](sase-117.1.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-117.4](sase-117.4.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-117.4](sase-117.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

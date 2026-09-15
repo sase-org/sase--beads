@@ -18,7 +18,7 @@ When a family shell settles (e.g. an epic-launch monitor flips EPIC APPROVED to 
 | [sase-117.1](sase-117.1.md) | Deterministic repro harness | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-117.2](sase-117.2.md) | Convergence fix | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-117.3](sase-117.3.md) | Settlement notification targeting | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-117.4](sase-117.4.md) | Incident verification | ◐ in_progress | small | 2026-09-15 | 1 | 0 |
+| [sase-117.4](sase-117.4.md) | Incident verification | ✓ closed | small | 2026-09-15 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-117.1: Deterministic repro harness [closed]"]
     n2["sase-117.2: Convergence fix [closed]"]
     n3["sase-117.3: Settlement notification targeting [closed]"]
-    n4["sase-117.4: Incident verification [in_progress]"]
+    n4["sase-117.4: Incident verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -46,7 +46,7 @@ flowchart TD
 | [bbugyi200.athena.sase-117.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.1/README.md) | [sase-117.1](sase-117.1.md) | 1 |
 | [bbugyi200.athena.sase-117.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.2/README.md) | [sase-117.2](sase-117.2.md) | 1 |
 | [bbugyi200.athena.sase-117.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.3/README.md) | [sase-117.3](sase-117.3.md) | 1 |
-| [bbugyi200.athena.sase-117.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.4/README.md) | [sase-117.4](sase-117.4.md) | 0 |
+| [bbugyi200.athena.sase-117.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.4/README.md) | [sase-117.4](sase-117.4.md) | 1 |
 | [bbugyi200.athena.sase-117.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-117.land/README.md) | [sase-117](README.md) | 0 |
 
 ## Commits
@@ -56,3 +56,4 @@ flowchart TD
 | sase | [`f690e67`](https://github.com/sase-org/sase/commit/f690e6765a12b6fce283f405ed11633a5f0f80a2) | test(ace): add family status convergence repro | [sase-117.1](sase-117.1.md) | 2026-09-15 11:11:58 EDT |
 | sase | [`4e98613`](https://github.com/sase-org/sase/commit/4e98613a1fbbde4e14a9d28ef738b74786c7454e) | fix(ace): target settlement notification refreshes | [sase-117.3](sase-117.3.md) | 2026-09-15 11:57:57 EDT |
 | sase | [`0efad90`](https://github.com/sase-org/sase/commit/0efad90a2c1c4d5b7fb63d7f2e42188a061d47a8) | fix(ace): converge family status refresh | [sase-117.2](sase-117.2.md) | 2026-09-15 12:11:40 EDT |
+| sase | [`21c18cc`](https://github.com/sase-org/sase/commit/21c18cc34bda871773519abfb14982dec2826e87) | test(completion): refresh CLI snapshot | [sase-117.4](sase-117.4.md) | 2026-09-15 12:52:38 EDT |
