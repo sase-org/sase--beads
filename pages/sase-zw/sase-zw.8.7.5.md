@@ -18,7 +18,7 @@ inventory: move shared inventory classification to Rust, apply a whole-pass budg
 ## Dependencies
 
 - **Depends on:** [sase-zw.8.7.4](sase-zw.8.7.4.md) ✓ · ⧖ 2026-09-14
-- **Blocks:** [sase-zw.8.7.6](sase-zw.8.7.6.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-zw.8.7.6](sase-zw.8.7.6.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 

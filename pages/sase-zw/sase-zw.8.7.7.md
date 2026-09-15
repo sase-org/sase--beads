@@ -13,7 +13,7 @@ acceptance: run installed binding and complete verification, add regression evid
 
 ## Dependencies
 
-- **Depends on:** [sase-zw.8.7.6](sase-zw.8.7.6.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-zw.8.7.6](sase-zw.8.7.6.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 
