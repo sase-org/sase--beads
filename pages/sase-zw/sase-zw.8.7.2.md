@@ -18,7 +18,7 @@ procs: reject missing or malformed proc stores, preserve unreadable trees, and b
 ## Dependencies
 
 - **Depends on:** [sase-zw.8.7.1](sase-zw.8.7.1.md) ✓ · ⧖ 2026-09-14
-- **Blocks:** [sase-zw.8.7.3](sase-zw.8.7.3.md) ◐ · ⧖ 2026-09-14
+- **Blocks:** [sase-zw.8.7.3](sase-zw.8.7.3.md) ✓ · ⧖ 2026-09-14
 
 ## Agents
 

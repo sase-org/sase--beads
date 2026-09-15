@@ -13,7 +13,7 @@ objects: prevent healthy checkout reuse from rewriting alternates without eligib
 
 ## Dependencies
 
-- **Depends on:** [sase-zw.8.7.3](sase-zw.8.7.3.md) ◐ · ⧖ 2026-09-14
+- **Depends on:** [sase-zw.8.7.3](sase-zw.8.7.3.md) ✓ · ⧖ 2026-09-14
 - **Blocks:** [sase-zw.8.7.5](sase-zw.8.7.5.md) ◐ · ⧖ 2026-09-14
 
 ## Agents
