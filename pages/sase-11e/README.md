@@ -27,7 +27,7 @@ Make routines and jobs the consistent public AXE vocabulary while preserving sch
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-11e.1](sase-11e.1.md) | Shared configuration names and compatibility contract | ✓ closed | medium | 2026-09-15 | 1 | 1 |
+| [sase-11e.1](sase-11e.1.md) | Shared configuration names and compatibility contract | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 | [sase-11e.2](sase-11e.2.md) | Public job scripts and SDK | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11e.3](sase-11e.3.md) | Commands, structured output, and reference presentation | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11e.4](sase-11e.4.md) | Canonical configuration and AXE presentation | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
@@ -66,7 +66,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.1/README.md) | [sase-11e.1](sase-11e.1.md) | 1 |
+| [bbugyi200.athena.sase-11e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.1/README.md) | [sase-11e.1](sase-11e.1.md) | 2 |
 | [bbugyi200.athena.sase-11e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.2/README.md) | [sase-11e.2](sase-11e.2.md) | 0 |
 | [bbugyi200.athena.sase-11e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.3/README.md) | [sase-11e.3](sase-11e.3.md) | 0 |
 | [bbugyi200.athena.sase-11e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.4/README.md) | [sase-11e.4](sase-11e.4.md) | 0 |
@@ -80,3 +80,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e41f651`](https://github.com/sase-org/sase/commit/e41f651eb9fd6479d105c618d24e0a89db972991) | feat(axe): add routine/job config contract | [sase-11e.1](sase-11e.1.md) | 2026-09-15 17:22:53 EDT |
+| sase-core | [`sase-core@a68ee7d`](https://github.com/sase-org/sase-core/commit/a68ee7ddaccad67330e9d1561ff9a64fab1d0990) | feat(axe): normalize routine/job config names | [sase-11e.1](sase-11e.1.md) | 2026-09-15 17:25:36 EDT |
