@@ -14,7 +14,7 @@ incident-verification: run the integrated harness green without xfails, confirm 
 ## Dependencies
 
 - **Depends on:** [sase-117.2](sase-117.2.md) ◐ · ⧖ 2026-09-15
-- **Depends on:** [sase-117.3](sase-117.3.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-117.3](sase-117.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
