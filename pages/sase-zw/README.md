@@ -71,7 +71,7 @@ flowchart TD
     n17["sase-zw.8.7.2: Refuse proc cleanup when durable protection coverage is incomplete [closed]"]
     n18["sase-zw.8.7.3: Preserve run protections through deletion and empty-shard cleanup [closed]"]
     n19["sase-zw.8.7.4: Apply dependency-preserving repair rules to normal borrower reuse [closed]"]
-    n20["sase-zw.8.7.5: Make inventory bounded and accurate about ownership and coverage [in_progress]"]
+    n20["sase-zw.8.7.5: Make inventory bounded and accurate about ownership and coverage [closed]"]
     n21["sase-zw.8.7.6: Use owner filesystem observations and structured cleanup results [in_progress]"]
     n22["sase-zw.8.7.7: Prove the repaired combined tree and refresh host acceptance [in_progress]"]
     n0 --> n1
@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 0 |
+| [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.6/README.md) | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.7/README.md) | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.land/README.md) | [sase-zw.8.7](sase-zw.8.7.md) | 0 |
@@ -173,3 +173,4 @@ flowchart TD
 | sase-core | [`sase-core@466b310`](https://github.com/sase-org/sase-core/commit/466b3108d5359c4345bfce3be7153c2869f2ccb3) | fix(retention): harden artifact run pruning safety | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:18:30 EDT |
 | sase | [`4e18cf5`](https://github.com/sase-org/sase/commit/4e18cf50e102659b0b717ac4dc45616fc1a1e730) | fix(workspace): guard object-sharing reuse | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2026-09-15 12:08:41 EDT |
 | sase-core | [`sase-core@e6d08ad`](https://github.com/sase-org/sase-core/commit/e6d08ad68fb26108cac0144713905e3e32ce1cb9) | fix(objects): guard existing borrower repoints | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2026-09-15 12:11:15 EDT |
+| sase | [`028c513`](https://github.com/sase-org/sase/commit/028c5137beeed48abef3bf9cc38ce9918423952a) | fix(disk): bound inventory coverage classification | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 2026-09-15 13:17:09 EDT |
