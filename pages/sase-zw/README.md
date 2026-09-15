@@ -137,7 +137,7 @@ flowchart TD
 | [bbugyi200.athena.sase-zw.8.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.1/README.md) | [sase-zw.8.7.1](sase-zw.8.7.1.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.2/README.md) | [sase-zw.8.7.2](sase-zw.8.7.2.md) | 1 |
 | [bbugyi200.athena.sase-zw.8.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.3/README.md) | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2 |
-| [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 1 |
+| [bbugyi200.athena.sase-zw.8.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.4/README.md) | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2 |
 | [bbugyi200.athena.sase-zw.8.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.5/README.md) | [sase-zw.8.7.5](sase-zw.8.7.5.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.6/README.md) | [sase-zw.8.7.6](sase-zw.8.7.6.md) | 0 |
 | [bbugyi200.athena.sase-zw.8.7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-zw.8.7.7/README.md) | [sase-zw.8.7.7](sase-zw.8.7.7.md) | 0 |
@@ -172,3 +172,4 @@ flowchart TD
 | sase | [`53c6c51`](https://github.com/sase-org/sase/commit/53c6c51c3b09ad33239c581d138fc94cff1205cc) | fix(retention): preserve protected artifact runs | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:16:11 EDT |
 | sase-core | [`sase-core@466b310`](https://github.com/sase-org/sase-core/commit/466b3108d5359c4345bfce3be7153c2869f2ccb3) | fix(retention): harden artifact run pruning safety | [sase-zw.8.7.3](sase-zw.8.7.3.md) | 2026-09-15 11:18:30 EDT |
 | sase | [`4e18cf5`](https://github.com/sase-org/sase/commit/4e18cf50e102659b0b717ac4dc45616fc1a1e730) | fix(workspace): guard object-sharing reuse | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2026-09-15 12:08:41 EDT |
+| sase-core | [`sase-core@e6d08ad`](https://github.com/sase-org/sase-core/commit/e6d08ad68fb26108cac0144713905e3e32ce1cb9) | fix(objects): guard existing borrower repoints | [sase-zw.8.7.4](sase-zw.8.7.4.md) | 2026-09-15 12:11:15 EDT |
