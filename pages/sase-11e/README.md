@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.1/README.md) | [sase-11e.8.1](sase-11e.8.1.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.5/README.md) | [sase-11e.8.5](sase-11e.8.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.land/README.md) | [sase-11e.8](sase-11e.8.md) | 0 |
@@ -115,3 +115,4 @@ flowchart TD
 | sase-core | [`sase-core@d4b301f`](https://github.com/sase-org/sase-core/commit/d4b301f0d910979255ddc99551c602bc76bc4dbb) | feat(config): share axe config normalization | [sase-11e.8.1](sase-11e.8.1.md) | 2026-09-16 01:31:18 EDT |
 | sase | [`297e612`](https://github.com/sase-org/sase/commit/297e6122b0411f7b7f3a7caa0c461c4fbc856f21) | feat(config): wire AXE routine job contract consumers | [sase-11e.8.2](sase-11e.8.2.md) | 2026-09-16 02:31:57 EDT |
 | sase | [`e4700fd`](https://github.com/sase-org/sase/commit/e4700fd747fae7a048835cc086a92b516606dc05) | feat(agent-tribes): route job alias behavior through core | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:45:02 EDT |
+| sase-core | [`sase-core@ad13940`](https://github.com/sase-org/sase-core/commit/ad13940a3e1e658a1e17827e3ad3320d78561554) | feat(agent-tribes): add job alias core bindings | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:47:23 EDT |

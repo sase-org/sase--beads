@@ -24,10 +24,11 @@ tribe_identity: preserve stored chop identity while exposing job consistently an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e4700fd`](https://github.com/sase-org/sase/commit/e4700fd747fae7a048835cc086a92b516606dc05) | feat(agent-tribes): route job alias behavior through core | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:45:02 EDT |
+| sase-core | [`sase-core@ad13940`](https://github.com/sase-org/sase-core/commit/ad13940a3e1e658a1e17827e3ad3320d78561554) | feat(agent-tribes): add job alias core bindings | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:47:23 EDT |
