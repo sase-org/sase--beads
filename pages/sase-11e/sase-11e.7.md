@@ -25,7 +25,7 @@ acceptance: verify the combined rename, legacy-input compatibility, unchanged AX
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.6](sase-11e.6.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11e.6](sase-11e.6.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
