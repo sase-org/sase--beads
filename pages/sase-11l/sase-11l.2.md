@@ -19,10 +19,4 @@ hold-store-core: add agent_hold.rs, a TTL-bounded fail-open flock-guarded hold s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.2.md) | [sase-11l.2](sase-11l.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@4ef449d`](https://github.com/sase-org/sase-core/commit/4ef449de9fc232402fc1eee72dbd5b6199438bf7) | feat(agent-hold): add durable hold store | [sase-11l.2](sase-11l.2.md) | 2026-09-15 23:17:28 EDT |
+| [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.2.md) | [sase-11l.2](sase-11l.2.md) | 0 |
