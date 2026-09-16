@@ -17,7 +17,7 @@ A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open h
 |---|---|---|---|---|---:|---:|
 | [sase-11l.1](sase-11l.1.md) | Allow %queue capacity on proc units | ✓ closed | large | 2026-09-15 | 1 | 2 |
 | [sase-11l.10](sase-11l.10.md) | Remove the agent\_holds flag and close out | ◐ in_progress | small | 2026-09-15 | 1 | 0 |
-| [sase-11l.2](sase-11l.2.md) | Rust hold-record store and bindings | ◐ in_progress | large | 2026-09-15 | 1 | 1 |
+| [sase-11l.2](sase-11l.2.md) | Rust hold-record store and bindings | ◐ in_progress | large | 2026-09-15 | 1 | 2 |
 | [sase-11l.3](sase-11l.3.md) | hold-barrier blocker at runner-slot admission | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
 | [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
 | [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
@@ -72,7 +72,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11l.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.1.md) | [sase-11l.1](sase-11l.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.10/README.md) | [sase-11l.10](sase-11l.10.md) | 0 |
-| [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.2.md) | [sase-11l.2](sase-11l.2.md) | 1 |
+| [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.3/README.md) | [sase-11l.3](sase-11l.3.md) | 0 |
 | [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.4/README.md) | [sase-11l.4](sase-11l.4.md) | 0 |
 | [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5/README.md) | [sase-11l.5](sase-11l.5.md) | 0 |
@@ -89,3 +89,4 @@ flowchart TD
 | sase-core | [`sase-core@4ef449d`](https://github.com/sase-org/sase-core/commit/4ef449de9fc232402fc1eee72dbd5b6199438bf7) | feat(agent-hold): add durable hold store | [sase-11l.2](sase-11l.2.md) | 2026-09-15 23:17:28 EDT |
 | sase | [`b6b11f2`](https://github.com/sase-org/sase/commit/b6b11f21556bccae2efcd8c32a161d4171614528) | feat(agent-launch): admit queued proc units | [sase-11l.1](sase-11l.1.md) | 2026-09-15 23:58:04 EDT |
 | sase-core | [`sase-core@20f1dce`](https://github.com/sase-org/sase-core/commit/20f1dce477880f97995eb8ea87fcd48aa0515fc4) | feat(agent-launch): parse proc queue directives | [sase-11l.1](sase-11l.1.md) | 2026-09-16 00:01:16 EDT |
+| sase-core | [`sase-core@a7d5882`](https://github.com/sase-org/sase-core/commit/a7d588263e5a1c69f49dddbb2f72a138382b53a5) | fix(agent-hold): enforce hold boundary semantics | [sase-11l.2](sase-11l.2.md) | 2026-09-16 00:24:24 EDT |
