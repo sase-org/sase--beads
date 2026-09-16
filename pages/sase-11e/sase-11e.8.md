@@ -7,6 +7,18 @@
 **Created:** 2026-09-16 01:04:10 EDT
 **Plan:** [202609/axe\_routine\_job\_landing\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202609/axe_routine_job_landing_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/axe_routine_job_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/axe_routine_job_landing_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 General configuration, automation tribe identity, and public output satisfy the routine/job compatibility contract without changing stored identities or user data.

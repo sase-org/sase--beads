@@ -15,6 +15,18 @@
 >
 > Reopened 2026-09-15T19:41:04Z by a status update
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/axe_routines_jobs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/axe_routines_jobs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Make routines and jobs the consistent public AXE vocabulary while preserving scheduling behavior and existing runtime identities.
@@ -64,6 +76,12 @@ flowchart TD
     n20["sase-11e.8.6.5.1: Route every job tribe operation through contextual identity resolution [closed]"]
     n21["sase-11e.8.6.5.2: Finish canonical live diagnostics without rewriting user data [closed]"]
     n22["sase-11e.8.6.5.3: Prove the complete routine and job upgrade contract [closed]"]
+    n23["sase-11e.8.6.5.4: Close the residual job-tribe identity and routine/job diagnostic gaps [in_progress]"]
+    n24["sase-11e.8.6.5.4.1: Resolve job-tribe identity before any metadata or store write [in_progress]"]
+    n25["sase-11e.8.6.5.4.2: Share one stored-tribe evidence source across wait, fork, and display [in_progress]"]
+    n26["sase-11e.8.6.5.4.3: Canonicalize the remaining live Python routine/job text at its owners [in_progress]"]
+    n27["sase-11e.8.6.5.4.4: Canonicalize the remaining live Rust job validation text [closed]"]
+    n28["sase-11e.8.6.5.4.5: Prove the repaired contract and pass published-floor and full landing gates [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,6 +104,12 @@ flowchart TD
     n19 --> n20
     n19 --> n21
     n19 --> n22
+    n19 --> n23
+    n23 --> n24
+    n23 --> n25
+    n23 --> n26
+    n23 --> n27
+    n23 --> n28
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -101,6 +125,10 @@ flowchart TD
     n17 -.-> n18
     n20 -.-> n22
     n21 -.-> n22
+    n24 -.-> n28
+    n25 -.-> n28
+    n26 -.-> n28
+    n27 -.-> n28
 ```
 
 ## Agents
@@ -126,7 +154,13 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.1/README.md) | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.2/README.md) | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.3/README.md) | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.land/README.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.1/README.md) | [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.2.md) | [sase-11e.8.6.5.4.2](sase-11e.8.6.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.3/README.md) | [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.5/README.md) | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.land/README.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.land.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.land.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
@@ -161,3 +195,4 @@ flowchart TD
 | sase | [`66e20c1`](https://github.com/sase-org/sase/commit/66e20c1c24bba470af1699d15c56ec8dd7c1f350) | fix(axe): canonicalize public job diagnostics | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 2026-09-16 11:47:01 EDT |
 | sase | [`9759e5a`](https://github.com/sase-org/sase/commit/9759e5afe8c0d58906981d04e3381b153334e20f) | fix(agent-tribes): route job-tribe assignment, wait/fork, completion, and display through contextual identity resolution | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 2026-09-16 12:00:06 EDT |
 | sase | [`e17d4e0`](https://github.com/sase-org/sase/commit/e17d4e0c0a28e9992ed3b056192c5a3b9963a752) | test(axe): prove routine job upgrade contract | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 2026-09-16 13:51:29 EDT |
+| sase-core | [`sase-core@f04da63`](https://github.com/sase-org/sase-core/commit/f04da63e5f16d2f842194d54b147de42bcb10d04) | fix(axe-chop): canonicalize live job validation and target wording | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 2026-09-16 16:22:34 EDT |

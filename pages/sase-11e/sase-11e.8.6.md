@@ -7,6 +7,18 @@
 **Created:** 2026-09-16 06:01:35 EDT
 **Plan:** [202609/routine\_job\_final\_contract\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202609/routine_job_final_contract_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/routine_job_final_contract_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/routine_job_final_contract_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete the remaining routine/job compatibility contracts with reproducible production-path acceptance.
