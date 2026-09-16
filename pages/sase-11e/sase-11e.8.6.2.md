@@ -24,10 +24,11 @@ tribe_safety: connect provenance-aware Rust resolution to config validation, ass
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`edde28a`](https://github.com/sase-org/sase/commit/edde28a8dd4bd4aec063dcdea9786deb3f2d46f6) | feat(agent-tribes): enforce provenance-aware tribe resolution | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2026-09-16 07:45:27 EDT |
+| sase-core | [`sase-core@d0f9cf8`](https://github.com/sase-org/sase-core/commit/d0f9cf85256c21a954a6561d8919841408c45800) | feat(agent-tribes): add context-aware identity resolution | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2026-09-16 07:47:51 EDT |
