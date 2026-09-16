@@ -13,11 +13,17 @@ hold-blocker-agents: consult hold records under runner_slots.lock via a new hold
 
 ## Dependencies
 
-- **Depends on:** [sase-11l.2](sase-11l.2.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11l.2](sase-11l.2.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11l.4](sase-11l.4.md) ◐ · ⧖ 2026-09-15
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.3/README.md) | [sase-11l.3](sase-11l.3.md) | 0 |
+| [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c174144`](https://github.com/sase-org/sase/commit/c1741443d96c51dc8144a2209e1f1f6c457db45e) | feat(agent-hold): enforce hold barriers in runner admission | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:30:27 EDT |
