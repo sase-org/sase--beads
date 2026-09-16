@@ -63,7 +63,7 @@ flowchart TD
     n19["sase-11e.8.6.5: Finish contextual job identity and public diagnostic contracts [in_progress]"]
     n20["sase-11e.8.6.5.1: Route every job tribe operation through contextual identity resolution [closed]"]
     n21["sase-11e.8.6.5.2: Finish canonical live diagnostics without rewriting user data [closed]"]
-    n22["sase-11e.8.6.5.3: Prove the complete routine and job upgrade contract [in_progress]"]
+    n22["sase-11e.8.6.5.3: Prove the complete routine and job upgrade contract [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.1/README.md) | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.2/README.md) | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.3/README.md) | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.3/README.md) | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.land/README.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.land.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
@@ -160,3 +160,4 @@ flowchart TD
 | sase | [`8c9d047`](https://github.com/sase-org/sase/commit/8c9d04759bb441d99211d0be1f4afb7698032012) | test(axe): verify routine job core upgrade contract | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 2026-09-16 09:26:39 EDT |
 | sase | [`66e20c1`](https://github.com/sase-org/sase/commit/66e20c1c24bba470af1699d15c56ec8dd7c1f350) | fix(axe): canonicalize public job diagnostics | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 2026-09-16 11:47:01 EDT |
 | sase | [`9759e5a`](https://github.com/sase-org/sase/commit/9759e5afe8c0d58906981d04e3381b153334e20f) | fix(agent-tribes): route job-tribe assignment, wait/fork, completion, and display through contextual identity resolution | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 2026-09-16 12:00:06 EDT |
+| sase | [`e17d4e0`](https://github.com/sase-org/sase/commit/e17d4e0c0a28e9992ed3b056192c5a3b9963a752) | test(axe): prove routine job upgrade contract | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 2026-09-16 13:51:29 EDT |

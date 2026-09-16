@@ -82,7 +82,7 @@ a named sibling phase/bead.
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
