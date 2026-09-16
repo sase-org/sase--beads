@@ -23,7 +23,7 @@ A keyword argument such as `#research_swarm(lead_model=claude-fable-5)` reads as
 |---|---|---|---|---|---:|---:|
 | [sase-11i.1](sase-11i.1.md) | Argument span grammar in the Rust core | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11i.2](sase-11i.2.md) | LSP semantic tokens for argument structure | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11i.3](sase-11i.3.md) | Neovim legend safety and default highlight links | ✓ closed | small | 2026-09-15 | 1 | 0 |
+| [sase-11i.3](sase-11i.3.md) | Neovim legend safety and default highlight links | ✓ closed | small | 2026-09-15 | 1 | 1 |
 | [sase-11i.4](sase-11i.4.md) | ACE prompt widget argument rendering | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11i.5](sase-11i.5.md) | Visual snapshots and cross-surface parity | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 
@@ -69,13 +69,13 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.1/README.md) | [sase-11i.1](sase-11i.1.md) | 1 |
 | [bbugyi200.athena.sase-11i.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.2/README.md) | [sase-11i.2](sase-11i.2.md) | 1 |
-| [bbugyi200.athena.sase-11i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.3/README.md) | [sase-11i.3](sase-11i.3.md) | 0 |
+| [bbugyi200.athena.sase-11i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.3/README.md) | [sase-11i.3](sase-11i.3.md) | 1 |
 | [bbugyi200.athena.sase-11i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.4/README.md) | [sase-11i.4](sase-11i.4.md) | 1 |
 | [bbugyi200.athena.sase-11i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.5/README.md) | [sase-11i.5](sase-11i.5.md) | 1 |
 | [bbugyi200.athena.sase-11i.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.1/README.md) | [sase-11i.6.1](sase-11i.6.1.md) | 1 |
-| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 1 |
+| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 2 |
 | [bbugyi200.athena.sase-11i.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.3/README.md) | [sase-11i.6.3](sase-11i.6.3.md) | 1 |
-| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 0 |
+| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 1 |
 | [bbugyi200.athena.sase-11i.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.land/README.md) | [sase-11i.6](sase-11i.6.md) | 0 |
 | [bbugyi200.athena.sase-11i.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11i.land.md) | [sase-11i](README.md) | 0 |
 
@@ -85,8 +85,11 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@4c25db2`](https://github.com/sase-org/sase-core/commit/4c25db2f59c9dbb18638bacdb2e288665485b105) | feat: add xprompt argument span grammar | [sase-11i.1](sase-11i.1.md) | 2026-09-15 21:41:21 EDT |
 | sase-core | [`sase-core@f07bf53`](https://github.com/sase-org/sase-core/commit/f07bf53906f406fd51318068896739eaa34fcf2b) | feat(xprompt-lsp): emit argument semantic tokens | [sase-11i.2](sase-11i.2.md) | 2026-09-15 21:59:58 EDT |
+| sase-nvim | [`sase-nvim@502e716`](https://github.com/sase-org/sase-nvim/commit/502e716ada561bb8f1eba1f97f696edd9bdcc62c) | feat(nvim): highlight xprompt argument semantic tokens | [sase-11i.3](sase-11i.3.md) | 2026-09-15 22:14:21 EDT |
 | sase | [`6847172`](https://github.com/sase-org/sase/commit/6847172922e4e0486659ea5b30af74d72ef08ad1) | feat(tui): render xprompt argument spans | [sase-11i.4](sase-11i.4.md) | 2026-09-15 23:23:02 EDT |
 | sase | [`649be3c`](https://github.com/sase-org/sase/commit/649be3cb27d016bab20e2323dd9a646482428aa6) | test(xprompt): pin argument highlight parity | [sase-11i.5](sase-11i.5.md) | 2026-09-16 00:16:31 EDT |
 | sase-core | [`sase-core@874077c`](https://github.com/sase-org/sase-core/commit/874077cf7f4d6cd8982b8e62925a11e9bdd63075) | fix(editor): preserve open argument spans | [sase-11i.6.1](sase-11i.6.1.md) | 2026-09-16 01:02:10 EDT |
 | sase-core | [`sase-core@6e2891d`](https://github.com/sase-org/sase-core/commit/6e2891d392b6cae2c7c65783fd5a68e8d46c824c) | feat(lsp): complete xprompt semantic token coverage | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:28:36 EDT |
+| sase-nvim | [`sase-nvim@3115d9d`](https://github.com/sase-org/sase-nvim/commit/3115d9dbdf023d1fef31720ebd1fc41860d609a8) | test(lsp): assert xprompt name and multiline tokens | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:31:10 EDT |
 | sase | [`bc31781`](https://github.com/sase-org/sase/commit/bc317812514ce1e505800a813399f402908cbdec) | fix(xprompt): preserve directive argument styling | [sase-11i.6.3](sase-11i.6.3.md) | 2026-09-16 01:47:03 EDT |
+| sase | [`9da164c`](https://github.com/sase-org/sase/commit/9da164cb06b589e4aeb31e2c84ce225ba4d39c1b) | test(xprompt): verify real lsp argument parity | [sase-11i.6.4](sase-11i.6.4.md) | 2026-09-16 02:58:25 EDT |
