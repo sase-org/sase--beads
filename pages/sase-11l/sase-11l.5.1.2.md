@@ -19,4 +19,4 @@ arm-runtime: extend the Rust hold store with a pending-launch armer kind, arm-ti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2/README.md) | [sase-11l.5.1.2](sase-11l.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.md) | [sase-11l.5.1.2](sase-11l.5.1.2.md) | 0 |
