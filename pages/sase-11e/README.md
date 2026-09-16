@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.5.md) | [sase-11e.8.5](sase-11e.8.5.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 0 |
@@ -138,3 +138,4 @@ flowchart TD
 | sase-core | [`sase-core@fe1a17b`](https://github.com/sase-org/sase-core/commit/fe1a17bc486ac3474c3b1ae5e10427525cb39f1c) | feat(axe): add public status projection | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:35:31 EDT |
 | sase | [`db48ae5`](https://github.com/sase-org/sase/commit/db48ae56dfb5b5ae955182e84bf36ef057d37db1) | test(axe): update routine job acceptance goldens | [sase-11e.8.5](sase-11e.8.5.md) | 2026-09-16 05:46:25 EDT |
 | sase | [`7d2cac7`](https://github.com/sase-org/sase/commit/7d2cac73b6d82432de0415dae1a43b3022c8bcaf) | fix(config): preserve axe source edit paths | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2026-09-16 06:41:18 EDT |
+| sase-core | [`sase-core@35430d9`](https://github.com/sase-org/sase-core/commit/35430d9fae777c42085923e5a6f069dbb29683a0) | fix(config): preserve axe source edit paths | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2026-09-16 06:43:42 EDT |

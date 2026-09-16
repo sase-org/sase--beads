@@ -23,10 +23,11 @@ source_edits: repair inherited-leaf and list-form source editing through the sha
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7d2cac7`](https://github.com/sase-org/sase/commit/7d2cac73b6d82432de0415dae1a43b3022c8bcaf) | fix(config): preserve axe source edit paths | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2026-09-16 06:41:18 EDT |
+| sase-core | [`sase-core@35430d9`](https://github.com/sase-org/sase-core/commit/35430d9fae777c42085923e5a6f069dbb29683a0) | fix(config): preserve axe source edit paths | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2026-09-16 06:43:42 EDT |
