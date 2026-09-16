@@ -23,6 +23,8 @@ Make routines and jobs the consistent public AXE vocabulary while preserving sch
 
 [2026-09-15T19:41:13Z · bryanbugyi34@gmail.com] I changed my mind on this. Routine still works better since it implies recurrence.
 
+[2026-09-16T05:02:37Z · sase-11e.land] LANDING AUDIT 2026-09-16 at SASE a7029f02c8: read the epic note, all notes on all seven closed phases, the linked plan, epic commits in SASE/core/Telegram/chezmoi, and intervening non-epic commit paths. The repeated owner note selecting Routine is reflected in the implementation. Landing is incomplete: general config merge/inventory/show/edit still bypass the Rust AXE alias projection; a legacy default interval 5 plus canonical user interval 19 yields two general inventory trees instead of the runtime value 19. Python job tribe aliasing silently selects independently configured job display metadata for stored chop, with no collision diagnostic. Public status recursively substitutes user names, IDs and paths (chop-watch and /tmp/lumberjacks/chop-watch.log become job-watch and /tmp/routines/job-watch.log); doctor rewrites an actual /tmp/sase_chop_test executable path. Core/editor diagnostic templates still leak old terminology. Planning only these remaining contracts and combined acceptance as a child epic with parent_bead sase-11e. 107 focused AXE config/status/doctor/SDK/runner, retention, and object-sharing tests passed. PROPOSED FOLLOW-UP outcomes: phase 4 note 2 wire alignment is resolved by 6c76f29d75/6fca91cdc7 and phase 5 retention wire v3; no new task. Phase 4 note 3 tribe collisions remain epic work and enter the child plan. Phase 5 note 2 missing busted was reproduced with chezmoi just check and just test-nvim, exit 127; recorded small CI task sase-11m, evidence file:explicit:604a46eb5672a96d747773f2. Evidence attachment separately reproduced existing sase-10y and received corroboration. Intervening retention safety, queue/hold, xprompt, cache and timeout changes reviewed; preserve preview-only deletion and new admission semantics. Rechecked sase-github, sase-nvim and sase-research-artifacts with no new routine/job integration matches. No epic-symbol entries. No epic close or plan done update performed; full combined check-full and remaining acceptance belong after repairs.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -31,9 +33,9 @@ Make routines and jobs the consistent public AXE vocabulary while preserving sch
 | [sase-11e.2](sase-11e.2.md) | Public job scripts and SDK | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11e.3](sase-11e.3.md) | Commands, structured output, and reference presentation | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 | [sase-11e.4](sase-11e.4.md) | Canonical configuration and AXE presentation | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11e.5](sase-11e.5.md) | Telegram scripts and maintained operator configuration | ✓ closed | medium | 2026-09-15 | 1 | 3 |
+| [sase-11e.5](sase-11e.5.md) | Telegram scripts and maintained operator configuration | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11e.6](sase-11e.6.md) | Current documentation, glossary, and visual examples | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 2 |
+| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 
 ## Lineage
 
@@ -47,6 +49,12 @@ flowchart TD
     n5["sase-11e.5: Telegram scripts and maintained operator configuration [closed]"]
     n6["sase-11e.6: Current documentation, glossary, and visual examples [closed]"]
     n7["sase-11e.7: Combined contract and upgrade verification [closed]"]
+    n8["sase-11e.8: Complete the AXE routine/job landing contracts [in_progress]"]
+    n9["sase-11e.8.1: Share structural AXE normalization with general configuration [closed]"]
+    n10["sase-11e.8.2: Connect canonical config views and editors [in_progress]"]
+    n11["sase-11e.8.3: Resolve automation tribe aliases and collisions in Rust [in_progress]"]
+    n12["sase-11e.8.4: Preserve data while completing routine and job presentation [in_progress]"]
+    n13["sase-11e.8.5: Prove the repaired upgrade contract and integration [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,12 +62,22 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
+    n9 -.-> n10
+    n10 -.-> n11
+    n11 -.-> n12
+    n12 -.-> n13
 ```
 
 ## Agents
@@ -70,10 +88,16 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.2/README.md) | [sase-11e.2](sase-11e.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.3/README.md) | [sase-11e.3](sase-11e.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.4/README.md) | [sase-11e.4](sase-11e.4.md) | 1 |
-| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 3 |
+| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 1 |
 | [bbugyi200.athena.sase-11e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.6/README.md) | [sase-11e.6](sase-11e.6.md) | 1 |
-| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 2 |
-| [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.land/README.md) | [sase-11e](README.md) | 0 |
+| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.1/README.md) | [sase-11e.8.1](sase-11e.8.1.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.5/README.md) | [sase-11e.8.5](sase-11e.8.5.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.land/README.md) | [sase-11e.8](sase-11e.8.md) | 0 |
+| [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
 
 ## Commits
 
@@ -86,8 +110,6 @@ flowchart TD
 | sase-core | [`sase-core@6be757c`](https://github.com/sase-org/sase-core/commit/6be757c19565003c75d61efdf89cb7764adeec6b) | feat(artifact-ref): add job alias for chop refs | [sase-11e.3](sase-11e.3.md) | 2026-09-15 20:16:09 EDT |
 | sase | [`53ba460`](https://github.com/sase-org/sase/commit/53ba46064937d53c3c3c9902542aadf5fe3831bb) | feat(axe): publish routine and job presentation | [sase-11e.4](sase-11e.4.md) | 2026-09-15 21:31:54 EDT |
 | sase | [`45a2244`](https://github.com/sase-org/sase/commit/45a2244ad10d7375fd34d25771e4f98926ab1e33) | feat(axe): support telegram job entrypoint migration | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:00:54 EDT |
-| chezmoi | [`chezmoi@8b28cb1`](https://github.com/bbugyi200/dotfiles/commit/8b28cb164ae1486d0126f24ea569a5a19c17c6cb) | chore(config): update axe job config and completions | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:04:24 EDT |
-| sase-telegram | [`sase-telegram@ab9d985`](https://github.com/sase-org/sase-telegram/commit/ab9d985d29927872e69ca487bf7c7b902d62c22a) | feat(telegram): add canonical job entrypoints | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:07:13 EDT |
 | sase | [`9f01691`](https://github.com/sase-org/sase/commit/9f01691ce063fc94dcdd580ccbf13b147c3aa815) | docs(axe): update routine job terminology | [sase-11e.6](sase-11e.6.md) | 2026-09-15 23:39:44 EDT |
 | sase | [`a7029f0`](https://github.com/sase-org/sase/commit/a7029f02c8e75508097ec558c52a1efd8b207a06) | fix(axe): finish routine job acceptance cleanup | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:41:42 EDT |
-| chezmoi | [`chezmoi@fe65414`](https://github.com/bbugyi200/dotfiles/commit/fe65414dbb396bc91bfb11643f0ee181b88399b4) | chore(completion): refresh sase axe routine help | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:44:04 EDT |
+| sase-core | [`sase-core@d4b301f`](https://github.com/sase-org/sase-core/commit/d4b301f0d910979255ddc99551c602bc76bc4dbb) | feat(config): share axe config normalization | [sase-11e.8.1](sase-11e.8.1.md) | 2026-09-16 01:31:18 EDT |

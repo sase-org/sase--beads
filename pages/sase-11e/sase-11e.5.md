@@ -36,12 +36,10 @@ integrations: update Telegram public entrypoints and documentation, maintained c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 3 |
+| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`45a2244`](https://github.com/sase-org/sase/commit/45a2244ad10d7375fd34d25771e4f98926ab1e33) | feat(axe): support telegram job entrypoint migration | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:00:54 EDT |
-| chezmoi | [`chezmoi@8b28cb1`](https://github.com/bbugyi200/dotfiles/commit/8b28cb164ae1486d0126f24ea569a5a19c17c6cb) | chore(config): update axe job config and completions | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:04:24 EDT |
-| sase-telegram | [`sase-telegram@ab9d985`](https://github.com/sase-org/sase-telegram/commit/ab9d985d29927872e69ca487bf7c7b902d62c22a) | feat(telegram): add canonical job entrypoints | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:07:13 EDT |
