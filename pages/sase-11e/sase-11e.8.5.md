@@ -13,7 +13,7 @@ acceptance: complete isolated end-to-end, visual, generated-output, binding, and
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.4](sase-11e.8.4.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.4](sase-11e.8.4.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

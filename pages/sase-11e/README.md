@@ -53,7 +53,7 @@ flowchart TD
     n9["sase-11e.8.1: Share structural AXE normalization with general configuration [closed]"]
     n10["sase-11e.8.2: Connect canonical config views and editors [closed]"]
     n11["sase-11e.8.3: Resolve automation tribe aliases and collisions in Rust [closed]"]
-    n12["sase-11e.8.4: Preserve data while completing routine and job presentation [in_progress]"]
+    n12["sase-11e.8.4: Preserve data while completing routine and job presentation [closed]"]
     n13["sase-11e.8.5: Prove the repaired upgrade contract and integration [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.1/README.md) | [sase-11e.8.1](sase-11e.8.1.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 2 |
-| [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.5/README.md) | [sase-11e.8.5](sase-11e.8.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.land/README.md) | [sase-11e.8](sase-11e.8.md) | 0 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
@@ -116,3 +116,4 @@ flowchart TD
 | sase | [`297e612`](https://github.com/sase-org/sase/commit/297e6122b0411f7b7f3a7caa0c461c4fbc856f21) | feat(config): wire AXE routine job contract consumers | [sase-11e.8.2](sase-11e.8.2.md) | 2026-09-16 02:31:57 EDT |
 | sase | [`e4700fd`](https://github.com/sase-org/sase/commit/e4700fd747fae7a048835cc086a92b516606dc05) | feat(agent-tribes): route job alias behavior through core | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:45:02 EDT |
 | sase-core | [`sase-core@ad13940`](https://github.com/sase-org/sase-core/commit/ad13940a3e1e658a1e17827e3ad3320d78561554) | feat(agent-tribes): add job alias core bindings | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:47:23 EDT |
+| sase | [`c5527a0`](https://github.com/sase-org/sase/commit/c5527a0e62fda19e8edd83ee6cb8a2cf1be0be4f) | fix(axe): preserve public output payload values | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:33:09 EDT |
