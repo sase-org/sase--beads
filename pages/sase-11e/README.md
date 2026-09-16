@@ -78,7 +78,7 @@ flowchart TD
     n22["sase-11e.8.6.5.3: Prove the complete routine and job upgrade contract [closed]"]
     n23["sase-11e.8.6.5.4: Close the residual job-tribe identity and routine/job diagnostic gaps [in_progress]"]
     n24["sase-11e.8.6.5.4.1: Resolve job-tribe identity before any metadata or store write [in_progress]"]
-    n25["sase-11e.8.6.5.4.2: Share one stored-tribe evidence source across wait, fork, and display [in_progress]"]
+    n25["sase-11e.8.6.5.4.2: Share one stored-tribe evidence source across wait, fork, and display [closed]"]
     n26["sase-11e.8.6.5.4.3: Canonicalize the remaining live Python routine/job text at its owners [in_progress]"]
     n27["sase-11e.8.6.5.4.4: Canonicalize the remaining live Rust job validation text [closed]"]
     n28["sase-11e.8.6.5.4.5: Prove the repaired contract and pass published-floor and full landing gates [in_progress]"]
@@ -155,9 +155,9 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.2/README.md) | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.3/README.md) | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.1/README.md) | [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) | 0 |
-| [bbugyi200.athena.sase-11e.8.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.2.md) | [sase-11e.8.6.5.4.2](sase-11e.8.6.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.2.md) | [sase-11e.8.6.5.4.2](sase-11e.8.6.5.4.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.3/README.md) | [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) | 0 |
-| [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.5/README.md) | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.land/README.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.land.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
@@ -195,4 +195,4 @@ flowchart TD
 | sase | [`66e20c1`](https://github.com/sase-org/sase/commit/66e20c1c24bba470af1699d15c56ec8dd7c1f350) | fix(axe): canonicalize public job diagnostics | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 2026-09-16 11:47:01 EDT |
 | sase | [`9759e5a`](https://github.com/sase-org/sase/commit/9759e5afe8c0d58906981d04e3381b153334e20f) | fix(agent-tribes): route job-tribe assignment, wait/fork, completion, and display through contextual identity resolution | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 2026-09-16 12:00:06 EDT |
 | sase | [`e17d4e0`](https://github.com/sase-org/sase/commit/e17d4e0c0a28e9992ed3b056192c5a3b9963a752) | test(axe): prove routine job upgrade contract | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 2026-09-16 13:51:29 EDT |
-| sase-core | [`sase-core@f04da63`](https://github.com/sase-org/sase-core/commit/f04da63e5f16d2f842194d54b147de42bcb10d04) | fix(axe-chop): canonicalize live job validation and target wording | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 2026-09-16 16:22:34 EDT |
+| sase | [`bb839b4`](https://github.com/sase-org/sase/commit/bb839b4ea8843997145e5595d48f9a519745c0f8) | fix(tribe): share one stored-tribe evidence source across wait, fork, and display | [sase-11e.8.6.5.4.2](sase-11e.8.6.5.4.2.md) | 2026-09-16 16:45:12 EDT |
