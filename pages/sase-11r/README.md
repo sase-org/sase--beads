@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11r.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11r.1.md) | [sase-11r.1](sase-11r.1.md) | 1 |
 | [bbugyi200.athena.sase-11r.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.2/README.md) | [sase-11r.2](sase-11r.2.md) | 1 |
 | [bbugyi200.athena.sase-11r.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.3/README.md) | [sase-11r.3](sase-11r.3.md) | 1 |
-| [bbugyi200.athena.sase-11r.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.land/README.md) | [sase-11r](README.md) | 1 |
+| [bbugyi200.athena.sase-11r.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.land/README.md) | [sase-11r](README.md) | 2 |
 
 ## Commits
 
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`44f4c44`](https://github.com/sase-org/sase/commit/44f4c441706f5c58ab92a9fe503954d154fa2b95) | fix(monitor): close the monitor-settles-before-starter race | [sase-11r.1](sase-11r.1.md) | 2026-09-16 13:07:09 EDT |
 | sase | [`fb1e7f5`](https://github.com/sase-org/sase/commit/fb1e7f576b6c99a87a136094df9ce1b468e186fd) | fix(monitor): preserve recovery evidence for not-launchable follow-ups | [sase-11r.2](sase-11r.2.md) | 2026-09-16 14:29:12 EDT |
 | sase | [`d0d5720`](https://github.com/sase-org/sase/commit/d0d5720b25937dd0e343011a8453f3eb730101bc) | fix(monitor): let monitor resume repair a missing starter parent | [sase-11r](README.md) | 2026-09-16 17:43:26 EDT |
+| sase--plans | [`sase--plans@7d16d80`](https://github.com/sase-org/sase--plans/commit/7d16d80c3f029aeecf4e2d9435d1ff2e069b449f) | chore(plans): mark monitor verify handoff hardening epic done | [sase-11r](README.md) | 2026-09-16 17:46:02 EDT |
