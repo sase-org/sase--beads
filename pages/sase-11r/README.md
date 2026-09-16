@@ -15,7 +15,7 @@ A fast-settling verify monitor no longer strands its family: the follow-up still
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-11r.1](sase-11r.1.md) | Close the monitor-settles-before-starter race | ◐ in_progress | medium | 2026-09-16 | 1 | 0 |
+| [sase-11r.1](sase-11r.1.md) | Close the monitor-settles-before-starter race | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11r.2](sase-11r.2.md) | Preserve worktree evidence on not-launchable follow-ups | ◐ in_progress | medium | 2026-09-16 | 1 | 0 |
 | [sase-11r.3](sase-11r.3.md) | Stop monitor start from destroying command quoting | ✓ closed | small | 2026-09-16 | 1 | 1 |
 
@@ -24,7 +24,7 @@ A fast-settling verify monitor no longer strands its family: the follow-up still
 ```mermaid
 flowchart TD
     n0["sase-11r: Harden the monitor verify handoff (sase-11o.1 failure class) [in_progress]"]
-    n1["sase-11r.1: Close the monitor-settles-before-starter race [in_progress]"]
+    n1["sase-11r.1: Close the monitor-settles-before-starter race [closed]"]
     n2["sase-11r.2: Preserve worktree evidence on not-launchable follow-ups [in_progress]"]
     n3["sase-11r.3: Stop monitor start from destroying command quoting [closed]"]
     n0 --> n1
@@ -37,7 +37,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11r.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11r.1.md) | [sase-11r.1](sase-11r.1.md) | 0 |
+| [bbugyi200.athena.sase-11r.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11r.1.md) | [sase-11r.1](sase-11r.1.md) | 1 |
 | [bbugyi200.athena.sase-11r.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.2/README.md) | [sase-11r.2](sase-11r.2.md) | 0 |
 | [bbugyi200.athena.sase-11r.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.3/README.md) | [sase-11r.3](sase-11r.3.md) | 1 |
 | [bbugyi200.athena.sase-11r.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11r.land/README.md) | [sase-11r](README.md) | 0 |
@@ -47,3 +47,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a36ff57`](https://github.com/sase-org/sase/commit/a36ff57c9d462edc77d000938724053459f9e529) | fix(monitor): stop monitor start from destroying command quoting | [sase-11r.3](sase-11r.3.md) | 2026-09-16 10:47:17 EDT |
+| sase | [`44f4c44`](https://github.com/sase-org/sase/commit/44f4c441706f5c58ab92a9fe503954d154fa2b95) | fix(monitor): close the monitor-settles-before-starter race | [sase-11r.1](sase-11r.1.md) | 2026-09-16 13:07:09 EDT |

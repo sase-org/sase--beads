@@ -13,7 +13,7 @@ recovery-evidence: snapshot the monitored workspace's uncommitted diff before cl
 
 ## Dependencies
 
-- **Depends on:** [sase-11r.1](sase-11r.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11r.1](sase-11r.1.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
