@@ -13,7 +13,7 @@ tribe_identity: preserve stored chop identity while exposing job consistently an
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.2](sase-11e.8.2.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.2](sase-11e.8.2.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11e.8.4](sase-11e.8.4.md) ◐ · ⧖ 2026-09-16
 
 ## Agents

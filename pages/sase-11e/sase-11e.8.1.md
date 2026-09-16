@@ -17,7 +17,7 @@ shared_config: complete Rust normalization, projection, provenance, and source-p
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.8.2](sase-11e.8.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.2](sase-11e.8.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

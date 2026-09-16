@@ -51,7 +51,7 @@ flowchart TD
     n7["sase-11e.7: Combined contract and upgrade verification [closed]"]
     n8["sase-11e.8: Complete the AXE routine/job landing contracts [in_progress]"]
     n9["sase-11e.8.1: Share structural AXE normalization with general configuration [closed]"]
-    n10["sase-11e.8.2: Connect canonical config views and editors [in_progress]"]
+    n10["sase-11e.8.2: Connect canonical config views and editors [closed]"]
     n11["sase-11e.8.3: Resolve automation tribe aliases and collisions in Rust [in_progress]"]
     n12["sase-11e.8.4: Preserve data while completing routine and job presentation [in_progress]"]
     n13["sase-11e.8.5: Prove the repaired upgrade contract and integration [in_progress]"]
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.6/README.md) | [sase-11e.6](sase-11e.6.md) | 1 |
 | [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.1/README.md) | [sase-11e.8.1](sase-11e.8.1.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.5/README.md) | [sase-11e.8.5](sase-11e.8.5.md) | 0 |
@@ -113,3 +113,4 @@ flowchart TD
 | sase | [`9f01691`](https://github.com/sase-org/sase/commit/9f01691ce063fc94dcdd580ccbf13b147c3aa815) | docs(axe): update routine job terminology | [sase-11e.6](sase-11e.6.md) | 2026-09-15 23:39:44 EDT |
 | sase | [`a7029f0`](https://github.com/sase-org/sase/commit/a7029f02c8e75508097ec558c52a1efd8b207a06) | fix(axe): finish routine job acceptance cleanup | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:41:42 EDT |
 | sase-core | [`sase-core@d4b301f`](https://github.com/sase-org/sase-core/commit/d4b301f0d910979255ddc99551c602bc76bc4dbb) | feat(config): share axe config normalization | [sase-11e.8.1](sase-11e.8.1.md) | 2026-09-16 01:31:18 EDT |
+| sase | [`297e612`](https://github.com/sase-org/sase/commit/297e6122b0411f7b7f3a7caa0c461c4fbc856f21) | feat(config): wire AXE routine job contract consumers | [sase-11e.8.2](sase-11e.8.2.md) | 2026-09-16 02:31:57 EDT |
