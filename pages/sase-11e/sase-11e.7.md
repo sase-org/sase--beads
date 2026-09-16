@@ -33,10 +33,11 @@ acceptance: verify the combined rename, legacy-input compatibility, unchanged AX
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
+| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a7029f0`](https://github.com/sase-org/sase/commit/a7029f02c8e75508097ec558c52a1efd8b207a06) | fix(axe): finish routine job acceptance cleanup | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:41:42 EDT |
+| chezmoi | [`chezmoi@fe65414`](https://github.com/bbugyi200/dotfiles/commit/fe65414dbb396bc91bfb11643f0ee181b88399b4) | chore(completion): refresh sase axe routine help | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:44:04 EDT |

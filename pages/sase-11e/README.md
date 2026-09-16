@@ -33,7 +33,7 @@ Make routines and jobs the consistent public AXE vocabulary while preserving sch
 | [sase-11e.4](sase-11e.4.md) | Canonical configuration and AXE presentation | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11e.5](sase-11e.5.md) | Telegram scripts and maintained operator configuration | ✓ closed | medium | 2026-09-15 | 1 | 3 |
 | [sase-11e.6](sase-11e.6.md) | Current documentation, glossary, and visual examples | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 1 |
+| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.4/README.md) | [sase-11e.4](sase-11e.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 3 |
 | [bbugyi200.athena.sase-11e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.6/README.md) | [sase-11e.6](sase-11e.6.md) | 1 |
-| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
+| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 2 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.land/README.md) | [sase-11e](README.md) | 0 |
 
 ## Commits
@@ -90,3 +90,4 @@ flowchart TD
 | sase-telegram | [`sase-telegram@ab9d985`](https://github.com/sase-org/sase-telegram/commit/ab9d985d29927872e69ca487bf7c7b902d62c22a) | feat(telegram): add canonical job entrypoints | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:07:13 EDT |
 | sase | [`9f01691`](https://github.com/sase-org/sase/commit/9f01691ce063fc94dcdd580ccbf13b147c3aa815) | docs(axe): update routine job terminology | [sase-11e.6](sase-11e.6.md) | 2026-09-15 23:39:44 EDT |
 | sase | [`a7029f0`](https://github.com/sase-org/sase/commit/a7029f02c8e75508097ec558c52a1efd8b207a06) | fix(axe): finish routine job acceptance cleanup | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:41:42 EDT |
+| chezmoi | [`chezmoi@fe65414`](https://github.com/bbugyi200/dotfiles/commit/fe65414dbb396bc91bfb11643f0ee181b88399b4) | chore(completion): refresh sase axe routine help | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:44:04 EDT |
