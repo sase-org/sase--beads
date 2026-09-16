@@ -28,7 +28,7 @@ documentation: update maintained guides, executable examples, glossary definitio
 ## Dependencies
 
 - **Depends on:** [sase-11e.5](sase-11e.5.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11e.7](sase-11e.7.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11e.7](sase-11e.7.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
