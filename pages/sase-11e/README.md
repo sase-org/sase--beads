@@ -59,7 +59,7 @@ flowchart TD
     n15["sase-11e.8.6.1: Preserve existing AXE source structure for generic edits [closed]"]
     n16["sase-11e.8.6.2: Enforce the shared automation tribe collision contract [closed]"]
     n17["sase-11e.8.6.3: Finish canonical diagnostic templates without changing user data [closed]"]
-    n18["sase-11e.8.6.4: Align the CI core pin and prove the combined upgrade contract [in_progress]"]
+    n18["sase-11e.8.6.4: Align the CI core pin and prove the combined upgrade contract [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2 |
-| [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.land/README.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
@@ -143,3 +143,4 @@ flowchart TD
 | sase-core | [`sase-core@d0f9cf8`](https://github.com/sase-org/sase-core/commit/d0f9cf85256c21a954a6561d8919841408c45800) | feat(agent-tribes): add context-aware identity resolution | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2026-09-16 07:47:51 EDT |
 | sase | [`5620b5b`](https://github.com/sase-org/sase/commit/5620b5b2de52984309466881975dfed2d4108990) | fix(axe): render public routine diagnostics | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:46:07 EDT |
 | sase-core | [`sase-core@51c7c38`](https://github.com/sase-org/sase-core/commit/51c7c38d6d1192fad0a3c807cc233b7ccdcb1acf) | fix(axe): canonicalize routine diagnostic templates | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:48:42 EDT |
+| sase | [`8c9d047`](https://github.com/sase-org/sase/commit/8c9d04759bb441d99211d0be1f4afb7698032012) | test(axe): verify routine job core upgrade contract | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 2026-09-16 09:26:39 EDT |
