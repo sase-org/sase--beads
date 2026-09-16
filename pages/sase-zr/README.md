@@ -15,6 +15,55 @@ Publish durable tale and epic approval decisions and refresh ACE and Telegram pr
 
 [2026-09-14T16:14:51Z · 0kp] DISCOVERED ISSUE: Telegram inbound is completely dead on athena since 2026-09-13 ~19:12 EDT — the supervised long-poll receiver introduced by sase-zr.5 (sase-telegram 829e738) can never launch. receiver.py submits argv ['sase_chop_tg_inbound','--receiver'] through sase.procs.submit_proc_request, but the proc supervisor resolves that bare console-script name against the host services' PATH, which does not include the uv tool venv bin (~/.local/share/uv/tools/sase/bin) — the script's only location ('which sase_chop_tg_inbound' fails; lumberjack/gateway PATH checked via /proc/<pid>/environ). Every ~5s re-arm therefore dies at spawn: proc rows show status=error, termination_reason=launch-failure, message "could not start command: [Errno 2] No such file or directory: 'sase_chop_tg_inbound'" (e.g. proc fybcqbbeppx1, log ~/.sase/procs/logs/fybcqbbeppx1.log), flooding ~/.sase/procs/procs.jsonl with ~1 failed row per 7s. update_offset.txt has not advanced since 2026-09-13 19:12, so every Telegram button press since then (incl. today's plan-approval attempts) is never fetched. Tests cannot catch this by design: ensure_receiver_running lets tests substitute a harmless argv, so the real console-script argv is never exercised. Also relevant to sase-zr.6's partial-command verification: plan gate plan/c7d980c0-f436-405c-b0a8-382ceb32676c holds an incomplete attempt (journal attempt_started 2026-09-13T16:42 EDT, approve+commit, empty input digests, no terminal event) and an identical Telegram resubmission would raise partial_attempt with no Telegram resume/restart affordance. Note: no sase-zr agent is currently running, so a remediation plan is being proposed separately for the receiver launch fix; sase-zr.6 should still verify the receiver lifecycle end-to-end on a real host.
 
+[2026-09-16T17:43:19Z · 04] LANDING AUDIT (2026-09-16, apollo; the sase-zr.land agent on athena was dismissed while still waiting and never ran #bd/land_epic). The epic is NOT ready to close. All 6 phases are closed, but the audit found unmet plan requirements. They are now planned as a child epic whose parent_bead is sase-zr; that epic's land agent must re-verify and close sase-zr.
+
+VERIFIED OK:
+- Indexed exact gate-shell lookup: sase-core 682dbec, first released in v0.34.25.
+- Decision-acceptance policy and binding: sase-core 809f45e, first released in v0.34.26.
+- sase pin sase-core-rs>=0.34.36 covers both.
+- Inherited gate ids do not match.
+- %auto stays synchronous.
+- sase bead epic-symbols sase-zr: no entries.
+- Telegram receiver launch failure (note #1) is fixed by sase-telegram 8586f91 (plan 202609/telegram_receiver_launch_fix.md). A live receiver runs on athena with an absolute argv since 2026-09-14 20:30Z, with no recent launch-failure rows. The partial-attempt plan gate plan/c7d980c0 has since timed out, so it is moot.
+
+GAPS FOUND (details in the child epic plan):
+1. A conflicting answer can supersede a still-running attempt.
+2. No durable failed outcome or visible recovery after acceptance dismisses the notification. poll_gate reports pending, and cancel is refused.
+3. attempt_completed is journaled before archive, so an archive failure strands the gate.
+4. Nothing reconciles orphaned receipts.
+5. TALE/EPIC APPROVED is not derived from the receipt, and PLAN COMMITTED can show before archive success.
+6. The lookup still has full-history and full-tree fallbacks, and an index miss silently skips settlement.
+7. ACE refreshes are broad or racy, there is still synchronous count refresh on the UI thread, and plan gates have no partial_attempt retry.
+8. Mobile and fleet gate actions are still fully synchronous.
+9. Telegram:
+   - updates are not sender-authenticated;
+   - false success when side effects fail after response.json;
+   - opaque acceptance-time errors;
+   - no retry/resume after failure;
+   - requires_tty sudo approve strands the gate;
+   - source is recorded as cli;
+   - cleanup retries never end.
+10. Receiver:
+   - never restarts after an upgrade (the live athena receiver predates 90815d2);
+   - no crash-loop detection;
+   - the real-argv test was replaced by a mock in ab9d985;
+   - the offset advances past failed updates.
+11. Docs: the stop procedure is wrong, the upgrade step is missing, and there are no before/after latency numbers or barrier tests.
+
+INTEGRATION (commits since the epic began): no conflicting drift beyond gap 9's sudo requires_tty interaction (sase 7b85eb6c11 plus sase-telegram b547425). Checked and cleared:
+- sase: 491daa988a, b9c28f25e8, c632a5552d, 45a2244ad1, 61febdcc68, ea358dace4.
+- sase-telegram: ab9d985 (receiver fingerprint is argv-independent, so no duplicate consumers).
+
+PROPOSED FOLLOW-UP TRIAGE:
+- sase-zr.1 #1 (axe chop output-contract drift): declined, already fixed on master (tests/test_axe_chop_output_contract.py passes, 5 tests).
+- sase-zr.1 #2 (agent-sync quarantine backlog): corroborated with +1 on sase-10x, being remediated by in-progress epic sase-11o.
+- sase-zr.2 #1: status note, not a proposal.
+- sase-zr.2 #2 (host disk full): declined as a new task; this is the goal of in-progress epic sase-zw.
+- sase-zr.2 #3 (sase repo open sase-core unknown): declined, fixed. sase-core is now a registered linked repo, and the Justfile guidance works.
+- sase-zr.4 #1 (store_lane ImportError): declined, fixed. store_lane now uses store.* module attributes. The residual symvision issue is tracked by sase-10q (caused by 8894213c95, not this epic).
+- sase-zr.4 #2 and sase-zr.5 #1 (Telegram tmp_path under $HOME): declined, fixed in sase-telegram 8586f91 (tests use inbound._shorten_home).
+- sase-zr.6 #1 (leak detector git identity env vars): declined, fixed. GIT_AUTHOR_*, GIT_COMMITTER_* and GIT_CONFIG_* are in tests/_global_state_leaks/fingerprints.py.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,18 +86,35 @@ flowchart TD
     n4["sase-zr.4: Decouple Telegram acknowledgements and cleanup from gate execution [closed]"]
     n5["sase-zr.5: Remove Telegram's periodic polling delay [closed]"]
     n6["sase-zr.6: Verify latency, recovery, and coordinated rollout [closed]"]
+    n7["sase-zr.7: Close out sase-zr: decision integrity, honest status, and fast TUI gate refresh [in_progress]"]
+    n8["sase-zr.7.1: Conflict rejection while running, durable failure outcomes, truthful attempt completion [in_progress]"]
+    n9["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
+    n10["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
+    n11["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
+    n12["sase-zr.7.5: Corrected docs, targeted latency evidence, and combined verification [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n7 --> n12
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
     n3 -.-> n6
     n4 -.-> n5
     n5 -.-> n6
+    n8 -.-> n9
+    n8 -.-> n10
+    n9 -.-> n10
+    n10 -.-> n12
+    n11 -.-> n12
 ```
 
 ## Agents
@@ -61,6 +127,12 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.4/README.md) | [sase-zr.4](sase-zr.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 1 |
 | [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.6.md) | [sase-zr.6](sase-zr.6.md) | 2 |
+| [bbugyi200.apollo.sase-zr.7.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.md) | [sase-zr.7.1](sase-zr.7.1.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 0 |
 | [bbugyi200.apollo.sase-zr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.land/README.md) | [sase-zr](README.md) | 0 |
 
 ## Commits
@@ -77,3 +149,4 @@ flowchart TD
 | sase | [`ae6afe9`](https://github.com/sase-org/sase/commit/ae6afe968541d24496496b5c82755f381435afc7) | feat(ace): submit plan gates through durable answers | [sase-zr.3](sase-zr.3.md) | 2026-09-14 14:16:18 EDT |
 | sase | [`7f7700d`](https://github.com/sase-org/sase/commit/7f7700d030c3806b56e326db9567cfa9345cc2f5) | docs(notifications): document gate decision receipts, rollout order, and latency probes | [sase-zr.6](sase-zr.6.md) | 2026-09-14 19:28:12 EDT |
 | sase-telegram | [`sase-telegram@90815d2`](https://github.com/sase-org/sase-telegram/commit/90815d20c1b5223df24e244aa58701a54b125643) | feat(telegram): acknowledge callback queries before durable gate submission | [sase-zr.6](sase-zr.6.md) | 2026-09-14 19:42:25 EDT |
+| sase-telegram | [`sase-telegram@24900c0`](https://github.com/sase-org/sase-telegram/commit/24900c02de4e76e91f7b35fb8f4a3851e97ed4a8) | fix(telegram): authenticate inbound updates and pre-reject TTY-only gate options | [sase-zr.7.4](sase-zr.7.4.md) | 2026-09-16 15:02:54 EDT |
