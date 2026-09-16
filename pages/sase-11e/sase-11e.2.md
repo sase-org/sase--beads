@@ -28,7 +28,7 @@ job_authoring: add canonical executable, SDK, context, and environment access fo
 ## Dependencies
 
 - **Depends on:** [sase-11e.1](sase-11e.1.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11e.3](sase-11e.3.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11e.3](sase-11e.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
