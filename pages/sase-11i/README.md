@@ -16,7 +16,7 @@ A keyword argument such as `#research_swarm(lead_model=claude-fable-5)` reads as
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-11i.1](sase-11i.1.md) | Argument span grammar in the Rust core | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11i.2](sase-11i.2.md) | LSP semantic tokens for argument structure | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
+| [sase-11i.2](sase-11i.2.md) | LSP semantic tokens for argument structure | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11i.3](sase-11i.3.md) | Neovim legend safety and default highlight links | ◐ in_progress | small | 2026-09-15 | 1 | 0 |
 | [sase-11i.4](sase-11i.4.md) | ACE prompt widget argument rendering | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11i.5](sase-11i.5.md) | Visual snapshots and cross-surface parity | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
@@ -27,7 +27,7 @@ A keyword argument such as `#research_swarm(lead_model=claude-fable-5)` reads as
 flowchart TD
     n0["sase-11i: Structured highlighting for xprompt keyword arguments [in_progress]"]
     n1["sase-11i.1: Argument span grammar in the Rust core [closed]"]
-    n2["sase-11i.2: LSP semantic tokens for argument structure [in_progress]"]
+    n2["sase-11i.2: LSP semantic tokens for argument structure [closed]"]
     n3["sase-11i.3: Neovim legend safety and default highlight links [in_progress]"]
     n4["sase-11i.4: ACE prompt widget argument rendering [in_progress]"]
     n5["sase-11i.5: Visual snapshots and cross-surface parity [in_progress]"]
@@ -48,7 +48,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-11i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.1/README.md) | [sase-11i.1](sase-11i.1.md) | 1 |
-| [bbugyi200.athena.sase-11i.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.2/README.md) | [sase-11i.2](sase-11i.2.md) | 0 |
+| [bbugyi200.athena.sase-11i.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.2/README.md) | [sase-11i.2](sase-11i.2.md) | 1 |
 | [bbugyi200.athena.sase-11i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.3/README.md) | [sase-11i.3](sase-11i.3.md) | 0 |
 | [bbugyi200.athena.sase-11i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.4/README.md) | [sase-11i.4](sase-11i.4.md) | 0 |
 | [bbugyi200.athena.sase-11i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.5/README.md) | [sase-11i.5](sase-11i.5.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4c25db2`](https://github.com/sase-org/sase-core/commit/4c25db2f59c9dbb18638bacdb2e288665485b105) | feat: add xprompt argument span grammar | [sase-11i.1](sase-11i.1.md) | 2026-09-15 21:41:21 EDT |
+| sase-core | [`sase-core@f07bf53`](https://github.com/sase-org/sase-core/commit/f07bf53906f406fd51318068896739eaa34fcf2b) | feat(xprompt-lsp): emit argument semantic tokens | [sase-11i.2](sase-11i.2.md) | 2026-09-15 21:59:58 EDT |

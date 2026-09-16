@@ -13,7 +13,7 @@ visual-parity: pin the new rendering with dark and light PNG snapshots, prove th
 
 ## Dependencies
 
-- **Depends on:** [sase-11i.2](sase-11i.2.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11i.2](sase-11i.2.md) ✓ · ⧖ 2026-09-15
 - **Depends on:** [sase-11i.4](sase-11i.4.md) ◐ · ⧖ 2026-09-15
 
 ## Agents
