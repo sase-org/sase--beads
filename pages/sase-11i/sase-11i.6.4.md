@@ -26,10 +26,11 @@ real-parity: replace the synthetic LSP mapping check with real-server parity and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 1 |
+| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9da164c`](https://github.com/sase-org/sase/commit/9da164cb06b589e4aeb31e2c84ce225ba4d39c1b) | test(xprompt): verify real lsp argument parity | [sase-11i.6.4](sase-11i.6.4.md) | 2026-09-16 02:58:25 EDT |
+| sase-core | [`sase-core@0e01db3`](https://github.com/sase-org/sase-core/commit/0e01db3616e5b65cb4ee29508f12715e79250784) | fix(editor): expose static directive argument spans | [sase-11i.6.4](sase-11i.6.4.md) | 2026-09-16 03:00:45 EDT |

@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11i.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.1/README.md) | [sase-11i.6.1](sase-11i.6.1.md) | 1 |
 | [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 2 |
 | [bbugyi200.athena.sase-11i.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.3/README.md) | [sase-11i.6.3](sase-11i.6.3.md) | 1 |
-| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 1 |
+| [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 2 |
 | [bbugyi200.athena.sase-11i.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.land/README.md) | [sase-11i.6](sase-11i.6.md) | 0 |
 | [bbugyi200.athena.sase-11i.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11i.land.md) | [sase-11i](README.md) | 0 |
 
@@ -93,3 +93,4 @@ flowchart TD
 | sase-nvim | [`sase-nvim@3115d9d`](https://github.com/sase-org/sase-nvim/commit/3115d9dbdf023d1fef31720ebd1fc41860d609a8) | test(lsp): assert xprompt name and multiline tokens | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:31:10 EDT |
 | sase | [`bc31781`](https://github.com/sase-org/sase/commit/bc317812514ce1e505800a813399f402908cbdec) | fix(xprompt): preserve directive argument styling | [sase-11i.6.3](sase-11i.6.3.md) | 2026-09-16 01:47:03 EDT |
 | sase | [`9da164c`](https://github.com/sase-org/sase/commit/9da164cb06b589e4aeb31e2c84ce225ba4d39c1b) | test(xprompt): verify real lsp argument parity | [sase-11i.6.4](sase-11i.6.4.md) | 2026-09-16 02:58:25 EDT |
+| sase-core | [`sase-core@0e01db3`](https://github.com/sase-org/sase-core/commit/0e01db3616e5b65cb4ee29508f12715e79250784) | fix(editor): expose static directive argument spans | [sase-11i.6.4](sase-11i.6.4.md) | 2026-09-16 03:00:45 EDT |
