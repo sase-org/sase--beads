@@ -34,10 +34,11 @@ cli_contract: expose axe routine and axe job commands, public JSON projections, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.3/README.md) | [sase-11e.3](sase-11e.3.md) | 1 |
+| [bbugyi200.athena.sase-11e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.3/README.md) | [sase-11e.3](sase-11e.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d2d3094`](https://github.com/sase-org/sase/commit/d2d30944dce4c0dc0f10e78d9e568ea758630765) | feat(axe): publish job and routine cli contract | [sase-11e.3](sase-11e.3.md) | 2026-09-15 20:13:59 EDT |
+| sase-core | [`sase-core@6be757c`](https://github.com/sase-org/sase-core/commit/6be757c19565003c75d61efdf89cb7764adeec6b) | feat(artifact-ref): add job alias for chop refs | [sase-11e.3](sase-11e.3.md) | 2026-09-15 20:16:09 EDT |
