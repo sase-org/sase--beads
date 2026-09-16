@@ -33,9 +33,9 @@ Make routines and jobs the consistent public AXE vocabulary while preserving sch
 | [sase-11e.2](sase-11e.2.md) | Public job scripts and SDK | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11e.3](sase-11e.3.md) | Commands, structured output, and reference presentation | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 | [sase-11e.4](sase-11e.4.md) | Canonical configuration and AXE presentation | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11e.5](sase-11e.5.md) | Telegram scripts and maintained operator configuration | ✓ closed | medium | 2026-09-15 | 1 | 3 |
+| [sase-11e.5](sase-11e.5.md) | Telegram scripts and maintained operator configuration | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11e.6](sase-11e.6.md) | Current documentation, glossary, and visual examples | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 2 |
+| [sase-11e.7](sase-11e.7.md) | Combined contract and upgrade verification | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 
 ## Lineage
 
@@ -55,6 +55,11 @@ flowchart TD
     n11["sase-11e.8.3: Resolve automation tribe aliases and collisions in Rust [closed]"]
     n12["sase-11e.8.4: Preserve data while completing routine and job presentation [closed]"]
     n13["sase-11e.8.5: Prove the repaired upgrade contract and integration [closed]"]
+    n14["sase-11e.8.6: Finish routine/job source edits, tribe safety, and landing integration [in_progress]"]
+    n15["sase-11e.8.6.1: Preserve existing AXE source structure for generic edits [closed]"]
+    n16["sase-11e.8.6.2: Enforce the shared automation tribe collision contract [in_progress]"]
+    n17["sase-11e.8.6.3: Finish canonical diagnostic templates without changing user data [in_progress]"]
+    n18["sase-11e.8.6.4: Align the CI core pin and prove the combined upgrade contract [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,6 +73,11 @@ flowchart TD
     n8 --> n11
     n8 --> n12
     n8 --> n13
+    n8 --> n14
+    n14 --> n15
+    n14 --> n16
+    n14 --> n17
+    n14 --> n18
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -78,6 +88,9 @@ flowchart TD
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
+    n15 -.-> n16
+    n16 -.-> n17
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -88,15 +101,20 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.2/README.md) | [sase-11e.2](sase-11e.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.3/README.md) | [sase-11e.3](sase-11e.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.4/README.md) | [sase-11e.4](sase-11e.4.md) | 1 |
-| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 3 |
+| [bbugyi200.athena.sase-11e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.5/README.md) | [sase-11e.5](sase-11e.5.md) | 1 |
 | [bbugyi200.athena.sase-11e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.6/README.md) | [sase-11e.6](sase-11e.6.md) | 1 |
-| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 2 |
+| [bbugyi200.athena.sase-11e.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.7/README.md) | [sase-11e.7](sase-11e.7.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.1/README.md) | [sase-11e.8.1](sase-11e.8.1.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.2/README.md) | [sase-11e.8.2](sase-11e.8.2.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.3/README.md) | [sase-11e.8.3](sase-11e.8.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.5.md) | [sase-11e.8.5](sase-11e.8.5.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.land/README.md) | [sase-11e.8](sase-11e.8.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.1/README.md) | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.land/README.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
 
 ## Commits
@@ -110,11 +128,8 @@ flowchart TD
 | sase-core | [`sase-core@6be757c`](https://github.com/sase-org/sase-core/commit/6be757c19565003c75d61efdf89cb7764adeec6b) | feat(artifact-ref): add job alias for chop refs | [sase-11e.3](sase-11e.3.md) | 2026-09-15 20:16:09 EDT |
 | sase | [`53ba460`](https://github.com/sase-org/sase/commit/53ba46064937d53c3c3c9902542aadf5fe3831bb) | feat(axe): publish routine and job presentation | [sase-11e.4](sase-11e.4.md) | 2026-09-15 21:31:54 EDT |
 | sase | [`45a2244`](https://github.com/sase-org/sase/commit/45a2244ad10d7375fd34d25771e4f98926ab1e33) | feat(axe): support telegram job entrypoint migration | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:00:54 EDT |
-| chezmoi | [`chezmoi@8b28cb1`](https://github.com/bbugyi200/dotfiles/commit/8b28cb164ae1486d0126f24ea569a5a19c17c6cb) | chore(config): update axe job config and completions | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:04:24 EDT |
-| sase-telegram | [`sase-telegram@ab9d985`](https://github.com/sase-org/sase-telegram/commit/ab9d985d29927872e69ca487bf7c7b902d62c22a) | feat(telegram): add canonical job entrypoints | [sase-11e.5](sase-11e.5.md) | 2026-09-15 23:07:13 EDT |
 | sase | [`9f01691`](https://github.com/sase-org/sase/commit/9f01691ce063fc94dcdd580ccbf13b147c3aa815) | docs(axe): update routine job terminology | [sase-11e.6](sase-11e.6.md) | 2026-09-15 23:39:44 EDT |
 | sase | [`a7029f0`](https://github.com/sase-org/sase/commit/a7029f02c8e75508097ec558c52a1efd8b207a06) | fix(axe): finish routine job acceptance cleanup | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:41:42 EDT |
-| chezmoi | [`chezmoi@fe65414`](https://github.com/bbugyi200/dotfiles/commit/fe65414dbb396bc91bfb11643f0ee181b88399b4) | chore(completion): refresh sase axe routine help | [sase-11e.7](sase-11e.7.md) | 2026-09-16 00:44:04 EDT |
 | sase-core | [`sase-core@d4b301f`](https://github.com/sase-org/sase-core/commit/d4b301f0d910979255ddc99551c602bc76bc4dbb) | feat(config): share axe config normalization | [sase-11e.8.1](sase-11e.8.1.md) | 2026-09-16 01:31:18 EDT |
 | sase | [`297e612`](https://github.com/sase-org/sase/commit/297e6122b0411f7b7f3a7caa0c461c4fbc856f21) | feat(config): wire AXE routine job contract consumers | [sase-11e.8.2](sase-11e.8.2.md) | 2026-09-16 02:31:57 EDT |
 | sase | [`e4700fd`](https://github.com/sase-org/sase/commit/e4700fd747fae7a048835cc086a92b516606dc05) | feat(agent-tribes): route job alias behavior through core | [sase-11e.8.3](sase-11e.8.3.md) | 2026-09-16 03:45:02 EDT |
@@ -122,3 +137,4 @@ flowchart TD
 | sase | [`c5527a0`](https://github.com/sase-org/sase/commit/c5527a0e62fda19e8edd83ee6cb8a2cf1be0be4f) | fix(axe): preserve public output payload values | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:33:09 EDT |
 | sase-core | [`sase-core@fe1a17b`](https://github.com/sase-org/sase-core/commit/fe1a17bc486ac3474c3b1ae5e10427525cb39f1c) | feat(axe): add public status projection | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:35:31 EDT |
 | sase | [`db48ae5`](https://github.com/sase-org/sase/commit/db48ae56dfb5b5ae955182e84bf36ef057d37db1) | test(axe): update routine job acceptance goldens | [sase-11e.8.5](sase-11e.8.5.md) | 2026-09-16 05:46:25 EDT |
+| sase | [`7d2cac7`](https://github.com/sase-org/sase/commit/7d2cac73b6d82432de0415dae1a43b3022c8bcaf) | fix(config): preserve axe source edit paths | [sase-11e.8.6.1](sase-11e.8.6.1.md) | 2026-09-16 06:41:18 EDT |
