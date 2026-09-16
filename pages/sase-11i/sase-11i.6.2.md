@@ -24,10 +24,11 @@ lsp-output: emit invocation and directive names and preserve multiline and parti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 1 |
+| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6e2891d`](https://github.com/sase-org/sase-core/commit/6e2891d392b6cae2c7c65783fd5a68e8d46c824c) | feat(lsp): complete xprompt semantic token coverage | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:28:36 EDT |
+| sase-nvim | [`sase-nvim@3115d9d`](https://github.com/sase-org/sase-nvim/commit/3115d9dbdf023d1fef31720ebd1fc41860d609a8) | test(lsp): assert xprompt name and multiline tokens | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:31:10 EDT |

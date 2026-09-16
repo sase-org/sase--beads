@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.4/README.md) | [sase-11i.4](sase-11i.4.md) | 1 |
 | [bbugyi200.athena.sase-11i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.5/README.md) | [sase-11i.5](sase-11i.5.md) | 1 |
 | [bbugyi200.athena.sase-11i.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.1/README.md) | [sase-11i.6.1](sase-11i.6.1.md) | 1 |
-| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 1 |
+| [bbugyi200.athena.sase-11i.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.2/README.md) | [sase-11i.6.2](sase-11i.6.2.md) | 2 |
 | [bbugyi200.athena.sase-11i.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.3/README.md) | [sase-11i.6.3](sase-11i.6.3.md) | 0 |
 | [bbugyi200.athena.sase-11i.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.4/README.md) | [sase-11i.6.4](sase-11i.6.4.md) | 0 |
 | [bbugyi200.athena.sase-11i.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11i.6.land/README.md) | [sase-11i.6](sase-11i.6.md) | 0 |
@@ -90,3 +90,4 @@ flowchart TD
 | sase | [`649be3c`](https://github.com/sase-org/sase/commit/649be3cb27d016bab20e2323dd9a646482428aa6) | test(xprompt): pin argument highlight parity | [sase-11i.5](sase-11i.5.md) | 2026-09-16 00:16:31 EDT |
 | sase-core | [`sase-core@874077c`](https://github.com/sase-org/sase-core/commit/874077cf7f4d6cd8982b8e62925a11e9bdd63075) | fix(editor): preserve open argument spans | [sase-11i.6.1](sase-11i.6.1.md) | 2026-09-16 01:02:10 EDT |
 | sase-core | [`sase-core@6e2891d`](https://github.com/sase-org/sase-core/commit/6e2891d392b6cae2c7c65783fd5a68e8d46c824c) | feat(lsp): complete xprompt semantic token coverage | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:28:36 EDT |
+| sase-nvim | [`sase-nvim@3115d9d`](https://github.com/sase-org/sase-nvim/commit/3115d9dbdf023d1fef31720ebd1fc41860d609a8) | test(lsp): assert xprompt name and multiline tokens | [sase-11i.6.2](sase-11i.6.2.md) | 2026-09-16 01:31:10 EDT |
