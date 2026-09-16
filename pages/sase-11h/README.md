@@ -18,7 +18,7 @@ Artifact-run deletion fails closed, workspace reuse preserves object dependencie
 | [sase-11h.1](sase-11h.1.md) | Establish the three bounded Rust safety contracts | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11h.2](sase-11h.2.md) | Integrate preview-only run retention and safe workspace reuse | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11h.3](sase-11h.3.md) | Propagate owner failures and preserve partial effects | ✓ closed | medium | 2026-09-15 | 1 | 1 |
-| [sase-11h.4](sase-11h.4.md) | Remove unsupported test allowances and verify the integrated delivery | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
+| [sase-11h.4](sase-11h.4.md) | Remove unsupported test allowances and verify the integrated delivery | ◐ in_progress | medium | 2026-09-15 | 1 | 1 |
 
 ## Lineage
 
@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11h.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.1/README.md) | [sase-11h.1](sase-11h.1.md) | 1 |
 | [bbugyi200.athena.sase-11h.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.2/README.md) | [sase-11h.2](sase-11h.2.md) | 1 |
 | [bbugyi200.athena.sase-11h.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.3/README.md) | [sase-11h.3](sase-11h.3.md) | 1 |
-| [bbugyi200.athena.sase-11h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.4/README.md) | [sase-11h.4](sase-11h.4.md) | 0 |
+| [bbugyi200.athena.sase-11h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.4/README.md) | [sase-11h.4](sase-11h.4.md) | 1 |
 | [bbugyi200.athena.sase-11h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11h.land/README.md) | [sase-11h](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | sase-core | [`sase-core@9b06dd8`](https://github.com/sase-org/sase-core/commit/9b06dd8bde31cf08f70f89daaab2b34af43102c9) | fix(core): enforce cleanup safety contracts | [sase-11h.1](sase-11h.1.md) | 2026-09-15 19:59:16 EDT |
 | sase | [`95ac39f`](https://github.com/sase-org/sase/commit/95ac39fc7cb3b54ad0356cc7a82640249824deb7) | fix(disk): fail closed retention and preserve borrowers | [sase-11h.2](sase-11h.2.md) | 2026-09-15 21:41:19 EDT |
 | sase | [`90e95fb`](https://github.com/sase-org/sase/commit/90e95fbd26bcf63b43bd2be76cc509ff1191f8db) | fix(disk): propagate cleanup owner failures | [sase-11h.3](sase-11h.3.md) | 2026-09-15 22:47:08 EDT |
+| sase | [`7fe9f7d`](https://github.com/sase-org/sase/commit/7fe9f7d2534cf9dd7e43d13e22e7c681c016a0d3) | fix(test): repair flake baseline and core pin | [sase-11h.4](sase-11h.4.md) | 2026-09-16 01:14:17 EDT |
