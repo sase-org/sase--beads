@@ -14,7 +14,7 @@ sudo-e2e-verification: re-run the /root/foobar sudo request to confirm gate, bun
 ## Dependencies
 
 - **Depends on:** [sase-11t.1](sase-11t.1.md) ✓ · ⧖ 2026-09-16
-- **Depends on:** [sase-11t.2](sase-11t.2.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11t.2](sase-11t.2.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11t.3](sase-11t.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
