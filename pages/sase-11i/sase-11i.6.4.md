@@ -13,7 +13,7 @@ real-parity: replace the synthetic LSP mapping check with real-server parity and
 
 ## Dependencies
 
-- **Depends on:** [sase-11i.6.2](sase-11i.6.2.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11i.6.2](sase-11i.6.2.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11i.6.3](sase-11i.6.3.md) ◐ · ⧖ 2026-09-16
 
 ## Agents
