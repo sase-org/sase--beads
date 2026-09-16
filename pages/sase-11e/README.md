@@ -60,6 +60,10 @@ flowchart TD
     n16["sase-11e.8.6.2: Enforce the shared automation tribe collision contract [closed]"]
     n17["sase-11e.8.6.3: Finish canonical diagnostic templates without changing user data [closed]"]
     n18["sase-11e.8.6.4: Align the CI core pin and prove the combined upgrade contract [closed]"]
+    n19["sase-11e.8.6.5: Finish contextual job identity and public diagnostic contracts [in_progress]"]
+    n20["sase-11e.8.6.5.1: Route every job tribe operation through contextual identity resolution [in_progress]"]
+    n21["sase-11e.8.6.5.2: Finish canonical live diagnostics without rewriting user data [closed]"]
+    n22["sase-11e.8.6.5.3: Prove the complete routine and job upgrade contract [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -78,6 +82,10 @@ flowchart TD
     n14 --> n16
     n14 --> n17
     n14 --> n18
+    n14 --> n19
+    n19 --> n20
+    n19 --> n21
+    n19 --> n22
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -91,6 +99,8 @@ flowchart TD
     n15 -.-> n16
     n16 -.-> n17
     n17 -.-> n18
+    n20 -.-> n22
+    n21 -.-> n22
 ```
 
 ## Agents
@@ -113,7 +123,11 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.2/README.md) | [sase-11e.8.6.2](sase-11e.8.6.2.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.4/README.md) | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.land/README.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.1/README.md) | [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.2/README.md) | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.3/README.md) | [sase-11e.8.6.5.3](sase-11e.8.6.5.3.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.land/README.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.land.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
 | [bbugyi200.athena.sase-11e.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.land.md) | [sase-11e](README.md) | 0 |
 
@@ -144,3 +158,4 @@ flowchart TD
 | sase | [`5620b5b`](https://github.com/sase-org/sase/commit/5620b5b2de52984309466881975dfed2d4108990) | fix(axe): render public routine diagnostics | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:46:07 EDT |
 | sase-core | [`sase-core@51c7c38`](https://github.com/sase-org/sase-core/commit/51c7c38d6d1192fad0a3c807cc233b7ccdcb1acf) | fix(axe): canonicalize routine diagnostic templates | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:48:42 EDT |
 | sase | [`8c9d047`](https://github.com/sase-org/sase/commit/8c9d04759bb441d99211d0be1f4afb7698032012) | test(axe): verify routine job core upgrade contract | [sase-11e.8.6.4](sase-11e.8.6.4.md) | 2026-09-16 09:26:39 EDT |
+| sase | [`66e20c1`](https://github.com/sase-org/sase/commit/66e20c1c24bba470af1699d15c56ec8dd7c1f350) | fix(axe): canonicalize public job diagnostics | [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) | 2026-09-16 11:47:01 EDT |
