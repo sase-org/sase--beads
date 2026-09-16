@@ -1,0 +1,18 @@
+# Bead: sase-11l.5.1 — The %hold prompt directive
+
+[Bead Pages](../README.md) / [sase-11l.5](sase-11l.5.md) / sase-11l.5.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.md) · **Assignee:** `sase-11l.5.1.land`
+**Created:** 2026-09-16 13:44:49 EDT
+**Plan:** [202609/hold\_directive\_surface.md](https://github.com/sase-org/sase--plans/blob/main/202609/hold_directive_surface.md)
+
+## Description
+
+A prompt can arm a durable agent hold with `%hold`, behind the `agent_holds` beta flag. Python, the Rust typed launch planner, and the shared editor contract all parse it the same way. Agent and proc launches arm the hold when they are submitted, excluding their own kin and getting a priority boost. Approval previews list what each hold captures, broad holds need interactive confirmation, and `%hold` is rejected when combined with `%repeat` or `%dispatch`.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.land/README.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |

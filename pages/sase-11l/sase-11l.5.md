@@ -22,4 +22,4 @@ hold-directive: add %hold behind a new agent_holds beta flag — parsing, direct
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5/README.md) | [sase-11l.5](sase-11l.5.md) | 0 |
+| [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.md) | [sase-11l.5](sase-11l.5.md) | 0 |

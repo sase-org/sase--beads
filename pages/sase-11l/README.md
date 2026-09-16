@@ -22,7 +22,7 @@ A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open h
 | [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ✓ closed | large | 2026-09-15 | 1 | 1 |
 | [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
 | [sase-11l.6](sase-11l.6.md) | Completion and LSP for %hold | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
-| [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
+| [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11l.8](sase-11l.8.md) | TUI, doctor, and deadlock visibility | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11l.9](sase-11l.9.md) | Hood selector for %wait | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 
@@ -37,33 +37,43 @@ flowchart TD
     n4["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
     n5["sase-11l.4: sase agent hold command group [closed]"]
     n6["sase-11l.5: The %hold prompt directive [in_progress]"]
-    n7["sase-11l.6: Completion and LSP for %hold [in_progress]"]
-    n8["sase-11l.7: Hold un-dispatched proc units [in_progress]"]
-    n9["sase-11l.8: TUI, doctor, and deadlock visibility [in_progress]"]
-    n10["sase-11l.9: Hood selector for %wait [in_progress]"]
+    n7["sase-11l.5.1: The %hold prompt directive [in_progress]"]
+    n8["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [in_progress]"]
+    n9["sase-11l.5.1.2: Arm holds at launch submission [in_progress]"]
+    n10["sase-11l.5.1.3: Preview captures and confirm broad holds [in_progress]"]
+    n11["sase-11l.6: Completion and LSP for %hold [in_progress]"]
+    n12["sase-11l.7: Hold un-dispatched proc units [closed]"]
+    n13["sase-11l.8: TUI, doctor, and deadlock visibility [in_progress]"]
+    n14["sase-11l.9: Hood selector for %wait [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
+    n6 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
     n1 -.-> n6
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
-    n5 -.-> n8
-    n5 -.-> n9
+    n5 -.-> n12
+    n5 -.-> n13
     n6 -.-> n2
-    n6 -.-> n7
-    n7 -.-> n2
-    n7 -.-> n10
-    n8 -.-> n2
-    n9 -.-> n2
-    n10 -.-> n2
+    n6 -.-> n11
+    n8 -.-> n9
+    n8 -.-> n10
+    n11 -.-> n2
+    n11 -.-> n14
+    n12 -.-> n2
+    n13 -.-> n2
+    n14 -.-> n2
 ```
 
 ## Agents
@@ -75,9 +85,13 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.4.md) | [sase-11l.4](sase-11l.4.md) | 1 |
-| [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5/README.md) | [sase-11l.5](sase-11l.5.md) | 0 |
+| [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.md) | [sase-11l.5](sase-11l.5.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.1.md) | [sase-11l.5.1.1](sase-11l.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2/README.md) | [sase-11l.5.1.2](sase-11l.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.3/README.md) | [sase-11l.5.1.3](sase-11l.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.land/README.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
 | [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 0 |
-| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 0 |
+| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 1 |
 | [bbugyi200.athena.sase-11l.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.8/README.md) | [sase-11l.8](sase-11l.8.md) | 0 |
 | [bbugyi200.athena.sase-11l.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.9/README.md) | [sase-11l.9](sase-11l.9.md) | 0 |
 | [bbugyi200.athena.sase-11l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.land/README.md) | [sase-11l](README.md) | 0 |
@@ -93,3 +107,4 @@ flowchart TD
 | sase | [`c174144`](https://github.com/sase-org/sase/commit/c1741443d96c51dc8144a2209e1f1f6c457db45e) | feat(agent-hold): enforce hold barriers in runner admission | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:30:27 EDT |
 | sase-core | [`sase-core@67dc596`](https://github.com/sase-org/sase-core/commit/67dc596d1edb974b4f6b45625f2fc76f950f62b3) | feat(runner-capacity): apply agent hold barriers | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:33:32 EDT |
 | sase | [`520c7db`](https://github.com/sase-org/sase/commit/520c7dbf419d3847f941c0a1cb47e384b4f0cf6d) | feat(agent-hold): add the sase agent hold command group | [sase-11l.4](sase-11l.4.md) | 2026-09-16 13:02:32 EDT |
+| sase | [`b5f51b1`](https://github.com/sase-org/sase/commit/b5f51b192e5995a55d6a0571cf1aad7f6c394906) | feat(agent): hold undispatched procs before dispatch | [sase-11l.7](sase-11l.7.md) | 2026-09-16 15:08:03 EDT |

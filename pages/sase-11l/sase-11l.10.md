@@ -15,7 +15,7 @@ hold-flag-removal: delete the agent_holds Off branch, make %hold unconditional, 
 
 - **Depends on:** [sase-11l.5](sase-11l.5.md) ◐ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.6](sase-11l.6.md) ◐ · ⧖ 2026-09-15
-- **Depends on:** [sase-11l.7](sase-11l.7.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11l.7](sase-11l.7.md) ✓ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.8](sase-11l.8.md) ◐ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.9](sase-11l.9.md) ◐ · ⧖ 2026-09-15
 
