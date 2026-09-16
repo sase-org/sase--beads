@@ -13,7 +13,7 @@ acceptance: exercise both-state production paths, published-floor compatibility,
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.6.5.1](sase-11e.8.6.5.1.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11e.8.6.5.2](sase-11e.8.6.5.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
