@@ -24,10 +24,11 @@ public_output: replace whole-string substitutions with explicit projections and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.4/README.md) | [sase-11e.8.4](sase-11e.8.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c5527a0`](https://github.com/sase-org/sase/commit/c5527a0e62fda19e8edd83ee6cb8a2cf1be0be4f) | fix(axe): preserve public output payload values | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:33:09 EDT |
+| sase-core | [`sase-core@fe1a17b`](https://github.com/sase-org/sase-core/commit/fe1a17bc486ac3474c3b1ae5e10427525cb39f1c) | feat(axe): add public status projection | [sase-11e.8.4](sase-11e.8.4.md) | 2026-09-16 04:35:31 EDT |
