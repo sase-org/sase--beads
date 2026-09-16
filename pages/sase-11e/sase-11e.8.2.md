@@ -18,7 +18,7 @@ config_consumers: wire runtime loading, config show and inventory, schema catalo
 ## Dependencies
 
 - **Depends on:** [sase-11e.8.1](sase-11e.8.1.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11e.8.3](sase-11e.8.3.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.3](sase-11e.8.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

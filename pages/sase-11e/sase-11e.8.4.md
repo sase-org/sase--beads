@@ -13,7 +13,7 @@ public_output: replace whole-string substitutions with explicit projections and 
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.3](sase-11e.8.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.3](sase-11e.8.3.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11e.8.5](sase-11e.8.5.md) ◐ · ⧖ 2026-09-16
 
 ## Agents
