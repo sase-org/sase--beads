@@ -21,7 +21,7 @@ starter-race: wait bounded for the starter to settle and re-hydrate parent nodes
 
 ## Dependencies
 
-- **Blocks:** [sase-11r.2](sase-11r.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11r.2](sase-11r.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
