@@ -24,10 +24,11 @@ hold-proc-targets: evaluate the hold predicate at the admission-engine eligibili
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 1 |
+| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b5f51b1`](https://github.com/sase-org/sase/commit/b5f51b192e5995a55d6a0571cf1aad7f6c394906) | feat(agent): hold undispatched procs before dispatch | [sase-11l.7](sase-11l.7.md) | 2026-09-16 15:08:03 EDT |
+| sase-core | [`sase-core@4ec5fca`](https://github.com/sase-org/sase-core/commit/4ec5fca725227c0e8a060189a40b42afa42d5e51) | feat(agent): expose proc hold admission facts | [sase-11l.7](sase-11l.7.md) | 2026-09-16 15:11:59 EDT |

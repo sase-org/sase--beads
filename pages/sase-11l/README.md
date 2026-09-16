@@ -22,7 +22,7 @@ A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open h
 | [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ✓ closed | large | 2026-09-15 | 1 | 1 |
 | [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
 | [sase-11l.6](sase-11l.6.md) | Completion and LSP for %hold | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
-| [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ✓ closed | medium | 2026-09-15 | 1 | 1 |
+| [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 | [sase-11l.8](sase-11l.8.md) | TUI, doctor, and deadlock visibility | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11l.9](sase-11l.9.md) | Hood selector for %wait | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.3/README.md) | [sase-11l.5.1.3](sase-11l.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.land/README.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
 | [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 0 |
-| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 1 |
+| [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 2 |
 | [bbugyi200.athena.sase-11l.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.8/README.md) | [sase-11l.8](sase-11l.8.md) | 0 |
 | [bbugyi200.athena.sase-11l.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.9/README.md) | [sase-11l.9](sase-11l.9.md) | 0 |
 | [bbugyi200.athena.sase-11l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.land/README.md) | [sase-11l](README.md) | 0 |
@@ -108,3 +108,4 @@ flowchart TD
 | sase-core | [`sase-core@67dc596`](https://github.com/sase-org/sase-core/commit/67dc596d1edb974b4f6b45625f2fc76f950f62b3) | feat(runner-capacity): apply agent hold barriers | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:33:32 EDT |
 | sase | [`520c7db`](https://github.com/sase-org/sase/commit/520c7dbf419d3847f941c0a1cb47e384b4f0cf6d) | feat(agent-hold): add the sase agent hold command group | [sase-11l.4](sase-11l.4.md) | 2026-09-16 13:02:32 EDT |
 | sase | [`b5f51b1`](https://github.com/sase-org/sase/commit/b5f51b192e5995a55d6a0571cf1aad7f6c394906) | feat(agent): hold undispatched procs before dispatch | [sase-11l.7](sase-11l.7.md) | 2026-09-16 15:08:03 EDT |
+| sase-core | [`sase-core@4ec5fca`](https://github.com/sase-org/sase-core/commit/4ec5fca725227c0e8a060189a40b42afa42d5e51) | feat(agent): expose proc hold admission facts | [sase-11l.7](sase-11l.7.md) | 2026-09-16 15:11:59 EDT |
