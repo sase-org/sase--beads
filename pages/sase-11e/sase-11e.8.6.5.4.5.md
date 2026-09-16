@@ -13,9 +13,9 @@ acceptance: extend the upgrade fixture, ratchet the core floor and pin after a p
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11e.8.6.5.4.2](sase-11e.8.6.5.4.2.md) ✓ · ⧖ 2026-09-16
-- **Depends on:** [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
