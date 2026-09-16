@@ -13,7 +13,7 @@ verify_delivery: repair the fourteen-node baseline addition, verify the exact pi
 
 ## Dependencies
 
-- **Depends on:** [sase-11h.3](sase-11h.3.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11h.3](sase-11h.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

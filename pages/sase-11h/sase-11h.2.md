@@ -18,7 +18,7 @@ safe_callers: pin the finalized core, route both manual prune paths through refu
 ## Dependencies
 
 - **Depends on:** [sase-11h.1](sase-11h.1.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11h.3](sase-11h.3.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11h.3](sase-11h.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
