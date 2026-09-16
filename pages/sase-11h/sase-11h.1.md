@@ -17,7 +17,7 @@ core_safety: refuse artifact-run mutation, distinguish reuse from guarded mainte
 
 ## Dependencies
 
-- **Blocks:** [sase-11h.2](sase-11h.2.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11h.2](sase-11h.2.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

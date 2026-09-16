@@ -13,7 +13,7 @@ cleanup_results: adopt the core outcome contract for discovery, subprocess, scra
 
 ## Dependencies
 
-- **Depends on:** [sase-11h.2](sase-11h.2.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11h.2](sase-11h.2.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11h.4](sase-11h.4.md) ◐ · ⧖ 2026-09-15
 
 ## Agents
