@@ -15,7 +15,7 @@ An in-agent gate creation that dies mid-flight can never end as a silent SUCCESS
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-11t.1](sase-11t.1.md) | Gate-creation intent marker and host adjudication | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
+| [sase-11t.1](sase-11t.1.md) | Gate-creation intent marker and host adjudication | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11t.2](sase-11t.2.md) | Codex provider turn-integrity detection | ◐ in_progress | medium | 2026-09-16 | 1 | 0 |
 | [sase-11t.3](sase-11t.3.md) | Sudo skill foreground-execution guidance | ✓ closed | small | 2026-09-16 | 1 | 1 |
 | [sase-11t.4](sase-11t.4.md) | End-to-end verification of the sudo handoff | ◐ in_progress | small | 2026-09-16 | 1 | 0 |
@@ -25,7 +25,7 @@ An in-agent gate creation that dies mid-flight can never end as a silent SUCCESS
 ```mermaid
 flowchart TD
     n0["sase-11t: Crash-safe sudo/gate handoff and codex turn-integrity detection [in_progress]"]
-    n1["sase-11t.1: Gate-creation intent marker and host adjudication [in_progress]"]
+    n1["sase-11t.1: Gate-creation intent marker and host adjudication [closed]"]
     n2["sase-11t.2: Codex provider turn-integrity detection [in_progress]"]
     n3["sase-11t.3: Sudo skill foreground-execution guidance [closed]"]
     n4["sase-11t.4: End-to-end verification of the sudo handoff [in_progress]"]
@@ -42,8 +42,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11t.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11t.1.md) | [sase-11t.1](sase-11t.1.md) | 0 |
-| [bbugyi200.athena.sase-11t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11t.2/README.md) | [sase-11t.2](sase-11t.2.md) | 0 |
+| [bbugyi200.athena.sase-11t.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11t.1.md) | [sase-11t.1](sase-11t.1.md) | 1 |
+| [bbugyi200.athena.sase-11t.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11t.2.md) | [sase-11t.2](sase-11t.2.md) | 0 |
 | [bbugyi200.athena.sase-11t.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11t.3.md) | [sase-11t.3](sase-11t.3.md) | 1 |
 | [bbugyi200.athena.sase-11t.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11t.4/README.md) | [sase-11t.4](sase-11t.4.md) | 0 |
 | [bbugyi200.athena.sase-11t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11t.land/README.md) | [sase-11t](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9fc5e4d`](https://github.com/sase-org/sase/commit/9fc5e4d5cd884c66ea8e7bf96e3e7f97442c30c0) | docs(skills): add foreground-execution guidance to sudo/gate/run/questions skills | [sase-11t.3](sase-11t.3.md) | 2026-09-16 11:20:29 EDT |
+| sase | [`491daa9`](https://github.com/sase-org/sase/commit/491daa988a2095e3b7ad32105135e87bb6adbf68) | fix(gates): adjudicate lost gate intents | [sase-11t.1](sase-11t.1.md) | 2026-09-16 12:14:25 EDT |

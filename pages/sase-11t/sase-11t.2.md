@@ -19,4 +19,4 @@ codex-turn-integrity: treat a codex turn that ends with an empty final answer pl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11t.2/README.md) | [sase-11t.2](sase-11t.2.md) | 0 |
+| [bbugyi200.athena.sase-11t.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11t.2.md) | [sase-11t.2](sase-11t.2.md) | 0 |
