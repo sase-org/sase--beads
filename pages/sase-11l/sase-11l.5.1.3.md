@@ -13,7 +13,7 @@ preview-confirm: list each hold and its live pending capture in launch previews.
 
 ## Dependencies
 
-- **Depends on:** [sase-11l.5.1.1](sase-11l.5.1.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11l.5.1.1](sase-11l.5.1.1.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

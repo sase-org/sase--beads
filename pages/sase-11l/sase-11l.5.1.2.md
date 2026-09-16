@@ -13,7 +13,7 @@ arm-runtime: extend the Rust hold store with a pending-launch armer kind, arm-ti
 
 ## Dependencies
 
-- **Depends on:** [sase-11l.5.1.1](sase-11l.5.1.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11l.5.1.1](sase-11l.5.1.1.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
