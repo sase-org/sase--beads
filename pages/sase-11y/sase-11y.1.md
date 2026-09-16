@@ -25,4 +25,10 @@ detach-scope: add a detach_scope helper that lets agents, detached procs, monito
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.1/README.md) | [sase-11y.1](sase-11y.1.md) | 0 |
+| [bbugyi200.athena.sase-11y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.1/README.md) | [sase-11y.1](sase-11y.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`86458d2`](https://github.com/sase-org/sase/commit/86458d2607813e23d3004415579d209bec0fc529) | feat(scope): escape detached work from service cgroups | [sase-11y.1](sase-11y.1.md) | 2026-09-16 17:57:07 EDT |
