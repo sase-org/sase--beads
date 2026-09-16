@@ -19,7 +19,7 @@ lsp-tokens: grow the xprompt LSP semantic token legend with standard LSP token t
 
 - **Depends on:** [sase-11i.1](sase-11i.1.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11i.3](sase-11i.3.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11i.5](sase-11i.5.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11i.5](sase-11i.5.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
