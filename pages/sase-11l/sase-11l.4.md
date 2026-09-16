@@ -20,7 +20,7 @@ hold-cli: add sase agent hold create/list/release/run/show plus arm and expiry n
 - **Depends on:** [sase-11l.3](sase-11l.3.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11l.5](sase-11l.5.md) ◐ · ⧖ 2026-09-15
 - **Blocks:** [sase-11l.7](sase-11l.7.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11l.8](sase-11l.8.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11l.8](sase-11l.8.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
