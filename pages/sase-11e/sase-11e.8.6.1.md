@@ -17,7 +17,7 @@ source_edits: repair inherited-leaf and list-form source editing through the sha
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.8.6.2](sase-11e.8.6.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.6.2](sase-11e.8.6.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

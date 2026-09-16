@@ -13,7 +13,7 @@ diagnostics: update live routine/job diagnostics at their owning templates and p
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.6.2](sase-11e.8.6.2.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.6.2](sase-11e.8.6.2.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11e.8.6.4](sase-11e.8.6.4.md) ◐ · ⧖ 2026-09-16
 
 ## Agents
