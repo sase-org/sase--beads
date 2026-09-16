@@ -13,7 +13,7 @@ acceptance: integrate the actual pinned Rust dependency, add missing production-
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.8.6.3](sase-11e.8.6.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11e.8.6.3](sase-11e.8.6.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

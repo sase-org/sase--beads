@@ -18,7 +18,7 @@ tribe_safety: connect provenance-aware Rust resolution to config validation, ass
 ## Dependencies
 
 - **Depends on:** [sase-11e.8.6.1](sase-11e.8.6.1.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11e.8.6.3](sase-11e.8.6.3.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.6.3](sase-11e.8.6.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
