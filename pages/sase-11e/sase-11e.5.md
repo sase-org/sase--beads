@@ -25,7 +25,7 @@ integrations: update Telegram public entrypoints and documentation, maintained c
 
 ## Dependencies
 
-- **Depends on:** [sase-11e.4](sase-11e.4.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11e.4](sase-11e.4.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11e.6](sase-11e.6.md) ◐ · ⧖ 2026-09-15
 
 ## Agents
