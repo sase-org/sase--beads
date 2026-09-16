@@ -13,9 +13,9 @@ service-host: implement the sase service host runtime and the sase service / sas
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.1](sase-11y.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.1](sase-11y.1.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.2](sase-11y.2.md) ◐ · ⧖ 2026-09-16
-- **Depends on:** [sase-11y.3](sase-11y.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.3](sase-11y.3.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.5](sase-11y.5.md) ◐ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.6](sase-11y.6.md) ◐ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.7](sase-11y.7.md) ◐ · ⧖ 2026-09-16
