@@ -24,10 +24,11 @@ diagnostics: update live routine/job diagnostics at their owning templates and p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.3/README.md) | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5620b5b`](https://github.com/sase-org/sase/commit/5620b5b2de52984309466881975dfed2d4108990) | fix(axe): render public routine diagnostics | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:46:07 EDT |
+| sase-core | [`sase-core@51c7c38`](https://github.com/sase-org/sase-core/commit/51c7c38d6d1192fad0a3c807cc233b7ccdcb1acf) | fix(axe): canonicalize routine diagnostic templates | [sase-11e.8.6.3](sase-11e.8.6.3.md) | 2026-09-16 08:48:42 EDT |
