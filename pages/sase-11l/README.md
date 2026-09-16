@@ -18,8 +18,8 @@ A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open h
 | [sase-11l.1](sase-11l.1.md) | Allow %queue capacity on proc units | ✓ closed | large | 2026-09-15 | 1 | 2 |
 | [sase-11l.10](sase-11l.10.md) | Remove the agent\_holds flag and close out | ◐ in_progress | small | 2026-09-15 | 1 | 0 |
 | [sase-11l.2](sase-11l.2.md) | Rust hold-record store and bindings | ✓ closed | large | 2026-09-15 | 1 | 2 |
-| [sase-11l.3](sase-11l.3.md) | hold-barrier blocker at runner-slot admission | ◐ in_progress | large | 2026-09-15 | 1 | 2 |
-| [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
+| [sase-11l.3](sase-11l.3.md) | hold-barrier blocker at runner-slot admission | ✓ closed | large | 2026-09-15 | 1 | 2 |
+| [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ✓ closed | large | 2026-09-15 | 1 | 1 |
 | [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
 | [sase-11l.6](sase-11l.6.md) | Completion and LSP for %hold | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
 | [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
@@ -34,8 +34,8 @@ flowchart TD
     n1["sase-11l.1: Allow %queue capacity on proc units [closed]"]
     n2["sase-11l.10: Remove the agent_holds flag and close out [in_progress]"]
     n3["sase-11l.2: Rust hold-record store and bindings [closed]"]
-    n4["sase-11l.3: hold-barrier blocker at runner-slot admission [in_progress]"]
-    n5["sase-11l.4: sase agent hold command group [in_progress]"]
+    n4["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
+    n5["sase-11l.4: sase agent hold command group [closed]"]
     n6["sase-11l.5: The %hold prompt directive [in_progress]"]
     n7["sase-11l.6: Completion and LSP for %hold [in_progress]"]
     n8["sase-11l.7: Hold un-dispatched proc units [in_progress]"]
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.10/README.md) | [sase-11l.10](sase-11l.10.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
-| [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.4/README.md) | [sase-11l.4](sase-11l.4.md) | 0 |
+| [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.4.md) | [sase-11l.4](sase-11l.4.md) | 1 |
 | [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5/README.md) | [sase-11l.5](sase-11l.5.md) | 0 |
 | [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 0 |
 | [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 0 |
@@ -92,3 +92,4 @@ flowchart TD
 | sase-core | [`sase-core@a7d5882`](https://github.com/sase-org/sase-core/commit/a7d588263e5a1c69f49dddbb2f72a138382b53a5) | fix(agent-hold): enforce hold boundary semantics | [sase-11l.2](sase-11l.2.md) | 2026-09-16 00:24:24 EDT |
 | sase | [`c174144`](https://github.com/sase-org/sase/commit/c1741443d96c51dc8144a2209e1f1f6c457db45e) | feat(agent-hold): enforce hold barriers in runner admission | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:30:27 EDT |
 | sase-core | [`sase-core@67dc596`](https://github.com/sase-org/sase-core/commit/67dc596d1edb974b4f6b45625f2fc76f950f62b3) | feat(runner-capacity): apply agent hold barriers | [sase-11l.3](sase-11l.3.md) | 2026-09-16 10:33:32 EDT |
+| sase | [`520c7db`](https://github.com/sase-org/sase/commit/520c7dbf419d3847f941c0a1cb47e384b4f0cf6d) | feat(agent-hold): add the sase agent hold command group | [sase-11l.4](sase-11l.4.md) | 2026-09-16 13:02:32 EDT |

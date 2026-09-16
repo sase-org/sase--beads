@@ -19,7 +19,7 @@ hold-store-core: add agent_hold.rs, a TTL-bounded fail-open flock-guarded hold s
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.3](sase-11l.3.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11l.3](sase-11l.3.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

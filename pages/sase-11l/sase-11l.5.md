@@ -15,7 +15,7 @@ hold-directive: add %hold behind a new agent_holds beta flag — parsing, direct
 
 - **Depends on:** [sase-11l.1](sase-11l.1.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11l.10](sase-11l.10.md) ◐ · ⧖ 2026-09-15
-- **Depends on:** [sase-11l.4](sase-11l.4.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11l.4](sase-11l.4.md) ✓ · ⧖ 2026-09-15
 - **Blocks:** [sase-11l.6](sase-11l.6.md) ◐ · ⧖ 2026-09-15
 
 ## Agents

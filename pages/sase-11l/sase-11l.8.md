@@ -14,7 +14,7 @@ hold-visibility: surface holds — held_by on queue markers, Agents-tab and agen
 ## Dependencies
 
 - **Blocks:** [sase-11l.10](sase-11l.10.md) ◐ · ⧖ 2026-09-15
-- **Depends on:** [sase-11l.4](sase-11l.4.md) ◐ · ⧖ 2026-09-15
+- **Depends on:** [sase-11l.4](sase-11l.4.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
