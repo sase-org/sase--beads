@@ -14,7 +14,7 @@ verify: capture before/after trace, perf, and stall data on athena against the a
 ## Dependencies
 
 - **Depends on:** [sase-124.1](sase-124.1.md) ✓ · ⧖ 2026-09-17
-- **Depends on:** [sase-124.2](sase-124.2.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-124.2](sase-124.2.md) ✓ · ⧖ 2026-09-17
 - **Depends on:** [sase-124.3](sase-124.3.md) ✓ · ⧖ 2026-09-17
 - **Depends on:** [sase-124.4](sase-124.4.md) ◐ · ⧖ 2026-09-17
 - **Depends on:** [sase-124.5](sase-124.5.md) ✓ · ⧖ 2026-09-17

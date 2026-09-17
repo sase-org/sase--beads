@@ -16,7 +16,7 @@ The Agents tab reflects load/capacity, unread notification, and node status chan
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-124.1](sase-124.1.md) | Stop refresh-pulse writes from poisoning the bounded artifact-delta path | ✓ closed | medium | 2026-09-17 | 1 | 1 |
-| [sase-124.2](sase-124.2.md) | Give the load/capacity indicator a cheap refresh path independent of broad loads | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
+| [sase-124.2](sase-124.2.md) | Give the load/capacity indicator a cheap refresh path independent of broad loads | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.3](sase-124.3.md) | Take the federation attention RPC off the auto-refresh critical path | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.4](sase-124.4.md) | Cut broad Tier 1 load and post-apply warmup cost on large archives | ◐ in_progress | large | 2026-09-17 | 1 | 1 |
 | [sase-124.5](sase-124.5.md) | Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) | ✓ closed | medium | 2026-09-17 | 1 | 1 |
@@ -29,7 +29,7 @@ The Agents tab reflects load/capacity, unread notification, and node status chan
 flowchart TD
     n0["sase-124: Agents tab freshness on large-archive hosts [in_progress]"]
     n1["sase-124.1: Stop refresh-pulse writes from poisoning the bounded artifact-delta path [closed]"]
-    n2["sase-124.2: Give the load/capacity indicator a cheap refresh path independent of broad loads [in_progress]"]
+    n2["sase-124.2: Give the load/capacity indicator a cheap refresh path independent of broad loads [closed]"]
     n3["sase-124.3: Take the federation attention RPC off the auto-refresh critical path [closed]"]
     n4["sase-124.4: Cut broad Tier 1 load and post-apply warmup cost on large archives [in_progress]"]
     n5["sase-124.5: Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) [closed]"]
@@ -56,7 +56,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-124.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.1/README.md) | [sase-124.1](sase-124.1.md) | 1 |
-| [bbugyi200.athena.sase-124.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.2/README.md) | [sase-124.2](sase-124.2.md) | 0 |
+| [bbugyi200.athena.sase-124.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.2/README.md) | [sase-124.2](sase-124.2.md) | 1 |
 | [bbugyi200.athena.sase-124.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.3/README.md) | [sase-124.3](sase-124.3.md) | 1 |
 | [bbugyi200.athena.sase-124.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.4.md) | [sase-124.4](sase-124.4.md) | 1 |
 | [bbugyi200.athena.sase-124.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.5.md) | [sase-124.5](sase-124.5.md) | 1 |
@@ -73,3 +73,4 @@ flowchart TD
 | sase | [`980de14`](https://github.com/sase-org/sase/commit/980de1487a7d6a38cf360155327d664011081cbf) | fix(tui): remove agents tab read ack hitches | [sase-124.5](sase-124.5.md) | 2026-09-17 14:19:26 EDT |
 | sase | [`0af5b08`](https://github.com/sase-org/sase/commit/0af5b08151ac275b81cc1d2e790b29d1d43df53d) | perf(tui): cache fleet attention auto-refresh | [sase-124.3](sase-124.3.md) | 2026-09-17 14:46:35 EDT |
 | sase | [`26a43d2`](https://github.com/sase-org/sase/commit/26a43d29f47f59011b44128505bef4500010fbe9) | perf(tui): narrow agent-loading refreshes with artifact/claims caches | [sase-124.4](sase-124.4.md) | 2026-09-17 15:23:04 EDT |
+| sase | [`739caf0`](https://github.com/sase-org/sase/commit/739caf01ffd491cf3bac5589e72c221d8e1f8e56) | feat(agents): refresh runner capacity from cached roster | [sase-124.2](sase-124.2.md) | 2026-09-17 15:36:59 EDT |
