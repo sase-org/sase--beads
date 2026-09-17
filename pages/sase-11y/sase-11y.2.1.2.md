@@ -22,7 +22,7 @@ service-config: add the sase-core `service.procs` composer (field-by-field merge
 ## Dependencies
 
 - **Depends on:** [sase-11y.2.1.1](sase-11y.2.1.1.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11y.2.1.3](sase-11y.2.1.3.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.2.1.3](sase-11y.2.1.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

@@ -13,7 +13,7 @@ status-wire: add enablement-provenance resolution, the schema-versioned service 
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.2.1.3](sase-11y.2.1.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.2.1.3](sase-11y.2.1.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
