@@ -55,7 +55,7 @@ flowchart TD
     n7["sase-124.7: Before/after verification on athena and regression coverage [closed]"]
     n8["sase-124.8: Finish Agents freshness correctness and acceptance [in_progress]"]
     n9["sase-124.8.1: Correct capacity inputs and asynchronous result ordering [closed]"]
-    n10["sase-124.8.2: Preserve attention refresh intent without delaying local surfaces [in_progress]"]
+    n10["sase-124.8.2: Preserve attention refresh intent without delaying local surfaces [closed]"]
     n11["sase-124.8.3: Prove freshness on the integrated athena tree [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-124.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.6/README.md) | [sase-124.6](sase-124.6.md) | 1 |
 | [bbugyi200.athena.sase-124.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.7/README.md) | [sase-124.7](sase-124.7.md) | 0 |
 | [bbugyi200.athena.sase-124.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.1/README.md) | [sase-124.8.1](sase-124.8.1.md) | 1 |
-| [bbugyi200.athena.sase-124.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.2/README.md) | [sase-124.8.2](sase-124.8.2.md) | 0 |
+| [bbugyi200.athena.sase-124.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.2/README.md) | [sase-124.8.2](sase-124.8.2.md) | 1 |
 | [bbugyi200.athena.sase-124.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.3/README.md) | [sase-124.8.3](sase-124.8.3.md) | 0 |
 | [bbugyi200.athena.sase-124.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.land/README.md) | [sase-124.8](sase-124.8.md) | 0 |
 | [bbugyi200.athena.sase-124.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.land.md) | [sase-124](README.md) | 0 |
@@ -108,3 +108,4 @@ flowchart TD
 | sase | [`26a43d2`](https://github.com/sase-org/sase/commit/26a43d29f47f59011b44128505bef4500010fbe9) | perf(tui): narrow agent-loading refreshes with artifact/claims caches | [sase-124.4](sase-124.4.md) | 2026-09-17 15:23:04 EDT |
 | sase | [`739caf0`](https://github.com/sase-org/sase/commit/739caf01ffd491cf3bac5589e72c221d8e1f8e56) | feat(agents): refresh runner capacity from cached roster | [sase-124.2](sase-124.2.md) | 2026-09-17 15:36:59 EDT |
 | sase | [`f1616c5`](https://github.com/sase-org/sase/commit/f1616c505e3581cea78f3ac9c21efb4361312a79) | fix(tui): correct agents capacity ordering | [sase-124.8.1](sase-124.8.1.md) | 2026-09-17 18:37:58 EDT |
+| sase | [`9a1d5d6`](https://github.com/sase-org/sase/commit/9a1d5d67a2ba99549dbd5ae5fbbc6cf533abf64a) | fix(tui): detach attention inventory polling | [sase-124.8.2](sase-124.8.2.md) | 2026-09-17 19:35:58 EDT |

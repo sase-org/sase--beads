@@ -14,7 +14,7 @@ acceptance: integrate intervening refresh changes, capture fresh busy and idle s
 ## Dependencies
 
 - **Depends on:** [sase-124.8.1](sase-124.8.1.md) ✓ · ⧖ 2026-09-17
-- **Depends on:** [sase-124.8.2](sase-124.8.2.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-124.8.2](sase-124.8.2.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
