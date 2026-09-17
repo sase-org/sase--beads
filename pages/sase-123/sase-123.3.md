@@ -19,7 +19,7 @@ screenshot-cli: add the top-level command that launches the TUI in tmux with fix
 
 - **Depends on:** [sase-123.1](sase-123.1.md) ✓ · ⧖ 2026-09-17
 - **Depends on:** [sase-123.2](sase-123.2.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-123.4](sase-123.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.4](sase-123.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
