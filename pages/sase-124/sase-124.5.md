@@ -17,7 +17,7 @@ ui-hitches: move the unread-ack notification-store mutation off the UI thread wi
 
 ## Dependencies
 
-- **Blocks:** [sase-124.7](sase-124.7.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.7](sase-124.7.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

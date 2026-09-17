@@ -18,7 +18,7 @@ inflight-status: extend the STARTING-row 1 s stat poll to all in-flight rows so 
 ## Dependencies
 
 - **Depends on:** [sase-124.1](sase-124.1.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-124.7](sase-124.7.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.7](sase-124.7.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

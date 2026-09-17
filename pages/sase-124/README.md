@@ -11,6 +11,10 @@
 
 The Agents tab reflects load/capacity, unread notification, and node status changes within seconds on hosts with tens of thousands of stored agents, without adding per-tick TUI cost.
 
+## Notes
+
+[2026-09-17T20:58:03Z · sase-124.7] sase-124.7 verification on athena at 739caf01ff (2026-09-17): sase-zr.7.3 and sase-zr.7.5 were still in_progress, so gate-refresh overlap was not credited here. Repeatable regression evidence: just test-slow tests/perf/bench_tui_trace.py passed 5 tests in 492.58s; just bench-agent-load-tiering --sase-home ~/.sase --runs 3 --warmup 1 --session-refreshes 5 wrote ~/.sase/perf/agent_load_tiering_sase-124.7_athena_real_20260917.json against 11,516 artifacts (source_scan p50/p95 11148/11162 ms, production_bounded p50/p95 1421/1693 ms, production_full_history p50/p95 2232/2561 ms, unchanged refresh p50/p95 249/952 ms); just _lint-symvision passed after re-keying the unrelated render_svg_to_png whitelist from closed sase-123.3 to open sase-123.4; just check passed, with scoped tests escalating to the full suite because Justfile changed. Mixed live acceptance: recent athena telemetry still missed the no-full-load, hitch, and trace-target goals; proposed follow-ups are recorded on phase sase-124.7.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -18,10 +22,10 @@ The Agents tab reflects load/capacity, unread notification, and node status chan
 | [sase-124.1](sase-124.1.md) | Stop refresh-pulse writes from poisoning the bounded artifact-delta path | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.2](sase-124.2.md) | Give the load/capacity indicator a cheap refresh path independent of broad loads | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.3](sase-124.3.md) | Take the federation attention RPC off the auto-refresh critical path | ✓ closed | medium | 2026-09-17 | 1 | 1 |
-| [sase-124.4](sase-124.4.md) | Cut broad Tier 1 load and post-apply warmup cost on large archives | ◐ in_progress | large | 2026-09-17 | 1 | 1 |
+| [sase-124.4](sase-124.4.md) | Cut broad Tier 1 load and post-apply warmup cost on large archives | ✓ closed | large | 2026-09-17 | 1 | 1 |
 | [sase-124.5](sase-124.5.md) | Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.6](sase-124.6.md) | Bounded marker polling so in-flight node status converges without broad loads | ✓ closed | medium | 2026-09-17 | 1 | 1 |
-| [sase-124.7](sase-124.7.md) | Before/after verification on athena and regression coverage | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
+| [sase-124.7](sase-124.7.md) | Before/after verification on athena and regression coverage | ✓ closed | medium | 2026-09-17 | 1 | 0 |
 
 ## Lineage
 
@@ -31,10 +35,10 @@ flowchart TD
     n1["sase-124.1: Stop refresh-pulse writes from poisoning the bounded artifact-delta path [closed]"]
     n2["sase-124.2: Give the load/capacity indicator a cheap refresh path independent of broad loads [closed]"]
     n3["sase-124.3: Take the federation attention RPC off the auto-refresh critical path [closed]"]
-    n4["sase-124.4: Cut broad Tier 1 load and post-apply warmup cost on large archives [in_progress]"]
+    n4["sase-124.4: Cut broad Tier 1 load and post-apply warmup cost on large archives [closed]"]
     n5["sase-124.5: Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) [closed]"]
     n6["sase-124.6: Bounded marker polling so in-flight node status converges without broad loads [closed]"]
-    n7["sase-124.7: Before/after verification on athena and regression coverage [in_progress]"]
+    n7["sase-124.7: Before/after verification on athena and regression coverage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3

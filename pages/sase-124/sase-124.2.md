@@ -17,7 +17,7 @@ capacity-fresh: recompute the runner-capacity snapshot from the in-memory roster
 
 ## Dependencies
 
-- **Blocks:** [sase-124.7](sase-124.7.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.7](sase-124.7.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

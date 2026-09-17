@@ -17,7 +17,7 @@ tick-diet: make per-tick fleet-attention polling cache-backed with a longer netw
 
 ## Dependencies
 
-- **Blocks:** [sase-124.7](sase-124.7.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.7](sase-124.7.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
