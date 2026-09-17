@@ -14,7 +14,7 @@ integrated-verification: verify the combined tree with the exact selected core, 
 ## Dependencies
 
 - **Depends on:** [sase-126.1](sase-126.1.md) ✓ · ⧖ 2026-09-17
-- **Depends on:** [sase-126.2](sase-126.2.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-126.2](sase-126.2.md) ✓ · ⧖ 2026-09-17
 - **Depends on:** [sase-126.3](sase-126.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
