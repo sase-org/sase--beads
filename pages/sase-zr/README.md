@@ -104,7 +104,7 @@ flowchart TD
     n10["sase-zr.7.1.1.1: Execution owner, failure outcome and liveness policy in sase-core [closed]"]
     n11["sase-zr.7.1.1.2: Receipt-scoped journal, truthful attempt completion and durable failure outcomes [closed]"]
     n12["sase-zr.7.1.1.3: Verifiable owner, live-owner conflict rejection and post-failure supersede/cancel [closed]"]
-    n13["sase-zr.7.1.1.4: Failure results for requesters and deduped recovery notifications [in_progress]"]
+    n13["sase-zr.7.1.1.4: Failure results for requesters and deduped recovery notifications [closed]"]
     n14["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
     n15["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
     n16["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
@@ -156,7 +156,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.1/README.md) | [sase-zr.7.1.1.1](sase-zr.7.1.1.1.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.2/README.md) | [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.3/README.md) | [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.4/README.md) | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.4/README.md) | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.land/README.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 0 |
@@ -179,3 +179,4 @@ flowchart TD
 | sase-core | [`sase-core@b4c3ca6`](https://github.com/sase-org/sase-core/commit/b4c3ca63662ce2199b1af652eaebcc3946bb8b29) | feat(gate-decision): add execution owner recovery policy | [sase-zr.7.1.1.1](sase-zr.7.1.1.1.md) | 2026-09-17 07:12:32 EDT |
 | sase | [`934be03`](https://github.com/sase-org/sase/commit/934be032dd7ea5fa61f5017fb90aeaac8d87c760) | feat(gate-decision): journal acceptance ids and durable attempt-failure outcomes | [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) | 2026-09-17 13:59:23 EDT |
 | sase | [`26797a9`](https://github.com/sase-org/sase/commit/26797a95acef0dc653405b8b917b5e82676133ac) | fix(gates): enforce live owner decision integrity | [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) | 2026-09-17 18:26:10 EDT |
+| sase | [`1d14218`](https://github.com/sase-org/sase/commit/1d14218a3c29238ee99fcb2d2a970979d0afeba6) | feat(gate): surface execution failures to requesters | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 2026-09-17 19:37:07 EDT |
