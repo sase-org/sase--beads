@@ -13,9 +13,9 @@ verify-on-athena: soak the fixed TUI on athena with trace capture, compare again
 
 ## Dependencies
 
-- **Depends on:** [sase-127.1](sase-127.1.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-127.1](sase-127.1.md) ✓ · ⧖ 2026-09-17
 - **Depends on:** [sase-127.2](sase-127.2.md) ✓ · ⧖ 2026-09-17
-- **Depends on:** [sase-127.3](sase-127.3.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-127.3](sase-127.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
