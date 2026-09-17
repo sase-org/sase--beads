@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.3/README.md) | [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.5.md) | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.land/README.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.land.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.land.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.land.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
@@ -200,3 +200,4 @@ flowchart TD
 | sase | [`897e69e`](https://github.com/sase-org/sase/commit/897e69e1e188d08a0b5579f7b55d1766578d37bb) | fix(axe): canonicalize residual job diagnostics | [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) | 2026-09-16 16:47:40 EDT |
 | sase | [`c05aa3a`](https://github.com/sase-org/sase/commit/c05aa3a94aff0944984756619e1a4c3846e271e6) | feat(tribes): resolve job alias before persistence | [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) | 2026-09-16 16:52:25 EDT |
 | sase | [`4e92780`](https://github.com/sase-org/sase/commit/4e9278048a779b08ddc972c260fe6fc6e9611fbe) | test(job-identity): extend upgrade-fixture coverage and ratchet core pin | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 2026-09-17 08:00:10 EDT |
+| sase | [`0e5ab63`](https://github.com/sase-org/sase/commit/0e5ab634be4ca470a0d08c866bc393902f7a1e40) | feat(axe): unify routine job evidence and editor writes | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2026-09-17 11:34:39 EDT |
