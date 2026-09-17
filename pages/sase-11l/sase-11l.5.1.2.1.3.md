@@ -13,7 +13,7 @@ typed-arm: pre-arm hold-carrying units under the admission lock, with idempotent
 
 ## Dependencies
 
-- **Depends on:** [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

@@ -54,7 +54,7 @@ flowchart TD
     n9["sase-11l.5.1.2: Arm holds at launch submission [in_progress]"]
     n10["sase-11l.5.1.2.1: Arm %hold at launch submission [in_progress]"]
     n11["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
-    n12["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [in_progress]"]
+    n12["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
     n13["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [in_progress]"]
     n14["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [in_progress]"]
     n15["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.5.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.1.md) | [sase-11l.5.1.1](sase-11l.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.5.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.md) | [sase-11l.5.1.2](sase-11l.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.1/README.md) | [sase-11l.5.1.2.1.1](sase-11l.5.1.2.1.1.md) | 1 |
-| [bbugyi200.athena.sase-11l.5.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.2/README.md) | [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.2/README.md) | [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.3/README.md) | [sase-11l.5.1.2.1.3](sase-11l.5.1.2.1.3.md) | 0 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.4/README.md) | [sase-11l.5.1.2.1.4](sase-11l.5.1.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.land/README.md) | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 0 |
@@ -144,3 +144,4 @@ flowchart TD
 | sase-core | [`sase-core@a685c07`](https://github.com/sase-org/sase-core/commit/a685c0725fba4b6391bfb8541a06f935480253d4) | feat(core): add hold directive contracts | [sase-11l.5.1.1](sase-11l.5.1.1.md) | 2026-09-16 15:40:45 EDT |
 | sase-core | [`sase-core@f93ed13`](https://github.com/sase-org/sase-core/commit/f93ed139f4b1295d7c508a90cf822be9f229e75c) | feat(agent-hold): add launch armer core support | [sase-11l.5.1.2.1.1](sase-11l.5.1.2.1.1.md) | 2026-09-16 17:09:25 EDT |
 | sase | [`43c8721`](https://github.com/sase-org/sase/commit/43c87210f5821663c21d9198865f52f02473d009) | feat(agent-hold): preview pending %hold captures and confirm broad holds | [sase-11l.5.1.3](sase-11l.5.1.3.md) | 2026-09-16 18:38:38 EDT |
+| sase | [`02f0fd3`](https://github.com/sase-org/sase/commit/02f0fd3893f57267a0bef8f6f69fc23adc89c675) | feat(agent-hold): add launch-hold facade primitives and launch armer kind | [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) | 2026-09-17 07:28:41 EDT |

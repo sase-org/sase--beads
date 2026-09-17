@@ -17,7 +17,7 @@ hold-core: add the `launch` armer kind, arm-time kin rejection, and armer rebind
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
