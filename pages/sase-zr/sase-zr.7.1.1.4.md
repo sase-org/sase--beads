@@ -13,7 +13,7 @@ failure_surfacing: in sase, give poll_gate a failed status, record owner_lost on
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

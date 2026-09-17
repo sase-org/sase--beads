@@ -26,7 +26,7 @@ failure_journal: in sase, adopt the new core revision, stamp every receipt and j
 ## Dependencies
 
 - **Depends on:** [sase-zr.7.1.1.1](sase-zr.7.1.1.1.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
