@@ -17,7 +17,7 @@ The Agents tab stops flickering under an active filter query and live agent chur
 |---|---|---|---|---|---:|---:|
 | [sase-127.1](sase-127.1.md) | Stop the visible-set oscillation across load tiers | ✓ closed | large | 2026-09-17 | 1 | 1 |
 | [sase-127.2](sase-127.2.md) | Incremental panel refresh with an active filter query | ✓ closed | medium | 2026-09-17 | 1 | 1 |
-| [sase-127.3](sase-127.3.md) | Skip no-op fleet reprojection repaints | ✓ closed | small | 2026-09-17 | 1 | 0 |
+| [sase-127.3](sase-127.3.md) | Skip no-op fleet reprojection repaints | ✓ closed | small | 2026-09-17 | 1 | 1 |
 | [sase-127.4](sase-127.4.md) | Regression coverage and on-host verification | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
 
 ## Lineage
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-127.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-127.1.md) | [sase-127.1](sase-127.1.md) | 1 |
 | [bbugyi200.athena.sase-127.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-127.2/README.md) | [sase-127.2](sase-127.2.md) | 1 |
-| [bbugyi200.athena.sase-127.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-127.3/README.md) | [sase-127.3](sase-127.3.md) | 0 |
+| [bbugyi200.athena.sase-127.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-127.3/README.md) | [sase-127.3](sase-127.3.md) | 1 |
 | [bbugyi200.athena.sase-127.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-127.4/README.md) | [sase-127.4](sase-127.4.md) | 0 |
 | [bbugyi200.athena.sase-127.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-127.land/README.md) | [sase-127](README.md) | 0 |
 
@@ -54,3 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`155aeee`](https://github.com/sase-org/sase/commit/155aeee2efe67b653c4c715888716a116401fdaa) | fix(tui): allow incremental agent refresh under stable search | [sase-127.2](sase-127.2.md) | 2026-09-17 17:20:00 EDT |
 | sase | [`7058f16`](https://github.com/sase-org/sase/commit/7058f16ceb867bd5ea3f3d865c9fb24300cdd5dd) | fix(agents): stabilize bounded load convergence | [sase-127.1](sase-127.1.md) | 2026-09-17 18:55:27 EDT |
+| sase | [`5b7c455`](https://github.com/sase-org/sase/commit/5b7c4553ccc7ce862535435735785ebb440ed02b) | fix(tui): skip unchanged fleet reprojections | [sase-127.3](sase-127.3.md) | 2026-09-17 19:30:36 EDT |
