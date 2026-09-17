@@ -28,7 +28,7 @@ Agents can launch a real `sase tui` locally or on a remote machine, drive it wit
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-123.1](sase-123.1.md) | Promote the canonical rasterizer out of tests/ | ✓ closed | small | 2026-09-17 | 1 | 1 |
-| [sase-123.2](sase-123.2.md) | Externally-triggerable live-app screenshot export | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
+| [sase-123.2](sase-123.2.md) | Externally-triggerable live-app screenshot export | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-123.3](sase-123.3.md) | sase screenshot local orchestration | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
 | [sase-123.4](sase-123.4.md) | Remote capture via --host | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
 | [sase-123.5](sase-123.5.md) | Flat-note inline embedding in memory reads | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
@@ -40,7 +40,7 @@ Agents can launch a real `sase tui` locally or on a remote machine, drive it wit
 flowchart TD
     n0["sase-123: Agent screenshots of a real sase TUI (sase screenshot) [in_progress]"]
     n1["sase-123.1: Promote the canonical rasterizer out of tests/ [closed]"]
-    n2["sase-123.2: Externally-triggerable live-app screenshot export [in_progress]"]
+    n2["sase-123.2: Externally-triggerable live-app screenshot export [closed]"]
     n3["sase-123.3: sase screenshot local orchestration [in_progress]"]
     n4["sase-123.4: Remote capture via --host [in_progress]"]
     n5["sase-123.5: Flat-note inline embedding in memory reads [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-123.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.1/README.md) | [sase-123.1](sase-123.1.md) | 1 |
-| [bbugyi200.athena.sase-123.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.2/README.md) | [sase-123.2](sase-123.2.md) | 0 |
+| [bbugyi200.athena.sase-123.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.2/README.md) | [sase-123.2](sase-123.2.md) | 1 |
 | [bbugyi200.athena.sase-123.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.3/README.md) | [sase-123.3](sase-123.3.md) | 0 |
 | [bbugyi200.athena.sase-123.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.4/README.md) | [sase-123.4](sase-123.4.md) | 0 |
 | [bbugyi200.athena.sase-123.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.5/README.md) | [sase-123.5](sase-123.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7aef336`](https://github.com/sase-org/sase/commit/7aef3364e22929aba2bc495306313ff17189c549) | feat(tui): promote visual rasterizer | [sase-123.1](sase-123.1.md) | 2026-09-17 09:55:49 EDT |
+| sase | [`797feeb`](https://github.com/sase-org/sase/commit/797feeb62dcb34d1a6e0616a56d06afbdead6bc4) | feat(tui): add live screenshot export | [sase-123.2](sase-123.2.md) | 2026-09-17 10:09:10 EDT |
