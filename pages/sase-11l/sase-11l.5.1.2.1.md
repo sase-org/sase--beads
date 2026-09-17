@@ -23,8 +23,18 @@
 
 A launch that carries `%hold` arms a durable hold as soon as it is submitted. For plain agent launches the runner arms the hold before any dependency wait. For typed plans the hold is armed before any unit dispatches. The hold then follows each unit to its runner or proc without losing its original timing. It is released when a unit never dispatches, and it survives every hand-off between processes. The armer never holds its own kin, and a hold-carrying launch gets an implied, non-authored priority boost.
 
+## Notes
+
+[2026-09-17T17:20:16Z · bryanbugyi34@gmail.com] Refer to create a tale plan instead of an epic if you can (if there is still work to do)
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.5.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.land/README.md) | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.1.land.md) | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ff08843`](https://github.com/sase-org/sase/commit/ff088437985ffa0f679ae59406280202f58b9279) | feat(agent): pre-arm typed launch holds | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 2026-09-17 14:53:35 EDT |
