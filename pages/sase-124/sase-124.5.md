@@ -19,4 +19,4 @@ ui-hitches: move the unread-ack notification-store mutation off the UI thread wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-124.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.5/README.md) | [sase-124.5](sase-124.5.md) | 0 |
+| [bbugyi200.athena.sase-124.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.5.md) | [sase-124.5](sase-124.5.md) | 0 |

@@ -19,7 +19,7 @@ pulse-delta: classify project-level .ace_refresh_pulse watcher paths as a pure f
 
 ## Dependencies
 
-- **Blocks:** [sase-124.6](sase-124.6.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.6](sase-124.6.md) ✓ · ⧖ 2026-09-17
 - **Blocks:** [sase-124.7](sase-124.7.md) ◐ · ⧖ 2026-09-17
 
 ## Agents

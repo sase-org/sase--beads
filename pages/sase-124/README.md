@@ -20,7 +20,7 @@ The Agents tab reflects load/capacity, unread notification, and node status chan
 | [sase-124.3](sase-124.3.md) | Take the federation attention RPC off the auto-refresh critical path | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
 | [sase-124.4](sase-124.4.md) | Cut broad Tier 1 load and post-apply warmup cost on large archives | ◐ in_progress | large | 2026-09-17 | 1 | 0 |
 | [sase-124.5](sase-124.5.md) | Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
-| [sase-124.6](sase-124.6.md) | Bounded marker polling so in-flight node status converges without broad loads | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
+| [sase-124.6](sase-124.6.md) | Bounded marker polling so in-flight node status converges without broad loads | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-124.7](sase-124.7.md) | Before/after verification on athena and regression coverage | ◐ in_progress | medium | 2026-09-17 | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n3["sase-124.3: Take the federation attention RPC off the auto-refresh critical path [in_progress]"]
     n4["sase-124.4: Cut broad Tier 1 load and post-apply warmup cost on large archives [in_progress]"]
     n5["sase-124.5: Remove Agents-tab UI-thread hitches (unread ack, info-panel countdown) [in_progress]"]
-    n6["sase-124.6: Bounded marker polling so in-flight node status converges without broad loads [in_progress]"]
+    n6["sase-124.6: Bounded marker polling so in-flight node status converges without broad loads [closed]"]
     n7["sase-124.7: Before/after verification on athena and regression coverage [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -59,8 +59,8 @@ flowchart TD
 | [bbugyi200.athena.sase-124.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.2/README.md) | [sase-124.2](sase-124.2.md) | 0 |
 | [bbugyi200.athena.sase-124.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.3/README.md) | [sase-124.3](sase-124.3.md) | 0 |
 | [bbugyi200.athena.sase-124.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.4.md) | [sase-124.4](sase-124.4.md) | 0 |
-| [bbugyi200.athena.sase-124.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.5/README.md) | [sase-124.5](sase-124.5.md) | 0 |
-| [bbugyi200.athena.sase-124.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.6/README.md) | [sase-124.6](sase-124.6.md) | 0 |
+| [bbugyi200.athena.sase-124.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.5.md) | [sase-124.5](sase-124.5.md) | 0 |
+| [bbugyi200.athena.sase-124.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.6/README.md) | [sase-124.6](sase-124.6.md) | 1 |
 | [bbugyi200.athena.sase-124.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.7/README.md) | [sase-124.7](sase-124.7.md) | 0 |
 | [bbugyi200.athena.sase-124.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.land/README.md) | [sase-124](README.md) | 0 |
 
@@ -69,3 +69,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`43ddcf1`](https://github.com/sase-org/sase/commit/43ddcf15f5a72a8bdbcb708692b8d9fe2ab106d1) | fix(tui): keep refresh pulses out of broad fallback | [sase-124.1](sase-124.1.md) | 2026-09-17 12:37:30 EDT |
+| sase | [`14403c1`](https://github.com/sase-org/sase/commit/14403c1594b63deac2d9dceec2adbb6c3d7eb79a) | feat(agents): poll in-flight markers for status deltas | [sase-124.6](sase-124.6.md) | 2026-09-17 14:06:19 EDT |
