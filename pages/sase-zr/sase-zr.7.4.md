@@ -28,10 +28,4 @@ Verified: sase-telegram's full suite (636 tests), ruff, and mypy all pass (after
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@24900c0`](https://github.com/sase-org/sase-telegram/commit/24900c02de4e76e91f7b35fb8f4a3851e97ed4a8) | fix(telegram): authenticate inbound updates and pre-reject TTY-only gate options | [sase-zr.7.4](sase-zr.7.4.md) | 2026-09-16 15:02:54 EDT |
+| [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 0 |
