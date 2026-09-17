@@ -19,7 +19,7 @@ visual-render-promotion: move render_svg_to_png and the bundled fonts from tests
 
 ## Dependencies
 
-- **Blocks:** [sase-123.3](sase-123.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.3](sase-123.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

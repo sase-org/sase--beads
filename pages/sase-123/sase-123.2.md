@@ -17,7 +17,7 @@ live-screenshot-export: add the per-window request-dir protocol and a SIGUSR2-tr
 
 ## Dependencies
 
-- **Blocks:** [sase-123.3](sase-123.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.3](sase-123.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
