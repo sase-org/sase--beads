@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11e.8.6.5.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.3/README.md) | [sase-11e.8.6.5.4.3](sase-11e.8.6.5.4.3.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 1 |
 | [bbugyi200.athena.sase-11e.8.6.5.4.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.5.md) | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 1 |
-| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.land.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.land.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2 |
 | [bbugyi200.athena.sase-11e.8.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.land.md) | [sase-11e.8.6.5](sase-11e.8.6.5.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.land.md) | [sase-11e.8.6](sase-11e.8.6.md) | 0 |
 | [bbugyi200.athena.sase-11e.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.land.md) | [sase-11e.8](sase-11e.8.md) | 0 |
@@ -201,3 +201,4 @@ flowchart TD
 | sase | [`c05aa3a`](https://github.com/sase-org/sase/commit/c05aa3a94aff0944984756619e1a4c3846e271e6) | feat(tribes): resolve job alias before persistence | [sase-11e.8.6.5.4.1](sase-11e.8.6.5.4.1.md) | 2026-09-16 16:52:25 EDT |
 | sase | [`4e92780`](https://github.com/sase-org/sase/commit/4e9278048a779b08ddc972c260fe6fc6e9611fbe) | test(job-identity): extend upgrade-fixture coverage and ratchet core pin | [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) | 2026-09-17 08:00:10 EDT |
 | sase | [`0e5ab63`](https://github.com/sase-org/sase/commit/0e5ab634be4ca470a0d08c866bc393902f7a1e40) | feat(axe): unify routine job evidence and editor writes | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2026-09-17 11:34:39 EDT |
+| sase-core | [`sase-core@244634e`](https://github.com/sase-org/sase-core/commit/244634e143412a52231911f3f20b2dca376272a3) | fix(config): preserve legacy routine timeout mutation sources | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2026-09-17 11:39:14 EDT |

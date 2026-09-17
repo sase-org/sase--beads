@@ -50,10 +50,11 @@ Durable audit and isolated reproduction scripts: file:explicit:72ce5e88a1d23411d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.land.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 1 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11e.8.6.5.4.land.md) | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0e5ab63`](https://github.com/sase-org/sase/commit/0e5ab634be4ca470a0d08c866bc393902f7a1e40) | feat(axe): unify routine job evidence and editor writes | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2026-09-17 11:34:39 EDT |
+| sase-core | [`sase-core@244634e`](https://github.com/sase-org/sase-core/commit/244634e143412a52231911f3f20b2dca376272a3) | fix(config): preserve legacy routine timeout mutation sources | [sase-11e.8.6.5.4](sase-11e.8.6.5.4.md) | 2026-09-17 11:39:14 EDT |
