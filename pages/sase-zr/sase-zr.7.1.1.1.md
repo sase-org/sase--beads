@@ -17,7 +17,7 @@ core_execution_policy: in sase-core, add the execution owner, acceptance id, exe
 
 ## Dependencies
 
-- **Blocks:** [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

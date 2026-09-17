@@ -13,7 +13,7 @@ owner_conflict: in sase, record the execution owner on every receipt, collect lo
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) ✓ · ⧖ 2026-09-17
 - **Blocks:** [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) ◐ · ⧖ 2026-09-17
 
 ## Agents
