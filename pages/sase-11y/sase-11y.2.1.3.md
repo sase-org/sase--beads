@@ -20,7 +20,7 @@ restart-state: add the pure `decide_service_restart` function (restart policy, c
 ## Dependencies
 
 - **Depends on:** [sase-11y.2.1.2](sase-11y.2.1.2.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11y.2.1.4](sase-11y.2.1.4.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.2.1.4](sase-11y.2.1.4.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
