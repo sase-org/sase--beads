@@ -14,7 +14,7 @@ tui-memory-notes: create tui.md and tui_screenshot.md, reparent tui_perf.md unde
 ## Dependencies
 
 - **Depends on:** [sase-123.4](sase-123.4.md) ◐ · ⧖ 2026-09-17
-- **Depends on:** [sase-123.5](sase-123.5.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-123.5](sase-123.5.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
