@@ -21,10 +21,16 @@ core_diagnostics: job wording for sase-core axe_chop validation, target, and PyO
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 0 |
+| [bbugyi200.athena.sase-11e.8.6.5.4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11e.8.6.5.4.4/README.md) | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@f04da63`](https://github.com/sase-org/sase-core/commit/f04da63e5f16d2f842194d54b147de42bcb10d04) | fix(axe-chop): canonicalize live job validation and target wording | [sase-11e.8.6.5.4.4](sase-11e.8.6.5.4.4.md) | 2026-09-16 16:22:34 EDT |

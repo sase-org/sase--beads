@@ -19,7 +19,7 @@ tribe_evidence: runner wait fast path, fork, completion, clan tribes, colors, an
 
 ## Dependencies
 
-- **Blocks:** [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11e.8.6.5.4.5](sase-11e.8.6.5.4.5.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
