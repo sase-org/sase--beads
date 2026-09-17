@@ -51,13 +51,16 @@ flowchart TD
     n6["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
     n7["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
     n8["sase-11y.2.1.4: Enablement resolution and the service status snapshot wire [closed]"]
-    n9["sase-11y.3: Extract the shared child-supervision library [closed]"]
-    n10["sase-11y.4: Service host runtime and CLI [in_progress]"]
-    n11["sase-11y.5: Platform units and init integration [in_progress]"]
-    n12["sase-11y.6: Gateway builtin and Telegram plugin migration [in_progress]"]
-    n13["sase-11y.7: Services tab in the TUI [in_progress]"]
-    n14["sase-11y.8: Migrate background commands to oneshot service procs [in_progress]"]
-    n15["sase-11y.9: Live migration on athena and apollo [in_progress]"]
+    n9["sase-11y.2.1.5: Complete service-foundation landing integration [in_progress]"]
+    n10["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
+    n11["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [in_progress]"]
+    n12["sase-11y.3: Extract the shared child-supervision library [closed]"]
+    n13["sase-11y.4: Service host runtime and CLI [in_progress]"]
+    n14["sase-11y.5: Platform units and init integration [in_progress]"]
+    n15["sase-11y.6: Gateway builtin and Telegram plugin migration [in_progress]"]
+    n16["sase-11y.7: Services tab in the TUI [in_progress]"]
+    n17["sase-11y.8: Migrate background commands to oneshot service procs [in_progress]"]
+    n18["sase-11y.9: Live migration on athena and apollo [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,30 +69,34 @@ flowchart TD
     n4 --> n6
     n4 --> n7
     n4 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
+    n4 --> n9
+    n9 --> n10
+    n9 --> n11
     n0 --> n12
     n0 --> n13
     n0 --> n14
     n0 --> n15
-    n1 -.-> n10
-    n3 -.-> n10
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n1 -.-> n13
     n3 -.-> n13
+    n3 -.-> n16
     n5 -.-> n6
     n6 -.-> n7
     n7 -.-> n8
-    n9 -.-> n10
     n10 -.-> n11
-    n10 -.-> n12
-    n10 -.-> n13
-    n10 -.-> n14
-    n11 -.-> n15
-    n12 -.-> n15
-    n13 -.-> n2
+    n12 -.-> n13
     n13 -.-> n14
-    n14 -.-> n2
-    n15 -.-> n2
+    n13 -.-> n15
+    n13 -.-> n16
+    n13 -.-> n17
+    n14 -.-> n18
+    n15 -.-> n18
+    n16 -.-> n2
+    n16 -.-> n17
+    n17 -.-> n2
+    n18 -.-> n2
 ```
 
 ## Agents
@@ -103,7 +110,10 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.2.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.2.md) | [sase-11y.2.1.2](sase-11y.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-11y.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.3/README.md) | [sase-11y.2.1.3](sase-11y.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-11y.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.4/README.md) | [sase-11y.2.1.4](sase-11y.2.1.4.md) | 2 |
-| [bbugyi200.athena.sase-11y.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.land/README.md) | [sase-11y.2.1](sase-11y.2.1.md) | 0 |
+| [bbugyi200.athena.sase-11y.2.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.5.1/README.md) | [sase-11y.2.1.5.1](sase-11y.2.1.5.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.2.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.5.2/README.md) | [sase-11y.2.1.5.2](sase-11y.2.1.5.2.md) | 0 |
+| [bbugyi200.athena.sase-11y.2.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.5.land/README.md) | [sase-11y.2.1.5](sase-11y.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-11y.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.land.md) | [sase-11y.2.1](sase-11y.2.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.3.md) | [sase-11y.3](sase-11y.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.4/README.md) | [sase-11y.4](sase-11y.4.md) | 0 |
 | [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.5/README.md) | [sase-11y.5](sase-11y.5.md) | 0 |
@@ -127,3 +137,4 @@ flowchart TD
 | sase-core | [`sase-core@a756136`](https://github.com/sase-org/sase-core/commit/a756136bcf545eb5681236d22e818b731b693910) | feat(service): add restart and state core | [sase-11y.2.1.3](sase-11y.2.1.3.md) | 2026-09-17 11:41:27 EDT |
 | sase | [`05c6094`](https://github.com/sase-org/sase/commit/05c6094b80894b3f9623d20c5259900835c732b6) | feat(service): add status snapshot facade | [sase-11y.2.1.4](sase-11y.2.1.4.md) | 2026-09-17 19:22:40 EDT |
 | sase-core | [`sase-core@fe7c4a0`](https://github.com/sase-org/sase-core/commit/fe7c4a0e6c555af3100c9c7463b7e982ec2cfa4f) | feat(service): add status snapshot wire | [sase-11y.2.1.4](sase-11y.2.1.4.md) | 2026-09-17 19:24:46 EDT |
+| sase-core | [`sase-core@3c75d2e`](https://github.com/sase-org/sase-core/commit/3c75d2e6f5bdeb4fe7f88ef5ff542c524a61283e) | fix(service): scope service status stops by boot | [sase-11y.2.1.5.1](sase-11y.2.1.5.1.md) | 2026-09-17 19:54:03 EDT |
