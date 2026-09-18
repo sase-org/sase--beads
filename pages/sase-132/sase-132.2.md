@@ -13,7 +13,7 @@ startup-sequence: stop launching every post-mount background load concurrently w
 
 ## Dependencies
 
-- **Depends on:** [sase-132.1](sase-132.1.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-132.1](sase-132.1.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-132.7](sase-132.7.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

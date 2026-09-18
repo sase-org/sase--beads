@@ -13,7 +13,7 @@ axe-ready: using the axe spans added in baseline, attribute why axe_ready_second
 
 ## Dependencies
 
-- **Depends on:** [sase-132.1](sase-132.1.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-132.1](sase-132.1.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-132.7](sase-132.7.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

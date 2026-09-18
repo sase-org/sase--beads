@@ -13,7 +13,7 @@ first-paint: profile the compose/on_mount/first-refresh path (on_mount_to_first_
 
 ## Dependencies
 
-- **Depends on:** [sase-132.1](sase-132.1.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-132.1](sase-132.1.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-132.7](sase-132.7.md) ◐ · ⧖ 2026-09-18
 
 ## Agents
