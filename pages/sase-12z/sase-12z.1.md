@@ -19,7 +19,7 @@ capture-protocol: add an isolated, versioned candidate-capture protocol to the s
 
 ## Dependencies
 
-- **Blocks:** [sase-12z.2](sase-12z.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12z.2](sase-12z.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

@@ -13,7 +13,7 @@ change-reports: extend the existing visual report pipeline to consume the run ma
 
 ## Dependencies
 
-- **Depends on:** [sase-12z.2](sase-12z.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12z.2](sase-12z.2.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12z.4](sase-12z.4.md) ◐ · ⧖ 2026-09-18
 
 ## Agents
