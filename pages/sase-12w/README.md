@@ -19,7 +19,7 @@ Approving a sudo gate takes over the terminal only long enough to authenticate; 
 | [sase-12w.2](sase-12w.2.md) | Detached sudo answer path and finalize proc | ✓ closed | large | 2026-09-18 | 1 | 1 |
 | [sase-12w.3](sase-12w.3.md) | TUI handoff returns after authentication | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-12w.4](sase-12w.4.md) | Detached execution for remote sudo targets | ✓ closed | medium | 2026-09-18 | 1 | 1 |
-| [sase-12w.5](sase-12w.5.md) | Detach becomes the default answer mode | ◐ in_progress | small | 2026-09-18 | 1 | 0 |
+| [sase-12w.5](sase-12w.5.md) | Detach becomes the default answer mode | ✓ closed | small | 2026-09-18 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["sase-12w.2: Detached sudo answer path and finalize proc [closed]"]
     n3["sase-12w.3: TUI handoff returns after authentication [closed]"]
     n4["sase-12w.4: Detached execution for remote sudo targets [closed]"]
-    n5["sase-12w.5: Detach becomes the default answer mode [in_progress]"]
+    n5["sase-12w.5: Detach becomes the default answer mode [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-12w.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.2.md) | [sase-12w.2](sase-12w.2.md) | 1 |
 | [bbugyi200.athena.sase-12w.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.3/README.md) | [sase-12w.3](sase-12w.3.md) | 1 |
 | [bbugyi200.athena.sase-12w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.4/README.md) | [sase-12w.4](sase-12w.4.md) | 1 |
-| [bbugyi200.athena.sase-12w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.5/README.md) | [sase-12w.5](sase-12w.5.md) | 0 |
+| [bbugyi200.athena.sase-12w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.5/README.md) | [sase-12w.5](sase-12w.5.md) | 1 |
 | [bbugyi200.athena.sase-12w.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.land/README.md) | [sase-12w](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 | sase | [`af8b7ec`](https://github.com/sase-org/sase/commit/af8b7ec14009c34ccac57c7879ec52329d53f4fa) | feat(sudo): add local detached answer path and finalize proc | [sase-12w.2](sase-12w.2.md) | 2026-09-18 11:35:39 EDT |
 | sase | [`e98ef5b`](https://github.com/sase-org/sase/commit/e98ef5b1ce3c5fdb70db2890fa1ec0dd79b77478) | feat(tui): detach sudo handoff execution | [sase-12w.3](sase-12w.3.md) | 2026-09-18 12:32:40 EDT |
 | sase | [`e0f1a8d`](https://github.com/sase-org/sase/commit/e0f1a8d43ad803f64477f73609426409b0c426a7) | feat(sudo): detach remote sudo execution | [sase-12w.4](sase-12w.4.md) | 2026-09-18 12:48:39 EDT |
+| sase | [`a26bfc8`](https://github.com/sase-org/sase/commit/a26bfc839d51664baaa629522483234d60aa3d33) | feat(sudo): default approvals to detached execution | [sase-12w.5](sase-12w.5.md) | 2026-09-18 13:33:19 EDT |
