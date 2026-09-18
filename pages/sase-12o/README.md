@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-12o.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.1/README.md) | [sase-12o.1](sase-12o.1.md) | 1 |
 | [bbugyi200.apollo.sase-12o.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.2/README.md) | [sase-12o.2](sase-12o.2.md) | 1 |
 | [bbugyi200.apollo.sase-12o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.3/README.md) | [sase-12o.3](sase-12o.3.md) | 2 |
-| [bbugyi200.apollo.sase-12o.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-12o.land.md) | [sase-12o](README.md) | 1 |
+| [bbugyi200.apollo.sase-12o.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-12o.land.md) | [sase-12o](README.md) | 2 |
 
 ## Commits
 
@@ -69,3 +69,4 @@ flowchart TD
 | sase | [`0320dae`](https://github.com/sase-org/sase/commit/0320daed701fe0b6b8b23a35667d56ca557190c4) | feat(completion): migrate chezmoi to portable loaders | [sase-12o.3](sase-12o.3.md) | 2026-09-18 15:04:15 EDT |
 | chezmoi | [`chezmoi@13bb585`](https://github.com/bbugyi200/dotfiles/commit/13bb5851a904dd80acdf05245266beb2243d2957) | chore(completion): use sase completion loaders | [sase-12o.3](sase-12o.3.md) | 2026-09-18 15:07:04 EDT |
 | sase | [`b6183a1`](https://github.com/sase-org/sase/commit/b6183a14cd26f0910ff1570f264d20f10aa62aaa) | fix(completion): publish grammar cache as one recoverable generation | [sase-12o](README.md) | 2026-09-18 16:16:53 EDT |
+| chezmoi | [`chezmoi@92c0966`](https://github.com/bbugyi200/dotfiles/commit/92c09661f2e51a24799e0ffcc3c0d49604060196) | fix(completion): quote portable sase loaders and source zsh grammar by path | [sase-12o](README.md) | 2026-09-18 16:18:47 EDT |
