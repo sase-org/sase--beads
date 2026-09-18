@@ -15,4 +15,4 @@ Close the reproduced launch, retained-target, settling, and nested-memory gaps l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-123.7.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.land/README.md) | [sase-123.7.6](sase-123.7.6.md) | 0 |
+| [bbugyi200.athena.sase-123.7.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.7.6.land.md) | [sase-123.7.6](sase-123.7.6.md) | 0 |
