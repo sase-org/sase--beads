@@ -17,7 +17,7 @@ skip-noop-fleet-repaint: signature-compare fleet projection inputs and skip fina
 
 ## Dependencies
 
-- **Blocks:** [sase-127.4](sase-127.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-127.4](sase-127.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

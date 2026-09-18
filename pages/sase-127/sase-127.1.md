@@ -17,7 +17,7 @@ converge-load-tiers: reproduce the bounded-vs-revalidate agent-set swing with a 
 
 ## Dependencies
 
-- **Blocks:** [sase-127.4](sase-127.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-127.4](sase-127.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

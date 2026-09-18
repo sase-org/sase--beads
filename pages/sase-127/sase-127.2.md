@@ -17,7 +17,7 @@ incremental-under-search: allow the incremental display diff path when the searc
 
 ## Dependencies
 
-- **Blocks:** [sase-127.4](sase-127.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-127.4](sase-127.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
