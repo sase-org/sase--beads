@@ -30,7 +30,7 @@ baseline: capture controlled quiet-host and busy-host loader benches plus traced
 - **Blocks:** [sase-132.2](sase-132.2.md) ◐ · ⧖ 2026-09-18
 - **Blocks:** [sase-132.3](sase-132.3.md) ◐ · ⧖ 2026-09-18
 - **Blocks:** [sase-132.5](sase-132.5.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-132.6](sase-132.6.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-132.6](sase-132.6.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

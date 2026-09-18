@@ -17,7 +17,7 @@ verify: capture after-telemetry over real athena sessions at a recorded deployed
 - **Depends on:** [sase-132.3](sase-132.3.md) ◐ · ⧖ 2026-09-18
 - **Depends on:** [sase-132.4](sase-132.4.md) ✓ · ⧖ 2026-09-18
 - **Depends on:** [sase-132.5](sase-132.5.md) ✓ · ⧖ 2026-09-18
-- **Depends on:** [sase-132.6](sase-132.6.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-132.6](sase-132.6.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
