@@ -35,10 +35,11 @@ Unrelated full-suite failures recorded, not fixed: 14-node sidecar clone HEAD/st
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-12w.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.3.md) | [sase-12w.6.3](sase-12w.6.3.md) | 1 |
+| [bbugyi200.athena.sase-12w.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.3.md) | [sase-12w.6.3](sase-12w.6.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`12a37df`](https://github.com/sase-org/sase/commit/12a37df03752e9d5f4fe0d979e7d1b2d94bdcb06) | feat(sudo): complete remote SSH transport and detached acceptance | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:36:33 EDT |
+| sase-core | [`sase-core@09f543b`](https://github.com/sase-org/sase-core/commit/09f543be4136b0f6e0d3ec2432a049104fb642a5) | feat(sudo): retain optional remote handoff metadata on attempts | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:39:38 EDT |
