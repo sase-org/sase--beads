@@ -18,9 +18,3 @@ typed-arm: pre-arm hold-carrying units under the admission lock, with idempotent
 ## Dependencies
 
 - **Depends on:** [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) ✓ · ⧖ 2026-09-16
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-11l.5.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.3/README.md) | [sase-11l.5.1.2.1.3](sase-11l.5.1.2.1.3.md) | 0 |

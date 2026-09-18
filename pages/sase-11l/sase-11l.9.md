@@ -17,7 +17,7 @@ wait-hood: give %wait a hood= keyword using the existing hood matcher, with cont
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.10](sase-11l.10.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11l.10](sase-11l.10.md) ✓ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.6](sase-11l.6.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
