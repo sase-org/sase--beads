@@ -17,7 +17,7 @@ directive-surface: create the agent_holds beta flag. Add a Rust hold-directive c
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.5.1.2](sase-11l.5.1.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11l.5.1.2](sase-11l.5.1.2.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11l.5.1.3](sase-11l.5.1.3.md) ✓ · ⧖ 2026-09-16
 
 ## Agents

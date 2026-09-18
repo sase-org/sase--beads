@@ -32,8 +32,8 @@ A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open h
 | [sase-11l.2](sase-11l.2.md) | Rust hold-record store and bindings | ✓ closed | large | 2026-09-15 | 1 | 2 |
 | [sase-11l.3](sase-11l.3.md) | hold-barrier blocker at runner-slot admission | ✓ closed | large | 2026-09-15 | 1 | 2 |
 | [sase-11l.4](sase-11l.4.md) | sase agent hold command group | ✓ closed | large | 2026-09-15 | 1 | 1 |
-| [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ◐ in_progress | large | 2026-09-15 | 1 | 0 |
-| [sase-11l.6](sase-11l.6.md) | Completion and LSP for %hold | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
+| [sase-11l.5](sase-11l.5.md) | The %hold prompt directive | ✓ closed | large | 2026-09-15 | 1 | 0 |
+| [sase-11l.6](sase-11l.6.md) | Completion and LSP for %hold | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11l.7](sase-11l.7.md) | Hold un-dispatched proc units | ✓ closed | medium | 2026-09-15 | 1 | 2 |
 | [sase-11l.8](sase-11l.8.md) | TUI, doctor, and deadlock visibility | ✓ closed | medium | 2026-09-15 | 1 | 1 |
 | [sase-11l.9](sase-11l.9.md) | Hood selector for %wait | ◐ in_progress | medium | 2026-09-15 | 1 | 0 |
@@ -48,17 +48,17 @@ flowchart TD
     n3["sase-11l.2: Rust hold-record store and bindings [closed]"]
     n4["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
     n5["sase-11l.4: sase agent hold command group [closed]"]
-    n6["sase-11l.5: The %hold prompt directive [in_progress]"]
-    n7["sase-11l.5.1: The %hold prompt directive [in_progress]"]
+    n6["sase-11l.5: The %hold prompt directive [closed]"]
+    n7["sase-11l.5.1: The %hold prompt directive [closed]"]
     n8["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [closed]"]
-    n9["sase-11l.5.1.2: Arm holds at launch submission [in_progress]"]
-    n10["sase-11l.5.1.2.1: Arm %hold at launch submission [in_progress]"]
+    n9["sase-11l.5.1.2: Arm holds at launch submission [closed]"]
+    n10["sase-11l.5.1.2.1: Arm %hold at launch submission [closed]"]
     n11["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
     n12["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
     n13["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [closed]"]
     n14["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [closed]"]
     n15["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
-    n16["sase-11l.6: Completion and LSP for %hold [in_progress]"]
+    n16["sase-11l.6: Completion and LSP for %hold [closed]"]
     n17["sase-11l.7: Hold un-dispatched proc units [closed]"]
     n18["sase-11l.8: TUI, doctor, and deadlock visibility [closed]"]
     n19["sase-11l.9: Hood selector for %wait [in_progress]"]
@@ -119,8 +119,8 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.5.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.4/README.md) | [sase-11l.5.1.2.1.4](sase-11l.5.1.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.1.land.md) | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 1 |
 | [bbugyi200.athena.sase-11l.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.3.md) | [sase-11l.5.1.3](sase-11l.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.land/README.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
-| [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.land.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
+| [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 1 |
 | [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 2 |
 | [bbugyi200.athena.sase-11l.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.8/README.md) | [sase-11l.8](sase-11l.8.md) | 1 |
 | [bbugyi200.athena.sase-11l.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.9/README.md) | [sase-11l.9](sase-11l.9.md) | 0 |
@@ -147,3 +147,4 @@ flowchart TD
 | sase | [`02f0fd3`](https://github.com/sase-org/sase/commit/02f0fd3893f57267a0bef8f6f69fc23adc89c675) | feat(agent-hold): add launch-hold facade primitives and launch armer kind | [sase-11l.5.1.2.1.2](sase-11l.5.1.2.1.2.md) | 2026-09-17 07:28:41 EDT |
 | sase | [`88175f3`](https://github.com/sase-org/sase/commit/88175f34fc8b9431bb3e3a89ac56a620137b8a2a) | feat(agent-hold): arm bootstrap holds | [sase-11l.5.1.2.1.4](sase-11l.5.1.2.1.4.md) | 2026-09-17 08:36:56 EDT |
 | sase | [`ff08843`](https://github.com/sase-org/sase/commit/ff088437985ffa0f679ae59406280202f58b9279) | feat(agent): pre-arm typed launch holds | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 2026-09-17 14:53:35 EDT |
+| sase | [`f852cdc`](https://github.com/sase-org/sase/commit/f852cdcbba7a5901c386ec12bd8190d621a9f3cf) | feat(ace): complete hold directive completions | [sase-11l.6](sase-11l.6.md) | 2026-09-18 07:52:28 EDT |

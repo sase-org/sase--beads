@@ -17,7 +17,7 @@ queue-on-procs: allow %queue(capacity=) on %proc units with default weight 0 so 
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.5](sase-11l.5.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11l.5](sase-11l.5.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 

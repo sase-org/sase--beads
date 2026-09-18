@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-11l.5.1.2](sase-11l.5.1.2.md) / sase-11l.5.1.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-11l.5.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.md) · **Assignee:** `sase-11l.5.1.2.1.land`
-**Created:** 2026-09-16 16:01:36 EDT
+**Created:** 2026-09-16 16:01:36 EDT · **Closed:** 2026-09-18 03:01:05 EDT
 **Plan:** [202609/hold\_launch\_arming.md](https://github.com/sase-org/sase--plans/blob/main/202609/hold_launch_arming.md)
 
 <!-- sase:links:start -->
@@ -26,6 +26,8 @@ A launch that carries `%hold` arms a durable hold as soon as it is submitted. Fo
 ## Notes
 
 [2026-09-17T17:20:16Z · bryanbugyi34@gmail.com] Refer to create a tale plan instead of an epic if you can (if there is still work to do)
+
+[2026-09-18T07:01:05Z · 0mi--8] Implemented and verified hold-launch arming closure: launch-hold hardening covers durable launch holds, armer kin rejection, pre-dispatch arming, dispatch rebind, non-dispatch release, and implied armer priority; bootstrap coverage exercises real hold records through runner handoff; bead operation scan-root repair keeps lifecycle validation on the owning tree; Rust core pin is ratcheted to sase-core-rs>=0.34.47,<0.35.0 with probe_core_floor, ratchet_core_window --check, binding checks, and validate_sase_core_rs passing; direct visual helper cleanup moved render_svg_to_png into the test PNG diff helper and removed the production visual_render shim; cost budgets were recalibrated from fresh suggestions; created_at round-trip flake now uses microsecond-tolerant assertion; flake-baseline hygiene filed ready flake tasks sase-12a through sase-12k and added evidence to sase-120/sase-121; final verification passed with just check monitor 694nrtyv5ybc and just check-full monitor kn4jnmnsrn3f.
 
 ## Agents
 

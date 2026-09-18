@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-11l.5](sase-11l.5.md) / sase-11l.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-11l.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.md) · **Assignee:** `sase-11l.5.1.land`
-**Created:** 2026-09-16 13:44:49 EDT
+**Created:** 2026-09-16 13:44:49 EDT · **Closed:** 2026-09-18 06:18:18 EDT
 **Plan:** [202609/hold\_directive\_surface.md](https://github.com/sase-org/sase--plans/blob/main/202609/hold_directive_surface.md)
 
 <!-- sase:links:start -->
@@ -27,4 +27,4 @@ A prompt can arm a durable agent hold with `%hold`, behind the `agent_holds` bet
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.land/README.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
+| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.land.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
