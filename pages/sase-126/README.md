@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-126.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-126.2/README.md) | [sase-126.2](sase-126.2.md) | 1 |
 | [bbugyi200.athena.sase-126.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-126.3/README.md) | [sase-126.3](sase-126.3.md) | 1 |
 | [bbugyi200.athena.sase-126.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-126.4.md) | [sase-126.4](sase-126.4.md) | 1 |
-| [bbugyi200.athena.sase-126.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-126.land/README.md) | [sase-126](README.md) | 0 |
+| [bbugyi200.athena.sase-126.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-126.land.md) | [sase-126](README.md) | 1 |
 
 ## Commits
 
@@ -62,3 +62,4 @@ flowchart TD
 | sase | [`1f2d2ff`](https://github.com/sase-org/sase/commit/1f2d2ff99aee759199493d423992d88041941899) | perf: reduce scan and notification hydration overhead | [sase-126.3](sase-126.3.md) | 2026-09-17 16:55:40 EDT |
 | sase | [`fd626ec`](https://github.com/sase-org/sase/commit/fd626ec222fd24dc4869d7012d96363426762c21) | test(visual): repair snapshot contracts | [sase-126.2](sase-126.2.md) | 2026-09-17 19:16:08 EDT |
 | sase | [`eaa1cbf`](https://github.com/sase-org/sase/commit/eaa1cbf4de92fc7a315040b5332c5f1a86886da6) | fix(ci): restore pinned-core verification | [sase-126.4](sase-126.4.md) | 2026-09-18 06:15:38 EDT |
+| sase | [`2c46c84`](https://github.com/sase-org/sase/commit/2c46c84b7bc45d76d433aabf709667a7ee613498) | test: reconcile sase-126 verification baselines | [sase-126](README.md) | 2026-09-18 07:55:38 EDT |
