@@ -15,18 +15,18 @@ The Agents tab stops tearing down and remounting tribe panels (for example `@epi
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-12p.1](sase-12p.1.md) | Admit BY\_STATUS grouping to the incremental Agents display path | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
+| [sase-12p.1](sase-12p.1.md) | Admit BY\_STATUS grouping to the incremental Agents display path | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-12p.2](sase-12p.2.md) | Detect and surface a running TUI whose editable checkout has advanced | ✓ closed | medium | 2026-09-18 | 1 | 1 |
-| [sase-12p.3](sase-12p.3.md) | On-host verification of panel stability and stale-code surfacing | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
+| [sase-12p.3](sase-12p.3.md) | On-host verification of panel stability and stale-code surfacing | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-12p: Keep tribe panels mounted under BY_STATUS grouping and surface stale running-TUI code [in_progress]"]
-    n1["sase-12p.1: Admit BY_STATUS grouping to the incremental Agents display path [in_progress]"]
+    n1["sase-12p.1: Admit BY_STATUS grouping to the incremental Agents display path [closed]"]
     n2["sase-12p.2: Detect and surface a running TUI whose editable checkout has advanced [closed]"]
-    n3["sase-12p.3: On-host verification of panel stability and stale-code surfacing [in_progress]"]
+    n3["sase-12p.3: On-host verification of panel stability and stale-code surfacing [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -38,9 +38,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-12p.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12p.1/README.md) | [sase-12p.1](sase-12p.1.md) | 0 |
+| [bbugyi200.athena.sase-12p.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12p.1/README.md) | [sase-12p.1](sase-12p.1.md) | 1 |
 | [bbugyi200.athena.sase-12p.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12p.2/README.md) | [sase-12p.2](sase-12p.2.md) | 1 |
-| [bbugyi200.athena.sase-12p.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12p.3/README.md) | [sase-12p.3](sase-12p.3.md) | 0 |
+| [bbugyi200.athena.sase-12p.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12p.3.md) | [sase-12p.3](sase-12p.3.md) | 1 |
 | [bbugyi200.athena.sase-12p.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12p.land/README.md) | [sase-12p](README.md) | 0 |
 
 ## Commits
@@ -48,3 +48,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3a6b072`](https://github.com/sase-org/sase/commit/3a6b072dd49c7e057a3b44009852c1f5ed31c318) | feat(tui): surface stale editable runtime code | [sase-12p.2](sase-12p.2.md) | 2026-09-18 07:45:47 EDT |
+| sase | [`1fa7e5f`](https://github.com/sase-org/sase/commit/1fa7e5fc3ac6abed3ac62de65d038c631da167e8) | feat(tui): admit by-status incremental agent refresh | [sase-12p.1](sase-12p.1.md) | 2026-09-18 07:46:39 EDT |
+| sase | [`1af9c0b`](https://github.com/sase-org/sase/commit/1af9c0b7b24e37624bc62efac1fcd6f23a1813bb) | test(tui): guard by-status live churn display path | [sase-12p.3](sase-12p.3.md) | 2026-09-18 09:34:45 EDT |

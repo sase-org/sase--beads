@@ -17,7 +17,7 @@ stale-process-restart: record the editable checkouts' imported git revisions at 
 
 ## Dependencies
 
-- **Blocks:** [sase-12p.3](sase-12p.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12p.3](sase-12p.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
