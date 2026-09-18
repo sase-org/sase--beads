@@ -17,7 +17,7 @@ Bash, fish, and zsh completion follow the installed SASE command tree after upgr
 |---|---|---|---|---|---:|---:|
 | [sase-12o.1](sase-12o.1.md) | Cached grammar resolution and portable shell loaders | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-12o.2](sase-12o.2.md) | Install, refresh, update, and diagnostic integration | ✓ closed | medium | 2026-09-18 | 1 | 1 |
-| [sase-12o.3](sase-12o.3.md) | Chezmoi migration and upgrade regression coverage | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
+| [sase-12o.3](sase-12o.3.md) | Chezmoi migration and upgrade regression coverage | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-12o: Keep installed shell completion fresh across SASE upgrades [in_progress]"]
     n1["sase-12o.1: Cached grammar resolution and portable shell loaders [closed]"]
     n2["sase-12o.2: Install, refresh, update, and diagnostic integration [closed]"]
-    n3["sase-12o.3: Chezmoi migration and upgrade regression coverage [in_progress]"]
+    n3["sase-12o.3: Chezmoi migration and upgrade regression coverage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-12o.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.1/README.md) | [sase-12o.1](sase-12o.1.md) | 1 |
 | [bbugyi200.apollo.sase-12o.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.2/README.md) | [sase-12o.2](sase-12o.2.md) | 1 |
-| [bbugyi200.apollo.sase-12o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.3/README.md) | [sase-12o.3](sase-12o.3.md) | 0 |
+| [bbugyi200.apollo.sase-12o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.3/README.md) | [sase-12o.3](sase-12o.3.md) | 1 |
 | [bbugyi200.apollo.sase-12o.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.land/README.md) | [sase-12o](README.md) | 0 |
 
 ## Commits
@@ -50,3 +50,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`22c6659`](https://github.com/sase-org/sase/commit/22c66592f715eadcebc45973361c5f24c7cfcae0) | feat(completion): cache runtime grammars and loaders | [sase-12o.1](sase-12o.1.md) | 2026-09-18 09:00:32 EDT |
 | sase | [`f28c666`](https://github.com/sase-org/sase/commit/f28c666bdbcad3d9c7f86f85b82c5370cfad620a) | feat(completion): refresh stamped installs as loaders | [sase-12o.2](sase-12o.2.md) | 2026-09-18 09:53:31 EDT |
+| sase | [`0320dae`](https://github.com/sase-org/sase/commit/0320daed701fe0b6b8b23a35667d56ca557190c4) | feat(completion): migrate chezmoi to portable loaders | [sase-12o.3](sase-12o.3.md) | 2026-09-18 15:04:15 EDT |

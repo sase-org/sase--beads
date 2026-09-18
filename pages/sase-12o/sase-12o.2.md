@@ -18,7 +18,7 @@ install-update: make stamped installs use the loaders, refresh both local and ch
 ## Dependencies
 
 - **Depends on:** [sase-12o.1](sase-12o.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-12o.3](sase-12o.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12o.3](sase-12o.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
