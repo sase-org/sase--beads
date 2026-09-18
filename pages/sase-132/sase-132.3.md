@@ -20,4 +20,4 @@ loader-diet: attribute and reverse the standalone bounded-load creep (production
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.3/README.md) | [sase-132.3](sase-132.3.md) | 0 |
+| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 0 |

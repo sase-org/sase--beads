@@ -20,4 +20,4 @@ startup-sequence: stop launching every post-mount background load concurrently w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.2/README.md) | [sase-132.2](sase-132.2.md) | 0 |
+| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.2.md) | [sase-132.2](sase-132.2.md) | 0 |

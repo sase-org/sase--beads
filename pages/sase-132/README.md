@@ -31,7 +31,7 @@ A sase TUI session on athena is interactive on its visible tab in about 3.5 seco
 | [sase-132.2](sase-132.2.md) | Make the visible surface win the startup window | ◐ in_progress | large | 2026-09-18 | 1 | 0 |
 | [sase-132.3](sase-132.3.md) | Cut the bounded Tier 1 load's absolute cost | ◐ in_progress | large | 2026-09-18 | 1 | 0 |
 | [sase-132.4](sase-132.4.md) | Import-graph diet for process start to on\_mount | ✓ closed | medium | 2026-09-18 | 1 | 1 |
-| [sase-132.5](sase-132.5.md) | Attribute and fix the doubled axe surface startup cost | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
+| [sase-132.5](sase-132.5.md) | Attribute and fix the doubled axe surface startup cost | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-132.6](sase-132.6.md) | Trim on\_mount to first paint back under 0.3 s | ◐ in_progress | small | 2026-09-18 | 1 | 0 |
 | [sase-132.7](sase-132.7.md) | Prove the recovery on athena and pin it with regression guards | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["sase-132.2: Make the visible surface win the startup window [in_progress]"]
     n3["sase-132.3: Cut the bounded Tier 1 load's absolute cost [in_progress]"]
     n4["sase-132.4: Import-graph diet for process start to on_mount [closed]"]
-    n5["sase-132.5: Attribute and fix the doubled axe surface startup cost [in_progress]"]
+    n5["sase-132.5: Attribute and fix the doubled axe surface startup cost [closed]"]
     n6["sase-132.6: Trim on_mount to first paint back under 0.3 s [in_progress]"]
     n7["sase-132.7: Prove the recovery on athena and pin it with regression guards [in_progress]"]
     n0 --> n1
@@ -70,10 +70,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-132.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.1/README.md) | [sase-132.1](sase-132.1.md) | 1 |
-| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.2/README.md) | [sase-132.2](sase-132.2.md) | 0 |
-| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.3/README.md) | [sase-132.3](sase-132.3.md) | 0 |
+| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.2.md) | [sase-132.2](sase-132.2.md) | 0 |
+| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 0 |
 | [bbugyi200.athena.sase-132.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.4/README.md) | [sase-132.4](sase-132.4.md) | 1 |
-| [bbugyi200.athena.sase-132.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.5/README.md) | [sase-132.5](sase-132.5.md) | 0 |
+| [bbugyi200.athena.sase-132.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.5/README.md) | [sase-132.5](sase-132.5.md) | 1 |
 | [bbugyi200.athena.sase-132.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.6/README.md) | [sase-132.6](sase-132.6.md) | 0 |
 | [bbugyi200.athena.sase-132.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.7/README.md) | [sase-132.7](sase-132.7.md) | 0 |
 | [bbugyi200.athena.sase-132.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.land/README.md) | [sase-132](README.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`264eedc`](https://github.com/sase-org/sase/commit/264eedc6c4f3ba70d5a87a0d0698c82aa4de22a0) | perf(tui): trim startup import graph | [sase-132.4](sase-132.4.md) | 2026-09-18 15:53:05 EDT |
 | sase | [`8319c22`](https://github.com/sase-org/sase/commit/8319c2240817397540352638ba160c0cead93626) | feat(tui): add startup substages, axe spans, and pre-mount telemetry split | [sase-132.1](sase-132.1.md) | 2026-09-18 16:31:06 EDT |
+| sase | [`85fef14`](https://github.com/sase-org/sase/commit/85fef143a06f8f25965662998d67c1d690edc7fa) | perf(ace): skip chop-history walk on axe startup first load | [sase-132.5](sase-132.5.md) | 2026-09-18 17:31:15 EDT |
