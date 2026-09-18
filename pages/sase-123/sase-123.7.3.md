@@ -18,7 +18,7 @@ ssh-contract: quote the complete remote command correctly, prove literal argumen
 ## Dependencies
 
 - **Depends on:** [sase-123.7.2](sase-123.7.2.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

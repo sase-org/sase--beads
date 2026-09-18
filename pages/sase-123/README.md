@@ -66,7 +66,7 @@ flowchart TD
     n9["sase-123.7.2: Make local capture ownership, deadlines, and settling reliable [closed]"]
     n10["sase-123.7.3: Preserve the remote shell contract and cleanup [closed]"]
     n11["sase-123.7.4: Deduplicate inline memory across the complete read [closed]"]
-    n12["sase-123.7.5: Complete screenshot guidance and verify the integrated workflow [in_progress]"]
+    n12["sase-123.7.5: Complete screenshot guidance and verify the integrated workflow [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.sase-123.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.2/README.md) | [sase-123.7.2](sase-123.7.2.md) | 1 |
 | [bbugyi200.athena.sase-123.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.3/README.md) | [sase-123.7.3](sase-123.7.3.md) | 1 |
 | [bbugyi200.athena.sase-123.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.4/README.md) | [sase-123.7.4](sase-123.7.4.md) | 1 |
-| [bbugyi200.athena.sase-123.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.5/README.md) | [sase-123.7.5](sase-123.7.5.md) | 0 |
+| [bbugyi200.athena.sase-123.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.5/README.md) | [sase-123.7.5](sase-123.7.5.md) | 1 |
 | [bbugyi200.athena.sase-123.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.land/README.md) | [sase-123.7](sase-123.7.md) | 0 |
 | [bbugyi200.athena.sase-123.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.land.md) | [sase-123](README.md) | 0 |
 
@@ -123,3 +123,4 @@ flowchart TD
 | sase | [`d22e820`](https://github.com/sase-org/sase/commit/d22e8202157062623de6f7ce4930528bd3475521) | fix(tui): use canonical visual renderer | [sase-123.7.1](sase-123.7.1.md) | 2026-09-17 22:20:58 EDT |
 | sase | [`f90c6b5`](https://github.com/sase-org/sase/commit/f90c6b549f6e415e60c1d97581f073acbeade923) | fix(memory): deduplicate inline read targets | [sase-123.7.4](sase-123.7.4.md) | 2026-09-17 22:24:03 EDT |
 | sase | [`5cb968c`](https://github.com/sase-org/sase/commit/5cb968c8cb3057469dd6239172f36953265b7dcd) | fix(screenshot): quote remote ssh commands | [sase-123.7.3](sase-123.7.3.md) | 2026-09-17 22:38:12 EDT |
+| sase | [`8033609`](https://github.com/sase-org/sase/commit/80336097ad93770b2f45b37ba69160a9bb805eba) | fix(tui): settle live screenshots with background workers | [sase-123.7.5](sase-123.7.5.md) | 2026-09-17 23:41:39 EDT |

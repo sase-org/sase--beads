@@ -17,7 +17,7 @@ memory-deduplication: render shared inline notes once across roots, suppress alr
 
 ## Dependencies
 
-- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

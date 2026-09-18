@@ -21,7 +21,7 @@ canonical-renderer: remove the test-side rasterizer copy reintroduced by concurr
 
 ## Dependencies
 
-- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.7.5](sase-123.7.5.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
