@@ -19,7 +19,7 @@ cli: add an opt-in --detach path to `sase sudo answer` that runs the runner in a
 
 - **Depends on:** [sase-12w.1](sase-12w.1.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12w.3](sase-12w.3.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-12w.4](sase-12w.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12w.4](sase-12w.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

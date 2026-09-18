@@ -14,7 +14,7 @@ default: flip `sase sudo answer --run` to detach by default with --no-detach kee
 ## Dependencies
 
 - **Depends on:** [sase-12w.3](sase-12w.3.md) ✓ · ⧖ 2026-09-18
-- **Depends on:** [sase-12w.4](sase-12w.4.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12w.4](sase-12w.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
