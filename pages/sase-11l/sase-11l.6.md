@@ -21,7 +21,7 @@ hold-completion-lsp: complete %hold everywhere — new Hood value role, hood can
 
 - **Blocks:** [sase-11l.10](sase-11l.10.md) ◐ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.5](sase-11l.5.md) ✓ · ⧖ 2026-09-15
-- **Blocks:** [sase-11l.9](sase-11l.9.md) ◐ · ⧖ 2026-09-15
+- **Blocks:** [sase-11l.9](sase-11l.9.md) ✓ · ⧖ 2026-09-15
 
 ## Agents
 
