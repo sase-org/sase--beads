@@ -24,10 +24,11 @@ completion: implement durable attempt ownership and narrowly authorized headless
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.2.md) | [sase-12w.6.2](sase-12w.6.2.md) | 1 |
+| [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.2.md) | [sase-12w.6.2](sase-12w.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7179ec2`](https://github.com/sase-org/sase/commit/7179ec2e23ad5ac9470fec9da8b8f37cc0c3bd8b) | feat(sudo): authorize durable completion ownership | [sase-12w.6.2](sase-12w.6.2.md) | 2026-09-18 16:20:04 EDT |
+| sase-core | [`sase-core@9e1ab3f`](https://github.com/sase-org/sase-core/commit/9e1ab3fa30644563c2cc9b28d62db4d5f758c3c8) | feat(sudo): add completion authorization core contracts | [sase-12w.6.2](sase-12w.6.2.md) | 2026-09-18 16:23:15 EDT |
