@@ -17,7 +17,7 @@ status-runtime-scope: make sase-core honor the request boot id when projecting s
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.2.1.5.2](sase-11y.2.1.5.2.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-11y.2.1.5.2](sase-11y.2.1.5.2.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
