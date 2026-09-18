@@ -19,7 +19,7 @@ core-contract: advance the Rust source pin and package floor to the verified rel
 
 - **Blocks:** [sase-126.2](sase-126.2.md) ✓ · ⧖ 2026-09-17
 - **Blocks:** [sase-126.3](sase-126.3.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-126.4](sase-126.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-126.4](sase-126.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

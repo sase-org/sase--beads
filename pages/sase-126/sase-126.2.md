@@ -18,7 +18,7 @@ visual-contracts: correct outdated tribe and job expectations and SVG text asser
 ## Dependencies
 
 - **Depends on:** [sase-126.1](sase-126.1.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-126.4](sase-126.4.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-126.4](sase-126.4.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
