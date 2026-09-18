@@ -14,7 +14,7 @@ finite-visual-settling: distinguish pending finite visual work from recurring ba
 ## Dependencies
 
 - **Depends on:** [sase-123.7.6.1](sase-123.7.6.1.md) ✓ · ⧖ 2026-09-18
-- **Depends on:** [sase-123.7.6.2](sase-123.7.6.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-123.7.6.2](sase-123.7.6.2.md) ✓ · ⧖ 2026-09-18
 - **Depends on:** [sase-123.7.6.3](sase-123.7.6.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
