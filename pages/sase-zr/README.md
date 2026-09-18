@@ -105,10 +105,14 @@ flowchart TD
     n11["sase-zr.7.1.1.2: Receipt-scoped journal, truthful attempt completion and durable failure outcomes [closed]"]
     n12["sase-zr.7.1.1.3: Verifiable owner, live-owner conflict rejection and post-failure supersede/cancel [closed]"]
     n13["sase-zr.7.1.1.4: Failure results for requesters and deduped recovery notifications [closed]"]
-    n14["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
-    n15["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
-    n16["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
-    n17["sase-zr.7.5: Corrected docs, targeted latency evidence, and combined verification [in_progress]"]
+    n14["sase-zr.7.1.1.5: Complete gate decision integrity after landing audit [in_progress]"]
+    n15["sase-zr.7.1.1.5.1: Complete and validate the shared gate-decision policy contract [closed]"]
+    n16["sase-zr.7.1.1.5.2: Serialize and journal every terminal ownership transition [in_progress]"]
+    n17["sase-zr.7.1.1.5.3: Finish the requester and recovery-notification contract [in_progress]"]
+    n18["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
+    n19["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
+    n20["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
+    n21["sase-zr.7.5: Corrected docs, targeted latency evidence, and combined verification [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -122,24 +126,30 @@ flowchart TD
     n9 --> n11
     n9 --> n12
     n9 --> n13
-    n7 --> n14
-    n7 --> n15
-    n7 --> n16
-    n7 --> n17
+    n9 --> n14
+    n14 --> n15
+    n14 --> n16
+    n14 --> n17
+    n7 --> n18
+    n7 --> n19
+    n7 --> n20
+    n7 --> n21
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
     n3 -.-> n6
     n4 -.-> n5
     n5 -.-> n6
-    n8 -.-> n14
-    n8 -.-> n15
+    n8 -.-> n18
+    n8 -.-> n19
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
-    n14 -.-> n15
-    n15 -.-> n17
+    n15 -.-> n16
     n16 -.-> n17
+    n18 -.-> n19
+    n19 -.-> n21
+    n20 -.-> n21
 ```
 
 ## Agents
@@ -157,7 +167,11 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.2/README.md) | [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.3/README.md) | [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.4/README.md) | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.land/README.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.1/README.md) | [sase-zr.7.1.1.5.1](sase-zr.7.1.1.5.1.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.2/README.md) | [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.land/README.md) | [sase-zr.7.1.1.5](sase-zr.7.1.1.5.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.land.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 0 |
@@ -180,3 +194,4 @@ flowchart TD
 | sase | [`934be03`](https://github.com/sase-org/sase/commit/934be032dd7ea5fa61f5017fb90aeaac8d87c760) | feat(gate-decision): journal acceptance ids and durable attempt-failure outcomes | [sase-zr.7.1.1.2](sase-zr.7.1.1.2.md) | 2026-09-17 13:59:23 EDT |
 | sase | [`26797a9`](https://github.com/sase-org/sase/commit/26797a95acef0dc653405b8b917b5e82676133ac) | fix(gates): enforce live owner decision integrity | [sase-zr.7.1.1.3](sase-zr.7.1.1.3.md) | 2026-09-17 18:26:10 EDT |
 | sase | [`1d14218`](https://github.com/sase-org/sase/commit/1d14218a3c29238ee99fcb2d2a970979d0afeba6) | feat(gate): surface execution failures to requesters | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 2026-09-17 19:37:07 EDT |
+| sase-core | [`sase-core@41a9830`](https://github.com/sase-org/sase-core/commit/41a983030ea14ed165293d3b19941131f3b8ca83) | feat(gate-decision): complete policy evidence contract | [sase-zr.7.1.1.5.1](sase-zr.7.1.1.5.1.md) | 2026-09-17 20:25:08 EDT |
