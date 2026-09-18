@@ -14,7 +14,7 @@ production_acceptance: exercise the production backfill path against a scaled fi
 ## Dependencies
 
 - **Depends on:** [sase-12y.1](sase-12y.1.md) ✓ · ⧖ 2026-09-18
-- **Depends on:** [sase-12y.2](sase-12y.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12y.2](sase-12y.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

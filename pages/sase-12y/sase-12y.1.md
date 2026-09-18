@@ -17,7 +17,7 @@ projection_batch_core: add and publish a Rust/PyO3 batch mutation that preserves
 
 ## Dependencies
 
-- **Blocks:** [sase-12y.2](sase-12y.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12y.2](sase-12y.2.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12y.3](sase-12y.3.md) ◐ · ⧖ 2026-09-18
 
 ## Agents
