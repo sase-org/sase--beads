@@ -51,7 +51,7 @@ flowchart TD
     n5["sase-12w.5: Detach becomes the default answer mode [closed]"]
     n6["sase-12w.6: Complete detached sudo execution after the landing audit [in_progress]"]
     n7["sase-12w.6.1: Preserve executor ownership and stream command output [closed]"]
-    n8["sase-12w.6.2: Authorize headless completion and protect every answer path [in_progress]"]
+    n8["sase-12w.6.2: Authorize headless completion and protect every answer path [closed]"]
     n9["sase-12w.6.3: Complete SSH transport and integrated detached acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-12w.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.4/README.md) | [sase-12w.4](sase-12w.4.md) | 1 |
 | [bbugyi200.athena.sase-12w.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.5/README.md) | [sase-12w.5](sase-12w.5.md) | 1 |
 | [bbugyi200.athena.sase-12w.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.1.md) | [sase-12w.6.1](sase-12w.6.1.md) | 1 |
-| [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.2/README.md) | [sase-12w.6.2](sase-12w.6.2.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.2.md) | [sase-12w.6.2](sase-12w.6.2.md) | 1 |
 | [bbugyi200.athena.sase-12w.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.3/README.md) | [sase-12w.6.3](sase-12w.6.3.md) | 0 |
 | [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.land/README.md) | [sase-12w.6](sase-12w.6.md) | 0 |
 | [bbugyi200.athena.sase-12w.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.land.md) | [sase-12w](README.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | sase | [`e0f1a8d`](https://github.com/sase-org/sase/commit/e0f1a8d43ad803f64477f73609426409b0c426a7) | feat(sudo): detach remote sudo execution | [sase-12w.4](sase-12w.4.md) | 2026-09-18 12:48:39 EDT |
 | sase | [`a26bfc8`](https://github.com/sase-org/sase/commit/a26bfc839d51664baaa629522483234d60aa3d33) | feat(sudo): default approvals to detached execution | [sase-12w.5](sase-12w.5.md) | 2026-09-18 13:33:19 EDT |
 | sase-core | [`sase-core@9bf272e`](https://github.com/sase-org/sase-core/commit/9bf272e832c85dc612a203a69d25458472e16165) | feat(sudo): preserve detached runner ownership and live output | [sase-12w.6.1](sase-12w.6.1.md) | 2026-09-18 14:51:03 EDT |
+| sase | [`7179ec2`](https://github.com/sase-org/sase/commit/7179ec2e23ad5ac9470fec9da8b8f37cc0c3bd8b) | feat(sudo): authorize durable completion ownership | [sase-12w.6.2](sase-12w.6.2.md) | 2026-09-18 16:20:04 EDT |

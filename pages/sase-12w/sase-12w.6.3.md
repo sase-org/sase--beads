@@ -13,7 +13,7 @@ remote: fix SSH script encoding and root liveness, preserve uncertain remote att
 
 ## Dependencies
 
-- **Depends on:** [sase-12w.6.2](sase-12w.6.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12w.6.2](sase-12w.6.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

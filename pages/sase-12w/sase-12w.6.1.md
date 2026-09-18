@@ -17,7 +17,7 @@ runner: repair post-spawn failure ownership, provide live bounded output, and ad
 
 ## Dependencies
 
-- **Blocks:** [sase-12w.6.2](sase-12w.6.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12w.6.2](sase-12w.6.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
