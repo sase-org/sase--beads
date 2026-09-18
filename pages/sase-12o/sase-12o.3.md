@@ -24,10 +24,11 @@ chezmoi-integration: distribute portable loaders instead of frozen grammar and r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-12o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.3/README.md) | [sase-12o.3](sase-12o.3.md) | 1 |
+| [bbugyi200.apollo.sase-12o.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-12o.3/README.md) | [sase-12o.3](sase-12o.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0320dae`](https://github.com/sase-org/sase/commit/0320daed701fe0b6b8b23a35667d56ca557190c4) | feat(completion): migrate chezmoi to portable loaders | [sase-12o.3](sase-12o.3.md) | 2026-09-18 15:04:15 EDT |
+| chezmoi | [`chezmoi@13bb585`](https://github.com/bbugyi200/dotfiles/commit/13bb5851a904dd80acdf05245266beb2243d2957) | chore(completion): use sase completion loaders | [sase-12o.3](sase-12o.3.md) | 2026-09-18 15:07:04 EDT |
