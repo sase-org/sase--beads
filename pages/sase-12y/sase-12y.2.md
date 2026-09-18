@@ -18,7 +18,7 @@ deadline_aware_projection: pin the published core capability, route full-truth b
 ## Dependencies
 
 - **Depends on:** [sase-12y.1](sase-12y.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-12y.3](sase-12y.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12y.3](sase-12y.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
