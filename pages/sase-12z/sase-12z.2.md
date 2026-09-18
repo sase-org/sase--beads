@@ -18,7 +18,7 @@ maintenance-runner: implement tools/fix_tui_screenshots with explicit check mode
 ## Dependencies
 
 - **Depends on:** [sase-12z.1](sase-12z.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-12z.3](sase-12z.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12z.3](sase-12z.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

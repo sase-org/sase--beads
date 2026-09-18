@@ -13,7 +13,7 @@ workflow-integration: expose the canonical Just recipe, call its update form fro
 
 ## Dependencies
 
-- **Depends on:** [sase-12z.3](sase-12z.3.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12z.3](sase-12z.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
