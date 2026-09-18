@@ -18,7 +18,7 @@ screenshot-remote: resolve enrolled machine aliases or raw SSH destinations, run
 ## Dependencies
 
 - **Depends on:** [sase-123.3](sase-123.3.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-123.6](sase-123.6.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.6](sase-123.6.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

@@ -38,7 +38,7 @@ Agents can launch a real `sase tui` locally or on a remote machine, drive it wit
 | [sase-123.3](sase-123.3.md) | sase screenshot local orchestration | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-123.4](sase-123.4.md) | Remote capture via --host | ✓ closed | medium | 2026-09-17 | 1 | 1 |
 | [sase-123.5](sase-123.5.md) | Flat-note inline embedding in memory reads | ✓ closed | medium | 2026-09-17 | 1 | 1 |
-| [sase-123.6](sase-123.6.md) | Author the TUI memory notes | ◐ in_progress | small | 2026-09-17 | 1 | 0 |
+| [sase-123.6](sase-123.6.md) | Author the TUI memory notes | ✓ closed | small | 2026-09-17 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n3["sase-123.3: sase screenshot local orchestration [closed]"]
     n4["sase-123.4: Remote capture via --host [closed]"]
     n5["sase-123.5: Flat-note inline embedding in memory reads [closed]"]
-    n6["sase-123.6: Author the TUI memory notes [in_progress]"]
+    n6["sase-123.6: Author the TUI memory notes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-123.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.3/README.md) | [sase-123.3](sase-123.3.md) | 1 |
 | [bbugyi200.athena.sase-123.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.4/README.md) | [sase-123.4](sase-123.4.md) | 1 |
 | [bbugyi200.athena.sase-123.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.5/README.md) | [sase-123.5](sase-123.5.md) | 1 |
-| [bbugyi200.athena.sase-123.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.6/README.md) | [sase-123.6](sase-123.6.md) | 0 |
+| [bbugyi200.athena.sase-123.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.6/README.md) | [sase-123.6](sase-123.6.md) | 1 |
 | [bbugyi200.athena.sase-123.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.land/README.md) | [sase-123](README.md) | 0 |
 
 ## Commits
@@ -85,3 +85,4 @@ flowchart TD
 | sase | [`863892b`](https://github.com/sase-org/sase/commit/863892b3491e85378cf5c13a080be5f0243ec744) | feat(memory): inline flat note memory links | [sase-123.5](sase-123.5.md) | 2026-09-17 10:42:20 EDT |
 | sase | [`729fe7c`](https://github.com/sase-org/sase/commit/729fe7cae176d6db71d6c051350a145910cdeefa) | feat(screenshot): add local TUI capture command | [sase-123.3](sase-123.3.md) | 2026-09-17 18:46:20 EDT |
 | sase | [`139f6aa`](https://github.com/sase-org/sase/commit/139f6aa2631bcd5d71387bc1b57dea68ec9b9abd) | feat(screenshot): add remote capture over ssh | [sase-123.4](sase-123.4.md) | 2026-09-17 19:22:43 EDT |
+| sase | [`c199dcb`](https://github.com/sase-org/sase/commit/c199dcb6ca5b168ede96f41fa06c99cfd61a8c6b) | docs(memory): add TUI memory notes | [sase-123.6](sase-123.6.md) | 2026-09-17 20:54:05 EDT |

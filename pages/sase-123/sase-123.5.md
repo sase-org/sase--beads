@@ -17,7 +17,7 @@ memory-inline-embeds: make sase memory read/show render ![[target]] links of fla
 
 ## Dependencies
 
-- **Blocks:** [sase-123.6](sase-123.6.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-123.6](sase-123.6.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
