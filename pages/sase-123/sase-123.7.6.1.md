@@ -18,7 +18,7 @@ launch-failure-ownership: clean up claims and owned windows across launch except
 ## Dependencies
 
 - **Blocks:** [sase-123.7.6.2](sase-123.7.6.2.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

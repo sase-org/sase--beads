@@ -18,7 +18,7 @@ retained-target-contract: carry the printed unique tmux target through SSH metad
 ## Dependencies
 
 - **Depends on:** [sase-123.7.6.1](sase-123.7.6.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

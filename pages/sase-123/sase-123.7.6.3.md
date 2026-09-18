@@ -19,7 +19,7 @@ nested-memory-listings: recursively normalize inline-note listings across Markdo
 
 ## Dependencies
 
-- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-123.7.6.4](sase-123.7.6.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

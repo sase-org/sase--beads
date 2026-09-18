@@ -71,7 +71,7 @@ flowchart TD
     n14["sase-123.7.6.1: Guard launch ownership and preserve timeout diagnostics [closed]"]
     n15["sase-123.7.6.2: Preserve remote window identity and usable iteration guidance [closed]"]
     n16["sase-123.7.6.3: Preserve unread descendants and suppress nested duplicate listings [closed]"]
-    n17["sase-123.7.6.4: Bound finite visual settling and verify the repaired workflow [in_progress]"]
+    n17["sase-123.7.6.4: Bound finite visual settling and verify the repaired workflow [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-123.7.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.1/README.md) | [sase-123.7.6.1](sase-123.7.6.1.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.2/README.md) | [sase-123.7.6.2](sase-123.7.6.2.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.3/README.md) | [sase-123.7.6.3](sase-123.7.6.3.md) | 1 |
-| [bbugyi200.athena.sase-123.7.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.4/README.md) | [sase-123.7.6.4](sase-123.7.6.4.md) | 0 |
+| [bbugyi200.athena.sase-123.7.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.4/README.md) | [sase-123.7.6.4](sase-123.7.6.4.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.land/README.md) | [sase-123.7.6](sase-123.7.6.md) | 0 |
 | [bbugyi200.athena.sase-123.7.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.7.land.md) | [sase-123.7](sase-123.7.md) | 0 |
 | [bbugyi200.athena.sase-123.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.land.md) | [sase-123](README.md) | 0 |
@@ -146,3 +146,4 @@ flowchart TD
 | sase | [`3077904`](https://github.com/sase-org/sase/commit/3077904f3ea998062873111a63cb4a93ee3aaf53) | fix(screenshot): guard tmux launch failures | [sase-123.7.6.1](sase-123.7.6.1.md) | 2026-09-18 00:33:37 EDT |
 | sase | [`62db470`](https://github.com/sase-org/sase/commit/62db47057cc30b06ecede6e6e4aa704ef6b7b26d) | fix(memory): preserve nested inline note listings | [sase-123.7.6.3](sase-123.7.6.3.md) | 2026-09-18 00:49:12 EDT |
 | sase | [`7e38873`](https://github.com/sase-org/sase/commit/7e38873aa5e96599d1dc482f6474ca88f511b57f) | fix(screenshot): retain remote tmux target identity | [sase-123.7.6.2](sase-123.7.6.2.md) | 2026-09-18 01:24:24 EDT |
+| sase | [`80ba6ce`](https://github.com/sase-org/sase/commit/80ba6ce0efb35adc746a74b0880d11c481e07446) | fix(tui): bound screenshot visual settling | [sase-123.7.6.4](sase-123.7.6.4.md) | 2026-09-18 01:51:27 EDT |
