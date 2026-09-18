@@ -65,7 +65,7 @@ flowchart TD
     n8["sase-123.7.1: Restore one renderer for screenshots and visual snapshots [closed]"]
     n9["sase-123.7.2: Make local capture ownership, deadlines, and settling reliable [closed]"]
     n10["sase-123.7.3: Preserve the remote shell contract and cleanup [in_progress]"]
-    n11["sase-123.7.4: Deduplicate inline memory across the complete read [in_progress]"]
+    n11["sase-123.7.4: Deduplicate inline memory across the complete read [closed]"]
     n12["sase-123.7.5: Complete screenshot guidance and verify the integrated workflow [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-123.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.1/README.md) | [sase-123.7.1](sase-123.7.1.md) | 1 |
 | [bbugyi200.athena.sase-123.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.2/README.md) | [sase-123.7.2](sase-123.7.2.md) | 1 |
 | [bbugyi200.athena.sase-123.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.3/README.md) | [sase-123.7.3](sase-123.7.3.md) | 0 |
-| [bbugyi200.athena.sase-123.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.4/README.md) | [sase-123.7.4](sase-123.7.4.md) | 0 |
+| [bbugyi200.athena.sase-123.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.4/README.md) | [sase-123.7.4](sase-123.7.4.md) | 1 |
 | [bbugyi200.athena.sase-123.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.5/README.md) | [sase-123.7.5](sase-123.7.5.md) | 0 |
 | [bbugyi200.athena.sase-123.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.land/README.md) | [sase-123.7](sase-123.7.md) | 0 |
 | [bbugyi200.athena.sase-123.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.land.md) | [sase-123](README.md) | 0 |
@@ -121,3 +121,4 @@ flowchart TD
 | sase | [`c199dcb`](https://github.com/sase-org/sase/commit/c199dcb6ca5b168ede96f41fa06c99cfd61a8c6b) | docs(memory): add TUI memory notes | [sase-123.6](sase-123.6.md) | 2026-09-17 20:54:05 EDT |
 | sase | [`c320b2b`](https://github.com/sase-org/sase/commit/c320b2b6caadd74222fc5327f65bcd4272817f40) | fix(screenshot): harden local tmux capture lifecycle | [sase-123.7.2](sase-123.7.2.md) | 2026-09-17 22:14:38 EDT |
 | sase | [`d22e820`](https://github.com/sase-org/sase/commit/d22e8202157062623de6f7ce4930528bd3475521) | fix(tui): use canonical visual renderer | [sase-123.7.1](sase-123.7.1.md) | 2026-09-17 22:20:58 EDT |
+| sase | [`f90c6b5`](https://github.com/sase-org/sase/commit/f90c6b549f6e415e60c1d97581f073acbeade923) | fix(memory): deduplicate inline read targets | [sase-123.7.4](sase-123.7.4.md) | 2026-09-17 22:24:03 EDT |
