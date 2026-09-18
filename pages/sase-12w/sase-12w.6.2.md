@@ -18,7 +18,7 @@ completion: implement durable attempt ownership and narrowly authorized headless
 ## Dependencies
 
 - **Depends on:** [sase-12w.6.1](sase-12w.6.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-12w.6.3](sase-12w.6.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12w.6.3](sase-12w.6.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
