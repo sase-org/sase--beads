@@ -17,7 +17,7 @@ runner: teach sase_sudo_runner (sase-core) a detach mode that authenticates on t
 
 ## Dependencies
 
-- **Blocks:** [sase-12w.2](sase-12w.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12w.2](sase-12w.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

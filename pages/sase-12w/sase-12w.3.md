@@ -13,7 +13,7 @@ tui: make the ACE sudo terminal handoff pass --detach, handle the new execution_
 
 ## Dependencies
 
-- **Depends on:** [sase-12w.2](sase-12w.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12w.2](sase-12w.2.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12w.5](sase-12w.5.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

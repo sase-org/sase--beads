@@ -13,7 +13,7 @@ remote: extend `sase sudo exec` and the SSH relay so a remote target authenticat
 
 ## Dependencies
 
-- **Depends on:** [sase-12w.2](sase-12w.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12w.2](sase-12w.2.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12w.5](sase-12w.5.md) ◐ · ⧖ 2026-09-18
 
 ## Agents
