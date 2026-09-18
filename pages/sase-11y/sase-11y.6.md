@@ -20,4 +20,4 @@ gateway-telegram: add the gateway builtin launcher and sase mobile gateway pair,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.6/README.md) | [sase-11y.6](sase-11y.6.md) | 0 |
+| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 0 |
