@@ -18,7 +18,7 @@ capacity-ordering: use the canonical capacity roster including hidden and empty 
 ## Dependencies
 
 - **Blocks:** [sase-124.8.2](sase-124.8.2.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-124.8.3](sase-124.8.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.8.3](sase-124.8.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

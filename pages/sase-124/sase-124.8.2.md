@@ -20,7 +20,7 @@ attention-scheduling: detach cache and network attention work from local ticks, 
 ## Dependencies
 
 - **Depends on:** [sase-124.8.1](sase-124.8.1.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-124.8.3](sase-124.8.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-124.8.3](sase-124.8.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
