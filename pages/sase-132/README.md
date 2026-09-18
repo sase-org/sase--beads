@@ -29,7 +29,7 @@ A sase TUI session on athena is interactive on its visible tab in about 3.5 seco
 |---|---|---|---|---|---:|---:|
 | [sase-132.1](sase-132.1.md) | Controlled baselines and startup observability gaps | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-132.2](sase-132.2.md) | Make the visible surface win the startup window | ◐ in_progress | large | 2026-09-18 | 1 | 0 |
-| [sase-132.3](sase-132.3.md) | Cut the bounded Tier 1 load's absolute cost | ◐ in_progress | large | 2026-09-18 | 1 | 0 |
+| [sase-132.3](sase-132.3.md) | Cut the bounded Tier 1 load's absolute cost | ✓ closed | large | 2026-09-18 | 1 | 1 |
 | [sase-132.4](sase-132.4.md) | Import-graph diet for process start to on\_mount | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-132.5](sase-132.5.md) | Attribute and fix the doubled axe surface startup cost | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-132.6](sase-132.6.md) | Trim on\_mount to first paint back under 0.3 s | ✓ closed | small | 2026-09-18 | 1 | 1 |
@@ -42,7 +42,7 @@ flowchart TD
     n0["sase-132: Restore TUI startup time on large-archive hosts [in_progress]"]
     n1["sase-132.1: Controlled baselines and startup observability gaps [closed]"]
     n2["sase-132.2: Make the visible surface win the startup window [in_progress]"]
-    n3["sase-132.3: Cut the bounded Tier 1 load's absolute cost [in_progress]"]
+    n3["sase-132.3: Cut the bounded Tier 1 load's absolute cost [closed]"]
     n4["sase-132.4: Import-graph diet for process start to on_mount [closed]"]
     n5["sase-132.5: Attribute and fix the doubled axe surface startup cost [closed]"]
     n6["sase-132.6: Trim on_mount to first paint back under 0.3 s [closed]"]
@@ -71,7 +71,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-132.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.1/README.md) | [sase-132.1](sase-132.1.md) | 1 |
 | [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.2.md) | [sase-132.2](sase-132.2.md) | 0 |
-| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 0 |
+| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 1 |
 | [bbugyi200.athena.sase-132.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.4/README.md) | [sase-132.4](sase-132.4.md) | 1 |
 | [bbugyi200.athena.sase-132.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.5/README.md) | [sase-132.5](sase-132.5.md) | 1 |
 | [bbugyi200.athena.sase-132.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-132.6/README.md) | [sase-132.6](sase-132.6.md) | 1 |
@@ -86,3 +86,4 @@ flowchart TD
 | sase | [`8319c22`](https://github.com/sase-org/sase/commit/8319c2240817397540352638ba160c0cead93626) | feat(tui): add startup substages, axe spans, and pre-mount telemetry split | [sase-132.1](sase-132.1.md) | 2026-09-18 16:31:06 EDT |
 | sase | [`85fef14`](https://github.com/sase-org/sase/commit/85fef143a06f8f25965662998d67c1d690edc7fa) | perf(ace): skip chop-history walk on axe startup first load | [sase-132.5](sase-132.5.md) | 2026-09-18 17:31:15 EDT |
 | sase | [`bb332b5`](https://github.com/sase-org/sase/commit/bb332b5aad323bcde23c013c49e0ee33a3292ae2) | fix(tui): defer non-frame startup work | [sase-132.6](sase-132.6.md) | 2026-09-18 17:48:45 EDT |
+| sase | [`13a8efb`](https://github.com/sase-org/sase/commit/13a8efbb4ad4adc7a1694238b27a2613cf78553f) | feat(tui): project Agents-list index rows before JSON hydration | [sase-132.3](sase-132.3.md) | 2026-09-18 18:06:08 EDT |
