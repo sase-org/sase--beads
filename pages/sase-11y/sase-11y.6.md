@@ -13,7 +13,7 @@ gateway-telegram: add the gateway builtin launcher and sase mobile gateway pair,
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.4](sase-11y.4.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.9](sase-11y.9.md) ◐ · ⧖ 2026-09-16
 
 ## Agents

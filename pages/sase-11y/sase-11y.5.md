@@ -13,7 +13,7 @@ platform-units: add sase service init/uninstall with systemd and launchd unit wr
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.4](sase-11y.4.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.9](sase-11y.9.md) ◐ · ⧖ 2026-09-16
 
 ## Agents

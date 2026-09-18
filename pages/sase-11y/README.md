@@ -29,9 +29,9 @@ Every SASE background process on a machine — the AXE scheduler, the mobile gat
 |---|---|---|---|---|---:|---:|
 | [sase-11y.1](sase-11y.1.md) | Cgroup escape helper for detached work | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.10](sase-11y.10.md) | Sunset legacy paths, docs, and glossary | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
-| [sase-11y.2](sase-11y.2.md) | sase-core service foundations | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
+| [sase-11y.2](sase-11y.2.md) | sase-core service foundations | ✓ closed | large | 2026-09-16 | 1 | 0 |
 | [sase-11y.3](sase-11y.3.md) | Extract the shared child-supervision library | ✓ closed | medium | 2026-09-16 | 1 | 1 |
-| [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
+| [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
 | [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
 | [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ◐ in_progress | large | 2026-09-16 | 1 | 0 |
@@ -45,8 +45,8 @@ flowchart TD
     n0["sase-11y: Service host and Services tab [in_progress]"]
     n1["sase-11y.1: Cgroup escape helper for detached work [closed]"]
     n2["sase-11y.10: Sunset legacy paths, docs, and glossary [in_progress]"]
-    n3["sase-11y.2: sase-core service foundations [in_progress]"]
-    n4["sase-11y.2.1: sase-core service foundations [in_progress]"]
+    n3["sase-11y.2: sase-core service foundations [closed]"]
+    n4["sase-11y.2.1: sase-core service foundations [closed]"]
     n5["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
     n6["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
     n7["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
@@ -55,7 +55,7 @@ flowchart TD
     n10["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
     n11["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
     n12["sase-11y.3: Extract the shared child-supervision library [closed]"]
-    n13["sase-11y.4: Service host runtime and CLI [in_progress]"]
+    n13["sase-11y.4: Service host runtime and CLI [closed]"]
     n14["sase-11y.5: Platform units and init integration [in_progress]"]
     n15["sase-11y.6: Gateway builtin and Telegram plugin migration [in_progress]"]
     n16["sase-11y.7: Services tab in the TUI [in_progress]"]
@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.2.1.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.5.land.md) | [sase-11y.2.1.5](sase-11y.2.1.5.md) | 1 |
 | [bbugyi200.athena.sase-11y.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.land.md) | [sase-11y.2.1](sase-11y.2.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.3.md) | [sase-11y.3](sase-11y.3.md) | 1 |
-| [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.4/README.md) | [sase-11y.4](sase-11y.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.4.md) | [sase-11y.4](sase-11y.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.5/README.md) | [sase-11y.5](sase-11y.5.md) | 0 |
 | [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.6/README.md) | [sase-11y.6](sase-11y.6.md) | 0 |
 | [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.7/README.md) | [sase-11y.7](sase-11y.7.md) | 0 |
@@ -140,3 +140,4 @@ flowchart TD
 | sase-core | [`sase-core@3c75d2e`](https://github.com/sase-org/sase-core/commit/3c75d2e6f5bdeb4fe7f88ef5ff542c524a61283e) | fix(service): scope service status stops by boot | [sase-11y.2.1.5.1](sase-11y.2.1.5.1.md) | 2026-09-17 19:54:03 EDT |
 | sase | [`6e06a3e`](https://github.com/sase-org/sase/commit/6e06a3e24c691c87afaf53b43cefd89d24d6e97f) | fix(supervision): align restart and gate decisions with core | [sase-11y.2.1.5.2](sase-11y.2.1.5.2.md) | 2026-09-17 22:49:42 EDT |
 | sase--plans | [`sase--plans@e916ec0`](https://github.com/sase-org/sase--plans/commit/e916ec0414bcf375babe6976333b8fad1623eafa) | docs(plans): record completed service foundations landing | [sase-11y.2.1.5](sase-11y.2.1.5.md) | 2026-09-17 23:27:01 EDT |
+| sase | [`9ecf40c`](https://github.com/sase-org/sase/commit/9ecf40c5d60a9f9f8478e2d6a854c5934ae1cdd2) | feat(service): add beta service host runtime CLI | [sase-11y.4](sase-11y.4.md) | 2026-09-18 05:31:15 EDT |
