@@ -39,10 +39,11 @@ PROPOSED FOLLOW-UP already noted: index retention/vacuum for SQL-active marker-o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 1 |
+| [bbugyi200.athena.sase-132.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.3.md) | [sase-132.3](sase-132.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`13a8efb`](https://github.com/sase-org/sase/commit/13a8efbb4ad4adc7a1694238b27a2613cf78553f) | feat(tui): project Agents-list index rows before JSON hydration | [sase-132.3](sase-132.3.md) | 2026-09-18 18:06:08 EDT |
+| sase-core | [`sase-core@8e1b8b6`](https://github.com/sase-org/sase-core/commit/8e1b8b6e0b9389862bc48dea0099030578d638c6) | feat(agent-scan): add default-off Agents-list projection mode | [sase-132.3](sase-132.3.md) | 2026-09-18 18:24:54 EDT |
