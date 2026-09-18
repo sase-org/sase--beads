@@ -20,7 +20,7 @@ terminal-transition-integrity: adopt the completed core contract, put supersede,
 ## Dependencies
 
 - **Depends on:** [sase-zr.7.1.1.5.1](sase-zr.7.1.1.5.1.md) ✓ · ⧖ 2026-09-17
-- **Blocks:** [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

@@ -108,7 +108,7 @@ flowchart TD
     n14["sase-zr.7.1.1.5: Complete gate decision integrity after landing audit [in_progress]"]
     n15["sase-zr.7.1.1.5.1: Complete and validate the shared gate-decision policy contract [closed]"]
     n16["sase-zr.7.1.1.5.2: Serialize and journal every terminal ownership transition [closed]"]
-    n17["sase-zr.7.1.1.5.3: Finish the requester and recovery-notification contract [in_progress]"]
+    n17["sase-zr.7.1.1.5.3: Finish the requester and recovery-notification contract [closed]"]
     n18["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
     n19["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
     n20["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
@@ -169,7 +169,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.4/README.md) | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.1/README.md) | [sase-zr.7.1.1.5.1](sase-zr.7.1.1.5.1.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.2/README.md) | [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.land/README.md) | [sase-zr.7.1.1.5](sase-zr.7.1.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.land.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
@@ -196,3 +196,4 @@ flowchart TD
 | sase | [`1d14218`](https://github.com/sase-org/sase/commit/1d14218a3c29238ee99fcb2d2a970979d0afeba6) | feat(gate): surface execution failures to requesters | [sase-zr.7.1.1.4](sase-zr.7.1.1.4.md) | 2026-09-17 19:37:07 EDT |
 | sase-core | [`sase-core@41a9830`](https://github.com/sase-org/sase-core/commit/41a983030ea14ed165293d3b19941131f3b8ca83) | feat(gate-decision): complete policy evidence contract | [sase-zr.7.1.1.5.1](sase-zr.7.1.1.5.1.md) | 2026-09-17 20:25:08 EDT |
 | sase | [`df0090f`](https://github.com/sase-org/sase/commit/df0090f040f29ffe0579bf83d1a61350c7a357fd) | fix(gates): serialize terminal decision transitions | [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) | 2026-09-17 22:21:29 EDT |
+| sase | [`e91fa13`](https://github.com/sase-org/sase/commit/e91fa138b069c1f88e607a23cf1de3bba8fe9920) | fix(gates): surface execution failure recovery | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 2026-09-17 23:09:06 EDT |
