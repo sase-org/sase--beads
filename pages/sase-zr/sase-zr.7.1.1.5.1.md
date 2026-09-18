@@ -17,7 +17,7 @@ core-contract-completion: extend the Rust wire and policy contract with supersed
 
 ## Dependencies
 
-- **Blocks:** [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) ◐ · ⧖ 2026-09-17
+- **Blocks:** [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 

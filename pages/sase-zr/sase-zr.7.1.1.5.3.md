@@ -13,7 +13,7 @@ failure-recovery-surface: publish deterministic actionable execution-failure not
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) ◐ · ⧖ 2026-09-17
+- **Depends on:** [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) ✓ · ⧖ 2026-09-17
 
 ## Agents
 
