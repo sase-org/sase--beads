@@ -57,6 +57,9 @@ flowchart TD
     n9["sase-124.8.1: Correct capacity inputs and asynchronous result ordering [closed]"]
     n10["sase-124.8.2: Preserve attention refresh intent without delaying local surfaces [closed]"]
     n11["sase-124.8.3: Prove freshness on the integrated athena tree [closed]"]
+    n12["sase-124.8.4: Complete Agents freshness acceptance [in_progress]"]
+    n13["sase-124.8.4.1: Capture and attribute the missing live freshness evidence [closed]"]
+    n14["sase-124.8.4.2: Repair confirmed epic regressions and complete acceptance verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,6 +71,9 @@ flowchart TD
     n8 --> n9
     n8 --> n10
     n8 --> n11
+    n8 --> n12
+    n12 --> n13
+    n12 --> n14
     n1 -.-> n6
     n1 -.-> n7
     n2 -.-> n7
@@ -78,6 +84,7 @@ flowchart TD
     n9 -.-> n10
     n9 -.-> n11
     n10 -.-> n11
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -94,7 +101,10 @@ flowchart TD
 | [bbugyi200.athena.sase-124.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.1/README.md) | [sase-124.8.1](sase-124.8.1.md) | 1 |
 | [bbugyi200.athena.sase-124.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.2/README.md) | [sase-124.8.2](sase-124.8.2.md) | 1 |
 | [bbugyi200.athena.sase-124.8.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.8.3.md) | [sase-124.8.3](sase-124.8.3.md) | 1 |
-| [bbugyi200.athena.sase-124.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.land/README.md) | [sase-124.8](sase-124.8.md) | 0 |
+| [bbugyi200.athena.sase-124.8.4.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.8.4.1.md) | [sase-124.8.4.1](sase-124.8.4.1.md) | 0 |
+| [bbugyi200.athena.sase-124.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.4.2/README.md) | [sase-124.8.4.2](sase-124.8.4.2.md) | 1 |
+| [bbugyi200.athena.sase-124.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-124.8.4.land/README.md) | [sase-124.8.4](sase-124.8.4.md) | 0 |
+| [bbugyi200.athena.sase-124.8.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.8.land.md) | [sase-124.8](sase-124.8.md) | 0 |
 | [bbugyi200.athena.sase-124.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-124.land.md) | [sase-124](README.md) | 0 |
 
 ## Commits
@@ -110,3 +120,4 @@ flowchart TD
 | sase | [`f1616c5`](https://github.com/sase-org/sase/commit/f1616c505e3581cea78f3ac9c21efb4361312a79) | fix(tui): correct agents capacity ordering | [sase-124.8.1](sase-124.8.1.md) | 2026-09-17 18:37:58 EDT |
 | sase | [`9a1d5d6`](https://github.com/sase-org/sase/commit/9a1d5d67a2ba99549dbd5ae5fbbc6cf533abf64a) | fix(tui): detach attention inventory polling | [sase-124.8.2](sase-124.8.2.md) | 2026-09-17 19:35:58 EDT |
 | sase | [`76df547`](https://github.com/sase-org/sase/commit/76df54778f84bacc454887815a771ef4d159e1c9) | fix(gate): provide wire ids for no-attempt failures | [sase-124.8.3](sase-124.8.3.md) | 2026-09-17 22:08:00 EDT |
+| sase | [`43d6677`](https://github.com/sase-org/sase/commit/43d66775935583c3ea525bf9bf750a357438830d) | fix(tui): defer trace file writes off event loop | [sase-124.8.4.2](sase-124.8.4.2.md) | 2026-09-18 00:58:12 EDT |
