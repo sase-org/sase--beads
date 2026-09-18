@@ -15,7 +15,7 @@ rollout: install the platform unit on both machines, migrate the hand-written ga
 
 - **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.5](sase-11y.5.md) ◐ · ⧖ 2026-09-16
-- **Depends on:** [sase-11y.6](sase-11y.6.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.6](sase-11y.6.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
