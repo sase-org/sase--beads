@@ -17,7 +17,7 @@ runtime-loaders: add a lightweight completion ensure fast path, runtime-aware gr
 
 ## Dependencies
 
-- **Blocks:** [sase-12o.2](sase-12o.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12o.2](sase-12o.2.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-12o.3](sase-12o.3.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

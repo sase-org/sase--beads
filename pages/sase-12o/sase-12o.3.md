@@ -14,7 +14,7 @@ chezmoi-integration: distribute portable loaders instead of frozen grammar and r
 ## Dependencies
 
 - **Depends on:** [sase-12o.1](sase-12o.1.md) ✓ · ⧖ 2026-09-18
-- **Depends on:** [sase-12o.2](sase-12o.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-12o.2](sase-12o.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
