@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-123
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0m5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0m5.md) · **Assignee:** `sase-123.land`
-**Created:** 2026-09-17 08:43:26 EDT
+**Created:** 2026-09-17 08:43:26 EDT · **Closed:** 2026-09-18 03:34:51 EDT
 **Plan:** [202609/tui\_agent\_screenshots.md](https://github.com/sase-org/sase--plans/blob/main/202609/tui_agent_screenshots.md)
 
 <!-- sase:links:start -->
@@ -39,6 +39,8 @@ ALL PROPOSAL OUTCOMES: the sole PROPOSED FOLLOW-UP is sase-123.1 note 1, broad a
 
 CHECKS: 93 focused screenshot/launcher/export and memory selector/render/mutation tests passed in 21.85s. The just test attempt reached an unexpected Rust LSP setup rebuild and was stopped; the focused suite ran directly with the workspace interpreter after the cached binding updated to 0.34.50. No check-full or full visual pass is claimed. No tracked source, canonical memory, or original plan was edited. Prepared remaining-only five-phase epic proposal sase_plan_complete_tui_screenshots.md with parent_bead=sase-123; it passed validate --explain and revalidation with zero warnings. Phases cover renderer reunification, local lifecycle, SSH contract, memory deduplication, and workflow guidance/acceptance. Submitting via sase_plan. After the child lands, re-read descendants/notes/plans and post-child drift, run governed landing verification, retire any new exemptions, and close normally only when the original contract is satisfied. Do not force-close or mark the original plan done before then.
 
+[2026-09-18T07:34:51Z · sase-123.7.6.5.land--1] Rechecked the prior landing audit, all six original phases and their seven notes, the complete nested sase-123.7 descendant tree and notes, the approved top-level plan plus both remaining-work plans, all original and repair commits, and current source. The final tree now has one packaged canonical rasterizer, externally triggered bounded live export, race-safe local tmux ownership and retained capture, literal remote SSH transport with cleanup and unique target iteration, whole-read recursive flat-note embedding parity, and the completed TUI screenshot/memory guidance. The nested child closed at unchanged HEAD 99eb1acc0e, so no post-child source drift exists. Original epic note 1 remains resolved by mypy-tolerant optional renderer handling; note 2's stale epic symbol was removed, and sase bead epic-symbols now reports no entries. The sole original PROPOSED FOLLOW-UP was already corroborated on existing visual-backlog task sase-x5; later causal golden evidence went to active sase-126, and no blanket rebaseline or new task is warranted. The governed combined check-full completed 42,738 passing tests and 15 skips; its two real failures are unrelated completion-spec drift owned by active gate epic sase-zr.7.1.1.5, and its synthetic stage-one diagnostic is tracked/corroborated as bug sase-114. Every descendant is closed and the original contract is complete.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -54,25 +56,25 @@ CHECKS: 93 focused screenshot/launcher/export and memory selector/render/mutatio
 
 ```mermaid
 flowchart TD
-    n0["sase-123: Agent screenshots of a real sase TUI (sase screenshot) [in_progress]"]
+    n0["sase-123: Agent screenshots of a real sase TUI (sase screenshot) [closed]"]
     n1["sase-123.1: Promote the canonical rasterizer out of tests/ [closed]"]
     n2["sase-123.2: Externally-triggerable live-app screenshot export [closed]"]
     n3["sase-123.3: sase screenshot local orchestration [closed]"]
     n4["sase-123.4: Remote capture via --host [closed]"]
     n5["sase-123.5: Flat-note inline embedding in memory reads [closed]"]
     n6["sase-123.6: Author the TUI memory notes [closed]"]
-    n7["sase-123.7: Complete the screenshot and inline-memory contracts [in_progress]"]
+    n7["sase-123.7: Complete the screenshot and inline-memory contracts [closed]"]
     n8["sase-123.7.1: Restore one renderer for screenshots and visual snapshots [closed]"]
     n9["sase-123.7.2: Make local capture ownership, deadlines, and settling reliable [closed]"]
     n10["sase-123.7.3: Preserve the remote shell contract and cleanup [closed]"]
     n11["sase-123.7.4: Deduplicate inline memory across the complete read [closed]"]
     n12["sase-123.7.5: Complete screenshot guidance and verify the integrated workflow [closed]"]
-    n13["sase-123.7.6: Finish screenshot failure paths and nested memory rendering [in_progress]"]
+    n13["sase-123.7.6: Finish screenshot failure paths and nested memory rendering [closed]"]
     n14["sase-123.7.6.1: Guard launch ownership and preserve timeout diagnostics [closed]"]
     n15["sase-123.7.6.2: Preserve remote window identity and usable iteration guidance [closed]"]
     n16["sase-123.7.6.3: Preserve unread descendants and suppress nested duplicate listings [closed]"]
     n17["sase-123.7.6.4: Bound finite visual settling and verify the repaired workflow [closed]"]
-    n18["sase-123.7.6.5: Make the remote screenshot send-keys hint apostrophe-safe [in_progress]"]
+    n18["sase-123.7.6.5: Make the remote screenshot send-keys hint apostrophe-safe [closed]"]
     n19["sase-123.7.6.5.1: Preserve arbitrary key text across both SSH shell boundaries [closed]"]
     n0 --> n1
     n0 --> n2
@@ -129,7 +131,7 @@ flowchart TD
 | [bbugyi200.athena.sase-123.7.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.3/README.md) | [sase-123.7.6.3](sase-123.7.6.3.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.4/README.md) | [sase-123.7.6.4](sase-123.7.6.4.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.5.1/README.md) | [sase-123.7.6.5.1](sase-123.7.6.5.1.md) | 1 |
-| [bbugyi200.athena.sase-123.7.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-123.7.6.5.land/README.md) | [sase-123.7.6.5](sase-123.7.6.5.md) | 0 |
+| [bbugyi200.athena.sase-123.7.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.7.6.5.land.md) | [sase-123.7.6.5](sase-123.7.6.5.md) | 1 |
 | [bbugyi200.athena.sase-123.7.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.7.6.land.md) | [sase-123.7.6](sase-123.7.6.md) | 0 |
 | [bbugyi200.athena.sase-123.7.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.7.land.md) | [sase-123.7](sase-123.7.md) | 0 |
 | [bbugyi200.athena.sase-123.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-123.land.md) | [sase-123](README.md) | 0 |
@@ -154,3 +156,4 @@ flowchart TD
 | sase | [`7e38873`](https://github.com/sase-org/sase/commit/7e38873aa5e96599d1dc482f6474ca88f511b57f) | fix(screenshot): retain remote tmux target identity | [sase-123.7.6.2](sase-123.7.6.2.md) | 2026-09-18 01:24:24 EDT |
 | sase | [`80ba6ce`](https://github.com/sase-org/sase/commit/80ba6ce0efb35adc746a74b0880d11c481e07446) | fix(tui): bound screenshot visual settling | [sase-123.7.6.4](sase-123.7.6.4.md) | 2026-09-18 01:51:27 EDT |
 | sase | [`99eb1ac`](https://github.com/sase-org/sase/commit/99eb1acc0ed9ef38c54dc7feec935be97468a2dc) | fix(screenshot): quote remote send-keys hint safely | [sase-123.7.6.5.1](sase-123.7.6.5.1.md) | 2026-09-18 02:25:15 EDT |
+| sase--plans | [`sase--plans@bddf6a9`](https://github.com/sase-org/sase--plans/commit/bddf6a980b2683562dcd1e4eff2dbe0ecddf2031) | docs(plans): mark screenshot epics done | [sase-123.7.6.5](sase-123.7.6.5.md) | 2026-09-18 03:39:39 EDT |
