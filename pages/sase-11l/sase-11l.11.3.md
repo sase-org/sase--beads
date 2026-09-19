@@ -18,7 +18,7 @@ capture-lifecycle: retain effective arm-time counts across rebind, render them i
 ## Dependencies
 
 - **Depends on:** [sase-11l.11.2](sase-11l.11.2.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-11l.11.4](sase-11l.11.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-11l.11.4](sase-11l.11.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
