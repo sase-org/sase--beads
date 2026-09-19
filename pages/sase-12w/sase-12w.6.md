@@ -27,4 +27,4 @@ Make authenticated detached sudo runs settle without a TTY, prevent duplicate ex
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.land/README.md) | [sase-12w.6](sase-12w.6.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.land.md) | [sase-12w.6](sase-12w.6.md) | 0 |

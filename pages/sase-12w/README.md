@@ -53,6 +53,9 @@ flowchart TD
     n7["sase-12w.6.1: Preserve executor ownership and stream command output [closed]"]
     n8["sase-12w.6.2: Authorize headless completion and protect every answer path [closed]"]
     n9["sase-12w.6.3: Complete SSH transport and integrated detached acceptance [closed]"]
+    n10["sase-12w.6.4: Publish and consume the portable detached sudo core [in_progress]"]
+    n11["sase-12w.6.4.1: Restore portable sudo-runner release builds [closed]"]
+    n12["sase-12w.6.4.2: Ratchet SASE onto the published sudo contracts [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,6 +65,9 @@ flowchart TD
     n6 --> n7
     n6 --> n8
     n6 --> n9
+    n6 --> n10
+    n10 --> n11
+    n10 --> n12
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -69,6 +75,7 @@ flowchart TD
     n4 -.-> n5
     n7 -.-> n8
     n8 -.-> n9
+    n11 -.-> n12
 ```
 
 ## Agents
@@ -83,7 +90,10 @@ flowchart TD
 | [bbugyi200.athena.sase-12w.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.1.md) | [sase-12w.6.1](sase-12w.6.1.md) | 1 |
 | [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.2.md) | [sase-12w.6.2](sase-12w.6.2.md) | 2 |
 | [bbugyi200.athena.sase-12w.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.3.md) | [sase-12w.6.3](sase-12w.6.3.md) | 2 |
-| [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.land/README.md) | [sase-12w.6](sase-12w.6.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.1/README.md) | [sase-12w.6.4.1](sase-12w.6.4.1.md) | 1 |
+| [bbugyi200.athena.sase-12w.6.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.2/README.md) | [sase-12w.6.4.2](sase-12w.6.4.2.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.land/README.md) | [sase-12w.6.4](sase-12w.6.4.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.land.md) | [sase-12w.6](sase-12w.6.md) | 0 |
 | [bbugyi200.athena.sase-12w.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.land.md) | [sase-12w](README.md) | 0 |
 
 ## Commits
@@ -100,3 +110,4 @@ flowchart TD
 | sase-core | [`sase-core@9e1ab3f`](https://github.com/sase-org/sase-core/commit/9e1ab3fa30644563c2cc9b28d62db4d5f758c3c8) | feat(sudo): add completion authorization core contracts | [sase-12w.6.2](sase-12w.6.2.md) | 2026-09-18 16:23:15 EDT |
 | sase | [`12a37df`](https://github.com/sase-org/sase/commit/12a37df03752e9d5f4fe0d979e7d1b2d94bdcb06) | feat(sudo): complete remote SSH transport and detached acceptance | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:36:33 EDT |
 | sase-core | [`sase-core@09f543b`](https://github.com/sase-org/sase-core/commit/09f543be4136b0f6e0d3ec2432a049104fb642a5) | feat(sudo): retain optional remote handoff metadata on attempts | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:39:38 EDT |
+| sase-core | [`sase-core@4a8c6d4`](https://github.com/sase-org/sase-core/commit/4a8c6d40de0fcbdb4ea11e051b8b99656fd20589) | fix(sudo): check initgroups base group on apple | [sase-12w.6.4.1](sase-12w.6.4.1.md) | 2026-09-18 20:25:28 EDT |
