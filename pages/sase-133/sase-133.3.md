@@ -13,7 +13,7 @@ viewer-remote-node-parity: render remote rows through the same grouping and pres
 
 ## Dependencies
 
-- **Depends on:** [sase-133.2](sase-133.2.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-133.2](sase-133.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
