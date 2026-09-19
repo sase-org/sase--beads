@@ -19,7 +19,7 @@ core-ledger: Implement section 1, including Rust records, event/projection trans
 
 ## Dependencies
 
-- **Blocks:** [sase-135.2](sase-135.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-135.2](sase-135.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
