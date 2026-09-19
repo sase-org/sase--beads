@@ -23,10 +23,11 @@ version-diagnostics: replace the false capability-versus-fleet comparison with e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 1 |
+| [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ad0670d`](https://github.com/sase-org/sase/commit/ad0670d959f0379f2ce948030a5e21ce1f6950e2) | fix(dispatch): compare fleet-data versions instead of capability schema | [sase-133.5.3](sase-133.5.3.md) | 2026-09-19 10:41:47 EDT |
+| sase-core | [`sase-core@2b9caf4`](https://github.com/sase-org/sase-core/commit/2b9caf4e47da76a35f48c3e02ee5f7f68e523cc1) | feat(gateway): advertise fleet\_contract\_schema\_version independently of capabilities | [sase-133.5.3](sase-133.5.3.md) | 2026-09-19 10:44:46 EDT |
