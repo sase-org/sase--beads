@@ -33,10 +33,11 @@ Integration: commits since the epic started excluding 0fc51c2998 are 9cfa200675 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.land.md) | [sase-11l.11.5](sase-11l.11.5.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.land.md) | [sase-11l.11.5](sase-11l.11.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`48d0a69`](https://github.com/sase-org/sase/commit/48d0a69287b73187704633273473296143167e58) | chore(hold): persist sase-11l.11 land continuation checkpoint | [sase-11l.11.5](sase-11l.11.5.md) | 2026-09-19 08:32:28 EDT |
+| sase--plans | [`sase--plans@1e7b8ca`](https://github.com/sase-org/sase--plans/commit/1e7b8ca4c388fc6d73728545b4dcc71b37a22a04) | docs(plan): mark hold\_deadlock\_core\_pin done | [sase-11l.11.5](sase-11l.11.5.md) | 2026-09-19 08:35:55 EDT |

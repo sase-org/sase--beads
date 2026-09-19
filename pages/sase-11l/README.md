@@ -158,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.4.md) | [sase-11l.11.4](sase-11l.11.4.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.1.md) | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 1 |
-| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.land.md) | [sase-11l.11.5](sase-11l.11.5.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.land.md) | [sase-11l.11.5](sase-11l.11.5.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.land.md) | [sase-11l.11](sase-11l.11.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
@@ -212,3 +212,4 @@ flowchart TD
 | sase-core | [`sase-core@0a7301c`](https://github.com/sase-org/sase-core/commit/0a7301ca435d7ace7dfd732455a4997ad34b3624) | feat(hold): walk every wait branch for hold deadlock reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:22:16 EDT |
 | sase | [`0fc51c2`](https://github.com/sase-org/sase/commit/0fc51c29981ff59c742ae5261267a1acd9e2d2fb) | chore(core): ratchet hold-deadlock source pin | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 2026-09-19 06:09:20 EDT |
 | sase | [`48d0a69`](https://github.com/sase-org/sase/commit/48d0a69287b73187704633273473296143167e58) | chore(hold): persist sase-11l.11 land continuation checkpoint | [sase-11l.11.5](sase-11l.11.5.md) | 2026-09-19 08:32:28 EDT |
+| sase--plans | [`sase--plans@1e7b8ca`](https://github.com/sase-org/sase--plans/commit/1e7b8ca4c388fc6d73728545b4dcc71b37a22a04) | docs(plan): mark hold\_deadlock\_core\_pin done | [sase-11l.11.5](sase-11l.11.5.md) | 2026-09-19 08:35:55 EDT |
