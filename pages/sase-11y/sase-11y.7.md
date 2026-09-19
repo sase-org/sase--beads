@@ -15,6 +15,8 @@ services-tab: rename the AXE tab display label to Services, render service-proc 
 
 [2026-09-19T12:24:18Z · sase-11l.11.5.land--1] DISCOVERED ISSUE: test_x_does_not_toggle_the_host_on_nested_scheduler_rows fails isolated on 423316a051 (x on nested Scheduler rows calls _start_service_host). Contract added in 485a6082e1. Recorded on epic sase-11y with file:explicit:e6751fe4134815e6e564a922; declined a new task because this phase owns Services-tab key routing.
 
+[2026-09-19T14:20:50Z · sase-11l.11.5.land.f0--code] The Services-tab `x` vs `!x` routing issue from LANDING BLOCKED / DISCOVERED ISSUE is fixed (plan:202609/landing_gate_test_failures_1.md). Bare `x` toggles a selected service proc and is a no-op on nested Scheduler rows, empty selection, and host chrome. `!x` on the Services tab always starts/stops the host. Tests in `tests/ace/tui/actions/test_service_host_keys.py` cover empty selection, nested rows, and `!x` with a proc selected. Leave this phase/epic open; remaining Services-tab work is unchanged.
+
 ## Dependencies
 
 - **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16

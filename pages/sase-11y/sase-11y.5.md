@@ -36,7 +36,7 @@ Did not close sase-11y or any ancestor.
 ## Dependencies
 
 - **Depends on:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11y.9](sase-11y.9.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.9](sase-11y.9.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 
