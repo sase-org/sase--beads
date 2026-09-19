@@ -13,7 +13,7 @@ owner-facts: derive topology, rich statuses, tribe inheritance, shell facts, and
 
 ## Dependencies
 
-- **Depends on:** [sase-133.5.1](sase-133.5.1.md) ◐ · ⧖ 2026-09-19
+- **Depends on:** [sase-133.5.1](sase-133.5.1.md) ✓ · ⧖ 2026-09-19
 - **Blocks:** [sase-133.5.4](sase-133.5.4.md) ◐ · ⧖ 2026-09-19
 
 ## Agents

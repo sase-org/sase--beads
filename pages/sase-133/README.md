@@ -66,7 +66,7 @@ flowchart TD
     n3["sase-133.3: Viewer remote-node render parity [closed]"]
     n4["sase-133.4: sase screenshot text-input driving [closed]"]
     n5["sase-133.5: Complete remote Agents parity from real owner state [in_progress]"]
-    n6["sase-133.5.1: Share the real owner roster and retain visible family shells [in_progress]"]
+    n6["sase-133.5.1: Share the real owner roster and retain visible family shells [closed]"]
     n7["sase-133.5.2: Resolve production family presentation facts [in_progress]"]
     n8["sase-133.5.3: Distinguish capability and fleet data versions [closed]"]
     n9["sase-133.5.4: Prove production and live cross-machine parity [in_progress]"]
@@ -94,9 +94,9 @@ flowchart TD
 | [bbugyi200.athena.sase-133.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.2.md) | [sase-133.2](sase-133.2.md) | 2 |
 | [bbugyi200.athena.sase-133.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.3.md) | [sase-133.3](sase-133.3.md) | 1 |
 | [bbugyi200.athena.sase-133.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.4/README.md) | [sase-133.4](sase-133.4.md) | 1 |
-| [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 0 |
+| [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 1 |
 | [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.2/README.md) | [sase-133.5.2](sase-133.5.2.md) | 0 |
-| [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 2 |
+| [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 1 |
 | [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 0 |
 | [bbugyi200.athena.sase-133.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.land/README.md) | [sase-133.5](sase-133.5.md) | 0 |
 | [bbugyi200.athena.sase-133.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.land.md) | [sase-133](README.md) | 0 |
@@ -111,4 +111,4 @@ flowchart TD
 | sase-core | [`sase-core@11b8e06`](https://github.com/sase-org/sase-core/commit/11b8e060fe88d0a147b8449050d61a5f29038b9c) | feat(fleet): expose owner-resolved presentation facts | [sase-133.2](sase-133.2.md) | 2026-09-18 20:10:33 EDT |
 | sase | [`2ec00fe`](https://github.com/sase-org/sase/commit/2ec00fe68360d40767990d563b9c432a42acf921) | feat(tui): render remote fleet rows with local Agents-tab parity | [sase-133.3](sase-133.3.md) | 2026-09-18 21:36:20 EDT |
 | sase | [`ad0670d`](https://github.com/sase-org/sase/commit/ad0670d959f0379f2ce948030a5e21ce1f6950e2) | fix(dispatch): compare fleet-data versions instead of capability schema | [sase-133.5.3](sase-133.5.3.md) | 2026-09-19 10:41:47 EDT |
-| sase-core | [`sase-core@2b9caf4`](https://github.com/sase-org/sase-core/commit/2b9caf4e47da76a35f48c3e02ee5f7f68e523cc1) | feat(gateway): advertise fleet\_contract\_schema\_version independently of capabilities | [sase-133.5.3](sase-133.5.3.md) | 2026-09-19 10:44:46 EDT |
+| sase | [`7d6ec55`](https://github.com/sase-org/sase/commit/7d6ec552b5d0650e06682075b422b98fc3d6727e) | feat(tui): attach unparented family shells and oracle owner-roster parity | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:38:22 EDT |
