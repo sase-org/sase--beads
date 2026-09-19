@@ -13,7 +13,7 @@ stage-timeline: Implement section 4, adding recoverable JSONL start/finish event
 
 ## Dependencies
 
-- **Depends on:** [sase-135.3](sase-135.3.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-135.3](sase-135.3.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-135.5](sase-135.5.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

@@ -25,7 +25,7 @@ Verified: sase bead epic-symbols sase-135.2 has no leftovers. Removed sase-135.2
 ## Dependencies
 
 - **Depends on:** [sase-135.1](sase-135.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-135.3](sase-135.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-135.3](sase-135.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
