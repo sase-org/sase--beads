@@ -24,10 +24,11 @@ wire-presentation-facts: extend the fleet contract additively so every row carri
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-133.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.2.md) | [sase-133.2](sase-133.2.md) | 1 |
+| [bbugyi200.athena.sase-133.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.2.md) | [sase-133.2](sase-133.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`67614ee`](https://github.com/sase-org/sase/commit/67614ee2b01e6f2e6e2b8c6fe9fd21e4394b0956) | feat(fleet): consume owner presentation facts | [sase-133.2](sase-133.2.md) | 2026-09-18 20:08:07 EDT |
+| sase-core | [`sase-core@11b8e06`](https://github.com/sase-org/sase-core/commit/11b8e060fe88d0a147b8449050d61a5f29038b9c) | feat(fleet): expose owner-resolved presentation facts | [sase-133.2](sase-133.2.md) | 2026-09-18 20:10:33 EDT |
