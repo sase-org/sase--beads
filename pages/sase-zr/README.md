@@ -83,7 +83,7 @@ PROPOSED FOLLOW-UP TRIAGE:
 | [sase-zr.1](sase-zr.1.md) | Measure approval stages and replace full-history gate lookup | ✓ closed | medium | 2026-09-12 | 1 | 2 |
 | [sase-zr.2](sase-zr.2.md) | Separate durable decision acceptance from slow execution | ✓ closed | medium | 2026-09-12 | 1 | 3 |
 | [sase-zr.3](sase-zr.3.md) | Apply decision and notification changes through ACE's fast path | ✓ closed | medium | 2026-09-12 | 1 | 1 |
-| [sase-zr.4](sase-zr.4.md) | Decouple Telegram acknowledgements and cleanup from gate execution | ✓ closed | medium | 2026-09-12 | 1 | 0 |
+| [sase-zr.4](sase-zr.4.md) | Decouple Telegram acknowledgements and cleanup from gate execution | ✓ closed | medium | 2026-09-12 | 0 | 0 |
 | [sase-zr.5](sase-zr.5.md) | Remove Telegram's periodic polling delay | ✓ closed | medium | 2026-09-12 | 1 | 0 |
 | [sase-zr.6](sase-zr.6.md) | Verify latency, recovery, and coordinated rollout | ✓ closed | medium | 2026-09-12 | 1 | 1 |
 
@@ -110,8 +110,8 @@ flowchart TD
     n16["sase-zr.7.1.1.5.2: Serialize and journal every terminal ownership transition [closed]"]
     n17["sase-zr.7.1.1.5.3: Finish the requester and recovery-notification contract [closed]"]
     n18["sase-zr.7.1.1.5.4: Finish gate-decision integrity landing gaps [in_progress]"]
-    n19["sase-zr.7.1.1.5.4.1: Complete released-core adoption and atomic failure transitions [in_progress]"]
-    n20["sase-zr.7.1.1.5.4.2: Complete requester and plan-gate recovery acceptance [in_progress]"]
+    n19["sase-zr.7.1.1.5.4.1: Complete released-core adoption and atomic failure transitions [closed]"]
+    n20["sase-zr.7.1.1.5.4.2: Complete requester and plan-gate recovery acceptance [closed]"]
     n21["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
     n22["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
     n23["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
@@ -163,10 +163,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.1.md) | [sase-zr.1](sase-zr.1.md) | 2 |
-| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.2.md) | [sase-zr.2](sase-zr.2.md) | 3 |
+| [bbugyi200.apollo.sase-zr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.1/README.md) | [sase-zr.1](sase-zr.1.md) | 2 |
+| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.2/README.md) | [sase-zr.2](sase-zr.2.md) | 3 |
 | [bbugyi200.apollo.sase-zr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.3/README.md) | [sase-zr.3](sase-zr.3.md) | 1 |
-| [bbugyi200.apollo.sase-zr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.4/README.md) | [sase-zr.4](sase-zr.4.md) | 0 |
 | [bbugyi200.apollo.sase-zr.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.5.md) | [sase-zr.5](sase-zr.5.md) | 0 |
 | [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.6.md) | [sase-zr.6](sase-zr.6.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.md) | [sase-zr.7.1](sase-zr.7.1.md) | 0 |
@@ -178,7 +177,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.2/README.md) | [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.1/README.md) | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.2/README.md) | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.4.2.md) | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.land.md) | [sase-zr.7.1.1.5](sase-zr.7.1.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.land.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
@@ -208,3 +207,4 @@ flowchart TD
 | sase | [`df0090f`](https://github.com/sase-org/sase/commit/df0090f040f29ffe0579bf83d1a61350c7a357fd) | fix(gates): serialize terminal decision transitions | [sase-zr.7.1.1.5.2](sase-zr.7.1.1.5.2.md) | 2026-09-17 22:21:29 EDT |
 | sase | [`e91fa13`](https://github.com/sase-org/sase/commit/e91fa138b069c1f88e607a23cf1de3bba8fe9920) | fix(gates): surface execution failure recovery | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 2026-09-17 23:09:06 EDT |
 | sase | [`cc6d51d`](https://github.com/sase-org/sase/commit/cc6d51d2db9984b76e8128f757c60ceaade3c3cc) | fix(gates): harden gate failure lifecycle transitions | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 2026-09-17 23:52:08 EDT |
+| sase | [`8989d0a`](https://github.com/sase-org/sase/commit/8989d0a724b701c8816b8f004b8d033306c1dd47) | test: add requester recovery acceptance for launch, HITL, and plan archive | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 2026-09-19 07:34:34 EDT |

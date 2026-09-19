@@ -31,7 +31,7 @@ durable-approval-publication: Implement shared acceptance and execution policy i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.2.md) | [sase-zr.2](sase-zr.2.md) | 3 |
+| [bbugyi200.apollo.sase-zr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.2/README.md) | [sase-zr.2](sase-zr.2.md) | 3 |
 
 ## Commits
 

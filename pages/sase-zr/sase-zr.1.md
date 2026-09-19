@@ -27,7 +27,7 @@ bounded-gate-resolution: In sase-core and sase, instrument the approval boundari
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.1.md) | [sase-zr.1](sase-zr.1.md) | 2 |
+| [bbugyi200.apollo.sase-zr.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.1/README.md) | [sase-zr.1](sase-zr.1.md) | 2 |
 
 ## Commits
 

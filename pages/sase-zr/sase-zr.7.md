@@ -7,6 +7,18 @@
 **Created:** 2026-09-16 14:25:08 EDT
 **Plan:** [202609/sase\_zr\_close\_out.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_zr_close_out.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/sase_zr_close_out.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_zr_close_out.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The narrowed sase-zr close-out holds end to end: an accepted gate decision can never be superseded while its execution runs, any post-acceptance failure is durable and recoverable instead of invisible, TALE/EPIC APPROVED derives from the receipt while PLAN COMMITTED waits for archive success, the TUI paints gate responses on exact rows promptly from every source, Telegram rejects strangers and TTY-only options, and every deliberately deferred audit gap is tracked by a ready task bead so the land agent can close sase-zr.
