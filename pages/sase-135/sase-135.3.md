@@ -24,7 +24,7 @@ Verified: just check passed (full suite after Justfile epic-symbol re-key). Comp
 ## Dependencies
 
 - **Depends on:** [sase-135.2](sase-135.2.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-135.4](sase-135.4.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-135.4](sase-135.4.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
