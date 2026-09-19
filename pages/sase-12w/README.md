@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-12w.6.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.2.md) | [sase-12w.6.2](sase-12w.6.2.md) | 2 |
 | [bbugyi200.athena.sase-12w.6.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.3.md) | [sase-12w.6.3](sase-12w.6.3.md) | 2 |
 | [bbugyi200.athena.sase-12w.6.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.1/README.md) | [sase-12w.6.4.1](sase-12w.6.4.1.md) | 1 |
-| [bbugyi200.athena.sase-12w.6.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.2/README.md) | [sase-12w.6.4.2](sase-12w.6.4.2.md) | 0 |
+| [bbugyi200.athena.sase-12w.6.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.2/README.md) | [sase-12w.6.4.2](sase-12w.6.4.2.md) | 1 |
 | [bbugyi200.athena.sase-12w.6.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12w.6.4.land/README.md) | [sase-12w.6.4](sase-12w.6.4.md) | 0 |
 | [bbugyi200.athena.sase-12w.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.6.land.md) | [sase-12w.6](sase-12w.6.md) | 0 |
 | [bbugyi200.athena.sase-12w.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12w.land.md) | [sase-12w](README.md) | 0 |
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`12a37df`](https://github.com/sase-org/sase/commit/12a37df03752e9d5f4fe0d979e7d1b2d94bdcb06) | feat(sudo): complete remote SSH transport and detached acceptance | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:36:33 EDT |
 | sase-core | [`sase-core@09f543b`](https://github.com/sase-org/sase-core/commit/09f543be4136b0f6e0d3ec2432a049104fb642a5) | feat(sudo): retain optional remote handoff metadata on attempts | [sase-12w.6.3](sase-12w.6.3.md) | 2026-09-18 18:39:38 EDT |
 | sase-core | [`sase-core@4a8c6d4`](https://github.com/sase-org/sase-core/commit/4a8c6d40de0fcbdb4ea11e051b8b99656fd20589) | fix(sudo): check initgroups base group on apple | [sase-12w.6.4.1](sase-12w.6.4.1.md) | 2026-09-18 20:25:28 EDT |
+| sase-core | [`sase-core@8b75bb0`](https://github.com/sase-org/sase-core/commit/8b75bb0b681a1baf6d0a87bd4e0c3a4af7a60bc9) | fix(release): include gateway commits in sase-core-rs changelog | [sase-12w.6.4.2](sase-12w.6.4.2.md) | 2026-09-18 21:00:07 EDT |
