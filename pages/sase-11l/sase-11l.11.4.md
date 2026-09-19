@@ -25,10 +25,11 @@ deadlock-integration: traverse every relevant wait branch including hood depende
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.4.md) | [sase-11l.11.4](sase-11l.11.4.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.4.md) | [sase-11l.11.4](sase-11l.11.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`388d516`](https://github.com/sase-org/sase/commit/388d5160308367121467539eb3114bc342833ffc) | feat(hold): delegate deadlock detection to shared core reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:18:43 EDT |
+| sase-core | [`sase-core@0a7301c`](https://github.com/sase-org/sase-core/commit/0a7301ca435d7ace7dfd732455a4997ad34b3624) | feat(hold): walk every wait branch for hold deadlock reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:22:16 EDT |
