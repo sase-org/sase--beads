@@ -75,23 +75,25 @@ flowchart TD
     n5["sase-11l.11.2: Order hold arming with agent and proc admission [closed]"]
     n6["sase-11l.11.3: Persist capture summaries and report expiry releases [closed]"]
     n7["sase-11l.11.4: Complete deadlock detection and supported-core acceptance [closed]"]
-    n8["sase-11l.2: Rust hold-record store and bindings [closed]"]
-    n9["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
-    n10["sase-11l.4: sase agent hold command group [closed]"]
-    n11["sase-11l.5: The %hold prompt directive [closed]"]
-    n12["sase-11l.5.1: The %hold prompt directive [closed]"]
-    n13["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [closed]"]
-    n14["sase-11l.5.1.2: Arm holds at launch submission [closed]"]
-    n15["sase-11l.5.1.2.1: Arm %hold at launch submission [closed]"]
-    n16["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
-    n17["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
-    n18["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [closed]"]
-    n19["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [closed]"]
-    n20["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
-    n21["sase-11l.6: Completion and LSP for %hold [closed]"]
-    n22["sase-11l.7: Hold un-dispatched proc units [closed]"]
-    n23["sase-11l.8: TUI, doctor, and deadlock visibility [closed]"]
-    n24["sase-11l.9: Hood selector for %wait [closed]"]
+    n8["sase-11l.11.5: Ratchet the hold-deadlock source pin [in_progress]"]
+    n9["sase-11l.11.5.1: Ratchet and verify the hold-deadlock core revision [closed]"]
+    n10["sase-11l.2: Rust hold-record store and bindings [closed]"]
+    n11["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
+    n12["sase-11l.4: sase agent hold command group [closed]"]
+    n13["sase-11l.5: The %hold prompt directive [closed]"]
+    n14["sase-11l.5.1: The %hold prompt directive [closed]"]
+    n15["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [closed]"]
+    n16["sase-11l.5.1.2: Arm holds at launch submission [closed]"]
+    n17["sase-11l.5.1.2.1: Arm %hold at launch submission [closed]"]
+    n18["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
+    n19["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
+    n20["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [closed]"]
+    n21["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [closed]"]
+    n22["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
+    n23["sase-11l.6: Completion and LSP for %hold [closed]"]
+    n24["sase-11l.7: Hold un-dispatched proc units [closed]"]
+    n25["sase-11l.8: TUI, doctor, and deadlock visibility [closed]"]
+    n26["sase-11l.9: Hood selector for %wait [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,44 +101,46 @@ flowchart TD
     n3 --> n5
     n3 --> n6
     n3 --> n7
-    n0 --> n8
-    n0 --> n9
+    n3 --> n8
+    n8 --> n9
     n0 --> n10
     n0 --> n11
-    n11 --> n12
-    n12 --> n13
-    n12 --> n14
+    n0 --> n12
+    n0 --> n13
+    n13 --> n14
     n14 --> n15
-    n15 --> n16
-    n15 --> n17
-    n15 --> n18
-    n15 --> n19
-    n12 --> n20
-    n0 --> n21
-    n0 --> n22
+    n14 --> n16
+    n16 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n14 --> n22
     n0 --> n23
     n0 --> n24
-    n1 -.-> n11
+    n0 --> n25
+    n0 --> n26
+    n1 -.-> n13
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
-    n8 -.-> n9
-    n9 -.-> n10
     n10 -.-> n11
-    n10 -.-> n22
-    n10 -.-> n23
-    n11 -.-> n2
-    n11 -.-> n21
-    n13 -.-> n14
-    n13 -.-> n20
-    n16 -.-> n17
-    n17 -.-> n18
-    n17 -.-> n19
-    n21 -.-> n2
-    n21 -.-> n24
-    n22 -.-> n2
+    n11 -.-> n12
+    n12 -.-> n13
+    n12 -.-> n24
+    n12 -.-> n25
+    n13 -.-> n2
+    n13 -.-> n23
+    n15 -.-> n16
+    n15 -.-> n22
+    n18 -.-> n19
+    n19 -.-> n20
+    n19 -.-> n21
     n23 -.-> n2
+    n23 -.-> n26
     n24 -.-> n2
+    n25 -.-> n2
+    n26 -.-> n2
 ```
 
 ## Dependencies
@@ -153,7 +157,9 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.11.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.2.md) | [sase-11l.11.2](sase-11l.11.2.md) | 1 |
 | [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.4.md) | [sase-11l.11.4](sase-11l.11.4.md) | 2 |
-| [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.land/README.md) | [sase-11l.11](sase-11l.11.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.1.md) | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.5.land/README.md) | [sase-11l.11.5](sase-11l.11.5.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.land.md) | [sase-11l.11](sase-11l.11.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.4.md) | [sase-11l.4](sase-11l.4.md) | 1 |
@@ -205,3 +211,4 @@ flowchart TD
 | sase-core | [`sase-core@6fe31cb`](https://github.com/sase-org/sase-core/commit/6fe31cb076d067e2a61252c4f05ce27a888b3b0a) | feat(hold): persist capture summaries and return prune evidence | [sase-11l.11.3](sase-11l.11.3.md) | 2026-09-19 02:25:36 EDT |
 | sase | [`388d516`](https://github.com/sase-org/sase/commit/388d5160308367121467539eb3114bc342833ffc) | feat(hold): delegate deadlock detection to shared core reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:18:43 EDT |
 | sase-core | [`sase-core@0a7301c`](https://github.com/sase-org/sase-core/commit/0a7301ca435d7ace7dfd732455a4997ad34b3624) | feat(hold): walk every wait branch for hold deadlock reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:22:16 EDT |
+| sase | [`0fc51c2`](https://github.com/sase-org/sase/commit/0fc51c29981ff59c742ae5261267a1acd9e2d2fb) | chore(core): ratchet hold-deadlock source pin | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 2026-09-19 06:09:20 EDT |

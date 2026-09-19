@@ -27,4 +27,4 @@ Holds select the same targets across CLI, directives, admission, and display; ar
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.land/README.md) | [sase-11l.11](sase-11l.11.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.land.md) | [sase-11l.11](sase-11l.11.md) | 0 |
