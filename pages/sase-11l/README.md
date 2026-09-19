@@ -23,6 +23,31 @@
 
 A launch (agent or stand-alone proc) can arm a durable, TTL-bounded, fail-open hold that makes selected WAITING/QUEUED agents and un-dispatched procs wait for it to settle — never touching running work — with a first-class CLI, a %hold prompt directive, ACE/LSP completion, and TUI visibility.
 
+## Notes
+
+[2026-09-18T20:46:37Z · bryanbugyi34@gmail.com] The sase-11l.10 agent failed. I think it may have left some sase-core work behind? The epic lander agent should look into this.
+
+[2026-09-18T22:04:35Z · sase-11l.land] LANDING REVIEW: not ready to close. Reviewed the epic, every child and every note (19 descendants: 17 phases and two nested plans), all three linked plans, the research report, epic commits in Python/core, and intervening source changes. Audit and reproducible isolated probes: file:explicit:50d20b6062acfc5207bafbbb. Original plan remains unchanged. No epic-symbol entries; no parent bead.
+
+Phase-10 concern in epic note #1 is resolved: the core removal is committed in mixed finalizer commit 8d5341a and Python removal in a60210501; the core checkout is clean. Reviewed from first epic commit b6b11f215 through fa61906da, then fetched/fast-forwarded to bb332b5aa and reviewed that startup-only drift. Concurrent tribe/provenance changes require hold integration.
+
+Confirmed remaining epic work: (1) a hold can arm between the runner hold snapshot and claim while the candidate still starts; audit the analogous stale proc action transition, (2) CLI selectors differ from directive family/clan/workflow expansion and CLI operands do not match the approved positional contract, (3) runner admission misses stored/effective tribe assignments recognized by wait/display paths, (4) required historical capture counts are not persisted or displayed, (5) expiry silently prunes without the required release notification, (6) deadlock traversal follows only one dependency branch and omits hood waits, and (7) the package floor predates the complete hood/unconditional contracts. These remain epic repairs, not unrelated feature tasks. A directly parented child repair plan is being submitted through the tier-aware plan workflow; no original-epic close/symvision/status phase is included.
+
+Validation: 77 focused tests passed in 22.34s against fa61906da and released core 0.34.53. Additional real-binding probes exposed the race, selector, tribe, persistence, expiry, and branched-deadlock defects despite that pass. Full core and check-full passes are not claimed; they remain required after repairs. The audit includes probe source and output.
+
+All nine PROPOSED FOLLOW-UP outcomes, to preserve in the eventual close note:
+1. sase-11l.2 note #1, libpython: existing sase-xv owns it. Core 77492cc configures LIBDIR; added resolution evidence there. No fresh failure or duplicate task.
+2. sase-11l.2 note #2, missing research: reproduced before opening the research sidecar, then audited read succeeded. Corroborated sase-u3 with +1. Declined reclaim/republish because the report is intact.
+3. sase-11l.6 note #1, usage-probes temp guard: fixed by 2c46c84b7; focused tests pass. Declined new task.
+4. sase-11l.8 note #1, sase_questions phrase: fixed by e17d4e0c0/fb1e7f576; exact test passes and fixed-at entry exists. Added evidence to sase-11z; declined duplicate/current-failure report.
+5. sase-11l.8 note #2, persistent capture counts: explicitly required by original plan sections 4.4/4.8. Accepted into epic repairs, not a separate feature task.
+6. sase-11l.10 note #1, memory documentation: created READY medium memory task sase-134, dependent on sase-11l, for xprompts.md and a decision strand. No memory files changed.
+7. sase-11l.5.1.3 note #1, stale core floor: prior bindings were ratcheted, but complete hood/flag contracts require a newer minimum than 0.34.48. Supported-release acceptance is in the repair plan, no separate task.
+8. sase-11l.5.1.3 note #2, twelve historical failures/flakes: nested landing 756a07c9b already handled the baseline. Existing tasks sase-120, sase-121, sase-12c, sase-12d, sase-12e, sase-12g, sase-12h own seven still-listed nodes; five repaired nodes have fixed-at entries. No new failure reproduced, so declined duplicate tasks/+1s. Reassess actual post-repair full-check results.
+9. sase-11l.5.1.2.1.2 note #1, moved config-test node: fixed by 88175f34f and exact test passes. Added evidence to sase-122; declined duplicate/current-failure report.
+
+The task triage included all-status searches, the last-week task sweep, and all active-epic descriptions. After the child lands, re-read this audit, descendants/notes, linked plans and post-child drift, then perform the original normal landing only when complete. Do not force-close this epic to bypass readiness.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,61 +70,78 @@ flowchart TD
     n0["sase-11l: %hold: a reverse-%wait admission barrier [in_progress]"]
     n1["sase-11l.1: Allow %queue capacity on proc units [closed]"]
     n2["sase-11l.10: Remove the agent_holds flag and close out [closed]"]
-    n3["sase-11l.2: Rust hold-record store and bindings [closed]"]
-    n4["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
-    n5["sase-11l.4: sase agent hold command group [closed]"]
-    n6["sase-11l.5: The %hold prompt directive [closed]"]
-    n7["sase-11l.5.1: The %hold prompt directive [closed]"]
-    n8["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [closed]"]
-    n9["sase-11l.5.1.2: Arm holds at launch submission [closed]"]
-    n10["sase-11l.5.1.2.1: Arm %hold at launch submission [closed]"]
-    n11["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
-    n12["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
-    n13["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [closed]"]
-    n14["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [closed]"]
-    n15["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
-    n16["sase-11l.6: Completion and LSP for %hold [closed]"]
-    n17["sase-11l.7: Hold un-dispatched proc units [closed]"]
-    n18["sase-11l.8: TUI, doctor, and deadlock visibility [closed]"]
-    n19["sase-11l.9: Hood selector for %wait [closed]"]
+    n3["sase-11l.11: Complete hold admission and visibility after the landing audit [in_progress]"]
+    n4["sase-11l.11.1: Unify hold selectors and effective tribe identity [closed]"]
+    n5["sase-11l.11.2: Order hold arming with agent and proc admission [in_progress]"]
+    n6["sase-11l.11.3: Persist capture summaries and report expiry releases [in_progress]"]
+    n7["sase-11l.11.4: Complete deadlock detection and supported-core acceptance [in_progress]"]
+    n8["sase-11l.2: Rust hold-record store and bindings [closed]"]
+    n9["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
+    n10["sase-11l.4: sase agent hold command group [closed]"]
+    n11["sase-11l.5: The %hold prompt directive [closed]"]
+    n12["sase-11l.5.1: The %hold prompt directive [closed]"]
+    n13["sase-11l.5.1.1: Parse %hold everywhere behind agent_holds [closed]"]
+    n14["sase-11l.5.1.2: Arm holds at launch submission [closed]"]
+    n15["sase-11l.5.1.2.1: Arm %hold at launch submission [closed]"]
+    n16["sase-11l.5.1.2.1.1: Rust hold store, launch armer, and wire support [closed]"]
+    n17["sase-11l.5.1.2.1.2: Python hold facade and launch-hold primitives [closed]"]
+    n18["sase-11l.5.1.2.1.3: Pre-arm typed plans and follow units to dispatch [closed]"]
+    n19["sase-11l.5.1.2.1.4: Arm or rebind in the agent runner bootstrap [closed]"]
+    n20["sase-11l.5.1.3: Preview captures and confirm broad holds [closed]"]
+    n21["sase-11l.6: Completion and LSP for %hold [closed]"]
+    n22["sase-11l.7: Hold un-dispatched proc units [closed]"]
+    n23["sase-11l.8: TUI, doctor, and deadlock visibility [closed]"]
+    n24["sase-11l.9: Hood selector for %wait [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n6 --> n7
-    n7 --> n8
-    n7 --> n9
-    n9 --> n10
-    n10 --> n11
-    n10 --> n12
-    n10 --> n13
-    n10 --> n14
-    n7 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
-    n0 --> n19
-    n1 -.-> n6
-    n3 -.-> n4
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n0 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n14 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
+    n12 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n0 --> n24
+    n1 -.-> n11
     n4 -.-> n5
     n5 -.-> n6
-    n5 -.-> n17
-    n5 -.-> n18
-    n6 -.-> n2
-    n6 -.-> n16
+    n6 -.-> n7
     n8 -.-> n9
-    n8 -.-> n15
-    n11 -.-> n12
-    n12 -.-> n13
-    n12 -.-> n14
-    n16 -.-> n2
-    n16 -.-> n19
-    n17 -.-> n2
-    n18 -.-> n2
-    n19 -.-> n2
+    n9 -.-> n10
+    n10 -.-> n11
+    n10 -.-> n22
+    n10 -.-> n23
+    n11 -.-> n2
+    n11 -.-> n21
+    n13 -.-> n14
+    n13 -.-> n20
+    n16 -.-> n17
+    n17 -.-> n18
+    n17 -.-> n19
+    n21 -.-> n2
+    n21 -.-> n24
+    n22 -.-> n2
+    n23 -.-> n2
+    n24 -.-> n2
 ```
+
+## Dependencies
+
+- **Blocks:** [sase-134](../sase-134/README.md) ◇ · ⧖ 2026-09-18
 
 ## Agents
 
@@ -107,6 +149,11 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11l.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.1.md) | [sase-11l.1](sase-11l.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.10.md) | [sase-11l.10](sase-11l.10.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.2/README.md) | [sase-11l.11.2](sase-11l.11.2.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.3/README.md) | [sase-11l.11.3](sase-11l.11.3.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.4/README.md) | [sase-11l.11.4](sase-11l.11.4.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.land/README.md) | [sase-11l.11](sase-11l.11.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.4.md) | [sase-11l.4](sase-11l.4.md) | 1 |
@@ -123,7 +170,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 2 |
 | [bbugyi200.athena.sase-11l.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.8/README.md) | [sase-11l.8](sase-11l.8.md) | 1 |
 | [bbugyi200.athena.sase-11l.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.9/README.md) | [sase-11l.9](sase-11l.9.md) | 2 |
-| [bbugyi200.athena.sase-11l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.land/README.md) | [sase-11l](README.md) | 0 |
+| [bbugyi200.athena.sase-11l.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.land.md) | [sase-11l](README.md) | 0 |
 
 ## Commits
 
@@ -151,3 +198,4 @@ flowchart TD
 | sase | [`c8c842f`](https://github.com/sase-org/sase/commit/c8c842fb3e8f7e042e4e1543341f2be95ee77169) | feat(wait): support hood selectors | [sase-11l.9](sase-11l.9.md) | 2026-09-18 10:05:11 EDT |
 | sase-core | [`sase-core@549b168`](https://github.com/sase-org/sase-core/commit/549b168603d0700cdee71d068905dc70987cf7c3) | feat(wait): add hood directive contract | [sase-11l.9](sase-11l.9.md) | 2026-09-18 10:09:02 EDT |
 | sase | [`932e6ff`](https://github.com/sase-org/sase/commit/932e6ffae232e38ecd0f72b3ee18bed3e0f6bf24) | feat(hold): make %hold unconditional and retire agent\_holds | [sase-11l.10](sase-11l.10.md) | 2026-09-18 16:24:14 EDT |
+| sase | [`0e4cfe9`](https://github.com/sase-org/sase/commit/0e4cfe92cb9a0f007de7e44149c47e4495686cab) | feat(hold): unify CLI and directive selector parity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:41:35 EDT |
