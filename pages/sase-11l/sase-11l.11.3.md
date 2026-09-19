@@ -24,10 +24,11 @@ capture-lifecycle: retain effective arm-time counts across rebind, render them i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a1bb1df`](https://github.com/sase-org/sase/commit/a1bb1df4544d68bf28168d448aab94b708ea0b17) | feat(hold): render arm-time capture summaries and expiry releases | [sase-11l.11.3](sase-11l.11.3.md) | 2026-09-19 02:22:18 EDT |
+| sase-core | [`sase-core@6fe31cb`](https://github.com/sase-org/sase-core/commit/6fe31cb076d067e2a61252c4f05ce27a888b3b0a) | feat(hold): persist capture summaries and return prune evidence | [sase-11l.11.3](sase-11l.11.3.md) | 2026-09-19 02:25:36 EDT |

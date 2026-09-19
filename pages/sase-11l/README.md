@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.10.md) | [sase-11l.10](sase-11l.10.md) | 1 |
 | [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.2.md) | [sase-11l.11.2](sase-11l.11.2.md) | 1 |
-| [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.4/README.md) | [sase-11l.11.4](sase-11l.11.4.md) | 0 |
 | [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.land/README.md) | [sase-11l.11](sase-11l.11.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
@@ -202,3 +202,4 @@ flowchart TD
 | sase-core | [`sase-core@7e95d3f`](https://github.com/sase-org/sase-core/commit/7e95d3fe272beccc484cfa1270cdb41e55ed2c43) | feat(hold): unify CLI and directive selector identity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:47:06 EDT |
 | sase | [`8de747c`](https://github.com/sase-org/sase/commit/8de747c36a0a1e01f56ce455d2bb14621f27ef6b) | feat(hold): serialize hold publication with admission transitions | [sase-11l.11.2](sase-11l.11.2.md) | 2026-09-19 00:40:12 EDT |
 | sase | [`a1bb1df`](https://github.com/sase-org/sase/commit/a1bb1df4544d68bf28168d448aab94b708ea0b17) | feat(hold): render arm-time capture summaries and expiry releases | [sase-11l.11.3](sase-11l.11.3.md) | 2026-09-19 02:22:18 EDT |
+| sase-core | [`sase-core@6fe31cb`](https://github.com/sase-org/sase-core/commit/6fe31cb076d067e2a61252c4f05ce27a888b3b0a) | feat(hold): persist capture summaries and return prune evidence | [sase-11l.11.3](sase-11l.11.3.md) | 2026-09-19 02:25:36 EDT |
