@@ -13,7 +13,7 @@ deadlock-integration: traverse every relevant wait branch including hood depende
 
 ## Dependencies
 
-- **Depends on:** [sase-11l.11.3](sase-11l.11.3.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-11l.11.3](sase-11l.11.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

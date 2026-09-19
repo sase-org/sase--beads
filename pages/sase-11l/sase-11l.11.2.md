@@ -18,7 +18,7 @@ admission-ordering: serialize hold publication with the final pre-run admission 
 ## Dependencies
 
 - **Depends on:** [sase-11l.11.1](sase-11l.11.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-11l.11.3](sase-11l.11.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-11l.11.3](sase-11l.11.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
