@@ -99,17 +99,17 @@ flowchart TD
     n5["sase-zr.5: Remove Telegram's periodic polling delay [closed]"]
     n6["sase-zr.6: Verify latency, recovery, and coordinated rollout [closed]"]
     n7["sase-zr.7: Close out sase-zr: decision integrity, honest status, and fast TUI gate refresh [in_progress]"]
-    n8["sase-zr.7.1: Conflict rejection while running, durable failure outcomes, truthful attempt completion [in_progress]"]
-    n9["sase-zr.7.1.1: Gate decision integrity: owned execution, durable failure outcomes, truthful completion [in_progress]"]
+    n8["sase-zr.7.1: Conflict rejection while running, durable failure outcomes, truthful attempt completion [closed]"]
+    n9["sase-zr.7.1.1: Gate decision integrity: owned execution, durable failure outcomes, truthful completion [closed]"]
     n10["sase-zr.7.1.1.1: Execution owner, failure outcome and liveness policy in sase-core [closed]"]
     n11["sase-zr.7.1.1.2: Receipt-scoped journal, truthful attempt completion and durable failure outcomes [closed]"]
     n12["sase-zr.7.1.1.3: Verifiable owner, live-owner conflict rejection and post-failure supersede/cancel [closed]"]
     n13["sase-zr.7.1.1.4: Failure results for requesters and deduped recovery notifications [closed]"]
-    n14["sase-zr.7.1.1.5: Complete gate decision integrity after landing audit [in_progress]"]
+    n14["sase-zr.7.1.1.5: Complete gate decision integrity after landing audit [closed]"]
     n15["sase-zr.7.1.1.5.1: Complete and validate the shared gate-decision policy contract [closed]"]
     n16["sase-zr.7.1.1.5.2: Serialize and journal every terminal ownership transition [closed]"]
     n17["sase-zr.7.1.1.5.3: Finish the requester and recovery-notification contract [closed]"]
-    n18["sase-zr.7.1.1.5.4: Finish gate-decision integrity landing gaps [in_progress]"]
+    n18["sase-zr.7.1.1.5.4: Finish gate-decision integrity landing gaps [closed]"]
     n19["sase-zr.7.1.1.5.4.1: Complete released-core adoption and atomic failure transitions [closed]"]
     n20["sase-zr.7.1.1.5.4.2: Complete requester and plan-gate recovery acceptance [closed]"]
     n21["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
@@ -178,7 +178,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.1/README.md) | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.4.2.md) | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.land.md) | [sase-zr.7.1.1.5](sase-zr.7.1.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.land.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
@@ -208,3 +208,4 @@ flowchart TD
 | sase | [`e91fa13`](https://github.com/sase-org/sase/commit/e91fa138b069c1f88e607a23cf1de3bba8fe9920) | fix(gates): surface execution failure recovery | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 2026-09-17 23:09:06 EDT |
 | sase | [`cc6d51d`](https://github.com/sase-org/sase/commit/cc6d51d2db9984b76e8128f757c60ceaade3c3cc) | fix(gates): harden gate failure lifecycle transitions | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 2026-09-17 23:52:08 EDT |
 | sase | [`8989d0a`](https://github.com/sase-org/sase/commit/8989d0a724b701c8816b8f004b8d033306c1dd47) | test: add requester recovery acceptance for launch, HITL, and plan archive | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 2026-09-19 07:34:34 EDT |
+| sase--plans | [`sase--plans@93f5c3a`](https://github.com/sase-org/sase--plans/commit/93f5c3a89474e5f9693e1ae8559bd7507ccdfe18) | docs(plans): mark gate-decision integrity epics done | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 2026-09-19 08:08:16 EDT |

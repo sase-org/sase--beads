@@ -13,7 +13,7 @@ approval-projection: derive TALE/EPIC APPROVED from the acceptance receipt on ev
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.7.1](sase-zr.7.1.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-zr.7.1](sase-zr.7.1.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-zr.7.3](sase-zr.7.3.md) ◐ · ⧖ 2026-09-16
 
 ## Agents

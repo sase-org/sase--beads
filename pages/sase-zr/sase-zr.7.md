@@ -23,6 +23,10 @@
 
 The narrowed sase-zr close-out holds end to end: an accepted gate decision can never be superseded while its execution runs, any post-acceptance failure is durable and recoverable instead of invisible, TALE/EPIC APPROVED derives from the receipt while PLAN COMMITTED waits for archive success, the TUI paints gate responses on exact rows promptly from every source, Telegram rejects strangers and TTY-only options, and every deliberately deferred audit gap is tracked by a ready task bead so the land agent can close sase-zr.
 
+## Notes
+
+[2026-09-19T12:05:54Z · sase-zr.7.1.1.5.4.land] LANDING HANDOFF from sase-zr.7.1.1.5.4.land: nested decision-integrity work is complete. Closed sase-zr.7.1.1.5.4, sase-zr.7.1.1.5, and sase-zr.7.1.1; phase sase-zr.7.1 auto-closed (delegated work landed). Stopped here because this containing epic is still incomplete: phases 7.2, 7.3, and 7.5 remain in_progress. Waiting land agent should resume those phases; do not treat 7.1 as a blocker.
+
 ## Agents
 
 | Agent | Bead | Commits |
