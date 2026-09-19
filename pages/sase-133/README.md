@@ -29,7 +29,7 @@ Remote machine nodes on the Agents tab are indistinguishable from local nodes ex
 |---|---|---|---|---|---:|---:|
 | [sase-133.1](sase-133.1.md) | Owner served-set parity | ✓ closed | large | 2026-09-18 | 1 | 1 |
 | [sase-133.2](sase-133.2.md) | Wire presentation facts | ✓ closed | large | 2026-09-18 | 1 | 2 |
-| [sase-133.3](sase-133.3.md) | Viewer remote-node render parity | ◐ in_progress | large | 2026-09-18 | 1 | 0 |
+| [sase-133.3](sase-133.3.md) | Viewer remote-node render parity | ✓ closed | large | 2026-09-18 | 1 | 1 |
 | [sase-133.4](sase-133.4.md) | sase screenshot text-input driving | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n0["sase-133: Remote dispatch Agents-tab parity [in_progress]"]
     n1["sase-133.1: Owner served-set parity [closed]"]
     n2["sase-133.2: Wire presentation facts [closed]"]
-    n3["sase-133.3: Viewer remote-node render parity [in_progress]"]
+    n3["sase-133.3: Viewer remote-node render parity [closed]"]
     n4["sase-133.4: sase screenshot text-input driving [closed]"]
     n0 --> n1
     n0 --> n2
@@ -55,7 +55,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-133.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.1.md) | [sase-133.1](sase-133.1.md) | 1 |
 | [bbugyi200.athena.sase-133.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.2.md) | [sase-133.2](sase-133.2.md) | 2 |
-| [bbugyi200.athena.sase-133.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.3/README.md) | [sase-133.3](sase-133.3.md) | 0 |
+| [bbugyi200.athena.sase-133.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.3.md) | [sase-133.3](sase-133.3.md) | 1 |
 | [bbugyi200.athena.sase-133.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.4/README.md) | [sase-133.4](sase-133.4.md) | 1 |
 | [bbugyi200.athena.sase-133.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.land/README.md) | [sase-133](README.md) | 0 |
 
@@ -67,3 +67,4 @@ flowchart TD
 | sase-core | [`sase-core@b7531db`](https://github.com/sase-org/sase-core/commit/b7531dbeae28d447f973381d9d486f7db6e88315) | fix(fleet): honor owner dismissal and strong host liveness in the served set | [sase-133.1](sase-133.1.md) | 2026-09-18 17:42:01 EDT |
 | sase | [`67614ee`](https://github.com/sase-org/sase/commit/67614ee2b01e6f2e6e2b8c6fe9fd21e4394b0956) | feat(fleet): consume owner presentation facts | [sase-133.2](sase-133.2.md) | 2026-09-18 20:08:07 EDT |
 | sase-core | [`sase-core@11b8e06`](https://github.com/sase-org/sase-core/commit/11b8e060fe88d0a147b8449050d61a5f29038b9c) | feat(fleet): expose owner-resolved presentation facts | [sase-133.2](sase-133.2.md) | 2026-09-18 20:10:33 EDT |
+| sase | [`2ec00fe`](https://github.com/sase-org/sase/commit/2ec00fe68360d40767990d563b9c432a42acf921) | feat(tui): render remote fleet rows with local Agents-tab parity | [sase-133.3](sase-133.3.md) | 2026-09-18 21:36:20 EDT |

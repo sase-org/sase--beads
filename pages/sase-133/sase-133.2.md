@@ -18,7 +18,7 @@ wire-presentation-facts: extend the fleet contract additively so every row carri
 ## Dependencies
 
 - **Depends on:** [sase-133.1](sase-133.1.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-133.3](sase-133.3.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-133.3](sase-133.3.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
