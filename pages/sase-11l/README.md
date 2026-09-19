@@ -149,7 +149,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11l.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.1.md) | [sase-11l.1](sase-11l.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.10.md) | [sase-11l.10](sase-11l.10.md) | 1 |
-| [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.2/README.md) | [sase-11l.11.2](sase-11l.11.2.md) | 0 |
 | [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.3/README.md) | [sase-11l.11.3](sase-11l.11.3.md) | 0 |
 | [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.4/README.md) | [sase-11l.11.4](sase-11l.11.4.md) | 0 |
@@ -199,3 +199,4 @@ flowchart TD
 | sase-core | [`sase-core@549b168`](https://github.com/sase-org/sase-core/commit/549b168603d0700cdee71d068905dc70987cf7c3) | feat(wait): add hood directive contract | [sase-11l.9](sase-11l.9.md) | 2026-09-18 10:09:02 EDT |
 | sase | [`932e6ff`](https://github.com/sase-org/sase/commit/932e6ffae232e38ecd0f72b3ee18bed3e0f6bf24) | feat(hold): make %hold unconditional and retire agent\_holds | [sase-11l.10](sase-11l.10.md) | 2026-09-18 16:24:14 EDT |
 | sase | [`0e4cfe9`](https://github.com/sase-org/sase/commit/0e4cfe92cb9a0f007de7e44149c47e4495686cab) | feat(hold): unify CLI and directive selector parity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:41:35 EDT |
+| sase-core | [`sase-core@7e95d3f`](https://github.com/sase-org/sase-core/commit/7e95d3fe272beccc484cfa1270cdb41e55ed2c43) | feat(hold): unify CLI and directive selector identity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:47:06 EDT |

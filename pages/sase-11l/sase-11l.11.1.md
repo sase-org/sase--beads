@@ -23,10 +23,11 @@ selector-parity: share Rust selector expansion across CLI and directives, integr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 1 |
+| [bbugyi200.athena.sase-11l.11.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.1.md) | [sase-11l.11.1](sase-11l.11.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0e4cfe9`](https://github.com/sase-org/sase/commit/0e4cfe92cb9a0f007de7e44149c47e4495686cab) | feat(hold): unify CLI and directive selector parity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:41:35 EDT |
+| sase-core | [`sase-core@7e95d3f`](https://github.com/sase-org/sase-core/commit/7e95d3fe272beccc484cfa1270cdb41e55ed2c43) | feat(hold): unify CLI and directive selector identity | [sase-11l.11.1](sase-11l.11.1.md) | 2026-09-18 22:47:06 EDT |
