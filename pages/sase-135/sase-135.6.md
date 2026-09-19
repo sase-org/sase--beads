@@ -13,7 +13,7 @@ agent-adoption: Implement section 6, including docs/tool.md, the lint_and_test m
 
 ## Dependencies
 
-- **Depends on:** [sase-135.5](sase-135.5.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-135.5](sase-135.5.md) ✓ · ⧖ 2026-09-18
 - **Blocks:** [sase-135.7](sase-135.7.md) ◐ · ⧖ 2026-09-18
 
 ## Agents

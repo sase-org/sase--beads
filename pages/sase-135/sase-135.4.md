@@ -23,7 +23,7 @@ Verified: just check passed (full suite after Justfile epic-symbol re-key). Unwr
 ## Dependencies
 
 - **Depends on:** [sase-135.3](sase-135.3.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-135.5](sase-135.5.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-135.5](sase-135.5.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
