@@ -14,6 +14,7 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/service_host_1.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:e6751fe4134815e6e564a922 | attached via sase artifact create --bead |
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/service_host_1.md
 
@@ -22,6 +23,21 @@
 ## Description
 
 Every SASE background process on a machine — the AXE scheduler, the mobile gateway, plugin daemons like the Telegram receiver, user daemons, and `!` background commands — is owned by one `sase service` host that a platform unit (systemd user unit on Linux, launchd LaunchAgent on macOS) starts at boot/login, controlled from one `sase service` CLI and one Services tab, with every legacy supervision path retired as its replacement lands.
+
+## Notes
+
+[2026-09-19T12:23:43Z · sase-11l.11.5.land--1] DISCOVERED ISSUE: tests/ace/tui/actions/test_service_host_keys.py::test_x_does_not_toggle_the_host_on_nested_scheduler_rows fails deterministically on current master (423316a051 and origin 8989d0a724, which does not touch this file).
+
+Reproduction (isolated, 1 failed in 3.79s):
+  .venv/bin/python -m pytest tests/ace/tui/actions/test_service_host_keys.py::test_x_does_not_toggle_the_host_on_nested_scheduler_rows -q --tb=short
+
+Assertion: host.calls == [] but got ['start-host'].
+
+Cause: AxeMixin._toggle_or_kill_axe_view (src/sase/ace/tui/actions/axe.py) treats `_axe_service_selection is None` as "toggle the service host". Nested Scheduler rows (ChopItem / lumberjack children) set `_axe_service_selection = None` in `_derive_axe_view_from_selection` (axe_display/_loader_items.py) and never set a service-proc name, so `x` starts the host. The test was added in 485a6082e1 ("test: Add sase services tests") as a contract for sase-11y.7 Services-tab key routing.
+
+Impact: just check-full test-cost is red on a clean tree; unrelated epic landings cannot close. Not caused by hold repairs or the core pin.
+
+Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monitor pz319b38sapt (sase-11l.11.5.land).
 
 ## Phases
 
@@ -32,7 +48,7 @@ Every SASE background process on a machine — the AXE scheduler, the mobile gat
 | [sase-11y.2](sase-11y.2.md) | sase-core service foundations | ✓ closed | large | 2026-09-16 | 1 | 0 |
 | [sase-11y.3](sase-11y.3.md) | Extract the shared child-supervision library | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ✓ closed | large | 2026-09-16 | 1 | 1 |
-| [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ◐ in_progress | large | 2026-09-16 | 1 | 1 |
+| [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ✓ closed | large | 2026-09-16 | 1 | 2 |
 | [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ◐ in_progress | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.8](sase-11y.8.md) | Migrate background commands to oneshot service procs | ◐ in_progress | medium | 2026-09-16 | 1 | 0 |
@@ -56,7 +72,7 @@ flowchart TD
     n11["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
     n12["sase-11y.3: Extract the shared child-supervision library [closed]"]
     n13["sase-11y.4: Service host runtime and CLI [closed]"]
-    n14["sase-11y.5: Platform units and init integration [in_progress]"]
+    n14["sase-11y.5: Platform units and init integration [closed]"]
     n15["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
     n16["sase-11y.7: Services tab in the TUI [in_progress]"]
     n17["sase-11y.8: Migrate background commands to oneshot service procs [in_progress]"]
@@ -113,10 +129,9 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.2.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.5.1/README.md) | [sase-11y.2.1.5.1](sase-11y.2.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.2.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.5.2/README.md) | [sase-11y.2.1.5.2](sase-11y.2.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-11y.2.1.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.5.land.md) | [sase-11y.2.1.5](sase-11y.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.land.md) | [sase-11y.2.1](sase-11y.2.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.3.md) | [sase-11y.3](sase-11y.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.4.md) | [sase-11y.4](sase-11y.4.md) | 1 |
-| [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.5.md) | [sase-11y.5](sase-11y.5.md) | 1 |
+| [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.5.md) | [sase-11y.5](sase-11y.5.md) | 2 |
 | [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 1 |
 | [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 1 |
 | [bbugyi200.athena.sase-11y.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.8/README.md) | [sase-11y.8](sase-11y.8.md) | 0 |
@@ -144,3 +159,4 @@ flowchart TD
 | sase | [`c2befdb`](https://github.com/sase-org/sase/commit/c2befdbb3e83e6531c61d28af5dacb91f661ce16) | feat(tui): add services tab controls | [sase-11y.7](sase-11y.7.md) | 2026-09-18 06:59:19 EDT |
 | sase | [`e92e6c9`](https://github.com/sase-org/sase/commit/e92e6c91c1ed4f8ff8d8f83250674d7dd46dbf61) | feat(mobile): move gateway to service host | [sase-11y.6](sase-11y.6.md) | 2026-09-18 07:49:43 EDT |
 | sase | [`3fb42fa`](https://github.com/sase-org/sase/commit/3fb42fa11ee2ba0539a085484edb2e3f98e6dd1f) | feat(service): add platform unit integration | [sase-11y.5](sase-11y.5.md) | 2026-09-18 09:07:18 EDT |
+| sase | [`23c740a`](https://github.com/sase-org/sase/commit/23c740a9aab8eb0f6a2e24abfab9e5cfb02321c0) | feat(service): finish native platform units and init integration | [sase-11y.5](sase-11y.5.md) | 2026-09-19 09:57:17 EDT |

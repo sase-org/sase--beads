@@ -11,6 +11,10 @@
 
 services-tab: rename the AXE tab display label to Services, render service-proc nodes with routine/job nodes nested under the Scheduler node, add start/stop/enable/disable keys and the host status line, replace the footer pill, and wire gear exclusion plus the configurable -service Procs default query.
 
+## Notes
+
+[2026-09-19T12:24:18Z · sase-11l.11.5.land--1] DISCOVERED ISSUE: test_x_does_not_toggle_the_host_on_nested_scheduler_rows fails isolated on 423316a051 (x on nested Scheduler rows calls _start_service_host). Contract added in 485a6082e1. Recorded on epic sase-11y with file:explicit:e6751fe4134815e6e564a922; declined a new task because this phase owns Services-tab key routing.
+
 ## Dependencies
 
 - **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16

@@ -7,6 +7,18 @@
 **Created:** 2026-09-17 19:38:46 EDT · **Closed:** 2026-09-17 23:21:50 EDT
 **Plan:** [202609/complete\_service\_foundations\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202609/complete_service_foundations_landing.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/complete_service_foundations_landing.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/complete_service_foundations_landing.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Service status derives boot-scoped stops and duplicate observations correctly, the shared Python supervision library delegates restart accounting to the Rust core decision function now that it exists, and sase pins the integrated core revision.
