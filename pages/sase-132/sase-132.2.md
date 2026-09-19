@@ -20,4 +20,10 @@ startup-sequence: stop launching every post-mount background load concurrently w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.2.md) | [sase-132.2](sase-132.2.md) | 0 |
+| [bbugyi200.athena.sase-132.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-132.2.md) | [sase-132.2](sase-132.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`59c82a3`](https://github.com/sase-org/sase/commit/59c82a36e85f282c10aaaeb51e5d30656686161c) | feat(tui): prioritize visible startup surface | [sase-132.2](sase-132.2.md) | 2026-09-18 20:16:08 EDT |
