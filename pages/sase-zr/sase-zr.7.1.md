@@ -17,7 +17,7 @@ decision-integrity: in sase-core and sase, record a verifiable execution owner o
 
 ## Dependencies
 
-- **Blocks:** [sase-zr.7.2](sase-zr.7.2.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-zr.7.2](sase-zr.7.2.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-zr.7.3](sase-zr.7.3.md) ◐ · ⧖ 2026-09-16
 
 ## Agents

@@ -112,7 +112,7 @@ flowchart TD
     n18["sase-zr.7.1.1.5.4: Finish gate-decision integrity landing gaps [closed]"]
     n19["sase-zr.7.1.1.5.4.1: Complete released-core adoption and atomic failure transitions [closed]"]
     n20["sase-zr.7.1.1.5.4.2: Complete requester and plan-gate recovery acceptance [closed]"]
-    n21["sase-zr.7.2: Receipt-derived approval labels and honest commit status [in_progress]"]
+    n21["sase-zr.7.2: Receipt-derived approval labels and honest commit status [closed]"]
     n22["sase-zr.7.3: Exact, off-loop ACE refresh and actionable failure recovery [in_progress]"]
     n23["sase-zr.7.4: Authenticated Telegram updates and TTY-only pre-rejection [closed]"]
     n24["sase-zr.7.5: Corrected docs, targeted latency evidence, and combined verification [in_progress]"]
@@ -178,10 +178,10 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.1.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.3/README.md) | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.1/README.md) | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.4.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.4.2.md) | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.5.land.md) | [sase-zr.7.1.1.5](sase-zr.7.1.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.1.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.1.1.land.md) | [sase-zr.7.1.1](sase-zr.7.1.1.md) | 0 |
-| [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.2/README.md) | [sase-zr.7.2](sase-zr.7.2.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.2.md) | [sase-zr.7.2](sase-zr.7.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 0 |
 | [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 0 |
@@ -208,4 +208,4 @@ flowchart TD
 | sase | [`e91fa13`](https://github.com/sase-org/sase/commit/e91fa138b069c1f88e607a23cf1de3bba8fe9920) | fix(gates): surface execution failure recovery | [sase-zr.7.1.1.5.3](sase-zr.7.1.1.5.3.md) | 2026-09-17 23:09:06 EDT |
 | sase | [`cc6d51d`](https://github.com/sase-org/sase/commit/cc6d51d2db9984b76e8128f757c60ceaade3c3cc) | fix(gates): harden gate failure lifecycle transitions | [sase-zr.7.1.1.5.4.1](sase-zr.7.1.1.5.4.1.md) | 2026-09-17 23:52:08 EDT |
 | sase | [`8989d0a`](https://github.com/sase-org/sase/commit/8989d0a724b701c8816b8f004b8d033306c1dd47) | test: add requester recovery acceptance for launch, HITL, and plan archive | [sase-zr.7.1.1.5.4.2](sase-zr.7.1.1.5.4.2.md) | 2026-09-19 07:34:34 EDT |
-| sase--plans | [`sase--plans@93f5c3a`](https://github.com/sase-org/sase--plans/commit/93f5c3a89474e5f9693e1ae8559bd7507ccdfe18) | docs(plans): mark gate-decision integrity epics done | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 2026-09-19 08:08:16 EDT |
+| sase | [`bfc6142`](https://github.com/sase-org/sase/commit/bfc6142fcffb9500eb4a91a8f875be52946bda87) | feat(gates): project receipt-derived approval labels and honest commit status | [sase-zr.7.2](sase-zr.7.2.md) | 2026-09-19 12:54:23 EDT |

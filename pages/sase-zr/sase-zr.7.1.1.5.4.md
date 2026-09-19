@@ -35,10 +35,4 @@ Follow-ups: (1) sase-zr.7.1.1.5.4.1 note #1 published floor — not remaining ep
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--plans | [`sase--plans@93f5c3a`](https://github.com/sase-org/sase--plans/commit/93f5c3a89474e5f9693e1ae8559bd7507ccdfe18) | docs(plans): mark gate-decision integrity epics done | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 2026-09-19 08:08:16 EDT |
+| [bbugyi200.apollo.sase-zr.7.1.1.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.1.1.5.4.land/README.md) | [sase-zr.7.1.1.5.4](sase-zr.7.1.1.5.4.md) | 0 |
