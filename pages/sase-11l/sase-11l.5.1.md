@@ -22,9 +22,3 @@
 ## Description
 
 A prompt can arm a durable agent hold with `%hold`, behind the `agent_holds` beta flag. Python, the Rust typed launch planner, and the shared editor contract all parse it the same way. Agent and proc launches arm the hold when they are submitted, excluding their own kin and getting a priority boost. Approval previews list what each hold captures, broad holds need interactive confirmation, and `%hold` is rejected when combined with `%repeat` or `%dispatch`.
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.land.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |

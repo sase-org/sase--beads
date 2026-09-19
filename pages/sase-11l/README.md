@@ -75,7 +75,7 @@ flowchart TD
     n5["sase-11l.11.2: Order hold arming with agent and proc admission [closed]"]
     n6["sase-11l.11.3: Persist capture summaries and report expiry releases [closed]"]
     n7["sase-11l.11.4: Complete deadlock detection and supported-core acceptance [closed]"]
-    n8["sase-11l.11.5: Ratchet the hold-deadlock source pin [in_progress]"]
+    n8["sase-11l.11.5: Ratchet the hold-deadlock source pin [closed]"]
     n9["sase-11l.11.5.1: Ratchet and verify the hold-deadlock core revision [closed]"]
     n10["sase-11l.2: Rust hold-record store and bindings [closed]"]
     n11["sase-11l.3: hold-barrier blocker at runner-slot admission [closed]"]
@@ -158,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.11.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.3.md) | [sase-11l.11.3](sase-11l.11.3.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.4.md) | [sase-11l.11.4](sase-11l.11.4.md) | 2 |
 | [bbugyi200.athena.sase-11l.11.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.1.md) | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 1 |
-| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.11.5.land/README.md) | [sase-11l.11.5](sase-11l.11.5.md) | 0 |
+| [bbugyi200.athena.sase-11l.11.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.5.land.md) | [sase-11l.11.5](sase-11l.11.5.md) | 1 |
 | [bbugyi200.athena.sase-11l.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.11.land.md) | [sase-11l.11](sase-11l.11.md) | 0 |
 | [bbugyi200.athena.sase-11l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.2/README.md) | [sase-11l.2](sase-11l.2.md) | 2 |
 | [bbugyi200.athena.sase-11l.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.3.md) | [sase-11l.3](sase-11l.3.md) | 2 |
@@ -171,7 +171,6 @@ flowchart TD
 | [bbugyi200.athena.sase-11l.5.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.5.1.2.1.4/README.md) | [sase-11l.5.1.2.1.4](sase-11l.5.1.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11l.5.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.2.1.land.md) | [sase-11l.5.1.2.1](sase-11l.5.1.2.1.md) | 1 |
 | [bbugyi200.athena.sase-11l.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.3.md) | [sase-11l.5.1.3](sase-11l.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-11l.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11l.5.1.land.md) | [sase-11l.5.1](sase-11l.5.1.md) | 0 |
 | [bbugyi200.athena.sase-11l.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.6/README.md) | [sase-11l.6](sase-11l.6.md) | 2 |
 | [bbugyi200.athena.sase-11l.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.7/README.md) | [sase-11l.7](sase-11l.7.md) | 2 |
 | [bbugyi200.athena.sase-11l.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11l.8/README.md) | [sase-11l.8](sase-11l.8.md) | 1 |
@@ -212,3 +211,4 @@ flowchart TD
 | sase | [`388d516`](https://github.com/sase-org/sase/commit/388d5160308367121467539eb3114bc342833ffc) | feat(hold): delegate deadlock detection to shared core reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:18:43 EDT |
 | sase-core | [`sase-core@0a7301c`](https://github.com/sase-org/sase-core/commit/0a7301ca435d7ace7dfd732455a4997ad34b3624) | feat(hold): walk every wait branch for hold deadlock reachability | [sase-11l.11.4](sase-11l.11.4.md) | 2026-09-19 04:22:16 EDT |
 | sase | [`0fc51c2`](https://github.com/sase-org/sase/commit/0fc51c29981ff59c742ae5261267a1acd9e2d2fb) | chore(core): ratchet hold-deadlock source pin | [sase-11l.11.5.1](sase-11l.11.5.1.md) | 2026-09-19 06:09:20 EDT |
+| sase | [`48d0a69`](https://github.com/sase-org/sase/commit/48d0a69287b73187704633273473296143167e58) | chore(hold): persist sase-11l.11 land continuation checkpoint | [sase-11l.11.5](sase-11l.11.5.md) | 2026-09-19 08:32:28 EDT |
