@@ -23,10 +23,11 @@ owner-roster: reconcile gateway selection with the actual local loader and moder
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 1 |
+| [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7d6ec55`](https://github.com/sase-org/sase/commit/7d6ec552b5d0650e06682075b422b98fc3d6727e) | feat(tui): attach unparented family shells and oracle owner-roster parity | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:38:22 EDT |
+| sase-core | [`sase-core@8acae32`](https://github.com/sase-org/sase-core/commit/8acae3297f0c4db55905baf2a190f7f4ac818a37) | feat(fleet): share family-shell classifier and assemble catalog in core | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:41:40 EDT |
