@@ -17,7 +17,7 @@ selector-parity: share Rust selector expansion across CLI and directives, integr
 
 ## Dependencies
 
-- **Blocks:** [sase-11l.11.2](sase-11l.11.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-11l.11.2](sase-11l.11.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
