@@ -30,7 +30,7 @@ The Agents-tab @epic tribe panel stays mounted as a tribe-keyed widget across di
 | [sase-13i.1](sase-13i.1.md) | Publish one aggregate roster per disk apply | ✓ closed | medium | 2026-09-19 | 1 | 1 |
 | [sase-13i.2](sase-13i.2.md) | Key AgentList widgets by tribe and stop blanking untouched panels | ✓ closed | medium | 2026-09-19 | 1 | 1 |
 | [sase-13i.3](sase-13i.3.md) | Stop incomplete bounded loads from replacing a larger cache | ✓ closed | medium | 2026-09-19 | 1 | 1 |
-| [sase-13i.4](sase-13i.4.md) | Prove panel stability on the live host with traces | ◐ in_progress | medium | 2026-09-19 | 1 | 0 |
+| [sase-13i.4](sase-13i.4.md) | Prove panel stability on the live host with traces | ◐ in_progress | medium | 2026-09-19 | 1 | 1 |
 
 ## Lineage
 
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-13i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.1/README.md) | [sase-13i.1](sase-13i.1.md) | 1 |
 | [bbugyi200.athena.sase-13i.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.2/README.md) | [sase-13i.2](sase-13i.2.md) | 1 |
 | [bbugyi200.athena.sase-13i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.3/README.md) | [sase-13i.3](sase-13i.3.md) | 1 |
-| [bbugyi200.athena.sase-13i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.4/README.md) | [sase-13i.4](sase-13i.4.md) | 0 |
+| [bbugyi200.athena.sase-13i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.4/README.md) | [sase-13i.4](sase-13i.4.md) | 1 |
 | [bbugyi200.athena.sase-13i.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-13i.land/README.md) | [sase-13i](README.md) | 0 |
 
 ## Commits
@@ -68,3 +68,4 @@ flowchart TD
 | sase | [`9831ab6`](https://github.com/sase-org/sase/commit/9831ab623c039e3b90730aa30129f256328bf26f) | feat(tui): publish one aggregate Agents roster per disk apply | [sase-13i.1](sase-13i.1.md) | 2026-09-19 12:23:33 EDT |
 | sase | [`45a7895`](https://github.com/sase-org/sase/commit/45a7895b6b98360ac447352a570c75ca1ea7a180) | feat(tui): key AgentList widgets by tribe and skip sibling rebuilds | [sase-13i.2](sase-13i.2.md) | 2026-09-19 12:54:53 EDT |
 | sase | [`9231c93`](https://github.com/sase-org/sase/commit/9231c9352aef2002b152da037905c3d0f662d46c) | fix(tui): stop incomplete bounded loads from replacing a larger cache | [sase-13i.3](sase-13i.3.md) | 2026-09-20 06:49:50 EDT |
+| sase | [`d949f06`](https://github.com/sase-org/sase/commit/d949f060ef74ebe8aa5cb3867640287737b159f4) | test(tui): guard session-sticky epic widget on empty apply | [sase-13i.4](sase-13i.4.md) | 2026-09-20 07:34:40 EDT |
