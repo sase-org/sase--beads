@@ -19,7 +19,7 @@ finalizer-guidance: teach the canonical finalizer skill to retain every dirty sc
 
 ## Dependencies
 
-- **Blocks:** [sase-12z.5.2](sase-12z.5.2.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-12z.5.2](sase-12z.5.2.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
