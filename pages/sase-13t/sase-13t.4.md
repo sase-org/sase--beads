@@ -18,7 +18,7 @@ preflight: check remaining project storage before uploading, fail with an action
 ## Dependencies
 
 - **Depends on:** [sase-13t.3](sase-13t.3.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-13t.5](sase-13t.5.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-13t.5](sase-13t.5.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-13t.6](sase-13t.6.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
