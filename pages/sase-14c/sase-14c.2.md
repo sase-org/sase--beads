@@ -18,7 +18,7 @@ collector: add the Python MSP probe that mints a Muse usage observation with no 
 ## Dependencies
 
 - **Depends on:** [sase-14c.1](sase-14c.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14c.3](sase-14c.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14c.3](sase-14c.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
