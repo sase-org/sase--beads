@@ -19,4 +19,4 @@ workspace_error: carry the underlying git or update failure out of prepare_works
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.14/README.md) | [sase-14n.14](sase-14n.14.md) | 0 |
+| [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 0 |

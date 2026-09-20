@@ -20,4 +20,4 @@ gate_undismiss: add an undismiss state transition to the notification action sur
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.13/README.md) | [sase-14n.13](sase-14n.13.md) | 0 |
+| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 0 |

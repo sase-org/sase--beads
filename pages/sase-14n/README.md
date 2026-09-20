@@ -28,7 +28,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-14n.1](sase-14n.1.md) | Clear the 26 unused public symbols that abort every lint run | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.11](sase-14n.11.md) | Warn on every advisory-flagged pool member | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.12](sase-14n.12.md) | Keep the declared shell block through gate creation | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.13](sase-14n.13.md) | Make notification dismissal recoverable | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -48,7 +48,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 flowchart TD
     n0["sase-14n: Fix the bug and CI task beads that survived 2026-09-20 triage [in_progress]"]
     n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [closed]"]
-    n2["sase-14n.10: Reclaim quarantined ToolRun stores [in_progress]"]
+    n2["sase-14n.10: Reclaim quarantined ToolRun stores [closed]"]
     n3["sase-14n.11: Warn on every advisory-flagged pool member [in_progress]"]
     n4["sase-14n.12: Keep the declared shell block through gate creation [in_progress]"]
     n5["sase-14n.13: Make notification dismissal recoverable [in_progress]"]
@@ -100,11 +100,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-14n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.1/README.md) | [sase-14n.1](sase-14n.1.md) | 1 |
-| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 0 |
+| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 1 |
 | [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 0 |
 | [bbugyi200.athena.sase-14n.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.12/README.md) | [sase-14n.12](sase-14n.12.md) | 0 |
-| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.13/README.md) | [sase-14n.13](sase-14n.13.md) | 0 |
-| [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.14/README.md) | [sase-14n.14](sase-14n.14.md) | 0 |
+| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 0 |
+| [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 0 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
@@ -125,3 +125,4 @@ flowchart TD
 | sase | [`ac3091c`](https://github.com/sase-org/sase/commit/ac3091c3a71eb845e7d8556e6b93cb8d4356c469) | test(ace): assert zoom file and commit plan paths independent of basetemp length | [sase-14n.5](sase-14n.5.md) | 2026-09-20 17:51:24 EDT |
 | sase | [`19c515e`](https://github.com/sase-org/sase/commit/19c515e0ae7efe6642441f8a460cb892c3216537) | test(capacity): settle land-segment queue weight to default contract | [sase-14n.3](sase-14n.3.md) | 2026-09-20 17:55:04 EDT |
 | sase | [`a7dde7d`](https://github.com/sase-org/sase/commit/a7dde7dbe661a5239393a30e2ccf516c50f21d45) | fix(tool): disclose run id on spawn-failure path and gate floor smoke | [sase-14n.9](sase-14n.9.md) | 2026-09-20 18:03:46 EDT |
+| sase | [`2b68fc9`](https://github.com/sase-org/sase/commit/2b68fc9b3886460bf6020d40172e0f783eea03b5) | test(tool): cover quarantined ToolRun store reclaim at log horizon | [sase-14n.10](sase-14n.10.md) | 2026-09-20 19:12:42 EDT |
