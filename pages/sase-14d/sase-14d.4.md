@@ -26,7 +26,7 @@ tui-delivery: resolve each arriving notification's delivery on the existing work
 - **Depends on:** [sase-14d.1](sase-14d.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14d.2](sase-14d.2.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14d.3](sase-14d.3.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14d.5](sase-14d.5.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14d.5](sase-14d.5.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

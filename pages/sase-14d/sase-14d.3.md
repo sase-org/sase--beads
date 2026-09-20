@@ -20,7 +20,7 @@ sound-backend: add a presentation-side sound module that resolves a platform aud
 ## Dependencies
 
 - **Blocks:** [sase-14d.4](sase-14d.4.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14d.5](sase-14d.5.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14d.5](sase-14d.5.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
