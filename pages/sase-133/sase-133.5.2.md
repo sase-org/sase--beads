@@ -26,10 +26,11 @@ owner-facts: derive topology, rich statuses, tribe inheritance, shell facts, and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 1 |
+| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2631449`](https://github.com/sase-org/sase/commit/263144991496900af018d7470257dc841555d873) | feat(fleet): carry owner presentation facts through the viewer catalog adapter | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:17:33 EDT |
+| sase-core | [`sase-core@92cf0ca`](https://github.com/sase-org/sase-core/commit/92cf0ca230a436a6dd48c9cd09aeb70759119404) | feat(fleet): derive owner presentation facts in core and bump contract to v5 | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:21:19 EDT |
