@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-12z.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12z.4.md) | [sase-12z.4](sase-12z.4.md) | 1 |
 | [bbugyi200.athena.sase-12z.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.1/README.md) | [sase-12z.5.1](sase-12z.5.1.md) | 1 |
 | [bbugyi200.athena.sase-12z.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.2/README.md) | [sase-12z.5.2](sase-12z.5.2.md) | 1 |
-| [bbugyi200.athena.sase-12z.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.land/README.md) | [sase-12z.5](sase-12z.5.md) | 1 |
+| [bbugyi200.athena.sase-12z.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.land/README.md) | [sase-12z.5](sase-12z.5.md) | 2 |
 | [bbugyi200.athena.sase-12z.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-12z.land.md) | [sase-12z](README.md) | 0 |
 
 ## Commits
@@ -148,3 +148,4 @@ flowchart TD
 | sase | [`3538713`](https://github.com/sase-org/sase/commit/3538713c0d285883a67abb415c07aa00a02ab5a7) | docs(finalizer): require screenshot golden commits | [sase-12z.5.1](sase-12z.5.1.md) | 2026-09-18 21:19:00 EDT |
 | sase | [`9a56fc1`](https://github.com/sase-org/sase/commit/9a56fc1294652b518c05fdfb28a56a72c9dc4f61) | fix(visual): integrate the metadata-only Agents default with the screenshot corpus | [sase-12z.5.2](sase-12z.5.2.md) | 2026-09-20 10:46:29 EDT |
 | sase | [`1d3bef8`](https://github.com/sase-org/sase/commit/1d3bef89414d940fee072b4d7d81318f5109715d) | fix(visual): refresh the Services-tab goldens left stale during sase-12z.5 | [sase-12z.5](sase-12z.5.md) | 2026-09-20 12:42:28 EDT |
+| sase--plans | [`sase--plans@ae49a4c`](https://github.com/sase-org/sase--plans/commit/ae49a4c309ddd5ab1405050ff8aff511622dee2c) | docs(plans): mark the screenshot-maintenance plans done | [sase-12z.5](sase-12z.5.md) | 2026-09-20 12:43:24 EDT |

@@ -120,10 +120,11 @@ reports no entries. `just check-full` was not run: this prompt did not instruct 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-12z.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.land/README.md) | [sase-12z.5](sase-12z.5.md) | 1 |
+| [bbugyi200.athena.sase-12z.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-12z.5.land/README.md) | [sase-12z.5](sase-12z.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1d3bef8`](https://github.com/sase-org/sase/commit/1d3bef89414d940fee072b4d7d81318f5109715d) | fix(visual): refresh the Services-tab goldens left stale during sase-12z.5 | [sase-12z.5](sase-12z.5.md) | 2026-09-20 12:42:28 EDT |
+| sase--plans | [`sase--plans@ae49a4c`](https://github.com/sase-org/sase--plans/commit/ae49a4c309ddd5ab1405050ff8aff511622dee2c) | docs(plans): mark the screenshot-maintenance plans done | [sase-12z.5](sase-12z.5.md) | 2026-09-20 12:43:24 EDT |
