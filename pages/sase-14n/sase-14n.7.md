@@ -16,7 +16,7 @@ agents_view: dispatch the zoom modal's LLM Calls visibility message and repaint 
 - **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14n.2](sase-14n.2.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14n.4](sase-14n.4.md) ◐ · ⧖ 2026-09-20
-- **Depends on:** [sase-14n.5](sase-14n.5.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.5](sase-14n.5.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14n.6](sase-14n.6.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
