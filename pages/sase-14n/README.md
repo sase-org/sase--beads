@@ -22,7 +22,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | [sase-14n.13](sase-14n.13.md) | Make notification dismissal recoverable | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.14](sase-14n.14.md) | Surface why workspace preparation failed | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.2](sase-14n.2.md) | Restore the complete-history latch reset on a changed query key | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.3](sase-14n.3.md) | Settle the land segment's queue weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.3](sase-14n.3.md) | Settle the land segment's queue weight | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.4](sase-14n.4.md) | Land the TUI import count strictly under its budget | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
 | [sase-14n.5](sase-14n.5.md) | Stop eleven ACE tests asserting a full pytest tmp path | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -42,7 +42,7 @@ flowchart TD
     n5["sase-14n.13: Make notification dismissal recoverable [in_progress]"]
     n6["sase-14n.14: Surface why workspace preparation failed [in_progress]"]
     n7["sase-14n.2: Restore the complete-history latch reset on a changed query key [closed]"]
-    n8["sase-14n.3: Settle the land segment's queue weight [in_progress]"]
+    n8["sase-14n.3: Settle the land segment's queue weight [closed]"]
     n9["sase-14n.4: Land the TUI import count strictly under its budget [in_progress]"]
     n10["sase-14n.5: Stop eleven ACE tests asserting a full pytest tmp path [closed]"]
     n11["sase-14n.6: Settle the clan-collapse agent-row label weight [in_progress]"]
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.13/README.md) | [sase-14n.13](sase-14n.13.md) | 0 |
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.14/README.md) | [sase-14n.14](sase-14n.14.md) | 0 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
-| [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 0 |
+| [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
 | [bbugyi200.athena.sase-14n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.5/README.md) | [sase-14n.5](sase-14n.5.md) | 1 |
 | [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 0 |
@@ -111,3 +111,4 @@ flowchart TD
 | sase | [`5963c52`](https://github.com/sase-org/sase/commit/5963c52e8261f191531009b029ffa3ccf7afe97e) | fix(tui): defer heap and perf imports out of the app startup closure | [sase-14n.4](sase-14n.4.md) | 2026-09-20 17:46:40 EDT |
 | sase | [`47e281b`](https://github.com/sase-org/sase/commit/47e281b7a0a60c029284dd9d7ac9d2b69661800b) | fix(lint): privatize 26 unused public symbols flagged by symvision | [sase-14n.1](sase-14n.1.md) | 2026-09-20 17:47:07 EDT |
 | sase | [`ac3091c`](https://github.com/sase-org/sase/commit/ac3091c3a71eb845e7d8556e6b93cb8d4356c469) | test(ace): assert zoom file and commit plan paths independent of basetemp length | [sase-14n.5](sase-14n.5.md) | 2026-09-20 17:51:24 EDT |
+| sase | [`19c515e`](https://github.com/sase-org/sase/commit/19c515e0ae7efe6642441f8a460cb892c3216537) | test(capacity): settle land-segment queue weight to default contract | [sase-14n.3](sase-14n.3.md) | 2026-09-20 17:55:04 EDT |

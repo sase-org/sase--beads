@@ -14,7 +14,7 @@ gate_undismiss: add an undismiss state transition to the notification action sur
 ## Dependencies
 
 - **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
-- **Depends on:** [sase-14n.3](sase-14n.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.3](sase-14n.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
