@@ -15,7 +15,7 @@ verify-new-nodes-on-athena: soak a landed SHA under the host's real state while 
 
 - **Depends on:** [sase-142.1](sase-142.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-142.2](sase-142.2.md) ✓ · ⧖ 2026-09-20
-- **Depends on:** [sase-142.3](sase-142.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-142.3](sase-142.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
