@@ -41,6 +41,10 @@ Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monit
 
 [2026-09-19T14:21:18Z · sase-11l.11.5.land.f0--code] The Services-tab `x` vs `!x` routing issue from LANDING BLOCKED / DISCOVERED ISSUE is fixed (plan:202609/landing_gate_test_failures_1.md). Bare `x` toggles a selected service proc and is a no-op on nested Scheduler rows, empty selection, and host chrome. `!x` on the Services tab always starts/stops the host. Tests in `tests/ace/tui/actions/test_service_host_keys.py` cover empty selection, nested rows, and `!x` with a proc selected. Leave this phase/epic open; remaining Services-tab work is unchanged.
 
+[2026-09-20T15:14:37Z · sase-12z.5.2] DISCOVERED ISSUE: 18 ACE PNG goldens are stale on origin/master 58f2de8f8 because the sase-11y.7 Services-tab commit 92dd554c4 changed rendered output without refreshing them. Reproduce: 'just fix-tui-screenshots --check -- tests/ace/tui/visual/test_ace_png_snapshots_axe*.py tests/ace/tui/visual/test_ace_png_snapshots_help_panel.py tests/ace/tui/visual/test_ace_png_snapshots_link_rail.py' reports updated=18 unchanged=25. (1) 17 goldens: 16 axe_* (axe_chop_description, axe_chop_description_collapsed, axe_chop_overrun, axe_chop_report_absent/error/rich, axe_chop_run_info_panel, axe_chop_run_info_panel_running, axe_description_overflow, axe_disabled_chop_row, axe_empty, axe_long_label_widened, axe_lumberjack_description/error/tree, axe_selected_row) plus link_rail_axe_twelve_links_120x40. Cause: _TAB_COLORS['axe'] in src/sase/ace/tui/widgets/tab_bar.py went from #FF5F5F to #00D7AF in 92dd554c4; the pixel diff is only the active 'Services' tab label recolored red to teal. (2) help_keymaps_changespecs_120x40: the same commit changed the Bang Mode '!x' help row text to 'Start / stop service host or axe (or select process)' in ace/tui/modals/help_modal/{agents,patches}_bindings.py. Not a flake (deterministic on rerun) and not caused by the repairing commit, which never touches tab_bar.py or help text. Fix: run 'just fix-tui-screenshots' targeted at those modules and inspect the report before applying. Visible as red in 'just fix-tui-screenshots --check' and the CI visual-test job.
+
+[2026-09-20T16:33:17Z · sase-12z.5.land] DISCOVERED ISSUE: phase sase-11y.7 (commit 92dd554c4, 'feat(tui): finish Services tab host chrome, health pill, and quit flow') changed rendered TUI output without committing the dirty screenshot goldens, leaving 18 PNG goldens stale on master. It changed _TAB_COLORS['axe'] in src/sase/ace/tui/widgets/tab_bar.py from #FF5F5F to #00D7AF, so the active Services tab label renders teal instead of red in every AXE-surface golden, and it reworded the '!x' help entry to 'Start / stop service host or ...'. Found on 2026-09-20 by the sase-12z.5 land agent: a complete 'just test-visual' at master 624a29ea7 reported created=0 updated=19 unchanged=690 with update groups representative axe_chop_description_120x40.png (17 members) and help_keymaps_changespecs_120x40.png. I reviewed both groups against expected/actual captures, confirmed the only differences are the intended tab accent and the reworded binding, and refreshed all 18 as part of landing sase-12z.5 (axe_chop_description, axe_chop_description_collapsed, axe_chop_overrun, axe_chop_report_absent, axe_chop_report_error, axe_chop_report_rich, axe_chop_run_info_panel, axe_chop_run_info_panel_running, axe_description_overflow, axe_disabled_chop_row, axe_empty, axe_long_label_widened, axe_lumberjack_description, axe_lumberjack_error, axe_lumberjack_tree, axe_selected_row, help_keymaps_changespecs, link_rail_axe_twelve_links). No action is needed on the goldens; the note is here so this epic's remaining phases run 'just fix-tui-screenshots' after any further Services-tab rendering change — that requirement is now in the canonical finalizer skill (sase-12z.5.1, commit 3538713c0).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -52,8 +56,8 @@ Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monit
 | [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ✓ closed | large | 2026-09-16 | 1 | 2 |
 | [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 1 |
-| [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ◐ in_progress | large | 2026-09-16 | 1 | 2 |
-| [sase-11y.8](sase-11y.8.md) | Migrate background commands to oneshot service procs | ◐ in_progress | medium | 2026-09-16 | 1 | 0 |
+| [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ✓ closed | large | 2026-09-16 | 1 | 2 |
+| [sase-11y.8](sase-11y.8.md) | Migrate background commands to oneshot service procs | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.9](sase-11y.9.md) | Live migration on athena and apollo | ✓ closed | medium | 2026-09-16 | 1 | 0 |
 
 ## Lineage
@@ -76,8 +80,8 @@ flowchart TD
     n13["sase-11y.4: Service host runtime and CLI [closed]"]
     n14["sase-11y.5: Platform units and init integration [closed]"]
     n15["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
-    n16["sase-11y.7: Services tab in the TUI [in_progress]"]
-    n17["sase-11y.8: Migrate background commands to oneshot service procs [in_progress]"]
+    n16["sase-11y.7: Services tab in the TUI [closed]"]
+    n17["sase-11y.8: Migrate background commands to oneshot service procs [closed]"]
     n18["sase-11y.9: Live migration on athena and apollo [closed]"]
     n0 --> n1
     n0 --> n2
@@ -136,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.5.md) | [sase-11y.5](sase-11y.5.md) | 2 |
 | [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 1 |
 | [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 2 |
-| [bbugyi200.athena.sase-11y.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.8/README.md) | [sase-11y.8](sase-11y.8.md) | 0 |
+| [bbugyi200.athena.sase-11y.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.8/README.md) | [sase-11y.8](sase-11y.8.md) | 1 |
 | [bbugyi200.athena.sase-11y.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.9/README.md) | [sase-11y.9](sase-11y.9.md) | 0 |
 | [bbugyi200.athena.sase-11y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.land/README.md) | [sase-11y](README.md) | 0 |
 
@@ -163,3 +167,4 @@ flowchart TD
 | sase | [`3fb42fa`](https://github.com/sase-org/sase/commit/3fb42fa11ee2ba0539a085484edb2e3f98e6dd1f) | feat(service): add platform unit integration | [sase-11y.5](sase-11y.5.md) | 2026-09-18 09:07:18 EDT |
 | sase | [`23c740a`](https://github.com/sase-org/sase/commit/23c740a9aab8eb0f6a2e24abfab9e5cfb02321c0) | feat(service): finish native platform units and init integration | [sase-11y.5](sase-11y.5.md) | 2026-09-19 09:57:17 EDT |
 | sase | [`92dd554`](https://github.com/sase-org/sase/commit/92dd554c4cc33db81ae9232a31d1a31d5cc2f493) | feat(tui): finish Services tab host chrome, health pill, and quit flow | [sase-11y.7](sase-11y.7.md) | 2026-09-20 07:32:38 EDT |
+| sase | [`9316a24`](https://github.com/sase-org/sase/commit/9316a24e5b05016e0819c9f3a5e687a84f878d99) | feat(service): run ! background commands as transient oneshot service procs | [sase-11y.8](sase-11y.8.md) | 2026-09-20 13:36:06 EDT |

@@ -22,7 +22,7 @@ Bindings delivered for service_config_compose, service_enablement_resolve, servi
 ## Dependencies
 
 - **Blocks:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-11y.7](sase-11y.7.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.7](sase-11y.7.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

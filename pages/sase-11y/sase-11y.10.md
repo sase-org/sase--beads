@@ -13,8 +13,8 @@ sunset: retire the ensure timer, TUI direct-start, and scope-wrapper paths, form
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.7](sase-11y.7.md) ◐ · ⧖ 2026-09-16
-- **Depends on:** [sase-11y.8](sase-11y.8.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.7](sase-11y.7.md) ✓ · ⧖ 2026-09-16
+- **Depends on:** [sase-11y.8](sase-11y.8.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.9](sase-11y.9.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
