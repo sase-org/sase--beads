@@ -7,6 +7,18 @@
 **Created:** 2026-09-20 17:14:06 EDT
 **Plan:** [202609/fix\_triaged\_bug\_and\_ci\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202609/fix_triaged_bug_and_ci_beads.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/fix_triaged_bug_and_ci_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/fix_triaged_bug_and_ci_beads.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every bug and CI task bead filed by agents on 2026-09-20 that is neither a duplicate nor already fixed is repaired and closed: `just check` passes on a clean master with no known-failure caveat, the ACE PNG corpus matches its goldens, and the nine product defects behind those beads (ToolRun ledger addressability and retention, the release core-floor smoke, doctor model advisories, the Agents view surfaces, the notification modal footer, gate reachability, and workspace-preparation diagnostics) are fixed.
@@ -28,7 +40,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.7](sase-14n.7.md) | Repair the Agents view surfaces the metadata-only default left behind | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.8](sase-14n.8.md) | Make the notification modal footer fit the modal | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
-| [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
+| [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
 
 ## Lineage
 
@@ -100,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 0 |
 | [bbugyi200.athena.sase-14n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.7/README.md) | [sase-14n.7](sase-14n.7.md) | 0 |
 | [bbugyi200.athena.sase-14n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.8/README.md) | [sase-14n.8](sase-14n.8.md) | 0 |
-| [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 0 |
+| [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 1 |
 | [bbugyi200.athena.sase-14n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.land/README.md) | [sase-14n](README.md) | 0 |
 
 ## Commits
@@ -112,3 +124,4 @@ flowchart TD
 | sase | [`47e281b`](https://github.com/sase-org/sase/commit/47e281b7a0a60c029284dd9d7ac9d2b69661800b) | fix(lint): privatize 26 unused public symbols flagged by symvision | [sase-14n.1](sase-14n.1.md) | 2026-09-20 17:47:07 EDT |
 | sase | [`ac3091c`](https://github.com/sase-org/sase/commit/ac3091c3a71eb845e7d8556e6b93cb8d4356c469) | test(ace): assert zoom file and commit plan paths independent of basetemp length | [sase-14n.5](sase-14n.5.md) | 2026-09-20 17:51:24 EDT |
 | sase | [`19c515e`](https://github.com/sase-org/sase/commit/19c515e0ae7efe6642441f8a460cb892c3216537) | test(capacity): settle land-segment queue weight to default contract | [sase-14n.3](sase-14n.3.md) | 2026-09-20 17:55:04 EDT |
+| sase | [`a7dde7d`](https://github.com/sase-org/sase/commit/a7dde7dbe661a5239393a30e2ccf516c50f21d45) | fix(tool): disclose run id on spawn-failure path and gate floor smoke | [sase-14n.9](sase-14n.9.md) | 2026-09-20 18:03:46 EDT |

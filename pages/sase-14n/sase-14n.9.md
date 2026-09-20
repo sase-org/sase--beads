@@ -19,4 +19,10 @@ toolrun_cli: print the wrapper header for a run whose child never starts, and ad
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 0 |
+| [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a7dde7d`](https://github.com/sase-org/sase/commit/a7dde7dbe661a5239393a30e2ccf516c50f21d45) | fix(tool): disclose run id on spawn-failure path and gate floor smoke | [sase-14n.9](sase-14n.9.md) | 2026-09-20 18:03:46 EDT |
