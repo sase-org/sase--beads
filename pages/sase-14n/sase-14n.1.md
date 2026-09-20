@@ -30,4 +30,10 @@ symvision: privatize, wire up, or delete the 26 unused public symbols reported b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.1/README.md) | [sase-14n.1](sase-14n.1.md) | 0 |
+| [bbugyi200.athena.sase-14n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.1/README.md) | [sase-14n.1](sase-14n.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`47e281b`](https://github.com/sase-org/sase/commit/47e281b7a0a60c029284dd9d7ac9d2b69661800b) | fix(lint): privatize 26 unused public symbols flagged by symvision | [sase-14n.1](sase-14n.1.md) | 2026-09-20 17:47:07 EDT |
