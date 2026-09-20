@@ -13,8 +13,8 @@ verify: prove a complete five-file release lands through the changed path, recor
 
 ## Dependencies
 
-- **Depends on:** [sase-13t.2](sase-13t.2.md) ◐ · ⧖ 2026-09-20
-- **Depends on:** [sase-13t.3](sase-13t.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-13t.2](sase-13t.2.md) ✓ · ⧖ 2026-09-20
+- **Depends on:** [sase-13t.3](sase-13t.3.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-13t.4](sase-13t.4.md) ◐ · ⧖ 2026-09-20
 - **Depends on:** [sase-13t.5](sase-13t.5.md) ◐ · ⧖ 2026-09-20
 

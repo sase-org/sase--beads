@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-13t](README.md) / sase-13t.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.11](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.11.md) · **Assignee:** `sase-13t.1` · **Size:** medium
-**Created:** 2026-09-20 08:29:27 EDT
+**Created:** 2026-09-20 08:29:27 EDT · **Closed:** 2026-09-20 13:11:54 EDT
 **Plan:** [202609/pypi\_quota\_and\_release\_publishing.md](https://github.com/sase-org/sase--plans/blob/main/202609/pypi_quota_and_release_publishing.md)
 
 ## Description
@@ -23,9 +23,13 @@ reclaim: confirm no consumer pins a doomed version, build the retention keep/del
 
 [2026-09-20T13:44:44Z · sase-13t.1] Session 2026-09-20 09:45 EDT: gate custom-fcaeb8b6 still failed/answerable (no new attempt since the 08:53 CSRF failure); dry_run re-run: MATCH, 232 versions. Live PyPI now 264 releases / 1318 files / 10.22 GB = 95.2% of 10 GiB, 0.52 GB free (~7 releases), because 0.34.66 and 0.34.67 have since published complete (5 files each). Delete list still valid: keep set is now 0.34.19..0.34.48 + 0.34.66 + 0.34.67. Bead NOT closed: deletion needs a fresh TOTP that only the maintainer can enter via the gate form. pypi_retention.py and its runbook were never committed and were gone from the sase-core checkout; restored from the gate bundle's attachments (.github/scripts/pypi_retention.py + docs/pypi-retention.md) as uncommitted changes in sase-core.
 
+[2026-09-20T15:37:34Z · sase-13t.1.f1] Root cause of the failed deletion found. pypi-cleanup 0.1.10 did not hit a CSRF bug: PyPI accepted the password and TOTP, then served its unrecognized-device login-confirmation wall instead of an authenticated session. The tool only checks that the post-login URL is not the login URL, so it walked on and died on the first release page ("No CSFR found in /manage/project/sase-core-rs/release/0.1.2/"). Upstream arcivanov/pypi-cleanup#42 and #49 both resolve by clicking the emailed login-verification link; open PR #48 exists to handle the redirect. Upgrading is NOT a fix: 0.1.10 is still newest stable and 0.1.11.dev20260320034404 is byte-identical in pypi_cleanup/__init__.py. Fix: sign in to pypi.org in a browser, clear the confirmation email, then delete with a fresh TOTP. Recorded in docs/pypi-retention.md (UNCOMMITTED in the sase-core checkout).
+
+[2026-09-20T15:39:25Z · sase-13t.1.f1] PROPOSED FOLLOW-UP: a custom gate whose approved command fails can end up with no reachable entry in the TUI — bug. Gate custom-fcaeb8b6 declared a full shell block (PYPI-DELETE -> PYPI-DELETED, next.fork=family), but no gate-shell row was ever registered: `sase gate list --all` returns 103 rows and none is this gate, and .creation_result.json records continuation_mode="none" while request.json carries the shell block. On top of that both of its notifications are dismissed (428e38e5 the gate itself, 445f1135 the execution-failure), while the equivalent failure notification for the earlier gate custom-c1f4c258 (b7f367d5) is not dismissed. `sase notify apply-state` offers dismiss/mute/read/snooze/unmute but no undismiss, so a dismissed gate notification is unrecoverable. Net effect: the gate is still answerable (acceptance.disposition=accepted_failed, can_supersede=true) but invisible in both the gate list and the notification panel, and the only way back in is `sase gate answer` from the CLI or creating a replacement gate.
+
 ## Dependencies
 
-- **Blocks:** [sase-13t.3](sase-13t.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-13t.3](sase-13t.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
