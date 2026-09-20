@@ -13,7 +13,7 @@ gate_shell_row: find and fix the seam that records continuation_mode none for a 
 
 ## Dependencies
 
-- **Depends on:** [sase-14n.1](sase-14n.1.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14n.3](sase-14n.3.md) ◐ · ⧖ 2026-09-20
 
 ## Agents

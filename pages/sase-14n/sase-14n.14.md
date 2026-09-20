@@ -13,7 +13,7 @@ workspace_error: carry the underlying git or update failure out of prepare_works
 
 ## Dependencies
 
-- **Depends on:** [sase-14n.1](sase-14n.1.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

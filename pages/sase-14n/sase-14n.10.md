@@ -13,7 +13,7 @@ toolrun_retention: extend sase-core's tool_run retention selection to quarantine
 
 ## Dependencies
 
-- **Depends on:** [sase-14n.1](sase-14n.1.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

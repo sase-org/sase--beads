@@ -13,7 +13,7 @@ toolrun_cli: print the wrapper header for a run whose child never starts, and ad
 
 ## Dependencies
 
-- **Depends on:** [sase-14n.1](sase-14n.1.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14n.1](sase-14n.1.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

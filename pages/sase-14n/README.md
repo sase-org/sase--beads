@@ -15,7 +15,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-14n.1](sase-14n.1.md) | Clear the 26 unused public symbols that abort every lint run | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.1](sase-14n.1.md) | Clear the 26 unused public symbols that abort every lint run | ✓ closed | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.11](sase-14n.11.md) | Warn on every advisory-flagged pool member | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.12](sase-14n.12.md) | Keep the declared shell block through gate creation | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -23,7 +23,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | [sase-14n.14](sase-14n.14.md) | Surface why workspace preparation failed | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.2](sase-14n.2.md) | Restore the complete-history latch reset on a changed query key | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.3](sase-14n.3.md) | Settle the land segment's queue weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
-| [sase-14n.4](sase-14n.4.md) | Land the TUI import count strictly under its budget | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
+| [sase-14n.4](sase-14n.4.md) | Land the TUI import count strictly under its budget | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
 | [sase-14n.5](sase-14n.5.md) | Stop eleven ACE tests asserting a full pytest tmp path | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.7](sase-14n.7.md) | Repair the Agents view surfaces the metadata-only default left behind | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -35,7 +35,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 ```mermaid
 flowchart TD
     n0["sase-14n: Fix the bug and CI task beads that survived 2026-09-20 triage [in_progress]"]
-    n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [in_progress]"]
+    n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [closed]"]
     n2["sase-14n.10: Reclaim quarantined ToolRun stores [in_progress]"]
     n3["sase-14n.11: Warn on every advisory-flagged pool member [in_progress]"]
     n4["sase-14n.12: Keep the declared shell block through gate creation [in_progress]"]
@@ -94,8 +94,8 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.13/README.md) | [sase-14n.13](sase-14n.13.md) | 0 |
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.14/README.md) | [sase-14n.14](sase-14n.14.md) | 0 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
-| [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.3/README.md) | [sase-14n.3](sase-14n.3.md) | 0 |
-| [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 0 |
+| [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 0 |
+| [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
 | [bbugyi200.athena.sase-14n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.5/README.md) | [sase-14n.5](sase-14n.5.md) | 0 |
 | [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 0 |
 | [bbugyi200.athena.sase-14n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.7/README.md) | [sase-14n.7](sase-14n.7.md) | 0 |
@@ -108,3 +108,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`54fff48`](https://github.com/sase-org/sase/commit/54fff48206f82a4328c41edd4859a2aa65d95b75) | fix(tui): restore complete-history latch reset on a changed query key | [sase-14n.2](sase-14n.2.md) | 2026-09-20 17:29:32 EDT |
+| sase | [`5963c52`](https://github.com/sase-org/sase/commit/5963c52e8261f191531009b029ffa3ccf7afe97e) | fix(tui): defer heap and perf imports out of the app startup closure | [sase-14n.4](sase-14n.4.md) | 2026-09-20 17:46:40 EDT |
