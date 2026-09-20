@@ -13,7 +13,7 @@ row-insert-without-blanking: give AgentList an in-place row insert to mirror try
 
 ## Dependencies
 
-- **Depends on:** [sase-142.1](sase-142.1.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-142.1](sase-142.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-142.2](sase-142.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-142.4](sase-142.4.md) ◐ · ⧖ 2026-09-20
 
