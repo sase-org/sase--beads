@@ -28,7 +28,7 @@ An `epic-launch` or `monitor-settlement` notification that names one exact agent
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-14l.1](sase-14l.1.md) | Rust store matches row-owned settlement notifications | ✓ closed | small | 2026-09-20 | 1 | 1 |
-| [sase-14l.2](sase-14l.2.md) | Read acknowledgment dismisses the settlement row | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14l.2](sase-14l.2.md) | Read acknowledgment dismisses the settlement row | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14l.3](sase-14l.3.md) | An active settlement row keeps its agent row unread | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ An `epic-launch` or `monitor-settlement` notification that names one exact agent
 flowchart TD
     n0["sase-14l: Agent-row settlement notifications clear when the row is read [in_progress]"]
     n1["sase-14l.1: Rust store matches row-owned settlement notifications [closed]"]
-    n2["sase-14l.2: Read acknowledgment dismisses the settlement row [in_progress]"]
+    n2["sase-14l.2: Read acknowledgment dismisses the settlement row [closed]"]
     n3["sase-14l.3: An active settlement row keeps its agent row unread [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-14l.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.1/README.md) | [sase-14l.1](sase-14l.1.md) | 1 |
-| [bbugyi200.apollo.sase-14l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.2/README.md) | [sase-14l.2](sase-14l.2.md) | 0 |
+| [bbugyi200.apollo.sase-14l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.2/README.md) | [sase-14l.2](sase-14l.2.md) | 1 |
 | [bbugyi200.apollo.sase-14l.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.3/README.md) | [sase-14l.3](sase-14l.3.md) | 0 |
 | [bbugyi200.apollo.sase-14l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.land/README.md) | [sase-14l](README.md) | 0 |
 
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1655a12`](https://github.com/sase-org/sase-core/commit/1655a1298fc99a906d1c0ae9607b8a142aec08e8) | feat(notifications): dismiss row-owned settlement rows by exact agent key | [sase-14l.1](sase-14l.1.md) | 2026-09-20 17:14:43 EDT |
+| sase | [`64b2463`](https://github.com/sase-org/sase/commit/64b246312a0fd6ee669577e5be8d45f7564c6ea9) | feat(notify): dismiss row-owned settlement rows on agent read ack | [sase-14l.2](sase-14l.2.md) | 2026-09-20 18:43:05 EDT |

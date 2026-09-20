@@ -17,7 +17,7 @@ core-match: teach the notification store's agent-keyed dismissal to match host-o
 
 ## Dependencies
 
-- **Blocks:** [sase-14l.2](sase-14l.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14l.2](sase-14l.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
