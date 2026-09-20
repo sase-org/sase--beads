@@ -39,7 +39,7 @@ HAND-OFF: collapsed-panel-mode will turn Inv 5 (both params) and Inv 6b red as X
 ## Dependencies
 
 - **Blocks:** [sase-142.3](sase-142.3.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-142.4](sase-142.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-142.4](sase-142.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

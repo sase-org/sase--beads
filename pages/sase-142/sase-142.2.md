@@ -18,7 +18,7 @@ collapsed-panel-mode: record the active grouping mode when a panel paints collap
 ## Dependencies
 
 - **Blocks:** [sase-142.3](sase-142.3.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-142.4](sase-142.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-142.4](sase-142.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
