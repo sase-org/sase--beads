@@ -13,7 +13,7 @@ cadence: stop auto-merging the release PR on every master push, cut releases on 
 
 ## Dependencies
 
-- **Depends on:** [sase-13t.4](sase-13t.4.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-13t.4](sase-13t.4.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-13t.6](sase-13t.6.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
