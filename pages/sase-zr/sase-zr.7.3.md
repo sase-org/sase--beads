@@ -19,7 +19,7 @@ ace-fast-refresh: route gate receipts and watcher observations to exact shell, p
 
 - **Depends on:** [sase-zr.7.1](sase-zr.7.1.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-zr.7.2](sase-zr.7.2.md) ✓ · ⧖ 2026-09-16
-- **Blocks:** [sase-zr.7.5](sase-zr.7.5.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-zr.7.5](sase-zr.7.5.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
 

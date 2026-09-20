@@ -23,3 +23,15 @@ telegram-prompt-actions: In the sase-telegram repository, replace synchronous re
 
 - **Depends on:** [sase-zr.2](sase-zr.2.md) ✓ · ⧖ 2026-09-12
 - **Blocks:** [sase-zr.5](sase-zr.5.md) ✓ · ⧖ 2026-09-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-zr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.4/README.md) | [sase-zr.4](sase-zr.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-telegram | [`sase-telegram@c34432c`](https://github.com/sase-org/sase-telegram/commit/c34432cac2dcf8fb27a8139c877446350607b89b) | feat(gate,inbound): submit Telegram gate answers through the shared supervised proc | [sase-zr.4](sase-zr.4.md) | 2026-09-14 09:41:27 EDT |

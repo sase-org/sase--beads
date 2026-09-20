@@ -26,10 +26,11 @@ integrated-latency-verification: Exercise both approval tiers across ACE, Telegr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.6.md) | [sase-zr.6](sase-zr.6.md) | 1 |
+| [bbugyi200.apollo.sase-zr.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.6.md) | [sase-zr.6](sase-zr.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7f7700d`](https://github.com/sase-org/sase/commit/7f7700d030c3806b56e326db9567cfa9345cc2f5) | docs(notifications): document gate decision receipts, rollout order, and latency probes | [sase-zr.6](sase-zr.6.md) | 2026-09-14 19:28:12 EDT |
+| sase-telegram | [`sase-telegram@90815d2`](https://github.com/sase-org/sase-telegram/commit/90815d20c1b5223df24e244aa58701a54b125643) | feat(telegram): acknowledge callback queries before durable gate submission | [sase-zr.6](sase-zr.6.md) | 2026-09-14 19:42:25 EDT |
