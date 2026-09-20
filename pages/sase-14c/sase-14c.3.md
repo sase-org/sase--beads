@@ -13,7 +13,7 @@ indicator-default: ship default config that shows only Muse's weekly window in t
 
 ## Dependencies
 
-- **Depends on:** [sase-14c.2](sase-14c.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14c.2](sase-14c.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

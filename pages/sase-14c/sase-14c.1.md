@@ -19,7 +19,7 @@ core-normalizer: add the sase_core Muse subscription-usage normalizer, its PyO3 
 
 ## Dependencies
 
-- **Blocks:** [sase-14c.2](sase-14c.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14c.2](sase-14c.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
