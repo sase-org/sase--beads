@@ -67,7 +67,7 @@ flowchart TD
     n4["sase-133.4: sase screenshot text-input driving [closed]"]
     n5["sase-133.5: Complete remote Agents parity from real owner state [in_progress]"]
     n6["sase-133.5.1: Share the real owner roster and retain visible family shells [closed]"]
-    n7["sase-133.5.2: Resolve production family presentation facts [in_progress]"]
+    n7["sase-133.5.2: Resolve production family presentation facts [closed]"]
     n8["sase-133.5.3: Distinguish capability and fleet data versions [closed]"]
     n9["sase-133.5.4: Prove production and live cross-machine parity [in_progress]"]
     n0 --> n1
@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 2 |
 | [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 2 |
 | [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 2 |
-| [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 0 |
+| [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 1 |
 | [bbugyi200.athena.sase-133.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.land/README.md) | [sase-133.5](sase-133.5.md) | 0 |
 | [bbugyi200.athena.sase-133.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.land.md) | [sase-133](README.md) | 0 |
 
@@ -116,3 +116,4 @@ flowchart TD
 | sase-core | [`sase-core@8acae32`](https://github.com/sase-org/sase-core/commit/8acae3297f0c4db55905baf2a190f7f4ac818a37) | feat(fleet): share family-shell classifier and assemble catalog in core | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:41:40 EDT |
 | sase | [`2631449`](https://github.com/sase-org/sase/commit/263144991496900af018d7470257dc841555d873) | feat(fleet): carry owner presentation facts through the viewer catalog adapter | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:17:33 EDT |
 | sase-core | [`sase-core@92cf0ca`](https://github.com/sase-org/sase-core/commit/92cf0ca230a436a6dd48c9cd09aeb70759119404) | feat(fleet): derive owner presentation facts in core and bump contract to v5 | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:21:19 EDT |
+| sase | [`52b0283`](https://github.com/sase-org/sase/commit/52b0283947e67c25ac4b155c2ba138e5575f38e1) | test(fleet): add rendered-row parity oracle and fix screenshot slash key examples | [sase-133.5.4](sase-133.5.4.md) | 2026-09-20 09:49:11 EDT |

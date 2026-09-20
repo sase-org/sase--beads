@@ -17,7 +17,7 @@ owner-roster: reconcile gateway selection with the actual local loader and moder
 
 ## Dependencies
 
-- **Blocks:** [sase-133.5.2](sase-133.5.2.md) ◐ · ⧖ 2026-09-19
+- **Blocks:** [sase-133.5.2](sase-133.5.2.md) ✓ · ⧖ 2026-09-19
 
 ## Agents
 
