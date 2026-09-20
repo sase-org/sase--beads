@@ -185,7 +185,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-zr.7.2.md) | [sase-zr.7.2](sase-zr.7.2.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 1 |
-| [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 2 |
 | [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 0 |
 | [bbugyi200.apollo.sase-zr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.land/README.md) | [sase-zr](README.md) | 0 |
 
@@ -217,3 +217,4 @@ flowchart TD
 | sase | [`bfc6142`](https://github.com/sase-org/sase/commit/bfc6142fcffb9500eb4a91a8f875be52946bda87) | feat(gates): project receipt-derived approval labels and honest commit status | [sase-zr.7.2](sase-zr.7.2.md) | 2026-09-19 12:54:23 EDT |
 | sase | [`244442e`](https://github.com/sase-org/sase/commit/244442ee8160fe0bf059518a910cf87a58872a1c) | feat(ace): exact off-loop gate refresh and failure recovery actions | [sase-zr.7.3](sase-zr.7.3.md) | 2026-09-20 07:05:12 EDT |
 | sase | [`96b9133`](https://github.com/sase-org/sase/commit/96b91333326f4cbf644286625f6c439710e1bed5) | docs(notifications): correct fast decision acceptance, failure recovery and status semantics | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:35:12 EDT |
+| sase-telegram | [`sase-telegram@4d20559`](https://github.com/sase-org/sase-telegram/commit/4d20559691a408d5c1908b59c7344daaca65be38) | docs(inbound): document real receiver stop procedure, upgrade caveat and chat authentication | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:37:59 EDT |

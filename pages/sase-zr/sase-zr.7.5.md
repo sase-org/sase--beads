@@ -26,10 +26,11 @@ verify-close: correct the notification and Telegram inbound docs, record targete
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`96b9133`](https://github.com/sase-org/sase/commit/96b91333326f4cbf644286625f6c439710e1bed5) | docs(notifications): correct fast decision acceptance, failure recovery and status semantics | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:35:12 EDT |
+| sase-telegram | [`sase-telegram@4d20559`](https://github.com/sase-org/sase-telegram/commit/4d20559691a408d5c1908b59c7344daaca65be38) | docs(inbound): document real receiver stop procedure, upgrade caveat and chat authentication | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:37:59 EDT |
