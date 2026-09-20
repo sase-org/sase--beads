@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-135.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.5/README.md) | [sase-135.5](sase-135.5.md) | 2 |
 | [bbugyi200.athena.sase-135.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.6/README.md) | [sase-135.6](sase-135.6.md) | 1 |
 | [bbugyi200.athena.sase-135.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-135.7.md) | [sase-135.7](sase-135.7.md) | 2 |
-| [bbugyi200.athena.sase-135.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.land/README.md) | [sase-135](README.md) | 1 |
+| [bbugyi200.athena.sase-135.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.land/README.md) | [sase-135](README.md) | 2 |
 
 ## Commits
 
@@ -137,3 +137,4 @@ flowchart TD
 | sase | [`58f2de8`](https://github.com/sase-org/sase/commit/58f2de8f80e88754ca4905322855f463e3f0d840) | feat(tool): make ToolRun output truncation explicit and prove E1 end to end | [sase-135.7](sase-135.7.md) | 2026-09-20 10:34:36 EDT |
 | sase-core | [`sase-core@1db3b29`](https://github.com/sase-org/sase-core/commit/1db3b298f5f1ff35148ba808802252dd7d225726) | feat(tool-run): apply the aggregate log\_max\_bytes retention target | [sase-135.7](sase-135.7.md) | 2026-09-20 10:37:53 EDT |
 | sase | [`a357c83`](https://github.com/sase-org/sase/commit/a357c83dcb80c3a090a89d804ec38d6b411d5f4b) | fix(tool): reconcile the E1 landing with the contract manifest and a bare python | [sase-135](README.md) | 2026-09-20 12:31:28 EDT |
+| sase--plans | [`sase--plans@3e37547`](https://github.com/sase-org/sase--plans/commit/3e37547bbdef8c8ba687f77448583dd9c652d1d6) | chore(plans): mark the E1 named-tools epic plan done | [sase-135](README.md) | 2026-09-20 12:34:23 EDT |
