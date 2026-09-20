@@ -15,7 +15,7 @@ verify-on-athena: restart onto the landed tree, soak under by_status and the sta
 
 - **Depends on:** [sase-13i.1](sase-13i.1.md) ✓ · ⧖ 2026-09-19
 - **Depends on:** [sase-13i.2](sase-13i.2.md) ✓ · ⧖ 2026-09-19
-- **Depends on:** [sase-13i.3](sase-13i.3.md) ◐ · ⧖ 2026-09-19
+- **Depends on:** [sase-13i.3](sase-13i.3.md) ✓ · ⧖ 2026-09-19
 
 ## Agents
 

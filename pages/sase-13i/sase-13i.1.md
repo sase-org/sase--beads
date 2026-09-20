@@ -17,7 +17,7 @@ atomic-roster-publication: merge the generation-stamped proc projection into the
 
 ## Dependencies
 
-- **Blocks:** [sase-13i.3](sase-13i.3.md) ◐ · ⧖ 2026-09-19
+- **Blocks:** [sase-13i.3](sase-13i.3.md) ✓ · ⧖ 2026-09-19
 - **Blocks:** [sase-13i.4](sase-13i.4.md) ◐ · ⧖ 2026-09-19
 
 ## Agents
