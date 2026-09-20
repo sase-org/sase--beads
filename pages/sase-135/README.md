@@ -32,7 +32,7 @@ Deliver project-owned named commands and a Rust-owned, machine-local ToolRun led
 | [sase-135.3](sase-135.3.md) | Execute and inspect foreground runs reliably | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-135.4](sase-135.4.md) | Record run\_silent stages and render the timeline | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-135.5](sase-135.5.md) | Capture fingerprints, host samples, and recording metrics | ✓ closed | medium | 2026-09-18 | 1 | 2 |
-| [sase-135.6](sase-135.6.md) | Teach the tool workflow and measure its adoption | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
+| [sase-135.6](sase-135.6.md) | Teach the tool workflow and measure its adoption | ✓ closed | medium | 2026-09-18 | 1 | 1 |
 | [sase-135.7](sase-135.7.md) | Prove the combined product and publish rerunnable evidence | ◐ in_progress | medium | 2026-09-18 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n3["sase-135.3: Execute and inspect foreground runs reliably [closed]"]
     n4["sase-135.4: Record run_silent stages and render the timeline [closed]"]
     n5["sase-135.5: Capture fingerprints, host samples, and recording metrics [closed]"]
-    n6["sase-135.6: Teach the tool workflow and measure its adoption [in_progress]"]
+    n6["sase-135.6: Teach the tool workflow and measure its adoption [closed]"]
     n7["sase-135.7: Prove the combined product and publish rerunnable evidence [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-135.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.3/README.md) | [sase-135.3](sase-135.3.md) | 1 |
 | [bbugyi200.athena.sase-135.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.4/README.md) | [sase-135.4](sase-135.4.md) | 1 |
 | [bbugyi200.athena.sase-135.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.5/README.md) | [sase-135.5](sase-135.5.md) | 2 |
-| [bbugyi200.athena.sase-135.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.6/README.md) | [sase-135.6](sase-135.6.md) | 0 |
+| [bbugyi200.athena.sase-135.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.6/README.md) | [sase-135.6](sase-135.6.md) | 1 |
 | [bbugyi200.athena.sase-135.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.7/README.md) | [sase-135.7](sase-135.7.md) | 0 |
 | [bbugyi200.athena.sase-135.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-135.land/README.md) | [sase-135](README.md) | 0 |
 
@@ -86,3 +86,4 @@ flowchart TD
 | sase | [`a4eb8dd`](https://github.com/sase-org/sase/commit/a4eb8dd0eed0ced1c4d019d0585b097d3833924a) | feat(tool): record run\_silent stages and render ToolRun timelines | [sase-135.4](sase-135.4.md) | 2026-09-19 10:30:48 EDT |
 | sase | [`1f6adf4`](https://github.com/sase-org/sase/commit/1f6adf43bb2b77a52f57c985beb4de1e966dfa8a) | feat(tool): capture ToolRun fingerprints, host samples, and recording metrics | [sase-135.5](sase-135.5.md) | 2026-09-19 12:43:07 EDT |
 | sase-core | [`sase-core@e8578c1`](https://github.com/sase-org/sase-core/commit/e8578c1eea01968b7f5cf6a2d9cf9554df5f33c9) | feat(tool-run): persist canonical before/after fingerprints on finish | [sase-135.5](sase-135.5.md) | 2026-09-19 12:46:15 EDT |
+| sase | [`9cfb06a`](https://github.com/sase-org/sase/commit/9cfb06a548aefb28f04ea408eae0ce5c01d95d8d) | docs(tool): teach the named-tool workflow and add adoption report | [sase-135.6](sase-135.6.md) | 2026-09-20 06:55:42 EDT |

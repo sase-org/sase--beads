@@ -13,7 +13,7 @@ acceptance: Implement section 7 and the numbered Definition of Done. Run the rea
 
 ## Dependencies
 
-- **Depends on:** [sase-135.6](sase-135.6.md) ◐ · ⧖ 2026-09-18
+- **Depends on:** [sase-135.6](sase-135.6.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 

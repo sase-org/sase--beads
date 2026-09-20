@@ -23,7 +23,7 @@ Verified: just check passed (lint + scoped suite escalated to full because core-
 ## Dependencies
 
 - **Depends on:** [sase-135.4](sase-135.4.md) ✓ · ⧖ 2026-09-18
-- **Blocks:** [sase-135.6](sase-135.6.md) ◐ · ⧖ 2026-09-18
+- **Blocks:** [sase-135.6](sase-135.6.md) ✓ · ⧖ 2026-09-18
 
 ## Agents
 
