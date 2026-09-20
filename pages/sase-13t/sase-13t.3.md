@@ -21,7 +21,7 @@ heal: replace the version-existence publish gate with an expected-file-set check
 
 - **Depends on:** [sase-13t.1](sase-13t.1.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-13t.4](sase-13t.4.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-13t.6](sase-13t.6.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-13t.6](sase-13t.6.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

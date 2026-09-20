@@ -42,7 +42,7 @@ macOS: measured on the live 0.34.67 universal2 wheel (29,358,870 B). Fat Mach-O 
 
 ## Dependencies
 
-- **Blocks:** [sase-13t.6](sase-13t.6.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-13t.6](sase-13t.6.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
