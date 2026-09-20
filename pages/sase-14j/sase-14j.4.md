@@ -13,7 +13,7 @@ panel-data: add the mtime-cached per-agent touch loader, the summary field and a
 
 ## Dependencies
 
-- **Depends on:** [sase-14j.2](sase-14j.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14j.2](sase-14j.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14j.5](sase-14j.5.md) ◐ · ⧖ 2026-09-20
 
 ## Agents

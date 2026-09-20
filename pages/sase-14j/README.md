@@ -28,7 +28,7 @@ Selecting a sase agent in the Agents tab shows a Beads sub-section inside SASE C
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-14j.1](sase-14j.1.md) | Reduce bead event streams into an actor-keyed touch index in sase-core | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14j.2](sase-14j.2.md) | Adopt the touch index in Python and keep it fresh off the hot path | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14j.2](sase-14j.2.md) | Adopt the touch index in Python and keep it fresh off the hot path | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14j.3](sase-14j.3.md) | sase bead touched | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
 | [sase-14j.4](sase-14j.4.md) | Resolve per-agent bead touches for the metadata panel | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14j.5](sase-14j.5.md) | Render the Beads sub-section | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -40,7 +40,7 @@ Selecting a sase agent in the Agents tab shows a Beads sub-section inside SASE C
 flowchart TD
     n0["sase-14j: Beads sub-section in the agent metadata panel's ARTIFACTS lane [in_progress]"]
     n1["sase-14j.1: Reduce bead event streams into an actor-keyed touch index in sase-core [closed]"]
-    n2["sase-14j.2: Adopt the touch index in Python and keep it fresh off the hot path [in_progress]"]
+    n2["sase-14j.2: Adopt the touch index in Python and keep it fresh off the hot path [closed]"]
     n3["sase-14j.3: sase bead touched [in_progress]"]
     n4["sase-14j.4: Resolve per-agent bead touches for the metadata panel [in_progress]"]
     n5["sase-14j.5: Render the Beads sub-section [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-14j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.1/README.md) | [sase-14j.1](sase-14j.1.md) | 1 |
-| [bbugyi200.athena.sase-14j.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.2/README.md) | [sase-14j.2](sase-14j.2.md) | 0 |
+| [bbugyi200.athena.sase-14j.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.2/README.md) | [sase-14j.2](sase-14j.2.md) | 1 |
 | [bbugyi200.athena.sase-14j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.3/README.md) | [sase-14j.3](sase-14j.3.md) | 0 |
 | [bbugyi200.athena.sase-14j.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.4/README.md) | [sase-14j.4](sase-14j.4.md) | 0 |
 | [bbugyi200.athena.sase-14j.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.5/README.md) | [sase-14j.5](sase-14j.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9a5c568`](https://github.com/sase-org/sase-core/commit/9a5c56809a66261d194de07c4a7f400a10706328) | feat(bead): reduce event streams into an actor-keyed touch index | [sase-14j.1](sase-14j.1.md) | 2026-09-20 17:19:43 EDT |
+| sase | [`821a21c`](https://github.com/sase-org/sase/commit/821a21c49332a8ed315a2e4109888264a189b2e7) | feat(beads): add bead touch index facade with refresh hooks and doctor check | [sase-14j.2](sase-14j.2.md) | 2026-09-20 18:46:47 EDT |

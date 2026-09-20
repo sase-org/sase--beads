@@ -13,7 +13,7 @@ bead-cli: add the agent-scoped touch listing subcommand with colored and JSON ou
 
 ## Dependencies
 
-- **Depends on:** [sase-14j.2](sase-14j.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14j.2](sase-14j.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

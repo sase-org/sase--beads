@@ -23,7 +23,7 @@ core-index: add the actor/bead touch reduction over beads/events/streams, its ve
 
 ## Dependencies
 
-- **Blocks:** [sase-14j.2](sase-14j.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14j.2](sase-14j.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
