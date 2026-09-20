@@ -18,7 +18,7 @@ host-ack: ratchet the core revision pin, widen the TUI's cached-snapshot predica
 ## Dependencies
 
 - **Depends on:** [sase-14l.1](sase-14l.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14l.3](sase-14l.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14l.3](sase-14l.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
