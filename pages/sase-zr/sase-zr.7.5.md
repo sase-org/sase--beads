@@ -13,7 +13,7 @@ verify-close: correct the notification and Telegram inbound docs, record targete
 
 ## Dependencies
 
-- **Depends on:** [sase-zr.7.3](sase-zr.7.3.md) ◐ · ⧖ 2026-09-16
+- **Depends on:** [sase-zr.7.3](sase-zr.7.3.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-zr.7.4](sase-zr.7.4.md) ✓ · ⧖ 2026-09-16
 
 ## Agents
