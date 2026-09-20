@@ -11,6 +11,12 @@
 
 owner-facts: derive topology, rich statuses, tribe inheritance, shell facts, and runtime anchors from real owner records and consume them through the existing viewer renderer.
 
+## Notes
+
+[2026-09-20T12:15:21Z · sase-133.5.2] PROPOSED FOLLOW-UP: catalog reads artifact-directory timestamps as UTC — Rust parse_record_timestamp ignores the configured timezone, so rows lacking workflow_state.start_time show a start time offset by the host UTC offset
+
+[2026-09-20T12:15:54Z · sase-133.5.2] PROPOSED FOLLOW-UP: master lint/test baseline failures unrelated to owner facts — mypy no-untyped-def in ace_tmux*.py, symvision private imports in memory/selector_models.py and main/ace_tmux_support.py, tests/test_capacity_gate_to_admission.py queue_weight
+
 ## Dependencies
 
 - **Depends on:** [sase-133.5.1](sase-133.5.1.md) ✓ · ⧖ 2026-09-19
@@ -20,4 +26,10 @@ owner-facts: derive topology, rich statuses, tribe inheritance, shell facts, and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.2/README.md) | [sase-133.5.2](sase-133.5.2.md) | 0 |
+| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2631449`](https://github.com/sase-org/sase/commit/263144991496900af018d7470257dc841555d873) | feat(fleet): carry owner presentation facts through the viewer catalog adapter | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:17:33 EDT |

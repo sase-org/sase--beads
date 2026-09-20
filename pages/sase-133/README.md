@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-133.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.3.md) | [sase-133.3](sase-133.3.md) | 1 |
 | [bbugyi200.athena.sase-133.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.4/README.md) | [sase-133.4](sase-133.4.md) | 1 |
 | [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 2 |
-| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.2/README.md) | [sase-133.5.2](sase-133.5.2.md) | 0 |
+| [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 1 |
 | [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 2 |
 | [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 0 |
 | [bbugyi200.athena.sase-133.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.land/README.md) | [sase-133.5](sase-133.5.md) | 0 |
@@ -114,3 +114,4 @@ flowchart TD
 | sase-core | [`sase-core@2b9caf4`](https://github.com/sase-org/sase-core/commit/2b9caf4e47da76a35f48c3e02ee5f7f68e523cc1) | feat(gateway): advertise fleet\_contract\_schema\_version independently of capabilities | [sase-133.5.3](sase-133.5.3.md) | 2026-09-19 10:44:46 EDT |
 | sase | [`7d6ec55`](https://github.com/sase-org/sase/commit/7d6ec552b5d0650e06682075b422b98fc3d6727e) | feat(tui): attach unparented family shells and oracle owner-roster parity | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:38:22 EDT |
 | sase-core | [`sase-core@8acae32`](https://github.com/sase-org/sase-core/commit/8acae3297f0c4db55905baf2a190f7f4ac818a37) | feat(fleet): share family-shell classifier and assemble catalog in core | [sase-133.5.1](sase-133.5.1.md) | 2026-09-19 11:41:40 EDT |
+| sase | [`2631449`](https://github.com/sase-org/sase/commit/263144991496900af018d7470257dc841555d873) | feat(fleet): carry owner presentation facts through the viewer catalog adapter | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:17:33 EDT |
