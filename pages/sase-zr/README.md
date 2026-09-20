@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-zr
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0js` · **Assignee:** `sase-zr.land`
-**Created:** 2026-09-12 05:06:12 EDT
+**Created:** 2026-09-12 05:06:12 EDT · **Closed:** 2026-09-20 13:08:52 EDT
 **Plan:** [202609/prompt\_gate\_approval.md](https://github.com/sase-org/sase--plans/blob/main/202609/prompt_gate_approval.md)
 
 <!-- sase:links:start -->
@@ -76,6 +76,72 @@ PROPOSED FOLLOW-UP TRIAGE:
 - sase-zr.4 #2 and sase-zr.5 #1 (Telegram tmp_path under $HOME): declined, fixed in sase-telegram 8586f91 (tests use inbound._shorten_home).
 - sase-zr.6 #1 (leak detector git identity env vars): declined, fixed. GIT_AUTHOR_*, GIT_COMMITTER_* and GIT_CONFIG_* are in tests/_global_state_leaks/fingerprints.py.
 
+[2026-09-20T17:08:52Z · sase-zr.7.land] LANDED by sase-zr.7.land on 2026-09-20, against the NARROWED contract the owner set on
+2026-09-16 (note #2, and the "Landing note for this epic's land agent" section of
+plan:202609/sase_zr_close_out.md).
+
+NARROWED-SCOPE DECISION. The 2026-09-16 landing audit found 11 gaps. A first completion
+epic covering all of them was proposed and REJECTED by the owner. The owner then kept
+only four themes -- decision-safety holes that made the durable-acceptance promise
+false, receipt-derived honest status, exact prompt TUI refresh, and the Telegram
+authentication hole -- and deferred the rest. Those four shipped as child epic
+sase-zr.7, closed today. Everything deferred is tracked and untouched:
+
+- sase-11v (READY) -- mobile and fleet gate actions still block the gateway request on
+  full gate execution (audit gap 8).
+- sase-11w (READY) -- Telegram receiver and completion-truthfulness hardening: upgrade
+  restart, crash-loop alerts, durable update claiming, bounded retries (gaps 9-10
+  remainder).
+- sase-11x (READY) -- find_gate_shell_by_gate_id's full-history/full-tree fallbacks and
+  the silent settlement skip on an index miss (gap 6).
+- Descoped outright by the owner: the committed reusable latency probe and the full
+  cross-surface barrier suite. Targeted phase tests plus sase-zr.7.5's evidence replace
+  them.
+- Gap 4 (orphaned-receipt reconciliation) was deliberately descoped inside sase-zr.7:
+  dead-owner detection on the answer, poll and cancel paths plus the durable failure
+  outcome covers recovery without a lease subsystem or reclaim-side reconciliation.
+
+RECHECKED. All six original phases and child epic sase-zr.7 are closed. Per note #2's
+instruction I did not repeat the PROPOSED FOLLOW-UP triage recorded there; I checked
+only for drift since 2026-09-16, and re-verified the shipped contract in current source
+at master 598f1e820 + 24cbeb882:
+
+- Durable decision acceptance survives: decision.py still writes decision_receipt.json
+  under its own bounded .acceptance.lock (5 s), separate from the response lock.
+- Indexed exact gate-shell lookup survives: gate_shell/store.py::find_gate_shell_by_gate_id
+  resolves through the Rust binding's indexed gate_shell_id column.
+- The sase-core-rs pin is >=0.34.48,<0.35.0, well above the >=0.34.36 floor the audit
+  checked, and the workspace binding builds at 0.34.67.
+- Telegram durable submission, early callback acknowledgement and the supervised
+  long-poll receiver are all still in sase-telegram at 4d20559.
+- sase bead epic-symbols sase-zr: no entries. just symvision's only failures are the 28
+  unused publics of sase-13s, in sdd-clone, runner-slot, service-host and completion
+  modules this epic never touched.
+- Gate and notification suites: 1336 passed / 3 skipped across tests/gate_shell/,
+  tests/gate_conformance/ and every tests/test_gate*.py, test_notification*.py,
+  test_plan_approval*.py, test_plan_archive*.py; 233 passed across the ACE
+  notification/gate suites. Whole-tree just test-scoped: 43754 passed, 23 skipped,
+  5 failed, every failure a filed non-epic bead (sase-140, sase-13o x2, sase-13n,
+  sase-13m).
+
+DRIFT WORTH NAMING. sase-11y.6 (sase-telegram 2f76876) moved ownership of the
+long-poll receiver to the service host: ensure_receiver_running now returns early when
+_service_host_owns_receiver(), and `sase service status` lists telegram_receiver as a
+service proc. That is an intentional supervisor migration by an in-progress epic, not a
+regression of this epic's contract -- the receiver still exists and still acknowledges
+callbacks early. Its test-side fallout (15 red tests in sase-telegram
+tests/test_receiver.py, which never neutralize the ambient service_host flag) is filed
+as sase-13z. Live-receiver health on athena stays with sase-11w.
+
+GAP 11 (docs and evidence) is now fully closed. sase-zr.7.5 corrected
+docs/notifications.md and sase-telegram docs/inbound.md + README, and I captured the
+missing before/after latency numbers today and committed them in 24cbeb882: acceptance
+receipt to Agents row data p50 74.8 -> 1.7 ms (p95 123.4 -> 2.5, n=25, 1,500-artifact
+fixture), and response publication to refresh-pulse visibility p50 407.5 -> 97.7 ms
+(p
+
+… and 177 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -91,14 +157,14 @@ PROPOSED FOLLOW-UP TRIAGE:
 
 ```mermaid
 flowchart TD
-    n0["sase-zr: Make gate approval and notification dismissal respond promptly [in_progress]"]
+    n0["sase-zr: Make gate approval and notification dismissal respond promptly [closed]"]
     n1["sase-zr.1: Measure approval stages and replace full-history gate lookup [closed]"]
     n2["sase-zr.2: Separate durable decision acceptance from slow execution [closed]"]
     n3["sase-zr.3: Apply decision and notification changes through ACE's fast path [closed]"]
     n4["sase-zr.4: Decouple Telegram acknowledgements and cleanup from gate execution [closed]"]
     n5["sase-zr.5: Remove Telegram's periodic polling delay [closed]"]
     n6["sase-zr.6: Verify latency, recovery, and coordinated rollout [closed]"]
-    n7["sase-zr.7: Close out sase-zr: decision integrity, honest status, and fast TUI gate refresh [in_progress]"]
+    n7["sase-zr.7: Close out sase-zr: decision integrity, honest status, and fast TUI gate refresh [closed]"]
     n8["sase-zr.7.1: Conflict rejection while running, durable failure outcomes, truthful attempt completion [closed]"]
     n9["sase-zr.7.1.1: Gate decision integrity: owned execution, durable failure outcomes, truthful completion [closed]"]
     n10["sase-zr.7.1.1.1: Execution owner, failure outcome and liveness policy in sase-core [closed]"]
@@ -186,7 +252,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 2 |
-| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 1 |
+| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 2 |
 | [bbugyi200.apollo.sase-zr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.land/README.md) | [sase-zr](README.md) | 0 |
 
 ## Commits
@@ -219,3 +285,4 @@ flowchart TD
 | sase | [`96b9133`](https://github.com/sase-org/sase/commit/96b91333326f4cbf644286625f6c439710e1bed5) | docs(notifications): correct fast decision acceptance, failure recovery and status semantics | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:35:12 EDT |
 | sase-telegram | [`sase-telegram@4d20559`](https://github.com/sase-org/sase-telegram/commit/4d20559691a408d5c1908b59c7344daaca65be38) | docs(inbound): document real receiver stop procedure, upgrade caveat and chat authentication | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:37:59 EDT |
 | sase | [`24cbeb8`](https://github.com/sase-org/sase/commit/24cbeb8826eadbd4227e1f7c61314c04f4dfd907) | docs(notifications): record before/after latency evidence for the two gate-refresh paths | [sase-zr.7](sase-zr.7.md) | 2026-09-20 12:56:54 EDT |
+| sase--plans | [`sase--plans@632085a`](https://github.com/sase-org/sase--plans/commit/632085a0821b96df3ba396b6a8f9c34e40c13913) | docs(plans): mark the gate-approval epics done | [sase-zr.7](sase-zr.7.md) | 2026-09-20 13:11:35 EDT |
