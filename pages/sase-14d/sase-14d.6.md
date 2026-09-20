@@ -13,7 +13,7 @@ chezmoi-config: add the global task-bead suppression rule to sase.yml and the so
 
 ## Dependencies
 
-- **Depends on:** [sase-14d.2](sase-14d.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14d.2](sase-14d.2.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-14d.5](sase-14d.5.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
