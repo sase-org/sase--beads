@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-13t.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-13t.4/README.md) | [sase-13t.4](sase-13t.4.md) | 1 |
 | [bbugyi200.apollo.sase-13t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-13t.5/README.md) | [sase-13t.5](sase-13t.5.md) | 1 |
 | [bbugyi200.apollo.sase-13t.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-13t.6/README.md) | [sase-13t.6](sase-13t.6.md) | 0 |
-| [bbugyi200.apollo.sase-13t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-13t.land/README.md) | [sase-13t](README.md) | 1 |
+| [bbugyi200.apollo.sase-13t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-13t.land/README.md) | [sase-13t](README.md) | 2 |
 
 ## Commits
 
@@ -129,3 +129,4 @@ flowchart TD
 | sase-core | [`sase-core@9b3ade4`](https://github.com/sase-org/sase-core/commit/9b3ade44031ddd6a98d983065a89abc34930334e) | ci(release): fail the PyPI publish before upload when the project quota cannot fit it | [sase-13t.4](sase-13t.4.md) | 2026-09-20 14:02:02 EDT |
 | sase-core | [`sase-core@4987457`](https://github.com/sase-org/sase-core/commit/4987457d2d86f36d622223cedf009925a5e529ea) | ci(release): cut releases once a day instead of merging the release PR on every push | [sase-13t.5](sase-13t.5.md) | 2026-09-20 14:19:10 EDT |
 | sase-core | [`sase-core@696fa37`](https://github.com/sase-org/sase-core/commit/696fa37ea2c007ff94070a57a21f4a7ad98f445a) | ci(release): settle a yanked release instead of rebuilding it forever | [sase-13t](README.md) | 2026-09-20 15:43:08 EDT |
+| sase--plans | [`sase--plans@d1f1a92`](https://github.com/sase-org/sase--plans/commit/d1f1a92506c9d5df1c4cf4ade15046fd96e5051c) | docs(plan): mark the PyPI quota and release publishing plan done | [sase-13t](README.md) | 2026-09-20 15:44:52 EDT |
