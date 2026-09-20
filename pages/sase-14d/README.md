@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.4/README.md) | [sase-14d.4](sase-14d.4.md) | 1 |
 | [bbugyi200.athena.sase-14d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.5/README.md) | [sase-14d.5](sase-14d.5.md) | 1 |
 | [bbugyi200.athena.sase-14d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.6/README.md) | [sase-14d.6](sase-14d.6.md) | 1 |
-| [bbugyi200.athena.sase-14d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.land/README.md) | [sase-14d](README.md) | 1 |
+| [bbugyi200.athena.sase-14d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.land/README.md) | [sase-14d](README.md) | 2 |
 
 ## Commits
 
@@ -158,3 +158,4 @@ flowchart TD
 | sase | [`03cc36b`](https://github.com/sase-org/sase/commit/03cc36be5c6ff17474f5390ed402bc82d3a53a5d) | feat(notify): add sase notify rules, doctor check, and delivery-rules docs | [sase-14d.5](sase-14d.5.md) | 2026-09-20 16:54:29 EDT |
 | chezmoi | [`chezmoi@f7da682`](https://github.com/bbugyi200/dotfiles/commit/f7da68203d0b2d2568496fbac7f7c4497eb45870) | feat(sase): add notification delivery rules for task beads and kellys\_mbp chime | [sase-14d.6](sase-14d.6.md) | 2026-09-20 17:05:55 EDT |
 | sase | [`2322fe5`](https://github.com/sase-org/sase/commit/2322fe5f9cc5affb97aeef8fdfc13b249bcf5230) | fix(tui): play notification sound files detached from the poll tick | [sase-14d](README.md) | 2026-09-20 18:17:20 EDT |
+| sase--plans | [`sase--plans@25ced13`](https://github.com/sase-org/sase--plans/commit/25ced1326fa26f7e61ee51577305806b2fdd1fb8) | docs(plans): mark the notification delivery rules epic plan done | [sase-14d](README.md) | 2026-09-20 18:20:30 EDT |
