@@ -31,10 +31,4 @@ rollout: install the platform unit on both machines, migrate the hand-written ga
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.9/README.md) | [sase-11y.9](sase-11y.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@2f03d01`](https://github.com/bbugyi200/dotfiles/commit/2f03d0158bc0c076affabbdba2a16de8e9d16115) | feat(sase): migrate gateway and telegram onto the service host | [sase-11y.9](sase-11y.9.md) | 2026-09-19 11:01:35 EDT |
+| [bbugyi200.athena.sase-11y.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.9/README.md) | [sase-11y.9](sase-11y.9.md) | 0 |

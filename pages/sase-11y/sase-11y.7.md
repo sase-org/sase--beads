@@ -17,6 +17,8 @@ services-tab: rename the AXE tab display label to Services, render service-proc 
 
 [2026-09-19T14:20:50Z · sase-11l.11.5.land.f0--code] The Services-tab `x` vs `!x` routing issue from LANDING BLOCKED / DISCOVERED ISSUE is fixed (plan:202609/landing_gate_test_failures_1.md). Bare `x` toggles a selected service proc and is a no-op on nested Scheduler rows, empty selection, and host chrome. `!x` on the Services tab always starts/stops the host. Tests in `tests/ace/tui/actions/test_service_host_keys.py` cover empty selection, nested rows, and `!x` with a proc selected. Leave this phase/epic open; remaining Services-tab work is unchanged.
 
+[2026-09-20T10:54:24Z · sase-11y.7] PROPOSED FOLLOW-UP: sase-11y platform/config service facades have no non-test consumer — at sunset, privatize or delete CapturedServiceEnvironment, read_service_environment, NativeInspection, NativeServiceDefinition, ServicePlatformApplyResult, build_native_definition, inspect_native_service, readiness_warnings, service_platform_supported, ServiceFieldProvenance, compose_service_config, resolve_service_enablement, clear_service_enablement instead of carrying epic-symbol entries.
+
 ## Dependencies
 
 - **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16
@@ -28,10 +30,11 @@ services-tab: rename the AXE tab display label to Services, render service-proc 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 1 |
+| [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c2befdb`](https://github.com/sase-org/sase/commit/c2befdbb3e83e6531c61d28af5dacb91f661ce16) | feat(tui): add services tab controls | [sase-11y.7](sase-11y.7.md) | 2026-09-18 06:59:19 EDT |
+| sase | [`92dd554`](https://github.com/sase-org/sase/commit/92dd554c4cc33db81ae9232a31d1a31d5cc2f493) | feat(tui): finish Services tab host chrome, health pill, and quit flow | [sase-11y.7](sase-11y.7.md) | 2026-09-20 07:32:38 EDT |
