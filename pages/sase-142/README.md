@@ -165,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.sase-142.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.3/README.md) | [sase-142.3](sase-142.3.md) | 1 |
 | [bbugyi200.athena.sase-142.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-142.4.md) | [sase-142.4](sase-142.4.md) | 0 |
 | [bbugyi200.athena.sase-142.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.1/README.md) | [sase-142.5.1](sase-142.5.1.md) | 1 |
-| [bbugyi200.athena.sase-142.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.2/README.md) | [sase-142.5.2](sase-142.5.2.md) | 0 |
+| [bbugyi200.athena.sase-142.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.2/README.md) | [sase-142.5.2](sase-142.5.2.md) | 1 |
 | [bbugyi200.athena.sase-142.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.3/README.md) | [sase-142.5.3](sase-142.5.3.md) | 0 |
 | [bbugyi200.athena.sase-142.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.4/README.md) | [sase-142.5.4](sase-142.5.4.md) | 0 |
 | [bbugyi200.athena.sase-142.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-142.5.land/README.md) | [sase-142.5](sase-142.5.md) | 0 |
@@ -179,3 +179,4 @@ flowchart TD
 | sase | [`2df2137`](https://github.com/sase-org/sase/commit/2df2137e0f0b0fa78f84e67218f07aa57638594d) | test(tui): add a frame-level paint log and repro for a node joining the @epic panel | [sase-142.1](sase-142.1.md) | 2026-09-20 13:23:26 EDT |
 | sase | [`7442af7`](https://github.com/sase-org/sase/commit/7442af7afc8be0f547f6337c756cb296fabf833c) | feat(tui): insert arriving agent rows in place and settle the column in one frame | [sase-142.3](sase-142.3.md) | 2026-09-20 15:47:50 EDT |
 | sase | [`6302207`](https://github.com/sase-org/sase/commit/630220713d23e94bb839787922c44b06982ec8fb) | refactor(tui): decide Agents-tab rebuild scope per panel instead of per roster | [sase-142.5.1](sase-142.5.1.md) | 2026-09-20 18:41:11 EDT |
+| sase | [`baf07cf`](https://github.com/sase-org/sase/commit/baf07cf13ceb9bada37390b98b61cab188f086f2) | test(tui): pin the whole-family row-insert decline behind its banner invariant | [sase-142.5.2](sase-142.5.2.md) | 2026-09-20 19:18:45 EDT |
