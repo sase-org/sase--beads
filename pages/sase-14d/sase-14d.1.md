@@ -20,7 +20,7 @@ core-rules: add notification delivery rule wire types, the first-match-per-field
 ## Dependencies
 
 - **Blocks:** [sase-14d.2](sase-14d.2.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14d.4](sase-14d.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14d.4](sase-14d.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

@@ -22,7 +22,7 @@ config-rules: ratchet the pinned core revision, add ace.notification_rules to de
 ## Dependencies
 
 - **Depends on:** [sase-14d.1](sase-14d.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14d.4](sase-14d.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14d.4](sase-14d.4.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14d.5](sase-14d.5.md) ◐ · ⧖ 2026-09-20
 - **Blocks:** [sase-14d.6](sase-14d.6.md) ◐ · ⧖ 2026-09-20
 

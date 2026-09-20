@@ -30,7 +30,7 @@ A person receiving SASE notifications can match them by tab, sender, action, tag
 | [sase-14d.1](sase-14d.1.md) | Rule matcher in the Rust core | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14d.2](sase-14d.2.md) | Config surface and Python facade | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14d.3](sase-14d.3.md) | Sound file playback | ✓ closed | small | 2026-09-20 | 1 | 1 |
-| [sase-14d.4](sase-14d.4.md) | Apply rules in the notification poll | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14d.4](sase-14d.4.md) | Apply rules in the notification poll | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14d.5](sase-14d.5.md) | sase notify rules, doctor check, and docs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14d.6](sase-14d.6.md) | The two requested configurations | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["sase-14d.1: Rule matcher in the Rust core [closed]"]
     n2["sase-14d.2: Config surface and Python facade [closed]"]
     n3["sase-14d.3: Sound file playback [closed]"]
-    n4["sase-14d.4: Apply rules in the notification poll [in_progress]"]
+    n4["sase-14d.4: Apply rules in the notification poll [closed]"]
     n5["sase-14d.5: sase notify rules, doctor check, and docs [in_progress]"]
     n6["sase-14d.6: The two requested configurations [in_progress]"]
     n0 --> n1
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.1/README.md) | [sase-14d.1](sase-14d.1.md) | 1 |
 | [bbugyi200.athena.sase-14d.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.2/README.md) | [sase-14d.2](sase-14d.2.md) | 1 |
 | [bbugyi200.athena.sase-14d.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.3/README.md) | [sase-14d.3](sase-14d.3.md) | 1 |
-| [bbugyi200.athena.sase-14d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.4/README.md) | [sase-14d.4](sase-14d.4.md) | 0 |
+| [bbugyi200.athena.sase-14d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.4/README.md) | [sase-14d.4](sase-14d.4.md) | 1 |
 | [bbugyi200.athena.sase-14d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.5/README.md) | [sase-14d.5](sase-14d.5.md) | 0 |
 | [bbugyi200.athena.sase-14d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.6/README.md) | [sase-14d.6](sase-14d.6.md) | 0 |
 | [bbugyi200.athena.sase-14d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14d.land/README.md) | [sase-14d](README.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`1576385`](https://github.com/sase-org/sase/commit/15763853b338ad6e43b2610d4866e5aec67ec237) | feat(tui): add sound-file playback for notification delivery | [sase-14d.3](sase-14d.3.md) | 2026-09-20 13:28:57 EDT |
 | sase-core | [`sase-core@a7f26b2`](https://github.com/sase-org/sase-core/commit/a7f26b2b2018901501c443931c518c86d5469110) | feat(notifications): add delivery rule matcher and resolve\_notification\_deliveries binding | [sase-14d.1](sase-14d.1.md) | 2026-09-20 13:31:24 EDT |
 | sase | [`9a99238`](https://github.com/sase-org/sase/commit/9a99238cdf0e9e415575f5b11559cdb2f29c59c2) | feat(notifications): add ace.notification\_rules config and Python delivery facade | [sase-14d.2](sase-14d.2.md) | 2026-09-20 14:40:33 EDT |
+| sase | [`0f5a81d`](https://github.com/sase-org/sase/commit/0f5a81da70e3fa4360d0f4eab1e44efdcfcb8ca9) | feat(tui): apply notification delivery rules in the poll | [sase-14d.4](sase-14d.4.md) | 2026-09-20 15:38:12 EDT |
