@@ -31,4 +31,10 @@ The narrowed sase-zr close-out holds end to end: an accepted gate decision can n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`24cbeb8`](https://github.com/sase-org/sase/commit/24cbeb8826eadbd4227e1f7c61314c04f4dfd907) | docs(notifications): record before/after latency evidence for the two gate-refresh paths | [sase-zr.7](sase-zr.7.md) | 2026-09-20 12:56:54 EDT |

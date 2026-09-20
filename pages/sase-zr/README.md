@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-zr.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.3/README.md) | [sase-zr.7.3](sase-zr.7.3.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.4/README.md) | [sase-zr.7.4](sase-zr.7.4.md) | 1 |
 | [bbugyi200.apollo.sase-zr.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.5/README.md) | [sase-zr.7.5](sase-zr.7.5.md) | 2 |
-| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 0 |
+| [bbugyi200.apollo.sase-zr.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.7.land/README.md) | [sase-zr.7](sase-zr.7.md) | 1 |
 | [bbugyi200.apollo.sase-zr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-zr.land/README.md) | [sase-zr](README.md) | 0 |
 
 ## Commits
@@ -218,3 +218,4 @@ flowchart TD
 | sase | [`244442e`](https://github.com/sase-org/sase/commit/244442ee8160fe0bf059518a910cf87a58872a1c) | feat(ace): exact off-loop gate refresh and failure recovery actions | [sase-zr.7.3](sase-zr.7.3.md) | 2026-09-20 07:05:12 EDT |
 | sase | [`96b9133`](https://github.com/sase-org/sase/commit/96b91333326f4cbf644286625f6c439710e1bed5) | docs(notifications): correct fast decision acceptance, failure recovery and status semantics | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:35:12 EDT |
 | sase-telegram | [`sase-telegram@4d20559`](https://github.com/sase-org/sase-telegram/commit/4d20559691a408d5c1908b59c7344daaca65be38) | docs(inbound): document real receiver stop procedure, upgrade caveat and chat authentication | [sase-zr.7.5](sase-zr.7.5.md) | 2026-09-20 09:37:59 EDT |
+| sase | [`24cbeb8`](https://github.com/sase-org/sase/commit/24cbeb8826eadbd4227e1f7c61314c04f4dfd907) | docs(notifications): record before/after latency evidence for the two gate-refresh paths | [sase-zr.7](sase-zr.7.md) | 2026-09-20 12:56:54 EDT |
