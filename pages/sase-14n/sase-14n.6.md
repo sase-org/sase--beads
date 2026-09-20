@@ -20,4 +20,10 @@ row_weight_golden: decide whether the tribeless DONE agent row lost its bold lab
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 0 |
+| [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`37574e8`](https://github.com/sase-org/sase/commit/37574e854509c825b6922a1526b371edcac1171b) | fix(tui): refresh clan-collapse agent-row label weight golden | [sase-14n.6](sase-14n.6.md) | 2026-09-20 19:27:13 EDT |

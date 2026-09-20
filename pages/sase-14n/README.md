@@ -28,8 +28,8 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-14n.1](sase-14n.1.md) | Clear the 26 unused public symbols that abort every lint run | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ✓ closed | medium | 2026-09-20 | 1 | 2 |
-| [sase-14n.11](sase-14n.11.md) | Warn on every advisory-flagged pool member | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ✓ closed | medium | 2026-09-20 | 1 | 1 |
+| [sase-14n.11](sase-14n.11.md) | Warn on every advisory-flagged pool member | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.12](sase-14n.12.md) | Keep the declared shell block through gate creation | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.13](sase-14n.13.md) | Make notification dismissal recoverable | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.14](sase-14n.14.md) | Surface why workspace preparation failed | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -37,7 +37,7 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | [sase-14n.3](sase-14n.3.md) | Settle the land segment's queue weight | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.4](sase-14n.4.md) | Land the TUI import count strictly under its budget | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
 | [sase-14n.5](sase-14n.5.md) | Stop eleven ACE tests asserting a full pytest tmp path | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ◐ in_progress | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.7](sase-14n.7.md) | Repair the Agents view surfaces the metadata-only default left behind | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.8](sase-14n.8.md) | Make the notification modal footer fit the modal | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
@@ -49,7 +49,7 @@ flowchart TD
     n0["sase-14n: Fix the bug and CI task beads that survived 2026-09-20 triage [in_progress]"]
     n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [closed]"]
     n2["sase-14n.10: Reclaim quarantined ToolRun stores [closed]"]
-    n3["sase-14n.11: Warn on every advisory-flagged pool member [in_progress]"]
+    n3["sase-14n.11: Warn on every advisory-flagged pool member [closed]"]
     n4["sase-14n.12: Keep the declared shell block through gate creation [in_progress]"]
     n5["sase-14n.13: Make notification dismissal recoverable [in_progress]"]
     n6["sase-14n.14: Surface why workspace preparation failed [in_progress]"]
@@ -100,8 +100,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-14n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.1/README.md) | [sase-14n.1](sase-14n.1.md) | 1 |
-| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 2 |
-| [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 0 |
+| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 1 |
+| [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 1 |
 | [bbugyi200.athena.sase-14n.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.12/README.md) | [sase-14n.12](sase-14n.12.md) | 0 |
 | [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 0 |
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 0 |
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
 | [bbugyi200.athena.sase-14n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.5/README.md) | [sase-14n.5](sase-14n.5.md) | 1 |
-| [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 0 |
+| [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 1 |
 | [bbugyi200.athena.sase-14n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.7/README.md) | [sase-14n.7](sase-14n.7.md) | 0 |
 | [bbugyi200.athena.sase-14n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.8/README.md) | [sase-14n.8](sase-14n.8.md) | 0 |
 | [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 1 |
@@ -126,4 +126,5 @@ flowchart TD
 | sase | [`19c515e`](https://github.com/sase-org/sase/commit/19c515e0ae7efe6642441f8a460cb892c3216537) | test(capacity): settle land-segment queue weight to default contract | [sase-14n.3](sase-14n.3.md) | 2026-09-20 17:55:04 EDT |
 | sase | [`a7dde7d`](https://github.com/sase-org/sase/commit/a7dde7dbe661a5239393a30e2ccf516c50f21d45) | fix(tool): disclose run id on spawn-failure path and gate floor smoke | [sase-14n.9](sase-14n.9.md) | 2026-09-20 18:03:46 EDT |
 | sase | [`2b68fc9`](https://github.com/sase-org/sase/commit/2b68fc9b3886460bf6020d40172e0f783eea03b5) | test(tool): cover quarantined ToolRun store reclaim at log horizon | [sase-14n.10](sase-14n.10.md) | 2026-09-20 19:12:42 EDT |
-| sase-core | [`sase-core@4b0f5d6`](https://github.com/sase-org/sase-core/commit/4b0f5d697db5de0b1bc6aa10b1694f0f2fc5a426) | fix(tool-run): reclaim quarantined stores under the log retention horizon | [sase-14n.10](sase-14n.10.md) | 2026-09-20 19:16:00 EDT |
+| sase | [`37574e8`](https://github.com/sase-org/sase/commit/37574e854509c825b6922a1526b371edcac1171b) | fix(tui): refresh clan-collapse agent-row label weight golden | [sase-14n.6](sase-14n.6.md) | 2026-09-20 19:27:13 EDT |
+| sase | [`4703e91`](https://github.com/sase-org/sase/commit/4703e9107b8fc2ce7a136f67955f8c2d3dce166a) | fix(doctor): warn on every advisory-flagged alias pool member | [sase-14n.11](sase-14n.11.md) | 2026-09-20 19:45:30 EDT |

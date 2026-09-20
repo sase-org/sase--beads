@@ -18,7 +18,7 @@ symvision: privatize, wire up, or delete the 26 unused public symbols reported b
 ## Dependencies
 
 - **Blocks:** [sase-14n.10](sase-14n.10.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14n.11](sase-14n.11.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14n.11](sase-14n.11.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14n.12](sase-14n.12.md) ◐ · ⧖ 2026-09-20
 - **Blocks:** [sase-14n.13](sase-14n.13.md) ◐ · ⧖ 2026-09-20
 - **Blocks:** [sase-14n.14](sase-14n.14.md) ◐ · ⧖ 2026-09-20

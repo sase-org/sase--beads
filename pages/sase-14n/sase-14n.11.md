@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-14n](README.md) / sase-14n.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0oe](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0oe.md) · **Assignee:** `sase-14n.11` · **Size:** medium
-**Created:** 2026-09-20 17:14:19 EDT
+**Created:** 2026-09-20 17:14:19 EDT · **Closed:** 2026-09-20 19:43:43 EDT
 **Plan:** [202609/fix\_triaged\_bug\_and\_ci\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202609/fix_triaged_bug_and_ci_beads.md)
 
 ## Description
 
 doctor_pools: expand each alias pool's members in the model-advisory check so its verdict no longer depends on the round-robin cursor.
+
+## Notes
+
+[2026-09-20T23:42:55Z · sase-14n.11] PROPOSED FOLLOW-UP: scoped lane flakes under parallel load — test_snapshot_includes_live_config_token_refresh_threads and test_grok_usage_probe_invalid_explicit_percent_is_malformed[0] failed in run 3865ea76 but pass focused; consider flake beads if they recur
+
+[2026-09-20T23:43:43Z · sase-14n.11] doctor pools fix verified: repro went OK->WARN before and WARN->WARN after; new pool/last-resort tests fail on old code and tests/doctor/test_checks_providers_advisory.py is 11/11 green; recorded check run 3865ea76 has all lint gates green and scoped lane 44235 passed with only 2 unrelated load flakes that pass focused
 
 ## Dependencies
 
@@ -19,4 +25,10 @@ doctor_pools: expand each alias pool's members in the model-advisory check so it
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 0 |
+| [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4703e91`](https://github.com/sase-org/sase/commit/4703e9107b8fc2ce7a136f67955f8c2d3dce166a) | fix(doctor): warn on every advisory-flagged alias pool member | [sase-14n.11](sase-14n.11.md) | 2026-09-20 19:45:30 EDT |
