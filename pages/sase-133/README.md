@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-133.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.1.md) | [sase-133.5.1](sase-133.5.1.md) | 2 |
 | [bbugyi200.athena.sase-133.5.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.2.md) | [sase-133.5.2](sase-133.5.2.md) | 2 |
 | [bbugyi200.athena.sase-133.5.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.5.3.md) | [sase-133.5.3](sase-133.5.3.md) | 2 |
-| [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 2 |
+| [bbugyi200.athena.sase-133.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.4/README.md) | [sase-133.5.4](sase-133.5.4.md) | 3 |
 | [bbugyi200.athena.sase-133.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-133.5.land/README.md) | [sase-133.5](sase-133.5.md) | 0 |
 | [bbugyi200.athena.sase-133.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-133.land.md) | [sase-133](README.md) | 0 |
 
@@ -118,3 +118,4 @@ flowchart TD
 | sase-core | [`sase-core@92cf0ca`](https://github.com/sase-org/sase-core/commit/92cf0ca230a436a6dd48c9cd09aeb70759119404) | feat(fleet): derive owner presentation facts in core and bump contract to v5 | [sase-133.5.2](sase-133.5.2.md) | 2026-09-20 08:21:19 EDT |
 | sase | [`52b0283`](https://github.com/sase-org/sase/commit/52b0283947e67c25ac4b155c2ba138e5575f38e1) | test(fleet): add rendered-row parity oracle and fix screenshot slash key examples | [sase-133.5.4](sase-133.5.4.md) | 2026-09-20 09:49:11 EDT |
 | sase | [`e99bd48`](https://github.com/sase-org/sase/commit/e99bd48ac4f8bbff3c7bfea89df34dd16d847df0) | test(fleet): run the parity oracle on the production family shape and add a fixed-clock production-derived visual | [sase-133.5.4](sase-133.5.4.md) | 2026-09-20 11:27:07 EDT |
+| sase-core | [`sase-core@24399f1`](https://github.com/sase-org/sase-core/commit/24399f14a54346584797ff5d21542d4a303d2f79) | fix(fleet): present completed root-less plan-chain families and drop marker-less records | [sase-133.5.4](sase-133.5.4.md) | 2026-09-20 11:30:15 EDT |
