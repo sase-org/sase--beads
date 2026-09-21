@@ -17,7 +17,7 @@ ci-toolchain-parse: replace the GNU-only grep/sed parsing of rust-toolchain.toml
 
 ## Dependencies
 
-- **Blocks:** [sase-157.10.2](sase-157.10.2.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.10.2](sase-157.10.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
