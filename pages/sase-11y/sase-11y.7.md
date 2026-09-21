@@ -39,7 +39,7 @@ The 13 --epic-symbol "sase-11y(...)" entries in the Justfile are unchanged; they
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.10](sase-11y.10.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.2](sase-11y.2.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
 - **Blocks:** [sase-11y.8](sase-11y.8.md) ✓ · ⧖ 2026-09-16

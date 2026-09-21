@@ -25,7 +25,7 @@ oneshots: move the ! background-command flow onto the durable proc store as tran
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.10](sase-11y.10.md) ◐ · ⧖ 2026-09-16
+- **Blocks:** [sase-11y.10](sase-11y.10.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.4](sase-11y.4.md) ✓ · ⧖ 2026-09-16
 - **Depends on:** [sase-11y.7](sase-11y.7.md) ✓ · ⧖ 2026-09-16
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-11y.10](sase-11y.10.md) / sase-11y.10.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-11y.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.md) · **Assignee:** `sase-11y.10.1.land`
-**Created:** 2026-09-20 13:56:11 EDT
+**Created:** 2026-09-20 13:56:11 EDT · **Closed:** 2026-09-21 06:37:37 EDT
 **Plan:** [202609/service\_host\_sunset.md](https://github.com/sase-org/sase--plans/blob/main/202609/service_host_sunset.md)
 
 <!-- sase:links:start -->
@@ -57,6 +57,24 @@ FOLLOW-UP OUTCOMES:
 - .5 #1 and .6 #1 AxeDesiredState/lifecycle_journal symvision: fixed in 103db4bfa.
 - .5 #3: the schema pin and dev-extension tests now pass.
 - Child epic follow-ups sase-152/153/154 were filed by its land agent. sase-152 is folded into the child plan; sase-153 and sase-154 stay separate.
+
+[2026-09-21T10:37:37Z · sase-11y.10.1.7.land] LANDING RESUMED AND COMPLETED by sase-11y.10.1.7.land (2026-09-21, master d9ae431dc plus this turn's landing fixes).
+
+RECHECKED: the previous landing note (master 3a08b8681) listed five remaining items: (1) chat_install direct start, (2) the desired_state.json readers, (3) the ignored scheduler start/restart options, (4) the dead TUI state, (5) the stale docs. All five were child epic sase-11y.10.1.7's phases, and all are closed and verified in source (see that bead's close note). sase-152 is closed. Every descendant is closed: phases .1-.6, nested epic .3.1, and child epic .7. The plan 202609/service_host_sunset.md validates (0 warnings). epic-symbols: none for sase-11y.10.1.
+
+GOAL RE-VERIFIED in this workspace's source:
+- No service_host flag or start_axe_daemon references remain in src.
+- `sase axe ensure` is rejected by argparse.
+- The sase-axe-ensure units survive only as LEGACY_SYSTEMD_UNITS cleanup targets.
+- `sase axe start|stop|restart|status` alias `sase scheduler` with the service-path option surface.
+- The tab id is services.
+- Glossary strands sase-scheduler, sase-service, service-proc, and proc exist.
+
+POST-CHILD DRIFT: the only non-epic commit since the child started is 184241fa6 (tilde neighbor keymap), unrelated. The landing fixed a regression from this epic's lineage: d65316234 (sase-11y.10.1.3.1.3) made sase.main.update_types import sase.service.actions at runtime. That pulled service.control/status into TUI startup and broke test_app_import_budget's deferred_modules guard. The import is now TYPE_CHECKING-only; the one-module count overage left is sase-13p's (+1 recorded).
+
+STILL OWNER-GATED from the earlier landing: merging sase-telegram release PR #31 (0.4.20) and deploying it to apollo.
+
+NOTE: athena's installed sase is still 0.17.1 and still accepts `sase axe ensure`. The installed tool picks up this epic's changes only after the next `sase update`.
 
 ## Agents
 
