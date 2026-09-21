@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-15p](README.md) / sase-15p.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0os](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0os.md) · **Assignee:** `sase-15p.2` · **Size:** medium
-**Created:** 2026-09-21 15:31:53 EDT
+**Created:** 2026-09-21 15:31:53 EDT · **Closed:** 2026-09-21 16:28:06 EDT
 **Plan:** [202609/agy\_usage\_windows.md](https://github.com/sase-org/sase--plans/blob/main/202609/agy_usage_windows.md)
 
 ## Description
@@ -14,7 +14,7 @@ agy-collector: add collect_agy_usage (version floor, own process group, stderr a
 ## Dependencies
 
 - **Depends on:** [sase-15p.1](sase-15p.1.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15p.3](sase-15p.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15p.3](sase-15p.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -27,3 +27,17 @@ agy-collector: add collect_agy_usage (version floor, own process group, stderr a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8e0f38a`](https://github.com/sase-org/sase/commit/8e0f38a532354685635d6534fd351b8c189ce100) | feat(agy): hardened usage collector, provider hooks, fixture, tests, docs (interim; verification pending build) | [sase-15p.2](sase-15p.2.md) | 2026-09-21 16:15:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (non-split sase-core feature run evidence) | 1 |
+| read-by | [agent:sase-15p.2][2] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.2/README.md
+
+<!-- sase:referenced-by:end -->

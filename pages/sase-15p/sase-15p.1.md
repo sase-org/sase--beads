@@ -21,7 +21,7 @@ core-normalizer: in sase-core, add agy.rs to normalize the `agy -p /usage --outp
 
 ## Dependencies
 
-- **Blocks:** [sase-15p.2](sase-15p.2.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15p.2](sase-15p.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -41,8 +41,10 @@ core-normalizer: in sase-core, add agy.rs to normalize the `agy -p /usage --outp
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-15p.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (non-split sase-core feature run evidence) | 1 |
+| read-by | [agent:sase-15p.1][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.1/README.md
 
 <!-- sase:referenced-by:end -->
