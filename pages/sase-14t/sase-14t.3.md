@@ -13,7 +13,7 @@ aliases: drop the now-unreferenced `sol_or_grok` / `opus_or_grok` custom model a
 
 ## Dependencies
 
-- **Depends on:** [sase-14t.2](sase-14t.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14t.2](sase-14t.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

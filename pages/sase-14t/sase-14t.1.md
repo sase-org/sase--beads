@@ -17,7 +17,7 @@ predicate: add `provider_disabled` / `provider_enabled` prompt-body Jinja filter
 
 ## Dependencies
 
-- **Blocks:** [sase-14t.2](sase-14t.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14t.2](sase-14t.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

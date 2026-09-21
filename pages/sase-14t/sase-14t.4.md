@@ -13,7 +13,7 @@ fanout: make the fakey runner-slot test that plans the installed research swarm 
 
 ## Dependencies
 
-- **Depends on:** [sase-14t.2](sase-14t.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14t.2](sase-14t.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
