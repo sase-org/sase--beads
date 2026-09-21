@@ -13,7 +13,7 @@ docs-core: remove the `service_host` flag, whole-system-status, heartbeat-verify
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) ✓ · ⧖ 2026-09-21
 - **Depends on:** [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) ◐ · ⧖ 2026-09-21
 - **Depends on:** [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) ✓ · ⧖ 2026-09-21
 
