@@ -251,7 +251,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.3/README.md) | [sase-11y.11.3](sase-11y.11.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.5/README.md) | [sase-11y.11.5](sase-11y.11.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 2 |
+| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 3 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.1/README.md) | [sase-11y.2.1.1](sase-11y.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-11y.2.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.2.md) | [sase-11y.2.1.2](sase-11y.2.1.2.md) | 2 |
@@ -322,3 +322,4 @@ flowchart TD
 | sase | [`420d72b`](https://github.com/sase-org/sase/commit/420d72bb1d230a8697ec344a24bd0d07a36bb8df) | docs(sase-11y): rewrite pre-host leftovers for service-host model | [sase-11y.11.3](sase-11y.11.3.md) | 2026-09-21 09:48:46 EDT |
 | sase | [`d05be99`](https://github.com/sase-org/sase/commit/d05be99aad47548f9973b29042cedef8b6c40cab) | fix(service): land sase-11y.11 and finish the service-host leftovers | [sase-11y.11](sase-11y.11.md) | 2026-09-21 11:53:58 EDT |
 | sase-telegram | [`sase-telegram@deea4e7`](https://github.com/sase-org/sase-telegram/commit/deea4e72f6f272466c126a4691fdf424df8f8991) | test(service): read the receiver config through load\_service\_config | [sase-11y.11](sase-11y.11.md) | 2026-09-21 12:11:17 EDT |
+| sase--plans | [`sase--plans@d74b97e`](https://github.com/sase-org/sase--plans/commit/d74b97e6375bbc92138753e20d23d70e8e8f9742) | chore(plans): mark the service-host epic and its landing leftovers done | [sase-11y.11](sase-11y.11.md) | 2026-09-21 12:15:57 EDT |

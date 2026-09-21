@@ -58,7 +58,7 @@ FOLLOW-UP OUTCOMES:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 2 |
+| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 3 |
 
 ## Commits
 
@@ -66,3 +66,4 @@ FOLLOW-UP OUTCOMES:
 |---|---|---|---|---|
 | sase | [`d05be99`](https://github.com/sase-org/sase/commit/d05be99aad47548f9973b29042cedef8b6c40cab) | fix(service): land sase-11y.11 and finish the service-host leftovers | [sase-11y.11](sase-11y.11.md) | 2026-09-21 11:53:58 EDT |
 | sase-telegram | [`sase-telegram@deea4e7`](https://github.com/sase-org/sase-telegram/commit/deea4e72f6f272466c126a4691fdf424df8f8991) | test(service): read the receiver config through load\_service\_config | [sase-11y.11](sase-11y.11.md) | 2026-09-21 12:11:17 EDT |
+| sase--plans | [`sase--plans@d74b97e`](https://github.com/sase-org/sase--plans/commit/d74b97e6375bbc92138753e20d23d70e8e8f9742) | chore(plans): mark the service-host epic and its landing leftovers done | [sase-11y.11](sase-11y.11.md) | 2026-09-21 12:15:57 EDT |
