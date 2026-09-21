@@ -14,7 +14,7 @@ xprompt_catalog: decompose the 4,850-line xprompt catalog module into a xprompt_
 ## Dependencies
 
 - **Blocks:** [sase-14s.10](sase-14s.10.md) ◐ · ⧖ 2026-09-20
-- **Depends on:** [sase-14s.8](sase-14s.8.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.8](sase-14s.8.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

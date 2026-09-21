@@ -18,7 +18,7 @@ agent_launch: move the 7,978-line agent_launch crate-module body out of mod.rs i
 ## Dependencies
 
 - **Depends on:** [sase-14s.6](sase-14s.6.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14s.8](sase-14s.8.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14s.8](sase-14s.8.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
