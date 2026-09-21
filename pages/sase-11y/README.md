@@ -177,7 +177,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.4/README.md) | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2 |
 | [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.4.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.5/README.md) | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.6/README.md) | [sase-11y.10.1.6](sase-11y.10.1.6.md) | 0 |
@@ -233,3 +233,4 @@ flowchart TD
 | sase | [`b87c8e3`](https://github.com/sase-org/sase/commit/b87c8e3eef8554ba6a31a9be1aa84fe34f285304) | refactor(axe): delete AXE restart machinery orphaned by scheduler alias | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 2026-09-21 01:50:35 EDT |
 | sase | [`b27b023`](https://github.com/sase-org/sase/commit/b27b02323719eb6dca1288403b77a700ef9f1a37) | feat(ace): canonicalize the Services tab id with axe as legacy alias | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 2026-09-21 02:29:05 EDT |
 | sase | [`103db4b`](https://github.com/sase-org/sase/commit/103db4bfa8af0a114efecf109a02b8298701f2a6) | refactor(axe): retire leftovers of the AXE CLI sunset epic | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2026-09-21 03:02:19 EDT |
+| sase--plans | [`sase--plans@d798718`](https://github.com/sase-org/sase--plans/commit/d798718ddd828de453b24406cac4d67e1ba7240f) | chore(plans): mark axe\_cli\_sunset done | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2026-09-21 03:06:02 EDT |
