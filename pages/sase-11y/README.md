@@ -80,7 +80,7 @@ flowchart TD
     n9["sase-11y.10.1.3.1.2: Delete the axe-start systemd scope wrapper and its evidence [closed]"]
     n10["sase-11y.10.1.3.1.3: Route the post-update restart through the scheduler service proc [closed]"]
     n11["sase-11y.10.1.3.1.4: Make sase axe lifecycle verbs an alias of sase scheduler [closed]"]
-    n12["sase-11y.10.1.3.1.5: Delete the AXE restart machinery the alias orphaned [in_progress]"]
+    n12["sase-11y.10.1.3.1.5: Delete the AXE restart machinery the alias orphaned [closed]"]
     n13["sase-11y.10.1.4: Canonicalize the Services tab id [in_progress]"]
     n14["sase-11y.10.1.5: Update the documentation for the service host [in_progress]"]
     n15["sase-11y.10.1.6: Land the service-host glossary strands [in_progress]"]
@@ -176,7 +176,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.3.1.2.md) | [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.4/README.md) | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.4.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.5/README.md) | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 0 |
@@ -228,3 +228,4 @@ flowchart TD
 | sase | [`d653162`](https://github.com/sase-org/sase/commit/d65316234ccf22a570969fef0561fc455e00eadf) | refactor(update): restart scheduler via service-proc after update | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 2026-09-20 22:24:05 EDT |
 | sase | [`c833ff3`](https://github.com/sase-org/sase/commit/c833ff3e5435457f991f47dd19cc120863e7f6bd) | refactor(axe): delete axe-start systemd scope wrapper and its evidence | [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) | 2026-09-21 00:22:52 EDT |
 | sase | [`0508f28`](https://github.com/sase-org/sase/commit/0508f288fb34fdb5786629bde28066c1217c48fb) | refactor(axe): alias sase axe lifecycle verbs to sase scheduler | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 2026-09-21 01:07:10 EDT |
+| sase | [`b87c8e3`](https://github.com/sase-org/sase/commit/b87c8e3eef8554ba6a31a9be1aa84fe34f285304) | refactor(axe): delete AXE restart machinery orphaned by scheduler alias | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 2026-09-21 01:50:35 EDT |
