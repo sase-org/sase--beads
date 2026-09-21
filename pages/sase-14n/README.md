@@ -50,6 +50,14 @@ Neither is caused by epic sase-14l, which touches only
 src/sase/ace/tui/actions/agents/_notification_utils.py, _unread_state.py and
 _notification_unread_projection.py.
 
+[2026-09-21T19:07:10Z · sase-14n.land] LANDING INTERRUPTED (sase-14n.land, 2026-09-21, master 87c604833, workspace sase_34). Verified so far:
+(1) All 14 phases' commits are present and intact after later refactors: 54fff4820, 5963c52e8, 47e281b7a, ac3091c3a, 19c515e0a, a7dde7dbe, 2b68fc9b3 plus sase-core 4b0f5d6, 4703e9107, 37574e854, 090f3add5, 98bf83a38, c04171670, b3550b56e, 03fff9dcb.
+(2) After just install against the linked sase-core, which the pin 2857d6a1c already contains (it includes 4b0f5d6 and the undismiss core change 2f37e54), a 230-node batch of every phase's tests passes. That includes test_reap_reclaims_quarantined_store_at_log_horizon, so issue 1 of the sase-14l.land note is resolved by the pin ratchet in 319fe6b24.
+(3) just test-visual: 969 passed, 1 failed. The failure is sase-151, first bad commit 4255afbb0 by bisect, not caused by this epic; +1 recorded.
+(4) Closed, with verification notes: sase-13s, sase-13o, sase-13u, sase-14k, sase-149, sase-14a, sase-13j, sase-141, sase-147, sase-14e (sase-13n, sase-143 and sase-14m were already closed).
+(5) Follow-ups: the sase-14n.11 flake corroborated sase-t6 and one sase-14n.12 flake corroborated sase-120; sase-15i, sase-15j, sase-15k, sase-15l and sase-15m were filed as new flakes; sase-151 was corroborated. Declined: the mypy prebuild.py follow-ups from .7 and .8 (fixed on master; just lint's mypy stage passes), the agents_waiting_single_bead_labels drift from .7 (gone from the full visual run), and the symvision follow-up from .3 (fixed by .1). No --epic-symbol entries.
+REMAINING, handed to a child plan: (a) just lint's symvision stage is red on three test-only footer helpers from sase-14n.8. (b) test_tui_app_import_stays_under_startup_budget fails 3309 < 3290 because post-phase commits re-grew the closure; sase-13p stays open. (c) sase-14g half 2: the ACE notification modal only receives non-dismissed rows, so its new u binding can never reach a dismissed row. (d) sase-14g half 1: the gate-shell row test fabricates the row, and create_gate() called directly with a shell block still creates a rowless gate. sase-14g stays open.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -67,7 +75,7 @@ _notification_unread_projection.py.
 | [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.7](sase-14n.7.md) | Repair the Agents view surfaces the metadata-only default left behind | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.8](sase-14n.8.md) | Make the notification modal footer fit the modal | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
+| [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ✓ closed | small | 2026-09-20 | 1 | 1 |
 
 ## Lineage
 
@@ -80,14 +88,18 @@ flowchart TD
     n4["sase-14n.12: Keep the declared shell block through gate creation [closed]"]
     n5["sase-14n.13: Make notification dismissal recoverable [closed]"]
     n6["sase-14n.14: Surface why workspace preparation failed [closed]"]
-    n7["sase-14n.2: Restore the complete-history latch reset on a changed query key [closed]"]
-    n8["sase-14n.3: Settle the land segment's queue weight [closed]"]
-    n9["sase-14n.4: Land the TUI import count strictly under its budget [closed]"]
-    n10["sase-14n.5: Stop eleven ACE tests asserting a full pytest tmp path [closed]"]
-    n11["sase-14n.6: Settle the clan-collapse agent-row label weight [closed]"]
-    n12["sase-14n.7: Repair the Agents view surfaces the metadata-only default left behind [closed]"]
-    n13["sase-14n.8: Make the notification modal footer fit the modal [closed]"]
-    n14["sase-14n.9: Disclose the run id on a failed launch and gate the floor smoke [in_progress]"]
+    n7["sase-14n.15: Finish the sase-14n landing leftovers [in_progress]"]
+    n8["sase-14n.15.1: Return just check to green on master [closed]"]
+    n9["sase-14n.15.2: Reach and restore dismissed notifications from the notification modal [in_progress]"]
+    n10["sase-14n.15.3: Prove the gate-shell row through the production gate creation path [in_progress]"]
+    n11["sase-14n.2: Restore the complete-history latch reset on a changed query key [closed]"]
+    n12["sase-14n.3: Settle the land segment's queue weight [closed]"]
+    n13["sase-14n.4: Land the TUI import count strictly under its budget [closed]"]
+    n14["sase-14n.5: Stop eleven ACE tests asserting a full pytest tmp path [closed]"]
+    n15["sase-14n.6: Settle the clan-collapse agent-row label weight [closed]"]
+    n16["sase-14n.7: Repair the Agents view surfaces the metadata-only default left behind [closed]"]
+    n17["sase-14n.8: Make the notification modal footer fit the modal [closed]"]
+    n18["sase-14n.9: Disclose the run id on a failed launch and gate the floor smoke [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,31 +107,37 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
     n0 --> n11
     n0 --> n12
     n0 --> n13
     n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n2
     n1 -.-> n3
     n1 -.-> n4
     n1 -.-> n5
     n1 -.-> n6
-    n1 -.-> n12
-    n1 -.-> n13
-    n1 -.-> n14
-    n7 -.-> n12
-    n7 -.-> n13
-    n8 -.-> n4
-    n8 -.-> n5
-    n9 -.-> n12
-    n9 -.-> n13
-    n10 -.-> n12
-    n10 -.-> n13
-    n11 -.-> n12
-    n11 -.-> n13
+    n1 -.-> n16
+    n1 -.-> n17
+    n1 -.-> n18
+    n8 -.-> n9
+    n8 -.-> n10
+    n11 -.-> n16
+    n11 -.-> n17
+    n12 -.-> n4
+    n12 -.-> n5
+    n13 -.-> n16
+    n13 -.-> n17
+    n14 -.-> n16
+    n14 -.-> n17
+    n15 -.-> n16
+    n15 -.-> n17
 ```
 
 ## Agents
@@ -132,6 +150,10 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.12/README.md) | [sase-14n.12](sase-14n.12.md) | 1 |
 | [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 2 |
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 1 |
+| [bbugyi200.athena.sase-14n.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.1/README.md) | [sase-14n.15.1](sase-14n.15.1.md) | 1 |
+| [bbugyi200.athena.sase-14n.15.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.2/README.md) | [sase-14n.15.2](sase-14n.15.2.md) | 0 |
+| [bbugyi200.athena.sase-14n.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md) | [sase-14n.15.3](sase-14n.15.3.md) | 0 |
+| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 0 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
@@ -140,7 +162,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.7/README.md) | [sase-14n.7](sase-14n.7.md) | 1 |
 | [bbugyi200.athena.sase-14n.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.8.md) | [sase-14n.8](sase-14n.8.md) | 1 |
 | [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 1 |
-| [bbugyi200.athena.sase-14n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.land/README.md) | [sase-14n](README.md) | 0 |
+| [bbugyi200.athena.sase-14n.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.land.md) | [sase-14n](README.md) | 0 |
 
 ## Commits
 
@@ -162,3 +184,4 @@ flowchart TD
 | sase | [`c041716`](https://github.com/sase-org/sase/commit/c04171670c35ebc86361fc8f7ecc7569d9a586fc) | fix(gate): keep declared shell block through gate creation | [sase-14n.12](sase-14n.12.md) | 2026-09-20 22:32:16 EDT |
 | sase | [`b3550b5`](https://github.com/sase-org/sase/commit/b3550b56ea3dd109249609dde848040a8a09369d) | fix(agents-view): dispatch zoom LLM Calls visibility message and repaint header hint on every picker exit | [sase-14n.7](sase-14n.7.md) | 2026-09-21 12:21:10 EDT |
 | sase | [`03fff9d`](https://github.com/sase-org/sase/commit/03fff9dcbcad9c17e62cbc2217033c6be30a6a18) | fix(ace): fit notification modal footer to modal width so close and +1 stay visible | [sase-14n.8](sase-14n.8.md) | 2026-09-21 13:20:25 EDT |
+| sase | [`dd22887`](https://github.com/sase-org/sase/commit/dd22887a1774fa1a6beeebd4f372d74f10b5ff1c) | perf(tui): defer update/toast/dev-detect imports to cut startup closure to 3246 modules | [sase-14n.15.1](sase-14n.15.1.md) | 2026-09-21 17:39:58 EDT |
