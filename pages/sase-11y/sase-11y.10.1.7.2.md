@@ -24,4 +24,10 @@ desired-state: derive the scheduler's desired state from the service host instea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.10.1.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.2/README.md) | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.2/README.md) | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`0a43e09`](https://github.com/sase-org/sase/commit/0a43e09d64620d04fe52f3d72c3634ac6ca8af51) | refactor(axe): retire desired-state marker in favor of scheduler-derived state | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 2026-09-21 04:47:59 EDT |
