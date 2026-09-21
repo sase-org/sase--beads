@@ -33,7 +33,7 @@ flag-removal: delete the `service_host` registry entry and every gate that reads
 
 - **Depends on:** [sase-11y.10.1.1](sase-11y.10.1.1.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-11y.10.1.3](sase-11y.10.1.3.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [sase-11y.10.1.4](sase-11y.10.1.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-11y.10.1.4](sase-11y.10.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
