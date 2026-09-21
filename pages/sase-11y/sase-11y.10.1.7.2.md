@@ -18,7 +18,7 @@ desired-state: derive the scheduler's desired state from the service host instea
 ## Dependencies
 
 - **Depends on:** [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

@@ -18,7 +18,7 @@ chat-restart: make the chat-install update worker bring the scheduler back throu
 ## Dependencies
 
 - **Blocks:** [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

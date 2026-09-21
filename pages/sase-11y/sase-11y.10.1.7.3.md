@@ -17,7 +17,7 @@ scheduler-cli: remove `-A/-H/-q/-z` from `sase scheduler start|restart` and thei
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
