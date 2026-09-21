@@ -78,7 +78,7 @@ flowchart TD
     n7["sase-11y.10.1.3.1: Retire the AXE watchdogs and alias sase axe to sase scheduler [in_progress]"]
     n8["sase-11y.10.1.3.1.1: Delete the axe ensure watchdog and its healing notifications [closed]"]
     n9["sase-11y.10.1.3.1.2: Delete the axe-start systemd scope wrapper and its evidence [in_progress]"]
-    n10["sase-11y.10.1.3.1.3: Route the post-update restart through the scheduler service proc [in_progress]"]
+    n10["sase-11y.10.1.3.1.3: Route the post-update restart through the scheduler service proc [closed]"]
     n11["sase-11y.10.1.3.1.4: Make sase axe lifecycle verbs an alias of sase scheduler [in_progress]"]
     n12["sase-11y.10.1.3.1.5: Delete the AXE restart machinery the alias orphaned [in_progress]"]
     n13["sase-11y.10.1.4: Canonicalize the Services tab id [in_progress]"]
@@ -174,7 +174,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.3.md) | [sase-11y.10.1.3](sase-11y.10.1.3.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.1/README.md) | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.2/README.md) | [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) | 0 |
-| [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.4/README.md) | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 0 |
@@ -225,3 +225,4 @@ flowchart TD
 | sase | [`9316a24`](https://github.com/sase-org/sase/commit/9316a24e5b05016e0819c9f3a5e687a84f878d99) | feat(service): run ! background commands as transient oneshot service procs | [sase-11y.8](sase-11y.8.md) | 2026-09-20 13:36:06 EDT |
 | sase | [`ef99009`](https://github.com/sase-org/sase/commit/ef990099089ba524972140bd4268631e11c74b29) | refactor(service): remove the service\_host beta flag and its Off branches | [sase-11y.10.1.2](sase-11y.10.1.2.md) | 2026-09-20 17:08:43 EDT |
 | sase | [`0806937`](https://github.com/sase-org/sase/commit/08069374675ab58558336be75bef2e8dbb8fe866) | feat(axe): delete the axe ensure watchdog and its healing notifications | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 2026-09-20 22:20:59 EDT |
+| sase | [`d653162`](https://github.com/sase-org/sase/commit/d65316234ccf22a570969fef0561fc455e00eadf) | refactor(update): restart scheduler via service-proc after update | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 2026-09-20 22:24:05 EDT |
