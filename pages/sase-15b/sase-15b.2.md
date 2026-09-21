@@ -18,7 +18,7 @@ federation_worker: decompose the 3,953-line gateway federation worker, including
 ## Dependencies
 
 - **Depends on:** [sase-15b.1](sase-15b.1.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.3](sase-15b.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.3](sase-15b.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ federation_worker: decompose the 3,953-line gateway federation worker, including
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b5cea78`](https://github.com/sase-org/sase-core/commit/b5cea78ea99fd4f5210aabcf11036c56f02b293b) | refactor(gateway): split federation\_worker.rs into federation\_worker/ module tree | [sase-15b.2](sase-15b.2.md) | 2026-09-21 14:16:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md
+
+<!-- sase:referenced-by:end -->

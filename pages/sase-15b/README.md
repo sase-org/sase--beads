@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/sase_core_next_ten_big_file_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_next_ten_big_file_split.md
 
 <!-- sase:links:end -->
@@ -30,7 +32,7 @@ Each of the ten largest Rust files remaining in the sase-core repo after epic sa
 | [sase-15b.1](sase-15b.1.md) | Split crates/sase\_core/src/bead/cli.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.10](sase-15b.10.md) | Split crates/sase\_core/tests/notification\_store\_parity.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-15b.2](sase-15b.2.md) | Split crates/sase\_gateway/src/federation\_worker.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-15b.3](sase-15b.3.md) | Split crates/sase\_core/src/agent\_stats/run.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-15b.3](sase-15b.3.md) | Split crates/sase\_core/src/agent\_stats/run.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.4](sase-15b.4.md) | Split crates/sase\_gateway/src/fleet\_reads.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-15b.5](sase-15b.5.md) | Split crates/sase\_core/src/bead/events.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-15b.6](sase-15b.6.md) | Split crates/sase\_core/src/tool\_run/store.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
@@ -46,7 +48,7 @@ flowchart TD
     n1["sase-15b.1: Split crates/sase_core/src/bead/cli.rs [closed]"]
     n2["sase-15b.10: Split crates/sase_core/tests/notification_store_parity.rs [in_progress]"]
     n3["sase-15b.2: Split crates/sase_gateway/src/federation_worker.rs [closed]"]
-    n4["sase-15b.3: Split crates/sase_core/src/agent_stats/run.rs [in_progress]"]
+    n4["sase-15b.3: Split crates/sase_core/src/agent_stats/run.rs [closed]"]
     n5["sase-15b.4: Split crates/sase_gateway/src/fleet_reads.rs [in_progress]"]
     n6["sase-15b.5: Split crates/sase_core/src/bead/events.rs [in_progress]"]
     n7["sase-15b.6: Split crates/sase_core/src/tool_run/store.rs [in_progress]"]
@@ -81,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-15b.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.1/README.md) | [sase-15b.1](sase-15b.1.md) | 1 |
 | [bbugyi200.athena.sase-15b.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md) | [sase-15b.10](sase-15b.10.md) | 0 |
 | [bbugyi200.athena.sase-15b.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md) | [sase-15b.2](sase-15b.2.md) | 1 |
-| [bbugyi200.athena.sase-15b.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md) | [sase-15b.3](sase-15b.3.md) | 0 |
+| [bbugyi200.athena.sase-15b.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md) | [sase-15b.3](sase-15b.3.md) | 1 |
 | [bbugyi200.athena.sase-15b.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.4/README.md) | [sase-15b.4](sase-15b.4.md) | 0 |
 | [bbugyi200.athena.sase-15b.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.5/README.md) | [sase-15b.5](sase-15b.5.md) | 0 |
 | [bbugyi200.athena.sase-15b.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.6/README.md) | [sase-15b.6](sase-15b.6.md) | 0 |
@@ -96,3 +98,16 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@61dc4e1`](https://github.com/sase-org/sase-core/commit/61dc4e19713189e8e9d0a2e3aeedafcf16d584ad) | refactor(bead): split bead cli.rs into bead/cli module tree | [sase-15b.1](sase-15b.1.md) | 2026-09-21 13:46:20 EDT |
 | sase-core | [`sase-core@b5cea78`](https://github.com/sase-org/sase-core/commit/b5cea78ea99fd4f5210aabcf11036c56f02b293b) | refactor(gateway): split federation\_worker.rs into federation\_worker/ module tree | [sase-15b.2](sase-15b.2.md) | 2026-09-21 14:16:57 EDT |
+| sase-core | [`sase-core@006dd16`](https://github.com/sase-org/sase-core/commit/006dd162cd11a0afbc0c70d2b604bd41f8ffbc64) | refactor(agent\_stats): split run.rs into run/ module tree | [sase-15b.3](sase-15b.3.md) | 2026-09-21 14:50:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.2][1] | epic symbols check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md
+
+<!-- sase:referenced-by:end -->

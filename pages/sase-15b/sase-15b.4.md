@@ -13,7 +13,7 @@ fleet_reads: decompose the 3,371-line gateway fleet read service into service, s
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.3](sase-15b.3.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.3](sase-15b.3.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.5](sase-15b.5.md) ◐ · ⧖ 2026-09-21
 
 ## Agents
