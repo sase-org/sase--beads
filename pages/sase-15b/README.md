@@ -30,7 +30,7 @@ Each of the ten largest Rust files remaining in the sase-core repo after epic sa
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-15b.1](sase-15b.1.md) | Split crates/sase\_core/src/bead/cli.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-15b.10](sase-15b.10.md) | Split crates/sase\_core/tests/notification\_store\_parity.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-15b.10](sase-15b.10.md) | Split crates/sase\_core/tests/notification\_store\_parity.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.2](sase-15b.2.md) | Split crates/sase\_gateway/src/federation\_worker.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.3](sase-15b.3.md) | Split crates/sase\_core/src/agent\_stats/run.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.4](sase-15b.4.md) | Split crates/sase\_gateway/src/fleet\_reads.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
@@ -46,7 +46,7 @@ Each of the ten largest Rust files remaining in the sase-core repo after epic sa
 flowchart TD
     n0["sase-15b: Split The Next Ten Largest sase-core Rust Files Into &lt;=1500 Line Modules [in_progress]"]
     n1["sase-15b.1: Split crates/sase_core/src/bead/cli.rs [closed]"]
-    n2["sase-15b.10: Split crates/sase_core/tests/notification_store_parity.rs [in_progress]"]
+    n2["sase-15b.10: Split crates/sase_core/tests/notification_store_parity.rs [closed]"]
     n3["sase-15b.2: Split crates/sase_gateway/src/federation_worker.rs [closed]"]
     n4["sase-15b.3: Split crates/sase_core/src/agent_stats/run.rs [closed]"]
     n5["sase-15b.4: Split crates/sase_gateway/src/fleet_reads.rs [closed]"]
@@ -81,7 +81,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-15b.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.1/README.md) | [sase-15b.1](sase-15b.1.md) | 1 |
-| [bbugyi200.athena.sase-15b.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md) | [sase-15b.10](sase-15b.10.md) | 0 |
+| [bbugyi200.athena.sase-15b.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md) | [sase-15b.10](sase-15b.10.md) | 1 |
 | [bbugyi200.athena.sase-15b.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md) | [sase-15b.2](sase-15b.2.md) | 1 |
 | [bbugyi200.athena.sase-15b.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md) | [sase-15b.3](sase-15b.3.md) | 1 |
 | [bbugyi200.athena.sase-15b.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.4/README.md) | [sase-15b.4](sase-15b.4.md) | 1 |
@@ -105,6 +105,7 @@ flowchart TD
 | sase-core | [`sase-core@71b05bb`](https://github.com/sase-org/sase-core/commit/71b05bbce8b71e55fa6201fd0d4e5e5e0991a171) | refactor(sase-core): split provider\_usage tests into tests/ directory | [sase-15b.7](sase-15b.7.md) | 2026-09-21 16:56:29 EDT |
 | sase-core | [`sase-core@59327d6`](https://github.com/sase-org/sase-core/commit/59327d62c18b61c8680d367e69ab58c6f1c296f9) | refactor(sase-core): split editor directive into metadata, contract, candidate, context modules | [sase-15b.8](sase-15b.8.md) | 2026-09-21 17:21:30 EDT |
 | sase-core | [`sase-core@f54b2ba`](https://github.com/sase-org/sase-core/commit/f54b2ba4cb7c38739f0a9c5c202ca1a4077de9d4) | refactor(sase-core): split runner\_capacity into module tree | [sase-15b.9](sase-15b.9.md) | 2026-09-21 17:52:24 EDT |
+| sase-core | [`sase-core@8886406`](https://github.com/sase-org/sase-core/commit/88864065127efa138b71c3e778b60916a5f81b17) | refactor(sase-core): split notification\_store\_parity test into behavior-area modules | [sase-15b.10](sase-15b.10.md) | 2026-09-21 18:12:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

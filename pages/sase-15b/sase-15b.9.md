@@ -17,7 +17,7 @@ runner_capacity: decompose the 2,938-line runner capacity policy module into wir
 
 ## Dependencies
 
-- **Blocks:** [sase-15b.10](sase-15b.10.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.10](sase-15b.10.md) ✓ · ⧖ 2026-09-21
 - **Depends on:** [sase-15b.8](sase-15b.8.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
@@ -39,7 +39,9 @@ runner_capacity: decompose the 2,938-line runner capacity policy module into wir
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
+| read-by | [agent:sase-15b.9][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.9/README.md
 
 <!-- sase:referenced-by:end -->
