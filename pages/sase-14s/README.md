@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14s.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.7/README.md) | [sase-14s.7](sase-14s.7.md) | 1 |
 | [bbugyi200.athena.sase-14s.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.8/README.md) | [sase-14s.8](sase-14s.8.md) | 1 |
 | [bbugyi200.athena.sase-14s.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.9/README.md) | [sase-14s.9](sase-14s.9.md) | 1 |
-| [bbugyi200.athena.sase-14s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.land/README.md) | [sase-14s](README.md) | 1 |
+| [bbugyi200.athena.sase-14s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.land/README.md) | [sase-14s](README.md) | 2 |
 
 ## Commits
 
@@ -109,3 +109,4 @@ flowchart TD
 | sase-core | [`sase-core@ca597b9`](https://github.com/sase-org/sase-core/commit/ca597b94ebc4603cee9c1c05f4d6c25f336116dd) | refactor(xprompt\_catalog): split 4850-line module into \<=875-line tree | [sase-14s.9](sase-14s.9.md) | 2026-09-21 10:31:16 EDT |
 | sase-core | [`sase-core@5154900`](https://github.com/sase-org/sase-core/commit/51549000a1cfa59e4b6806a39ed5595bba93dde1) | refactor(sase\_gateway): split sudo\_runner.rs into \<=701-line module tree | [sase-14s.10](sase-14s.10.md) | 2026-09-21 11:29:34 EDT |
 | sase | [`af6b1f4`](https://github.com/sase-org/sase/commit/af6b1f475ca6d4c8a11bad0fd461ec560f0be93b) | fix(tools): diagnose core-floor bindings across the split sase\_core\_py module tree | [sase-14s](README.md) | 2026-09-21 13:07:21 EDT |
+| sase--plans | [`sase--plans@f362ae4`](https://github.com/sase-org/sase--plans/commit/f362ae462815b3adc84b23d309f882e204165cac) | chore(plans): mark sase\_core\_big\_file\_split plan done after sase-14s landed | [sase-14s](README.md) | 2026-09-21 13:10:42 EDT |
