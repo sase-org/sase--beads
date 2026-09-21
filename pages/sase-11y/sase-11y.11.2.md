@@ -21,7 +21,7 @@ services-wording: relabel the quit modal's host-restart option, fix the Services
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.11.3](sase-11y.11.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-11y.11.3](sase-11y.11.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
