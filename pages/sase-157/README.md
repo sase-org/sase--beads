@@ -23,6 +23,10 @@
 
 The managed-tmp reap guard refuses broad roots on every platform and no test can perform a live reap, every sase-core workspace test passes on macOS, and a required macOS CI leg keeps it that way.
 
+## Notes
+
+[2026-09-21T16:32:32Z · sase-157.land] LAND INTERRUPTED (sase-157.land, 2026-09-21): Steps 1-2 verified. All 9 phases closed. Commits 60782f2 5e8d315 19274c0 3f56910 b13332f 2b78764 ffc77b7 3e346b0 (started-path fix lives here, despite the title) d99ba11 checked against current source; the fixes survived the later refactors (d1ac7bf, 2857d6a, ca597b9, 5154900 sudo_runner split). Integration: no sase-repo changes needed (managed_tmp_reaper and sudo runner are thin adapters over sase_core_rs; sase/sudo already falls back when detached_execution is not advertised). BLOCKER, caused by this epic: sase-core master CI has been red since d99ba11. The now-required macOS leg fails in 'Read pinned toolchain' because BSD sed does not understand \s, so the toolchain resolves to the literal 'channel = "stable"' (CI run 35623241380). The macOS leg has never run tests in CI. This was sase-157.5's PROPOSED FOLLOW-UP, never fixed. Planned as a child epic (parent_bead sase-157). Follow-up outcomes: sase-157.4 telemetry concurrent_writers flake -> filed sase-15d. sase-157.9 sudo_runner flakes -> filed sase-15e (post_spawn_identity: empty worker.pid race, pre-existing at 60782f2^) and sase-15f (cwd_removed_after_authentication). sase-157.5 macOS toolchain step -> epic work, in the child plan. epic-symbols: none.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,34 +47,41 @@ The managed-tmp reap guard refuses broad roots on every platform and no test can
 flowchart TD
     n0["sase-157: Make sase-core correct and green on macOS [in_progress]"]
     n1["sase-157.1: Fix the managed-tmp reap guard and disarm its test [closed]"]
-    n2["sase-157.2: Let the verification gate run a filtered suite [closed]"]
-    n3["sase-157.3: Add an advisory macOS CI leg [closed]"]
-    n4["sase-157.4: Gate the procfs process-identity token to Linux [closed]"]
-    n5["sase-157.5: Fix the detached handoff started-path mismatch [closed]"]
-    n6["sase-157.6: Decide how attachment validation treats symlinked ancestors [closed]"]
-    n7["sase-157.7: Reconcile canonicalized paths across sase_core and the bindings [closed]"]
-    n8["sase-157.8: Make LSP definition URIs agree with their expectations [closed]"]
-    n9["sase-157.9: Make the macOS leg required and document the loop [closed]"]
+    n2["sase-157.10: Make the required sase-core macOS CI leg actually run and pass [in_progress]"]
+    n3["sase-157.10.1: Make the CI toolchain-parse step portable to the macOS runner [closed]"]
+    n4["sase-157.10.2: Fix whatever the first real macOS CI run surfaces [in_progress]"]
+    n5["sase-157.2: Let the verification gate run a filtered suite [closed]"]
+    n6["sase-157.3: Add an advisory macOS CI leg [closed]"]
+    n7["sase-157.4: Gate the procfs process-identity token to Linux [closed]"]
+    n8["sase-157.5: Fix the detached handoff started-path mismatch [closed]"]
+    n9["sase-157.6: Decide how attachment validation treats symlinked ancestors [closed]"]
+    n10["sase-157.7: Reconcile canonicalized paths across sase_core and the bindings [closed]"]
+    n11["sase-157.8: Make LSP definition URIs agree with their expectations [closed]"]
+    n12["sase-157.9: Make the macOS leg required and document the loop [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
+    n2 --> n3
+    n2 --> n4
     n0 --> n5
     n0 --> n6
     n0 --> n7
     n0 --> n8
     n0 --> n9
-    n1 -.-> n2
-    n2 -.-> n3
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n1 -.-> n5
     n3 -.-> n4
-    n3 -.-> n6
-    n3 -.-> n7
-    n3 -.-> n8
-    n4 -.-> n5
-    n5 -.-> n9
+    n5 -.-> n6
+    n6 -.-> n7
     n6 -.-> n9
-    n7 -.-> n9
-    n8 -.-> n9
+    n6 -.-> n10
+    n6 -.-> n11
+    n7 -.-> n8
+    n8 -.-> n12
+    n9 -.-> n12
+    n10 -.-> n12
+    n11 -.-> n12
 ```
 
 ## Agents
@@ -78,6 +89,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-157.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.1/README.md) | [sase-157.1](sase-157.1.md) | 1 |
+| [bbugyi200.athena.sase-157.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.10.1/README.md) | [sase-157.10.1](sase-157.10.1.md) | 1 |
+| [bbugyi200.athena.sase-157.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.10.2/README.md) | [sase-157.10.2](sase-157.10.2.md) | 0 |
+| [bbugyi200.athena.sase-157.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.10.land/README.md) | [sase-157.10](sase-157.10.md) | 0 |
 | [bbugyi200.athena.sase-157.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.2/README.md) | [sase-157.2](sase-157.2.md) | 1 |
 | [bbugyi200.athena.sase-157.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.3/README.md) | [sase-157.3](sase-157.3.md) | 1 |
 | [bbugyi200.athena.sase-157.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.4/README.md) | [sase-157.4](sase-157.4.md) | 1 |
@@ -86,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-157.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.7/README.md) | [sase-157.7](sase-157.7.md) | 1 |
 | [bbugyi200.athena.sase-157.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.8/README.md) | [sase-157.8](sase-157.8.md) | 1 |
 | [bbugyi200.athena.sase-157.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.9/README.md) | [sase-157.9](sase-157.9.md) | 1 |
-| [bbugyi200.athena.sase-157.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.land/README.md) | [sase-157](README.md) | 0 |
+| [bbugyi200.athena.sase-157.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-157.land.md) | [sase-157](README.md) | 0 |
 
 ## Commits
 
@@ -101,3 +115,4 @@ flowchart TD
 | sase-core | [`sase-core@ffc77b7`](https://github.com/sase-org/sase-core/commit/ffc77b751cb0831795767d7f0790b30b8680b103) | fix(xprompt-lsp): echo catalog definition paths verbatim in go-to-definition URIs | [sase-157.8](sase-157.8.md) | 2026-09-21 09:19:33 EDT |
 | sase-core | [`sase-core@3e346b0`](https://github.com/sase-org/sase-core/commit/3e346b045ca0f3832f92ff8265f1d5d4ac5215e7) | fix(sase-gateway): stabilize sudo\_runner hold-pipe stub and waiting-worker timing under parallel load | [sase-157.5](sase-157.5.md) | 2026-09-21 11:02:53 EDT |
 | sase-core | [`sase-core@d99ba11`](https://github.com/sase-org/sase-core/commit/d99ba118f8108cfd347a63b12db055470ae69b2d) | fix(sase-core): make macOS CI leg blocking and fix canonicalization test | [sase-157.9](sase-157.9.md) | 2026-09-21 12:04:38 EDT |
+| sase-core | [`sase-core@d48aaf3`](https://github.com/sase-org/sase-core/commit/d48aaf3e37582df010c8966c8b90a820f25b1530) | fix(ci): make toolchain-parse step portable to BSD sed/grep | [sase-157.10.1](sase-157.10.1.md) | 2026-09-21 12:51:55 EDT |
