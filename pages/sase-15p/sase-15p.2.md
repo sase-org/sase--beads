@@ -20,4 +20,10 @@ agy-collector: add collect_agy_usage (version floor, own process group, stderr a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-15p.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.2/README.md) | [sase-15p.2](sase-15p.2.md) | 0 |
+| [bbugyi200.athena.sase-15p.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.2/README.md) | [sase-15p.2](sase-15p.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8e0f38a`](https://github.com/sase-org/sase/commit/8e0f38a532354685635d6534fd351b8c189ce100) | feat(agy): hardened usage collector, provider hooks, fixture, tests, docs (interim; verification pending build) | [sase-15p.2](sase-15p.2.md) | 2026-09-21 16:15:05 EDT |

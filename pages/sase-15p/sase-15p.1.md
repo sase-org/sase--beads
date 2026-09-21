@@ -34,3 +34,15 @@ core-normalizer: in sase-core, add agy.rs to normalize the `agy -p /usage --outp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@45a966c`](https://github.com/sase-org/sase-core/commit/45a966c64523f21a90959758317088869618b1ee) | feat(provider-usage): add agy usage normalizer and Gemini weekly anchor rule | [sase-15p.1](sase-15p.1.md) | 2026-09-21 15:50:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15p.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15p.1/README.md
+
+<!-- sase:referenced-by:end -->
