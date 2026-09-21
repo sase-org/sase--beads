@@ -35,7 +35,7 @@
 | [sase-158.2](sase-158.2.md) | Progress event protocol, timeline model, and renderers | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-158.3](sase-158.3.md) | Emit progress events from dev-update, uv, and mode-switch backends | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-158.4](sase-158.4.md) | Wire the live timeline into the sase update live path | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-158.5](sase-158.5.md) | Mode switch, dry-run, and documentation | ◐ in_progress | small | 2026-09-21 | 1 | 0 |
+| [sase-158.5](sase-158.5.md) | Mode switch, dry-run, and documentation | ✓ closed | small | 2026-09-21 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n2["sase-158.2: Progress event protocol, timeline model, and renderers [closed]"]
     n3["sase-158.3: Emit progress events from dev-update, uv, and mode-switch backends [closed]"]
     n4["sase-158.4: Wire the live timeline into the sase update live path [closed]"]
-    n5["sase-158.5: Mode switch, dry-run, and documentation [in_progress]"]
+    n5["sase-158.5: Mode switch, dry-run, and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-158.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.2/README.md) | [sase-158.2](sase-158.2.md) | 1 |
 | [bbugyi200.apollo.sase-158.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.3/README.md) | [sase-158.3](sase-158.3.md) | 1 |
 | [bbugyi200.apollo.sase-158.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.4/README.md) | [sase-158.4](sase-158.4.md) | 1 |
-| [bbugyi200.apollo.sase-158.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.5/README.md) | [sase-158.5](sase-158.5.md) | 0 |
+| [bbugyi200.apollo.sase-158.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.5/README.md) | [sase-158.5](sase-158.5.md) | 1 |
 | [bbugyi200.apollo.sase-158.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.land/README.md) | [sase-158](README.md) | 0 |
 
 ## Commits
@@ -77,3 +77,4 @@ flowchart TD
 | sase | [`d9a1de8`](https://github.com/sase-org/sase/commit/d9a1de8cc03d9c8f0cab1a50d150fc8bc67481cd) | feat(update-progress): add event protocol, timeline, renderers, and session | [sase-158.2](sase-158.2.md) | 2026-09-21 09:38:52 EDT |
 | sase | [`5a89392`](https://github.com/sase-org/sase/commit/5a89392fe0fbfc59052b47257b9a882345c3302a) | feat(dev-update): instrument plan, execute, reconcile and mode-switch backends with progress events | [sase-158.3](sase-158.3.md) | 2026-09-21 10:35:55 EDT |
 | sase | [`f64bd3a`](https://github.com/sase-org/sase/commit/f64bd3ac23c282e3af056ace496b5def2eccf37c) | feat(update): wire live-update progress session timeline | [sase-158.4](sase-158.4.md) | 2026-09-21 13:32:15 EDT |
+| sase | [`cc29531`](https://github.com/sase-org/sase/commit/cc2953128a4ad317b4dc9f0720f629a678bcfaa6) | feat(update): run mode-switch in live session, transient dry-run timeline, docs | [sase-158.5](sase-158.5.md) | 2026-09-21 14:58:00 EDT |
