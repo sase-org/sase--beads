@@ -18,7 +18,7 @@ core-path-expectations: fix the five remaining sase_core and sase_core_py failur
 ## Dependencies
 
 - **Depends on:** [sase-157.3](sase-157.3.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-157.9](sase-157.9.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.9](sase-157.9.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

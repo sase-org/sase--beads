@@ -18,7 +18,7 @@ lsp-uri: resolve the canonical-versus-supplied path disagreement behind the two 
 ## Dependencies
 
 - **Depends on:** [sase-157.3](sase-157.3.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-157.9](sase-157.9.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.9](sase-157.9.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
