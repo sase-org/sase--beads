@@ -14,7 +14,7 @@ runner_capacity: decompose the 2,938-line runner capacity policy module into wir
 ## Dependencies
 
 - **Blocks:** [sase-15b.10](sase-15b.10.md) ◐ · ⧖ 2026-09-21
-- **Depends on:** [sase-15b.8](sase-15b.8.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.8](sase-15b.8.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

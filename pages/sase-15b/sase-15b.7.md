@@ -18,7 +18,7 @@ provider_usage_tests: split the 3,176-line provider_usage test file into a provi
 ## Dependencies
 
 - **Depends on:** [sase-15b.6](sase-15b.6.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.8](sase-15b.8.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.8](sase-15b.8.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ provider_usage_tests: split the 3,176-line provider_usage test file into a provi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@71b05bb`](https://github.com/sase-org/sase-core/commit/71b05bbce8b71e55fa6201fd0d4e5e5e0991a171) | refactor(sase-core): split provider\_usage tests into tests/ directory | [sase-15b.7](sase-15b.7.md) | 2026-09-21 16:56:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md
+
+<!-- sase:referenced-by:end -->
