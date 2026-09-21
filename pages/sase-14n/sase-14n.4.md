@@ -14,7 +14,7 @@ import_budget: the app import now sits exactly at the 3290 module cap against a 
 ## Dependencies
 
 - **Blocks:** [sase-14n.7](sase-14n.7.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14n.8](sase-14n.8.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14n.8](sase-14n.8.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

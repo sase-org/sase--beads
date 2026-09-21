@@ -66,7 +66,7 @@ _notification_unread_projection.py.
 | [sase-14n.5](sase-14n.5.md) | Stop eleven ACE tests asserting a full pytest tmp path | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.6](sase-14n.6.md) | Settle the clan-collapse agent-row label weight | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.7](sase-14n.7.md) | Repair the Agents view surfaces the metadata-only default left behind | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.8](sase-14n.8.md) | Make the notification modal footer fit the modal | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14n.8](sase-14n.8.md) | Make the notification modal footer fit the modal | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.9](sase-14n.9.md) | Disclose the run id on a failed launch and gate the floor smoke | ◐ in_progress | small | 2026-09-20 | 1 | 1 |
 
 ## Lineage
@@ -86,7 +86,7 @@ flowchart TD
     n10["sase-14n.5: Stop eleven ACE tests asserting a full pytest tmp path [closed]"]
     n11["sase-14n.6: Settle the clan-collapse agent-row label weight [closed]"]
     n12["sase-14n.7: Repair the Agents view surfaces the metadata-only default left behind [closed]"]
-    n13["sase-14n.8: Make the notification modal footer fit the modal [in_progress]"]
+    n13["sase-14n.8: Make the notification modal footer fit the modal [closed]"]
     n14["sase-14n.9: Disclose the run id on a failed launch and gate the floor smoke [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.5/README.md) | [sase-14n.5](sase-14n.5.md) | 1 |
 | [bbugyi200.athena.sase-14n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.6/README.md) | [sase-14n.6](sase-14n.6.md) | 1 |
 | [bbugyi200.athena.sase-14n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.7/README.md) | [sase-14n.7](sase-14n.7.md) | 1 |
-| [bbugyi200.athena.sase-14n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.8/README.md) | [sase-14n.8](sase-14n.8.md) | 0 |
+| [bbugyi200.athena.sase-14n.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.8.md) | [sase-14n.8](sase-14n.8.md) | 1 |
 | [bbugyi200.athena.sase-14n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.9/README.md) | [sase-14n.9](sase-14n.9.md) | 1 |
 | [bbugyi200.athena.sase-14n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.land/README.md) | [sase-14n](README.md) | 0 |
 
@@ -161,3 +161,4 @@ flowchart TD
 | sase-core | [`sase-core@2f37e54`](https://github.com/sase-org/sase-core/commit/2f37e54f906fdee3079c20ea5d3655b76dc05af0) | feat(notifications): add undismiss transition to core store and wire format | [sase-14n.13](sase-14n.13.md) | 2026-09-20 20:26:35 EDT |
 | sase | [`c041716`](https://github.com/sase-org/sase/commit/c04171670c35ebc86361fc8f7ecc7569d9a586fc) | fix(gate): keep declared shell block through gate creation | [sase-14n.12](sase-14n.12.md) | 2026-09-20 22:32:16 EDT |
 | sase | [`b3550b5`](https://github.com/sase-org/sase/commit/b3550b56ea3dd109249609dde848040a8a09369d) | fix(agents-view): dispatch zoom LLM Calls visibility message and repaint header hint on every picker exit | [sase-14n.7](sase-14n.7.md) | 2026-09-21 12:21:10 EDT |
+| sase | [`03fff9d`](https://github.com/sase-org/sase/commit/03fff9dcbcad9c17e62cbc2217033c6be30a6a18) | fix(ace): fit notification modal footer to modal width so close and +1 stay visible | [sase-14n.8](sase-14n.8.md) | 2026-09-21 13:20:25 EDT |

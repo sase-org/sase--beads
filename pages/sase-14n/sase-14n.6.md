@@ -14,7 +14,7 @@ row_weight_golden: decide whether the tribeless DONE agent row lost its bold lab
 ## Dependencies
 
 - **Blocks:** [sase-14n.7](sase-14n.7.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14n.8](sase-14n.8.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14n.8](sase-14n.8.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
