@@ -13,7 +13,7 @@ tab-id: rename the internal ACE tab id from `axe` to `services` across tab_order
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.10.1.2](sase-11y.10.1.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-11y.10.1.2](sase-11y.10.1.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-11y.10.1.5](sase-11y.10.1.5.md) ◐ · ⧖ 2026-09-20
 - **Blocks:** [sase-11y.10.1.6](sase-11y.10.1.6.md) ◐ · ⧖ 2026-09-20
 
@@ -21,4 +21,4 @@ tab-id: rename the internal ACE tab id from `axe` to `services` across tab_order
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.4/README.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.4.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 0 |

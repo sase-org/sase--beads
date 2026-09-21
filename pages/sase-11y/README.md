@@ -45,6 +45,10 @@ Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monit
 
 [2026-09-20T16:33:17Z · sase-12z.5.land] DISCOVERED ISSUE: phase sase-11y.7 (commit 92dd554c4, 'feat(tui): finish Services tab host chrome, health pill, and quit flow') changed rendered TUI output without committing the dirty screenshot goldens, leaving 18 PNG goldens stale on master. It changed _TAB_COLORS['axe'] in src/sase/ace/tui/widgets/tab_bar.py from #FF5F5F to #00D7AF, so the active Services tab label renders teal instead of red in every AXE-surface golden, and it reworded the '!x' help entry to 'Start / stop service host or ...'. Found on 2026-09-20 by the sase-12z.5 land agent: a complete 'just test-visual' at master 624a29ea7 reported created=0 updated=19 unchanged=690 with update groups representative axe_chop_description_120x40.png (17 members) and help_keymaps_changespecs_120x40.png. I reviewed both groups against expected/actual captures, confirmed the only differences are the intended tab accent and the reworded binding, and refreshed all 18 as part of landing sase-12z.5 (axe_chop_description, axe_chop_description_collapsed, axe_chop_overrun, axe_chop_report_absent, axe_chop_report_error, axe_chop_report_rich, axe_chop_run_info_panel, axe_chop_run_info_panel_running, axe_description_overflow, axe_disabled_chop_row, axe_empty, axe_long_label_widened, axe_lumberjack_description, axe_lumberjack_error, axe_lumberjack_tree, axe_selected_row, help_keymaps_changespecs, link_rail_axe_twelve_links). No action is needed on the goldens; the note is here so this epic's remaining phases run 'just fix-tui-screenshots' after any further Services-tab rendering change — that requirement is now in the canonical finalizer skill (sase-12z.5.1, commit 3538713c0).
 
+[2026-09-20T21:03:39Z · 0o9--code] DISCOVERED ISSUE: `just check` fails at lint (feature flags) on origin/master ec7dbbfdf with `rule 7: closed flag bead 'sase-12m' still has a surviving 'service_host' definition` (SASE_SYMVISION_BEAD_STATUS_ONLY=1 BD_COMMAND=tools/sase_bead tools/check_feature_flags). Cause: flag bead sase-12m was closed at 2026-09-20T19:11:15Z by phase sase-11y.10.1.2, whose note #1 says FeatureFlag.service_host, its registry definition and its schema property are deleted. That removal is not on origin/master as of a fresh fetch at about 20:50Z: src/sase/feature_flags/registry.py still defines FeatureFlag.service_host (lines 35 and 151), and sase-11y.10.1.2 was still IN_PROGRESS. The bead store is shared across workspaces, so the close is visible to every agent at once while the code is not, and `just check` is red for all of them until the change lands. Reproduced on a clean tree with local changes stashed. No new task filed: it should clear when the phase's change reaches master.
+
+[2026-09-20T22:49:49Z · 18--code] DISCOVERED ISSUE: 'just check' stops at 'lint (feature flags)' on master 4255afbb05 with 'rule 7: closed flag bead sase-12m still has a surviving service_host definition' (tools/check_feature_flags, run via SASE_SYMVISION_BEAD_STATUS_ONLY=1 BD_COMMAND=tools/sase_bead). Flag bead sase-12m (Retire service_host) is closed (2026-09-20T19:11Z) but the service_host flag definition is still present, so the gate is red until the removal phase (sase-11y.10.1.x) lands. The same tree also fails symvision on 27 unused public symbols in service/host_support.py and service/host_reporting.py (tracked as sase-13s). Found by an unrelated agent (Update-panel provider detail work); reproduced on a tree with none of these files touched.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -55,7 +59,7 @@ Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monit
 | [sase-11y.3](sase-11y.3.md) | Extract the shared child-supervision library | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ✓ closed | large | 2026-09-16 | 1 | 2 |
-| [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 2 |
+| [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ✓ closed | large | 2026-09-16 | 1 | 2 |
 | [sase-11y.8](sase-11y.8.md) | Migrate background commands to oneshot service procs | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.9](sase-11y.9.md) | Live migration on athena and apollo | ✓ closed | medium | 2026-09-16 | 1 | 0 |
@@ -69,77 +73,94 @@ flowchart TD
     n2["sase-11y.10: Sunset legacy paths, docs, and glossary [in_progress]"]
     n3["sase-11y.10.1: Sunset legacy supervision paths, docs, and glossary [in_progress]"]
     n4["sase-11y.10.1.1: Retire the Telegram receiver rearm branch [closed]"]
-    n5["sase-11y.10.1.2: Remove the service_host beta flag and its Off branches [in_progress]"]
+    n5["sase-11y.10.1.2: Remove the service_host beta flag and its Off branches [closed]"]
     n6["sase-11y.10.1.3: Retire the AXE watchdogs and alias sase axe to sase scheduler [in_progress]"]
-    n7["sase-11y.10.1.4: Canonicalize the Services tab id [in_progress]"]
-    n8["sase-11y.10.1.5: Update the documentation for the service host [in_progress]"]
-    n9["sase-11y.10.1.6: Land the service-host glossary strands [in_progress]"]
-    n10["sase-11y.2: sase-core service foundations [closed]"]
-    n11["sase-11y.2.1: sase-core service foundations [closed]"]
-    n12["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
-    n13["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
-    n14["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
-    n15["sase-11y.2.1.4: Enablement resolution and the service status snapshot wire [closed]"]
-    n16["sase-11y.2.1.5: Complete service-foundation landing integration [closed]"]
-    n17["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
-    n18["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
-    n19["sase-11y.3: Extract the shared child-supervision library [closed]"]
-    n20["sase-11y.4: Service host runtime and CLI [closed]"]
-    n21["sase-11y.5: Platform units and init integration [closed]"]
-    n22["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
-    n23["sase-11y.7: Services tab in the TUI [closed]"]
-    n24["sase-11y.8: Migrate background commands to oneshot service procs [closed]"]
-    n25["sase-11y.9: Live migration on athena and apollo [closed]"]
+    n7["sase-11y.10.1.3.1: Retire the AXE watchdogs and alias sase axe to sase scheduler [in_progress]"]
+    n8["sase-11y.10.1.3.1.1: Delete the axe ensure watchdog and its healing notifications [closed]"]
+    n9["sase-11y.10.1.3.1.2: Delete the axe-start systemd scope wrapper and its evidence [in_progress]"]
+    n10["sase-11y.10.1.3.1.3: Route the post-update restart through the scheduler service proc [in_progress]"]
+    n11["sase-11y.10.1.3.1.4: Make sase axe lifecycle verbs an alias of sase scheduler [in_progress]"]
+    n12["sase-11y.10.1.3.1.5: Delete the AXE restart machinery the alias orphaned [in_progress]"]
+    n13["sase-11y.10.1.4: Canonicalize the Services tab id [in_progress]"]
+    n14["sase-11y.10.1.5: Update the documentation for the service host [in_progress]"]
+    n15["sase-11y.10.1.6: Land the service-host glossary strands [in_progress]"]
+    n16["sase-11y.2: sase-core service foundations [closed]"]
+    n17["sase-11y.2.1: sase-core service foundations [closed]"]
+    n18["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
+    n19["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
+    n20["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
+    n21["sase-11y.2.1.4: Enablement resolution and the service status snapshot wire [closed]"]
+    n22["sase-11y.2.1.5: Complete service-foundation landing integration [closed]"]
+    n23["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
+    n24["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
+    n25["sase-11y.3: Extract the shared child-supervision library [closed]"]
+    n26["sase-11y.4: Service host runtime and CLI [closed]"]
+    n27["sase-11y.5: Platform units and init integration [closed]"]
+    n28["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
+    n29["sase-11y.7: Services tab in the TUI [closed]"]
+    n30["sase-11y.8: Migrate background commands to oneshot service procs [closed]"]
+    n31["sase-11y.9: Live migration on athena and apollo [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
     n3 --> n4
     n3 --> n5
     n3 --> n6
-    n3 --> n7
-    n3 --> n8
-    n3 --> n9
-    n0 --> n10
-    n10 --> n11
-    n11 --> n12
-    n11 --> n13
-    n11 --> n14
-    n11 --> n15
-    n11 --> n16
+    n6 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n7 --> n12
+    n3 --> n13
+    n3 --> n14
+    n3 --> n15
+    n0 --> n16
     n16 --> n17
-    n16 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
-    n0 --> n24
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n17 --> n22
+    n22 --> n23
+    n22 --> n24
     n0 --> n25
-    n1 -.-> n20
+    n0 --> n26
+    n0 --> n27
+    n0 --> n28
+    n0 --> n29
+    n0 --> n30
+    n0 --> n31
+    n1 -.-> n26
     n4 -.-> n5
     n5 -.-> n6
-    n5 -.-> n7
-    n6 -.-> n8
-    n6 -.-> n9
-    n7 -.-> n8
-    n7 -.-> n9
-    n10 -.-> n20
-    n10 -.-> n23
-    n12 -.-> n13
+    n5 -.-> n13
+    n6 -.-> n14
+    n6 -.-> n15
+    n8 -.-> n9
+    n8 -.-> n11
+    n9 -.-> n11
+    n10 -.-> n11
+    n11 -.-> n12
     n13 -.-> n14
-    n14 -.-> n15
-    n17 -.-> n18
+    n13 -.-> n15
+    n16 -.-> n26
+    n16 -.-> n29
+    n18 -.-> n19
     n19 -.-> n20
     n20 -.-> n21
-    n20 -.-> n22
-    n20 -.-> n23
-    n20 -.-> n24
-    n21 -.-> n25
-    n22 -.-> n25
-    n23 -.-> n2
     n23 -.-> n24
-    n24 -.-> n2
-    n25 -.-> n2
+    n25 -.-> n26
+    n26 -.-> n27
+    n26 -.-> n28
+    n26 -.-> n29
+    n26 -.-> n30
+    n27 -.-> n31
+    n28 -.-> n31
+    n29 -.-> n2
+    n29 -.-> n30
+    n30 -.-> n2
+    n31 -.-> n2
 ```
 
 ## Agents
@@ -148,10 +169,16 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.1/README.md) | [sase-11y.1](sase-11y.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.md) | [sase-11y.10](sase-11y.10.md) | 0 |
-| [bbugyi200.athena.sase-11y.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.1/README.md) | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.1/README.md) | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.2.md) | [sase-11y.10.1.2](sase-11y.10.1.2.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3/README.md) | [sase-11y.10.1.3](sase-11y.10.1.3.md) | 0 |
-| [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.4/README.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.3.md) | [sase-11y.10.1.3](sase-11y.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.1/README.md) | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.2/README.md) | [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.4/README.md) | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.4.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.5/README.md) | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.6/README.md) | [sase-11y.10.1.6](sase-11y.10.1.6.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.land/README.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
@@ -166,7 +193,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.3.md) | [sase-11y.3](sase-11y.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.4.md) | [sase-11y.4](sase-11y.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.5.md) | [sase-11y.5](sase-11y.5.md) | 2 |
-| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 2 |
+| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 1 |
 | [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 2 |
 | [bbugyi200.athena.sase-11y.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.8/README.md) | [sase-11y.8](sase-11y.8.md) | 1 |
 | [bbugyi200.athena.sase-11y.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.9/README.md) | [sase-11y.9](sase-11y.9.md) | 0 |
@@ -192,10 +219,9 @@ flowchart TD
 | sase | [`9ecf40c`](https://github.com/sase-org/sase/commit/9ecf40c5d60a9f9f8478e2d6a854c5934ae1cdd2) | feat(service): add beta service host runtime CLI | [sase-11y.4](sase-11y.4.md) | 2026-09-18 05:31:15 EDT |
 | sase | [`c2befdb`](https://github.com/sase-org/sase/commit/c2befdbb3e83e6531c61d28af5dacb91f661ce16) | feat(tui): add services tab controls | [sase-11y.7](sase-11y.7.md) | 2026-09-18 06:59:19 EDT |
 | sase | [`e92e6c9`](https://github.com/sase-org/sase/commit/e92e6c91c1ed4f8ff8d8f83250674d7dd46dbf61) | feat(mobile): move gateway to service host | [sase-11y.6](sase-11y.6.md) | 2026-09-18 07:49:43 EDT |
-| sase-telegram | [`sase-telegram@2f76876`](https://github.com/sase-org/sase-telegram/commit/2f768762d2aba05cafa52ba7a7ec96d71a4342d9) | feat(receiver): register service-host proc | [sase-11y.6](sase-11y.6.md) | 2026-09-18 07:54:07 EDT |
 | sase | [`3fb42fa`](https://github.com/sase-org/sase/commit/3fb42fa11ee2ba0539a085484edb2e3f98e6dd1f) | feat(service): add platform unit integration | [sase-11y.5](sase-11y.5.md) | 2026-09-18 09:07:18 EDT |
 | sase | [`23c740a`](https://github.com/sase-org/sase/commit/23c740a9aab8eb0f6a2e24abfab9e5cfb02321c0) | feat(service): finish native platform units and init integration | [sase-11y.5](sase-11y.5.md) | 2026-09-19 09:57:17 EDT |
 | sase | [`92dd554`](https://github.com/sase-org/sase/commit/92dd554c4cc33db81ae9232a31d1a31d5cc2f493) | feat(tui): finish Services tab host chrome, health pill, and quit flow | [sase-11y.7](sase-11y.7.md) | 2026-09-20 07:32:38 EDT |
 | sase | [`9316a24`](https://github.com/sase-org/sase/commit/9316a24e5b05016e0819c9f3a5e687a84f878d99) | feat(service): run ! background commands as transient oneshot service procs | [sase-11y.8](sase-11y.8.md) | 2026-09-20 13:36:06 EDT |
-| sase-telegram | [`sase-telegram@f99521c`](https://github.com/sase-org/sase-telegram/commit/f99521c8e285bf16133db2ca67cbed0ad2dd52c6) | fix(receiver): stop consulting the service\_host flag in the rearm check | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 2026-09-20 14:20:19 EDT |
 | sase | [`ef99009`](https://github.com/sase-org/sase/commit/ef990099089ba524972140bd4268631e11c74b29) | refactor(service): remove the service\_host beta flag and its Off branches | [sase-11y.10.1.2](sase-11y.10.1.2.md) | 2026-09-20 17:08:43 EDT |
+| sase | [`0806937`](https://github.com/sase-org/sase/commit/08069374675ab58558336be75bef2e8dbb8fe866) | feat(axe): delete the axe ensure watchdog and its healing notifications | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 2026-09-20 22:20:59 EDT |
