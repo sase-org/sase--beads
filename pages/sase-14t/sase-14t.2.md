@@ -21,7 +21,7 @@ swarm: rewrite the research_swarm xprompt around four provider-gated researcher 
 
 - **Depends on:** [sase-14t.1](sase-14t.1.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14t.3](sase-14t.3.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [sase-14t.4](sase-14t.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14t.4](sase-14t.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
