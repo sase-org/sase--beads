@@ -14,7 +14,7 @@ axe-alias: retarget `sase axe start|stop|restart|status` at `handle_scheduler_co
 ## Dependencies
 
 - **Depends on:** [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) ✓ · ⧖ 2026-09-20
-- **Depends on:** [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) ◐ · ⧖ 2026-09-20
 
