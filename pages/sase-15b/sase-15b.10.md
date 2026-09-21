@@ -13,10 +13,22 @@ notification_store_parity: split the 2,825-line notification store integration t
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.9](sase-15b.9.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.9](sase-15b.9.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-15b.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md) | [sase-15b.10](sase-15b.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+
+<!-- sase:referenced-by:end -->

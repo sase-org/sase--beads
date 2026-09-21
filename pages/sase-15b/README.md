@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/sase_core_next_ten_big_file_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_next_ten_big_file_split.md
 
@@ -38,7 +38,7 @@ Each of the ten largest Rust files remaining in the sase-core repo after epic sa
 | [sase-15b.6](sase-15b.6.md) | Split crates/sase\_core/src/tool\_run/store.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.7](sase-15b.7.md) | Split crates/sase\_core/src/provider\_usage/tests.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.8](sase-15b.8.md) | Split crates/sase\_core/src/editor/directive.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-15b.9](sase-15b.9.md) | Split crates/sase\_core/src/runner\_capacity.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-15b.9](sase-15b.9.md) | Split crates/sase\_core/src/runner\_capacity.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 
 ## Lineage
 
@@ -54,7 +54,7 @@ flowchart TD
     n7["sase-15b.6: Split crates/sase_core/src/tool_run/store.rs [closed]"]
     n8["sase-15b.7: Split crates/sase_core/src/provider_usage/tests.rs [closed]"]
     n9["sase-15b.8: Split crates/sase_core/src/editor/directive.rs [closed]"]
-    n10["sase-15b.9: Split crates/sase_core/src/runner_capacity.rs [in_progress]"]
+    n10["sase-15b.9: Split crates/sase_core/src/runner_capacity.rs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-15b.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.6/README.md) | [sase-15b.6](sase-15b.6.md) | 1 |
 | [bbugyi200.athena.sase-15b.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md) | [sase-15b.7](sase-15b.7.md) | 1 |
 | [bbugyi200.athena.sase-15b.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.8/README.md) | [sase-15b.8](sase-15b.8.md) | 1 |
-| [bbugyi200.athena.sase-15b.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.9/README.md) | [sase-15b.9](sase-15b.9.md) | 0 |
+| [bbugyi200.athena.sase-15b.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.9/README.md) | [sase-15b.9](sase-15b.9.md) | 1 |
 | [bbugyi200.athena.sase-15b.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md) | [sase-15b](README.md) | 0 |
 
 ## Commits
@@ -104,6 +104,7 @@ flowchart TD
 | sase-core | [`sase-core@b7af6b7`](https://github.com/sase-org/sase-core/commit/b7af6b7ce58a0888253e1f8223f2e502512d33bb) | refactor(sase-core): split tool\_run store into connection, lifecycle, query, retention modules | [sase-15b.6](sase-15b.6.md) | 2026-09-21 16:21:13 EDT |
 | sase-core | [`sase-core@71b05bb`](https://github.com/sase-org/sase-core/commit/71b05bbce8b71e55fa6201fd0d4e5e5e0991a171) | refactor(sase-core): split provider\_usage tests into tests/ directory | [sase-15b.7](sase-15b.7.md) | 2026-09-21 16:56:29 EDT |
 | sase-core | [`sase-core@59327d6`](https://github.com/sase-org/sase-core/commit/59327d62c18b61c8680d367e69ab58c6f1c296f9) | refactor(sase-core): split editor directive into metadata, contract, candidate, context modules | [sase-15b.8](sase-15b.8.md) | 2026-09-21 17:21:30 EDT |
+| sase-core | [`sase-core@f54b2ba`](https://github.com/sase-org/sase-core/commit/f54b2ba4cb7c38739f0a9c5c202ca1a4077de9d4) | refactor(sase-core): split runner\_capacity into module tree | [sase-15b.9](sase-15b.9.md) | 2026-09-21 17:52:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -111,8 +112,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-15b.2][1] | epic symbols check | 1 |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability | 2 |
+| read-by | [agent:sase-15b.2][2] | epic symbols check | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md
 
 <!-- sase:referenced-by:end -->

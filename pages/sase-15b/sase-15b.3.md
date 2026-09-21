@@ -38,8 +38,10 @@ agent_stats_run: decompose the 3,732-line run-stats aggregation module into quer
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-15b.3][1] | Confirm phase bead closed after split work | 2 |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
+| read-by | [agent:sase-15b.3][2] | Confirm phase bead closed after split work | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md
 
 <!-- sase:referenced-by:end -->

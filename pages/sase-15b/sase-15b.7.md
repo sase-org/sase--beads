@@ -38,8 +38,10 @@ provider_usage_tests: split the 3,176-line provider_usage test file into a provi
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-15b.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 2 |
+| read-by | [agent:sase-15b.7][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md
 
 <!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ editor_directive: decompose the 2,952-line editor directive module into metadata
 ## Dependencies
 
 - **Depends on:** [sase-15b.7](sase-15b.7.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.9](sase-15b.9.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.9](sase-15b.9.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,17 @@ editor_directive: decompose the 2,952-line editor directive module into metadata
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@59327d6`](https://github.com/sase-org/sase-core/commit/59327d62c18b61c8680d367e69ab58c6f1c296f9) | refactor(sase-core): split editor directive into metadata, contract, candidate, context modules | [sase-15b.8](sase-15b.8.md) | 2026-09-21 17:21:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
+| read-by | [agent:sase-15b.8][2] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.8/README.md
+
+<!-- sase:referenced-by:end -->
