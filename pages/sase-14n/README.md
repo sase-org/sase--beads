@@ -23,6 +23,33 @@
 
 Every bug and CI task bead filed by agents on 2026-09-20 that is neither a duplicate nor already fixed is repaired and closed: `just check` passes on a clean master with no known-failure caveat, the ACE PNG corpus matches its goldens, and the nine product defects behind those beads (ToolRun ledger addressability and retention, the release core-floor smoke, doctor model advisories, the Agents view surfaces, the notification modal footer, gate reachability, and workspace-preparation diagnostics) are fixed.
 
+## Notes
+
+[2026-09-21T01:30:20Z · sase-14l.land] DISCOVERED ISSUE (found by the sase-14l land agent, 2026-09-21, master 383f2c282, workspace sase_16): two nodes this epic owns are red on master.
+
+1. tests/tool/test_retention_files.py::test_reap_reclaims_quarantined_store_at_log_horizon fails with
+   AssertionError: assert '.../home/tools/runs.sqlite.corrupt-1' in []
+   (test_retention_files.py:115). Phase sase-14n.10 added this test in 2b68fc9b3 and its
+   close note reports it passing, but the sase-core fix it exercises is 4b0f5d6
+   ('fix(tool-run): reclaim quarantined stores under the log retention horizon',
+   committed 2026-09-20 23:16 UTC) and sase-core-revision.txt still pins
+   1655a1298fc99a906d1c0ae9607b8a142aec08e8, which predates it. CI builds the Rust core
+   from that pin, so this host test cannot pass until the pin ratchets past 4b0f5d6
+   (tools/ratchet_core_revision, or the scheduled core-pin-ratchet workflow). Reproduced
+   twice: inside the full just check lane and in an isolated serial rerun.
+
+2. tests/ace/tui/test_app_import_budget.py::test_tui_app_import_stays_under_startup_budget
+   now fails on the CPU-TIME budget, not the module count that open phase sase-14n.4 and
+   task sase-13p describe: 'TUI app import stayed over the 5.0s CPU budget after 2
+   attempts (elapsed=5.2872555519999995, module_count=3275)'. module_count 3275 is now
+   comfortably under the 3290 cap, so the numbers in sase-13p are stale; whatever
+   remains is the timing assertion (closed sase-136's class), and sase-14n.4 should
+   re-measure before assuming the module-count framing still applies.
+
+Neither is caused by epic sase-14l, which touches only
+src/sase/ace/tui/actions/agents/_notification_utils.py, _unread_state.py and
+_notification_unread_projection.py.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -30,8 +57,8 @@ Every bug and CI task bead filed by agents on 2026-09-20 that is neither a dupli
 | [sase-14n.1](sase-14n.1.md) | Clear the 26 unused public symbols that abort every lint run | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.10](sase-14n.10.md) | Reclaim quarantined ToolRun stores | ✓ closed | medium | 2026-09-20 | 1 | 2 |
 | [sase-14n.11](sase-14n.11.md) | Warn on every advisory-flagged pool member | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14n.12](sase-14n.12.md) | Keep the declared shell block through gate creation | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
-| [sase-14n.13](sase-14n.13.md) | Make notification dismissal recoverable | ✓ closed | medium | 2026-09-20 | 1 | 2 |
+| [sase-14n.12](sase-14n.12.md) | Keep the declared shell block through gate creation | ✓ closed | medium | 2026-09-20 | 1 | 1 |
+| [sase-14n.13](sase-14n.13.md) | Make notification dismissal recoverable | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.14](sase-14n.14.md) | Surface why workspace preparation failed | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.2](sase-14n.2.md) | Restore the complete-history latch reset on a changed query key | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14n.3](sase-14n.3.md) | Settle the land segment's queue weight | ✓ closed | medium | 2026-09-20 | 1 | 1 |
@@ -50,7 +77,7 @@ flowchart TD
     n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [closed]"]
     n2["sase-14n.10: Reclaim quarantined ToolRun stores [closed]"]
     n3["sase-14n.11: Warn on every advisory-flagged pool member [closed]"]
-    n4["sase-14n.12: Keep the declared shell block through gate creation [in_progress]"]
+    n4["sase-14n.12: Keep the declared shell block through gate creation [closed]"]
     n5["sase-14n.13: Make notification dismissal recoverable [closed]"]
     n6["sase-14n.14: Surface why workspace preparation failed [closed]"]
     n7["sase-14n.2: Restore the complete-history latch reset on a changed query key [closed]"]
@@ -102,8 +129,8 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.1/README.md) | [sase-14n.1](sase-14n.1.md) | 1 |
 | [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 2 |
 | [bbugyi200.athena.sase-14n.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.11/README.md) | [sase-14n.11](sase-14n.11.md) | 1 |
-| [bbugyi200.athena.sase-14n.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.12/README.md) | [sase-14n.12](sase-14n.12.md) | 0 |
-| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 2 |
+| [bbugyi200.athena.sase-14n.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.12/README.md) | [sase-14n.12](sase-14n.12.md) | 1 |
+| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 1 |
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 1 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
@@ -131,4 +158,4 @@ flowchart TD
 | sase | [`4703e91`](https://github.com/sase-org/sase/commit/4703e9107b8fc2ce7a136f67955f8c2d3dce166a) | fix(doctor): warn on every advisory-flagged alias pool member | [sase-14n.11](sase-14n.11.md) | 2026-09-20 19:45:30 EDT |
 | sase | [`090f3ad`](https://github.com/sase-org/sase/commit/090f3add5a36095f441d4319fbe024d7f83d49cd) | fix(axe): surface underlying workspace preparation failure reason | [sase-14n.14](sase-14n.14.md) | 2026-09-20 19:57:35 EDT |
 | sase | [`98bf83a`](https://github.com/sase-org/sase/commit/98bf83a38cc9f51e97465e09faeff47c33d5c865) | feat(notifications): add undismiss transition to recover dismissed live gates | [sase-14n.13](sase-14n.13.md) | 2026-09-20 20:22:42 EDT |
-| sase-core | [`sase-core@2f37e54`](https://github.com/sase-org/sase-core/commit/2f37e54f906fdee3079c20ea5d3655b76dc05af0) | feat(notifications): add undismiss transition to core store and wire format | [sase-14n.13](sase-14n.13.md) | 2026-09-20 20:26:35 EDT |
+| sase | [`c041716`](https://github.com/sase-org/sase/commit/c04171670c35ebc86361fc8f7ecc7569d9a586fc) | fix(gate): keep declared shell block through gate creation | [sase-14n.12](sase-14n.12.md) | 2026-09-20 22:32:16 EDT |
