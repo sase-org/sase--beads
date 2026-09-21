@@ -17,7 +17,7 @@ py_bindings: decompose the 35,166-line PyO3 binding crate root into a domain-key
 
 ## Dependencies
 
-- **Blocks:** [sase-14s.2](sase-14s.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14s.2](sase-14s.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

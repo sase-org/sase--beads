@@ -13,7 +13,7 @@ bead_mutation: decompose the 11,316-line bead mutation module along its create/u
 
 ## Dependencies
 
-- **Depends on:** [sase-14s.2](sase-14s.2.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.2](sase-14s.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14s.4](sase-14s.4.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
