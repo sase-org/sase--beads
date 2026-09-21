@@ -19,7 +19,7 @@ axe-cli: delete the ensure watchdog, the opportunistic ensure on agent waits, th
 
 - **Depends on:** [sase-11y.10.1.2](sase-11y.10.1.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-11y.10.1.5](sase-11y.10.1.5.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [sase-11y.10.1.6](sase-11y.10.1.6.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-11y.10.1.6](sase-11y.10.1.6.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
