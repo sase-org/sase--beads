@@ -20,7 +20,7 @@ gateway_routes: decompose the 10,062-line axum router module into state, router 
 ## Dependencies
 
 - **Depends on:** [sase-14s.4](sase-14s.4.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14s.6](sase-14s.6.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14s.6](sase-14s.6.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
