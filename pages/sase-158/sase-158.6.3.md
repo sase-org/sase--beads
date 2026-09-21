@@ -13,10 +13,16 @@ handler-wiring-fixes: print stdout only after teardown in the live, mode-switch,
 
 ## Dependencies
 
-- **Depends on:** [sase-158.6.2](sase-158.6.2.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-158.6.2](sase-158.6.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-158.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.3/README.md) | [sase-158.6.3](sase-158.6.3.md) | 0 |
+| [bbugyi200.apollo.sase-158.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.3/README.md) | [sase-158.6.3](sase-158.6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`991e36d`](https://github.com/sase-org/sase/commit/991e36d955fec3e8c6e927479af304ce592550d8) | feat(update): wire handler fixes for live progress (managed rows, trailing order, interrupts, argv, RunUvFn, docs, tests) | [sase-158.6.3](sase-158.6.3.md) | 2026-09-21 18:27:38 EDT |
