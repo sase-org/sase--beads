@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-14l.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.1/README.md) | [sase-14l.1](sase-14l.1.md) | 1 |
 | [bbugyi200.apollo.sase-14l.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.2/README.md) | [sase-14l.2](sase-14l.2.md) | 1 |
 | [bbugyi200.apollo.sase-14l.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.3/README.md) | [sase-14l.3](sase-14l.3.md) | 1 |
-| [bbugyi200.apollo.sase-14l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.land/README.md) | [sase-14l](README.md) | 1 |
+| [bbugyi200.apollo.sase-14l.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-14l.land/README.md) | [sase-14l](README.md) | 2 |
 
 ## Commits
 
@@ -155,3 +155,4 @@ flowchart TD
 | sase | [`64b2463`](https://github.com/sase-org/sase/commit/64b246312a0fd6ee669577e5be8d45f7564c6ea9) | feat(notify): dismiss row-owned settlement rows on agent read ack | [sase-14l.2](sase-14l.2.md) | 2026-09-20 18:43:05 EDT |
 | sase | [`383f2c2`](https://github.com/sase-org/sase/commit/383f2c282791436ddcdf08d7ce9cb57604a7fd58) | feat(agents): add unread projection for settlement notifications | [sase-14l.3](sase-14l.3.md) | 2026-09-20 19:49:16 EDT |
 | sase | [`d79525c`](https://github.com/sase-org/sase/commit/d79525c557b2935436f0aed8a986a611d68fceae) | refactor(notify): privatize the settlement row predicate and retire its epic whitelist | [sase-14l](README.md) | 2026-09-20 21:42:36 EDT |
+| sase--plans | [`sase--plans@0dee3a9`](https://github.com/sase-org/sase--plans/commit/0dee3a9a1776592e5365f0f252b563e48b7256de) | docs(plan): mark epic\_launch\_read\_dismiss done | [sase-14l](README.md) | 2026-09-20 21:46:05 EDT |
