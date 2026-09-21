@@ -13,7 +13,7 @@ agent_stats_run: decompose the 3,732-line run-stats aggregation module into quer
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.2](sase-15b.2.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.2](sase-15b.2.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.4](sase-15b.4.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

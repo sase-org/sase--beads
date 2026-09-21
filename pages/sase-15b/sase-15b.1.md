@@ -17,7 +17,7 @@ bead_cli: decompose the 4,276-line bead CLI module into dispatch, per-command ha
 
 ## Dependencies
 
-- **Blocks:** [sase-15b.2](sase-15b.2.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.2](sase-15b.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
