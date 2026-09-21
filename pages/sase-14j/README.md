@@ -41,6 +41,12 @@ taught to accept an unpublished capability behind this epic), every agent's 'jus
 check' in this repo ends red on this gate regardless of their own changes. Not caused
 by epic sase-14l; recorded here because this epic owns the capability.
 
+[2026-09-21T04:06:46Z · toobig-5q.loading_apply.0] DISCOVERED ISSUE (2026-09-21, master 44577fb8f9, found while verifying an unrelated file split; independent of the core-floor-probe note above): two more master-red gates trace to this epic. Both reproduced on a clean HEAD via git stash.
+
+(1) `just check` fails at lint (symvision): bead_touch_glyph and ordered_bead_verb_chips in src/sase/ace/tui/widgets/prompt_panel/_agent_bead_touches.py are 'Unused public functions/classes'. The module came in with 2b3b37e897 (render Beads sub-section in ARTIFACTS lane). Both are used only inside that file (lines 135, 160) and by tests/ace/tui/widgets/test_agent_bead_touch_rows.py; test references do not count, so per symvision.md they should become private (or gain a real non-test consumer; --epic-symbol is only for a not-yet-landed later phase, e.g. sase-14j.6).
+
+(2) The scoped test lane fails tests/test_check_sase_core_rs_bindings_tool.py::test_dev_extension_exposes_every_collected_name: the installed sase_core_rs extension lacks bead_touch_index_query, bead_touch_index_refresh and bead_touch_index_status. Same three capabilities as the floor-probe note above, and the same stale-wheel cause sase-14j.4 recorded for tests/core/test_bead_touch_index_facade.py.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +56,7 @@ by epic sase-14l; recorded here because this epic owns the capability.
 | [sase-14j.3](sase-14j.3.md) | sase bead touched | ✓ closed | small | 2026-09-20 | 1 | 0 |
 | [sase-14j.4](sase-14j.4.md) | Resolve per-agent bead touches for the metadata panel | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14j.5](sase-14j.5.md) | Render the Beads sub-section | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14j.6](sase-14j.6.md) | Record agent bead views so unaudited reads are not silently missing | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
+| [sase-14j.6](sase-14j.6.md) | Record agent bead views so unaudited reads are not silently missing | ✓ closed | small | 2026-09-20 | 1 | 1 |
 
 ## Lineage
 
@@ -62,7 +68,7 @@ flowchart TD
     n3["sase-14j.3: sase bead touched [closed]"]
     n4["sase-14j.4: Resolve per-agent bead touches for the metadata panel [closed]"]
     n5["sase-14j.5: Render the Beads sub-section [closed]"]
-    n6["sase-14j.6: Record agent bead views so unaudited reads are not silently missing [in_progress]"]
+    n6["sase-14j.6: Record agent bead views so unaudited reads are not silently missing [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -85,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14j.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14j.3.md) | [sase-14j.3](sase-14j.3.md) | 0 |
 | [bbugyi200.athena.sase-14j.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14j.4.md) | [sase-14j.4](sase-14j.4.md) | 1 |
 | [bbugyi200.athena.sase-14j.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.5/README.md) | [sase-14j.5](sase-14j.5.md) | 1 |
-| [bbugyi200.athena.sase-14j.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.6/README.md) | [sase-14j.6](sase-14j.6.md) | 0 |
+| [bbugyi200.athena.sase-14j.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.6/README.md) | [sase-14j.6](sase-14j.6.md) | 1 |
 | [bbugyi200.athena.sase-14j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.land/README.md) | [sase-14j](README.md) | 0 |
 
 ## Commits
@@ -96,3 +102,4 @@ flowchart TD
 | sase | [`821a21c`](https://github.com/sase-org/sase/commit/821a21c49332a8ed315a2e4109888264a189b2e7) | feat(beads): add bead touch index facade with refresh hooks and doctor check | [sase-14j.2](sase-14j.2.md) | 2026-09-20 18:46:47 EDT |
 | sase | [`e1ba485`](https://github.com/sase-org/sase/commit/e1ba4851c1011acc8a8825d5570159b14f7926d0) | feat(tui): resolve per-agent bead touches for the metadata panel | [sase-14j.4](sase-14j.4.md) | 2026-09-20 21:06:00 EDT |
 | sase | [`2b3b37e`](https://github.com/sase-org/sase/commit/2b3b37e8977acdbd81cb51f0146fdab9902b7f06) | feat(agents): render Beads sub-section in ARTIFACTS lane | [sase-14j.5](sase-14j.5.md) | 2026-09-20 22:20:12 EDT |
+| sase | [`da766b8`](https://github.com/sase-org/sase/commit/da766b87a17b6fdbb1402fef50b4d28fc460e44c) | feat(beads): record agent bead show views as weaker viewed touches | [sase-14j.6](sase-14j.6.md) | 2026-09-21 08:59:35 EDT |
