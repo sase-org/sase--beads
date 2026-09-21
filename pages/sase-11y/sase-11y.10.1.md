@@ -14,8 +14,10 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/service_host_sunset.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-152][2] | The service-host sunset epic whose plan never listed this sixth direct-start path |
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/service_host_sunset.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-152/README.md
 
 <!-- sase:links:end -->
 

@@ -13,7 +13,7 @@ docs: rewrite docs/axe.md around the scheduler/host split, update ace, cli, conf
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.10.1.3](sase-11y.10.1.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-11y.10.1.3](sase-11y.10.1.3.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [sase-11y.10.1.4](sase-11y.10.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
