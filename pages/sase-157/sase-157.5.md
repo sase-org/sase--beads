@@ -13,7 +13,7 @@ sudo-started-path: stop comparing a caller-supplied --started-path against one d
 
 ## Dependencies
 
-- **Depends on:** [sase-157.4](sase-157.4.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-157.4](sase-157.4.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.9](sase-157.9.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

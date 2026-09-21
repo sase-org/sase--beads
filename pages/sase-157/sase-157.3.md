@@ -18,7 +18,7 @@ macos-ci-advisory: turn rust-checks into an os matrix with a non-blocking macos-
 ## Dependencies
 
 - **Depends on:** [sase-157.2](sase-157.2.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-157.4](sase-157.4.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.4](sase-157.4.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.6](sase-157.6.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.7](sase-157.7.md) ◐ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.8](sase-157.8.md) ◐ · ⧖ 2026-09-21

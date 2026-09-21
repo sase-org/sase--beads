@@ -30,7 +30,7 @@ The managed-tmp reap guard refuses broad roots on every platform and no test can
 | [sase-157.1](sase-157.1.md) | Fix the managed-tmp reap guard and disarm its test | ✓ closed | small | 2026-09-21 | 1 | 1 |
 | [sase-157.2](sase-157.2.md) | Let the verification gate run a filtered suite | ✓ closed | xsmall | 2026-09-21 | 1 | 1 |
 | [sase-157.3](sase-157.3.md) | Add an advisory macOS CI leg | ✓ closed | small | 2026-09-21 | 1 | 1 |
-| [sase-157.4](sase-157.4.md) | Gate the procfs process-identity token to Linux | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-157.4](sase-157.4.md) | Gate the procfs process-identity token to Linux | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-157.5](sase-157.5.md) | Fix the detached handoff started-path mismatch | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-157.6](sase-157.6.md) | Decide how attachment validation treats symlinked ancestors | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-157.7](sase-157.7.md) | Reconcile canonicalized paths across sase\_core and the bindings | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["sase-157.1: Fix the managed-tmp reap guard and disarm its test [closed]"]
     n2["sase-157.2: Let the verification gate run a filtered suite [closed]"]
     n3["sase-157.3: Add an advisory macOS CI leg [closed]"]
-    n4["sase-157.4: Gate the procfs process-identity token to Linux [in_progress]"]
+    n4["sase-157.4: Gate the procfs process-identity token to Linux [closed]"]
     n5["sase-157.5: Fix the detached handoff started-path mismatch [in_progress]"]
     n6["sase-157.6: Decide how attachment validation treats symlinked ancestors [closed]"]
     n7["sase-157.7: Reconcile canonicalized paths across sase_core and the bindings [in_progress]"]
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-157.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.1/README.md) | [sase-157.1](sase-157.1.md) | 1 |
 | [bbugyi200.athena.sase-157.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.2/README.md) | [sase-157.2](sase-157.2.md) | 1 |
 | [bbugyi200.athena.sase-157.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.3/README.md) | [sase-157.3](sase-157.3.md) | 1 |
-| [bbugyi200.athena.sase-157.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.4/README.md) | [sase-157.4](sase-157.4.md) | 0 |
+| [bbugyi200.athena.sase-157.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.4/README.md) | [sase-157.4](sase-157.4.md) | 1 |
 | [bbugyi200.athena.sase-157.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.5/README.md) | [sase-157.5](sase-157.5.md) | 0 |
 | [bbugyi200.athena.sase-157.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.6/README.md) | [sase-157.6](sase-157.6.md) | 1 |
 | [bbugyi200.athena.sase-157.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.7/README.md) | [sase-157.7](sase-157.7.md) | 0 |
@@ -96,3 +96,4 @@ flowchart TD
 | sase-core | [`sase-core@5e8d315`](https://github.com/sase-org/sase-core/commit/5e8d3158b4562cfc23ca4998f059177d9029a010) | feat(sase-core): forward check.sh/justfile trailing args to cargo test/clippy | [sase-157.2](sase-157.2.md) | 2026-09-21 07:06:03 EDT |
 | sase-core | [`sase-core@19274c0`](https://github.com/sase-org/sase-core/commit/19274c0e452411fc8714a9a4b2a72fd3f2f835a0) | ci: add advisory macOS leg to rust-checks matrix | [sase-157.3](sase-157.3.md) | 2026-09-21 07:37:23 EDT |
 | sase-core | [`sase-core@3f56910`](https://github.com/sase-org/sase-core/commit/3f569106e7b4d3711c0daa2987daf666e328c2c3) | fix(gateway): allow symlinked ancestors in attachment validation | [sase-157.6](sase-157.6.md) | 2026-09-21 08:30:42 EDT |
+| sase-core | [`sase-core@b13332f`](https://github.com/sase-org/sase-core/commit/b13332f36e3ba924803ccde2a7084a1615a1e046) | feat(sase-core): gate procfs process-identity token to Linux | [sase-157.4](sase-157.4.md) | 2026-09-21 08:59:47 EDT |
