@@ -17,7 +17,7 @@ check_green: privatize the three test-only notification footer helpers that symv
 
 ## Dependencies
 
-- **Blocks:** [sase-14n.15.2](sase-14n.15.2.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-14n.15.2](sase-14n.15.2.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-14n.15.3](sase-14n.15.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents

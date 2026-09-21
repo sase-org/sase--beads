@@ -32,3 +32,15 @@ gate_row: find how a shell-block custom gate can reach create_gate without regis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c6807d2`](https://github.com/sase-org/sase/commit/c6807d24cb3847ced1af4487637448fa35858f19) | fix(gate): refuse rowless shell-block custom gates and prove the row end to end | [sase-14n.15.3](sase-14n.15.3.md) | 2026-09-21 18:27:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-14n.15.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md
+
+<!-- sase:referenced-by:end -->
