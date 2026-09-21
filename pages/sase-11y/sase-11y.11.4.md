@@ -15,4 +15,10 @@ host-runtime-tests: add tests for these host scenarios: concurrent start, stale 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`501310b`](https://github.com/sase-org/sase/commit/501310b7553b269dff17a870006616a70321809b) | test(sase-11y.11.4): cover service-host runtime scenarios; fix startup lock race and settle orphaned oneshots | [sase-11y.11.4](sase-11y.11.4.md) | 2026-09-21 08:55:23 EDT |

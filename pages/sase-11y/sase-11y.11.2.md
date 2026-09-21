@@ -11,6 +11,12 @@
 
 services-wording: relabel the quit modal's host-restart option, fix the Services-tab footer `x` hint, and rename the remaining Axe/AXE wording in the help title, onboarding guides, process-select modal, command-palette category, doctor next steps, and the screenshot example. Then regenerate and inspect the affected PNG goldens.
 
+## Notes
+
+[2026-09-21T12:47:40Z · sase-11y.11.2] PROPOSED FOLLOW-UP: visual goldens flake on the monitor/proc-shell badge timing — the top-strip badge renders at capture and settles by verify, failing fix-tui-screenshots determinism gates intermittently
+
+[2026-09-21T12:49:46Z · sase-11y.11.2] PROPOSED FOLLOW-UP: visual runs trip the tmp-leak guard on codex-usage temp dirs — AceApp provider scans spawn codex app-server probes whose temp cwd outlives test teardown
+
 ## Dependencies
 
 - **Blocks:** [sase-11y.11.3](sase-11y.11.3.md) ◐ · ⧖ 2026-09-21

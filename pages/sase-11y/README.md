@@ -249,8 +249,8 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.1/README.md) | [sase-11y.11.1](sase-11y.11.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.2/README.md) | [sase-11y.11.2](sase-11y.11.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.3/README.md) | [sase-11y.11.3](sase-11y.11.3.md) | 0 |
-| [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 0 |
-| [bbugyi200.athena.sase-11y.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.5/README.md) | [sase-11y.11.5](sase-11y.11.5.md) | 0 |
+| [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 1 |
+| [bbugyi200.athena.sase-11y.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.5/README.md) | [sase-11y.11.5](sase-11y.11.5.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 0 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.1/README.md) | [sase-11y.2.1.1](sase-11y.2.1.1.md) | 2 |
@@ -314,3 +314,5 @@ flowchart TD
 | sase | [`da315d7`](https://github.com/sase-org/sase/commit/da315d79d16f8a5ec9d2e96a7e59005f83c5d935) | fix(scheduler): finish service-host sunset landing leftovers | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:45:13 EDT |
 | sase--plans | [`sase--plans@6d52cf3`](https://github.com/sase-org/sase--plans/commit/6d52cf361a69ad26af63b5f799cf8f8b0dddee33) | chore(plans): mark service\_host\_sunset and its finish plan done | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:47:12 EDT |
 | sase | [`213c481`](https://github.com/sase-org/sase/commit/213c481363af70deba92ee0c0dc3ee8e0c97b37c) | feat(scheduler): escape detached runners from the service cgroup via detach\_scope | [sase-11y.11.1](sase-11y.11.1.md) | 2026-09-21 08:06:31 EDT |
+| sase | [`3bd3d83`](https://github.com/sase-org/sase/commit/3bd3d839e111e7f1cdf8d37193989bbc729dab7f) | refactor(service): resolve sase-11y epic-symbol whitelist and stale start label | [sase-11y.11.5](sase-11y.11.5.md) | 2026-09-21 08:06:58 EDT |
+| sase | [`501310b`](https://github.com/sase-org/sase/commit/501310b7553b269dff17a870006616a70321809b) | test(sase-11y.11.4): cover service-host runtime scenarios; fix startup lock race and settle orphaned oneshots | [sase-11y.11.4](sase-11y.11.4.md) | 2026-09-21 08:55:23 EDT |
