@@ -14,7 +14,7 @@ docs-surfaces: say Services tab and scheduler restart in `ace.md`, `plugins.md`,
 ## Dependencies
 
 - **Depends on:** [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) ✓ · ⧖ 2026-09-21
-- **Depends on:** [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

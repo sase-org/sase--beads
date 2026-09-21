@@ -59,7 +59,7 @@ Evidence: file:monitor-stage:test-cost-924070-1789818373189266687-84ef1c63 monit
 | [sase-11y.3](sase-11y.3.md) | Extract the shared child-supervision library | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.4](sase-11y.4.md) | Service host runtime and CLI | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.5](sase-11y.5.md) | Platform units and init integration | ✓ closed | large | 2026-09-16 | 1 | 2 |
-| [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 2 |
+| [sase-11y.6](sase-11y.6.md) | Gateway builtin and Telegram plugin migration | ✓ closed | large | 2026-09-16 | 1 | 1 |
 | [sase-11y.7](sase-11y.7.md) | Services tab in the TUI | ✓ closed | large | 2026-09-16 | 1 | 2 |
 | [sase-11y.8](sase-11y.8.md) | Migrate background commands to oneshot service procs | ✓ closed | medium | 2026-09-16 | 1 | 1 |
 | [sase-11y.9](sase-11y.9.md) | Live migration on athena and apollo | ✓ closed | medium | 2026-09-16 | 1 | 0 |
@@ -86,9 +86,9 @@ flowchart TD
     n15["sase-11y.10.1.6: Land the service-host glossary strands [closed]"]
     n16["sase-11y.10.1.7: Finish the service-host sunset leftovers found at landing [in_progress]"]
     n17["sase-11y.10.1.7.1: Route the chat-install post-update recovery through the service host [closed]"]
-    n18["sase-11y.10.1.7.2: Retire the AXE desired-state marker [in_progress]"]
+    n18["sase-11y.10.1.7.2: Retire the AXE desired-state marker [closed]"]
     n19["sase-11y.10.1.7.3: Delete the scheduler options the service path ignores [closed]"]
-    n20["sase-11y.10.1.7.4: Retire the Services-tab fields the flag removal emptied [in_progress]"]
+    n20["sase-11y.10.1.7.4: Retire the Services-tab fields the flag removal emptied [closed]"]
     n21["sase-11y.10.1.7.5: Fix the service-host and scheduler reference docs [in_progress]"]
     n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [in_progress]"]
     n23["sase-11y.2: sase-core service foundations [closed]"]
@@ -189,7 +189,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-11y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.1/README.md) | [sase-11y.1](sase-11y.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.md) | [sase-11y.10](sase-11y.10.md) | 0 |
-| [bbugyi200.athena.sase-11y.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.1/README.md) | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.1/README.md) | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.2.md) | [sase-11y.10.1.2](sase-11y.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.3.md) | [sase-11y.10.1.3](sase-11y.10.1.3.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.1/README.md) | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 1 |
@@ -204,7 +204,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.1/README.md) | [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.2/README.md) | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.3/README.md) | [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.4/README.md) | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.4/README.md) | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.5/README.md) | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.6/README.md) | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 0 |
@@ -220,7 +220,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.3.md) | [sase-11y.3](sase-11y.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.4.md) | [sase-11y.4](sase-11y.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.5.md) | [sase-11y.5](sase-11y.5.md) | 2 |
-| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 2 |
+| [bbugyi200.athena.sase-11y.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.6.md) | [sase-11y.6](sase-11y.6.md) | 1 |
 | [bbugyi200.athena.sase-11y.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.7.md) | [sase-11y.7](sase-11y.7.md) | 2 |
 | [bbugyi200.athena.sase-11y.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.8/README.md) | [sase-11y.8](sase-11y.8.md) | 1 |
 | [bbugyi200.athena.sase-11y.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.9/README.md) | [sase-11y.9](sase-11y.9.md) | 0 |
@@ -246,12 +246,10 @@ flowchart TD
 | sase | [`9ecf40c`](https://github.com/sase-org/sase/commit/9ecf40c5d60a9f9f8478e2d6a854c5934ae1cdd2) | feat(service): add beta service host runtime CLI | [sase-11y.4](sase-11y.4.md) | 2026-09-18 05:31:15 EDT |
 | sase | [`c2befdb`](https://github.com/sase-org/sase/commit/c2befdbb3e83e6531c61d28af5dacb91f661ce16) | feat(tui): add services tab controls | [sase-11y.7](sase-11y.7.md) | 2026-09-18 06:59:19 EDT |
 | sase | [`e92e6c9`](https://github.com/sase-org/sase/commit/e92e6c91c1ed4f8ff8d8f83250674d7dd46dbf61) | feat(mobile): move gateway to service host | [sase-11y.6](sase-11y.6.md) | 2026-09-18 07:49:43 EDT |
-| sase-telegram | [`sase-telegram@2f76876`](https://github.com/sase-org/sase-telegram/commit/2f768762d2aba05cafa52ba7a7ec96d71a4342d9) | feat(receiver): register service-host proc | [sase-11y.6](sase-11y.6.md) | 2026-09-18 07:54:07 EDT |
 | sase | [`3fb42fa`](https://github.com/sase-org/sase/commit/3fb42fa11ee2ba0539a085484edb2e3f98e6dd1f) | feat(service): add platform unit integration | [sase-11y.5](sase-11y.5.md) | 2026-09-18 09:07:18 EDT |
 | sase | [`23c740a`](https://github.com/sase-org/sase/commit/23c740a9aab8eb0f6a2e24abfab9e5cfb02321c0) | feat(service): finish native platform units and init integration | [sase-11y.5](sase-11y.5.md) | 2026-09-19 09:57:17 EDT |
 | sase | [`92dd554`](https://github.com/sase-org/sase/commit/92dd554c4cc33db81ae9232a31d1a31d5cc2f493) | feat(tui): finish Services tab host chrome, health pill, and quit flow | [sase-11y.7](sase-11y.7.md) | 2026-09-20 07:32:38 EDT |
 | sase | [`9316a24`](https://github.com/sase-org/sase/commit/9316a24e5b05016e0819c9f3a5e687a84f878d99) | feat(service): run ! background commands as transient oneshot service procs | [sase-11y.8](sase-11y.8.md) | 2026-09-20 13:36:06 EDT |
-| sase-telegram | [`sase-telegram@f99521c`](https://github.com/sase-org/sase-telegram/commit/f99521c8e285bf16133db2ca67cbed0ad2dd52c6) | fix(receiver): stop consulting the service\_host flag in the rearm check | [sase-11y.10.1.1](sase-11y.10.1.1.md) | 2026-09-20 14:20:19 EDT |
 | sase | [`ef99009`](https://github.com/sase-org/sase/commit/ef990099089ba524972140bd4268631e11c74b29) | refactor(service): remove the service\_host beta flag and its Off branches | [sase-11y.10.1.2](sase-11y.10.1.2.md) | 2026-09-20 17:08:43 EDT |
 | sase | [`0806937`](https://github.com/sase-org/sase/commit/08069374675ab58558336be75bef2e8dbb8fe866) | feat(axe): delete the axe ensure watchdog and its healing notifications | [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) | 2026-09-20 22:20:59 EDT |
 | sase | [`d653162`](https://github.com/sase-org/sase/commit/d65316234ccf22a570969fef0561fc455e00eadf) | refactor(update): restart scheduler via service-proc after update | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 2026-09-20 22:24:05 EDT |
@@ -265,3 +263,4 @@ flowchart TD
 | sase | [`0ea0f5a`](https://github.com/sase-org/sase/commit/0ea0f5a7b3102b717228d32bdd974f870e57b19b) | docs(service-host): rewrite docs around the scheduler/host split | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 2026-09-21 03:28:21 EDT |
 | sase | [`ff7efa0`](https://github.com/sase-org/sase/commit/ff7efa0190c8902f0282315ff54d9401943e9f69) | refactor(scheduler-cli): drop service-ignored options from scheduler start\|restart | [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) | 2026-09-21 04:16:32 EDT |
 | sase | [`62c902f`](https://github.com/sase-org/sase/commit/62c902f0deccaead6b32de6a88fef9bc83e37aa5) | feat(chat-restart): route chat-install recovery through scheduler service host | [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) | 2026-09-21 04:25:43 EDT |
+| sase | [`3fbe914`](https://github.com/sase-org/sase/commit/3fbe914fb1a920af5f2cfa3fc3b1b7053b5c8f5f) | refactor(services-tab): retire flag-emptied TUI dead state | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 2026-09-21 04:46:22 EDT |
