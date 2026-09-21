@@ -17,7 +17,7 @@ reap-guard: canonicalize the unsafe-root denylist so the guard fires on macOS, w
 
 ## Dependencies
 
-- **Blocks:** [sase-157.2](sase-157.2.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.2](sase-157.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
