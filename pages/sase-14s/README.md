@@ -28,7 +28,7 @@ Each of the ten largest Rust files in the sase-core repo is decomposed into a mo
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-14s.1](sase-14s.1.md) | Split crates/sase\_core\_py/src/lib.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14s.10](sase-14s.10.md) | Split crates/sase\_gateway/src/sudo\_runner.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14s.10](sase-14s.10.md) | Split crates/sase\_gateway/src/sudo\_runner.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14s.2](sase-14s.2.md) | Split crates/sase\_core/src/agent\_scan/index.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14s.3](sase-14s.3.md) | Split crates/sase\_core/src/bead/mutation.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14s.4](sase-14s.4.md) | Split crates/sase\_core/src/fleet\_contract.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
@@ -44,7 +44,7 @@ Each of the ten largest Rust files in the sase-core repo is decomposed into a mo
 flowchart TD
     n0["sase-14s: Split The Ten Largest sase-core Rust Files Into &lt;=1500 Line Modules [in_progress]"]
     n1["sase-14s.1: Split crates/sase_core_py/src/lib.rs [closed]"]
-    n2["sase-14s.10: Split crates/sase_gateway/src/sudo_runner.rs [in_progress]"]
+    n2["sase-14s.10: Split crates/sase_gateway/src/sudo_runner.rs [closed]"]
     n3["sase-14s.2: Split crates/sase_core/src/agent_scan/index.rs [closed]"]
     n4["sase-14s.3: Split crates/sase_core/src/bead/mutation.rs [closed]"]
     n5["sase-14s.4: Split crates/sase_core/src/fleet_contract.rs [closed]"]
@@ -79,7 +79,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-14s.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.1/README.md) | [sase-14s.1](sase-14s.1.md) | 1 |
-| [bbugyi200.athena.sase-14s.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.10/README.md) | [sase-14s.10](sase-14s.10.md) | 0 |
+| [bbugyi200.athena.sase-14s.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.10/README.md) | [sase-14s.10](sase-14s.10.md) | 1 |
 | [bbugyi200.athena.sase-14s.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.2/README.md) | [sase-14s.2](sase-14s.2.md) | 1 |
 | [bbugyi200.athena.sase-14s.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.3/README.md) | [sase-14s.3](sase-14s.3.md) | 1 |
 | [bbugyi200.athena.sase-14s.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.4/README.md) | [sase-14s.4](sase-14s.4.md) | 1 |
@@ -103,3 +103,4 @@ flowchart TD
 | sase-core | [`sase-core@d1ac7bf`](https://github.com/sase-org/sase-core/commit/d1ac7bf5e2849be7d002ee3d675c3d36c897d8bc) | refactor(sase-core): split agent\_launch/mod.rs into \<=1500 line modules | [sase-14s.7](sase-14s.7.md) | 2026-09-21 08:42:19 EDT |
 | sase-core | [`sase-core@2857d6a`](https://github.com/sase-org/sase-core/commit/2857d6a1c80d92b67b1d08c0db8fa8d1a5fd22c0) | refactor(editor): split completion.rs into source-keyed module tree | [sase-14s.8](sase-14s.8.md) | 2026-09-21 09:32:10 EDT |
 | sase-core | [`sase-core@ca597b9`](https://github.com/sase-org/sase-core/commit/ca597b94ebc4603cee9c1c05f4d6c25f336116dd) | refactor(xprompt\_catalog): split 4850-line module into \<=875-line tree | [sase-14s.9](sase-14s.9.md) | 2026-09-21 10:31:16 EDT |
+| sase-core | [`sase-core@5154900`](https://github.com/sase-org/sase-core/commit/51549000a1cfa59e4b6806a39ed5595bba93dde1) | refactor(sase\_gateway): split sudo\_runner.rs into \<=701-line module tree | [sase-14s.10](sase-14s.10.md) | 2026-09-21 11:29:34 EDT |
