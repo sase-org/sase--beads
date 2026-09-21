@@ -20,8 +20,8 @@ host-refresh: add the Python facade over the new bindings, normalize actors onto
 ## Dependencies
 
 - **Depends on:** [sase-14j.1](sase-14j.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14j.3](sase-14j.3.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [sase-14j.4](sase-14j.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14j.3](sase-14j.3.md) ✓ · ⧖ 2026-09-20
+- **Blocks:** [sase-14j.4](sase-14j.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

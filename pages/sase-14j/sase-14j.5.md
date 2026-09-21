@@ -13,7 +13,7 @@ panel-render: paint the per-bead rows, verb chips, glyph and palette, lane count
 
 ## Dependencies
 
-- **Depends on:** [sase-14j.4](sase-14j.4.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14j.4](sase-14j.4.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14j.6](sase-14j.6.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
