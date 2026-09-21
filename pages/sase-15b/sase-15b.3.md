@@ -18,7 +18,7 @@ agent_stats_run: decompose the 3,732-line run-stats aggregation module into quer
 ## Dependencies
 
 - **Depends on:** [sase-15b.2](sase-15b.2.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.4](sase-15b.4.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.4](sase-15b.4.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ agent_stats_run: decompose the 3,732-line run-stats aggregation module into quer
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@006dd16`](https://github.com/sase-org/sase-core/commit/006dd162cd11a0afbc0c70d2b604bd41f8ffbc64) | refactor(agent\_stats): split run.rs into run/ module tree | [sase-15b.3](sase-15b.3.md) | 2026-09-21 14:50:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.3][1] | Confirm phase bead closed after split work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md
+
+<!-- sase:referenced-by:end -->

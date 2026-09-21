@@ -13,7 +13,7 @@ bead_events: decompose the 3,314-line bead event-stream module into wire, import
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.4](sase-15b.4.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.4](sase-15b.4.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.6](sase-15b.6.md) ◐ · ⧖ 2026-09-21
 
 ## Agents
