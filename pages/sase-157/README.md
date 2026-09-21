@@ -29,7 +29,7 @@ The managed-tmp reap guard refuses broad roots on every platform and no test can
 |---|---|---|---|---|---:|---:|
 | [sase-157.1](sase-157.1.md) | Fix the managed-tmp reap guard and disarm its test | ✓ closed | small | 2026-09-21 | 1 | 1 |
 | [sase-157.2](sase-157.2.md) | Let the verification gate run a filtered suite | ✓ closed | xsmall | 2026-09-21 | 1 | 1 |
-| [sase-157.3](sase-157.3.md) | Add an advisory macOS CI leg | ◐ in_progress | small | 2026-09-21 | 1 | 0 |
+| [sase-157.3](sase-157.3.md) | Add an advisory macOS CI leg | ✓ closed | small | 2026-09-21 | 1 | 1 |
 | [sase-157.4](sase-157.4.md) | Gate the procfs process-identity token to Linux | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-157.5](sase-157.5.md) | Fix the detached handoff started-path mismatch | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-157.6](sase-157.6.md) | Decide how attachment validation treats symlinked ancestors | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n0["sase-157: Make sase-core correct and green on macOS [in_progress]"]
     n1["sase-157.1: Fix the managed-tmp reap guard and disarm its test [closed]"]
     n2["sase-157.2: Let the verification gate run a filtered suite [closed]"]
-    n3["sase-157.3: Add an advisory macOS CI leg [in_progress]"]
+    n3["sase-157.3: Add an advisory macOS CI leg [closed]"]
     n4["sase-157.4: Gate the procfs process-identity token to Linux [in_progress]"]
     n5["sase-157.5: Fix the detached handoff started-path mismatch [in_progress]"]
     n6["sase-157.6: Decide how attachment validation treats symlinked ancestors [in_progress]"]
@@ -79,7 +79,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-157.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.1/README.md) | [sase-157.1](sase-157.1.md) | 1 |
 | [bbugyi200.athena.sase-157.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.2/README.md) | [sase-157.2](sase-157.2.md) | 1 |
-| [bbugyi200.athena.sase-157.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.3/README.md) | [sase-157.3](sase-157.3.md) | 0 |
+| [bbugyi200.athena.sase-157.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.3/README.md) | [sase-157.3](sase-157.3.md) | 1 |
 | [bbugyi200.athena.sase-157.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.4/README.md) | [sase-157.4](sase-157.4.md) | 0 |
 | [bbugyi200.athena.sase-157.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.5/README.md) | [sase-157.5](sase-157.5.md) | 0 |
 | [bbugyi200.athena.sase-157.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-157.6/README.md) | [sase-157.6](sase-157.6.md) | 0 |
@@ -94,3 +94,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@60782f2`](https://github.com/sase-org/sase-core/commit/60782f2dfc2c82ceeb59394d8ac46d8a096317c0) | fix(sase-core): harden managed\_tmp reap-root guard and disarm guard test | [sase-157.1](sase-157.1.md) | 2026-09-21 06:45:45 EDT |
 | sase-core | [`sase-core@5e8d315`](https://github.com/sase-org/sase-core/commit/5e8d3158b4562cfc23ca4998f059177d9029a010) | feat(sase-core): forward check.sh/justfile trailing args to cargo test/clippy | [sase-157.2](sase-157.2.md) | 2026-09-21 07:06:03 EDT |
+| sase-core | [`sase-core@19274c0`](https://github.com/sase-org/sase-core/commit/19274c0e452411fc8714a9a4b2a72fd3f2f835a0) | ci: add advisory macOS leg to rust-checks matrix | [sase-157.3](sase-157.3.md) | 2026-09-21 07:37:23 EDT |

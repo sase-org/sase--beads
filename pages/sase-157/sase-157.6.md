@@ -13,7 +13,7 @@ gateway-attachments: adjudicate whether a platform symlink ancestor should make 
 
 ## Dependencies
 
-- **Depends on:** [sase-157.3](sase-157.3.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-157.3](sase-157.3.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.9](sase-157.9.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

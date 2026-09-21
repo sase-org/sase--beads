@@ -18,7 +18,7 @@ check-args: forward trailing arguments from scripts/check.sh and the justfile th
 ## Dependencies
 
 - **Depends on:** [sase-157.1](sase-157.1.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-157.3](sase-157.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-157.3](sase-157.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

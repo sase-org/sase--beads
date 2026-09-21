@@ -13,7 +13,7 @@ sudo-identity: split process_identity_token so the procfs body is target_os = li
 
 ## Dependencies
 
-- **Depends on:** [sase-157.3](sase-157.3.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-157.3](sase-157.3.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-157.5](sase-157.5.md) ◐ · ⧖ 2026-09-21
 
 ## Agents
