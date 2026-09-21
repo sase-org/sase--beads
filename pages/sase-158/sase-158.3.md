@@ -19,7 +19,7 @@ instrument-backends: thread an optional progress sink through plan_dev_update, e
 
 - **Depends on:** [sase-158.1](sase-158.1.md) ✓ · ⧖ 2026-09-21
 - **Depends on:** [sase-158.2](sase-158.2.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-158.4](sase-158.4.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-158.4](sase-158.4.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

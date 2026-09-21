@@ -13,7 +13,7 @@ wire-mode-switch-dry-run-docs: move --to mode switches onto the same live sessio
 
 ## Dependencies
 
-- **Depends on:** [sase-158.4](sase-158.4.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-158.4](sase-158.4.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
