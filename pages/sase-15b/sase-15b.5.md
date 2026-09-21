@@ -18,7 +18,7 @@ bead_events: decompose the 3,314-line bead event-stream module into wire, import
 ## Dependencies
 
 - **Depends on:** [sase-15b.4](sase-15b.4.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.6](sase-15b.6.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.6](sase-15b.6.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ bead_events: decompose the 3,314-line bead event-stream module into wire, import
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ad732d6`](https://github.com/sase-org/sase-core/commit/ad732d67480bea95cc5a64428988ffb522731e81) | refactor(sase-core): split bead events into wire, import, reduction, merge modules | [sase-15b.5](sase-15b.5.md) | 2026-09-21 15:55:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.5/README.md
+
+<!-- sase:referenced-by:end -->

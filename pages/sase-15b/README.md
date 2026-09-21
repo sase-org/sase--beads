@@ -35,7 +35,7 @@ Each of the ten largest Rust files remaining in the sase-core repo after epic sa
 | [sase-15b.3](sase-15b.3.md) | Split crates/sase\_core/src/agent\_stats/run.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.4](sase-15b.4.md) | Split crates/sase\_gateway/src/fleet\_reads.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.5](sase-15b.5.md) | Split crates/sase\_core/src/bead/events.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-15b.6](sase-15b.6.md) | Split crates/sase\_core/src/tool\_run/store.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-15b.6](sase-15b.6.md) | Split crates/sase\_core/src/tool\_run/store.rs | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-15b.7](sase-15b.7.md) | Split crates/sase\_core/src/provider\_usage/tests.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-15b.8](sase-15b.8.md) | Split crates/sase\_core/src/editor/directive.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-15b.9](sase-15b.9.md) | Split crates/sase\_core/src/runner\_capacity.rs | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n4["sase-15b.3: Split crates/sase_core/src/agent_stats/run.rs [closed]"]
     n5["sase-15b.4: Split crates/sase_gateway/src/fleet_reads.rs [closed]"]
     n6["sase-15b.5: Split crates/sase_core/src/bead/events.rs [closed]"]
-    n7["sase-15b.6: Split crates/sase_core/src/tool_run/store.rs [in_progress]"]
+    n7["sase-15b.6: Split crates/sase_core/src/tool_run/store.rs [closed]"]
     n8["sase-15b.7: Split crates/sase_core/src/provider_usage/tests.rs [in_progress]"]
     n9["sase-15b.8: Split crates/sase_core/src/editor/directive.rs [in_progress]"]
     n10["sase-15b.9: Split crates/sase_core/src/runner_capacity.rs [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-15b.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.3/README.md) | [sase-15b.3](sase-15b.3.md) | 1 |
 | [bbugyi200.athena.sase-15b.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.4/README.md) | [sase-15b.4](sase-15b.4.md) | 1 |
 | [bbugyi200.athena.sase-15b.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.5/README.md) | [sase-15b.5](sase-15b.5.md) | 1 |
-| [bbugyi200.athena.sase-15b.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.6/README.md) | [sase-15b.6](sase-15b.6.md) | 0 |
+| [bbugyi200.athena.sase-15b.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.6/README.md) | [sase-15b.6](sase-15b.6.md) | 1 |
 | [bbugyi200.athena.sase-15b.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md) | [sase-15b.7](sase-15b.7.md) | 0 |
 | [bbugyi200.athena.sase-15b.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.8/README.md) | [sase-15b.8](sase-15b.8.md) | 0 |
 | [bbugyi200.athena.sase-15b.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.9/README.md) | [sase-15b.9](sase-15b.9.md) | 0 |
@@ -101,6 +101,7 @@ flowchart TD
 | sase-core | [`sase-core@006dd16`](https://github.com/sase-org/sase-core/commit/006dd162cd11a0afbc0c70d2b604bd41f8ffbc64) | refactor(agent\_stats): split run.rs into run/ module tree | [sase-15b.3](sase-15b.3.md) | 2026-09-21 14:50:10 EDT |
 | sase-core | [`sase-core@e93e248`](https://github.com/sase-org/sase-core/commit/e93e24879f7be9f04e0e29377735676f738f55b2) | refactor(sase-gateway): split fleet\_reads into module tree | [sase-15b.4](sase-15b.4.md) | 2026-09-21 15:25:36 EDT |
 | sase-core | [`sase-core@ad732d6`](https://github.com/sase-org/sase-core/commit/ad732d67480bea95cc5a64428988ffb522731e81) | refactor(sase-core): split bead events into wire, import, reduction, merge modules | [sase-15b.5](sase-15b.5.md) | 2026-09-21 15:55:32 EDT |
+| sase-core | [`sase-core@b7af6b7`](https://github.com/sase-org/sase-core/commit/b7af6b7ce58a0888253e1f8223f2e502512d33bb) | refactor(sase-core): split tool\_run store into connection, lifecycle, query, retention modules | [sase-15b.6](sase-15b.6.md) | 2026-09-21 16:21:13 EDT |
 
 <!-- sase:referenced-by:start -->
 

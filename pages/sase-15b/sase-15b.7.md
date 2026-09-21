@@ -13,7 +13,7 @@ provider_usage_tests: split the 3,176-line provider_usage test file into a provi
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.6](sase-15b.6.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.6](sase-15b.6.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.8](sase-15b.8.md) ◐ · ⧖ 2026-09-21
 
 ## Agents
