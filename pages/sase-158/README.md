@@ -29,7 +29,7 @@
 |---|---|---|---|---|---:|---:|
 | [sase-158.1](sase-158.1.md) | Streaming subprocess runner | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-158.2](sase-158.2.md) | Progress event protocol, timeline model, and renderers | ✓ closed | medium | 2026-09-21 | 1 | 1 |
-| [sase-158.3](sase-158.3.md) | Emit progress events from dev-update, uv, and mode-switch backends | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
+| [sase-158.3](sase-158.3.md) | Emit progress events from dev-update, uv, and mode-switch backends | ✓ closed | medium | 2026-09-21 | 1 | 1 |
 | [sase-158.4](sase-158.4.md) | Wire the live timeline into the sase update live path | ◐ in_progress | medium | 2026-09-21 | 1 | 0 |
 | [sase-158.5](sase-158.5.md) | Mode switch, dry-run, and documentation | ◐ in_progress | small | 2026-09-21 | 1 | 0 |
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["sase-158: Live, streaming progress for sase update [in_progress]"]
     n1["sase-158.1: Streaming subprocess runner [closed]"]
     n2["sase-158.2: Progress event protocol, timeline model, and renderers [closed]"]
-    n3["sase-158.3: Emit progress events from dev-update, uv, and mode-switch backends [in_progress]"]
+    n3["sase-158.3: Emit progress events from dev-update, uv, and mode-switch backends [closed]"]
     n4["sase-158.4: Wire the live timeline into the sase update live path [in_progress]"]
     n5["sase-158.5: Mode switch, dry-run, and documentation [in_progress]"]
     n0 --> n1
@@ -60,7 +60,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-158.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-158.1.md) | [sase-158.1](sase-158.1.md) | 1 |
 | [bbugyi200.apollo.sase-158.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.2/README.md) | [sase-158.2](sase-158.2.md) | 1 |
-| [bbugyi200.apollo.sase-158.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.3/README.md) | [sase-158.3](sase-158.3.md) | 0 |
+| [bbugyi200.apollo.sase-158.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.3/README.md) | [sase-158.3](sase-158.3.md) | 1 |
 | [bbugyi200.apollo.sase-158.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.4/README.md) | [sase-158.4](sase-158.4.md) | 0 |
 | [bbugyi200.apollo.sase-158.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.5/README.md) | [sase-158.5](sase-158.5.md) | 0 |
 | [bbugyi200.apollo.sase-158.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.land/README.md) | [sase-158](README.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`94ccd19`](https://github.com/sase-org/sase/commit/94ccd19176a50586b97c2f8add0d431d1097ed18) | feat(dev-update): add line-streaming subprocess runner with on\_output sink | [sase-158.1](sase-158.1.md) | 2026-09-21 09:28:42 EDT |
 | sase | [`d9a1de8`](https://github.com/sase-org/sase/commit/d9a1de8cc03d9c8f0cab1a50d150fc8bc67481cd) | feat(update-progress): add event protocol, timeline, renderers, and session | [sase-158.2](sase-158.2.md) | 2026-09-21 09:38:52 EDT |
+| sase | [`5a89392`](https://github.com/sase-org/sase/commit/5a89392fe0fbfc59052b47257b9a882345c3302a) | feat(dev-update): instrument plan, execute, reconcile and mode-switch backends with progress events | [sase-158.3](sase-158.3.md) | 2026-09-21 10:35:55 EDT |

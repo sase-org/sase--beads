@@ -13,7 +13,7 @@ wire-live-update: add the -v/--verbose flag and renderer selection, declare the 
 
 ## Dependencies
 
-- **Depends on:** [sase-158.3](sase-158.3.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-158.3](sase-158.3.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-158.5](sase-158.5.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

@@ -19,7 +19,7 @@ progress-model: create the sase.update_progress package: the UpdateProgress even
 
 ## Dependencies
 
-- **Blocks:** [sase-158.3](sase-158.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-158.3](sase-158.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

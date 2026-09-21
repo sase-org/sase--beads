@@ -17,7 +17,7 @@ stream-runner: add a line-streaming subprocess primitive with sanitization, time
 
 ## Dependencies
 
-- **Blocks:** [sase-158.3](sase-158.3.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-158.3](sase-158.3.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
