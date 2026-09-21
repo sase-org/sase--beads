@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-11y
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0m3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0m3.md) · **Assignee:** `sase-11y.land`
-**Created:** 2026-09-16 14:41:56 EDT
+**Created:** 2026-09-16 14:41:56 EDT · **Closed:** 2026-09-21 11:49:49 EDT
 **Plan:** [202609/service\_host\_1.md](https://github.com/sase-org/sase--plans/blob/main/202609/service_host_1.md)
 
 <!-- sase:links:start -->
@@ -71,7 +71,7 @@ VERIFIED against source and commits. All ten phases are closed. The two nested e
 - supervision/ is used by the orchestrator and delegates to decide_service_restart.
 - Host runtime: flock, heartbeat, 1s reconcile, SIGUSR1 nudge, reload, per-proc logs,
 
-… and 4934 more characters
+… and 7420 more characters
 
 ## Phases
 
@@ -92,7 +92,7 @@ VERIFIED against source and commits. All ten phases are closed. The two nested e
 
 ```mermaid
 flowchart TD
-    n0["sase-11y: Service host and Services tab [in_progress]"]
+    n0["sase-11y: Service host and Services tab [closed]"]
     n1["sase-11y.1: Cgroup escape helper for detached work [closed]"]
     n2["sase-11y.10: Sunset legacy paths, docs, and glossary [closed]"]
     n3["sase-11y.10.1: Sunset legacy supervision paths, docs, and glossary [closed]"]
@@ -115,11 +115,11 @@ flowchart TD
     n20["sase-11y.10.1.7.4: Retire the Services-tab fields the flag removal emptied [closed]"]
     n21["sase-11y.10.1.7.5: Fix the service-host and scheduler reference docs [closed]"]
     n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [closed]"]
-    n23["sase-11y.11: Finish the service-host epic leftovers found at landing [in_progress]"]
+    n23["sase-11y.11: Finish the service-host epic leftovers found at landing [closed]"]
     n24["sase-11y.11.1: Escape the service cgroup at the remaining detached runner spawns [closed]"]
     n25["sase-11y.11.2: Make the TUI surfaces describe the Services tab and service host [closed]"]
     n26["sase-11y.11.3: Rewrite the docs that still describe the pre-host model [closed]"]
-    n27["sase-11y.11.4: Cover the service host runtime scenarios the epic plan required [in_progress]"]
+    n27["sase-11y.11.4: Cover the service host runtime scenarios the epic plan required [closed]"]
     n28["sase-11y.11.5: Resolve the sase-11y epic-symbol whitelist and the stale start label [closed]"]
     n29["sase-11y.2: sase-core service foundations [closed]"]
     n30["sase-11y.2.1: sase-core service foundations [closed]"]
@@ -251,7 +251,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.3/README.md) | [sase-11y.11.3](sase-11y.11.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.5/README.md) | [sase-11y.11.5](sase-11y.11.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 0 |
+| [bbugyi200.athena.sase-11y.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.land/README.md) | [sase-11y.11](sase-11y.11.md) | 1 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.1/README.md) | [sase-11y.2.1.1](sase-11y.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-11y.2.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.2.md) | [sase-11y.2.1.2](sase-11y.2.1.2.md) | 2 |
@@ -320,3 +320,4 @@ flowchart TD
 | sase | [`501310b`](https://github.com/sase-org/sase/commit/501310b7553b269dff17a870006616a70321809b) | test(sase-11y.11.4): cover service-host runtime scenarios; fix startup lock race and settle orphaned oneshots | [sase-11y.11.4](sase-11y.11.4.md) | 2026-09-21 08:55:23 EDT |
 | sase | [`3b7cfae`](https://github.com/sase-org/sase/commit/3b7cfae6f2446129d00a5fc3036109a0c50a5bd8) | feat(tui): describe the Services tab and service host across TUI surfaces | [sase-11y.11.2](sase-11y.11.2.md) | 2026-09-21 09:29:16 EDT |
 | sase | [`420d72b`](https://github.com/sase-org/sase/commit/420d72bb1d230a8697ec344a24bd0d07a36bb8df) | docs(sase-11y): rewrite pre-host leftovers for service-host model | [sase-11y.11.3](sase-11y.11.3.md) | 2026-09-21 09:48:46 EDT |
+| sase | [`d05be99`](https://github.com/sase-org/sase/commit/d05be99aad47548f9973b29042cedef8b6c40cab) | fix(service): land sase-11y.11 and finish the service-host leftovers | [sase-11y.11](sase-11y.11.md) | 2026-09-21 11:53:58 EDT |
