@@ -13,7 +13,7 @@ stale-docs: rewrite the Telegram receiver paragraph in `notifications.md` for th
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.11.2](sase-11y.11.2.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-11y.11.2](sase-11y.11.2.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 

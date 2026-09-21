@@ -117,10 +117,10 @@ flowchart TD
     n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [closed]"]
     n23["sase-11y.11: Finish the service-host epic leftovers found at landing [in_progress]"]
     n24["sase-11y.11.1: Escape the service cgroup at the remaining detached runner spawns [closed]"]
-    n25["sase-11y.11.2: Make the TUI surfaces describe the Services tab and service host [in_progress]"]
+    n25["sase-11y.11.2: Make the TUI surfaces describe the Services tab and service host [closed]"]
     n26["sase-11y.11.3: Rewrite the docs that still describe the pre-host model [in_progress]"]
     n27["sase-11y.11.4: Cover the service host runtime scenarios the epic plan required [in_progress]"]
-    n28["sase-11y.11.5: Resolve the sase-11y epic-symbol whitelist and the stale start label [in_progress]"]
+    n28["sase-11y.11.5: Resolve the sase-11y epic-symbol whitelist and the stale start label [closed]"]
     n29["sase-11y.2: sase-core service foundations [closed]"]
     n30["sase-11y.2.1: sase-core service foundations [closed]"]
     n31["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
@@ -247,7 +247,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2 |
 | [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.land.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.1/README.md) | [sase-11y.11.1](sase-11y.11.1.md) | 1 |
-| [bbugyi200.athena.sase-11y.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.2/README.md) | [sase-11y.11.2](sase-11y.11.2.md) | 0 |
+| [bbugyi200.athena.sase-11y.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.2/README.md) | [sase-11y.11.2](sase-11y.11.2.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.3/README.md) | [sase-11y.11.3](sase-11y.11.3.md) | 0 |
 | [bbugyi200.athena.sase-11y.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.4/README.md) | [sase-11y.11.4](sase-11y.11.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.11.5/README.md) | [sase-11y.11.5](sase-11y.11.5.md) | 1 |
@@ -316,3 +316,4 @@ flowchart TD
 | sase | [`213c481`](https://github.com/sase-org/sase/commit/213c481363af70deba92ee0c0dc3ee8e0c97b37c) | feat(scheduler): escape detached runners from the service cgroup via detach\_scope | [sase-11y.11.1](sase-11y.11.1.md) | 2026-09-21 08:06:31 EDT |
 | sase | [`3bd3d83`](https://github.com/sase-org/sase/commit/3bd3d839e111e7f1cdf8d37193989bbc729dab7f) | refactor(service): resolve sase-11y epic-symbol whitelist and stale start label | [sase-11y.11.5](sase-11y.11.5.md) | 2026-09-21 08:06:58 EDT |
 | sase | [`501310b`](https://github.com/sase-org/sase/commit/501310b7553b269dff17a870006616a70321809b) | test(sase-11y.11.4): cover service-host runtime scenarios; fix startup lock race and settle orphaned oneshots | [sase-11y.11.4](sase-11y.11.4.md) | 2026-09-21 08:55:23 EDT |
+| sase | [`3b7cfae`](https://github.com/sase-org/sase/commit/3b7cfae6f2446129d00a5fc3036109a0c50a5bd8) | feat(tui): describe the Services tab and service host across TUI surfaces | [sase-11y.11.2](sase-11y.11.2.md) | 2026-09-21 09:29:16 EDT |
