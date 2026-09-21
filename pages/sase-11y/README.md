@@ -90,7 +90,7 @@ flowchart TD
     n19["sase-11y.10.1.7.3: Delete the scheduler options the service path ignores [closed]"]
     n20["sase-11y.10.1.7.4: Retire the Services-tab fields the flag removal emptied [closed]"]
     n21["sase-11y.10.1.7.5: Fix the service-host and scheduler reference docs [closed]"]
-    n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [in_progress]"]
+    n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [closed]"]
     n23["sase-11y.2: sase-core service foundations [closed]"]
     n24["sase-11y.2.1: sase-core service foundations [closed]"]
     n25["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
@@ -206,7 +206,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.3/README.md) | [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.4/README.md) | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.5/README.md) | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.6/README.md) | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.6/README.md) | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 0 |
 | [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.land.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
@@ -266,3 +266,4 @@ flowchart TD
 | sase | [`3fbe914`](https://github.com/sase-org/sase/commit/3fbe914fb1a920af5f2cfa3fc3b1b7053b5c8f5f) | refactor(services-tab): retire flag-emptied TUI dead state | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 2026-09-21 04:46:22 EDT |
 | sase | [`0a43e09`](https://github.com/sase-org/sase/commit/0a43e09d64620d04fe52f3d72c3634ac6ca8af51) | refactor(axe): retire desired-state marker in favor of scheduler-derived state | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 2026-09-21 04:47:59 EDT |
 | sase | [`2328b07`](https://github.com/sase-org/sase/commit/2328b07ab81702aec7701490781df2b34e72c621) | docs(scheduler): rewrite axe/configuration docs around scheduler proc model | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 2026-09-21 05:07:56 EDT |
+| sase | [`d9ae431`](https://github.com/sase-org/sase/commit/d9ae431dc719bdfc5e4a686c200c5c02f4f32593) | docs(surfaces): rename AXE tab and AXE restarts to Services tab and scheduler | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 2026-09-21 05:35:52 EDT |

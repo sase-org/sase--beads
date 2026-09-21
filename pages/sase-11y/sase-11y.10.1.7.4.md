@@ -17,7 +17,7 @@ tui-dead-state: delete `AxeCollectedData.axe_status` / `axe_metrics`, the app's 
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
