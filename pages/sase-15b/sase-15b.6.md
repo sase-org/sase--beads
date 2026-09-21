@@ -13,7 +13,7 @@ tool_run_store: decompose the 3,229-line SQLite tool-run store into connection/s
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.5](sase-15b.5.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.5](sase-15b.5.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.7](sase-15b.7.md) ◐ · ⧖ 2026-09-21
 
 ## Agents

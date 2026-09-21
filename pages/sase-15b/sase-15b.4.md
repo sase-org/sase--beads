@@ -20,7 +20,7 @@ fleet_reads: decompose the 3,371-line gateway fleet read service into service, s
 ## Dependencies
 
 - **Depends on:** [sase-15b.3](sase-15b.3.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.5](sase-15b.5.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.5](sase-15b.5.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -33,3 +33,15 @@ fleet_reads: decompose the 3,371-line gateway fleet read service into service, s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e93e248`](https://github.com/sase-org/sase-core/commit/e93e24879f7be9f04e0e29377735676f738f55b2) | refactor(sase-gateway): split fleet\_reads into module tree | [sase-15b.4](sase-15b.4.md) | 2026-09-21 15:25:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.4/README.md
+
+<!-- sase:referenced-by:end -->
