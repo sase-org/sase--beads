@@ -13,7 +13,7 @@ lsp_server: decompose the 9,939-line LSP server module into per-LSP-capability s
 
 ## Dependencies
 
-- **Depends on:** [sase-14s.5](sase-14s.5.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.5](sase-14s.5.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14s.7](sase-14s.7.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
