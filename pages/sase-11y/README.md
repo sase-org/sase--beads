@@ -84,22 +84,29 @@ flowchart TD
     n13["sase-11y.10.1.4: Canonicalize the Services tab id [closed]"]
     n14["sase-11y.10.1.5: Update the documentation for the service host [closed]"]
     n15["sase-11y.10.1.6: Land the service-host glossary strands [closed]"]
-    n16["sase-11y.2: sase-core service foundations [closed]"]
-    n17["sase-11y.2.1: sase-core service foundations [closed]"]
-    n18["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
-    n19["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
-    n20["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
-    n21["sase-11y.2.1.4: Enablement resolution and the service status snapshot wire [closed]"]
-    n22["sase-11y.2.1.5: Complete service-foundation landing integration [closed]"]
-    n23["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
-    n24["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
-    n25["sase-11y.3: Extract the shared child-supervision library [closed]"]
-    n26["sase-11y.4: Service host runtime and CLI [closed]"]
-    n27["sase-11y.5: Platform units and init integration [closed]"]
-    n28["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
-    n29["sase-11y.7: Services tab in the TUI [closed]"]
-    n30["sase-11y.8: Migrate background commands to oneshot service procs [closed]"]
-    n31["sase-11y.9: Live migration on athena and apollo [closed]"]
+    n16["sase-11y.10.1.7: Finish the service-host sunset leftovers found at landing [in_progress]"]
+    n17["sase-11y.10.1.7.1: Route the chat-install post-update recovery through the service host [in_progress]"]
+    n18["sase-11y.10.1.7.2: Retire the AXE desired-state marker [in_progress]"]
+    n19["sase-11y.10.1.7.3: Delete the scheduler options the service path ignores [closed]"]
+    n20["sase-11y.10.1.7.4: Retire the Services-tab fields the flag removal emptied [in_progress]"]
+    n21["sase-11y.10.1.7.5: Fix the service-host and scheduler reference docs [in_progress]"]
+    n22["sase-11y.10.1.7.6: Rename the AXE tab and AXE restarts across the remaining docs and help text [in_progress]"]
+    n23["sase-11y.2: sase-core service foundations [closed]"]
+    n24["sase-11y.2.1: sase-core service foundations [closed]"]
+    n25["sase-11y.2.1.1: Proc wire service block, per-service retention, Procs query fields [closed]"]
+    n26["sase-11y.2.1.2: service.procs config composer, schema, defaults, and loader [closed]"]
+    n27["sase-11y.2.1.3: Restart decisions and the locked service state store [closed]"]
+    n28["sase-11y.2.1.4: Enablement resolution and the service status snapshot wire [closed]"]
+    n29["sase-11y.2.1.5: Complete service-foundation landing integration [closed]"]
+    n30["sase-11y.2.1.5.1: Correct service-status runtime scoping [closed]"]
+    n31["sase-11y.2.1.5.2: Delegate shared restart accounting and ratchet core [closed]"]
+    n32["sase-11y.3: Extract the shared child-supervision library [closed]"]
+    n33["sase-11y.4: Service host runtime and CLI [closed]"]
+    n34["sase-11y.5: Platform units and init integration [closed]"]
+    n35["sase-11y.6: Gateway builtin and Telegram plugin migration [closed]"]
+    n36["sase-11y.7: Services tab in the TUI [closed]"]
+    n37["sase-11y.8: Migrate background commands to oneshot service procs [closed]"]
+    n38["sase-11y.9: Live migration on athena and apollo [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -115,23 +122,30 @@ flowchart TD
     n3 --> n13
     n3 --> n14
     n3 --> n15
-    n0 --> n16
+    n3 --> n16
     n16 --> n17
-    n17 --> n18
-    n17 --> n19
-    n17 --> n20
-    n17 --> n21
-    n17 --> n22
-    n22 --> n23
-    n22 --> n24
-    n0 --> n25
-    n0 --> n26
-    n0 --> n27
-    n0 --> n28
-    n0 --> n29
-    n0 --> n30
-    n0 --> n31
-    n1 -.-> n26
+    n16 --> n18
+    n16 --> n19
+    n16 --> n20
+    n16 --> n21
+    n16 --> n22
+    n0 --> n23
+    n23 --> n24
+    n24 --> n25
+    n24 --> n26
+    n24 --> n27
+    n24 --> n28
+    n24 --> n29
+    n29 --> n30
+    n29 --> n31
+    n0 --> n32
+    n0 --> n33
+    n0 --> n34
+    n0 --> n35
+    n0 --> n36
+    n0 --> n37
+    n0 --> n38
+    n1 -.-> n33
     n4 -.-> n5
     n5 -.-> n6
     n5 -.-> n13
@@ -144,23 +158,29 @@ flowchart TD
     n11 -.-> n12
     n13 -.-> n14
     n13 -.-> n15
-    n16 -.-> n26
-    n16 -.-> n29
-    n18 -.-> n19
-    n19 -.-> n20
-    n20 -.-> n21
-    n23 -.-> n24
+    n17 -.-> n18
+    n17 -.-> n21
+    n17 -.-> n22
+    n18 -.-> n21
+    n19 -.-> n21
+    n20 -.-> n22
+    n23 -.-> n33
+    n23 -.-> n36
     n25 -.-> n26
     n26 -.-> n27
-    n26 -.-> n28
-    n26 -.-> n29
-    n26 -.-> n30
-    n27 -.-> n31
-    n28 -.-> n31
-    n29 -.-> n2
-    n29 -.-> n30
-    n30 -.-> n2
-    n31 -.-> n2
+    n27 -.-> n28
+    n30 -.-> n31
+    n32 -.-> n33
+    n33 -.-> n34
+    n33 -.-> n35
+    n33 -.-> n36
+    n33 -.-> n37
+    n34 -.-> n38
+    n35 -.-> n38
+    n36 -.-> n2
+    n36 -.-> n37
+    n37 -.-> n2
+    n38 -.-> n2
 ```
 
 ## Agents
@@ -177,11 +197,18 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.3/README.md) | [sase-11y.10.1.3.1.3](sase-11y.10.1.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.4/README.md) | [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.5/README.md) | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.3.1.land/README.md) | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2 |
 | [bbugyi200.athena.sase-11y.10.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.4.md) | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.5/README.md) | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.6/README.md) | [sase-11y.10.1.6](sase-11y.10.1.6.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.land/README.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.1/README.md) | [sase-11y.10.1.7.1](sase-11y.10.1.7.1.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.2/README.md) | [sase-11y.10.1.7.2](sase-11y.10.1.7.2.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.3/README.md) | [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.4/README.md) | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.5/README.md) | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.6/README.md) | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 0 |
+| [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.land.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.1/README.md) | [sase-11y.2.1.1](sase-11y.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-11y.2.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.2.md) | [sase-11y.2.1.2](sase-11y.2.1.2.md) | 2 |
@@ -231,5 +258,7 @@ flowchart TD
 | sase | [`b87c8e3`](https://github.com/sase-org/sase/commit/b87c8e3eef8554ba6a31a9be1aa84fe34f285304) | refactor(axe): delete AXE restart machinery orphaned by scheduler alias | [sase-11y.10.1.3.1.5](sase-11y.10.1.3.1.5.md) | 2026-09-21 01:50:35 EDT |
 | sase | [`b27b023`](https://github.com/sase-org/sase/commit/b27b02323719eb6dca1288403b77a700ef9f1a37) | feat(ace): canonicalize the Services tab id with axe as legacy alias | [sase-11y.10.1.4](sase-11y.10.1.4.md) | 2026-09-21 02:29:05 EDT |
 | sase | [`103db4b`](https://github.com/sase-org/sase/commit/103db4bfa8af0a114efecf109a02b8298701f2a6) | refactor(axe): retire leftovers of the AXE CLI sunset epic | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2026-09-21 03:02:19 EDT |
+| sase--plans | [`sase--plans@d798718`](https://github.com/sase-org/sase--plans/commit/d798718ddd828de453b24406cac4d67e1ba7240f) | chore(plans): mark axe\_cli\_sunset done | [sase-11y.10.1.3.1](sase-11y.10.1.3.1.md) | 2026-09-21 03:06:02 EDT |
 | sase | [`3016e92`](https://github.com/sase-org/sase/commit/3016e92d2edaa30e1d6bb6d7a1082fa409ccdecb) | feat(glossary): land the service-host glossary strands | [sase-11y.10.1.6](sase-11y.10.1.6.md) | 2026-09-21 03:13:01 EDT |
 | sase | [`0ea0f5a`](https://github.com/sase-org/sase/commit/0ea0f5a7b3102b717228d32bdd974f870e57b19b) | docs(service-host): rewrite docs around the scheduler/host split | [sase-11y.10.1.5](sase-11y.10.1.5.md) | 2026-09-21 03:28:21 EDT |
+| sase | [`ff7efa0`](https://github.com/sase-org/sase/commit/ff7efa0190c8902f0282315ff54d9401943e9f69) | refactor(scheduler-cli): drop service-ignored options from scheduler start\|restart | [sase-11y.10.1.7.3](sase-11y.10.1.7.3.md) | 2026-09-21 04:16:32 EDT |
