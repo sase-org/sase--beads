@@ -17,7 +17,7 @@ update-restart: make `restart_after_update` call `restart_service_proc("schedule
 
 ## Dependencies
 
-- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

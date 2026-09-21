@@ -13,7 +13,7 @@ dead-supervisors: delete `_process_restart.py`, `_restart_events.py`, `restart_r
 
 ## Dependencies
 
-- **Depends on:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

@@ -18,7 +18,7 @@ ensure-watchdog: delete `sase axe ensure`, the `ensure.py` / `_ensure_timer.py` 
 ## Dependencies
 
 - **Blocks:** [sase-11y.10.1.3.1.2](sase-11y.10.1.3.1.2.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

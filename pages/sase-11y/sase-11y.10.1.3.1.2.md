@@ -22,7 +22,7 @@ systemd-scope: delete `sase/axe/systemd_scope.py`, the `_allow_systemd_scope` wr
 ## Dependencies
 
 - **Depends on:** [sase-11y.10.1.3.1.1](sase-11y.10.1.3.1.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-11y.10.1.3.1.4](sase-11y.10.1.3.1.4.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
