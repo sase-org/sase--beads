@@ -18,7 +18,7 @@ tool_run_store: decompose the 3,229-line SQLite tool-run store into connection/s
 ## Dependencies
 
 - **Depends on:** [sase-15b.5](sase-15b.5.md) ✓ · ⧖ 2026-09-21
-- **Blocks:** [sase-15b.7](sase-15b.7.md) ◐ · ⧖ 2026-09-21
+- **Blocks:** [sase-15b.7](sase-15b.7.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ tool_run_store: decompose the 3,229-line SQLite tool-run store into connection/s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b7af6b7`](https://github.com/sase-org/sase-core/commit/b7af6b7ce58a0888253e1f8223f2e502512d33bb) | refactor(sase-core): split tool\_run store into connection, lifecycle, query, retention modules | [sase-15b.6](sase-15b.6.md) | 2026-09-21 16:21:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-15b.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.6/README.md
+
+<!-- sase:referenced-by:end -->

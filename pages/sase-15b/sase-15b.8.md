@@ -13,7 +13,7 @@ editor_directive: decompose the 2,952-line editor directive module into metadata
 
 ## Dependencies
 
-- **Depends on:** [sase-15b.7](sase-15b.7.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-15b.7](sase-15b.7.md) ✓ · ⧖ 2026-09-21
 - **Blocks:** [sase-15b.9](sase-15b.9.md) ◐ · ⧖ 2026-09-21
 
 ## Agents
