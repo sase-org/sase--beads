@@ -16,7 +16,7 @@ macos-ci-required: drop the advisory escape hatch so the macOS leg blocks, and d
 - **Depends on:** [sase-157.5](sase-157.5.md) ◐ · ⧖ 2026-09-21
 - **Depends on:** [sase-157.6](sase-157.6.md) ✓ · ⧖ 2026-09-21
 - **Depends on:** [sase-157.7](sase-157.7.md) ✓ · ⧖ 2026-09-21
-- **Depends on:** [sase-157.8](sase-157.8.md) ◐ · ⧖ 2026-09-21
+- **Depends on:** [sase-157.8](sase-157.8.md) ✓ · ⧖ 2026-09-21
 
 ## Agents
 
