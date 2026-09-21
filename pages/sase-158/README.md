@@ -86,7 +86,7 @@ flowchart TD
     n4["sase-158.4: Wire the live timeline into the sase update live path [closed]"]
     n5["sase-158.5: Mode switch, dry-run, and documentation [closed]"]
     n6["sase-158.6: Finish sase update live progress [in_progress]"]
-    n7["sase-158.6.1: Bound streaming waits, fix CRLF, and fix backend step details [in_progress]"]
+    n7["sase-158.6.1: Bound streaming waits, fix CRLF, and fix backend step details [closed]"]
     n8["sase-158.6.2: Fix the timeline model, renderers, and session lifecycle [in_progress]"]
     n9["sase-158.6.3: Fix the update handlers, managed rows, and docs [in_progress]"]
     n0 --> n1
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-158.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.3/README.md) | [sase-158.3](sase-158.3.md) | 1 |
 | [bbugyi200.apollo.sase-158.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.4/README.md) | [sase-158.4](sase-158.4.md) | 1 |
 | [bbugyi200.apollo.sase-158.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.5/README.md) | [sase-158.5](sase-158.5.md) | 1 |
-| [bbugyi200.apollo.sase-158.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.1/README.md) | [sase-158.6.1](sase-158.6.1.md) | 0 |
+| [bbugyi200.apollo.sase-158.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.1/README.md) | [sase-158.6.1](sase-158.6.1.md) | 1 |
 | [bbugyi200.apollo.sase-158.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.2/README.md) | [sase-158.6.2](sase-158.6.2.md) | 1 |
 | [bbugyi200.apollo.sase-158.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.3/README.md) | [sase-158.6.3](sase-158.6.3.md) | 0 |
 | [bbugyi200.apollo.sase-158.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-158.6.land/README.md) | [sase-158.6](sase-158.6.md) | 0 |
@@ -130,3 +130,4 @@ flowchart TD
 | sase | [`f64bd3a`](https://github.com/sase-org/sase/commit/f64bd3ac23c282e3af056ace496b5def2eccf37c) | feat(update): wire live-update progress session timeline | [sase-158.4](sase-158.4.md) | 2026-09-21 13:32:15 EDT |
 | sase | [`cc29531`](https://github.com/sase-org/sase/commit/cc2953128a4ad317b4dc9f0720f629a678bcfaa6) | feat(update): run mode-switch in live session, transient dry-run timeline, docs | [sase-158.5](sase-158.5.md) | 2026-09-21 14:58:00 EDT |
 | sase | [`2f15d0a`](https://github.com/sase-org/sase/commit/2f15d0a7269aef13b62365e735a2aa1cda59a772) | feat(update-progress): fix timeline model, renderers, and session lifecycle | [sase-158.6.2](sase-158.6.2.md) | 2026-09-21 16:41:45 EDT |
+| sase | [`e0ffcfd`](https://github.com/sase-org/sase/commit/e0ffcfde81bc681f3942d00cee34e9b9fdec6c35) | fix(dev-update): bound streaming waits, CRLF lines, and backend step details | [sase-158.6.1](sase-158.6.1.md) | 2026-09-21 17:40:36 EDT |
