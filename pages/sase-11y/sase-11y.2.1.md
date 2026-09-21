@@ -30,3 +30,9 @@ sase-core owns every piece of shared service-host behavior that later phases of 
 Drift review: primary service/supervision/procs/config/query paths had no post-base commits needing integration; core drift since 3c75d2e only showed unrelated gate-decision commit 41a9830 already inside the pin. Epic-symbol checks for sase-11y.2.1 and sase-11y.2 were empty.
 
 Verification: just install passed, just fix passed and left no diff, focused regression batch passed 90 tests across tests/service, supervision, procs facade, query profile, TUI proc query, and config schema, and linked sase-core just check passed (including core unit totals around 2989 passed and agent scan parity 45 passed). The landing just check-full monitor pmztzxqgca9a ran but failed on unrelated existing/concurrent issues, not service-foundation behavior: synthetic stage-one/boom monitor diagnostic contamination is tracked by existing ready task sase-114; completion snapshot/gate-cancel drift is already recorded on active gate-decision epic sase-zr.7.1.1.5; and the reproduced monitor pid-file/pass_fds fixture cascade is now filed as ready bug task sase-12l. With those unrelated failures handled through task/epic flow, the service-foundation gate evidence is acceptable for closing this epic.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-11y.2.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.1.land.md) | [sase-11y.2.1](sase-11y.2.1.md) | 0 |
