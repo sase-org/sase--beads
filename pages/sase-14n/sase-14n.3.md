@@ -20,7 +20,7 @@ queue_weight: decide from the documented weighted-capacity contract whether the 
 ## Dependencies
 
 - **Blocks:** [sase-14n.12](sase-14n.12.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [sase-14n.13](sase-14n.13.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14n.13](sase-14n.13.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

@@ -23,11 +23,10 @@ toolrun_retention: extend sase-core's tool_run retention selection to quarantine
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 2 |
+| [bbugyi200.athena.sase-14n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.10/README.md) | [sase-14n.10](sase-14n.10.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2b68fc9`](https://github.com/sase-org/sase/commit/2b68fc9b3886460bf6020d40172e0f783eea03b5) | test(tool): cover quarantined ToolRun store reclaim at log horizon | [sase-14n.10](sase-14n.10.md) | 2026-09-20 19:12:42 EDT |
-| sase-core | [`sase-core@4b0f5d6`](https://github.com/sase-org/sase-core/commit/4b0f5d697db5de0b1bc6aa10b1694f0f2fc5a426) | fix(tool-run): reclaim quarantined stores under the log retention horizon | [sase-14n.10](sase-14n.10.md) | 2026-09-20 19:16:00 EDT |
