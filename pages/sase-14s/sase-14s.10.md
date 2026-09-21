@@ -13,7 +13,7 @@ sudo_runner: decompose the 4,595-line gateway sudo runner into a sudo_runner/ mo
 
 ## Dependencies
 
-- **Depends on:** [sase-14s.9](sase-14s.9.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.9](sase-14s.9.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
