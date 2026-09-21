@@ -23,4 +23,4 @@ bead-cli: add the agent-scoped touch listing subcommand with colored and JSON ou
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.3/README.md) | [sase-14j.3](sase-14j.3.md) | 0 |
+| [bbugyi200.athena.sase-14j.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14j.3.md) | [sase-14j.3](sase-14j.3.md) | 0 |

@@ -13,7 +13,7 @@ bead-views: record agent-attributed sase bead show invocations as a local viewed
 
 ## Dependencies
 
-- **Depends on:** [sase-14j.5](sase-14j.5.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14j.5](sase-14j.5.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
