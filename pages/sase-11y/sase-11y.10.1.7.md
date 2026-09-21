@@ -56,10 +56,11 @@ FOLLOW-UP OUTCOMES:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`da315d7`](https://github.com/sase-org/sase/commit/da315d79d16f8a5ec9d2e96a7e59005f83c5d935) | fix(scheduler): finish service-host sunset landing leftovers | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:45:13 EDT |
+| sase--plans | [`sase--plans@6d52cf3`](https://github.com/sase-org/sase--plans/commit/6d52cf361a69ad26af63b5f799cf8f8b0dddee33) | chore(plans): mark service\_host\_sunset and its finish plan done | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:47:12 EDT |

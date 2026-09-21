@@ -221,7 +221,7 @@ flowchart TD
 | [bbugyi200.athena.sase-11y.10.1.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.4/README.md) | [sase-11y.10.1.7.4](sase-11y.10.1.7.4.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.5/README.md) | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 1 |
 | [bbugyi200.athena.sase-11y.10.1.7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.6/README.md) | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 1 |
-| [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 1 |
+| [bbugyi200.athena.sase-11y.10.1.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.10.1.7.land/README.md) | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2 |
 | [bbugyi200.athena.sase-11y.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.10.1.land.md) | [sase-11y.10.1](sase-11y.10.1.md) | 0 |
 | [bbugyi200.athena.sase-11y.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-11y.2.md) | [sase-11y.2](sase-11y.2.md) | 0 |
 | [bbugyi200.athena.sase-11y.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-11y.2.1.1/README.md) | [sase-11y.2.1.1](sase-11y.2.1.1.md) | 2 |
@@ -284,3 +284,4 @@ flowchart TD
 | sase | [`2328b07`](https://github.com/sase-org/sase/commit/2328b07ab81702aec7701490781df2b34e72c621) | docs(scheduler): rewrite axe/configuration docs around scheduler proc model | [sase-11y.10.1.7.5](sase-11y.10.1.7.5.md) | 2026-09-21 05:07:56 EDT |
 | sase | [`d9ae431`](https://github.com/sase-org/sase/commit/d9ae431dc719bdfc5e4a686c200c5c02f4f32593) | docs(surfaces): rename AXE tab and AXE restarts to Services tab and scheduler | [sase-11y.10.1.7.6](sase-11y.10.1.7.6.md) | 2026-09-21 05:35:52 EDT |
 | sase | [`da315d7`](https://github.com/sase-org/sase/commit/da315d79d16f8a5ec9d2e96a7e59005f83c5d935) | fix(scheduler): finish service-host sunset landing leftovers | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:45:13 EDT |
+| sase--plans | [`sase--plans@6d52cf3`](https://github.com/sase-org/sase--plans/commit/6d52cf361a69ad26af63b5f799cf8f8b0dddee33) | chore(plans): mark service\_host\_sunset and its finish plan done | [sase-11y.10.1.7](sase-11y.10.1.7.md) | 2026-09-21 06:47:12 EDT |
