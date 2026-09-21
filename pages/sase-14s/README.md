@@ -31,7 +31,7 @@ Each of the ten largest Rust files in the sase-core repo is decomposed into a mo
 | [sase-14s.10](sase-14s.10.md) | Split crates/sase\_gateway/src/sudo\_runner.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14s.2](sase-14s.2.md) | Split crates/sase\_core/src/agent\_scan/index.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14s.3](sase-14s.3.md) | Split crates/sase\_core/src/bead/mutation.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [sase-14s.4](sase-14s.4.md) | Split crates/sase\_core/src/fleet\_contract.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [sase-14s.4](sase-14s.4.md) | Split crates/sase\_core/src/fleet\_contract.rs | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [sase-14s.5](sase-14s.5.md) | Split crates/sase\_gateway/src/routes.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14s.6](sase-14s.6.md) | Split crates/sase\_xprompt\_lsp/src/server.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [sase-14s.7](sase-14s.7.md) | Split crates/sase\_core/src/agent\_launch/mod.rs | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
@@ -47,7 +47,7 @@ flowchart TD
     n2["sase-14s.10: Split crates/sase_gateway/src/sudo_runner.rs [in_progress]"]
     n3["sase-14s.2: Split crates/sase_core/src/agent_scan/index.rs [closed]"]
     n4["sase-14s.3: Split crates/sase_core/src/bead/mutation.rs [closed]"]
-    n5["sase-14s.4: Split crates/sase_core/src/fleet_contract.rs [in_progress]"]
+    n5["sase-14s.4: Split crates/sase_core/src/fleet_contract.rs [closed]"]
     n6["sase-14s.5: Split crates/sase_gateway/src/routes.rs [in_progress]"]
     n7["sase-14s.6: Split crates/sase_xprompt_lsp/src/server.rs [in_progress]"]
     n8["sase-14s.7: Split crates/sase_core/src/agent_launch/mod.rs [in_progress]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14s.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.10/README.md) | [sase-14s.10](sase-14s.10.md) | 0 |
 | [bbugyi200.athena.sase-14s.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.2/README.md) | [sase-14s.2](sase-14s.2.md) | 1 |
 | [bbugyi200.athena.sase-14s.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.3/README.md) | [sase-14s.3](sase-14s.3.md) | 1 |
-| [bbugyi200.athena.sase-14s.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.4/README.md) | [sase-14s.4](sase-14s.4.md) | 0 |
+| [bbugyi200.athena.sase-14s.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.4/README.md) | [sase-14s.4](sase-14s.4.md) | 1 |
 | [bbugyi200.athena.sase-14s.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.5/README.md) | [sase-14s.5](sase-14s.5.md) | 0 |
 | [bbugyi200.athena.sase-14s.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.6/README.md) | [sase-14s.6](sase-14s.6.md) | 0 |
 | [bbugyi200.athena.sase-14s.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.7/README.md) | [sase-14s.7](sase-14s.7.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | sase-core | [`sase-core@03036af`](https://github.com/sase-org/sase-core/commit/03036afdbf9b510550d3c60b6e08357ce939c992) | refactor(sase\_core\_py): split 35kloc lib.rs into domain module tree | [sase-14s.1](sase-14s.1.md) | 2026-09-20 20:27:04 EDT |
 | sase-core | [`sase-core@601d4e7`](https://github.com/sase-org/sase-core/commit/601d4e73c4fe467cba9f0acbae9e688999e46371) | refactor(agent\_scan): split 13kloc index.rs into domain module tree | [sase-14s.2](sase-14s.2.md) | 2026-09-20 21:19:29 EDT |
 | sase-core | [`sase-core@5f7088a`](https://github.com/sase-org/sase-core/commit/5f7088a9d056bf4fb4551d0ff6359dda64b36814) | refactor(bead): split 11kloc mutation.rs into domain module tree | [sase-14s.3](sase-14s.3.md) | 2026-09-20 22:36:02 EDT |
+| sase-core | [`sase-core@4df82c7`](https://github.com/sase-org/sase-core/commit/4df82c70846f85106f056b0a17a8abd4cb529630) | refactor(sase-core): split fleet\_contract into module tree | [sase-14s.4](sase-14s.4.md) | 2026-09-20 23:26:52 EDT |
