@@ -47,6 +47,13 @@ by epic sase-14l; recorded here because this epic owns the capability.
 
 (2) The scoped test lane fails tests/test_check_sase_core_rs_bindings_tool.py::test_dev_extension_exposes_every_collected_name: the installed sase_core_rs extension lacks bead_touch_index_query, bead_touch_index_refresh and bead_touch_index_status. Same three capabilities as the floor-probe note above, and the same stale-wheel cause sase-14j.4 recorded for tests/core/test_bead_touch_index_facade.py.
 
+[2026-09-21T13:26:28Z · sase-14j.land] LAND VERIFICATION, interrupted for remaining work (sase-14j.land, 2026-09-21, master da766b87a). Phases .1, .2, .4, .5, and .6 are verified in source and in commits 821a21c49, e1ba4851c, 2b3b37e89, and da766b87a (sase-core 9a5c568 for .1). Remaining epic work is planned as a child tale:
+(1) sase-14j.3 is CLOSED, but `sase bead touched` never landed. The host commit finalizer failed (muse exec exit 143) after the bead-close commit, and the code commit was never made. The full uncommitted diff survives at ~/.sase/projects/gh_sase-org__sase/artifacts/ace-run/202609/20/20260920163305/commit_diffs/002.diff. With its Justfile/_notification_utils/settlement-test hunks excluded (already landed via d79525c55), it applies cleanly to da766b87a. It predates .5/.6, so it still needs view integration, the shared glyph vocabulary, and one row per bead. Its -a/--all flag is dead because the core index drops owner and invalid actors (sase-core touch_index.rs owner_email_and_invalid_actors_never_become_touchers).
+(2) Master Gate has been red since 821a21c49. sase-core-revision.txt pins 1655a129, which predates 9a5c568, so the 'Check pinned core bindings' lint step and three shard tests fail on missing bead_touch_index_query/refresh/status (run 35602782267). This needs `just ratchet-core-revision`.
+(3) symvision: bead_touch_glyph and ordered_bead_verb_chips are unused public symbols. The Justfile's sase-14j epic-symbol entries (BeadTouchIndexStatus, BeadTouchRefresh, query_touches_for_agent) need resolving.
+(4) Three Agents-tab PNG goldens (agents_task_bead_notes / agents_phase_bead_context / agents_phase_bead_and_plan_context 120x40) were never regenerated after 2b3b37e89.
+FOLLOW-UP DISPOSITIONS so far: filed sase-159 (link_added/link_removed actor is always the owner) and sase-15a (note/+1 actors are bare local names; root cause resolve_mutation_author), both from the plan's 'Memory and follow-ups'. +1'd sase-14q for sase-14j.5 note #3 (proc gear badge in goldens). Declined sase-14j.4 #1 and sase-14j.5 #2: the sase-14l.3 epic-symbol was already retired by d79525c55. sase-14j.4 #2 and epic note #2(2) (stale sase_core_rs wheel): the local wheel now exposes the bindings, and the CI side is item (2). Declined sase-14j.1 #2 (touch status can lag a +1 reopen): no surface keys behavior off status, which is emitted only in JSON and is documented as last-known from reduced events; revisit if a consumer starts keying off it. Epic note #1 (core floor probe) is now advisory since f43d6e4fe; the published-floor gap closes when sase-core cuts a release containing 9a5c568 and the release floor ratchets, which is release workflow, not landing work. Items (1)-(4) cover sase-14j.1 #1, sase-14j.5 #1, sase-14j.6 #1, and epic note #2(1).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -92,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14j.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14j.4.md) | [sase-14j.4](sase-14j.4.md) | 1 |
 | [bbugyi200.athena.sase-14j.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.5/README.md) | [sase-14j.5](sase-14j.5.md) | 1 |
 | [bbugyi200.athena.sase-14j.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.6/README.md) | [sase-14j.6](sase-14j.6.md) | 1 |
-| [bbugyi200.athena.sase-14j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14j.land/README.md) | [sase-14j](README.md) | 0 |
+| [bbugyi200.athena.sase-14j.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14j.land.md) | [sase-14j](README.md) | 1 |
 
 ## Commits
 
@@ -103,3 +110,4 @@ flowchart TD
 | sase | [`e1ba485`](https://github.com/sase-org/sase/commit/e1ba4851c1011acc8a8825d5570159b14f7926d0) | feat(tui): resolve per-agent bead touches for the metadata panel | [sase-14j.4](sase-14j.4.md) | 2026-09-20 21:06:00 EDT |
 | sase | [`2b3b37e`](https://github.com/sase-org/sase/commit/2b3b37e8977acdbd81cb51f0146fdab9902b7f06) | feat(agents): render Beads sub-section in ARTIFACTS lane | [sase-14j.5](sase-14j.5.md) | 2026-09-20 22:20:12 EDT |
 | sase | [`da766b8`](https://github.com/sase-org/sase/commit/da766b87a17b6fdbb1402fef50b4d28fc460e44c) | feat(beads): record agent bead show views as weaker viewed touches | [sase-14j.6](sase-14j.6.md) | 2026-09-21 08:59:35 EDT |
+| sase | [`319fe6b`](https://github.com/sase-org/sase/commit/319fe6b246fa09f4c8fa509a98f4a8b9e4c9f10f) | feat(beads): land sase bead touched with panel-agreeing rows, core pin, and Beads goldens | [sase-14j](README.md) | 2026-09-21 10:55:32 EDT |
