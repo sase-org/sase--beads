@@ -91,7 +91,7 @@ flowchart TD
     n7["sase-14n.15: Finish the sase-14n landing leftovers [in_progress]"]
     n8["sase-14n.15.1: Return just check to green on master [closed]"]
     n9["sase-14n.15.2: Reach and restore dismissed notifications from the notification modal [in_progress]"]
-    n10["sase-14n.15.3: Prove the gate-shell row through the production gate creation path [in_progress]"]
+    n10["sase-14n.15.3: Prove the gate-shell row through the production gate creation path [closed]"]
     n11["sase-14n.2: Restore the complete-history latch reset on a changed query key [closed]"]
     n12["sase-14n.3: Settle the land segment's queue weight [closed]"]
     n13["sase-14n.4: Land the TUI import count strictly under its budget [closed]"]
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.14](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.14.md) | [sase-14n.14](sase-14n.14.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.1/README.md) | [sase-14n.15.1](sase-14n.15.1.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.2/README.md) | [sase-14n.15.2](sase-14n.15.2.md) | 0 |
-| [bbugyi200.athena.sase-14n.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md) | [sase-14n.15.3](sase-14n.15.3.md) | 0 |
+| [bbugyi200.athena.sase-14n.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md) | [sase-14n.15.3](sase-14n.15.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 0 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
@@ -185,3 +185,4 @@ flowchart TD
 | sase | [`b3550b5`](https://github.com/sase-org/sase/commit/b3550b56ea3dd109249609dde848040a8a09369d) | fix(agents-view): dispatch zoom LLM Calls visibility message and repaint header hint on every picker exit | [sase-14n.7](sase-14n.7.md) | 2026-09-21 12:21:10 EDT |
 | sase | [`03fff9d`](https://github.com/sase-org/sase/commit/03fff9dcbcad9c17e62cbc2217033c6be30a6a18) | fix(ace): fit notification modal footer to modal width so close and +1 stay visible | [sase-14n.8](sase-14n.8.md) | 2026-09-21 13:20:25 EDT |
 | sase | [`dd22887`](https://github.com/sase-org/sase/commit/dd22887a1774fa1a6beeebd4f372d74f10b5ff1c) | perf(tui): defer update/toast/dev-detect imports to cut startup closure to 3246 modules | [sase-14n.15.1](sase-14n.15.1.md) | 2026-09-21 17:39:58 EDT |
+| sase | [`c6807d2`](https://github.com/sase-org/sase/commit/c6807d24cb3847ced1af4487637448fa35858f19) | fix(gate): refuse rowless shell-block custom gates and prove the row end to end | [sase-14n.15.3](sase-14n.15.3.md) | 2026-09-21 18:27:49 EDT |
