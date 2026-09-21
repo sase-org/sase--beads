@@ -13,7 +13,7 @@ fleet_contract: decompose the 10,548-line fleet wire contract into a fleet_contr
 
 ## Dependencies
 
-- **Depends on:** [sase-14s.3](sase-14s.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.3](sase-14s.3.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14s.5](sase-14s.5.md) ◐ · ⧖ 2026-09-20
 
 ## Agents

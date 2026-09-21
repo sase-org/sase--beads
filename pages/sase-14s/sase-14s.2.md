@@ -18,7 +18,7 @@ agent_scan_index: decompose the 13,468-line agent artifact index module into wir
 ## Dependencies
 
 - **Depends on:** [sase-14s.1](sase-14s.1.md) ✓ · ⧖ 2026-09-20
-- **Blocks:** [sase-14s.3](sase-14s.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14s.3](sase-14s.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
