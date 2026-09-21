@@ -17,7 +17,7 @@ tmp_paths: replace the rendered-text path assertions in the zoom file-list and c
 
 ## Dependencies
 
-- **Blocks:** [sase-14n.7](sase-14n.7.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14n.7](sase-14n.7.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14n.8](sase-14n.8.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
