@@ -13,7 +13,7 @@ editor_completion: decompose the 7,260-line editor completion module by completi
 
 ## Dependencies
 
-- **Depends on:** [sase-14s.7](sase-14s.7.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [sase-14s.7](sase-14s.7.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [sase-14s.9](sase-14s.9.md) ◐ · ⧖ 2026-09-20
 
 ## Agents
