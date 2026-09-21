@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-14s
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0oh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0oh.md) · **Assignee:** `sase-14s.land`
-**Created:** 2026-09-20 19:06:06 EDT
+**Created:** 2026-09-20 19:06:06 EDT · **Closed:** 2026-09-21 13:04:01 EDT
 **Plan:** [202609/sase\_core\_big\_file\_split.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_big_file_split.md)
 
 <!-- sase:links:start -->
@@ -22,6 +22,10 @@
 ## Description
 
 Each of the ten largest Rust files in the sase-core repo is decomposed into a module tree whose every file is at most 1500 lines, with no behavior change, no public API change, and `just check` green after each phase.
+
+## Notes
+
+[2026-09-21T17:04:01Z · sase-14s.land] LANDED by sase-14s.land. VERIFIED (sase-core master 5154900): all 10 phases closed; each epic commit (03036af 601d4e7 5f7088a 4df82c7 a14f559 cc9c86c d1ac7bf 2857d6a ca597b9 5154900) keeps the repo-wide #[test] count (4055..4063) and fn count unchanged across the commit; every file in all ten target trees is <=1500 lines (max 1438, sase_core_py/beads/mod.rs); old monolith paths are gone, agent_launch/mod.rs is an 83-line facade, and no #[path] attributes are used. The repo-wide >1500 audit lists only untargeted files. sase_core_rs pymodule registrations: 827 before and after, same name set. The completion commit's -165 net lines are rustfmt reflow after de-indenting tests (checked with a sorted-line diff). The epic bead has no notes of its own; each child note's claims check out. INTEGRATED: the 10 non-epic sase-core commits since the epic started (4b0f5d6 2f37e54 60782f2 5e8d315 19274c0 3f56910 b13332f 2b78764 ffc77b7 3e346b0, plus upstream d99ba11 d48aaf3) each sit either before the relevant split (and are carried into it) or already edit the new trees (routes/support.rs, server/actions.rs); nothing re-created a monolith or duplicated logic. sase-core has no stale path references. In the sase repo, fixed tools/probe_core_floor: _diagnose_capability pickaxed only crates/sase_core_py/src/lib.rs, so any binding added after the split would be misreported as 'no introducing commit' / blocked_unpublished. The path is widened to crates/sase_core_py/src, with a new real-git regression test in tests/test_probe_core_floor_tool.py that fails on the old path. Also updated a stale editor/completion.rs comment in tests/ace/tui/widgets/test_artifact_ref_completion_catalog.py. just check in sase: fmt, ruff, flags, pyscripts, changelog, terminology, symvision, validate, committed-plans, and the probe all green; the probe_core_floor tests pass. Pre-existing red gates, none from this epic: mypy on prebuild.py and test-waits on stream_command.py (sase-158 DISCOVERED ISSUE / sase-15c); toobig on test_detach_scope.py (fixed on origin/master d05be99aad); the escalated full-suite failures are already tracked (sase-14u/14v, 14r, 154, 13p) or fixed upstream (the service_host_scenarios ImportError). FOLLOW-UPS: sase-14s.8 provider_priority LockTimeout -> +1 on duplicate sase-yn. sase-14s.5 gateway fleet route 504/snapshot_refresh timeouts -> new flake task sase-15g (large). sase-14s.10 sudo_runner apt_get_shaped ETXTBSY -> new flake task sase-15h (medium, related sase-15e/15f; also covers the unnamed sudo_runner flake sase-14s.9 saw). Extra: the test_cli_at_path_values ('touched','verb') failure is recorded as a DISCOVERED ISSUE on the causing active epic sase-14j. No epic-symbol entries.
 
 ## Phases
 
@@ -42,7 +46,7 @@ Each of the ten largest Rust files in the sase-core repo is decomposed into a mo
 
 ```mermaid
 flowchart TD
-    n0["sase-14s: Split The Ten Largest sase-core Rust Files Into &lt;=1500 Line Modules [in_progress]"]
+    n0["sase-14s: Split The Ten Largest sase-core Rust Files Into &lt;=1500 Line Modules [closed]"]
     n1["sase-14s.1: Split crates/sase_core_py/src/lib.rs [closed]"]
     n2["sase-14s.10: Split crates/sase_gateway/src/sudo_runner.rs [closed]"]
     n3["sase-14s.2: Split crates/sase_core/src/agent_scan/index.rs [closed]"]
@@ -88,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14s.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.7/README.md) | [sase-14s.7](sase-14s.7.md) | 1 |
 | [bbugyi200.athena.sase-14s.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.8/README.md) | [sase-14s.8](sase-14s.8.md) | 1 |
 | [bbugyi200.athena.sase-14s.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.9/README.md) | [sase-14s.9](sase-14s.9.md) | 1 |
-| [bbugyi200.athena.sase-14s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.land/README.md) | [sase-14s](README.md) | 0 |
+| [bbugyi200.athena.sase-14s.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14s.land/README.md) | [sase-14s](README.md) | 1 |
 
 ## Commits
 
@@ -104,3 +108,4 @@ flowchart TD
 | sase-core | [`sase-core@2857d6a`](https://github.com/sase-org/sase-core/commit/2857d6a1c80d92b67b1d08c0db8fa8d1a5fd22c0) | refactor(editor): split completion.rs into source-keyed module tree | [sase-14s.8](sase-14s.8.md) | 2026-09-21 09:32:10 EDT |
 | sase-core | [`sase-core@ca597b9`](https://github.com/sase-org/sase-core/commit/ca597b94ebc4603cee9c1c05f4d6c25f336116dd) | refactor(xprompt\_catalog): split 4850-line module into \<=875-line tree | [sase-14s.9](sase-14s.9.md) | 2026-09-21 10:31:16 EDT |
 | sase-core | [`sase-core@5154900`](https://github.com/sase-org/sase-core/commit/51549000a1cfa59e4b6806a39ed5595bba93dde1) | refactor(sase\_gateway): split sudo\_runner.rs into \<=701-line module tree | [sase-14s.10](sase-14s.10.md) | 2026-09-21 11:29:34 EDT |
+| sase | [`af6b1f4`](https://github.com/sase-org/sase/commit/af6b1f475ca6d4c8a11bad0fd461ec560f0be93b) | fix(tools): diagnose core-floor bindings across the split sase\_core\_py module tree | [sase-14s](README.md) | 2026-09-21 13:07:21 EDT |
