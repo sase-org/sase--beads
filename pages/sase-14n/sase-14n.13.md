@@ -26,10 +26,11 @@ gate_undismiss: add an undismiss state transition to the notification action sur
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 1 |
+| [bbugyi200.athena.sase-14n.13](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.13.md) | [sase-14n.13](sase-14n.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`98bf83a`](https://github.com/sase-org/sase/commit/98bf83a38cc9f51e97465e09faeff47c33d5c865) | feat(notifications): add undismiss transition to recover dismissed live gates | [sase-14n.13](sase-14n.13.md) | 2026-09-20 20:22:42 EDT |
+| sase-core | [`sase-core@2f37e54`](https://github.com/sase-org/sase-core/commit/2f37e54f906fdee3079c20ea5d3655b76dc05af0) | feat(notifications): add undismiss transition to core store and wire format | [sase-14n.13](sase-14n.13.md) | 2026-09-20 20:26:35 EDT |
