@@ -18,7 +18,7 @@ The service host obeys its own restart decisions, an explicit restart is a confi
 | [sase-16g.1](sase-16g.1.md) | Core restart, request, and config-layer semantics | ✓ closed | medium | 2026-09-22 | 1 | 0 |
 | [sase-16g.2](sase-16g.2.md) | Restart is a confirmed transition | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16g.3](sase-16g.3.md) | Last-known-good config keeps the host supervising | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16g.4](sase-16g.4.md) | The host honors give\_up and says so | ✓ closed | medium | 2026-09-22 | 1 | 1 |
+| [sase-16g.4](sase-16g.4.md) | The host honors give\_up and says so | ✓ closed | medium | 2026-09-22 | 1 | 2 |
 | [sase-16g.5](sase-16g.5.md) | The CLI and the Services tab show the real failure states | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16g.6](sase-16g.6.md) | The captured service environment is context-safe | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.1/README.md) | [sase-16g.1](sase-16g.1.md) | 0 |
 | [bbugyi200.athena.sase-16g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.2/README.md) | [sase-16g.2](sase-16g.2.md) | 1 |
 | [bbugyi200.athena.sase-16g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.3/README.md) | [sase-16g.3](sase-16g.3.md) | 1 |
-| [bbugyi200.athena.sase-16g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md) | [sase-16g.4](sase-16g.4.md) | 1 |
+| [bbugyi200.athena.sase-16g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md) | [sase-16g.4](sase-16g.4.md) | 2 |
 | [bbugyi200.athena.sase-16g.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.5/README.md) | [sase-16g.5](sase-16g.5.md) | 0 |
 | [bbugyi200.athena.sase-16g.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.6/README.md) | [sase-16g.6](sase-16g.6.md) | 1 |
 | [bbugyi200.athena.sase-16g.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.land/README.md) | [sase-16g](README.md) | 0 |
@@ -65,6 +65,7 @@ flowchart TD
 | sase | [`00106bb`](https://github.com/sase-org/sase/commit/00106bbef8f03681669461e543f614afd8e43f0c) | feat(service): restarts are confirmed generation transitions with honest CLI outcomes | [sase-16g.2](sase-16g.2.md) | 2026-09-22 14:26:56 EDT |
 | sase | [`5374c03`](https://github.com/sase-org/sase/commit/5374c03ab7b55c3843feef112df9c407495d941a) | feat(service): last-known-good config keeps the host supervising | [sase-16g.3](sase-16g.3.md) | 2026-09-22 14:59:40 EDT |
 | sase | [`716c77d`](https://github.com/sase-org/sase/commit/716c77dce324cb2ef6f36990efaf8a0a416c397b) | feat(service): honor give\_up with parked records and loud failure notifications | [sase-16g.4](sase-16g.4.md) | 2026-09-22 15:37:16 EDT |
+| sase-telegram | [`sase-telegram@fbe6d1a`](https://github.com/sase-org/sase-telegram/commit/fbe6d1acc46eeb6e27c8f0dcd0e7d3fa59b7e160) | fix(telegram): retry credential loss with EX\_TEMPFAIL instead of clean exit | [sase-16g.4](sase-16g.4.md) | 2026-09-22 15:41:00 EDT |
 
 <!-- sase:referenced-by:start -->
 

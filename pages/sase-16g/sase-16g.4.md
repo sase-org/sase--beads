@@ -28,10 +28,23 @@ giveup: stop relaunching procs the restart policy gave up on, keep a signature-k
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md) | [sase-16g.4](sase-16g.4.md) | 1 |
+| [bbugyi200.athena.sase-16g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md) | [sase-16g.4](sase-16g.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`716c77d`](https://github.com/sase-org/sase/commit/716c77dce324cb2ef6f36990efaf8a0a416c397b) | feat(service): honor give\_up with parked records and loud failure notifications | [sase-16g.4](sase-16g.4.md) | 2026-09-22 15:37:16 EDT |
+| sase-telegram | [`sase-telegram@fbe6d1a`](https://github.com/sase-org/sase-telegram/commit/fbe6d1acc46eeb6e27c8f0dcd0e7d3fa59b7e160) | fix(telegram): retry credential loss with EX\_TEMPFAIL instead of clean exit | [sase-16g.4](sase-16g.4.md) | 2026-09-22 15:41:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16g.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md
+
+<!-- sase:referenced-by:end -->
