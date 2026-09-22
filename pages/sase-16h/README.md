@@ -24,7 +24,7 @@ Every heavy verification run by a SASE agent is a recorded ToolRun by constructi
 | [sase-16h.3](sase-16h.3.md) | Make the wrapper as faithful as the raw command | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16h.4](sase-16h.4.md) | Refuse a raw agent invocation of a guarded recipe | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16h.5](sase-16h.5.md) | Wrap a monitor's command in sase tool run | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16h.6](sase-16h.6.md) | Give the linked repos catalogs and guards | ✓ closed | medium | 2026-09-22 | 1 | 4 |
+| [sase-16h.6](sase-16h.6.md) | Give the linked repos catalogs and guards | ✓ closed | medium | 2026-09-22 | 1 | 5 |
 
 ## Lineage
 
@@ -59,7 +59,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16h.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.3/README.md) | [sase-16h.3](sase-16h.3.md) | 1 |
 | [bbugyi200.athena.sase-16h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md) | [sase-16h.4](sase-16h.4.md) | 1 |
 | [bbugyi200.athena.sase-16h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md) | [sase-16h.5](sase-16h.5.md) | 1 |
-| [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 4 |
+| [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 5 |
 | [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 0 |
 
 ## Commits
@@ -76,6 +76,7 @@ flowchart TD
 | sase-core | [`sase-core@2017dbe`](https://github.com/sase-org/sase-core/commit/2017dbe95e6e030e6793dcb7ed99d2ebbef5524d) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:34:25 EDT |
 | sase-github | [`sase-github@e807f82`](https://github.com/sase-org/sase-github/commit/e807f823f6ee137c72503d8367d0a80543196b97) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:36:52 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@760ff40`](https://github.com/sase-org/sase-research-artifacts/commit/760ff407f24fc25ce91facd5b984051d09d668e4) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:39:38 EDT |
+| sase-telegram | [`sase-telegram@5b7f583`](https://github.com/sase-org/sase-telegram/commit/5b7f5834e6b8d317dbdefb138ac2b2a8179010c8) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:47:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
