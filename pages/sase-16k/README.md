@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16k.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.1/README.md) | [sase-16k.1](sase-16k.1.md) | 1 |
 | [bbugyi200.athena.sase-16k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.2/README.md) | [sase-16k.2](sase-16k.2.md) | 1 |
 | [bbugyi200.athena.sase-16k.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.3/README.md) | [sase-16k.3](sase-16k.3.md) | 1 |
-| [bbugyi200.athena.sase-16k.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.land/README.md) | [sase-16k](README.md) | 1 |
+| [bbugyi200.athena.sase-16k.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.land/README.md) | [sase-16k](README.md) | 2 |
 
 ## Commits
 
@@ -55,6 +55,7 @@ flowchart TD
 | sase | [`2822794`](https://github.com/sase-org/sase/commit/28227947e135f66042f61aa3fac9428d1defad6e) | feat(agents): detachable identity header in prompt-panel documents | [sase-16k.1](sase-16k.1.md) | 2026-09-22 16:03:37 EDT |
 | sase | [`7c2e051`](https://github.com/sase-org/sase/commit/7c2e051479e6b72789f33063ecd1e476278133af) | feat(agents): sticky collapsible agent header panel on Agents tab | [sase-16k.3](sase-16k.3.md) | 2026-09-22 18:03:59 EDT |
 | sase | [`d40c759`](https://github.com/sase-org/sase/commit/d40c759db972e265b7b8d8cc1b5c1e53292afcb5) | refactor(agents): drop phase-transitional header toggle lookups | [sase-16k](README.md) | 2026-09-22 18:25:00 EDT |
+| sase--plans | [`sase--plans@9e82e0d`](https://github.com/sase-org/sase--plans/commit/9e82e0d096be6feccdc281cbc5e8b8376f626dba) | chore(plans): mark sticky agent header panel plan done | [sase-16k](README.md) | 2026-09-22 18:28:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -63,7 +64,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16k.1][1] | Need parent epic context for document phase | 1 |
+| read-by | [agent:sase-16k.land][2] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.land/README.md
 
 <!-- sase:referenced-by:end -->

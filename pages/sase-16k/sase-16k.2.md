@@ -47,8 +47,10 @@ keymap: add the `toggle_agent_header` app action on `d` end to end (config, data
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16k.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-16k.3][2] | check keymap phase scope for panel integration | 1 |
+| read-by | [agent:sase-16k.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.land/README.md
 
 <!-- sase:referenced-by:end -->
