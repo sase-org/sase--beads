@@ -18,7 +18,7 @@ config: keep the last composition that loaded, observe exits and stop children w
 ## Dependencies
 
 - **Depends on:** [sase-16g.2](sase-16g.2.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16g.4](sase-16g.4.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16g.4](sase-16g.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -31,3 +31,15 @@ config: keep the last composition that loaded, observe exits and stop children w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5374c03`](https://github.com/sase-org/sase/commit/5374c03ab7b55c3843feef112df9c407495d941a) | feat(service): last-known-good config keeps the host supervising | [sase-16g.3](sase-16g.3.md) | 2026-09-22 14:59:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16g.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.3/README.md
+
+<!-- sase:referenced-by:end -->

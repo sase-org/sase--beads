@@ -13,7 +13,7 @@ surfaces: replace the invented failed/error vocabulary with the wire states the 
 
 ## Dependencies
 
-- **Depends on:** [sase-16g.4](sase-16g.4.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16g.4](sase-16g.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
