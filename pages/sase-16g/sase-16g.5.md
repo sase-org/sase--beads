@@ -19,4 +19,10 @@ surfaces: replace the invented failed/error vocabulary with the wire states the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16g.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.5/README.md) | [sase-16g.5](sase-16g.5.md) | 0 |
+| [bbugyi200.athena.sase-16g.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.5/README.md) | [sase-16g.5](sase-16g.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c1af4a8`](https://github.com/sase-org/sase/commit/c1af4a828178f0c820fe5ffa537e10b51184ca29) | feat(service): CLI and Services tab show real failure states | [sase-16g.5](sase-16g.5.md) | 2026-09-22 16:19:53 EDT |
