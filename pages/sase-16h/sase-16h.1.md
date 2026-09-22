@@ -40,7 +40,9 @@ ownership-roots: scrub executor-ownership variables at every agent launch, ignor
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16h.1][1] | recovery turn bead status check | 2 |
+| read-by | [agent:sase-16h.2][2] | Need prior phase precedent for commit and pin handling | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.2/README.md
 
 <!-- sase:referenced-by:end -->
