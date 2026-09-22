@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-165.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.5/README.md) | [sase-165.5](sase-165.5.md) | 1 |
 | [bbugyi200.athena.sase-165.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.6.md) | [sase-165.6](sase-165.6.md) | 1 |
 | [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.7.md) | [sase-165.7](sase-165.7.md) | 2 |
-| [bbugyi200.athena.sase-165.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.land.md) | [sase-165](README.md) | 1 |
+| [bbugyi200.athena.sase-165.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.land.md) | [sase-165](README.md) | 2 |
 
 ## Commits
 
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`e081abe`](https://github.com/sase-org/sase/commit/e081abe1cb9168a20b9ff5a989956d0beb1d96c8) | feat(config): add managed\_tmp.agent\_cargo\_incremental opt-in for agent cargo incremental | [sase-165.7](sase-165.7.md) | 2026-09-22 11:36:45 EDT |
 | chezmoi | [`chezmoi@034c594`](https://github.com/bbugyi200/dotfiles/commit/034c594bd4621a306688adad76f306ce8544de36) | feat(cargo): split incremental units via sase-rustc-wrapper for sccache | [sase-165.7](sase-165.7.md) | 2026-09-22 11:40:24 EDT |
 | sase | [`8d085d0`](https://github.com/sase-org/sase/commit/8d085d03c641a4904a06433bca64619e0cd45472) | fix: widen dev-extension freshness identity INPUT\_PATHS to Cargo.toml, Cargo.lock, rust-toolchain.toml and crates/ | [sase-165](README.md) | 2026-09-22 13:15:50 EDT |
+| sase-core | [`sase-core@b1d2881`](https://github.com/sase-org/sase-core/commit/b1d28818c48c657dccb45801edeb9d9ee4c930fb) | docs(core): name the features gate in the just check step list | [sase-165](README.md) | 2026-09-22 13:18:53 EDT |
