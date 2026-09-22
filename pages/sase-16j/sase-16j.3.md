@@ -33,3 +33,15 @@ wire: add the act_on_agent app action bound to enter (jump_to_agent_patch stays 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b27029e`](https://github.com/sase-org/sase/commit/b27029e894a0176f213c3915ddfc8b003acfed9a) | feat(ace): make Agents Enter context-aware via act\_on\_agent | [sase-16j.3](sase-16j.3.md) | 2026-09-22 16:12:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16j.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.3/README.md
+
+<!-- sase:referenced-by:end -->
