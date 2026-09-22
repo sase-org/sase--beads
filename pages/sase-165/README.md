@@ -18,7 +18,7 @@ Every agent that touches sase-core gets a concise, accurate guide without being 
 | [sase-165.1](sase-165.1.md) | Pinned features, just fast, and a true MSRV in sase-core | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-165.2](sase-165.2.md) | sase-core agent guide, provider shims, module map, README | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-165.3](sase-165.3.md) | repo-open AGENTS.md hint, sase\_repo skill, core memory fix | ◐ in_progress | small | 2026-09-22 | 1 | 0 |
-| [sase-165.4](sase-165.4.md) | Core pin ratchet workflow opens its PR | ◐ in_progress | small | 2026-09-22 | 1 | 0 |
+| [sase-165.4](sase-165.4.md) | Core pin ratchet workflow opens its PR | ✓ closed | small | 2026-09-22 | 1 | 1 |
 | [sase-165.5](sase-165.5.md) | Dev extension rebuilds when linked sase-core source changes | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-165.6](sase-165.6.md) | Managed-tmp reaper covers the root agents actually use | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-165.7](sase-165.7.md) | Incremental check/clippy through the athena rustc wrapper | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n1["sase-165.1: Pinned features, just fast, and a true MSRV in sase-core [in_progress]"]
     n2["sase-165.2: sase-core agent guide, provider shims, module map, README [in_progress]"]
     n3["sase-165.3: repo-open AGENTS.md hint, sase_repo skill, core memory fix [in_progress]"]
-    n4["sase-165.4: Core pin ratchet workflow opens its PR [in_progress]"]
+    n4["sase-165.4: Core pin ratchet workflow opens its PR [closed]"]
     n5["sase-165.5: Dev extension rebuilds when linked sase-core source changes [closed]"]
     n6["sase-165.6: Managed-tmp reaper covers the root agents actually use [in_progress]"]
     n7["sase-165.7: Incremental check/clippy through the athena rustc wrapper [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-165.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.1/README.md) | [sase-165.1](sase-165.1.md) | 0 |
 | [bbugyi200.athena.sase-165.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.2/README.md) | [sase-165.2](sase-165.2.md) | 0 |
 | [bbugyi200.athena.sase-165.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.3/README.md) | [sase-165.3](sase-165.3.md) | 0 |
-| [bbugyi200.athena.sase-165.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.4/README.md) | [sase-165.4](sase-165.4.md) | 0 |
+| [bbugyi200.athena.sase-165.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.4/README.md) | [sase-165.4](sase-165.4.md) | 1 |
 | [bbugyi200.athena.sase-165.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.5/README.md) | [sase-165.5](sase-165.5.md) | 1 |
 | [bbugyi200.athena.sase-165.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.6/README.md) | [sase-165.6](sase-165.6.md) | 0 |
 | [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.7/README.md) | [sase-165.7](sase-165.7.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e8d2386`](https://github.com/sase-org/sase/commit/e8d238688ff9b75edec510d3a8b56aec9e6c77d9) | feat(dev): rebuild extension when linked sase-core source changes | [sase-165.5](sase-165.5.md) | 2026-09-22 09:54:45 EDT |
+| sase | [`1404010`](https://github.com/sase-org/sase/commit/1404010b1e255bdc42711b34202c6f0c2d83a27c) | fix(core-pin): tolerate ratchet apply exit 2 so the bot reaches push and PR | [sase-165.4](sase-165.4.md) | 2026-09-22 09:56:50 EDT |
