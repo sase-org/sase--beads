@@ -13,7 +13,7 @@ deploy-dismiss-verify: run sase update -y, restart pre-update TUIs through their
 
 ## Dependencies
 
-- **Depends on:** [sase-168.1](sase-168.1.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-168.1](sase-168.1.md) ✓ · ⧖ 2026-09-22
 - **Depends on:** [sase-168.2](sase-168.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
