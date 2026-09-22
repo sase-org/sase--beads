@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/finish_sase_14n_landing_leftovers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/finish_sase_14n_landing_leftovers.md
 
 <!-- sase:links:end -->
@@ -35,10 +37,23 @@ Follow-ups: sase-14n.15.2 shard drift was +1'd on sase-14r. sase-14n.15.2 questi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 1 |
+| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bd65fd1`](https://github.com/sase-org/sase/commit/bd65fd1dd4d1ef7d4bcbc6aefeb266a5fa8b60a8) | test(notifications): drive the question footer test through a real NotificationHintFooter | [sase-14n.15](sase-14n.15.md) | 2026-09-21 20:41:33 EDT |
+| sase--plans | [`sase--plans@6e7f4a9`](https://github.com/sase-org/sase--plans/commit/6e7f4a981a0444b0997a8ed523fdb667381ae860) | chore(plans): mark sase-14n and sase-14n.15 plans done | [sase-14n.15](sase-14n.15.md) | 2026-09-21 20:45:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-14n.15.land][1] | Need the epic scope, children, and linked plan file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md
+
+<!-- sase:referenced-by:end -->

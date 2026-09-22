@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/fix_triaged_bug_and_ci_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/fix_triaged_bug_and_ci_beads.md
 
 <!-- sase:links:end -->
@@ -155,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.1/README.md) | [sase-14n.15.1](sase-14n.15.1.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.2/README.md) | [sase-14n.15.2](sase-14n.15.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md) | [sase-14n.15.3](sase-14n.15.3.md) | 1 |
-| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 1 |
+| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 2 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
@@ -190,3 +192,16 @@ flowchart TD
 | sase | [`c6807d2`](https://github.com/sase-org/sase/commit/c6807d24cb3847ced1af4487637448fa35858f19) | fix(gate): refuse rowless shell-block custom gates and prove the row end to end | [sase-14n.15.3](sase-14n.15.3.md) | 2026-09-21 18:27:49 EDT |
 | sase | [`a8bd795`](https://github.com/sase-org/sase/commit/a8bd795be2b80c08bfd13c098d05e8d8c3b74e2a) | feat(notifications): add dismissed view toggle and undismiss restore | [sase-14n.15.2](sase-14n.15.2.md) | 2026-09-21 19:14:31 EDT |
 | sase | [`bd65fd1`](https://github.com/sase-org/sase/commit/bd65fd1dd4d1ef7d4bcbc6aefeb266a5fa8b60a8) | test(notifications): drive the question footer test through a real NotificationHintFooter | [sase-14n.15](sase-14n.15.md) | 2026-09-21 20:41:33 EDT |
+| sase--plans | [`sase--plans@6e7f4a9`](https://github.com/sase-org/sase--plans/commit/6e7f4a981a0444b0997a8ed523fdb667381ae860) | chore(plans): mark sase-14n and sase-14n.15 plans done | [sase-14n.15](sase-14n.15.md) | 2026-09-21 20:45:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-14n.15.land][1] | Parent plan bead: review landing note, descendants, plan file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md
+
+<!-- sase:referenced-by:end -->
