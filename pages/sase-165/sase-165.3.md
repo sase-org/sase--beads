@@ -15,4 +15,22 @@ instruction-delivery: sase repo open names an opened repo's AGENTS.md on stderr,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-165.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.3/README.md) | [sase-165.3](sase-165.3.md) | 0 |
+| [bbugyi200.athena.sase-165.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.3/README.md) | [sase-165.3](sase-165.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`772f3f1`](https://github.com/sase-org/sase/commit/772f3f199621b901c1456a9c9d71d0d05bd766a2) | feat(repo-open): name opened repo AGENTS.md on stderr and fix core memory pointer | [sase-165.3](sase-165.3.md) | 2026-09-22 10:36:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-165.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@ reaper-root: capture SASE_TMPDIR (and sibling SASE path overrides) in the servic
 
 [2026-09-22T13:49:38Z · sase-165.6] Landing one-time host command: run `sase service init --yes` from an interactive shell (with SASE_TMPDIR exported, e.g. via ~/.profile) on each host so the captured service env picks up SASE_TMPDIR/SASE_HOME; then confirm the next managed_tmp_reap result names the effective root (e.g. ~/.cache/sase/tmp) in its log line
 
+[2026-09-22T14:50:08Z · sase-165.6--1] check FAILED with 10 pre-existing failures unrelated to reaper-root (verified on clean stashed tree): test_cli_at_path_values free-text classification, usage_config x4, commit_bead_hooks x3, epic_panel_arrival_frames, session_proc_reporter uv-runner. All lint gates passed; 49/49 reaper-root focused tests pass. Epic-symbols clean. NOT closing per phase instructions; land agent to decide.
+
 ## Dependencies
 
 - **Blocks:** [sase-165.7](sase-165.7.md) ◐ · ⧖ 2026-09-22
@@ -23,4 +25,10 @@ reaper-root: capture SASE_TMPDIR (and sibling SASE path overrides) in the servic
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-165.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.6/README.md) | [sase-165.6](sase-165.6.md) | 0 |
+| [bbugyi200.athena.sase-165.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.6.md) | [sase-165.6](sase-165.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`529d7d3`](https://github.com/sase-org/sase/commit/529d7d325f050dc8af08d55d49e8251df4492160) | feat(reaper): capture SASE\_TMPDIR in service env and warn on managed-root mismatch | [sase-165.6](sase-165.6.md) | 2026-09-22 10:51:48 EDT |
