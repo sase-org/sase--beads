@@ -22,7 +22,7 @@ recipe-guard: add the dependency-free tools/require_tool_run script, wire it int
 ## Dependencies
 
 - **Depends on:** [sase-16h.3](sase-16h.3.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16h.5](sase-16h.5.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16h.5](sase-16h.5.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -35,3 +35,15 @@ recipe-guard: add the dependency-free tools/require_tool_run script, wire it int
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7fad339`](https://github.com/sase-org/sase/commit/7fad3394ca04d16d0331755ffd70b64c3fc362b8) | feat(tool): refuse raw agent runs of guarded check recipes | [sase-16h.4](sase-16h.4.md) | 2026-09-22 17:02:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16h.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md
+
+<!-- sase:referenced-by:end -->

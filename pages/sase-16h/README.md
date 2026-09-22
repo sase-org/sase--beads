@@ -23,7 +23,7 @@ Every heavy verification run by a SASE agent is a recorded ToolRun by constructi
 | [sase-16h.2](sase-16h.2.md) | Record child process facts and authorize reaping in sase-core | ✓ closed | medium | 2026-09-22 | 1 | 2 |
 | [sase-16h.3](sase-16h.3.md) | Make the wrapper as faithful as the raw command | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16h.4](sase-16h.4.md) | Refuse a raw agent invocation of a guarded recipe | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16h.5](sase-16h.5.md) | Wrap a monitor's command in sase tool run | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
+| [sase-16h.5](sase-16h.5.md) | Wrap a monitor's command in sase tool run | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16h.6](sase-16h.6.md) | Give the linked repos catalogs and guards | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n2["sase-16h.2: Record child process facts and authorize reaping in sase-core [closed]"]
     n3["sase-16h.3: Make the wrapper as faithful as the raw command [closed]"]
     n4["sase-16h.4: Refuse a raw agent invocation of a guarded recipe [closed]"]
-    n5["sase-16h.5: Wrap a monitor's command in sase tool run [in_progress]"]
+    n5["sase-16h.5: Wrap a monitor's command in sase tool run [closed]"]
     n6["sase-16h.6: Give the linked repos catalogs and guards [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16h.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.2/README.md) | [sase-16h.2](sase-16h.2.md) | 2 |
 | [bbugyi200.athena.sase-16h.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.3/README.md) | [sase-16h.3](sase-16h.3.md) | 1 |
 | [bbugyi200.athena.sase-16h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md) | [sase-16h.4](sase-16h.4.md) | 1 |
-| [bbugyi200.athena.sase-16h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md) | [sase-16h.5](sase-16h.5.md) | 0 |
+| [bbugyi200.athena.sase-16h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md) | [sase-16h.5](sase-16h.5.md) | 1 |
 | [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 0 |
 | [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 0 |
 
@@ -71,6 +71,7 @@ flowchart TD
 | sase-core | [`sase-core@4b536cd`](https://github.com/sase-org/sase-core/commit/4b536cdcf28dc3fd75f411c3b4b0467c9174d2ce) | feat(tool): add tool\_run observe core, reap wire types, and telemetry binding | [sase-16h.2](sase-16h.2.md) | 2026-09-22 15:06:08 EDT |
 | sase | [`5950d06`](https://github.com/sase-org/sase/commit/5950d069c2c5f58f0f42ae2aafb0a8c2c35c0ec2) | feat(tool): wrapper-fidelity process groups, early observe, and orphan reaping | [sase-16h.3](sase-16h.3.md) | 2026-09-22 16:16:28 EDT |
 | sase | [`7fad339`](https://github.com/sase-org/sase/commit/7fad3394ca04d16d0331755ffd70b64c3fc362b8) | feat(tool): refuse raw agent runs of guarded check recipes | [sase-16h.4](sase-16h.4.md) | 2026-09-22 17:02:40 EDT |
+| sase | [`6167ec4`](https://github.com/sase-org/sase/commit/6167ec42cb1df33bb670ddf3d9c81ea75303a9c2) | feat(monitor): wrap supervised commands in sase tool run | [sase-16h.5](sase-16h.5.md) | 2026-09-22 17:56:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -79,9 +80,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16h.2][1] | Need parent epic context for phase 2 | 1 |
-| read-by | [agent:sase-16j.land][2] | Check if tool observe flake belongs to this epic | 2 |
+| read-by | [agent:sase-16h.4][2] | epic scope check | 1 |
+| read-by | [agent:sase-16j.land][3] | Check if tool observe flake belongs to this epic | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
 
 <!-- sase:referenced-by:end -->

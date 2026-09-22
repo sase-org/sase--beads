@@ -13,7 +13,7 @@ linked-repo-catalogs: add project tools catalogs and the recipe guard to sase-co
 
 ## Dependencies
 
-- **Depends on:** [sase-16h.5](sase-16h.5.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16h.5](sase-16h.5.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
