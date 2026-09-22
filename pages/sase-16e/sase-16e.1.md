@@ -21,7 +21,7 @@ rescue-store: add a best-effort rescue store outside the workspace (git bundles,
 
 ## Dependencies
 
-- **Blocks:** [sase-16e.2](sase-16e.2.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16e.2](sase-16e.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -34,3 +34,15 @@ rescue-store: add a best-effort rescue store outside the workspace (git bundles,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f42a6f9`](https://github.com/sase-org/sase/commit/f42a6f964af6ab0cfaf22dca5115585b92d966c4) | feat(workspace): durable rescue store and non-refusing sidecar eviction | [sase-16e.1](sase-16e.1.md) | 2026-09-22 14:44:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16e.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.1/README.md
+
+<!-- sase:referenced-by:end -->

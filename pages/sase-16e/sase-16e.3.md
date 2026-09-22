@@ -13,7 +13,7 @@ reclone: when in-place healing still fails, rescue and move the numbered checkou
 
 ## Dependencies
 
-- **Depends on:** [sase-16e.2](sase-16e.2.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16e.2](sase-16e.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

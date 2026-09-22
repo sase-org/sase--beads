@@ -16,7 +16,7 @@ A new SASE agent launch into a numbered ephemeral workspace never fails because 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-16e.1](sase-16e.1.md) | Durable rescue store and non-refusing sidecar eviction | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16e.2](sase-16e.2.md) | Self-healing checkout preparation for numbered workspaces | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
+| [sase-16e.2](sase-16e.2.md) | Self-healing checkout preparation for numbered workspaces | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16e.3](sase-16e.3.md) | Last-resort workspace re-creation and non-holding setup failures | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16e.4](sase-16e.4.md) | Order-preserving bead event stream merge in sase-core | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16e.5](sase-16e.5.md) | Bead sync rollback and wedged-clone healing | ◐ in_progress | medium | 2026-09-22 | 1 | 1 |
@@ -28,7 +28,7 @@ A new SASE agent launch into a numbered ephemeral workspace never fails because 
 flowchart TD
     n0["sase-16e: Self-healing agent workspace preparation [in_progress]"]
     n1["sase-16e.1: Durable rescue store and non-refusing sidecar eviction [closed]"]
-    n2["sase-16e.2: Self-healing checkout preparation for numbered workspaces [in_progress]"]
+    n2["sase-16e.2: Self-healing checkout preparation for numbered workspaces [closed]"]
     n3["sase-16e.3: Last-resort workspace re-creation and non-holding setup failures [in_progress]"]
     n4["sase-16e.4: Order-preserving bead event stream merge in sase-core [closed]"]
     n5["sase-16e.5: Bead sync rollback and wedged-clone healing [in_progress]"]
@@ -49,7 +49,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-16e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.1/README.md) | [sase-16e.1](sase-16e.1.md) | 1 |
-| [bbugyi200.athena.sase-16e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.2/README.md) | [sase-16e.2](sase-16e.2.md) | 0 |
+| [bbugyi200.athena.sase-16e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.2/README.md) | [sase-16e.2](sase-16e.2.md) | 1 |
 | [bbugyi200.athena.sase-16e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.3/README.md) | [sase-16e.3](sase-16e.3.md) | 0 |
 | [bbugyi200.athena.sase-16e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.4/README.md) | [sase-16e.4](sase-16e.4.md) | 1 |
 | [bbugyi200.athena.sase-16e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.5/README.md) | [sase-16e.5](sase-16e.5.md) | 1 |
@@ -64,6 +64,7 @@ flowchart TD
 | sase | [`ce730ca`](https://github.com/sase-org/sase/commit/ce730ca1b38f63fb90daaf8584625aad2dc20f69) | feat(beads): bead sync rollback and wedged-clone healing | [sase-16e.5](sase-16e.5.md) | 2026-09-22 13:04:23 EDT |
 | sase | [`1a96a22`](https://github.com/sase-org/sase/commit/1a96a22f171c845da339870d6cf054828dbf655f) | fix(ace-runner): recorded errors beat synthetic fallback; truthful runner output ordering | [sase-16e.6](sase-16e.6.md) | 2026-09-22 13:05:22 EDT |
 | sase | [`f42a6f9`](https://github.com/sase-org/sase/commit/f42a6f964af6ab0cfaf22dca5115585b92d966c4) | feat(workspace): durable rescue store and non-refusing sidecar eviction | [sase-16e.1](sase-16e.1.md) | 2026-09-22 14:44:03 EDT |
+| sase | [`496bd7f`](https://github.com/sase-org/sase/commit/496bd7fbda22b867e246bf10d1f378815fb416cd) | feat(workspace): self-healing checkout preparation for numbered workspaces | [sase-16e.2](sase-16e.2.md) | 2026-09-22 16:00:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
