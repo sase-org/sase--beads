@@ -13,7 +13,7 @@ checkout-heal: give prepare_workspace an opt-in self-heal ladder for numbered wo
 
 ## Dependencies
 
-- **Depends on:** [sase-16e.1](sase-16e.1.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16e.1](sase-16e.1.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16e.3](sase-16e.3.md) ◐ · ⧖ 2026-09-22
 
 ## Agents

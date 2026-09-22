@@ -26,3 +26,15 @@ bead-sync: bump the sase-core pin, roll a clone back when the post-integration s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ce730ca`](https://github.com/sase-org/sase/commit/ce730ca1b38f63fb90daaf8584625aad2dc20f69) | feat(beads): bead sync rollback and wedged-clone healing | [sase-16e.5](sase-16e.5.md) | 2026-09-22 13:04:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16e.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.5/README.md
+
+<!-- sase:referenced-by:end -->

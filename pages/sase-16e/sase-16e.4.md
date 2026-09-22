@@ -30,3 +30,15 @@ core-merge: in the sase-core repo, stop the bead event-stream merge from re-sort
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9ea034c`](https://github.com/sase-org/sase-core/commit/9ea034c8117ad63cdcd274416ac5be82200bb9bc) | fix(beads): order-preserving event-stream merge with pure-reorder tolerance | [sase-16e.4](sase-16e.4.md) | 2026-09-22 12:35:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16e.5][1] | Need core-merge result commit for pin bump | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -28,3 +28,15 @@ visibility: make a recorded runner error beat the synthesized "Runner exited wit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a96a22`](https://github.com/sase-org/sase/commit/1a96a22f171c845da339870d6cf054828dbf655f) | fix(ace-runner): recorded errors beat synthetic fallback; truthful runner output ordering | [sase-16e.6](sase-16e.6.md) | 2026-09-22 13:05:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16e.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.6/README.md
+
+<!-- sase:referenced-by:end -->
