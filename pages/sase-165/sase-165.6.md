@@ -19,7 +19,7 @@ reaper-root: capture SASE_TMPDIR (and sibling SASE path overrides) in the servic
 
 ## Dependencies
 
-- **Blocks:** [sase-165.7](sase-165.7.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-165.7](sase-165.7.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -39,8 +39,10 @@ reaper-root: capture SASE_TMPDIR (and sibling SASE path overrides) in the servic
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-165.6--1][1] | confirm note landed | 2 |
+| read-by | [agent:research.29.cld][1] | Audit whether beads whose agents were killed mid-wait were left open (headless early-exit research) | 1 |
+| read-by | [agent:sase-165.6--1][2] | confirm note landed | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.29.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.6.md
 
 <!-- sase:referenced-by:end -->

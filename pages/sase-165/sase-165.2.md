@@ -25,7 +25,13 @@ core-agent-guide: rewrite sase-core AGENTS.md to the target content, add CLAUDE.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-165.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.2/README.md) | [sase-165.2](sase-165.2.md) | 0 |
+| [bbugyi200.athena.sase-165.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.2/README.md) | [sase-165.2](sase-165.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@035851e`](https://github.com/sase-org/sase-core/commit/035851e0dad8a7ce00bf00735014e5d473c8786a) | docs(core): agent guide, provider shims, module map, README | [sase-165.2](sase-165.2.md) | 2026-09-22 11:15:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

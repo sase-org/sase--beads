@@ -11,6 +11,10 @@
 
 core-fast-loop: in sase-core, unify dependency features with a cargo-hakari workspace-hack plus a tool-free check.sh features gate (also run in CI). Add `just fast`, and make rust-version true by deleting the incompatible_msrv allows. Measure a ≤5 s no-edit -p scope switch.
 
+## Notes
+
+[2026-09-22T16:40:53Z · sase-165.land] Land-agent record (measurements were in commit 1d129cd's message, not a bead note): cold check 85s, no-edit -p scope switches <=0.42s (target <=5s: MET), just check 4085 passed. Re-verified 2026-09-22: ./scripts/check.sh features passes at 035851e; rust-version 1.89 with 0 incompatible_msrv allows; CI runs the features step on both OS legs.
+
 ## Dependencies
 
 - **Blocks:** [sase-165.2](sase-165.2.md) ✓ · ⧖ 2026-09-22
