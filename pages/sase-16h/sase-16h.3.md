@@ -20,7 +20,7 @@ wrapper-fidelity: keep the child in the wrapper's process group under a live own
 ## Dependencies
 
 - **Depends on:** [sase-16h.2](sase-16h.2.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16h.4](sase-16h.4.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16h.4](sase-16h.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -33,3 +33,15 @@ wrapper-fidelity: keep the child in the wrapper's process group under a live own
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5950d06`](https://github.com/sase-org/sase/commit/5950d069c2c5f58f0f42ae2aafb0a8c2c35c0ec2) | feat(tool): wrapper-fidelity process groups, early observe, and orphan reaping | [sase-16h.3](sase-16h.3.md) | 2026-09-22 16:16:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16h.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.3/README.md
+
+<!-- sase:referenced-by:end -->
