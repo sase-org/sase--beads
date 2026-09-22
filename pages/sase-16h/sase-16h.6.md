@@ -33,7 +33,7 @@ linked-repo-catalogs: add project tools catalogs and the recipe guard to sase-co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 3 |
+| [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 4 |
 
 ## Commits
 
@@ -42,6 +42,7 @@ linked-repo-catalogs: add project tools catalogs and the recipe guard to sase-co
 | sase | [`49bf158`](https://github.com/sase-org/sase/commit/49bf158ce6b99362e31ea58d07812fc0cc8d3bf5) | docs(memory): linked repos use sase tool run check too | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:31:08 EDT |
 | sase-core | [`sase-core@2017dbe`](https://github.com/sase-org/sase-core/commit/2017dbe95e6e030e6793dcb7ed99d2ebbef5524d) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:34:25 EDT |
 | sase-github | [`sase-github@e807f82`](https://github.com/sase-org/sase-github/commit/e807f823f6ee137c72503d8367d0a80543196b97) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:36:52 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@760ff40`](https://github.com/sase-org/sase-research-artifacts/commit/760ff407f24fc25ce91facd5b984051d09d668e4) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:39:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
