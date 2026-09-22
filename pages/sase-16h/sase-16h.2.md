@@ -26,7 +26,7 @@ core-child-facts: add the sase-core wire, store write, and binding that persist 
 ## Dependencies
 
 - **Depends on:** [sase-16h.1](sase-16h.1.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16h.3](sase-16h.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16h.3](sase-16h.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

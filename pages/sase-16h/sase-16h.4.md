@@ -13,7 +13,7 @@ recipe-guard: add the dependency-free tools/require_tool_run script, wire it int
 
 ## Dependencies
 
-- **Depends on:** [sase-16h.3](sase-16h.3.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16h.3](sase-16h.3.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16h.5](sase-16h.5.md) ◐ · ⧖ 2026-09-22
 
 ## Agents
