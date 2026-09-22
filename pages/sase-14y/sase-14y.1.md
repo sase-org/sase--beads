@@ -21,7 +21,7 @@ launch-context-source: move launch-default and current-project polling and resol
 
 ## Dependencies
 
-- **Blocks:** [sase-14y.2](sase-14y.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [sase-14y.2](sase-14y.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
