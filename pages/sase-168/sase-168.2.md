@@ -21,7 +21,7 @@ inventory-row-cap: in sase-core, drop the 200 raw-row cap from project_fleet_att
 
 ## Dependencies
 
-- **Blocks:** [sase-168.3](sase-168.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-168.3](sase-168.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

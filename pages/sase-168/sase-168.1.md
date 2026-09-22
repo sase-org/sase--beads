@@ -21,7 +21,7 @@ inbox-dismissal: stop reconcile_remote_attention_inbox from un-dismissing same-r
 
 ## Dependencies
 
-- **Blocks:** [sase-168.3](sase-168.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-168.3](sase-168.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -34,3 +34,15 @@ inbox-dismissal: stop reconcile_remote_attention_inbox from un-dismissing same-r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`54d19be`](https://github.com/sase-org/sase/commit/54d19bee61104cd15265ffcb0b2b89855e509a0e) | fix(dispatch): honor local dismissal in remote-attention reconciler | [sase-168.1](sase-168.1.md) | 2026-09-22 10:51:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-168.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-168.1.md
+
+<!-- sase:referenced-by:end -->
