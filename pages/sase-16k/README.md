@@ -17,7 +17,7 @@ On the Agents tab, the selected node's identity header (every field from the kin
 |---|---|---|---|---|---:|---:|
 | [sase-16k.1](sase-16k.1.md) | Detachable identity header in prompt-panel documents | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16k.2](sase-16k.2.md) | Inert toggle\_agent\_header keymap plumbing | ✓ closed | small | 2026-09-22 | 1 | 1 |
-| [sase-16k.3](sase-16k.3.md) | Agent header panel widget, layout, and visual verification | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
+| [sase-16k.3](sase-16k.3.md) | Agent header panel widget, layout, and visual verification | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-16k: Sticky collapsible agent header panel on the Agents tab [in_progress]"]
     n1["sase-16k.1: Detachable identity header in prompt-panel documents [closed]"]
     n2["sase-16k.2: Inert toggle_agent_header keymap plumbing [closed]"]
-    n3["sase-16k.3: Agent header panel widget, layout, and visual verification [in_progress]"]
+    n3["sase-16k.3: Agent header panel widget, layout, and visual verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-16k.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.1/README.md) | [sase-16k.1](sase-16k.1.md) | 1 |
 | [bbugyi200.athena.sase-16k.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.2/README.md) | [sase-16k.2](sase-16k.2.md) | 1 |
-| [bbugyi200.athena.sase-16k.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.3/README.md) | [sase-16k.3](sase-16k.3.md) | 0 |
+| [bbugyi200.athena.sase-16k.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.3/README.md) | [sase-16k.3](sase-16k.3.md) | 1 |
 | [bbugyi200.athena.sase-16k.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.land/README.md) | [sase-16k](README.md) | 0 |
 
 ## Commits
@@ -49,3 +49,16 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`9aa46d0`](https://github.com/sase-org/sase/commit/9aa46d006734b2fbbdf49ff2fc1074e209860775) | feat(agents): add inert toggle\_agent\_header keymap plumbing | [sase-16k.2](sase-16k.2.md) | 2026-09-22 14:39:49 EDT |
 | sase | [`2822794`](https://github.com/sase-org/sase/commit/28227947e135f66042f61aa3fac9428d1defad6e) | feat(agents): detachable identity header in prompt-panel documents | [sase-16k.1](sase-16k.1.md) | 2026-09-22 16:03:37 EDT |
+| sase | [`7c2e051`](https://github.com/sase-org/sase/commit/7c2e051479e6b72789f33063ecd1e476278133af) | feat(agents): sticky collapsible agent header panel on Agents tab | [sase-16k.3](sase-16k.3.md) | 2026-09-22 18:03:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16k.1][1] | Need parent epic context for document phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.1/README.md
+
+<!-- sase:referenced-by:end -->

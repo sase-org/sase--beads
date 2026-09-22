@@ -25,7 +25,7 @@ keymap: add the `toggle_agent_header` app action on `d` end to end (config, data
 
 ## Dependencies
 
-- **Blocks:** [sase-16k.3](sase-16k.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16k.3](sase-16k.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

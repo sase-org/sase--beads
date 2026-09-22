@@ -19,7 +19,7 @@ document: prompt-panel builders can split the identity header out of the metadat
 
 ## Dependencies
 
-- **Blocks:** [sase-16k.3](sase-16k.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16k.3](sase-16k.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -32,3 +32,15 @@ document: prompt-panel builders can split the identity header out of the metadat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2822794`](https://github.com/sase-org/sase/commit/28227947e135f66042f61aa3fac9428d1defad6e) | feat(agents): detachable identity header in prompt-panel documents | [sase-16k.1](sase-16k.1.md) | 2026-09-22 16:03:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16k.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16k.1/README.md
+
+<!-- sase:referenced-by:end -->
