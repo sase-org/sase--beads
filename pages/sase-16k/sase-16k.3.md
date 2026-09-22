@@ -13,7 +13,7 @@ panel: mount the bordered header panel above the metadata scroll, wire the promp
 
 ## Dependencies
 
-- **Depends on:** [sase-16k.1](sase-16k.1.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16k.1](sase-16k.1.md) ✓ · ⧖ 2026-09-22
 - **Depends on:** [sase-16k.2](sase-16k.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
