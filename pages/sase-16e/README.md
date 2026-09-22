@@ -20,7 +20,7 @@ A new SASE agent launch into a numbered ephemeral workspace never fails because 
 | [sase-16e.3](sase-16e.3.md) | Last-resort workspace re-creation and non-holding setup failures | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16e.4](sase-16e.4.md) | Order-preserving bead event stream merge in sase-core | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16e.5](sase-16e.5.md) | Bead sync rollback and wedged-clone healing | ◐ in_progress | medium | 2026-09-22 | 1 | 1 |
-| [sase-16e.6](sase-16e.6.md) | Truthful setup-failure reporting | ✓ closed | small | 2026-09-22 | 1 | 0 |
+| [sase-16e.6](sase-16e.6.md) | Truthful setup-failure reporting | ✓ closed | small | 2026-09-22 | 1 | 1 |
 
 ## Lineage
 
@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.3/README.md) | [sase-16e.3](sase-16e.3.md) | 0 |
 | [bbugyi200.athena.sase-16e.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.4/README.md) | [sase-16e.4](sase-16e.4.md) | 1 |
 | [bbugyi200.athena.sase-16e.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.5/README.md) | [sase-16e.5](sase-16e.5.md) | 1 |
-| [bbugyi200.athena.sase-16e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.6/README.md) | [sase-16e.6](sase-16e.6.md) | 0 |
+| [bbugyi200.athena.sase-16e.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.6/README.md) | [sase-16e.6](sase-16e.6.md) | 1 |
 | [bbugyi200.athena.sase-16e.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.land/README.md) | [sase-16e](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@9ea034c`](https://github.com/sase-org/sase-core/commit/9ea034c8117ad63cdcd274416ac5be82200bb9bc) | fix(beads): order-preserving event-stream merge with pure-reorder tolerance | [sase-16e.4](sase-16e.4.md) | 2026-09-22 12:35:20 EDT |
 | sase | [`ce730ca`](https://github.com/sase-org/sase/commit/ce730ca1b38f63fb90daaf8584625aad2dc20f69) | feat(beads): bead sync rollback and wedged-clone healing | [sase-16e.5](sase-16e.5.md) | 2026-09-22 13:04:23 EDT |
+| sase | [`1a96a22`](https://github.com/sase-org/sase/commit/1a96a22f171c845da339870d6cf054828dbf655f) | fix(ace-runner): recorded errors beat synthetic fallback; truthful runner output ordering | [sase-16e.6](sase-16e.6.md) | 2026-09-22 13:05:22 EDT |
