@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-165](README.md) / sase-165.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0p2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0p2.md) · **Assignee:** `sase-165.1` · **Size:** medium
-**Created:** 2026-09-22 08:18:21 EDT
+**Created:** 2026-09-22 08:18:21 EDT · **Closed:** 2026-09-22 11:01:06 EDT
 **Plan:** [202609/sase\_core\_p0\_agent\_maintainability.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_p0_agent_maintainability.md)
 
 ## Description
@@ -13,13 +13,19 @@ core-fast-loop: in sase-core, unify dependency features with a cargo-hakari work
 
 ## Dependencies
 
-- **Blocks:** [sase-165.2](sase-165.2.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-165.2](sase-165.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-165.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.1/README.md) | [sase-165.1](sase-165.1.md) | 0 |
+| [bbugyi200.athena.sase-165.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.1/README.md) | [sase-165.1](sase-165.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@1d129cd`](https://github.com/sase-org/sase-core/commit/1d129cd24fdb42e1906d32ddea89d416f6a61c05) | feat(fast-loop): unify features via workspace-hack, add drift gate, just fast, true MSRV 1.89 | [sase-165.1](sase-165.1.md) | 2026-09-22 10:16:33 EDT |
 
 <!-- sase:referenced-by:start -->
 

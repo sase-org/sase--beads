@@ -13,7 +13,7 @@ incremental-check: sase-rustc-wrapper runs metadata-only incremental units direc
 
 ## Dependencies
 
-- **Depends on:** [sase-165.6](sase-165.6.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-165.6](sase-165.6.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
