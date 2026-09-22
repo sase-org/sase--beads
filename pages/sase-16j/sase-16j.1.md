@@ -19,7 +19,7 @@ resolve: extract the NotificationModal action routing into a shared dispatcher, 
 
 ## Dependencies
 
-- **Blocks:** [sase-16j.3](sase-16j.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16j.3](sase-16j.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

@@ -21,7 +21,7 @@ chooser: add the self-contained single-keypress chooser modal: generic choice vi
 
 ## Dependencies
 
-- **Blocks:** [sase-16j.3](sase-16j.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16j.3](sase-16j.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -34,3 +34,15 @@ chooser: add the self-contained single-keypress chooser modal: generic choice vi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1b2f41d`](https://github.com/sase-org/sase/commit/1b2f41d7dbd58ee7e4a28e411fa50ac3a19a88e1) | feat(ace): add AgentActionChooserModal single-keypress chooser with tests and PNG golden | [sase-16j.2](sase-16j.2.md) | 2026-09-22 15:22:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16j.2--1][1] | Final confirmation of close and notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16j.2.md
+
+<!-- sase:referenced-by:end -->
