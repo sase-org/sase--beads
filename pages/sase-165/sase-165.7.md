@@ -19,4 +19,10 @@ incremental-check: sase-rustc-wrapper runs metadata-only incremental units direc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.7/README.md) | [sase-165.7](sase-165.7.md) | 0 |
+| [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.7.md) | [sase-165.7](sase-165.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e081abe`](https://github.com/sase-org/sase/commit/e081abe1cb9168a20b9ff5a989956d0beb1d96c8) | feat(config): add managed\_tmp.agent\_cargo\_incremental opt-in for agent cargo incremental | [sase-165.7](sase-165.7.md) | 2026-09-22 11:36:45 EDT |
