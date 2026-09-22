@@ -20,7 +20,7 @@ monitor-wrap: upgrade an exact catalog match to a named run and wrap other verif
 ## Dependencies
 
 - **Depends on:** [sase-16h.4](sase-16h.4.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16h.6](sase-16h.6.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16h.6](sase-16h.6.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -33,3 +33,15 @@ monitor-wrap: upgrade an exact catalog match to a named run and wrap other verif
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6167ec4`](https://github.com/sase-org/sase/commit/6167ec42cb1df33bb670ddf3d9c81ea75303a9c2) | feat(monitor): wrap supervised commands in sase tool run | [sase-16h.5](sase-16h.5.md) | 2026-09-22 17:56:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16h.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md
+
+<!-- sase:referenced-by:end -->
