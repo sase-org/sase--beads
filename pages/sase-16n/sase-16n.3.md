@@ -14,7 +14,7 @@ backend: shared accent module, cached project tag catalog, expansion inside prom
 ## Dependencies
 
 - **Depends on:** [sase-16n.1](sase-16n.1.md) ✓ · ⧖ 2026-09-22
-- **Depends on:** [sase-16n.2](sase-16n.2.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16n.2](sase-16n.2.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16n.5](sase-16n.5.md) ◐ · ⧖ 2026-09-22
 - **Blocks:** [sase-16n.8](sase-16n.8.md) ◐ · ⧖ 2026-09-22
 
