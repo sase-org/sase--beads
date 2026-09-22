@@ -20,4 +20,4 @@ verify-agreement: replace the all-or-nothing determinism verification with per-g
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-169.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-169.3/README.md) | [sase-169.3](sase-169.3.md) | 0 |
+| [bbugyi200.apollo.sase-169.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-169.3.md) | [sase-169.3](sase-169.3.md) | 0 |

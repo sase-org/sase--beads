@@ -18,7 +18,7 @@ salvage: in update mode, trust captures per test node instead of per run. Rerun 
 ## Dependencies
 
 - **Blocks:** [sase-169.3](sase-169.3.md) ◐ · ⧖ 2026-09-22
-- **Blocks:** [sase-169.4](sase-169.4.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-169.4](sase-169.4.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-169.5](sase-169.5.md) ◐ · ⧖ 2026-09-22
 
 ## Agents
