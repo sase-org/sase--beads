@@ -19,7 +19,7 @@ ownership-roots: scrub executor-ownership variables at every agent launch, ignor
 
 ## Dependencies
 
-- **Blocks:** [sase-16h.2](sase-16h.2.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16h.2](sase-16h.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -32,3 +32,15 @@ ownership-roots: scrub executor-ownership variables at every agent launch, ignor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b33732a`](https://github.com/sase-org/sase/commit/b33732a41d3b981e515c5db06cc57e2382ad526d) | feat(ownership): scrub executor ownership env at agent-launch boundaries | [sase-16h.1](sase-16h.1.md) | 2026-09-22 13:56:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16h.1][1] | recovery turn bead status check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.1/README.md
+
+<!-- sase:referenced-by:end -->

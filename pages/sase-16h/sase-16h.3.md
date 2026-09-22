@@ -13,7 +13,7 @@ wrapper-fidelity: keep the child in the wrapper's process group under a live own
 
 ## Dependencies
 
-- **Depends on:** [sase-16h.2](sase-16h.2.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16h.2](sase-16h.2.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16h.4](sase-16h.4.md) ◐ · ⧖ 2026-09-22
 
 ## Agents
