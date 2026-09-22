@@ -21,7 +21,7 @@ Every agent that touches sase-core gets a concise, accurate guide without being 
 | [sase-165.4](sase-165.4.md) | Core pin ratchet workflow opens its PR | ✓ closed | small | 2026-09-22 | 1 | 1 |
 | [sase-165.5](sase-165.5.md) | Dev extension rebuilds when linked sase-core source changes | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-165.6](sase-165.6.md) | Managed-tmp reaper covers the root agents actually use | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-165.7](sase-165.7.md) | Incremental check/clippy through the athena rustc wrapper | ◐ in_progress | medium | 2026-09-22 | 1 | 1 |
+| [sase-165.7](sase-165.7.md) | Incremental check/clippy through the athena rustc wrapper | ◐ in_progress | medium | 2026-09-22 | 1 | 2 |
 
 ## Lineage
 
@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.athena.sase-165.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.4/README.md) | [sase-165.4](sase-165.4.md) | 1 |
 | [bbugyi200.athena.sase-165.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.5/README.md) | [sase-165.5](sase-165.5.md) | 1 |
 | [bbugyi200.athena.sase-165.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.6.md) | [sase-165.6](sase-165.6.md) | 1 |
-| [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.7.md) | [sase-165.7](sase-165.7.md) | 1 |
+| [bbugyi200.athena.sase-165.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-165.7.md) | [sase-165.7](sase-165.7.md) | 2 |
 | [bbugyi200.athena.sase-165.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-165.land/README.md) | [sase-165](README.md) | 0 |
 
 ## Commits
@@ -69,3 +69,4 @@ flowchart TD
 | sase | [`772f3f1`](https://github.com/sase-org/sase/commit/772f3f199621b901c1456a9c9d71d0d05bd766a2) | feat(repo-open): name opened repo AGENTS.md on stderr and fix core memory pointer | [sase-165.3](sase-165.3.md) | 2026-09-22 10:36:08 EDT |
 | sase | [`529d7d3`](https://github.com/sase-org/sase/commit/529d7d325f050dc8af08d55d49e8251df4492160) | feat(reaper): capture SASE\_TMPDIR in service env and warn on managed-root mismatch | [sase-165.6](sase-165.6.md) | 2026-09-22 10:51:48 EDT |
 | sase | [`e081abe`](https://github.com/sase-org/sase/commit/e081abe1cb9168a20b9ff5a989956d0beb1d96c8) | feat(config): add managed\_tmp.agent\_cargo\_incremental opt-in for agent cargo incremental | [sase-165.7](sase-165.7.md) | 2026-09-22 11:36:45 EDT |
+| chezmoi | [`chezmoi@034c594`](https://github.com/bbugyi200/dotfiles/commit/034c594bd4621a306688adad76f306ce8544de36) | feat(cargo): split incremental units via sase-rustc-wrapper for sccache | [sase-165.7](sase-165.7.md) | 2026-09-22 11:40:24 EDT |
