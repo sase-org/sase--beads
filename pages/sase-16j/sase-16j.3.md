@@ -14,7 +14,7 @@ wire: add the act_on_agent app action bound to enter (jump_to_agent_patch stays 
 ## Dependencies
 
 - **Depends on:** [sase-16j.1](sase-16j.1.md) ✓ · ⧖ 2026-09-22
-- **Depends on:** [sase-16j.2](sase-16j.2.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16j.2](sase-16j.2.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
