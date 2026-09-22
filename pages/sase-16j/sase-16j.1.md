@@ -32,3 +32,15 @@ resolve: extract the NotificationModal action routing into a shared dispatcher, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1c4ebe7`](https://github.com/sase-org/sase/commit/1c4ebe76ad29aaeb1094a182dcec26406d14be70) | feat(scope): describe the completed work | [sase-16j.1](sase-16j.1.md) | 2026-09-22 14:37:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16j.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
+
+<!-- sase:referenced-by:end -->

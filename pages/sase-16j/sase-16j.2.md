@@ -42,7 +42,9 @@ chooser: add the self-contained single-keypress chooser modal: generic choice vi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16j.2--1][1] | Final confirmation of close and notes | 3 |
+| read-by | [agent:sase-16j.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16j.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
 
 <!-- sase:referenced-by:end -->

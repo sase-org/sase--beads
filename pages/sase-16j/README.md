@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.1/README.md) | [sase-16j.1](sase-16j.1.md) | 1 |
 | [bbugyi200.athena.sase-16j.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16j.2.md) | [sase-16j.2](sase-16j.2.md) | 1 |
 | [bbugyi200.athena.sase-16j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.3/README.md) | [sase-16j.3](sase-16j.3.md) | 1 |
-| [bbugyi200.athena.sase-16j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md) | [sase-16j](README.md) | 1 |
+| [bbugyi200.athena.sase-16j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md) | [sase-16j](README.md) | 2 |
 
 ## Commits
 
@@ -55,6 +55,7 @@ flowchart TD
 | sase | [`1b2f41d`](https://github.com/sase-org/sase/commit/1b2f41d7dbd58ee7e4a28e411fa50ac3a19a88e1) | feat(ace): add AgentActionChooserModal single-keypress chooser with tests and PNG golden | [sase-16j.2](sase-16j.2.md) | 2026-09-22 15:22:50 EDT |
 | sase | [`b27029e`](https://github.com/sase-org/sase/commit/b27029e894a0176f213c3915ddfc8b003acfed9a) | feat(ace): make Agents Enter context-aware via act\_on\_agent | [sase-16j.3](sase-16j.3.md) | 2026-09-22 16:12:48 EDT |
 | sase | [`1329009`](https://github.com/sase-org/sase/commit/13290096779fb308e1a2352e9c2d78fcbf986191) | fix(ace): make Agents Enter work before the first notification poll | [sase-16j](README.md) | 2026-09-22 16:55:27 EDT |
+| sase--plans | [`sase--plans@d0f8401`](https://github.com/sase-org/sase--plans/commit/d0f84017210b65c71ed202434ce40a6858011e43) | chore(plans): mark agents\_enter\_act\_on\_agent epic plan done | [sase-16j](README.md) | 2026-09-22 16:59:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -63,7 +64,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16j.3][1] | parent epic scope | 1 |
+| read-by | [agent:sase-16j.land][2] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
 
 <!-- sase:referenced-by:end -->

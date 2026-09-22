@@ -41,7 +41,9 @@ wire: add the act_on_agent app action bound to enter (jump_to_agent_patch stays 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16j.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16j.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16j.land/README.md
 
 <!-- sase:referenced-by:end -->
