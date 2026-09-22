@@ -22,7 +22,7 @@ checkout-heal: give prepare_workspace an opt-in self-heal ladder for numbered wo
 ## Dependencies
 
 - **Depends on:** [sase-16e.1](sase-16e.1.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16e.3](sase-16e.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16e.3](sase-16e.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -35,3 +35,15 @@ checkout-heal: give prepare_workspace an opt-in self-heal ladder for numbered wo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`496bd7f`](https://github.com/sase-org/sase/commit/496bd7fbda22b867e246bf10d1f378815fb416cd) | feat(workspace): self-healing checkout preparation for numbered workspaces | [sase-16e.2](sase-16e.2.md) | 2026-09-22 16:00:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16e.2][1] | Confirm phase bead closed after close command | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16e.2/README.md
+
+<!-- sase:referenced-by:end -->
