@@ -24,7 +24,7 @@ restartgen: move the sase-core revision pin, rebuild start and restart on the ne
 ## Dependencies
 
 - **Depends on:** [sase-16g.1](sase-16g.1.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16g.3](sase-16g.3.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16g.3](sase-16g.3.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -37,3 +37,15 @@ restartgen: move the sase-core revision pin, rebuild start and restart on the ne
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`00106bb`](https://github.com/sase-org/sase/commit/00106bbef8f03681669461e543f614afd8e43f0c) | feat(service): restarts are confirmed generation transitions with honest CLI outcomes | [sase-16g.2](sase-16g.2.md) | 2026-09-22 14:26:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16g.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.2/README.md
+
+<!-- sase:referenced-by:end -->

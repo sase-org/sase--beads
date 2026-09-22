@@ -17,7 +17,7 @@ The service host obeys its own restart decisions, an explicit restart is a confi
 |---|---|---|---|---|---:|---:|
 | [sase-16g.1](sase-16g.1.md) | Core restart, request, and config-layer semantics | ✓ closed | medium | 2026-09-22 | 1 | 0 |
 | [sase-16g.2](sase-16g.2.md) | Restart is a confirmed transition | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16g.3](sase-16g.3.md) | Last-known-good config keeps the host supervising | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
+| [sase-16g.3](sase-16g.3.md) | Last-known-good config keeps the host supervising | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16g.4](sase-16g.4.md) | The host honors give\_up and says so | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16g.5](sase-16g.5.md) | The CLI and the Services tab show the real failure states | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16g.6](sase-16g.6.md) | The captured service environment is context-safe | ✓ closed | medium | 2026-09-22 | 1 | 1 |
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-16g: Service supervision P0: honest restarts, loud failures, safe config and environment [in_progress]"]
     n1["sase-16g.1: Core restart, request, and config-layer semantics [closed]"]
     n2["sase-16g.2: Restart is a confirmed transition [closed]"]
-    n3["sase-16g.3: Last-known-good config keeps the host supervising [in_progress]"]
+    n3["sase-16g.3: Last-known-good config keeps the host supervising [closed]"]
     n4["sase-16g.4: The host honors give_up and says so [in_progress]"]
     n5["sase-16g.5: The CLI and the Services tab show the real failure states [in_progress]"]
     n6["sase-16g.6: The captured service environment is context-safe [closed]"]
@@ -51,7 +51,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-16g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.1/README.md) | [sase-16g.1](sase-16g.1.md) | 0 |
 | [bbugyi200.athena.sase-16g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.2/README.md) | [sase-16g.2](sase-16g.2.md) | 1 |
-| [bbugyi200.athena.sase-16g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.3/README.md) | [sase-16g.3](sase-16g.3.md) | 0 |
+| [bbugyi200.athena.sase-16g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.3/README.md) | [sase-16g.3](sase-16g.3.md) | 1 |
 | [bbugyi200.athena.sase-16g.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.4/README.md) | [sase-16g.4](sase-16g.4.md) | 0 |
 | [bbugyi200.athena.sase-16g.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.5/README.md) | [sase-16g.5](sase-16g.5.md) | 0 |
 | [bbugyi200.athena.sase-16g.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.6/README.md) | [sase-16g.6](sase-16g.6.md) | 1 |
@@ -63,3 +63,16 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`2ce4998`](https://github.com/sase-org/sase/commit/2ce4998e9a164ccc6230df199e4e6b8ee4e7d809) | feat(service): make captured service environment context-safe | [sase-16g.6](sase-16g.6.md) | 2026-09-22 13:21:52 EDT |
 | sase | [`00106bb`](https://github.com/sase-org/sase/commit/00106bbef8f03681669461e543f614afd8e43f0c) | feat(service): restarts are confirmed generation transitions with honest CLI outcomes | [sase-16g.2](sase-16g.2.md) | 2026-09-22 14:26:56 EDT |
+| sase | [`5374c03`](https://github.com/sase-org/sase/commit/5374c03ab7b55c3843feef112df9c407495d941a) | feat(service): last-known-good config keeps the host supervising | [sase-16g.3](sase-16g.3.md) | 2026-09-22 14:59:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16g.2][1] | Need epic scope for phase work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16g.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ giveup: stop relaunching procs the restart policy gave up on, keep a signature-k
 
 ## Dependencies
 
-- **Depends on:** [sase-16g.3](sase-16g.3.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16g.3](sase-16g.3.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16g.5](sase-16g.5.md) ◐ · ⧖ 2026-09-22
 
 ## Agents
