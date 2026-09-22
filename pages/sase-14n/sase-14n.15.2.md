@@ -34,3 +34,15 @@ dismissed_view: give the ACE notification modal a way to show dismissed rows, so
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a8bd795`](https://github.com/sase-org/sase/commit/a8bd795be2b80c08bfd13c098d05e8d8c3b74e2a) | feat(notifications): add dismissed view toggle and undismiss restore | [sase-14n.15.2](sase-14n.15.2.md) | 2026-09-21 19:14:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-14n.15.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.2/README.md
+
+<!-- sase:referenced-by:end -->

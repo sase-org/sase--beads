@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-14n
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0oe](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0oe.md) · **Assignee:** `sase-14n.land`
-**Created:** 2026-09-20 17:14:06 EDT
+**Created:** 2026-09-20 17:14:06 EDT · **Closed:** 2026-09-21 20:39:49 EDT
 **Plan:** [202609/fix\_triaged\_bug\_and\_ci\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202609/fix_triaged_bug_and_ci_beads.md)
 
 <!-- sase:links:start -->
@@ -58,6 +58,8 @@ _notification_unread_projection.py.
 (5) Follow-ups: the sase-14n.11 flake corroborated sase-t6 and one sase-14n.12 flake corroborated sase-120; sase-15i, sase-15j, sase-15k, sase-15l and sase-15m were filed as new flakes; sase-151 was corroborated. Declined: the mypy prebuild.py follow-ups from .7 and .8 (fixed on master; just lint's mypy stage passes), the agents_waiting_single_bead_labels drift from .7 (gone from the full visual run), and the symvision follow-up from .3 (fixed by .1). No --epic-symbol entries.
 REMAINING, handed to a child plan: (a) just lint's symvision stage is red on three test-only footer helpers from sase-14n.8. (b) test_tui_app_import_stays_under_startup_budget fails 3309 < 3290 because post-phase commits re-grew the closure; sase-13p stays open. (c) sase-14g half 2: the ACE notification modal only receives non-dismissed rows, so its new u binding can never reach a dismissed row. (d) sase-14g half 1: the gate-shell row test fabricates the row, and create_gate() called directly with a shell block still creates a rowless gate. sase-14g stays open.
 
+[2026-09-22T00:39:49Z · sase-14n.15.land] Resumed landing after child epic sase-14n.15 closed (sase-14n.15 land agent, master 1567269ca). Rechecked: all 14 phases and child epic sase-14n.15 are closed. The interrupted-landing leftovers (a) to (d) are resolved: symvision is clean; the TUI import closure is 3246 < 3290 and sase-13p is closed; the notification modal's T dismissed view with u restore (a8bd795be); and rowless shell-block custom gates now fail loudly, with an e2e row test (c6807d24c). sase-14g was verified end to end and closed. Every task bead the plan owns is closed, except sase-10u, which the plan explicitly excludes. One more sase-14n.8 regression was fixed in the child landing (the question-footer MagicMock test). sase tool run check is green, and there are no epic-symbol entries. Post-child drift: no later commit touches the epic's gate or notification code. Unrelated reds were routed: sase-162 (04d35849d clan cleanup e2e), sase-158.6 DISCOVERED ISSUE (session reporter on_output), and +1s on sase-15v, sase-14u, sase-15z and sase-14r.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -81,14 +83,14 @@ REMAINING, handed to a child plan: (a) just lint's symvision stage is red on thr
 
 ```mermaid
 flowchart TD
-    n0["sase-14n: Fix the bug and CI task beads that survived 2026-09-20 triage [in_progress]"]
+    n0["sase-14n: Fix the bug and CI task beads that survived 2026-09-20 triage [closed]"]
     n1["sase-14n.1: Clear the 26 unused public symbols that abort every lint run [closed]"]
     n2["sase-14n.10: Reclaim quarantined ToolRun stores [closed]"]
     n3["sase-14n.11: Warn on every advisory-flagged pool member [closed]"]
     n4["sase-14n.12: Keep the declared shell block through gate creation [closed]"]
     n5["sase-14n.13: Make notification dismissal recoverable [closed]"]
     n6["sase-14n.14: Surface why workspace preparation failed [closed]"]
-    n7["sase-14n.15: Finish the sase-14n landing leftovers [in_progress]"]
+    n7["sase-14n.15: Finish the sase-14n landing leftovers [closed]"]
     n8["sase-14n.15.1: Return just check to green on master [closed]"]
     n9["sase-14n.15.2: Reach and restore dismissed notifications from the notification modal [closed]"]
     n10["sase-14n.15.3: Prove the gate-shell row through the production gate creation path [closed]"]
@@ -153,7 +155,7 @@ flowchart TD
 | [bbugyi200.athena.sase-14n.15.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.1/README.md) | [sase-14n.15.1](sase-14n.15.1.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.2/README.md) | [sase-14n.15.2](sase-14n.15.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.15.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.3/README.md) | [sase-14n.15.3](sase-14n.15.3.md) | 1 |
-| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 0 |
+| [bbugyi200.athena.sase-14n.15.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.15.land/README.md) | [sase-14n.15](sase-14n.15.md) | 1 |
 | [bbugyi200.athena.sase-14n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.2/README.md) | [sase-14n.2](sase-14n.2.md) | 1 |
 | [bbugyi200.athena.sase-14n.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-14n.3.md) | [sase-14n.3](sase-14n.3.md) | 1 |
 | [bbugyi200.athena.sase-14n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-14n.4/README.md) | [sase-14n.4](sase-14n.4.md) | 1 |
@@ -187,3 +189,4 @@ flowchart TD
 | sase | [`dd22887`](https://github.com/sase-org/sase/commit/dd22887a1774fa1a6beeebd4f372d74f10b5ff1c) | perf(tui): defer update/toast/dev-detect imports to cut startup closure to 3246 modules | [sase-14n.15.1](sase-14n.15.1.md) | 2026-09-21 17:39:58 EDT |
 | sase | [`c6807d2`](https://github.com/sase-org/sase/commit/c6807d24cb3847ced1af4487637448fa35858f19) | fix(gate): refuse rowless shell-block custom gates and prove the row end to end | [sase-14n.15.3](sase-14n.15.3.md) | 2026-09-21 18:27:49 EDT |
 | sase | [`a8bd795`](https://github.com/sase-org/sase/commit/a8bd795be2b80c08bfd13c098d05e8d8c3b74e2a) | feat(notifications): add dismissed view toggle and undismiss restore | [sase-14n.15.2](sase-14n.15.2.md) | 2026-09-21 19:14:31 EDT |
+| sase | [`bd65fd1`](https://github.com/sase-org/sase/commit/bd65fd1dd4d1ef7d4bcbc6aefeb266a5fa8b60a8) | test(notifications): drive the question footer test through a real NotificationHintFooter | [sase-14n.15](sase-14n.15.md) | 2026-09-21 20:41:33 EDT |
