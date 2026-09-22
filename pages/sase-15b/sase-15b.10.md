@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-15u][1] | Proposing phase; its notification_store_parity split (sase-core 8886406) is the exact pattern to follow |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-15u/README.md
 
@@ -55,8 +55,10 @@ notification_store_parity: split the 2,825-line notification store integration t
 | --- | --- | --- | ---: |
 | read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
 | read-by | [agent:sase-15b.10][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-15b.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/sase_core_next_ten_big_file_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_next_ten_big_file_split.md
 
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.sase-15b.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.7/README.md) | [sase-15b.7](sase-15b.7.md) | 1 |
 | [bbugyi200.athena.sase-15b.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.8/README.md) | [sase-15b.8](sase-15b.8.md) | 1 |
 | [bbugyi200.athena.sase-15b.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.9/README.md) | [sase-15b.9](sase-15b.9.md) | 1 |
-| [bbugyi200.athena.sase-15b.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md) | [sase-15b](README.md) | 1 |
+| [bbugyi200.athena.sase-15b.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md) | [sase-15b](README.md) | 2 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | sase-core | [`sase-core@f54b2ba`](https://github.com/sase-org/sase-core/commit/f54b2ba4cb7c38739f0a9c5c202ca1a4077de9d4) | refactor(sase-core): split runner\_capacity into module tree | [sase-15b.9](sase-15b.9.md) | 2026-09-21 17:52:24 EDT |
 | sase-core | [`sase-core@8886406`](https://github.com/sase-org/sase-core/commit/88864065127efa138b71c3e778b60916a5f81b17) | refactor(sase-core): split notification\_store\_parity test into behavior-area modules | [sase-15b.10](sase-15b.10.md) | 2026-09-21 18:12:37 EDT |
 | sase | [`cbc0f0c`](https://github.com/sase-org/sase/commit/cbc0f0c32565c5b7da474e00249601344138677e) | docs: point sase-core references at the split module trees from epic sase-15b | [sase-15b](README.md) | 2026-09-21 19:59:50 EDT |
+| sase--plans | [`sase--plans@f69fc62`](https://github.com/sase-org/sase--plans/commit/f69fc62288345790cbef3a59919c2af066c65940) | chore(plans): mark sase\_core\_next\_ten\_big\_file\_split done after sase-15b landed | [sase-15b](README.md) | 2026-09-21 20:03:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -122,8 +123,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.24.cld][1] | research sase-core agent maintainability | 2 |
 | read-by | [agent:sase-15b.2][2] | epic symbols check | 1 |
+| read-by | [agent:sase-15b.land][3] | Confirm epic is closed before final declaration | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md
 
 <!-- sase:referenced-by:end -->

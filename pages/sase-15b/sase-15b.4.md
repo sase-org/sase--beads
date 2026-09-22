@@ -42,8 +42,10 @@ fleet_reads: decompose the 3,371-line gateway fleet read service into service, s
 | --- | --- | --- | ---: |
 | read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
 | read-by | [agent:sase-15b.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-15b.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.land/README.md
 
 <!-- sase:referenced-by:end -->
