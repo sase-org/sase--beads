@@ -15,7 +15,7 @@ docs: update the Justfile comments, tool help, and developer docs for the new ex
 
 - **Depends on:** [sase-169.1](sase-169.1.md) ◐ · ⧖ 2026-09-22
 - **Depends on:** [sase-169.2](sase-169.2.md) ◐ · ⧖ 2026-09-22
-- **Depends on:** [sase-169.3](sase-169.3.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-169.3](sase-169.3.md) ✓ · ⧖ 2026-09-22
 - **Depends on:** [sase-169.4](sase-169.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
