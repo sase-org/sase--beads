@@ -7,6 +7,20 @@
 **Created:** 2026-09-21 11:31:51 EDT · **Closed:** 2026-09-21 18:11:32 EDT
 **Plan:** [202609/sase\_core\_next\_ten\_big\_file\_split.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_core_next_ten_big_file_split.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-15u][1] | Proposing phase; its notification_store_parity split (sase-core 8886406) is the exact pattern to follow |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-15u/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 notification_store_parity: split the 2,825-line notification store integration test into a single-binary tests/notification_store_parity/ directory and close out the epic's file-size invariant.
@@ -40,7 +54,9 @@ notification_store_parity: split the 2,825-line notification store integration t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.24.cld][1] | research sase-core agent maintainability (split epic phase evidence) | 1 |
+| read-by | [agent:sase-15b.10][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.24.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-15b.10/README.md
 
 <!-- sase:referenced-by:end -->
