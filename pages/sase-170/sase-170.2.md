@@ -17,7 +17,7 @@ clan_record_core: in the linked sase-core repo, add the per-clan JSON record sto
 
 ## Dependencies
 
-- **Blocks:** [sase-170.3](sase-170.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-170.3](sase-170.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

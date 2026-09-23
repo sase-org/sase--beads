@@ -13,7 +13,7 @@ clan_launch_defaults: when a launch creates a new generation of a previously rec
 
 ## Dependencies
 
-- **Depends on:** [sase-170.3](sase-170.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-170.3](sase-170.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

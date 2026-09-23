@@ -17,7 +17,7 @@ Selecting an agent tribe panel shows the summary of every clan in the tribe thro
 |---|---|---|---|---|---:|---:|
 | [sase-170.1](sase-170.1.md) | CLAN SUMMARIES section in the tribe metadata panel | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.2](sase-170.2.md) | Durable clan record store in sase-core | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-170.3](sase-170.3.md) | Record, capture, and read clan attributes from sase | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-170.3](sase-170.3.md) | Record, capture, and read clan attributes from sase | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.4](sase-170.4.md) | Clan-level tribe edits from the Agents tab | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-170.5](sase-170.5.md) | Inherit remembered tribe and summary for new clan generations | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-170: Tribe clan summaries and durable clan records [in_progress]"]
     n1["sase-170.1: CLAN SUMMARIES section in the tribe metadata panel [closed]"]
     n2["sase-170.2: Durable clan record store in sase-core [closed]"]
-    n3["sase-170.3: Record, capture, and read clan attributes from sase [in_progress]"]
+    n3["sase-170.3: Record, capture, and read clan attributes from sase [closed]"]
     n4["sase-170.4: Clan-level tribe edits from the Agents tab [in_progress]"]
     n5["sase-170.5: Inherit remembered tribe and summary for new clan generations [in_progress]"]
     n0 --> n1
@@ -47,7 +47,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-170.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.1/README.md) | [sase-170.1](sase-170.1.md) | 1 |
 | [bbugyi200.athena.sase-170.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.2/README.md) | [sase-170.2](sase-170.2.md) | 1 |
-| [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 0 |
+| [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 1 |
 | [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 0 |
 | [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 0 |
 | [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@7fc3501`](https://github.com/sase-org/sase-core/commit/7fc3501d49f28aff399e48bf0fe4f560523a8ab8) | feat(core): durable per-clan record store with scan overlay and bindings | [sase-170.2](sase-170.2.md) | 2026-09-23 12:18:33 EDT |
 | sase | [`e1c4208`](https://github.com/sase-org/sase/commit/e1c4208cd23f8b5561d5ac96386e23d6d6ef5afd) | feat(ace): add tribe CLAN SUMMARIES section with worker-side digests | [sase-170.1](sase-170.1.md) | 2026-09-23 13:01:39 EDT |
+| sase | [`69a5ca5`](https://github.com/sase-org/sase/commit/69a5ca5e1d0d059f7a0c613526d6990629c045ae) | feat(clans): record, capture, and read clan attributes from sase | [sase-170.3](sase-170.3.md) | 2026-09-23 13:44:14 EDT |
