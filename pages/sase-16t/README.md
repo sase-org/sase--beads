@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16t.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.6/README.md) | [sase-16t.6](sase-16t.6.md) | 1 |
 | [bbugyi200.athena.sase-16t.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.7/README.md) | [sase-16t.7](sase-16t.7.md) | 1 |
 | [bbugyi200.athena.sase-16t.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.8/README.md) | [sase-16t.8](sase-16t.8.md) | 1 |
-| [bbugyi200.athena.sase-16t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.land/README.md) | [sase-16t](README.md) | 1 |
+| [bbugyi200.athena.sase-16t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.land/README.md) | [sase-16t](README.md) | 2 |
 
 ## Commits
 
@@ -101,6 +101,7 @@ flowchart TD
 | sase | [`a74e98c`](https://github.com/sase-org/sase/commit/a74e98cfb769e215d32ee5ed915d2683e5b59228) | feat(ace): bounded-panes acquire-then-reveal for Stitch, Plan/provider, and Patch jumps | [sase-16t.6](sase-16t.6.md) | 2026-09-23 13:28:34 EDT |
 | sase | [`e3c2a77`](https://github.com/sase-org/sase/commit/e3c2a7788b83873dc1cdf5e8ca4da5bb381a7b04) | feat(ace): one engine for every jump, plus the end-to-end matrix | [sase-16t.8](sase-16t.8.md) | 2026-09-23 13:58:56 EDT |
 | sase | [`813f42a`](https://github.com/sase-org/sase/commit/813f42a5356e4f80da0502d8570c10202a9fa874) | fix(ace): land sase-16t with display-name scope toasts and epic test repairs | [sase-16t](README.md) | 2026-09-23 14:28:20 EDT |
+| sase--plans | [`sase--plans@fe2db78`](https://github.com/sase-org/sase--plans/commit/fe2db78beadd75aa2060c21e1ff7e90569f2265c) | chore(plans): mark artifact\_link\_jumps plan done after sase-16t landed | [sase-16t](README.md) | 2026-09-23 14:32:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
