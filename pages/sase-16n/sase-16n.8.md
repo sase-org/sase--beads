@@ -25,7 +25,13 @@ nvim: accent highlight groups built from the server palette, a semantic-token ha
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 0 |
+| [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-nvim | [`sase-nvim@2e6f1ac`](https://github.com/sase-org/sase-nvim/commit/2e6f1acf6c47e72d58e94953b9c602f2175ab261) | feat(nvim): project tag highlight, plus-tag completion and LSP wiring | [sase-16n.8](sase-16n.8.md) | 2026-09-22 21:29:40 EDT |
 
 <!-- sase:referenced-by:start -->
 

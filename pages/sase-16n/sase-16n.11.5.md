@@ -24,7 +24,13 @@ nvim-fixes: the Ctrl+T +query picker works without native LSP completion; palett
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md) | [sase-16n.11.5](sase-16n.11.5.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md) | [sase-16n.11.5](sase-16n.11.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-nvim | [`sase-nvim@dac30c9`](https://github.com/sase-org/sase-nvim/commit/dac30c925e16266d6f8954582de69ee7053d85d4) | feat(nvim): project-tag picker fallback, palette overrides, dim sigil | [sase-16n.11.5](sase-16n.11.5.md) | 2026-09-23 09:34:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

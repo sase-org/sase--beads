@@ -37,8 +37,10 @@ tui-tag-surfaces: ProjectTagCatalogWarmed rebuilds the surfaces that rendered co
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-16y.land][1] | child scope for red-test triage | 1 |
+| read-by | [agent:sase-16n.11.7.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16y.land][2] | child scope for red-test triage | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 
 <!-- sase:referenced-by:end -->

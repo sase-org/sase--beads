@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-16n](README.md) / sase-16n.11
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-16n.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.land.md) · **Assignee:** `sase-16n.11.land`
-**Created:** 2026-09-23 08:51:45 EDT
+**Created:** 2026-09-23 08:51:45 EDT · **Closed:** 2026-09-23 15:40:11 EDT
 **Plan:** [202609/project\_tags\_landing\_gaps.md](https://github.com/sase-org/sase--plans/blob/main/202609/project_tags_landing_gaps.md)
 
 ## Description
@@ -43,6 +43,8 @@ Other discoveries, not caused by this epic:
 - The link-toast scope line shows raw project keys: DISCOVERED ISSUE note on sase-16t.
 - 'sase artifact link rm' fails with 'observed_operation_ids must not be empty': DISCOVERED ISSUE note on sase-yy.8.6.
 - The sase-16n.11.6 remark about the sase-github check being blocked by a pre-existing dep-pin failure was not a formal proposal and was not pursued.
+
+[2026-09-23T19:40:11Z · sase-16n.11.7.land] Resumed after child epic sase-16n.11.7 closed. Rechecked: all 6 phases and child epic closed; every REMAINING EPIC-CAUSED item from landing audit #1 (macOS core test, accept line-join/glued/pre-v5, nvim set modifiers/override tracking/picker, follow-up prefix regression, warm refresh rebuild, pager accents/unknown/fences, history-filter UI-thread load, test cache reset, tribe PROMPTS chip integration, test gaps, docs nits) verified in sase-core fb1ca29 (CI green incl. macOS, pinned), sase-nvim 9378313, sase 1230ed8da and 00badb84e. Post-child drift (master commits since 14:10) reviewed: no tag integration needed. The 11 red bead-work/completion-snapshot tests caused by project_tag_for returning unknown names unchanged were fixed in the sase-16n.11.7 landing (pinned tag catalog in tests/test_bead/conftest.py, synced completion snapshot). No epic-symbol entries. just symvision still red only on other epics' symbols (ClanSummaryDigest/sase-170, llm_provider usage capability cache/_probe_meta, plugins browser mark_all_message).
 
 ## Agents
 
