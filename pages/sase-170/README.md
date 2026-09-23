@@ -11,6 +11,10 @@
 
 Selecting an agent tribe panel shows the summary of every clan in the tribe through a fast, fold-aware CLAN SUMMARIES section with a useful one-line-per-clan default. A clan's summary and chosen tribe are recorded durably per clan generation, so they survive member kills, dismissals, relaunches, and full reloads, and they seed the defaults when a clan with the same name is created again.
 
+## Notes
+
+[2026-09-23T18:04:16Z · sase-16n.11.land] DISCOVERED ISSUE: master symvision is red on this epic's symbol. At 848a90a1b, 'just symvision' fails with 'Unused public functions/classes: ClanSummaryDigest in src/sase/ace/tui/widgets/prompt_panel/_agent_tribe_clan_summaries.py'. The class was added by e1c4208cd (sase-170.1). No --epic-symbol entry covers it, so every agent's 'just check' fails at lint. Either privatize it (it is only used in its own file plus __all__), or add a 'sase-170.x(ClanSummaryDigest)' --epic-symbol entry if a later phase will consume it. Found by the sase-16n.11 land agent.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -19,7 +23,7 @@ Selecting an agent tribe panel shows the summary of every clan in the tribe thro
 | [sase-170.2](sase-170.2.md) | Durable clan record store in sase-core | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.3](sase-170.3.md) | Record, capture, and read clan attributes from sase | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.4](sase-170.4.md) | Clan-level tribe edits from the Agents tab | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
-| [sase-170.5](sase-170.5.md) | Inherit remembered tribe and summary for new clan generations | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-170.5](sase-170.5.md) | Inherit remembered tribe and summary for new clan generations | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +34,7 @@ flowchart TD
     n2["sase-170.2: Durable clan record store in sase-core [closed]"]
     n3["sase-170.3: Record, capture, and read clan attributes from sase [closed]"]
     n4["sase-170.4: Clan-level tribe edits from the Agents tab [in_progress]"]
-    n5["sase-170.5: Inherit remembered tribe and summary for new clan generations [in_progress]"]
+    n5["sase-170.5: Inherit remembered tribe and summary for new clan generations [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -49,7 +53,7 @@ flowchart TD
 | [bbugyi200.athena.sase-170.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.2/README.md) | [sase-170.2](sase-170.2.md) | 1 |
 | [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 1 |
 | [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 0 |
-| [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 0 |
+| [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 1 |
 | [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 0 |
 
 ## Commits
@@ -59,3 +63,4 @@ flowchart TD
 | sase-core | [`sase-core@7fc3501`](https://github.com/sase-org/sase-core/commit/7fc3501d49f28aff399e48bf0fe4f560523a8ab8) | feat(core): durable per-clan record store with scan overlay and bindings | [sase-170.2](sase-170.2.md) | 2026-09-23 12:18:33 EDT |
 | sase | [`e1c4208`](https://github.com/sase-org/sase/commit/e1c4208cd23f8b5561d5ac96386e23d6d6ef5afd) | feat(ace): add tribe CLAN SUMMARIES section with worker-side digests | [sase-170.1](sase-170.1.md) | 2026-09-23 13:01:39 EDT |
 | sase | [`69a5ca5`](https://github.com/sase-org/sase/commit/69a5ca5e1d0d059f7a0c613526d6990629c045ae) | feat(clans): record, capture, and read clan attributes from sase | [sase-170.3](sase-170.3.md) | 2026-09-23 13:44:14 EDT |
+| sase | [`1fb9d01`](https://github.com/sase-org/sase/commit/1fb9d01385cbe420eaed7e3c341eb921ca178ba4) | feat(clans): inherit remembered tribe and summary for new clan generations | [sase-170.5](sase-170.5.md) | 2026-09-23 14:08:34 EDT |
