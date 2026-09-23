@@ -19,7 +19,7 @@ npm-installs: add a pure install-route classifier, npm-package install planning 
 
 ## Dependencies
 
-- **Blocks:** [sase-171.2](sase-171.2.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-171.2](sase-171.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -32,3 +32,15 @@ npm-installs: add a pure install-route classifier, npm-package install planning 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bc128b6`](https://github.com/sase-org/sase/commit/bc128b655a563be39596a0a3b0d6ec746181458d) | feat(agent-cli): shared installer learns npm-packaged CLIs | [sase-171.1](sase-171.1.md) | 2026-09-23 13:23:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-171.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ discover-bulk: add the Available scope, the `*` mark-all-like-this key, a cross-
 
 ## Dependencies
 
-- **Depends on:** [sase-171.2](sase-171.2.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-171.2](sase-171.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
