@@ -18,7 +18,7 @@ core-tags: add the sase_core project_tag module (tag scanning with literal-zone 
 ## Dependencies
 
 - **Blocks:** [sase-16n.3](sase-16n.3.md) ◐ · ⧖ 2026-09-22
-- **Blocks:** [sase-16n.4](sase-16n.4.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16n.4](sase-16n.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

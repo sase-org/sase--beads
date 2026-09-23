@@ -15,7 +15,7 @@ nvim: accent highlight groups built from the server palette, a semantic-token ha
 
 - **Blocks:** [sase-16n.10](sase-16n.10.md) ◐ · ⧖ 2026-09-22
 - **Depends on:** [sase-16n.3](sase-16n.3.md) ◐ · ⧖ 2026-09-22
-- **Depends on:** [sase-16n.4](sase-16n.4.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16n.4](sase-16n.4.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
