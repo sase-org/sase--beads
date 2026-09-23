@@ -19,7 +19,7 @@ core-glob: in the linked sase-core repo, make `*` a wildcard inside string-field
 
 ## Dependencies
 
-- **Blocks:** [sase-16t.2](sase-16t.2.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16t.2](sase-16t.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

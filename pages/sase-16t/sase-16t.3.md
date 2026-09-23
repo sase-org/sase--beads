@@ -21,7 +21,7 @@ seam: fix the confirmed root cause (Beads/Plans/Agents/Files resolve a request s
 
 ## Dependencies
 
-- **Blocks:** [sase-16t.4](sase-16t.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16t.4](sase-16t.4.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -34,3 +34,15 @@ seam: fix the confirmed root cause (Beads/Plans/Agents/Files resolve a request s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`06909a1`](https://github.com/sase-org/sase/commit/06909a1aed0aa7da3a52940ea032a6252494ea7c) | fix(ace): never lose a pane report, never treat loading as absence | [sase-16t.3](sase-16t.3.md) | 2026-09-23 10:31:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16t.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.3/README.md
+
+<!-- sase:referenced-by:end -->

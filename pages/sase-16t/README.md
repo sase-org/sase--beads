@@ -16,9 +16,9 @@ Following any artifact link (the `$` link rail, the `$0` Links panel, relation j
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-16t.1](sase-16t.1.md) | Wildcard matching in the sase-core query evaluator | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-16t.2](sase-16t.2.md) | Wildcard parity, pin bump, pushdown guard, and docs in sase | ◐ in_progress | small | 2026-09-23 | 1 | 1 |
+| [sase-16t.2](sase-16t.2.md) | Wildcard parity, pin bump, pushdown guard, and docs in sase | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-16t.3](sase-16t.3.md) | Never lose a pane report, never treat loading as absence | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-16t.4](sase-16t.4.md) | Plan-then-commit reveal engine with Beads context queries | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16t.4](sase-16t.4.md) | Plan-then-commit reveal engine with Beads context queries | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16t.5](sase-16t.5.md) | Agent and File context queries plus Agents-tab reveal | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16t.6](sase-16t.6.md) | Stitch, Plan/provider, and Patch context queries | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16t.7](sase-16t.7.md) | The reveal toast, lens chip, and user docs | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
@@ -30,9 +30,9 @@ Following any artifact link (the `$` link rail, the `$0` Links panel, relation j
 flowchart TD
     n0["sase-16t: Rock-solid artifact link jumps [in_progress]"]
     n1["sase-16t.1: Wildcard matching in the sase-core query evaluator [closed]"]
-    n2["sase-16t.2: Wildcard parity, pin bump, pushdown guard, and docs in sase [in_progress]"]
+    n2["sase-16t.2: Wildcard parity, pin bump, pushdown guard, and docs in sase [closed]"]
     n3["sase-16t.3: Never lose a pane report, never treat loading as absence [closed]"]
-    n4["sase-16t.4: Plan-then-commit reveal engine with Beads context queries [in_progress]"]
+    n4["sase-16t.4: Plan-then-commit reveal engine with Beads context queries [closed]"]
     n5["sase-16t.5: Agent and File context queries plus Agents-tab reveal [in_progress]"]
     n6["sase-16t.6: Stitch, Plan/provider, and Patch context queries [in_progress]"]
     n7["sase-16t.7: The reveal toast, lens chip, and user docs [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16t.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.1/README.md) | [sase-16t.1](sase-16t.1.md) | 1 |
 | [bbugyi200.athena.sase-16t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.2/README.md) | [sase-16t.2](sase-16t.2.md) | 1 |
 | [bbugyi200.athena.sase-16t.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.3/README.md) | [sase-16t.3](sase-16t.3.md) | 1 |
-| [bbugyi200.athena.sase-16t.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.4/README.md) | [sase-16t.4](sase-16t.4.md) | 0 |
+| [bbugyi200.athena.sase-16t.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.4/README.md) | [sase-16t.4](sase-16t.4.md) | 1 |
 | [bbugyi200.athena.sase-16t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.5/README.md) | [sase-16t.5](sase-16t.5.md) | 0 |
 | [bbugyi200.athena.sase-16t.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.6/README.md) | [sase-16t.6](sase-16t.6.md) | 0 |
 | [bbugyi200.athena.sase-16t.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.7/README.md) | [sase-16t.7](sase-16t.7.md) | 0 |
@@ -77,6 +77,7 @@ flowchart TD
 | sase-core | [`sase-core@4af70ce`](https://github.com/sase-org/sase-core/commit/4af70ce1e84b39ed6f4dd503a2bd6515f55d6aed) | feat(query): support \* wildcards in string property values | [sase-16t.1](sase-16t.1.md) | 2026-09-23 08:42:03 EDT |
 | sase | [`f37f1dd`](https://github.com/sase-org/sase/commit/f37f1dd480202d5eeead8aa04f8b0808504b8613) | feat(query): wildcard parity, pin bump, pushdown guard, and docs (sase-16t.2, verification pending) | [sase-16t.2](sase-16t.2.md) | 2026-09-23 09:18:34 EDT |
 | sase | [`06909a1`](https://github.com/sase-org/sase/commit/06909a1aed0aa7da3a52940ea032a6252494ea7c) | fix(ace): never lose a pane report, never treat loading as absence | [sase-16t.3](sase-16t.3.md) | 2026-09-23 10:31:19 EDT |
+| sase | [`56a7684`](https://github.com/sase-org/sase/commit/56a7684a3e3b3572ccaf206a7876941a75aa4331) | feat(ace): plan-then-commit link reveal engine with Beads context queries | [sase-16t.4](sase-16t.4.md) | 2026-09-23 11:08:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
