@@ -48,7 +48,7 @@ flowchart TD
     n11["sase-16n.11.7.1: sase-core macOS test fix, accept line-join fix, and tag cleanups [closed]"]
     n12["sase-16n.11.7.2: sase-nvim set-shaped token modifiers, full override tracking, picker errors [closed]"]
     n13["sase-16n.11.7.3: sase follow-up prefix regression, non-blocking history filter, test isolation and gaps, docs nits [closed]"]
-    n14["sase-16n.11.7.4: TUI warm refresh that rebuilds surfaces, pager tag accents, tribe PROMPTS chip [in_progress]"]
+    n14["sase-16n.11.7.4: TUI warm refresh that rebuilds surfaces, pager tag accents, tribe PROMPTS chip [closed]"]
     n15["sase-16n.2: Case-insensitive project name uniqueness across VCS types [closed]"]
     n16["sase-16n.3: Python project tag backend and launch integration [closed]"]
     n17["sase-16n.4: sase-xprompt-lsp project tag support [closed]"]
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.11.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.1/README.md) | [sase-16n.11.7.1](sase-16n.11.7.1.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md) | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.3/README.md) | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 1 |
-| [bbugyi200.athena.sase-16n.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md) | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md) | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md) | [sase-16n.11.7](sase-16n.11.7.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.land.md) | [sase-16n.11](sase-16n.11.md) | 0 |
 | [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 2 |
@@ -153,6 +153,7 @@ flowchart TD
 | sase | [`848a90a`](https://github.com/sase-org/sase/commit/848a90a1ba6550faca8c29b8d9dcde81d4decb65) | fix(ace-tui): pin project-tag catalog in PNG snapshot fixtures | [sase-16n.11.4](sase-16n.11.4.md) | 2026-09-23 13:31:59 EDT |
 | sase-core | [`sase-core@fb1ca29`](https://github.com/sase-org/sase-core/commit/fb1ca29f50310ff5dc45f7cf3d3dc9431e3d4a97) | fix(core): project-tag accept line-join, macOS test, and tag cleanups | [sase-16n.11.7.1](sase-16n.11.7.1.md) | 2026-09-23 14:34:32 EDT |
 | sase | [`1230ed8`](https://github.com/sase-org/sase/commit/1230ed8da198e5952221819caf5e7962f9dec37c) | feat(scope): describe the completed work | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 2026-09-23 15:00:32 EDT |
+| sase | [`00badb8`](https://github.com/sase-org/sase/commit/00badb84eed26e296bdad946b471ecda2e53892f) | feat(tui-tags): warm rebuild of tag surfaces, pager accents, tribe PROMPTS chip | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 2026-09-23 15:20:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
