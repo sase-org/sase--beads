@@ -50,7 +50,7 @@ flowchart TD
     n9["sase-16z.9: Finish usage-window collection landing fixes and floor-aware header freshness [in_progress]"]
     n10["sase-16z.9.1: Fix sase-16z landing defects in sase [closed]"]
     n11["sase-16z.9.2: sase-core: per-provider polling floors in the usage indicator projection [closed]"]
-    n12["sase-16z.9.3: Floor-aware freshness for the TUI header usage indicator [in_progress]"]
+    n12["sase-16z.9.3: Floor-aware freshness for the TUI header usage indicator [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16z.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.8/README.md) | [sase-16z.8](sase-16z.8.md) | 1 |
 | [bbugyi200.athena.sase-16z.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.1/README.md) | [sase-16z.9.1](sase-16z.9.1.md) | 1 |
 | [bbugyi200.athena.sase-16z.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.2/README.md) | [sase-16z.9.2](sase-16z.9.2.md) | 1 |
-| [bbugyi200.athena.sase-16z.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.3/README.md) | [sase-16z.9.3](sase-16z.9.3.md) | 0 |
+| [bbugyi200.athena.sase-16z.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.3/README.md) | [sase-16z.9.3](sase-16z.9.3.md) | 1 |
 | [bbugyi200.athena.sase-16z.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.land/README.md) | [sase-16z.9](sase-16z.9.md) | 0 |
 | [bbugyi200.athena.sase-16z.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16z.land.md) | [sase-16z](README.md) | 0 |
 
@@ -107,6 +107,7 @@ flowchart TD
 | sase | [`1f75302`](https://github.com/sase-org/sase/commit/1f753027252a7ed5332871f8430d86693c30f5e8) | feat(llm-provider): hot cadence for providers in active use | [sase-16z.7](sase-16z.7.md) | 2026-09-23 15:47:27 EDT |
 | sase-core | [`sase-core@1a2a752`](https://github.com/sase-org/sase-core/commit/1a2a752ff499015642215888ecf3b11f2c1c0c34) | feat(provider-usage): support per-provider minimum freshness floor in usage indicator projection | [sase-16z.9.2](sase-16z.9.2.md) | 2026-09-23 16:48:12 EDT |
 | sase | [`4b9da7a`](https://github.com/sase-org/sase/commit/4b9da7a334065f6fb1bb138056890c407a9c5f1e) | fix(sase-16z.9.1): land nine review fixes for usage probes and models panel | [sase-16z.9.1](sase-16z.9.1.md) | 2026-09-23 17:11:28 EDT |
+| sase | [`ee6f7c0`](https://github.com/sase-org/sase/commit/ee6f7c0647ca8ebd4e008c16dd2599206be16f81) | feat(sase-16z.9.3): floor-aware freshness for the TUI header usage indicator | [sase-16z.9.3](sase-16z.9.3.md) | 2026-09-23 17:44:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
