@@ -13,7 +13,7 @@ backend-regressions: ratchet the sase-core pin; frozen_intent_vcs_prefix counts 
 
 ## Dependencies
 
-- **Depends on:** [sase-16n.11.7.1](sase-16n.11.7.1.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16n.11.7.1](sase-16n.11.7.1.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16n.11.7.4](sase-16n.11.7.4.md) ◐ · ⧖ 2026-09-23
 
 ## Agents

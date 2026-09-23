@@ -11,6 +11,10 @@
 
 Fix the defects the sase-16n.11 landing audit found in its own work. sase-core: a macOS-red CI test, and accept joining lines. sase-nvim: tag colors never show, and palette overrides get lost. sase: a follow-up monitor regression, a warm-refresh that does nothing, pager tag styling, and a history-filter blocking load. Also integrate the new tribe PROMPTS chip, and close the remaining test and doc gaps.
 
+## Notes
+
+[2026-09-23T18:29:24Z · sase-16y.land] DISCOVERED ISSUE (sase-16y.land, relaying sase-16y.1 PROPOSED FOLLOW-UP): at master ed8172fda 8 bead-work nodes fail on a pristine tree, expecting a '+sase' project tag but rendering '#git:sase': tests/test_bead/test_work_rendering.py::TestRenderEdgeCases::test_vcs_context_prefixes_every_regular_epic_segment, test_work_rendering_changespec.py::TestPatchRendering (4 nodes), test_work_task_rendering.py::test_task_prompt_has_exact_single_segment_order_and_feedback_tail, test_cli_work_task.py::test_task_work_launches_one_checkpointed_agent[OPEN/READY] and ::test_task_work_foreign_full_id_uses_owner_launch_context. Also tests/completion/test_snapshot.py (2 nodes) drifts on description_digest of 'sase prompt edit/run/select' (project-tag help text); fix with just sync-completion-spec.
+
 ## Agents
 
 | Agent | Bead | Commits |

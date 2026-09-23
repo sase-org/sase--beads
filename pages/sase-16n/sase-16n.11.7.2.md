@@ -19,10 +19,16 @@ nvim-tokens: token_group reads the set-shaped modifiers Neovim passes so accent,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md) | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md) | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-nvim | [`sase-nvim@9378313`](https://github.com/sase-org/sase-nvim/commit/937831308d9462d8dc6f727c03232b1ad56b0d0d) | feat(nvim-tokens): set-shaped modifiers, warn-and-cancel picker, trailing-space insert | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 2026-09-23 14:25:00 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.11.7.2][1] | confirm close landed | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md
+
+<!-- sase:referenced-by:end -->
