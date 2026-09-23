@@ -13,10 +13,22 @@ tui-tag-surfaces: ProjectTagCatalogWarmed rebuilds the surfaces that rendered co
 
 ## Dependencies
 
-- **Depends on:** [sase-16n.11.7.3](sase-16n.11.7.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16n.11.7.3](sase-16n.11.7.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-16n.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md) | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16y.land][1] | child scope for red-test triage | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+
+<!-- sase:referenced-by:end -->

@@ -28,7 +28,9 @@ nvim-tokens: token_group reads the set-shaped modifiers Neovim passes so accent,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16n.11.7.2][1] | confirm close landed | 2 |
+| read-by | [agent:sase-16y.land][2] | child scope for red-test triage | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 
 <!-- sase:referenced-by:end -->

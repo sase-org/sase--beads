@@ -17,7 +17,7 @@ core-accept: make the case-variant collision test pass on case-insensitive file 
 
 ## Dependencies
 
-- **Blocks:** [sase-16n.11.7.3](sase-16n.11.7.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16n.11.7.3](sase-16n.11.7.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -30,3 +30,17 @@ core-accept: make the case-variant collision test pass on case-insensitive file 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@fb1ca29`](https://github.com/sase-org/sase-core/commit/fb1ca29f50310ff5dc45f7cf3d3dc9431e3d4a97) | fix(core): project-tag accept line-join, macOS test, and tag cleanups | [sase-16n.11.7.1](sase-16n.11.7.1.md) | 2026-09-23 14:34:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.11.7.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16y.land][2] | child scope for red-test triage | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+
+<!-- sase:referenced-by:end -->

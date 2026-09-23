@@ -47,7 +47,7 @@ flowchart TD
     n10["sase-16n.11.7: Finish the project tag (+sase) landing-gap fixes [in_progress]"]
     n11["sase-16n.11.7.1: sase-core macOS test fix, accept line-join fix, and tag cleanups [closed]"]
     n12["sase-16n.11.7.2: sase-nvim set-shaped token modifiers, full override tracking, picker errors [closed]"]
-    n13["sase-16n.11.7.3: sase follow-up prefix regression, non-blocking history filter, test isolation and gaps, docs nits [in_progress]"]
+    n13["sase-16n.11.7.3: sase follow-up prefix regression, non-blocking history filter, test isolation and gaps, docs nits [closed]"]
     n14["sase-16n.11.7.4: TUI warm refresh that rebuilds surfaces, pager tag accents, tribe PROMPTS chip [in_progress]"]
     n15["sase-16n.2: Case-insensitive project name uniqueness across VCS types [closed]"]
     n16["sase-16n.3: Python project tag backend and launch integration [closed]"]
@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.1/README.md) | [sase-16n.11.7.1](sase-16n.11.7.1.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md) | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 0 |
-| [bbugyi200.athena.sase-16n.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.3/README.md) | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.3/README.md) | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md) | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md) | [sase-16n.11.7](sase-16n.11.7.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.land.md) | [sase-16n.11](sase-16n.11.md) | 0 |
@@ -152,6 +152,7 @@ flowchart TD
 | sase | [`69ca23a`](https://github.com/sase-org/sase/commit/69ca23a2e8ba6046e17589321f403656cdec5f90) | docs(project-tags): accuracy pass for tag docs and help | [sase-16n.11.6](sase-16n.11.6.md) | 2026-09-23 11:53:04 EDT |
 | sase | [`848a90a`](https://github.com/sase-org/sase/commit/848a90a1ba6550faca8c29b8d9dcde81d4decb65) | fix(ace-tui): pin project-tag catalog in PNG snapshot fixtures | [sase-16n.11.4](sase-16n.11.4.md) | 2026-09-23 13:31:59 EDT |
 | sase-core | [`sase-core@fb1ca29`](https://github.com/sase-org/sase-core/commit/fb1ca29f50310ff5dc45f7cf3d3dc9431e3d4a97) | fix(core): project-tag accept line-join, macOS test, and tag cleanups | [sase-16n.11.7.1](sase-16n.11.7.1.md) | 2026-09-23 14:34:32 EDT |
+| sase | [`1230ed8`](https://github.com/sase-org/sase/commit/1230ed8da198e5952221819caf5e7962f9dec37c) | feat(scope): describe the completed work | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 2026-09-23 15:00:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -161,8 +162,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16n.1][1] | Need parent epic status for phase work | 1 |
 | read-by | [agent:sase-16n.7][2] | epic scope | 1 |
+| read-by | [agent:sase-16y.land][3] | Project tags epic state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 
 <!-- sase:referenced-by:end -->
