@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 1 |
 | [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 1 |
 | [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 1 |
-| [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 2 |
+| [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 3 |
 
 ## Commits
 
@@ -119,6 +119,7 @@ flowchart TD
 | sase | [`372135a`](https://github.com/sase-org/sase/commit/372135af742b8ec04e08ce47781a94de289ae3eb) | feat(clans): clan-level tribe edits from the Agents tab | [sase-170.4](sase-170.4.md) | 2026-09-23 14:20:05 EDT |
 | sase | [`1d04946`](https://github.com/sase-org/sase/commit/1d04946e49c76888c1023b444678205214c3c5e6) | fix(clans): land sase-170 tribe clan summaries and durable clan records | [sase-170](README.md) | 2026-09-23 15:53:26 EDT |
 | sase-core | [`sase-core@35dc083`](https://github.com/sase-org/sase-core/commit/35dc083b5170ec11d18410d36ceb7e30cb1d1bf0) | fix(core): race-free clan record cache and keep-8 no-op merges | [sase-170](README.md) | 2026-09-23 15:57:10 EDT |
+| sase--plans | [`sase--plans@d958928`](https://github.com/sase-org/sase--plans/commit/d9589282d1b1967d5592df8044f9e9c6ff830517) | chore(plans): mark tribe clan summaries epic plan done (sase-170) | [sase-170](README.md) | 2026-09-23 15:58:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
