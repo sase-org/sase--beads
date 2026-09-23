@@ -14,7 +14,7 @@ plugins: Telegram project-context capture and copy-text buttons use tags, its in
 ## Dependencies
 
 - **Blocks:** [sase-16n.10](sase-16n.10.md) ◐ · ⧖ 2026-09-22
-- **Depends on:** [sase-16n.6](sase-16n.6.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-16n.6](sase-16n.6.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
