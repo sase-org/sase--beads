@@ -22,7 +22,7 @@ Selecting an agent tribe panel shows the summary of every clan in the tribe thro
 | [sase-170.1](sase-170.1.md) | CLAN SUMMARIES section in the tribe metadata panel | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.2](sase-170.2.md) | Durable clan record store in sase-core | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.3](sase-170.3.md) | Record, capture, and read clan attributes from sase | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-170.4](sase-170.4.md) | Clan-level tribe edits from the Agents tab | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-170.4](sase-170.4.md) | Clan-level tribe edits from the Agents tab | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-170.5](sase-170.5.md) | Inherit remembered tribe and summary for new clan generations | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n1["sase-170.1: CLAN SUMMARIES section in the tribe metadata panel [closed]"]
     n2["sase-170.2: Durable clan record store in sase-core [closed]"]
     n3["sase-170.3: Record, capture, and read clan attributes from sase [closed]"]
-    n4["sase-170.4: Clan-level tribe edits from the Agents tab [in_progress]"]
+    n4["sase-170.4: Clan-level tribe edits from the Agents tab [closed]"]
     n5["sase-170.5: Inherit remembered tribe and summary for new clan generations [closed]"]
     n0 --> n1
     n0 --> n2
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.athena.sase-170.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.1/README.md) | [sase-170.1](sase-170.1.md) | 1 |
 | [bbugyi200.athena.sase-170.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.2/README.md) | [sase-170.2](sase-170.2.md) | 1 |
 | [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 1 |
-| [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 0 |
+| [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 1 |
 | [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 1 |
 | [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 0 |
 
@@ -64,3 +64,16 @@ flowchart TD
 | sase | [`e1c4208`](https://github.com/sase-org/sase/commit/e1c4208cd23f8b5561d5ac96386e23d6d6ef5afd) | feat(ace): add tribe CLAN SUMMARIES section with worker-side digests | [sase-170.1](sase-170.1.md) | 2026-09-23 13:01:39 EDT |
 | sase | [`69a5ca5`](https://github.com/sase-org/sase/commit/69a5ca5e1d0d059f7a0c613526d6990629c045ae) | feat(clans): record, capture, and read clan attributes from sase | [sase-170.3](sase-170.3.md) | 2026-09-23 13:44:14 EDT |
 | sase | [`1fb9d01`](https://github.com/sase-org/sase/commit/1fb9d01385cbe420eaed7e3c341eb921ca178ba4) | feat(clans): inherit remembered tribe and summary for new clan generations | [sase-170.5](sase-170.5.md) | 2026-09-23 14:08:34 EDT |
+| sase | [`372135a`](https://github.com/sase-org/sase/commit/372135af742b8ec04e08ce47781a94de289ae3eb) | feat(clans): clan-level tribe edits from the Agents tab | [sase-170.4](sase-170.4.md) | 2026-09-23 14:20:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-170.5][1] | x | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md
+
+<!-- sase:referenced-by:end -->

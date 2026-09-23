@@ -20,7 +20,7 @@ clan_record_wiring: bump the sase-core pin, add the Python facade, pass the reco
 ## Dependencies
 
 - **Depends on:** [sase-170.2](sase-170.2.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-170.4](sase-170.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-170.4](sase-170.4.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-170.5](sase-170.5.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
