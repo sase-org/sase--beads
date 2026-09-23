@@ -22,7 +22,7 @@ backend: shared accent module, cached project tag catalog, expansion inside prom
 - **Depends on:** [sase-16n.1](sase-16n.1.md) ✓ · ⧖ 2026-09-22
 - **Depends on:** [sase-16n.2](sase-16n.2.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16n.5](sase-16n.5.md) ◐ · ⧖ 2026-09-22
-- **Blocks:** [sase-16n.8](sase-16n.8.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16n.8](sase-16n.8.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
@@ -35,3 +35,15 @@ backend: shared accent module, cached project tag catalog, expansion inside prom
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`19895a0`](https://github.com/sase-org/sase/commit/19895a01bfe8245fd627bf9a24f9cf6fe8bc6600) | feat(xprompt): add Python project tag backend and launch integration | [sase-16n.3](sase-16n.3.md) | 2026-09-22 21:05:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.3/README.md
+
+<!-- sase:referenced-by:end -->

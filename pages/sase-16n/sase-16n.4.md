@@ -20,7 +20,7 @@ lsp: tag completion with in-place edits, semantic tokens with accent modifiers p
 ## Dependencies
 
 - **Depends on:** [sase-16n.1](sase-16n.1.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16n.8](sase-16n.8.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16n.8](sase-16n.8.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

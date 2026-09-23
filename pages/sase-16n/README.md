@@ -23,7 +23,7 @@ Prompts name their project with a `+<project>` project tag by default. SASE reso
 | [sase-16n.5](sase-16n.5.md) | TUI prompt editor completion and tag defaults | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16n.6](sase-16n.6.md) | Tag rendering in the agent panel and prompt editor | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
 | [sase-16n.7](sase-16n.7.md) | Accent-colored tags on every remaining raw-prompt surface | ◐ in_progress | medium | 2026-09-22 | 1 | 0 |
-| [sase-16n.8](sase-16n.8.md) | sase-nvim project tag highlighting and picker | ◐ in_progress | small | 2026-09-22 | 1 | 0 |
+| [sase-16n.8](sase-16n.8.md) | sase-nvim project tag highlighting and picker | ✓ closed | small | 2026-09-22 | 1 | 1 |
 | [sase-16n.9](sase-16n.9.md) | sase-telegram and sase-github tag adoption | ◐ in_progress | small | 2026-09-22 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n6["sase-16n.5: TUI prompt editor completion and tag defaults [in_progress]"]
     n7["sase-16n.6: Tag rendering in the agent panel and prompt editor [in_progress]"]
     n8["sase-16n.7: Accent-colored tags on every remaining raw-prompt surface [in_progress]"]
-    n9["sase-16n.8: sase-nvim project tag highlighting and picker [in_progress]"]
+    n9["sase-16n.8: sase-nvim project tag highlighting and picker [closed]"]
     n10["sase-16n.9: sase-telegram and sase-github tag adoption [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.5/README.md) | [sase-16n.5](sase-16n.5.md) | 0 |
 | [bbugyi200.athena.sase-16n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.6/README.md) | [sase-16n.6](sase-16n.6.md) | 0 |
 | [bbugyi200.athena.sase-16n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md) | [sase-16n.7](sase-16n.7.md) | 0 |
-| [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 0 |
+| [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 1 |
 | [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 0 |
 | [bbugyi200.athena.sase-16n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.land/README.md) | [sase-16n](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | sase-core | [`sase-core@3120739`](https://github.com/sase-org/sase-core/commit/3120739433fb6c4d4abef462f15a97de8612fa71) | feat(projects): casefold project ref collision warnings and reserve home | [sase-16n.2](sase-16n.2.md) | 2026-09-22 19:54:53 EDT |
 | sase-core | [`sase-core@3da8a03`](https://github.com/sase-org/sase-core/commit/3da8a0309ff0b15c44b5869f6af5808479582b8c) | feat(lsp): sase-xprompt-lsp project tag support | [sase-16n.4](sase-16n.4.md) | 2026-09-22 20:15:55 EDT |
 | sase | [`19895a0`](https://github.com/sase-org/sase/commit/19895a01bfe8245fd627bf9a24f9cf6fe8bc6600) | feat(xprompt): add Python project tag backend and launch integration | [sase-16n.3](sase-16n.3.md) | 2026-09-22 21:05:49 EDT |
+| sase-nvim | [`sase-nvim@2e6f1ac`](https://github.com/sase-org/sase-nvim/commit/2e6f1acf6c47e72d58e94953b9c602f2175ab261) | feat(nvim): project tag highlight, plus-tag completion and LSP wiring | [sase-16n.8](sase-16n.8.md) | 2026-09-22 21:29:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
