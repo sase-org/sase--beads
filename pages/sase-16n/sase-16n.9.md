@@ -28,10 +28,23 @@ plugins: Telegram project-context capture and copy-text buttons use tags, its in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 1 |
+| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-github | [`sase-github@204ffd0`](https://github.com/sase-org/sase-github/commit/204ffd0737e305b3c5ea6f941d9bfe442e588feb) | docs(xprompts): present +\<project\> as the default GitHub project spelling | [sase-16n.9](sase-16n.9.md) | 2026-09-23 07:41:47 EDT |
+| sase-telegram | [`sase-telegram@aff9a23`](https://github.com/sase-org/sase-telegram/commit/aff9a23e85f7fa080426d1cf20063905c1124a46) | feat(telegram): adopt project tags for inbound reads and copy-text buttons | [sase-16n.9](sase-16n.9.md) | 2026-09-23 07:45:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.9][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md
+
+<!-- sase:referenced-by:end -->

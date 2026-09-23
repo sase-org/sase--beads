@@ -24,7 +24,7 @@ Prompts name their project with a `+<project>` project tag by default. SASE reso
 | [sase-16n.6](sase-16n.6.md) | Tag rendering in the agent panel and prompt editor | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16n.7](sase-16n.7.md) | Accent-colored tags on every remaining raw-prompt surface | ✓ closed | medium | 2026-09-22 | 1 | 0 |
 | [sase-16n.8](sase-16n.8.md) | sase-nvim project tag highlighting and picker | ✓ closed | small | 2026-09-22 | 1 | 0 |
-| [sase-16n.9](sase-16n.9.md) | sase-telegram and sase-github tag adoption | ✓ closed | small | 2026-09-22 | 1 | 1 |
+| [sase-16n.9](sase-16n.9.md) | sase-telegram and sase-github tag adoption | ✓ closed | small | 2026-09-22 | 1 | 2 |
 
 ## Lineage
 
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.6/README.md) | [sase-16n.6](sase-16n.6.md) | 1 |
 | [bbugyi200.athena.sase-16n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md) | [sase-16n.7](sase-16n.7.md) | 0 |
 | [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 0 |
-| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 1 |
+| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 2 |
 | [bbugyi200.athena.sase-16n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.land/README.md) | [sase-16n](README.md) | 0 |
 
 ## Commits
@@ -96,6 +96,7 @@ flowchart TD
 | sase | [`ec5b91d`](https://github.com/sase-org/sase/commit/ec5b91d8dfe9956c3f738b367452efd7ca4a449c) | feat(xprompt): TUI prompt editor completion and tag defaults | [sase-16n.5](sase-16n.5.md) | 2026-09-22 22:05:48 EDT |
 | sase | [`eea59a6`](https://github.com/sase-org/sase/commit/eea59a65147a1dcd2d3ae7d91e818e3c463227ec) | feat(xprompt): render project tags in agent panel and prompt editor | [sase-16n.6](sase-16n.6.md) | 2026-09-22 22:43:45 EDT |
 | sase-github | [`sase-github@204ffd0`](https://github.com/sase-org/sase-github/commit/204ffd0737e305b3c5ea6f941d9bfe442e588feb) | docs(xprompts): present +\<project\> as the default GitHub project spelling | [sase-16n.9](sase-16n.9.md) | 2026-09-23 07:41:47 EDT |
+| sase-telegram | [`sase-telegram@aff9a23`](https://github.com/sase-org/sase-telegram/commit/aff9a23e85f7fa080426d1cf20063905c1124a46) | feat(telegram): adopt project tags for inbound reads and copy-text buttons | [sase-16n.9](sase-16n.9.md) | 2026-09-23 07:45:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
