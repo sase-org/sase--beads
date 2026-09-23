@@ -38,7 +38,9 @@ keymap: add the inert Agents-only toggle_agent_jump_panel action on full_stop, m
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16y.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16y.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.1/README.md) | [sase-16y.1](sase-16y.1.md) | 1 |
 | [bbugyi200.athena.sase-16y.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.2/README.md) | [sase-16y.2](sase-16y.2.md) | 1 |
 | [bbugyi200.athena.sase-16y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.3/README.md) | [sase-16y.3](sase-16y.3.md) | 1 |
-| [bbugyi200.athena.sase-16y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md) | [sase-16y](README.md) | 1 |
+| [bbugyi200.athena.sase-16y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md) | [sase-16y](README.md) | 2 |
 
 ## Commits
 
@@ -55,3 +55,16 @@ flowchart TD
 | sase | [`3408056`](https://github.com/sase-org/sase/commit/34080568e6e9e91376eed89906eae3d99f24dd7b) | feat(ace): add Agents jump-panel keymap phase with non-run toggle | [sase-16y.2](sase-16y.2.md) | 2026-09-23 11:37:35 EDT |
 | sase | [`311e761`](https://github.com/sase-org/sase/commit/311e761145e56aa22b2b4eaa030afd3ebd704932) | feat(ace): sticky collapsible jump footer panel on the Agents tab | [sase-16y.3](sase-16y.3.md) | 2026-09-23 13:51:47 EDT |
 | sase | [`afc72c6`](https://github.com/sase-org/sase/commit/afc72c6989108c93fc65ab67c42bb225dd1cc362) | chore(ace): land jump footer panel epic and retire its epic symbol | [sase-16y](README.md) | 2026-09-23 14:53:22 EDT |
+| sase--plans | [`sase--plans@d08b023`](https://github.com/sase-org/sase--plans/commit/d08b023520799f5636966f2701548646c9c88a5c) | chore(plans): mark agent jump footer panel epic plan done | [sase-16y](README.md) | 2026-09-23 14:59:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16y.land][1] | Need the parent link | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+
+<!-- sase:referenced-by:end -->
