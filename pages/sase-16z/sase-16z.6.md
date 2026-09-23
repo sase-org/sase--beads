@@ -24,7 +24,7 @@ usage-routine: move `usage_refresh` out of `checks` into a new 60 s `usage` rout
 ## Dependencies
 
 - **Depends on:** [sase-16z.5](sase-16z.5.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16z.7](sase-16z.7.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.7](sase-16z.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -37,3 +37,15 @@ usage-routine: move `usage_refresh` out of `checks` into a new 60 s `usage` rout
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a6e2758`](https://github.com/sase-org/sase/commit/a6e27583c848ef087636e9f4fca1f2bd027c6bda) | feat(llm-provider): dedicated usage scheduler routine that probes inline | [sase-16z.6](sase-16z.6.md) | 2026-09-23 15:15:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.6/README.md
+
+<!-- sase:referenced-by:end -->
