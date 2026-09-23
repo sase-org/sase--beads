@@ -15,7 +15,7 @@ backend-fixes: `+home` resolves before home's spec exists; project_tag_for leave
 
 - **Depends on:** [sase-16n.11.1](sase-16n.11.1.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16n.11.3](sase-16n.11.3.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

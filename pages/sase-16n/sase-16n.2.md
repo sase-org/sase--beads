@@ -26,7 +26,7 @@ unique-names: make every write-time project ref check case-insensitive and reser
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 2 |
+| [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 3 |
 
 ## Commits
 
@@ -34,6 +34,7 @@ unique-names: make every write-time project ref check case-insensitive and reser
 |---|---|---|---|---|
 | sase | [`dc08f7b`](https://github.com/sase-org/sase/commit/dc08f7b21c31dd51853184a8607ed40c598beded) | feat(projects): enforce case-insensitive project name uniqueness | [sase-16n.2](sase-16n.2.md) | 2026-09-22 19:51:43 EDT |
 | sase-core | [`sase-core@3120739`](https://github.com/sase-org/sase-core/commit/3120739433fb6c4d4abef462f15a97de8612fa71) | feat(projects): casefold project ref collision warnings and reserve home | [sase-16n.2](sase-16n.2.md) | 2026-09-22 19:54:53 EDT |
+| sase-github | [`sase-github@fd5b7bd`](https://github.com/sase-org/sase-github/commit/fd5b7bde2ac2e0785640df172e7e321275df406b) | feat(projects): allocate canonical names case-insensitively | [sase-16n.2](sase-16n.2.md) | 2026-09-22 19:58:09 EDT |
 
 <!-- sase:referenced-by:start -->
 

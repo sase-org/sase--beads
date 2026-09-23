@@ -19,4 +19,4 @@ tag-goldens: pin a fixture tag catalog in the visual harness, add prompt-highlig
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.4/README.md) | [sase-16n.11.4](sase-16n.11.4.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.4.md) | [sase-16n.11.4](sase-16n.11.4.md) | 0 |

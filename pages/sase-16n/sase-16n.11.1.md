@@ -19,7 +19,7 @@ core-fixes: accept removes every workspace target the Python one-target guard co
 
 - **Blocks:** [sase-16n.11.2](sase-16n.11.2.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16n.11.5](sase-16n.11.5.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
