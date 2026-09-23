@@ -19,7 +19,7 @@ Following any artifact link (the `$` link rail, the `$0` Links panel, relation j
 | [sase-16t.2](sase-16t.2.md) | Wildcard parity, pin bump, pushdown guard, and docs in sase | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-16t.3](sase-16t.3.md) | Never lose a pane report, never treat loading as absence | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16t.4](sase-16t.4.md) | Plan-then-commit reveal engine with Beads context queries | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-16t.5](sase-16t.5.md) | Agent and File context queries plus Agents-tab reveal | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16t.5](sase-16t.5.md) | Agent and File context queries plus Agents-tab reveal | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16t.6](sase-16t.6.md) | Stitch, Plan/provider, and Patch context queries | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16t.7](sase-16t.7.md) | The reveal toast, lens chip, and user docs | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-16t.8](sase-16t.8.md) | One engine for every jump, plus the end-to-end matrix | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n2["sase-16t.2: Wildcard parity, pin bump, pushdown guard, and docs in sase [closed]"]
     n3["sase-16t.3: Never lose a pane report, never treat loading as absence [closed]"]
     n4["sase-16t.4: Plan-then-commit reveal engine with Beads context queries [closed]"]
-    n5["sase-16t.5: Agent and File context queries plus Agents-tab reveal [in_progress]"]
+    n5["sase-16t.5: Agent and File context queries plus Agents-tab reveal [closed]"]
     n6["sase-16t.6: Stitch, Plan/provider, and Patch context queries [in_progress]"]
     n7["sase-16t.7: The reveal toast, lens chip, and user docs [closed]"]
     n8["sase-16t.8: One engine for every jump, plus the end-to-end matrix [in_progress]"]
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.2/README.md) | [sase-16t.2](sase-16t.2.md) | 1 |
 | [bbugyi200.athena.sase-16t.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.3/README.md) | [sase-16t.3](sase-16t.3.md) | 1 |
 | [bbugyi200.athena.sase-16t.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.4/README.md) | [sase-16t.4](sase-16t.4.md) | 1 |
-| [bbugyi200.athena.sase-16t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.5/README.md) | [sase-16t.5](sase-16t.5.md) | 0 |
+| [bbugyi200.athena.sase-16t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.5/README.md) | [sase-16t.5](sase-16t.5.md) | 1 |
 | [bbugyi200.athena.sase-16t.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.6/README.md) | [sase-16t.6](sase-16t.6.md) | 0 |
 | [bbugyi200.athena.sase-16t.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.7/README.md) | [sase-16t.7](sase-16t.7.md) | 1 |
 | [bbugyi200.athena.sase-16t.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.8/README.md) | [sase-16t.8](sase-16t.8.md) | 0 |
@@ -79,6 +79,7 @@ flowchart TD
 | sase | [`06909a1`](https://github.com/sase-org/sase/commit/06909a1aed0aa7da3a52940ea032a6252494ea7c) | fix(ace): never lose a pane report, never treat loading as absence | [sase-16t.3](sase-16t.3.md) | 2026-09-23 10:31:19 EDT |
 | sase | [`56a7684`](https://github.com/sase-org/sase/commit/56a7684a3e3b3572ccaf206a7876941a75aa4331) | feat(ace): plan-then-commit link reveal engine with Beads context queries | [sase-16t.4](sase-16t.4.md) | 2026-09-23 11:08:26 EDT |
 | sase | [`e25372a`](https://github.com/sase-org/sase/commit/e25372a64a856b692329c9ad57f935a945f58ad2) | feat(ace): reveal toast, lens chip label, and Link Jumps docs | [sase-16t.7](sase-16t.7.md) | 2026-09-23 12:21:01 EDT |
+| sase | [`60b236b`](https://github.com/sase-org/sase/commit/60b236b5b3d5ed591d986410da68cc6351ffc4ac) | feat(ace): agent and file context queries plus Agents-tab reveal | [sase-16t.5](sase-16t.5.md) | 2026-09-23 12:26:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
