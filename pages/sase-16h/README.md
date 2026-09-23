@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md) | [sase-16h.4](sase-16h.4.md) | 1 |
 | [bbugyi200.athena.sase-16h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md) | [sase-16h.5](sase-16h.5.md) | 1 |
 | [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 5 |
-| [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 1 |
+| [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 2 |
 
 ## Commits
 
@@ -84,6 +84,7 @@ flowchart TD
 | sase-research-artifacts | [`sase-research-artifacts@760ff40`](https://github.com/sase-org/sase-research-artifacts/commit/760ff407f24fc25ce91facd5b984051d09d668e4) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:39:38 EDT |
 | sase-telegram | [`sase-telegram@5b7f583`](https://github.com/sase-org/sase-telegram/commit/5b7f5834e6b8d317dbdefb138ac2b2a8179010c8) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:47:18 EDT |
 | sase | [`d3fa979`](https://github.com/sase-org/sase/commit/d3fa9796823bf547a8117bfd73cdb8ce154e54a1) | fix(tool): land sase-16h by moving the core pin past tool\_run\_observe | [sase-16h](README.md) | 2026-09-22 20:16:26 EDT |
+| sase--plans | [`sase--plans@46f7e25`](https://github.com/sase-org/sase--plans/commit/46f7e258a9c6572f94f76c93246f42d082112877) | chore(plans): mark tool\_e15\_enforced\_adoption done after sase-16h landed | [sase-16h](README.md) | 2026-09-22 20:18:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
