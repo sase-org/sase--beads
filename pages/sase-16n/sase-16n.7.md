@@ -21,14 +21,20 @@ tag-surfaces: prompt history, stash, launch approval, runners/revive/run-log pre
 
 ## Dependencies
 
-- **Blocks:** [sase-16n.10](sase-16n.10.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16n.10](sase-16n.10.md) ✓ · ⧖ 2026-09-22
 - **Depends on:** [sase-16n.6](sase-16n.6.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md) | [sase-16n.7](sase-16n.7.md) | 0 |
+| [bbugyi200.athena.sase-16n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md) | [sase-16n.7](sase-16n.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3bf3b99`](https://github.com/sase-org/sase/commit/3bf3b998abad35250e7a71de91e44780f2a517b5) | feat(project-tags): accent-colored project tags on raw-prompt surfaces | [sase-16n.7](sase-16n.7.md) | 2026-09-23 07:31:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
