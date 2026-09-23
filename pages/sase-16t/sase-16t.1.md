@@ -40,7 +40,9 @@ core-glob: in the linked sase-core repo, make `*` a wildcard inside string-field
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16t.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16t.2][2] | check core-glob status | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.2/README.md
 
 <!-- sase:referenced-by:end -->
