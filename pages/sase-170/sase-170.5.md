@@ -40,7 +40,9 @@ clan_launch_defaults: when a launch creates a new generation of a previously rec
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-170.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-170.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
 
 <!-- sase:referenced-by:end -->

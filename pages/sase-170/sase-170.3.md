@@ -42,7 +42,9 @@ clan_record_wiring: bump the sase-core pin, add the Python facade, pass the reco
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16y.land][1] | Read its pre-existing failures follow-up | 1 |
+| read-by | [agent:sase-170.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
 
 <!-- sase:referenced-by:end -->

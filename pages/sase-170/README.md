@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-170.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.3/README.md) | [sase-170.3](sase-170.3.md) | 1 |
 | [bbugyi200.athena.sase-170.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.4/README.md) | [sase-170.4](sase-170.4.md) | 1 |
 | [bbugyi200.athena.sase-170.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md) | [sase-170.5](sase-170.5.md) | 1 |
-| [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 1 |
+| [bbugyi200.athena.sase-170.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md) | [sase-170](README.md) | 2 |
 
 ## Commits
 
@@ -118,6 +118,7 @@ flowchart TD
 | sase | [`1fb9d01`](https://github.com/sase-org/sase/commit/1fb9d01385cbe420eaed7e3c341eb921ca178ba4) | feat(clans): inherit remembered tribe and summary for new clan generations | [sase-170.5](sase-170.5.md) | 2026-09-23 14:08:34 EDT |
 | sase | [`372135a`](https://github.com/sase-org/sase/commit/372135af742b8ec04e08ce47781a94de289ae3eb) | feat(clans): clan-level tribe edits from the Agents tab | [sase-170.4](sase-170.4.md) | 2026-09-23 14:20:05 EDT |
 | sase | [`1d04946`](https://github.com/sase-org/sase/commit/1d04946e49c76888c1023b444678205214c3c5e6) | fix(clans): land sase-170 tribe clan summaries and durable clan records | [sase-170](README.md) | 2026-09-23 15:53:26 EDT |
+| sase-core | [`sase-core@35dc083`](https://github.com/sase-org/sase-core/commit/35dc083b5170ec11d18410d36ceb7e30cb1d1bf0) | fix(core): race-free clan record cache and keep-8 no-op merges | [sase-170](README.md) | 2026-09-23 15:57:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -128,9 +129,11 @@ flowchart TD
 | read-by | [agent:sase-16t.land][1] | Check whether the ClanSummaryDigest symvision flag belongs to an active epic | 1 |
 | read-by | [agent:sase-16y.land][2] | Check whether stale sase-170.5 epic-symbol belongs to an in-progress landing | 2 |
 | read-by | [agent:sase-170.5][3] | x | 1 |
+| read-by | [agent:sase-170.land][4] | Final submit could not read assigned bead status; confirm it is closed | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.5/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -30,3 +30,15 @@ clan_record_core: in the linked sase-core repo, add the per-clan JSON record sto
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7fc3501`](https://github.com/sase-org/sase-core/commit/7fc3501d49f28aff399e48bf0fe4f560523a8ab8) | feat(core): durable per-clan record store with scan overlay and bindings | [sase-170.2](sase-170.2.md) | 2026-09-23 12:18:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-170.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
+
+<!-- sase:referenced-by:end -->
