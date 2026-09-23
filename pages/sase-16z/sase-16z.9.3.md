@@ -33,3 +33,15 @@ header-floor-freshness: move the sase-core pin past core-indicator-floors, pass 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee6f7c0`](https://github.com/sase-org/sase/commit/ee6f7c0647ca8ebd4e008c16dd2599206be16f81) | feat(sase-16z.9.3): floor-aware freshness for the TUI header usage indicator | [sase-16z.9.3](sase-16z.9.3.md) | 2026-09-23 17:44:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.9.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.3/README.md
+
+<!-- sase:referenced-by:end -->

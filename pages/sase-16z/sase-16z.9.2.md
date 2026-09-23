@@ -38,7 +38,9 @@ core-indicator-floors: in the linked sase-core repo, add an optional serde-defau
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16z.9.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-16z.9.3][2] | check core phase status | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.3/README.md
 
 <!-- sase:referenced-by:end -->
