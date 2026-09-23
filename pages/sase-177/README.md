@@ -18,7 +18,7 @@ Muse agents stop dying mid-task because they waited on Muse's own post-turn back
 | [sase-177.1](sase-177.1.md) | Muse runs synchronously behind a sunset flag, with a single-turn directive | ◐ in_progress | medium | 2026-09-23 | 1 | 1 |
 | [sase-177.2](sase-177.2.md) | Muse stranded-wait guard | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
 | [sase-177.3](sase-177.3.md) | Tool-call capture for Muse's legacy shell tool | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-177.4](sase-177.4.md) | Skill, memory, and decision text for the up-front routing rule | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-177.4](sase-177.4.md) | Skill, memory, and decision text for the up-front routing rule | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-177.1: Muse runs synchronously behind a sunset flag, with a single-turn directive [in_progress]"]
     n2["sase-177.2: Muse stranded-wait guard [in_progress]"]
     n3["sase-177.3: Tool-call capture for Muse's legacy shell tool [closed]"]
-    n4["sase-177.4: Skill, memory, and decision text for the up-front routing rule [in_progress]"]
+    n4["sase-177.4: Skill, memory, and decision text for the up-front routing rule [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -43,7 +43,7 @@ flowchart TD
 | [bbugyi200.athena.sase-177.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.1/README.md) | [sase-177.1](sase-177.1.md) | 1 |
 | [bbugyi200.athena.sase-177.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.2/README.md) | [sase-177.2](sase-177.2.md) | 0 |
 | [bbugyi200.athena.sase-177.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.3/README.md) | [sase-177.3](sase-177.3.md) | 1 |
-| [bbugyi200.athena.sase-177.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.4/README.md) | [sase-177.4](sase-177.4.md) | 0 |
+| [bbugyi200.athena.sase-177.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.4/README.md) | [sase-177.4](sase-177.4.md) | 1 |
 | [bbugyi200.athena.sase-177.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.land/README.md) | [sase-177](README.md) | 0 |
 
 ## Commits
@@ -52,3 +52,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`a0368d5`](https://github.com/sase-org/sase/commit/a0368d54f1fb99e55bb261b785b67751777544a8) | feat(llm-provider): capture Muse shell tool calls and map timeout outcomes to failure | [sase-177.3](sase-177.3.md) | 2026-09-23 18:07:45 EDT |
 | sase | [`28b3c1b`](https://github.com/sase-org/sase/commit/28b3c1bab27cdbbc6f1ea99c4f5afbebcbd003a4) | feat(muse): run synchronously behind muse\_synchronous\_shell sunset flag | [sase-177.1](sase-177.1.md) | 2026-09-23 18:09:21 EDT |
+| sase | [`7c41709`](https://github.com/sase-org/sase/commit/7c41709a7c2925af3845dd61e47d5660208d02a1) | docs(sase-177.4): up-front monitor routing in skills, memory, and decision text | [sase-177.4](sase-177.4.md) | 2026-09-23 18:38:54 EDT |

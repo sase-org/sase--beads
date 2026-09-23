@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-177](README.md) / sase-177.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qc--1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qc.md) · **Assignee:** `sase-177.4` · **Size:** medium
-**Created:** 2026-09-23 17:47:11 EDT
+**Created:** 2026-09-23 17:47:11 EDT · **Closed:** 2026-09-23 18:37:25 EDT
 **Plan:** [202609/muse\_single\_turn\_normalization.md](https://github.com/sase-org/sase--plans/blob/main/202609/muse_single_turn_normalization.md)
 
 ## Description
@@ -23,8 +23,16 @@ wait-guidance: rewrite sase_monitor and sase_final skill sources, the core-memor
 
 [2026-09-23T21:56:08Z · sase-177.4] PROPOSED FOLLOW-UP: Per-invocation run.toolset allowlist for Muse remaining async tools (workflow, cron_*, subagent_*, snooze_reminder) only if telemetry shows wait usage
 
+[2026-09-23T22:37:25Z · sase-177.4] wait-guidance done: rewrote sase_monitor (Decide Before You Start) and sase_final (never-wait declaration plus prepared-completion recipe) skill sources, the core-memory Final Declaration template plus its test markers, and lint_and_test.md with up-front routing plus known-long commands and the sase-16q fix; added adapters-normalize-harnesses decision record; regenerated memory with workspace venv sase and ran just fmt. Verified: 65 affected-area tests pass; full sase tool run check gave 45904 passed with 3 failures that fail identically on the clean tree (pre-existing TUI/import-budget issues, unrelated). 5 follow-ups recorded as PROPOSED FOLLOW-UP notes; no epic-symbol leftovers.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-177.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.4/README.md) | [sase-177.4](sase-177.4.md) | 0 |
+| [bbugyi200.athena.sase-177.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-177.4/README.md) | [sase-177.4](sase-177.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7c41709`](https://github.com/sase-org/sase/commit/7c41709a7c2925af3845dd61e47d5660208d02a1) | docs(sase-177.4): up-front monitor routing in skills, memory, and decision text | [sase-177.4](sase-177.4.md) | 2026-09-23 18:38:54 EDT |
