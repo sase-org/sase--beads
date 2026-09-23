@@ -19,6 +19,8 @@ Periodic usage-window collection runs inside the scheduler service tree (a dedic
 
 [2026-09-23T20:29:35Z · sase-16z.land] LAND PROGRESS (sase-16z.land, master 1d04946e4, sase-core pin fb1ca29): VERIFIED all 8 phases against the plan and code. Commits: sase caca6b60f ed8172fda fcce8f2f3 5e50d27f5 a6e27583c 1f7530272; sase-core 44dbc91 and cfe1902, both marked feat!, which settles the sase-16z.1 breaking-marker note. The pin includes both. Core attempt/admission policy, probe robustness, classifier plumbing, floors/fingerprints, the inline usage routine, hot cadence, and the capability cache are implemented and tested. INTEGRATION: reviewed the 17 non-epic commits since caca6b60f; none conflicts with or duplicates this epic. The agent-CLI install flow (bc128b655, 02cd6b69e) needs nothing extra, because a new CLI binary changes the fingerprint, which unparks the provider and misses the capability cache. f4d70c452's top-bar cluster is presentation-only. REMAINING EPIC WORK, planned as a child epic with parent_bead sase-16z: (1) three epic symvision failures (resolve_provider_cli_command, capability_cache_dir, invalidate_probe_capability); (2) agy/grok capability cache never hits in production (bare command name gives a None fingerprint); (3) JSON-line transport failures skip detect_rate_limit (codex/grok/muse); (4) a bare 429 pattern matches decimals; (5) the stale test_chop_emits_nothing_due_summary runs real CLIs and fails; (6) the inline crash path overwrites providers that already succeeded; (7) the Models panel ends tracking early on a failed reservation read; (8) dead code, stale comments, a stale test name, and the axe.md opt-out key; (9) the header indicator ignores polling floors (core indicator.rs recomputes freshness with the bare cadence), which leaves plan decision 3 and adaptive-admission item 6 unmet. That needs a sase-core change, then a pin move. FOLLOW-UPS: sase-16z.2 fleet gateway flake is a +1 on duplicate sase-15g. mark_all_message symvision (from sase-171.3, proposed by sase-16z.7) is a DISCOVERED ISSUE note on active epic sase-171. DECLINED as already resolved at HEAD: ClanSummaryDigest (sase-16z.4, sase-16z.6), MemberJumpSection (sase-16z.6), stale sase-16y MemberJumpSection epic symbol (sase-16z.8). resolve_provider_cli_command (sase-16z.6) and the capability-cache symbols plus the chop test (sase-16z.7) are epic-caused and in the child plan. epic-symbols for sase-16z: none.
 
+[2026-09-23T20:56:48Z · sase-171.land] DISCOVERED ISSUE (sase-171.land) at master 983965361: (1) symvision's current form is 'Unused public functions/classes: capability_cache_dir, invalidate_probe_capability in llm_provider/usage/_capability_cache.py; resolve_provider_cli_command in llm_provider/usage/_probe_meta.py' (the _probe_meta symbol is now public but still unconsumed); this is the only symvision failure left on master, so it alone keeps every agent's just check red. (2) tests/llm_provider/test_usage_refresh_runner.py::test_chop_emits_nothing_due_summary fails deterministically on a pristine tree: expected 'reason=nothing_due' but got 'usage_refresh: providers=3 succeeded=0 failed=1 deferred=0 claude=unsupported codex=error grok=unsupported' — the chop now probes real host provider CLIs inline (a6e27583c, sase-16z.6 'dedicated usage scheduler routine that probes inline'), so the test's nothing-due setup no longer holds.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,7 +48,7 @@ flowchart TD
     n7["sase-16z.7: Hot cadence for providers in active use [closed]"]
     n8["sase-16z.8: CLI capability cache for usage probes [closed]"]
     n9["sase-16z.9: Finish usage-window collection landing fixes and floor-aware header freshness [in_progress]"]
-    n10["sase-16z.9.1: Fix sase-16z landing defects in sase [in_progress]"]
+    n10["sase-16z.9.1: Fix sase-16z landing defects in sase [closed]"]
     n11["sase-16z.9.2: sase-core: per-provider polling floors in the usage indicator projection [closed]"]
     n12["sase-16z.9.3: Floor-aware freshness for the TUI header usage indicator [in_progress]"]
     n0 --> n1
@@ -85,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16z.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.6/README.md) | [sase-16z.6](sase-16z.6.md) | 1 |
 | [bbugyi200.athena.sase-16z.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.7/README.md) | [sase-16z.7](sase-16z.7.md) | 1 |
 | [bbugyi200.athena.sase-16z.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.8/README.md) | [sase-16z.8](sase-16z.8.md) | 1 |
-| [bbugyi200.athena.sase-16z.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.1/README.md) | [sase-16z.9.1](sase-16z.9.1.md) | 0 |
+| [bbugyi200.athena.sase-16z.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.1/README.md) | [sase-16z.9.1](sase-16z.9.1.md) | 1 |
 | [bbugyi200.athena.sase-16z.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.2/README.md) | [sase-16z.9.2](sase-16z.9.2.md) | 1 |
 | [bbugyi200.athena.sase-16z.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.3/README.md) | [sase-16z.9.3](sase-16z.9.3.md) | 0 |
 | [bbugyi200.athena.sase-16z.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.land/README.md) | [sase-16z.9](sase-16z.9.md) | 0 |
@@ -104,6 +106,7 @@ flowchart TD
 | sase | [`a6e2758`](https://github.com/sase-org/sase/commit/a6e27583c848ef087636e9f4fca1f2bd027c6bda) | feat(llm-provider): dedicated usage scheduler routine that probes inline | [sase-16z.6](sase-16z.6.md) | 2026-09-23 15:15:21 EDT |
 | sase | [`1f75302`](https://github.com/sase-org/sase/commit/1f753027252a7ed5332871f8430d86693c30f5e8) | feat(llm-provider): hot cadence for providers in active use | [sase-16z.7](sase-16z.7.md) | 2026-09-23 15:47:27 EDT |
 | sase-core | [`sase-core@1a2a752`](https://github.com/sase-org/sase-core/commit/1a2a752ff499015642215888ecf3b11f2c1c0c34) | feat(provider-usage): support per-provider minimum freshness floor in usage indicator projection | [sase-16z.9.2](sase-16z.9.2.md) | 2026-09-23 16:48:12 EDT |
+| sase | [`4b9da7a`](https://github.com/sase-org/sase/commit/4b9da7a334065f6fb1bb138056890c407a9c5f1e) | fix(sase-16z.9.1): land nine review fixes for usage probes and models panel | [sase-16z.9.1](sase-16z.9.1.md) | 2026-09-23 17:11:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -113,8 +116,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16z.2][1] | Need parent epic scope for phase 16z.2 | 1 |
 | read-by | [agent:sase-170.land][2] | Check whether the active llm-provider epic owns the _probe_meta symvision failure blocking just check | 1 |
+| read-by | [agent:sase-171.land][3] | Need the epic scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.land/README.md
 
 <!-- sase:referenced-by:end -->

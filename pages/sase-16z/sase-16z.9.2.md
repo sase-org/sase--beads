@@ -30,3 +30,15 @@ core-indicator-floors: in the linked sase-core repo, add an optional serde-defau
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1a2a752`](https://github.com/sase-org/sase-core/commit/1a2a752ff499015642215888ecf3b11f2c1c0c34) | feat(provider-usage): support per-provider minimum freshness floor in usage indicator projection | [sase-16z.9.2](sase-16z.9.2.md) | 2026-09-23 16:48:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.9.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.9.2/README.md
+
+<!-- sase:referenced-by:end -->
