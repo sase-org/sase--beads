@@ -20,7 +20,7 @@ flat-panes: add hood/family context queries for the Artifacts Agent pane and cre
 ## Dependencies
 
 - **Depends on:** [sase-16t.4](sase-16t.4.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16t.8](sase-16t.8.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16t.8](sase-16t.8.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

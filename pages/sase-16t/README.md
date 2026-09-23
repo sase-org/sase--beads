@@ -22,7 +22,7 @@ Following any artifact link (the `$` link rail, the `$0` Links panel, relation j
 | [sase-16t.5](sase-16t.5.md) | Agent and File context queries plus Agents-tab reveal | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16t.6](sase-16t.6.md) | Stitch, Plan/provider, and Patch context queries | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16t.7](sase-16t.7.md) | The reveal toast, lens chip, and user docs | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-16t.8](sase-16t.8.md) | One engine for every jump, plus the end-to-end matrix | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16t.8](sase-16t.8.md) | One engine for every jump, plus the end-to-end matrix | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-16t.5: Agent and File context queries plus Agents-tab reveal [closed]"]
     n6["sase-16t.6: Stitch, Plan/provider, and Patch context queries [closed]"]
     n7["sase-16t.7: The reveal toast, lens chip, and user docs [closed]"]
-    n8["sase-16t.8: One engine for every jump, plus the end-to-end matrix [in_progress]"]
+    n8["sase-16t.8: One engine for every jump, plus the end-to-end matrix [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16t.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.5/README.md) | [sase-16t.5](sase-16t.5.md) | 1 |
 | [bbugyi200.athena.sase-16t.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.6/README.md) | [sase-16t.6](sase-16t.6.md) | 1 |
 | [bbugyi200.athena.sase-16t.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.7/README.md) | [sase-16t.7](sase-16t.7.md) | 1 |
-| [bbugyi200.athena.sase-16t.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.8/README.md) | [sase-16t.8](sase-16t.8.md) | 0 |
+| [bbugyi200.athena.sase-16t.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.8/README.md) | [sase-16t.8](sase-16t.8.md) | 1 |
 | [bbugyi200.athena.sase-16t.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.land/README.md) | [sase-16t](README.md) | 0 |
 
 ## Commits
@@ -81,6 +81,7 @@ flowchart TD
 | sase | [`e25372a`](https://github.com/sase-org/sase/commit/e25372a64a856b692329c9ad57f935a945f58ad2) | feat(ace): reveal toast, lens chip label, and Link Jumps docs | [sase-16t.7](sase-16t.7.md) | 2026-09-23 12:21:01 EDT |
 | sase | [`60b236b`](https://github.com/sase-org/sase/commit/60b236b5b3d5ed591d986410da68cc6351ffc4ac) | feat(ace): agent and file context queries plus Agents-tab reveal | [sase-16t.5](sase-16t.5.md) | 2026-09-23 12:26:21 EDT |
 | sase | [`a74e98c`](https://github.com/sase-org/sase/commit/a74e98cfb769e215d32ee5ed915d2683e5b59228) | feat(ace): bounded-panes acquire-then-reveal for Stitch, Plan/provider, and Patch jumps | [sase-16t.6](sase-16t.6.md) | 2026-09-23 13:28:34 EDT |
+| sase | [`e3c2a77`](https://github.com/sase-org/sase/commit/e3c2a7788b83873dc1cdf5e8ca4da5bb381a7b04) | feat(ace): one engine for every jump, plus the end-to-end matrix | [sase-16t.8](sase-16t.8.md) | 2026-09-23 13:58:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
