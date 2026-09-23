@@ -59,7 +59,9 @@ Other discoveries, not caused by this epic:
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16n.11.5][1] | parent epic context | 1 |
+| read-by | [agent:sase-16n.11.7.land][2] | Parent plan bead: review descendants, notes, and linked plan for close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.11.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.2/README.md) | [sase-16n.11.7.2](sase-16n.11.7.2.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.3/README.md) | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.4/README.md) | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 1 |
-| [bbugyi200.athena.sase-16n.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md) | [sase-16n.11.7](sase-16n.11.7.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md) | [sase-16n.11.7](sase-16n.11.7.md) | 2 |
 | [bbugyi200.athena.sase-16n.11.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.land.md) | [sase-16n.11](sase-16n.11.md) | 0 |
 | [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 2 |
 | [bbugyi200.athena.sase-16n.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.3/README.md) | [sase-16n.3](sase-16n.3.md) | 1 |
@@ -160,6 +160,7 @@ flowchart TD
 | sase | [`1230ed8`](https://github.com/sase-org/sase/commit/1230ed8da198e5952221819caf5e7962f9dec37c) | feat(scope): describe the completed work | [sase-16n.11.7.3](sase-16n.11.7.3.md) | 2026-09-23 15:00:32 EDT |
 | sase | [`00badb8`](https://github.com/sase-org/sase/commit/00badb84eed26e296bdad946b471ecda2e53892f) | feat(tui-tags): warm rebuild of tag surfaces, pager accents, tribe PROMPTS chip | [sase-16n.11.7.4](sase-16n.11.7.4.md) | 2026-09-23 15:20:46 EDT |
 | sase | [`f456a8b`](https://github.com/sase-org/sase/commit/f456a8b3b11758abe409287c39dd7c6a6bc22362) | test(project-tags): pin tag catalog for bead launch tests and sync completion spec | [sase-16n.11.7](sase-16n.11.7.md) | 2026-09-23 15:42:39 EDT |
+| sase--plans | [`sase--plans@0161b8a`](https://github.com/sase-org/sase--plans/commit/0161b8a263ca8cd8bdcca386641e2e3ed302d20e) | chore(plans): mark project tag plans done | [sase-16n.11.7](sase-16n.11.7.md) | 2026-09-23 15:46:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -168,11 +169,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-16n.1][1] | Need parent epic status for phase work | 1 |
-| read-by | [agent:sase-16n.7][2] | epic scope | 1 |
-| read-by | [agent:sase-16y.land][3] | Project tags epic state | 1 |
+| read-by | [agent:sase-16n.11.7.land][2] | Check descendants after sase-16n.11 closed | 2 |
+| read-by | [agent:sase-16n.7][3] | epic scope | 1 |
+| read-by | [agent:sase-16y.land][4] | Project tags epic state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.7.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md
 
 <!-- sase:referenced-by:end -->
