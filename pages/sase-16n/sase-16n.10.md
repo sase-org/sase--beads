@@ -27,10 +27,11 @@ docs-memory: docs and CLI help move to +<project>; fix the sase_run skill exampl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.10/README.md) | [sase-16n.10](sase-16n.10.md) | 1 |
+| [bbugyi200.athena.sase-16n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.10/README.md) | [sase-16n.10](sase-16n.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9f9c2b7`](https://github.com/sase-org/sase/commit/9f9c2b702733359d4af16f4fdb662df50f9ebdb1) | docs(project-tags): present +\<project\> tags as the default project spelling | [sase-16n.10](sase-16n.10.md) | 2026-09-23 08:10:00 EDT |
+| chezmoi | [`chezmoi@996c65b`](https://github.com/bbugyi200/dotfiles/commit/996c65b04738ae934b1a67e14011167232021337) | chore(xprompts): drop redundant gh\_dotfiles and gh\_sase shortcuts | [sase-16n.10](sase-16n.10.md) | 2026-09-23 08:11:34 EDT |
