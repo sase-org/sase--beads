@@ -19,4 +19,4 @@ probe-robustness: fix the runner's batch-deadline double-record, the probe TypeE
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.3/README.md) | [sase-16z.3](sase-16z.3.md) | 0 |
+| [bbugyi200.athena.sase-16z.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16z.3.md) | [sase-16z.3](sase-16z.3.md) | 0 |

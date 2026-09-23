@@ -13,7 +13,7 @@ adaptive-admission: move the core pin, let plugins declare `min_probe_interval_s
 
 ## Dependencies
 
-- **Depends on:** [sase-16z.2](sase-16z.2.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16z.2](sase-16z.2.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-16z.4](sase-16z.4.md) ◐ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.6](sase-16z.6.md) ◐ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.8](sase-16z.8.md) ◐ · ⧖ 2026-09-23

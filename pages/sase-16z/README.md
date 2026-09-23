@@ -16,7 +16,7 @@ Periodic usage-window collection runs inside the scheduler service tree (a dedic
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-16z.1](sase-16z.1.md) | sase-core: reason-aware attempt recording and rate-limit policy | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-16z.2](sase-16z.2.md) | sase-core: floors, jitter, parking, hot cadence, and reservation reads in admission | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16z.2](sase-16z.2.md) | sase-core: floors, jitter, parking, hot cadence, and reservation reads in admission | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16z.3](sase-16z.3.md) | Probe and runner robustness fixes | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16z.4](sase-16z.4.md) | Rate-limit classification and reason-aware attempt plumbing | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16z.5](sase-16z.5.md) | Plugin polling floors, CLI fingerprints, and limit events that only mark due | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
@@ -30,7 +30,7 @@ Periodic usage-window collection runs inside the scheduler service tree (a dedic
 flowchart TD
     n0["sase-16z: Service-tree usage-window collection with adaptive, provider-safe refresh [in_progress]"]
     n1["sase-16z.1: sase-core: reason-aware attempt recording and rate-limit policy [closed]"]
-    n2["sase-16z.2: sase-core: floors, jitter, parking, hot cadence, and reservation reads in admission [in_progress]"]
+    n2["sase-16z.2: sase-core: floors, jitter, parking, hot cadence, and reservation reads in admission [closed]"]
     n3["sase-16z.3: Probe and runner robustness fixes [in_progress]"]
     n4["sase-16z.4: Rate-limit classification and reason-aware attempt plumbing [in_progress]"]
     n5["sase-16z.5: Plugin polling floors, CLI fingerprints, and limit events that only mark due [in_progress]"]
@@ -60,8 +60,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-16z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.1/README.md) | [sase-16z.1](sase-16z.1.md) | 1 |
-| [bbugyi200.athena.sase-16z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.2/README.md) | [sase-16z.2](sase-16z.2.md) | 0 |
-| [bbugyi200.athena.sase-16z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.3/README.md) | [sase-16z.3](sase-16z.3.md) | 0 |
+| [bbugyi200.athena.sase-16z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.2/README.md) | [sase-16z.2](sase-16z.2.md) | 1 |
+| [bbugyi200.athena.sase-16z.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16z.3.md) | [sase-16z.3](sase-16z.3.md) | 0 |
 | [bbugyi200.athena.sase-16z.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.4/README.md) | [sase-16z.4](sase-16z.4.md) | 0 |
 | [bbugyi200.athena.sase-16z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.5/README.md) | [sase-16z.5](sase-16z.5.md) | 0 |
 | [bbugyi200.athena.sase-16z.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.6/README.md) | [sase-16z.6](sase-16z.6.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@44dbc91`](https://github.com/sase-org/sase-core/commit/44dbc91b909c060a5ba5c53329f4891d0204d057) | feat!: reason-aware adaptive refresh-attempt policy for provider usage | [sase-16z.1](sase-16z.1.md) | 2026-09-23 11:42:05 EDT |
+| sase-core | [`sase-core@cfe1902`](https://github.com/sase-org/sase-core/commit/cfe1902a69919b2860c87bdae8b15b52c99d49ca) | feat!: adaptive admission policy for provider usage | [sase-16z.2](sase-16z.2.md) | 2026-09-23 12:37:06 EDT |

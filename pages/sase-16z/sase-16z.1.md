@@ -17,7 +17,7 @@ core-attempt-policy: in the linked sase-core repo, add the `rate_limited` reason
 
 ## Dependencies
 
-- **Blocks:** [sase-16z.2](sase-16z.2.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.2](sase-16z.2.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.4](sase-16z.4.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
@@ -31,3 +31,15 @@ core-attempt-policy: in the linked sase-core repo, add the `rate_limited` reason
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@44dbc91`](https://github.com/sase-org/sase-core/commit/44dbc91b909c060a5ba5c53329f4891d0204d057) | feat!: reason-aware adaptive refresh-attempt policy for provider usage | [sase-16z.1](sase-16z.1.md) | 2026-09-23 11:42:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.1/README.md
+
+<!-- sase:referenced-by:end -->
