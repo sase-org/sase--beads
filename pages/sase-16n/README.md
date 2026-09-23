@@ -11,12 +11,16 @@
 
 Prompts name their project with a `+<project>` project tag by default. SASE resolves the tag to the project's VCS type and runs the same `#gh:`/`#git:` workflow as before. Every completion surface (TUI, LSP/Neovim, shell) inserts tags. Every surface that shows raw prompts renders tags in the project's accent color. Project names are enforced unique, case-insensitively, across all VCS types.
 
+## Notes
+
+[2026-09-23T12:47:58Z · sase-16n.land] LAND AUDIT #1 (sase-16n.land, master 9f9c2b702): all 10 phases closed and their commits present (sase dc08f7b21 19895a01b ec5b91d8d eea59a651 3bf3b998a 9f9c2b702; sase-core 096d42a 3120739 3da8a03; sase-nvim 2e6f1ac; sase-telegram aff9a23; sase-github fd5b7bd 204ffd0; chezmoi 996c65b0, generated SKILL copies refreshed by 7438df3e). Post-epic refactors cfac28d15 (launch_cwd split: tag guard now guard_project_tags_for_launch_units in launch_cwd_guards.py, still called pre-spawn), 352eba6af (clan split: tag highlighting preserved), d6a1cf1d3, d4d36adcb and 607a7a654 dropped nothing. Focused suites green except 2 epic-caused failures. REMAINING EPIC WORK found (planned as a child epic): prompt-history label tests red since 3bf3b998a; +home fails on a fresh machine (catalog lacks home before its spec exists) while docs present it as the first-run example; project_tag_for tags unknown names; CLI surfaces never warm the catalog so they never tagify; TUI warms the catalog only on prompt-bar mount and never re-highlights the editor; the metadata pager loses Markdown highlighting when a tag is present; MRU label shows +sase; stale current badge in completion cache; doctor misses key-case collisions; core accept only removes line-start refs; LSP accept ignores disabled/home targets; no disabled diagnostic, and hover lacks state/workspace_dir (16n.4#1); rewrite-to-tag emits invalid tags; duplicate suggestions; no tag PNG goldens (16n.6#1); nvim picker fallback, palette override and dim sigil; docs gaps (editor.md legend, schema gh_sase example, xprompt.md:418). FOLLOW-UP OUTCOMES: symvision delete_paths_in_background (16n.2#1, 16n.3#1, 16n.5#1, 16n.6#2, 16n.7#1-2) is a duplicate of sase-16l, now fixed at HEAD by c87c9d1aa (noted on sase-16l); the artifact-directory audit test in 16n.2#1 passes at HEAD, so it was declined as resolved. 16n.4#1 and 16n.6#1 are epic-caused and go into the child plan. 16n.9#1: shell-backed gate test filed as new task sase-16v; receiver generation test +1 on sase-156. 16n.9#2: sase-github PyPI venv +1 on sase-16p. Newly found, not epic-caused: symvision ExpandedLaunchSegments (cfac28d15) filed as new task sase-16u.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-16n.1](sase-16n.1.md) | sase-core project tag lexer, resolver, expander, and bindings | ✓ closed | medium | 2026-09-22 | 1 | 1 |
-| [sase-16n.10](sase-16n.10.md) | Docs, skills, memory, config, and machine verification | ✓ closed | medium | 2026-09-22 | 1 | 2 |
+| [sase-16n.10](sase-16n.10.md) | Docs, skills, memory, config, and machine verification | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16n.2](sase-16n.2.md) | Case-insensitive project name uniqueness across VCS types | ✓ closed | small | 2026-09-22 | 1 | 2 |
 | [sase-16n.3](sase-16n.3.md) | Python project tag backend and launch integration | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-16n.4](sase-16n.4.md) | sase-xprompt-lsp project tag support | ✓ closed | medium | 2026-09-22 | 1 | 1 |
@@ -33,38 +37,60 @@ flowchart TD
     n0["sase-16n: Xprompt project tags (+sase) [in_progress]"]
     n1["sase-16n.1: sase-core project tag lexer, resolver, expander, and bindings [closed]"]
     n2["sase-16n.10: Docs, skills, memory, config, and machine verification [closed]"]
-    n3["sase-16n.2: Case-insensitive project name uniqueness across VCS types [closed]"]
-    n4["sase-16n.3: Python project tag backend and launch integration [closed]"]
-    n5["sase-16n.4: sase-xprompt-lsp project tag support [closed]"]
-    n6["sase-16n.5: TUI prompt editor completion and tag defaults [closed]"]
-    n7["sase-16n.6: Tag rendering in the agent panel and prompt editor [closed]"]
-    n8["sase-16n.7: Accent-colored tags on every remaining raw-prompt surface [closed]"]
-    n9["sase-16n.8: sase-nvim project tag highlighting and picker [closed]"]
-    n10["sase-16n.9: sase-telegram and sase-github tag adoption [closed]"]
+    n3["sase-16n.11: Close project tag (+sase) landing gaps [in_progress]"]
+    n4["sase-16n.11.1: sase-core accept parity, target wire fields, and LSP tag fixes [closed]"]
+    n5["sase-16n.11.2: Python project tag backend fixes and missing launch tests [in_progress]"]
+    n6["sase-16n.11.3: CLI and cold-TUI tag rendering, pager, MRU label, and red tests [in_progress]"]
+    n7["sase-16n.11.4: Deterministic tag PNG golden coverage [in_progress]"]
+    n8["sase-16n.11.5: sase-nvim picker fallback, palette overrides, and dim sigil [in_progress]"]
+    n9["sase-16n.11.6: Project tag docs accuracy pass [in_progress]"]
+    n10["sase-16n.2: Case-insensitive project name uniqueness across VCS types [closed]"]
+    n11["sase-16n.3: Python project tag backend and launch integration [closed]"]
+    n12["sase-16n.4: sase-xprompt-lsp project tag support [closed]"]
+    n13["sase-16n.5: TUI prompt editor completion and tag defaults [closed]"]
+    n14["sase-16n.6: Tag rendering in the agent panel and prompt editor [closed]"]
+    n15["sase-16n.7: Accent-colored tags on every remaining raw-prompt surface [closed]"]
+    n16["sase-16n.8: sase-nvim project tag highlighting and picker [closed]"]
+    n17["sase-16n.9: sase-telegram and sase-github tag adoption [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
+    n3 --> n9
     n0 --> n10
-    n1 -.-> n4
-    n1 -.-> n5
-    n3 -.-> n2
-    n3 -.-> n4
-    n4 -.-> n6
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n1 -.-> n11
+    n1 -.-> n12
+    n4 -.-> n5
+    n4 -.-> n8
     n4 -.-> n9
+    n5 -.-> n6
     n5 -.-> n9
-    n6 -.-> n2
     n6 -.-> n7
-    n7 -.-> n8
-    n7 -.-> n10
-    n8 -.-> n2
-    n9 -.-> n2
+    n6 -.-> n9
+    n8 -.-> n9
     n10 -.-> n2
+    n10 -.-> n11
+    n11 -.-> n13
+    n11 -.-> n16
+    n12 -.-> n16
+    n13 -.-> n2
+    n13 -.-> n14
+    n14 -.-> n15
+    n14 -.-> n17
+    n15 -.-> n2
+    n16 -.-> n2
+    n17 -.-> n2
 ```
 
 ## Agents
@@ -72,7 +98,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-16n.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.1/README.md) | [sase-16n.1](sase-16n.1.md) | 1 |
-| [bbugyi200.athena.sase-16n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.10/README.md) | [sase-16n.10](sase-16n.10.md) | 2 |
+| [bbugyi200.athena.sase-16n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.10/README.md) | [sase-16n.10](sase-16n.10.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.1/README.md) | [sase-16n.11.1](sase-16n.11.1.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.2/README.md) | [sase-16n.11.2](sase-16n.11.2.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.3/README.md) | [sase-16n.11.3](sase-16n.11.3.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.4/README.md) | [sase-16n.11.4](sase-16n.11.4.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md) | [sase-16n.11.5](sase-16n.11.5.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.land/README.md) | [sase-16n.11](sase-16n.11.md) | 0 |
 | [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 2 |
 | [bbugyi200.athena.sase-16n.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.3/README.md) | [sase-16n.3](sase-16n.3.md) | 1 |
 | [bbugyi200.athena.sase-16n.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.4/README.md) | [sase-16n.4](sase-16n.4.md) | 1 |
@@ -81,7 +114,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.7/README.md) | [sase-16n.7](sase-16n.7.md) | 1 |
 | [bbugyi200.athena.sase-16n.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.8/README.md) | [sase-16n.8](sase-16n.8.md) | 0 |
 | [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 0 |
-| [bbugyi200.athena.sase-16n.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.land/README.md) | [sase-16n](README.md) | 0 |
+| [bbugyi200.athena.sase-16n.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.land.md) | [sase-16n](README.md) | 0 |
 
 ## Commits
 
@@ -96,7 +129,7 @@ flowchart TD
 | sase | [`eea59a6`](https://github.com/sase-org/sase/commit/eea59a65147a1dcd2d3ae7d91e818e3c463227ec) | feat(xprompt): render project tags in agent panel and prompt editor | [sase-16n.6](sase-16n.6.md) | 2026-09-22 22:43:45 EDT |
 | sase | [`3bf3b99`](https://github.com/sase-org/sase/commit/3bf3b998abad35250e7a71de91e44780f2a517b5) | feat(project-tags): accent-colored project tags on raw-prompt surfaces | [sase-16n.7](sase-16n.7.md) | 2026-09-23 07:31:56 EDT |
 | sase | [`9f9c2b7`](https://github.com/sase-org/sase/commit/9f9c2b702733359d4af16f4fdb662df50f9ebdb1) | docs(project-tags): present +\<project\> tags as the default project spelling | [sase-16n.10](sase-16n.10.md) | 2026-09-23 08:10:00 EDT |
-| chezmoi | [`chezmoi@996c65b`](https://github.com/bbugyi200/dotfiles/commit/996c65b04738ae934b1a67e14011167232021337) | chore(xprompts): drop redundant gh\_dotfiles and gh\_sase shortcuts | [sase-16n.10](sase-16n.10.md) | 2026-09-23 08:11:34 EDT |
+| sase-core | [`sase-core@4300166`](https://github.com/sase-org/sase-core/commit/430016645d10590c75bff39fdbfc62cc89177fcd) | fix(core): project-tag core fixes for bead sase-16n.11.1 | [sase-16n.11.1](sase-16n.11.1.md) | 2026-09-23 09:19:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
