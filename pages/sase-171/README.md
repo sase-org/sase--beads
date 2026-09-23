@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-171.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.1/README.md) | [sase-171.1](sase-171.1.md) | 1 |
 | [bbugyi200.athena.sase-171.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.2/README.md) | [sase-171.2](sase-171.2.md) | 1 |
 | [bbugyi200.athena.sase-171.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.3/README.md) | [sase-171.3](sase-171.3.md) | 1 |
-| [bbugyi200.athena.sase-171.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.land/README.md) | [sase-171](README.md) | 1 |
+| [bbugyi200.athena.sase-171.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.land/README.md) | [sase-171](README.md) | 2 |
 
 ## Commits
 
@@ -96,6 +96,7 @@ flowchart TD
 | sase | [`02cd6b6`](https://github.com/sase-org/sase/commit/02cd6b69ee2b587e118482877d6719bebb8eda31) | feat(ace): implement Updates-tab agent-CLI install flow | [sase-171.2](sase-171.2.md) | 2026-09-23 14:28:37 EDT |
 | sase | [`2f89266`](https://github.com/sase-org/sase/commit/2f892663858debbb0bc0b6befd62ddc11f6cb918) | feat(plugins-browser): add Available scope, mark-all toggle, and cross-scope filter hint | [sase-171.3](sase-171.3.md) | 2026-09-23 15:20:50 EDT |
 | sase | [`ba75329`](https://github.com/sase-org/sase/commit/ba7532980ba14fec0f47867e19110e3288e74b59) | fix(plugins-browser): land sase-171 agent-CLI install epic | [sase-171](README.md) | 2026-09-23 17:04:16 EDT |
+| sase--plans | [`sase--plans@0e31d19`](https://github.com/sase-org/sase--plans/commit/0e31d197d178177ea0cccdbc849150fc4d404e39) | chore(plans): mark updates\_tab\_agent\_cli\_install plan done | [sase-171](README.md) | 2026-09-23 17:08:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -104,7 +105,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-170.land][1] | Check whether the active agent-CLI install epic already records the toobig violation from sase-171.2 blocking just check | 3 |
+| read-by | [agent:sase-171.land][2] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-170.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.land/README.md
 
 <!-- sase:referenced-by:end -->

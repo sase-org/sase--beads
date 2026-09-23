@@ -40,7 +40,9 @@ discover-bulk: add the Available scope, the `*` mark-all-like-this key, a cross-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-171.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-171.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.land/README.md
 
 <!-- sase:referenced-by:end -->
