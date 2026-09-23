@@ -33,3 +33,15 @@ flat-panes: add hood/family context queries for the Artifacts Agent pane and cre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`60b236b`](https://github.com/sase-org/sase/commit/60b236b5b3d5ed591d986410da68cc6351ffc4ac) | feat(ace): agent and file context queries plus Agents-tab reveal | [sase-16t.5](sase-16t.5.md) | 2026-09-23 12:26:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16t.5][1] | check close status for finalizer | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.5/README.md
+
+<!-- sase:referenced-by:end -->
