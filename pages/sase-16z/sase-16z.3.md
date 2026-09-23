@@ -17,7 +17,7 @@ probe-robustness: fix the runner's batch-deadline double-record, the probe TypeE
 
 ## Dependencies
 
-- **Blocks:** [sase-16z.4](sase-16z.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.4](sase-16z.4.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -30,3 +30,15 @@ probe-robustness: fix the runner's batch-deadline double-record, the probe TypeE
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`caca6b6`](https://github.com/sase-org/sase/commit/caca6b60f9a2263ea29073be42fee94c1b88c52f) | fix(llm-provider): harden usage probe and refresh-runner robustness | [sase-16z.3](sase-16z.3.md) | 2026-09-23 13:18:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.3--4][1] | Check whether phase close completed | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16z.3.md
+
+<!-- sase:referenced-by:end -->

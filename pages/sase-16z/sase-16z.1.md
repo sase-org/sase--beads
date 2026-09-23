@@ -18,7 +18,7 @@ core-attempt-policy: in the linked sase-core repo, add the `rate_limited` reason
 ## Dependencies
 
 - **Blocks:** [sase-16z.2](sase-16z.2.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16z.4](sase-16z.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.4](sase-16z.4.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
