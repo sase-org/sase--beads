@@ -36,3 +36,15 @@ tag-goldens: pin a fixture tag catalog in the visual harness, add prompt-highlig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`848a90a`](https://github.com/sase-org/sase/commit/848a90a1ba6550faca8c29b8d9dcde81d4decb65) | fix(ace-tui): pin project-tag catalog in PNG snapshot fixtures | [sase-16n.11.4](sase-16n.11.4.md) | 2026-09-23 13:31:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.11.4--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.4.md
+
+<!-- sase:referenced-by:end -->
