@@ -21,7 +21,7 @@ tag-display: the humanizer renders project refs as tags; the shared tokenizer em
 
 - **Depends on:** [sase-16n.5](sase-16n.5.md) ✓ · ⧖ 2026-09-22
 - **Blocks:** [sase-16n.7](sase-16n.7.md) ✓ · ⧖ 2026-09-22
-- **Blocks:** [sase-16n.9](sase-16n.9.md) ◐ · ⧖ 2026-09-22
+- **Blocks:** [sase-16n.9](sase-16n.9.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 
