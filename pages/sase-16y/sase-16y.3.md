@@ -14,7 +14,7 @@ panel: add the AgentJumpPanel widget as the last child of the detail column, wir
 ## Dependencies
 
 - **Depends on:** [sase-16y.1](sase-16y.1.md) ✓ · ⧖ 2026-09-23
-- **Depends on:** [sase-16y.2](sase-16y.2.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16y.2](sase-16y.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
