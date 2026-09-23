@@ -13,7 +13,7 @@ tag-goldens: pin a fixture tag catalog in the visual harness, add prompt-highlig
 
 ## Dependencies
 
-- **Depends on:** [sase-16n.11.3](sase-16n.11.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16n.11.3](sase-16n.11.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

@@ -39,8 +39,8 @@ flowchart TD
     n2["sase-16n.10: Docs, skills, memory, config, and machine verification [closed]"]
     n3["sase-16n.11: Close project tag (+sase) landing gaps [in_progress]"]
     n4["sase-16n.11.1: sase-core accept parity, target wire fields, and LSP tag fixes [closed]"]
-    n5["sase-16n.11.2: Python project tag backend fixes and missing launch tests [in_progress]"]
-    n6["sase-16n.11.3: CLI and cold-TUI tag rendering, pager, MRU label, and red tests [in_progress]"]
+    n5["sase-16n.11.2: Python project tag backend fixes and missing launch tests [closed]"]
+    n6["sase-16n.11.3: CLI and cold-TUI tag rendering, pager, MRU label, and red tests [closed]"]
     n7["sase-16n.11.4: Deterministic tag PNG golden coverage [in_progress]"]
     n8["sase-16n.11.5: sase-nvim picker fallback, palette overrides, and dim sigil [closed]"]
     n9["sase-16n.11.6: Project tag docs accuracy pass [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.10/README.md) | [sase-16n.10](sase-16n.10.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.1/README.md) | [sase-16n.11.1](sase-16n.11.1.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.2/README.md) | [sase-16n.11.2](sase-16n.11.2.md) | 1 |
-| [bbugyi200.athena.sase-16n.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.3/README.md) | [sase-16n.11.3](sase-16n.11.3.md) | 0 |
+| [bbugyi200.athena.sase-16n.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.3/README.md) | [sase-16n.11.3](sase-16n.11.3.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.4/README.md) | [sase-16n.11.4](sase-16n.11.4.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md) | [sase-16n.11.5](sase-16n.11.5.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 0 |
@@ -131,6 +131,7 @@ flowchart TD
 | sase | [`9f9c2b7`](https://github.com/sase-org/sase/commit/9f9c2b702733359d4af16f4fdb662df50f9ebdb1) | docs(project-tags): present +\<project\> tags as the default project spelling | [sase-16n.10](sase-16n.10.md) | 2026-09-23 08:10:00 EDT |
 | sase-core | [`sase-core@4300166`](https://github.com/sase-org/sase-core/commit/430016645d10590c75bff39fdbfc62cc89177fcd) | fix(core): project-tag core fixes for bead sase-16n.11.1 | [sase-16n.11.1](sase-16n.11.1.md) | 2026-09-23 09:19:56 EDT |
 | sase | [`394a53b`](https://github.com/sase-org/sase/commit/394a53b6dfc5ee436073203fe71cb958d6b039e4) | feat(project-tags): Python tag backend fixes and step-8 launch tests | [sase-16n.11.2](sase-16n.11.2.md) | 2026-09-23 10:25:14 EDT |
+| sase | [`b924b03`](https://github.com/sase-org/sase/commit/b924b03508978a7f28e50bd517ecca58e499a846) | feat(project-tags): CLI and cold-TUI tag rendering, pager, MRU label, and red tests | [sase-16n.11.3](sase-16n.11.3.md) | 2026-09-23 11:12:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
