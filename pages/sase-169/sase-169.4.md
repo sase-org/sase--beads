@@ -17,8 +17,8 @@ invocation: wait (bounded) for the checkout-local maintenance lock instead of re
 
 ## Dependencies
 
-- **Depends on:** [sase-169.2](sase-169.2.md) ◐ · ⧖ 2026-09-22
-- **Blocks:** [sase-169.5](sase-169.5.md) ◐ · ⧖ 2026-09-22
+- **Depends on:** [sase-169.2](sase-169.2.md) ✓ · ⧖ 2026-09-22
+- **Blocks:** [sase-169.5](sase-169.5.md) ✓ · ⧖ 2026-09-22
 
 ## Agents
 

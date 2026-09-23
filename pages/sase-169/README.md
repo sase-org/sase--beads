@@ -15,22 +15,22 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-169.1](sase-169.1.md) | Stop unmarked tests from blocking full inventories | ◐ in_progress | small | 2026-09-22 | 1 | 1 |
-| [sase-169.2](sase-169.2.md) | Per-node salvage, recovery retries, and partial apply | ◐ in_progress | medium | 2026-09-22 | 1 | 1 |
+| [sase-169.1](sase-169.1.md) | Stop unmarked tests from blocking full inventories | ✓ closed | small | 2026-09-22 | 1 | 1 |
+| [sase-169.2](sase-169.2.md) | Per-node salvage, recovery retries, and partial apply | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-169.3](sase-169.3.md) | Per-golden determinism agreement | ✓ closed | medium | 2026-09-22 | 1 | 1 |
 | [sase-169.4](sase-169.4.md) | Lock waiting and worker-count translation | ✓ closed | small | 2026-09-22 | 1 | 1 |
-| [sase-169.5](sase-169.5.md) | Document the partial-success contract and prove a full run | ◐ in_progress | small | 2026-09-22 | 1 | 0 |
+| [sase-169.5](sase-169.5.md) | Document the partial-success contract and prove a full run | ✓ closed | small | 2026-09-22 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-169: Make fix-tui-screenshots salvage, retry, and warn instead of failing [in_progress]"]
-    n1["sase-169.1: Stop unmarked tests from blocking full inventories [in_progress]"]
-    n2["sase-169.2: Per-node salvage, recovery retries, and partial apply [in_progress]"]
+    n1["sase-169.1: Stop unmarked tests from blocking full inventories [closed]"]
+    n2["sase-169.2: Per-node salvage, recovery retries, and partial apply [closed]"]
     n3["sase-169.3: Per-golden determinism agreement [closed]"]
     n4["sase-169.4: Lock waiting and worker-count translation [closed]"]
-    n5["sase-169.5: Document the partial-success contract and prove a full run [in_progress]"]
+    n5["sase-169.5: Document the partial-success contract and prove a full run [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-169.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-169.2/README.md) | [sase-169.2](sase-169.2.md) | 1 |
 | [bbugyi200.apollo.sase-169.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-169.3.md) | [sase-169.3](sase-169.3.md) | 1 |
 | [bbugyi200.apollo.sase-169.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-169.4/README.md) | [sase-169.4](sase-169.4.md) | 1 |
-| [bbugyi200.apollo.sase-169.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-169.5/README.md) | [sase-169.5](sase-169.5.md) | 0 |
+| [bbugyi200.apollo.sase-169.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.sase-169.5.md) | [sase-169.5](sase-169.5.md) | 1 |
 | [bbugyi200.apollo.sase-169.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-169.land/README.md) | [sase-169](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,4 @@ flowchart TD
 | sase | [`7f01925`](https://github.com/sase-org/sase/commit/7f019258b1bfa1523786632d0f85d2b4bab12cf6) | feat(screenshots): salvage per-node captures with recovery retries and partial apply | [sase-169.2](sase-169.2.md) | 2026-09-22 11:32:01 EDT |
 | sase | [`890058e`](https://github.com/sase-org/sase/commit/890058e80360707212ee0ef5047a99ba0010664e) | feat(visual): wait for maintenance lock and translate -n to SASE\_PYTEST\_WORKERS | [sase-169.4](sase-169.4.md) | 2026-09-22 13:44:24 EDT |
 | sase | [`716291a`](https://github.com/sase-org/sase/commit/716291a9fdb3601c10c9519a77e53b760f2bc1b6) | feat(screenshots): per-golden agreement voting over bounded serial re-verification | [sase-169.3](sase-169.3.md) | 2026-09-22 14:02:26 EDT |
+| sase | [`4be75a3`](https://github.com/sase-org/sase/commit/4be75a3d417deeecd69931a79b9a179c6247dc59) | docs(visual): document fix-tui-screenshots partial-success contract | [sase-169.5](sase-169.5.md) | 2026-09-22 20:44:38 EDT |
