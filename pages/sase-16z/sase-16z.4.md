@@ -14,7 +14,7 @@ rate-limit-plumbing: move the core pin, add a shared rate-limit/Retry-After clas
 ## Dependencies
 
 - **Depends on:** [sase-16z.1](sase-16z.1.md) ✓ · ⧖ 2026-09-23
-- **Depends on:** [sase-16z.3](sase-16z.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16z.3](sase-16z.3.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.5](sase-16z.5.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
