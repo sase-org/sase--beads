@@ -20,7 +20,7 @@ display-fixes: fix the two red prompt-history label tests; CLI surfaces load the
 ## Dependencies
 
 - **Depends on:** [sase-16n.11.2](sase-16n.11.2.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16n.11.4](sase-16n.11.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16n.11.4](sase-16n.11.4.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ✓ · ⧖ 2026-09-23
 
 ## Agents

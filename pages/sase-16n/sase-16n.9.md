@@ -28,13 +28,7 @@ plugins: Telegram project-context capture and copy-text buttons use tags, its in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-github | [`sase-github@204ffd0`](https://github.com/sase-org/sase-github/commit/204ffd0737e305b3c5ea6f941d9bfe442e588feb) | docs(xprompts): present +\<project\> as the default GitHub project spelling | [sase-16n.9](sase-16n.9.md) | 2026-09-23 07:41:47 EDT |
+| [bbugyi200.athena.sase-16n.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.9/README.md) | [sase-16n.9](sase-16n.9.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
