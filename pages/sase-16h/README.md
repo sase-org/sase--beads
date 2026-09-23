@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-16h
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0pf](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0pf.md) · **Assignee:** `sase-16h.land`
-**Created:** 2026-09-22 13:05:38 EDT
+**Created:** 2026-09-22 13:05:38 EDT · **Closed:** 2026-09-22 20:04:01 EDT
 **Plan:** [202609/tool\_e15\_enforced\_adoption.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e15_enforced_adoption.md)
 
 ## Description
@@ -14,6 +14,12 @@ Every heavy verification run by a SASE agent is a recorded ToolRun by constructi
 ## Notes
 
 [2026-09-22T20:52:08Z · sase-16j.land] DISCOVERED ISSUE: tests/tool/test_observe.py::test_executor_records_samples_and_show_lists_them (added by sase-135.5, 1f6adf43b) failed once in a loaded just test-scoped run on master 5950d069c (45123 passed, 3 failed) and passed in isolation. Possible causal link: 5950d069c (sase-16h.3) moved tool_run_observe to run immediately after spawn and changed executor/liveness sampling, which this test exercises. Observed by sase-16j.land.
+
+[2026-09-23T00:04:01Z · sase-16h.land] LANDED by sase-16h.land. VERIFIED: all 6 phases closed and their work is on master: b33732a41 ownership roots (scrub_executor_ownership_env at 3 launch boundaries, resolve_ownership drops inherited ids under SASE_AGENT, child_env always exports SASE_TOOL_NAME/PROJECT_ROOT, SASE_TOOL_RUN_AGENT attribution); sase-core 4b536cd + d163dfa2b observe/reap binding + adapter/smoke; 5950d069c process groups, pdeathsig, spawn-time observe, identity-matched reaping, merged pipe; 7fad3394c guard + wiring + adoption report + decisions; 6167ec42c monitor.tool_wrap; linked catalogs+guards pushed (core 2017dbe, telegram 5b7f583, github e807f82, research 760ff40) + 49bf158ce memory. Live: land run 595ae05a recorded agent=sase-16h.land, no owner, compact, show -l replays, child pid/pgid/identity at spawn.
+EPIC WORK FINISHED HERE: (1) Master Gate red since 5950d069c: sase-core-revision.txt never left 7a2ff34 (pre-observe), so the pinned core lacked tool_run_observe; ratcheted to sase-core HEAD 04fbb48 (CI green, contains 4b536cd), which supersedes open ratchet PR #304. The published floor stays blocked_unpublished until a sase-core release; per docs/rust_backend.md the release lane owns that. (2) tests/test_require_tool_run.py: 5 cases failed in CI because the guard fails open with no sase on PATH; they now get a stub sase (reproduced 5/17 fail without it, 17/17 pass). (3) test_already_wrapped_monitor_is_not_rewrapped ran PATH sase, which CI lacks; it now uses sys.executable -m sase. (4) Epic DISCOVERED ISSUE test_observe flake: phase 3's observe write sits before the first sample and store appends spike 0.1-0.7s under load, so the 0.55s child sometimes gets only 2 samples (reproduced by injecting observe delay); the child now runs 1.2s. (5) closed sase-16b/16c/16d with evidence. 87 targeted tests pass with no sase on PATH.
+CHECK: sase tool run check 595ae05a red only at pre-existing symvision delete_paths_in_background (sase-16l); remaining gates in run 88b57c64: toobig red (sase-16m), validate + committed plans green; scoped lane 45223 passed, 5 failed: geometry (sase-16f), audit from 505934a63 (DISCOVERED ISSUE on sase-16e), and 3 load timeouts that pass alone (+1 sase-120, sase-13a, sase-12f).
+INTEGRATION: nothing that landed after the epic started touches launch/monitor/tool/proc code, and none of its Justfile edits touches the guard. No src code spawns raw just check.
+FOLLOW-UPS: 16h.1#1 geometry -> +1 sase-16f; shard drift -> note on sase-14r (drift test passes now); plugins batch -> +1 sase-154. 16h.2#1 pin -> done here. 16h.2#2/16h.3#1 agent_env_refusal_reason -> declined, symvision no longer flags it. 16h.2#3/#4 (duplicate notes) gateway flakes -> +1 sase-15g. 16h.4#1 toobig -> +1 sase-16m. 16h.4#2 geometry -> sase-16f; test_no_system_clock_display_sites -> declined, passes at HEAD. 16h.5#1 -> +1 sase-16l. 16h.6#2 -> +1 sase-yn. 16h.6#3 -> new sase-16p (PyPI sase 0.17.1 needs sase-core-rs<0.33, but PyPI now starts at 0.34.23). 16h.6#4 -> +1 sase-xg. Land-found: +1 sase-14p (notify help, CI py3.12); new memory task sase-16q (stale -f caveat in lint_and_test.md). epic-symbols: none.
 
 ## Phases
 
@@ -30,7 +36,7 @@ Every heavy verification run by a SASE agent is a recorded ToolRun by constructi
 
 ```mermaid
 flowchart TD
-    n0["sase-16h: E1.5: enforced sase tool adoption and monitor wrapping [in_progress]"]
+    n0["sase-16h: E1.5: enforced sase tool adoption and monitor wrapping [closed]"]
     n1["sase-16h.1: Make an agent an ownership root and always export the wrapper marker [closed]"]
     n2["sase-16h.2: Record child process facts and authorize reaping in sase-core [closed]"]
     n3["sase-16h.3: Make the wrapper as faithful as the raw command [closed]"]
@@ -60,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16h.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.4/README.md) | [sase-16h.4](sase-16h.4.md) | 1 |
 | [bbugyi200.athena.sase-16h.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.5/README.md) | [sase-16h.5](sase-16h.5.md) | 1 |
 | [bbugyi200.athena.sase-16h.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.6/README.md) | [sase-16h.6](sase-16h.6.md) | 5 |
-| [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 0 |
+| [bbugyi200.athena.sase-16h.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16h.land/README.md) | [sase-16h](README.md) | 1 |
 
 ## Commits
 
@@ -77,6 +83,7 @@ flowchart TD
 | sase-github | [`sase-github@e807f82`](https://github.com/sase-org/sase-github/commit/e807f823f6ee137c72503d8367d0a80543196b97) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:36:52 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@760ff40`](https://github.com/sase-org/sase-research-artifacts/commit/760ff407f24fc25ce91facd5b984051d09d668e4) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:39:38 EDT |
 | sase-telegram | [`sase-telegram@5b7f583`](https://github.com/sase-org/sase-telegram/commit/5b7f5834e6b8d317dbdefb138ac2b2a8179010c8) | feat(tool): add check catalog and recipe guard | [sase-16h.6](sase-16h.6.md) | 2026-09-22 18:47:18 EDT |
+| sase | [`d3fa979`](https://github.com/sase-org/sase/commit/d3fa9796823bf547a8117bfd73cdb8ce154e54a1) | fix(tool): land sase-16h by moving the core pin past tool\_run\_observe | [sase-16h](README.md) | 2026-09-22 20:16:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
