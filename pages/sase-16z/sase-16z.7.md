@@ -13,7 +13,7 @@ hot-cadence: add `llm_provider.usage_metrics.active_refresh_seconds` (default 12
 
 ## Dependencies
 
-- **Depends on:** [sase-16z.6](sase-16z.6.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16z.6](sase-16z.6.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
