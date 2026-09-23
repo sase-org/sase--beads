@@ -11,6 +11,12 @@
 
 tag-display: the humanizer renders project refs as tags; the shared tokenizer emits project_tag spans; accent styles in both highlight systems; the prompt editor, the AGENT XPROMPT sections (main, family, hint, and clan), and their visual snapshots.
 
+## Notes
+
+[2026-09-23T02:40:12Z · sase-16n.6] PROPOSED FOLLOW-UP: PNG golden coverage for tag rendering (prompt-highlighting tag fixture + agents_xprompt tag case) needs a fix-tui-screenshots capture run with report inspection
+
+[2026-09-23T02:40:40Z · sase-16n.6] PROPOSED FOLLOW-UP: symvision flags delete_paths_in_background in src/sase/_linked_repo_workspaces.py as unused-public (pre-existing at HEAD, in-file use only)
+
 ## Dependencies
 
 - **Depends on:** [sase-16n.5](sase-16n.5.md) ✓ · ⧖ 2026-09-22
@@ -21,4 +27,10 @@ tag-display: the humanizer renders project refs as tags; the shared tokenizer em
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.6/README.md) | [sase-16n.6](sase-16n.6.md) | 0 |
+| [bbugyi200.athena.sase-16n.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.6/README.md) | [sase-16n.6](sase-16n.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`eea59a6`](https://github.com/sase-org/sase/commit/eea59a65147a1dcd2d3ae7d91e818e3c463227ec) | feat(xprompt): render project tags in agent panel and prompt editor | [sase-16n.6](sase-16n.6.md) | 2026-09-22 22:43:45 EDT |
