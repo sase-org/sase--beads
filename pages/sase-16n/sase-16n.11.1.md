@@ -18,7 +18,7 @@ core-fixes: accept removes every workspace target the Python one-target guard co
 ## Dependencies
 
 - **Blocks:** [sase-16n.11.2](sase-16n.11.2.md) ◐ · ⧖ 2026-09-23
-- **Blocks:** [sase-16n.11.5](sase-16n.11.5.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16n.11.5](sase-16n.11.5.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16n.11.6](sase-16n.11.6.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
@@ -32,3 +32,15 @@ core-fixes: accept removes every workspace target the Python one-target guard co
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4300166`](https://github.com/sase-org/sase-core/commit/430016645d10590c75bff39fdbfc62cc89177fcd) | fix(core): project-tag core fixes for bead sase-16n.11.1 | [sase-16n.11.1](sase-16n.11.1.md) | 2026-09-23 09:19:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.11.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.1/README.md
+
+<!-- sase:referenced-by:end -->

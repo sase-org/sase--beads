@@ -16,7 +16,7 @@ docs-fixes: editor.md semantic-token legend and palette capability, stale #gh:sa
 - **Depends on:** [sase-16n.11.1](sase-16n.11.1.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-16n.11.2](sase-16n.11.2.md) ◐ · ⧖ 2026-09-23
 - **Depends on:** [sase-16n.11.3](sase-16n.11.3.md) ◐ · ⧖ 2026-09-23
-- **Depends on:** [sase-16n.11.5](sase-16n.11.5.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16n.11.5](sase-16n.11.5.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
