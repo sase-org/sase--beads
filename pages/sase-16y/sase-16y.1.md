@@ -19,7 +19,7 @@ legend: enrich MemberJumpMap with per-target labels and status buckets plus orde
 
 ## Dependencies
 
-- **Blocks:** [sase-16y.3](sase-16y.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16y.3](sase-16y.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

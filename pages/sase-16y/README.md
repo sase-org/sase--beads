@@ -17,7 +17,7 @@ On the Agents tab, every live numbered roster target (family shells, neighbors, 
 |---|---|---|---|---|---:|---:|
 | [sase-16y.1](sase-16y.1.md) | Jump-map sections, document carrier, and pure legend renderer | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16y.2](sase-16y.2.md) | Dot jump-panel toggle plumbing and the non-run toggle move | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-16y.3](sase-16y.3.md) | Jump panel widget, layout, toggle, narrowing, and visual verification | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16y.3](sase-16y.3.md) | Jump panel widget, layout, toggle, narrowing, and visual verification | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-16y: Sticky collapsible jump footer panel on the Agents tab [in_progress]"]
     n1["sase-16y.1: Jump-map sections, document carrier, and pure legend renderer [closed]"]
     n2["sase-16y.2: Dot jump-panel toggle plumbing and the non-run toggle move [closed]"]
-    n3["sase-16y.3: Jump panel widget, layout, toggle, narrowing, and visual verification [in_progress]"]
+    n3["sase-16y.3: Jump panel widget, layout, toggle, narrowing, and visual verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-16y.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.1/README.md) | [sase-16y.1](sase-16y.1.md) | 1 |
 | [bbugyi200.athena.sase-16y.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.2/README.md) | [sase-16y.2](sase-16y.2.md) | 1 |
-| [bbugyi200.athena.sase-16y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.3/README.md) | [sase-16y.3](sase-16y.3.md) | 0 |
+| [bbugyi200.athena.sase-16y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.3/README.md) | [sase-16y.3](sase-16y.3.md) | 1 |
 | [bbugyi200.athena.sase-16y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16y.land/README.md) | [sase-16y](README.md) | 0 |
 
 ## Commits
@@ -49,3 +49,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`0513bf2`](https://github.com/sase-org/sase/commit/0513bf2ab3048cd8b6c07c1041fe9856b33e142b) | feat(agents): jump-map sections, document carrier, and pure legend renderer | [sase-16y.1](sase-16y.1.md) | 2026-09-23 11:34:27 EDT |
 | sase | [`3408056`](https://github.com/sase-org/sase/commit/34080568e6e9e91376eed89906eae3d99f24dd7b) | feat(ace): add Agents jump-panel keymap phase with non-run toggle | [sase-16y.2](sase-16y.2.md) | 2026-09-23 11:37:35 EDT |
+| sase | [`311e761`](https://github.com/sase-org/sase/commit/311e761145e56aa22b2b4eaa030afd3ebd704932) | feat(ace): sticky collapsible jump footer panel on the Agents tab | [sase-16y.3](sase-16y.3.md) | 2026-09-23 13:51:47 EDT |
