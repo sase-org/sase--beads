@@ -20,7 +20,7 @@ adaptive-admission: move the core pin, let plugins declare `min_probe_interval_s
 - **Depends on:** [sase-16z.2](sase-16z.2.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-16z.4](sase-16z.4.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.6](sase-16z.6.md) ◐ · ⧖ 2026-09-23
-- **Blocks:** [sase-16z.8](sase-16z.8.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.8](sase-16z.8.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -33,3 +33,15 @@ adaptive-admission: move the core pin, let plugins declare `min_probe_interval_s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fcce8f2`](https://github.com/sase-org/sase/commit/fcce8f2f336199f4db80088c7a02531c34f66128) | feat(llm-provider): plugin polling floors, CLI fingerprints, and mark-only limit events | [sase-16z.5](sase-16z.5.md) | 2026-09-23 14:25:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.5/README.md
+
+<!-- sase:referenced-by:end -->

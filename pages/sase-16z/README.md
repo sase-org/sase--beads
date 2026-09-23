@@ -22,7 +22,7 @@ Periodic usage-window collection runs inside the scheduler service tree (a dedic
 | [sase-16z.5](sase-16z.5.md) | Plugin polling floors, CLI fingerprints, and limit events that only mark due | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-16z.6](sase-16z.6.md) | Dedicated \`usage\` scheduler routine that probes inline | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-16z.7](sase-16z.7.md) | Hot cadence for providers in active use | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
-| [sase-16z.8](sase-16z.8.md) | CLI capability cache for usage probes | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-16z.8](sase-16z.8.md) | CLI capability cache for usage probes | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-16z.5: Plugin polling floors, CLI fingerprints, and limit events that only mark due [closed]"]
     n6["sase-16z.6: Dedicated `usage` scheduler routine that probes inline [in_progress]"]
     n7["sase-16z.7: Hot cadence for providers in active use [in_progress]"]
-    n8["sase-16z.8: CLI capability cache for usage probes [in_progress]"]
+    n8["sase-16z.8: CLI capability cache for usage probes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16z.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.5/README.md) | [sase-16z.5](sase-16z.5.md) | 1 |
 | [bbugyi200.athena.sase-16z.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.6/README.md) | [sase-16z.6](sase-16z.6.md) | 0 |
 | [bbugyi200.athena.sase-16z.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.7/README.md) | [sase-16z.7](sase-16z.7.md) | 0 |
-| [bbugyi200.athena.sase-16z.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.8/README.md) | [sase-16z.8](sase-16z.8.md) | 0 |
+| [bbugyi200.athena.sase-16z.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.8/README.md) | [sase-16z.8](sase-16z.8.md) | 1 |
 | [bbugyi200.athena.sase-16z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.land/README.md) | [sase-16z](README.md) | 0 |
 
 ## Commits
@@ -78,6 +78,7 @@ flowchart TD
 | sase | [`caca6b6`](https://github.com/sase-org/sase/commit/caca6b60f9a2263ea29073be42fee94c1b88c52f) | fix(llm-provider): harden usage probe and refresh-runner robustness | [sase-16z.3](sase-16z.3.md) | 2026-09-23 13:18:02 EDT |
 | sase | [`ed8172f`](https://github.com/sase-org/sase/commit/ed8172fdabebbc60bbe29df9473ea899129de4a7) | feat(llm-provider): rate-limit classification and reason-aware attempt plumbing | [sase-16z.4](sase-16z.4.md) | 2026-09-23 14:00:36 EDT |
 | sase | [`fcce8f2`](https://github.com/sase-org/sase/commit/fcce8f2f336199f4db80088c7a02531c34f66128) | feat(llm-provider): plugin polling floors, CLI fingerprints, and mark-only limit events | [sase-16z.5](sase-16z.5.md) | 2026-09-23 14:25:40 EDT |
+| sase | [`5e50d27`](https://github.com/sase-org/sase/commit/5e50d27f599b8b5e5e63376bbcf216825ae32331) | feat(llm-provider): add CLI capability cache for usage probes | [sase-16z.8](sase-16z.8.md) | 2026-09-23 14:56:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
