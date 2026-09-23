@@ -20,7 +20,7 @@ tui-install: give missing agent-CLI rows an install verb on i / Space / I, a red
 ## Dependencies
 
 - **Depends on:** [sase-171.1](sase-171.1.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-171.3](sase-171.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-171.3](sase-171.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -33,3 +33,15 @@ tui-install: give missing agent-CLI rows an install verb on i / Space / I, a red
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`02cd6b6`](https://github.com/sase-org/sase/commit/02cd6b69ee2b587e118482877d6719bebb8eda31) | feat(ace): implement Updates-tab agent-CLI install flow | [sase-171.2](sase-171.2.md) | 2026-09-23 14:28:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-171.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-171.2/README.md
+
+<!-- sase:referenced-by:end -->
