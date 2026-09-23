@@ -11,6 +11,10 @@
 
 host-glob: move the sase-core CI pin past the wildcard commit, mirror the semantics in the Python reference evaluator with parity tests, keep glob values out of Agents-tab index pushdown, and document wildcards in the query language reference and field hints.
 
+## Notes
+
+[2026-09-23T13:10:30Z · sase-16t.2] PROPOSED FOLLOW-UP: symvision flags unused public class ExpandedLaunchSegments in src/sase/agent/launch_cwd_segments.py (from refactor commit cfac28d15); just check red on clean tree, unrelated to host-glob
+
 ## Dependencies
 
 - **Depends on:** [sase-16t.1](sase-16t.1.md) ✓ · ⧖ 2026-09-23
@@ -20,4 +24,10 @@ host-glob: move the sase-core CI pin past the wildcard commit, mirror the semant
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.2/README.md) | [sase-16t.2](sase-16t.2.md) | 0 |
+| [bbugyi200.athena.sase-16t.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16t.2/README.md) | [sase-16t.2](sase-16t.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f37f1dd`](https://github.com/sase-org/sase/commit/f37f1dd480202d5eeead8aa04f8b0808504b8613) | feat(query): wildcard parity, pin bump, pushdown guard, and docs (sase-16t.2, verification pending) | [sase-16t.2](sase-16t.2.md) | 2026-09-23 09:18:34 EDT |
