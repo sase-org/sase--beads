@@ -13,7 +13,7 @@ capability-cache: add a fingerprint-keyed, TTL-bounded on-disk cache of CLI vers
 
 ## Dependencies
 
-- **Depends on:** [sase-16z.5](sase-16z.5.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16z.5](sase-16z.5.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

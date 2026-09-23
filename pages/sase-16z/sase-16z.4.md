@@ -21,7 +21,7 @@ rate-limit-plumbing: move the core pin, add a shared rate-limit/Retry-After clas
 
 - **Depends on:** [sase-16z.1](sase-16z.1.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-16z.3](sase-16z.3.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-16z.5](sase-16z.5.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16z.5](sase-16z.5.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -34,3 +34,15 @@ rate-limit-plumbing: move the core pin, add a shared rate-limit/Retry-After clas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ed8172f`](https://github.com/sase-org/sase/commit/ed8172fdabebbc60bbe29df9473ea899129de4a7) | feat(llm-provider): rate-limit classification and reason-aware attempt plumbing | [sase-16z.4](sase-16z.4.md) | 2026-09-23 14:00:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16z.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16z.4/README.md
+
+<!-- sase:referenced-by:end -->

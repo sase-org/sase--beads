@@ -13,7 +13,7 @@ usage-routine: move `usage_refresh` out of `checks` into a new 60 s `usage` rout
 
 ## Dependencies
 
-- **Depends on:** [sase-16z.5](sase-16z.5.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16z.5](sase-16z.5.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16z.7](sase-16z.7.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
