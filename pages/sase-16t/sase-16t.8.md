@@ -15,7 +15,7 @@ entry-points: route relation-panel misses and cross-pane relation jumps through 
 
 - **Depends on:** [sase-16t.5](sase-16t.5.md) ◐ · ⧖ 2026-09-23
 - **Depends on:** [sase-16t.6](sase-16t.6.md) ◐ · ⧖ 2026-09-23
-- **Depends on:** [sase-16t.7](sase-16t.7.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-16t.7](sase-16t.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

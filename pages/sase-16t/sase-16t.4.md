@@ -21,7 +21,7 @@ planner: replace the trial-and-error limit-drop, widening, and neutral rungs wit
 - **Depends on:** [sase-16t.3](sase-16t.3.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-16t.5](sase-16t.5.md) ◐ · ⧖ 2026-09-23
 - **Blocks:** [sase-16t.6](sase-16t.6.md) ◐ · ⧖ 2026-09-23
-- **Blocks:** [sase-16t.7](sase-16t.7.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-16t.7](sase-16t.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
