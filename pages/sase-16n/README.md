@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-16n.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.3/README.md) | [sase-16n.11.3](sase-16n.11.3.md) | 1 |
 | [bbugyi200.athena.sase-16n.11.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-16n.11.4.md) | [sase-16n.11.4](sase-16n.11.4.md) | 0 |
 | [bbugyi200.athena.sase-16n.11.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.5/README.md) | [sase-16n.11.5](sase-16n.11.5.md) | 0 |
-| [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 2 |
 | [bbugyi200.athena.sase-16n.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.land/README.md) | [sase-16n.11](sase-16n.11.md) | 0 |
 | [bbugyi200.athena.sase-16n.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.2/README.md) | [sase-16n.2](sase-16n.2.md) | 3 |
 | [bbugyi200.athena.sase-16n.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.3/README.md) | [sase-16n.3](sase-16n.3.md) | 1 |
@@ -135,6 +135,7 @@ flowchart TD
 | sase | [`394a53b`](https://github.com/sase-org/sase/commit/394a53b6dfc5ee436073203fe71cb958d6b039e4) | feat(project-tags): Python tag backend fixes and step-8 launch tests | [sase-16n.11.2](sase-16n.11.2.md) | 2026-09-23 10:25:14 EDT |
 | sase | [`b924b03`](https://github.com/sase-org/sase/commit/b924b03508978a7f28e50bd517ecca58e499a846) | feat(project-tags): CLI and cold-TUI tag rendering, pager, MRU label, and red tests | [sase-16n.11.3](sase-16n.11.3.md) | 2026-09-23 11:12:21 EDT |
 | sase | [`69ca23a`](https://github.com/sase-org/sase/commit/69ca23a2e8ba6046e17589321f403656cdec5f90) | docs(project-tags): accuracy pass for tag docs and help | [sase-16n.11.6](sase-16n.11.6.md) | 2026-09-23 11:53:04 EDT |
+| sase-github | [`sase-github@2b26fa3`](https://github.com/sase-org/sase-github/commit/2b26fa35ea2827b141bf52acdaf4c02a6c8e3bab) | docs(xprompts): plain targeting uses +sase, parens are for arguments | [sase-16n.11.6](sase-16n.11.6.md) | 2026-09-23 11:57:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

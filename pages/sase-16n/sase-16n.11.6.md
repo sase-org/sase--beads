@@ -26,10 +26,23 @@ docs-fixes: editor.md semantic-token legend and palette capability, stale #gh:sa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 1 |
+| [bbugyi200.athena.sase-16n.11.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md) | [sase-16n.11.6](sase-16n.11.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`69ca23a`](https://github.com/sase-org/sase/commit/69ca23a2e8ba6046e17589321f403656cdec5f90) | docs(project-tags): accuracy pass for tag docs and help | [sase-16n.11.6](sase-16n.11.6.md) | 2026-09-23 11:53:04 EDT |
+| sase-github | [`sase-github@2b26fa3`](https://github.com/sase-org/sase-github/commit/2b26fa35ea2827b141bf52acdaf4c02a6c8e3bab) | docs(xprompts): plain targeting uses +sase, parens are for arguments | [sase-16n.11.6](sase-16n.11.6.md) | 2026-09-23 11:57:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-16n.11.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-16n.11.6/README.md
+
+<!-- sase:referenced-by:end -->
