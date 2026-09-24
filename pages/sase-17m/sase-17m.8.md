@@ -34,8 +34,10 @@ core-contract: breaking feat! sase-core change. Serialize the new key and value 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17m.2.1.land][1] | Check core-contract scope for routing follow-ups | 2 |
+| read-by | [agent:research.2f.cld][1] | Check whether the core contract flip (which emits new durable keys) has landed, to assess double-migration risk with shell->turn | 1 |
+| read-by | [agent:sase-17m.2.1.land][2] | Check core-contract scope for routing follow-ups | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->
