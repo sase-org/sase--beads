@@ -1,0 +1,99 @@
+# Bead: sase-17x — \`:\` Command Line: run sase commands from the TUI
+
+[Bead Pages](../README.md) / sase-17x
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.land`
+**Created:** 2026-09-24 11:29:17 EDT
+**Plan:** [202609/command\_line\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_panel.md)
+
+## Description
+
+`;` opens the Command Palette and `:` opens a new bottom-anchored Command Line panel. In the panel, users type `sase` commands with better completion than any shell offers: selection-aware, fuzzy, documented and grammar-checked. Output streams inline. Every command runs as a durable, tagged proc that keeps running after the panel is hidden, shows up in Admin Center → Procs, and returns to the transcript when the panel reopens.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-17x.1](sase-17x.1.md) | Output color contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
+| [sase-17x.10](sase-17x.10.md) | Empty state, doc peek, and history search | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.11](sase-17x.11.md) | Run policies, confirmation-aware blocks, and built-ins | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.12](sase-17x.12.md) | Flip \`:\` and \`;\`, remove the flag, and land | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.4](sase-17x.4.md) | Command-line proc tag and retention bucket | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
+| [sase-17x.5](sase-17x.5.md) | sase-core CommandLineGrammar resolver | ◐ in_progress | large | 2026-09-24 | 1 | 0 |
+| [sase-17x.6](sase-17x.6.md) | Command-line proc plumbing | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.7](sase-17x.7.md) | Command Line panel shell (beta flag) | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.8](sase-17x.8.md) | Transcript block interactions and lifecycle | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.9](sase-17x.9.md) | Grammar-aware completion popup and signature line | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-17x: `:` Command Line: run sase commands from the TUI [in_progress]"]
+    n1["sase-17x.1: Output color contract [closed]"]
+    n2["sase-17x.10: Empty state, doc peek, and history search [in_progress]"]
+    n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [in_progress]"]
+    n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [in_progress]"]
+    n5["sase-17x.2: Command Line spec contract [in_progress]"]
+    n6["sase-17x.3: Value-kind coverage and ratchet [in_progress]"]
+    n7["sase-17x.4: Command-line proc tag and retention bucket [in_progress]"]
+    n8["sase-17x.5: sase-core CommandLineGrammar resolver [in_progress]"]
+    n9["sase-17x.6: Command-line proc plumbing [in_progress]"]
+    n10["sase-17x.7: Command Line panel shell (beta flag) [in_progress]"]
+    n11["sase-17x.8: Transcript block interactions and lifecycle [in_progress]"]
+    n12["sase-17x.9: Grammar-aware completion popup and signature line [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n1 -.-> n4
+    n2 -.-> n4
+    n3 -.-> n4
+    n5 -.-> n6
+    n5 -.-> n8
+    n6 -.-> n4
+    n7 -.-> n8
+    n7 -.-> n9
+    n8 -.-> n12
+    n9 -.-> n10
+    n10 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n3
+    n12 -.-> n2
+    n12 -.-> n3
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-17x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md) | [sase-17x.1](sase-17x.1.md) | 1 |
+| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.10/README.md) | [sase-17x.10](sase-17x.10.md) | 0 |
+| [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 0 |
+| [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 0 |
+| [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 0 |
+| [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 0 |
+| [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 0 |
+| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.5/README.md) | [sase-17x.5](sase-17x.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.6/README.md) | [sase-17x.6](sase-17x.6.md) | 0 |
+| [bbugyi200.athena.sase-17x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md) | [sase-17x.7](sase-17x.7.md) | 0 |
+| [bbugyi200.athena.sase-17x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md) | [sase-17x.8](sase-17x.8.md) | 0 |
+| [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 0 |
+| [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.land/README.md) | [sase-17x](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`5a79551`](https://github.com/sase-org/sase/commit/5a7955161e960662c41fa496ab5ef699941e3cb1) | feat(cli): add shared stdout color contract honoring FORCE\_COLOR | [sase-17x.1](sase-17x.1.md) | 2026-09-24 11:48:58 EDT |
