@@ -14,7 +14,7 @@ transcript-blocks: add NORMAL-mode block navigation with expand, pager, kill, re
 ## Dependencies
 
 - **Blocks:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.7](sase-17x.7.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.7](sase-17x.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

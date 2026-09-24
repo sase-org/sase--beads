@@ -20,10 +20,22 @@ completion-popup: load the grammar at idle and wire the resolver into the input.
 - **Blocks:** [sase-17x.10](sase-17x.10.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.5](sase-17x.5.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.7](sase-17x.7.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.7](sase-17x.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0qz--code][1] | verify 17x.9 open before adding epic-symbol entries | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+
+<!-- sase:referenced-by:end -->
