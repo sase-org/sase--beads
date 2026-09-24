@@ -13,7 +13,7 @@ lanes: rename family-concept identifiers, constants (GATE_FAMILY_ROLE, MONITOR_F
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4.1.3](sase-17m.4.1.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.4.1.3](sase-17m.4.1.3.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

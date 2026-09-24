@@ -21,7 +21,7 @@ attach-modules: rename agent/_family_attach_{candidates,directives,launch,resolu
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.4.1.2](sase-17m.4.1.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.2](sase-17m.4.1.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
