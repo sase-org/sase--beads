@@ -14,7 +14,7 @@ pin-regression: move sase-core-revision.txt past the core-winner commit, add git
 ## Dependencies
 
 - **Depends on:** [sase-17y.1](sase-17y.1.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-17y.3](sase-17y.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17y.3](sase-17y.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

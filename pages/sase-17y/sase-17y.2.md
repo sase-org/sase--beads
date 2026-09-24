@@ -17,7 +17,7 @@ launch-guard: replace the prompt and env text rewrite in launch_epic_bead_work w
 
 ## Dependencies
 
-- **Blocks:** [sase-17y.3](sase-17y.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17y.3](sase-17y.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -30,3 +30,15 @@ launch-guard: replace the prompt and env text rewrite in launch_epic_bead_work w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2d6a57b`](https://github.com/sase-org/sase/commit/2d6a57b3fcf8e349eb243e4f3dead5de50b52e7e) | feat(bead): launch-guard for relocated epic/task graphs | [sase-17y.2](sase-17y.2.md) | 2026-09-24 12:38:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17y.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.2/README.md
+
+<!-- sase:referenced-by:end -->
