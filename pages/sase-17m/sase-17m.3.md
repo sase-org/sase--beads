@@ -42,7 +42,9 @@ wire-cutover: bump the core pin and switch sase to the new binding names. Rename
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.2.1.land][1] | Check wire-cutover scope for routing follow-ups | 2 |
+| read-by | [agent:sase-17m.3.1.land][2] | Need phase notes (hand-offs recorded by 3.1.7) | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

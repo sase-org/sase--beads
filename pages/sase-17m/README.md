@@ -53,11 +53,20 @@ flowchart TD
     n16["sase-17m.3.1.6: Agent name registry session kinds and schema v3 [closed]"]
     n17["sase-17m.3.1.7: Classification sweep and phase verification [closed]"]
     n18["sase-17m.4: Runtime, syntax, and CLI cutover [in_progress]"]
-    n19["sase-17m.5: ACE agent session surfaces [in_progress]"]
-    n20["sase-17m.6: Documentation and memory [in_progress]"]
-    n21["sase-17m.7: sase-telegram cutover [in_progress]"]
-    n22["sase-17m.8: sase-core contract flip [in_progress]"]
-    n23["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
+    n19["sase-17m.4.1: Runtime, syntax, and CLI cutover to agent session (runtime-cutover) [in_progress]"]
+    n20["sase-17m.4.1.1: Agent-session attach and promotion modules [closed]"]
+    n21["sase-17m.4.1.2: Name lookup, plan_chain, and plan preview [in_progress]"]
+    n22["sase-17m.4.1.3: Remaining agent package runtime identifiers [in_progress]"]
+    n23["sase-17m.4.1.4: Axe, monitor, gate, shell, and bead lanes [in_progress]"]
+    n24["sase-17m.4.1.5: Core mirrors, chat fork, scripts, and remaining non-ACE packages [in_progress]"]
+    n25["sase-17m.4.1.6: Canonical session syntax and the legacy_agent_family_syntax flag [in_progress]"]
+    n26["sase-17m.4.1.7: Agent query dialect, CLI help, JSON output, and editor bridge [in_progress]"]
+    n27["sase-17m.4.1.8: Skill sources, leftover tests, and classification sweep [in_progress]"]
+    n28["sase-17m.5: ACE agent session surfaces [in_progress]"]
+    n29["sase-17m.6: Documentation and memory [in_progress]"]
+    n30["sase-17m.7: sase-telegram cutover [in_progress]"]
+    n31["sase-17m.8: sase-core contract flip [in_progress]"]
+    n32["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -76,11 +85,20 @@ flowchart TD
     n10 --> n16
     n10 --> n17
     n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
+    n18 --> n19
+    n19 --> n20
+    n19 --> n21
+    n19 --> n22
+    n19 --> n23
+    n19 --> n24
+    n19 --> n25
+    n19 --> n26
+    n19 --> n27
+    n0 --> n28
+    n0 --> n29
+    n0 --> n30
+    n0 --> n31
+    n0 --> n32
     n1 -.-> n9
     n3 -.-> n9
     n5 -.-> n6
@@ -94,14 +112,21 @@ flowchart TD
     n14 -.-> n16
     n15 -.-> n17
     n16 -.-> n17
-    n18 -.-> n19
-    n18 -.-> n20
-    n18 -.-> n21
-    n19 -.-> n22
-    n20 -.-> n22
+    n18 -.-> n28
+    n18 -.-> n29
+    n18 -.-> n30
+    n20 -.-> n21
     n21 -.-> n22
     n22 -.-> n23
-    n23 -.-> n2
+    n23 -.-> n24
+    n24 -.-> n25
+    n25 -.-> n26
+    n26 -.-> n27
+    n28 -.-> n31
+    n29 -.-> n31
+    n30 -.-> n31
+    n31 -.-> n32
+    n32 -.-> n2
 ```
 
 ## Agents
@@ -125,7 +150,16 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.6/README.md) | [sase-17m.3.1.6](sase-17m.3.1.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.7/README.md) | [sase-17m.3.1.7](sase-17m.3.1.7.md) | 0 |
 | [bbugyi200.athena.sase-17m.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md) | [sase-17m.3.1](sase-17m.3.1.md) | 2 |
-| [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4/README.md) | [sase-17m.4](sase-17m.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.4.md) | [sase-17m.4](sase-17m.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.1/README.md) | [sase-17m.4.1.1](sase-17m.4.1.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.2/README.md) | [sase-17m.4.1.2](sase-17m.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.3/README.md) | [sase-17m.4.1.3](sase-17m.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.4/README.md) | [sase-17m.4.1.4](sase-17m.4.1.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.5/README.md) | [sase-17m.4.1.5](sase-17m.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.6/README.md) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.7/README.md) | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5/README.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.7/README.md) | [sase-17m.7](sase-17m.7.md) | 0 |
@@ -152,6 +186,7 @@ flowchart TD
 | sase | [`5393b41`](https://github.com/sase-org/sase/commit/5393b41b0de4df4912adb2fe53eff081eec45e51) | refactor(agent-session): durable Python-owned JSON surfaces emit session spellings (sase-17m.3.1.5) | [sase-17m.3.1.5](sase-17m.3.1.5.md) | 2026-09-24 10:36:30 EDT |
 | sase | [`7e1b059`](https://github.com/sase-org/sase/commit/7e1b05964838f750cbd10f3a7dd786611cf77105) | refactor(agent-session): finish the wire cutover and land sase-17m.3.1 | [sase-17m.3.1](sase-17m.3.1.md) | 2026-09-24 13:23:25 EDT |
 | sase--plans | [`sase--plans@1a97500`](https://github.com/sase-org/sase--plans/commit/1a975004d3f9c96deca011afa9837a3cfd6a0782) | docs(plans): mark agent\_session\_wire\_cutover epic done (sase-17m.3.1) | [sase-17m.3.1](sase-17m.3.1.md) | 2026-09-24 13:28:33 EDT |
+| sase | [`f2790e0`](https://github.com/sase-org/sase/commit/f2790e0e588628a0efe3d769c52b2faf284b5be9) | refactor(agent-session): rename attach and promotion modules (sase-17m.4.1.1) | [sase-17m.4.1.1](sase-17m.4.1.1.md) | 2026-09-24 14:52:20 EDT |
 
 <!-- sase:referenced-by:start -->
 

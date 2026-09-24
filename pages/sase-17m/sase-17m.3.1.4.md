@@ -44,7 +44,9 @@ agent-model: rename the family-concept fields of the Agent dataclass (src/sase/a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.3.1.5][1] | check close note convention | 1 |
+| read-by | [agent:sase-17m.3.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->
