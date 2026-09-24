@@ -14,7 +14,7 @@ line-resolver: build a frozen `CommandLineGrammar` handle in sase-core that pars
 ## Dependencies
 
 - **Depends on:** [sase-17x.2](sase-17x.2.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.4](sase-17x.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.4](sase-17x.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.9](sase-17x.9.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

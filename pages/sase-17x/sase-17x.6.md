@@ -13,7 +13,7 @@ proc-plumbing: add `submit_command_line_proc` (a tagged ordinary proc with the o
 
 ## Dependencies
 
-- **Depends on:** [sase-17x.4](sase-17x.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.4](sase-17x.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.7](sase-17x.7.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
