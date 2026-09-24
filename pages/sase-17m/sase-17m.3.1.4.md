@@ -13,7 +13,7 @@ agent-model: rename the family-concept fields of the Agent dataclass (src/sase/a
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.5](sase-17m.3.1.5.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ◐ · ⧖ 2026-09-24
 

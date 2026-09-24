@@ -20,7 +20,7 @@ canonical-keys: make src/sase/plan_chain.py own AGENT_SESSION_* keys, the separa
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.1](sase-17m.3.1.1.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ canonical-keys: make src/sase/plan_chain.py own AGENT_SESSION_* keys, the separa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`29ca9ee`](https://github.com/sase-org/sase/commit/29ca9ee46fde78dee5b96a48c9021101b608624e) | refactor(agent-session): canonical metadata keys and shared accessor (sase-17m.3.1.2) | [sase-17m.3.1.2](sase-17m.3.1.2.md) | 2026-09-24 05:21:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.3.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
