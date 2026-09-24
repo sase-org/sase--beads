@@ -24,7 +24,7 @@ fleet: rename fleet_family.rs to fleet_agent_session.rs and the family concept i
 ## Dependencies
 
 - **Depends on:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17m.2.1.4](sase-17m.2.1.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.2.1.4](sase-17m.2.1.4.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -37,3 +37,15 @@ fleet: rename fleet_family.rs to fleet_agent_session.rs and the family concept i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b814a0f`](https://github.com/sase-org/sase-core/commit/b814a0fc08ad5a94aba5863fa4550b3622ac9126) | refactor(fleet): rename family to agent session with session key acceptance | [sase-17m.2.1.3](sase-17m.2.1.3.md) | 2026-09-24 01:35:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.2.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->
