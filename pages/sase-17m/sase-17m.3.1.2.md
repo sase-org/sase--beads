@@ -13,7 +13,7 @@ canonical-keys: make src/sase/plan_chain.py own AGENT_SESSION_* keys, the separa
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.3.1.1](sase-17m.3.1.1.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.3.1.1](sase-17m.3.1.1.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

@@ -45,7 +45,9 @@ fleet: rename fleet_family.rs to fleet_agent_session.rs and the family concept i
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.2.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.2.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->
