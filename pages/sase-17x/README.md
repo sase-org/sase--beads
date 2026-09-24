@@ -15,6 +15,8 @@
 
 [2026-09-24T17:14:59Z · sase-17m.3.1.land] DISCOVERED ISSUE (sase-17m.3.1 land agent, master df8ed5134, 2026-09-24): tests/fakey/test_cli.py::test_help_is_colored_sorted_and_all_long_options_have_aliases fails on master with and without the landing diff. sase-17x.1 (5a7955161) moved fakey help onto sase.core.term_color.should_colorize (NO_COLOR, then FORCE_COLOR/CLICOLOR_FORCE, then isatty). The test runs 'python -m sase.fakey.cli --help' with capture_output (not a TTY), TERM=xterm, and NO_COLOR removed, and expects '\x1b[1;36musage:', but now gets plain 'usage: fakey ...'. Either the test should set FORCE_COLOR=1, or fakey help should keep its previous TERM-based coloring. Seen in the full lane that just test-scoped escalated to (17 failed / 46440 passed).
 
+[2026-09-24T18:58:38Z · sase-17z.land] DISCOVERED ISSUE: (found by sase-17z land agent at master 71736697d) just _lint-symvision is red with 14 unused public symbols in src/sase/completion/command_line_grammar.py (CommandLineGrammar, CompletionItem, DynamicCandidate, HelpChild, HelpOption, HelpPositional, LineContext, LineDiagnostic, LineSignature, LineSlot, LineToken, RunPolicyOutcome, SignatureSegment, load_command_line_grammar) added by ede63ea9d (CommandLineGrammar resolver adapter). Wire them up or add --epic-symbol 'sase-17x(...)' entries keyed to the open consuming phase.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -30,7 +32,7 @@
 | [sase-17x.6](sase-17x.6.md) | Command-line proc plumbing | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.7](sase-17x.7.md) | Command Line panel shell (beta flag) | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.8](sase-17x.8.md) | Transcript block interactions and lifecycle | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
-| [sase-17x.9](sase-17x.9.md) | Grammar-aware completion popup and signature line | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.9](sase-17x.9.md) | Grammar-aware completion popup and signature line | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +50,7 @@ flowchart TD
     n9["sase-17x.6: Command-line proc plumbing [closed]"]
     n10["sase-17x.7: Command Line panel shell (beta flag) [closed]"]
     n11["sase-17x.8: Transcript block interactions and lifecycle [in_progress]"]
-    n12["sase-17x.9: Grammar-aware completion popup and signature line [in_progress]"]
+    n12["sase-17x.9: Grammar-aware completion popup and signature line [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -93,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.6/README.md) | [sase-17x.6](sase-17x.6.md) | 1 |
 | [bbugyi200.athena.sase-17x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md) | [sase-17x.7](sase-17x.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md) | [sase-17x.8](sase-17x.8.md) | 0 |
-| [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 0 |
+| [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 1 |
 | [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.land/README.md) | [sase-17x](README.md) | 0 |
 
 ## Commits
@@ -109,6 +111,7 @@ flowchart TD
 | sase | [`ede63ea`](https://github.com/sase-org/sase/commit/ede63ea9dcec4672873412d9f5d4d3f65f72ffcf) | feat(command-line): CommandLineGrammar resolver adapter and contract test | [sase-17x.5](sase-17x.5.md) | 2026-09-24 13:50:20 EDT |
 | sase-core | [`sase-core@1bdadab`](https://github.com/sase-org/sase-core/commit/1bdadab86ea787212cd975ba681ed0f572870d7f) | feat(command-line): CommandLineGrammar resolver and sase adapter | [sase-17x.5](sase-17x.5.md) | 2026-09-24 13:53:51 EDT |
 | sase | [`db99493`](https://github.com/sase-org/sase/commit/db99493448ff762695410f6d06e42164707572d8) | feat(ace): implement Command Line panel shell behind ace\_command\_line beta flag | [sase-17x.7](sase-17x.7.md) | 2026-09-24 14:35:48 EDT |
+| sase | [`d4dc96e`](https://github.com/sase-org/sase/commit/d4dc96eb4a163f33c73d2e6a93c3731a227b2829) | feat(ace-tui): add command-line completion popup phase sase-17x.9 | [sase-17x.9](sase-17x.9.md) | 2026-09-24 15:17:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

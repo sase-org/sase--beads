@@ -14,7 +14,7 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 ## Dependencies
 
 - **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.9](sase-17x.9.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.9](sase-17x.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

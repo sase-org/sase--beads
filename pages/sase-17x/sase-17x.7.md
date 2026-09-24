@@ -21,7 +21,7 @@ panel-shell: create the `ace_command_line` beta flag. Add `open_command_line`, t
 
 - **Depends on:** [sase-17x.6](sase-17x.6.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.8](sase-17x.8.md) ◐ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.9](sase-17x.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.9](sase-17x.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ panel-shell: create the `ace_command_line` beta flag. Add `open_command_line`, t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`db99493`](https://github.com/sase-org/sase/commit/db99493448ff762695410f6d06e42164707572d8) | feat(ace): implement Command Line panel shell behind ace\_command\_line beta flag | [sase-17x.7](sase-17x.7.md) | 2026-09-24 14:35:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md
+
+<!-- sase:referenced-by:end -->
