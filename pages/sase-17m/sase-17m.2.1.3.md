@@ -13,7 +13,7 @@ fleet: rename fleet_family.rs to fleet_agent_session.rs and the family concept i
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17m.2.1.4](sase-17m.2.1.4.md) ◐ · ⧖ 2026-09-23
 
 ## Agents

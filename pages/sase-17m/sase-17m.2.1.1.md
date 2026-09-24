@@ -25,7 +25,7 @@ identity-directives: rename agent_family.rs to agent_session.rs and the agent_id
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
