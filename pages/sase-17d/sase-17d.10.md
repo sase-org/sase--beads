@@ -14,11 +14,11 @@ deck-cutover: delete the flag's Off branch and the flag, the p picker, the zoom 
 ## Dependencies
 
 - **Blocks:** [sase-17d.11](sase-17d.11.md) ◐ · ⧖ 2026-09-23
-- **Depends on:** [sase-17d.8](sase-17d.8.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.8](sase-17d.8.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17d.9](sase-17d.9.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10/README.md) | [sase-17d.10](sase-17d.10.md) | 0 |
+| [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.md) | [sase-17d.10](sase-17d.10.md) | 0 |
