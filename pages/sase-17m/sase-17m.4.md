@@ -15,6 +15,8 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 
 [2026-09-24T15:40:41Z · sase-17m.3.1.land] DISCOVERED ISSUE (routed by the sase-17m.3.1 land agent from sase-17m.3.1.3 follow-ups #3/#4 and sase-17m.3.1.7 hand-off; all within this phase's planned scope, recorded so the planner has the concrete list): (1) SASE_AGENT_FAMILY_ATTACH env payload keys and FamilyAttachLaunchPlan env JSON (agent/_family_attach_*.py, family_attach.py). (2) spawn_family_successor params and other family-concept locals in agent/axe/monitor/gate_shell. (3) xprompt directive fields family_attach_parent/family_attach_suffix (xprompt/_directive_types.py, _directive_extract.py, agent/launch_validation.py, relaunch_prompt.py, launch_hold_preview.py). The core launch wire mirror under src/sase/core is being renamed by the sase-17m.3.1 remaining-work plan, so map at that boundary. (4) sase agent list -j keys agent_family/agent_family_role (agents/cli_list.py:100-101). (5) runner_slots GATE_FAMILY_ROLE and monitor_state/gate_shell MONITOR_FAMILY_ROLE/GATE_FAMILY_ROLE constants. Launch-request agent_meta.agent_family* dotted-path context reads are already named legacy readers after sase-17m.3.1.5; leave them.
 
+[2026-09-24T17:24:11Z · 0qz--code] symvision_green_master sweep: agent_session_suffix_token, is_agent_session_member, agent_session_role_for_suffix, allocate_agent_session_child_suffix stay public under --epic-symbol sase-17m(...) entries. Migrating the ~20 agent_family_* callers onto these names must remove all four entries.
+
 ## Dependencies
 
 - **Depends on:** [sase-17m.3](sase-17m.3.md) ✓ · ⧖ 2026-09-23

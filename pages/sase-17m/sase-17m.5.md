@@ -11,6 +11,10 @@
 
 ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy (SESSION SHELLS, SESSION). Update keymap and help text, default_config.yml and the schema, perf baselines, and the PNG goldens, with no change to the performance contract.
 
+## Notes
+
+[2026-09-24T17:24:22Z · 0qz--code] symvision_green_master sweep: agent_session_suffix_token, is_agent_session_member, agent_session_role_for_suffix, allocate_agent_session_child_suffix stay public under --epic-symbol sase-17m(...) entries. ACE surface migration must remove all four entries once the symbols gain real consumers.
+
 ## Dependencies
 
 - **Depends on:** [sase-17m.4](sase-17m.4.md) ◐ · ⧖ 2026-09-23
