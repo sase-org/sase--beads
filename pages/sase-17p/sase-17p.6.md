@@ -44,7 +44,9 @@ acceptance-and-adoption: extend the ToolRun smoke harness with the hand-off faul
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2i.mus][1] | Research E3/E4: need remaining E2 exit criteria | 1 |
+| read-by | [agent:sase-17p.6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.mus/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.6/README.md
 
 <!-- sase:referenced-by:end -->
