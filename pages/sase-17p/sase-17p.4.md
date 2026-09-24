@@ -31,3 +31,17 @@ lifecycle-controls: add sase tool stop, sase tool show -F/--follow, and sase too
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`df8ed51`](https://github.com/sase-org/sase/commit/df8ed5134112a26735b501c5126593a1d40dd8d7) | feat(tool): stop, follow, and wait on a ToolRun by id (sase-17p.4) | [sase-17p.4](sase-17p.4.md) | 2026-09-24 12:20:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.3.1.land][1] | Check phase notes for already-recorded fakey color / completion snapshot / parser tool / monitor start policy failures | 1 |
+| read-by | [agent:sase-17p.4][2] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -38,8 +38,10 @@ monitor-handoff: when a monitor's proc will run a ToolRun, reserve and bind it t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17p.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.3.1.land][1] | Check phase notes for already-recorded fakey color / completion snapshot / parser tool / monitor start policy failures | 1 |
+| read-by | [agent:sase-17p.3][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.3/README.md
 
 <!-- sase:referenced-by:end -->
