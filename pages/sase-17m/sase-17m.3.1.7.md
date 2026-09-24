@@ -14,7 +14,7 @@ verify: sweep the wire-cutover surfaces for remaining agent-family keys, confirm
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.5](sase-17m.3.1.5.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

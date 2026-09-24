@@ -28,7 +28,7 @@ wire-mirrors: rename the agent-session fields and types in the src/sase/core wir
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.2](sase-17m.3.1.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17m.3.1](sase-17m.3.1.md) / sase-17m.3.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.3.md) · **Assignee:** `sase-17m.3.1.4` · **Size:** medium
-**Created:** 2026-09-24 02:56:47 EDT
+**Created:** 2026-09-24 02:56:47 EDT · **Closed:** 2026-09-24 09:27:25 EDT
 **Plan:** [202609/agent\_session\_wire\_cutover.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_wire_cutover.md)
 
 ## Description
@@ -17,11 +17,13 @@ agent-model: rename the family-concept fields of the Agent dataclass (src/sase/a
 
 [2026-09-24T13:14:40Z · sase-17m.3.1.4] agent-model work complete: renamed all 8 family-concept Agent dataclass fields to agent_session* (agent_session, agent_session_role, agent_session_parallel, is_imported/is_remote_agent_session_container, agent_session_container, imported_agent_session_parent_synthetic, derived_plan_agent_session_root) plus mirrored dataclasses (AgentListEntry, RunningAgentInfo, FamilyAttachLaunchPlan incl. env JSON round-trip, SuccessorRequest/create_kwargs), _agent_status_roles helper, plan_chain private params, and ~2400 test refs across 406 files. agent_bundle.py gained LEGACY_AGENT_FIELD_NAMES remap (old bundles load; writers emit only new; 2 new tests in tests/test_agent_model_bundle.py, proven to fail without the table). Boundaries kept per plan: core-bound capacity records keep legacy agent_family_parallel key (core struct has no alias; same boundary as capacity_session_keys_for_core), fleet/core legacy readers untouched, LEGACY_* constants untouched, cli_list -j keys + skills doc + workflow kind agent_family + launch_request agent_meta.* context keys left for runtime-cutover/durable-json (3.1.5 owns launch_request context keys). Verify: ruff clean, mypy clean (4892 files), toobig clean, committed-plans clean, thousands of scoped tests green. Pre-existing red (proven identical on clean tree b85538009, zero file overlap): symvision gate (73 private-import violations), snippet CLI x2 (rich width env), 9 prompt-panel render goldens, import-budget 3338<3290, memory-validate registry drift. Core gap filed as PROPOSED FOLLOW-UP for core-contract (index scanner misses agent_session_parallel; stats parity fixture keeps legacy parallel key with boundary comment).
 
+[2026-09-24T13:27:25Z · sase-17m.3.1.4] Closed by explicit `sase stitch create -B close` after create_commit landed 5a048ceb3 ("refactor(agent-session): rename Agent family-concept fields to agent_session (sase-17m.3.1.4)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-17m.3.1.4` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.5](sase-17m.3.1.5.md) ◐ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

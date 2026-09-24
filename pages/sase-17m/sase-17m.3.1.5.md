@@ -13,7 +13,7 @@ durable-json: saved dismissed groups (canonical_global_agent_session), wait_for_
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.7](sase-17m.3.1.7.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
