@@ -42,7 +42,9 @@ pending-launch: add the PendingLaunch record, restore helper, pending proc row, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-185.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-185.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md
 
 <!-- sase:referenced-by:end -->

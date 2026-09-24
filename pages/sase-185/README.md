@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-185.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-185.2.md) | [sase-185.2](sase-185.2.md) | 1 |
 | [bbugyi200.athena.sase-185.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.3/README.md) | [sase-185.3](sase-185.3.md) | 1 |
 | [bbugyi200.athena.sase-185.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.4/README.md) | [sase-185.4](sase-185.4.md) | 1 |
-| [bbugyi200.athena.sase-185.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md) | [sase-185](README.md) | 1 |
+| [bbugyi200.athena.sase-185.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md) | [sase-185](README.md) | 2 |
 
 ## Commits
 
@@ -62,6 +62,7 @@ flowchart TD
 | sase | [`93d8d41`](https://github.com/sase-org/sase/commit/93d8d4140cea62629942839fa9eee8c962fcf5a0) | feat(ace): detach accepted agent launch guards | [sase-185.2](sase-185.2.md) | 2026-09-24 16:17:44 EDT |
 | sase | [`a21985b`](https://github.com/sase-org/sase/commit/a21985b88fe2de892bb221d3a5ab4fa1cec285b7) | feat(ace): detach dispatch source preflight (sase-185.3) | [sase-185.3](sase-185.3.md) | 2026-09-24 16:44:28 EDT |
 | sase | [`10422bd`](https://github.com/sase-org/sase/commit/10422bd05fe47a34e8b78ef916db103db7018cfc) | fix(ace): land sase-185 detached prompt submit | [sase-185](README.md) | 2026-09-24 17:58:52 EDT |
+| sase--plans | [`sase--plans@01c6f4f`](https://github.com/sase-org/sase--plans/commit/01c6f4f40a1ffccb4864f9093d2ee25160432ffc) | chore(plans): mark detached\_prompt\_submit plan done (sase-185) | [sase-185](README.md) | 2026-09-24 18:02:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -70,7 +71,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0rd][1] | Need my note's ordinal to correct an error count | 3 |
+| read-by | [agent:sase-185.land][2] | Need the parent link | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0rd/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md
 
 <!-- sase:referenced-by:end -->

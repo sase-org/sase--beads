@@ -38,7 +38,9 @@ detached-dispatch: post the submit immediately for `%dispatch` prompts (syntax e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-185.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-185.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md
 
 <!-- sase:referenced-by:end -->
