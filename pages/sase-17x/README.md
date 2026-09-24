@@ -19,7 +19,7 @@
 | [sase-17x.10](sase-17x.10.md) | Empty state, doc peek, and history search | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.11](sase-17x.11.md) | Run policies, confirmation-aware blocks, and built-ins | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.12](sase-17x.12.md) | Flip \`:\` and \`;\`, remove the flag, and land | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
-| [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.4](sase-17x.4.md) | Command-line proc tag and retention bucket | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
 | [sase-17x.5](sase-17x.5.md) | sase-core CommandLineGrammar resolver | ◐ in_progress | large | 2026-09-24 | 1 | 0 |
@@ -37,7 +37,7 @@ flowchart TD
     n2["sase-17x.10: Empty state, doc peek, and history search [in_progress]"]
     n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [in_progress]"]
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [in_progress]"]
-    n5["sase-17x.2: Command Line spec contract [in_progress]"]
+    n5["sase-17x.2: Command Line spec contract [closed]"]
     n6["sase-17x.3: Value-kind coverage and ratchet [in_progress]"]
     n7["sase-17x.4: Command-line proc tag and retention bucket [in_progress]"]
     n8["sase-17x.5: sase-core CommandLineGrammar resolver [in_progress]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.10/README.md) | [sase-17x.10](sase-17x.10.md) | 0 |
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 0 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 0 |
-| [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 0 |
+| [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 0 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 0 |
 | [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.5/README.md) | [sase-17x.5](sase-17x.5.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5a79551`](https://github.com/sase-org/sase/commit/5a7955161e960662c41fa496ab5ef699941e3cb1) | feat(cli): add shared stdout color contract honoring FORCE\_COLOR | [sase-17x.1](sase-17x.1.md) | 2026-09-24 11:48:58 EDT |
+| sase | [`db4266e`](https://github.com/sase-org/sase/commit/db4266e1cd1c853bfe3a176a053ef2aa0c80dbde) | feat(completion): Command Line spec contract (sase-17x.2) | [sase-17x.2](sase-17x.2.md) | 2026-09-24 11:51:25 EDT |
