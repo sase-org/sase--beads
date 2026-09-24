@@ -19,4 +19,4 @@ lsp-build-cache: add a host-wide content-addressed cache for the sase-xprompt-ls
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.8/README.md) | [sase-18f.8](sase-18f.8.md) | 0 |
+| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 0 |

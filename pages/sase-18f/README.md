@@ -19,7 +19,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-18f.1](sase-18f.1.md) | Restore every lint gate except toobig on master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18f.1](sase-18f.1.md) | Restore every lint gate except toobig on master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.2](sase-18f.2.md) | Split the two oversized ACE modules | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.3](sase-18f.3.md) | Repair non-UI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
@@ -34,7 +34,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 ```mermaid
 flowchart TD
     n0["sase-18f: Return just check to green and remove its recurring failure causes [in_progress]"]
-    n1["sase-18f.1: Restore every lint gate except toobig on master [in_progress]"]
+    n1["sase-18f.1: Restore every lint gate except toobig on master [closed]"]
     n2["sase-18f.2: Split the two oversized ACE modules [in_progress]"]
     n3["sase-18f.3: Repair non-UI tests that fail on clean master [in_progress]"]
     n4["sase-18f.4: Repair ACE TUI tests that fail on clean master [in_progress]"]
@@ -70,14 +70,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md) | [sase-18f.1](sase-18f.1.md) | 0 |
+| [bbugyi200.athena.sase-18f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md) | [sase-18f.1](sase-18f.1.md) | 1 |
 | [bbugyi200.athena.sase-18f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.2/README.md) | [sase-18f.2](sase-18f.2.md) | 0 |
 | [bbugyi200.athena.sase-18f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.3/README.md) | [sase-18f.3](sase-18f.3.md) | 0 |
 | [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 0 |
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 1 |
 | [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 1 |
-| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.8/README.md) | [sase-18f.8](sase-18f.8.md) | 0 |
+| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 0 |
 | [bbugyi200.athena.sase-18f.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md) | [sase-18f.9](sase-18f.9.md) | 0 |
 | [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 0 |
 
@@ -88,6 +88,7 @@ flowchart TD
 | sase | [`4b3699f`](https://github.com/sase-org/sase/commit/4b3699f0dc3242c723f498c654f643cec5f337d0) | fix: ignore cache-only script directories in pyscripts lint | [sase-18f.5](sase-18f.5.md) | 2026-09-24 18:03:38 EDT |
 | sase | [`b2137e8`](https://github.com/sase-org/sase/commit/b2137e84c907c2c5bfe4a6055c64ba93abd216b1) | feat(xprompts): strengthen split-file constraints | [sase-18f.7](sase-18f.7.md) | 2026-09-24 18:13:01 EDT |
 | sase | [`fdc3e3c`](https://github.com/sase-org/sase/commit/fdc3e3caf65d7d6a56ae0499dd11fac92efd8066) | feat(bead): refuse closing a flag bead while its registry definition survives | [sase-18f.6](sase-18f.6.md) | 2026-09-24 18:14:28 EDT |
+| sase | [`114fbca`](https://github.com/sase-org/sase/commit/114fbca89a9430704d877982b4180a0425763e94) | fix(lint): restore every lint gate except toobig (sase-18f.1) | [sase-18f.1](sase-18f.1.md) | 2026-09-24 18:42:42 EDT |
 
 <!-- sase:referenced-by:start -->
 

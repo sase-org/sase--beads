@@ -30,3 +30,15 @@ flag-close-guard: mirror the leftover --epic-symbol refusal in `sase bead close`
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fdc3e3c`](https://github.com/sase-org/sase/commit/fdc3e3caf65d7d6a56ae0499dd11fac92efd8066) | feat(bead): refuse closing a flag bead while its registry definition survives | [sase-18f.6](sase-18f.6.md) | 2026-09-24 18:14:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18f.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md
+
+<!-- sase:referenced-by:end -->
