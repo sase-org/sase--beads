@@ -34,3 +34,15 @@ run-policies: run foreground-policy commands in the real terminal through `app.s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee9eda4`](https://github.com/sase-org/sase/commit/ee9eda4ab340bf9f6aaac08a773ca39dd912f93f) | feat(ace): command-line run policies, confirmation-aware blocks, and built-ins (sase-17x.11) | [sase-17x.11](sase-17x.11.md) | 2026-09-24 16:22:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.11][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md
+
+<!-- sase:referenced-by:end -->
