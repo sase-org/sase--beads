@@ -13,7 +13,7 @@ panel-shell: create the `ace_command_line` beta flag. Add `open_command_line`, t
 
 ## Dependencies
 
-- **Depends on:** [sase-17x.6](sase-17x.6.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.6](sase-17x.6.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.8](sase-17x.8.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.9](sase-17x.9.md) ◐ · ⧖ 2026-09-24
 
