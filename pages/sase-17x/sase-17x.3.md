@@ -17,6 +17,8 @@ kind-coverage: add GATE, TOOL_RUN and TASK_TYPE value kinds with providers, anno
 
 [2026-09-24T16:35:01Z · sase-17x.3] Kind-coverage done: GATE/TOOL_RUN/TASK_TYPE kinds with read-only prompt-free providers, entity+path kind tables and a declarative value_hint table cover all 569 previously-unkinded slots (verified 0 uncovered); ratchet test tests/completion/test_kind_coverage.py added; cli_spec snapshot regenerated. Verified: 121 completion tests pass, ruff format+check clean, mypy clean (4920 files).
 
+[2026-09-24T17:25:18Z · 0qz--code] symvision_green_master sweep: set_completion_hint deleted from completion/kinds.py as dead API (no src callers; privatizing would create a dead private). policy_table_paths deleted; test_spec_contract builds the union locally. Heads-up since 17x.3 owns kinds.py coverage.
+
 ## Dependencies
 
 - **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24

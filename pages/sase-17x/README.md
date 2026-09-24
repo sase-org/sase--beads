@@ -11,6 +11,10 @@
 
 `;` opens the Command Palette and `:` opens a new bottom-anchored Command Line panel. In the panel, users type `sase` commands with better completion than any shell offers: selection-aware, fuzzy, documented and grammar-checked. Output streams inline. Every command runs as a durable, tagged proc that keeps running after the panel is hidden, shows up in Admin Center → Procs, and returns to the transcript when the panel reopens.
 
+## Notes
+
+[2026-09-24T17:14:59Z · sase-17m.3.1.land] DISCOVERED ISSUE (sase-17m.3.1 land agent, master df8ed5134, 2026-09-24): tests/fakey/test_cli.py::test_help_is_colored_sorted_and_all_long_options_have_aliases fails on master with and without the landing diff. sase-17x.1 (5a7955161) moved fakey help onto sase.core.term_color.should_colorize (NO_COLOR, then FORCE_COLOR/CLICOLOR_FORCE, then isatty). The test runs 'python -m sase.fakey.cli --help' with capture_output (not a TTY), TERM=xterm, and NO_COLOR removed, and expects '\x1b[1;36musage:', but now gets plain 'usage: fakey ...'. Either the test should set FORCE_COLOR=1, or fakey help should keep its previous TERM-based coloring. Seen in the full lane that just test-scoped escalated to (17 failed / 46440 passed).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -22,7 +26,7 @@
 | [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.4](sase-17x.4.md) | Command-line proc tag and retention bucket | ✓ closed | small | 2026-09-24 | 1 | 2 |
-| [sase-17x.5](sase-17x.5.md) | sase-core CommandLineGrammar resolver | ◐ in_progress | large | 2026-09-24 | 1 | 0 |
+| [sase-17x.5](sase-17x.5.md) | sase-core CommandLineGrammar resolver | ✓ closed | large | 2026-09-24 | 1 | 1 |
 | [sase-17x.6](sase-17x.6.md) | Command-line proc plumbing | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.7](sase-17x.7.md) | Command Line panel shell (beta flag) | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.8](sase-17x.8.md) | Transcript block interactions and lifecycle | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
@@ -40,7 +44,7 @@ flowchart TD
     n5["sase-17x.2: Command Line spec contract [closed]"]
     n6["sase-17x.3: Value-kind coverage and ratchet [closed]"]
     n7["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
-    n8["sase-17x.5: sase-core CommandLineGrammar resolver [in_progress]"]
+    n8["sase-17x.5: sase-core CommandLineGrammar resolver [closed]"]
     n9["sase-17x.6: Command-line proc plumbing [closed]"]
     n10["sase-17x.7: Command Line panel shell (beta flag) [in_progress]"]
     n11["sase-17x.8: Transcript block interactions and lifecycle [in_progress]"]
@@ -85,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 2 |
-| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.5/README.md) | [sase-17x.5](sase-17x.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.5.md) | [sase-17x.5](sase-17x.5.md) | 1 |
 | [bbugyi200.athena.sase-17x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.6/README.md) | [sase-17x.6](sase-17x.6.md) | 1 |
 | [bbugyi200.athena.sase-17x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md) | [sase-17x.7](sase-17x.7.md) | 0 |
 | [bbugyi200.athena.sase-17x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md) | [sase-17x.8](sase-17x.8.md) | 0 |
@@ -102,6 +106,7 @@ flowchart TD
 | sase-core | [`sase-core@f405c44`](https://github.com/sase-org/sase-core/commit/f405c440a048595c7d9572e23b5dacfcf887050c) | feat(procs): command-line proc tag retention bucket in Rust store | [sase-17x.4](sase-17x.4.md) | 2026-09-24 12:10:40 EDT |
 | sase | [`79a16ca`](https://github.com/sase-org/sase/commit/79a16ca7712fca793714e92d9c884aca86da1fc5) | feat(completion): add GATE, TOOL\_RUN, TASK\_TYPE kinds with entity candidates and kind-coverage ratchet | [sase-17x.3](sase-17x.3.md) | 2026-09-24 12:37:08 EDT |
 | sase | [`70afac5`](https://github.com/sase-org/sase/commit/70afac5176b90b4c7cad6590b4199ad295fc14cb) | feat(cmdline): command-line proc plumbing (sase-17x.6) | [sase-17x.6](sase-17x.6.md) | 2026-09-24 12:50:35 EDT |
+| sase | [`ede63ea`](https://github.com/sase-org/sase/commit/ede63ea9dcec4672873412d9f5d4d3f65f72ffcf) | feat(command-line): CommandLineGrammar resolver adapter and contract test | [sase-17x.5](sase-17x.5.md) | 2026-09-24 13:50:20 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -109,10 +114,12 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17x.1][1] | Need parent epic context for color-contract phase | 1 |
-| read-by | [agent:sase-17x.2][2] | Need parent epic status for phase work | 1 |
+| read-by | [agent:sase-17m.3.1.land][1] | Check whether the FORCE_COLOR stdout color contract (5a7955161) belongs to this epic before routing a fakey help-color test failure | 2 |
+| read-by | [agent:sase-17x.1][2] | Need parent epic context for color-contract phase | 1 |
+| read-by | [agent:sase-17x.2][3] | Need parent epic status for phase work | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ proc-retention: in sase-core, give finished procs tagged `command-line` their ow
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.5](sase-17x.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.5](sase-17x.5.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.6](sase-17x.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents

@@ -18,7 +18,7 @@ spec-contract: extend the completion spec with required/metavar/default/value_hi
 ## Dependencies
 
 - **Blocks:** [sase-17x.3](sase-17x.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.5](sase-17x.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.5](sase-17x.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

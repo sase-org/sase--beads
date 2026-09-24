@@ -11,11 +11,15 @@
 
 completion-popup: load the grammar at idle and wire the resolver into the input. This adds token highlighting, advisory diagnostics, the floating fuzzy popup fed by in-memory TUI entities and debounced providers, the zsh menu-select key rules, and the live signature line with its chips.
 
+## Notes
+
+[2026-09-24T17:24:00Z · 0qz--code] symvision_green_master sweep: ensure_command_line_spec and CompletionSpecCacheError stay public under --epic-symbol sase-17x(...) Justfile entries. Your phase consumes them; remove both entries when it lands.
+
 ## Dependencies
 
 - **Blocks:** [sase-17x.10](sase-17x.10.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.5](sase-17x.5.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.5](sase-17x.5.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.7](sase-17x.7.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
