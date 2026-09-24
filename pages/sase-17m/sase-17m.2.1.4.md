@@ -13,7 +13,7 @@ sweep: classify every remaining famil hit in sase-core, fix stragglers, confirm 
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.2.1.3](sase-17m.2.1.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17m.2.1.3](sase-17m.2.1.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

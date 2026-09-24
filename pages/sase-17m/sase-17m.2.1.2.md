@@ -26,7 +26,7 @@ scan-runtime: rename the family concept in agent_scan, agent_runtime, agent_clan
 ## Dependencies
 
 - **Depends on:** [sase-17m.2.1.1](sase-17m.2.1.1.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17m.2.1.3](sase-17m.2.1.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.2.1.3](sase-17m.2.1.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -39,3 +39,15 @@ scan-runtime: rename the family concept in agent_scan, agent_runtime, agent_clan
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ef82848`](https://github.com/sase-org/sase-core/commit/ef8284804ab894ed8f3277726bea1e4cc34a6864) | feat(core): additive agent-session rename for scan, runtime, lifecycle, runner, and stats wires | [sase-17m.2.1.2](sase-17m.2.1.2.md) | 2026-09-24 01:01:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.2.1.2][1] | confirm phase bead closed after land | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->
