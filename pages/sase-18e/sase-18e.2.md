@@ -23,7 +23,7 @@ fast-monitor-start: resolve a pinned caller without a full project scan, do one 
 
 ## Dependencies
 
-- **Blocks:** [sase-18e.3](sase-18e.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18e.3](sase-18e.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
