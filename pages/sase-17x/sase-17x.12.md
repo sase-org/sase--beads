@@ -16,7 +16,7 @@ flip-and-land: bind `:` to the Command Line and `;` to the palette only. Add the
 - **Depends on:** [sase-17x.1](sase-17x.1.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.10](sase-17x.10.md) ◐ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.3](sase-17x.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.3](sase-17x.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

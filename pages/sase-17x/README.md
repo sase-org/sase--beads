@@ -20,7 +20,7 @@
 | [sase-17x.11](sase-17x.11.md) | Run policies, confirmation-aware blocks, and built-ins | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.12](sase-17x.12.md) | Flip \`:\` and \`;\`, remove the flag, and land | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.4](sase-17x.4.md) | Command-line proc tag and retention bucket | ✓ closed | small | 2026-09-24 | 1 | 2 |
 | [sase-17x.5](sase-17x.5.md) | sase-core CommandLineGrammar resolver | ◐ in_progress | large | 2026-09-24 | 1 | 0 |
 | [sase-17x.6](sase-17x.6.md) | Command-line proc plumbing | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
@@ -38,7 +38,7 @@ flowchart TD
     n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [in_progress]"]
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [in_progress]"]
     n5["sase-17x.2: Command Line spec contract [closed]"]
-    n6["sase-17x.3: Value-kind coverage and ratchet [in_progress]"]
+    n6["sase-17x.3: Value-kind coverage and ratchet [closed]"]
     n7["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
     n8["sase-17x.5: sase-core CommandLineGrammar resolver [in_progress]"]
     n9["sase-17x.6: Command-line proc plumbing [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 0 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
-| [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 0 |
+| [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 2 |
 | [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.5/README.md) | [sase-17x.5](sase-17x.5.md) | 0 |
 | [bbugyi200.athena.sase-17x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.6/README.md) | [sase-17x.6](sase-17x.6.md) | 0 |
@@ -100,6 +100,7 @@ flowchart TD
 | sase | [`db4266e`](https://github.com/sase-org/sase/commit/db4266e1cd1c853bfe3a176a053ef2aa0c80dbde) | feat(completion): Command Line spec contract (sase-17x.2) | [sase-17x.2](sase-17x.2.md) | 2026-09-24 11:51:25 EDT |
 | sase | [`f6e17fb`](https://github.com/sase-org/sase/commit/f6e17fb2c9adfbc82c4c1c726867b9026a512450) | feat(sase-17x.4): command-line proc tag and retention bucket in sase | [sase-17x.4](sase-17x.4.md) | 2026-09-24 12:05:27 EDT |
 | sase-core | [`sase-core@f405c44`](https://github.com/sase-org/sase-core/commit/f405c440a048595c7d9572e23b5dacfcf887050c) | feat(procs): command-line proc tag retention bucket in Rust store | [sase-17x.4](sase-17x.4.md) | 2026-09-24 12:10:40 EDT |
+| sase | [`79a16ca`](https://github.com/sase-org/sase/commit/79a16ca7712fca793714e92d9c884aca86da1fc5) | feat(completion): add GATE, TOOL\_RUN, TASK\_TYPE kinds with entity candidates and kind-coverage ratchet | [sase-17x.3](sase-17x.3.md) | 2026-09-24 12:37:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
