@@ -13,7 +13,7 @@ core-history: rename history/chat_fork/family.py and scripts/_agent_chat_from_na
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4.1.4](sase-17m.4.1.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.4.1.4](sase-17m.4.1.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

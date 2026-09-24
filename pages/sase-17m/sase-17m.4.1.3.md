@@ -20,7 +20,7 @@ agent-runtime: rename the family-concept identifiers, comments, and messages lef
 ## Dependencies
 
 - **Depends on:** [sase-17m.4.1.2](sase-17m.4.1.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.4.1.4](sase-17m.4.1.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.4](sase-17m.4.1.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ agent-runtime: rename the family-concept identifiers, comments, and messages lef
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`44ec3e6`](https://github.com/sase-org/sase/commit/44ec3e62d3d94851cc4a01abc03ba1a161f72e05) | refactor(agent-session): rename agent runtime identifiers (sase-17m.4.1.3) | [sase-17m.4.1.3](sase-17m.4.1.3.md) | 2026-09-24 16:31:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.3][1] | Confirm assigned phase closure and recorded verification after completion | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
