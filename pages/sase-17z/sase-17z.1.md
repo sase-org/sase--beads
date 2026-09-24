@@ -22,7 +22,7 @@ resolver: make pending-plan visibility gate-shell aware, add the lightweight pla
 ## Dependencies
 
 - **Blocks:** [sase-17z.2](sase-17z.2.md) ◐ · ⧖ 2026-09-24
-- **Blocks:** [sase-17z.3](sase-17z.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17z.3](sase-17z.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ resolver: make pending-plan visibility gate-shell aware, add the lightweight pla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2bdd70c`](https://github.com/sase-org/sase/commit/2bdd70c2d5d7c5fd09e2a23e32fce53a47512e28) | feat(plan): gate-owned pending visibility and name-first selector resolver (sase-17z.1) | [sase-17z.1](sase-17z.1.md) | 2026-09-24 13:16:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17z.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17z.1.md
+
+<!-- sase:referenced-by:end -->
