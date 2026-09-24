@@ -16,7 +16,7 @@ An agent's in-agent handoff (above all `sase monitor start`) either completes or
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-18e.1](sase-18e.1.md) | Codex adapter conformance for handoff commands | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18e.2](sase-18e.2.md) | Make in-agent sase monitor start fast and never silent | ✓ closed | medium | 2026-09-24 | 1 | 1 |
+| [sase-18e.2](sase-18e.2.md) | Make in-agent sase monitor start fast and never silent | ✓ closed | medium | 2026-09-24 | 1 | 2 |
 | [sase-18e.3](sase-18e.3.md) | Host records and surfaces a killed handoff | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 
 ## Lineage
@@ -38,7 +38,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-18e.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.1/README.md) | [sase-18e.1](sase-18e.1.md) | 1 |
-| [bbugyi200.athena.sase-18e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.2/README.md) | [sase-18e.2](sase-18e.2.md) | 1 |
+| [bbugyi200.athena.sase-18e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.2/README.md) | [sase-18e.2](sase-18e.2.md) | 2 |
 | [bbugyi200.athena.sase-18e.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.3/README.md) | [sase-18e.3](sase-18e.3.md) | 0 |
 | [bbugyi200.athena.sase-18e.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.land/README.md) | [sase-18e](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`6a9bac8`](https://github.com/sase-org/sase/commit/6a9bac885fb61920d213dabe246f0b06352428b7) | fix(codex): recover stranded handoff commands | [sase-18e.1](sase-18e.1.md) | 2026-09-24 17:10:33 EDT |
 | sase | [`c9da1f1`](https://github.com/sase-org/sase/commit/c9da1f164786b5a94700124bbfb33d806f133b67) | feat(monitor): make in-agent sase monitor start fast and never silent (sase-18e.2) | [sase-18e.2](sase-18e.2.md) | 2026-09-24 18:11:04 EDT |
+| sase-core | [`sase-core@20ac645`](https://github.com/sase-org/sase-core/commit/20ac645a754167048b95f2edc9b0c6578ee5f290) | feat(agent-scan): agent\_session candidate filter for the artifact index (sase-18e.2) | [sase-18e.2](sase-18e.2.md) | 2026-09-24 18:16:15 EDT |

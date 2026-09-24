@@ -29,10 +29,11 @@ fast-monitor-start: resolve a pinned caller without a full project scan, do one 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.2/README.md) | [sase-18e.2](sase-18e.2.md) | 1 |
+| [bbugyi200.athena.sase-18e.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.2/README.md) | [sase-18e.2](sase-18e.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c9da1f1`](https://github.com/sase-org/sase/commit/c9da1f164786b5a94700124bbfb33d806f133b67) | feat(monitor): make in-agent sase monitor start fast and never silent (sase-18e.2) | [sase-18e.2](sase-18e.2.md) | 2026-09-24 18:11:04 EDT |
+| sase-core | [`sase-core@20ac645`](https://github.com/sase-org/sase-core/commit/20ac645a754167048b95f2edc9b0c6578ee5f290) | feat(agent-scan): agent\_session candidate filter for the artifact index (sase-18e.2) | [sase-18e.2](sase-18e.2.md) | 2026-09-24 18:16:15 EDT |
