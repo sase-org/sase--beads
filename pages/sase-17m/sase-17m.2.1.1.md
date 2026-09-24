@@ -11,6 +11,16 @@
 
 identity-directives: rename agent_family.rs to agent_session.rs and the agent_identity, artifact_link, agent_launch, hold, editor, and LSP family concept. Add the parse_agent_session_name and resolve_agent_session_parent bindings, accept %id session=, reserve session/sessions, and flip editor completion to session= with companion sase tests that tolerate both core shapes.
 
+## Notes
+
+[2026-09-24T04:00:17Z · sase-17m.2.1.1] PROPOSED FOLLOW-UP: wire-cutover tightens the dual-shape directive tests to the new shape after the core pin bump
+
+[2026-09-24T04:00:48Z · sase-17m.2.1.1] Phase exit: reserved-name check found no existing agent named session/sessions (rg over ~/.sase/projects empty, agent list clean); session/sessions added to RESERVED_USERNAMES so creation and validation reject them for new names, historical parsing untouched
+
+[2026-09-24T04:01:38Z · sase-17m.2.1.1] Remaining famil hits in owned files: (a) legacy serialized spellings pinned for core-contract: family_name keys, family/families hold fields, family_attach_* launch keys, AgentContainerKind/DirectiveValueRole "family" values, families/ link paths, family: relationship keys, invalid-id-family code, family= keyword/directive syntax, "family" completion-kind matching; (b) legacy binding names: parse_agent_family_name, resolve_agent_family_parent; (c) no unrelated-meaning hits in owned files. No *_SCHEMA_VERSION value, SQLite schema, golden, or key-order assertion changed.
+
+[2026-09-24T04:02:07Z · sase-17m.2.1.1] PROPOSED FOLLOW-UP: sase workspace sase tool run check is blocked by pre-existing mypy error in src/sase/ace/tui/widgets/file_panel/_content.py:132 (FilePanelContentMixin has no attribute parent), verified present with this phase changes stashed; unrelated to identity-directives
+
 ## Dependencies
 
 - **Blocks:** [sase-17m.2.1.2](sase-17m.2.1.2.md) ◐ · ⧖ 2026-09-23
@@ -19,4 +29,10 @@ identity-directives: rename agent_family.rs to agent_session.rs and the agent_id
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.1/README.md) | [sase-17m.2.1.1](sase-17m.2.1.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.1/README.md) | [sase-17m.2.1.1](sase-17m.2.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a764a76`](https://github.com/sase-org/sase/commit/a764a76d41fbcacfe08ecbf93a351d3c53d732ad) | feat(ace): tolerate new agent-session spelling in directive contract and completion | [sase-17m.2.1.1](sase-17m.2.1.1.md) | 2026-09-24 00:05:04 EDT |
