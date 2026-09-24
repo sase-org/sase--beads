@@ -20,4 +20,10 @@ detached-guards: move the acceptance point ahead of the `%hold` and hard-disable
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-185.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.2/README.md) | [sase-185.2](sase-185.2.md) | 0 |
+| [bbugyi200.athena.sase-185.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-185.2.md) | [sase-185.2](sase-185.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`93d8d41`](https://github.com/sase-org/sase/commit/93d8d4140cea62629942839fa9eee8c962fcf5a0) | feat(ace): detach accepted agent launch guards | [sase-185.2](sase-185.2.md) | 2026-09-24 16:17:44 EDT |
