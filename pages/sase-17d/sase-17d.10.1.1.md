@@ -27,7 +27,7 @@ PROPOSED FOLLOW-UP: none beyond sase-17c (the symvision backlog keeps just check
 
 ## Dependencies
 
-- **Blocks:** [sase-17d.10.1.2](sase-17d.10.1.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17d.10.1.2](sase-17d.10.1.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

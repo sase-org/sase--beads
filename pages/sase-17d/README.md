@@ -27,6 +27,8 @@ Done when: `just check` is green (toobig included), the three goldens are commit
 
 [2026-09-24T15:39:26Z · sase-17m.3.1.land] DISCOVERED ISSUE (sase-17m.3.1 land agent, master 77e0cfb6c, 2026-09-24): 9 deterministic unit-test failures trace to this epic's phases and also fail on the pre-agent-session tree bb81b993a^. (1) sase-17d.2 (9abf08b5d, card-partitioned Main documents) makes the prompt panel emit CardPart wrappers that the test helpers do not unwrap: tests/ace/tui/widgets/test_agent_prompt_panel_monitor.py (test_monitor_section_dims_the_inactive_status_half, test_family_monitor_phase_decodes_ansi_and_drops_escapes, test_starter_monitor_phase_decodes_ansi_and_drops_escapes), test_agent_prompt_panel_steps.py::test_parallel_step_does_not_show_agent_prompt, test_agent_prompt_panel_xprompts.py::test_update_display_renders_xprompts_after_detail_settles, and test_agent_prompt_semantic.py (test_agent_xprompt_and_prompt_receive_roles_replies_do_not, test_hint_mode_restores_file_hints_after_semantics, test_family_pinned_and_workflow_authored_prompt_paths). Each fails with an AssertionError such as 'isinstance(CardPart(card_id=context...), (Text, AgentHeaderRenderable))' or 'TESTING not found in rendered monitor section'. (2) sase-17d.1 (9c701d658) added subject_identity=agent.identity in AgentLLMCallsPanel._cached_fetch_result, so tests/test_timezone_display_tui.py::test_llm_calls_panel_fallbacks_use_configured_wall_time fails with AttributeError: SimpleNamespace has no attribute 'identity'. Evidence: sase tool run test 09a0fb945e88.
 
+[2026-09-24T18:58:28Z · sase-17z.land] DISCOVERED ISSUE: (proposed by sase-17z.2, re-verified by sase-17z land agent at master 71736697d) just check lint (toobig) is red: src/sase/ace/tui/widgets/decks/panel.py has 1051 lines (limit 1000); grown by deck commits 075225d53, 7d2272588, 329d4049b (sase-17d.8). Split the module (keeping just _lint-symvision green).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -52,7 +54,7 @@ flowchart TD
     n2["sase-17d.10: Cut over to decks and delete the legacy UI [in_progress]"]
     n3["sase-17d.10.1: Cut over the Agents tab to decks and delete the legacy detail UI [in_progress]"]
     n4["sase-17d.10.1.1: Remove the agent_decks flag and its Off branches [closed]"]
-    n5["sase-17d.10.1.2: Delete the legacy detail UI and retire its keymap ids [in_progress]"]
+    n5["sase-17d.10.1.2: Delete the legacy detail UI and retire its keymap ids [closed]"]
     n6["sase-17d.10.1.3: Regenerate and inspect every affected PNG golden [in_progress]"]
     n7["sase-17d.11: Docs, glossary strands and key-change notice [in_progress]"]
     n8["sase-17d.2: Card-partitioned Main documents [closed]"]
@@ -101,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.md) | [sase-17d.10](sase-17d.10.md) | 0 |
 | [bbugyi200.athena.sase-17d.10.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.1.md) | [sase-17d.10.1.1](sase-17d.10.1.1.md) | 1 |
 | [bbugyi200.athena.sase-17d.10.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.2.md) | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 1 |
-| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10.1.3/README.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10.1.land/README.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
 | [bbugyi200.athena.sase-17d.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.11/README.md) | [sase-17d.11](sase-17d.11.md) | 0 |
 | [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
@@ -127,6 +129,7 @@ flowchart TD
 | sase | [`329d404`](https://github.com/sase-org/sase/commit/329d4049b6f61467f5a97006346f0b487b994ee8) | feat(ace): implement deck spread versus paged rendering (sase-17d.8) | [sase-17d.8](sase-17d.8.md) | 2026-09-24 09:53:14 EDT |
 | sase | [`bda8308`](https://github.com/sase-org/sase/commit/bda83083bfec4fa0cc0d8ddbebc7f764f56ac1c8) | test(ace): drop zoom-modal routing tests and migrate persistence/metadata tests after deck flag removal | [sase-17d.10.1.1](sase-17d.10.1.1.md) | 2026-09-24 13:23:32 EDT |
 | sase | [`742c1df`](https://github.com/sase-org/sase/commit/742c1df38b04d1b190a5102168f0cf2ab37e6840) | feat(ace): remove legacy agents UI | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 2026-09-24 14:37:20 EDT |
+| sase | [`37c8bb2`](https://github.com/sase-org/sase/commit/37c8bb26438cf1212fcfe24b44f7817b5c5753dc) | fix(ace-decks): preserve pending spread card across re-push and split | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 2026-09-24 16:04:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -139,11 +142,13 @@ flowchart TD
 | read-by | [agent:sase-17d.9][3] | parent epic plan for deck persistence context | 1 |
 | read-by | [agent:sase-17m.2.1.land][4] | Check existing notes for the mypy issue | 2 |
 | read-by | [agent:sase-17m.3.1.land][5] | Check whether decks/panel.py toobig and agent_decks flag-lint failures are already tracked by this epic | 1 |
+| read-by | [agent:sase-17y.land][6] | Check whether the decks/panel.py toobig failure belongs to an active epic | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0ql/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->
