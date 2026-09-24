@@ -13,7 +13,7 @@ deck-action-retarget: inventory every consumer of the legacy panel ids and visib
 
 ## Dependencies
 
-- **Depends on:** [sase-17d.5](sase-17d.5.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.5](sase-17d.5.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17d.8](sase-17d.8.md) ◐ · ⧖ 2026-09-23
 
 ## Agents

@@ -29,7 +29,7 @@ deck-panel-core: create the agent_decks beta flag and the widgets/decks package:
 
 - **Depends on:** [sase-17d.1](sase-17d.1.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17d.2](sase-17d.2.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17d.4](sase-17d.4.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.4](sase-17d.4.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

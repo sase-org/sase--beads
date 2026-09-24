@@ -13,7 +13,7 @@ node-panel-collapse-zoom: Ctrl+S hides the node panel without unmounting it and 
 
 ## Dependencies
 
-- **Depends on:** [sase-17d.5](sase-17d.5.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.5](sase-17d.5.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17d.9](sase-17d.9.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
