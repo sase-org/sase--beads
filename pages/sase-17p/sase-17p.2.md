@@ -15,7 +15,7 @@ standalone-handoff: split the executor so one body serves foreground and adopted
 
 - **Depends on:** [sase-17p.1](sase-17p.1.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17p.3](sase-17p.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17p.4](sase-17p.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17p.4](sase-17p.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -28,3 +28,15 @@ standalone-handoff: split the executor so one body serves foreground and adopted
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c0591ad`](https://github.com/sase-org/sase/commit/c0591adf203646bbe36a723a5592b0d4275c6863) | feat(tool): standalone hand-off of ToolRun via sase tool run -H | [sase-17p.2](sase-17p.2.md) | 2026-09-24 11:40:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17p.3][1] | check dependency status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.3/README.md
+
+<!-- sase:referenced-by:end -->
