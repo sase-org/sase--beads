@@ -38,7 +38,9 @@ service-panels: split the BgCmdList sidebar into statically composed Service Pro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17a.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17a.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17a.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md
 
 <!-- sase:referenced-by:end -->

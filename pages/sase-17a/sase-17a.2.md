@@ -40,7 +40,9 @@ service-panel-jk: add tab-scoped focus_next/prev_service_panel keymaps on J/K th
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17a.2][1] | check phase status and remaining work | 2 |
+| read-by | [agent:sase-17a.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-17a.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17a.1.md) | [sase-17a.1](sase-17a.1.md) | 1 |
 | [bbugyi200.athena.sase-17a.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.2/README.md) | [sase-17a.2](sase-17a.2.md) | 1 |
-| [bbugyi200.athena.sase-17a.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md) | [sase-17a](README.md) | 1 |
+| [bbugyi200.athena.sase-17a.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md) | [sase-17a](README.md) | 2 |
 
 ## Commits
 
@@ -49,6 +49,7 @@ flowchart TD
 | sase | [`3f5d34e`](https://github.com/sase-org/sase/commit/3f5d34e9fde31be2c0a8cc393f1db464e2cfa14d) | feat(axe): two-panel Services sidebar with titled panels | [sase-17a.1](sase-17a.1.md) | 2026-09-23 19:44:56 EDT |
 | sase | [`37bf264`](https://github.com/sase-org/sase/commit/37bf264296e6fe2aa2c6c80479c2a0d218c5572c) | feat(services): J/K panel jumps on the Services tab | [sase-17a.2](sase-17a.2.md) | 2026-09-23 20:17:37 EDT |
 | sase | [`09dda64`](https://github.com/sase-org/sase/commit/09dda64b5e8b1e0582a417c1ec90b5aee6d48576) | chore(services): land sase-17a by privatizing the services panel key helper | [sase-17a](README.md) | 2026-09-23 20:36:14 EDT |
+| sase--plans | [`sase--plans@513cb15`](https://github.com/sase-org/sase--plans/commit/513cb15158bdd582515eb960485b875301eb147a) | docs(plans): mark services\_tab\_panels plan done | [sase-17a](README.md) | 2026-09-23 20:39:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -57,7 +58,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17a.2][1] | check parent epic still open before re-keying epic-symbol | 1 |
+| read-by | [agent:sase-17a.land][2] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md
 
 <!-- sase:referenced-by:end -->
