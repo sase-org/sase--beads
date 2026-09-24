@@ -17,7 +17,7 @@ service-panels: split the BgCmdList sidebar into statically composed Service Pro
 
 ## Dependencies
 
-- **Blocks:** [sase-17a.2](sase-17a.2.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17a.2](sase-17a.2.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -30,3 +30,15 @@ service-panels: split the BgCmdList sidebar into statically composed Service Pro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3f5d34e`](https://github.com/sase-org/sase/commit/3f5d34e9fde31be2c0a8cc393f1db464e2cfa14d) | feat(axe): two-panel Services sidebar with titled panels | [sase-17a.1](sase-17a.1.md) | 2026-09-23 19:44:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17a.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17a.1.md
+
+<!-- sase:referenced-by:end -->

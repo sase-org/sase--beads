@@ -16,7 +16,7 @@ The Services tab sidebar renders as two titled, tribe-panel-style panels — "Se
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-17a.1](sase-17a.1.md) | Phase 1: Two-panel Services sidebar with titled panels | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-17a.2](sase-17a.2.md) | Phase 2: J / K panel jumps on the Services tab | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
+| [sase-17a.2](sase-17a.2.md) | Phase 2: J / K panel jumps on the Services tab | ✓ closed | small | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ The Services tab sidebar renders as two titled, tribe-panel-style panels — "Se
 flowchart TD
     n0["sase-17a: Services tab Service Procs and Scheduled Routines panels [in_progress]"]
     n1["sase-17a.1: Phase 1: Two-panel Services sidebar with titled panels [closed]"]
-    n2["sase-17a.2: Phase 2: J / K panel jumps on the Services tab [in_progress]"]
+    n2["sase-17a.2: Phase 2: J / K panel jumps on the Services tab [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17a.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17a.1.md) | [sase-17a.1](sase-17a.1.md) | 1 |
-| [bbugyi200.athena.sase-17a.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.2/README.md) | [sase-17a.2](sase-17a.2.md) | 0 |
+| [bbugyi200.athena.sase-17a.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.2/README.md) | [sase-17a.2](sase-17a.2.md) | 1 |
 | [bbugyi200.athena.sase-17a.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17a.land/README.md) | [sase-17a](README.md) | 0 |
 
 ## Commits
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3f5d34e`](https://github.com/sase-org/sase/commit/3f5d34e9fde31be2c0a8cc393f1db464e2cfa14d) | feat(axe): two-panel Services sidebar with titled panels | [sase-17a.1](sase-17a.1.md) | 2026-09-23 19:44:56 EDT |
+| sase | [`37bf264`](https://github.com/sase-org/sase/commit/37bf264296e6fe2aa2c6c80479c2a0d218c5572c) | feat(services): J/K panel jumps on the Services tab | [sase-17a.2](sase-17a.2.md) | 2026-09-23 20:17:37 EDT |
