@@ -13,7 +13,7 @@ syntax-flag: create the legacy_agent_family_syntax sunset flag with sase flag ne
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.4.1.7](sase-17m.4.1.7.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

@@ -22,7 +22,7 @@ lanes: rename family-concept identifiers, constants (GATE_FAMILY_ROLE, MONITOR_F
 ## Dependencies
 
 - **Depends on:** [sase-17m.4.1.3](sase-17m.4.1.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ lanes: rename family-concept identifiers, constants (GATE_FAMILY_ROLE, MONITOR_F
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e747d75`](https://github.com/sase-org/sase/commit/e747d7548dad59497f8505c31cd27aa557a7551b) | refactor(lanes): rename family-concept identifiers to agent-session terminology | [sase-17m.4.1.4](sase-17m.4.1.4.md) | 2026-09-24 17:10:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->
