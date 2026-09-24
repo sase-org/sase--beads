@@ -21,7 +21,7 @@ pending-launch: add the PendingLaunch record, restore helper, pending proc row, 
 
 ## Dependencies
 
-- **Blocks:** [sase-185.2](sase-185.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-185.2](sase-185.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
