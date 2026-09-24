@@ -13,7 +13,7 @@ detached-guards: move the acceptance point ahead of the `%hold` and hard-disable
 
 ## Dependencies
 
-- **Depends on:** [sase-185.1](sase-185.1.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-185.1](sase-185.1.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-185.3](sase-185.3.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
