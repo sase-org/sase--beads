@@ -45,7 +45,9 @@ completion-popup: load the grammar at idle and wire the resolver into the input.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | verify 17x.9 open before adding epic-symbol entries | 1 |
+| read-by | [agent:sase-17x.9][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md
 
 <!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ run-policies: run foreground-policy commands in the real terminal through `app.s
 ## Dependencies
 
 - **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.8](sase-17x.8.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.8](sase-17x.8.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.9](sase-17x.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
