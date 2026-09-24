@@ -17,7 +17,7 @@ core-relation: in the linked sase-core repo, add the projection-only `awaits` / 
 
 ## Dependencies
 
-- **Blocks:** [sase-17o.2](sase-17o.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17o.2](sase-17o.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-relation: in the linked sase-core repo, add the projection-only `awaits` / 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@eef7ca4`](https://github.com/sase-org/sase-core/commit/eef7ca415c763e8ba7c7b3040b50cee5d08c7539) | feat(artifact-links): add projection-only awaits/awaited-by relation | [sase-17o.1](sase-17o.1.md) | 2026-09-24 08:33:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17o.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17o.1/README.md
+
+<!-- sase:referenced-by:end -->
