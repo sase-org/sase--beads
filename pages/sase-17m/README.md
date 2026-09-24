@@ -17,7 +17,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 |---|---|---|---|---|---:|---:|
 | [sase-17m.1](sase-17m.1.md) | Free the agent session name | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
-| [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
+| [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
@@ -33,19 +33,27 @@ flowchart TD
     n0["sase-17m: Rename agent family to sase agent session [in_progress]"]
     n1["sase-17m.1: Free the agent session name [closed]"]
     n2["sase-17m.10: Cross-repo audit, guardrail, and deploy [in_progress]"]
-    n3["sase-17m.2: sase-core additive rename [in_progress]"]
-    n4["sase-17m.2.1: sase-core additive agent-session rename (core-expand) [in_progress]"]
+    n3["sase-17m.2: sase-core additive rename [closed]"]
+    n4["sase-17m.2.1: sase-core additive agent-session rename (core-expand) [closed]"]
     n5["sase-17m.2.1.1: Identity, launch, holds, and directive/editor surfaces [closed]"]
     n6["sase-17m.2.1.2: Scan, runtime, lifecycle, runner, and stats wires [closed]"]
     n7["sase-17m.2.1.3: Fleet core and gateway [closed]"]
     n8["sase-17m.2.1.4: Classification sweep and cross-repo verification [closed]"]
     n9["sase-17m.3: Python persistence and wire cutover [in_progress]"]
-    n10["sase-17m.4: Runtime, syntax, and CLI cutover [in_progress]"]
-    n11["sase-17m.5: ACE agent session surfaces [in_progress]"]
-    n12["sase-17m.6: Documentation and memory [in_progress]"]
-    n13["sase-17m.7: sase-telegram cutover [in_progress]"]
-    n14["sase-17m.8: sase-core contract flip [in_progress]"]
-    n15["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
+    n10["sase-17m.3.1: Python persistence and wire cutover to agent session (wire-cutover) [in_progress]"]
+    n11["sase-17m.3.1.1: Core pin bump and new binding names [in_progress]"]
+    n12["sase-17m.3.1.2: Canonical agent-session metadata keys and shared accessor [in_progress]"]
+    n13["sase-17m.3.1.3: Python wire mirrors hydrate either spelling [in_progress]"]
+    n14["sase-17m.3.1.4: Agent model fields [in_progress]"]
+    n15["sase-17m.3.1.5: Durable Python-owned JSON surfaces [in_progress]"]
+    n16["sase-17m.3.1.6: Agent name registry session kinds and schema v3 [in_progress]"]
+    n17["sase-17m.3.1.7: Classification sweep and phase verification [in_progress]"]
+    n18["sase-17m.4: Runtime, syntax, and CLI cutover [in_progress]"]
+    n19["sase-17m.5: ACE agent session surfaces [in_progress]"]
+    n20["sase-17m.6: Documentation and memory [in_progress]"]
+    n21["sase-17m.7: sase-telegram cutover [in_progress]"]
+    n22["sase-17m.8: sase-core contract flip [in_progress]"]
+    n23["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,26 +63,41 @@ flowchart TD
     n4 --> n7
     n4 --> n8
     n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n10 --> n14
+    n10 --> n15
+    n10 --> n16
+    n10 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
     n1 -.-> n9
     n3 -.-> n9
     n5 -.-> n6
     n6 -.-> n7
     n7 -.-> n8
-    n9 -.-> n10
-    n10 -.-> n11
-    n10 -.-> n12
-    n10 -.-> n13
-    n11 -.-> n14
-    n12 -.-> n14
+    n9 -.-> n18
+    n11 -.-> n12
+    n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
-    n15 -.-> n2
+    n14 -.-> n16
+    n15 -.-> n17
+    n16 -.-> n17
+    n18 -.-> n19
+    n18 -.-> n20
+    n18 -.-> n21
+    n19 -.-> n22
+    n20 -.-> n22
+    n21 -.-> n22
+    n22 -.-> n23
+    n23 -.-> n2
 ```
 
 ## Agents
@@ -88,8 +111,16 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.2/README.md) | [sase-17m.2.1.2](sase-17m.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-17m.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.3/README.md) | [sase-17m.2.1.3](sase-17m.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-17m.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.4/README.md) | [sase-17m.2.1.4](sase-17m.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-17m.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md) | [sase-17m.2.1](sase-17m.2.1.md) | 0 |
-| [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3/README.md) | [sase-17m.3](sase-17m.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md) | [sase-17m.2.1](sase-17m.2.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.3.md) | [sase-17m.3](sase-17m.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.1/README.md) | [sase-17m.3.1.1](sase-17m.3.1.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.2/README.md) | [sase-17m.3.1.2](sase-17m.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.3/README.md) | [sase-17m.3.1.3](sase-17m.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.4/README.md) | [sase-17m.3.1.4](sase-17m.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.5/README.md) | [sase-17m.3.1.5](sase-17m.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.6/README.md) | [sase-17m.3.1.6](sase-17m.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.7/README.md) | [sase-17m.3.1.7](sase-17m.3.1.7.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md) | [sase-17m.3.1](sase-17m.3.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4/README.md) | [sase-17m.4](sase-17m.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5/README.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 0 |
@@ -108,3 +139,4 @@ flowchart TD
 | sase-core | [`sase-core@ef82848`](https://github.com/sase-org/sase-core/commit/ef8284804ab894ed8f3277726bea1e4cc34a6864) | feat(core): additive agent-session rename for scan, runtime, lifecycle, runner, and stats wires | [sase-17m.2.1.2](sase-17m.2.1.2.md) | 2026-09-24 01:01:58 EDT |
 | sase-core | [`sase-core@b814a0f`](https://github.com/sase-org/sase-core/commit/b814a0fc08ad5a94aba5863fa4550b3622ac9126) | refactor(fleet): rename family to agent session with session key acceptance | [sase-17m.2.1.3](sase-17m.2.1.3.md) | 2026-09-24 01:35:09 EDT |
 | sase-core | [`sase-core@ae9dbf6`](https://github.com/sase-org/sase-core/commit/ae9dbf6e0719761d825478021aa8ff8d7b27aae8) | refactor(core): sweep remaining agent-family spellings to agent session | [sase-17m.2.1.4](sase-17m.2.1.4.md) | 2026-09-24 02:35:32 EDT |
+| sase--plans | [`sase--plans@f4ede6d`](https://github.com/sase-org/sase--plans/commit/f4ede6dd559c0b0bc69003ba9e615f130e3b8c6f) | chore(plans): mark agent\_session\_core\_expand plan done after sase-17m.2.1 landed | [sase-17m.2.1](sase-17m.2.1.md) | 2026-09-24 03:02:21 EDT |
