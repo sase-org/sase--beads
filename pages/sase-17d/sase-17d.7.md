@@ -20,7 +20,7 @@ node-panel-collapse-zoom: Ctrl+S hides the node panel without unmounting it and 
 ## Dependencies
 
 - **Depends on:** [sase-17d.5](sase-17d.5.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17d.9](sase-17d.9.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.9](sase-17d.9.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -33,3 +33,15 @@ node-panel-collapse-zoom: Ctrl+S hides the node panel without unmounting it and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`71fff39`](https://github.com/sase-org/sase/commit/71fff39d1588bd96ded18c7f5b64c1ca9d63421e) | feat(ace-tui): deck node collapse and in-place zoom | [sase-17d.7](sase-17d.7.md) | 2026-09-24 09:13:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md
+
+<!-- sase:referenced-by:end -->

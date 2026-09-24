@@ -15,7 +15,7 @@ deck-cutover: delete the flag's Off branch and the flag, the p picker, the zoom 
 
 - **Blocks:** [sase-17d.11](sase-17d.11.md) ◐ · ⧖ 2026-09-23
 - **Depends on:** [sase-17d.8](sase-17d.8.md) ◐ · ⧖ 2026-09-23
-- **Depends on:** [sase-17d.9](sase-17d.9.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.9](sase-17d.9.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

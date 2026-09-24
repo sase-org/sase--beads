@@ -29,7 +29,7 @@ The Agents tab replaces its metadata panel and its Files and LLM Calls panels wi
 | [sase-17d.6](sase-17d.6.md) | Retarget detail actions to the focused deck panel | ✓ closed | large | 2026-09-23 | 1 | 1 |
 | [sase-17d.7](sase-17d.7.md) | Node panel collapse and in-place zoom | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17d.8](sase-17d.8.md) | Spread versus paged rendering | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
-| [sase-17d.9](sase-17d.9.md) | Persist the deck layout across restarts | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
+| [sase-17d.9](sase-17d.9.md) | Persist the deck layout across restarts | ✓ closed | small | 2026-09-23 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n8["sase-17d.6: Retarget detail actions to the focused deck panel [closed]"]
     n9["sase-17d.7: Node panel collapse and in-place zoom [closed]"]
     n10["sase-17d.8: Spread versus paged rendering [in_progress]"]
-    n11["sase-17d.9: Persist the deck layout across restarts [in_progress]"]
+    n11["sase-17d.9: Persist the deck layout across restarts [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 1 |
 | [bbugyi200.athena.sase-17d.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md) | [sase-17d.7](sase-17d.7.md) | 1 |
 | [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 0 |
-| [bbugyi200.athena.sase-17d.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md) | [sase-17d.9](sase-17d.9.md) | 0 |
+| [bbugyi200.athena.sase-17d.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md) | [sase-17d.9](sase-17d.9.md) | 1 |
 | [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.land/README.md) | [sase-17d](README.md) | 0 |
 
 ## Commits
@@ -97,6 +97,7 @@ flowchart TD
 | sase | [`075225d`](https://github.com/sase-org/sase/commit/075225d53795b20eb18dd4a8f32a421ebaa8caad) | feat(ace): implement deck splits focus layout state machine | [sase-17d.5](sase-17d.5.md) | 2026-09-24 08:27:07 EDT |
 | sase | [`71fff39`](https://github.com/sase-org/sase/commit/71fff39d1588bd96ded18c7f5b64c1ca9d63421e) | feat(ace-tui): deck node collapse and in-place zoom | [sase-17d.7](sase-17d.7.md) | 2026-09-24 09:13:00 EDT |
 | sase | [`7d22725`](https://github.com/sase-org/sase/commit/7d2272588839582b01bcdeb789a26708ed0f1b8d) | feat(ace): retarget agents detail actions to focused deck panel | [sase-17d.6](sase-17d.6.md) | 2026-09-24 09:17:42 EDT |
+| sase | [`4388817`](https://github.com/sase-org/sase/commit/43888178618aa31fb531a3d02e0ffb4fe6839dc7) | feat(agents): persist deck layout across restarts | [sase-17d.9](sase-17d.9.md) | 2026-09-24 09:47:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -105,9 +106,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0ql][1] | Understand sase-17d epic scope to generate infographic | 1 |
-| read-by | [agent:sase-17m.2.1.land][2] | Check existing notes for the mypy issue | 2 |
+| read-by | [agent:sase-17d.7][2] | parent status | 1 |
+| read-by | [agent:sase-17m.2.1.land][3] | Check existing notes for the mypy issue | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0ql/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->
