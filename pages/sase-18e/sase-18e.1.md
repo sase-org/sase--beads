@@ -28,3 +28,15 @@ codex-handoff-guard: count only the final answer in the Codex turn-integrity sig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6a9bac8`](https://github.com/sase-org/sase/commit/6a9bac885fb61920d213dabe246f0b06352428b7) | fix(codex): recover stranded handoff commands | [sase-18e.1](sase-18e.1.md) | 2026-09-24 17:10:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18e.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.1/README.md
+
+<!-- sase:referenced-by:end -->

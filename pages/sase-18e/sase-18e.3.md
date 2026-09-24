@@ -13,7 +13,7 @@ aborted-handoff-evidence: write an in-flight marker from in-agent handoff comman
 
 ## Dependencies
 
-- **Depends on:** [sase-18e.2](sase-18e.2.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18e.2](sase-18e.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
