@@ -31,3 +31,15 @@ pin-regression: move sase-core-revision.txt past the core-winner commit, add git
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f2164ed`](https://github.com/sase-org/sase/commit/f2164ed241db6bc9c6c5b85d995f4d4c6981bf1a) | test(bead): pin core-winner core and add older-local relocation regressions | [sase-17y.4](sase-17y.4.md) | 2026-09-24 13:56:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17y.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.4/README.md
+
+<!-- sase:referenced-by:end -->
