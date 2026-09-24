@@ -25,10 +25,23 @@ core-wire: in sase-core, add runner_is_live to the cleanup target wire (schema 5
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.1/README.md) | [sase-18d.1](sase-18d.1.md) | 1 |
+| [bbugyi200.athena.sase-18d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.1/README.md) | [sase-18d.1](sase-18d.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e3f3a4b`](https://github.com/sase-org/sase/commit/e3f3a4bd4010d3ca892d9b2e7c49dec19e77e3ff) | feat(cleanup): carry runner\_is\_live on wire v5 with FAILED+live kill rule | [sase-18d.1](sase-18d.1.md) | 2026-09-24 17:25:12 EDT |
+| sase-core | [`sase-core@f226caf`](https://github.com/sase-org/sase-core/commit/f226caf0ba4b61648d3968ef6278793c7636deae) | feat(cleanup): add runner\_is\_live to cleanup target wire (schema 4-\>5) | [sase-18d.1](sase-18d.1.md) | 2026-09-24 17:28:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18d.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.1/README.md
+
+<!-- sase:referenced-by:end -->
