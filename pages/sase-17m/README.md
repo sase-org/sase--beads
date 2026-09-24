@@ -22,7 +22,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 | [sase-17m.1](sase-17m.1.md) | Free the agent session name | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
-| [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
+| [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.6](sase-17m.6.md) | Documentation and memory | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
@@ -43,15 +43,15 @@ flowchart TD
     n6["sase-17m.2.1.2: Scan, runtime, lifecycle, runner, and stats wires [closed]"]
     n7["sase-17m.2.1.3: Fleet core and gateway [closed]"]
     n8["sase-17m.2.1.4: Classification sweep and cross-repo verification [closed]"]
-    n9["sase-17m.3: Python persistence and wire cutover [in_progress]"]
-    n10["sase-17m.3.1: Python persistence and wire cutover to agent session (wire-cutover) [in_progress]"]
+    n9["sase-17m.3: Python persistence and wire cutover [closed]"]
+    n10["sase-17m.3.1: Python persistence and wire cutover to agent session (wire-cutover) [closed]"]
     n11["sase-17m.3.1.1: Core pin bump and new binding names [closed]"]
     n12["sase-17m.3.1.2: Canonical agent-session metadata keys and shared accessor [closed]"]
     n13["sase-17m.3.1.3: Python wire mirrors hydrate either spelling [closed]"]
     n14["sase-17m.3.1.4: Agent model fields [closed]"]
-    n15["sase-17m.3.1.5: Durable Python-owned JSON surfaces [in_progress]"]
+    n15["sase-17m.3.1.5: Durable Python-owned JSON surfaces [closed]"]
     n16["sase-17m.3.1.6: Agent name registry session kinds and schema v3 [closed]"]
-    n17["sase-17m.3.1.7: Classification sweep and phase verification [in_progress]"]
+    n17["sase-17m.3.1.7: Classification sweep and phase verification [closed]"]
     n18["sase-17m.4: Runtime, syntax, and CLI cutover [in_progress]"]
     n19["sase-17m.5: ACE agent session surfaces [in_progress]"]
     n20["sase-17m.6: Documentation and memory [in_progress]"]
@@ -124,7 +124,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.5/README.md) | [sase-17m.3.1.5](sase-17m.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-17m.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.6/README.md) | [sase-17m.3.1.6](sase-17m.3.1.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.7/README.md) | [sase-17m.3.1.7](sase-17m.3.1.7.md) | 0 |
-| [bbugyi200.athena.sase-17m.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md) | [sase-17m.3.1](sase-17m.3.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md) | [sase-17m.3.1](sase-17m.3.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4/README.md) | [sase-17m.4](sase-17m.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5/README.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 0 |
@@ -150,6 +150,7 @@ flowchart TD
 | sase | [`5a048ce`](https://github.com/sase-org/sase/commit/5a048ceb35cd17f2d0c56fa0586eff849ca9c535) | refactor(agent-session): rename Agent family-concept fields to agent\_session (sase-17m.3.1.4) | [sase-17m.3.1.4](sase-17m.3.1.4.md) | 2026-09-24 09:25:09 EDT |
 | sase | [`12b253c`](https://github.com/sase-org/sase/commit/12b253c35db43302c636c14f38fe769057c8b3e7) | refactor(agent-session): cut name registry to session kinds and schema v3 (sase-17m.3.1.6) | [sase-17m.3.1.6](sase-17m.3.1.6.md) | 2026-09-24 10:08:34 EDT |
 | sase | [`5393b41`](https://github.com/sase-org/sase/commit/5393b41b0de4df4912adb2fe53eff081eec45e51) | refactor(agent-session): durable Python-owned JSON surfaces emit session spellings (sase-17m.3.1.5) | [sase-17m.3.1.5](sase-17m.3.1.5.md) | 2026-09-24 10:36:30 EDT |
+| sase | [`7e1b059`](https://github.com/sase-org/sase/commit/7e1b05964838f750cbd10f3a7dd786611cf77105) | refactor(agent-session): finish the wire cutover and land sase-17m.3.1 | [sase-17m.3.1](sase-17m.3.1.md) | 2026-09-24 13:23:25 EDT |
 
 <!-- sase:referenced-by:start -->
 

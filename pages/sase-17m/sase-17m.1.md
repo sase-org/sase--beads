@@ -21,7 +21,7 @@ free-name: rename the existing identifiers and prose that already use "agent ses
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.3](sase-17m.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.3](sase-17m.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

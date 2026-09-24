@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17m.3.1](sase-17m.3.1.md) / sase-17m.3.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.3.md) · **Assignee:** `sase-17m.3.1.5` · **Size:** medium
-**Created:** 2026-09-24 02:56:48 EDT
+**Created:** 2026-09-24 02:56:48 EDT · **Closed:** 2026-09-24 10:41:07 EDT
 **Plan:** [202609/agent\_session\_wire\_cutover.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_wire_cutover.md)
 
 ## Description
@@ -17,10 +17,12 @@ durable-json: saved dismissed groups (canonical_global_agent_session), wait_for_
 
 [2026-09-24T14:34:40Z · sase-17m.3.1.5] PROPOSED FOLLOW-UP: whole-repo just check is red on unmodified master from 73 pre-existing symvision private-import flags (llm_provider/usage, monitor, notification_gates/debug, etc., none in wire-cutover files; flag set byte-identical with and without the durable-json diff, verified via stash). Verify phase should confirm and route to the symvision whitelist owner.
 
+[2026-09-24T14:41:07Z · sase-17m.3.1.5] Closed by explicit `sase stitch create -B close` after create_commit landed 5393b41b0 ("refactor(agent-session): durable Python-owned JSON surfaces emit session spellings (sase-17m.3.1.5)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-17m.3.1.5` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.7](sase-17m.3.1.7.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.7](sase-17m.3.1.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -33,3 +35,15 @@ durable-json: saved dismissed groups (canonical_global_agent_session), wait_for_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5393b41`](https://github.com/sase-org/sase/commit/5393b41b0de4df4912adb2fe53eff081eec45e51) | refactor(agent-session): durable Python-owned JSON surfaces emit session spellings (sase-17m.3.1.5) | [sase-17m.3.1.5](sase-17m.3.1.5.md) | 2026-09-24 10:36:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.3.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->

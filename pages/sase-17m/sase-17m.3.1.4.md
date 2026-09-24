@@ -22,7 +22,7 @@ agent-model: rename the family-concept fields of the Agent dataclass (src/sase/a
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.3](sase-17m.3.1.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.5](sase-17m.3.1.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.5](sase-17m.3.1.5.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.3.1.6](sase-17m.3.1.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
@@ -36,3 +36,15 @@ agent-model: rename the family-concept fields of the Agent dataclass (src/sase/a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5a048ce`](https://github.com/sase-org/sase/commit/5a048ceb35cd17f2d0c56fa0586eff849ca9c535) | refactor(agent-session): rename Agent family-concept fields to agent\_session (sase-17m.3.1.4) | [sase-17m.3.1.4](sase-17m.3.1.4.md) | 2026-09-24 09:25:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.3.1.5][1] | check close note convention | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->

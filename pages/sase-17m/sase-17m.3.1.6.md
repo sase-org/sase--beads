@@ -20,7 +20,7 @@ name-registry: agent_name_registry.json reservation_kind and container_kind beco
 ## Dependencies
 
 - **Depends on:** [sase-17m.3.1.4](sase-17m.3.1.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.3.1.7](sase-17m.3.1.7.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.7](sase-17m.3.1.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
