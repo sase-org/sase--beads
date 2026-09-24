@@ -21,7 +21,7 @@ kind-coverage: add GATE, TOOL_RUN and TASK_TYPE value kinds with providers, anno
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.12](sase-17x.12.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.2](sase-17x.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents

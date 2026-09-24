@@ -19,7 +19,7 @@ color-contract: add one shared color resolver (NO_COLOR, then FORCE_COLOR/CLICOL
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.12](sase-17x.12.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

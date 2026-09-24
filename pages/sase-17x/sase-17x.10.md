@@ -21,7 +21,7 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.12](sase-17x.12.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.12](sase-17x.12.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.9](sase-17x.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
@@ -35,3 +35,15 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c03c717`](https://github.com/sase-org/sase/commit/c03c717daebb74852c9c1f329e7aabd866cc2741) | feat(ace): command-line completion extras for sase-17x.10 | [sase-17x.10](sase-17x.10.md) | 2026-09-24 16:57:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.10--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md
+
+<!-- sase:referenced-by:end -->
