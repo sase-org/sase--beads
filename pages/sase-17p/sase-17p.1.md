@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17p](README.md) / sase-17p.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qj](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qj.md) · **Assignee:** `sase-17p.1` · **Size:** large
-**Created:** 2026-09-24 08:40:20 EDT
+**Created:** 2026-09-24 08:40:20 EDT · **Closed:** 2026-09-24 10:57:35 EDT
 **Plan:** [202609/tool\_e2\_durable\_handoff.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e2_durable_handoff.md)
 
 ## Description
@@ -19,7 +19,7 @@ core-contract: add reservation with a private launch envelope, an atomic claim, 
 
 ## Dependencies
 
-- **Blocks:** [sase-17p.2](sase-17p.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17p.2](sase-17p.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

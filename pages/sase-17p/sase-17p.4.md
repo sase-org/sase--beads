@@ -13,7 +13,7 @@ lifecycle-controls: add sase tool stop, sase tool show -F/--follow, and sase too
 
 ## Dependencies
 
-- **Depends on:** [sase-17p.2](sase-17p.2.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17p.2](sase-17p.2.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17p.5](sase-17p.5.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

@@ -13,7 +13,7 @@ settlement: feed owner facts into reconcile, record stop and timeout causes from
 
 ## Dependencies
 
-- **Depends on:** [sase-17p.3](sase-17p.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17p.3](sase-17p.3.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17p.4](sase-17p.4.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17p.6](sase-17p.6.md) ◐ · ⧖ 2026-09-24
 
