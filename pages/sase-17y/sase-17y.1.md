@@ -19,7 +19,7 @@ core-winner: in the linked sase-core repo, make the merge-base or published upst
 
 ## Dependencies
 
-- **Blocks:** [sase-17y.4](sase-17y.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17y.4](sase-17y.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

@@ -17,10 +17,12 @@ plan-retry: when a freshly created epic is relocated, remove it by its moved ID,
 
 [2026-09-24T17:13:34Z · sase-17y.3] PROPOSED FOLLOW-UP: run the full just check gate before landing — this phase ran scoped tests (28+43 passed), ruff, and mypy only
 
+[2026-09-24T17:25:07Z · 0qz--code] symvision_green_master sweep (deviation from plan:202609/symvision_green_master.md, which predates the 17y.2 landing): EpicGraphRelocatedError stays public under --epic-symbol sase-17y(...) since your phase catches it. Remove the entry when it lands. Also privatized in 17y.2 scope: BeadRelocationIdentityError->_BeadRelocationIdentityError (caught as ValueError) and rewrite_text_for_bead_relocations->_rewrite_text_for_bead_relocations (in-file caller only); set_completion_hint deleted as dead API.
+
 ## Dependencies
 
 - **Depends on:** [sase-17y.2](sase-17y.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17y.4](sase-17y.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17y.4](sase-17y.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -33,3 +35,15 @@ plan-retry: when a freshly created epic is relocated, remove it by its moved ID,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`edfa80f`](https://github.com/sase-org/sase/commit/edfa80f0ba395170a102eabff8e14a1fd9361202) | feat(bead): automatic recovery for approved-plan epic launches (sase-17y.3) | [sase-17y.3](sase-17y.3.md) | 2026-09-24 13:14:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17y.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.3/README.md
+
+<!-- sase:referenced-by:end -->
