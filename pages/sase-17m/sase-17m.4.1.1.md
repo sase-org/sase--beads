@@ -34,3 +34,15 @@ attach-modules: rename agent/_family_attach_{candidates,directives,launch,resolu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f2790e0`](https://github.com/sase-org/sase/commit/f2790e0e588628a0efe3d769c52b2faf284b5be9) | refactor(agent-session): rename attach and promotion modules (sase-17m.4.1.1) | [sase-17m.4.1.1](sase-17m.4.1.1.md) | 2026-09-24 14:52:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

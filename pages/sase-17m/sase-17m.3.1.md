@@ -42,8 +42,10 @@ PROPOSED FOLLOW-UP outcomes: 3.1.1#1 mypy file_panel/_content.py: declined, fixe
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17m.3.1.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:research.2i.cdx][1] | Assess the enforced-adoption follow-on that changes E3 and E4 assumptions | 1 |
+| read-by | [agent:sase-17m.3.1.land][2] | Need the epic scope, children, and linked plan file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

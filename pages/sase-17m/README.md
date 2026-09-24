@@ -7,6 +7,20 @@
 **Created:** 2026-09-23 22:46:33 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-183][1] | 7e1b05964 (sase-17m.3.1 wire cutover) renamed the family index fields that 9bd351b67 still references |
+
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-183/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The concept formerly called an agent family is named a sase agent session (agent session) on every current surface in sase, sase-core, sase-telegram, and chezmoi: code, wire contracts, persisted output, CLI, prompt syntax, ACE, skills, docs, and memory. Pre-rename data still loads, retired user syntax keeps working behind a sunset flag, and unrelated meanings of "family" are unchanged.
@@ -152,7 +166,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md) | [sase-17m.3.1](sase-17m.3.1.md) | 2 |
 | [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.4.md) | [sase-17m.4](sase-17m.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.1/README.md) | [sase-17m.4.1.1](sase-17m.4.1.1.md) | 1 |
-| [bbugyi200.athena.sase-17m.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.2/README.md) | [sase-17m.4.1.2](sase-17m.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.2/README.md) | [sase-17m.4.1.2](sase-17m.4.1.2.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.3/README.md) | [sase-17m.4.1.3](sase-17m.4.1.3.md) | 0 |
 | [bbugyi200.athena.sase-17m.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.4/README.md) | [sase-17m.4.1.4](sase-17m.4.1.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.5/README.md) | [sase-17m.4.1.5](sase-17m.4.1.5.md) | 0 |
@@ -187,6 +201,7 @@ flowchart TD
 | sase | [`7e1b059`](https://github.com/sase-org/sase/commit/7e1b05964838f750cbd10f3a7dd786611cf77105) | refactor(agent-session): finish the wire cutover and land sase-17m.3.1 | [sase-17m.3.1](sase-17m.3.1.md) | 2026-09-24 13:23:25 EDT |
 | sase--plans | [`sase--plans@1a97500`](https://github.com/sase-org/sase--plans/commit/1a975004d3f9c96deca011afa9837a3cfd6a0782) | docs(plans): mark agent\_session\_wire\_cutover epic done (sase-17m.3.1) | [sase-17m.3.1](sase-17m.3.1.md) | 2026-09-24 13:28:33 EDT |
 | sase | [`f2790e0`](https://github.com/sase-org/sase/commit/f2790e0e588628a0efe3d769c52b2faf284b5be9) | refactor(agent-session): rename attach and promotion modules (sase-17m.4.1.1) | [sase-17m.4.1.1](sase-17m.4.1.1.md) | 2026-09-24 14:52:20 EDT |
+| sase | [`786539e`](https://github.com/sase-org/sase/commit/786539e6a67d8c134a7469d931089dcec2c8785c) | refactor(agent-session): name lookup, plan\_chain, and plan preview (sase-17m.4.1.2) | [sase-17m.4.1.2](sase-17m.4.1.2.md) | 2026-09-24 15:35:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -199,13 +214,15 @@ flowchart TD
 | read-by | [agent:research.2f.gem][3] | Understand context for concept renames in epic sase-17m | 1 |
 | read-by | [agent:research.2f.mus][4] | researching rename epic context for terminology critique | 1 |
 | read-by | [agent:research.2g.final.f0][5] | Flake corroboration counts and 17m rename epic state for P1 sequencing | 1 |
-| read-by | [agent:sase-17m.2.1.land][6] | Need parent epic to see wire-cutover/core-contract phases | 1 |
+| read-by | [agent:research.2i.cdx][6] | Assess E1 outcomes and residual scope before refining E3 and E4 | 1 |
+| read-by | [agent:sase-17m.2.1.land][7] | Need parent epic to see wire-cutover/core-contract phases | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.gem/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.mus/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2g.final.f0/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->
