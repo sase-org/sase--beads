@@ -21,7 +21,7 @@ resolver: make pending-plan visibility gate-shell aware, add the lightweight pla
 
 ## Dependencies
 
-- **Blocks:** [sase-17z.2](sase-17z.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17z.2](sase-17z.2.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17z.3](sase-17z.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
@@ -43,7 +43,9 @@ resolver: make pending-plan visibility gate-shell aware, add the lightweight pla
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17z.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17z.3][2] | check resolver phase done | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17z.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17z.3/README.md
 
 <!-- sase:referenced-by:end -->
