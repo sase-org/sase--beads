@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17p.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.4/README.md) | [sase-17p.4](sase-17p.4.md) | 1 |
 | [bbugyi200.athena.sase-17p.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17p.5.md) | [sase-17p.5](sase-17p.5.md) | 1 |
 | [bbugyi200.athena.sase-17p.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.6/README.md) | [sase-17p.6](sase-17p.6.md) | 1 |
-| [bbugyi200.athena.sase-17p.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md) | [sase-17p](README.md) | 1 |
+| [bbugyi200.athena.sase-17p.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md) | [sase-17p](README.md) | 2 |
 
 ## Commits
 
@@ -107,6 +107,7 @@ flowchart TD
 | sase | [`7173669`](https://github.com/sase-org/sase/commit/71736697dcb97b14cceb96cf687dfa24d6454d17) | feat(tool): settle hand-off ToolRuns from owner facts and deliver once (sase-17p.5) | [sase-17p.5](sase-17p.5.md) | 2026-09-24 14:00:16 EDT |
 | sase | [`c91690e`](https://github.com/sase-org/sase/commit/c91690efcbae1179773f70a2823e77fabac4b203) | feat(tool): prove hand-off contract end to end and remove tool\_handoff flag (sase-17p.6) | [sase-17p.6](sase-17p.6.md) | 2026-09-24 15:29:12 EDT |
 | sase | [`cae16be`](https://github.com/sase-org/sase/commit/cae16be3ca730c7f3201357b00168477fa167ed4) | fix(tool): land sase-17p E2 hand-off: completion kinds, stale tests, starter attribution | [sase-17p](README.md) | 2026-09-24 16:20:56 EDT |
+| sase--plans | [`sase--plans@ffad1f4`](https://github.com/sase-org/sase--plans/commit/ffad1f492a800aa943f9a9a980f7e1df38bab3f0) | chore(plans): mark tool\_e2\_durable\_handoff done after sase-17p landed | [sase-17p](README.md) | 2026-09-24 16:24:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -121,6 +122,7 @@ flowchart TD
 | read-by | [agent:research.2i.mus][5] | Research E3/E4 epics: need E2 completion status and landing criteria context | 1 |
 | read-by | [agent:sase-17m.3.1.land][6] | Land sase-17m.3.1: check whether pre-existing tool-verb/completion/monitor-start test failures are already noted before routing them | 1 |
 | read-by | [agent:sase-17p.6][7] | parent epic scope | 1 |
+| read-by | [agent:sase-17p.land][8] | Need the parent link | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cld/README.md
@@ -129,5 +131,6 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.mus/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.6/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
 
 <!-- sase:referenced-by:end -->

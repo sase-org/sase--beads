@@ -48,7 +48,9 @@ settlement: feed owner facts into reconcile, record stop and timeout causes from
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | check open before noting symvision renames | 1 |
+| read-by | [agent:sase-17p.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
 
 <!-- sase:referenced-by:end -->
