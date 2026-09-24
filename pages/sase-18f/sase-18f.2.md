@@ -36,3 +36,15 @@ toobig-splits: split command_line/screen.py and widgets/decks/panel.py under the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b18f3d3`](https://github.com/sase-org/sase/commit/b18f3d38f28a132de174cbf1e8ad3939e2b4372a) | refactor(ace): split oversized command and deck panels | [sase-18f.2](sase-18f.2.md) | 2026-09-24 19:45:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18f.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.2/README.md
+
+<!-- sase:referenced-by:end -->

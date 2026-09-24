@@ -21,7 +21,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 |---|---|---|---|---|---:|---:|
 | [sase-18f.1](sase-18f.1.md) | Restore every lint gate except toobig on master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.2](sase-18f.2.md) | Split the two oversized ACE modules | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18f.3](sase-18f.3.md) | Repair non-UI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18f.3](sase-18f.3.md) | Repair non-UI tests that fail on clean master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.5](sase-18f.5.md) | Ignore cache-only script directories in the pyscripts lint | ✓ closed | xsmall | 2026-09-24 | 1 | 1 |
 | [sase-18f.6](sase-18f.6.md) | Refuse closing a flag bead while its registry definition survives | ✓ closed | small | 2026-09-24 | 1 | 1 |
@@ -36,7 +36,7 @@ flowchart TD
     n0["sase-18f: Return just check to green and remove its recurring failure causes [in_progress]"]
     n1["sase-18f.1: Restore every lint gate except toobig on master [closed]"]
     n2["sase-18f.2: Split the two oversized ACE modules [closed]"]
-    n3["sase-18f.3: Repair non-UI tests that fail on clean master [in_progress]"]
+    n3["sase-18f.3: Repair non-UI tests that fail on clean master [closed]"]
     n4["sase-18f.4: Repair ACE TUI tests that fail on clean master [in_progress]"]
     n5["sase-18f.5: Ignore cache-only script directories in the pyscripts lint [closed]"]
     n6["sase-18f.6: Refuse closing a flag bead while its registry definition survives [closed]"]
@@ -72,7 +72,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-18f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md) | [sase-18f.1](sase-18f.1.md) | 1 |
 | [bbugyi200.athena.sase-18f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.2/README.md) | [sase-18f.2](sase-18f.2.md) | 1 |
-| [bbugyi200.athena.sase-18f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.3/README.md) | [sase-18f.3](sase-18f.3.md) | 0 |
+| [bbugyi200.athena.sase-18f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.3/README.md) | [sase-18f.3](sase-18f.3.md) | 1 |
 | [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 0 |
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 1 |
@@ -91,6 +91,7 @@ flowchart TD
 | sase | [`114fbca`](https://github.com/sase-org/sase/commit/114fbca89a9430704d877982b4180a0425763e94) | fix(lint): restore every lint gate except toobig (sase-18f.1) | [sase-18f.1](sase-18f.1.md) | 2026-09-24 18:42:42 EDT |
 | sase | [`c77912a`](https://github.com/sase-org/sase/commit/c77912a38cf508deb9dc75e1fd3864b0d738fe6f) | fix(tests): normalize whitespace in xprompt inline-code wrap assertions | [sase-18f.7](sase-18f.7.md) | 2026-09-24 19:04:43 EDT |
 | sase | [`b18f3d3`](https://github.com/sase-org/sase/commit/b18f3d38f28a132de174cbf1e8ad3939e2b4372a) | refactor(ace): split oversized command and deck panels | [sase-18f.2](sase-18f.2.md) | 2026-09-24 19:45:37 EDT |
+| sase | [`55936f4`](https://github.com/sase-org/sase/commit/55936f429e55d71d411a4c8cfffdb5e13fd64cab) | fix(sase-18f.3): resolve deterministic non-UI check failures | [sase-18f.3](sase-18f.3.md) | 2026-09-24 19:53:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
