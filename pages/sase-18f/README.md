@@ -25,7 +25,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 | [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.5](sase-18f.5.md) | Ignore cache-only script directories in the pyscripts lint | ✓ closed | xsmall | 2026-09-24 | 1 | 1 |
 | [sase-18f.6](sase-18f.6.md) | Refuse closing a flag bead while its registry definition survives | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
-| [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
+| [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ◐ in_progress | small | 2026-09-24 | 1 | 1 |
 | [sase-18f.8](sase-18f.8.md) | Cache sase-xprompt-lsp builds and dedupe concurrent core builds | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.9](sase-18f.9.md) | Verify green check and full test suite on clean master | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
 
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 0 |
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 0 |
-| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 0 |
+| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 1 |
 | [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.8/README.md) | [sase-18f.8](sase-18f.8.md) | 0 |
 | [bbugyi200.athena.sase-18f.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md) | [sase-18f.9](sase-18f.9.md) | 0 |
 | [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 0 |
@@ -86,6 +86,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4b3699f`](https://github.com/sase-org/sase/commit/4b3699f0dc3242c723f498c654f643cec5f337d0) | fix: ignore cache-only script directories in pyscripts lint | [sase-18f.5](sase-18f.5.md) | 2026-09-24 18:03:38 EDT |
+| sase | [`b2137e8`](https://github.com/sase-org/sase/commit/b2137e84c907c2c5bfe4a6055c64ba93abd216b1) | feat(xprompts): strengthen split-file constraints | [sase-18f.7](sase-18f.7.md) | 2026-09-24 18:13:01 EDT |
 
 <!-- sase:referenced-by:start -->
 

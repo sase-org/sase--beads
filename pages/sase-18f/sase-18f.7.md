@@ -19,4 +19,10 @@ split-file-prompt: expand the built-in split_file xprompt that toobig routine ag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 0 |
+| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b2137e8`](https://github.com/sase-org/sase/commit/b2137e84c907c2c5bfe4a6055c64ba93abd216b1) | feat(xprompts): strengthen split-file constraints | [sase-18f.7](sase-18f.7.md) | 2026-09-24 18:13:01 EDT |
