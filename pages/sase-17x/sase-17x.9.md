@@ -22,7 +22,7 @@ completion-popup: load the grammar at idle and wire the resolver into the input.
 ## Dependencies
 
 - **Blocks:** [sase-17x.10](sase-17x.10.md) ◐ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.11](sase-17x.11.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.5](sase-17x.5.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.7](sase-17x.7.md) ✓ · ⧖ 2026-09-24
 

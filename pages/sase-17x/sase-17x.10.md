@@ -20,4 +20,4 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.10/README.md) | [sase-17x.10](sase-17x.10.md) | 0 |
+| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 0 |

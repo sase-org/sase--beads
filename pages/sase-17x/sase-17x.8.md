@@ -21,7 +21,7 @@ transcript-blocks: add NORMAL-mode block navigation with expand, pager, kill, re
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.11](sase-17x.11.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.11](sase-17x.11.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.7](sase-17x.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
@@ -35,3 +35,15 @@ transcript-blocks: add NORMAL-mode block navigation with expand, pager, kill, re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`98c8312`](https://github.com/sase-org/sase/commit/98c8312f96f6b8f50303f7d6b6106c31a6afd03b) | feat(ace): command-line transcript blocks with NORMAL-mode navigation | [sase-17x.8](sase-17x.8.md) | 2026-09-24 15:38:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.8][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md
+
+<!-- sase:referenced-by:end -->

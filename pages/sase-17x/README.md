@@ -17,13 +17,15 @@
 
 [2026-09-24T18:58:38Z · sase-17z.land] DISCOVERED ISSUE: (found by sase-17z land agent at master 71736697d) just _lint-symvision is red with 14 unused public symbols in src/sase/completion/command_line_grammar.py (CommandLineGrammar, CompletionItem, DynamicCandidate, HelpChild, HelpOption, HelpPositional, LineContext, LineDiagnostic, LineSignature, LineSlot, LineToken, RunPolicyOutcome, SignatureSegment, load_command_line_grammar) added by ede63ea9d (CommandLineGrammar resolver adapter). Wire them up or add --epic-symbol 'sase-17x(...)' entries keyed to the open consuming phase.
 
+[2026-09-24T20:14:56Z · sase-17p.land] DISCOVERED ISSUE (sase-17p land agent, master 682089c84, 2026-09-24; reproduced with and without the sase-17p landing diff, which touches no command_line file): Command Line work leaves just check red at several gates. (1) lint (mypy): src/sase/ace/tui/command_line/input.py:158 assigns 'TextAreaTheme | None' to a 'TextAreaTheme' variable; command_line/screen.py:1074/1076/1081/1091 pass 'LineContext | None'/'LineContext' where 'dict[str, Any]' is declared (set_resolve_context, _complete_line, _maybe_fetch_providers) — from d4dc96eb4 (17x.9) / 98c8312f9 (17x.8). (2) lint (test waits): tests/ace/tui/command_line/test_completion_popup.py:181 fixed-sleep-missing-pragma (d4dc96eb4). (3) lint (toobig): src/sase/ace/tui/command_line/screen.py is 1492 lines (limit 1000). (4) lint (symvision): beyond the command_line_grammar.py symbols already noted by sase-17z.land, CommandHelp/CommandLineCompletion there plus CommandLineBlockWidget (command_line/transcript.py), SourceCandidate/in_memory_candidates (sources.py), build_chips/build_signature/first_diagnostic_message/option_summary_text/role_style (signature.py), command_line_from_proc/select_restore_rows (restore.py), command_line_grammar_error/load_command_line_grammar_sync (grammar.py), completion_toast_text (exits.py), longest_common_prefix/render_popup_row (popup.py), resolve_launch_cwd (context.py), build_command_line_bindings (keymaps/bindings.py), command_line_history_file/save_command_line_history/set_command_line_history_file (history/command_line.py), is_command_line_row/open_command_line_on_block (modals/procs_pane_agent_jump.py) are unused-public. (5) scoped tests: tests/ace/tui/test_visual_fixture_host_paths.py::test_visual_fixtures_embed_no_host_home_paths (test_ace_png_snapshots_command_line.py:36 and :143 embed cwd=/home/test/projects/sase; allowed synthetic owners are operator/user/visual); tests/test_timezone_display_guard.py::test_no_system_clock_display_sites flags src/sase/ace/tui/command_line/block_render.py:105 datetime.fromtimestamp(finished_at).strftime('%H:%M'); tests/test_config_schema.py::test_default_config_matches_public_schema fails 'ace.keymaps: Additional properties are not allowed (command_line was unexpected)' — default_config.yml gained ace.keymaps.command_line without a src/sase/config/sase.schema.json entry.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-17x.1](sase-17x.1.md) | Output color contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.10](sase-17x.10.md) | Empty state, doc peek, and history search | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
-| [sase-17x.11](sase-17x.11.md) | Run policies, confirmation-aware blocks, and built-ins | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17x.11](sase-17x.11.md) | Run policies, confirmation-aware blocks, and built-ins | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.12](sase-17x.12.md) | Flip \`:\` and \`;\`, remove the flag, and land | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-17x.2](sase-17x.2.md) | Command Line spec contract | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17x.3](sase-17x.3.md) | Value-kind coverage and ratchet | ✓ closed | medium | 2026-09-24 | 1 | 1 |
@@ -41,7 +43,7 @@ flowchart TD
     n0["sase-17x: `:` Command Line: run sase commands from the TUI [in_progress]"]
     n1["sase-17x.1: Output color contract [closed]"]
     n2["sase-17x.10: Empty state, doc peek, and history search [in_progress]"]
-    n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [in_progress]"]
+    n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [closed]"]
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [in_progress]"]
     n5["sase-17x.2: Command Line spec contract [closed]"]
     n6["sase-17x.3: Value-kind coverage and ratchet [closed]"]
@@ -85,8 +87,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md) | [sase-17x.1](sase-17x.1.md) | 1 |
-| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.10/README.md) | [sase-17x.10](sase-17x.10.md) | 0 |
-| [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 0 |
+| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 0 |
+| [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 1 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
@@ -113,6 +115,7 @@ flowchart TD
 | sase | [`db99493`](https://github.com/sase-org/sase/commit/db99493448ff762695410f6d06e42164707572d8) | feat(ace): implement Command Line panel shell behind ace\_command\_line beta flag | [sase-17x.7](sase-17x.7.md) | 2026-09-24 14:35:48 EDT |
 | sase | [`d4dc96e`](https://github.com/sase-org/sase/commit/d4dc96eb4a163f33c73d2e6a93c3731a227b2829) | feat(ace-tui): add command-line completion popup phase sase-17x.9 | [sase-17x.9](sase-17x.9.md) | 2026-09-24 15:17:34 EDT |
 | sase | [`98c8312`](https://github.com/sase-org/sase/commit/98c8312f96f6b8f50303f7d6b6106c31a6afd03b) | feat(ace): command-line transcript blocks with NORMAL-mode navigation | [sase-17x.8](sase-17x.8.md) | 2026-09-24 15:38:28 EDT |
+| sase | [`ee9eda4`](https://github.com/sase-org/sase/commit/ee9eda4ab340bf9f6aaac08a773ca39dd912f93f) | feat(ace): command-line run policies, confirmation-aware blocks, and built-ins (sase-17x.11) | [sase-17x.11](sase-17x.11.md) | 2026-09-24 16:22:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
