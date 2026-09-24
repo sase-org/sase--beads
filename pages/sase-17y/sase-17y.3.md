@@ -13,7 +13,7 @@ plan-retry: when a freshly created epic is relocated, remove it by its moved ID,
 
 ## Dependencies
 
-- **Depends on:** [sase-17y.2](sase-17y.2.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17y.2](sase-17y.2.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17y.4](sase-17y.4.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
