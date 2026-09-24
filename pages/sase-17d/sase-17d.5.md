@@ -18,8 +18,8 @@ deck-splits-focus: \ and | toggle top-bottom and left-right splits through a pur
 ## Dependencies
 
 - **Depends on:** [sase-17d.4](sase-17d.4.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17d.6](sase-17d.6.md) ◐ · ⧖ 2026-09-23
-- **Blocks:** [sase-17d.7](sase-17d.7.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.6](sase-17d.6.md) ✓ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.7](sase-17d.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -32,3 +32,15 @@ deck-splits-focus: \ and | toggle top-bottom and left-right splits through a pur
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`075225d`](https://github.com/sase-org/sase/commit/075225d53795b20eb18dd4a8f32a421ebaa8caad) | feat(ace): implement deck splits focus layout state machine | [sase-17d.5](sase-17d.5.md) | 2026-09-24 08:27:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.5--1][1] | verify phase completion state before closing deck-splits-focus work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md
+
+<!-- sase:referenced-by:end -->

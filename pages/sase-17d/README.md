@@ -26,8 +26,8 @@ The Agents tab replaces its metadata panel and its Files and LLM Calls panels wi
 | [sase-17d.3](sase-17d.3.md) | Deck panel core behind the agent\_decks beta flag | ✓ closed | large | 2026-09-23 | 1 | 1 |
 | [sase-17d.4](sase-17d.4.md) | Card and deck cycling keys | ✓ closed | medium | 2026-09-23 | 0 | 0 |
 | [sase-17d.5](sase-17d.5.md) | Split layouts, focus and split ratio | ✓ closed | large | 2026-09-23 | 1 | 1 |
-| [sase-17d.6](sase-17d.6.md) | Retarget detail actions to the focused deck panel | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
-| [sase-17d.7](sase-17d.7.md) | Node panel collapse and in-place zoom | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-17d.6](sase-17d.6.md) | Retarget detail actions to the focused deck panel | ✓ closed | large | 2026-09-23 | 1 | 0 |
+| [sase-17d.7](sase-17d.7.md) | Node panel collapse and in-place zoom | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17d.8](sase-17d.8.md) | Spread versus paged rendering | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17d.9](sase-17d.9.md) | Persist the deck layout across restarts | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
 
@@ -43,8 +43,8 @@ flowchart TD
     n5["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
     n6["sase-17d.4: Card and deck cycling keys [closed]"]
     n7["sase-17d.5: Split layouts, focus and split ratio [closed]"]
-    n8["sase-17d.6: Retarget detail actions to the focused deck panel [in_progress]"]
-    n9["sase-17d.7: Node panel collapse and in-place zoom [in_progress]"]
+    n8["sase-17d.6: Retarget detail actions to the focused deck panel [closed]"]
+    n9["sase-17d.7: Node panel collapse and in-place zoom [closed]"]
     n10["sase-17d.8: Spread versus paged rendering [in_progress]"]
     n11["sase-17d.9: Persist the deck layout across restarts [in_progress]"]
     n0 --> n1
@@ -81,9 +81,9 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
 | [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
-| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.6/README.md) | [sase-17d.6](sase-17d.6.md) | 0 |
-| [bbugyi200.athena.sase-17d.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md) | [sase-17d.7](sase-17d.7.md) | 0 |
-| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.8/README.md) | [sase-17d.8](sase-17d.8.md) | 0 |
+| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 0 |
+| [bbugyi200.athena.sase-17d.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md) | [sase-17d.7](sase-17d.7.md) | 1 |
+| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 0 |
 | [bbugyi200.athena.sase-17d.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md) | [sase-17d.9](sase-17d.9.md) | 0 |
 | [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.land/README.md) | [sase-17d](README.md) | 0 |
 
@@ -95,6 +95,7 @@ flowchart TD
 | sase | [`9abf08b`](https://github.com/sase-org/sase/commit/9abf08b5df74ebc17f5e293e4909702867105880) | feat(agents-tab): card-partitioned Main documents | [sase-17d.2](sase-17d.2.md) | 2026-09-23 20:09:06 EDT |
 | sase | [`00ee519`](https://github.com/sase-org/sase/commit/00ee51996d109f2715701b4140f7b528520764de) | feat(agents-tui): deck panel core behind the agent\_decks beta flag | [sase-17d.3](sase-17d.3.md) | 2026-09-23 21:30:43 EDT |
 | sase | [`075225d`](https://github.com/sase-org/sase/commit/075225d53795b20eb18dd4a8f32a421ebaa8caad) | feat(ace): implement deck splits focus layout state machine | [sase-17d.5](sase-17d.5.md) | 2026-09-24 08:27:07 EDT |
+| sase | [`71fff39`](https://github.com/sase-org/sase/commit/71fff39d1588bd96ded18c7f5b64c1ca9d63421e) | feat(ace-tui): deck node collapse and in-place zoom | [sase-17d.7](sase-17d.7.md) | 2026-09-24 09:13:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -102,8 +103,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17m.2.1.land][1] | Check existing notes for the mypy issue | 2 |
+| read-by | [agent:0ql][1] | Understand sase-17d epic scope to generate infographic | 1 |
+| read-by | [agent:sase-17m.2.1.land][2] | Check existing notes for the mypy issue | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0ql/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->

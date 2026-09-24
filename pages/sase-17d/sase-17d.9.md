@@ -14,7 +14,7 @@ deck-state-persistence: persist the layout, ratio, focus, node-panel collapse an
 ## Dependencies
 
 - **Blocks:** [sase-17d.10](sase-17d.10.md) ◐ · ⧖ 2026-09-23
-- **Depends on:** [sase-17d.7](sase-17d.7.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.7](sase-17d.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
