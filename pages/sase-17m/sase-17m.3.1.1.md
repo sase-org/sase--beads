@@ -19,7 +19,7 @@ pin-bindings: ratchet sase-core-revision.txt to the landed core-expand commit, s
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.3.1.2](sase-17m.3.1.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.3.1.2](sase-17m.3.1.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -32,3 +32,15 @@ pin-bindings: ratchet sase-core-revision.txt to the landed core-expand commit, s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bb81b99`](https://github.com/sase-org/sase/commit/bb81b993a0df13a300baaa784c902d51e74201ec) | refactor(agent-session): pin core-expand bindings to agent\_session spellings | [sase-17m.3.1.1](sase-17m.3.1.1.md) | 2026-09-24 04:00:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.3.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->
