@@ -18,8 +18,8 @@ The Agents tab replaces its metadata panel and its Files and LLM Calls panels wi
 | [sase-17d.1](sase-17d.1.md) | LLM Calls stale-worker fix and split-key display | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-17d.10](sase-17d.10.md) | Cut over to decks and delete the legacy UI | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17d.11](sase-17d.11.md) | Docs, glossary strands and key-change notice | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
-| [sase-17d.2](sase-17d.2.md) | Card-partitioned Main documents | ◐ in_progress | large | 2026-09-23 | 1 | 1 |
-| [sase-17d.3](sase-17d.3.md) | Deck panel core behind the agent\_decks beta flag | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
+| [sase-17d.2](sase-17d.2.md) | Card-partitioned Main documents | ✓ closed | large | 2026-09-23 | 1 | 1 |
+| [sase-17d.3](sase-17d.3.md) | Deck panel core behind the agent\_decks beta flag | ✓ closed | large | 2026-09-23 | 1 | 1 |
 | [sase-17d.4](sase-17d.4.md) | Card and deck cycling keys | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-17d.5](sase-17d.5.md) | Split layouts, focus and split ratio | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17d.6](sase-17d.6.md) | Retarget detail actions to the focused deck panel | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
@@ -35,8 +35,8 @@ flowchart TD
     n1["sase-17d.1: LLM Calls stale-worker fix and split-key display [closed]"]
     n2["sase-17d.10: Cut over to decks and delete the legacy UI [in_progress]"]
     n3["sase-17d.11: Docs, glossary strands and key-change notice [in_progress]"]
-    n4["sase-17d.2: Card-partitioned Main documents [in_progress]"]
-    n5["sase-17d.3: Deck panel core behind the agent_decks beta flag [in_progress]"]
+    n4["sase-17d.2: Card-partitioned Main documents [closed]"]
+    n5["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
     n6["sase-17d.4: Card and deck cycling keys [in_progress]"]
     n7["sase-17d.5: Split layouts, focus and split ratio [in_progress]"]
     n8["sase-17d.6: Retarget detail actions to the focused deck panel [in_progress]"]
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10/README.md) | [sase-17d.10](sase-17d.10.md) | 0 |
 | [bbugyi200.athena.sase-17d.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.11/README.md) | [sase-17d.11](sase-17d.11.md) | 0 |
 | [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
-| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.3/README.md) | [sase-17d.3](sase-17d.3.md) | 0 |
+| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.4/README.md) | [sase-17d.4](sase-17d.4.md) | 0 |
 | [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.5/README.md) | [sase-17d.5](sase-17d.5.md) | 0 |
 | [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.6/README.md) | [sase-17d.6](sase-17d.6.md) | 0 |
@@ -90,3 +90,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`9c701d6`](https://github.com/sase-org/sase/commit/9c701d658fef3edcef2981da5c09058ae0844ad1) | fix(tui): guard LLM Calls panel against stale-worker paints; split-key display | [sase-17d.1](sase-17d.1.md) | 2026-09-23 19:36:21 EDT |
 | sase | [`9abf08b`](https://github.com/sase-org/sase/commit/9abf08b5df74ebc17f5e293e4909702867105880) | feat(agents-tab): card-partitioned Main documents | [sase-17d.2](sase-17d.2.md) | 2026-09-23 20:09:06 EDT |
+| sase | [`00ee519`](https://github.com/sase-org/sase/commit/00ee51996d109f2715701b4140f7b528520764de) | feat(agents-tui): deck panel core behind the agent\_decks beta flag | [sase-17d.3](sase-17d.3.md) | 2026-09-23 21:30:43 EDT |

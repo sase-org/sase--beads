@@ -19,7 +19,7 @@ llm-calls-subject-guard: stop LLM Calls worker results from painting onto a diff
 
 ## Dependencies
 
-- **Blocks:** [sase-17d.3](sase-17d.3.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.3](sase-17d.3.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

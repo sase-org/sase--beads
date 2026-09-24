@@ -13,7 +13,7 @@ deck-navigation-keys: Ctrl+J/K cycle cards and Ctrl+N/P cycle decks in the focus
 
 ## Dependencies
 
-- **Depends on:** [sase-17d.3](sase-17d.3.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17d.3](sase-17d.3.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17d.5](sase-17d.5.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
