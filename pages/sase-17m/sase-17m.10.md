@@ -20,3 +20,15 @@ audit: add a terminology regression test and sweep every repo, classifying each 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.10/README.md) | [sase-17m.10](sase-17m.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2g.final.f0][1] | Flake corroboration counts and 17m rename epic state for P1 sequencing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2g.final.f0/README.md
+
+<!-- sase:referenced-by:end -->
