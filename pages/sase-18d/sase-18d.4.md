@@ -14,7 +14,7 @@ member-scope: focused x on a running monitor, an active proc shell, or a pending
 ## Dependencies
 
 - **Depends on:** [sase-18d.2](sase-18d.2.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-18d.3](sase-18d.3.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18d.3](sase-18d.3.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18d.5](sase-18d.5.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
