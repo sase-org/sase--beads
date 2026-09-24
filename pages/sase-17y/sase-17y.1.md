@@ -40,7 +40,9 @@ core-winner: in the linked sase-core repo, make the merge-base or published upst
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17y.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17y.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -39,8 +39,10 @@ launch-guard: replace the prompt and env text rewrite in launch_epic_bead_work w
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | triaging extra symvision symbols from 17y.2 landing | 1 |
 | read-by | [agent:sase-17y.2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17y.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->

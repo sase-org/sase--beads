@@ -44,8 +44,10 @@ plan-retry: when a freshly created epic is relocated, remove it by its moved ID,
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | full desc for 17y.3 consumption | 2 |
 | read-by | [agent:sase-17y.3][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17y.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->

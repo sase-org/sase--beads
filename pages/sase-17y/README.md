@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17y.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.2/README.md) | [sase-17y.2](sase-17y.2.md) | 1 |
 | [bbugyi200.athena.sase-17y.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.3/README.md) | [sase-17y.3](sase-17y.3.md) | 1 |
 | [bbugyi200.athena.sase-17y.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.4/README.md) | [sase-17y.4](sase-17y.4.md) | 1 |
-| [bbugyi200.athena.sase-17y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md) | [sase-17y](README.md) | 1 |
+| [bbugyi200.athena.sase-17y.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md) | [sase-17y](README.md) | 2 |
 
 ## Commits
 
@@ -76,6 +76,7 @@ flowchart TD
 | sase | [`edfa80f`](https://github.com/sase-org/sase/commit/edfa80f0ba395170a102eabff8e14a1fd9361202) | feat(bead): automatic recovery for approved-plan epic launches (sase-17y.3) | [sase-17y.3](sase-17y.3.md) | 2026-09-24 13:14:39 EDT |
 | sase | [`f2164ed`](https://github.com/sase-org/sase/commit/f2164ed241db6bc9c6c5b85d995f4d4c6981bf1a) | test(bead): pin core-winner core and add older-local relocation regressions | [sase-17y.4](sase-17y.4.md) | 2026-09-24 13:56:02 EDT |
 | sase | [`7a1438b`](https://github.com/sase-org/sase/commit/7a1438b142e1cd5b20f897f27f56aa4c68e6f404) | fix(bead): land sase-17y relocation-safe epic launches | [sase-17y](README.md) | 2026-09-24 15:26:34 EDT |
+| sase--plans | [`sase--plans@9ed7900`](https://github.com/sase-org/sase--plans/commit/9ed7900cabd7da40fe86270d5bebaf2d93583184) | chore(plans): mark bead\_relocation\_safe\_epic\_launch done (sase-17y) | [sase-17y](README.md) | 2026-09-24 15:30:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -84,7 +85,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | triaging extra symvision symbols from 17y.2 landing | 1 |
+| read-by | [agent:sase-17y.land][2] | Need the parent link | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->
