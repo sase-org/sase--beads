@@ -25,7 +25,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 | [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.5](sase-18f.5.md) | Ignore cache-only script directories in the pyscripts lint | ✓ closed | xsmall | 2026-09-24 | 1 | 1 |
 | [sase-18f.6](sase-18f.6.md) | Refuse closing a flag bead while its registry definition survives | ✓ closed | small | 2026-09-24 | 1 | 1 |
-| [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ◐ in_progress | small | 2026-09-24 | 1 | 1 |
+| [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ✓ closed | small | 2026-09-24 | 1 | 2 |
 | [sase-18f.8](sase-18f.8.md) | Cache sase-xprompt-lsp builds and dedupe concurrent core builds | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18f.9](sase-18f.9.md) | Verify green check and full test suite on clean master | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
 
@@ -40,7 +40,7 @@ flowchart TD
     n4["sase-18f.4: Repair ACE TUI tests that fail on clean master [in_progress]"]
     n5["sase-18f.5: Ignore cache-only script directories in the pyscripts lint [closed]"]
     n6["sase-18f.6: Refuse closing a flag bead while its registry definition survives [closed]"]
-    n7["sase-18f.7: Make the split_file xprompt keep symvision and mypy green [in_progress]"]
+    n7["sase-18f.7: Make the split_file xprompt keep symvision and mypy green [closed]"]
     n8["sase-18f.8: Cache sase-xprompt-lsp builds and dedupe concurrent core builds [in_progress]"]
     n9["sase-18f.9: Verify green check and full test suite on clean master [in_progress]"]
     n0 --> n1
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 0 |
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 1 |
-| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 1 |
+| [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 2 |
 | [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 0 |
 | [bbugyi200.athena.sase-18f.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md) | [sase-18f.9](sase-18f.9.md) | 0 |
 | [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 0 |
@@ -89,6 +89,7 @@ flowchart TD
 | sase | [`b2137e8`](https://github.com/sase-org/sase/commit/b2137e84c907c2c5bfe4a6055c64ba93abd216b1) | feat(xprompts): strengthen split-file constraints | [sase-18f.7](sase-18f.7.md) | 2026-09-24 18:13:01 EDT |
 | sase | [`fdc3e3c`](https://github.com/sase-org/sase/commit/fdc3e3caf65d7d6a56ae0499dd11fac92efd8066) | feat(bead): refuse closing a flag bead while its registry definition survives | [sase-18f.6](sase-18f.6.md) | 2026-09-24 18:14:28 EDT |
 | sase | [`114fbca`](https://github.com/sase-org/sase/commit/114fbca89a9430704d877982b4180a0425763e94) | fix(lint): restore every lint gate except toobig (sase-18f.1) | [sase-18f.1](sase-18f.1.md) | 2026-09-24 18:42:42 EDT |
+| sase | [`c77912a`](https://github.com/sase-org/sase/commit/c77912a38cf508deb9dc75e1fd3864b0d738fe6f) | fix(tests): normalize whitespace in xprompt inline-code wrap assertions | [sase-18f.7](sase-18f.7.md) | 2026-09-24 19:04:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

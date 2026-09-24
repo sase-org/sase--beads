@@ -39,3 +39,15 @@ lint-green: re-derive master's lint failures stage by stage, including symvision
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`114fbca`](https://github.com/sase-org/sase/commit/114fbca89a9430704d877982b4180a0425763e94) | fix(lint): restore every lint gate except toobig (sase-18f.1) | [sase-18f.1](sase-18f.1.md) | 2026-09-24 18:42:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18f.1][1] | Verify notes recorded before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md
+
+<!-- sase:referenced-by:end -->
