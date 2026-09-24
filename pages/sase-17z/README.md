@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17z.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17z.1.md) | [sase-17z.1](sase-17z.1.md) | 1 |
 | [bbugyi200.athena.sase-17z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17z.2/README.md) | [sase-17z.2](sase-17z.2.md) | 1 |
 | [bbugyi200.athena.sase-17z.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17z.3/README.md) | [sase-17z.3](sase-17z.3.md) | 1 |
-| [bbugyi200.athena.sase-17z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17z.land/README.md) | [sase-17z](README.md) | 1 |
+| [bbugyi200.athena.sase-17z.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17z.land/README.md) | [sase-17z](README.md) | 2 |
 
 ## Commits
 
@@ -55,3 +55,4 @@ flowchart TD
 | sase | [`c3a61ae`](https://github.com/sase-org/sase/commit/c3a61ae7d9e178ef1ec4758b808191ea50c54a93) | feat(plan): names everywhere plans are listed (sase-17z.3) | [sase-17z.3](sase-17z.3.md) | 2026-09-24 13:51:33 EDT |
 | sase | [`482fb46`](https://github.com/sase-org/sase/commit/482fb46bcc02044219d3723f1b215d76baaa7642) | feat(completion): TAB completion for pending plan names | [sase-17z.2](sase-17z.2.md) | 2026-09-24 13:58:40 EDT |
 | sase | [`3899cb9`](https://github.com/sase-org/sase/commit/3899cb92fd66b74b5e23cf609b49e75ae0e683fe) | fix(plan): land sase-17z name-first plan approve help and wait unblock hint | [sase-17z](README.md) | 2026-09-24 15:01:27 EDT |
+| sase--plans | [`sase--plans@0c2d053`](https://github.com/sase-org/sase--plans/commit/0c2d053662933d56e446d963b38b5f8432f7d9a9) | chore(plans): mark plan\_approve\_names done (sase-17z landed) | [sase-17z](README.md) | 2026-09-24 15:03:23 EDT |
