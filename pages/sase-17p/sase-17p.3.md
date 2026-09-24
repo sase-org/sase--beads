@@ -18,7 +18,7 @@ monitor-handoff: when a monitor's proc will run a ToolRun, reserve and bind it t
 ## Dependencies
 
 - **Depends on:** [sase-17p.2](sase-17p.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17p.5](sase-17p.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17p.5](sase-17p.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

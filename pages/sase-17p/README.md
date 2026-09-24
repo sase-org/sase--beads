@@ -17,6 +17,8 @@ A handed-off ToolRun has a durable identity before its caller lets go, stays dis
 
 [2026-09-24T17:15:12Z · sase-17m.3.1.land] DISCOVERED ISSUE (sase-17m.3.1 land agent, master df8ed5134, 2026-09-24): these gates fail on master with and without the landing diff: (1) tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot: the argparse tree adds 'sase tool stop' and 'sase tool wait' and changes 'sase tool run'/'sase tool show' against tests/completion/snapshots/cli_spec.json (sase-17p.4 df8ed5134; remedy: just sync-completion-spec). (2) tests/main/test_parser_tool.py::test_tool_help_advertises_implemented_verbs: the advertised verb list is now ['_adopt', 'list', ..., 'stop', ...] against the expected ['list','run','runs','show'] (sase-17p.4; the hidden '_adopt' verb also appears). (3) tests/main/test_monitor_handler_start_policy.py::test_start_loads_yaml_policy_before_calling_start_monitor: AttributeError '_Record' object has no attribute 'tool_run_id' (test double predates sase-17p.3 7f450e011). (4) just _lint-test-waits: tests/tool/test_handoff.py:205 fixed-sleep-missing-pragma. (5) just _lint-flags rule 6: feature flag 'tool_handoff' names missing bead 'sase-17v', but the flag bead is sase-17w 'Retire tool_handoff' (looks like a relocated duplicate bead id; compare sase-17y).
 
+[2026-09-24T18:58:16Z · sase-17z.land] DISCOVERED ISSUE: (proposed by sase-17z.2, re-verified by sase-17z land agent at master 71736697d) tests/completion/test_kind_coverage.py::test_every_value_slot_is_kinded_choiced_or_hinted is red: uncaptioned slots tool/stop:tool_stop_run_id, tool/wait:tool_wait_run_id, tool/wait:tool_wait_tail_lines, tool/wait:tool_wait_timeout — added by df8ed5134 (sase-17p.4). Kind the run-id slots (TOOL_RUN kind exists since 79a16ca77) and add value hints for tail_lines/timeout in src/sase/completion/kinds.py.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -25,8 +27,8 @@ A handed-off ToolRun has a durable identity before its caller lets go, stays dis
 | [sase-17p.2](sase-17p.2.md) | Hand a ToolRun off to a plain durable proc with sase tool run -H | ✓ closed | large | 2026-09-24 | 1 | 1 |
 | [sase-17p.3](sase-17p.3.md) | Reserve the ToolRun when a monitor start hands off a tool run | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-17p.4](sase-17p.4.md) | Stop, follow, and wait on a ToolRun by id | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-17p.5](sase-17p.5.md) | Settle hand-off runs truthfully after crashes and deliver once | ◐ in_progress | large | 2026-09-24 | 1 | 1 |
-| [sase-17p.6](sase-17p.6.md) | Prove the hand-off contract end to end and remove the beta flag | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-17p.5](sase-17p.5.md) | Settle hand-off runs truthfully after crashes and deliver once | ✓ closed | large | 2026-09-24 | 1 | 1 |
+| [sase-17p.6](sase-17p.6.md) | Prove the hand-off contract end to end and remove the beta flag | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 
 ## Lineage
 
@@ -37,8 +39,8 @@ flowchart TD
     n2["sase-17p.2: Hand a ToolRun off to a plain durable proc with sase tool run -H [closed]"]
     n3["sase-17p.3: Reserve the ToolRun when a monitor start hands off a tool run [closed]"]
     n4["sase-17p.4: Stop, follow, and wait on a ToolRun by id [closed]"]
-    n5["sase-17p.5: Settle hand-off runs truthfully after crashes and deliver once [in_progress]"]
-    n6["sase-17p.6: Prove the hand-off contract end to end and remove the beta flag [in_progress]"]
+    n5["sase-17p.5: Settle hand-off runs truthfully after crashes and deliver once [closed]"]
+    n6["sase-17p.6: Prove the hand-off contract end to end and remove the beta flag [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17p.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.3/README.md) | [sase-17p.3](sase-17p.3.md) | 1 |
 | [bbugyi200.athena.sase-17p.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.4/README.md) | [sase-17p.4](sase-17p.4.md) | 1 |
 | [bbugyi200.athena.sase-17p.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17p.5.md) | [sase-17p.5](sase-17p.5.md) | 1 |
-| [bbugyi200.athena.sase-17p.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.6/README.md) | [sase-17p.6](sase-17p.6.md) | 0 |
+| [bbugyi200.athena.sase-17p.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.6/README.md) | [sase-17p.6](sase-17p.6.md) | 1 |
 | [bbugyi200.athena.sase-17p.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md) | [sase-17p](README.md) | 0 |
 
 ## Commits
@@ -75,6 +77,7 @@ flowchart TD
 | sase | [`7f450e0`](https://github.com/sase-org/sase/commit/7f450e0112d43136cf19afde6053979747c43439) | feat(monitor): reserve ToolRun hand-off on monitor start (sase-17p.3) | [sase-17p.3](sase-17p.3.md) | 2026-09-24 12:02:48 EDT |
 | sase | [`df8ed51`](https://github.com/sase-org/sase/commit/df8ed5134112a26735b501c5126593a1d40dd8d7) | feat(tool): stop, follow, and wait on a ToolRun by id (sase-17p.4) | [sase-17p.4](sase-17p.4.md) | 2026-09-24 12:20:14 EDT |
 | sase | [`7173669`](https://github.com/sase-org/sase/commit/71736697dcb97b14cceb96cf687dfa24d6454d17) | feat(tool): settle hand-off ToolRuns from owner facts and deliver once (sase-17p.5) | [sase-17p.5](sase-17p.5.md) | 2026-09-24 14:00:16 EDT |
+| sase | [`c91690e`](https://github.com/sase-org/sase/commit/c91690efcbae1179773f70a2823e77fabac4b203) | feat(tool): prove hand-off contract end to end and remove tool\_handoff flag (sase-17p.6) | [sase-17p.6](sase-17p.6.md) | 2026-09-24 15:29:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -82,8 +85,16 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-17m.3.1.land][1] | Land sase-17m.3.1: check whether pre-existing tool-verb/completion/monitor-start test failures are already noted before routing them | 1 |
+| read-by | [agent:research.2i.cdx][1] | Assess the nearly complete E2 epic as evidence for whether roadmap epics E3 and E4 remain correct | 1 |
+| read-by | [agent:research.2i.cld][2] | Assess E2 progress to evaluate readiness of E3/E4 epics | 1 |
+| read-by | [agent:research.2i.gem][3] | Understand E2 scope and status for E3/E4 research | 1 |
+| read-by | [agent:research.2i.mus][4] | Research E3/E4 epics: need E2 completion status and landing criteria context | 1 |
+| read-by | [agent:sase-17m.3.1.land][5] | Land sase-17m.3.1: check whether pre-existing tool-verb/completion/monitor-start test failures are already noted before routing them | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.gem/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.mus/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

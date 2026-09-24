@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17p](README.md) / sase-17p.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qj](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qj.md) · **Assignee:** `sase-17p.5` · **Size:** large
-**Created:** 2026-09-24 08:40:24 EDT
+**Created:** 2026-09-24 08:40:24 EDT · **Closed:** 2026-09-24 14:01:26 EDT
 **Plan:** [202609/tool\_e2\_durable\_handoff.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e2_durable_handoff.md)
 
 ## Description
@@ -21,11 +21,13 @@ settlement: feed owner facts into reconcile, record stop and timeout causes from
 
 [2026-09-24T17:57:39Z · sase-17p.5] PROPOSED FOLLOW-UP: pre-existing gate failures seen while verifying (all reproduce on a clean tree with this phase stashed; none touch this phase's files): (1) just check stops at 'lint (feature flags)': rule 6 'tool_handoff' names missing bead sase-17v, rule 7 closed flag bead sase-17k still has a surviving agent_decks definition; (2) tests/tool/test_handoff.py:205 fixed-sleep-missing-pragma fails the test-waits lint; (3) toobig: src/sase/ace/tui/widgets/decks/panel.py has 1051 lines; (4) symvision stops at 'Private functions/classes should not be imported' for ~70 unrelated private symbols in llm_provider/usage, plan_chain, ace modals; (5) 24 scoped-lane tests fail identically on the clean tree (ace tui prompt-panel widgets, completion snapshot/kind coverage, tests/main/test_parser_tool.py::test_tool_help_advertises_implemented_verbs, core-facade cleanup, fakey CLI help, import budget). The remaining check gates (ruff, mypy, format, changelog, pyscripts, validate, committed plans) pass and were run individually.
 
+[2026-09-24T18:01:26Z · sase-17p.5] Closed by explicit `sase stitch create -B close` after create_commit landed 71736697d ("feat(tool): settle hand-off ToolRuns from owner facts and deliver once (sase-17p.5)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-17p.5` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-17p.3](sase-17p.3.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17p.4](sase-17p.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17p.6](sase-17p.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17p.6](sase-17p.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -38,3 +40,15 @@ settlement: feed owner facts into reconcile, record stop and timeout causes from
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7173669`](https://github.com/sase-org/sase/commit/71736697dcb97b14cceb96cf687dfa24d6454d17) | feat(tool): settle hand-off ToolRuns from owner facts and deliver once (sase-17p.5) | [sase-17p.5](sase-17p.5.md) | 2026-09-24 14:00:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0qz--code][1] | check open before noting symvision renames | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+
+<!-- sase:referenced-by:end -->
