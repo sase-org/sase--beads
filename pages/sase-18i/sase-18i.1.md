@@ -21,7 +21,7 @@ engine: add the backend for approving a plan with no live gate. This covers arch
 
 ## Dependencies
 
-- **Blocks:** [sase-18i.2](sase-18i.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18i.2](sase-18i.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ engine: add the backend for approving a plan with no live gate. This covers arch
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4d0ad9b`](https://github.com/sase-org/sase/commit/4d0ad9ba5da30f3a5917fb67f4e23cb110219346) | feat(plan): implement direct approval engine for gateless tales | [sase-18i.1](sase-18i.1.md) | 2026-09-24 20:05:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18i.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18i.1/README.md
+
+<!-- sase:referenced-by:end -->
