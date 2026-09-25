@@ -32,3 +32,15 @@ visual_proof: Add width-sensitive coverage, refresh and inspect the targeted PNG
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7a5559c`](https://github.com/sase-org/sase/commit/7a5559cc737aa1d9b2cb90decf1bdb969855f64b) | fix(ace-tui): keep bead note previews readable in narrow Context cards | [sase-18z.3.2](sase-18z.3.2.md) | 2026-09-25 12:09:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.3.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.2/README.md
+
+<!-- sase:referenced-by:end -->
