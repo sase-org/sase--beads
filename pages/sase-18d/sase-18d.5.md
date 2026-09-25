@@ -23,7 +23,7 @@ additive-dismissals: switch the cleanup transactions and every other dismissed-a
 
 - **Depends on:** [sase-18d.1](sase-18d.1.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18d.4](sase-18d.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18d.6](sase-18d.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.6](sase-18d.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -36,3 +36,15 @@ additive-dismissals: switch the cleanup transactions and every other dismissed-a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1ea13da`](https://github.com/sase-org/sase/commit/1ea13da1b3450d2c89da83beb47814f117e9315b) | feat(dismissed-index): persist dismissals additively for every writer | [sase-18d.5](sase-18d.5.md) | 2026-09-24 21:26:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18d.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.5/README.md
+
+<!-- sase:referenced-by:end -->

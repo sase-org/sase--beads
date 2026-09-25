@@ -15,6 +15,8 @@ Pressing `x` on any Agents-tab node (agent, clan container, workflow, monitor, p
 
 [2026-09-24T23:24:18Z · 0rt] DISCOVERED ISSUE: just check stops at lint (symvision) on origin/master 33e41c72e, masking every later stage (validate, committed plans, scoped tests): AgentSurvivorsError and Survivor in src/sase/ace/tui/actions/agents/_kill_termination.py and environ_has_launch_key in src/sase/agent/process_tree.py are unused public symbols added by b7cfa069c (sase-18d.3). Presumably sase-18d.4/.5 wire them up, but until then the epic-symbols whitelist or a private rename is needed for every other agent's check to get past lint. Found while verifying an unrelated change; all other lint stages (mypy, ruff, pyscripts, test-waits, feature flags) pass at that SHA.
 
+[2026-09-25T01:57:46Z · sase-18d.land] LAND AUDIT: Phases 1-5 are implemented in source and their commits; core revision 8315364 contains f226caf schema-5/additive API. Phase 6 is closed without its planned on-disk Textual pilot regression module: its note only cites separate tombstone, durable termination, and member-scope tests. Existing tests/test_agents_tab_removal_tombstones.py uses fake apps; tests/test_agent_terminate_processes.py uses real processes separately; no integrated pilot covers clan/load/fleet/restart or FAILED/DONE/live process semantics. A child plan is being proposed for only that missing coverage and any defects it reveals. Post-start commits inspected: 4fb83bb4f resolved the temporary symvision symbols and advanced the core pin; 0d7229bef adjusted finished-agent fork behavior; 3a1d0bab2 changed agent-session query dialect; bf3aa6c8a repaired unrelated TUI tests; none supplies the missing pilot coverage. Recheck interaction with those current behaviors in the child. Follow-up proposals on phases 1-5 remain for the resumed land audit to disposition.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -24,7 +26,7 @@ Pressing `x` on any Agents-tab node (agent, clan container, workflow, monitor, p
 | [sase-18d.3](sase-18d.3.md) | Verified process-tree termination in the durable cleanup proc | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18d.4](sase-18d.4.md) | x stops every member kind instead of skipping it | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18d.5](sase-18d.5.md) | Additive dismissed-index persistence for every writer | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18d.6](sase-18d.6.md) | End-to-end x regression coverage | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
+| [sase-18d.6](sase-18d.6.md) | End-to-end x regression coverage | ✓ closed | small | 2026-09-24 | 1 | 0 |
 
 ## Lineage
 
@@ -36,19 +38,26 @@ flowchart TD
     n3["sase-18d.3: Verified process-tree termination in the durable cleanup proc [closed]"]
     n4["sase-18d.4: x stops every member kind instead of skipping it [closed]"]
     n5["sase-18d.5: Additive dismissed-index persistence for every writer [closed]"]
-    n6["sase-18d.6: End-to-end x regression coverage [in_progress]"]
+    n6["sase-18d.6: End-to-end x regression coverage [closed]"]
+    n7["sase-18d.7: Complete Agents-tab x end-to-end regression coverage [in_progress]"]
+    n8["sase-18d.7.1: Pilot harness and clan removal race [closed]"]
+    n9["sase-18d.7.2: Live row, process tree, and restart scenarios [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
     n1 -.-> n5
     n2 -.-> n3
     n2 -.-> n4
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
+    n8 -.-> n9
 ```
 
 ## Agents
@@ -61,7 +70,10 @@ flowchart TD
 | [bbugyi200.athena.sase-18d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.4/README.md) | [sase-18d.4](sase-18d.4.md) | 1 |
 | [bbugyi200.athena.sase-18d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.5/README.md) | [sase-18d.5](sase-18d.5.md) | 1 |
 | [bbugyi200.athena.sase-18d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.6/README.md) | [sase-18d.6](sase-18d.6.md) | 0 |
-| [bbugyi200.athena.sase-18d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.land/README.md) | [sase-18d](README.md) | 0 |
+| [bbugyi200.athena.sase-18d.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.1/README.md) | [sase-18d.7.1](sase-18d.7.1.md) | 1 |
+| [bbugyi200.athena.sase-18d.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.2/README.md) | [sase-18d.7.2](sase-18d.7.2.md) | 0 |
+| [bbugyi200.athena.sase-18d.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md) | [sase-18d.7](sase-18d.7.md) | 0 |
+| [bbugyi200.athena.sase-18d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18d.land.md) | [sase-18d](README.md) | 0 |
 
 ## Commits
 
@@ -74,6 +86,7 @@ flowchart TD
 | sase | [`b7cfa06`](https://github.com/sase-org/sase/commit/b7cfa069cb45b421f4abc87ddb8b21bb15d71c05) | feat(agent): verified process-tree termination in the durable cleanup proc (sase-18d.3) | [sase-18d.3](sase-18d.3.md) | 2026-09-24 19:05:19 EDT |
 | sase | [`3cf0f1f`](https://github.com/sase-org/sase/commit/3cf0f1ff68ab3f89233defdf3fc1ec9e5088161d) | feat(ace): x stops every member kind instead of skipping it (sase-18d.4) | [sase-18d.4](sase-18d.4.md) | 2026-09-24 20:06:44 EDT |
 | sase | [`1ea13da`](https://github.com/sase-org/sase/commit/1ea13da1b3450d2c89da83beb47814f117e9315b) | feat(dismissed-index): persist dismissals additively for every writer | [sase-18d.5](sase-18d.5.md) | 2026-09-24 21:26:20 EDT |
+| sase | [`ae34dba`](https://github.com/sase-org/sase/commit/ae34dba2066acf114bc158de39061ba6533f189d) | test(ace): drive Agents-tab clan x through a mounted pilot and fix racing-load resurrection | [sase-18d.7.1](sase-18d.7.1.md) | 2026-09-24 23:52:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
