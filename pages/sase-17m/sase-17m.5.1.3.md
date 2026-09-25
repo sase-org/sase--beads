@@ -22,7 +22,7 @@ contract-completion: rename the Agents-pane relation family/agent_family_contain
 ## Dependencies
 
 - **Depends on:** [sase-17m.5.1.2](sase-17m.5.1.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17m.5.1.4](sase-17m.5.1.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.4](sase-17m.5.1.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -35,3 +35,15 @@ contract-completion: rename the Agents-pane relation family/agent_family_contain
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f7cbb59`](https://github.com/sase-org/sase/commit/f7cbb59f3588c0dc2c921c0c06c17d7595365eb1) | refactor(agent-session): rename Artifacts-pane contract, row kinds, and completion kinds (sase-17m.5.1.3) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 2026-09-25 02:32:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.3--1][1] | Need the phase scope to decide on pre-existing tribe test failures | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.3.md
+
+<!-- sase:referenced-by:end -->

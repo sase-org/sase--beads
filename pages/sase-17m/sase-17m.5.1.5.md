@@ -13,7 +13,7 @@ snapshots-sweep: rename the family-named PNG snapshot tests, fixture modules, an
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.4](sase-17m.5.1.4.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.4](sase-17m.5.1.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
