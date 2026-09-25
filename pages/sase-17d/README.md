@@ -31,6 +31,49 @@ Done when: `just check` is green (toobig included), the three goldens are commit
 
 [2026-09-24T23:24:07Z · 0rt] DISCOVERED ISSUE: at origin/master 33e41c72e four prompt-panel tests fail deterministically, identically on a clean tree, all with the same shape: the panel now returns CardPart objects while the tests still expect Text/Group. tests/ace/tui/widgets/test_agent_prompt_panel_xprompts.py::test_update_display_renders_xprompts_after_detail_settles ('Xprompts: 1 workflow' not found; got a rich Group), tests/ace/tui/widgets/test_agent_prompt_semantic.py::{test_agent_xprompt_and_prompt_receive_roles_replies_do_not, test_hint_mode_restores_file_hints_after_semantics, test_family_pinned_and_workflow_authored_prompt_paths} (isinstance(CardPart(card_id='context'...), (Text, ...)) is False at line 51), plus the already-recorded test_agent_prompt_panel_steps.py::test_parallel_step_does_not_show_agent_prompt (sase-17d.10.1.1 note #1). Reported from an unrelated glossary change; these read as stale test expectations from the deck/card cutover, so they belong to this epic rather than a new task.
 
+[2026-09-25T12:38:19Z · sase-17d.land] LAND AGENT (sase-17d.land, master 8fd6a054fd, 2026-09-25). Landing interrupted; child epic proposed (parent_bead sase-17d, plan "Finish landing agent data decks - Files spread, live spread checks and the j/k bench") for the remaining work.
+
+VERIFIED
+- Phases: all 11 phases and the nested epics sase-17d.10.1 and sase-17d.10.1.4 are closed.
+- Commits: 9c701d658f (.1), 9abf08b5df (.2), 00ee51996d (.3), 075225d537 (.5; also carries the never-committed .4 work), 7d22725888 (.6), 71fff39d15 (.7), 4388817861 (.9), 329d4049b6 (.8), bda83083bf, 742c1df38b, 37c8bb2643 and a674dc91f1 (.10 via .10.1), 8fd6a054fd (.11).
+- Code: the widgets/decks package is on master. Grepping src for the legacy ids, the picker, the zoom modal and the agent_decks flag finds only intentional retired-id compat lists, the key notice and docs.
+- Size: panel.py is 735 lines after b18f3d38f2, so the toobig item in note #2.1 is resolved. `just toobig` now fails only on command_line/screen_completion.py (1039 lines), which is not this epic's and is no longer a check stage.
+- Check: `sase tool run check` 3a18109b85b6805eda8d0c4c5375bc31 passed every lint gate, including symvision. The escalated full test lane had 47302 passed and 8 failed, none caused by the epic:
+  - 4 are stale family->session expectations. They are noted on sase-17m.5.1.6, and sase-18s got a +1.
+  - fakey runner_slots e2e, tool/test_settlement (database is locked), proc_query budget (1.006 s vs 1.0 s) and the grok usage probe are unrelated.
+- Epic notes #3 and #5: all 9 prompt-panel CardPart and llm-calls timezone nodes pass now (fixed by bf3aa6c8a3).
+- Note #1: the mypy error was fixed in .4/.5, and the Reply card is reachable with Ctrl+J.
+- Note #4: resolved as above.
+- sase-17d.10.1 note #4: the 26 PNG tests were migrated by .10.1.4.
+- sase-17d.10.1 note #5: the deck focus accent was fixed by .10.1.4.3 (_resolve_accent reads current_theme).
+- epic-symbols: none.
+
+INTEGRATION
+- Reviewed the 143 non-epic commits since 9c701d658f. The ones touching the deck area are b18f3d38f2, 0648306324, 114fbca89a, bf3aa6c8a3, the 18g header-xprompt commits (4af219ebae, 4858f20a2d, d2c2dd1429; d2c2dd1429 regenerated the deck goldens) and the rename commits. None duplicates the epic.
+- One conflict: 4af219ebae landed before a674dc91f1, so the epic-migrated session fold-levels PNG test targets an agent-xprompt anchor that no longer exists and fails at HEAD (task sase-18y). It is moved into the child epic.
+- Closed tasks the epic resolved: sase-179 (done by .1), sase-14w (the "(p)" hint and view-picker golden were deleted), sase-160 (the zoom-modal test was deleted).
+
+REMAINING (child epic)
+- sase-18m: the Files spread probe never completes. Caused by .8. The spread-Files golden feeds the probe by hand.
+- sase-18y.
+- User note #2 item 3: live spread screenshots (a/b/c) with separator and title-pill inspection were never done. The Reply golden shows no Reply separator on screen and needs an explanation.
+- User note #2 item 4: the before/after j/k bench in SINGLE and LEFT_RIGHT against a054efc585 (the parent of 329d4049b) was never run. .10.1.4.3 recorded current-tree numbers only.
+- .7 follow-up #1: the zoomed-tribe pilot test.
+
+FOLLOW-UP DISPOSITIONS
+- Resolved, no task:
+  - .1 #1, .3 #5a, .4 #1 and .5 (1): the symvision backlog. sase-17c is closed and symvision is green.
+  - .2 #2: informational only (no traceback golden quirk).
+  - .3 #5c: flag-on no-selection and tribe goldens exist now.
+  - .5 (4) and .6: the live screenshot check and the LEFT_RIGHT committed-search golden were done in .10.1.4.3.
+  - .8 #1: toobig is resolved.
+  - .10.1.3 #2-#5: handled by .10.1.land and .10.1.4.
+  - .10.1.4.3: sase-18n, sase-18o and sase-18p are unrelated and already tracked.
+- Folded into the child epic as epic work:
+  - .3 #5b, .5 (2), .10.1.
+
+… and 401 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -63,14 +106,18 @@ flowchart TD
     n9["sase-17d.10.1.4.2: Migrate the tribe, clan, files, LLM Calls, search and waiting visual tests [closed]"]
     n10["sase-17d.10.1.4.3: Add the missing deck coverage goldens and run the live and full checks [closed]"]
     n11["sase-17d.11: Docs, glossary strands and key-change notice [closed]"]
-    n12["sase-17d.2: Card-partitioned Main documents [closed]"]
-    n13["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
-    n14["sase-17d.4: Card and deck cycling keys [closed]"]
-    n15["sase-17d.5: Split layouts, focus and split ratio [closed]"]
-    n16["sase-17d.6: Retarget detail actions to the focused deck panel [closed]"]
-    n17["sase-17d.7: Node panel collapse and in-place zoom [closed]"]
-    n18["sase-17d.8: Spread versus paged rendering [closed]"]
-    n19["sase-17d.9: Persist the deck layout across restarts [closed]"]
+    n12["sase-17d.12: Finish landing agent data decks - Files spread, live spread checks and the j/k bench [in_progress]"]
+    n13["sase-17d.12.1: Make the Files deck spread live and repair the broken deck visual tests [closed]"]
+    n14["sase-17d.12.2: Inspect live spread rendering and fix separator and title-pill defects [in_progress]"]
+    n15["sase-17d.12.3: Record before/after j/k bench numbers for SINGLE and LEFT_RIGHT [in_progress]"]
+    n16["sase-17d.2: Card-partitioned Main documents [closed]"]
+    n17["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
+    n18["sase-17d.4: Card and deck cycling keys [closed]"]
+    n19["sase-17d.5: Split layouts, focus and split ratio [closed]"]
+    n20["sase-17d.6: Retarget detail actions to the focused deck panel [closed]"]
+    n21["sase-17d.7: Node panel collapse and in-place zoom [closed]"]
+    n22["sase-17d.8: Spread versus paged rendering [closed]"]
+    n23["sase-17d.9: Persist the deck layout across restarts [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -83,28 +130,35 @@ flowchart TD
     n7 --> n10
     n0 --> n11
     n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
     n0 --> n16
     n0 --> n17
     n0 --> n18
     n0 --> n19
-    n1 -.-> n13
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n1 -.-> n17
     n2 -.-> n11
     n4 -.-> n5
     n5 -.-> n6
     n8 -.-> n10
     n9 -.-> n10
-    n12 -.-> n13
     n13 -.-> n14
+    n13 -.-> n15
     n14 -.-> n15
-    n15 -.-> n16
-    n15 -.-> n17
-    n16 -.-> n18
-    n17 -.-> n19
-    n18 -.-> n2
-    n19 -.-> n2
+    n16 -.-> n17
+    n17 -.-> n18
+    n18 -.-> n19
+    n19 -.-> n20
+    n19 -.-> n21
+    n20 -.-> n22
+    n21 -.-> n23
+    n22 -.-> n2
+    n23 -.-> n2
 ```
 
 ## Agents
@@ -121,6 +175,10 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.10.1.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10.1.4.land/README.md) | [sase-17d.10.1.4](sase-17d.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.land.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
 | [bbugyi200.athena.sase-17d.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.11/README.md) | [sase-17d.11](sase-17d.11.md) | 1 |
+| [bbugyi200.athena.sase-17d.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.1/README.md) | [sase-17d.12.1](sase-17d.12.1.md) | 1 |
+| [bbugyi200.athena.sase-17d.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.2/README.md) | [sase-17d.12.2](sase-17d.12.2.md) | 0 |
+| [bbugyi200.athena.sase-17d.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.3/README.md) | [sase-17d.12.3](sase-17d.12.3.md) | 0 |
+| [bbugyi200.athena.sase-17d.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.land/README.md) | [sase-17d.12](sase-17d.12.md) | 0 |
 | [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
 | [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
@@ -128,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md) | [sase-17d.7](sase-17d.7.md) | 1 |
 | [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 1 |
 | [bbugyi200.athena.sase-17d.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md) | [sase-17d.9](sase-17d.9.md) | 1 |
-| [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.land/README.md) | [sase-17d](README.md) | 0 |
+| [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.land.md) | [sase-17d](README.md) | 0 |
 
 ## Commits
 
@@ -147,6 +205,7 @@ flowchart TD
 | sase | [`37c8bb2`](https://github.com/sase-org/sase/commit/37c8bb26438cf1212fcfe24b44f7817b5c5753dc) | fix(ace-decks): preserve pending spread card across re-push and split | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 2026-09-24 16:04:11 EDT |
 | sase | [`a674dc9`](https://github.com/sase-org/sase/commit/a674dc91f186c653399a681f97d456876edbcb19) | test(ace): finish the deck cutover's visual migration and chrome fixes (sase-17d.10.1.4) | [sase-17d.10.1.4](sase-17d.10.1.4.md) | 2026-09-24 22:50:42 EDT |
 | sase | [`8fd6a05`](https://github.com/sase-org/sase/commit/8fd6a054fd899bc40ea2233248a63d09c5b6d4af) | docs(ace): rewrite Agents detail docs around decks and cards (sase-17d.11) | [sase-17d.11](sase-17d.11.md) | 2026-09-25 07:32:10 EDT |
+| sase | [`27d03a7`](https://github.com/sase-org/sase/commit/27d03a7b7224afca6a9083ea8061b9eecb34d4c9) | fix(ace-tui): apply the Files deck spread probe result (sase-17d.12.1) | [sase-17d.12.1](sase-17d.12.1.md) | 2026-09-25 09:21:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -155,19 +214,27 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0ql][1] | Understand sase-17d epic scope to generate infographic | 1 |
-| read-by | [agent:sase-17d.7][2] | parent status | 1 |
-| read-by | [agent:sase-17d.9][3] | parent epic plan for deck persistence context | 1 |
-| read-by | [agent:sase-17m.2.1.land][4] | Check existing notes for the mypy issue | 2 |
-| read-by | [agent:sase-17m.3.1.land][5] | Check whether decks/panel.py toobig and agent_decks flag-lint failures are already tracked by this epic | 1 |
-| read-by | [agent:sase-17p.land][6] | Route sase-17p land gate failures: check whether this epic is still active | 3 |
-| read-by | [agent:sase-17y.land][7] | Check whether the decks/panel.py toobig failure belongs to an active epic | 2 |
+| read-by | [agent:research.2j.cdx][2] | Need the epic's authoritative context for agent data card block design research | 1 |
+| read-by | [agent:research.2j.cld][3] | research card blocks design for agent data cards | 1 |
+| read-by | [agent:research.2j.final][4] | Context for consolidating card blocks design research | 1 |
+| read-by | [agent:research.2j.mus][5] | researching agent data card blocks design | 2 |
+| read-by | [agent:sase-17d.7][6] | parent status | 1 |
+| read-by | [agent:sase-17d.9][7] | parent epic plan for deck persistence context | 1 |
+| read-by | [agent:sase-17m.2.1.land][8] | Check existing notes for the mypy issue | 2 |
+| read-by | [agent:sase-17m.3.1.land][9] | Check whether decks/panel.py toobig and agent_decks flag-lint failures are already tracked by this epic | 1 |
+| read-by | [agent:sase-17p.land][10] | Route sase-17p land gate failures: check whether this epic is still active | 3 |
+| read-by | [agent:sase-17y.land][11] | Check whether the decks/panel.py toobig failure belongs to an active epic | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0ql/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2j.cdx/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2j.cld/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2j.final/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2j.mus/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
 
 <!-- sase:referenced-by:end -->

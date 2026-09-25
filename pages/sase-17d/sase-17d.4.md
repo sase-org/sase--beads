@@ -7,6 +7,18 @@
 **Created:** 2026-09-23 19:16:50 EDT · **Closed:** 2026-09-23 21:57:13 EDT
 **Plan:** [202609/agents\_tab\_decks\_and\_cards.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_decks_and_cards.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-193][1] | The phase bead that closed done while its work never committed |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-193/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 deck-navigation-keys: Ctrl+J/K cycle cards and Ctrl+N/P cycle decks in the focused panel, with sticky preferred cards. Ctrl+D/U, g/G and the bottom pin target the focused deck panel. Includes full keymap registration and the first flag-on PNG goldens.

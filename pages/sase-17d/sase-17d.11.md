@@ -32,3 +32,15 @@ deck-docs-glossary: rewrite the Agents detail docs around decks and cards, sweep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8fd6a05`](https://github.com/sase-org/sase/commit/8fd6a054fd899bc40ea2233248a63d09c5b6d4af) | docs(ace): rewrite Agents detail docs around decks and cards (sase-17d.11) | [sase-17d.11](sase-17d.11.md) | 2026-09-25 07:32:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.11][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.11/README.md
+
+<!-- sase:referenced-by:end -->
