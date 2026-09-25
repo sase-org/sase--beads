@@ -20,4 +20,4 @@ core-classification: implement the witness-based NEW/KNOWN/FLAKY/UNKNOWN rule as
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18j.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.3/README.md) | [sase-18j.3](sase-18j.3.md) | 0 |
+| [bbugyi200.athena.sase-18j.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.3.md) | [sase-18j.3](sase-18j.3.md) | 0 |

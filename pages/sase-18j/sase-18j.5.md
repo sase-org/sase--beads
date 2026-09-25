@@ -13,7 +13,7 @@ bindings-and-backtest: move the core pin and add adapters and validators for eve
 
 ## Dependencies
 
-- **Depends on:** [sase-18j.1](sase-18j.1.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18j.1](sase-18j.1.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18j.3](sase-18j.3.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-18j.6](sase-18j.6.md) ◐ · ⧖ 2026-09-24
 
