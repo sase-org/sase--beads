@@ -23,7 +23,7 @@ core-failure-items: add the additive triage tables, the versioned extractor regi
 
 ## Dependencies
 
-- **Blocks:** [sase-18j.3](sase-18j.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.3](sase-18j.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
