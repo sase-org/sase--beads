@@ -44,7 +44,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-17m.1](sase-17m.1.md) | Free the agent session name | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-23 | 1 | 1 |
+| [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-23 | 1 | 2 |
 | [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
@@ -191,7 +191,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.1/README.md) | [sase-17m.1](sase-17m.1.md) | 1 |
-| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md) | [sase-17m.10](sase-17m.10.md) | 1 |
+| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md) | [sase-17m.10](sase-17m.10.md) | 2 |
 | [bbugyi200.athena.sase-17m.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.2.md) | [sase-17m.2](sase-17m.2.md) | 0 |
 | [bbugyi200.athena.sase-17m.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.1/README.md) | [sase-17m.2.1.1](sase-17m.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-17m.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.2/README.md) | [sase-17m.2.1.2](sase-17m.2.1.2.md) | 1 |
@@ -281,6 +281,7 @@ flowchart TD
 | sase-core | [`sase-core@2a0fc2a`](https://github.com/sase-org/sase-core/commit/2a0fc2abdaea1d7fa40f93f439c902895f2eff6f) | feat(core)!: canonicalize agent-session contracts | [sase-17m.8](sase-17m.8.md) | 2026-09-25 14:55:11 EDT |
 | sase | [`7cb8359`](https://github.com/sase-org/sase/commit/7cb8359534d90a04aa09d012bc4c6b2190cb2ce9) | feat(agents-sync): publish sidecar session pages and bump core pin | [sase-17m.9](sase-17m.9.md) | 2026-09-25 19:04:35 EDT |
 | sase | [`266c8b3`](https://github.com/sase-org/sase/commit/266c8b37bc0fe75c0491c9c3c5a44db38741ad66) | test(terminology): add agent-session regression guard for sase-17m.10 | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:45:28 EDT |
+| chezmoi | [`chezmoi@d879385`](https://github.com/bbugyi200/dotfiles/commit/d87938507a4758fcb0d4bdb14c1d41849fbb3e50) | feat(ace): rename snippet af/agent family to as/agent session | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:51:49 EDT |
 
 <!-- sase:referenced-by:start -->
 

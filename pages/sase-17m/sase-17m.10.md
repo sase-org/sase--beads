@@ -31,13 +31,14 @@ audit: add a terminology regression test and sweep every repo, classifying each 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md) | [sase-17m.10](sase-17m.10.md) | 1 |
+| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md) | [sase-17m.10](sase-17m.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`266c8b3`](https://github.com/sase-org/sase/commit/266c8b37bc0fe75c0491c9c3c5a44db38741ad66) | test(terminology): add agent-session regression guard for sase-17m.10 | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:45:28 EDT |
+| chezmoi | [`chezmoi@d879385`](https://github.com/bbugyi200/dotfiles/commit/d87938507a4758fcb0d4bdb14c1d41849fbb3e50) | feat(ace): rename snippet af/agent family to as/agent session | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:51:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -46,7 +47,9 @@ audit: add a terminology regression test and sweep every repo, classifying each 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2g.final.f0][1] | Flake corroboration counts and 17m rename epic state for P1 sequencing | 1 |
+| read-by | [agent:sase-17m.10--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2g.final.f0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md
 
 <!-- sase:referenced-by:end -->
