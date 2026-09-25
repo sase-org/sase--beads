@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-191.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.1/README.md) | [sase-191.1](sase-191.1.md) | 1 |
 | [bbugyi200.athena.sase-191.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.2/README.md) | [sase-191.2](sase-191.2.md) | 1 |
 | [bbugyi200.athena.sase-191.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.3/README.md) | [sase-191.3](sase-191.3.md) | 0 |
-| [bbugyi200.athena.sase-191.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md) | [sase-191](README.md) | 1 |
+| [bbugyi200.athena.sase-191.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md) | [sase-191](README.md) | 2 |
 
 ## Commits
 
@@ -54,3 +54,16 @@ flowchart TD
 | sase | [`245dcb5`](https://github.com/sase-org/sase/commit/245dcb55362fca45a0ae4a03d982a059ab38854d) | fix(tools): show continued run\_silent stage failures as failures (sase-191.2) | [sase-191.2](sase-191.2.md) | 2026-09-25 08:31:23 EDT |
 | sase | [`7757bac`](https://github.com/sase-org/sase/commit/7757bacc9d82e14a78e1683f0fed407969e98c7c) | fix(triage): repair backtest audit evidence | [sase-191.1](sase-191.1.md) | 2026-09-25 09:18:49 EDT |
 | sase | [`0f5d897`](https://github.com/sase-org/sase/commit/0f5d89750ef60c8fb883a168e45dc38aada36111) | fix(triage): give the backtest audit table a matching delimiter row (sase-191) | [sase-191](README.md) | 2026-09-25 11:28:22 EDT |
+| sase--plans | [`sase--plans@db339fc`](https://github.com/sase-org/sase--plans/commit/db339fc54b63f12efc60efb3b5fdaf785dccef3a) | chore(plans): mark e3\_precision\_gate done (sase-191) | [sase-191](README.md) | 2026-09-25 11:33:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-191.land][1] | Need the epic scope, children, and linked plan file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
+
+<!-- sase:referenced-by:end -->

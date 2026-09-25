@@ -27,3 +27,15 @@ precision-gate: run the repaired backtest on athena, hand-audit at least 50 KNOW
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-191.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.3/README.md) | [sase-191.3](sase-191.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-191.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
+
+<!-- sase:referenced-by:end -->
