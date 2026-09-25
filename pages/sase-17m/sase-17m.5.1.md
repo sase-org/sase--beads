@@ -20,3 +20,15 @@ Inside ACE (src/sase/ace/**, tests/ace/**, tests/perf/**, default_config.yml, an
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.2][1] | Need land agent finding note #1 for scope context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md
+
+<!-- sase:referenced-by:end -->

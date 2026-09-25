@@ -13,7 +13,7 @@ docs-verify: update docs that still name the renamed perf scenarios or the retir
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

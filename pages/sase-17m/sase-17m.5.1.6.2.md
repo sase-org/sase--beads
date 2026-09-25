@@ -22,7 +22,7 @@ widget-tests: rename the family-concept test functions, helpers, locals, fixture
 ## Dependencies
 
 - **Depends on:** [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -35,3 +35,15 @@ widget-tests: rename the family-concept test functions, helpers, locals, fixture
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d039244`](https://github.com/sase-org/sase/commit/d039244c0061f25ffe0ebcf4b19506e60e8afd67) | refactor(ace-tui): rename family test identifiers to agent-session in widget, modal, action, and visual tests | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 2026-09-25 06:03:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md
+
+<!-- sase:referenced-by:end -->

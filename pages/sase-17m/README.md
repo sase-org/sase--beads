@@ -92,7 +92,7 @@ flowchart TD
     n35["sase-17m.5.1.6: Finish ACE agent session surfaces (ace-cutover landing gaps) [in_progress]"]
     n36["sase-17m.5.1.6.1: Visible-copy and comment stragglers plus the 15 failing tests [closed]"]
     n37["sase-17m.5.1.6.2: Agent-session test identifiers in widgets, modals, actions, and visual tests [closed]"]
-    n38["sase-17m.5.1.6.3: Agent-session test identifiers in top-level TUI, models, and contract tests plus new-shape fleet fixtures [in_progress]"]
+    n38["sase-17m.5.1.6.3: Agent-session test identifiers in top-level TUI, models, and contract tests plus new-shape fleet fixtures [closed]"]
     n39["sase-17m.5.1.6.4: Docs integration, perf re-run, classification, and full verification [in_progress]"]
     n40["sase-17m.6: Documentation and memory [closed]"]
     n41["sase-17m.7: sase-telegram cutover [closed]"]
@@ -217,7 +217,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.5/README.md) | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.1.md) | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md) | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 1 |
-| [bbugyi200.athena.sase-17m.5.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md) | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md) | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.4/README.md) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.land/README.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
@@ -263,6 +263,7 @@ flowchart TD
 | sase | [`e9ba5b7`](https://github.com/sase-org/sase/commit/e9ba5b708adec9ba795971289e6fae7d5e048984) | refactor(ace-tui): rename family test naming to agent-session across snapshots and fixtures | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 2026-09-25 04:05:20 EDT |
 | sase | [`cdf4912`](https://github.com/sase-org/sase/commit/cdf491254c6f8198b8f9b95e15c5f6239ce520ae) | feat(ace): complete agent session terminology | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 2026-09-25 05:20:23 EDT |
 | sase | [`d039244`](https://github.com/sase-org/sase/commit/d039244c0061f25ffe0ebcf4b19506e60e8afd67) | refactor(ace-tui): rename family test identifiers to agent-session in widget, modal, action, and visual tests | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 2026-09-25 06:03:44 EDT |
+| sase | [`ea130c6`](https://github.com/sase-org/sase/commit/ea130c678afbe48d0249d00311d2e4af0a5ddbf7) | feat(scope): describe the completed work | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 2026-09-25 07:02:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
