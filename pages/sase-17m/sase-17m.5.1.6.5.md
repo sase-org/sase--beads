@@ -29,7 +29,7 @@ sase bead epic-symbols reported no --epic-symbol entries.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.6.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 1 |
 
 ## Commits
 
@@ -45,6 +45,6 @@ sase bead epic-symbols reported no --epic-symbol entries.
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.6.5.land--1][1] | Need child epic close note to include in parent close recheck | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
 
 <!-- sase:referenced-by:end -->

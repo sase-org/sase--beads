@@ -33,7 +33,7 @@ wire-cutover: bump the core pin and switch sase to the new binding names. Rename
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.3.md) | [sase-17m.3](sase-17m.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.3.md) | [sase-17m.3](sase-17m.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

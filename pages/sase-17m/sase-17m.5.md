@@ -30,7 +30,7 @@ ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.md) | [sase-17m.5](sase-17m.5.md) | 0 |
+| [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,7 +41,7 @@ ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy 
 | read-by | [agent:0qz--code][1] | verify 17m.5 open before adding epic-symbol entries | 1 |
 | read-by | [agent:sase-17m.5.1.6.5.land--1][2] | Confirm phase close status, notes, and that containing epic stayed open | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
 
 <!-- sase:referenced-by:end -->

@@ -43,7 +43,7 @@ just check (monitor 4s0jgas16mkg, tool 5534b3088505fbef) timed out at 1h during 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.land.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.land.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -53,6 +53,6 @@ just check (monitor 4s0jgas16mkg, tool 5534b3088505fbef) timed out at 1h during 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.6.5.land--1][1] | Need parent epic scope, children, parent_bead, and notes after child close | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
 
 <!-- sase:referenced-by:end -->

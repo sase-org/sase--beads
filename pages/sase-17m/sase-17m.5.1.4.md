@@ -28,7 +28,7 @@ copy: rename widgets/prompt_panel/_agent_display_family{,_render} and every fami
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.4.md) | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.4.md) | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 1 |
 
 ## Commits
 
@@ -44,6 +44,6 @@ copy: rename widgets/prompt_panel/_agent_display_family{,_render} and every fami
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.4--2][1] | Need the assigned phase scope and design evidence before final verification and closure | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.4.md
 
 <!-- sase:referenced-by:end -->

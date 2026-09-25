@@ -21,7 +21,7 @@ retry-visual: update the stale retry query, inspect the targeted golden update, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.6.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.1.md) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.6.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.1.md) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 1 |
 
 ## Commits
 
@@ -37,6 +37,6 @@ retry-visual: update the stale retry query, inspect the targeted golden update, 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.6.5.1--1][1] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.1.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.1.md
 
 <!-- sase:referenced-by:end -->

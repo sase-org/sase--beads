@@ -28,7 +28,7 @@ contract-completion: rename the Agents-pane relation family/agent_family_contain
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.3.md) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.3.md) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 1 |
 
 ## Commits
 
@@ -44,6 +44,6 @@ contract-completion: rename the Agents-pane relation family/agent_family_contain
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.3--1][1] | Need the phase scope to decide on pre-existing tribe test failures | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.3.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,7 @@ telegram: move the /show session kind, formatting, help, docs, and tests to the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
+| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -36,6 +36,6 @@ telegram: move the /show session kind, formatting, help, docs, and tests to the 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.7--1][1] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.7.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md
 
 <!-- sase:referenced-by:end -->

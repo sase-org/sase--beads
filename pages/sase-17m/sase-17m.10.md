@@ -13,7 +13,7 @@ audit: add a terminology regression test and sweep every repo, classifying each 
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.9](sase-17m.9.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17m.9](sase-17m.9.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 

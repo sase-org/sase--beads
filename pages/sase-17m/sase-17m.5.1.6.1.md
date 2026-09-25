@@ -23,7 +23,7 @@ copy-stragglers: fix the 15 tests/ace widget tests that fail on master because t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.1.md) | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.1.md) | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 1 |
 
 ## Commits
 
@@ -39,6 +39,6 @@ copy-stragglers: fix the 15 tests/ace widget tests that fail on master because t
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.6.1--2][1] | Confirm assigned phase scope and completion evidence before closing it | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.1.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.1.md
 
 <!-- sase:referenced-by:end -->

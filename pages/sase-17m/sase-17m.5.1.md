@@ -27,7 +27,7 @@ just check after 5.1.6 (monitor 4s0jgas16mkg) timed out at 1h during test (scope
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,6 +39,6 @@ just check after 5.1.6 (monitor 4s0jgas16mkg) timed out at 1h during test (scope
 | read-by | [agent:sase-17m.5.1.6.5.land--1][2] | Confirm close status and notes after auto-cascade | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
 
 <!-- sase:referenced-by:end -->

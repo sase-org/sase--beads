@@ -26,7 +26,7 @@ core-contract: breaking feat! sase-core change. Serialize the new key and value 
 - **Depends on:** [sase-17m.5](sase-17m.5.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17m.6](sase-17m.6.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17m.7](sase-17m.7.md) ✓ · ⧖ 2026-09-23
-- **Blocks:** [sase-17m.9](sase-17m.9.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.9](sase-17m.9.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
@@ -48,10 +48,16 @@ core-contract: breaking feat! sase-core change. Serialize the new key and value 
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2f.cld][1] | Check whether the core contract flip (which emits new durable keys) has landed, to assess double-migration risk with shell->turn | 1 |
 | read-by | [agent:research.2f.final][2] | Check whether core-contract phase already emits agent_session_shell spellings (double-migration risk with turn rename) | 1 |
-| read-by | [agent:sase-17m.2.1.land][3] | Check core-contract scope for routing follow-ups | 2 |
+| read-by | [agent:research.2k.cld][3] | Audit: confirm the core flip landed before the sase-side mirror bump, causing the schema-mismatch outage | 1 |
+| read-by | [agent:research.2k.final][4] | Verify the incident's core-flip/pin-bump phase ordering for the consolidated research report | 1 |
+| read-by | [agent:sase-17m.2.1.land][5] | Check core-contract scope for routing follow-ups | 2 |
+| read-by | [agent:sase-17m.8][6] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.cld/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.final/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md
 
 <!-- sase:referenced-by:end -->

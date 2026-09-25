@@ -38,7 +38,7 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.4.md) | [sase-17m.4](sase-17m.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.4.md) | [sase-17m.4](sase-17m.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -50,7 +50,7 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 | read-by | [agent:sase-17m.4.1.8][2] | Read hand-offs and notes for skills-sweep phase | 1 |
 | read-by | [agent:sase-17m.4.1.land][3] | Need parent scope, notes, and handoffs for landing child epic | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
 
