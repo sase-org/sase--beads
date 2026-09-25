@@ -32,3 +32,15 @@ archive-validation: teach `sase agent prompts validate` about files/objects link
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4214ccc`](https://github.com/sase-org/sase/commit/4214ccc650b63c2efb7839af46ddb966d788ca1d) | feat(agents): validate archive objects | [sase-196.2](sase-196.2.md) | 2026-09-25 11:04:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-196.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.2/README.md
+
+<!-- sase:referenced-by:end -->

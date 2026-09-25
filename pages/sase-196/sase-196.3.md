@@ -19,7 +19,7 @@ seal-scope-core: in the sase-core continuation seal and evaluator, apply the pro
 
 ## Dependencies
 
-- **Blocks:** [sase-196.4](sase-196.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-196.4](sase-196.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
