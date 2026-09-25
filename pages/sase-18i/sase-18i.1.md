@@ -42,7 +42,9 @@ engine: add the backend for approving a plan with no live gate. This covers arch
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18i.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-18i.2][2] | Need identify a still-open parent or later phase to own remaining epic symbols before closing assigned phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18i.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18i.2/README.md
 
 <!-- sase:referenced-by:end -->
