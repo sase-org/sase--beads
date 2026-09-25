@@ -17,7 +17,7 @@ hide-hop-deadlocks: stop awaiting `dismiss()` from the panel's own key handler (
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17x.13.10.5](sase-17x.13.10.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents

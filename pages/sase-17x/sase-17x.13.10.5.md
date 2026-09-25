@@ -33,3 +33,15 @@ ui-thread-state: move the palette-tip marker write off the loop. Append restored
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ea25ee2`](https://github.com/sase-org/sase/commit/ea25ee2bf78796f9850c8164b71ff863b4162d8c) | fix(command-line): move tip marker write off loop, append restored blocks on UI thread (sase-17x.13.10.5) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 2026-09-25 11:47:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.10.5--1][1] | verify phase scope before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md
+
+<!-- sase:referenced-by:end -->

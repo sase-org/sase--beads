@@ -17,7 +17,7 @@ split-completion: extract a cohesive helper module from the 1039-line `screen_co
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

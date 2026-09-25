@@ -13,7 +13,7 @@ completion-sources: bypass the provider disk cache after a block finishes and dr
 
 ## Dependencies
 
-- **Depends on:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17x.13.10.3](sase-17x.13.10.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17x.13.10.6](sase-17x.13.10.6.md) ◐ · ⧖ 2026-09-25
 
 ## Agents
