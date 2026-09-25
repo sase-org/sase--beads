@@ -14,7 +14,7 @@ chrome-layout: move the title, context chip, key hints and running count onto th
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.5](sase-17x.13.5.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.13.7](sase-17x.13.7.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.13.7](sase-17x.13.7.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.9](sase-17x.13.9.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

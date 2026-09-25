@@ -60,7 +60,7 @@ flowchart TD
     n9["sase-17x.13.4: Apply the ace.keymaps.command_line scope [closed]"]
     n10["sase-17x.13.5: Popup, provider-footer and cache correctness [closed]"]
     n11["sase-17x.13.6: Proc, project, marked, path and cd completion sources [closed]"]
-    n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [in_progress]"]
+    n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [closed]"]
     n13["sase-17x.13.8: Border chrome and floating popup [in_progress]"]
     n14["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [in_progress]"]
     n15["sase-17x.2: Command Line spec contract [closed]"]
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.5/README.md) | [sase-17x.13.5](sase-17x.13.5.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md) | [sase-17x.13.8](sase-17x.13.8.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.9/README.md) | [sase-17x.13.9](sase-17x.13.9.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.land/README.md) | [sase-17x.13](sase-17x.13.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | sase | [`bde335d`](https://github.com/sase-org/sase/commit/bde335de55acb2d17ce120213046d2f26fd33e19) | feat(command-line): apply the ace.keymaps.command\_line scope | [sase-17x.13.4](sase-17x.13.4.md) | 2026-09-24 23:41:09 EDT |
 | sase | [`61f88cc`](https://github.com/sase-org/sase/commit/61f88ccd695509b23b5547d9c9901641746fb005) | fix(command-line): scroll popup window, scope provider footer, honor cache TTLs | [sase-17x.13.5](sase-17x.13.5.md) | 2026-09-25 00:14:32 EDT |
 | sase | [`fad9b5d`](https://github.com/sase-org/sase/commit/fad9b5d03db1b2812dcd10576d1eeefe4aec3de4) | feat(command-line): add dynamic completion sources | [sase-17x.13.6](sase-17x.13.6.md) | 2026-09-25 00:48:31 EDT |
+| sase | [`5b305b1`](https://github.com/sase-org/sase/commit/5b305b1b95c4e6d21ddb8fbf8982dafb7f8c13f1) | feat(command-line): foreground interpreter, writes chips, and UI-thread I/O (sase-17x.13.7) | [sase-17x.13.7](sase-17x.13.7.md) | 2026-09-25 01:37:03 EDT |
 
 <!-- sase:referenced-by:start -->
 

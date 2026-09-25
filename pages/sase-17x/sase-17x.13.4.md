@@ -22,7 +22,7 @@ keymap-config: build the panel's bindings and input routing from `CommandLineKey
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.3](sase-17x.13.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.7](sase-17x.13.7.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.7](sase-17x.13.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
