@@ -24,7 +24,7 @@ core-history: rename history/chat_fork/family.py and scripts/_agent_chat_from_na
 ## Dependencies
 
 - **Depends on:** [sase-17m.4.1.4](sase-17m.4.1.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -37,3 +37,15 @@ core-history: rename history/chat_fork/family.py and scripts/_agent_chat_from_na
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`33e41c7`](https://github.com/sase-org/sase/commit/33e41c72e2d3ed445864bfe5d932e370ac0207d4) | refactor(agent-session): rename core mirrors, chat fork, and scripts identifiers (sase-17m.4.1.5) | [sase-17m.4.1.5](sase-17m.4.1.5.md) | 2026-09-24 19:11:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->

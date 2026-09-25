@@ -13,7 +13,7 @@ query-cli-json: make agent query session:/kind:session canonical, with flag-gate
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17m.4.1.8](sase-17m.4.1.8.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
