@@ -19,7 +19,7 @@ core-wire: in sase-core, add runner_is_live to the cleanup target wire (schema 5
 
 ## Dependencies
 
-- **Blocks:** [sase-18d.5](sase-18d.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.5](sase-18d.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

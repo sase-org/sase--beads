@@ -23,7 +23,7 @@ Pressing `x` on any Agents-tab node (agent, clan container, workflow, monitor, p
 | [sase-18d.2](sase-18d.2.md) | Session removal tombstones honored at every roster publication | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18d.3](sase-18d.3.md) | Verified process-tree termination in the durable cleanup proc | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18d.4](sase-18d.4.md) | x stops every member kind instead of skipping it | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18d.5](sase-18d.5.md) | Additive dismissed-index persistence for every writer | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18d.5](sase-18d.5.md) | Additive dismissed-index persistence for every writer | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18d.6](sase-18d.6.md) | End-to-end x regression coverage | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n2["sase-18d.2: Session removal tombstones honored at every roster publication [closed]"]
     n3["sase-18d.3: Verified process-tree termination in the durable cleanup proc [closed]"]
     n4["sase-18d.4: x stops every member kind instead of skipping it [closed]"]
-    n5["sase-18d.5: Additive dismissed-index persistence for every writer [in_progress]"]
+    n5["sase-18d.5: Additive dismissed-index persistence for every writer [closed]"]
     n6["sase-18d.6: End-to-end x regression coverage [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -59,7 +59,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18d.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.2/README.md) | [sase-18d.2](sase-18d.2.md) | 1 |
 | [bbugyi200.athena.sase-18d.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.3/README.md) | [sase-18d.3](sase-18d.3.md) | 1 |
 | [bbugyi200.athena.sase-18d.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.4/README.md) | [sase-18d.4](sase-18d.4.md) | 1 |
-| [bbugyi200.athena.sase-18d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.5/README.md) | [sase-18d.5](sase-18d.5.md) | 0 |
+| [bbugyi200.athena.sase-18d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.5/README.md) | [sase-18d.5](sase-18d.5.md) | 1 |
 | [bbugyi200.athena.sase-18d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.6/README.md) | [sase-18d.6](sase-18d.6.md) | 0 |
 | [bbugyi200.athena.sase-18d.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.land/README.md) | [sase-18d](README.md) | 0 |
 
@@ -73,6 +73,7 @@ flowchart TD
 | sase-core | [`sase-core@f226caf`](https://github.com/sase-org/sase-core/commit/f226caf0ba4b61648d3968ef6278793c7636deae) | feat(cleanup): add runner\_is\_live to cleanup target wire (schema 4-\>5) | [sase-18d.1](sase-18d.1.md) | 2026-09-24 17:28:54 EDT |
 | sase | [`b7cfa06`](https://github.com/sase-org/sase/commit/b7cfa069cb45b421f4abc87ddb8b21bb15d71c05) | feat(agent): verified process-tree termination in the durable cleanup proc (sase-18d.3) | [sase-18d.3](sase-18d.3.md) | 2026-09-24 19:05:19 EDT |
 | sase | [`3cf0f1f`](https://github.com/sase-org/sase/commit/3cf0f1ff68ab3f89233defdf3fc1ec9e5088161d) | feat(ace): x stops every member kind instead of skipping it (sase-18d.4) | [sase-18d.4](sase-18d.4.md) | 2026-09-24 20:06:44 EDT |
+| sase | [`1ea13da`](https://github.com/sase-org/sase/commit/1ea13da1b3450d2c89da83beb47814f117e9315b) | feat(dismissed-index): persist dismissals additively for every writer | [sase-18d.5](sase-18d.5.md) | 2026-09-24 21:26:20 EDT |
 
 <!-- sase:referenced-by:start -->
 

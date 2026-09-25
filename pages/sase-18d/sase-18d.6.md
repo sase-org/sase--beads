@@ -13,7 +13,7 @@ e2e-regression: drive the real Agents tab through Textual pilot against on-disk 
 
 ## Dependencies
 
-- **Depends on:** [sase-18d.5](sase-18d.5.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18d.5](sase-18d.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

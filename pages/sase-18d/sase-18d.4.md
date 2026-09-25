@@ -21,7 +21,7 @@ member-scope: focused x on a running monitor, an active proc shell, or a pending
 
 - **Depends on:** [sase-18d.2](sase-18d.2.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18d.3](sase-18d.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18d.5](sase-18d.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.5](sase-18d.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ member-scope: focused x on a running monitor, an active proc shell, or a pending
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3cf0f1f`](https://github.com/sase-org/sase/commit/3cf0f1ff68ab3f89233defdf3fc1ec9e5088161d) | feat(ace): x stops every member kind instead of skipping it (sase-18d.4) | [sase-18d.4](sase-18d.4.md) | 2026-09-24 20:06:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18d.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.4/README.md
+
+<!-- sase:referenced-by:end -->
