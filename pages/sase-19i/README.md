@@ -16,7 +16,7 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-19i.1](sase-19i.1.md) | Node Finder row model, snapshot, filtering, and hints | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19i.2](sase-19i.2.md) | Identity jump ladder with an announced query clear | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
+| [sase-19i.2](sase-19i.2.md) | Identity jump ladder with an announced query clear | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19i.3](sase-19i.3.md) | Two-tier Node Finder preview | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19i.4](sase-19i.4.md) | NodeFinderModal screen, modes, keys, and layout | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19i.5](sase-19i.5.md) | Keymap, action, docs, visual goldens, and bench | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
@@ -28,7 +28,7 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 flowchart TD
     n0["sase-19i: Agents-tab Node Finder on the \" key [in_progress]"]
     n1["sase-19i.1: Node Finder row model, snapshot, filtering, and hints [closed]"]
-    n2["sase-19i.2: Identity jump ladder with an announced query clear [in_progress]"]
+    n2["sase-19i.2: Identity jump ladder with an announced query clear [closed]"]
     n3["sase-19i.3: Two-tier Node Finder preview [in_progress]"]
     n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [in_progress]"]
     n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-19i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.1/README.md) | [sase-19i.1](sase-19i.1.md) | 1 |
-| [bbugyi200.athena.sase-19i.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.2.md) | [sase-19i.2](sase-19i.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.2.md) | [sase-19i.2](sase-19i.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.3/README.md) | [sase-19i.3](sase-19i.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.4/README.md) | [sase-19i.4](sase-19i.4.md) | 0 |
 | [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.5/README.md) | [sase-19i.5](sase-19i.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee22eb3`](https://github.com/sase-org/sase/commit/ee22eb305c7c19eb960a1569286025d5434efe27) | feat(node-finder): add row model, snapshot, filtering, and hints (sase-19i.1) | [sase-19i.1](sase-19i.1.md) | 2026-09-25 16:24:33 EDT |
+| sase | [`0854519`](https://github.com/sase-org/sase/commit/085451924eaedf9c882d1a8e0f0ab4b64b74b5e9) | feat(ace): add node identity jump ladder | [sase-19i.2](sase-19i.2.md) | 2026-09-25 16:37:18 EDT |

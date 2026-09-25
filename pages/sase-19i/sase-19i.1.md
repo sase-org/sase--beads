@@ -33,3 +33,15 @@ finder-model: add the pure row model and the owner-aware snapshot builder, which
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee22eb3`](https://github.com/sase-org/sase/commit/ee22eb305c7c19eb960a1569286025d5434efe27) | feat(node-finder): add row model, snapshot, filtering, and hints (sase-19i.1) | [sase-19i.1](sase-19i.1.md) | 2026-09-25 16:24:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.1/README.md
+
+<!-- sase:referenced-by:end -->

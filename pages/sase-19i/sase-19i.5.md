@@ -13,7 +13,7 @@ finder-wiring: bind quotation_mark to jump_to_node on the Agents tab across the 
 
 ## Dependencies
 
-- **Depends on:** [sase-19i.2](sase-19i.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19i.2](sase-19i.2.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19i.4](sase-19i.4.md) ◐ · ⧖ 2026-09-25
 - **Blocks:** [sase-19i.6](sase-19i.6.md) ◐ · ⧖ 2026-09-25
 
