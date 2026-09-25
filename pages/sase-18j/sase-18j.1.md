@@ -21,7 +21,7 @@ ledger-hygiene: fix sase-182 (a run's project and fingerprint identity come from
 
 ## Dependencies
 
-- **Blocks:** [sase-18j.4](sase-18j.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.4](sase-18j.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18j.5](sase-18j.5.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
@@ -35,3 +35,15 @@ ledger-hygiene: fix sase-182 (a run's project and fingerprint identity come from
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`290cd1a`](https://github.com/sase-org/sase/commit/290cd1aa7c8b646dfefd8e457acc0f9fa5c571aa) | fix(tool): record runs under the catalog repo identity and stop nested stage events (sase-18j.1) | [sase-18j.1](sase-18j.1.md) | 2026-09-24 20:52:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18j.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.1/README.md
+
+<!-- sase:referenced-by:end -->
