@@ -19,7 +19,7 @@ worker-hops: stop calling `call_from_thread` from coroutines that already run on
 
 ## Dependencies
 
-- **Blocks:** [sase-17x.13.3](sase-17x.13.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.3](sase-17x.13.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -32,3 +32,15 @@ worker-hops: stop calling `call_from_thread` from coroutines that already run on
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7484c50`](https://github.com/sase-org/sase/commit/7484c50abb1bd9c87897d5b0ae4b164da941f242) | fix(tui): avoid app-loop worker hops | [sase-17x.13.2](sase-17x.13.2.md) | 2026-09-24 21:04:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md
+
+<!-- sase:referenced-by:end -->
