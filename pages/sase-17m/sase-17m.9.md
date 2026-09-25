@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17m](README.md) / sase-17m.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.9` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.9` · **Size:** medium
 **Created:** 2026-09-23 22:46:42 EDT · **Closed:** 2026-09-25 18:04:05 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
@@ -19,7 +19,7 @@ session-pages: bump the core pin and the Python schema mirrors. Publish agents-s
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.10](sase-17m.10.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.10](sase-17m.10.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17m.8](sase-17m.8.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
@@ -42,8 +42,10 @@ session-pages: bump the core pin and the Python schema mirrors. Publish agents-s
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2k.cld][1] | Audit: confirm the core flip landed before the sase-side mirror bump, causing the schema-mismatch outage | 1 |
 | read-by | [agent:research.2k.final][2] | Verify the incident's core-flip/pin-bump phase ordering for the consolidated research report | 1 |
+| read-by | [agent:sase-17m.9--4][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md
 
 <!-- sase:referenced-by:end -->

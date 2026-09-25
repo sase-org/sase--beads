@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / sase-17m
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.land`
 **Created:** 2026-09-23 22:46:33 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
@@ -37,18 +37,20 @@ The concept formerly called an agent family is named a sase agent session (agent
 
 [2026-09-25T21:32:12Z · research.2k.final] DISCOVERED ISSUE: `sase core health` is false-red on master after the contract flip hotfix d86bcc3ac. Repro (2026-09-25 17:2x EDT, master 085451924/d62a459a2): `sase core health` -> 'error: sase_core_rs.agent_launch_wire_schema_version() raised RuntimeError: unexpected schema version 2' and probes agent_launch_wire_schema_version / plan_agent_launch_fanout / bead_cli_execute report skipped/failed. Cause: src/sase/core/health.py hard-codes `if version != 1` for agent_launch_wire_schema_version (and likewise for commit_footer_wire_schema_version) instead of comparing to the imported mirror AGENT_LAUNCH_WIRE_SCHEMA_VERSION (now 2 in src/sase/core/agent_launch_wire_records.py). tools/validate_sase_core_rs similarly hard-codes schema literals. Impact: the only built-in core health check now gives a false alarm, so it cannot gate updates/recovery. Fits sase-17m.10 (cross-repo audit, guardrail). Context: research:202609/core_schema_skew_outage_recovery_ux/core_schema_skew_outage_recovery_ux.md
 
+[2026-09-25T22:51:29Z · sase-17d.12.2--3] DISCOVERED ISSUE: two Python cleanup-planner tests still expect skip detail "parallel family still active" after the agent-session contract cutover; src/sase/core/agent_cleanup_python.py emits "parallel session still active". Nodes: test_python_cleanup_planner_matches_legacy_partitions[clan-scope-active-parallel-agent-session] and test_python_cleanup_planner_gates_parallel_root_dismissal_until_done. Fail identically on clean HEAD (stashed spread-inspection tree) and isolation. Evidence: just check ToolRun 181640206aaedbb9cd6afd796ecec0bd, workspace sase_46, HEAD b7c80be91 including d86bcc3ac.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-17m.1](sase-17m.1.md) | Free the agent session name | ✓ closed | small | 2026-09-23 | 1 | 1 |
-| [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.6](sase-17m.6.md) | Documentation and memory | ✓ closed | medium | 2026-09-23 | 1 | 1 |
-| [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ✓ closed | small | 2026-09-23 | 1 | 0 |
+| [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ✓ closed | small | 2026-09-23 | 1 | 1 |
 | [sase-17m.8](sase-17m.8.md) | sase-core contract flip | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17m.9](sase-17m.9.md) | Pin bump and agents sidecar session pages | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 
@@ -58,7 +60,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 flowchart TD
     n0["sase-17m: Rename agent family to sase agent session [in_progress]"]
     n1["sase-17m.1: Free the agent session name [closed]"]
-    n2["sase-17m.10: Cross-repo audit, guardrail, and deploy [in_progress]"]
+    n2["sase-17m.10: Cross-repo audit, guardrail, and deploy [closed]"]
     n3["sase-17m.2: sase-core additive rename [closed]"]
     n4["sase-17m.2.1: sase-core additive agent-session rename (core-expand) [closed]"]
     n5["sase-17m.2.1.1: Identity, launch, holds, and directive/editor surfaces [closed]"]
@@ -189,7 +191,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17m.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.1/README.md) | [sase-17m.1](sase-17m.1.md) | 1 |
-| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.10/README.md) | [sase-17m.10](sase-17m.10.md) | 0 |
+| [bbugyi200.athena.sase-17m.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md) | [sase-17m.10](sase-17m.10.md) | 1 |
 | [bbugyi200.athena.sase-17m.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.2.md) | [sase-17m.2](sase-17m.2.md) | 0 |
 | [bbugyi200.athena.sase-17m.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.1/README.md) | [sase-17m.2.1.1](sase-17m.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-17m.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.2/README.md) | [sase-17m.2.1.2](sase-17m.2.1.2.md) | 1 |
@@ -230,7 +232,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.land.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 1 |
-| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
+| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 1 |
 | [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md) | [sase-17m.9](sase-17m.9.md) | 1 |
 | [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 0 |
@@ -264,6 +266,7 @@ flowchart TD
 | sase | [`a2ec65a`](https://github.com/sase-org/sase/commit/a2ec65a1f44f6c15dab488f4df7797d49c00cf2c) | refactor(agent-session): sweep skill sources, leftover tests, and stragglers (sase-17m.4.1.8) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 2026-09-24 23:31:26 EDT |
 | sase--plans | [`sase--plans@aae2e87`](https://github.com/sase-org/sase--plans/commit/aae2e8782782544cfcde1e39a094e7c4fb366aeb) | chore(plan): mark agent-session runtime cutover done | [sase-17m.4.1](sase-17m.4.1.md) | 2026-09-24 23:59:50 EDT |
 | sase | [`6960261`](https://github.com/sase-org/sase/commit/696026157ee3c66c857ddf3f72a069f5d29c3d72) | docs(agent-session): rename agent family to agent session across docs and memory (sase-17m.6) | [sase-17m.6](sase-17m.6.md) | 2026-09-25 00:46:51 EDT |
+| sase-telegram | [`sase-telegram@5daae9d`](https://github.com/sase-org/sase-telegram/commit/5daae9d0639daf994db2a894aac64b3051c603af) | feat(telegram): cut /show over to agent-session APIs | [sase-17m.7](sase-17m.7.md) | 2026-09-25 00:55:26 EDT |
 | sase | [`09e0571`](https://github.com/sase-org/sase/commit/09e0571475add947cf30fc2db0eb48ef089c7dfc) | refactor(ace): rename agent-family model modules and identifiers to agent session (sase-17m.5.1.1) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 2026-09-25 01:23:00 EDT |
 | sase | [`61d3b27`](https://github.com/sase-org/sase/commit/61d3b2707c2a669a0f173a6288a03cea3ceb2278) | refactor(agent-session): rename ACE action session surfaces (sase-17m.5.1.2) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 2026-09-25 01:54:07 EDT |
 | sase | [`f7cbb59`](https://github.com/sase-org/sase/commit/f7cbb59f3588c0dc2c921c0c06c17d7595365eb1) | refactor(agent-session): rename Artifacts-pane contract, row kinds, and completion kinds (sase-17m.5.1.3) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 2026-09-25 02:32:06 EDT |
@@ -277,6 +280,7 @@ flowchart TD
 | sase--plans | [`sase--plans@1691f9f`](https://github.com/sase-org/sase--plans/commit/1691f9f71092042f2118b8e1593e6b1d525e0c61) | docs(plans): mark ACE agent-session cutover plans done (sase-17m.5.1) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 2026-09-25 13:35:05 EDT |
 | sase-core | [`sase-core@2a0fc2a`](https://github.com/sase-org/sase-core/commit/2a0fc2abdaea1d7fa40f93f439c902895f2eff6f) | feat(core)!: canonicalize agent-session contracts | [sase-17m.8](sase-17m.8.md) | 2026-09-25 14:55:11 EDT |
 | sase | [`7cb8359`](https://github.com/sase-org/sase/commit/7cb8359534d90a04aa09d012bc4c6b2190cb2ce9) | feat(agents-sync): publish sidecar session pages and bump core pin | [sase-17m.9](sase-17m.9.md) | 2026-09-25 19:04:35 EDT |
+| sase | [`266c8b3`](https://github.com/sase-org/sase/commit/266c8b37bc0fe75c0491c9c3c5a44db38741ad66) | test(terminology): add agent-session regression guard for sase-17m.10 | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:45:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

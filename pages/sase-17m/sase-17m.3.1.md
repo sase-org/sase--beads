@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17m.3](sase-17m.3.md) / sase-17m.3.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.3.md) · **Assignee:** `sase-17m.3.1.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.3.md) · **Assignee:** `sase-17m.3.1.land`
 **Created:** 2026-09-24 02:56:43 EDT · **Closed:** 2026-09-24 13:15:45 EDT
 **Plan:** [202609/agent\_session\_wire\_cutover.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_wire_cutover.md)
 

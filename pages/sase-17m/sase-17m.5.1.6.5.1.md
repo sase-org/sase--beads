@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) / sase-17m.5.1.6.5.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.land.md) · **Assignee:** `sase-17m.5.1.6.5.1` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.land.md) · **Assignee:** `sase-17m.5.1.6.5.1` · **Size:** small
 **Created:** 2026-09-25 10:02:06 EDT · **Closed:** 2026-09-25 11:51:52 EDT
 **Plan:** [202609/retry\_session\_visual\_gap.md](https://github.com/sase-org/sase--plans/blob/main/202609/retry_session_visual_gap.md)
 

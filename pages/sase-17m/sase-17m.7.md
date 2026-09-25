@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17m](README.md) / sase-17m.7
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.7` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.7` · **Size:** small
 **Created:** 2026-09-23 22:46:40 EDT · **Closed:** 2026-09-25 00:42:24 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
@@ -26,7 +26,13 @@ telegram: move the /show session kind, formatting, help, docs, and tests to the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
+| [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-telegram | [`sase-telegram@5daae9d`](https://github.com/sase-org/sase-telegram/commit/5daae9d0639daf994db2a894aac64b3051c603af) | feat(telegram): cut /show over to agent-session APIs | [sase-17m.7](sase-17m.7.md) | 2026-09-25 00:55:26 EDT |
 
 <!-- sase:referenced-by:start -->
 

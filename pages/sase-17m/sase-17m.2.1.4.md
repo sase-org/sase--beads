@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17m.2.1](sase-17m.2.1.md) / sase-17m.2.1.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.2.md) · **Assignee:** `sase-17m.2.1.4` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17m.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.2.md) · **Assignee:** `sase-17m.2.1.4` · **Size:** small
 **Created:** 2026-09-23 22:54:53 EDT · **Closed:** 2026-09-24 02:34:37 EDT
 **Plan:** [202609/agent\_session\_core\_expand.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_core_expand.md)
 
