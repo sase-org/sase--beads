@@ -40,3 +40,15 @@ snapshots-sweep: rename the family-named PNG snapshot tests, fixture modules, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e9ba5b7`](https://github.com/sase-org/sase/commit/e9ba5b708adec9ba795971289e6fae7d5e048984) | refactor(ace-tui): rename family test naming to agent-session across snapshots and fixtures | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 2026-09-25 04:05:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.5/README.md
+
+<!-- sase:referenced-by:end -->

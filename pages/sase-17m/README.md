@@ -89,10 +89,15 @@ flowchart TD
     n32["sase-17m.5.1.3: Artifacts-pane contract, row kinds, and completion kinds [closed]"]
     n33["sase-17m.5.1.4: Prompt-panel widgets, visible copy, keymaps, and config [closed]"]
     n34["sase-17m.5.1.5: Snapshot renames, perf check, and classification sweep [closed]"]
-    n35["sase-17m.6: Documentation and memory [closed]"]
-    n36["sase-17m.7: sase-telegram cutover [closed]"]
-    n37["sase-17m.8: sase-core contract flip [in_progress]"]
-    n38["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
+    n35["sase-17m.5.1.6: Finish ACE agent session surfaces (ace-cutover landing gaps) [in_progress]"]
+    n36["sase-17m.5.1.6.1: Visible-copy and comment stragglers plus the 15 failing tests [closed]"]
+    n37["sase-17m.5.1.6.2: Agent-session test identifiers in widgets, modals, actions, and visual tests [in_progress]"]
+    n38["sase-17m.5.1.6.3: Agent-session test identifiers in top-level TUI, models, and contract tests plus new-shape fleet fixtures [in_progress]"]
+    n39["sase-17m.5.1.6.4: Docs integration, perf re-run, classification, and full verification [in_progress]"]
+    n40["sase-17m.6: Documentation and memory [closed]"]
+    n41["sase-17m.7: sase-telegram cutover [closed]"]
+    n42["sase-17m.8: sase-core contract flip [in_progress]"]
+    n43["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -127,10 +132,15 @@ flowchart TD
     n29 --> n32
     n29 --> n33
     n29 --> n34
-    n0 --> n35
-    n0 --> n36
-    n0 --> n37
-    n0 --> n38
+    n29 --> n35
+    n35 --> n36
+    n35 --> n37
+    n35 --> n38
+    n35 --> n39
+    n0 --> n40
+    n0 --> n41
+    n0 --> n42
+    n0 --> n43
     n1 -.-> n9
     n3 -.-> n9
     n5 -.-> n6
@@ -145,8 +155,8 @@ flowchart TD
     n15 -.-> n17
     n16 -.-> n17
     n18 -.-> n28
-    n18 -.-> n35
-    n18 -.-> n36
+    n18 -.-> n40
+    n18 -.-> n41
     n20 -.-> n21
     n21 -.-> n22
     n22 -.-> n23
@@ -154,15 +164,18 @@ flowchart TD
     n24 -.-> n25
     n25 -.-> n26
     n26 -.-> n27
-    n28 -.-> n37
+    n28 -.-> n42
     n30 -.-> n31
     n31 -.-> n32
     n32 -.-> n33
     n33 -.-> n34
-    n35 -.-> n37
     n36 -.-> n37
     n37 -.-> n38
-    n38 -.-> n2
+    n38 -.-> n39
+    n40 -.-> n42
+    n41 -.-> n42
+    n42 -.-> n43
+    n43 -.-> n2
 ```
 
 ## Agents
@@ -202,7 +215,12 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.3.md) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.4.md) | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.5/README.md) | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 1 |
-| [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.land/README.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.1.md) | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md) | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md) | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.4/README.md) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.land/README.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
 | [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 0 |
@@ -243,6 +261,7 @@ flowchart TD
 | sase | [`f7cbb59`](https://github.com/sase-org/sase/commit/f7cbb59f3588c0dc2c921c0c06c17d7595365eb1) | refactor(agent-session): rename Artifacts-pane contract, row kinds, and completion kinds (sase-17m.5.1.3) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 2026-09-25 02:32:06 EDT |
 | sase | [`b79b9da`](https://github.com/sase-org/sase/commit/b79b9da246b434897fad03229097f76be34a7848) | feat(ace): rename family prompt panels to sessions | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 2026-09-25 03:05:30 EDT |
 | sase | [`e9ba5b7`](https://github.com/sase-org/sase/commit/e9ba5b708adec9ba795971289e6fae7d5e048984) | refactor(ace-tui): rename family test naming to agent-session across snapshots and fixtures | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 2026-09-25 04:05:20 EDT |
+| sase | [`cdf4912`](https://github.com/sase-org/sase/commit/cdf491254c6f8198b8f9b95e15c5f6239ce520ae) | feat(ace): complete agent session terminology | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 2026-09-25 05:20:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
