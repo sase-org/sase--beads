@@ -33,3 +33,15 @@ bead-work-launch-name-preflight: add a plan-only registry reservation API that r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`29f18be`](https://github.com/sase-org/sase/commit/29f18be2b1f619497319c575330f8464bc2b4b6d) | fix(bead): preflight launch names before bead-store mutations | [sase-19o.3](sase-19o.3.md) | 2026-09-25 16:46:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19o.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19o.3.md
+
+<!-- sase:referenced-by:end -->
