@@ -29,7 +29,7 @@ completion-fixes: make every candidate reachable through a scrolling popup windo
 
 - **Depends on:** [sase-17x.13.3](sase-17x.13.3.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.6](sase-17x.13.6.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

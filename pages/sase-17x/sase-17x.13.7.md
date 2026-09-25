@@ -24,7 +24,7 @@ policy-io: run foreground commands with the TUI's interpreter and fix the missin
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.4](sase-17x.13.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -37,3 +37,15 @@ policy-io: run foreground commands with the TUI's interpreter and fix the missin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5b305b1`](https://github.com/sase-org/sase/commit/5b305b1b95c4e6d21ddb8fbf8982dafb7f8c13f1) | feat(command-line): foreground interpreter, writes chips, and UI-thread I/O (sase-17x.13.7) | [sase-17x.13.7](sase-17x.13.7.md) | 2026-09-25 01:37:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md
+
+<!-- sase:referenced-by:end -->

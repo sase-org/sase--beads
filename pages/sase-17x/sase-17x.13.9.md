@@ -14,7 +14,7 @@ goldens-perf: add the missing completion-popup goldens and regenerate the affect
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.6](sase-17x.13.6.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-17x.13.8](sase-17x.13.8.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.13.8](sase-17x.13.8.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
