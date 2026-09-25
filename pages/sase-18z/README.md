@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.2/README.md) | [sase-18z.2](sase-18z.2.md) | 1 |
 | [bbugyi200.athena.sase-18z.3.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18z.3.1.md) | [sase-18z.3.1](sase-18z.3.1.md) | 1 |
 | [bbugyi200.athena.sase-18z.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.2/README.md) | [sase-18z.3.2](sase-18z.3.2.md) | 1 |
-| [bbugyi200.athena.sase-18z.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md) | [sase-18z.3](sase-18z.3.md) | 1 |
+| [bbugyi200.athena.sase-18z.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md) | [sase-18z.3](sase-18z.3.md) | 2 |
 | [bbugyi200.athena.sase-18z.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18z.land.md) | [sase-18z](README.md) | 0 |
 
 ## Commits
@@ -63,3 +63,16 @@ flowchart TD
 | sase | [`204a499`](https://github.com/sase-org/sase/commit/204a4993e298717469eb318410e15bb2b878c2cd) | feat(ace-tui): wrap bead note previews to the visible Context-card width | [sase-18z.3.1](sase-18z.3.1.md) | 2026-09-25 11:45:04 EDT |
 | sase | [`7a5559c`](https://github.com/sase-org/sase/commit/7a5559cc737aa1d9b2cb90decf1bdb969855f64b) | fix(ace-tui): keep bead note previews readable in narrow Context cards | [sase-18z.3.2](sase-18z.3.2.md) | 2026-09-25 12:09:41 EDT |
 | sase | [`982209d`](https://github.com/sase-org/sase/commit/982209db994c2c9b9c45025e0e1c0b9ac3275b49) | fix(ace-tui): keep bead read reasons readable in narrow Context cards | [sase-18z.3](sase-18z.3.md) | 2026-09-25 13:53:22 EDT |
+| sase--plans | [`sase--plans@1d9cf0d`](https://github.com/sase-org/sase--plans/commit/1d9cf0da91e8772fa87ae1ed86f10121149da152) | chore(plans): mark bead note preview plans done | [sase-18z.3](sase-18z.3.md) | 2026-09-25 13:58:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.3.land][1] | Need the parent plan, descendants, notes, and linked plan file for landing resume | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md
+
+<!-- sase:referenced-by:end -->

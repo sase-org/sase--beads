@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | [bead:sase-19n][1] | Epic that made note previews and read reasons card-width aware; this row is the remaining non-width-aware piece |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-19n/README.md
 
 <!-- sase:links:end -->
@@ -31,10 +33,23 @@ Make the agent-authored bead note preview readable and bounded by three visible 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18z.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md) | [sase-18z.3](sase-18z.3.md) | 1 |
+| [bbugyi200.athena.sase-18z.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md) | [sase-18z.3](sase-18z.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`982209d`](https://github.com/sase-org/sase/commit/982209db994c2c9b9c45025e0e1c0b9ac3275b49) | fix(ace-tui): keep bead read reasons readable in narrow Context cards | [sase-18z.3](sase-18z.3.md) | 2026-09-25 13:53:22 EDT |
+| sase--plans | [`sase--plans@1d9cf0d`](https://github.com/sase-org/sase--plans/commit/1d9cf0da91e8772fa87ae1ed86f10121149da152) | chore(plans): mark bead note preview plans done | [sase-18z.3](sase-18z.3.md) | 2026-09-25 13:58:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.3.land][1] | Need the epic scope, children, and linked plan file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md
+
+<!-- sase:referenced-by:end -->
