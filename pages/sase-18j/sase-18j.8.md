@@ -22,7 +22,7 @@ failures-and-followups: add the sase tool failures subcommand over the Rust aggr
 ## Dependencies
 
 - **Depends on:** [sase-18j.6](sase-18j.6.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.9](sase-18j.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.9](sase-18j.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ failures-and-followups: add the sase tool failures subcommand over the Rust aggr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`89868a9`](https://github.com/sase-org/sase/commit/89868a90b2e48eae1de60c8d24ce35682bbe46fc) | feat(tool): add sase tool failures and follow-up triage | [sase-18j.8](sase-18j.8.md) | 2026-09-25 17:35:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18j.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.8/README.md
+
+<!-- sase:referenced-by:end -->
