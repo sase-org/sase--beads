@@ -17,7 +17,7 @@ continued-stage-output: make tools/run_silent print the failure marker and the c
 
 ## Dependencies
 
-- **Blocks:** [sase-191.3](sase-191.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-191.3](sase-191.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

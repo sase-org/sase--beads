@@ -19,7 +19,7 @@ backtest-repair: fix four defects in tools/tool_triage_backtest (added-file metr
 
 ## Dependencies
 
-- **Blocks:** [sase-191.3](sase-191.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-191.3](sase-191.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -32,3 +32,15 @@ backtest-repair: fix four defects in tools/tool_triage_backtest (added-file metr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7757bac`](https://github.com/sase-org/sase/commit/7757bacc9d82e14a78e1683f0fed407969e98c7c) | fix(triage): repair backtest audit evidence | [sase-191.1](sase-191.1.md) | 2026-09-25 09:18:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-191.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.1/README.md
+
+<!-- sase:referenced-by:end -->
