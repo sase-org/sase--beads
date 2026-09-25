@@ -28,3 +28,15 @@ retry-visual: update the stale retry query, inspect the targeted golden update, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ced0b15`](https://github.com/sase-org/sase/commit/ced0b15e07e1ace5bc0b11b38edb6ff49b0e7d1e) | fix(ace-tui): repair retry countdown visual test query and golden (sase-17m.5.1.6.5.1) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 2026-09-25 11:53:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.5.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.1.md
+
+<!-- sase:referenced-by:end -->

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17m](README.md) / sase-17m.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.5` · **Size:** large
-**Created:** 2026-09-23 22:46:38 EDT
+**Created:** 2026-09-23 22:46:38 EDT · **Closed:** 2026-09-25 13:31:44 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
 ## Description
@@ -18,6 +18,8 @@ ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy 
 [2026-09-25T07:55:26Z · sase-17m.5.1.5] snapshots-sweep core-contract hand-off: marked core-emitted legacy readers still live in ACE (all carry # legacy agent-family spelling markers): fleet summaries family_id/family_role/family_label reads in models/_fleet_agents_{nodes,rows,identity,promotion}.py, agent_bundle.py legacy bundle-key map (~L146), dismissed_agent_groups.py canonical_global_family (~L100), actions/agents/_notification_matching.py family_root_suffix keys, revert_agent_models.py LEGACY_REVERT_SESSION_BASE_KEY=family_base, confirm_revert_agent_modal.py pre-rename scope reader, models/agent_live_query_engine.py family:/kind:family bridge via agent.legacy_agent_family_syntax. Test fixtures mirroring the wire: tests/ace/tui/_fleet_summary_fixture.py, _fleet_locator_fixture.py, _fleet_agents_projection_agent_session_tree.py + visual fleet/families tests (family_id kwargs + remote-family/done-family names). core-contract (sase-17m.8) flips these.
 
 [2026-09-25T07:55:43Z · sase-17m.5.1.5] snapshots-sweep docs-memory hand-off: docs/ace.md still uses the retired concept name in 2 spots owned by sase-17m.6 — L5051 Sequential plan-family workflows and L5066 New plan-family metadata (per-step naming section). Landed ACE copy reads SESSION/session container/session row. Also tests/agents_sync/goldens/deep-family.md + rootless-family.md and src/sase/agents_sync/rendering_family_page.py stay family-named for session-pages (sase-17m.9).
+
+[2026-09-25T17:32:45Z · sase-17m.5.1.6.5.land--1] Verified child plan sase-17m.5.1 completed this ACE cutover phase: SESSION SHELLS/SESSION copy, renamed modules/row kinds/grouping, keymap/help/config/schema, perf scenarios, and PNG goldens. Cascade-closed with sase-17m.5.1 as delegated work landed. Core-emitted legacy readers remain for sase-17m.8; pin/session-pages remain sase-17m.9. Containing epic sase-17m left open. just check after 5.1.6 timed out under load (isolation-pass contention), not remaining phase work. epic-symbols: none.
 
 ## Dependencies
 

@@ -44,7 +44,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 | [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
-| [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
+| [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.6](sase-17m.6.md) | Documentation and memory | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ✓ closed | small | 2026-09-23 | 1 | 0 |
 | [sase-17m.8](sase-17m.8.md) | sase-core contract flip | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
@@ -82,19 +82,19 @@ flowchart TD
     n25["sase-17m.4.1.6: Canonical session syntax and the legacy_agent_family_syntax flag [closed]"]
     n26["sase-17m.4.1.7: Agent query dialect, CLI help, JSON output, and editor bridge [closed]"]
     n27["sase-17m.4.1.8: Skill sources, leftover tests, and classification sweep [closed]"]
-    n28["sase-17m.5: ACE agent session surfaces [in_progress]"]
-    n29["sase-17m.5.1: ACE agent session surfaces (ace-cutover) [in_progress]"]
+    n28["sase-17m.5: ACE agent session surfaces [closed]"]
+    n29["sase-17m.5.1: ACE agent session surfaces (ace-cutover) [closed]"]
     n30["sase-17m.5.1.1: ACE model modules and Agent identifiers [closed]"]
     n31["sase-17m.5.1.2: Agents actions, folding, navigation, and preview warmup [closed]"]
     n32["sase-17m.5.1.3: Artifacts-pane contract, row kinds, and completion kinds [closed]"]
     n33["sase-17m.5.1.4: Prompt-panel widgets, visible copy, keymaps, and config [closed]"]
     n34["sase-17m.5.1.5: Snapshot renames, perf check, and classification sweep [closed]"]
-    n35["sase-17m.5.1.6: Finish ACE agent session surfaces (ace-cutover landing gaps) [in_progress]"]
+    n35["sase-17m.5.1.6: Finish ACE agent session surfaces (ace-cutover landing gaps) [closed]"]
     n36["sase-17m.5.1.6.1: Visible-copy and comment stragglers plus the 15 failing tests [closed]"]
     n37["sase-17m.5.1.6.2: Agent-session test identifiers in widgets, modals, actions, and visual tests [closed]"]
     n38["sase-17m.5.1.6.3: Agent-session test identifiers in top-level TUI, models, and contract tests plus new-shape fleet fixtures [closed]"]
     n39["sase-17m.5.1.6.4: Docs integration, perf re-run, classification, and full verification [closed]"]
-    n40["sase-17m.5.1.6.5: Repair the retry agent-session visual case [in_progress]"]
+    n40["sase-17m.5.1.6.5: Repair the retry agent-session visual case [closed]"]
     n41["sase-17m.5.1.6.5.1: Repair the retry countdown visual test and golden [closed]"]
     n42["sase-17m.6: Documentation and memory [closed]"]
     n43["sase-17m.7: sase-telegram cutover [closed]"]
@@ -224,7 +224,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md) | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.4/README.md) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.1.md) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 1 |
-| [bbugyi200.athena.sase-17m.5.1.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.5.land/README.md) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.5.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.land.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 1 |
@@ -272,6 +272,7 @@ flowchart TD
 | sase | [`ea130c6`](https://github.com/sase-org/sase/commit/ea130c678afbe48d0249d00311d2e4af0a5ddbf7) | feat(scope): describe the completed work | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 2026-09-25 07:02:51 EDT |
 | sase | [`24615e1`](https://github.com/sase-org/sase/commit/24615e18d44570c0650fcd597ac2e7f2b8c678e5) | docs(agent-session): match renamed perf scenarios and session copy, fix stale copy-pin tests (sase-17m.5.1.6.4) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 2026-09-25 09:21:24 EDT |
 | sase | [`ced0b15`](https://github.com/sase-org/sase/commit/ced0b15e07e1ace5bc0b11b38edb6ff49b0e7d1e) | fix(ace-tui): repair retry countdown visual test query and golden (sase-17m.5.1.6.5.1) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 2026-09-25 11:53:35 EDT |
+| sase--plans | [`sase--plans@1691f9f`](https://github.com/sase-org/sase--plans/commit/1691f9f71092042f2118b8e1593e6b1d525e0c61) | docs(plans): mark ACE agent-session cutover plans done (sase-17m.5.1) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 2026-09-25 13:35:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
