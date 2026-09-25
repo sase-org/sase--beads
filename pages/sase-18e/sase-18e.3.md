@@ -36,3 +36,15 @@ aborted-handoff-evidence: write an in-flight marker from in-agent handoff comman
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`db33796`](https://github.com/sase-org/sase/commit/db337969b904f1ef1814090d68d328c8b8d99daa) | feat(monitor): record and surface killed handoffs (sase-18e.3) | [sase-18e.3](sase-18e.3.md) | 2026-09-24 18:49:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18e.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18e.3/README.md
+
+<!-- sase:referenced-by:end -->
