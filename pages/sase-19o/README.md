@@ -1,0 +1,47 @@
+# Bead: sase-19o — Make sase bead work resilient to agent-name registry drift
+
+[Bead Pages](../README.md) / sase-19o
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0s9.md) · **Assignee:** `sase-19o.land`
+**Created:** 2026-09-25 13:51:09 EDT
+**Plan:** [202609/bead\_work\_registry\_drift\_resilience.md](https://github.com/sase-org/sase--plans/blob/main/202609/bead_work_registry_drift_resilience.md)
+
+## Description
+
+A `sase bead work` retry never plans to launch an agent name that a live or historical owner still holds: registry rebuilds stop dropping in-flight name claims, bead-work cleanup selection repairs (or refuses) any remaining registry drift before it kills anything, and every launch-name conflict is detected before bead-store preclaims, checkpoint commits, or pushes happen.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-19o.1](sase-19o.1.md) | Registry rebuilds keep in-flight claims | ◐ in_progress | medium | 2026-09-25 | 0 | 0 |
+| [sase-19o.2](sase-19o.2.md) | Bead-work selection repairs registry drift | ◐ in_progress | small | 2026-09-25 | 1 | 1 |
+| [sase-19o.3](sase-19o.3.md) | Launch-name preflight before bead-store mutations | ◐ in_progress | medium | 2026-09-25 | 0 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-19o: Make sase bead work resilient to agent-name registry drift [in_progress]"]
+    n1["sase-19o.1: Registry rebuilds keep in-flight claims [in_progress]"]
+    n2["sase-19o.2: Bead-work selection repairs registry drift [in_progress]"]
+    n3["sase-19o.3: Launch-name preflight before bead-store mutations [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n1 -.-> n3
+    n2 -.-> n3
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-19o.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19o.2.md) | [sase-19o.2](sase-19o.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`938d2d8`](https://github.com/sase-org/sase/commit/938d2d8fec9052d178bdd12ea478af412422cc65) | fix(bead): type work-cleanup snapshot helpers for mypy | [sase-19o.2](sase-19o.2.md) | 2026-09-25 15:09:13 EDT |
