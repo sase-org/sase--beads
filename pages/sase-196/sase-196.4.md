@@ -13,7 +13,7 @@ seal-scope-adopt: move the sase-core revision pin, add Python regression tests f
 
 ## Dependencies
 
-- **Depends on:** [sase-196.3](sase-196.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-196.3](sase-196.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
