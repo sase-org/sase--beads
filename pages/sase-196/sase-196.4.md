@@ -19,4 +19,4 @@ seal-scope-adopt: move the sase-core revision pin, add Python regression tests f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-196.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.4/README.md) | [sase-196.4](sase-196.4.md) | 0 |
+| [bbugyi200.athena.sase-196.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.4.md) | [sase-196.4](sase-196.4.md) | 0 |

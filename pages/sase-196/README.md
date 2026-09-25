@@ -16,8 +16,8 @@ Prompt-archive objects under files/objects are committed with the prompt that li
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-196.1](sase-196.1.md) | Commit prompt-archive objects with their prompts | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-196.2](sase-196.2.md) | Report unpublished and dangling archive objects | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
-| [sase-196.3](sase-196.3.md) | Scope the completion seal to obligated repositories in sase-core | ✓ closed | medium | 2026-09-25 | 1 | 0 |
+| [sase-196.2](sase-196.2.md) | Report unpublished and dangling archive objects | ✓ closed | medium | 2026-09-25 | 1 | 1 |
+| [sase-196.3](sase-196.3.md) | Scope the completion seal to obligated repositories in sase-core | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-196.4](sase-196.4.md) | Adopt the scoped seal in sase | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
 | [sase-196.5](sase-196.5.md) | Guard the raw-submit fallback | ✓ closed | small | 2026-09-25 | 1 | 1 |
 
@@ -27,7 +27,7 @@ Prompt-archive objects under files/objects are committed with the prompt that li
 flowchart TD
     n0["sase-196: Publish orphaned prompt-archive objects and stop sidecar dirt from wedging completion [in_progress]"]
     n1["sase-196.1: Commit prompt-archive objects with their prompts [closed]"]
-    n2["sase-196.2: Report unpublished and dangling archive objects [in_progress]"]
+    n2["sase-196.2: Report unpublished and dangling archive objects [closed]"]
     n3["sase-196.3: Scope the completion seal to obligated repositories in sase-core [closed]"]
     n4["sase-196.4: Adopt the scoped seal in sase [in_progress]"]
     n5["sase-196.5: Guard the raw-submit fallback [closed]"]
@@ -45,9 +45,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-196.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.1/README.md) | [sase-196.1](sase-196.1.md) | 1 |
-| [bbugyi200.athena.sase-196.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.2/README.md) | [sase-196.2](sase-196.2.md) | 0 |
-| [bbugyi200.athena.sase-196.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.3.md) | [sase-196.3](sase-196.3.md) | 0 |
-| [bbugyi200.athena.sase-196.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.4/README.md) | [sase-196.4](sase-196.4.md) | 0 |
+| [bbugyi200.athena.sase-196.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.2/README.md) | [sase-196.2](sase-196.2.md) | 1 |
+| [bbugyi200.athena.sase-196.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.3.md) | [sase-196.3](sase-196.3.md) | 1 |
+| [bbugyi200.athena.sase-196.4](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.4.md) | [sase-196.4](sase-196.4.md) | 0 |
 | [bbugyi200.athena.sase-196.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.5/README.md) | [sase-196.5](sase-196.5.md) | 1 |
 | [bbugyi200.athena.sase-196.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.land/README.md) | [sase-196](README.md) | 0 |
 
@@ -56,4 +56,6 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f648e88`](https://github.com/sase-org/sase/commit/f648e88e4870bc7024a49d873a1ef08f8382b427) | fix(agents-sync): commit prompt-archive objects with their prompts (sase-196.1) | [sase-196.1](sase-196.1.md) | 2026-09-25 10:22:50 EDT |
+| sase-core | [`sase-core@9e1ac1d`](https://github.com/sase-org/sase-core/commit/9e1ac1dae03496ac3c31f18e3a42aece8dca5337) | fix(continuation): scope seal checks to repos with a decision | [sase-196.3](sase-196.3.md) | 2026-09-25 10:30:05 EDT |
 | sase | [`7d14286`](https://github.com/sase-org/sase/commit/7d14286e594de40c34f891d54eccbaacbe19d8d4) | feat(finalizers): guard the raw-submit fallback (sase-196.5) | [sase-196.5](sase-196.5.md) | 2026-09-25 10:33:02 EDT |
+| sase | [`4214ccc`](https://github.com/sase-org/sase/commit/4214ccc650b63c2efb7839af46ddb966d788ca1d) | feat(agents): validate archive objects | [sase-196.2](sase-196.2.md) | 2026-09-25 11:04:42 EDT |

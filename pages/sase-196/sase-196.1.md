@@ -17,7 +17,7 @@ archive-objects: stage files/objects in both prompt-archive commit paths, never 
 
 ## Dependencies
 
-- **Blocks:** [sase-196.2](sase-196.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-196.2](sase-196.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
