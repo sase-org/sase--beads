@@ -32,3 +32,15 @@ seal-scope-adopt: move the sase-core revision pin, add Python regression tests f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`45a2e61`](https://github.com/sase-org/sase/commit/45a2e61be9b8d5146f05ff360a24577311aab144) | fix(finalizers): adopt decision-scoped completion seal | [sase-196.4](sase-196.4.md) | 2026-09-25 11:40:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-196.4][1] | Confirm the assigned phase closed with the required verification note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-196.4/README.md
+
+<!-- sase:referenced-by:end -->
