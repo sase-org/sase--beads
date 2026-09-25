@@ -20,4 +20,4 @@ ui-thread-state: move the palette-tip marker write off the loop. Append restored
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.5/README.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 0 |

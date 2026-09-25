@@ -148,11 +148,11 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 1 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.1/README.md) | [sase-17x.13.1](sase-17x.13.1.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.3/README.md) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 0 |
-| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.5/README.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.6/README.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 1 |
@@ -202,6 +202,7 @@ flowchart TD
 | sase | [`403586e`](https://github.com/sase-org/sase/commit/403586e27127f4a0afd6479416957b13de1bc3dd) | feat(command-line): border chrome and floating popup (sase-17x.13.8) | [sase-17x.13.8](sase-17x.13.8.md) | 2026-09-25 02:31:58 EDT |
 | sase | [`3c6e8f0`](https://github.com/sase-org/sase/commit/3c6e8f04dcdbd0806909d519ef3c661efbfde87a) | feat(command-line): add completion goldens and perf probe | [sase-17x.13.9](sase-17x.13.9.md) | 2026-09-25 04:02:20 EDT |
 | sase | [`6d9d1b5`](https://github.com/sase-org/sase/commit/6d9d1b5a0023d8632cdccfd82beab0fd0f729e98) | fix(command-line): avoid panel dismissal deadlocks | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 2026-09-25 10:07:12 EDT |
+| sase | [`f51cb30`](https://github.com/sase-org/sase/commit/f51cb300bf0f110d58e1aecf03d766b6f543e672) | refactor(ace-tui): split screen\_completion into focused modules (sase-17x.13.10.1) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 2026-09-25 11:03:20 EDT |
 
 <!-- sase:referenced-by:start -->
 

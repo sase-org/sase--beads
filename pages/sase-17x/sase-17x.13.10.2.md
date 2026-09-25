@@ -31,3 +31,15 @@ hide-hop-deadlocks: stop awaiting `dismiss()` from the panel's own key handler (
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6d9d1b5`](https://github.com/sase-org/sase/commit/6d9d1b5a0023d8632cdccfd82beab0fd0f729e98) | fix(command-line): avoid panel dismissal deadlocks | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 2026-09-25 10:07:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.10.2--1][1] | Need the already-completed phase scope and design evidence to investigate the verification timeout | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md
+
+<!-- sase:referenced-by:end -->
