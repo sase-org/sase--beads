@@ -19,6 +19,14 @@
 
 [2026-09-24T20:14:56Z · sase-17p.land] DISCOVERED ISSUE (sase-17p land agent, master 682089c84, 2026-09-24; reproduced with and without the sase-17p landing diff, which touches no command_line file): Command Line work leaves just check red at several gates. (1) lint (mypy): src/sase/ace/tui/command_line/input.py:158 assigns 'TextAreaTheme | None' to a 'TextAreaTheme' variable; command_line/screen.py:1074/1076/1081/1091 pass 'LineContext | None'/'LineContext' where 'dict[str, Any]' is declared (set_resolve_context, _complete_line, _maybe_fetch_providers) — from d4dc96eb4 (17x.9) / 98c8312f9 (17x.8). (2) lint (test waits): tests/ace/tui/command_line/test_completion_popup.py:181 fixed-sleep-missing-pragma (d4dc96eb4). (3) lint (toobig): src/sase/ace/tui/command_line/screen.py is 1492 lines (limit 1000). (4) lint (symvision): beyond the command_line_grammar.py symbols already noted by sase-17z.land, CommandHelp/CommandLineCompletion there plus CommandLineBlockWidget (command_line/transcript.py), SourceCandidate/in_memory_candidates (sources.py), build_chips/build_signature/first_diagnostic_message/option_summary_text/role_style (signature.py), command_line_from_proc/select_restore_rows (restore.py), command_line_grammar_error/load_command_line_grammar_sync (grammar.py), completion_toast_text (exits.py), longest_common_prefix/render_popup_row (popup.py), resolve_launch_cwd (context.py), build_command_line_bindings (keymaps/bindings.py), command_line_history_file/save_command_line_history/set_command_line_history_file (history/command_line.py), is_command_line_row/open_command_line_on_block (modals/procs_pane_agent_jump.py) are unused-public. (5) scoped tests: tests/ace/tui/test_visual_fixture_host_paths.py::test_visual_fixtures_embed_no_host_home_paths (test_ace_png_snapshots_command_line.py:36 and :143 embed cwd=/home/test/projects/sase; allowed synthetic owners are operator/user/visual); tests/test_timezone_display_guard.py::test_no_system_clock_display_sites flags src/sase/ace/tui/command_line/block_render.py:105 datetime.fromtimestamp(finished_at).strftime('%H:%M'); tests/test_config_schema.py::test_default_config_matches_public_schema fails 'ace.keymaps: Additional properties are not allowed (command_line was unexpected)' — default_config.yml gained ace.keymaps.command_line without a src/sase/config/sase.schema.json entry.
 
+[2026-09-25T00:26:20Z · sase-17x.land] LANDING INTERRUPTED (sase-17x land agent, master 55936f429, 2026-09-24): epic NOT closed; remaining epic-caused work planned as a child epic plan (command_line_landing_fixes) whose land agent resumes this landing.
+
+VERIFIED: all 12 phases closed; 12 epic commits present (5a7955161..c83e3bd91); sase bead epic-symbols sase-17x = none; flag ace_command_line fully removed from src (registry, flag.py, Off branch) -> closed flag bead sase-181 with a note. Plan items present: color contract, spec contract, kind ratchet, retention bucket, resolver + adapter, proc plumbing, panel/session/history/transcript, run policies/built-ins, flip (: -> Command Line, ; -> palette, hop, fallback row, one-time tip, docs/ace.md section).
+
+REMAINING EPIC WORK FOUND (reproduced/confirmed in code) -> child plan phases: (1) core-pin: sase-core-revision.txt 6d0d0e6 predates sase-core 1bdadab CommandLineGrammar (17x.4 #1, 17x.5 #1). (2) worker-hops: 'v' on an unloaded tail crashes the TUI (WorkerFailed: call_from_thread from the app loop in _open_pager_worker); grammar on_ready never refreshes popup (same misuse). (3) key-behavior: up/down history never wired (history_step has no callers); right-arrow mid-line inserts ghost; NORMAL mode swallows vim keys with no block selected; R not limited to declined blocks; palette ':' hop erases the draft; ctrl+f accept (integration with 307da2dac). (4) keymap-config: ace.keymaps.command_line is loaded but never applied (screen/input hardcode keys) + block-nav keys configurable (17x.8 #2); docs/configuration.md custom-mode prefix ';' collision; quickstart/onboarding omit ':'. (5) completion-fixes: candidates past row 8 unreachable, echo guard ineffective, sticky provider footer, flat TTL ignores VOLATILE_KIND_TTL_SECONDS (integration with 482fb46bc), cursor not rechecked, hint text. (6) entity-sources: proc and project in-memory sources always empty; Agents-tab marks ignored; no path/dir or cd completion (17x.11 #1); selected plan ranking. (7) policy-io: foreground runs PATH sase not sase_command_argv; tool stop / plan approve|reject writes=false (integration with cae16be3c); sync disk I/O on UI thread (history per open, tip marker, K kill, Procs jump, tail polling). (8) chrome-layout: title/chip/hints/running not on borders; popup in-flow not floating. (9) goldens-perf: missing completion-popup goldens (17x.9 #2), perf probe/never-awaits/test gaps, live walkthrough.
+
+FOLLOW-UP OUTCOMES: 17x.1 #1 symvision _failure_count -> declined, fixed by 064830632. 17x.3 #1 run full check -> declined as a task; every child phase runs sase tool run check. 17x.5 #2, 17x.7 #1, 17x.8 #1, 17x.10 #1, 17x.12 #1/#2 (pre-existing mypy/symvision/toobig/flag-drift/test-waits/snapshot gates) -> declined, fixed by sase-18f.1/.2/.3 (114fbca89, b18f3d38f, 55936f429) with the rest in sase-18f.4/.9 scope. 17x.10 #2 (sase final prepare blocked by untracked agents-sidecar objects) -> duplicate of sase-17u, +1 recorded after re-verifying the same 3 untracked objects. 17x.12 #3 (Z zoom help tests) -> still failing, but caused by 742c1df38 (legacy agents UI removal), not this epic, and explicitly scoped in sase-18f.4's plan; no new task. Epic notes #1 (fakey help color, fixed 55936f429), #2 (symvision, fixed 114fbca89), #3 (mypy/test-waits/toobig/symvision/timezone/config-schema fixed by sase-18f.1-.3; command-line visual host path + import budget owned by in-flight sase-18f.4, rechecked by child goldens-perf). Drift audit: no conflicts from 742c1df38, the sase-17m.4.x renames, sase-185, !! bang mode, or new isatty color branches.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,41 +53,70 @@ flowchart TD
     n2["sase-17x.10: Empty state, doc peek, and history search [closed]"]
     n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [closed]"]
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [closed]"]
-    n5["sase-17x.2: Command Line spec contract [closed]"]
-    n6["sase-17x.3: Value-kind coverage and ratchet [closed]"]
-    n7["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
-    n8["sase-17x.5: sase-core CommandLineGrammar resolver [closed]"]
-    n9["sase-17x.6: Command-line proc plumbing [closed]"]
-    n10["sase-17x.7: Command Line panel shell (beta flag) [closed]"]
-    n11["sase-17x.8: Transcript block interactions and lifecycle [closed]"]
-    n12["sase-17x.9: Grammar-aware completion popup and signature line [closed]"]
+    n5["sase-17x.13: Finish the `:` Command Line: fix landing-audit bugs and spec gaps [in_progress]"]
+    n6["sase-17x.13.1: Move the sase-core CI pin past CommandLineGrammar [closed]"]
+    n7["sase-17x.13.2: Fix call_from_thread misuse on the app loop [in_progress]"]
+    n8["sase-17x.13.3: Make every Keys-table key behave as specified [in_progress]"]
+    n9["sase-17x.13.4: Apply the ace.keymaps.command_line scope [in_progress]"]
+    n10["sase-17x.13.5: Popup, provider-footer and cache correctness [in_progress]"]
+    n11["sase-17x.13.6: Proc, project, marked, path and cd completion sources [in_progress]"]
+    n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [in_progress]"]
+    n13["sase-17x.13.8: Border chrome and floating popup [in_progress]"]
+    n14["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [in_progress]"]
+    n15["sase-17x.2: Command Line spec contract [closed]"]
+    n16["sase-17x.3: Value-kind coverage and ratchet [closed]"]
+    n17["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
+    n18["sase-17x.5: sase-core CommandLineGrammar resolver [closed]"]
+    n19["sase-17x.6: Command-line proc plumbing [closed]"]
+    n20["sase-17x.7: Command Line panel shell (beta flag) [closed]"]
+    n21["sase-17x.8: Transcript block interactions and lifecycle [closed]"]
+    n22["sase-17x.9: Grammar-aware completion popup and signature line [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
+    n5 --> n9
+    n5 --> n10
+    n5 --> n11
+    n5 --> n12
+    n5 --> n13
+    n5 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
-    n5 -.-> n6
-    n5 -.-> n8
-    n6 -.-> n4
     n7 -.-> n8
-    n7 -.-> n9
-    n8 -.-> n12
-    n9 -.-> n10
+    n8 -.-> n9
+    n8 -.-> n10
+    n9 -.-> n12
     n10 -.-> n11
-    n10 -.-> n12
-    n11 -.-> n3
-    n12 -.-> n2
-    n12 -.-> n3
+    n10 -.-> n13
+    n11 -.-> n14
+    n12 -.-> n13
+    n13 -.-> n14
+    n15 -.-> n16
+    n15 -.-> n18
+    n16 -.-> n4
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n22
+    n19 -.-> n20
+    n20 -.-> n21
+    n20 -.-> n22
+    n21 -.-> n3
+    n22 -.-> n2
+    n22 -.-> n3
 ```
 
 ## Agents
@@ -90,6 +127,16 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 1 |
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 1 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.1/README.md) | [sase-17x.13.1](sase-17x.13.1.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.3/README.md) | [sase-17x.13.3](sase-17x.13.3.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.5/README.md) | [sase-17x.13.5](sase-17x.13.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.6/README.md) | [sase-17x.13.6](sase-17x.13.6.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md) | [sase-17x.13.8](sase-17x.13.8.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.9/README.md) | [sase-17x.13.9](sase-17x.13.9.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.land/README.md) | [sase-17x.13](sase-17x.13.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 2 |
@@ -98,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md) | [sase-17x.7](sase-17x.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md) | [sase-17x.8](sase-17x.8.md) | 1 |
 | [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 1 |
-| [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.land/README.md) | [sase-17x](README.md) | 0 |
+| [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.land.md) | [sase-17x](README.md) | 0 |
 
 ## Commits
 
@@ -118,6 +165,7 @@ flowchart TD
 | sase | [`ee9eda4`](https://github.com/sase-org/sase/commit/ee9eda4ab340bf9f6aaac08a773ca39dd912f93f) | feat(ace): command-line run policies, confirmation-aware blocks, and built-ins (sase-17x.11) | [sase-17x.11](sase-17x.11.md) | 2026-09-24 16:22:54 EDT |
 | sase | [`c03c717`](https://github.com/sase-org/sase/commit/c03c717daebb74852c9c1f329e7aabd866cc2741) | feat(ace): command-line completion extras for sase-17x.10 | [sase-17x.10](sase-17x.10.md) | 2026-09-24 16:57:28 EDT |
 | sase | [`c83e3bd`](https://github.com/sase-org/sase/commit/c83e3bd916be309d8ffc9e4bc0b258131ea1d253) | feat(ace): flip command-line and palette keys to colon and semicolon | [sase-17x.12](sase-17x.12.md) | 2026-09-24 19:06:28 EDT |
+| sase | [`d0df63a`](https://github.com/sase-org/sase/commit/d0df63a234329eec8414203bcae58e1671d7618d) | chore(core): ratchet sase-core pin to 83153645fe14 for CommandLineGrammar | [sase-17x.13.1](sase-17x.13.1.md) | 2026-09-24 20:59:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
