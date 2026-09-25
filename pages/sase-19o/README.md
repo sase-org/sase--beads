@@ -17,7 +17,7 @@ A `sase bead work` retry never plans to launch an agent name that a live or hist
 |---|---|---|---|---|---:|---:|
 | [sase-19o.1](sase-19o.1.md) | Registry rebuilds keep in-flight claims | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19o.2](sase-19o.2.md) | Bead-work selection repairs registry drift | ✓ closed | small | 2026-09-25 | 1 | 1 |
-| [sase-19o.3](sase-19o.3.md) | Launch-name preflight before bead-store mutations | ◐ in_progress | medium | 2026-09-25 | 0 | 0 |
+| [sase-19o.3](sase-19o.3.md) | Launch-name preflight before bead-store mutations | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["sase-19o: Make sase bead work resilient to agent-name registry drift [in_progress]"]
     n1["sase-19o.1: Registry rebuilds keep in-flight claims [closed]"]
     n2["sase-19o.2: Bead-work selection repairs registry drift [closed]"]
-    n3["sase-19o.3: Launch-name preflight before bead-store mutations [in_progress]"]
+    n3["sase-19o.3: Launch-name preflight before bead-store mutations [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,6 +40,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-19o.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19o.1/README.md) | [sase-19o.1](sase-19o.1.md) | 1 |
 | [bbugyi200.athena.sase-19o.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19o.2.md) | [sase-19o.2](sase-19o.2.md) | 1 |
+| [bbugyi200.athena.sase-19o.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19o.3.md) | [sase-19o.3](sase-19o.3.md) | 1 |
+| [bbugyi200.athena.sase-19o.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19o.land/README.md) | [sase-19o](README.md) | 0 |
 
 ## Commits
 
@@ -47,3 +49,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`938d2d8`](https://github.com/sase-org/sase/commit/938d2d8fec9052d178bdd12ea478af412422cc65) | fix(bead): type work-cleanup snapshot helpers for mypy | [sase-19o.2](sase-19o.2.md) | 2026-09-25 15:09:13 EDT |
 | sase | [`9d79a73`](https://github.com/sase-org/sase/commit/9d79a73462b0e5287dc4731067d1ff81dbe509ae) | fix(agent-names): retain live in-flight registry claims | [sase-19o.1](sase-19o.1.md) | 2026-09-25 15:21:04 EDT |
+| sase | [`29f18be`](https://github.com/sase-org/sase/commit/29f18be2b1f619497319c575330f8464bc2b4b6d) | fix(bead): preflight launch names before bead-store mutations | [sase-19o.3](sase-19o.3.md) | 2026-09-25 16:46:56 EDT |

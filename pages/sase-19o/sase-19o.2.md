@@ -17,7 +17,7 @@ bead-work-registry-drift: in select_bead_work_launch, detect slots whose registr
 
 ## Dependencies
 
-- **Blocks:** [sase-19o.3](sase-19o.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19o.3](sase-19o.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

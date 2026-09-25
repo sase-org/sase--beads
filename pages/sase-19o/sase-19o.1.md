@@ -19,7 +19,7 @@ registry-inflight-claims: make rebuild_name_registry() (both the optimistic _com
 
 ## Dependencies
 
-- **Blocks:** [sase-19o.3](sase-19o.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19o.3](sase-19o.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
