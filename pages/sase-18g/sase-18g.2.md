@@ -19,7 +19,7 @@ document: extend IdentityHeader with the xprompt, attach it instead of rendering
 
 ## Dependencies
 
-- **Blocks:** [sase-18g.3](sase-18g.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18g.3](sase-18g.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -32,3 +32,15 @@ document: extend IdentityHeader with the xprompt, attach it instead of rendering
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4af219e`](https://github.com/sase-org/sase/commit/4af219ebae29fdc28715fbf7ecd9dbc1efccc9ad) | feat(ace): detach agent xprompts into identity headers | [sase-18g.2](sase-18g.2.md) | 2026-09-24 19:34:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18g.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.2/README.md
+
+<!-- sase:referenced-by:end -->

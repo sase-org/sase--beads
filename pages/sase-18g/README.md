@@ -15,18 +15,18 @@ On the Agents tab, the selected agent's AGENT XPROMPT moves out of the data deck
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-18g.1](sase-18g.1.md) | Pure xprompt preview fitting and header settings | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18g.1](sase-18g.1.md) | Pure xprompt preview fitting and header settings | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18g.2](sase-18g.2.md) | XPROMPT section travels with the detached identity | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18g.3](sase-18g.3.md) | Header panel preview, expansion, layout, docs, and visual verification | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18g.3](sase-18g.3.md) | Header panel preview, expansion, layout, docs, and visual verification | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-18g: AGENT XPROMPT preview in the sticky agent header [in_progress]"]
-    n1["sase-18g.1: Pure xprompt preview fitting and header settings [in_progress]"]
+    n1["sase-18g.1: Pure xprompt preview fitting and header settings [closed]"]
     n2["sase-18g.2: XPROMPT section travels with the detached identity [closed]"]
-    n3["sase-18g.3: Header panel preview, expansion, layout, docs, and visual verification [in_progress]"]
+    n3["sase-18g.3: Header panel preview, expansion, layout, docs, and visual verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -38,9 +38,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.1/README.md) | [sase-18g.1](sase-18g.1.md) | 0 |
+| [bbugyi200.athena.sase-18g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.1/README.md) | [sase-18g.1](sase-18g.1.md) | 1 |
 | [bbugyi200.athena.sase-18g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.2/README.md) | [sase-18g.2](sase-18g.2.md) | 1 |
-| [bbugyi200.athena.sase-18g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.3/README.md) | [sase-18g.3](sase-18g.3.md) | 0 |
+| [bbugyi200.athena.sase-18g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.3/README.md) | [sase-18g.3](sase-18g.3.md) | 1 |
 | [bbugyi200.athena.sase-18g.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md) | [sase-18g](README.md) | 0 |
 
 ## Commits
@@ -48,3 +48,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4af219e`](https://github.com/sase-org/sase/commit/4af219ebae29fdc28715fbf7ecd9dbc1efccc9ad) | feat(ace): detach agent xprompts into identity headers | [sase-18g.2](sase-18g.2.md) | 2026-09-24 19:34:46 EDT |
+| sase | [`67b1b6c`](https://github.com/sase-org/sase/commit/67b1b6c5a88fd973812adc2f537038a535d16715) | feat(ace): add pure xprompt header preview fitting and header settings (sase-18g.1) | [sase-18g.1](sase-18g.1.md) | 2026-09-24 19:35:50 EDT |
+| sase | [`4858f20`](https://github.com/sase-org/sase/commit/4858f20a2d0016b21e78558c433854112108de2c) | feat(ace): collapsed header shows xprompt preview rows with budget and overflow | [sase-18g.3](sase-18g.3.md) | 2026-09-24 21:09:06 EDT |
