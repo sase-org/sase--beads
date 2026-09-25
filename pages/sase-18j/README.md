@@ -34,7 +34,7 @@ On a red master, an agent's `sase tool run check` runs past stages whose failure
 | [sase-18j.5](sase-18j.5.md) | Pin the core, gather triage inputs, and pass the precision backtest | ✓ closed | large | 2026-09-24 | 1 | 1 |
 | [sase-18j.6](sase-18j.6.md) | Triage every settled run and render it | ✓ closed | large | 2026-09-24 | 1 | 1 |
 | [sase-18j.7](sase-18j.7.md) | Continue past all-KNOWN stages by default for agents | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18j.8](sase-18j.8.md) | sase tool failures and triage in verify-monitor follow-ups | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18j.8](sase-18j.8.md) | sase tool failures and triage in verify-monitor follow-ups | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18j.9](sase-18j.9.md) | Prove the landing criteria, remove the flag, and document | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 
 ## Lineage
@@ -49,7 +49,7 @@ flowchart TD
     n5["sase-18j.5: Pin the core, gather triage inputs, and pass the precision backtest [closed]"]
     n6["sase-18j.6: Triage every settled run and render it [closed]"]
     n7["sase-18j.7: Continue past all-KNOWN stages by default for agents [closed]"]
-    n8["sase-18j.8: sase tool failures and triage in verify-monitor follow-ups [in_progress]"]
+    n8["sase-18j.8: sase tool failures and triage in verify-monitor follow-ups [closed]"]
     n9["sase-18j.9: Prove the landing criteria, remove the flag, and document [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18j.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.5.md) | [sase-18j.5](sase-18j.5.md) | 1 |
 | [bbugyi200.athena.sase-18j.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.6.md) | [sase-18j.6](sase-18j.6.md) | 1 |
 | [bbugyi200.athena.sase-18j.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md) | [sase-18j.7](sase-18j.7.md) | 1 |
-| [bbugyi200.athena.sase-18j.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.8/README.md) | [sase-18j.8](sase-18j.8.md) | 0 |
+| [bbugyi200.athena.sase-18j.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.8/README.md) | [sase-18j.8](sase-18j.8.md) | 1 |
 | [bbugyi200.athena.sase-18j.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.9/README.md) | [sase-18j.9](sase-18j.9.md) | 0 |
 | [bbugyi200.athena.sase-18j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.land/README.md) | [sase-18j](README.md) | 0 |
 
@@ -98,6 +98,7 @@ flowchart TD
 | sase | [`cdcbcdd`](https://github.com/sase-org/sase/commit/cdcbcdd9d3988359f1b4fc77d6d0454632a4e760) | feat(tool): add triage input backtest | [sase-18j.5](sase-18j.5.md) | 2026-09-24 22:45:15 EDT |
 | sase | [`71b25fb`](https://github.com/sase-org/sase/commit/71b25fbf4eb20f3e184f25104307e20cc5488515) | feat(tool): render settled failure triage | [sase-18j.6](sase-18j.6.md) | 2026-09-25 15:05:30 EDT |
 | sase | [`d17a753`](https://github.com/sase-org/sase/commit/d17a7534ad595b45e7076755e0ddd84c1d378460) | feat(tool): known-gated continuation for agent runs | [sase-18j.7](sase-18j.7.md) | 2026-09-25 16:27:31 EDT |
+| sase | [`89868a9`](https://github.com/sase-org/sase/commit/89868a90b2e48eae1de60c8d24ce35682bbe46fc) | feat(tool): add sase tool failures and follow-up triage | [sase-18j.8](sase-18j.8.md) | 2026-09-25 17:35:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -107,10 +108,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18f.land][1] | Check whether sase-18j is active and owns the smoke mypy straggler | 1 |
 | read-by | [agent:sase-18g.land][2] | Check whether sase-18j owns tool-run stage continuation display | 1 |
-| read-by | [agent:sase-191.land][3] | Landing check: phase 2/3 notes on the E3 epic | 1 |
+| read-by | [agent:sase-18j.7][3] | epic status check | 1 |
+| read-by | [agent:sase-191.land][4] | Landing check: phase 2/3 notes on the E3 epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
 
 <!-- sase:referenced-by:end -->

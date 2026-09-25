@@ -22,7 +22,7 @@ record-and-render: capture failed-stage output, run fail-open settle-time triage
 - **Depends on:** [sase-18j.4](sase-18j.4.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18j.5](sase-18j.5.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18j.7](sase-18j.7.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.8](sase-18j.8.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.8](sase-18j.8.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
