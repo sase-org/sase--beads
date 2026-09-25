@@ -13,7 +13,7 @@ tui-tests: rename the family-concept test functions, helpers, locals, fixture kw
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

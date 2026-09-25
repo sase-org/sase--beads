@@ -17,7 +17,7 @@ copy-stragglers: fix the 15 tests/ace widget tests that fail on master because t
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -30,3 +30,15 @@ copy-stragglers: fix the 15 tests/ace widget tests that fail on master because t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cdf4912`](https://github.com/sase-org/sase/commit/cdf491254c6f8198b8f9b95e15c5f6239ce520ae) | feat(ace): complete agent session terminology | [sase-17m.5.1.6.1](sase-17m.5.1.6.1.md) | 2026-09-25 05:20:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.1--2][1] | Confirm assigned phase scope and completion evidence before closing it | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.1.md
+
+<!-- sase:referenced-by:end -->
