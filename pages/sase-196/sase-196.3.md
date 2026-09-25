@@ -25,10 +25,4 @@ seal-scope-core: in the sase-core continuation seal and evaluator, apply the pro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-196.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.3.md) | [sase-196.3](sase-196.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@9e1ac1d`](https://github.com/sase-org/sase-core/commit/9e1ac1dae03496ac3c31f18e3a42aece8dca5337) | fix(continuation): scope seal checks to repos with a decision | [sase-196.3](sase-196.3.md) | 2026-09-25 10:30:05 EDT |
+| [bbugyi200.athena.sase-196.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-196.3.md) | [sase-196.3](sase-196.3.md) | 0 |
