@@ -23,7 +23,7 @@ clan_race: Drive the mounted Agents tab with on-disk agents through a clan x, an
 
 ## Dependencies
 
-- **Blocks:** [sase-18d.7.2](sase-18d.7.2.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.7.2](sase-18d.7.2.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -36,3 +36,15 @@ clan_race: Drive the mounted Agents tab with on-disk agents through a clan x, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ae34dba`](https://github.com/sase-org/sase/commit/ae34dba2066acf114bc158de39061ba6533f189d) | test(ace): drive Agents-tab clan x through a mounted pilot and fix racing-load resurrection | [sase-18d.7.1](sase-18d.7.1.md) | 2026-09-24 23:52:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18d.7.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.1/README.md
+
+<!-- sase:referenced-by:end -->

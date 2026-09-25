@@ -41,7 +41,7 @@ flowchart TD
     n6["sase-18d.6: End-to-end x regression coverage [closed]"]
     n7["sase-18d.7: Complete Agents-tab x end-to-end regression coverage [in_progress]"]
     n8["sase-18d.7.1: Pilot harness and clan removal race [closed]"]
-    n9["sase-18d.7.2: Live row, process tree, and restart scenarios [in_progress]"]
+    n9["sase-18d.7.2: Live row, process tree, and restart scenarios [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18d.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.5/README.md) | [sase-18d.5](sase-18d.5.md) | 1 |
 | [bbugyi200.athena.sase-18d.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.6/README.md) | [sase-18d.6](sase-18d.6.md) | 0 |
 | [bbugyi200.athena.sase-18d.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.1/README.md) | [sase-18d.7.1](sase-18d.7.1.md) | 1 |
-| [bbugyi200.athena.sase-18d.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.2/README.md) | [sase-18d.7.2](sase-18d.7.2.md) | 0 |
+| [bbugyi200.athena.sase-18d.7.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18d.7.2.md) | [sase-18d.7.2](sase-18d.7.2.md) | 1 |
 | [bbugyi200.athena.sase-18d.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md) | [sase-18d.7](sase-18d.7.md) | 0 |
 | [bbugyi200.athena.sase-18d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18d.land.md) | [sase-18d](README.md) | 0 |
 
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`3cf0f1f`](https://github.com/sase-org/sase/commit/3cf0f1ff68ab3f89233defdf3fc1ec9e5088161d) | feat(ace): x stops every member kind instead of skipping it (sase-18d.4) | [sase-18d.4](sase-18d.4.md) | 2026-09-24 20:06:44 EDT |
 | sase | [`1ea13da`](https://github.com/sase-org/sase/commit/1ea13da1b3450d2c89da83beb47814f117e9315b) | feat(dismissed-index): persist dismissals additively for every writer | [sase-18d.5](sase-18d.5.md) | 2026-09-24 21:26:20 EDT |
 | sase | [`ae34dba`](https://github.com/sase-org/sase/commit/ae34dba2066acf114bc158de39061ba6533f189d) | test(ace): drive Agents-tab clan x through a mounted pilot and fix racing-load resurrection | [sase-18d.7.1](sase-18d.7.1.md) | 2026-09-24 23:52:25 EDT |
+| sase | [`02c4b02`](https://github.com/sase-org/sase/commit/02c4b029a67b743d45c564840c12adca8c4f3029) | test(ace): complete Agents-tab x row-lifecycle e2e coverage (sase-18d.7.2) | [sase-18d.7.2](sase-18d.7.2.md) | 2026-09-25 01:05:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
