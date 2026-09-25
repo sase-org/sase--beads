@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18g.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.1/README.md) | [sase-18g.1](sase-18g.1.md) | 1 |
 | [bbugyi200.athena.sase-18g.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.2/README.md) | [sase-18g.2](sase-18g.2.md) | 1 |
 | [bbugyi200.athena.sase-18g.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.3/README.md) | [sase-18g.3](sase-18g.3.md) | 1 |
-| [bbugyi200.athena.sase-18g.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md) | [sase-18g](README.md) | 2 |
+| [bbugyi200.athena.sase-18g.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md) | [sase-18g](README.md) | 3 |
 
 ## Commits
 
@@ -56,6 +56,7 @@ flowchart TD
 | sase | [`4858f20`](https://github.com/sase-org/sase/commit/4858f20a2d0016b21e78558c433854112108de2c) | feat(ace): collapsed header shows xprompt preview rows with budget and overflow | [sase-18g.3](sase-18g.3.md) | 2026-09-24 21:09:06 EDT |
 | sase | [`d2c2dd1`](https://github.com/sase-org/sase/commit/d2c2dd1429db97bc66928f28ce178ee84be5b73a) | fix(ace): land sase-18g header XPROMPT preview goldens and spacing | [sase-18g](README.md) | 2026-09-25 00:33:04 EDT |
 | sase | [`7840592`](https://github.com/sase-org/sase/commit/7840592c5e22e99f91f0c71dd385e3c98ad8eb39) | fix(check): clear sase-18j triage lint stragglers | [sase-18g](README.md) | 2026-09-25 00:43:46 EDT |
+| sase--plans | [`sase--plans@25e53da`](https://github.com/sase-org/sase--plans/commit/25e53dae16293c4e7c11e467af3f1d9010f13b4f) | docs(plans): record sase-18g agent header XPROMPT preview landing | [sase-18g](README.md) | 2026-09-25 00:46:43 EDT |
 
 <!-- sase:referenced-by:start -->
 
