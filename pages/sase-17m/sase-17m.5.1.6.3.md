@@ -20,7 +20,7 @@ tui-tests: rename the family-concept test functions, helpers, locals, fixture kw
 ## Dependencies
 
 - **Depends on:** [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ tui-tests: rename the family-concept test functions, helpers, locals, fixture kw
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ea130c6`](https://github.com/sase-org/sase/commit/ea130c678afbe48d0249d00311d2e4af0a5ddbf7) | feat(scope): describe the completed work | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 2026-09-25 07:02:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md
+
+<!-- sase:referenced-by:end -->
