@@ -59,7 +59,7 @@ flowchart TD
     n8["sase-17x.13.10.1: Bring screen_completion.py under the line-count limit [closed]"]
     n9["sase-17x.13.10.2: Fix the hide and palette-hop deadlocks and the lost loop hops [closed]"]
     n10["sase-17x.13.10.3: History walk, menu keys, and compact key hints [closed]"]
-    n11["sase-17x.13.10.4: Fresh caches, project and cd resolution, and the keystroke probe [in_progress]"]
+    n11["sase-17x.13.10.4: Fresh caches, project and cd resolution, and the keystroke probe [closed]"]
     n12["sase-17x.13.10.5: Tip marker write, restored-block append, and history counts [closed]"]
     n13["sase-17x.13.10.6: Regenerate epic goldens and take the live walkthrough [in_progress]"]
     n14["sase-17x.13.2: Fix call_from_thread misuse on the app loop [closed]"]
@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.3/README.md) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.6/README.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 0 |
@@ -205,6 +205,7 @@ flowchart TD
 | sase | [`f51cb30`](https://github.com/sase-org/sase/commit/f51cb300bf0f110d58e1aecf03d766b6f543e672) | refactor(ace-tui): split screen\_completion into focused modules (sase-17x.13.10.1) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 2026-09-25 11:03:20 EDT |
 | sase | [`ea25ee2`](https://github.com/sase-org/sase/commit/ea25ee2bf78796f9850c8164b71ff863b4162d8c) | fix(command-line): move tip marker write off loop, append restored blocks on UI thread (sase-17x.13.10.5) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 2026-09-25 11:47:03 EDT |
 | sase | [`e01d346`](https://github.com/sase-org/sase/commit/e01d34651b4a356e463f899649a928f70c38c98e) | fix(command-line): history walk reset, fixed menu keys, compact key hints (sase-17x.13.10.3) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 2026-09-25 12:07:48 EDT |
+| sase | [`136a3e9`](https://github.com/sase-org/sase/commit/136a3e94885a455fc56d1405beabf71ccc6cb07c) | fix(command-line): fresh completion caches, cd project resolution, key-receipt probe (sase-17x.13.10.4) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 2026-09-25 15:01:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

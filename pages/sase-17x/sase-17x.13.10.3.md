@@ -21,7 +21,7 @@ key-routing: reset the history walk cursor on each new walk. Decouple menu movem
 
 - **Depends on:** [sase-17x.13.10.1](sase-17x.13.10.1.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-17x.13.10.2](sase-17x.13.10.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17x.13.10.4](sase-17x.13.10.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17x.13.10.4](sase-17x.13.10.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -34,3 +34,15 @@ key-routing: reset the history walk cursor on each new walk. Decouple menu movem
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e01d346`](https://github.com/sase-org/sase/commit/e01d34651b4a356e463f899649a928f70c38c98e) | fix(command-line): history walk reset, fixed menu keys, compact key hints (sase-17x.13.10.3) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 2026-09-25 12:07:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.10.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.3/README.md
+
+<!-- sase:referenced-by:end -->
