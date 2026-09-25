@@ -34,3 +34,15 @@ docs-verify: update docs that still name the renamed perf scenarios or the retir
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`24615e1`](https://github.com/sase-org/sase/commit/24615e18d44570c0650fcd597ac2e7f2b8c678e5) | docs(agent-session): match renamed perf scenarios and session copy, fix stale copy-pin tests (sase-17m.5.1.6.4) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 2026-09-25 09:21:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.4/README.md
+
+<!-- sase:referenced-by:end -->

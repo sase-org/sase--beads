@@ -94,10 +94,12 @@ flowchart TD
     n37["sase-17m.5.1.6.2: Agent-session test identifiers in widgets, modals, actions, and visual tests [closed]"]
     n38["sase-17m.5.1.6.3: Agent-session test identifiers in top-level TUI, models, and contract tests plus new-shape fleet fixtures [closed]"]
     n39["sase-17m.5.1.6.4: Docs integration, perf re-run, classification, and full verification [closed]"]
-    n40["sase-17m.6: Documentation and memory [closed]"]
-    n41["sase-17m.7: sase-telegram cutover [closed]"]
-    n42["sase-17m.8: sase-core contract flip [in_progress]"]
-    n43["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
+    n40["sase-17m.5.1.6.5: Repair the retry agent-session visual case [in_progress]"]
+    n41["sase-17m.5.1.6.5.1: Repair the retry countdown visual test and golden [closed]"]
+    n42["sase-17m.6: Documentation and memory [closed]"]
+    n43["sase-17m.7: sase-telegram cutover [closed]"]
+    n44["sase-17m.8: sase-core contract flip [in_progress]"]
+    n45["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -137,10 +139,12 @@ flowchart TD
     n35 --> n37
     n35 --> n38
     n35 --> n39
-    n0 --> n40
-    n0 --> n41
+    n35 --> n40
+    n40 --> n41
     n0 --> n42
     n0 --> n43
+    n0 --> n44
+    n0 --> n45
     n1 -.-> n9
     n3 -.-> n9
     n5 -.-> n6
@@ -155,8 +159,8 @@ flowchart TD
     n15 -.-> n17
     n16 -.-> n17
     n18 -.-> n28
-    n18 -.-> n40
-    n18 -.-> n41
+    n18 -.-> n42
+    n18 -.-> n43
     n20 -.-> n21
     n21 -.-> n22
     n22 -.-> n23
@@ -164,7 +168,7 @@ flowchart TD
     n24 -.-> n25
     n25 -.-> n26
     n26 -.-> n27
-    n28 -.-> n42
+    n28 -.-> n44
     n30 -.-> n31
     n31 -.-> n32
     n32 -.-> n33
@@ -172,10 +176,10 @@ flowchart TD
     n36 -.-> n37
     n37 -.-> n38
     n38 -.-> n39
-    n40 -.-> n42
-    n41 -.-> n42
-    n42 -.-> n43
-    n43 -.-> n2
+    n42 -.-> n44
+    n43 -.-> n44
+    n44 -.-> n45
+    n45 -.-> n2
 ```
 
 ## Agents
@@ -219,7 +223,9 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md) | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.3/README.md) | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.4/README.md) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 1 |
-| [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.land/README.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.5.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.1.md) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 1 |
+| [bbugyi200.athena.sase-17m.5.1.6.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.5.land/README.md) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.6.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.land.md) | [sase-17m.5.1.6](sase-17m.5.1.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
@@ -265,6 +271,7 @@ flowchart TD
 | sase | [`d039244`](https://github.com/sase-org/sase/commit/d039244c0061f25ffe0ebcf4b19506e60e8afd67) | refactor(ace-tui): rename family test identifiers to agent-session in widget, modal, action, and visual tests | [sase-17m.5.1.6.2](sase-17m.5.1.6.2.md) | 2026-09-25 06:03:44 EDT |
 | sase | [`ea130c6`](https://github.com/sase-org/sase/commit/ea130c678afbe48d0249d00311d2e4af0a5ddbf7) | feat(scope): describe the completed work | [sase-17m.5.1.6.3](sase-17m.5.1.6.3.md) | 2026-09-25 07:02:51 EDT |
 | sase | [`24615e1`](https://github.com/sase-org/sase/commit/24615e18d44570c0650fcd597ac2e7f2b8c678e5) | docs(agent-session): match renamed perf scenarios and session copy, fix stale copy-pin tests (sase-17m.5.1.6.4) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 2026-09-25 09:21:24 EDT |
+| sase | [`ced0b15`](https://github.com/sase-org/sase/commit/ced0b15e07e1ace5bc0b11b38edb6ff49b0e7d1e) | fix(ace-tui): repair retry countdown visual test query and golden (sase-17m.5.1.6.5.1) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 2026-09-25 11:53:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
