@@ -20,7 +20,7 @@ key-behavior: wire ↑/↓ prefix-filtered history. Offer ghost text only at the
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.2](sase-17x.13.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.4](sase-17x.13.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.4](sase-17x.13.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.5](sase-17x.13.5.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
@@ -34,3 +34,15 @@ key-behavior: wire ↑/↓ prefix-filtered history. Offer ghost text only at the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`543d012`](https://github.com/sase-org/sase/commit/543d012209875d59081f8c4d908168c6687ac4e9) | feat(command-line): complete key behavior contract | [sase-17x.13.3](sase-17x.13.3.md) | 2026-09-24 21:54:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.3--2][1] | Need the assigned phase scope, design references, and closeout status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md
+
+<!-- sase:referenced-by:end -->

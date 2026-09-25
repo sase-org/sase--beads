@@ -57,7 +57,7 @@ flowchart TD
     n6["sase-17x.13.1: Move the sase-core CI pin past CommandLineGrammar [closed]"]
     n7["sase-17x.13.2: Fix call_from_thread misuse on the app loop [closed]"]
     n8["sase-17x.13.3: Make every Keys-table key behave as specified [closed]"]
-    n9["sase-17x.13.4: Apply the ace.keymaps.command_line scope [in_progress]"]
+    n9["sase-17x.13.4: Apply the ace.keymaps.command_line scope [closed]"]
     n10["sase-17x.13.5: Popup, provider-footer and cache correctness [in_progress]"]
     n11["sase-17x.13.6: Proc, project, marked, path and cd completion sources [in_progress]"]
     n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [in_progress]"]
@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.1/README.md) | [sase-17x.13.1](sase-17x.13.1.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.5/README.md) | [sase-17x.13.5](sase-17x.13.5.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.6/README.md) | [sase-17x.13.6](sase-17x.13.6.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 0 |
@@ -168,6 +168,7 @@ flowchart TD
 | sase | [`d0df63a`](https://github.com/sase-org/sase/commit/d0df63a234329eec8414203bcae58e1671d7618d) | chore(core): ratchet sase-core pin to 83153645fe14 for CommandLineGrammar | [sase-17x.13.1](sase-17x.13.1.md) | 2026-09-24 20:59:41 EDT |
 | sase | [`7484c50`](https://github.com/sase-org/sase/commit/7484c50abb1bd9c87897d5b0ae4b164da941f242) | fix(tui): avoid app-loop worker hops | [sase-17x.13.2](sase-17x.13.2.md) | 2026-09-24 21:04:52 EDT |
 | sase | [`543d012`](https://github.com/sase-org/sase/commit/543d012209875d59081f8c4d908168c6687ac4e9) | feat(command-line): complete key behavior contract | [sase-17x.13.3](sase-17x.13.3.md) | 2026-09-24 21:54:35 EDT |
+| sase | [`bde335d`](https://github.com/sase-org/sase/commit/bde335de55acb2d17ce120213046d2f26fd33e19) | feat(command-line): apply the ace.keymaps.command\_line scope | [sase-17x.13.4](sase-17x.13.4.md) | 2026-09-24 23:41:09 EDT |
 
 <!-- sase:referenced-by:start -->
 

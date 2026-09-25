@@ -13,7 +13,7 @@ policy-io: run foreground commands with the TUI's interpreter and fix the missin
 
 ## Dependencies
 
-- **Depends on:** [sase-17x.13.4](sase-17x.13.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.13.4](sase-17x.13.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
