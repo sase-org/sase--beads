@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-183][1] | 7e1b05964 (sase-17m.3.1 wire cutover) renamed the family index fields that 9bd351b67 still references |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-183/README.md
 
@@ -47,7 +47,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.6](sase-17m.6.md) | Documentation and memory | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ✓ closed | small | 2026-09-23 | 1 | 0 |
-| [sase-17m.8](sase-17m.8.md) | sase-core contract flip | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
+| [sase-17m.8](sase-17m.8.md) | sase-core contract flip | ✓ closed | medium | 2026-09-23 | 1 | 1 |
 | [sase-17m.9](sase-17m.9.md) | Pin bump and agents sidecar session pages | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 
 ## Lineage
@@ -98,7 +98,7 @@ flowchart TD
     n41["sase-17m.5.1.6.5.1: Repair the retry countdown visual test and golden [closed]"]
     n42["sase-17m.6: Documentation and memory [closed]"]
     n43["sase-17m.7: sase-telegram cutover [closed]"]
-    n44["sase-17m.8: sase-core contract flip [in_progress]"]
+    n44["sase-17m.8: sase-core contract flip [closed]"]
     n45["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -229,7 +229,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.5.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.land.md) | [sase-17m.5.1](sase-17m.5.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 0 |
-| [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 0 |
+| [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.9/README.md) | [sase-17m.9](sase-17m.9.md) | 0 |
 | [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 0 |
 
@@ -273,6 +273,7 @@ flowchart TD
 | sase | [`24615e1`](https://github.com/sase-org/sase/commit/24615e18d44570c0650fcd597ac2e7f2b8c678e5) | docs(agent-session): match renamed perf scenarios and session copy, fix stale copy-pin tests (sase-17m.5.1.6.4) | [sase-17m.5.1.6.4](sase-17m.5.1.6.4.md) | 2026-09-25 09:21:24 EDT |
 | sase | [`ced0b15`](https://github.com/sase-org/sase/commit/ced0b15e07e1ace5bc0b11b38edb6ff49b0e7d1e) | fix(ace-tui): repair retry countdown visual test query and golden (sase-17m.5.1.6.5.1) | [sase-17m.5.1.6.5.1](sase-17m.5.1.6.5.1.md) | 2026-09-25 11:53:35 EDT |
 | sase--plans | [`sase--plans@1691f9f`](https://github.com/sase-org/sase--plans/commit/1691f9f71092042f2118b8e1593e6b1d525e0c61) | docs(plans): mark ACE agent-session cutover plans done (sase-17m.5.1) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 2026-09-25 13:35:05 EDT |
+| sase-core | [`sase-core@2a0fc2a`](https://github.com/sase-org/sase-core/commit/2a0fc2abdaea1d7fa40f93f439c902895f2eff6f) | feat(core)!: canonicalize agent-session contracts | [sase-17m.8](sase-17m.8.md) | 2026-09-25 14:55:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -288,8 +289,9 @@ flowchart TD
 | read-by | [agent:research.2i.cdx][6] | Assess E1 outcomes and residual scope before refining E3 and E4 | 1 |
 | read-by | [agent:sase-17m.2.1.land][7] | Need parent epic to see wire-cutover/core-contract phases | 1 |
 | read-by | [agent:sase-17m.4.1.land][8] | Confirm containing epic remains open for its land agent | 1 |
-| read-by | [agent:sase-18d.7.land][9] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
-| read-by | [agent:sase-18f.land][10] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
+| read-by | [agent:sase-17m.5.1.6.5.land--1][9] | Confirm containing rename epic remained open for its land agent | 1 |
+| read-by | [agent:sase-18d.7.land][10] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
+| read-by | [agent:sase-18f.land][11] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
@@ -299,7 +301,8 @@ flowchart TD
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

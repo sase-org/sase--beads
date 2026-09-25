@@ -36,7 +36,9 @@ just check after 5.1.6 (monitor 4s0jgas16mkg) timed out at 1h during test (scope
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.5.1.6.2][1] | Need land agent finding note #1 for scope context | 1 |
+| read-by | [agent:sase-17m.5.1.6.5.land--1][2] | Confirm close status and notes after auto-cascade | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.6.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
 
 <!-- sase:referenced-by:end -->

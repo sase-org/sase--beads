@@ -36,3 +36,15 @@ sase bead epic-symbols reported no --epic-symbol entries.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@1691f9f`](https://github.com/sase-org/sase--plans/commit/1691f9f71092042f2118b8e1593e6b1d525e0c61) | docs(plans): mark ACE agent-session cutover plans done (sase-17m.5.1) | [sase-17m.5.1.6.5](sase-17m.5.1.6.5.md) | 2026-09-25 13:35:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.6.5.land--1][1] | Need child epic close note to include in parent close recheck | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+
+<!-- sase:referenced-by:end -->
