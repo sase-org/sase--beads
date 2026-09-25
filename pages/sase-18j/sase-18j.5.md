@@ -48,7 +48,7 @@ bindings-and-backtest: move the core pin and add adapters and validators for eve
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18j.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.5.md) | [sase-18j.5](sase-18j.5.md) | 1 |
+| [bbugyi200.athena.sase-18j.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.5.md) | [sase-18j.5](sase-18j.5.md) | 1 |
 
 ## Commits
 
@@ -67,7 +67,7 @@ bindings-and-backtest: move the core pin and add adapters and validators for eve
 | read-by | [agent:sase-191.land][3] | Landing check: gate note and closed state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.5.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
 
 <!-- sase:referenced-by:end -->

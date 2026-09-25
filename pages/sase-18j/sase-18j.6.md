@@ -21,14 +21,14 @@ record-and-render: capture failed-stage output, run fail-open settle-time triage
 
 - **Depends on:** [sase-18j.4](sase-18j.4.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18j.5](sase-18j.5.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.7](sase-18j.7.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.7](sase-18j.7.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18j.8](sase-18j.8.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18j.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.6.md) | [sase-18j.6](sase-18j.6.md) | 1 |
+| [bbugyi200.athena.sase-18j.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.6.md) | [sase-18j.6](sase-18j.6.md) | 1 |
 
 ## Commits
 

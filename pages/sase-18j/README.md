@@ -33,7 +33,7 @@ On a red master, an agent's `sase tool run check` runs past stages whose failure
 | [sase-18j.4](sase-18j.4.md) | Opt-in stage continuation with exit-code parity | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18j.5](sase-18j.5.md) | Pin the core, gather triage inputs, and pass the precision backtest | ✓ closed | large | 2026-09-24 | 1 | 1 |
 | [sase-18j.6](sase-18j.6.md) | Triage every settled run and render it | ✓ closed | large | 2026-09-24 | 1 | 1 |
-| [sase-18j.7](sase-18j.7.md) | Continue past all-KNOWN stages by default for agents | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18j.7](sase-18j.7.md) | Continue past all-KNOWN stages by default for agents | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18j.8](sase-18j.8.md) | sase tool failures and triage in verify-monitor follow-ups | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 | [sase-18j.9](sase-18j.9.md) | Prove the landing criteria, remove the flag, and document | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
 
@@ -48,7 +48,7 @@ flowchart TD
     n4["sase-18j.4: Opt-in stage continuation with exit-code parity [closed]"]
     n5["sase-18j.5: Pin the core, gather triage inputs, and pass the precision backtest [closed]"]
     n6["sase-18j.6: Triage every settled run and render it [closed]"]
-    n7["sase-18j.7: Continue past all-KNOWN stages by default for agents [in_progress]"]
+    n7["sase-18j.7: Continue past all-KNOWN stages by default for agents [closed]"]
     n8["sase-18j.8: sase tool failures and triage in verify-monitor follow-ups [in_progress]"]
     n9["sase-18j.9: Prove the landing criteria, remove the flag, and document [in_progress]"]
     n0 --> n1
@@ -77,12 +77,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-18j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.1/README.md) | [sase-18j.1](sase-18j.1.md) | 1 |
-| [bbugyi200.athena.sase-18j.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.2.md) | [sase-18j.2](sase-18j.2.md) | 1 |
-| [bbugyi200.athena.sase-18j.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.3.md) | [sase-18j.3](sase-18j.3.md) | 1 |
+| [bbugyi200.athena.sase-18j.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.2.md) | [sase-18j.2](sase-18j.2.md) | 1 |
+| [bbugyi200.athena.sase-18j.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.3.md) | [sase-18j.3](sase-18j.3.md) | 1 |
 | [bbugyi200.athena.sase-18j.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.4/README.md) | [sase-18j.4](sase-18j.4.md) | 1 |
-| [bbugyi200.athena.sase-18j.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.5.md) | [sase-18j.5](sase-18j.5.md) | 1 |
-| [bbugyi200.athena.sase-18j.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18j.6.md) | [sase-18j.6](sase-18j.6.md) | 1 |
-| [bbugyi200.athena.sase-18j.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md) | [sase-18j.7](sase-18j.7.md) | 0 |
+| [bbugyi200.athena.sase-18j.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.5.md) | [sase-18j.5](sase-18j.5.md) | 1 |
+| [bbugyi200.athena.sase-18j.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.6.md) | [sase-18j.6](sase-18j.6.md) | 1 |
+| [bbugyi200.athena.sase-18j.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md) | [sase-18j.7](sase-18j.7.md) | 1 |
 | [bbugyi200.athena.sase-18j.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.8/README.md) | [sase-18j.8](sase-18j.8.md) | 0 |
 | [bbugyi200.athena.sase-18j.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.9/README.md) | [sase-18j.9](sase-18j.9.md) | 0 |
 | [bbugyi200.athena.sase-18j.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.land/README.md) | [sase-18j](README.md) | 0 |
@@ -97,6 +97,7 @@ flowchart TD
 | sase-core | [`sase-core@321e7b4`](https://github.com/sase-org/sase-core/commit/321e7b4762ff461f189ce18281c8306e0fb9c0eb) | feat(triage): pure classification, verdict, stage/settle, and failures aggregation | [sase-18j.3](sase-18j.3.md) | 2026-09-24 21:30:41 EDT |
 | sase | [`cdcbcdd`](https://github.com/sase-org/sase/commit/cdcbcdd9d3988359f1b4fc77d6d0454632a4e760) | feat(tool): add triage input backtest | [sase-18j.5](sase-18j.5.md) | 2026-09-24 22:45:15 EDT |
 | sase | [`71b25fb`](https://github.com/sase-org/sase/commit/71b25fbf4eb20f3e184f25104307e20cc5488515) | feat(tool): render settled failure triage | [sase-18j.6](sase-18j.6.md) | 2026-09-25 15:05:30 EDT |
+| sase | [`d17a753`](https://github.com/sase-org/sase/commit/d17a7534ad595b45e7076755e0ddd84c1d378460) | feat(tool): known-gated continuation for agent runs | [sase-18j.7](sase-18j.7.md) | 2026-09-25 16:27:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
