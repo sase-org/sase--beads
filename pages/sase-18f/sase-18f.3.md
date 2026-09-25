@@ -39,3 +39,15 @@ tests-core: fix the deterministic non-UI failures. These are the wait-check summ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`55936f4`](https://github.com/sase-org/sase/commit/55936f429e55d71d411a4c8cfffdb5e13fd64cab) | fix(sase-18f.3): resolve deterministic non-UI check failures | [sase-18f.3](sase-18f.3.md) | 2026-09-24 19:53:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18f.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -26,7 +26,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 | [sase-18f.5](sase-18f.5.md) | Ignore cache-only script directories in the pyscripts lint | ✓ closed | xsmall | 2026-09-24 | 1 | 1 |
 | [sase-18f.6](sase-18f.6.md) | Refuse closing a flag bead while its registry definition survives | ✓ closed | small | 2026-09-24 | 1 | 1 |
 | [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ✓ closed | small | 2026-09-24 | 1 | 2 |
-| [sase-18f.8](sase-18f.8.md) | Cache sase-xprompt-lsp builds and dedupe concurrent core builds | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18f.8](sase-18f.8.md) | Cache sase-xprompt-lsp builds and dedupe concurrent core builds | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.9](sase-18f.9.md) | Verify green check and full test suite on clean master | ◐ in_progress | small | 2026-09-24 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n5["sase-18f.5: Ignore cache-only script directories in the pyscripts lint [closed]"]
     n6["sase-18f.6: Refuse closing a flag bead while its registry definition survives [closed]"]
     n7["sase-18f.7: Make the split_file xprompt keep symvision and mypy green [closed]"]
-    n8["sase-18f.8: Cache sase-xprompt-lsp builds and dedupe concurrent core builds [in_progress]"]
+    n8["sase-18f.8: Cache sase-xprompt-lsp builds and dedupe concurrent core builds [closed]"]
     n9["sase-18f.9: Verify green check and full test suite on clean master [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 1 |
 | [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 2 |
-| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 0 |
+| [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 1 |
 | [bbugyi200.athena.sase-18f.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md) | [sase-18f.9](sase-18f.9.md) | 0 |
 | [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | sase | [`c77912a`](https://github.com/sase-org/sase/commit/c77912a38cf508deb9dc75e1fd3864b0d738fe6f) | fix(tests): normalize whitespace in xprompt inline-code wrap assertions | [sase-18f.7](sase-18f.7.md) | 2026-09-24 19:04:43 EDT |
 | sase | [`b18f3d3`](https://github.com/sase-org/sase/commit/b18f3d38f28a132de174cbf1e8ad3939e2b4372a) | refactor(ace): split oversized command and deck panels | [sase-18f.2](sase-18f.2.md) | 2026-09-24 19:45:37 EDT |
 | sase | [`55936f4`](https://github.com/sase-org/sase/commit/55936f429e55d71d411a4c8cfffdb5e13fd64cab) | fix(sase-18f.3): resolve deterministic non-UI check failures | [sase-18f.3](sase-18f.3.md) | 2026-09-24 19:53:44 EDT |
+| sase | [`adebe40`](https://github.com/sase-org/sase/commit/adebe400d76371385f420710df6608ec219e8aab) | feat(cache): cache xprompt lsp build artifacts | [sase-18f.8](sase-18f.8.md) | 2026-09-24 20:02:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
