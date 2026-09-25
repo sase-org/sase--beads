@@ -32,7 +32,7 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 - **Depends on:** [sase-17m.3](sase-17m.3.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17m.5](sase-17m.5.md) ◐ · ⧖ 2026-09-23
 - **Blocks:** [sase-17m.6](sase-17m.6.md) ◐ · ⧖ 2026-09-23
-- **Blocks:** [sase-17m.7](sase-17m.7.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17m.7](sase-17m.7.md) ✓ · ⧖ 2026-09-23
 
 ## Agents
 
