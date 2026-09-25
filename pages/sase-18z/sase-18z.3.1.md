@@ -19,7 +19,7 @@ responsive_preview: Pass the available card width to note rendering, keep the pr
 
 ## Dependencies
 
-- **Blocks:** [sase-18z.3.2](sase-18z.3.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-18z.3.2](sase-18z.3.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -32,3 +32,15 @@ responsive_preview: Pass the available card width to note rendering, keep the pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`204a499`](https://github.com/sase-org/sase/commit/204a4993e298717469eb318410e15bb2b878c2cd) | feat(ace-tui): wrap bead note previews to the visible Context-card width | [sase-18z.3.1](sase-18z.3.1.md) | 2026-09-25 11:45:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.3.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18z.3.1.md
+
+<!-- sase:referenced-by:end -->

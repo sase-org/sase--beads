@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-18z.2: Render note previews in the Context card [closed]"]
     n3["sase-18z.3: Keep bead note previews compact in split Context cards [in_progress]"]
     n4["sase-18z.3.1: Bound note previews to the visible Context-card width [closed]"]
-    n5["sase-18z.3.2: Verify narrow note previews in the running TUI [in_progress]"]
+    n5["sase-18z.3.2: Verify narrow note previews in the running TUI [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -48,7 +48,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18z.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.1/README.md) | [sase-18z.1](sase-18z.1.md) | 1 |
 | [bbugyi200.athena.sase-18z.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.2/README.md) | [sase-18z.2](sase-18z.2.md) | 1 |
 | [bbugyi200.athena.sase-18z.3.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18z.3.1.md) | [sase-18z.3.1](sase-18z.3.1.md) | 1 |
-| [bbugyi200.athena.sase-18z.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.2/README.md) | [sase-18z.3.2](sase-18z.3.2.md) | 0 |
+| [bbugyi200.athena.sase-18z.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.2/README.md) | [sase-18z.3.2](sase-18z.3.2.md) | 1 |
 | [bbugyi200.athena.sase-18z.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.3.land/README.md) | [sase-18z.3](sase-18z.3.md) | 0 |
 | [bbugyi200.athena.sase-18z.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18z.land.md) | [sase-18z](README.md) | 0 |
 
@@ -59,3 +59,4 @@ flowchart TD
 | sase-core | [`sase-core@c558f88`](https://github.com/sase-org/sase-core/commit/c558f88942a155349ee76d6689abd4f9734bcf5f) | feat(bead): add note\_index touch index with note preview (schema 2) | [sase-18z.1](sase-18z.1.md) | 2026-09-25 07:33:33 EDT |
 | sase | [`43f7246`](https://github.com/sase-org/sase/commit/43f724619f2ea828ac0eb6d123f01f80251a917d) | feat(ace): preview agent bead notes | [sase-18z.2](sase-18z.2.md) | 2026-09-25 09:32:52 EDT |
 | sase | [`204a499`](https://github.com/sase-org/sase/commit/204a4993e298717469eb318410e15bb2b878c2cd) | feat(ace-tui): wrap bead note previews to the visible Context-card width | [sase-18z.3.1](sase-18z.3.1.md) | 2026-09-25 11:45:04 EDT |
+| sase | [`7a5559c`](https://github.com/sase-org/sase/commit/7a5559cc737aa1d9b2cb90decf1bdb969855f64b) | fix(ace-tui): keep bead note previews readable in narrow Context cards | [sase-18z.3.2](sase-18z.3.2.md) | 2026-09-25 12:09:41 EDT |
