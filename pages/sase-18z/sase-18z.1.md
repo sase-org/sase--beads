@@ -19,7 +19,7 @@ note_index: extend the core touch-index wire and reduction with bounded, edit-aw
 
 ## Dependencies
 
-- **Blocks:** [sase-18z.2](sase-18z.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-18z.2](sase-18z.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -32,3 +32,15 @@ note_index: extend the core touch-index wire and reduction with bounded, edit-aw
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c558f88`](https://github.com/sase-org/sase-core/commit/c558f88942a155349ee76d6689abd4f9734bcf5f) | feat(bead): add note\_index touch index with note preview (schema 2) | [sase-18z.1](sase-18z.1.md) | 2026-09-25 07:33:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.1/README.md
+
+<!-- sase:referenced-by:end -->
