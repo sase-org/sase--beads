@@ -13,7 +13,7 @@ copy: rename widgets/prompt_panel/_agent_display_family{,_render} and every fami
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17m.5.1.5](sase-17m.5.1.5.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

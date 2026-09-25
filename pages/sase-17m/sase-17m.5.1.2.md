@@ -20,7 +20,7 @@ actions: rename actions/agents/_loading_family_previews.py and its mixin methods
 ## Dependencies
 
 - **Depends on:** [sase-17m.5.1.1](sase-17m.5.1.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ actions: rename actions/agents/_loading_family_previews.py and its mixin methods
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`61d3b27`](https://github.com/sase-org/sase/commit/61d3b2707c2a669a0f173a6288a03cea3ceb2278) | refactor(agent-session): rename ACE action session surfaces (sase-17m.5.1.2) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 2026-09-25 01:54:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->
