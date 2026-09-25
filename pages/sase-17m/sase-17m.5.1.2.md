@@ -13,7 +13,7 @@ actions: rename actions/agents/_loading_family_previews.py and its mixin methods
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.1](sase-17m.5.1.1.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.1](sase-17m.5.1.1.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

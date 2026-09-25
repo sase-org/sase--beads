@@ -43,8 +43,8 @@ The concept formerly called an agent family is named a sase agent session (agent
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
-| [sase-17m.6](sase-17m.6.md) | Documentation and memory | ◐ in_progress | medium | 2026-09-23 | 1 | 1 |
-| [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
+| [sase-17m.6](sase-17m.6.md) | Documentation and memory | ✓ closed | medium | 2026-09-23 | 1 | 1 |
+| [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ✓ closed | small | 2026-09-23 | 1 | 0 |
 | [sase-17m.8](sase-17m.8.md) | sase-core contract flip | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-17m.9](sase-17m.9.md) | Pin bump and agents sidecar session pages | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 
@@ -82,13 +82,13 @@ flowchart TD
     n27["sase-17m.4.1.8: Skill sources, leftover tests, and classification sweep [closed]"]
     n28["sase-17m.5: ACE agent session surfaces [in_progress]"]
     n29["sase-17m.5.1: ACE agent session surfaces (ace-cutover) [in_progress]"]
-    n30["sase-17m.5.1.1: ACE model modules and Agent identifiers [in_progress]"]
+    n30["sase-17m.5.1.1: ACE model modules and Agent identifiers [closed]"]
     n31["sase-17m.5.1.2: Agents actions, folding, navigation, and preview warmup [in_progress]"]
     n32["sase-17m.5.1.3: Artifacts-pane contract, row kinds, and completion kinds [in_progress]"]
     n33["sase-17m.5.1.4: Prompt-panel widgets, visible copy, keymaps, and config [in_progress]"]
     n34["sase-17m.5.1.5: Snapshot renames, perf check, and classification sweep [in_progress]"]
-    n35["sase-17m.6: Documentation and memory [in_progress]"]
-    n36["sase-17m.7: sase-telegram cutover [in_progress]"]
+    n35["sase-17m.6: Documentation and memory [closed]"]
+    n36["sase-17m.7: sase-telegram cutover [closed]"]
     n37["sase-17m.8: sase-core contract flip [in_progress]"]
     n38["sase-17m.9: Pin bump and agents sidecar session pages [in_progress]"]
     n0 --> n1
@@ -195,7 +195,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.md) | [sase-17m.5](sase-17m.5.md) | 0 |
-| [bbugyi200.athena.sase-17m.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.1/README.md) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.1/README.md) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.2/README.md) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.3/README.md) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.4/README.md) | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 0 |
@@ -236,6 +236,7 @@ flowchart TD
 | sase | [`a2ec65a`](https://github.com/sase-org/sase/commit/a2ec65a1f44f6c15dab488f4df7797d49c00cf2c) | refactor(agent-session): sweep skill sources, leftover tests, and stragglers (sase-17m.4.1.8) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 2026-09-24 23:31:26 EDT |
 | sase--plans | [`sase--plans@aae2e87`](https://github.com/sase-org/sase--plans/commit/aae2e8782782544cfcde1e39a094e7c4fb366aeb) | chore(plan): mark agent-session runtime cutover done | [sase-17m.4.1](sase-17m.4.1.md) | 2026-09-24 23:59:50 EDT |
 | sase | [`6960261`](https://github.com/sase-org/sase/commit/696026157ee3c66c857ddf3f72a069f5d29c3d72) | docs(agent-session): rename agent family to agent session across docs and memory (sase-17m.6) | [sase-17m.6](sase-17m.6.md) | 2026-09-25 00:46:51 EDT |
+| sase | [`09e0571`](https://github.com/sase-org/sase/commit/09e0571475add947cf30fc2db0eb48ef089c7dfc) | refactor(ace): rename agent-family model modules and identifiers to agent session (sase-17m.5.1.1) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 2026-09-25 01:23:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
