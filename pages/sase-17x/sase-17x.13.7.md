@@ -45,7 +45,9 @@ policy-io: run foreground commands with the TUI's interpreter and fix the missin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17x.13.8][2] | Check whether the base check failures (test waits, symvision) are already tracked as follow-ups | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md
 
 <!-- sase:referenced-by:end -->

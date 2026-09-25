@@ -20,7 +20,7 @@ entity-sources: feed proc and project slots from real app state with provider fa
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.5](sase-17x.13.5.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.9](sase-17x.13.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.9](sase-17x.13.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

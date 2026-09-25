@@ -27,7 +27,7 @@ chrome-layout: move the title, context chip, key hints and running count onto th
 
 - **Depends on:** [sase-17x.13.5](sase-17x.13.5.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-17x.13.7](sase-17x.13.7.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.9](sase-17x.13.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.9](sase-17x.13.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -40,3 +40,15 @@ chrome-layout: move the title, context chip, key hints and running count onto th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`403586e`](https://github.com/sase-org/sase/commit/403586e27127f4a0afd6479416957b13de1bc3dd) | feat(command-line): border chrome and floating popup (sase-17x.13.8) | [sase-17x.13.8](sase-17x.13.8.md) | 2026-09-25 02:31:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md
+
+<!-- sase:referenced-by:end -->

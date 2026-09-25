@@ -62,7 +62,7 @@ flowchart TD
     n11["sase-17x.13.6: Proc, project, marked, path and cd completion sources [closed]"]
     n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [closed]"]
     n13["sase-17x.13.8: Border chrome and floating popup [closed]"]
-    n14["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [in_progress]"]
+    n14["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [closed]"]
     n15["sase-17x.2: Command Line spec contract [closed]"]
     n16["sase-17x.3: Value-kind coverage and ratchet [closed]"]
     n17["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md) | [sase-17x.13.8](sase-17x.13.8.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.9/README.md) | [sase-17x.13.9](sase-17x.13.9.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.land/README.md) | [sase-17x.13](sase-17x.13.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
@@ -173,6 +173,7 @@ flowchart TD
 | sase | [`fad9b5d`](https://github.com/sase-org/sase/commit/fad9b5d03db1b2812dcd10576d1eeefe4aec3de4) | feat(command-line): add dynamic completion sources | [sase-17x.13.6](sase-17x.13.6.md) | 2026-09-25 00:48:31 EDT |
 | sase | [`5b305b1`](https://github.com/sase-org/sase/commit/5b305b1b95c4e6d21ddb8fbf8982dafb7f8c13f1) | feat(command-line): foreground interpreter, writes chips, and UI-thread I/O (sase-17x.13.7) | [sase-17x.13.7](sase-17x.13.7.md) | 2026-09-25 01:37:03 EDT |
 | sase | [`403586e`](https://github.com/sase-org/sase/commit/403586e27127f4a0afd6479416957b13de1bc3dd) | feat(command-line): border chrome and floating popup (sase-17x.13.8) | [sase-17x.13.8](sase-17x.13.8.md) | 2026-09-25 02:31:58 EDT |
+| sase | [`3c6e8f0`](https://github.com/sase-org/sase/commit/3c6e8f04dcdbd0806909d519ef3c661efbfde87a) | feat(command-line): add completion goldens and perf probe | [sase-17x.13.9](sase-17x.13.9.md) | 2026-09-25 04:02:20 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -185,19 +186,21 @@ flowchart TD
 | read-by | [agent:sase-17m.3.1.land][3] | Check whether the FORCE_COLOR stdout color contract (5a7955161) belongs to this epic before routing a fakey help-color test failure | 2 |
 | read-by | [agent:sase-17p.land][4] | Route sase-17p land gate failures: check existing DISCOVERED ISSUE notes on the Command Line epic | 2 |
 | read-by | [agent:sase-17x.1][5] | Need parent epic context for color-contract phase | 1 |
-| read-by | [agent:sase-17x.2][6] | Need parent epic status for phase work | 1 |
-| read-by | [agent:sase-17x.9][7] | need epic context for phase 9 | 1 |
-| read-by | [agent:sase-17y.land][8] | Check for existing symvision discovered-issue notes | 2 |
-| read-by | [agent:sase-18f.1][9] | Check which command-line phases are still open before deciding on symvision epic-symbol whitelisting | 2 |
+| read-by | [agent:sase-17x.13.8][6] | Need the UX specification 'Geometry and chrome' for the chrome-layout phase | 1 |
+| read-by | [agent:sase-17x.2][7] | Need parent epic status for phase work | 1 |
+| read-by | [agent:sase-17x.9][8] | need epic context for phase 9 | 1 |
+| read-by | [agent:sase-17y.land][9] | Check for existing symvision discovered-issue notes | 2 |
+| read-by | [agent:sase-18f.1][10] | Check which command-line phases are still open before deciding on symvision epic-symbol whitelisting | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0rd/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17y.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md
 
 <!-- sase:referenced-by:end -->
