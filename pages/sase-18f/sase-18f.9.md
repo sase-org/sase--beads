@@ -39,3 +39,17 @@ verify-green: on a clean checkout of latest master, prove that `sase tool run ch
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`561e4b6`](https://github.com/sase-org/sase/commit/561e4b6dd51549f0239dbe9a263d519974bb95b1) | fix(check): clear lint stragglers from concurrent landings | [sase-18f.9](sase-18f.9.md) | 2026-09-24 22:36:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.land][1] | Need green-check phase status and notes before routing mypy failure | 1 |
+| read-by | [agent:sase-18f.9][2] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md
+
+<!-- sase:referenced-by:end -->
