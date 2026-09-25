@@ -27,7 +27,7 @@ main-card-partition: every metadata builder wraps its output in Context/Reply/Ou
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
+| [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
 
 ## Commits
 

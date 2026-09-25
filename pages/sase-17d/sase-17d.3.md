@@ -35,7 +35,7 @@ deck-panel-core: create the agent_decks beta flag and the widgets/decks package:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
+| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
 
 ## Commits
 
@@ -51,6 +51,6 @@ deck-panel-core: create the agent_decks beta flag and the widgets/decks package:
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17d.10.1.3--1][1] | need j/k perf baselines from sase-17d.3 notes | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.3.md
 
 <!-- sase:referenced-by:end -->

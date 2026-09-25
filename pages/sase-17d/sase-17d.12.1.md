@@ -17,7 +17,7 @@ files-spread-probe: fix DeckPanelFilesMixin.on_worker_state_changed so the Files
 
 ## Dependencies
 
-- **Blocks:** [sase-17d.12.2](sase-17d.12.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17d.12.2](sase-17d.12.2.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17d.12.3](sase-17d.12.3.md) ◐ · ⧖ 2026-09-25
 
 ## Agents
@@ -31,3 +31,15 @@ files-spread-probe: fix DeckPanelFilesMixin.on_worker_state_changed so the Files
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`27d03a7`](https://github.com/sase-org/sase/commit/27d03a7b7224afca6a9083ea8061b9eecb34d4c9) | fix(ace-tui): apply the Files deck spread probe result (sase-17d.12.1) | [sase-17d.12.1](sase-17d.12.1.md) | 2026-09-25 09:21:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.12.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.1/README.md
+
+<!-- sase:referenced-by:end -->

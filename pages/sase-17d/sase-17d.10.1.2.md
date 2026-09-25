@@ -24,7 +24,7 @@ legacy-ui-deletion: delete the p picker, the view modal, the zoom modal and its 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.10.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.2.md) | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 1 |
+| [bbugyi200.athena.sase-17d.10.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.2.md) | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 1 |
 
 ## Commits
 
@@ -40,6 +40,6 @@ legacy-ui-deletion: delete the p picker, the view modal, the zoom modal and its 
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | check open before noting symvision renames | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
 
 <!-- sase:referenced-by:end -->

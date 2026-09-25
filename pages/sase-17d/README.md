@@ -108,7 +108,7 @@ flowchart TD
     n11["sase-17d.11: Docs, glossary strands and key-change notice [closed]"]
     n12["sase-17d.12: Finish landing agent data decks - Files spread, live spread checks and the j/k bench [in_progress]"]
     n13["sase-17d.12.1: Make the Files deck spread live and repair the broken deck visual tests [closed]"]
-    n14["sase-17d.12.2: Inspect live spread rendering and fix separator and title-pill defects [in_progress]"]
+    n14["sase-17d.12.2: Inspect live spread rendering and fix separator and title-pill defects [closed]"]
     n15["sase-17d.12.3: Record before/after j/k bench numbers for SINGLE and LEFT_RIGHT [in_progress]"]
     n16["sase-17d.2: Card-partitioned Main documents [closed]"]
     n17["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
@@ -167,26 +167,26 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.0ru](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0ru.md) | [sase-17d.10.1.4](sase-17d.10.1.4.md) | 1 |
 | [bbugyi200.athena.sase-17d.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.1/README.md) | [sase-17d.1](sase-17d.1.md) | 1 |
-| [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.md) | [sase-17d.10](sase-17d.10.md) | 0 |
-| [bbugyi200.athena.sase-17d.10.1.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.1.md) | [sase-17d.10.1.1](sase-17d.10.1.1.md) | 1 |
-| [bbugyi200.athena.sase-17d.10.1.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.2.md) | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 1 |
-| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 1 |
+| [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.md) | [sase-17d.10](sase-17d.10.md) | 0 |
+| [bbugyi200.athena.sase-17d.10.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.1.md) | [sase-17d.10.1.1](sase-17d.10.1.1.md) | 1 |
+| [bbugyi200.athena.sase-17d.10.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.2.md) | [sase-17d.10.1.2](sase-17d.10.1.2.md) | 1 |
+| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.3.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.10.1.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10.1.4.3/README.md) | [sase-17d.10.1.4.3](sase-17d.10.1.4.3.md) | 0 |
 | [bbugyi200.athena.sase-17d.10.1.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.10.1.4.land/README.md) | [sase-17d.10.1.4](sase-17d.10.1.4.md) | 0 |
-| [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.land.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
+| [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.land.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
 | [bbugyi200.athena.sase-17d.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.11/README.md) | [sase-17d.11](sase-17d.11.md) | 1 |
 | [bbugyi200.athena.sase-17d.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.1/README.md) | [sase-17d.12.1](sase-17d.12.1.md) | 1 |
-| [bbugyi200.athena.sase-17d.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.2/README.md) | [sase-17d.12.2](sase-17d.12.2.md) | 0 |
+| [bbugyi200.athena.sase-17d.12.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.12.2.md) | [sase-17d.12.2](sase-17d.12.2.md) | 1 |
 | [bbugyi200.athena.sase-17d.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.3/README.md) | [sase-17d.12.3](sase-17d.12.3.md) | 0 |
 | [bbugyi200.athena.sase-17d.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.land/README.md) | [sase-17d.12](sase-17d.12.md) | 0 |
-| [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
-| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
-| [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
-| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 1 |
+| [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
+| [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
+| [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
+| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 1 |
 | [bbugyi200.athena.sase-17d.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.7/README.md) | [sase-17d.7](sase-17d.7.md) | 1 |
-| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 1 |
+| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 1 |
 | [bbugyi200.athena.sase-17d.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.9/README.md) | [sase-17d.9](sase-17d.9.md) | 1 |
-| [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.land.md) | [sase-17d](README.md) | 0 |
+| [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.land.md) | [sase-17d](README.md) | 0 |
 
 ## Commits
 
@@ -206,6 +206,7 @@ flowchart TD
 | sase | [`a674dc9`](https://github.com/sase-org/sase/commit/a674dc91f186c653399a681f97d456876edbcb19) | test(ace): finish the deck cutover's visual migration and chrome fixes (sase-17d.10.1.4) | [sase-17d.10.1.4](sase-17d.10.1.4.md) | 2026-09-24 22:50:42 EDT |
 | sase | [`8fd6a05`](https://github.com/sase-org/sase/commit/8fd6a054fd899bc40ea2233248a63d09c5b6d4af) | docs(ace): rewrite Agents detail docs around decks and cards (sase-17d.11) | [sase-17d.11](sase-17d.11.md) | 2026-09-25 07:32:10 EDT |
 | sase | [`27d03a7`](https://github.com/sase-org/sase/commit/27d03a7b7224afca6a9083ea8061b9eecb34d4c9) | fix(ace-tui): apply the Files deck spread probe result (sase-17d.12.1) | [sase-17d.12.1](sase-17d.12.1.md) | 2026-09-25 09:21:27 EDT |
+| sase | [`59bf17d`](https://github.com/sase-org/sase/commit/59bf17d53fa39d9bd31b66cd3375c42b59b1290c) | fix(tui): scroll spread Ctrl+J onto the titled separator | [sase-17d.12.2](sase-17d.12.2.md) | 2026-09-25 18:53:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

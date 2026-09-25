@@ -14,7 +14,7 @@ deck-jk-bench: run the j/k key-to-paint bench with decks on in the SINGLE and LE
 ## Dependencies
 
 - **Depends on:** [sase-17d.12.1](sase-17d.12.1.md) ✓ · ⧖ 2026-09-25
-- **Depends on:** [sase-17d.12.2](sase-17d.12.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17d.12.2](sase-17d.12.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

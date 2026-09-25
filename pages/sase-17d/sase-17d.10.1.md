@@ -27,7 +27,7 @@ Deck panels become the only Agents-tab detail UI. The agent_decks beta flag and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.land.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
+| [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.land.md) | [sase-17d.10.1](sase-17d.10.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,7 +39,7 @@ Deck panels become the only Agents-tab detail UI. The agent_decks beta flag and 
 | read-by | [agent:sase-17p.land][2] | Route sase-17p land gate failures: check whether this epic is still active | 3 |
 | read-by | [agent:sase-18g.land][3] | Check whether the decks cutover owns Agents visual-lane failures | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.3.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md
 

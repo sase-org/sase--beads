@@ -32,7 +32,7 @@ deck-spread-mode: adds the ace.agent_decks.spread_max_screens config and a pure 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 1 |
+| [bbugyi200.athena.sase-17d.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.8.md) | [sase-17d.8](sase-17d.8.md) | 1 |
 
 ## Commits
 

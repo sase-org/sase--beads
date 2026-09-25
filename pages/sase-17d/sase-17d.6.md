@@ -24,7 +24,7 @@ deck-action-retarget: inventory every consumer of the legacy panel ids and visib
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 1 |
+| [bbugyi200.athena.sase-17d.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.6.md) | [sase-17d.6](sase-17d.6.md) | 1 |
 
 ## Commits
 

@@ -33,7 +33,7 @@ cutover-goldens: run the full just fix-tui-screenshots through /sase_monitor, in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 1 |
+| [bbugyi200.athena.sase-17d.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.3.md) | [sase-17d.10.1.3](sase-17d.10.1.3.md) | 1 |
 
 ## Commits
 
@@ -49,6 +49,6 @@ cutover-goldens: run the full just fix-tui-screenshots through /sase_monitor, in
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17d.10.1.3--1][1] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.3.md
 
 <!-- sase:referenced-by:end -->

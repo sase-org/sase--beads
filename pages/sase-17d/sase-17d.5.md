@@ -25,7 +25,7 @@ deck-splits-focus: \ and | toggle top-bottom and left-right splits through a pur
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
+| [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
 
 ## Commits
 
@@ -41,6 +41,6 @@ deck-splits-focus: \ and | toggle top-bottom and left-right splits through a pur
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17d.5--1][1] | verify phase completion state before closing deck-splits-focus work | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.5.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.5.md
 
 <!-- sase:referenced-by:end -->
