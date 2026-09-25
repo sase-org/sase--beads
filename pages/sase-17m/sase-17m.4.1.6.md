@@ -41,7 +41,9 @@ syntax-flag: create the legacy_agent_family_syntax sunset flag with sase flag ne
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.4.1.6][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.4.1.8][2] | Check PROPOSED FOLLOW-UP notes from earlier phases | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md
 
 <!-- sase:referenced-by:end -->

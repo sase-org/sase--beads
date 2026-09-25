@@ -41,7 +41,9 @@ agent-runtime: rename the family-concept identifiers, comments, and messages lef
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.4.1.3][1] | Confirm assigned phase closure and recorded verification after completion | 2 |
+| read-by | [agent:sase-17m.4.1.8][2] | Check PROPOSED FOLLOW-UP notes from earlier phases | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md
 
 <!-- sase:referenced-by:end -->

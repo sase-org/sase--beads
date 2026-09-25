@@ -13,7 +13,7 @@ docs-memory: rename docs/agent_families.md to docs/agent_sessions.md and rewrite
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4](sase-17m.4.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17m.4](sase-17m.4.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17m.8](sase-17m.8.md) ◐ · ⧖ 2026-09-23
 
 ## Agents

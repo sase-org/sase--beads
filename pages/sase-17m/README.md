@@ -31,6 +31,8 @@ The concept formerly called an agent family is named a sase agent session (agent
 
 [2026-09-25T02:17:43Z · sase-18i.land] DISCOVERED ISSUE: While verifying an unrelated plan-approval tale on 2026-09-24 at master 4858f20a2, the escalated just test-scoped lane failed 16 nodes that still expect the retired family= spelling or wording after the canonical session= cutover (65d3dfb1d, sase-17m.4.1.6). Each fails identically on a pristine tree (changes stashed), so none is caused by the tale. Nodes: tests/ace/tui/test_kill_and_edit_prompt_name.py::test_prepare_kill_and_edit_prompt_restarts_exact_family_member (4 params, expected '%id(!code, family=...' vs emitted 'session='), tests/ace/tui/test_kill_and_edit_agent_name.py::test_kill_and_edit_family_phase_forces_exact_member_attachment, tests/ace/tui/test_retry_edit_prompt_name.py::test_rewrite_retry_prompt_uses_concrete_name_for_family_member, tests/ace/tui/test_family_member_relaunch.py (3 nodes; the notice now says 'session=sase-pw.1 attaches the agent to itself' where the test asserts 'family='), tests/ace/tui/test_agent_bulk_kill_edit.py::test_bulk_kill_and_edit_rewrites_exact_marked_family_member, tests/test_force_reuse_launch_seam.py (2 nodes), tests/test_directives_bead.py::test_id_bead_survives_fanout_repeat_retry_and_forced_reuse and ::test_id_bead_reports_targeted_argument_errors, tests/test_parallel_agent_session_launch.py::test_prompt_local_clan_errors_surface_through_launch_preflight, tests/test_xprompt_load_issues.py::test_removed_agent_family_kind_raises_migration_error. Routed here rather than filed as a task because phase sase-17m.4 (runtime, syntax, and CLI cutover) is still in progress and owns updating these expectations.
 
+[2026-09-25T03:58:58Z · sase-17m.4.1.land] HANDOFF RESOLUTION: parent note #2 (16 clean-master family= expectation failures) was addressed by runtime-cutover child phase sase-17m.4.1.8 in commit a2ec65a1f, which updated stale ACE and non-ACE tests to canonical session= and session query expectations; its focused session/query tests pass in the child landing review. Child epic sase-17m.4.1 and parent phase sase-17m.4 are closed. Core-contract, ACE, Telegram, docs, and session-pages handoffs remain on phase sase-17m.4 notes #3-#6 for the still-open sibling phases.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,7 +41,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 | [sase-17m.10](sase-17m.10.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-17m.2](sase-17m.2.md) | sase-core additive rename | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.3](sase-17m.3.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
-| [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
+| [sase-17m.4](sase-17m.4.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.5](sase-17m.5.md) | ACE agent session surfaces | ◐ in_progress | large | 2026-09-23 | 1 | 0 |
 | [sase-17m.6](sase-17m.6.md) | Documentation and memory | ◐ in_progress | medium | 2026-09-23 | 1 | 0 |
 | [sase-17m.7](sase-17m.7.md) | sase-telegram cutover | ◐ in_progress | small | 2026-09-23 | 1 | 0 |
@@ -68,8 +70,8 @@ flowchart TD
     n15["sase-17m.3.1.5: Durable Python-owned JSON surfaces [closed]"]
     n16["sase-17m.3.1.6: Agent name registry session kinds and schema v3 [closed]"]
     n17["sase-17m.3.1.7: Classification sweep and phase verification [closed]"]
-    n18["sase-17m.4: Runtime, syntax, and CLI cutover [in_progress]"]
-    n19["sase-17m.4.1: Runtime, syntax, and CLI cutover to agent session (runtime-cutover) [in_progress]"]
+    n18["sase-17m.4: Runtime, syntax, and CLI cutover [closed]"]
+    n19["sase-17m.4.1: Runtime, syntax, and CLI cutover to agent session (runtime-cutover) [closed]"]
     n20["sase-17m.4.1.1: Agent-session attach and promotion modules [closed]"]
     n21["sase-17m.4.1.2: Name lookup, plan_chain, and plan preview [closed]"]
     n22["sase-17m.4.1.3: Remaining agent package runtime identifiers [closed]"]
@@ -175,7 +177,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.6/README.md) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.7/README.md) | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 1 |
-| [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5/README.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 0 |
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.7/README.md) | [sase-17m.7](sase-17m.7.md) | 0 |
@@ -210,6 +212,7 @@ flowchart TD
 | sase | [`65d3dfb`](https://github.com/sase-org/sase/commit/65d3dfb1d4a641876b54015e4d8aaf583a34f9a3) | refactor(agent-session): canonical session syntax and legacy flag (sase-17m.4.1.6) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 2026-09-24 20:49:37 EDT |
 | sase | [`3a1d0ba`](https://github.com/sase-org/sase/commit/3a1d0bab282a5d796d9b2d8f45ab4a65c96f4091) | feat(agent-session)!: canonical session query dialect with JSON kinds | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 2026-09-24 21:54:27 EDT |
 | sase | [`a2ec65a`](https://github.com/sase-org/sase/commit/a2ec65a1f44f6c15dab488f4df7797d49c00cf2c) | refactor(agent-session): sweep skill sources, leftover tests, and stragglers (sase-17m.4.1.8) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 2026-09-24 23:31:26 EDT |
+| sase--plans | [`sase--plans@aae2e87`](https://github.com/sase-org/sase--plans/commit/aae2e8782782544cfcde1e39a094e7c4fb366aeb) | chore(plan): mark agent-session runtime cutover done | [sase-17m.4.1](sase-17m.4.1.md) | 2026-09-24 23:59:50 EDT |
 
 <!-- sase:referenced-by:start -->
 

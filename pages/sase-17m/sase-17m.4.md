@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17m](README.md) / sase-17m.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.4` · **Size:** large
-**Created:** 2026-09-23 22:46:37 EDT
+**Created:** 2026-09-23 22:46:37 EDT · **Closed:** 2026-09-24 23:57:02 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
 ## Description
@@ -24,6 +24,8 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 [2026-09-25T03:26:41Z · sase-17m.4.1.8] HAND-OFF (from skills-sweep sase-17m.4.1.8) for telegram: sase-telegram must import find_agent_session (sase.agent.names; was find_agent_family) and use the renamed result types AgentSession (fields base_name, root, members) and AgentSessionMember (name, artifacts_dir, timestamp, outcome, parent_timestamp; was AgentFamily/AgentFamilyMember). Also renamed: plan_chain constants AGENT_SESSION_KEY/AGENT_SESSION_ROLE_KEY/AGENT_SESSION_PARALLEL_KEY/AGENT_SESSION_SHELL_KEY/AGENT_SESSION_SEPARATOR and agent_session_value/agent_session_role_value/agent_session_base/agent_session_suffix_token/agent_session_role_for_suffix; the deprecated AGENT_FAMILY_* aliases are deleted (no sase-side alias for find_agent_family exists either); Agent/agent_meta keys are agent_session, agent_session_role, agent_session_parallel, agent_session_shell; sase agent list -j keys are agent_session/agent_session_role. Direct plan approval receipts now write "agent_session" (legacy "family" still read).
 
 [2026-09-25T03:26:51Z · sase-17m.4.1.8] HAND-OFF (from skills-sweep sase-17m.4.1.8) for docs-memory: final canonical user syntax is %id(<suffix>, session=<parent>) (%i alias too), sase gate create -f/--next-fork {session,shell,none} with gate spec "fork": "session", agent queries session: and kind:session, SASE_AGENT_SESSION_ATTACH handoff env var, and %id keyword session=. Retired spellings (family=, family:/kind:family, --next-fork family, "fork": "family", SASE_AGENT_FAMILY_ATTACH) work only while the sunset flag legacy_agent_family_syntax is on (module src/sase/agent/legacy_agent_family_syntax.py); with it off they are rejected with an error naming the replacement. JSON output keys: agent list -j agent_session/agent_session_role; agent search -j agent_session with kind value session; agent index dismissed_agent_session_*; agent wait -j target kind session; editor bridge kind "session" with "session · N members" detail and agent_session* keys; sase plan approve cards say "agent session" and write receipt key agent_session. Skill sources (sase_run, sase_gate, sase_pipe, sase_questions, sase_monitor, sase_agents_status, with_feedback.yml) use agent-session vocabulary and session= syntax; they are NOT deployed to chezmoi yet (sase skill init --force after landing).
+
+[2026-09-25T03:58:24Z · sase-17m.4.1.land] LAND VERIFICATION: child epic sase-17m.4.1 closed after all eight phases and its runtime-cutover plan completed. Verified canonical agent-session syntax and flag-gated legacy aliases, names/runtime lanes, CLI/query/JSON/editor contracts, skill sources, and parent handoffs. Focused 118-test suite passed; child has no epic-symbol entries. Current check is blocked in unchanged smoke_sase_core_rs_tool_runs typing, routed to active green-check epic sase-18f. The child close automatically closed this phase as done with reason delegated work landed; containing sase-17m remains open for its land agent.
 
 ## Dependencies
 
@@ -45,7 +47,9 @@ runtime-cutover: rename every non-ACE module and identifier. Make session= / ses
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | verify 17m.4 open before adding epic-symbol entries | 1 |
+| read-by | [agent:sase-17m.4.1.8][2] | Read hand-offs and notes for skills-sweep phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md
 
 <!-- sase:referenced-by:end -->

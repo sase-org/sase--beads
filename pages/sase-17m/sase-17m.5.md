@@ -17,7 +17,7 @@ ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy 
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4](sase-17m.4.md) ◐ · ⧖ 2026-09-23
+- **Depends on:** [sase-17m.4](sase-17m.4.md) ✓ · ⧖ 2026-09-23
 - **Blocks:** [sase-17m.8](sase-17m.8.md) ◐ · ⧖ 2026-09-23
 
 ## Agents
