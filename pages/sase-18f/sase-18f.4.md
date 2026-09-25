@@ -29,7 +29,7 @@ tests-ace-ui: fix the ACE/TUI failures from the legacy-agents-UI removal and the
 
 - **Depends on:** [sase-18f.1](sase-18f.1.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.2](sase-18f.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.9](sase-18f.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -42,3 +42,15 @@ tests-ace-ui: fix the ACE/TUI failures from the legacy-agents-UI removal and the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bf3aa6c`](https://github.com/sase-org/sase/commit/bf3aa6c8a39da17fa12c29ef582194a117d9cb83) | fix(sase-18f.4): repair ACE TUI tests that fail on clean master | [sase-18f.4](sase-18f.4.md) | 2026-09-24 21:53:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18f.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md
+
+<!-- sase:referenced-by:end -->

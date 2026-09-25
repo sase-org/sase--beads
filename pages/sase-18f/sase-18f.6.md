@@ -17,7 +17,7 @@ flag-close-guard: mirror the leftover --epic-symbol refusal in `sase bead close`
 
 ## Dependencies
 
-- **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.9](sase-18f.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

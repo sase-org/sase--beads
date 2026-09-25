@@ -17,7 +17,7 @@ pyscripts-stale-dirs: make tools/pyscripts-260801 ignore scripts/ and tools/ dir
 
 ## Dependencies
 
-- **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.9](sase-18f.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

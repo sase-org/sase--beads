@@ -23,7 +23,7 @@ toobig-splits: split command_line/screen.py and widgets/decks/panel.py under the
 
 - **Depends on:** [sase-18f.1](sase-18f.1.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18f.4](sase-18f.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.9](sase-18f.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

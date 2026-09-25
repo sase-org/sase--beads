@@ -17,7 +17,7 @@ split-file-prompt: expand the built-in split_file xprompt that toobig routine ag
 
 ## Dependencies
 
-- **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.9](sase-18f.9.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
