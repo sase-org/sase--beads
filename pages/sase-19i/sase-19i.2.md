@@ -32,3 +32,15 @@ jump-ladder: add a non-notifying reveal variant, a query-clear helper that recor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0854519`](https://github.com/sase-org/sase/commit/085451924eaedf9c882d1a8e0f0ab4b64b74b5e9) | feat(ace): add node identity jump ladder | [sase-19i.2](sase-19i.2.md) | 2026-09-25 16:37:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.2.md
+
+<!-- sase:referenced-by:end -->

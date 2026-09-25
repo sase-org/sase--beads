@@ -19,7 +19,7 @@ finder-model: add the pure row model and the owner-aware snapshot builder, which
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.3](sase-19i.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19i.3](sase-19i.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19i.4](sase-19i.4.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

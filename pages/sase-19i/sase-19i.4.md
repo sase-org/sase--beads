@@ -14,7 +14,7 @@ finder-modal: build the large responsive ModalScreen. It has a tree list with a 
 ## Dependencies
 
 - **Depends on:** [sase-19i.1](sase-19i.1.md) ✓ · ⧖ 2026-09-25
-- **Depends on:** [sase-19i.3](sase-19i.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19i.3](sase-19i.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19i.5](sase-19i.5.md) ◐ · ⧖ 2026-09-25
 
 ## Agents
