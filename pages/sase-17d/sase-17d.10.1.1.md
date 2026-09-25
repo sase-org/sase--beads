@@ -40,3 +40,15 @@ PROPOSED FOLLOW-UP: none beyond sase-17c (the symvision backlog keeps just check
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bda8308`](https://github.com/sase-org/sase/commit/bda83083bfec4fa0cc0d8ddbebc7f764f56ac1c8) | test(ace): drop zoom-modal routing tests and migrate persistence/metadata tests after deck flag removal | [sase-17d.10.1.1](sase-17d.10.1.1.md) | 2026-09-24 13:23:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0rt][1] | See what the owner recorded about pre-existing prompt panel test failures | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0rt/README.md
+
+<!-- sase:referenced-by:end -->

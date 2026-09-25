@@ -18,7 +18,7 @@ legacy-ui-deletion: delete the p picker, the view modal, the zoom modal and its 
 ## Dependencies
 
 - **Depends on:** [sase-17d.10.1.1](sase-17d.10.1.1.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17d.10.1.3](sase-17d.10.1.3.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17d.10.1.3](sase-17d.10.1.3.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

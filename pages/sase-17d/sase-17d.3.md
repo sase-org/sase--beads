@@ -42,3 +42,15 @@ deck-panel-core: create the agent_decks beta flag and the widgets/decks package:
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`00ee519`](https://github.com/sase-org/sase/commit/00ee51996d109f2715701b4140f7b528520764de) | feat(agents-tui): deck panel core behind the agent\_decks beta flag | [sase-17d.3](sase-17d.3.md) | 2026-09-23 21:30:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.10.1.3--1][1] | need j/k perf baselines from sase-17d.3 notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.3.md
+
+<!-- sase:referenced-by:end -->

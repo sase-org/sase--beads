@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17d](README.md) / sase-17d.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qd](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qd.md) · **Assignee:** `sase-17d.10` · **Size:** large
-**Created:** 2026-09-23 19:16:56 EDT
+**Created:** 2026-09-23 19:16:56 EDT · **Closed:** 2026-09-25 07:01:44 EDT
 **Plan:** [202609/agents\_tab\_decks\_and\_cards.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_decks_and_cards.md)
 
 ## Description
@@ -13,7 +13,7 @@ deck-cutover: delete the flag's Off branch and the flag, the p picker, the zoom 
 
 ## Dependencies
 
-- **Blocks:** [sase-17d.11](sase-17d.11.md) ◐ · ⧖ 2026-09-23
+- **Blocks:** [sase-17d.11](sase-17d.11.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17d.8](sase-17d.8.md) ✓ · ⧖ 2026-09-23
 - **Depends on:** [sase-17d.9](sase-17d.9.md) ✓ · ⧖ 2026-09-23
 
@@ -22,3 +22,15 @@ deck-cutover: delete the flag's Off branch and the flag, the p picker, the zoom 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17d.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.md) | [sase-17d.10](sase-17d.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17p.land][1] | Route sase-17p land gate failures: check whether this epic is still active | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
+
+<!-- sase:referenced-by:end -->
