@@ -14,7 +14,7 @@ goldens-walkthrough: fix the doc-peek visual setup and tighten the never-awaits 
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.10.4](sase-17x.13.10.4.md) ◐ · ⧖ 2026-09-25
-- **Depends on:** [sase-17x.13.10.5](sase-17x.13.10.5.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17x.13.10.5](sase-17x.13.10.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
