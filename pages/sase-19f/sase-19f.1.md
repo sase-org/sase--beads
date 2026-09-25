@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-19f](README.md) / sase-19f.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1o](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.1o.md) · **Assignee:** `sase-19f.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1o](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.1o.md) · **Assignee:** `sase-19f.1` · **Size:** medium
 **Created:** 2026-09-25 12:24:35 EDT · **Closed:** 2026-09-25 13:02:27 EDT
 **Plan:** [202609/queue\_capacity\_multiplier.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_capacity_multiplier.md)
 

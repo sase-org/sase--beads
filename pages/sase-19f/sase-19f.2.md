@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-19f](README.md) / sase-19f.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1o](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.apollo.1o.md) · **Assignee:** `sase-19f.2` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1o](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.1o.md) · **Assignee:** `sase-19f.2` · **Size:** medium
 **Created:** 2026-09-25 12:24:37 EDT · **Closed:** 2026-09-25 13:34:01 EDT
 **Plan:** [202609/queue\_capacity\_multiplier.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_capacity_multiplier.md)
 
@@ -20,7 +20,7 @@ core-admission: in sase-core, resolve a persisted multiplier against the request
 ## Dependencies
 
 - **Depends on:** [sase-19f.1](sase-19f.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19f.3](sase-19f.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19f.3](sase-19f.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
