@@ -13,7 +13,7 @@ precision-gate: run the repaired backtest on athena, hand-audit at least 50 KNOW
 
 ## Dependencies
 
-- **Depends on:** [sase-191.1](sase-191.1.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-191.1](sase-191.1.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-191.2](sase-191.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents

@@ -30,3 +30,15 @@ continued-stage-output: make tools/run_silent print the failure marker and the c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`245dcb5`](https://github.com/sase-org/sase/commit/245dcb55362fca45a0ae4a03d982a059ab38854d) | fix(tools): show continued run\_silent stage failures as failures (sase-191.2) | [sase-191.2](sase-191.2.md) | 2026-09-25 08:31:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-191.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.2/README.md
+
+<!-- sase:referenced-by:end -->

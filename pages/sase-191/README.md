@@ -15,7 +15,7 @@ Phase sase-18j.5 closes on a DoD-5 precision backtest that was measured correctl
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-191.1](sase-191.1.md) | Fix the backtest's metrics, witness evidence, and workspace attribution | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-191.1](sase-191.1.md) | Fix the backtest's metrics, witness evidence, and workspace attribution | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-191.2](sase-191.2.md) | Show continued stage failures as failures | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-191.3](sase-191.3.md) | Run and hand-audit the DoD-5 backtest, then close sase-18j.5 | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 
@@ -24,7 +24,7 @@ Phase sase-18j.5 closes on a DoD-5 precision backtest that was measured correctl
 ```mermaid
 flowchart TD
     n0["sase-191: Unblock E3: repair the triage backtest, pass the precision gate, close sase-18j.5 [in_progress]"]
-    n1["sase-191.1: Fix the backtest's metrics, witness evidence, and workspace attribution [in_progress]"]
+    n1["sase-191.1: Fix the backtest's metrics, witness evidence, and workspace attribution [closed]"]
     n2["sase-191.2: Show continued stage failures as failures [closed]"]
     n3["sase-191.3: Run and hand-audit the DoD-5 backtest, then close sase-18j.5 [in_progress]"]
     n0 --> n1
@@ -38,7 +38,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-191.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.1/README.md) | [sase-191.1](sase-191.1.md) | 0 |
+| [bbugyi200.athena.sase-191.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.1/README.md) | [sase-191.1](sase-191.1.md) | 1 |
 | [bbugyi200.athena.sase-191.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.2/README.md) | [sase-191.2](sase-191.2.md) | 1 |
 | [bbugyi200.athena.sase-191.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.3/README.md) | [sase-191.3](sase-191.3.md) | 0 |
 | [bbugyi200.athena.sase-191.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md) | [sase-191](README.md) | 0 |
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`245dcb5`](https://github.com/sase-org/sase/commit/245dcb55362fca45a0ae4a03d982a059ab38854d) | fix(tools): show continued run\_silent stage failures as failures (sase-191.2) | [sase-191.2](sase-191.2.md) | 2026-09-25 08:31:23 EDT |
+| sase | [`7757bac`](https://github.com/sase-org/sase/commit/7757bacc9d82e14a78e1683f0fed407969e98c7c) | fix(triage): repair backtest audit evidence | [sase-191.1](sase-191.1.md) | 2026-09-25 09:18:49 EDT |
