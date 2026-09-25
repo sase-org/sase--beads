@@ -28,7 +28,7 @@ completion-fixes: make every candidate reachable through a scrolling popup windo
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.3](sase-17x.13.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17x.13.6](sase-17x.13.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17x.13.6](sase-17x.13.6.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.8](sase-17x.13.8.md) ◐ · ⧖ 2026-09-24
 
 ## Agents
@@ -42,3 +42,15 @@ completion-fixes: make every candidate reachable through a scrolling popup windo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`61f88cc`](https://github.com/sase-org/sase/commit/61f88ccd695509b23b5547d9c9901641746fb005) | fix(command-line): scroll popup window, scope provider footer, honor cache TTLs | [sase-17x.13.5](sase-17x.13.5.md) | 2026-09-25 00:14:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17x.13.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.5/README.md
+
+<!-- sase:referenced-by:end -->
