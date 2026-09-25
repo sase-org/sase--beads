@@ -55,22 +55,29 @@ flowchart TD
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [closed]"]
     n5["sase-17x.13: Finish the `:` Command Line: fix landing-audit bugs and spec gaps [in_progress]"]
     n6["sase-17x.13.1: Move the sase-core CI pin past CommandLineGrammar [closed]"]
-    n7["sase-17x.13.2: Fix call_from_thread misuse on the app loop [closed]"]
-    n8["sase-17x.13.3: Make every Keys-table key behave as specified [closed]"]
-    n9["sase-17x.13.4: Apply the ace.keymaps.command_line scope [closed]"]
-    n10["sase-17x.13.5: Popup, provider-footer and cache correctness [closed]"]
-    n11["sase-17x.13.6: Proc, project, marked, path and cd completion sources [closed]"]
-    n12["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [closed]"]
-    n13["sase-17x.13.8: Border chrome and floating popup [closed]"]
-    n14["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [closed]"]
-    n15["sase-17x.2: Command Line spec contract [closed]"]
-    n16["sase-17x.3: Value-kind coverage and ratchet [closed]"]
-    n17["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
-    n18["sase-17x.5: sase-core CommandLineGrammar resolver [closed]"]
-    n19["sase-17x.6: Command-line proc plumbing [closed]"]
-    n20["sase-17x.7: Command Line panel shell (beta flag) [closed]"]
-    n21["sase-17x.8: Transcript block interactions and lifecycle [closed]"]
-    n22["sase-17x.9: Grammar-aware completion popup and signature line [closed]"]
+    n7["sase-17x.13.10: Close the `:` Command Line landing gaps: hide/hop deadlocks, key and source bugs, stale goldens [in_progress]"]
+    n8["sase-17x.13.10.1: Bring screen_completion.py under the line-count limit [closed]"]
+    n9["sase-17x.13.10.2: Fix the hide and palette-hop deadlocks and the lost loop hops [closed]"]
+    n10["sase-17x.13.10.3: History walk, menu keys, and compact key hints [in_progress]"]
+    n11["sase-17x.13.10.4: Fresh caches, project and cd resolution, and the keystroke probe [in_progress]"]
+    n12["sase-17x.13.10.5: Tip marker write, restored-block append, and history counts [in_progress]"]
+    n13["sase-17x.13.10.6: Regenerate epic goldens and take the live walkthrough [in_progress]"]
+    n14["sase-17x.13.2: Fix call_from_thread misuse on the app loop [closed]"]
+    n15["sase-17x.13.3: Make every Keys-table key behave as specified [closed]"]
+    n16["sase-17x.13.4: Apply the ace.keymaps.command_line scope [closed]"]
+    n17["sase-17x.13.5: Popup, provider-footer and cache correctness [closed]"]
+    n18["sase-17x.13.6: Proc, project, marked, path and cd completion sources [closed]"]
+    n19["sase-17x.13.7: Foreground interpreter, writes chips, and UI-thread I/O [closed]"]
+    n20["sase-17x.13.8: Border chrome and floating popup [closed]"]
+    n21["sase-17x.13.9: Goldens, perf probe, and remaining test gaps [closed]"]
+    n22["sase-17x.2: Command Line spec contract [closed]"]
+    n23["sase-17x.3: Value-kind coverage and ratchet [closed]"]
+    n24["sase-17x.4: Command-line proc tag and retention bucket [closed]"]
+    n25["sase-17x.5: sase-core CommandLineGrammar resolver [closed]"]
+    n26["sase-17x.6: Command-line proc plumbing [closed]"]
+    n27["sase-17x.7: Command Line panel shell (beta flag) [closed]"]
+    n28["sase-17x.8: Transcript block interactions and lifecycle [closed]"]
+    n29["sase-17x.9: Grammar-aware completion popup and signature line [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -78,45 +85,58 @@ flowchart TD
     n0 --> n5
     n5 --> n6
     n5 --> n7
-    n5 --> n8
-    n5 --> n9
-    n5 --> n10
-    n5 --> n11
-    n5 --> n12
-    n5 --> n13
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n7 --> n12
+    n7 --> n13
     n5 --> n14
-    n0 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
+    n5 --> n15
+    n5 --> n16
+    n5 --> n17
+    n5 --> n18
+    n5 --> n19
+    n5 --> n20
+    n5 --> n21
     n0 --> n22
+    n0 --> n23
+    n0 --> n24
+    n0 --> n25
+    n0 --> n26
+    n0 --> n27
+    n0 --> n28
+    n0 --> n29
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
-    n7 -.-> n8
-    n8 -.-> n9
     n8 -.-> n10
+    n9 -.-> n10
     n9 -.-> n12
     n10 -.-> n11
-    n10 -.-> n13
-    n11 -.-> n14
+    n11 -.-> n13
     n12 -.-> n13
-    n13 -.-> n14
+    n14 -.-> n15
     n15 -.-> n16
-    n15 -.-> n18
-    n16 -.-> n4
+    n15 -.-> n17
+    n16 -.-> n19
     n17 -.-> n18
-    n17 -.-> n19
-    n18 -.-> n22
+    n17 -.-> n20
+    n18 -.-> n21
     n19 -.-> n20
     n20 -.-> n21
-    n20 -.-> n22
-    n21 -.-> n3
-    n22 -.-> n2
-    n22 -.-> n3
+    n22 -.-> n23
+    n22 -.-> n25
+    n23 -.-> n4
+    n24 -.-> n25
+    n24 -.-> n26
+    n25 -.-> n29
+    n26 -.-> n27
+    n27 -.-> n28
+    n27 -.-> n29
+    n28 -.-> n3
+    n29 -.-> n2
+    n29 -.-> n3
 ```
 
 ## Agents
@@ -128,6 +148,13 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 1 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.1/README.md) | [sase-17x.13.1](sase-17x.13.1.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.3/README.md) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.5/README.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.6/README.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 0 |
 | [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 1 |
@@ -136,7 +163,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md) | [sase-17x.13.8](sase-17x.13.8.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.land/README.md) | [sase-17x.13](sase-17x.13.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.land.md) | [sase-17x.13](sase-17x.13.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 2 |
@@ -174,6 +201,7 @@ flowchart TD
 | sase | [`5b305b1`](https://github.com/sase-org/sase/commit/5b305b1b95c4e6d21ddb8fbf8982dafb7f8c13f1) | feat(command-line): foreground interpreter, writes chips, and UI-thread I/O (sase-17x.13.7) | [sase-17x.13.7](sase-17x.13.7.md) | 2026-09-25 01:37:03 EDT |
 | sase | [`403586e`](https://github.com/sase-org/sase/commit/403586e27127f4a0afd6479416957b13de1bc3dd) | feat(command-line): border chrome and floating popup (sase-17x.13.8) | [sase-17x.13.8](sase-17x.13.8.md) | 2026-09-25 02:31:58 EDT |
 | sase | [`3c6e8f0`](https://github.com/sase-org/sase/commit/3c6e8f04dcdbd0806909d519ef3c661efbfde87a) | feat(command-line): add completion goldens and perf probe | [sase-17x.13.9](sase-17x.13.9.md) | 2026-09-25 04:02:20 EDT |
+| sase | [`6d9d1b5`](https://github.com/sase-org/sase/commit/6d9d1b5a0023d8632cdccfd82beab0fd0f729e98) | fix(command-line): avoid panel dismissal deadlocks | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 2026-09-25 10:07:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
