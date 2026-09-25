@@ -36,3 +36,15 @@ context_card: carry indexed notes through the Python touch loader and render com
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`43f7246`](https://github.com/sase-org/sase/commit/43f724619f2ea828ac0eb6d123f01f80251a917d) | feat(ace): preview agent bead notes | [sase-18z.2](sase-18z.2.md) | 2026-09-25 09:32:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18z.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18z.2/README.md
+
+<!-- sase:referenced-by:end -->
