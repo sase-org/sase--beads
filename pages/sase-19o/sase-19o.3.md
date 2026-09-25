@@ -13,5 +13,5 @@ bead-work-launch-name-preflight: add a plan-only registry reservation API that r
 
 ## Dependencies
 
-- **Depends on:** [sase-19o.1](sase-19o.1.md) ◐ · ⧖ 2026-09-25
-- **Depends on:** [sase-19o.2](sase-19o.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19o.1](sase-19o.1.md) ✓ · ⧖ 2026-09-25
+- **Depends on:** [sase-19o.2](sase-19o.2.md) ✓ · ⧖ 2026-09-25
