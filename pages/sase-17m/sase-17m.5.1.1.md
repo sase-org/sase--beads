@@ -23,7 +23,7 @@ models: rename the family-named modules in src/sase/ace/tui/models/ (_agent_impo
 
 ## Dependencies
 
-- **Blocks:** [sase-17m.5.1.2](sase-17m.5.1.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.2](sase-17m.5.1.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

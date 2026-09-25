@@ -45,8 +45,10 @@ skills-sweep: update the sase_run, sase_gate, sase_pipe, sase_questions, sase_mo
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.4.1.8][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-17m.4.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-18f.land][3] | Check whether leftover-tests phase already covers the 34 dialect test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

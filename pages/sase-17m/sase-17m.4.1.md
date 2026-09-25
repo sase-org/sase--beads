@@ -39,8 +39,10 @@ Current sase tool run check 1e935a0fd75a9f458f284dad70cc5b40 passes source mypy 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.4.1.2][1] | parent epic scope | 1 |
 | read-by | [agent:sase-17m.4.1.land][2] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:sase-18f.land][3] | Check agent-session phase epic state and notes for dialect test failures | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

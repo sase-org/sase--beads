@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-183][1] | 7e1b05964 (sase-17m.3.1 wire cutover) renamed the family index fields that 9bd351b67 still references |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-183/README.md
 
@@ -32,6 +32,8 @@ The concept formerly called an agent family is named a sase agent session (agent
 [2026-09-25T02:17:43Z · sase-18i.land] DISCOVERED ISSUE: While verifying an unrelated plan-approval tale on 2026-09-24 at master 4858f20a2, the escalated just test-scoped lane failed 16 nodes that still expect the retired family= spelling or wording after the canonical session= cutover (65d3dfb1d, sase-17m.4.1.6). Each fails identically on a pristine tree (changes stashed), so none is caused by the tale. Nodes: tests/ace/tui/test_kill_and_edit_prompt_name.py::test_prepare_kill_and_edit_prompt_restarts_exact_family_member (4 params, expected '%id(!code, family=...' vs emitted 'session='), tests/ace/tui/test_kill_and_edit_agent_name.py::test_kill_and_edit_family_phase_forces_exact_member_attachment, tests/ace/tui/test_retry_edit_prompt_name.py::test_rewrite_retry_prompt_uses_concrete_name_for_family_member, tests/ace/tui/test_family_member_relaunch.py (3 nodes; the notice now says 'session=sase-pw.1 attaches the agent to itself' where the test asserts 'family='), tests/ace/tui/test_agent_bulk_kill_edit.py::test_bulk_kill_and_edit_rewrites_exact_marked_family_member, tests/test_force_reuse_launch_seam.py (2 nodes), tests/test_directives_bead.py::test_id_bead_survives_fanout_repeat_retry_and_forced_reuse and ::test_id_bead_reports_targeted_argument_errors, tests/test_parallel_agent_session_launch.py::test_prompt_local_clan_errors_surface_through_launch_preflight, tests/test_xprompt_load_issues.py::test_removed_agent_family_kind_raises_migration_error. Routed here rather than filed as a task because phase sase-17m.4 (runtime, syntax, and CLI cutover) is still in progress and owns updating these expectations.
 
 [2026-09-25T03:58:58Z · sase-17m.4.1.land] HANDOFF RESOLUTION: parent note #2 (16 clean-master family= expectation failures) was addressed by runtime-cutover child phase sase-17m.4.1.8 in commit a2ec65a1f, which updated stale ACE and non-ACE tests to canonical session= and session query expectations; its focused session/query tests pass in the child landing review. Child epic sase-17m.4.1 and parent phase sase-17m.4 are closed. Core-contract, ACE, Telegram, docs, and session-pages handoffs remain on phase sase-17m.4 notes #3-#6 for the still-open sibling phases.
+
+[2026-09-25T05:32:44Z · sase-18d.7.land] DISCOVERED ISSUE (sase-18d.7 land, 2026-09-25, master 02c4b029a): pyproject still admits sase-core-rs>=0.34.71, and 'uv run' in a workspace re-syncs the venv to 0.34.71. That binding rejects the agent_session capacity fields HEAD Python sends (ValueError: invalid runner capacity request: unknown field 'agent_session' from src/sase/core/runner_slots/_admission_snapshot.py:34), so every mounted Agents-tab load fails and all 7 sase-18d.7 pilot e2e tests time out after 60s. After 'just rust-install' (cached 0.34.73 wheel) and running .venv/bin/python directly, all 62 pass. The floor or pin bump in sase-17m.9 needs to reach >=0.34.73. Also reported as PROPOSED FOLLOW-UP #1 on sase-18d.7.2.
 
 ## Phases
 
@@ -83,7 +85,7 @@ flowchart TD
     n28["sase-17m.5: ACE agent session surfaces [in_progress]"]
     n29["sase-17m.5.1: ACE agent session surfaces (ace-cutover) [in_progress]"]
     n30["sase-17m.5.1.1: ACE model modules and Agent identifiers [closed]"]
-    n31["sase-17m.5.1.2: Agents actions, folding, navigation, and preview warmup [in_progress]"]
+    n31["sase-17m.5.1.2: Agents actions, folding, navigation, and preview warmup [closed]"]
     n32["sase-17m.5.1.3: Artifacts-pane contract, row kinds, and completion kinds [in_progress]"]
     n33["sase-17m.5.1.4: Prompt-panel widgets, visible copy, keymaps, and config [in_progress]"]
     n34["sase-17m.5.1.5: Snapshot renames, perf check, and classification sweep [in_progress]"]
@@ -196,7 +198,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 1 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.1/README.md) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 1 |
-| [bbugyi200.athena.sase-17m.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.2/README.md) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-17m.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.2/README.md) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-17m.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.3/README.md) | [sase-17m.5.1.3](sase-17m.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.4/README.md) | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-17m.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5.1.5/README.md) | [sase-17m.5.1.5](sase-17m.5.1.5.md) | 0 |
@@ -237,6 +239,7 @@ flowchart TD
 | sase--plans | [`sase--plans@aae2e87`](https://github.com/sase-org/sase--plans/commit/aae2e8782782544cfcde1e39a094e7c4fb366aeb) | chore(plan): mark agent-session runtime cutover done | [sase-17m.4.1](sase-17m.4.1.md) | 2026-09-24 23:59:50 EDT |
 | sase | [`6960261`](https://github.com/sase-org/sase/commit/696026157ee3c66c857ddf3f72a069f5d29c3d72) | docs(agent-session): rename agent family to agent session across docs and memory (sase-17m.6) | [sase-17m.6](sase-17m.6.md) | 2026-09-25 00:46:51 EDT |
 | sase | [`09e0571`](https://github.com/sase-org/sase/commit/09e0571475add947cf30fc2db0eb48ef089c7dfc) | refactor(ace): rename agent-family model modules and identifiers to agent session (sase-17m.5.1.1) | [sase-17m.5.1.1](sase-17m.5.1.1.md) | 2026-09-25 01:23:00 EDT |
+| sase | [`61d3b27`](https://github.com/sase-org/sase/commit/61d3b2707c2a669a0f173a6288a03cea3ceb2278) | refactor(agent-session): rename ACE action session surfaces (sase-17m.5.1.2) | [sase-17m.5.1.2](sase-17m.5.1.2.md) | 2026-09-25 01:54:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -252,6 +255,8 @@ flowchart TD
 | read-by | [agent:research.2i.cdx][6] | Assess E1 outcomes and residual scope before refining E3 and E4 | 1 |
 | read-by | [agent:sase-17m.2.1.land][7] | Need parent epic to see wire-cutover/core-contract phases | 1 |
 | read-by | [agent:sase-17m.4.1.land][8] | Confirm containing epic remains open for its land agent | 1 |
+| read-by | [agent:sase-18d.7.land][9] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
+| read-by | [agent:sase-18f.land][10] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
@@ -261,5 +266,7 @@ flowchart TD
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

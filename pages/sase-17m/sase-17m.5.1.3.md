@@ -13,7 +13,7 @@ contract-completion: rename the Agents-pane relation family/agent_family_contain
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.5.1.2](sase-17m.5.1.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-17m.5.1.2](sase-17m.5.1.2.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-17m.5.1.4](sase-17m.5.1.4.md) ◐ · ⧖ 2026-09-25
 
 ## Agents
