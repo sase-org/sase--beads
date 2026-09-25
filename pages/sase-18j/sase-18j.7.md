@@ -13,7 +13,7 @@ known-gated-continuation: add the hidden _triage-stage verb and the bounded fail
 
 ## Dependencies
 
-- **Depends on:** [sase-18j.6](sase-18j.6.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18j.6](sase-18j.6.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18j.9](sase-18j.9.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

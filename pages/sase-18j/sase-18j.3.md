@@ -18,7 +18,7 @@ core-classification: implement the witness-based NEW/KNOWN/FLAKY/UNKNOWN rule as
 ## Dependencies
 
 - **Depends on:** [sase-18j.2](sase-18j.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.5](sase-18j.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.5](sase-18j.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

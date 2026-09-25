@@ -20,7 +20,7 @@ keep-going: add the run_silent continuation protocol (SASE_TOOL_CONTINUE handsha
 ## Dependencies
 
 - **Depends on:** [sase-18j.1](sase-18j.1.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.6](sase-18j.6.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.6](sase-18j.6.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

@@ -22,7 +22,7 @@ ledger-hygiene: fix sase-182 (a run's project and fingerprint identity come from
 ## Dependencies
 
 - **Blocks:** [sase-18j.4](sase-18j.4.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18j.5](sase-18j.5.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18j.5](sase-18j.5.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
