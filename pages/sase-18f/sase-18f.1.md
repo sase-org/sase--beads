@@ -25,7 +25,7 @@ lint-green: re-derive master's lint failures stage by stage, including symvision
 
 - **Blocks:** [sase-18f.2](sase-18f.2.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18f.3](sase-18f.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18f.4](sase-18f.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18f.4](sase-18f.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18f.9](sase-18f.9.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

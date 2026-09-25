@@ -16,7 +16,7 @@ verify-green: on a clean checkout of latest master, prove that `sase tool run ch
 - **Depends on:** [sase-18f.1](sase-18f.1.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.2](sase-18f.2.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.3](sase-18f.3.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-18f.4](sase-18f.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18f.4](sase-18f.4.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.5](sase-18f.5.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.6](sase-18f.6.md) ✓ · ⧖ 2026-09-24
 - **Depends on:** [sase-18f.7](sase-18f.7.md) ✓ · ⧖ 2026-09-24

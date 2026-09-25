@@ -30,3 +30,15 @@ lsp-build-cache: add a host-wide content-addressed cache for the sase-xprompt-ls
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`adebe40`](https://github.com/sase-org/sase/commit/adebe400d76371385f420710df6608ec219e8aab) | feat(cache): cache xprompt lsp build artifacts | [sase-18f.8](sase-18f.8.md) | 2026-09-24 20:02:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18i.2][1] | Need determine whether the unchanged sase_core_wheel_cache mypy failure is already tracked before noting assigned phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18i.2/README.md
+
+<!-- sase:referenced-by:end -->

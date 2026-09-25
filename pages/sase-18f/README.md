@@ -7,6 +7,18 @@
 **Created:** 2026-09-24 17:18:50 EDT
 **Plan:** [202609/green\_just\_check.md](https://github.com/sase-org/sase--plans/blob/main/202609/green_just_check.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:f3e4b63c06d70e0a48574b14 | Wheel-cache source snapshot for the reproduced extensionless mypy failure |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
+
 ## Description
 
 A clean checkout of latest master passes `sase tool run check` and the full non-visual `just test` suite. The recurring causes found in the ToolRun ledger are removed: premature flag-bead closes, split-file agents that break symvision, stale `__pycache__`-only directories that fail pyscripts, and the uncached per-launch Rust LSP rebuild that pushes checks past agent command timeouts.
@@ -15,6 +27,8 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 
 [2026-09-24T21:40:34Z · sase-185.land] DISCOVERED ISSUE (from sase-185.1 PROPOSED FOLLOW-UP #1, re-verified by the sase-185 land agent at master c03c717da, clean tree): mypy 15 errors (10 attr-defined in ace/tui/widgets/_agent_detail_display.py/_agent_detail_state.py; 5 in ace/tui/command_line/input.py:159 and screen.py:1343-1362). test-waits: tests/ace/tui/command_line/test_completion_popup.py:181 fixed-sleep-missing-pragma. toobig: command_line/screen.py 1979 lines, widgets/decks/panel.py 1067 lines. symvision: once sase-185's own dead _dispatch_preview_source_summary is deleted (done in the sase-185 landing), it reports unused public command-line grammar/extras/signature/popup/restore/sources symbols, vim_search_controller helpers (invert_search_direction, offset_for_row, wrap_feedback_message), FileSourceLabel (file_panel/_file_list.py) and status_text (main/monitor_render.py, main/proc_render.py). Full just test lane: 41 deterministic clean-tree failures incl. tests/ace/tui/test_kill_and_edit_prompt_name.py x8 (TypeError: prepare_kill_and_edit_prompt() got an unexpected keyword argument 'family_name' - test not updated by 44ec3e62d sase-17m.4.1.3 rename; no task bead yet), test_config_schema, keymap help/defaults, LLM-calls panel, model completion panel titles, fakey test_cli help, test_launch_approval competing_family_successor, agent_jump_panel_visibility, test_prompt_file_completion ctrl_e, marker_mutation_audit, test_file_panel zoom cap, visual_fixture_host_paths, plus already-tracked sase-174/175/184/186/188/13p. ToolRun e9508bd2c3882f6b873a990f33deffcb.
 
+[2026-09-25T01:20:35Z · sase-18i.land] DISCOVERED ISSUE (from sase-18i.2 PROPOSED FOLLOW-UP #1): On clean master 4858f20a2, sase tool run check 35b774a2ffcc7928d60f2561619d369f passes project mypy (4966 source files) then fails extensionless-tools mypy at unchanged tools/sase_core_wheel_cache:433 (_identity_lock annotated -> object, contextmanager requires Iterator) and :604 (acquired_lock needs type annotation). This reproduces the phase report on the current tree and is causally within sase-18f.9 final green-check scope; repair before claiming that phase passes. No separate task bead was created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -22,7 +36,7 @@ A clean checkout of latest master passes `sase tool run check` and the full non-
 | [sase-18f.1](sase-18f.1.md) | Restore every lint gate except toobig on master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.2](sase-18f.2.md) | Split the two oversized ACE modules | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.3](sase-18f.3.md) | Repair non-UI tests that fail on clean master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
-| [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ◐ in_progress | medium | 2026-09-24 | 1 | 0 |
+| [sase-18f.4](sase-18f.4.md) | Repair ACE TUI tests that fail on clean master | ✓ closed | medium | 2026-09-24 | 1 | 1 |
 | [sase-18f.5](sase-18f.5.md) | Ignore cache-only script directories in the pyscripts lint | ✓ closed | xsmall | 2026-09-24 | 1 | 1 |
 | [sase-18f.6](sase-18f.6.md) | Refuse closing a flag bead while its registry definition survives | ✓ closed | small | 2026-09-24 | 1 | 1 |
 | [sase-18f.7](sase-18f.7.md) | Make the split\_file xprompt keep symvision and mypy green | ✓ closed | small | 2026-09-24 | 1 | 2 |
@@ -37,7 +51,7 @@ flowchart TD
     n1["sase-18f.1: Restore every lint gate except toobig on master [closed]"]
     n2["sase-18f.2: Split the two oversized ACE modules [closed]"]
     n3["sase-18f.3: Repair non-UI tests that fail on clean master [closed]"]
-    n4["sase-18f.4: Repair ACE TUI tests that fail on clean master [in_progress]"]
+    n4["sase-18f.4: Repair ACE TUI tests that fail on clean master [closed]"]
     n5["sase-18f.5: Ignore cache-only script directories in the pyscripts lint [closed]"]
     n6["sase-18f.6: Refuse closing a flag bead while its registry definition survives [closed]"]
     n7["sase-18f.7: Make the split_file xprompt keep symvision and mypy green [closed]"]
@@ -73,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18f.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md) | [sase-18f.1](sase-18f.1.md) | 1 |
 | [bbugyi200.athena.sase-18f.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.2/README.md) | [sase-18f.2](sase-18f.2.md) | 1 |
 | [bbugyi200.athena.sase-18f.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.3/README.md) | [sase-18f.3](sase-18f.3.md) | 1 |
-| [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 0 |
+| [bbugyi200.athena.sase-18f.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md) | [sase-18f.4](sase-18f.4.md) | 1 |
 | [bbugyi200.athena.sase-18f.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md) | [sase-18f.5](sase-18f.5.md) | 1 |
 | [bbugyi200.athena.sase-18f.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.6/README.md) | [sase-18f.6](sase-18f.6.md) | 1 |
 | [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 2 |
@@ -93,6 +107,7 @@ flowchart TD
 | sase | [`b18f3d3`](https://github.com/sase-org/sase/commit/b18f3d38f28a132de174cbf1e8ad3939e2b4372a) | refactor(ace): split oversized command and deck panels | [sase-18f.2](sase-18f.2.md) | 2026-09-24 19:45:37 EDT |
 | sase | [`55936f4`](https://github.com/sase-org/sase/commit/55936f429e55d71d411a4c8cfffdb5e13fd64cab) | fix(sase-18f.3): resolve deterministic non-UI check failures | [sase-18f.3](sase-18f.3.md) | 2026-09-24 19:53:44 EDT |
 | sase | [`adebe40`](https://github.com/sase-org/sase/commit/adebe400d76371385f420710df6608ec219e8aab) | feat(cache): cache xprompt lsp build artifacts | [sase-18f.8](sase-18f.8.md) | 2026-09-24 20:02:37 EDT |
+| sase | [`bf3aa6c`](https://github.com/sase-org/sase/commit/bf3aa6c8a39da17fa12c29ef582194a117d9cb83) | fix(sase-18f.4): repair ACE TUI tests that fail on clean master | [sase-18f.4](sase-18f.4.md) | 2026-09-24 21:53:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
