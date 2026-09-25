@@ -38,7 +38,9 @@ pyscripts-stale-dirs: make tools/pyscripts-260801 ignore scripts/ and tools/ dir
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18f.5][1] | Verify bead was closed | 2 |
+| read-by | [agent:sase-18f.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -39,7 +39,9 @@ split-file-prompt: expand the built-in split_file xprompt that toobig routine ag
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18f.7][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-18f.land][2] | Audit phase completion notes against plan requirements | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -48,8 +48,10 @@ verify-green: on a clean checkout of latest master, prove that `sase tool run ch
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.4.1.land][1] | Need green-check phase status and notes before routing mypy failure | 1 |
 | read-by | [agent:sase-18f.9][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-18f.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

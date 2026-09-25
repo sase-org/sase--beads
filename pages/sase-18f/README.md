@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:f3e4b63c06d70e0a48574b14 | Wheel-cache source snapshot for the reproduced extensionless mypy failure |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-18f.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.7/README.md) | [sase-18f.7](sase-18f.7.md) | 2 |
 | [bbugyi200.athena.sase-18f.8](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-18f.8.md) | [sase-18f.8](sase-18f.8.md) | 1 |
 | [bbugyi200.athena.sase-18f.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.9/README.md) | [sase-18f.9](sase-18f.9.md) | 1 |
-| [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 1 |
+| [bbugyi200.athena.sase-18f.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md) | [sase-18f](README.md) | 2 |
 
 ## Commits
 
@@ -124,6 +124,7 @@ flowchart TD
 | sase | [`bf3aa6c`](https://github.com/sase-org/sase/commit/bf3aa6c8a39da17fa12c29ef582194a117d9cb83) | fix(sase-18f.4): repair ACE TUI tests that fail on clean master | [sase-18f.4](sase-18f.4.md) | 2026-09-24 21:53:35 EDT |
 | sase | [`561e4b6`](https://github.com/sase-org/sase/commit/561e4b6dd51549f0239dbe9a263d519974bb95b1) | fix(check): clear lint stragglers from concurrent landings | [sase-18f.9](sase-18f.9.md) | 2026-09-24 22:36:15 EDT |
 | sase | [`c7a7890`](https://github.com/sase-org/sase/commit/c7a78904bbbb161391ecef6ba4f2eec85f604e95) | fix(check): land sase-18f green check and finish the flag-close guard | [sase-18f](README.md) | 2026-09-25 01:26:09 EDT |
+| sase--plans | [`sase--plans@3313d60`](https://github.com/sase-org/sase--plans/commit/3313d60b0fd8a8e69f8f62504ce4ca4475dc7549) | docs(plans): add sase-18f green just check landing plan | [sase-18f](README.md) | 2026-09-25 01:30:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -134,9 +135,11 @@ flowchart TD
 | read-by | [agent:sase-17m.4.1.land][1] | Need active green-check epic scope before routing smoke mypy follow-up | 1 |
 | read-by | [agent:sase-185.land][2] | Check whether the sase-185.1 master-red follow-up belongs to this epic | 1 |
 | read-by | [agent:sase-18f.4][3] | Need epic notes listing the failing ACE UI tests | 1 |
+| read-by | [agent:sase-18f.land][4] | Re-check epic notes for entries added during landing | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-185.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

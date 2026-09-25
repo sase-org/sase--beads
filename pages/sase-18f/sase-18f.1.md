@@ -47,7 +47,9 @@ lint-green: re-derive master's lint failures stage by stage, including symvision
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18f.1][1] | Verify notes recorded before closing | 2 |
+| read-by | [agent:sase-18f.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->
