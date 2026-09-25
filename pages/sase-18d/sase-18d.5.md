@@ -14,7 +14,7 @@ additive-dismissals: switch the cleanup transactions and every other dismissed-a
 ## Dependencies
 
 - **Depends on:** [sase-18d.1](sase-18d.1.md) ✓ · ⧖ 2026-09-24
-- **Depends on:** [sase-18d.4](sase-18d.4.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-18d.4](sase-18d.4.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-18d.6](sase-18d.6.md) ◐ · ⧖ 2026-09-24
 
 ## Agents

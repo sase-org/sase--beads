@@ -20,7 +20,7 @@ row-tombstones: record a session tombstone for every x-driven removal. Honor it 
 ## Dependencies
 
 - **Blocks:** [sase-18d.3](sase-18d.3.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18d.4](sase-18d.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.4](sase-18d.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

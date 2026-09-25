@@ -24,7 +24,7 @@ tree-kill: add a shared terminator that finds an agent's whole process set (proc
 ## Dependencies
 
 - **Depends on:** [sase-18d.2](sase-18d.2.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-18d.4](sase-18d.4.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-18d.4](sase-18d.4.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -37,3 +37,17 @@ tree-kill: add a shared terminator that finds an agent's whole process set (proc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b7cfa06`](https://github.com/sase-org/sase/commit/b7cfa069cb45b421f4abc87ddb8b21bb15d71c05) | feat(agent): verified process-tree termination in the durable cleanup proc (sase-18d.3) | [sase-18d.3](sase-18d.3.md) | 2026-09-24 19:05:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0rt][1] | Understand whether the unused symbols are wired by a later phase of the same epic | 1 |
+| read-by | [agent:sase-18d.3][2] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0rt/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.3/README.md
+
+<!-- sase:referenced-by:end -->
