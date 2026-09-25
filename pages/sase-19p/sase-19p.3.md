@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-19p](README.md) / sase-19p.3
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s0](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0s0.md) · **Assignee:** `sase-19p.3` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0s0.md) · **Assignee:** `sase-19p.3` · **Size:** medium
 **Created:** 2026-09-25 14:05:32 EDT
 **Plan:** [202609/agent\_closed\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_closed_beads.md)
 
@@ -13,7 +13,7 @@ render: paint agent-closed rows with a green check, a capped CLOSED pill, resolu
 
 ## Dependencies
 
-- **Depends on:** [sase-19p.2](sase-19p.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19p.2](sase-19p.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
