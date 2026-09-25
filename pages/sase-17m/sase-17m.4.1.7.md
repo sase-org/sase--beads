@@ -24,7 +24,7 @@ query-cli-json: make agent query session:/kind:session canonical, with flag-gate
 ## Dependencies
 
 - **Depends on:** [sase-17m.4.1.6](sase-17m.4.1.6.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.4.1.8](sase-17m.4.1.8.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.8](sase-17m.4.1.8.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -37,3 +37,15 @@ query-cli-json: make agent query session:/kind:session canonical, with flag-gate
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3a1d0ba`](https://github.com/sase-org/sase/commit/3a1d0bab282a5d796d9b2d8f45ab4a65c96f4091) | feat(agent-session)!: canonical session query dialect with JSON kinds | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 2026-09-24 21:54:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.7/README.md
+
+<!-- sase:referenced-by:end -->

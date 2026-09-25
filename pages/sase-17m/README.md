@@ -29,6 +29,8 @@ The concept formerly called an agent family is named a sase agent session (agent
 
 [2026-09-24T14:26:17Z · sase-17o.land] DISCOVERED ISSUE (sase-17o land, 2026-09-24, master 7d2272588): the full test lane on HEAD has 52 deterministic failures, identical with and without sase-17o's land diff, dominated by 'TypeError: AgentMetaWire.__init__() got an unexpected keyword argument agent_family' (tests/test_dynamic_agent_family_attach_resolution.py x23, test_editor_helper_family_catalog.py x9, test_agent_generated_name_guard.py x3, agent_prompt_panel/semantic/tribe widget tests, test_agent_cleanup_facade.py, test_agent_names_extract_metadata.py). The installed sase_core_rs wheel lacks 16 capabilities (probe_core_floor: resolve_agent_session_parent, parse_agent_session_name, ... blocked_unpublished) while tests/Python callers already use the session-rename wire. Likely owned by the in-flight wire cutover (sase-17m.3.1) / pin bump (sase-17m.9).
 
+[2026-09-25T02:17:43Z · sase-18i.land] DISCOVERED ISSUE: While verifying an unrelated plan-approval tale on 2026-09-24 at master 4858f20a2, the escalated just test-scoped lane failed 16 nodes that still expect the retired family= spelling or wording after the canonical session= cutover (65d3dfb1d, sase-17m.4.1.6). Each fails identically on a pristine tree (changes stashed), so none is caused by the tale. Nodes: tests/ace/tui/test_kill_and_edit_prompt_name.py::test_prepare_kill_and_edit_prompt_restarts_exact_family_member (4 params, expected '%id(!code, family=...' vs emitted 'session='), tests/ace/tui/test_kill_and_edit_agent_name.py::test_kill_and_edit_family_phase_forces_exact_member_attachment, tests/ace/tui/test_retry_edit_prompt_name.py::test_rewrite_retry_prompt_uses_concrete_name_for_family_member, tests/ace/tui/test_family_member_relaunch.py (3 nodes; the notice now says 'session=sase-pw.1 attaches the agent to itself' where the test asserts 'family='), tests/ace/tui/test_agent_bulk_kill_edit.py::test_bulk_kill_and_edit_rewrites_exact_marked_family_member, tests/test_force_reuse_launch_seam.py (2 nodes), tests/test_directives_bead.py::test_id_bead_survives_fanout_repeat_retry_and_forced_reuse and ::test_id_bead_reports_targeted_argument_errors, tests/test_parallel_agent_session_launch.py::test_prompt_local_clan_errors_surface_through_launch_preflight, tests/test_xprompt_load_issues.py::test_removed_agent_family_kind_raises_migration_error. Routed here rather than filed as a task because phase sase-17m.4 (runtime, syntax, and CLI cutover) is still in progress and owns updating these expectations.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -75,7 +77,7 @@ flowchart TD
     n24["sase-17m.4.1.5: Core mirrors, chat fork, scripts, and remaining non-ACE packages [closed]"]
     n25["sase-17m.4.1.6: Canonical session syntax and the legacy_agent_family_syntax flag [closed]"]
     n26["sase-17m.4.1.7: Agent query dialect, CLI help, JSON output, and editor bridge [closed]"]
-    n27["sase-17m.4.1.8: Skill sources, leftover tests, and classification sweep [in_progress]"]
+    n27["sase-17m.4.1.8: Skill sources, leftover tests, and classification sweep [closed]"]
     n28["sase-17m.5: ACE agent session surfaces [in_progress]"]
     n29["sase-17m.6: Documentation and memory [in_progress]"]
     n30["sase-17m.7: sase-telegram cutover [in_progress]"]
@@ -172,7 +174,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.5/README.md) | [sase-17m.4.1.5](sase-17m.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.6/README.md) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.7/README.md) | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 1 |
-| [bbugyi200.athena.sase-17m.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 0 |
+| [bbugyi200.athena.sase-17m.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.8/README.md) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md) | [sase-17m.4.1](sase-17m.4.1.md) | 0 |
 | [bbugyi200.athena.sase-17m.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.5/README.md) | [sase-17m.5](sase-17m.5.md) | 0 |
 | [bbugyi200.athena.sase-17m.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.6/README.md) | [sase-17m.6](sase-17m.6.md) | 0 |
@@ -207,6 +209,7 @@ flowchart TD
 | sase | [`33e41c7`](https://github.com/sase-org/sase/commit/33e41c72e2d3ed445864bfe5d932e370ac0207d4) | refactor(agent-session): rename core mirrors, chat fork, and scripts identifiers (sase-17m.4.1.5) | [sase-17m.4.1.5](sase-17m.4.1.5.md) | 2026-09-24 19:11:45 EDT |
 | sase | [`65d3dfb`](https://github.com/sase-org/sase/commit/65d3dfb1d4a641876b54015e4d8aaf583a34f9a3) | refactor(agent-session): canonical session syntax and legacy flag (sase-17m.4.1.6) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 2026-09-24 20:49:37 EDT |
 | sase | [`3a1d0ba`](https://github.com/sase-org/sase/commit/3a1d0bab282a5d796d9b2d8f45ab4a65c96f4091) | feat(agent-session)!: canonical session query dialect with JSON kinds | [sase-17m.4.1.7](sase-17m.4.1.7.md) | 2026-09-24 21:54:27 EDT |
+| sase | [`a2ec65a`](https://github.com/sase-org/sase/commit/a2ec65a1f44f6c15dab488f4df7797d49c00cf2c) | refactor(agent-session): sweep skill sources, leftover tests, and stragglers (sase-17m.4.1.8) | [sase-17m.4.1.8](sase-17m.4.1.8.md) | 2026-09-24 23:31:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
