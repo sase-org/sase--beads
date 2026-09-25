@@ -13,7 +13,7 @@ skills-sweep: update the sase_run, sase_gate, sase_pipe, sase_questions, sase_mo
 
 ## Dependencies
 
-- **Depends on:** [sase-17m.4.1.7](sase-17m.4.1.7.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17m.4.1.7](sase-17m.4.1.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 

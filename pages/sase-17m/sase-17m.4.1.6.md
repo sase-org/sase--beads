@@ -20,7 +20,7 @@ syntax-flag: create the legacy_agent_family_syntax sunset flag with sase flag ne
 ## Dependencies
 
 - **Depends on:** [sase-17m.4.1.5](sase-17m.4.1.5.md) ✓ · ⧖ 2026-09-24
-- **Blocks:** [sase-17m.4.1.7](sase-17m.4.1.7.md) ◐ · ⧖ 2026-09-24
+- **Blocks:** [sase-17m.4.1.7](sase-17m.4.1.7.md) ✓ · ⧖ 2026-09-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ syntax-flag: create the legacy_agent_family_syntax sunset flag with sase flag ne
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`65d3dfb`](https://github.com/sase-org/sase/commit/65d3dfb1d4a641876b54015e4d8aaf583a34f9a3) | refactor(agent-session): canonical session syntax and legacy flag (sase-17m.4.1.6) | [sase-17m.4.1.6](sase-17m.4.1.6.md) | 2026-09-24 20:49:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.4.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.6/README.md
+
+<!-- sase:referenced-by:end -->
