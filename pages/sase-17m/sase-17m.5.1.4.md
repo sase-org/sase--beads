@@ -22,7 +22,7 @@ copy: rename widgets/prompt_panel/_agent_display_family{,_render} and every fami
 ## Dependencies
 
 - **Depends on:** [sase-17m.5.1.3](sase-17m.5.1.3.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17m.5.1.5](sase-17m.5.1.5.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17m.5.1.5](sase-17m.5.1.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -35,3 +35,15 @@ copy: rename widgets/prompt_panel/_agent_display_family{,_render} and every fami
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b79b9da`](https://github.com/sase-org/sase/commit/b79b9da246b434897fad03229097f76be34a7848) | feat(ace): rename family prompt panels to sessions | [sase-17m.5.1.4](sase-17m.5.1.4.md) | 2026-09-25 03:05:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.5.1.4--2][1] | Need the assigned phase scope and design evidence before final verification and closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17m.5.1.4.md
+
+<!-- sase:referenced-by:end -->
