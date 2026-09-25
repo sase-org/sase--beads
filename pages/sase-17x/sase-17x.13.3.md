@@ -13,7 +13,7 @@ key-behavior: wire ↑/↓ prefix-filtered history. Offer ghost text only at the
 
 ## Dependencies
 
-- **Depends on:** [sase-17x.13.2](sase-17x.13.2.md) ◐ · ⧖ 2026-09-24
+- **Depends on:** [sase-17x.13.2](sase-17x.13.2.md) ✓ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.4](sase-17x.13.4.md) ◐ · ⧖ 2026-09-24
 - **Blocks:** [sase-17x.13.5](sase-17x.13.5.md) ◐ · ⧖ 2026-09-24
 
