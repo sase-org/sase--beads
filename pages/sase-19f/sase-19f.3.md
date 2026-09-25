@@ -13,7 +13,7 @@ sase-plumbing: bump the sase-core pin. Then carry `queue_capacity_multiplier` fr
 
 ## Dependencies
 
-- **Depends on:** [sase-19f.2](sase-19f.2.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19f.2](sase-19f.2.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19f.4](sase-19f.4.md) ◐ · ⧖ 2026-09-25
 - **Blocks:** [sase-19f.5](sase-19f.5.md) ◐ · ⧖ 2026-09-25
 

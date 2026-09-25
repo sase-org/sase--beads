@@ -19,7 +19,7 @@ core-parse: in sase-core, parse and validate `<M>x` wherever `%queue` accepts ca
 
 ## Dependencies
 
-- **Blocks:** [sase-19f.2](sase-19f.2.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19f.2](sase-19f.2.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
