@@ -24,3 +24,15 @@ core-expand: non-breaking sase-core change. Rename the Rust internals to turn an
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ab.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.md) | [sase-1ab.1](sase-1ab.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.1.1.land][1] | Confirm parent phase closed and verification note retained | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md
+
+<!-- sase:referenced-by:end -->

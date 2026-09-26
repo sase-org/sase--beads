@@ -16,7 +16,7 @@ The concept formerly called a sase shell is named a sase turn on every current s
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ab.1](sase-1ab.1.md) | sase-core additive rename | ✓ closed | large | 2026-09-26 | 1 | 0 |
-| [sase-1ab.2](sase-1ab.2.md) | Python persistence and wire cutover | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
+| [sase-1ab.2](sase-1ab.2.md) | Python persistence and wire cutover | ◐ in_progress | large | 2026-09-26 | 1 | 1 |
 | [sase-1ab.3](sase-1ab.3.md) | Runtime, syntax, and CLI cutover | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
 | [sase-1ab.4](sase-1ab.4.md) | TUI turn surfaces | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
 | [sase-1ab.5](sase-1ab.5.md) | Documentation and memory | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.3/README.md) | [sase-1ab.1.1.3](sase-1ab.1.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.1.4.md) | [sase-1ab.1.1.4](sase-1ab.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md) | [sase-1ab.1.1](sase-1ab.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1ab.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.2.md) | [sase-1ab.2](sase-1ab.2.md) | 0 |
+| [bbugyi200.athena.sase-1ab.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.2.md) | [sase-1ab.2](sase-1ab.2.md) | 1 |
 | [bbugyi200.athena.sase-1ab.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.3/README.md) | [sase-1ab.3](sase-1ab.3.md) | 0 |
 | [bbugyi200.athena.sase-1ab.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.4/README.md) | [sase-1ab.4](sase-1ab.4.md) | 0 |
 | [bbugyi200.athena.sase-1ab.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.5/README.md) | [sase-1ab.5](sase-1ab.5.md) | 0 |
@@ -102,3 +102,16 @@ flowchart TD
 | sase-core | [`sase-core@20deb1b`](https://github.com/sase-org/sase-core/commit/20deb1b0c5b19f0f9ad3b6e34f765093dbb585da) | refactor(core): rename fleet runtime shell wires to turn vocabulary | [sase-1ab.1.1.3](sase-1ab.1.1.3.md) | 2026-09-26 01:47:36 EDT |
 | sase-core | [`sase-core@6953a96`](https://github.com/sase-org/sase-core/commit/6953a96460eec45bb46fe8a505304626bd375708) | refactor(core): retarget editor text and classify remaining shell hits to turn vocabulary | [sase-1ab.1.1.4](sase-1ab.1.1.4.md) | 2026-09-26 02:52:52 EDT |
 | sase--plans | [`sase--plans@9aa7bc7`](https://github.com/sase-org/sase--plans/commit/9aa7bc779863f292b23347f0ff42ef74c3209376) | chore(plan): mark sase-core turn expansion complete | [sase-1ab.1.1](sase-1ab.1.1.md) | 2026-09-26 03:23:34 EDT |
+| sase | [`c051b9a`](https://github.com/sase-org/sase/commit/c051b9a31a3c91c329bb029ea6dcda0ef0ceb0db) | fix(turn-cutover): repair sase-1ab.2 verification fallout | [sase-1ab.2](sase-1ab.2.md) | 2026-09-26 10:02:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.1.1.land][1] | Need the enclosing epic descendant readiness and phase sequencing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md
+
+<!-- sase:referenced-by:end -->
