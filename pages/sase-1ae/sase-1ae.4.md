@@ -16,7 +16,7 @@ post_landing: after the hold, dispatch, and parity epic dependencies close, veri
 - **Depends on:** [sase-11l](../sase-11l/README.md) ◐ · ⧖ 2026-09-15
 - **Depends on:** [sase-11l.11](../sase-11l/sase-11l.11.md) ◐ · ⧖ 2026-09-18
 - **Depends on:** [sase-133](../sase-133/README.md) ◐ · ⧖ 2026-09-18
-- **Depends on:** [sase-1ae.3](sase-1ae.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ae.3](sase-1ae.3.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ae.5](sase-1ae.5.md) ◐ · ⧖ 2026-09-26
 - **Depends on:** [sase-xe.16](../sase-xe/sase-xe.16.md) ◐ · ⧖ 2026-09-08
 

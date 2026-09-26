@@ -20,7 +20,7 @@ reference: update existing source files, regenerate memory outputs, verify them,
 ## Dependencies
 
 - **Depends on:** [sase-1ae.1](sase-1ae.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ae.3](sase-1ae.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ae.3](sase-1ae.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ reference: update existing source files, regenerate memory outputs, verify them,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4e0b96e`](https://github.com/sase-org/sase/commit/4e0b96e3db5d083822b8fbc422f84ee13e9711ef) | docs(memory): apply reference-phase corrections for seven backlog beads | [sase-1ae.2](sase-1ae.2.md) | 2026-09-26 08:13:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ae.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ae.2/README.md
+
+<!-- sase:referenced-by:end -->
