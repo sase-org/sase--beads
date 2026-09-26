@@ -54,7 +54,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-19x.1](sase-19x.1.md) | CardBlock data model, walkers and block anchors | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19x.10](sase-19x.10.md) | User docs for card blocks | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
+| [sase-19x.10](sase-19x.10.md) | User docs for card blocks | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19x.2](sase-19x.2.md) | Pure block cursor, block-mode decision and config key | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19x.3](sase-19x.3.md) | Session Reply cards emit one block per sase shell | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.4](sase-19x.4.md) | Blocks for the legacy followup\_agents Reply path | ✓ closed | small | 2026-09-25 | 1 | 1 |
@@ -62,7 +62,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 | [sase-19x.6](sase-19x.6.md) | Block-spread and deck-spread block navigation and transitions | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.7](sase-19x.7.md) | The \[ and \] card-block keys, gating, footer, help and palette | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.8](sase-19x.8.md) | The one-row block rail | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19x.9](sase-19x.9.md) | Remove the flag, add goldens, inspect live, and bench | ✓ closed | medium | 2026-09-25 | 1 | 1 |
+| [sase-19x.9](sase-19x.9.md) | Remove the flag, add goldens, inspect live, and bench | ✓ closed | medium | 2026-09-25 | 1 | 2 |
 
 ## Lineage
 
@@ -70,7 +70,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 flowchart TD
     n0["sase-19x: Agent data card blocks - per-shell blocks for the session Reply card [in_progress]"]
     n1["sase-19x.1: CardBlock data model, walkers and block anchors [closed]"]
-    n2["sase-19x.10: User docs for card blocks [in_progress]"]
+    n2["sase-19x.10: User docs for card blocks [closed]"]
     n3["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
     n4["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
     n5["sase-19x.4: Blocks for the legacy followup_agents Reply path [closed]"]
@@ -107,7 +107,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-19x.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.1.md) | [sase-19x.1](sase-19x.1.md) | 1 |
-| [bbugyi200.athena.sase-19x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md) | [sase-19x.10](sase-19x.10.md) | 0 |
+| [bbugyi200.athena.sase-19x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md) | [sase-19x.10](sase-19x.10.md) | 1 |
 | [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.3/README.md) | [sase-19x.3](sase-19x.3.md) | 0 |
 | [bbugyi200.athena.sase-19x.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md) | [sase-19x.4](sase-19x.4.md) | 1 |
@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.6/README.md) | [sase-19x.6](sase-19x.6.md) | 1 |
 | [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md) | [sase-19x.7](sase-19x.7.md) | 1 |
 | [bbugyi200.athena.sase-19x.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.8.md) | [sase-19x.8](sase-19x.8.md) | 1 |
-| [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md) | [sase-19x.9](sase-19x.9.md) | 1 |
+| [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md) | [sase-19x.9](sase-19x.9.md) | 2 |
 | [bbugyi200.athena.sase-19x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.land/README.md) | [sase-19x](README.md) | 0 |
 
 ## Commits
@@ -131,6 +131,8 @@ flowchart TD
 | sase | [`972acbe`](https://github.com/sase-org/sase/commit/972acbe9023cf20d1e0960f072f69d86f60ae4f8) | feat(ace-tui): card-block \[ and \] keys with gating, footer, help and palette (sase-19x.7) | [sase-19x.7](sase-19x.7.md) | 2026-09-26 08:51:04 EDT |
 | sase | [`f7df95c`](https://github.com/sase-org/sase/commit/f7df95c94c0fc5a2498968ce46fec815444cd020) | feat(ace-tui): one-row block rail under Main deck panel (sase-19x.8) | [sase-19x.8](sase-19x.8.md) | 2026-09-26 09:21:28 EDT |
 | sase | [`39f8e4e`](https://github.com/sase-org/sase/commit/39f8e4ea4702ee22ed584b8d7d36f21053a79bfc) | feat(ace-tui): card-blocks cutover, flag removal, goldens and bench (sase-19x.9) | [sase-19x.9](sase-19x.9.md) | 2026-09-26 13:51:36 EDT |
+| sase--agents | [`sase--agents@6fdb1a9`](https://github.com/sase-org/sase--agents/commit/6fdb1a9c0caff4497334107624079cb7701e8a3c) | docs(sase-19x.9): archive agent prompt for card-blocks cutover | [sase-19x.9](sase-19x.9.md) | 2026-09-26 13:56:03 EDT |
+| sase | [`3c8596b`](https://github.com/sase-org/sase/commit/3c8596b61007ecc1c57b3dce8f1f36eefef3e26c) | docs(ace): document card blocks for session Reply cards (sase-19x.10) | [sase-19x.10](sase-19x.10.md) | 2026-09-26 14:09:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

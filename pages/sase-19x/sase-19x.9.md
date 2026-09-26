@@ -25,7 +25,7 @@ card-blocks-cutover: record the flag-off vs flag-on j/k bench, then remove the c
 
 ## Dependencies
 
-- **Blocks:** [sase-19x.10](sase-19x.10.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.10](sase-19x.10.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.4](sase-19x.4.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.7](sase-19x.7.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.8](sase-19x.8.md) ✓ · ⧖ 2026-09-25
@@ -34,13 +34,14 @@ card-blocks-cutover: record the flag-off vs flag-on j/k bench, then remove the c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md) | [sase-19x.9](sase-19x.9.md) | 1 |
+| [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md) | [sase-19x.9](sase-19x.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`39f8e4e`](https://github.com/sase-org/sase/commit/39f8e4ea4702ee22ed584b8d7d36f21053a79bfc) | feat(ace-tui): card-blocks cutover, flag removal, goldens and bench (sase-19x.9) | [sase-19x.9](sase-19x.9.md) | 2026-09-26 13:51:36 EDT |
+| sase--agents | [`sase--agents@6fdb1a9`](https://github.com/sase-org/sase--agents/commit/6fdb1a9c0caff4497334107624079cb7701e8a3c) | docs(sase-19x.9): archive agent prompt for card-blocks cutover | [sase-19x.9](sase-19x.9.md) | 2026-09-26 13:56:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -49,9 +50,11 @@ card-blocks-cutover: record the flag-off vs flag-on j/k bench, then remove the c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.1--1][1] | checking closed bead that owns stale epic-symbols | 1 |
-| read-by | [agent:sase-1af.5.land][2] | Need whether the open card-blocks epic still owns the surviving card_blocks definition | 1 |
+| read-by | [agent:sase-19x.9--2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1af.5.land][3] | Need whether the open card-blocks epic still owns the surviving card_blocks definition | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1af.5.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1af.5.land/README.md
 
 <!-- sase:referenced-by:end -->
