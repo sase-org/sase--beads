@@ -44,7 +44,9 @@ snapshot-facets: profile and fuse repeated per-agent snapshot work while preserv
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19i.7.3.2][2] | Need prior phase profile findings for modal-budget handoff | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md
 
 <!-- sase:referenced-by:end -->

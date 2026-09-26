@@ -7,6 +7,20 @@
 **Created:** 2026-09-25 13:06:05 EDT
 **Plan:** [202609/agents\_node\_finder.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_node_finder.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/agents_node_finder.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_node_finder.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every reachable sase node as a tree, including nodes hidden by folds, collapsed grouping banners, collapsed or isolated tribe panels, the Agents query, and (last phase) the `I` hide-non-run toggle. Every jumpable row always carries a jump hint. A query bar that starts unfocused (Tab toggles it) fuzzy-filters by node name. Enter and Ctrl+N/Ctrl+P navigate. A fast two-tier preview shows the highlighted node. Every jump lands reliably through the existing identity-based reveal primitive, and every change it makes to view state is announced and can be undone.
@@ -51,6 +65,9 @@ flowchart TD
     n10["sase-19i.7.3: Finish the remaining Node Finder open and broad-query budgets [in_progress]"]
     n11["sase-19i.7.3.1: Bound snapshot construction for first paint [closed]"]
     n12["sase-19i.7.3.2: Finish open and broad-query p95 budgets [closed]"]
+    n13["sase-19i.7.3.3: Cut the Node Finder open path under the 50 ms budget [in_progress]"]
+    n14["sase-19i.7.3.3.1: Remove open-path stalls and halve snapshot cost [closed]"]
+    n15["sase-19i.7.3.3.2: Pass the approved open p95 budget [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -63,6 +80,9 @@ flowchart TD
     n7 --> n10
     n10 --> n11
     n10 --> n12
+    n10 --> n13
+    n13 --> n14
+    n13 --> n15
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
@@ -71,6 +91,7 @@ flowchart TD
     n5 -.-> n6
     n8 -.-> n9
     n11 -.-> n12
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -87,7 +108,10 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.2.md) | [sase-19i.7.2](sase-19i.7.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.1/README.md) | [sase-19i.7.3.1](sase-19i.7.3.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md) | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 1 |
-| [bbugyi200.athena.sase-19i.7.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.land/README.md) | [sase-19i.7.3](sase-19i.7.3.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md) | [sase-19i.7.3.3.1](sase-19i.7.3.3.1.md) | 1 |
+| [bbugyi200.athena.sase-19i.7.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.2/README.md) | [sase-19i.7.3.3.2](sase-19i.7.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.land/README.md) | [sase-19i.7.3.3](sase-19i.7.3.3.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.land.md) | [sase-19i.7.3](sase-19i.7.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.land.md) | [sase-19i.7](sase-19i.7.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.land.md) | [sase-19i](README.md) | 0 |
 
@@ -105,6 +129,7 @@ flowchart TD
 | sase | [`0b55415`](https://github.com/sase-org/sase/commit/0b55415cd7e5178fc966b85c718ac5a7b015f8d4) | feat(ace): add agent node finder modal with snapshot, preview and fuzzy model | [sase-19i.7.2](sase-19i.7.2.md) | 2026-09-26 10:10:45 EDT |
 | sase | [`d1b72cf`](https://github.com/sase-org/sase/commit/d1b72cfe58e815deafe4e7c72c4774b487346efd) | feat(ace): fuse per-open Node Finder snapshot facets (sase-19i.7.3.1) | [sase-19i.7.3.1](sase-19i.7.3.1.md) | 2026-09-26 10:49:28 EDT |
 | sase | [`221d72a`](https://github.com/sase-org/sase/commit/221d72a13125e1e967305e0c79b5ab9d38b8c653) | perf(tui): exact-semantics node-finder snapshot optimizations | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 2026-09-26 12:04:22 EDT |
+| sase | [`f079c0a`](https://github.com/sase-org/sase/commit/f079c0af5d42837e9a862f2a0ae91a2db94e0281) | perf(tui): node-finder snapshot floor and symvision repair (sase-19i.7.3.3.1) | [sase-19i.7.3.3.1](sase-19i.7.3.3.1.md) | 2026-09-26 13:26:42 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -7,6 +7,18 @@
 **Created:** 2026-09-26 06:03:23 EDT
 **Plan:** [202609/node\_finder\_perf\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202609/node_finder_perf_landing.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/node_finder_perf_landing.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/node_finder_perf_landing.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The Agents Node Finder meets its approved 2,000-node p95 open, refilter, and highlight budgets without losing any jump targets or changing navigation behavior.
