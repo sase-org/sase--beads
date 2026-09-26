@@ -36,3 +36,15 @@ visual_goldens: Capture both created-bead Context PNG goldens with the targeted 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`752edf9`](https://github.com/sase-org/sase/commit/752edf9fc80637572c7668e68585205f743ecc40) | test(visual): capture created-bead Context goldens (sase-1ap.4.2) | [sase-1ap.4.2](sase-1ap.4.2.md) | 2026-09-26 16:35:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ap.4.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ap.4.2/README.md
+
+<!-- sase:referenced-by:end -->
