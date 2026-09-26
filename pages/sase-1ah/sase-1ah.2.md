@@ -20,7 +20,7 @@ rust-receipts: add additive schema-1 receipt storage, strict mint and invalidati
 ## Dependencies
 
 - **Depends on:** [sase-1ah.1](sase-1ah.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ah.3](sase-1ah.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.3](sase-1ah.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
