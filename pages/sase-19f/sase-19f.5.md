@@ -25,10 +25,4 @@ research-swarm: in sase-research-artifacts, render `%q(1.5x, w=0.25)` in every s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-19f.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.5.md) | [sase-19f.5](sase-19f.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-research-artifacts | [`sase-research-artifacts@416c5b1`](https://github.com/sase-org/sase-research-artifacts/commit/416c5b14b6888ee49b2990ee46bd8053949d01b3) | feat(research-swarm): author 1.5x capacity multiplier | [sase-19f.5](sase-19f.5.md) | 2026-09-25 19:45:46 EDT |
+| [bbugyi200.apollo.sase-19f.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.5.md) | [sase-19f.5](sase-19f.5.md) | 0 |

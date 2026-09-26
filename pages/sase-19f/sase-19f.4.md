@@ -15,6 +15,10 @@ sase-surfaces: render multiplier capacities as `c1.5x` badges with resolved unit
 
 [2026-09-25T23:43:08Z · sase-19f.4] Rendered multiplier capacities as c1.5x badges with over-limit style when M>1, header '1.5x budget (7.5 capacity units)', wait-lane 'capacity budget 1.5x (7.5)', and queue-ladder c1.5x. Wait modal and directive edit accept <M>x, prefill 1.5x, persist multiplier while clearing integer (and vice versa), and keep 1.5x when only priority/weight is rewritten. Agent-list JSON exposes queue_capacity_multiplier. Focused tests for those surfaces passed (11). sase bead epic-symbols sase-19f.4 reported no leftovers.
 
+[2026-09-25T23:50:49Z · sase-19f.4--1] Repaired mypy arg-type on _existing_queue_capacity_multiplier (float(str(value)) after None/format guard). Focused surface tests still pass (171).
+
+[2026-09-26T00:00:44Z · sase-19f.4--2] Removed leftover --epic-symbol entries for parse_queue_capacity_value, format_queue_capacity_multiplier, and resolve_queue_capacity_multiplier after this phase consumed them. sase bead epic-symbols sase-19f.4 reports no leftovers.
+
 ## Dependencies
 
 - **Depends on:** [sase-19f.3](sase-19f.3.md) ✓ · ⧖ 2026-09-25
