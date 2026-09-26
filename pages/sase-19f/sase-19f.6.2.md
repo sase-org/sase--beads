@@ -20,7 +20,7 @@ display-list: Render c1.5x badges, 1.5x budget and resolved units in the detail 
 ## Dependencies
 
 - **Depends on:** [sase-19f.6.1](sase-19f.6.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-19f.6.3](sase-19f.6.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19f.6.3](sase-19f.6.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
