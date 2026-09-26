@@ -45,7 +45,9 @@ trash_interactions: add Trash actions, confirmations, authoritative repaint, sty
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1au.4--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1au.5][2] | Check what phase 4 delivered to scope phase 5 remainder | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.5/README.md
 
 <!-- sase:referenced-by:end -->
