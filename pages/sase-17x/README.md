@@ -172,7 +172,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.6.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
-| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 2 |
 | [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 1 |
@@ -226,6 +226,7 @@ flowchart TD
 | sase | [`136a3e9`](https://github.com/sase-org/sase/commit/136a3e94885a455fc56d1405beabf71ccc6cb07c) | fix(command-line): fresh completion caches, cd project resolution, key-receipt probe (sase-17x.13.10.4) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 2026-09-25 15:01:28 EDT |
 | sase | [`9518b31`](https://github.com/sase-org/sase/commit/9518b31df9b7e235170018fdc0dd6d53702275e1) | feat: Regenerate epic goldens and take the live walkthrough (sase-17x.13.10.6) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 2026-09-25 18:54:39 EDT |
 | sase | [`31ba8e4`](https://github.com/sase-org/sase/commit/31ba8e4ddba4f34996c0cde4228435f0b8acb57a) | fix(command-line): land sase-17x.13.10 gaps: history reset, wall-clock elapsed, deterministic goldens | [sase-17x.13.10](sase-17x.13.10.md) | 2026-09-25 21:20:48 EDT |
+| sase--plans | [`sase--plans@eb71749`](https://github.com/sase-org/sase--plans/commit/eb717490cd243aa95511c6fadecafc17c6e09596) | docs(plans): mark the Command Line epic plans done | [sase-17x.13.10](sase-17x.13.10.md) | 2026-09-25 21:24:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

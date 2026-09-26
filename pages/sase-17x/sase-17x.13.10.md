@@ -50,10 +50,11 @@ FOLLOW-UP DISPOSITION:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`31ba8e4`](https://github.com/sase-org/sase/commit/31ba8e4ddba4f34996c0cde4228435f0b8acb57a) | fix(command-line): land sase-17x.13.10 gaps: history reset, wall-clock elapsed, deterministic goldens | [sase-17x.13.10](sase-17x.13.10.md) | 2026-09-25 21:20:48 EDT |
+| sase--plans | [`sase--plans@eb71749`](https://github.com/sase-org/sase--plans/commit/eb717490cd243aa95511c6fadecafc17c6e09596) | docs(plans): mark the Command Line epic plans done | [sase-17x.13.10](sase-17x.13.10.md) | 2026-09-25 21:24:12 EDT |
