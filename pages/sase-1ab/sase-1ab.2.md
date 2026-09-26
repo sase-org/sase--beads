@@ -13,11 +13,11 @@ wire-cutover: bump the core pin and switch sase to the new binding names. Rename
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.1](sase-1ab.1.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.1](sase-1ab.1.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.3](sase-1ab.3.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.2/README.md) | [sase-1ab.2](sase-1ab.2.md) | 0 |
+| [bbugyi200.athena.sase-1ab.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.2.md) | [sase-1ab.2](sase-1ab.2.md) | 0 |
