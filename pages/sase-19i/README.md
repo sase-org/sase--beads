@@ -3,13 +3,21 @@
 [Bead Pages](../README.md) / sase-19i
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0s5.md) · **Assignee:** `sase-19i.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0s5.md) · **Assignee:** `sase-19i.land`
 **Created:** 2026-09-25 13:06:05 EDT
 **Plan:** [202609/agents\_node\_finder.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_node_finder.md)
 
 ## Description
 
 Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every reachable sase node as a tree, including nodes hidden by folds, collapsed grouping banners, collapsed or isolated tribe panels, the Agents query, and (last phase) the `I` hide-non-run toggle. Every jumpable row always carries a jump hint. A query bar that starts unfocused (Tab toggles it) fuzzy-filters by node name. Enter and Ctrl+N/Ctrl+P navigate. A fast two-tier preview shows the highlighted node. Every jump lands reliably through the existing identity-based reveal primitive, and every change it makes to view state is announced and can be undone.
+
+## Notes
+
+[2026-09-26T00:48:18Z · sase-17x.13.10.land] DISCOVERED ISSUE (sase-17x.13.10 land agent, master 7cb835953): d62a459a2 (sase-19i.3, Node Finder previews) added a marker path-passing site that the audit has not reviewed: tests/test_agent_artifact_marker_path_passing_audit.py::test_tracked_marker_path_passing_sites_are_reviewed fails deterministically on a clean tree with 'Extra items in the left set: src/sase/ace/tui/modals/node_finder_preview_loader.py:_source_paths'. Review the site and add it to _REVIEWED_PATH_PASSING_CONTEXTS (or stop passing the marker path).
+
+[2026-09-26T01:12:14Z · sase-17m.land] DISCOVERED ISSUE corroboration (sase-17m land agent, 2026-09-25, master eba6b80d0): an independent reproduction of note #1 under sase tool run check (ToolRun 7263b9ee3f7bc48d3764693f0b934ba6) and again on a clean stashed tree: tests/test_agent_artifact_marker_path_passing_audit.py::test_tracked_marker_path_passing_sites_are_reviewed still fails with the extra unreviewed site src/sase/ace/tui/modals/node_finder_preview_loader.py:_source_paths (from d62a459a2, sase-19i.3).
+
+[2026-09-26T01:13:18Z · sase-17x.13.10.land] Update from the sase-17x.13.10 land agent: the marker path-passing audit failure (node_finder_preview_loader.py:_source_paths) still reproduces on origin/master 013a17072; the audit's reviewed list does not name the loader.
 
 ## Phases
 
@@ -18,7 +26,7 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 | [sase-19i.1](sase-19i.1.md) | Node Finder row model, snapshot, filtering, and hints | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.2](sase-19i.2.md) | Identity jump ladder with an announced query clear | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19i.3](sase-19i.3.md) | Two-tier Node Finder preview | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19i.4](sase-19i.4.md) | NodeFinderModal screen, modes, keys, and layout | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19i.4](sase-19i.4.md) | NodeFinderModal screen, modes, keys, and layout | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.5](sase-19i.5.md) | Keymap, action, docs, visual goldens, and bench | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19i.6](sase-19i.6.md) | Rows hidden by I, with a flip-and-reveal rung | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 
@@ -30,7 +38,7 @@ flowchart TD
     n1["sase-19i.1: Node Finder row model, snapshot, filtering, and hints [closed]"]
     n2["sase-19i.2: Identity jump ladder with an announced query clear [closed]"]
     n3["sase-19i.3: Two-tier Node Finder preview [closed]"]
-    n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [in_progress]"]
+    n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [closed]"]
     n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [in_progress]"]
     n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [in_progress]"]
     n0 --> n1
@@ -54,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.1/README.md) | [sase-19i.1](sase-19i.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.2.md) | [sase-19i.2](sase-19i.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.3/README.md) | [sase-19i.3](sase-19i.3.md) | 1 |
-| [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.4/README.md) | [sase-19i.4](sase-19i.4.md) | 0 |
+| [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.4.md) | [sase-19i.4](sase-19i.4.md) | 1 |
 | [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.5/README.md) | [sase-19i.5](sase-19i.5.md) | 0 |
 | [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.6/README.md) | [sase-19i.6](sase-19i.6.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.land/README.md) | [sase-19i](README.md) | 0 |
@@ -66,3 +74,4 @@ flowchart TD
 | sase | [`ee22eb3`](https://github.com/sase-org/sase/commit/ee22eb305c7c19eb960a1569286025d5434efe27) | feat(node-finder): add row model, snapshot, filtering, and hints (sase-19i.1) | [sase-19i.1](sase-19i.1.md) | 2026-09-25 16:24:33 EDT |
 | sase | [`0854519`](https://github.com/sase-org/sase/commit/085451924eaedf9c882d1a8e0f0ab4b64b74b5e9) | feat(ace): add node identity jump ladder | [sase-19i.2](sase-19i.2.md) | 2026-09-25 16:37:18 EDT |
 | sase | [`d62a459`](https://github.com/sase-org/sase/commit/d62a459a2d527d663cfd425104add367acee4f7e) | feat(tui): add Node Finder previews | [sase-19i.3](sase-19i.3.md) | 2026-09-25 17:17:23 EDT |
+| sase | [`89ebc76`](https://github.com/sase-org/sase/commit/89ebc76256aeefdb28c1e1acfc05469ecfe32cb6) | feat(ace): add the Agents-tab Node Finder modal | [sase-19i.4](sase-19i.4.md) | 2026-09-25 21:20:40 EDT |
