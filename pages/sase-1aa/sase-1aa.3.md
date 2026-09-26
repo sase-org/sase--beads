@@ -18,7 +18,7 @@ model_policy: enforce catalog membership, effort support and descent, provider r
 ## Dependencies
 
 - **Depends on:** [sase-1aa.2](sase-1aa.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-1aa.4](sase-1aa.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-1aa.4](sase-1aa.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ model_policy: enforce catalog membership, effort support and descent, provider r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e2b4625`](https://github.com/sase-org/sase/commit/e2b462548c2becdf846ed2773450c4542b56de04) | feat(llm-provider): add executable model policy over models.yml | [sase-1aa.3](sase-1aa.3.md) | 2026-09-26 06:38:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19p.4.land][1] | Need follow-up bead status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19p.4.land/README.md
+
+<!-- sase:referenced-by:end -->
