@@ -28,7 +28,7 @@ block-paged-view: create the card_blocks beta flag. Add DeckPanelBlocksMixin and
 - **Depends on:** [sase-19x.2](sase-19x.2.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.3](sase-19x.3.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19x.6](sase-19x.6.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19x.7](sase-19x.7.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.7](sase-19x.7.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
