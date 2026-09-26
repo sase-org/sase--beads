@@ -84,7 +84,7 @@ flowchart TD
     n2["sase-18j.10: Finish E3: make live failure triage actually run, fix owner matching, and prove it on athena [in_progress]"]
     n3["sase-18j.10.1: Send wire-valid evidence, store triage diagnostics, and clear the E3 stragglers [closed]"]
     n4["sase-18j.10.2: Match possible owners on file identity, not on shared path tokens [closed]"]
-    n5["sase-18j.10.3: Pin the owner-matching core and verify owners on live candidates [in_progress]"]
+    n5["sase-18j.10.3: Pin the owner-matching core and verify owners on live candidates [closed]"]
     n6["sase-18j.10.4: Prove E3's landing criteria live on athena [in_progress]"]
     n7["sase-18j.2: Durable failure items, extractors, and normalization in sase-core [closed]"]
     n8["sase-18j.3: Pure classification, verdict, and failures aggregation in sase-core [closed]"]
@@ -129,8 +129,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-18j.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.1/README.md) | [sase-18j.1](sase-18j.1.md) | 1 |
 | [bbugyi200.athena.sase-18j.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.10.1.md) | [sase-18j.10.1](sase-18j.10.1.md) | 1 |
-| [bbugyi200.athena.sase-18j.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md) | [sase-18j.10.2](sase-18j.10.2.md) | 0 |
-| [bbugyi200.athena.sase-18j.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md) | [sase-18j.10.3](sase-18j.10.3.md) | 0 |
+| [bbugyi200.athena.sase-18j.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md) | [sase-18j.10.2](sase-18j.10.2.md) | 1 |
+| [bbugyi200.athena.sase-18j.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md) | [sase-18j.10.3](sase-18j.10.3.md) | 1 |
 | [bbugyi200.athena.sase-18j.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.4/README.md) | [sase-18j.10.4](sase-18j.10.4.md) | 0 |
 | [bbugyi200.athena.sase-18j.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.land/README.md) | [sase-18j.10](sase-18j.10.md) | 0 |
 | [bbugyi200.athena.sase-18j.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.2.md) | [sase-18j.2](sase-18j.2.md) | 1 |
@@ -156,7 +156,9 @@ flowchart TD
 | sase | [`d17a753`](https://github.com/sase-org/sase/commit/d17a7534ad595b45e7076755e0ddd84c1d378460) | feat(tool): known-gated continuation for agent runs | [sase-18j.7](sase-18j.7.md) | 2026-09-25 16:27:31 EDT |
 | sase | [`89868a9`](https://github.com/sase-org/sase/commit/89868a90b2e48eae1de60c8d24ce35682bbe46fc) | feat(tool): add sase tool failures and follow-up triage | [sase-18j.8](sase-18j.8.md) | 2026-09-25 17:35:25 EDT |
 | sase | [`49c32e1`](https://github.com/sase-org/sase/commit/49c32e19ec698c6c305ca374ee49421668f04215) | feat(tool): finalize failure triage | [sase-18j.9](sase-18j.9.md) | 2026-09-25 18:12:43 EDT |
+| sase-core | [`sase-core@9d049aa`](https://github.com/sase-org/sase-core/commit/9d049aac62ff173e41c9fec59734fcfc4af982d8) | fix(triage): match possible owners on file identity | [sase-18j.10.2](sase-18j.10.2.md) | 2026-09-25 20:07:17 EDT |
 | sase | [`ff5412b`](https://github.com/sase-org/sase/commit/ff5412bbb63c676ac995871ee856e190de6afb85) | fix(tool): emit wire-valid selection evidence for failure triage | [sase-18j.10.1](sase-18j.10.1.md) | 2026-09-25 20:23:15 EDT |
+| sase | [`013a170`](https://github.com/sase-org/sase/commit/013a170720270ac4996122bbdb1026f9468d6042) | feat(triage): pin owner-matching core and verify owners on live candidates | [sase-18j.10.3](sase-18j.10.3.md) | 2026-09-25 21:04:59 EDT |
 
 <!-- sase:referenced-by:start -->
 

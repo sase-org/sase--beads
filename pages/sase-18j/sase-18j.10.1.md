@@ -21,7 +21,7 @@ triage-inputs: make the selection-record gatherer emit wire-valid evidence (fail
 
 ## Dependencies
 
-- **Blocks:** [sase-18j.10.3](sase-18j.10.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-18j.10.3](sase-18j.10.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -34,3 +34,15 @@ triage-inputs: make the selection-record gatherer emit wire-valid evidence (fail
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ff5412b`](https://github.com/sase-org/sase/commit/ff5412bbb63c676ac995871ee856e190de6afb85) | fix(tool): emit wire-valid selection evidence for failure triage | [sase-18j.10.1](sase-18j.10.1.md) | 2026-09-25 20:23:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18j.10.1--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.10.1.md
+
+<!-- sase:referenced-by:end -->

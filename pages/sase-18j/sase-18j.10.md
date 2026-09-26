@@ -11,6 +11,10 @@
 
 An agent's `sase tool run check` on athena records a triage for every settled named run and continues past all-KNOWN/FLAKY stages to `test (scoped)`. Possible owners are suggested only when a bead really names the failing file. The E3 landing criteria are proven live, so the E3 land agent can close `sase-18j`.
 
+## Notes
+
+[2026-09-26T00:48:07Z · sase-17x.13.10.land] DISCOVERED ISSUE (sase-17x.13.10 land agent, master 7cb835953): two deterministic master reds trace to sase-18j commits. (1) 49c32e19e (sase-18j.9) edited sase/memory/lint_and_test.md without regenerating sase/memory/README.md, so sase validate's 'init memory --check' fails (README wants Lines 144->145, Total lines 1360->1361) and tests/main/test_init_memory_committed_drift.py::test_repo_project_memory_notes_match_generator_output fails on a clean tree; every agent's sase tool run check now fails SASE validation. Fix: run sase init memory (via /sase_memory_write). (2) toobig: src/sase/tool/executor.py is 1113 lines (limit 1000) after sase-18j.4/.6/.7/.9, so just lint and the master-gate lint job are red.
+
 ## Agents
 
 | Agent | Bead | Commits |

@@ -13,7 +13,7 @@ live-acceptance: run the live athena acceptance, re-run and hand-audit the preci
 
 ## Dependencies
 
-- **Depends on:** [sase-18j.10.3](sase-18j.10.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-18j.10.3](sase-18j.10.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

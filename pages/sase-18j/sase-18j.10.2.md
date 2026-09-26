@@ -19,13 +19,19 @@ core-owner-match: in sase-core only, replace the any-3-char-token substring owne
 
 ## Dependencies
 
-- **Blocks:** [sase-18j.10.3](sase-18j.10.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-18j.10.3](sase-18j.10.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-18j.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md) | [sase-18j.10.2](sase-18j.10.2.md) | 0 |
+| [bbugyi200.athena.sase-18j.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md) | [sase-18j.10.2](sase-18j.10.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@9d049aa`](https://github.com/sase-org/sase-core/commit/9d049aac62ff173e41c9fec59734fcfc4af982d8) | fix(triage): match possible owners on file identity | [sase-18j.10.2](sase-18j.10.2.md) | 2026-09-25 20:07:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
