@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-17d
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qd](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qd.md) · **Assignee:** `sase-17d.land`
-**Created:** 2026-09-23 19:16:45 EDT
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qd](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qd.md) · **Assignee:** `sase-17d.land`
+**Created:** 2026-09-23 19:16:45 EDT · **Closed:** 2026-09-25 19:53:34 EDT
 **Plan:** [202609/agents\_tab\_decks\_and\_cards.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_decks_and_cards.md)
 
 ## Description
@@ -72,7 +72,7 @@ FOLLOW-UP DISPOSITIONS
 - Folded into the child epic as epic work:
   - .3 #5b, .5 (2), .10.1.
 
-… and 401 more characters
+… and 2472 more characters
 
 ## Phases
 
@@ -94,7 +94,7 @@ FOLLOW-UP DISPOSITIONS
 
 ```mermaid
 flowchart TD
-    n0["sase-17d: Agents tab agent data decks and cards [in_progress]"]
+    n0["sase-17d: Agents tab agent data decks and cards [closed]"]
     n1["sase-17d.1: LLM Calls stale-worker fix and split-key display [closed]"]
     n2["sase-17d.10: Cut over to decks and delete the legacy UI [closed]"]
     n3["sase-17d.10.1: Cut over the Agents tab to decks and delete the legacy detail UI [closed]"]
@@ -106,10 +106,10 @@ flowchart TD
     n9["sase-17d.10.1.4.2: Migrate the tribe, clan, files, LLM Calls, search and waiting visual tests [closed]"]
     n10["sase-17d.10.1.4.3: Add the missing deck coverage goldens and run the live and full checks [closed]"]
     n11["sase-17d.11: Docs, glossary strands and key-change notice [closed]"]
-    n12["sase-17d.12: Finish landing agent data decks - Files spread, live spread checks and the j/k bench [in_progress]"]
+    n12["sase-17d.12: Finish landing agent data decks - Files spread, live spread checks and the j/k bench [closed]"]
     n13["sase-17d.12.1: Make the Files deck spread live and repair the broken deck visual tests [closed]"]
     n14["sase-17d.12.2: Inspect live spread rendering and fix separator and title-pill defects [closed]"]
-    n15["sase-17d.12.3: Record before/after j/k bench numbers for SINGLE and LEFT_RIGHT [in_progress]"]
+    n15["sase-17d.12.3: Record before/after j/k bench numbers for SINGLE and LEFT_RIGHT [closed]"]
     n16["sase-17d.2: Card-partitioned Main documents [closed]"]
     n17["sase-17d.3: Deck panel core behind the agent_decks beta flag [closed]"]
     n18["sase-17d.4: Card and deck cycling keys [closed]"]
@@ -178,7 +178,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17d.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.1/README.md) | [sase-17d.12.1](sase-17d.12.1.md) | 1 |
 | [bbugyi200.athena.sase-17d.12.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.12.2.md) | [sase-17d.12.2](sase-17d.12.2.md) | 1 |
 | [bbugyi200.athena.sase-17d.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.3/README.md) | [sase-17d.12.3](sase-17d.12.3.md) | 0 |
-| [bbugyi200.athena.sase-17d.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.land/README.md) | [sase-17d.12](sase-17d.12.md) | 0 |
+| [bbugyi200.athena.sase-17d.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.land/README.md) | [sase-17d.12](sase-17d.12.md) | 1 |
 | [bbugyi200.athena.sase-17d.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.2.md) | [sase-17d.2](sase-17d.2.md) | 1 |
 | [bbugyi200.athena.sase-17d.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.3.md) | [sase-17d.3](sase-17d.3.md) | 1 |
 | [bbugyi200.athena.sase-17d.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.5.md) | [sase-17d.5](sase-17d.5.md) | 1 |
@@ -207,6 +207,7 @@ flowchart TD
 | sase | [`8fd6a05`](https://github.com/sase-org/sase/commit/8fd6a054fd899bc40ea2233248a63d09c5b6d4af) | docs(ace): rewrite Agents detail docs around decks and cards (sase-17d.11) | [sase-17d.11](sase-17d.11.md) | 2026-09-25 07:32:10 EDT |
 | sase | [`27d03a7`](https://github.com/sase-org/sase/commit/27d03a7b7224afca6a9083ea8061b9eecb34d4c9) | fix(ace-tui): apply the Files deck spread probe result (sase-17d.12.1) | [sase-17d.12.1](sase-17d.12.1.md) | 2026-09-25 09:21:27 EDT |
 | sase | [`59bf17d`](https://github.com/sase-org/sase/commit/59bf17d53fa39d9bd31b66cd3375c42b59b1290c) | fix(tui): scroll spread Ctrl+J onto the titled separator | [sase-17d.12.2](sase-17d.12.2.md) | 2026-09-25 18:53:21 EDT |
+| sase--plans | [`sase--plans@acdfd70`](https://github.com/sase-org/sase--plans/commit/acdfd702ede9db7f2fb21ced9be923e4760f53db) | docs(plans): mark agent deck epic plans done | [sase-17d.12](sase-17d.12.md) | 2026-09-25 20:01:10 EDT |
 
 <!-- sase:referenced-by:start -->
 

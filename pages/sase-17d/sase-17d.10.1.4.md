@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17d.10.1](sase-17d.10.1.md) / sase-17d.10.1.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.10.1.land.md) · **Assignee:** `sase-17d.10.1.4.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.10.1.land.md) · **Assignee:** `sase-17d.10.1.4.land`
 **Created:** 2026-09-24 17:30:37 EDT · **Closed:** 2026-09-24 22:21:09 EDT
 **Plan:** [202609/deck\_cutover\_landing\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202609/deck_cutover_landing_repairs.md)
 

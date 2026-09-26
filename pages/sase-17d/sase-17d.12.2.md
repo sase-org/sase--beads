@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17d.12](sase-17d.12.md) / sase-17d.12.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.land.md) · **Assignee:** `sase-17d.12.2` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.land.md) · **Assignee:** `sase-17d.12.2` · **Size:** medium
 **Created:** 2026-09-25 08:46:15 EDT · **Closed:** 2026-09-25 17:30:50 EDT
 **Plan:** [202609/finish\_agent\_decks\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202609/finish_agent_decks_landing.md)
 
@@ -36,7 +36,7 @@ spread-live-inspection: capture live sase screenshot PNGs of a single spread Mai
 ## Dependencies
 
 - **Depends on:** [sase-17d.12.1](sase-17d.12.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17d.12.3](sase-17d.12.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17d.12.3](sase-17d.12.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -49,3 +49,15 @@ spread-live-inspection: capture live sase screenshot PNGs of a single spread Mai
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`59bf17d`](https://github.com/sase-org/sase/commit/59bf17d53fa39d9bd31b66cd3375c42b59b1290c) | fix(tui): scroll spread Ctrl+J onto the titled separator | [sase-17d.12.2](sase-17d.12.2.md) | 2026-09-25 18:53:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17d.12.2--3][1] | Need current bead status and close notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.12.2.md
+
+<!-- sase:referenced-by:end -->

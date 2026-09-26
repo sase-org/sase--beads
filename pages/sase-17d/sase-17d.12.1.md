@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17d.12](sase-17d.12.md) / sase-17d.12.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17d.land.md) · **Assignee:** `sase-17d.12.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17d.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17d.land.md) · **Assignee:** `sase-17d.12.1` · **Size:** medium
 **Created:** 2026-09-25 08:46:14 EDT · **Closed:** 2026-09-25 09:20:29 EDT
 **Plan:** [202609/finish\_agent\_decks\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202609/finish_agent_decks_landing.md)
 
@@ -18,7 +18,7 @@ files-spread-probe: fix DeckPanelFilesMixin.on_worker_state_changed so the Files
 ## Dependencies
 
 - **Blocks:** [sase-17d.12.2](sase-17d.12.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17d.12.3](sase-17d.12.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17d.12.3](sase-17d.12.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
