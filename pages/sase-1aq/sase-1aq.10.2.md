@@ -26,7 +26,7 @@ unified_proof: finish the original unified live proof and the remaining fault ca
 ## Dependencies
 
 - **Depends on:** [sase-1aq.10.1](sase-1aq.10.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.10.3](sase-1aq.10.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.3](sase-1aq.10.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -39,3 +39,15 @@ unified_proof: finish the original unified live proof and the remaining fault ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`29f8240`](https://github.com/sase-org/sase/commit/29f8240df594e321befb65d0881bbbdd7feff6ee) | fix(mobile-gateway): pass bare sase exe for bridge commands (sase-1aq.10.2) | [sase-1aq.10.2](sase-1aq.10.2.md) | 2026-09-26 18:58:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.2.md
+
+<!-- sase:referenced-by:end -->

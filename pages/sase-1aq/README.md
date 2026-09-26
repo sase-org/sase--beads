@@ -48,9 +48,9 @@ flowchart TD
     n2["sase-1aq.10: Finish the live dispatch, parity, and memory gates of sase-1aq [in_progress]"]
     n3["sase-1aq.10.1: Reconcile the uncertain dispatch and close the accepted snapshot proof [closed]"]
     n4["sase-1aq.10.2: Complete the unified live dispatch and exact-operation matrix [closed]"]
-    n5["sase-1aq.10.3: Land the original remote-dispatch epic chain [in_progress]"]
-    n6["sase-1aq.10.4: Prove and land deployed owner-to-viewer Agents parity [in_progress]"]
-    n7["sase-1aq.10.5: Publish the landed hold and dispatch guidance [in_progress]"]
+    n5["sase-1aq.10.3: Land the original remote-dispatch epic chain [closed]"]
+    n6["sase-1aq.10.4: Prove and land deployed owner-to-viewer Agents parity [closed]"]
+    n7["sase-1aq.10.5: Publish the landed hold and dispatch guidance [closed]"]
     n8["sase-1aq.10.6: Audit the backlog and close sase-1ae and sase-1aq [in_progress]"]
     n9["sase-1aq.2: Verify and land the existing hold epics [closed]"]
     n10["sase-1aq.3: Finish released runtime adoption for remote dispatch [closed]"]
@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.2.md) | [sase-1aq.10.2](sase-1aq.10.2.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.3/README.md) | [sase-1aq.10.3](sase-1aq.10.3.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.4/README.md) | [sase-1aq.10.4](sase-1aq.10.4.md) | 0 |
-| [bbugyi200.apollo.sase-1aq.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md) | [sase-1aq.10.5](sase-1aq.10.5.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md) | [sase-1aq.10.5](sase-1aq.10.5.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.6/README.md) | [sase-1aq.10.6](sase-1aq.10.6.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.land/README.md) | [sase-1aq.10](sase-1aq.10.md) | 0 |
 
@@ -111,6 +111,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`29f8240`](https://github.com/sase-org/sase/commit/29f8240df594e321befb65d0881bbbdd7feff6ee) | fix(mobile-gateway): pass bare sase exe for bridge commands (sase-1aq.10.2) | [sase-1aq.10.2](sase-1aq.10.2.md) | 2026-09-26 18:58:58 EDT |
+| sase | [`e2ce63e`](https://github.com/sase-org/sase/commit/e2ce63eacf6d9813c386c5dfbeda2399c30ded17) | docs(memory): publish hold admission and proc queue guidance plus pull/fail-open decision | [sase-1aq.10.5](sase-1aq.10.5.md) | 2026-09-26 19:40:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

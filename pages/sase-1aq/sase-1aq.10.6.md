@@ -13,7 +13,7 @@ final_audit: finish the memory census and verify every requested descendant and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1aq.10.5](sase-1aq.10.5.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.10.5](sase-1aq.10.5.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
