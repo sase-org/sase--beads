@@ -24,7 +24,7 @@ python_contract: expose strict Python wires and config, then pin a core revision
 ## Dependencies
 
 - **Depends on:** [sase-1au.1](sase-1au.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1au.4](sase-1au.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.4](sase-1au.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

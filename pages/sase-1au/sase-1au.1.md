@@ -18,7 +18,7 @@ stash_lifecycle: implement the atomic Rust stash lifecycle, binding, backup, and
 ## Dependencies
 
 - **Blocks:** [sase-1au.2](sase-1au.2.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1au.4](sase-1au.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.4](sase-1au.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

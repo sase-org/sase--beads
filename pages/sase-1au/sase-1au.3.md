@@ -25,7 +25,7 @@ prompts_shell: build a lazy tabbed modal with preserved Stash, History, and orig
 
 ## Dependencies
 
-- **Blocks:** [sase-1au.4](sase-1au.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.4](sase-1au.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -38,3 +38,15 @@ prompts_shell: build a lazy tabbed modal with preserved Stash, History, and orig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7b209fc`](https://github.com/sase-org/sase/commit/7b209fc9d176eaa375b0193e1f766c21ce789b76) | feat(ace-tui): lazy tabbed PromptsModal with preserved Stash and History behavior | [sase-1au.3](sase-1au.3.md) | 2026-09-26 16:32:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1au.3--2][1] | final declaration recovery | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.3.md
+
+<!-- sase:referenced-by:end -->

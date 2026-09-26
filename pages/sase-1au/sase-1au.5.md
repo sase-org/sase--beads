@@ -13,7 +13,7 @@ rollout_polish: route all shortcuts to the complete overlay and finish docs, glo
 
 ## Dependencies
 
-- **Depends on:** [sase-1au.4](sase-1au.4.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1au.4](sase-1au.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

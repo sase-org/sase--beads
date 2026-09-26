@@ -30,7 +30,7 @@ One reliable Prompts overlay unifies draft recall while bounded, transactional T
 | [sase-1au.1](sase-1au.1.md) | Transactional stash trash in Rust core | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1au.2](sase-1au.2.md) | Python contract, configuration, and upgrade boundary | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1au.3](sase-1au.3.md) | Reusable Prompts overlay and existing Stash and History panes | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1au.4](sase-1au.4.md) | Trash pane and reliable staged actions | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [sase-1au.4](sase-1au.4.md) | Trash pane and reliable staged actions | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1au.5](sase-1au.5.md) | Atomic entry-point rollout, documentation, and visual acceptance | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n1["sase-1au.1: Transactional stash trash in Rust core [closed]"]
     n2["sase-1au.2: Python contract, configuration, and upgrade boundary [closed]"]
     n3["sase-1au.3: Reusable Prompts overlay and existing Stash and History panes [closed]"]
-    n4["sase-1au.4: Trash pane and reliable staged actions [in_progress]"]
+    n4["sase-1au.4: Trash pane and reliable staged actions [closed]"]
     n5["sase-1au.5: Atomic entry-point rollout, documentation, and visual acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1au.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.1/README.md) | [sase-1au.1](sase-1au.1.md) | 1 |
 | [bbugyi200.athena.sase-1au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.2/README.md) | [sase-1au.2](sase-1au.2.md) | 1 |
 | [bbugyi200.athena.sase-1au.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.3.md) | [sase-1au.3](sase-1au.3.md) | 1 |
-| [bbugyi200.athena.sase-1au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.4/README.md) | [sase-1au.4](sase-1au.4.md) | 0 |
+| [bbugyi200.athena.sase-1au.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.4.md) | [sase-1au.4](sase-1au.4.md) | 1 |
 | [bbugyi200.athena.sase-1au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.5/README.md) | [sase-1au.5](sase-1au.5.md) | 0 |
 | [bbugyi200.athena.sase-1au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.land/README.md) | [sase-1au](README.md) | 0 |
 
@@ -73,3 +73,4 @@ flowchart TD
 | sase-core | [`sase-core@e44af7d`](https://github.com/sase-org/sase-core/commit/e44af7d40a6c24b447b258cac831d9ede4262980) | feat(prompt-stash): transactional stash trash lifecycle in Rust core | [sase-1au.1](sase-1au.1.md) | 2026-09-26 15:11:34 EDT |
 | sase | [`e7dc4be`](https://github.com/sase-org/sase/commit/e7dc4be959ecc5f773424673166e3dac5b51d601) | feat(prompt-stash): Python contract, config, and core pin for stash trash (sase-1au.2) | [sase-1au.2](sase-1au.2.md) | 2026-09-26 16:14:01 EDT |
 | sase | [`7b209fc`](https://github.com/sase-org/sase/commit/7b209fc9d176eaa375b0193e1f766c21ce789b76) | feat(ace-tui): lazy tabbed PromptsModal with preserved Stash and History behavior | [sase-1au.3](sase-1au.3.md) | 2026-09-26 16:32:51 EDT |
+| sase | [`4e7262d`](https://github.com/sase-org/sase/commit/4e7262d6750c337cb4ea532ff964309692829a87) | feat(ace-tui): Trash pane and reliable staged stash actions (sase-1au.4) | [sase-1au.4](sase-1au.4.md) | 2026-09-26 17:03:53 EDT |
