@@ -24,7 +24,7 @@ trash_interactions: add Trash actions, confirmations, authoritative repaint, sty
 - **Depends on:** [sase-1au.1](sase-1au.1.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1au.2](sase-1au.2.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1au.3](sase-1au.3.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1au.5](sase-1au.5.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.5](sase-1au.5.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -37,3 +37,15 @@ trash_interactions: add Trash actions, confirmations, authoritative repaint, sty
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4e7262d`](https://github.com/sase-org/sase/commit/4e7262d6750c337cb4ea532ff964309692829a87) | feat(ace-tui): Trash pane and reliable staged stash actions (sase-1au.4) | [sase-1au.4](sase-1au.4.md) | 2026-09-26 17:03:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1au.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.4.md
+
+<!-- sase:referenced-by:end -->
