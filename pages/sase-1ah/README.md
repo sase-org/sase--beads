@@ -56,8 +56,8 @@ flowchart TD
     n6["sase-1ah.6: Gate prepared completion on a covering receipt [closed]"]
     n7["sase-1ah.7: Prove acceptance and remove the beta flag [closed]"]
     n8["sase-1ah.8: Complete E4 receipt reporting and live acceptance [in_progress]"]
-    n9["sase-1ah.8.1: Put opportunity facts in the Rust core [in_progress]"]
-    n10["sase-1ah.8.2: Adopt the core report and released wheel [in_progress]"]
+    n9["sase-1ah.8.1: Put opportunity facts in the Rust core [closed]"]
+    n10["sase-1ah.8.2: Adopt the core report and released wheel [closed]"]
     n11["sase-1ah.8.3: Demonstrate prepared completion and record the owner check [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 2 |
 | [bbugyi200.athena.sase-1ah.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md) | [sase-1ah.7](sase-1ah.7.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.1.md) | [sase-1ah.8.1](sase-1ah.8.1.md) | 1 |
-| [bbugyi200.athena.sase-1ah.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md) | [sase-1ah.8.2](sase-1ah.8.2.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md) | [sase-1ah.8.2](sase-1ah.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.3/README.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.land/README.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
 | [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.land.md) | [sase-1ah](README.md) | 0 |
@@ -111,6 +111,7 @@ flowchart TD
 | sase-core | [`sase-core@e654e7c`](https://github.com/sase-org/sase-core/commit/e654e7cc4ae31c0e13e03bead38ba42c4e08c445) | feat(continuation): accept-policy wires for verdict completion (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:28:31 EDT |
 | sase | [`3065117`](https://github.com/sase-org/sase/commit/3065117500eb3c007c6993177803022d3b1ccf7e) | feat(tool): remove tool\_receipts flag and land receipt proof contract | [sase-1ah.7](sase-1ah.7.md) | 2026-09-26 13:09:11 EDT |
 | sase-core | [`sase-core@0cf5147`](https://github.com/sase-org/sase-core/commit/0cf51478f9f7c4c0be8f4b0446b9abfd58945c01) | feat(tool-run): add versioned receipts opportunity report in Rust core | [sase-1ah.8.1](sase-1ah.8.1.md) | 2026-09-26 14:49:55 EDT |
+| sase | [`f7886b1`](https://github.com/sase-org/sase/commit/f7886b1a64dab09bb7bc85846f6b838dd6b955bc) | feat(tool): adopt Rust core receipts opportunity report (sase-1ah.8.2) | [sase-1ah.8.2](sase-1ah.8.2.md) | 2026-09-26 17:42:59 EDT |
 
 <!-- sase:referenced-by:start -->
 

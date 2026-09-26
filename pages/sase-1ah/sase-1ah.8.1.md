@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ah.8](sase-1ah.8.md) / sase-1ah.8.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.land.md) · **Assignee:** `sase-1ah.8.1` · **Size:** large
-**Created:** 2026-09-26 13:37:30 EDT
+**Created:** 2026-09-26 13:37:30 EDT · **Closed:** 2026-09-26 17:24:02 EDT
 **Plan:** [202609/e4\_landing\_remainder.md](https://github.com/sase-org/sase--plans/blob/main/202609/e4_landing_remainder.md)
 
 ## Description
@@ -19,7 +19,7 @@ rust-opportunity-report: implement the bounded, read-only receipt and content-eq
 
 ## Dependencies
 
-- **Blocks:** [sase-1ah.8.2](sase-1ah.8.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.8.2](sase-1ah.8.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -32,3 +32,17 @@ rust-opportunity-report: implement the bounded, read-only receipt and content-eq
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@0cf5147`](https://github.com/sase-org/sase-core/commit/0cf51478f9f7c4c0be8f4b0446b9abfd58945c01) | feat(tool-run): add versioned receipts opportunity report in Rust core | [sase-1ah.8.1](sase-1ah.8.1.md) | 2026-09-26 14:49:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0sz][1] | Identify actual blockers and last progress on E4 receipt landing | 1 |
+| read-by | [agent:sase-1ah.8.1--1][2] | Implement approved rust opportunity facts phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0sz/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.1.md
+
+<!-- sase:referenced-by:end -->

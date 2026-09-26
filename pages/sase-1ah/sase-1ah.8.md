@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/e4_landing_remainder.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/e4_landing_remainder.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Move receipt opportunity facts into the Rust core, require a released receipt-ca
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.land/README.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0sz][1] | Find each epic status, child phase, notes, and blockers for the requested stall report | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0sz/README.md
+
+<!-- sase:referenced-by:end -->

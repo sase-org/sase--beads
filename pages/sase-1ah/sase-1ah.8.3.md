@@ -13,10 +13,22 @@ live-acceptance: run focused and required check gates, demonstrate live athena p
 
 ## Dependencies
 
-- **Depends on:** [sase-1ah.8.2](sase-1ah.8.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ah.8.2](sase-1ah.8.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.3/README.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0sz][1] | Identify actual blockers and last progress on E4 receipt landing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0sz/README.md
+
+<!-- sase:referenced-by:end -->
