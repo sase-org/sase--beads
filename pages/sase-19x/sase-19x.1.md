@@ -32,3 +32,15 @@ card-block-model: add the transparent CardBlock and BlockSpreadOnly wrappers, va
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`671a611`](https://github.com/sase-org/sase/commit/671a6116c5d7ae9f5567497538dbac4bceffc084) | feat(decks): add CardBlock data model, walkers and block anchors | [sase-19x.1](sase-19x.1.md) | 2026-09-25 22:08:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.1--1][1] | Verify phase scope before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.1.md
+
+<!-- sase:referenced-by:end -->

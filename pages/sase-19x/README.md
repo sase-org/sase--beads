@@ -17,7 +17,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 |---|---|---|---|---|---:|---:|
 | [sase-19x.1](sase-19x.1.md) | CardBlock data model, walkers and block anchors | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.10](sase-19x.10.md) | User docs for card blocks | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
-| [sase-19x.2](sase-19x.2.md) | Pure block cursor, block-mode decision and config key | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
+| [sase-19x.2](sase-19x.2.md) | Pure block cursor, block-mode decision and config key | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19x.3](sase-19x.3.md) | Session Reply cards emit one block per sase shell | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19x.4](sase-19x.4.md) | Blocks for the legacy followup\_agents Reply path | ◐ in_progress | small | 2026-09-25 | 1 | 0 |
 | [sase-19x.5](sase-19x.5.md) | Block-paged projection, newest landing and the card\_blocks flag | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n0["sase-19x: Agent data card blocks - per-shell blocks for the session Reply card [in_progress]"]
     n1["sase-19x.1: CardBlock data model, walkers and block anchors [closed]"]
     n2["sase-19x.10: User docs for card blocks [in_progress]"]
-    n3["sase-19x.2: Pure block cursor, block-mode decision and config key [in_progress]"]
+    n3["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
     n4["sase-19x.3: Session Reply cards emit one block per sase shell [in_progress]"]
     n5["sase-19x.4: Blocks for the legacy followup_agents Reply path [in_progress]"]
     n6["sase-19x.5: Block-paged projection, newest landing and the card_blocks flag [in_progress]"]
@@ -70,7 +70,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-19x.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.1.md) | [sase-19x.1](sase-19x.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md) | [sase-19x.10](sase-19x.10.md) | 0 |
-| [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 0 |
+| [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.3/README.md) | [sase-19x.3](sase-19x.3.md) | 0 |
 | [bbugyi200.athena.sase-19x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.4/README.md) | [sase-19x.4](sase-19x.4.md) | 0 |
 | [bbugyi200.athena.sase-19x.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.5/README.md) | [sase-19x.5](sase-19x.5.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`671a611`](https://github.com/sase-org/sase/commit/671a6116c5d7ae9f5567497538dbac4bceffc084) | feat(decks): add CardBlock data model, walkers and block anchors | [sase-19x.1](sase-19x.1.md) | 2026-09-25 22:08:40 EDT |
+| sase | [`465a885`](https://github.com/sase-org/sase/commit/465a8858b99e2c9d5b978ceaac9003ca6030b5eb) | feat(ace): add pure block cursor model and block spread config key | [sase-19x.2](sase-19x.2.md) | 2026-09-25 23:11:06 EDT |
