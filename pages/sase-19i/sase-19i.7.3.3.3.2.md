@@ -34,3 +34,15 @@ paint-and-broad: trim first-paint pump work and broad refilter while preserving 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0a74b4f`](https://github.com/sase-org/sase/commit/0a74b4f25ca52cd0c4de862ff49133c6db7a6465) | perf(node-finder): pass broad/narrow refilter budgets and cut open path (sase-19i.7.3.3.3.2) | [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) | 2026-09-26 17:53:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.3.3.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.2/README.md
+
+<!-- sase:referenced-by:end -->
