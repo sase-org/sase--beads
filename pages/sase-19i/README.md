@@ -19,6 +19,8 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 
 [2026-09-26T01:13:18Z · sase-17x.13.10.land] Update from the sase-17x.13.10 land agent: the marker path-passing audit failure (node_finder_preview_loader.py:_source_paths) still reproduces on origin/master 013a17072; the audit's reviewed list does not name the loader.
 
+[2026-09-26T10:01:44Z · sase-19i.land] LAND REVIEW 2026-09-26: Six phases closed. Marker-path audit note #1-3 now addressed at tests/test_agent_artifact_marker_path_passing_audit.py:_source_paths; targeted audit 2/2 passed. No sase-19i epic-symbol entries remain. Later CardBlock/Agent Session Reply changes do not alter the Node Finder's plain-text modal preview; queue/session and Symvision clean-base reports from phase notes have subsequent fixes. Performance remains epic work: current 2,000-node bench open p50 166.50ms/p95 436.58ms vs <50ms, highlight p95 19.49ms vs <16ms; narrow keystroke p95 0.40ms passes, while phase .5 also reports ~190ms broad-query refilter. A child epic plan is being proposed for these remaining performance paths. Original PROPOSED FOLLOW-UP notes still require final noncausal triage in the resumed land review after child landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -41,18 +43,25 @@ flowchart TD
     n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [closed]"]
     n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [closed]"]
     n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [closed]"]
+    n7["sase-19i.7: Finish Node Finder performance budgets [in_progress]"]
+    n8["sase-19i.7.1: Bound snapshot and broad-query filter work [closed]"]
+    n9["sase-19i.7.2: Meet first-paint, broad-query, and highlight budgets [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
+    n0 --> n7
+    n7 --> n8
+    n7 --> n9
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
+    n8 -.-> n9
 ```
 
 ## Agents
@@ -65,7 +74,10 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.4.md) | [sase-19i.4](sase-19i.4.md) | 1 |
 | [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.5.md) | [sase-19i.5](sase-19i.5.md) | 1 |
 | [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.6.md) | [sase-19i.6](sase-19i.6.md) | 1 |
-| [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.land/README.md) | [sase-19i](README.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.1.md) | [sase-19i.7.1](sase-19i.7.1.md) | 1 |
+| [bbugyi200.athena.sase-19i.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.2/README.md) | [sase-19i.7.2](sase-19i.7.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.land/README.md) | [sase-19i.7](sase-19i.7.md) | 0 |
+| [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.land.md) | [sase-19i](README.md) | 0 |
 
 ## Commits
 
@@ -77,6 +89,7 @@ flowchart TD
 | sase | [`89ebc76`](https://github.com/sase-org/sase/commit/89ebc76256aeefdb28c1e1acfc05469ecfe32cb6) | feat(ace): add the Agents-tab Node Finder modal | [sase-19i.4](sase-19i.4.md) | 2026-09-25 21:20:40 EDT |
 | sase | [`df0d58d`](https://github.com/sase-org/sase/commit/df0d58d337f06b8e20878ebc0734a6309041c647) | feat(agents-finder): wire quotation\_mark to jump\_to\_node with goldens and bench | [sase-19i.5](sase-19i.5.md) | 2026-09-25 23:45:37 EDT |
 | sase | [`aa5fc55`](https://github.com/sase-org/sase/commit/aa5fc5503b05cea27667575a010889d65d1608ff) | feat(ace): add hidden node finder reveal coverage | [sase-19i.6](sase-19i.6.md) | 2026-09-26 00:17:16 EDT |
+| sase | [`f62604e`](https://github.com/sase-org/sase/commit/f62604e712dde4092da845f3c5edce6023f1da96) | perf(node-finder): bound snapshot and broad-query filter work (sase-19i.7.1) | [sase-19i.7.1](sase-19i.7.1.md) | 2026-09-26 06:40:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
