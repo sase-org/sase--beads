@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-19f
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1o](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.1o.md) · **Assignee:** `sase-19f.land`
-**Created:** 2026-09-25 12:24:33 EDT
+**Created:** 2026-09-25 12:24:33 EDT · **Closed:** 2026-09-26 09:43:25 EDT
 **Plan:** [202609/queue\_capacity\_multiplier.md](https://github.com/sase-org/sase--plans/blob/main/202609/queue_capacity_multiplier.md)
 
 ## Description
@@ -21,6 +21,10 @@ The `%queue` / `%q` capacity argument accepts a multiplier `<M>x` (at most two d
 
 [2026-09-26T08:37:31Z · sase-19f.land] LANDING AUDIT / INTERRUPTION (2026-09-26): Reviewed epic and all five child notes plus sase-core commits f55c63b/96e42d9, sase plumbing 6beedbc11, research plugin 416c5b1, and later master changes. Core parsing/admission/plumbing and research template are present. The phase sase-19f.4 note reports TUI/CLI surfaces but there is no phase-4 commit and current source has no queue_capacity_multiplier in src/sase/ace or src/sase/integrations; phase 4 is materially incomplete despite its closed status. Proposing a nested epic for only those missing surfaces with parent_bead sase-19f. Keep parent open until it lands. Follow-ups: phase 1/2 clean-base Clippy warnings routed to active green-CI epic sase-10w (new note); phase 3 xprompts.md memory correction filed as task sase-1ac per memory-write policy and original plan deferral; phase 3 _OwnerRecordLookup private import no longer exists (declined as already fixed); phase 5 published core floor corroborated on existing release-and-ratchet task sase-10d (+1, PyPI 0.34.73 predates parse commit). Epic notes #1-3: completion assertion updated; test-fake field repaired in fffdaeb3e, existing task sase-1a5 still needs closure after verification. Three sase-19f epic-symbol entries remain intentionally pending the surface implementation. Parent plan remains wip.
 
+[2026-09-26T13:43:25Z · sase-19f.6.4.land] Final ancestor landing recheck: reviewed prior landing audit note #4, all five phase notes, nested epic sase-19f.6 and its descendants, linked plan, and post-child drift. The earlier false-positive phase-4 close was repaired by commits 73c47eb84f, 5f676a28e8, 2f88d1eaa7 and d365706297; current TUI/CLI source carries, renders and edits authored multipliers, with loaded explicit=false display fixed. Focused display/projection/edit suite passed 39/39; new commits 6f18d28292 and 972acbe902 do not change queue capacity integration. All descendants are closed, child plans are done, this plan and links validate, and epic-symbols is empty. Prior follow-ups remain correctly routed: core clean-base Clippy to active sase-10w note #8; xprompts memory correction task sase-1ac done; _OwnerRecordLookup import vanished, so no task; research plugin published core floor on ready task sase-10d (+1); completion assertion updated; AgentInfo fake regressions fixed in fffdaeb3e and task sase-1a5 closed. New child-phase flake proposals were triaged on sase-19f.6 as tasks sase-1ak, sase-1al and +1 on sase-nr; closed sase-19x.4 Symvision entries are recorded on active causal epic sase-19x. Post-close just symvision on the descendants reports only those three unrelated 19x.4 stale exemptions. Required check ToolRun d190e80c5ed4c9e63deb9662cd86a27f classified them KNOWN and remains active in core setup.
+
+[2026-09-26T14:32:03Z · sase-19f.6.4.land] Final check settlement for nested landing: ToolRun d190e80c5ed4c9e63deb9662cd86a27f exited 1 with verdict no_new_failures (12 KNOWN signatures): 48000 passed, 27 skipped, 14 failures in unrelated ACE startup/chrome/project-tag/semicolon tests, plus the three stale sase-19x.4 Symvision exemptions already routed to active sase-19x. No queue-multiplier tests failed; the semicolon flake recurrence was added to task sase-1al. Focused multiplier tests passed 39/39, linked plans are done and validate, and all sase-19f epic-symbol lists are empty. Full details recorded on child epic sase-19f.6.4.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -35,17 +39,17 @@ The `%queue` / `%q` capacity argument accepts a multiplier `<M>x` (at most two d
 
 ```mermaid
 flowchart TD
-    n0["sase-19f: %queue capacity multiplier (&lt;M&gt;x) [in_progress]"]
+    n0["sase-19f: %queue capacity multiplier (&lt;M&gt;x) [closed]"]
     n1["sase-19f.1: Rust multiplier syntax, formatting, launch wires, and editor metadata [closed]"]
     n2["sase-19f.2: Rust admission resolution, scan records, and fleet contract [closed]"]
     n3["sase-19f.3: sase launch, persistence, admission, and continuation plumbing [closed]"]
     n4["sase-19f.4: TUI and CLI display plus capacity editing surfaces [closed]"]
     n5["sase-19f.5: Research swarm authors a 1.5x capacity multiplier [closed]"]
-    n6["sase-19f.6: Finish queue multiplier display and editing surfaces [in_progress]"]
+    n6["sase-19f.6: Finish queue multiplier display and editing surfaces [closed]"]
     n7["sase-19f.6.1: Carry multiplier through TUI agent models and loaders [closed]"]
     n8["sase-19f.6.2: Render multiplier capacity and expose agent-list JSON [closed]"]
     n9["sase-19f.6.3: Accept and preserve multiplier capacity in wait and directive editors [closed]"]
-    n10["sase-19f.6.4: Show loaded queue multipliers on TUI capacity surfaces [in_progress]"]
+    n10["sase-19f.6.4: Show loaded queue multipliers on TUI capacity surfaces [closed]"]
     n11["sase-19f.6.4.1: Render loaded multipliers on the remaining TUI surfaces [closed]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-19f.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.2/README.md) | [sase-19f.6.2](sase-19f.6.2.md) | 1 |
 | [bbugyi200.apollo.sase-19f.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.3.md) | [sase-19f.6.3](sase-19f.6.3.md) | 1 |
 | [bbugyi200.apollo.sase-19f.6.4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.4.1.md) | [sase-19f.6.4.1](sase-19f.6.4.1.md) | 1 |
-| [bbugyi200.apollo.sase-19f.6.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.4.land/README.md) | [sase-19f.6.4](sase-19f.6.4.md) | 0 |
+| [bbugyi200.apollo.sase-19f.6.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.4.land/README.md) | [sase-19f.6.4](sase-19f.6.4.md) | 1 |
 | [bbugyi200.apollo.sase-19f.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.land.md) | [sase-19f.6](sase-19f.6.md) | 0 |
 | [bbugyi200.apollo.sase-19f.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.land.md) | [sase-19f](README.md) | 0 |
 
@@ -94,6 +98,7 @@ flowchart TD
 | sase | [`5f676a2`](https://github.com/sase-org/sase/commit/5f676a28e8b3b3c9a7f3378200e448b60b75f9cd) | feat(ace-tui): render queue capacity multiplier end to end | [sase-19f.6.2](sase-19f.6.2.md) | 2026-09-26 07:07:11 EDT |
 | sase | [`2f88d1e`](https://github.com/sase-org/sase/commit/2f88d1eaa7f34ddf03a6dd016d5487452abba064) | feat(ace-tui): accept and preserve multiplier capacity in wait and directive editors | [sase-19f.6.3](sase-19f.6.3.md) | 2026-09-26 07:45:04 EDT |
 | sase | [`d365706`](https://github.com/sase-org/sase/commit/d36570629759384df88a0c3ef4c818cdfd7b8d88) | feat(ace-tui): render loaded queue multipliers as authored capacity (sase-19f.6.4.1) | [sase-19f.6.4.1](sase-19f.6.4.1.md) | 2026-09-26 08:49:06 EDT |
+| sase--plans | [`sase--plans@a18218f`](https://github.com/sase-org/sase--plans/commit/a18218f77fc3b41242d05f6ba7678925cb9bd6eb) | docs(plans): mark queue multiplier epic plans done | [sase-19f.6.4](sase-19f.6.4.md) | 2026-09-26 10:33:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
