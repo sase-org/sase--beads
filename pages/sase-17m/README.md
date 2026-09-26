@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 1 |
 | [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md) | [sase-17m.9](sase-17m.9.md) | 1 |
-| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 2 |
+| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 3 |
 
 ## Commits
 
@@ -293,6 +293,7 @@ flowchart TD
 | chezmoi | [`chezmoi@d879385`](https://github.com/bbugyi200/dotfiles/commit/d87938507a4758fcb0d4bdb14c1d41849fbb3e50) | feat(ace): rename snippet af/agent family to as/agent session | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:51:49 EDT |
 | sase | [`22e5414`](https://github.com/sase-org/sase/commit/22e5414a9f6c7ac09518506ac0f6290cee105eb8) | fix(agent-session): finish the sase-17m landing | [sase-17m](README.md) | 2026-09-25 22:09:44 EDT |
 | sase-core | [`sase-core@3955499`](https://github.com/sase-org/sase-core/commit/395549968b678e54068699cca4622190deaf3f37) | docs(agent-session): drop the last agent-family prose in core contracts | [sase-17m](README.md) | 2026-09-25 22:15:11 EDT |
+| sase--plans | [`sase--plans@8feee49`](https://github.com/sase-org/sase--plans/commit/8feee49d086d38521cc3a6673d90deab08580202) | chore(plans): mark agent\_session\_rename done | [sase-17m](README.md) | 2026-09-25 22:19:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
