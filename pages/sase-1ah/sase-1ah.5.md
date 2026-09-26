@@ -24,7 +24,7 @@ opportunity-report: list receipts and report content-addressed repeat opportunit
 ## Dependencies
 
 - **Depends on:** [sase-1ah.4](sase-1ah.4.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ah.7](sase-1ah.7.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.7](sase-1ah.7.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
