@@ -13,7 +13,7 @@ density_polish: add cached health badges before default folding, then verify vis
 
 ## Dependencies
 
-- **Depends on:** [sase-1af.3](sase-1af.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1af.3](sase-1af.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

@@ -20,7 +20,7 @@ python_origin: ratchet the core revision and expose typed origin through cached 
 ## Dependencies
 
 - **Depends on:** [sase-1af.1](sase-1af.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1af.3](sase-1af.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1af.3](sase-1af.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
