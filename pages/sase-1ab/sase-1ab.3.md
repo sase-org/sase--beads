@@ -27,7 +27,7 @@ runtime-cutover: rename every non-TUI package, module, and identifier (gate_shel
 
 - **Depends on:** [sase-1ab.2](sase-1ab.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.4](sase-1ab.4.md) ◐ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.5](sase-1ab.5.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.5](sase-1ab.5.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.6](sase-1ab.6.md) ✓ · ⧖ 2026-09-26
 
 ## Agents

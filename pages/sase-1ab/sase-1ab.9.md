@@ -13,7 +13,7 @@ audit-deploy: add the sase-turn terminology guard test, sweep and classify every
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.5](sase-1ab.5.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.5](sase-1ab.5.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1ab.8](sase-1ab.8.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
