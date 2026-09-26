@@ -32,3 +32,15 @@ widget_adoption: adopt the core selection result in the Python widget, update th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e922c42`](https://github.com/sase-org/sase/commit/e922c424e2e8bd22aac06fdb69c255ff15f33863) | feat(ace): adopt shared model-shortcut edits in prompt widget (sase-1ao.2) | [sase-1ao.2](sase-1ao.2.md) | 2026-09-26 12:33:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ao.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.2.md
+
+<!-- sase:referenced-by:end -->
