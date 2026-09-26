@@ -34,3 +34,15 @@ legacy-reply-visual: inspect the still-reachable legacy followup_agents Reply he
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`37c8b79`](https://github.com/sase-org/sase/commit/37c8b79fe4a9b8ded5ab1f91bfa0f203c88c1e3d) | fix(ace-tui): keep legacy followup Reply phase boundary in hint mode | [sase-19x.11.2](sase-19x.11.2.md) | 2026-09-26 16:42:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.2][1] | full description and notes for legacy-reply-visual phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.2/README.md
+
+<!-- sase:referenced-by:end -->

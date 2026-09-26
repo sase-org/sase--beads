@@ -60,7 +60,7 @@ PROPOSED FOLLOW-UP outcomes (carry these into the final close note):
 - .8 #1 live block-rail pill capture: phase .9 captured and inspected seven block PNGs plus live TUI captures; no pill defect reported. A direct legacy Reply visual remains in child plan. .8 #2 executor.py toobig: corroborated sase-1a9. .8 #3 clean-base header scroll assertion still fails serially and was routed to active red-master CI epic sase-th; project_tags/VCS/axe are green after restoring Rust; stale Symvision entries cleared. The vague usage transport deadline observation has no node or repeatable evidence and is declined pending reproduction.
 - .9 #2 ScrollBar.position stale across block mode switch is real:
 
-… and 1418 more characters
+… and 2415 more characters
 
 ## Phases
 
@@ -89,14 +89,17 @@ flowchart TD
     n5["sase-19x.11.2: Verify the legacy followup Reply block heading visually [closed]"]
     n6["sase-19x.11.3: Verify and improve card-block navigation latency [closed]"]
     n7["sase-19x.11.4: Add the Agent Data Card Block glossary term [closed]"]
-    n8["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
-    n9["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
-    n10["sase-19x.4: Blocks for the legacy followup_agents Reply path [closed]"]
-    n11["sase-19x.5: Block-paged projection, newest landing and the card_blocks flag [closed]"]
-    n12["sase-19x.6: Block-spread and deck-spread block navigation and transitions [closed]"]
-    n13["sase-19x.7: The [ and ] card-block keys, gating, footer, help and palette [closed]"]
-    n14["sase-19x.8: The one-row block rail [closed]"]
-    n15["sase-19x.9: Remove the flag, add goldens, inspect live, and bench [closed]"]
+    n8["sase-19x.11.5: Repair card-block landing lint and memory drift [in_progress]"]
+    n9["sase-19x.11.5.1: Make the block scrollbar sync helper public [in_progress]"]
+    n10["sase-19x.11.5.2: Restore the creation-reason paragraph in generated bead memory [closed]"]
+    n11["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
+    n12["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
+    n13["sase-19x.4: Blocks for the legacy followup_agents Reply path [closed]"]
+    n14["sase-19x.5: Block-paged projection, newest landing and the card_blocks flag [closed]"]
+    n15["sase-19x.6: Block-spread and deck-spread block navigation and transitions [closed]"]
+    n16["sase-19x.7: The [ and ] card-block keys, gating, footer, help and palette [closed]"]
+    n17["sase-19x.8: The one-row block rail [closed]"]
+    n18["sase-19x.9: Remove the flag, add goldens, inspect live, and bench [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -104,27 +107,30 @@ flowchart TD
     n3 --> n5
     n3 --> n6
     n3 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
+    n3 --> n8
+    n8 --> n9
+    n8 --> n10
     n0 --> n11
     n0 --> n12
     n0 --> n13
     n0 --> n14
     n0 --> n15
-    n1 -.-> n9
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n1 -.-> n12
     n4 -.-> n5
     n4 -.-> n6
-    n8 -.-> n11
-    n9 -.-> n10
-    n9 -.-> n11
-    n10 -.-> n15
-    n11 -.-> n12
-    n11 -.-> n13
+    n11 -.-> n14
+    n12 -.-> n13
     n12 -.-> n14
-    n13 -.-> n15
+    n13 -.-> n18
     n14 -.-> n15
-    n15 -.-> n2
+    n14 -.-> n16
+    n15 -.-> n17
+    n16 -.-> n18
+    n17 -.-> n18
+    n18 -.-> n2
 ```
 
 ## Agents
@@ -137,7 +143,10 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.2/README.md) | [sase-19x.11.2](sase-19x.11.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md) | [sase-19x.11.3](sase-19x.11.3.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md) | [sase-19x.11.4](sase-19x.11.4.md) | 1 |
-| [bbugyi200.athena.sase-19x.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.land/README.md) | [sase-19x.11](sase-19x.11.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.1/README.md) | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.2/README.md) | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 1 |
+| [bbugyi200.athena.sase-19x.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.land/README.md) | [sase-19x.11.5](sase-19x.11.5.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.land.md) | [sase-19x.11](sase-19x.11.md) | 0 |
 | [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.3/README.md) | [sase-19x.3](sase-19x.3.md) | 0 |
 | [bbugyi200.athena.sase-19x.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md) | [sase-19x.4](sase-19x.4.md) | 1 |
@@ -167,6 +176,7 @@ flowchart TD
 | sase | [`bff09e3`](https://github.com/sase-org/sase/commit/bff09e3cf1e5c052d4c614c381db71cb79b091ee) | fix(ace-tui): sync block-paged scrollbar on block-spread transition | [sase-19x.11.1](sase-19x.11.1.md) | 2026-09-26 16:17:57 EDT |
 | sase | [`37c8b79`](https://github.com/sase-org/sase/commit/37c8b79fe4a9b8ded5ab1f91bfa0f203c88c1e3d) | fix(ace-tui): keep legacy followup Reply phase boundary in hint mode | [sase-19x.11.2](sase-19x.11.2.md) | 2026-09-26 16:42:30 EDT |
 | sase | [`64fae01`](https://github.com/sase-org/sase/commit/64fae010f3674b17b485e9a7c4c2407b9214d8d5) | perf(ace-tui): cut block-cycle and sticky-Reply navigation latency (sase-19x.11.3) | [sase-19x.11.3](sase-19x.11.3.md) | 2026-09-26 16:45:35 EDT |
+| sase | [`74c89a6`](https://github.com/sase-org/sase/commit/74c89a6385bd38d1cd390d2ef833a5529ab1a796) | docs(memory): restore creation-reason contract in generated bead memory | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 2026-09-26 17:21:25 EDT |
 
 <!-- sase:referenced-by:start -->
 

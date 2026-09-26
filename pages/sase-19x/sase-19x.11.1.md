@@ -47,7 +47,9 @@ scrollbar-transition: remove the block-spread to block-paged scrollbar desynchro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19x.11.1--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19x.11.3][2] | Need sibling scrollbar fix context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md
 
 <!-- sase:referenced-by:end -->

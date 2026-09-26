@@ -50,11 +50,13 @@ card-blocks-cutover: record the flag-off vs flag-on j/k bench, then remove the c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.1--1][1] | checking closed bead that owns stale epic-symbols | 1 |
-| read-by | [agent:sase-19x.9--2][2] | Need the phase scope and design file | 1 |
-| read-by | [agent:sase-1af.5.land][3] | Need whether the open card-blocks epic still owns the surviving card_blocks definition | 1 |
+| read-by | [agent:sase-19x.11.3][2] | Need prior flag-off bench numbers from note 3 | 1 |
+| read-by | [agent:sase-19x.9--2][3] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1af.5.land][4] | Need whether the open card-blocks epic still owns the surviving card_blocks definition | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1af.5.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.9.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1af.5.land/README.md
 
 <!-- sase:referenced-by:end -->

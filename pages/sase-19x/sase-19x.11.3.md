@@ -36,3 +36,15 @@ block-performance: profile block cycling and sticky-Reply j/k, remove avoidable 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`64fae01`](https://github.com/sase-org/sase/commit/64fae010f3674b17b485e9a7c4c2407b9214d8d5) | perf(ace-tui): cut block-cycle and sticky-Reply navigation latency (sase-19x.11.3) | [sase-19x.11.3](sase-19x.11.3.md) | 2026-09-26 16:45:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md
+
+<!-- sase:referenced-by:end -->
