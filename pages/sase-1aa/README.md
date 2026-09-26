@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1aa
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.1t](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.1t.md) · **Assignee:** `sase-1aa.land`
-**Created:** 2026-09-25 22:26:14 EDT
+**Created:** 2026-09-25 22:26:14 EDT · **Closed:** 2026-09-26 11:16:16 EDT
 **Plan:** [202609/model\_catalog\_maintenance.md](https://github.com/sase-org/sase--plans/blob/main/202609/model_catalog_maintenance.md)
 
 ## Description
@@ -19,6 +19,14 @@ Maintainers update one bundled manifest for built-in model catalogs, tier defaul
 
 [2026-09-26T12:42:43Z · sase-1aa.land] VERIFICATION: sase tool run check 5de0d0655fe4b5841b4498a98cf496e7 exited 1 after formatting, generated docs, model policy, keep-sorted, Ruff, mypy, flags, pyscripts, test waits, changelog and terminology passed. The sole failing stage was Symvision: three stale --epic-symbol entries for already-closed sase-19x.4 (phase_card_block, block_meta_for_session_shell, session_reply_heading), unrelated to this model-catalog epic. Recorded as DISCOVERED ISSUE on active epic sase-19x; no sase-1aa epic-symbols remain. SASE validation and scoped tests were not reached because check stopped at this unrelated gate. The nested remaining-work plan also now covers manual docs values discovered in this audit.
 
+[2026-09-26T15:16:16Z · sase-1aa.5.land] Rechecked after child epic sase-1aa.5 closed. All four phases and the nested epic are closed. sase bead epic-symbols sase-1aa lists nothing.
+
+Descendant notes: sase-1aa.1 #1 (F601 in tests/test_agent_artifact_marker_path_passing_audit.py) is gone; ruff check on that file passes, so the earlier decline stands. sase-1aa.1 #2 (83 usage-probe failures) stays declined: no new signature, and it was not caused by the manifest. sase-1aa.2 #1 and #2 are already the open tasks sase-1ai and sase-1aj. Phases .3 and .4 recorded no follow-ups. sase-1aa.5's follow-ups were triaged at its close: stale sase-19x.4 epic-symbol entries were corroborated on sase-o7 and on in-progress sase-19x; the 60-minute just check kill was declined as a monitor budget, not this work.
+
+The tree still matches the plan. models.yml is the bundled catalog, model_alias_defaults.yml is gone, tools/render_model_docs and the fmt-docs-check and model-policy-check gates are wired, and the parity snapshot is gone. The only non-epic commit since this epic started that touches llm_provider or the swept docs is 7cdde2b32, which adds finalizer sidecar-dirt handling and does not duplicate the catalog. Later docs/ace.md, docs/xprompt.md, and docs/tool.md edits are project tags and receipt policy.
+
+just symvision on fedf207c1 is still red only because closed phase sase-19x.4 left three Justfile exemptions. That is recorded on sase-19x and sase-o7. It is not an open sase-1aa symbol and not a reason to keep this epic open.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,12 +40,12 @@ Maintainers update one bundled manifest for built-in model catalogs, tier defaul
 
 ```mermaid
 flowchart TD
-    n0["sase-1aa: Make built-in model and size-alias updates a one-file edit [in_progress]"]
+    n0["sase-1aa: Make built-in model and size-alias updates a one-file edit [closed]"]
     n1["sase-1aa.1: Replace shipped-value copies in tests and guard the existing generated alias table [closed]"]
     n2["sase-1aa.2: Move built-in provider model data and size aliases into one manifest [closed]"]
     n3["sase-1aa.3: Validate shipped size-alias policy from the manifest [closed]"]
     n4["sase-1aa.4: Generate model tables and prove the maintainer workflow [closed]"]
-    n5["sase-1aa.5: Finish model manifest parity cleanup and maintenance proof [in_progress]"]
+    n5["sase-1aa.5: Finish model manifest parity cleanup and maintenance proof [closed]"]
     n6["sase-1aa.5.1: Remove the temporary model-catalog parity snapshot [closed]"]
     n7["sase-1aa.5.2: Replace stale model and pool enumerations with generated-table links [closed]"]
     n8["sase-1aa.5.3: Prove a synthetic manifest update across model surfaces [closed]"]
@@ -67,7 +75,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aa.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.1/README.md) | [sase-1aa.5.1](sase-1aa.5.1.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.2/README.md) | [sase-1aa.5.2](sase-1aa.5.2.md) | 0 |
 | [bbugyi200.apollo.sase-1aa.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aa.5.3.md) | [sase-1aa.5.3](sase-1aa.5.3.md) | 1 |
-| [bbugyi200.apollo.sase-1aa.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.land/README.md) | [sase-1aa.5](sase-1aa.5.md) | 0 |
+| [bbugyi200.apollo.sase-1aa.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.land/README.md) | [sase-1aa.5](sase-1aa.5.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aa.land.md) | [sase-1aa](README.md) | 0 |
 
 ## Commits
@@ -80,3 +88,4 @@ flowchart TD
 | sase | [`6a6ae5d`](https://github.com/sase-org/sase/commit/6a6ae5d102ebf9818a4bb4c52f356ffaad1b6a5f) | chore(models): remove temporary phase-1 model-catalog parity snapshot | [sase-1aa.5.1](sase-1aa.5.1.md) | 2026-09-26 09:03:34 EDT |
 | sase | [`ec25a1a`](https://github.com/sase-org/sase/commit/ec25a1a3338edf683336138a6e6819f7a5906ffa) | feat: eplace stale model and pool enumerations with generated-table links (sase-1aa.5.2) | [sase-1aa.5.2](sase-1aa.5.2.md) | 2026-09-26 09:25:59 EDT |
 | sase | [`fedf207`](https://github.com/sase-org/sase/commit/fedf207c1a557d4279656be8ff9eed72b1398435) | test(models): prove synthetic manifest update reaches all model surfaces (sase-1aa.5.3) | [sase-1aa.5.3](sase-1aa.5.3.md) | 2026-09-26 10:58:55 EDT |
+| sase--plans | [`sase--plans@91e2ac2`](https://github.com/sase-org/sase--plans/commit/91e2ac28b9a64d9d789dea93c29b35d5a05cda93) | docs(plans): mark model catalog landing plans done | [sase-1aa.5](sase-1aa.5.md) | 2026-09-26 11:20:05 EDT |
