@@ -13,7 +13,7 @@ context_presentation: show a prominent created state and its reason, clarify ass
 
 ## Dependencies
 
-- **Depends on:** [sase-1ap.2](sase-1ap.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ap.2](sase-1ap.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

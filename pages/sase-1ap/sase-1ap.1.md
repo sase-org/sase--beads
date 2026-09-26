@@ -19,7 +19,7 @@ durable_reason: add a validated, immutable creation reason to bead creation, sto
 
 ## Dependencies
 
-- **Blocks:** [sase-1ap.2](sase-1ap.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ap.2](sase-1ap.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ durable_reason: add a validated, immutable creation reason to bead creation, sto
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e579d1d`](https://github.com/sase-org/sase-core/commit/e579d1d120b29e54d492e4cbeecd34bddfebe06d) | feat(beads): persist and index the bead creation reason | [sase-1ap.1](sase-1ap.1.md) | 2026-09-26 12:07:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ap.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ap.1/README.md
+
+<!-- sase:referenced-by:end -->
