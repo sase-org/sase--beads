@@ -39,8 +39,8 @@ flowchart TD
     n4["sase-1aa.4: Generate model tables and prove the maintainer workflow [closed]"]
     n5["sase-1aa.5: Finish model manifest parity cleanup and maintenance proof [in_progress]"]
     n6["sase-1aa.5.1: Remove the temporary model-catalog parity snapshot [closed]"]
-    n7["sase-1aa.5.2: Replace stale model and pool enumerations with generated-table links [in_progress]"]
-    n8["sase-1aa.5.3: Prove a synthetic manifest update across model surfaces [in_progress]"]
+    n7["sase-1aa.5.2: Replace stale model and pool enumerations with generated-table links [closed]"]
+    n8["sase-1aa.5.3: Prove a synthetic manifest update across model surfaces [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.4/README.md) | [sase-1aa.4](sase-1aa.4.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.1/README.md) | [sase-1aa.5.1](sase-1aa.5.1.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.2/README.md) | [sase-1aa.5.2](sase-1aa.5.2.md) | 0 |
-| [bbugyi200.apollo.sase-1aa.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.3/README.md) | [sase-1aa.5.3](sase-1aa.5.3.md) | 0 |
+| [bbugyi200.apollo.sase-1aa.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aa.5.3.md) | [sase-1aa.5.3](sase-1aa.5.3.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.5.land/README.md) | [sase-1aa.5](sase-1aa.5.md) | 0 |
 | [bbugyi200.apollo.sase-1aa.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aa.land.md) | [sase-1aa](README.md) | 0 |
 
@@ -78,3 +78,5 @@ flowchart TD
 | sase | [`e2b4625`](https://github.com/sase-org/sase/commit/e2b462548c2becdf846ed2773450c4542b56de04) | feat(llm-provider): add executable model policy over models.yml | [sase-1aa.3](sase-1aa.3.md) | 2026-09-26 06:38:07 EDT |
 | sase | [`39acc57`](https://github.com/sase-org/sase/commit/39acc575475bf2d0391b24a655d2077c6a86b0e6) | feat(llm): generate model docs tables with policy gate and doctor check | [sase-1aa.4](sase-1aa.4.md) | 2026-09-26 07:35:32 EDT |
 | sase | [`6a6ae5d`](https://github.com/sase-org/sase/commit/6a6ae5d102ebf9818a4bb4c52f356ffaad1b6a5f) | chore(models): remove temporary phase-1 model-catalog parity snapshot | [sase-1aa.5.1](sase-1aa.5.1.md) | 2026-09-26 09:03:34 EDT |
+| sase | [`ec25a1a`](https://github.com/sase-org/sase/commit/ec25a1a3338edf683336138a6e6819f7a5906ffa) | feat: eplace stale model and pool enumerations with generated-table links (sase-1aa.5.2) | [sase-1aa.5.2](sase-1aa.5.2.md) | 2026-09-26 09:25:59 EDT |
+| sase | [`fedf207`](https://github.com/sase-org/sase/commit/fedf207c1a557d4279656be8ff9eed72b1398435) | test(models): prove synthetic manifest update reaches all model surfaces (sase-1aa.5.3) | [sase-1aa.5.3](sase-1aa.5.3.md) | 2026-09-26 10:58:55 EDT |

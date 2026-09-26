@@ -19,7 +19,7 @@ retire_baseline: remove the phase-1 migration snapshot after confirming no runti
 
 ## Dependencies
 
-- **Blocks:** [sase-1aa.5.3](sase-1aa.5.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aa.5.3](sase-1aa.5.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
