@@ -34,3 +34,15 @@ context_presentation: show a prominent created state and its reason, clarify ass
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7606e5d`](https://github.com/sase-org/sase/commit/7606e5d8c7b1493ba7764929ef837739deb5531f) | feat(beads): distinct created/assigned Context treatments with filing reasons (sase-1ap.3) | [sase-1ap.3](sase-1ap.3.md) | 2026-09-26 14:15:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ap.3][1] | check full description and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ap.3/README.md
+
+<!-- sase:referenced-by:end -->
