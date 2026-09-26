@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:3f5a47aa2857ef19cbfacdd3 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -54,7 +54,9 @@ hermetic-baseline: re-run the KNOWN precision gate, inventory changing lint and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1ah.3][2] | Need hermeticity choice and precision gate for catalog adoption | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
 
 <!-- sase:referenced-by:end -->

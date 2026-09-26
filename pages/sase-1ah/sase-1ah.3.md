@@ -22,7 +22,7 @@ core-pin-catalog: ratchet sase to a published receipt-capable core, create the b
 ## Dependencies
 
 - **Depends on:** [sase-1ah.2](sase-1ah.2.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ah.4](sase-1ah.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.4](sase-1ah.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -35,3 +35,15 @@ core-pin-catalog: ratchet sase to a published receipt-capable core, create the b
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4e85d4b`](https://github.com/sase-org/sase/commit/4e85d4bc0553290c9edfd2af1ec22d5922d6c885) | feat(tool): pin receipt-capable core and adopt catalog receipt policy | [sase-1ah.3](sase-1ah.3.md) | 2026-09-26 10:14:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
+
+<!-- sase:referenced-by:end -->

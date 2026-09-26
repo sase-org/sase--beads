@@ -33,3 +33,15 @@ rust-receipts: add additive schema-1 receipt storage, strict mint and invalidati
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9f86897`](https://github.com/sase-org/sase-core/commit/9f86897f834e9719c44f5e1669a4bd55d312b99c) | feat(tool-run): add schema-1 receipt contract and durable store | [sase-1ah.2](sase-1ah.2.md) | 2026-09-26 09:12:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.3][1] | Need neighboring phase boundaries for core-pin-catalog | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
+
+<!-- sase:referenced-by:end -->

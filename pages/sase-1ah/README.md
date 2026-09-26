@@ -18,7 +18,7 @@ A named verification run can mint a short-lived receipt for its exact fingerprin
 | [sase-1ah.1](sase-1ah.1.md) | Recheck E3 precision and verification inputs | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ah.2](sase-1ah.2.md) | Add the Rust receipt contract and durable store | ✓ closed | large | 2026-09-26 | 1 | 1 |
 | [sase-1ah.3](sase-1ah.3.md) | Pin the released core before catalog adoption | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ah.4](sase-1ah.4.md) | Mint and query receipts on both execution paths | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [sase-1ah.4](sase-1ah.4.md) | Mint and query receipts on both execution paths | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ah.5](sase-1ah.5.md) | Measure content-equivalent verification repeats | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 | [sase-1ah.6](sase-1ah.6.md) | Gate prepared completion on a covering receipt | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
 | [sase-1ah.7](sase-1ah.7.md) | Prove acceptance and remove the beta flag | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n1["sase-1ah.1: Recheck E3 precision and verification inputs [closed]"]
     n2["sase-1ah.2: Add the Rust receipt contract and durable store [closed]"]
     n3["sase-1ah.3: Pin the released core before catalog adoption [closed]"]
-    n4["sase-1ah.4: Mint and query receipts on both execution paths [in_progress]"]
+    n4["sase-1ah.4: Mint and query receipts on both execution paths [closed]"]
     n5["sase-1ah.5: Measure content-equivalent verification repeats [in_progress]"]
     n6["sase-1ah.6: Gate prepared completion on a covering receipt [in_progress]"]
     n7["sase-1ah.7: Prove acceptance and remove the beta flag [in_progress]"]
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.1/README.md) | [sase-1ah.1](sase-1ah.1.md) | 1 |
 | [bbugyi200.athena.sase-1ah.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.2.md) | [sase-1ah.2](sase-1ah.2.md) | 1 |
 | [bbugyi200.athena.sase-1ah.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md) | [sase-1ah.3](sase-1ah.3.md) | 1 |
-| [bbugyi200.athena.sase-1ah.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md) | [sase-1ah.4](sase-1ah.4.md) | 0 |
+| [bbugyi200.athena.sase-1ah.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md) | [sase-1ah.4](sase-1ah.4.md) | 1 |
 | [bbugyi200.athena.sase-1ah.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.5/README.md) | [sase-1ah.5](sase-1ah.5.md) | 0 |
 | [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.6/README.md) | [sase-1ah.6](sase-1ah.6.md) | 0 |
 | [bbugyi200.athena.sase-1ah.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md) | [sase-1ah.7](sase-1ah.7.md) | 0 |
@@ -71,6 +71,7 @@ flowchart TD
 | sase | [`0b5fc65`](https://github.com/sase-org/sase/commit/0b5fc652b0933891525879b16e16259969d90052) | feat(tool): add hermetic-baseline lint version probes and KNOWN precision recheck | [sase-1ah.1](sase-1ah.1.md) | 2026-09-26 07:57:48 EDT |
 | sase-core | [`sase-core@9f86897`](https://github.com/sase-org/sase-core/commit/9f86897f834e9719c44f5e1669a4bd55d312b99c) | feat(tool-run): add schema-1 receipt contract and durable store | [sase-1ah.2](sase-1ah.2.md) | 2026-09-26 09:12:36 EDT |
 | sase | [`4e85d4b`](https://github.com/sase-org/sase/commit/4e85d4bc0553290c9edfd2af1ec22d5922d6c885) | feat(tool): pin receipt-capable core and adopt catalog receipt policy | [sase-1ah.3](sase-1ah.3.md) | 2026-09-26 10:14:58 EDT |
+| sase | [`2811476`](https://github.com/sase-org/sase/commit/281147666b7ce353cb46fc1031870e72c9c7cd6d) | feat(tool): add receipt execution CLI with settle adapter and receipt query | [sase-1ah.4](sase-1ah.4.md) | 2026-09-26 10:43:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
