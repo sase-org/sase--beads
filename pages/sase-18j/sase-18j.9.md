@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-18j](README.md) / sase-18j.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0rq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0rq.md) · **Assignee:** `sase-18j.9` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0rq](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0rq.md) · **Assignee:** `sase-18j.9` · **Size:** medium
 **Created:** 2026-09-24 19:07:14 EDT · **Closed:** 2026-09-25 18:10:58 EDT
 **Plan:** [202609/tool\_e3\_failure\_triage.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e3_failure_triage.md)
 
@@ -33,3 +33,15 @@ acceptance-and-governance: add the triage smoke case group, re-run the backtest,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`49c32e1`](https://github.com/sase-org/sase/commit/49c32e19ec698c6c305ca374ee49421668f04215) | feat(tool): finalize failure triage | [sase-18j.9](sase-18j.9.md) | 2026-09-25 18:12:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18j.9][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.9/README.md
+
+<!-- sase:referenced-by:end -->

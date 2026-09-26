@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-18j](README.md) / sase-18j.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0rq](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0rq.md) · **Assignee:** `sase-18j.2` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0rq](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0rq.md) · **Assignee:** `sase-18j.2` · **Size:** large
 **Created:** 2026-09-24 19:07:03 EDT · **Closed:** 2026-09-24 20:21:59 EDT
 **Plan:** [202609/tool\_e3\_failure\_triage.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e3_failure_triage.md)
 
