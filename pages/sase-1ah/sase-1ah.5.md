@@ -45,7 +45,9 @@ opportunity-report: list receipts and report content-addressed repeat opportunit
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ah.7][2] | Need sibling phase close evidence for landing-proof | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md
 
 <!-- sase:referenced-by:end -->

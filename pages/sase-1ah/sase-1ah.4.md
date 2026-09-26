@@ -43,8 +43,10 @@ receipt-execution-cli: wire foreground and handed-off settlement to Rust minting
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.3][1] | Need to avoid overlapping receipt-execution-cli work | 1 |
 | read-by | [agent:sase-1ah.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ah.7][3] | Need sibling phase close evidence for landing-proof | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md
 
 <!-- sase:referenced-by:end -->

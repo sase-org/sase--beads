@@ -43,7 +43,9 @@ core-pin-catalog: ratchet sase to a published receipt-capable core, create the b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ah.7][2] | Need sibling phase close evidence for landing-proof | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md
 
 <!-- sase:referenced-by:end -->

@@ -35,3 +35,15 @@ landing-proof: exercise all nine landing gates, demonstrate athena completion, d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3065117`](https://github.com/sase-org/sase/commit/3065117500eb3c007c6993177803022d3b1ccf7e) | feat(tool): remove tool\_receipts flag and land receipt proof contract | [sase-1ah.7](sase-1ah.7.md) | 2026-09-26 13:09:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -44,7 +44,9 @@ verdict-completion: add explicit no-new intent policy, recheck the verified tree
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.6--1][1] | triage failed check gate: determine if flag-lint failure is pre-existing and record follow-up | 1 |
+| read-by | [agent:sase-1ah.7][2] | Need sibling phase close evidence for landing-proof | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md
 
 <!-- sase:referenced-by:end -->
