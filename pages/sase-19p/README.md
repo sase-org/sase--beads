@@ -21,7 +21,7 @@ When a SASE agent closes a bead, that agent's Main-deck Context card lists the b
 |---|---|---|---|---|---:|---:|
 | [sase-19p.1](sase-19p.1.md) | Close attribution and close facts in the touch index (sase-core) | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19p.2](sase-19p.2.md) | Python close actor, facade, merge, glyph precedence, and CLI parity | ✓ closed | small | 2026-09-25 | 1 | 1 |
-| [sase-19p.3](sase-19p.3.md) | CLOSED pill rendering, visibility guarantee, and goldens (TUI) | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19p.3](sase-19p.3.md) | CLOSED pill rendering, visibility guarantee, and goldens (TUI) | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n0["sase-19p: Agent-closed beads stand out in the Context card [in_progress]"]
     n1["sase-19p.1: Close attribution and close facts in the touch index (sase-core) [closed]"]
     n2["sase-19p.2: Python close actor, facade, merge, glyph precedence, and CLI parity [closed]"]
-    n3["sase-19p.3: CLOSED pill rendering, visibility guarantee, and goldens (TUI) [in_progress]"]
+    n3["sase-19p.3: CLOSED pill rendering, visibility guarantee, and goldens (TUI) [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-19p.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19p.1/README.md) | [sase-19p.1](sase-19p.1.md) | 1 |
 | [bbugyi200.athena.sase-19p.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19p.2.md) | [sase-19p.2](sase-19p.2.md) | 1 |
-| [bbugyi200.athena.sase-19p.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19p.3/README.md) | [sase-19p.3](sase-19p.3.md) | 0 |
+| [bbugyi200.athena.sase-19p.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19p.3.md) | [sase-19p.3](sase-19p.3.md) | 1 |
 | [bbugyi200.athena.sase-19p.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19p.land/README.md) | [sase-19p](README.md) | 0 |
 
 ## Commits
@@ -53,6 +53,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@7677abd`](https://github.com/sase-org/sase-core/commit/7677abd82df9019350af294dd47915ac4eb23aef) | feat(bead): record close attribution and close facts in touch index | [sase-19p.1](sase-19p.1.md) | 2026-09-25 15:04:57 EDT |
 | sase | [`ed548d3`](https://github.com/sase-org/sase/commit/ed548d3e26ca95ef01dda40d2488ff21529cb974) | feat(bead): surface agent close records through Python plumbing | [sase-19p.2](sase-19p.2.md) | 2026-09-25 19:24:39 EDT |
+| sase | [`7211290`](https://github.com/sase-org/sase/commit/72112905707800b3f51068d66edda19323d359ba) | feat(ace): add agent bead touches panel and sase context snapshots | [sase-19p.3](sase-19p.3.md) | 2026-09-25 20:55:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ plumbing: move the sase-core pin, make `sase bead close` always pass the acting 
 ## Dependencies
 
 - **Depends on:** [sase-19p.1](sase-19p.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19p.3](sase-19p.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19p.3](sase-19p.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -41,7 +41,9 @@ plumbing: move the sase-core pin, make `sase bead close` always pass the acting 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19o.3--1][1] | Need Python schema alignment scope | 1 |
+| read-by | [agent:sase-19p.2--6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19o.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19p.2.md
 
 <!-- sase:referenced-by:end -->
