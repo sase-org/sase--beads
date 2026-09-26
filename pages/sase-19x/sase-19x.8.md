@@ -46,10 +46,12 @@ block-rail: add the pure tiered block_rail_text renderer and the pre-composed Bl
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2l.cdx][1] | Need block-rail design context for view-state affordance research | 1 |
 | read-by | [agent:research.2l.mus][2] | Need card-block phase detail for spread-paged UX research | 1 |
-| read-by | [agent:sase-19x.8--1][3] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.f.mus][3] | research block rail UX | 1 |
+| read-by | [agent:sase-19x.8--1][4] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.cdx/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.mus/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.8.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.f.mus/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.8.md
 
 <!-- sase:referenced-by:end -->

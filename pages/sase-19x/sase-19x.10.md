@@ -42,7 +42,9 @@ card-blocks-docs: document the deck -> card -> block hierarchy, the newest-block
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.1--1][1] | check later phase scope for block rail symbols | 1 |
+| read-by | [agent:sase-19x.10][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md
 
 <!-- sase:referenced-by:end -->
