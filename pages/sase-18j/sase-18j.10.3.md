@@ -13,7 +13,7 @@ owner-pin: move sase-core-revision.txt to a pushed sase-core commit that contain
 
 ## Dependencies
 
-- **Depends on:** [sase-18j.10.1](sase-18j.10.1.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-18j.10.1](sase-18j.10.1.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-18j.10.2](sase-18j.10.2.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-18j.10.4](sase-18j.10.4.md) ◐ · ⧖ 2026-09-25
 
