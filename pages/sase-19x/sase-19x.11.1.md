@@ -26,7 +26,7 @@ scrollbar-transition: remove the block-spread to block-paged scrollbar desynchro
 ## Dependencies
 
 - **Blocks:** [sase-19x.11.2](sase-19x.11.2.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-19x.11.3](sase-19x.11.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19x.11.3](sase-19x.11.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

@@ -87,7 +87,7 @@ flowchart TD
     n3["sase-19x.11: Finish card-block landing gaps [in_progress]"]
     n4["sase-19x.11.1: Keep the scrollbar in sync across card-block mode changes [closed]"]
     n5["sase-19x.11.2: Verify the legacy followup Reply block heading visually [closed]"]
-    n6["sase-19x.11.3: Verify and improve card-block navigation latency [in_progress]"]
+    n6["sase-19x.11.3: Verify and improve card-block navigation latency [closed]"]
     n7["sase-19x.11.4: Add the Agent Data Card Block glossary term [closed]"]
     n8["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
     n9["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md) | [sase-19x.10](sase-19x.10.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md) | [sase-19x.11.1](sase-19x.11.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.2/README.md) | [sase-19x.11.2](sase-19x.11.2.md) | 1 |
-| [bbugyi200.athena.sase-19x.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md) | [sase-19x.11.3](sase-19x.11.3.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md) | [sase-19x.11.3](sase-19x.11.3.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md) | [sase-19x.11.4](sase-19x.11.4.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.land/README.md) | [sase-19x.11](sase-19x.11.md) | 0 |
 | [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 1 |
@@ -166,6 +166,7 @@ flowchart TD
 | sase | [`f583cd5`](https://github.com/sase-org/sase/commit/f583cd509745acad6f83e357a63fa2286bab84e1) | docs(sase-19x.11.4): add Agent Data Card Block glossary term | [sase-19x.11.4](sase-19x.11.4.md) | 2026-09-26 15:29:58 EDT |
 | sase | [`bff09e3`](https://github.com/sase-org/sase/commit/bff09e3cf1e5c052d4c614c381db71cb79b091ee) | fix(ace-tui): sync block-paged scrollbar on block-spread transition | [sase-19x.11.1](sase-19x.11.1.md) | 2026-09-26 16:17:57 EDT |
 | sase | [`37c8b79`](https://github.com/sase-org/sase/commit/37c8b79fe4a9b8ded5ab1f91bfa0f203c88c1e3d) | fix(ace-tui): keep legacy followup Reply phase boundary in hint mode | [sase-19x.11.2](sase-19x.11.2.md) | 2026-09-26 16:42:30 EDT |
+| sase | [`64fae01`](https://github.com/sase-org/sase/commit/64fae010f3674b17b485e9a7c4c2407b9214d8d5) | perf(ace-tui): cut block-cycle and sticky-Reply navigation latency (sase-19x.11.3) | [sase-19x.11.3](sase-19x.11.3.md) | 2026-09-26 16:45:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
