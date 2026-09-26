@@ -7,6 +7,18 @@
 **Created:** 2026-09-26 07:27:39 EDT · **Closed:** 2026-09-26 08:00:33 EDT
 **Plan:** [202609/restore\_project\_completion\_placement.md](https://github.com/sase-org/sase--plans/blob/main/202609/restore_project_completion_placement.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1an][1] | Phase sase-1ag.1 proposed this clippy cleanup while landing project-tag placement; the lints are outside that diff. |
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1an/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 core: restore target-position insertion in sase-core and verify the Rust accept and LSP contracts.
@@ -19,7 +31,7 @@ core: restore target-position insertion in sase-core and verify the Rust accept 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ag.2](sase-1ag.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ag.2](sase-1ag.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
