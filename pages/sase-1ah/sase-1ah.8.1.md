@@ -41,8 +41,10 @@ rust-opportunity-report: implement the bounded, read-only receipt and content-eq
 | --- | --- | --- | ---: |
 | read-by | [agent:0sz][1] | Identify actual blockers and last progress on E4 receipt landing | 1 |
 | read-by | [agent:sase-1ah.8.1--1][2] | Implement approved rust opportunity facts phase | 1 |
+| read-by | [agent:sase-1ah.8.2][3] | check phase 1 completion evidence for dependency | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0sz/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.1.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md
 
 <!-- sase:referenced-by:end -->

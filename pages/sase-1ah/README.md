@@ -58,7 +58,10 @@ flowchart TD
     n8["sase-1ah.8: Complete E4 receipt reporting and live acceptance [in_progress]"]
     n9["sase-1ah.8.1: Put opportunity facts in the Rust core [closed]"]
     n10["sase-1ah.8.2: Adopt the core report and released wheel [closed]"]
-    n11["sase-1ah.8.3: Demonstrate prepared completion and record the owner check [in_progress]"]
+    n11["sase-1ah.8.3: Demonstrate prepared completion and record the owner check [closed]"]
+    n12["sase-1ah.8.4: Publish the receipt-capable core wheel and raise the sase floor [in_progress]"]
+    n13["sase-1ah.8.4.1: Let release-plz select the gateway across a minor bump [closed]"]
+    n14["sase-1ah.8.4.2: Publish the wheel and raise the sase floor [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,6 +73,9 @@ flowchart TD
     n8 --> n9
     n8 --> n10
     n8 --> n11
+    n8 --> n12
+    n12 --> n13
+    n12 --> n14
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -79,6 +85,7 @@ flowchart TD
     n6 -.-> n7
     n9 -.-> n10
     n10 -.-> n11
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -94,8 +101,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md) | [sase-1ah.7](sase-1ah.7.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.1.md) | [sase-1ah.8.1](sase-1ah.8.1.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md) | [sase-1ah.8.2](sase-1ah.8.2.md) | 1 |
-| [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.3/README.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
-| [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.land/README.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.3.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.1/README.md) | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1ah.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.2/README.md) | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md) | [sase-1ah.8.4](sase-1ah.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.land.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
 | [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.land.md) | [sase-1ah](README.md) | 0 |
 
 ## Commits
@@ -112,6 +122,7 @@ flowchart TD
 | sase | [`3065117`](https://github.com/sase-org/sase/commit/3065117500eb3c007c6993177803022d3b1ccf7e) | feat(tool): remove tool\_receipts flag and land receipt proof contract | [sase-1ah.7](sase-1ah.7.md) | 2026-09-26 13:09:11 EDT |
 | sase-core | [`sase-core@0cf5147`](https://github.com/sase-org/sase-core/commit/0cf51478f9f7c4c0be8f4b0446b9abfd58945c01) | feat(tool-run): add versioned receipts opportunity report in Rust core | [sase-1ah.8.1](sase-1ah.8.1.md) | 2026-09-26 14:49:55 EDT |
 | sase | [`f7886b1`](https://github.com/sase-org/sase/commit/f7886b1a64dab09bb7bc85846f6b838dd6b955bc) | feat(tool): adopt Rust core receipts opportunity report (sase-1ah.8.2) | [sase-1ah.8.2](sase-1ah.8.2.md) | 2026-09-26 17:42:59 EDT |
+| sase-core | [`sase-core@89ad2e9`](https://github.com/sase-org/sase-core/commit/89ad2e93e61a881acd873da0b3f6bd3e4479f74e) | fix(build): drop version pin on sase\_gateway path dependency | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 2026-09-26 18:56:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

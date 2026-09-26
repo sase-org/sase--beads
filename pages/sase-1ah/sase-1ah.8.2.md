@@ -22,7 +22,7 @@ python-adapter-release: replace the Python ledger and Git comparison with a thin
 ## Dependencies
 
 - **Depends on:** [sase-1ah.8.1](sase-1ah.8.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ah.8.3](sase-1ah.8.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.8.3](sase-1ah.8.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -43,7 +43,9 @@ python-adapter-release: replace the Python ledger and Git comparison with a thin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0sz][1] | Identify actual blockers and last progress on E4 receipt landing | 1 |
+| read-by | [agent:sase-1ah.8.2][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0sz/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md
 
 <!-- sase:referenced-by:end -->
