@@ -16,7 +16,7 @@ card-blocks-cutover: record the flag-off vs flag-on j/k bench, then remove the c
 - **Blocks:** [sase-19x.10](sase-19x.10.md) ◐ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.4](sase-19x.4.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19x.7](sase-19x.7.md) ✓ · ⧖ 2026-09-25
-- **Depends on:** [sase-19x.8](sase-19x.8.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19x.8](sase-19x.8.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

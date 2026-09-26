@@ -17,6 +17,8 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 
 [2026-09-26T12:42:22Z · sase-1aa.land] DISCOVERED ISSUE: sase-1aa landing audit ran sase tool run check 5de0d0655fe4b5841b4498a98cf496e7 on current master; formatting, generated docs, model policy, keep-sorted, Ruff, mypy, flags, pyscripts, waits, changelog and terminology passed, then Symvision failed with three NEW stale Justfile --epic-symbol entries keyed to closed phase sase-19x.4: phase_card_block, block_meta_for_session_shell, session_reply_heading (Justfile lines 380-382). sase bead epic-symbols sase-19x confirms them; phase .4 closed at 2026-09-26T11:31:53Z. This is caused by sase-19x phase close, not sase-1aa model work. Resolve or re-key these entries to an open later phase that still needs them before closing 19x.
 
+[2026-09-26T12:58:43Z · sase-19f.6.4.land] DISCOVERED ISSUE: Independent corroboration from sase-19f.6.4.1 PROPOSED FOLLOW-UP notes #1-2: on master after its loaded-multiplier display commit, just check still reports stale Justfile --epic-symbol entries for closed sase-19x.4 (phase_card_block, block_meta_for_session_shell, session_reply_heading). This is the same issue as this epic note #2; resolve or re-key before sase-19x closes.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -29,7 +31,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 | [sase-19x.5](sase-19x.5.md) | Block-paged projection, newest landing and the card\_blocks flag | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.6](sase-19x.6.md) | Block-spread and deck-spread block navigation and transitions | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.7](sase-19x.7.md) | The \[ and \] card-block keys, gating, footer, help and palette | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19x.8](sase-19x.8.md) | The one-row block rail | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19x.8](sase-19x.8.md) | The one-row block rail | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.9](sase-19x.9.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +47,7 @@ flowchart TD
     n6["sase-19x.5: Block-paged projection, newest landing and the card_blocks flag [closed]"]
     n7["sase-19x.6: Block-spread and deck-spread block navigation and transitions [closed]"]
     n8["sase-19x.7: The [ and ] card-block keys, gating, footer, help and palette [closed]"]
-    n9["sase-19x.8: The one-row block rail [in_progress]"]
+    n9["sase-19x.8: The one-row block rail [closed]"]
     n10["sase-19x.9: Remove the flag, add goldens, inspect live, and bench [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -82,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.5.md) | [sase-19x.5](sase-19x.5.md) | 1 |
 | [bbugyi200.athena.sase-19x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.6/README.md) | [sase-19x.6](sase-19x.6.md) | 1 |
 | [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md) | [sase-19x.7](sase-19x.7.md) | 1 |
-| [bbugyi200.athena.sase-19x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.8/README.md) | [sase-19x.8](sase-19x.8.md) | 0 |
+| [bbugyi200.athena.sase-19x.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.8.md) | [sase-19x.8](sase-19x.8.md) | 1 |
 | [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.9/README.md) | [sase-19x.9](sase-19x.9.md) | 0 |
 | [bbugyi200.athena.sase-19x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.land/README.md) | [sase-19x](README.md) | 0 |
 
@@ -97,6 +99,7 @@ flowchart TD
 | sase | [`6bfd710`](https://github.com/sase-org/sase/commit/6bfd7103dc6efaced71e909c111515e89ea2e3ee) | feat(legacy-reply): per-phase blocks for followup\_agents Reply path (sase-19x.4) | [sase-19x.4](sase-19x.4.md) | 2026-09-26 07:46:43 EDT |
 | sase | [`5f082a5`](https://github.com/sase-org/sase/commit/5f082a5f13c84b5128d51992ff1696d1815a9c0d) | feat(ace-tui): block-spread and deck-spread navigation with ReadingAnchor (sase-19x.6) | [sase-19x.6](sase-19x.6.md) | 2026-09-26 08:24:34 EDT |
 | sase | [`972acbe`](https://github.com/sase-org/sase/commit/972acbe9023cf20d1e0960f072f69d86f60ae4f8) | feat(ace-tui): card-block \[ and \] keys with gating, footer, help and palette (sase-19x.7) | [sase-19x.7](sase-19x.7.md) | 2026-09-26 08:51:04 EDT |
+| sase | [`f7df95c`](https://github.com/sase-org/sase/commit/f7df95c94c0fc5a2498968ce46fec815444cd020) | feat(ace-tui): one-row block rail under Main deck panel (sase-19x.8) | [sase-19x.8](sase-19x.8.md) | 2026-09-26 09:21:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

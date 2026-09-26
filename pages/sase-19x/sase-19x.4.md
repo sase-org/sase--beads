@@ -45,7 +45,9 @@ legacy-followup-blocks: give the still-reachable non-session followup_agents Rep
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19x.4--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19x.7--1][2] | check if stale symvision owner is closed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md
 
 <!-- sase:referenced-by:end -->
