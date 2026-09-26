@@ -1,0 +1,30 @@
+# Bead: sase-1aq.6 — Land the remote-dispatch ancestors through sase-xe
+
+[Bead Pages](../README.md) / [sase-1aq](README.md) / sase-1aq.6
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0sw` · **Assignee:** `sase-1aq.6` · **Size:** medium
+**Created:** 2026-09-26 11:53:33 EDT
+**Plan:** [202609/finish\_blocking\_epics\_and\_memory.md](https://github.com/sase-org/sase--plans/blob/main/202609/finish_blocking_epics_and_memory.md)
+
+## Description
+
+dispatch_landing: close reopened original phases and all remote-dispatch ancestor epics.
+
+## Dependencies
+
+- **Depends on:** [sase-1aq.5](sase-1aq.5.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.7](sase-1aq.7.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ◐ · ⧖ 2026-09-26
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0sz][1] | Identify remote-dispatch epic blocking chain and last progress | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.0sz/README.md
+
+<!-- sase:referenced-by:end -->
