@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x.13](sase-17x.13.md) / sase-17x.13.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.9` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.9` · **Size:** medium
 **Created:** 2026-09-24 20:28:51 EDT · **Closed:** 2026-09-25 04:01:11 EDT
 **Plan:** [202609/command\_line\_landing\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_fixes.md)
 
@@ -30,7 +30,7 @@ goldens-perf: add the missing completion-popup goldens and regenerate the affect
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
 
 ## Commits
 
@@ -46,6 +46,6 @@ goldens-perf: add the missing completion-popup goldens and regenerate the affect
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.9--7][1] | Confirm current phase notes and closure readiness | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.9.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.9.md
 
 <!-- sase:referenced-by:end -->

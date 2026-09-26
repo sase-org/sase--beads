@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x](README.md) / sase-17x.10
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.10` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.10` · **Size:** medium
 **Created:** 2026-09-24 11:29:30 EDT · **Closed:** 2026-09-24 16:47:50 EDT
 **Plan:** [202609/command\_line\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_panel.md)
 
@@ -28,7 +28,7 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 1 |
+| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 1 |
 
 ## Commits
 
@@ -44,6 +44,6 @@ completion-extras: add the empty-state RECENT and derived "FOR <selection>" rows
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.10--1][1] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.10.md
 
 <!-- sase:referenced-by:end -->

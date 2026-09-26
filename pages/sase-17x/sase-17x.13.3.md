@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x.13](sase-17x.13.md) / sase-17x.13.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.3` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.3` · **Size:** medium
 **Created:** 2026-09-24 20:28:43 EDT · **Closed:** 2026-09-24 21:53:22 EDT
 **Plan:** [202609/command\_line\_landing\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_fixes.md)
 
@@ -27,7 +27,7 @@ key-behavior: wire ↑/↓ prefix-filtered history. Offer ghost text only at the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
 
 ## Commits
 
@@ -43,6 +43,6 @@ key-behavior: wire ↑/↓ prefix-filtered history. Offer ghost text only at the
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.3--2][1] | Need the assigned phase scope, design references, and closeout status | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.3.md
 
 <!-- sase:referenced-by:end -->

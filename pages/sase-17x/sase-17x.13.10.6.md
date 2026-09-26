@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-17x.13.10](sase-17x.13.10.md) / sase-17x.13.10.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.6` · **Size:** medium
-**Created:** 2026-09-25 08:41:47 EDT
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.6` · **Size:** medium
+**Created:** 2026-09-25 08:41:47 EDT · **Closed:** 2026-09-25 18:56:02 EDT
 **Plan:** [202609/command\_line\_landing\_gaps.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_gaps.md)
 
 ## Description
@@ -20,4 +20,10 @@ goldens-walkthrough: fix the doc-peek visual setup and tighten the never-awaits 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.6/README.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.6.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9518b31`](https://github.com/sase-org/sase/commit/9518b31df9b7e235170018fdc0dd6d53702275e1) | feat: Regenerate epic goldens and take the live walkthrough (sase-17x.13.10.6) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 2026-09-25 18:54:39 EDT |

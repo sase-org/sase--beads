@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x.13.10](sase-17x.13.10.md) / sase-17x.13.10.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.2` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.2` · **Size:** medium
 **Created:** 2026-09-25 08:41:41 EDT · **Closed:** 2026-09-25 08:54:55 EDT
 **Plan:** [202609/command\_line\_landing\_gaps.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_gaps.md)
 
@@ -24,7 +24,7 @@ hide-hop-deadlocks: stop awaiting `dismiss()` from the panel's own key handler (
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
 
 ## Commits
 
@@ -40,6 +40,6 @@ hide-hop-deadlocks: stop awaiting `dismiss()` from the panel's own key handler (
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.10.2--1][1] | Need the already-completed phase scope and design evidence to investigate the verification timeout | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.2.md
 
 <!-- sase:referenced-by:end -->

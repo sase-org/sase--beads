@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x.13.10](sase-17x.13.10.md) / sase-17x.13.10.5
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.5` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.land.md) · **Assignee:** `sase-17x.13.10.5` · **Size:** small
 **Created:** 2026-09-25 08:41:46 EDT · **Closed:** 2026-09-25 11:45:30 EDT
 **Plan:** [202609/command\_line\_landing\_gaps.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_gaps.md)
 
@@ -20,13 +20,13 @@ ui-thread-state: move the palette-tip marker write off the loop. Append restored
 ## Dependencies
 
 - **Depends on:** [sase-17x.13.10.2](sase-17x.13.10.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-17x.13.10.6](sase-17x.13.10.6.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-17x.13.10.6](sase-17x.13.10.6.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
 
 ## Commits
 
@@ -42,6 +42,6 @@ ui-thread-state: move the palette-tip marker write off the loop. Append restored
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.10.5--1][1] | verify phase scope before close | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.5.md
 
 <!-- sase:referenced-by:end -->

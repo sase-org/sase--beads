@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x.13](sase-17x.13.md) / sase-17x.13.6
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.6` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.land.md) · **Assignee:** `sase-17x.13.6` · **Size:** medium
 **Created:** 2026-09-24 20:28:47 EDT · **Closed:** 2026-09-25 00:47:22 EDT
 **Plan:** [202609/command\_line\_landing\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_landing_fixes.md)
 
@@ -26,7 +26,7 @@ entity-sources: feed proc and project slots from real app state with provider fa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
 
 ## Commits
 
@@ -42,6 +42,6 @@ entity-sources: feed proc and project slots from real app state with provider fa
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17x.13.6--2][1] | Confirm assigned phase scope and its current closure evidence | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.6.md
 
 <!-- sase:referenced-by:end -->

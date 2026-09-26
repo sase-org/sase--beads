@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x](README.md) / sase-17x.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.9` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.9` · **Size:** medium
 **Created:** 2026-09-24 11:29:28 EDT · **Closed:** 2026-09-24 15:15:43 EDT
 **Plan:** [202609/command\_line\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_panel.md)
 
@@ -47,7 +47,7 @@ completion-popup: load the grammar at idle and wire the resolver into the input.
 | read-by | [agent:0qz--code][1] | verify 17x.9 open before adding epic-symbol entries | 1 |
 | read-by | [agent:sase-17x.9][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md
 
 <!-- sase:referenced-by:end -->

@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-17x](README.md) / sase-17x.5
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.5` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.5` · **Size:** large
 **Created:** 2026-09-24 11:29:23 EDT · **Closed:** 2026-09-24 13:48:20 EDT
 **Plan:** [202609/command\_line\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_panel.md)
 
@@ -29,7 +29,7 @@ line-resolver: build a frozen `CommandLineGrammar` handle in sase-core that pars
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.5.md) | [sase-17x.5](sase-17x.5.md) | 2 |
+| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.5.md) | [sase-17x.5](sase-17x.5.md) | 2 |
 
 ## Commits
 

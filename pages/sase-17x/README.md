@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-17x
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.land`
-**Created:** 2026-09-24 11:29:17 EDT
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qs](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qs.md) · **Assignee:** `sase-17x.land`
+**Created:** 2026-09-24 11:29:17 EDT · **Closed:** 2026-09-25 21:17:09 EDT
 **Plan:** [202609/command\_line\_panel.md](https://github.com/sase-org/sase--plans/blob/main/202609/command_line_panel.md)
 
 ## Description
@@ -27,6 +27,24 @@ REMAINING EPIC WORK FOUND (reproduced/confirmed in code) -> child plan phases: (
 
 FOLLOW-UP OUTCOMES: 17x.1 #1 symvision _failure_count -> declined, fixed by 064830632. 17x.3 #1 run full check -> declined as a task; every child phase runs sase tool run check. 17x.5 #2, 17x.7 #1, 17x.8 #1, 17x.10 #1, 17x.12 #1/#2 (pre-existing mypy/symvision/toobig/flag-drift/test-waits/snapshot gates) -> declined, fixed by sase-18f.1/.2/.3 (114fbca89, b18f3d38f, 55936f429) with the rest in sase-18f.4/.9 scope. 17x.10 #2 (sase final prepare blocked by untracked agents-sidecar objects) -> duplicate of sase-17u, +1 recorded after re-verifying the same 3 untracked objects. 17x.12 #3 (Z zoom help tests) -> still failing, but caused by 742c1df38 (legacy agents UI removal), not this epic, and explicitly scoped in sase-18f.4's plan; no new task. Epic notes #1 (fakey help color, fixed 55936f429), #2 (symvision, fixed 114fbca89), #3 (mypy/test-waits/toobig/symvision/timezone/config-schema fixed by sase-18f.1-.3; command-line visual host path + import budget owned by in-flight sase-18f.4, rechecked by child goldens-perf). Drift audit: no conflicts from 742c1df38, the sase-17m.4.x renames, sase-185, !! bang mode, or new isatty color branches.
 
+[2026-09-26T01:17:09Z · sase-17x.13.10.land] Closed by the sase-17x.13.10 land agent after the nested landings finished (sase-17x.13.10, then sase-17x.13).
+
+Rechecked:
+- All 12 phases and the child epic sase-17x.13 are closed. Every REMAINING item in this bead's LANDING INTERRUPTED note (#4) was delivered, as follows:
+  * core-pin, worker-hops, key-behavior, keymap-config, completion-fixes, entity-sources, policy-io, chrome-layout, and goldens-perf became phases sase-17x.13.1-.9.
+  * The landing gaps they left became sase-17x.13.10: dismiss deadlocks, Procs focus, grammar reopen, history reset, menu keys, compact hints, the disk-cache bypass, cd +label, tip/restore/history threading, toobig, and goldens.
+  * The sase-17x.13.10 landing also fixed the monotonic-vs-wall-clock elapsed bug introduced in db99493.
+- Earlier discovered issues #1-#3 are resolved at HEAD: fakey help color, command_line_grammar symvision, and the mypy/test-waits/toobig/symvision/visual-host-path/timezone-guard/config-schema gates. Targeted rerun: test_visual_fixture_host_paths, test_timezone_display_guard, test_config_schema, and fakey test_cli all pass (30 passed); symvision is clean.
+- Goal check (plan command_line_panel.md), from a live walkthrough on the checkout build:
+  * ';' opens the Command Palette; ':' opens the bottom-anchored Command Line.
+  * Commands run as tagged procs that survive hide, appear in Admin Center -> Procs ('p' focuses them), and return to the transcript on reopen.
+  * The screenshot export after hide and reopen succeeds.
+  * Output streams inline, with a pager on 'v' for a running block.
+  * Completion is grammar-checked with signature and diagnostics.
+- Routed caveat: bead-ID completion is empty outside agent shells because the shared provider catalog cannot resolve the sidecar bead store (predates this epic; also affects shell completion) -> sase-19y.
+- Post-landing drift: origin/master through 013a17072 has no commit touching command_line code, tests, or goldens.
+- Epic symbols: none for sase-17x.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,20 +66,20 @@ FOLLOW-UP OUTCOMES: 17x.1 #1 symvision _failure_count -> declined, fixed by 0648
 
 ```mermaid
 flowchart TD
-    n0["sase-17x: `:` Command Line: run sase commands from the TUI [in_progress]"]
+    n0["sase-17x: `:` Command Line: run sase commands from the TUI [closed]"]
     n1["sase-17x.1: Output color contract [closed]"]
     n2["sase-17x.10: Empty state, doc peek, and history search [closed]"]
     n3["sase-17x.11: Run policies, confirmation-aware blocks, and built-ins [closed]"]
     n4["sase-17x.12: Flip `:` and `;`, remove the flag, and land [closed]"]
-    n5["sase-17x.13: Finish the `:` Command Line: fix landing-audit bugs and spec gaps [in_progress]"]
+    n5["sase-17x.13: Finish the `:` Command Line: fix landing-audit bugs and spec gaps [closed]"]
     n6["sase-17x.13.1: Move the sase-core CI pin past CommandLineGrammar [closed]"]
-    n7["sase-17x.13.10: Close the `:` Command Line landing gaps: hide/hop deadlocks, key and source bugs, stale goldens [in_progress]"]
+    n7["sase-17x.13.10: Close the `:` Command Line landing gaps: hide/hop deadlocks, key and source bugs, stale goldens [closed]"]
     n8["sase-17x.13.10.1: Bring screen_completion.py under the line-count limit [closed]"]
     n9["sase-17x.13.10.2: Fix the hide and palette-hop deadlocks and the lost loop hops [closed]"]
     n10["sase-17x.13.10.3: History walk, menu keys, and compact key hints [closed]"]
     n11["sase-17x.13.10.4: Fresh caches, project and cd resolution, and the keystroke probe [closed]"]
     n12["sase-17x.13.10.5: Tip marker write, restored-block append, and history counts [closed]"]
-    n13["sase-17x.13.10.6: Regenerate epic goldens and take the live walkthrough [in_progress]"]
+    n13["sase-17x.13.10.6: Regenerate epic goldens and take the live walkthrough [closed]"]
     n14["sase-17x.13.2: Fix call_from_thread misuse on the app loop [closed]"]
     n15["sase-17x.13.3: Make every Keys-table key behave as specified [closed]"]
     n16["sase-17x.13.4: Apply the ace.keymaps.command_line scope [closed]"]
@@ -144,35 +162,35 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-17x.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.1/README.md) | [sase-17x.1](sase-17x.1.md) | 1 |
-| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 1 |
+| [bbugyi200.athena.sase-17x.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.10.md) | [sase-17x.10](sase-17x.10.md) | 1 |
 | [bbugyi200.athena.sase-17x.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.11/README.md) | [sase-17x.11](sase-17x.11.md) | 1 |
 | [bbugyi200.athena.sase-17x.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.12/README.md) | [sase-17x.12](sase-17x.12.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.1/README.md) | [sase-17x.13.1](sase-17x.13.1.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.1.md) | [sase-17x.13.10.1](sase-17x.13.10.1.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.2.md) | [sase-17x.13.10.2](sase-17x.13.10.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.3/README.md) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.4/README.md) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.6/README.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
-| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.5.md) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.10.6.md) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md) | [sase-17x.13.10](sase-17x.13.10.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.2/README.md) | [sase-17x.13.2](sase-17x.13.2.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.3.md) | [sase-17x.13.3](sase-17x.13.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.4/README.md) | [sase-17x.13.4](sase-17x.13.4.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.5/README.md) | [sase-17x.13.5](sase-17x.13.5.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.6.md) | [sase-17x.13.6](sase-17x.13.6.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.7/README.md) | [sase-17x.13.7](sase-17x.13.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.13.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.8/README.md) | [sase-17x.13.8](sase-17x.13.8.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
-| [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.13.land.md) | [sase-17x.13](sase-17x.13.md) | 0 |
+| [bbugyi200.athena.sase-17x.13.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.9.md) | [sase-17x.13.9](sase-17x.13.9.md) | 1 |
+| [bbugyi200.athena.sase-17x.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.13.land.md) | [sase-17x.13](sase-17x.13.md) | 0 |
 | [bbugyi200.athena.sase-17x.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.2/README.md) | [sase-17x.2](sase-17x.2.md) | 1 |
 | [bbugyi200.athena.sase-17x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.3/README.md) | [sase-17x.3](sase-17x.3.md) | 1 |
 | [bbugyi200.athena.sase-17x.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.4/README.md) | [sase-17x.4](sase-17x.4.md) | 2 |
-| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.5.md) | [sase-17x.5](sase-17x.5.md) | 2 |
+| [bbugyi200.athena.sase-17x.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.5.md) | [sase-17x.5](sase-17x.5.md) | 2 |
 | [bbugyi200.athena.sase-17x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.6/README.md) | [sase-17x.6](sase-17x.6.md) | 1 |
 | [bbugyi200.athena.sase-17x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.7/README.md) | [sase-17x.7](sase-17x.7.md) | 1 |
 | [bbugyi200.athena.sase-17x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.8/README.md) | [sase-17x.8](sase-17x.8.md) | 1 |
 | [bbugyi200.athena.sase-17x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.9/README.md) | [sase-17x.9](sase-17x.9.md) | 1 |
-| [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.sase-17x.land.md) | [sase-17x](README.md) | 0 |
+| [bbugyi200.athena.sase-17x.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17x.land.md) | [sase-17x](README.md) | 0 |
 
 ## Commits
 
@@ -206,6 +224,8 @@ flowchart TD
 | sase | [`ea25ee2`](https://github.com/sase-org/sase/commit/ea25ee2bf78796f9850c8164b71ff863b4162d8c) | fix(command-line): move tip marker write off loop, append restored blocks on UI thread (sase-17x.13.10.5) | [sase-17x.13.10.5](sase-17x.13.10.5.md) | 2026-09-25 11:47:03 EDT |
 | sase | [`e01d346`](https://github.com/sase-org/sase/commit/e01d34651b4a356e463f899649a928f70c38c98e) | fix(command-line): history walk reset, fixed menu keys, compact key hints (sase-17x.13.10.3) | [sase-17x.13.10.3](sase-17x.13.10.3.md) | 2026-09-25 12:07:48 EDT |
 | sase | [`136a3e9`](https://github.com/sase-org/sase/commit/136a3e94885a455fc56d1405beabf71ccc6cb07c) | fix(command-line): fresh completion caches, cd project resolution, key-receipt probe (sase-17x.13.10.4) | [sase-17x.13.10.4](sase-17x.13.10.4.md) | 2026-09-25 15:01:28 EDT |
+| sase | [`9518b31`](https://github.com/sase-org/sase/commit/9518b31df9b7e235170018fdc0dd6d53702275e1) | feat: Regenerate epic goldens and take the live walkthrough (sase-17x.13.10.6) | [sase-17x.13.10.6](sase-17x.13.10.6.md) | 2026-09-25 18:54:39 EDT |
+| sase | [`31ba8e4`](https://github.com/sase-org/sase/commit/31ba8e4ddba4f34996c0cde4228435f0b8acb57a) | fix(command-line): land sase-17x.13.10 gaps: history reset, wall-clock elapsed, deterministic goldens | [sase-17x.13.10](sase-17x.13.10.md) | 2026-09-25 21:20:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -224,7 +244,7 @@ flowchart TD
 | read-by | [agent:sase-17y.land][9] | Check for existing symvision discovered-issue notes | 2 |
 | read-by | [agent:sase-18f.1][10] | Check which command-line phases are still open before deciding on symvision epic-symbol whitelisting | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0qz.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0rd/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.3.1.land/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17p.land/README.md
