@@ -40,3 +40,15 @@ modal-paint: reduce modal list and preview work on the Textual pump, then enforc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0b55415`](https://github.com/sase-org/sase/commit/0b55415cd7e5178fc966b85c718ac5a7b015f8d4) | feat(ace): add agent node finder modal with snapshot, preview and fuzzy model | [sase-19i.7.2](sase-19i.7.2.md) | 2026-09-26 10:10:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.2.md
+
+<!-- sase:referenced-by:end -->
