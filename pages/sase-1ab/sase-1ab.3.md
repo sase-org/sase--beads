@@ -28,7 +28,7 @@ runtime-cutover: rename every non-TUI package, module, and identifier (gate_shel
 - **Depends on:** [sase-1ab.2](sase-1ab.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.4](sase-1ab.4.md) ◐ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.5](sase-1ab.5.md) ◐ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.6](sase-1ab.6.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.6](sase-1ab.6.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -41,3 +41,15 @@ runtime-cutover: rename every non-TUI package, module, and identifier (gate_shel
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d5fc758`](https://github.com/sase-org/sase/commit/d5fc75864f0afb44b5f9fa7d1c21b6d4d913916d) | feat(runtime): cut over gate shell to gate turn | [sase-1ab.3](sase-1ab.3.md) | 2026-09-26 13:46:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.3--1][1] | continue runtime_turn_cutover: verify bead state before epic-symbols refresh and close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.3.md
+
+<!-- sase:referenced-by:end -->

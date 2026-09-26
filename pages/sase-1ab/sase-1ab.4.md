@@ -20,4 +20,4 @@ tui-cutover: rename TUI modules, row kinds, section ids, and visible copy (SESSI
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.4/README.md) | [sase-1ab.4](sase-1ab.4.md) | 0 |
+| [bbugyi200.athena.sase-1ab.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.4.md) | [sase-1ab.4](sase-1ab.4.md) | 0 |

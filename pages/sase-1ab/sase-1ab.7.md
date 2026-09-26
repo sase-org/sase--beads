@@ -14,7 +14,7 @@ contract-flip: breaking feat! sase-core change. Serialize the new key and value 
 ## Dependencies
 
 - **Depends on:** [sase-1ab.4](sase-1ab.4.md) ◐ · ⧖ 2026-09-26
-- **Depends on:** [sase-1ab.6](sase-1ab.6.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.6](sase-1ab.6.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.8](sase-1ab.8.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
