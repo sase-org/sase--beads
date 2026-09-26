@@ -32,3 +32,15 @@ render: paint agent-closed rows with a green check, a capped CLOSED pill, resolu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7211290`](https://github.com/sase-org/sase/commit/72112905707800b3f51068d66edda19323d359ba) | feat(ace): add agent bead touches panel and sase context snapshots | [sase-19p.3](sase-19p.3.md) | 2026-09-25 20:55:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19p.3--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19p.3.md
+
+<!-- sase:referenced-by:end -->

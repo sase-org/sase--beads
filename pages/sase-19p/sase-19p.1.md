@@ -7,6 +7,18 @@
 **Created:** 2026-09-25 14:05:29 EDT · **Closed:** 2026-09-25 15:03:44 EDT
 **Plan:** [202609/agent\_closed\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_closed_beads.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:de36399b1d1123473fa3ec0f | attached via sase artifact create --bead |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
+
 ## Description
 
 core: stamp issue_closed events with the acting closer plus a durable closed_by payload field, credit closes in the touch-index reducer (with legacy same-instant note recovery), add a per-touch close record with resolution/reason/standing, and bump the index schema.
