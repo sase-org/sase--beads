@@ -37,3 +37,15 @@ opportunity-report: list receipts and report content-addressed repeat opportunit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`473871c`](https://github.com/sase-org/sase/commit/473871ceea6b68748793875bca1daef39ca68558) | feat(tool): add receipts opportunity report for content-equivalent repeats | [sase-1ah.5](sase-1ah.5.md) | 2026-09-26 11:08:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.5/README.md
+
+<!-- sase:referenced-by:end -->

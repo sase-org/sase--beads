@@ -11,6 +11,12 @@
 
 verdict-completion: add explicit no-new intent policy, recheck the verified tree at commit time, recover with typed refusals, and record provenance in host actions.
 
+## Notes
+
+[2026-09-26T16:21:03Z · sase-1ah.6--1] PROPOSED FOLLOW-UP: just check gate lint (feature flags) fails on rule 7 — closed flag bead 'sase-1ad' still has a surviving 'card_blocks' definition in src/sase/feature_flags/registry.py (bead="sase-1ad"). Reproduced on clean base (working tree stashed): same diagnostic, so pre-existing and out of scope for verdict_completion. Root cause is a cross-tree race: agent sase-19x.9 closed sase-1ad at 2026-09-26T15:43:04Z after removing the flag in its own tree, while this checkout (HEAD d1b72cfe58) still carries the registry definition. Resolves when the card_blocks cutover removal lands in this branch (or the registry entry is dropped here). Check run evidence: sase tool show b78d1dcb62e1c0da8fdf017709e99794 (exit 1, all other stages green). Focused suites for this phase pass: tests/monitor/test_no_new_receipt.py + tests/test_final_prepare.py, 37 passed.
+
+[2026-09-26T16:21:55Z · sase-1ah.6--1] PROPOSED FOLLOW-UP: sase-core-revision.txt still pins 9f86897f834e9719c44f5e1669a4bd55d312b99c while the accept-policy core changes for this phase live only as uncommitted wires in the linked sase-core checkout. Ratchet the pin past the landed accept-policy core commit before no-new activates outside dev builds.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ah.4](sase-1ah.4.md) ✓ · ⧖ 2026-09-26
@@ -20,4 +26,10 @@ verdict-completion: add explicit no-new intent policy, recheck the verified tree
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 0 |
+| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9e8a65a`](https://github.com/sase-org/sase/commit/9e8a65ad2a7491680ffbea38ceb011e0f10891e2) | feat(verdict-completion): explicit no-new intent policy with commit-time recheck, typed refusals and verdict provenance (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:23:28 EDT |
