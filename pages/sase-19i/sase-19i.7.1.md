@@ -19,7 +19,7 @@ snapshot-filter: remove data-scaled repeated tree walks in the Node Finder snaps
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.7.2](sase-19i.7.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19i.7.2](sase-19i.7.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ snapshot-filter: remove data-scaled repeated tree walks in the Node Finder snaps
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f62604e`](https://github.com/sase-org/sase/commit/f62604e712dde4092da845f3c5edce6023f1da96) | perf(node-finder): bound snapshot and broad-query filter work (sase-19i.7.1) | [sase-19i.7.1](sase-19i.7.1.md) | 2026-09-26 06:40:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.1.md
+
+<!-- sase:referenced-by:end -->

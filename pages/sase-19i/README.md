@@ -45,7 +45,7 @@ flowchart TD
     n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [closed]"]
     n7["sase-19i.7: Finish Node Finder performance budgets [in_progress]"]
     n8["sase-19i.7.1: Bound snapshot and broad-query filter work [closed]"]
-    n9["sase-19i.7.2: Meet first-paint, broad-query, and highlight budgets [in_progress]"]
+    n9["sase-19i.7.2: Meet first-paint, broad-query, and highlight budgets [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.5.md) | [sase-19i.5](sase-19i.5.md) | 1 |
 | [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.6.md) | [sase-19i.6](sase-19i.6.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.1.md) | [sase-19i.7.1](sase-19i.7.1.md) | 1 |
-| [bbugyi200.athena.sase-19i.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.2/README.md) | [sase-19i.7.2](sase-19i.7.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.2.md) | [sase-19i.7.2](sase-19i.7.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.land/README.md) | [sase-19i.7](sase-19i.7.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.land.md) | [sase-19i](README.md) | 0 |
 
@@ -90,6 +90,7 @@ flowchart TD
 | sase | [`df0d58d`](https://github.com/sase-org/sase/commit/df0d58d337f06b8e20878ebc0734a6309041c647) | feat(agents-finder): wire quotation\_mark to jump\_to\_node with goldens and bench | [sase-19i.5](sase-19i.5.md) | 2026-09-25 23:45:37 EDT |
 | sase | [`aa5fc55`](https://github.com/sase-org/sase/commit/aa5fc5503b05cea27667575a010889d65d1608ff) | feat(ace): add hidden node finder reveal coverage | [sase-19i.6](sase-19i.6.md) | 2026-09-26 00:17:16 EDT |
 | sase | [`f62604e`](https://github.com/sase-org/sase/commit/f62604e712dde4092da845f3c5edce6023f1da96) | perf(node-finder): bound snapshot and broad-query filter work (sase-19i.7.1) | [sase-19i.7.1](sase-19i.7.1.md) | 2026-09-26 06:40:00 EDT |
+| sase | [`0b55415`](https://github.com/sase-org/sase/commit/0b55415cd7e5178fc966b85c718ac5a7b015f8d4) | feat(ace): add agent node finder modal with snapshot, preview and fuzzy model | [sase-19i.7.2](sase-19i.7.2.md) | 2026-09-26 10:10:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -99,8 +100,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.land][1] | Check whether active epic owns clean-HEAD test failures found while landing sase-17m | 1 |
 | read-by | [agent:sase-17x.13.10.land][2] | Avoid duplicating DISCOVERED ISSUE notes | 2 |
+| read-by | [agent:sase-19p.4.land][3] | Need follow-up bead status | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19p.4.land/README.md
 
 <!-- sase:referenced-by:end -->
