@@ -19,7 +19,7 @@ core_selection: implement and test alternation-aware model and project-tag selec
 
 ## Dependencies
 
-- **Blocks:** [sase-1ao.2](sase-1ao.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ao.2](sase-1ao.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

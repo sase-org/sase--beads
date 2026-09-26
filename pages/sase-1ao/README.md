@@ -16,7 +16,7 @@ Accepting =alias or ==model yields one standalone model directive per prompt seg
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ao.1](sase-1ao.1.md) | Implement shared model edits and protect alternation targets | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ao.2](sase-1ao.2.md) | Apply shared edits in the prompt widget | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [sase-1ao.2](sase-1ao.2.md) | Apply shared edits in the prompt widget | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ Accepting =alias or ==model yields one standalone model directive per prompt seg
 flowchart TD
     n0["sase-1ao: Replace existing model directives on shortcut completion [in_progress]"]
     n1["sase-1ao.1: Implement shared model edits and protect alternation targets [closed]"]
-    n2["sase-1ao.2: Apply shared edits in the prompt widget [in_progress]"]
+    n2["sase-1ao.2: Apply shared edits in the prompt widget [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1ao.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.1/README.md) | [sase-1ao.1](sase-1ao.1.md) | 1 |
-| [bbugyi200.apollo.sase-1ao.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.2/README.md) | [sase-1ao.2](sase-1ao.2.md) | 0 |
+| [bbugyi200.apollo.sase-1ao.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.2.md) | [sase-1ao.2](sase-1ao.2.md) | 1 |
 | [bbugyi200.apollo.sase-1ao.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.land/README.md) | [sase-1ao](README.md) | 0 |
 
 ## Commits
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e1179e6`](https://github.com/sase-org/sase-core/commit/e1179e65bacefa91593c7dfbbd5480459ecfa504) | feat(core): alternation-aware model shortcut accept with protected branch targets | [sase-1ao.1](sase-1ao.1.md) | 2026-09-26 11:23:03 EDT |
+| sase | [`e922c42`](https://github.com/sase-org/sase/commit/e922c424e2e8bd22aac06fdb69c255ff15f33863) | feat(ace): adopt shared model-shortcut edits in prompt widget (sase-1ao.2) | [sase-1ao.2](sase-1ao.2.md) | 2026-09-26 12:33:10 EDT |
