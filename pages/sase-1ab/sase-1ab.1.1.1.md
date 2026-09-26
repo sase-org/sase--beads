@@ -23,7 +23,7 @@ scan-wires: rename the agent-scan shell wires, hand-read meta keys, and gate-id 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ab.1.1.2](sase-1ab.1.1.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.1.1.2](sase-1ab.1.1.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -36,3 +36,15 @@ scan-wires: rename the agent-scan shell wires, hand-read meta keys, and gate-id 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c2c2f94`](https://github.com/sase-org/sase-core/commit/c2c2f94f54e71d3b009a776a213b044ad7bf18aa) | refactor(agent\_scan): rename session shell wires to session turn wires | [sase-1ab.1.1.1](sase-1ab.1.1.1.md) | 2026-09-26 00:50:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.1.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->

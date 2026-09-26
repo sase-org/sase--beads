@@ -13,7 +13,7 @@ fleet-runtime: rename fleet row kinds, locator ids, owner status, and runner-slo
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.1.1.2](sase-1ab.1.1.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.1.1.2](sase-1ab.1.1.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.1.1.4](sase-1ab.1.1.4.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
