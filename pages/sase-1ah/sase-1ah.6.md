@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ah](README.md) / sase-1ah.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0st](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0st.md) · **Assignee:** `sase-1ah.6` · **Size:** large
-**Created:** 2026-09-26 07:29:36 EDT
+**Created:** 2026-09-26 07:29:36 EDT · **Closed:** 2026-09-26 12:28:13 EDT
 **Plan:** [202609/tool\_e4\_verified\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e4_verified_completion.md)
 
 ## Description
@@ -17,6 +17,8 @@ verdict-completion: add explicit no-new intent policy, recheck the verified tree
 
 [2026-09-26T16:21:55Z · sase-1ah.6--1] PROPOSED FOLLOW-UP: sase-core-revision.txt still pins 9f86897f834e9719c44f5e1669a4bd55d312b99c while the accept-policy core changes for this phase live only as uncommitted wires in the linked sase-core checkout. Ratchet the pin past the landed accept-policy core commit before no-new activates outside dev builds.
 
+[2026-09-26T16:28:13Z · sase-1ah.6--1] Closed by explicit `sase stitch create -B close` after create_commit landed 9e8a65ad2a ("feat(verdict-completion): explicit no-new intent policy with commit-time recheck, typed refusals and verdict provenance (sase-1ah.6)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1ah.6` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ah.4](sase-1ah.4.md) ✓ · ⧖ 2026-09-26
@@ -26,10 +28,23 @@ verdict-completion: add explicit no-new intent policy, recheck the verified tree
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 1 |
+| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9e8a65a`](https://github.com/sase-org/sase/commit/9e8a65ad2a7491680ffbea38ceb011e0f10891e2) | feat(verdict-completion): explicit no-new intent policy with commit-time recheck, typed refusals and verdict provenance (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:23:28 EDT |
+| sase-core | [`sase-core@e654e7c`](https://github.com/sase-org/sase-core/commit/e654e7cc4ae31c0e13e03bead38ba42c4e08c445) | feat(continuation): accept-policy wires for verdict completion (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:28:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.6--1][1] | triage failed check gate: determine if flag-lint failure is pre-existing and record follow-up | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md
+
+<!-- sase:referenced-by:end -->

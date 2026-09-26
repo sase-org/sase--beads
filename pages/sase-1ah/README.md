@@ -20,7 +20,7 @@ A named verification run can mint a short-lived receipt for its exact fingerprin
 | [sase-1ah.3](sase-1ah.3.md) | Pin the released core before catalog adoption | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ah.4](sase-1ah.4.md) | Mint and query receipts on both execution paths | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ah.5](sase-1ah.5.md) | Measure content-equivalent verification repeats | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ah.6](sase-1ah.6.md) | Gate prepared completion on a covering receipt | ◐ in_progress | large | 2026-09-26 | 1 | 1 |
+| [sase-1ah.6](sase-1ah.6.md) | Gate prepared completion on a covering receipt | ✓ closed | large | 2026-09-26 | 1 | 2 |
 | [sase-1ah.7](sase-1ah.7.md) | Prove acceptance and remove the beta flag | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
@@ -33,7 +33,7 @@ flowchart TD
     n3["sase-1ah.3: Pin the released core before catalog adoption [closed]"]
     n4["sase-1ah.4: Mint and query receipts on both execution paths [closed]"]
     n5["sase-1ah.5: Measure content-equivalent verification repeats [closed]"]
-    n6["sase-1ah.6: Gate prepared completion on a covering receipt [in_progress]"]
+    n6["sase-1ah.6: Gate prepared completion on a covering receipt [closed]"]
     n7["sase-1ah.7: Prove acceptance and remove the beta flag [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md) | [sase-1ah.3](sase-1ah.3.md) | 1 |
 | [bbugyi200.athena.sase-1ah.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md) | [sase-1ah.4](sase-1ah.4.md) | 1 |
 | [bbugyi200.athena.sase-1ah.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.5/README.md) | [sase-1ah.5](sase-1ah.5.md) | 1 |
-| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 1 |
+| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 2 |
 | [bbugyi200.athena.sase-1ah.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.7/README.md) | [sase-1ah.7](sase-1ah.7.md) | 0 |
 | [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.land/README.md) | [sase-1ah](README.md) | 0 |
 
@@ -74,6 +74,7 @@ flowchart TD
 | sase | [`2811476`](https://github.com/sase-org/sase/commit/281147666b7ce353cb46fc1031870e72c9c7cd6d) | feat(tool): add receipt execution CLI with settle adapter and receipt query | [sase-1ah.4](sase-1ah.4.md) | 2026-09-26 10:43:44 EDT |
 | sase | [`473871c`](https://github.com/sase-org/sase/commit/473871ceea6b68748793875bca1daef39ca68558) | feat(tool): add receipts opportunity report for content-equivalent repeats | [sase-1ah.5](sase-1ah.5.md) | 2026-09-26 11:08:37 EDT |
 | sase | [`9e8a65a`](https://github.com/sase-org/sase/commit/9e8a65ad2a7491680ffbea38ceb011e0f10891e2) | feat(verdict-completion): explicit no-new intent policy with commit-time recheck, typed refusals and verdict provenance (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:23:28 EDT |
+| sase-core | [`sase-core@e654e7c`](https://github.com/sase-org/sase-core/commit/e654e7cc4ae31c0e13e03bead38ba42c4e08c445) | feat(continuation): accept-policy wires for verdict completion (sase-1ah.6) | [sase-1ah.6](sase-1ah.6.md) | 2026-09-26 12:28:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
