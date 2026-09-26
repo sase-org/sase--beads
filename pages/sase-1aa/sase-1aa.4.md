@@ -13,7 +13,7 @@ generated_model_docs: render mirrored model tables from YAML, replace freshness 
 
 ## Dependencies
 
-- **Depends on:** [sase-1aa.3](sase-1aa.3.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-1aa.3](sase-1aa.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

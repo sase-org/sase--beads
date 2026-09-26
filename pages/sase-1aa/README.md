@@ -17,7 +17,7 @@ Maintainers update one bundled manifest for built-in model catalogs, tier defaul
 |---|---|---|---|---|---:|---:|
 | [sase-1aa.1](sase-1aa.1.md) | Replace shipped-value copies in tests and guard the existing generated alias table | ✓ closed | medium | 2026-09-25 | 1 | 0 |
 | [sase-1aa.2](sase-1aa.2.md) | Move built-in provider model data and size aliases into one manifest | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-1aa.3](sase-1aa.3.md) | Validate shipped size-alias policy from the manifest | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-1aa.3](sase-1aa.3.md) | Validate shipped size-alias policy from the manifest | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-1aa.4](sase-1aa.4.md) | Generate model tables and prove the maintainer workflow | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 
 ## Lineage
@@ -27,7 +27,7 @@ flowchart TD
     n0["sase-1aa: Make built-in model and size-alias updates a one-file edit [in_progress]"]
     n1["sase-1aa.1: Replace shipped-value copies in tests and guard the existing generated alias table [closed]"]
     n2["sase-1aa.2: Move built-in provider model data and size aliases into one manifest [closed]"]
-    n3["sase-1aa.3: Validate shipped size-alias policy from the manifest [in_progress]"]
+    n3["sase-1aa.3: Validate shipped size-alias policy from the manifest [closed]"]
     n4["sase-1aa.4: Generate model tables and prove the maintainer workflow [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-1aa.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.1/README.md) | [sase-1aa.1](sase-1aa.1.md) | 0 |
 | [bbugyi200.apollo.sase-1aa.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aa.2.md) | [sase-1aa.2](sase-1aa.2.md) | 1 |
-| [bbugyi200.apollo.sase-1aa.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.3/README.md) | [sase-1aa.3](sase-1aa.3.md) | 0 |
+| [bbugyi200.apollo.sase-1aa.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.3/README.md) | [sase-1aa.3](sase-1aa.3.md) | 1 |
 | [bbugyi200.apollo.sase-1aa.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.4/README.md) | [sase-1aa.4](sase-1aa.4.md) | 0 |
 | [bbugyi200.apollo.sase-1aa.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aa.land/README.md) | [sase-1aa](README.md) | 0 |
 
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1ef56bd`](https://github.com/sase-org/sase/commit/1ef56bd1b696af2de86705af38c1c7321686926f) | feat(llm-provider): move built-in model data and size aliases into one manifest | [sase-1aa.2](sase-1aa.2.md) | 2026-09-26 06:11:53 EDT |
+| sase | [`e2b4625`](https://github.com/sase-org/sase/commit/e2b462548c2becdf846ed2773450c4542b56de04) | feat(llm-provider): add executable model policy over models.yml | [sase-1aa.3](sase-1aa.3.md) | 2026-09-26 06:38:07 EDT |

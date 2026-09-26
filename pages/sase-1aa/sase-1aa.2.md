@@ -22,7 +22,7 @@ unified_manifest: add a strictly validated, lazy models.yml loader and migrate s
 ## Dependencies
 
 - **Depends on:** [sase-1aa.1](sase-1aa.1.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-1aa.3](sase-1aa.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-1aa.3](sase-1aa.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
