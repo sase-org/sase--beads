@@ -7,6 +7,18 @@
 **Created:** 2026-09-26 14:44:20 EDT
 **Plan:** [202609/prompt\_recall\_tabs\_and\_stash\_trash.md](https://github.com/sase-org/sase--plans/blob/main/202609/prompt_recall_tabs_and_stash_trash.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/prompt_recall_tabs_and_stash_trash.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/prompt_recall_tabs_and_stash_trash.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 One reliable Prompts overlay unifies draft recall while bounded, transactional Trash makes deliberate stash discards recoverable.
@@ -16,7 +28,7 @@ One reliable Prompts overlay unifies draft recall while bounded, transactional T
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1au.1](sase-1au.1.md) | Transactional stash trash in Rust core | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1au.2](sase-1au.2.md) | Python contract, configuration, and upgrade boundary | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [sase-1au.2](sase-1au.2.md) | Python contract, configuration, and upgrade boundary | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1au.3](sase-1au.3.md) | Reusable Prompts overlay and existing Stash and History panes | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 | [sase-1au.4](sase-1au.4.md) | Trash pane and reliable staged actions | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 | [sase-1au.5](sase-1au.5.md) | Atomic entry-point rollout, documentation, and visual acceptance | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
@@ -27,7 +39,7 @@ One reliable Prompts overlay unifies draft recall while bounded, transactional T
 flowchart TD
     n0["sase-1au: Prompt recall tabs and bounded stash trash [in_progress]"]
     n1["sase-1au.1: Transactional stash trash in Rust core [closed]"]
-    n2["sase-1au.2: Python contract, configuration, and upgrade boundary [in_progress]"]
+    n2["sase-1au.2: Python contract, configuration, and upgrade boundary [closed]"]
     n3["sase-1au.3: Reusable Prompts overlay and existing Stash and History panes [in_progress]"]
     n4["sase-1au.4: Trash pane and reliable staged actions [in_progress]"]
     n5["sase-1au.5: Atomic entry-point rollout, documentation, and visual acceptance [in_progress]"]
@@ -48,8 +60,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1au.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.1/README.md) | [sase-1au.1](sase-1au.1.md) | 1 |
-| [bbugyi200.athena.sase-1au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.2/README.md) | [sase-1au.2](sase-1au.2.md) | 0 |
-| [bbugyi200.athena.sase-1au.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.3/README.md) | [sase-1au.3](sase-1au.3.md) | 0 |
+| [bbugyi200.athena.sase-1au.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.2/README.md) | [sase-1au.2](sase-1au.2.md) | 1 |
+| [bbugyi200.athena.sase-1au.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.3.md) | [sase-1au.3](sase-1au.3.md) | 0 |
 | [bbugyi200.athena.sase-1au.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.4/README.md) | [sase-1au.4](sase-1au.4.md) | 0 |
 | [bbugyi200.athena.sase-1au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.5/README.md) | [sase-1au.5](sase-1au.5.md) | 0 |
 | [bbugyi200.athena.sase-1au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.land/README.md) | [sase-1au](README.md) | 0 |
@@ -59,3 +71,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e44af7d`](https://github.com/sase-org/sase-core/commit/e44af7d40a6c24b447b258cac831d9ede4262980) | feat(prompt-stash): transactional stash trash lifecycle in Rust core | [sase-1au.1](sase-1au.1.md) | 2026-09-26 15:11:34 EDT |
+| sase | [`e7dc4be`](https://github.com/sase-org/sase/commit/e7dc4be959ecc5f773424673166e3dac5b51d601) | feat(prompt-stash): Python contract, config, and core pin for stash trash (sase-1au.2) | [sase-1au.2](sase-1au.2.md) | 2026-09-26 16:14:01 EDT |

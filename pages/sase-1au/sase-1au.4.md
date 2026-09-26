@@ -14,7 +14,7 @@ trash_interactions: add Trash actions, confirmations, authoritative repaint, sty
 ## Dependencies
 
 - **Depends on:** [sase-1au.1](sase-1au.1.md) ✓ · ⧖ 2026-09-26
-- **Depends on:** [sase-1au.2](sase-1au.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1au.2](sase-1au.2.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1au.3](sase-1au.3.md) ◐ · ⧖ 2026-09-26
 - **Blocks:** [sase-1au.5](sase-1au.5.md) ◐ · ⧖ 2026-09-26
 
