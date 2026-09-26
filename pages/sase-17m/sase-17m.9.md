@@ -43,9 +43,11 @@ session-pages: bump the core pin and the Python schema mirrors. Publish agents-s
 | read-by | [agent:research.2k.cld][1] | Audit: confirm the core flip landed before the sase-side mirror bump, causing the schema-mismatch outage | 1 |
 | read-by | [agent:research.2k.final][2] | Verify the incident's core-flip/pin-bump phase ordering for the consolidated research report | 1 |
 | read-by | [agent:sase-17m.9--4][3] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.land][4] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 
 <!-- sase:referenced-by:end -->

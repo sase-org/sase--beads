@@ -52,6 +52,7 @@ core-contract: breaking feat! sase-core change. Serialize the new key and value 
 | read-by | [agent:research.2k.final][4] | Verify the incident's core-flip/pin-bump phase ordering for the consolidated research report | 1 |
 | read-by | [agent:sase-17m.2.1.land][5] | Check core-contract scope for routing follow-ups | 2 |
 | read-by | [agent:sase-17m.8][6] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.land][7] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
@@ -59,5 +60,6 @@ core-contract: breaking feat! sase-core change. Serialize the new key and value 
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2k.final/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 
 <!-- sase:referenced-by:end -->

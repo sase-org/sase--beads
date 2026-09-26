@@ -40,8 +40,10 @@ ace-cutover: rename ACE modules, row kinds, the grouping mode, and visible copy 
 | --- | --- | --- | ---: |
 | read-by | [agent:0qz--code][1] | verify 17m.5 open before adding epic-symbol entries | 1 |
 | read-by | [agent:sase-17m.5.1.6.5.land--1][2] | Confirm phase close status, notes, and that containing epic stayed open | 2 |
+| read-by | [agent:sase-17m.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qz.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -32,7 +32,9 @@ core-expand: non-breaking sase-core change. Rename the Rust internals to agent-s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-17m.2.1.land][1] | Confirm parent phase close state | 2 |
+| read-by | [agent:sase-17m.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 
 <!-- sase:referenced-by:end -->

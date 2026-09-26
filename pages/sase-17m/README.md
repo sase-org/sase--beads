@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-183][1] | 7e1b05964 (sase-17m.3.1 wire cutover) renamed the family index fields that 9bd351b67 still references |
 
-_Plus 12 automatic references — see [Referenced By](#referenced-by)._
+_Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-183/README.md
 
@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 1 |
 | [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md) | [sase-17m.9](sase-17m.9.md) | 1 |
-| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 1 |
+| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 2 |
 
 ## Commits
 
@@ -292,6 +292,7 @@ flowchart TD
 | sase | [`266c8b3`](https://github.com/sase-org/sase/commit/266c8b37bc0fe75c0491c9c3c5a44db38741ad66) | test(terminology): add agent-session regression guard for sase-17m.10 | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:45:28 EDT |
 | chezmoi | [`chezmoi@d879385`](https://github.com/bbugyi200/dotfiles/commit/d87938507a4758fcb0d4bdb14c1d41849fbb3e50) | feat(ace): rename snippet af/agent family to as/agent session | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:51:49 EDT |
 | sase | [`22e5414`](https://github.com/sase-org/sase/commit/22e5414a9f6c7ac09518506ac0f6290cee105eb8) | fix(agent-session): finish the sase-17m landing | [sase-17m](README.md) | 2026-09-25 22:09:44 EDT |
+| sase-core | [`sase-core@3955499`](https://github.com/sase-org/sase-core/commit/395549968b678e54068699cca4622190deaf3f37) | docs(agent-session): drop the last agent-family prose in core contracts | [sase-17m](README.md) | 2026-09-25 22:15:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -309,8 +310,9 @@ flowchart TD
 | read-by | [agent:sase-17m.2.1.land][8] | Need parent epic to see wire-cutover/core-contract phases | 1 |
 | read-by | [agent:sase-17m.4.1.land][9] | Confirm containing epic remains open for its land agent | 1 |
 | read-by | [agent:sase-17m.5.1.6.5.land--1][10] | Confirm containing rename epic remained open for its land agent | 1 |
-| read-by | [agent:sase-18d.7.land][11] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
-| read-by | [agent:sase-18f.land][12] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
+| read-by | [agent:sase-17m.land][11] | Need the parent link after close | 2 |
+| read-by | [agent:sase-18d.7.land][12] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
+| read-by | [agent:sase-18f.land][13] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
@@ -322,7 +324,8 @@ flowchart TD
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
 [10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
-[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
+[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->

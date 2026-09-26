@@ -48,8 +48,10 @@ audit: add a terminology regression test and sweep every repo, classifying each 
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2g.final.f0][1] | Flake corroboration counts and 17m rename epic state for P1 sequencing | 1 |
 | read-by | [agent:sase-17m.10--1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-17m.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2g.final.f0/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.10.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
 
 <!-- sase:referenced-by:end -->
