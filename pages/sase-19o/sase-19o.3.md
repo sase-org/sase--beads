@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-19o](README.md) / sase-19o.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s9](https://github.com/sase-org/sase--agents/blob/main/families/bbugyi200.athena.0s9.md) · **Assignee:** `sase-19o.3` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0s9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0s9.md) · **Assignee:** `sase-19o.3` · **Size:** medium
 **Created:** 2026-09-25 13:51:13 EDT · **Closed:** 2026-09-25 16:44:05 EDT
 **Plan:** [202609/bead\_work\_registry\_drift\_resilience.md](https://github.com/sase-org/sase--plans/blob/main/202609/bead_work_registry_drift_resilience.md)
 
