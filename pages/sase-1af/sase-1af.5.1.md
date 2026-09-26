@@ -28,3 +28,15 @@ source_visual_verification: add reviewed Services source-combination PNGs and re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8c9653d`](https://github.com/sase-org/sase/commit/8c9653df004cd3592cc81ef39d30e1410a1b7ff2) | test(ace): add services panels PNG snapshot coverage with explicit routine origins | [sase-1af.5.1](sase-1af.5.1.md) | 2026-09-26 12:33:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1af.5.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1af.5.1/README.md
+
+<!-- sase:referenced-by:end -->
