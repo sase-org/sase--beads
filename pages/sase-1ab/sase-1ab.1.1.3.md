@@ -22,7 +22,7 @@ fleet-runtime: rename fleet row kinds, locator ids, owner status, and runner-slo
 ## Dependencies
 
 - **Depends on:** [sase-1ab.1.1.2](sase-1ab.1.1.2.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.1.1.4](sase-1ab.1.1.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.1.1.4](sase-1ab.1.1.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -35,3 +35,15 @@ fleet-runtime: rename fleet row kinds, locator ids, owner status, and runner-slo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@20deb1b`](https://github.com/sase-org/sase-core/commit/20deb1b0c5b19f0f9ad3b6e34f765093dbb585da) | refactor(core): rename fleet runtime shell wires to turn vocabulary | [sase-1ab.1.1.3](sase-1ab.1.1.3.md) | 2026-09-26 01:47:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.1.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.3/README.md
+
+<!-- sase:referenced-by:end -->
