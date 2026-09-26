@@ -27,7 +27,7 @@ snapshot-tail: profile and remove repeated grouping and row passes until a warm 
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -40,3 +40,15 @@ snapshot-tail: profile and remove repeated grouping and row passes until a warm 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4be908b`](https://github.com/sase-org/sase/commit/4be908bb661a29700a88f56d4835c782caafc219) | perf(node-finder): bound 2,000-node snapshot tail (sase-19i.7.3.3.3.1) | [sase-19i.7.3.3.3.1](sase-19i.7.3.3.3.1.md) | 2026-09-26 17:02:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.3.3.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.1/README.md
+
+<!-- sase:referenced-by:end -->
