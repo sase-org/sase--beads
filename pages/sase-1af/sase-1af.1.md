@@ -19,7 +19,7 @@ core_origin: add stable first-declaration metadata to AXE inventory, with compos
 
 ## Dependencies
 
-- **Blocks:** [sase-1af.2](sase-1af.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1af.2](sase-1af.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

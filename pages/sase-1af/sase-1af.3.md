@@ -13,7 +13,7 @@ source_panels: replace the single routine panel with fixed source sections and c
 
 ## Dependencies
 
-- **Depends on:** [sase-1af.2](sase-1af.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1af.2](sase-1af.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1af.4](sase-1af.4.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
