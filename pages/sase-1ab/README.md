@@ -7,6 +7,20 @@
 **Created:** 2026-09-26 00:15:04 EDT
 **Plan:** [202609/sase\_turn\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_turn_rename.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/sase_turn_rename.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_turn_rename.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The concept formerly called a sase shell is named a sase turn on every current surface in sase, sase-core, sase-telegram, sase-github, sase-research-artifacts, and chezmoi: code, wire contracts, persisted output, CLI, gate specs, config, the TUI, skills, docs, and memory. Agent, gate, and monitor shells become agent, gate, and monitor turns, and stand-alone proc shells become named procs. Pre-rename data still loads, retired user syntax keeps working behind a sunset flag, and unrelated meanings of "shell" (Unix shells, shell completion, UI chrome) are unchanged.
@@ -16,8 +30,8 @@ The concept formerly called a sase shell is named a sase turn on every current s
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ab.1](sase-1ab.1.md) | sase-core additive rename | ✓ closed | large | 2026-09-26 | 1 | 0 |
-| [sase-1ab.2](sase-1ab.2.md) | Python persistence and wire cutover | ◐ in_progress | large | 2026-09-26 | 1 | 2 |
-| [sase-1ab.3](sase-1ab.3.md) | Runtime, syntax, and CLI cutover | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
+| [sase-1ab.2](sase-1ab.2.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-26 | 1 | 2 |
+| [sase-1ab.3](sase-1ab.3.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-26 | 1 | 1 |
 | [sase-1ab.4](sase-1ab.4.md) | TUI turn surfaces | ◐ in_progress | large | 2026-09-26 | 1 | 0 |
 | [sase-1ab.5](sase-1ab.5.md) | Documentation and memory | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 | [sase-1ab.6](sase-1ab.6.md) | sase-telegram cutover | ◐ in_progress | small | 2026-09-26 | 1 | 0 |
@@ -36,8 +50,8 @@ flowchart TD
     n4["sase-1ab.1.1.2: Named-proc store, launch, and holds [closed]"]
     n5["sase-1ab.1.1.3: Fleet, runner capacity, and gateway [closed]"]
     n6["sase-1ab.1.1.4: Editor text, classification, and cross-repo check [closed]"]
-    n7["sase-1ab.2: Python persistence and wire cutover [in_progress]"]
-    n8["sase-1ab.3: Runtime, syntax, and CLI cutover [in_progress]"]
+    n7["sase-1ab.2: Python persistence and wire cutover [closed]"]
+    n8["sase-1ab.3: Runtime, syntax, and CLI cutover [closed]"]
     n9["sase-1ab.4: TUI turn surfaces [in_progress]"]
     n10["sase-1ab.5: Documentation and memory [in_progress]"]
     n11["sase-1ab.6: sase-telegram cutover [in_progress]"]
@@ -84,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.1.4.md) | [sase-1ab.1.1.4](sase-1ab.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md) | [sase-1ab.1.1](sase-1ab.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1ab.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.2.md) | [sase-1ab.2](sase-1ab.2.md) | 2 |
-| [bbugyi200.athena.sase-1ab.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.3/README.md) | [sase-1ab.3](sase-1ab.3.md) | 0 |
+| [bbugyi200.athena.sase-1ab.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.3.md) | [sase-1ab.3](sase-1ab.3.md) | 1 |
 | [bbugyi200.athena.sase-1ab.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.4/README.md) | [sase-1ab.4](sase-1ab.4.md) | 0 |
 | [bbugyi200.athena.sase-1ab.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.5/README.md) | [sase-1ab.5](sase-1ab.5.md) | 0 |
 | [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 0 |
@@ -104,6 +118,7 @@ flowchart TD
 | sase--plans | [`sase--plans@9aa7bc7`](https://github.com/sase-org/sase--plans/commit/9aa7bc779863f292b23347f0ff42ef74c3209376) | chore(plan): mark sase-core turn expansion complete | [sase-1ab.1.1](sase-1ab.1.1.md) | 2026-09-26 03:23:34 EDT |
 | sase | [`c051b9a`](https://github.com/sase-org/sase/commit/c051b9a31a3c91c329bb029ea6dcda0ef0ceb0db) | fix(turn-cutover): repair sase-1ab.2 verification fallout | [sase-1ab.2](sase-1ab.2.md) | 2026-09-26 10:02:24 EDT |
 | sase | [`4ef7166`](https://github.com/sase-org/sase/commit/4ef7166481dbf359c1dae0ca4cb783d7398295dc) | test(1ab.2): repair proc-rename fallout in wire-cutover tests | [sase-1ab.2](sase-1ab.2.md) | 2026-09-26 11:39:33 EDT |
+| sase | [`d5fc758`](https://github.com/sase-org/sase/commit/d5fc75864f0afb44b5f9fa7d1c21b6d4d913916d) | feat(runtime): cut over gate shell to gate turn | [sase-1ab.3](sase-1ab.3.md) | 2026-09-26 13:46:45 EDT |
 
 <!-- sase:referenced-by:start -->
 

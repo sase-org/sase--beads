@@ -13,7 +13,7 @@ telegram: move sase-telegram tests and docstrings to the renamed sase gate-turn 
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.7](sase-1ab.7.md) ◐ · ⧖ 2026-09-26
 
 ## Agents

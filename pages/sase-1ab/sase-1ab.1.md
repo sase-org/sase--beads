@@ -17,7 +17,7 @@ core-expand: non-breaking sase-core change. Rename the Rust internals to turn an
 
 ## Dependencies
 
-- **Blocks:** [sase-1ab.2](sase-1ab.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.2](sase-1ab.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

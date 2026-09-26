@@ -13,7 +13,7 @@ tui-cutover: rename TUI modules, row kinds, section ids, and visible copy (SESSI
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.7](sase-1ab.7.md) ◐ · ⧖ 2026-09-26
 
 ## Agents

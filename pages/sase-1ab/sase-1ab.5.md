@@ -13,7 +13,7 @@ docs-memory: redeploy the landed skill sources, rewrite every concept mention in
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.3](sase-1ab.3.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.9](sase-1ab.9.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
