@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-17m
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0qh](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0qh.md) · **Assignee:** `sase-17m.land`
-**Created:** 2026-09-23 22:46:33 EDT
+**Created:** 2026-09-23 22:46:33 EDT · **Closed:** 2026-09-25 22:06:20 EDT
 **Plan:** [202609/agent\_session\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_session_rename.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-183][1] | 7e1b05964 (sase-17m.3.1 wire cutover) renamed the family index fields that 9bd351b67 still references |
 
-_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-183/README.md
 
@@ -39,6 +39,15 @@ The concept formerly called an agent family is named a sase agent session (agent
 
 [2026-09-25T22:51:29Z · sase-17d.12.2--3] DISCOVERED ISSUE: two Python cleanup-planner tests still expect skip detail "parallel family still active" after the agent-session contract cutover; src/sase/core/agent_cleanup_python.py emits "parallel session still active". Nodes: test_python_cleanup_planner_matches_legacy_partitions[clan-scope-active-parallel-agent-session] and test_python_cleanup_planner_gates_parallel_root_dismissal_until_done. Fail identically on clean HEAD (stashed spread-inspection tree) and isolation. Evidence: just check ToolRun 181640206aaedbb9cd6afd796ecec0bd, workspace sase_46, HEAD b7c80be91 including d86bcc3ac.
 
+[2026-09-26T02:06:20Z · sase-17m.land] LAND VERIFICATION (sase-17m.land, 2026-09-25, master eba6b80d0 plus the land diff).
+STEP 1, VERIFY: all 10 phases are closed and every epic and phase note was reviewed. Checked the 32 sase-17m commits plus contract-flip hotfixes d86bcc3ac/dbc94a00b, sase-core 2a0fc2a (feat(core)! canonical contracts, legacy pyo3 names removed and asserted absent) pinned at d64520b, sase-telegram 5daae9d (/show session cutover with a named legacy import fallback), and chezmoi d8793850 (as: agent session snippet). The legacy_agent_family_syntax sunset flag exists with bead sase-18l, and its both-state tests pass (17). The terminology guard tests/test_agent_session_terminology.py is in place.
+LAND FIXES (epic work): (a) epic note #5: `sase core health` was false-red because health.py hard-coded schema version 1. It now compares against the AGENT_LAUNCH/COMMIT_FOOTER mirror constants, with a mismatch test and a real-extension test; workspace `sase core health` reports ok. (b) The guard failed on clean HEAD because concurrent ed548d3e2 added an agent_family_parallel docstring; reworded. (c) sase-17m.10 PF#1: renamed the agents_sync bare-family identifiers, locals, diagnostics ("agent session lane", "v2 session containers"), docstrings, and tests. The shared fixture now writes AGENT_SESSION_KEY, legacy readers are marked, and the guard's "known straggler" allowlist entry was dropped (agents_sync+sdd: 654 passed). (d) sase-17m.10 PF#2: fixed the sase-core prose stragglers: the fleet contract agent_clan description (contract.rs plus fleet_api_v1.json) and the AgentCompletionEntry kind doc. sase-core check ToolRun ece537b5 passed; no pin bump is needed (prose only). (e) sase-17m.10 PF#3: skills redeployed from the landed tree (chezmoi 73961837, 56 files); `sase skill init --check` is clean. (f) sase-17m.10 PF#4: memory README regenerated (eba6b80d0).
+STEP 2, INTEGRATE: swept the 153 non-epic commits since e662494ba for added agent-family wording. Plan direct-approval placement (4d0ad9ba5/e5c80e5ad) was already migrated by 11b9c56b0; the 9bd351b67 wait-release fields were fixed by sase-183; the ACE/doc wording from 4af219eba/126dd63c0/0d7229bef/cae16be3c/d2c2dd142 was already migrated. The only live conflict was item (b).
+EPIC NOTES: #1 and #2 were resolved by the pin bump and a2ec65a1f; #3 is a handoff record; #5 fixed (a); #6 resolved (the cleanup-planner tests expect "parallel session still active" and pass). #4 declined: dev installs build from the linked core, the published floor is ratcheted by the release reconciler, and core-floor-probe reports blocked_unpublished for 31 capabilities spanning many epics, so the floor is not epic-specific.
+CHILD FOLLOW-UPS: 17m.1 PF#1 declined: recorded third-party transcript fixture data is deliberately unchanged. 17m.1 PF#2, 17m.6 PF#1, and 17m.9 PF#1 declined as already resolved on master (mypy and symvision are green). 17m.7 PF#1 was +1'd onto duplicate sase-156.
+VERIFY: sase tool run check c6d5f40e: all lint gates green including symvision; the full lane passed 47641. The remaining failures are not epic-caused and were routed: AgentInfo queue_capacity_multiplier collection errors, wait_queue fakes, and the contract manifest (6beedbc11) were noted on active epic sase-19f; the node_finder marker audit (d62a459a2) was corroborated on sase-19i; load flakes were +1'd on sase-si and sase-nr. All of these reproduce on a clean tree or pass in isolation.
+PROCESS NOTE: the remaining work was mechanical, medium-sized, and inside the plan's session-pages scope, so it was finished in-land rather than through a /sase_plan child plan.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,7 +67,7 @@ The concept formerly called an agent family is named a sase agent session (agent
 
 ```mermaid
 flowchart TD
-    n0["sase-17m: Rename agent family to sase agent session [in_progress]"]
+    n0["sase-17m: Rename agent family to sase agent session [closed]"]
     n1["sase-17m.1: Free the agent session name [closed]"]
     n2["sase-17m.10: Cross-repo audit, guardrail, and deploy [closed]"]
     n3["sase-17m.2: sase-core additive rename [closed]"]
@@ -235,7 +244,7 @@ flowchart TD
 | [bbugyi200.athena.sase-17m.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.7.md) | [sase-17m.7](sase-17m.7.md) | 1 |
 | [bbugyi200.athena.sase-17m.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.8/README.md) | [sase-17m.8](sase-17m.8.md) | 1 |
 | [bbugyi200.athena.sase-17m.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.9.md) | [sase-17m.9](sase-17m.9.md) | 1 |
-| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 0 |
+| [bbugyi200.athena.sase-17m.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md) | [sase-17m](README.md) | 1 |
 
 ## Commits
 
@@ -282,6 +291,7 @@ flowchart TD
 | sase | [`7cb8359`](https://github.com/sase-org/sase/commit/7cb8359534d90a04aa09d012bc4c6b2190cb2ce9) | feat(agents-sync): publish sidecar session pages and bump core pin | [sase-17m.9](sase-17m.9.md) | 2026-09-25 19:04:35 EDT |
 | sase | [`266c8b3`](https://github.com/sase-org/sase/commit/266c8b37bc0fe75c0491c9c3c5a44db38741ad66) | test(terminology): add agent-session regression guard for sase-17m.10 | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:45:28 EDT |
 | chezmoi | [`chezmoi@d879385`](https://github.com/bbugyi200/dotfiles/commit/d87938507a4758fcb0d4bdb14c1d41849fbb3e50) | feat(ace): rename snippet af/agent family to as/agent session | [sase-17m.10](sase-17m.10.md) | 2026-09-25 19:51:49 EDT |
+| sase | [`22e5414`](https://github.com/sase-org/sase/commit/22e5414a9f6c7ac09518506ac0f6290cee105eb8) | fix(agent-session): finish the sase-17m landing | [sase-17m](README.md) | 2026-09-25 22:09:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -295,11 +305,12 @@ flowchart TD
 | read-by | [agent:research.2f.mus][4] | researching rename epic context for terminology critique | 1 |
 | read-by | [agent:research.2g.final.f0][5] | Flake corroboration counts and 17m rename epic state for P1 sequencing | 1 |
 | read-by | [agent:research.2i.cdx][6] | Assess E1 outcomes and residual scope before refining E3 and E4 | 1 |
-| read-by | [agent:sase-17m.2.1.land][7] | Need parent epic to see wire-cutover/core-contract phases | 1 |
-| read-by | [agent:sase-17m.4.1.land][8] | Confirm containing epic remains open for its land agent | 1 |
-| read-by | [agent:sase-17m.5.1.6.5.land--1][9] | Confirm containing rename epic remained open for its land agent | 1 |
-| read-by | [agent:sase-18d.7.land][10] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
-| read-by | [agent:sase-18f.land][11] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
+| read-by | [agent:sase-17d.12.land][7] | Need whether the rename epic is still open | 1 |
+| read-by | [agent:sase-17m.2.1.land][8] | Need parent epic to see wire-cutover/core-contract phases | 1 |
+| read-by | [agent:sase-17m.4.1.land][9] | Confirm containing epic remains open for its land agent | 1 |
+| read-by | [agent:sase-17m.5.1.6.5.land--1][10] | Confirm containing rename epic remained open for its land agent | 1 |
+| read-by | [agent:sase-18d.7.land][11] | Need to check whether sase-17m owns the sase-core-rs floor/pin ratchet for agent_session capacity fields | 1 |
+| read-by | [agent:sase-18f.land][12] | Check whether the agent-session epic already tracks the 34 dialect test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.final/README.md
@@ -307,10 +318,11 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2f.mus/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2g.final.f0/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2i.cdx/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17d.12.land/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.2.1.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.4.1.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-17m.5.1.6.5.land.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18d.7.land/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
 
 <!-- sase:referenced-by:end -->
