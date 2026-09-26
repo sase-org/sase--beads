@@ -16,3 +16,15 @@ The 2,000-node Node Finder meets the approved first-paint and refilter p95 budge
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-19i.7.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.land/README.md) | [sase-19i.7.3](sase-19i.7.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.1][1] | parent epic scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.1/README.md
+
+<!-- sase:referenced-by:end -->

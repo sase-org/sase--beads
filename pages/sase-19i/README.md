@@ -50,7 +50,7 @@ flowchart TD
     n9["sase-19i.7.2: Meet first-paint, broad-query, and highlight budgets [closed]"]
     n10["sase-19i.7.3: Finish the remaining Node Finder open and broad-query budgets [in_progress]"]
     n11["sase-19i.7.3.1: Bound snapshot construction for first paint [closed]"]
-    n12["sase-19i.7.3.2: Finish open and broad-query p95 budgets [in_progress]"]
+    n12["sase-19i.7.3.2: Finish open and broad-query p95 budgets [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.1.md) | [sase-19i.7.1](sase-19i.7.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.2.md) | [sase-19i.7.2](sase-19i.7.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.1/README.md) | [sase-19i.7.3.1](sase-19i.7.3.1.md) | 1 |
-| [bbugyi200.athena.sase-19i.7.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md) | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md) | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.land/README.md) | [sase-19i.7.3](sase-19i.7.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.land.md) | [sase-19i.7](sase-19i.7.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.land.md) | [sase-19i](README.md) | 0 |
@@ -104,6 +104,7 @@ flowchart TD
 | sase | [`f62604e`](https://github.com/sase-org/sase/commit/f62604e712dde4092da845f3c5edce6023f1da96) | perf(node-finder): bound snapshot and broad-query filter work (sase-19i.7.1) | [sase-19i.7.1](sase-19i.7.1.md) | 2026-09-26 06:40:00 EDT |
 | sase | [`0b55415`](https://github.com/sase-org/sase/commit/0b55415cd7e5178fc966b85c718ac5a7b015f8d4) | feat(ace): add agent node finder modal with snapshot, preview and fuzzy model | [sase-19i.7.2](sase-19i.7.2.md) | 2026-09-26 10:10:45 EDT |
 | sase | [`d1b72cf`](https://github.com/sase-org/sase/commit/d1b72cfe58e815deafe4e7c72c4774b487346efd) | feat(ace): fuse per-open Node Finder snapshot facets (sase-19i.7.3.1) | [sase-19i.7.3.1](sase-19i.7.3.1.md) | 2026-09-26 10:49:28 EDT |
+| sase | [`221d72a`](https://github.com/sase-org/sase/commit/221d72a13125e1e967305e0c79b5ab9d38b8c653) | perf(tui): exact-semantics node-finder snapshot optimizations | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 2026-09-26 12:04:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

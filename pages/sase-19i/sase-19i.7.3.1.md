@@ -23,7 +23,7 @@ snapshot-facets: profile and fuse repeated per-agent snapshot work while preserv
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.7.3.2](sase-19i.7.3.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19i.7.3.2](sase-19i.7.3.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -36,3 +36,15 @@ snapshot-facets: profile and fuse repeated per-agent snapshot work while preserv
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d1b72cf`](https://github.com/sase-org/sase/commit/d1b72cfe58e815deafe4e7c72c4774b487346efd) | feat(ace): fuse per-open Node Finder snapshot facets (sase-19i.7.3.1) | [sase-19i.7.3.1](sase-19i.7.3.1.md) | 2026-09-26 10:49:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.1/README.md
+
+<!-- sase:referenced-by:end -->
