@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-19x](README.md) / sase-19x.11
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-19x.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.land.md) · **Assignee:** `sase-19x.11.land`
-**Created:** 2026-09-26 14:47:56 EDT
+**Created:** 2026-09-26 14:47:56 EDT · **Closed:** 2026-09-26 17:45:21 EDT
 **Plan:** [202609/card\_block\_landing\_gaps.md](https://github.com/sase-org/sase--plans/blob/main/202609/card_block_landing_gaps.md)
 
 <!-- sase:links:start -->
@@ -49,6 +49,10 @@ Outcomes:
 - sase-19x.11.3 #2 deck tests: test_files_ctrl_j_scrolls_page_anchor_to_top is open flake sase-1a7 (not re-run, no +1). test_files_probe_empty_kinds and test_preferred_card_and_partial_empty_body fail on AgentType.PROC_SHELL and were noted on sase-1ab. No task.
 - sase-19x.11.3 #3 block-cycle bench capturing 16 to 20 of 20 keys: declined. Not a product defect. Faster cycles coalesce paints inside the 0.01s gap; the recorded in-process cycle time and the under-50ms bench bar already meet the phase.
 - Epic note #1 from sase-1ap.4.land (memory drift and _sync_scrollbar_position): both are the repair child epic, not external tasks.
+
+[2026-09-26T21:45:21Z · sase-19x.11.5.land] Rechecked approved plan plan:202609/card_block_landing_gaps.md and all four closed phase beads, their notes and commits (bff09e3cf1, 37c8b79fe4, 64fae010f3, f583cd5097), plus the closed repair child sase-19x.11.5 and its two commits (e95241543d, 74c89a6385). The source retains immediate/deferred scrollbar synchronization, the legacy followup Reply phase boundary, no-reshow block cycling, and the Agent Data Card Block glossary using sase-turn wording. The repair child made the shared scrollbar helper public and regenerated bead memory to restore the creation-reason contract. Focused block and legacy Reply tests pass 24/24; the earlier parent landing verified both block PNG nodes and benchmark improvement; sase memory init --check and both linked plan validations pass. All descendants are closed; sase bead epic-symbols sase-19x.11 has no entries. The prior landing audit reviewed post-start non-epic commits 00f4975d9c, e7dc4be959, 7b209fc9d1 and 752edf9fc8; none needs a new card-block caller. The generated-memory conflict from f583cd5097 and private helper import were repaired by the child, and no non-epic commit followed the child stitches. just check passed every stage before Symvision and stopped solely on the known _legacy_sase_shell_syntax_enabled private import owned by active sase-1ab; post-close just symvision reports the same single external issue.
+
+Follow-up outcomes from the phase notes and previous landing note: .1 #1 PNG fixture and .2 #2 AcePage timeout were declined after current targeted PNG passes; .1 #2 new-subject tall-to-short stale thumb is reproduced and recorded as a DISCOVERED ISSUE on open parent sase-19x, beyond this mode-transition scope; .1 #3 and .4 #1 stale Node Finder epic-symbol proposal was declined because the entry is gone and the function has a non-test caller; .1 #4 broad failure list was declined as an unsized grab-bag, with named cases triaged separately. .2 #1 and .3 #1 Symvision: the child resolved _sync_scrollbar_position and active sase-1ab owns the remaining private import. .3 #2 deck tests: the Ctrl+J node belongs to open flake sase-1a7, and both retired PROC_SHELL enum cases were routed to sase-1ab. .3 #3 benchmark sample-count variance was declined because coalesced paints do not affect the measured in-process cycle time or under-50ms criterion. Epic note #1 from sase-1ap.4.land is fully resolved by the repair child. The child .5.1 #1 proposed three clean-base tests: the PROC_SHELL case and schema-v3 named-proc validator expectation were corroborated on active sase-1ab, while the expanded-header scroll case was corroborated on active sase-th. No distinct unowned follow-up remains for this epic.
 
 ## Agents
 

@@ -60,7 +60,7 @@ PROPOSED FOLLOW-UP outcomes (carry these into the final close note):
 - .8 #1 live block-rail pill capture: phase .9 captured and inspected seven block PNGs plus live TUI captures; no pill defect reported. A direct legacy Reply visual remains in child plan. .8 #2 executor.py toobig: corroborated sase-1a9. .8 #3 clean-base header scroll assertion still fails serially and was routed to active red-master CI epic sase-th; project_tags/VCS/axe are green after restoring Rust; stale Symvision entries cleared. The vague usage transport deadline observation has no node or repeatable evidence and is declined pending reproduction.
 - .9 #2 ScrollBar.position stale across block mode switch is real:
 
-… and 2415 more characters
+… and 3676 more characters
 
 ## Phases
 
@@ -84,12 +84,12 @@ flowchart TD
     n0["sase-19x: Agent data card blocks - per-shell blocks for the session Reply card [in_progress]"]
     n1["sase-19x.1: CardBlock data model, walkers and block anchors [closed]"]
     n2["sase-19x.10: User docs for card blocks [closed]"]
-    n3["sase-19x.11: Finish card-block landing gaps [in_progress]"]
+    n3["sase-19x.11: Finish card-block landing gaps [closed]"]
     n4["sase-19x.11.1: Keep the scrollbar in sync across card-block mode changes [closed]"]
     n5["sase-19x.11.2: Verify the legacy followup Reply block heading visually [closed]"]
     n6["sase-19x.11.3: Verify and improve card-block navigation latency [closed]"]
     n7["sase-19x.11.4: Add the Agent Data Card Block glossary term [closed]"]
-    n8["sase-19x.11.5: Repair card-block landing lint and memory drift [in_progress]"]
+    n8["sase-19x.11.5: Repair card-block landing lint and memory drift [closed]"]
     n9["sase-19x.11.5.1: Make the block scrollbar sync helper public [closed]"]
     n10["sase-19x.11.5.2: Restore the creation-reason paragraph in generated bead memory [closed]"]
     n11["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.11.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md) | [sase-19x.11.4](sase-19x.11.4.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.1/README.md) | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.2/README.md) | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 1 |
-| [bbugyi200.athena.sase-19x.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.land/README.md) | [sase-19x.11.5](sase-19x.11.5.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.land/README.md) | [sase-19x.11.5](sase-19x.11.5.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.land.md) | [sase-19x.11](sase-19x.11.md) | 0 |
 | [bbugyi200.athena.sase-19x.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md) | [sase-19x.2](sase-19x.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.3/README.md) | [sase-19x.3](sase-19x.3.md) | 0 |
@@ -178,6 +178,7 @@ flowchart TD
 | sase | [`64fae01`](https://github.com/sase-org/sase/commit/64fae010f3674b17b485e9a7c4c2407b9214d8d5) | perf(ace-tui): cut block-cycle and sticky-Reply navigation latency (sase-19x.11.3) | [sase-19x.11.3](sase-19x.11.3.md) | 2026-09-26 16:45:35 EDT |
 | sase | [`74c89a6`](https://github.com/sase-org/sase/commit/74c89a6385bd38d1cd390d2ef833a5529ab1a796) | docs(memory): restore creation-reason contract in generated bead memory | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 2026-09-26 17:21:25 EDT |
 | sase | [`e952415`](https://github.com/sase-org/sase/commit/e95241543d74aa677f88be8bf38838e1f1a7a45e) | refactor(decks): publish scrollbar sync helper as sync\_scrollbar\_position | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 2026-09-26 17:26:30 EDT |
+| sase--plans | [`sase--plans@ec14f1b`](https://github.com/sase-org/sase--plans/commit/ec14f1bcf911ded98aa241cca5a00be35556253c) | docs(plans): mark card-block landing repair and gaps complete | [sase-19x.11.5](sase-19x.11.5.md) | 2026-09-26 17:49:00 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -28,3 +28,15 @@ publish-scrollbar-sync: rename _sync_scrollbar_position to the public sync_scrol
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e952415`](https://github.com/sase-org/sase/commit/e95241543d74aa677f88be8bf38838e1f1a7a45e) | refactor(decks): publish scrollbar sync helper as sync\_scrollbar\_position | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 2026-09-26 17:26:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.5.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.1/README.md
+
+<!-- sase:referenced-by:end -->
