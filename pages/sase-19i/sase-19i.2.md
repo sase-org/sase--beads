@@ -19,7 +19,7 @@ jump-ladder: add a non-notifying reveal variant, a query-clear helper that recor
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.5](sase-19i.5.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19i.5](sase-19i.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

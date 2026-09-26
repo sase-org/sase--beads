@@ -13,7 +13,7 @@ hidden-by-i: list the running and failed rows that the I hide-non-run toggle hid
 
 ## Dependencies
 
-- **Depends on:** [sase-19i.5](sase-19i.5.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19i.5](sase-19i.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

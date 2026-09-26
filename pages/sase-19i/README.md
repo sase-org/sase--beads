@@ -27,7 +27,7 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 | [sase-19i.2](sase-19i.2.md) | Identity jump ladder with an announced query clear | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19i.3](sase-19i.3.md) | Two-tier Node Finder preview | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.4](sase-19i.4.md) | NodeFinderModal screen, modes, keys, and layout | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19i.5](sase-19i.5.md) | Keymap, action, docs, visual goldens, and bench | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19i.5](sase-19i.5.md) | Keymap, action, docs, visual goldens, and bench | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.6](sase-19i.6.md) | Rows hidden by I, with a flip-and-reveal rung | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n2["sase-19i.2: Identity jump ladder with an announced query clear [closed]"]
     n3["sase-19i.3: Two-tier Node Finder preview [closed]"]
     n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [closed]"]
-    n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [in_progress]"]
+    n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [closed]"]
     n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.2.md) | [sase-19i.2](sase-19i.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.3/README.md) | [sase-19i.3](sase-19i.3.md) | 1 |
 | [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.4.md) | [sase-19i.4](sase-19i.4.md) | 1 |
-| [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.5/README.md) | [sase-19i.5](sase-19i.5.md) | 0 |
+| [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.5.md) | [sase-19i.5](sase-19i.5.md) | 1 |
 | [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.6/README.md) | [sase-19i.6](sase-19i.6.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.land/README.md) | [sase-19i](README.md) | 0 |
 
@@ -75,3 +75,18 @@ flowchart TD
 | sase | [`0854519`](https://github.com/sase-org/sase/commit/085451924eaedf9c882d1a8e0f0ab4b64b74b5e9) | feat(ace): add node identity jump ladder | [sase-19i.2](sase-19i.2.md) | 2026-09-25 16:37:18 EDT |
 | sase | [`d62a459`](https://github.com/sase-org/sase/commit/d62a459a2d527d663cfd425104add367acee4f7e) | feat(tui): add Node Finder previews | [sase-19i.3](sase-19i.3.md) | 2026-09-25 17:17:23 EDT |
 | sase | [`89ebc76`](https://github.com/sase-org/sase/commit/89ebc76256aeefdb28c1e1acfc05469ecfe32cb6) | feat(ace): add the Agents-tab Node Finder modal | [sase-19i.4](sase-19i.4.md) | 2026-09-25 21:20:40 EDT |
+| sase | [`df0d58d`](https://github.com/sase-org/sase/commit/df0d58d337f06b8e20878ebc0734a6309041c647) | feat(agents-finder): wire quotation\_mark to jump\_to\_node with goldens and bench | [sase-19i.5](sase-19i.5.md) | 2026-09-25 23:45:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-17m.land][1] | Check whether active epic owns clean-HEAD test failures found while landing sase-17m | 1 |
+| read-by | [agent:sase-17x.13.10.land][2] | Avoid duplicating DISCOVERED ISSUE notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17m.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md
+
+<!-- sase:referenced-by:end -->

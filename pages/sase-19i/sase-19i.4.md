@@ -33,7 +33,7 @@ finder-modal: build the large responsive ModalScreen. It has a tree list with a 
 
 - **Depends on:** [sase-19i.1](sase-19i.1.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19i.3](sase-19i.3.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19i.5](sase-19i.5.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19i.5](sase-19i.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -46,3 +46,15 @@ finder-modal: build the large responsive ModalScreen. It has a tree list with a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`89ebc76`](https://github.com/sase-org/sase/commit/89ebc76256aeefdb28c1e1acfc05469ecfe32cb6) | feat(ace): add the Agents-tab Node Finder modal | [sase-19i.4](sase-19i.4.md) | 2026-09-25 21:20:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.4--5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.4.md
+
+<!-- sase:referenced-by:end -->
