@@ -13,7 +13,7 @@ sweep: retarget the editor proc snippet, classify every remaining shell hit, and
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.1.1.3](sase-1ab.1.1.3.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.1.1.3](sase-1ab.1.1.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

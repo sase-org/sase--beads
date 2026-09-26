@@ -22,7 +22,7 @@ procs: rename proc-shell fields, lifecycle helpers, launch-plan names, and hold 
 ## Dependencies
 
 - **Depends on:** [sase-1ab.1.1.1](sase-1ab.1.1.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.1.1.3](sase-1ab.1.1.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.1.1.3](sase-1ab.1.1.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -35,3 +35,15 @@ procs: rename proc-shell fields, lifecycle helpers, launch-plan names, and hold 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4a04cea`](https://github.com/sase-org/sase-core/commit/4a04cea5b20cf17615cd7acafec9f1ad4dfadce3) | refactor(core): rename proc-shell store, launch, and hold wires to named-proc vocabulary | [sase-1ab.1.1.2](sase-1ab.1.1.2.md) | 2026-09-26 01:15:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.1.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
