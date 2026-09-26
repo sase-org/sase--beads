@@ -15,4 +15,4 @@ The already implemented %queue multiplier reaches the TUI, agent-list JSON, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-19f.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.land/README.md) | [sase-19f.6](sase-19f.6.md) | 0 |
+| [bbugyi200.apollo.sase-19f.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.land.md) | [sase-19f.6](sase-19f.6.md) | 0 |

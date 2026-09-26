@@ -45,6 +45,8 @@ flowchart TD
     n7["sase-19f.6.1: Carry multiplier through TUI agent models and loaders [closed]"]
     n8["sase-19f.6.2: Render multiplier capacity and expose agent-list JSON [closed]"]
     n9["sase-19f.6.3: Accept and preserve multiplier capacity in wait and directive editors [closed]"]
+    n10["sase-19f.6.4: Show loaded queue multipliers on TUI capacity surfaces [in_progress]"]
+    n11["sase-19f.6.4.1: Render loaded multipliers on the remaining TUI surfaces [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,6 +56,8 @@ flowchart TD
     n6 --> n7
     n6 --> n8
     n6 --> n9
+    n6 --> n10
+    n10 --> n11
     n1 -.-> n2
     n2 -.-> n3
     n3 -.-> n4
@@ -74,7 +78,9 @@ flowchart TD
 | [bbugyi200.apollo.sase-19f.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.1.md) | [sase-19f.6.1](sase-19f.6.1.md) | 1 |
 | [bbugyi200.apollo.sase-19f.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.2/README.md) | [sase-19f.6.2](sase-19f.6.2.md) | 1 |
 | [bbugyi200.apollo.sase-19f.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.3.md) | [sase-19f.6.3](sase-19f.6.3.md) | 1 |
-| [bbugyi200.apollo.sase-19f.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.land/README.md) | [sase-19f.6](sase-19f.6.md) | 0 |
+| [bbugyi200.apollo.sase-19f.6.4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.4.1.md) | [sase-19f.6.4.1](sase-19f.6.4.1.md) | 1 |
+| [bbugyi200.apollo.sase-19f.6.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-19f.6.4.land/README.md) | [sase-19f.6.4](sase-19f.6.4.md) | 0 |
+| [bbugyi200.apollo.sase-19f.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.6.land.md) | [sase-19f.6](sase-19f.6.md) | 0 |
 | [bbugyi200.apollo.sase-19f.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-19f.land.md) | [sase-19f](README.md) | 0 |
 
 ## Commits
@@ -87,6 +93,7 @@ flowchart TD
 | sase | [`73c47eb`](https://github.com/sase-org/sase/commit/73c47eb84f51e40098a25b53420beeebd4a2398c) | feat(tui): project queue capacity multiplier through agent state, dedup, fleet and loaders | [sase-19f.6.1](sase-19f.6.1.md) | 2026-09-26 06:20:39 EDT |
 | sase | [`5f676a2`](https://github.com/sase-org/sase/commit/5f676a28e8b3b3c9a7f3378200e448b60b75f9cd) | feat(ace-tui): render queue capacity multiplier end to end | [sase-19f.6.2](sase-19f.6.2.md) | 2026-09-26 07:07:11 EDT |
 | sase | [`2f88d1e`](https://github.com/sase-org/sase/commit/2f88d1eaa7f34ddf03a6dd016d5487452abba064) | feat(ace-tui): accept and preserve multiplier capacity in wait and directive editors | [sase-19f.6.3](sase-19f.6.3.md) | 2026-09-26 07:45:04 EDT |
+| sase | [`d365706`](https://github.com/sase-org/sase/commit/d36570629759384df88a0c3ef4c818cdfd7b8d88) | feat(ace-tui): render loaded queue multipliers as authored capacity (sase-19f.6.4.1) | [sase-19f.6.4.1](sase-19f.6.4.1.md) | 2026-09-26 08:49:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
