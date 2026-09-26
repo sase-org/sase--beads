@@ -20,4 +20,4 @@ verdict-completion: add explicit no-new intent policy, recheck the verified tree
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.6/README.md) | [sase-1ah.6](sase-1ah.6.md) | 0 |
+| [bbugyi200.athena.sase-1ah.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.6.md) | [sase-1ah.6](sase-1ah.6.md) | 0 |

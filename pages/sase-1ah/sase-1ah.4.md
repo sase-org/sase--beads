@@ -20,7 +20,7 @@ receipt-execution-cli: wire foreground and handed-off settlement to Rust minting
 ## Dependencies
 
 - **Depends on:** [sase-1ah.3](sase-1ah.3.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ah.5](sase-1ah.5.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.5](sase-1ah.5.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ah.6](sase-1ah.6.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
@@ -42,7 +42,9 @@ receipt-execution-cli: wire foreground and handed-off settlement to Rust minting
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.3][1] | Need to avoid overlapping receipt-execution-cli work | 1 |
+| read-by | [agent:sase-1ah.4][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md
 
 <!-- sase:referenced-by:end -->

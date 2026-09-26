@@ -13,7 +13,7 @@ landing-proof: exercise all nine landing gates, demonstrate athena completion, d
 
 ## Dependencies
 
-- **Depends on:** [sase-1ah.5](sase-1ah.5.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ah.5](sase-1ah.5.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1ah.6](sase-1ah.6.md) ◐ · ⧖ 2026-09-26
 
 ## Agents

@@ -41,7 +41,9 @@ rust-receipts: add additive schema-1 receipt storage, strict mint and invalidati
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ah.3][1] | Need neighboring phase boundaries for core-pin-catalog | 1 |
+| read-by | [agent:sase-1ah.4][2] | need phase 2 scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.4/README.md
 
 <!-- sase:referenced-by:end -->
