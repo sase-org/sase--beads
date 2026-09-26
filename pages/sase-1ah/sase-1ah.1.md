@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:3f5a47aa2857ef19cbfacdd3 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -31,7 +33,7 @@ hermetic-baseline: re-run the KNOWN precision gate, inventory changing lint and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ah.2](sase-1ah.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.2](sase-1ah.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -44,3 +46,15 @@ hermetic-baseline: re-run the KNOWN precision gate, inventory changing lint and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0b5fc65`](https://github.com/sase-org/sase/commit/0b5fc652b0933891525879b16e16259969d90052) | feat(tool): add hermetic-baseline lint version probes and KNOWN precision recheck | [sase-1ah.1](sase-1ah.1.md) | 2026-09-26 07:57:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.1/README.md
+
+<!-- sase:referenced-by:end -->

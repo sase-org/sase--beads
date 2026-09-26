@@ -13,7 +13,7 @@ core-pin-catalog: ratchet sase to a published receipt-capable core, create the b
 
 ## Dependencies
 
-- **Depends on:** [sase-1ah.2](sase-1ah.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ah.2](sase-1ah.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ah.4](sase-1ah.4.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
