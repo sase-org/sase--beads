@@ -13,7 +13,7 @@ legacy-reply-visual: inspect the still-reachable legacy followup_agents Reply he
 
 ## Dependencies
 
-- **Depends on:** [sase-19x.11.1](sase-19x.11.1.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-19x.11.1](sase-19x.11.1.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

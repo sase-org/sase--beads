@@ -28,3 +28,15 @@ glossary: add a concise card-block strand and link it from Agent Data Card, inte
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f583cd5`](https://github.com/sase-org/sase/commit/f583cd509745acad6f83e357a63fa2286bab84e1) | docs(sase-19x.11.4): add Agent Data Card Block glossary term | [sase-19x.11.4](sase-19x.11.4.md) | 2026-09-26 15:29:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.4--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md
+
+<!-- sase:referenced-by:end -->

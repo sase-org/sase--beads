@@ -85,7 +85,7 @@ flowchart TD
     n1["sase-19x.1: CardBlock data model, walkers and block anchors [closed]"]
     n2["sase-19x.10: User docs for card blocks [closed]"]
     n3["sase-19x.11: Finish card-block landing gaps [in_progress]"]
-    n4["sase-19x.11.1: Keep the scrollbar in sync across card-block mode changes [in_progress]"]
+    n4["sase-19x.11.1: Keep the scrollbar in sync across card-block mode changes [closed]"]
     n5["sase-19x.11.2: Verify the legacy followup Reply block heading visually [in_progress]"]
     n6["sase-19x.11.3: Verify and improve card-block navigation latency [in_progress]"]
     n7["sase-19x.11.4: Add the Agent Data Card Block glossary term [closed]"]
@@ -133,7 +133,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-19x.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.1.md) | [sase-19x.1](sase-19x.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.10/README.md) | [sase-19x.10](sase-19x.10.md) | 1 |
-| [bbugyi200.athena.sase-19x.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md) | [sase-19x.11.1](sase-19x.11.1.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md) | [sase-19x.11.1](sase-19x.11.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.2/README.md) | [sase-19x.11.2](sase-19x.11.2.md) | 0 |
 | [bbugyi200.athena.sase-19x.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md) | [sase-19x.11.3](sase-19x.11.3.md) | 0 |
 | [bbugyi200.athena.sase-19x.11.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md) | [sase-19x.11.4](sase-19x.11.4.md) | 1 |
@@ -164,6 +164,7 @@ flowchart TD
 | sase--agents | [`sase--agents@6fdb1a9`](https://github.com/sase-org/sase--agents/commit/6fdb1a9c0caff4497334107624079cb7701e8a3c) | docs(sase-19x.9): archive agent prompt for card-blocks cutover | [sase-19x.9](sase-19x.9.md) | 2026-09-26 13:56:03 EDT |
 | sase | [`3c8596b`](https://github.com/sase-org/sase/commit/3c8596b61007ecc1c57b3dce8f1f36eefef3e26c) | docs(ace): document card blocks for session Reply cards (sase-19x.10) | [sase-19x.10](sase-19x.10.md) | 2026-09-26 14:09:23 EDT |
 | sase | [`f583cd5`](https://github.com/sase-org/sase/commit/f583cd509745acad6f83e357a63fa2286bab84e1) | docs(sase-19x.11.4): add Agent Data Card Block glossary term | [sase-19x.11.4](sase-19x.11.4.md) | 2026-09-26 15:29:58 EDT |
+| sase | [`bff09e3`](https://github.com/sase-org/sase/commit/bff09e3cf1e5c052d4c614c381db71cb79b091ee) | fix(ace-tui): sync block-paged scrollbar on block-spread transition | [sase-19x.11.1](sase-19x.11.1.md) | 2026-09-26 16:17:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

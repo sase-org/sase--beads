@@ -13,7 +13,7 @@ block-performance: profile block cycling and sticky-Reply j/k, remove avoidable 
 
 ## Dependencies
 
-- **Depends on:** [sase-19x.11.1](sase-19x.11.1.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-19x.11.1](sase-19x.11.1.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
