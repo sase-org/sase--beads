@@ -90,7 +90,7 @@ flowchart TD
     n6["sase-19x.11.3: Verify and improve card-block navigation latency [closed]"]
     n7["sase-19x.11.4: Add the Agent Data Card Block glossary term [closed]"]
     n8["sase-19x.11.5: Repair card-block landing lint and memory drift [in_progress]"]
-    n9["sase-19x.11.5.1: Make the block scrollbar sync helper public [in_progress]"]
+    n9["sase-19x.11.5.1: Make the block scrollbar sync helper public [closed]"]
     n10["sase-19x.11.5.2: Restore the creation-reason paragraph in generated bead memory [closed]"]
     n11["sase-19x.2: Pure block cursor, block-mode decision and config key [closed]"]
     n12["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
@@ -143,7 +143,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.2/README.md) | [sase-19x.11.2](sase-19x.11.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.3/README.md) | [sase-19x.11.3](sase-19x.11.3.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md) | [sase-19x.11.4](sase-19x.11.4.md) | 1 |
-| [bbugyi200.athena.sase-19x.11.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.1/README.md) | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 0 |
+| [bbugyi200.athena.sase-19x.11.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.1/README.md) | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.2/README.md) | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 1 |
 | [bbugyi200.athena.sase-19x.11.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.land/README.md) | [sase-19x.11.5](sase-19x.11.5.md) | 0 |
 | [bbugyi200.athena.sase-19x.11.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.land.md) | [sase-19x.11](sase-19x.11.md) | 0 |
@@ -177,6 +177,7 @@ flowchart TD
 | sase | [`37c8b79`](https://github.com/sase-org/sase/commit/37c8b79fe4a9b8ded5ab1f91bfa0f203c88c1e3d) | fix(ace-tui): keep legacy followup Reply phase boundary in hint mode | [sase-19x.11.2](sase-19x.11.2.md) | 2026-09-26 16:42:30 EDT |
 | sase | [`64fae01`](https://github.com/sase-org/sase/commit/64fae010f3674b17b485e9a7c4c2407b9214d8d5) | perf(ace-tui): cut block-cycle and sticky-Reply navigation latency (sase-19x.11.3) | [sase-19x.11.3](sase-19x.11.3.md) | 2026-09-26 16:45:35 EDT |
 | sase | [`74c89a6`](https://github.com/sase-org/sase/commit/74c89a6385bd38d1cd390d2ef833a5529ab1a796) | docs(memory): restore creation-reason contract in generated bead memory | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 2026-09-26 17:21:25 EDT |
+| sase | [`e952415`](https://github.com/sase-org/sase/commit/e95241543d74aa677f88be8bf38838e1f1a7a45e) | refactor(decks): publish scrollbar sync helper as sync\_scrollbar\_position | [sase-19x.11.5.1](sase-19x.11.5.1.md) | 2026-09-26 17:26:30 EDT |
 
 <!-- sase:referenced-by:start -->
 

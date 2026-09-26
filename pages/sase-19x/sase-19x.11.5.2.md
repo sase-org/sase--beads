@@ -26,3 +26,15 @@ restore-bead-memory: rerun sase memory init --no-commit so sase/memory/sase_bead
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`74c89a6`](https://github.com/sase-org/sase/commit/74c89a6385bd38d1cd390d2ef833a5529ab1a796) | docs(memory): restore creation-reason contract in generated bead memory | [sase-19x.11.5.2](sase-19x.11.5.2.md) | 2026-09-26 17:21:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.5.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.11.5.2/README.md
+
+<!-- sase:referenced-by:end -->
