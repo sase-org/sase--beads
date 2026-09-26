@@ -44,7 +44,15 @@ open-budget: make the official 2,000-node open benchmark pass at p95 under 50 ms
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.1--1][1] | confirm later phase open to own from_facts whitelist | 1 |
+| read-by | [agent:sase-19i.7.3.3.2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19x.11.1--2][3] | check if stale symvision symbol bead is closed | 1 |
+| read-by | [agent:sase-19x.11.4--1][4] | Checking whether stale epic-symbol owner bead is closed to record follow-up | 1 |
+| read-by | [agent:sase-1ao.3.land][5] | Need whether the closed phase still owns the stale symvision whitelist entry | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.4.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ao.3.land/README.md
 
 <!-- sase:referenced-by:end -->

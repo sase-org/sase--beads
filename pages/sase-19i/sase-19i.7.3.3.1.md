@@ -42,7 +42,9 @@ snapshot-floor: keep snapshot construction in memory, read each agent role once,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19i.7.3.3.2][2] | prior phase results | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -68,6 +68,9 @@ flowchart TD
     n13["sase-19i.7.3.3: Cut the Node Finder open path under the 50 ms budget [in_progress]"]
     n14["sase-19i.7.3.3.1: Remove open-path stalls and halve snapshot cost [closed]"]
     n15["sase-19i.7.3.3.2: Pass the approved open p95 budget [closed]"]
+    n16["sase-19i.7.3.3.3: Finish Node Finder open and broad-query budgets [in_progress]"]
+    n17["sase-19i.7.3.3.3.1: Bound the 2,000-node Node Finder snapshot tail [closed]"]
+    n18["sase-19i.7.3.3.3.2: Pass first-paint and broad-refilter budgets [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -83,6 +86,9 @@ flowchart TD
     n10 --> n13
     n13 --> n14
     n13 --> n15
+    n13 --> n16
+    n16 --> n17
+    n16 --> n18
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
@@ -92,6 +98,7 @@ flowchart TD
     n8 -.-> n9
     n11 -.-> n12
     n14 -.-> n15
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -110,7 +117,10 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.7.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md) | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.1.md) | [sase-19i.7.3.3.1](sase-19i.7.3.3.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.2/README.md) | [sase-19i.7.3.3.2](sase-19i.7.3.3.2.md) | 1 |
-| [bbugyi200.athena.sase-19i.7.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.land/README.md) | [sase-19i.7.3.3](sase-19i.7.3.3.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.1/README.md) | [sase-19i.7.3.3.3.1](sase-19i.7.3.3.3.1.md) | 1 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.2/README.md) | [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.land/README.md) | [sase-19i.7.3.3.3](sase-19i.7.3.3.3.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.land.md) | [sase-19i.7.3.3](sase-19i.7.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.land.md) | [sase-19i.7.3](sase-19i.7.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.land.md) | [sase-19i.7](sase-19i.7.md) | 0 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.land.md) | [sase-19i](README.md) | 0 |
@@ -131,6 +141,7 @@ flowchart TD
 | sase | [`221d72a`](https://github.com/sase-org/sase/commit/221d72a13125e1e967305e0c79b5ab9d38b8c653) | perf(tui): exact-semantics node-finder snapshot optimizations | [sase-19i.7.3.2](sase-19i.7.3.2.md) | 2026-09-26 12:04:22 EDT |
 | sase | [`f079c0a`](https://github.com/sase-org/sase/commit/f079c0af5d42837e9a862f2a0ae91a2db94e0281) | perf(tui): node-finder snapshot floor and symvision repair (sase-19i.7.3.3.1) | [sase-19i.7.3.3.1](sase-19i.7.3.3.1.md) | 2026-09-26 13:26:42 EDT |
 | sase | [`64b15bd`](https://github.com/sase-org/sase/commit/64b15bdf528a69094ccadd56c4dcfc854c08e53c) | perf(tui): cut node-finder open path for 50ms budget (sase-19i.7.3.3.2) | [sase-19i.7.3.3.2](sase-19i.7.3.3.2.md) | 2026-09-26 15:12:59 EDT |
+| sase | [`4be908b`](https://github.com/sase-org/sase/commit/4be908bb661a29700a88f56d4835c782caafc219) | perf(node-finder): bound 2,000-node snapshot tail (sase-19i.7.3.3.3.1) | [sase-19i.7.3.3.3.1](sase-19i.7.3.3.3.1.md) | 2026-09-26 17:02:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
