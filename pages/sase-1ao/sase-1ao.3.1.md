@@ -29,5 +29,17 @@ adjacent_cleanup: repair the shared Rust edit planner, pin its commit in sase, a
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@041f53b`](https://github.com/sase-org/sase-core/commit/041f53b88c9acd0fe86afdb8649ea910cb25d2ed) | fix(core): remove adjacent model directives with disjoint edits | [sase-1ao.3.1](sase-1ao.3.1.md) | 2026-09-26 13:30:37 EDT |
 | sase | [`1a38e71`](https://github.com/sase-org/sase/commit/1a38e711d2d60466cb6a7b560d1193ae498aec49) | test(adjacent-cleanup): disjoint accept coverage for =alias/==model shortcuts (sase-1ao.3.1 already closed) | [sase-1ao.3.1](sase-1ao.3.1.md) | 2026-09-26 14:38:52 EDT |
+| sase-core | [`sase-core@104d902`](https://github.com/sase-org/sase-core/commit/104d902c9c54995dd3d8cd0888a6cdf19cbf5738) | fix(core): remove adjacent model directives with disjoint edits | [sase-1ao.3.1](sase-1ao.3.1.md) | 2026-09-26 14:56:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ao.3.1--1][1] | Need phase scope, existing notes, and design file before follow-up note and close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.3.1.md
+
+<!-- sase:referenced-by:end -->
