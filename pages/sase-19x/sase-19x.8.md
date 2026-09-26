@@ -13,7 +13,7 @@ block-rail: add the pure tiered block_rail_text renderer and the pre-composed Bl
 
 ## Dependencies
 
-- **Depends on:** [sase-19x.6](sase-19x.6.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19x.6](sase-19x.6.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19x.9](sase-19x.9.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

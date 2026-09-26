@@ -20,4 +20,4 @@ block-keys: register prev_card_block / next_card_block (defaults [ and ]) throug
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.7/README.md) | [sase-19x.7](sase-19x.7.md) | 0 |
+| [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md) | [sase-19x.7](sase-19x.7.md) | 0 |

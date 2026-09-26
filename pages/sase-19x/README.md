@@ -25,7 +25,7 @@ Agents-tab deck panels gain a third level, deck -> card -> block. An agent sessi
 | [sase-19x.3](sase-19x.3.md) | Session Reply cards emit one block per sase shell | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.4](sase-19x.4.md) | Blocks for the legacy followup\_agents Reply path | ✓ closed | small | 2026-09-25 | 1 | 1 |
 | [sase-19x.5](sase-19x.5.md) | Block-paged projection, newest landing and the card\_blocks flag | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19x.6](sase-19x.6.md) | Block-spread and deck-spread block navigation and transitions | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19x.6](sase-19x.6.md) | Block-spread and deck-spread block navigation and transitions | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19x.7](sase-19x.7.md) | The \[ and \] card-block keys, gating, footer, help and palette | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19x.8](sase-19x.8.md) | The one-row block rail | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
 | [sase-19x.9](sase-19x.9.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
@@ -41,7 +41,7 @@ flowchart TD
     n4["sase-19x.3: Session Reply cards emit one block per sase shell [closed]"]
     n5["sase-19x.4: Blocks for the legacy followup_agents Reply path [closed]"]
     n6["sase-19x.5: Block-paged projection, newest landing and the card_blocks flag [closed]"]
-    n7["sase-19x.6: Block-spread and deck-spread block navigation and transitions [in_progress]"]
+    n7["sase-19x.6: Block-spread and deck-spread block navigation and transitions [closed]"]
     n8["sase-19x.7: The [ and ] card-block keys, gating, footer, help and palette [in_progress]"]
     n9["sase-19x.8: The one-row block rail [in_progress]"]
     n10["sase-19x.9: Remove the flag, add goldens, inspect live, and bench [in_progress]"]
@@ -78,8 +78,8 @@ flowchart TD
 | [bbugyi200.athena.sase-19x.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.3/README.md) | [sase-19x.3](sase-19x.3.md) | 0 |
 | [bbugyi200.athena.sase-19x.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md) | [sase-19x.4](sase-19x.4.md) | 1 |
 | [bbugyi200.athena.sase-19x.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.5.md) | [sase-19x.5](sase-19x.5.md) | 1 |
-| [bbugyi200.athena.sase-19x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.6/README.md) | [sase-19x.6](sase-19x.6.md) | 0 |
-| [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.7/README.md) | [sase-19x.7](sase-19x.7.md) | 0 |
+| [bbugyi200.athena.sase-19x.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.6/README.md) | [sase-19x.6](sase-19x.6.md) | 1 |
+| [bbugyi200.athena.sase-19x.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md) | [sase-19x.7](sase-19x.7.md) | 0 |
 | [bbugyi200.athena.sase-19x.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.8/README.md) | [sase-19x.8](sase-19x.8.md) | 0 |
 | [bbugyi200.athena.sase-19x.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.9/README.md) | [sase-19x.9](sase-19x.9.md) | 0 |
 | [bbugyi200.athena.sase-19x.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19x.land/README.md) | [sase-19x](README.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase | [`8f6257d`](https://github.com/sase-org/sase/commit/8f6257d2184a94796da21426ac59f6835234e95f) | feat: Session Reply cards emit one block per sase shell (sase-19x.3) | [sase-19x.3](sase-19x.3.md) | 2026-09-26 05:45:18 EDT |
 | sase | [`42e29d6`](https://github.com/sase-org/sase/commit/42e29d6ccca3bf8f2de51a020526f464f5a021d5) | feat(decks): block-paged projection with newest landing and card\_blocks flag (sase-19x.5) | [sase-19x.5](sase-19x.5.md) | 2026-09-26 07:39:10 EDT |
 | sase | [`6bfd710`](https://github.com/sase-org/sase/commit/6bfd7103dc6efaced71e909c111515e89ea2e3ee) | feat(legacy-reply): per-phase blocks for followup\_agents Reply path (sase-19x.4) | [sase-19x.4](sase-19x.4.md) | 2026-09-26 07:46:43 EDT |
+| sase | [`5f082a5`](https://github.com/sase-org/sase/commit/5f082a5f13c84b5128d51992ff1696d1815a9c0d) | feat(ace-tui): block-spread and deck-spread navigation with ReadingAnchor (sase-19x.6) | [sase-19x.6](sase-19x.6.md) | 2026-09-26 08:24:34 EDT |
