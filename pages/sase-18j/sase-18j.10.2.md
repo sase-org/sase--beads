@@ -40,7 +40,9 @@ core-owner-match: in sase-core only, replace the any-3-char-token substring owne
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18j.10.2][1] | Need notes and extra fields from JSON dump | 3 |
+| read-by | [agent:sase-18j.10.3][2] | check core-owner-match result | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md
 
 <!-- sase:referenced-by:end -->

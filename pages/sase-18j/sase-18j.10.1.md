@@ -42,7 +42,9 @@ triage-inputs: make the selection-record gatherer emit wire-valid evidence (fail
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-18j.10.1--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-18j.10.3][2] | check triage-inputs verification evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.10.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -21,7 +21,7 @@ owner-pin: move sase-core-revision.txt to a pushed sase-core commit that contain
 
 - **Depends on:** [sase-18j.10.1](sase-18j.10.1.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-18j.10.2](sase-18j.10.2.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-18j.10.4](sase-18j.10.4.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-18j.10.4](sase-18j.10.4.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -34,3 +34,15 @@ owner-pin: move sase-core-revision.txt to a pushed sase-core commit that contain
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`013a170`](https://github.com/sase-org/sase/commit/013a170720270ac4996122bbdb1026f9468d6042) | feat(triage): pin owner-matching core and verify owners on live candidates | [sase-18j.10.3](sase-18j.10.3.md) | 2026-09-25 21:04:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-18j.10.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md
+
+<!-- sase:referenced-by:end -->

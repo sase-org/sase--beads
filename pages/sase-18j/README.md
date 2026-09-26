@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-18j
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0rq](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0rq.md) · **Assignee:** `sase-18j.land`
-**Created:** 2026-09-24 19:06:59 EDT
+**Created:** 2026-09-24 19:06:59 EDT · **Closed:** 2026-09-25 22:31:37 EDT
 **Plan:** [202609/tool\_e3\_failure\_triage.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_e3_failure_triage.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | [bead:sase-19s][1] | E3 failure-triage epic whose v1 extractor registry this extends; phase sase-18j.2 proposed it |
+| related | [bead:sase-1a9][2] | sase-18j.4/.6/.7/.9 grew executor.py past the 1000-line toobig limit before sase-18j.10 |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-19s/README.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1a9/README.md
 
 <!-- sase:links:end -->
 
@@ -61,6 +63,29 @@ Follow-up dispositions so far:
 
 Integration check: the non-epic commits since 290cd1aa7c that touch triage-adjacent files are core pin ratchets (the pin still carries every triage binding), sase-191 repairs, and rename sweeps. None duplicates or conflicts with E3.
 
+[2026-09-26T01:59:03Z · sase-18j.10.4--1] E3 live acceptance (sase-18j.10.4, athena 2026-09-25 ~21:45 EDT): DoD-0..DoD-14 with evidence, post-landing baseline, ledger health, and reopen triggers.
+
+LIVE CHECK (workspace .venv/bin/sase @013a17072, pin 9d049aa): run 6ee87c4749f8356b4b28edd8051aa9e7 (bead sase-18j.10.4, agent sase-18j.10.4--plan), `just check`, state succeeded exit 0, duration 729760ms, definition digest 12b1748a5cb76c1f29f0ae53a6806bd9a1e775d8a882c1bad50029da6440a934 (matches sase-18j.9), fingerprint completeness complete, repo head 013a17072027. Triage: triaged=true, verdict pass, reason exited_zero, items=[]. All 14 stages exit 0: fmt(python) 342ms, fmt(markdown) 12765ms, keep-sorted 155ms, ruff 235ms, mypy 52289ms, feature-flags 68601ms, pyscripts 21022ms, test-waits 20836ms, changelog 3407ms, patch/stitch 12136ms, symvision 119896ms, SASE-validation 101969ms, committed-plans 6254ms, test(scoped) 271669ms (68/4385 files). No triage footer in retained log: correct, section omitted for zero-item pass. run_facts continuation_mode=known; wire emits no continuation_extra_ms field in this build. Master was GREEN, so no red lint stages to continue past; per plan, rely on fixtures + smoke group for continuation. Stored diagnostic: 'triage owner candidates timed out' (fail-open, pass unaffected). Unattributed 38.2s.
+
+BACKTEST RE-RUN (default knobs sample 60 seed 1, out-dir 20260926T013811Z): selected_runs 686, known_items 3219, known_on_added_or_untracked 0, attribution ledger/agent_meta/none 127/511/48. Hand audit 60/60 Pre-existing=Y (100%, gate >=95%), zero KNOWN on added files, 19/19 KNOWN-but-touched dispositioned as pre-existing (clean-tree or other-base witnesses). Artifacts: report file:explicit:21ce44158741e9d3b7b957fa, filled audit file:explicit:deaccfa108a42e20adbcdc21 (both on sase-18j.10.4).
+
+DoD CHECKLIST
+- DoD-0 (identity/legacy closed): ledger-hygiene + record-and-render phases CLOSED (prior).
+- DoD-1 (signatures): core-failure-items CLOSED (goldens, cross-workspace equality, display bound, version refusal).
+- DoD-2 (durable facts survive reaping): record-and-render CLOSED; live: show -j on 6ee87c47 retains stages + triage verdict post-settle.
+- DoD-3 (run kinds, no labels for control/infra): core-classification CLOSED.
+- DoD-4 (fixtures a-j): core-classification CLOSED.
+- DoD-5 (precision backtest): gate PASSES live this turn, 60/60 + 0 added + 19 dispositioned; artifacts above.
+- DoD-6 (continuation safety): keep-going CLOSED; live green-master run executed test(scoped) normally.
+- DoD-7 (gated continuation, fail-safe stop, decisions in show -j): known-gated-continuation CLOSED.
+- DoD-8 (honest surfaces): record-and-render + failures-and-followups CLOSED; live footer/show -j agreement holds (footer correctly omitted, verdict pass/exited_zero).
+- DoD-9 (failures on real data): live this turn, CLI==direct exactly (27/27 groups match, project gh_sase-org__sase only, linked-repo groups isolated).
+- DoD-10 (follow-ups carry verdict): failures-and-followups CLOSED.
+- DoD-11 (no bead writes): record-and-render + smoke group CLOSED.
+- DoD-12 (wire v1, digest unchanged): live `tool list -j` digest 12b17
+
+… and 3127 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -79,13 +104,13 @@ Integration check: the non-epic commits since 290cd1aa7c that touch triage-adjac
 
 ```mermaid
 flowchart TD
-    n0["sase-18j: E3: failure triage — every failure labeled, no KNOWN failure hides the rest [in_progress]"]
+    n0["sase-18j: E3: failure triage — every failure labeled, no KNOWN failure hides the rest [closed]"]
     n1["sase-18j.1: Record runs under the catalog repo's identity and stop nested stage events [closed]"]
-    n2["sase-18j.10: Finish E3: make live failure triage actually run, fix owner matching, and prove it on athena [in_progress]"]
+    n2["sase-18j.10: Finish E3: make live failure triage actually run, fix owner matching, and prove it on athena [closed]"]
     n3["sase-18j.10.1: Send wire-valid evidence, store triage diagnostics, and clear the E3 stragglers [closed]"]
     n4["sase-18j.10.2: Match possible owners on file identity, not on shared path tokens [closed]"]
     n5["sase-18j.10.3: Pin the owner-matching core and verify owners on live candidates [closed]"]
-    n6["sase-18j.10.4: Prove E3's landing criteria live on athena [in_progress]"]
+    n6["sase-18j.10.4: Prove E3's landing criteria live on athena [closed]"]
     n7["sase-18j.2: Durable failure items, extractors, and normalization in sase-core [closed]"]
     n8["sase-18j.3: Pure classification, verdict, and failures aggregation in sase-core [closed]"]
     n9["sase-18j.4: Opt-in stage continuation with exit-code parity [closed]"]
@@ -131,8 +156,8 @@ flowchart TD
 | [bbugyi200.athena.sase-18j.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.10.1.md) | [sase-18j.10.1](sase-18j.10.1.md) | 1 |
 | [bbugyi200.athena.sase-18j.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md) | [sase-18j.10.2](sase-18j.10.2.md) | 1 |
 | [bbugyi200.athena.sase-18j.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.3/README.md) | [sase-18j.10.3](sase-18j.10.3.md) | 1 |
-| [bbugyi200.athena.sase-18j.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.4/README.md) | [sase-18j.10.4](sase-18j.10.4.md) | 0 |
-| [bbugyi200.athena.sase-18j.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.land/README.md) | [sase-18j.10](sase-18j.10.md) | 0 |
+| [bbugyi200.athena.sase-18j.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.10.4.md) | [sase-18j.10.4](sase-18j.10.4.md) | 0 |
+| [bbugyi200.athena.sase-18j.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.land/README.md) | [sase-18j.10](sase-18j.10.md) | 1 |
 | [bbugyi200.athena.sase-18j.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.2.md) | [sase-18j.2](sase-18j.2.md) | 1 |
 | [bbugyi200.athena.sase-18j.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-18j.3.md) | [sase-18j.3](sase-18j.3.md) | 1 |
 | [bbugyi200.athena.sase-18j.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.4/README.md) | [sase-18j.4](sase-18j.4.md) | 1 |
@@ -159,6 +184,7 @@ flowchart TD
 | sase-core | [`sase-core@9d049aa`](https://github.com/sase-org/sase-core/commit/9d049aac62ff173e41c9fec59734fcfc4af982d8) | fix(triage): match possible owners on file identity | [sase-18j.10.2](sase-18j.10.2.md) | 2026-09-25 20:07:17 EDT |
 | sase | [`ff5412b`](https://github.com/sase-org/sase/commit/ff5412bbb63c676ac995871ee856e190de6afb85) | fix(tool): emit wire-valid selection evidence for failure triage | [sase-18j.10.1](sase-18j.10.1.md) | 2026-09-25 20:23:15 EDT |
 | sase | [`013a170`](https://github.com/sase-org/sase/commit/013a170720270ac4996122bbdb1026f9468d6042) | feat(triage): pin owner-matching core and verify owners on live candidates | [sase-18j.10.3](sase-18j.10.3.md) | 2026-09-25 21:04:59 EDT |
+| sase--plans | [`sase--plans@a387f87`](https://github.com/sase-org/sase--plans/commit/a387f8739d1731d095cdbee9504673ddcc6d265a) | docs(plans): mark the E3 failure-triage plans done | [sase-18j.10](sase-18j.10.md) | 2026-09-25 22:34:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -166,16 +192,18 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-18f.land][1] | Check whether sase-18j is active and owns the smoke mypy straggler | 1 |
-| read-by | [agent:sase-18g.land][2] | Check whether sase-18j owns tool-run stage continuation display | 1 |
-| read-by | [agent:sase-18j.10.2][3] | Need note #5 owner-matching over-match details | 1 |
-| read-by | [agent:sase-18j.7][4] | epic status check | 1 |
-| read-by | [agent:sase-191.land][5] | Landing check: phase 2/3 notes on the E3 epic | 1 |
+| read-by | [agent:sase-17x.13.10.land][1] | Avoid duplicating DISCOVERED ISSUE notes | 2 |
+| read-by | [agent:sase-18f.land][2] | Check whether sase-18j is active and owns the smoke mypy straggler | 1 |
+| read-by | [agent:sase-18g.land][3] | Check whether sase-18j owns tool-run stage continuation display | 1 |
+| read-by | [agent:sase-18j.10.2][4] | Need note #5 owner-matching over-match details | 1 |
+| read-by | [agent:sase-18j.7][5] | epic status check | 1 |
+| read-by | [agent:sase-191.land][6] | Landing check: phase 2/3 notes on the E3 epic | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-17x.13.10.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18f.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18g.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.10.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-18j.7/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-191.land/README.md
 
 <!-- sase:referenced-by:end -->
