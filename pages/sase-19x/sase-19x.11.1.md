@@ -25,7 +25,7 @@ scrollbar-transition: remove the block-spread to block-paged scrollbar desynchro
 
 ## Dependencies
 
-- **Blocks:** [sase-19x.11.2](sase-19x.11.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19x.11.2](sase-19x.11.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-19x.11.3](sase-19x.11.3.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
@@ -39,3 +39,15 @@ scrollbar-transition: remove the block-spread to block-paged scrollbar desynchro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bff09e3`](https://github.com/sase-org/sase/commit/bff09e3cf1e5c052d4c614c381db71cb79b091ee) | fix(ace-tui): sync block-paged scrollbar on block-spread transition | [sase-19x.11.1](sase-19x.11.1.md) | 2026-09-26 16:17:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.11.1--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.11.1.md
+
+<!-- sase:referenced-by:end -->
