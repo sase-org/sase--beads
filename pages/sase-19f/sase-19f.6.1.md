@@ -21,7 +21,7 @@ model-projection: Add queue_capacity_multiplier to Agent state and every metadat
 
 ## Dependencies
 
-- **Blocks:** [sase-19f.6.2](sase-19f.6.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19f.6.2](sase-19f.6.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

@@ -13,7 +13,7 @@ edit-capacity: Teach the wait modal, wait actions, directive persistence, agent 
 
 ## Dependencies
 
-- **Depends on:** [sase-19f.6.2](sase-19f.6.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-19f.6.2](sase-19f.6.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
