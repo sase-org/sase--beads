@@ -39,8 +39,12 @@ block-cursor-model: add the pure block_model module (BlockCursor land/reconcile/
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-19x.2--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.2l.cdx][1] | Need the implemented block-mode decision and configuration semantics for UX research | 1 |
+| read-by | [agent:research.2l.mus][2] | Need card-block phase detail for spread-paged UX research | 1 |
+| read-by | [agent:sase-19x.2--2][3] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.mus/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md
 
 <!-- sase:referenced-by:end -->

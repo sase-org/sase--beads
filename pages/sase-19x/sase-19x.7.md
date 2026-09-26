@@ -22,7 +22,7 @@ block-keys: register prev_card_block / next_card_block (defaults [ and ]) throug
 ## Dependencies
 
 - **Depends on:** [sase-19x.5](sase-19x.5.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19x.9](sase-19x.9.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.9](sase-19x.9.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -42,8 +42,12 @@ block-keys: register prev_card_block / next_card_block (defaults [ and ]) throug
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-19x.7--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:research.2l.cdx][1] | Need current card-block key, footer, help, and palette decisions for UX research | 1 |
+| read-by | [agent:research.2l.mus][2] | Need card-block phase detail for spread-paged UX research | 1 |
+| read-by | [agent:sase-19x.7--1][3] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2l.mus/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md
 
 <!-- sase:referenced-by:end -->

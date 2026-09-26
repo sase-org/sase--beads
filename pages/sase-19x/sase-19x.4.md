@@ -24,7 +24,7 @@ legacy-followup-blocks: give the still-reachable non-session followup_agents Rep
 ## Dependencies
 
 - **Depends on:** [sase-19x.3](sase-19x.3.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19x.9](sase-19x.9.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.9](sase-19x.9.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -44,10 +44,12 @@ legacy-followup-blocks: give the still-reachable non-session followup_agents Rep
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-19x.4--1][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:sase-19x.7--1][2] | check if stale symvision owner is closed | 1 |
+| read-by | [agent:sase-19i.7.3.2][1] | Check whether sase-19x.4 closed, for symvision stale entries | 1 |
+| read-by | [agent:sase-19x.4--1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-19x.7--1][3] | check if stale symvision owner is closed | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.4.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.7.md
 
 <!-- sase:referenced-by:end -->
