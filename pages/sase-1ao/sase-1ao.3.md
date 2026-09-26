@@ -31,10 +31,11 @@ Accepting =alias or ==model leaves exactly one standalone model directive in the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1ao.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.3.land/README.md) | [sase-1ao.3](sase-1ao.3.md) | 1 |
+| [bbugyi200.apollo.sase-1ao.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.3.land/README.md) | [sase-1ao.3](sase-1ao.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`00f4975`](https://github.com/sase-org/sase/commit/00f4975d9c7236fb6eccf78cb1dc183769007955) | fix(core): pin the published adjacent model-directive cleanup | [sase-1ao.3](sase-1ao.3.md) | 2026-09-26 15:50:22 EDT |
+| sase--plans | [`sase--plans@0f2736d`](https://github.com/sase-org/sase--plans/commit/0f2736de8a9ee40140d7e08428d5933fe5a553cb) | docs(plans): mark the model shortcut epics done | [sase-1ao.3](sase-1ao.3.md) | 2026-09-26 15:52:28 EDT |

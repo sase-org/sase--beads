@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ao.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.1/README.md) | [sase-1ao.1](sase-1ao.1.md) | 1 |
 | [bbugyi200.apollo.sase-1ao.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.2.md) | [sase-1ao.2](sase-1ao.2.md) | 1 |
 | [bbugyi200.apollo.sase-1ao.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.3.1.md) | [sase-1ao.3.1](sase-1ao.3.1.md) | 1 |
-| [bbugyi200.apollo.sase-1ao.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.3.land/README.md) | [sase-1ao.3](sase-1ao.3.md) | 1 |
+| [bbugyi200.apollo.sase-1ao.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ao.3.land/README.md) | [sase-1ao.3](sase-1ao.3.md) | 2 |
 | [bbugyi200.apollo.sase-1ao.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ao.land.md) | [sase-1ao](README.md) | 0 |
 
 ## Commits
@@ -75,6 +75,7 @@ flowchart TD
 | sase | [`1a38e71`](https://github.com/sase-org/sase/commit/1a38e711d2d60466cb6a7b560d1193ae498aec49) | test(adjacent-cleanup): disjoint accept coverage for =alias/==model shortcuts (sase-1ao.3.1 already closed) | [sase-1ao.3.1](sase-1ao.3.1.md) | 2026-09-26 14:38:52 EDT |
 | sase-core | [`sase-core@104d902`](https://github.com/sase-org/sase-core/commit/104d902c9c54995dd3d8cd0888a6cdf19cbf5738) | fix(core): remove adjacent model directives with disjoint edits | [sase-1ao.3.1](sase-1ao.3.1.md) | 2026-09-26 14:56:36 EDT |
 | sase | [`00f4975`](https://github.com/sase-org/sase/commit/00f4975d9c7236fb6eccf78cb1dc183769007955) | fix(core): pin the published adjacent model-directive cleanup | [sase-1ao.3](sase-1ao.3.md) | 2026-09-26 15:50:22 EDT |
+| sase--plans | [`sase--plans@0f2736d`](https://github.com/sase-org/sase--plans/commit/0f2736de8a9ee40140d7e08428d5933fe5a553cb) | docs(plans): mark the model shortcut epics done | [sase-1ao.3](sase-1ao.3.md) | 2026-09-26 15:52:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
