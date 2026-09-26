@@ -13,7 +13,7 @@ block-spread-view: add chat-log newest landing and anchor-motion navigation for 
 
 ## Dependencies
 
-- **Depends on:** [sase-19x.5](sase-19x.5.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19x.5](sase-19x.5.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19x.8](sase-19x.8.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

@@ -13,7 +13,7 @@ block-keys: register prev_card_block / next_card_block (defaults [ and ]) throug
 
 ## Dependencies
 
-- **Depends on:** [sase-19x.5](sase-19x.5.md) ◐ · ⧖ 2026-09-25
+- **Depends on:** [sase-19x.5](sase-19x.5.md) ✓ · ⧖ 2026-09-25
 - **Blocks:** [sase-19x.9](sase-19x.9.md) ◐ · ⧖ 2026-09-25
 
 ## Agents

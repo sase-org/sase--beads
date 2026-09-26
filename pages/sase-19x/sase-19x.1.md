@@ -19,7 +19,7 @@ card-block-model: add the transparent CardBlock and BlockSpreadOnly wrappers, va
 
 ## Dependencies
 
-- **Blocks:** [sase-19x.3](sase-19x.3.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.3](sase-19x.3.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 

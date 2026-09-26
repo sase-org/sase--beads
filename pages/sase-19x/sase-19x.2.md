@@ -19,7 +19,7 @@ block-cursor-model: add the pure block_model module (BlockCursor land/reconcile/
 
 ## Dependencies
 
-- **Blocks:** [sase-19x.5](sase-19x.5.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19x.5](sase-19x.5.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -32,3 +32,15 @@ block-cursor-model: add the pure block_model module (BlockCursor land/reconcile/
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`465a885`](https://github.com/sase-org/sase/commit/465a8858b99e2c9d5b978ceaac9003ca6030b5eb) | feat(ace): add pure block cursor model and block spread config key | [sase-19x.2](sase-19x.2.md) | 2026-09-25 23:11:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19x.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19x.2.md
+
+<!-- sase:referenced-by:end -->
