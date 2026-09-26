@@ -28,7 +28,7 @@ Pressing `"` on the Agents tab opens a large Node Finder modal. It lists every r
 | [sase-19i.3](sase-19i.3.md) | Two-tier Node Finder preview | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.4](sase-19i.4.md) | NodeFinderModal screen, modes, keys, and layout | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 | [sase-19i.5](sase-19i.5.md) | Keymap, action, docs, visual goldens, and bench | ✓ closed | medium | 2026-09-25 | 1 | 1 |
-| [sase-19i.6](sase-19i.6.md) | Rows hidden by I, with a flip-and-reveal rung | ◐ in_progress | medium | 2026-09-25 | 1 | 0 |
+| [sase-19i.6](sase-19i.6.md) | Rows hidden by I, with a flip-and-reveal rung | ✓ closed | medium | 2026-09-25 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n3["sase-19i.3: Two-tier Node Finder preview [closed]"]
     n4["sase-19i.4: NodeFinderModal screen, modes, keys, and layout [closed]"]
     n5["sase-19i.5: Keymap, action, docs, visual goldens, and bench [closed]"]
-    n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [in_progress]"]
+    n6["sase-19i.6: Rows hidden by I, with a flip-and-reveal rung [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.3/README.md) | [sase-19i.3](sase-19i.3.md) | 1 |
 | [bbugyi200.athena.sase-19i.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.4.md) | [sase-19i.4](sase-19i.4.md) | 1 |
 | [bbugyi200.athena.sase-19i.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.5.md) | [sase-19i.5](sase-19i.5.md) | 1 |
-| [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.6/README.md) | [sase-19i.6](sase-19i.6.md) | 0 |
+| [bbugyi200.athena.sase-19i.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.6.md) | [sase-19i.6](sase-19i.6.md) | 1 |
 | [bbugyi200.athena.sase-19i.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.land/README.md) | [sase-19i](README.md) | 0 |
 
 ## Commits
@@ -76,6 +76,7 @@ flowchart TD
 | sase | [`d62a459`](https://github.com/sase-org/sase/commit/d62a459a2d527d663cfd425104add367acee4f7e) | feat(tui): add Node Finder previews | [sase-19i.3](sase-19i.3.md) | 2026-09-25 17:17:23 EDT |
 | sase | [`89ebc76`](https://github.com/sase-org/sase/commit/89ebc76256aeefdb28c1e1acfc05469ecfe32cb6) | feat(ace): add the Agents-tab Node Finder modal | [sase-19i.4](sase-19i.4.md) | 2026-09-25 21:20:40 EDT |
 | sase | [`df0d58d`](https://github.com/sase-org/sase/commit/df0d58d337f06b8e20878ebc0734a6309041c647) | feat(agents-finder): wire quotation\_mark to jump\_to\_node with goldens and bench | [sase-19i.5](sase-19i.5.md) | 2026-09-25 23:45:37 EDT |
+| sase | [`aa5fc55`](https://github.com/sase-org/sase/commit/aa5fc5503b05cea27667575a010889d65d1608ff) | feat(ace): add hidden node finder reveal coverage | [sase-19i.6](sase-19i.6.md) | 2026-09-26 00:17:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

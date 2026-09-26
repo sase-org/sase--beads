@@ -27,7 +27,7 @@ finder-wiring: bind quotation_mark to jump_to_node on the Agents tab across the 
 
 - **Depends on:** [sase-19i.2](sase-19i.2.md) ✓ · ⧖ 2026-09-25
 - **Depends on:** [sase-19i.4](sase-19i.4.md) ✓ · ⧖ 2026-09-25
-- **Blocks:** [sase-19i.6](sase-19i.6.md) ◐ · ⧖ 2026-09-25
+- **Blocks:** [sase-19i.6](sase-19i.6.md) ✓ · ⧖ 2026-09-25
 
 ## Agents
 
@@ -40,3 +40,15 @@ finder-wiring: bind quotation_mark to jump_to_node on the Agents tab across the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`df0d58d`](https://github.com/sase-org/sase/commit/df0d58d337f06b8e20878ebc0734a6309041c647) | feat(agents-finder): wire quotation\_mark to jump\_to\_node with goldens and bench | [sase-19i.5](sase-19i.5.md) | 2026-09-25 23:45:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.5.md
+
+<!-- sase:referenced-by:end -->
