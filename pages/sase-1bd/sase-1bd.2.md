@@ -19,7 +19,7 @@ attempt-journal: add a best-effort, flock-guarded, atomically written JSON journ
 
 ## Dependencies
 
-- **Blocks:** [sase-1bd.3](sase-1bd.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bd.3](sase-1bd.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

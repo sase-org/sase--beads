@@ -25,7 +25,7 @@ yellow-gear: add the pure gear-state model and precedence, the lime/yellow/red p
 
 ## Dependencies
 
-- **Blocks:** [sase-1bd.3](sase-1bd.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bd.3](sase-1bd.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -38,3 +38,15 @@ yellow-gear: add the pure gear-state model and precedence, the lime/yellow/red p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9814d89`](https://github.com/sase-org/sase/commit/9814d8980e3182eda3a872c481196b29383a5780) | feat(gear): add yellow restart-queued gear state model and palette (sase-1bd.1) | [sase-1bd.1](sase-1bd.1.md) | 2026-09-27 14:59:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bd.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bd.1.md
+
+<!-- sase:referenced-by:end -->
