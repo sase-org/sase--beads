@@ -32,3 +32,15 @@ dispatch_landing: close the original dispatch acceptance beads and their ancesto
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1aq.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.3/README.md) | [sase-1aq.10.3](sase-1aq.10.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.5][1] | publish_memory must verify dispatch landing claims | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -17,6 +17,8 @@ dispatch_unified: finish the cross-machine live matrix and original fault proofs
 
 [2026-09-26T22:16:42Z · sase-1aq.10.2] unified_proof evidence 2026-09-26T22:05Z (via sase-1aq.10.2): bridge-doubling defect repaired, dispatch-a464978f accepted->success with settled receipt, owner RUNNING pid 3426769, DONE completed with reply+artifacts; same-key retry refused without duplicate; remote exact-stop by name still failing (catalog omits dispatch rows) - recorded as PROPOSED FOLLOW-UP on sase-1aq.10.2 for sase-1aq.10.3 -r live dispatch proof for unified matrix
 
+[2026-09-27T00:36:20Z · sase-1aq.10.7.1] exact_ops evidence 2026-09-27T00:45Z (via sase-1aq.10.7.1): root cause of .10.2 remote-stop gap — machine.py lookup omitted include_terminal (DONE/killed rows invisible) and exact-matched only agent_id (receipt dispatch key != landed --N turn ids); fixed + proven live: dispatch-39f835d38a0891b084e61be84de58bab Athena->Apollo accepted/landed RUNNING, exact stop killed Apollo pid 3844411, retry x3 under one key -> single .r0, no duplicate; settled receipt (project sase, bare key) vs landed row (project home, session set, turn suffix) documented; retry-after-kill unaddressable because killed rows are reaped (see PROPOSED FOLLOW-UPs on sase-1aq.10.7.1) -r unified live matrix evidence
+
 ## Dependencies
 
 - **Depends on:** [sase-1aq.4](sase-1aq.4.md) ✓ · ⧖ 2026-09-26

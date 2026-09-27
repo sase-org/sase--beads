@@ -25,7 +25,7 @@ publish_memory: publish the two authorized memory changes, close their task bead
 
 - **Depends on:** [sase-1aq.10.3](sase-1aq.10.3.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1aq.10.4](sase-1aq.10.4.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.10.6](sase-1aq.10.6.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.6](sase-1aq.10.6.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -38,3 +38,15 @@ publish_memory: publish the two authorized memory changes, close their task bead
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e2ce63e`](https://github.com/sase-org/sase/commit/e2ce63eacf6d9813c386c5dfbeda2399c30ded17) | docs(memory): publish hold admission and proc queue guidance plus pull/fail-open decision | [sase-1aq.10.5](sase-1aq.10.5.md) | 2026-09-26 19:40:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md
+
+<!-- sase:referenced-by:end -->
