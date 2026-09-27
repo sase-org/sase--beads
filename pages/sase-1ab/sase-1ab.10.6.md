@@ -14,7 +14,7 @@ acceptance: prove the parent epic's done criteria end to end, sweep commits that
 ## Dependencies
 
 - **Depends on:** [sase-1ab.10.4](sase-1ab.10.4.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1ab.10.5](sase-1ab.10.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1ab.10.5](sase-1ab.10.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

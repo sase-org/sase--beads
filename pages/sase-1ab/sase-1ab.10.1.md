@@ -24,7 +24,7 @@ reader-repair: fix the durable readers the runtime cutover corrupted (the agent_
 ## Dependencies
 
 - **Blocks:** [sase-1ab.10.3](sase-1ab.10.3.md) ◐ · ⧖ 2026-09-27
-- **Blocks:** [sase-1ab.10.5](sase-1ab.10.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1ab.10.5](sase-1ab.10.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -37,3 +37,15 @@ reader-repair: fix the durable readers the runtime cutover corrupted (the agent_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c13cb5d`](https://github.com/sase-org/sase/commit/c13cb5d11314b76832dd0d16f95e1bcaab6846be) | fix(sase-1ab.10.1): complete reader-repair design fixes across gates, procs and wire | [sase-1ab.10.1](sase-1ab.10.1.md) | 2026-09-27 09:44:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.10.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.1.md
+
+<!-- sase:referenced-by:end -->
