@@ -67,7 +67,7 @@ The private-import half of notes #1, #3, and #4 is repaired in acbd5999a. legacy
 | [sase-1ab.6](sase-1ab.6.md) | sase-telegram cutover | ✓ closed | small | 2026-09-26 | 1 | 1 |
 | [sase-1ab.7](sase-1ab.7.md) | sase-core contract flip | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ab.8](sase-1ab.8.md) | Core pin bump and mirrors | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-26 | 1 | 1 |
+| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-26 | 1 | 2 |
 
 ## Lineage
 
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 1 |
 | [bbugyi200.athena.sase-1ab.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.7.md) | [sase-1ab.7](sase-1ab.7.md) | 1 |
 | [bbugyi200.athena.sase-1ab.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md) | [sase-1ab.8](sase-1ab.8.md) | 1 |
-| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 1 |
+| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 2 |
 | [bbugyi200.athena.sase-1ab.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.land/README.md) | [sase-1ab](README.md) | 0 |
 
 ## Commits
@@ -155,6 +155,7 @@ flowchart TD
 | sase | [`55e9e96`](https://github.com/sase-org/sase/commit/55e9e96decd7e1bf8f9e2524994597a80cd73e56) | feat(turn-rename): accept sase-core contract-flip spellings and schemas dual-compatibly | [sase-1ab.7](sase-1ab.7.md) | 2026-09-26 22:58:52 EDT |
 | sase | [`25a7bd2`](https://github.com/sase-org/sase/commit/25a7bd24fef6553c4b27a19dbbf916ab9ac20c98) | fix(procs): restore legacy proc-shell readers corrupted by rename | [sase-1ab.8](sase-1ab.8.md) | 2026-09-27 06:17:52 EDT |
 | sase | [`eac55e9`](https://github.com/sase-org/sase/commit/eac55e929aac9cf1130c60f0f62196cda11b074a) | test(turn-rename): add sase-turn terminology guard plus audit-deploy wording fixes | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:24:52 EDT |
+| sase-core | [`sase-core@912331c`](https://github.com/sase-org/sase-core/commit/912331c53149bb5da3da80feb37faea48c9fecdf) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:28:09 EDT |
 
 <!-- sase:referenced-by:start -->
 
