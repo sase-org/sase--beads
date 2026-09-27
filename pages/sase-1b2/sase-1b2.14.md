@@ -34,7 +34,7 @@ Add pilot assertions that a FINAL panel shows no badge and that `P` is unavailab
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.14/README.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
+| [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.14.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
