@@ -17,7 +17,7 @@ core-status-wire: in sase-core, add the tolerant FinalizerStatusSummaryWire and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.7](sase-1b2.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.7](sase-1b2.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

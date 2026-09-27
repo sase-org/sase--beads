@@ -71,7 +71,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.5](sase-1b2.5.md) | One uniform operation record across every executor | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.6](sase-1b2.6.md) | Step channel, stitch steps, and bounded live output | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.7](sase-1b2.7.md) | Python mirror and Agent model field for finalizer\_status | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1b2.7](sase-1b2.7.md) | Python mirror and Agent model field for finalizer\_status | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.8](sase-1b2.8.md) | FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace\_final\_deck | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.9](sase-1b2.9.md) | DeckSpec registry and explicit per-deck dispatch | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
@@ -97,7 +97,7 @@ flowchart TD
     n15["sase-1b2.4: Controller progress journal, handoff skips, and the row summary writer [closed]"]
     n16["sase-1b2.5: One uniform operation record across every executor [closed]"]
     n17["sase-1b2.6: Step channel, stitch steps, and bounded live output [in_progress]"]
-    n18["sase-1b2.7: Python mirror and Agent model field for finalizer_status [in_progress]"]
+    n18["sase-1b2.7: Python mirror and Agent model field for finalizer_status [closed]"]
     n19["sase-1b2.8: FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace_final_deck [in_progress]"]
     n20["sase-1b2.9: DeckSpec registry and explicit per-deck dispatch [closed]"]
     n0 --> n1
@@ -167,7 +167,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 1 |
 | [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 1 |
 | [bbugyi200.athena.sase-1b2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.6/README.md) | [sase-1b2.6](sase-1b2.6.md) | 0 |
-| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
+| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 1 |
 | [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 0 |
 | [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 1 |
 | [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 0 |
@@ -181,6 +181,7 @@ flowchart TD
 | sase-core | [`sase-core@f52fa7c`](https://github.com/sase-org/sase-core/commit/f52fa7c547d12e44a40e195ca393ac30df97a1e7) | feat(finalizer): implement core-run-view-model run\_view module | [sase-1b2.2](sase-1b2.2.md) | 2026-09-27 06:30:01 EDT |
 | sase | [`88fee8c`](https://github.com/sase-org/sase/commit/88fee8ce3d9662bd8f120a990a4aced08164822e) | refactor(ace-tui): centralize deck definitions in DeckSpec record | [sase-1b2.9](sase-1b2.9.md) | 2026-09-27 06:41:19 EDT |
 | sase | [`d3493f7`](https://github.com/sase-org/sase/commit/d3493f71ae745a83c3dfdf22d4e4c055357a77e1) | feat(finalizers): uniform schema-v1 operation records across executors | [sase-1b2.5](sase-1b2.5.md) | 2026-09-27 06:49:50 EDT |
+| sase | [`988af8f`](https://github.com/sase-org/sase/commit/988af8f3bb640bb8d47054998c679aab12e4dc96) | feat(tui): mirror finalizer\_status in Python scan wire and agent model (sase-1b2.7) | [sase-1b2.7](sase-1b2.7.md) | 2026-09-27 06:53:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
