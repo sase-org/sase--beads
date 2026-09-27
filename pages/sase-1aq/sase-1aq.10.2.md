@@ -47,7 +47,9 @@ unified_proof: finish the original unified live proof and the remaining fault ca
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1aq.10.2--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1aq.10.7.1][2] | Need resolved note 2 context and follow-ups for exact_ops | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md
 
 <!-- sase:referenced-by:end -->

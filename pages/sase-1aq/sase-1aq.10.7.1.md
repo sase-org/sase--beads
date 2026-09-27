@@ -29,10 +29,23 @@ exact_ops: make settled dispatch rows addressable and prove exact stop and retry
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1aq.10.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md) | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md) | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fb0b91e`](https://github.com/sase-org/sase/commit/fb0b91edce9b75f1c84002016aa27c83b7a9fafb) | fix(machine): repair exact remote stop/retry lookup for fleet-dispatched agents | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:00:24 EDT |
+| sase-core | [`sase-core@b2e4ea6`](https://github.com/sase-org/sase-core/commit/b2e4ea6672c47dbf101ad77c0ff8bd9352e4b124) | test(fleet): add catalog and binding terminal-flag coverage | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:03:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.1][1] | Need full phase history and notes for exact_ops work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.4/README.md) | [sase-1aq.10.4](sase-1aq.10.4.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md) | [sase-1aq.10.5](sase-1aq.10.5.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.6/README.md) | [sase-1aq.10.6](sase-1aq.10.6.md) | 0 |
-| [bbugyi200.apollo.sase-1aq.10.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md) | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md) | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2 |
 | [bbugyi200.apollo.sase-1aq.10.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md) | [sase-1aq.10.7.2](sase-1aq.10.7.2.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.3/README.md) | [sase-1aq.10.7.3](sase-1aq.10.7.3.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.4/README.md) | [sase-1aq.10.7.4](sase-1aq.10.7.4.md) | 0 |
@@ -132,6 +132,7 @@ flowchart TD
 | sase | [`29f8240`](https://github.com/sase-org/sase/commit/29f8240df594e321befb65d0881bbbdd7feff6ee) | fix(mobile-gateway): pass bare sase exe for bridge commands (sase-1aq.10.2) | [sase-1aq.10.2](sase-1aq.10.2.md) | 2026-09-26 18:58:58 EDT |
 | sase | [`e2ce63e`](https://github.com/sase-org/sase/commit/e2ce63eacf6d9813c386c5dfbeda2399c30ded17) | docs(memory): publish hold admission and proc queue guidance plus pull/fail-open decision | [sase-1aq.10.5](sase-1aq.10.5.md) | 2026-09-26 19:40:16 EDT |
 | sase | [`fb0b91e`](https://github.com/sase-org/sase/commit/fb0b91edce9b75f1c84002016aa27c83b7a9fafb) | fix(machine): repair exact remote stop/retry lookup for fleet-dispatched agents | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:00:24 EDT |
+| sase-core | [`sase-core@b2e4ea6`](https://github.com/sase-org/sase-core/commit/b2e4ea6672c47dbf101ad77c0ff8bd9352e4b124) | test(fleet): add catalog and binding terminal-flag coverage | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:03:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

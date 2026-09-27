@@ -40,7 +40,9 @@ dispatch_landing: close the original dispatch acceptance beads and their ancesto
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1aq.10.5][1] | publish_memory must verify dispatch landing claims | 1 |
+| read-by | [agent:sase-1aq.10.7.1][2] | Need note 1 context for exact_ops handoff | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md
 
 <!-- sase:referenced-by:end -->
