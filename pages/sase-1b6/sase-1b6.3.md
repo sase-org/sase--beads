@@ -13,7 +13,7 @@ chezmoi-epic-snippet: in the chezmoi repo's sase.yml, change the `epic` and `bd`
 
 ## Dependencies
 
-- **Depends on:** [sase-1b6.2](sase-1b6.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b6.2](sase-1b6.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

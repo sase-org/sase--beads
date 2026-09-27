@@ -19,7 +19,7 @@ core-snippet-vars: in sase-core, add the snippet_variables substitution helper, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1b6.2](sase-1b6.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b6.2](sase-1b6.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ core-snippet-vars: in sase-core, add the snippet_variables substitution helper, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@73f1044`](https://github.com/sase-org/sase-core/commit/73f104486e9827fe7d83295ce5c80bf13d8b6dc3) | feat(snippets): add #{project} substitution helper, Plan variables, and LSP resolution | [sase-1b6.1](sase-1b6.1.md) | 2026-09-27 08:44:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1b6.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1b6.1/README.md
+
+<!-- sase:referenced-by:end -->
