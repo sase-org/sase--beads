@@ -20,7 +20,7 @@ tui-snippet-vars: in sase, ratchet the core pin, thread `variables` through the 
 ## Dependencies
 
 - **Depends on:** [sase-1b6.1](sase-1b6.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b6.3](sase-1b6.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b6.3](sase-1b6.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ tui-snippet-vars: in sase, ratchet the core pin, thread `variables` through the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9071818`](https://github.com/sase-org/sase/commit/9071818bcdfbb0fcfde9e860ded2719203caafa7) | feat(snippets): resolve #{project} on TUI Tab expansion (sase-1b6.2) | [sase-1b6.2](sase-1b6.2.md) | 2026-09-27 10:16:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1b6.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1b6.2.md
+
+<!-- sase:referenced-by:end -->
