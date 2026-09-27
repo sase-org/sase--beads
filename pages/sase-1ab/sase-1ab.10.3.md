@@ -35,10 +35,23 @@ core-flip: re-apply the orphaned contract-flip diff onto current sase-core maste
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 1 |
+| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`650c313`](https://github.com/sase-org/sase/commit/650c313b715880b2ffb0d7337d0a92b39381c21f) | feat(contracts): negotiate flipped sase-core contracts dual-core-compatibly | [sase-1ab.10.3](sase-1ab.10.3.md) | 2026-09-27 11:59:46 EDT |
+| sase-core | [`sase-core@75e27f9`](https://github.com/sase-org/sase-core/commit/75e27f9a8576a1b5ddba04fbd6ad594afef9b96b) | feat!: rename shell contracts to turn across core wires | [sase-1ab.10.3](sase-1ab.10.3.md) | 2026-09-27 12:05:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.10.3--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md
+
+<!-- sase:referenced-by:end -->

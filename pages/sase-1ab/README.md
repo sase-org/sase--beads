@@ -157,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md) | [sase-1ab.1.1](sase-1ab.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1ab.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.1.md) | [sase-1ab.10.1](sase-1ab.10.1.md) | 1 |
 | [bbugyi200.athena.sase-1ab.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.2/README.md) | [sase-1ab.10.2](sase-1ab.10.2.md) | 1 |
-| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 1 |
+| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 2 |
 | [bbugyi200.athena.sase-1ab.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.4/README.md) | [sase-1ab.10.4](sase-1ab.10.4.md) | 0 |
 | [bbugyi200.athena.sase-1ab.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.5.md) | [sase-1ab.10.5](sase-1ab.10.5.md) | 1 |
 | [bbugyi200.athena.sase-1ab.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.6/README.md) | [sase-1ab.10.6](sase-1ab.10.6.md) | 0 |
@@ -194,6 +194,7 @@ flowchart TD
 | sase | [`c13cb5d`](https://github.com/sase-org/sase/commit/c13cb5d11314b76832dd0d16f95e1bcaab6846be) | fix(sase-1ab.10.1): complete reader-repair design fixes across gates, procs and wire | [sase-1ab.10.1](sase-1ab.10.1.md) | 2026-09-27 09:44:41 EDT |
 | sase | [`aa73c2c`](https://github.com/sase-org/sase/commit/aa73c2c5976fdd2ef421ad09678250e5cfdc4f42) | feat(turn-rename): finish turn vocabulary sweep in source | [sase-1ab.10.5](sase-1ab.10.5.md) | 2026-09-27 10:35:51 EDT |
 | sase | [`650c313`](https://github.com/sase-org/sase/commit/650c313b715880b2ffb0d7337d0a92b39381c21f) | feat(contracts): negotiate flipped sase-core contracts dual-core-compatibly | [sase-1ab.10.3](sase-1ab.10.3.md) | 2026-09-27 11:59:46 EDT |
+| sase-core | [`sase-core@75e27f9`](https://github.com/sase-org/sase-core/commit/75e27f9a8576a1b5ddba04fbd6ad594afef9b96b) | feat!: rename shell contracts to turn across core wires | [sase-1ab.10.3](sase-1ab.10.3.md) | 2026-09-27 12:05:30 EDT |
 
 <!-- sase:referenced-by:start -->
 
