@@ -43,7 +43,9 @@ files-engine: make fixed Files views skip or complete the spread probe. Add a co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c.r0][1] | Review sase-1b1 phase progress and notes for value-added research report | 1 |
+| read-by | [agent:sase-1b1.3--1][2] | Need phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c.r0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.3.md
 
 <!-- sase:referenced-by:end -->

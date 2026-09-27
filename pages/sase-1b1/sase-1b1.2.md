@@ -26,7 +26,7 @@ Either way, `test_deck_view_main_pilot.py` must pass on the merged tree and AUTO
 
 - **Depends on:** [sase-1b1.1](sase-1b1.1.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b1.3](sase-1b1.3.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b1.4](sase-1b1.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.4](sase-1b1.4.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
