@@ -28,7 +28,7 @@ audit-deploy: add the sase-turn terminology guard test, sweep and classify every
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 4 |
+| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 5 |
 
 ## Commits
 
@@ -38,6 +38,7 @@ audit-deploy: add the sase-turn terminology guard test, sweep and classify every
 | sase-core | [`sase-core@912331c`](https://github.com/sase-org/sase-core/commit/912331c53149bb5da3da80feb37faea48c9fecdf) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:28:09 EDT |
 | sase-github | [`sase-github@1542750`](https://github.com/sase-org/sase-github/commit/1542750dba468dc705e709d1c58191762aea8480) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:31:25 EDT |
 | sase-telegram | [`sase-telegram@111d0c7`](https://github.com/sase-org/sase-telegram/commit/111d0c74e71d8b488b7801f31afc291f1812d9b6) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:47:21 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@7be5cae`](https://github.com/sase-org/sase-research-artifacts/commit/7be5caed56a1cdc48241fb92d99a267b5d4e6f8d) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:50:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -55,6 +55,12 @@ The private-import half of notes #1, #3, and #4 is repaired in acbd5999a. legacy
 
 [2026-09-27T06:12:59Z · sase-1aq.10.7.5.land] Corroboration (sase-1aq.10.7.5.land, 2026-09-27): LEGACY_NAMED_PROC_SECTION_ID [name-defined] at src/sase/ace/tui/widgets/prompt_panel/_agent_display_hint_sections.py:74 is still red at master 19abe261d4 (ToolRun 109aa65ee68b1d6365d33d297620dfab), also proposed by sase-1aq.10.7.5.1 note #1. The same run's 48 test-scoped failures (turns/shells marker audits, proc parser/runtime, keybinding footer 'shell' digits, proc_wire_schema_version binding) reproduce on the clean tree and are rename fallout.
 
+[2026-09-27T11:44:10Z · sase-1ah.8.4.land] DISCOVERED ISSUE: proposed by sase-1ah.8.4.2 note #2, rechecked by sase-1ah.8.4.land at sase HEAD bc7144574. tools/check_sase_core_rs_bindings fails against published sase-core-rs 0.35.0 with one missing required binding, proc_wire_schema_version. src/sase/procs/store.py _reserve_request_schema_version (added by this epic's 55e9e96de) calls require_rust_binding('proc_wire_schema_version'), but git grep on sase-core origin/master (912331c) finds no definition of that binding. Runtime falls back to PROC_WIRE_SCHEMA_VERSION on AttributeError, but the CI 'Check pinned core bindings' step and the release-core-floor smoke fail on any core. Either land the binding in sase-core (and pin/ratchet past it) or drop the require_rust_binding call site.
+
+[2026-09-27T11:44:22Z · sase-1ah.8.4.land] DISCOVERED ISSUE: proposed by sase-1ah.8.4.2 note #3, rechecked by sase-1ah.8.4.land at sase HEAD bc7144574. sase tool run check fails on the clean base tree independent of the sase-core-rs floor ratchet: tests/completion/test_snapshot.py::test_checked_in_snapshot_h
+
+… and 409 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -67,7 +73,7 @@ The private-import half of notes #1, #3, and #4 is repaired in acbd5999a. legacy
 | [sase-1ab.6](sase-1ab.6.md) | sase-telegram cutover | ✓ closed | small | 2026-09-26 | 1 | 1 |
 | [sase-1ab.7](sase-1ab.7.md) | sase-core contract flip | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [sase-1ab.8](sase-1ab.8.md) | Core pin bump and mirrors | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-26 | 1 | 4 |
+| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ✓ closed | medium | 2026-09-26 | 1 | 5 |
 
 ## Lineage
 
@@ -134,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 1 |
 | [bbugyi200.athena.sase-1ab.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.7.md) | [sase-1ab.7](sase-1ab.7.md) | 1 |
 | [bbugyi200.athena.sase-1ab.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md) | [sase-1ab.8](sase-1ab.8.md) | 1 |
-| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 4 |
+| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.9.md) | [sase-1ab.9](sase-1ab.9.md) | 5 |
 | [bbugyi200.athena.sase-1ab.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.land/README.md) | [sase-1ab](README.md) | 0 |
 
 ## Commits
@@ -158,6 +164,7 @@ flowchart TD
 | sase-core | [`sase-core@912331c`](https://github.com/sase-org/sase-core/commit/912331c53149bb5da3da80feb37faea48c9fecdf) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:28:09 EDT |
 | sase-github | [`sase-github@1542750`](https://github.com/sase-org/sase-github/commit/1542750dba468dc705e709d1c58191762aea8480) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:31:25 EDT |
 | sase-telegram | [`sase-telegram@111d0c7`](https://github.com/sase-org/sase-telegram/commit/111d0c74e71d8b488b7801f31afc291f1812d9b6) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:47:21 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@7be5cae`](https://github.com/sase-org/sase-research-artifacts/commit/7be5caed56a1cdc48241fb92d99a267b5d4e6f8d) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:50:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
