@@ -28,3 +28,15 @@ gear-goldens: add deterministic visual tests for restart-pending and failed upda
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`24e80d4`](https://github.com/sase-org/sase/commit/24e80d42efdb2efc2932e7a22f77ebffa4936b2f) | test(ace-tui): add updates indicator PNG snapshot tests | [sase-1bd.5.1](sase-1bd.5.1.md) | 2026-09-27 17:33:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bd.5.1--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bd.5.1.md
+
+<!-- sase:referenced-by:end -->
