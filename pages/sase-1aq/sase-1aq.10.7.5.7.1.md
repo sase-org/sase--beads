@@ -19,7 +19,7 @@ receipt_cleanup: fix the mypy arg-type error in dispatch mutations and the over-
 
 ## Dependencies
 
-- **Blocks:** [sase-1aq.10.7.5.7.2](sase-1aq.10.7.5.7.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1aq.10.7.5.7.2](sase-1aq.10.7.5.7.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ receipt_cleanup: fix the mypy arg-type error in dispatch mutations and the over-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`48c3e0d`](https://github.com/sase-org/sase/commit/48c3e0ddc5b822d1eb9985b843c707346322b28d) | refactor(dispatch): receipt cleanup for acceptance window and kill retry | [sase-1aq.10.7.5.7.1](sase-1aq.10.7.5.7.1.md) | 2026-09-27 02:33:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.7.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.1/README.md
+
+<!-- sase:referenced-by:end -->

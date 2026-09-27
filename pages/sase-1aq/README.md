@@ -66,16 +66,19 @@ flowchart TD
     n20["sase-1aq.10.7.5.6: Publish dispatch memory and close the memory backlog [closed]"]
     n21["sase-1aq.10.7.5.7: Deploy the settled-receipt contract to both hosts and prove it live [in_progress]"]
     n22["sase-1aq.10.7.5.7.1: Land the settled-receipt type and kill-wrapper fixes [closed]"]
-    n23["sase-1aq.10.7.5.7.2: Bring Apollo and Athena to the same build carrying the receipt contract [in_progress]"]
-    n24["sase-1aq.10.7.5.7.3: Prove settled stop, fresh-row stop, and retry-after-kill live from Athena [in_progress]"]
-    n25["sase-1aq.2: Verify and land the existing hold epics [closed]"]
-    n26["sase-1aq.3: Finish released runtime adoption for remote dispatch [closed]"]
-    n27["sase-1aq.4: Complete the live Apollo snapshot and dismissal proof [closed]"]
-    n28["sase-1aq.5: Complete unified Agents and exact remote-operation acceptance [closed]"]
-    n29["sase-1aq.6: Land the remote-dispatch ancestors through sase-xe [closed]"]
-    n30["sase-1aq.7: Prove and land owner-to-viewer Agents parity [closed]"]
-    n31["sase-1aq.8: Publish landed hold and dispatch guidance [closed]"]
-    n32["sase-1aq.9: Close the memory backlog and verify every requested bead [closed]"]
+    n23["sase-1aq.10.7.5.7.2: Bring Apollo and Athena to the same build carrying the receipt contract [closed]"]
+    n24["sase-1aq.10.7.5.7.3: Prove settled stop, fresh-row stop, and retry-after-kill live from Athena [closed]"]
+    n25["sase-1aq.10.7.5.7.4: Land the fleet claims-cache fix and reconverge Apollo and Athena builds [in_progress]"]
+    n26["sase-1aq.10.7.5.7.4.1: Commit the host_liveness claims-cache recheck fix to sase-core [closed]"]
+    n27["sase-1aq.10.7.5.7.4.2: Reconverge both hosts on the fixed build and recheck fresh-row visibility [in_progress]"]
+    n28["sase-1aq.2: Verify and land the existing hold epics [closed]"]
+    n29["sase-1aq.3: Finish released runtime adoption for remote dispatch [closed]"]
+    n30["sase-1aq.4: Complete the live Apollo snapshot and dismissal proof [closed]"]
+    n31["sase-1aq.5: Complete unified Agents and exact remote-operation acceptance [closed]"]
+    n32["sase-1aq.6: Land the remote-dispatch ancestors through sase-xe [closed]"]
+    n33["sase-1aq.7: Prove and land owner-to-viewer Agents parity [closed]"]
+    n34["sase-1aq.8: Publish landed hold and dispatch guidance [closed]"]
+    n35["sase-1aq.9: Close the memory backlog and verify every requested bead [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -100,16 +103,19 @@ flowchart TD
     n21 --> n22
     n21 --> n23
     n21 --> n24
-    n0 --> n25
-    n0 --> n26
-    n0 --> n27
+    n21 --> n25
+    n25 --> n26
+    n25 --> n27
     n0 --> n28
     n0 --> n29
     n0 --> n30
     n0 --> n31
     n0 --> n32
-    n1 -.-> n25
-    n1 -.-> n26
+    n0 --> n33
+    n0 --> n34
+    n0 --> n35
+    n1 -.-> n28
+    n1 -.-> n29
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
@@ -128,14 +134,15 @@ flowchart TD
     n19 -.-> n20
     n22 -.-> n23
     n23 -.-> n24
-    n25 -.-> n31
     n26 -.-> n27
-    n27 -.-> n28
-    n28 -.-> n29
+    n28 -.-> n34
     n29 -.-> n30
-    n29 -.-> n31
     n30 -.-> n31
     n31 -.-> n32
+    n32 -.-> n33
+    n32 -.-> n34
+    n33 -.-> n34
+    n34 -.-> n35
 ```
 
 ## Agents
@@ -161,7 +168,10 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.7.5.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.1/README.md) | [sase-1aq.10.7.5.7.1](sase-1aq.10.7.5.7.1.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.2/README.md) | [sase-1aq.10.7.5.7.2](sase-1aq.10.7.5.7.2.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.3/README.md) | [sase-1aq.10.7.5.7.3](sase-1aq.10.7.5.7.3.md) | 0 |
-| [bbugyi200.apollo.sase-1aq.10.7.5.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.land/README.md) | [sase-1aq.10.7.5.7](sase-1aq.10.7.5.7.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.4.1/README.md) | [sase-1aq.10.7.5.7.4.1](sase-1aq.10.7.5.7.4.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.4.2/README.md) | [sase-1aq.10.7.5.7.4.2](sase-1aq.10.7.5.7.4.2.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.4.land/README.md) | [sase-1aq.10.7.5.7.4](sase-1aq.10.7.5.7.4.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.7.land.md) | [sase-1aq.10.7.5.7](sase-1aq.10.7.5.7.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.land.md) | [sase-1aq.10.7.5](sase-1aq.10.7.5.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.land.md) | [sase-1aq.10.7](sase-1aq.10.7.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.land.md) | [sase-1aq.10](sase-1aq.10.md) | 0 |
@@ -182,6 +192,7 @@ flowchart TD
 | sase | [`19abe26`](https://github.com/sase-org/sase/commit/19abe261d428a4a28c9912f0ac5840764342c8af) | docs(memory): publish dispatch reference note and %dispatch directive row | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:49:15 EDT |
 | sase--plans | [`sase--plans@4e64aac`](https://github.com/sase-org/sase--plans/commit/4e64aac207511122fa29002e8489301f7238887d) | chore(plans): mark close\_memory\_bead\_backlog plan done | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:52:50 EDT |
 | sase | [`48c3e0d`](https://github.com/sase-org/sase/commit/48c3e0ddc5b822d1eb9985b843c707346322b28d) | refactor(dispatch): receipt cleanup for acceptance window and kill retry | [sase-1aq.10.7.5.7.1](sase-1aq.10.7.5.7.1.md) | 2026-09-27 02:33:46 EDT |
+| sase-core | [`sase-core@da93d01`](https://github.com/sase-org/sase-core/commit/da93d014c1d16cacdaa7e5acac53cbb38c259dcf) | fix(fleet): recheck stale workspace claims before excluding live rows | [sase-1aq.10.7.5.7.4.1](sase-1aq.10.7.5.7.4.1.md) | 2026-09-27 05:19:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
