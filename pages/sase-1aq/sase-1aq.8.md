@@ -14,8 +14,8 @@ deferred_memory: publish the two authorized reference updates and close their ta
 ## Dependencies
 
 - **Depends on:** [sase-1aq.2](sase-1aq.2.md) ✓ · ⧖ 2026-09-26
-- **Depends on:** [sase-1aq.6](sase-1aq.6.md) ◐ · ⧖ 2026-09-26
-- **Depends on:** [sase-1aq.7](sase-1aq.7.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.6](sase-1aq.6.md) ✓ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.7](sase-1aq.7.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1aq.9](sase-1aq.9.md) ◐ · ⧖ 2026-09-26
 
 <!-- sase:referenced-by:start -->

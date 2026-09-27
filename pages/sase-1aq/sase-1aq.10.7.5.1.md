@@ -19,7 +19,7 @@ fencing_proof: finish sase-xe.16.11.3 in sase-core (TLS-honoring RemoteHost, suc
 
 ## Dependencies
 
-- **Blocks:** [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

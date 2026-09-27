@@ -13,7 +13,7 @@ dispatch_memory: publish the sase-ya dispatch reference note, then close sase-ya
 
 ## Dependencies
 
-- **Depends on:** [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

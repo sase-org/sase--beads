@@ -22,4 +22,4 @@ dispatch_snapshot: prove owner-viewer fleet state, dismissal, history, and resta
 ## Dependencies
 
 - **Depends on:** [sase-1aq.3](sase-1aq.3.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.5](sase-1aq.5.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.5](sase-1aq.5.md) ✓ · ⧖ 2026-09-26

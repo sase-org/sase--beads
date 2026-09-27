@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1aq](README.md) / sase-1aq.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.athena.0sw` · **Assignee:** `sase-1aq.5` · **Size:** medium
-**Created:** 2026-09-26 11:53:31 EDT
+**Created:** 2026-09-26 11:53:31 EDT · **Closed:** 2026-09-27 00:08:40 EDT
 **Plan:** [202609/finish\_blocking\_epics\_and\_memory.md](https://github.com/sase-org/sase--plans/blob/main/202609/finish_blocking_epics_and_memory.md)
 
 ## Description
@@ -19,10 +19,12 @@ dispatch_unified: finish the cross-machine live matrix and original fault proofs
 
 [2026-09-27T00:36:20Z · sase-1aq.10.7.1] exact_ops evidence 2026-09-27T00:45Z (via sase-1aq.10.7.1): root cause of .10.2 remote-stop gap — machine.py lookup omitted include_terminal (DONE/killed rows invisible) and exact-matched only agent_id (receipt dispatch key != landed --N turn ids); fixed + proven live: dispatch-39f835d38a0891b084e61be84de58bab Athena->Apollo accepted/landed RUNNING, exact stop killed Apollo pid 3844411, retry x3 under one key -> single .r0, no duplicate; settled receipt (project sase, bare key) vs landed row (project home, session set, turn suffix) documented; retry-after-kill unaddressable because killed rows are reaped (see PROPOSED FOLLOW-UPs on sase-1aq.10.7.1) -r unified live matrix evidence
 
+[2026-09-27T04:08:40Z · sase-1aq.10.7.5.5] ancestor_landing close 2026-09-27: dispatch_unified acceptance met. Requirement-to-evidence: (1) cross-machine live matrix -> sase-1aq.10.7.5.3 live_matrix: Athena hello ok + doctor dispatch OK, gateway loopback healthy 0.34.73, dispatch-39f835d3 exact addressing/stop-capability/retry-refusal proven live via ssh athena, DONE row retained 2.5h post-kill; closed .7.6/.7.13/.16.11.5/.16.10. (2) original fault proofs -> sase-1aq.10.7.5.1 fencing (healthy-beside-hung, real-locator rejection, TLS-honoring RemoteHost) closed .16.11.3; sase-1aq.10.7.5.2 exact_ops (settled-receipt poll, index catalog merge, no-dismiss stop; stop killed Apollo pid, retry x3 -> single .r0). Own notes #1-3 (uncertain-launch handoff, bridge-doubling proof, exact_ops evidence) all superseded by landed evidence. Known clean-base reds (dispatch_launch wire flip -> sase-1ab; stale 0.34.71 binding; check infra timeout) recorded on .5.2/.5.3/.5.4, not landing blockers.
+
 ## Dependencies
 
 - **Depends on:** [sase-1aq.4](sase-1aq.4.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.6](sase-1aq.6.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.6](sase-1aq.6.md) ✓ · ⧖ 2026-09-26
 
 <!-- sase:referenced-by:start -->
 

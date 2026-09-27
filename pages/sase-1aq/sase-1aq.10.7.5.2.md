@@ -17,7 +17,7 @@ exact_ops_receipts: resolve the uncertain-receipt, catalog-lag, and killed-row r
 
 ## Dependencies
 
-- **Blocks:** [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
