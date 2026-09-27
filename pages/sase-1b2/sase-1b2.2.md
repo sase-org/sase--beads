@@ -23,13 +23,7 @@ core-run-view-model: in sase-core, add the finalizer run_view module with reques
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@f52fa7c`](https://github.com/sase-org/sase-core/commit/f52fa7c547d12e44a40e195ca393ac30df97a1e7) | feat(finalizer): implement core-run-view-model run\_view module | [sase-1b2.2](sase-1b2.2.md) | 2026-09-27 06:30:01 EDT |
+| [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -38,7 +32,9 @@ core-run-view-model: in sase-core, add the finalizer run_view module with reques
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+| read-by | [agent:sase-1b2.2][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md
 
 <!-- sase:referenced-by:end -->

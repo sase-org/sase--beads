@@ -7,6 +7,20 @@
 **Created:** 2026-09-27 05:49:28 EDT
 **Plan:** [202609/agents\_tab\_final\_deck.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Sase finalizers become first-class on the Agents tab at four zoom levels over one provider-neutral data layer. At a glance, rows show a FINALIZING phase and a ⊛ chip while finalizers run or after a non-success. In context, each shell's Reply phase ends with a short ⊛ FINAL receipt. To diagnose, a new ⊛ FINAL deck has an Overview card plus one card per finalizer instance and one card block per run, with attempts, operations, steps, typed evidence, diagnostics and gated live tails. For authors, the Overview and a read-only `sase final status` run view explain selection, declarations and drift. A controller progress journal (which also records handoff skips), uniform operation records, a step channel, bounded live logs, an agent_meta summary, and one Rust-core projection feed every surface. Nothing in the model is commit-specific, so future finalizers render well on day one.
@@ -51,15 +65,15 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.17](sase-1b2.17.md) | One card block per run on session containers | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 1 |
+| [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.5](sase-1b2.5.md) | One uniform operation record across every executor | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.6](sase-1b2.6.md) | Step channel, stitch steps, and bounded live output | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.7](sase-1b2.7.md) | Python mirror and Agent model field for finalizer\_status | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.8](sase-1b2.8.md) | FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace\_final\_deck | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.9](sase-1b2.9.md) | DeckSpec registry and explicit per-deck dispatch | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.9](sase-1b2.9.md) | DeckSpec registry and explicit per-deck dispatch | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -85,7 +99,7 @@ flowchart TD
     n17["sase-1b2.6: Step channel, stitch steps, and bounded live output [in_progress]"]
     n18["sase-1b2.7: Python mirror and Agent model field for finalizer_status [in_progress]"]
     n19["sase-1b2.8: FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace_final_deck [in_progress]"]
-    n20["sase-1b2.9: DeckSpec registry and explicit per-deck dispatch [in_progress]"]
+    n20["sase-1b2.9: DeckSpec registry and explicit per-deck dispatch [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -147,15 +161,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 0 |
 | [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 0 |
 | [bbugyi200.athena.sase-1b2.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md) | [sase-1b2.19](sase-1b2.19.md) | 0 |
-| [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 1 |
+| [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 0 |
 | [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.20/README.md) | [sase-1b2.20](sase-1b2.20.md) | 0 |
 | [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 0 |
-| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 0 |
+| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 1 |
 | [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 0 |
 | [bbugyi200.athena.sase-1b2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.6/README.md) | [sase-1b2.6](sase-1b2.6.md) | 0 |
 | [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.7/README.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
 | [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 0 |
-| [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 0 |
+| [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 1 |
 | [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 0 |
 
 ## Commits
@@ -163,7 +177,8 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f4f2e96`](https://github.com/sase-org/sase-core/commit/f4f2e96a2e9ee1fdfffa8cbf935d6c77e61bc8ca) | feat(agent-scan): add tolerant finalizer\_status summary to scan wire | [sase-1b2.1](sase-1b2.1.md) | 2026-09-27 06:13:01 EDT |
-| sase-core | [`sase-core@f52fa7c`](https://github.com/sase-org/sase-core/commit/f52fa7c547d12e44a40e195ca393ac30df97a1e7) | feat(finalizer): implement core-run-view-model run\_view module | [sase-1b2.2](sase-1b2.2.md) | 2026-09-27 06:30:01 EDT |
+| sase | [`beb1db0`](https://github.com/sase-org/sase/commit/beb1db054d46ae1ef9ca4b1d0141216e5e6a60be) | feat(finalizers): add controller progress journal and row summary writer | [sase-1b2.4](sase-1b2.4.md) | 2026-09-27 06:15:29 EDT |
+| sase | [`88fee8c`](https://github.com/sase-org/sase/commit/88fee8ce3d9662bd8f120a990a4aced08164822e) | refactor(ace-tui): centralize deck definitions in DeckSpec record | [sase-1b2.9](sase-1b2.9.md) | 2026-09-27 06:41:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

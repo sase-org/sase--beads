@@ -28,7 +28,13 @@ journal-and-summary: add the best-effort finalizers/progress.jsonl writer and th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 0 |
+| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`beb1db0`](https://github.com/sase-org/sase/commit/beb1db054d46ae1ef9ca4b1d0141216e5e6a60be) | feat(finalizers): add controller progress journal and row summary writer | [sase-1b2.4](sase-1b2.4.md) | 2026-09-27 06:15:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

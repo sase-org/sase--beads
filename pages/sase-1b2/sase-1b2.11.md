@@ -25,7 +25,7 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 ## Dependencies
 
 - **Blocks:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.9](sase-1b2.9.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.9](sase-1b2.9.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
