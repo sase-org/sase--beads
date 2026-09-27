@@ -52,7 +52,7 @@ flowchart TD
     n6["sase-1au.6: Finish the Prompts overlay cutover [in_progress]"]
     n7["sase-1au.6.1: Fail closed when the Prompts lifecycle snapshot cannot be read [closed]"]
     n8["sase-1au.6.2: Retire dead prompt modal surface and repair extraction test drift [closed]"]
-    n9["sase-1au.6.3: Capture and inspect Prompts overlay visuals [in_progress]"]
+    n9["sase-1au.6.3: Capture and inspect Prompts overlay visuals [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.5/README.md) | [sase-1au.5](sase-1au.5.md) | 2 |
 | [bbugyi200.athena.sase-1au.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.1.md) | [sase-1au.6.1](sase-1au.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1au.6.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.2.md) | [sase-1au.6.2](sase-1au.6.2.md) | 1 |
-| [bbugyi200.athena.sase-1au.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.6.3/README.md) | [sase-1au.6.3](sase-1au.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1au.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.3.md) | [sase-1au.6.3](sase-1au.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1au.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.6.land/README.md) | [sase-1au.6](sase-1au.6.md) | 0 |
 | [bbugyi200.athena.sase-1au.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.land.md) | [sase-1au](README.md) | 0 |
 
@@ -98,6 +98,7 @@ flowchart TD
 | sase | [`899bdba`](https://github.com/sase-org/sase/commit/899bdba6441eeaf7f27a303209b9d19a5d1ed89f) | feat(ace): route all prompt entry points through Prompts overlay | [sase-1au.5](sase-1au.5.md) | 2026-09-26 19:46:58 EDT |
 | sase | [`7e54203`](https://github.com/sase-org/sase/commit/7e54203ba044ae262ffea9ca4670a6a2bb898a3c) | fix(ace-tui): make prompt-bar stash restore fail-closed on snapshot read | [sase-1au.6.1](sase-1au.6.1.md) | 2026-09-26 20:23:36 EDT |
 | sase | [`cdcc882`](https://github.com/sase-org/sase/commit/cdcc88251ff4ebb24d409055d590eb03b0fdf626) | feat(ace): retire dead prompt modal surface and repair soak extraction (sase-1au.6.2) | [sase-1au.6.2](sase-1au.6.2.md) | 2026-09-26 20:50:21 EDT |
+| sase | [`b9f5306`](https://github.com/sase-org/sase/commit/b9f53067b11a8223fbba1829b2add87ebee5b2c6) | feat(ace): add Prompts overlay PNG snapshots for Stash and Trash | [sase-1au.6.3](sase-1au.6.3.md) | 2026-09-26 21:38:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

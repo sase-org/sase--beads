@@ -19,7 +19,7 @@ fail_closed_read: remove the active-only fallback and cover stale bindings and f
 
 ## Dependencies
 
-- **Blocks:** [sase-1au.6.3](sase-1au.6.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.6.3](sase-1au.6.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

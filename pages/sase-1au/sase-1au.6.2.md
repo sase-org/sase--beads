@@ -19,7 +19,7 @@ retire_old_modal: resolve cutover unused symbols under Symvision policy and make
 
 ## Dependencies
 
-- **Blocks:** [sase-1au.6.3](sase-1au.6.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1au.6.3](sase-1au.6.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ retire_old_modal: resolve cutover unused symbols under Symvision policy and make
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cdcc882`](https://github.com/sase-org/sase/commit/cdcc88251ff4ebb24d409055d590eb03b0fdf626) | feat(ace): retire dead prompt modal surface and repair soak extraction (sase-1au.6.2) | [sase-1au.6.2](sase-1au.6.2.md) | 2026-09-26 20:50:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1au.6.2--1][1] | Need the phase scope and design file to finish retire_old_modal work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.2.md
+
+<!-- sase:referenced-by:end -->
