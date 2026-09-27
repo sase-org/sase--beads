@@ -26,8 +26,8 @@ viewer_matrix: finish the original live viewer and fault cases, then land the re
 ## Dependencies
 
 - **Depends on:** [sase-1aq.10.7.1](sase-1aq.10.7.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.10.7.3](sase-1aq.10.7.3.md) ◐ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.10.7.4](sase-1aq.10.7.4.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.3](sase-1aq.10.7.3.md) ✓ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.4](sase-1aq.10.7.4.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -40,3 +40,15 @@ viewer_matrix: finish the original live viewer and fault cases, then land the re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`afca222`](https://github.com/sase-org/sase/commit/afca22227190580a79cb67e88c3b0e5c9e68cb26) | fix(ace-tui): refresh dispatch context line after prompt stack rebuild | [sase-1aq.10.7.2](sase-1aq.10.7.2.md) | 2026-09-26 21:20:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md
+
+<!-- sase:referenced-by:end -->

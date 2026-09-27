@@ -45,7 +45,9 @@ exact_ops: make settled dispatch rows addressable and prove exact stop and retry
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1aq.10.7.1][1] | Need full phase history and notes for exact_ops work | 2 |
+| read-by | [agent:sase-1aq.10.7.2][2] | Need exact_ops completion evidence to build on | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md
 
 <!-- sase:referenced-by:end -->
