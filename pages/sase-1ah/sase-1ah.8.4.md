@@ -7,6 +7,18 @@
 **Created:** 2026-09-26 18:37:47 EDT
 **Plan:** [202609/receipt\_capable\_wheel.md](https://github.com/sase-org/sase--plans/blob/main/202609/receipt_capable_wheel.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/receipt_capable_wheel.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/receipt_capable_wheel.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Unblock the sase-core release that contains the receipt report binding, publish a complete sase-core-rs wheel, and raise sase's declared floor so a fresh wheel install accepts the catalog receipt policy.

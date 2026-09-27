@@ -61,7 +61,7 @@ flowchart TD
     n11["sase-1ah.8.3: Demonstrate prepared completion and record the owner check [closed]"]
     n12["sase-1ah.8.4: Publish the receipt-capable core wheel and raise the sase floor [in_progress]"]
     n13["sase-1ah.8.4.1: Let release-plz select the gateway across a minor bump [closed]"]
-    n14["sase-1ah.8.4.2: Publish the wheel and raise the sase floor [in_progress]"]
+    n14["sase-1ah.8.4.2: Publish the wheel and raise the sase floor [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.2/README.md) | [sase-1ah.8.2](sase-1ah.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.3.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1ah.8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.1/README.md) | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1ah.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.2/README.md) | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.4.2.md) | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md) | [sase-1ah.8.4](sase-1ah.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.land.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
 | [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.land.md) | [sase-1ah](README.md) | 0 |
@@ -123,6 +123,7 @@ flowchart TD
 | sase-core | [`sase-core@0cf5147`](https://github.com/sase-org/sase-core/commit/0cf51478f9f7c4c0be8f4b0446b9abfd58945c01) | feat(tool-run): add versioned receipts opportunity report in Rust core | [sase-1ah.8.1](sase-1ah.8.1.md) | 2026-09-26 14:49:55 EDT |
 | sase | [`f7886b1`](https://github.com/sase-org/sase/commit/f7886b1a64dab09bb7bc85846f6b838dd6b955bc) | feat(tool): adopt Rust core receipts opportunity report (sase-1ah.8.2) | [sase-1ah.8.2](sase-1ah.8.2.md) | 2026-09-26 17:42:59 EDT |
 | sase-core | [`sase-core@89ad2e9`](https://github.com/sase-org/sase-core/commit/89ad2e93e61a881acd873da0b3f6bd3e4479f74e) | fix(build): drop version pin on sase\_gateway path dependency | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 2026-09-26 18:56:23 EDT |
+| sase | [`bc71445`](https://github.com/sase-org/sase/commit/bc71445748c91d038e47f8473ce9d6ace1e20fc0) | chore(core): ratchet sase-core-rs floor to \>=0.35.0,\<0.36.0 | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 2026-09-27 07:33:59 EDT |
 
 <!-- sase:referenced-by:start -->
 

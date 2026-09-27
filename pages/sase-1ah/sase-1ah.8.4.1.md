@@ -17,7 +17,7 @@ unblock-core-release: drop the caret pin on the unpublished sase_gateway workspa
 
 ## Dependencies
 
-- **Blocks:** [sase-1ah.8.4.2](sase-1ah.8.4.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ah.8.4.2](sase-1ah.8.4.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -30,3 +30,15 @@ unblock-core-release: drop the caret pin on the unpublished sase_gateway workspa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@89ad2e9`](https://github.com/sase-org/sase-core/commit/89ad2e93e61a881acd873da0b3f6bd3e4479f74e) | fix(build): drop version pin on sase\_gateway path dependency | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 2026-09-26 18:56:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.8.4.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.1/README.md
+
+<!-- sase:referenced-by:end -->
