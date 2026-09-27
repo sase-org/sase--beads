@@ -46,7 +46,9 @@ contract-flip: breaking feat! sase-core change. Serialize the new key and value 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ab.8][1] | Need contract-flip scope to know pin-bump inputs | 2 |
+| read-by | [agent:sase-1ah.8.4.land][2] | Need child scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
 
 <!-- sase:referenced-by:end -->

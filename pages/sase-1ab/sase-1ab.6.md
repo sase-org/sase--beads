@@ -28,13 +28,7 @@ telegram: move sase-telegram tests and docstrings to the renamed sase gate-turn 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@0106dc9`](https://github.com/sase-org/sase-telegram/commit/0106dc98ed36cc797fc4a860034f313a212445a0) | refactor(telegram): rename gate shell settlement to gate turn vocabulary | [sase-1ab.6](sase-1ab.6.md) | 2026-09-26 14:22:18 EDT |
+| [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
