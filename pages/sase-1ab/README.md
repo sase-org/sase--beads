@@ -88,7 +88,7 @@ flowchart TD
     n5["sase-1ab.1.1.3: Fleet, runner capacity, and gateway [closed]"]
     n6["sase-1ab.1.1.4: Editor text, classification, and cross-repo check [closed]"]
     n7["sase-1ab.10: Finish the sase turn rename [in_progress]"]
-    n8["sase-1ab.10.1: Legacy reader and sunset-flag repair [in_progress]"]
+    n8["sase-1ab.10.1: Legacy reader and sunset-flag repair [closed]"]
     n9["sase-1ab.10.2: Rename-stale tests and CLI contracts [closed]"]
     n10["sase-1ab.10.3: Land the sase-core contract flip [in_progress]"]
     n11["sase-1ab.10.4: Core pin bump and mirrors [in_progress]"]
@@ -155,7 +155,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.3/README.md) | [sase-1ab.1.1.3](sase-1ab.1.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.1.4.md) | [sase-1ab.1.1.4](sase-1ab.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.land/README.md) | [sase-1ab.1.1](sase-1ab.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1ab.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.1.md) | [sase-1ab.10.1](sase-1ab.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1ab.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.1.md) | [sase-1ab.10.1](sase-1ab.10.1.md) | 1 |
 | [bbugyi200.athena.sase-1ab.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.2/README.md) | [sase-1ab.10.2](sase-1ab.10.2.md) | 1 |
 | [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.3/README.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 0 |
 | [bbugyi200.athena.sase-1ab.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.4/README.md) | [sase-1ab.10.4](sase-1ab.10.4.md) | 0 |
@@ -191,6 +191,7 @@ flowchart TD
 | sase | [`eac55e9`](https://github.com/sase-org/sase/commit/eac55e929aac9cf1130c60f0f62196cda11b074a) | test(turn-rename): add sase-turn terminology guard plus audit-deploy wording fixes | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:24:52 EDT |
 | sase-core | [`sase-core@912331c`](https://github.com/sase-org/sase-core/commit/912331c53149bb5da3da80feb37faea48c9fecdf) | fix(turn-rename): reword require\_tool\_run refusal from agent shell to SASE agent | [sase-1ab.9](sase-1ab.9.md) | 2026-09-27 07:28:09 EDT |
 | sase | [`46c7e68`](https://github.com/sase-org/sase/commit/46c7e68a8050978bd9c8aa8a3c4bca7193a9bb2e) | fix(turn-rename): repair rename-stale tests and CLI contracts | [sase-1ab.10.2](sase-1ab.10.2.md) | 2026-09-27 09:13:36 EDT |
+| sase | [`c13cb5d`](https://github.com/sase-org/sase/commit/c13cb5d11314b76832dd0d16f95e1bcaab6846be) | fix(sase-1ab.10.1): complete reader-repair design fixes across gates, procs and wire | [sase-1ab.10.1](sase-1ab.10.1.md) | 2026-09-27 09:44:41 EDT |
 
 <!-- sase:referenced-by:start -->
 

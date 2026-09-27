@@ -13,7 +13,7 @@ core-flip: re-apply the orphaned contract-flip diff onto current sase-core maste
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.10.1](sase-1ab.10.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1ab.10.1](sase-1ab.10.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1ab.10.2](sase-1ab.10.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1ab.10.4](sase-1ab.10.4.md) ◐ · ⧖ 2026-09-27
 

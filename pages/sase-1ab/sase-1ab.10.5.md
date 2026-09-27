@@ -13,7 +13,7 @@ vocab-sweep: rename the deferred shell-followup/shell-member cluster, rewrite th
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.10.1](sase-1ab.10.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1ab.10.1](sase-1ab.10.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1ab.10.2](sase-1ab.10.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1ab.10.6](sase-1ab.10.6.md) ◐ · ⧖ 2026-09-27
 

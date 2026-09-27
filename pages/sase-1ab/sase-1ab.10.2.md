@@ -37,3 +37,15 @@ test-repair: bring the 24 deterministic rename-stale test nodes to the turn and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`46c7e68`](https://github.com/sase-org/sase/commit/46c7e68a8050978bd9c8aa8a3c4bca7193a9bb2e) | fix(turn-rename): repair rename-stale tests and CLI contracts | [sase-1ab.10.2](sase-1ab.10.2.md) | 2026-09-27 09:13:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.10.2][1] | Need full description and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.10.2/README.md
+
+<!-- sase:referenced-by:end -->
