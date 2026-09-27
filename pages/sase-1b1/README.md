@@ -50,6 +50,43 @@ R9 Docs: whichever docs phase lands second states the interaction (views are Mai
 
 LAND AGENT: on master, confirm that DeckPanelState keeps `views` and any per-deck preferred cards; that view code dispatches explicitly on Main/Files; that the forced-policy returns and the view-change path survived 1b2.11 if it landed first; and that every 1b1 pilot passes. If 1b2 had already registered FINAL, confirm it shows no badge and `P` is unavailable there, then triage the R1 follow-up.
 
+[2026-09-27T18:49:52Z · sase-1b1.land] LANDING IN PROGRESS (sase-1b1.land, master 372ecc97c3). Not closed: steps 1-2 found remaining epic work, handed to a child plan whose parent_bead is sase-1b1.
+
+VERIFIED: all 7 phases closed and their notes addressed. Commits: 9c4d104aff (model), 12ae3014b9 (main-engine), cb1b5775a0 (files-engine), e75fa98d7b (chrome), a5e2a34dab (controls), c6d68d861e (docs), 5cafbcb53f (verify). 259 epic unit/pilot/catalog tests pass on master. The 6 agents_deck_view_* goldens pass a --check visual run. Cross-epic land checklist:
+- DeckPanelState keeps `views` plus per-deck `preferred_cards` (sase-1b2.10).
+- Forced-policy early returns survived the sase-1b2.11 extraction: `_decide_document_mode(deck)` and `decide_document_block_mode` in document_blocks.py.
+- `_apply_main_view_change` stays Main-only on the generic host accessors.
+- Rail cue derives from host block mode.
+- FINAL, registered by sase-1b2.14: no badge, P unavailable (test_final_panel_shows_no_badge_and_no_cycle).
+- Persistence round-trips both keys.
+- `sase bead epic-symbols sase-1b1` lists nothing.
+
+REMAINING EPIC WORK (in the child plan):
+(a) Integration fixes made in the landing workspace but NOT committed, because a plan handoff skips the finalizer. The child plan's `integrate` phase re-applies them:
+  - 4 keymap tests (test_partial_app_override, test_legacy_commits_action_override_migrates_to_stitches, test_agents_help_uses_configured_direct_visible_fold_selector_key, test_remapped_navigation_key) have failed on master since a5e2a34dab. They remap an action onto "P", which cycle_deck_view now owns, so the registry reverts the override. Confirmed by moving cycle_deck_view off P: all 4 pass. Fix: use the only free uppercase app key, "B".
+  - symvision: BlockState, distinct_layouts, layout_signature in view_policy.py are epic-owned unused publics. Privatize them.
+  - R2 explicit dispatch in DeckViewPolicies.with_deck and distinct_layouts.
+  - Delete the shadowed duplicate view_policy() that 6702105da8 (sase-1b2.11) added to card_documents.py.
+  - Add an R4 test: a `final` panel decoded to Main keeps its views.
+(b) D10 budgets missed (sase-1b1.6 notes #2-#3). Standard 5k Reply p50 is about 600-700 ms entering page cards or spread (budget 150). The pathological 14k Reply takes 1.4-3.0 s (budget 1 s max). No mitigation or documented guard is in place, so the acceptance checklist is unmet.
+(c) The verify live drive (sase screenshot + P / Ctrl+J / | / Z at wide and narrow widths) was never performed (sase-1b1.6 note #4).
+
+FOLLOW-UP TRIAGE (done):
+- mypy proposals (1b1.1#2, 1b1.2#2, 1b1.3#3, 1b1.4#3): declined. mypy is clean on master now.
+- 1b1.4#4 visual items:
+  - top_bar narrow timeouts: +1 sase-18n.
+  - output_variables_multi_agent: +1 sase-1bb.
+  - axe_chop_run_info_panel: +1 sase-16o (reproduced: setup asserts ChopItem at idx 2, not pixel drift).
+  - node_finder_i_hidden nondeterminism: new flake task sase-1bh.
+  - header_panel half-page scroll: +1 sase-1b8 (fails on the pre-epic tree too).
+- Symvision reds on untouched files (1b1.5#2, 1b1.6#5, 1b1.7#3): non-finalizer symbols +1 sase-1ay. FINAL/finalizer symbols recorded as a DISCOVERED ISSUE on active epic sase-1b2.
+- Deck View glossary strand (1b1.7#2): new memory task sase-1bg (R9-consistent).
+- Land-agent discoveries:
+  - Files Ctrl+J spread pilot flake: +1 sase-1a7 (reproduced on the pre-epic tree).
+  - FINAL deck test failures and TUI import count 3405 > 3400 (finalizer_row_state.py pulls sase.finalizers into startup): DISCOVERED ISSUE on sase-1b2.
+  - Memory README token drift and 9 test_agent_completion failures from 372ecc97c3: DISCOVERED ISSUE on sase-1bc.
+- R1 (extend deck views to FINAL) is still open. Whichever of sase-1b1 / sase-1b2 closes second records it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -74,6 +111,10 @@ flowchart TD
     n5["sase-1b1.5: P key, palette view commands, footer, help, and search exits [closed]"]
     n6["sase-1b1.6: View goldens, live inspection, and forced-spread benchmarks [closed]"]
     n7["sase-1b1.7: User docs for deck views [closed]"]
+    n8["sase-1b1.8: Deck views landing remainder: integration fixes, P-transition budgets, and the live check [in_progress]"]
+    n9["sase-1b1.8.1: Re-apply the sase-1b1 landing integration fixes [closed]"]
+    n10["sase-1b1.8.2: Bring P view transitions within the D10 budgets or a measured guard [in_progress]"]
+    n11["sase-1b1.8.3: Live wide/narrow drive of deck views and the acceptance checklist [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -81,6 +122,10 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -88,6 +133,8 @@ flowchart TD
     n4 -.-> n5
     n5 -.-> n6
     n5 -.-> n7
+    n9 -.-> n11
+    n10 -.-> n11
 ```
 
 ## Agents
@@ -101,6 +148,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1b1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.5.md) | [sase-1b1.5](sase-1b1.5.md) | 1 |
 | [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.6.md) | [sase-1b1.6](sase-1b1.6.md) | 1 |
 | [bbugyi200.athena.sase-1b1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.7.md) | [sase-1b1.7](sase-1b1.7.md) | 1 |
+| [bbugyi200.athena.sase-1b1.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.1.md) | [sase-1b1.8.1](sase-1b1.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1b1.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.2.md) | [sase-1b1.8.2](sase-1b1.8.2.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.3/README.md) | [sase-1b1.8.3](sase-1b1.8.3.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.land/README.md) | [sase-1b1.8](sase-1b1.8.md) | 0 |
+| [bbugyi200.athena.sase-1b1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.land.md) | [sase-1b1](README.md) | 0 |
 
 ## Commits
 
@@ -113,6 +165,7 @@ flowchart TD
 | sase | [`a5e2a34`](https://github.com/sase-org/sase/commit/a5e2a34dab6b15b1e7c34296fefc637a6410bc69) | feat(deck-views): P cycle, palette view commands, footer/help/search (sase-1b1.5) | [sase-1b1.5](sase-1b1.5.md) | 2026-09-27 11:36:27 EDT |
 | sase | [`c6d68d8`](https://github.com/sase-org/sase/commit/c6d68d861ec77d490d160aa859b31fc689614858) | docs(deck-views): document deck views, P cycle, palette, persistence (sase-1b1.7) | [sase-1b1.7](sase-1b1.7.md) | 2026-09-27 12:59:46 EDT |
 | sase | [`5cafbcb`](https://github.com/sase-org/sase/commit/5cafbcb53f1b6b9c300cc29c25136eee95abc8d7) | feat(deck-views): verify badges, goldens, and forced-spread benchmarks (sase-1b1.6) | [sase-1b1.6](sase-1b1.6.md) | 2026-09-27 13:10:23 EDT |
+| sase | [`67c43d5`](https://github.com/sase-org/sase/commit/67c43d5746db2412d88ca57d4860d00239699a09) | feat(decks): re-apply sase-1b1 landing integration fixes (sase-1b1.8.1) | [sase-1b1.8.1](sase-1b1.8.1.md) | 2026-09-27 15:23:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
