@@ -13,7 +13,7 @@ mode-affordances: add a clickable reverse ZOOM info-row chip and conditional foo
 
 ## Dependencies
 
-- **Depends on:** [sase-1bn.4](sase-1bn.4.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bn.4](sase-1bn.4.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bn.5](sase-1bn.5.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
