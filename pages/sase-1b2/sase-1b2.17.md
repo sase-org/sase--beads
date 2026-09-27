@@ -1,0 +1,40 @@
+# Bead: sase-1b2.17 — One card block per run on session containers
+
+[Bead Pages](../README.md) / [sase-1b2](README.md) / sase-1b2.17
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0sr](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0sr.md) · **Assignee:** `sase-1b2.17` · **Size:** small
+**Created:** 2026-09-27 05:49:51 EDT
+**Plan:** [202609/agents\_tab\_final\_deck.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md)
+
+## Description
+
+final-run-blocks: give every FINAL card on a session container one CardBlock per shell that ran finalizers, with roster-matched BlockMeta and block ids. Skipped and not-triggered shells appear only in the ledger. The rail, [ / ] and newest landing work in FINAL through the generalized block host.
+
+## Notes
+
+[2026-09-27T10:09:42Z · 0t2] CROSS-EPIC (sase-1b1): if deck views have landed, the block rail's widest tier carries a mode cue: `page N/M` when blocks are paged, `all N` when they are inline. The cue derives from the host's block mode, so expect it on FINAL's run-block rail and include it in the rail-parity tests with Reply. FINAL's block mode is always automatic: it has no deck-view policy and `P` is unavailable, so `forced_block_mode` never applies to it. The full shared rules are in the NOTES on epic sase-1b2.
+
+## Dependencies
+
+- **Depends on:** [sase-1b2.15](sase-1b2.15.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.16](sase-1b2.16.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.18](sase-1b2.18.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+
+<!-- sase:referenced-by:end -->
