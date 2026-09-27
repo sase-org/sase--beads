@@ -22,7 +22,7 @@ pin-bump: move sase-core-revision.txt to the contract commit, update the Python 
 ## Dependencies
 
 - **Depends on:** [sase-1ab.7](sase-1ab.7.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.9](sase-1ab.9.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.9](sase-1ab.9.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -35,3 +35,15 @@ pin-bump: move sase-core-revision.txt to the contract commit, update the Python 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`25a7bd2`](https://github.com/sase-org/sase/commit/25a7bd24fef6553c4b27a19dbbf916ab9ac20c98) | fix(procs): restore legacy proc-shell readers corrupted by rename | [sase-1ab.8](sase-1ab.8.md) | 2026-09-27 06:17:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.8][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md
+
+<!-- sase:referenced-by:end -->
