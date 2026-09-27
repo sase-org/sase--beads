@@ -30,3 +30,15 @@ chezmoi-epic-snippet: in the chezmoi repo's sase.yml, change the `epic` and `bd`
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@9b98c5c`](https://github.com/bbugyi200/dotfiles/commit/9b98c5c099843d350f0816fe4229cdb1d03b23a8) | feat(snippets): use #{project} prefix in epic and bd snippets | [sase-1b6.3](sase-1b6.3.md) | 2026-09-27 10:25:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1b6.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1b6.3/README.md
+
+<!-- sase:referenced-by:end -->
