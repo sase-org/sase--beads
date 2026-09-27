@@ -33,3 +33,15 @@ overlay_visuals: add narrow and wide Prompts overlay PNG snapshots with populate
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b9f5306`](https://github.com/sase-org/sase/commit/b9f53067b11a8223fbba1829b2add87ebee5b2c6) | feat(ace): add Prompts overlay PNG snapshots for Stash and Trash | [sase-1au.6.3](sase-1au.6.3.md) | 2026-09-26 21:38:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1au.6.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.3.md
+
+<!-- sase:referenced-by:end -->
