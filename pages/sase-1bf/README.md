@@ -35,7 +35,7 @@ Per-launch agent scratch (cargo targets, agent TMPDIRs) is removed when its laun
 |---|---|---|---|---|---:|---:|
 | [sase-1bf.1](sase-1bf.1.md) | Managed temp root registry the reaper follows | ✓ closed | medium | 2026-09-27 | 1 | 2 |
 | [sase-1bf.2](sase-1bf.2.md) | Rust-owned launch scratch liveness that works under systemd | ✓ closed | medium | 2026-09-27 | 1 | 2 |
-| [sase-1bf.3](sase-1bf.3.md) | Dead-launch backstop pass and liveness-aware pressure | ✓ closed | medium | 2026-09-27 | 1 | 1 |
+| [sase-1bf.3](sase-1bf.3.md) | Dead-launch backstop pass and liveness-aware pressure | ✓ closed | medium | 2026-09-27 | 1 | 2 |
 | [sase-1bf.4](sase-1bf.4.md) | Truthful disk attribution under pressure | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bf.5](sase-1bf.5.md) | Retention for visual snapshot run reports | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1bf.6](sase-1bf.6.md) | Integrated acceptance on apollo and athena | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -73,7 +73,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 2 |
 | [bbugyi200.apollo.sase-1bf.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.2.md) | [sase-1bf.2](sase-1bf.2.md) | 2 |
-| [bbugyi200.apollo.sase-1bf.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.3.md) | [sase-1bf.3](sase-1bf.3.md) | 1 |
+| [bbugyi200.apollo.sase-1bf.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.3.md) | [sase-1bf.3](sase-1bf.3.md) | 2 |
 | [bbugyi200.apollo.sase-1bf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.4.md) | [sase-1bf.4](sase-1bf.4.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.5/README.md) | [sase-1bf.5](sase-1bf.5.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.6/README.md) | [sase-1bf.6](sase-1bf.6.md) | 0 |
@@ -90,6 +90,7 @@ flowchart TD
 | sase-core | [`sase-core@924884e`](https://github.com/sase-org/sase-core/commit/924884e81b7c69aa2b30714a6cb2a9adac99484f) | feat(managed-tmp-roots): add Rust-owned registry with Py bindings (sase-1bf.1) | [sase-1bf.1](sase-1bf.1.md) | 2026-09-27 17:32:22 EDT |
 | sase | [`5db68f7`](https://github.com/sase-org/sase/commit/5db68f77f2e46d989934643dd8dad318cbc13fa2) | feat(disk): truthful disk attribution under pressure (sase-1bf.4) | [sase-1bf.4](sase-1bf.4.md) | 2026-09-27 19:16:02 EDT |
 | sase | [`c2eb318`](https://github.com/sase-org/sase/commit/c2eb318d8818f47390d80cfe8f07f5cd87cfe51e) | feat(managed-tmp): dead-launch backstop pass and liveness-aware pressure (sase-1bf.3) | [sase-1bf.3](sase-1bf.3.md) | 2026-09-27 19:39:41 EDT |
+| sase-core | [`sase-core@90d141e`](https://github.com/sase-org/sase-core/commit/90d141eab03b28851bc1dd75762473967d057c13) | feat(managed-tmp): dead-launch backstop in Rust reaper wire (sase-1bf.3) | [sase-1bf.3](sase-1bf.3.md) | 2026-09-27 19:44:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
