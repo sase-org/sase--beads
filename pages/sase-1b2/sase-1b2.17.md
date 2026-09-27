@@ -18,7 +18,7 @@ final-run-blocks: give every FINAL card on a session container one CardBlock per
 ## Dependencies
 
 - **Depends on:** [sase-1b2.15](sase-1b2.15.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.16](sase-1b2.16.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.16](sase-1b2.16.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.18](sase-1b2.18.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

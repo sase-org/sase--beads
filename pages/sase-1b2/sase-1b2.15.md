@@ -20,7 +20,7 @@ final-overview-card: render the run-level Overview card. It shows the plan in DA
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.15/README.md) | [sase-1b2.15](sase-1b2.15.md) | 0 |
+| [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.15.md) | [sase-1b2.15](sase-1b2.15.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
