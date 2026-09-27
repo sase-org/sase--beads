@@ -21,4 +21,4 @@ root-registry: every root `get_sase_managed_tmpdir()` writes into is recorded in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.1/README.md) | [sase-1bf.1](sase-1bf.1.md) | 0 |
+| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 0 |

@@ -14,7 +14,7 @@ dead-launch-reap: the housekeeping reaper removes launch-keyed scratch that no l
 ## Dependencies
 
 - **Depends on:** [sase-1bf.1](sase-1bf.1.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bf.2](sase-1bf.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bf.2](sase-1bf.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bf.6](sase-1bf.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
