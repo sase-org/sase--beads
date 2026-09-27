@@ -23,7 +23,7 @@ fidelity: render prebuilt Main bodies through the same console settings and widg
 
 ## Dependencies
 
-- **Blocks:** [sase-1b1.8.4.2](sase-1b1.8.4.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.8.4.2](sase-1b1.8.4.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -36,3 +36,15 @@ fidelity: render prebuilt Main bodies through the same console settings and widg
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b9cfa73`](https://github.com/sase-org/sase/commit/b9cfa7386327e484ee600a8ba2a578f0a042292b) | feat(decks): match prebuilt deferred Main bodies to the synchronous render | [sase-1b1.8.4.1](sase-1b1.8.4.1.md) | 2026-09-27 18:40:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1b1.8.4.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.1/README.md
+
+<!-- sase:referenced-by:end -->

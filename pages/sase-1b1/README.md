@@ -119,7 +119,7 @@ flowchart TD
     n11["sase-1b1.8.3: Live wide/narrow drive of deck views and the acceptance checklist [closed]"]
     n12["sase-1b1.8.4: Deck views landing fixes: badge-first prebuilt paint fidelity, FINAL-flag test drift, and golden rebaseline [in_progress]"]
     n13["sase-1b1.8.4.1: Make prebuilt deferred bodies match the synchronous render and re-apply the landing edits [closed]"]
-    n14["sase-1b1.8.4.2: Rebaseline and inspect the six agents_deck_view goldens [in_progress]"]
+    n14["sase-1b1.8.4.2: Rebaseline and inspect the six agents_deck_view goldens [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -161,7 +161,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b1.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.2.md) | [sase-1b1.8.2](sase-1b1.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1b1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.3/README.md) | [sase-1b1.8.3](sase-1b1.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1b1.8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.1/README.md) | [sase-1b1.8.4.1](sase-1b1.8.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1b1.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.2/README.md) | [sase-1b1.8.4.2](sase-1b1.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.2/README.md) | [sase-1b1.8.4.2](sase-1b1.8.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1b1.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.land/README.md) | [sase-1b1.8.4](sase-1b1.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1b1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.land.md) | [sase-1b1.8](sase-1b1.8.md) | 0 |
 | [bbugyi200.athena.sase-1b1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.land.md) | [sase-1b1](README.md) | 0 |
@@ -180,6 +180,7 @@ flowchart TD
 | sase | [`67c43d5`](https://github.com/sase-org/sase/commit/67c43d5746db2412d88ca57d4860d00239699a09) | feat(decks): re-apply sase-1b1 landing integration fixes (sase-1b1.8.1) | [sase-1b1.8.1](sase-1b1.8.1.md) | 2026-09-27 15:23:50 EDT |
 | sase | [`80fbe70`](https://github.com/sase-org/sase/commit/80fbe7020219c681a8f6bb2892f935b17b9827a4) | feat(deck-views): badge-first P transitions within D10 budgets (sase-1b1.8.2) | [sase-1b1.8.2](sase-1b1.8.2.md) | 2026-09-27 16:15:28 EDT |
 | sase | [`b9cfa73`](https://github.com/sase-org/sase/commit/b9cfa7386327e484ee600a8ba2a578f0a042292b) | feat(decks): match prebuilt deferred Main bodies to the synchronous render | [sase-1b1.8.4.1](sase-1b1.8.4.1.md) | 2026-09-27 18:40:27 EDT |
+| sase | [`0e50e69`](https://github.com/sase-org/sase/commit/0e50e69ace0599efe0fa9ebb18d0a56129a6a964) | test(ace-tui): rebaseline six agents\_deck\_view PNG goldens (sase-1b1.8.4.2) | [sase-1b1.8.4.2](sase-1b1.8.4.2.md) | 2026-09-27 19:13:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
