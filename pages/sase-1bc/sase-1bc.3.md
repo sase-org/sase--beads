@@ -18,13 +18,19 @@ core-tab-wires: add agent_tab/agent_tab_source to the scan wire (schema 11) and 
 ## Dependencies
 
 - **Depends on:** [sase-1bc.2](sase-1bc.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.4](sase-1bc.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.4](sase-1bc.4.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 0 |
+| [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@0e8981a`](https://github.com/sase-org/sase-core/commit/0e8981a1f131d2dd040c4887ae949edf19fbeef6) | feat!: carry agent\_tab on scan wire (schema 11) and fleet contract (v7) | [sase-1bc.3](sase-1bc.3.md) | 2026-09-27 12:32:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

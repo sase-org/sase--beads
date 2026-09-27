@@ -16,9 +16,3 @@ tab-strip: build AgentTabStrip in #agents-header with accent labels, the active 
 - **Depends on:** [sase-1bc.6](sase-1bc.6.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.8](sase-1bc.8.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.9](sase-1bc.9.md) ◐ · ⧖ 2026-09-27
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.7/README.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |

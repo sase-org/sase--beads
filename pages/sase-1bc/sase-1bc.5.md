@@ -14,10 +14,4 @@ tab-lineage-dispatch: export SASE_AGENT_TAB from agent, gate, and monitor turns 
 ## Dependencies
 
 - **Blocks:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.4](sase-1bc.4.md) ◐ · ⧖ 2026-09-27
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1bc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.5/README.md) | [sase-1bc.5](sase-1bc.5.md) | 0 |
+- **Depends on:** [sase-1bc.4](sase-1bc.4.md) ✓ · ⧖ 2026-09-27

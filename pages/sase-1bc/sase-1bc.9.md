@@ -16,9 +16,3 @@ machine-tabs: render machine tabs with the ⌨ glyph and health colors; adopt `l
 - **Blocks:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.7](sase-1bc.7.md) ◐ · ⧖ 2026-09-27
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 0 |

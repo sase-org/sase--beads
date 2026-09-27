@@ -15,11 +15,5 @@ tab-scope: create the agent_tabs beta flag and the ace.agent_tabs config block; 
 
 - **Depends on:** [sase-1bc.1](sase-1bc.1.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.11](sase-1bc.11.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.4](sase-1bc.4.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.4](sase-1bc.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.7](sase-1bc.7.md) ◐ · ⧖ 2026-09-27
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1bc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6/README.md) | [sase-1bc.6](sase-1bc.6.md) | 0 |
