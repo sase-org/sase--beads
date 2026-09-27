@@ -64,14 +64,18 @@ flowchart TD
     n18["sase-1aq.10.7.5.4: Capture same-build owner and viewer parity and close sase-133.5.4 [closed]"]
     n19["sase-1aq.10.7.5.5: Audit and land the original remote-dispatch and parity ancestors [closed]"]
     n20["sase-1aq.10.7.5.6: Publish dispatch memory and close the memory backlog [closed]"]
-    n21["sase-1aq.2: Verify and land the existing hold epics [closed]"]
-    n22["sase-1aq.3: Finish released runtime adoption for remote dispatch [closed]"]
-    n23["sase-1aq.4: Complete the live Apollo snapshot and dismissal proof [closed]"]
-    n24["sase-1aq.5: Complete unified Agents and exact remote-operation acceptance [closed]"]
-    n25["sase-1aq.6: Land the remote-dispatch ancestors through sase-xe [closed]"]
-    n26["sase-1aq.7: Prove and land owner-to-viewer Agents parity [closed]"]
-    n27["sase-1aq.8: Publish landed hold and dispatch guidance [closed]"]
-    n28["sase-1aq.9: Close the memory backlog and verify every requested bead [closed]"]
+    n21["sase-1aq.10.7.5.7: Deploy the settled-receipt contract to both hosts and prove it live [in_progress]"]
+    n22["sase-1aq.10.7.5.7.1: Land the settled-receipt type and kill-wrapper fixes [closed]"]
+    n23["sase-1aq.10.7.5.7.2: Bring Apollo and Athena to the same build carrying the receipt contract [in_progress]"]
+    n24["sase-1aq.10.7.5.7.3: Prove settled stop, fresh-row stop, and retry-after-kill live from Athena [in_progress]"]
+    n25["sase-1aq.2: Verify and land the existing hold epics [closed]"]
+    n26["sase-1aq.3: Finish released runtime adoption for remote dispatch [closed]"]
+    n27["sase-1aq.4: Complete the live Apollo snapshot and dismissal proof [closed]"]
+    n28["sase-1aq.5: Complete unified Agents and exact remote-operation acceptance [closed]"]
+    n29["sase-1aq.6: Land the remote-dispatch ancestors through sase-xe [closed]"]
+    n30["sase-1aq.7: Prove and land owner-to-viewer Agents parity [closed]"]
+    n31["sase-1aq.8: Publish landed hold and dispatch guidance [closed]"]
+    n32["sase-1aq.9: Close the memory backlog and verify every requested bead [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -92,16 +96,20 @@ flowchart TD
     n14 --> n18
     n14 --> n19
     n14 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
-    n0 --> n24
+    n14 --> n21
+    n21 --> n22
+    n21 --> n23
+    n21 --> n24
     n0 --> n25
     n0 --> n26
     n0 --> n27
     n0 --> n28
-    n1 -.-> n21
-    n1 -.-> n22
+    n0 --> n29
+    n0 --> n30
+    n0 --> n31
+    n0 --> n32
+    n1 -.-> n25
+    n1 -.-> n26
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
@@ -118,14 +126,16 @@ flowchart TD
     n17 -.-> n19
     n18 -.-> n19
     n19 -.-> n20
-    n21 -.-> n27
     n22 -.-> n23
     n23 -.-> n24
-    n24 -.-> n25
-    n25 -.-> n26
-    n25 -.-> n27
+    n25 -.-> n31
     n26 -.-> n27
     n27 -.-> n28
+    n28 -.-> n29
+    n29 -.-> n30
+    n29 -.-> n31
+    n30 -.-> n31
+    n31 -.-> n32
 ```
 
 ## Agents
@@ -148,7 +158,11 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.7.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.4/README.md) | [sase-1aq.10.7.5.4](sase-1aq.10.7.5.4.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md) | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md) | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2 |
-| [bbugyi200.apollo.sase-1aq.10.7.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.land/README.md) | [sase-1aq.10.7.5](sase-1aq.10.7.5.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.1/README.md) | [sase-1aq.10.7.5.7.1](sase-1aq.10.7.5.7.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.2/README.md) | [sase-1aq.10.7.5.7.2](sase-1aq.10.7.5.7.2.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.3/README.md) | [sase-1aq.10.7.5.7.3](sase-1aq.10.7.5.7.3.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.7.land/README.md) | [sase-1aq.10.7.5.7](sase-1aq.10.7.5.7.md) | 0 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.land.md) | [sase-1aq.10.7.5](sase-1aq.10.7.5.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.land.md) | [sase-1aq.10.7](sase-1aq.10.7.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.land.md) | [sase-1aq.10](sase-1aq.10.md) | 0 |
 
@@ -167,6 +181,7 @@ flowchart TD
 | sase--plans | [`sase--plans@8ddd920`](https://github.com/sase-org/sase--plans/commit/8ddd920da7f8ff61cb40c214e9dc46ca9b915218) | chore(plans): mark dispatch and parity epic plans done after ancestor landing | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 2026-09-27 00:11:00 EDT |
 | sase | [`19abe26`](https://github.com/sase-org/sase/commit/19abe261d428a4a28c9912f0ac5840764342c8af) | docs(memory): publish dispatch reference note and %dispatch directive row | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:49:15 EDT |
 | sase--plans | [`sase--plans@4e64aac`](https://github.com/sase-org/sase--plans/commit/4e64aac207511122fa29002e8489301f7238887d) | chore(plans): mark close\_memory\_bead\_backlog plan done | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:52:50 EDT |
+| sase | [`48c3e0d`](https://github.com/sase-org/sase/commit/48c3e0ddc5b822d1eb9985b843c707346322b28d) | refactor(dispatch): receipt cleanup for acceptance window and kill retry | [sase-1aq.10.7.5.7.1](sase-1aq.10.7.5.7.1.md) | 2026-09-27 02:33:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
