@@ -29,6 +29,8 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 
 [2026-09-27T18:47:10Z · sase-1b1.land] DISCOVERED ISSUE (sase-1b1.land, sase master 372ecc97c3): two master-red items trace to 372ecc97c3 (sase-1bc.4, %tab directive). (1) `sase validate` / `just check` stage 'SASE validation' fails at 'init memory --check': sase/memory/README.md needs +2 -2 (xprompts.md 'Approx. tokens' 2853 -> 2969 and total 20378 -> 20494). The commit edited xprompts.md and README.md but left the token counts stale; tests/main/test_init_memory_committed_drift.py::test_repo_project_memory_notes_match_generator_output also fails. Regenerate with `sase memory init` under /sase_memory_write rules. (2) tests/ace/tui/test_agent_completion.py goes from 14 passed on 372ecc97c3~1 to 9 failed / 5 passed on 372ecc97c3 in the same venv with sase-core-rs 0.35.1. Examples: candidate name 'main' where 'ship' is expected, and vcs_workflow / plan_preview are None. The failing nodes include test_build_agent_completion_candidates_enriches_visible_named_agents and test_named_proc_completion_candidate_uses_exact_proc_id. Evidence: `sase tool run -k check` run 81ef0cb11e86e4cdaaa8b70cfeb11615 (triage NEW) plus a pre/post worktree comparison.
 
+[2026-09-27T22:27:42Z · sase-1b2.land] DISCOVERED ISSUE (sase-1b2.land, master c78eb3805): 372ecc97c3 (sase-1bc.4, %tab directive) breaks two directive-completion tests. Both fail deterministically in isolation: tests/ace/tui/widgets/test_directive_completion_candidates.py::test_removed_auto_approval_directives_are_absent_from_completion (line 85, tale_candidates == []) and ::test_removed_tribe_spellings_are_absent_from_completion (line 144, candidates == []). The new %tab directive now matches the prefixes those tests assert return no candidates (first extra item: CompletionCandidate display='%tab'). Either scope the assertions to the removed spellings or pick prefixes %tab does not match. Proposed as clean-base failures by sase-1b2.19 note #4 (epic sase-1b2).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -64,7 +66,7 @@ flowchart TD
     n11["sase-1bc.6.1.1: Flag, ace.agent_tabs config, machine mode, and the tab index model [closed]"]
     n12["sase-1bc.6.1.2: Active-tab scope stage and tab-keyed panel state [closed]"]
     n13["sase-1bc.6.1.3: Tab switching, persistence, keys, minimal strip, and perf metric [closed]"]
-    n14["sase-1bc.6.1.4: Switch-then-reveal for every cross-tab jump [in_progress]"]
+    n14["sase-1bc.6.1.4: Switch-then-reveal for every cross-tab jump [closed]"]
     n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [closed]"]
     n16["sase-1bc.7: The beautiful tab strip [in_progress]"]
     n17["sase-1bc.8: The o/O layout ladder [in_progress]"]
@@ -124,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.1/README.md) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.2/README.md) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.land/README.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.7/README.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |
@@ -145,6 +147,7 @@ flowchart TD
 | sase | [`59f5eff`](https://github.com/sase-org/sase/commit/59f5eff1660acfb36c8eaa040c7e6a4fcd71ee59) | feat(agent-tabs): active-tab scope stage and tab-keyed panel state (sase-1bc.6.1.2) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 2026-09-27 16:53:15 EDT |
 | sase | [`c78eb38`](https://github.com/sase-org/sase/commit/c78eb3805faaa4848aa7e8afea69364e2018f064) | feat(agent-tabs): tab switching, persistence, keys, minimal strip, and perf metric (sase-1bc.6.1.3) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 2026-09-27 17:22:49 EDT |
 | sase | [`94ed923`](https://github.com/sase-org/sase/commit/94ed923b107a14598fa54803d751abf125c1e5f1) | feat(agent-tabs): tab-scoped bulk confirmations, docs, and flag-on verification (sase-1bc.6.1.5) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 2026-09-27 18:06:24 EDT |
+| sase | [`63fd6a5`](https://github.com/sase-org/sase/commit/63fd6a5dfd2826e411a2a63032de5f6ddc1a9274) | feat(agent-tabs): switch-then-reveal for every cross-tab jump (sase-1bc.6.1.4) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 2026-09-27 19:00:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

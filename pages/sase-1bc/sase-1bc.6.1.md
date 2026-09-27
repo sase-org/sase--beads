@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agent_tabs_scope.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agent_tabs_scope.md
 
@@ -38,7 +38,9 @@ Behind the new `agent_tabs` beta flag, the Agents tab shows one agent tab at a t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1bc.6.1.2][1] | Need parent epic scope for phase 2 | 1 |
+| read-by | [agent:sase-1bc.6.1.5][2] | Need sub-phase statuses | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->

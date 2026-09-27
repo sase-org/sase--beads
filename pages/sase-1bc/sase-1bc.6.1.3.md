@@ -22,7 +22,7 @@ tab-state-keys: add the synchronous tab switch with per-tab memory, startup sele
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.6.1.4](sase-1bc.6.1.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.4](sase-1bc.6.1.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6.1.5](sase-1bc.6.1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
@@ -44,7 +44,9 @@ tab-state-keys: add the synchronous tab switch with per-tab memory, startup sele
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1bc.6.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1bc.6.1.5][2] | Need phase 3 screenshot method for flag-on verification | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->

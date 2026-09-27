@@ -34,3 +34,15 @@ scope-honesty: make bulk and cleanup confirmations name their scope (on <tab> or
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`94ed923`](https://github.com/sase-org/sase/commit/94ed923b107a14598fa54803d751abf125c1e5f1) | feat(agent-tabs): tab-scoped bulk confirmations, docs, and flag-on verification (sase-1bc.6.1.5) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 2026-09-27 18:06:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.6.1.5][1] | check status | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md
+
+<!-- sase:referenced-by:end -->
