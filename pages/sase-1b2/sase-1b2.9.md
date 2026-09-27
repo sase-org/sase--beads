@@ -30,7 +30,7 @@ Before closing, run `git fetch -q` and then `git log --oneline origin/master --g
 ## Dependencies
 
 - **Blocks:** [sase-1b2.10](sase-1b2.10.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b2.11](sase-1b2.11.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.11](sase-1b2.11.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

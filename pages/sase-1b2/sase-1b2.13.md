@@ -13,7 +13,7 @@ final-cli-status: add `sase final status [<agent>]` with -d/--artifacts-dir and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.12](sase-1b2.12.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.19](sase-1b2.19.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

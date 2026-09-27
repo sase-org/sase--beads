@@ -20,7 +20,7 @@ status-summary-adapter: move the sase-core pin past core-status-wire, mirror fin
 ## Dependencies
 
 - **Depends on:** [sase-1b2.1](sase-1b2.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.8](sase-1b2.8.md) ✓ · ⧖ 2026-09-27
 
 ## Agents

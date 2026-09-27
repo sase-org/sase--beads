@@ -21,7 +21,7 @@ step-channel-and-live-sink: add SASE_FINALIZER_STEPS_FILE, emit_step and the SDK
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.5](sase-1b2.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
@@ -43,7 +43,9 @@ step-channel-and-live-sink: add SASE_FINALIZER_STEPS_FILE, emit_step and the SDK
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+| read-by | [agent:sase-1b2.6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.6/README.md
 
 <!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ core-run-view-detail: extend the projection with attempts, operations (schema-v1
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.12](sase-1b2.12.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.2](sase-1b2.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents

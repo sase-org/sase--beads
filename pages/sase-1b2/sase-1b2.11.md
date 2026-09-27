@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1b2](README.md) / sase-1b2.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0sr](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0sr.md) · **Assignee:** `sase-1b2.11` · **Size:** medium
-**Created:** 2026-09-27 05:49:43 EDT
+**Created:** 2026-09-27 05:49:43 EDT · **Closed:** 2026-09-27 08:01:25 EDT
 **Plan:** [202609/agents\_tab\_final\_deck.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md)
 
 ## Description
@@ -25,6 +25,10 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 [2026-09-27T11:20:03Z · sase-1b2.11] PROPOSED FOLLOW-UP: deck pilot test_files_ctrl_j_scrolls_page_anchor_to_top flakes (~1/4 isolated runs, 5s scroll-settle wait_for timeout); reproduces identically on the clean base tree, unrelated to card-document-view
 
 [2026-09-27T11:20:24Z · sase-1b2.11] PROPOSED FOLLOW-UP: deck pilot test_block_spread_bracket_top_aligns flakes (~1/3 isolated runs, 5s scroll-settle wait_for timeout); reproduces identically on the clean base tree, unrelated to card-document-view
+
+[2026-09-27T12:01:02Z · sase-1b2.11--1] PROPOSED FOLLOW-UP: mypy errors in src/sase/ace/tui/models/agent_groups/_tree.py:622/623/629 and src/sase/ace/tui/widgets/prompt_panel/_agent_display_hint_sections.py:74 reproduce identically on the clean base tree (verified via git stash -u plus targeted mypy run); files untouched by this phase
+
+[2026-09-27T12:01:25Z · sase-1b2.11--1] CardDocumentView extracted and deck-parameterized; just check failures triaged: fixed all 8 mypy errors in new document_view.py/document_transitions.py (renderable: Any annotation, None guards, type-ignore placement); targeted mypy clean on all 15 touched deck files; new test_card_document_view.py 11 passed; ruff clean; remaining _tree.py and _agent_display_hint_sections.py mypy errors verified identical on clean base tree and recorded as PROPOSED FOLLOW-UP; no epic-symbol leftovers
 
 ## Dependencies
 

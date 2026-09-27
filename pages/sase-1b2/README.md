@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -50,14 +50,16 @@ R9 Docs: whichever docs phase lands second states the interaction (views are Mai
 
 LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the per-deck preferred-card mapping; that FINAL is excluded from deck views everywhere (no badge; `P`, footer and palette view commands unavailable); that 1b1's pilots and `agents_deck_view_*` goldens still pass after 1b2.11/1b2.19; and triage the R1 follow-up.
 
+[2026-09-27T11:54:45Z · sase-1ah.8.4.land] DISCOVERED ISSUE (sase-1ah.8.4.land, sase HEAD bc7144574): just symvision exits 1. The error is 'Private functions/classes should not be imported: _root_represents_member in src/sase/ace/tui/models/agent_session_members.py'. src/sase/ace/tui/models/_loaders/_meta_enrichment_status.py:17 imports it, and this epic's 988af8f3b (sase-1b2.7) added that import. Make the helper public or keep the consumer in-module per Symvision.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1b2.1](sase-1b2.1.md) | finalizer\_status summary field on the Rust agent-scan wire | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.10](sase-1b2.10.md) | Per-deck sticky preferred cards | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ✓ closed | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.13](sase-1b2.13.md) | Read-only sase final status run view | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.14](sase-1b2.14.md) | Register the ⊛ FINAL deck with its loader, availability, and chrome | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.15](sase-1b2.15.md) | The Overview card | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -82,8 +84,8 @@ flowchart TD
     n0["sase-1b2: Finalizers on the Agents tab - FINALIZING rows, Reply receipts, and the ⊛ FINAL deck [in_progress]"]
     n1["sase-1b2.1: finalizer_status summary field on the Rust agent-scan wire [closed]"]
     n2["sase-1b2.10: Per-deck sticky preferred cards [closed]"]
-    n3["sase-1b2.11: A generic card-document view and block host beyond Main [in_progress]"]
-    n4["sase-1b2.12: Python run-view facade, artifact collector, and end-to-end proof [in_progress]"]
+    n3["sase-1b2.11: A generic card-document view and block host beyond Main [closed]"]
+    n4["sase-1b2.12: Python run-view facade, artifact collector, and end-to-end proof [closed]"]
     n5["sase-1b2.13: Read-only sase final status run view [in_progress]"]
     n6["sase-1b2.14: Register the ⊛ FINAL deck with its loader, availability, and chrome [in_progress]"]
     n7["sase-1b2.15: The Overview card [in_progress]"]
@@ -153,7 +155,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 1 |
 | [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 1 |
 | [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
-| [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 0 |
+| [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 1 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.13/README.md) | [sase-1b2.13](sase-1b2.13.md) | 0 |
 | [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.14/README.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
 | [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.15/README.md) | [sase-1b2.15](sase-1b2.15.md) | 0 |
@@ -186,6 +188,7 @@ flowchart TD
 | sase-core | [`sase-core@e53d7a5`](https://github.com/sase-org/sase-core/commit/e53d7a5d34b5677d56380d07ce51fbbfdbe5c1ce) | feat(finalizer): implement core-run-view-detail projection content | [sase-1b2.3](sase-1b2.3.md) | 2026-09-27 07:12:39 EDT |
 | sase | [`5dac334`](https://github.com/sase-org/sase/commit/5dac33451a4d36c224491fd1b42a78413f7fc845) | feat(ace-tui): FINALIZING rows, finalizer chips, header chip, and Reply receipts (sase-1b2.8) | [sase-1b2.8](sase-1b2.8.md) | 2026-09-27 07:23:34 EDT |
 | sase | [`7b20f4c`](https://github.com/sase-org/sase/commit/7b20f4c1c2d54215af4da1b2aacc7da7747262bb) | feat(finalizers): add step channel and bounded live sink | [sase-1b2.6](sase-1b2.6.md) | 2026-09-27 07:42:14 EDT |
+| sase | [`65c016a`](https://github.com/sase-org/sase/commit/65c016a8973dccf28ee71f17f004fdd3f3bde566) | feat(finalizers): add run-view adapter over core detail binding | [sase-1b2.12](sase-1b2.12.md) | 2026-09-27 08:26:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -194,11 +197,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
-| read-by | [agent:sase-1b2.10][2] | epic notes for shared rules | 1 |
-| read-by | [agent:sase-1b2.9][3] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1ah.8.4.land][2] | Check whether the epic is active for routing a symvision failure | 1 |
+| read-by | [agent:sase-1b2.10][3] | epic notes for shared rules | 1 |
+| read-by | [agent:sase-1b2.9][4] | Need parent epic context for deck-spec-registry phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
 
 <!-- sase:referenced-by:end -->
