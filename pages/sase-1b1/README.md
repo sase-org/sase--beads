@@ -60,7 +60,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps `views` and any per-dec
 | [sase-1b1.4](sase-1b1.4.md) | Top-border view badge, rail cue, and subtitle cleanup | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b1.5](sase-1b1.5.md) | P key, palette view commands, footer, help, and search exits | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b1.6](sase-1b1.6.md) | View goldens, live inspection, and forced-spread benchmarks | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b1.7](sase-1b1.7.md) | User docs for deck views | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1b1.7](sase-1b1.7.md) | User docs for deck views | ✓ closed | small | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -73,7 +73,7 @@ flowchart TD
     n4["sase-1b1.4: Top-border view badge, rail cue, and subtitle cleanup [closed]"]
     n5["sase-1b1.5: P key, palette view commands, footer, help, and search exits [closed]"]
     n6["sase-1b1.6: View goldens, live inspection, and forced-spread benchmarks [in_progress]"]
-    n7["sase-1b1.7: User docs for deck views [in_progress]"]
+    n7["sase-1b1.7: User docs for deck views [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,8 +99,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1b1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.3.md) | [sase-1b1.3](sase-1b1.3.md) | 1 |
 | [bbugyi200.athena.sase-1b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.4/README.md) | [sase-1b1.4](sase-1b1.4.md) | 1 |
 | [bbugyi200.athena.sase-1b1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.5.md) | [sase-1b1.5](sase-1b1.5.md) | 1 |
-| [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.6/README.md) | [sase-1b1.6](sase-1b1.6.md) | 0 |
-| [bbugyi200.athena.sase-1b1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.7/README.md) | [sase-1b1.7](sase-1b1.7.md) | 0 |
+| [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.6.md) | [sase-1b1.6](sase-1b1.6.md) | 0 |
+| [bbugyi200.athena.sase-1b1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.7.md) | [sase-1b1.7](sase-1b1.7.md) | 1 |
 | [bbugyi200.athena.sase-1b1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.land/README.md) | [sase-1b1](README.md) | 0 |
 
 ## Commits
@@ -112,6 +112,7 @@ flowchart TD
 | sase | [`cb1b577`](https://github.com/sase-org/sase/commit/cb1b5775a001c0c8c31aba1cc70d02539e3adba2) | fix(deck-views): declare \_files\_probe\_complete on DeckPanelFilesMixin | [sase-1b1.3](sase-1b1.3.md) | 2026-09-27 08:30:32 EDT |
 | sase | [`e75fa98`](https://github.com/sase-org/sase/commit/e75fa98d7b6e9b58e56e7b47f380d10c336bf9dd) | feat(decks): title badge ladder, chrome hold, and block rail cue | [sase-1b1.4](sase-1b1.4.md) | 2026-09-27 10:33:44 EDT |
 | sase | [`a5e2a34`](https://github.com/sase-org/sase/commit/a5e2a34dab6b15b1e7c34296fefc637a6410bc69) | feat(deck-views): P cycle, palette view commands, footer/help/search (sase-1b1.5) | [sase-1b1.5](sase-1b1.5.md) | 2026-09-27 11:36:27 EDT |
+| sase | [`c6d68d8`](https://github.com/sase-org/sase/commit/c6d68d861ec77d490d160aa859b31fc689614858) | docs(deck-views): document deck views, P cycle, palette, persistence (sase-1b1.7) | [sase-1b1.7](sase-1b1.7.md) | 2026-09-27 12:59:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

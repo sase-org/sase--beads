@@ -25,7 +25,7 @@ Resolve additively. App-level `P` and the picker's `n`/`N` do not collide, becau
 - **Depends on:** [sase-1b1.3](sase-1b1.3.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b1.4](sase-1b1.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b1.6](sase-1b1.6.md) ◐ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b1.7](sase-1b1.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.7](sase-1b1.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -46,7 +46,9 @@ Resolve additively. App-level `P` and the picker's `n`/`N` do not collide, becau
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c.r0][1] | Review sase-1b1 phase progress and notes for value-added research report | 1 |
+| read-by | [agent:sase-1b1.5--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c.r0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.5.md
 
 <!-- sase:referenced-by:end -->

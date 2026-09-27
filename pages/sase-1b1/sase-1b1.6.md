@@ -23,7 +23,7 @@ verify: add new deck-view PNG scenarios and inspect live screenshots at wide and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.6/README.md) | [sase-1b1.6](sase-1b1.6.md) | 0 |
+| [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.6.md) | [sase-1b1.6](sase-1b1.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
