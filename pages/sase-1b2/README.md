@@ -69,7 +69,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.15](sase-1b2.15.md) | The Overview card | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.16](sase-1b2.16.md) | Generic instance cards with commit and command enrichers | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.17](sase-1b2.17.md) | One card block per run on session containers | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -95,7 +95,7 @@ flowchart TD
     n7["sase-1b2.15: The Overview card [closed]"]
     n8["sase-1b2.16: Generic instance cards with commit and command enrichers [closed]"]
     n9["sase-1b2.17: One card block per run on session containers [closed]"]
-    n10["sase-1b2.18: Live tails, following, and the 1 Hz tick for the selected agent [in_progress]"]
+    n10["sase-1b2.18: Live tails, following, and the 1 Hz tick for the selected agent [closed]"]
     n11["sase-1b2.19: Remove the flag, add goldens, inspect live, and bench [in_progress]"]
     n12["sase-1b2.2: FinalizerNodeView projection - decoders, precedence, and selection [closed]"]
     n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [in_progress]"]
@@ -165,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.15.md) | [sase-1b2.15](sase-1b2.15.md) | 1 |
 | [bbugyi200.athena.sase-1b2.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md) | [sase-1b2.16](sase-1b2.16.md) | 1 |
 | [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 1 |
-| [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 0 |
+| [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 1 |
 | [bbugyi200.athena.sase-1b2.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md) | [sase-1b2.19](sase-1b2.19.md) | 0 |
 | [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 1 |
 | [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.20/README.md) | [sase-1b2.20](sase-1b2.20.md) | 0 |
@@ -199,6 +199,7 @@ flowchart TD
 | sase | [`6ad0539`](https://github.com/sase-org/sase/commit/6ad0539cfc5b337c87927b8e0779ef9de8631ce9) | feat(ace-tui): generic FINAL instance cards with commit and command enrichers | [sase-1b2.16](sase-1b2.16.md) | 2026-09-27 10:20:13 EDT |
 | sase | [`e75840b`](https://github.com/sase-org/sase/commit/e75840b0c9f665a7b22b6bbd2a107f17e63df89d) | feat(final-deck): add Overview card widget with document deck and tests | [sase-1b2.15](sase-1b2.15.md) | 2026-09-27 10:46:48 EDT |
 | sase | [`01994b5`](https://github.com/sase-org/sase/commit/01994b5299f28f6076de73ae17dd0f41985085bd) | feat(final-deck): one card block per run on session containers | [sase-1b2.17](sase-1b2.17.md) | 2026-09-27 11:19:32 EDT |
+| sase | [`ed0b66f`](https://github.com/sase-org/sase/commit/ed0b66f7b8e02100edbb351d7912f8425ee34cf8) | feat(final-deck): add gated 1 Hz live tail for actively-finalizing nodes | [sase-1b2.18](sase-1b2.18.md) | 2026-09-27 12:27:48 EDT |
 
 <!-- sase:referenced-by:start -->
 

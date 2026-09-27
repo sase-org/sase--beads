@@ -18,7 +18,7 @@ final-cutover: bench the j/k and triage loop with the flag off and on, then dele
 ## Dependencies
 
 - **Depends on:** [sase-1b2.13](sase-1b2.13.md) ✓ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.18](sase-1b2.18.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.18](sase-1b2.18.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.20](sase-1b2.20.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
