@@ -11,6 +11,10 @@
 
 tab-lineage-dispatch: export SASE_AGENT_TAB from agent, gate, and monitor turns and insert an inherited %tab into agent-initiated launches (sase run/LaunchApproval, sase bead work, epic approval); add the %tab+%dispatch version preflight; update remote dispatch docs and the dispatch memory note.
 
+## Notes
+
+[2026-09-27T17:59:55Z · sase-1bc.5] PROPOSED FOLLOW-UP: symvision flags pre-existing unused-public BlockState (decks/view_policy.py) and run_phase_style (finalizers/view_vocabulary.py); identical on clean base tree, blocks just check at lint-symvision
+
 ## Dependencies
 
 - **Blocks:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
