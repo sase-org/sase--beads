@@ -23,7 +23,7 @@ snapshot-body: remove the dominant in-snapshot cost until a same-process warm bu
 
 ## Dependencies
 
-- **Blocks:** [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -36,3 +36,15 @@ snapshot-body: remove the dominant in-snapshot cost until a same-process warm bu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`215eb89`](https://github.com/sase-org/sase/commit/215eb89f41d90d97bd3eb708510ed8886beca335) | perf(tui): optimize snapshot-body node finder warm snapshot path | [sase-19i.7.3.3.3.3.1](sase-19i.7.3.3.3.3.1.md) | 2026-09-26 19:40:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.3.3.3.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.1/README.md
+
+<!-- sase:referenced-by:end -->
