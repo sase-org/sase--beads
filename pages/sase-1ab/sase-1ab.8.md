@@ -13,11 +13,5 @@ pin-bump: move sase-core-revision.txt to the contract commit, update the Python 
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.7](sase-1ab.7.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.7](sase-1ab.7.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.9](sase-1ab.9.md) ◐ · ⧖ 2026-09-26
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1ab.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md) | [sase-1ab.8](sase-1ab.8.md) | 0 |

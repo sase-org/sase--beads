@@ -19,12 +19,6 @@ core-expand: non-breaking sase-core change. Rename the Rust internals to turn an
 
 - **Blocks:** [sase-1ab.2](sase-1ab.2.md) ✓ · ⧖ 2026-09-26
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1ab.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.md) | [sase-1ab.1](sase-1ab.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

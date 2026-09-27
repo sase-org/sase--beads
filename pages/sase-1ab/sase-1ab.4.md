@@ -26,7 +26,7 @@ tui-cutover: rename TUI modules, row kinds, section ids, and visible copy (SESSI
 ## Dependencies
 
 - **Depends on:** [sase-1ab.3](sase-1ab.3.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1ab.7](sase-1ab.7.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1ab.7](sase-1ab.7.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -39,3 +39,15 @@ tui-cutover: rename TUI modules, row kinds, section ids, and visible copy (SESSI
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d4c7b5c`](https://github.com/sase-org/sase/commit/d4c7b5ca9a66b61ae6d73f9c13e1e13c5cbcc418) | fix(ace-tui): repair bulk kill after named\_proc rename and rebaseline turn surfaces | [sase-1ab.4](sase-1ab.4.md) | 2026-09-26 20:55:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.4--3][1] | verify status and notes before recording follow-ups and closing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.4.md
+
+<!-- sase:referenced-by:end -->
