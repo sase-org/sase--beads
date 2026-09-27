@@ -7,6 +7,18 @@
 **Created:** 2026-09-27 14:53:02 EDT
 **Plan:** [202609/deck\_views\_landing\_remainder.md](https://github.com/sase-org/sase--plans/blob/main/202609/deck_views_landing_remainder.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/deck_views_landing_remainder.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/deck_views_landing_remainder.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Finish the work the sase-1b1 (deck views) land agent found before that epic can close. Re-apply its uncommitted integration fixes so master is green for deck views. Bring `P` view transitions within the D10 budgets, or put the documented, measured mitigation in place. Perform the never-run live wide/narrow drive of the deck-view badge and cycle.

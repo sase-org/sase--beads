@@ -14,7 +14,7 @@ live-verify: drive the real TUI with sase screenshot at wide and narrow widths (
 ## Dependencies
 
 - **Depends on:** [sase-1b1.8.1](sase-1b1.8.1.md) ✓ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b1.8.2](sase-1b1.8.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b1.8.2](sase-1b1.8.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

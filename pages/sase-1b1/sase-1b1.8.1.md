@@ -34,3 +34,15 @@ integrate: move four keymap tests that remap actions onto the now-owned P key to
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`67c43d5`](https://github.com/sase-org/sase/commit/67c43d5746db2412d88ca57d4860d00239699a09) | feat(decks): re-apply sase-1b1 landing integration fixes (sase-1b1.8.1) | [sase-1b1.8.1](sase-1b1.8.1.md) | 2026-09-27 15:23:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1b1.8.1--1][1] | Need phase scope and design | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.1.md
+
+<!-- sase:referenced-by:end -->
