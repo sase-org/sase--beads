@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.1/README.md) | [sase-19i.7.3.3.3.3.1](sase-19i.7.3.3.3.3.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.2.md) | [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.3.1.md) | [sase-19i.7.3.3.3.3.3.1](sase-19i.7.3.3.3.3.3.1.md) | 1 |
-| [bbugyi200.athena.sase-19i.7.3.3.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.3.2/README.md) | [sase-19i.7.3.3.3.3.3.2](sase-19i.7.3.3.3.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.3.2/README.md) | [sase-19i.7.3.3.3.3.3.2](sase-19i.7.3.3.3.3.3.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.3.land/README.md) | [sase-19i.7.3.3.3.3.3](sase-19i.7.3.3.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.land/README.md) | [sase-19i.7.3.3.3.3](sase-19i.7.3.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.land.md) | [sase-19i.7.3.3.3](sase-19i.7.3.3.3.md) | 0 |
@@ -165,6 +165,7 @@ flowchart TD
 | sase | [`215eb89`](https://github.com/sase-org/sase/commit/215eb89f41d90d97bd3eb708510ed8886beca335) | perf(tui): optimize snapshot-body node finder warm snapshot path | [sase-19i.7.3.3.3.3.1](sase-19i.7.3.3.3.3.1.md) | 2026-09-26 19:40:51 EDT |
 | sase | [`d5387e1`](https://github.com/sase-org/sase/commit/d5387e15d9397084e72ba99cf0fe907c41a9445d) | perf(tui): finish first-paint drain for node finder open p95 budget | [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) | 2026-09-26 21:45:45 EDT |
 | sase | [`d9a1f03`](https://github.com/sase-org/sase/commit/d9a1f037c4c5d1ba91a1510663b323c179be5281) | test(finder): pin Node Finder age clock in visual goldens | [sase-19i.7.3.3.3.3.3.1](sase-19i.7.3.3.3.3.3.1.md) | 2026-09-27 16:06:02 EDT |
+| sase | [`092fb8b`](https://github.com/sase-org/sase/commit/092fb8bf106f624d63a6fa419e816095fce48fe8) | fix(ace): release node-finder modal per-open state on unmount | [sase-19i.7.3.3.3.3.3.2](sase-19i.7.3.3.3.3.3.2.md) | 2026-09-27 16:11:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

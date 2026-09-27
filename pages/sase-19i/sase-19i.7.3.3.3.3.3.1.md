@@ -30,3 +30,15 @@ finder-goldens: pin the unpinned local_now read in node_finder_rendering for the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d9a1f03`](https://github.com/sase-org/sase/commit/d9a1f037c4c5d1ba91a1510663b323c179be5281) | test(finder): pin Node Finder age clock in visual goldens | [sase-19i.7.3.3.3.3.3.1](sase-19i.7.3.3.3.3.3.1.md) | 2026-09-27 16:06:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.3.3.3.3.1--1][1] | Need phase scope and design for close decision | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.3.1.md
+
+<!-- sase:referenced-by:end -->
