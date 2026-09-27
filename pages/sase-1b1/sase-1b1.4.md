@@ -36,7 +36,7 @@ The full shared rules are in the NOTES on epic sase-1b1.
 ## Dependencies
 
 - **Depends on:** [sase-1b1.2](sase-1b1.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b1.5](sase-1b1.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.5](sase-1b1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

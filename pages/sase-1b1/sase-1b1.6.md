@@ -17,7 +17,7 @@ verify: add new deck-view PNG scenarios and inspect live screenshots at wide and
 
 ## Dependencies
 
-- **Depends on:** [sase-1b1.5](sase-1b1.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b1.5](sase-1b1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

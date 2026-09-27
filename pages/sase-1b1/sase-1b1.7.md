@@ -17,7 +17,7 @@ docs: document deck views, the badge legend, P, palette reset, persistence, and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1b1.5](sase-1b1.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b1.5](sase-1b1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

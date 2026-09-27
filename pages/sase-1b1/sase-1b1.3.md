@@ -22,7 +22,7 @@ files-engine: make fixed Files views skip or complete the spread probe. Add a co
 ## Dependencies
 
 - **Depends on:** [sase-1b1.2](sase-1b1.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b1.5](sase-1b1.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.5](sase-1b1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
