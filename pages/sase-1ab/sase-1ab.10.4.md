@@ -13,7 +13,7 @@ pin-bump: move sase-core-revision.txt to the landed flip commit, bump the Python
 
 ## Dependencies
 
-- **Depends on:** [sase-1ab.10.3](sase-1ab.10.3.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1ab.10.3](sase-1ab.10.3.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1ab.10.6](sase-1ab.10.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ab.10](sase-1ab.10.md) / sase-1ab.10.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1ab.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.land.md) · **Assignee:** `sase-1ab.10.3` · **Size:** medium
-**Created:** 2026-09-27 08:44:30 EDT
+**Created:** 2026-09-27 08:44:30 EDT · **Closed:** 2026-09-27 11:57:43 EDT
 **Plan:** [202609/sase\_turn\_rename\_finish.md](https://github.com/sase-org/sase--plans/blob/main/202609/sase_turn_rename_finish.md)
 
 ## Description
@@ -19,6 +19,12 @@ core-flip: re-apply the orphaned contract-flip diff onto current sase-core maste
 
 [2026-09-27T14:22:34Z · sase-1ab.10.3] PROPOSED FOLLOW-UP: gateway test fleet_launch_replays_delayed_launch_and_reconciles_visible_row failed once under full sase-core check with Timeout("snapshot_refresh") then passed alone and on full re-run; matches known flake bead sase-15g, not the flip. No action.
 
+[2026-09-27T15:16:30Z · sase-1ab.10.3--1] PROPOSED FOLLOW-UP: sase-against-new-core triage (monitor nh6xmnwdtnvv, tool run 883d8e1b3109f0ed6483a64dc4c52ebd): 11 flip-caused failures fixed dual-core-compatibly in sase (index-35 reader, fleet-protocol 2/3 handshake, contract 6/7 pin, turn-spelling normalization tolerance) — see close note. Remaining 16 failures + 54 symvision are base-identical (sase tree was clean): finish.md KNOWN covers config-schema receipt key (1ah), kind-coverage receipt slots (1ah), header overflow (1b8), import budget (13p), grok wording (1as), timezone guard (1b2), history-wire 33-pins (1b2), symvision backlog (1ay); not on that list but equally base-identical: completion snapshot drift x2, turn-terminology shell mentions, prompts-overlay trash count, deck FINAL catalog/spread/card, marker-path audit. Suggest routing those to the acceptance sweep or their owning beads.
+
+[2026-09-27T15:53:58Z · sase-1ab.10.3--2] PROPOSED FOLLOW-UP: d07 just-check triage flags tests/ace/tui/widgets/test_agent_header_panel.py::test_expanded_overflowing_header_claims_half_page_scroll as NEW (no owner), but it is KNOWN: finish.md routes this exact node to sase-1b8, and it fails identically on the clean base tree (verified via git stash + single-test rerun this turn: deck_scroll.scroll_y 2.0 vs 0.0 with zero sase changes applied). Not flip-caused; leave for sase-1b8/acceptance sweep.
+
+[2026-09-27T15:57:43Z · sase-1ab.10.3--2] Core flip landed via accepted final declaration (sase-core feat!: shell->turn, origin/master was 2fb5c57; flip commits on top. sase: dual-core-compat fixes). Verified: sase-core sase tool run check GREEN (run d37e90668c98db167855137ce1c5ffb8); sase just check (tool run 8d22afae1bf67c400c1182c86ce37be7): 9918 passed, remaining failures all KNOWN/base-identical per finish.md (1b2 timezone+history pins, 1ah-class, 1b8 header, 1ay symvision, terminology) incl. header proven base-identical via stash rerun this turn; the one self-inflicted machine_service handshake failure fixed (test now expects [2,3]) and rerun green (9 passed). sase-core-revision.txt untouched (sase-1ab.10.4 owns the pin bump).
+
 ## Dependencies
 
 - **Depends on:** [sase-1ab.10.1](sase-1ab.10.1.md) ✓ · ⧖ 2026-09-27
@@ -29,4 +35,10 @@ core-flip: re-apply the orphaned contract-flip diff onto current sase-core maste
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 0 |
+| [bbugyi200.athena.sase-1ab.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.3.md) | [sase-1ab.10.3](sase-1ab.10.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`650c313`](https://github.com/sase-org/sase/commit/650c313b715880b2ffb0d7337d0a92b39381c21f) | feat(contracts): negotiate flipped sase-core contracts dual-core-compatibly | [sase-1ab.10.3](sase-1ab.10.3.md) | 2026-09-27 11:59:46 EDT |

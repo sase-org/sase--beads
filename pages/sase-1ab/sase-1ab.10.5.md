@@ -34,3 +34,15 @@ vocab-sweep: rename the deferred shell-followup/shell-member cluster, rewrite th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`aa73c2c`](https://github.com/sase-org/sase/commit/aa73c2c5976fdd2ef421ad09678250e5cfdc4f42) | feat(turn-rename): finish turn vocabulary sweep in source | [sase-1ab.10.5](sase-1ab.10.5.md) | 2026-09-27 10:35:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.10.5--1][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.10.5.md
+
+<!-- sase:referenced-by:end -->

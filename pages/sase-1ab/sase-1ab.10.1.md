@@ -23,7 +23,7 @@ reader-repair: fix the durable readers the runtime cutover corrupted (the agent_
 
 ## Dependencies
 
-- **Blocks:** [sase-1ab.10.3](sase-1ab.10.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1ab.10.3](sase-1ab.10.3.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1ab.10.5](sase-1ab.10.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
