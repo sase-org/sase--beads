@@ -17,7 +17,7 @@ rail-vocabulary: add one pure module that owns the rail geometry constants, the 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bn.3](sase-1bn.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bn.3](sase-1bn.3.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bn.6](sase-1bn.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents

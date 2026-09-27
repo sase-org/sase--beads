@@ -20,4 +20,4 @@ zoom-chrome: DeckArea marks the zoomed panel -zoomed with ZoomChrome context. Th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1bn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.4/README.md) | [sase-1bn.4](sase-1bn.4.md) | 0 |
+| [bbugyi200.apollo.sase-1bn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.4.md) | [sase-1bn.4](sase-1bn.4.md) | 0 |
