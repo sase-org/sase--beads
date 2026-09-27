@@ -28,7 +28,7 @@ scope-stage: cache the tab-independent query result and add the active-tab scope
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.1](sase-1bc.6.1.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -41,3 +41,15 @@ scope-stage: cache the tab-independent query result and add the active-tab scope
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`59f5eff`](https://github.com/sase-org/sase/commit/59f5eff1660acfb36c8eaa040c7e6a4fcd71ee59) | feat(agent-tabs): active-tab scope stage and tab-keyed panel state (sase-1bc.6.1.2) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 2026-09-27 16:53:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.6.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

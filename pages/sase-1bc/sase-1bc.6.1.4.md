@@ -13,7 +13,7 @@ cross-tab-nav: add one switch-then-reveal helper and route every agent-revealing
 
 ## Dependencies
 
-- **Depends on:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
