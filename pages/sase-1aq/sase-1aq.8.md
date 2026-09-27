@@ -29,7 +29,9 @@ deferred_memory: publish the two authorized reference updates and close their ta
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0sz][1] | Identify remote-dispatch epic blocking chain and last progress | 1 |
+| read-by | [agent:sase-1aq.10.7.5.6][2] | dispatch_memory close audit | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.0sz/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md
 
 <!-- sase:referenced-by:end -->

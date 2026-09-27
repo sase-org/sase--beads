@@ -39,7 +39,9 @@ parity_capture: capture matched Apollo owner and Athena machine:apollo Agents pa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1aq.10.7.5.5][1] | ancestor_landing audit: cite parity evidence for close notes | 1 |
+| read-by | [agent:sase-1aq.10.7.5.6][2] | dispatch_memory needs prior phase outcomes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md
 
 <!-- sase:referenced-by:end -->

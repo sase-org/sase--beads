@@ -48,7 +48,9 @@ ancestor_landing: land the sase-xe and sase-133 ancestor chains bottom-up with f
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1aq.10.7.5.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1aq.10.7.5.6][2] | dispatch_memory needs prior phase outcomes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md
 
 <!-- sase:referenced-by:end -->

@@ -25,10 +25,23 @@ dispatch_memory: publish the sase-ya dispatch reference note, then close sase-ya
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1aq.10.7.5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md) | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md) | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`19abe26`](https://github.com/sase-org/sase/commit/19abe261d428a4a28c9912f0ac5840764342c8af) | docs(memory): publish dispatch reference note and %dispatch directive row | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:49:15 EDT |
+| sase--plans | [`sase--plans@4e64aac`](https://github.com/sase-org/sase--plans/commit/4e64aac207511122fa29002e8489301f7238887d) | chore(plans): mark close\_memory\_bead\_backlog plan done | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:52:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -147,7 +147,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.7.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.3/README.md) | [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.4/README.md) | [sase-1aq.10.7.5.4](sase-1aq.10.7.5.4.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md) | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 1 |
-| [bbugyi200.apollo.sase-1aq.10.7.5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md) | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.6/README.md) | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.land/README.md) | [sase-1aq.10.7.5](sase-1aq.10.7.5.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.land.md) | [sase-1aq.10.7](sase-1aq.10.7.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.land.md) | [sase-1aq.10](sase-1aq.10.md) | 0 |
@@ -166,6 +166,7 @@ flowchart TD
 | sase-core | [`sase-core@b57cd21`](https://github.com/sase-org/sase-core/commit/b57cd21315a24175dcd1bc866d5a2abe526d9f29) | feat(fleet): settle exact mutate receipts, overlay fresh launches, retain killed rows | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2026-09-26 22:56:25 EDT |
 | sase--plans | [`sase--plans@8ddd920`](https://github.com/sase-org/sase--plans/commit/8ddd920da7f8ff61cb40c214e9dc46ca9b915218) | chore(plans): mark dispatch and parity epic plans done after ancestor landing | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 2026-09-27 00:11:00 EDT |
 | sase | [`19abe26`](https://github.com/sase-org/sase/commit/19abe261d428a4a28c9912f0ac5840764342c8af) | docs(memory): publish dispatch reference note and %dispatch directive row | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:49:15 EDT |
+| sase--plans | [`sase--plans@4e64aac`](https://github.com/sase-org/sase--plans/commit/4e64aac207511122fa29002e8489301f7238887d) | chore(plans): mark close\_memory\_bead\_backlog plan done | [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) | 2026-09-27 00:52:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
