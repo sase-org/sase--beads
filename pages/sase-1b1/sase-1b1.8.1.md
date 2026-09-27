@@ -21,7 +21,7 @@ integrate: move four keymap tests that remap actions onto the now-owned P key to
 
 ## Dependencies
 
-- **Blocks:** [sase-1b1.8.3](sase-1b1.8.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.8.3](sase-1b1.8.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

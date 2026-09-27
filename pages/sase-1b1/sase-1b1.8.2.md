@@ -36,7 +36,7 @@ PROPOSED FOLLOW-UP: pre-existing check reds unrelated to this phase — symvisio
 
 ## Dependencies
 
-- **Blocks:** [sase-1b1.8.3](sase-1b1.8.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.8.3](sase-1b1.8.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -49,3 +49,15 @@ PROPOSED FOLLOW-UP: pre-existing check reds unrelated to this phase — symvisio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`80fbe70`](https://github.com/sase-org/sase/commit/80fbe7020219c681a8f6bb2892f935b17b9827a4) | feat(deck-views): badge-first P transitions within D10 budgets (sase-1b1.8.2) | [sase-1b1.8.2](sase-1b1.8.2.md) | 2026-09-27 16:15:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bd.5.land][1] | Need the phase that added the cross-module private import | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bd.5.land/README.md
+
+<!-- sase:referenced-by:end -->

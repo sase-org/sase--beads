@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/deck_views.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/deck_views.md
 
@@ -87,6 +87,8 @@ FOLLOW-UP TRIAGE (done):
   - Memory README token drift and 9 test_agent_completion failures from 372ecc97c3: DISCOVERED ISSUE on sase-1bc.
 - R1 (extend deck views to FINAL) is still open. Whichever of sase-1b1 / sase-1b2 closes second records it.
 
+[2026-09-27T22:28:27Z · sase-1b2.land] R1 HANDOFF (sase-1b2.land): sase-1b2 is closing before sase-1b1, so per shared rule R1 sase-1b1's landing now owns filing 'PROPOSED FOLLOW-UP: extend deck views (policy, badge, P) to the FINAL deck'. Verified on master c78eb3805: FINAL shows no badge and P is unavailable there (test_final_panel_shows_no_badge_and_no_cycle passes), and DeckPanelState keeps both preferred_cards and views. sase-1b2 did not touch the two stale ace_final_deck overrides (test_final_panel_decoded_to_main_keeps_views, the dead override in test_deck_view_main_pilot.py) or the six agents_deck_view goldens, because sase-1b1.8.4.1/.2 own them.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -114,7 +116,10 @@ flowchart TD
     n8["sase-1b1.8: Deck views landing remainder: integration fixes, P-transition budgets, and the live check [in_progress]"]
     n9["sase-1b1.8.1: Re-apply the sase-1b1 landing integration fixes [closed]"]
     n10["sase-1b1.8.2: Bring P view transitions within the D10 budgets or a measured guard [closed]"]
-    n11["sase-1b1.8.3: Live wide/narrow drive of deck views and the acceptance checklist [in_progress]"]
+    n11["sase-1b1.8.3: Live wide/narrow drive of deck views and the acceptance checklist [closed]"]
+    n12["sase-1b1.8.4: Deck views landing fixes: badge-first prebuilt paint fidelity, FINAL-flag test drift, and golden rebaseline [in_progress]"]
+    n13["sase-1b1.8.4.1: Make prebuilt deferred bodies match the synchronous render and re-apply the landing edits [closed]"]
+    n14["sase-1b1.8.4.2: Rebaseline and inspect the six agents_deck_view goldens [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -126,6 +131,9 @@ flowchart TD
     n8 --> n9
     n8 --> n10
     n8 --> n11
+    n8 --> n12
+    n12 --> n13
+    n12 --> n14
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -135,6 +143,7 @@ flowchart TD
     n5 -.-> n7
     n9 -.-> n11
     n10 -.-> n11
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -151,7 +160,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1b1.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.1.md) | [sase-1b1.8.1](sase-1b1.8.1.md) | 1 |
 | [bbugyi200.athena.sase-1b1.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.2.md) | [sase-1b1.8.2](sase-1b1.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1b1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.3/README.md) | [sase-1b1.8.3](sase-1b1.8.3.md) | 0 |
-| [bbugyi200.athena.sase-1b1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.land/README.md) | [sase-1b1.8](sase-1b1.8.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.1/README.md) | [sase-1b1.8.4.1](sase-1b1.8.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1b1.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.2/README.md) | [sase-1b1.8.4.2](sase-1b1.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.8.4.land/README.md) | [sase-1b1.8.4](sase-1b1.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1b1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.8.land.md) | [sase-1b1.8](sase-1b1.8.md) | 0 |
 | [bbugyi200.athena.sase-1b1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.land.md) | [sase-1b1](README.md) | 0 |
 
 ## Commits
@@ -167,6 +179,7 @@ flowchart TD
 | sase | [`5cafbcb`](https://github.com/sase-org/sase/commit/5cafbcb53f1b6b9c300cc29c25136eee95abc8d7) | feat(deck-views): verify badges, goldens, and forced-spread benchmarks (sase-1b1.6) | [sase-1b1.6](sase-1b1.6.md) | 2026-09-27 13:10:23 EDT |
 | sase | [`67c43d5`](https://github.com/sase-org/sase/commit/67c43d5746db2412d88ca57d4860d00239699a09) | feat(decks): re-apply sase-1b1 landing integration fixes (sase-1b1.8.1) | [sase-1b1.8.1](sase-1b1.8.1.md) | 2026-09-27 15:23:50 EDT |
 | sase | [`80fbe70`](https://github.com/sase-org/sase/commit/80fbe7020219c681a8f6bb2892f935b17b9827a4) | feat(deck-views): badge-first P transitions within D10 budgets (sase-1b1.8.2) | [sase-1b1.8.2](sase-1b1.8.2.md) | 2026-09-27 16:15:28 EDT |
+| sase | [`b9cfa73`](https://github.com/sase-org/sase/commit/b9cfa7386327e484ee600a8ba2a578f0a042292b) | feat(decks): match prebuilt deferred Main bodies to the synchronous render | [sase-1b1.8.4.1](sase-1b1.8.4.1.md) | 2026-09-27 18:40:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -175,7 +188,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c.r0][1] | Reviewing the sase-1b1 epic to write a value-added research report | 1 |
+| read-by | [agent:research.2s.final][2] | Verify status of epic cited in Goals epic-split reports | 1 |
+| read-by | [agent:research.2t.final][3] | Check status of epics that gate or overlap sase tool TUI surfaces (E5) for the consolidated research sequencing | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c.r0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2t.final/README.md
 
 <!-- sase:referenced-by:end -->
