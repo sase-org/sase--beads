@@ -17,7 +17,7 @@ final-docs: document the FINALIZING row phase, chips, receipts, the FINAL deck, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1b2.19](sase-1b2.19.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.19](sase-1b2.19.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

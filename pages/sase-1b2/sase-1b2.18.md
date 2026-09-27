@@ -20,7 +20,7 @@ final-live: add the ace.agent_decks.final_tail_delay_seconds gate and a sanitize
 ## Dependencies
 
 - **Depends on:** [sase-1b2.17](sase-1b2.17.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b2.19](sase-1b2.19.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.19](sase-1b2.19.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -41,7 +41,9 @@ final-live: add the ace.agent_decks.final_tail_delay_seconds gate and a sanitize
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+| read-by | [agent:sase-1b2.18][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md
 
 <!-- sase:referenced-by:end -->

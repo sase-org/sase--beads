@@ -56,6 +56,12 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 
 [2026-09-27T14:33:17Z · sase-1b6.land] DISCOVERED ISSUE: sase-1b6.1 (2026-09-27) hit 2 clippy-1.95.0 -D warnings denies in crates/sase_core/src/finalizer/run_view/decode.rs (added by f52fa7c sase-1b2.2 / e53d7a5 sase-1b2.3) while running sase tool run check in sase-core; reproduced on clean base via ./scripts/check.sh clippy. Umbrella pre-existing-clippy task is sase-1an (+1 recorded); the decode.rs lints are this epic's to clear before landing.
 
+[2026-09-27T18:43:17Z · sase-1b1.land] DISCOVERED ISSUE (sase-1b1.land, sase master 372ecc97c3, full lane of `sase tool run -k check` run 81ef0cb11e86e4cdaaa8b70cfeb11615): four master-red items trace to this epic's commits. Item (1) reproduces identically with the sase-1b1 landing diff stashed; (2) and (3) live in files that diff does not touch.
+(1) FINAL deck tests fail deterministically (serial and parallel): tests/ace/tui/widgets/decks/test_card_document_view.py::test_card_document_decks_is_main_only (assert CARD_DOCUMENT_DECKS == (MAIN,), but 482ec80ff9 sase-1b2.14 added FINAL); tests/ace/tui/widgets/decks/test_deck_picker.py::test_picker_catalog_covers_every_deck (set(DECK_PICKER_KEYS) != set(DECK_CYCLE) once FINAL registers); tests/ace/tui/widgets/decks/final/test_final_live.py::test_slow_retrying_finalizer_projects_active_tail_end_to_end (instance.attempts == [] instead of [(1,'failed'),(2,'running')]).
+(2) tests/ace/tui/test_app_import_budget.py fails on module count, not CPU: 3405 >= _MAX_MODULE_COUNT 3400, deterministic. The finalizer package enters the TUI startup closure through src/sase/ace/tui/models/finalizer_row_state.py:16 (5dac33451a, sase-1b2.8), reached via prompt_panel._agent_display_clan_identity -> _agent_list_render_agent_status; about 60 sase.finalizers.* / commit_finalizer_* modules load at app import. Deferring that import (or trimming the chain) is the fix; sase-1b1 adds only 2 startup modules. Distinct from sase-1ai (CPU-time flake).
+(3) symvision unused publics from this epic's modules: RunView* and run_view_*_from_dict in src/sase/core/finalizer_run_view.py plus runner_identity_from_mapping in src/sase/finalizers/run_view_inputs.py (65c016a897); format_run_duration, run_duration_seconds, run_start_time, run_status_bucket in decks/final/run_blocks.py (01994b5299); DeckSpec in decks/spec.py (88fee8ce3d, sase-1b2.9); cap_text, choose_headline, journal_path (beb1db054d); latest_step_summary, read_steps_tail (7b20f4c1c2); operation_filename (d3493f71ae); run_phase_style (5dac33451a, sase-1b2.8); FinalStatusError in src/sase/finalizers/cli.py (a0b25eea56, sase-1b2.13). The non-finalizer reds are tracked in sase-1ay.
+(4) R1 status: sase-1b1 has NOT closed yet. Its landing found remaining epic work (D10 P-transition budgets, live wide/narrow drive) and hands off to a child plan, so whichever epic closes second still owns `PROPOSED FOLLOW-UP: extend deck views (policy, badge, P) to the FINAL deck`. On master, FINAL shows no badge and P is unavailable there (test_deck_view_main_pilot.py::test_final_panel_shows_no_badge_and_no_cycle passes).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -70,7 +76,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.16](sase-1b2.16.md) | Generic instance cards with commit and command enrichers | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.17](sase-1b2.17.md) | One card block per run on session containers | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ✓ closed | medium | 2026-09-27 | 1 | 1 |
@@ -96,7 +102,7 @@ flowchart TD
     n8["sase-1b2.16: Generic instance cards with commit and command enrichers [closed]"]
     n9["sase-1b2.17: One card block per run on session containers [closed]"]
     n10["sase-1b2.18: Live tails, following, and the 1 Hz tick for the selected agent [closed]"]
-    n11["sase-1b2.19: Remove the flag, add goldens, inspect live, and bench [in_progress]"]
+    n11["sase-1b2.19: Remove the flag, add goldens, inspect live, and bench [closed]"]
     n12["sase-1b2.2: FinalizerNodeView projection - decoders, precedence, and selection [closed]"]
     n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [in_progress]"]
     n14["sase-1b2.3: FinalizerNodeView detail - attempts, operations, evidence, and runs [closed]"]
@@ -166,7 +172,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md) | [sase-1b2.16](sase-1b2.16.md) | 1 |
 | [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 1 |
 | [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 1 |
-| [bbugyi200.athena.sase-1b2.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md) | [sase-1b2.19](sase-1b2.19.md) | 0 |
+| [bbugyi200.athena.sase-1b2.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md) | [sase-1b2.19](sase-1b2.19.md) | 1 |
 | [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 1 |
 | [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.20/README.md) | [sase-1b2.20](sase-1b2.20.md) | 0 |
 | [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 1 |
@@ -200,6 +206,7 @@ flowchart TD
 | sase | [`e75840b`](https://github.com/sase-org/sase/commit/e75840b0c9f665a7b22b6bbd2a107f17e63df89d) | feat(final-deck): add Overview card widget with document deck and tests | [sase-1b2.15](sase-1b2.15.md) | 2026-09-27 10:46:48 EDT |
 | sase | [`01994b5`](https://github.com/sase-org/sase/commit/01994b5299f28f6076de73ae17dd0f41985085bd) | feat(final-deck): one card block per run on session containers | [sase-1b2.17](sase-1b2.17.md) | 2026-09-27 11:19:32 EDT |
 | sase | [`ed0b66f`](https://github.com/sase-org/sase/commit/ed0b66f7b8e02100edbb351d7912f8425ee34cf8) | feat(final-deck): add gated 1 Hz live tail for actively-finalizing nodes | [sase-1b2.18](sase-1b2.18.md) | 2026-09-27 12:27:48 EDT |
+| sase | [`2d8f2f0`](https://github.com/sase-org/sase/commit/2d8f2f0566c876b347c06e6ffb53b8afa20e930b) | feat(ace): remove ace\_final\_deck flag and ship FINAL deck always-on | [sase-1b2.19](sase-1b2.19.md) | 2026-09-27 16:16:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
