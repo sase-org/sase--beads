@@ -24,6 +24,12 @@ telegram: move sase-telegram tests and docstrings to the renamed sase gate-turn 
 - **Depends on:** [sase-1ab.3](sase-1ab.3.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1ab.7](sase-1ab.7.md) ✓ · ⧖ 2026-09-26
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

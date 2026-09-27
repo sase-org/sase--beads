@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/sase_turn_rename.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1ay][2] | Four of the 13 symbols live in legacy_sase_shell_syntax.py from sase-1ab.3; coordinate with the rename epic and flag bead sase-1ar |
 
 _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/sase_turn_rename.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ay/README.md
 
 <!-- sase:links:end -->
 
@@ -51,19 +53,21 @@ The private-import half of notes #1, #3, and #4 is repaired in acbd5999a. legacy
 
 [2026-09-27T01:54:33Z · sase-1au.6.land] DISCOVERED ISSUE: proposed by sase-1au.6.3 note #1 and reproduced at master b9f53067b1 during the sase-1au.6 landing. .venv/bin/mypy src/sase/ace/tui/widgets/prompt_panel/_agent_display_hint_sections.py reports [name-defined] at line 74: LEGACY_NAMED_PROC_SECTION_ID is not defined (mypy suggests NAMED_PROC_SECTION_ID). The constant is defined in _agent_named_proc_section.py and used here without an import, so render_named_proc_hint_document raises NameError when lane_fold_overrides is a Mapping. git blame attributes lines 71-75 to d4c7b5ca9a (sase-1ab.4). This is rename fallout, not Prompts-overlay work; no separate task.
 
+[2026-09-27T06:12:59Z · sase-1aq.10.7.5.land] Corroboration (sase-1aq.10.7.5.land, 2026-09-27): LEGACY_NAMED_PROC_SECTION_ID [name-defined] at src/sase/ace/tui/widgets/prompt_panel/_agent_display_hint_sections.py:74 is still red at master 19abe261d4 (ToolRun 109aa65ee68b1d6365d33d297620dfab), also proposed by sase-1aq.10.7.5.1 note #1. The same run's 48 test-scoped failures (turns/shells marker audits, proc parser/runtime, keybinding footer 'shell' digits, proc_wire_schema_version binding) reproduce on the clean tree and are rename fallout.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ab.1](sase-1ab.1.md) | sase-core additive rename | ✓ closed | large | 2026-09-26 | 0 | 0 |
+| [sase-1ab.1](sase-1ab.1.md) | sase-core additive rename | ✓ closed | large | 2026-09-26 | 1 | 0 |
 | [sase-1ab.2](sase-1ab.2.md) | Python persistence and wire cutover | ✓ closed | large | 2026-09-26 | 1 | 2 |
 | [sase-1ab.3](sase-1ab.3.md) | Runtime, syntax, and CLI cutover | ✓ closed | large | 2026-09-26 | 1 | 1 |
 | [sase-1ab.4](sase-1ab.4.md) | TUI turn surfaces | ✓ closed | large | 2026-09-26 | 1 | 1 |
 | [sase-1ab.5](sase-1ab.5.md) | Documentation and memory | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ab.6](sase-1ab.6.md) | sase-telegram cutover | ✓ closed | small | 2026-09-26 | 0 | 0 |
+| [sase-1ab.6](sase-1ab.6.md) | sase-telegram cutover | ✓ closed | small | 2026-09-26 | 1 | 0 |
 | [sase-1ab.7](sase-1ab.7.md) | sase-core contract flip | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [sase-1ab.8](sase-1ab.8.md) | Core pin bump and mirrors | ◐ in_progress | medium | 2026-09-26 | 0 | 0 |
-| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-26 | 0 | 0 |
+| [sase-1ab.8](sase-1ab.8.md) | Core pin bump and mirrors | ✓ closed | medium | 2026-09-26 | 1 | 1 |
+| [sase-1ab.9](sase-1ab.9.md) | Cross-repo audit, guardrail, and deploy | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
 
@@ -82,7 +86,7 @@ flowchart TD
     n10["sase-1ab.5: Documentation and memory [closed]"]
     n11["sase-1ab.6: sase-telegram cutover [closed]"]
     n12["sase-1ab.7: sase-core contract flip [closed]"]
-    n13["sase-1ab.8: Core pin bump and mirrors [in_progress]"]
+    n13["sase-1ab.8: Core pin bump and mirrors [closed]"]
     n14["sase-1ab.9: Cross-repo audit, guardrail, and deploy [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -117,6 +121,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.sase-1ab.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.1.md) | [sase-1ab.1](sase-1ab.1.md) | 0 |
 | [bbugyi200.athena.sase-1ab.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.1/README.md) | [sase-1ab.1.1.1](sase-1ab.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.2/README.md) | [sase-1ab.1.1.2](sase-1ab.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1ab.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.1.1.3/README.md) | [sase-1ab.1.1.3](sase-1ab.1.1.3.md) | 1 |
@@ -126,7 +131,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1ab.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.3.md) | [sase-1ab.3](sase-1ab.3.md) | 1 |
 | [bbugyi200.athena.sase-1ab.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.4.md) | [sase-1ab.4](sase-1ab.4.md) | 1 |
 | [bbugyi200.athena.sase-1ab.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.5.md) | [sase-1ab.5](sase-1ab.5.md) | 1 |
+| [bbugyi200.athena.sase-1ab.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.6/README.md) | [sase-1ab.6](sase-1ab.6.md) | 0 |
 | [bbugyi200.athena.sase-1ab.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.7.md) | [sase-1ab.7](sase-1ab.7.md) | 1 |
+| [bbugyi200.athena.sase-1ab.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.8/README.md) | [sase-1ab.8](sase-1ab.8.md) | 1 |
+| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.9/README.md) | [sase-1ab.9](sase-1ab.9.md) | 0 |
+| [bbugyi200.athena.sase-1ab.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.land/README.md) | [sase-1ab](README.md) | 0 |
 
 ## Commits
 
@@ -143,6 +152,7 @@ flowchart TD
 | sase | [`63d2bdc`](https://github.com/sase-org/sase/commit/63d2bdceac0b421ee53528a351b2105bdcb77d9d) | docs(sase-1ab.5): rename shell concepts to turn and named-proc terminology | [sase-1ab.5](sase-1ab.5.md) | 2026-09-26 14:49:59 EDT |
 | sase | [`d4c7b5c`](https://github.com/sase-org/sase/commit/d4c7b5ca9a66b61ae6d73f9c13e1e13c5cbcc418) | fix(ace-tui): repair bulk kill after named\_proc rename and rebaseline turn surfaces | [sase-1ab.4](sase-1ab.4.md) | 2026-09-26 20:55:51 EDT |
 | sase | [`55e9e96`](https://github.com/sase-org/sase/commit/55e9e96decd7e1bf8f9e2524994597a80cd73e56) | feat(turn-rename): accept sase-core contract-flip spellings and schemas dual-compatibly | [sase-1ab.7](sase-1ab.7.md) | 2026-09-26 22:58:52 EDT |
+| sase | [`25a7bd2`](https://github.com/sase-org/sase/commit/25a7bd24fef6553c4b27a19dbbf916ab9ac20c98) | fix(procs): restore legacy proc-shell readers corrupted by rename | [sase-1ab.8](sase-1ab.8.md) | 2026-09-27 06:17:52 EDT |
 
 <!-- sase:referenced-by:start -->
 

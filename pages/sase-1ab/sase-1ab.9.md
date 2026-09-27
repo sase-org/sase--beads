@@ -14,4 +14,10 @@ audit-deploy: add the sase-turn terminology guard test, sweep and classify every
 ## Dependencies
 
 - **Depends on:** [sase-1ab.5](sase-1ab.5.md) ✓ · ⧖ 2026-09-26
-- **Depends on:** [sase-1ab.8](sase-1ab.8.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1ab.8](sase-1ab.8.md) ✓ · ⧖ 2026-09-26
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1ab.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ab.9/README.md) | [sase-1ab.9](sase-1ab.9.md) | 0 |
