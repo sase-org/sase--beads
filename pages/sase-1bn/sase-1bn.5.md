@@ -13,7 +13,7 @@ rail-wiring: RAIL mode shows the tribe lists in rail form at a fixed width. Focu
 
 ## Dependencies
 
-- **Depends on:** [sase-1bn.1](sase-1bn.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bn.1](sase-1bn.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bn.3](sase-1bn.3.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bn.7](sase-1bn.7.md) ◐ · ⧖ 2026-09-27
 

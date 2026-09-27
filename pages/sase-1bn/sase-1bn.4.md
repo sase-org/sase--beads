@@ -13,7 +13,7 @@ zoom-chrome: DeckArea marks the zoomed panel -zoomed with ZoomChrome context. Th
 
 ## Dependencies
 
-- **Depends on:** [sase-1bn.1](sase-1bn.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bn.1](sase-1bn.1.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bn.7](sase-1bn.7.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

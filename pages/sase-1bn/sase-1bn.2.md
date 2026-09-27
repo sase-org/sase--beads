@@ -31,3 +31,15 @@ rail-vocabulary: add one pure module that owns the rail geometry constants, the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`55e4bf7`](https://github.com/sase-org/sase/commit/55e4bf73b27bc7d3b4eecb4e1e7d75ddd85f5337) | fix(ace-tui): correct rail module panel-titles import path (sase-1bn.2) | [sase-1bn.2](sase-1bn.2.md) | 2026-09-27 18:25:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bn.2--1][1] | Need phase scope and design | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.2.md
+
+<!-- sase:referenced-by:end -->

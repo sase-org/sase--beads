@@ -27,7 +27,7 @@ Ctrl+S turns the Agents-tab node sidebar into a fixed-width, row-for-row node ra
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1bn.1](sase-1bn.1.md) | Three sidebar modes and the zoom state fixes | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bn.1](sase-1bn.1.md) | Three sidebar modes and the zoom state fixes | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bn.2](sase-1bn.2.md) | Pure node-rail vocabulary module | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bn.3](sase-1bn.3.md) | Paint-time rail projection inside AgentList | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bn.4](sase-1bn.4.md) | Structural zoom chrome on the zoomed deck panel | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -40,7 +40,7 @@ Ctrl+S turns the Agents-tab node sidebar into a fixed-width, row-for-row node ra
 ```mermaid
 flowchart TD
     n0["sase-1bn: Agents node rail and unmistakable deck zoom [in_progress]"]
-    n1["sase-1bn.1: Three sidebar modes and the zoom state fixes [in_progress]"]
+    n1["sase-1bn.1: Three sidebar modes and the zoom state fixes [closed]"]
     n2["sase-1bn.2: Pure node-rail vocabulary module [closed]"]
     n3["sase-1bn.3: Paint-time rail projection inside AgentList [in_progress]"]
     n4["sase-1bn.4: Structural zoom chrome on the zoomed deck panel [in_progress]"]
@@ -67,7 +67,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1bn.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.1.md) | [sase-1bn.1](sase-1bn.1.md) | 0 |
+| [bbugyi200.apollo.sase-1bn.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.1.md) | [sase-1bn.1](sase-1bn.1.md) | 1 |
 | [bbugyi200.apollo.sase-1bn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.2.md) | [sase-1bn.2](sase-1bn.2.md) | 1 |
 | [bbugyi200.apollo.sase-1bn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.3/README.md) | [sase-1bn.3](sase-1bn.3.md) | 0 |
 | [bbugyi200.apollo.sase-1bn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.4/README.md) | [sase-1bn.4](sase-1bn.4.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`55e4bf7`](https://github.com/sase-org/sase/commit/55e4bf73b27bc7d3b4eecb4e1e7d75ddd85f5337) | fix(ace-tui): correct rail module panel-titles import path (sase-1bn.2) | [sase-1bn.2](sase-1bn.2.md) | 2026-09-27 18:25:29 EDT |
+| sase | [`42bb50a`](https://github.com/sase-org/sase/commit/42bb50a80c7a5d25e3d8e49e4a2279ba775b120f) | feat(ace): three sidebar modes with zoom state fixes (sase-1bn.1) | [sase-1bn.1](sase-1bn.1.md) | 2026-09-27 18:42:27 EDT |
