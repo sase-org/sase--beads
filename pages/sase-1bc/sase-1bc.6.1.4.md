@@ -14,3 +14,9 @@ cross-tab-nav: add one switch-then-reveal helper and route every agent-revealing
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.4/README.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |

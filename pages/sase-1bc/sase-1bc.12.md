@@ -17,3 +17,9 @@ finish: delete the agent_tabs flag's Off branches and close its bead; finish the
 - **Depends on:** [sase-1bc.11](sase-1bc.11.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.8](sase-1bc.8.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.9](sase-1bc.9.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.12/README.md) | [sase-1bc.12](sase-1bc.12.md) | 0 |

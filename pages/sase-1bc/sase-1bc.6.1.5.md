@@ -14,3 +14,9 @@ scope-honesty: make bulk and cleanup confirmations name their scope (on <tab> or
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.3](sase-1bc.6.1.3.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 0 |

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_dynamic_tabs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_dynamic_tabs.md
 
 <!-- sase:links:end -->
@@ -23,22 +25,26 @@
 
 The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an agent's whole session, clan, or workflow on a named tab on every machine. Agents without a tab land on `main`, or on derived machine tabs (`⌨ local`, `⌨ <alias>`) when remotes are configured. The strip stays invisible until two tabs have agents, never hides something that needs you, and switches instantly. The `o`/`O` modal walks a Split → Merged → All tabs ladder. The whole feature is intuitive, reliable across machines and versions, and beautiful.
 
+## Notes
+
+[2026-09-27T18:47:10Z · sase-1b1.land] DISCOVERED ISSUE (sase-1b1.land, sase master 372ecc97c3): two master-red items trace to 372ecc97c3 (sase-1bc.4, %tab directive). (1) `sase validate` / `just check` stage 'SASE validation' fails at 'init memory --check': sase/memory/README.md needs +2 -2 (xprompts.md 'Approx. tokens' 2853 -> 2969 and total 20378 -> 20494). The commit edited xprompts.md and README.md but left the token counts stale; tests/main/test_init_memory_committed_drift.py::test_repo_project_memory_notes_match_generator_output also fails. Regenerate with `sase memory init` under /sase_memory_write rules. (2) tests/ace/tui/test_agent_completion.py goes from 14 passed on 372ecc97c3~1 to 9 failed / 5 passed on 372ecc97c3 in the same venv with sase-core-rs 0.35.1. Examples: candidate name 'main' where 'ship' is expected, and vcs_workflow / plan_preview are None. The failing nodes include test_build_agent_completion_candidates_enriches_visible_named_agents and test_named_proc_completion_candidate_uses_exact_proc_id. Evidence: `sase tool run -k check` run 81ef0cb11e86e4cdaaa8b70cfeb11615 (triage NEW) plus a pre/post worktree comparison.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1bc.1](sase-1bc.1.md) | Free the brackets and delete the dead Focus/Fleet state | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bc.10](sase-1bc.10.md) | Launch-from-view inheritance and launch UX | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
-| [sase-1bc.11](sase-1bc.11.md) | Move agents between tabs | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
-| [sase-1bc.12](sase-1bc.12.md) | Unflag, document, measure, and record memory | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
+| [sase-1bc.10](sase-1bc.10.md) | Launch-from-view inheritance and launch UX | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.11](sase-1bc.11.md) | Move agents between tabs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.12](sase-1bc.12.md) | Unflag, document, measure, and record memory | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.2](sase-1bc.2.md) | sase-core agent tab model, directive contract, and typed units | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.3](sase-1bc.3.md) | sase-core scan wire and fleet contract carry agent\_tab | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.4](sase-1bc.4.md) | %tab launch path, storage, query field, and completion | ✓ closed | large | 2026-09-27 | 1 | 1 |
 | [sase-1bc.5](sase-1bc.5.md) | Lineage inheritance and dispatch preflight | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ◐ in_progress | large | 2026-09-27 | 0 | 0 |
-| [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ◐ in_progress | large | 2026-09-27 | 0 | 0 |
-| [sase-1bc.8](sase-1bc.8.md) | The o/O layout ladder | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
-| [sase-1bc.9](sase-1bc.9.md) | Machine tabs | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
+| [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ◐ in_progress | large | 2026-09-27 | 1 | 0 |
+| [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ◐ in_progress | large | 2026-09-27 | 1 | 0 |
+| [sase-1bc.8](sase-1bc.8.md) | The o/O layout ladder | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.9](sase-1bc.9.md) | Machine tabs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 
 ## Lineage
 
@@ -56,7 +62,7 @@ flowchart TD
     n9["sase-1bc.6: Tab index, active-tab scope, keys, and cross-tab navigation [in_progress]"]
     n10["sase-1bc.6.1: Agent tabs: tab index, active-tab scope, keys, and cross-tab navigation [in_progress]"]
     n11["sase-1bc.6.1.1: Flag, ace.agent_tabs config, machine mode, and the tab index model [closed]"]
-    n12["sase-1bc.6.1.2: Active-tab scope stage and tab-keyed panel state [in_progress]"]
+    n12["sase-1bc.6.1.2: Active-tab scope stage and tab-keyed panel state [closed]"]
     n13["sase-1bc.6.1.3: Tab switching, persistence, keys, minimal strip, and perf metric [in_progress]"]
     n14["sase-1bc.6.1.4: Switch-then-reveal for every cross-tab jump [in_progress]"]
     n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [in_progress]"]
@@ -107,11 +113,24 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1bc.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.1.md) | [sase-1bc.1](sase-1bc.1.md) | 1 |
+| [bbugyi200.athena.sase-1bc.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.10/README.md) | [sase-1bc.10](sase-1bc.10.md) | 0 |
+| [bbugyi200.athena.sase-1bc.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.11/README.md) | [sase-1bc.11](sase-1bc.11.md) | 0 |
+| [bbugyi200.athena.sase-1bc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.12/README.md) | [sase-1bc.12](sase-1bc.12.md) | 0 |
 | [bbugyi200.athena.sase-1bc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.2/README.md) | [sase-1bc.2](sase-1bc.2.md) | 1 |
 | [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 1 |
 | [bbugyi200.athena.sase-1bc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.4.md) | [sase-1bc.4](sase-1bc.4.md) | 1 |
 | [bbugyi200.athena.sase-1bc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.5/README.md) | [sase-1bc.5](sase-1bc.5.md) | 1 |
+| [bbugyi200.athena.sase-1bc.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.md) | [sase-1bc.6](sase-1bc.6.md) | 0 |
 | [bbugyi200.athena.sase-1bc.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.1/README.md) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1bc.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.2/README.md) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1bc.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.4/README.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.land/README.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.7/README.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |
+| [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
+| [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 0 |
+| [bbugyi200.athena.sase-1bc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.land/README.md) | [sase-1bc](README.md) | 0 |
 
 ## Commits
 
@@ -123,3 +142,18 @@ flowchart TD
 | sase | [`372ecc9`](https://github.com/sase-org/sase/commit/372ecc97c36ae7b7b25edb10a35b6ccf6da3e958) | feat(xprompt): implement %tab directive for agent tab naming | [sase-1bc.4](sase-1bc.4.md) | 2026-09-27 13:29:47 EDT |
 | sase | [`8ad9637`](https://github.com/sase-org/sase/commit/8ad96371875bd3fb3fdad763a32e2751e0bd218a) | feat(agent-tabs): tab-foundation flag, config, machine mode, and tab index model (sase-1bc.6.1.1) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 2026-09-27 14:06:56 EDT |
 | sase | [`aff4fc0`](https://github.com/sase-org/sase/commit/aff4fc082f4035f3c715015969a0d6086689c612) | feat(tabs): inherit agent tab across launches with dispatch preflight (sase-1bc.5) | [sase-1bc.5](sase-1bc.5.md) | 2026-09-27 14:19:31 EDT |
+| sase | [`59f5eff`](https://github.com/sase-org/sase/commit/59f5eff1660acfb36c8eaa040c7e6a4fcd71ee59) | feat(agent-tabs): active-tab scope stage and tab-keyed panel state (sase-1bc.6.1.2) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 2026-09-27 16:53:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2s.cld][1] | Check whether this in-flight epic overlaps Goals seams (finalizers, notifications, FINAL deck, tabs/grouping) | 1 |
+| read-by | [agent:research.2s.final][2] | Verify status of epics cited as precedents/coordination points in Goals epic-split reports | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.final/README.md
+
+<!-- sase:referenced-by:end -->

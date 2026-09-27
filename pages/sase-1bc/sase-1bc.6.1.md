@@ -22,3 +22,9 @@
 ## Description
 
 Behind the new `agent_tabs` beta flag, the Agents tab shows one agent tab at a time. A per-root tab index and ordered catalog come from the sase-core catalog. The active tab re-scopes a cached, tab-independent query result without I/O. Folds, sticky panels, and selection memory are kept per tab. The active tab persists across restarts. `[`/`]` cycle tabs, every cross-tab jump switches tabs first, and bulk confirmations name their scope. A minimal strip makes the scope visible. With the flag off, the TUI is unchanged.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.land/README.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |

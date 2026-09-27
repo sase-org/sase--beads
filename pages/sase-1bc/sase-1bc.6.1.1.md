@@ -19,7 +19,7 @@ tab-foundation: create the agent_tabs beta flag with sase flag new and a single 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

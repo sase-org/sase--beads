@@ -13,6 +13,12 @@ tab-state-keys: add the synchronous tab switch with per-tab memory, startup sele
 
 ## Dependencies
 
-- **Depends on:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6.1.4](sase-1bc.6.1.4.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6.1.5](sase-1bc.6.1.5.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 0 |

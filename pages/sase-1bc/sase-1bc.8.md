@@ -15,3 +15,9 @@ layout-ladder: replace the merged boolean with a Split/Merged/All-tabs level; tu
 
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.7](sase-1bc.7.md) ◐ · ⧖ 2026-09-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
