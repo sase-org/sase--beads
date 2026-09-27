@@ -25,10 +25,16 @@ fencing_proof: finish sase-xe.16.11.3 in sase-core (TLS-honoring RemoteHost, suc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1aq.10.7.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.1.md) | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.1.md) | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@37a4dd8`](https://github.com/sase-org/sase-core/commit/37a4dd822e4a34ca4d57098ef107cc3b1cd44bad) | test(sase-gateway): prove healthy-beside-hung host and captured-locator fencing | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 2026-09-26 22:38:33 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.1--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.1.md
+
+<!-- sase:referenced-by:end -->
