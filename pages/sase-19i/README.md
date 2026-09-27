@@ -74,6 +74,9 @@ flowchart TD
     n19["sase-19i.7.3.3.3.3: Pass the Node Finder open p95 budget [in_progress]"]
     n20["sase-19i.7.3.3.3.3.1: Cut the warm snapshot body [closed]"]
     n21["sase-19i.7.3.3.3.3.2: Pass the official open benchmark [closed]"]
+    n22["sase-19i.7.3.3.3.3.3: Land the Node Finder open budget with real margin [in_progress]"]
+    n23["sase-19i.7.3.3.3.3.3.1: Pin the Node Finder age clock in the visual goldens [closed]"]
+    n24["sase-19i.7.3.3.3.3.3.2: Release per-open garbage and widen the open margin [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,6 +98,9 @@ flowchart TD
     n16 --> n19
     n19 --> n20
     n19 --> n21
+    n19 --> n22
+    n22 --> n23
+    n22 --> n24
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
@@ -128,6 +134,9 @@ flowchart TD
 | [bbugyi200.athena.sase-19i.7.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.2/README.md) | [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.1/README.md) | [sase-19i.7.3.3.3.3.1](sase-19i.7.3.3.3.3.1.md) | 1 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.2.md) | [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) | 1 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.3.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.3.1.md) | [sase-19i.7.3.3.3.3.3.1](sase-19i.7.3.3.3.3.3.1.md) | 1 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.3.2/README.md) | [sase-19i.7.3.3.3.3.3.2](sase-19i.7.3.3.3.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-19i.7.3.3.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.3.land/README.md) | [sase-19i.7.3.3.3.3.3](sase-19i.7.3.3.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.land/README.md) | [sase-19i.7.3.3.3.3](sase-19i.7.3.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.3.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.land.md) | [sase-19i.7.3.3.3](sase-19i.7.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-19i.7.3.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.land.md) | [sase-19i.7.3.3](sase-19i.7.3.3.md) | 0 |
@@ -155,6 +164,7 @@ flowchart TD
 | sase | [`0a74b4f`](https://github.com/sase-org/sase/commit/0a74b4f25ca52cd0c4de862ff49133c6db7a6465) | perf(node-finder): pass broad/narrow refilter budgets and cut open path (sase-19i.7.3.3.3.2) | [sase-19i.7.3.3.3.2](sase-19i.7.3.3.3.2.md) | 2026-09-26 17:53:38 EDT |
 | sase | [`215eb89`](https://github.com/sase-org/sase/commit/215eb89f41d90d97bd3eb708510ed8886beca335) | perf(tui): optimize snapshot-body node finder warm snapshot path | [sase-19i.7.3.3.3.3.1](sase-19i.7.3.3.3.3.1.md) | 2026-09-26 19:40:51 EDT |
 | sase | [`d5387e1`](https://github.com/sase-org/sase/commit/d5387e15d9397084e72ba99cf0fe907c41a9445d) | perf(tui): finish first-paint drain for node finder open p95 budget | [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) | 2026-09-26 21:45:45 EDT |
+| sase | [`d9a1f03`](https://github.com/sase-org/sase/commit/d9a1f037c4c5d1ba91a1510663b323c179be5281) | test(finder): pin Node Finder age clock in visual goldens | [sase-19i.7.3.3.3.3.3.1](sase-19i.7.3.3.3.3.3.1.md) | 2026-09-27 16:06:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

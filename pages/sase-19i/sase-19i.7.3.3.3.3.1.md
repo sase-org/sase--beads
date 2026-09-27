@@ -44,7 +44,9 @@ snapshot-body: remove the dominant in-snapshot cost until a same-process warm bu
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-19i.7.3.3.3.3.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1au.6.land][2] | Need whether the node-finder phase that introduced prefix_key is still open and which epic owns it | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-19i.7.3.3.3.3.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.6.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -36,3 +36,15 @@ open-budget: finish the first-paint drain and any leftover snapshot cost until t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d5387e1`](https://github.com/sase-org/sase/commit/d5387e15d9397084e72ba99cf0fe907c41a9445d) | perf(tui): finish first-paint drain for node finder open p95 budget | [sase-19i.7.3.3.3.3.2](sase-19i.7.3.3.3.3.2.md) | 2026-09-26 21:45:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-19i.7.3.3.3.3.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-19i.7.3.3.3.3.2.md
+
+<!-- sase:referenced-by:end -->
