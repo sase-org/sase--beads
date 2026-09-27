@@ -142,8 +142,8 @@ flowchart TD
 | [bbugyi200.apollo.sase-1aq.10.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md) | [sase-1aq.10.7.2](sase-1aq.10.7.2.md) | 1 |
 | [bbugyi200.apollo.sase-1aq.10.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.3/README.md) | [sase-1aq.10.7.3](sase-1aq.10.7.3.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.4/README.md) | [sase-1aq.10.7.4](sase-1aq.10.7.4.md) | 0 |
-| [bbugyi200.apollo.sase-1aq.10.7.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.1.md) | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 0 |
-| [bbugyi200.apollo.sase-1aq.10.7.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.2.md) | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.1.md) | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 1 |
+| [bbugyi200.apollo.sase-1aq.10.7.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1aq.10.7.5.2.md) | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.3/README.md) | [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.4/README.md) | [sase-1aq.10.7.5.4](sase-1aq.10.7.5.4.md) | 0 |
 | [bbugyi200.apollo.sase-1aq.10.7.5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md) | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 0 |
@@ -161,7 +161,9 @@ flowchart TD
 | sase | [`fb0b91e`](https://github.com/sase-org/sase/commit/fb0b91edce9b75f1c84002016aa27c83b7a9fafb) | fix(machine): repair exact remote stop/retry lookup for fleet-dispatched agents | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:00:24 EDT |
 | sase-core | [`sase-core@b2e4ea6`](https://github.com/sase-org/sase-core/commit/b2e4ea6672c47dbf101ad77c0ff8bd9352e4b124) | test(fleet): add catalog and binding terminal-flag coverage | [sase-1aq.10.7.1](sase-1aq.10.7.1.md) | 2026-09-26 21:03:37 EDT |
 | sase | [`afca222`](https://github.com/sase-org/sase/commit/afca22227190580a79cb67e88c3b0e5c9e68cb26) | fix(ace-tui): refresh dispatch context line after prompt stack rebuild | [sase-1aq.10.7.2](sase-1aq.10.7.2.md) | 2026-09-26 21:20:52 EDT |
+| sase-core | [`sase-core@37a4dd8`](https://github.com/sase-org/sase-core/commit/37a4dd822e4a34ca4d57098ef107cc3b1cd44bad) | test(sase-gateway): prove healthy-beside-hung host and captured-locator fencing | [sase-1aq.10.7.5.1](sase-1aq.10.7.5.1.md) | 2026-09-26 22:38:33 EDT |
 | sase | [`700b37b`](https://github.com/sase-org/sase/commit/700b37b3849e84cd775405b7279fdaef2ea8a3ef) | feat(dispatch): settle exact stop and retry receipts certainly | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2026-09-26 22:54:01 EDT |
+| sase-core | [`sase-core@b57cd21`](https://github.com/sase-org/sase-core/commit/b57cd21315a24175dcd1bc866d5a2abe526d9f29) | feat(fleet): settle exact mutate receipts, overlay fresh launches, retain killed rows | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2026-09-26 22:56:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
