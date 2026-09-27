@@ -27,8 +27,8 @@ Per-launch agent scratch (cargo targets, agent TMPDIRs) is removed when its laun
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1bf.1](sase-1bf.1.md) | Managed temp root registry the reaper follows | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1bf.2](sase-1bf.2.md) | Rust-owned launch scratch liveness that works under systemd | ✓ closed | medium | 2026-09-27 | 1 | 2 |
+| [sase-1bf.1](sase-1bf.1.md) | Managed temp root registry the reaper follows | ◐ in_progress | medium | 2026-09-27 | 1 | 1 |
+| [sase-1bf.2](sase-1bf.2.md) | Rust-owned launch scratch liveness that works under systemd | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bf.3](sase-1bf.3.md) | Dead-launch backstop pass and liveness-aware pressure | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bf.4](sase-1bf.4.md) | Truthful disk attribution under pressure | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bf.5](sase-1bf.5.md) | Retention for visual snapshot run reports | ✓ closed | small | 2026-09-27 | 1 | 1 |
@@ -65,8 +65,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 0 |
-| [bbugyi200.apollo.sase-1bf.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.2.md) | [sase-1bf.2](sase-1bf.2.md) | 2 |
+| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 1 |
+| [bbugyi200.apollo.sase-1bf.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.2.md) | [sase-1bf.2](sase-1bf.2.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.3/README.md) | [sase-1bf.3](sase-1bf.3.md) | 0 |
 | [bbugyi200.apollo.sase-1bf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.4/README.md) | [sase-1bf.4](sase-1bf.4.md) | 0 |
 | [bbugyi200.apollo.sase-1bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.5/README.md) | [sase-1bf.5](sase-1bf.5.md) | 1 |
@@ -79,4 +79,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`d99f478`](https://github.com/sase-org/sase/commit/d99f4789e9c9bf2b49c6b76a77deb212da162389) | feat(visual): prune old screenshot maintenance run reports | [sase-1bf.5](sase-1bf.5.md) | 2026-09-27 14:37:05 EDT |
 | sase | [`7e4482a`](https://github.com/sase-org/sase/commit/7e4482a62fe63645c36f73439d6abc79150837d4) | feat(scratch): rust-owned launch scratch liveness with systemd-safe probe | [sase-1bf.2](sase-1bf.2.md) | 2026-09-27 15:32:24 EDT |
-| sase-core | [`sase-core@297bc1e`](https://github.com/sase-org/sase-core/commit/297bc1e3364c6017992b2307080390ae61894c8b) | feat(core): launch\_scratch\_liveness module with procfs probe bindings | [sase-1bf.2](sase-1bf.2.md) | 2026-09-27 15:35:48 EDT |
+| sase | [`40295ea`](https://github.com/sase-org/sase/commit/40295eaf543f8e64e1e34c0862bce1411a353a42) | feat(managed-tmp): add Rust-owned root registry the reaper follows (sase-1bf.1) | [sase-1bf.1](sase-1bf.1.md) | 2026-09-27 17:19:10 EDT |

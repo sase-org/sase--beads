@@ -11,6 +11,12 @@
 
 root-registry: every root `get_sase_managed_tmpdir()` writes into is recorded in a Rust-owned registry under SASE_HOME, and every managed-tmp reaper entry point reaps all registered roots instead of only the root its own environment resolves.
 
+## Notes
+
+[2026-09-27T20:03:33Z · sase-1bf.1--1] PROPOSED FOLLOW-UP: sase-core check clippy fails on clean-tree lints in agent_runtime, agent_scan, finalizer decode, fleet_owner_facts, provider_usage, tool_run receipt/triage (manual_range_contains, nonminimal_bool, collapsible_if); no errors in managed_tmp_roots/managed_tmp touched files; needs clippy baseline update
+
+[2026-09-27T20:13:52Z · sase-1bf.1--2] PROPOSED FOLLOW-UP: just check lint (feature flags) fails on rule closed_survives: closed flag bead sase-1b5 still has surviving ace_final_deck definition in src/sase/feature_flags/registry.py; bead status and registry untouched by phase sase-1bf.1 (diff is managed-tmp/docs only), so failure is pre-existing and independent of root-registry work; needs owner of sase-1b5 to remove the definition or reopen the bead
+
 ## Dependencies
 
 - **Blocks:** [sase-1bf.3](sase-1bf.3.md) ◐ · ⧖ 2026-09-27
@@ -21,4 +27,10 @@ root-registry: every root `get_sase_managed_tmpdir()` writes into is recorded in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 0 |
+| [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`40295ea`](https://github.com/sase-org/sase/commit/40295eaf543f8e64e1e34c0862bce1411a353a42) | feat(managed-tmp): add Rust-owned root registry the reaper follows (sase-1bf.1) | [sase-1bf.1](sase-1bf.1.md) | 2026-09-27 17:19:10 EDT |
