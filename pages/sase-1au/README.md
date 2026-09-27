@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 One reliable Prompts overlay unifies draft recall while bounded, transactional Trash makes deliberate stash discards recoverable.
 
+## Notes
+
+[2026-09-26T23:59:34Z · sase-1au.land] LAND AUDIT pending nested remainder: all five original phases closed; Rust core e44af7d contains tagged transactional trash/restore/purge/reconcile, backup and binding tests, and sase commits e7dc4be95, 7b209fc9d, 4e7262d67, ade28c173, 899bdba64 contain Python wires/config/pin, reusable panes, Trash actions, and entry-point routing. Post-first-stitch commits touching adjacent areas (acbd5999a clan neighbors, e95241543 scrollbar helper, 74c89a638 memory regen) do not require prompt caller integration. Remaining epic-caused gaps: _read_prompt_stash_overlay_snapshot catches every lifecycle-read error and presents active-only Trash as empty, contrary to fail-closed/read and stale-wheel contract; test_residual_freeze_soak patches prompt_history_modal.load_prompt_record_page, removed by phase .3 extraction (present at 7b209^); just symvision reports unused PromptHistoryModal, TrashCommitPreview, sort_trash_records, stash_empty_text, trash_empty_text from the cutover; visual suite still captures only standalone StashedPromptsModal and has no PromptsModal/Trash golden, leaving phase .4 #1 visual request unfinished. These will be handled in a nested plan. Follow-up triage: .2 #1/#2, .3 #3, .4 #2 and .5 #1 legacy private-import / scrollbar findings are fixed by acbd5999a/899bdba64/e95241543; .2 #3 and .5 #1 proc lifecycle test still fails and is recorded on active rename epic sase-1ab note #9; .3 #1 two history tests now pass; .3 #2 is epic-caused soak drift above, not a separate task; .3 #5 and .4 #2 memory --check now pass after 74c89a638; .4 #1 action wiring is complete in ade28c173, visual portion is nested work. No distinct unrelated unowned task remains. No sase-1au epic-symbol entries.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,16 +49,26 @@ flowchart TD
     n3["sase-1au.3: Reusable Prompts overlay and existing Stash and History panes [closed]"]
     n4["sase-1au.4: Trash pane and reliable staged actions [closed]"]
     n5["sase-1au.5: Atomic entry-point rollout, documentation, and visual acceptance [closed]"]
+    n6["sase-1au.6: Finish the Prompts overlay cutover [in_progress]"]
+    n7["sase-1au.6.1: Fail closed when the Prompts lifecycle snapshot cannot be read [closed]"]
+    n8["sase-1au.6.2: Retire dead prompt modal surface and repair extraction test drift [in_progress]"]
+    n9["sase-1au.6.3: Capture and inspect Prompts overlay visuals [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
+    n0 --> n6
+    n6 --> n7
+    n6 --> n8
+    n6 --> n9
     n1 -.-> n2
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
     n4 -.-> n5
+    n7 -.-> n9
+    n8 -.-> n9
 ```
 
 ## Agents
@@ -66,7 +80,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1au.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.3.md) | [sase-1au.3](sase-1au.3.md) | 1 |
 | [bbugyi200.athena.sase-1au.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.4.md) | [sase-1au.4](sase-1au.4.md) | 1 |
 | [bbugyi200.athena.sase-1au.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.5/README.md) | [sase-1au.5](sase-1au.5.md) | 2 |
-| [bbugyi200.athena.sase-1au.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.land/README.md) | [sase-1au](README.md) | 0 |
+| [bbugyi200.athena.sase-1au.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.1.md) | [sase-1au.6.1](sase-1au.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1au.6.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.2.md) | [sase-1au.6.2](sase-1au.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1au.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.6.3/README.md) | [sase-1au.6.3](sase-1au.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1au.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1au.6.land/README.md) | [sase-1au.6](sase-1au.6.md) | 0 |
+| [bbugyi200.athena.sase-1au.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.land.md) | [sase-1au](README.md) | 0 |
 
 ## Commits
 
@@ -78,6 +96,7 @@ flowchart TD
 | sase | [`4e7262d`](https://github.com/sase-org/sase/commit/4e7262d6750c337cb4ea532ff964309692829a87) | feat(ace-tui): Trash pane and reliable staged stash actions (sase-1au.4) | [sase-1au.4](sase-1au.4.md) | 2026-09-26 17:03:53 EDT |
 | sase | [`ade28c1`](https://github.com/sase-org/sase/commit/ade28c173a85e3bf520bb0947e1fb27e2ad3ba9b) | feat(ace): route all prompt entry points through Prompts overlay | [sase-1au.5](sase-1au.5.md) | 2026-09-26 19:06:21 EDT |
 | sase | [`899bdba`](https://github.com/sase-org/sase/commit/899bdba6441eeaf7f27a303209b9d19a5d1ed89f) | feat(ace): route all prompt entry points through Prompts overlay | [sase-1au.5](sase-1au.5.md) | 2026-09-26 19:46:58 EDT |
+| sase | [`7e54203`](https://github.com/sase-org/sase/commit/7e54203ba044ae262ffea9ca4670a6a2bb898a3c) | fix(ace-tui): make prompt-bar stash restore fail-closed on snapshot read | [sase-1au.6.1](sase-1au.6.1.md) | 2026-09-26 20:23:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
