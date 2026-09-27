@@ -23,7 +23,7 @@ exact_ops: make settled dispatch rows addressable and prove exact stop and retry
 
 ## Dependencies
 
-- **Blocks:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

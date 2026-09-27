@@ -13,7 +13,7 @@ parity: prove production owner and remote row equality on matched deployed build
 
 ## Dependencies
 
-- **Depends on:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1aq.10.7.4](sase-1aq.10.7.4.md) ◐ · ⧖ 2026-09-26
 
 ## Agents

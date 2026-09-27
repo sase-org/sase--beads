@@ -13,7 +13,7 @@ dispatch_memory: publish the authorized dispatch note, close its task and origin
 
 ## Dependencies
 
-- **Depends on:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1aq.10.7.2](sase-1aq.10.7.2.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1aq.10.7.3](sase-1aq.10.7.3.md) ◐ · ⧖ 2026-09-26
 
 ## Agents
