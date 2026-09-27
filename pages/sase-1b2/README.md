@@ -52,13 +52,15 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 
 [2026-09-27T11:54:45Z · sase-1ah.8.4.land] DISCOVERED ISSUE (sase-1ah.8.4.land, sase HEAD bc7144574): just symvision exits 1. The error is 'Private functions/classes should not be imported: _root_represents_member in src/sase/ace/tui/models/agent_session_members.py'. src/sase/ace/tui/models/_loaders/_meta_enrichment_status.py:17 imports it, and this epic's 988af8f3b (sase-1b2.7) added that import. Make the helper public or keep the consumer in-module per Symvision.
 
+[2026-09-27T12:35:56Z · sase-1ab.land] DISCOVERED ISSUE (sase-1ab land agent, sase master 7b20f4c1c): three failures trace to this epic's commits. (1) mypy: src/sase/ace/tui/models/agent_bundle.py:116 [arg-type], dataclasses.asdict(value) receives DataclassInstance | type[DataclassInstance]. The dataclasses.is_dataclass guard also admits classes (988af8f3b, sase-1b2.7). (2) 988af8f3b bumped the AGENT_ARTIFACT_INDEX_SCHEMA_VERSION mirror to 34 but left two pin tests at 33: tests/core/test_agent_alias_history_wire.py::test_alias_history_schema_versions_are_pinned and tests/core/test_agent_output_variable_history_wire.py::test_history_schema_versions_are_pinned (assert 34 == 33). (3) tests/test_timezone_display_guard.py::test_no_system_clock_display_sites flags src/sase/ace/tui/widgets/prompt_panel/_agent_finalizer_receipt.py:45 'return datetime.fromtimestamp(started)' (5dac33451, sase-1b2.8). All three are deterministic in the full fast suite and a serial rerun. Heads-up: the turn-rename contract flip (child of sase-1ab) will take artifact index schema 35, because this epic's core change already used 34.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1b2.1](sase-1b2.1.md) | finalizer\_status summary field on the Rust agent-scan wire | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.10](sase-1b2.10.md) | Per-deck sticky preferred cards | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ✓ closed | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.13](sase-1b2.13.md) | Read-only sase final status run view | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.14](sase-1b2.14.md) | Register the ⊛ FINAL deck with its loader, availability, and chrome | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -154,7 +156,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 1 |
 | [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 1 |
-| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
+| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 1 |
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 1 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.13/README.md) | [sase-1b2.13](sase-1b2.13.md) | 0 |
 | [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.14/README.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
@@ -189,6 +191,7 @@ flowchart TD
 | sase | [`5dac334`](https://github.com/sase-org/sase/commit/5dac33451a4d36c224491fd1b42a78413f7fc845) | feat(ace-tui): FINALIZING rows, finalizer chips, header chip, and Reply receipts (sase-1b2.8) | [sase-1b2.8](sase-1b2.8.md) | 2026-09-27 07:23:34 EDT |
 | sase | [`7b20f4c`](https://github.com/sase-org/sase/commit/7b20f4c1c2d54215af4da1b2aacc7da7747262bb) | feat(finalizers): add step channel and bounded live sink | [sase-1b2.6](sase-1b2.6.md) | 2026-09-27 07:42:14 EDT |
 | sase | [`65c016a`](https://github.com/sase-org/sase/commit/65c016a8973dccf28ee71f17f004fdd3f3bde566) | feat(finalizers): add run-view adapter over core detail binding | [sase-1b2.12](sase-1b2.12.md) | 2026-09-27 08:26:55 EDT |
+| sase | [`6702105`](https://github.com/sase-org/sase/commit/6702105da8198cc71b4e0a07158d9a52f9e6934e) | fix(ace-tui): clear phase-owned symvision failures from card-document-view extraction | [sase-1b2.11](sase-1b2.11.md) | 2026-09-27 08:42:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

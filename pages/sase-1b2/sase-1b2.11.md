@@ -30,6 +30,8 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 
 [2026-09-27T12:01:25Z · sase-1b2.11--1] CardDocumentView extracted and deck-parameterized; just check failures triaged: fixed all 8 mypy errors in new document_view.py/document_transitions.py (renderable: Any annotation, None guards, type-ignore placement); targeted mypy clean on all 15 touched deck files; new test_card_document_view.py 11 passed; ruff clean; remaining _tree.py and _agent_display_hint_sections.py mypy errors verified identical on clean base tree and recorded as PROPOSED FOLLOW-UP; no epic-symbol leftovers
 
+[2026-09-27T12:30:35Z · sase-1b2.11--2] PROPOSED FOLLOW-UP: symvision 24 unused-public items (incl. triage-NEW normalize_reclaim_config) reproduce identically on clean base tree — verified via git stash -u plus just _lint-symvision at HEAD 88fee8ce (base: 26 items; fixed tree: 24, a strict subset; only normalizer/view-policy/finalizer/receipt/modal symbols with no link to this phase). This turn fixed all phase-owned symvision failures: _ReadingAnchor made public (ReadingAnchor) since panel_transitions.py imports it; deleted orphaned Main wrappers main_separator_for/measure_main_rows/build_card_document left behind by the CardDocumentView extraction and updated test_card_document_view.py, test_deck_spread_pure.py, test_deck_render_mode.py to the generic spelling with identical assertions; renamed MainDeckViewBlocksMixin to CardDocumentViewBlocksMixin (consumed by document_view.py) with a compat alias. Verified: ruff clean, targeted mypy clean on 7 deck files, 349 passed plus 1 known flake (test_files_ctrl_j_scrolls_page_anchor_to_top, passes in isolation, see note #2); sase bead epic-symbols sase-1b2.11 clean.
+
 ## Dependencies
 
 - **Blocks:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
@@ -39,7 +41,13 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
+| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6702105`](https://github.com/sase-org/sase/commit/6702105da8198cc71b4e0a07158d9a52f9e6934e) | fix(ace-tui): clear phase-owned symvision failures from card-document-view extraction | [sase-1b2.11](sase-1b2.11.md) | 2026-09-27 08:42:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
