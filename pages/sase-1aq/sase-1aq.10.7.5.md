@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/1aq_close_original_gates.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/1aq_close_original_gates.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ The original remote-dispatch, owner-to-viewer parity, and dispatch-memory beads 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1aq.10.7.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.land/README.md) | [sase-1aq.10.7.5](sase-1aq.10.7.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.5][1] | ancestor_landing audit: confirm sibling phase closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+
+<!-- sase:referenced-by:end -->

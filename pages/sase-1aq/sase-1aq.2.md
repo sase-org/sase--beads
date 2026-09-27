@@ -20,4 +20,4 @@ hold_landing: verify current hold contracts and normally close both existing hol
 ## Dependencies
 
 - **Depends on:** [sase-1aq.1](sase-1aq.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ✓ · ⧖ 2026-09-26

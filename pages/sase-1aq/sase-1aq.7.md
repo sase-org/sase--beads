@@ -18,7 +18,7 @@ parity_landing: establish production and same-build live parity, then close both
 ## Dependencies
 
 - **Depends on:** [sase-1aq.6](sase-1aq.6.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ✓ · ⧖ 2026-09-26
 
 <!-- sase:referenced-by:start -->
 
@@ -28,8 +28,10 @@ parity_landing: establish production and same-build live parity, then close both
 | --- | --- | --- | ---: |
 | read-by | [agent:0sz][1] | Identify remote-dispatch epic blocking chain and last progress | 1 |
 | read-by | [agent:sase-1aq.10.7.2][2] | Need dispatch chain status for viewer_matrix landing audit | 1 |
+| read-by | [agent:sase-1aq.10.7.5.5][3] | ancestor landing audit | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.0sz/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
 
 <!-- sase:referenced-by:end -->

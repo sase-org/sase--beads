@@ -35,3 +35,15 @@ live_matrix: install matched builds on both hosts, drive Athena over SSH through
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1aq.10.7.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.3/README.md) | [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.5][1] | ancestor_landing audit: cite live matrix evidence for close notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+
+<!-- sase:referenced-by:end -->

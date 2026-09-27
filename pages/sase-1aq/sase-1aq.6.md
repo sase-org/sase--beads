@@ -19,7 +19,7 @@ dispatch_landing: close reopened original phases and all remote-dispatch ancesto
 
 - **Depends on:** [sase-1aq.5](sase-1aq.5.md) ✓ · ⧖ 2026-09-26
 - **Blocks:** [sase-1aq.7](sase-1aq.7.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.8](sase-1aq.8.md) ✓ · ⧖ 2026-09-26
 
 <!-- sase:referenced-by:start -->
 
@@ -29,8 +29,10 @@ dispatch_landing: close reopened original phases and all remote-dispatch ancesto
 | --- | --- | --- | ---: |
 | read-by | [agent:0sz][1] | Identify remote-dispatch epic blocking chain and last progress | 1 |
 | read-by | [agent:sase-1aq.10.7.2][2] | Need 1aq.6 landing scope for viewer_matrix | 2 |
+| read-by | [agent:sase-1aq.10.7.5.5][3] | ancestor landing audit | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.0sz/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
 
 <!-- sase:referenced-by:end -->

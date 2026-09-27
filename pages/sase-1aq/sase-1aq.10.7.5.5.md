@@ -27,7 +27,7 @@ ancestor_landing: land the sase-xe and sase-133 ancestor chains bottom-up with f
 
 - **Depends on:** [sase-1aq.10.7.5.3](sase-1aq.10.7.5.3.md) ✓ · ⧖ 2026-09-26
 - **Depends on:** [sase-1aq.10.7.5.4](sase-1aq.10.7.5.4.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [sase-1aq.10.7.5.6](sase-1aq.10.7.5.6.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
@@ -40,3 +40,15 @@ ancestor_landing: land the sase-xe and sase-133 ancestor chains bottom-up with f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@8ddd920`](https://github.com/sase-org/sase--plans/commit/8ddd920da7f8ff61cb40c214e9dc46ca9b915218) | chore(plans): mark dispatch and parity epic plans done after ancestor landing | [sase-1aq.10.7.5.5](sase-1aq.10.7.5.5.md) | 2026-09-27 00:11:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+
+<!-- sase:referenced-by:end -->

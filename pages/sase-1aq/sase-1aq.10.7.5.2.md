@@ -31,3 +31,15 @@ exact_ops_receipts: resolve the uncertain-receipt, catalog-lag, and killed-row r
 |---|---|---|---|---|
 | sase | [`700b37b`](https://github.com/sase-org/sase/commit/700b37b3849e84cd775405b7279fdaef2ea8a3ef) | feat(dispatch): settle exact stop and retry receipts certainly | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2026-09-26 22:54:01 EDT |
 | sase-core | [`sase-core@b57cd21`](https://github.com/sase-org/sase-core/commit/b57cd21315a24175dcd1bc866d5a2abe526d9f29) | feat(fleet): settle exact mutate receipts, overlay fresh launches, retain killed rows | [sase-1aq.10.7.5.2](sase-1aq.10.7.5.2.md) | 2026-09-26 22:56:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1aq.10.7.5.5][1] | ancestor_landing audit: confirm exact-ops resolution evidence | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1aq.10.7.5.5/README.md
+
+<!-- sase:referenced-by:end -->
