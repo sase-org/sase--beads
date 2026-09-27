@@ -7,6 +7,20 @@
 **Created:** 2026-09-27 05:45:14 EDT
 **Plan:** [202609/deck\_views.md](https://github.com/sase-org/sase--plans/blob/main/202609/deck_views.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/deck_views.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/deck_views.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every Main and Files deck panel names its effective view (spread, page cards, or page blocks) and whether it is automatic or fixed, in a stable, text-first badge in the top border. `P` cycles the focused panel through the valid views without losing the reader's place. Palette commands pick a view directly or return to automatic. Choices persist per panel and per deck across agents, splits, zoom, and restarts.
@@ -41,8 +55,8 @@ LAND AGENT: on master, confirm that DeckPanelState keeps `views` and any per-dec
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1b1.1](sase-1b1.1.md) | Deck view policy model, pure resolution, and persistence | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1b1.2](sase-1b1.2.md) | Main deck honors view policies with anchor-preserving transitions | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b1.3](sase-1b1.3.md) | Files deck honors view policies with a complete spread probe | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b1.2](sase-1b1.2.md) | Main deck honors view policies with anchor-preserving transitions | ✓ closed | medium | 2026-09-27 | 1 | 1 |
+| [sase-1b1.3](sase-1b1.3.md) | Files deck honors view policies with a complete spread probe | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b1.4](sase-1b1.4.md) | Top-border view badge, rail cue, and subtitle cleanup | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b1.5](sase-1b1.5.md) | P key, palette view commands, footer, help, and search exits | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b1.6](sase-1b1.6.md) | View goldens, live inspection, and forced-spread benchmarks | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -54,8 +68,8 @@ LAND AGENT: on master, confirm that DeckPanelState keeps `views` and any per-dec
 flowchart TD
     n0["sase-1b1: Deck views: see and choose how a deck panel pages its cards and blocks [in_progress]"]
     n1["sase-1b1.1: Deck view policy model, pure resolution, and persistence [closed]"]
-    n2["sase-1b1.2: Main deck honors view policies with anchor-preserving transitions [in_progress]"]
-    n3["sase-1b1.3: Files deck honors view policies with a complete spread probe [in_progress]"]
+    n2["sase-1b1.2: Main deck honors view policies with anchor-preserving transitions [closed]"]
+    n3["sase-1b1.3: Files deck honors view policies with a complete spread probe [closed]"]
     n4["sase-1b1.4: Top-border view badge, rail cue, and subtitle cleanup [in_progress]"]
     n5["sase-1b1.5: P key, palette view commands, footer, help, and search exits [in_progress]"]
     n6["sase-1b1.6: View goldens, live inspection, and forced-spread benchmarks [in_progress]"]
@@ -81,8 +95,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1b1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.1.md) | [sase-1b1.1](sase-1b1.1.md) | 1 |
-| [bbugyi200.athena.sase-1b1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.2/README.md) | [sase-1b1.2](sase-1b1.2.md) | 0 |
-| [bbugyi200.athena.sase-1b1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.3/README.md) | [sase-1b1.3](sase-1b1.3.md) | 0 |
+| [bbugyi200.athena.sase-1b1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.2.md) | [sase-1b1.2](sase-1b1.2.md) | 1 |
+| [bbugyi200.athena.sase-1b1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.3.md) | [sase-1b1.3](sase-1b1.3.md) | 1 |
 | [bbugyi200.athena.sase-1b1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.4/README.md) | [sase-1b1.4](sase-1b1.4.md) | 0 |
 | [bbugyi200.athena.sase-1b1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.5/README.md) | [sase-1b1.5](sase-1b1.5.md) | 0 |
 | [bbugyi200.athena.sase-1b1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b1.6/README.md) | [sase-1b1.6](sase-1b1.6.md) | 0 |
@@ -94,6 +108,8 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9c4d104`](https://github.com/sase-org/sase/commit/9c4d104aff897a02257562a0d3f09fae940c2f5b) | feat(ace-tui): add deck view policy model, pure resolution, and persistence | [sase-1b1.1](sase-1b1.1.md) | 2026-09-27 06:36:19 EDT |
+| sase | [`12ae301`](https://github.com/sase-org/sase/commit/12ae3014b97f36e2463e9b11b0101ffcdf52ea5e) | feat(deck-views): main deck honors view policies with anchor-preserving transitions | [sase-1b1.2](sase-1b1.2.md) | 2026-09-27 08:30:32 EDT |
+| sase | [`cb1b577`](https://github.com/sase-org/sase/commit/cb1b5775a001c0c8c31aba1cc70d02539e3adba2) | fix(deck-views): declare \_files\_probe\_complete on DeckPanelFilesMixin | [sase-1b1.3](sase-1b1.3.md) | 2026-09-27 08:30:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

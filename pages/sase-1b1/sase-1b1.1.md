@@ -26,7 +26,7 @@ The full shared rules are in the NOTES on epic sase-1b1 (`sase bead read sase-1b
 
 ## Dependencies
 
-- **Blocks:** [sase-1b1.2](sase-1b1.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.2](sase-1b1.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -47,7 +47,9 @@ The full shared rules are in the NOTES on epic sase-1b1 (`sase bead read sase-1b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c.r0][1] | Review sase-1b1 phase progress and notes for value-added research report | 1 |
+| read-by | [agent:sase-1b1.1--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c.r0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.1.md
 
 <!-- sase:referenced-by:end -->

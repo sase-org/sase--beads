@@ -25,9 +25,11 @@ First run `git fetch -q` and then `git log --oneline origin/master --grep sase-1
 - Regenerate goldens against current master. With `ace_final_deck` off (the default), FINAL never appears in them.
 The full shared rules are in the NOTES on epic sase-1b1.
 
+[2026-09-27T12:03:19Z · sase-1b1.4] --list
+
 ## Dependencies
 
-- **Depends on:** [sase-1b1.2](sase-1b1.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b1.2](sase-1b1.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b1.5](sase-1b1.5.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
