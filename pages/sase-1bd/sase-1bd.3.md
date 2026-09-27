@@ -25,7 +25,7 @@ red-gear: record every update-lane attempt through the journal. Session workers 
 
 - **Depends on:** [sase-1bd.1](sase-1bd.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bd.2](sase-1bd.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bd.4](sase-1bd.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bd.4](sase-1bd.4.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -38,3 +38,15 @@ red-gear: record every update-lane attempt through the journal. Session workers 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3786032`](https://github.com/sase-org/sase/commit/3786032efb15beca4347ca240da9f48aa983b77c) | feat(gear): red update-failure gear lifecycle and failure report (sase-1bd.3) | [sase-1bd.3](sase-1bd.3.md) | 2026-09-27 16:03:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bd.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bd.3/README.md
+
+<!-- sase:referenced-by:end -->

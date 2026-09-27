@@ -30,7 +30,7 @@ The gear inset at the left edge of the top bar's `updates:` badge shows at most 
 | [sase-1bd.1](sase-1bd.1.md) | Gear state model, three-hue palette, and the yellow restart-queued gear | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bd.2](sase-1bd.2.md) | Durable update-attempt journal | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bd.3](sase-1bd.3.md) | Red gear lifecycle and the failure report | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bd.4](sase-1bd.4.md) | Update panel failure row and docs polish | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1bd.4](sase-1bd.4.md) | Update panel failure row and docs polish | ✓ closed | small | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n1["sase-1bd.1: Gear state model, three-hue palette, and the yellow restart-queued gear [closed]"]
     n2["sase-1bd.2: Durable update-attempt journal [closed]"]
     n3["sase-1bd.3: Red gear lifecycle and the failure report [closed]"]
-    n4["sase-1bd.4: Update panel failure row and docs polish [in_progress]"]
+    n4["sase-1bd.4: Update panel failure row and docs polish [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1bd.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bd.1.md) | [sase-1bd.1](sase-1bd.1.md) | 1 |
 | [bbugyi200.apollo.sase-1bd.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bd.2.md) | [sase-1bd.2](sase-1bd.2.md) | 1 |
 | [bbugyi200.apollo.sase-1bd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bd.3/README.md) | [sase-1bd.3](sase-1bd.3.md) | 1 |
-| [bbugyi200.apollo.sase-1bd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bd.4/README.md) | [sase-1bd.4](sase-1bd.4.md) | 0 |
+| [bbugyi200.apollo.sase-1bd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bd.4/README.md) | [sase-1bd.4](sase-1bd.4.md) | 1 |
 | [bbugyi200.apollo.sase-1bd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bd.land/README.md) | [sase-1bd](README.md) | 0 |
 
 ## Commits
@@ -67,3 +67,4 @@ flowchart TD
 | sase | [`1d60ffc`](https://github.com/sase-org/sase/commit/1d60ffcf4687a20e7a88726f618d9edc2430bc44) | feat(ace): add update-attempts journal model and tracking | [sase-1bd.2](sase-1bd.2.md) | 2026-09-27 14:49:36 EDT |
 | sase | [`9814d89`](https://github.com/sase-org/sase/commit/9814d8980e3182eda3a872c481196b29383a5780) | feat(gear): add yellow restart-queued gear state model and palette (sase-1bd.1) | [sase-1bd.1](sase-1bd.1.md) | 2026-09-27 14:59:11 EDT |
 | sase | [`3786032`](https://github.com/sase-org/sase/commit/3786032efb15beca4347ca240da9f48aa983b77c) | feat(gear): red update-failure gear lifecycle and failure report (sase-1bd.3) | [sase-1bd.3](sase-1bd.3.md) | 2026-09-27 16:03:36 EDT |
+| sase | [`21d4e12`](https://github.com/sase-org/sase/commit/21d4e12c8c43c56ebeaa24ff245e7eafbd13c9b5) | feat(update-panel): surface recorded failure as first Update panel row (sase-1bd.4) | [sase-1bd.4](sase-1bd.4.md) | 2026-09-27 16:37:38 EDT |
