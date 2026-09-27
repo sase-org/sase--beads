@@ -19,4 +19,4 @@ cross-tab-nav: add one switch-then-reveal helper and route every agent-revealing
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.4/README.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |

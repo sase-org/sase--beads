@@ -65,7 +65,7 @@ flowchart TD
     n12["sase-1bc.6.1.2: Active-tab scope stage and tab-keyed panel state [closed]"]
     n13["sase-1bc.6.1.3: Tab switching, persistence, keys, minimal strip, and perf metric [closed]"]
     n14["sase-1bc.6.1.4: Switch-then-reveal for every cross-tab jump [in_progress]"]
-    n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [in_progress]"]
+    n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [closed]"]
     n16["sase-1bc.7: The beautiful tab strip [in_progress]"]
     n17["sase-1bc.8: The o/O layout ladder [in_progress]"]
     n18["sase-1bc.9: Machine tabs [in_progress]"]
@@ -124,8 +124,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.1/README.md) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.2/README.md) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.4/README.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |
-| [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.land/README.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.7/README.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |
 | [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
@@ -144,6 +144,7 @@ flowchart TD
 | sase | [`aff4fc0`](https://github.com/sase-org/sase/commit/aff4fc082f4035f3c715015969a0d6086689c612) | feat(tabs): inherit agent tab across launches with dispatch preflight (sase-1bc.5) | [sase-1bc.5](sase-1bc.5.md) | 2026-09-27 14:19:31 EDT |
 | sase | [`59f5eff`](https://github.com/sase-org/sase/commit/59f5eff1660acfb36c8eaa040c7e6a4fcd71ee59) | feat(agent-tabs): active-tab scope stage and tab-keyed panel state (sase-1bc.6.1.2) | [sase-1bc.6.1.2](sase-1bc.6.1.2.md) | 2026-09-27 16:53:15 EDT |
 | sase | [`c78eb38`](https://github.com/sase-org/sase/commit/c78eb3805faaa4848aa7e8afea69364e2018f064) | feat(agent-tabs): tab switching, persistence, keys, minimal strip, and perf metric (sase-1bc.6.1.3) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 2026-09-27 17:22:49 EDT |
+| sase | [`94ed923`](https://github.com/sase-org/sase/commit/94ed923b107a14598fa54803d751abf125c1e5f1) | feat(agent-tabs): tab-scoped bulk confirmations, docs, and flag-on verification (sase-1bc.6.1.5) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 2026-09-27 18:06:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

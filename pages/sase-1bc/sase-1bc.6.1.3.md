@@ -23,7 +23,7 @@ tab-state-keys: add the synchronous tab switch with per-tab memory, startup sele
 
 - **Depends on:** [sase-1bc.6.1.2](sase-1bc.6.1.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6.1.4](sase-1bc.6.1.4.md) ◐ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.6.1.5](sase-1bc.6.1.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.5](sase-1bc.6.1.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -36,3 +36,15 @@ tab-state-keys: add the synchronous tab switch with per-tab memory, startup sele
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c78eb38`](https://github.com/sase-org/sase/commit/c78eb3805faaa4848aa7e8afea69364e2018f064) | feat(agent-tabs): tab switching, persistence, keys, minimal strip, and perf metric (sase-1bc.6.1.3) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 2026-09-27 17:22:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.6.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->
