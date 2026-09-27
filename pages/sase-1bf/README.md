@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Per-launch agent scratch (cargo targets, agent TMPDIRs) is removed when its launch is dead, on every managed temp root any writer actually used, regardless of which environment the service host was started with; cleanup refusals are visible; and `sase disk list` / disk-pressure notifications account for where the bytes really are, so a SASE host can no longer silently fill its disk.
 
+## Notes
+
+[2026-09-27T22:27:53Z · sase-1b2.land] DISCOVERED ISSUE (sase-1b2.land, sase-core 924884e, rustc/clippy 1.98.1 stable): ./scripts/check.sh clippy is red on crates/sase_core/src/launch_scratch_liveness.rs, added by 297bc1e (sase-1bf.2). Line 300 fn observe_unreadable trips clippy::too_many_arguments (8/7) in the lib, and line 477 fields.extend(std::iter::repeat("0".to_string()).take(17)) trips clippy::manual_repeat_n in lib test. These are the only sase_core lib/lib-test clippy denies at HEAD (the earlier finalizer/run_view/decode.rs denies from sase-1b2 no longer fire). Distinct from umbrella sase-1an (manual_range_contains/nonminimal_bool in other files).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +36,7 @@ Per-launch agent scratch (cargo targets, agent TMPDIRs) is removed when its laun
 | [sase-1bf.1](sase-1bf.1.md) | Managed temp root registry the reaper follows | ✓ closed | medium | 2026-09-27 | 1 | 2 |
 | [sase-1bf.2](sase-1bf.2.md) | Rust-owned launch scratch liveness that works under systemd | ✓ closed | medium | 2026-09-27 | 1 | 2 |
 | [sase-1bf.3](sase-1bf.3.md) | Dead-launch backstop pass and liveness-aware pressure | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1bf.4](sase-1bf.4.md) | Truthful disk attribution under pressure | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bf.4](sase-1bf.4.md) | Truthful disk attribution under pressure | ◐ in_progress | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bf.5](sase-1bf.5.md) | Retention for visual snapshot run reports | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1bf.6](sase-1bf.6.md) | Integrated acceptance on apollo and athena | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 
@@ -69,8 +73,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-1bf.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.1.md) | [sase-1bf.1](sase-1bf.1.md) | 2 |
 | [bbugyi200.apollo.sase-1bf.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.2.md) | [sase-1bf.2](sase-1bf.2.md) | 2 |
-| [bbugyi200.apollo.sase-1bf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.3/README.md) | [sase-1bf.3](sase-1bf.3.md) | 0 |
-| [bbugyi200.apollo.sase-1bf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.4/README.md) | [sase-1bf.4](sase-1bf.4.md) | 0 |
+| [bbugyi200.apollo.sase-1bf.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.3.md) | [sase-1bf.3](sase-1bf.3.md) | 0 |
+| [bbugyi200.apollo.sase-1bf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.4.md) | [sase-1bf.4](sase-1bf.4.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.5/README.md) | [sase-1bf.5](sase-1bf.5.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.6/README.md) | [sase-1bf.6](sase-1bf.6.md) | 0 |
 | [bbugyi200.apollo.sase-1bf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.land/README.md) | [sase-1bf](README.md) | 0 |
@@ -84,6 +88,7 @@ flowchart TD
 | sase-core | [`sase-core@297bc1e`](https://github.com/sase-org/sase-core/commit/297bc1e3364c6017992b2307080390ae61894c8b) | feat(core): launch\_scratch\_liveness module with procfs probe bindings | [sase-1bf.2](sase-1bf.2.md) | 2026-09-27 15:35:48 EDT |
 | sase | [`40295ea`](https://github.com/sase-org/sase/commit/40295eaf543f8e64e1e34c0862bce1411a353a42) | feat(managed-tmp): add Rust-owned root registry the reaper follows (sase-1bf.1) | [sase-1bf.1](sase-1bf.1.md) | 2026-09-27 17:19:10 EDT |
 | sase-core | [`sase-core@924884e`](https://github.com/sase-org/sase-core/commit/924884e81b7c69aa2b30714a6cb2a9adac99484f) | feat(managed-tmp-roots): add Rust-owned registry with Py bindings (sase-1bf.1) | [sase-1bf.1](sase-1bf.1.md) | 2026-09-27 17:32:22 EDT |
+| sase | [`5db68f7`](https://github.com/sase-org/sase/commit/5db68f77f2e46d989934643dd8dad318cbc13fa2) | feat(disk): truthful disk attribution under pressure (sase-1bf.4) | [sase-1bf.4](sase-1bf.4.md) | 2026-09-27 19:16:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
