@@ -14,7 +14,7 @@ step-channel-and-live-sink: add SASE_FINALIZER_STEPS_FILE, emit_step and the SDK
 ## Dependencies
 
 - **Blocks:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.5](sase-1b2.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.5](sase-1b2.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

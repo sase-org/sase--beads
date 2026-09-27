@@ -21,7 +21,7 @@ status-summary-adapter: move the sase-core pin past core-status-wire, mirror fin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.7/README.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
+| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

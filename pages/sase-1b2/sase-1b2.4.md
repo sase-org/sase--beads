@@ -21,7 +21,7 @@ journal-and-summary: add the best-effort finalizers/progress.jsonl writer and th
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.5](sase-1b2.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.5](sase-1b2.5.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.8](sase-1b2.8.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
