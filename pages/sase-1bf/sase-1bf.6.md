@@ -13,7 +13,7 @@ host-acceptance: after deployment, prove on apollo and athena that the registry 
 
 ## Dependencies
 
-- **Depends on:** [sase-1bf.1](sase-1bf.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bf.1](sase-1bf.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bf.2](sase-1bf.2.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bf.3](sase-1bf.3.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bf.4](sase-1bf.4.md) ◐ · ⧖ 2026-09-27
