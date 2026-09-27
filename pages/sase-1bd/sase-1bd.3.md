@@ -13,7 +13,7 @@ red-gear: record every update-lane attempt through the journal. Session workers 
 
 ## Dependencies
 
-- **Depends on:** [sase-1bd.1](sase-1bd.1.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bd.1](sase-1bd.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bd.2](sase-1bd.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bd.4](sase-1bd.4.md) ◐ · ⧖ 2026-09-27
 
