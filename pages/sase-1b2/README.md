@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -78,7 +78,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.5](sase-1b2.5.md) | One uniform operation record across every executor | ✓ closed | medium | 2026-09-27 | 1 | 1 |
@@ -104,7 +104,7 @@ flowchart TD
     n10["sase-1b2.18: Live tails, following, and the 1 Hz tick for the selected agent [closed]"]
     n11["sase-1b2.19: Remove the flag, add goldens, inspect live, and bench [closed]"]
     n12["sase-1b2.2: FinalizerNodeView projection - decoders, precedence, and selection [closed]"]
-    n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [in_progress]"]
+    n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [closed]"]
     n14["sase-1b2.3: FinalizerNodeView detail - attempts, operations, evidence, and runs [closed]"]
     n15["sase-1b2.4: Controller progress journal, handoff skips, and the row summary writer [closed]"]
     n16["sase-1b2.5: One uniform operation record across every executor [closed]"]
@@ -174,7 +174,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 1 |
 | [bbugyi200.athena.sase-1b2.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md) | [sase-1b2.19](sase-1b2.19.md) | 1 |
 | [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 1 |
-| [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.20/README.md) | [sase-1b2.20](sase-1b2.20.md) | 0 |
+| [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.20.md) | [sase-1b2.20](sase-1b2.20.md) | 1 |
 | [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 1 |
 | [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 1 |
 | [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 1 |
@@ -207,6 +207,7 @@ flowchart TD
 | sase | [`01994b5`](https://github.com/sase-org/sase/commit/01994b5299f28f6076de73ae17dd0f41985085bd) | feat(final-deck): one card block per run on session containers | [sase-1b2.17](sase-1b2.17.md) | 2026-09-27 11:19:32 EDT |
 | sase | [`ed0b66f`](https://github.com/sase-org/sase/commit/ed0b66f7b8e02100edbb351d7912f8425ee34cf8) | feat(final-deck): add gated 1 Hz live tail for actively-finalizing nodes | [sase-1b2.18](sase-1b2.18.md) | 2026-09-27 12:27:48 EDT |
 | sase | [`2d8f2f0`](https://github.com/sase-org/sase/commit/2d8f2f0566c876b347c06e6ffb53b8afa20e930b) | feat(ace): remove ace\_final\_deck flag and ship FINAL deck always-on | [sase-1b2.19](sase-1b2.19.md) | 2026-09-27 16:16:16 EDT |
+| sase | [`5a60113`](https://github.com/sase-org/sase/commit/5a60113e1c584955c1859a86ca808ac98a79a044) | docs(agents-tab): document FINAL deck, FINALIZING rows, receipts and finalizer keys | [sase-1b2.20](sase-1b2.20.md) | 2026-09-27 17:14:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -215,17 +216,23 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
-| read-by | [agent:sase-1ah.8.4.land][2] | Check whether the epic is active for routing a symvision failure | 1 |
-| read-by | [agent:sase-1b2.10][3] | epic notes for shared rules | 1 |
-| read-by | [agent:sase-1b2.16][4] | parent epic scope for phase sase-1b2.16 | 1 |
-| read-by | [agent:sase-1b2.9][5] | Need parent epic context for deck-spec-registry phase | 1 |
-| read-by | [agent:sase-1b6.land][6] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
+| read-by | [agent:research.2s.cld][2] | Check whether this in-flight epic overlaps Goals seams (finalizers, notifications, FINAL deck, tabs/grouping) | 1 |
+| read-by | [agent:research.2s.final][3] | Verify status of epic cited in Goals epic-split reports | 2 |
+| read-by | [agent:sase-1ah.8.4.land][4] | Check whether the epic is active for routing a symvision failure | 1 |
+| read-by | [agent:sase-1b2.10][5] | epic notes for shared rules | 1 |
+| read-by | [agent:sase-1b2.16][6] | parent epic scope for phase sase-1b2.16 | 1 |
+| read-by | [agent:sase-1b2.19][7] | Need shared rules in epic notes for cutover | 2 |
+| read-by | [agent:sase-1b2.9][8] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1b6.land][9] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.final/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
 
 <!-- sase:referenced-by:end -->
