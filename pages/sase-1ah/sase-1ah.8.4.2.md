@@ -36,3 +36,15 @@ ratchet-receipt-wheel: cut the urgent sase-core release, confirm a complete rece
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bc71445`](https://github.com/sase-org/sase/commit/bc71445748c91d038e47f8473ce9d6ace1e20fc0) | chore(core): ratchet sase-core-rs floor to \>=0.35.0,\<0.36.0 | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 2026-09-27 07:33:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ah.8.4.2--6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.4.2.md
+
+<!-- sase:referenced-by:end -->

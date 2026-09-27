@@ -31,6 +31,8 @@ A named verification run can mint a short-lived receipt for its exact fingerprin
 
 PROPOSED FOLLOW-UP outcomes: .1 #1, .4 #1, .5 #2 stale sase-19x.4 entries are gone; .7 #1 and current just check ToolRun 15ca5e9c55deeb009ade3e8b3ee0340a reproduce five stale sase-19x.9 entries, recorded on active causal epic sase-19x, no duplicate task. .1 #2 apollo has too little corpus and mac is unconfigured; retain athena-only rollout caveat, decline a task absent a rollout target. .2 #2 worker.pid flake is already task sase-15e; added independent +1. .3 #1 full-lane timeout was a prior transport limit, not a confirmed distinct current defect; current check stops at known 19x Symvision before tests. .3 #2 and .5 #1 published-wheel gap is E4 work in child plan. .5 #3 Rust report migration is E4 work in child plan. .6 #1 card_blocks flag drift belongs to active sase-19x and its bead notes; .6 #2 core pin now includes e654e7c. .7 #2 missing local core build is resolved in this workspace; focused tests and receipt CLI work. No sase-1ah epic-symbol entries. No parent bead linked.
 
+[2026-09-27T11:56:58Z · sase-1ah.8.4.land] ANCESTOR LANDING BLOCKED (sase-1ah.8.4.land, 2026-09-27, sase HEAD bc7144574): child epics sase-1ah.8.4 and sase-1ah.8 are now closed and their plan files are marked done. Two of the three gaps from this epic's landing note #1 are resolved: (a) the Rust opportunity report (sase-core 0cf5147, adopted in sase f7886b1a6), and (b) the published receipt-capable wheel (sase-core-rs 0.35.0 complete on PyPI, sase floor >=0.35.0,<0.36.0, fresh-venv proof). Gap (c) is still open. Landing gate 5 / step 7 require one live athena prepared-completion demo that commits the exact verified tree (pass, plus no-new if red), and no bead note proves that happened. sase-1ah.8.3 recorded the 2026-09-26 owner check (next due 2026-10-10) with 'prepared-completion commits: verify-monitor run pending', showed drift only through a fixture test, and closed on the clean-base-tree rule without a covering pass receipt. Today sase tool receipts shows 8 no_new_failures check receipts minted in the last 7 days (all expired, 0 active), but nothing shows a host finalizer consumed one to commit a prepared completion. The blocker for a live pass or no-new demo is just check staying red on active epic sase-1ab's rename drift (DISCOVERED ISSUEs recorded on sase-1ab) and on sase-1b2.7's symvision private import (recorded on sase-1b2). The land agent must either run and record a live accept:no-new or accept:pass prepared completion on athena, or deliberately record that gate as an accepted limitation, before closing sase-1ah. No sase-1ah epic-symbol entries.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -55,11 +57,11 @@ flowchart TD
     n5["sase-1ah.5: Measure content-equivalent verification repeats [closed]"]
     n6["sase-1ah.6: Gate prepared completion on a covering receipt [closed]"]
     n7["sase-1ah.7: Prove acceptance and remove the beta flag [closed]"]
-    n8["sase-1ah.8: Complete E4 receipt reporting and live acceptance [in_progress]"]
+    n8["sase-1ah.8: Complete E4 receipt reporting and live acceptance [closed]"]
     n9["sase-1ah.8.1: Put opportunity facts in the Rust core [closed]"]
     n10["sase-1ah.8.2: Adopt the core report and released wheel [closed]"]
     n11["sase-1ah.8.3: Demonstrate prepared completion and record the owner check [closed]"]
-    n12["sase-1ah.8.4: Publish the receipt-capable core wheel and raise the sase floor [in_progress]"]
+    n12["sase-1ah.8.4: Publish the receipt-capable core wheel and raise the sase floor [closed]"]
     n13["sase-1ah.8.4.1: Let release-plz select the gateway across a minor bump [closed]"]
     n14["sase-1ah.8.4.2: Publish the wheel and raise the sase floor [closed]"]
     n0 --> n1
@@ -104,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ah.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.3.md) | [sase-1ah.8.3](sase-1ah.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1ah.8.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.1/README.md) | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.4.2.md) | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 1 |
-| [bbugyi200.athena.sase-1ah.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md) | [sase-1ah.8.4](sase-1ah.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1ah.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md) | [sase-1ah.8.4](sase-1ah.8.4.md) | 1 |
 | [bbugyi200.athena.sase-1ah.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.8.land.md) | [sase-1ah.8](sase-1ah.8.md) | 0 |
 | [bbugyi200.athena.sase-1ah.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ah.land.md) | [sase-1ah](README.md) | 0 |
 
@@ -124,6 +126,7 @@ flowchart TD
 | sase | [`f7886b1`](https://github.com/sase-org/sase/commit/f7886b1a64dab09bb7bc85846f6b838dd6b955bc) | feat(tool): adopt Rust core receipts opportunity report (sase-1ah.8.2) | [sase-1ah.8.2](sase-1ah.8.2.md) | 2026-09-26 17:42:59 EDT |
 | sase-core | [`sase-core@89ad2e9`](https://github.com/sase-org/sase-core/commit/89ad2e93e61a881acd873da0b3f6bd3e4479f74e) | fix(build): drop version pin on sase\_gateway path dependency | [sase-1ah.8.4.1](sase-1ah.8.4.1.md) | 2026-09-26 18:56:23 EDT |
 | sase | [`bc71445`](https://github.com/sase-org/sase/commit/bc71445748c91d038e47f8473ce9d6ace1e20fc0) | chore(core): ratchet sase-core-rs floor to \>=0.35.0,\<0.36.0 | [sase-1ah.8.4.2](sase-1ah.8.4.2.md) | 2026-09-27 07:33:59 EDT |
+| sase--plans | [`sase--plans@ac25e18`](https://github.com/sase-org/sase--plans/commit/ac25e1820c4bc41056e02969ba5caba3761b2745) | chore(plans): mark receipt\_capable\_wheel and e4\_landing\_remainder done | [sase-1ah.8.4](sase-1ah.8.4.md) | 2026-09-27 07:57:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
