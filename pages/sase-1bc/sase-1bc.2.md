@@ -17,7 +17,7 @@ core-tab-model: add sase_core agent_tab.rs (name canonicalization, reserved name
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.3](sase-1bc.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.3](sase-1bc.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-tab-model: add sase_core agent_tab.rs (name canonicalization, reserved name
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c448ed6`](https://github.com/sase-org/sase-core/commit/c448ed6d8da9e6874c16c4f9cfe7e1459922ac7a) | feat(agent-tab): core tab model with directive, typed units, and Python bindings | [sase-1bc.2](sase-1bc.2.md) | 2026-09-27 11:53:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.2][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.2/README.md
+
+<!-- sase:referenced-by:end -->

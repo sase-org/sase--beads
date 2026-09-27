@@ -32,7 +32,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 | [sase-1bc.11](sase-1bc.11.md) | Move agents between tabs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.12](sase-1bc.12.md) | Unflag, document, measure, and record memory | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.2](sase-1bc.2.md) | sase-core agent tab model, directive contract, and typed units | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bc.3](sase-1bc.3.md) | sase-core scan wire and fleet contract carry agent\_tab | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.3](sase-1bc.3.md) | sase-core scan wire and fleet contract carry agent\_tab | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.4](sase-1bc.4.md) | %tab launch path, storage, query field, and completion | ◐ in_progress | large | 2026-09-27 | 1 | 0 |
 | [sase-1bc.5](sase-1bc.5.md) | Lineage inheritance and dispatch preflight | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ◐ in_progress | large | 2026-09-27 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n3["sase-1bc.11: Move agents between tabs [in_progress]"]
     n4["sase-1bc.12: Unflag, document, measure, and record memory [in_progress]"]
     n5["sase-1bc.2: sase-core agent tab model, directive contract, and typed units [closed]"]
-    n6["sase-1bc.3: sase-core scan wire and fleet contract carry agent_tab [in_progress]"]
+    n6["sase-1bc.3: sase-core scan wire and fleet contract carry agent_tab [closed]"]
     n7["sase-1bc.4: %tab launch path, storage, query field, and completion [in_progress]"]
     n8["sase-1bc.5: Lineage inheritance and dispatch preflight [in_progress]"]
     n9["sase-1bc.6: Tab index, active-tab scope, keys, and cross-tab navigation [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.11/README.md) | [sase-1bc.11](sase-1bc.11.md) | 0 |
 | [bbugyi200.athena.sase-1bc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.12/README.md) | [sase-1bc.12](sase-1bc.12.md) | 0 |
 | [bbugyi200.athena.sase-1bc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.2/README.md) | [sase-1bc.2](sase-1bc.2.md) | 1 |
-| [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 0 |
+| [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 1 |
 | [bbugyi200.athena.sase-1bc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.4/README.md) | [sase-1bc.4](sase-1bc.4.md) | 0 |
 | [bbugyi200.athena.sase-1bc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.5/README.md) | [sase-1bc.5](sase-1bc.5.md) | 0 |
 | [bbugyi200.athena.sase-1bc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6/README.md) | [sase-1bc.6](sase-1bc.6.md) | 0 |
@@ -109,3 +109,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c448ed6`](https://github.com/sase-org/sase-core/commit/c448ed6d8da9e6874c16c4f9cfe7e1459922ac7a) | feat(agent-tab): core tab model with directive, typed units, and Python bindings | [sase-1bc.2](sase-1bc.2.md) | 2026-09-27 11:53:31 EDT |
+| sase-core | [`sase-core@0e8981a`](https://github.com/sase-org/sase-core/commit/0e8981a1f131d2dd040c4887ae949edf19fbeef6) | feat!: carry agent\_tab on scan wire (schema 11) and fleet contract (v7) | [sase-1bc.3](sase-1bc.3.md) | 2026-09-27 12:32:28 EDT |
