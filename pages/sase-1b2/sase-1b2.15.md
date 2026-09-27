@@ -13,7 +13,7 @@ final-overview-card: render the run-level Overview card. It shows the plan in DA
 
 ## Dependencies
 
-- **Depends on:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.14](sase-1b2.14.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.17](sase-1b2.17.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

@@ -63,7 +63,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.13](sase-1b2.13.md) | Read-only sase final status run view | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.14](sase-1b2.14.md) | Register the ⊛ FINAL deck with its loader, availability, and chrome | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.14](sase-1b2.14.md) | Register the ⊛ FINAL deck with its loader, availability, and chrome | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.15](sase-1b2.15.md) | The Overview card | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.16](sase-1b2.16.md) | Generic instance cards with commit and command enrichers | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.17](sase-1b2.17.md) | One card block per run on session containers | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -89,7 +89,7 @@ flowchart TD
     n3["sase-1b2.11: A generic card-document view and block host beyond Main [closed]"]
     n4["sase-1b2.12: Python run-view facade, artifact collector, and end-to-end proof [closed]"]
     n5["sase-1b2.13: Read-only sase final status run view [closed]"]
-    n6["sase-1b2.14: Register the ⊛ FINAL deck with its loader, availability, and chrome [in_progress]"]
+    n6["sase-1b2.14: Register the ⊛ FINAL deck with its loader, availability, and chrome [closed]"]
     n7["sase-1b2.15: The Overview card [in_progress]"]
     n8["sase-1b2.16: Generic instance cards with commit and command enrichers [in_progress]"]
     n9["sase-1b2.17: One card block per run on session containers [in_progress]"]
@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 1 |
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 1 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.13.md) | [sase-1b2.13](sase-1b2.13.md) | 1 |
-| [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.14.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
+| [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.14.md) | [sase-1b2.14](sase-1b2.14.md) | 1 |
 | [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.15/README.md) | [sase-1b2.15](sase-1b2.15.md) | 0 |
 | [bbugyi200.athena.sase-1b2.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md) | [sase-1b2.16](sase-1b2.16.md) | 0 |
 | [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 0 |
@@ -193,6 +193,7 @@ flowchart TD
 | sase | [`65c016a`](https://github.com/sase-org/sase/commit/65c016a8973dccf28ee71f17f004fdd3f3bde566) | feat(finalizers): add run-view adapter over core detail binding | [sase-1b2.12](sase-1b2.12.md) | 2026-09-27 08:26:55 EDT |
 | sase | [`6702105`](https://github.com/sase-org/sase/commit/6702105da8198cc71b4e0a07158d9a52f9e6934e) | fix(ace-tui): clear phase-owned symvision failures from card-document-view extraction | [sase-1b2.11](sase-1b2.11.md) | 2026-09-27 08:42:35 EDT |
 | sase | [`a0b25ee`](https://github.com/sase-org/sase/commit/a0b25eea567fe4941be3476d14d647a317d1ea25) | feat(final): add read-only sase final status run view | [sase-1b2.13](sase-1b2.13.md) | 2026-09-27 09:17:37 EDT |
+| sase | [`482ec80`](https://github.com/sase-org/sase/commit/482ec80ff9ed08299989c5ac529697fe393d0eee) | feat(ace-tui): register FINAL deck shell with loader, availability, and chrome | [sase-1b2.14](sase-1b2.14.md) | 2026-09-27 09:46:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

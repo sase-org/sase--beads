@@ -26,7 +26,7 @@ If it has not landed, use the same replace/keyword style so 1b1.1 merges cleanly
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.14](sase-1b2.14.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.9](sase-1b2.9.md) ✓ · ⧖ 2026-09-27
 
 ## Agents

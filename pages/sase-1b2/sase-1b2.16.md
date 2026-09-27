@@ -13,7 +13,7 @@ final-instance-cards: render one provider-neutral card per finalizer instance wi
 
 ## Dependencies
 
-- **Depends on:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.14](sase-1b2.14.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.17](sase-1b2.17.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
