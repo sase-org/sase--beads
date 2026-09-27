@@ -55,7 +55,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1b2.1](sase-1b2.1.md) | finalizer\_status summary field on the Rust agent-scan wire | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.10](sase-1b2.10.md) | Per-deck sticky preferred cards | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1b2.10](sase-1b2.10.md) | Per-deck sticky preferred cards | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.13](sase-1b2.13.md) | Read-only sase final status run view | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -81,7 +81,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 flowchart TD
     n0["sase-1b2: Finalizers on the Agents tab - FINALIZING rows, Reply receipts, and the ⊛ FINAL deck [in_progress]"]
     n1["sase-1b2.1: finalizer_status summary field on the Rust agent-scan wire [closed]"]
-    n2["sase-1b2.10: Per-deck sticky preferred cards [in_progress]"]
+    n2["sase-1b2.10: Per-deck sticky preferred cards [closed]"]
     n3["sase-1b2.11: A generic card-document view and block host beyond Main [in_progress]"]
     n4["sase-1b2.12: Python run-view facade, artifact collector, and end-to-end proof [in_progress]"]
     n5["sase-1b2.13: Read-only sase final status run view [in_progress]"]
@@ -151,7 +151,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 1 |
-| [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 0 |
+| [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 1 |
 | [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.11/README.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 0 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.13/README.md) | [sase-1b2.13](sase-1b2.13.md) | 0 |
@@ -182,6 +182,7 @@ flowchart TD
 | sase | [`88fee8c`](https://github.com/sase-org/sase/commit/88fee8ce3d9662bd8f120a990a4aced08164822e) | refactor(ace-tui): centralize deck definitions in DeckSpec record | [sase-1b2.9](sase-1b2.9.md) | 2026-09-27 06:41:19 EDT |
 | sase | [`d3493f7`](https://github.com/sase-org/sase/commit/d3493f71ae745a83c3dfdf22d4e4c055357a77e1) | feat(finalizers): uniform schema-v1 operation records across executors | [sase-1b2.5](sase-1b2.5.md) | 2026-09-27 06:49:50 EDT |
 | sase | [`988af8f`](https://github.com/sase-org/sase/commit/988af8f3bb640bb8d47054998c679aab12e4dc96) | feat(tui): mirror finalizer\_status in Python scan wire and agent model (sase-1b2.7) | [sase-1b2.7](sase-1b2.7.md) | 2026-09-27 06:53:17 EDT |
+| sase | [`93e61a0`](https://github.com/sase-org/sase/commit/93e61a07b14a345f980020f3053118e7363a4b1e) | feat(ace-tui): per-deck sticky preferred cards | [sase-1b2.10](sase-1b2.10.md) | 2026-09-27 07:11:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
