@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -67,12 +67,12 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.19](sase-1b2.19.md) | Remove the flag, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
-| [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ✓ closed | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.5](sase-1b2.5.md) | One uniform operation record across every executor | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.6](sase-1b2.6.md) | Step channel, stitch steps, and bounded live output | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.7](sase-1b2.7.md) | Python mirror and Agent model field for finalizer\_status | ✓ closed | small | 2026-09-27 | 1 | 1 |
-| [sase-1b2.8](sase-1b2.8.md) | FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace\_final\_deck | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.8](sase-1b2.8.md) | FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace\_final\_deck | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.9](sase-1b2.9.md) | DeckSpec registry and explicit per-deck dispatch | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
 ## Lineage
@@ -93,12 +93,12 @@ flowchart TD
     n11["sase-1b2.19: Remove the flag, add goldens, inspect live, and bench [in_progress]"]
     n12["sase-1b2.2: FinalizerNodeView projection - decoders, precedence, and selection [closed]"]
     n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [in_progress]"]
-    n14["sase-1b2.3: FinalizerNodeView detail - attempts, operations, evidence, and runs [in_progress]"]
+    n14["sase-1b2.3: FinalizerNodeView detail - attempts, operations, evidence, and runs [closed]"]
     n15["sase-1b2.4: Controller progress journal, handoff skips, and the row summary writer [closed]"]
     n16["sase-1b2.5: One uniform operation record across every executor [closed]"]
     n17["sase-1b2.6: Step channel, stitch steps, and bounded live output [in_progress]"]
     n18["sase-1b2.7: Python mirror and Agent model field for finalizer_status [closed]"]
-    n19["sase-1b2.8: FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace_final_deck [in_progress]"]
+    n19["sase-1b2.8: FINALIZING rows, ⊛ chips, header chip, and Reply receipts behind ace_final_deck [closed]"]
     n20["sase-1b2.9: DeckSpec registry and explicit per-deck dispatch [closed]"]
     n0 --> n1
     n0 --> n2
@@ -152,7 +152,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 1 |
 | [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 1 |
-| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.11/README.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
+| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 0 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.13/README.md) | [sase-1b2.13](sase-1b2.13.md) | 0 |
 | [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.14/README.md) | [sase-1b2.14](sase-1b2.14.md) | 0 |
@@ -168,7 +168,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 1 |
 | [bbugyi200.athena.sase-1b2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.6/README.md) | [sase-1b2.6](sase-1b2.6.md) | 0 |
 | [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 1 |
-| [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 0 |
+| [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 1 |
 | [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 1 |
 | [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 0 |
 
@@ -183,6 +183,7 @@ flowchart TD
 | sase | [`d3493f7`](https://github.com/sase-org/sase/commit/d3493f71ae745a83c3dfdf22d4e4c055357a77e1) | feat(finalizers): uniform schema-v1 operation records across executors | [sase-1b2.5](sase-1b2.5.md) | 2026-09-27 06:49:50 EDT |
 | sase | [`988af8f`](https://github.com/sase-org/sase/commit/988af8f3bb640bb8d47054998c679aab12e4dc96) | feat(tui): mirror finalizer\_status in Python scan wire and agent model (sase-1b2.7) | [sase-1b2.7](sase-1b2.7.md) | 2026-09-27 06:53:17 EDT |
 | sase | [`93e61a0`](https://github.com/sase-org/sase/commit/93e61a07b14a345f980020f3053118e7363a4b1e) | feat(ace-tui): per-deck sticky preferred cards | [sase-1b2.10](sase-1b2.10.md) | 2026-09-27 07:11:15 EDT |
+| sase | [`5dac334`](https://github.com/sase-org/sase/commit/5dac33451a4d36c224491fd1b42a78413f7fc845) | feat(ace-tui): FINALIZING rows, finalizer chips, header chip, and Reply receipts (sase-1b2.8) | [sase-1b2.8](sase-1b2.8.md) | 2026-09-27 07:23:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -191,9 +192,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
-| read-by | [agent:sase-1b2.9][2] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1b2.10][2] | epic notes for shared rules | 1 |
+| read-by | [agent:sase-1b2.9][3] | Need parent epic context for deck-spec-registry phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
 
 <!-- sase:referenced-by:end -->

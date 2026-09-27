@@ -28,7 +28,7 @@ Add pilot assertions that a FINAL panel shows no badge and that `P` is unavailab
 - **Depends on:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.15](sase-1b2.15.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.16](sase-1b2.16.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.8](sase-1b2.8.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.8](sase-1b2.8.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

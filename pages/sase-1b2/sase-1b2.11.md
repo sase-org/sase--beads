@@ -22,6 +22,10 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 - If they have not landed: finish your refactor. 1b1.2 carries a note telling it to port onto your generalized names.
 "Existing pilot suite unchanged" includes `test_deck_view_main_pilot.py`, the Files view pilots, `test_deck_view_policy.py` and the `agents_deck_view_*` goldens when present. The full shared rules are in the NOTES on epic sase-1b2.
 
+[2026-09-27T11:20:03Z · sase-1b2.11] PROPOSED FOLLOW-UP: deck pilot test_files_ctrl_j_scrolls_page_anchor_to_top flakes (~1/4 isolated runs, 5s scroll-settle wait_for timeout); reproduces identically on the clean base tree, unrelated to card-document-view
+
+[2026-09-27T11:20:24Z · sase-1b2.11] PROPOSED FOLLOW-UP: deck pilot test_block_spread_bracket_top_aligns flakes (~1/3 isolated runs, 5s scroll-settle wait_for timeout); reproduces identically on the clean base tree, unrelated to card-document-view
+
 ## Dependencies
 
 - **Blocks:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
@@ -31,7 +35,7 @@ At start and again before closing, run `git fetch -q` and then `git log --onelin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.11/README.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
+| [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.11.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

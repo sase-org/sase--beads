@@ -26,13 +26,7 @@ core-run-view-detail: extend the projection with attempts, operations (schema-v1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@e53d7a5`](https://github.com/sase-org/sase-core/commit/e53d7a5d34b5677d56380d07ce51fbbfdbe5c1ce) | feat(finalizer): implement core-run-view-detail projection content | [sase-1b2.3](sase-1b2.3.md) | 2026-09-27 07:12:39 EDT |
+| [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,7 +35,9 @@ core-run-view-detail: extend the projection with attempts, operations (schema-v1
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+| read-by | [agent:sase-1b2.3][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md
 
 <!-- sase:referenced-by:end -->

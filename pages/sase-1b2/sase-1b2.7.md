@@ -21,13 +21,19 @@ status-summary-adapter: move the sase-core pin past core-status-wire, mirror fin
 
 - **Depends on:** [sase-1b2.1](sase-1b2.1.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.12](sase-1b2.12.md) ◐ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b2.8](sase-1b2.8.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.8](sase-1b2.8.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
+| [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`988af8f`](https://github.com/sase-org/sase/commit/988af8f3bb640bb8d47054998c679aab12e4dc96) | feat(tui): mirror finalizer\_status in Python scan wire and agent model (sase-1b2.7) | [sase-1b2.7](sase-1b2.7.md) | 2026-09-27 06:53:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
