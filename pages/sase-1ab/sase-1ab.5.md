@@ -35,3 +35,15 @@ docs-memory: redeploy the landed skill sources, rewrite every concept mention in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`63d2bdc`](https://github.com/sase-org/sase/commit/63d2bdceac0b421ee53528a351b2105bdcb77d9d) | docs(sase-1ab.5): rename shell concepts to turn and named-proc terminology | [sase-1ab.5](sase-1ab.5.md) | 2026-09-26 14:49:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ab.5--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ab.5.md
+
+<!-- sase:referenced-by:end -->
