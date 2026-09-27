@@ -30,7 +30,7 @@ Add pilot assertions that a FINAL panel shows no badge and that `P` is unavailab
 - **Depends on:** [sase-1b2.10](sase-1b2.10.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.11](sase-1b2.11.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.12](sase-1b2.12.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b2.15](sase-1b2.15.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.15](sase-1b2.15.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.16](sase-1b2.16.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.8](sase-1b2.8.md) ✓ · ⧖ 2026-09-27
 
@@ -55,9 +55,11 @@ Add pilot assertions that a FINAL panel shows no badge and that `P` is unavailab
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
 | read-by | [agent:sase-1b2.14--1][2] | Need phase scope and design file | 1 |
 | read-by | [agent:sase-1b6.2--2][3] | Check closed bead owning stale DeckSpec epic-symbol | 1 |
+| read-by | [agent:sase-1b6.land][4] | Check whether the stale DeckSpec epic-symbol follow-up from sase-1b6.2 is still relevant | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.14.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b6.2.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
 
 <!-- sase:referenced-by:end -->

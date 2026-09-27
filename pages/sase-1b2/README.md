@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -54,6 +54,8 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 
 [2026-09-27T12:35:56Z · sase-1ab.land] DISCOVERED ISSUE (sase-1ab land agent, sase master 7b20f4c1c): three failures trace to this epic's commits. (1) mypy: src/sase/ace/tui/models/agent_bundle.py:116 [arg-type], dataclasses.asdict(value) receives DataclassInstance | type[DataclassInstance]. The dataclasses.is_dataclass guard also admits classes (988af8f3b, sase-1b2.7). (2) 988af8f3b bumped the AGENT_ARTIFACT_INDEX_SCHEMA_VERSION mirror to 34 but left two pin tests at 33: tests/core/test_agent_alias_history_wire.py::test_alias_history_schema_versions_are_pinned and tests/core/test_agent_output_variable_history_wire.py::test_history_schema_versions_are_pinned (assert 34 == 33). (3) tests/test_timezone_display_guard.py::test_no_system_clock_display_sites flags src/sase/ace/tui/widgets/prompt_panel/_agent_finalizer_receipt.py:45 'return datetime.fromtimestamp(started)' (5dac33451, sase-1b2.8). All three are deterministic in the full fast suite and a serial rerun. Heads-up: the turn-rename contract flip (child of sase-1ab) will take artifact index schema 35, because this epic's core change already used 34.
 
+[2026-09-27T14:33:17Z · sase-1b6.land] DISCOVERED ISSUE: sase-1b6.1 (2026-09-27) hit 2 clippy-1.95.0 -D warnings denies in crates/sase_core/src/finalizer/run_view/decode.rs (added by f52fa7c sase-1b2.2 / e53d7a5 sase-1b2.3) while running sase tool run check in sase-core; reproduced on clean base via ./scripts/check.sh clippy. Umbrella pre-existing-clippy task is sase-1an (+1 recorded); the decode.rs lints are this epic's to clear before landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -64,7 +66,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.13](sase-1b2.13.md) | Read-only sase final status run view | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.14](sase-1b2.14.md) | Register the ⊛ FINAL deck with its loader, availability, and chrome | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1b2.15](sase-1b2.15.md) | The Overview card | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1b2.15](sase-1b2.15.md) | The Overview card | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1b2.16](sase-1b2.16.md) | Generic instance cards with commit and command enrichers | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.17](sase-1b2.17.md) | One card block per run on session containers | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.18](sase-1b2.18.md) | Live tails, following, and the 1 Hz tick for the selected agent | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -90,7 +92,7 @@ flowchart TD
     n4["sase-1b2.12: Python run-view facade, artifact collector, and end-to-end proof [closed]"]
     n5["sase-1b2.13: Read-only sase final status run view [closed]"]
     n6["sase-1b2.14: Register the ⊛ FINAL deck with its loader, availability, and chrome [closed]"]
-    n7["sase-1b2.15: The Overview card [in_progress]"]
+    n7["sase-1b2.15: The Overview card [closed]"]
     n8["sase-1b2.16: Generic instance cards with commit and command enrichers [closed]"]
     n9["sase-1b2.17: One card block per run on session containers [in_progress]"]
     n10["sase-1b2.18: Live tails, following, and the 1 Hz tick for the selected agent [in_progress]"]
@@ -160,7 +162,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 1 |
 | [bbugyi200.athena.sase-1b2.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.13.md) | [sase-1b2.13](sase-1b2.13.md) | 1 |
 | [bbugyi200.athena.sase-1b2.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.14.md) | [sase-1b2.14](sase-1b2.14.md) | 1 |
-| [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.15.md) | [sase-1b2.15](sase-1b2.15.md) | 0 |
+| [bbugyi200.athena.sase-1b2.15](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.15.md) | [sase-1b2.15](sase-1b2.15.md) | 1 |
 | [bbugyi200.athena.sase-1b2.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md) | [sase-1b2.16](sase-1b2.16.md) | 1 |
 | [bbugyi200.athena.sase-1b2.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.17/README.md) | [sase-1b2.17](sase-1b2.17.md) | 0 |
 | [bbugyi200.athena.sase-1b2.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.18/README.md) | [sase-1b2.18](sase-1b2.18.md) | 0 |
@@ -195,6 +197,7 @@ flowchart TD
 | sase | [`a0b25ee`](https://github.com/sase-org/sase/commit/a0b25eea567fe4941be3476d14d647a317d1ea25) | feat(final): add read-only sase final status run view | [sase-1b2.13](sase-1b2.13.md) | 2026-09-27 09:17:37 EDT |
 | sase | [`482ec80`](https://github.com/sase-org/sase/commit/482ec80ff9ed08299989c5ac529697fe393d0eee) | feat(ace-tui): register FINAL deck shell with loader, availability, and chrome | [sase-1b2.14](sase-1b2.14.md) | 2026-09-27 09:46:07 EDT |
 | sase | [`6ad0539`](https://github.com/sase-org/sase/commit/6ad0539cfc5b337c87927b8e0779ef9de8631ce9) | feat(ace-tui): generic FINAL instance cards with commit and command enrichers | [sase-1b2.16](sase-1b2.16.md) | 2026-09-27 10:20:13 EDT |
+| sase | [`e75840b`](https://github.com/sase-org/sase/commit/e75840b0c9f665a7b22b6bbd2a107f17e63df89d) | feat(final-deck): add Overview card widget with document deck and tests | [sase-1b2.15](sase-1b2.15.md) | 2026-09-27 10:46:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -205,11 +208,15 @@ flowchart TD
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
 | read-by | [agent:sase-1ah.8.4.land][2] | Check whether the epic is active for routing a symvision failure | 1 |
 | read-by | [agent:sase-1b2.10][3] | epic notes for shared rules | 1 |
-| read-by | [agent:sase-1b2.9][4] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1b2.16][4] | parent epic scope for phase sase-1b2.16 | 1 |
+| read-by | [agent:sase-1b2.9][5] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1b6.land][6] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
 
 <!-- sase:referenced-by:end -->

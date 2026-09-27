@@ -41,7 +41,9 @@ final-instance-cards: render one provider-neutral card per finalizer instance wi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
+| read-by | [agent:sase-1b2.16][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
 
 <!-- sase:referenced-by:end -->
