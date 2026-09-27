@@ -15,7 +15,7 @@ run-view-adapter: move the pin past core-run-view-detail and add the typed final
 
 - **Blocks:** [sase-1b2.13](sase-1b2.13.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.14](sase-1b2.14.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1b2.3](sase-1b2.3.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.3](sase-1b2.3.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.6](sase-1b2.6.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b2.7](sase-1b2.7.md) ✓ · ⧖ 2026-09-27
 

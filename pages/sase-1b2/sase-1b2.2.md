@@ -17,7 +17,7 @@ core-run-view-model: in sase-core, add the finalizer run_view module with reques
 
 ## Dependencies
 
-- **Blocks:** [sase-1b2.3](sase-1b2.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b2.3](sase-1b2.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

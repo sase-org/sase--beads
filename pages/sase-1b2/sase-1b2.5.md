@@ -26,13 +26,7 @@ operation-records: add an OperationRecorder that writes schema-v1 attempt-N.<op>
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`d3493f7`](https://github.com/sase-org/sase/commit/d3493f71ae745a83c3dfdf22d4e4c055357a77e1) | feat(finalizers): uniform schema-v1 operation records across executors | [sase-1b2.5](sase-1b2.5.md) | 2026-09-27 06:49:50 EDT |
+| [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
