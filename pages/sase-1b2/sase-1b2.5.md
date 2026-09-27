@@ -13,7 +13,7 @@ operation-records: add an OperationRecorder that writes schema-v1 attempt-N.<op>
 
 ## Dependencies
 
-- **Depends on:** [sase-1b2.4](sase-1b2.4.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1b2.4](sase-1b2.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b2.6](sase-1b2.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

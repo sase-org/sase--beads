@@ -40,7 +40,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1b2.1](sase-1b2.1.md) | finalizer\_status summary field on the Rust agent-scan wire | ✓ closed | small | 2026-09-27 | 1 | 1 |
+| [sase-1b2.1](sase-1b2.1.md) | finalizer\_status summary field on the Rust agent-scan wire | ✓ closed | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.10](sase-1b2.10.md) | Per-deck sticky preferred cards | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.11](sase-1b2.11.md) | A generic card-document view and block host beyond Main | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.12](sase-1b2.12.md) | Python run-view facade, artifact collector, and end-to-end proof | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -54,7 +54,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 | [sase-1b2.2](sase-1b2.2.md) | FinalizerNodeView projection - decoders, precedence, and selection | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.20](sase-1b2.20.md) | User and plugin-author docs for finalizer visibility | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1b2.3](sase-1b2.3.md) | FinalizerNodeView detail - attempts, operations, evidence, and runs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1b2.4](sase-1b2.4.md) | Controller progress journal, handoff skips, and the row summary writer | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1b2.5](sase-1b2.5.md) | One uniform operation record across every executor | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.6](sase-1b2.6.md) | Step channel, stitch steps, and bounded live output | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1b2.7](sase-1b2.7.md) | Python mirror and Agent model field for finalizer\_status | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -80,7 +80,7 @@ flowchart TD
     n12["sase-1b2.2: FinalizerNodeView projection - decoders, precedence, and selection [in_progress]"]
     n13["sase-1b2.20: User and plugin-author docs for finalizer visibility [in_progress]"]
     n14["sase-1b2.3: FinalizerNodeView detail - attempts, operations, evidence, and runs [in_progress]"]
-    n15["sase-1b2.4: Controller progress journal, handoff skips, and the row summary writer [in_progress]"]
+    n15["sase-1b2.4: Controller progress journal, handoff skips, and the row summary writer [closed]"]
     n16["sase-1b2.5: One uniform operation record across every executor [in_progress]"]
     n17["sase-1b2.6: Step channel, stitch steps, and bounded live output [in_progress]"]
     n18["sase-1b2.7: Python mirror and Agent model field for finalizer_status [in_progress]"]
@@ -136,7 +136,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 1 |
+| [bbugyi200.athena.sase-1b2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.1/README.md) | [sase-1b2.1](sase-1b2.1.md) | 0 |
 | [bbugyi200.athena.sase-1b2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md) | [sase-1b2.10](sase-1b2.10.md) | 0 |
 | [bbugyi200.athena.sase-1b2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.11/README.md) | [sase-1b2.11](sase-1b2.11.md) | 0 |
 | [bbugyi200.athena.sase-1b2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.12/README.md) | [sase-1b2.12](sase-1b2.12.md) | 0 |
@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.2/README.md) | [sase-1b2.2](sase-1b2.2.md) | 0 |
 | [bbugyi200.athena.sase-1b2.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.20/README.md) | [sase-1b2.20](sase-1b2.20.md) | 0 |
 | [bbugyi200.athena.sase-1b2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.3/README.md) | [sase-1b2.3](sase-1b2.3.md) | 0 |
-| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 0 |
+| [bbugyi200.athena.sase-1b2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.4/README.md) | [sase-1b2.4](sase-1b2.4.md) | 1 |
 | [bbugyi200.athena.sase-1b2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.5/README.md) | [sase-1b2.5](sase-1b2.5.md) | 0 |
 | [bbugyi200.athena.sase-1b2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.6/README.md) | [sase-1b2.6](sase-1b2.6.md) | 0 |
 | [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.7/README.md) | [sase-1b2.7](sase-1b2.7.md) | 0 |
@@ -162,7 +162,7 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@f4f2e96`](https://github.com/sase-org/sase-core/commit/f4f2e96a2e9ee1fdfffa8cbf935d6c77e61bc8ca) | feat(agent-scan): add tolerant finalizer\_status summary to scan wire | [sase-1b2.1](sase-1b2.1.md) | 2026-09-27 06:13:01 EDT |
+| sase | [`beb1db0`](https://github.com/sase-org/sase/commit/beb1db054d46ae1ef9ca4b1d0141216e5e6a60be) | feat(finalizers): add controller progress journal and row summary writer | [sase-1b2.4](sase-1b2.4.md) | 2026-09-27 06:15:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
