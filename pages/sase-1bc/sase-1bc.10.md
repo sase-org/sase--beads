@@ -14,5 +14,5 @@ launch-view-ux: add the prompt-bar tab chip and remote-tab hint, the gb Launch T
 ## Dependencies
 
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.5](sase-1bc.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.5](sase-1bc.5.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.9](sase-1bc.9.md) ◐ · ⧖ 2026-09-27

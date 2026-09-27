@@ -22,7 +22,7 @@ tab-directive: bump the core pin; parse and validate %tab in Python; write agent
 ## Dependencies
 
 - **Depends on:** [sase-1bc.3](sase-1bc.3.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.5](sase-1bc.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.5](sase-1bc.5.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6](sase-1bc.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

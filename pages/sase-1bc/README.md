@@ -34,7 +34,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 | [sase-1bc.2](sase-1bc.2.md) | sase-core agent tab model, directive contract, and typed units | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.3](sase-1bc.3.md) | sase-core scan wire and fleet contract carry agent\_tab | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.4](sase-1bc.4.md) | %tab launch path, storage, query field, and completion | ✓ closed | large | 2026-09-27 | 1 | 1 |
-| [sase-1bc.5](sase-1bc.5.md) | Lineage inheritance and dispatch preflight | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
+| [sase-1bc.5](sase-1bc.5.md) | Lineage inheritance and dispatch preflight | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ◐ in_progress | large | 2026-09-27 | 0 | 0 |
 | [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ◐ in_progress | large | 2026-09-27 | 0 | 0 |
 | [sase-1bc.8](sase-1bc.8.md) | The o/O layout ladder | ◐ in_progress | medium | 2026-09-27 | 0 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n5["sase-1bc.2: sase-core agent tab model, directive contract, and typed units [closed]"]
     n6["sase-1bc.3: sase-core scan wire and fleet contract carry agent_tab [closed]"]
     n7["sase-1bc.4: %tab launch path, storage, query field, and completion [closed]"]
-    n8["sase-1bc.5: Lineage inheritance and dispatch preflight [in_progress]"]
+    n8["sase-1bc.5: Lineage inheritance and dispatch preflight [closed]"]
     n9["sase-1bc.6: Tab index, active-tab scope, keys, and cross-tab navigation [in_progress]"]
     n10["sase-1bc.6.1: Agent tabs: tab index, active-tab scope, keys, and cross-tab navigation [in_progress]"]
     n11["sase-1bc.6.1.1: Flag, ace.agent_tabs config, machine mode, and the tab index model [closed]"]
@@ -110,6 +110,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.2/README.md) | [sase-1bc.2](sase-1bc.2.md) | 1 |
 | [bbugyi200.athena.sase-1bc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.3/README.md) | [sase-1bc.3](sase-1bc.3.md) | 1 |
 | [bbugyi200.athena.sase-1bc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.4.md) | [sase-1bc.4](sase-1bc.4.md) | 1 |
+| [bbugyi200.athena.sase-1bc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.5/README.md) | [sase-1bc.5](sase-1bc.5.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.1/README.md) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 1 |
 
 ## Commits
@@ -121,3 +122,4 @@ flowchart TD
 | sase | [`4bae6f5`](https://github.com/sase-org/sase/commit/4bae6f5fef9d684c05a0d2fb0b685daf7e794743) | feat(agents-deck): move card-block stepping from brackets to parens, delete dead Focus/Fleet state (sase-1bc.1) | [sase-1bc.1](sase-1bc.1.md) | 2026-09-27 12:44:49 EDT |
 | sase | [`372ecc9`](https://github.com/sase-org/sase/commit/372ecc97c36ae7b7b25edb10a35b6ccf6da3e958) | feat(xprompt): implement %tab directive for agent tab naming | [sase-1bc.4](sase-1bc.4.md) | 2026-09-27 13:29:47 EDT |
 | sase | [`8ad9637`](https://github.com/sase-org/sase/commit/8ad96371875bd3fb3fdad763a32e2751e0bd218a) | feat(agent-tabs): tab-foundation flag, config, machine mode, and tab index model (sase-1bc.6.1.1) | [sase-1bc.6.1.1](sase-1bc.6.1.1.md) | 2026-09-27 14:06:56 EDT |
+| sase | [`aff4fc0`](https://github.com/sase-org/sase/commit/aff4fc082f4035f3c715015969a0d6086689c612) | feat(tabs): inherit agent tab across launches with dispatch preflight (sase-1bc.5) | [sase-1bc.5](sase-1bc.5.md) | 2026-09-27 14:19:31 EDT |
