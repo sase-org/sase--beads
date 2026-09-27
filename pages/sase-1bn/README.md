@@ -32,7 +32,7 @@ Ctrl+S turns the Agents-tab node sidebar into a fixed-width, row-for-row node ra
 | [sase-1bn.3](sase-1bn.3.md) | Paint-time rail projection inside AgentList | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bn.4](sase-1bn.4.md) | Structural zoom chrome on the zoomed deck panel | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bn.5](sase-1bn.5.md) | Wire the rail into the Agents tab and delete NodeSpine | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1bn.6](sase-1bn.6.md) | Align expanded status banners with the rail glyphs | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1bn.6](sase-1bn.6.md) | Align expanded status banners with the rail glyphs | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1bn.7](sase-1bn.7.md) | Info-row, footer, tooltip, help, palette, and docs affordances | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n3["sase-1bn.3: Paint-time rail projection inside AgentList [in_progress]"]
     n4["sase-1bn.4: Structural zoom chrome on the zoomed deck panel [in_progress]"]
     n5["sase-1bn.5: Wire the rail into the Agents tab and delete NodeSpine [in_progress]"]
-    n6["sase-1bn.6: Align expanded status banners with the rail glyphs [in_progress]"]
+    n6["sase-1bn.6: Align expanded status banners with the rail glyphs [closed]"]
     n7["sase-1bn.7: Info-row, footer, tooltip, help, palette, and docs affordances [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1bn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.3/README.md) | [sase-1bn.3](sase-1bn.3.md) | 0 |
 | [bbugyi200.apollo.sase-1bn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.4/README.md) | [sase-1bn.4](sase-1bn.4.md) | 0 |
 | [bbugyi200.apollo.sase-1bn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.5/README.md) | [sase-1bn.5](sase-1bn.5.md) | 0 |
-| [bbugyi200.apollo.sase-1bn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.6/README.md) | [sase-1bn.6](sase-1bn.6.md) | 0 |
+| [bbugyi200.apollo.sase-1bn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.6/README.md) | [sase-1bn.6](sase-1bn.6.md) | 1 |
 | [bbugyi200.apollo.sase-1bn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.7/README.md) | [sase-1bn.7](sase-1bn.7.md) | 0 |
 | [bbugyi200.apollo.sase-1bn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.land/README.md) | [sase-1bn](README.md) | 0 |
 
@@ -82,3 +82,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`55e4bf7`](https://github.com/sase-org/sase/commit/55e4bf73b27bc7d3b4eecb4e1e7d75ddd85f5337) | fix(ace-tui): correct rail module panel-titles import path (sase-1bn.2) | [sase-1bn.2](sase-1bn.2.md) | 2026-09-27 18:25:29 EDT |
 | sase | [`42bb50a`](https://github.com/sase-org/sase/commit/42bb50a80c7a5d25e3d8e49e4a2279ba775b120f) | feat(ace): three sidebar modes with zoom state fixes (sase-1bn.1) | [sase-1bn.1](sase-1bn.1.md) | 2026-09-27 18:42:27 EDT |
+| sase | [`74d1ab8`](https://github.com/sase-org/sase/commit/74d1ab8e1a995c0f6933ae41d7d1a0ba0c4ba1d7) | feat(ace-tui): align expanded status banners with rail glyphs (sase-1bn.6) | [sase-1bn.6](sase-1bn.6.md) | 2026-09-27 19:05:23 EDT |
