@@ -32,3 +32,15 @@ fail_closed_read: remove the active-only fallback and cover stale bindings and f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7e54203`](https://github.com/sase-org/sase/commit/7e54203ba044ae262ffea9ca4670a6a2bb898a3c) | fix(ace-tui): make prompt-bar stash restore fail-closed on snapshot read | [sase-1au.6.1](sase-1au.6.1.md) | 2026-09-26 20:23:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1au.6.1--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1au.6.1.md
+
+<!-- sase:referenced-by:end -->

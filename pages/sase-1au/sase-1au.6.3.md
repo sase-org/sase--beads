@@ -14,7 +14,7 @@ overlay_visuals: add narrow and wide Prompts overlay PNG snapshots with populate
 ## Dependencies
 
 - **Depends on:** [sase-1au.6.1](sase-1au.6.1.md) ✓ · ⧖ 2026-09-26
-- **Depends on:** [sase-1au.6.2](sase-1au.6.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [sase-1au.6.2](sase-1au.6.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
