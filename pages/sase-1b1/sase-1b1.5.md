@@ -24,7 +24,7 @@ Resolve additively. App-level `P` and the picker's `n`/`N` do not collide, becau
 
 - **Depends on:** [sase-1b1.3](sase-1b1.3.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1b1.4](sase-1b1.4.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1b1.6](sase-1b1.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1b1.6](sase-1b1.6.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1b1.7](sase-1b1.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
