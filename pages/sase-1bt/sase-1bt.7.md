@@ -17,7 +17,7 @@ runs-card-anatomy: move the core pin past the detail projection and render each 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bt.10](sase-1bt.10.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.10](sase-1bt.10.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.2](sase-1bt.2.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.6](sase-1bt.6.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.8](sase-1bt.8.md) ◐ · ⧖ 2026-09-27
@@ -34,3 +34,15 @@ runs-card-anatomy: move the core pin past the detail projection and render each 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`89e4882`](https://github.com/sase-org/sase/commit/89e48828033154d528684db50a9bc0dfae9487a1) | feat(runs-card): add tool run block anatomy with waterfall, detail, and log hints | [sase-1bt.7](sase-1bt.7.md) | 2026-09-28 04:39:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md
+
+<!-- sase:referenced-by:end -->

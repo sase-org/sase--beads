@@ -34,7 +34,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1bt.1](sase-1bt.1.md) | Live glance, node summaries, brief lists, and the verdict bucket in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.10](sase-1bt.10.md) | Admin Center Tools pane with Runs, Failures, and Catalog views | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.10](sase-1bt.10.md) | Admin Center Tools pane with Runs, Failures, and Catalog views | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.11](sase-1bt.11.md) | Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.12](sase-1bt.12.md) | Remove ace\_tool\_runs, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
@@ -53,7 +53,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 flowchart TD
     n0["sase-1bt: sase tool in the TUI: live ⚒ chips, the ⚒ Runs card, and the Admin Center Tools pane [in_progress]"]
     n1["sase-1bt.1: Live glance, node summaries, brief lists, and the verdict bucket in sase-core [closed]"]
-    n2["sase-1bt.10: Admin Center Tools pane with Runs, Failures, and Catalog views [in_progress]"]
+    n2["sase-1bt.10: Admin Center Tools pane with Runs, Failures, and Catalog views [closed]"]
     n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [in_progress]"]
     n4["sase-1bt.12: Remove ace_tool_runs, add goldens, inspect live, and bench [in_progress]"]
     n5["sase-1bt.13: User docs for ToolRuns in the TUI [in_progress]"]
@@ -100,7 +100,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1bt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.1/README.md) | [sase-1bt.1](sase-1bt.1.md) | 1 |
-| [bbugyi200.athena.sase-1bt.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md) | [sase-1bt.10](sase-1bt.10.md) | 0 |
+| [bbugyi200.athena.sase-1bt.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md) | [sase-1bt.10](sase-1bt.10.md) | 1 |
 | [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.11/README.md) | [sase-1bt.11](sase-1bt.11.md) | 0 |
 | [bbugyi200.athena.sase-1bt.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md) | [sase-1bt.12](sase-1bt.12.md) | 0 |
 | [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 0 |
@@ -125,6 +125,7 @@ flowchart TD
 | sase | [`e771faa`](https://github.com/sase-org/sase/commit/e771faa8535ee039341157c71c6eea8ae6cbf7d3) | feat(tool-runs): add header chip with node selector and summary loader | [sase-1bt.5](sase-1bt.5.md) | 2026-09-28 01:25:29 EDT |
 | sase | [`83dc078`](https://github.com/sase-org/sase/commit/83dc078e33c079009c5b78cd2abc54b8455941e8) | feat(ace-tui): give Tools deck two card hosts with Runs first (sase-1bt.6) | [sase-1bt.6](sase-1bt.6.md) | 2026-09-28 03:04:54 EDT |
 | sase | [`89e4882`](https://github.com/sase-org/sase/commit/89e48828033154d528684db50a9bc0dfae9487a1) | feat(runs-card): add tool run block anatomy with waterfall, detail, and log hints | [sase-1bt.7](sase-1bt.7.md) | 2026-09-28 04:39:06 EDT |
+| sase | [`8c134b8`](https://github.com/sase-org/sase/commit/8c134b8169b6d9a7d7ca371077bf75a1af3812c5) | feat(ace-tui): add Admin Center Tools pane with Runs, Failures, and Catalog views (sase-1bt.10) | [sase-1bt.10](sase-1bt.10.md) | 2026-09-28 05:35:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
