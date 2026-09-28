@@ -21,4 +21,4 @@ stash-archive-recovery: bump the sase-core pin, add guarded archive facade funct
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ca.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.6/README.md) | [sase-1ca.6](sase-1ca.6.md) | 0 |
+| [bbugyi200.athena.sase-1ca.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.6.md) | [sase-1ca.6](sase-1ca.6.md) | 0 |

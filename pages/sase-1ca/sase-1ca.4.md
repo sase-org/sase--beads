@@ -19,7 +19,7 @@ restore-capture-hardening: restore loads from the pop outcome with fail-closed r
 
 ## Dependencies
 
-- **Blocks:** [sase-1ca.5](sase-1ca.5.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [sase-1ca.5](sase-1ca.5.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [sase-1ca.6](sase-1ca.6.md) ◐ · ⧖ 2026-09-28
 
 ## Agents

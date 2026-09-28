@@ -28,3 +28,15 @@ seal-pytest-home: fix the monkeypatch.undo() test that popped the real stash, re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`703b042`](https://github.com/sase-org/sase/commit/703b042c236d915bcc44635e702267cad36361be) | feat(ace): add tmux launch, isolation guards, notification settlement and stash-restore coverage | [sase-1ca.1](sase-1ca.1.md) | 2026-09-28 18:18:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ca.1--1][1] | Need phase scope and design | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.1.md
+
+<!-- sase:referenced-by:end -->
