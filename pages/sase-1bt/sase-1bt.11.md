@@ -21,3 +21,15 @@ tool-run-actions: add a confirmed stop as a durable proc with a typed result, a 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.11/README.md) | [sase-1bt.11](sase-1bt.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.10][1] | Check next phase scope to avoid overlap | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md
+
+<!-- sase:referenced-by:end -->

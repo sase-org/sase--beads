@@ -31,3 +31,15 @@ admin-tools-pane: add the Tools tab to the Admin Center, with a Runs list and de
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8c134b8`](https://github.com/sase-org/sase/commit/8c134b8169b6d9a7d7ca371077bf75a1af3812c5) | feat(ace-tui): add Admin Center Tools pane with Runs, Failures, and Catalog views (sase-1bt.10) | [sase-1bt.10](sase-1bt.10.md) | 2026-09-28 05:35:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.10][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md
+
+<!-- sase:referenced-by:end -->

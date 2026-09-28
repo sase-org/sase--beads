@@ -15,7 +15,7 @@ cutover: bench j/k and idle ticks with the flag on and off, delete the flag's Of
 
 - **Depends on:** [sase-1bt.11](sase-1bt.11.md) ◐ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.13](sase-1bt.13.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bt.8](sase-1bt.8.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.8](sase-1bt.8.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.9](sase-1bt.9.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
