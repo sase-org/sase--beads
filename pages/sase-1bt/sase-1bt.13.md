@@ -34,3 +34,15 @@ docs: document the shipped surfaces, vocabulary, keys, and Admin Center tab renu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7fc18e6`](https://github.com/sase-org/sase/commit/7fc18e6325c4e60789b0421985fe3d5ed98a6c2d) | docs(tui): document ToolRun surfaces, keys, and Admin Center tab | [sase-1bt.13](sase-1bt.13.md) | 2026-09-28 14:00:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.13][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md
+
+<!-- sase:referenced-by:end -->

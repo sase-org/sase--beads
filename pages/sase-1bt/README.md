@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1bt
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0tc](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0tc.md) · **Assignee:** `sase-1bt.land`
-**Created:** 2026-09-27 18:32:32 EDT
+**Created:** 2026-09-27 18:32:32 EDT · **Closed:** 2026-09-28 15:34:28 EDT
 **Plan:** [202609/tool\_runs\_tui\_surfaces.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_runs_tui_surfaces.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,10 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 
 [2026-09-28T10:13:17Z · 0tf] DISCOVERED ISSUE (found while landing sase-1bc.6.1.6, master 5b409a5aa3): _apply_tool_runs_snapshot in src/sase/ace/tui/tool_runs/loader.py (added by 4f09a28ea1, live row chips) walks every row in _agents_with_children and calls _try_patch_agent_row for each row with a live run. _try_patch_agent_row (actions/agents/_display_panel_patches.py) returns False for any row not in the rendered _agents list and whenever current_tab != 'agents', so needs_rebuild fires and forces _refresh_agents_display(list_changed=True) on every drift-probe apply (~2s while runs are live) that changes nothing visible. With agent_tabs on, any live run owned by an agent on another agent tab triggers this; with the flag off, children hidden under collapsed folds and any time the user is on another top-level tab do. Fix: only patch rows present in the rendered _agents (build visible = {a.identity for a in _agents} and skip others), and return early when current_tab != 'agents'; hidden rows repaint on their next normal rebuild. Add a test with a live run on an off-tab/hidden row asserting no full rebuild.
 
+[2026-09-28T18:34:30Z · sase-1bt.land] LAND TRIAGE (sase-1bt.land, master 916156f887). PROPOSED FOLLOW-UP outcomes: [sase-1bt.1 #1, sase-1bt.2 #1 clippy launch_scratch_liveness] declined: fixed upstream in sase-core (repeat_n now used; d437782/1fee641). [sase-1bt.1 #2 verdict request-building dedup] filed sase-1c8 (feature, medium, related sase-1ah). [sase-1bt.3 #1 wire schema-34 pins] declined: test_agent_alias_history_wire/test_agent_output_variable_history_wire pass on master after core-pin bump d56e5dfa5f. [sase-1bt.3--1 #2, sase-1bt.6--1 #2, sase-1bt.11--2 #4 base-tree full-suite failures] declined: pre-existing, owned by other epics; sampled tests (agent_completion, repeat_env, timezone guard, real_opener_resume[updates], completion candidates) all pass on master now. [sase-1bt.4 #1 test_agent_completion] declined: passes on master. [sase-1bt.5 #1 confirm just check green] carried into the land tale's verification. [sase-1bt.5 #2, sase-1bt.8 #3 live screenshot inspection] covered by sase-1bt.12 goldens (26 PNGs inspected); land tale re-inspects the jump paths live. [sase-1bt.6 #1 ctrl_j flake] duplicate: +1 on sase-1a7. [sase-1bt.8 #1 timezone guard] resolved in-epic (view_vocabulary/blocks use format_local; test passes); also closes epic note #1. [sase-1bt.8 #2 header half-page scroll test] declined: passes on master (b536e0c267). [sase-1bt.9 #1 run-link click + v hint jumps] epic work: planned in the land tale. [sase-1bt.11--1 #1 sase-1bu.5 symbols] resolved by sase-1bt.11--1 itself (#3). [sase-1bt.12 #1 test_config_schema tool_runs keymap] epic-caused (sase-1bt.11 added stop_run/run_tool without schema); fixed by lander in src/sase/config/sase.schema.json, test passes. [sase-1bt.13 #1 glossary text] filed memory task sase-1c9 (plan forbade memory edits; related sase-1bg). [sase-1bt.13 #2 init memory drift] declined: fixed by 73eaa9fab0, sase init memory --check exits 0. Flag bead sase-1bv re-closed (removal landed in 02ff49120f; check_feature_flags clean). Epic notes #2 (Tools-pane a jump) and #3 (snapshot apply rebuild storm) verified still present: epic work, planned in the land tale along with Failures enter/a, OpenToolRun Runs-block selection, and focus-target view switch.
+
+[2026-09-28T19:34:28Z · sase-1bt.land] Land tale complete. Land agent verified all 13 phases and triaged (sase-1c8/sase-1c9 filed, sase-1a7 +1, upstream fixes declined). Gaps fixed here: (A) shared reveal_tool_run_block/reveal_selected_node_run with owner-first matching, pending selection across the Tools document load, no store/log I/O; (B) Admin Runs a jumps to the run's block via the helper, Failures enter lists affected runs newest-first/bounded with last_run_id fallback, Failures a jumps to newest resolvable run, pane passes runs_limit=20 with old-core fallback; (C) sase-core opt-in runs_limit/affected_runs on tool_run_failures, default output byte-identical, Rust tests for off-by-default/bounded/newest-first/distinct, core sase tool run check passed; (D) dedicated sase_toolrun_jump meta key (no more bogus block anchors), LLM Calls and Context click-to-jump via posted ToolRunJumpRequested, v hint mode lists ⚒ run jumps alongside run-log targets with toolrun-jump branch before the file fallback, all links_jumps symbols have real consumers; (E) OpenToolRun activates Runs card and selects block, focus_tool_run switches to Runs first and modal clears stale focus target (sase-189 closed); (F) glance apply returns early off the Agents tab, patches only visible rows, patches newly settled chips, rebuilds only on visible-patch failure. Schema stop_run/run_tool entries added. Tests: 105 passed across the five tool-run suites (real jump paths, no reconcile), visual admin-failures golden rebaselined for the affected-runs detail and check-clean, ruff/mypy clean, direct symvision clean with zero epic symbols.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -55,7 +59,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 
 ```mermaid
 flowchart TD
-    n0["sase-1bt: sase tool in the TUI: live ⚒ chips, the ⚒ Runs card, and the Admin Center Tools pane [in_progress]"]
+    n0["sase-1bt: sase tool in the TUI: live ⚒ chips, the ⚒ Runs card, and the Admin Center Tools pane [closed]"]
     n1["sase-1bt.1: Live glance, node summaries, brief lists, and the verdict bucket in sase-core [closed]"]
     n2["sase-1bt.10: Admin Center Tools pane with Runs, Failures, and Catalog views [closed]"]
     n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [closed]"]
@@ -116,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 1 |
 | [bbugyi200.athena.sase-1bt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md) | [sase-1bt.8](sase-1bt.8.md) | 1 |
 | [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 1 |
-| [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.land/README.md) | [sase-1bt](README.md) | 0 |
+| [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.land.md) | [sase-1bt](README.md) | 1 |
 
 ## Commits
 
@@ -135,6 +139,7 @@ flowchart TD
 | sase | [`c84f74c`](https://github.com/sase-org/sase/commit/c84f74c5f1c96580fc91324de0dd9c2986c59cab) | feat(ace-tui): tool-run actions with confirmed stop, catalog launch, OpenToolRun notify, procs decode, palette (sase-1bt.11) | [sase-1bt.11](sase-1bt.11.md) | 2026-09-28 09:05:18 EDT |
 | sase | [`02ff491`](https://github.com/sase-org/sase/commit/02ff49120fe5dae7773f5424e99045fcd9c4e25a) | feat(ace-tui): cut over ToolRun surfaces, retire ace\_tool\_runs (sase-1bt.12) | [sase-1bt.12](sase-1bt.12.md) | 2026-09-28 13:36:04 EDT |
 | sase | [`7fc18e6`](https://github.com/sase-org/sase/commit/7fc18e6325c4e60789b0421985fe3d5ed98a6c2d) | docs(tui): document ToolRun surfaces, keys, and Admin Center tab | [sase-1bt.13](sase-1bt.13.md) | 2026-09-28 14:00:46 EDT |
+| sase | [`386d383`](https://github.com/sase-org/sase/commit/386d383a942aeeef8f62b83195b4fa2d9619e24d) | feat(ace): wire every ToolRun jump, fix glance rebuilds, land sase-1bt | [sase-1bt](README.md) | 2026-09-28 16:31:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
