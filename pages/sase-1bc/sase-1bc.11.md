@@ -33,3 +33,15 @@ tab-moves: add persist-directive agent_tab support (meta, prompt, clan record), 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`647e053`](https://github.com/sase-org/sase/commit/647e053e94e46b0d2e34bcd083e777113ce2ce24) | feat(agents): add tab moves via CLI, persist directive, and TUI modal | [sase-1bc.11](sase-1bc.11.md) | 2026-09-28 09:05:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.11][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.11/README.md
+
+<!-- sase:referenced-by:end -->

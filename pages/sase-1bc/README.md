@@ -48,7 +48,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 | [sase-1bc.4](sase-1bc.4.md) | %tab launch path, storage, query field, and completion | ✓ closed | large | 2026-09-27 | 1 | 1 |
 | [sase-1bc.5](sase-1bc.5.md) | Lineage inheritance and dispatch preflight | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ✓ closed | large | 2026-09-27 | 1 | 0 |
-| [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ◐ in_progress | large | 2026-09-27 | 1 | 0 |
+| [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ✓ closed | large | 2026-09-27 | 1 | 1 |
 | [sase-1bc.8](sase-1bc.8.md) | The o/O layout ladder | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.9](sase-1bc.9.md) | Machine tabs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 
@@ -76,7 +76,7 @@ flowchart TD
     n17["sase-1bc.6.1.6.1: Scope pipeline, tab switch memory, catalog maintenance, and key yield fixes [closed]"]
     n18["sase-1bc.6.1.6.2: Back-anchors, failed-reveal restore, and fold-aware reveal for every cross-tab jump [closed]"]
     n19["sase-1bc.6.1.6.3: Honest marked and custom scope wording, docs accuracy, and symvision cleanup [closed]"]
-    n20["sase-1bc.7: The beautiful tab strip [in_progress]"]
+    n20["sase-1bc.7: The beautiful tab strip [closed]"]
     n21["sase-1bc.8: The o/O layout ladder [in_progress]"]
     n22["sase-1bc.9: Machine tabs [in_progress]"]
     n0 --> n1
@@ -148,7 +148,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.3.md) | [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.land/README.md) | [sase-1bc.6.1.6](sase-1bc.6.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.land.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
-| [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.7.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |
+| [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.7.md) | [sase-1bc.7](sase-1bc.7.md) | 1 |
 | [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
 | [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 0 |
 | [bbugyi200.athena.sase-1bc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.land/README.md) | [sase-1bc](README.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | sase | [`3ba7f3b`](https://github.com/sase-org/sase/commit/3ba7f3b22f279a6b900fd76405192841a06f73d7) | fix(ace-tui): repair cross-tab jump reveal/restore paths for agent tabs | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 2026-09-28 01:30:43 EDT |
 | sase | [`d094fe7`](https://github.com/sase-org/sase/commit/d094fe70ee7f98cb9242575bd5757c85c2a33091) | fix(ace-tui): make agent-tab bulk wording honest and align tab docs | [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) | 2026-09-28 02:48:46 EDT |
 | sase | [`647e053`](https://github.com/sase-org/sase/commit/647e053e94e46b0d2e34bcd083e777113ce2ce24) | feat(agents): add tab moves via CLI, persist directive, and TUI modal | [sase-1bc.11](sase-1bc.11.md) | 2026-09-28 09:05:28 EDT |
+| sase | [`77438b4`](https://github.com/sase-org/sase/commit/77438b4ef1161a994983a3e2ced3bae395a5aa64) | feat(ace): complete the Agents tab strip (sase-1bc.7) | [sase-1bc.7](sase-1bc.7.md) | 2026-09-28 12:58:30 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -14,7 +14,7 @@ layout-ladder: replace the merged boolean with a Split/Merged/All-tabs level; tu
 ## Dependencies
 
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.7](sase-1bc.7.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.7](sase-1bc.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
