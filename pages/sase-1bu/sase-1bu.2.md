@@ -26,17 +26,28 @@ ledger-io: add ledger file I/O in sase-core: STORE.json fence, marker-superset w
 ## Dependencies
 
 - **Depends on:** [sase-1bu.1](sase-1bu.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bu.3](sase-1bu.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bu.3](sase-1bu.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.2.md) | [sase-1bu.2](sase-1bu.2.md) | 2 |
+| [bbugyi200.athena.sase-1bu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.2.md) | [sase-1bu.2](sase-1bu.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`85beb8a`](https://github.com/sase-org/sase/commit/85beb8a060be362a2e380765977fad3897f1d618) | feat(goals): add goal ledger Python facade, bindings checks, and epic symbols (sase-1bu.2) | [sase-1bu.2](sase-1bu.2.md) | 2026-09-28 00:16:39 EDT |
 | sase-core | [`sase-core@cbe70f6`](https://github.com/sase-org/sase-core/commit/cbe70f66fb28a6b14a023a1458f26cf0f75de911) | feat(goal): add goal ledger I/O in sase-core with Python bindings (sase-1bu.2) | [sase-1bu.2](sase-1bu.2.md) | 2026-09-28 00:19:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bu.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.2.md
+
+<!-- sase:referenced-by:end -->
