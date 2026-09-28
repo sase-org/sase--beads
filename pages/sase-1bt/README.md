@@ -41,7 +41,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.10](sase-1bt.10.md) | Admin Center Tools pane with Runs, Failures, and Catalog views | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.11](sase-1bt.11.md) | Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.12](sase-1bt.12.md) | Remove ace\_tool\_runs, add goldens, inspect live, and bench | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
+| [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ✓ closed | small | 2026-09-27 | 1 | 1 |
 | [sase-1bt.2](sase-1bt.2.md) | Per-run detail projection with stage timeline and witness counts in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.3](sase-1bt.3.md) | Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.4](sase-1bt.4.md) | ToolRun glance snapshot service and live-only ⚒ row chips | ✓ closed | medium | 2026-09-27 | 1 | 1 |
@@ -60,7 +60,7 @@ flowchart TD
     n2["sase-1bt.10: Admin Center Tools pane with Runs, Failures, and Catalog views [closed]"]
     n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [closed]"]
     n4["sase-1bt.12: Remove ace_tool_runs, add goldens, inspect live, and bench [closed]"]
-    n5["sase-1bt.13: User docs for ToolRuns in the TUI [in_progress]"]
+    n5["sase-1bt.13: User docs for ToolRuns in the TUI [closed]"]
     n6["sase-1bt.2: Per-run detail projection with stage timeline and witness counts in sase-core [closed]"]
     n7["sase-1bt.3: Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move [closed]"]
     n8["sase-1bt.4: ToolRun glance snapshot service and live-only ⚒ row chips [closed]"]
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md) | [sase-1bt.10](sase-1bt.10.md) | 1 |
 | [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.11.md) | [sase-1bt.11](sase-1bt.11.md) | 1 |
 | [bbugyi200.athena.sase-1bt.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md) | [sase-1bt.12](sase-1bt.12.md) | 1 |
-| [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 0 |
+| [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 1 |
 | [bbugyi200.athena.sase-1bt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.2/README.md) | [sase-1bt.2](sase-1bt.2.md) | 1 |
 | [bbugyi200.athena.sase-1bt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.3.md) | [sase-1bt.3](sase-1bt.3.md) | 1 |
 | [bbugyi200.athena.sase-1bt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md) | [sase-1bt.4](sase-1bt.4.md) | 1 |
@@ -134,6 +134,7 @@ flowchart TD
 | sase | [`43cd823`](https://github.com/sase-org/sase/commit/43cd823afe8a54ad319dc944eda8da6cd5de3622) | feat(tool-runs): add run-links joining LLM calls to tool runs | [sase-1bt.9](sase-1bt.9.md) | 2026-09-28 06:14:44 EDT |
 | sase | [`c84f74c`](https://github.com/sase-org/sase/commit/c84f74c5f1c96580fc91324de0dd9c2986c59cab) | feat(ace-tui): tool-run actions with confirmed stop, catalog launch, OpenToolRun notify, procs decode, palette (sase-1bt.11) | [sase-1bt.11](sase-1bt.11.md) | 2026-09-28 09:05:18 EDT |
 | sase | [`02ff491`](https://github.com/sase-org/sase/commit/02ff49120fe5dae7773f5424e99045fcd9c4e25a) | feat(ace-tui): cut over ToolRun surfaces, retire ace\_tool\_runs (sase-1bt.12) | [sase-1bt.12](sase-1bt.12.md) | 2026-09-28 13:36:04 EDT |
+| sase | [`7fc18e6`](https://github.com/sase-org/sase/commit/7fc18e6325c4e60789b0421985fe3d5ed98a6c2d) | docs(tui): document ToolRun surfaces, keys, and Admin Center tab | [sase-1bt.13](sase-1bt.13.md) | 2026-09-28 14:00:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

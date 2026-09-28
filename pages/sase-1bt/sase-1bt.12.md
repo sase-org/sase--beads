@@ -20,7 +20,7 @@ cutover: bench j/k and idle ticks with the flag on and off, delete the flag's Of
 ## Dependencies
 
 - **Depends on:** [sase-1bt.11](sase-1bt.11.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.13](sase-1bt.13.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.13](sase-1bt.13.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.8](sase-1bt.8.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.9](sase-1bt.9.md) ✓ · ⧖ 2026-09-27
 
@@ -35,3 +35,15 @@ cutover: bench j/k and idle ticks with the flag on and off, delete the flag's Of
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`02ff491`](https://github.com/sase-org/sase/commit/02ff49120fe5dae7773f5424e99045fcd9c4e25a) | feat(ace-tui): cut over ToolRun surfaces, retire ace\_tool\_runs (sase-1bt.12) | [sase-1bt.12](sase-1bt.12.md) | 2026-09-28 13:36:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.12][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md
+
+<!-- sase:referenced-by:end -->
