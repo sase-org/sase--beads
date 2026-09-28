@@ -20,4 +20,4 @@ cli: add sase goal (list default, show, new, edit, drop, reopen, merge, doctor) 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.5/README.md) | [sase-1bu.5](sase-1bu.5.md) | 0 |
+| [bbugyi200.athena.sase-1bu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.5.md) | [sase-1bu.5](sase-1bu.5.md) | 0 |
