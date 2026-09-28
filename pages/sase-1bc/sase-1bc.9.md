@@ -19,7 +19,7 @@ machine-tabs: render machine tabs with the ⌨ glyph and health colors; adopt `l
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.10](sase-1bc.10.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.7](sase-1bc.7.md) ✓ · ⧖ 2026-09-27
 

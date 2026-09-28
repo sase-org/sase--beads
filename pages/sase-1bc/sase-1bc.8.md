@@ -41,3 +41,15 @@ layout-ladder: replace the merged boolean with a Split/Merged/All-tabs level; tu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6205ae3`](https://github.com/sase-org/sase/commit/6205ae345ea619d2e7b1789e55d890da985e6fc7) | feat(ace): complete the Agents o/O layout ladder (sase-1bc.8) | [sase-1bc.8](sase-1bc.8.md) | 2026-09-28 15:19:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.8.md
+
+<!-- sase:referenced-by:end -->

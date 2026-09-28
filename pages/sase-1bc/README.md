@@ -44,7 +44,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1bc.1](sase-1bc.1.md) | Free the brackets and delete the dead Focus/Fleet state | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bc.10](sase-1bc.10.md) | Launch-from-view inheritance and launch UX | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.10](sase-1bc.10.md) | Launch-from-view inheritance and launch UX | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.11](sase-1bc.11.md) | Move agents between tabs | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bc.12](sase-1bc.12.md) | Unflag, document, measure, and record memory | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bc.2](sase-1bc.2.md) | sase-core agent tab model, directive contract, and typed units | ✓ closed | medium | 2026-09-27 | 1 | 1 |
@@ -62,7 +62,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 flowchart TD
     n0["sase-1bc: Dynamic Agents sub-tabs: %tab, machine tabs, and the o/O layout ladder [in_progress]"]
     n1["sase-1bc.1: Free the brackets and delete the dead Focus/Fleet state [closed]"]
-    n2["sase-1bc.10: Launch-from-view inheritance and launch UX [in_progress]"]
+    n2["sase-1bc.10: Launch-from-view inheritance and launch UX [closed]"]
     n3["sase-1bc.11: Move agents between tabs [closed]"]
     n4["sase-1bc.12: Unflag, document, measure, and record memory [in_progress]"]
     n5["sase-1bc.2: sase-core agent tab model, directive contract, and typed units [closed]"]
@@ -134,7 +134,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1bc.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.1.md) | [sase-1bc.1](sase-1bc.1.md) | 1 |
-| [bbugyi200.athena.sase-1bc.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.10.md) | [sase-1bc.10](sase-1bc.10.md) | 0 |
+| [bbugyi200.athena.sase-1bc.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.10.md) | [sase-1bc.10](sase-1bc.10.md) | 1 |
 | [bbugyi200.athena.sase-1bc.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.11/README.md) | [sase-1bc.11](sase-1bc.11.md) | 1 |
 | [bbugyi200.athena.sase-1bc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.12/README.md) | [sase-1bc.12](sase-1bc.12.md) | 0 |
 | [bbugyi200.athena.sase-1bc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.2/README.md) | [sase-1bc.2](sase-1bc.2.md) | 1 |
@@ -178,6 +178,7 @@ flowchart TD
 | sase | [`77438b4`](https://github.com/sase-org/sase/commit/77438b4ef1161a994983a3e2ced3bae395a5aa64) | feat(ace): complete the Agents tab strip (sase-1bc.7) | [sase-1bc.7](sase-1bc.7.md) | 2026-09-28 12:58:30 EDT |
 | sase | [`ab2e35a`](https://github.com/sase-org/sase/commit/ab2e35a2d013cc586a935ac5acfb831a6232d166) | feat(ace): machine tabs for the Agents tab strip (sase-1bc.9) | [sase-1bc.9](sase-1bc.9.md) | 2026-09-28 14:25:11 EDT |
 | sase | [`6205ae3`](https://github.com/sase-org/sase/commit/6205ae345ea619d2e7b1789e55d890da985e6fc7) | feat(ace): complete the Agents o/O layout ladder (sase-1bc.8) | [sase-1bc.8](sase-1bc.8.md) | 2026-09-28 15:19:59 EDT |
+| sase | [`995e057`](https://github.com/sase-org/sase/commit/995e057116b84e6e149a161524ca5cfd870f9743) | feat(agents-tabs): launch-from-view inheritance and launch UX | [sase-1bc.10](sase-1bc.10.md) | 2026-09-28 15:44:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

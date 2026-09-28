@@ -19,7 +19,7 @@ tab-lineage-dispatch: export SASE_AGENT_TAB from agent, gate, and monitor turns 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.10](sase-1bc.10.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.4](sase-1bc.4.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
