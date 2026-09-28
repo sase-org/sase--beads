@@ -19,7 +19,7 @@ tab-moves: add persist-directive agent_tab support (meta, prompt, clan record), 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.12](sase-1bc.12.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.6](sase-1bc.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents

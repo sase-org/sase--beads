@@ -25,7 +25,7 @@ launch-view-ux: add the prompt-bar tab chip and remote-tab hint, the gb Launch T
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.12](sase-1bc.12.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.5](sase-1bc.5.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.9](sase-1bc.9.md) ✓ · ⧖ 2026-09-27
 
@@ -40,3 +40,15 @@ launch-view-ux: add the prompt-bar tab chip and remote-tab hint, the gb Launch T
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`995e057`](https://github.com/sase-org/sase/commit/995e057116b84e6e149a161524ca5cfd870f9743) | feat(agents-tabs): launch-from-view inheritance and launch UX | [sase-1bc.10](sase-1bc.10.md) | 2026-09-28 15:44:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.10--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.10.md
+
+<!-- sase:referenced-by:end -->
