@@ -20,4 +20,10 @@ core-release: drive sase-core release PR #315 to all-green CI including macOS, d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.2/README.md) | [sase-1c1.2](sase-1c1.2.md) | 0 |
+| [bbugyi200.athena.sase-1c1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.2/README.md) | [sase-1c1.2](sase-1c1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@d437782`](https://github.com/sase-org/sase-core/commit/d43778255b9dca28b4cdb1de38d413bda5e6cbe2) | test(launch-scratch-liveness): compare canonical paths in symlink regression | [sase-1c1.2](sase-1c1.2.md) | 2026-09-28 10:04:23 EDT |

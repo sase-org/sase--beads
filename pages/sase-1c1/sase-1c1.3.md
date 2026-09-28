@@ -23,10 +23,4 @@ core-pin: bump sase-core-revision.txt to sase-core master so the 3 goal bindings
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.3.md) | [sase-1c1.3](sase-1c1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`d56e5df`](https://github.com/sase-org/sase/commit/d56e5dfa5fc39f358f9c2ab66f29753d66499448) | chore(core-pin): bump sase-core pin to d2d9ec7 and keep at most one ratchet PR open | [sase-1c1.3](sase-1c1.3.md) | 2026-09-28 10:03:01 EDT |
+| [bbugyi200.athena.sase-1c1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.3.md) | [sase-1c1.3](sase-1c1.3.md) | 0 |

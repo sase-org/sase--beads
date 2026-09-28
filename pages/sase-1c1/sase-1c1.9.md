@@ -27,10 +27,4 @@ toobig-lint-tail: split src/sase/core/tool_run.py and src/sase/tool/executor.py 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`e9eb8c6`](https://github.com/sase-org/sase/commit/e9eb8c6d4b7c1e981d1336042ce2429233c166bc) | refactor(tool): split oversized executor and tool\_run modules, fix triage patch targets | [sase-1c1.9](sase-1c1.9.md) | 2026-09-28 09:57:08 EDT |
+| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 0 |
