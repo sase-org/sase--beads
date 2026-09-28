@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/tool_runs_tui_surfaces.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/tool_runs_tui_surfaces.md
 
@@ -45,7 +45,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.6](sase-1bt.6.md) | Tools becomes a two-card deck with ⚒ Runs first | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.7](sase-1bt.7.md) | Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.8](sase-1bt.8.md) | Live run blocks - in-flight stages, pending stages, follow and hold | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.9](sase-1bt.9.md) | Link LLM Calls, the slow-tool list, and Context cards to the run | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.9](sase-1bt.9.md) | Link LLM Calls, the slow-tool list, and Context cards to the run | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -64,7 +64,7 @@ flowchart TD
     n10["sase-1bt.6: Tools becomes a two-card deck with ⚒ Runs first [closed]"]
     n11["sase-1bt.7: Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence [closed]"]
     n12["sase-1bt.8: Live run blocks - in-flight stages, pending stages, follow and hold [closed]"]
-    n13["sase-1bt.9: Link LLM Calls, the slow-tool list, and Context cards to the run [in_progress]"]
+    n13["sase-1bt.9: Link LLM Calls, the slow-tool list, and Context cards to the run [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.6.md) | [sase-1bt.6](sase-1bt.6.md) | 1 |
 | [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 1 |
 | [bbugyi200.athena.sase-1bt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md) | [sase-1bt.8](sase-1bt.8.md) | 1 |
-| [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 0 |
+| [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 1 |
 | [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.land/README.md) | [sase-1bt](README.md) | 0 |
 
 ## Commits
@@ -127,6 +127,7 @@ flowchart TD
 | sase | [`89e4882`](https://github.com/sase-org/sase/commit/89e48828033154d528684db50a9bc0dfae9487a1) | feat(runs-card): add tool run block anatomy with waterfall, detail, and log hints | [sase-1bt.7](sase-1bt.7.md) | 2026-09-28 04:39:06 EDT |
 | sase | [`8c134b8`](https://github.com/sase-org/sase/commit/8c134b8169b6d9a7d7ca371077bf75a1af3812c5) | feat(ace-tui): add Admin Center Tools pane with Runs, Failures, and Catalog views (sase-1bt.10) | [sase-1bt.10](sase-1bt.10.md) | 2026-09-28 05:35:15 EDT |
 | sase | [`5b409a5`](https://github.com/sase-org/sase/commit/5b409a5aa373f2b3f6b30a4de9f05acea9325459) | feat(runs-card): live run blocks with in-place progress, silent state, and follow/hold (sase-1bt.8) | [sase-1bt.8](sase-1bt.8.md) | 2026-09-28 05:43:35 EDT |
+| sase | [`43cd823`](https://github.com/sase-org/sase/commit/43cd823afe8a54ad319dc944eda8da6cd5de3622) | feat(tool-runs): add run-links joining LLM calls to tool runs | [sase-1bt.9](sase-1bt.9.md) | 2026-09-28 06:14:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -135,7 +136,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1bt.4][1] | check epic children status | 1 |
+| read-by | [agent:sase-1bt.8][2] | Need epic status for phase ordering | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md
 
 <!-- sase:referenced-by:end -->

@@ -37,3 +37,15 @@ runs-card-live: make a live run's block progress in place with a pure 1 Hz elaps
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5b409a5`](https://github.com/sase-org/sase/commit/5b409a5aa373f2b3f6b30a4de9f05acea9325459) | feat(runs-card): live run blocks with in-place progress, silent state, and follow/hold (sase-1bt.8) | [sase-1bt.8](sase-1bt.8.md) | 2026-09-28 05:43:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md
+
+<!-- sase:referenced-by:end -->

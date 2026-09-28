@@ -21,7 +21,7 @@ runs-card-anatomy: move the core pin past the detail projection and render each 
 - **Depends on:** [sase-1bt.2](sase-1bt.2.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.6](sase-1bt.6.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.8](sase-1bt.8.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.9](sase-1bt.9.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.9](sase-1bt.9.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
