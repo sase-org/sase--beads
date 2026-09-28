@@ -28,7 +28,7 @@ ledger-root: resolve each project's ledger (goals.visibility / goals.host_role c
 ## Dependencies
 
 - **Depends on:** [sase-1bu.2](sase-1bu.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bu.4](sase-1bu.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bu.4](sase-1bu.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bu.6](sase-1bu.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
@@ -42,3 +42,15 @@ ledger-root: resolve each project's ledger (goals.visibility / goals.host_role c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9b69949`](https://github.com/sase-org/sase/commit/9b69949d98429b1b2fd2a2b9eab5957d695debc7) | feat(goals): ledger root resolution and hidden-clone write lane (sase-1bu.3) | [sase-1bu.3](sase-1bu.3.md) | 2026-09-28 02:30:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bu.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.3.md
+
+<!-- sase:referenced-by:end -->
