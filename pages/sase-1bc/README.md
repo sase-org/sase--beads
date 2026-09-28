@@ -35,6 +35,10 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 
 [2026-09-28T11:21:16Z · sase-1c1.5] sase-1c1.5 tab-completion: flag-off main-tab candidates were a product leak. Gated _build_tab_completion_candidates behind agent_tabs_enabled(); updated the two directive removed-spelling tests to assert removed names absent while %tab matches.
 
+[2026-09-28T18:06:13Z · sase-1bu.8.land] DISCOVERED ISSUE (proposed by sase-1bu.8.2 note #1; reproduced by sase-1bu.8.land at master 7fc18e6325): tests/completion/test_kind_coverage.py::test_every_value_slot_is_kinded_choiced_or_hinted fails because agent/tab/set:tab is uncaptioned. The agent tab set parser came from phase sase-1bc.11 commit 647e053e94; add a completion kind, choices, or value hint in this active epic. Unrelated to G1 goal CLI fixes.
+
+[2026-09-28T18:20:44Z · sase-1bu.8.land] DISCOVERED ISSUE (sase-1bu.8.land, check ToolRun e75e56ccb46d2113790301ac0a974915 at master 73eaa9fab0): tests/test_agent_session_terminology.py::test_current_source_avoids_agent_family_identifiers fails because src/sase/agents/cli_tab.py:34 still reads legacy agent_family. Introduced by agent tab set phase sase-1bc.11 (647e053e94); unrelated to G1 goals. The same check had a separately KNOWN config schema failure.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +54,7 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 | [sase-1bc.6](sase-1bc.6.md) | Tab index, active-tab scope, keys, and cross-tab navigation | ✓ closed | large | 2026-09-27 | 1 | 0 |
 | [sase-1bc.7](sase-1bc.7.md) | The beautiful tab strip | ✓ closed | large | 2026-09-27 | 1 | 1 |
 | [sase-1bc.8](sase-1bc.8.md) | The o/O layout ladder | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1bc.9](sase-1bc.9.md) | Machine tabs | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bc.9](sase-1bc.9.md) | Machine tabs | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -78,7 +82,7 @@ flowchart TD
     n19["sase-1bc.6.1.6.3: Honest marked and custom scope wording, docs accuracy, and symvision cleanup [closed]"]
     n20["sase-1bc.7: The beautiful tab strip [closed]"]
     n21["sase-1bc.8: The o/O layout ladder [in_progress]"]
-    n22["sase-1bc.9: Machine tabs [in_progress]"]
+    n22["sase-1bc.9: Machine tabs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -150,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.land.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.7.md) | [sase-1bc.7](sase-1bc.7.md) | 1 |
 | [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
-| [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 0 |
+| [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 1 |
 | [bbugyi200.athena.sase-1bc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.land/README.md) | [sase-1bc](README.md) | 0 |
 
 ## Commits
@@ -172,6 +176,7 @@ flowchart TD
 | sase | [`d094fe7`](https://github.com/sase-org/sase/commit/d094fe70ee7f98cb9242575bd5757c85c2a33091) | fix(ace-tui): make agent-tab bulk wording honest and align tab docs | [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) | 2026-09-28 02:48:46 EDT |
 | sase | [`647e053`](https://github.com/sase-org/sase/commit/647e053e94e46b0d2e34bcd083e777113ce2ce24) | feat(agents): add tab moves via CLI, persist directive, and TUI modal | [sase-1bc.11](sase-1bc.11.md) | 2026-09-28 09:05:28 EDT |
 | sase | [`77438b4`](https://github.com/sase-org/sase/commit/77438b4ef1161a994983a3e2ced3bae395a5aa64) | feat(ace): complete the Agents tab strip (sase-1bc.7) | [sase-1bc.7](sase-1bc.7.md) | 2026-09-28 12:58:30 EDT |
+| sase | [`ab2e35a`](https://github.com/sase-org/sase/commit/ab2e35a2d013cc586a935ac5acfb831a6232d166) | feat(ace): machine tabs for the Agents tab strip (sase-1bc.9) | [sase-1bc.9](sase-1bc.9.md) | 2026-09-28 14:25:11 EDT |
 
 <!-- sase:referenced-by:start -->
 

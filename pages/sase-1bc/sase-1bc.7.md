@@ -19,7 +19,7 @@ tab-strip: build AgentTabStrip in #agents-header with accent labels, the active 
 
 - **Depends on:** [sase-1bc.6](sase-1bc.6.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.8](sase-1bc.8.md) ◐ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.9](sase-1bc.9.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.9](sase-1bc.9.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ tab-strip: build AgentTabStrip in #agents-header with accent labels, the active 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`77438b4`](https://github.com/sase-org/sase/commit/77438b4ef1161a994983a3e2ced3bae395a5aa64) | feat(ace): complete the Agents tab strip (sase-1bc.7) | [sase-1bc.7](sase-1bc.7.md) | 2026-09-28 12:58:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.7--3][1] | verify phase completion before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.7.md
+
+<!-- sase:referenced-by:end -->

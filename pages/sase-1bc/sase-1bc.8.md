@@ -11,6 +11,10 @@
 
 layout-ladder: replace the merged boolean with a Split/Merged/All-tabs level; turn the grouping modal's layout row into a segmented control with o (next) and O (previous); add titles, info-row chip, all-tabs strip state, row tab chips, tribe-roster tab chips, and anchor-preserving transitions.
 
+## Notes
+
+[2026-09-28T18:13:34Z · sase-1bc.8] PROPOSED FOLLOW-UP: just validate init-memory check drifts on clean tree (sase_artifacts.md, README.md +3/-3, +2/-2); regenerate via sase init memory
+
 ## Dependencies
 
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
