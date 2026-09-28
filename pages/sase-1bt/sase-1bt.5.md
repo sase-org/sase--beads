@@ -22,7 +22,7 @@ header-chip: add the node-summary loader and LRU, a tool-runs detail-header lane
 ## Dependencies
 
 - **Depends on:** [sase-1bt.4](sase-1bt.4.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.6](sase-1bt.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.6](sase-1bt.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ header-chip: add the node-summary loader and LRU, a tool-runs detail-header lane
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e771faa`](https://github.com/sase-org/sase/commit/e771faa8535ee039341157c71c6eea8ae6cbf7d3) | feat(tool-runs): add header chip with node selector and summary loader | [sase-1bt.5](sase-1bt.5.md) | 2026-09-28 01:25:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 A live ToolRun shows on the row that owns it with its stage progress, and turns red when it goes silent. The selected node's header says whether its latest check added NEW failures. The Tools deck gains a ⚒ Runs card with a stage waterfall, triage items, and a log tail. LLM Calls, the slow-tool list, and monitor/proc Context cards link to the run instead of copying it. An Admin Center Tools pane covers project-wide runs, failure groups, the catalog, stopping a run, starting a named tool, and the -H settlement notification. Everything reads a slim sase-core projection and never reconciles or shells out on a UI path.
 
+## Notes
+
+[2026-09-28T06:22:58Z · sase-1bc.6.1.6.3--1] DISCOVERED ISSUE: tests/test_timezone_display_guard.py::test_no_system_clock_display_sites now also flags src/sase/tool/view_vocabulary.py:131 (datetime.fromtimestamp(settled_ts).strftime("%H:%M")), added by sase-1bt.3. Same process-clock display class as sase-1bp. Reproduced on tool run dc98c07a621b8d5776ca76e691f7f6b8. Route through sase.core.time (format_local).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -38,7 +42,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.3](sase-1bt.3.md) | Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.4](sase-1bt.4.md) | ToolRun glance snapshot service and live-only ⚒ row chips | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.5](sase-1bt.5.md) | Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.6](sase-1bt.6.md) | Tools becomes a two-card deck with ⚒ Runs first | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.6](sase-1bt.6.md) | Tools becomes a two-card deck with ⚒ Runs first | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.7](sase-1bt.7.md) | Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.8](sase-1bt.8.md) | Live run blocks - in-flight stages, pending stages, follow and hold | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.9](sase-1bt.9.md) | Link LLM Calls, the slow-tool list, and Context cards to the run | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -57,7 +61,7 @@ flowchart TD
     n7["sase-1bt.3: Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move [closed]"]
     n8["sase-1bt.4: ToolRun glance snapshot service and live-only ⚒ row chips [closed]"]
     n9["sase-1bt.5: Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids [closed]"]
-    n10["sase-1bt.6: Tools becomes a two-card deck with ⚒ Runs first [in_progress]"]
+    n10["sase-1bt.6: Tools becomes a two-card deck with ⚒ Runs first [closed]"]
     n11["sase-1bt.7: Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence [in_progress]"]
     n12["sase-1bt.8: Live run blocks - in-flight stages, pending stages, follow and hold [in_progress]"]
     n13["sase-1bt.9: Link LLM Calls, the slow-tool list, and Context cards to the run [in_progress]"]
@@ -104,7 +108,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.3.md) | [sase-1bt.3](sase-1bt.3.md) | 1 |
 | [bbugyi200.athena.sase-1bt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md) | [sase-1bt.4](sase-1bt.4.md) | 1 |
 | [bbugyi200.athena.sase-1bt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.5/README.md) | [sase-1bt.5](sase-1bt.5.md) | 1 |
-| [bbugyi200.athena.sase-1bt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.6/README.md) | [sase-1bt.6](sase-1bt.6.md) | 0 |
+| [bbugyi200.athena.sase-1bt.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.6.md) | [sase-1bt.6](sase-1bt.6.md) | 1 |
 | [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 0 |
 | [bbugyi200.athena.sase-1bt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md) | [sase-1bt.8](sase-1bt.8.md) | 0 |
 | [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 0 |
@@ -119,6 +123,7 @@ flowchart TD
 | sase | [`5c54e6c`](https://github.com/sase-org/sase/commit/5c54e6c14b641766c60349dc095ec4a63a092755) | feat(tool-runs): typed adapters, view vocabulary, beta flag, shared log tail, chop glyph move (sase-1bt.3) | [sase-1bt.3](sase-1bt.3.md) | 2026-09-27 22:42:38 EDT |
 | sase | [`4f09a28`](https://github.com/sase-org/sase/commit/4f09a28ea1bc6d6a7cd4828ab79a46a8719aea4e) | feat(ace-tui): implement glance row chips for tool runs | [sase-1bt.4](sase-1bt.4.md) | 2026-09-27 23:51:29 EDT |
 | sase | [`e771faa`](https://github.com/sase-org/sase/commit/e771faa8535ee039341157c71c6eea8ae6cbf7d3) | feat(tool-runs): add header chip with node selector and summary loader | [sase-1bt.5](sase-1bt.5.md) | 2026-09-28 01:25:29 EDT |
+| sase | [`83dc078`](https://github.com/sase-org/sase/commit/83dc078e33c079009c5b78cd2abc54b8455941e8) | feat(ace-tui): give Tools deck two card hosts with Runs first (sase-1bt.6) | [sase-1bt.6](sase-1bt.6.md) | 2026-09-28 03:04:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
