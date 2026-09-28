@@ -33,3 +33,15 @@ zoom-chrome: DeckArea marks the zoomed panel -zoomed with ZoomChrome context. Th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0a24cf8`](https://github.com/sase-org/sase/commit/0a24cf8024983c0bca74abd2956507ffd9b253c8) | feat(ace): structural zoom chrome on zoomed deck panel (sase-1bn.4) | [sase-1bn.4](sase-1bn.4.md) | 2026-09-27 19:24:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bn.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.4.md
+
+<!-- sase:referenced-by:end -->

@@ -22,7 +22,7 @@ sidebar-modes: derive EXPANDED / RAIL / HIDDEN from deck-area state. Stop zoom f
 ## Dependencies
 
 - **Blocks:** [sase-1bn.4](sase-1bn.4.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bn.5](sase-1bn.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bn.5](sase-1bn.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

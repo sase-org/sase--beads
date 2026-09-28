@@ -20,7 +20,7 @@ rail-projection: give AgentList a set_rail() render mode that overrides _get_vis
 ## Dependencies
 
 - **Depends on:** [sase-1bn.2](sase-1bn.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bn.5](sase-1bn.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bn.5](sase-1bn.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ rail-projection: give AgentList a set_rail() render mode that overrides _get_vis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f4cfc51`](https://github.com/sase-org/sase/commit/f4cfc51d701a1a459642b12870471a2d4a8d33a0) | feat(ace-tui): paint-time node rail projection inside AgentList (sase-1bn.3) | [sase-1bn.3](sase-1bn.3.md) | 2026-09-27 19:20:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bn.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.3/README.md
+
+<!-- sase:referenced-by:end -->
