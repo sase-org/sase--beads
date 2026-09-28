@@ -34,3 +34,15 @@ cli-fixes: ratchet the sase-core pin past core-fixes, then fix the sase goal CLI
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4feb596`](https://github.com/sase-org/sase/commit/4feb59611ba2d9c400c192c35ceeddecd1b7549c) | fix(goals): CLI, reconcile, and pin fixes for G1 landing (sase-1bu.8.2) | [sase-1bu.8.2](sase-1bu.8.2.md) | 2026-09-28 13:54:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bu.8.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.2/README.md
+
+<!-- sase:referenced-by:end -->

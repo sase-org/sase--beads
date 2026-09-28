@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1bu
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0tb.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0tb.w0.md) · **Assignee:** `sase-1bu.land`
-**Created:** 2026-09-27 19:03:16 EDT
+**Created:** 2026-09-27 19:03:16 EDT · **Closed:** 2026-09-28 14:24:43 EDT
 **Plan:** [202609/goal\_ledger.md](https://github.com/sase-org/sase--plans/blob/main/202609/goal_ledger.md)
 
 <!-- sase:links:start -->
@@ -35,6 +35,8 @@ Goals are durable, conflict-free, cross-machine records that a person can create
 
 [2026-09-28T15:34:57Z · sase-1bu.land] LAND VERIFICATION (sase-1bu.land, acfca26dba): DoD items met — (1) sase-core goal module present with 12 fixture kinds; (2) pin d2d9ec7 = last goal core commit (later core commits unrelated); (4) tests/goals 91 passed; (5) benchmark artifact file:explicit:1dba5d50c8383526696e7f4f with push-retry counters, warm-read miss filed as sase-1c3; (6) goal kind read/show/expand/stage/complete wired, 37 goldens unchanged per sase-1bu.6; (7) docs/goals.md in mkdocs nav next to Beads; (8) 3 new memory notes + 3 edits present; no sase-1bu epic-symbols. REMAINING EPIC WORK (reproduced, caused by this epic): core — edit/drop on unknown id mints a phantom active goal, raw uppercase ids fork items/<ID>, criterion ids use criteria.len() not event index, removal of unknown criterion ids commits silently, one corrupt event aborts list/show/doctor, 'vanished' race skip unreachable, corrupt goals-hot.json unrebuildable, doctor repair blanks projection header, reopen keeps merged_into, cancel-beaten claim stays active, fixture event ids are 25 chars, I/O probe settled_event_opens is zero by construction; sase — edit -x N silently no-ops (card numbers vs <event_id>.<i> ids), list -s lacks choices, write verbs ignore goal:<project>@id, reconcile commits outside store lock, doctor --repair refusal says 'sase goal repair', offline acceptance test monkeypatch.undo() leaks into real ~/.sase/projects/acme_goals_accept. Planned as child epic (core-fixes then cli-fixes, which also ratchets the pin past the core commit — a second agent turn is required because core commits are host-finalized). DECLINED from the audit: numeric unpublished count (outbox has no count source by design), editor/LSP goal payload icon (payload completion is kind-only in G1 by design), off-TTY compact rows (audit claim false: Python passes TTY state).
 
+[2026-09-28T18:24:43Z · sase-1bu.8.land] Rechecked G1 after child sase-1bu.8 closed: all seven original phases and the child epic are closed; parent and child linked plans validate with zero warnings. Original landing audit notes #2/#3 remain accounted for: child fixes cover all goal-ledger and CLI defects and pin sase-core to 32d80d6; the approved structural warm-list miss has measured task sase-1c3. Regenerated G1 artifact memory (73eaa9fab0), so sase init memory --check passes. All 114 goals and bead push tests pass against the rebuilt local Rust extension; prior artifact, docs, and benchmark evidence remains valid. Post-child log has only the goals CLI/pin fix and generated memory repair on G1 paths, with no new integration gap. No parent epic-symbol entries. Check e75e56ccb46d2113790301ac0a974915 passed all lint/validation and 779 scoped tests; its two remaining failures are agent-tabs terminology (recorded on active sase-1bc) and a KNOWN config schema mismatch, unrelated to G1. No force used.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -51,7 +53,7 @@ Goals are durable, conflict-free, cross-machine records that a person can create
 
 ```mermaid
 flowchart TD
-    n0["sase-1bu: SASE Goals G1: the goal ledger, the manual sase goal CLI, and the goal: artifact [in_progress]"]
+    n0["sase-1bu: SASE Goals G1: the goal ledger, the manual sase goal CLI, and the goal: artifact [closed]"]
     n1["sase-1bu.1: Goal domain model in sase-core [closed]"]
     n2["sase-1bu.2: On-disk ledger, hot projection, doctor scan, and bindings [closed]"]
     n3["sase-1bu.3: Ledger root resolution and the hidden-clone write lane [closed]"]
@@ -59,7 +61,7 @@ flowchart TD
     n5["sase-1bu.5: The sase goal command [closed]"]
     n6["sase-1bu.6: The goal artifact kind and @goal citations [closed]"]
     n7["sase-1bu.7: Acceptance fixtures, benchmark, docs, and memory [closed]"]
-    n8["sase-1bu.8: Goals G1 landing fixes: ledger correctness in sase-core and CLI honesty in sase [in_progress]"]
+    n8["sase-1bu.8: Goals G1 landing fixes: ledger correctness in sase-core and CLI honesty in sase [closed]"]
     n9["sase-1bu.8.1: Ledger correctness fixes in sase-core [closed]"]
     n10["sase-1bu.8.2: CLI, reconcile, and pin fixes in sase [closed]"]
     n0 --> n1
@@ -95,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md) | [sase-1bu.7](sase-1bu.7.md) | 1 |
 | [bbugyi200.athena.sase-1bu.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.1/README.md) | [sase-1bu.8.1](sase-1bu.8.1.md) | 1 |
 | [bbugyi200.athena.sase-1bu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.2/README.md) | [sase-1bu.8.2](sase-1bu.8.2.md) | 1 |
-| [bbugyi200.athena.sase-1bu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.land/README.md) | [sase-1bu.8](sase-1bu.8.md) | 0 |
+| [bbugyi200.athena.sase-1bu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.land/README.md) | [sase-1bu.8](sase-1bu.8.md) | 1 |
 | [bbugyi200.athena.sase-1bu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.land.md) | [sase-1bu](README.md) | 0 |
 
 ## Commits
@@ -113,6 +115,7 @@ flowchart TD
 | sase | [`acfca26`](https://github.com/sase-org/sase/commit/acfca26dbaf5a80550b8a294d87a46c00aac6dc7) | feat(goals): complete G1 acceptance for goal ledger | [sase-1bu.7](sase-1bu.7.md) | 2026-09-28 11:03:54 EDT |
 | sase-core | [`sase-core@32d80d6`](https://github.com/sase-org/sase-core/commit/32d80d6fbcc0fe952c904614a082167b5cafa914) | fix(goals): land G1 ledger correctness fixes for core-fixes phase | [sase-1bu.8.1](sase-1bu.8.1.md) | 2026-09-28 12:32:00 EDT |
 | sase | [`4feb596`](https://github.com/sase-org/sase/commit/4feb59611ba2d9c400c192c35ceeddecd1b7549c) | fix(goals): CLI, reconcile, and pin fixes for G1 landing (sase-1bu.8.2) | [sase-1bu.8.2](sase-1bu.8.2.md) | 2026-09-28 13:54:04 EDT |
+| sase--plans | [`sase--plans@5365df6`](https://github.com/sase-org/sase--plans/commit/5365df6e1a17869e8db2c750774dcf946c52caad) | docs(goals): mark G1 and landing fix plans done | [sase-1bu.8](sase-1bu.8.md) | 2026-09-28 14:28:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
