@@ -51,8 +51,10 @@ final-cutover: bench the j/k and triage loop with the flag off and on, then dele
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 2 |
 | read-by | [agent:sase-1b2.19][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1b2.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
 
 <!-- sase:referenced-by:end -->

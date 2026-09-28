@@ -45,9 +45,11 @@ final-overview-card: render the run-level Overview card. It shows the plan in DA
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
 | read-by | [agent:sase-1b2.15--1][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1b2.16][3] | sibling overview card scope to avoid overlap | 1 |
+| read-by | [agent:sase-1b2.land][4] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.15.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
 
 <!-- sase:referenced-by:end -->

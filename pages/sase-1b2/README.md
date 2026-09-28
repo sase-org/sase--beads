@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -192,7 +192,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 1 |
 | [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 1 |
 | [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 1 |
-| [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 1 |
+| [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 2 |
 
 ## Commits
 
@@ -219,6 +219,7 @@ flowchart TD
 | sase | [`2d8f2f0`](https://github.com/sase-org/sase/commit/2d8f2f0566c876b347c06e6ffb53b8afa20e930b) | feat(ace): remove ace\_final\_deck flag and ship FINAL deck always-on | [sase-1b2.19](sase-1b2.19.md) | 2026-09-27 16:16:16 EDT |
 | sase | [`5a60113`](https://github.com/sase-org/sase/commit/5a60113e1c584955c1859a86ca808ac98a79a044) | docs(agents-tab): document FINAL deck, FINALIZING rows, receipts and finalizer keys | [sase-1b2.20](sase-1b2.20.md) | 2026-09-27 17:14:23 EDT |
 | sase | [`57b5074`](https://github.com/sase-org/sase/commit/57b507487e7a447d66228d01c122df362230a2f6) | fix(final-deck): land sase-1b2 - configured-tz clocks, turn wording, triage-loop bench | [sase-1b2](README.md) | 2026-09-27 20:23:25 EDT |
+| sase--plans | [`sase--plans@b06efa0`](https://github.com/sase-org/sase--plans/commit/b06efa0a313612b6155830a34f53d5f8bd10292b) | chore(plans): mark agents\_tab\_final\_deck done after sase-1b2 landed | [sase-1b2](README.md) | 2026-09-27 20:35:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -235,7 +236,8 @@ flowchart TD
 | read-by | [agent:sase-1b2.16][7] | parent epic scope for phase sase-1b2.16 | 1 |
 | read-by | [agent:sase-1b2.19][8] | Need shared rules in epic notes for cutover | 2 |
 | read-by | [agent:sase-1b2.9][9] | Need parent epic context for deck-spec-registry phase | 1 |
-| read-by | [agent:sase-1b6.land][10] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
+| read-by | [agent:sase-1b2.land][10] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:sase-1b6.land][11] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.cld/README.md
@@ -246,6 +248,7 @@ flowchart TD
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
 
 <!-- sase:referenced-by:end -->

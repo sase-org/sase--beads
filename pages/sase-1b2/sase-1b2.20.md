@@ -47,8 +47,10 @@ final-docs: document the FINALIZING row phase, chips, receipts, the FINAL deck, 
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
 | read-by | [agent:sase-1b2.20--1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1b2.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.20.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
 
 <!-- sase:referenced-by:end -->

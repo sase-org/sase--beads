@@ -43,8 +43,10 @@ glance-surfaces: create the ace_final_deck beta flag and the shared finalizer vi
 | --- | --- | --- | ---: |
 | read-by | [agent:1c][1] | Checking phase progress and notes for sase-1b2 value report | 2 |
 | read-by | [agent:sase-1b2.8][2] | check notes and design detail | 2 |
+| read-by | [agent:sase-1b2.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
 
 <!-- sase:referenced-by:end -->
