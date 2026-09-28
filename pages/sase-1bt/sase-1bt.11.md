@@ -24,7 +24,7 @@ tool-run-actions: add a confirmed stop as a durable proc with a typed result, a 
 ## Dependencies
 
 - **Depends on:** [sase-1bt.10](sase-1bt.10.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.12](sase-1bt.12.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.12](sase-1bt.12.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

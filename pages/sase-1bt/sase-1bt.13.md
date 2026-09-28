@@ -13,7 +13,7 @@ docs: document the shipped surfaces, vocabulary, keys, and Admin Center tab renu
 
 ## Dependencies
 
-- **Depends on:** [sase-1bt.12](sase-1bt.12.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.12](sase-1bt.12.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
