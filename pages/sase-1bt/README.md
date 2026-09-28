@@ -33,7 +33,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.12](sase-1bt.12.md) | Remove ace\_tool\_runs, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1bt.2](sase-1bt.2.md) | Per-run detail projection with stage timeline and witness counts in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.3](sase-1bt.3.md) | Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.3](sase-1bt.3.md) | Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.4](sase-1bt.4.md) | ToolRun glance snapshot service and live-only ⚒ row chips | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.5](sase-1bt.5.md) | Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.6](sase-1bt.6.md) | Tools becomes a two-card deck with ⚒ Runs first | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n4["sase-1bt.12: Remove ace_tool_runs, add goldens, inspect live, and bench [in_progress]"]
     n5["sase-1bt.13: User docs for ToolRuns in the TUI [in_progress]"]
     n6["sase-1bt.2: Per-run detail projection with stage timeline and witness counts in sase-core [closed]"]
-    n7["sase-1bt.3: Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move [in_progress]"]
+    n7["sase-1bt.3: Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move [closed]"]
     n8["sase-1bt.4: ToolRun glance snapshot service and live-only ⚒ row chips [in_progress]"]
     n9["sase-1bt.5: Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids [in_progress]"]
     n10["sase-1bt.6: Tools becomes a two-card deck with ⚒ Runs first [in_progress]"]
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md) | [sase-1bt.12](sase-1bt.12.md) | 0 |
 | [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 0 |
 | [bbugyi200.athena.sase-1bt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.2/README.md) | [sase-1bt.2](sase-1bt.2.md) | 1 |
-| [bbugyi200.athena.sase-1bt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.3/README.md) | [sase-1bt.3](sase-1bt.3.md) | 0 |
+| [bbugyi200.athena.sase-1bt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.3.md) | [sase-1bt.3](sase-1bt.3.md) | 1 |
 | [bbugyi200.athena.sase-1bt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md) | [sase-1bt.4](sase-1bt.4.md) | 0 |
 | [bbugyi200.athena.sase-1bt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.5/README.md) | [sase-1bt.5](sase-1bt.5.md) | 0 |
 | [bbugyi200.athena.sase-1bt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.6/README.md) | [sase-1bt.6](sase-1bt.6.md) | 0 |
@@ -114,3 +114,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@9368ddf`](https://github.com/sase-org/sase-core/commit/9368ddfc916e44cf2b05d95ca46dcc428a6b9dd0) | feat(tool-run): add live glance, briefs, and node-summary projections | [sase-1bt.1](sase-1bt.1.md) | 2026-09-27 19:26:49 EDT |
 | sase-core | [`sase-core@830e900`](https://github.com/sase-org/sase-core/commit/830e9003ea4139a58fc907aae8f301f652e1657e) | feat(tool-run): add tool\_run\_detail projection with stage timeline and witness counts | [sase-1bt.2](sase-1bt.2.md) | 2026-09-27 20:29:47 EDT |
+| sase | [`5c54e6c`](https://github.com/sase-org/sase/commit/5c54e6c14b641766c60349dc095ec4a63a092755) | feat(tool-runs): typed adapters, view vocabulary, beta flag, shared log tail, chop glyph move (sase-1bt.3) | [sase-1bt.3](sase-1bt.3.md) | 2026-09-27 22:42:38 EDT |

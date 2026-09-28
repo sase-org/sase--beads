@@ -13,7 +13,7 @@ glance-row-chips: build the TUI ToolRun snapshot service (surface token, live dr
 
 ## Dependencies
 
-- **Depends on:** [sase-1bt.3](sase-1bt.3.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.3](sase-1bt.3.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.5](sase-1bt.5.md) ◐ · ⧖ 2026-09-27
 
 ## Agents

@@ -22,7 +22,7 @@ core-glance: add the fingerprint-free tool_run_live_glance, tool_run_briefs and 
 ## Dependencies
 
 - **Blocks:** [sase-1bt.2](sase-1bt.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.3](sase-1bt.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.3](sase-1bt.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
