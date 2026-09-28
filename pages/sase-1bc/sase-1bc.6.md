@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1bc](README.md) / sase-1bc.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0t4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0t4.md) · **Assignee:** `sase-1bc.6` · **Size:** large
-**Created:** 2026-09-27 10:57:08 EDT
+**Created:** 2026-09-27 10:57:08 EDT · **Closed:** 2026-09-28 07:41:18 EDT
 **Plan:** [202609/agents\_dynamic\_tabs.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_dynamic_tabs.md)
 
 ## Description
@@ -14,7 +14,7 @@ tab-scope: create the agent_tabs beta flag and the ace.agent_tabs config block; 
 ## Dependencies
 
 - **Depends on:** [sase-1bc.1](sase-1bc.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.11](sase-1bc.11.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.11](sase-1bc.11.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.4](sase-1bc.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.7](sase-1bc.7.md) ◐ · ⧖ 2026-09-27
 

@@ -21,7 +21,7 @@ card-block-keys: move card-block stepping from [/] to (/) across config, keymap 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.6](sase-1bc.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6](sase-1bc.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
