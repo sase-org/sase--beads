@@ -19,4 +19,4 @@ perf-floors: shorten the tmux socket directory (sase-18w), bring the smoke_sase_
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.11/README.md) | [sase-1c1.11](sase-1c1.11.md) | 0 |
+| [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.11.md) | [sase-1c1.11](sase-1c1.11.md) | 0 |

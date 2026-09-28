@@ -13,7 +13,7 @@ core-release: drive sase-core release PR #315 to all-green CI including macOS, d
 
 ## Dependencies
 
-- **Depends on:** [sase-1c1.1](sase-1c1.1.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.1](sase-1c1.1.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [sase-1c1.14](sase-1c1.14.md) ◐ · ⧖ 2026-09-28
 
 ## Agents

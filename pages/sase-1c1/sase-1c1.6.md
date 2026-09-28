@@ -32,10 +32,16 @@ Verified: all 6 mapped tests green (88 passed under tests/ace/tui/test_admin_cen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.6/README.md) | [sase-1c1.6](sase-1c1.6.md) | 1 |
+| [bbugyi200.athena.sase-1c1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.6/README.md) | [sase-1c1.6](sase-1c1.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`ead97d5`](https://github.com/sase-org/sase/commit/ead97d5cc48af2c083075e2f12b79c0c5d6f9ed2) | fix(ace): reconcile Admin Center tab tests with the Tools tab (sase-1c1.6) | [sase-1c1.6](sase-1c1.6.md) | 2026-09-28 08:21:52 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.6/README.md
+
+<!-- sase:referenced-by:end -->
