@@ -29,7 +29,7 @@ sase-core-rs 0.36.0 and sase 0.18.0 are live on PyPI and install cleanly from a 
 |---|---|---|---|---|---:|---:|
 | [sase-1c1.1](sase-1c1.1.md) | Fix macOS path canonicalization in sase-core | ✓ closed | small | 2026-09-28 | 1 | 1 |
 | [sase-1c1.10](sase-1c1.10.md) | Move measurement lanes out of the release-gating Full CI | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [sase-1c1.11](sase-1c1.11.md) | Fix the real perf-floors regressions | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [sase-1c1.11](sase-1c1.11.md) | Fix the real perf-floors regressions | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.12](sase-1c1.12.md) | Make the visual-test lane green without bulk acceptance | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.13](sase-1c1.13.md) | Integrate and observe green Master Gate and Full CI | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.14](sase-1c1.14.md) | Release sase 0.18.0 to PyPI through ci\_watch | ◐ in_progress | small | 2026-09-28 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n0["sase-1c1: Green sase master CI and ship sase 0.18.0 to PyPI [in_progress]"]
     n1["sase-1c1.1: Fix macOS path canonicalization in sase-core [closed]"]
     n2["sase-1c1.10: Move measurement lanes out of the release-gating Full CI [closed]"]
-    n3["sase-1c1.11: Fix the real perf-floors regressions [in_progress]"]
+    n3["sase-1c1.11: Fix the real perf-floors regressions [closed]"]
     n4["sase-1c1.12: Make the visual-test lane green without bulk acceptance [in_progress]"]
     n5["sase-1c1.13: Integrate and observe green Master Gate and Full CI [in_progress]"]
     n6["sase-1c1.14: Release sase 0.18.0 to PyPI through ci_watch [in_progress]"]
@@ -100,7 +100,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 1 |
 | [bbugyi200.athena.sase-1c1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.10.md) | [sase-1c1.10](sase-1c1.10.md) | 1 |
-| [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.11.md) | [sase-1c1.11](sase-1c1.11.md) | 0 |
+| [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.11.md) | [sase-1c1.11](sase-1c1.11.md) | 1 |
 | [bbugyi200.athena.sase-1c1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.12/README.md) | [sase-1c1.12](sase-1c1.12.md) | 0 |
 | [bbugyi200.athena.sase-1c1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.13/README.md) | [sase-1c1.13](sase-1c1.13.md) | 0 |
 | [bbugyi200.athena.sase-1c1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.14/README.md) | [sase-1c1.14](sase-1c1.14.md) | 0 |
@@ -128,3 +128,4 @@ flowchart TD
 | sase | [`d56e5df`](https://github.com/sase-org/sase/commit/d56e5dfa5fc39f358f9c2ab66f29753d66499448) | chore(core-pin): bump sase-core pin to d2d9ec7 and keep at most one ratchet PR open | [sase-1c1.3](sase-1c1.3.md) | 2026-09-28 10:03:01 EDT |
 | sase-core | [`sase-core@d437782`](https://github.com/sase-org/sase-core/commit/d43778255b9dca28b4cdb1de38d413bda5e6cbe2) | test(launch-scratch-liveness): compare canonical paths in symlink regression | [sase-1c1.2](sase-1c1.2.md) | 2026-09-28 10:04:23 EDT |
 | sase | [`f760d30`](https://github.com/sase-org/sase/commit/f760d30a9115a0c5d1c7fd0b341a6142888f58bc) | fix(ace-tui): wait for chrome layout resize settle (sase-1c1.8) | [sase-1c1.8](sase-1c1.8.md) | 2026-09-28 11:54:36 EDT |
+| sase | [`5b68fd9`](https://github.com/sase-org/sase/commit/5b68fd9729fb751f379d8209bff70d72dbc5e109) | fix(perf): clear prompt hint regression and perf floors | [sase-1c1.11](sase-1c1.11.md) | 2026-09-28 12:36:10 EDT |

@@ -37,3 +37,15 @@ tui-resize-layout: root-cause why a terminal resize sometimes has no effect in t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f760d30`](https://github.com/sase-org/sase/commit/f760d30a9115a0c5d1c7fd0b341a6142888f58bc) | fix(ace-tui): wait for chrome layout resize settle (sase-1c1.8) | [sase-1c1.8](sase-1c1.8.md) | 2026-09-28 11:54:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.8--5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.8.md
+
+<!-- sase:referenced-by:end -->
