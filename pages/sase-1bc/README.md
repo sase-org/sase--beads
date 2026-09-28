@@ -31,6 +31,8 @@ The Agents tab gains dynamic, launch-assigned sub-tabs. `%tab:<name>` places an 
 
 [2026-09-27T22:27:42Z · sase-1b2.land] DISCOVERED ISSUE (sase-1b2.land, master c78eb3805): 372ecc97c3 (sase-1bc.4, %tab directive) breaks two directive-completion tests. Both fail deterministically in isolation: tests/ace/tui/widgets/test_directive_completion_candidates.py::test_removed_auto_approval_directives_are_absent_from_completion (line 85, tale_candidates == []) and ::test_removed_tribe_spellings_are_absent_from_completion (line 144, candidates == []). The new %tab directive now matches the prefixes those tests assert return no candidates (first extra item: CompletionCandidate display='%tab'). Either scope the assertions to the removed spellings or pick prefixes %tab does not match. Proposed as clean-base failures by sase-1b2.19 note #4 (epic sase-1b2).
 
+[2026-09-28T04:15:51Z · sase-1bn.land] DISCOVERED ISSUE (sase-1bn.land, master 52f7351ae): two more master-red items trace to this epic, not to sase-1bn (both also fail at pre-sase-1bn base b9cfa7386). (1) tests/test_axe_run_agent_exec_repeat_env.py (6 nodes: TestRepeatIterationEnv x2, TestWaitChatsInjection x3, TestInheritedVcsInjection::test_vcs_tag_injected_when_ctx_has_tag) fail because _export_exec_agent_tab in src/sase/axe/run_agent_exec.py reads ctx.agent_meta (added by aff4fc082, sase-1bc.5) but the tests' MagicMock(spec=AgentExecContext) fixture predates that attribute. (2) tests/test_agent_artifact_marker_path_passing_audit.py::test_tracked_marker_path_passing_sites_are_reviewed reports run_agent_directive_metadata.py:session_root_tab (372ecc97c, sase-1bc.4) as an unreviewed marker-path site; filed with the unrelated finalizers/cli.py:_target_for_dir half as task sase-1by. The agent_completion and directive_completion %tab failures are already recorded in this epic's notes #1/#2.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -70,7 +72,7 @@ flowchart TD
     n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [closed]"]
     n16["sase-1bc.6.1.6: Agent tabs: repair the scope pipeline, tab switching, cross-tab jumps, and scope wording [in_progress]"]
     n17["sase-1bc.6.1.6.1: Scope pipeline, tab switch memory, catalog maintenance, and key yield fixes [closed]"]
-    n18["sase-1bc.6.1.6.2: Back-anchors, failed-reveal restore, and fold-aware reveal for every cross-tab jump [in_progress]"]
+    n18["sase-1bc.6.1.6.2: Back-anchors, failed-reveal restore, and fold-aware reveal for every cross-tab jump [closed]"]
     n19["sase-1bc.6.1.6.3: Honest marked and custom scope wording, docs accuracy, and symvision cleanup [in_progress]"]
     n20["sase-1bc.7: The beautiful tab strip [in_progress]"]
     n21["sase-1bc.8: The o/O layout ladder [in_progress]"]
@@ -140,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.1.md) | [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) | 1 |
-| [bbugyi200.athena.sase-1bc.6.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.2/README.md) | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.6.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.2.md) | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.3/README.md) | [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1bc.6.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.land/README.md) | [sase-1bc.6.1.6](sase-1bc.6.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.land.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
@@ -164,6 +166,7 @@ flowchart TD
 | sase | [`94ed923`](https://github.com/sase-org/sase/commit/94ed923b107a14598fa54803d751abf125c1e5f1) | feat(agent-tabs): tab-scoped bulk confirmations, docs, and flag-on verification (sase-1bc.6.1.5) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 2026-09-27 18:06:24 EDT |
 | sase | [`63fd6a5`](https://github.com/sase-org/sase/commit/63fd6a5dfd2826e411a2a63032de5f6ddc1a9274) | feat(agent-tabs): switch-then-reveal for every cross-tab jump (sase-1bc.6.1.4) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 2026-09-27 19:00:21 EDT |
 | sase | [`dae0f6e`](https://github.com/sase-org/sase/commit/dae0f6efad9f08622c954cfa536dba769bf23b1d) | fix(ace): repair agent tab scope and switching | [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) | 2026-09-27 22:13:18 EDT |
+| sase | [`3ba7f3b`](https://github.com/sase-org/sase/commit/3ba7f3b22f279a6b900fd76405192841a06f73d7) | fix(ace-tui): repair cross-tab jump reveal/restore paths for agent tabs | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 2026-09-28 01:30:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

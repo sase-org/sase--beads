@@ -7,6 +7,18 @@
 **Created:** 2026-09-27 20:11:16 EDT
 **Plan:** [202609/agent\_tabs\_scope\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202609/agent_tabs_scope_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/agent_tabs_scope_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/agent_tabs_scope_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Fix the defects the sase-1bc.6.1 landing review found in the flagged agent-tabs feature before that epic closes. Worker-path status overrides and the tab-index memo work. A tab switch restores the target tab's own selection and focused panel. Emptied machine tabs never strand the user. Every cross-tab jump records the right back-anchor and restores the previous tab when its reveal fails. Bulk wording states the real scope. The epic's public symbols pass symvision. With the `agent_tabs` flag off, the TUI stays exactly as it was before agent tabs.

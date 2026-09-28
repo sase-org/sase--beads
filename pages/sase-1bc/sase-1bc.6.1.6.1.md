@@ -21,7 +21,7 @@ switch-pipeline-repairs: apply worker-path status overrides over the tab-indepen
 
 ## Dependencies
 
-- **Blocks:** [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
@@ -35,3 +35,15 @@ switch-pipeline-repairs: apply worker-path status overrides over the tab-indepen
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dae0f6e`](https://github.com/sase-org/sase/commit/dae0f6efad9f08622c954cfa536dba769bf23b1d) | fix(ace): repair agent tab scope and switching | [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) | 2026-09-27 22:13:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.6.1.6.1--1][1] | Need the phase scope and design file before closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.1.md
+
+<!-- sase:referenced-by:end -->

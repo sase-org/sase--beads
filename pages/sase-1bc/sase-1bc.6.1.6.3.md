@@ -14,7 +14,7 @@ scope-wording-and-symbols: count the "N of M marked agents are on other tabs" li
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) ✓ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
