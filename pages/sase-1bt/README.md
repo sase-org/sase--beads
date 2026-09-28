@@ -29,13 +29,17 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 
 [2026-09-28T06:22:58Z · sase-1bc.6.1.6.3--1] DISCOVERED ISSUE: tests/test_timezone_display_guard.py::test_no_system_clock_display_sites now also flags src/sase/tool/view_vocabulary.py:131 (datetime.fromtimestamp(settled_ts).strftime("%H:%M")), added by sase-1bt.3. Same process-clock display class as sase-1bp. Reproduced on tool run dc98c07a621b8d5776ca76e691f7f6b8. Route through sase.core.time (format_local).
 
+[2026-09-28T10:13:06Z · 0tf] DISCOVERED ISSUE (found while landing sase-1bc.6.1.6, master 5b409a5aa3): the Admin Center Tools pane 'Open Agent' key (a) can never reveal its agent. action_jump_to_agent in src/sase/ace/tui/modals/tool_runs_pane.py (added by 8c134b8169, sase-1bt.10) passes the run's plain agent-name string to app._reveal_agent_row, whose target is a MemberIdentity tuple (AgentType, name, suffix); prepare_agent_navigation_target matches agent.identity == target, so every press fails, toasts 'Tool run agent roster changed; jump cancelled', and leaves the user on the Agents tab with nothing selected, with agent_tabs on or off. tests/ace/tui/test_tool_runs_pane.py only asserts the key name. Fix: resolve the name to a row first the way _monitor_jump_agent does (src/sase/ace/tui/modals/procs_pane_agent_jump.py: search _agents_with_children when agent_tabs_enabled(), else _agents; match agent_name), pass that row's .identity to _reveal_agent_row (which already switches agent tabs and restores on failure), toast 'No agent row for <name>' on a miss, and add a test that drives the real reveal path.
+
+[2026-09-28T10:13:17Z · 0tf] DISCOVERED ISSUE (found while landing sase-1bc.6.1.6, master 5b409a5aa3): _apply_tool_runs_snapshot in src/sase/ace/tui/tool_runs/loader.py (added by 4f09a28ea1, live row chips) walks every row in _agents_with_children and calls _try_patch_agent_row for each row with a live run. _try_patch_agent_row (actions/agents/_display_panel_patches.py) returns False for any row not in the rendered _agents list and whenever current_tab != 'agents', so needs_rebuild fires and forces _refresh_agents_display(list_changed=True) on every drift-probe apply (~2s while runs are live) that changes nothing visible. With agent_tabs on, any live run owned by an agent on another agent tab triggers this; with the flag off, children hidden under collapsed folds and any time the user is on another top-level tab do. Fix: only patch rows present in the rendered _agents (build visible = {a.identity for a in _agents} and skip others), and return early when current_tab != 'agents'; hidden rows repaint on their next normal rebuild. Add a test with a live run on an off-tab/hidden row asserting no full rebuild.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1bt.1](sase-1bt.1.md) | Live glance, node summaries, brief lists, and the verdict bucket in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.10](sase-1bt.10.md) | Admin Center Tools pane with Runs, Failures, and Catalog views | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.11](sase-1bt.11.md) | Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.11](sase-1bt.11.md) | Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.12](sase-1bt.12.md) | Remove ace\_tool\_runs, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
 | [sase-1bt.2](sase-1bt.2.md) | Per-run detail projection with stage timeline and witness counts in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
@@ -54,7 +58,7 @@ flowchart TD
     n0["sase-1bt: sase tool in the TUI: live ⚒ chips, the ⚒ Runs card, and the Admin Center Tools pane [in_progress]"]
     n1["sase-1bt.1: Live glance, node summaries, brief lists, and the verdict bucket in sase-core [closed]"]
     n2["sase-1bt.10: Admin Center Tools pane with Runs, Failures, and Catalog views [closed]"]
-    n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [in_progress]"]
+    n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [closed]"]
     n4["sase-1bt.12: Remove ace_tool_runs, add goldens, inspect live, and bench [in_progress]"]
     n5["sase-1bt.13: User docs for ToolRuns in the TUI [in_progress]"]
     n6["sase-1bt.2: Per-run detail projection with stage timeline and witness counts in sase-core [closed]"]
@@ -101,7 +105,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1bt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.1/README.md) | [sase-1bt.1](sase-1bt.1.md) | 1 |
 | [bbugyi200.athena.sase-1bt.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.10/README.md) | [sase-1bt.10](sase-1bt.10.md) | 1 |
-| [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.11/README.md) | [sase-1bt.11](sase-1bt.11.md) | 0 |
+| [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.11.md) | [sase-1bt.11](sase-1bt.11.md) | 1 |
 | [bbugyi200.athena.sase-1bt.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md) | [sase-1bt.12](sase-1bt.12.md) | 0 |
 | [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 0 |
 | [bbugyi200.athena.sase-1bt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.2/README.md) | [sase-1bt.2](sase-1bt.2.md) | 1 |
@@ -128,6 +132,7 @@ flowchart TD
 | sase | [`8c134b8`](https://github.com/sase-org/sase/commit/8c134b8169b6d9a7d7ca371077bf75a1af3812c5) | feat(ace-tui): add Admin Center Tools pane with Runs, Failures, and Catalog views (sase-1bt.10) | [sase-1bt.10](sase-1bt.10.md) | 2026-09-28 05:35:15 EDT |
 | sase | [`5b409a5`](https://github.com/sase-org/sase/commit/5b409a5aa373f2b3f6b30a4de9f05acea9325459) | feat(runs-card): live run blocks with in-place progress, silent state, and follow/hold (sase-1bt.8) | [sase-1bt.8](sase-1bt.8.md) | 2026-09-28 05:43:35 EDT |
 | sase | [`43cd823`](https://github.com/sase-org/sase/commit/43cd823afe8a54ad319dc944eda8da6cd5de3622) | feat(tool-runs): add run-links joining LLM calls to tool runs | [sase-1bt.9](sase-1bt.9.md) | 2026-09-28 06:14:44 EDT |
+| sase | [`c84f74c`](https://github.com/sase-org/sase/commit/c84f74c5f1c96580fc91324de0dd9c2986c59cab) | feat(ace-tui): tool-run actions with confirmed stop, catalog launch, OpenToolRun notify, procs decode, palette (sase-1bt.11) | [sase-1bt.11](sase-1bt.11.md) | 2026-09-28 09:05:18 EDT |
 
 <!-- sase:referenced-by:start -->
 

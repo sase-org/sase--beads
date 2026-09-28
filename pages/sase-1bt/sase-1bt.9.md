@@ -33,3 +33,15 @@ run-links: add a verdict suffix and a jump to the run's block on LLM Calls rows 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`43cd823`](https://github.com/sase-org/sase/commit/43cd823afe8a54ad319dc944eda8da6cd5de3622) | feat(tool-runs): add run-links joining LLM calls to tool runs | [sase-1bt.9](sase-1bt.9.md) | 2026-09-28 06:14:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.9][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md
+
+<!-- sase:referenced-by:end -->

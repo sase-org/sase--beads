@@ -17,7 +17,7 @@ admin-tools-pane: add the Tools tab to the Admin Center, with a Runs list and de
 
 ## Dependencies
 
-- **Blocks:** [sase-1bt.11](sase-1bt.11.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.11](sase-1bt.11.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bt.7](sase-1bt.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
