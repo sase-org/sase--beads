@@ -22,7 +22,7 @@ switch-pipeline-repairs: apply worker-path status overrides over the tab-indepen
 ## Dependencies
 
 - **Blocks:** [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

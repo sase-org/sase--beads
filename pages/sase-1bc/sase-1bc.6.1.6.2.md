@@ -22,7 +22,7 @@ cross-tab-jump-repairs: save the back-anchor before switching tabs in _try_revea
 ## Dependencies
 
 - **Depends on:** [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ cross-tab-jump-repairs: save the back-anchor before switching tabs in _try_revea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3ba7f3b`](https://github.com/sase-org/sase/commit/3ba7f3b22f279a6b900fd76405192841a06f73d7) | fix(ace-tui): repair cross-tab jump reveal/restore paths for agent tabs | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 2026-09-28 01:30:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bc.6.1.6.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.2.md
+
+<!-- sase:referenced-by:end -->
