@@ -11,6 +11,10 @@
 
 launch-view-ux: add the prompt-bar tab chip and remote-tab hint, the gb Launch Tab picker, %tab insertion on submit from a named tab, landing toasts with arrival marks, and the LaunchApproval tab field.
 
+## Notes
+
+[2026-09-28T18:51:59Z · sase-1bc.10] PROPOSED FOLLOW-UP: PNG goldens for the prompt-bar tab chip and gb Launch Tab picker (unit/widget coverage landed; visual goldens still open)
+
 ## Dependencies
 
 - **Blocks:** [sase-1bc.12](sase-1bc.12.md) ◐ · ⧖ 2026-09-27
@@ -21,4 +25,4 @@ launch-view-ux: add the prompt-bar tab chip and remote-tab hint, the gb Launch T
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bc.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.10/README.md) | [sase-1bc.10](sase-1bc.10.md) | 0 |
+| [bbugyi200.athena.sase-1bc.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.10.md) | [sase-1bc.10](sase-1bc.10.md) | 0 |

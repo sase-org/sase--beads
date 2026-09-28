@@ -15,7 +15,7 @@ finish: delete the agent_tabs flag's Off branches and close its bead; finish the
 
 - **Depends on:** [sase-1bc.10](sase-1bc.10.md) ◐ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.11](sase-1bc.11.md) ✓ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bc.8](sase-1bc.8.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bc.8](sase-1bc.8.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bc.9](sase-1bc.9.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
