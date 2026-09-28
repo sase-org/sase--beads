@@ -23,13 +23,7 @@ core-macos: in the linked sase-core checkout, canonicalize the deepest existing 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@1fee641`](https://github.com/sase-org/sase-core/commit/1fee6419181b69826724652d65d79258c66b8982) | fix(sase-core): canonicalize deepest existing ancestor in launch\_scratch\_liveness normalize\_path | [sase-1c1.1](sase-1c1.1.md) | 2026-09-28 08:58:31 EDT |
+| [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

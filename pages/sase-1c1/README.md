@@ -27,8 +27,8 @@ sase-core-rs 0.36.0 and sase 0.18.0 are live on PyPI and install cleanly from a 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1c1.1](sase-1c1.1.md) | Fix macOS path canonicalization in sase-core | ✓ closed | small | 2026-09-28 | 1 | 1 |
-| [sase-1c1.10](sase-1c1.10.md) | Move measurement lanes out of the release-gating Full CI | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [sase-1c1.1](sase-1c1.1.md) | Fix macOS path canonicalization in sase-core | ✓ closed | small | 2026-09-28 | 1 | 0 |
+| [sase-1c1.10](sase-1c1.10.md) | Move measurement lanes out of the release-gating Full CI | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.11](sase-1c1.11.md) | Fix the real perf-floors regressions | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.12](sase-1c1.12.md) | Make the visual-test lane green without bulk acceptance | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.13](sase-1c1.13.md) | Integrate and observe green Master Gate and Full CI | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
@@ -48,7 +48,7 @@ sase-core-rs 0.36.0 and sase 0.18.0 are live on PyPI and install cleanly from a 
 flowchart TD
     n0["sase-1c1: Green sase master CI and ship sase 0.18.0 to PyPI [in_progress]"]
     n1["sase-1c1.1: Fix macOS path canonicalization in sase-core [closed]"]
-    n2["sase-1c1.10: Move measurement lanes out of the release-gating Full CI [in_progress]"]
+    n2["sase-1c1.10: Move measurement lanes out of the release-gating Full CI [closed]"]
     n3["sase-1c1.11: Fix the real perf-floors regressions [in_progress]"]
     n4["sase-1c1.12: Make the visual-test lane green without bulk acceptance [in_progress]"]
     n5["sase-1c1.13: Integrate and observe green Master Gate and Full CI [in_progress]"]
@@ -98,8 +98,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 1 |
-| [bbugyi200.athena.sase-1c1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.10.md) | [sase-1c1.10](sase-1c1.10.md) | 0 |
+| [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 0 |
+| [bbugyi200.athena.sase-1c1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.10.md) | [sase-1c1.10](sase-1c1.10.md) | 1 |
 | [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.11.md) | [sase-1c1.11](sase-1c1.11.md) | 0 |
 | [bbugyi200.athena.sase-1c1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.12/README.md) | [sase-1c1.12](sase-1c1.12.md) | 0 |
 | [bbugyi200.athena.sase-1c1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.13/README.md) | [sase-1c1.13](sase-1c1.13.md) | 0 |
@@ -120,7 +120,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`a0fd993`](https://github.com/sase-org/sase/commit/a0fd993c6e7057a55363809e9b08d3946420444a) | fix(ace-tui): gate tab completion behind agent\_tabs flag (sase-1c1.5) | [sase-1c1.5](sase-1c1.5.md) | 2026-09-28 07:23:39 EDT |
 | sase | [`ead97d5`](https://github.com/sase-org/sase/commit/ead97d5cc48af2c083075e2f12b79c0c5d6f9ed2) | fix(ace): reconcile Admin Center tab tests with the Tools tab (sase-1c1.6) | [sase-1c1.6](sase-1c1.6.md) | 2026-09-28 08:21:52 EDT |
-| sase-core | [`sase-core@1fee641`](https://github.com/sase-org/sase-core/commit/1fee6419181b69826724652d65d79258c66b8982) | fix(sase-core): canonicalize deepest existing ancestor in launch\_scratch\_liveness normalize\_path | [sase-1c1.1](sase-1c1.1.md) | 2026-09-28 08:58:31 EDT |
 | sase | [`b536e0c`](https://github.com/sase-org/sase/commit/b536e0c26771143023a9f784bba8e5cc78ae0790) | fix(ace): settle header and files deck scrolling | [sase-1c1.7](sase-1c1.7.md) | 2026-09-28 09:49:03 EDT |
 | sase | [`ef77145`](https://github.com/sase-org/sase/commit/ef7714508aed1642dba65fb84c3ba37d6456068f) | fix(ci): repair whole-repo contract and guard drift (sase-1c1.4) | [sase-1c1.4](sase-1c1.4.md) | 2026-09-28 09:51:18 EDT |
 | sase | [`e9eb8c6`](https://github.com/sase-org/sase/commit/e9eb8c6d4b7c1e981d1336042ce2429233c166bc) | refactor(tool): split oversized executor and tool\_run modules, fix triage patch targets | [sase-1c1.9](sase-1c1.9.md) | 2026-09-28 09:57:08 EDT |
+| sase | [`05c0e58`](https://github.com/sase-org/sase/commit/05c0e5886ea839c1f5905aa1fd77103e7a1388d2) | feat(ci): split telemetry lanes into a scheduled workflow (sase-1c1.10) | [sase-1c1.10](sase-1c1.10.md) | 2026-09-28 10:01:45 EDT |

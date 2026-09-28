@@ -13,7 +13,7 @@ green-master: re-inventory CI at HEAD, fix any failure that landed since the rep
 
 ## Dependencies
 
-- **Depends on:** [sase-1c1.10](sase-1c1.10.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.10](sase-1c1.10.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.11](sase-1c1.11.md) ◐ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.12](sase-1c1.12.md) ◐ · ⧖ 2026-09-28
 - **Blocks:** [sase-1c1.14](sase-1c1.14.md) ◐ · ⧖ 2026-09-28
