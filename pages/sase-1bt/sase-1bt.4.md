@@ -20,7 +20,7 @@ glance-row-chips: build the TUI ToolRun snapshot service (surface token, live dr
 ## Dependencies
 
 - **Depends on:** [sase-1bt.3](sase-1bt.3.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.5](sase-1bt.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.5](sase-1bt.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ glance-row-chips: build the TUI ToolRun snapshot service (surface token, live dr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4f09a28`](https://github.com/sase-org/sase/commit/4f09a28ea1bc6d6a7cd4828ab79a46a8719aea4e) | feat(ace-tui): implement glance row chips for tool runs | [sase-1bt.4](sase-1bt.4.md) | 2026-09-27 23:51:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ tools-deck-cards: give the Tools deck two card hosts (a ToolRunsDeckView card do
 
 ## Dependencies
 
-- **Depends on:** [sase-1bt.5](sase-1bt.5.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.5](sase-1bt.5.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.7](sase-1bt.7.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
