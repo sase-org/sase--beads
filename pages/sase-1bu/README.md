@@ -16,7 +16,7 @@
 | implemented-by | [plan:202609/goal_ledger.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1c3][2] | Epic that built the goal ledger and measured this miss; its landing fixes other hot-read defects in the same read.rs/projection.rs files |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/goal_ledger.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1c3/README.md
@@ -61,7 +61,7 @@ flowchart TD
     n7["sase-1bu.7: Acceptance fixtures, benchmark, docs, and memory [closed]"]
     n8["sase-1bu.8: Goals G1 landing fixes: ledger correctness in sase-core and CLI honesty in sase [in_progress]"]
     n9["sase-1bu.8.1: Ledger correctness fixes in sase-core [closed]"]
-    n10["sase-1bu.8.2: CLI, reconcile, and pin fixes in sase [in_progress]"]
+    n10["sase-1bu.8.2: CLI, reconcile, and pin fixes in sase [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 2 |
 | [bbugyi200.athena.sase-1bu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md) | [sase-1bu.7](sase-1bu.7.md) | 1 |
 | [bbugyi200.athena.sase-1bu.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.1/README.md) | [sase-1bu.8.1](sase-1bu.8.1.md) | 1 |
-| [bbugyi200.athena.sase-1bu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.2/README.md) | [sase-1bu.8.2](sase-1bu.8.2.md) | 0 |
+| [bbugyi200.athena.sase-1bu.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.2/README.md) | [sase-1bu.8.2](sase-1bu.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1bu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.land/README.md) | [sase-1bu.8](sase-1bu.8.md) | 0 |
 | [bbugyi200.athena.sase-1bu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.land.md) | [sase-1bu](README.md) | 0 |
 
@@ -112,6 +112,7 @@ flowchart TD
 | sase-core | [`sase-core@d2d9ec7`](https://github.com/sase-org/sase-core/commit/d2d9ec7fcc5477547bb774ebb9ae38a6c75de01d) | feat(goals): add goal ledger, fast path, and terminal renderer backend | [sase-1bu.5](sase-1bu.5.md) | 2026-09-28 07:12:14 EDT |
 | sase | [`acfca26`](https://github.com/sase-org/sase/commit/acfca26dbaf5a80550b8a294d87a46c00aac6dc7) | feat(goals): complete G1 acceptance for goal ledger | [sase-1bu.7](sase-1bu.7.md) | 2026-09-28 11:03:54 EDT |
 | sase-core | [`sase-core@32d80d6`](https://github.com/sase-org/sase-core/commit/32d80d6fbcc0fe952c904614a082167b5cafa914) | fix(goals): land G1 ledger correctness fixes for core-fixes phase | [sase-1bu.8.1](sase-1bu.8.1.md) | 2026-09-28 12:32:00 EDT |
+| sase | [`4feb596`](https://github.com/sase-org/sase/commit/4feb59611ba2d9c400c192c35ceeddecd1b7549c) | fix(goals): CLI, reconcile, and pin fixes for G1 landing (sase-1bu.8.2) | [sase-1bu.8.2](sase-1bu.8.2.md) | 2026-09-28 13:54:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -119,10 +120,22 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1bu.6][1] | Need epic children status for phase ordering | 1 |
-| read-by | [agent:sase-1bu.7][2] | Need epic scope for acceptance landing | 1 |
+| read-by | [agent:research.k.cdx][1] | Assess the goals epic scope, rationale, and implementation status | 3 |
+| read-by | [agent:research.k.cld][2] | User asked me to critique the goals plan; need epic context | 1 |
+| read-by | [agent:research.k.final][3] | Confirm current G1 goals epic status and landing child for the goals go/no-go consolidation | 1 |
+| read-by | [agent:research.k.gem][4] | Understand sase-1bu epic context for goals research | 1 |
+| read-by | [agent:research.k.grk][5] | Need the sase-1bu goals epic scope, design, and children to critique the goals idea | 1 |
+| read-by | [agent:research.k.mus][6] | Critique goals value-add vs xprompt/agent-clan notifications | 1 |
+| read-by | [agent:sase-1bu.6][7] | Need epic children status for phase ordering | 1 |
+| read-by | [agent:sase-1bu.7][8] | Need epic scope for acceptance landing | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.final/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.gem/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.grk/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.mus/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md
 
 <!-- sase:referenced-by:end -->

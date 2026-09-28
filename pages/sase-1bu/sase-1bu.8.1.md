@@ -17,7 +17,7 @@ core-fixes: fix sase-core goal append/reduce/read/projection/doctor/probe defect
 
 ## Dependencies
 
-- **Blocks:** [sase-1bu.8.2](sase-1bu.8.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [sase-1bu.8.2](sase-1bu.8.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-fixes: fix sase-core goal append/reduce/read/projection/doctor/probe defect
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@32d80d6`](https://github.com/sase-org/sase-core/commit/32d80d6fbcc0fe952c904614a082167b5cafa914) | fix(goals): land G1 ledger correctness fixes for core-fixes phase | [sase-1bu.8.1](sase-1bu.8.1.md) | 2026-09-28 12:32:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bu.8.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.1/README.md
+
+<!-- sase:referenced-by:end -->

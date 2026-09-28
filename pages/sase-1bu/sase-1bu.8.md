@@ -16,3 +16,17 @@ Every goal-ledger defect found while landing G1 (sase-1bu) is fixed and tested b
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1bu.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.8.land/README.md) | [sase-1bu.8](sase-1bu.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.k.cdx][1] | Verify the current scope and status of the G1 landing-fix child before recommending where to pause | 3 |
+| read-by | [agent:research.k.final][2] | Confirm G1 landing-fix scope and status for goals go/no-go consolidation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.k.final/README.md
+
+<!-- sase:referenced-by:end -->
