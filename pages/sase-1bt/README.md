@@ -7,6 +7,18 @@
 **Created:** 2026-09-27 18:32:32 EDT
 **Plan:** [202609/tool\_runs\_tui\_surfaces.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_runs_tui_surfaces.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/tool_runs_tui_surfaces.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/tool_runs_tui_surfaces.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 A live ToolRun shows on the row that owns it with its stage progress, and turns red when it goes silent. The selected node's header says whether its latest check added NEW failures. The Tools deck gains a ⚒ Runs card with a stage waterfall, triage items, and a log tail. LLM Calls, the slow-tool list, and monitor/proc Context cards link to the run instead of copying it. An Admin Center Tools pane covers project-wide runs, failure groups, the catalog, stopping a run, starting a named tool, and the -H settlement notification. Everything reads a slim sase-core projection and never reconciles or shells out on a UI path.
@@ -20,7 +32,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.11](sase-1bt.11.md) | Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.12](sase-1bt.12.md) | Remove ace\_tool\_runs, add goldens, inspect live, and bench | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.13](sase-1bt.13.md) | User docs for ToolRuns in the TUI | ◐ in_progress | small | 2026-09-27 | 1 | 0 |
-| [sase-1bt.2](sase-1bt.2.md) | Per-run detail projection with stage timeline and witness counts in sase-core | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.2](sase-1bt.2.md) | Per-run detail projection with stage timeline and witness counts in sase-core | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.3](sase-1bt.3.md) | Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.4](sase-1bt.4.md) | ToolRun glance snapshot service and live-only ⚒ row chips | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.5](sase-1bt.5.md) | Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
@@ -39,7 +51,7 @@ flowchart TD
     n3["sase-1bt.11: Stop, run from the catalog, OpenToolRun notifications, Procs decode, and palette [in_progress]"]
     n4["sase-1bt.12: Remove ace_tool_runs, add goldens, inspect live, and bench [in_progress]"]
     n5["sase-1bt.13: User docs for ToolRuns in the TUI [in_progress]"]
-    n6["sase-1bt.2: Per-run detail projection with stage timeline and witness counts in sase-core [in_progress]"]
+    n6["sase-1bt.2: Per-run detail projection with stage timeline and witness counts in sase-core [closed]"]
     n7["sase-1bt.3: Python adapter, state vocabulary, beta flag, shared log tail, and the chop glyph move [in_progress]"]
     n8["sase-1bt.4: ToolRun glance snapshot service and live-only ⚒ row chips [in_progress]"]
     n9["sase-1bt.5: Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids [in_progress]"]
@@ -86,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.11/README.md) | [sase-1bt.11](sase-1bt.11.md) | 0 |
 | [bbugyi200.athena.sase-1bt.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.12/README.md) | [sase-1bt.12](sase-1bt.12.md) | 0 |
 | [bbugyi200.athena.sase-1bt.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.13/README.md) | [sase-1bt.13](sase-1bt.13.md) | 0 |
-| [bbugyi200.athena.sase-1bt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.2/README.md) | [sase-1bt.2](sase-1bt.2.md) | 0 |
+| [bbugyi200.athena.sase-1bt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.2/README.md) | [sase-1bt.2](sase-1bt.2.md) | 1 |
 | [bbugyi200.athena.sase-1bt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.3/README.md) | [sase-1bt.3](sase-1bt.3.md) | 0 |
 | [bbugyi200.athena.sase-1bt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md) | [sase-1bt.4](sase-1bt.4.md) | 0 |
 | [bbugyi200.athena.sase-1bt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.5/README.md) | [sase-1bt.5](sase-1bt.5.md) | 0 |
@@ -101,3 +113,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9368ddf`](https://github.com/sase-org/sase-core/commit/9368ddfc916e44cf2b05d95ca46dcc428a6b9dd0) | feat(tool-run): add live glance, briefs, and node-summary projections | [sase-1bt.1](sase-1bt.1.md) | 2026-09-27 19:26:49 EDT |
+| sase-core | [`sase-core@830e900`](https://github.com/sase-org/sase-core/commit/830e9003ea4139a58fc907aae8f301f652e1657e) | feat(tool-run): add tool\_run\_detail projection with stage timeline and witness counts | [sase-1bt.2](sase-1bt.2.md) | 2026-09-27 20:29:47 EDT |

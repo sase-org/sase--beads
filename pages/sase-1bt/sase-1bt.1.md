@@ -21,7 +21,7 @@ core-glance: add the fingerprint-free tool_run_live_glance, tool_run_briefs and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1bt.2](sase-1bt.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.2](sase-1bt.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.3](sase-1bt.3.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
@@ -35,3 +35,15 @@ core-glance: add the fingerprint-free tool_run_live_glance, tool_run_briefs and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9368ddf`](https://github.com/sase-org/sase-core/commit/9368ddfc916e44cf2b05d95ca46dcc428a6b9dd0) | feat(tool-run): add live glance, briefs, and node-summary projections | [sase-1bt.1](sase-1bt.1.md) | 2026-09-27 19:26:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.1/README.md
+
+<!-- sase:referenced-by:end -->
