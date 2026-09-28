@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1bf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.4.md) | [sase-1bf.4](sase-1bf.4.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.5/README.md) | [sase-1bf.5](sase-1bf.5.md) | 1 |
 | [bbugyi200.apollo.sase-1bf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bf.6/README.md) | [sase-1bf.6](sase-1bf.6.md) | 0 |
-| [bbugyi200.apollo.sase-1bf.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.land.md) | [sase-1bf](README.md) | 2 |
+| [bbugyi200.apollo.sase-1bf.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bf.land.md) | [sase-1bf](README.md) | 3 |
 
 ## Commits
 
@@ -122,6 +122,7 @@ flowchart TD
 | sase-core | [`sase-core@90d141e`](https://github.com/sase-org/sase-core/commit/90d141eab03b28851bc1dd75762473967d057c13) | feat(managed-tmp): dead-launch backstop in Rust reaper wire (sase-1bf.3) | [sase-1bf.3](sase-1bf.3.md) | 2026-09-27 19:44:23 EDT |
 | sase | [`241af2f`](https://github.com/sase-org/sase/commit/241af2fd8dec897b4596dcd9307fb08090df1cf7) | fix(managed-tmp): fold nested registered roots and ratchet the core pin | [sase-1bf](README.md) | 2026-09-27 23:05:44 EDT |
 | sase-core | [`sase-core@c32f88d`](https://github.com/sase-org/sase-core/commit/c32f88d4625b251905d4a396f430089d2c15befc) | fix(launch-scratch-liveness): exempt zombie and dead processes | [sase-1bf](README.md) | 2026-09-27 23:09:33 EDT |
+| sase--plans | [`sase--plans@7880b16`](https://github.com/sase-org/sase--plans/commit/7880b164a7f72a7c26a8b0e65b91dcb6ee30d4aa) | docs(plan): mark bounded-agent-scratch epic done | [sase-1bf](README.md) | 2026-09-27 23:12:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
