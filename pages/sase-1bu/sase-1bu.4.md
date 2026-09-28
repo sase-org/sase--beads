@@ -20,7 +20,7 @@ publish-sync: after each integration, reconcile live markers for touched goals. 
 ## Dependencies
 
 - **Depends on:** [sase-1bu.3](sase-1bu.3.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bu.5](sase-1bu.5.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bu.5](sase-1bu.5.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

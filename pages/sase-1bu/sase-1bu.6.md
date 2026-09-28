@@ -26,14 +26,13 @@ artifact-kind: make goal: a first-class builtin artifact kind across the sase-co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 2 |
+| [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`17d2beb`](https://github.com/sase-org/sase/commit/17d2beb7677cecb357680a93312b105f526620c2) | feat(goals): make goal a first-class builtin artifact kind (sase-1bu.6) | [sase-1bu.6](sase-1bu.6.md) | 2026-09-28 05:36:48 EDT |
-| sase-core | [`sase-core@33b0250`](https://github.com/sase-org/sase-core/commit/33b0250f91b81ebe9913796574e5faf787f741cf) | feat(goals): make goal a first-class builtin artifact kind in sase-core (sase-1bu.6) | [sase-1bu.6](sase-1bu.6.md) | 2026-09-28 05:45:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
