@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1b1](README.md) / sase-1b1.8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1b1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b1.land.md) · **Assignee:** `sase-1b1.8.land`
-**Created:** 2026-09-27 14:53:02 EDT
+**Created:** 2026-09-27 14:53:02 EDT · **Closed:** 2026-09-27 20:43:16 EDT
 **Plan:** [202609/deck\_views\_landing\_remainder.md](https://github.com/sase-org/sase--plans/blob/main/202609/deck_views_landing_remainder.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/deck_views_landing_remainder.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/deck_views_landing_remainder.md
 
@@ -31,6 +31,16 @@ Finish the work the sase-1b1 (deck views) land agent found before that epic can 
 
 [2026-09-27T21:48:52Z · sase-1bd.5.land] DISCOVERED ISSUE: just symvision fails on master HEAD 24e80d42e with the only error "Private functions/classes should not be imported. Make these public if they need to be imported by non-test files!: _segment_section_identity in src/sase/ace/tui/widgets/prompt_panel/_section_navigation.py". decks/panel_view_deferred.py build_prebuilt_offthread imports that private name. The import arrived in 80fbe7020 (sase-1b1.8.2). Found while landing sase-1bd.5 from phase note sase-1bd.5.1 #1. No task bead tracks this symbol (searched section_navigation|segment_section across tasks, plus the 1-week task list). Not an update-gear defect. sase-1bj is a different symvision report (usage_windows pragmas) and this run did not reach it, because symvision returns on the private-import error first.
 
+[2026-09-28T00:43:16Z · sase-1b1.8.4.land] Rechecked after child epic sase-1b1.8.4 closed.
+
+Descendants are closed: phases 8.1, 8.2, 8.3 and child epic 8.4. 8.1 integration is still in source: _BlockState and _distinct_layouts are private, and DeckViewPolicies.with_deck accepts only MAIN and FILES. 8.2's badge-first path is the prebuilt render 8.4 made pixel-faithful. 8.3's live wide/narrow drive stands. 8.4 rechecked strip equality (6 passed) and the six agents_deck_view goldens (unchanged=6) after later zoom and rail commits.
+
+Note #2's private import of _segment_section_identity is fixed: panel_view_deferred.py imports the public segment_section_identity. just symvision no longer reports that name.
+
+Prior land audit follow-ups stay the filed tasks sase-1bj, sase-1bk, sase-1bl, and sase-1bm. This landing added a +1 on sase-1bm for the standard-5k p95 outlier under load. Declined a new task for the stale-wheel project_finalizer_node_view miss and for the pre-existing unused-public symvision list (see the sase-1b1.8.4 close note).
+
+epic-symbols: none for sase-1b1.8. sase plan links validate passed. Later deck commits (zoom chrome, sidebar modes, rail projection) do not replace the prebuilt path or undo the integration fixes.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -43,8 +53,10 @@ Finish the work the sase-1b1 (deck views) land agent found before that epic can 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1bd.5.land][1] | Need whether this in-progress epic caused the private _segment_section_identity import | 1 |
+| read-by | [agent:sase-1b2.land][1] | Check sase-1b1 child plan status for deck_view golden drift ownership | 1 |
+| read-by | [agent:sase-1bd.5.land][2] | Need whether this in-progress epic caused the private _segment_section_identity import | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bd.5.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bd.5.land/README.md
 
 <!-- sase:referenced-by:end -->
