@@ -14,7 +14,7 @@ run-links: add a verdict suffix and a jump to the run's block on LLM Calls rows 
 ## Dependencies
 
 - **Blocks:** [sase-1bt.12](sase-1bt.12.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bt.7](sase-1bt.7.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.7](sase-1bt.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

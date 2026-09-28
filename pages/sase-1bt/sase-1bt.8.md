@@ -14,7 +14,7 @@ runs-card-live: make a live run's block progress in place with a pure 1 Hz elaps
 ## Dependencies
 
 - **Blocks:** [sase-1bt.12](sase-1bt.12.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bt.7](sase-1bt.7.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.7](sase-1bt.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

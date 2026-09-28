@@ -20,7 +20,7 @@ core-run-detail: add tool_run_detail, which returns one run's brief, safe argv, 
 ## Dependencies
 
 - **Depends on:** [sase-1bt.1](sase-1bt.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.7](sase-1bt.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.7](sase-1bt.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

@@ -22,7 +22,7 @@ tools-deck-cards: give the Tools deck two card hosts (a ToolRunsDeckView card do
 ## Dependencies
 
 - **Depends on:** [sase-1bt.5](sase-1bt.5.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.7](sase-1bt.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.7](sase-1bt.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ tools-deck-cards: give the Tools deck two card hosts (a ToolRunsDeckView card do
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`83dc078`](https://github.com/sase-org/sase/commit/83dc078e33c079009c5b78cd2abc54b8455941e8) | feat(ace-tui): give Tools deck two card hosts with Runs first (sase-1bt.6) | [sase-1bt.6](sase-1bt.6.md) | 2026-09-28 03:04:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.6.md
+
+<!-- sase:referenced-by:end -->

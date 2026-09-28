@@ -43,7 +43,7 @@ A live ToolRun shows on the row that owns it with its stage progress, and turns 
 | [sase-1bt.4](sase-1bt.4.md) | ToolRun glance snapshot service and live-only ⚒ row chips | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.5](sase-1bt.5.md) | Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.6](sase-1bt.6.md) | Tools becomes a two-card deck with ⚒ Runs first | ✓ closed | medium | 2026-09-27 | 1 | 1 |
-| [sase-1bt.7](sase-1bt.7.md) | Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bt.7](sase-1bt.7.md) | Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bt.8](sase-1bt.8.md) | Live run blocks - in-flight stages, pending stages, follow and hold | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 | [sase-1bt.9](sase-1bt.9.md) | Link LLM Calls, the slow-tool list, and Context cards to the run | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 
@@ -62,7 +62,7 @@ flowchart TD
     n8["sase-1bt.4: ToolRun glance snapshot service and live-only ⚒ row chips [closed]"]
     n9["sase-1bt.5: Selection-scoped ⚒ header chip, Tool runs field, and copyable run ids [closed]"]
     n10["sase-1bt.6: Tools becomes a two-card deck with ⚒ Runs first [closed]"]
-    n11["sase-1bt.7: Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence [in_progress]"]
+    n11["sase-1bt.7: Full ⚒ Runs block anatomy - waterfall, triage, log tail, and honest absence [closed]"]
     n12["sase-1bt.8: Live run blocks - in-flight stages, pending stages, follow and hold [in_progress]"]
     n13["sase-1bt.9: Link LLM Calls, the slow-tool list, and Context cards to the run [in_progress]"]
     n0 --> n1
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md) | [sase-1bt.4](sase-1bt.4.md) | 1 |
 | [bbugyi200.athena.sase-1bt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.5/README.md) | [sase-1bt.5](sase-1bt.5.md) | 1 |
 | [bbugyi200.athena.sase-1bt.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.6.md) | [sase-1bt.6](sase-1bt.6.md) | 1 |
-| [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 0 |
+| [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 1 |
 | [bbugyi200.athena.sase-1bt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md) | [sase-1bt.8](sase-1bt.8.md) | 0 |
 | [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 0 |
 | [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.land/README.md) | [sase-1bt](README.md) | 0 |
@@ -124,6 +124,7 @@ flowchart TD
 | sase | [`4f09a28`](https://github.com/sase-org/sase/commit/4f09a28ea1bc6d6a7cd4828ab79a46a8719aea4e) | feat(ace-tui): implement glance row chips for tool runs | [sase-1bt.4](sase-1bt.4.md) | 2026-09-27 23:51:29 EDT |
 | sase | [`e771faa`](https://github.com/sase-org/sase/commit/e771faa8535ee039341157c71c6eea8ae6cbf7d3) | feat(tool-runs): add header chip with node selector and summary loader | [sase-1bt.5](sase-1bt.5.md) | 2026-09-28 01:25:29 EDT |
 | sase | [`83dc078`](https://github.com/sase-org/sase/commit/83dc078e33c079009c5b78cd2abc54b8455941e8) | feat(ace-tui): give Tools deck two card hosts with Runs first (sase-1bt.6) | [sase-1bt.6](sase-1bt.6.md) | 2026-09-28 03:04:54 EDT |
+| sase | [`89e4882`](https://github.com/sase-org/sase/commit/89e48828033154d528684db50a9bc0dfae9487a1) | feat(runs-card): add tool run block anatomy with waterfall, detail, and log hints | [sase-1bt.7](sase-1bt.7.md) | 2026-09-28 04:39:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
