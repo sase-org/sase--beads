@@ -21,7 +21,7 @@ rail-wiring: RAIL mode shows the tribe lists in rail form at a fixed width. Focu
 
 - **Depends on:** [sase-1bn.1](sase-1bn.1.md) ✓ · ⧖ 2026-09-27
 - **Depends on:** [sase-1bn.3](sase-1bn.3.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bn.7](sase-1bn.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bn.7](sase-1bn.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -34,3 +34,15 @@ rail-wiring: RAIL mode shows the tribe lists in rail form at a fixed width. Focu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2f03e50`](https://github.com/sase-org/sase/commit/2f03e5059b09cbefab5abce55bc94441a9f2fc98) | feat(ace-tui): project tribe lists at fixed 9-cell rail width | [sase-1bn.5](sase-1bn.5.md) | 2026-09-27 21:29:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bn.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.5/README.md
+
+<!-- sase:referenced-by:end -->
