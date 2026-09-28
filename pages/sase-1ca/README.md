@@ -20,7 +20,7 @@ A pytest process can never read or mutate the user's real prompt stash or histor
 | [sase-1ca.3](sase-1ca.3.md) | sase-core append-only archive for every permanent stash removal | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1ca.4](sase-1ca.4.md) | Restore and capture hardening in the TUI | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1ca.5](sase-1ca.5.md) | Quitting the TUI stashes an open prompt draft | ✓ closed | small | 2026-09-28 | 1 | 1 |
-| [sase-1ca.6](sase-1ca.6.md) | Stash-archive recovery surface (CLI, TUI hints, docs) and core pin | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [sase-1ca.6](sase-1ca.6.md) | Stash-archive recovery surface (CLI, TUI hints, docs) and core pin | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["sase-1ca.3: sase-core append-only archive for every permanent stash removal [closed]"]
     n4["sase-1ca.4: Restore and capture hardening in the TUI [closed]"]
     n5["sase-1ca.5: Quitting the TUI stashes an open prompt draft [closed]"]
-    n6["sase-1ca.6: Stash-archive recovery surface (CLI, TUI hints, docs) and core pin [in_progress]"]
+    n6["sase-1ca.6: Stash-archive recovery surface (CLI, TUI hints, docs) and core pin [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ca.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.3/README.md) | [sase-1ca.3](sase-1ca.3.md) | 1 |
 | [bbugyi200.athena.sase-1ca.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.4/README.md) | [sase-1ca.4](sase-1ca.4.md) | 1 |
 | [bbugyi200.athena.sase-1ca.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.5.md) | [sase-1ca.5](sase-1ca.5.md) | 1 |
-| [bbugyi200.athena.sase-1ca.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.6.md) | [sase-1ca.6](sase-1ca.6.md) | 0 |
+| [bbugyi200.athena.sase-1ca.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.6.md) | [sase-1ca.6](sase-1ca.6.md) | 1 |
 | [bbugyi200.athena.sase-1ca.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.land/README.md) | [sase-1ca](README.md) | 0 |
 
 ## Commits
@@ -66,3 +66,4 @@ flowchart TD
 | sase-core | [`sase-core@df23cce`](https://github.com/sase-org/sase-core/commit/df23ccee7b5e06e95d760f8d9e20f0ebd802b538) | feat(prompt-stash): append-only archive for every permanent stash removal | [sase-1ca.3](sase-1ca.3.md) | 2026-09-28 17:53:28 EDT |
 | sase | [`703b042`](https://github.com/sase-org/sase/commit/703b042c236d915bcc44635e702267cad36361be) | feat(ace): add tmux launch, isolation guards, notification settlement and stash-restore coverage | [sase-1ca.1](sase-1ca.1.md) | 2026-09-28 18:18:35 EDT |
 | sase | [`67f4a1d`](https://github.com/sase-org/sase/commit/67f4a1d1ec72670cfe936f587b200eb1766c71fa) | feat(ace): stash open prompt draft on TUI quit paths | [sase-1ca.5](sase-1ca.5.md) | 2026-09-28 18:32:25 EDT |
+| sase | [`4f4764b`](https://github.com/sase-org/sase/commit/4f4764b42de68472daae86e4b8d421f422a14021) | feat(prompt-stash): recoverable stash archive with CLI, TUI hints, and docs | [sase-1ca.6](sase-1ca.6.md) | 2026-09-28 19:01:22 EDT |

@@ -17,7 +17,7 @@ core-stash-archive: in the linked sase-core repo, archive (fsynced, fail-closed,
 
 ## Dependencies
 
-- **Blocks:** [sase-1ca.6](sase-1ca.6.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [sase-1ca.6](sase-1ca.6.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

@@ -21,7 +21,7 @@ guard-prompt-stores: route every prompt_stash_facade read/mutation and every pro
 
 ## Dependencies
 
-- **Blocks:** [sase-1ca.6](sase-1ca.6.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [sase-1ca.6](sase-1ca.6.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
