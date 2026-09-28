@@ -32,7 +32,7 @@ Goals are durable, conflict-free, cross-machine records that a person can create
 | [sase-1bu.3](sase-1bu.3.md) | Ledger root resolution and the hidden-clone write lane | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bu.4](sase-1bu.4.md) | Publishing, convergence, and honest freshness | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bu.5](sase-1bu.5.md) | The sase goal command | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
-| [sase-1bu.6](sase-1bu.6.md) | The goal artifact kind and @goal citations | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bu.6](sase-1bu.6.md) | The goal artifact kind and @goal citations | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bu.7](sase-1bu.7.md) | Acceptance fixtures, benchmark, docs, and memory | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n3["sase-1bu.3: Ledger root resolution and the hidden-clone write lane [closed]"]
     n4["sase-1bu.4: Publishing, convergence, and honest freshness [closed]"]
     n5["sase-1bu.5: The sase goal command [in_progress]"]
-    n6["sase-1bu.6: The goal artifact kind and @goal citations [in_progress]"]
+    n6["sase-1bu.6: The goal artifact kind and @goal citations [closed]"]
     n7["sase-1bu.7: Acceptance fixtures, benchmark, docs, and memory [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bu.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.3.md) | [sase-1bu.3](sase-1bu.3.md) | 1 |
 | [bbugyi200.athena.sase-1bu.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.4.md) | [sase-1bu.4](sase-1bu.4.md) | 1 |
 | [bbugyi200.athena.sase-1bu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.5/README.md) | [sase-1bu.5](sase-1bu.5.md) | 0 |
-| [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 0 |
+| [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 1 |
 | [bbugyi200.athena.sase-1bu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md) | [sase-1bu.7](sase-1bu.7.md) | 0 |
 | [bbugyi200.athena.sase-1bu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.land/README.md) | [sase-1bu](README.md) | 0 |
 
@@ -84,3 +84,4 @@ flowchart TD
 | sase-core | [`sase-core@cbe70f6`](https://github.com/sase-org/sase-core/commit/cbe70f66fb28a6b14a023a1458f26cf0f75de911) | feat(goal): add goal ledger I/O in sase-core with Python bindings (sase-1bu.2) | [sase-1bu.2](sase-1bu.2.md) | 2026-09-28 00:19:58 EDT |
 | sase | [`9b69949`](https://github.com/sase-org/sase/commit/9b69949d98429b1b2fd2a2b9eab5957d695debc7) | feat(goals): ledger root resolution and hidden-clone write lane (sase-1bu.3) | [sase-1bu.3](sase-1bu.3.md) | 2026-09-28 02:30:10 EDT |
 | sase | [`6afcdb6`](https://github.com/sase-org/sase/commit/6afcdb67ed2f609c43f8a55d9379fb95ff220814) | feat(goals): publishing, convergence, and honest freshness (sase-1bu.4) | [sase-1bu.4](sase-1bu.4.md) | 2026-09-28 04:07:28 EDT |
+| sase | [`17d2beb`](https://github.com/sase-org/sase/commit/17d2beb7677cecb357680a93312b105f526620c2) | feat(goals): make goal a first-class builtin artifact kind (sase-1bu.6) | [sase-1bu.6](sase-1bu.6.md) | 2026-09-28 05:36:48 EDT |

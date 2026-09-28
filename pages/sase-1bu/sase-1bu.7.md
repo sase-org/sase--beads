@@ -14,7 +14,7 @@ acceptance: prove the epic end to end with two-clone concurrency and marker-race
 ## Dependencies
 
 - **Depends on:** [sase-1bu.5](sase-1bu.5.md) ◐ · ⧖ 2026-09-27
-- **Depends on:** [sase-1bu.6](sase-1bu.6.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bu.6](sase-1bu.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

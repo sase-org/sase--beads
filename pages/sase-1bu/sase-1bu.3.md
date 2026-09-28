@@ -29,7 +29,7 @@ ledger-root: resolve each project's ledger (goals.visibility / goals.host_role c
 
 - **Depends on:** [sase-1bu.2](sase-1bu.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bu.4](sase-1bu.4.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bu.6](sase-1bu.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bu.6](sase-1bu.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
