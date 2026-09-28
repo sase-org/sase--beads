@@ -17,7 +17,7 @@ visual-run-retention: the visual maintenance tooling prunes old `.pytest_cache/s
 
 ## Dependencies
 
-- **Blocks:** [sase-1bf.6](sase-1bf.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bf.6](sase-1bf.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

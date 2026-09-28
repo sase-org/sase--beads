@@ -20,7 +20,7 @@ disk-attribution: `sase disk list` and the disk_pressure job cover every registe
 ## Dependencies
 
 - **Depends on:** [sase-1bf.1](sase-1bf.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bf.6](sase-1bf.6.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bf.6](sase-1bf.6.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
