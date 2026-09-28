@@ -31,3 +31,15 @@ tui-scroll-settle: root-cause the asynchronous pin settle behind the header half
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b536e0c`](https://github.com/sase-org/sase/commit/b536e0c26771143023a9f784bba8e5cc78ae0790) | fix(ace): settle header and files deck scrolling | [sase-1c1.7](sase-1c1.7.md) | 2026-09-28 09:49:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.7--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.7.md
+
+<!-- sase:referenced-by:end -->

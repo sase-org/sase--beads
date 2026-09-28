@@ -32,3 +32,15 @@ contract-drift: fix the 15 mechanical failures. Add completion kinds and sync th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ef77145`](https://github.com/sase-org/sase/commit/ef7714508aed1642dba65fb84c3ba37d6456068f) | fix(ci): repair whole-repo contract and guard drift (sase-1c1.4) | [sase-1c1.4](sase-1c1.4.md) | 2026-09-28 09:51:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.4--1][1] | Need the phase scope and design file after monitor timeout | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.4.md
+
+<!-- sase:referenced-by:end -->

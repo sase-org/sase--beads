@@ -24,3 +24,15 @@ visual-lane: reproduce just test-visual at HEAD after the TUI phases land, fix t
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1c1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.12/README.md) | [sase-1c1.12](sase-1c1.12.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.7--1][1] | Check whether the suite timeout already has an existing epic follow-up owner | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.7.md
+
+<!-- sase:referenced-by:end -->

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1c1](README.md) / sase-1c1.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ti](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ti.md) · **Assignee:** `sase-1c1.9` · **Size:** medium
-**Created:** 2026-09-28 07:09:35 EDT
+**Created:** 2026-09-28 07:09:35 EDT · **Closed:** 2026-09-28 09:55:27 EDT
 **Plan:** [202609/master\_ci\_green\_and\_0\_18\_release.md](https://github.com/sase-org/sase--plans/blob/main/202609/master_ci_green_and_0_18_release.md)
 
 ## Description
@@ -17,6 +17,8 @@ toobig-lint-tail: split src/sase/core/tool_run.py and src/sase/tool/executor.py 
 
 [2026-09-28T12:06:55Z · sase-1c1.9] Verified: toobig src green (tool_run.py 1154->572, tool_run_views.py 628, executor.py 1175->683, executor_triage.py 524); ruff check+format clean; mypy clean on all four files; symvision with exact Justfile flags green after removing 10 self-cleaned sase-1bt ToolRun* entries; sase validate green; validate-committed-plans green (5128 files, 0 errors); no --epic-symbol entries for sase-1c1.9. Targeted pytest (tests/tool + tool_runs TUI) shows failure set byte-identical to clean base (6 ledger failures from borrowed-venv binding skew only); full in-venv pytest runs in the verify monitor.
 
+[2026-09-28T13:55:27Z · sase-1c1.9--2] toobig split verified: fmt-py/md/docs, model-policy, ruff/mypy/flags/pyscripts/test-waits/changelog/stitch-terminology/symvision lints, toobig src 1000/850/700, validate + committed-plans + build-check, pytest tests/tool + 7 tool-runs TUI files all exit 0; stale executor patch targets re-pointed to executor_triage
+
 ## Dependencies
 
 - **Blocks:** [sase-1c1.13](sase-1c1.13.md) ◐ · ⧖ 2026-09-28
@@ -25,4 +27,10 @@ toobig-lint-tail: split src/sase/core/tool_run.py and src/sase/tool/executor.py 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 0 |
+| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e9eb8c6`](https://github.com/sase-org/sase/commit/e9eb8c6d4b7c1e981d1336042ce2429233c166bc) | refactor(tool): split oversized executor and tool\_run modules, fix triage patch targets | [sase-1c1.9](sase-1c1.9.md) | 2026-09-28 09:57:08 EDT |

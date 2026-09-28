@@ -23,10 +23,22 @@ green-master: re-inventory CI at HEAD, fix any failure that landed since the rep
 - **Depends on:** [sase-1c1.6](sase-1c1.6.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.7](sase-1c1.7.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.8](sase-1c1.8.md) ◐ · ⧖ 2026-09-28
-- **Depends on:** [sase-1c1.9](sase-1c1.9.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.9](sase-1c1.9.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1c1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.13/README.md) | [sase-1c1.13](sase-1c1.13.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1c1.7--1][1] | Check whether the suite timeout already has an existing epic follow-up owner | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.7.md
+
+<!-- sase:referenced-by:end -->
