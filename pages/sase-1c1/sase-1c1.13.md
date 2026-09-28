@@ -22,7 +22,7 @@ green-master: re-inventory CI at HEAD, fix any failure that landed since the rep
 - **Depends on:** [sase-1c1.5](sase-1c1.5.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.6](sase-1c1.6.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.7](sase-1c1.7.md) ✓ · ⧖ 2026-09-28
-- **Depends on:** [sase-1c1.8](sase-1c1.8.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.8](sase-1c1.8.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.9](sase-1c1.9.md) ✓ · ⧖ 2026-09-28
 
 ## Agents

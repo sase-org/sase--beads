@@ -14,7 +14,7 @@ release: dispatch Publish so #299 ratchets to sase-core-rs>=0.36.0,<0.37.0, get 
 ## Dependencies
 
 - **Depends on:** [sase-1c1.13](sase-1c1.13.md) ◐ · ⧖ 2026-09-28
-- **Depends on:** [sase-1c1.2](sase-1c1.2.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.2](sase-1c1.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

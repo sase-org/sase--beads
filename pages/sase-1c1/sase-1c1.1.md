@@ -17,7 +17,7 @@ core-macos: in the linked sase-core checkout, canonicalize the deepest existing 
 
 ## Dependencies
 
-- **Blocks:** [sase-1c1.2](sase-1c1.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [sase-1c1.2](sase-1c1.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
@@ -38,7 +38,9 @@ core-macos: in the linked sase-core checkout, canonicalize the deepest existing 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1c1.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1c1.2][2] | Need core-macos close notes and what landed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.2.md
 
 <!-- sase:referenced-by:end -->

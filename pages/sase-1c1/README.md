@@ -28,19 +28,19 @@ sase-core-rs 0.36.0 and sase 0.18.0 are live on PyPI and install cleanly from a 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1c1.1](sase-1c1.1.md) | Fix macOS path canonicalization in sase-core | ✓ closed | small | 2026-09-28 | 1 | 1 |
-| [sase-1c1.10](sase-1c1.10.md) | Move measurement lanes out of the release-gating Full CI | ✓ closed | medium | 2026-09-28 | 1 | 0 |
+| [sase-1c1.10](sase-1c1.10.md) | Move measurement lanes out of the release-gating Full CI | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.11](sase-1c1.11.md) | Fix the real perf-floors regressions | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.12](sase-1c1.12.md) | Make the visual-test lane green without bulk acceptance | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.13](sase-1c1.13.md) | Integrate and observe green Master Gate and Full CI | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [sase-1c1.14](sase-1c1.14.md) | Release sase 0.18.0 to PyPI through ci\_watch | ◐ in_progress | small | 2026-09-28 | 1 | 0 |
-| [sase-1c1.2](sase-1c1.2.md) | Cut and verify sase-core-rs 0.36.0 on PyPI | ◐ in_progress | small | 2026-09-28 | 1 | 1 |
-| [sase-1c1.3](sase-1c1.3.md) | Move the sase core source pin and stop ratchet PR pileup | ✓ closed | small | 2026-09-28 | 1 | 0 |
+| [sase-1c1.2](sase-1c1.2.md) | Cut and verify sase-core-rs 0.36.0 on PyPI | ✓ closed | small | 2026-09-28 | 1 | 1 |
+| [sase-1c1.3](sase-1c1.3.md) | Move the sase core source pin and stop ratchet PR pileup | ✓ closed | small | 2026-09-28 | 1 | 1 |
 | [sase-1c1.4](sase-1c1.4.md) | Repair whole-repo contract and guard drift | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.5](sase-1c1.5.md) | Settle %tab completion fallout | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.6](sase-1c1.6.md) | Repair Admin Center tab-model fallout from the Tools pane | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [sase-1c1.7](sase-1c1.7.md) | Fix header half-page scroll and files Ctrl-J settle races | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [sase-1c1.8](sase-1c1.8.md) | Fix chrome layout resize failures | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
-| [sase-1c1.9](sase-1c1.9.md) | Split the two oversized modules and clear the masked lint tail | ✓ closed | medium | 2026-09-28 | 1 | 0 |
+| [sase-1c1.8](sase-1c1.8.md) | Fix chrome layout resize failures | ✓ closed | medium | 2026-09-28 | 1 | 1 |
+| [sase-1c1.9](sase-1c1.9.md) | Split the two oversized modules and clear the masked lint tail | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 
 ## Lineage
 
@@ -53,13 +53,13 @@ flowchart TD
     n4["sase-1c1.12: Make the visual-test lane green without bulk acceptance [in_progress]"]
     n5["sase-1c1.13: Integrate and observe green Master Gate and Full CI [in_progress]"]
     n6["sase-1c1.14: Release sase 0.18.0 to PyPI through ci_watch [in_progress]"]
-    n7["sase-1c1.2: Cut and verify sase-core-rs 0.36.0 on PyPI [in_progress]"]
+    n7["sase-1c1.2: Cut and verify sase-core-rs 0.36.0 on PyPI [closed]"]
     n8["sase-1c1.3: Move the sase core source pin and stop ratchet PR pileup [closed]"]
     n9["sase-1c1.4: Repair whole-repo contract and guard drift [closed]"]
     n10["sase-1c1.5: Settle %tab completion fallout [closed]"]
     n11["sase-1c1.6: Repair Admin Center tab-model fallout from the Tools pane [closed]"]
     n12["sase-1c1.7: Fix header half-page scroll and files Ctrl-J settle races [closed]"]
-    n13["sase-1c1.8: Fix chrome layout resize failures [in_progress]"]
+    n13["sase-1c1.8: Fix chrome layout resize failures [closed]"]
     n14["sase-1c1.9: Split the two oversized modules and clear the masked lint tail [closed]"]
     n0 --> n1
     n0 --> n2
@@ -99,19 +99,19 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1c1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.1.md) | [sase-1c1.1](sase-1c1.1.md) | 1 |
-| [bbugyi200.athena.sase-1c1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.10.md) | [sase-1c1.10](sase-1c1.10.md) | 0 |
+| [bbugyi200.athena.sase-1c1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.10.md) | [sase-1c1.10](sase-1c1.10.md) | 1 |
 | [bbugyi200.athena.sase-1c1.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.11.md) | [sase-1c1.11](sase-1c1.11.md) | 0 |
 | [bbugyi200.athena.sase-1c1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.12/README.md) | [sase-1c1.12](sase-1c1.12.md) | 0 |
 | [bbugyi200.athena.sase-1c1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.13/README.md) | [sase-1c1.13](sase-1c1.13.md) | 0 |
 | [bbugyi200.athena.sase-1c1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.14/README.md) | [sase-1c1.14](sase-1c1.14.md) | 0 |
-| [bbugyi200.athena.sase-1c1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.2/README.md) | [sase-1c1.2](sase-1c1.2.md) | 1 |
-| [bbugyi200.athena.sase-1c1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.3.md) | [sase-1c1.3](sase-1c1.3.md) | 0 |
+| [bbugyi200.athena.sase-1c1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.2.md) | [sase-1c1.2](sase-1c1.2.md) | 1 |
+| [bbugyi200.athena.sase-1c1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.3.md) | [sase-1c1.3](sase-1c1.3.md) | 1 |
 | [bbugyi200.athena.sase-1c1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.4.md) | [sase-1c1.4](sase-1c1.4.md) | 1 |
 | [bbugyi200.athena.sase-1c1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.5/README.md) | [sase-1c1.5](sase-1c1.5.md) | 1 |
 | [bbugyi200.athena.sase-1c1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.6/README.md) | [sase-1c1.6](sase-1c1.6.md) | 1 |
 | [bbugyi200.athena.sase-1c1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.7.md) | [sase-1c1.7](sase-1c1.7.md) | 1 |
-| [bbugyi200.athena.sase-1c1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.8.md) | [sase-1c1.8](sase-1c1.8.md) | 0 |
-| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 0 |
+| [bbugyi200.athena.sase-1c1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.8.md) | [sase-1c1.8](sase-1c1.8.md) | 1 |
+| [bbugyi200.athena.sase-1c1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.9.md) | [sase-1c1.9](sase-1c1.9.md) | 1 |
 | [bbugyi200.athena.sase-1c1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.land/README.md) | [sase-1c1](README.md) | 0 |
 
 ## Commits
@@ -123,4 +123,8 @@ flowchart TD
 | sase-core | [`sase-core@1fee641`](https://github.com/sase-org/sase-core/commit/1fee6419181b69826724652d65d79258c66b8982) | fix(sase-core): canonicalize deepest existing ancestor in launch\_scratch\_liveness normalize\_path | [sase-1c1.1](sase-1c1.1.md) | 2026-09-28 08:58:31 EDT |
 | sase | [`b536e0c`](https://github.com/sase-org/sase/commit/b536e0c26771143023a9f784bba8e5cc78ae0790) | fix(ace): settle header and files deck scrolling | [sase-1c1.7](sase-1c1.7.md) | 2026-09-28 09:49:03 EDT |
 | sase | [`ef77145`](https://github.com/sase-org/sase/commit/ef7714508aed1642dba65fb84c3ba37d6456068f) | fix(ci): repair whole-repo contract and guard drift (sase-1c1.4) | [sase-1c1.4](sase-1c1.4.md) | 2026-09-28 09:51:18 EDT |
+| sase | [`e9eb8c6`](https://github.com/sase-org/sase/commit/e9eb8c6d4b7c1e981d1336042ce2429233c166bc) | refactor(tool): split oversized executor and tool\_run modules, fix triage patch targets | [sase-1c1.9](sase-1c1.9.md) | 2026-09-28 09:57:08 EDT |
+| sase | [`05c0e58`](https://github.com/sase-org/sase/commit/05c0e5886ea839c1f5905aa1fd77103e7a1388d2) | feat(ci): split telemetry lanes into a scheduled workflow (sase-1c1.10) | [sase-1c1.10](sase-1c1.10.md) | 2026-09-28 10:01:45 EDT |
+| sase | [`d56e5df`](https://github.com/sase-org/sase/commit/d56e5dfa5fc39f358f9c2ab66f29753d66499448) | chore(core-pin): bump sase-core pin to d2d9ec7 and keep at most one ratchet PR open | [sase-1c1.3](sase-1c1.3.md) | 2026-09-28 10:03:01 EDT |
 | sase-core | [`sase-core@d437782`](https://github.com/sase-org/sase-core/commit/d43778255b9dca28b4cdb1de38d413bda5e6cbe2) | test(launch-scratch-liveness): compare canonical paths in symlink regression | [sase-1c1.2](sase-1c1.2.md) | 2026-09-28 10:04:23 EDT |
+| sase | [`f760d30`](https://github.com/sase-org/sase/commit/f760d30a9115a0c5d1c7fd0b341a6142888f58bc) | fix(ace-tui): wait for chrome layout resize settle (sase-1c1.8) | [sase-1c1.8](sase-1c1.8.md) | 2026-09-28 11:54:36 EDT |
