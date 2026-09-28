@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ca.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.4/README.md) | [sase-1ca.4](sase-1ca.4.md) | 1 |
 | [bbugyi200.athena.sase-1ca.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.5.md) | [sase-1ca.5](sase-1ca.5.md) | 1 |
 | [bbugyi200.athena.sase-1ca.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.6.md) | [sase-1ca.6](sase-1ca.6.md) | 1 |
-| [bbugyi200.athena.sase-1ca.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.land.md) | [sase-1ca](README.md) | 1 |
+| [bbugyi200.athena.sase-1ca.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ca.land.md) | [sase-1ca](README.md) | 2 |
 
 ## Commits
 
@@ -88,3 +88,4 @@ flowchart TD
 | sase | [`67f4a1d`](https://github.com/sase-org/sase/commit/67f4a1d1ec72670cfe936f587b200eb1766c71fa) | feat(ace): stash open prompt draft on TUI quit paths | [sase-1ca.5](sase-1ca.5.md) | 2026-09-28 18:32:25 EDT |
 | sase | [`4f4764b`](https://github.com/sase-org/sase/commit/4f4764b42de68472daae86e4b8d421f422a14021) | feat(prompt-stash): recoverable stash archive with CLI, TUI hints, and docs | [sase-1ca.6](sase-1ca.6.md) | 2026-09-28 19:01:22 EDT |
 | sase | [`119f97d`](https://github.com/sase-org/sase/commit/119f97da8078cc265d6f2219cd94c91b8cbda43e) | feat(prompt-stash): land sase-1ca hardening gaps 1-6 with regression tests | [sase-1ca](README.md) | 2026-09-28 19:46:15 EDT |
+| sase--plans | [`sase--plans@24cbb7f`](https://github.com/sase-org/sase--plans/commit/24cbb7f5d4422f3b5c7f9c3b564759240cd4390d) | chore(plans): mark never\_lose\_stashed\_prompts epic plan done | [sase-1ca](README.md) | 2026-09-28 19:49:30 EDT |
