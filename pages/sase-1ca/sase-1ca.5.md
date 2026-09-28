@@ -13,7 +13,7 @@ quit-preserves-draft: generalize the pre-restart stash helper and call it on exp
 
 ## Dependencies
 
-- **Depends on:** [sase-1ca.4](sase-1ca.4.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1ca.4](sase-1ca.4.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

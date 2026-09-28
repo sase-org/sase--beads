@@ -14,8 +14,8 @@ stash-archive-recovery: bump the sase-core pin, add guarded archive facade funct
 ## Dependencies
 
 - **Depends on:** [sase-1ca.2](sase-1ca.2.md) ✓ · ⧖ 2026-09-28
-- **Depends on:** [sase-1ca.3](sase-1ca.3.md) ◐ · ⧖ 2026-09-28
-- **Depends on:** [sase-1ca.4](sase-1ca.4.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1ca.3](sase-1ca.3.md) ✓ · ⧖ 2026-09-28
+- **Depends on:** [sase-1ca.4](sase-1ca.4.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
