@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/tool_runs_tui_surfaces.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/tool_runs_tui_surfaces.md
 
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.7/README.md) | [sase-1bt.7](sase-1bt.7.md) | 1 |
 | [bbugyi200.athena.sase-1bt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md) | [sase-1bt.8](sase-1bt.8.md) | 1 |
 | [bbugyi200.athena.sase-1bt.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.9/README.md) | [sase-1bt.9](sase-1bt.9.md) | 1 |
-| [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.land.md) | [sase-1bt](README.md) | 1 |
+| [bbugyi200.athena.sase-1bt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.land.md) | [sase-1bt](README.md) | 2 |
 
 ## Commits
 
@@ -140,6 +140,7 @@ flowchart TD
 | sase | [`02ff491`](https://github.com/sase-org/sase/commit/02ff49120fe5dae7773f5424e99045fcd9c4e25a) | feat(ace-tui): cut over ToolRun surfaces, retire ace\_tool\_runs (sase-1bt.12) | [sase-1bt.12](sase-1bt.12.md) | 2026-09-28 13:36:04 EDT |
 | sase | [`7fc18e6`](https://github.com/sase-org/sase/commit/7fc18e6325c4e60789b0421985fe3d5ed98a6c2d) | docs(tui): document ToolRun surfaces, keys, and Admin Center tab | [sase-1bt.13](sase-1bt.13.md) | 2026-09-28 14:00:46 EDT |
 | sase | [`386d383`](https://github.com/sase-org/sase/commit/386d383a942aeeef8f62b83195b4fa2d9619e24d) | feat(ace): wire every ToolRun jump, fix glance rebuilds, land sase-1bt | [sase-1bt](README.md) | 2026-09-28 16:31:57 EDT |
+| sase-core | [`sase-core@6557e01`](https://github.com/sase-org/sase-core/commit/6557e0168388e9b0632391e0c36789ec13f6ab3f) | feat(tool-run): failures store and triage stage updates | [sase-1bt](README.md) | 2026-09-28 16:37:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -147,10 +148,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1bt.4][1] | check epic children status | 1 |
-| read-by | [agent:sase-1bt.8][2] | Need epic status for phase ordering | 1 |
+| read-by | [agent:2v--1][1] | confirm sase-1bt is closed before removing its stale symvision epic-symbol entries | 1 |
+| read-by | [agent:sase-1bt.4][2] | check epic children status | 1 |
+| read-by | [agent:sase-1bt.8][3] | Need epic status for phase ordering | 1 |
+| read-by | [agent:sase-1bt.land--2][4] | closeout check | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.2v.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bt.8/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.land.md
 
 <!-- sase:referenced-by:end -->
