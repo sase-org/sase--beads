@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1b2
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0sr](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0sr.md) · **Assignee:** `sase-1b2.land`
-**Created:** 2026-09-27 05:49:28 EDT
+**Created:** 2026-09-27 05:49:28 EDT · **Closed:** 2026-09-27 20:15:35 EDT
 **Plan:** [202609/agents\_tab\_final\_deck.md](https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/agents_tab_final_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/agents_tab_final_deck.md
 
@@ -62,6 +62,16 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 (3) symvision unused publics from this epic's modules: RunView* and run_view_*_from_dict in src/sase/core/finalizer_run_view.py plus runner_identity_from_mapping in src/sase/finalizers/run_view_inputs.py (65c016a897); format_run_duration, run_duration_seconds, run_start_time, run_status_bucket in decks/final/run_blocks.py (01994b5299); DeckSpec in decks/spec.py (88fee8ce3d, sase-1b2.9); cap_text, choose_headline, journal_path (beb1db054d); latest_step_summary, read_steps_tail (7b20f4c1c2); operation_filename (d3493f71ae); run_phase_style (5dac33451a, sase-1b2.8); FinalStatusError in src/sase/finalizers/cli.py (a0b25eea56, sase-1b2.13). The non-finalizer reds are tracked in sase-1ay.
 (4) R1 status: sase-1b1 has NOT closed yet. Its landing found remaining epic work (D10 P-transition budgets, live wide/narrow drive) and hands off to a child plan, so whichever epic closes second still owns `PROPOSED FOLLOW-UP: extend deck views (policy, badge, P) to the FINAL deck`. On master, FINAL shows no badge and P is unavailable there (test_deck_view_main_pilot.py::test_final_panel_shows_no_badge_and_no_cycle passes).
 
+[2026-09-27T21:19:20Z · bryanbugyi34@gmail.com] Lander agent should implement the proposed memory file changes.
+
+[2026-09-28T00:15:35Z · sase-1b2.land] LANDED by sase-1b2.land (sase master 965248789b + landing diff; sase-core 924884e).
+
+VERIFIED: all 20 phases closed and their notes addressed. Source and commits beb1db054..5a60113e1 cover the journal, status summary, op records, step channel/live sink, the Rust run_view (f52fa7c/e53d7a5), the Python facade/collector, sase final status, DeckSpec, per-deck preferred cards, CardDocumentView, the FINAL deck (Overview, instance cards, run blocks, live tail), flag removal (sase-1b5 closed) and docs. Epic-note reds, rechecked: _root_represents_member, agent_bundle mypy, the FINAL deck tests and the symvision unused-publics are all fixed on master (mypy is clean repo-wide), and the decode.rs clippy denies no longer fire on clippy 1.98.
+
+FIXED IN LANDING: two schema pin tests 33->34; five FINAL clock sites routed through sase.core.time (the receipt, declaration and run-block times now match the configured-tz START; 12 FINAL goldens re-baselined and inspe
+
+… and 2428 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -91,7 +101,7 @@ LAND AGENT: on master, confirm that DeckPanelState keeps both `views` and the pe
 
 ```mermaid
 flowchart TD
-    n0["sase-1b2: Finalizers on the Agents tab - FINALIZING rows, Reply receipts, and the ⊛ FINAL deck [in_progress]"]
+    n0["sase-1b2: Finalizers on the Agents tab - FINALIZING rows, Reply receipts, and the ⊛ FINAL deck [closed]"]
     n1["sase-1b2.1: finalizer_status summary field on the Rust agent-scan wire [closed]"]
     n2["sase-1b2.10: Per-deck sticky preferred cards [closed]"]
     n3["sase-1b2.11: A generic card-document view and block host beyond Main [closed]"]
@@ -182,7 +192,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1b2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1b2.7.md) | [sase-1b2.7](sase-1b2.7.md) | 1 |
 | [bbugyi200.athena.sase-1b2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.8/README.md) | [sase-1b2.8](sase-1b2.8.md) | 1 |
 | [bbugyi200.athena.sase-1b2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md) | [sase-1b2.9](sase-1b2.9.md) | 1 |
-| [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 0 |
+| [bbugyi200.athena.sase-1b2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.land/README.md) | [sase-1b2](README.md) | 1 |
 
 ## Commits
 
@@ -208,6 +218,7 @@ flowchart TD
 | sase | [`ed0b66f`](https://github.com/sase-org/sase/commit/ed0b66f7b8e02100edbb351d7912f8425ee34cf8) | feat(final-deck): add gated 1 Hz live tail for actively-finalizing nodes | [sase-1b2.18](sase-1b2.18.md) | 2026-09-27 12:27:48 EDT |
 | sase | [`2d8f2f0`](https://github.com/sase-org/sase/commit/2d8f2f0566c876b347c06e6ffb53b8afa20e930b) | feat(ace): remove ace\_final\_deck flag and ship FINAL deck always-on | [sase-1b2.19](sase-1b2.19.md) | 2026-09-27 16:16:16 EDT |
 | sase | [`5a60113`](https://github.com/sase-org/sase/commit/5a60113e1c584955c1859a86ca808ac98a79a044) | docs(agents-tab): document FINAL deck, FINALIZING rows, receipts and finalizer keys | [sase-1b2.20](sase-1b2.20.md) | 2026-09-27 17:14:23 EDT |
+| sase | [`57b5074`](https://github.com/sase-org/sase/commit/57b507487e7a447d66228d01c122df362230a2f6) | fix(final-deck): land sase-1b2 - configured-tz clocks, turn wording, triage-loop bench | [sase-1b2](README.md) | 2026-09-27 20:23:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -218,21 +229,23 @@ flowchart TD
 | read-by | [agent:1c][1] | Mapping sase-1b2 phase dependency graph for value report | 1 |
 | read-by | [agent:research.2s.cld][2] | Check whether this in-flight epic overlaps Goals seams (finalizers, notifications, FINAL deck, tabs/grouping) | 1 |
 | read-by | [agent:research.2s.final][3] | Verify status of epic cited in Goals epic-split reports | 2 |
-| read-by | [agent:sase-1ah.8.4.land][4] | Check whether the epic is active for routing a symvision failure | 1 |
-| read-by | [agent:sase-1b2.10][5] | epic notes for shared rules | 1 |
-| read-by | [agent:sase-1b2.16][6] | parent epic scope for phase sase-1b2.16 | 1 |
-| read-by | [agent:sase-1b2.19][7] | Need shared rules in epic notes for cutover | 2 |
-| read-by | [agent:sase-1b2.9][8] | Need parent epic context for deck-spec-registry phase | 1 |
-| read-by | [agent:sase-1b6.land][9] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
+| read-by | [agent:research.2t.final][4] | Check status of epics that gate or overlap sase tool TUI surfaces (E5) for the consolidated research sequencing | 1 |
+| read-by | [agent:sase-1ah.8.4.land][5] | Check whether the epic is active for routing a symvision failure | 1 |
+| read-by | [agent:sase-1b2.10][6] | epic notes for shared rules | 1 |
+| read-by | [agent:sase-1b2.16][7] | parent epic scope for phase sase-1b2.16 | 1 |
+| read-by | [agent:sase-1b2.19][8] | Need shared rules in epic notes for cutover | 2 |
+| read-by | [agent:sase-1b2.9][9] | Need parent epic context for deck-spec-registry phase | 1 |
+| read-by | [agent:sase-1b6.land][10] | Check whether the finalizer epic is active and causally tied to new clippy denies in finalizer/run_view/decode | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1c/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2s.final/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2t.final/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ah.8.4.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.10/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.16/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.19/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b2.9/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1b6.land/README.md
 
 <!-- sase:referenced-by:end -->
