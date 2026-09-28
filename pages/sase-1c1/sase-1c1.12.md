@@ -16,7 +16,7 @@ visual-lane: reproduce just test-visual at HEAD after the TUI phases land, fix t
 - **Blocks:** [sase-1c1.13](sase-1c1.13.md) ◐ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.5](sase-1c1.5.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.6](sase-1c1.6.md) ✓ · ⧖ 2026-09-28
-- **Depends on:** [sase-1c1.7](sase-1c1.7.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [sase-1c1.7](sase-1c1.7.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [sase-1c1.8](sase-1c1.8.md) ◐ · ⧖ 2026-09-28
 
 ## Agents

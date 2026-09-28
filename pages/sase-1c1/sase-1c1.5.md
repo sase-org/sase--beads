@@ -24,7 +24,13 @@ tab-completion: decide whether the default main tab group is a leak when the age
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.5/README.md) | [sase-1c1.5](sase-1c1.5.md) | 0 |
+| [bbugyi200.athena.sase-1c1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.5/README.md) | [sase-1c1.5](sase-1c1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a0fd993`](https://github.com/sase-org/sase/commit/a0fd993c6e7057a55363809e9b08d3946420444a) | fix(ace-tui): gate tab completion behind agent\_tabs flag (sase-1c1.5) | [sase-1c1.5](sase-1c1.5.md) | 2026-09-28 07:23:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
