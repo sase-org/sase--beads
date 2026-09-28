@@ -22,7 +22,7 @@ tool-run-adapter: move the core pin, add typed Python adapters and binding regis
 ## Dependencies
 
 - **Depends on:** [sase-1bt.1](sase-1bt.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bt.4](sase-1bt.4.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bt.4](sase-1bt.4.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ tool-run-adapter: move the core pin, add typed Python adapters and binding regis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5c54e6c`](https://github.com/sase-org/sase/commit/5c54e6c14b641766c60349dc095ec4a63a092755) | feat(tool-runs): typed adapters, view vocabulary, beta flag, shared log tail, chop glyph move (sase-1bt.3) | [sase-1bt.3](sase-1bt.3.md) | 2026-09-27 22:42:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1bt.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bt.3.md
+
+<!-- sase:referenced-by:end -->

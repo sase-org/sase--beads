@@ -13,7 +13,7 @@ header-chip: add the node-summary loader and LRU, a tool-runs detail-header lane
 
 ## Dependencies
 
-- **Depends on:** [sase-1bt.4](sase-1bt.4.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [sase-1bt.4](sase-1bt.4.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [sase-1bt.6](sase-1bt.6.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
