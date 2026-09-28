@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1bn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.5/README.md) | [sase-1bn.5](sase-1bn.5.md) | 1 |
 | [bbugyi200.apollo.sase-1bn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1bn.6/README.md) | [sase-1bn.6](sase-1bn.6.md) | 1 |
 | [bbugyi200.apollo.sase-1bn.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.7.md) | [sase-1bn.7](sase-1bn.7.md) | 1 |
-| [bbugyi200.apollo.sase-1bn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.land.md) | [sase-1bn](README.md) | 1 |
+| [bbugyi200.apollo.sase-1bn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1bn.land.md) | [sase-1bn](README.md) | 2 |
 
 ## Commits
 
@@ -127,6 +127,7 @@ flowchart TD
 | sase | [`2f03e50`](https://github.com/sase-org/sase/commit/2f03e5059b09cbefab5abce55bc94441a9f2fc98) | feat(ace-tui): project tribe lists at fixed 9-cell rail width | [sase-1bn.5](sase-1bn.5.md) | 2026-09-27 21:29:59 EDT |
 | sase | [`52f7351`](https://github.com/sase-org/sase/commit/52f7351ae8afc8d088f52646425cc2bd93013945) | feat(ace-tui): mode affordances for node rail and deck zoom (sase-1bn.7) | [sase-1bn.7](sase-1bn.7.md) | 2026-09-27 23:24:17 EDT |
 | sase | [`f176ada`](https://github.com/sase-org/sase/commit/f176ada71dd677e2d3fdc669d16065b3e5b232a9) | fix(ace-tui): land the remaining node-rail epic gaps (sase-1bn) | [sase-1bn](README.md) | 2026-09-28 02:26:40 EDT |
+| sase--plans | [`sase--plans@304d76e`](https://github.com/sase-org/sase--plans/commit/304d76e7248242139145faf5196a6c14601c6f4b) | chore(plans): mark agents\_node\_rail\_and\_zoom epic done | [sase-1bn](README.md) | 2026-09-28 02:29:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
