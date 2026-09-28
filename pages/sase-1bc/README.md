@@ -68,9 +68,13 @@ flowchart TD
     n13["sase-1bc.6.1.3: Tab switching, persistence, keys, minimal strip, and perf metric [closed]"]
     n14["sase-1bc.6.1.4: Switch-then-reveal for every cross-tab jump [closed]"]
     n15["sase-1bc.6.1.5: Tab-scoped bulk confirmations, docs, and flag-on verification [closed]"]
-    n16["sase-1bc.7: The beautiful tab strip [in_progress]"]
-    n17["sase-1bc.8: The o/O layout ladder [in_progress]"]
-    n18["sase-1bc.9: Machine tabs [in_progress]"]
+    n16["sase-1bc.6.1.6: Agent tabs: repair the scope pipeline, tab switching, cross-tab jumps, and scope wording [in_progress]"]
+    n17["sase-1bc.6.1.6.1: Scope pipeline, tab switch memory, catalog maintenance, and key yield fixes [closed]"]
+    n18["sase-1bc.6.1.6.2: Back-anchors, failed-reveal restore, and fold-aware reveal for every cross-tab jump [in_progress]"]
+    n19["sase-1bc.6.1.6.3: Honest marked and custom scope wording, docs accuracy, and symvision cleanup [in_progress]"]
+    n20["sase-1bc.7: The beautiful tab strip [in_progress]"]
+    n21["sase-1bc.8: The o/O layout ladder [in_progress]"]
+    n22["sase-1bc.9: Machine tabs [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,9 +90,13 @@ flowchart TD
     n10 --> n13
     n10 --> n14
     n10 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
+    n10 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
     n1 -.-> n9
     n2 -.-> n4
     n3 -.-> n4
@@ -98,16 +106,19 @@ flowchart TD
     n7 -.-> n9
     n8 -.-> n2
     n9 -.-> n3
-    n9 -.-> n16
+    n9 -.-> n20
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
     n13 -.-> n15
-    n16 -.-> n17
-    n16 -.-> n18
-    n17 -.-> n4
-    n18 -.-> n2
-    n18 -.-> n4
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n19
+    n20 -.-> n21
+    n20 -.-> n22
+    n21 -.-> n4
+    n22 -.-> n2
+    n22 -.-> n4
 ```
 
 ## Agents
@@ -128,7 +139,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1bc.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.3/README.md) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1bc.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.land/README.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.6.1.md) | [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1bc.6.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.2/README.md) | [sase-1bc.6.1.6.2](sase-1bc.6.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.3/README.md) | [sase-1bc.6.1.6.3](sase-1bc.6.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.6.land/README.md) | [sase-1bc.6.1.6](sase-1bc.6.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1bc.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.land.md) | [sase-1bc.6.1](sase-1bc.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1bc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.7/README.md) | [sase-1bc.7](sase-1bc.7.md) | 0 |
 | [bbugyi200.athena.sase-1bc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.8/README.md) | [sase-1bc.8](sase-1bc.8.md) | 0 |
 | [bbugyi200.athena.sase-1bc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.9/README.md) | [sase-1bc.9](sase-1bc.9.md) | 0 |
@@ -148,6 +163,7 @@ flowchart TD
 | sase | [`c78eb38`](https://github.com/sase-org/sase/commit/c78eb3805faaa4848aa7e8afea69364e2018f064) | feat(agent-tabs): tab switching, persistence, keys, minimal strip, and perf metric (sase-1bc.6.1.3) | [sase-1bc.6.1.3](sase-1bc.6.1.3.md) | 2026-09-27 17:22:49 EDT |
 | sase | [`94ed923`](https://github.com/sase-org/sase/commit/94ed923b107a14598fa54803d751abf125c1e5f1) | feat(agent-tabs): tab-scoped bulk confirmations, docs, and flag-on verification (sase-1bc.6.1.5) | [sase-1bc.6.1.5](sase-1bc.6.1.5.md) | 2026-09-27 18:06:24 EDT |
 | sase | [`63fd6a5`](https://github.com/sase-org/sase/commit/63fd6a5dfd2826e411a2a63032de5f6ddc1a9274) | feat(agent-tabs): switch-then-reveal for every cross-tab jump (sase-1bc.6.1.4) | [sase-1bc.6.1.4](sase-1bc.6.1.4.md) | 2026-09-27 19:00:21 EDT |
+| sase | [`dae0f6e`](https://github.com/sase-org/sase/commit/dae0f6efad9f08622c954cfa536dba769bf23b1d) | fix(ace): repair agent tab scope and switching | [sase-1bc.6.1.6.1](sase-1bc.6.1.6.1.md) | 2026-09-27 22:13:18 EDT |
 
 <!-- sase:referenced-by:start -->
 

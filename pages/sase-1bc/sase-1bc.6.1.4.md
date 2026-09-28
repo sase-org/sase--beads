@@ -39,8 +39,10 @@ cross-tab-nav: add one switch-then-reveal helper and route every agent-revealing
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1bc.6.1.5][1] | check status | 1 |
+| read-by | [agent:sase-1bc.6.1.4--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1bc.6.1.5][2] | check status | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bc.6.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bc.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->
