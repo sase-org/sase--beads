@@ -26,7 +26,13 @@ restore-capture-hardening: restore loads from the pop outcome with fail-closed r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ca.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.4/README.md) | [sase-1ca.4](sase-1ca.4.md) | 0 |
+| [bbugyi200.athena.sase-1ca.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.4/README.md) | [sase-1ca.4](sase-1ca.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`aba5d03`](https://github.com/sase-org/sase/commit/aba5d035c2e35849b455edad569fcdbd695cbac7) | fix(ace): harden prompt stash restore, capture, and availability guards | [sase-1ca.4](sase-1ca.4.md) | 2026-09-28 17:46:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

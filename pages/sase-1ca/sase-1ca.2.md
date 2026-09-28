@@ -27,7 +27,13 @@ guard-prompt-stores: route every prompt_stash_facade read/mutation and every pro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ca.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.2/README.md) | [sase-1ca.2](sase-1ca.2.md) | 0 |
+| [bbugyi200.athena.sase-1ca.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ca.2/README.md) | [sase-1ca.2](sase-1ca.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ee75c62`](https://github.com/sase-org/sase/commit/ee75c62d8156672cc815f698f692cac48c4b1d4f) | feat(prompt-stash): guard prompt stash and history writes to test-isolated stores | [sase-1ca.2](sase-1ca.2.md) | 2026-09-28 17:45:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
