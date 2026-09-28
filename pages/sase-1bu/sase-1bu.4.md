@@ -40,8 +40,10 @@ publish-sync: after each integration, reconcile live markers for touched goals. 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1bu.4--1][1] | Need phase scope and design to repair verify failures | 2 |
+| read-by | [agent:0th--code][1] | Checking whether existing PROPOSED FOLLOW-UP note already covers the config-schema and goals test failures I reproduced | 1 |
+| read-by | [agent:sase-1bu.4--1][2] | Need phase scope and design to repair verify failures | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0th.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.4.md
 
 <!-- sase:referenced-by:end -->

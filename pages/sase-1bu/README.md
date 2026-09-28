@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Goals are durable, conflict-free, cross-machine records that a person can create, list, show, edit, drop, reopen, merge, and cite as @goal:<id>. Hot reads stay fast however much settled history piles up, and every surface says honestly how fresh it is.
 
+## Notes
+
+[2026-09-28T11:32:56Z · sase-1c1.4] DISCOVERED ISSUE: contract-drift (sase-1c1.4) captioned the new sase goal CLI value slots (goal_id, criterion, outcome, remove_criterion, into) with free-form completion hints in src/sase/completion/kinds.py so test_kind_coverage.py stays green. No product behavior change.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -35,7 +39,7 @@ Goals are durable, conflict-free, cross-machine records that a person can create
 | [sase-1bu.4](sase-1bu.4.md) | Publishing, convergence, and honest freshness | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 | [sase-1bu.5](sase-1bu.5.md) | The sase goal command | ✓ closed | medium | 2026-09-27 | 1 | 2 |
 | [sase-1bu.6](sase-1bu.6.md) | The goal artifact kind and @goal citations | ✓ closed | medium | 2026-09-27 | 1 | 2 |
-| [sase-1bu.7](sase-1bu.7.md) | Acceptance fixtures, benchmark, docs, and memory | ◐ in_progress | medium | 2026-09-27 | 1 | 0 |
+| [sase-1bu.7](sase-1bu.7.md) | Acceptance fixtures, benchmark, docs, and memory | ✓ closed | medium | 2026-09-27 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +52,7 @@ flowchart TD
     n4["sase-1bu.4: Publishing, convergence, and honest freshness [closed]"]
     n5["sase-1bu.5: The sase goal command [closed]"]
     n6["sase-1bu.6: The goal artifact kind and @goal citations [closed]"]
-    n7["sase-1bu.7: Acceptance fixtures, benchmark, docs, and memory [in_progress]"]
+    n7["sase-1bu.7: Acceptance fixtures, benchmark, docs, and memory [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -75,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1bu.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.4.md) | [sase-1bu.4](sase-1bu.4.md) | 1 |
 | [bbugyi200.athena.sase-1bu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1bu.5.md) | [sase-1bu.5](sase-1bu.5.md) | 2 |
 | [bbugyi200.athena.sase-1bu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.6/README.md) | [sase-1bu.6](sase-1bu.6.md) | 2 |
-| [bbugyi200.athena.sase-1bu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md) | [sase-1bu.7](sase-1bu.7.md) | 0 |
+| [bbugyi200.athena.sase-1bu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.7/README.md) | [sase-1bu.7](sase-1bu.7.md) | 1 |
 | [bbugyi200.athena.sase-1bu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1bu.land/README.md) | [sase-1bu](README.md) | 0 |
 
 ## Commits
@@ -90,6 +94,7 @@ flowchart TD
 | sase-core | [`sase-core@33b0250`](https://github.com/sase-org/sase-core/commit/33b0250f91b81ebe9913796574e5faf787f741cf) | feat(goals): make goal a first-class builtin artifact kind in sase-core (sase-1bu.6) | [sase-1bu.6](sase-1bu.6.md) | 2026-09-28 05:45:14 EDT |
 | sase | [`f79a391`](https://github.com/sase-org/sase/commit/f79a391b53876a5fb8bfe7cad00939fc18054551) | feat(goals): add sase goal CLI with fast-path list/show and human-only verbs | [sase-1bu.5](sase-1bu.5.md) | 2026-09-28 06:57:51 EDT |
 | sase-core | [`sase-core@d2d9ec7`](https://github.com/sase-org/sase-core/commit/d2d9ec7fcc5477547bb774ebb9ae38a6c75de01d) | feat(goals): add goal ledger, fast path, and terminal renderer backend | [sase-1bu.5](sase-1bu.5.md) | 2026-09-28 07:12:14 EDT |
+| sase | [`acfca26`](https://github.com/sase-org/sase/commit/acfca26dbaf5a80550b8a294d87a46c00aac6dc7) | feat(goals): complete G1 acceptance for goal ledger | [sase-1bu.7](sase-1bu.7.md) | 2026-09-28 11:03:54 EDT |
 
 <!-- sase:referenced-by:start -->
 

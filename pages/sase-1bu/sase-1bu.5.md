@@ -20,7 +20,7 @@ cli: add sase goal (list default, show, new, edit, drop, reopen, merge, doctor) 
 ## Dependencies
 
 - **Depends on:** [sase-1bu.4](sase-1bu.4.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [sase-1bu.7](sase-1bu.7.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [sase-1bu.7](sase-1bu.7.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
