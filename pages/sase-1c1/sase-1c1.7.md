@@ -20,4 +20,4 @@ tui-scroll-settle: root-cause the asynchronous pin settle behind the header half
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.7/README.md) | [sase-1c1.7](sase-1c1.7.md) | 0 |
+| [bbugyi200.athena.sase-1c1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.7.md) | [sase-1c1.7](sase-1c1.7.md) | 0 |

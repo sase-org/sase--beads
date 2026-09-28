@@ -19,4 +19,4 @@ contract-drift: fix the 15 mechanical failures. Add completion kinds and sync th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.4/README.md) | [sase-1c1.4](sase-1c1.4.md) | 0 |
+| [bbugyi200.athena.sase-1c1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.4.md) | [sase-1c1.4](sase-1c1.4.md) | 0 |

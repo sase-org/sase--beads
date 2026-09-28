@@ -11,6 +11,10 @@
 
 tui-resize-layout: root-cause why a terminal resize sometimes has no effect in the two test_chrome_layout nodes (sase-1a6) and make recompose and popup reclamp settle deterministically.
 
+## Notes
+
+[2026-09-28T11:51:18Z · sase-1c1.8] Root cause: Textual stores App Resize until _on_idle then forwards it to the screen; ACE event-driven pause does not wait for that hop, so two pauses left frame.outer_size and popup card.x stale under CI shard load (Master Gate 36415385228: 200==96 and 34<34). Production on_resize/_layout_popup already recompose and reclamp. Tests now wait_for screen size, border label budget, and popup card x. Verified the 3 resize nodes 10/10 and the 241-test command_line suite under xdist. Tracking bead sase-1a6; land agent can close it after green-master.
+
 ## Dependencies
 
 - **Blocks:** [sase-1c1.12](sase-1c1.12.md) ◐ · ⧖ 2026-09-28
@@ -20,4 +24,4 @@ tui-resize-layout: root-cause why a terminal resize sometimes has no effect in t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1c1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1c1.8/README.md) | [sase-1c1.8](sase-1c1.8.md) | 0 |
+| [bbugyi200.athena.sase-1c1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1c1.8.md) | [sase-1c1.8](sase-1c1.8.md) | 0 |
