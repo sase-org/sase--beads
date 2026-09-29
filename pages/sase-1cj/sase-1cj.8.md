@@ -33,3 +33,15 @@ context-ranking: promote prompt-word and history-word candidates that the n-gram
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`13b6330`](https://github.com/sase-org/sase/commit/13b633023d272b75917a219737e9821accd7596e) | feat(prompt-prediction): context-aware current-word ranking for sase-1cj.8 | [sase-1cj.8](sase-1cj.8.md) | 2026-09-29 14:34:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
+
+<!-- sase:referenced-by:end -->
