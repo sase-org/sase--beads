@@ -14,7 +14,7 @@ ghost-chain: arm the chain after every word commit, show gated predictions as in
 ## Dependencies
 
 - **Depends on:** [sase-1cj.1](sase-1cj.1.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.7](sase-1cj.7.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

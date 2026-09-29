@@ -15,7 +15,7 @@ replay-harness: a Rust prequential replay evaluator plus a tools/prompt_predicti
 
 - **Blocks:** [sase-1cj.10](sase-1cj.10.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.4](sase-1cj.4.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

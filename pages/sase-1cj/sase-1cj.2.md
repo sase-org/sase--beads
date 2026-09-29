@@ -19,7 +19,7 @@ prompt-origin: add an optional origin field (typed or generated) to PromptEntry,
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.5](sase-1cj.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

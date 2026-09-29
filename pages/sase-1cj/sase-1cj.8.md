@@ -13,7 +13,7 @@ context-ranking: promote prompt-word and history-word candidates that the n-gram
 
 ## Dependencies
 
-- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.7](sase-1cj.7.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
