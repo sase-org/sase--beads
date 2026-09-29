@@ -22,7 +22,7 @@ note_authoring: add the beta flag, the note attachment model, and the shared aut
 ## Dependencies
 
 - **Blocks:** [sase-1ck.4.1.2](sase-1ck.4.1.2.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.4.1.3](sase-1ck.4.1.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.4.1.3](sase-1ck.4.1.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

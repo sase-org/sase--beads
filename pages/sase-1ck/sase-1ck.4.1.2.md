@@ -22,7 +22,7 @@ attach_verbs: run the authoring service from close -n, update -n, and +1 -n, and
 ## Dependencies
 
 - **Depends on:** [sase-1ck.4.1.1](sase-1ck.4.1.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.4.1.3](sase-1ck.4.1.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.4.1.3](sase-1ck.4.1.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -35,3 +35,15 @@ attach_verbs: run the authoring service from close -n, update -n, and +1 -n, and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9cc4570`](https://github.com/sase-org/sase/commit/9cc4570cdd5b0823359523ae8bea814002505dfa) | feat(bead): add attach verbs with sensitive gating | [sase-1ck.4.1.2](sase-1ck.4.1.2.md) | 2026-09-29 14:16:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.4.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->
