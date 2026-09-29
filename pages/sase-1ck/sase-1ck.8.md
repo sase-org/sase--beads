@@ -14,10 +14,10 @@ tui: add an attachments block with thumbnails and badges to Beads pane note deta
 ## Dependencies
 
 - **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.7](sase-1ck.7.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.7](sase-1ck.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.8/README.md) | [sase-1ck.8](sase-1ck.8.md) | 0 |
+| [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 0 |

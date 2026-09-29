@@ -29,6 +29,14 @@ Any file — screenshot, log, trace, archive, or multi-GiB binary — can be att
 
 [2026-09-29T19:08:36Z · sase-1ck.4.1.land] DISCOVERED ISSUE: Child epic sase-1ck.4.1 phase notes 1/2/3 independently report clean-tree patch/stitch terminology audit failures. Reproduced on c2aec595c8: .venv/bin/python tools/audit_patch_stitch_terminology reports 14 unclassified ChangeSpec tokens in sase-core crates/sase_core/tests/fixtures/note_attachment/at_bearing_notes.jsonl. That fixture entered with core attachment phase commit 39324ac; classify it as historical fixture data in the audit or otherwise repair the baseline. This is causally owned by the still-active parent attachment epic, not a new task bead. The CLI history fallback also has no per-event attachment mime/size when current manifests no longer carry a name, as note_cli.md permits; assess core history fidelity in later attachment viewing work.
 
+[2026-09-29T22:23:05Z · sase-1cj.land] DISCOVERED ISSUE (corroboration): the same patch/stitch terminology audit failure was independently proposed by sase-1cj phases .5/.6/.7/.8/.9/.10/.11 and reproduced by the sase-1cj land agent on 2026-09-29 with sase-core at 1e51ff3 (tools/audit_patch_stitch_terminology --repo-root . --allow-missing-linked-repos exits 1; 14 unclassified ChangeSpec/changespec/changespecs hits, all in crates/sase_core/tests/fixtures/note_attachment/at_bearing_notes.jsonl from sase-core 39324ac / sase-1ck.1). It still blocks just check for every agent.
+
+[2026-09-29T22:35:50Z · sase-1co.land] DISCOVERED ISSUE (corroboration): sase-1co phases .3 and .4 independently proposed the same patch/stitch terminology audit failure; the sase-1co land agent reproduced it on 2026-09-29 (sase at f02c3273e4, sase-core 1e51ff3): tools/audit_patch_stitch_terminology --repo-root . --allow-missing-linked-repos exits 1 with 14 unclassified ChangeSpec/changespec(s) hits, all in crates/sase_core/tests/fixtures/note_attachment/at_bearing_notes.jsonl (from sase-core 39324ac / sase-1ck.1). Still blocks just check for every agent.
+
+[2026-09-29T22:43:27Z · sase-1cp.land] DISCOVERED ISSUE: phases sase-1cp.2, sase-1cp.3, and sase-1cp.4 each proposed the same pre-existing patch/stitch terminology failure (14 unclassified ChangeSpec tokens in sase-core crates/sase_core/tests/fixtures/note_attachment/at_bearing_notes.jsonl; just _lint-patch-stitch-terminology exits 1 on a clean base). It is not caused by duration-class routing. Already recorded on this epic; sase-1cp filed no new task bead.
+
+[2026-09-29T22:47:18Z · sase-1cp.land] DISCOVERED ISSUE: just symvision on current master fails with two private-import findings from this epic's attachment code, not from sase-1cp (that epic's whitelist has no --epic-symbol entries). src/sase/bead/attachment_resolve.py imports _roster_for_issue from src/sase/bead/cli_attachment.py, and src/sase/bead/show_images.py imports _kitty_graphics_support from src/sase/doctor/checks_deep_terminal.py. Symvision: "Private functions/classes should not be imported." No existing task bead matches those symbols.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,7 +48,7 @@ Any file — screenshot, log, trace, archive, or multi-GiB binary — can be att
 | [sase-1ck.4](sase-1ck.4.md) | Author and read attachments from the CLI (beta flag) | ✓ closed | large | 2026-09-29 | 1 | 0 |
 | [sase-1ck.5](sase-1ck.5.md) | Private attachments sidecar, upload outbox, and lazy fetch | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1ck.6](sase-1ck.6.md) | Large-file store, background uploads, and progress | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [sase-1ck.7](sase-1ck.7.md) | Image previews and full-fidelity viewing | ◐ in_progress | large | 2026-09-29 | 1 | 1 |
+| [sase-1ck.7](sase-1ck.7.md) | Image previews and full-fidelity viewing | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1ck.8](sase-1ck.8.md) | Beads pane attachments and add-note authoring UX | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [sase-1ck.9](sase-1ck.9.md) | Purge, doctor, cache pruning, and bead pages | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
@@ -62,10 +70,10 @@ flowchart TD
     n11["sase-1ck.5.1: Private attachment sidecar and shared store [in_progress]"]
     n12["sase-1ck.5.1.1: Reserve the hidden private attachments-private sidecar [closed]"]
     n13["sase-1ck.5.1.2: Git blob store written with plumbing [closed]"]
-    n14["sase-1ck.5.1.3: Placement, pre-publication upload, and outbox [in_progress]"]
+    n14["sase-1ck.5.1.3: Placement, pre-publication upload, and outbox [closed]"]
     n15["sase-1ck.5.1.4: Lazy fetch, availability badges, and doctor [in_progress]"]
     n16["sase-1ck.6: Large-file store, background uploads, and progress [in_progress]"]
-    n17["sase-1ck.7: Image previews and full-fidelity viewing [in_progress]"]
+    n17["sase-1ck.7: Image previews and full-fidelity viewing [closed]"]
     n18["sase-1ck.8: Beads pane attachments and add-note authoring UX [in_progress]"]
     n19["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [in_progress]"]
     n0 --> n1
@@ -124,12 +132,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
 | [bbugyi200.athena.sase-1ck.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.1.md) | [sase-1ck.5.1.1](sase-1ck.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.2.md) | [sase-1ck.5.1.2](sase-1ck.5.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1ck.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md) | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1ck.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md) | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.4/README.md) | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.land/README.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.6/README.md) | [sase-1ck.6](sase-1ck.6.md) | 0 |
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
-| [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.8/README.md) | [sase-1ck.8](sase-1ck.8.md) | 0 |
+| [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 0 |
 | [bbugyi200.athena.sase-1ck.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md) | [sase-1ck.9](sase-1ck.9.md) | 0 |
 | [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 0 |
 
@@ -149,6 +157,7 @@ flowchart TD
 | sase | [`aa61902`](https://github.com/sase-org/sase/commit/aa61902a9efc64ccbc9149dbdb17ca5185231d5c) | feat(bead): add GitAttachmentStore blob store over bare partial clone | [sase-1ck.5.1.2](sase-1ck.5.1.2.md) | 2026-09-29 18:08:05 EDT |
 | sase | [`e300173`](https://github.com/sase-org/sase/commit/e300173fafb14947b8e39944626b7021b1124588) | feat(sidecar): reserve hidden attachments-private sidecar role | [sase-1ck.5.1.1](sase-1ck.5.1.1.md) | 2026-09-29 18:11:40 EDT |
 | sase | [`56d5cd2`](https://github.com/sase-org/sase/commit/56d5cd277e6571ff8cabe0c05ee85e614ffdb762) | feat(bead): view note attachments from bead show with image previews | [sase-1ck.7](sase-1ck.7.md) | 2026-09-29 18:17:19 EDT |
+| sase | [`c8796af`](https://github.com/sase-org/sase/commit/c8796af46d5e1d95bfd3aaad337602cfa4fd44f4) | feat(bead): placement, pre-publication upload, and attachment outbox | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 2026-09-29 18:54:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

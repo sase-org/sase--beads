@@ -21,7 +21,7 @@ sidecar_role: reserve the attachments-private sidecar role (repo <project>--atta
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.5.1.3](sase-1ck.5.1.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.5.1.3](sase-1ck.5.1.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

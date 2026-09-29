@@ -13,7 +13,7 @@ fetch: lazily fetch under the auto-fetch cap for read, show, and path, render ev
 
 ## Dependencies
 
-- **Depends on:** [sase-1ck.5.1.3](sase-1ck.5.1.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.5.1.3](sase-1ck.5.1.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

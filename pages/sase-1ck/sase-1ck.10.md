@@ -14,7 +14,7 @@ ga: delete the flag's Off branches and close the flag bead. Finish user docs, he
 ## Dependencies
 
 - **Depends on:** [sase-1ck.6](sase-1ck.6.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.7](sase-1ck.7.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.7](sase-1ck.7.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.8](sase-1ck.8.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.9](sase-1ck.9.md) ◐ · ⧖ 2026-09-29
 
