@@ -13,7 +13,7 @@ upload: place attachments with core policy and -L/--local-only, upload after the
 
 ## Dependencies
 
-- **Depends on:** [sase-1ck.5.1.1](sase-1ck.5.1.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.5.1.1](sase-1ck.5.1.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.5.1.2](sase-1ck.5.1.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.5.1.4](sase-1ck.5.1.4.md) ◐ · ⧖ 2026-09-29
 
