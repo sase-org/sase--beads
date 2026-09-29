@@ -17,7 +17,7 @@ Every provider adapter that has a hard synchronous-command ceiling exports it as
 |---|---|---|---|---|---:|---:|
 | [sase-1cp.1](sase-1cp.1.md) | Rust duration class, inline fit, and calibration | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cp.2](sase-1cp.2.md) | Provider adapters export their synchronous ceiling | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
-| [sase-1cp.3](sase-1cp.3.md) | Pin the core, declare classes, and show them in sase tool list | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1cp.3](sase-1cp.3.md) | Pin the core, declare classes, and show them in sase tool list | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cp.4](sase-1cp.4.md) | sase tool run refuses inline runs that cannot fit | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
 ## Lineage
@@ -27,7 +27,7 @@ flowchart TD
     n0["sase-1cp: Mechanical inline-vs-monitor routing for sase tool run [in_progress]"]
     n1["sase-1cp.1: Rust duration class, inline fit, and calibration [closed]"]
     n2["sase-1cp.2: Provider adapters export their synchronous ceiling [in_progress]"]
-    n3["sase-1cp.3: Pin the core, declare classes, and show them in sase tool list [in_progress]"]
+    n3["sase-1cp.3: Pin the core, declare classes, and show them in sase tool list [closed]"]
     n4["sase-1cp.4: sase tool run refuses inline runs that cannot fit [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1cp.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.1/README.md) | [sase-1cp.1](sase-1cp.1.md) | 1 |
 | [bbugyi200.athena.sase-1cp.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cp.2.md) | [sase-1cp.2](sase-1cp.2.md) | 0 |
-| [bbugyi200.athena.sase-1cp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.3/README.md) | [sase-1cp.3](sase-1cp.3.md) | 0 |
+| [bbugyi200.athena.sase-1cp.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.3/README.md) | [sase-1cp.3](sase-1cp.3.md) | 1 |
 | [bbugyi200.athena.sase-1cp.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.4/README.md) | [sase-1cp.4](sase-1cp.4.md) | 0 |
 | [bbugyi200.athena.sase-1cp.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.land/README.md) | [sase-1cp](README.md) | 0 |
 
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@17b072b`](https://github.com/sase-org/sase-core/commit/17b072b34f69fee4b97ea8a90157f51fc3d3e15c) | feat(tool-run): add duration classes and inline-fit policy | [sase-1cp.1](sase-1cp.1.md) | 2026-09-29 17:08:19 EDT |
+| sase | [`7ccdd71`](https://github.com/sase-org/sase/commit/7ccdd713a2a19e815a4861c145eed0fa7fabbdb9) | feat(tool-run): pin duration-class core, declare catalog classes, show CLASS in tool list | [sase-1cp.3](sase-1cp.3.md) | 2026-09-29 17:42:25 EDT |

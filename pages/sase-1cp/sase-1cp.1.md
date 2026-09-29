@@ -17,7 +17,7 @@ core-duration-class: in sase-core, add the optional duration_class catalog field
 
 ## Dependencies
 
-- **Blocks:** [sase-1cp.3](sase-1cp.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cp.3](sase-1cp.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-duration-class: in sase-core, add the optional duration_class catalog field
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@17b072b`](https://github.com/sase-org/sase-core/commit/17b072b34f69fee4b97ea8a90157f51fc3d3e15c) | feat(tool-run): add duration classes and inline-fit policy | [sase-1cp.1](sase-1cp.1.md) | 2026-09-29 17:08:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cp.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.1/README.md
+
+<!-- sase:referenced-by:end -->
