@@ -17,7 +17,7 @@ core-engine: new sase_core::prompt_prediction module with the prose tokenizer an
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.4](sase-1cj.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.4](sase-1cj.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-engine: new sase_core::prompt_prediction module with the prose tokenizer an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f88fb25`](https://github.com/sase-org/sase-core/commit/f88fb255e1c17679f14abdf81dafba809c4db6a8) | feat(prompt-prediction): add Rust prompt\_prediction engine with tokenizer, n-gram corpus and backoff prediction | [sase-1cj.3](sase-1cj.3.md) | 2026-09-29 09:17:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md
+
+<!-- sase:referenced-by:end -->

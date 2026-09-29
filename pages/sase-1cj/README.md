@@ -29,12 +29,12 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1cj.1](sase-1cj.1.md) | Ctrl+T accepts the highlighted word-menu row | ✓ closed | small | 2026-09-29 | 1 | 0 |
+| [sase-1cj.1](sase-1cj.1.md) | Ctrl+T accepts the highlighted word-menu row | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [sase-1cj.10](sase-1cj.10.md) | Cross-machine prompt archive as a low-weight source | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [sase-1cj.11](sase-1cj.11.md) | Opt-in automatic ghost at word boundaries | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
-| [sase-1cj.2](sase-1cj.2.md) | Record typed vs generated origin on prompt history rows | ✓ closed | medium | 2026-09-29 | 1 | 0 |
+| [sase-1cj.2](sase-1cj.2.md) | Record typed vs generated origin on prompt history rows | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.3](sase-1cj.3.md) | Rust prompt\_prediction engine in sase-core | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [sase-1cj.4](sase-1cj.4.md) | PyO3 handles, Python facade, and pin for prompt prediction | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
+| [sase-1cj.4](sase-1cj.4.md) | PyO3 handles, Python facade, and pin for prompt prediction | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [sase-1cj.5](sase-1cj.5.md) | Off-thread prediction corpus warm cache for the TUI | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [sase-1cj.6](sase-1cj.6.md) | Ghost-text next-word chain on Ctrl+T | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [sase-1cj.7](sase-1cj.7.md) | Explicit next\_word menu and word-end fallback | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [in_progress]"]
     n4["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
     n5["sase-1cj.3: Rust prompt_prediction engine in sase-core [closed]"]
-    n6["sase-1cj.4: PyO3 handles, Python facade, and pin for prompt prediction [in_progress]"]
+    n6["sase-1cj.4: PyO3 handles, Python facade, and pin for prompt prediction [closed]"]
     n7["sase-1cj.5: Off-thread prediction corpus warm cache for the TUI [in_progress]"]
     n8["sase-1cj.6: Ghost-text next-word chain on Ctrl+T [in_progress]"]
     n9["sase-1cj.7: Explicit next_word menu and word-end fallback [in_progress]"]
@@ -87,12 +87,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 0 |
+| [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.10/README.md) | [sase-1cj.10](sase-1cj.10.md) | 0 |
 | [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 0 |
-| [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 0 |
+| [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md) | [sase-1cj.3](sase-1cj.3.md) | 1 |
-| [bbugyi200.athena.sase-1cj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.4/README.md) | [sase-1cj.4](sase-1cj.4.md) | 0 |
+| [bbugyi200.athena.sase-1cj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.4.md) | [sase-1cj.4](sase-1cj.4.md) | 1 |
 | [bbugyi200.athena.sase-1cj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.5/README.md) | [sase-1cj.5](sase-1cj.5.md) | 0 |
 | [bbugyi200.athena.sase-1cj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.6/README.md) | [sase-1cj.6](sase-1cj.6.md) | 0 |
 | [bbugyi200.athena.sase-1cj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md) | [sase-1cj.7](sase-1cj.7.md) | 0 |
@@ -104,7 +104,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase | [`eaa4aa4`](https://github.com/sase-org/sase/commit/eaa4aa4aa72d67f27156e22cd7939422e87f4afc) | feat(prompt-history): record typed vs generated origin on prompt rows | [sase-1cj.2](sase-1cj.2.md) | 2026-09-29 07:44:59 EDT |
+| sase | [`6f3ecab`](https://github.com/sase-org/sase/commit/6f3ecabd1f3cea4e272cad725d8b8fc5d7d3697e) | feat(ace): accept highlighted word-menu row on second Ctrl+T | [sase-1cj.1](sase-1cj.1.md) | 2026-09-29 07:45:02 EDT |
 | sase-core | [`sase-core@f88fb25`](https://github.com/sase-org/sase-core/commit/f88fb255e1c17679f14abdf81dafba809c4db6a8) | feat(prompt-prediction): add Rust prompt\_prediction engine with tokenizer, n-gram corpus and backoff prediction | [sase-1cj.3](sase-1cj.3.md) | 2026-09-29 09:17:10 EDT |
+| sase | [`b1a371c`](https://github.com/sase-org/sase/commit/b1a371c9ac9d23d94acaabc5325ba8439cbc7a51) | feat(core-binding): add PromptPredictionCorpus/Model facade, wire mirror and validator | [sase-1cj.4](sase-1cj.4.md) | 2026-09-29 10:18:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
