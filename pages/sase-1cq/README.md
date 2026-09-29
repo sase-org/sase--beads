@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.1/README.md) | [sase-1cq.1](sase-1cq.1.md) | 1 |
 | [bbugyi200.athena.sase-1cq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.2/README.md) | [sase-1cq.2](sase-1cq.2.md) | 1 |
 | [bbugyi200.athena.sase-1cq.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.3/README.md) | [sase-1cq.3](sase-1cq.3.md) | 1 |
-| [bbugyi200.athena.sase-1cq.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cq.land.md) | [sase-1cq](README.md) | 1 |
+| [bbugyi200.athena.sase-1cq.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cq.land.md) | [sase-1cq](README.md) | 2 |
 
 ## Commits
 
@@ -55,3 +55,4 @@ flowchart TD
 | sase | [`2fe7c65`](https://github.com/sase-org/sase/commit/2fe7c6500fca50ba8036794d595a0e4c7b1912ff) | feat(final): tell agents host commits happen after the turn ends | [sase-1cq.3](sase-1cq.3.md) | 2026-09-29 17:53:00 EDT |
 | sase | [`339a673`](https://github.com/sase-org/sase/commit/339a67306b5797921d9f31b73a0bd4505efbee0f) | chore(core-pin): ratchet sase-core-revision.txt to 1e51ff3c for +1 attachments and prompt-prediction replay | [sase-1cq.1](sase-1cq.1.md) | 2026-09-29 17:54:15 EDT |
 | sase | [`859140f`](https://github.com/sase-org/sase/commit/859140f025decf1e11051412b9a8f6fac53f1252) | feat(finalizer): secure revision\_pin against symlink escapes with doctor check and tests | [sase-1cq](README.md) | 2026-09-29 18:33:04 EDT |
+| sase--plans | [`sase--plans@0cda41d`](https://github.com/sase-org/sase--plans/commit/0cda41d9d5c0de1a4f0c855d1777e970d85fe3f6) | docs(plans): mark note\_cli and cross\_repo\_landing done for sase-1cq landing | [sase-1cq](README.md) | 2026-09-29 18:36:22 EDT |
