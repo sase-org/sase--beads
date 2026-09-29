@@ -22,7 +22,7 @@ prediction-cache: build history rows (origin, project, cancelled), compile the h
 - **Blocks:** [sase-1cj.10](sase-1cj.10.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.2](sase-1cj.2.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.4](sase-1cj.4.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.6](sase-1cj.6.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.6](sase-1cj.6.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.8](sase-1cj.8.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.9](sase-1cj.9.md) ◐ · ⧖ 2026-09-29
 
@@ -37,3 +37,17 @@ prediction-cache: build history rows (origin, project, cancelled), compile the h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8f3b5bf`](https://github.com/sase-org/sase/commit/8f3b5bf6560162d54e7ccbc173eabac1665c6713) | feat(prediction-cache): off-thread prediction corpus warm cache for the TUI | [sase-1cj.5](sase-1cj.5.md) | 2026-09-29 11:46:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0ty--1][1] | confirm patch/stitch terminology failure is the same pre-existing sase-core fixture hits | 1 |
+| read-by | [agent:sase-1cj.5][2] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ty.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ word-menu-ctrl-t: a second Ctrl+T on an open prompt-word or history-word menu ac
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.6](sase-1cj.6.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.6](sase-1cj.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

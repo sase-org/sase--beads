@@ -21,4 +21,4 @@ replay-harness: a Rust prequential replay evaluator plus a tools/prompt_predicti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.9/README.md) | [sase-1cj.9](sase-1cj.9.md) | 0 |
+| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 0 |
