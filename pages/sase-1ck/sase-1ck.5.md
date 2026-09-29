@@ -9,7 +9,11 @@
 
 ## Description
 
-shared_store: add the reserved private attachments sidecar role (a hidden bare partial clone), the git BlobStore written with plumbing, and placement with explicit -L local-only. Add pre-publication uploads with an outbox fallback, capped lazy fetch, availability badges, attachment push, and a doctor check.
+shared_store: add the reserved private attachments-private sidecar role (repo <project>--attachments-private, a hidden bare partial clone), the git BlobStore written with plumbing, and placement with explicit -L local-only. Add pre-publication uploads with an outbox fallback, capped lazy fetch, availability badges, attachment push, and a doctor check.
+
+## Notes
+
+[2026-09-29T14:02:36Z · 33] SCOPE AMENDMENT (2026-09-29, research:202609/bead_attachment_audience/bead_attachment_audience.md §8): the role is now attachments-private (repo <project>--attachments-private), and the plain attachments name is reserved for a future public store; sase-github --private creation and visibility-reporting preflight landed separately, so don't reimplement them, only add the sase-side preflight test; the store stays private-only, and phases never create real GitHub repos; the epic plan's Phase 5 carries the details.
 
 ## Dependencies
 
@@ -28,10 +32,14 @@ shared_store: add the reserved private attachments sidecar role (a hidden bare p
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.n.cld][1] | Check progress of attachment wire and shared-store phases to judge whether a visibility field can be added early | 1 |
-| read-by | [agent:research.n.mus][2] | Research private sidecar phase scope for public attachment alternative | 1 |
+| read-by | [agent:33--1][1] | verify | 1 |
+| read-by | [agent:research.n.cld][2] | Check progress of attachment wire and shared-store phases to judge whether a visibility field can be added early | 1 |
+| read-by | [agent:research.n.final][3] | Check whether the private attachments sidecar phase covers sase-github private repo creation and role naming | 2 |
+| read-by | [agent:research.n.mus][4] | Research private sidecar phase scope for public attachment alternative | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.33.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.final/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
 
 <!-- sase:referenced-by:end -->

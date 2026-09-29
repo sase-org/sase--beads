@@ -13,7 +13,7 @@ core_wire: add the optional attachments manifest on note events and BeadNoteWire
 
 ## Dependencies
 
-- **Depends on:** [sase-1ck.1](sase-1ck.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.1](sase-1ck.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
