@@ -45,7 +45,9 @@ catalog-duration-class: ratchet the sase-core pin, add the Python facades, decla
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cp.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1cp.4][2] | check dependency state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.4/README.md
 
 <!-- sase:referenced-by:end -->

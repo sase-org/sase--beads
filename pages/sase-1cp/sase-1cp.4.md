@@ -33,3 +33,15 @@ ceiling-refusal: before any reconcile, reservation, or spawn, refuse an agent's 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b07172c`](https://github.com/sase-org/sase/commit/b07172cc1d8b73105a4f4ae140471e538e2e5a24) | feat(tool-run): refuse inline runs that cannot fit the provider ceiling | [sase-1cp.4](sase-1cp.4.md) | 2026-09-29 18:20:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cp.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.4/README.md
+
+<!-- sase:referenced-by:end -->
