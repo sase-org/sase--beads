@@ -21,7 +21,7 @@ upload: place attachments with core policy and -L/--local-only, upload after the
 
 - **Depends on:** [sase-1ck.5.1.1](sase-1ck.5.1.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.5.1.2](sase-1ck.5.1.2.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.5.1.4](sase-1ck.5.1.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.5.1.4](sase-1ck.5.1.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -34,3 +34,15 @@ upload: place attachments with core policy and -L/--local-only, upload after the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c8796af`](https://github.com/sase-org/sase/commit/c8796af46d5e1d95bfd3aaad337602cfa4fd44f4) | feat(bead): placement, pre-publication upload, and attachment outbox | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 2026-09-29 18:54:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.5.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -49,7 +49,7 @@ Any file — screenshot, log, trace, archive, or multi-GiB binary — can be att
 | [sase-1ck.5](sase-1ck.5.md) | Private attachments sidecar, upload outbox, and lazy fetch | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1ck.6](sase-1ck.6.md) | Large-file store, background uploads, and progress | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [sase-1ck.7](sase-1ck.7.md) | Image previews and full-fidelity viewing | ✓ closed | large | 2026-09-29 | 1 | 1 |
-| [sase-1ck.8](sase-1ck.8.md) | Beads pane attachments and add-note authoring UX | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1ck.8](sase-1ck.8.md) | Beads pane attachments and add-note authoring UX | ✓ closed | medium | 2026-09-29 | 1 | 0 |
 | [sase-1ck.9](sase-1ck.9.md) | Purge, doctor, cache pruning, and bead pages | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
 ## Lineage
@@ -71,10 +71,10 @@ flowchart TD
     n12["sase-1ck.5.1.1: Reserve the hidden private attachments-private sidecar [closed]"]
     n13["sase-1ck.5.1.2: Git blob store written with plumbing [closed]"]
     n14["sase-1ck.5.1.3: Placement, pre-publication upload, and outbox [closed]"]
-    n15["sase-1ck.5.1.4: Lazy fetch, availability badges, and doctor [in_progress]"]
+    n15["sase-1ck.5.1.4: Lazy fetch, availability badges, and doctor [closed]"]
     n16["sase-1ck.6: Large-file store, background uploads, and progress [in_progress]"]
     n17["sase-1ck.7: Image previews and full-fidelity viewing [closed]"]
-    n18["sase-1ck.8: Beads pane attachments and add-note authoring UX [in_progress]"]
+    n18["sase-1ck.8: Beads pane attachments and add-note authoring UX [closed]"]
     n19["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.1.md) | [sase-1ck.5.1.1](sase-1ck.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.2.md) | [sase-1ck.5.1.2](sase-1ck.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md) | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1ck.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.4/README.md) | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1ck.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.4.md) | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.land/README.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.6/README.md) | [sase-1ck.6](sase-1ck.6.md) | 0 |
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
@@ -158,6 +158,7 @@ flowchart TD
 | sase | [`e300173`](https://github.com/sase-org/sase/commit/e300173fafb14947b8e39944626b7021b1124588) | feat(sidecar): reserve hidden attachments-private sidecar role | [sase-1ck.5.1.1](sase-1ck.5.1.1.md) | 2026-09-29 18:11:40 EDT |
 | sase | [`56d5cd2`](https://github.com/sase-org/sase/commit/56d5cd277e6571ff8cabe0c05ee85e614ffdb762) | feat(bead): view note attachments from bead show with image previews | [sase-1ck.7](sase-1ck.7.md) | 2026-09-29 18:17:19 EDT |
 | sase | [`c8796af`](https://github.com/sase-org/sase/commit/c8796af46d5e1d95bfd3aaad337602cfa4fd44f4) | feat(bead): placement, pre-publication upload, and attachment outbox | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 2026-09-29 18:54:21 EDT |
+| sase | [`978f6eb`](https://github.com/sase-org/sase/commit/978f6ebdb6b0a3c42e5aaefa7be8841add484192) | feat(bead): lazy attachment fetch with availability badges and doctor check | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 2026-09-29 19:57:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

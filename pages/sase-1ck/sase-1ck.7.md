@@ -19,7 +19,7 @@ show_images: add the show -i/--images auto|cells|kitty|never option and bead.sho
 
 - **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.8](sase-1ck.8.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.8](sase-1ck.8.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
