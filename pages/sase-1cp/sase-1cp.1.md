@@ -38,7 +38,9 @@ core-duration-class: in sase-core, add the optional duration_class catalog field
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cp.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1cp.3][2] | Check core phase status for dependency | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cp.3/README.md
 
 <!-- sase:referenced-by:end -->

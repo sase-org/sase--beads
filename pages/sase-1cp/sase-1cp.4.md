@@ -13,7 +13,7 @@ ceiling-refusal: before any reconcile, reservation, or spawn, refuse an agent's 
 
 ## Dependencies
 
-- **Depends on:** [sase-1cp.2](sase-1cp.2.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cp.2](sase-1cp.2.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cp.3](sase-1cp.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
