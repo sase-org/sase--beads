@@ -18,7 +18,7 @@ core-scan-lsp: in sase-core, add one alternation scanner with its wire record an
 ## Dependencies
 
 - **Depends on:** [sase-1co.1](sase-1co.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1co.3](sase-1co.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1co.3](sase-1co.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1co.5](sase-1co.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents

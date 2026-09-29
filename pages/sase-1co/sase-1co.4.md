@@ -13,10 +13,22 @@ tui-alt-editing: in sase, make brace padding and `|` separator normalization rec
 
 ## Dependencies
 
-- **Depends on:** [sase-1co.3](sase-1co.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1co.3](sase-1co.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1co.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.4/README.md) | [sase-1co.4](sase-1co.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1co.5][1] | Need TUI editing rules to mirror in nvim | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.5/README.md
+
+<!-- sase:referenced-by:end -->
