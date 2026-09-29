@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/prompt_next_word_prediction.md
 
@@ -39,7 +39,7 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 | [sase-1cj.6](sase-1cj.6.md) | Ghost-text next-word chain on Ctrl+T | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.7](sase-1cj.7.md) | Explicit next\_word menu and word-end fallback | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.8](sase-1cj.8.md) | Context-aware current-word ranking | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [sase-1cj.9](sase-1cj.9.md) | Prequential replay harness and preset calibration | ✓ closed | medium | 2026-09-29 | 1 | 1 |
+| [sase-1cj.9](sase-1cj.9.md) | Prequential replay harness and preset calibration | ✓ closed | medium | 2026-09-29 | 1 | 2 |
 
 ## Lineage
 
@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.6.md) | [sase-1cj.6](sase-1cj.6.md) | 1 |
 | [bbugyi200.athena.sase-1cj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md) | [sase-1cj.7](sase-1cj.7.md) | 1 |
 | [bbugyi200.athena.sase-1cj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md) | [sase-1cj.8](sase-1cj.8.md) | 1 |
-| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 1 |
+| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 2 |
 | [bbugyi200.athena.sase-1cj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.land/README.md) | [sase-1cj](README.md) | 0 |
 
 ## Commits
@@ -115,6 +115,7 @@ flowchart TD
 | sase | [`06c77f3`](https://github.com/sase-org/sase/commit/06c77f321ff320a0aa37422126d0ff63ca649a2a) | feat(ace): opt-in automatic next-word ghost at word boundaries for sase-1cj.11 | [sase-1cj.11](sase-1cj.11.md) | 2026-09-29 14:19:51 EDT |
 | sase | [`13b6330`](https://github.com/sase-org/sase/commit/13b633023d272b75917a219737e9821accd7596e) | feat(prompt-prediction): context-aware current-word ranking for sase-1cj.8 | [sase-1cj.8](sase-1cj.8.md) | 2026-09-29 14:34:39 EDT |
 | sase | [`9d60b97`](https://github.com/sase-org/sase/commit/9d60b975138e5b08df752442c45b0ba72749b83a) | feat(prompt-prediction): calibrate replay harness with per-point novel coverage | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:48:41 EDT |
+| sase-core | [`sase-core@1ad57ea`](https://github.com/sase-org/sase-core/commit/1ad57ea426fe400da427042294d815259744453a) | feat(prompt-prediction): add per-point novel coverage and precision to sweep wire | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:53:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -125,9 +126,11 @@ flowchart TD
 | read-by | [agent:sase-1cj.2][1] | Need epic context for phase | 1 |
 | read-by | [agent:sase-1cj.7][2] | Verify parent epic is still open before re-keying symbols | 1 |
 | read-by | [agent:sase-1cj.8--1][3] | Need the epic scope to check causal link for terminology failure | 1 |
+| read-by | [agent:sase-1cj.9--1][4] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
 
 <!-- sase:referenced-by:end -->

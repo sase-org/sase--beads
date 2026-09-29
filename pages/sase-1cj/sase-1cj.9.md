@@ -29,10 +29,23 @@ replay-harness: a Rust prequential replay evaluator plus a tools/prompt_predicti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 1 |
+| [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9d60b97`](https://github.com/sase-org/sase/commit/9d60b975138e5b08df752442c45b0ba72749b83a) | feat(prompt-prediction): calibrate replay harness with per-point novel coverage | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:48:41 EDT |
+| sase-core | [`sase-core@1ad57ea`](https://github.com/sase-org/sase-core/commit/1ad57ea426fe400da427042294d815259744453a) | feat(prompt-prediction): add per-point novel coverage and precision to sweep wire | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:53:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.9--1][1] | continuing replay-harness calibration and close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
+
+<!-- sase:referenced-by:end -->

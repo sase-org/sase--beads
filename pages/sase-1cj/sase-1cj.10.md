@@ -21,3 +21,15 @@ archive-source: extract human-typed prose from the enabled projects' canonical p
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.10/README.md) | [sase-1cj.10](sase-1cj.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.9--1][1] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
+
+<!-- sase:referenced-by:end -->

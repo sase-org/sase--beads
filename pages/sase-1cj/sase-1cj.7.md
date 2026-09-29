@@ -42,7 +42,9 @@ next-word-menu: when a chain is armed but no ghost can be shown, Ctrl+T opens a 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1cj.9--1][2] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
 
 <!-- sase:referenced-by:end -->
