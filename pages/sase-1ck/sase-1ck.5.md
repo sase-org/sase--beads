@@ -1,0 +1,37 @@
+# Bead: sase-1ck.5 — Private attachments sidecar, upload outbox, and lazy fetch
+
+[Bead Pages](../README.md) / [sase-1ck](README.md) / sase-1ck.5
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0tv](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0tv.md) · **Assignee:** `sase-1ck.5` · **Size:** large
+**Created:** 2026-09-29 08:13:41 EDT
+**Plan:** [202609/bead\_note\_attachments.md](https://github.com/sase-org/sase--plans/blob/main/202609/bead_note_attachments.md)
+
+## Description
+
+shared_store: add the reserved private attachments sidecar role (a hidden bare partial clone), the git BlobStore written with plumbing, and placement with explicit -L local-only. Add pre-publication uploads with an outbox fallback, capped lazy fetch, availability badges, attachment push, and a doctor check.
+
+## Dependencies
+
+- **Depends on:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.6](sase-1ck.6.md) ◐ · ⧖ 2026-09-29
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5/README.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.n.cld][1] | Check progress of attachment wire and shared-store phases to judge whether a visibility field can be added early | 1 |
+| read-by | [agent:research.n.mus][2] | Research private sidecar phase scope for public attachment alternative | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
+
+<!-- sase:referenced-by:end -->
