@@ -25,6 +25,12 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 In the prompt input, pressing Ctrl+T repeatedly first completes the current word, then previews and accepts confident guesses for the next words. The guesses come from the user's own typed prompt history (weighted toward the same project, with the cross-machine prompt archive as a low-weight source) and appear as dim inline ghost text before anything is inserted. Predictions come from the Rust core in well under a millisecond and never block typing.
 
+## Notes
+
+[2026-09-29T22:23:43Z · sase-1cj.land] LAND TRIAGE of PROPOSED FOLLOW-UPs: (1) lint(feature flags) rule 8 on flag bead sase-1be (proposed by .1/.2/.4/.5) — DECLINED, no longer reproduces: tools/check_feature_flags exits 0 on HEAD 4fce27e507. (2) move sase-core-revision.txt past the prompt_prediction binding (.4) and past the replay commit (.9) — DECLINED, done: pin is 1e51ff3 (339a67306b), which contains f88fb25/12e012d/1ad57ea. (3) test_load_agents_from_disk_uses_artifact_index_for_initial_tier, test_viewport_window_keeps_tier1_caps, test_bounded_agents_viewport_expands_near_prefix_end (.5) — DECLINED, fixed by 8c38eb6a9a; 3 passed on HEAD. (4) patch/stitch terminology audit on sase-core fixture at_bearing_notes.jsonl (.5/.6/.7/.8/.9/.10/.11) — not caused by this epic; /sase_new_task found it already recorded as DISCOVERED ISSUE on active causal epic sase-1ck (fixture from sase-1ck.1 / sase-core 39324ac); added a corroboration note there, no new task. Also closed ready CI task sase-1cm (origin-kwarg launch mocks, caused by .2) as fixed by 8c38eb6a9a after re-running its family (277 passed).
+
+[2026-09-29T22:25:43Z · sase-1cj.land] LAND VERIFICATION (2026-09-29, HEAD 4fce27e507, sase-core pin 1e51ff3 contains all epic core commits): phases .1 and .2 fully match the plan, and the write-site/launch-site origin inventory is complete. Remaining epic-caused work, all reproduced: (a) HIGH: stale ghost — _validate_next_word_ghost drops _next_word_ghost but never clears Textual suggestion, so Left then Right turns 'Can you help me' into 'Can you help m implemente'; (b) 3 test_prompt_next_word tests fail on HEAD because the .9 balanced recalibration (0.75/0.20/4) shortens the fixture ghost; (c) core does not block structural tails (path, #tag, code span, Jinja, %{..} alternation, ':') and falls back to the earlier words, e.g. 'please look at src/foo.rs' gives ghost 'the parser and fix'; (d) project-partition distinct is added onto global support (double count) in predict.rs and replay.rs; (e) cautious preset behaves identically to balanced; (f) origin markers %swarm(/%lead( do not exist in sase; (g) real-history predict p95 ~2.5ms (budget 0.5ms), compile ~190ms/1k (budget 50), corpus 27.8MB (budget 5MB); (h) context ranking ignores word_ranking: smart; (i) the archive rebuilds on every warm when it yields no rows; (j) missing context-ranking and auto-mode goldens, the history+archive replay default decision, the RSS delta, and the live screenshot flow; (k) 12 --epic-symbol sase-1cj entries remain. Integration: sase-1co's shared alternation scanner (sase-core 1e51ff3) should feed the tokenizer's excluded regions. 8c38eb6a9a already repaired the origin-kwarg test fakes. The 79e7107da7 file-completion split kept every epic hook. Planning a child epic for the remaining work.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,38 +55,56 @@ flowchart TD
     n1["sase-1cj.1: Ctrl+T accepts the highlighted word-menu row [closed]"]
     n2["sase-1cj.10: Cross-machine prompt archive as a low-weight source [closed]"]
     n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [closed]"]
-    n4["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
-    n5["sase-1cj.3: Rust prompt_prediction engine in sase-core [closed]"]
-    n6["sase-1cj.4: PyO3 handles, Python facade, and pin for prompt prediction [closed]"]
-    n7["sase-1cj.5: Off-thread prediction corpus warm cache for the TUI [closed]"]
-    n8["sase-1cj.6: Ghost-text next-word chain on Ctrl+T [closed]"]
-    n9["sase-1cj.7: Explicit next_word menu and word-end fallback [closed]"]
-    n10["sase-1cj.8: Context-aware current-word ranking [closed]"]
-    n11["sase-1cj.9: Prequential replay harness and preset calibration [closed]"]
+    n4["sase-1cj.12: Finish next-word prediction correctness, budgets, and calibration [in_progress]"]
+    n5["sase-1cj.12.1: Core tokenizer, support, and origin correctness in sase-core [in_progress]"]
+    n6["sase-1cj.12.2: TUI ghost, ranking gate, warm-cache fixes, and epic-symbol cleanup [closed]"]
+    n7["sase-1cj.12.3: Meet the prompt prediction latency, compile, and memory budgets [in_progress]"]
+    n8["sase-1cj.12.4: Recalibrate presets and settle the archive default [in_progress]"]
+    n9["sase-1cj.12.5: Goldens, live screenshots, and docs [in_progress]"]
+    n10["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
+    n11["sase-1cj.3: Rust prompt_prediction engine in sase-core [closed]"]
+    n12["sase-1cj.4: PyO3 handles, Python facade, and pin for prompt prediction [closed]"]
+    n13["sase-1cj.5: Off-thread prediction corpus warm cache for the TUI [closed]"]
+    n14["sase-1cj.6: Ghost-text next-word chain on Ctrl+T [closed]"]
+    n15["sase-1cj.7: Explicit next_word menu and word-end fallback [closed]"]
+    n16["sase-1cj.8: Context-aware current-word ranking [closed]"]
+    n17["sase-1cj.9: Prequential replay harness and preset calibration [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n4 --> n5
+    n4 --> n6
+    n4 --> n7
+    n4 --> n8
+    n4 --> n9
     n0 --> n10
     n0 --> n11
-    n1 -.-> n8
-    n4 -.-> n7
-    n5 -.-> n6
-    n6 -.-> n7
-    n6 -.-> n11
-    n7 -.-> n2
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n1 -.-> n14
+    n5 -.-> n7
+    n5 -.-> n8
+    n6 -.-> n8
+    n6 -.-> n9
     n7 -.-> n8
-    n7 -.-> n10
-    n7 -.-> n11
     n8 -.-> n9
-    n9 -.-> n3
-    n9 -.-> n10
-    n11 -.-> n2
+    n10 -.-> n13
+    n11 -.-> n12
+    n12 -.-> n13
+    n12 -.-> n17
+    n13 -.-> n2
+    n13 -.-> n14
+    n13 -.-> n16
+    n13 -.-> n17
+    n14 -.-> n15
+    n15 -.-> n3
+    n15 -.-> n16
+    n17 -.-> n2
 ```
 
 ## Agents
@@ -90,6 +114,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.10.md) | [sase-1cj.10](sase-1cj.10.md) | 1 |
 | [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 1 |
+| [bbugyi200.athena.sase-1cj.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.1/README.md) | [sase-1cj.12.1](sase-1cj.12.1.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md) | [sase-1cj.12.2](sase-1cj.12.2.md) | 1 |
+| [bbugyi200.athena.sase-1cj.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.3/README.md) | [sase-1cj.12.3](sase-1cj.12.3.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.5/README.md) | [sase-1cj.12.5](sase-1cj.12.5.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 0 |
 | [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md) | [sase-1cj.3](sase-1cj.3.md) | 1 |
 | [bbugyi200.athena.sase-1cj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.4.md) | [sase-1cj.4](sase-1cj.4.md) | 2 |
@@ -98,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md) | [sase-1cj.7](sase-1cj.7.md) | 1 |
 | [bbugyi200.athena.sase-1cj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md) | [sase-1cj.8](sase-1cj.8.md) | 1 |
 | [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 2 |
-| [bbugyi200.athena.sase-1cj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.land/README.md) | [sase-1cj](README.md) | 0 |
+| [bbugyi200.athena.sase-1cj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.land.md) | [sase-1cj](README.md) | 0 |
 
 ## Commits
 
@@ -117,6 +147,7 @@ flowchart TD
 | sase | [`9d60b97`](https://github.com/sase-org/sase/commit/9d60b975138e5b08df752442c45b0ba72749b83a) | feat(prompt-prediction): calibrate replay harness with per-point novel coverage | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:48:41 EDT |
 | sase-core | [`sase-core@1ad57ea`](https://github.com/sase-org/sase-core/commit/1ad57ea426fe400da427042294d815259744453a) | feat(prompt-prediction): add per-point novel coverage and precision to sweep wire | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:53:54 EDT |
 | sase | [`5480df7`](https://github.com/sase-org/sase/commit/5480df7af80ebd35684416f54a408a79f2d4dbb2) | feat(sase-1cj.10): cross-machine prompt archive as low-weight opt-in source | [sase-1cj.10](sase-1cj.10.md) | 2026-09-29 17:52:30 EDT |
+| sase | [`e0256a9`](https://github.com/sase-org/sase/commit/e0256a98025b1b8119590e8b2e6e41856272aa11) | fix(tui): prompt prediction ghost, ranking gate, cache and archive fixes | [sase-1cj.12.2](sase-1cj.12.2.md) | 2026-09-29 18:51:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
