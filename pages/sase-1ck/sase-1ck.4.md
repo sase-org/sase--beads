@@ -24,3 +24,15 @@ note_cli: create the bead_note_attachments beta flag, then build the shared auth
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ck.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.4.md) | [sase-1ck.4](sase-1ck.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.4.1.land--1][1] | verify parent phase scope before closing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.4.1.land.md
+
+<!-- sase:referenced-by:end -->
