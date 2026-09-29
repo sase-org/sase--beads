@@ -13,7 +13,7 @@ auto-mode: add next_word auto, which shows the gated ghost right after a typed s
 
 ## Dependencies
 
-- **Depends on:** [sase-1cj.7](sase-1cj.7.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.7](sase-1cj.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

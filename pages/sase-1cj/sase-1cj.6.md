@@ -21,7 +21,7 @@ ghost-chain: arm the chain after every word commit, show gated predictions as in
 
 - **Depends on:** [sase-1cj.1](sase-1cj.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.7](sase-1cj.7.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.7](sase-1cj.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -34,3 +34,15 @@ ghost-chain: arm the chain after every word commit, show gated predictions as in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`935243f`](https://github.com/sase-org/sase/commit/935243ffe914831edcef7d6415a5fd43cdc50bcd) | feat(ace): next-word prompt completion for sase-1cj.6 | [sase-1cj.6](sase-1cj.6.md) | 2026-09-29 12:41:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.6.md
+
+<!-- sase:referenced-by:end -->
