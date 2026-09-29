@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/prompt_next_word_prediction.md
 
@@ -31,7 +31,7 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 |---|---|---|---|---|---:|---:|
 | [sase-1cj.1](sase-1cj.1.md) | Ctrl+T accepts the highlighted word-menu row | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [sase-1cj.10](sase-1cj.10.md) | Cross-machine prompt archive as a low-weight source | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [sase-1cj.11](sase-1cj.11.md) | Opt-in automatic ghost at word boundaries | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
+| [sase-1cj.11](sase-1cj.11.md) | Opt-in automatic ghost at word boundaries | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [sase-1cj.2](sase-1cj.2.md) | Record typed vs generated origin on prompt history rows | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.3](sase-1cj.3.md) | Rust prompt\_prediction engine in sase-core | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.4](sase-1cj.4.md) | PyO3 handles, Python facade, and pin for prompt prediction | ✓ closed | small | 2026-09-29 | 1 | 2 |
@@ -48,7 +48,7 @@ flowchart TD
     n0["sase-1cj: Next-word prediction chains in the prompt input [in_progress]"]
     n1["sase-1cj.1: Ctrl+T accepts the highlighted word-menu row [closed]"]
     n2["sase-1cj.10: Cross-machine prompt archive as a low-weight source [in_progress]"]
-    n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [in_progress]"]
+    n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [closed]"]
     n4["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
     n5["sase-1cj.3: Rust prompt_prediction engine in sase-core [closed]"]
     n6["sase-1cj.4: PyO3 handles, Python facade, and pin for prompt prediction [closed]"]
@@ -89,7 +89,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.10/README.md) | [sase-1cj.10](sase-1cj.10.md) | 0 |
-| [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 0 |
+| [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 1 |
 | [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md) | [sase-1cj.3](sase-1cj.3.md) | 1 |
 | [bbugyi200.athena.sase-1cj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.4.md) | [sase-1cj.4](sase-1cj.4.md) | 2 |
@@ -112,6 +112,7 @@ flowchart TD
 | sase | [`8f3b5bf`](https://github.com/sase-org/sase/commit/8f3b5bf6560162d54e7ccbc173eabac1665c6713) | feat(prediction-cache): off-thread prediction corpus warm cache for the TUI | [sase-1cj.5](sase-1cj.5.md) | 2026-09-29 11:46:55 EDT |
 | sase | [`935243f`](https://github.com/sase-org/sase/commit/935243ffe914831edcef7d6415a5fd43cdc50bcd) | feat(ace): next-word prompt completion for sase-1cj.6 | [sase-1cj.6](sase-1cj.6.md) | 2026-09-29 12:41:44 EDT |
 | sase | [`da74c11`](https://github.com/sase-org/sase/commit/da74c110de7e0df889458ec482a8b4052301ee6e) | feat(ace): explicit next-word menu and word-end fallback for sase-1cj.7 | [sase-1cj.7](sase-1cj.7.md) | 2026-09-29 13:48:14 EDT |
+| sase | [`06c77f3`](https://github.com/sase-org/sase/commit/06c77f321ff320a0aa37422126d0ff63ca649a2a) | feat(ace): opt-in automatic next-word ghost at word boundaries for sase-1cj.11 | [sase-1cj.11](sase-1cj.11.md) | 2026-09-29 14:19:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,7 +121,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.2][1] | Need epic context for phase | 1 |
+| read-by | [agent:sase-1cj.7][2] | Verify parent epic is still open before re-keying symbols | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
 
 <!-- sase:referenced-by:end -->

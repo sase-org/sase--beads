@@ -19,7 +19,7 @@ next-word-menu: when a chain is armed but no ghost can be shown, Ctrl+T opens a 
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.11](sase-1cj.11.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.11](sase-1cj.11.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.6](sase-1cj.6.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.8](sase-1cj.8.md) ◐ · ⧖ 2026-09-29
 
@@ -34,3 +34,15 @@ next-word-menu: when a chain is armed but no ghost can be shown, Ctrl+T opens a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`da74c11`](https://github.com/sase-org/sase/commit/da74c110de7e0df889458ec482a8b4052301ee6e) | feat(ace): explicit next-word menu and word-end fallback for sase-1cj.7 | [sase-1cj.7](sase-1cj.7.md) | 2026-09-29 13:48:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
+
+<!-- sase:referenced-by:end -->
