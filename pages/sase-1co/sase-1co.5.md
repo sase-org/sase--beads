@@ -13,7 +13,7 @@ nvim-lsp-highlight: in sase-nvim, replace the Lua copy of the alternation gramma
 
 ## Dependencies
 
-- **Depends on:** [sase-1co.2](sase-1co.2.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1co.2](sase-1co.2.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

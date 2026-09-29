@@ -17,7 +17,7 @@ core-grammar: in sase-core, let `%{` open anywhere outside literal zones while `
 
 ## Dependencies
 
-- **Blocks:** [sase-1co.2](sase-1co.2.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1co.2](sase-1co.2.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-grammar: in sase-core, let `%{` open anywhere outside literal zones while `
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1160ea4`](https://github.com/sase-org/sase-core/commit/1160ea41c14fef59c872aee2be3375e872c97642) | feat(launch): support mid-word and nested %{...} alternation | [sase-1co.1](sase-1co.1.md) | 2026-09-29 16:48:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1co.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.1/README.md
+
+<!-- sase:referenced-by:end -->

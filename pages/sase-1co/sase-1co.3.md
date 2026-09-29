@@ -13,7 +13,7 @@ sase-grammar-highlight: in sase, bump the core pin, relax `_ALT_DIRECTIVE_RE` fo
 
 ## Dependencies
 
-- **Depends on:** [sase-1co.2](sase-1co.2.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1co.2](sase-1co.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1co.4](sase-1co.4.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
