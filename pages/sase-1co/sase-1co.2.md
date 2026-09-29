@@ -19,7 +19,7 @@ core-scan-lsp: in sase-core, add one alternation scanner with its wire record an
 
 - **Depends on:** [sase-1co.1](sase-1co.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1co.3](sase-1co.3.md) ◐ · ⧖ 2026-09-29
-- **Blocks:** [sase-1co.5](sase-1co.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1co.5](sase-1co.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -32,3 +32,15 @@ core-scan-lsp: in sase-core, add one alternation scanner with its wire record an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1e51ff3`](https://github.com/sase-org/sase-core/commit/1e51ff3ce9c53ee1a4bc9f52c3642ac4eea8f423) | feat(alternation): shared scanner, binding, diagnostic, and LSP tokens | [sase-1co.2](sase-1co.2.md) | 2026-09-29 17:17:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1co.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.2/README.md
+
+<!-- sase:referenced-by:end -->
