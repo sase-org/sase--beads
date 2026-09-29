@@ -19,7 +19,7 @@ prediction-cache: build history rows (origin, project, cancelled), compile the h
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.10](sase-1cj.10.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.10](sase-1cj.10.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.2](sase-1cj.2.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.4](sase-1cj.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.6](sase-1cj.6.md) ✓ · ⧖ 2026-09-29

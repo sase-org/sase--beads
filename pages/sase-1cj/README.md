@@ -30,7 +30,7 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1cj.1](sase-1cj.1.md) | Ctrl+T accepts the highlighted word-menu row | ✓ closed | small | 2026-09-29 | 1 | 1 |
-| [sase-1cj.10](sase-1cj.10.md) | Cross-machine prompt archive as a low-weight source | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1cj.10](sase-1cj.10.md) | Cross-machine prompt archive as a low-weight source | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.11](sase-1cj.11.md) | Opt-in automatic ghost at word boundaries | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [sase-1cj.2](sase-1cj.2.md) | Record typed vs generated origin on prompt history rows | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.3](sase-1cj.3.md) | Rust prompt\_prediction engine in sase-core | ✓ closed | medium | 2026-09-29 | 1 | 1 |
@@ -47,7 +47,7 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 flowchart TD
     n0["sase-1cj: Next-word prediction chains in the prompt input [in_progress]"]
     n1["sase-1cj.1: Ctrl+T accepts the highlighted word-menu row [closed]"]
-    n2["sase-1cj.10: Cross-machine prompt archive as a low-weight source [in_progress]"]
+    n2["sase-1cj.10: Cross-machine prompt archive as a low-weight source [closed]"]
     n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [closed]"]
     n4["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
     n5["sase-1cj.3: Rust prompt_prediction engine in sase-core [closed]"]
@@ -88,7 +88,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 1 |
-| [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.10/README.md) | [sase-1cj.10](sase-1cj.10.md) | 0 |
+| [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.10.md) | [sase-1cj.10](sase-1cj.10.md) | 1 |
 | [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 1 |
 | [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md) | [sase-1cj.3](sase-1cj.3.md) | 1 |
@@ -116,6 +116,7 @@ flowchart TD
 | sase | [`13b6330`](https://github.com/sase-org/sase/commit/13b633023d272b75917a219737e9821accd7596e) | feat(prompt-prediction): context-aware current-word ranking for sase-1cj.8 | [sase-1cj.8](sase-1cj.8.md) | 2026-09-29 14:34:39 EDT |
 | sase | [`9d60b97`](https://github.com/sase-org/sase/commit/9d60b975138e5b08df752442c45b0ba72749b83a) | feat(prompt-prediction): calibrate replay harness with per-point novel coverage | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:48:41 EDT |
 | sase-core | [`sase-core@1ad57ea`](https://github.com/sase-org/sase-core/commit/1ad57ea426fe400da427042294d815259744453a) | feat(prompt-prediction): add per-point novel coverage and precision to sweep wire | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:53:54 EDT |
+| sase | [`5480df7`](https://github.com/sase-org/sase/commit/5480df7af80ebd35684416f54a408a79f2d4dbb2) | feat(sase-1cj.10): cross-machine prompt archive as low-weight opt-in source | [sase-1cj.10](sase-1cj.10.md) | 2026-09-29 17:52:30 EDT |
 
 <!-- sase:referenced-by:start -->
 
