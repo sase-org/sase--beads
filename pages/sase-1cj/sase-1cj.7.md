@@ -21,7 +21,7 @@ next-word-menu: when a chain is armed but no ghost can be shown, Ctrl+T opens a 
 
 - **Blocks:** [sase-1cj.11](sase-1cj.11.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.6](sase-1cj.6.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.8](sase-1cj.8.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.8](sase-1cj.8.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

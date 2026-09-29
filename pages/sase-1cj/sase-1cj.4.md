@@ -23,7 +23,7 @@ core-binding: expose frozen PromptPredictionCorpus and PromptPredictionModel pyc
 
 - **Depends on:** [sase-1cj.3](sase-1cj.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.5](sase-1cj.5.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.9](sase-1cj.9.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.9](sase-1cj.9.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

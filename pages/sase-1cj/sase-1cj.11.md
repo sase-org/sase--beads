@@ -32,3 +32,15 @@ auto-mode: add next_word auto, which shows the gated ghost right after a typed s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`06c77f3`](https://github.com/sase-org/sase/commit/06c77f321ff320a0aa37422126d0ff63ca649a2a) | feat(ace): opt-in automatic next-word ghost at word boundaries for sase-1cj.11 | [sase-1cj.11](sase-1cj.11.md) | 2026-09-29 14:19:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.11][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md
+
+<!-- sase:referenced-by:end -->

@@ -38,8 +38,8 @@ In the prompt input, pressing Ctrl+T repeatedly first completes the current word
 | [sase-1cj.5](sase-1cj.5.md) | Off-thread prediction corpus warm cache for the TUI | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.6](sase-1cj.6.md) | Ghost-text next-word chain on Ctrl+T | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cj.7](sase-1cj.7.md) | Explicit next\_word menu and word-end fallback | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [sase-1cj.8](sase-1cj.8.md) | Context-aware current-word ranking | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [sase-1cj.9](sase-1cj.9.md) | Prequential replay harness and preset calibration | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1cj.8](sase-1cj.8.md) | Context-aware current-word ranking | ✓ closed | medium | 2026-09-29 | 1 | 1 |
+| [sase-1cj.9](sase-1cj.9.md) | Prequential replay harness and preset calibration | ✓ closed | medium | 2026-09-29 | 1 | 0 |
 
 ## Lineage
 
@@ -55,8 +55,8 @@ flowchart TD
     n7["sase-1cj.5: Off-thread prediction corpus warm cache for the TUI [closed]"]
     n8["sase-1cj.6: Ghost-text next-word chain on Ctrl+T [closed]"]
     n9["sase-1cj.7: Explicit next_word menu and word-end fallback [closed]"]
-    n10["sase-1cj.8: Context-aware current-word ranking [in_progress]"]
-    n11["sase-1cj.9: Prequential replay harness and preset calibration [in_progress]"]
+    n10["sase-1cj.8: Context-aware current-word ranking [closed]"]
+    n11["sase-1cj.9: Prequential replay harness and preset calibration [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.5/README.md) | [sase-1cj.5](sase-1cj.5.md) | 1 |
 | [bbugyi200.athena.sase-1cj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.6.md) | [sase-1cj.6](sase-1cj.6.md) | 1 |
 | [bbugyi200.athena.sase-1cj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md) | [sase-1cj.7](sase-1cj.7.md) | 1 |
-| [bbugyi200.athena.sase-1cj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.8/README.md) | [sase-1cj.8](sase-1cj.8.md) | 0 |
+| [bbugyi200.athena.sase-1cj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md) | [sase-1cj.8](sase-1cj.8.md) | 1 |
 | [bbugyi200.athena.sase-1cj.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md) | [sase-1cj.9](sase-1cj.9.md) | 0 |
 | [bbugyi200.athena.sase-1cj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.land/README.md) | [sase-1cj](README.md) | 0 |
 
@@ -113,6 +113,7 @@ flowchart TD
 | sase | [`935243f`](https://github.com/sase-org/sase/commit/935243ffe914831edcef7d6415a5fd43cdc50bcd) | feat(ace): next-word prompt completion for sase-1cj.6 | [sase-1cj.6](sase-1cj.6.md) | 2026-09-29 12:41:44 EDT |
 | sase | [`da74c11`](https://github.com/sase-org/sase/commit/da74c110de7e0df889458ec482a8b4052301ee6e) | feat(ace): explicit next-word menu and word-end fallback for sase-1cj.7 | [sase-1cj.7](sase-1cj.7.md) | 2026-09-29 13:48:14 EDT |
 | sase | [`06c77f3`](https://github.com/sase-org/sase/commit/06c77f321ff320a0aa37422126d0ff63ca649a2a) | feat(ace): opt-in automatic next-word ghost at word boundaries for sase-1cj.11 | [sase-1cj.11](sase-1cj.11.md) | 2026-09-29 14:19:51 EDT |
+| sase | [`13b6330`](https://github.com/sase-org/sase/commit/13b633023d272b75917a219737e9821accd7596e) | feat(prompt-prediction): context-aware current-word ranking for sase-1cj.8 | [sase-1cj.8](sase-1cj.8.md) | 2026-09-29 14:34:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
