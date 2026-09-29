@@ -19,7 +19,7 @@ provider-ceiling: add an optional provider hook for the hard synchronous-command
 
 ## Dependencies
 
-- **Blocks:** [sase-1cp.4](sase-1cp.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cp.4](sase-1cp.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -32,3 +32,15 @@ provider-ceiling: add an optional provider hook for the hard synchronous-command
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4fce27e`](https://github.com/sase-org/sase/commit/4fce27e5072c91fc9b2e32e6896a0e4e8f852f33) | feat(providers): export synchronous ceiling and scrub at boundaries | [sase-1cp.2](sase-1cp.2.md) | 2026-09-29 18:01:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cp.2--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cp.2.md
+
+<!-- sase:referenced-by:end -->

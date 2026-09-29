@@ -24,7 +24,7 @@ catalog-duration-class: ratchet the sase-core pin, add the Python facades, decla
 ## Dependencies
 
 - **Depends on:** [sase-1cp.1](sase-1cp.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cp.4](sase-1cp.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cp.4](sase-1cp.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
