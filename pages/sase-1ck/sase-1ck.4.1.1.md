@@ -21,7 +21,7 @@ note_authoring: add the beta flag, the note attachment model, and the shared aut
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.4.1.2](sase-1ck.4.1.2.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.4.1.2](sase-1ck.4.1.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.4.1.3](sase-1ck.4.1.3.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
@@ -35,3 +35,15 @@ note_authoring: add the beta flag, the note attachment model, and the shared aut
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7226499`](https://github.com/sase-org/sase/commit/7226499078638432f3c868dc53772fae77f31b45) | feat(beads): note authoring for bead note attachments beta | [sase-1ck.4.1.1](sase-1ck.4.1.1.md) | 2026-09-29 13:24:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.4.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

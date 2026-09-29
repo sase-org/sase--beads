@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/note_cli.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/note_cli.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ With the bead_note_attachments beta flag on, inline @path references in bead not
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ck.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.land/README.md) | [sase-1ck.4.1](sase-1ck.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.4.1.1][1] | Need parent epic plan details | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

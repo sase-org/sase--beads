@@ -14,7 +14,7 @@ read_surface: render text chips, the attachments block, history, list, and path,
 ## Dependencies
 
 - **Depends on:** [sase-1ck.4.1.1](sase-1ck.4.1.1.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.4.1.2](sase-1ck.4.1.2.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.4.1.2](sase-1ck.4.1.2.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
