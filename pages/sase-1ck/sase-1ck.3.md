@@ -42,7 +42,9 @@ core_wire: add the optional attachments manifest on note events and BeadNoteWire
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.n.cld][1] | Check progress of attachment wire and shared-store phases to judge whether a visibility field can be added early | 1 |
+| read-by | [agent:sase-1ck.3][2] | check phase status | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.3/README.md
 
 <!-- sase:referenced-by:end -->

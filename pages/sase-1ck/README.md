@@ -50,34 +50,45 @@ flowchart TD
     n3["sase-1ck.2: Local content-addressed attachment store and streaming ingest [closed]"]
     n4["sase-1ck.3: Attachment wire, reducer, mutation APIs, and policy (sase-core) [closed]"]
     n5["sase-1ck.4: Author and read attachments from the CLI (beta flag) [in_progress]"]
-    n6["sase-1ck.5: Private attachments sidecar, upload outbox, and lazy fetch [in_progress]"]
-    n7["sase-1ck.6: Large-file store, background uploads, and progress [in_progress]"]
-    n8["sase-1ck.7: Image previews and full-fidelity viewing [in_progress]"]
-    n9["sase-1ck.8: Beads pane attachments and add-note authoring UX [in_progress]"]
-    n10["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [in_progress]"]
+    n6["sase-1ck.4.1: Bead note attachment CLI [in_progress]"]
+    n7["sase-1ck.4.1.1: Flag, authoring service, and note verb [closed]"]
+    n8["sase-1ck.4.1.2: Close, update, +1, and attach [in_progress]"]
+    n9["sase-1ck.4.1.3: Text rendering, list/path, and beta docs [in_progress]"]
+    n10["sase-1ck.5: Private attachments sidecar, upload outbox, and lazy fetch [in_progress]"]
+    n11["sase-1ck.6: Large-file store, background uploads, and progress [in_progress]"]
+    n12["sase-1ck.7: Image previews and full-fidelity viewing [in_progress]"]
+    n13["sase-1ck.8: Beads pane attachments and add-note authoring UX [in_progress]"]
+    n14["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n5 --> n6
+    n6 --> n7
+    n6 --> n8
+    n6 --> n9
     n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
     n1 -.-> n4
     n1 -.-> n5
     n3 -.-> n5
     n4 -.-> n5
-    n5 -.-> n6
-    n5 -.-> n8
-    n6 -.-> n7
-    n7 -.-> n2
-    n7 -.-> n10
-    n8 -.-> n2
+    n5 -.-> n10
+    n5 -.-> n12
+    n7 -.-> n8
+    n7 -.-> n9
     n8 -.-> n9
-    n9 -.-> n2
-    n10 -.-> n2
+    n10 -.-> n11
+    n11 -.-> n2
+    n11 -.-> n14
+    n12 -.-> n2
+    n12 -.-> n13
+    n13 -.-> n2
+    n14 -.-> n2
 ```
 
 ## Agents
@@ -88,7 +99,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md) | [sase-1ck.10](sase-1ck.10.md) | 0 |
 | [bbugyi200.athena.sase-1ck.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.2/README.md) | [sase-1ck.2](sase-1ck.2.md) | 1 |
 | [bbugyi200.athena.sase-1ck.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.3/README.md) | [sase-1ck.3](sase-1ck.3.md) | 1 |
-| [bbugyi200.athena.sase-1ck.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4/README.md) | [sase-1ck.4](sase-1ck.4.md) | 0 |
+| [bbugyi200.athena.sase-1ck.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.4.md) | [sase-1ck.4](sase-1ck.4.md) | 0 |
+| [bbugyi200.athena.sase-1ck.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.1/README.md) | [sase-1ck.4.1.1](sase-1ck.4.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1ck.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.2/README.md) | [sase-1ck.4.1.2](sase-1ck.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1ck.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.3/README.md) | [sase-1ck.4.1.3](sase-1ck.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1ck.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.land/README.md) | [sase-1ck.4.1](sase-1ck.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5/README.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.6/README.md) | [sase-1ck.6](sase-1ck.6.md) | 0 |
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.7/README.md) | [sase-1ck.7](sase-1ck.7.md) | 0 |
@@ -104,6 +119,7 @@ flowchart TD
 | sase-core | [`sase-core@39324ac`](https://github.com/sase-org/sase-core/commit/39324ac73f6ca608f93d7f11cfab1f27c1c9ef4a) | feat(note-attachment): add core attachment grammar, names, and media classification | [sase-1ck.1](sase-1ck.1.md) | 2026-09-29 10:10:02 EDT |
 | sase-core | [`sase-core@43f744b`](https://github.com/sase-org/sase-core/commit/43f744be33e516aad80059b33e64056c7d156741) | feat(note-attachment): add attachment wire, reducer, mutation APIs, and policy | [sase-1ck.3](sase-1ck.3.md) | 2026-09-29 10:59:26 EDT |
 | sase | [`b63e793`](https://github.com/sase-org/sase/commit/b63e79319966538fd8bb497ec08ac75cc7ba8df3) | chore(core-pin): ratchet sase-core-revision.txt to 43f744b for bead note attachments core\_wire | [sase-1ck.3](sase-1ck.3.md) | 2026-09-29 11:35:25 EDT |
+| sase | [`7226499`](https://github.com/sase-org/sase/commit/7226499078638432f3c868dc53772fae77f31b45) | feat(beads): note authoring for bead note attachments beta | [sase-1ck.4.1.1](sase-1ck.4.1.1.md) | 2026-09-29 13:24:09 EDT |
 
 <!-- sase:referenced-by:start -->
 
