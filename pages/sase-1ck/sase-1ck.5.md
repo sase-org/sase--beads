@@ -17,14 +17,14 @@ shared_store: add the reserved private attachments-private sidecar role (repo <p
 
 ## Dependencies
 
-- **Depends on:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.6](sase-1ck.6.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5/README.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
+| [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -14,11 +14,11 @@ show_images: add the show -i/--images auto|cells|kitty|never option and bead.sho
 ## Dependencies
 
 - **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.8](sase-1ck.8.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.7/README.md) | [sase-1ck.7](sase-1ck.7.md) | 0 |
+| [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 0 |

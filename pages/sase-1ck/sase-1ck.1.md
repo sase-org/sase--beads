@@ -24,7 +24,7 @@ core_grammar: add the note-text scanner for @path/@@/@attachment tokens, stored-
 ## Dependencies
 
 - **Blocks:** [sase-1ck.3](sase-1ck.3.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

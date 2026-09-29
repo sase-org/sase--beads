@@ -17,7 +17,7 @@ cas: build the ~/.sase/attachments content-addressed store, with one-pass stream
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
