@@ -28,3 +28,15 @@ pin_follow: add a repos.linked[].revision_pin config field, make the builtin com
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c257a3f`](https://github.com/sase-org/sase/commit/c257a3f22035e68e431826fc939af2895e3ff328) | feat(finalizer): add revision\_pin for linked repos with commit ordering and pin update | [sase-1cq.2](sase-1cq.2.md) | 2026-09-29 17:48:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cq.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.2/README.md
+
+<!-- sase:referenced-by:end -->

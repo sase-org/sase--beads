@@ -28,3 +28,15 @@ after_turn_messaging: extend sase final submit output, the sase_final skill, and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2fe7c65`](https://github.com/sase-org/sase/commit/2fe7c6500fca50ba8036794d595a0e4c7b1912ff) | feat(final): tell agents host commits happen after the turn ends | [sase-1cq.3](sase-1cq.3.md) | 2026-09-29 17:53:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cq.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.3/README.md
+
+<!-- sase:referenced-by:end -->
