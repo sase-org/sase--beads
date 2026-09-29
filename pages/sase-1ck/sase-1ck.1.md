@@ -23,7 +23,7 @@ core_grammar: add the note-text scanner for @path/@@/@attachment tokens, stored-
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.3](sase-1ck.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.3](sase-1ck.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.4](sase-1ck.4.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
@@ -37,3 +37,15 @@ core_grammar: add the note-text scanner for @path/@@/@attachment tokens, stored-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@39324ac`](https://github.com/sase-org/sase-core/commit/39324ac73f6ca608f93d7f11cfab1f27c1c9ef4a) | feat(note-attachment): add core attachment grammar, names, and media classification | [sase-1ck.1](sase-1ck.1.md) | 2026-09-29 10:10:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.1--2][1] | implement approved note attachment grammar plan - check phase state | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md
+
+<!-- sase:referenced-by:end -->

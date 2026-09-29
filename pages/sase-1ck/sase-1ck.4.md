@@ -15,7 +15,7 @@ note_cli: create the bead_note_attachments beta flag, then build the shared auth
 
 - **Depends on:** [sase-1ck.1](sase-1ck.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.2](sase-1ck.2.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.3](sase-1ck.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.3](sase-1ck.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.5](sase-1ck.5.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.7](sase-1ck.7.md) ◐ · ⧖ 2026-09-29
 

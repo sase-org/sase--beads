@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/bead_note_attachments.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/bead_note_attachments.md
 
@@ -31,8 +31,8 @@ Any file — screenshot, log, trace, archive, or multi-GiB binary — can be att
 |---|---|---|---|---|---:|---:|
 | [sase-1ck.1](sase-1ck.1.md) | Core attachment grammar, names, and media classification (sase-core) | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1ck.10](sase-1ck.10.md) | Remove the beta flag and finish docs | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [sase-1ck.2](sase-1ck.2.md) | Local content-addressed attachment store and streaming ingest | ✓ closed | medium | 2026-09-29 | 1 | 0 |
-| [sase-1ck.3](sase-1ck.3.md) | Attachment wire, reducer, mutation APIs, and policy (sase-core) | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1ck.2](sase-1ck.2.md) | Local content-addressed attachment store and streaming ingest | ✓ closed | medium | 2026-09-29 | 1 | 1 |
+| [sase-1ck.3](sase-1ck.3.md) | Attachment wire, reducer, mutation APIs, and policy (sase-core) | ✓ closed | medium | 2026-09-29 | 1 | 2 |
 | [sase-1ck.4](sase-1ck.4.md) | Author and read attachments from the CLI (beta flag) | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1ck.5](sase-1ck.5.md) | Private attachments sidecar, upload outbox, and lazy fetch | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1ck.6](sase-1ck.6.md) | Large-file store, background uploads, and progress | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n1["sase-1ck.1: Core attachment grammar, names, and media classification (sase-core) [closed]"]
     n2["sase-1ck.10: Remove the beta flag and finish docs [in_progress]"]
     n3["sase-1ck.2: Local content-addressed attachment store and streaming ingest [closed]"]
-    n4["sase-1ck.3: Attachment wire, reducer, mutation APIs, and policy (sase-core) [in_progress]"]
+    n4["sase-1ck.3: Attachment wire, reducer, mutation APIs, and policy (sase-core) [closed]"]
     n5["sase-1ck.4: Author and read attachments from the CLI (beta flag) [in_progress]"]
     n6["sase-1ck.5: Private attachments sidecar, upload outbox, and lazy fetch [in_progress]"]
     n7["sase-1ck.6: Large-file store, background uploads, and progress [in_progress]"]
@@ -86,8 +86,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1ck.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md) | [sase-1ck.1](sase-1ck.1.md) | 1 |
 | [bbugyi200.athena.sase-1ck.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md) | [sase-1ck.10](sase-1ck.10.md) | 0 |
-| [bbugyi200.athena.sase-1ck.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.2/README.md) | [sase-1ck.2](sase-1ck.2.md) | 0 |
-| [bbugyi200.athena.sase-1ck.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.3/README.md) | [sase-1ck.3](sase-1ck.3.md) | 0 |
+| [bbugyi200.athena.sase-1ck.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.2/README.md) | [sase-1ck.2](sase-1ck.2.md) | 1 |
+| [bbugyi200.athena.sase-1ck.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.3/README.md) | [sase-1ck.3](sase-1ck.3.md) | 1 |
 | [bbugyi200.athena.sase-1ck.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4/README.md) | [sase-1ck.4](sase-1ck.4.md) | 0 |
 | [bbugyi200.athena.sase-1ck.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5/README.md) | [sase-1ck.5](sase-1ck.5.md) | 0 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.6/README.md) | [sase-1ck.6](sase-1ck.6.md) | 0 |
@@ -100,7 +100,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase | [`a3b1088`](https://github.com/sase-org/sase/commit/a3b1088d5e1fb25f071790f4b84a7a2c7613ecbb) | feat(bead): add content-addressed attachment store | [sase-1ck.2](sase-1ck.2.md) | 2026-09-29 09:13:37 EDT |
 | sase-core | [`sase-core@39324ac`](https://github.com/sase-org/sase-core/commit/39324ac73f6ca608f93d7f11cfab1f27c1c9ef4a) | feat(note-attachment): add core attachment grammar, names, and media classification | [sase-1ck.1](sase-1ck.1.md) | 2026-09-29 10:10:02 EDT |
+| sase-core | [`sase-core@43f744b`](https://github.com/sase-org/sase-core/commit/43f744be33e516aad80059b33e64056c7d156741) | feat(note-attachment): add attachment wire, reducer, mutation APIs, and policy | [sase-1ck.3](sase-1ck.3.md) | 2026-09-29 10:59:26 EDT |
+| sase | [`b63e793`](https://github.com/sase-org/sase/commit/b63e79319966538fd8bb497ec08ac75cc7ba8df3) | chore(core-pin): ratchet sase-core-revision.txt to 43f744b for bead note attachments core\_wire | [sase-1ck.3](sase-1ck.3.md) | 2026-09-29 11:35:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -115,6 +118,7 @@ flowchart TD
 | read-by | [agent:research.n.gem][5] | Reviewing context for bead attachment storage and access research | 1 |
 | read-by | [agent:research.n.grk][6] | Need epic scope, design, and current attachment access model before researching public default access | 1 |
 | read-by | [agent:research.n.mus][7] | Research context for public vs private bead attachment storage design | 1 |
+| read-by | [agent:sase-1ck.1--2][8] | implement approved note attachment grammar plan | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.30/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cdx/README.md
@@ -123,5 +127,6 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.gem/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.grk/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md
 
 <!-- sase:referenced-by:end -->
