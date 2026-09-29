@@ -22,7 +22,7 @@ sase-grammar-highlight: in sase, bump the core pin, relax `_ALT_DIRECTIVE_RE` fo
 ## Dependencies
 
 - **Depends on:** [sase-1co.2](sase-1co.2.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1co.4](sase-1co.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1co.4](sase-1co.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -35,3 +35,15 @@ sase-grammar-highlight: in sase, bump the core pin, relax `_ALT_DIRECTIVE_RE` fo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0266fe4`](https://github.com/sase-org/sase/commit/0266fe4a1227c2a96293828b520b5cd0f1d54a15) | feat(xprompt): mid-word alternation grammar mirror, highlight adapter, and docs | [sase-1co.3](sase-1co.3.md) | 2026-09-29 17:59:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1co.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.3/README.md
+
+<!-- sase:referenced-by:end -->
