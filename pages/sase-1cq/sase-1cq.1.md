@@ -25,4 +25,10 @@ stranded_landing: ratchet sase-core-revision.txt past 0541387 and 1ad57ea, verif
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.1/README.md) | [sase-1cq.1](sase-1cq.1.md) | 0 |
+| [bbugyi200.athena.sase-1cq.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cq.1/README.md) | [sase-1cq.1](sase-1cq.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`339a673`](https://github.com/sase-org/sase/commit/339a67306b5797921d9f31b73a0bd4505efbee0f) | chore(core-pin): ratchet sase-core-revision.txt to 1e51ff3c for +1 attachments and prompt-prediction replay | [sase-1cq.1](sase-1cq.1.md) | 2026-09-29 17:54:15 EDT |
