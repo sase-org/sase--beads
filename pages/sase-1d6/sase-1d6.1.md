@@ -19,7 +19,7 @@ pinned-sibling-bead-action: stop commit_dispatch from dropping bead_action for r
 
 ## Dependencies
 
-- **Blocks:** [sase-1d6.3](sase-1d6.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d6.3](sase-1d6.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ pinned-sibling-bead-action: stop commit_dispatch from dropping bead_action for r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`63bde57`](https://github.com/sase-org/sase/commit/63bde575f07969a2a3e138516e52a91f0100a22c) | fix(finalizer): pass -B keep for revision-pinned sibling stitches | [sase-1d6.1](sase-1d6.1.md) | 2026-09-30 06:45:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d6.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d6.1.md
+
+<!-- sase:referenced-by:end -->

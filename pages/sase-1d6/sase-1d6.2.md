@@ -30,7 +30,7 @@ CAVEAT for relaunch phase: sase bead attachment push reports no shared store on 
 
 ## Dependencies
 
-- **Blocks:** [sase-1d6.3](sase-1d6.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d6.3](sase-1d6.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
