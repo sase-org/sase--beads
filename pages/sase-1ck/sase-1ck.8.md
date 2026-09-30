@@ -19,7 +19,7 @@ tui: add an attachments block with thumbnails and badges to Beads pane note deta
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.7](sase-1ck.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents

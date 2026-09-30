@@ -21,7 +21,7 @@ large_files: add the optional rclone large-object store tier, background uploads
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.5](sase-1ck.5.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1ck.9](sase-1ck.9.md) ✓ · ⧖ 2026-09-29
 

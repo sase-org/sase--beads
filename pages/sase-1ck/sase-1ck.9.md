@@ -25,7 +25,7 @@ lifecycle: add tombstone-based attachment purge, bead doctor attachment checks a
 
 ## Dependencies
 
-- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.10](sase-1ck.10.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.6](sase-1ck.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
@@ -39,3 +39,15 @@ lifecycle: add tombstone-based attachment purge, bead doctor attachment checks a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee1620e`](https://github.com/sase-org/sase/commit/ee1620e1b919fb73d350b02767ecf81ab0577afc) | feat(bead): implement attachment lifecycle (purge, doctor, prune, pages) | [sase-1ck.9](sase-1ck.9.md) | 2026-09-29 22:10:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.9][1] | Need full description and notes for phase work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md
+
+<!-- sase:referenced-by:end -->
