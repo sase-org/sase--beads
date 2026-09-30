@@ -35,3 +35,15 @@ fleet-signature-cheap: replace the recursive deep-freeze projection signature wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2fade65`](https://github.com/sase-org/sase/commit/2fade653babb1adf2deeb637c6b66cec392c4786) | feat(agents): cheap fleet reprojection signature checked before projection | [sase-1d7.11](sase-1d7.11.md) | 2026-09-30 11:49:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.11--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.11.md
+
+<!-- sase:referenced-by:end -->

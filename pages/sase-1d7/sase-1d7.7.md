@@ -13,7 +13,7 @@ bulk-ack-scope-and-undo: make the bulk-ack target set share one predicate with t
 
 ## Dependencies
 
-- **Depends on:** [sase-1d7.6](sase-1d7.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.8](sase-1d7.8.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
