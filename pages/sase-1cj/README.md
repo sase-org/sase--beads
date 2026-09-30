@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/prompt_next_word_prediction.md
 
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.12.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.12.3.md) | [sase-1cj.12.3](sase-1cj.12.3.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 2 |
 | [bbugyi200.athena.sase-1cj.12.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.5/README.md) | [sase-1cj.12.5](sase-1cj.12.5.md) | 1 |
-| [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 1 |
+| [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 2 |
 | [bbugyi200.athena.sase-1cj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md) | [sase-1cj.2](sase-1cj.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.3/README.md) | [sase-1cj.3](sase-1cj.3.md) | 1 |
 | [bbugyi200.athena.sase-1cj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.4.md) | [sase-1cj.4](sase-1cj.4.md) | 2 |
@@ -158,6 +158,7 @@ flowchart TD
 | sase | [`782bffa`](https://github.com/sase-org/sase/commit/782bffaf725b913f40acbe113ed12e188351aa77) | feat(prompt-prediction): recalibrate presets, add archive score sampling and replay sources | [sase-1cj.12.4](sase-1cj.12.4.md) | 2026-09-30 14:08:59 EDT |
 | sase | [`69c4057`](https://github.com/sase-org/sase/commit/69c4057735bbe1e5edaa942ecabd0c6149f31b4c) | feat(ace-tui): add context-ranking and auto-mode next-word goldens, verify goldens, promote next-word docs | [sase-1cj.12.5](sase-1cj.12.5.md) | 2026-09-30 14:42:33 EDT |
 | sase | [`5385a8c`](https://github.com/sase-org/sase/commit/5385a8c8a77fee2b0ec83e87efe247d05efa0c5a) | feat(prompt-prediction): land sase-1cj.12 with --bench, zero-row ghost requests, and cost docs | [sase-1cj.12](sase-1cj.12.md) | 2026-09-30 15:59:59 EDT |
+| sase--plans | [`sase--plans@a0f15a7`](https://github.com/sase-org/sase--plans/commit/a0f15a736dc24b00186d836e85f20fbf5bdcd5c4) | chore(plans): mark finish\_prompt\_next\_word\_prediction done (sase-1cj.12 landed) | [sase-1cj.12](sase-1cj.12.md) | 2026-09-30 16:04:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -167,16 +168,18 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2y.cld][1] | research prompt-history origin design context for filtering swarm/routine prompts | 1 |
 | read-by | [agent:research.2y.gem][2] | Research prompt history context and design rationale | 1 |
-| read-by | [agent:sase-1cj.2][3] | Need epic context for phase | 1 |
-| read-by | [agent:sase-1cj.7][4] | Verify parent epic is still open before re-keying symbols | 1 |
-| read-by | [agent:sase-1cj.8--1][5] | Need the epic scope to check causal link for terminology failure | 1 |
-| read-by | [agent:sase-1cj.9--1][6] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
+| read-by | [agent:sase-1cj.12.land][3] | Need the parent link: parent epic scope, prior landing note, descendants, and plan file for resuming its landing | 1 |
+| read-by | [agent:sase-1cj.2][4] | Need epic context for phase | 1 |
+| read-by | [agent:sase-1cj.7][5] | Verify parent epic is still open before re-keying symbols | 1 |
+| read-by | [agent:sase-1cj.8--1][6] | Need the epic scope to check causal link for terminology failure | 1 |
+| read-by | [agent:sase-1cj.9--1][7] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2y.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2y.gem/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
 
 <!-- sase:referenced-by:end -->

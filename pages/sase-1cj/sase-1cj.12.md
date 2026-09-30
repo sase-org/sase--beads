@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/finish_prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/finish_prompt_next_word_prediction.md
 
@@ -41,13 +41,14 @@ The next-word prediction feature from epic sase-1cj meets its own contract. The 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 1 |
+| [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5385a8c`](https://github.com/sase-org/sase/commit/5385a8c8a77fee2b0ec83e87efe247d05efa0c5a) | feat(prompt-prediction): land sase-1cj.12 with --bench, zero-row ghost requests, and cost docs | [sase-1cj.12](sase-1cj.12.md) | 2026-09-30 15:59:59 EDT |
+| sase--plans | [`sase--plans@a0f15a7`](https://github.com/sase-org/sase--plans/commit/a0f15a736dc24b00186d836e85f20fbf5bdcd5c4) | chore(plans): mark finish\_prompt\_next\_word\_prediction done (sase-1cj.12 landed) | [sase-1cj.12](sase-1cj.12.md) | 2026-09-30 16:04:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -57,8 +58,10 @@ The next-word prediction feature from epic sase-1cj meets its own contract. The 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.12.2][1] | Need parent epic scope for tui-fixes handoff | 1 |
 | read-by | [agent:sase-1cj.12.4][2] | Need parent epic status and phase progress | 1 |
+| read-by | [agent:sase-1cj.12.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md
 
 <!-- sase:referenced-by:end -->
