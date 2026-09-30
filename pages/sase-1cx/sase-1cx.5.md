@@ -36,3 +36,15 @@ monitor-join: add `-J/--join RUN` to `sase monitor start`. It records the join a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e032ec4`](https://github.com/sase-org/sase/commit/e032ec4d4ac33578f25caf8005140393fab0261e) | feat(tool): join detached ToolRuns with monitors (sase-1cx.5) | [sase-1cx.5](sase-1cx.5.md) | 2026-09-30 14:11:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cx.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
+
+<!-- sase:referenced-by:end -->

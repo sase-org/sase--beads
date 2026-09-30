@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/tool_run_escalation.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/tool_run_escalation.md
 
@@ -129,7 +129,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.5.md) | [sase-1cx.5](sase-1cx.5.md) | 1 |
 | [bbugyi200.athena.sase-1cx.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.6.md) | [sase-1cx.6](sase-1cx.6.md) | 1 |
 | [bbugyi200.athena.sase-1cx.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md) | [sase-1cx.7](sase-1cx.7.md) | 1 |
-| [bbugyi200.athena.sase-1cx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md) | [sase-1cx](README.md) | 1 |
+| [bbugyi200.athena.sase-1cx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md) | [sase-1cx](README.md) | 2 |
 
 ## Commits
 
@@ -143,6 +143,7 @@ flowchart TD
 | sase | [`e032ec4`](https://github.com/sase-org/sase/commit/e032ec4d4ac33578f25caf8005140393fab0261e) | feat(tool): join detached ToolRuns with monitors (sase-1cx.5) | [sase-1cx.5](sase-1cx.5.md) | 2026-09-30 14:11:13 EDT |
 | sase | [`f3899b4`](https://github.com/sase-org/sase/commit/f3899b4171773a901037992a3788c1a9490e75a5) | feat(tool): remove tool\_run\_escalation flag and land inline-then-escalate guidance (sase-1cx.7) | [sase-1cx.7](sase-1cx.7.md) | 2026-09-30 15:14:18 EDT |
 | sase | [`e0e846c`](https://github.com/sase-org/sase/commit/e0e846c9d6546da5850aace71b05c32d42828fc6) | fix(tool): finish inline-then-escalate landing integration (sase-1cx) | [sase-1cx](README.md) | 2026-09-30 15:58:03 EDT |
+| sase--plans | [`sase--plans@f4cd268`](https://github.com/sase-org/sase--plans/commit/f4cd268cc09c33de25600e747e4bf84608024c90) | chore(plans): mark tool\_run\_escalation plan done (sase-1cx landed) | [sase-1cx](README.md) | 2026-09-30 16:02:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -152,8 +153,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cx.1--1][1] | parent epic for phase implementation | 1 |
 | read-by | [agent:sase-1cx.7][2] | epic context for phase 7 | 1 |
+| read-by | [agent:sase-1cx.land][3] | Need the parent link | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
 
 <!-- sase:referenced-by:end -->

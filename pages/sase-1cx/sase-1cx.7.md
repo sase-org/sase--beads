@@ -47,9 +47,11 @@ guidance-and-flag-removal: delete the flag's Off branches and close its bead. Re
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cx.7][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:sase-1d5.8--1][2] | check flag owner epic | 1 |
+| read-by | [agent:sase-1cx.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1d5.8--1][3] | check flag owner epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.8.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.8.md
 
 <!-- sase:referenced-by:end -->

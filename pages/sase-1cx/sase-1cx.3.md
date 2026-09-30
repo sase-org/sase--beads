@@ -43,7 +43,9 @@ detach-run: pin the new core, create the `tool_run_escalation` beta flag, and sh
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cx.3--2][1] | verification follow-up for detach-run phase: need bead state and evidence before close | 2 |
+| read-by | [agent:sase-1cx.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
 
 <!-- sase:referenced-by:end -->

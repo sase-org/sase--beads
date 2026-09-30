@@ -67,10 +67,12 @@ Instructions to the relaunched agent: apply onto current origin/master with git 
 | --- | --- | --- | ---: |
 | read-by | [agent:0ub--1][1] | Verify attachment span fix renders colored bead detail | 1 |
 | read-by | [agent:sase-1cx.1--1][2] | continue approved plan implementation after sase-core gate passed | 1 |
-| read-by | [agent:sase-1d6.land][3] | Need salvage notes, reopen notes, and current status of the five recovered beads | 1 |
+| read-by | [agent:sase-1cx.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1d6.land][4] | Need salvage notes, reopen notes, and current status of the five recovered beads | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ub.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.1.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d6.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d6.land/README.md
 
 <!-- sase:referenced-by:end -->

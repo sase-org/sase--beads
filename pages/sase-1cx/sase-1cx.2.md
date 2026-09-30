@@ -41,7 +41,9 @@ soft-ceiling: add the `tool_runs.soft_ceiling` config and export `SASE_PROVIDER_
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cx.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1cx.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
 
 <!-- sase:referenced-by:end -->

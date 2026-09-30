@@ -35,3 +35,15 @@ inline-escalation: when the flag is on and a budget exists, an agent's plain `sa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c68da8c`](https://github.com/sase-org/sase/commit/c68da8c475e6fb00403827e0a4926970bc0a1918) | feat(tool): add inline escalation to detached handoff run | [sase-1cx.6](sase-1cx.6.md) | 2026-09-30 13:28:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cx.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
+
+<!-- sase:referenced-by:end -->
