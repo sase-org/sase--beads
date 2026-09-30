@@ -23,7 +23,7 @@ large_files: add the optional rclone large-object store tier, background uploads
 
 - **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [sase-1ck.5](sase-1ck.5.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.9](sase-1ck.9.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.9](sase-1ck.9.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -36,3 +36,15 @@ large_files: add the optional rclone large-object store tier, background uploads
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`777ea2f`](https://github.com/sase-org/sase/commit/777ea2f5c3fd5db08c7f9f978e6290c0cc57a438) | feat(attachments): add large-file rclone store with background uploads and progress UI | [sase-1ck.6](sase-1ck.6.md) | 2026-09-29 21:08:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.6--1][1] | Need full description and notes for implementation | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.6.md
+
+<!-- sase:referenced-by:end -->

@@ -41,6 +41,8 @@ Any file — screenshot, log, trace, archive, or multi-GiB binary — can be att
 
 DISCOVERED ISSUE (corroboration): sase-1ck.5.1.3's symvision follow-up is the private-import pair already recorded on this epic (show_images.py imports _kitty_graphics_support from checks_deep_terminal.py; attachment_resolve.py imports _roster_for_issue from cli_attachment.py). Both imports are still present and come from sase-1ck.7, not from the private-store epic. No new task.
 
+[2026-09-30T02:04:28Z · sase-1cu.land] DISCOVERED ISSUE (corroboration from sase-1cu land): phases sase-1cu.1/.2/.3 independently proposed the same two clean-base failures already tracked here. At sase HEAD 3e03e0add9, ToolRun 02ae8f4b88958c1ac4073ea4cda26f7c stopped on the 14 at_bearing_notes.jsonl terminology defects; task sase-1cv received +1. A separate just symvision run still reports _kitty_graphics_support (show_images.py) and _roster_for_issue (attachment_resolve.py) private imports, matching this epic's note #5. These arise from attachment work, not the location-picker epic; no new task bead filed for the private-import pair because this active epic owns it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -54,7 +56,7 @@ DISCOVERED ISSUE (corroboration): sase-1ck.5.1.3's symvision follow-up is the pr
 | [sase-1ck.6](sase-1ck.6.md) | Large-file store, background uploads, and progress | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1ck.7](sase-1ck.7.md) | Image previews and full-fidelity viewing | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1ck.8](sase-1ck.8.md) | Beads pane attachments and add-note authoring UX | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [sase-1ck.9](sase-1ck.9.md) | Purge, doctor, cache pruning, and bead pages | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1ck.9](sase-1ck.9.md) | Purge, doctor, cache pruning, and bead pages | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 
 ## Lineage
 
@@ -79,7 +81,7 @@ flowchart TD
     n16["sase-1ck.6: Large-file store, background uploads, and progress [closed]"]
     n17["sase-1ck.7: Image previews and full-fidelity viewing [closed]"]
     n18["sase-1ck.8: Beads pane attachments and add-note authoring UX [closed]"]
-    n19["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [in_progress]"]
+    n19["sase-1ck.9: Purge, doctor, cache pruning, and bead pages [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -138,11 +140,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.2.md) | [sase-1ck.5.1.2](sase-1ck.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md) | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.4.md) | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.land.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.land.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 2 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.6.md) | [sase-1ck.6](sase-1ck.6.md) | 1 |
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
 | [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 1 |
-| [bbugyi200.athena.sase-1ck.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md) | [sase-1ck.9](sase-1ck.9.md) | 0 |
+| [bbugyi200.athena.sase-1ck.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md) | [sase-1ck.9](sase-1ck.9.md) | 1 |
 | [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 0 |
 
 ## Commits
@@ -165,7 +167,9 @@ flowchart TD
 | sase | [`978f6eb`](https://github.com/sase-org/sase/commit/978f6ebdb6b0a3c42e5aaefa7be8841add484192) | feat(bead): lazy attachment fetch with availability badges and doctor check | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 2026-09-29 19:57:14 EDT |
 | sase | [`6335123`](https://github.com/sase-org/sase/commit/633512313fd41022c63562f1189ed2342c2f314e) | feat(tui): beads pane attachments and add-note authoring UX | [sase-1ck.8](sase-1ck.8.md) | 2026-09-29 20:23:51 EDT |
 | sase | [`5a4b979`](https://github.com/sase-org/sase/commit/5a4b979ce89a5c315c8e71520d7306b8a4a8227d) | feat(bead-attachments): lazy attachment-store discovery on show and read | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:36:35 EDT |
+| sase--plans | [`sase--plans@c50baf6`](https://github.com/sase-org/sase--plans/commit/c50baf643cdfa830afc01f46f1cbfb0098dfc249) | docs(plans): mark private\_attachment\_store plan done | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:40:24 EDT |
 | sase | [`777ea2f`](https://github.com/sase-org/sase/commit/777ea2f5c3fd5db08c7f9f978e6290c0cc57a438) | feat(attachments): add large-file rclone store with background uploads and progress UI | [sase-1ck.6](sase-1ck.6.md) | 2026-09-29 21:08:07 EDT |
+| sase | [`ee1620e`](https://github.com/sase-org/sase/commit/ee1620e1b919fb73d350b02767ecf81ab0577afc) | feat(bead): implement attachment lifecycle (purge, doctor, prune, pages) | [sase-1ck.9](sase-1ck.9.md) | 2026-09-29 22:10:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
