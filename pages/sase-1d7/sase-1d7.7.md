@@ -22,7 +22,7 @@ bulk-ack-scope-and-undo: make the bulk-ack target set share one predicate with t
 ## Dependencies
 
 - **Depends on:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.8](sase-1d7.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.8](sase-1d7.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -35,3 +35,15 @@ bulk-ack-scope-and-undo: make the bulk-ack target set share one predicate with t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`af0ac9d`](https://github.com/sase-org/sase/commit/af0ac9d6acf9852276c6af6ccae220cb61ec10c6) | feat(agents): precise bulk-ack scope and time-bound explicit undo (sase-1d7.7) | [sase-1d7.7](sase-1d7.7.md) | 2026-09-30 12:40:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.7/README.md
+
+<!-- sase:referenced-by:end -->

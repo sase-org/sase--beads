@@ -21,7 +21,7 @@ unread-chrome-helper: route every unread change through one helper that patches 
 
 - **Depends on:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.7](sase-1d7.7.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.8](sase-1d7.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.8](sase-1d7.8.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
