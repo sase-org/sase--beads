@@ -14,7 +14,7 @@ bounded-wait: extract a shared `follow_run` helper from `show -F` without changi
 ## Dependencies
 
 - **Depends on:** [sase-1cx.2](sase-1cx.2.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1cx.3](sase-1cx.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cx.3](sase-1cx.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.5](sase-1cx.5.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.6](sase-1cx.6.md) ◐ · ⧖ 2026-09-29
 

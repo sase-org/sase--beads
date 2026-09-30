@@ -13,7 +13,7 @@ monitor-join: add `-J/--join RUN` to `sase monitor start`. It records the join a
 
 ## Dependencies
 
-- **Depends on:** [sase-1cx.3](sase-1cx.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cx.3](sase-1cx.3.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cx.4](sase-1cx.4.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.7](sase-1cx.7.md) ◐ · ⧖ 2026-09-29
 
