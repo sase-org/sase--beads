@@ -42,7 +42,9 @@ python: add the sase Jinja adapter and move the core pin. Delete the Python buil
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1df.6--3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1df.7][2] | check python phase done state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.7/README.md
 
 <!-- sase:referenced-by:end -->

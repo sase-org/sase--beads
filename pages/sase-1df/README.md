@@ -35,7 +35,7 @@ Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt
 | [sase-1df.6](sase-1df.6.md) | Python adapter, single source of truth, lint, and parity tests | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1df.7](sase-1df.7.md) | TUI Jinja completion menu redesign | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1df.8](sase-1df.8.md) | Auto-open the Jinja menu while typing | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
-| [sase-1df.9](sase-1df.9.md) | TUI and LSP Jinja completion parity suite | ✓ closed | small | 2026-09-30 | 1 | 0 |
+| [sase-1df.9](sase-1df.9.md) | TUI and LSP Jinja completion parity suite | ✓ closed | small | 2026-09-30 | 1 | 1 |
 
 ## Lineage
 
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1df.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.6.md) | [sase-1df.6](sase-1df.6.md) | 1 |
 | [bbugyi200.apollo.sase-1df.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.7/README.md) | [sase-1df.7](sase-1df.7.md) | 1 |
 | [bbugyi200.apollo.sase-1df.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.8/README.md) | [sase-1df.8](sase-1df.8.md) | 0 |
-| [bbugyi200.apollo.sase-1df.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.9.md) | [sase-1df.9](sase-1df.9.md) | 0 |
+| [bbugyi200.apollo.sase-1df.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.9.md) | [sase-1df.9](sase-1df.9.md) | 1 |
 | [bbugyi200.apollo.sase-1df.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.land/README.md) | [sase-1df](README.md) | 0 |
 
 ## Commits
@@ -98,3 +98,4 @@ flowchart TD
 | sase | [`08c4e83`](https://github.com/sase-org/sase/commit/08c4e83cfa092c941da9354be7feea6f77063b94) | docs(editor): document LSP Jinja completion and hover | [sase-1df.5](sase-1df.5.md) | 2026-09-30 12:28:16 EDT |
 | sase | [`85b2ce1`](https://github.com/sase-org/sase/commit/85b2ce10385b7809a96f8ca72fe80405934afa56) | feat(xprompt): add Jinja adapter over engine scope variables with parity tests | [sase-1df.6](sase-1df.6.md) | 2026-09-30 13:03:26 EDT |
 | sase | [`c6df2db`](https://github.com/sase-org/sase/commit/c6df2dba3f4211b0d71105a0cf6d30ebd54cfdaf) | feat(ace-tui): drive Jinja completion menu off Rust engine | [sase-1df.7](sase-1df.7.md) | 2026-09-30 14:12:32 EDT |
+| sase | [`9c867a3`](https://github.com/sase-org/sase/commit/9c867a38542226a925e4bda371d2d25ae6b9a8d4) | test(xprompt): LSP/adapter Jinja completion parity suite (sase-1df.9) | [sase-1df.9](sase-1df.9.md) | 2026-09-30 14:23:38 EDT |
