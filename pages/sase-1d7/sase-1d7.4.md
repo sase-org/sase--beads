@@ -19,7 +19,7 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 
 ## Dependencies
 
-- **Blocks:** [sase-1d7.10](sase-1d7.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.10](sase-1d7.10.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.11](sase-1d7.11.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.3](sase-1d7.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.5](sase-1d7.5.md) ◐ · ⧖ 2026-09-30
@@ -36,3 +36,15 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8a00076`](https://github.com/sase-org/sase/commit/8a00076f1ffa374e9d604ea9f66a4b1881906843) | feat(agents): add roster generation counter and cached projection index | [sase-1d7.4](sase-1d7.4.md) | 2026-09-30 10:12:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.4--1][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.4.md
+
+<!-- sase:referenced-by:end -->

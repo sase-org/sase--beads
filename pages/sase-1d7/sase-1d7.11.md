@@ -11,6 +11,10 @@
 
 fleet-signature-cheap: replace the recursive deep-freeze projection signature with a structural signature from the roster generation and fleet wire revisions, checked before project_clan_tree runs, with host-level freshness fields patched in the header only.
 
+## Notes
+
+[2026-09-30T14:42:30Z · sase-1d7.11] Implemented fleet-signature-cheap: structural pre-projection signature (roster generation + removal generation + per-row wire keys/revisions/status/clan/attention/followed/dispatch + snapshot identities on FleetRowsProjection) checked before project_clan_tree; skip path patches volatile host fields onto live rows + header. Removed _freeze_projection_value/_agents_projection_signature. Inline-verified: standalone probe 21/21, ruff format+check clean, mypy clean on src (test-file mypy Liskov error pre-exists on clean tree, outside src gate). Remaining: cold rust build (extension missing here) + repo tests + idle bench + epic-symbols + close.
+
 ## Dependencies
 
 - **Depends on:** [sase-1d7.3](sase-1d7.3.md) ✓ · ⧖ 2026-09-30
@@ -20,4 +24,4 @@ fleet-signature-cheap: replace the recursive deep-freeze projection signature wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d7.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.11/README.md) | [sase-1d7.11](sase-1d7.11.md) | 0 |
+| [bbugyi200.athena.sase-1d7.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.11.md) | [sase-1d7.11](sase-1d7.11.md) | 0 |
