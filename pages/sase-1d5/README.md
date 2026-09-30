@@ -18,7 +18,7 @@
 | related | [bead:sase-1do][3] | Epic whose settled design decision 10 deferred this redaction; ga phase sase-1d5.8 proposed it |
 | related | [bead:sase-1dp][4] | Epic that built the core scanner, GH013 handling, and sdd_secret_scanning for the attachments sidecar only; ga phase sase-1d5.8 proposed this |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/public_bead_attachments.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1de/README.md
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.6/README.md) | [sase-1d5.6](sase-1d5.6.md) | 1 |
 | [bbugyi200.athena.sase-1d5.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.7.md) | [sase-1d5.7](sase-1d5.7.md) | 1 |
 | [bbugyi200.athena.sase-1d5.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.8.md) | [sase-1d5.8](sase-1d5.8.md) | 1 |
-| [bbugyi200.athena.sase-1d5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md) | [sase-1d5](README.md) | 1 |
+| [bbugyi200.athena.sase-1d5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md) | [sase-1d5](README.md) | 2 |
 
 ## Commits
 
@@ -155,6 +155,7 @@ flowchart TD
 | sase | [`909f61f`](https://github.com/sase-org/sase/commit/909f61ffecff7a600b60e8746cc28553e41d6e49) | feat(tui): audience chips, add-note toggle, and queued uploads (sase-1d5.7) | [sase-1d5.7](sase-1d5.7.md) | 2026-09-30 14:36:18 EDT |
 | sase | [`7885562`](https://github.com/sase-org/sase/commit/7885562f5474bd75b4cef0c6a014a09d1f7a44a2) | feat(beads): graduate public bead attachments to GA, remove beta flag (sase-1d5.8) | [sase-1d5.8](sase-1d5.8.md) | 2026-09-30 15:39:42 EDT |
 | sase | [`60b2d3d`](https://github.com/sase-org/sase/commit/60b2d3dfdb504c3f18ee9cd452b94a6b105e8d17) | fix(bead-attachments): land public-by-default attachments epic (sase-1d5) | [sase-1d5](README.md) | 2026-09-30 17:24:18 EDT |
+| sase--plans | [`sase--plans@247cb28`](https://github.com/sase-org/sase--plans/commit/247cb285bcb1507f5bdddd2fcced1368b2783c37) | chore(plans): mark public\_bead\_attachments plan done (sase-1d5) | [sase-1d5](README.md) | 2026-09-30 17:28:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -167,13 +168,15 @@ flowchart TD
 | read-by | [agent:sase-1ck.land][3] | Check whether the public-attachments epic owns sidecar-disabled discovery and existing-remote visibility follow-ups from sase-1ck landing | 1 |
 | read-by | [agent:sase-1cx.land][4] | Landing sase-1cx: check whether sase-1d5 already records the public_bead_attachments flag leftover and attachment symvision private imports | 1 |
 | read-by | [agent:sase-1d5.7--1][5] | Check epic scope for audit ownership | 1 |
-| read-by | [agent:sase-1df.land--1][6] | triage flag failure owner | 2 |
+| read-by | [agent:sase-1d5.land][6] | Need the parent link | 3 |
+| read-by | [agent:sase-1df.land--1][7] | triage flag failure owner | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2y.gem/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.7.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1df.land.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1df.land.md
 
 <!-- sase:referenced-by:end -->

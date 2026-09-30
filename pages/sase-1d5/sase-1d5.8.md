@@ -52,8 +52,10 @@ ga: remove public_bead_attachments by deleting its off branches and closing its 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.12.land][1] | Check whether the in-progress beta-flag removal phase covers the surviving public_bead_attachments flag definition | 2 |
 | read-by | [agent:sase-1d5.8--1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1d5.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.8.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md
 
 <!-- sase:referenced-by:end -->

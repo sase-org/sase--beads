@@ -43,7 +43,9 @@ audience_cli: create the public_bead_attachments beta flag, gather provenance fa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1d5.3--3][1] | diagnose just check _setup failure for audience CLI work | 1 |
+| read-by | [agent:sase-1d5.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md
 
 <!-- sase:referenced-by:end -->

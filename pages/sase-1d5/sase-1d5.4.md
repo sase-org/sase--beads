@@ -16,7 +16,7 @@
 | related | [bead:sase-1da][1] | sase-1d5.4 rewrites discover_stores and hidden_clone_path per role; honor the disabled flag in that new per-role discovery |
 | related | [bead:sase-1db][2] | sase-1d5 adds the anonymous remote_visibility probe this check should reuse for the attachments-private remote |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1da/README.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1db/README.md
@@ -61,8 +61,10 @@ public_store: spike the page-embed path, then add the reserved hidden public att
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1d5.4--1][1] | confirm closure for handoff | 2 |
 | read-by | [agent:sase-1d5.6][2] | Need public_store spike finding on page-embed URL form | 2 |
+| read-by | [agent:sase-1d5.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.4.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md
 
 <!-- sase:referenced-by:end -->
