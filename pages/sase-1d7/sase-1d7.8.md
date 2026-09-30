@@ -19,7 +19,7 @@ ack-pipeline: delete the synchronous post-ack store read, apply ack outcomes to 
 
 ## Dependencies
 
-- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.7](sase-1d7.7.md) ✓ · ⧖ 2026-09-30

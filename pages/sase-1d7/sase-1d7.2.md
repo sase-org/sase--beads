@@ -22,7 +22,7 @@ core-reconcile-upsert: add a lock-held, field-scoped notification reconcile writ
 ## Dependencies
 
 - **Depends on:** [sase-1d7.1](sase-1d7.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.13](sase-1d7.13.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

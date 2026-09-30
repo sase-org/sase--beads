@@ -19,7 +19,7 @@ unread-jump-fast-path: drop the unconditional trailing tab refresh from the unre
 
 ## Dependencies
 
-- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.4](sase-1d7.4.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.8](sase-1d7.8.md) ✓ · ⧖ 2026-09-30
@@ -35,3 +35,15 @@ unread-jump-fast-path: drop the unconditional trailing tab refresh from the unre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9f98939`](https://github.com/sase-org/sase/commit/9f989395b5f158a1a0b11dddfde36c3a7dedca58) | feat(agents): cheap unread jumps and footer probe (sase-1d7.9) | [sase-1d7.9](sase-1d7.9.md) | 2026-09-30 14:54:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.9--1][1] | Check phase work status and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.9.md
+
+<!-- sase:referenced-by:end -->

@@ -21,7 +21,7 @@ pending-ack-fence: stamp snapshot reads with a read sequence, keep in-flight ack
 
 ## Dependencies
 
-- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.12](sase-1d7.12.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.4](sase-1d7.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.8](sase-1d7.8.md) ✓ · ⧖ 2026-09-30
