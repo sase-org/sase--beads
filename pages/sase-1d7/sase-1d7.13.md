@@ -26,10 +26,23 @@ notification-store-diet: shorten live retention of dismissed rows and bound wait
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.13.md) | [sase-1d7.13](sase-1d7.13.md) | 1 |
+| [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.13.md) | [sase-1d7.13](sase-1d7.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@5a59e78`](https://github.com/sase-org/sase-core/commit/5a59e7859ed39d41f59f0ae1d5eb902c65f0b410) | feat(notifications): 3-day archival retention and wait\_checks 32-entry plus-one cap | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 18:38:36 EDT |
+| sase | [`788a931`](https://github.com/sase-org/sase/commit/788a9311f8e6bada7f030f28c47126322e75ad8e) | feat(notifications): shorten dismissed retention to 3 days and bound wait\_checks payloads | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 19:23:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.13--1][1] | implement notification_store_diet plan follow-up after failed check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.13.md
+
+<!-- sase:referenced-by:end -->

@@ -23,7 +23,7 @@ Unread acknowledgments (`,u`, `,j`/`,J`, row-select) are never reverted by anoth
 | [sase-1d7.10](sase-1d7.10.md) | Cached wait-status maps and change-only runtime patching | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d7.11](sase-1d7.11.md) | Cheap fleet reprojection signature computed before projection | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d7.12](sase-1d7.12.md) | Rust ack API, lean unread index, and store generations | ✓ closed | large | 2026-09-30 | 1 | 2 |
-| [sase-1d7.13](sase-1d7.13.md) | Notification store retention and wait-check payload diet | ✓ closed | large | 2026-09-30 | 1 | 1 |
+| [sase-1d7.13](sase-1d7.13.md) | Notification store retention and wait-check payload diet | ✓ closed | large | 2026-09-30 | 1 | 2 |
 | [sase-1d7.2](sase-1d7.2.md) | Atomic field-scoped reconcile write in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [sase-1d7.3](sase-1d7.3.md) | Trace spans, leader-key perf capture, and unread/idle benches | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1d7.4](sase-1d7.4.md) | Roster generation counter and cached projection index | ✓ closed | medium | 2026-09-30 | 1 | 1 |
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.10/README.md) | [sase-1d7.10](sase-1d7.10.md) | 1 |
 | [bbugyi200.athena.sase-1d7.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.11.md) | [sase-1d7.11](sase-1d7.11.md) | 1 |
 | [bbugyi200.athena.sase-1d7.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.12.md) | [sase-1d7.12](sase-1d7.12.md) | 2 |
-| [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.13.md) | [sase-1d7.13](sase-1d7.13.md) | 1 |
+| [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.13.md) | [sase-1d7.13](sase-1d7.13.md) | 2 |
 | [bbugyi200.athena.sase-1d7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.2.md) | [sase-1d7.2](sase-1d7.2.md) | 2 |
 | [bbugyi200.athena.sase-1d7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.3/README.md) | [sase-1d7.3](sase-1d7.3.md) | 1 |
 | [bbugyi200.athena.sase-1d7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.4.md) | [sase-1d7.4](sase-1d7.4.md) | 1 |
@@ -125,6 +125,7 @@ flowchart TD
 | sase-core | [`sase-core@28befcb`](https://github.com/sase-org/sase-core/commit/28befcb9e411d2e5f8a8fd2405186cd3b393631d) | feat(notifications): store generations, ack API, and lean unread index | [sase-1d7.12](sase-1d7.12.md) | 2026-09-30 17:01:15 EDT |
 | sase | [`4d2fa14`](https://github.com/sase-org/sase/commit/4d2fa14af32cde79226b678f673863a805a5687c) | feat(notifications): Rust ack API, lean unread index, and store generations | [sase-1d7.12](sase-1d7.12.md) | 2026-09-30 17:04:53 EDT |
 | sase-core | [`sase-core@5a59e78`](https://github.com/sase-org/sase-core/commit/5a59e7859ed39d41f59f0ae1d5eb902c65f0b410) | feat(notifications): 3-day archival retention and wait\_checks 32-entry plus-one cap | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 18:38:36 EDT |
+| sase | [`788a931`](https://github.com/sase-org/sase/commit/788a9311f8e6bada7f030f28c47126322e75ad8e) | feat(notifications): shorten dismissed retention to 3 days and bound wait\_checks payloads | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 19:23:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
