@@ -27,7 +27,7 @@ public_store: spike the page-embed path, then add the reserved hidden public att
 
 ## Dependencies
 
-- **Depends on:** [sase-1d5.3](sase-1d5.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.3](sase-1d5.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.5](sase-1d5.5.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.6](sase-1d5.6.md) ◐ · ⧖ 2026-09-30
 
