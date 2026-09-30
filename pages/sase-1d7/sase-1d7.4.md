@@ -23,4 +23,4 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.4/README.md) | [sase-1d7.4](sase-1d7.4.md) | 0 |
+| [bbugyi200.athena.sase-1d7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.4.md) | [sase-1d7.4](sase-1d7.4.md) | 0 |

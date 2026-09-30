@@ -14,7 +14,7 @@ notification-store-diet: shorten live retention of dismissed rows and bound wait
 ## Dependencies
 
 - **Depends on:** [sase-1d7.12](sase-1d7.12.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1d7.2](sase-1d7.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d7.2](sase-1d7.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

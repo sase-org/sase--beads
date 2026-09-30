@@ -17,7 +17,7 @@ reconciler-delta-write: stop reconcile_remote_attention_inbox from handing every
 
 ## Dependencies
 
-- **Blocks:** [sase-1d7.2](sase-1d7.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.2](sase-1d7.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
