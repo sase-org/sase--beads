@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/finish_prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/finish_prompt_next_word_prediction.md
 
@@ -46,7 +46,9 @@ The next-word prediction feature from epic sase-1cj meets its own contract. The 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.12.2][1] | Need parent epic scope for tui-fixes handoff | 1 |
+| read-by | [agent:sase-1cj.12.4][2] | Need parent epic status and phase progress | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md
 
 <!-- sase:referenced-by:end -->

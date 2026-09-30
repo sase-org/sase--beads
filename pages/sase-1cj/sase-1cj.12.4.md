@@ -24,7 +24,7 @@ recalibrate: re-run the prequential replay under the corrected support semantics
 - **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.12.2](sase-1cj.12.2.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.12.3](sase-1cj.12.3.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.12.5](sase-1cj.12.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.12.5](sase-1cj.12.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -38,3 +38,15 @@ recalibrate: re-run the prequential replay under the corrected support semantics
 |---|---|---|---|---|
 | sase-core | [`sase-core@c3042fd`](https://github.com/sase-org/sase-core/commit/c3042fdded0d32ccd8d19ac1df550da7a869bf40) | feat(prompt-prediction): recalibrate predict thresholds and add replay sampling | [sase-1cj.12.4](sase-1cj.12.4.md) | 2026-09-30 13:55:00 EDT |
 | sase | [`782bffa`](https://github.com/sase-org/sase/commit/782bffaf725b913f40acbe113ed12e188351aa77) | feat(prompt-prediction): recalibrate presets, add archive score sampling and replay sources | [sase-1cj.12.4](sase-1cj.12.4.md) | 2026-09-30 14:08:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.12.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md
+
+<!-- sase:referenced-by:end -->

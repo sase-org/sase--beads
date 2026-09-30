@@ -51,7 +51,9 @@ core-perf: make the perf test representative, measure production predict on real
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1cj.12.3--3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1cj.12.4][2] | Need core-perf outcome numbers and follow-ups before recalibration | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.12.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md
 
 <!-- sase:referenced-by:end -->
