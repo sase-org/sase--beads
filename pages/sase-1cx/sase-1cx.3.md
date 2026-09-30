@@ -21,7 +21,7 @@ detach-run: pin the new core, create the `tool_run_escalation` beta flag, and sh
 
 - **Depends on:** [sase-1cx.1](sase-1cx.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.4](sase-1cx.4.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cx.5](sase-1cx.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cx.5](sase-1cx.5.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.6](sase-1cx.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents

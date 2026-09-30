@@ -37,7 +37,7 @@ An agent's `sase tool run` never loses a run to its provider's synchronous ceili
 | [sase-1cx.2](sase-1cx.2.md) | Configurable per-provider soft ceiling export | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cx.3](sase-1cx.3.md) | Starter-scoped detached runs and sase tool run --detach | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1cx.4](sase-1cx.4.md) | Ceiling-bounded wait, follow, and the escalation block | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [sase-1cx.5](sase-1cx.5.md) | sase monitor start -J/--join and the joiner worker | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
+| [sase-1cx.5](sase-1cx.5.md) | sase monitor start -J/--join and the joiner worker | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1cx.6](sase-1cx.6.md) | Agent sase tool run escalates instead of being killed | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1cx.7](sase-1cx.7.md) | Agent guidance, docs, live harness case, and flag removal | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
@@ -50,7 +50,7 @@ flowchart TD
     n2["sase-1cx.2: Configurable per-provider soft ceiling export [closed]"]
     n3["sase-1cx.3: Starter-scoped detached runs and sase tool run --detach [closed]"]
     n4["sase-1cx.4: Ceiling-bounded wait, follow, and the escalation block [closed]"]
-    n5["sase-1cx.5: sase monitor start -J/--join and the joiner worker [in_progress]"]
+    n5["sase-1cx.5: sase monitor start -J/--join and the joiner worker [closed]"]
     n6["sase-1cx.6: Agent sase tool run escalates instead of being killed [closed]"]
     n7["sase-1cx.7: Agent guidance, docs, live harness case, and flag removal [in_progress]"]
     n0 --> n1
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.2/README.md) | [sase-1cx.2](sase-1cx.2.md) | 1 |
 | [bbugyi200.athena.sase-1cx.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.3.md) | [sase-1cx.3](sase-1cx.3.md) | 1 |
 | [bbugyi200.athena.sase-1cx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.4/README.md) | [sase-1cx.4](sase-1cx.4.md) | 1 |
-| [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.5.md) | [sase-1cx.5](sase-1cx.5.md) | 0 |
+| [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.5.md) | [sase-1cx.5](sase-1cx.5.md) | 1 |
 | [bbugyi200.athena.sase-1cx.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.6.md) | [sase-1cx.6](sase-1cx.6.md) | 1 |
 | [bbugyi200.athena.sase-1cx.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md) | [sase-1cx.7](sase-1cx.7.md) | 0 |
 | [bbugyi200.athena.sase-1cx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.land/README.md) | [sase-1cx](README.md) | 0 |
@@ -94,6 +94,7 @@ flowchart TD
 | sase | [`018061f`](https://github.com/sase-org/sase/commit/018061f6f28a05fb35386d63e9a050fe57251f09) | feat(tool): implement starter scoped tool runs with detach and handoff | [sase-1cx.3](sase-1cx.3.md) | 2026-09-30 11:42:24 EDT |
 | sase | [`ba63b3d`](https://github.com/sase-org/sase/commit/ba63b3d37cd861218346819fee99ded36a73af7c) | feat(tool): add bounded wait with escalation budget for show and wait | [sase-1cx.4](sase-1cx.4.md) | 2026-09-30 12:20:49 EDT |
 | sase | [`c68da8c`](https://github.com/sase-org/sase/commit/c68da8c475e6fb00403827e0a4926970bc0a1918) | feat(tool): add inline escalation to detached handoff run | [sase-1cx.6](sase-1cx.6.md) | 2026-09-30 13:28:02 EDT |
+| sase | [`e032ec4`](https://github.com/sase-org/sase/commit/e032ec4d4ac33578f25caf8005140393fab0261e) | feat(tool): join detached ToolRuns with monitors (sase-1cx.5) | [sase-1cx.5](sase-1cx.5.md) | 2026-09-30 14:11:13 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -26,7 +26,7 @@ core-detach-join: in the linked sase-core checkout, add the ToolRun `starter` re
 [2026-09-30T10:29:08Z · sase-1d6.2] UNLANDED PRIOR ATTEMPT: agent sase-1cx.1's completion note (bead note #1) describes verified sase-core work that NEVER LANDED. The host commit finalizer failed on the sase-core stitch with missing_bead_action (the pinned-sibling commit regression; fix is epic sase-1d6 phase sase-1d6.1). No commit from this run exists in sase or sase-core origin/master. Salvage held workspace sase_42 (claim ace(run)-260929_203400) read-only; nothing there was staged, committed, moved, or cleaned.
 
 Attached patch (verified with git apply --check against a pristine checkout of the base SHA):
-@attachment:sase-1cx.1-core.patch
+🔒 sase-1cx.1-core.patch
 - repo: sase-core, base SHA 1e51ff3ce9c53ee1a4bc9f52c3642ac4eea8f423, 25 files, 88969 bytes (20 tracked tool_run-path modifications + 5 new tool_run/fixtures JSON files). sase side was clean.
 - intended sase-core commit message: feat(tool-run): add detached starter scope, monitor join, and sync wait budget
 - approved phase plan: plan:202609/core_detach_join.md
