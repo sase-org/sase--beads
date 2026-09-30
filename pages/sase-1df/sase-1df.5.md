@@ -13,7 +13,7 @@ lsp: route in-tag positions to the engine ahead of every other completion surfac
 
 ## Dependencies
 
-- **Depends on:** [sase-1df.3](sase-1df.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.3](sase-1df.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.9](sase-1df.9.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

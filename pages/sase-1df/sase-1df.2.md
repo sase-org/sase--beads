@@ -19,7 +19,7 @@ scan: find the Jinja tag at the cursor (respecting literal zones, comments, raw 
 
 ## Dependencies
 
-- **Blocks:** [sase-1df.3](sase-1df.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.3](sase-1df.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ scan: find the Jinja tag at the cursor (respecting literal zones, comments, raw 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a969aad`](https://github.com/sase-org/sase-core/commit/a969aad267b237a332110f96b380b56d997bb7f7) | feat(editor): add Jinja tag scanning, completion context, and document scope | [sase-1df.2](sase-1df.2.md) | 2026-09-30 10:02:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1df.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.2/README.md
+
+<!-- sase:referenced-by:end -->

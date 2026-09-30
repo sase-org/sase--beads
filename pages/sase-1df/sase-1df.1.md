@@ -19,7 +19,7 @@ catalog: add a static, documented catalog to sase-core covering sase's built-in 
 
 ## Dependencies
 
-- **Blocks:** [sase-1df.3](sase-1df.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.3](sase-1df.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -40,7 +40,9 @@ catalog: add a static, documented catalog to sase-core covering sase's built-in 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1df.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1df.2][2] | Check catalog phase status for scan dependency | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.2/README.md
 
 <!-- sase:referenced-by:end -->
