@@ -19,7 +19,7 @@ push_protection: honor a new sdd_secret_scanning provider option by enabling Git
 
 ## Dependencies
 
-- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

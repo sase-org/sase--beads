@@ -20,7 +20,7 @@ publish_lifecycle: add the human-only (gate-compatible) sase bead attachment pub
 ## Dependencies
 
 - **Depends on:** [sase-1d5.4](sase-1d5.4.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

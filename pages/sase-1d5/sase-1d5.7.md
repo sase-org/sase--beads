@@ -22,7 +22,7 @@ tui: show 🌐/🔒 on beads-pane chips. In the add-note modal, run the audience
 ## Dependencies
 
 - **Depends on:** [sase-1d5.6](sase-1d5.6.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.8](sase-1d5.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -35,3 +35,15 @@ tui: show 🌐/🔒 on beads-pane chips. In the add-note modal, run the audience
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`909f61f`](https://github.com/sase-org/sase/commit/909f61ffecff7a600b60e8746cc28553e41d6e49) | feat(tui): audience chips, add-note toggle, and queued uploads (sase-1d5.7) | [sase-1d5.7](sase-1d5.7.md) | 2026-09-30 14:36:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d5.7--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.7.md
+
+<!-- sase:referenced-by:end -->
