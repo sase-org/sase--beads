@@ -13,7 +13,7 @@ tui-menu: drive the prompt input's Jinja menu from the engine, using each pane's
 
 ## Dependencies
 
-- **Depends on:** [sase-1df.6](sase-1df.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.6](sase-1df.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.8](sase-1df.8.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

@@ -20,7 +20,7 @@ bindings: expose jinja_completion, jinja_scope_variables, and jinja_catalog thro
 ## Dependencies
 
 - **Depends on:** [sase-1df.3](sase-1df.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1df.6](sase-1df.6.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.6](sase-1df.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

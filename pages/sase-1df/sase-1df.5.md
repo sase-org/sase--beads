@@ -34,3 +34,15 @@ lsp: route in-tag positions to the engine ahead of every other completion surfac
 |---|---|---|---|---|
 | sase-core | [`sase-core@9074b2a`](https://github.com/sase-org/sase-core/commit/9074b2ab396664090d23ea7c82389bf1151c3e01) | feat(xprompt-lsp): Jinja completion and hover via engine | [sase-1df.5](sase-1df.5.md) | 2026-09-30 11:45:54 EDT |
 | sase | [`08c4e83`](https://github.com/sase-org/sase/commit/08c4e83cfa092c941da9354be7feea6f77063b94) | docs(editor): document LSP Jinja completion and hover | [sase-1df.5](sase-1df.5.md) | 2026-09-30 12:28:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1df.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.5/README.md
+
+<!-- sase:referenced-by:end -->
