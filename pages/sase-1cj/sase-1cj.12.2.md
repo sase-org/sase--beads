@@ -19,7 +19,7 @@ tui-fixes: clear the stale Textual suggestion whenever the ghost is invalidated,
 
 ## Dependencies
 
-- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.12.5](sase-1cj.12.5.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

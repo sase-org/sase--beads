@@ -30,7 +30,7 @@ core-perf: make the perf test representative, measure production predict on real
 ## Dependencies
 
 - **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -43,3 +43,15 @@ core-perf: make the perf test representative, measure production predict on real
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8c97d9b`](https://github.com/sase-org/sase-core/commit/8c97d9b242e2d54f1914fa20db4bde41d6b5c512) | feat(prompt-prediction): add sase\_core prompt prediction module | [sase-1cj.12.3](sase-1cj.12.3.md) | 2026-09-30 10:39:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.12.3--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.12.3.md
+
+<!-- sase:referenced-by:end -->

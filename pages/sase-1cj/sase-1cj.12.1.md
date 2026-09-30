@@ -26,7 +26,7 @@ core-correctness: block structural and alternation tails at query time, treat al
 [2026-09-30T10:29:23Z · sase-1d6.2] UNLANDED PRIOR ATTEMPT: agent sase-1cj.12.1's completion note (bead note #1) describes verified sase-core work that NEVER LANDED. The host commit finalizer failed on the sase-core stitch with missing_bead_action (the pinned-sibling commit regression; fix is epic sase-1d6 phase sase-1d6.1). No commit from this run exists in sase or sase-core origin/master. Salvage held workspace sase_14 (claim ace(run)-260929_183051) read-only; nothing there was staged, committed, moved, or cleaned.
 
 Attached patch (verified with git apply --check against a pristine checkout of the base SHA):
-@attachment:sase-1cj.12.1-core.patch
+🔒 sase-1cj.12.1-core.patch
 - repo: sase-core, base SHA 1e51ff3ce9c53ee1a4bc9f52c3642ac4eea8f423, 7 files, 35280 bytes (6 prompt_prediction paths + sase_core_py prompt_prediction tests). sase side was clean.
 - intended sase-core commit message: fix(prompt-prediction): block structural tails, count support once, real origin inventory
 
@@ -43,7 +43,7 @@ Instructions to the relaunched agent: apply onto current origin/master with git 
 ## Dependencies
 
 - **Blocks:** [sase-1cj.12.3](sase-1cj.12.3.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

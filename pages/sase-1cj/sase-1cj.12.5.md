@@ -14,7 +14,7 @@ visual-verify: add the context-ranking and auto-mode goldens, re-verify the next
 ## Dependencies
 
 - **Depends on:** [sase-1cj.12.2](sase-1cj.12.2.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [sase-1cj.12.4](sase-1cj.12.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.12.4](sase-1cj.12.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

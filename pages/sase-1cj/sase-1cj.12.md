@@ -31,6 +31,8 @@ The next-word prediction feature from epic sase-1cj meets its own contract. The 
 
 [2026-09-30T13:17:57Z · sase-1co.land] DISCOVERED ISSUE (sase_12 conflict-repair agent, 2026-09-30, master 28ae626363 / ff39548590; linked sase-core 7806f58): tools/validate_sase_core_rs prompt-prediction predict probe now fails deterministically, so `sase tool run check` dies in `_setup` (Justfile line 137/141) before any lint or test stage whenever sase_core_rs is rebuilt. Probe (3-row 'help me implement the ...' corpus, confidence=balanced, text_before_cursor='help me implement') expects confident=True and ghost[:1]==['the'], but the binding returns confident=False, ghost=[] with candidate 'the' (probability 1.0, support 3, source_shares history 0.5/project 0.5). Caused by sase-core cfc6385 (fix(prompt_prediction): salvage unlanded core-correctness patch, sase-1cj.12.1), which both sase-core pins 3bb901b and 6dc38b4 contain; the validator was not updated with it. Repro: .venv/bin/python tools/validate_sase_core_rs --sase-core-dir sase/repos/linked/sase-core. Fix: update the probe expectation (or corpus) to the new balanced-confidence gating, coordinated with sase-1cj.12.4's preset recalibration. ToolRun 807841f4d4bfd2a3c765ca4b74150dc1.
 
+[2026-09-30T15:50:16Z · sase-1d8.land] DISCOVERED ISSUE corroboration from sase-1d8.1 note #1, sase-1d8.3 note #1, and sase-1d8.4 note #1: each independently found the same clean-base tools/validate_sase_core_rs prompt-prediction probe mismatch (balanced returns confident=False, ghost=[] where validator expects True/[the]). Existing note #2 on this active epic identifies the core calibration change and directs coordination with phase sase-1cj.12.4; no separate task.
+
 ## Agents
 
 | Agent | Bead | Commits |
