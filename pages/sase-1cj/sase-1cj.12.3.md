@@ -13,7 +13,7 @@ core-perf: make the perf test representative, measure production predict on real
 
 ## Dependencies
 
-- **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.12.4](sase-1cj.12.4.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/prompt_next_word_prediction.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/prompt_next_word_prediction.md
 
@@ -56,7 +56,7 @@ flowchart TD
     n2["sase-1cj.10: Cross-machine prompt archive as a low-weight source [closed]"]
     n3["sase-1cj.11: Opt-in automatic ghost at word boundaries [closed]"]
     n4["sase-1cj.12: Finish next-word prediction correctness, budgets, and calibration [in_progress]"]
-    n5["sase-1cj.12.1: Core tokenizer, support, and origin correctness in sase-core [in_progress]"]
+    n5["sase-1cj.12.1: Core tokenizer, support, and origin correctness in sase-core [closed]"]
     n6["sase-1cj.12.2: TUI ghost, ranking gate, warm-cache fixes, and epic-symbol cleanup [closed]"]
     n7["sase-1cj.12.3: Meet the prompt prediction latency, compile, and memory budgets [in_progress]"]
     n8["sase-1cj.12.4: Recalibrate presets and settle the archive default [in_progress]"]
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.1/README.md) | [sase-1cj.1](sase-1cj.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.10.md) | [sase-1cj.10](sase-1cj.10.md) | 1 |
 | [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 1 |
-| [bbugyi200.athena.sase-1cj.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.1/README.md) | [sase-1cj.12.1](sase-1cj.12.1.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.1/README.md) | [sase-1cj.12.1](sase-1cj.12.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md) | [sase-1cj.12.2](sase-1cj.12.2.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.3/README.md) | [sase-1cj.12.3](sase-1cj.12.3.md) | 0 |
 | [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 0 |
@@ -148,6 +148,7 @@ flowchart TD
 | sase-core | [`sase-core@1ad57ea`](https://github.com/sase-org/sase-core/commit/1ad57ea426fe400da427042294d815259744453a) | feat(prompt-prediction): add per-point novel coverage and precision to sweep wire | [sase-1cj.9](sase-1cj.9.md) | 2026-09-29 14:53:54 EDT |
 | sase | [`5480df7`](https://github.com/sase-org/sase/commit/5480df7af80ebd35684416f54a408a79f2d4dbb2) | feat(sase-1cj.10): cross-machine prompt archive as low-weight opt-in source | [sase-1cj.10](sase-1cj.10.md) | 2026-09-29 17:52:30 EDT |
 | sase | [`e0256a9`](https://github.com/sase-org/sase/commit/e0256a98025b1b8119590e8b2e6e41856272aa11) | fix(tui): prompt prediction ghost, ranking gate, cache and archive fixes | [sase-1cj.12.2](sase-1cj.12.2.md) | 2026-09-29 18:51:32 EDT |
+| sase-core | [`sase-core@cfc6385`](https://github.com/sase-org/sase-core/commit/cfc6385b8a86e9e625c6e85fba37cb16fec86c8f) | fix(prompt\_prediction): salvage unlanded core-correctness patch onto origin/master | [sase-1cj.12.1](sase-1cj.12.1.md) | 2026-09-30 07:24:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -155,14 +156,18 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1cj.2][1] | Need epic context for phase | 1 |
-| read-by | [agent:sase-1cj.7][2] | Verify parent epic is still open before re-keying symbols | 1 |
-| read-by | [agent:sase-1cj.8--1][3] | Need the epic scope to check causal link for terminology failure | 1 |
-| read-by | [agent:sase-1cj.9--1][4] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
+| read-by | [agent:research.2y.cld][1] | research prompt-history origin design context for filtering swarm/routine prompts | 1 |
+| read-by | [agent:research.2y.gem][2] | Research prompt history context and design rationale | 1 |
+| read-by | [agent:sase-1cj.2][3] | Need epic context for phase | 1 |
+| read-by | [agent:sase-1cj.7][4] | Verify parent epic is still open before re-keying symbols | 1 |
+| read-by | [agent:sase-1cj.8--1][5] | Need the epic scope to check causal link for terminology failure | 1 |
+| read-by | [agent:sase-1cj.9--1][6] | Checking bead status to resolve epic-symbol exemptions for replay-harness close | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2y.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2y.gem/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.7/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.8.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.9.md
 
 <!-- sase:referenced-by:end -->

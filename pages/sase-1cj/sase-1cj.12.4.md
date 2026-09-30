@@ -13,7 +13,7 @@ recalibrate: re-run the prequential replay under the corrected support semantics
 
 ## Dependencies
 
-- **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cj.12.1](sase-1cj.12.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.12.2](sase-1cj.12.2.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [sase-1cj.12.3](sase-1cj.12.3.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cj.12.5](sase-1cj.12.5.md) ◐ · ⧖ 2026-09-29

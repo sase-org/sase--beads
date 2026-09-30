@@ -33,3 +33,15 @@ tui-fixes: clear the stale Textual suggestion whenever the ghost is invalidated,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e0256a9`](https://github.com/sase-org/sase/commit/e0256a98025b1b8119590e8b2e6e41856272aa11) | fix(tui): prompt prediction ghost, ranking gate, cache and archive fixes | [sase-1cj.12.2](sase-1cj.12.2.md) | 2026-09-29 18:51:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.12.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md
+
+<!-- sase:referenced-by:end -->
