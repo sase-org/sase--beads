@@ -34,3 +34,15 @@ fetch: lazily fetch under the auto-fetch cap for read, show, and path, render ev
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`978f6eb`](https://github.com/sase-org/sase/commit/978f6ebdb6b0a3c42e5aaefa7be8841add484192) | feat(bead): lazy attachment fetch with availability badges and doctor check | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 2026-09-29 19:57:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.5.1.4--1][1] | Confirm closed state before final declaration | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.4.md
+
+<!-- sase:referenced-by:end -->

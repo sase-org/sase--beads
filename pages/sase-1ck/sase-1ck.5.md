@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ck](README.md) / sase-1ck.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0tv](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0tv.md) · **Assignee:** `sase-1ck.5` · **Size:** large
-**Created:** 2026-09-29 08:13:41 EDT
+**Created:** 2026-09-29 08:13:41 EDT · **Closed:** 2026-09-29 20:29:40 EDT
 **Plan:** [202609/bead\_note\_attachments.md](https://github.com/sase-org/sase--plans/blob/main/202609/bead_note_attachments.md)
 
 ## Description
@@ -14,6 +14,8 @@ shared_store: add the reserved private attachments-private sidecar role (repo <p
 ## Notes
 
 [2026-09-29T14:02:36Z · 33] SCOPE AMENDMENT (2026-09-29, research:202609/bead_attachment_audience/bead_attachment_audience.md §8): the role is now attachments-private (repo <project>--attachments-private), and the plain attachments name is reserved for a future public store; sase-github --private creation and visibility-reporting preflight landed separately, so don't reimplement them, only add the sase-side preflight test; the store stays private-only, and phases never create real GitHub repos; the epic plan's Phase 5 carries the details.
+
+[2026-09-30T00:30:36Z · sase-1ck.5.1.land] Phase verification (tale lazy_attachment_discovery closeout): epic sase-1ck.5.1 work matches this phase scope — hidden bare attachments-private sidecar, git blob store, placement with -L / pre-publication upload / outbox / attachment push, capped lazy fetch (now fully lazy on show/read via discover flag), availability badges, and the project.attachment_store doctor check. Phase auto-closed with the epic close; parent epic sase-1ck left open for its land agent.
 
 ## Dependencies
 

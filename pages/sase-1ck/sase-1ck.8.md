@@ -33,3 +33,15 @@ tui: add an attachments block with thumbnails and badges to Beads pane note deta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6335123`](https://github.com/sase-org/sase/commit/633512313fd41022c63562f1189ed2342c2f314e) | feat(tui): beads pane attachments and add-note authoring UX | [sase-1ck.8](sase-1ck.8.md) | 2026-09-29 20:23:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.8--1][1] | finish phase work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md
+
+<!-- sase:referenced-by:end -->
