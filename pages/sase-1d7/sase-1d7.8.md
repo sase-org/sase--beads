@@ -23,7 +23,7 @@ ack-pipeline: delete the synchronous post-ack store read, apply ack outcomes to 
 - **Depends on:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.6](sase-1d7.6.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.7](sase-1d7.7.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.9](sase-1d7.9.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -36,3 +36,15 @@ ack-pipeline: delete the synchronous post-ack store read, apply ack outcomes to 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f57024d`](https://github.com/sase-org/sase/commit/f57024dbdc98e0c481e6eabda3d01e217e21d314) | feat(agents): unread ack pipeline with coalescing writer and cached-snapshot completion | [sase-1d7.8](sase-1d7.8.md) | 2026-09-30 13:35:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.8.md
+
+<!-- sase:referenced-by:end -->

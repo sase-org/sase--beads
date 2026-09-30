@@ -27,7 +27,7 @@ Unread acknowledgments (`,u`, `,j`/`,J`, row-select) are never reverted by anoth
 | [sase-1d7.6](sase-1d7.6.md) | One batched unread chrome helper with no full rebuilds | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d7.7](sase-1d7.7.md) | Precise bulk-ack scope and a time-bound explicit undo | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1d7.8](sase-1d7.8.md) | Read-free ack completion and a coalescing ack writer | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1d7.9](sase-1d7.9.md) | Cheap unread jumps and footer probe | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1d7.9](sase-1d7.9.md) | Cheap unread jumps and footer probe | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n10["sase-1d7.6: One batched unread chrome helper with no full rebuilds [closed]"]
     n11["sase-1d7.7: Precise bulk-ack scope and a time-bound explicit undo [closed]"]
     n12["sase-1d7.8: Read-free ack completion and a coalescing ack writer [closed]"]
-    n13["sase-1d7.9: Cheap unread jumps and footer probe [in_progress]"]
+    n13["sase-1d7.9: Cheap unread jumps and footer probe [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.6/README.md) | [sase-1d7.6](sase-1d7.6.md) | 1 |
 | [bbugyi200.athena.sase-1d7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.7/README.md) | [sase-1d7.7](sase-1d7.7.md) | 1 |
 | [bbugyi200.athena.sase-1d7.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.8.md) | [sase-1d7.8](sase-1d7.8.md) | 1 |
-| [bbugyi200.athena.sase-1d7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.9/README.md) | [sase-1d7.9](sase-1d7.9.md) | 0 |
+| [bbugyi200.athena.sase-1d7.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.9.md) | [sase-1d7.9](sase-1d7.9.md) | 1 |
 | [bbugyi200.athena.sase-1d7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.land/README.md) | [sase-1d7](README.md) | 0 |
 
 ## Commits
@@ -117,3 +117,4 @@ flowchart TD
 | sase | [`30a04f9`](https://github.com/sase-org/sase/commit/30a04f9a31beb60da60f808611f680f045e1733e) | feat(agents): one batched unread chrome helper with no full rebuilds | [sase-1d7.6](sase-1d7.6.md) | 2026-09-30 11:59:48 EDT |
 | sase | [`af0ac9d`](https://github.com/sase-org/sase/commit/af0ac9d6acf9852276c6af6ccae220cb61ec10c6) | feat(agents): precise bulk-ack scope and time-bound explicit undo (sase-1d7.7) | [sase-1d7.7](sase-1d7.7.md) | 2026-09-30 12:40:22 EDT |
 | sase | [`f57024d`](https://github.com/sase-org/sase/commit/f57024dbdc98e0c481e6eabda3d01e217e21d314) | feat(agents): unread ack pipeline with coalescing writer and cached-snapshot completion | [sase-1d7.8](sase-1d7.8.md) | 2026-09-30 13:35:00 EDT |
+| sase | [`9f98939`](https://github.com/sase-org/sase/commit/9f989395b5f158a1a0b11dddfde36c3a7dedca58) | feat(agents): cheap unread jumps and footer probe (sase-1d7.9) | [sase-1d7.9](sase-1d7.9.md) | 2026-09-30 14:54:35 EDT |
