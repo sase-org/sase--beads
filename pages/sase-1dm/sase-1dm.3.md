@@ -20,7 +20,7 @@ core-stats: in sase-core, add the read-only tool_run_stats_report function and b
 ## Dependencies
 
 - **Depends on:** [sase-1dm.1](sase-1dm.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dm.4](sase-1dm.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dm.4](sase-1dm.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ core-stats: in sase-core, add the read-only tool_run_stats_report function and b
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6e23783`](https://github.com/sase-org/sase-core/commit/6e23783d04da778b3be1d5ae6fc3b3e81cf1c830) | feat(tool-run): implement core-stats report for sase-1dm.3 | [sase-1dm.3](sase-1dm.3.md) | 2026-09-30 17:31:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dm.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.3/README.md
+
+<!-- sase:referenced-by:end -->

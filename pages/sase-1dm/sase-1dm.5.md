@@ -14,7 +14,7 @@ stats-cli: pin the core, add the Python facade and the sase tool stats subcomman
 ## Dependencies
 
 - **Depends on:** [sase-1dm.2](sase-1dm.2.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1dm.4](sase-1dm.4.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dm.4](sase-1dm.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

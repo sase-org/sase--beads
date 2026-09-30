@@ -20,4 +20,4 @@ record-demand: pin the core, capture provider and ceiling context at run start, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1dm.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.2/README.md) | [sase-1dm.2](sase-1dm.2.md) | 0 |
+| [bbugyi200.athena.sase-1dm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.2.md) | [sase-1dm.2](sase-1dm.2.md) | 0 |
