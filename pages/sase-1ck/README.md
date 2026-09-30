@@ -201,7 +201,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
 | [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 1 |
 | [bbugyi200.athena.sase-1ck.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md) | [sase-1ck.9](sase-1ck.9.md) | 1 |
-| [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 2 |
+| [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 3 |
 
 ## Commits
 
@@ -229,6 +229,7 @@ flowchart TD
 | sase | [`3da6e3e`](https://github.com/sase-org/sase/commit/3da6e3ebb8b7dcba1f0d583300ad420d5dbc3058) | feat(beads): remove bead\_note\_attachments beta flag, attachments GA | [sase-1ck.10](sase-1ck.10.md) | 2026-09-29 23:29:58 EDT |
 | sase-core | [`sase-core@3bb901b`](https://github.com/sase-org/sase-core/commit/3bb901b045b242915c8369d70ea9ed0aa4b31b66) | fix(core-attachments): accept repeated same-text attachment tokens | [sase-1ck](README.md) | 2026-09-30 08:37:33 EDT |
 | sase | [`28ae626`](https://github.com/sase-org/sase/commit/28ae626363bcf45afd7351c2bd9f868a76303b32) | feat(bead-attachments): land note-attachment fixes, docs, and proving tests | [sase-1ck](README.md) | 2026-09-30 08:42:21 EDT |
+| sase--plans | [`sase--plans@2ba64c0`](https://github.com/sase-org/sase--plans/commit/2ba64c0908c1cd93a24be5cee8c660be47e652f1) | chore(plans): mark bead note attachments epic and its lander tale done | [sase-1ck](README.md) | 2026-09-30 08:46:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
