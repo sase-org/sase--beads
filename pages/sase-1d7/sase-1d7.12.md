@@ -27,10 +27,11 @@ core-unread-ack-index: move completion acks and the unread completion index into
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d7.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.12.md) | [sase-1d7.12](sase-1d7.12.md) | 1 |
+| [bbugyi200.athena.sase-1d7.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.12.md) | [sase-1d7.12](sase-1d7.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@28befcb`](https://github.com/sase-org/sase-core/commit/28befcb9e411d2e5f8a8fd2405186cd3b393631d) | feat(notifications): store generations, ack API, and lean unread index | [sase-1d7.12](sase-1d7.12.md) | 2026-09-30 17:01:15 EDT |
+| sase | [`4d2fa14`](https://github.com/sase-org/sase/commit/4d2fa14af32cde79226b678f673863a805a5687c) | feat(notifications): Rust ack API, lean unread index, and store generations | [sase-1d7.12](sase-1d7.12.md) | 2026-09-30 17:04:53 EDT |
