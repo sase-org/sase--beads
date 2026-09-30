@@ -20,13 +20,19 @@ canonical-text: add an ingress-owned history_text to the launcher so single-slot
 ## Dependencies
 
 - **Depends on:** [sase-1d8.1](sase-1d8.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d8.3](sase-1d8.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d8.3](sase-1d8.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.2/README.md) | [sase-1d8.2](sase-1d8.2.md) | 0 |
+| [bbugyi200.athena.sase-1d8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.2/README.md) | [sase-1d8.2](sase-1d8.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ce0f618`](https://github.com/sase-org/sase/commit/ce0f61846ca3489bec69d4d40fe4b65a7ea0e048) | feat(history): record each submission's canonical text once | [sase-1d8.2](sase-1d8.2.md) | 2026-09-30 10:04:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
