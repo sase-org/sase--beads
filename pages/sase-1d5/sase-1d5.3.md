@@ -13,7 +13,7 @@ audience_cli: create the public_bead_attachments beta flag, gather provenance fa
 
 ## Dependencies
 
-- **Depends on:** [sase-1d5.1](sase-1d5.1.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.1](sase-1d5.1.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.4](sase-1d5.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
