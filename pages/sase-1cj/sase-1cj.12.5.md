@@ -33,3 +33,15 @@ visual-verify: add the context-ranking and auto-mode goldens, re-verify the next
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`69c4057`](https://github.com/sase-org/sase/commit/69c4057735bbe1e5edaa942ecabd0c6149f31b4c) | feat(ace-tui): add context-ranking and auto-mode next-word goldens, verify goldens, promote next-word docs | [sase-1cj.12.5](sase-1cj.12.5.md) | 2026-09-30 14:42:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cj.12.5][1] | Need phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.5/README.md
+
+<!-- sase:referenced-by:end -->
