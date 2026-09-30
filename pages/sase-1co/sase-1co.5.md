@@ -25,7 +25,13 @@ nvim-lsp-highlight: in sase-nvim, replace the Lua copy of the alternation gramma
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1co.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.5/README.md) | [sase-1co.5](sase-1co.5.md) | 0 |
+| [bbugyi200.athena.sase-1co.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.5/README.md) | [sase-1co.5](sase-1co.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-nvim | [`sase-nvim@332b7ab`](https://github.com/sase-org/sase-nvim/commit/332b7ab669e0e4dd918e5d0e5a0a1c7add75e09d) | feat(nvim): source alt-brace highlighting from LSP semantic tokens | [sase-1co.5](sase-1co.5.md) | 2026-09-29 17:40:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
