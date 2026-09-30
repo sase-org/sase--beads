@@ -17,7 +17,7 @@ core-demand: in sase-core, add the ToolRunDemandWire family, a demand_json runs 
 
 ## Dependencies
 
-- **Blocks:** [sase-1dm.2](sase-1dm.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dm.2](sase-1dm.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dm.3](sase-1dm.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
