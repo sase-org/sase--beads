@@ -24,7 +24,7 @@ unread-instrumentation: add tui_trace spans and SASE_TUI_PERF key-to-paint captu
 ## Dependencies
 
 - **Blocks:** [sase-1d7.10](sase-1d7.10.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.11](sase-1d7.11.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.11](sase-1d7.11.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.4](sase-1d7.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents

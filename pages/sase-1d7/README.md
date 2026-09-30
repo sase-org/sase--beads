@@ -17,7 +17,7 @@ Unread acknowledgments (`,u`, `,j`/`,J`, row-select) are never reverted by anoth
 |---|---|---|---|---|---:|---:|
 | [sase-1d7.1](sase-1d7.1.md) | Remote-attention reconciler writes only the rows it changed | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1d7.10](sase-1d7.10.md) | Cached wait-status maps and change-only runtime patching | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1d7.11](sase-1d7.11.md) | Cheap fleet reprojection signature computed before projection | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1d7.11](sase-1d7.11.md) | Cheap fleet reprojection signature computed before projection | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d7.12](sase-1d7.12.md) | Rust ack API, lean unread index, and store generations | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1d7.13](sase-1d7.13.md) | Notification store retention and wait-check payload diet | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1d7.2](sase-1d7.2.md) | Atomic field-scoped reconcile write in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 2 |
@@ -36,7 +36,7 @@ flowchart TD
     n0["sase-1d7: Make unread acks stick and keep the Agents TUI responsive [in_progress]"]
     n1["sase-1d7.1: Remote-attention reconciler writes only the rows it changed [closed]"]
     n2["sase-1d7.10: Cached wait-status maps and change-only runtime patching [closed]"]
-    n3["sase-1d7.11: Cheap fleet reprojection signature computed before projection [in_progress]"]
+    n3["sase-1d7.11: Cheap fleet reprojection signature computed before projection [closed]"]
     n4["sase-1d7.12: Rust ack API, lean unread index, and store generations [in_progress]"]
     n5["sase-1d7.13: Notification store retention and wait-check payload diet [in_progress]"]
     n6["sase-1d7.2: Atomic field-scoped reconcile write in sase-core [closed]"]
@@ -89,7 +89,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1d7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.1.md) | [sase-1d7.1](sase-1d7.1.md) | 1 |
 | [bbugyi200.athena.sase-1d7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.10/README.md) | [sase-1d7.10](sase-1d7.10.md) | 1 |
-| [bbugyi200.athena.sase-1d7.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.11.md) | [sase-1d7.11](sase-1d7.11.md) | 0 |
+| [bbugyi200.athena.sase-1d7.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.11.md) | [sase-1d7.11](sase-1d7.11.md) | 1 |
 | [bbugyi200.athena.sase-1d7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.12/README.md) | [sase-1d7.12](sase-1d7.12.md) | 0 |
 | [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.13/README.md) | [sase-1d7.13](sase-1d7.13.md) | 0 |
 | [bbugyi200.athena.sase-1d7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.2.md) | [sase-1d7.2](sase-1d7.2.md) | 2 |
@@ -113,3 +113,4 @@ flowchart TD
 | sase | [`8a00076`](https://github.com/sase-org/sase/commit/8a00076f1ffa374e9d604ea9f66a4b1881906843) | feat(agents): add roster generation counter and cached projection index | [sase-1d7.4](sase-1d7.4.md) | 2026-09-30 10:12:01 EDT |
 | sase | [`11ba54b`](https://github.com/sase-org/sase/commit/11ba54b3816412c082c2ca9ba93ad672247782a0) | feat(agents): cache wait-status maps and change-only runtime patching | [sase-1d7.10](sase-1d7.10.md) | 2026-09-30 11:08:32 EDT |
 | sase | [`63c7eb5`](https://github.com/sase-org/sase/commit/63c7eb57e2aef04349519c39e8d5db37a7468a02) | feat(agents): sequence-fenced pending-ack overlay and monotonic snapshot cache | [sase-1d7.5](sase-1d7.5.md) | 2026-09-30 11:12:34 EDT |
+| sase | [`2fade65`](https://github.com/sase-org/sase/commit/2fade653babb1adf2deeb637c6b66cec392c4786) | feat(agents): cheap fleet reprojection signature checked before projection | [sase-1d7.11](sase-1d7.11.md) | 2026-09-30 11:49:38 EDT |

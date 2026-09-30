@@ -20,7 +20,7 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 ## Dependencies
 
 - **Blocks:** [sase-1d7.10](sase-1d7.10.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.11](sase-1d7.11.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.11](sase-1d7.11.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.3](sase-1d7.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
@@ -45,8 +45,10 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1d7.10][1] | Need roster generation design to build on | 1 |
 | read-by | [agent:sase-1d7.4--1][2] | Need phase scope and design file | 2 |
+| read-by | [agent:sase-1d7.5--1][3] | Need prior phase note on sase-core prompt-prediction skew for citation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.10/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.4.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.5.md
 
 <!-- sase:referenced-by:end -->
