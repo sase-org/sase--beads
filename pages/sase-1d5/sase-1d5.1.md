@@ -26,7 +26,7 @@ core_audience: add the optional descriptor visibility field (absent means privat
 [2026-09-30T10:28:33Z · sase-1d6.2] UNLANDED PRIOR ATTEMPT: agent sase-1d5.1's completion note (bead note #1) describes verified sase-core work that NEVER LANDED. The host commit finalizer failed on the sase-core stitch with missing_bead_action (the pinned-sibling commit regression; fix is epic sase-1d6 phase sase-1d6.1). No commit from this run exists in sase or sase-core origin/master. Salvage held workspace sase_13 (claim ace(run)-260930_015851) read-only; nothing there was staged, committed, moved, or cleaned.
 
 Attached patch (verified with git apply --check against a pristine checkout of the base SHA):
-@attachment:sase-1d5.1-core.patch
+🔒 sase-1d5.1-core.patch
 - repo: sase-core, base SHA a354a8a96c06443fb2ed47b5699e9ae2142862d7, 20 files, 111224 bytes (13 tracked modifications + 7 new files incl. note_attachment/audience.rs, public_objects.rs, scanner.rs, zones.rs). sase side was clean.
 - intended sase-core commit message: feat(attachments): core attachment audience policy and scanner
 - approved phase plan: plan:202609/core_attachment_audience.md

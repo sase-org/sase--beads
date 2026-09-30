@@ -20,7 +20,7 @@ presentation: add 🌐/🔒 audience badges in show, read, history, and attachme
 ## Dependencies
 
 - **Depends on:** [sase-1d5.4](sase-1d5.4.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.7](sase-1d5.7.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.7](sase-1d5.7.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
@@ -34,3 +34,15 @@ presentation: add 🌐/🔒 audience badges in show, read, history, and attachme
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`451b161`](https://github.com/sase-org/sase/commit/451b1619ea62fb6cb889223a9ad71e65e0457928) | feat(bead-attachments): audience badges, access states, and bead-page embeds (sase-1d5.6) | [sase-1d5.6](sase-1d5.6.md) | 2026-09-30 13:30:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d5.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.6/README.md
+
+<!-- sase:referenced-by:end -->
