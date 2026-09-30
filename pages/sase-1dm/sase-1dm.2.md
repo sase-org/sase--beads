@@ -20,7 +20,7 @@ record-demand: pin the core, capture provider and ceiling context at run start, 
 ## Dependencies
 
 - **Depends on:** [sase-1dm.1](sase-1dm.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dm.5](sase-1dm.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dm.5](sase-1dm.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ record-demand: pin the core, capture provider and ceiling context at run start, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1728715`](https://github.com/sase-org/sase/commit/17287152200ca521b19accc0fb32813335b76c5c) | feat(tool): record demand context, resource usage, and pytest worker grants (sase-1dm.2) | [sase-1dm.2](sase-1dm.2.md) | 2026-09-30 19:35:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dm.2--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.2.md
+
+<!-- sase:referenced-by:end -->

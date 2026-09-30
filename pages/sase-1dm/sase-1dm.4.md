@@ -18,7 +18,7 @@ core-stats-detail: in sase-core, extend the stats report with per-stage distribu
 ## Dependencies
 
 - **Depends on:** [sase-1dm.3](sase-1dm.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dm.5](sase-1dm.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dm.5](sase-1dm.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
