@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.2.md) | [sase-1ck.5.1.2](sase-1ck.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.5.1.3/README.md) | [sase-1ck.5.1.3](sase-1ck.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1ck.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.4.md) | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.land.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1ck.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.land.md) | [sase-1ck.5.1](sase-1ck.5.1.md) | 2 |
 | [bbugyi200.athena.sase-1ck.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.6/README.md) | [sase-1ck.6](sase-1ck.6.md) | 0 |
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
 | [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 1 |
@@ -165,6 +165,7 @@ flowchart TD
 | sase | [`978f6eb`](https://github.com/sase-org/sase/commit/978f6ebdb6b0a3c42e5aaefa7be8841add484192) | feat(bead): lazy attachment fetch with availability badges and doctor check | [sase-1ck.5.1.4](sase-1ck.5.1.4.md) | 2026-09-29 19:57:14 EDT |
 | sase | [`6335123`](https://github.com/sase-org/sase/commit/633512313fd41022c63562f1189ed2342c2f314e) | feat(tui): beads pane attachments and add-note authoring UX | [sase-1ck.8](sase-1ck.8.md) | 2026-09-29 20:23:51 EDT |
 | sase | [`5a4b979`](https://github.com/sase-org/sase/commit/5a4b979ce89a5c315c8e71520d7306b8a4a8227d) | feat(bead-attachments): lazy attachment-store discovery on show and read | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:36:35 EDT |
+| sase--plans | [`sase--plans@c50baf6`](https://github.com/sase-org/sase--plans/commit/c50baf643cdfa830afc01f46f1cbfb0098dfc249) | docs(plans): mark private\_attachment\_store plan done | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:40:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
