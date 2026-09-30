@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cu.1/README.md) | [sase-1cu.1](sase-1cu.1.md) | 1 |
 | [bbugyi200.athena.sase-1cu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cu.2.md) | [sase-1cu.2](sase-1cu.2.md) | 1 |
 | [bbugyi200.athena.sase-1cu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cu.3/README.md) | [sase-1cu.3](sase-1cu.3.md) | 1 |
-| [bbugyi200.athena.sase-1cu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cu.land.md) | [sase-1cu](README.md) | 1 |
+| [bbugyi200.athena.sase-1cu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cu.land.md) | [sase-1cu](README.md) | 2 |
 
 ## Commits
 
@@ -57,6 +57,7 @@ flowchart TD
 | sase | [`c44ec32`](https://github.com/sase-org/sase/commit/c44ec32abe440ad11632ead7179c0f1f0c394e7b) | feat(ace): snippet location-first save flow with picker and rename defaults | [sase-1cu.3](sase-1cu.3.md) | 2026-09-29 20:54:09 EDT |
 | sase | [`3e03e0a`](https://github.com/sase-org/sase/commit/3e03e0add93766f27b9acea722c98b6ad9e3e183) | feat(mini-xprompt): route mini-xprompt flow through location-first picker | [sase-1cu.2](sase-1cu.2.md) | 2026-09-29 21:48:46 EDT |
 | sase | [`4b89ab8`](https://github.com/sase-org/sase/commit/4b89ab8108dedb4db432343761d2147784866867) | fix(ace): close snippet picker on origin loss and surface reload errors | [sase-1cu](README.md) | 2026-09-29 22:24:35 EDT |
+| sase--plans | [`sase--plans@09fe966`](https://github.com/sase-org/sase--plans/commit/09fe9662cd677bb6518ad4910df9f857ba070d09) | docs(plans): mark save\_location\_picker plan done for sase-1cu | [sase-1cu](README.md) | 2026-09-29 22:27:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
