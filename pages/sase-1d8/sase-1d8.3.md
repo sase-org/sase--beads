@@ -19,4 +19,4 @@ tui-provenance: keep the pre-remodel prompt on PendingLaunch and send it as hist
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.3/README.md) | [sase-1d8.3](sase-1d8.3.md) | 0 |
+| [bbugyi200.athena.sase-1d8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.3.md) | [sase-1d8.3](sase-1d8.3.md) | 0 |
