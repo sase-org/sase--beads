@@ -21,7 +21,7 @@ boundary-ctrl-t: at a prose boundary with no token, Ctrl+T now runs the explicit
 
 ## Dependencies
 
-- **Blocks:** [sase-1dq.4](sase-1dq.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dq.4](sase-1dq.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -34,3 +34,15 @@ boundary-ctrl-t: at a prose boundary with no token, Ctrl+T now runs the explicit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4094a63`](https://github.com/sase-org/sase/commit/4094a6391a8c1645cdf3d4ba0233d57eae481d38) | feat(tui): boundary Ctrl+T requests next word, recent files move to Ctrl+G r (sase-1dq.3) | [sase-1dq.3](sase-1dq.3.md) | 2026-09-30 18:28:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.3.md
+
+<!-- sase:referenced-by:end -->

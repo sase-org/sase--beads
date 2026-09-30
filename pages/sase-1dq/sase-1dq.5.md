@@ -13,7 +13,7 @@ mid-sentence-peek: where an inline ghost would shift prose, show a styled violet
 
 ## Dependencies
 
-- **Depends on:** [sase-1dq.4](sase-1dq.4.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dq.4](sase-1dq.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dq.6](sase-1dq.6.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

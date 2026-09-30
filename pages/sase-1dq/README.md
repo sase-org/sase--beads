@@ -18,7 +18,7 @@ Confident next-word guesses appear automatically as you type in the prompt input
 | [sase-1dq.1](sase-1dq.1.md) | Gated current-word completion in the sase-core prediction engine | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dq.2](sase-1dq.2.md) | Replay calibration, Python wire, bench, and core pin for word completion | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dq.3](sase-1dq.3.md) | Ctrl+T at a word boundary requests next words; recent files move to Ctrl+G r | ✓ closed | small | 2026-09-30 | 1 | 1 |
-| [sase-1dq.4](sase-1dq.4.md) | Inline ghost placement before closing punctuation, calmer hints, and module split | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dq.4](sase-1dq.4.md) | Inline ghost placement before closing punctuation, calmer hints, and module split | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dq.5](sase-1dq.5.md) | Mid-sentence next-word peek in the prompt border | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dq.6](sase-1dq.6.md) | Mid-word autosuggest from the core word completion | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dq.7](sase-1dq.7.md) | Autosuggest in the gate input panel note editor | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -32,7 +32,7 @@ flowchart TD
     n1["sase-1dq.1: Gated current-word completion in the sase-core prediction engine [in_progress]"]
     n2["sase-1dq.2: Replay calibration, Python wire, bench, and core pin for word completion [in_progress]"]
     n3["sase-1dq.3: Ctrl+T at a word boundary requests next words; recent files move to Ctrl+G r [closed]"]
-    n4["sase-1dq.4: Inline ghost placement before closing punctuation, calmer hints, and module split [in_progress]"]
+    n4["sase-1dq.4: Inline ghost placement before closing punctuation, calmer hints, and module split [closed]"]
     n5["sase-1dq.5: Mid-sentence next-word peek in the prompt border [in_progress]"]
     n6["sase-1dq.6: Mid-word autosuggest from the core word completion [in_progress]"]
     n7["sase-1dq.7: Autosuggest in the gate input panel note editor [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1dq.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.1.md) | [sase-1dq.1](sase-1dq.1.md) | 0 |
 | [bbugyi200.athena.sase-1dq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.2/README.md) | [sase-1dq.2](sase-1dq.2.md) | 0 |
 | [bbugyi200.athena.sase-1dq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.3.md) | [sase-1dq.3](sase-1dq.3.md) | 1 |
-| [bbugyi200.athena.sase-1dq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.4/README.md) | [sase-1dq.4](sase-1dq.4.md) | 0 |
+| [bbugyi200.athena.sase-1dq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.4/README.md) | [sase-1dq.4](sase-1dq.4.md) | 1 |
 | [bbugyi200.athena.sase-1dq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.5/README.md) | [sase-1dq.5](sase-1dq.5.md) | 0 |
 | [bbugyi200.athena.sase-1dq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.6/README.md) | [sase-1dq.6](sase-1dq.6.md) | 0 |
 | [bbugyi200.athena.sase-1dq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md) | [sase-1dq.7](sase-1dq.7.md) | 0 |
@@ -73,3 +73,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4094a63`](https://github.com/sase-org/sase/commit/4094a6391a8c1645cdf3d4ba0233d57eae481d38) | feat(tui): boundary Ctrl+T requests next word, recent files move to Ctrl+G r (sase-1dq.3) | [sase-1dq.3](sase-1dq.3.md) | 2026-09-30 18:28:44 EDT |
+| sase | [`7b3d47c`](https://github.com/sase-org/sase/commit/7b3d47c3ea9a0c43d8c179658fcd3b0179397951) | feat(ace-tui): next-word ghost placement, display mixin and prompt integration | [sase-1dq.4](sase-1dq.4.md) | 2026-09-30 19:37:33 EDT |
