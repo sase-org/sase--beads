@@ -13,7 +13,7 @@ tui: show 🌐/🔒 on beads-pane chips. In the add-note modal, run the audience
 
 ## Dependencies
 
-- **Depends on:** [sase-1d5.6](sase-1d5.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.6](sase-1d5.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

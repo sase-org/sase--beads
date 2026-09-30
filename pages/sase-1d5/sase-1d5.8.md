@@ -14,8 +14,8 @@ ga: remove public_bead_attachments by deleting its off branches and closing its 
 ## Dependencies
 
 - **Depends on:** [sase-1d5.2](sase-1d5.2.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [sase-1d5.5](sase-1d5.5.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1d5.6](sase-1d5.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.5](sase-1d5.5.md) ✓ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.6](sase-1d5.6.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d5.7](sase-1d5.7.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

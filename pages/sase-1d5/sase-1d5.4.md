@@ -16,6 +16,8 @@
 | related | [bead:sase-1da][1] | sase-1d5.4 rewrites discover_stores and hidden_clone_path per role; honor the disabled flag in that new per-role discovery |
 | related | [bead:sase-1db][2] | sase-1d5 adds the anonymous remote_visibility probe this check should reuse for the attachments-private remote |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1da/README.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1db/README.md
 
@@ -36,8 +38,8 @@ public_store: spike the page-embed path, then add the reserved hidden public att
 ## Dependencies
 
 - **Depends on:** [sase-1d5.3](sase-1d5.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.5](sase-1d5.5.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.6](sase-1d5.6.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.5](sase-1d5.5.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.6](sase-1d5.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -50,3 +52,15 @@ public_store: spike the page-embed path, then add the reserved hidden public att
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`80f64cc`](https://github.com/sase-org/sase/commit/80f64cc20b598f10f8c8df01dc8a224eead45210) | feat(bead-attachments): public attachments sidecar, routing, and anonymous reads (sase-1d5.4) | [sase-1d5.4](sase-1d5.4.md) | 2026-09-30 12:44:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d5.4--1][1] | confirm closure for handoff | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.4.md
+
+<!-- sase:referenced-by:end -->
