@@ -23,7 +23,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/midword_alternation.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/midword_alternation.md
 
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1co.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.3/README.md) | [sase-1co.3](sase-1co.3.md) | 1 |
 | [bbugyi200.athena.sase-1co.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1co.4.md) | [sase-1co.4](sase-1co.4.md) | 1 |
 | [bbugyi200.athena.sase-1co.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.5/README.md) | [sase-1co.5](sase-1co.5.md) | 1 |
-| [bbugyi200.athena.sase-1co.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.land/README.md) | [sase-1co](README.md) | 1 |
+| [bbugyi200.athena.sase-1co.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.land/README.md) | [sase-1co](README.md) | 2 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | sase | [`0266fe4`](https://github.com/sase-org/sase/commit/0266fe4a1227c2a96293828b520b5cd0f1d54a15) | feat(xprompt): mid-word alternation grammar mirror, highlight adapter, and docs | [sase-1co.3](sase-1co.3.md) | 2026-09-29 17:59:08 EDT |
 | sase | [`f02c327`](https://github.com/sase-org/sase/commit/f02c3273e455d36cfa2ef1ff182019d554497a4f) | feat(tui): mid-word alternation editing for alt spans | [sase-1co.4](sase-1co.4.md) | 2026-09-29 18:22:23 EDT |
 | sase-core | [`sase-core@6dc38b4`](https://github.com/sase-org/sase-core/commit/6dc38b492d0bf0fc28e211bd700859fb9fc04af4) | feat(alternation): scan openers after literal { and adjacent paren openers | [sase-1co](README.md) | 2026-09-30 08:51:19 EDT |
+| sase | [`ff39548`](https://github.com/sase-org/sase/commit/ff395485902326c11465ffeacee9e791a96aa74f) | feat(xprompt): alternation parity after literal { and adjacent paren openers | [sase-1co](README.md) | 2026-09-30 09:13:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -119,9 +120,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0ub--1][1] | Verify attachment span fix renders colored bead detail | 1 |
-| read-by | [agent:sase-1d6.land][2] | Need salvage notes, reopen notes, and current status of the five recovered beads | 1 |
+| read-by | [agent:sase-1co.land][2] | Need the parent link | 2 |
+| read-by | [agent:sase-1d6.land][3] | Need salvage notes, reopen notes, and current status of the five recovered beads | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ub.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d6.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d6.land/README.md
 
 <!-- sase:referenced-by:end -->

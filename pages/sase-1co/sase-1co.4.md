@@ -41,8 +41,10 @@ tui-alt-editing: in sase, make brace padding and `|` separator normalization rec
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1co.4--1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1co.5][2] | Need TUI editing rules to mirror in nvim | 1 |
+| read-by | [agent:sase-1co.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1co.4.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1co.land/README.md
 
 <!-- sase:referenced-by:end -->
