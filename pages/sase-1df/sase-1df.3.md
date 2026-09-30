@@ -14,7 +14,7 @@ assist: combine catalog and scope into ranked, fuzzy-matched candidates with ava
 ## Dependencies
 
 - **Depends on:** [sase-1df.1](sase-1df.1.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [sase-1df.2](sase-1df.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.2](sase-1df.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.4](sase-1df.4.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.5](sase-1df.5.md) ◐ · ⧖ 2026-09-30
 

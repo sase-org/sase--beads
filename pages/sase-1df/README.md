@@ -28,7 +28,7 @@ Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1df.1](sase-1df.1.md) | Rust Jinja catalog and wire types | ✓ closed | small | 2026-09-30 | 1 | 1 |
-| [sase-1df.2](sase-1df.2.md) | Rust Jinja tag scanner, slot classifier, and scope analysis | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1df.2](sase-1df.2.md) | Rust Jinja tag scanner, slot classifier, and scope analysis | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1df.3](sase-1df.3.md) | Rust Jinja completion, ranking, documentation, hover, and scope variables | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1df.4](sase-1df.4.md) | Python bindings for the Jinja engine | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1df.5](sase-1df.5.md) | sase-xprompt-lsp Jinja completion and hover | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -43,7 +43,7 @@ Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt
 flowchart TD
     n0["sase-1df: Jinja2 variable completion in the prompt input and the xprompt LSP [in_progress]"]
     n1["sase-1df.1: Rust Jinja catalog and wire types [closed]"]
-    n2["sase-1df.2: Rust Jinja tag scanner, slot classifier, and scope analysis [in_progress]"]
+    n2["sase-1df.2: Rust Jinja tag scanner, slot classifier, and scope analysis [closed]"]
     n3["sase-1df.3: Rust Jinja completion, ranking, documentation, hover, and scope variables [in_progress]"]
     n4["sase-1df.4: Python bindings for the Jinja engine [in_progress]"]
     n5["sase-1df.5: sase-xprompt-lsp Jinja completion and hover [in_progress]"]
@@ -76,7 +76,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1df.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.1/README.md) | [sase-1df.1](sase-1df.1.md) | 1 |
-| [bbugyi200.apollo.sase-1df.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.2/README.md) | [sase-1df.2](sase-1df.2.md) | 0 |
+| [bbugyi200.apollo.sase-1df.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.2/README.md) | [sase-1df.2](sase-1df.2.md) | 1 |
 | [bbugyi200.apollo.sase-1df.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.3/README.md) | [sase-1df.3](sase-1df.3.md) | 0 |
 | [bbugyi200.apollo.sase-1df.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.4/README.md) | [sase-1df.4](sase-1df.4.md) | 0 |
 | [bbugyi200.apollo.sase-1df.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.5/README.md) | [sase-1df.5](sase-1df.5.md) | 0 |
@@ -91,3 +91,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8f06984`](https://github.com/sase-org/sase-core/commit/8f0698476b50b3b6f571ab9e8537a79152118e7a) | feat(editor): add Rust Jinja catalog and wire types | [sase-1df.1](sase-1df.1.md) | 2026-09-30 09:18:04 EDT |
+| sase-core | [`sase-core@a969aad`](https://github.com/sase-org/sase-core/commit/a969aad267b237a332110f96b380b56d997bb7f7) | feat(editor): add Jinja tag scanning, completion context, and document scope | [sase-1df.2](sase-1df.2.md) | 2026-09-30 10:02:38 EDT |
