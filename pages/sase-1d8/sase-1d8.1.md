@@ -19,7 +19,7 @@ gate: make generated-origin writes a no-op in both history writers (no row, no p
 
 ## Dependencies
 
-- **Blocks:** [sase-1d8.2](sase-1d8.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d8.2](sase-1d8.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d8.4](sase-1d8.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
@@ -33,3 +33,15 @@ gate: make generated-origin writes a no-op in both history writers (no row, no p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ad7f3a1`](https://github.com/sase-org/sase/commit/ad7f3a19a352577ac1614609edf3b57eb9da4dec) | feat(history): gate generated-origin writes and record sase run ingress provenance | [sase-1d8.1](sase-1d8.1.md) | 2026-09-30 09:26:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d8.1--3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.1.md
+
+<!-- sase:referenced-by:end -->

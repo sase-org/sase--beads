@@ -13,7 +13,7 @@ tui-provenance: keep the pre-remodel prompt on PendingLaunch and send it as hist
 
 ## Dependencies
 
-- **Depends on:** [sase-1d8.2](sase-1d8.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d8.2](sase-1d8.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

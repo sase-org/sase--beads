@@ -16,7 +16,7 @@ Prompt history holds one row per human submission: the canonical text a person s
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1d8.1](sase-1d8.1.md) | Write gate and sase run ingress provenance | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1d8.2](sase-1d8.2.md) | Record each submission's canonical text once | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1d8.2](sase-1d8.2.md) | Record each submission's canonical text once | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d8.3](sase-1d8.3.md) | TUI submissions carry their history text and origin | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d8.4](sase-1d8.4.md) | Prune machine rows from the existing store | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Prompt history holds one row per human submission: the canonical text a person s
 flowchart TD
     n0["sase-1d8: Prompt history records human submissions only [in_progress]"]
     n1["sase-1d8.1: Write gate and sase run ingress provenance [closed]"]
-    n2["sase-1d8.2: Record each submission's canonical text once [in_progress]"]
+    n2["sase-1d8.2: Record each submission's canonical text once [closed]"]
     n3["sase-1d8.3: TUI submissions carry their history text and origin [in_progress]"]
     n4["sase-1d8.4: Prune machine rows from the existing store [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1d8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.1.md) | [sase-1d8.1](sase-1d8.1.md) | 1 |
-| [bbugyi200.athena.sase-1d8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.2/README.md) | [sase-1d8.2](sase-1d8.2.md) | 0 |
+| [bbugyi200.athena.sase-1d8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.2/README.md) | [sase-1d8.2](sase-1d8.2.md) | 1 |
 | [bbugyi200.athena.sase-1d8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.3/README.md) | [sase-1d8.3](sase-1d8.3.md) | 0 |
 | [bbugyi200.athena.sase-1d8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.4/README.md) | [sase-1d8.4](sase-1d8.4.md) | 0 |
 | [bbugyi200.athena.sase-1d8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.land/README.md) | [sase-1d8](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ad7f3a1`](https://github.com/sase-org/sase/commit/ad7f3a19a352577ac1614609edf3b57eb9da4dec) | feat(history): gate generated-origin writes and record sase run ingress provenance | [sase-1d8.1](sase-1d8.1.md) | 2026-09-30 09:26:32 EDT |
+| sase | [`ce0f618`](https://github.com/sase-org/sase/commit/ce0f61846ca3489bec69d4d40fe4b65a7ea0e048) | feat(history): record each submission's canonical text once | [sase-1d8.2](sase-1d8.2.md) | 2026-09-30 10:04:56 EDT |
