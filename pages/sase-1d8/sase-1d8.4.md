@@ -29,13 +29,14 @@ prune: extend sase-core's looks_generated classifier and expose it to Python; ad
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1d8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.4/README.md) | [sase-1d8.4](sase-1d8.4.md) | 1 |
+| [bbugyi200.athena.sase-1d8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.4/README.md) | [sase-1d8.4](sase-1d8.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@0ad6e44`](https://github.com/sase-org/sase-core/commit/0ad6e44174c60d8f698bd5861bb10dff4e6bacd0) | feat(prompt-prediction): flag chop and job tribe origins as generated | [sase-1d8.4](sase-1d8.4.md) | 2026-09-30 11:08:12 EDT |
+| sase | [`2d8cd15`](https://github.com/sase-org/sase/commit/2d8cd15f7f2f9c47f6fc5ca44a05c3f781d5d376) | feat(prompt): prune generated and legacy prompt history with backups | [sase-1d8.4](sase-1d8.4.md) | 2026-09-30 11:35:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -32,3 +32,15 @@ tui-provenance: keep the pre-remodel prompt on PendingLaunch and send it as hist
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a8bf3e4`](https://github.com/sase-org/sase/commit/a8bf3e41a8ecc98bf4cf5833d2a0c68384bf134d) | feat(history): TUI submissions carry history text and origin | [sase-1d8.3](sase-1d8.3.md) | 2026-09-30 11:35:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d8.3--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.3.md
+
+<!-- sase:referenced-by:end -->
