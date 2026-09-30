@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1df
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3g](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.3g.md) · **Assignee:** `sase-1df.land`
-**Created:** 2026-09-30 08:47:13 EDT
+**Created:** 2026-09-30 08:47:13 EDT · **Closed:** 2026-09-30 17:02:17 EDT
 **Plan:** [202609/jinja\_variable\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202609/jinja_variable_completion.md)
 
 <!-- sase:links:start -->
@@ -22,6 +22,14 @@
 ## Description
 
 Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt-lsp`, immediately shows every Jinja2 variable that is valid at that spot. The list covers the current xprompt's or prompt stack's declared `input:` properties, template locals, the variables sase injects into every agent prompt, and Jinja's own globals. Each entry shows its type, source, default, and a description, and the entries are ranked the same way everywhere. Filters after `|`, tests after `is`, members after `wait.`/`loop.`, and statements after `{%` complete the same way. One Rust engine is the source of truth for the completion menu, editor hover, and the TUI's unknown-variable lint.
+
+## Notes
+
+[2026-09-30T19:29:19Z · sase-1df.land] LAND TRIAGE of PROPOSED FOLLOW-UPs: (1) sase-core clippy -D warnings red on clean base (proposed by sase-1df.1/.2/.3/.4/.5) -> semantic duplicate of sase-1an; corroborated with +1 (now +7), not caused by this epic. (2) just check _setup prompt-prediction probe skew (sase-1df.6) -> declined: already fixed by sase-core c3042fd + sase 782bffaf72 (recalibrated predict thresholds); tools/validate_sase_core_rs passes at the current pin. (3) symvision red on clean base (sase-1df.7) -> declined: the jinja_assist/owner_ref/tool items it listed are gone; the only current symvision failures (_scanner_rules_version, _store_growth_lines private imports in bead attachments) are caused by active epic sase-1d5 and already recorded there. (4) TUI menu-rows parity pilot waiting on sase-1df.7 (sase-1df.9) -> caused by this epic (parity-phase scope never delivered); kept as remaining epic work in the landing tale. Plan non-goals (frontmatter xprompts: local-body completion, workflow YAML templates, agents.<name>/wait.artifacts[i] members, LSP Jinja diagnostics/semantic tokens, Ctrl+G temp-file xprompt scope, sase-1dd fix, sase-nvim manual check) intentionally stay unfiled per the plan's 'record as notes, not beads' rule; sase-1dd remains open so the input-declaring run rule stays.
+
+[2026-09-30T20:30:22Z · sase-1d5.land] DISCOVERED ISSUE (sase-1d5.land, 2026-09-30, master 7885562f54 + sase-1d5 landing fix): symvision unused-public failures from this epic were HIDDEN, not gone. Symvision stops at its first error category; the sase-1d5 private-import error (_scanner_rules_version/_store_growth_lines) masked the unused-public stage, so the land triage's 'jinja_assist items are gone' conclusion was wrong. With that error fixed in the sase-1d5 landing, just symvision reports 14 unused public symbols introduced by 85b2ce1038 (feat(xprompt): Jinja adapter over engine scope variables): JinjaAvailability, JinjaCatalog, JinjaCatalogFilter, JinjaCatalogGlobal, JinjaCatalogMember, JinjaCatalogStatement, JinjaCatalogTest, JinjaCatalogVariable, JinjaCompletion, JinjaCompletionItem, JinjaPosition, JinjaRange, JinjaScopeVariables (src/sase/xprompt/jinja_assist.py) and jinja_scope_for_text_area (src/sase/ace/tui/widgets/_jinja_diagnostics.py). sase tool run check run 10ad13d1995cb9191a95794c3ae6a615 labels them NEW with no owner. Fix per the symvision decision hierarchy (privatize in-file-only types, pragma only for real invisible consumers) before this epic closes.
+
+[2026-09-30T21:02:17Z · sase-1df.land--1] Verified 9 phases. Part A (sase-core): phantom endraw fixed, inert zones respected, statement docs {%%}->{{%%}}, shadowed builtins, catalog summaries, test hardening. Part B (sase): ghost-text precedence, auto-open claim, next-word suppression, legacy API deletion. Integration: sase-1co carve-outs inherited, next-word ghost suppressed in tags, prompt-prediction validator passes. Targeted suites pass (catalog/lsp/inspect 30, prompt-jinja/menu/auto/next-word/schema 88, local-conversion/save 26). Symvision: 14 jinja_assist unused fixed (privatized Position/Range, annotated Completion/Availability/ScopeVariables, re-exported Catalog at package root); remaining unused + 2 private-imports owned by sase-1d5 baseline. just check blocked by sase-1d5 flag lint rule 7 (closed sase-1dg, definition survives) - pre-existing, corroborated on sase-1d5 notes #2/#3. PNG goldens unchanged (menu content verified, pixels deferred to visual lane).
 
 ## Phases
 
@@ -41,7 +49,7 @@ Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt
 
 ```mermaid
 flowchart TD
-    n0["sase-1df: Jinja2 variable completion in the prompt input and the xprompt LSP [in_progress]"]
+    n0["sase-1df: Jinja2 variable completion in the prompt input and the xprompt LSP [closed]"]
     n1["sase-1df.1: Rust Jinja catalog and wire types [closed]"]
     n2["sase-1df.2: Rust Jinja tag scanner, slot classifier, and scope analysis [closed]"]
     n3["sase-1df.3: Rust Jinja completion, ranking, documentation, hover, and scope variables [closed]"]
@@ -84,7 +92,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1df.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.7/README.md) | [sase-1df.7](sase-1df.7.md) | 1 |
 | [bbugyi200.apollo.sase-1df.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.8.md) | [sase-1df.8](sase-1df.8.md) | 1 |
 | [bbugyi200.apollo.sase-1df.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.9.md) | [sase-1df.9](sase-1df.9.md) | 1 |
-| [bbugyi200.apollo.sase-1df.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.land/README.md) | [sase-1df](README.md) | 0 |
+| [bbugyi200.apollo.sase-1df.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.land.md) | [sase-1df](README.md) | 1 |
 
 ## Commits
 
@@ -100,3 +108,4 @@ flowchart TD
 | sase | [`c6df2db`](https://github.com/sase-org/sase/commit/c6df2dba3f4211b0d71105a0cf6d30ebd54cfdaf) | feat(ace-tui): drive Jinja completion menu off Rust engine | [sase-1df.7](sase-1df.7.md) | 2026-09-30 14:12:32 EDT |
 | sase | [`9c867a3`](https://github.com/sase-org/sase/commit/9c867a38542226a925e4bda371d2d25ae6b9a8d4) | test(xprompt): LSP/adapter Jinja completion parity suite (sase-1df.9) | [sase-1df.9](sase-1df.9.md) | 2026-09-30 14:23:38 EDT |
 | sase | [`f3df35b`](https://github.com/sase-org/sase/commit/f3df35b79f58d6e9e537180e66d01f52846885d6) | feat(ace): add Jinja auto-menu prompt completion with pilot tests | [sase-1df.8](sase-1df.8.md) | 2026-09-30 15:07:39 EDT |
+| sase-core | [`sase-core@9bbf2d5`](https://github.com/sase-org/sase-core/commit/9bbf2d5145e3c9dc7d224cde6b543c037199cf3e) | feat(jinja): engine fixes for raw blocks, inert zones, docs, and catalog | [sase-1df](README.md) | 2026-09-30 17:04:58 EDT |
