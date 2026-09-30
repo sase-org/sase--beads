@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.2/README.md) | [sase-1d8.2](sase-1d8.2.md) | 1 |
 | [bbugyi200.athena.sase-1d8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.3.md) | [sase-1d8.3](sase-1d8.3.md) | 1 |
 | [bbugyi200.athena.sase-1d8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d8.4/README.md) | [sase-1d8.4](sase-1d8.4.md) | 2 |
-| [bbugyi200.athena.sase-1d8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.land.md) | [sase-1d8](README.md) | 1 |
+| [bbugyi200.athena.sase-1d8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d8.land.md) | [sase-1d8](README.md) | 2 |
 
 ## Commits
 
@@ -66,6 +66,7 @@ flowchart TD
 | sase | [`a8bf3e4`](https://github.com/sase-org/sase/commit/a8bf3e41a8ecc98bf4cf5833d2a0c68384bf134d) | feat(history): TUI submissions carry history text and origin | [sase-1d8.3](sase-1d8.3.md) | 2026-09-30 11:35:35 EDT |
 | sase | [`2d8cd15`](https://github.com/sase-org/sase/commit/2d8cd15f7f2f9c47f6fc5ca44a05c3f781d5d376) | feat(prompt): prune generated and legacy prompt history with backups | [sase-1d8.4](sase-1d8.4.md) | 2026-09-30 11:35:37 EDT |
 | sase | [`fda5304`](https://github.com/sase-org/sase/commit/fda5304904c1891b5fc78183f78243e183a2167e) | feat(history): classify nested ToolRun sase run ingress as generated | [sase-1d8](README.md) | 2026-09-30 12:16:16 EDT |
+| sase--plans | [`sase--plans@64653c4`](https://github.com/sase-org/sase--plans/commit/64653c4e746b93700ce9cf4e5a5ebf3a5967bf5a) | docs(plans): mark prompt\_history\_human\_only plan done | [sase-1d8](README.md) | 2026-09-30 12:19:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
