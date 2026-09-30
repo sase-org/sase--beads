@@ -21,4 +21,4 @@ python: add the sase Jinja adapter and move the core pin. Delete the Python buil
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1df.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.6/README.md) | [sase-1df.6](sase-1df.6.md) | 0 |
+| [bbugyi200.apollo.sase-1df.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.6.md) | [sase-1df.6](sase-1df.6.md) | 0 |
