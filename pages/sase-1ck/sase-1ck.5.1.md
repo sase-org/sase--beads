@@ -7,6 +7,18 @@
 **Created:** 2026-09-29 17:24:33 EDT · **Closed:** 2026-09-29 20:29:40 EDT
 **Plan:** [202609/private\_attachment\_store.md](https://github.com/sase-org/sase--plans/blob/main/202609/private_attachment_store.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/private_attachment_store.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/private_attachment_store.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Bead note attachments of at most the git tier are stored in a private attachments-private sidecar, uploaded before the bead store is published, and fetched on demand with honest availability badges. A missing store or an explicit local-only choice keeps the bytes on this machine and says so.

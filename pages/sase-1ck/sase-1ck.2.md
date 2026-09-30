@@ -37,8 +37,10 @@ cas: build the ~/.sase/attachments content-addressed store, with one-pass stream
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ck.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1ck.10][1] | Need sibling phase status for ga work | 1 |
+| read-by | [agent:sase-1ck.2][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.2/README.md
 
 <!-- sase:referenced-by:end -->

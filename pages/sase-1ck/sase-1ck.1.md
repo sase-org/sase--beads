@@ -45,7 +45,9 @@ core_grammar: add the note-text scanner for @path/@@/@attachment tokens, stored-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.1--2][1] | implement approved note attachment grammar plan - check phase state | 1 |
+| read-by | [agent:sase-1ck.10][2] | Need sibling phase status for ga work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
 
 <!-- sase:referenced-by:end -->

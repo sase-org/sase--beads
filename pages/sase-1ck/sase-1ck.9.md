@@ -46,8 +46,10 @@ lifecycle: add tombstone-based attachment purge, bead doctor attachment checks a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ck.9][1] | Need full description and notes for phase work | 2 |
+| read-by | [agent:sase-1ck.10][1] | Need sibling phase status for ga work | 1 |
+| read-by | [agent:sase-1ck.9][2] | Need full description and notes for phase work | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md
 
 <!-- sase:referenced-by:end -->

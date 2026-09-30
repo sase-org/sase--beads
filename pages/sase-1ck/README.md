@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / sase-1ck
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0tv](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0tv.md) · **Assignee:** `sase-1ck.land`
-**Created:** 2026-09-29 08:13:35 EDT
+**Created:** 2026-09-29 08:13:35 EDT · **Closed:** 2026-09-30 08:35:10 EDT
 **Plan:** [202609/bead\_note\_attachments.md](https://github.com/sase-org/sase--plans/blob/main/202609/bead_note_attachments.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-09-30T05:29:32Z · done
+>
+> (none)
+>
+> Reopened 2026-09-30T11:05:02Z by `sase bead open`
 
 <!-- sase:links:start -->
 
@@ -14,10 +22,20 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202609/bead_note_attachments.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1cy][2] | Follow-up proposed during the bead note attachments epic; its plan and phases define the attachment grammar, stores, and surfaces |
+| related | [bead:sase-1cz][3] | Follow-up proposed during the bead note attachments epic; its plan and phases define the attachment grammar, stores, and surfaces |
+| related | [bead:sase-1d0][4] | Follow-up proposed during the bead note attachments epic; its plan and phases define the attachment grammar, stores, and surfaces |
+| related | [bead:sase-1da][5] | Defect from the bead note attachments epic; found during its landing |
+| related | [bead:sase-1db][6] | Hardening gap from the bead note attachments epic; found during its landing |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/bead_note_attachments.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1cy/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1cz/README.md
+[4]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1d0/README.md
+[5]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1da/README.md
+[6]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1db/README.md
 
 <!-- sase:links:end -->
 
@@ -43,6 +61,44 @@ DISCOVERED ISSUE (corroboration): sase-1ck.5.1.3's symvision follow-up is the pr
 
 [2026-09-30T02:04:28Z · sase-1cu.land] DISCOVERED ISSUE (corroboration from sase-1cu land): phases sase-1cu.1/.2/.3 independently proposed the same two clean-base failures already tracked here. At sase HEAD 3e03e0add9, ToolRun 02ae8f4b88958c1ac4073ea4cda26f7c stopped on the 14 at_bearing_notes.jsonl terminology defects; task sase-1cv received +1. A separate just symvision run still reports _kitty_graphics_support (show_images.py) and _roster_for_issue (attachment_resolve.py) private imports, matching this epic's note #5. These arise from attachment work, not the location-picker epic; no new task bead filed for the private-import pair because this active epic owns it.
 
+[2026-09-30T03:56:25Z · sase-1ck.land] LAND TRIAGE (sase-1ck.land, 2026-09-29, sase master 3da6e3ebb8, sase-core a354a8a). I read every phase and nested-epic child (4.1.x, 5.1.x) and all of their notes. Outcome for every PROPOSED FOLLOW-UP and DISCOVERED ISSUE:
+
+REMAINING EPIC WORK (caused by this epic; a lander tale will fix these and then close the epic):
+- Patch/stitch terminology audit. Raised by epic notes #1-#4 and #6, 1ck.4.1.1-3, 1ck.5.1.1/.2/.4, 1ck.6, 1ck.8, 1ck.9 #1, and 1ck.10 #12. Reproduced: exit 1 with 14 defects, all in the sase-core corpus fixture from sase-1ck.1. The tale classifies the fixture and closes the duplicate task sase-1cv.
+- Symvision private import `_kitty_graphics_support`. Raised by epic notes #5-#7, 1ck.5.1.3, 1ck.6 #1, 1ck.9 #2, and 1ck.10 #14. Reproduced. `_roster_for_issue` has already been resolved as the public lifecycle `roster_for_issue`.
+- `test_every_bead_free_text_option_is_classified` (1ck.10 #13). Reproduced: ('attachment', 'purge', 'reason') is unclassified.
+- Styled `sase bead show` crash (1ck.10 #2/#3/#4). Reproduced: attachment target spans are computed on the raw SGR body.
+- Same-text `@attachment` reuse rejected (1ck.10 #1). Confirmed in sase-core `validate_note_attachment_manifest`: it compares the token multiset against manifest names.
+- `sase validate` / `init repo --check` fails without the optional attachments-private sidecar (1ck.9 #3). Reproduced.
+- Found during landing: `sase bead attachment open` and `materialize_attachment_view` never fetch, although the plan says explicit open always fetches. The docs/cli.md open/path rows are also stale (1ck.9 #4: the path row wording is already fixed, but the table columns are not).
+
+NEW TASKS FILED (via /sase_new_task, distinct from this epic's shipped scope):
+- sase-1cy memory: sase_beads.md attachments (1ck.10 #5).
+- sase-1cz descriptions/create (1ck.10 #6).
+- sase-1d0 prompt expansion and cross-bead reuse (1ck.10 #7).
+- sase-1d1 fold artifact create --bead (1ck.10 #8).
+- sase-1d2 gate/Telegram rendering (1ck.10 #9).
+- sase-1d3 sase-nvim highlighting (1ck.10 #10).
+- sase-1d4 per-event history manifests (epic note #1 and the note_cli plan).
+
+DECLINED:
+- iTerm2/sixel protocols (1ck.10 #11): conditional on a user need that does not exist yet, so it would only be a wish-list item.
+- 1ck.1 #2 pin bump: done in b63e793199 and 339a67306b.
+- 1ck.1--1 #3 flag bead sase-1be: that bead is closed.
+- 1ck.3 #1 and the 4.1.x launch-family origin failures: tracked in sase-1cm, now closed.
+- 4.1.2 fast-path failures: tracked by ready task sase-1cn.
+- 4.1.2 +1 attachments: fixed in 6834fa1128.
+- 4.1.x stale sase-1cj.7/.8 symvision entries: now gone; just symvision reports only `_kitty_graphics_support`.
+
+[2026-09-30T05:29:32Z · sase-1ck.land--1] Epic landed via tale 202609/finish_bead_note_attachments.md. All 7 remaining defects fixed and proven: (1) terminology audit classifies the sase-core at_bearing_notes.jsonl corpus fixture as immutable history in patch_stitch_audit.py (test_patch_stitch_terminology_audit.py; audit exits 0; duplicate task sase-1cv closed); (2) doctor kitty helper exposed as public kitty_graphics_support, just symvision exits 0; (3) ('attachment','purge','reason') added to _DELIBERATELY_LITERAL_FREE_TEXT (test_every_bead_free_text_option_is_classified passes); (4) sase-core manifest validation dedups token names, just install rebuilt sase_core_rs (CLI reuse tests in test_cli_note_attachments.py); (5) attachment open and materialize_attachment_view force-fetch from the shared store (two-home tests in test_attachment_fetch.py; docs/beads.md and docs/cli.md updated); (6) init repo --check warns instead of creating the optional attachments-private clone (repo-init sidecar tests; sase validate passes without the clone); (7) styled show-batch chip spans computed on pager plain text via body_plain_text (new tests in test_show_images.py). Closeout verification this turn: just fix clean; focused suites green (tests/test_bead incl. attachment_*, cli_attach_verbs, cli_note_attachments, show_images, git_attachment_store, cli_at_path_values, attachment_large_files, attachment_lifecycle; ace/tui beads_attachment_views + bead_note_modal; terminology audit; repo-init sidecar tests; tool routing; llm_provider sync ceiling; pager document); sase tool run check passes every gate through 'committed plans' incl. symvision, mypy, and SASE validation. The final 'test (scoped)' stage escalated to the full 4689-file suite because the coverage baseline is 3682 commits stale (environmental, unrelated to this diff) and exceeds the foreground budget; the diff-scoped areas were instead verified directly: full tests/test_bead/ (2577 passed) plus pager/modals/doctor/routing/ceiling/repo-init chunks, all green. sase bead epic-symbols sase-1ck reports no entries; the 45 unused-public findings surfaced during closeout were resolved per Symvision policy (44 in-file-only helpers made private incl. test import updates, dead get_show_images_default plus its test deleted, dead _terminal_width deleted). Follow-up triage already recorded on this epic: tasks sase-1cy (beads.md attachments memory), sase-1cz (descriptions/create), sase-1d0 (prompt expansion/cross-bead reuse), sase-1d1 (artifact create --bead), sase-1d2 (gate/Telegram rendering), sase-1d3 (nvim highlighting), sase-1d4 (per-event history manifests). Declined: iTerm2/sixel (no user need), 1ck.1 pin bump (done), flag bead sase-1be (closed), 1ck.3/4.1.x origins (sase-1cm, closed), 4.1.2 fast-path (sase-1cn), 4.1.2 +1 attachments (fixe
+
+… and 6722 more characters
+
+## Attachments
+
+- 🔒 sase-1ck-core.patch · text/plain · 2.86523 KiB (private attachment)
+- 🔒 sase-1ck-sase.patch · text/plain · 109.418 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -62,7 +118,7 @@ DISCOVERED ISSUE (corroboration): sase-1ck.5.1.3's symvision follow-up is the pr
 
 ```mermaid
 flowchart TD
-    n0["sase-1ck: Bead note attachments [in_progress]"]
+    n0["sase-1ck: Bead note attachments [closed]"]
     n1["sase-1ck.1: Core attachment grammar, names, and media classification (sase-core) [closed]"]
     n2["sase-1ck.10: Remove the beta flag and finish docs [closed]"]
     n3["sase-1ck.2: Local content-addressed attachment store and streaming ingest [closed]"]
@@ -145,7 +201,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ck.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.7.md) | [sase-1ck.7](sase-1ck.7.md) | 1 |
 | [bbugyi200.athena.sase-1ck.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md) | [sase-1ck.8](sase-1ck.8.md) | 1 |
 | [bbugyi200.athena.sase-1ck.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.9/README.md) | [sase-1ck.9](sase-1ck.9.md) | 1 |
-| [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 0 |
+| [bbugyi200.athena.sase-1ck.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md) | [sase-1ck](README.md) | 1 |
 
 ## Commits
 
@@ -171,6 +227,7 @@ flowchart TD
 | sase | [`777ea2f`](https://github.com/sase-org/sase/commit/777ea2f5c3fd5db08c7f9f978e6290c0cc57a438) | feat(attachments): add large-file rclone store with background uploads and progress UI | [sase-1ck.6](sase-1ck.6.md) | 2026-09-29 21:08:07 EDT |
 | sase | [`ee1620e`](https://github.com/sase-org/sase/commit/ee1620e1b919fb73d350b02767ecf81ab0577afc) | feat(bead): implement attachment lifecycle (purge, doctor, prune, pages) | [sase-1ck.9](sase-1ck.9.md) | 2026-09-29 22:10:40 EDT |
 | sase | [`3da6e3e`](https://github.com/sase-org/sase/commit/3da6e3ebb8b7dcba1f0d583300ad420d5dbc3058) | feat(beads): remove bead\_note\_attachments beta flag, attachments GA | [sase-1ck.10](sase-1ck.10.md) | 2026-09-29 23:29:58 EDT |
+| sase-core | [`sase-core@3bb901b`](https://github.com/sase-org/sase-core/commit/3bb901b045b242915c8369d70ea9ed0aa4b31b66) | fix(core-attachments): accept repeated same-text attachment tokens | [sase-1ck](README.md) | 2026-09-30 08:37:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -178,24 +235,30 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:30][1] | Research where new attachments will be stored and whether they sync to other machines/users | 1 |
-| read-by | [agent:research.n.cdx][2] | Need the epic scope, phases, notes, dependencies, and references before researching the follow-on attachment-access design | 1 |
-| read-by | [agent:research.n.cld][3] | Context for research on making non-sensitive bead attachments public by default | 1 |
-| read-by | [agent:research.n.final][4] | Context on the bead note attachments epic before consolidating public-attachment research | 1 |
-| read-by | [agent:research.n.gem][5] | Reviewing context for bead attachment storage and access research | 1 |
-| read-by | [agent:research.n.grk][6] | Need epic scope, design, and current attachment access model before researching public default access | 1 |
-| read-by | [agent:research.n.mus][7] | Research context for public vs private bead attachment storage design | 1 |
-| read-by | [agent:sase-1ck.1--2][8] | implement approved note attachment grammar plan | 1 |
-| read-by | [agent:sase-1ck.8--1][9] | check epic context for follow-up triage | 1 |
+| read-by | [agent:0ub--1][1] | Verify attachment span fix renders colored bead detail | 1 |
+| read-by | [agent:30][2] | Research where new attachments will be stored and whether they sync to other machines/users | 1 |
+| read-by | [agent:research.n.cdx][3] | Need the epic scope, phases, notes, dependencies, and references before researching the follow-on attachment-access design | 1 |
+| read-by | [agent:research.n.cld][4] | Context for research on making non-sensitive bead attachments public by default | 1 |
+| read-by | [agent:research.n.final][5] | Context on the bead note attachments epic before consolidating public-attachment research | 1 |
+| read-by | [agent:research.n.gem][6] | Reviewing context for bead attachment storage and access research | 1 |
+| read-by | [agent:research.n.grk][7] | Need epic scope, design, and current attachment access model before researching public default access | 1 |
+| read-by | [agent:research.n.mus][8] | Research context for public vs private bead attachment storage design | 1 |
+| read-by | [agent:sase-1ck.1--2][9] | implement approved note attachment grammar plan | 1 |
+| read-by | [agent:sase-1ck.10][10] | Need epic status and children for ga phase | 1 |
+| read-by | [agent:sase-1ck.8--1][11] | check epic context for follow-up triage | 1 |
+| read-by | [agent:sase-1d6.land][12] | Need salvage notes, reopen notes, and current status of the five recovered beads | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.30/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cdx/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.final/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.gem/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.grk/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ub.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.30/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cdx/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.final/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.gem/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.grk/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.1.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d6.land/README.md
 
 <!-- sase:referenced-by:end -->

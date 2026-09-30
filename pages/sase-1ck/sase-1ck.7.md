@@ -32,3 +32,15 @@ show_images: add the show -i/--images auto|cells|kitty|never option and bead.sho
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`56d5cd2`](https://github.com/sase-org/sase/commit/56d5cd277e6571ff8cabe0c05ee85e614ffdb762) | feat(bead): view note attachments from bead show with image previews | [sase-1ck.7](sase-1ck.7.md) | 2026-09-29 18:17:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.10][1] | Need show_images evidence approach for ga acceptance screenshots | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+
+<!-- sase:referenced-by:end -->
