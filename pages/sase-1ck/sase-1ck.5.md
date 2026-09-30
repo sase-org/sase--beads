@@ -39,11 +39,13 @@ shared_store: add the reserved private attachments-private sidecar role (repo <p
 | read-by | [agent:research.n.final][3] | Check whether the private attachments sidecar phase covers sase-github private repo creation and role naming | 2 |
 | read-by | [agent:research.n.mus][4] | Research private sidecar phase scope for public attachment alternative | 1 |
 | read-by | [agent:sase-1ck.10][5] | Need sibling phase status for ga work | 1 |
+| read-by | [agent:sase-1ck.land][6] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.33.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.final/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.mus/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

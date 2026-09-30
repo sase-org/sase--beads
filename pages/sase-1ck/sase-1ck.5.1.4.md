@@ -42,7 +42,9 @@ fetch: lazily fetch under the auto-fetch cap for read, show, and path, render ev
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.5.1.4--1][1] | Confirm closed state before final declaration | 2 |
+| read-by | [agent:sase-1ck.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

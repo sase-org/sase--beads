@@ -45,8 +45,10 @@ large_files: add the optional rclone large-object store tier, background uploads
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.10][1] | Need sibling phase status for ga work | 1 |
 | read-by | [agent:sase-1ck.6--1][2] | Need full description and notes for implementation | 3 |
+| read-by | [agent:sase-1ck.land][3] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.6.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

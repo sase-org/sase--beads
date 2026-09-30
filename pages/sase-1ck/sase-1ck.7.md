@@ -40,7 +40,9 @@ show_images: add the show -i/--images auto|cells|kitty|never option and bead.sho
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.10][1] | Need show_images evidence approach for ga acceptance screenshots | 3 |
+| read-by | [agent:sase-1ck.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

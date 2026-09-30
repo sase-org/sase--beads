@@ -44,8 +44,10 @@ attach_verbs: run the authoring service from close -n, update -n, and +1 -n, and
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.4.1.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1ck.4.1.3][2] | Need sibling phase close flow for verification and close ordering | 1 |
+| read-by | [agent:sase-1ck.land][3] | Need the child notes to cross-check follow-up triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.4.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

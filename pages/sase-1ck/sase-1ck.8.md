@@ -42,8 +42,10 @@ tui: add an attachments block with thumbnails and badges to Beads pane note deta
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.10][1] | Need sibling phase status for ga work | 1 |
 | read-by | [agent:sase-1ck.8--1][2] | finish phase work | 3 |
+| read-by | [agent:sase-1ck.land][3] | Need the child notes to cross-check follow-up triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.8.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

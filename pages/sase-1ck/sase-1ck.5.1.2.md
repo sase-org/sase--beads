@@ -40,7 +40,9 @@ git_store: add GitAttachmentStore, a BlobStore over a bare partial clone that pu
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.5.1.2--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ck.land][2] | Need the child notes to cross-check follow-up triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

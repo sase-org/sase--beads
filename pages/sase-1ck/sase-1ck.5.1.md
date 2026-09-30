@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/private_attachment_store.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/private_attachment_store.md
 
 <!-- sase:links:end -->
@@ -46,3 +48,15 @@ Remaining epic work, separate from those follow-ups: `show`/`read` still build a
 |---|---|---|---|---|
 | sase | [`5a4b979`](https://github.com/sase-org/sase/commit/5a4b979ce89a5c315c8e71520d7306b8a4a8227d) | feat(bead-attachments): lazy attachment-store discovery on show and read | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:36:35 EDT |
 | sase--plans | [`sase--plans@c50baf6`](https://github.com/sase-org/sase--plans/commit/c50baf643cdfa830afc01f46f1cbfb0098dfc249) | docs(plans): mark private\_attachment\_store plan done | [sase-1ck.5.1](sase-1ck.5.1.md) | 2026-09-29 20:40:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ck.land][1] | Need the nested child epic scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
+
+<!-- sase:referenced-by:end -->

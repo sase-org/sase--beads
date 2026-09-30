@@ -44,9 +44,11 @@ core_wire: add the optional attachments manifest on note events and BeadNoteWire
 | read-by | [agent:research.n.cld][1] | Check progress of attachment wire and shared-store phases to judge whether a visibility field can be added early | 1 |
 | read-by | [agent:sase-1ck.10][2] | Need sibling phase status for ga work | 1 |
 | read-by | [agent:sase-1ck.3][3] | check phase status | 2 |
+| read-by | [agent:sase-1ck.land][4] | Need the child notes to cross-check follow-up triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.n.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.10/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->

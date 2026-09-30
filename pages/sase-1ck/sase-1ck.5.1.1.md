@@ -42,7 +42,9 @@ sidecar_role: reserve the attachments-private sidecar role (repo <project>--atta
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ck.5.1.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ck.land][2] | Need the child notes to cross-check follow-up triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ck.5.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ck.land/README.md
 
 <!-- sase:referenced-by:end -->
