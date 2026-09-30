@@ -13,7 +13,7 @@ fleet-signature-cheap: replace the recursive deep-freeze projection signature wi
 
 ## Dependencies
 
-- **Depends on:** [sase-1d7.3](sase-1d7.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d7.3](sase-1d7.3.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.4](sase-1d7.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

@@ -15,7 +15,7 @@ roster-generation: introduce one app-wide roster generation bumped on every rost
 
 - **Blocks:** [sase-1d7.10](sase-1d7.10.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.11](sase-1d7.11.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1d7.3](sase-1d7.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d7.3](sase-1d7.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.5](sase-1d7.5.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
 

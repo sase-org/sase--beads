@@ -21,7 +21,7 @@ Unread acknowledgments (`,u`, `,j`/`,J`, row-select) are never reverted by anoth
 | [sase-1d7.12](sase-1d7.12.md) | Rust ack API, lean unread index, and store generations | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1d7.13](sase-1d7.13.md) | Notification store retention and wait-check payload diet | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1d7.2](sase-1d7.2.md) | Atomic field-scoped reconcile write in sase-core | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
-| [sase-1d7.3](sase-1d7.3.md) | Trace spans, leader-key perf capture, and unread/idle benches | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
+| [sase-1d7.3](sase-1d7.3.md) | Trace spans, leader-key perf capture, and unread/idle benches | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1d7.4](sase-1d7.4.md) | Roster generation counter and cached projection index | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d7.5](sase-1d7.5.md) | Sequence-fenced pending-ack overlay and monotonic snapshot cache | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d7.6](sase-1d7.6.md) | One batched unread chrome helper with no full rebuilds | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -40,7 +40,7 @@ flowchart TD
     n4["sase-1d7.12: Rust ack API, lean unread index, and store generations [in_progress]"]
     n5["sase-1d7.13: Notification store retention and wait-check payload diet [in_progress]"]
     n6["sase-1d7.2: Atomic field-scoped reconcile write in sase-core [in_progress]"]
-    n7["sase-1d7.3: Trace spans, leader-key perf capture, and unread/idle benches [in_progress]"]
+    n7["sase-1d7.3: Trace spans, leader-key perf capture, and unread/idle benches [closed]"]
     n8["sase-1d7.4: Roster generation counter and cached projection index [in_progress]"]
     n9["sase-1d7.5: Sequence-fenced pending-ack overlay and monotonic snapshot cache [in_progress]"]
     n10["sase-1d7.6: One batched unread chrome helper with no full rebuilds [in_progress]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d7.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.12/README.md) | [sase-1d7.12](sase-1d7.12.md) | 0 |
 | [bbugyi200.athena.sase-1d7.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.13/README.md) | [sase-1d7.13](sase-1d7.13.md) | 0 |
 | [bbugyi200.athena.sase-1d7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.2/README.md) | [sase-1d7.2](sase-1d7.2.md) | 0 |
-| [bbugyi200.athena.sase-1d7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.3/README.md) | [sase-1d7.3](sase-1d7.3.md) | 0 |
+| [bbugyi200.athena.sase-1d7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.3/README.md) | [sase-1d7.3](sase-1d7.3.md) | 1 |
 | [bbugyi200.athena.sase-1d7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.4/README.md) | [sase-1d7.4](sase-1d7.4.md) | 0 |
 | [bbugyi200.athena.sase-1d7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.5/README.md) | [sase-1d7.5](sase-1d7.5.md) | 0 |
 | [bbugyi200.athena.sase-1d7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.6/README.md) | [sase-1d7.6](sase-1d7.6.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`279bc27`](https://github.com/sase-org/sase/commit/279bc272d17165ec8f2e44c24760a49c5954c852) | fix(dispatch): preserve concurrent dismissals in remote attention inbox reconcile | [sase-1d7.1](sase-1d7.1.md) | 2026-09-30 08:17:41 EDT |
+| sase | [`d6f2b23`](https://github.com/sase-org/sase/commit/d6f2b237a6a48b5290d7356dfeb0c63f62b14a58) | feat(tui): instrument unread paths with tui\_trace spans and key-to-paint benches | [sase-1d7.3](sase-1d7.3.md) | 2026-09-30 08:27:08 EDT |
