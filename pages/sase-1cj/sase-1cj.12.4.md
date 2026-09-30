@@ -30,10 +30,11 @@ recalibrate: re-run the prequential replay under the corrected support semantics
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 1 |
+| [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c3042fd`](https://github.com/sase-org/sase-core/commit/c3042fdded0d32ccd8d19ac1df550da7a869bf40) | feat(prompt-prediction): recalibrate predict thresholds and add replay sampling | [sase-1cj.12.4](sase-1cj.12.4.md) | 2026-09-30 13:55:00 EDT |
+| sase | [`782bffa`](https://github.com/sase-org/sase/commit/782bffaf725b913f40acbe113ed12e188351aa77) | feat(prompt-prediction): recalibrate presets, add archive score sampling and replay sources | [sase-1cj.12.4](sase-1cj.12.4.md) | 2026-09-30 14:08:59 EDT |
