@@ -13,7 +13,7 @@ parity: prove the LSP binary and the Python adapter return identical ordered can
 
 ## Dependencies
 
-- **Depends on:** [sase-1df.5](sase-1df.5.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.5](sase-1df.5.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1df.6](sase-1df.6.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

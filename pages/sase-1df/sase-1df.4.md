@@ -33,3 +33,15 @@ bindings: expose jinja_completion, jinja_scope_variables, and jinja_catalog thro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3adc01b`](https://github.com/sase-org/sase-core/commit/3adc01b6fb1e9bea99cd97f9966481b4aeb27f01) | feat(editor-completion): add jinja completion bindings and tests | [sase-1df.4](sase-1df.4.md) | 2026-09-30 11:19:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1df.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.4/README.md
+
+<!-- sase:referenced-by:end -->
