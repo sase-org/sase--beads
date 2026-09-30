@@ -22,7 +22,7 @@ audience_cli: create the public_bead_attachments beta flag, gather provenance fa
 ## Dependencies
 
 - **Depends on:** [sase-1d5.1](sase-1d5.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d5.4](sase-1d5.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d5.4](sase-1d5.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -35,3 +35,15 @@ audience_cli: create the public_bead_attachments beta flag, gather provenance fa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c330cd8`](https://github.com/sase-org/sase/commit/c330cd870ad582c10f3ec4a108c09874aa98377e) | feat(bead-attachments): audience decisions for attachment authoring (sase-1d5.3) | [sase-1d5.3](sase-1d5.3.md) | 2026-09-30 11:34:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d5.3--3][1] | diagnose just check _setup failure for audience CLI work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.3.md
+
+<!-- sase:referenced-by:end -->

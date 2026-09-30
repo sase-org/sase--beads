@@ -34,7 +34,7 @@ A bead note attachment is as visible as its bead unless SASE or its author marks
 | [sase-1d5.1](sase-1d5.1.md) | Core audience wire, decision table, and secret scanner (sase-core) | ✓ closed | large | 2026-09-30 | 1 | 1 |
 | [sase-1d5.2](sase-1d5.2.md) | Secret scanning on newly created public sidecars (sase-github) | ✓ closed | small | 2026-09-30 | 1 | 0 |
 | [sase-1d5.3](sase-1d5.3.md) | Provenance facts, audience flags, and the beta flag | ✓ closed | large | 2026-09-30 | 1 | 1 |
-| [sase-1d5.4](sase-1d5.4.md) | Public attachments sidecar, routing, and anonymous reads | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
+| [sase-1d5.4](sase-1d5.4.md) | Public attachments sidecar, routing, and anonymous reads | ✓ closed | large | 2026-09-30 | 1 | 1 |
 | [sase-1d5.5](sase-1d5.5.md) | Publish, unpublish, and audience-aware doctor | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d5.6](sase-1d5.6.md) | Audience badges, access states, and bead-page embeds | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d5.7](sase-1d5.7.md) | TUI audience chips, add-note toggle, and queued uploads | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n1["sase-1d5.1: Core audience wire, decision table, and secret scanner (sase-core) [closed]"]
     n2["sase-1d5.2: Secret scanning on newly created public sidecars (sase-github) [closed]"]
     n3["sase-1d5.3: Provenance facts, audience flags, and the beta flag [closed]"]
-    n4["sase-1d5.4: Public attachments sidecar, routing, and anonymous reads [in_progress]"]
+    n4["sase-1d5.4: Public attachments sidecar, routing, and anonymous reads [closed]"]
     n5["sase-1d5.5: Publish, unpublish, and audience-aware doctor [in_progress]"]
     n6["sase-1d5.6: Audience badges, access states, and bead-page embeds [in_progress]"]
     n7["sase-1d5.7: TUI audience chips, add-note toggle, and queued uploads [in_progress]"]
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.1.md) | [sase-1d5.1](sase-1d5.1.md) | 1 |
 | [bbugyi200.athena.sase-1d5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.2/README.md) | [sase-1d5.2](sase-1d5.2.md) | 0 |
 | [bbugyi200.athena.sase-1d5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.3.md) | [sase-1d5.3](sase-1d5.3.md) | 1 |
-| [bbugyi200.athena.sase-1d5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.4/README.md) | [sase-1d5.4](sase-1d5.4.md) | 0 |
+| [bbugyi200.athena.sase-1d5.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.4.md) | [sase-1d5.4](sase-1d5.4.md) | 1 |
 | [bbugyi200.athena.sase-1d5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.5/README.md) | [sase-1d5.5](sase-1d5.5.md) | 0 |
 | [bbugyi200.athena.sase-1d5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.6/README.md) | [sase-1d5.6](sase-1d5.6.md) | 0 |
 | [bbugyi200.athena.sase-1d5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.7/README.md) | [sase-1d5.7](sase-1d5.7.md) | 0 |
@@ -97,6 +97,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@7806f58`](https://github.com/sase-org/sase-core/commit/7806f587b0971816fe2623db835dde4582925063) | feat(attachments): core attachment audience policy and scanner | [sase-1d5.1](sase-1d5.1.md) | 2026-09-30 08:51:54 EDT |
 | sase | [`c330cd8`](https://github.com/sase-org/sase/commit/c330cd870ad582c10f3ec4a108c09874aa98377e) | feat(bead-attachments): audience decisions for attachment authoring (sase-1d5.3) | [sase-1d5.3](sase-1d5.3.md) | 2026-09-30 11:34:28 EDT |
+| sase | [`80f64cc`](https://github.com/sase-org/sase/commit/80f64cc20b598f10f8c8df01dc8a224eead45210) | feat(bead-attachments): public attachments sidecar, routing, and anonymous reads (sase-1d5.4) | [sase-1d5.4](sase-1d5.4.md) | 2026-09-30 12:44:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

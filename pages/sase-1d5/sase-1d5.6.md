@@ -13,7 +13,7 @@ presentation: add 🌐/🔒 audience badges in show, read, history, and attachme
 
 ## Dependencies
 
-- **Depends on:** [sase-1d5.4](sase-1d5.4.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d5.4](sase-1d5.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.7](sase-1d5.7.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d5.8](sase-1d5.8.md) ◐ · ⧖ 2026-09-30
 
