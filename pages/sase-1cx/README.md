@@ -7,6 +7,18 @@
 **Created:** 2026-09-29 20:32:12 EDT
 **Plan:** [202609/tool\_run\_escalation.md](https://github.com/sase-org/sase--plans/blob/main/202609/tool_run_escalation.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202609/tool_run_escalation.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202609/tool_run_escalation.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 An agent's `sase tool run` never loses a run to its provider's synchronous ceiling: every run starts inline from the agent's point of view, and a run still going near the ceiling moves into a monitor under the same ToolRun id without being cancelled or rerun, via `sase tool run --detach`, ceiling-bounded `sase tool wait`, and `sase monitor start -J/--join`.
@@ -15,7 +27,7 @@ An agent's `sase tool run` never loses a run to its provider's synchronous ceili
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1cx.1](sase-1cx.1.md) | sase-core starter scope, monitor join, and sync wait budget | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
+| [sase-1cx.1](sase-1cx.1.md) | sase-core starter scope, monitor join, and sync wait budget | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1cx.2](sase-1cx.2.md) | Configurable per-provider soft ceiling export | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cx.3](sase-1cx.3.md) | Starter-scoped detached runs and sase tool run --detach | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1cx.4](sase-1cx.4.md) | Ceiling-bounded wait, follow, and the escalation block | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -28,7 +40,7 @@ An agent's `sase tool run` never loses a run to its provider's synchronous ceili
 ```mermaid
 flowchart TD
     n0["sase-1cx: Inline-then-escalate ToolRuns (sase-17g) [in_progress]"]
-    n1["sase-1cx.1: sase-core starter scope, monitor join, and sync wait budget [in_progress]"]
+    n1["sase-1cx.1: sase-core starter scope, monitor join, and sync wait budget [closed]"]
     n2["sase-1cx.2: Configurable per-provider soft ceiling export [closed]"]
     n3["sase-1cx.3: Starter-scoped detached runs and sase tool run --detach [in_progress]"]
     n4["sase-1cx.4: Ceiling-bounded wait, follow, and the escalation block [in_progress]"]
@@ -58,7 +70,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cx.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.1.md) | [sase-1cx.1](sase-1cx.1.md) | 0 |
+| [bbugyi200.athena.sase-1cx.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.1.md) | [sase-1cx.1](sase-1cx.1.md) | 1 |
 | [bbugyi200.athena.sase-1cx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.2/README.md) | [sase-1cx.2](sase-1cx.2.md) | 1 |
 | [bbugyi200.athena.sase-1cx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.3/README.md) | [sase-1cx.3](sase-1cx.3.md) | 0 |
 | [bbugyi200.athena.sase-1cx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.4/README.md) | [sase-1cx.4](sase-1cx.4.md) | 0 |
@@ -72,3 +84,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8804865`](https://github.com/sase-org/sase/commit/8804865f84a795d798067fb1eb97c93f5b6cdd18) | feat(tool-runs): add soft-ceiling config with provider sync env export | [sase-1cx.2](sase-1cx.2.md) | 2026-09-29 20:48:25 EDT |
+| sase-core | [`sase-core@cee9f49`](https://github.com/sase-org/sase-core/commit/cee9f49aa53ae21958280141d21014f7d44a67fe) | feat(tool-run): add detached starter scope, monitor join, and sync wait budget | [sase-1cx.1](sase-1cx.1.md) | 2026-09-30 07:56:11 EDT |
