@@ -34,3 +34,15 @@ xprompt-flow: route the mini-xprompt request through the picker, lock the destin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3e03e0a`](https://github.com/sase-org/sase/commit/3e03e0add93766f27b9acea722c98b6ad9e3e183) | feat(mini-xprompt): route mini-xprompt flow through location-first picker | [sase-1cu.2](sase-1cu.2.md) | 2026-09-29 21:48:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cu.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cu.2.md
+
+<!-- sase:referenced-by:end -->
