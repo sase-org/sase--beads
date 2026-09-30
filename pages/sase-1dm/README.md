@@ -17,7 +17,7 @@
 |---|---|---|---|---|---:|---:|
 | [sase-1dm.1](sase-1dm.1.md) | Rust demand record, store column, and binding | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1dm.2](sase-1dm.2.md) | Record context, resource usage, and pytest worker grants | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
-| [sase-1dm.3](sase-1dm.3.md) | Rust stats report over the runs table | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dm.3](sase-1dm.3.md) | Rust stats report over the runs table | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dm.4](sase-1dm.4.md) | Stage, backtest, and pressure sections in the stats report | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dm.5](sase-1dm.5.md) | sase tool stats command, rendering, and docs | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["sase-1dm: sase tool stats and ToolRun demand instrumentation [in_progress]"]
     n1["sase-1dm.1: Rust demand record, store column, and binding [closed]"]
     n2["sase-1dm.2: Record context, resource usage, and pytest worker grants [in_progress]"]
-    n3["sase-1dm.3: Rust stats report over the runs table [in_progress]"]
+    n3["sase-1dm.3: Rust stats report over the runs table [closed]"]
     n4["sase-1dm.4: Stage, backtest, and pressure sections in the stats report [in_progress]"]
     n5["sase-1dm.5: sase tool stats command, rendering, and docs [in_progress]"]
     n0 --> n1
@@ -49,7 +49,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1dm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.1/README.md) | [sase-1dm.1](sase-1dm.1.md) | 1 |
 | [bbugyi200.athena.sase-1dm.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.2/README.md) | [sase-1dm.2](sase-1dm.2.md) | 0 |
-| [bbugyi200.athena.sase-1dm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.3/README.md) | [sase-1dm.3](sase-1dm.3.md) | 0 |
+| [bbugyi200.athena.sase-1dm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.3/README.md) | [sase-1dm.3](sase-1dm.3.md) | 1 |
 | [bbugyi200.athena.sase-1dm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.4/README.md) | [sase-1dm.4](sase-1dm.4.md) | 0 |
 | [bbugyi200.athena.sase-1dm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.5/README.md) | [sase-1dm.5](sase-1dm.5.md) | 0 |
 | [bbugyi200.athena.sase-1dm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.land/README.md) | [sase-1dm](README.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7a9ffad`](https://github.com/sase-org/sase-core/commit/7a9ffadcf6fcbd813b905082c82fb47c77425e50) | feat(tool-run): record per-run demand context, usage, and worker grants | [sase-1dm.1](sase-1dm.1.md) | 2026-09-30 16:50:33 EDT |
+| sase-core | [`sase-core@6e23783`](https://github.com/sase-org/sase-core/commit/6e23783d04da778b3be1d5ae6fc3b3e81cf1c830) | feat(tool-run): implement core-stats report for sase-1dm.3 | [sase-1dm.3](sase-1dm.3.md) | 2026-09-30 17:31:36 EDT |

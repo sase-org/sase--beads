@@ -18,7 +18,7 @@ core-demand: in sase-core, add the ToolRunDemandWire family, a demand_json runs 
 ## Dependencies
 
 - **Blocks:** [sase-1dm.2](sase-1dm.2.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dm.3](sase-1dm.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dm.3](sase-1dm.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -31,3 +31,15 @@ core-demand: in sase-core, add the ToolRunDemandWire family, a demand_json runs 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7a9ffad`](https://github.com/sase-org/sase-core/commit/7a9ffadcf6fcbd813b905082c82fb47c77425e50) | feat(tool-run): record per-run demand context, usage, and worker grants | [sase-1dm.1](sase-1dm.1.md) | 2026-09-30 16:50:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dm.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.1/README.md
+
+<!-- sase:referenced-by:end -->
