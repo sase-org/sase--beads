@@ -20,7 +20,7 @@ shared_store: add the reserved private attachments-private sidecar role (repo <p
 ## Dependencies
 
 - **Depends on:** [sase-1ck.4](sase-1ck.4.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1ck.6](sase-1ck.6.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1ck.6](sase-1ck.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

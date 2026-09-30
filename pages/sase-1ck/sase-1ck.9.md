@@ -14,7 +14,7 @@ lifecycle: add tombstone-based attachment purge, bead doctor attachment checks a
 ## Dependencies
 
 - **Blocks:** [sase-1ck.10](sase-1ck.10.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [sase-1ck.6](sase-1ck.6.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1ck.6](sase-1ck.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
