@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/jinja_variable_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/jinja_variable_completion.md
 
 <!-- sase:links:end -->
@@ -92,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1df.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.7/README.md) | [sase-1df.7](sase-1df.7.md) | 1 |
 | [bbugyi200.apollo.sase-1df.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.8.md) | [sase-1df.8](sase-1df.8.md) | 1 |
 | [bbugyi200.apollo.sase-1df.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.9.md) | [sase-1df.9](sase-1df.9.md) | 1 |
-| [bbugyi200.apollo.sase-1df.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.land.md) | [sase-1df](README.md) | 1 |
+| [bbugyi200.apollo.sase-1df.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.land.md) | [sase-1df](README.md) | 2 |
 
 ## Commits
 
@@ -109,3 +111,18 @@ flowchart TD
 | sase | [`9c867a3`](https://github.com/sase-org/sase/commit/9c867a38542226a925e4bda371d2d25ae6b9a8d4) | test(xprompt): LSP/adapter Jinja completion parity suite (sase-1df.9) | [sase-1df.9](sase-1df.9.md) | 2026-09-30 14:23:38 EDT |
 | sase | [`f3df35b`](https://github.com/sase-org/sase/commit/f3df35b79f58d6e9e537180e66d01f52846885d6) | feat(ace): add Jinja auto-menu prompt completion with pilot tests | [sase-1df.8](sase-1df.8.md) | 2026-09-30 15:07:39 EDT |
 | sase-core | [`sase-core@9bbf2d5`](https://github.com/sase-org/sase-core/commit/9bbf2d5145e3c9dc7d224cde6b543c037199cf3e) | feat(jinja): engine fixes for raw blocks, inert zones, docs, and catalog | [sase-1df](README.md) | 2026-09-30 17:04:58 EDT |
+| sase | [`580314c`](https://github.com/sase-org/sase/commit/580314cb1e031c0f19d1a424d1001d3fc1e7387a) | feat(xprompt): Jinja completion precedence, ghost suppression, and facade ownership | [sase-1df](README.md) | 2026-09-30 18:02:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d5.land][1] | Check whether this epic owns unmasked symvision unused-public symbols found while landing sase-1d5 | 1 |
+| read-by | [agent:sase-1df.land--1][2] | landing continuation fixes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1d5.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.land.md
+
+<!-- sase:referenced-by:end -->
