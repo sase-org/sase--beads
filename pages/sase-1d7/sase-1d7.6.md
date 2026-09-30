@@ -20,7 +20,7 @@ unread-chrome-helper: route every unread change through one helper that patches 
 ## Dependencies
 
 - **Depends on:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1d7.7](sase-1d7.7.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1d7.7](sase-1d7.7.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.8](sase-1d7.8.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
 
@@ -35,3 +35,15 @@ unread-chrome-helper: route every unread change through one helper that patches 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`30a04f9`](https://github.com/sase-org/sase/commit/30a04f9a31beb60da60f808611f680f045e1733e) | feat(agents): one batched unread chrome helper with no full rebuilds | [sase-1d7.6](sase-1d7.6.md) | 2026-09-30 11:59:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1d7.6][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.6/README.md
+
+<!-- sase:referenced-by:end -->
