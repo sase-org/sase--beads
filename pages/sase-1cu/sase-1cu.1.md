@@ -20,7 +20,7 @@ picker: build the pure choice builders (hotkeys, default rules, badges, previews
 ## Dependencies
 
 - **Blocks:** [sase-1cu.2](sase-1cu.2.md) ◐ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cu.3](sase-1cu.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cu.3](sase-1cu.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
@@ -33,3 +33,15 @@ picker: build the pure choice builders (hotkeys, default rules, badges, previews
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a4bbd3`](https://github.com/sase-org/sase/commit/1a4bbd3e7633959573b2bf616f7a0fbc23e3b22e) | feat(ace): add save location picker modal and choice builders | [sase-1cu.1](sase-1cu.1.md) | 2026-09-29 20:06:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cu.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cu.1/README.md
+
+<!-- sase:referenced-by:end -->
