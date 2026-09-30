@@ -19,7 +19,7 @@ picker: build the pure choice builders (hotkeys, default rules, badges, previews
 
 ## Dependencies
 
-- **Blocks:** [sase-1cu.2](sase-1cu.2.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cu.2](sase-1cu.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cu.3](sase-1cu.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
