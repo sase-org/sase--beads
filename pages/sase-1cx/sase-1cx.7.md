@@ -14,7 +14,7 @@ guidance-and-flag-removal: delete the flag's Off branches and close its bead. Re
 ## Dependencies
 
 - **Depends on:** [sase-1cx.5](sase-1cx.5.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [sase-1cx.6](sase-1cx.6.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [sase-1cx.6](sase-1cx.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

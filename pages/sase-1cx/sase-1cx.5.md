@@ -21,4 +21,4 @@ monitor-join: add `-J/--join RUN` to `sase monitor start`. It records the join a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.5/README.md) | [sase-1cx.5](sase-1cx.5.md) | 0 |
+| [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.5.md) | [sase-1cx.5](sase-1cx.5.md) | 0 |
