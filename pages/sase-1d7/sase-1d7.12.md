@@ -15,7 +15,7 @@ core-unread-ack-index: move completion acks and the unread completion index into
 
 - **Blocks:** [sase-1d7.13](sase-1d7.13.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.2](sase-1d7.2.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [sase-1d7.5](sase-1d7.5.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1d7.5](sase-1d7.5.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.8](sase-1d7.8.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [sase-1d7.9](sase-1d7.9.md) ◐ · ⧖ 2026-09-30
 

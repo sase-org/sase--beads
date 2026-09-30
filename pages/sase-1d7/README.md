@@ -23,7 +23,7 @@ Unread acknowledgments (`,u`, `,j`/`,J`, row-select) are never reverted by anoth
 | [sase-1d7.2](sase-1d7.2.md) | Atomic field-scoped reconcile write in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [sase-1d7.3](sase-1d7.3.md) | Trace spans, leader-key perf capture, and unread/idle benches | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1d7.4](sase-1d7.4.md) | Roster generation counter and cached projection index | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1d7.5](sase-1d7.5.md) | Sequence-fenced pending-ack overlay and monotonic snapshot cache | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1d7.5](sase-1d7.5.md) | Sequence-fenced pending-ack overlay and monotonic snapshot cache | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1d7.6](sase-1d7.6.md) | One batched unread chrome helper with no full rebuilds | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1d7.7](sase-1d7.7.md) | Precise bulk-ack scope and a time-bound explicit undo | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1d7.8](sase-1d7.8.md) | Read-free ack completion and a coalescing ack writer | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -42,7 +42,7 @@ flowchart TD
     n6["sase-1d7.2: Atomic field-scoped reconcile write in sase-core [closed]"]
     n7["sase-1d7.3: Trace spans, leader-key perf capture, and unread/idle benches [closed]"]
     n8["sase-1d7.4: Roster generation counter and cached projection index [closed]"]
-    n9["sase-1d7.5: Sequence-fenced pending-ack overlay and monotonic snapshot cache [in_progress]"]
+    n9["sase-1d7.5: Sequence-fenced pending-ack overlay and monotonic snapshot cache [closed]"]
     n10["sase-1d7.6: One batched unread chrome helper with no full rebuilds [in_progress]"]
     n11["sase-1d7.7: Precise bulk-ack scope and a time-bound explicit undo [in_progress]"]
     n12["sase-1d7.8: Read-free ack completion and a coalescing ack writer [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.2.md) | [sase-1d7.2](sase-1d7.2.md) | 2 |
 | [bbugyi200.athena.sase-1d7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.3/README.md) | [sase-1d7.3](sase-1d7.3.md) | 1 |
 | [bbugyi200.athena.sase-1d7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.4.md) | [sase-1d7.4](sase-1d7.4.md) | 1 |
-| [bbugyi200.athena.sase-1d7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.5.md) | [sase-1d7.5](sase-1d7.5.md) | 0 |
+| [bbugyi200.athena.sase-1d7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.5.md) | [sase-1d7.5](sase-1d7.5.md) | 1 |
 | [bbugyi200.athena.sase-1d7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.6/README.md) | [sase-1d7.6](sase-1d7.6.md) | 0 |
 | [bbugyi200.athena.sase-1d7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.7/README.md) | [sase-1d7.7](sase-1d7.7.md) | 0 |
 | [bbugyi200.athena.sase-1d7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.8/README.md) | [sase-1d7.8](sase-1d7.8.md) | 0 |
@@ -112,3 +112,4 @@ flowchart TD
 | sase | [`4ae3b32`](https://github.com/sase-org/sase/commit/4ae3b32f5cb7e43240c68a9537010055f455bcde) | feat(notifications): field-scoped reconcile write in sase-core with attention reconciler switch | [sase-1d7.2](sase-1d7.2.md) | 2026-09-30 10:04:00 EDT |
 | sase | [`8a00076`](https://github.com/sase-org/sase/commit/8a00076f1ffa374e9d604ea9f66a4b1881906843) | feat(agents): add roster generation counter and cached projection index | [sase-1d7.4](sase-1d7.4.md) | 2026-09-30 10:12:01 EDT |
 | sase | [`11ba54b`](https://github.com/sase-org/sase/commit/11ba54b3816412c082c2ca9ba93ad672247782a0) | feat(agents): cache wait-status maps and change-only runtime patching | [sase-1d7.10](sase-1d7.10.md) | 2026-09-30 11:08:32 EDT |
+| sase | [`63c7eb5`](https://github.com/sase-org/sase/commit/63c7eb57e2aef04349519c39e8d5db37a7468a02) | feat(agents): sequence-fenced pending-ack overlay and monotonic snapshot cache | [sase-1d7.5](sase-1d7.5.md) | 2026-09-30 11:12:34 EDT |
