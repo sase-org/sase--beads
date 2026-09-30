@@ -20,8 +20,8 @@ python: add the sase Jinja adapter and move the core pin. Delete the Python buil
 ## Dependencies
 
 - **Depends on:** [sase-1df.4](sase-1df.4.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1df.7](sase-1df.7.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [sase-1df.9](sase-1df.9.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.7](sase-1df.7.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.9](sase-1df.9.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -34,3 +34,15 @@ python: add the sase Jinja adapter and move the core pin. Delete the Python buil
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`85b2ce1`](https://github.com/sase-org/sase/commit/85b2ce10385b7809a96f8ca72fe80405934afa56) | feat(xprompt): add Jinja adapter over engine scope variables with parity tests | [sase-1df.6](sase-1df.6.md) | 2026-09-30 13:03:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1df.6--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1df.6.md
+
+<!-- sase:referenced-by:end -->

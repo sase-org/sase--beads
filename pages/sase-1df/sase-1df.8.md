@@ -13,7 +13,7 @@ tui-auto: open the menu the moment `{{`/`{%` auto-pair, on `|` and `.` inside ta
 
 ## Dependencies
 
-- **Depends on:** [sase-1df.7](sase-1df.7.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.7](sase-1df.7.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
