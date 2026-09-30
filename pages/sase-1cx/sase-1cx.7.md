@@ -39,3 +39,17 @@ guidance-and-flag-removal: delete the flag's Off branches and close its bead. Re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f3899b4`](https://github.com/sase-org/sase/commit/f3899b4171773a901037992a3788c1a9490e75a5) | feat(tool): remove tool\_run\_escalation flag and land inline-then-escalate guidance (sase-1cx.7) | [sase-1cx.7](sase-1cx.7.md) | 2026-09-30 15:14:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cx.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1d5.8--1][2] | check flag owner epic | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d5.8.md
+
+<!-- sase:referenced-by:end -->
