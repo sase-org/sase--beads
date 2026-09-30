@@ -13,7 +13,7 @@ python: add the sase Jinja adapter and move the core pin. Delete the Python buil
 
 ## Dependencies
 
-- **Depends on:** [sase-1df.4](sase-1df.4.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1df.4](sase-1df.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.7](sase-1df.7.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.9](sase-1df.9.md) ◐ · ⧖ 2026-09-30
 

@@ -21,7 +21,7 @@ assist: combine catalog and scope into ranked, fuzzy-matched candidates with ava
 
 - **Depends on:** [sase-1df.1](sase-1df.1.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1df.2](sase-1df.2.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1df.4](sase-1df.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1df.4](sase-1df.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1df.5](sase-1df.5.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
@@ -35,3 +35,15 @@ assist: combine catalog and scope into ranked, fuzzy-matched candidates with ava
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@edef846`](https://github.com/sase-org/sase-core/commit/edef8462771ec10d3769b384057b56fc0eb3ef5f) | feat(editor): add jinja assist completion, scope vars, docs and hover | [sase-1df.3](sase-1df.3.md) | 2026-09-30 10:56:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1df.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.3/README.md
+
+<!-- sase:referenced-by:end -->

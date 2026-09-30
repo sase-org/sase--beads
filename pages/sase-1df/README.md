@@ -30,7 +30,7 @@ Typing `{{` in sase's TUI prompt input, or in any editor that uses `sase-xprompt
 | [sase-1df.1](sase-1df.1.md) | Rust Jinja catalog and wire types | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1df.2](sase-1df.2.md) | Rust Jinja tag scanner, slot classifier, and scope analysis | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1df.3](sase-1df.3.md) | Rust Jinja completion, ranking, documentation, hover, and scope variables | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1df.4](sase-1df.4.md) | Python bindings for the Jinja engine | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
+| [sase-1df.4](sase-1df.4.md) | Python bindings for the Jinja engine | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [sase-1df.5](sase-1df.5.md) | sase-xprompt-lsp Jinja completion and hover | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1df.6](sase-1df.6.md) | Python adapter, single source of truth, lint, and parity tests | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1df.7](sase-1df.7.md) | TUI Jinja completion menu redesign | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["sase-1df.1: Rust Jinja catalog and wire types [closed]"]
     n2["sase-1df.2: Rust Jinja tag scanner, slot classifier, and scope analysis [closed]"]
     n3["sase-1df.3: Rust Jinja completion, ranking, documentation, hover, and scope variables [closed]"]
-    n4["sase-1df.4: Python bindings for the Jinja engine [in_progress]"]
+    n4["sase-1df.4: Python bindings for the Jinja engine [closed]"]
     n5["sase-1df.5: sase-xprompt-lsp Jinja completion and hover [in_progress]"]
     n6["sase-1df.6: Python adapter, single source of truth, lint, and parity tests [in_progress]"]
     n7["sase-1df.7: TUI Jinja completion menu redesign [in_progress]"]
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1df.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.1/README.md) | [sase-1df.1](sase-1df.1.md) | 1 |
 | [bbugyi200.apollo.sase-1df.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.2/README.md) | [sase-1df.2](sase-1df.2.md) | 1 |
 | [bbugyi200.apollo.sase-1df.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.3/README.md) | [sase-1df.3](sase-1df.3.md) | 1 |
-| [bbugyi200.apollo.sase-1df.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.4/README.md) | [sase-1df.4](sase-1df.4.md) | 0 |
+| [bbugyi200.apollo.sase-1df.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.4/README.md) | [sase-1df.4](sase-1df.4.md) | 1 |
 | [bbugyi200.apollo.sase-1df.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.5/README.md) | [sase-1df.5](sase-1df.5.md) | 0 |
 | [bbugyi200.apollo.sase-1df.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.6/README.md) | [sase-1df.6](sase-1df.6.md) | 0 |
 | [bbugyi200.apollo.sase-1df.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1df.7/README.md) | [sase-1df.7](sase-1df.7.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase-core | [`sase-core@8f06984`](https://github.com/sase-org/sase-core/commit/8f0698476b50b3b6f571ab9e8537a79152118e7a) | feat(editor): add Rust Jinja catalog and wire types | [sase-1df.1](sase-1df.1.md) | 2026-09-30 09:18:04 EDT |
 | sase-core | [`sase-core@a969aad`](https://github.com/sase-org/sase-core/commit/a969aad267b237a332110f96b380b56d997bb7f7) | feat(editor): add Jinja tag scanning, completion context, and document scope | [sase-1df.2](sase-1df.2.md) | 2026-09-30 10:02:38 EDT |
 | sase-core | [`sase-core@edef846`](https://github.com/sase-org/sase-core/commit/edef8462771ec10d3769b384057b56fc0eb3ef5f) | feat(editor): add jinja assist completion, scope vars, docs and hover | [sase-1df.3](sase-1df.3.md) | 2026-09-30 10:56:04 EDT |
+| sase-core | [`sase-core@3adc01b`](https://github.com/sase-org/sase-core/commit/3adc01b6fb1e9bea99cd97f9966481b4aeb27f01) | feat(editor-completion): add jinja completion bindings and tests | [sase-1df.4](sase-1df.4.md) | 2026-09-30 11:19:33 EDT |
