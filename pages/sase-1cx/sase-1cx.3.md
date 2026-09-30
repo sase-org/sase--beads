@@ -20,7 +20,7 @@ detach-run: pin the new core, create the `tool_run_escalation` beta flag, and sh
 ## Dependencies
 
 - **Depends on:** [sase-1cx.1](sase-1cx.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [sase-1cx.4](sase-1cx.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cx.4](sase-1cx.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.5](sase-1cx.5.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.6](sase-1cx.6.md) ◐ · ⧖ 2026-09-29
 
@@ -35,3 +35,15 @@ detach-run: pin the new core, create the `tool_run_escalation` beta flag, and sh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`018061f`](https://github.com/sase-org/sase/commit/018061f6f28a05fb35386d63e9a050fe57251f09) | feat(tool): implement starter scoped tool runs with detach and handoff | [sase-1cx.3](sase-1cx.3.md) | 2026-09-30 11:42:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1cx.3--2][1] | verification follow-up for detach-run phase: need bead state and evidence before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.3.md
+
+<!-- sase:referenced-by:end -->

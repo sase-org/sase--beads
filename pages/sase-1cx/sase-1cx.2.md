@@ -19,7 +19,7 @@ soft-ceiling: add the `tool_runs.soft_ceiling` config and export `SASE_PROVIDER_
 
 ## Dependencies
 
-- **Blocks:** [sase-1cx.4](sase-1cx.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [sase-1cx.4](sase-1cx.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [sase-1cx.6](sase-1cx.6.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

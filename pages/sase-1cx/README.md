@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 An agent's `sase tool run` never loses a run to its provider's synchronous ceiling: every run starts inline from the agent's point of view, and a run still going near the ceiling moves into a monitor under the same ToolRun id without being cancelled or rerun, via `sase tool run --detach`, ceiling-bounded `sase tool wait`, and `sase monitor start -J/--join`.
 
+## Notes
+
+[2026-09-30T15:51:35Z · sase-1d8.land] DISCOVERED ISSUE during sase-1d8 landing integration review: clean HEAD 018061f6f2 (feat(tool), sase-1cx.3) makes direct Symvision fail on seven unused public symbols from this active epic: HandoffSubmitResult, StarterResolution, escalation_enabled, owner_ref, tool_run_join, tool_run_release_join, tool_run_sync_wait_budget. These are all introduced in 018061f6f2 in src/sase/tool or src/sase/core/tool_run.py. Resolve or re-key to a still-open 1cx bead before its land; no prompt-history source is involved.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +36,7 @@ An agent's `sase tool run` never loses a run to its provider's synchronous ceili
 | [sase-1cx.1](sase-1cx.1.md) | sase-core starter scope, monitor join, and sync wait budget | ✓ closed | large | 2026-09-29 | 1 | 1 |
 | [sase-1cx.2](sase-1cx.2.md) | Configurable per-provider soft ceiling export | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cx.3](sase-1cx.3.md) | Starter-scoped detached runs and sase tool run --detach | ✓ closed | large | 2026-09-29 | 1 | 1 |
-| [sase-1cx.4](sase-1cx.4.md) | Ceiling-bounded wait, follow, and the escalation block | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [sase-1cx.4](sase-1cx.4.md) | Ceiling-bounded wait, follow, and the escalation block | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [sase-1cx.5](sase-1cx.5.md) | sase monitor start -J/--join and the joiner worker | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1cx.6](sase-1cx.6.md) | Agent sase tool run escalates instead of being killed | ◐ in_progress | large | 2026-09-29 | 1 | 0 |
 | [sase-1cx.7](sase-1cx.7.md) | Agent guidance, docs, live harness case, and flag removal | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -45,7 +49,7 @@ flowchart TD
     n1["sase-1cx.1: sase-core starter scope, monitor join, and sync wait budget [closed]"]
     n2["sase-1cx.2: Configurable per-provider soft ceiling export [closed]"]
     n3["sase-1cx.3: Starter-scoped detached runs and sase tool run --detach [closed]"]
-    n4["sase-1cx.4: Ceiling-bounded wait, follow, and the escalation block [in_progress]"]
+    n4["sase-1cx.4: Ceiling-bounded wait, follow, and the escalation block [closed]"]
     n5["sase-1cx.5: sase monitor start -J/--join and the joiner worker [in_progress]"]
     n6["sase-1cx.6: Agent sase tool run escalates instead of being killed [in_progress]"]
     n7["sase-1cx.7: Agent guidance, docs, live harness case, and flag removal [in_progress]"]
@@ -75,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cx.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.1.md) | [sase-1cx.1](sase-1cx.1.md) | 1 |
 | [bbugyi200.athena.sase-1cx.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.2/README.md) | [sase-1cx.2](sase-1cx.2.md) | 1 |
 | [bbugyi200.athena.sase-1cx.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cx.3.md) | [sase-1cx.3](sase-1cx.3.md) | 1 |
-| [bbugyi200.athena.sase-1cx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.4/README.md) | [sase-1cx.4](sase-1cx.4.md) | 0 |
+| [bbugyi200.athena.sase-1cx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.4/README.md) | [sase-1cx.4](sase-1cx.4.md) | 1 |
 | [bbugyi200.athena.sase-1cx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.5/README.md) | [sase-1cx.5](sase-1cx.5.md) | 0 |
 | [bbugyi200.athena.sase-1cx.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.6/README.md) | [sase-1cx.6](sase-1cx.6.md) | 0 |
 | [bbugyi200.athena.sase-1cx.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cx.7/README.md) | [sase-1cx.7](sase-1cx.7.md) | 0 |
@@ -88,6 +92,7 @@ flowchart TD
 | sase | [`8804865`](https://github.com/sase-org/sase/commit/8804865f84a795d798067fb1eb97c93f5b6cdd18) | feat(tool-runs): add soft-ceiling config with provider sync env export | [sase-1cx.2](sase-1cx.2.md) | 2026-09-29 20:48:25 EDT |
 | sase-core | [`sase-core@cee9f49`](https://github.com/sase-org/sase-core/commit/cee9f49aa53ae21958280141d21014f7d44a67fe) | feat(tool-run): add detached starter scope, monitor join, and sync wait budget | [sase-1cx.1](sase-1cx.1.md) | 2026-09-30 07:56:11 EDT |
 | sase | [`018061f`](https://github.com/sase-org/sase/commit/018061f6f28a05fb35386d63e9a050fe57251f09) | feat(tool): implement starter scoped tool runs with detach and handoff | [sase-1cx.3](sase-1cx.3.md) | 2026-09-30 11:42:24 EDT |
+| sase | [`ba63b3d`](https://github.com/sase-org/sase/commit/ba63b3d37cd861218346819fee99ded36a73af7c) | feat(tool): add bounded wait with escalation budget for show and wait | [sase-1cx.4](sase-1cx.4.md) | 2026-09-30 12:20:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
