@@ -58,7 +58,7 @@ flowchart TD
     n4["sase-1cj.12: Finish next-word prediction correctness, budgets, and calibration [in_progress]"]
     n5["sase-1cj.12.1: Core tokenizer, support, and origin correctness in sase-core [closed]"]
     n6["sase-1cj.12.2: TUI ghost, ranking gate, warm-cache fixes, and epic-symbol cleanup [closed]"]
-    n7["sase-1cj.12.3: Meet the prompt prediction latency, compile, and memory budgets [in_progress]"]
+    n7["sase-1cj.12.3: Meet the prompt prediction latency, compile, and memory budgets [closed]"]
     n8["sase-1cj.12.4: Recalibrate presets and settle the archive default [in_progress]"]
     n9["sase-1cj.12.5: Goldens, live screenshots, and docs [in_progress]"]
     n10["sase-1cj.2: Record typed vs generated origin on prompt history rows [closed]"]
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1cj.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.11/README.md) | [sase-1cj.11](sase-1cj.11.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.1/README.md) | [sase-1cj.12.1](sase-1cj.12.1.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.2/README.md) | [sase-1cj.12.2](sase-1cj.12.2.md) | 1 |
-| [bbugyi200.athena.sase-1cj.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.3/README.md) | [sase-1cj.12.3](sase-1cj.12.3.md) | 0 |
+| [bbugyi200.athena.sase-1cj.12.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1cj.12.3.md) | [sase-1cj.12.3](sase-1cj.12.3.md) | 1 |
 | [bbugyi200.athena.sase-1cj.12.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.4/README.md) | [sase-1cj.12.4](sase-1cj.12.4.md) | 0 |
 | [bbugyi200.athena.sase-1cj.12.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.5/README.md) | [sase-1cj.12.5](sase-1cj.12.5.md) | 0 |
 | [bbugyi200.athena.sase-1cj.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1cj.12.land/README.md) | [sase-1cj.12](sase-1cj.12.md) | 0 |
@@ -149,6 +149,7 @@ flowchart TD
 | sase | [`5480df7`](https://github.com/sase-org/sase/commit/5480df7af80ebd35684416f54a408a79f2d4dbb2) | feat(sase-1cj.10): cross-machine prompt archive as low-weight opt-in source | [sase-1cj.10](sase-1cj.10.md) | 2026-09-29 17:52:30 EDT |
 | sase | [`e0256a9`](https://github.com/sase-org/sase/commit/e0256a98025b1b8119590e8b2e6e41856272aa11) | fix(tui): prompt prediction ghost, ranking gate, cache and archive fixes | [sase-1cj.12.2](sase-1cj.12.2.md) | 2026-09-29 18:51:32 EDT |
 | sase-core | [`sase-core@cfc6385`](https://github.com/sase-org/sase-core/commit/cfc6385b8a86e9e625c6e85fba37cb16fec86c8f) | fix(prompt\_prediction): salvage unlanded core-correctness patch onto origin/master | [sase-1cj.12.1](sase-1cj.12.1.md) | 2026-09-30 07:24:06 EDT |
+| sase-core | [`sase-core@8c97d9b`](https://github.com/sase-org/sase-core/commit/8c97d9b242e2d54f1914fa20db4bde41d6b5c512) | feat(prompt-prediction): add sase\_core prompt prediction module | [sase-1cj.12.3](sase-1cj.12.3.md) | 2026-09-30 10:39:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
