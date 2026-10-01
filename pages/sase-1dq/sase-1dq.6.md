@@ -36,3 +36,15 @@ midword-autosuggest: in auto mode, each typed word character requests complete_c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e2cec53`](https://github.com/sase-org/sase/commit/e2cec539ef49d0bf7edacd9e17f9f458880c4119) | feat(ace): add next-word midword ghost completion and peek display | [sase-1dq.6](sase-1dq.6.md) | 2026-10-01 04:11:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md
+
+<!-- sase:referenced-by:end -->

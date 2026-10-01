@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1dq.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.6.md) | [sase-1dq.6](sase-1dq.6.md) | 1 |
 | [bbugyi200.athena.sase-1dq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md) | [sase-1dq.7](sase-1dq.7.md) | 1 |
 | [bbugyi200.athena.sase-1dq.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.8.md) | [sase-1dq.8](sase-1dq.8.md) | 1 |
-| [bbugyi200.athena.sase-1dq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md) | [sase-1dq](README.md) | 1 |
+| [bbugyi200.athena.sase-1dq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md) | [sase-1dq](README.md) | 2 |
 
 ## Commits
 
@@ -92,3 +92,16 @@ flowchart TD
 | sase | [`3cc13e4`](https://github.com/sase-org/sase/commit/3cc13e4ebf31f78b202bd449e59fe0b0d7f767e5) | feat(ace): add next-word autosuggest to gate note editor | [sase-1dq.7](sase-1dq.7.md) | 2026-10-01 04:46:14 EDT |
 | sase | [`0abe894`](https://github.com/sase-org/sase/commit/0abe8941403e1c230e4bee2df19b22e22f2b399a) | feat(ace): complete bead sase-1dq.8 next-word and prompt completion work | [sase-1dq.8](sase-1dq.8.md) | 2026-10-01 06:00:14 EDT |
 | sase | [`4f91c2d`](https://github.com/sase-org/sase/commit/4f91c2dfccd80b53008cba824da8bdf369368a6d) | fix(ace): land sase-1dq next-word autosuggest | [sase-1dq](README.md) | 2026-10-01 07:31:45 EDT |
+| sase--plans | [`sase--plans@0c82803`](https://github.com/sase-org/sase--plans/commit/0c82803d105a4ff4bac286d8585a2cce6fa69b11) | chore(plans): mark next\_word\_autosuggest plan done (sase-1dq) | [sase-1dq](README.md) | 2026-10-01 07:35:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.land][1] | Need the epic scope, children, and linked plan file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md
+
+<!-- sase:referenced-by:end -->

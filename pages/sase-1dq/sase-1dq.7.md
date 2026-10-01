@@ -41,7 +41,9 @@ gate-note-autosuggest: host the ghost display layer in the GateInputPanel note e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1dq.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1dq.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md
 
 <!-- sase:referenced-by:end -->
