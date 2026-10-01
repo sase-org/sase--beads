@@ -13,7 +13,7 @@ picker: turn picker rows into structured, column-aligned, never-wrapping rows; a
 
 ## Dependencies
 
-- **Depends on:** [sase-1ef.2](sase-1ef.2.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1ef.2](sase-1ef.2.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1ef.5](sase-1ef.5.md) ◐ · ⧖ 2026-10-01
 
 ## Agents

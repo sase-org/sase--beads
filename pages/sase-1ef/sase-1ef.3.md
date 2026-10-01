@@ -13,7 +13,7 @@ band: rebuild the time band around a playhead scrubber with labelled ends, absol
 
 ## Dependencies
 
-- **Depends on:** [sase-1ef.2](sase-1ef.2.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1ef.2](sase-1ef.2.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1ef.5](sase-1ef.5.md) ◐ · ⧖ 2026-10-01
 
 ## Agents

@@ -21,7 +21,7 @@ identity: add the pure VersionMoment model and step function that every surface 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ef.2](sase-1ef.2.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1ef.2](sase-1ef.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -34,3 +34,15 @@ identity: add the pure VersionMoment model and step function that every surface 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`45ece4f`](https://github.com/sase-org/sase/commit/45ece4f1d001c0793f44ca6f71c4b303361ed108) | feat(pager): version identity model with honest numbering and reliable attachment | [sase-1ef.1](sase-1ef.1.md) | 2026-10-01 17:04:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ef.1--2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ef.1.md
+
+<!-- sase:referenced-by:end -->
