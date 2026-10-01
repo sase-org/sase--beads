@@ -32,3 +32,15 @@ autosuggest-default: flip ace.prompt_completion.next_word from chain to auto in 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0abe894`](https://github.com/sase-org/sase/commit/0abe8941403e1c230e4bee2df19b22e22f2b399a) | feat(ace): complete bead sase-1dq.8 next-word and prompt completion work | [sase-1dq.8](sase-1dq.8.md) | 2026-10-01 06:00:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.8.md
+
+<!-- sase:referenced-by:end -->
