@@ -20,7 +20,7 @@ gate-note-autosuggest: host the ghost display layer in the GateInputPanel note e
 ## Dependencies
 
 - **Depends on:** [sase-1dq.6](sase-1dq.6.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dq.8](sase-1dq.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dq.8](sase-1dq.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ gate-note-autosuggest: host the ghost display layer in the GateInputPanel note e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3cc13e4`](https://github.com/sase-org/sase/commit/3cc13e4ebf31f78b202bd449e59fe0b0d7f767e5) | feat(ace): add next-word autosuggest to gate note editor | [sase-1dq.7](sase-1dq.7.md) | 2026-10-01 04:46:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md
+
+<!-- sase:referenced-by:end -->
