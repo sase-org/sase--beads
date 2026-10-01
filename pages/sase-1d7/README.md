@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-1ds][1] | Epic whose ack pipeline (_unread_ack_writer, ack_agent_completions) this dismiss path should reuse |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ds/README.md
 
@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1d7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d7.7/README.md) | [sase-1d7.7](sase-1d7.7.md) | 1 |
 | [bbugyi200.athena.sase-1d7.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.8.md) | [sase-1d7.8](sase-1d7.8.md) | 1 |
 | [bbugyi200.athena.sase-1d7.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.9.md) | [sase-1d7.9](sase-1d7.9.md) | 1 |
-| [bbugyi200.athena.sase-1d7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.land.md) | [sase-1d7](README.md) | 1 |
+| [bbugyi200.athena.sase-1d7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.land.md) | [sase-1d7](README.md) | 2 |
 
 ## Commits
 
@@ -145,6 +145,7 @@ flowchart TD
 | sase-core | [`sase-core@5a59e78`](https://github.com/sase-org/sase-core/commit/5a59e7859ed39d41f59f0ae1d5eb902c65f0b410) | feat(notifications): 3-day archival retention and wait\_checks 32-entry plus-one cap | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 18:38:36 EDT |
 | sase | [`788a931`](https://github.com/sase-org/sase/commit/788a9311f8e6bada7f030f28c47126322e75ad8e) | feat(notifications): shorten dismissed retention to 3 days and bound wait\_checks payloads | [sase-1d7.13](sase-1d7.13.md) | 2026-09-30 19:23:54 EDT |
 | sase | [`517e2a6`](https://github.com/sase-org/sase/commit/517e2a629d87e90ecc8b4776d9c8b42745ff1268) | feat(agents): land unread-ack reliability and TUI responsiveness remaining steps | [sase-1d7](README.md) | 2026-09-30 21:43:35 EDT |
+| sase--plans | [`sase--plans@2e0d068`](https://github.com/sase-org/sase--plans/commit/2e0d0682d53050f158f120f4dfd13c93b67aeda4) | docs(plans): mark sase-1d7 land-remaining done | [sase-1d7](README.md) | 2026-09-30 21:47:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -153,7 +154,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1d5.land][1] | Check whether this epic owns unmasked symvision unused-public symbols found while landing sase-1d5 | 1 |
+| read-by | [agent:sase-1d7.land--1][2] | implement approved land-remaining plan and repair just check failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1d5.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1d7.land.md
 
 <!-- sase:referenced-by:end -->
