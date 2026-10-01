@@ -13,7 +13,7 @@ midword-autosuggest: in auto mode, each typed word character requests complete_c
 
 ## Dependencies
 
-- **Depends on:** [sase-1dq.2](sase-1dq.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dq.2](sase-1dq.2.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dq.5](sase-1dq.5.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dq.7](sase-1dq.7.md) ◐ · ⧖ 2026-09-30
 

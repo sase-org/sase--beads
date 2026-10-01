@@ -17,7 +17,7 @@ core-word-completion: add an opt-in complete_current_word request and a word_com
 
 ## Dependencies
 
-- **Blocks:** [sase-1dq.2](sase-1dq.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dq.2](sase-1dq.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-word-completion: add an opt-in complete_current_word request and a word_com
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cd26011`](https://github.com/sase-org/sase-core/commit/cd260110a21a217c19de585584e7f83260d2986d) | feat(prompt\_prediction): gated current-word completion | [sase-1dq.1](sase-1dq.1.md) | 2026-09-30 22:39:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.1/README.md
+
+<!-- sase:referenced-by:end -->
