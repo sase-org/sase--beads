@@ -33,3 +33,15 @@ stats-cli: pin the core, add the Python facade and the sase tool stats subcomman
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`be6daf9`](https://github.com/sase-org/sase/commit/be6daf95d156f7df1a95d2ac3055ff400fd4cad2) | feat(tool): add sase tool stats report command | [sase-1dm.5](sase-1dm.5.md) | 2026-09-30 19:57:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dm.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.5/README.md
+
+<!-- sase:referenced-by:end -->
