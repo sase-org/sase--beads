@@ -13,7 +13,7 @@ word-completion-calibration: add a mid-word replay mode and calibrate min_prefix
 
 ## Dependencies
 
-- **Depends on:** [sase-1dq.1](sase-1dq.1.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dq.1](sase-1dq.1.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dq.6](sase-1dq.6.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
