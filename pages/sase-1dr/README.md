@@ -37,7 +37,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | [sase-1dr.3](sase-1dr.3.md) | Generic git file-history index in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.4](sase-1dr.4.md) | Memory history semantics, cache, and query bindings in sase-core | ✓ closed | large | 2026-09-30 | 1 | 0 |
 | [sase-1dr.5](sase-1dr.5.md) | Python history service and the sase memory history CLI | ✓ closed | medium | 2026-09-30 | 1 | 2 |
-| [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
+| [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ✓ closed | large | 2026-09-30 | 1 | 1 |
 | [sase-1dr.7](sase-1dr.7.md) | Time band chrome, sparkline, and honest states | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.8](sase-1dr.8.md) | Word-diff view and change navigation | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.9](sase-1dr.9.md) | Timeline picker with two-point compare | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -60,7 +60,7 @@ flowchart TD
     n11["sase-1dr.4.1.3: Instruction causes, changesets, and the merged feed [closed]"]
     n12["sase-1dr.4.1.4: Snapshot cache, upstream marker, and query bindings [closed]"]
     n13["sase-1dr.5: Python history service and the sase memory history CLI [closed]"]
-    n14["sase-1dr.6: Pager time axis and read view [in_progress]"]
+    n14["sase-1dr.6: Pager time axis and read view [closed]"]
     n15["sase-1dr.7: Time band chrome, sparkline, and honest states [in_progress]"]
     n16["sase-1dr.8: Word-diff view and change navigation [in_progress]"]
     n17["sase-1dr.9: Timeline picker with two-point compare [in_progress]"]
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.4/README.md) | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md) | [sase-1dr.5](sase-1dr.5.md) | 2 |
-| [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.6/README.md) | [sase-1dr.6](sase-1dr.6.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.6.md) | [sase-1dr.6](sase-1dr.6.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.7/README.md) | [sase-1dr.7](sase-1dr.7.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.8/README.md) | [sase-1dr.8](sase-1dr.8.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.9/README.md) | [sase-1dr.9](sase-1dr.9.md) | 0 |
@@ -137,6 +137,7 @@ flowchart TD
 | sase--plans | [`sase--plans@7d55fe6`](https://github.com/sase-org/sase--plans/commit/7d55fe66d5b58923ddbcb3fb169c48bf2f8a3072) | docs(plan): mark the memory history core epic done | [sase-1dr.4.1](sase-1dr.4.1.md) | 2026-10-01 00:29:43 EDT |
 | sase-core | [`sase-core@62788b4`](https://github.com/sase-org/sase-core/commit/62788b4004039c1e119e7dcee61b29309bfd2505) | feat(sase-1dr.5): file history runner support in sase-core | [sase-1dr.5](sase-1dr.5.md) | 2026-10-01 02:21:24 EDT |
 | sase | [`ebf070e`](https://github.com/sase-org/sase/commit/ebf070e16ae0b24bf889d582c574d01752bb6d54) | fix(sase-1dr.5): resolve phase-owned symvision failures in memory history | [sase-1dr.5](sase-1dr.5.md) | 2026-10-01 02:52:07 EDT |
+| sase | [`92c6337`](https://github.com/sase-org/sase/commit/92c6337de85b89f42b15a481a474f84091139aeb) | feat(sase-1dr.6): pager time axis and read view with memory provider, plus completion snapshot sync | [sase-1dr.6](sase-1dr.6.md) | 2026-10-01 06:46:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -30,7 +30,7 @@ history-cli: add the thin facade and wire types, a scope builder for project and
 ## Dependencies
 
 - **Depends on:** [sase-1dr.4](sase-1dr.4.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dr.6](sase-1dr.6.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.6](sase-1dr.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
