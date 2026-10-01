@@ -20,7 +20,7 @@ reading-anchor: add a pure (section, line, row-offset) reading anchor. A pane th
 ## Dependencies
 
 - **Depends on:** [sase-1eg.1](sase-1eg.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1eg.3](sase-1eg.3.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1eg.3](sase-1eg.3.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ reading-anchor: add a pure (section, line, row-offset) reading anchor. A pane th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c17fc97`](https://github.com/sase-org/sase/commit/c17fc978d3d705618d31af84ac5a2dbc08f8c61e) | feat(pager): keep the reading line fixed across width changes | [sase-1eg.2](sase-1eg.2.md) | 2026-10-01 17:55:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eg.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.2/README.md
+
+<!-- sase:referenced-by:end -->

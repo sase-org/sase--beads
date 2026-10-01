@@ -13,7 +13,7 @@ other-pane-follow: ctrl+w arms an 'other pane' follow. A painted label then open
 
 ## Dependencies
 
-- **Depends on:** [sase-1eg.3](sase-1eg.3.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1eg.3](sase-1eg.3.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1eg.5](sase-1eg.5.md) ◐ · ⧖ 2026-10-01
 
 ## Agents
