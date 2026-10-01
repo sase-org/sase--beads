@@ -20,7 +20,7 @@ classify: assign every committed version a class, a hidden-by-default bit, a sum
 ## Dependencies
 
 - **Depends on:** [sase-1dr.4.1.1](sase-1dr.4.1.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dr.4.1.3](sase-1dr.4.1.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.4.1.3](sase-1dr.4.1.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ classify: assign every committed version a class, a hidden-by-default bit, a sum
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1c49a65`](https://github.com/sase-org/sase-core/commit/1c49a650c66f5ad05e3c860549abecffe1bc6789) | feat(memory-history): add subject classifier with priority list and summary | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 2026-09-30 22:04:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.4.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->

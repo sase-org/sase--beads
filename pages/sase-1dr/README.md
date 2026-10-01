@@ -57,7 +57,7 @@ flowchart TD
     n8["sase-1dr.4.1: Memory history semantics, cache, and query bindings in sase-core [in_progress]"]
     n9["sase-1dr.4.1.1: Subject identity, shim aliasing, and the fixture corpus [closed]"]
     n10["sase-1dr.4.1.2: Version classes, summaries, and commit provenance [closed]"]
-    n11["sase-1dr.4.1.3: Instruction causes, changesets, and the merged feed [in_progress]"]
+    n11["sase-1dr.4.1.3: Instruction causes, changesets, and the merged feed [closed]"]
     n12["sase-1dr.4.1.4: Snapshot cache, upstream marker, and query bindings [in_progress]"]
     n13["sase-1dr.5: Python history service and the sase memory history CLI [in_progress]"]
     n14["sase-1dr.6: Pager time axis and read view [in_progress]"]
@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.4.md) | [sase-1dr.4](sase-1dr.4.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.1/README.md) | [sase-1dr.4.1.1](sase-1dr.4.1.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.2/README.md) | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.4/README.md) | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.5/README.md) | [sase-1dr.5](sase-1dr.5.md) | 0 |
@@ -131,6 +131,7 @@ flowchart TD
 | sase-core | [`sase-core@a031ee4`](https://github.com/sase-org/sase-core/commit/a031ee4fe9e887a4563f2a6748b4b277ce5a21ed) | feat(file-history): generic git file-history index in sase-core | [sase-1dr.3](sase-1dr.3.md) | 2026-09-30 20:20:42 EDT |
 | sase-core | [`sase-core@26ffc55`](https://github.com/sase-org/sase-core/commit/26ffc55d33c3c25a8a0806834cc51e9e6349ed7e) | feat(memory-history): subject identity, shim aliasing, and fixture corpus | [sase-1dr.4.1.1](sase-1dr.4.1.1.md) | 2026-09-30 21:26:16 EDT |
 | sase-core | [`sase-core@1c49a65`](https://github.com/sase-org/sase-core/commit/1c49a650c66f5ad05e3c860549abecffe1bc6789) | feat(memory-history): add subject classifier with priority list and summary | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 2026-09-30 22:04:25 EDT |
+| sase-core | [`sase-core@f15f538`](https://github.com/sase-org/sase-core/commit/f15f5385b1c14fcf165714d931be2b056db0c358) | feat(memory-history): attribute instruction causes and build merged feed | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 2026-09-30 22:42:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

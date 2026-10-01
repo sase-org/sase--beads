@@ -13,7 +13,7 @@ cache-queries: persist the per-scope snapshot, report how far origin is ahead, a
 
 ## Dependencies
 
-- **Depends on:** [sase-1dr.4.1.3](sase-1dr.4.1.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.4.1.3](sase-1dr.4.1.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
