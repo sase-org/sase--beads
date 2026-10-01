@@ -32,3 +32,15 @@ cache-queries: persist the per-scope snapshot, report how far origin is ahead, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@11f29c3`](https://github.com/sase-org/sase-core/commit/11f29c3385acfd4d2e2f165192b796b8b954d731) | feat(memory-history): add cache-backed query layer with python bindings | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 2026-09-30 23:38:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.4.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

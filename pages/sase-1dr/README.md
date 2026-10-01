@@ -35,7 +35,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | [sase-1dr.12](sase-1dr.12.md) | Unflag, document, and verify end to end | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1dr.2](sase-1dr.2.md) | Prose-aware comparison engine in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.3](sase-1dr.3.md) | Generic git file-history index in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dr.4](sase-1dr.4.md) | Memory history semantics, cache, and query bindings in sase-core | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
+| [sase-1dr.4](sase-1dr.4.md) | Memory history semantics, cache, and query bindings in sase-core | ✓ closed | large | 2026-09-30 | 1 | 0 |
 | [sase-1dr.5](sase-1dr.5.md) | Python history service and the sase memory history CLI | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1dr.7](sase-1dr.7.md) | Time band chrome, sparkline, and honest states | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -53,8 +53,8 @@ flowchart TD
     n4["sase-1dr.12: Unflag, document, and verify end to end [in_progress]"]
     n5["sase-1dr.2: Prose-aware comparison engine in sase-core [closed]"]
     n6["sase-1dr.3: Generic git file-history index in sase-core [closed]"]
-    n7["sase-1dr.4: Memory history semantics, cache, and query bindings in sase-core [in_progress]"]
-    n8["sase-1dr.4.1: Memory history semantics, cache, and query bindings in sase-core [in_progress]"]
+    n7["sase-1dr.4: Memory history semantics, cache, and query bindings in sase-core [closed]"]
+    n8["sase-1dr.4.1: Memory history semantics, cache, and query bindings in sase-core [closed]"]
     n9["sase-1dr.4.1.1: Subject identity, shim aliasing, and the fixture corpus [closed]"]
     n10["sase-1dr.4.1.2: Version classes, summaries, and commit provenance [closed]"]
     n11["sase-1dr.4.1.3: Instruction causes, changesets, and the merged feed [closed]"]
@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.2/README.md) | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.4/README.md) | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.5/README.md) | [sase-1dr.5](sase-1dr.5.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.6/README.md) | [sase-1dr.6](sase-1dr.6.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.7/README.md) | [sase-1dr.7](sase-1dr.7.md) | 0 |
@@ -134,6 +134,7 @@ flowchart TD
 | sase-core | [`sase-core@f15f538`](https://github.com/sase-org/sase-core/commit/f15f5385b1c14fcf165714d931be2b056db0c358) | feat(memory-history): attribute instruction causes and build merged feed | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 2026-09-30 22:42:14 EDT |
 | sase | [`297faf1`](https://github.com/sase-org/sase/commit/297faf1d381032a7bacbc2594ff2a793e05ba995) | feat(memory): tracking guarantees and as-seen evidence capture | [sase-1dr.1](sase-1dr.1.md) | 2026-09-30 22:44:48 EDT |
 | sase-core | [`sase-core@11f29c3`](https://github.com/sase-org/sase-core/commit/11f29c3385acfd4d2e2f165192b796b8b954d731) | feat(memory-history): add cache-backed query layer with python bindings | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 2026-09-30 23:38:21 EDT |
+| sase--plans | [`sase--plans@7d55fe6`](https://github.com/sase-org/sase--plans/commit/7d55fe66d5b58923ddbcb3fb169c48bf2f8a3072) | docs(plan): mark the memory history core epic done | [sase-1dr.4.1](sase-1dr.4.1.md) | 2026-10-01 00:29:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

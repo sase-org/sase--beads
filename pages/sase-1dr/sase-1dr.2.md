@@ -19,7 +19,7 @@ prose-diff: add a pure sase-core `prose_diff` module and binding. Given two Mark
 
 ## Dependencies
 
-- **Blocks:** [sase-1dr.4](sase-1dr.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.4](sase-1dr.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
