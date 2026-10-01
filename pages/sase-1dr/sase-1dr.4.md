@@ -14,7 +14,7 @@ memory-history-core: build the semantic layer over file_history. This covers sub
 ## Dependencies
 
 - **Depends on:** [sase-1dr.2](sase-1dr.2.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [sase-1dr.3](sase-1dr.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.3](sase-1dr.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.5](sase-1dr.5.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

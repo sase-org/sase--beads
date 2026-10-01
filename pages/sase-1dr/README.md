@@ -32,7 +32,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | [sase-1dr.11](sase-1dr.11.md) | Memory panel entry points and History row | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.12](sase-1dr.12.md) | Unflag, document, and verify end to end | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1dr.2](sase-1dr.2.md) | Prose-aware comparison engine in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dr.3](sase-1dr.3.md) | Generic git file-history index in sase-core | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.3](sase-1dr.3.md) | Generic git file-history index in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.4](sase-1dr.4.md) | Memory history semantics, cache, and query bindings in sase-core | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
 | [sase-1dr.5](sase-1dr.5.md) | Python history service and the sase memory history CLI | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ◐ in_progress | large | 2026-09-30 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n3["sase-1dr.11: Memory panel entry points and History row [in_progress]"]
     n4["sase-1dr.12: Unflag, document, and verify end to end [in_progress]"]
     n5["sase-1dr.2: Prose-aware comparison engine in sase-core [closed]"]
-    n6["sase-1dr.3: Generic git file-history index in sase-core [in_progress]"]
+    n6["sase-1dr.3: Generic git file-history index in sase-core [closed]"]
     n7["sase-1dr.4: Memory history semantics, cache, and query bindings in sase-core [in_progress]"]
     n8["sase-1dr.5: Python history service and the sase memory history CLI [in_progress]"]
     n9["sase-1dr.6: Pager time axis and read view [in_progress]"]
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.11/README.md) | [sase-1dr.11](sase-1dr.11.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.12/README.md) | [sase-1dr.12](sase-1dr.12.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.2/README.md) | [sase-1dr.2](sase-1dr.2.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md) | [sase-1dr.3](sase-1dr.3.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md) | [sase-1dr.3](sase-1dr.3.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4/README.md) | [sase-1dr.4](sase-1dr.4.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.5/README.md) | [sase-1dr.5](sase-1dr.5.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.6/README.md) | [sase-1dr.6](sase-1dr.6.md) | 0 |
@@ -108,3 +108,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3b27df5`](https://github.com/sase-org/sase-core/commit/3b27df51a78b33be41429b0adb7ed869c05eb1fe) | feat(prose-diff): add pure sase-core prose\_diff module and Python binding | [sase-1dr.2](sase-1dr.2.md) | 2026-09-30 20:11:23 EDT |
+| sase-core | [`sase-core@a031ee4`](https://github.com/sase-org/sase-core/commit/a031ee4fe9e887a4563f2a6748b4b277ce5a21ed) | feat(file-history): generic git file-history index in sase-core | [sase-1dr.3](sase-1dr.3.md) | 2026-09-30 20:20:42 EDT |
