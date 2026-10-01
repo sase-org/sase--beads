@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/memory_history_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/memory_history_core.md
 
 <!-- sase:links:end -->
@@ -37,10 +39,16 @@ Follow-ups. All four phases proposed the same clean-base sase-core clippy -D war
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 1 |
+| [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--plans | [`sase--plans@7d55fe6`](https://github.com/sase-org/sase--plans/commit/7d55fe66d5b58923ddbcb3fb169c48bf2f8a3072) | docs(plan): mark the memory history core epic done | [sase-1dr.4.1](sase-1dr.4.1.md) | 2026-10-01 00:29:43 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.4.1.land][1] | Need the epic scope, children, and linked plan file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->

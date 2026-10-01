@@ -19,10 +19,22 @@ memory-history-core: build the semantic layer over file_history. This covers sub
 
 - **Depends on:** [sase-1dr.2](sase-1dr.2.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.3](sase-1dr.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dr.5](sase-1dr.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.5](sase-1dr.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1dr.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.4.md) | [sase-1dr.4](sase-1dr.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.4.1.land][1] | Need parent phase status and notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->
