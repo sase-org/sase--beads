@@ -22,8 +22,8 @@ badge: route every history colour through a theme-aware style set; replace the s
 ## Dependencies
 
 - **Depends on:** [sase-1ef.1](sase-1ef.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1ef.3](sase-1ef.3.md) ◐ · ⧖ 2026-10-01
-- **Blocks:** [sase-1ef.4](sase-1ef.4.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1ef.3](sase-1ef.3.md) ✓ · ⧖ 2026-10-01
+- **Blocks:** [sase-1ef.4](sase-1ef.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -36,3 +36,15 @@ badge: route every history colour through a theme-aware style set; replace the s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e0bdb33`](https://github.com/sase-org/sase/commit/e0bdb334e9ad678d05dc7a621c2f2251cb09f677) | feat(pager): state pill, past frame, destination footer, and versioned trail | [sase-1ef.2](sase-1ef.2.md) | 2026-10-01 18:43:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ef.2][1] | Need full description and notes for badge phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.2/README.md
+
+<!-- sase:referenced-by:end -->

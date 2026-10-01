@@ -13,8 +13,8 @@ polish: update the memory history and pager docs with the new anatomy, review ev
 
 ## Dependencies
 
-- **Depends on:** [sase-1ef.3](sase-1ef.3.md) ◐ · ⧖ 2026-10-01
-- **Depends on:** [sase-1ef.4](sase-1ef.4.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1ef.3](sase-1ef.3.md) ✓ · ⧖ 2026-10-01
+- **Depends on:** [sase-1ef.4](sase-1ef.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

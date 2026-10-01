@@ -17,8 +17,8 @@ Whenever the SASE pager shows a memory or instruction file, one glance tells you
 |---|---|---|---|---|---:|---:|
 | [sase-1ef.1](sase-1ef.1.md) | One version identity model, honest numbering, and reliable attachment | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [sase-1ef.2](sase-1ef.2.md) | State pill, past frame, destination footer, and versioned trail | ✓ closed | medium | 2026-10-01 | 1 | 1 |
-| [sase-1ef.3](sase-1ef.3.md) | Time band with playhead scrubber, explicit diff endpoints, and tombstone chrome | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
-| [sase-1ef.4](sase-1ef.4.md) | Timeline picker as an aligned table with open, now, and cursor markers | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [sase-1ef.3](sase-1ef.3.md) | Time band with playhead scrubber, explicit diff endpoints, and tombstone chrome | ✓ closed | medium | 2026-10-01 | 1 | 1 |
+| [sase-1ef.4](sase-1ef.4.md) | Timeline picker as an aligned table with open, now, and cursor markers | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [sase-1ef.5](sase-1ef.5.md) | Documentation, live review, and end-to-end verification | ◐ in_progress | small | 2026-10-01 | 1 | 0 |
 
 ## Lineage
@@ -28,8 +28,8 @@ flowchart TD
     n0["sase-1ef: Pager version clarity: always know which memory version you are reading [in_progress]"]
     n1["sase-1ef.1: One version identity model, honest numbering, and reliable attachment [closed]"]
     n2["sase-1ef.2: State pill, past frame, destination footer, and versioned trail [closed]"]
-    n3["sase-1ef.3: Time band with playhead scrubber, explicit diff endpoints, and tombstone chrome [in_progress]"]
-    n4["sase-1ef.4: Timeline picker as an aligned table with open, now, and cursor markers [in_progress]"]
+    n3["sase-1ef.3: Time band with playhead scrubber, explicit diff endpoints, and tombstone chrome [closed]"]
+    n4["sase-1ef.4: Timeline picker as an aligned table with open, now, and cursor markers [closed]"]
     n5["sase-1ef.5: Documentation, live review, and end-to-end verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -49,8 +49,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1ef.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ef.1.md) | [sase-1ef.1](sase-1ef.1.md) | 1 |
 | [bbugyi200.athena.sase-1ef.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.2/README.md) | [sase-1ef.2](sase-1ef.2.md) | 1 |
-| [bbugyi200.athena.sase-1ef.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.3/README.md) | [sase-1ef.3](sase-1ef.3.md) | 0 |
-| [bbugyi200.athena.sase-1ef.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.4/README.md) | [sase-1ef.4](sase-1ef.4.md) | 0 |
+| [bbugyi200.athena.sase-1ef.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.3/README.md) | [sase-1ef.3](sase-1ef.3.md) | 1 |
+| [bbugyi200.athena.sase-1ef.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ef.4.md) | [sase-1ef.4](sase-1ef.4.md) | 1 |
 | [bbugyi200.athena.sase-1ef.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.5/README.md) | [sase-1ef.5](sase-1ef.5.md) | 0 |
 | [bbugyi200.athena.sase-1ef.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.land/README.md) | [sase-1ef](README.md) | 0 |
 
@@ -60,6 +60,8 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`45ece4f`](https://github.com/sase-org/sase/commit/45ece4f1d001c0793f44ca6f71c4b303361ed108) | feat(pager): version identity model with honest numbering and reliable attachment | [sase-1ef.1](sase-1ef.1.md) | 2026-10-01 17:04:46 EDT |
 | sase | [`e0bdb33`](https://github.com/sase-org/sase/commit/e0bdb334e9ad678d05dc7a621c2f2251cb09f677) | feat(pager): state pill, past frame, destination footer, and versioned trail | [sase-1ef.2](sase-1ef.2.md) | 2026-10-01 18:43:14 EDT |
+| sase | [`a1fc3fc`](https://github.com/sase-org/sase/commit/a1fc3fc8e83fd3a4a3a959a90b0262ab4613335c) | fix(pager): privatize timeline picker helpers for symvision | [sase-1ef.4](sase-1ef.4.md) | 2026-10-01 19:45:22 EDT |
+| sase | [`cf0b8e0`](https://github.com/sase-org/sase/commit/cf0b8e02d93b83e7f7be164cb86ca3d34d5cb8b3) | feat(pager): rebuild time band around playhead scrubber | [sase-1ef.3](sase-1ef.3.md) | 2026-10-01 19:51:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
