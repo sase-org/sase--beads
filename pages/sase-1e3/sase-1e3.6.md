@@ -13,7 +13,7 @@ pipeline: wire `render`, which takes a script, Markdown, or artifact ref and pro
 
 ## Dependencies
 
-- **Depends on:** [sase-1e3.3](sase-1e3.3.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.3](sase-1e3.3.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.4](sase-1e3.4.md) ◐ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.5](sase-1e3.5.md) ◐ · ⧖ 2026-10-01
 - **Blocks:** [sase-1e3.7](sase-1e3.7.md) ◐ · ⧖ 2026-10-01

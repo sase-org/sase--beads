@@ -33,8 +33,8 @@ Any SASE research report, or any other Markdown file, becomes a chaptered, loudn
 | [sase-1e3.10](sase-1e3.10.md) | Documentation polish and provenance links | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.11](sase-1e3.11.md) | First releases to PyPI | ◐ in_progress | small | 2026-10-01 | 1 | 0 |
 | [sase-1e3.12](sase-1e3.12.md) | Install, configure, field-test, and turn on delivery on apollo | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
-| [sase-1e3.2](sase-1e3.2.md) | sase-telegram delivers MP3s through sendAudio | ✓ closed | small | 2026-10-01 | 1 | 1 |
-| [sase-1e3.3](sase-1e3.3.md) | Narration script contract, deterministic normalizer, lexicon, lint, and guide | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [sase-1e3.2](sase-1e3.2.md) | sase-telegram delivers MP3s through sendAudio | ✓ closed | small | 2026-10-01 | 1 | 0 |
+| [sase-1e3.3](sase-1e3.3.md) | Narration script contract, deterministic normalizer, lexicon, lint, and guide | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.4](sase-1e3.4.md) | Mastering, MP3 packaging, chapters, and cover art | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.5](sase-1e3.5.md) | TTS engines, narrator profiles, credentials, retries, cache, and pricing | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.6](sase-1e3.6.md) | Render orchestration, quality gates, manifest, and episode library | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n3["sase-1e3.11: First releases to PyPI [in_progress]"]
     n4["sase-1e3.12: Install, configure, field-test, and turn on delivery on apollo [in_progress]"]
     n5["sase-1e3.2: sase-telegram delivers MP3s through sendAudio [closed]"]
-    n6["sase-1e3.3: Narration script contract, deterministic normalizer, lexicon, lint, and guide [in_progress]"]
+    n6["sase-1e3.3: Narration script contract, deterministic normalizer, lexicon, lint, and guide [closed]"]
     n7["sase-1e3.4: Mastering, MP3 packaging, chapters, and cover art [in_progress]"]
     n8["sase-1e3.5: TTS engines, narrator profiles, credentials, retries, cache, and pricing [in_progress]"]
     n9["sase-1e3.6: Render orchestration, quality gates, manifest, and episode library [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1e3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.10/README.md) | [sase-1e3.10](sase-1e3.10.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.11/README.md) | [sase-1e3.11](sase-1e3.11.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.12/README.md) | [sase-1e3.12](sase-1e3.12.md) | 0 |
-| [bbugyi200.apollo.sase-1e3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.2/README.md) | [sase-1e3.2](sase-1e3.2.md) | 1 |
+| [bbugyi200.apollo.sase-1e3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.2/README.md) | [sase-1e3.2](sase-1e3.2.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.3/README.md) | [sase-1e3.3](sase-1e3.3.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.4/README.md) | [sase-1e3.4](sase-1e3.4.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.5/README.md) | [sase-1e3.5](sase-1e3.5.md) | 0 |
@@ -104,12 +104,6 @@ flowchart TD
 | [bbugyi200.apollo.sase-1e3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.8/README.md) | [sase-1e3.8](sase-1e3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.land/README.md) | [sase-1e3](README.md) | 0 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@8cb6728`](https://github.com/sase-org/sase-telegram/commit/8cb672899fb8400b5439559e14635e15291a8b84) | feat(telegram): add audio delivery with ID3 metadata and oversize note | [sase-1e3.2](sase-1e3.2.md) | 2026-10-01 15:16:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

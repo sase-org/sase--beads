@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1e3](README.md) / sase-1e3.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3z](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.3z.md) · **Assignee:** `sase-1e3.3` · **Size:** medium
-**Created:** 2026-10-01 14:42:44 EDT
+**Created:** 2026-10-01 14:42:44 EDT · **Closed:** 2026-10-01 15:18:51 EDT
 **Plan:** [202610/sase\_listen.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_listen.md)
 
 ## Description
 
 script: implement the narration-script v1 model and parser and the markdown-it AST normalizer with an omissions report and golden fixtures. Add the pronunciation lexicon, `lint` (including the --source number-fidelity check), and the packaged authoring guide behind `guide`.
+
+## Notes
+
+[2026-10-01T19:18:51Z · sase-1e3.3] Script phase done in gh:sase-org/sase-listen (uncommitted): model/parser/cleaner, markdown-it normalizer with omissions, lexicon apply+sha256, lint with structural/residue/warning ids plus --source fidelity, guide with brief swap, 3 golden fixtures, docs pages. Verified: sase tool run check green (ruff, format, mypy strict, codespell, 55 pytest incl 41 new), every fixture output lints with zero errors, epic-symbols clean. One minimal cross-phase touch: tests/test_cli.py stub assertions updated for implemented lint/script (render stub unchanged); no pyproject/uv.lock/nav/other-phase edits.
 
 ## Dependencies
 
