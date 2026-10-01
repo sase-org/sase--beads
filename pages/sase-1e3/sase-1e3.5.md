@@ -22,7 +22,7 @@ engines: add the Engine protocol and the Gemini, OpenAI-compatible, and offline 
 ## Dependencies
 
 - **Depends on:** [sase-1e3.1](sase-1e3.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1e3.6](sase-1e3.6.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.6](sase-1e3.6.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -39,9 +39,11 @@ engines: add the Engine protocol and the Gemini, OpenAI-compatible, and offline 
 | read-by | [agent:research.38.cdx][1] | Verify TTS engine and PyPI release evidence before stating install availability | 1 |
 | read-by | [agent:research.38.cld][2] | Check phase progress/notes for sase-listen user-facing research | 1 |
 | read-by | [agent:research.38.grk][3] | Need child phase scope for sase-listen user-facing research | 1 |
+| read-by | [agent:sase-1e3.5][4] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.cdx/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.grk/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.5/README.md
 
 <!-- sase:referenced-by:end -->

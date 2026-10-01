@@ -18,7 +18,7 @@ script: implement the narration-script v1 model and parser and the markdown-it A
 ## Dependencies
 
 - **Depends on:** [sase-1e3.1](sase-1e3.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1e3.6](sase-1e3.6.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.6](sase-1e3.6.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

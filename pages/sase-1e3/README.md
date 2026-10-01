@@ -37,7 +37,7 @@ Any SASE research report, or any other Markdown file, becomes a chaptered, loudn
 | [sase-1e3.3](sase-1e3.3.md) | Narration script contract, deterministic normalizer, lexicon, lint, and guide | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.4](sase-1e3.4.md) | Mastering, MP3 packaging, chapters, and cover art | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.5](sase-1e3.5.md) | TTS engines, narrator profiles, credentials, retries, cache, and pricing | ✓ closed | medium | 2026-10-01 | 1 | 0 |
-| [sase-1e3.6](sase-1e3.6.md) | Render orchestration, quality gates, manifest, and episode library | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [sase-1e3.6](sase-1e3.6.md) | Render orchestration, quality gates, manifest, and episode library | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.7](sase-1e3.7.md) | Beautiful CLI experience and companion commands | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.8](sase-1e3.8.md) | Private podcast feed for AntennaPod | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.9](sase-1e3.9.md) | #research/audio xprompt and research\_swarm audio stage | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
@@ -55,7 +55,7 @@ flowchart TD
     n6["sase-1e3.3: Narration script contract, deterministic normalizer, lexicon, lint, and guide [closed]"]
     n7["sase-1e3.4: Mastering, MP3 packaging, chapters, and cover art [closed]"]
     n8["sase-1e3.5: TTS engines, narrator profiles, credentials, retries, cache, and pricing [closed]"]
-    n9["sase-1e3.6: Render orchestration, quality gates, manifest, and episode library [in_progress]"]
+    n9["sase-1e3.6: Render orchestration, quality gates, manifest, and episode library [closed]"]
     n10["sase-1e3.7: Beautiful CLI experience and companion commands [in_progress]"]
     n11["sase-1e3.8: Private podcast feed for AntennaPod [in_progress]"]
     n12["sase-1e3.9: #research/audio xprompt and research_swarm audio stage [in_progress]"]

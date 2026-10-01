@@ -13,7 +13,7 @@ cli: build the rich terminal experience, covering the dry-run plan table, live p
 
 ## Dependencies
 
-- **Depends on:** [sase-1e3.6](sase-1e3.6.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.6](sase-1e3.6.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1e3.8](sase-1e3.8.md) ◐ · ⧖ 2026-10-01
 - **Blocks:** [sase-1e3.9](sase-1e3.9.md) ◐ · ⧖ 2026-10-01
 
