@@ -26,10 +26,4 @@ causes-feed: attribute instruction versions to co-changed memory, config, and re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@f15f538`](https://github.com/sase-org/sase-core/commit/f15f5385b1c14fcf165714d931be2b056db0c358) | feat(memory-history): attribute instruction causes and build merged feed | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 2026-09-30 22:42:14 EDT |
+| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 0 |

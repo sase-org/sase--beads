@@ -29,7 +29,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1dr.1](sase-1dr.1.md) | Tracking guarantees and as-seen evidence capture | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.1](sase-1dr.1.md) | Tracking guarantees and as-seen evidence capture | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.10](sase-1dr.10.md) | Cross-file memory changes feed | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.11](sase-1dr.11.md) | Memory panel entry points and History row | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.12](sase-1dr.12.md) | Unflag, document, and verify end to end | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
@@ -47,7 +47,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 ```mermaid
 flowchart TD
     n0["sase-1dr: Memory history: a time axis for SASE memory and agent instruction files [in_progress]"]
-    n1["sase-1dr.1: Tracking guarantees and as-seen evidence capture [in_progress]"]
+    n1["sase-1dr.1: Tracking guarantees and as-seen evidence capture [closed]"]
     n2["sase-1dr.10: Cross-file memory changes feed [in_progress]"]
     n3["sase-1dr.11: Memory panel entry points and History row [in_progress]"]
     n4["sase-1dr.12: Unflag, document, and verify end to end [in_progress]"]
@@ -104,7 +104,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md) | [sase-1dr.1](sase-1dr.1.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md) | [sase-1dr.1](sase-1dr.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.10/README.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.11/README.md) | [sase-1dr.11](sase-1dr.11.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.12/README.md) | [sase-1dr.12](sase-1dr.12.md) | 0 |
@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.4.md) | [sase-1dr.4](sase-1dr.4.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.1/README.md) | [sase-1dr.4.1.1](sase-1dr.4.1.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.2/README.md) | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 1 |
+| [bbugyi200.apollo.sase-1dr.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.3/README.md) | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.4/README.md) | [sase-1dr.4.1.4](sase-1dr.4.1.4.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.5/README.md) | [sase-1dr.5](sase-1dr.5.md) | 0 |
@@ -131,7 +131,7 @@ flowchart TD
 | sase-core | [`sase-core@a031ee4`](https://github.com/sase-org/sase-core/commit/a031ee4fe9e887a4563f2a6748b4b277ce5a21ed) | feat(file-history): generic git file-history index in sase-core | [sase-1dr.3](sase-1dr.3.md) | 2026-09-30 20:20:42 EDT |
 | sase-core | [`sase-core@26ffc55`](https://github.com/sase-org/sase-core/commit/26ffc55d33c3c25a8a0806834cc51e9e6349ed7e) | feat(memory-history): subject identity, shim aliasing, and fixture corpus | [sase-1dr.4.1.1](sase-1dr.4.1.1.md) | 2026-09-30 21:26:16 EDT |
 | sase-core | [`sase-core@1c49a65`](https://github.com/sase-org/sase-core/commit/1c49a650c66f5ad05e3c860549abecffe1bc6789) | feat(memory-history): add subject classifier with priority list and summary | [sase-1dr.4.1.2](sase-1dr.4.1.2.md) | 2026-09-30 22:04:25 EDT |
-| sase-core | [`sase-core@f15f538`](https://github.com/sase-org/sase-core/commit/f15f5385b1c14fcf165714d931be2b056db0c358) | feat(memory-history): attribute instruction causes and build merged feed | [sase-1dr.4.1.3](sase-1dr.4.1.3.md) | 2026-09-30 22:42:14 EDT |
+| sase | [`297faf1`](https://github.com/sase-org/sase/commit/297faf1d381032a7bacbc2594ff2a793e05ba995) | feat(memory): tracking guarantees and as-seen evidence capture | [sase-1dr.1](sase-1dr.1.md) | 2026-09-30 22:44:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
