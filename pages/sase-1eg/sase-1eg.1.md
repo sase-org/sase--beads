@@ -19,7 +19,7 @@ view-extract: move all per-document pager state, chrome rows, lifecycle and key 
 
 ## Dependencies
 
-- **Blocks:** [sase-1eg.2](sase-1eg.2.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1eg.2](sase-1eg.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -32,3 +32,15 @@ view-extract: move all per-document pager state, chrome rows, lifecycle and key 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9023bbb`](https://github.com/sase-org/sase/commit/9023bbbab77450c1d3c39c2b8d25752156621659) | refactor(pager): extract per-pane PagerView with PagerViewHost protocol | [sase-1eg.1](sase-1eg.1.md) | 2026-10-01 17:15:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eg.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.1/README.md
+
+<!-- sase:referenced-by:end -->

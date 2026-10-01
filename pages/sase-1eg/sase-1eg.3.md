@@ -13,7 +13,7 @@ split-panes: pure split model; `\` / `|` / ctrl+f / `+` / `-` keys; q, Esc and e
 
 ## Dependencies
 
-- **Depends on:** [sase-1eg.2](sase-1eg.2.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1eg.2](sase-1eg.2.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1eg.4](sase-1eg.4.md) ◐ · ⧖ 2026-10-01
 
 ## Agents
