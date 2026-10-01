@@ -22,8 +22,8 @@ scaffold: build the sase-listen package skeleton. That covers every runtime depe
 ## Dependencies
 
 - **Blocks:** [sase-1e3.3](sase-1e3.3.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1e3.4](sase-1e3.4.md) ◐ · ⧖ 2026-10-01
-- **Blocks:** [sase-1e3.5](sase-1e3.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.4](sase-1e3.4.md) ✓ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.5](sase-1e3.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

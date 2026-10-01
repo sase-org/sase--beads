@@ -34,8 +34,10 @@ audio: resolve ffmpeg (bundled imageio-ffmpeg fallback). Trim silence and assemb
 | --- | --- | --- | ---: |
 | read-by | [agent:research.38.cld][1] | Check phase progress/notes for sase-listen user-facing research | 1 |
 | read-by | [agent:research.38.grk][2] | Need child phase scope for sase-listen user-facing research | 1 |
+| read-by | [agent:sase-1e3.4][3] | Need phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.4/README.md
 
 <!-- sase:referenced-by:end -->
