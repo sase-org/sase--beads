@@ -13,7 +13,7 @@ autosuggest-default: flip ace.prompt_completion.next_word from chain to auto in 
 
 ## Dependencies
 
-- **Depends on:** [sase-1dq.7](sase-1dq.7.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dq.7](sase-1dq.7.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

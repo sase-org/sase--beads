@@ -21,7 +21,7 @@ Confident next-word guesses appear automatically as you type in the prompt input
 | [sase-1dq.4](sase-1dq.4.md) | Inline ghost placement before closing punctuation, calmer hints, and module split | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dq.5](sase-1dq.5.md) | Mid-sentence next-word peek in the prompt border | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dq.6](sase-1dq.6.md) | Mid-word autosuggest from the core word completion | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dq.7](sase-1dq.7.md) | Autosuggest in the gate input panel note editor | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dq.7](sase-1dq.7.md) | Autosuggest in the gate input panel note editor | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dq.8](sase-1dq.8.md) | Make auto the default and finish docs, help, goldens, and live captures | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n4["sase-1dq.4: Inline ghost placement before closing punctuation, calmer hints, and module split [closed]"]
     n5["sase-1dq.5: Mid-sentence next-word peek in the prompt border [closed]"]
     n6["sase-1dq.6: Mid-word autosuggest from the core word completion [closed]"]
-    n7["sase-1dq.7: Autosuggest in the gate input panel note editor [in_progress]"]
+    n7["sase-1dq.7: Autosuggest in the gate input panel note editor [closed]"]
     n8["sase-1dq.8: Make auto the default and finish docs, help, goldens, and live captures [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1dq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.4/README.md) | [sase-1dq.4](sase-1dq.4.md) | 1 |
 | [bbugyi200.athena.sase-1dq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.5/README.md) | [sase-1dq.5](sase-1dq.5.md) | 1 |
 | [bbugyi200.athena.sase-1dq.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.6.md) | [sase-1dq.6](sase-1dq.6.md) | 1 |
-| [bbugyi200.athena.sase-1dq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md) | [sase-1dq.7](sase-1dq.7.md) | 0 |
+| [bbugyi200.athena.sase-1dq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.7/README.md) | [sase-1dq.7](sase-1dq.7.md) | 1 |
 | [bbugyi200.athena.sase-1dq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.8/README.md) | [sase-1dq.8](sase-1dq.8.md) | 0 |
 | [bbugyi200.athena.sase-1dq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.land/README.md) | [sase-1dq](README.md) | 0 |
 
@@ -79,3 +79,4 @@ flowchart TD
 | sase-core | [`sase-core@d7f802c`](https://github.com/sase-org/sase-core/commit/d7f802c5f4d6e37b97228e16fe17ce7ebe726d6e) | feat(prompt-prediction): mid-word replay metrics and eager min\_prefix\_chars 2 (sase-1dq.2) | [sase-1dq.2](sase-1dq.2.md) | 2026-10-01 01:26:18 EDT |
 | sase | [`41b2bc5`](https://github.com/sase-org/sase/commit/41b2bc5035f91b98196b46be0b30781337afb8f4) | feat(prompt-prediction): calibrate current-word completion thresholds, wire, bench, and docs (sase-1dq.2) | [sase-1dq.2](sase-1dq.2.md) | 2026-10-01 02:14:14 EDT |
 | sase | [`e2cec53`](https://github.com/sase-org/sase/commit/e2cec539ef49d0bf7edacd9e17f9f458880c4119) | feat(ace): add next-word midword ghost completion and peek display | [sase-1dq.6](sase-1dq.6.md) | 2026-10-01 04:11:29 EDT |
+| sase | [`3cc13e4`](https://github.com/sase-org/sase/commit/3cc13e4ebf31f78b202bd449e59fe0b0d7f767e5) | feat(ace): add next-word autosuggest to gate note editor | [sase-1dq.7](sase-1dq.7.md) | 2026-10-01 04:46:14 EDT |
