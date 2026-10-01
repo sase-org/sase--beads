@@ -19,6 +19,8 @@ word-completion-calibration: add a mid-word replay mode and calibrate min_prefix
 
 [2026-10-01T05:12:23Z · sase-1dq.2--4] Calibrated min_prefix_chars finals 3/2/2 (eager 1->2 in sase-core predict.rs after k=1 failed novel gate 63.2% vs 75.9%); post-edit wheel confirmed via smoke replay (eager k=1 suppressed). Docs: Current-word completion subsection in docs/rust_backend.md with calibration table, bench, NEXT_WORD_SYNC_MAX_DRAFT_CHARS=4000. Verified: sase-core check green, core prompt_prediction 108 passed, facade pytest 18 passed, local check green except 4 symvision symbols proven identical on clean base (recorded as follow-up). Both repos left dirty for host two-repo pin.
 
+[2026-10-01T06:13:24Z · sase-1dq.2--5] PROPOSED FOLLOW-UP: check NEW failure tests/test_config_schema_repositories.py::test_config_schema_documents_intrinsic_agents_sidecar_contract reproduces identically on clean base 8bbee1883b and onto 7ee7252555 (schema says repos/<role>, test expects literal repos/agents; stitch files untouched) — pre-existing, not caused by sase-1dq.2
+
 ## Dependencies
 
 - **Depends on:** [sase-1dq.1](sase-1dq.1.md) ✓ · ⧖ 2026-09-30
@@ -28,10 +30,23 @@ word-completion-calibration: add a mid-word replay mode and calibrate min_prefix
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1dq.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.2.md) | [sase-1dq.2](sase-1dq.2.md) | 1 |
+| [bbugyi200.athena.sase-1dq.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.2.md) | [sase-1dq.2](sase-1dq.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d7f802c`](https://github.com/sase-org/sase-core/commit/d7f802c5f4d6e37b97228e16fe17ce7ebe726d6e) | feat(prompt-prediction): mid-word replay metrics and eager min\_prefix\_chars 2 (sase-1dq.2) | [sase-1dq.2](sase-1dq.2.md) | 2026-10-01 01:26:18 EDT |
+| sase | [`41b2bc5`](https://github.com/sase-org/sase/commit/41b2bc5035f91b98196b46be0b30781337afb8f4) | feat(prompt-prediction): calibrate current-word completion thresholds, wire, bench, and docs (sase-1dq.2) | [sase-1dq.2](sase-1dq.2.md) | 2026-10-01 02:14:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.2--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dq.2.md
+
+<!-- sase:referenced-by:end -->
