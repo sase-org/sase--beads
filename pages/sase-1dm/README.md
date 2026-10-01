@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1dm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.3/README.md) | [sase-1dm.3](sase-1dm.3.md) | 1 |
 | [bbugyi200.athena.sase-1dm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.4/README.md) | [sase-1dm.4](sase-1dm.4.md) | 1 |
 | [bbugyi200.athena.sase-1dm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.5/README.md) | [sase-1dm.5](sase-1dm.5.md) | 1 |
-| [bbugyi200.athena.sase-1dm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.land.md) | [sase-1dm](README.md) | 2 |
+| [bbugyi200.athena.sase-1dm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.land.md) | [sase-1dm](README.md) | 3 |
 
 ## Commits
 
@@ -79,6 +79,7 @@ flowchart TD
 | sase | [`be6daf9`](https://github.com/sase-org/sase/commit/be6daf95d156f7df1a95d2ac3055ff400fd4cad2) | feat(tool): add sase tool stats report command | [sase-1dm.5](sase-1dm.5.md) | 2026-09-30 19:57:19 EDT |
 | sase-core | [`sase-core@6121711`](https://github.com/sase-org/sase-core/commit/6121711cb03a120b15a3b9f13cf00c86f8ce2bb5) | feat(tool-run): land demand record and stats report | [sase-1dm](README.md) | 2026-09-30 23:24:20 EDT |
 | sase | [`1d84044`](https://github.com/sase-org/sase/commit/1d84044ed6496b8ebde60dcdefe40dd8b7c89725) | feat(tool): land tool stats and ToolRun demand instrumentation | [sase-1dm](README.md) | 2026-09-30 23:28:27 EDT |
+| sase--plans | [`sase--plans@66c8c31`](https://github.com/sase-org/sase--plans/commit/66c8c3160f1c5364131740f4f0d42edc920d882a) | docs(plans): mark tool\_stats\_demand done | [sase-1dm](README.md) | 2026-09-30 23:31:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
