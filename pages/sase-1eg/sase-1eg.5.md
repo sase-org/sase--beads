@@ -13,10 +13,22 @@ polish-docs: add split-view PNG goldens, review the result against the look spec
 
 ## Dependencies
 
-- **Depends on:** [sase-1eg.4](sase-1eg.4.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1eg.4](sase-1eg.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.5/README.md) | [sase-1eg.5](sase-1eg.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eg.3][1] | check sibling scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.3/README.md
+
+<!-- sase:referenced-by:end -->

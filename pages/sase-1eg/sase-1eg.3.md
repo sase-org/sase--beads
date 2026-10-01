@@ -22,7 +22,7 @@ split-panes: pure split model; `\` / `|` / ctrl+f / `+` / `-` keys; q, Esc and e
 ## Dependencies
 
 - **Depends on:** [sase-1eg.2](sase-1eg.2.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1eg.4](sase-1eg.4.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1eg.4](sase-1eg.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -35,3 +35,15 @@ split-panes: pure split model; `\` / `|` / ctrl+f / `+` / `-` keys; q, Esc and e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dd32637`](https://github.com/sase-org/sase/commit/dd32637d2cb1e3e3ccfc2632dece9f2e3e1eb458) | feat(pager): split panes with framed chrome and focus-scoped labels | [sase-1eg.3](sase-1eg.3.md) | 2026-10-01 19:12:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eg.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.3/README.md
+
+<!-- sase:referenced-by:end -->
