@@ -32,7 +32,7 @@ Any SASE research report, or any other Markdown file, becomes a chaptered, loudn
 | [sase-1e3.1](sase-1e3.1.md) | Repo foundation, packaging, CI, and release automation | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.10](sase-1e3.10.md) | Documentation polish and provenance links | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.11](sase-1e3.11.md) | First releases to PyPI | ✓ closed | small | 2026-10-01 | 1 | 0 |
-| [sase-1e3.12](sase-1e3.12.md) | Install, configure, field-test, and turn on delivery on apollo | ✓ closed | medium | 2026-10-01 | 1 | 0 |
+| [sase-1e3.12](sase-1e3.12.md) | Install, configure, field-test, and turn on delivery on apollo | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [sase-1e3.2](sase-1e3.2.md) | sase-telegram delivers MP3s through sendAudio | ✓ closed | small | 2026-10-01 | 1 | 0 |
 | [sase-1e3.3](sase-1e3.3.md) | Narration script contract, deterministic normalizer, lexicon, lint, and guide | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.4](sase-1e3.4.md) | Mastering, MP3 packaging, chapters, and cover art | ✓ closed | medium | 2026-10-01 | 1 | 0 |
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1e3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.1/README.md) | [sase-1e3.1](sase-1e3.1.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.10/README.md) | [sase-1e3.10](sase-1e3.10.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.11/README.md) | [sase-1e3.11](sase-1e3.11.md) | 0 |
-| [bbugyi200.apollo.sase-1e3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.12/README.md) | [sase-1e3.12](sase-1e3.12.md) | 0 |
+| [bbugyi200.apollo.sase-1e3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.12/README.md) | [sase-1e3.12](sase-1e3.12.md) | 1 |
 | [bbugyi200.apollo.sase-1e3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.2/README.md) | [sase-1e3.2](sase-1e3.2.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.3/README.md) | [sase-1e3.3](sase-1e3.3.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.4/README.md) | [sase-1e3.4](sase-1e3.4.md) | 0 |
@@ -104,6 +104,12 @@ flowchart TD
 | [bbugyi200.apollo.sase-1e3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.8/README.md) | [sase-1e3.8](sase-1e3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.land/README.md) | [sase-1e3](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--research | [`sase--research@00ea38c`](https://github.com/sase-org/sase--research/commit/00ea38c4be040bd3ee9637a592d7d3c13f6d2b1a) | docs(audio): narration script for commute-audio report (sase-1e3.12 rollout) | [sase-1e3.12](sase-1e3.12.md) | 2026-10-01 19:14:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

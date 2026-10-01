@@ -37,7 +37,13 @@ rollout: install sase-listen and upgrade the plugins on apollo, and add the conf
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1e3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.12/README.md) | [sase-1e3.12](sase-1e3.12.md) | 0 |
+| [bbugyi200.apollo.sase-1e3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.12/README.md) | [sase-1e3.12](sase-1e3.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--research | [`sase--research@00ea38c`](https://github.com/sase-org/sase--research/commit/00ea38c4be040bd3ee9637a592d7d3c13f6d2b1a) | docs(audio): narration script for commute-audio report (sase-1e3.12 rollout) | [sase-1e3.12](sase-1e3.12.md) | 2026-10-01 19:14:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
