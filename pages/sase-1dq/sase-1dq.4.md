@@ -20,7 +20,7 @@ inline-ghost-placement: split the next-word mixin into a host-neutral ghost disp
 ## Dependencies
 
 - **Depends on:** [sase-1dq.3](sase-1dq.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dq.5](sase-1dq.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dq.5](sase-1dq.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ inline-ghost-placement: split the next-word mixin into a host-neutral ghost disp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7b3d47c`](https://github.com/sase-org/sase/commit/7b3d47c3ea9a0c43d8c179658fcd3b0179397951) | feat(ace-tui): next-word ghost placement, display mixin and prompt integration | [sase-1dq.4](sase-1dq.4.md) | 2026-09-30 19:37:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dq.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dq.4/README.md
+
+<!-- sase:referenced-by:end -->
