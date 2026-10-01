@@ -14,7 +14,7 @@ changes-feed: running `sase memory history` with no selector opens a pager feed.
 ## Dependencies
 
 - **Blocks:** [sase-1dr.11](sase-1dr.11.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1dr.8](sase-1dr.8.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.8](sase-1dr.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

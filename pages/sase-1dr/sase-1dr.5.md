@@ -51,8 +51,10 @@ history-cli: add the thin facade and wire types, a scope builder for project and
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1dr.5--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1dq.land][1] | Check phase notes for memory test failures | 1 |
+| read-by | [agent:sase-1dr.5--1][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dq.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md
 
 <!-- sase:referenced-by:end -->

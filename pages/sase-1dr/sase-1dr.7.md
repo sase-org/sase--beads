@@ -21,4 +21,4 @@ time-band: add the time band. At now it is a one-row life strip; in the past it 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.7/README.md) | [sase-1dr.7](sase-1dr.7.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.7.md) | [sase-1dr.7](sase-1dr.7.md) | 0 |

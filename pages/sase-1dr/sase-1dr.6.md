@@ -31,7 +31,7 @@ pager-axis: create the temporary beta flag. Add a generic section-history provid
 
 - **Depends on:** [sase-1dr.5](sase-1dr.5.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.7](sase-1dr.7.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dr.8](sase-1dr.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.8](sase-1dr.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -52,7 +52,9 @@ pager-axis: create the temporary beta flag. Add a generic section-history provid
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1dr.5--1][1] | Check whether pager phase will consume history vocabulary labels and hidden-filtering | 1 |
+| read-by | [agent:sase-1dr.6--3][2] | verify close-out state | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.6.md
 
 <!-- sase:referenced-by:end -->

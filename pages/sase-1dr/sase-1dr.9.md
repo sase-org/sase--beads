@@ -14,7 +14,7 @@ timeline-picker: add the `@` modal timeline over all versions, including worktre
 ## Dependencies
 
 - **Blocks:** [sase-1dr.12](sase-1dr.12.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1dr.8](sase-1dr.8.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.8](sase-1dr.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
