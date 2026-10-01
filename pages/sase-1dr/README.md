@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/memory_history.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/memory_history.md
 
@@ -35,7 +35,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 |---|---|---|---|---|---:|---:|
 | [sase-1dr.1](sase-1dr.1.md) | Tracking guarantees and as-seen evidence capture | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.10](sase-1dr.10.md) | Cross-file memory changes feed | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dr.11](sase-1dr.11.md) | Memory panel entry points and History row | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.11](sase-1dr.11.md) | Memory panel entry points and History row | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.12](sase-1dr.12.md) | Unflag, document, and verify end to end | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1dr.2](sase-1dr.2.md) | Prose-aware comparison engine in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.3](sase-1dr.3.md) | Generic git file-history index in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
@@ -44,7 +44,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ✓ closed | large | 2026-09-30 | 1 | 1 |
 | [sase-1dr.7](sase-1dr.7.md) | Time band chrome, sparkline, and honest states | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.8](sase-1dr.8.md) | Word-diff view and change navigation | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dr.9](sase-1dr.9.md) | Timeline picker with two-point compare | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.9](sase-1dr.9.md) | Timeline picker with two-point compare | ✓ closed | medium | 2026-09-30 | 1 | 0 |
 
 ## Lineage
 
@@ -53,7 +53,7 @@ flowchart TD
     n0["sase-1dr: Memory history: a time axis for SASE memory and agent instruction files [in_progress]"]
     n1["sase-1dr.1: Tracking guarantees and as-seen evidence capture [closed]"]
     n2["sase-1dr.10: Cross-file memory changes feed [closed]"]
-    n3["sase-1dr.11: Memory panel entry points and History row [in_progress]"]
+    n3["sase-1dr.11: Memory panel entry points and History row [closed]"]
     n4["sase-1dr.12: Unflag, document, and verify end to end [in_progress]"]
     n5["sase-1dr.2: Prose-aware comparison engine in sase-core [closed]"]
     n6["sase-1dr.3: Generic git file-history index in sase-core [closed]"]
@@ -67,7 +67,7 @@ flowchart TD
     n14["sase-1dr.6: Pager time axis and read view [closed]"]
     n15["sase-1dr.7: Time band chrome, sparkline, and honest states [closed]"]
     n16["sase-1dr.8: Word-diff view and change navigation [closed]"]
-    n17["sase-1dr.9: Timeline picker with two-point compare [in_progress]"]
+    n17["sase-1dr.9: Timeline picker with two-point compare [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -110,7 +110,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.sase-1dr.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md) | [sase-1dr.1](sase-1dr.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md) | [sase-1dr.10](sase-1dr.10.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.11/README.md) | [sase-1dr.11](sase-1dr.11.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.11.md) | [sase-1dr.11](sase-1dr.11.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.12/README.md) | [sase-1dr.12](sase-1dr.12.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.2/README.md) | [sase-1dr.2](sase-1dr.2.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md) | [sase-1dr.3](sase-1dr.3.md) | 1 |
@@ -145,6 +145,7 @@ flowchart TD
 | sase | [`7884ffe`](https://github.com/sase-org/sase/commit/7884ffe854e52e7ff7d39d56eb3cfb8e82197dd3) | feat(sase-1dr.8): word-diff view and change navigation | [sase-1dr.8](sase-1dr.8.md) | 2026-10-01 08:18:03 EDT |
 | sase | [`3819d25`](https://github.com/sase-org/sase/commit/3819d254b3fe669eb2afcf7b4f64d04d1e94a248) | feat(sase-1dr.7): pager time band with sparkline, honest states, and PNG goldens | [sase-1dr.7](sase-1dr.7.md) | 2026-10-01 09:02:52 EDT |
 | sase | [`429d657`](https://github.com/sase-org/sase/commit/429d6577de09805c95c5cd7509e0ecb4691ba8c7) | feat(sase-1dr.10): cross-file memory changes feed with day sections, folded consequences and PNG goldens | [sase-1dr.10](sase-1dr.10.md) | 2026-10-01 09:55:04 EDT |
+| sase | [`eb2e02d`](https://github.com/sase-org/sase/commit/eb2e02dbb87104c832360674133acb9234b60088) | feat(sase-1dr.11): memory panel history entry points and History row | [sase-1dr.11](sase-1dr.11.md) | 2026-10-01 10:56:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -152,14 +153,16 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1dq.land][1] | Check status of sase-1dr epic whose stale epic-symbol entries break symvision | 3 |
-| read-by | [agent:sase-1dr.3][2] | Need epic children status for phase ordering | 1 |
-| read-by | [agent:sase-1dr.4.1.land][3] | Need whether the containing epic is still open for its land agent | 1 |
-| read-by | [agent:sase-1dr.8][4] | Need epic context for diff-view phase | 1 |
+| read-by | [agent:research.34.grk][1] | Need memory-history epic and remaining green-CI phases that currently keep master red | 2 |
+| read-by | [agent:sase-1dq.land][2] | Check status of sase-1dr epic whose stale epic-symbol entries break symvision | 3 |
+| read-by | [agent:sase-1dr.3][3] | Need epic children status for phase ordering | 1 |
+| read-by | [agent:sase-1dr.4.1.land][4] | Need whether the containing epic is still open for its land agent | 1 |
+| read-by | [agent:sase-1dr.8][5] | Need epic context for diff-view phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dq.land/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.34.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dq.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.8/README.md
 
 <!-- sase:referenced-by:end -->

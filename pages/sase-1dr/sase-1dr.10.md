@@ -21,7 +21,7 @@ changes-feed: running `sase memory history` with no selector opens a pager feed.
 
 ## Dependencies
 
-- **Blocks:** [sase-1dr.11](sase-1dr.11.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.11](sase-1dr.11.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.8](sase-1dr.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
@@ -35,3 +35,15 @@ changes-feed: running `sase memory history` with no selector opens a pager feed.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`429d657`](https://github.com/sase-org/sase/commit/429d6577de09805c95c5cd7509e0ecb4691ba8c7) | feat(sase-1dr.10): cross-file memory changes feed with day sections, folded consequences and PNG goldens | [sase-1dr.10](sase-1dr.10.md) | 2026-10-01 09:55:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.10--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md
+
+<!-- sase:referenced-by:end -->

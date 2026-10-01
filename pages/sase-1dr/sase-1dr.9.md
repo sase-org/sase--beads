@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1dr](README.md) / sase-1dr.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3o](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.3o.md) · **Assignee:** `sase-1dr.9` · **Size:** medium
-**Created:** 2026-09-30 19:09:32 EDT
+**Created:** 2026-09-30 19:09:32 EDT · **Closed:** 2026-10-01 10:42:43 EDT
 **Plan:** [202609/memory\_history.md](https://github.com/sase-org/sase--plans/blob/main/202609/memory_history.md)
 
 ## Description
@@ -14,6 +14,8 @@ timeline-picker: add the `@` modal timeline over all versions, including worktre
 ## Notes
 
 [2026-10-01T13:11:28Z · sase-1dr.9] PROPOSED FOLLOW-UP: symvision flags StarterResolution in src/sase/tool/starter.py as unused on the clean base tree (no consumers in src or tests; unrelated to timeline-picker) — triage it alongside the KNOWN owner_ref/HandoffSubmitResult items
+
+[2026-10-01T14:42:43Z · sase-1dr.9] Timeline picker done: @ modal with worktree/staged rows, hidden summary, j/k/g/G + enter(trail push) + =(two-point compare via explicit_base pin) + . hidden toggle + / filter over section/agent/bead/words, windowed render (500-version perf test), footer @ timeline + help Time row. Verified: 21 focused unit/pilot tests green, 8 new picker PNG goldens + 20 footer-only history goldens inspected/approved, ruff/mypy/fmt green, sase tool run check verdict no_new_failures (only KNOWN pre-existing symvision/scoped items; StarterResolution filed as PROPOSED FOLLOW-UP)
 
 ## Dependencies
 

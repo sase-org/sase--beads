@@ -21,7 +21,7 @@ time-band: add the time band. At now it is a one-row life strip; in the past it 
 
 ## Dependencies
 
-- **Blocks:** [sase-1dr.11](sase-1dr.11.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.11](sase-1dr.11.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.12](sase-1dr.12.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.6](sase-1dr.6.md) ✓ · ⧖ 2026-09-30
 
