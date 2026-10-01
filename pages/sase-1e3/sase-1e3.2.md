@@ -17,13 +17,19 @@ telegram-audio: add send_audio to sase-telegram's client and route .mp3/.m4a att
 
 ## Dependencies
 
-- **Blocks:** [sase-1e3.10](sase-1e3.10.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.10](sase-1e3.10.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1e3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.2/README.md) | [sase-1e3.2](sase-1e3.2.md) | 0 |
+| [bbugyi200.apollo.sase-1e3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.2/README.md) | [sase-1e3.2](sase-1e3.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-telegram | [`sase-telegram@8cb6728`](https://github.com/sase-org/sase-telegram/commit/8cb672899fb8400b5439559e14635e15291a8b84) | feat(telegram): add audio delivery with ID3 metadata and oversize note | [sase-1e3.2](sase-1e3.2.md) | 2026-10-01 15:16:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -17,7 +17,7 @@ research-audio: in sase-research-artifacts, add the #research/audio xprompt, whi
 
 ## Dependencies
 
-- **Blocks:** [sase-1e3.10](sase-1e3.10.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.10](sase-1e3.10.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.7](sase-1e3.7.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
@@ -40,8 +40,10 @@ research-audio: in sase-research-artifacts, add the #research/audio xprompt, whi
 | --- | --- | --- | ---: |
 | read-by | [agent:research.38.cld][1] | Check phase progress/notes for sase-listen user-facing research | 1 |
 | read-by | [agent:research.38.grk][2] | Need child phase scope for sase-listen user-facing research | 1 |
+| read-by | [agent:sase-1e3.9][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md
 
 <!-- sase:referenced-by:end -->

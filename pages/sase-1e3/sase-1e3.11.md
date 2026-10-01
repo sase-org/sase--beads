@@ -13,7 +13,7 @@ release: verify master CI and the built wheel. Propose merging the sase-listen 0
 
 ## Dependencies
 
-- **Depends on:** [sase-1e3.10](sase-1e3.10.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.10](sase-1e3.10.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [sase-1e3.12](sase-1e3.12.md) ◐ · ⧖ 2026-10-01
 
 ## Agents

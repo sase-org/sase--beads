@@ -2,20 +2,26 @@
 
 [Bead Pages](../README.md) / [sase-1e3](README.md) / sase-1e3.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3z](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.3z.md) · **Assignee:** `sase-1e3.10` · **Size:** medium
-**Created:** 2026-10-01 14:42:58 EDT
+**Created:** 2026-10-01 14:42:58 EDT · **Closed:** 2026-10-01 18:00:01 EDT
 **Plan:** [202610/sase\_listen.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_listen.md)
 
 ## Description
 
 docs: finish the README and mkdocs site, covering the hero, quickstart, how it works, narration scripts, CLI reference, configuration, narrators, pronunciation, feed, SASE integration, reliability, and troubleshooting. Include background pages with permalinks to the originating research and this epic plan, plus CONTRIBUTING and AGENTS.md.
 
+## Notes
+
+[2026-10-01T21:15:10Z · sase-1e3.10] PROPOSED FOLLOW-UP: sase-1e3.7 closed with audition/ls/cache as stubs and doctor --online failing; docs mark all four, rollout phase needs audition --voices and doctor --online
+
+[2026-10-01T22:00:01Z · sase-1e3.10] Docs phase done: rewrote README (hero, how-it-works, status notes for audition/ls/cache stubs + doctor --online) and filled all stub mkdocs pages — index hero, getting-started quickstart, cli reference (marks all 4 known stubs), sase-integration (#research/audio, swarm audio stage, Telegram sendAudio), troubleshooting, changelog, background with research permalink + epic plan links; added CONTRIBUTING.md; filled configuration paths/audio/cache sections. Verified: mkdocs build --strict clean, sase tool run check (lint+test) exit 0. No epic-symbol leftovers. mkdocs.yml nav untouched.
+
 ## Dependencies
 
 - **Blocks:** [sase-1e3.11](sase-1e3.11.md) ◐ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.2](sase-1e3.2.md) ✓ · ⧖ 2026-10-01
-- **Depends on:** [sase-1e3.8](sase-1e3.8.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.8](sase-1e3.8.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.9](sase-1e3.9.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
