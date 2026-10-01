@@ -30,7 +30,7 @@ pager-axis: create the temporary beta flag. Add a generic section-history provid
 ## Dependencies
 
 - **Depends on:** [sase-1dr.5](sase-1dr.5.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [sase-1dr.7](sase-1dr.7.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.7](sase-1dr.7.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.8](sase-1dr.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents

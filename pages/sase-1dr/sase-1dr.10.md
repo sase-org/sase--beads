@@ -20,4 +20,4 @@ changes-feed: running `sase memory history` with no selector opens a pager feed.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.10/README.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |

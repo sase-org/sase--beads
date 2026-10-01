@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202609/memory_history.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202609/memory_history.md
 
@@ -42,7 +42,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | [sase-1dr.4](sase-1dr.4.md) | Memory history semantics, cache, and query bindings in sase-core | ✓ closed | large | 2026-09-30 | 1 | 0 |
 | [sase-1dr.5](sase-1dr.5.md) | Python history service and the sase memory history CLI | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [sase-1dr.6](sase-1dr.6.md) | Pager time axis and read view | ✓ closed | large | 2026-09-30 | 1 | 1 |
-| [sase-1dr.7](sase-1dr.7.md) | Time band chrome, sparkline, and honest states | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.7](sase-1dr.7.md) | Time band chrome, sparkline, and honest states | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.8](sase-1dr.8.md) | Word-diff view and change navigation | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.9](sase-1dr.9.md) | Timeline picker with two-point compare | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 
@@ -65,7 +65,7 @@ flowchart TD
     n12["sase-1dr.4.1.4: Snapshot cache, upstream marker, and query bindings [closed]"]
     n13["sase-1dr.5: Python history service and the sase memory history CLI [closed]"]
     n14["sase-1dr.6: Pager time axis and read view [closed]"]
-    n15["sase-1dr.7: Time band chrome, sparkline, and honest states [in_progress]"]
+    n15["sase-1dr.7: Time band chrome, sparkline, and honest states [closed]"]
     n16["sase-1dr.8: Word-diff view and change navigation [closed]"]
     n17["sase-1dr.9: Timeline picker with two-point compare [in_progress]"]
     n0 --> n1
@@ -109,7 +109,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1dr.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md) | [sase-1dr.1](sase-1dr.1.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.10/README.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.11/README.md) | [sase-1dr.11](sase-1dr.11.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.12/README.md) | [sase-1dr.12](sase-1dr.12.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.2/README.md) | [sase-1dr.2](sase-1dr.2.md) | 1 |
@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1dr.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md) | [sase-1dr.4.1](sase-1dr.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md) | [sase-1dr.5](sase-1dr.5.md) | 2 |
 | [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.6.md) | [sase-1dr.6](sase-1dr.6.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.7.md) | [sase-1dr.7](sase-1dr.7.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.7.md) | [sase-1dr.7](sase-1dr.7.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.8/README.md) | [sase-1dr.8](sase-1dr.8.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.9/README.md) | [sase-1dr.9](sase-1dr.9.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.land/README.md) | [sase-1dr](README.md) | 0 |
@@ -143,6 +143,7 @@ flowchart TD
 | sase | [`ebf070e`](https://github.com/sase-org/sase/commit/ebf070e16ae0b24bf889d582c574d01752bb6d54) | fix(sase-1dr.5): resolve phase-owned symvision failures in memory history | [sase-1dr.5](sase-1dr.5.md) | 2026-10-01 02:52:07 EDT |
 | sase | [`92c6337`](https://github.com/sase-org/sase/commit/92c6337de85b89f42b15a481a474f84091139aeb) | feat(sase-1dr.6): pager time axis and read view with memory provider, plus completion snapshot sync | [sase-1dr.6](sase-1dr.6.md) | 2026-10-01 06:46:04 EDT |
 | sase | [`7884ffe`](https://github.com/sase-org/sase/commit/7884ffe854e52e7ff7d39d56eb3cfb8e82197dd3) | feat(sase-1dr.8): word-diff view and change navigation | [sase-1dr.8](sase-1dr.8.md) | 2026-10-01 08:18:03 EDT |
+| sase | [`3819d25`](https://github.com/sase-org/sase/commit/3819d254b3fe669eb2afcf7b4f64d04d1e94a248) | feat(sase-1dr.7): pager time band with sparkline, honest states, and PNG goldens | [sase-1dr.7](sase-1dr.7.md) | 2026-10-01 09:02:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -153,9 +154,11 @@ flowchart TD
 | read-by | [agent:sase-1dq.land][1] | Check status of sase-1dr epic whose stale epic-symbol entries break symvision | 3 |
 | read-by | [agent:sase-1dr.3][2] | Need epic children status for phase ordering | 1 |
 | read-by | [agent:sase-1dr.4.1.land][3] | Need whether the containing epic is still open for its land agent | 1 |
+| read-by | [agent:sase-1dr.8][4] | Need epic context for diff-view phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dq.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.8/README.md
 
 <!-- sase:referenced-by:end -->

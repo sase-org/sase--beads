@@ -15,7 +15,7 @@ launch: remove the beta flag by deleting its off branches and closing the flag b
 
 - **Depends on:** [sase-1dr.1](sase-1dr.1.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.11](sase-1dr.11.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [sase-1dr.7](sase-1dr.7.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.7](sase-1dr.7.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.9](sase-1dr.9.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
