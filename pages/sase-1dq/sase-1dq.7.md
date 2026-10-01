@@ -13,7 +13,7 @@ gate-note-autosuggest: host the ghost display layer in the GateInputPanel note e
 
 ## Dependencies
 
-- **Depends on:** [sase-1dq.6](sase-1dq.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dq.6](sase-1dq.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dq.8](sase-1dq.8.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
