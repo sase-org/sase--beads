@@ -22,7 +22,7 @@ pipeline: wire `render`, which takes a script, Markdown, or artifact ref and pro
 - **Depends on:** [sase-1e3.3](sase-1e3.3.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.4](sase-1e3.4.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.5](sase-1e3.5.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1e3.7](sase-1e3.7.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1e3.7](sase-1e3.7.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -38,8 +38,10 @@ pipeline: wire `render`, which takes a script, Markdown, or artifact ref and pro
 | --- | --- | --- | ---: |
 | read-by | [agent:research.38.cld][1] | Check phase progress/notes for sase-listen user-facing research | 1 |
 | read-by | [agent:research.38.grk][2] | Need child phase scope for sase-listen user-facing research | 1 |
+| read-by | [agent:sase-1e3.6][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.38.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.6/README.md
 
 <!-- sase:referenced-by:end -->

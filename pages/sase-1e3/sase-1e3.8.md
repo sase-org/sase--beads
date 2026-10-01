@@ -14,7 +14,7 @@ feed: add `feed init`/`feed`/`publish`/`unpublish`. Publishing writes into a ser
 ## Dependencies
 
 - **Blocks:** [sase-1e3.10](sase-1e3.10.md) ◐ · ⧖ 2026-10-01
-- **Depends on:** [sase-1e3.7](sase-1e3.7.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.7](sase-1e3.7.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

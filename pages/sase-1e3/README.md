@@ -38,9 +38,9 @@ Any SASE research report, or any other Markdown file, becomes a chaptered, loudn
 | [sase-1e3.4](sase-1e3.4.md) | Mastering, MP3 packaging, chapters, and cover art | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.5](sase-1e3.5.md) | TTS engines, narrator profiles, credentials, retries, cache, and pricing | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.6](sase-1e3.6.md) | Render orchestration, quality gates, manifest, and episode library | ✓ closed | medium | 2026-10-01 | 1 | 0 |
-| [sase-1e3.7](sase-1e3.7.md) | Beautiful CLI experience and companion commands | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [sase-1e3.7](sase-1e3.7.md) | Beautiful CLI experience and companion commands | ✓ closed | medium | 2026-10-01 | 1 | 0 |
 | [sase-1e3.8](sase-1e3.8.md) | Private podcast feed for AntennaPod | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
-| [sase-1e3.9](sase-1e3.9.md) | #research/audio xprompt and research\_swarm audio stage | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [sase-1e3.9](sase-1e3.9.md) | #research/audio xprompt and research\_swarm audio stage | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 
 ## Lineage
 
@@ -56,9 +56,9 @@ flowchart TD
     n7["sase-1e3.4: Mastering, MP3 packaging, chapters, and cover art [closed]"]
     n8["sase-1e3.5: TTS engines, narrator profiles, credentials, retries, cache, and pricing [closed]"]
     n9["sase-1e3.6: Render orchestration, quality gates, manifest, and episode library [closed]"]
-    n10["sase-1e3.7: Beautiful CLI experience and companion commands [in_progress]"]
+    n10["sase-1e3.7: Beautiful CLI experience and companion commands [closed]"]
     n11["sase-1e3.8: Private podcast feed for AntennaPod [in_progress]"]
-    n12["sase-1e3.9: #research/audio xprompt and research_swarm audio stage [in_progress]"]
+    n12["sase-1e3.9: #research/audio xprompt and research_swarm audio stage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -102,8 +102,14 @@ flowchart TD
 | [bbugyi200.apollo.sase-1e3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.6/README.md) | [sase-1e3.6](sase-1e3.6.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.7/README.md) | [sase-1e3.7](sase-1e3.7.md) | 0 |
 | [bbugyi200.apollo.sase-1e3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.8/README.md) | [sase-1e3.8](sase-1e3.8.md) | 0 |
-| [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 0 |
+| [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 1 |
 | [bbugyi200.apollo.sase-1e3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.land/README.md) | [sase-1e3](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-research-artifacts | [`sase-research-artifacts@53679b3`](https://github.com/sase-org/sase-research-artifacts/commit/53679b3aa7d69783c85aefb9647dad29e77e0bf2) | feat(research-audio): add #research/audio xprompt and research\_swarm audio stage | [sase-1e3.9](sase-1e3.9.md) | 2026-10-01 16:58:38 EDT |
 
 <!-- sase:referenced-by:start -->
 

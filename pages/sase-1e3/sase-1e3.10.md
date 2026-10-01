@@ -16,7 +16,7 @@ docs: finish the README and mkdocs site, covering the hero, quickstart, how it w
 - **Blocks:** [sase-1e3.11](sase-1e3.11.md) ◐ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.2](sase-1e3.2.md) ✓ · ⧖ 2026-10-01
 - **Depends on:** [sase-1e3.8](sase-1e3.8.md) ◐ · ⧖ 2026-10-01
-- **Depends on:** [sase-1e3.9](sase-1e3.9.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [sase-1e3.9](sase-1e3.9.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
