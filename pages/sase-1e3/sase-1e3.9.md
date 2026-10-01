@@ -24,13 +24,7 @@ research-audio: in sase-research-artifacts, add the #research/audio xprompt, whi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-research-artifacts | [`sase-research-artifacts@53679b3`](https://github.com/sase-org/sase-research-artifacts/commit/53679b3aa7d69783c85aefb9647dad29e77e0bf2) | feat(research-audio): add #research/audio xprompt and research\_swarm audio stage | [sase-1e3.9](sase-1e3.9.md) | 2026-10-01 16:58:38 EDT |
+| [bbugyi200.apollo.sase-1e3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1e3.9/README.md) | [sase-1e3.9](sase-1e3.9.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
