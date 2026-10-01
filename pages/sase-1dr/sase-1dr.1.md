@@ -11,6 +11,10 @@
 
 capture: make untracked or ignored managed memory and instruction files a `sase memory init --check` failure, make publish fail loudly when an intended file was not committed, and start recording what each agent saw: the workspace HEAD and instruction blob OIDs at launch, and blob OIDs on audited memory reads.
 
+## Notes
+
+[2026-10-01T02:02:37Z · sase-1dr.1--2] PROPOSED FOLLOW-UP: symvision flags 6 unused public symbols that fail identically on the clean base tree (HandoffSubmitResult, StarterResolution, get_unread_set_generation, has_unread_probe_cache_key, note_unread_set_changed, owner_ref); they belong to other phases/epics and need owner attribution or deletion
+
 ## Dependencies
 
 - **Blocks:** [sase-1dr.12](sase-1dr.12.md) ◐ · ⧖ 2026-09-30

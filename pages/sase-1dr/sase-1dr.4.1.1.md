@@ -19,7 +19,7 @@ subjects: derive note, web, strand, instructions, and asset identity from file_h
 
 ## Dependencies
 
-- **Blocks:** [sase-1dr.4.1.2](sase-1dr.4.1.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.4.1.2](sase-1dr.4.1.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ subjects: derive note, web, strand, instructions, and asset identity from file_h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@26ffc55`](https://github.com/sase-org/sase-core/commit/26ffc55d33c3c25a8a0806834cc51e9e6349ed7e) | feat(memory-history): subject identity, shim aliasing, and fixture corpus | [sase-1dr.4.1.1](sase-1dr.4.1.1.md) | 2026-09-30 21:26:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.4.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

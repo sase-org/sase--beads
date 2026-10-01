@@ -13,7 +13,7 @@ causes-feed: attribute instruction versions to co-changed memory, config, and re
 
 ## Dependencies
 
-- **Depends on:** [sase-1dr.4.1.2](sase-1dr.4.1.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.4.1.2](sase-1dr.4.1.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.4.1.4](sase-1dr.4.1.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
