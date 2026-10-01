@@ -32,3 +32,15 @@ capture: make untracked or ignored managed memory and instruction files a `sase 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`297faf1`](https://github.com/sase-org/sase/commit/297faf1d381032a7bacbc2594ff2a793e05ba995) | feat(memory): tracking guarantees and as-seen evidence capture | [sase-1dr.1](sase-1dr.1.md) | 2026-09-30 22:44:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.1--3][1] | Need the phase scope and design file to verify close readiness | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md
+
+<!-- sase:referenced-by:end -->
