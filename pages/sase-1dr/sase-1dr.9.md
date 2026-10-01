@@ -26,4 +26,10 @@ timeline-picker: add the `@` modal timeline over all versions, including worktre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.9/README.md) | [sase-1dr.9](sase-1dr.9.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.9/README.md) | [sase-1dr.9](sase-1dr.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`994d5fe`](https://github.com/sase-org/sase/commit/994d5fe9f9016c213044a7ff074859b6ff395ee3) | feat(pager): add @ timeline picker modal with jump, compare, filter | [sase-1dr.9](sase-1dr.9.md) | 2026-10-01 11:05:29 EDT |
