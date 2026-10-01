@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1dm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.3/README.md) | [sase-1dm.3](sase-1dm.3.md) | 1 |
 | [bbugyi200.athena.sase-1dm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.4/README.md) | [sase-1dm.4](sase-1dm.4.md) | 1 |
 | [bbugyi200.athena.sase-1dm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.5/README.md) | [sase-1dm.5](sase-1dm.5.md) | 1 |
-| [bbugyi200.athena.sase-1dm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.land.md) | [sase-1dm](README.md) | 1 |
+| [bbugyi200.athena.sase-1dm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.land.md) | [sase-1dm](README.md) | 2 |
 
 ## Commits
 
@@ -78,6 +78,7 @@ flowchart TD
 | sase | [`1728715`](https://github.com/sase-org/sase/commit/17287152200ca521b19accc0fb32813335b76c5c) | feat(tool): record demand context, resource usage, and pytest worker grants (sase-1dm.2) | [sase-1dm.2](sase-1dm.2.md) | 2026-09-30 19:35:24 EDT |
 | sase | [`be6daf9`](https://github.com/sase-org/sase/commit/be6daf95d156f7df1a95d2ac3055ff400fd4cad2) | feat(tool): add sase tool stats report command | [sase-1dm.5](sase-1dm.5.md) | 2026-09-30 19:57:19 EDT |
 | sase-core | [`sase-core@6121711`](https://github.com/sase-org/sase-core/commit/6121711cb03a120b15a3b9f13cf00c86f8ce2bb5) | feat(tool-run): land demand record and stats report | [sase-1dm](README.md) | 2026-09-30 23:24:20 EDT |
+| sase | [`1d84044`](https://github.com/sase-org/sase/commit/1d84044ed6496b8ebde60dcdefe40dd8b7c89725) | feat(tool): land tool stats and ToolRun demand instrumentation | [sase-1dm](README.md) | 2026-09-30 23:28:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -86,7 +87,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1dm.4][1] | Need epic plan context for phase work | 1 |
+| read-by | [agent:sase-1dm.land--2][2] | finish landing close-out | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1dm.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1dm.land.md
 
 <!-- sase:referenced-by:end -->
