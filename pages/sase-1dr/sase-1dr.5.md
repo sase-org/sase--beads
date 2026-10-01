@@ -36,10 +36,23 @@ history-cli: add the thin facade and wire types, a scope builder for project and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md) | [sase-1dr.5](sase-1dr.5.md) | 1 |
+| [bbugyi200.apollo.sase-1dr.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md) | [sase-1dr.5](sase-1dr.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@62788b4`](https://github.com/sase-org/sase-core/commit/62788b4004039c1e119e7dcee61b29309bfd2505) | feat(sase-1dr.5): file history runner support in sase-core | [sase-1dr.5](sase-1dr.5.md) | 2026-10-01 02:21:24 EDT |
+| sase | [`ebf070e`](https://github.com/sase-org/sase/commit/ebf070e16ae0b24bf889d582c574d01752bb6d54) | fix(sase-1dr.5): resolve phase-owned symvision failures in memory history | [sase-1dr.5](sase-1dr.5.md) | 2026-10-01 02:52:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md
+
+<!-- sase:referenced-by:end -->

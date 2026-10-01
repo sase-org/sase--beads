@@ -22,3 +22,15 @@ pager-axis: create the temporary beta flag. Add a generic section-history provid
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1dr.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.6/README.md) | [sase-1dr.6](sase-1dr.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.5--1][1] | Check whether pager phase will consume history vocabulary labels and hidden-filtering | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.5.md
+
+<!-- sase:referenced-by:end -->
