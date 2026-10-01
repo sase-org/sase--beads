@@ -19,7 +19,7 @@ diff-view: add the `=` read/diff toggle. The diff view shows inline word inserti
 
 ## Dependencies
 
-- **Blocks:** [sase-1dr.10](sase-1dr.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [sase-1dr.10](sase-1dr.10.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.6](sase-1dr.6.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.9](sase-1dr.9.md) ◐ · ⧖ 2026-09-30
 

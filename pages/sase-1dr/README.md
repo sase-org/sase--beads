@@ -34,7 +34,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1dr.1](sase-1dr.1.md) | Tracking guarantees and as-seen evidence capture | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [sase-1dr.10](sase-1dr.10.md) | Cross-file memory changes feed | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [sase-1dr.10](sase-1dr.10.md) | Cross-file memory changes feed | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [sase-1dr.11](sase-1dr.11.md) | Memory panel entry points and History row | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [sase-1dr.12](sase-1dr.12.md) | Unflag, document, and verify end to end | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [sase-1dr.2](sase-1dr.2.md) | Prose-aware comparison engine in sase-core | ✓ closed | medium | 2026-09-30 | 1 | 1 |
@@ -52,7 +52,7 @@ Every committed version of every SASE memory note, web, strand, and agent instru
 flowchart TD
     n0["sase-1dr: Memory history: a time axis for SASE memory and agent instruction files [in_progress]"]
     n1["sase-1dr.1: Tracking guarantees and as-seen evidence capture [closed]"]
-    n2["sase-1dr.10: Cross-file memory changes feed [in_progress]"]
+    n2["sase-1dr.10: Cross-file memory changes feed [closed]"]
     n3["sase-1dr.11: Memory panel entry points and History row [in_progress]"]
     n4["sase-1dr.12: Unflag, document, and verify end to end [in_progress]"]
     n5["sase-1dr.2: Prose-aware comparison engine in sase-core [closed]"]
@@ -109,7 +109,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1dr.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.1.md) | [sase-1dr.1](sase-1dr.1.md) | 1 |
-| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md) | [sase-1dr.10](sase-1dr.10.md) | 0 |
+| [bbugyi200.apollo.sase-1dr.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.10.md) | [sase-1dr.10](sase-1dr.10.md) | 1 |
 | [bbugyi200.apollo.sase-1dr.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.11/README.md) | [sase-1dr.11](sase-1dr.11.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.12/README.md) | [sase-1dr.12](sase-1dr.12.md) | 0 |
 | [bbugyi200.apollo.sase-1dr.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1dr.2/README.md) | [sase-1dr.2](sase-1dr.2.md) | 1 |
@@ -144,6 +144,7 @@ flowchart TD
 | sase | [`92c6337`](https://github.com/sase-org/sase/commit/92c6337de85b89f42b15a481a474f84091139aeb) | feat(sase-1dr.6): pager time axis and read view with memory provider, plus completion snapshot sync | [sase-1dr.6](sase-1dr.6.md) | 2026-10-01 06:46:04 EDT |
 | sase | [`7884ffe`](https://github.com/sase-org/sase/commit/7884ffe854e52e7ff7d39d56eb3cfb8e82197dd3) | feat(sase-1dr.8): word-diff view and change navigation | [sase-1dr.8](sase-1dr.8.md) | 2026-10-01 08:18:03 EDT |
 | sase | [`3819d25`](https://github.com/sase-org/sase/commit/3819d254b3fe669eb2afcf7b4f64d04d1e94a248) | feat(sase-1dr.7): pager time band with sparkline, honest states, and PNG goldens | [sase-1dr.7](sase-1dr.7.md) | 2026-10-01 09:02:52 EDT |
+| sase | [`429d657`](https://github.com/sase-org/sase/commit/429d6577de09805c95c5cd7509e0ecb4691ba8c7) | feat(sase-1dr.10): cross-file memory changes feed with day sections, folded consequences and PNG goldens | [sase-1dr.10](sase-1dr.10.md) | 2026-10-01 09:55:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

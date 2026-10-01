@@ -11,6 +11,10 @@
 
 timeline-picker: add the `@` modal timeline over all versions, including worktree and staged rows and a hidden-versions summary row. It has vim-style list keys, a `/` filter across section, agent, bead, and words, `⏎` jumps that push a trail entry, `=` to compare the row with the open version, and `.` to toggle hidden versions. It stays fast on timelines with hundreds of versions. Add visual goldens.
 
+## Notes
+
+[2026-10-01T13:11:28Z · sase-1dr.9] PROPOSED FOLLOW-UP: symvision flags StarterResolution in src/sase/tool/starter.py as unused on the clean base tree (no consumers in src or tests; unrelated to timeline-picker) — triage it alongside the KNOWN owner_ref/HandoffSubmitResult items
+
 ## Dependencies
 
 - **Blocks:** [sase-1dr.12](sase-1dr.12.md) ◐ · ⧖ 2026-09-30

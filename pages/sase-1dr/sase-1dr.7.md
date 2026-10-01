@@ -36,3 +36,15 @@ time-band: add the time band. At now it is a one-row life strip; in the past it 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3819d25`](https://github.com/sase-org/sase/commit/3819d254b3fe669eb2afcf7b4f64d04d1e94a248) | feat(sase-1dr.7): pager time band with sparkline, honest states, and PNG goldens | [sase-1dr.7](sase-1dr.7.md) | 2026-10-01 09:02:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1dr.7--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1dr.7.md
+
+<!-- sase:referenced-by:end -->

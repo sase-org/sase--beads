@@ -13,7 +13,7 @@ memory-panel: add the Memory panel `H` binding, which opens the selected note, w
 
 ## Dependencies
 
-- **Depends on:** [sase-1dr.10](sase-1dr.10.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [sase-1dr.10](sase-1dr.10.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [sase-1dr.12](sase-1dr.12.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [sase-1dr.7](sase-1dr.7.md) ✓ · ⧖ 2026-09-30
 
