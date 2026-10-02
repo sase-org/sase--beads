@@ -20,7 +20,7 @@ The Agents-tab deck and the sase pager share one closed split model with seven g
 | [sase-1eu.3](sase-1eu.3.md) | Agents deck on PaneGrid with flat grid rendering | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eu.4](sase-1eu.4.md) | Agents deck reverse focus, swap, close, and turn keys | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eu.5](sase-1eu.5.md) | Agents deck three panels behind the three\_pane\_splits beta flag | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
-| [sase-1eu.6](sase-1eu.6.md) | Pager on PaneGrid with grid panes and the new pane keys | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1eu.6](sase-1eu.6.md) | Pager on PaneGrid with grid panes and the new pane keys | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.7](sase-1eu.7.md) | Pager three panes with MRU ctrl+w and a target preview | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eu.8](sase-1eu.8.md) | Remove the flag and finish docs, help, glossary, and release note | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 
@@ -34,7 +34,7 @@ flowchart TD
     n3["sase-1eu.3: Agents deck on PaneGrid with flat grid rendering [in_progress]"]
     n4["sase-1eu.4: Agents deck reverse focus, swap, close, and turn keys [in_progress]"]
     n5["sase-1eu.5: Agents deck three panels behind the three_pane_splits beta flag [in_progress]"]
-    n6["sase-1eu.6: Pager on PaneGrid with grid panes and the new pane keys [in_progress]"]
+    n6["sase-1eu.6: Pager on PaneGrid with grid panes and the new pane keys [closed]"]
     n7["sase-1eu.7: Pager three panes with MRU ctrl+w and a target preview [in_progress]"]
     n8["sase-1eu.8: Remove the flag and finish docs, help, glossary, and release note [in_progress]"]
     n0 --> n1
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.3/README.md) | [sase-1eu.3](sase-1eu.3.md) | 0 |
 | [bbugyi200.athena.sase-1eu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.4/README.md) | [sase-1eu.4](sase-1eu.4.md) | 0 |
 | [bbugyi200.athena.sase-1eu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.5/README.md) | [sase-1eu.5](sase-1eu.5.md) | 0 |
-| [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.6/README.md) | [sase-1eu.6](sase-1eu.6.md) | 0 |
+| [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md) | [sase-1eu.6](sase-1eu.6.md) | 1 |
 | [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 0 |
 | [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.8/README.md) | [sase-1eu.8](sase-1eu.8.md) | 0 |
 | [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.land/README.md) | [sase-1eu](README.md) | 0 |
@@ -74,3 +74,20 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fc8830c`](https://github.com/sase-org/sase/commit/fc8830c6bcae33187028c36075086347dfc44653) | feat(ace): add shared pure PaneGrid model with golden transition table | [sase-1eu.2](sase-1eu.2.md) | 2026-10-02 12:48:23 EDT |
+| sase | [`5dff14e`](https://github.com/sase-org/sase/commit/5dff14eab43ef40616b1cde0687daa2fe4a9c2c4) | feat(pager): port pager to PaneGrid and clear sase-1eu.6 epic symbols | [sase-1eu.6](sase-1eu.6.md) | 2026-10-02 13:53:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3c.cld][1] | Check in-flight pager epics and panel-row bead that overlap TUI memory history design | 1 |
+| read-by | [agent:research.3c.final][2] | Check status/scope of memory-history follow-ups to sequence the TUI design | 2 |
+| read-by | [agent:research.3c.grk][3] | Need pager version-clarity, three-pane, and pager-speed epics that constrain TUI memory-history design | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.grk/README.md
+
+<!-- sase:referenced-by:end -->

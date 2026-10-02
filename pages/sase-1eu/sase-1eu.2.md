@@ -20,7 +20,7 @@ pane-grid-model: add a stdlib-only PaneGrid algebra (split key rule, close, focu
 ## Dependencies
 
 - **Blocks:** [sase-1eu.3](sase-1eu.3.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.6](sase-1eu.6.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.6](sase-1eu.6.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
