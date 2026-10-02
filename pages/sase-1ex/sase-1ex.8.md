@@ -14,7 +14,7 @@ post-open-quiet: repaint the Agents detail only when a warmed context matches th
 ## Dependencies
 
 - **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ex.5](sase-1ex.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.5](sase-1ex.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

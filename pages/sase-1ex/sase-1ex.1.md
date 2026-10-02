@@ -21,9 +21,9 @@ key-perf-harness: record `SASE_TUI_PERF` key-to-paint samples for `<space>`, `ct
 
 ## Dependencies
 
-- **Blocks:** [sase-1ex.2](sase-1ex.2.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.5](sase-1ex.5.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.6](sase-1ex.6.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.2](sase-1ex.2.md) ✓ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.5](sase-1ex.5.md) ✓ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.6](sase-1ex.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.9](sase-1ex.9.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
@@ -37,3 +37,15 @@ key-perf-harness: record `SASE_TUI_PERF` key-to-paint samples for `<space>`, `ct
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`db40a72`](https://github.com/sase-org/sase/commit/db40a7219ac0e14d14e9965fa968ee58bc88884b) | feat(tui-perf): add prompt-key perf harness with recorded baseline | [sase-1ex.1](sase-1ex.1.md) | 2026-10-02 16:52:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ex.1][1] | check existing notes and implementation status | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ mru-build-efficiency: make one launchable-MRU build list project records once an
 ## Dependencies
 
 - **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ex.2](sase-1ex.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.2](sase-1ex.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

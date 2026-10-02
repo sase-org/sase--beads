@@ -19,11 +19,11 @@ Opening the prompt bar with `<space>` and cycling the current-project stack with
 | [sase-1ex.10](sase-1ex.10.md) | Explicit prompt-active state and one prompt-bar accessor | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ex.11](sase-1ex.11.md) | Make \`\<space\>\` reveal a pre-built hidden prompt bar | ◐ in_progress | large | 2026-10-02 | 1 | 0 |
 | [sase-1ex.12](sase-1ex.12.md) | Final measurements, regression gates, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
-| [sase-1ex.2](sase-1ex.2.md) | App-owned launchable-MRU snapshot for project cycling | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ex.2](sase-1ex.2.md) | App-owned launchable-MRU snapshot for project cycling | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.3](sase-1ex.3.md) | Serve \`\<space\>\` and the other MRU-head entry points from the snapshot | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ex.4](sase-1ex.4.md) | One project-record pass and memoized provider detection per MRU build | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
-| [sase-1ex.5](sase-1ex.5.md) | Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
-| [sase-1ex.6](sase-1ex.6.md) | Run each prompt text-area mount, unmount, and worker hook once | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ex.5](sase-1ex.5.md) | Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop | ✓ closed | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ex.6](sase-1ex.6.md) | Run each prompt text-area mount, unmount, and worker hook once | ✓ closed | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ex.7](sase-1ex.7.md) | One highlight build and no pump-side Jinja inspect per cycle edit | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ex.8](sase-1ex.8.md) | Quiet the work that follows opening or editing the prompt | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1ex.9](sase-1ex.9.md) | Freeze startup objects and log gen-2 GC pauses | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
@@ -37,11 +37,11 @@ flowchart TD
     n2["sase-1ex.10: Explicit prompt-active state and one prompt-bar accessor [in_progress]"]
     n3["sase-1ex.11: Make `&lt;space&gt;` reveal a pre-built hidden prompt bar [in_progress]"]
     n4["sase-1ex.12: Final measurements, regression gates, and docs [in_progress]"]
-    n5["sase-1ex.2: App-owned launchable-MRU snapshot for project cycling [in_progress]"]
+    n5["sase-1ex.2: App-owned launchable-MRU snapshot for project cycling [closed]"]
     n6["sase-1ex.3: Serve `&lt;space&gt;` and the other MRU-head entry points from the snapshot [in_progress]"]
     n7["sase-1ex.4: One project-record pass and memoized provider detection per MRU build [in_progress]"]
-    n8["sase-1ex.5: Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop [in_progress]"]
-    n9["sase-1ex.6: Run each prompt text-area mount, unmount, and worker hook once [in_progress]"]
+    n8["sase-1ex.5: Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop [closed]"]
+    n9["sase-1ex.6: Run each prompt text-area mount, unmount, and worker hook once [closed]"]
     n10["sase-1ex.7: One highlight build and no pump-side Jinja inspect per cycle edit [in_progress]"]
     n11["sase-1ex.8: Quiet the work that follows opening or editing the prompt [in_progress]"]
     n12["sase-1ex.9: Freeze startup objects and log gen-2 GC pauses [in_progress]"]
@@ -86,14 +86,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.10/README.md) | [sase-1ex.10](sase-1ex.10.md) | 0 |
 | [bbugyi200.athena.sase-1ex.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.11/README.md) | [sase-1ex.11](sase-1ex.11.md) | 0 |
 | [bbugyi200.athena.sase-1ex.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md) | [sase-1ex.12](sase-1ex.12.md) | 0 |
-| [bbugyi200.athena.sase-1ex.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.2/README.md) | [sase-1ex.2](sase-1ex.2.md) | 0 |
+| [bbugyi200.athena.sase-1ex.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.2.md) | [sase-1ex.2](sase-1ex.2.md) | 1 |
 | [bbugyi200.athena.sase-1ex.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.3/README.md) | [sase-1ex.3](sase-1ex.3.md) | 0 |
 | [bbugyi200.athena.sase-1ex.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.4/README.md) | [sase-1ex.4](sase-1ex.4.md) | 0 |
 | [bbugyi200.athena.sase-1ex.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.5/README.md) | [sase-1ex.5](sase-1ex.5.md) | 0 |
-| [bbugyi200.athena.sase-1ex.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.6/README.md) | [sase-1ex.6](sase-1ex.6.md) | 0 |
+| [bbugyi200.athena.sase-1ex.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.6.md) | [sase-1ex.6](sase-1ex.6.md) | 0 |
 | [bbugyi200.athena.sase-1ex.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.7/README.md) | [sase-1ex.7](sase-1ex.7.md) | 0 |
 | [bbugyi200.athena.sase-1ex.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.8/README.md) | [sase-1ex.8](sase-1ex.8.md) | 0 |
-| [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.9/README.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
+| [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.9.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
 | [bbugyi200.athena.sase-1ex.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.land/README.md) | [sase-1ex](README.md) | 0 |
 
 ## Commits
@@ -102,3 +102,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`e0d3645`](https://github.com/sase-org/sase/commit/e0d36453f7a0a4a3493f3ad9a08427ae58ce2e69) | fix: Preserve panel mode when navigating between agents in Agents tab (sase-1ex) | [sase-1ex](README.md) | 2026-02-20 11:56:45 EST |
 | sase | [`db40a72`](https://github.com/sase-org/sase/commit/db40a7219ac0e14d14e9965fa968ee58bc88884b) | feat(tui-perf): add prompt-key perf harness with recorded baseline | [sase-1ex.1](sase-1ex.1.md) | 2026-10-02 16:52:09 EDT |
+| sase | [`8138678`](https://github.com/sase-org/sase/commit/813867849ce4ff10ae8d1ee9d146367f2e95d475) | feat(ace-tui): app-owned launchable-MRU snapshot for project cycling | [sase-1ex.2](sase-1ex.2.md) | 2026-10-02 19:38:59 EDT |
