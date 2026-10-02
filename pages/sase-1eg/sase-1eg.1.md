@@ -40,7 +40,9 @@ view-extract: move all per-document pager state, chrome rows, lifecycle and key 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eg.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1eg.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.land/README.md
 
 <!-- sase:referenced-by:end -->

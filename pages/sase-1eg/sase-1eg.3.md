@@ -43,7 +43,9 @@ split-panes: pure split model; `\` / `|` / ctrl+f / `+` / `-` keys; q, Esc and e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eg.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1eg.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.land/README.md
 
 <!-- sase:referenced-by:end -->

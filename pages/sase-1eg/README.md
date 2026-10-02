@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-1ep][1] | Proposing epic: sase-1eg's landing taught the band label handler the ctrl+w other-pane arm; this task extends the same handler to the copy/edit arms |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ep/README.md
 
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.3/README.md) | [sase-1eg.3](sase-1eg.3.md) | 1 |
 | [bbugyi200.athena.sase-1eg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.4/README.md) | [sase-1eg.4](sase-1eg.4.md) | 1 |
 | [bbugyi200.athena.sase-1eg.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eg.5.md) | [sase-1eg.5](sase-1eg.5.md) | 0 |
-| [bbugyi200.athena.sase-1eg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.land/README.md) | [sase-1eg](README.md) | 1 |
+| [bbugyi200.athena.sase-1eg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.land/README.md) | [sase-1eg](README.md) | 2 |
 
 ## Commits
 
@@ -82,6 +82,7 @@ flowchart TD
 | sase | [`dd32637`](https://github.com/sase-org/sase/commit/dd32637d2cb1e3e3ccfc2632dece9f2e3e1eb458) | feat(pager): split panes with framed chrome and focus-scoped labels | [sase-1eg.3](sase-1eg.3.md) | 2026-10-01 19:12:51 EDT |
 | sase | [`3812f6d`](https://github.com/sase-org/sase/commit/3812f6dc1b5ee2a020b0c5006d045a0d66a5a939) | feat(pager): follow a link into the other pane with ctrl+w | [sase-1eg.4](sase-1eg.4.md) | 2026-10-01 19:43:11 EDT |
 | sase | [`96fe7d2`](https://github.com/sase-org/sase/commit/96fe7d23d093eb95bcd26023bbe221087bd753c9) | feat(pager): land sase-1eg split panes with goldens, docs, and ctrl+w history fixes | [sase-1eg](README.md) | 2026-10-01 21:29:19 EDT |
+| sase--plans | [`sase--plans@f59dcd1`](https://github.com/sase-org/sase--plans/commit/f59dcd18323c8276cd9131d47ab3cdc97cd1b8ca) | chore(plans): mark pager split panes epic plan done | [sase-1eg](README.md) | 2026-10-01 21:33:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -90,7 +91,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eg.3][1] | parent epic status | 1 |
+| read-by | [agent:sase-1eg.land][2] | Check DISCOVERED ISSUE note left by sase-1ef.land | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eg.land/README.md
 
 <!-- sase:referenced-by:end -->
