@@ -13,7 +13,7 @@ compatibility-audit: Audit all residual terminology and protected output against
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.1.1.6](sase-1eq.1.1.6.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.1.1.6](sase-1eq.1.1.6.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

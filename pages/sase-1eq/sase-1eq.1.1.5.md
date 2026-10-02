@@ -20,7 +20,7 @@ durable-readers: Implement new-first macros.json/raw_prompt.md selection in scan
 ## Dependencies
 
 - **Depends on:** [sase-1eq.1.1.4](sase-1eq.1.1.4.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.1.1.6](sase-1eq.1.1.6.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.6](sase-1eq.1.1.6.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ durable-readers: Implement new-first macros.json/raw_prompt.md selection in scan
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@926edfb`](https://github.com/sase-org/sase-core/commit/926edfb8baa1d8e3ba4242156961905595d0faf9) | feat(core-expand): read new macro artifact filenames with legacy fallbacks | [sase-1eq.1.1.5](sase-1eq.1.1.5.md) | 2026-10-02 12:04:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.5][1] | Need phase notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.5/README.md
+
+<!-- sase:referenced-by:end -->
