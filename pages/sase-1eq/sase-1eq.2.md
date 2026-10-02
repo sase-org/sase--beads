@@ -13,7 +13,7 @@ sase-durable: pin core-expand and call the new bindings. Route every durable sas
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.1](sase-1eq.1.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.1](sase-1eq.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.3](sase-1eq.3.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
