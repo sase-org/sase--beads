@@ -21,7 +21,7 @@ core-expand: rename the concept inside sase-core while serialized output stays b
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.2](sase-1eq.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.2](sase-1eq.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

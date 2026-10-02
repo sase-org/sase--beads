@@ -13,7 +13,7 @@ sase-modules: rename query-language macros to shorthands first. Then move the sa
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.2](sase-1eq.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.2](sase-1eq.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.4](sase-1eq.4.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
