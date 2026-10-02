@@ -20,7 +20,7 @@ catalog-sources: Add canonical macro layouts and source lists beside untouched l
 ## Dependencies
 
 - **Depends on:** [sase-1eq.1.1.2](sase-1eq.1.1.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.1.1.4](sase-1eq.1.1.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.4](sase-1eq.1.1.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ catalog-sources: Add canonical macro layouts and source lists beside untouched l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4f0bfd3`](https://github.com/sase-org/sase-core/commit/4f0bfd33e70b2a347d555a427f00a47fcc83bd11) | feat(core-expand): add canonical macro sources and legacy loading policy | [sase-1eq.1.1.3](sase-1eq.1.1.3.md) | 2026-10-02 10:49:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.3/README.md
+
+<!-- sase:referenced-by:end -->

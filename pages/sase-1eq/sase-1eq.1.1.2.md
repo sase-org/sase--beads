@@ -41,7 +41,9 @@ runtime-wire-names: Rename scan/statistics/launch/proc and remaining runtime int
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.1.1.2--1][1] | Need phase scope and design file | 2 |
+| read-by | [agent:sase-1eq.1.1.3][2] | Need prior phase evidence to avoid repeating moves | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->

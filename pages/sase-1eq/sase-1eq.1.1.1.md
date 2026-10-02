@@ -40,7 +40,9 @@ catalog-editor-names: Complete catalog/editor/content-layout internal identifier
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.1.1.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1eq.1.1.3][2] | prior phase evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->
