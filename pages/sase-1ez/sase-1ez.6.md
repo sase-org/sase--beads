@@ -30,3 +30,15 @@ tick-compare-skip: key runtime-row patches on (membership, displayed second) and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`efb18ee`](https://github.com/sase-org/sase/commit/efb18ee86ccf8a1cfbf99a30fbdf277a630bdeb5) | perf(tui): cache runtime tick aggregation, info metrics, prompt-active state | [sase-1ez.6](sase-1ez.6.md) | 2026-10-02 19:18:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ez.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.6/README.md
+
+<!-- sase:referenced-by:end -->

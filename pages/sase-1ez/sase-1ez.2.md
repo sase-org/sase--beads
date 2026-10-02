@@ -13,7 +13,7 @@ watchdog-truth: detect whole-process stops from the watchdog's own poll lateness
 
 ## Dependencies
 
-- **Depends on:** [sase-1ez.1](sase-1ez.1.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ez.1](sase-1ez.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

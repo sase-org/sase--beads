@@ -13,7 +13,7 @@ idle-gc-policy: once startup loads settle and input first goes idle, run gc.coll
 
 ## Dependencies
 
-- **Depends on:** [sase-1ez.1](sase-1ez.1.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ez.1](sase-1ez.1.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ez.3](sase-1ez.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
 

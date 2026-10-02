@@ -15,7 +15,7 @@ The long-lived ACE TUI stops spending 10-17% of wall time frozen. Full (gen-2) g
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ez.1](sase-1ez.1.md) | GC pause recorder, memory heartbeat, and app-instance identity | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ez.1](sase-1ez.1.md) | GC pause recorder, memory heartbeat, and app-instance identity | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.2](sase-1ez.2.md) | Make the stall watchdog report whole-process stops and exact totals | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ez.3](sase-1ez.3.md) | One live version per path or scope in the module snapshot caches | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.4](sase-1ez.4.md) | Take automatic gen-2 collection off the interactive path | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
@@ -29,7 +29,7 @@ The long-lived ACE TUI stops spending 10-17% of wall time frozen. Full (gen-2) g
 ```mermaid
 flowchart TD
     n0["sase-1ez: Stop the ACE TUI's 10% freeze budget (GC off the interactive path, one live snapshot per key) [in_progress]"]
-    n1["sase-1ez.1: GC pause recorder, memory heartbeat, and app-instance identity [in_progress]"]
+    n1["sase-1ez.1: GC pause recorder, memory heartbeat, and app-instance identity [closed]"]
     n2["sase-1ez.2: Make the stall watchdog report whole-process stops and exact totals [in_progress]"]
     n3["sase-1ez.3: One live version per path or scope in the module snapshot caches [closed]"]
     n4["sase-1ez.4: Take automatic gen-2 collection off the interactive path [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ez.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.1.md) | [sase-1ez.1](sase-1ez.1.md) | 0 |
+| [bbugyi200.athena.sase-1ez.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.1.md) | [sase-1ez.1](sase-1ez.1.md) | 1 |
 | [bbugyi200.athena.sase-1ez.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.2/README.md) | [sase-1ez.2](sase-1ez.2.md) | 0 |
 | [bbugyi200.athena.sase-1ez.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.3/README.md) | [sase-1ez.3](sase-1ez.3.md) | 1 |
 | [bbugyi200.athena.sase-1ez.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.4/README.md) | [sase-1ez.4](sase-1ez.4.md) | 0 |
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`a6e90ea`](https://github.com/sase-org/sase/commit/a6e90ea76046f73458d52406194ce8029542372e) | fix(tui): re-key module snapshot caches to one live version per path or scope | [sase-1ez.3](sase-1ez.3.md) | 2026-10-02 17:01:20 EDT |
 | sase | [`2eed4bd`](https://github.com/sase-org/sase/commit/2eed4bdcb5947a2cd96c30031ff22e5b53b57a77) | feat(tui): share immutable cached snapshots instead of copying on every hit | [sase-1ez.5](sase-1ez.5.md) | 2026-10-02 17:38:18 EDT |
 | sase | [`efb18ee`](https://github.com/sase-org/sase/commit/efb18ee86ccf8a1cfbf99a30fbdf277a630bdeb5) | perf(tui): cache runtime tick aggregation, info metrics, prompt-active state | [sase-1ez.6](sase-1ez.6.md) | 2026-10-02 19:18:30 EDT |
+| sase | [`55eec1b`](https://github.com/sase-org/sase/commit/55eec1b986425e4e5f79eb105d7ec10170f17ec1) | feat(ace): add startup clock, GC telemetry and lifecycle instrumentation | [sase-1ez.1](sase-1ez.1.md) | 2026-10-02 19:36:40 EDT |
