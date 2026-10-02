@@ -16,3 +16,15 @@ Complete all remaining core-expand contracts, prove compatibility with unchanged
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.land/README.md) | [sase-1eq.1.1](sase-1eq.1.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.2--1][1] | Need parent epic scope for phase close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.2.md
+
+<!-- sase:referenced-by:end -->

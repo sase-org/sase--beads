@@ -20,7 +20,7 @@ runtime-wire-names: Rename scan/statistics/launch/proc and remaining runtime int
 ## Dependencies
 
 - **Depends on:** [sase-1eq.1.1.1](sase-1eq.1.1.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.1.1.3](sase-1eq.1.1.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.3](sase-1eq.1.1.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ runtime-wire-names: Rename scan/statistics/launch/proc and remaining runtime int
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@421324b`](https://github.com/sase-org/sase-core/commit/421324bf2042cd7f7ffa8110b3027e8c0974a9ec) | feat(core-expand): rename runtime wires toward macros with pinned legacy output | [sase-1eq.1.1.2](sase-1eq.1.1.2.md) | 2026-10-02 09:58:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.2--1][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.2.md
+
+<!-- sase:referenced-by:end -->

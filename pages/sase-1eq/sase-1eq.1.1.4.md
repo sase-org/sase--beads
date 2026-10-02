@@ -13,7 +13,7 @@ authored-inputs: Accept macros keys in all YAML/frontmatter/config loading and e
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.1.1.3](sase-1eq.1.1.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.1.1.3](sase-1eq.1.1.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
