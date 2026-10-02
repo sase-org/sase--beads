@@ -41,3 +41,15 @@ polish: update the memory history and pager docs with the new anatomy, review ev
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b5b43de`](https://github.com/sase-org/sase/commit/b5b43de6673a8436b5c021b90a989124afa9abf8) | docs(pager): document version-clarity anatomy for sase-1ef polish | [sase-1ef.5](sase-1ef.5.md) | 2026-10-01 20:27:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ef.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.5/README.md
+
+<!-- sase:referenced-by:end -->
