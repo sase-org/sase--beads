@@ -13,7 +13,7 @@ deck-grid-adapter: rebuild DeckAreaState and DeckArea on PaneGrid with pane-ID-k
 
 ## Dependencies
 
-- **Depends on:** [sase-1eu.2](sase-1eu.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eu.2](sase-1eu.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.4](sase-1eu.4.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

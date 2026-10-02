@@ -15,8 +15,8 @@ The Agents-tab deck and the sase pager share one closed split model with seven g
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1eu.1](sase-1eu.1.md) | Deliver the ctrl+shift chords through kitty and tmux | ✓ closed | small | 2026-10-02 | 1 | 1 |
-| [sase-1eu.2](sase-1eu.2.md) | Shared pure PaneGrid model and golden transition table | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1eu.1](sase-1eu.1.md) | Deliver the ctrl+shift chords through kitty and tmux | ✓ closed | small | 2026-10-02 | 1 | 0 |
+| [sase-1eu.2](sase-1eu.2.md) | Shared pure PaneGrid model and golden transition table | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.3](sase-1eu.3.md) | Agents deck on PaneGrid with flat grid rendering | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eu.4](sase-1eu.4.md) | Agents deck reverse focus, swap, close, and turn keys | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eu.5](sase-1eu.5.md) | Agents deck three panels behind the three\_pane\_splits beta flag | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
@@ -30,7 +30,7 @@ The Agents-tab deck and the sase pager share one closed split model with seven g
 flowchart TD
     n0["sase-1eu: Three-pane splits for the Agents deck and the pager [in_progress]"]
     n1["sase-1eu.1: Deliver the ctrl+shift chords through kitty and tmux [closed]"]
-    n2["sase-1eu.2: Shared pure PaneGrid model and golden transition table [in_progress]"]
+    n2["sase-1eu.2: Shared pure PaneGrid model and golden transition table [closed]"]
     n3["sase-1eu.3: Agents deck on PaneGrid with flat grid rendering [in_progress]"]
     n4["sase-1eu.4: Agents deck reverse focus, swap, close, and turn keys [in_progress]"]
     n5["sase-1eu.5: Agents deck three panels behind the three_pane_splits beta flag [in_progress]"]
@@ -59,8 +59,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.1/README.md) | [sase-1eu.1](sase-1eu.1.md) | 1 |
-| [bbugyi200.athena.sase-1eu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.2/README.md) | [sase-1eu.2](sase-1eu.2.md) | 0 |
+| [bbugyi200.athena.sase-1eu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.1/README.md) | [sase-1eu.1](sase-1eu.1.md) | 0 |
+| [bbugyi200.athena.sase-1eu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.2.md) | [sase-1eu.2](sase-1eu.2.md) | 1 |
 | [bbugyi200.athena.sase-1eu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.3/README.md) | [sase-1eu.3](sase-1eu.3.md) | 0 |
 | [bbugyi200.athena.sase-1eu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.4/README.md) | [sase-1eu.4](sase-1eu.4.md) | 0 |
 | [bbugyi200.athena.sase-1eu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.5/README.md) | [sase-1eu.5](sase-1eu.5.md) | 0 |
@@ -73,4 +73,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| chezmoi | [`chezmoi@78f0db4`](https://github.com/bbugyi200/dotfiles/commit/78f0db4e04b069e211c0c4f93c5780c7e4a2d64f) | feat(terminal): pass ctrl+shift chords through kitty and tmux | [sase-1eu.1](sase-1eu.1.md) | 2026-10-02 11:53:45 EDT |
+| sase | [`fc8830c`](https://github.com/sase-org/sase/commit/fc8830c6bcae33187028c36075086347dfc44653) | feat(ace): add shared pure PaneGrid model with golden transition table | [sase-1eu.2](sase-1eu.2.md) | 2026-10-02 12:48:23 EDT |
