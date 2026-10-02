@@ -13,7 +13,7 @@ catalog-sources: Add canonical macro layouts and source lists beside untouched l
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.1.1.2](sase-1eq.1.1.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.1.1.2](sase-1eq.1.1.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.1.1.4](sase-1eq.1.1.4.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

@@ -35,7 +35,7 @@ flowchart TD
     n1["sase-1eq.1: sase-core additive macro rename [in_progress]"]
     n2["sase-1eq.1.1: Finish the additive Rust macro rename and close sase-1eq.1 [in_progress]"]
     n3["sase-1eq.1.1.1: Rename catalog and editor internals with pinned legacy output [closed]"]
-    n4["sase-1eq.1.1.2: Rename runtime wires and normalize prompt proc aliases [in_progress]"]
+    n4["sase-1eq.1.1.2: Rename runtime wires and normalize prompt proc aliases [closed]"]
     n5["sase-1eq.1.1.3: Add canonical macro sources and legacy loading policy [in_progress]"]
     n6["sase-1eq.1.1.4: Accept macro definition keys and permanent directive aliases [in_progress]"]
     n7["sase-1eq.1.1.5: Read new artifact filenames with permanent legacy fallbacks [in_progress]"]
@@ -98,7 +98,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.md) | [sase-1eq.1](sase-1eq.1.md) | 1 |
 | [bbugyi200.athena.sase-1eq.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.1/README.md) | [sase-1eq.1.1.1](sase-1eq.1.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1eq.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.2/README.md) | [sase-1eq.1.1.2](sase-1eq.1.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1eq.1.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.2.md) | [sase-1eq.1.1.2](sase-1eq.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.3/README.md) | [sase-1eq.1.1.3](sase-1eq.1.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1eq.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.4/README.md) | [sase-1eq.1.1.4](sase-1eq.1.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1eq.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.5/README.md) | [sase-1eq.1.1.5](sase-1eq.1.1.5.md) | 0 |
@@ -123,3 +123,16 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@015ce7f`](https://github.com/sase-org/sase-core/commit/015ce7f6ad1cc5ade253dc6d174ce55ae9dc30d3) | feat(core-expand): rename modules and query shorthands toward macros | [sase-1eq.1](sase-1eq.1.md) | 2026-10-02 07:32:05 EDT |
 | sase-core | [`sase-core@c4444ab`](https://github.com/sase-org/sase-core/commit/c4444abbf25508844d040356d4b423329e0f0dbc) | feat(core-expand): rename catalog and editor internals toward macros with pinned legacy output | [sase-1eq.1.1.1](sase-1eq.1.1.1.md) | 2026-10-02 08:36:12 EDT |
+| sase-core | [`sase-core@421324b`](https://github.com/sase-org/sase-core/commit/421324bf2042cd7f7ffa8110b3027e8c0974a9ec) | feat(core-expand): rename runtime wires toward macros with pinned legacy output | [sase-1eq.1.1.2](sase-1eq.1.1.2.md) | 2026-10-02 09:58:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:44][1] | Evaluate whether xprompt->macro rename is the right decision | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.44/README.md
+
+<!-- sase:referenced-by:end -->

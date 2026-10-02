@@ -19,7 +19,7 @@ catalog-editor-names: Complete catalog/editor/content-layout internal identifier
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.1.1.2](sase-1eq.1.1.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.2](sase-1eq.1.1.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ catalog-editor-names: Complete catalog/editor/content-layout internal identifier
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c4444ab`](https://github.com/sase-org/sase-core/commit/c4444abbf25508844d040356d4b423329e0f0dbc) | feat(core-expand): rename catalog and editor internals toward macros with pinned legacy output | [sase-1eq.1.1.1](sase-1eq.1.1.1.md) | 2026-10-02 08:36:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
