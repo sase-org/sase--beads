@@ -13,7 +13,7 @@ lsp-inputs: Add sase-macro-lsp to the existing package, new command aliases and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.1.1.7](sase-1eq.1.1.7.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

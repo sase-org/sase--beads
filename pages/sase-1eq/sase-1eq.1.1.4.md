@@ -20,7 +20,7 @@ authored-inputs: Accept macros keys in all YAML/frontmatter/config loading and e
 ## Dependencies
 
 - **Depends on:** [sase-1eq.1.1.3](sase-1eq.1.1.3.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ authored-inputs: Accept macros keys in all YAML/frontmatter/config loading and e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e6a3452`](https://github.com/sase-org/sase-core/commit/e6a3452f7134efe6a805e099a3f19ddfb918fb50) | feat(core-expand): accept macro authored keys and permanent directive aliases | [sase-1eq.1.1.4](sase-1eq.1.1.4.md) | 2026-10-02 11:26:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.4/README.md
+
+<!-- sase:referenced-by:end -->
