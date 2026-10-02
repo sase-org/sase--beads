@@ -15,6 +15,8 @@ cached-snapshot-sharing: stop the notification facade deep-cloning about 1.6k ro
 
 [2026-10-02T21:15:49Z · sase-1ez.5] cached-snapshot-sharing done. Facade _read_snapshot_cached returns fresh outer lists sharing cached Notification rows (no per-row deep clone); token race guard kept. Modal owns its rows via replace() at intake (NotificationModal init + undismiss provider reload) so in-place optimistic updates can't reach the cache; app-level _remove_agent_completion_notifications_from_cache audited (outer-list slice-assign only, safe). dismissed_bundle_identities_snapshot returns the cached frozenset; bundle-identities channel widened to AbstractSet, 3 set() per-load copies removed. read_artifact_file_index returns the cached tuple (frozen rows); annotation honest. Guard tests: shared row identity + outer-list mutation isolation (facade), frozenset identity + AttributeError on mutation (dismissed), tuple identity + AttributeError on append (artifact), modal intake-copy test. Verified: 569 passed across facade/notification/artifact/dismissed/modal/loader suites; ruff check+format clean; mypy clean (5477 files); symvision lane clean. No epic-symbol entries left.
 
+[2026-10-02T23:13:41Z · sase-1ez.5--1] PROPOSED FOLLOW-UP: full check exit 1 triaged no_new_failures — KNOWN pager test_scan_links_stays_fast_on_link_dense_input (witness 40273fef0363a073f4b6a66931adee00) + FLAKY axe test_repeat_stop_exits_before_workspace_claim_and_run_loop; both files outside phase scope (notification/dismissed/artifact), all lint gates passed, 51690 passed
+
 ## Dependencies
 
 - **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
@@ -23,10 +25,22 @@ cached-snapshot-sharing: stop the notification facade deep-cloning about 1.6k ro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ez.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.5/README.md) | [sase-1ez.5](sase-1ez.5.md) | 1 |
+| [bbugyi200.athena.sase-1ez.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.5.md) | [sase-1ez.5](sase-1ez.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2eed4bd`](https://github.com/sase-org/sase/commit/2eed4bdcb5947a2cd96c30031ff22e5b53b57a77) | feat(tui): share immutable cached snapshots instead of copying on every hit | [sase-1ez.5](sase-1ez.5.md) | 2026-10-02 17:38:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ez.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.5.md
+
+<!-- sase:referenced-by:end -->
