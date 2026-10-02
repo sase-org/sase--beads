@@ -21,3 +21,15 @@ scan-leak-fixes: fix the theme-watcher leak that keeps every closed pager alive,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1es.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.2/README.md) | [sase-1es.2](sase-1es.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:0vd][1] | Check phase status, deps and notes to assess conflict with three-pane split work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0vd/README.md
+
+<!-- sase:referenced-by:end -->

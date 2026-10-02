@@ -23,7 +23,7 @@ pager-bench: add a subprocess-isolated pager benchmark over a synthetic corpus (
 
 - **Blocks:** [sase-1es.2](sase-1es.2.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1es.3](sase-1es.3.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1es.4](sase-1es.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1es.4](sase-1es.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -36,3 +36,15 @@ pager-bench: add a subprocess-isolated pager benchmark over a synthetic corpus (
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6cca547`](https://github.com/sase-org/sase/commit/6cca547014bdb14afcaa80db5a772af29f3460aa) | feat(pager): add subprocess-isolated pager benchmark with baseline | [sase-1es.1](sase-1es.1.md) | 2026-10-02 10:27:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1es.1--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.1.md
+
+<!-- sase:referenced-by:end -->
