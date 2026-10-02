@@ -18,7 +18,7 @@ band: rebuild the time band around a playhead scrubber with labelled ends, absol
 ## Dependencies
 
 - **Depends on:** [sase-1ef.2](sase-1ef.2.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1ef.5](sase-1ef.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1ef.5](sase-1ef.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -31,3 +31,15 @@ band: rebuild the time band around a playhead scrubber with labelled ends, absol
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cf0b8e0`](https://github.com/sase-org/sase/commit/cf0b8e02d93b83e7f7be164cb86ca3d34d5cb8b3) | feat(pager): rebuild time band around playhead scrubber | [sase-1ef.3](sase-1ef.3.md) | 2026-10-01 19:51:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ef.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.3/README.md
+
+<!-- sase:referenced-by:end -->

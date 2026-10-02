@@ -18,7 +18,7 @@ picker: turn picker rows into structured, column-aligned, never-wrapping rows; a
 ## Dependencies
 
 - **Depends on:** [sase-1ef.2](sase-1ef.2.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [sase-1ef.5](sase-1ef.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [sase-1ef.5](sase-1ef.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
@@ -31,3 +31,15 @@ picker: turn picker rows into structured, column-aligned, never-wrapping rows; a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a1fc3fc`](https://github.com/sase-org/sase/commit/a1fc3fc8e83fd3a4a3a959a90b0262ab4613335c) | fix(pager): privatize timeline picker helpers for symvision | [sase-1ef.4](sase-1ef.4.md) | 2026-10-01 19:45:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ef.4--2][1] | check bead status for final | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ef.4.md
+
+<!-- sase:referenced-by:end -->

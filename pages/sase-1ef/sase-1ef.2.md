@@ -44,7 +44,9 @@ badge: route every history colour through a theme-aware style set; replace the s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ef.2][1] | Need full description and notes for badge phase | 2 |
+| read-by | [agent:sase-1ef.3][2] | Need prior phase scope to avoid redo | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ef.3/README.md
 
 <!-- sase:referenced-by:end -->
