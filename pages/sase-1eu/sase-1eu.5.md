@@ -13,7 +13,7 @@ deck-three-panels: create the three_pane_splits beta flag and, behind it, enable
 
 ## Dependencies
 
-- **Depends on:** [sase-1eu.4](sase-1eu.4.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eu.4](sase-1eu.4.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.7](sase-1eu.7.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.8](sase-1eu.8.md) ◐ · ⧖ 2026-10-02
 

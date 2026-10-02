@@ -20,7 +20,7 @@ deck-grid-adapter: rebuild DeckAreaState and DeckArea on PaneGrid with pane-ID-k
 ## Dependencies
 
 - **Depends on:** [sase-1eu.2](sase-1eu.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.4](sase-1eu.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.4](sase-1eu.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ deck-grid-adapter: rebuild DeckAreaState and DeckArea on PaneGrid with pane-ID-k
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e34386f`](https://github.com/sase-org/sase/commit/e34386fee4e4dd404183ff9f1f99a080daa6e514) | feat(decks): rebuild DeckAreaState on PaneGrid with pane-ID-keyed panels | [sase-1eu.3](sase-1eu.3.md) | 2026-10-02 14:32:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eu.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.3/README.md
+
+<!-- sase:referenced-by:end -->
