@@ -20,7 +20,7 @@ lsp-inputs: Add sase-macro-lsp to the existing package, new command aliases and 
 ## Dependencies
 
 - **Depends on:** [sase-1eq.1.1.5](sase-1eq.1.1.5.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.1.1.7](sase-1eq.1.1.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.1.1.7](sase-1eq.1.1.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ lsp-inputs: Add sase-macro-lsp to the existing package, new command aliases and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@be86aa9`](https://github.com/sase-org/sase-core/commit/be86aa9fff063dd17b3c58849a2bb708fe00cd2c) | feat(core-expand): expose macro LSP binary, commands, and policy-aware catalogs | [sase-1eq.1.1.6](sase-1eq.1.1.6.md) | 2026-10-02 12:54:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.1.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.6/README.md
+
+<!-- sase:referenced-by:end -->

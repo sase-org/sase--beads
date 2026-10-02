@@ -15,6 +15,8 @@ core-expand: rename the concept inside sase-core while serialized output stays b
 
 [2026-10-02T11:23:03Z · sase-1eq.1] Partial core-expand progress: renamed modules via git mv (xprompt_catalog->macro_catalog, xprompt_text_block->macro_text_block, editor/xprompt_args->macro_args, agent_stats/run/xprompts->macros incl tests), fixed module declarations/imports, cargo check passes. Renamed query status-macro concept to shorthand (QueryShorthandSpec, HOST_SHORTHAND_TRIGGERS, shorthand_target, shorthands_for_trigger, validate_shorthands, status_shorthand); wire still accepts macros with shorthands alias and emits macros; digest preserved; new test profile_accepts_shorthands_alias_for_macros_key passes plus all 143 query tests. Remaining per 202610/core_macro_expand.md: catalog internal type renames with serde pins, canonical macro sources + accept_legacy_xprompt_names, macro keys + %macros_enabled + launch env, durable filename readers, 4 additive bindings, sase-macro-lsp binary + LSP commands/paths, full sase tool run check in sase-core and unchanged-sase compatibility gate, git diff review + inventory classification. Evidence: /tmp/fast2.log, /tmp/fast3.log, /tmp/query_test.log, /tmp/query_all.log.
 
+[2026-10-02T18:24:56Z · sase-1eq.1.1.7--1] Phase sase-1eq.1.1.7 compatibility-audit evidence (for land agent): core gate ebb7fc31 green; rust-dev-install exit 0 into sase acac8d83e0 + core be86aa9f; focused pytest 131 passed; sase check be10642d 51601 passed, 5 failed all KNOWN pre-existing (4 stash-verified on clean base per sase-1es.3, 1 multi-witness KNOWN); sase tree clean; audit diff confined to linked core checkout (5 files).
+
 ## Dependencies
 
 - **Blocks:** [sase-1eq.2](sase-1eq.2.md) ◐ · ⧖ 2026-10-02

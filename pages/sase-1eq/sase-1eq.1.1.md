@@ -25,8 +25,10 @@ Complete all remaining core-expand contracts, prove compatibility with unchanged
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.1.1.2--1][1] | Need parent epic scope for phase close | 1 |
 | read-by | [agent:sase-1eq.1.1.3][2] | Need parent epic scope | 1 |
+| read-by | [agent:sase-1eq.1.1.6][3] | need parent epic scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.2.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.1.1.6/README.md
 
 <!-- sase:referenced-by:end -->
