@@ -13,7 +13,7 @@ deck-pane-keys: add ctrl+b reverse focus, ctrl+shift+f/b swap (aliases > and <),
 
 ## Dependencies
 
-- **Depends on:** [sase-1eu.3](sase-1eu.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eu.3](sase-1eu.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.5](sase-1eu.5.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
