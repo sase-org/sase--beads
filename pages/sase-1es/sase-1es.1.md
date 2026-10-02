@@ -22,7 +22,7 @@ pager-bench: add a subprocess-isolated pager benchmark over a synthetic corpus (
 ## Dependencies
 
 - **Blocks:** [sase-1es.2](sase-1es.2.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1es.3](sase-1es.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1es.3](sase-1es.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1es.4](sase-1es.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents

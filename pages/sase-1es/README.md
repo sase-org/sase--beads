@@ -17,7 +17,7 @@
 |---|---|---|---|---|---:|---:|
 | [sase-1es.1](sase-1es.1.md) | Pager benchmark and baseline | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1es.2](sase-1es.2.md) | Quadratic scans, span memoization, and the dismissed-view leak | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
-| [sase-1es.3](sase-1es.3.md) | Cold-path import and startup diet | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1es.3](sase-1es.3.md) | Cold-path import and startup diet | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1es.4](sase-1es.4.md) | Repo inventory and config-key memoization | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1es.5](sase-1es.5.md) | Textual-free virtual body line model with a parity oracle | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1es.6](sase-1es.6.md) | Swap the Static body for a Line-API ScrollView | ◐ in_progress | large | 2026-10-02 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n0["sase-1es: Make the SASE pager much faster with a virtualized body, a light cold path, and bounded memory [in_progress]"]
     n1["sase-1es.1: Pager benchmark and baseline [closed]"]
     n2["sase-1es.2: Quadratic scans, span memoization, and the dismissed-view leak [in_progress]"]
-    n3["sase-1es.3: Cold-path import and startup diet [in_progress]"]
+    n3["sase-1es.3: Cold-path import and startup diet [closed]"]
     n4["sase-1es.4: Repo inventory and config-key memoization [closed]"]
     n5["sase-1es.5: Textual-free virtual body line model with a parity oracle [in_progress]"]
     n6["sase-1es.6: Swap the Static body for a Line-API ScrollView [in_progress]"]
@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1es.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.1.md) | [sase-1es.1](sase-1es.1.md) | 1 |
 | [bbugyi200.athena.sase-1es.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.2/README.md) | [sase-1es.2](sase-1es.2.md) | 0 |
-| [bbugyi200.athena.sase-1es.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.3.md) | [sase-1es.3](sase-1es.3.md) | 0 |
+| [bbugyi200.athena.sase-1es.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.3.md) | [sase-1es.3](sase-1es.3.md) | 1 |
 | [bbugyi200.athena.sase-1es.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.4.md) | [sase-1es.4](sase-1es.4.md) | 1 |
 | [bbugyi200.athena.sase-1es.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.5/README.md) | [sase-1es.5](sase-1es.5.md) | 0 |
 | [bbugyi200.athena.sase-1es.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.6/README.md) | [sase-1es.6](sase-1es.6.md) | 0 |
@@ -76,6 +76,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`6cca547`](https://github.com/sase-org/sase/commit/6cca547014bdb14afcaa80db5a772af29f3460aa) | feat(pager): add subprocess-isolated pager benchmark with baseline | [sase-1es.1](sase-1es.1.md) | 2026-10-02 10:27:01 EDT |
 | sase | [`45f165b`](https://github.com/sase-org/sase/commit/45f165b6d52dddd812e249fe929c80a20520da4d) | perf(pager): memoize repo inventory and config-key per command | [sase-1es.4](sase-1es.4.md) | 2026-10-02 11:52:57 EDT |
+| sase | [`acac8d8`](https://github.com/sase-org/sase/commit/acac8d83e010f3aa26ebebfaadc26d521fec09af) | perf(pager): lighten cold-path imports and startup work | [sase-1es.3](sase-1es.3.md) | 2026-10-02 12:52:06 EDT |
 
 <!-- sase:referenced-by:start -->
 

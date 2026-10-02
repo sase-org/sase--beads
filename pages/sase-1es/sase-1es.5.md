@@ -14,7 +14,7 @@ body-line-model: build the pure per-row layout and render model (line index, exa
 ## Dependencies
 
 - **Depends on:** [sase-1es.2](sase-1es.2.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1es.3](sase-1es.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1es.3](sase-1es.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1es.6](sase-1es.6.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
