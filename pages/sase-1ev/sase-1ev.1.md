@@ -17,7 +17,7 @@ front-door: make H and C actually open the pager from the Admin Center-hosted Me
 
 ## Dependencies
 
-- **Blocks:** [sase-1ev.2](sase-1ev.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.2](sase-1ev.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ front-door: make H and C actually open the pager from the Admin Center-hosted Me
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3691b88`](https://github.com/sase-org/sase/commit/3691b88ae7fe33bdae10dc5c6aeb5bba4217a759) | fix(ace-tui): open memory history pagers directly from app thread | [sase-1ev.1](sase-1ev.1.md) | 2026-10-02 15:12:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.1][1] | Need full bead body including notes for phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.1/README.md
+
+<!-- sase:referenced-by:end -->

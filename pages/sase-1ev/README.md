@@ -20,7 +20,7 @@ The ACE Memory pane knows about time. Every memory note, web, strand, and agent 
 | [sase-1ev.11](sase-1ev.11.md) | Core review watermark and the CLI feed header | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ev.12](sase-1ev.12.md) | Review watermark in the Changes lens | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1ev.13](sase-1ev.13.md) | Document, measure, and review end to end | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
-| [sase-1ev.2](sase-1ev.2.md) | App-scoped history service and the public history kit | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ev.2](sase-1ev.2.md) | App-scoped history service and the public history kit | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ev.3](sase-1ev.3.md) | Pinned card head with the two-row time strip | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ev.4](sase-1ev.4.md) | Step through versions on the card | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ev.5](sase-1ev.5.md) | Word-diff view on the card | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
@@ -39,7 +39,7 @@ flowchart TD
     n3["sase-1ev.11: Core review watermark and the CLI feed header [in_progress]"]
     n4["sase-1ev.12: Review watermark in the Changes lens [in_progress]"]
     n5["sase-1ev.13: Document, measure, and review end to end [in_progress]"]
-    n6["sase-1ev.2: App-scoped history service and the public history kit [in_progress]"]
+    n6["sase-1ev.2: App-scoped history service and the public history kit [closed]"]
     n7["sase-1ev.3: Pinned card head with the two-row time strip [in_progress]"]
     n8["sase-1ev.4: Step through versions on the card [in_progress]"]
     n9["sase-1ev.5: Word-diff view on the card [in_progress]"]
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ev.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md) | [sase-1ev.11](sase-1ev.11.md) | 0 |
 | [bbugyi200.athena.sase-1ev.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.12/README.md) | [sase-1ev.12](sase-1ev.12.md) | 0 |
 | [bbugyi200.athena.sase-1ev.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.13/README.md) | [sase-1ev.13](sase-1ev.13.md) | 0 |
-| [bbugyi200.athena.sase-1ev.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.2/README.md) | [sase-1ev.2](sase-1ev.2.md) | 0 |
+| [bbugyi200.athena.sase-1ev.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.2/README.md) | [sase-1ev.2](sase-1ev.2.md) | 1 |
 | [bbugyi200.athena.sase-1ev.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.3/README.md) | [sase-1ev.3](sase-1ev.3.md) | 0 |
 | [bbugyi200.athena.sase-1ev.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.4/README.md) | [sase-1ev.4](sase-1ev.4.md) | 0 |
 | [bbugyi200.athena.sase-1ev.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.5/README.md) | [sase-1ev.5](sase-1ev.5.md) | 0 |
@@ -99,3 +99,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3691b88`](https://github.com/sase-org/sase/commit/3691b88ae7fe33bdae10dc5c6aeb5bba4217a759) | fix(ace-tui): open memory history pagers directly from app thread | [sase-1ev.1](sase-1ev.1.md) | 2026-10-02 15:12:30 EDT |
+| sase | [`f42f9f2`](https://github.com/sase-org/sase/commit/f42f9f225ad9a78892c357312c2b9efb988bd7c2) | feat(history): shared history service with ACE SWR timeline and pager history kit | [sase-1ev.2](sase-1ev.2.md) | 2026-10-02 16:42:13 EDT |

@@ -14,7 +14,7 @@ agents-bridge: add a sase-core blob:OID version selector. The Agents-tab MEMORY 
 ## Dependencies
 
 - **Blocks:** [sase-1ev.11](sase-1ev.11.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ev.2](sase-1ev.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.2](sase-1ev.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

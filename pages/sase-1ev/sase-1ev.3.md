@@ -13,7 +13,7 @@ time-strip: restructure the Memory card into a pinned head (title, path line wit
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.2](sase-1ev.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.2](sase-1ev.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.4](sase-1ev.4.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
