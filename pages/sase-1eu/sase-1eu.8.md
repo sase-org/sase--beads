@@ -13,7 +13,7 @@ unflag-docs: delete the three_pane_splits Off branch and close its flag bead, th
 
 ## Dependencies
 
-- **Depends on:** [sase-1eu.5](sase-1eu.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eu.5](sase-1eu.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eu.7](sase-1eu.7.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

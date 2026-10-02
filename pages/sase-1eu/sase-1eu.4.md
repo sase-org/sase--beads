@@ -18,7 +18,7 @@ deck-pane-keys: add ctrl+b reverse focus, ctrl+shift+f/b swap (aliases > and <),
 ## Dependencies
 
 - **Depends on:** [sase-1eu.3](sase-1eu.3.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.5](sase-1eu.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.5](sase-1eu.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ deck-pane-keys: add ctrl+b reverse focus, ctrl+shift+f/b swap (aliases > and <),
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2bbc346`](https://github.com/sase-org/sase/commit/2bbc346036cc79c1069ce27ad1bc7f29788f0c0a) | feat(ace): add deck layout operations, keymaps, and palette entries | [sase-1eu.4](sase-1eu.4.md) | 2026-10-02 15:23:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eu.4][1] | Need full description design and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.4/README.md
+
+<!-- sase:referenced-by:end -->

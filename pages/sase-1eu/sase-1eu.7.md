@@ -13,7 +13,7 @@ pager-three-panes: behind three_pane_splits, enable pager nest, turn and erase, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1eu.5](sase-1eu.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eu.5](sase-1eu.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eu.6](sase-1eu.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.8](sase-1eu.8.md) ◐ · ⧖ 2026-10-02
 
