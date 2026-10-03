@@ -11,6 +11,12 @@
 
 watchdog-truth: detect whole-process stops from the watchdog's own poll lateness, even when the beacon already ran. Add late/poll_lag_s/net_stall_seconds and gc-overlap attribution to hitch and recovery rows, and count rate-limited episodes and seconds into the heartbeat. Ship a tools/tui_freeze_report script that computes the de-duplicated frozen share and the GC share per app instance.
 
+## Notes
+
+[2026-10-03T00:16:48Z · sase-1ez.2] watchdog-truth verified: 49 passed (test_stall_watchdog 24 incl. 6 new late/overlap/totals/provider/instance-id tests, test_gc_telemetry 20 unchanged, test_tui_freeze_report_tool 5 new incl. mixed old/new-row fixture); sase bead epic-symbols clean; tools/tui_freeze_report --help + fixture runs OK; docs/perf_runbook.md documents new fields and report usage
+
+[2026-10-03T00:29:57Z · sase-1ez.4] Phase sase-1ez.4 (idle-gc-policy, landed) now calls register_heartbeat_provider/unregister_heartbeat_provider from src/sase/ace/tui/util/gc_policy.py, so those two --epic-symbol lines were removed from the Justfile as symvision demands; sase-1ez.2(recent_collections) remains for watchdog-truth to consume.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ez.1](sase-1ez.1.md) ✓ · ⧖ 2026-10-02
@@ -20,4 +26,4 @@ watchdog-truth: detect whole-process stops from the watchdog's own poll lateness
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ez.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.2/README.md) | [sase-1ez.2](sase-1ez.2.md) | 0 |
+| [bbugyi200.athena.sase-1ez.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.2.md) | [sase-1ez.2](sase-1ez.2.md) | 0 |

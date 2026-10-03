@@ -21,4 +21,4 @@ idle-gc-policy: once startup loads settle and input first goes idle, run gc.coll
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ez.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.4/README.md) | [sase-1ez.4](sase-1ez.4.md) | 0 |
+| [bbugyi200.athena.sase-1ez.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.4.md) | [sase-1ez.4](sase-1ez.4.md) | 0 |
