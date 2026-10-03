@@ -129,7 +129,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ex.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.7.md) | [sase-1ex.7](sase-1ex.7.md) | 1 |
 | [bbugyi200.athena.sase-1ex.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.8.md) | [sase-1ex.8](sase-1ex.8.md) | 1 |
 | [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.9/README.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
-| [bbugyi200.athena.sase-1ex.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.land.md) | [sase-1ex](README.md) | 1 |
+| [bbugyi200.athena.sase-1ex.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.land.md) | [sase-1ex](README.md) | 2 |
 
 ## Commits
 
@@ -148,6 +148,7 @@ flowchart TD
 | sase | [`90193a0`](https://github.com/sase-org/sase/commit/90193a05d51a7e1339ad9567a8533a870b951c99) | feat(prompt-bar): implement space hot spare phase with lifecycle wiring | [sase-1ex.11](sase-1ex.11.md) | 2026-10-03 11:10:25 EDT |
 | sase | [`9f8c4c5`](https://github.com/sase-org/sase/commit/9f8c4c529ee997c0180a9e7036451c8a494c87c5) | docs(perf): record sase-1ex acceptance bench, gates, and runbook results | [sase-1ex.12](sase-1ex.12.md) | 2026-10-03 11:41:21 EDT |
 | sase | [`ad1fee5`](https://github.com/sase-org/sase/commit/ad1fee548204ea306831b08303fb7d92851c5a0f) | feat(prompt-keys): cold macro-identity off event loop, drop dead facade, land sase-1ex | [sase-1ex](README.md) | 2026-10-03 13:04:40 EDT |
+| sase--plans | [`sase--plans@5fd1654`](https://github.com/sase-org/sase--plans/commit/5fd16547ad968f485ff9d6aacea912bf29851b04) | docs(plans): mark sase-1ex epic and land plans done | [sase-1ex](README.md) | 2026-10-03 13:08:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -158,9 +159,11 @@ flowchart TD
 | read-by | [agent:sase-1es.land][1] | Check whether symvision publication_payload_facade failure is already tracked on its causing epic | 1 |
 | read-by | [agent:sase-1ev.land][2] | Check whether the publication_payload_facade symvision/binding failures are already recorded on the owning epic | 1 |
 | read-by | [agent:sase-1ex.12][3] | Need parent epic notes and phase scope | 1 |
+| read-by | [agent:sase-1ex.land--1][4] | land sase-1ex triage | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.land.md
 
 <!-- sase:referenced-by:end -->
