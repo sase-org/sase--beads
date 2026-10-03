@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md) | [sase-1eu.6](sase-1eu.6.md) | 1 |
 | [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 1 |
 | [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.8.md) | [sase-1eu.8](sase-1eu.8.md) | 1 |
-| [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.land.md) | [sase-1eu](README.md) | 2 |
+| [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.land.md) | [sase-1eu](README.md) | 3 |
 
 ## Commits
 
@@ -133,6 +133,7 @@ flowchart TD
 | sase | [`c62e4f1`](https://github.com/sase-org/sase/commit/c62e4f1491e571bc6ac62073f156c31687a88875) | feat(ace-pager): remove three\_pane\_splits flag and finish unflag docs (sase-1eu.8) | [sase-1eu.8](sase-1eu.8.md) | 2026-10-02 22:20:06 EDT |
 | sase | [`d8efa2a`](https://github.com/sase-org/sase/commit/d8efa2a6e5ad8fd68346d60ba10f86ef4bda5ecf) | feat(ace-pager): land three-pane splits for the Agents deck and pager | [sase-1eu](README.md) | 2026-10-03 03:33:29 EDT |
 | chezmoi | [`chezmoi@2ce5ba0`](https://github.com/bbugyi200/dotfiles/commit/2ce5ba030579e75f04c58b493ab115c1465f8945) | feat(tmux): update extended-keys config for ctrl+shift chords | [sase-1eu](README.md) | 2026-10-03 03:38:36 EDT |
+| sase--plans | [`sase--plans@e70a411`](https://github.com/sase-org/sase--plans/commit/e70a4114393ace3ecdbfca2a9518280a2d658f41) | docs(plans): record three-pane splits plan | [sase-1eu](README.md) | 2026-10-03 03:41:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
