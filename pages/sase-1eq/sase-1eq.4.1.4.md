@@ -13,7 +13,7 @@ cli-doctor: publish canonical macro commands and JSON, hide flag-gated old alias
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.4.1.5](sase-1eq.4.1.5.md) ◐ · ⧖ 2026-10-03
 
 ## Agents

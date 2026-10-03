@@ -22,7 +22,7 @@ config-frontmatter: normalize each authored layer before merging, migrate schema
 ## Dependencies
 
 - **Depends on:** [sase-1eq.4.1.1](sase-1eq.4.1.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -35,3 +35,15 @@ config-frontmatter: normalize each authored layer before merging, migrate schema
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6eaa8df`](https://github.com/sase-org/sase/commit/6eaa8df521cc3b336278e2439b1cb49dafb8364a) | feat!: canonical config and local macro frontmatter (sase-1eq.4.1.2) | [sase-1eq.4.1.2](sase-1eq.4.1.2.md) | 2026-10-03 08:45:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.4.1.2--1][1] | Need phase notes for handoff | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.1.2.md
+
+<!-- sase:referenced-by:end -->
