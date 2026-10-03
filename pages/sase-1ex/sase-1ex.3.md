@@ -20,7 +20,7 @@ space-prefill: resolve the `<space>` prefill from the snapshot without I/O. A co
 ## Dependencies
 
 - **Blocks:** [sase-1ex.10](sase-1ex.10.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.11](sase-1ex.11.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.2](sase-1ex.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents

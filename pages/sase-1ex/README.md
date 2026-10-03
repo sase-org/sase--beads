@@ -25,8 +25,8 @@ Opening the prompt bar with `<space>` and cycling the current-project stack with
 |---|---|---|---|---|---:|---:|
 | [sase-1ex.1](sase-1ex.1.md) | Prompt-key perf instrumentation, benchmark, and I/O probes | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1ex.10](sase-1ex.10.md) | Explicit prompt-active state and one prompt-bar accessor | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ex.11](sase-1ex.11.md) | Make \`\<space\>\` reveal a pre-built hidden prompt bar | ◐ in_progress | large | 2026-10-02 | 1 | 1 |
-| [sase-1ex.12](sase-1ex.12.md) | Final measurements, regression gates, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1ex.11](sase-1ex.11.md) | Make \`\<space\>\` reveal a pre-built hidden prompt bar | ✓ closed | large | 2026-10-02 | 1 | 1 |
+| [sase-1ex.12](sase-1ex.12.md) | Final measurements, regression gates, and docs | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1ex.2](sase-1ex.2.md) | App-owned launchable-MRU snapshot for project cycling | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.3](sase-1ex.3.md) | Serve \`\<space\>\` and the other MRU-head entry points from the snapshot | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.4](sase-1ex.4.md) | One project-record pass and memoized provider detection per MRU build | ✓ closed | small | 2026-10-02 | 1 | 1 |
@@ -43,8 +43,8 @@ flowchart TD
     n0["sase-1ex: Make the prompt `&lt;space&gt;` and `&lt;ctrl+n/p&gt;` project-cycling keys instant [in_progress]"]
     n1["sase-1ex.1: Prompt-key perf instrumentation, benchmark, and I/O probes [closed]"]
     n2["sase-1ex.10: Explicit prompt-active state and one prompt-bar accessor [closed]"]
-    n3["sase-1ex.11: Make `&lt;space&gt;` reveal a pre-built hidden prompt bar [in_progress]"]
-    n4["sase-1ex.12: Final measurements, regression gates, and docs [in_progress]"]
+    n3["sase-1ex.11: Make `&lt;space&gt;` reveal a pre-built hidden prompt bar [closed]"]
+    n4["sase-1ex.12: Final measurements, regression gates, and docs [closed]"]
     n5["sase-1ex.2: App-owned launchable-MRU snapshot for project cycling [closed]"]
     n6["sase-1ex.3: Serve `&lt;space&gt;` and the other MRU-head entry points from the snapshot [closed]"]
     n7["sase-1ex.4: One project-record pass and memoized provider detection per MRU build [closed]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ex.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.1/README.md) | [sase-1ex.1](sase-1ex.1.md) | 1 |
 | [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.10.md) | [sase-1ex.10](sase-1ex.10.md) | 1 |
 | [bbugyi200.athena.sase-1ex.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.11.md) | [sase-1ex.11](sase-1ex.11.md) | 1 |
-| [bbugyi200.athena.sase-1ex.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md) | [sase-1ex.12](sase-1ex.12.md) | 0 |
+| [bbugyi200.athena.sase-1ex.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md) | [sase-1ex.12](sase-1ex.12.md) | 1 |
 | [bbugyi200.athena.sase-1ex.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.2.md) | [sase-1ex.2](sase-1ex.2.md) | 1 |
 | [bbugyi200.athena.sase-1ex.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.3/README.md) | [sase-1ex.3](sase-1ex.3.md) | 1 |
 | [bbugyi200.athena.sase-1ex.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.4.md) | [sase-1ex.4](sase-1ex.4.md) | 1 |
@@ -119,6 +119,7 @@ flowchart TD
 | sase | [`8f910d5`](https://github.com/sase-org/sase/commit/8f910d559b68099aa09e812779a7ef6616cb4786) | feat(prompt-catalog): pure catalog getters, off-pump watcher growth, wakeable watcher stop (sase-1ex.5) | [sase-1ex.5](sase-1ex.5.md) | 2026-10-03 07:13:46 EDT |
 | sase | [`3289046`](https://github.com/sase-org/sase/commit/32890465315ebed5bb9be3799951e43aaf59ea29) | feat(prompt-quiet): stagger non-essential bar warm-ups one paint past first paint (sase-1ex.8) | [sase-1ex.8](sase-1ex.8.md) | 2026-10-03 08:24:21 EDT |
 | sase | [`90193a0`](https://github.com/sase-org/sase/commit/90193a05d51a7e1339ad9567a8533a870b951c99) | feat(prompt-bar): implement space hot spare phase with lifecycle wiring | [sase-1ex.11](sase-1ex.11.md) | 2026-10-03 11:10:25 EDT |
+| sase | [`9f8c4c5`](https://github.com/sase-org/sase/commit/9f8c4c529ee997c0180a9e7036451c8a494c87c5) | docs(perf): record sase-1ex acceptance bench, gates, and runbook results | [sase-1ex.12](sase-1ex.12.md) | 2026-10-03 11:41:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

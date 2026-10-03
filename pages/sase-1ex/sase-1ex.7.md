@@ -21,7 +21,7 @@ cycle-edit-coalesce: batch highlight-map builds so a cycle edit pays for one. Ma
 
 ## Dependencies
 
-- **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.11](sase-1ex.11.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.2](sase-1ex.2.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.6](sase-1ex.6.md) ✓ · ⧖ 2026-10-02
 
