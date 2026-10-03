@@ -13,7 +13,7 @@ sase-syntax: create the legacy_xprompt_syntax sunset flag. Switch every user-fac
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.3](sase-1eq.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.3](sase-1eq.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.5](sase-1eq.5.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.6](sase-1eq.6.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.7](sase-1eq.7.md) ◐ · ⧖ 2026-10-02
@@ -24,4 +24,4 @@ sase-syntax: create the legacy_xprompt_syntax sunset flag. Switch every user-fac
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4/README.md) | [sase-1eq.4](sase-1eq.4.md) | 0 |
+| [bbugyi200.athena.sase-1eq.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.md) | [sase-1eq.4](sase-1eq.4.md) | 0 |
