@@ -22,7 +22,7 @@ The Agents-tab deck and the sase pager share one closed split model with seven g
 | [sase-1eu.5](sase-1eu.5.md) | Agents deck three panels behind the three\_pane\_splits beta flag | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.6](sase-1eu.6.md) | Pager on PaneGrid with grid panes and the new pane keys | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.7](sase-1eu.7.md) | Pager three panes with MRU ctrl+w and a target preview | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1eu.8](sase-1eu.8.md) | Remove the flag and finish docs, help, glossary, and release note | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1eu.8](sase-1eu.8.md) | Remove the flag and finish docs, help, glossary, and release note | ✓ closed | small | 2026-10-02 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["sase-1eu.5: Agents deck three panels behind the three_pane_splits beta flag [closed]"]
     n6["sase-1eu.6: Pager on PaneGrid with grid panes and the new pane keys [closed]"]
     n7["sase-1eu.7: Pager three panes with MRU ctrl+w and a target preview [closed]"]
-    n8["sase-1eu.8: Remove the flag and finish docs, help, glossary, and release note [in_progress]"]
+    n8["sase-1eu.8: Remove the flag and finish docs, help, glossary, and release note [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.5.md) | [sase-1eu.5](sase-1eu.5.md) | 1 |
 | [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md) | [sase-1eu.6](sase-1eu.6.md) | 1 |
 | [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 1 |
-| [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.8/README.md) | [sase-1eu.8](sase-1eu.8.md) | 0 |
+| [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.8.md) | [sase-1eu.8](sase-1eu.8.md) | 1 |
 | [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.land/README.md) | [sase-1eu](README.md) | 0 |
 
 ## Commits
@@ -79,6 +79,7 @@ flowchart TD
 | sase | [`2bbc346`](https://github.com/sase-org/sase/commit/2bbc346036cc79c1069ce27ad1bc7f29788f0c0a) | feat(ace): add deck layout operations, keymaps, and palette entries | [sase-1eu.4](sase-1eu.4.md) | 2026-10-02 15:23:16 EDT |
 | sase | [`eb0440c`](https://github.com/sase-org/sase/commit/eb0440c7e8e99e8417a73c2153c668e8913fcb74) | feat(agents-deck): three panels behind three\_pane\_splits beta flag (sase-1eu.5) | [sase-1eu.5](sase-1eu.5.md) | 2026-10-02 18:46:28 EDT |
 | sase | [`e076ff4`](https://github.com/sase-org/sase/commit/e076ff435cbab2f5cf0ba455128a4ee999bc3c40) | feat(pager): three-pane nest/turn/erase with MRU ctrl+w preview | [sase-1eu.7](sase-1eu.7.md) | 2026-10-02 20:15:26 EDT |
+| sase | [`c62e4f1`](https://github.com/sase-org/sase/commit/c62e4f1491e571bc6ac62073f156c31687a88875) | feat(ace-pager): remove three\_pane\_splits flag and finish unflag docs (sase-1eu.8) | [sase-1eu.8](sase-1eu.8.md) | 2026-10-02 22:20:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -91,11 +92,13 @@ flowchart TD
 | read-by | [agent:research.3c.grk][3] | Need pager version-clarity, three-pane, and pager-speed epics that constrain TUI memory-history design | 1 |
 | read-by | [agent:sase-1eu.3][4] | Need parent epic scope for phase sase-1eu.3 | 1 |
 | read-by | [agent:sase-1eu.6--1][5] | Check parent epic status and remaining phases before closing sase-1eu.6 | 1 |
+| read-by | [agent:sase-1eu.7][6] | Need parent epic plan and design | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.grk/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.3/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md
 
 <!-- sase:referenced-by:end -->

@@ -25,7 +25,7 @@ pager-three-panes: behind three_pane_splits, enable pager nest, turn and erase, 
 
 - **Depends on:** [sase-1eu.5](sase-1eu.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eu.6](sase-1eu.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.8](sase-1eu.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.8](sase-1eu.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -38,3 +38,15 @@ pager-three-panes: behind three_pane_splits, enable pager nest, turn and erase, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e076ff4`](https://github.com/sase-org/sase/commit/e076ff435cbab2f5cf0ba455128a4ee999bc3c40) | feat(pager): three-pane nest/turn/erase with MRU ctrl+w preview | [sase-1eu.7](sase-1eu.7.md) | 2026-10-02 20:15:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eu.7][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md
+
+<!-- sase:referenced-by:end -->
