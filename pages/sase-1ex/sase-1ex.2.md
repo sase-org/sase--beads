@@ -20,7 +20,7 @@ mru-snapshot: add an immutable launchable-MRU snapshot owned by `AceApp`. A sing
 ## Dependencies
 
 - **Depends on:** [sase-1ex.1](sase-1ex.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.3](sase-1ex.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.3](sase-1ex.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.4](sase-1ex.4.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.7](sase-1ex.7.md) ◐ · ⧖ 2026-10-02
 
@@ -35,3 +35,15 @@ mru-snapshot: add an immutable launchable-MRU snapshot owned by `AceApp`. A sing
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8138678`](https://github.com/sase-org/sase/commit/813867849ce4ff10ae8d1ee9d146367f2e95d475) | feat(ace-tui): app-owned launchable-MRU snapshot for project cycling | [sase-1ex.2](sase-1ex.2.md) | 2026-10-02 19:38:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ex.2--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.2.md
+
+<!-- sase:referenced-by:end -->

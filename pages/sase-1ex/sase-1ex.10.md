@@ -14,7 +14,7 @@ prompt-active-state: track the active prompt bar explicitly on the app so `_prom
 ## Dependencies
 
 - **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ex.3](sase-1ex.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.3](sase-1ex.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
