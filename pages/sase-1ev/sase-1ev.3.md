@@ -20,4 +20,10 @@ time-strip: restructure the Memory card into a pinned head (title, path line wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ev.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.3/README.md) | [sase-1ev.3](sase-1ev.3.md) | 0 |
+| [bbugyi200.athena.sase-1ev.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.3.md) | [sase-1ev.3](sase-1ev.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`5389d0d`](https://github.com/sase-org/sase/commit/5389d0df3cb0dfac41d3d593418068b5d0647e02) | feat(ace-tui): pinned memory card head with two-row time strip | [sase-1ev.3](sase-1ev.3.md) | 2026-10-02 20:27:25 EDT |

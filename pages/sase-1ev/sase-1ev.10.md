@@ -20,4 +20,4 @@ agents-bridge: add a sase-core blob:OID version selector. The Agents-tab MEMORY 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ev.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.10/README.md) | [sase-1ev.10](sase-1ev.10.md) | 0 |
+| [bbugyi200.athena.sase-1ev.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.10.md) | [sase-1ev.10](sase-1ev.10.md) | 0 |
