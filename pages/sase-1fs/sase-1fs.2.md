@@ -30,13 +30,14 @@ publication_recovery: add project-scoped retired-request retry, preserve deferre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1fs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.2/README.md) | [sase-1fs.2](sase-1fs.2.md) | 1 |
+| [bbugyi200.apollo.sase-1fs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.2/README.md) | [sase-1fs.2](sase-1fs.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3d406d4`](https://github.com/sase-org/sase-core/commit/3d406d4cef2078a2f9513dc7b4fa098c12a23c1e) | feat(agent-publication-recovery): retry selection, page+SHA completion, and prompt status | [sase-1fs.2](sase-1fs.2.md) | 2026-10-03 17:05:12 EDT |
+| sase | [`b51df19`](https://github.com/sase-org/sase/commit/b51df19d88d26d43377530c7176cdf8e3c83802f) | feat(agents-sync): revive retired publication requests with session-aware completion | [sase-1fs.2](sase-1fs.2.md) | 2026-10-03 17:07:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
