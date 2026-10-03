@@ -19,7 +19,7 @@ compatibility: create legacy_xprompt_syntax through sase flag new, add the share
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.4.1.2](sase-1eq.4.1.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.4.1.2](sase-1eq.4.1.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

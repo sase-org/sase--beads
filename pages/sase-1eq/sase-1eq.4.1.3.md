@@ -13,7 +13,7 @@ discovery: use the content-layout macro source order and write paths, share dedu
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.4.1.2](sase-1eq.4.1.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.4.1.2](sase-1eq.4.1.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.4.1.4](sase-1eq.4.1.4.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
