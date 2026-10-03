@@ -27,7 +27,7 @@ mount-dedup: replace the mixins' super-chained, Textual-dispatched `on_mount`, `
 
 - **Depends on:** [sase-1ex.1](sase-1ex.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.7](sase-1ex.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.7](sase-1ex.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

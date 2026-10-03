@@ -24,7 +24,7 @@ key-perf-harness: record `SASE_TUI_PERF` key-to-paint samples for `<space>`, `ct
 - **Blocks:** [sase-1ex.2](sase-1ex.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.5](sase-1ex.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.6](sase-1ex.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.9](sase-1ex.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.9](sase-1ex.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

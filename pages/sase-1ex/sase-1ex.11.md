@@ -19,9 +19,9 @@ space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prom
 - **Depends on:** [sase-1ex.4](sase-1ex.4.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.5](sase-1ex.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.6](sase-1ex.6.md) ✓ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ex.7](sase-1ex.7.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.7](sase-1ex.7.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.8](sase-1ex.8.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ex.9](sase-1ex.9.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.9](sase-1ex.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

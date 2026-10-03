@@ -22,7 +22,7 @@ mru-snapshot: add an immutable launchable-MRU snapshot owned by `AceApp`. A sing
 - **Depends on:** [sase-1ex.1](sase-1ex.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.3](sase-1ex.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.4](sase-1ex.4.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.7](sase-1ex.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.7](sase-1ex.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
