@@ -13,7 +13,7 @@ changes-lens: extract a pure feed_model shared with the pager feed document. C t
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.6](sase-1ev.6.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.6](sase-1ev.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.8](sase-1ev.8.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
