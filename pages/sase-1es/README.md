@@ -11,6 +11,10 @@
 
 `sase pager`, `sase bead show`, `sase artifact read`, and every pager embedded in `sase tui` open and respond in time proportional to what is on screen rather than to document size, start without importing the ACE TUI stack, and release their memory when closed. Rendered output, keys, and navigation stay byte-for-byte identical, and the work adds no disk caches or unbounded memory.
 
+## Notes
+
+[2026-10-03T02:33:50Z · sase-1ez.land] DISCOVERED ISSUE: tests/pager/test_link_scan.py::test_scan_links_stays_fast_on_link_dense_input, the wall-clock budget test sase-1es.2 added in 8d1ac50c51 (assert elapsed < 1.5), failed in a loaded full just check during sase-1ez.5 and was triaged KNOWN with witness 40273fef0363a073f4b6a66931adee00 (sase-1ez.5 note #2). It passes 3/3 in isolation at master 54427ed47c (sase-1ez.land rerun). This is a load-sensitive absolute-time budget, not a regression in the epic's code. Consider an operation-count or relative bound, or a load-tolerant budget, before landing sase-1es.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -21,7 +25,7 @@
 | [sase-1es.4](sase-1es.4.md) | Repo inventory and config-key memoization | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1es.5](sase-1es.5.md) | Textual-free virtual body line model with a parity oracle | ✓ closed | medium | 2026-10-02 | 1 | 0 |
 | [sase-1es.6](sase-1es.6.md) | Swap the Static body for a Line-API ScrollView | ✓ closed | large | 2026-10-02 | 1 | 1 |
-| [sase-1es.7](sase-1es.7.md) | Viewport-proportional incremental search | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1es.7](sase-1es.7.md) | Viewport-proportional incremental search | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1es.8](sase-1es.8.md) | Final measurements, regression gates, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +39,7 @@ flowchart TD
     n4["sase-1es.4: Repo inventory and config-key memoization [closed]"]
     n5["sase-1es.5: Textual-free virtual body line model with a parity oracle [closed]"]
     n6["sase-1es.6: Swap the Static body for a Line-API ScrollView [closed]"]
-    n7["sase-1es.7: Viewport-proportional incremental search [in_progress]"]
+    n7["sase-1es.7: Viewport-proportional incremental search [closed]"]
     n8["sase-1es.8: Final measurements, regression gates, and docs [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -66,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1es.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.4.md) | [sase-1es.4](sase-1es.4.md) | 1 |
 | [bbugyi200.athena.sase-1es.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.5.md) | [sase-1es.5](sase-1es.5.md) | 0 |
 | [bbugyi200.athena.sase-1es.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.6.md) | [sase-1es.6](sase-1es.6.md) | 1 |
-| [bbugyi200.athena.sase-1es.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.7/README.md) | [sase-1es.7](sase-1es.7.md) | 0 |
+| [bbugyi200.athena.sase-1es.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.7/README.md) | [sase-1es.7](sase-1es.7.md) | 1 |
 | [bbugyi200.athena.sase-1es.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md) | [sase-1es.8](sase-1es.8.md) | 0 |
 | [bbugyi200.athena.sase-1es.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md) | [sase-1es](README.md) | 0 |
 
@@ -79,6 +83,7 @@ flowchart TD
 | sase | [`acac8d8`](https://github.com/sase-org/sase/commit/acac8d83e010f3aa26ebebfaadc26d521fec09af) | perf(pager): lighten cold-path imports and startup work | [sase-1es.3](sase-1es.3.md) | 2026-10-02 12:52:06 EDT |
 | sase | [`8d1ac50`](https://github.com/sase-org/sase/commit/8d1ac50c51706848d18aaaf8215ec0dd05745d74) | feat(pager): fix dismissed-view leak, near-linear scans, span/digest memoization, trailless search copies (sase-1es.2) | [sase-1es.2](sase-1es.2.md) | 2026-10-02 13:07:05 EDT |
 | sase | [`54427ed`](https://github.com/sase-org/sase/commit/54427ed47c3ff911cd212778c13019440aa215f6) | feat(pager): virtualize body with Line-API ScrollView and bounded strip cache | [sase-1es.6](sase-1es.6.md) | 2026-10-02 22:21:58 EDT |
+| sase | [`5a68eb5`](https://github.com/sase-org/sase/commit/5a68eb53a95ceb9daab3ef5e4452d78bcf24a99f) | feat(pager): viewport-proportional incremental search overlay | [sase-1es.7](sase-1es.7.md) | 2026-10-02 22:53:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

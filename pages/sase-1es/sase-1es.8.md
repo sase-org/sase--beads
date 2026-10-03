@@ -14,7 +14,7 @@ perf-gates-docs: rerun the benchmark against the baseline, add the memory-ceilin
 ## Dependencies
 
 - **Depends on:** [sase-1es.4](sase-1es.4.md) ✓ · ⧖ 2026-10-02
-- **Depends on:** [sase-1es.7](sase-1es.7.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1es.7](sase-1es.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

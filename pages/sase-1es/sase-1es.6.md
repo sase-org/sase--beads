@@ -30,7 +30,7 @@ virtual-body-widget: replace the one-giant-Static body with a ScrollView that re
 ## Dependencies
 
 - **Depends on:** [sase-1es.5](sase-1es.5.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1es.7](sase-1es.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1es.7](sase-1es.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
