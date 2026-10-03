@@ -29,3 +29,15 @@ sase-syntax: create the legacy_xprompt_syntax sunset flag. Switch every user-fac
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.md) | [sase-1eq.4](sase-1eq.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.4.1.land--1][1] | check parent phase close status for macro cutover follow-up | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.1.land.md
+
+<!-- sase:referenced-by:end -->
