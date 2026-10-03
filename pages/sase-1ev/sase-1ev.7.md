@@ -20,7 +20,7 @@ changes-lens: extract a pure feed_model shared with the pager feed document. C t
 ## Dependencies
 
 - **Depends on:** [sase-1ev.6](sase-1ev.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.8](sase-1ev.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.8](sase-1ev.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -41,7 +41,9 @@ changes-lens: extract a pure feed_model shared with the pager feed document. C t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ev.6][1] | Need sibling phase scope to avoid overlap | 1 |
+| read-by | [agent:sase-1ev.7--2][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.7.md
 
 <!-- sase:referenced-by:end -->
