@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1es.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.6.md) | [sase-1es.6](sase-1es.6.md) | 1 |
 | [bbugyi200.athena.sase-1es.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.7/README.md) | [sase-1es.7](sase-1es.7.md) | 1 |
 | [bbugyi200.athena.sase-1es.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md) | [sase-1es.8](sase-1es.8.md) | 1 |
-| [bbugyi200.athena.sase-1es.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md) | [sase-1es](README.md) | 1 |
+| [bbugyi200.athena.sase-1es.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md) | [sase-1es](README.md) | 2 |
 
 ## Commits
 
@@ -140,6 +140,7 @@ flowchart TD
 | sase | [`5a68eb5`](https://github.com/sase-org/sase/commit/5a68eb53a95ceb9daab3ef5e4452d78bcf24a99f) | feat(pager): viewport-proportional incremental search overlay | [sase-1es.7](sase-1es.7.md) | 2026-10-02 22:53:24 EDT |
 | sase | [`702c8c3`](https://github.com/sase-org/sase/commit/702c8c3167432347cc2800629a947f3ddaa4bdad) | perf(pager): finalize measurements, regression gates, and docs (sase-1es.8) | [sase-1es.8](sase-1es.8.md) | 2026-10-02 23:18:24 EDT |
 | sase | [`b5c9e6a`](https://github.com/sase-org/sase/commit/b5c9e6a16916a3c2f2ca407ecd689a0fce733e61) | test(pager): land sase-1es with an operation-count link-scan bound and current body-line docs | [sase-1es](README.md) | 2026-10-03 00:38:39 EDT |
+| sase--plans | [`sase--plans@3847b37`](https://github.com/sase-org/sase--plans/commit/3847b37322ebccd81aef7758d2f17d09460d3438) | chore(plans): mark pager\_performance epic plan done (sase-1es) | [sase-1es](README.md) | 2026-10-03 00:43:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -151,10 +152,12 @@ flowchart TD
 | read-by | [agent:research.3c.cld][2] | Check in-flight pager epics and panel-row bead that overlap TUI memory history design | 2 |
 | read-by | [agent:research.3c.final][3] | Determine pager virtualization phase status relative to embedding PagerView | 2 |
 | read-by | [agent:research.3c.grk][4] | Need pager version-clarity, three-pane, and pager-speed epics that constrain TUI memory-history design | 1 |
+| read-by | [agent:sase-1es.land][5] | Need the parent link before closing | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0vd/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.final/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.grk/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md
 
 <!-- sase:referenced-by:end -->

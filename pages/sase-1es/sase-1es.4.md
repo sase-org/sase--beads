@@ -44,8 +44,10 @@ inventory-memo: memoize `repo_config_cache_key` by config identity and add a sco
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1es.4--1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1es.8][2] | Need prior phase measurements for final comparison | 1 |
+| read-by | [agent:sase-1es.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.4.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md
 
 <!-- sase:referenced-by:end -->

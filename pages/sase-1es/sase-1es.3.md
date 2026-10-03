@@ -44,10 +44,12 @@ cold-path-diet: make `sase.pager` imports lazy, move pure helpers out of `sase.a
 | read-by | [agent:sase-1eq.1.1.7--1][2] | cite prior clean-base tracking of directive failures | 1 |
 | read-by | [agent:sase-1es.3--1][3] | Need phase scope | 1 |
 | read-by | [agent:sase-1es.8][4] | Need prior phase measurements for final comparison | 1 |
+| read-by | [agent:sase-1es.land][5] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0vd/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.7.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.3.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md
 
 <!-- sase:referenced-by:end -->
