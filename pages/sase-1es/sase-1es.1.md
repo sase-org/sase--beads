@@ -44,7 +44,9 @@ pager-bench: add a subprocess-isolated pager benchmark over a synthetic corpus (
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1es.1--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1es.8][2] | Need prior phase measurements for final comparison | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md
 
 <!-- sase:referenced-by:end -->

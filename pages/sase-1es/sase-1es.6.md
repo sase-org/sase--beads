@@ -51,9 +51,11 @@ virtual-body-widget: replace the one-giant-Static body with a ScrollView that re
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0vd][1] | Check phase deps and notes to assess conflict with three-pane split work | 1 |
-| read-by | [agent:sase-1eu.7][2] | pager-three-panes gate: confirm sase-1es.6 landed | 1 |
+| read-by | [agent:sase-1es.8][2] | Need prior phase measurements for final comparison | 1 |
+| read-by | [agent:sase-1eu.7][3] | pager-three-panes gate: confirm sase-1es.6 landed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0vd/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md
 
 <!-- sase:referenced-by:end -->
