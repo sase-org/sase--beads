@@ -13,7 +13,7 @@ identifiers: Rewrite xprompt identifiers outside the TUI with a token-aware code
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.3.1.2](sase-1eq.3.1.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.3.1.2](sase-1eq.3.1.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.3.1.4](sase-1eq.3.1.4.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

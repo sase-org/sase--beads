@@ -11,6 +11,10 @@
 
 SASE calls its reusable `#name` prompt definitions "macros" in code, CLI, config, directories, TUI, LSP, plugins, docs, memory, skills, and chezmoi. Agent artifacts, proc rows, state files, and stored prompts written before the rename still load. Retired xprompt spellings keep working behind one sunset flag until callers migrate.
 
+## Notes
+
+[2026-10-03T02:31:02Z · sase-1ez.land] DISCOVERED ISSUE: tests/ace/tui/test_prompt_key_perf_smoke.py::test_prompt_key_io_probe_counts_main_thread_calls fails at master 54427ed47c with FileNotFoundError for <SASE_HOME>/vcs_xprompt_mru.json (line 181). Cause: sase-1eq.2 commit 72dbae6a09 made the MRU writer macro-first (vcs_xprompt_mru_path() now returns sase_home()/VCS_MACRO_MRU_FILENAME), but this test (added by sase-1ex.1, db40a7219a) still asserts the legacy filename after _save_vcs_xprompt_mru. Fix: assert against vcs_xprompt_mru_path() / VCS_MACRO_MRU_FILENAME instead of the hard-coded legacy name. Reported as PROPOSED FOLLOW-UP by sase-1ez.2 (note #4) and sase-1ez.4 (KNOWN witness 4bd69d8aca0427947e28d2f228156ead); re-reproduced by sase-1ez.land with a single-test pytest run.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +51,7 @@ flowchart TD
     n13["sase-1eq.3: Module, package, and identifier rename outside the TUI [in_progress]"]
     n14["sase-1eq.3.1: Rename sase modules from xprompt to macro [in_progress]"]
     n15["sase-1eq.3.1.1: Query-language shorthands [closed]"]
-    n16["sase-1eq.3.1.2: Package and module paths [in_progress]"]
+    n16["sase-1eq.3.1.2: Package and module paths [closed]"]
     n17["sase-1eq.3.1.3: Token-aware identifier rename [in_progress]"]
     n18["sase-1eq.3.1.4: Terminology guard [in_progress]"]
     n19["sase-1eq.4: User syntax, CLI, config, discovery, and the sunset flag [in_progress]"]
@@ -123,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.2/README.md) | [sase-1eq.2](sase-1eq.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.md) | [sase-1eq.3](sase-1eq.3.md) | 0 |
 | [bbugyi200.athena.sase-1eq.3.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.1.1.md) | [sase-1eq.3.1.1](sase-1eq.3.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1eq.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.3.1.2/README.md) | [sase-1eq.3.1.2](sase-1eq.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1eq.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.3.1.2/README.md) | [sase-1eq.3.1.2](sase-1eq.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.3.1.3/README.md) | [sase-1eq.3.1.3](sase-1eq.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1eq.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.3.1.4/README.md) | [sase-1eq.3.1.4](sase-1eq.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1eq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.3.1.land/README.md) | [sase-1eq.3.1](sase-1eq.3.1.md) | 0 |
@@ -151,6 +155,7 @@ flowchart TD
 | sase--plans | [`sase--plans@34151dc`](https://github.com/sase-org/sase--plans/commit/34151dcf6741964e799f91da126e0fdd10016ff7) | chore(plans): mark finish\_core\_macro\_expand epic plan done | [sase-1eq.1.1](sase-1eq.1.1.md) | 2026-10-02 15:47:00 EDT |
 | sase | [`72dbae6`](https://github.com/sase-org/sase/commit/72dbae6a094ae8ceb751db3bb1376326f182d69a) | feat(xprompt): add permanent dual readers for legacy xprompt names with macro-first writers | [sase-1eq.2](sase-1eq.2.md) | 2026-10-02 18:18:37 EDT |
 | sase | [`d9d0cae`](https://github.com/sase-org/sase/commit/d9d0cae9f0dc7b9f96270e189fd80861d61e7771) | refactor(ace): rename query-language status-macro concept to shorthand (sase-1eq.3.1.1) | [sase-1eq.3.1.1](sase-1eq.3.1.1.md) | 2026-10-02 20:59:08 EDT |
+| sase | [`117f577`](https://github.com/sase-org/sase/commit/117f5779d32622cc51bef674030cea49c52a8db9) | refactor(sase-modules): move non-TUI xprompt packages onto macro paths (sase-1eq.3.1.2) | [sase-1eq.3.1.2](sase-1eq.3.1.2.md) | 2026-10-03 00:20:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

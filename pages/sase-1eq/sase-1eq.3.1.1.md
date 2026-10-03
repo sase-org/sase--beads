@@ -21,7 +21,7 @@ shorthands: Rename the query-language status-macro concept to shorthand, includi
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.3.1.2](sase-1eq.3.1.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.3.1.2](sase-1eq.3.1.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -34,3 +34,15 @@ shorthands: Rename the query-language status-macro concept to shorthand, includi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d9d0cae`](https://github.com/sase-org/sase/commit/d9d0cae9f0dc7b9f96270e189fd80861d61e7771) | refactor(ace): rename query-language status-macro concept to shorthand (sase-1eq.3.1.1) | [sase-1eq.3.1.1](sase-1eq.3.1.1.md) | 2026-10-02 20:59:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.3.1.1--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.1.1.md
+
+<!-- sase:referenced-by:end -->
