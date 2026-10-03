@@ -14,7 +14,7 @@ acceptance: on a TUI restarted onto the landed code, capture a busy hour plus a 
 ## Dependencies
 
 - **Depends on:** [sase-1ez.1](sase-1ez.1.md) ✓ · ⧖ 2026-10-02
-- **Depends on:** [sase-1ez.2](sase-1ez.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ez.2](sase-1ez.2.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ez.3](sase-1ez.3.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ez.4](sase-1ez.4.md) ◐ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ez.5](sase-1ez.5.md) ✓ · ⧖ 2026-10-02
