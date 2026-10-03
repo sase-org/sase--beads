@@ -13,7 +13,7 @@ strings-guard: finish non-TUI strings and directive writers, update maintained s
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.4.1.4](sase-1eq.4.1.4.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.4.1.4](sase-1eq.4.1.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
