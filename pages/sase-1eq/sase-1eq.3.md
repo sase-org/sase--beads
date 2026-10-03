@@ -25,3 +25,15 @@ sase-modules: rename query-language macros to shorthands first. Then move the sa
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.md) | [sase-1eq.3](sase-1eq.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.3.1.land--1][1] | Need parent phase readiness for landing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.1.land.md
+
+<!-- sase:referenced-by:end -->

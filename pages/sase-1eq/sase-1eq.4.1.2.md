@@ -13,7 +13,7 @@ config-frontmatter: normalize each authored layer before merging, migrate schema
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.4.1.1](sase-1eq.4.1.1.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.4.1.1](sase-1eq.4.1.1.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
