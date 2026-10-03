@@ -21,7 +21,7 @@ The Agents-tab deck and the sase pager share one closed split model with seven g
 | [sase-1eu.4](sase-1eu.4.md) | Agents deck reverse focus, swap, close, and turn keys | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.5](sase-1eu.5.md) | Agents deck three panels behind the three\_pane\_splits beta flag | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.6](sase-1eu.6.md) | Pager on PaneGrid with grid panes and the new pane keys | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1eu.7](sase-1eu.7.md) | Pager three panes with MRU ctrl+w and a target preview | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1eu.7](sase-1eu.7.md) | Pager three panes with MRU ctrl+w and a target preview | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eu.8](sase-1eu.8.md) | Remove the flag and finish docs, help, glossary, and release note | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ flowchart TD
     n4["sase-1eu.4: Agents deck reverse focus, swap, close, and turn keys [closed]"]
     n5["sase-1eu.5: Agents deck three panels behind the three_pane_splits beta flag [closed]"]
     n6["sase-1eu.6: Pager on PaneGrid with grid panes and the new pane keys [closed]"]
-    n7["sase-1eu.7: Pager three panes with MRU ctrl+w and a target preview [in_progress]"]
+    n7["sase-1eu.7: Pager three panes with MRU ctrl+w and a target preview [closed]"]
     n8["sase-1eu.8: Remove the flag and finish docs, help, glossary, and release note [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.4/README.md) | [sase-1eu.4](sase-1eu.4.md) | 1 |
 | [bbugyi200.athena.sase-1eu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.5.md) | [sase-1eu.5](sase-1eu.5.md) | 1 |
 | [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md) | [sase-1eu.6](sase-1eu.6.md) | 1 |
-| [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 0 |
+| [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 1 |
 | [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.8/README.md) | [sase-1eu.8](sase-1eu.8.md) | 0 |
 | [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.land/README.md) | [sase-1eu](README.md) | 0 |
 
@@ -78,6 +78,7 @@ flowchart TD
 | sase | [`e34386f`](https://github.com/sase-org/sase/commit/e34386fee4e4dd404183ff9f1f99a080daa6e514) | feat(decks): rebuild DeckAreaState on PaneGrid with pane-ID-keyed panels | [sase-1eu.3](sase-1eu.3.md) | 2026-10-02 14:32:08 EDT |
 | sase | [`2bbc346`](https://github.com/sase-org/sase/commit/2bbc346036cc79c1069ce27ad1bc7f29788f0c0a) | feat(ace): add deck layout operations, keymaps, and palette entries | [sase-1eu.4](sase-1eu.4.md) | 2026-10-02 15:23:16 EDT |
 | sase | [`eb0440c`](https://github.com/sase-org/sase/commit/eb0440c7e8e99e8417a73c2153c668e8913fcb74) | feat(agents-deck): three panels behind three\_pane\_splits beta flag (sase-1eu.5) | [sase-1eu.5](sase-1eu.5.md) | 2026-10-02 18:46:28 EDT |
+| sase | [`e076ff4`](https://github.com/sase-org/sase/commit/e076ff435cbab2f5cf0ba455128a4ee999bc3c40) | feat(pager): three-pane nest/turn/erase with MRU ctrl+w preview | [sase-1eu.7](sase-1eu.7.md) | 2026-10-02 20:15:26 EDT |
 
 <!-- sase:referenced-by:start -->
 

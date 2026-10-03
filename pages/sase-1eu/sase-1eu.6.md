@@ -20,7 +20,7 @@ pager-grid-adapter: wait until sase-1es.6 has landed, then port the pager split 
 ## Dependencies
 
 - **Depends on:** [sase-1eu.2](sase-1eu.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.7](sase-1eu.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.7](sase-1eu.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

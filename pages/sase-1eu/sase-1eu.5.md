@@ -22,7 +22,7 @@ deck-three-panels: create the three_pane_splits beta flag and, behind it, enable
 ## Dependencies
 
 - **Depends on:** [sase-1eu.4](sase-1eu.4.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eu.7](sase-1eu.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eu.7](sase-1eu.7.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eu.8](sase-1eu.8.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
@@ -36,3 +36,15 @@ deck-three-panels: create the three_pane_splits beta flag and, behind it, enable
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`eb0440c`](https://github.com/sase-org/sase/commit/eb0440c7e8e99e8417a73c2153c668e8913fcb74) | feat(agents-deck): three panels behind three\_pane\_splits beta flag (sase-1eu.5) | [sase-1eu.5](sase-1eu.5.md) | 2026-10-02 18:46:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eu.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.5.md
+
+<!-- sase:referenced-by:end -->
