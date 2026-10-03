@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ez.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.6/README.md) | [sase-1ez.6](sase-1ez.6.md) | 1 |
 | [bbugyi200.athena.sase-1ez.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.7.md) | [sase-1ez.7](sase-1ez.7.md) | 1 |
 | [bbugyi200.athena.sase-1ez.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.8/README.md) | [sase-1ez.8](sase-1ez.8.md) | 0 |
-| [bbugyi200.athena.sase-1ez.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.land.md) | [sase-1ez](README.md) | 1 |
+| [bbugyi200.athena.sase-1ez.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.land.md) | [sase-1ez](README.md) | 2 |
 
 ## Commits
 
@@ -89,3 +89,16 @@ flowchart TD
 | sase | [`a8cddd7`](https://github.com/sase-org/sase/commit/a8cddd77c3f292fa34e05c60f760814d93342e46) | feat(tui): watchdog reports whole-process stops and exact totals (sase-1ez.2) | [sase-1ez.2](sase-1ez.2.md) | 2026-10-02 21:41:28 EDT |
 | sase | [`f7d2c2c`](https://github.com/sase-org/sase/commit/f7d2c2c09e51c43002d1827d2950290dc7ca9916) | feat(tui): take automatic gen-2 collection off the interactive path (sase-1ez.4) | [sase-1ez.4](sase-1ez.4.md) | 2026-10-02 21:53:51 EDT |
 | sase | [`0499411`](https://github.com/sase-org/sase/commit/0499411408dc791249f2348a0833cd6a5bab6777) | fix(ace-tui): finish sase-1ez closeout tale - config-token single-flight, heartbeat window, tribe LRU (sase-1ez) | [sase-1ez](README.md) | 2026-10-03 03:26:57 EDT |
+| sase--plans | [`sase--plans@6d2078a`](https://github.com/sase-org/sase--plans/commit/6d2078a09d41bab46574a6bf0e9b96e69d43aed8) | docs(plans): mark sase-1ez closeout and parent plan done (sase-1ez) | [sase-1ez](README.md) | 2026-10-03 03:31:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ez.land--6][1] | Need epic status before closing sase-1ez closeout | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.land.md
+
+<!-- sase:referenced-by:end -->
