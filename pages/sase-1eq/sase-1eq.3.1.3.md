@@ -26,7 +26,7 @@ identifiers: Rewrite xprompt identifiers outside the TUI with a token-aware code
 ## Dependencies
 
 - **Depends on:** [sase-1eq.3.1.2](sase-1eq.3.1.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.3.1.4](sase-1eq.3.1.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.3.1.4](sase-1eq.3.1.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -39,3 +39,15 @@ identifiers: Rewrite xprompt identifiers outside the TUI with a token-aware code
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5541d4c`](https://github.com/sase-org/sase/commit/5541d4c6974be57d680c6b2baf23da0c81c9fa0b) | refactor(sase-modules): token-aware rename of xprompt identifiers outside TUI (sase-1eq.3.1.3) | [sase-1eq.3.1.3](sase-1eq.3.1.3.md) | 2026-10-03 04:13:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.3.1.3--2][1] | declaration-recovery turn: determine bead_action for finalizer declaration | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.1.3.md
+
+<!-- sase:referenced-by:end -->
