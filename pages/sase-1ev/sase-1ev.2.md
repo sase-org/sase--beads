@@ -18,8 +18,8 @@ history-service: add one app-scoped AceMemoryHistory over a process-wide shared 
 ## Dependencies
 
 - **Depends on:** [sase-1ev.1](sase-1ev.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.10](sase-1ev.10.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.3](sase-1ev.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.10](sase-1ev.10.md) ✓ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.3](sase-1ev.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

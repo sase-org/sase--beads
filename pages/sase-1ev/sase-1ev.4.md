@@ -13,7 +13,7 @@ card-stepping: add ( ) { } stepping on the card using the pager's moment model, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.3](sase-1ev.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.3](sase-1ev.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.5](sase-1ev.5.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
