@@ -18,7 +18,7 @@ The long-lived ACE TUI stops spending 10-17% of wall time frozen. Full (gen-2) g
 | [sase-1ez.1](sase-1ez.1.md) | GC pause recorder, memory heartbeat, and app-instance identity | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.2](sase-1ez.2.md) | Make the stall watchdog report whole-process stops and exact totals | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.3](sase-1ez.3.md) | One live version per path or scope in the module snapshot caches | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ez.4](sase-1ez.4.md) | Take automatic gen-2 collection off the interactive path | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ez.4](sase-1ez.4.md) | Take automatic gen-2 collection off the interactive path | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.5](sase-1ez.5.md) | Share immutable cached snapshots instead of copying them on every hit | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.6](sase-1ez.6.md) | Compare-then-skip on the per-second Agents tick and explicit prompt-active state | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ez.7](sase-1ez.7.md) | Move fleet projection, digest building, and config-token refresh off the hot path | ✓ closed | medium | 2026-10-02 | 1 | 1 |
@@ -32,7 +32,7 @@ flowchart TD
     n1["sase-1ez.1: GC pause recorder, memory heartbeat, and app-instance identity [closed]"]
     n2["sase-1ez.2: Make the stall watchdog report whole-process stops and exact totals [closed]"]
     n3["sase-1ez.3: One live version per path or scope in the module snapshot caches [closed]"]
-    n4["sase-1ez.4: Take automatic gen-2 collection off the interactive path [in_progress]"]
+    n4["sase-1ez.4: Take automatic gen-2 collection off the interactive path [closed]"]
     n5["sase-1ez.5: Share immutable cached snapshots instead of copying them on every hit [closed]"]
     n6["sase-1ez.6: Compare-then-skip on the per-second Agents tick and explicit prompt-active state [closed]"]
     n7["sase-1ez.7: Move fleet projection, digest building, and config-token refresh off the hot path [closed]"]
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ez.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.1.md) | [sase-1ez.1](sase-1ez.1.md) | 1 |
 | [bbugyi200.athena.sase-1ez.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.2.md) | [sase-1ez.2](sase-1ez.2.md) | 1 |
 | [bbugyi200.athena.sase-1ez.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.3/README.md) | [sase-1ez.3](sase-1ez.3.md) | 1 |
-| [bbugyi200.athena.sase-1ez.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.4.md) | [sase-1ez.4](sase-1ez.4.md) | 0 |
+| [bbugyi200.athena.sase-1ez.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.4.md) | [sase-1ez.4](sase-1ez.4.md) | 1 |
 | [bbugyi200.athena.sase-1ez.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.5.md) | [sase-1ez.5](sase-1ez.5.md) | 1 |
 | [bbugyi200.athena.sase-1ez.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ez.6/README.md) | [sase-1ez.6](sase-1ez.6.md) | 1 |
 | [bbugyi200.athena.sase-1ez.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.7.md) | [sase-1ez.7](sase-1ez.7.md) | 1 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`55eec1b`](https://github.com/sase-org/sase/commit/55eec1b986425e4e5f79eb105d7ec10170f17ec1) | feat(ace): add startup clock, GC telemetry and lifecycle instrumentation | [sase-1ez.1](sase-1ez.1.md) | 2026-10-02 19:36:40 EDT |
 | sase | [`f76efbe`](https://github.com/sase-org/sase/commit/f76efbe6b90882196c3d186d39968a8a0d676749) | feat(tui): move fleet projection, digest building, and config-token refresh off the hot path | [sase-1ez.7](sase-1ez.7.md) | 2026-10-02 21:02:49 EDT |
 | sase | [`a8cddd7`](https://github.com/sase-org/sase/commit/a8cddd77c3f292fa34e05c60f760814d93342e46) | feat(tui): watchdog reports whole-process stops and exact totals (sase-1ez.2) | [sase-1ez.2](sase-1ez.2.md) | 2026-10-02 21:41:28 EDT |
+| sase | [`f7d2c2c`](https://github.com/sase-org/sase/commit/f7d2c2c09e51c43002d1827d2950290dc7ca9916) | feat(tui): take automatic gen-2 collection off the interactive path (sase-1ez.4) | [sase-1ez.4](sase-1ez.4.md) | 2026-10-02 21:53:51 EDT |

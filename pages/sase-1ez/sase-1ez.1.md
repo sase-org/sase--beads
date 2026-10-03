@@ -24,7 +24,7 @@ gc-telemetry: add a lock-free gc.callbacks recorder with collection-trigger tagg
 ## Dependencies
 
 - **Blocks:** [sase-1ez.2](sase-1ez.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ez.4](sase-1ez.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ez.4](sase-1ez.4.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
