@@ -22,7 +22,7 @@ inventory-memo: memoize `repo_config_cache_key` by config identity and add a sco
 ## Dependencies
 
 - **Depends on:** [sase-1es.1](sase-1es.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1es.8](sase-1es.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1es.8](sase-1es.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

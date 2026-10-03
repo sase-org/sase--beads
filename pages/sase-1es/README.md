@@ -26,7 +26,7 @@
 | [sase-1es.5](sase-1es.5.md) | Textual-free virtual body line model with a parity oracle | ✓ closed | medium | 2026-10-02 | 1 | 0 |
 | [sase-1es.6](sase-1es.6.md) | Swap the Static body for a Line-API ScrollView | ✓ closed | large | 2026-10-02 | 1 | 1 |
 | [sase-1es.7](sase-1es.7.md) | Viewport-proportional incremental search | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1es.8](sase-1es.8.md) | Final measurements, regression gates, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1es.8](sase-1es.8.md) | Final measurements, regression gates, and docs | ✓ closed | small | 2026-10-02 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n5["sase-1es.5: Textual-free virtual body line model with a parity oracle [closed]"]
     n6["sase-1es.6: Swap the Static body for a Line-API ScrollView [closed]"]
     n7["sase-1es.7: Viewport-proportional incremental search [closed]"]
-    n8["sase-1es.8: Final measurements, regression gates, and docs [in_progress]"]
+    n8["sase-1es.8: Final measurements, regression gates, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1es.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.5.md) | [sase-1es.5](sase-1es.5.md) | 0 |
 | [bbugyi200.athena.sase-1es.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.6.md) | [sase-1es.6](sase-1es.6.md) | 1 |
 | [bbugyi200.athena.sase-1es.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.7/README.md) | [sase-1es.7](sase-1es.7.md) | 1 |
-| [bbugyi200.athena.sase-1es.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md) | [sase-1es.8](sase-1es.8.md) | 0 |
+| [bbugyi200.athena.sase-1es.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.8/README.md) | [sase-1es.8](sase-1es.8.md) | 1 |
 | [bbugyi200.athena.sase-1es.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md) | [sase-1es](README.md) | 0 |
 
 ## Commits
@@ -84,6 +84,7 @@ flowchart TD
 | sase | [`8d1ac50`](https://github.com/sase-org/sase/commit/8d1ac50c51706848d18aaaf8215ec0dd05745d74) | feat(pager): fix dismissed-view leak, near-linear scans, span/digest memoization, trailless search copies (sase-1es.2) | [sase-1es.2](sase-1es.2.md) | 2026-10-02 13:07:05 EDT |
 | sase | [`54427ed`](https://github.com/sase-org/sase/commit/54427ed47c3ff911cd212778c13019440aa215f6) | feat(pager): virtualize body with Line-API ScrollView and bounded strip cache | [sase-1es.6](sase-1es.6.md) | 2026-10-02 22:21:58 EDT |
 | sase | [`5a68eb5`](https://github.com/sase-org/sase/commit/5a68eb53a95ceb9daab3ef5e4452d78bcf24a99f) | feat(pager): viewport-proportional incremental search overlay | [sase-1es.7](sase-1es.7.md) | 2026-10-02 22:53:24 EDT |
+| sase | [`702c8c3`](https://github.com/sase-org/sase/commit/702c8c3167432347cc2800629a947f3ddaa4bdad) | perf(pager): finalize measurements, regression gates, and docs (sase-1es.8) | [sase-1es.8](sase-1es.8.md) | 2026-10-02 23:18:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
