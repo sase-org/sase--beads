@@ -13,7 +13,7 @@ virtual-search-overlay: add an optional match-painting host hook to `VimSearchCo
 
 ## Dependencies
 
-- **Depends on:** [sase-1es.6](sase-1es.6.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1es.6](sase-1es.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1es.8](sase-1es.8.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

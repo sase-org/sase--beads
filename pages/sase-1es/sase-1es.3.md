@@ -20,7 +20,7 @@ cold-path-diet: make `sase.pager` imports lazy, move pure helpers out of `sase.a
 ## Dependencies
 
 - **Depends on:** [sase-1es.1](sase-1es.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1es.5](sase-1es.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1es.5](sase-1es.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -41,7 +41,11 @@ cold-path-diet: make `sase.pager` imports lazy, move pure helpers out of `sase.a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0vd][1] | Check phase deps and notes to assess conflict with three-pane split work | 1 |
+| read-by | [agent:sase-1eq.1.1.7--1][2] | cite prior clean-base tracking of directive failures | 1 |
+| read-by | [agent:sase-1es.3--1][3] | Need phase scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.0vd/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.1.1.7.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1es.3.md
 
 <!-- sase:referenced-by:end -->
