@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ev.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.7.md) | [sase-1ev.7](sase-1ev.7.md) | 1 |
 | [bbugyi200.athena.sase-1ev.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.8/README.md) | [sase-1ev.8](sase-1ev.8.md) | 1 |
 | [bbugyi200.athena.sase-1ev.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.9.md) | [sase-1ev.9](sase-1ev.9.md) | 1 |
-| [bbugyi200.athena.sase-1ev.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md) | [sase-1ev](README.md) | 1 |
+| [bbugyi200.athena.sase-1ev.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md) | [sase-1ev](README.md) | 2 |
 
 ## Commits
 
@@ -151,6 +151,7 @@ flowchart TD
 | sase | [`0676975`](https://github.com/sase-org/sase/commit/0676975ef3624059393e9e058a43678f6c58e34f) | feat(memory-history-tui): Changes-lens review chip + unreviewed dots + m to mark reviewed, MEMORY badge (sase-1ev.12) | [sase-1ev.12](sase-1ev.12.md) | 2026-10-03 04:46:01 EDT |
 | sase | [`957513c`](https://github.com/sase-org/sase/commit/957513c8e14971fb7b76b53556c667f95b89fa55) | docs(memory): document Memory panel instructions group and review watermark | [sase-1ev.13](sase-1ev.13.md) | 2026-10-03 05:03:41 EDT |
 | sase | [`e847b08`](https://github.com/sase-org/sase/commit/e847b082c26fbb7fedda20cf4486e0d88427caf9) | feat(memory-history-tui): land sase-1ev with the recovered agents bridge and pane fixes | [sase-1ev](README.md) | 2026-10-03 07:15:05 EDT |
+| sase--plans | [`sase--plans@505dd2b`](https://github.com/sase-org/sase--plans/commit/505dd2b81022dd5d132db793f755f8f1f55f117b) | chore(plans): mark memory\_history\_tui epic plan done (sase-1ev) | [sase-1ev](README.md) | 2026-10-03 07:17:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
