@@ -19,4 +19,4 @@ live-reply-follow: route reply-file events to a throttled background snapshot an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.1.md) | [sase-1fu.1](sase-1fu.1.md) | 0 |
+| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.1/README.md) | [sase-1fu.1](sase-1fu.1.md) | 0 |

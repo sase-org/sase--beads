@@ -16,7 +16,7 @@ Muse reply deltas reach the selected agent's visible Reply card during generatio
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1fu.1](sase-1fu.1.md) | Refresh the selected live Reply card | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
-| [sase-1fu.2](sase-1fu.2.md) | Drain provider JSONL promptly and preserve UTF-8 | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
+| [sase-1fu.2](sase-1fu.2.md) | Drain provider JSONL promptly and preserve UTF-8 | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [sase-1fu.3](sase-1fu.3.md) | Preserve complete console lines under the provider timer | ✓ closed | small | 2026-10-03 | 1 | 1 |
 | [sase-1fu.4](sase-1fu.4.md) | Verify the complete Muse streaming path and document its behavior | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Muse reply deltas reach the selected agent's visible Reply card during generatio
 flowchart TD
     n0["sase-1fu: Restore visible Muse reply streaming without fragmenting replies [in_progress]"]
     n1["sase-1fu.1: Refresh the selected live Reply card [in_progress]"]
-    n2["sase-1fu.2: Drain provider JSONL promptly and preserve UTF-8 [in_progress]"]
+    n2["sase-1fu.2: Drain provider JSONL promptly and preserve UTF-8 [closed]"]
     n3["sase-1fu.3: Preserve complete console lines under the provider timer [closed]"]
     n4["sase-1fu.4: Verify the complete Muse streaming path and document its behavior [in_progress]"]
     n0 --> n1
@@ -42,8 +42,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.1.md) | [sase-1fu.1](sase-1fu.1.md) | 0 |
-| [bbugyi200.athena.sase-1fu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.2/README.md) | [sase-1fu.2](sase-1fu.2.md) | 0 |
+| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.1/README.md) | [sase-1fu.1](sase-1fu.1.md) | 0 |
+| [bbugyi200.athena.sase-1fu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.2/README.md) | [sase-1fu.2](sase-1fu.2.md) | 1 |
 | [bbugyi200.athena.sase-1fu.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.3.md) | [sase-1fu.3](sase-1fu.3.md) | 1 |
 | [bbugyi200.athena.sase-1fu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.4/README.md) | [sase-1fu.4](sase-1fu.4.md) | 0 |
 | [bbugyi200.athena.sase-1fu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.land/README.md) | [sase-1fu](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ca1ffac`](https://github.com/sase-org/sase/commit/ca1ffac8e3f3debe5a44045bb9ceccb16c5bc839) | fix(muse): preserve streamed reply framing | [sase-1fu.3](sase-1fu.3.md) | 2026-10-03 15:45:04 EDT |
+| sase | [`3929830`](https://github.com/sase-org/sase/commit/392983091d82799747bc1222ac7c0f9151167c5a) | fix(llm-provider): drain JSONL streams incrementally | [sase-1fu.2](sase-1fu.2.md) | 2026-10-03 16:21:13 EDT |

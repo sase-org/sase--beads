@@ -32,3 +32,15 @@ console-framing: avoid flushing individual fragments through Rich FileProxy whil
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ca1ffac`](https://github.com/sase-org/sase/commit/ca1ffac8e3f3debe5a44045bb9ceccb16c5bc839) | fix(muse): preserve streamed reply framing | [sase-1fu.3](sase-1fu.3.md) | 2026-10-03 15:45:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1fu.3--1][1] | Review phase scope and existing notes before adding verification findings and closing it | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.3.md
+
+<!-- sase:referenced-by:end -->
