@@ -22,7 +22,7 @@ sase-syntax: create the legacy_xprompt_syntax sunset flag. Switch every user-fac
 - **Blocks:** [sase-1eq.6](sase-1eq.6.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.7](sase-1eq.7.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.8](sase-1eq.8.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.9](sase-1eq.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.9](sase-1eq.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

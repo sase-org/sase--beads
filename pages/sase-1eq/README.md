@@ -31,7 +31,7 @@ SASE calls its reusable `#name` prompt definitions "macros" in code, CLI, config
 | [sase-1eq.6](sase-1eq.6.md) | Documentation, site redirect, memory, and first skill redeploy | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eq.7](sase-1eq.7.md) | sase-telegram cutover | ✓ closed | small | 2026-10-02 | 1 | 0 |
 | [sase-1eq.8](sase-1eq.8.md) | sase-github, sase-research-artifacts, and bugyi-chops cutover | ✓ closed | small | 2026-10-02 | 1 | 2 |
-| [sase-1eq.9](sase-1eq.9.md) | sase-nvim cutover | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1eq.9](sase-1eq.9.md) | sase-nvim cutover | ✓ closed | medium | 2026-10-02 | 1 | 0 |
 
 ## Lineage
 
@@ -74,7 +74,7 @@ flowchart TD
     n34["sase-1eq.6: Documentation, site redirect, memory, and first skill redeploy [in_progress]"]
     n35["sase-1eq.7: sase-telegram cutover [closed]"]
     n36["sase-1eq.8: sase-github, sase-research-artifacts, and bugyi-chops cutover [closed]"]
-    n37["sase-1eq.9: sase-nvim cutover [in_progress]"]
+    n37["sase-1eq.9: sase-nvim cutover [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
