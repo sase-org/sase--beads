@@ -24,7 +24,7 @@ cli-doctor: publish canonical macro commands and JSON, hide flag-gated old alias
 ## Dependencies
 
 - **Depends on:** [sase-1eq.4.1.3](sase-1eq.4.1.3.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.4.1.5](sase-1eq.4.1.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.4.1.5](sase-1eq.4.1.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -37,3 +37,15 @@ cli-doctor: publish canonical macro commands and JSON, hide flag-gated old alias
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4f90695`](https://github.com/sase-org/sase/commit/4f90695659a6eaef0cc86e1fc8656e8a1b6a9c34) | feat!: publish canonical macro CLI, completion, and retirement diagnostics | [sase-1eq.4.1.4](sase-1eq.4.1.4.md) | 2026-10-03 10:30:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.4.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

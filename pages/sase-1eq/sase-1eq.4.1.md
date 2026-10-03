@@ -24,7 +24,9 @@ Make macro spellings canonical across non-TUI SASE surfaces while preserving fla
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.4.1.3][1] | Need parent epic scope | 1 |
+| read-by | [agent:sase-1eq.4.1.4][2] | parent scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->
