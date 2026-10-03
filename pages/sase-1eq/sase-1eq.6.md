@@ -11,6 +11,10 @@
 
 docs-memory: redeploy the generated skills and rewrite docs, README, and blog. Move the docs page with a redirect from the old URL. Rename the xprompts memory note and the five glossary strands, then republish memory.
 
+## Notes
+
+[2026-10-03T17:52:38Z · sase-1eq.6] PROPOSED FOLLOW-UP: Regenerate docs/images/macro-resolution-infographic.png labels (still renders retired xprompt paths/commands); files renamed and prompt.md/critique.md rewritten, PNG pixels deferred
+
 ## Dependencies
 
 - **Blocks:** [sase-1eq.11](sase-1eq.11.md) ◐ · ⧖ 2026-10-02
