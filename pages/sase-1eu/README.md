@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eu.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md) | [sase-1eu.6](sase-1eu.6.md) | 1 |
 | [bbugyi200.athena.sase-1eu.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md) | [sase-1eu.7](sase-1eu.7.md) | 1 |
 | [bbugyi200.athena.sase-1eu.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.8.md) | [sase-1eu.8](sase-1eu.8.md) | 1 |
-| [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.land.md) | [sase-1eu](README.md) | 1 |
+| [bbugyi200.athena.sase-1eu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.land.md) | [sase-1eu](README.md) | 2 |
 
 ## Commits
 
@@ -132,6 +132,7 @@ flowchart TD
 | sase | [`e076ff4`](https://github.com/sase-org/sase/commit/e076ff435cbab2f5cf0ba455128a4ee999bc3c40) | feat(pager): three-pane nest/turn/erase with MRU ctrl+w preview | [sase-1eu.7](sase-1eu.7.md) | 2026-10-02 20:15:26 EDT |
 | sase | [`c62e4f1`](https://github.com/sase-org/sase/commit/c62e4f1491e571bc6ac62073f156c31687a88875) | feat(ace-pager): remove three\_pane\_splits flag and finish unflag docs (sase-1eu.8) | [sase-1eu.8](sase-1eu.8.md) | 2026-10-02 22:20:06 EDT |
 | sase | [`d8efa2a`](https://github.com/sase-org/sase/commit/d8efa2a6e5ad8fd68346d60ba10f86ef4bda5ecf) | feat(ace-pager): land three-pane splits for the Agents deck and pager | [sase-1eu](README.md) | 2026-10-03 03:33:29 EDT |
+| chezmoi | [`chezmoi@2ce5ba0`](https://github.com/bbugyi200/dotfiles/commit/2ce5ba030579e75f04c58b493ab115c1465f8945) | feat(tmux): update extended-keys config for ctrl+shift chords | [sase-1eu](README.md) | 2026-10-03 03:38:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -146,6 +147,8 @@ flowchart TD
 | read-by | [agent:sase-1eu.3][5] | Need parent epic scope for phase sase-1eu.3 | 1 |
 | read-by | [agent:sase-1eu.6--1][6] | Check parent epic status and remaining phases before closing sase-1eu.6 | 1 |
 | read-by | [agent:sase-1eu.7][7] | Need parent epic plan and design | 1 |
+| read-by | [agent:sase-1eu.land--5][8] | finish three-pane landing after monitor check | 1 |
+| read-by | [agent:sase-1ez.land--6][9] | Check closed epic for stale symvision whitelist cleanup | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3c.final/README.md
@@ -154,5 +157,7 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.3/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.6.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.7/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.land.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ez.land.md
 
 <!-- sase:referenced-by:end -->
