@@ -33,3 +33,15 @@ instructions-group: add a collapsed INSTRUCTIONS rail group for AGENTS.md subjec
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d854842`](https://github.com/sase-org/sase/commit/d854842e893bacf6285b2ef5cd21d5b596f7500e) | feat(memory-history): collapsed INSTRUCTIONS rail group and instruction cards (sase-1ev.9) | [sase-1ev.9](sase-1ev.9.md) | 2026-10-03 03:12:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.9--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.9.md
+
+<!-- sase:referenced-by:end -->

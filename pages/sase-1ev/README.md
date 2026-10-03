@@ -18,7 +18,7 @@ The ACE Memory pane knows about time. Every memory note, web, strand, and agent 
 | [sase-1ev.1](sase-1ev.1.md) | Repair the H and C front door | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1ev.10](sase-1ev.10.md) | Memory as seen by the agent in the Agents tab | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ev.11](sase-1ev.11.md) | Core review watermark and the CLI feed header | ✓ closed | medium | 2026-10-02 | 1 | 2 |
-| [sase-1ev.12](sase-1ev.12.md) | Review watermark in the Changes lens | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1ev.12](sase-1ev.12.md) | Review watermark in the Changes lens | ◐ in_progress | small | 2026-10-02 | 1 | 1 |
 | [sase-1ev.13](sase-1ev.13.md) | Document, measure, and review end to end | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1ev.2](sase-1ev.2.md) | App-scoped history service and the public history kit | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ev.3](sase-1ev.3.md) | Pinned card head with the two-row time strip | ✓ closed | medium | 2026-10-02 | 1 | 1 |
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ev.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.1/README.md) | [sase-1ev.1](sase-1ev.1.md) | 1 |
 | [bbugyi200.athena.sase-1ev.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.10.md) | [sase-1ev.10](sase-1ev.10.md) | 1 |
 | [bbugyi200.athena.sase-1ev.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md) | [sase-1ev.11](sase-1ev.11.md) | 2 |
-| [bbugyi200.athena.sase-1ev.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.12/README.md) | [sase-1ev.12](sase-1ev.12.md) | 0 |
+| [bbugyi200.athena.sase-1ev.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.12/README.md) | [sase-1ev.12](sase-1ev.12.md) | 1 |
 | [bbugyi200.athena.sase-1ev.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.13/README.md) | [sase-1ev.13](sase-1ev.13.md) | 0 |
 | [bbugyi200.athena.sase-1ev.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.2/README.md) | [sase-1ev.2](sase-1ev.2.md) | 1 |
 | [bbugyi200.athena.sase-1ev.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.3.md) | [sase-1ev.3](sase-1ev.3.md) | 1 |
@@ -110,6 +110,7 @@ flowchart TD
 | sase | [`be7d191`](https://github.com/sase-org/sase/commit/be7d19191255f3f3d8f8427312e3bc0077cdd56f) | feat(memory-history): changes lens over shared feed view-model (sase-1ev.7) | [sase-1ev.7](sase-1ev.7.md) | 2026-10-03 01:25:13 EDT |
 | sase | [`8b27e3f`](https://github.com/sase-org/sase/commit/8b27e3f011019c3caad2584ddb53dc78919a8f4d) | feat(memory-history): rail recency glance and deleted subjects (sase-1ev.8) | [sase-1ev.8](sase-1ev.8.md) | 2026-10-03 02:22:31 EDT |
 | sase | [`d854842`](https://github.com/sase-org/sase/commit/d854842e893bacf6285b2ef5cd21d5b596f7500e) | feat(memory-history): collapsed INSTRUCTIONS rail group and instruction cards (sase-1ev.9) | [sase-1ev.9](sase-1ev.9.md) | 2026-10-03 03:12:24 EDT |
+| sase | [`0676975`](https://github.com/sase-org/sase/commit/0676975ef3624059393e9e058a43678f6c58e34f) | feat(memory-history-tui): Changes-lens review chip + unreviewed dots + m to mark reviewed, MEMORY badge (sase-1ev.12) | [sase-1ev.12](sase-1ev.12.md) | 2026-10-03 04:46:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
