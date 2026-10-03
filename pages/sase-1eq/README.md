@@ -15,6 +15,8 @@ SASE calls its reusable `#name` prompt definitions "macros" in code, CLI, config
 
 [2026-10-03T02:31:02Z · sase-1ez.land] DISCOVERED ISSUE: tests/ace/tui/test_prompt_key_perf_smoke.py::test_prompt_key_io_probe_counts_main_thread_calls fails at master 54427ed47c with FileNotFoundError for <SASE_HOME>/vcs_xprompt_mru.json (line 181). Cause: sase-1eq.2 commit 72dbae6a09 made the MRU writer macro-first (vcs_xprompt_mru_path() now returns sase_home()/VCS_MACRO_MRU_FILENAME), but this test (added by sase-1ex.1, db40a7219a) still asserts the legacy filename after _save_vcs_xprompt_mru. Fix: assert against vcs_xprompt_mru_path() / VCS_MACRO_MRU_FILENAME instead of the hard-coded legacy name. Reported as PROPOSED FOLLOW-UP by sase-1ez.2 (note #4) and sase-1ez.4 (KNOWN witness 4bd69d8aca0427947e28d2f228156ead); re-reproduced by sase-1ez.land with a single-test pytest run.
 
+[2026-10-03T16:15:44Z · sase-1ex.land] DISCOVERED ISSUE (relayed by sase-1ex.land from sase-1ex.8 note #2, agent sase-1ex.8--1, 2026-10-03): tests/test_macro_terminology.py::test_macro_paths_avoid_xprompt_components failed identically on a clean base tree in that agent's workspace. An ignored, untracked tests/xprompt/ directory (leftover from before the xprompt->macro path move) tripped the 'xprompt' path-component guard. The guard (added by sase-1eq.3.1.4, 8de1add72c) collects scope files with Path.rglob over the working tree (tests/test_macro_terminology.py:135/158/644) instead of tracked files, so stale ignored dirs such as __pycache__-only leftovers in long-lived sase_<N> workspaces fail just check for unrelated agents. Not reproducible in sase_12 at 9f8c4c529e (no tests/xprompt dir; 22 terminology/prediction tests pass). Suggested fix: restrict the path scan to git ls-files output, or skip ignored paths.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -24,10 +26,10 @@ SASE calls its reusable `#name` prompt definitions "macros" in code, CLI, config
 | [sase-1eq.11](sase-1eq.11.md) | Cross-repo audit, guardrail, chezmoi, and machine migration | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [sase-1eq.2](sase-1eq.2.md) | Durable data, core wires, and LSP build tooling | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eq.3](sase-1eq.3.md) | Module, package, and identifier rename outside the TUI | ✓ closed | large | 2026-10-02 | 1 | 0 |
-| [sase-1eq.4](sase-1eq.4.md) | User syntax, CLI, config, discovery, and the sunset flag | ◐ in_progress | large | 2026-10-02 | 1 | 0 |
+| [sase-1eq.4](sase-1eq.4.md) | User syntax, CLI, config, discovery, and the sunset flag | ✓ closed | large | 2026-10-02 | 1 | 0 |
 | [sase-1eq.5](sase-1eq.5.md) | TUI macro surfaces and goldens | ◐ in_progress | large | 2026-10-02 | 1 | 0 |
 | [sase-1eq.6](sase-1eq.6.md) | Documentation, site redirect, memory, and first skill redeploy | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
-| [sase-1eq.7](sase-1eq.7.md) | sase-telegram cutover | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1eq.7](sase-1eq.7.md) | sase-telegram cutover | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1eq.8](sase-1eq.8.md) | sase-github, sase-research-artifacts, and bugyi-chops cutover | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1eq.9](sase-1eq.9.md) | sase-nvim cutover | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 
@@ -54,18 +56,25 @@ flowchart TD
     n16["sase-1eq.3.1.2: Package and module paths [closed]"]
     n17["sase-1eq.3.1.3: Token-aware identifier rename [closed]"]
     n18["sase-1eq.3.1.4: Terminology guard [closed]"]
-    n19["sase-1eq.4: User syntax, CLI, config, discovery, and the sunset flag [in_progress]"]
-    n20["sase-1eq.4.1: Complete the non-TUI macro syntax cutover [in_progress]"]
+    n19["sase-1eq.4: User syntax, CLI, config, discovery, and the sunset flag [closed]"]
+    n20["sase-1eq.4.1: Complete the non-TUI macro syntax cutover [closed]"]
     n21["sase-1eq.4.1.1: Sunset flag and shared compatibility contracts [closed]"]
     n22["sase-1eq.4.1.2: Canonical config and local macro frontmatter [closed]"]
     n23["sase-1eq.4.1.3: Macro directory, plugin, and LSP discovery [closed]"]
     n24["sase-1eq.4.1.4: Macro CLI, completion, and retirement diagnostics [closed]"]
     n25["sase-1eq.4.1.5: Remaining strings, skill sources, and terminology guard [closed]"]
     n26["sase-1eq.5: TUI macro surfaces and goldens [in_progress]"]
-    n27["sase-1eq.6: Documentation, site redirect, memory, and first skill redeploy [in_progress]"]
-    n28["sase-1eq.7: sase-telegram cutover [in_progress]"]
-    n29["sase-1eq.8: sase-github, sase-research-artifacts, and bugyi-chops cutover [in_progress]"]
-    n30["sase-1eq.9: sase-nvim cutover [in_progress]"]
+    n27["sase-1eq.5.1: TUI macro surfaces and goldens [in_progress]"]
+    n28["sase-1eq.5.1.1: Keymap, resume ids, and stats request contracts [in_progress]"]
+    n29["sase-1eq.5.1.2: Macro browser, save flows, and location labels [in_progress]"]
+    n30["sase-1eq.5.1.3: Completion, argument assist, and highlight roles [in_progress]"]
+    n31["sase-1eq.5.1.4: Prompt panel, raw-prompt headings, and remaining visible copy [in_progress]"]
+    n32["sase-1eq.5.1.5: Remaining TUI identifiers and assigned mirror files [in_progress]"]
+    n33["sase-1eq.5.1.6: PNG goldens, terminology guard, and navigation benchmark [in_progress]"]
+    n34["sase-1eq.6: Documentation, site redirect, memory, and first skill redeploy [in_progress]"]
+    n35["sase-1eq.7: sase-telegram cutover [closed]"]
+    n36["sase-1eq.8: sase-github, sase-research-artifacts, and bugyi-chops cutover [in_progress]"]
+    n37["sase-1eq.9: sase-nvim cutover [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -92,10 +101,17 @@ flowchart TD
     n20 --> n24
     n20 --> n25
     n0 --> n26
-    n0 --> n27
-    n0 --> n28
-    n0 --> n29
-    n0 --> n30
+    n26 --> n27
+    n27 --> n28
+    n27 --> n29
+    n27 --> n30
+    n27 --> n31
+    n27 --> n32
+    n27 --> n33
+    n0 --> n34
+    n0 --> n35
+    n0 --> n36
+    n0 --> n37
     n1 -.-> n12
     n3 -.-> n4
     n4 -.-> n5
@@ -110,19 +126,24 @@ flowchart TD
     n16 -.-> n17
     n17 -.-> n18
     n19 -.-> n26
-    n19 -.-> n27
-    n19 -.-> n28
-    n19 -.-> n29
-    n19 -.-> n30
+    n19 -.-> n34
+    n19 -.-> n35
+    n19 -.-> n36
+    n19 -.-> n37
     n21 -.-> n22
     n22 -.-> n23
     n23 -.-> n24
     n24 -.-> n25
     n26 -.-> n10
-    n27 -.-> n11
-    n28 -.-> n10
-    n29 -.-> n10
-    n30 -.-> n10
+    n28 -.-> n29
+    n29 -.-> n30
+    n30 -.-> n31
+    n31 -.-> n32
+    n32 -.-> n33
+    n34 -.-> n11
+    n35 -.-> n10
+    n36 -.-> n10
+    n37 -.-> n10
 ```
 
 ## Agents
@@ -153,10 +174,17 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.3/README.md) | [sase-1eq.4.1.3](sase-1eq.4.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1eq.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.4/README.md) | [sase-1eq.4.1.4](sase-1eq.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1eq.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.5/README.md) | [sase-1eq.4.1.5](sase-1eq.4.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1eq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.land/README.md) | [sase-1eq.4.1](sase-1eq.4.1.md) | 0 |
-| [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5/README.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
+| [bbugyi200.athena.sase-1eq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.1.land.md) | [sase-1eq.4.1](sase-1eq.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.1/README.md) | [sase-1eq.5.1.1](sase-1eq.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.2/README.md) | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.3/README.md) | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.4/README.md) | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.5/README.md) | [sase-1eq.5.1.5](sase-1eq.5.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.6/README.md) | [sase-1eq.5.1.6](sase-1eq.5.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md) | [sase-1eq.5.1](sase-1eq.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1eq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.6/README.md) | [sase-1eq.6](sase-1eq.6.md) | 0 |
-| [bbugyi200.athena.sase-1eq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.7/README.md) | [sase-1eq.7](sase-1eq.7.md) | 0 |
+| [bbugyi200.athena.sase-1eq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.7/README.md) | [sase-1eq.7](sase-1eq.7.md) | 1 |
 | [bbugyi200.athena.sase-1eq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.8/README.md) | [sase-1eq.8](sase-1eq.8.md) | 0 |
 | [bbugyi200.athena.sase-1eq.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.9/README.md) | [sase-1eq.9](sase-1eq.9.md) | 0 |
 | [bbugyi200.athena.sase-1eq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.land/README.md) | [sase-1eq](README.md) | 0 |
@@ -187,6 +215,7 @@ flowchart TD
 | sase | [`6d0d8a0`](https://github.com/sase-org/sase/commit/6d0d8a0a2d7321a4bc89a892cbb572bfac13f98e) | feat(macros): consolidate plugin discovery on canonical sase\_macros group | [sase-1eq.4.1.3](sase-1eq.4.1.3.md) | 2026-10-03 09:44:04 EDT |
 | sase | [`4f90695`](https://github.com/sase-org/sase/commit/4f90695659a6eaef0cc86e1fc8656e8a1b6a9c34) | feat!: publish canonical macro CLI, completion, and retirement diagnostics | [sase-1eq.4.1.4](sase-1eq.4.1.4.md) | 2026-10-03 10:30:08 EDT |
 | sase | [`29c1471`](https://github.com/sase-org/sase/commit/29c14710fb6c7aedf5db7641deb466511c8a34b8) | feat!: finish non-TUI macro strings, skill sources, and terminology guard | [sase-1eq.4.1.5](sase-1eq.4.1.5.md) | 2026-10-03 11:32:50 EDT |
+| sase-telegram | [`sase-telegram@d335fb8`](https://github.com/sase-org/sase-telegram/commit/d335fb8f9dfa5f0b534b3fdbbc591e505e7b5947) | refactor(telegram): rename xprompt surface to macros with compat alias | [sase-1eq.7](sase-1eq.7.md) | 2026-10-03 13:46:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

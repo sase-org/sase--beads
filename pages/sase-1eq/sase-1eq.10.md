@@ -15,7 +15,7 @@ core-flip: make sase-core emit only macro spellings and remove the legacy bindin
 
 - **Blocks:** [sase-1eq.11](sase-1eq.11.md) ◐ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.5](sase-1eq.5.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1eq.7](sase-1eq.7.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.7](sase-1eq.7.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.8](sase-1eq.8.md) ◐ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.9](sase-1eq.9.md) ◐ · ⧖ 2026-10-02
 

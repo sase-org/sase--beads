@@ -14,10 +14,10 @@ tui: rename TUI modules, identifiers, CSS, copy, keymap actions, and Admin Cente
 ## Dependencies
 
 - **Blocks:** [sase-1eq.10](sase-1eq.10.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1eq.4](sase-1eq.4.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.4](sase-1eq.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5/README.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |

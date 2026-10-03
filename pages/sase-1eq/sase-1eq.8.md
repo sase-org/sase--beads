@@ -14,7 +14,7 @@ plugins: register the sase_macros entry-point group next to the legacy group, ke
 ## Dependencies
 
 - **Blocks:** [sase-1eq.10](sase-1eq.10.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1eq.4](sase-1eq.4.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.4](sase-1eq.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
