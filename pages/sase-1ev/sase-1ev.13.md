@@ -36,3 +36,15 @@ launch: finish the TUI history docs and run the full visual golden review. Measu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`957513c`](https://github.com/sase-org/sase/commit/957513c8e14971fb7b76b53556c667f95b89fa55) | docs(memory): document Memory panel instructions group and review watermark | [sase-1ev.13](sase-1ev.13.md) | 2026-10-03 05:03:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.13][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.13/README.md
+
+<!-- sase:referenced-by:end -->

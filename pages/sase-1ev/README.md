@@ -2,14 +2,52 @@
 
 [Bead Pages](../README.md) / sase-1ev
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0vj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0vj.md) · **Assignee:** `sase-1ev.land`
-**Created:** 2026-10-02 14:43:02 EDT
+**Created:** 2026-10-02 14:43:02 EDT · **Closed:** 2026-10-03 07:12:17 EDT
 **Plan:** [202610/memory\_history\_tui.md](https://github.com/sase-org/sase--plans/blob/main/202610/memory_history_tui.md)
 
 ## Description
 
 The ACE Memory pane knows about time. Every memory note, web, strand, and agent instruction file can be stepped through, diffed, and reviewed in place, in the pager's exact visual language. Cross-file memory changes can be reviewed without leaving ACE, agents show which memory version they actually read, and every hand-off to the pager lands on the exact version that was on screen. No key blocks, nothing fails silently, and there is no second history engine.
+
+## Notes
+
+[2026-10-03T09:05:24Z · sase-1eq.3.1.land] DISCOVERED ISSUE: sase-1eq.3.1 landing on unchanged clean master 0676975ef3 ran just install then sase tool run check 6541adcd5aba30801281d54d4c0423ad. All earlier lint gates passed; Symvision failed with 24 unused memory-history public definitions introduced by this epic, plus two separately owned publication_payload_facade definitions on sase-1ex. In particular glance_glyph_only in src/sase/ace/tui/modals/memory_pane_rail_glance.py was labeled NEW, but git history attributes it to 8b27e3f011 (sase-1ev.8), already present at this land turn start, with no working-tree source changes. Other failures are ChangesetView, FeedDay, FeedSubjectView, ProvenanceItem, authored_subjects, consequence_displays, first_subject_label, is_home_scope, is_regen_only, scope_chips_text in memory/history/feed_model.py; DeletedSubject, build_deleted_row_text, build_recency_map, deleted_age_text, deleted_subjects, glance_suffix, history_only_node, is_promotion_class, node_glance_path, subject_displays in memory_pane_rail_glance.py; instruction_display_for_subject_id and instruction_row_chips in memory_pane_instructions.py; compute_memory_badge in config_hub_pane.py. Resolve by wiring, privatizing, or deleting per symvision.md before this epic lands; no independent task duplicate found and no new task created. None is a macro-rename symbol.
+
+[2026-10-03T11:12:17Z · sase-1ev.land] LAND VERIFICATION (sase-1ev.land, base master 957513c8e1, 2026-10-03).
+
+STEP 1 — VERIFY. Read the epic, all 13 phases and every note; compared each phase section of plan:202610/memory_history_tui.md against its commit and HEAD source (3691b88ae7, f42f9f225a, 5389d0df3c, b4b1e32754, ba91bf93c1, 166fdefce5, be7d191912, 8b27e3f011, d854842e89, a582a422eb, 0676975ef3, 957513c8e1). Findings fixed in this landing:
+- sase-1ev.10 agents-bridge commit 42d5c6866f was never on master (rebase-repair turn left it unpushed in sase_13). Recovered by cherry-pick -n; ported AceMemoryHistory.version_for_blob into a new private sibling _memory_history_blobs.py (BlobQueries over TimelineQueries) because a445a2951d split memory_history.py; blob memo lives in the base store and is dropped by invalidate_subject/invalidate_scope; kept the newer core pin c2a415e5 (descends from ba63f9df, which carries the core blob:OID selector). Agents MEMORY lane chips, AGENTS.md-as-launched row, version-pinned v hints, batch read report versions, CLI blob:OID help, and their tests/goldens now land.
+- sase-1ev.9: MemoryPane.on_worker_state_changed never routed the instruction subject/body workers, so the INSTRUCTIONS group could never appear live. Routed both.
+- Timeline lens listed versions oldest-first (now the pager's now + newest-first order); cursor/base marks went stale on motion onto prefetched rows (now repaints the two affected rows); the base mark wrapped onto its own line (now sits in the marker column).
+- Past/tombstone card heads repeated vN instead of the age; the diff-view context now sheds full -> Δ short form -> none like the pager.
+- Rail glance vanished when a description filled the line; it now stays right-aligned on the first line with the description wrapped below (spec §4.6). ≡ 1 shim singular; history-only rows (instruction/tombstone) no longer offer relation-chip links; `stale` chip shows only with a kept snapshot.
+- Front door (§7): H now toasts `could not open history: <reason>`, `no history yet · commit this file…`, or `home memory is not in git`, and re-checks _host_visible after the await; @ refuses untracked/NO VCS with the same honest words; card diff folds read `H to expand` (build_diff_body fold_verb).
+- Test isolation: the post-startup history warm-up synced the host checkout in every ACE test (the sase-1ev.12 visual-idle stall); autouse fixture in tests/ace/tui/conftest.py no-ops it (badge golden 28.5s -> 4.3s).
+- Symvision: 24 unused memory-history definitions resolved (22 privatized, 2 dead feed_model helpers deleted). `sase bead epic-symbols sase-1ev`: none.
+- Docs: memory_history.md gains "In the TUI" + blob:OID; stale H/C wording fixed in memory_history.md, ace.md, memory.md, configuration.md, sase.schema.json; Agents-tab chips documented in ace.md/memory.md.
+- Goldens: 2 missing time-strip goldens created (clock pinned), 4 memory-panel goldens refreshed (History row -> time strip), 10 new history-state goldens (past read, past diff, timeline lens, rail glance + DELETED tombstone, INSTRUCTIONS group; dark/light 120x40); all inspected; check mode clean twice (22 unchanged).
+- New tests: H reason/hidden-hub/web+strand, honest-toast unit, pinned guards and link refusal, past-strand no audit, pin re-resolve, o on hand-written/managed instruction rows, lens order/markers/refusal, card-head age, stale chip, long-description glance, fold verb.
+- Perf (§5.5, headless SASE_TUI_TRACE, 300-version subject, 376-changeset feed): step p50 10.7ms / p95 14.5ms (<=30); = diff toggle p95 17.6ms (<=30); Timeline lens open p95 39.4ms (<=100); Changes lens open action 2.3ms. Launch-phase service numbers stand (timeline 56ms, feed 45ms). Live stall-log soak not run.
+
+STEP 2 — INTEGRATE. Reviewed every non-epic commit since 2026-10-02 14:43: a445a2951d memory_history split (integrated above); sase-1eq.3.1.x macro rename/guard (test_macro_terminology passes on this tree); sase-1es/sase-1eu pager+deck work, sase-1ez TUI perf, sase-1ex MRU work — no overlap; warm-up already runs after the startup stopwatch (55eec1b986). origin/master b4e667d1eb only touches the contract manifest.
+
+ABSORBED BEADS. sase-1e6 closed superseded (watermark-core + watermark-tui). Notes on sase-1e5 (remaining: sase memory log rows) and sase-1en (remaining: CLI text vocabulary).
+
+FOLLOW-UP TRIAGE.
+- 1ev.4#1, 1ev.5#4, 1ev.11#1 flags rule 7 (sase-1ey three_pane_splits): no longer reproduces (just _lint-flags exit 0) — declined.
+- 1ev.4#2, 1ev.5#2, 1ev.6#2, 1ev.8#2, 1ev.13#1-2 goldens: done here.
+- 1ev.4#3, 1ev.5#3, 1ev.6#2 perf: measured here (table above).
+- 1ev.6#1, 1ev.7#1, 1ev.9#1, 1ev.11#1 publication_payload_facade symvision + missing plan_publication_payload_batches binding: owned by active epic sase-1ex (notes #1/#3) — no new record.
+- 1ev.6#3, 1ev.7#1, 1ev.8#1, 1ev.9#1, 1ev.12#3 prompt_bar_editor_stack, pager three_panes, xprompt __getattr__ symvision, macro/doctor suites: all pass/resolved on current master — declined; the unnamed parallel-load flakes in 1ev.6#3/1ev.12#3 carried no failure signatures — declined.
+- 1ev.10#3 test_prompt_key_io_probe (resolved on master) declined; peak_tree_rss flake -> +1 sase-1f0.
+- 1ev.11#1 completion host-store leaks -> +1 sase-14o (with the plan-candidates sibling).
+- 1ev.12#1 visual-lane convergence stall: epic-caused, fixed here. 1ev.12#2 stale sase-1eu epic-symbols: already gone.
+- 1ev.13#3 agents-bridge gap: recovered here.
+- New: sase-1fk (light-theme badge contrast, pre-existing since sase-1dr). Landing check AcePageGroup flakes -> +1 sase-1a8 and sase-13c; stale contract manifest filed as sase-1fl then closed superseded by b4e667d1eb.
+
+CHECK. sase tool run check 9c299cefca56681b54ce3beac6555f82: every lint stage green except 2 KNOWN symvision (sase-1ex); tests 52177 passed, 5 failed, all outside this epic (bindings: sase-1ex; launch_executor: KNOWN; contract manifest: fixed by b4e667d1eb; 2 AcePageGroup load flakes pass 3/3 in isolation). toobig: memory_pane_changes_lens.py (2115) and memory_pane_timeline_lens.py (1490) exceed 1000 lines since phases 7/6 — left to the toobig_split routine per lint_and_test.md.
 
 ## Phases
 
@@ -33,7 +71,7 @@ The ACE Memory pane knows about time. Every memory note, web, strand, and agent 
 
 ```mermaid
 flowchart TD
-    n0["sase-1ev: Memory history in the TUI: a time-aware Memory pane [in_progress]"]
+    n0["sase-1ev: Memory history in the TUI: a time-aware Memory pane [closed]"]
     n1["sase-1ev.1: Repair the H and C front door [closed]"]
     n2["sase-1ev.10: Memory as seen by the agent in the Agents tab [closed]"]
     n3["sase-1ev.11: Core review watermark and the CLI feed header [closed]"]
@@ -92,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ev.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.7.md) | [sase-1ev.7](sase-1ev.7.md) | 1 |
 | [bbugyi200.athena.sase-1ev.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.8/README.md) | [sase-1ev.8](sase-1ev.8.md) | 1 |
 | [bbugyi200.athena.sase-1ev.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.9.md) | [sase-1ev.9](sase-1ev.9.md) | 1 |
-| [bbugyi200.athena.sase-1ev.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md) | [sase-1ev](README.md) | 0 |
+| [bbugyi200.athena.sase-1ev.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md) | [sase-1ev](README.md) | 1 |
 
 ## Commits
 
@@ -112,6 +150,7 @@ flowchart TD
 | sase | [`d854842`](https://github.com/sase-org/sase/commit/d854842e893bacf6285b2ef5cd21d5b596f7500e) | feat(memory-history): collapsed INSTRUCTIONS rail group and instruction cards (sase-1ev.9) | [sase-1ev.9](sase-1ev.9.md) | 2026-10-03 03:12:24 EDT |
 | sase | [`0676975`](https://github.com/sase-org/sase/commit/0676975ef3624059393e9e058a43678f6c58e34f) | feat(memory-history-tui): Changes-lens review chip + unreviewed dots + m to mark reviewed, MEMORY badge (sase-1ev.12) | [sase-1ev.12](sase-1ev.12.md) | 2026-10-03 04:46:01 EDT |
 | sase | [`957513c`](https://github.com/sase-org/sase/commit/957513c8e14971fb7b76b53556c667f95b89fa55) | docs(memory): document Memory panel instructions group and review watermark | [sase-1ev.13](sase-1ev.13.md) | 2026-10-03 05:03:41 EDT |
+| sase | [`e847b08`](https://github.com/sase-org/sase/commit/e847b082c26fbb7fedda20cf4486e0d88427caf9) | feat(memory-history-tui): land sase-1ev with the recovered agents bridge and pane fixes | [sase-1ev](README.md) | 2026-10-03 07:15:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,9 +159,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ev.11][1] | Need parent epic design and watermark spec | 1 |
-| read-by | [agent:sase-1ev.6][2] | epic context for phase | 1 |
+| read-by | [agent:sase-1ev.13][2] | Need epic children status | 1 |
+| read-by | [agent:sase-1ev.6][3] | epic context for phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.13/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.6/README.md
 
 <!-- sase:referenced-by:end -->

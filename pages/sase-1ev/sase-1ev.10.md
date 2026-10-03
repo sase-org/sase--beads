@@ -44,8 +44,10 @@ agents-bridge: add a sase-core blob:OID version selector. The Agents-tab MEMORY 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ev.10--2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1ev.11][2] | Check agents-bridge notes for blob selector details | 2 |
+| read-by | [agent:sase-1ev.13][3] | Need close notes for launch docs | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.10.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.13/README.md
 
 <!-- sase:referenced-by:end -->
