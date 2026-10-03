@@ -32,3 +32,15 @@ jsonl-reader: replace buffered text reads in the shared JSONL transport with bou
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3929830`](https://github.com/sase-org/sase/commit/392983091d82799747bc1222ac7c0f9151167c5a) | fix(llm-provider): drain JSONL streams incrementally | [sase-1fu.2](sase-1fu.2.md) | 2026-10-03 16:21:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1fu.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1fu](README.md) / sase-1fu.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0vt](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0vt.md) · **Assignee:** `sase-1fu.1` · **Size:** medium
-**Created:** 2026-10-03 15:03:51 EDT
+**Created:** 2026-10-03 15:03:51 EDT · **Closed:** 2026-10-03 18:03:13 EDT
 **Plan:** [202610/muse\_reply\_streaming.md](https://github.com/sase-org/sase--plans/blob/main/202610/muse_reply_streaming.md)
 
 ## Description
 
 live-reply-follow: route reply-file events to a throttled background snapshot and Reply-card update, with a selected-source polling backstop and lifecycle, scroll, attempt, and navigation guards; keep the Agents loader uninvolved.
+
+## Notes
+
+[2026-10-03T22:03:13Z · sase-1fu.1] Implemented selected live Reply streaming with pump-free source resolution, throttled event and stat-poll refresh, targeted Reply-region replacement, and lifecycle guards. Verified 64 focused reply/render/tab tests pass; formatting, Ruff, mypy, and SASE validation pass; epic-symbol check reports no entries. The full guarded check's scoped suite reported shared-page focus/recompose failures in test_prompt_tab_focus_steal.py, which passed alone (5 passed); no failure was left reproducing in focused verification.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ live-reply-follow: route reply-file events to a throttled background snapshot an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.1/README.md) | [sase-1fu.1](sase-1fu.1.md) | 0 |
+| [bbugyi200.athena.sase-1fu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.1/README.md) | [sase-1fu.1](sase-1fu.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2307212`](https://github.com/sase-org/sase/commit/2307212bcd88bcf2b5773cf93d73d9be3f84eb0d) | feat(ace): follow selected live agent replies | [sase-1fu.1](sase-1fu.1.md) | 2026-10-03 18:05:12 EDT |

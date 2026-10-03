@@ -13,7 +13,7 @@ streaming-validation: exercise a gated fake Muse through the mounted TUI, captur
 
 ## Dependencies
 
-- **Depends on:** [sase-1fu.1](sase-1fu.1.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1fu.1](sase-1fu.1.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [sase-1fu.2](sase-1fu.2.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [sase-1fu.3](sase-1fu.3.md) ✓ · ⧖ 2026-10-03
 
