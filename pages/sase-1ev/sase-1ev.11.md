@@ -26,10 +26,23 @@ watermark-core: add a sase-core per-scope review watermark that is shared across
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ev.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md) | [sase-1ev.11](sase-1ev.11.md) | 1 |
+| [bbugyi200.athena.sase-1ev.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md) | [sase-1ev.11](sase-1ev.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c2a415e`](https://github.com/sase-org/sase-core/commit/c2a415e50d8353fc01bc14aaa3949e20326432e2) | feat(memory-history): add review state store with query and mark-reviewed | [sase-1ev.11](sase-1ev.11.md) | 2026-10-02 22:50:42 EDT |
+| sase | [`a582a42`](https://github.com/sase-org/sase/commit/a582a422eb61df9bfe6d0480d37e3cb262f5c693) | feat(memory-history): add review watermark and CLI feed header with mark-reviewed | [sase-1ev.11](sase-1ev.11.md) | 2026-10-02 22:55:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.11][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.11/README.md
+
+<!-- sase:referenced-by:end -->
