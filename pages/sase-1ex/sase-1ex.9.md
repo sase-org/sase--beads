@@ -26,4 +26,4 @@ gc-policy: once startup loads finish, run `gc.collect(); gc.freeze()` at idle. R
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.9.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
+| [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.9/README.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |

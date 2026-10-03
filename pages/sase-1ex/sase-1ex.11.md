@@ -11,6 +11,14 @@
 
 space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prompt bar mounted at idle. `<space>` seeds it, reveals it, and calls a new `activate()`. Other prompt modes keep fresh mounts, and every session still gets a new instance.
 
+## Notes
+
+[2026-10-03T13:35:15Z · sase-1ex.11] space-hot-spare bench before (no spare): first_space p50/p95/max 82.64/82.64/82.64 ms, steady_space p50/p95/max 127.55/450.18/450.18 ms. Gate fails as expected (both p95 > 60 ms), proceeding with spare.
+
+[2026-10-03T13:35:26Z · sase-1ex.11] space-hot-spare bench after (hidden spare landed): first_space p50/p95/max 236.41/236.41/236.41 ms, steady_space p50/p95/max 139.16/172.42/172.42 ms. p95 stays above 60 ms. PROPOSED FOLLOW-UP: overlay-dock the prompt bar — reveal still misses 60 ms after the hidden spare.
+
+[2026-10-03T15:08:19Z · sase-1ex.11--2] Verification status (monitor yc8qn0z1nqzh follow-up): hot-spare implementation complete per plan; 8/8 tests in tests/ace/tui/test_prompt_bar_hot_spare.py pass. just check still red: test_dev_extension_exposes_every_collected_name fails deterministically on clean base too (src/sase/core/publication_payload_facade.py requires sase_core_rs.plan_publication_payload_batches, which the linked sase-core checkout does not expose; only plan_agent_publication_batches exists) — pre-existing, not caused by this phase. Remaining full-suite failures (launch_context rebroadcast, prompt_tab focus, demand_runs peak RSS, agents multi-agent PNG golden) all pass in isolation on this tree and reproduce on base under load; treated as flakes/pre-existing drift. PROPOSED FOLLOW-UP: reconcile publication_payload_facade binding (rename to plan_agent_publication_batches or land the Rust binding) and refresh the agents multi-agent PNG golden.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ex.10](sase-1ex.10.md) ✓ · ⧖ 2026-10-02
@@ -27,4 +35,10 @@ space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prom
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ex.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.11/README.md) | [sase-1ex.11](sase-1ex.11.md) | 0 |
+| [bbugyi200.athena.sase-1ex.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.11.md) | [sase-1ex.11](sase-1ex.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`90193a0`](https://github.com/sase-org/sase/commit/90193a05d51a7e1339ad9567a8533a870b951c99) | feat(prompt-bar): implement space hot spare phase with lifecycle wiring | [sase-1ex.11](sase-1ex.11.md) | 2026-10-03 11:10:25 EDT |
