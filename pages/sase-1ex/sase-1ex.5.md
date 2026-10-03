@@ -35,7 +35,7 @@ watcher-growth: stop catalog getters from restarting the prompt-source watcher. 
 
 - **Depends on:** [sase-1ex.1](sase-1ex.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.11](sase-1ex.11.md) ◐ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ex.8](sase-1ex.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ex.8](sase-1ex.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -48,3 +48,15 @@ watcher-growth: stop catalog getters from restarting the prompt-source watcher. 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8f910d5`](https://github.com/sase-org/sase/commit/8f910d559b68099aa09e812779a7ef6616cb4786) | feat(prompt-catalog): pure catalog getters, off-pump watcher growth, wakeable watcher stop (sase-1ex.5) | [sase-1ex.5](sase-1ex.5.md) | 2026-10-03 07:13:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ex.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.5.md
+
+<!-- sase:referenced-by:end -->

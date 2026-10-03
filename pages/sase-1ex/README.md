@@ -33,7 +33,7 @@ Opening the prompt bar with `<space>` and cycling the current-project stack with
 | [sase-1ex.5](sase-1ex.5.md) | Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.6](sase-1ex.6.md) | Run each prompt text-area mount, unmount, and worker hook once | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.7](sase-1ex.7.md) | One highlight build and no pump-side Jinja inspect per cycle edit | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ex.8](sase-1ex.8.md) | Quiet the work that follows opening or editing the prompt | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1ex.8](sase-1ex.8.md) | Quiet the work that follows opening or editing the prompt | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1ex.9](sase-1ex.9.md) | Freeze startup objects and log gen-2 GC pauses | ✓ closed | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n8["sase-1ex.5: Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop [closed]"]
     n9["sase-1ex.6: Run each prompt text-area mount, unmount, and worker hook once [closed]"]
     n10["sase-1ex.7: One highlight build and no pump-side Jinja inspect per cycle edit [closed]"]
-    n11["sase-1ex.8: Quiet the work that follows opening or editing the prompt [in_progress]"]
+    n11["sase-1ex.8: Quiet the work that follows opening or editing the prompt [closed]"]
     n12["sase-1ex.9: Freeze startup objects and log gen-2 GC pauses [closed]"]
     n0 --> n1
     n0 --> n2
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ex.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.5.md) | [sase-1ex.5](sase-1ex.5.md) | 1 |
 | [bbugyi200.athena.sase-1ex.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.6.md) | [sase-1ex.6](sase-1ex.6.md) | 1 |
 | [bbugyi200.athena.sase-1ex.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.7.md) | [sase-1ex.7](sase-1ex.7.md) | 1 |
-| [bbugyi200.athena.sase-1ex.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.8/README.md) | [sase-1ex.8](sase-1ex.8.md) | 0 |
+| [bbugyi200.athena.sase-1ex.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.8.md) | [sase-1ex.8](sase-1ex.8.md) | 1 |
 | [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.9.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
 | [bbugyi200.athena.sase-1ex.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.land/README.md) | [sase-1ex](README.md) | 0 |
 
@@ -117,6 +117,7 @@ flowchart TD
 | sase | [`9dcf826`](https://github.com/sase-org/sase/commit/9dcf826f8bc93ccbe818f7c9df79ba9f48c799ac) | perf(mru): one project-record pass and memoized provider detection per MRU build | [sase-1ex.4](sase-1ex.4.md) | 2026-10-02 21:28:38 EDT |
 | sase | [`ae16afe`](https://github.com/sase-org/sase/commit/ae16afe54850ff1eb04f8aa1a74be985f8023b5a) | feat(prompt): track active prompt bar explicitly with one accessor | [sase-1ex.10](sase-1ex.10.md) | 2026-10-02 21:46:17 EDT |
 | sase | [`8f910d5`](https://github.com/sase-org/sase/commit/8f910d559b68099aa09e812779a7ef6616cb4786) | feat(prompt-catalog): pure catalog getters, off-pump watcher growth, wakeable watcher stop (sase-1ex.5) | [sase-1ex.5](sase-1ex.5.md) | 2026-10-03 07:13:46 EDT |
+| sase | [`3289046`](https://github.com/sase-org/sase/commit/32890465315ebed5bb9be3799951e43aaf59ea29) | feat(prompt-quiet): stagger non-essential bar warm-ups one paint past first paint (sase-1ex.8) | [sase-1ex.8](sase-1ex.8.md) | 2026-10-03 08:24:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -125,7 +126,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1es.land][1] | Check whether symvision publication_payload_facade failure is already tracked on its causing epic | 1 |
+| read-by | [agent:sase-1ev.land][2] | Check whether the publication_payload_facade symvision/binding failures are already recorded on the owning epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1es.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md
 
 <!-- sase:referenced-by:end -->
