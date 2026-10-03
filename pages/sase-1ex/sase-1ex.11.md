@@ -7,6 +7,20 @@
 **Created:** 2026-10-02 14:53:58 EDT · **Closed:** 2026-10-03 11:14:25 EDT
 **Plan:** [202610/prompt\_space\_and\_project\_cycle\_latency.md](https://github.com/sase-org/sase--plans/blob/main/202610/prompt_space_and_project_cycle_latency.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1fp][1] | Hot spare already landed; overlay docking is the next lever for the missed space target |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1fp/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prompt bar mounted at idle. `<space>` seeds it, reveals it, and calls a new `activate()`. Other prompt modes keep fresh mounts, and every session still gets a new instance.
@@ -52,7 +66,9 @@ space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prom
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ex.11--2][1] | implement approved space_hot_spare plan and repair check failures | 2 |
+| read-by | [agent:sase-1ex.12][2] | Need hot-spare bench numbers and gate decision | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.11.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
 
 <!-- sase:referenced-by:end -->

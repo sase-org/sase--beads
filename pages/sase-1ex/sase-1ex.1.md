@@ -45,7 +45,9 @@ key-perf-harness: record `SASE_TUI_PERF` key-to-paint samples for `<space>`, `ct
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ex.1][1] | check existing notes and implementation status | 2 |
+| read-by | [agent:sase-1ex.12][2] | Need key-perf-harness baseline table | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
 
 <!-- sase:referenced-by:end -->

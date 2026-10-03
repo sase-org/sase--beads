@@ -43,8 +43,10 @@ cycle-edit-coalesce: batch highlight-map builds so a cycle edit pays for one. Ma
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ex.7--1][1] | check stray publication_payload ownership | 3 |
+| read-by | [agent:sase-1ex.12][1] | Need before/after bench numbers for final table | 1 |
+| read-by | [agent:sase-1ex.7--1][2] | check stray publication_payload ownership | 3 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.7.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.7.md
 
 <!-- sase:referenced-by:end -->

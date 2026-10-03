@@ -7,6 +7,20 @@
 **Created:** 2026-10-02 14:53:51 EDT · **Closed:** 2026-10-02 19:36:42 EDT
 **Plan:** [202610/prompt\_space\_and\_project\_cycle\_latency.md](https://github.com/sase-org/sase--plans/blob/main/202610/prompt_space_and_project_cycle_latency.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1fr][1] | Same defect class fixed for PromptTextArea with cooperative hooks; reuse its pattern and test_prompt_mount_dedup |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1fr/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 mount-dedup: replace the mixins' super-chained, Textual-dispatched `on_mount`, `on_unmount`, and `on_worker_state_changed` handlers with cooperative hooks that are dispatched once. Body order and theme layering stay the same, and goldens stay unchanged.
@@ -47,8 +61,10 @@ mount-dedup: replace the mixins' super-chained, Textual-dispatched `on_mount`, `
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ex.6--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ex.12][1] | Need before/after bench numbers for final table | 1 |
+| read-by | [agent:sase-1ex.6--1][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.6.md
 
 <!-- sase:referenced-by:end -->

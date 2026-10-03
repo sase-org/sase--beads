@@ -41,8 +41,10 @@ space-prefill: resolve the `<space>` prefill from the snapshot without I/O. A co
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ex.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ex.12][1] | Need before/after bench numbers for final table | 1 |
+| read-by | [agent:sase-1ex.3][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.3/README.md
 
 <!-- sase:referenced-by:end -->
