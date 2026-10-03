@@ -18,7 +18,7 @@ snapshot-caches: re-key the artifact-file index cache by resolved path, and the 
 ## Dependencies
 
 - **Blocks:** [sase-1ez.4](sase-1ez.4.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

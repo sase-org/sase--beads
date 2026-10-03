@@ -17,7 +17,7 @@ tick-compare-skip: key runtime-row patches on (membership, displayed second) and
 
 ## Dependencies
 
-- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

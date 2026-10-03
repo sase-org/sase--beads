@@ -19,7 +19,7 @@ cached-snapshot-sharing: stop the notification facade deep-cloning about 1.6k ro
 
 ## Dependencies
 
-- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

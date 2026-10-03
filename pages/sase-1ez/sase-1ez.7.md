@@ -21,7 +21,7 @@ off-loop-refresh: project fleet clan/tribe trees on the worker from immutable in
 
 ## Dependencies
 
-- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ez.8](sase-1ez.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
