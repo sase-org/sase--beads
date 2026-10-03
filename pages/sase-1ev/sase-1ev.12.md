@@ -13,7 +13,7 @@ watermark-tui: show the Changes lens header N-new chip and unreviewed row dots, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.11](sase-1ev.11.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.11](sase-1ev.11.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.13](sase-1ev.13.md) ◐ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ev.9](sase-1ev.9.md) ◐ · ⧖ 2026-10-02
 

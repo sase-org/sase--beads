@@ -32,10 +32,16 @@ card-diff: = toggles a sticky read/diff view rendered with build_diff_body. It c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ev.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.5.md) | [sase-1ev.5](sase-1ev.5.md) | 1 |
+| [bbugyi200.athena.sase-1ev.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.5.md) | [sase-1ev.5](sase-1ev.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`ba91bf9`](https://github.com/sase-org/sase/commit/ba91bf93c12bfdee6ddd1560516292ab43b8df00) | feat(ace): add memory pane diff, history, and time views | [sase-1ev.5](sase-1ev.5.md) | 2026-10-02 22:26:30 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.5.md
+
+<!-- sase:referenced-by:end -->
