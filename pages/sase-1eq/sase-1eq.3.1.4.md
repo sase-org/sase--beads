@@ -13,7 +13,7 @@ guard: Add the contract test that fails on non-TUI xprompt identifiers and paths
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.3.1.3](sase-1eq.3.1.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.3.1.3](sase-1eq.3.1.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
