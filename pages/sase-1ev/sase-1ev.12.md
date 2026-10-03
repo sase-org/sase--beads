@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ev](README.md) / sase-1ev.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0vj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0vj.md) · **Assignee:** `sase-1ev.12` · **Size:** small
-**Created:** 2026-10-02 14:43:21 EDT
+**Created:** 2026-10-02 14:43:21 EDT · **Closed:** 2026-10-03 04:49:58 EDT
 **Plan:** [202610/memory\_history\_tui.md](https://github.com/sase-org/sase--plans/blob/main/202610/memory_history_tui.md)
 
 ## Description
@@ -19,10 +19,12 @@ watermark-tui: show the Changes lens header N-new chip and unreviewed row dots, 
 
 [2026-10-03T08:44:46Z · sase-1ev.12] PROPOSED FOLLOW-UP: just test-scoped shows 49 failed + 10 errors all pre-existing — 40 fail identically on clean tree (prompt-bar editor harness AttributeError, commit/pr-report meta, macro loader/highlight, pager three-panes, doctor, deck spread, startup sync, split keys), 9 pass on clean serial rerun (parallel-load flakes incl. 8 ERRORs); zero overlap with watermark-tui files
 
+[2026-10-03T08:49:58Z · sase-1ev.12] Closed by explicit `sase stitch create -B close` after create_commit landed 0676975ef3 ("feat(memory-history-tui): Changes-lens review chip + unreviewed dots + m to mark reviewed, MEMORY badge (sase-1ev.12)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1ev.12` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ev.11](sase-1ev.11.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.13](sase-1ev.13.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.13](sase-1ev.13.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ev.9](sase-1ev.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
@@ -36,3 +38,15 @@ watermark-tui: show the Changes lens header N-new chip and unreviewed row dots, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0676975`](https://github.com/sase-org/sase/commit/0676975ef3624059393e9e058a43678f6c58e34f) | feat(memory-history-tui): Changes-lens review chip + unreviewed dots + m to mark reviewed, MEMORY badge (sase-1ev.12) | [sase-1ev.12](sase-1ev.12.md) | 2026-10-03 04:46:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.12][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.12/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ watermark-core: add a sase-core per-scope review watermark that is shared across
 ## Dependencies
 
 - **Depends on:** [sase-1ev.10](sase-1ev.10.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.12](sase-1ev.12.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.12](sase-1ev.12.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

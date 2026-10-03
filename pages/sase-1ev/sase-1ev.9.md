@@ -19,7 +19,7 @@ instructions-group: add a collapsed INSTRUCTIONS rail group for AGENTS.md subjec
 
 ## Dependencies
 
-- **Blocks:** [sase-1ev.12](sase-1ev.12.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.12](sase-1ev.12.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ev.8](sase-1ev.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
