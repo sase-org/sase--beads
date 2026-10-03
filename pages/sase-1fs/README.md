@@ -30,7 +30,7 @@ Restore compatible agent publication and verify that every publication-eligible 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1fs.1](sase-1fs.1.md) | Accept intact legacy session manifests through the Rust core | ✓ closed | medium | 2026-10-03 | 1 | 2 |
-| [sase-1fs.2](sase-1fs.2.md) | Add explicit retired-request recovery with correct completion checks | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
+| [sase-1fs.2](sase-1fs.2.md) | Add explicit retired-request recovery with correct completion checks | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [sase-1fs.3](sase-1fs.3.md) | Run bob-cli recovery and prove remote completeness | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ Restore compatible agent publication and verify that every publication-eligible 
 flowchart TD
     n0["sase-1fs: Restore bob-cli agent publication and publish the missed pages [in_progress]"]
     n1["sase-1fs.1: Accept intact legacy session manifests through the Rust core [closed]"]
-    n2["sase-1fs.2: Add explicit retired-request recovery with correct completion checks [in_progress]"]
+    n2["sase-1fs.2: Add explicit retired-request recovery with correct completion checks [closed]"]
     n3["sase-1fs.3: Run bob-cli recovery and prove remote completeness [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1fs.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.1/README.md) | [sase-1fs.1](sase-1fs.1.md) | 2 |
-| [bbugyi200.apollo.sase-1fs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.2/README.md) | [sase-1fs.2](sase-1fs.2.md) | 0 |
+| [bbugyi200.apollo.sase-1fs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.2/README.md) | [sase-1fs.2](sase-1fs.2.md) | 1 |
 | [bbugyi200.apollo.sase-1fs.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.3/README.md) | [sase-1fs.3](sase-1fs.3.md) | 0 |
 | [bbugyi200.apollo.sase-1fs.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.land/README.md) | [sase-1fs](README.md) | 0 |
 
@@ -64,6 +64,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@d7f2dbf`](https://github.com/sase-org/sase-core/commit/d7f2dbf0e51440910035aa9ecd3fdca1b96fe983) | feat(agent-session-manifest): canonical file-set derivation and classification | [sase-1fs.1](sase-1fs.1.md) | 2026-10-03 15:05:40 EDT |
 | sase | [`1466f1a`](https://github.com/sase-org/sase/commit/1466f1a67b26ef34bd172ec03ab2476e3c0f9691) | feat(agents-sync): accept legacy family-only session manifests via Rust core | [sase-1fs.1](sase-1fs.1.md) | 2026-10-03 15:09:07 EDT |
+| sase-core | [`sase-core@3d406d4`](https://github.com/sase-org/sase-core/commit/3d406d4cef2078a2f9513dc7b4fa098c12a23c1e) | feat(agent-publication-recovery): retry selection, page+SHA completion, and prompt status | [sase-1fs.2](sase-1fs.2.md) | 2026-10-03 17:05:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

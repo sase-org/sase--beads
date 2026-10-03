@@ -14,7 +14,7 @@ bob_cli_backfill: use the verified host/core versions, recover bob-cli on each r
 ## Dependencies
 
 - **Depends on:** [sase-1fs.1](sase-1fs.1.md) ✓ · ⧖ 2026-10-03
-- **Depends on:** [sase-1fs.2](sase-1fs.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1fs.2](sase-1fs.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

@@ -21,7 +21,7 @@ manifest_compatibility: narrowly accept the historical family-only file set, pre
 
 ## Dependencies
 
-- **Blocks:** [sase-1fs.2](sase-1fs.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fs.2](sase-1fs.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1fs.3](sase-1fs.3.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
@@ -44,7 +44,9 @@ manifest_compatibility: narrowly accept the historical family-only file set, pre
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1fs.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1fu.3--1][2] | Check whether this existing bead tracks the KNOWN Symvision findings in runner_kill_provenance.py | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1fu.3.md
 
 <!-- sase:referenced-by:end -->
