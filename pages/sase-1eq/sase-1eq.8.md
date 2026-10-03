@@ -26,14 +26,7 @@ plugins: register the sase_macros entry-point group next to the legacy group, ke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.8/README.md) | [sase-1eq.8](sase-1eq.8.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-github | [`sase-github@9d8a305`](https://github.com/sase-org/sase-github/commit/9d8a305edbf123cee7385729c9209322cf47263d) | feat(macros): register sase\_macros entry points and rename docs to macros | [sase-1eq.8](sase-1eq.8.md) | 2026-10-03 13:48:41 EDT |
-| sase-research-artifacts | [`sase-research-artifacts@1ade90f`](https://github.com/sase-org/sase-research-artifacts/commit/1ade90f31a3fe43f82f6d97aef4039d8f1ecdd90) | feat(macros): register sase\_macros entry points and cut tests to new-first macro imports | [sase-1eq.8](sase-1eq.8.md) | 2026-10-03 13:54:07 EDT |
+| [bbugyi200.athena.sase-1eq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.8/README.md) | [sase-1eq.8](sase-1eq.8.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

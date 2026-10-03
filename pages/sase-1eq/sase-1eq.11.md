@@ -14,7 +14,7 @@ audit-deploy: remove the temporary import shim and widen the guard to the whole 
 ## Dependencies
 
 - **Depends on:** [sase-1eq.10](sase-1eq.10.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1eq.6](sase-1eq.6.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.6](sase-1eq.6.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
