@@ -17,11 +17,19 @@ terminal-chain: in the linked chezmoi repo, unmap kitty's ctrl+shift+f/b/o windo
 
 [2026-10-02T15:52:38Z · sase-1eu.1] kitty: ctrl+shift+f/b/o mapped to no_op (verified config parses — no 'invalid config line' from kitty; negative control confirms kitty reports bad lines); tmux: extended-keys on + xterm-kitty:extkeys confirmed live on an isolated server; manual show_key checklist recorded as bead note
 
+[2026-10-03T03:59:00Z · sase-1eu.land] Terminal-chain completion (land_three_pane_splits step 5): chezmoi tmux.conf now sets extended-keys-format csi-u alongside extended-keys on (kitty no_op maps unchanged). SASE adds TmuxModifyOtherKeysDriver (src/sase/tmux_driver.py) used by AceApp and SasePager via get_driver_class: writes ESC[>4;2m on entering app mode only when TMUX is set, writes ESC[>4;0m on leaving (exit and suspend via stop_application_mode), re-sent on resume via start. Headless/test drivers and non-tmux sessions untouched. Verified: private tmux 3.5a server accepts the new config (show-options reports extended-keys on + extended-keys-format csi-u); driver unit tests green (sequences only when TMUX set, reset on stop/suspend path). Manual checklist (requires chezmoi apply, NOT run): run chezmoi apply, then inside tmux inside kitty press ctrl+shift+f/b/d/o in ACE and the pager and confirm swap/close actions fire; confirm ctrl+f, j, >, Tab, shift+tab, Enter, Esc, Backspace, ctrl+space and f12 still behave; after app exit confirm shell receives legacy bytes. -r Record terminal-chain verification and manual checklist
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.1/README.md) | [sase-1eu.1](sase-1eu.1.md) | 0 |
+| [bbugyi200.athena.sase-1eu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eu.1/README.md) | [sase-1eu.1](sase-1eu.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@78f0db4`](https://github.com/bbugyi200/dotfiles/commit/78f0db4e04b069e211c0c4f93c5780c7e4a2d64f) | feat(terminal): pass ctrl+shift chords through kitty and tmux | [sase-1eu.1](sase-1eu.1.md) | 2026-10-02 11:53:45 EDT |
 
 <!-- sase:referenced-by:start -->
 

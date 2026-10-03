@@ -37,3 +37,15 @@ unflag-docs: delete the three_pane_splits Off branch and close its flag bead, th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c62e4f1`](https://github.com/sase-org/sase/commit/c62e4f1491e571bc6ac62073f156c31687a88875) | feat(ace-pager): remove three\_pane\_splits flag and finish unflag docs (sase-1eu.8) | [sase-1eu.8](sase-1eu.8.md) | 2026-10-02 22:20:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eu.8--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eu.8.md
+
+<!-- sase:referenced-by:end -->
