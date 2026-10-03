@@ -24,7 +24,7 @@ timeline-lens: add the Notes/Timeline/Changes lens framework, which owns the Not
 ## Dependencies
 
 - **Depends on:** [sase-1ev.5](sase-1ev.5.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.7](sase-1ev.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.7](sase-1ev.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -37,3 +37,15 @@ timeline-lens: add the Notes/Timeline/Changes lens framework, which owns the Not
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`166fdef`](https://github.com/sase-org/sase/commit/166fdefce5860d62ce8e73e84ec7d170905937c8) | feat(ace): add memory pane Timeline lens with kit picker rail | [sase-1ev.6](sase-1ev.6.md) | 2026-10-03 00:19:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.6][1] | full detail for implementation | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ rail-glance: add a right-aligned newest-change glyph and age on every Notes rail
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.7](sase-1ev.7.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.7](sase-1ev.7.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.9](sase-1ev.9.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
