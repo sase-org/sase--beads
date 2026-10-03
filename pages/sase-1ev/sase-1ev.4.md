@@ -24,7 +24,7 @@ card-stepping: add ( ) { } stepping on the card using the pager's moment model, 
 ## Dependencies
 
 - **Depends on:** [sase-1ev.3](sase-1ev.3.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.5](sase-1ev.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.5](sase-1ev.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -37,3 +37,15 @@ card-stepping: add ( ) { } stepping on the card using the pager's moment model, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b4b1e32`](https://github.com/sase-org/sase/commit/b4b1e327545ab801621e7dabe8ceb6472a5f3693) | feat(memory-pane): add card time-stepping with pinned past view | [sase-1ev.4](sase-1ev.4.md) | 2026-10-02 21:49:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.4/README.md
+
+<!-- sase:referenced-by:end -->

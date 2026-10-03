@@ -13,7 +13,7 @@ timeline-lens: add the Notes/Timeline/Changes lens framework, which owns the Not
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.5](sase-1ev.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.5](sase-1ev.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.7](sase-1ev.7.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

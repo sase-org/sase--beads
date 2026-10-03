@@ -17,6 +17,8 @@ agents-bridge: add a sase-core blob:OID version selector. The Agents-tab MEMORY 
 
 [2026-10-03T00:43:58Z · sase-1ev.10--2] Verified: 14 header-enrichment tests pass; bead suites (110) + widgets (6187) + actions/memory (878) + visual snapshots (2) pass; symvision clean; no epic-symbol leftovers. force_reuse/demand failures seen only under full-suite parallel load, pass in targeted runs on this tree (unrelated code paths).
 
+[2026-10-03T01:51:27Z · sase-1ev.10--3] PROPOSED FOLLOW-UP: just-check full suite shows 2 failures unrelated to sase-1ev.10 — test_prompt_key_io_probe_counts_main_thread_calls fails identically on clean base (stale vcs_xprompt_mru.json expectation vs canonical vcs_macro_mru.json), test_foreground_run_records_context_usage_and_grant passes in isolation on both trees (parallel-load flake on peak_tree_rss_kib)
+
 ## Dependencies
 
 - **Blocks:** [sase-1ev.11](sase-1ev.11.md) ◐ · ⧖ 2026-10-02
