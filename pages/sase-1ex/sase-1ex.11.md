@@ -13,7 +13,7 @@ space-hot-spare: after re-measuring, keep one fresh, inert, hidden, id-less prom
 
 ## Dependencies
 
-- **Depends on:** [sase-1ex.10](sase-1ex.10.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ex.10](sase-1ex.10.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ex.12](sase-1ex.12.md) ◐ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.3](sase-1ex.3.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1ex.4](sase-1ex.4.md) ✓ · ⧖ 2026-10-02
