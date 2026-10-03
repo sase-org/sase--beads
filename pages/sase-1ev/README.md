@@ -27,7 +27,7 @@ The ACE Memory pane knows about time. Every memory note, web, strand, and agent 
 | [sase-1ev.6](sase-1ev.6.md) | Lens framework and the Timeline lens | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ev.7](sase-1ev.7.md) | Changes lens over a shared feed view-model | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ev.8](sase-1ev.8.md) | Rail recency glance and deleted subjects | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ev.9](sase-1ev.9.md) | Instructions group and instruction cards | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ev.9](sase-1ev.9.md) | Instructions group and instruction cards | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n10["sase-1ev.6: Lens framework and the Timeline lens [closed]"]
     n11["sase-1ev.7: Changes lens over a shared feed view-model [closed]"]
     n12["sase-1ev.8: Rail recency glance and deleted subjects [closed]"]
-    n13["sase-1ev.9: Instructions group and instruction cards [in_progress]"]
+    n13["sase-1ev.9: Instructions group and instruction cards [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ev.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.6/README.md) | [sase-1ev.6](sase-1ev.6.md) | 1 |
 | [bbugyi200.athena.sase-1ev.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.7.md) | [sase-1ev.7](sase-1ev.7.md) | 1 |
 | [bbugyi200.athena.sase-1ev.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.8/README.md) | [sase-1ev.8](sase-1ev.8.md) | 1 |
-| [bbugyi200.athena.sase-1ev.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.9/README.md) | [sase-1ev.9](sase-1ev.9.md) | 0 |
+| [bbugyi200.athena.sase-1ev.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ev.9.md) | [sase-1ev.9](sase-1ev.9.md) | 1 |
 | [bbugyi200.athena.sase-1ev.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.land/README.md) | [sase-1ev](README.md) | 0 |
 
 ## Commits
@@ -109,6 +109,7 @@ flowchart TD
 | sase | [`166fdef`](https://github.com/sase-org/sase/commit/166fdefce5860d62ce8e73e84ec7d170905937c8) | feat(ace): add memory pane Timeline lens with kit picker rail | [sase-1ev.6](sase-1ev.6.md) | 2026-10-03 00:19:44 EDT |
 | sase | [`be7d191`](https://github.com/sase-org/sase/commit/be7d19191255f3f3d8f8427312e3bc0077cdd56f) | feat(memory-history): changes lens over shared feed view-model (sase-1ev.7) | [sase-1ev.7](sase-1ev.7.md) | 2026-10-03 01:25:13 EDT |
 | sase | [`8b27e3f`](https://github.com/sase-org/sase/commit/8b27e3f011019c3caad2584ddb53dc78919a8f4d) | feat(memory-history): rail recency glance and deleted subjects (sase-1ev.8) | [sase-1ev.8](sase-1ev.8.md) | 2026-10-03 02:22:31 EDT |
+| sase | [`d854842`](https://github.com/sase-org/sase/commit/d854842e893bacf6285b2ef5cd21d5b596f7500e) | feat(memory-history): collapsed INSTRUCTIONS rail group and instruction cards (sase-1ev.9) | [sase-1ev.9](sase-1ev.9.md) | 2026-10-03 03:12:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -22,7 +22,7 @@ rail-glance: add a right-aligned newest-change glyph and age on every Notes rail
 ## Dependencies
 
 - **Depends on:** [sase-1ev.7](sase-1ev.7.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1ev.9](sase-1ev.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1ev.9](sase-1ev.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
@@ -35,3 +35,15 @@ rail-glance: add a right-aligned newest-change glyph and age on every Notes rail
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8b27e3f`](https://github.com/sase-org/sase/commit/8b27e3f011019c3caad2584ddb53dc78919a8f4d) | feat(memory-history): rail recency glance and deleted subjects (sase-1ev.8) | [sase-1ev.8](sase-1ev.8.md) | 2026-10-03 02:22:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ev.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ev.8/README.md
+
+<!-- sase:referenced-by:end -->
