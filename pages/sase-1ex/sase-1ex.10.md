@@ -20,4 +20,4 @@ prompt-active-state: track the active prompt bar explicitly on the app so `_prom
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.10/README.md) | [sase-1ex.10](sase-1ex.10.md) | 0 |
+| [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.10.md) | [sase-1ex.10](sase-1ex.10.md) | 0 |

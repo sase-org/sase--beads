@@ -21,10 +21,10 @@ Opening the prompt bar with `<space>` and cycling the current-project stack with
 | [sase-1ex.12](sase-1ex.12.md) | Final measurements, regression gates, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1ex.2](sase-1ex.2.md) | App-owned launchable-MRU snapshot for project cycling | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.3](sase-1ex.3.md) | Serve \`\<space\>\` and the other MRU-head entry points from the snapshot | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ex.4](sase-1ex.4.md) | One project-record pass and memoized provider detection per MRU build | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [sase-1ex.4](sase-1ex.4.md) | One project-record pass and memoized provider detection per MRU build | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [sase-1ex.5](sase-1ex.5.md) | Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop | ✓ closed | medium | 2026-10-02 | 1 | 0 |
 | [sase-1ex.6](sase-1ex.6.md) | Run each prompt text-area mount, unmount, and worker hook once | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [sase-1ex.7](sase-1ex.7.md) | One highlight build and no pump-side Jinja inspect per cycle edit | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [sase-1ex.7](sase-1ex.7.md) | One highlight build and no pump-side Jinja inspect per cycle edit | ◐ in_progress | medium | 2026-10-02 | 1 | 1 |
 | [sase-1ex.8](sase-1ex.8.md) | Quiet the work that follows opening or editing the prompt | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 | [sase-1ex.9](sase-1ex.9.md) | Freeze startup objects and log gen-2 GC pauses | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 
@@ -39,7 +39,7 @@ flowchart TD
     n4["sase-1ex.12: Final measurements, regression gates, and docs [in_progress]"]
     n5["sase-1ex.2: App-owned launchable-MRU snapshot for project cycling [closed]"]
     n6["sase-1ex.3: Serve `&lt;space&gt;` and the other MRU-head entry points from the snapshot [closed]"]
-    n7["sase-1ex.4: One project-record pass and memoized provider detection per MRU build [in_progress]"]
+    n7["sase-1ex.4: One project-record pass and memoized provider detection per MRU build [closed]"]
     n8["sase-1ex.5: Pure catalog getters, non-blocking watcher growth, and a wakeable watcher stop [closed]"]
     n9["sase-1ex.6: Run each prompt text-area mount, unmount, and worker hook once [closed]"]
     n10["sase-1ex.7: One highlight build and no pump-side Jinja inspect per cycle edit [in_progress]"]
@@ -83,15 +83,15 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ex.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.1/README.md) | [sase-1ex.1](sase-1ex.1.md) | 1 |
-| [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.10/README.md) | [sase-1ex.10](sase-1ex.10.md) | 0 |
+| [bbugyi200.athena.sase-1ex.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.10.md) | [sase-1ex.10](sase-1ex.10.md) | 0 |
 | [bbugyi200.athena.sase-1ex.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.11/README.md) | [sase-1ex.11](sase-1ex.11.md) | 0 |
 | [bbugyi200.athena.sase-1ex.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.12/README.md) | [sase-1ex.12](sase-1ex.12.md) | 0 |
 | [bbugyi200.athena.sase-1ex.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.2.md) | [sase-1ex.2](sase-1ex.2.md) | 1 |
 | [bbugyi200.athena.sase-1ex.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.3/README.md) | [sase-1ex.3](sase-1ex.3.md) | 1 |
-| [bbugyi200.athena.sase-1ex.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.4/README.md) | [sase-1ex.4](sase-1ex.4.md) | 0 |
+| [bbugyi200.athena.sase-1ex.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.4.md) | [sase-1ex.4](sase-1ex.4.md) | 1 |
 | [bbugyi200.athena.sase-1ex.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.5/README.md) | [sase-1ex.5](sase-1ex.5.md) | 0 |
 | [bbugyi200.athena.sase-1ex.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.6.md) | [sase-1ex.6](sase-1ex.6.md) | 1 |
-| [bbugyi200.athena.sase-1ex.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.7/README.md) | [sase-1ex.7](sase-1ex.7.md) | 0 |
+| [bbugyi200.athena.sase-1ex.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.7.md) | [sase-1ex.7](sase-1ex.7.md) | 1 |
 | [bbugyi200.athena.sase-1ex.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.8/README.md) | [sase-1ex.8](sase-1ex.8.md) | 0 |
 | [bbugyi200.athena.sase-1ex.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ex.9.md) | [sase-1ex.9](sase-1ex.9.md) | 0 |
 | [bbugyi200.athena.sase-1ex.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ex.land/README.md) | [sase-1ex](README.md) | 0 |
@@ -105,3 +105,5 @@ flowchart TD
 | sase | [`8138678`](https://github.com/sase-org/sase/commit/813867849ce4ff10ae8d1ee9d146367f2e95d475) | feat(ace-tui): app-owned launchable-MRU snapshot for project cycling | [sase-1ex.2](sase-1ex.2.md) | 2026-10-02 19:38:59 EDT |
 | sase | [`24cff91`](https://github.com/sase-org/sase/commit/24cff91cd3e5a737d417a5b32cd38835a4125fae) | feat(tui): dispatch prompt mount/unmount/worker hooks once (sase-1ex.6) | [sase-1ex.6](sase-1ex.6.md) | 2026-10-02 19:39:47 EDT |
 | sase | [`f896b59`](https://github.com/sase-org/sase/commit/f896b59c4c0fec3d6957aebe46d4a55b8c54d5aa) | feat(ace-tui): serve space and MRU-head entry points from the launchable-MRU snapshot (sase-1ex.3) | [sase-1ex.3](sase-1ex.3.md) | 2026-10-02 20:41:58 EDT |
+| sase | [`5c7e751`](https://github.com/sase-org/sase/commit/5c7e7514ae47c29879e9dc122e43948b2984c631) | fix(ace-tui): repair cycle-edit-coalesce verification gates (sase-1ex.7) | [sase-1ex.7](sase-1ex.7.md) | 2026-10-02 21:28:05 EDT |
+| sase | [`9dcf826`](https://github.com/sase-org/sase/commit/9dcf826f8bc93ccbe818f7c9df79ba9f48c799ac) | perf(mru): one project-record pass and memoized provider detection per MRU build | [sase-1ex.4](sase-1ex.4.md) | 2026-10-02 21:28:38 EDT |
