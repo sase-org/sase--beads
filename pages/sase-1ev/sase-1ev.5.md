@@ -13,7 +13,7 @@ card-diff: = toggles a sticky read/diff view rendered with build_diff_body. It c
 
 ## Dependencies
 
-- **Depends on:** [sase-1ev.4](sase-1ev.4.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1ev.4](sase-1ev.4.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1ev.6](sase-1ev.6.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
