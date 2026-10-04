@@ -13,7 +13,7 @@ url-editions: add a Gemini script writer, driven by the packaged guide plus arti
 
 ## Dependencies
 
-- **Depends on:** [sase-1g7.1](sase-1g7.1.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g7.1](sase-1g7.1.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1g7.2](sase-1g7.2.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g7.4](sase-1g7.4.md) ◐ · ⧖ 2026-10-04
 
