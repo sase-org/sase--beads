@@ -13,7 +13,7 @@ tui-completion: move completion, argument-assist, and syntax modules to macro na
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.5.1.2](sase-1eq.5.1.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.5.1.2](sase-1eq.5.1.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
