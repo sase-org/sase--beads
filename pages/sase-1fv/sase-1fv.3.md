@@ -23,7 +23,7 @@ picker-existing-row: teach the shared choice builders and picker modal to render
 
 ## Dependencies
 
-- **Blocks:** [sase-1fv.5](sase-1fv.5.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1fv.5](sase-1fv.5.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

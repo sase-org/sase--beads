@@ -13,10 +13,22 @@ wire-snippet-existing: mirror the macro wiring in `_SnippetLocationFlow` using t
 
 ## Dependencies
 
-- **Depends on:** [sase-1fv.5](sase-1fv.5.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1fv.5](sase-1fv.5.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1fv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.6/README.md) | [sase-1fv.6](sase-1fv.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1fv.4][1] | Need the open phase that will consume the snippet entry builder | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.4/README.md
+
+<!-- sase:referenced-by:end -->

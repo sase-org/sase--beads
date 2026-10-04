@@ -41,8 +41,10 @@ snippet-redefinition: replace the inverted, partial `snippet_collision` check wi
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1fv.2--4][1] | Need notes and close state after recovery | 2 |
+| read-by | [agent:sase-1eq.5.1.4--1][1] | Check whether this bead tracks the reproduced runner kill Symvision findings | 1 |
+| read-by | [agent:sase-1fv.2--4][2] | Need notes and close state after recovery | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md
 
 <!-- sase:referenced-by:end -->

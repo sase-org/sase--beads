@@ -21,7 +21,7 @@ existing-finder: build the pure entry model, entry builders, ranking, and verdic
 
 - **Depends on:** [sase-1fv.1](sase-1fv.1.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1fv.2](sase-1fv.2.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1fv.5](sase-1fv.5.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1fv.5](sase-1fv.5.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
@@ -34,3 +34,17 @@ existing-finder: build the pure entry model, entry builders, ranking, and verdic
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4d38e39`](https://github.com/sase-org/sase/commit/4d38e39702e9871be0b0ecfe8d121de6d3afbc82) | feat(tui): add existing-definition finder modal and entry model | [sase-1fv.4](sase-1fv.4.md) | 2026-10-04 10:44:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.4--1][1] | Check whether this bead tracks the reproduced docs/configuration terminology failure | 1 |
+| read-by | [agent:sase-1fv.4][2] | Verify the clean-base follow-up note before phase closure | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.4/README.md
+
+<!-- sase:referenced-by:end -->
