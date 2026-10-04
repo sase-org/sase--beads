@@ -21,7 +21,7 @@ wire-macro-existing: connect the `e` row, the finder, in-place edits, and the re
 
 - **Depends on:** [sase-1fv.3](sase-1fv.3.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1fv.4](sase-1fv.4.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1fv.6](sase-1fv.6.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1fv.6](sase-1fv.6.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
@@ -43,8 +43,12 @@ wire-macro-existing: connect the `e` row, the finder, in-place edits, and the re
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1fv.3][1] | Need later phase id to re-key ExistingRowSpec epic-symbol | 2 |
 | read-by | [agent:sase-1fv.4][2] | Need the open phase that will consume the finder modal and macro entry builder | 1 |
+| read-by | [agent:sase-1fv.5--2][3] | Need the phase scope and design file | 1 |
+| read-by | [agent:toobig-6y.test_detach_scope.0][4] | Need the phase close claim for leftover epic-symbol entries | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.5.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-6y.test_detach_scope.0/README.md
 
 <!-- sase:referenced-by:end -->
