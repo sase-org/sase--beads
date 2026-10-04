@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1fu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.2/README.md) | [sase-1fu.2](sase-1fu.2.md) | 1 |
 | [bbugyi200.athena.sase-1fu.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.3.md) | [sase-1fu.3](sase-1fu.3.md) | 1 |
 | [bbugyi200.athena.sase-1fu.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.4.md) | [sase-1fu.4](sase-1fu.4.md) | 0 |
-| [bbugyi200.athena.sase-1fu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.land.md) | [sase-1fu](README.md) | 1 |
+| [bbugyi200.athena.sase-1fu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.land.md) | [sase-1fu](README.md) | 2 |
 
 ## Commits
 
@@ -74,6 +74,7 @@ flowchart TD
 | sase | [`3929830`](https://github.com/sase-org/sase/commit/392983091d82799747bc1222ac7c0f9151167c5a) | fix(llm-provider): drain JSONL streams incrementally | [sase-1fu.2](sase-1fu.2.md) | 2026-10-03 16:21:13 EDT |
 | sase | [`2307212`](https://github.com/sase-org/sase/commit/2307212bcd88bcf2b5773cf93d73d9be3f84eb0d) | feat(ace): follow selected live agent replies | [sase-1fu.1](sase-1fu.1.md) | 2026-10-03 18:05:12 EDT |
 | sase | [`e1fa79d`](https://github.com/sase-org/sase/commit/e1fa79db96edf20ee4f5854d9fa5cd4eefa30bba) | fix(ace): preserve empty live reply placeholder | [sase-1fu](README.md) | 2026-10-04 11:04:37 EDT |
+| sase--plans | [`sase--plans@f4ba99e`](https://github.com/sase-org/sase--plans/commit/f4ba99e4e0c31e9bffe41556542dea491526a8fd) | docs(sdd): mark muse reply streaming plan done | [sase-1fu](README.md) | 2026-10-04 11:07:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
