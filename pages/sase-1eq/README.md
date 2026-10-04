@@ -67,7 +67,7 @@ flowchart TD
     n27["sase-1eq.5.1: TUI macro surfaces and goldens [in_progress]"]
     n28["sase-1eq.5.1.1: Keymap, resume ids, and stats request contracts [closed]"]
     n29["sase-1eq.5.1.2: Macro browser, save flows, and location labels [closed]"]
-    n30["sase-1eq.5.1.3: Completion, argument assist, and highlight roles [in_progress]"]
+    n30["sase-1eq.5.1.3: Completion, argument assist, and highlight roles [closed]"]
     n31["sase-1eq.5.1.4: Prompt panel, raw-prompt headings, and remaining visible copy [in_progress]"]
     n32["sase-1eq.5.1.5: Remaining TUI identifiers and assigned mirror files [in_progress]"]
     n33["sase-1eq.5.1.6: PNG goldens, terminology guard, and navigation benchmark [in_progress]"]
@@ -178,7 +178,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.1.md) | [sase-1eq.5.1.1](sase-1eq.5.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.2.md) | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1eq.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.3/README.md) | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.3.md) | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1eq.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.4/README.md) | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.5/README.md) | [sase-1eq.5.1.5](sase-1eq.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.6/README.md) | [sase-1eq.5.1.6](sase-1eq.5.1.6.md) | 0 |
@@ -219,6 +219,7 @@ flowchart TD
 | sase | [`fe53ae4`](https://github.com/sase-org/sase/commit/fe53ae4fc46f5e23b3ec44060f2bbbcac2b9bc4c) | feat(docs-memory): rename xprompt concept to macro across docs, memory, and skills | [sase-1eq.6](sase-1eq.6.md) | 2026-10-03 14:18:53 EDT |
 | sase--plans | [`sase--plans@83bd226`](https://github.com/sase-org/sase--plans/commit/83bd226f816b3d23ec6584df897cfee385d81c75) | docs(plans): record macro syntax cutover plan | [sase-1eq.4.1](sase-1eq.4.1.md) | 2026-10-03 14:23:29 EDT |
 | sase | [`c3914fb`](https://github.com/sase-org/sase/commit/c3914fb7c1e277dc537b0b3a51d403740146b687) | feat(ace): migrate TUI xprompt surfaces to macros | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 2026-10-03 22:04:02 EDT |
+| sase | [`e7408ed`](https://github.com/sase-org/sase/commit/e7408ed219af298cefa55af04496d778d2d05f8e) | feat(ace): rename completion and highlight roles to macro | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 2026-10-04 02:52:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

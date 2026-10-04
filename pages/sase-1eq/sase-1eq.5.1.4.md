@@ -13,7 +13,7 @@ tui-prompt-copy: rename prompt-panel and mini-bar modules, apply the raw-prompt 
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.5.1.3](sase-1eq.5.1.3.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.5.1.3](sase-1eq.5.1.3.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.5.1.5](sase-1eq.5.1.5.md) ◐ · ⧖ 2026-10-03
 
 ## Agents

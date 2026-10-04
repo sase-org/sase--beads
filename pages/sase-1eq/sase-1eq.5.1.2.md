@@ -24,7 +24,7 @@ tui-browser: move the browser, unified-save, mini-macro modal, and agent-workflo
 ## Dependencies
 
 - **Depends on:** [sase-1eq.5.1.1](sase-1eq.5.1.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.5.1.3](sase-1eq.5.1.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.5.1.3](sase-1eq.5.1.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -37,3 +37,15 @@ tui-browser: move the browser, unified-save, mini-macro modal, and agent-workflo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c3914fb`](https://github.com/sase-org/sase/commit/c3914fb7c1e277dc537b0b3a51d403740146b687) | feat(ace): migrate TUI xprompt surfaces to macros | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 2026-10-03 22:04:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.2--4][1] | Verify scope state and the proposed follow-up before phase close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.2.md
+
+<!-- sase:referenced-by:end -->
