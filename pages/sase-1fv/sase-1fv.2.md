@@ -17,6 +17,8 @@ snippet-redefinition: replace the inverted, partial `snippet_collision` check wi
 
 [2026-10-04T11:27:13Z · sase-1fv.2--1] Replaced inverted snippet_collision with provenance-catalog redefinition (later-wins layers, built-in/plugin/macro/alias sites). Wired name-step verdicts, in-memory existing_body, and save-time warning refresh. Privatized leftover get_macro_snippet_entries and _refresh_snippet_save_warning. 93 targeted tests passed. No --epic-symbol leftovers. Pre-existing NEW unused-public reset_oom_baseline recorded as PROPOSED FOLLOW-UP (sase-1ay / sase-1c1).
 
+[2026-10-04T12:17:15Z · sase-1fv.2--3] PROPOSED FOLLOW-UP: test_current_docs_skills_and_memory_avoid_stale_family_phrases fails on docs/configuration.md "families/" — KNOWN, untouched by this phase, reproduces on the same just-check as the runner_kill_provenance unused-publics. Related: sase-1c1 green-master CI.
+
 ## Dependencies
 
 - **Blocks:** [sase-1fv.4](sase-1fv.4.md) ◐ · ⧖ 2026-10-04
@@ -25,4 +27,10 @@ snippet-redefinition: replace the inverted, partial `snippet_collision` check wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1fv.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md) | [sase-1fv.2](sase-1fv.2.md) | 0 |
+| [bbugyi200.athena.sase-1fv.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md) | [sase-1fv.2](sase-1fv.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`2608a24`](https://github.com/sase-org/sase/commit/2608a2439e1dd058d86ac1650abb91c8d2b6c3c9) | feat(snippet): replace inverted collision with provenance redefinition | [sase-1fv.2](sase-1fv.2.md) | 2026-10-04 08:41:50 EDT |
