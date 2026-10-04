@@ -19,7 +19,7 @@ console-framing: avoid flushing individual fragments through Rich FileProxy whil
 
 ## Dependencies
 
-- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -40,7 +40,11 @@ console-framing: avoid flushing individual fragments through Rich FileProxy whil
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1fu.3--1][1] | Review phase scope and existing notes before adding verification findings and closing it | 1 |
+| read-by | [agent:sase-1fv.1][2] | Check prior records for the known Symvision symbols and avoid duplicating an existing follow-up | 1 |
+| read-by | [agent:sase-1fv.3][3] | Need the prior PROPOSED FOLLOW-UP wording that already tracks unused runner_kill_provenance symbols | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fu.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.3/README.md
 
 <!-- sase:referenced-by:end -->

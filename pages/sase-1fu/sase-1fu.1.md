@@ -7,6 +7,20 @@
 **Created:** 2026-10-03 15:03:51 EDT · **Closed:** 2026-10-03 18:03:13 EDT
 **Plan:** [202610/muse\_reply\_streaming.md](https://github.com/sase-org/sase--plans/blob/main/202610/muse_reply_streaming.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1fy][1] | Same file passed alone during phase sase-1fu.1, which is the serial half of the flake evidence |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1fy/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 live-reply-follow: route reply-file events to a throttled background snapshot and Reply-card update, with a selected-source polling backstop and lifecycle, scroll, attempt, and navigation guards; keep the Agents loader uninvolved.
@@ -17,7 +31,7 @@ live-reply-follow: route reply-file events to a throttled background snapshot an
 
 ## Dependencies
 
-- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -30,3 +44,15 @@ live-reply-follow: route reply-file events to a throttled background snapshot an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2307212`](https://github.com/sase-org/sase/commit/2307212bcd88bcf2b5773cf93d73d9be3f84eb0d) | feat(ace): follow selected live agent replies | [sase-1fu.1](sase-1fu.1.md) | 2026-10-03 18:05:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1fu.1][1] | Verify phase closure | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fu.1/README.md
+
+<!-- sase:referenced-by:end -->

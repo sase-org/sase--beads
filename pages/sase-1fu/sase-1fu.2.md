@@ -19,7 +19,7 @@ jsonl-reader: replace buffered text reads in the shared JSONL transport with bou
 
 ## Dependencies
 
-- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fu.4](sase-1fu.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
