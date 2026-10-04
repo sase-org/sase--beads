@@ -17,6 +17,8 @@ SASE calls its reusable `#name` prompt definitions "macros" in code, CLI, config
 
 [2026-10-03T16:15:44Z · sase-1ex.land] DISCOVERED ISSUE (relayed by sase-1ex.land from sase-1ex.8 note #2, agent sase-1ex.8--1, 2026-10-03): tests/test_macro_terminology.py::test_macro_paths_avoid_xprompt_components failed identically on a clean base tree in that agent's workspace. An ignored, untracked tests/xprompt/ directory (leftover from before the xprompt->macro path move) tripped the 'xprompt' path-component guard. The guard (added by sase-1eq.3.1.4, 8de1add72c) collects scope files with Path.rglob over the working tree (tests/test_macro_terminology.py:135/158/644) instead of tracked files, so stale ignored dirs such as __pycache__-only leftovers in long-lived sase_<N> workspaces fail just check for unrelated agents. Not reproducible in sase_12 at 9f8c4c529e (no tests/xprompt dir; 22 terminology/prediction tests pass). Suggested fix: restrict the path scan to git ls-files output, or skip ignored paths.
 
+[2026-10-04T13:33:27Z · sase-1fu.land] DISCOVERED ISSUE: sase-1fu.2 note #1 independently reported test_macro_paths_avoid_xprompt_components failing on an unallowlisted tests/xprompt/ directory. This workspace (sase_12 at 7b39db7b67) has no tests/xprompt directory, matching note #2 on this epic: the guard rglobs the working tree, so ignored leftover directories fail unrelated agents. No new task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,7 +70,7 @@ flowchart TD
     n28["sase-1eq.5.1.1: Keymap, resume ids, and stats request contracts [closed]"]
     n29["sase-1eq.5.1.2: Macro browser, save flows, and location labels [closed]"]
     n30["sase-1eq.5.1.3: Completion, argument assist, and highlight roles [closed]"]
-    n31["sase-1eq.5.1.4: Prompt panel, raw-prompt headings, and remaining visible copy [in_progress]"]
+    n31["sase-1eq.5.1.4: Prompt panel, raw-prompt headings, and remaining visible copy [closed]"]
     n32["sase-1eq.5.1.5: Remaining TUI identifiers and assigned mirror files [in_progress]"]
     n33["sase-1eq.5.1.6: PNG goldens, terminology guard, and navigation benchmark [in_progress]"]
     n34["sase-1eq.6: Documentation, site redirect, memory, and first skill redeploy [closed]"]
@@ -179,7 +181,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.1.md) | [sase-1eq.5.1.1](sase-1eq.5.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.2.md) | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.3.md) | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1eq.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.4/README.md) | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1eq.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.4.md) | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1eq.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.5/README.md) | [sase-1eq.5.1.5](sase-1eq.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.6/README.md) | [sase-1eq.5.1.6](sase-1eq.5.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md) | [sase-1eq.5.1](sase-1eq.5.1.md) | 0 |
@@ -220,6 +222,7 @@ flowchart TD
 | sase--plans | [`sase--plans@83bd226`](https://github.com/sase-org/sase--plans/commit/83bd226f816b3d23ec6584df897cfee385d81c75) | docs(plans): record macro syntax cutover plan | [sase-1eq.4.1](sase-1eq.4.1.md) | 2026-10-03 14:23:29 EDT |
 | sase | [`c3914fb`](https://github.com/sase-org/sase/commit/c3914fb7c1e277dc537b0b3a51d403740146b687) | feat(ace): migrate TUI xprompt surfaces to macros | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 2026-10-03 22:04:02 EDT |
 | sase | [`e7408ed`](https://github.com/sase-org/sase/commit/e7408ed219af298cefa55af04496d778d2d05f8e) | feat(ace): rename completion and highlight roles to macro | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 2026-10-04 02:52:32 EDT |
+| sase | [`781bb0e`](https://github.com/sase-org/sase/commit/781bb0e7ae0db7c12a9622064172d9e3633acb1b) | feat(ace): rename prompt panel modules and copy | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 2026-10-04 11:23:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

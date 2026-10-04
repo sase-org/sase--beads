@@ -24,7 +24,7 @@ tui-completion: move completion, argument-assist, and syntax modules to macro na
 ## Dependencies
 
 - **Depends on:** [sase-1eq.5.1.2](sase-1eq.5.1.2.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -37,3 +37,15 @@ tui-completion: move completion, argument-assist, and syntax modules to macro na
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e7408ed`](https://github.com/sase-org/sase/commit/e7408ed219af298cefa55af04496d778d2d05f8e) | feat(ace): rename completion and highlight roles to macro | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 2026-10-04 02:52:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.3--4][1] | Need phase scope, design, notes, and current status before closing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.3.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ tui-sweep: finish every remaining in-scope xprompt hit, including statistics ide
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [sase-1eq.5.1.6](sase-1eq.5.1.6.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
