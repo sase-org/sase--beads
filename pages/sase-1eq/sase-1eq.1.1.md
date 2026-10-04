@@ -7,6 +7,20 @@
 **Created:** 2026-10-02 07:55:46 EDT · **Closed:** 2026-10-02 15:24:02 EDT
 **Plan:** [202610/finish\_core\_macro\_expand.md](https://github.com/sase-org/sase--plans/blob/main/202610/finish_core_macro_expand.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/finish_core_macro_expand.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_core_macro_expand.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete all remaining core-expand contracts, prove compatibility with unchanged sase, and close only the original phase after its child epic lands.

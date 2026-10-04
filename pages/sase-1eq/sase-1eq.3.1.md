@@ -7,6 +7,20 @@
 **Created:** 2026-10-02 19:30:23 EDT · **Closed:** 2026-10-03 05:42:54 EDT
 **Plan:** [202610/sase\_modules\_rename.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_modules_rename.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/sase_modules_rename.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_modules_rename.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Outside the TUI, query-language status macros are shorthands, the xprompt package and sibling modules live on macro paths, identifiers follow a token-aware rename, external plugins still import the old paths through one temporary shim, and a terminology guard holds that boundary.

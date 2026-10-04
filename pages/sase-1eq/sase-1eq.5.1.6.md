@@ -13,7 +13,7 @@ tui-goldens: rename the xprompt PNG goldens, re-baseline changed pixels, widen t
 
 ## Dependencies
 
-- **Depends on:** [sase-1eq.5.1.5](sase-1eq.5.1.5.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [sase-1eq.5.1.5](sase-1eq.5.1.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

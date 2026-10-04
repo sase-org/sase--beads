@@ -7,6 +7,20 @@
 **Created:** 2026-10-03 05:59:56 EDT · **Closed:** 2026-10-03 13:11:57 EDT
 **Plan:** [202610/macro\_syntax\_cutover.md](https://github.com/sase-org/sase--plans/blob/main/202610/macro_syntax_cutover.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/macro_syntax_cutover.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/macro_syntax_cutover.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Make macro spellings canonical across non-TUI SASE surfaces while preserving flag-gated authored aliases and unconditional durable readers.

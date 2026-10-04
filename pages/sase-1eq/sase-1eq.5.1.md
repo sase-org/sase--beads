@@ -7,6 +7,18 @@
 **Created:** 2026-10-03 13:29:42 EDT
 **Plan:** [202610/tui\_macro\_surfaces.md](https://github.com/sase-org/sase--plans/blob/main/202610/tui_macro_surfaces.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/tui_macro_surfaces.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/tui_macro_surfaces.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Rename the SASE TUI's xprompt modules, identifiers, CSS, copy, keymap actions, and Admin Center ids to macro spellings. The agent prompt tab and headings say raw prompt. Pre-rename resume state still opens, retired keymap actions stay flag-gated aliases, and the PNG goldens match the new pixels.

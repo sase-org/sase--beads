@@ -20,7 +20,7 @@ tui-prompt-copy: rename prompt-panel and mini-bar modules, apply the raw-prompt 
 ## Dependencies
 
 - **Depends on:** [sase-1eq.5.1.3](sase-1eq.5.1.3.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.5.1.5](sase-1eq.5.1.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.5.1.5](sase-1eq.5.1.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -33,3 +33,15 @@ tui-prompt-copy: rename prompt-panel and mini-bar modules, apply the raw-prompt 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`781bb0e`](https://github.com/sase-org/sase/commit/781bb0e7ae0db7c12a9622064172d9e3633acb1b) | feat(ace): rename prompt panel modules and copy | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 2026-10-04 11:23:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.4--1][1] | Need the full phase scope and linked design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.4.md
+
+<!-- sase:referenced-by:end -->
