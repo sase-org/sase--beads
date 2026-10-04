@@ -21,7 +21,7 @@ macro-redefinition: make the mini-macro target catalog see every loader source, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1fv.4](sase-1fv.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1fv.4](sase-1fv.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

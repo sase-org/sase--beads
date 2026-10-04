@@ -21,7 +21,7 @@ snippet-redefinition: replace the inverted, partial `snippet_collision` check wi
 
 ## Dependencies
 
-- **Blocks:** [sase-1fv.4](sase-1fv.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1fv.4](sase-1fv.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
@@ -34,3 +34,15 @@ snippet-redefinition: replace the inverted, partial `snippet_collision` check wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2608a24`](https://github.com/sase-org/sase/commit/2608a2439e1dd058d86ac1650abb91c8d2b6c3c9) | feat(snippet): replace inverted collision with provenance redefinition | [sase-1fv.2](sase-1fv.2.md) | 2026-10-04 08:41:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1fv.2--4][1] | Need notes and close state after recovery | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md
+
+<!-- sase:referenced-by:end -->
