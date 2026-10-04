@@ -17,7 +17,7 @@ From the prompt input, `Ctrl+G x` / `Ctrl+G t` (and `gx` / `gt`) offer an `e` (e
 |---|---|---|---|---|---:|---:|
 | [sase-1fv.1](sase-1fv.1.md) | Accurate macro redefinition analysis and warnings | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [sase-1fv.2](sase-1fv.2.md) | Provenance-accurate snippet redefinition analysis and warnings | ✓ closed | medium | 2026-10-04 | 1 | 0 |
-| [sase-1fv.3](sase-1fv.3.md) | Existing row and override mode in the save-location picker | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
+| [sase-1fv.3](sase-1fv.3.md) | Existing row and override mode in the save-location picker | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [sase-1fv.4](sase-1fv.4.md) | Existing-definition fuzzy finder modal | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 | [sase-1fv.5](sase-1fv.5.md) | Wire the existing path into the mini-macro flow | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 | [sase-1fv.6](sase-1fv.6.md) | Wire the existing path into the snippet flow | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
@@ -29,7 +29,7 @@ flowchart TD
     n0["sase-1fv: Edit existing macros and snippets from the Ctrl+G x / Ctrl+G t location picker [in_progress]"]
     n1["sase-1fv.1: Accurate macro redefinition analysis and warnings [closed]"]
     n2["sase-1fv.2: Provenance-accurate snippet redefinition analysis and warnings [closed]"]
-    n3["sase-1fv.3: Existing row and override mode in the save-location picker [in_progress]"]
+    n3["sase-1fv.3: Existing row and override mode in the save-location picker [closed]"]
     n4["sase-1fv.4: Existing-definition fuzzy finder modal [in_progress]"]
     n5["sase-1fv.5: Wire the existing path into the mini-macro flow [in_progress]"]
     n6["sase-1fv.6: Wire the existing path into the snippet flow [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1fv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.1/README.md) | [sase-1fv.1](sase-1fv.1.md) | 1 |
 | [bbugyi200.athena.sase-1fv.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.2.md) | [sase-1fv.2](sase-1fv.2.md) | 0 |
-| [bbugyi200.athena.sase-1fv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.3/README.md) | [sase-1fv.3](sase-1fv.3.md) | 0 |
+| [bbugyi200.athena.sase-1fv.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.3/README.md) | [sase-1fv.3](sase-1fv.3.md) | 1 |
 | [bbugyi200.athena.sase-1fv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.4/README.md) | [sase-1fv.4](sase-1fv.4.md) | 0 |
 | [bbugyi200.athena.sase-1fv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.5/README.md) | [sase-1fv.5](sase-1fv.5.md) | 0 |
 | [bbugyi200.athena.sase-1fv.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.6/README.md) | [sase-1fv.6](sase-1fv.6.md) | 0 |
@@ -63,3 +63,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a963c0d`](https://github.com/sase-org/sase/commit/a963c0d3da2572a0c623a503286160e979d27db5) | feat(ace): warn accurately on mini-macro redefinitions | [sase-1fv.1](sase-1fv.1.md) | 2026-10-04 07:33:32 EDT |
+| sase | [`763cc9f`](https://github.com/sase-org/sase/commit/763cc9fca334c8d2009789f368ef01aa9f40debe) | feat(tui): add Existing row and override mode to the save-location picker | [sase-1fv.3](sase-1fv.3.md) | 2026-10-04 07:41:30 EDT |

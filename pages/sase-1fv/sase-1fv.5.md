@@ -13,7 +13,7 @@ wire-macro-existing: connect the `e` row, the finder, in-place edits, and the re
 
 ## Dependencies
 
-- **Depends on:** [sase-1fv.3](sase-1fv.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1fv.3](sase-1fv.3.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1fv.4](sase-1fv.4.md) ◐ · ⧖ 2026-10-04
 - **Blocks:** [sase-1fv.6](sase-1fv.6.md) ◐ · ⧖ 2026-10-04
 
