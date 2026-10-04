@@ -43,8 +43,10 @@ wire-snippet-existing: mirror the macro wiring in `_SnippetLocationFlow` using t
 | --- | --- | --- | ---: |
 | read-by | [agent:51--3][1] | Understand whether this epic still owns the public symbols reported by Symvision | 1 |
 | read-by | [agent:sase-1fv.4][2] | Need the open phase that will consume the snippet entry builder | 2 |
+| read-by | [agent:sase-1fv.6--1][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.51.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1fv.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1fv.6.md
 
 <!-- sase:referenced-by:end -->
