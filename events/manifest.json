@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "stream_count": 2070,
+  "stream_count": 2071,
   "generated_from": "issues.jsonl",
   "migration_tool": "sase-core bead events"
 }
