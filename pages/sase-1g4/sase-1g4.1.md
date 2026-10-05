@@ -24,3 +24,15 @@ vocab: add the sase-core macro_input_types module (type catalog, resolver, did-y
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1g4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.md) | [sase-1g4.1](sase-1g4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g4.2.1.4][1] | Need the completed vocabulary dependency handoff | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
+
+<!-- sase:referenced-by:end -->

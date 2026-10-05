@@ -14,7 +14,7 @@ diagnostics: carry structured suggestions and edits in diagnostics, classify inv
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2.1.1](sase-1g4.2.1.1.md) ✓ · ⧖ 2026-10-05
-- **Depends on:** [sase-1g4.2.1.2](sase-1g4.2.1.2.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [sase-1g4.2.1.2](sase-1g4.2.1.2.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ◐ · ⧖ 2026-10-05
 
 ## Agents

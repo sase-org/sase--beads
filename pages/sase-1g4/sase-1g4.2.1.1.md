@@ -19,7 +19,7 @@ contracts: preserve resolved metadata through Rust catalog/editor/mobile wires, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1g4.2.1.2](sase-1g4.2.1.2.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1g4.2.1.2](sase-1g4.2.1.2.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [sase-1g4.2.1.3](sase-1g4.2.1.3.md) ◐ · ⧖ 2026-10-05
 - **Blocks:** [sase-1g4.2.1.4](sase-1g4.2.1.4.md) ✓ · ⧖ 2026-10-05
 
