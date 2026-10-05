@@ -33,10 +33,23 @@ diagnostics: carry structured suggestions and edits in diagnostics, classify inv
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md) | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1g4.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md) | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ecd2e07`](https://github.com/sase-org/sase-core/commit/ecd2e074b4489c0c326e2137075dfd29be2bc384) | feat(lsp): classify enum diagnostics and drive diagnostic quick fixes | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2026-10-05 05:51:47 EDT |
+| sase | [`6fde796`](https://github.com/sase-org/sase/commit/6fde79660418540d98dd81fbcdd317f50c062cf8) | docs(editor): document choice diagnostics, quick fixes, and argument hover | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2026-10-05 05:56:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g4.2.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->

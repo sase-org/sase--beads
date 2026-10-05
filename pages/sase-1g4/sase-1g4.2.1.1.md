@@ -44,8 +44,10 @@ contracts: preserve resolved metadata through Rust catalog/editor/mobile wires, 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.2.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1g4.2.1.2][2] | Need the content_layout schema 6 vs 5 pre-existing failure notes to cite as PROPOSED FOLLOW-UP | 2 |
+| read-by | [agent:sase-1g4.2.1.3][3] | Need contracts phase handoff | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

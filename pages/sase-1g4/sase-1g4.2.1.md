@@ -25,8 +25,10 @@ Complete the wire-lsp scope of sase-1g4.2: preserve resolved choices, named type
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.2.1.1][1] | Need parent epic scope | 1 |
 | read-by | [agent:sase-1g4.2.1.2][2] | Need parent epic scope for phase 1g4.2.1.2 | 1 |
+| read-by | [agent:sase-1g4.2.1.3][3] | Need parent epic scope and remaining work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->
