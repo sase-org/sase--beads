@@ -35,7 +35,7 @@ A macro input's `type` names what its value is: a scalar keyword, `enum` with in
 | [sase-1g4.2](sase-1g4.2.md) | Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP | ✓ closed | large | 2026-10-04 | 1 | 0 |
 | [sase-1g4.3](sase-1g4.3.md) | Enum choice menus in the prompt bar, typed form, and authoring modals | ◐ in_progress | large | 2026-10-04 | 1 | 1 |
 | [sase-1g4.4](sase-1g4.4.md) | Builtin model and effort types with one routing classifier | ✓ closed | large | 2026-10-04 | 1 | 3 |
-| [sase-1g4.5](sase-1g4.5.md) | Plugin-shared enums, sase macro types, and plugins.required | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
+| [sase-1g4.5](sase-1g4.5.md) | Plugin-shared enums, sase macro types, and plugins.required | ✓ closed | large | 2026-10-04 | 1 | 1 |
 | [sase-1g4.6](sase-1g4.6.md) | Model arguments use the %model menu and model picker in the TUI | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 | [sase-1g4.7](sase-1g4.7.md) | Dogfood, documentation, and memory | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 
@@ -59,7 +59,7 @@ flowchart TD
     n13["sase-1g4.2.1.5: Cross-surface acceptance and phase closure evidence [closed]"]
     n14["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
     n15["sase-1g4.4: Builtin model and effort types with one routing classifier [closed]"]
-    n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [in_progress]"]
+    n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [closed]"]
     n17["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [in_progress]"]
     n18["sase-1g4.7: Dogfood, documentation, and memory [in_progress]"]
     n0 --> n1
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 3 |
 | [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.3.md) | [sase-1g4.3](sase-1g4.3.md) | 1 |
 | [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 3 |
-| [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.5/README.md) | [sase-1g4.5](sase-1g4.5.md) | 0 |
+| [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 1 |
 | [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 0 |
 | [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 0 |
 | [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.land/README.md) | [sase-1g4](README.md) | 0 |
@@ -149,3 +149,4 @@ flowchart TD
 | sase-core | [`sase-core@16095fc`](https://github.com/sase-org/sase-core/commit/16095fcf715cf64a6f4d217961ce3f2083ab3b7f) | feat(macros): add builtin model and effort types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:28:10 EDT |
 | sase | [`ce7c714`](https://github.com/sase-org/sase/commit/ce7c7148c0822b565a8dd2a46b02111096fce96f) | feat(macro): add builtin model and effort input types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:31:58 EDT |
 | sase-core | [`sase-core@2fa78ad`](https://github.com/sase-org/sase-core/commit/2fa78ad066f4f2c77a1e4ee8c7bd303ac0d01c18) | feat(macros): add builtin effort argument completion test | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 12:47:39 EDT |
+| sase-core | [`sase-core@af5df61`](https://github.com/sase-org/sase-core/commit/af5df614a70a02995a1dc0b9c05337b719145289) | feat(core): load plugin input\_type registries with resolution, catalog, and LSP wiring | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:29:56 EDT |

@@ -13,7 +13,7 @@ adopt: ship sase-research-artifacts' audio_edition type and move research_swarm'
 
 ## Dependencies
 
-- **Depends on:** [sase-1g4.5](sase-1g4.5.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.5](sase-1g4.5.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1g4.6](sase-1g4.6.md) ◐ · ⧖ 2026-10-04
 
 ## Agents
