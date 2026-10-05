@@ -18,7 +18,7 @@ Master Gate, the scheduled Full CI lanes, and the scheduled Publish workflow sto
 | [sase-1gt.1](sase-1gt.1.md) | Unblock Publish release-metadata sync | ✓ closed | small | 2026-10-05 | 1 | 1 |
 | [sase-1gt.2](sase-1gt.2.md) | Fix Master Gate's persistent textual-ansi failure and the FrontmatterPanel teardown race | ✓ closed | small | 2026-10-05 | 1 | 1 |
 | [sase-1gt.3](sase-1gt.3.md) | Remove recurring Master Gate test races | ✓ closed | medium | 2026-10-05 | 1 | 1 |
-| [sase-1gt.4](sase-1gt.4.md) | Fix scheduled Full CI perf-floors, visual-test, and timing flakes | ◐ in_progress | small | 2026-10-05 | 1 | 0 |
+| [sase-1gt.4](sase-1gt.4.md) | Fix scheduled Full CI perf-floors, visual-test, and timing flakes | ✓ closed | small | 2026-10-05 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["sase-1gt.1: Unblock Publish release-metadata sync [closed]"]
     n2["sase-1gt.2: Fix Master Gate's persistent textual-ansi failure and the FrontmatterPanel teardown race [closed]"]
     n3["sase-1gt.3: Remove recurring Master Gate test races [closed]"]
-    n4["sase-1gt.4: Fix scheduled Full CI perf-floors, visual-test, and timing flakes [in_progress]"]
+    n4["sase-1gt.4: Fix scheduled Full CI perf-floors, visual-test, and timing flakes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -42,7 +42,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1gt.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.1.md) | [sase-1gt.1](sase-1gt.1.md) | 1 |
 | [bbugyi200.athena.sase-1gt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.2/README.md) | [sase-1gt.2](sase-1gt.2.md) | 1 |
 | [bbugyi200.athena.sase-1gt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.3.md) | [sase-1gt.3](sase-1gt.3.md) | 1 |
-| [bbugyi200.athena.sase-1gt.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.4.md) | [sase-1gt.4](sase-1gt.4.md) | 0 |
+| [bbugyi200.athena.sase-1gt.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.4.md) | [sase-1gt.4](sase-1gt.4.md) | 1 |
 | [bbugyi200.athena.sase-1gt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md) | [sase-1gt](README.md) | 0 |
 
 ## Commits
@@ -52,3 +52,4 @@ flowchart TD
 | sase | [`69b492c`](https://github.com/sase-org/sase/commit/69b492c27848b08c25c10cadb2045825a57a3e52) | fix(pager,ace): handle Textual 8.2 theme removal and childless frontmatter mount | [sase-1gt.2](sase-1gt.2.md) | 2026-10-05 12:48:50 EDT |
 | sase | [`b3e571a`](https://github.com/sase-org/sase/commit/b3e571a8ab0cce87432397a5cd6d01ca1cf4cbc4) | fix(release): ignore uv lock revision header in ratchet\_core\_window | [sase-1gt.1](sase-1gt.1.md) | 2026-10-05 13:10:47 EDT |
 | sase | [`3569571`](https://github.com/sase-org/sase/commit/3569571a737f2ab31aacc97bdc3c7e1b16b742b4) | fix(gate-flakes): remove five recurring Master Gate test races | [sase-1gt.3](sase-1gt.3.md) | 2026-10-05 13:15:43 EDT |
+| sase | [`1c9a2cd`](https://github.com/sase-org/sase/commit/1c9a2cd5df1f90c5d8bf2f8e1ca81d858b2092e3) | fix(ci): stop full-ci perf-floor, visual, and timing flakes | [sase-1gt.4](sase-1gt.4.md) | 2026-10-05 13:29:11 EDT |
