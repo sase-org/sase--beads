@@ -29,7 +29,7 @@ When `#research_swarm(..., audio=true)` runs, the canonical `<name>.md` the link
 |---|---|---|---|---|---:|---:|
 | [sase-1g6.1](sase-1g6.1.md) | Swarm topology, audio contract, and linker listen card | ✓ closed | medium | 2026-10-04 | 1 | 2 |
 | [sase-1g6.2](sase-1g6.2.md) | bob highlights create discovers and copies companion audio | ✓ closed | medium | 2026-10-04 | 1 | 0 |
-| [sase-1g6.3](sase-1g6.3.md) | Listen-card banner and Play button in the Highlights PDF | ◐ in_progress | small | 2026-10-04 | 1 | 0 |
+| [sase-1g6.3](sase-1g6.3.md) | Listen-card banner and Play button in the Highlights PDF | ✓ closed | small | 2026-10-04 | 1 | 0 |
 | [sase-1g6.4](sase-1g6.4.md) | Scan carries audio into the library and embeds the player | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n0["sase-1g6: Listen card for research-swarm reports [in_progress]"]
     n1["sase-1g6.1: Swarm topology, audio contract, and linker listen card [closed]"]
     n2["sase-1g6.2: bob highlights create discovers and copies companion audio [closed]"]
-    n3["sase-1g6.3: Listen-card banner and Play button in the Highlights PDF [in_progress]"]
+    n3["sase-1g6.3: Listen-card banner and Play button in the Highlights PDF [closed]"]
     n4["sase-1g6.4: Scan carries audio into the library and embeds the player [in_progress]"]
     n0 --> n1
     n0 --> n2

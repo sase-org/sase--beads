@@ -14,7 +14,7 @@ bob-scan-audio: move same-stem audio with its PDF, late-pair orphan audio to an 
 ## Dependencies
 
 - **Depends on:** [sase-1g6.2](sase-1g6.2.md) ✓ · ⧖ 2026-10-04
-- **Depends on:** [sase-1g6.3](sase-1g6.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g6.3](sase-1g6.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

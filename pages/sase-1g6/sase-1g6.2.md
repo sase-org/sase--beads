@@ -19,7 +19,7 @@ bob-audio-companion: add audio discovery (flag, frontmatter episode id, narratio
 
 ## Dependencies
 
-- **Blocks:** [sase-1g6.3](sase-1g6.3.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g6.3](sase-1g6.3.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g6.4](sase-1g6.4.md) ◐ · ⧖ 2026-10-04
 
 ## Agents
