@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1eq](README.md) / sase-1eq.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0v4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0v4.md) · **Assignee:** `sase-1eq.10` · **Size:** large
-**Created:** 2026-10-02 06:51:33 EDT
+**Created:** 2026-10-02 06:51:33 EDT · **Closed:** 2026-10-05 07:33:31 EDT
 **Plan:** [202610/xprompts\_to\_macros.md](https://github.com/sase-org/sase--plans/blob/main/202610/xprompts_to_macros.md)
 
 ## Description
@@ -17,7 +17,7 @@ core-flip: make sase-core emit only macro spellings and remove the legacy bindin
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.11](sase-1eq.11.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.11](sase-1eq.11.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.5](sase-1eq.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.7](sase-1eq.7.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.8](sase-1eq.8.md) ✓ · ⧖ 2026-10-02

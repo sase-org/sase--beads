@@ -23,7 +23,7 @@ tui: rename TUI modules, identifiers, CSS, copy, keymap actions, and Admin Cente
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.10](sase-1eq.10.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.10](sase-1eq.10.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.4](sase-1eq.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents

@@ -21,7 +21,7 @@ docs-memory: redeploy the generated skills and rewrite docs, README, and blog. M
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.11](sase-1eq.11.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.11](sase-1eq.11.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.4](sase-1eq.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
