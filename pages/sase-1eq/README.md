@@ -98,7 +98,7 @@ flowchart TD
     n12["sase-1eq.12: Finish the xprompt-to-macro core flip and land sase-1eq [in_progress]"]
     n13["sase-1eq.12.1: Make sase-core green after the macro contract flip [closed]"]
     n14["sase-1eq.12.2: Drop leftover pre-flip xprompt wire keys in sase-core and sase [in_progress]"]
-    n15["sase-1eq.12.3: Relabel the macro-resolution infographic [in_progress]"]
+    n15["sase-1eq.12.3: Relabel the macro-resolution infographic [closed]"]
     n16["sase-1eq.2: Durable data, core wires, and LSP build tooling [closed]"]
     n17["sase-1eq.3: Module, package, and identifier rename outside the TUI [closed]"]
     n18["sase-1eq.3.1: Rename sase modules from xprompt to macro [closed]"]
@@ -217,8 +217,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.10.md) | [sase-1eq.10](sase-1eq.10.md) | 2 |
 | [bbugyi200.athena.sase-1eq.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.11.md) | [sase-1eq.11](sase-1eq.11.md) | 1 |
 | [bbugyi200.athena.sase-1eq.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.1/README.md) | [sase-1eq.12.1](sase-1eq.12.1.md) | 1 |
-| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 0 |
-| [bbugyi200.athena.sase-1eq.12.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.3/README.md) | [sase-1eq.12.3](sase-1eq.12.3.md) | 0 |
+| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.2.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 0 |
+| [bbugyi200.athena.sase-1eq.12.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.3.md) | [sase-1eq.12.3](sase-1eq.12.3.md) | 1 |
 | [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.land/README.md) | [sase-1eq.12](sase-1eq.12.md) | 0 |
 | [bbugyi200.athena.sase-1eq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.2/README.md) | [sase-1eq.2](sase-1eq.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.md) | [sase-1eq.3](sase-1eq.3.md) | 0 |
@@ -235,7 +235,6 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.4.1.5/README.md) | [sase-1eq.4.1.5](sase-1eq.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1eq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.4.1.land.md) | [sase-1eq.4.1](sase-1eq.4.1.md) | 2 |
 | [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
-| [bbugyi200.athena.sase-1eq.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.1.md) | [sase-1eq.5.1.1](sase-1eq.5.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1eq.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.2.md) | [sase-1eq.5.1.2](sase-1eq.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.3.md) | [sase-1eq.5.1.3](sase-1eq.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1eq.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.4.md) | [sase-1eq.5.1.4](sase-1eq.5.1.4.md) | 1 |
@@ -288,6 +287,7 @@ flowchart TD
 | sase | [`dc8aee0`](https://github.com/sase-org/sase/commit/dc8aee0fbc4f9838dac4dd4d1d04b5137fbca4cf) | feat(macros): core\_flip WIP python mirrors for macro wires | [sase-1eq.10](sase-1eq.10.md) | 2026-10-05 00:24:32 EDT |
 | sase | [`17c2907`](https://github.com/sase-org/sase/commit/17c2907d3bcfd1495ff37e11217c9911bcdf2978) | feat!: drop the sase.xprompt shim and finish audit-deploy cutover | [sase-1eq.11](sase-1eq.11.md) | 2026-10-05 09:05:12 EDT |
 | sase-core | [`sase-core@d65f724`](https://github.com/sase-org/sase-core/commit/d65f7246681d44bc81e2d48a180e869dbe538b44) | fix(macros): make sase-core green after the contract flip | [sase-1eq.12.1](sase-1eq.12.1.md) | 2026-10-05 11:01:56 EDT |
+| sase | [`b6114d4`](https://github.com/sase-org/sase/commit/b6114d4f954f4ed990511254e7e46e6160513fc0) | docs(images): relabel macro-resolution infographic from retired xprompt spelling to macro | [sase-1eq.12.3](sase-1eq.12.3.md) | 2026-10-05 12:10:11 EDT |
 
 <!-- sase:referenced-by:start -->
 

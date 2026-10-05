@@ -19,4 +19,4 @@ key-flip: Stop emitting the remaining pre-flip xprompt keys and values (content 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 0 |
+| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.2.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 0 |
