@@ -22,7 +22,7 @@ completion: consume shared choice candidates in standard LSP responses, replace 
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2.1.1](sase-1g4.2.1.1.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [sase-1g4.2.1.3](sase-1g4.2.1.3.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1g4.2.1.3](sase-1g4.2.1.3.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ◐ · ⧖ 2026-10-05
 
 ## Agents
