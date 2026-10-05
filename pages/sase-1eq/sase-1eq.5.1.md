@@ -23,6 +23,16 @@
 
 Rename the SASE TUI's xprompt modules, identifiers, CSS, copy, keymap actions, and Admin Center ids to macro spellings. The agent prompt tab and headings say raw prompt. Pre-rename resume state still opens, retired keymap actions stay flag-gated aliases, and the PNG goldens match the new pixels.
 
+## Notes
+
+[2026-10-04T20:21:49Z · sase-1fv.land] DISCOVERED ISSUE: During implementation of the existing-definition catalog fix, targeted just fix-tui-screenshots runs repeatedly timed out at tests/ace/tui/visual/test_ace_png_snapshots_existing_finder.py::test_existing_snippet_finder_png_snapshot waiting for the TODO sentinel. The last frame showed the snippet finder open with the first gh plugin row selected and GitHub snippet body in Preview; both TODO rows were visible lower in the match list, so the sentinel does not describe the default selected preview. Likely update the fixture to select todo or wait for the current plugin preview. Three retries failed in each run; the snippet golden remained untouched. This is in scope for the active TUI macro surfaces and goldens work.
+
+[2026-10-04T21:00:37Z · 50--c] -d 🔒 sase-1eq-prompt-precedence-note.md
+
+## Attachments
+
+- 🔒 sase-1eq-prompt-precedence-note.md · text/markdown · 1.05176 KiB (private attachment)
+
 ## Agents
 
 | Agent | Bead | Commits |

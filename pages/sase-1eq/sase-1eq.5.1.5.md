@@ -30,7 +30,7 @@ tui-sweep: finish every remaining in-scope xprompt hit, including statistics ide
 ## Dependencies
 
 - **Depends on:** [sase-1eq.5.1.4](sase-1eq.5.1.4.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1eq.5.1.6](sase-1eq.5.1.6.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1eq.5.1.6](sase-1eq.5.1.6.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -43,3 +43,15 @@ tui-sweep: finish every remaining in-scope xprompt hit, including statistics ide
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6320828`](https://github.com/sase-org/sase/commit/632082887886030721d7ff3448423a60cc6d160d) | feat(tui): finish remaining TUI xprompt-to-macro identifier sweep | [sase-1eq.5.1.5](sase-1eq.5.1.5.md) | 2026-10-04 15:54:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.5--2][1] | Need current phase status, notes, and close eligibility before recording follow-ups and closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.5.md
+
+<!-- sase:referenced-by:end -->

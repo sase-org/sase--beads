@@ -11,6 +11,14 @@
 
 tui: rename TUI modules, identifiers, CSS, copy, keymap actions, and Admin Center ids. Apply the raw-prompt wording for the agent prompt tab and headings, and re-baseline the PNG goldens whose pixels change.
 
+## Notes
+
+[2026-10-04T21:00:53Z · 50--c] -d 🔒 sase-1eq-prompt-precedence-note.md
+
+## Attachments
+
+- 🔒 sase-1eq-prompt-precedence-note.md · text/markdown · 1.05176 KiB (private attachment)
+
 ## Dependencies
 
 - **Blocks:** [sase-1eq.10](sase-1eq.10.md) ◐ · ⧖ 2026-10-02

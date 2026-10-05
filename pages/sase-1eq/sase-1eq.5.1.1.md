@@ -24,9 +24,3 @@ tui-contracts: make focus_macro, clear_macro_focus, and start_last_vcs_macro_in_
 ## Dependencies
 
 - **Blocks:** [sase-1eq.5.1.2](sase-1eq.5.1.2.md) ✓ · ⧖ 2026-10-03
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1eq.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.1.md) | [sase-1eq.5.1.1](sase-1eq.5.1.1.md) | 0 |
