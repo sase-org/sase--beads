@@ -30,3 +30,15 @@ full-ci: stop the hermetic tool-runs smoke from requiring the live-only DoD-17 t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1c9a2cd`](https://github.com/sase-org/sase/commit/1c9a2cd5df1f90c5d8bf2f8e1ca81d858b2092e3) | fix(ci): stop full-ci perf-floor, visual, and timing flakes | [sase-1gt.4](sase-1gt.4.md) | 2026-10-05 13:29:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1gt.4--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.4.md
+
+<!-- sase:referenced-by:end -->
