@@ -28,10 +28,11 @@ plugin-types: load plugin input_types.yml files in sase-core, resolve <dist>@<id
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 1 |
+| [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@af5df61`](https://github.com/sase-org/sase-core/commit/af5df614a70a02995a1dc0b9c05337b719145289) | feat(core): load plugin input\_type registries with resolution, catalog, and LSP wiring | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:29:56 EDT |
+| sase | [`8fc4b4c`](https://github.com/sase-org/sase/commit/8fc4b4ccd65b3e39205847990076da0b9ec3152c) | feat(macro): resolve plugin-shared enum input types in runtime, LSP, CLI, and doctor | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:34:30 EDT |
