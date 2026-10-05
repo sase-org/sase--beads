@@ -13,7 +13,7 @@ plugin-types: load plugin input_types.yml files in sase-core, resolve <dist>@<id
 
 ## Dependencies
 
-- **Depends on:** [sase-1g4.4](sase-1g4.4.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.4](sase-1g4.4.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g4.7](sase-1g4.7.md) ◐ · ⧖ 2026-10-04
 
 ## Agents

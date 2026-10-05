@@ -14,7 +14,7 @@ model-tui: add the macro_arg_model completion kind that reuses the exact %model 
 ## Dependencies
 
 - **Depends on:** [sase-1g4.3](sase-1g4.3.md) ◐ · ⧖ 2026-10-04
-- **Depends on:** [sase-1g4.4](sase-1g4.4.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.4](sase-1g4.4.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g4.7](sase-1g4.7.md) ◐ · ⧖ 2026-10-04
 
 ## Agents

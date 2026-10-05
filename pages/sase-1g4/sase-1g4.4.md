@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1g4](README.md) / sase-1g4.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0wj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0wj.md) · **Assignee:** `sase-1g4.4` · **Size:** large
-**Created:** 2026-10-04 18:19:33 EDT
+**Created:** 2026-10-04 18:19:33 EDT · **Closed:** 2026-10-05 12:45:58 EDT
 **Plan:** [202610/macro\_named\_input\_types.md](https://github.com/sase-org/sase--plans/blob/main/202610/macro_named_input_types.md)
 
 ## Description
@@ -27,6 +27,10 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 [2026-10-05T15:26:06Z · sase-1g4.4--1] PROPOSED FOLLOW-UP: sase just-check full-suite lane shows 6 failed + 5 errors all in ACE TUI focus/session tests (test_prompt_tab_focus_steal x5, test_distinct_ace_apps_do_not_share_session_state x1); all 6 pass in isolation on this tree, so environmental under parallel load, not a phase regression.
 
+[2026-10-05T16:45:33Z · sase-1g4.4] PROPOSED FOLLOW-UP: sase tool run check in sase-core (with the effort-completion test added) failed twice in sase_gateway only, different test each run (sudo_runner dispatch Text-file-busy; federation_worker ipc socket symlink), and both pass alone on this tree; load flakes under the parallel gate, not a phase regression.
+
+[2026-10-05T16:45:58Z · sase-1g4.4] Verified model-core landing: sase-core 16095fcf and sase ce7c7148c0 with pin 16095fcf. Catalog (effort NamedEnum/enum, model Domain/word+model role), classifier corpus + canonical rejects, model completion/diagnostics/hover, snapshot builder cache, binder, doctor warns, docs rows all match contract. Added builtin_effort_argument_completes_seven_levels_in_order (passes; asserts 7 EFFORT_LEVELS_WITH_DESCRIPTIONS labels/order/docs + whole-value edit). sase targeted lane 43 passed. sase-core gate: touched crates green; two sase_gateway load flakes pass alone, recorded as follow-up. sase-1g4, sase-1g4.5, sase-1g4.6 stay open.
+
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
@@ -37,7 +41,7 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 2 |
+| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 3 |
 
 ## Commits
 
@@ -45,3 +49,4 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 |---|---|---|---|---|
 | sase-core | [`sase-core@16095fc`](https://github.com/sase-org/sase-core/commit/16095fcf715cf64a6f4d217961ce3f2083ab3b7f) | feat(macros): add builtin model and effort types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:28:10 EDT |
 | sase | [`ce7c714`](https://github.com/sase-org/sase/commit/ce7c7148c0822b565a8dd2a46b02111096fce96f) | feat(macro): add builtin model and effort input types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:31:58 EDT |
+| sase-core | [`sase-core@2fa78ad`](https://github.com/sase-org/sase-core/commit/2fa78ad066f4f2c77a1e4ee8c7bd303ac0d01c18) | feat(macros): add builtin effort argument completion test | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 12:47:39 EDT |
