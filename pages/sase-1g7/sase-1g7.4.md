@@ -15,7 +15,7 @@ rollout-proof: install the new sase-listen on apollo, then athena (and the Mac i
 
 - **Depends on:** [sase-1g7.1](sase-1g7.1.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1g7.2](sase-1g7.2.md) ✓ · ⧖ 2026-10-04
-- **Depends on:** [sase-1g7.3](sase-1g7.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g7.3](sase-1g7.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
