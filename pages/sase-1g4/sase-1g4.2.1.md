@@ -21,13 +21,14 @@ Complete the wire-lsp scope of sase-1g4.2: preserve resolved choices, named type
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@fe2ef0e`](https://github.com/sase-org/sase-core/commit/fe2ef0e6af311dc6ae7ba7340e85d54822504f26) | fix(lsp): land choice-wire tale: clippy named structs, invalid\_macro\_arg\_choice rename | [sase-1g4.2.1](sase-1g4.2.1.md) | 2026-10-05 08:59:59 EDT |
+| sase | [`0a7ccdf`](https://github.com/sase-org/sase/commit/0a7ccdf92c6c2ff6777a7d0e3032e719a21dc936) | fix(macro): land choice-wire tale: macro-spelled choice diagnostic docs, orphan removal, stale-pair cleanup | [sase-1g4.2.1](sase-1g4.2.1.md) | 2026-10-05 09:04:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -38,9 +39,11 @@ Complete the wire-lsp scope of sase-1g4.2: preserve resolved choices, named type
 | read-by | [agent:sase-1g4.2.1.1][1] | Need parent epic scope | 1 |
 | read-by | [agent:sase-1g4.2.1.2][2] | Need parent epic scope for phase 1g4.2.1.2 | 1 |
 | read-by | [agent:sase-1g4.2.1.3][3] | Need parent epic scope and remaining work | 1 |
+| read-by | [agent:sase-1g4.2.1.land--1][4] | landing-tale closeout per plan | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md
 
 <!-- sase:referenced-by:end -->

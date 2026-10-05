@@ -34,7 +34,9 @@ wire-lsp: carry choices/named_type/value_role on every hint, catalog, mobile, an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.2.1.1][1] | Need parent phase scope | 2 |
+| read-by | [agent:sase-1g4.2.1.land--1][2] | landing closeout: confirm phase status after epic close cascade | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md
 
 <!-- sase:referenced-by:end -->
