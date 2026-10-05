@@ -41,7 +41,7 @@ A macro input's `type` names what its value is: a scalar keyword, `enum` with in
 | [sase-1g4.4](sase-1g4.4.md) | Builtin model and effort types with one routing classifier | ✓ closed | large | 2026-10-04 | 1 | 3 |
 | [sase-1g4.5](sase-1g4.5.md) | Plugin-shared enums, sase macro types, and plugins.required | ✓ closed | large | 2026-10-04 | 1 | 2 |
 | [sase-1g4.6](sase-1g4.6.md) | Model arguments use the %model menu and model picker in the TUI | ✓ closed | medium | 2026-10-04 | 1 | 1 |
-| [sase-1g4.7](sase-1g4.7.md) | Dogfood, documentation, and memory | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
+| [sase-1g4.7](sase-1g4.7.md) | Dogfood, documentation, and memory | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 
 ## Lineage
 
@@ -65,7 +65,7 @@ flowchart TD
     n15["sase-1g4.4: Builtin model and effort types with one routing classifier [closed]"]
     n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [closed]"]
     n17["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [closed]"]
-    n18["sase-1g4.7: Dogfood, documentation, and memory [in_progress]"]
+    n18["sase-1g4.7: Dogfood, documentation, and memory [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 3 |
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 2 |
 | [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 1 |
-| [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 0 |
+| [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 1 |
 | [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.land/README.md) | [sase-1g4](README.md) | 0 |
 
 ## Commits
@@ -158,6 +158,7 @@ flowchart TD
 | sase | [`8fc4b4c`](https://github.com/sase-org/sase/commit/8fc4b4ccd65b3e39205847990076da0b9ec3152c) | feat(macro): resolve plugin-shared enum input types in runtime, LSP, CLI, and doctor | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:34:30 EDT |
 | sase | [`1a2dc5e`](https://github.com/sase-org/sase/commit/1a2dc5e4ddc7e2aec8f0bc444cd698744f4a79e9) | feat(tui-enum): route enum and bool args through Rust choice builder with picker and modal editing (sase-1g4.3) | [sase-1g4.3](sase-1g4.3.md) | 2026-10-05 18:06:50 EDT |
 | sase | [`55c46c3`](https://github.com/sase-org/sase/commit/55c46c363386403e4e80aa3f48cf9e7d6c89dfe4) | feat(ace): add macro model argument completion | [sase-1g4.6](sase-1g4.6.md) | 2026-10-05 18:32:47 EDT |
+| sase | [`abcfedc`](https://github.com/sase-org/sase/commit/abcfedc31d7b71f6bb2fa72fbc6e58d7f49e2b70) | feat(macros): document named input types and add runtime/LSP/TUI parity | [sase-1g4.7](sase-1g4.7.md) | 2026-10-05 19:49:38 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -21,7 +21,7 @@ model-tui: add the macro_arg_model completion kind that reuses the exact %model 
 
 - **Depends on:** [sase-1g4.3](sase-1g4.3.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1g4.4](sase-1g4.4.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g4.7](sase-1g4.7.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g4.7](sase-1g4.7.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
@@ -34,3 +34,15 @@ model-tui: add the macro_arg_model completion kind that reuses the exact %model 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`55c46c3`](https://github.com/sase-org/sase/commit/55c46c363386403e4e80aa3f48cf9e7d6c89dfe4) | feat(ace): add macro model argument completion | [sase-1g4.6](sase-1g4.6.md) | 2026-10-05 18:32:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g4.6][1] | Confirm the baseline check follow-up note before closing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md
+
+<!-- sase:referenced-by:end -->
