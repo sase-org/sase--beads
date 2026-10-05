@@ -13,7 +13,7 @@ scoreboard: build `sase instructions verify`. Pure Python parsers turn Claude tr
 
 ## Dependencies
 
-- **Depends on:** [sase-1gu.1](sase-1gu.1.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [sase-1gu.1](sase-1gu.1.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [sase-1gu.5](sase-1gu.5.md) ◐ · ⧖ 2026-10-05
 
 ## Agents

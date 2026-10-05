@@ -11,6 +11,10 @@
 
 claude-helpers: on every Claude invocation cycle, pass a packaged static helper template through the hidden `--append-subagent-system-prompt-file`, gated by a cached no-API capability probe. Also pass inline `--settings` JSON with a stdlib-only PreToolUse guard on Bash|Skill. When the hook input carries `agent_id`, the guard denies `sase final context|defer|prepare|submit`, turn-ending CLI commands, and root-only skills. Add the sunset flag `claude_helper_channel`, the doctor deep check `providers.claude_helper_channel`, tests, and raw mechanism probes: deny under bypass mode, the Explore and general-purpose markers, and whether forks carry `agent_id`.
 
+## Notes
+
+[2026-10-05T20:08:10Z · sase-1gu.4] Raw mechanism probes (2026-10-05, claude 2.1.289, haiku, scratch /tmp/sase-probe-1, adapter argv with --settings guard shim + --append-subagent-system-prompt-file template, SASE_* env scrubbed): (a) exit-0 JSON deny BLOCKS under --dangerously-skip-permissions (permission_mode bypassPermissions) - helper received "SASE helper guard: blocked sase final submit..."; no exit-2 fallback needed. (b) general-purpose + Explore helpers both carry agent_id in hook input; both subagent transcripts contain the "# SASE Helper Instructions" marker. Root calls carry no agent_id and are never denied (root sase final submit executed, failed harmlessly on manifest validation). Benign helper Bash (echo) allowed. (c) forked (depth-2 nested Explore) helper carries agent_id - guard covers forks. Guard latency: mean 23.4ms, p95 32.0ms (target <100ms).
+
 ## Dependencies
 
 - **Blocks:** [sase-1gu.5](sase-1gu.5.md) ◐ · ⧖ 2026-10-05
