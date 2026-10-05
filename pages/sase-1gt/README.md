@@ -15,7 +15,7 @@ Master Gate, the scheduled Full CI lanes, and the scheduled Publish workflow sto
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1gt.1](sase-1gt.1.md) | Unblock Publish release-metadata sync | ◐ in_progress | small | 2026-10-05 | 1 | 0 |
+| [sase-1gt.1](sase-1gt.1.md) | Unblock Publish release-metadata sync | ✓ closed | small | 2026-10-05 | 1 | 1 |
 | [sase-1gt.2](sase-1gt.2.md) | Fix Master Gate's persistent textual-ansi failure and the FrontmatterPanel teardown race | ✓ closed | small | 2026-10-05 | 1 | 1 |
 | [sase-1gt.3](sase-1gt.3.md) | Remove recurring Master Gate test races | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
 | [sase-1gt.4](sase-1gt.4.md) | Fix scheduled Full CI perf-floors, visual-test, and timing flakes | ◐ in_progress | small | 2026-10-05 | 1 | 0 |
@@ -25,7 +25,7 @@ Master Gate, the scheduled Full CI lanes, and the scheduled Publish workflow sto
 ```mermaid
 flowchart TD
     n0["sase-1gt: Repair failing sase GitHub Actions (Master Gate, Full CI, Publish) [in_progress]"]
-    n1["sase-1gt.1: Unblock Publish release-metadata sync [in_progress]"]
+    n1["sase-1gt.1: Unblock Publish release-metadata sync [closed]"]
     n2["sase-1gt.2: Fix Master Gate's persistent textual-ansi failure and the FrontmatterPanel teardown race [closed]"]
     n3["sase-1gt.3: Remove recurring Master Gate test races [in_progress]"]
     n4["sase-1gt.4: Fix scheduled Full CI perf-floors, visual-test, and timing flakes [in_progress]"]
@@ -39,7 +39,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1gt.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.1.md) | [sase-1gt.1](sase-1gt.1.md) | 0 |
+| [bbugyi200.athena.sase-1gt.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.1.md) | [sase-1gt.1](sase-1gt.1.md) | 1 |
 | [bbugyi200.athena.sase-1gt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.2/README.md) | [sase-1gt.2](sase-1gt.2.md) | 1 |
 | [bbugyi200.athena.sase-1gt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.3.md) | [sase-1gt.3](sase-1gt.3.md) | 0 |
 | [bbugyi200.athena.sase-1gt.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gt.4.md) | [sase-1gt.4](sase-1gt.4.md) | 0 |
@@ -50,3 +50,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`69b492c`](https://github.com/sase-org/sase/commit/69b492c27848b08c25c10cadb2045825a57a3e52) | fix(pager,ace): handle Textual 8.2 theme removal and childless frontmatter mount | [sase-1gt.2](sase-1gt.2.md) | 2026-10-05 12:48:50 EDT |
+| sase | [`b3e571a`](https://github.com/sase-org/sase/commit/b3e571a8ab0cce87432397a5cd6d01ca1cf4cbc4) | fix(release): ignore uv lock revision header in ratchet\_core\_window | [sase-1gt.1](sase-1gt.1.md) | 2026-10-05 13:10:47 EDT |
