@@ -36,10 +36,11 @@ audit-deploy: remove the temporary import shim and widen the guard to the whole 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.11.md) | [sase-1eq.11](sase-1eq.11.md) | 1 |
+| [bbugyi200.athena.sase-1eq.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.11.md) | [sase-1eq.11](sase-1eq.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`17c2907`](https://github.com/sase-org/sase/commit/17c2907d3bcfd1495ff37e11217c9911bcdf2978) | feat!: drop the sase.xprompt shim and finish audit-deploy cutover | [sase-1eq.11](sase-1eq.11.md) | 2026-10-05 09:05:12 EDT |
+| chezmoi | [`chezmoi@643112d`](https://github.com/bbugyi200/dotfiles/commit/643112deb02342165681895c52609c2670f8b001) | feat(chezmoi): migrate home sase xprompts sources to macros | [sase-1eq.11](sase-1eq.11.md) | 2026-10-05 09:08:09 EDT |
