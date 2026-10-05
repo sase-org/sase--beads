@@ -22,10 +22,22 @@ bob-listen-banner: render `listen` Divs as a dependency-free LaTeX callout and, 
 ## Dependencies
 
 - **Depends on:** [sase-1g6.2](sase-1g6.2.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g6.4](sase-1g6.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g6.4](sase-1g6.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1g6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.3/README.md) | [sase-1g6.3](sase-1g6.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g6.3][1] | Verify phase closure after the requested close command | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.3/README.md
+
+<!-- sase:referenced-by:end -->
