@@ -13,8 +13,8 @@ surface: generate the macro input JSON schemas, add the config.macro_input_types
 
 ## Dependencies
 
-- **Depends on:** [sase-1g4.1.1.2](sase-1g4.1.1.2.md) ◐ · ⧖ 2026-10-04
-- **Depends on:** [sase-1g4.1.1.3](sase-1g4.1.1.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.1.1.2](sase-1g4.1.1.2.md) ✓ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.1.1.3](sase-1g4.1.1.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

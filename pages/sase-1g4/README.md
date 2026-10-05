@@ -43,8 +43,8 @@ flowchart TD
     n1["sase-1g4.1: One input-type vocabulary and strict enum declarations [in_progress]"]
     n2["sase-1g4.1.1: One input-type vocabulary and strict enum declarations [in_progress]"]
     n3["sase-1g4.1.1.1: Rust input-type catalog, resolver, and Python bindings [closed]"]
-    n4["sase-1g4.1.1.2: Route Rust parsers and frontmatter diagnostics through the catalog [in_progress]"]
-    n5["sase-1g4.1.1.3: Python loaders, isolation, handoff, and the sunset flag [in_progress]"]
+    n4["sase-1g4.1.1.2: Route Rust parsers and frontmatter diagnostics through the catalog [closed]"]
+    n5["sase-1g4.1.1.3: Python loaders, isolation, handoff, and the sunset flag [closed]"]
     n6["sase-1g4.1.1.4: Schemas, doctor check, dogfood enums, and docs [in_progress]"]
     n7["sase-1g4.2: Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP [in_progress]"]
     n8["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
@@ -84,7 +84,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1g4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.md) | [sase-1g4.1](sase-1g4.1.md) | 0 |
 | [bbugyi200.athena.sase-1g4.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.1/README.md) | [sase-1g4.1.1.1](sase-1g4.1.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1g4.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.2/README.md) | [sase-1g4.1.1.2](sase-1g4.1.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1g4.1.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.1.2.md) | [sase-1g4.1.1.2](sase-1g4.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1g4.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.3/README.md) | [sase-1g4.1.1.3](sase-1g4.1.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1g4.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.4/README.md) | [sase-1g4.1.1.4](sase-1g4.1.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1g4.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.land/README.md) | [sase-1g4.1.1](sase-1g4.1.1.md) | 0 |
@@ -101,3 +101,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@2838c7e`](https://github.com/sase-org/sase-core/commit/2838c7eb181521c81e16a29c293f52bfd10d6d3e) | feat: add macro input-type catalog, resolver, and Python bindings | [sase-1g4.1.1.1](sase-1g4.1.1.1.md) | 2026-10-04 19:12:13 EDT |
+| sase-core | [`sase-core@048b649`](https://github.com/sase-org/sase-core/commit/048b6490a91de0c1567c4d461a69dd7219fe373c) | feat(editor): route macro input validation through shared catalog | [sase-1g4.1.1.2](sase-1g4.1.1.2.md) | 2026-10-04 21:20:22 EDT |
