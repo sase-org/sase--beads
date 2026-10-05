@@ -21,4 +21,4 @@ wire-lsp: carry choices/named_type/value_role on every hint, catalog, mobile, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2/README.md) | [sase-1g4.2](sase-1g4.2.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.md) | [sase-1g4.2](sase-1g4.2.md) | 0 |

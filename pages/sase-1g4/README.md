@@ -47,11 +47,17 @@ flowchart TD
     n5["sase-1g4.1.1.3: Python loaders, isolation, handoff, and the sunset flag [closed]"]
     n6["sase-1g4.1.1.4: Schemas, doctor check, dogfood enums, and docs [closed]"]
     n7["sase-1g4.2: Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP [in_progress]"]
-    n8["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
-    n9["sase-1g4.4: Builtin model and effort types with one routing classifier [in_progress]"]
-    n10["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [in_progress]"]
-    n11["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [in_progress]"]
-    n12["sase-1g4.7: Dogfood, documentation, and memory [in_progress]"]
+    n8["sase-1g4.2.1: Carry macro input metadata and finish enum assistance in the LSP [in_progress]"]
+    n9["sase-1g4.2.1.1: Resolved Rust wires, shared choice candidates, and type labels [closed]"]
+    n10["sase-1g4.2.1.2: Enum completion and frontmatter type completion in the LSP [in_progress]"]
+    n11["sase-1g4.2.1.3: Choice diagnostics, diagnostic-driven fixes, and rich argument hover [in_progress]"]
+    n12["sase-1g4.2.1.4: Python catalogs, mobile and highlight wires, and macro show [in_progress]"]
+    n13["sase-1g4.2.1.5: Cross-surface acceptance and phase closure evidence [in_progress]"]
+    n14["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
+    n15["sase-1g4.4: Builtin model and effort types with one routing classifier [in_progress]"]
+    n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [in_progress]"]
+    n17["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [in_progress]"]
+    n18["sase-1g4.7: Dogfood, documentation, and memory [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -59,23 +65,36 @@ flowchart TD
     n2 --> n5
     n2 --> n6
     n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n7 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n7
     n3 -.-> n4
     n3 -.-> n5
     n4 -.-> n6
     n5 -.-> n6
-    n7 -.-> n8
-    n7 -.-> n9
-    n8 -.-> n11
+    n7 -.-> n14
+    n7 -.-> n15
     n9 -.-> n10
     n9 -.-> n11
-    n10 -.-> n12
-    n11 -.-> n12
+    n9 -.-> n12
+    n10 -.-> n11
+    n10 -.-> n13
+    n11 -.-> n13
+    n12 -.-> n13
+    n14 -.-> n17
+    n15 -.-> n16
+    n15 -.-> n17
+    n16 -.-> n18
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -88,7 +107,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.3/README.md) | [sase-1g4.1.1.3](sase-1g4.1.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1g4.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.1.4.md) | [sase-1g4.1.1.4](sase-1g4.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1g4.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.1.land.md) | [sase-1g4.1.1](sase-1g4.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1g4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2/README.md) | [sase-1g4.2](sase-1g4.2.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.md) | [sase-1g4.2](sase-1g4.2.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.1/README.md) | [sase-1g4.2.1.1](sase-1g4.2.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1g4.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md) | [sase-1g4.2.1.2](sase-1g4.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md) | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md) | [sase-1g4.2.1.4](sase-1g4.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.5/README.md) | [sase-1g4.2.1.5](sase-1g4.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.land/README.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.3/README.md) | [sase-1g4.3](sase-1g4.3.md) | 0 |
 | [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.4/README.md) | [sase-1g4.4](sase-1g4.4.md) | 0 |
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.5/README.md) | [sase-1g4.5](sase-1g4.5.md) | 0 |
@@ -106,3 +131,4 @@ flowchart TD
 | sase | [`2a55a03`](https://github.com/sase-org/sase/commit/2a55a03deb48f86f002ae6cde3025ec8459df74b) | feat(macros): generate input-type schemas and dogfood #pr status enum | [sase-1g4.1.1.4](sase-1g4.1.1.4.md) | 2026-10-05 01:02:47 EDT |
 | sase | [`95291ab`](https://github.com/sase-org/sase/commit/95291ab31a447dcb720dcbdf1b87ae21590f2968) | feat(macros): wire loaders through input type catalog | [sase-1g4.1.1](sase-1g4.1.1.md) | 2026-10-05 02:10:43 EDT |
 | sase--plans | [`sase--plans@db464b9`](https://github.com/sase-org/sase--plans/commit/db464b9c5446ba963bd8b42de909d8cf10bb1e48) | docs(plans): mark input type vocabulary plan done | [sase-1g4.1.1](sase-1g4.1.1.md) | 2026-10-05 02:14:11 EDT |
+| sase-core | [`sase-core@0d27dad`](https://github.com/sase-org/sase-core/commit/0d27dada58d711d4bb71b179a6624c1bff882b63) | feat(macros): carry resolved choice metadata and shared candidates | [sase-1g4.2.1.1](sase-1g4.2.1.1.md) | 2026-10-05 02:58:52 EDT |
