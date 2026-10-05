@@ -17,6 +17,12 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 [2026-10-05T12:58:24Z · sase-1g4.2.1.land--1] sase-1g4.2.1 landing renamed the closed-set argument diagnostic to invalid_macro_arg_choice to match the post-flip *_macro_arg* codes; emit the model warning as invalid_macro_arg_model, not the design's invalid_xprompt_arg_model.
 
+[2026-10-05T14:19:12Z · sase-1g4.4--1] PROPOSED FOLLOW-UP: completion_context_macro_variants_pin_legacy_output is red on the untouched base tree (legacy xprompt_argument_* spellings no longer parse after the macro-spelling flip); the new MacroArgumentModel variant follows the live macro_argument_* spelling and needs no pin change once the pin is repaired.
+
+[2026-10-05T14:23:29Z · sase-1g4.4--1] PROPOSED FOLLOW-UP: 4 more sase-core editor tests fail identically on the untouched base tree (duplicate_local_sections_are_an_error_naming_macros, builds_frontmatter_field_hover, canonical_local_section_wins_on_helper_name_conflict, macro_argument_source_accepts_old_and_new_spellings); verified via stash-compare, not caused by this phase.
+
+[2026-10-05T14:27:28Z · sase-1g4.4--1] PROPOSED FOLLOW-UP: 6 sase_core_py binding tests and 2 sase_macro_lsp server tests fail identically on the untouched base tree (xprompt/macro rename fallout plus agent-scan/proc spelling pins); verified via stash-compare, not caused by this phase.
+
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
@@ -27,4 +33,4 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.4/README.md) | [sase-1g4.4](sase-1g4.4.md) | 0 |
+| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 0 |

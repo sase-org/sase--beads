@@ -11,6 +11,10 @@
 
 tui-enum: route enum and bool arguments through the Rust choice builder in the prompt bar with labelled, described rows; use type labels in hints; add a searchable picker for large sets in the typed form; let authoring modals pick any type and edit choices; drive the shared golden fixtures from Python; add visual snapshots.
 
+## Notes
+
+[2026-10-05T14:34:42Z · sase-1g4.3--2] sase-1g4.3 enum TUI verification status (2026-10-05): lint stages green in joined check 1102cfa09a546d83487d5c4f30e03d3a (fmt, ruff, mypy, symvision, SASE validation all pass). Enum-phase tests green in isolation: 76 passed across test_macro_arg_choice_tui_parity, test_typed_input_form, test_macro_arg_value_completion, test_macro_choice_projection_parity; 49 frontmatter panel/subeditor/property tests passed; visual check clean via just fix-tui-screenshots --check (6/6 macro_arg_completion incl enum value + picker, 13/13 gate+frontmatter). Epic-symbols clean (none for sase-1g4.3). PROPOSED FOLLOW-UP: joined check exit 1 triaged 2 NEW + 2 KNOWN; both NEW pass in isolation on this tree (test_block_spread_bracket_top_aligns 1 passed; test_tab_after_background_refresh_stays_on_agents 4 passed) with teardown DuplicateIds/isolation-leak cascade in full parallel run, files untouched by this phase (no deck/focus-steal edits) -- treat as parallel-run flakes, not phase regressions. Bead left open pending a green check.
+
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
@@ -20,4 +24,10 @@ tui-enum: route enum and bool arguments through the Rust choice builder in the p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.3/README.md) | [sase-1g4.3](sase-1g4.3.md) | 0 |
+| [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.3.md) | [sase-1g4.3](sase-1g4.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a958ba4`](https://github.com/sase-org/sase/commit/a958ba4e872c80db0f3f75c039c169fe2deca9eb) | feat(tui-enum): route enum and bool args through Rust choice builder with picker and modal editors | [sase-1g4.3](sase-1g4.3.md) | 2026-10-05 10:36:14 EDT |
