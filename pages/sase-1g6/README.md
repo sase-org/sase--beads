@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1g6.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1g6.2.md) | [sase-1g6.2](sase-1g6.2.md) | 0 |
 | [bbugyi200.apollo.sase-1g6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.3/README.md) | [sase-1g6.3](sase-1g6.3.md) | 0 |
 | [bbugyi200.apollo.sase-1g6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.4/README.md) | [sase-1g6.4](sase-1g6.4.md) | 0 |
-| [bbugyi200.apollo.sase-1g6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1g6.land.md) | [sase-1g6](README.md) | 0 |
+| [bbugyi200.apollo.sase-1g6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1g6.land.md) | [sase-1g6](README.md) | 1 |
 
 ## Commits
 
@@ -92,6 +92,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-listen | [`sase-listen@ec1196b`](https://github.com/sase-org/sase-listen/commit/ec1196b8d2f517dd4430a90d70ad19148c4dd5c1) | docs(sase-integration): document swarm listen card and audio waits | [sase-1g6.1](sase-1g6.1.md) | 2026-10-04 19:17:55 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@867222d`](https://github.com/sase-org/sase-research-artifacts/commit/867222d4fb2c9825958a5a08187af0db2d7d452b) | feat(xprompts): wire audio into swarm topology and linker listen card | [sase-1g6.1](sase-1g6.1.md) | 2026-10-04 19:21:34 EDT |
+| sase--plans | [`sase--plans@ccfeaf1`](https://github.com/sase-org/sase--plans/commit/ccfeaf15b52094fa350224b7f750f5c2510833b5) | docs(plans): mark listen-card epic plan done | [sase-1g6](README.md) | 2026-10-04 21:35:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
