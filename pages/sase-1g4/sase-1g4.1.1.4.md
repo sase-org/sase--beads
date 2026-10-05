@@ -7,6 +7,24 @@
 **Created:** 2026-10-04 18:33:20 EDT · **Closed:** 2026-10-04 22:55:46 EDT
 **Plan:** [202610/macro\_input\_type\_vocab.md](https://github.com/sase-org/sase--plans/blob/main/202610/macro_input_type_vocab.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1gg][1] | Proposing phase note #2 |
+| related | [bead:sase-1gh][2] | Proposing phase note #5 |
+| related | [bead:sase-1gi][3] | Proposing phase note #6 |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gg/README.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gh/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gi/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 surface: generate the macro input JSON schemas, add the config.macro_input_types doctor check, make #pr status an enum, and document the value rules.
@@ -45,3 +63,15 @@ surface: generate the macro input JSON schemas, add the config.macro_input_types
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2a55a03`](https://github.com/sase-org/sase/commit/2a55a03deb48f86f002ae6cde3025ec8459df74b) | feat(macros): generate input-type schemas and dogfood #pr status enum | [sase-1g4.1.1.4](sase-1g4.1.1.4.md) | 2026-10-05 01:02:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g4.1.1.4--5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.1.4.md
+
+<!-- sase:referenced-by:end -->
