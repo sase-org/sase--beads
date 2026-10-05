@@ -11,10 +11,14 @@
 
 core-flip: make sase-core emit only macro spellings and remove the legacy binding names. Rename the LSP crate, bump the index and wire schemas, and add the mobile macros route. In the same declared turn, update sase mirrors and pin, and the chezmoi LSP install script.
 
+## Notes
+
+[2026-10-05T03:01:46Z · sase-1eq.5.1.land] From the sase-1eq.5.1 (TUI macro surfaces) landing, 2026-10-04: sase-side pre-flip adapters that core-flip must flip in its same declared turn. These were deferred per plan and recorded as PROPOSED FOLLOW-UP by sase-1eq.5.1.5 (notes #1, #3) and sase-1eq.5.1.6 (note #1). (1) The Jinja scope kind: src/sase/macro/jinja_assist.py JinjaScopeKind = Literal['prompt', 'xprompt'], plus LEGACY_XPROMPT_JINJA_SCOPE_KIND in src/sase/legacy_xprompt_names.py, used by ace/tui actions/agent_workflow/_prompt_bar_save_macro.py, widgets/_local_macro_conversion.py, and widgets/_prompt_input_bar_frontmatter.py. (2) The completion spacer binding: legacy_xprompt_names.require_legacy_xprompt_completion_spacer_binding, called from ace/tui/widgets/_argument_syntax_editing.py. (3) The MacroArgumentSource dual reader: 'xprompt' in src/sase/macro/highlight.py _SOURCES and line ~510. (4) The detail-header xprompts_used response field, pinned in tests/perf/bench_detail_header_summary.py. (5) Stats response keys, still read through mirror constants (request keys already send macro_*). The matching terminology-guard rows point at sase-1eq.10 in tests/_macro_terminology_strings.py and the pair tables; drop them when the wire flips.
+
 ## Dependencies
 
 - **Blocks:** [sase-1eq.11](sase-1eq.11.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [sase-1eq.5](sase-1eq.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [sase-1eq.5](sase-1eq.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.7](sase-1eq.7.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.8](sase-1eq.8.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [sase-1eq.9](sase-1eq.9.md) ✓ · ⧖ 2026-10-02

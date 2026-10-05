@@ -7,6 +7,20 @@
 **Created:** 2026-10-03 13:29:50 EDT · **Closed:** 2026-10-04 15:53:08 EDT
 **Plan:** [202610/tui\_macro\_surfaces.md](https://github.com/sase-org/sase--plans/blob/main/202610/tui_macro_surfaces.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1gd][1] | Proposing phase: note #6 reproduced it on unmodified origin/master |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gd/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 tui-sweep: finish every remaining in-scope xprompt hit, including statistics identifiers, scattered widgets, and the non-TUI mirror files the terminology guard already assigns to sase-1eq.5.

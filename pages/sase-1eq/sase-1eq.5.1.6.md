@@ -7,6 +7,22 @@
 **Created:** 2026-10-03 13:29:51 EDT · **Closed:** 2026-10-04 20:49:21 EDT
 **Plan:** [202610/tui\_macro\_surfaces.md](https://github.com/sase-org/sase--plans/blob/main/202610/tui_macro_surfaces.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1ge][1] | Proposing phase: note #2 reproduced the failure on a clean base during the j/k benchmark run |
+| related | [bead:sase-1gf][2] | Proposing phase: note #2 reproduced the failure on a clean base during the j/k benchmark run |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ge/README.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gf/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 tui-goldens: rename the xprompt PNG goldens, re-baseline changed pixels, widen the terminology guard over the TUI scope, and run the j/k navigation benchmark.
@@ -34,3 +50,15 @@ tui-goldens: rename the xprompt PNG goldens, re-baseline changed pixels, widen t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`404b0e2`](https://github.com/sase-org/sase/commit/404b0e2ac2081d84d9c198b50639277ae655f46c) | refactor(tui): finish macro terminology and PNG golden sweep | [sase-1eq.5.1.6](sase-1eq.5.1.6.md) | 2026-10-04 22:07:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.6--3][1] | Verify recorded proposed follow-up before closing this phase | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.6.md
+
+<!-- sase:referenced-by:end -->

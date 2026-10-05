@@ -18,7 +18,7 @@ sase-syntax: create the legacy_xprompt_syntax sunset flag. Switch every user-fac
 ## Dependencies
 
 - **Depends on:** [sase-1eq.3](sase-1eq.3.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [sase-1eq.5](sase-1eq.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [sase-1eq.5](sase-1eq.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.6](sase-1eq.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.7](sase-1eq.7.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [sase-1eq.8](sase-1eq.8.md) ✓ · ⧖ 2026-10-02
