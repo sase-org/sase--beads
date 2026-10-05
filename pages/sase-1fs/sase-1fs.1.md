@@ -22,7 +22,7 @@ manifest_compatibility: narrowly accept the historical family-only file set, pre
 ## Dependencies
 
 - **Blocks:** [sase-1fs.2](sase-1fs.2.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1fs.3](sase-1fs.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fs.3](sase-1fs.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

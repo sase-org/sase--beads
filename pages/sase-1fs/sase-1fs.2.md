@@ -24,7 +24,7 @@ publication_recovery: add project-scoped retired-request retry, preserve deferre
 ## Dependencies
 
 - **Depends on:** [sase-1fs.1](sase-1fs.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [sase-1fs.3](sase-1fs.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [sase-1fs.3](sase-1fs.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
@@ -45,8 +45,12 @@ publication_recovery: add project-scoped retired-request retry, preserve deferre
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:toobig-6y.macro_terminology_string_pairs_b.0][1] | Need whether kill-provenance symvision is already recorded | 1 |
+| read-by | [agent:sase-1fs.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1fv.1][2] | Check prior records for the known Symvision symbols and avoid duplicating an existing follow-up | 1 |
+| read-by | [agent:toobig-6y.macro_terminology_string_pairs_b.0][3] | Need whether kill-provenance symvision is already recorded | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-6y.macro_terminology_string_pairs_b.0/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fs.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1fv.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-6y.macro_terminology_string_pairs_b.0/README.md
 
 <!-- sase:referenced-by:end -->
