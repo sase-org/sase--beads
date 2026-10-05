@@ -35,7 +35,9 @@ bob-audio-companion: add audio discovery (flag, frontmatter episode id, narratio
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g6.3][1] | Check the prerequisite phase outcome before integrating its audio companion output | 1 |
+| read-by | [agent:sase-1g6.4][2] | Need prior phase close notes and what was implemented | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.4/README.md
 
 <!-- sase:referenced-by:end -->

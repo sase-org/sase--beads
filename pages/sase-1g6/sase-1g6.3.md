@@ -37,7 +37,9 @@ bob-listen-banner: render `listen` Divs as a dependency-free LaTeX callout and, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g6.3][1] | Verify phase closure after the requested close command | 2 |
+| read-by | [agent:sase-1g6.4][2] | Need prior phase notes on clippy follow-up | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1g6.4/README.md
 
 <!-- sase:referenced-by:end -->
