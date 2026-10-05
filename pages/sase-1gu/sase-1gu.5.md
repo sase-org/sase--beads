@@ -13,7 +13,7 @@ record: add the actor-qualified root-only sentence to `memory-sase.template.md` 
 
 ## Dependencies
 
-- **Depends on:** [sase-1gu.2](sase-1gu.2.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [sase-1gu.2](sase-1gu.2.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [sase-1gu.3](sase-1gu.3.md) ◐ · ⧖ 2026-10-05
 - **Depends on:** [sase-1gu.4](sase-1gu.4.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [sase-1gu.6](sase-1gu.6.md) ◐ · ⧖ 2026-10-05

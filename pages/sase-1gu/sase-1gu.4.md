@@ -34,3 +34,15 @@ claude-helpers: on every Claude invocation cycle, pass a packaged static helper 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`421c3ba`](https://github.com/sase-org/sase/commit/421c3ba045b9f7376c4f5bc05eb6c01d4acfdaf7) | feat(claude): add helper guard and channel with sunset flag | [sase-1gu.4](sase-1gu.4.md) | 2026-10-05 17:13:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1gu.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.4/README.md
+
+<!-- sase:referenced-by:end -->

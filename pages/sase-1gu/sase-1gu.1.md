@@ -19,7 +19,7 @@ cli-group: add the top-level `sase instructions` group. Its `list` subcommand, a
 
 ## Dependencies
 
-- **Blocks:** [sase-1gu.2](sase-1gu.2.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1gu.2](sase-1gu.2.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
