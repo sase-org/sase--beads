@@ -23,12 +23,16 @@
 
 A macro input's `type` names what its value is: a scalar keyword, `enum` with inline `choices`, a builtin type (`agent`, `model`, `effort`), or a plugin's shared enum (`<dist>@<id>`). Every such value completes, validates, and explains itself the same way in the TUI prompt bar, the typed launch form, the LSP (Neovim and other editors), `sase macro show`/`types`, and the runtime binder, because sase-core owns one type vocabulary, one validator, and one candidate builder.
 
+## Notes
+
+[2026-10-05T10:47:44Z · claude-code-interactive] DISCOVERED ISSUE: InputItemModal crashes the TUI when it opens for a new input. src/sase/ace/tui/modals/input_item_modal.py:100 still evaluates InputType.LINE.value when `existing` is None, but 95291ab31a (sase-1g4.1.1, "wire loaders through input type catalog") removed the InputType import. Reproduced on sase master f0893af93b by mounting InputItemModal() in a headless Textual app: NameError "name 'InputType' is not defined" raised from compose(). mypy flags the same line (name-defined). This most likely falls within sase-1g4.3's authoring-modals scope.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1g4.1](sase-1g4.1.md) | One input-type vocabulary and strict enum declarations | ✓ closed | large | 2026-10-04 | 1 | 0 |
-| [sase-1g4.2](sase-1g4.2.md) | Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
+| [sase-1g4.2](sase-1g4.2.md) | Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP | ✓ closed | large | 2026-10-04 | 1 | 0 |
 | [sase-1g4.3](sase-1g4.3.md) | Enum choice menus in the prompt bar, typed form, and authoring modals | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 | [sase-1g4.4](sase-1g4.4.md) | Builtin model and effort types with one routing classifier | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 | [sase-1g4.5](sase-1g4.5.md) | Plugin-shared enums, sase macro types, and plugins.required | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
@@ -46,13 +50,13 @@ flowchart TD
     n4["sase-1g4.1.1.2: Route Rust parsers and frontmatter diagnostics through the catalog [closed]"]
     n5["sase-1g4.1.1.3: Python loaders, isolation, handoff, and the sunset flag [closed]"]
     n6["sase-1g4.1.1.4: Schemas, doctor check, dogfood enums, and docs [closed]"]
-    n7["sase-1g4.2: Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP [in_progress]"]
-    n8["sase-1g4.2.1: Carry macro input metadata and finish enum assistance in the LSP [in_progress]"]
+    n7["sase-1g4.2: Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP [closed]"]
+    n8["sase-1g4.2.1: Carry macro input metadata and finish enum assistance in the LSP [closed]"]
     n9["sase-1g4.2.1.1: Resolved Rust wires, shared choice candidates, and type labels [closed]"]
     n10["sase-1g4.2.1.2: Enum completion and frontmatter type completion in the LSP [closed]"]
     n11["sase-1g4.2.1.3: Choice diagnostics, diagnostic-driven fixes, and rich argument hover [closed]"]
     n12["sase-1g4.2.1.4: Python catalogs, mobile and highlight wires, and macro show [closed]"]
-    n13["sase-1g4.2.1.5: Cross-surface acceptance and phase closure evidence [in_progress]"]
+    n13["sase-1g4.2.1.5: Cross-surface acceptance and phase closure evidence [closed]"]
     n14["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
     n15["sase-1g4.4: Builtin model and effort types with one routing classifier [in_progress]"]
     n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [in_progress]"]
@@ -112,8 +116,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md) | [sase-1g4.2.1.2](sase-1g4.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1g4.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md) | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1g4.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md) | [sase-1g4.2.1.4](sase-1g4.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1g4.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.5/README.md) | [sase-1g4.2.1.5](sase-1g4.2.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.land/README.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.5.md) | [sase-1g4.2.1.5](sase-1g4.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.land.md) | [sase-1g4.2.1](sase-1g4.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.3/README.md) | [sase-1g4.3](sase-1g4.3.md) | 0 |
 | [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.4/README.md) | [sase-1g4.4](sase-1g4.4.md) | 0 |
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.5/README.md) | [sase-1g4.5](sase-1g4.5.md) | 0 |
@@ -138,3 +142,4 @@ flowchart TD
 | sase | [`a6df140`](https://github.com/sase-org/sase/commit/a6df140bcced9f6b1ced1154408e516fcdedb5ea) | docs(editor): document enum and frontmatter type completion in the LSP | [sase-1g4.2.1.2](sase-1g4.2.1.2.md) | 2026-10-05 04:27:05 EDT |
 | sase-core | [`sase-core@ecd2e07`](https://github.com/sase-org/sase-core/commit/ecd2e074b4489c0c326e2137075dfd29be2bc384) | feat(lsp): classify enum diagnostics and drive diagnostic quick fixes | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2026-10-05 05:51:47 EDT |
 | sase | [`6fde796`](https://github.com/sase-org/sase/commit/6fde79660418540d98dd81fbcdd317f50c062cf8) | docs(editor): document choice diagnostics, quick fixes, and argument hover | [sase-1g4.2.1.3](sase-1g4.2.1.3.md) | 2026-10-05 05:56:18 EDT |
+| sase-core | [`sase-core@fe2ef0e`](https://github.com/sase-org/sase-core/commit/fe2ef0e6af311dc6ae7ba7340e85d54822504f26) | fix(lsp): land choice-wire tale: clippy named structs, invalid\_macro\_arg\_choice rename | [sase-1g4.2.1](sase-1g4.2.1.md) | 2026-10-05 08:59:59 EDT |

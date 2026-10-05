@@ -13,7 +13,7 @@ tui-enum: route enum and bool arguments through the Rust choice builder in the p
 
 ## Dependencies
 
-- **Depends on:** [sase-1g4.2](sase-1g4.2.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g4.6](sase-1g4.6.md) ◐ · ⧖ 2026-10-04
 
 ## Agents

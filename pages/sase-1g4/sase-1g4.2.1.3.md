@@ -27,7 +27,7 @@ diagnostics: carry structured suggestions and edits in diagnostics, classify inv
 
 - **Depends on:** [sase-1g4.2.1.1](sase-1g4.2.1.1.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [sase-1g4.2.1.2](sase-1g4.2.1.2.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
@@ -49,7 +49,9 @@ diagnostics: carry structured suggestions and edits in diagnostics, classify inv
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.2.1.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1g4.2.1.5--1][2] | Need dependency handoff notes for parity verification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.5.md
 
 <!-- sase:referenced-by:end -->

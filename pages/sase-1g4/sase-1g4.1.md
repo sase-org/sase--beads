@@ -17,7 +17,7 @@ vocab: add the sase-core macro_input_types module (type catalog, resolver, did-y
 
 ## Dependencies
 
-- **Blocks:** [sase-1g4.2](sase-1g4.2.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

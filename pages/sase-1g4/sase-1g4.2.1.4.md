@@ -20,7 +20,7 @@ projections: preserve rich input metadata in Python catalog, mobile, and highlig
 ## Dependencies
 
 - **Depends on:** [sase-1g4.2.1.1](sase-1g4.2.1.1.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1g4.2.1.5](sase-1g4.2.1.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
@@ -42,8 +42,10 @@ projections: preserve rich input metadata in Python catalog, mobile, and highlig
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.2.1.2][1] | Need the content_layout schema 6 vs 5 pre-existing failure notes to cite as PROPOSED FOLLOW-UP | 1 |
 | read-by | [agent:sase-1g4.2.1.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1g4.2.1.5--1][3] | Need dependency handoff notes for parity verification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.2.1.5.md
 
 <!-- sase:referenced-by:end -->
