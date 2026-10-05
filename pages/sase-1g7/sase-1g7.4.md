@@ -29,10 +29,23 @@ rollout-proof: install the new sase-listen on apollo, then athena (and the Mac i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g7.4.md) | [sase-1g7.4](sase-1g7.4.md) | 1 |
+| [bbugyi200.athena.sase-1g7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g7.4.md) | [sase-1g7.4](sase-1g7.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@9e8d272`](https://github.com/bbugyi200/dotfiles/commit/9e8d272ca6d195b1290869ec1155a51dcc592ae3) | feat(sase-listen): point feed.host at apollo for multi-machine publish | [sase-1g7.4](sase-1g7.4.md) | 2026-10-04 21:13:45 EDT |
+| sase-listen | [`sase-listen@69a52a4`](https://github.com/sase-org/sase-listen/commit/69a52a449a421126197748025fd0e3111fc38233) | fix(feed): report remote via as the SSH destination | [sase-1g7.4](sase-1g7.4.md) | 2026-10-04 21:17:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g7.4--1][1] | Confirm phase still closed after finalizer keep | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g7.4.md
+
+<!-- sase:referenced-by:end -->
