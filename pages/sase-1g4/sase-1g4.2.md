@@ -18,7 +18,7 @@ wire-lsp: carry choices/named_type/value_role on every hint, catalog, mobile, an
 ## Dependencies
 
 - **Depends on:** [sase-1g4.1](sase-1g4.1.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g4.3](sase-1g4.3.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g4.3](sase-1g4.3.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g4.4](sase-1g4.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents

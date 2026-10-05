@@ -35,7 +35,7 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 - **Depends on:** [sase-1g4.2](sase-1g4.2.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [sase-1g4.5](sase-1g4.5.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g4.6](sase-1g4.6.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g4.6](sase-1g4.6.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

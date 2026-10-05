@@ -29,16 +29,18 @@ A macro input's `type` names what its value is: a scalar keyword, `enum` with in
 
 [2026-10-05T10:47:44Z · claude-code-interactive] DISCOVERED ISSUE: InputItemModal crashes the TUI when it opens for a new input. src/sase/ace/tui/modals/input_item_modal.py:100 still evaluates InputType.LINE.value when `existing` is None, but 95291ab31a (sase-1g4.1.1, "wire loaders through input type catalog") removed the InputType import. Reproduced on sase master f0893af93b by mounting InputItemModal() in a headless Textual app: NameError "name 'InputType' is not defined" raised from compose(). mypy flags the same line (name-defined). This most likely falls within sase-1g4.3's authoring-modals scope.
 
+[2026-10-05T21:19:03Z · 0x4] Its DISCOVERED ISSUE (InputItemModal NameError on InputType when opened for a new input) was resolved by a958ba4e87; test_input_modal_saves_constructed_arg constructs InputItemModal() with no existing and passes, and test_input_modal_surfaces_duplicate_choice_error covers the shared choices helper.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1g4.1](sase-1g4.1.md) | One input-type vocabulary and strict enum declarations | ✓ closed | large | 2026-10-04 | 1 | 0 |
 | [sase-1g4.2](sase-1g4.2.md) | Choices, named types, and roles on every wire; enum completion and diagnostics in the LSP | ✓ closed | large | 2026-10-04 | 1 | 0 |
-| [sase-1g4.3](sase-1g4.3.md) | Enum choice menus in the prompt bar, typed form, and authoring modals | ◐ in_progress | large | 2026-10-04 | 1 | 1 |
+| [sase-1g4.3](sase-1g4.3.md) | Enum choice menus in the prompt bar, typed form, and authoring modals | ✓ closed | large | 2026-10-04 | 2 | 2 |
 | [sase-1g4.4](sase-1g4.4.md) | Builtin model and effort types with one routing classifier | ✓ closed | large | 2026-10-04 | 1 | 3 |
 | [sase-1g4.5](sase-1g4.5.md) | Plugin-shared enums, sase macro types, and plugins.required | ✓ closed | large | 2026-10-04 | 1 | 2 |
-| [sase-1g4.6](sase-1g4.6.md) | Model arguments use the %model menu and model picker in the TUI | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
+| [sase-1g4.6](sase-1g4.6.md) | Model arguments use the %model menu and model picker in the TUI | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [sase-1g4.7](sase-1g4.7.md) | Dogfood, documentation, and memory | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 
 ## Lineage
@@ -59,10 +61,10 @@ flowchart TD
     n11["sase-1g4.2.1.3: Choice diagnostics, diagnostic-driven fixes, and rich argument hover [closed]"]
     n12["sase-1g4.2.1.4: Python catalogs, mobile and highlight wires, and macro show [closed]"]
     n13["sase-1g4.2.1.5: Cross-surface acceptance and phase closure evidence [closed]"]
-    n14["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [in_progress]"]
+    n14["sase-1g4.3: Enum choice menus in the prompt bar, typed form, and authoring modals [closed]"]
     n15["sase-1g4.4: Builtin model and effort types with one routing classifier [closed]"]
     n16["sase-1g4.5: Plugin-shared enums, sase macro types, and plugins.required [closed]"]
-    n17["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [in_progress]"]
+    n17["sase-1g4.6: Model arguments use the %model menu and model picker in the TUI [closed]"]
     n18["sase-1g4.7: Dogfood, documentation, and memory [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -107,6 +109,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
+| [bbugyi200.athena.0x4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0x4.md) | [sase-1g4.3](sase-1g4.3.md) | 1 |
 | [bbugyi200.athena.sase-1g4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.md) | [sase-1g4.1](sase-1g4.1.md) | 0 |
 | [bbugyi200.athena.sase-1g4.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.1.1.1/README.md) | [sase-1g4.1.1.1](sase-1g4.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1g4.1.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.1.1.2.md) | [sase-1g4.1.1.2](sase-1g4.1.1.2.md) | 2 |
@@ -123,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.3.md) | [sase-1g4.3](sase-1g4.3.md) | 1 |
 | [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 3 |
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 2 |
-| [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 0 |
+| [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 1 |
 | [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 0 |
 | [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.land/README.md) | [sase-1g4](README.md) | 0 |
 
@@ -153,6 +156,8 @@ flowchart TD
 | sase-core | [`sase-core@2fa78ad`](https://github.com/sase-org/sase-core/commit/2fa78ad066f4f2c77a1e4ee8c7bd303ac0d01c18) | feat(macros): add builtin effort argument completion test | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 12:47:39 EDT |
 | sase-core | [`sase-core@af5df61`](https://github.com/sase-org/sase-core/commit/af5df614a70a02995a1dc0b9c05337b719145289) | feat(core): load plugin input\_type registries with resolution, catalog, and LSP wiring | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:29:56 EDT |
 | sase | [`8fc4b4c`](https://github.com/sase-org/sase/commit/8fc4b4ccd65b3e39205847990076da0b9ec3152c) | feat(macro): resolve plugin-shared enum input types in runtime, LSP, CLI, and doctor | [sase-1g4.5](sase-1g4.5.md) | 2026-10-05 15:34:30 EDT |
+| sase | [`1a2dc5e`](https://github.com/sase-org/sase/commit/1a2dc5e4ddc7e2aec8f0bc444cd698744f4a79e9) | feat(tui-enum): route enum and bool args through Rust choice builder with picker and modal editing (sase-1g4.3) | [sase-1g4.3](sase-1g4.3.md) | 2026-10-05 18:06:50 EDT |
+| sase | [`55c46c3`](https://github.com/sase-org/sase/commit/55c46c363386403e4e80aa3f48cf9e7d6c89dfe4) | feat(ace): add macro model argument completion | [sase-1g4.6](sase-1g4.6.md) | 2026-10-05 18:32:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
