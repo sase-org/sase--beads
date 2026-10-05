@@ -19,7 +19,7 @@ url-editions: add a Gemini script writer, driven by the packaged guide plus arti
 
 - **Depends on:** [sase-1g7.1](sase-1g7.1.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [sase-1g7.2](sase-1g7.2.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
@@ -32,3 +32,15 @@ url-editions: add a Gemini script writer, driven by the packaged guide plus arti
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-listen | [`sase-listen@9f491ac`](https://github.com/sase-org/sase-listen/commit/9f491ac5d51cf7fedc8700c3d3adef6f0d45e232) | feat(writer): add brief and full article editions | [sase-1g7.3](sase-1g7.3.md) | 2026-10-04 20:19:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1g7.3][1] | Verify the requested phase close completed | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g7.3/README.md
+
+<!-- sase:referenced-by:end -->

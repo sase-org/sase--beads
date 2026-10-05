@@ -18,7 +18,7 @@ url-acquire: fetch pages with curl_cffi browser impersonation, extract with Traf
 ## Dependencies
 
 - **Blocks:** [sase-1g7.3](sase-1g7.3.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

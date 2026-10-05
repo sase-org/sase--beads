@@ -18,7 +18,7 @@ feed-host: add feed.host/feed.host_ssh config, an SSH transport that streams a r
 ## Dependencies
 
 - **Blocks:** [sase-1g7.3](sase-1g7.3.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g7.4](sase-1g7.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
