@@ -27,7 +27,7 @@ core-flip: make sase-core emit only macro spellings and remove the legacy bindin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.10.md) | [sase-1eq.10](sase-1eq.10.md) | 3 |
+| [bbugyi200.athena.sase-1eq.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.10.md) | [sase-1eq.10](sase-1eq.10.md) | 2 |
 
 ## Commits
 
@@ -35,7 +35,6 @@ core-flip: make sase-core emit only macro spellings and remove the legacy bindin
 |---|---|---|---|---|
 | sase-core | [`sase-core@0279de6`](https://github.com/sase-org/sase-core/commit/0279de6b00a6c053fb82e0375f3c17469f581ab8) | feat(macros): flip emitted wires to macro spellings, rename LSP crate | [sase-1eq.10](sase-1eq.10.md) | 2026-10-05 00:20:07 EDT |
 | sase | [`dc8aee0`](https://github.com/sase-org/sase/commit/dc8aee0fbc4f9838dac4dd4d1d04b5137fbca4cf) | feat(macros): core\_flip WIP python mirrors for macro wires | [sase-1eq.10](sase-1eq.10.md) | 2026-10-05 00:24:32 EDT |
-| chezmoi | [`chezmoi@50ff3b0`](https://github.com/bbugyi200/dotfiles/commit/50ff3b078278e417b8fb9e2a6d7fc3ff73c71273) | feat(macros): install sase-macro-lsp, drop stale xprompt binary | [sase-1eq.10](sase-1eq.10.md) | 2026-10-05 00:28:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
