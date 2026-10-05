@@ -31,8 +31,10 @@ vocab: add the sase-core macro_input_types module (type catalog, resolver, did-y
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1g4.2.1.4][1] | Need the completed vocabulary dependency handoff | 1 |
+| read-by | [agent:sase-1g4.2.1.2][1] | Need the content_layout schema 6 vs 5 pre-existing failure notes to cite as PROPOSED FOLLOW-UP | 1 |
+| read-by | [agent:sase-1g4.2.1.4][2] | Need the completed vocabulary dependency handoff | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,13 @@ projections: preserve rich input metadata in Python catalog, mobile, and highlig
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md) | [sase-1g4.2.1.4](sase-1g4.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1g4.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md) | [sase-1g4.2.1.4](sase-1g4.2.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`399b13f`](https://github.com/sase-org/sase/commit/399b13f3efa427ddc549ff82c0135a505053f894) | feat(macro): preserve input choice metadata | [sase-1g4.2.1.4](sase-1g4.2.1.4.md) | 2026-10-05 03:40:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -34,8 +40,10 @@ projections: preserve rich input metadata in Python catalog, mobile, and highlig
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1g4.2.1.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1g4.2.1.2][1] | Need the content_layout schema 6 vs 5 pre-existing failure notes to cite as PROPOSED FOLLOW-UP | 1 |
+| read-by | [agent:sase-1g4.2.1.4][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.2.1.4/README.md
 
 <!-- sase:referenced-by:end -->
