@@ -24,7 +24,7 @@ loaders: move every Python type parser onto the resolver, validate choices and d
 ## Dependencies
 
 - **Depends on:** [sase-1g4.1.1.1](sase-1g4.1.1.1.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [sase-1g4.1.1.4](sase-1g4.1.1.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [sase-1g4.1.1.4](sase-1g4.1.1.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
