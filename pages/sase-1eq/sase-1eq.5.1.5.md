@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:sase-1gd][1] | Proposing phase: note #6 reproduced it on unmodified origin/master |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gd/README.md
 
@@ -65,7 +65,9 @@ tui-sweep: finish every remaining in-scope xprompt hit, including statistics ide
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.5.1.5--2][1] | Need current phase status, notes, and close eligibility before recording follow-ups and closing | 2 |
+| read-by | [agent:sase-1eq.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

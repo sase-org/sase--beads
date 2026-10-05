@@ -45,7 +45,9 @@ tui-browser: move the browser, unified-save, mini-macro modal, and agent-workflo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.5.1.2--4][1] | Verify scope state and the proposed follow-up before phase close | 2 |
+| read-by | [agent:sase-1eq.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

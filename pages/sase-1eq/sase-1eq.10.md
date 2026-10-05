@@ -28,3 +28,15 @@ core-flip: make sase-core emit only macro spellings and remove the legacy bindin
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.10/README.md) | [sase-1eq.10](sase-1eq.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.land][1] | Confirm core-flip owns the JinjaScopeKind, completion spacer binding, xprompts_used, and stats response wires left by sase-1eq.5.1 | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

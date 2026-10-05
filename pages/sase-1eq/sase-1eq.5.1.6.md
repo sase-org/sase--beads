@@ -16,7 +16,7 @@
 | related | [bead:sase-1ge][1] | Proposing phase: note #2 reproduced the failure on a clean base during the j/k benchmark run |
 | related | [bead:sase-1gf][2] | Proposing phase: note #2 reproduced the failure on a clean base during the j/k benchmark run |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ge/README.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1gf/README.md
@@ -58,7 +58,9 @@ tui-goldens: rename the xprompt PNG goldens, re-baseline changed pixels, widen t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.5.1.6--3][1] | Verify recorded proposed follow-up before closing this phase | 4 |
+| read-by | [agent:sase-1eq.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.1.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

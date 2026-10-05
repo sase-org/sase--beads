@@ -24,3 +24,15 @@ tui-contracts: make focus_macro, clear_macro_focus, and start_last_vcs_macro_in_
 ## Dependencies
 
 - **Blocks:** [sase-1eq.5.1.2](sase-1eq.5.1.2.md) ✓ · ⧖ 2026-10-03
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

@@ -31,3 +31,15 @@ tui: rename TUI modules, identifiers, CSS, copy, keymap actions, and Admin Cente
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1eq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.5.md) | [sase-1eq.5](sase-1eq.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.5.1.land][1] | Confirm the parent phase state after the child epic close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->
