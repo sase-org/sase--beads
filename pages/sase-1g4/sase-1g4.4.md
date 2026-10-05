@@ -37,10 +37,11 @@ model-core: register builtin effort (closed enum) and model (domain) types; add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 1 |
+| [bbugyi200.athena.sase-1g4.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.4.md) | [sase-1g4.4](sase-1g4.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@16095fc`](https://github.com/sase-org/sase-core/commit/16095fcf715cf64a6f4d217961ce3f2083ab3b7f) | feat(macros): add builtin model and effort types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:28:10 EDT |
+| sase | [`ce7c714`](https://github.com/sase-org/sase/commit/ce7c7148c0822b565a8dd2a46b02111096fce96f) | feat(macro): add builtin model and effort input types with one routing classifier | [sase-1g4.4](sase-1g4.4.md) | 2026-10-05 11:31:58 EDT |
