@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/xprompts_to_macros.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/xprompts_to_macros.md
 
@@ -217,7 +217,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.10.md) | [sase-1eq.10](sase-1eq.10.md) | 2 |
 | [bbugyi200.athena.sase-1eq.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.11.md) | [sase-1eq.11](sase-1eq.11.md) | 1 |
 | [bbugyi200.athena.sase-1eq.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.1/README.md) | [sase-1eq.12.1](sase-1eq.12.1.md) | 1 |
-| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 1 |
+| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 2 |
 | [bbugyi200.athena.sase-1eq.12.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.3.md) | [sase-1eq.12.3](sase-1eq.12.3.md) | 1 |
 | [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.land/README.md) | [sase-1eq.12](sase-1eq.12.md) | 0 |
 | [bbugyi200.athena.sase-1eq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.2/README.md) | [sase-1eq.2](sase-1eq.2.md) | 1 |
@@ -289,6 +289,7 @@ flowchart TD
 | sase-core | [`sase-core@d65f724`](https://github.com/sase-org/sase-core/commit/d65f7246681d44bc81e2d48a180e869dbe538b44) | fix(macros): make sase-core green after the contract flip | [sase-1eq.12.1](sase-1eq.12.1.md) | 2026-10-05 11:01:56 EDT |
 | sase | [`b6114d4`](https://github.com/sase-org/sase/commit/b6114d4f954f4ed990511254e7e46e6160513fc0) | docs(images): relabel macro-resolution infographic from retired xprompt spelling to macro | [sase-1eq.12.3](sase-1eq.12.3.md) | 2026-10-05 12:10:11 EDT |
 | sase-core | [`sase-core@b19690e`](https://github.com/sase-org/sase-core/commit/b19690e3913233a4f73d7e67db6e1a16db6e7d1a) | feat(macros): flip remaining xprompt wire keys to macro spellings | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:10:54 EDT |
+| sase | [`312f17d`](https://github.com/sase-org/sase/commit/312f17dc3f3ad83fcd57578c9b243098297768c0) | feat(macros): drop remaining pre-flip xprompt wire keys and finish key-flip mirrors | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:16:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -299,11 +300,13 @@ flowchart TD
 | read-by | [agent:44][1] | Evaluate whether xprompt->macro rename is the right decision | 1 |
 | read-by | [agent:research.3m.cld][2] | xprompt->macro rename epic rationale and cost, precedent for naming macro invocations 'smack' | 1 |
 | read-by | [agent:research.3m.final][3] | Check whether the xprompt-to-macro rename epic is still open, since its terminology guard constrains glossary edits | 1 |
-| read-by | [agent:sase-1eq.5.1.land][4] | Need top-level epic notes to understand the 50--c prompt-precedence note attached to sase-1eq.5.1 | 1 |
+| read-by | [agent:sase-1eq.12.2][4] | Need landing triage context for key-flip | 1 |
+| read-by | [agent:sase-1eq.5.1.land][5] | Need top-level epic notes to understand the 50--c prompt-precedence note attached to sase-1eq.5.1 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.44/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3m.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3m.final/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

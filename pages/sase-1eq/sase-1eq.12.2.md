@@ -29,10 +29,23 @@ key-flip: Stop emitting the remaining pre-flip xprompt keys and values (content 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 1 |
+| [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b19690e`](https://github.com/sase-org/sase-core/commit/b19690e3913233a4f73d7e67db6e1a16db6e7d1a) | feat(macros): flip remaining xprompt wire keys to macro spellings | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:10:54 EDT |
+| sase | [`312f17d`](https://github.com/sase-org/sase/commit/312f17dc3f3ad83fcd57578c9b243098297768c0) | feat(macros): drop remaining pre-flip xprompt wire keys and finish key-flip mirrors | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:16:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1eq.12.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md
+
+<!-- sase:referenced-by:end -->
