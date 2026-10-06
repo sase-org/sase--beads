@@ -13,7 +13,7 @@ scoreboard: add the manifest coverage column, the coverage view, the per-section
 
 ## Dependencies
 
-- **Depends on:** [sase-1h3.5](sase-1h3.5.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h3.5](sase-1h3.5.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h3.7](sase-1h3.7.md) ◐ · ⧖ 2026-10-06
 
 ## Agents
