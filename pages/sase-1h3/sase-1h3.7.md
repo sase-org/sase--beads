@@ -13,7 +13,7 @@ acceptance: confirm live coverage, unchanged observed columns, render and parity
 
 ## Dependencies
 
-- **Depends on:** [sase-1h3.4](sase-1h3.4.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h3.4](sase-1h3.4.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h3.6](sase-1h3.6.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

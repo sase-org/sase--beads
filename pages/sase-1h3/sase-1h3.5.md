@@ -33,3 +33,15 @@ invocation-hook: route all three root provider.invoke sites through one fail-ope
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`620e531`](https://github.com/sase-org/sase/commit/620e5310d48952dc5994d0eca91d750fd9789785) | feat(instructions): shadow render bundles at provider invoke boundary | [sase-1h3.5](sase-1h3.5.md) | 2026-10-06 16:31:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h3.5--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.5.md
+
+<!-- sase:referenced-by:end -->
