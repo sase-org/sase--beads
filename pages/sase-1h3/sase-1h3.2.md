@@ -19,7 +19,7 @@ manifest-wire: add the instruction manifest v1 wire types, closed vocabulary, in
 
 ## Dependencies
 
-- **Blocks:** [sase-1h3.3](sase-1h3.3.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h3.3](sase-1h3.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

@@ -19,7 +19,7 @@ memory-units: refactor the legacy AGENTS.md renderer onto a structured, side-eff
 
 ## Dependencies
 
-- **Blocks:** [sase-1h3.3](sase-1h3.3.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h3.3](sase-1h3.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
