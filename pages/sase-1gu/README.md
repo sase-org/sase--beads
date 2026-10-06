@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e1_instruction_scoreboard_and_stopgaps.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e1_instruction_scoreboard_and_stopgaps.md
 
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1gu.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.4/README.md) | [sase-1gu.4](sase-1gu.4.md) | 1 |
 | [bbugyi200.athena.sase-1gu.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.5/README.md) | [sase-1gu.5](sase-1gu.5.md) | 1 |
 | [bbugyi200.athena.sase-1gu.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.6/README.md) | [sase-1gu.6](sase-1gu.6.md) | 0 |
-| [bbugyi200.athena.sase-1gu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gu.land.md) | [sase-1gu](README.md) | 1 |
+| [bbugyi200.athena.sase-1gu.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gu.land.md) | [sase-1gu](README.md) | 2 |
 
 ## Commits
 
@@ -119,6 +119,7 @@ flowchart TD
 | sase | [`08c8a56`](https://github.com/sase-org/sase/commit/08c8a56b365119cc9ba962d9ebd6cf4be5113e12) | feat(instructions): add observed-mode instruction delivery verifier | [sase-1gu.2](sase-1gu.2.md) | 2026-10-05 17:18:38 EDT |
 | sase | [`336d754`](https://github.com/sase-org/sase/commit/336d754b4c48534acbeb2824541293481ac50a7c) | feat(instructions): root-only final declaration with helper-return contract | [sase-1gu.5](sase-1gu.5.md) | 2026-10-06 08:02:38 EDT |
 | sase | [`9e4b976`](https://github.com/sase-org/sase/commit/9e4b9767d29f77cb7e1d67e4f67ac133b923b286) | feat(instructions): land E1 scoreboard fixes and stopgaps | [sase-1gu](README.md) | 2026-10-06 12:07:34 EDT |
+| sase--plans | [`sase--plans@64d90ec`](https://github.com/sase-org/sase--plans/commit/64d90ecda08967c46e2b162f3bf96c789238b5c0) | docs(plans): mark E1 instruction scoreboard plan done | [sase-1gu](README.md) | 2026-10-06 12:11:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -127,7 +128,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1gu.2][1] | epic context | 1 |
+| read-by | [agent:sase-1gu.land--2][2] | confirm closeout landed | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1gu.land.md
 
 <!-- sase:referenced-by:end -->
