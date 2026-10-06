@@ -20,7 +20,7 @@ invocation-hook: route all three root provider.invoke sites through one fail-ope
 ## Dependencies
 
 - **Depends on:** [sase-1h3.3](sase-1h3.3.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h3.6](sase-1h3.6.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h3.6](sase-1h3.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

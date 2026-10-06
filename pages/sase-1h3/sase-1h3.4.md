@@ -33,3 +33,15 @@ render-cli: add the render subcommand (agent, fact, json, no-cache, parity, sect
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8e4543b`](https://github.com/sase-org/sase/commit/8e4543bd43a34c429782df8ca441f2438335ce11) | feat(instructions): add render CLI with parity preview and section filtering | [sase-1h3.4](sase-1h3.4.md) | 2026-10-06 17:09:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h3.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h3.4/README.md
+
+<!-- sase:referenced-by:end -->
