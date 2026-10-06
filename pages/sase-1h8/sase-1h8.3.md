@@ -15,6 +15,8 @@ maintenance: make the sidecar gc pass reach the host-owned hidden beads clone, f
 
 [2026-10-06T23:11:15Z · sase-1h8.3] Acceptance: hidden-clone gc on athena for gh_sase-org__sase — beads clone before: count 2433, size 1.97 GiB, in-pack 142143, packs 37, size-pack 1.34 GiB; after maintain_hidden_sidecar_clones: count 0, packs 2, size-pack 258 MiB (4 clones gcd: agents/beads/plans/research). Push-log retention first pass: 126094 -> 52793 logs (73301 deleted, 30d/keep-200 defaults); recent_bead_sync_log_paths/latest_bead_sync_log still work (64 recent, latest sync-261006_190805 log resolvable).
 
+[2026-10-06T23:38:55Z · sase-1h8.3--1] PROPOSED FOLLOW-UP: symvision lint flags private _runs import in src/sase/agents_sync/v2_snapshot_io.py and src/sase/ace/tui/widgets/decks/final/overview_card.py (triage KNOWN, witness 22778c601b3c983292d19516826709e8, no owner); both files untouched by sase-1h8.3, failure reproduces identically on clean base tree
+
 ## Dependencies
 
 - **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
