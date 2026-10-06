@@ -24,7 +24,7 @@ record: add the actor-qualified root-only sentence to `memory-sase.template.md` 
 - **Depends on:** [sase-1gu.2](sase-1gu.2.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [sase-1gu.3](sase-1gu.3.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [sase-1gu.4](sase-1gu.4.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [sase-1gu.6](sase-1gu.6.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1gu.6](sase-1gu.6.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
@@ -37,3 +37,15 @@ record: add the actor-qualified root-only sentence to `memory-sase.template.md` 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`336d754`](https://github.com/sase-org/sase/commit/336d754b4c48534acbeb2824541293481ac50a7c) | feat(instructions): root-only final declaration with helper-return contract | [sase-1gu.5](sase-1gu.5.md) | 2026-10-06 08:02:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1gu.5][1] | check phase notes for probe results | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.5/README.md
+
+<!-- sase:referenced-by:end -->

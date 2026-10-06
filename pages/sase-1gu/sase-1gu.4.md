@@ -42,7 +42,9 @@ claude-helpers: on every Claude invocation cycle, pass a packaged static helper 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1gu.4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1gu.5][2] | need claude-helper probe results for record docs | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.5/README.md
 
 <!-- sase:referenced-by:end -->
