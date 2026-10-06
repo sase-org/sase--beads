@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/macro_named_input_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/macro_named_input_types.md
 
@@ -158,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 2 |
 | [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 1 |
 | [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 2 |
-| [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.land.md) | [sase-1g4](README.md) | 1 |
+| [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.land.md) | [sase-1g4](README.md) | 2 |
 
 ## Commits
 
@@ -191,6 +191,7 @@ flowchart TD
 | sase | [`abcfedc`](https://github.com/sase-org/sase/commit/abcfedc31d7b71f6bb2fa72fbc6e58d7f49e2b70) | feat(macros): document named input types and add runtime/LSP/TUI parity | [sase-1g4.7](sase-1g4.7.md) | 2026-10-05 19:49:38 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@bea92af`](https://github.com/sase-org/sase-research-artifacts/commit/bea92afb713db71c666a4f62ea53c4652460e2c4) | feat(macros): ship audio\_edition type and type research model inputs | [sase-1g4.7](sase-1g4.7.md) | 2026-10-05 19:53:50 EDT |
 | sase | [`81eaae5`](https://github.com/sase-org/sase/commit/81eaae59eaf4da222c4950a0e27089da6d283a28) | feat(macro): land named macro input types with enum, model, effort and shared plugin enums | [sase-1g4](README.md) | 2026-10-05 21:12:44 EDT |
+| sase--plans | [`sase--plans@2c75257`](https://github.com/sase-org/sase--plans/commit/2c75257b6bc55c5524377b0024fd75c167e04114) | docs(plans): mark macro\_named\_input\_types done | [sase-1g4](README.md) | 2026-10-05 21:16:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -200,8 +201,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1g4.5--3][1] | continue plugin_input_types phase after monitor check | 2 |
 | read-by | [agent:sase-1g4.7][2] | Need parent epic context for phase sase-1g4.7 | 1 |
+| read-by | [agent:sase-1g4.land--2][3] | closeout verification for land_macro_named_input_types | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.land.md
 
 <!-- sase:referenced-by:end -->
