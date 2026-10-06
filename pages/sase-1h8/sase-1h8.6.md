@@ -14,7 +14,7 @@ tui-board: group phases in one pass, stop forced reloads on auto-refresh ticks, 
 ## Dependencies
 
 - **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h8.5](sase-1h8.5.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h8.5](sase-1h8.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
