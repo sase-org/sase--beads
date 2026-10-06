@@ -28,3 +28,15 @@ infographic: Replace every retired xprompt label in docs/images/macro-resolution
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b6114d4`](https://github.com/sase-org/sase/commit/b6114d4f954f4ed990511254e7e46e6160513fc0) | docs(images): relabel macro-resolution infographic from retired xprompt spelling to macro | [sase-1eq.12.3](sase-1eq.12.3.md) | 2026-10-05 12:10:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1gt.land][1] | Need the causal infographic phase scope and notes before reporting new terminology evidence | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md
+
+<!-- sase:referenced-by:end -->

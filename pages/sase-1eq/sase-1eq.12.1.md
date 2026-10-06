@@ -17,7 +17,7 @@ core-green: Repair every sase-core test the 0279de6b contract flip left red, inc
 
 ## Dependencies
 
-- **Blocks:** [sase-1eq.12.2](sase-1eq.12.2.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1eq.12.2](sase-1eq.12.2.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
