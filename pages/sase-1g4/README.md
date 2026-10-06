@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1g4
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0wj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0wj.md) · **Assignee:** `sase-1g4.land`
-**Created:** 2026-10-04 18:19:27 EDT
+**Created:** 2026-10-04 18:19:27 EDT · **Closed:** 2026-10-05 21:11:39 EDT
 **Plan:** [202610/macro\_named\_input\_types.md](https://github.com/sase-org/sase--plans/blob/main/202610/macro_named_input_types.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,36 @@ A macro input's `type` names what its value is: a scalar keyword, `enum` with in
 
 [2026-10-05T21:19:03Z · 0x4] Its DISCOVERED ISSUE (InputItemModal NameError on InputType when opened for a new input) was resolved by a958ba4e87; test_input_modal_saves_constructed_arg constructs InputItemModal() with no existing and passes, and test_input_modal_surfaces_duplicate_choice_error covers the shared choices helper.
 
+[2026-10-06T00:23:28Z · sase-1g4.land] LANDING TRIAGE (sase-1g4.land, 2026-10-05, sase master abcfedc31d, core pin af5df614 = core origin/master).
+
+Verified: all 7 phases closed. Nested epics sase-1g4.1.1 and sase-1g4.2.1 closed with their own landings. Phase notes match the source: one Rust catalog and resolver; strict_macro_input_types, with flag bead sase-1g9 open; per-macro isolation; #pr status enum; choices, named_type and value_role on every wire; LSP enum and model completion, diagnostics, quick fixes and hover; builtin effort and model types with the routing classifier, and _model_token_routes deleted; plugin input_types.yml registry and LSP export; sase macro types; doctor config.macro_input_types, which is clean on this project; TUI enum and model menus and the typed-form picker; sase-research-artifacts audio_edition plus typed research_swarm/research_audio inputs (bea92af); docs, and the memory Inputs line. The epic note #1 InputItemModal NameError was fixed by a958ba4e87, per note #2. epic-symbols: none.
+
+Integration: no non-epic commit since 25cc3c475d needs changes. The Grok models and aliases flow into model_validity_snapshot through the registry; 25010b94ce and 17c2907d3b preserved named_type plumbing and isolation; and no new bundled macros declare model, effort or closed-set inputs.
+
+REMAINING EPIC WORK, planned as a tale:
+(1) Python stale-binding fallbacks added by a958ba4e87/8fc4b4ccd6/ce7c7148c0 that violate decisions:rust-core-required, including a hard-coded true/false bool menu the plan said to delete.
+(2) The +64-byte span window in _rust_span_bounds_for_cursor (a958ba4e87).
+(3) `sase macro types NAME` prints a literal [bold]...[/bold], duplicates description/rule, and forces ANSI color when piped.
+(4) MacroConfigEntryModal still validates types against the Python InputType enum, so it rejects model/effort/<dist>@<id> and accepts enum without choices.
+(5) The value-menu title deviates from the design's `<input> · <named_type or enum>` (sase-1g4.3 #2).
+(6) Three duplicate hint-to-wire serializers for macro_input_type_label (sase-1g4.3 #3).
+(7) docs/configuration.md has no `sase macro types` CLI section, and the docs/cli.md link target is wrong.
+
+FOLLOW-UP OUTCOMES:
+- sase-1g4.3 #1 parallel flakes: +1 sase-1br (test_block_spread_bracket_top_aligns). test_tab_after_background_refresh_stays_on_agents is in test_prompt_tab_focus_steal.py, so +1 sase-1fy.
+- sase-1g4.3 #2 and #3: epic work, in the tale.
+- sase-1g4.3 #4 detection: the 64-byte window is epic work, in the tale. The quote-blind comma splitter predates the epic (a295e0313c/762736fd68). Reproduced: `#m:"a,b",` resolves to the wrong input and `#m("a)b",s` opens no menu. Filed bug sase-1h1 (large).
+- sase-1g4.3 #5 dead InputItemModal/MacroItemModal: unreachable since 7776f7a857 (2026-07-10), so pre-existing. Filed bug sase-1h0 (small).
+- sase-1g4.4 #3-#6 sase-core rename-fallout test failures: caused by active epic sase-1eq and already recorded there as a DISCOVERED ISSUE by sase-1g4.2.1.land. Declined, no task.
+- sase-1g4.4 #7: +1 sase-1fy (test_prompt_tab_focus_steal) and +1 sase-1gp (test_distinct_ace_apps_do_not_share_session_state).
+- sase-1g4.4 #8 sase_gateway load flakes: +1 sase-15h (sudo_runner ETXTBSY). Filed flake sase-1gz for federation_worker listener_creates_private_socket_and_rejects_symlink (no prior task).
+- sase-1g4.5 #1/#3 and sase-1g4.7 #1 test_macro_docs_and_memory_avoid_xprompt_terms: still fails at HEAD with 11 lines in docs/images/macro-resolution-infographic.prompt.md from b6114d4f95 (sase-1eq.12.3). Caused by active epic sase-1eq and already recorded there as a DISCOVERED ISSUE. Declined, no task.
+- sase-1g4.6 #1 grok_rules_delivery schema drift: declined as fixed; tools/sync_feature_flags_schema --check passes at HEAD.
+- sase-1g4.7 #2 grok stream fixture failures: declined as fixed; tests/llm_provider/test_grok_provider_stream.py passes at HEAD (3 passed). The symvision _runs imports item gets checked by the closeout's just symvision.
+- Incidental: +1 sase-1gs. `sase bead read` with links and `sase artifact link add` fail with the bead id segment validation error.
+
+[2026-10-06T01:11:39Z · sase-1g4.land--2] LANDING VERIFICATION (sase-1g4.land, 2026-10-06): all 7 phases verified, no integration needed per note #3 triage. Seven fixes+tests landed in this effort (mypy choices:object fix in _input_hint_wire.py + stale type-ignore drop in highlight.py; focused suites 106 passed; doctor config.macro_input_types OK; macro types effort pipe clean of [bold]/ANSI; PNG goldens prompt_macro_arg_enum_value light/dark regenerated and inspected). ToolRun c7aaf1c3ce16124ab2e9d30705097171 verdict no_new_failures (3 KNOWN only: test_macro_docs_and_memory_avoid_xprompt_terms owned by sase-1eq, 2 symvision _runs KNOWN). epic-symbols: none. just symvision: only the same 2 KNOWN _runs items. Follow-up outcomes per note #3 stand; plan status set done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +77,7 @@ A macro input's `type` names what its value is: a scalar keyword, `enum` with in
 
 ```mermaid
 flowchart TD
-    n0["sase-1g4: Named macro input types: finish enum, add model/effort, share plugin enums [in_progress]"]
+    n0["sase-1g4: Named macro input types: finish enum, add model/effort, share plugin enums [closed]"]
     n1["sase-1g4.1: One input-type vocabulary and strict enum declarations [closed]"]
     n2["sase-1g4.1.1: One input-type vocabulary and strict enum declarations [closed]"]
     n3["sase-1g4.1.1.1: Rust input-type catalog, resolver, and Python bindings [closed]"]
@@ -128,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1g4.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.5.md) | [sase-1g4.5](sase-1g4.5.md) | 2 |
 | [bbugyi200.athena.sase-1g4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.6/README.md) | [sase-1g4.6](sase-1g4.6.md) | 1 |
 | [bbugyi200.athena.sase-1g4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.7/README.md) | [sase-1g4.7](sase-1g4.7.md) | 2 |
-| [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1g4.land/README.md) | [sase-1g4](README.md) | 0 |
+| [bbugyi200.athena.sase-1g4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1g4.land.md) | [sase-1g4](README.md) | 1 |
 
 ## Commits
 
@@ -160,6 +190,7 @@ flowchart TD
 | sase | [`55c46c3`](https://github.com/sase-org/sase/commit/55c46c363386403e4e80aa3f48cf9e7d6c89dfe4) | feat(ace): add macro model argument completion | [sase-1g4.6](sase-1g4.6.md) | 2026-10-05 18:32:47 EDT |
 | sase | [`abcfedc`](https://github.com/sase-org/sase/commit/abcfedc31d7b71f6bb2fa72fbc6e58d7f49e2b70) | feat(macros): document named input types and add runtime/LSP/TUI parity | [sase-1g4.7](sase-1g4.7.md) | 2026-10-05 19:49:38 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@bea92af`](https://github.com/sase-org/sase-research-artifacts/commit/bea92afb713db71c666a4f62ea53c4652460e2c4) | feat(macros): ship audio\_edition type and type research model inputs | [sase-1g4.7](sase-1g4.7.md) | 2026-10-05 19:53:50 EDT |
+| sase | [`81eaae5`](https://github.com/sase-org/sase/commit/81eaae59eaf4da222c4950a0e27089da6d283a28) | feat(macro): land named macro input types with enum, model, effort and shared plugin enums | [sase-1g4](README.md) | 2026-10-05 21:12:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
