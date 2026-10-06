@@ -25,10 +25,23 @@ manifest-wire: add the instruction manifest v1 wire types, closed vocabulary, in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.2.md) | [sase-1h3.2](sase-1h3.2.md) | 1 |
+| [bbugyi200.athena.sase-1h3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.2.md) | [sase-1h3.2](sase-1h3.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@fa39036`](https://github.com/sase-org/sase-core/commit/fa390362a556fe156701ee6bdf505411d4f0f7c5) | feat(instructions): instruction manifest v1 wire schema, binding, and golden fixture (sase-1h3.2) | [sase-1h3.2](sase-1h3.2.md) | 2026-10-06 14:15:22 EDT |
+| sase | [`ec6ffa3`](https://github.com/sase-org/sase/commit/ec6ffa33a8019ccc4c7121199fb707774796682b) | feat(instructions): manifest-wire sase adapter, parity fixture, and docs (sase-1h3.2) | [sase-1h3.2](sase-1h3.2.md) | 2026-10-06 14:19:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h3.2--1][1] | verify phase scope and completion | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.2.md
+
+<!-- sase:referenced-by:end -->

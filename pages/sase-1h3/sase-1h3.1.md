@@ -25,7 +25,13 @@ memory-units: refactor the legacy AGENTS.md renderer onto a structured, side-eff
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.1.md) | [sase-1h3.1](sase-1h3.1.md) | 0 |
+| [bbugyi200.athena.sase-1h3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.1.md) | [sase-1h3.1](sase-1h3.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ed2a8f7`](https://github.com/sase-org/sase/commit/ed2a8f78ad273cf6dccb40b5c041e77e2f70976a) | feat(instructions): expose structured cwd-free memory units for legacy renderer | [sase-1h3.1](sase-1h3.1.md) | 2026-10-06 13:41:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
