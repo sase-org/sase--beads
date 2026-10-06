@@ -22,7 +22,7 @@ scoreboard: add the manifest coverage column, the coverage view, the per-section
 ## Dependencies
 
 - **Depends on:** [sase-1h3.5](sase-1h3.5.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h3.7](sase-1h3.7.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h3.7](sase-1h3.7.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
@@ -35,3 +35,15 @@ scoreboard: add the manifest coverage column, the coverage view, the per-section
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`66d598d`](https://github.com/sase-org/sase/commit/66d598d1987bdee617cb01e8abe3664dbc0a911d) | feat(instructions): add scoreboard coverage, verify diff and doctor check | [sase-1h3.6](sase-1h3.6.md) | 2026-10-06 17:24:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h3.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h3.6/README.md
+
+<!-- sase:referenced-by:end -->

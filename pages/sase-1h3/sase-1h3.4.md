@@ -20,7 +20,7 @@ render-cli: add the render subcommand (agent, fact, json, no-cache, parity, sect
 ## Dependencies
 
 - **Depends on:** [sase-1h3.3](sase-1h3.3.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h3.7](sase-1h3.7.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h3.7](sase-1h3.7.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
