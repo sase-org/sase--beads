@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1eq
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0v4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0v4.md) · **Assignee:** `sase-1eq.land`
-**Created:** 2026-10-02 06:51:19 EDT
+**Created:** 2026-10-02 06:51:19 EDT · **Closed:** 2026-10-06 10:22:09 EDT
 **Plan:** [202610/xprompts\_to\_macros.md](https://github.com/sase-org/sase--plans/blob/main/202610/xprompts_to_macros.md)
 
 <!-- sase:links:start -->
@@ -61,7 +61,7 @@ mypy at f0893af93b reports items 2 and 3 (plus the unrelated InputType error not
 - sase-1eq.11 #7: test_plugin_latest and test_check_sase_core_rs_bindings_tool pass at HEAD; test_prompt_tab_focus_steal is tracked by sase-1fy.
 - Epic notes #1-#3 resolved at HEAD (perf smoke uses the macro MRU path; the guard scans git ls-files). Note #4 items 1-5 resolved at HEAD. Note #5 (sase-core red after the flip) is CAUSED BY THIS EPIC and remains open: sase_core --lib 14-15 failures, python_wire_p
 
-… and 1411 more characters
+… and 2922 more characters
 
 ## Phases
 
@@ -77,13 +77,13 @@ mypy at f0893af93b reports items 2 and 3 (plus the unrelated InputType error not
 | [sase-1eq.6](sase-1eq.6.md) | Documentation, site redirect, memory, and first skill redeploy | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [sase-1eq.7](sase-1eq.7.md) | sase-telegram cutover | ✓ closed | small | 2026-10-02 | 1 | 0 |
 | [sase-1eq.8](sase-1eq.8.md) | sase-github, sase-research-artifacts, and bugyi-chops cutover | ✓ closed | small | 2026-10-02 | 1 | 0 |
-| [sase-1eq.9](sase-1eq.9.md) | sase-nvim cutover | ✓ closed | medium | 2026-10-02 | 1 | 0 |
+| [sase-1eq.9](sase-1eq.9.md) | sase-nvim cutover | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-1eq: Rename xprompts to macros [in_progress]"]
+    n0["sase-1eq: Rename xprompts to macros [closed]"]
     n1["sase-1eq.1: sase-core additive macro rename [closed]"]
     n2["sase-1eq.1.1: Finish the additive Rust macro rename and close sase-1eq.1 [closed]"]
     n3["sase-1eq.1.1.1: Rename catalog and editor internals with pinned legacy output [closed]"]
@@ -95,7 +95,7 @@ flowchart TD
     n9["sase-1eq.1.1.7: Verify the combined additive contract against unchanged sase [closed]"]
     n10["sase-1eq.10: sase-core contract flip with same-turn pin bump [closed]"]
     n11["sase-1eq.11: Cross-repo audit, guardrail, chezmoi, and machine migration [closed]"]
-    n12["sase-1eq.12: Finish the xprompt-to-macro core flip and land sase-1eq [in_progress]"]
+    n12["sase-1eq.12: Finish the xprompt-to-macro core flip and land sase-1eq [closed]"]
     n13["sase-1eq.12.1: Make sase-core green after the macro contract flip [closed]"]
     n14["sase-1eq.12.2: Drop leftover pre-flip xprompt wire keys in sase-core and sase [closed]"]
     n15["sase-1eq.12.3: Relabel the macro-resolution infographic [closed]"]
@@ -219,7 +219,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.12.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.1/README.md) | [sase-1eq.12.1](sase-1eq.12.1.md) | 1 |
 | [bbugyi200.athena.sase-1eq.12.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md) | [sase-1eq.12.2](sase-1eq.12.2.md) | 2 |
 | [bbugyi200.athena.sase-1eq.12.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.3.md) | [sase-1eq.12.3](sase-1eq.12.3.md) | 1 |
-| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.land/README.md) | [sase-1eq.12](sase-1eq.12.md) | 0 |
+| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md) | [sase-1eq.12](sase-1eq.12.md) | 1 |
 | [bbugyi200.athena.sase-1eq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.2/README.md) | [sase-1eq.2](sase-1eq.2.md) | 1 |
 | [bbugyi200.athena.sase-1eq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.md) | [sase-1eq.3](sase-1eq.3.md) | 0 |
 | [bbugyi200.athena.sase-1eq.3.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.3.1.1.md) | [sase-1eq.3.1.1](sase-1eq.3.1.1.md) | 1 |
@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1eq.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.6/README.md) | [sase-1eq.6](sase-1eq.6.md) | 1 |
 | [bbugyi200.athena.sase-1eq.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.7/README.md) | [sase-1eq.7](sase-1eq.7.md) | 0 |
 | [bbugyi200.athena.sase-1eq.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.8/README.md) | [sase-1eq.8](sase-1eq.8.md) | 0 |
-| [bbugyi200.athena.sase-1eq.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.9/README.md) | [sase-1eq.9](sase-1eq.9.md) | 0 |
+| [bbugyi200.athena.sase-1eq.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.9/README.md) | [sase-1eq.9](sase-1eq.9.md) | 1 |
 | [bbugyi200.athena.sase-1eq.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.land.md) | [sase-1eq](README.md) | 0 |
 
 ## Commits
@@ -273,6 +273,7 @@ flowchart TD
 | sase | [`6d0d8a0`](https://github.com/sase-org/sase/commit/6d0d8a0a2d7321a4bc89a892cbb572bfac13f98e) | feat(macros): consolidate plugin discovery on canonical sase\_macros group | [sase-1eq.4.1.3](sase-1eq.4.1.3.md) | 2026-10-03 09:44:04 EDT |
 | sase | [`4f90695`](https://github.com/sase-org/sase/commit/4f90695659a6eaef0cc86e1fc8656e8a1b6a9c34) | feat!: publish canonical macro CLI, completion, and retirement diagnostics | [sase-1eq.4.1.4](sase-1eq.4.1.4.md) | 2026-10-03 10:30:08 EDT |
 | sase | [`29c1471`](https://github.com/sase-org/sase/commit/29c14710fb6c7aedf5db7641deb466511c8a34b8) | feat!: finish non-TUI macro strings, skill sources, and terminology guard | [sase-1eq.4.1.5](sase-1eq.4.1.5.md) | 2026-10-03 11:32:50 EDT |
+| sase-nvim | [`sase-nvim@09d8187`](https://github.com/sase-org/sase-nvim/commit/09d81876bfe537e02af65c8599dd6ae11ca17d9b) | feat(nvim): cut over xprompts to macros with legacy shims | [sase-1eq.9](sase-1eq.9.md) | 2026-10-03 13:55:35 EDT |
 | sase | [`bca08d1`](https://github.com/sase-org/sase/commit/bca08d1242e025bbc60d2cbba54231ed8aa532bc) | feat(macro): land macro syntax cutover implementation | [sase-1eq.4.1](sase-1eq.4.1.md) | 2026-10-03 14:17:57 EDT |
 | sase | [`fe53ae4`](https://github.com/sase-org/sase/commit/fe53ae4fc46f5e23b3ec44060f2bbbcac2b9bc4c) | feat(docs-memory): rename xprompt concept to macro across docs, memory, and skills | [sase-1eq.6](sase-1eq.6.md) | 2026-10-03 14:18:53 EDT |
 | sase--plans | [`sase--plans@83bd226`](https://github.com/sase-org/sase--plans/commit/83bd226f816b3d23ec6584df897cfee385d81c75) | docs(plans): record macro syntax cutover plan | [sase-1eq.4.1](sase-1eq.4.1.md) | 2026-10-03 14:23:29 EDT |
@@ -290,6 +291,7 @@ flowchart TD
 | sase | [`b6114d4`](https://github.com/sase-org/sase/commit/b6114d4f954f4ed990511254e7e46e6160513fc0) | docs(images): relabel macro-resolution infographic from retired xprompt spelling to macro | [sase-1eq.12.3](sase-1eq.12.3.md) | 2026-10-05 12:10:11 EDT |
 | sase-core | [`sase-core@b19690e`](https://github.com/sase-org/sase-core/commit/b19690e3913233a4f73d7e67db6e1a16db6e7d1a) | feat(macros): flip remaining xprompt wire keys to macro spellings | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:10:54 EDT |
 | sase | [`312f17d`](https://github.com/sase-org/sase/commit/312f17dc3f3ad83fcd57578c9b243098297768c0) | feat(macros): drop remaining pre-flip xprompt wire keys and finish key-flip mirrors | [sase-1eq.12.2](sase-1eq.12.2.md) | 2026-10-06 08:16:06 EDT |
+| sase-core | [`sase-core@a62699b`](https://github.com/sase-org/sase-core/commit/a62699bb4224823293db49f8e2aa73427aa74ddf) | feat(macros)!: emit canonical macro wires and snippet catalog schema 2 | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:24:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
