@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/land_xprompts_to_macros.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/land_xprompts_to_macros.md
 
@@ -37,13 +37,14 @@ sase-core's check is green again after the contract flip, sase-core and sase no 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md) | [sase-1eq.12](sase-1eq.12.md) | 1 |
+| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md) | [sase-1eq.12](sase-1eq.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a62699b`](https://github.com/sase-org/sase-core/commit/a62699bb4224823293db49f8e2aa73427aa74ddf) | feat(macros)!: emit canonical macro wires and snippet catalog schema 2 | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:24:12 EDT |
+| sase | [`17c7f66`](https://github.com/sase-org/sase/commit/17c7f66bb3be196d55eeefacdfc547340a138c48) | feat(macros): finish snippet schema-2 mirrors and canonical snippet fixtures | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:29:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -51,8 +52,10 @@ sase-core's check is green again after the contract flip, sase-core and sase no 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1gt.land][1] | Need active causal epic before routing infographic terminology regression | 1 |
+| read-by | [agent:sase-1eq.12.land--3][1] | Need final landing readiness | 1 |
+| read-by | [agent:sase-1gt.land][2] | Need active causal epic before routing infographic terminology regression | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md
 
 <!-- sase:referenced-by:end -->

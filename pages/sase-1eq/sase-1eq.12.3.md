@@ -35,8 +35,10 @@ infographic: Replace every retired xprompt label in docs/images/macro-resolution
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1gt.land][1] | Need the causal infographic phase scope and notes before reporting new terminology evidence | 1 |
+| read-by | [agent:sase-1eq.12.land--3][1] | Need final landing readiness | 1 |
+| read-by | [agent:sase-1gt.land][2] | Need the causal infographic phase scope and notes before reporting new terminology evidence | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gt.land/README.md
 
 <!-- sase:referenced-by:end -->

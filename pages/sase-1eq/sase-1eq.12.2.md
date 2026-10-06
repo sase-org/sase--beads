@@ -45,7 +45,9 @@ key-flip: Stop emitting the remaining pre-flip xprompt keys and values (content 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1eq.12.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1eq.12.land--3][2] | Need final landing readiness | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1eq.12.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md
 
 <!-- sase:referenced-by:end -->
