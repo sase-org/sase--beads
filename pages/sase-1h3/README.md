@@ -27,8 +27,8 @@ Every root provider invocation renders the memory-built instruction bundle it wo
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1h3.1](sase-1h3.1.md) | Legacy instruction renderer exposes structured, cwd-free memory units | ✓ closed | medium | 2026-10-06 | 1 | 1 |
-| [sase-1h3.2](sase-1h3.2.md) | Instruction manifest wire schema in sase-core, binding, adapter, and pin move | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h3.1](sase-1h3.1.md) | Legacy instruction renderer exposes structured, cwd-free memory units | ✓ closed | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h3.2](sase-1h3.2.md) | Instruction manifest wire schema in sase-core, binding, adapter, and pin move | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h3.3](sase-1h3.3.md) | Python instruction compiler: layers, overlays, facts, manifest assembly, render cache | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h3.4](sase-1h3.4.md) | \`sase instructions render\` preview and legacy parity checks | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h3.5](sase-1h3.5.md) | Shadow render at every root provider invocation, behind one boundary | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
@@ -41,7 +41,7 @@ Every root provider invocation renders the memory-built instruction bundle it wo
 flowchart TD
     n0["sase-1h3: E2: Instruction bundles in shadow mode (memory-built instruction migration) [in_progress]"]
     n1["sase-1h3.1: Legacy instruction renderer exposes structured, cwd-free memory units [closed]"]
-    n2["sase-1h3.2: Instruction manifest wire schema in sase-core, binding, adapter, and pin move [in_progress]"]
+    n2["sase-1h3.2: Instruction manifest wire schema in sase-core, binding, adapter, and pin move [closed]"]
     n3["sase-1h3.3: Python instruction compiler: layers, overlays, facts, manifest assembly, render cache [in_progress]"]
     n4["sase-1h3.4: `sase instructions render` preview and legacy parity checks [in_progress]"]
     n5["sase-1h3.5: Shadow render at every root provider invocation, behind one boundary [in_progress]"]
@@ -67,8 +67,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.1.md) | [sase-1h3.1](sase-1h3.1.md) | 1 |
-| [bbugyi200.athena.sase-1h3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.2.md) | [sase-1h3.2](sase-1h3.2.md) | 0 |
+| [bbugyi200.athena.sase-1h3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.1.md) | [sase-1h3.1](sase-1h3.1.md) | 0 |
+| [bbugyi200.athena.sase-1h3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h3.2.md) | [sase-1h3.2](sase-1h3.2.md) | 1 |
 | [bbugyi200.athena.sase-1h3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h3.3/README.md) | [sase-1h3.3](sase-1h3.3.md) | 0 |
 | [bbugyi200.athena.sase-1h3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h3.4/README.md) | [sase-1h3.4](sase-1h3.4.md) | 0 |
 | [bbugyi200.athena.sase-1h3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h3.5/README.md) | [sase-1h3.5](sase-1h3.5.md) | 0 |
@@ -80,4 +80,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`ed2a8f7`](https://github.com/sase-org/sase/commit/ed2a8f78ad273cf6dccb40b5c041e77e2f70976a) | feat(instructions): expose structured cwd-free memory units for legacy renderer | [sase-1h3.1](sase-1h3.1.md) | 2026-10-06 13:41:54 EDT |
+| sase-core | [`sase-core@fa39036`](https://github.com/sase-org/sase-core/commit/fa390362a556fe156701ee6bdf505411d4f0f7c5) | feat(instructions): instruction manifest v1 wire schema, binding, and golden fixture (sase-1h3.2) | [sase-1h3.2](sase-1h3.2.md) | 2026-10-06 14:15:22 EDT |

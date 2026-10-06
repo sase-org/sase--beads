@@ -14,7 +14,7 @@ compiler: compose bundles in Python from the units with fixed layers, section id
 ## Dependencies
 
 - **Depends on:** [sase-1h3.1](sase-1h3.1.md) ✓ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h3.2](sase-1h3.2.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h3.2](sase-1h3.2.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h3.4](sase-1h3.4.md) ◐ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h3.5](sase-1h3.5.md) ◐ · ⧖ 2026-10-06
 
