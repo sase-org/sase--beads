@@ -37,7 +37,7 @@ sase-core's check is green again after the contract flip, sase-core and sase no 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md) | [sase-1eq.12](sase-1eq.12.md) | 2 |
+| [bbugyi200.athena.sase-1eq.12.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1eq.12.land.md) | [sase-1eq.12](sase-1eq.12.md) | 3 |
 
 ## Commits
 
@@ -45,6 +45,7 @@ sase-core's check is green again after the contract flip, sase-core and sase no 
 |---|---|---|---|---|
 | sase-core | [`sase-core@a62699b`](https://github.com/sase-org/sase-core/commit/a62699bb4224823293db49f8e2aa73427aa74ddf) | feat(macros)!: emit canonical macro wires and snippet catalog schema 2 | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:24:12 EDT |
 | sase | [`17c7f66`](https://github.com/sase-org/sase/commit/17c7f66bb3be196d55eeefacdfc547340a138c48) | feat(macros): finish snippet schema-2 mirrors and canonical snippet fixtures | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:29:31 EDT |
+| sase--plans | [`sase--plans@6b3d5fe`](https://github.com/sase-org/sase--plans/commit/6b3d5fee16045eff99793d28b37bf004cb87b811) | docs(plans): mark macro rename landing plans done | [sase-1eq.12](sase-1eq.12.md) | 2026-10-06 10:33:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
