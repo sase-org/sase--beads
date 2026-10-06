@@ -13,7 +13,7 @@ acceptance: once the host runs the landed code, request one Grok probe and one C
 
 ## Dependencies
 
-- **Depends on:** [sase-1gu.5](sase-1gu.5.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [sase-1gu.5](sase-1gu.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

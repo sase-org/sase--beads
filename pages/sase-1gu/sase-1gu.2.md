@@ -22,7 +22,7 @@ scoreboard: build `sase instructions verify`. Pure Python parsers turn Claude tr
 ## Dependencies
 
 - **Depends on:** [sase-1gu.1](sase-1gu.1.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [sase-1gu.5](sase-1gu.5.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1gu.5](sase-1gu.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
@@ -35,3 +35,15 @@ scoreboard: build `sase instructions verify`. Pure Python parsers turn Claude tr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`08c8a56`](https://github.com/sase-org/sase/commit/08c8a56b365119cc9ba962d9ebd6cf4be5113e12) | feat(instructions): add observed-mode instruction delivery verifier | [sase-1gu.2](sase-1gu.2.md) | 2026-10-05 17:18:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1gu.2][1] | x | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1gu.2/README.md
+
+<!-- sase:referenced-by:end -->

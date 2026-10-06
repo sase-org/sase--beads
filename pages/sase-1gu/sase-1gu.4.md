@@ -21,7 +21,7 @@ claude-helpers: on every Claude invocation cycle, pass a packaged static helper 
 
 ## Dependencies
 
-- **Blocks:** [sase-1gu.5](sase-1gu.5.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [sase-1gu.5](sase-1gu.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
