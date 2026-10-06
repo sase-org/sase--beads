@@ -16,7 +16,7 @@ perf-gate: enforce the A1 history-independence criteria on scaled corpora in CI 
 - **Depends on:** [sase-1h8.10](sase-1h8.10.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.13](sase-1h8.13.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.2](sase-1h8.2.md) ✓ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h8.3](sase-1h8.3.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h8.3](sase-1h8.3.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.6](sase-1h8.6.md) ◐ · ⧖ 2026-10-06
 
 ## Agents
