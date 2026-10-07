@@ -16,6 +16,12 @@ seal-watch: report the measurable sealed-archive triggers in bead doctor and doc
 - **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.9](sase-1h8.9.md) ✓ · ⧖ 2026-10-06
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

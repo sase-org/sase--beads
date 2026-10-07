@@ -21,7 +21,7 @@ fingerprint: add an exact stat-only bead_store_fingerprint core binding and move
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.11](sase-1h8.11.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h8.6](sase-1h8.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents

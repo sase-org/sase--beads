@@ -35,7 +35,7 @@ one-replay: route targets without a full read, resolve inside the locked mutatio
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.11](sase-1h8.11.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h8.12](sase-1h8.12.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.4](sase-1h8.4.md) ✓ · ⧖ 2026-10-06
 

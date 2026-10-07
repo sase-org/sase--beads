@@ -13,9 +13,15 @@ read-model-mutations: make MutableStore load only affected rows from the read mo
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.11](sase-1h8.11.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.12](sase-1h8.12.md) ◐ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13/README.md) | [sase-1h8.13](sase-1h8.13.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

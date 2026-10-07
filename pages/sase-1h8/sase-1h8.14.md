@@ -19,6 +19,12 @@ perf-gate: enforce the A1 history-independence criteria on scaled corpora in CI 
 - **Depends on:** [sase-1h8.3](sase-1h8.3.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.6](sase-1h8.6.md) ✓ · ⧖ 2026-10-06
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
