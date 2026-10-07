@@ -21,7 +21,7 @@ record: write an authoritative, lock-protected `created_epics` list on the creat
 
 - **Blocks:** [sase-1h7.2](sase-1h7.2.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h7.3](sase-1h7.3.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.4](sase-1h7.4.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.4](sase-1h7.4.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
