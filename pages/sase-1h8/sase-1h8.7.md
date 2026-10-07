@@ -21,4 +21,4 @@ one-replay: route targets without a full read, resolve inside the locked mutatio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md) | [sase-1h8.7](sase-1h8.7.md) | 0 |
+| [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.7.md) | [sase-1h8.7](sase-1h8.7.md) | 0 |
