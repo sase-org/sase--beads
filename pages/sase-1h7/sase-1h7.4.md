@@ -30,10 +30,23 @@ reducer: add the pure sase-core reducer that maps per-member facts to AGENT/NONE
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.4.md) | [sase-1h7.4](sase-1h7.4.md) | 1 |
+| [bbugyi200.athena.sase-1h7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.4.md) | [sase-1h7.4](sase-1h7.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4b4a052`](https://github.com/sase-org/sase-core/commit/4b4a0527c3c604b09dea759d3f6e3b4a23300e9e) | feat(wait): add pure wait\_epic\_follow reducer with Python binding (sase-1h7.4) | [sase-1h7.4](sase-1h7.4.md) | 2026-10-06 22:57:12 EDT |
+| sase | [`313aa2c`](https://github.com/sase-org/sase/commit/313aa2c9930455835f3c29dd50ff2e279ea6a1f8) | feat(wait): add epic-follow reducer and fact collector (sase-1h7.4) | [sase-1h7.4](sase-1h7.4.md) | 2026-10-06 23:29:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h7.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.4.md
+
+<!-- sase:referenced-by:end -->
