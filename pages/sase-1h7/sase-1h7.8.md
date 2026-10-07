@@ -14,7 +14,7 @@ tui: render the teal `↪` hand-off in agent rows and in the detail `[agents]` l
 ## Dependencies
 
 - **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h7.6](sase-1h7.6.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h7.6](sase-1h7.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

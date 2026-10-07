@@ -14,7 +14,7 @@ surfaces: add a tri-state "Follow epics" toggle to the `w` wait modal, filter de
 ## Dependencies
 
 - **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h7.6](sase-1h7.6.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h7.6](sase-1h7.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

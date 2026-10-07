@@ -11,6 +11,10 @@
 
 safety: send one deduplicated inbox notification for a LAUNCHING follow past its grace period, for a BLOCKED follow (with the resume command), and for a followed epic whose land agent failed. Fill the reducer's cycle facts, and document the states in docs/axe.md.
 
+## Notes
+
+[2026-10-07T20:46:28Z · sase-1h7.7] PROPOSED FOLLOW-UP: release-phase kill/dismiss path records launching instead of blocked/target_dismissed_during_launch — tests/test_wait_epic_follow_release.py::test_dismiss_launching_target_blocks_without_memoize fails identically on the clean base tree
+
 ## Dependencies
 
 - **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
@@ -20,4 +24,4 @@ safety: send one deduplicated inbox notification for a LAUNCHING follow past its
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.7/README.md) | [sase-1h7.7](sase-1h7.7.md) | 0 |
+| [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.7.md) | [sase-1h7.7](sase-1h7.7.md) | 0 |

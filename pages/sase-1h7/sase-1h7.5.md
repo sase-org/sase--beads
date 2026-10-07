@@ -47,7 +47,7 @@ release: route every release path (runner initial check, parked-runner fallback,
 
 - **Depends on:** [sase-1h7.3](sase-1h7.3.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h7.4](sase-1h7.4.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.6](sase-1h7.6.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.6](sase-1h7.6.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h7.7](sase-1h7.7.md) ◐ · ⧖ 2026-10-06
 
 ## Agents
