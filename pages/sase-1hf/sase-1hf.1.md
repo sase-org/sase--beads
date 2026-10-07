@@ -19,7 +19,7 @@ atomic-ready: publish ready.json via temp file plus no-clobber link, skip publis
 
 ## Dependencies
 
-- **Blocks:** [sase-1hf.3](sase-1hf.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hf.3](sase-1hf.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -32,3 +32,15 @@ atomic-ready: publish ready.json via temp file plus no-clobber link, skip publis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4cbfe00`](https://github.com/sase-org/sase/commit/4cbfe00d979c956a52e93a5f188da1037316107c) | fix(axe): atomically publish agent wait ready markers | [sase-1hf.1](sase-1hf.1.md) | 2026-10-07 15:38:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hf.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.1/README.md
+
+<!-- sase:referenced-by:end -->

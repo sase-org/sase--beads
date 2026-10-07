@@ -13,7 +13,7 @@ live-waiters: shared waiting-marker walk plus tri-state runner liveness, skip de
 
 ## Dependencies
 
-- **Depends on:** [sase-1hf.3](sase-1hf.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hf.3](sase-1hf.3.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hf.5](sase-1hf.5.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
