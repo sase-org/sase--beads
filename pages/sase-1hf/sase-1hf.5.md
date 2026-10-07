@@ -14,7 +14,7 @@ lane-split: new agent_waits (2 s) and sidecar_sync (30 s) routines, post-sync be
 ## Dependencies
 
 - **Depends on:** [sase-1hf.2](sase-1hf.2.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [sase-1hf.4](sase-1hf.4.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hf.4](sase-1hf.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

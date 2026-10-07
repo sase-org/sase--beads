@@ -22,7 +22,7 @@ release-telemetry: stamp wait_release_source, dependency-satisfied time, release
 ## Dependencies
 
 - **Depends on:** [sase-1hf.1](sase-1hf.1.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hf.4](sase-1hf.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hf.4](sase-1hf.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -35,3 +35,15 @@ release-telemetry: stamp wait_release_source, dependency-satisfied time, release
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`62604c1`](https://github.com/sase-org/sase/commit/62604c10b7b01af1dd28cd43404d6728c2c3a375) | feat(wait): add release telemetry for wait dependency resolution | [sase-1hf.3](sase-1hf.3.md) | 2026-10-07 17:28:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hf.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.3.md
+
+<!-- sase:referenced-by:end -->
