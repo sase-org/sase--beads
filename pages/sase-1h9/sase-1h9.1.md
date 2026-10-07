@@ -28,3 +28,15 @@ pin-after-handoff: move the host revision_pin write for a conflict-repaired pinn
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`da0aad1`](https://github.com/sase-org/sase/commit/da0aad15f210b4c9bc54e8d74dfc22042b0d65d7) | fix(finalizer): write revision pin after repair-remaining handoff (sase-1h9.1) | [sase-1h9.1](sase-1h9.1.md) | 2026-10-07 08:43:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h9.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -28,3 +28,15 @@ wait-terminal-alerts: limit wait_checks terminal-blocker detection to members th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`91e6c64`](https://github.com/sase-org/sase/commit/91e6c645728acceb8b64feeeddea8996587bc418) | fix(wait): stop terminal blockers alerting on superseded members | [sase-1h9.4](sase-1h9.4.md) | 2026-10-07 08:48:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h9.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.4/README.md
+
+<!-- sase:referenced-by:end -->
