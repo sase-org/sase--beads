@@ -21,6 +21,8 @@ reducer: add the pure sase-core reducer that maps per-member facts to AGENT/NONE
 
 [2026-10-07T02:56:24Z · sase-1h7.4--1] Verified: 18 Rust reducer tests + binding round-trip pass; 10 collector tests pass; sase check green except 2 unrelated flakes (pass in isolation); sase-core rustfmt drift pre-existing in untouched fingerprint files. sase-core-revision.txt not moved (needs sase-core commit hash; land agent work).
 
+[2026-10-07T04:34:32Z · sase-1h7.4--2] PROPOSED FOLLOW-UP: never verify with `uv run pytest` after `just install` — `uv run` re-syncs uv.lock (sase-core-rs 0.35.0) and clobbers the locally built wheel (0.37.0 with wait_epic_follow_reduce); use `.venv/bin/python -m pytest` or `just test-scoped` instead
+
 ## Dependencies
 
 - **Depends on:** [sase-1h7.1](sase-1h7.1.md) ✓ · ⧖ 2026-10-06
