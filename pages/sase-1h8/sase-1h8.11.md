@@ -34,13 +34,14 @@ projection-off: stop rewriting and committing issues.jsonl on every mutation, un
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 1 |
+| [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7df86f4`](https://github.com/sase-org/sase-core/commit/7df86f4a3ae3aa677386d875d3fc5a1f348c376c) | feat(bead): skip projection rewrite on event-store save; add referenced-artifact-ids query (sase-1h8.11) | [sase-1h8.11](sase-1h8.11.md) | 2026-10-07 14:00:07 EDT |
+| sase | [`ee00218`](https://github.com/sase-org/sase/commit/ee0021821fa3adf8401ea725967e1414682432d0) | feat(bead): take issues.jsonl off the per-mutation path (sase-1h8.11) | [sase-1h8.11](sase-1h8.11.md) | 2026-10-07 14:52:27 EDT |
 
 <!-- sase:referenced-by:start -->
 

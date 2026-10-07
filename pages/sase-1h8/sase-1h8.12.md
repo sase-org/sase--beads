@@ -15,6 +15,8 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 
 [2026-10-07T18:24:48Z · sase-1h8.12] PROPOSED FOLLOW-UP: sase-core editor::directive::tests::contract_covers_the_audited_directive_matrix fails identically on the clean base tree (extra for_epic directive); unrelated to read-model-queries, needs triage by the owning phase
 
+[2026-10-07T18:34:31Z · sase-1h8.12] PROPOSED FOLLOW-UP: sase-core-py editor_completion directive_contract test fails identically on the clean base tree (same for_epic matrix drift as the sase_core editor::directive failure); unrelated to read-model-queries
+
 ## Dependencies
 
 - **Blocks:** [sase-1h8.13](sase-1h8.13.md) ◐ · ⧖ 2026-10-06
