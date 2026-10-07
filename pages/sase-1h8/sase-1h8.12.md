@@ -33,13 +33,14 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 1 |
+| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d2a56b4`](https://github.com/sase-org/sase-core/commit/d2a56b4ca928c602379619bb35869d133df9800e) | feat(bead): add indexed read-model query layer with Python bindings | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 15:52:25 EDT |
+| sase | [`446f183`](https://github.com/sase-org/sase/commit/446f1833deb92962992f7fb9538a82a21f3c0982) | feat(bead): serve list and status queries from indexed read-model tables | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 16:19:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -48,7 +49,9 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+| read-by | [agent:sase-1h8.12--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md
 
 <!-- sase:referenced-by:end -->
