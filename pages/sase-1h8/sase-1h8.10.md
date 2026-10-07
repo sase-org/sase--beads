@@ -14,7 +14,7 @@ seal-watch: report the measurable sealed-archive triggers in bead doctor and doc
 ## Dependencies
 
 - **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h8.9](sase-1h8.9.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h8.9](sase-1h8.9.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
