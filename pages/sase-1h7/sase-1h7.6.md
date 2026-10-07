@@ -22,7 +22,7 @@ model: load `wait_for_epics_of` and `wait_epic_follows` into the TUI Agent model
 ## Dependencies
 
 - **Depends on:** [sase-1h7.5](sase-1h7.5.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.8](sase-1h7.8.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.8](sase-1h7.8.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h7.9](sase-1h7.9.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

@@ -11,6 +11,10 @@
 
 surfaces: add a tri-state "Follow epics" toggle to the `w` wait modal, filter derived beads out of edits and relaunch rewrites, export the follow state in `sase agent list -j` and `sase agent wait` rows, synthesize `agents["x"].created_epic(s)` for Jinja, and show the hand-off in Telegram status text when waits are shown there.
 
+## Notes
+
+[2026-10-07T21:34:58Z · sase-1h7.9] PROPOSED FOLLOW-UP: symvision _runs private-import errors in agents_sync/v2_snapshot_io.py and ace/tui/widgets/decks/final/overview_card.py fail just check identically on the clean base tree; needs its own bead
+
 ## Dependencies
 
 - **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06

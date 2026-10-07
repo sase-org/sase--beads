@@ -47,7 +47,7 @@ Each fails at index 2 with for_epic= != hood=. The actual rows are the expected 
 | [sase-1h7.5](sase-1h7.5.md) | Follow through in every release path | ✓ closed | large | 2026-10-06 | 1 | 2 |
 | [sase-1h7.6](sase-1h7.6.md) | Follow state in the agent model and shared view | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h7.7](sase-1h7.7.md) | Blocker notifications and the cycle guard | ✓ closed | medium | 2026-10-06 | 1 | 1 |
-| [sase-1h7.8](sase-1h7.8.md) | The ↪ hand-off in rows, lanes, toasts, and timeline | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h7.8](sase-1h7.8.md) | The ↪ hand-off in rows, lanes, toasts, and timeline | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h7.9](sase-1h7.9.md) | Wait modal toggle, CLI, Jinja, and Telegram parity | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 
 ## Lineage
@@ -63,7 +63,7 @@ flowchart TD
     n6["sase-1h7.5: Follow through in every release path [closed]"]
     n7["sase-1h7.6: Follow state in the agent model and shared view [closed]"]
     n8["sase-1h7.7: Blocker notifications and the cycle guard [closed]"]
-    n9["sase-1h7.8: The ↪ hand-off in rows, lanes, toasts, and timeline [in_progress]"]
+    n9["sase-1h7.8: The ↪ hand-off in rows, lanes, toasts, and timeline [closed]"]
     n10["sase-1h7.9: Wait modal toggle, CLI, Jinja, and Telegram parity [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.5.md) | [sase-1h7.5](sase-1h7.5.md) | 2 |
 | [bbugyi200.athena.sase-1h7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.6/README.md) | [sase-1h7.6](sase-1h7.6.md) | 1 |
 | [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.7.md) | [sase-1h7.7](sase-1h7.7.md) | 1 |
-| [bbugyi200.athena.sase-1h7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.8/README.md) | [sase-1h7.8](sase-1h7.8.md) | 0 |
+| [bbugyi200.athena.sase-1h7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.8/README.md) | [sase-1h7.8](sase-1h7.8.md) | 1 |
 | [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 0 |
 | [bbugyi200.athena.sase-1h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md) | [sase-1h7](README.md) | 0 |
 
@@ -122,6 +122,7 @@ flowchart TD
 | sase | [`333034a`](https://github.com/sase-org/sase/commit/333034a60aa09d6279d508b4d39f0ab9707da912) | feat(wait): route every release path through shared epic-follow release (sase-1h7.5) | [sase-1h7.5](sase-1h7.5.md) | 2026-10-07 16:26:49 EDT |
 | sase | [`6e2bc57`](https://github.com/sase-org/sase/commit/6e2bc577260805ecec2695b93697cd5bfe3f66ac) | feat(wait): add epic follow view for wait\_for\_epics\_of targets | [sase-1h7.6](sase-1h7.6.md) | 2026-10-07 17:04:08 EDT |
 | sase | [`7a3e388`](https://github.com/sase-org/sase/commit/7a3e3882c9c1115622e4512a0c6069518f70c47d) | feat(axe): add chop wait epic-follow safety phase with blocker notifications and cycle guard | [sase-1h7.7](sase-1h7.7.md) | 2026-10-07 17:25:41 EDT |
+| sase | [`0a80039`](https://github.com/sase-org/sase/commit/0a80039618ee8f2ca8d9bce6ec9d21b8f4c1c3b7) | feat(ace-tui): render epic-follow hand-off across agents surfaces | [sase-1h7.8](sase-1h7.8.md) | 2026-10-07 17:46:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
