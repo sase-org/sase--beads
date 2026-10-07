@@ -15,7 +15,7 @@ Agent dependency waits are released by wait_checks within seconds of the depende
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1hf.1](sase-1hf.1.md) | Race-free ready.json publication and reading | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
+| [sase-1hf.1](sase-1hf.1.md) | Race-free ready.json publication and reading | ✓ closed | small | 2026-10-07 | 1 | 1 |
 | [sase-1hf.2](sase-1hf.2.md) | Point wait\_checks and bead\_claim\_checks at the completion pulse | ✓ closed | small | 2026-10-07 | 1 | 1 |
 | [sase-1hf.3](sase-1hf.3.md) | Record wait release source and latency (research Phase 0) | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
 | [sase-1hf.4](sase-1hf.4.md) | Resolve only live waiters from a filesystem view | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
@@ -26,7 +26,7 @@ Agent dependency waits are released by wait_checks within seconds of the depende
 ```mermaid
 flowchart TD
     n0["sase-1hf: Repair the wait lane so waiting agents wake on completion, not on the fallback [in_progress]"]
-    n1["sase-1hf.1: Race-free ready.json publication and reading [in_progress]"]
+    n1["sase-1hf.1: Race-free ready.json publication and reading [closed]"]
     n2["sase-1hf.2: Point wait_checks and bead_claim_checks at the completion pulse [closed]"]
     n3["sase-1hf.3: Record wait release source and latency (research Phase 0) [in_progress]"]
     n4["sase-1hf.4: Resolve only live waiters from a filesystem view [in_progress]"]
@@ -46,7 +46,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1hf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.1/README.md) | [sase-1hf.1](sase-1hf.1.md) | 0 |
+| [bbugyi200.athena.sase-1hf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.1/README.md) | [sase-1hf.1](sase-1hf.1.md) | 1 |
 | [bbugyi200.athena.sase-1hf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.2/README.md) | [sase-1hf.2](sase-1hf.2.md) | 1 |
 | [bbugyi200.athena.sase-1hf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.3/README.md) | [sase-1hf.3](sase-1hf.3.md) | 0 |
 | [bbugyi200.athena.sase-1hf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.4/README.md) | [sase-1hf.4](sase-1hf.4.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ea7d138`](https://github.com/sase-org/sase/commit/ea7d1388db061f2f4c0233e5a7dd650b292dcfb3) | fix(axe): fire wait fs triggers on dependency pulse, not artifact glob | [sase-1hf.2](sase-1hf.2.md) | 2026-10-07 15:16:35 EDT |
+| sase | [`4cbfe00`](https://github.com/sase-org/sase/commit/4cbfe00d979c956a52e93a5f188da1037316107c) | fix(axe): atomically publish agent wait ready markers | [sase-1hf.1](sase-1hf.1.md) | 2026-10-07 15:38:17 EDT |

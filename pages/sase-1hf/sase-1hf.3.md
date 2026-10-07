@@ -13,7 +13,7 @@ release-telemetry: stamp wait_release_source, dependency-satisfied time, release
 
 ## Dependencies
 
-- **Depends on:** [sase-1hf.1](sase-1hf.1.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hf.1](sase-1hf.1.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hf.4](sase-1hf.4.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
