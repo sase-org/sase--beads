@@ -26,7 +26,7 @@ reducer: add the pure sase-core reducer that maps per-member facts to AGENT/NONE
 ## Dependencies
 
 - **Depends on:** [sase-1h7.1](sase-1h7.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.5](sase-1h7.5.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.5](sase-1h7.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

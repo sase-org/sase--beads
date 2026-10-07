@@ -38,7 +38,7 @@ contract: accept and strictly validate `for_epic=` on `%wait` with identical lau
 ## Dependencies
 
 - **Depends on:** [sase-1h7.1](sase-1h7.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.5](sase-1h7.5.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.5](sase-1h7.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
@@ -59,7 +59,7 @@ contract: accept and strictly validate `for_epic=` on `%wait` with identical lau
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1h7.3--1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1h7.3--1][1] | Need the phase scope and design file | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.3.md
 

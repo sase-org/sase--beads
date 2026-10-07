@@ -21,3 +21,15 @@ surfaces: add a tri-state "Follow epics" toggle to the `w` wait modal, filter de
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h9.land][1] | Need whether CLI completion vocab is this phase's unfinished work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.land/README.md
+
+<!-- sase:referenced-by:end -->
