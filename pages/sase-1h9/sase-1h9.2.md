@@ -30,3 +30,15 @@ repair-resume: make `sase stitch create --resume` publish an unpushed rebased HE
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5230c30`](https://github.com/sase-org/sase/commit/5230c3080e4fa07997f9d9c67ee55135d1914261) | feat(commit): add dispatch conflict repair resume and workflow resume recovery | [sase-1h9.2](sase-1h9.2.md) | 2026-10-07 09:02:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h9.2--1][1] | Need full scope to assess check failures | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h9.2.md
+
+<!-- sase:referenced-by:end -->
