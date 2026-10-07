@@ -21,7 +21,7 @@ pulse-trigger: replace the blind ace-run/* fs glob with the per-project .ace_ref
 
 ## Dependencies
 
-- **Blocks:** [sase-1hf.5](sase-1hf.5.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hf.5](sase-1hf.5.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

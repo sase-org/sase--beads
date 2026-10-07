@@ -26,7 +26,7 @@ live-waiters: shared waiting-marker walk plus tri-state runner liveness, skip de
 ## Dependencies
 
 - **Depends on:** [sase-1hf.3](sase-1hf.3.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hf.5](sase-1hf.5.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hf.5](sase-1hf.5.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -39,3 +39,15 @@ live-waiters: shared waiting-marker walk plus tri-state runner liveness, skip de
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`68a4e89`](https://github.com/sase-org/sase/commit/68a4e89ac48165b789729bb117fa7261dad678ee) | feat(wait): resolve only live waiters from a filesystem view | [sase-1hf.4](sase-1hf.4.md) | 2026-10-07 18:13:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hf.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.4/README.md
+
+<!-- sase:referenced-by:end -->

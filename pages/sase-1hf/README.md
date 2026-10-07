@@ -31,7 +31,7 @@ Agent dependency waits are released by wait_checks within seconds of the depende
 | [sase-1hf.2](sase-1hf.2.md) | Point wait\_checks and bead\_claim\_checks at the completion pulse | ✓ closed | small | 2026-10-07 | 1 | 1 |
 | [sase-1hf.3](sase-1hf.3.md) | Record wait release source and latency (research Phase 0) | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hf.4](sase-1hf.4.md) | Resolve only live waiters from a filesystem view | ✓ closed | medium | 2026-10-07 | 1 | 1 |
-| [sase-1hf.5](sase-1hf.5.md) | Give wait\_checks and sidecar\_auto\_sync their own routines | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
+| [sase-1hf.5](sase-1hf.5.md) | Give wait\_checks and sidecar\_auto\_sync their own routines | ✓ closed | small | 2026-10-07 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n2["sase-1hf.2: Point wait_checks and bead_claim_checks at the completion pulse [closed]"]
     n3["sase-1hf.3: Record wait release source and latency (research Phase 0) [closed]"]
     n4["sase-1hf.4: Resolve only live waiters from a filesystem view [closed]"]
-    n5["sase-1hf.5: Give wait_checks and sidecar_auto_sync their own routines [in_progress]"]
+    n5["sase-1hf.5: Give wait_checks and sidecar_auto_sync their own routines [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1hf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.2/README.md) | [sase-1hf.2](sase-1hf.2.md) | 1 |
 | [bbugyi200.athena.sase-1hf.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.3.md) | [sase-1hf.3](sase-1hf.3.md) | 1 |
 | [bbugyi200.athena.sase-1hf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.4/README.md) | [sase-1hf.4](sase-1hf.4.md) | 1 |
-| [bbugyi200.athena.sase-1hf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.5/README.md) | [sase-1hf.5](sase-1hf.5.md) | 0 |
+| [bbugyi200.athena.sase-1hf.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.5.md) | [sase-1hf.5](sase-1hf.5.md) | 1 |
 | [bbugyi200.athena.sase-1hf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md) | [sase-1hf](README.md) | 0 |
 
 ## Commits
@@ -73,3 +73,4 @@ flowchart TD
 | sase | [`4cbfe00`](https://github.com/sase-org/sase/commit/4cbfe00d979c956a52e93a5f188da1037316107c) | fix(axe): atomically publish agent wait ready markers | [sase-1hf.1](sase-1hf.1.md) | 2026-10-07 15:38:17 EDT |
 | sase | [`62604c1`](https://github.com/sase-org/sase/commit/62604c10b7b01af1dd28cd43404d6728c2c3a375) | feat(wait): add release telemetry for wait dependency resolution | [sase-1hf.3](sase-1hf.3.md) | 2026-10-07 17:28:12 EDT |
 | sase | [`68a4e89`](https://github.com/sase-org/sase/commit/68a4e89ac48165b789729bb117fa7261dad678ee) | feat(wait): resolve only live waiters from a filesystem view | [sase-1hf.4](sase-1hf.4.md) | 2026-10-07 18:13:29 EDT |
+| sase | [`3a4178b`](https://github.com/sase-org/sase/commit/3a4178b15ae6af2511631c8c74852c0b868156cf) | feat(axe): split wait\_checks and sidecar auto-sync into dedicated routines | [sase-1hf.5](sase-1hf.5.md) | 2026-10-07 19:41:12 EDT |
