@@ -17,6 +17,10 @@ read-model-store: add the versioned SQLite read model under the clone's git dir 
 
 [2026-10-07T02:51:09Z · sase-1h8.8] Measurements (sase-core debug build, bench corpus 6899 beads/2000 streams/44735 events at 1x; 8x via prefix-copy: 55192 beads/16000 streams): 1x replay 1574ms (cold page cache) / cold rebuild 273ms / warm token-only reads ~250-279ms / cache 15.9MB; 8x replay 13786ms / cold rebuild 2508ms / warm ~2.2-2.3s / cache 127MB; verify-cache matched at both scales, generation stays 1 across warm reads. Warm serve still scales with total issues (full-snapshot deserialize) -- indexed point reads are read-model-queries (sase-1h8.12); the token path itself is 3 stats at any scale. Pre-existing rustfmt drift in 2 fingerprint files (clean-tree cargo fmt --check red) folded in so the gate passes.
 
+[2026-10-07T04:30:56Z · sase-1h8.8--2] Snapshot drift from run c86ef5e5 (2 completion snapshot tests) repaired by regenerating tests/completion/snapshots/cli_spec.json via tools/sync_completion_spec; snapshot tests now pass locally, doctor suite 25 passed
+
+[2026-10-07T04:49:47Z · sase-1h8.8--3] PROPOSED FOLLOW-UP: pre-existing symvision KNOWN private-import _runs in src/sase/agents_sync/v2_snapshot_io.py and src/sase/ace/tui/widgets/decks/final/overview_card.py (witness 05b9fc696a324977dde864aadd60a092, established by sase-1h8.1) keeps just check red; out of scope for read-model phase
+
 ## Dependencies
 
 - **Depends on:** [sase-1h8.1](sase-1h8.1.md) ✓ · ⧖ 2026-10-06
@@ -28,4 +32,10 @@ read-model-store: add the versioned SQLite read model under the clone's git dir 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 0 |
+| [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@91e0e49`](https://github.com/sase-org/sase-core/commit/91e0e49c083119e64118d7e56a6b51b1e0a13e84) | feat(bead): add versioned SQLite read model with freshness token and parity harness | [sase-1h8.8](sase-1h8.8.md) | 2026-10-07 00:57:36 EDT |
