@@ -54,10 +54,23 @@ release: route every release path (runner initial check, parked-runner fallback,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.5.md) | [sase-1h7.5](sase-1h7.5.md) | 1 |
+| [bbugyi200.athena.sase-1h7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.5.md) | [sase-1h7.5](sase-1h7.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d742e20`](https://github.com/sase-org/sase-core/commit/d742e207c697249c75dd42fac669d338e4bbed0b) | feat(wait): wire wait\_epic\_follows scan fields and dismissed-member reducer fix (sase-1h7.5) | [sase-1h7.5](sase-1h7.5.md) | 2026-10-07 15:38:14 EDT |
+| sase | [`333034a`](https://github.com/sase-org/sase/commit/333034a60aa09d6279d508b4d39f0ab9707da912) | feat(wait): route every release path through shared epic-follow release (sase-1h7.5) | [sase-1h7.5](sase-1h7.5.md) | 2026-10-07 16:26:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h7.5--3][1] | Finish bead sase-1h7.5 release implementation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.5.md
+
+<!-- sase:referenced-by:end -->
