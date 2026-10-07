@@ -31,8 +31,8 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 |---|---|---|---|---|---:|---:|
 | [sase-1h7.1](sase-1h7.1.md) | Record the epics a run launched | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h7.10](sase-1h7.10.md) | Flip the default on and finish the docs | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
-| [sase-1h7.2](sase-1h7.2.md) | Derive produced-by links from recorded epics | ✓ closed | small | 2026-10-06 | 1 | 2 |
-| [sase-1h7.3](sase-1h7.3.md) | Grammar, diagnostics, and persisted policy | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h7.2](sase-1h7.2.md) | Derive produced-by links from recorded epics | ✓ closed | small | 2026-10-06 | 1 | 1 |
+| [sase-1h7.3](sase-1h7.3.md) | Grammar, diagnostics, and persisted policy | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h7.4](sase-1h7.4.md) | Epic-follow reducer and fact collector | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h7.5](sase-1h7.5.md) | Follow through in every release path | ◐ in_progress | large | 2026-10-06 | 1 | 0 |
 | [sase-1h7.6](sase-1h7.6.md) | Follow state in the agent model and shared view | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n1["sase-1h7.1: Record the epics a run launched [closed]"]
     n2["sase-1h7.10: Flip the default on and finish the docs [in_progress]"]
     n3["sase-1h7.2: Derive produced-by links from recorded epics [closed]"]
-    n4["sase-1h7.3: Grammar, diagnostics, and persisted policy [in_progress]"]
+    n4["sase-1h7.3: Grammar, diagnostics, and persisted policy [closed]"]
     n5["sase-1h7.4: Epic-follow reducer and fact collector [in_progress]"]
     n6["sase-1h7.5: Follow through in every release path [in_progress]"]
     n7["sase-1h7.6: Follow state in the agent model and shared view [in_progress]"]
@@ -86,9 +86,9 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.1/README.md) | [sase-1h7.1](sase-1h7.1.md) | 2 |
 | [bbugyi200.athena.sase-1h7.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.10/README.md) | [sase-1h7.10](sase-1h7.10.md) | 0 |
-| [bbugyi200.athena.sase-1h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.2/README.md) | [sase-1h7.2](sase-1h7.2.md) | 2 |
-| [bbugyi200.athena.sase-1h7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.3.md) | [sase-1h7.3](sase-1h7.3.md) | 0 |
-| [bbugyi200.athena.sase-1h7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.4/README.md) | [sase-1h7.4](sase-1h7.4.md) | 0 |
+| [bbugyi200.athena.sase-1h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.2/README.md) | [sase-1h7.2](sase-1h7.2.md) | 1 |
+| [bbugyi200.athena.sase-1h7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.3.md) | [sase-1h7.3](sase-1h7.3.md) | 1 |
+| [bbugyi200.athena.sase-1h7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.4.md) | [sase-1h7.4](sase-1h7.4.md) | 0 |
 | [bbugyi200.athena.sase-1h7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.5/README.md) | [sase-1h7.5](sase-1h7.5.md) | 0 |
 | [bbugyi200.athena.sase-1h7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.6/README.md) | [sase-1h7.6](sase-1h7.6.md) | 0 |
 | [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.7/README.md) | [sase-1h7.7](sase-1h7.7.md) | 0 |
@@ -103,7 +103,7 @@ flowchart TD
 | sase-core | [`sase-core@436dba6`](https://github.com/sase-org/sase-core/commit/436dba6c65670ff6bf4a9bbf5255ce411da4df1e) | feat(wire): add CreatedEpicWire to agent-meta wire | [sase-1h7.1](sase-1h7.1.md) | 2026-10-06 20:05:44 EDT |
 | sase | [`997b9e2`](https://github.com/sase-org/sase/commit/997b9e26ff9b1315e0ab0c386f4ecf8e7052f454) | feat(record): track created epics via locked agent-meta updates | [sase-1h7.1](sase-1h7.1.md) | 2026-10-06 21:05:13 EDT |
 | sase-core | [`sase-core@f4be6ce`](https://github.com/sase-org/sase-core/commit/f4be6cee136df4258e54af1ede98ac82e5a776a1) | feat(artifact-link): widen produced-by guidance to bead sources | [sase-1h7.2](sase-1h7.2.md) | 2026-10-06 21:55:25 EDT |
-| sase | [`d58a45a`](https://github.com/sase-org/sase/commit/d58a45a75f58bddb5662a20bff206006b6f26508) | feat(artifact-links): publish created\_epic\_ids and project agent-created-epic links | [sase-1h7.2](sase-1h7.2.md) | 2026-10-06 22:00:53 EDT |
+| sase-core | [`sase-core@21c539f`](https://github.com/sase-org/sase-core/commit/21c539fd30aff96530611f56903c5026e70ce3c3) | feat(wait): mirror wait\_for\_epics\_of in scan wires and editor grammar (sase-1h7.3) | [sase-1h7.3](sase-1h7.3.md) | 2026-10-06 22:35:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
