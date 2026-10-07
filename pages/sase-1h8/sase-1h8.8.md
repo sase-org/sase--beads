@@ -13,7 +13,7 @@ read-model-store: add the versioned SQLite read model under the clone's git dir 
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.1](sase-1h8.1.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h8.1](sase-1h8.1.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h8.11](sase-1h8.11.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.4](sase-1h8.4.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [sase-1h8.9](sase-1h8.9.md) ◐ · ⧖ 2026-10-06
