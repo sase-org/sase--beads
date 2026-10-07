@@ -30,13 +30,14 @@ seal-watch: report the measurable sealed-archive triggers in bead doctor and doc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 1 |
+| [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4b3831f`](https://github.com/sase-org/sase-core/commit/4b3831fd8d00fb1405e70e974a8fa1070ba22b90) | feat(bead): add seal-watch threshold probe and binding | [sase-1h8.10](sase-1h8.10.md) | 2026-10-07 14:23:25 EDT |
+| sase | [`de751c2`](https://github.com/sase-org/sase/commit/de751c2d1aac0b06b75baed3217f966719b568f7) | feat(bead): add seal-watch triggers to bead doctor | [sase-1h8.10](sase-1h8.10.md) | 2026-10-07 14:40:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -45,7 +46,9 @@ seal-watch: report the measurable sealed-archive triggers in bead doctor and doc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+| read-by | [agent:sase-1h8.10][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md
 
 <!-- sase:referenced-by:end -->

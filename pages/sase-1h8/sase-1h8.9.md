@@ -51,9 +51,11 @@ read-model-tail: apply appended events after the merge frontier instead of rebui
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
-| read-by | [agent:sase-1h8.9--1][2] | Need phase scope and design file | 1 |
+| read-by | [agent:sase-1h8.10][2] | Need prior phase landing pattern for sase-core changes | 1 |
+| read-by | [agent:sase-1h8.9--1][3] | Need phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md
 
 <!-- sase:referenced-by:end -->

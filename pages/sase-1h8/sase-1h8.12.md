@@ -11,6 +11,10 @@
 
 read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, and multi-get from indexed read-model tables so hot queries touch only active or requested rows.
 
+## Notes
+
+[2026-10-07T18:24:48Z · sase-1h8.12] PROPOSED FOLLOW-UP: sase-core editor::directive::tests::contract_covers_the_audited_directive_matrix fails identically on the clean base tree (extra for_epic directive); unrelated to read-model-queries, needs triage by the owning phase
+
 ## Dependencies
 
 - **Blocks:** [sase-1h8.13](sase-1h8.13.md) ◐ · ⧖ 2026-10-06
@@ -21,7 +25,7 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.12/README.md) | [sase-1h8.12](sase-1h8.12.md) | 0 |
+| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
