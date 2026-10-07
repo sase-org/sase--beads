@@ -30,3 +30,15 @@ owned-turn-handoffs: share the SASE_FINALIZER_OWNED_TURN guard that gate turns a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9e5cc41`](https://github.com/sase-org/sase/commit/9e5cc41598ffc07e6ec725a78ec4ec8e60c25bad) | feat(finalizers): refuse turn-ending handoffs on finalizer-owned turns | [sase-1h9.3](sase-1h9.3.md) | 2026-10-07 08:10:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h9.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.3/README.md
+
+<!-- sase:referenced-by:end -->

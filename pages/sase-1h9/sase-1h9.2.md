@@ -15,4 +15,4 @@ repair-resume: make `sase stitch create --resume` publish an unpushed rebased HE
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.2/README.md) | [sase-1h9.2](sase-1h9.2.md) | 0 |
+| [bbugyi200.athena.sase-1h9.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h9.2.md) | [sase-1h9.2](sase-1h9.2.md) | 0 |
