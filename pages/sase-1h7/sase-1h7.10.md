@@ -16,7 +16,7 @@ flip: make `for_epic` default to true for user-authored agent targets (never `--
 - **Depends on:** [sase-1h7.2](sase-1h7.2.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h7.7](sase-1h7.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h7.8](sase-1h7.8.md) ✓ · ⧖ 2026-10-06
-- **Depends on:** [sase-1h7.9](sase-1h7.9.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [sase-1h7.9](sase-1h7.9.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
