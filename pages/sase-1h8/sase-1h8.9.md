@@ -35,10 +35,25 @@ read-model-tail: apply appended events after the merge frontier instead of rebui
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 1 |
+| [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f8d05ef`](https://github.com/sase-org/sase-core/commit/f8d05efc58310eca985f2112afc89379ff7a6636) | feat(bead-read-model): snapshot-plus-tail incremental refresh in sase-core | [sase-1h8.9](sase-1h8.9.md) | 2026-10-07 12:20:26 EDT |
+| sase | [`aebe28d`](https://github.com/sase-org/sase/commit/aebe28de8414ebc34438e4fb4d57fc7519153b08) | feat(bead-read-model): snapshot-plus-tail incremental refresh telemetry and doctor tests | [sase-1h8.9](sase-1h8.9.md) | 2026-10-07 13:09:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+| read-by | [agent:sase-1h8.9--1][2] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md
+
+<!-- sase:referenced-by:end -->

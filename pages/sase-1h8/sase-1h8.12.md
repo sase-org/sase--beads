@@ -17,8 +17,14 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 - **Depends on:** [sase-1h8.7](sase-1h8.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.9](sase-1h8.9.md) ✓ · ⧖ 2026-10-06
 
-## Agents
+<!-- sase:referenced-by:start -->
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.12/README.md) | [sase-1h8.12](sase-1h8.12.md) | 0 |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+
+<!-- sase:referenced-by:end -->

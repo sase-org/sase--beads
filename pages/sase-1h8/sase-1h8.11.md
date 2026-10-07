@@ -18,8 +18,14 @@ projection-off: stop rewriting and committing issues.jsonl on every mutation, un
 - **Depends on:** [sase-1h8.7](sase-1h8.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.8](sase-1h8.8.md) ✓ · ⧖ 2026-10-06
 
-## Agents
+<!-- sase:referenced-by:start -->
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 0 |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+
+<!-- sase:referenced-by:end -->

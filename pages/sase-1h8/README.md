@@ -16,19 +16,19 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1h8.1](sase-1h8.1.md) | Scaled-corpus bead benchmark harness | ✓ closed | medium | 2026-10-06 | 1 | 1 |
-| [sase-1h8.10](sase-1h8.10.md) | Sealed-segment triggers and design | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
-| [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
-| [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
-| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 0 |
-| [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h8.10](sase-1h8.10.md) | Sealed-segment triggers and design | ◐ in_progress | small | 2026-10-06 | 0 | 0 |
+| [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ◐ in_progress | medium | 2026-10-06 | 0 | 0 |
+| [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ◐ in_progress | medium | 2026-10-06 | 0 | 0 |
+| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 0 | 0 |
+| [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 0 | 0 |
 | [sase-1h8.2](sase-1h8.2.md) | Constant-cost artifact-link outbox append | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.3](sase-1h8.3.md) | Hidden-clone gc and bead push-log retention | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.4](sase-1h8.4.md) | One parse, one validation, no lockless-read deletes | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h8.5](sase-1h8.5.md) | Store fingerprint binding and consumer migration | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.6](sase-1h8.6.md) | TUI Beads and Plans pane refresh | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h8.7](sase-1h8.7.md) | One store read per CLI command | ✓ closed | medium | 2026-10-06 | 1 | 2 |
+| [sase-1h8.7](sase-1h8.7.md) | One store read per CLI command | ✓ closed | medium | 2026-10-06 | 1 | 3 |
 | [sase-1h8.8](sase-1h8.8.md) | Read-model substrate, freshness protocol, and parity harness | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h8.9](sase-1h8.9.md) | Snapshot-plus-tail incremental refresh | ✓ closed | medium | 2026-10-06 | 1 | 1 |
+| [sase-1h8.9](sase-1h8.9.md) | Snapshot-plus-tail incremental refresh | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 
 ## Lineage
 
@@ -88,20 +88,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1h8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md) | [sase-1h8.1](sase-1h8.1.md) | 1 |
-| [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 0 |
-| [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 0 |
-| [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.12/README.md) | [sase-1h8.12](sase-1h8.12.md) | 0 |
-| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13/README.md) | [sase-1h8.13](sase-1h8.13.md) | 0 |
-| [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
 | [bbugyi200.athena.sase-1h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.4/README.md) | [sase-1h8.4](sase-1h8.4.md) | 1 |
 | [bbugyi200.athena.sase-1h8.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.5.md) | [sase-1h8.5](sase-1h8.5.md) | 2 |
 | [bbugyi200.athena.sase-1h8.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.6.md) | [sase-1h8.6](sase-1h8.6.md) | 2 |
-| [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md) | [sase-1h8.7](sase-1h8.7.md) | 2 |
+| [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md) | [sase-1h8.7](sase-1h8.7.md) | 3 |
 | [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 2 |
-| [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 1 |
-| [bbugyi200.athena.sase-1h8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.land/README.md) | [sase-1h8](README.md) | 0 |
+| [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 2 |
 
 ## Commits
 
@@ -119,7 +113,9 @@ flowchart TD
 | sase-core | [`sase-core@91e0e49`](https://github.com/sase-org/sase-core/commit/91e0e49c083119e64118d7e56a6b51b1e0a13e84) | feat(bead): add versioned SQLite read model with freshness token and parity harness | [sase-1h8.8](sase-1h8.8.md) | 2026-10-07 00:57:36 EDT |
 | sase | [`7da1570`](https://github.com/sase-org/sase/commit/7da15707ea0331e509f65553b5721f5e465c0d5a) | feat(bead-store): versioned SQLite read model with freshness token and verify-cache (sase-1h8.8) | [sase-1h8.8](sase-1h8.8.md) | 2026-10-07 09:20:33 EDT |
 | sase-core | [`sase-core@26ec2d6`](https://github.com/sase-org/sase-core/commit/26ec2d61d9c60eede1596ae7d8c897e74dfb8141) | feat(bead): report update request-order IDs and enforce create parent (sase-1h8.7) | [sase-1h8.7](sase-1h8.7.md) | 2026-10-07 10:19:25 EDT |
+| sase | [`b0687d0`](https://github.com/sase-org/sase/commit/b0687d0180e1fe8ff2c1cf8f64bc8db94dab8b47) | feat(bead): one store read per CLI command (sase-1h8.7) | [sase-1h8.7](sase-1h8.7.md) | 2026-10-07 10:48:43 EDT |
 | sase-core | [`sase-core@f8d05ef`](https://github.com/sase-org/sase-core/commit/f8d05efc58310eca985f2112afc89379ff7a6636) | feat(bead-read-model): snapshot-plus-tail incremental refresh in sase-core | [sase-1h8.9](sase-1h8.9.md) | 2026-10-07 12:20:26 EDT |
+| sase | [`aebe28d`](https://github.com/sase-org/sase/commit/aebe28de8414ebc34438e4fb4d57fc7519153b08) | feat(bead-read-model): snapshot-plus-tail incremental refresh telemetry and doctor tests | [sase-1h8.9](sase-1h8.9.md) | 2026-10-07 13:09:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -127,10 +123,12 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1h8.1][1] | parent epic scope | 1 |
-| read-by | [agent:sase-1h8.7][2] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
+| read-by | [agent:research.3y.grk][1] | Need epic scope that already landed part of sase-1h5 Beads-pane work | 3 |
+| read-by | [agent:sase-1h8.1][2] | parent epic scope | 1 |
+| read-by | [agent:sase-1h8.7][3] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
 
 <!-- sase:referenced-by:end -->
