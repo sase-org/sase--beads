@@ -28,7 +28,7 @@ read-model-tail: apply appended events after the merge frontier instead of rebui
 ## Dependencies
 
 - **Blocks:** [sase-1h8.10](sase-1h8.10.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h8.12](sase-1h8.12.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.12](sase-1h8.12.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.8](sase-1h8.8.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
