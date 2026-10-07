@@ -7,6 +7,20 @@
 **Created:** 2026-10-06 18:59:27 EDT
 **Plan:** [202610/bead\_store\_history\_independent\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/bead_store_history_independent_performance.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Hot-path bead reads and writes stop scaling with closed history. Every recommendation in the bead-history research report is implemented: the measured waste is removed, a Rust-owned, disposable, fingerprint-validated read model serves current state, issues.jsonl leaves the per-mutation commit path, and the physical sealed-archive design sits behind measured triggers. No bead event is ever edited, compressed in place, or deleted.
@@ -19,7 +33,7 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 | [sase-1h8.10](sase-1h8.10.md) | Sealed-segment triggers and design | ✓ closed | small | 2026-10-06 | 1 | 2 |
 | [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 0 |
+| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 1 |
 | [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h8.2](sase-1h8.2.md) | Constant-cost artifact-link outbox append | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.3](sase-1h8.3.md) | Hidden-clone gc and bead push-log retention | ✓ closed | small | 2026-10-06 | 1 | 1 |
@@ -91,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 2 |
 | [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 2 |
 | [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 2 |
-| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13/README.md) | [sase-1h8.13](sase-1h8.13.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 1 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
@@ -128,6 +142,7 @@ flowchart TD
 | sase | [`ee00218`](https://github.com/sase-org/sase/commit/ee0021821fa3adf8401ea725967e1414682432d0) | feat(bead): take issues.jsonl off the per-mutation path (sase-1h8.11) | [sase-1h8.11](sase-1h8.11.md) | 2026-10-07 14:52:27 EDT |
 | sase-core | [`sase-core@d2a56b4`](https://github.com/sase-org/sase-core/commit/d2a56b4ca928c602379619bb35869d133df9800e) | feat(bead): add indexed read-model query layer with Python bindings | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 15:52:25 EDT |
 | sase | [`446f183`](https://github.com/sase-org/sase/commit/446f1833deb92962992f7fb9538a82a21f3c0982) | feat(bead): serve list and status queries from indexed read-model tables | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 16:19:41 EDT |
+| sase-core | [`sase-core@4d5cf65`](https://github.com/sase-org/sase-core/commit/4d5cf6502324a5928a285861b099be393b26de91) | feat(bead): read-model mutation groundwork for sase-1h8.13 | [sase-1h8.13](sase-1h8.13.md) | 2026-10-07 19:21:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
