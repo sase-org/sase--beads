@@ -3,3 +3,4 @@ beads.db-shm
 beads.db-wal
 .bead-mutation-lock.holder
 events/streams/.*.tmp.*
+issues.jsonl
