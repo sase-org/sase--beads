@@ -23,7 +23,7 @@ bench: add a deterministic realistic-shape synthetic bead corpus at any scale, a
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.8](sase-1h8.8.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.8](sase-1h8.8.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

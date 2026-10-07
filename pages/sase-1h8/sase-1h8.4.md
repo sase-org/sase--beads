@@ -19,8 +19,8 @@ parse-once: in sase-core, move the removed-flag stream prune off the read path, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.7](sase-1h8.7.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h8.8](sase-1h8.8.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.7](sase-1h8.7.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.8](sase-1h8.8.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

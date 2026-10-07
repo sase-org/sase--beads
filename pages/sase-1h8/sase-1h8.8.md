@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1h8](README.md) / sase-1h8.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.3u.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.3u.linker.w0.md) · **Assignee:** `sase-1h8.8` · **Size:** medium
-**Created:** 2026-10-06 18:59:39 EDT
+**Created:** 2026-10-06 18:59:39 EDT · **Closed:** 2026-10-07 09:19:09 EDT
 **Plan:** [202610/bead\_store\_history\_independent\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md)
 
 ## Description
@@ -21,6 +21,10 @@ read-model-store: add the versioned SQLite read model under the clone's git dir 
 
 [2026-10-07T04:49:47Z · sase-1h8.8--3] PROPOSED FOLLOW-UP: pre-existing symvision KNOWN private-import _runs in src/sase/agents_sync/v2_snapshot_io.py and src/sase/ace/tui/widgets/decks/final/overview_card.py (witness 05b9fc696a324977dde864aadd60a092, established by sase-1h8.1) keeps just check red; out of scope for read-model phase
 
+[2026-10-07T13:18:52Z · sase-1h8.8--1] PROPOSED FOLLOW-UP: just check exit 1 is 12 KNOWN only (triage verdict no_new_failures, ToolRun 7657c6103ed572e941084984c3c325df): 10 scoped-test KNOWNs in TUI/macro directive-completion, directive contract/parity, and TUI import-budget tests (witnesses 477276a723e911ef2ce08d5f4e412d7f, 0fe7e98b787b3772bdc79cef69fdbc64) plus 2 symvision KNOWNs already tracked in note #4 (witness 05b9fc696a324977dde864aadd60a092); none touch this phase files (bead_read_facade, cli_admin doctor, docs, core pin); out of scope for read-model phase
+
+[2026-10-07T13:19:09Z · sase-1h8.8--1] Read-model phase verified: sase tool run check (ToolRun 7657c6103ed572e941084984c3c325df) triage verdict no_new_failures with zero new failures; read-model work (versioned SQLite read model, O(1) freshness token, full-rebuild fallback, doctor --verify-cache, parity harness, ratcheted core pin) intact; the 12 remaining failures are pre-existing KNOWNs in untouched TUI/macro areas recorded as PROPOSED FOLLOW-UP; epic-symbols clean
+
 ## Dependencies
 
 - **Depends on:** [sase-1h8.1](sase-1h8.1.md) ✓ · ⧖ 2026-10-06
@@ -32,10 +36,23 @@ read-model-store: add the versioned SQLite read model under the clone's git dir 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 1 |
+| [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@91e0e49`](https://github.com/sase-org/sase-core/commit/91e0e49c083119e64118d7e56a6b51b1e0a13e84) | feat(bead): add versioned SQLite read model with freshness token and parity harness | [sase-1h8.8](sase-1h8.8.md) | 2026-10-07 00:57:36 EDT |
+| sase | [`7da1570`](https://github.com/sase-org/sase/commit/7da15707ea0331e509f65553b5721f5e465c0d5a) | feat(bead-store): versioned SQLite read model with freshness token and verify-cache (sase-1h8.8) | [sase-1h8.8](sase-1h8.8.md) | 2026-10-07 09:20:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.8--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md
+
+<!-- sase:referenced-by:end -->
