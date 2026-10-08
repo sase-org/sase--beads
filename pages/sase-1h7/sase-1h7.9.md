@@ -46,9 +46,11 @@ surfaces: add a tri-state "Follow epics" toggle to the `w` wait modal, filter de
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h7.9][1] | Need full description and dependency state | 2 |
-| read-by | [agent:sase-1h9.land][2] | Need whether CLI completion vocab is this phase's unfinished work | 1 |
+| read-by | [agent:sase-1h7.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1h9.land][3] | Need whether CLI completion vocab is this phase's unfinished work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.land/README.md
 
 <!-- sase:referenced-by:end -->

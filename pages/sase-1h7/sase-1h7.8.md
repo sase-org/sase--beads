@@ -42,8 +42,10 @@ tui: render the teal `↪` hand-off in agent rows and in the detail `[agents]` l
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h7.8][1] | Need phase scope and design | 3 |
 | read-by | [agent:sase-1h7.9][2] | Check whether tui phase still needs describe_epic_follow symbol | 1 |
+| read-by | [agent:sase-1h7.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.8/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
 
 <!-- sase:referenced-by:end -->

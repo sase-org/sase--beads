@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/wait_for_epic.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1hw][2] | Epic that added the %wait for_epic follow semantics this CLI flag would mirror |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/wait_for_epic.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1hw/README.md
@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.7.md) | [sase-1h7.7](sase-1h7.7.md) | 1 |
 | [bbugyi200.athena.sase-1h7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.8/README.md) | [sase-1h7.8](sase-1h7.8.md) | 1 |
 | [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 2 |
-| [bbugyi200.athena.sase-1h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md) | [sase-1h7](README.md) | 1 |
+| [bbugyi200.athena.sase-1h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md) | [sase-1h7](README.md) | 2 |
 
 ## Commits
 
@@ -183,6 +183,7 @@ flowchart TD
 | sase-core | [`sase-core@9ea87c1`](https://github.com/sase-org/sase-core/commit/9ea87c1181128ff87d2a90e74b782ffa369e30c3) | feat(wait): support wait-for-epic flip in plan resolution and directive metadata | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:51:53 EDT |
 | sase | [`c7190fb`](https://github.com/sase-org/sase/commit/c7190fb99a93a71e66dee4f0576e5e67760c5050) | feat(wait): default WAIT\_FOR\_EPIC to true with for\_epic=false phase sequencing | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:57:40 EDT |
 | sase-core | [`sase-core@ec92ecc`](https://github.com/sase-org/sase-core/commit/ec92ecce1688f85f15c4f989ee82b0537a95d925) | test(wait): expect the for\_epic keyword in directive contract and LSP completion tests | [sase-1h7](README.md) | 2026-10-08 01:25:24 EDT |
+| sase | [`0968044`](https://github.com/sase-org/sase/commit/0968044154fd76abdb1e9b40bd2f15c986ba7e8a) | fix(wait): land sase-1h7 epic-follow integration, symvision, and stale-test cleanup | [sase-1h7](README.md) | 2026-10-08 01:30:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -192,12 +193,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3z.final][1] | Verify bead title/status before citing it in consolidated reading-list report | 1 |
 | read-by | [agent:sase-1h7.2][2] | links phase: sample epic created_by shape | 1 |
-| read-by | [agent:sase-1h9.land][3] | Need existing notes before recording for_epic completion drift | 3 |
-| read-by | [agent:sase-1hf.land][4] | Check whether sase-1h7 already knows about the timezone guard failure | 2 |
+| read-by | [agent:sase-1h7.land][3] | Need the parent link after closing | 2 |
+| read-by | [agent:sase-1h9.land][4] | Need existing notes before recording for_epic completion drift | 3 |
+| read-by | [agent:sase-1hf.land][5] | Check whether sase-1h7 already knows about the timezone guard failure | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3z.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.land/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h9.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md
 
 <!-- sase:referenced-by:end -->

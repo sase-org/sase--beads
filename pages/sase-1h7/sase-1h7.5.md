@@ -70,7 +70,9 @@ release: route every release path (runner initial check, parked-runner fallback,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h7.5--3][1] | Finish bead sase-1h7.5 release implementation | 1 |
+| read-by | [agent:sase-1h7.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
 
 <!-- sase:referenced-by:end -->
