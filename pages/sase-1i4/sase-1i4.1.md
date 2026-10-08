@@ -42,7 +42,9 @@ escape-helpers: route the four fire-and-forget spawns reachable from an agent (b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1i4.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1i4.land][2] | Need proposed follow-up notes before close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.land/README.md
 
 <!-- sase:referenced-by:end -->

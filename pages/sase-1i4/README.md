@@ -20,7 +20,7 @@
 | related | [bead:sase-1ia][5] | Found during sase-1i4 landing; clan precedence is outside the scope epic |
 | related | [bead:sase-1ib][6] | Parallel-lane flake seen during sase-1i4 landing; serial rerun passed |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agent_scope_leak_reaping.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1i6/README.md
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1i4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.1/README.md) | [sase-1i4.1](sase-1i4.1.md) | 1 |
 | [bbugyi200.apollo.sase-1i4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.2.md) | [sase-1i4.2](sase-1i4.2.md) | 1 |
 | [bbugyi200.apollo.sase-1i4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.3.md) | [sase-1i4.3](sase-1i4.3.md) | 1 |
-| [bbugyi200.apollo.sase-1i4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.land/README.md) | [sase-1i4](README.md) | 1 |
+| [bbugyi200.apollo.sase-1i4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.land/README.md) | [sase-1i4](README.md) | 2 |
 
 ## Commits
 
@@ -93,6 +93,7 @@ flowchart TD
 | sase | [`e4b0faf`](https://github.com/sase-org/sase/commit/e4b0faf443accef65ebc2a78612f4f92dc9c3151) | feat(scope): runner sweeps its own agent scope on exit and turn boundaries | [sase-1i4.2](sase-1i4.2.md) | 2026-10-08 08:01:18 EDT |
 | sase | [`a10a6c6`](https://github.com/sase-org/sase/commit/a10a6c60352667d856f4c697134ba4df5fa243a1) | feat(scope): reap orphaned agent scopes with checks-routine backstop job | [sase-1i4.3](sase-1i4.3.md) | 2026-10-08 09:50:02 EDT |
 | sase | [`6f930e1`](https://github.com/sase-org/sase/commit/6f930e16b4a7135167c2ee1d95b12ecc801127a1) | refactor(scope): privatize unused sweep and reaper seams | [sase-1i4](README.md) | 2026-10-08 11:36:22 EDT |
+| sase--plans | [`sase--plans@3987e15`](https://github.com/sase-org/sase--plans/commit/3987e15d1779943dd997993416dc811f6c96920b) | docs(plan): mark agent scope leak reaping done | [sase-1i4](README.md) | 2026-10-08 11:39:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -103,9 +104,11 @@ flowchart TD
 | read-by | [agent:sase-1i4.1][1] | Need epic decisions and design | 1 |
 | read-by | [agent:sase-1i4.2--2][2] | epic decisions scope | 1 |
 | read-by | [agent:sase-1i4.3--4][3] | epic decisions and scope | 1 |
+| read-by | [agent:sase-1i4.land][4] | Need each child resolution before close | 6 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.2.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.3.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.land/README.md
 
 <!-- sase:referenced-by:end -->

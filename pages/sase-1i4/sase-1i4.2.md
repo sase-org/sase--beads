@@ -44,8 +44,10 @@ runner-teardown: add the shared scope-sweep module, the agent_scope_teardown con
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1i4.2--2][1] | Need phase scope and design | 1 |
 | read-by | [agent:sase-1i4.3--4][2] | how prior phase handled symvision | 1 |
+| read-by | [agent:sase-1i4.land][3] | Need proposed follow-up notes before close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.2.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.3.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.land/README.md
 
 <!-- sase:referenced-by:end -->
