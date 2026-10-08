@@ -54,7 +54,9 @@ flip: make `for_epic` default to true for user-authored agent targets (never `--
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h7.10--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1hf.land][2] | Read sase-1h7.10 notes to coordinate the shared epic-follow-safety test fix | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md
 
 <!-- sase:referenced-by:end -->
