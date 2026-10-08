@@ -20,7 +20,7 @@ release: publish a sase-core release containing sase's pin, ratchet the release 
 - **Depends on:** [sase-1i5.5](sase-1i5.5.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.6](sase-1i5.6.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.7](sase-1i5.7.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1i5.8](sase-1i5.8.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1i5.8](sase-1i5.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

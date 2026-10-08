@@ -25,7 +25,7 @@ macro-arg-spans: replace raw comma and paren splitting in the TUI macro-arg dete
 
 ## Dependencies
 
-- **Blocks:** [sase-1i5.8](sase-1i5.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1i5.8](sase-1i5.8.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1i5.9](sase-1i5.9.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

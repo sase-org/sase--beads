@@ -36,7 +36,7 @@ All ten beads ranked in the 48-hour task-bead impact report are fixed on master 
 | [sase-1i5.5](sase-1i5.5.md) | TUI macro-arg detection uses sase-core structural spans (sase-1h1) | ✓ closed | medium | 2026-10-08 | 1 | 2 |
 | [sase-1i5.6](sase-1i5.6.md) | Guarantee a nonzero peak RSS for every recorded run (sase-1f0) | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1i5.7](sase-1i5.7.md) | Deterministic deck anchor-scroll settling (sase-1br) | ✓ closed | medium | 2026-10-08 | 1 | 1 |
-| [sase-1i5.8](sase-1i5.8.md) | Get under the TUI import budget and make it a ratchet (sase-13p) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1i5.8](sase-1i5.8.md) | Get under the TUI import budget and make it a ratchet (sase-13p) | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1i5.9](sase-1i5.9.md) | Release sase-core and sase, then move plugin floors (sase-10d) | ◐ in_progress | large | 2026-10-08 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n5["sase-1i5.5: TUI macro-arg detection uses sase-core structural spans (sase-1h1) [closed]"]
     n6["sase-1i5.6: Guarantee a nonzero peak RSS for every recorded run (sase-1f0) [closed]"]
     n7["sase-1i5.7: Deterministic deck anchor-scroll settling (sase-1br) [closed]"]
-    n8["sase-1i5.8: Get under the TUI import budget and make it a ratchet (sase-13p) [in_progress]"]
+    n8["sase-1i5.8: Get under the TUI import budget and make it a ratchet (sase-13p) [closed]"]
     n9["sase-1i5.9: Release sase-core and sase, then move plugin floors (sase-10d) [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1i5.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.5.md) | [sase-1i5.5](sase-1i5.5.md) | 2 |
 | [bbugyi200.athena.sase-1i5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.6/README.md) | [sase-1i5.6](sase-1i5.6.md) | 1 |
 | [bbugyi200.athena.sase-1i5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.7/README.md) | [sase-1i5.7](sase-1i5.7.md) | 1 |
-| [bbugyi200.athena.sase-1i5.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.8/README.md) | [sase-1i5.8](sase-1i5.8.md) | 0 |
+| [bbugyi200.athena.sase-1i5.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.8.md) | [sase-1i5.8](sase-1i5.8.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9/README.md) | [sase-1i5.9](sase-1i5.9.md) | 0 |
 | [bbugyi200.athena.sase-1i5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.land/README.md) | [sase-1i5](README.md) | 0 |
 
@@ -101,6 +101,7 @@ flowchart TD
 | sase | [`6e5b74a`](https://github.com/sase-org/sase/commit/6e5b74a3963d39b41182318988927f162fc1d897) | fix(beads): read-only bead resolution never initializes or commits (sase-1gx) | [sase-1i5.3](sase-1i5.3.md) | 2026-10-08 11:30:21 EDT |
 | sase-core | [`sase-core@cd73d96`](https://github.com/sase-org/sase-core/commit/cd73d9687c3813915fc6db610236be9a6fd5eab6) | feat(macro): quote-aware paren close in completion trigger context | [sase-1i5.5](sase-1i5.5.md) | 2026-10-08 11:57:02 EDT |
 | sase | [`7e75bbc`](https://github.com/sase-org/sase/commit/7e75bbcd8d182b048575b982bd3ccbfb3867dc63) | feat(macro): derive TUI macro-arg detection from sase-core structural spans | [sase-1i5.5](sase-1i5.5.md) | 2026-10-08 12:01:10 EDT |
+| sase | [`af117b5`](https://github.com/sase-org/sase/commit/af117b598e141370da52565a0af89bf6223af843) | feat(tui): enforce app import budget with closure tool and ratcheted cap | [sase-1i5.8](sase-1i5.8.md) | 2026-10-08 14:17:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

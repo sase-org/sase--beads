@@ -21,7 +21,7 @@ deck-scroll-settle: root-cause and fix the deck anchor-scroll settle race behind
 
 ## Dependencies
 
-- **Blocks:** [sase-1i5.8](sase-1i5.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1i5.8](sase-1i5.8.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1i5.9](sase-1i5.9.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
