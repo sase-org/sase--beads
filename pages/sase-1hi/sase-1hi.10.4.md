@@ -20,7 +20,7 @@ tui: build the compact three-line docked Verdict, tint the chosen branch with a 
 ## Dependencies
 
 - **Depends on:** [sase-1hi.10.2](sase-1hi.10.2.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1hi.10.5](sase-1hi.10.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.5](sase-1hi.10.5.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -33,3 +33,15 @@ tui: build the compact three-line docked Verdict, tint the chosen branch with a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`092fd1d`](https://github.com/sase-org/sase/commit/092fd1db05a73773cd6d7f503be9d54f6489d38f) | feat(ace): compact docked Verdict with branch tint, edit freeze, carries line, settled and stale states | [sase-1hi.10.4](sase-1hi.10.4.md) | 2026-10-08 11:00:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.4--1][1] | Need full description and DECISIONS for close note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md
+
+<!-- sase:referenced-by:end -->
