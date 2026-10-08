@@ -23,6 +23,33 @@ read-model-mutations: make MutableStore load only affected rows from the read mo
 
 [2026-10-07T23:19:00Z · sase-1h8.13] PROPOSED FOLLOW-UP: Pre-existing failure sase_core lib editor::directive::tests::contract_covers_the_audited_directive_matrix fails identically on the clean base (verified via git stash; directive matrix mismatch, nothing to do with beads). Unrelated to read-model-mutations; needs its own triage bead. Repro: just test -p sase_core editor::directive on master d2a56b4. -r Record pre-existing editor test failure as follow-up
 
+[2026-10-08T12:40:47Z · sase-1h8.13--1] Phase evidence: indexed note/update read-model path (WIP on ec92ecce).
+
+Implemented (sase-core, uncommitted WIP, 6 files):
+- New crates/sase_core/src/bead/mutation/indexed.rs: lazy indexed note_append/update path (avoids full-issue Vec rebuild for note/update).
+- Tail-refresh write-through in mutation/store.rs + mutation/mod.rs + mutation/notes_update.rs.
+- Non-database cache heal in bead/read_model/store.rs.
+- New tests in mutation/tests/read_model_mutations.rs (6 new indexed tests).
+Production mutations still use the full-issue Vec; indexed path is additive/WIP, NOT a cutover. View still test-gated.
+
+Tests proven this turn (before benchmark):
+- bead::mutation: 165 pass incl 6 new indexed tests.
+- bead::mapping: 17 pass.
+- sase_core_py: 41 pass.
+- Parity suites pass except pre-existing bead_read_parity:486 failure, reproduced identically on clean base.
+- sase tool run check 391s with only that same failure.
+
+Benchmark AFTER (SASE_ALLOW_STALE_CORE=1 just rust-install + bench_bead_scale --scale 1 --scale 8 --runs 20 --only note_append,update; exit 0; core_revision ec92ecce1688f85f15c4f989ee82b0537a95d925 + WIP):
+- scale 1 (6899 beads / 44775 events / 2000 streams): note_append p50 169.39ms / p95 180.36ms / max 218.66ms; update p50 169.75ms / p95 189.34ms / max 192.66ms.
+- scale 8 (55516 beads / 361682 events / 16000 streams): note_append p50 1081.54ms / p95 1184.46ms / max 1265.04ms; update p50 1073.83ms / p95 1104.83ms / max 1108.23ms.
+BEFORE baseline (bead note #1, different SHA d2a56b4, context only): scale-1 note p50 749ms/p95 1185ms/max 1309ms, update p50 764ms/p95 1243ms/max 1260ms. So scale-1 p50 ~4.4-4.5x faster after; p95 also down sharply. No 8x before-baseline exists, so 8x after is data only.
+
+REMAINING (do not close this bead):
+- create/close/claims/deps/links/snooze/ready still replay; view still test-gated.
+- Allocator metadata work outstanding.
+- Full streams-table rewrite still lives in tail commit.
+- No 8x before-baseline for comparison. -r Record sase-1h8.13 implementation evidence
+
 ## Dependencies
 
 - **Depends on:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
@@ -33,13 +60,14 @@ read-model-mutations: make MutableStore load only affected rows from the read mo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 1 |
+| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4d5cf65`](https://github.com/sase-org/sase-core/commit/4d5cf6502324a5928a285861b099be393b26de91) | feat(bead): read-model mutation groundwork for sase-1h8.13 | [sase-1h8.13](sase-1h8.13.md) | 2026-10-07 19:21:56 EDT |
+| sase-core | [`sase-core@7b3b9aa`](https://github.com/sase-org/sase-core/commit/7b3b9aa51876f7435e9b2e8dcfca97dd59529dde) | feat(beads): add indexed note/update read-model path with tail-refresh write-through | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 08:41:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -48,7 +76,9 @@ read-model-mutations: make MutableStore load only affected rows from the read mo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+| read-by | [agent:sase-1h7.land][2] | Check whether the in-progress read-model mutations phase already knows about the sase-core bead_read_parity legacy-projection failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
 
 <!-- sase:referenced-by:end -->

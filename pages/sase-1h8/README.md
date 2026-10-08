@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bead_store_history_independent_performance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md
 
@@ -25,6 +25,14 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 Hot-path bead reads and writes stop scaling with closed history. Every recommendation in the bead-history research report is implemented: the measured waste is removed, a Rust-owned, disposable, fingerprint-validated read model serves current state, issues.jsonl leaves the per-mutation commit path, and the physical sealed-archive design sits behind measured triggers. No bead event is ever edited, compressed in place, or deleted.
 
+## Notes
+
+[2026-10-08T01:55:11Z · sase-1hf.land] DISCOVERED ISSUE (sase-1hf landing, master 3a4178b15a, 2026-10-07): Symvision's private-symbol rule returns before the unused-public rule. Once the sase-1hf land agent deleted the dead `_list_bead_state_changes_silent` (orphaned by 39dc48f03c), `just symvision` reported these sase-1h8 unused public symbols, previously masked: bead_push_log_retention_config (src/sase/bead/_sync_logs.py), hidden_sidecar_clone_dirs and maybe_gc_hidden_sidecar_clone (src/sase/sdd/_store_maintenance.py), all from sase-1h8.3 (69ecdace02); BeadStoreFingerprint (src/sase/core/bead_read_facade.py, sase-1h8.5); BeadBoardSnapshot (same file, sase-1h8.6). Privatize, wire, or delete per the symvision memory, or add --epic-symbol rows keyed to a still-open sase-1h8 phase that will consume them.
+
+[2026-10-08T02:58:19Z · sase-1hf.land] DISCOVERED ISSUE (sase-1hf landing check, master 3a4178b15a, 2026-10-07; reproduced on a clean tree): tests/test_bead/test_claimed_status.py::test_default_list_includes_claimed_with_shared_glyph fails with `AttributeError: '_ReadView' object has no attribute 'list_issue_page'` at src/sase/bead/cli_query.py:109. 446f1833de (sase-1h8.12, list/status from indexed read-model tables) calls list_issue_page on a read view the test's fake (or a fallback path) does not provide. Either give that view the method or fix the test double.
+
+[2026-10-08T05:15:50Z · sase-1h7.land] DISCOVERED ISSUE (sase-1h7 landing, sase-core def5ad5b, 2026-10-08; reproduced on a clean sase-core tree): crates/sase_core/tests/bead_read_parity.rs::event_store_supports_read_queries_without_legacy_projection fails at line 486 asserting bead_doctor(...) contains 'WARNING: issues.jsonl missing'. sase-core 7df86f4a (sase-1h8.11) deliberately limited that warning to legacy stores (crates/sase_core/src/bead/read.rs:539, '!legacy_path.exists() && !event_store_is_present'), but this event-store test still expects it. Update the test's expectation (assert the warning is absent for event stores) rather than restoring the warning. Breaks sase-core just check (fail-fast stops before sase_core_py and later crates).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -33,7 +41,7 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 | [sase-1h8.10](sase-1h8.10.md) | Sealed-segment triggers and design | ✓ closed | small | 2026-10-06 | 1 | 2 |
 | [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 1 |
+| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 2 |
 | [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h8.2](sase-1h8.2.md) | Constant-cost artifact-link outbox append | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.3](sase-1h8.3.md) | Hidden-clone gc and bead push-log retention | ✓ closed | small | 2026-10-06 | 1 | 1 |
@@ -105,7 +113,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.10/README.md) | [sase-1h8.10](sase-1h8.10.md) | 2 |
 | [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 2 |
 | [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 2 |
-| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 1 |
+| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 2 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
@@ -143,6 +151,7 @@ flowchart TD
 | sase-core | [`sase-core@d2a56b4`](https://github.com/sase-org/sase-core/commit/d2a56b4ca928c602379619bb35869d133df9800e) | feat(bead): add indexed read-model query layer with Python bindings | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 15:52:25 EDT |
 | sase | [`446f183`](https://github.com/sase-org/sase/commit/446f1833deb92962992f7fb9538a82a21f3c0982) | feat(bead): serve list and status queries from indexed read-model tables | [sase-1h8.12](sase-1h8.12.md) | 2026-10-07 16:19:41 EDT |
 | sase-core | [`sase-core@4d5cf65`](https://github.com/sase-org/sase-core/commit/4d5cf6502324a5928a285861b099be393b26de91) | feat(bead): read-model mutation groundwork for sase-1h8.13 | [sase-1h8.13](sase-1h8.13.md) | 2026-10-07 19:21:56 EDT |
+| sase-core | [`sase-core@7b3b9aa`](https://github.com/sase-org/sase-core/commit/7b3b9aa51876f7435e9b2e8dcfca97dd59529dde) | feat(beads): add indexed note/update read-model path with tail-refresh write-through | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 08:41:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -152,14 +161,16 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.final][1] | Check which bead-store perf phases absorb sase-1h5/sase-17r remaining work | 1 |
 | read-by | [agent:research.3y.grk][2] | Need epic scope that already landed part of sase-1h5 Beads-pane work | 3 |
-| read-by | [agent:sase-1h8.1][3] | parent epic scope | 1 |
-| read-by | [agent:sase-1h8.11][4] | Need parent epic scope for phase sase-1h8.11 | 1 |
-| read-by | [agent:sase-1h8.7][5] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
+| read-by | [agent:sase-1h7.land][3] | Read the full DISCOVERED ISSUE notes on the bead-store epic to avoid duplicating them | 2 |
+| read-by | [agent:sase-1h8.1][4] | parent epic scope | 1 |
+| read-by | [agent:sase-1h8.11][5] | Need parent epic scope for phase sase-1h8.11 | 1 |
+| read-by | [agent:sase-1h8.7][6] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
 
 <!-- sase:referenced-by:end -->
