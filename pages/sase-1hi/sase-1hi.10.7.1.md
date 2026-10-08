@@ -21,7 +21,7 @@ gate: stop sase bead work from re-resolving accepted plans, record stale_review 
 
 - **Blocks:** [sase-1hi.10.7.2](sase-1hi.10.7.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.7.4](sase-1hi.10.7.4.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1hi.10.7.5](sase-1hi.10.7.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.7.5](sase-1hi.10.7.5.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

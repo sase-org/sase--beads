@@ -30,10 +30,16 @@ goldens: run the full just fix-tui-screenshots under /sase_monitor after tui and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 1 |
+| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`4bc1db2`](https://github.com/sase-org/sase/commit/4bc1db294c01c2dc46b44bd7d69106f880314383) | feat(ace-tui): regenerate plan Decisions goldens after Verdict and tint fixes | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 2026-10-08 17:48:47 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.4--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md
+
+<!-- sase:referenced-by:end -->
