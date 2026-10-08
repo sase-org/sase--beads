@@ -18,7 +18,7 @@ dual-mode-tests: add fixture support so the existing mutation suites run against
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.1](sase-1h8.13.1.1.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ dual-mode-tests: add fixture support so the existing mutation suites run against
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@906570e`](https://github.com/sase-org/sase-core/commit/906570e8afae29ff1efe283f18c45bcc05853c53) | test(bead-mutation): add mode-parameterized dual-mode parity fixtures | [sase-1h8.13.1.2](sase-1h8.13.1.2.md) | 2026-10-08 17:23:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
+
+<!-- sase:referenced-by:end -->

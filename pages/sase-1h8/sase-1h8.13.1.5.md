@@ -13,7 +13,7 @@ port-claims-deps: move claims.rs (wait and launch claims, release, all-or-nothin
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.7](sase-1h8.13.1.7.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

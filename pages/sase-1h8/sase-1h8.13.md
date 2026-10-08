@@ -81,9 +81,11 @@ REMAINING (do not close this bead):
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
 | read-by | [agent:sase-1h7.land][2] | Check whether the in-progress read-model mutations phase already knows about the sase-core bead_read_parity legacy-projection failure | 1 |
 | read-by | [agent:sase-1h8.13.1.1][3] | phase scope | 1 |
+| read-by | [agent:sase-1h8.13.1.2][4] | phase scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
 
 <!-- sase:referenced-by:end -->

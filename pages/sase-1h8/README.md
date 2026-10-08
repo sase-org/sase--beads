@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bead_store_history_independent_performance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md
 
@@ -69,7 +69,7 @@ flowchart TD
     n6["sase-1h8.13.1: Finish read-model mutations so sase-1h8.13 can close [in_progress]"]
     n7["sase-1h8.13.1.1: Direct write-through publication without a second sweep or full snapshot [closed]"]
     n8["sase-1h8.13.1.2: Run every mutation suite in cached and replay modes [closed]"]
-    n9["sase-1h8.13.1.3: One mutation view with shared algorithms, and the full notes family on it [in_progress]"]
+    n9["sase-1h8.13.1.3: One mutation view with shared algorithms, and the full notes family on it [closed]"]
     n10["sase-1h8.13.1.4: Port open, close and remove onto the mutation view [in_progress]"]
     n11["sase-1h8.13.1.5: Port claims, ready marking and dependencies onto the mutation view [in_progress]"]
     n12["sase-1h8.13.1.6: Port links, +1 and snooze onto the mutation view [in_progress]"]
@@ -146,7 +146,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 3 |
 | [bbugyi200.athena.sase-1h8.13.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md) | [sase-1h8.13.1.1](sase-1h8.13.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md) | [sase-1h8.13.1.2](sase-1h8.13.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.3/README.md) | [sase-1h8.13.1.3](sase-1h8.13.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.3/README.md) | [sase-1h8.13.1.3](sase-1h8.13.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.4/README.md) | [sase-1h8.13.1.4](sase-1h8.13.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.5/README.md) | [sase-1h8.13.1.5](sase-1h8.13.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md) | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 0 |
@@ -195,6 +195,7 @@ flowchart TD
 | sase | [`c64a6b3`](https://github.com/sase-org/sase/commit/c64a6b3ea7ecb8c364cea1b2a41307689c92e5cf) | feat(beads): steer re-planned unfinished phases toward a child epic | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 2026-10-08 16:05:06 EDT |
 | sase-core | [`sase-core@6460581`](https://github.com/sase-org/sase-core/commit/646058197f5ced5231ed478b8a716678007f0156) | feat(beads): direct write-through read-model publication without second sweep or snapshot | [sase-1h8.13.1.1](sase-1h8.13.1.1.md) | 2026-10-08 16:44:30 EDT |
 | sase-core | [`sase-core@906570e`](https://github.com/sase-org/sase-core/commit/906570e8afae29ff1efe283f18c45bcc05853c53) | test(bead-mutation): add mode-parameterized dual-mode parity fixtures | [sase-1h8.13.1.2](sase-1h8.13.1.2.md) | 2026-10-08 17:23:27 EDT |
+| sase-core | [`sase-core@159f48e`](https://github.com/sase-org/sase-core/commit/159f48ef3c9c8b454eacf715f50eb6cbd5e0a279) | feat(beads): one mutation view with shared algorithms and full notes family | [sase-1h8.13.1.3](sase-1h8.13.1.3.md) | 2026-10-08 18:17:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -207,17 +208,19 @@ flowchart TD
 | read-by | [agent:sase-1h7.land][3] | Read the full DISCOVERED ISSUE notes on the bead-store epic to avoid duplicating them | 2 |
 | read-by | [agent:sase-1h8.1][4] | parent epic scope | 1 |
 | read-by | [agent:sase-1h8.11][5] | Need parent epic scope for phase sase-1h8.11 | 1 |
-| read-by | [agent:sase-1h8.7][6] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
-| read-by | [agent:sase-1i4.land][7] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
-| read-by | [agent:sase-1i5.3][8] | coordination check for readonly phase | 1 |
+| read-by | [agent:sase-1h8.13.1.2][6] | epic decisions | 1 |
+| read-by | [agent:sase-1h8.7][7] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
+| read-by | [agent:sase-1i4.land][8] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
+| read-by | [agent:sase-1i5.3][9] | coordination check for readonly phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
 
 <!-- sase:referenced-by:end -->
