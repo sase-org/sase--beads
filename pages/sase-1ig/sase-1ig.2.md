@@ -17,6 +17,8 @@ engine-core: create the stdlib-only `tools/sase_install` engine with its CLI, ag
 
 [2026-10-08T22:57:29Z · sase-1ig.2] engine-core done: tools/sase_install + 5 stdlib-only helpers with -n working for pypi/dev; guard matrix, receipt/swap/overrides/ephemeral parity vs sase.uv_tool, plugin policy, consequential classification, non-TTY policy, fixed-width panels + golden flip snapshot, 14-key JSON. Verified: 80 passed (tests/sase_install + typecheck-tool tests), ruff src+tests clean, mypy extensionless incl helpers clean (66 files), pyscripts gate clean, epic-symbols empty, live smoke of pypi -n against real tool env OK
 
+[2026-10-08T23:41:14Z · sase-1ig.2--1] Post-close fmt fix: monitored just check failed only on ruff format (8 test/helper files); ran ruff format so `ruff format --check src/ tests/` is clean. Full just check re-run handed to a verify monitor.
+
 ## Dependencies
 
 - **Blocks:** [sase-1ig.5](sase-1ig.5.md) ◐ · ⧖ 2026-10-08
