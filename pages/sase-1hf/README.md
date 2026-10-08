@@ -21,6 +21,8 @@
 | related | [bead:sase-1ho][6] | Proposed by the sase-1hf wait-lane repair epic (sase-1hf.5 PROPOSED FOLLOW-UP note #1); see its plan and telemetry keys |
 | related | [bead:sase-1hp][7] | Exposed by the sase-1hf landing, which deleted the masking dead private helper; active-epic portions were routed as DISCOVERED ISSUE notes |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/wait_lane_repair.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1hj/README.md
 [3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1hl/README.md
@@ -105,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1hf.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.3.md) | [sase-1hf.3](sase-1hf.3.md) | 1 |
 | [bbugyi200.athena.sase-1hf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.4/README.md) | [sase-1hf.4](sase-1hf.4.md) | 1 |
 | [bbugyi200.athena.sase-1hf.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.5.md) | [sase-1hf.5](sase-1hf.5.md) | 1 |
-| [bbugyi200.athena.sase-1hf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md) | [sase-1hf](README.md) | 1 |
+| [bbugyi200.athena.sase-1hf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md) | [sase-1hf](README.md) | 2 |
 
 ## Commits
 
@@ -117,3 +119,16 @@ flowchart TD
 | sase | [`68a4e89`](https://github.com/sase-org/sase/commit/68a4e89ac48165b789729bb117fa7261dad678ee) | feat(wait): resolve only live waiters from a filesystem view | [sase-1hf.4](sase-1hf.4.md) | 2026-10-07 18:13:29 EDT |
 | sase | [`3a4178b`](https://github.com/sase-org/sase/commit/3a4178b15ae6af2511631c8c74852c0b868156cf) | feat(axe): split wait\_checks and sidecar auto-sync into dedicated routines | [sase-1hf.5](sase-1hf.5.md) | 2026-10-07 19:41:12 EDT |
 | sase | [`c3f9d29`](https://github.com/sase-org/sase/commit/c3f9d2915c62f27406141bb8d3dcf910d40a91c1) | fix(wait): land sase-1hf wait-lane repair integration and symvision cleanup | [sase-1hf](README.md) | 2026-10-07 23:32:38 EDT |
+| sase--plans | [`sase--plans@7ab68c3`](https://github.com/sase-org/sase--plans/commit/7ab68c30dee3cfa50f662d2c3e9770b356eb3f93) | chore(plans): mark wait\_lane\_repair plan done after sase-1hf landing | [sase-1hf](README.md) | 2026-10-07 23:37:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hf.land][1] | Need the epic scope, children, and linked plan file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1hf.land/README.md
+
+<!-- sase:referenced-by:end -->
