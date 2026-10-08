@@ -20,7 +20,7 @@ quotes: implement the normalized three-word contiguous matcher, deterministic cl
 ## Dependencies
 
 - **Depends on:** [sase-1hi.1.1.2](sase-1hi.1.1.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.1.1.4](sase-1hi.1.1.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.1.1.4](sase-1hi.1.1.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -33,3 +33,15 @@ quotes: implement the normalized three-word contiguous matcher, deterministic cl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@df735e4`](https://github.com/sase-org/sase-core/commit/df735e4296b2211e4f39058dd3cd10905dbcdd11) | feat(sase-core): add plan decision human quote matcher with PyO3 binding | [sase-1hi.1.1.3](sase-1hi.1.1.3.md) | 2026-10-07 21:04:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.1.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.3/README.md
+
+<!-- sase:referenced-by:end -->
