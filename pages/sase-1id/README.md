@@ -27,8 +27,8 @@ No %auto spelling silently grants more than it says, pressing A to turn auto off
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1id.1](sase-1id.1.md) | Fail-closed %auto grammar in sase-core and Python | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [sase-1id.2](sase-1id.2.md) | Live agent meta is the only %auto source | ✓ closed | medium | 2026-10-08 | 1 | 1 |
+| [sase-1id.1](sase-1id.1.md) | Fail-closed %auto grammar in sase-core and Python | ✓ closed | medium | 2026-10-08 | 1 | 1 |
+| [sase-1id.2](sase-1id.2.md) | Live agent meta is the only %auto source | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [sase-1id.3](sase-1id.3.md) | A plan-tier mismatch asks instead of erroring | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1id.4](sase-1id.4.md) | Epic phase and land workers run under %auto:tale | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1id.5](sase-1id.5.md) | Prompt bar shows %auto grammar errors | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
@@ -39,7 +39,7 @@ No %auto spelling silently grants more than it says, pressing A to turn auto off
 ```mermaid
 flowchart TD
     n0["sase-1id: Truthful %auto: P0 autonomy safety tales [in_progress]"]
-    n1["sase-1id.1: Fail-closed %auto grammar in sase-core and Python [in_progress]"]
+    n1["sase-1id.1: Fail-closed %auto grammar in sase-core and Python [closed]"]
     n2["sase-1id.2: Live agent meta is the only %auto source [closed]"]
     n3["sase-1id.3: A plan-tier mismatch asks instead of erroring [in_progress]"]
     n4["sase-1id.4: Epic phase and land workers run under %auto:tale [in_progress]"]
@@ -65,8 +65,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1id.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.1.md) | [sase-1id.1](sase-1id.1.md) | 0 |
-| [bbugyi200.athena.sase-1id.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.2.md) | [sase-1id.2](sase-1id.2.md) | 1 |
+| [bbugyi200.athena.sase-1id.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.1.md) | [sase-1id.1](sase-1id.1.md) | 1 |
+| [bbugyi200.athena.sase-1id.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.2.md) | [sase-1id.2](sase-1id.2.md) | 0 |
 | [bbugyi200.athena.sase-1id.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.3/README.md) | [sase-1id.3](sase-1id.3.md) | 0 |
 | [bbugyi200.athena.sase-1id.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.4/README.md) | [sase-1id.4](sase-1id.4.md) | 0 |
 | [bbugyi200.athena.sase-1id.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.5/README.md) | [sase-1id.5](sase-1id.5.md) | 0 |
@@ -77,4 +77,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`c70ee9a`](https://github.com/sase-org/sase/commit/c70ee9af3d4812a23777c11ef77b2ac75dea4fa9) | feat(auto): live agent meta is the only %auto source | [sase-1id.2](sase-1id.2.md) | 2026-10-08 14:38:50 EDT |
+| sase-core | [`sase-core@e8606a5`](https://github.com/sase-org/sase-core/commit/e8606a564e4ddccbc4eb2369f4f32dd02ce8c3af) | feat(auto): fail-closed %auto grammar classifier in sase-core | [sase-1id.1](sase-1id.1.md) | 2026-10-08 14:59:54 EDT |

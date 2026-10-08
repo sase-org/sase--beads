@@ -13,7 +13,7 @@ prompt_bar: show an invalid %auto spelling inline in the ACE prompt input bar's 
 
 ## Dependencies
 
-- **Depends on:** [sase-1id.1](sase-1id.1.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1id.1](sase-1id.1.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
