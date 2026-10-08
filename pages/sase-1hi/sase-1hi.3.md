@@ -23,7 +23,7 @@ gate: move the sase-core pin, adapt the Python wire and Archived mode, scaffold 
 
 - **Depends on:** [sase-1hi.1](sase-1hi.1.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [sase-1hi.2](sase-1hi.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.4](sase-1hi.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.4](sase-1hi.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -36,3 +36,15 @@ gate: move the sase-core pin, adapt the Python wire and Archived mode, scaffold 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ab48f19`](https://github.com/sase-org/sase/commit/ab48f1904e2afc67f7ff1a5c471808c176c4e6d8) | feat(plan): compile, resolve, freeze, and stamp decisions in the plan gate | [sase-1hi.3](sase-1hi.3.md) | 2026-10-08 00:18:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.3--2][1] | record verification results and close gate-phase bead | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.3.md
+
+<!-- sase:referenced-by:end -->

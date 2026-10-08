@@ -13,7 +13,7 @@ tui: build the ACE Decisions accordion above a compact docked Verdict with the o
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.4](sase-1hi.4.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.4](sase-1hi.4.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.9](sase-1hi.9.md) ◐ · ⧖ 2026-10-07
 
 ## Agents

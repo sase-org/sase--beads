@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plan_decisions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plan_decisions.md
 
@@ -38,7 +38,7 @@ A tale or epic can declare up to five typed, defaulted Plan Decisions (toggles, 
 | [sase-1hi.1](sase-1hi.1.md) | sase-core decisions grammar, resolver, quote matcher, and Decision Sheet | ✓ closed | large | 2026-10-07 | 1 | 0 |
 | [sase-1hi.2](sase-1hi.2.md) | Durable human-authorship provenance for prompts and gate answers | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hi.3](sase-1hi.3.md) | Compile, resolve, freeze, and stamp decisions in the plan gate | ✓ closed | large | 2026-10-07 | 1 | 1 |
-| [sase-1hi.4](sase-1hi.4.md) | Deliver accepted decisions to coders, phases, notifications, and receipts | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
+| [sase-1hi.4](sase-1hi.4.md) | Deliver accepted decisions to coders, phases, notifications, and receipts | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hi.5](sase-1hi.5.md) | Decision-aware sase plan and sase gate commands | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
 | [sase-1hi.6](sase-1hi.6.md) | ACE Decisions section, compact Verdict, and decision-aware inbox | ◐ in_progress | large | 2026-10-07 | 1 | 0 |
 | [sase-1hi.7](sase-1hi.7.md) | Telegram decision sheet, live keyboard, and settle receipt | ◐ in_progress | large | 2026-10-07 | 1 | 0 |
@@ -58,7 +58,7 @@ flowchart TD
     n6["sase-1hi.1.1.4: Build the Decision Sheet, summaries, and implementer instructions [closed]"]
     n7["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
     n8["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
-    n9["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [in_progress]"]
+    n9["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [closed]"]
     n10["sase-1hi.5: Decision-aware sase plan and sase gate commands [in_progress]"]
     n11["sase-1hi.6: ACE Decisions section, compact Verdict, and decision-aware inbox [in_progress]"]
     n12["sase-1hi.7: Telegram decision sheet, live keyboard, and settle receipt [in_progress]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.1.1.land.md) | [sase-1hi.1.1](sase-1hi.1.1.md) | 2 |
 | [bbugyi200.apollo.sase-1hi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.2/README.md) | [sase-1hi.2](sase-1hi.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.3.md) | [sase-1hi.3](sase-1hi.3.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md) | [sase-1hi.4](sase-1hi.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md) | [sase-1hi.4](sase-1hi.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.5/README.md) | [sase-1hi.5](sase-1hi.5.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.6/README.md) | [sase-1hi.6](sase-1hi.6.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.7/README.md) | [sase-1hi.7](sase-1hi.7.md) | 0 |
@@ -126,6 +126,7 @@ flowchart TD
 | sase-core | [`sase-core@def5ad5`](https://github.com/sase-org/sase-core/commit/def5ad5b50f2a28ad4f9ed52fd4e6cd272a716f5) | feat(plan): repair decision warning, archive, unicode, fence, and sheet contracts | [sase-1hi.1.1](sase-1hi.1.1.md) | 2026-10-07 22:46:22 EDT |
 | sase--plans | [`sase--plans@6596fe2`](https://github.com/sase-org/sase--plans/commit/6596fe29efeb4b73be1eff63aaefcd8dde3cc4bc) | chore(plans): mark core\_plan\_decisions landing done | [sase-1hi.1.1](sase-1hi.1.1.md) | 2026-10-07 22:48:32 EDT |
 | sase | [`ab48f19`](https://github.com/sase-org/sase/commit/ab48f1904e2afc67f7ff1a5c471808c176c4e6d8) | feat(plan): compile, resolve, freeze, and stamp decisions in the plan gate | [sase-1hi.3](sase-1hi.3.md) | 2026-10-08 00:18:01 EDT |
+| sase | [`124c4cf`](https://github.com/sase-org/sase/commit/124c4cffa82920509c4d25c279b939d3ad8e9f9f) | feat(sdd): render accepted-plan Reviewer decisions handoff to coders | [sase-1hi.4](sase-1hi.4.md) | 2026-10-08 01:42:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -133,8 +134,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1hf.land][1] | Decide whether this bead can own its unmasked symvision unused-public symbols | 1 |
+| read-by | [agent:sase-1h7.land][1] | Check whether launch-provenance env/meta test breakage is already recorded on the plan-decisions epic | 2 |
+| read-by | [agent:sase-1hf.land][2] | Decide whether this bead can own its unmasked symvision unused-public symbols | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hf.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1h7.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hf.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ guard: add a host-side, never-blocking finalizer check that warns when an agent 
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.4](sase-1hi.4.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.4](sase-1hi.4.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.9](sase-1hi.9.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
