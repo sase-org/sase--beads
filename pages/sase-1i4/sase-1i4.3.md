@@ -13,7 +13,7 @@ scope-reaper: add a checks-routine job that discovers sase-agent scopes with no 
 
 ## Dependencies
 
-- **Depends on:** [sase-1i4.2](sase-1i4.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1i4.2](sase-1i4.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

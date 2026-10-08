@@ -21,7 +21,7 @@ escape-helpers: route the four fire-and-forget spawns reachable from an agent (b
 
 ## Dependencies
 
-- **Blocks:** [sase-1i4.2](sase-1i4.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1i4.2](sase-1i4.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -34,3 +34,15 @@ escape-helpers: route the four fire-and-forget spawns reachable from an agent (b
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dbf6357`](https://github.com/sase-org/sase/commit/dbf6357464fc9a27b947c26cd8fb50fb06c02486) | feat(detach): route background workers through detach\_scope | [sase-1i4.1](sase-1i4.1.md) | 2026-10-08 06:54:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i4.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1i4.1/README.md
+
+<!-- sase:referenced-by:end -->
