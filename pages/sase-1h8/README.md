@@ -35,6 +35,8 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 
 [2026-10-08T15:21:06Z · sase-1i4.land] DISCOVERED ISSUE (supplementary, from sase-1i4 landing): BeadStoreFingerprint in src/sase/core/bead_read_facade.py was proposed again by phases sase-1i4.1 and sase-1i4.2. It remains on this epic. No second task was filed.
 
+[2026-10-08T18:55:12Z · sase-1i5.9.1.1] Phase sase-1i5.9.1.1 applied the note-#3 recorded expectation fix in sase-core (assert WARNING: issues.jsonl missing is absent for event stores in event_store_supports_read_queries_without_legacy_projection); sase tool run check passed on the fix commit. -r plan requires noting sase-1h8 that this phase applied the recorded fix
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -64,47 +66,73 @@ flowchart TD
     n3["sase-1h8.11: issues.jsonl off the per-mutation path [closed]"]
     n4["sase-1h8.12: Indexed queries over the read model [closed]"]
     n5["sase-1h8.13: Mutations load and write through the read model [in_progress]"]
-    n6["sase-1h8.14: History-independence acceptance gate [in_progress]"]
-    n7["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
-    n8["sase-1h8.3: Hidden-clone gc and bead push-log retention [closed]"]
-    n9["sase-1h8.4: One parse, one validation, no lockless-read deletes [closed]"]
-    n10["sase-1h8.5: Store fingerprint binding and consumer migration [closed]"]
-    n11["sase-1h8.6: TUI Beads and Plans pane refresh [closed]"]
-    n12["sase-1h8.7: One store read per CLI command [closed]"]
-    n13["sase-1h8.8: Read-model substrate, freshness protocol, and parity harness [closed]"]
-    n14["sase-1h8.9: Snapshot-plus-tail incremental refresh [closed]"]
+    n6["sase-1h8.13.1: Finish read-model mutations so sase-1h8.13 can close [in_progress]"]
+    n7["sase-1h8.13.1.1: Direct write-through publication without a second sweep or full snapshot [in_progress]"]
+    n8["sase-1h8.13.1.2: Run every mutation suite in cached and replay modes [in_progress]"]
+    n9["sase-1h8.13.1.3: One mutation view with shared algorithms, and the full notes family on it [in_progress]"]
+    n10["sase-1h8.13.1.4: Port open, close and remove onto the mutation view [in_progress]"]
+    n11["sase-1h8.13.1.5: Port claims, ready marking and dependencies onto the mutation view [in_progress]"]
+    n12["sase-1h8.13.1.6: Port links, +1 and snooze onto the mutation view [in_progress]"]
+    n13["sase-1h8.13.1.7: Parity, affected-row and failure-recovery proof plus matched 1x/8x evidence [in_progress]"]
+    n14["sase-1h8.13.1.8: Steer re-planned unfinished phases toward a child epic [closed]"]
+    n15["sase-1h8.14: History-independence acceptance gate [in_progress]"]
+    n16["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
+    n17["sase-1h8.3: Hidden-clone gc and bead push-log retention [closed]"]
+    n18["sase-1h8.4: One parse, one validation, no lockless-read deletes [closed]"]
+    n19["sase-1h8.5: Store fingerprint binding and consumer migration [closed]"]
+    n20["sase-1h8.6: TUI Beads and Plans pane refresh [closed]"]
+    n21["sase-1h8.7: One store read per CLI command [closed]"]
+    n22["sase-1h8.8: Read-model substrate, freshness protocol, and parity harness [closed]"]
+    n23["sase-1h8.9: Snapshot-plus-tail incremental refresh [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n1 -.-> n13
-    n2 -.-> n6
+    n5 --> n6
+    n6 --> n7
+    n6 --> n8
+    n6 --> n9
+    n6 --> n10
+    n6 --> n11
+    n6 --> n12
+    n6 --> n13
+    n6 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n1 -.-> n22
+    n2 -.-> n15
     n3 -.-> n5
     n4 -.-> n5
-    n5 -.-> n6
-    n7 -.-> n6
-    n8 -.-> n6
+    n5 -.-> n15
+    n7 -.-> n8
+    n8 -.-> n9
+    n9 -.-> n10
+    n9 -.-> n11
     n9 -.-> n12
-    n9 -.-> n13
-    n10 -.-> n3
-    n10 -.-> n11
-    n11 -.-> n6
-    n12 -.-> n3
-    n12 -.-> n4
-    n13 -.-> n3
-    n13 -.-> n14
-    n14 -.-> n2
-    n14 -.-> n4
+    n10 -.-> n13
+    n11 -.-> n13
+    n12 -.-> n13
+    n16 -.-> n15
+    n17 -.-> n15
+    n18 -.-> n21
+    n18 -.-> n22
+    n19 -.-> n3
+    n19 -.-> n20
+    n20 -.-> n15
+    n21 -.-> n3
+    n21 -.-> n4
+    n22 -.-> n3
+    n22 -.-> n23
+    n23 -.-> n2
+    n23 -.-> n4
 ```
 
 ## Agents
@@ -116,6 +144,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md) | [sase-1h8.11](sase-1h8.11.md) | 2 |
 | [bbugyi200.athena.sase-1h8.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.12.md) | [sase-1h8.12](sase-1h8.12.md) | 2 |
 | [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 3 |
+| [bbugyi200.athena.sase-1h8.13.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md) | [sase-1h8.13.1.1](sase-1h8.13.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md) | [sase-1h8.13.1.2](sase-1h8.13.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.3/README.md) | [sase-1h8.13.1.3](sase-1h8.13.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.4/README.md) | [sase-1h8.13.1.4](sase-1h8.13.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.5/README.md) | [sase-1h8.13.1.5](sase-1h8.13.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md) | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md) | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.8.md) | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.land/README.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
@@ -155,6 +192,7 @@ flowchart TD
 | sase-core | [`sase-core@4d5cf65`](https://github.com/sase-org/sase-core/commit/4d5cf6502324a5928a285861b099be393b26de91) | feat(bead): read-model mutation groundwork for sase-1h8.13 | [sase-1h8.13](sase-1h8.13.md) | 2026-10-07 19:21:56 EDT |
 | sase-core | [`sase-core@7b3b9aa`](https://github.com/sase-org/sase-core/commit/7b3b9aa51876f7435e9b2e8dcfca97dd59529dde) | feat(beads): add indexed note/update read-model path with tail-refresh write-through | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 08:41:35 EDT |
 | sase-core | [`sase-core@1ff4360`](https://github.com/sase-org/sase-core/commit/1ff436055b128f21349e0f8d1136020e0a4cb079) | feat(beads): indexed allocation metadata, shared mutation view/publish, cached create port | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 13:54:44 EDT |
+| sase | [`c64a6b3`](https://github.com/sase-org/sase/commit/c64a6b3ea7ecb8c364cea1b2a41307689c92e5cf) | feat(beads): steer re-planned unfinished phases toward a child epic | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 2026-10-08 16:05:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
