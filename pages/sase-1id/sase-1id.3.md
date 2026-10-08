@@ -22,7 +22,7 @@ tier_mismatch: treat :tale/:plan on an epic plan and :epic on a tale plan as "no
 ## Dependencies
 
 - **Depends on:** [sase-1id.2](sase-1id.2.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1id.4](sase-1id.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1id.4](sase-1id.4.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
@@ -36,3 +36,15 @@ tier_mismatch: treat :tale/:plan on an epic plan and :epic on a tale plan as "no
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`771127d`](https://github.com/sase-org/sase/commit/771127db29ec46f6679bf9880c06a1279b2bd6f6) | fix(plan-gates): park tier-mismatched gates instead of erroring | [sase-1id.3](sase-1id.3.md) | 2026-10-08 16:09:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1id.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.3/README.md
+
+<!-- sase:referenced-by:end -->

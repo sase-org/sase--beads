@@ -16,7 +16,7 @@ docs_truth: rewrite the %auto passages in docs/macros.md and docs/ace.md to matc
 - **Depends on:** [sase-1id.1](sase-1id.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1id.2](sase-1id.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1id.3](sase-1id.3.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1id.4](sase-1id.4.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1id.4](sase-1id.4.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1id.5](sase-1id.5.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
