@@ -41,7 +41,13 @@ readonly-bead-store: make get_read_view open an existing store or raise a typed 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md) | [sase-1i5.3](sase-1i5.3.md) | 0 |
+| [bbugyi200.athena.sase-1i5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md) | [sase-1i5.3](sase-1i5.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6e5b74a`](https://github.com/sase-org/sase/commit/6e5b74a3963d39b41182318988927f162fc1d897) | fix(beads): read-only bead resolution never initializes or commits (sase-1gx) | [sase-1i5.3](sase-1i5.3.md) | 2026-10-08 11:30:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
