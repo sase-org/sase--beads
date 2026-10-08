@@ -30,10 +30,23 @@ grammar: add one sase-core classifier for %auto spellings and use it in the Rust
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1id.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.1.md) | [sase-1id.1](sase-1id.1.md) | 1 |
+| [bbugyi200.athena.sase-1id.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.1.md) | [sase-1id.1](sase-1id.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e8606a5`](https://github.com/sase-org/sase-core/commit/e8606a564e4ddccbc4eb2369f4f32dd02ce8c3af) | feat(auto): fail-closed %auto grammar classifier in sase-core | [sase-1id.1](sase-1id.1.md) | 2026-10-08 14:59:54 EDT |
+| sase | [`0ac86ad`](https://github.com/sase-org/sase/commit/0ac86ad40c5fb8a31ca2bed929200fb1534772d3) | feat(auto): fail-closed %auto grammar in Python extractor and metadata | [sase-1id.1](sase-1id.1.md) | 2026-10-08 15:04:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1id.1--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.1.md
+
+<!-- sase:referenced-by:end -->
