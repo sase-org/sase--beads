@@ -19,7 +19,7 @@ gate: stop sase bead work from re-resolving accepted plans, record stale_review 
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.10.7.2](sase-1hi.10.7.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.7.2](sase-1hi.10.7.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.7.4](sase-1hi.10.7.4.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.7.5](sase-1hi.10.7.5.md) ◐ · ⧖ 2026-10-08
 
@@ -34,3 +34,15 @@ gate: stop sase bead work from re-resolving accepted plans, record stale_review 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`eb646c3`](https://github.com/sase-org/sase/commit/eb646c3d71d9b4ef18586b402fa861f06a23ed03) | feat(gate): reuse accepted answers, durable stale\_review records, single resolver and quiet receipts (sase-1hi.10.7.1) | [sase-1hi.10.7.1](sase-1hi.10.7.1.md) | 2026-10-08 16:07:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.1--5][1] | inspect gate-finish check failure to repair verification | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.1.md
+
+<!-- sase:referenced-by:end -->
