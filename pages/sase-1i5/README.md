@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.2.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md) | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.4.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.5/README.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.5.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.6/README.md) | [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.7/README.md) | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.land/README.md) | [sase-1i5.9.1.2.1](sase-1i5.9.1.2.1.md) | 0 |
@@ -160,6 +160,7 @@ flowchart TD
 | sase | [`1914591`](https://github.com/sase-org/sase/commit/1914591ab497811326ce621d3015ecb15709b9b5) | fix(host-contracts): exact gate provenance, foreign-commit recovery, detached-run isolation | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 2026-10-08 16:18:53 EDT |
 | sase | [`a7b908b`](https://github.com/sase-org/sase/commit/a7b908b4a8141c60a4d7bbd1a8aec13b2028b50b) | test(cli-beads): repair CLI contracts, completion drift, terminology, and bead test doubles | [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) | 2026-10-08 16:21:53 EDT |
 | sase | [`34829c0`](https://github.com/sase-org/sase/commit/34829c03609a0c577cb4bd4ada0b362f65f89f75) | test(ace-tui): fix timezone handling in agent wait epic follow test | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 2026-10-08 16:40:17 EDT |
+| sase | [`1fedb63`](https://github.com/sase-org/sase/commit/1fedb63427b8fc64b872ceed0ad5254d64b2d213) | feat(symvision): privatize in-file-only symbols and remove dead definitions | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 2026-10-08 19:23:53 EDT |
 
 <!-- sase:referenced-by:start -->
 

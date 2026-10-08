@@ -11,6 +11,12 @@
 
 symvision: re-inventory lint after functional repairs, privatize in-file-only definitions, remove dead definitions, preserve real external consumers, and resolve every release-blocking lint error without new pragmas or suppressions.
 
+## Notes
+
+[2026-10-08T22:14:36Z · sase-1i5.9.1.2.1.5--1] PROPOSED FOLLOW-UP: test_directive_completion_includes_representative_descriptions expects short %auto description but sase-core 0.37.0 emits long description; reproduces identically on clean base (same assertion diff), needs test expectation update to core metadata.rs:784 or core window ratchet
+
+[2026-10-08T22:14:41Z · sase-1i5.9.1.2.1.5--1] PROPOSED FOLLOW-UP: test_macro_string_literals_avoid_xprompt_terms flags tests/test_plugin_commands_mount.py:124 assert "xprompt" in reserved (KNOWN witness 477276a723e911ef2ce08d5f4e412d7f); reproduces identically on clean base TOTAL 1, needs allowlist entry or reserved-name assertion rework
+
 ## Dependencies
 
 - **Depends on:** [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) ✓ · ⧖ 2026-10-08
@@ -24,4 +30,10 @@ symvision: re-inventory lint after functional repairs, privatize in-file-only de
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.5/README.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.5.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1fedb63`](https://github.com/sase-org/sase/commit/1fedb63427b8fc64b872ceed0ad5254d64b2d213) | feat(symvision): privatize in-file-only symbols and remove dead definitions | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 2026-10-08 19:23:53 EDT |

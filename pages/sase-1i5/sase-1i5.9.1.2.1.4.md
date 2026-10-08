@@ -35,3 +35,15 @@ tui-functional: make wait-lane clocks timezone-stable and fix reproducible promp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`34829c0`](https://github.com/sase-org/sase/commit/34829c03609a0c577cb4bd4ada0b362f65f89f75) | test(ace-tui): fix timezone handling in agent wait epic follow test | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 2026-10-08 16:40:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i5.9.1.2.1.4--1][1] | close-out triage after timed-out check | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.4.md
+
+<!-- sase:referenced-by:end -->
