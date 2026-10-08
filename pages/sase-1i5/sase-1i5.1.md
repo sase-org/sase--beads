@@ -17,6 +17,8 @@ runs-public: rename src/sase/instructions/_runs.py to a public module, update ev
 
 [2026-10-08T13:59:15Z · sase-1i5.1] Renamed src/sase/instructions/_runs.py to src/sase/instructions/run_index.py, updated all 13 importer sites plus docs path mention; grep for instructions._runs is empty; sase tool run check shows zero _runs mentions and no private-import finding (remaining NEW symvision items reproduce on clean base); tests/instructions + tests/doctor 538 passed with 1 pre-existing base failure recorded as follow-up; closed sase-1h6; sase-1hp notified of new helper path; no epic-symbol leftovers.
 
+[2026-10-08T14:26:19Z · sase-1i5.1--1] PROPOSED FOLLOW-UP: just check lint (symvision) fails with 25 NEW unused-public findings after _runs.py rename to run_index.py; symvision also fails on clean base tree (exit 1, same families: ParityIssue, BeadBoardSnapshot, HumanText, ScopeSweepPlan, InstructionManifestError, validate_config_input_type, grok_sessions_root); newly exposed run_index symbols are the expected cost of making the module public, not a phase regression
+
 ## Dependencies
 
 - **Blocks:** [sase-1i5.9](sase-1i5.9.md) ◐ · ⧖ 2026-10-08
@@ -25,4 +27,10 @@ runs-public: rename src/sase/instructions/_runs.py to a public module, update ev
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.1.md) | [sase-1i5.1](sase-1i5.1.md) | 0 |
+| [bbugyi200.athena.sase-1i5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.1.md) | [sase-1i5.1](sase-1i5.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4ba5cd9`](https://github.com/sase-org/sase/commit/4ba5cd9f91f38c6728b122f8cc513f6eed197aab) | refactor(instructions): make run-index module public as run\_index | [sase-1i5.1](sase-1i5.1.md) | 2026-10-08 10:28:44 EDT |
