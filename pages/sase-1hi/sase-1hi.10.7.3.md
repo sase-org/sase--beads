@@ -19,7 +19,7 @@ tui: scope Verdict CSS so all five tale controls and every epic control sit insi
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.10.7.4](sase-1hi.10.7.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.7.4](sase-1hi.10.7.4.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

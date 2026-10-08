@@ -32,3 +32,15 @@ cli: regenerate the completion spec snapshot, make the zsh/bash/fish helpers pas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3412a9f`](https://github.com/sase-org/sase/commit/3412a9f1bdc51737beb8ed38449530e1ea0b4c60) | feat(completion): pass CLI proposal as -S with kind-plus-selector caches and exact-wins scoping | [sase-1hi.10.7.2](sase-1hi.10.7.2.md) | 2026-10-08 16:44:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.2][1] | Need DECISIONS and scope for cli phase | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.2/README.md
+
+<!-- sase:referenced-by:end -->

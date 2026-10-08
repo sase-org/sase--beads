@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plan_decisions_landing_finish.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plan_decisions_landing_finish.md
 
 <!-- sase:links:end -->
@@ -32,3 +34,15 @@ Finish the work the sase-1hi.10 land audit found incomplete or broken. ACE shows
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1hi.10.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.land/README.md) | [sase-1hi.10.7](sase-1hi.10.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.2][1] | Need epic DECISIONS | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plan_decisions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plan_decisions.md
 
@@ -97,7 +97,7 @@ flowchart TD
     n15["sase-1hi.10.7.1: Bead-work answer reuse, durable stale_review records, one direct resolver, receipt inbox, guard strands, and the owed route tests [closed]"]
     n16["sase-1hi.10.7.2: Completion snapshot, shell-scoped -D completions, consistent memory chips, and handler-level CLI tests [closed]"]
     n17["sase-1hi.10.7.3: ACE Verdict that fits the rail, first-frame tint with syntax kept, cheap settle polling, real stale reload, and the epic-caused red tests [closed]"]
-    n18["sase-1hi.10.7.4: Regenerate and inspect the Plan Decisions and plan_gate goldens after the Verdict and tint fixes [in_progress]"]
+    n18["sase-1hi.10.7.4: Regenerate and inspect the Plan Decisions and plan_gate goldens after the Verdict and tint fixes [closed]"]
     n19["sase-1hi.10.7.5: Telegram receipts without doubled words, stale recovery that keeps the card and draft, budget order per the parent plan, and flow-level tests [in_progress]"]
     n20["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
     n21["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
@@ -182,7 +182,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.10.7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.1.md) | [sase-1hi.10.7.1](sase-1hi.10.7.1.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.2/README.md) | [sase-1hi.10.7.2](sase-1hi.10.7.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.3.md) | [sase-1hi.10.7.3](sase-1hi.10.7.3.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.5.md) | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.land/README.md) | [sase-1hi.10.7](sase-1hi.10.7.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.land.md) | [sase-1hi.10](sase-1hi.10.md) | 0 |
@@ -221,6 +221,7 @@ flowchart TD
 | sase | [`b49f9bc`](https://github.com/sase-org/sase/commit/b49f9bcb2818eb89eaa282ac59ef1cf7567ef71c) | feat(ace): verdict rail fit, first-frame tint, cheap settle polling, real stale reload (sase-1hi.10.7.3) | [sase-1hi.10.7.3](sase-1hi.10.7.3.md) | 2026-10-08 15:48:34 EDT |
 | sase | [`eb646c3`](https://github.com/sase-org/sase/commit/eb646c3d71d9b4ef18586b402fa861f06a23ed03) | feat(gate): reuse accepted answers, durable stale\_review records, single resolver and quiet receipts (sase-1hi.10.7.1) | [sase-1hi.10.7.1](sase-1hi.10.7.1.md) | 2026-10-08 16:07:06 EDT |
 | sase | [`3412a9f`](https://github.com/sase-org/sase/commit/3412a9f1bdc51737beb8ed38449530e1ea0b4c60) | feat(completion): pass CLI proposal as -S with kind-plus-selector caches and exact-wins scoping | [sase-1hi.10.7.2](sase-1hi.10.7.2.md) | 2026-10-08 16:44:34 EDT |
+| sase | [`4bc1db2`](https://github.com/sase-org/sase/commit/4bc1db294c01c2dc46b44bd7d69106f880314383) | feat(ace-tui): regenerate plan Decisions goldens after Verdict and tint fixes | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 2026-10-08 17:48:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -234,9 +235,10 @@ flowchart TD
 | read-by | [agent:research.0m.grk][4] | Need Plan Decisions epic structure as analog for autonomy epic splits | 1 |
 | read-by | [agent:sase-1h7.land][5] | Check whether launch-provenance env/meta test breakage is already recorded on the plan-decisions epic | 2 |
 | read-by | [agent:sase-1hf.land][6] | Decide whether this bead can own its unmasked symvision unused-public symbols | 1 |
-| read-by | [agent:sase-1hi.4][7] | check epic status for handoff context | 2 |
-| read-by | [agent:sase-1hi.7--1][8] | need epic scope before closing phase | 1 |
-| read-by | [agent:sase-1hi.8--1][9] | verify guard scope | 1 |
+| read-by | [agent:sase-1hi.10.7.2][7] | Need DECISIONS and scope for cli phase | 1 |
+| read-by | [agent:sase-1hi.4][8] | check epic status for handoff context | 2 |
+| read-by | [agent:sase-1hi.7--1][9] | need epic scope before closing phase | 1 |
+| read-by | [agent:sase-1hi.8--1][10] | verify guard scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.0m.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.0m.final/README.md
@@ -244,8 +246,9 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.0m.grk/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1h7.land/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hf.land/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.2/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md
 
 <!-- sase:referenced-by:end -->

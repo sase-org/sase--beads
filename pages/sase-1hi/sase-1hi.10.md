@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plan_decisions_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plan_decisions_landing_repairs.md
 
@@ -64,10 +64,12 @@ INTEGRATION: the f92bde8abe cli_answer split kept detached review_revision/sourc
 | read-by | [agent:research.0m.final][2] | Check status of precedent/related epics and beads that collide with %auto epic sequencing | 1 |
 | read-by | [agent:sase-1hi.10.3--1][3] | need epic DECISIONS for phase work | 1 |
 | read-by | [agent:sase-1hi.10.5--1][4] | Need epic DECISIONS for phase work | 2 |
+| read-by | [agent:sase-1hi.10.7.2][5] | Need DECISIONS and scope for cli phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.0m.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.0m.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.5.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.2/README.md
 
 <!-- sase:referenced-by:end -->
