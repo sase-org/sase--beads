@@ -22,7 +22,7 @@ runner-teardown: add the shared scope-sweep module, the agent_scope_teardown con
 ## Dependencies
 
 - **Depends on:** [sase-1i4.1](sase-1i4.1.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1i4.3](sase-1i4.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1i4.3](sase-1i4.3.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -35,3 +35,15 @@ runner-teardown: add the shared scope-sweep module, the agent_scope_teardown con
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e4b0faf`](https://github.com/sase-org/sase/commit/e4b0faf443accef65ebc2a78612f4f92dc9c3151) | feat(scope): runner sweeps its own agent scope on exit and turn boundaries | [sase-1i4.2](sase-1i4.2.md) | 2026-10-08 08:01:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i4.2--2][1] | Need phase scope and design | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.2.md
+
+<!-- sase:referenced-by:end -->
