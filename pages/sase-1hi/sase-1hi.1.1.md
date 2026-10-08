@@ -33,6 +33,11 @@ FOLLOW-UP TRIAGE: .1#1, .2#1, .3#1, .4#1 all propose the same two stale wait-key
 
 [2026-10-08T02:33:25Z · sase-1hi.1.1.land] Repairs verified: warning-only decisions preserved with payload/digest/sheet checks across tale/epic and Authoring/Launch/Archived plus Python round-trip; Archived completeness on any stamp with absent/empty/partial/transport-only coverage; Unicode fence repairs with public-validator tests; sheet provenance/kind/shape/selector/count validation and unrequested-only auto follow-ups for all audiences with binding error round-trips; 22-plan archive evidence recorded; legacy parity v3 intact; all seven bindings registered and round-tripped; post-start integration reviewed (only 9ea87c11 non-epic core change, no drift); full check red only on pre-existing editor for_epic matrix failure reproduced on clean base and already routed as DISCOVERED ISSUE on sase-1h7; all four directive proposals routed to sase-1h7
 
+[2026-10-08T02:58:05Z · sase-1hf.land] DISCOVERED ISSUE (sase-1hf landing check, sase master 3a4178b15a with the linked sase-core checkout refreshed to origin, 2026-10-07):
+(1) The `committed plans` stage of `just check` (`.venv/bin/python -m sase.scripts.validate_committed_plans`) aborts on a Rust panic: `crates/sase_core/src/plan/decisions/callout.rs:254:35: start byte index 6 is not a char boundary; it is inside '—' (bytes 5..8 of string)`. The plan-decisions callout parser slices by byte offset into a committed plan containing an em dash. Slice on char boundaries, or use char_indices, and add a non-ASCII callout test.
+(2) tests/test_plan_validate.py::test_facade_rehydrates_valid_tale_and_ordered_schema fails deterministically (also on a clean tree): the rehydrated plan key order now includes 'decisions' where the test expects 'links'. Update the expected schema order alongside the Plan Decisions contract, and move the sase-core-revision pin if the binding change requires it.
+Neither failure is caused by sase-1hf: its diff touches no plan or sase-core code.
+
 ## Agents
 
 | Agent | Bead | Commits |

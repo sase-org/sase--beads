@@ -21,7 +21,7 @@ provenance: record `prompt_origin` on every agent launch and `caller` on every g
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.3](sase-1hi.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.3](sase-1hi.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

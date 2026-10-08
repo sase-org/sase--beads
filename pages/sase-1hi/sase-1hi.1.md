@@ -21,7 +21,7 @@ core: in the linked sase-core repo, add the `decisions:` grammar and diagnostics
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.3](sase-1hi.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.3](sase-1hi.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

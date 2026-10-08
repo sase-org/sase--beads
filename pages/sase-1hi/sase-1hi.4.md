@@ -13,7 +13,7 @@ handoff: append the host-written Reviewer decisions block to tale coder prompts,
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.3](sase-1hi.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.3](sase-1hi.3.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.5](sase-1hi.5.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.6](sase-1hi.6.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.7](sase-1hi.7.md) ◐ · ⧖ 2026-10-07
