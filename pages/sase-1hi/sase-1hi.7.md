@@ -28,13 +28,7 @@ telegram: in the linked sase-telegram repo, render the static question sheet, th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@70701a0`](https://github.com/sase-org/sase-telegram/commit/70701a0155bb4c7504ca054bf88dd582812256d0) | feat(telegram): decision sheet, live keyboard, and settle receipt | [sase-1hi.7](sase-1hi.7.md) | 2026-10-08 03:00:20 EDT |
+| [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
