@@ -19,7 +19,7 @@ live_meta: make the plan and question auto readers consult only the live agent_m
 
 ## Dependencies
 
-- **Blocks:** [sase-1id.3](sase-1id.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1id.3](sase-1id.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

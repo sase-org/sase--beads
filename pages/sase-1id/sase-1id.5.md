@@ -20,4 +20,4 @@ prompt_bar: show an invalid %auto spelling inline in the ACE prompt input bar's 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1id.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.5/README.md) | [sase-1id.5](sase-1id.5.md) | 0 |
+| [bbugyi200.athena.sase-1id.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.5.md) | [sase-1id.5](sase-1id.5.md) | 0 |

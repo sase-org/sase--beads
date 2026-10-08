@@ -13,7 +13,7 @@ epic_workers: emit %auto:tale instead of bare %auto for every phase and land seg
 
 ## Dependencies
 
-- **Depends on:** [sase-1id.3](sase-1id.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1id.3](sase-1id.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
