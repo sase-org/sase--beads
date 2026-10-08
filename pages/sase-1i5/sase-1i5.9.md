@@ -14,7 +14,7 @@ release: publish a sase-core release containing sase's pin, ratchet the release 
 ## Dependencies
 
 - **Depends on:** [sase-1i5.1](sase-1i5.1.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1i5.2](sase-1i5.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1i5.2](sase-1i5.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.3](sase-1i5.3.md) ◐ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.4](sase-1i5.4.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.5](sase-1i5.5.md) ◐ · ⧖ 2026-10-08

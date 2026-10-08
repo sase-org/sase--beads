@@ -16,7 +16,7 @@ All ten beads ranked in the 48-hour task-bead impact report are fixed on master 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1i5.1](sase-1i5.1.md) | Make the instructions run-index module public (sase-1h6) | ✓ closed | small | 2026-10-08 | 1 | 0 |
-| [sase-1i5.2](sase-1i5.2.md) | Break the prompt\_store\_mutations import cycle (sase-1h2) | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [sase-1i5.2](sase-1i5.2.md) | Break the prompt\_store\_mutations import cycle (sase-1h2) | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1i5.3](sase-1i5.3.md) | Read-only bead resolution never initializes or commits (sase-1gx) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1i5.4](sase-1i5.4.md) | Isolate tests from the live bead store and long basetemps (sase-14o, sase-18v) | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1i5.5](sase-1i5.5.md) | TUI macro-arg detection uses sase-core structural spans (sase-1h1) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -31,7 +31,7 @@ All ten beads ranked in the 48-hour task-bead impact report are fixed on master 
 flowchart TD
     n0["sase-1i5: Implement and close the ten highest-impact recent task beads [in_progress]"]
     n1["sase-1i5.1: Make the instructions run-index module public (sase-1h6) [closed]"]
-    n2["sase-1i5.2: Break the prompt_store_mutations import cycle (sase-1h2) [in_progress]"]
+    n2["sase-1i5.2: Break the prompt_store_mutations import cycle (sase-1h2) [closed]"]
     n3["sase-1i5.3: Read-only bead resolution never initializes or commits (sase-1gx) [in_progress]"]
     n4["sase-1i5.4: Isolate tests from the live bead store and long basetemps (sase-14o, sase-18v) [closed]"]
     n5["sase-1i5.5: TUI macro-arg detection uses sase-core structural spans (sase-1h1) [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1i5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.1.md) | [sase-1i5.1](sase-1i5.1.md) | 0 |
-| [bbugyi200.athena.sase-1i5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.2/README.md) | [sase-1i5.2](sase-1i5.2.md) | 0 |
+| [bbugyi200.athena.sase-1i5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.2/README.md) | [sase-1i5.2](sase-1i5.2.md) | 1 |
 | [bbugyi200.athena.sase-1i5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md) | [sase-1i5.3](sase-1i5.3.md) | 0 |
 | [bbugyi200.athena.sase-1i5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.4/README.md) | [sase-1i5.4](sase-1i5.4.md) | 1 |
 | [bbugyi200.athena.sase-1i5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.5/README.md) | [sase-1i5.5](sase-1i5.5.md) | 0 |
@@ -80,3 +80,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bb8673e`](https://github.com/sase-org/sase/commit/bb8673ea7c29686a747861a2c2f6c19f5939459a) | test(fix): isolate store resolution and basetemp-independent rich assertions | [sase-1i5.4](sase-1i5.4.md) | 2026-10-08 10:20:29 EDT |
+| sase | [`e592f46`](https://github.com/sase-org/sase/commit/e592f46412d042d27a3f30b9489d946ad83eb6c1) | fix(history): break prompt\_store\_mutations import cycle (sase-1h2) | [sase-1i5.2](sase-1i5.2.md) | 2026-10-08 10:24:24 EDT |
