@@ -31,6 +31,36 @@ A tale or epic can declare up to five typed, defaulted Plan Decisions (toggles, 
 
 [2026-10-08T02:58:12Z · sase-1hf.land] DISCOVERED ISSUE (sase-1hf landing check, master 3a4178b15a, 2026-10-07; reproduced on a clean tree): 3df340f909 (sase-1hi.2, launch provenance) adds prompt_origin/prompt_source_surface, and three tests now see the extra 'unknown' values. tests/axe/test_agent_meta_atomic.py::test_generic_and_specialized_agent_meta_writers_use_atomic_publication: specialized meta gains {'prompt_origin': 'generated', 'prompt_source_surface': 'unknown'}. tests/test_multi_prompt_launcher_macro_groups.py::test_launch_agents_from_cwd_segment_extra_env_shares_macro_group_counter and ::test_launch_agents_from_cwd_force_reuse_marker_applies_to_first_swarm_slot_only: recorded launch env rows gain a ...: 'unknown' entry. Update the expectations, or exclude the provenance keys/env where those tests pin exact payloads. The committed-plans panic and plan_validate schema failures are noted on sase-1hi.1.1.
 
+[2026-10-08T09:22:58Z · sase-1hi.land] LAND FOLLOW-UP TRIAGE (sase-1hi.land, master ee3a4f6787, 2026-10-08). Each PROPOSED FOLLOW-UP from the children went through /sase_new_task, with these outcomes:
+
+CORROBORATED (+1, no new task):
+- .6#1 macro-terminology test → sase-1hr. Reproduced deterministically on master.
+- .6#2 test_candidates_fast_path_child_cpu_budget[snippet] parallel flake → sase-1g3. A serial rerun passes.
+- .3#1 and .5#1 masked unused-public symvision backlog → sase-1hp. Reproduced on master. The epic-owned entries stay with this epic, not sase-1hp.
+
+CREATED:
+- .6#2 test_hinted_raw_prompt_moves_to_identity_and_keeps_its_markers → sase-1hy (ci, large). It is not a flake: it fails serially on master and before the epic (3df340f909~1).
+- .9#2 enforcing guard mode → sase-1hz (feature).
+- .9#3 Android Decision Sheet → sase-1i0 (feature).
+- .9#4 memory task beads under %auto consent → sase-1i1 (feature).
+- .9#5 generic gate-input UX → sase-1i2 (feature).
+- .9#1 dogfood memory plan → sase-1i3 (memory, medium). It depends on sase-1hi because creating its new glossary strand needs the new-note selector repair planned below.
+
+DECLINED:
+- .9#6 CLI review token -V: speculative ("if a script ever needs one"), with no consumer, so a wish-list item the feature type forbids.
+- .2#1 symvision _runs private import: a duplicate of sase-1h6, and it no longer reproduces (master symvision reports no private-misuse error), so no +1.
+- .4#1 "60+ pre-existing failures": names no node IDs. The concrete ones overlap sase-1hr and existing flake beads; the rest cannot be verified, and the next just check will resurface any real failure.
+- .6#3 stale sase-1hi.5 epic-symbol row: already resolved by ec599ca332; epic-symbols is empty.
+- .7#1 stale sase_core_rs in the telegram venv: environment only. Fixed by rebuilding with `just install`.
+
+KEPT AS EPIC WORK, going to the landing child epic:
+- .2#2 multi-round question bundles in plan_human_text.
+- .6#4 visual goldens.
+- .7#2 telegram test harness failures.
+- .9#7 the 4 unused ACE symbols.
+- Epic notes #1 (unused provenance publics) and #2 (3 provenance test regressions, still failing on master).
+- The nested sase-1hi.1.1 notes were already triaged by its own land agent.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -56,14 +86,21 @@ flowchart TD
     n4["sase-1hi.1.1.2: Freeze definitions and resolve one accepted answer vector [closed]"]
     n5["sase-1hi.1.1.3: Match human quotes with Unicode normalization and useful suggestions [closed]"]
     n6["sase-1hi.1.1.4: Build the Decision Sheet, summaries, and implementer instructions [closed]"]
-    n7["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
-    n8["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
-    n9["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [closed]"]
-    n10["sase-1hi.5: Decision-aware sase plan and sase gate commands [closed]"]
-    n11["sase-1hi.6: ACE Decisions section, compact Verdict, and decision-aware inbox [closed]"]
-    n12["sase-1hi.7: Telegram decision sheet, live keyboard, and settle receipt [closed]"]
-    n13["sase-1hi.8: Advisory finalizer memory guard [closed]"]
-    n14["sase-1hi.9: Planner and memory-skill policy, authoring docs, and flag removal [closed]"]
+    n7["sase-1hi.10: Plan Decisions landing repairs: make every surface honor the accepted vector [in_progress]"]
+    n8["sase-1hi.10.1: Stamp order and surface, revision binding on every route, kind validation, and new-note grants [closed]"]
+    n9["sase-1hi.10.2: Environment-independent accepted sheets, bead read DECISIONS, epic inheritance, guard coverage, and provenance repairs [in_progress]"]
+    n10["sase-1hi.10.3: Decision card labels, pure validate JSON, scoped completions, CLI tests, and beta doc leftovers [in_progress]"]
+    n11["sase-1hi.10.4: ACE compact docked Verdict, branch tinting, edit freeze, carries line, settled and stale states [in_progress]"]
+    n12["sase-1hi.10.5: Plan Decisions visual goldens and the compact-Verdict update group [in_progress]"]
+    n13["sase-1hi.10.6: Telegram submits every option, refreshes stale cards, and settles with true receipts [in_progress]"]
+    n14["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
+    n15["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
+    n16["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [closed]"]
+    n17["sase-1hi.5: Decision-aware sase plan and sase gate commands [closed]"]
+    n18["sase-1hi.6: ACE Decisions section, compact Verdict, and decision-aware inbox [closed]"]
+    n19["sase-1hi.7: Telegram decision sheet, live keyboard, and settle receipt [closed]"]
+    n20["sase-1hi.8: Advisory finalizer memory guard [closed]"]
+    n21["sase-1hi.9: Planner and memory-skill policy, authoring docs, and flag removal [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -71,28 +108,44 @@ flowchart TD
     n2 --> n5
     n2 --> n6
     n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n7 --> n12
+    n7 --> n13
     n0 --> n14
-    n1 -.-> n8
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n1 -.-> n15
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
-    n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
     n9 -.-> n11
-    n9 -.-> n12
     n9 -.-> n13
-    n10 -.-> n14
-    n11 -.-> n14
-    n12 -.-> n14
-    n13 -.-> n14
+    n11 -.-> n12
+    n14 -.-> n15
+    n15 -.-> n16
+    n16 -.-> n17
+    n16 -.-> n18
+    n16 -.-> n19
+    n16 -.-> n20
+    n17 -.-> n21
+    n18 -.-> n21
+    n19 -.-> n21
+    n20 -.-> n21
 ```
+
+## Dependencies
+
+- **Blocks:** [sase-1i3](../sase-1i3/README.md) ◇ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -104,6 +157,13 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.3/README.md) | [sase-1hi.1.1.3](sase-1hi.1.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.4/README.md) | [sase-1hi.1.1.4](sase-1hi.1.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.1.1.land.md) | [sase-1hi.1.1](sase-1hi.1.1.md) | 2 |
+| [bbugyi200.apollo.sase-1hi.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.1.md) | [sase-1hi.10.1](sase-1hi.10.1.md) | 1 |
+| [bbugyi200.apollo.sase-1hi.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.2/README.md) | [sase-1hi.10.2](sase-1hi.10.2.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.3/README.md) | [sase-1hi.10.3](sase-1hi.10.3.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.4/README.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.5/README.md) | [sase-1hi.10.5](sase-1hi.10.5.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.6/README.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.land/README.md) | [sase-1hi.10](sase-1hi.10.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.2/README.md) | [sase-1hi.2](sase-1hi.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.3.md) | [sase-1hi.3](sase-1hi.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md) | [sase-1hi.4](sase-1hi.4.md) | 1 |
@@ -112,7 +172,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md) | [sase-1hi.8](sase-1hi.8.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.9/README.md) | [sase-1hi.9](sase-1hi.9.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.land/README.md) | [sase-1hi](README.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.land.md) | [sase-1hi](README.md) | 0 |
 
 ## Commits
 
@@ -131,6 +191,7 @@ flowchart TD
 | sase | [`5b8e6fe`](https://github.com/sase-org/sase/commit/5b8e6fe4c751a0a3e1a5651d3f3416bace679369) | feat(finalizers): add advisory never-blocking memory guard for plan-launched commits | [sase-1hi.8](sase-1hi.8.md) | 2026-10-08 03:07:30 EDT |
 | sase | [`edb0120`](https://github.com/sase-org/sase/commit/edb0120aecf99141c4c3b9a20023aab97d2e0a74) | feat(ace): plan decisions accordion with compact verdict and decision-aware inbox | [sase-1hi.6](sase-1hi.6.md) | 2026-10-08 03:55:03 EDT |
 | sase | [`ee3a4f6`](https://github.com/sase-org/sase/commit/ee3a4f6787a6e5fa53790a63b044ed48ca2b24da) | feat(plan): add Plan Decisions step with memory-write routing | [sase-1hi.9](sase-1hi.9.md) | 2026-10-08 04:35:05 EDT |
+| sase | [`c929bb1`](https://github.com/sase-org/sase/commit/c929bb176b7ecbc1f8dc8a96aad5863a80d08a65) | feat(plan): repair gate decision acceptance, stamps, validation, and grants | [sase-1hi.10.1](sase-1hi.10.1.md) | 2026-10-08 06:21:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
