@@ -32,3 +32,15 @@ cli: fix the card's clamped-as--D label, duplicate memory chips, and missing def
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b470a1b`](https://github.com/sase-org/sase/commit/b470a1b4618156606b835ecc281357f300cf2f31) | feat(plan): decision card labels, pure validate JSON, scoped completions and CLI tests | [sase-1hi.10.3](sase-1hi.10.3.md) | 2026-10-08 10:56:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.3--1][1] | Need full description and notes for implementation check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md
+
+<!-- sase:referenced-by:end -->

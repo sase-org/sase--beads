@@ -23,7 +23,7 @@ handoff: render accepted decisions from frozen definitions instead of the reader
 
 - **Depends on:** [sase-1hi.10.1](sase-1hi.10.1.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.3](sase-1hi.10.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1hi.10.4](sase-1hi.10.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.4](sase-1hi.10.4.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.6](sase-1hi.10.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

@@ -13,7 +13,7 @@ goldens: add the nine Plan Decisions PNG goldens with real gate data and refresh
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.10.4](sase-1hi.10.4.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1hi.10.4](sase-1hi.10.4.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

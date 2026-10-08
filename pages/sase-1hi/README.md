@@ -90,7 +90,7 @@ flowchart TD
     n8["sase-1hi.10.1: Stamp order and surface, revision binding on every route, kind validation, and new-note grants [closed]"]
     n9["sase-1hi.10.2: Environment-independent accepted sheets, bead read DECISIONS, epic inheritance, guard coverage, and provenance repairs [closed]"]
     n10["sase-1hi.10.3: Decision card labels, pure validate JSON, scoped completions, CLI tests, and beta doc leftovers [closed]"]
-    n11["sase-1hi.10.4: ACE compact docked Verdict, branch tinting, edit freeze, carries line, settled and stale states [in_progress]"]
+    n11["sase-1hi.10.4: ACE compact docked Verdict, branch tinting, edit freeze, carries line, settled and stale states [closed]"]
     n12["sase-1hi.10.5: Plan Decisions visual goldens and the compact-Verdict update group [in_progress]"]
     n13["sase-1hi.10.6: Telegram submits every option, refreshes stale cards, and settles with true receipts [in_progress]"]
     n14["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
@@ -160,7 +160,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.1.md) | [sase-1hi.10.1](sase-1hi.10.1.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.2.md) | [sase-1hi.10.2](sase-1hi.10.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md) | [sase-1hi.10.3](sase-1hi.10.3.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.5/README.md) | [sase-1hi.10.5](sase-1hi.10.5.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.6.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.land/README.md) | [sase-1hi.10](sase-1hi.10.md) | 0 |
@@ -194,6 +194,7 @@ flowchart TD
 | sase | [`c929bb1`](https://github.com/sase-org/sase/commit/c929bb176b7ecbc1f8dc8a96aad5863a80d08a65) | feat(plan): repair gate decision acceptance, stamps, validation, and grants | [sase-1hi.10.1](sase-1hi.10.1.md) | 2026-10-08 06:21:40 EDT |
 | sase | [`6828ed3`](https://github.com/sase-org/sase/commit/6828ed3836b8e1d0d7dcbab28e696fc208f444e5) | feat(plan): environment-independent accepted decision sheets and handoff repairs | [sase-1hi.10.2](sase-1hi.10.2.md) | 2026-10-08 10:03:29 EDT |
 | sase | [`b470a1b`](https://github.com/sase-org/sase/commit/b470a1b4618156606b835ecc281357f300cf2f31) | feat(plan): decision card labels, pure validate JSON, scoped completions and CLI tests | [sase-1hi.10.3](sase-1hi.10.3.md) | 2026-10-08 10:56:04 EDT |
+| sase | [`092fd1d`](https://github.com/sase-org/sase/commit/092fd1db05a73773cd6d7f503be9d54f6489d38f) | feat(ace): compact docked Verdict with branch tint, edit freeze, carries line, settled and stale states | [sase-1hi.10.4](sase-1hi.10.4.md) | 2026-10-08 11:00:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
