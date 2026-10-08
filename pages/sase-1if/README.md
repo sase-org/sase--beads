@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plugin_commands.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plugin_commands.md
 
@@ -33,7 +33,7 @@ Plugins can mount top-level `sase <name>` commands through a metadata-declared `
 | [sase-1if.10](sase-1if.10.md) | End-to-end acceptance, records, and docs | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.2](sase-1if.2.md) | sase-listen becomes a command plugin | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.3](sase-1if.3.md) | Plugin commands in root help and sase doctor | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
-| [sase-1if.4](sase-1if.4.md) | Plugin subtrees in completion with plugin-aware cache identity | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1if.4](sase-1if.4.md) | Plugin subtrees in completion with plugin-aware cache identity | ◐ in_progress | medium | 2026-10-08 | 1 | 1 |
 | [sase-1if.5](sase-1if.5.md) | Command-aware plugin install, update, and uninstall | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.6](sase-1if.6.md) | Pre-install command preview | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1if.7](sase-1if.7.md) | Commands in the Updates tab and plugin detail | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1if.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.10/README.md) | [sase-1if.10](sase-1if.10.md) | 0 |
 | [bbugyi200.apollo.sase-1if.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.2/README.md) | [sase-1if.2](sase-1if.2.md) | 0 |
 | [bbugyi200.apollo.sase-1if.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.3/README.md) | [sase-1if.3](sase-1if.3.md) | 0 |
-| [bbugyi200.apollo.sase-1if.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.4/README.md) | [sase-1if.4](sase-1if.4.md) | 0 |
+| [bbugyi200.apollo.sase-1if.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1if.4.md) | [sase-1if.4](sase-1if.4.md) | 1 |
 | [bbugyi200.apollo.sase-1if.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.5/README.md) | [sase-1if.5](sase-1if.5.md) | 0 |
 | [bbugyi200.apollo.sase-1if.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.6/README.md) | [sase-1if.6](sase-1if.6.md) | 0 |
 | [bbugyi200.apollo.sase-1if.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.7/README.md) | [sase-1if.7](sase-1if.7.md) | 0 |
@@ -100,6 +100,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b9693bc`](https://github.com/sase-org/sase/commit/b9693bc695751cbc6ea6d0228d21e792cea7733e) | feat(plugin-commands): add sase\_commands contract, discovery, and dispatch | [sase-1if.1](sase-1if.1.md) | 2026-10-08 16:43:55 EDT |
+| sase | [`7922974`](https://github.com/sase-org/sase/commit/79229740620312e2be8412024ece417ca03f1998) | feat(completion): merge plugin parsers into runtime spec with plugin-aware cache identity | [sase-1if.4](sase-1if.4.md) | 2026-10-08 17:55:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -107,8 +108,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1if.9][1] | need epic scope decisions | 1 |
+| read-by | [agent:sase-1if.1][1] | epic context | 1 |
+| read-by | [agent:sase-1if.9][2] | need epic scope decisions | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md
 
 <!-- sase:referenced-by:end -->

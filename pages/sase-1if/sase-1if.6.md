@@ -21,3 +21,15 @@ command-preview: read an uninstalled plugin's declared sase_commands from its up
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1if.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.6/README.md) | [sase-1if.6](sase-1if.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1if.1][1] | Check phase is open before keying epic-symbol rows to it | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md
+
+<!-- sase:referenced-by:end -->

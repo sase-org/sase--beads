@@ -21,3 +21,15 @@ help-doctor: list plugin commands in sase -H (and sase -h per decision) with pro
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1if.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.3/README.md) | [sase-1if.3](sase-1if.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1if.1][1] | Check phase is open before keying epic-symbol rows to it | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md
+
+<!-- sase:referenced-by:end -->
