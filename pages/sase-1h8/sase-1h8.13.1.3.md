@@ -20,7 +20,7 @@ view-core: fold indexed.rs into MutationView with cached and replay backings, st
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.2](sase-1h8.13.1.2.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.4](sase-1h8.13.1.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.4](sase-1h8.13.1.4.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.5](sase-1h8.13.1.5.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.6](sase-1h8.13.1.6.md) ◐ · ⧖ 2026-10-08
 
@@ -35,3 +35,15 @@ view-core: fold indexed.rs into MutationView with cached and replay backings, st
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@159f48e`](https://github.com/sase-org/sase-core/commit/159f48ef3c9c8b454eacf715f50eb6cbd5e0a279) | feat(beads): one mutation view with shared algorithms and full notes family | [sase-1h8.13.1.3](sase-1h8.13.1.3.md) | 2026-10-08 18:17:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.3/README.md
+
+<!-- sase:referenced-by:end -->
