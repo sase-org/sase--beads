@@ -13,7 +13,7 @@ import-budget: defer eager TUI startup imports to at least 30 modules under the 
 
 ## Dependencies
 
-- **Depends on:** [sase-1i5.5](sase-1i5.5.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1i5.5](sase-1i5.5.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.7](sase-1i5.7.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1i5.9](sase-1i5.9.md) ◐ · ⧖ 2026-10-08
 
