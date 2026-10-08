@@ -21,8 +21,8 @@ view-core: fold indexed.rs into MutationView with cached and replay backings, st
 
 - **Depends on:** [sase-1h8.13.1.2](sase-1h8.13.1.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.4](sase-1h8.13.1.4.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.5](sase-1h8.13.1.5.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.6](sase-1h8.13.1.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.5](sase-1h8.13.1.5.md) ✓ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.6](sase-1h8.13.1.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

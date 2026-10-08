@@ -33,3 +33,15 @@ port-lifecycle: move close_remove.rs (open, close, close with note, descendant g
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@276b14a`](https://github.com/sase-org/sase-core/commit/276b14a40f300c07e350a604682ba00200327e9b) | feat(beads): port open, close and remove onto the mutation view | [sase-1h8.13.1.4](sase-1h8.13.1.4.md) | 2026-10-08 19:05:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.4/README.md
+
+<!-- sase:referenced-by:end -->

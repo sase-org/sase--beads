@@ -14,8 +14,8 @@ proof: clean up after the parallel ports, prove no ordinary mutation still repla
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.4](sase-1h8.13.1.4.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1h8.13.1.5](sase-1h8.13.1.5.md) ◐ · ⧖ 2026-10-08
-- **Depends on:** [sase-1h8.13.1.6](sase-1h8.13.1.6.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.5](sase-1h8.13.1.5.md) ✓ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.6](sase-1h8.13.1.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
