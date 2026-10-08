@@ -35,3 +35,15 @@ cli-beads: repair live CLI and bead failures against landed contracts, preserve 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a7b908b`](https://github.com/sase-org/sase/commit/a7b908b4a8141c60a4d7bbd1a8aec13b2028b50b) | test(cli-beads): repair CLI contracts, completion drift, terminology, and bead test doubles | [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) | 2026-10-08 16:21:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i5.9.1.2.1.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.1.md
+
+<!-- sase:referenced-by:end -->

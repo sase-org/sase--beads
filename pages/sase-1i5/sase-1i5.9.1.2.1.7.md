@@ -16,7 +16,7 @@ ci-proof: observe the integrated master SHA, repair remaining deterministic CI f
 - **Depends on:** [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) ◐ · ⧖ 2026-10-08
 - **Depends on:** [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) ◐ · ⧖ 2026-10-08
 

@@ -33,3 +33,15 @@ host-contracts: make gate and launch provenance assertions exact, resolve foreig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1914591`](https://github.com/sase-org/sase/commit/1914591ab497811326ce621d3015ecb15709b9b5) | fix(host-contracts): exact gate provenance, foreign-commit recovery, detached-run isolation | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 2026-10-08 16:18:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i5.9.1.2.1.2--1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.2.md
+
+<!-- sase:referenced-by:end -->

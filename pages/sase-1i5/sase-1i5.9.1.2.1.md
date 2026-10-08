@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/release_master_and_full_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/release_master_and_full_ci.md
 
@@ -37,8 +37,10 @@ Master Gate is green on the release tip and Full CI is green on the same SHA wit
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1i5.9.1.2.1.3--1][1] | Need epic decisions | 1 |
+| read-by | [agent:sase-1i5.9.1.2.1.1--1][1] | epic decisions for phase close | 1 |
+| read-by | [agent:sase-1i5.9.1.2.1.3--1][2] | Need epic decisions | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md
 
 <!-- sase:referenced-by:end -->
