@@ -41,7 +41,9 @@ cli: add `sase plan approve -D/--decide ID=VALUE` with live completions, the dec
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1hi.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1hi.8--1][2] | check stale symbol owner | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md
 
 <!-- sase:referenced-by:end -->
