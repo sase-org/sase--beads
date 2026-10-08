@@ -19,7 +19,7 @@ mount: add the generic sase_commands contract, metadata-only discovery and valid
 
 ## Dependencies
 
-- **Blocks:** [sase-1if.3](sase-1if.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.3](sase-1if.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1if.4](sase-1if.4.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1if.5](sase-1if.5.md) ◐ · ⧖ 2026-10-08
 

@@ -13,7 +13,7 @@ acceptance: verify parity, completion, freshness, Updates flows, and performance
 
 ## Dependencies
 
-- **Depends on:** [sase-1if.3](sase-1if.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1if.3](sase-1if.3.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.7](sase-1if.7.md) ◐ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.8](sase-1if.8.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.9](sase-1if.9.md) ✓ · ⧖ 2026-10-08
