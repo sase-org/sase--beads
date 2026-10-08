@@ -34,3 +34,17 @@ scope-reaper: add a checks-routine job that discovers sase-agent scopes with no 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a10a6c6`](https://github.com/sase-org/sase/commit/a10a6c60352667d856f4c697134ba4df5fa243a1) | feat(scope): reap orphaned agent scopes with checks-routine backstop job | [sase-1i4.3](sase-1i4.3.md) | 2026-10-08 09:50:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i4.3--4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:toobig-7d.agent_list_entry_builder.0--2][2] | Confirm bead closed before filing stale-whitelist follow-up | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1i4.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.toobig-7d.agent_list_entry_builder.0.md
+
+<!-- sase:referenced-by:end -->
