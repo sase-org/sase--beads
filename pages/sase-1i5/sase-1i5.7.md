@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1i5](README.md) / sase-1i5.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0y8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0y8.md) · **Assignee:** `sase-1i5.7` · **Size:** medium
-**Created:** 2026-10-08 09:47:21 EDT
+**Created:** 2026-10-08 09:47:21 EDT · **Closed:** 2026-10-08 11:12:30 EDT
 **Plan:** [202610/close\_top\_ten\_impact\_task\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202610/close_top_ten_impact_task_beads.md)
 
 ## Description
@@ -17,6 +17,8 @@ deck-scroll-settle: root-cause and fix the deck anchor-scroll settle race behind
 
 [2026-10-08T14:34:49Z · sase-1i5.7] PROPOSED FOLLOW-UP: make_agent/make_artifact_agent deck tests fail deterministically with RuntimeError sase_core_rs content-layout wire is stale (expected schema >= 7, got 5) from src/sase/core/content_layout_wire.py:227 - blocks test_files_ctrl_j_scrolls_page_anchor_to_top (sase-1a7) and other tmp_path agent-fixture tests in this workspace; reproduces identically on clean tree with tests/ stashed, so environmental/pre-existing, not the scroll-settle flake.
 
+[2026-10-08T15:12:30Z · sase-1i5.7] Verified: sase-1br node 30/30 isolated serial reps (-p no:randomly); sibling scroll_derived node 30/30; block-spread pilot file 7/7 under -n 6 parallel load; ruff clean on all touched files; sase tool run check run d9b7981b3f67aa393acfe7f6d88dc6f5 verdict no_new_failures (9 failures all triaged KNOWN, none in deck pilots). sase-1br closed done. sase-1a7 left open with a note (its node blocked by pre-existing wire env error, PROPOSED FOLLOW-UP recorded). No epic-symbol entries remain. No product imports added (tests-only change).
+
 ## Dependencies
 
 - **Blocks:** [sase-1i5.8](sase-1i5.8.md) ◐ · ⧖ 2026-10-08
@@ -26,4 +28,10 @@ deck-scroll-settle: root-cause and fix the deck anchor-scroll settle race behind
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.7/README.md) | [sase-1i5.7](sase-1i5.7.md) | 0 |
+| [bbugyi200.athena.sase-1i5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.7/README.md) | [sase-1i5.7](sase-1i5.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8bfa6fc`](https://github.com/sase-org/sase/commit/8bfa6fc3a071318bca9dfe540ebb8d1aa440ba32) | test(decks): stabilize anchor-scroll landing waits in spread pilots | [sase-1i5.7](sase-1i5.7.md) | 2026-10-08 11:14:45 EDT |
