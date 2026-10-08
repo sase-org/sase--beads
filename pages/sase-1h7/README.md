@@ -35,12 +35,20 @@ tests/test_macro_directive_completion_parity.py::test_failure_degradation_retain
 
 Each fails at index 2 with for_epic= != hood=. The actual rows are the expected list plus an inserted for_epic= (hood= is still present). Rows come from core_candidate_rows in src/sase/ace/tui/widgets/directive_completion.py. Proposed by sase-1h9.1 note #1 and sase-1h9.2 note #1 (the latter named KNOWN witness 477276a723e911ef2ce08d5f4e412d7f). No task filed; this vocabulary belongs to sase-1h7.
 
+[2026-10-08T01:55:04Z · sase-1hf.land] DISCOVERED ISSUE (sase-1hf landing, master 3a4178b15a, 2026-10-07):
+
+(1) tests/test_timezone_display_guard.py::test_no_system_clock_display_sites fails deterministically (AST scan). Two new violations come from 0a80039618 (SASE_BEAD sase-1h7.8): src/sase/ace/tui/models/agent.py:371 `moment = datetime.fromtimestamp(float(view.since))` and src/sase/ace/tui/widgets/prompt_panel/_agent_wait_section.py:137 `datetime.fromtimestamp(float(since)).strftime("%H:%M")`. Route both through sase.core.time. This is distinct from task sase-1bp, whose update-gear sites no longer appear.
+
+(2) Symvision's private-symbol rule returns before the unused-public rule. Once the sase-1hf land agent deleted the dead `_list_bead_state_changes_silent`, `just symvision` reported these sase-1h7 unused public symbols, previously masked: CreatedEpic and coerce_created_epics (src/sase/core/created_epics.py, sase-1h7.1); EpicFollowInput, EpicFollowMemberFacts, EpicFollowTargetFacts (wait_dependency_resolution/_epic_follow.py, sase-1h7.4); EpicFollowProgress, followed_epic_ids, read_epic_follow_progress (ace/tui/models/agent_epic_follow_progress.py) and epic_follow_toast_messages (ace/tui/actions/agents/_epic_follow_toasts.py) from sase-1h7.8; is_follow_plan_row (core/wait_epic_follow_view.py, sase-1h7.9). Also initial_dependencies_resolved (src/sase/axe/run_agent_wait_deps.py): 333034a60a (sase-1h7.5) replaced its last src caller with resolve_initial_wait_release, so only tests (~45 refs in 6 files) still call it. Retarget them to resolve_initial_wait_release(...).releasable and delete the wrapper. Privatize, wire, or delete per the symvision memory, or add --epic-symbol rows keyed to sase-1h7.10 if it will consume them.
+
+(3) FYI, sase-1h7.10 note #3: test_land_failure_entry_clears_when_waiter_releases was caused by sase-1hf.3's release-telemetry ready.json payload (released_by). The sase-1hf landing fixes it by updating the assertion, so no sase-1h7 work is needed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1h7.1](sase-1h7.1.md) | Record the epics a run launched | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h7.10](sase-1h7.10.md) | Flip the default on and finish the docs | ✓ closed | medium | 2026-10-06 | 1 | 1 |
+| [sase-1h7.10](sase-1h7.10.md) | Flip the default on and finish the docs | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h7.2](sase-1h7.2.md) | Derive produced-by links from recorded epics | ✓ closed | small | 2026-10-06 | 1 | 2 |
 | [sase-1h7.3](sase-1h7.3.md) | Grammar, diagnostics, and persisted policy | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h7.4](sase-1h7.4.md) | Epic-follow reducer and fact collector | ✓ closed | medium | 2026-10-06 | 1 | 2 |
@@ -95,7 +103,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1h7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.1/README.md) | [sase-1h7.1](sase-1h7.1.md) | 2 |
-| [bbugyi200.athena.sase-1h7.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md) | [sase-1h7.10](sase-1h7.10.md) | 1 |
+| [bbugyi200.athena.sase-1h7.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md) | [sase-1h7.10](sase-1h7.10.md) | 2 |
 | [bbugyi200.athena.sase-1h7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.2/README.md) | [sase-1h7.2](sase-1h7.2.md) | 2 |
 | [bbugyi200.athena.sase-1h7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.3.md) | [sase-1h7.3](sase-1h7.3.md) | 2 |
 | [bbugyi200.athena.sase-1h7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.4.md) | [sase-1h7.4](sase-1h7.4.md) | 2 |
@@ -125,6 +133,7 @@ flowchart TD
 | sase | [`0a80039`](https://github.com/sase-org/sase/commit/0a80039618ee8f2ca8d9bce6ec9d21b8f4c1c3b7) | feat(ace-tui): render epic-follow hand-off across agents surfaces | [sase-1h7.8](sase-1h7.8.md) | 2026-10-07 17:46:25 EDT |
 | sase | [`5a3f8ae`](https://github.com/sase-org/sase/commit/5a3f8ae57447ed8ced231dc82e170e0834c9df3c) | feat(wait): tri-state Follow epics toggle with split for\_epic occurrences | [sase-1h7.9](sase-1h7.9.md) | 2026-10-07 19:38:28 EDT |
 | sase-core | [`sase-core@9ea87c1`](https://github.com/sase-org/sase-core/commit/9ea87c1181128ff87d2a90e74b782ffa369e30c3) | feat(wait): support wait-for-epic flip in plan resolution and directive metadata | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:51:53 EDT |
+| sase | [`c7190fb`](https://github.com/sase-org/sase/commit/c7190fb99a93a71e66dee4f0576e5e67760c5050) | feat(wait): default WAIT\_FOR\_EPIC to true with for\_epic=false phase sequencing | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:57:40 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -38,10 +38,23 @@ flip: make `for_epic` default to true for user-authored agent targets (never `--
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h7.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md) | [sase-1h7.10](sase-1h7.10.md) | 1 |
+| [bbugyi200.athena.sase-1h7.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md) | [sase-1h7.10](sase-1h7.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9ea87c1`](https://github.com/sase-org/sase-core/commit/9ea87c1181128ff87d2a90e74b782ffa369e30c3) | feat(wait): support wait-for-epic flip in plan resolution and directive metadata | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:51:53 EDT |
+| sase | [`c7190fb`](https://github.com/sase-org/sase/commit/c7190fb99a93a71e66dee4f0576e5e67760c5050) | feat(wait): default WAIT\_FOR\_EPIC to true with for\_epic=false phase sequencing | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:57:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h7.10--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.10.md
+
+<!-- sase:referenced-by:end -->
