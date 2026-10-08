@@ -13,7 +13,7 @@ quotes: implement the normalized three-word contiguous matcher, deterministic cl
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.1.1.2](sase-1hi.1.1.2.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.1.1.2](sase-1hi.1.1.2.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.1.1.4](sase-1hi.1.1.4.md) ◐ · ⧖ 2026-10-07
 
 ## Agents

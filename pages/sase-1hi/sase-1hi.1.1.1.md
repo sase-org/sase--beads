@@ -19,7 +19,7 @@ grammar: implement all decisions diagnostics, source lines, Archived mode, branc
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.1.1.2](sase-1hi.1.1.2.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.1.1.2](sase-1hi.1.1.2.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -32,3 +32,15 @@ grammar: implement all decisions diagnostics, source lines, Archived mode, branc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@96d5b67`](https://github.com/sase-org/sase-core/commit/96d5b67beec6079e73f9c8def2bed7cc531932ec) | feat(plan): validate plan decisions grammar with Archived mode and additive wire | [sase-1hi.1.1.1](sase-1hi.1.1.1.md) | 2026-10-07 20:05:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.1.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
