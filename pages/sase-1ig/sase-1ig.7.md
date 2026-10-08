@@ -28,7 +28,7 @@ plugin-repos: in sase-github, sase-telegram, sase-research-artifacts, and sase-l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 2 |
+| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 3 |
 
 ## Commits
 
@@ -36,6 +36,7 @@ plugin-repos: in sase-github, sase-telegram, sase-research-artifacts, and sase-l
 |---|---|---|---|---|
 | sase-github | [`sase-github@69e1b0a`](https://github.com/sase-org/sase-github/commit/69e1b0a9e83f4a7d27fdcbe0ddac74a2e2570e32) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:38:26 EDT |
 | sase-listen | [`sase-listen@1b82d27`](https://github.com/sase-org/sase-listen/commit/1b82d27f3eba92b3c77b87d6a60b90884bd69577) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:42:44 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@555a0ad`](https://github.com/sase-org/sase-research-artifacts/commit/555a0add8d10c1919ff468c2b70c2e6136321b7e) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:47:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

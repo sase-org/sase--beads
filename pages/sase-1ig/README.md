@@ -37,7 +37,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1ig.4](sase-1ig.4.md) | Make the Rust dev-install recipes honest | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.6](sase-1ig.6.md) | sase-core pairing and pre-swap preparation | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ✓ closed | medium | 2026-10-08 | 1 | 2 |
+| [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ✓ closed | medium | 2026-10-08 | 1 | 3 |
 | [sase-1ig.8](sase-1ig.8.md) | The live \`just install-dev\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.9](sase-1ig.9.md) | Point sase-core's remedies at the new names | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md) | [sase-1ig.4](sase-1ig.4.md) | 0 |
 | [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 0 |
 | [bbugyi200.athena.sase-1ig.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md) | [sase-1ig.6](sase-1ig.6.md) | 0 |
-| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 2 |
+| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 3 |
 | [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.8/README.md) | [sase-1ig.8](sase-1ig.8.md) | 0 |
 | [bbugyi200.athena.sase-1ig.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.9/README.md) | [sase-1ig.9](sase-1ig.9.md) | 0 |
 | [bbugyi200.athena.sase-1ig.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.land/README.md) | [sase-1ig](README.md) | 0 |
@@ -107,6 +107,7 @@ flowchart TD
 | sase | [`6f240b3`](https://github.com/sase-org/sase/commit/6f240b3c96480ffa52b07630f24957d3b7c8347d) | feat(install): rename venv recipes to install-venv and park bare install | [sase-1ig.1](sase-1ig.1.md) | 2026-10-08 18:54:25 EDT |
 | sase-github | [`sase-github@69e1b0a`](https://github.com/sase-org/sase-github/commit/69e1b0a9e83f4a7d27fdcbe0ddac74a2e2570e32) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:38:26 EDT |
 | sase-listen | [`sase-listen@1b82d27`](https://github.com/sase-org/sase-listen/commit/1b82d27f3eba92b3c77b87d6a60b90884bd69577) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:42:44 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@555a0ad`](https://github.com/sase-org/sase-research-artifacts/commit/555a0add8d10c1919ff468c2b70c2e6136321b7e) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:47:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
