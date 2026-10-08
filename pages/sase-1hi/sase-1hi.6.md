@@ -26,7 +26,7 @@ tui: build the ACE Decisions accordion above a compact docked Verdict with the o
 ## Dependencies
 
 - **Depends on:** [sase-1hi.4](sase-1hi.4.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.9](sase-1hi.9.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.9](sase-1hi.9.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -39,3 +39,15 @@ tui: build the ACE Decisions accordion above a compact docked Verdict with the o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`edb0120`](https://github.com/sase-org/sase/commit/edb0120aecf99141c4c3b9a20023aab97d2e0a74) | feat(ace): plan decisions accordion with compact verdict and decision-aware inbox | [sase-1hi.6](sase-1hi.6.md) | 2026-10-08 03:55:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.6--2][1] | verify epic symbols before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.6.md
+
+<!-- sase:referenced-by:end -->

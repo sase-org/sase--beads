@@ -20,7 +20,7 @@ cli: add `sase plan approve -D/--decide ID=VALUE` with live completions, the dec
 ## Dependencies
 
 - **Depends on:** [sase-1hi.4](sase-1hi.4.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.9](sase-1hi.9.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.9](sase-1hi.9.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

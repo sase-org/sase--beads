@@ -43,7 +43,7 @@ A tale or epic can declare up to five typed, defaulted Plan Decisions (toggles, 
 | [sase-1hi.6](sase-1hi.6.md) | ACE Decisions section, compact Verdict, and decision-aware inbox | ✓ closed | large | 2026-10-07 | 1 | 1 |
 | [sase-1hi.7](sase-1hi.7.md) | Telegram decision sheet, live keyboard, and settle receipt | ✓ closed | large | 2026-10-07 | 1 | 0 |
 | [sase-1hi.8](sase-1hi.8.md) | Advisory finalizer memory guard | ✓ closed | medium | 2026-10-07 | 1 | 1 |
-| [sase-1hi.9](sase-1hi.9.md) | Planner and memory-skill policy, authoring docs, and flag removal | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
+| [sase-1hi.9](sase-1hi.9.md) | Planner and memory-skill policy, authoring docs, and flag removal | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
     n11["sase-1hi.6: ACE Decisions section, compact Verdict, and decision-aware inbox [closed]"]
     n12["sase-1hi.7: Telegram decision sheet, live keyboard, and settle receipt [closed]"]
     n13["sase-1hi.8: Advisory finalizer memory guard [closed]"]
-    n14["sase-1hi.9: Planner and memory-skill policy, authoring docs, and flag removal [in_progress]"]
+    n14["sase-1hi.9: Planner and memory-skill policy, authoring docs, and flag removal [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.6.md) | [sase-1hi.6](sase-1hi.6.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md) | [sase-1hi.8](sase-1hi.8.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.9/README.md) | [sase-1hi.9](sase-1hi.9.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.9/README.md) | [sase-1hi.9](sase-1hi.9.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.land/README.md) | [sase-1hi](README.md) | 0 |
 
 ## Commits
@@ -130,6 +130,7 @@ flowchart TD
 | sase | [`ec599ca`](https://github.com/sase-org/sase/commit/ec599ca332924d30ff2683055225b8bf518dbe9b) | feat(plan): add -D/--decide approval with decision cards and sheet rendering | [sase-1hi.5](sase-1hi.5.md) | 2026-10-08 02:38:16 EDT |
 | sase | [`5b8e6fe`](https://github.com/sase-org/sase/commit/5b8e6fe4c751a0a3e1a5651d3f3416bace679369) | feat(finalizers): add advisory never-blocking memory guard for plan-launched commits | [sase-1hi.8](sase-1hi.8.md) | 2026-10-08 03:07:30 EDT |
 | sase | [`edb0120`](https://github.com/sase-org/sase/commit/edb0120aecf99141c4c3b9a20023aab97d2e0a74) | feat(ace): plan decisions accordion with compact verdict and decision-aware inbox | [sase-1hi.6](sase-1hi.6.md) | 2026-10-08 03:55:03 EDT |
+| sase | [`ee3a4f6`](https://github.com/sase-org/sase/commit/ee3a4f6787a6e5fa53790a63b044ed48ca2b24da) | feat(plan): add Plan Decisions step with memory-write routing | [sase-1hi.9](sase-1hi.9.md) | 2026-10-08 04:35:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
