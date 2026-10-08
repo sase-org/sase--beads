@@ -71,7 +71,7 @@ KEPT AS EPIC WORK, going to the landing child epic:
 | [sase-1hi.4](sase-1hi.4.md) | Deliver accepted decisions to coders, phases, notifications, and receipts | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hi.5](sase-1hi.5.md) | Decision-aware sase plan and sase gate commands | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hi.6](sase-1hi.6.md) | ACE Decisions section, compact Verdict, and decision-aware inbox | ✓ closed | large | 2026-10-07 | 1 | 1 |
-| [sase-1hi.7](sase-1hi.7.md) | Telegram decision sheet, live keyboard, and settle receipt | ✓ closed | large | 2026-10-07 | 1 | 0 |
+| [sase-1hi.7](sase-1hi.7.md) | Telegram decision sheet, live keyboard, and settle receipt | ✓ closed | large | 2026-10-07 | 1 | 1 |
 | [sase-1hi.8](sase-1hi.8.md) | Advisory finalizer memory guard | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [sase-1hi.9](sase-1hi.9.md) | Planner and memory-skill policy, authoring docs, and flag removal | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 
@@ -92,7 +92,7 @@ flowchart TD
     n10["sase-1hi.10.3: Decision card labels, pure validate JSON, scoped completions, CLI tests, and beta doc leftovers [closed]"]
     n11["sase-1hi.10.4: ACE compact docked Verdict, branch tinting, edit freeze, carries line, settled and stale states [closed]"]
     n12["sase-1hi.10.5: Plan Decisions visual goldens and the compact-Verdict update group [closed]"]
-    n13["sase-1hi.10.6: Telegram submits every option, refreshes stale cards, and settles with true receipts [in_progress]"]
+    n13["sase-1hi.10.6: Telegram submits every option, refreshes stale cards, and settles with true receipts [closed]"]
     n14["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
     n15["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
     n16["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [closed]"]
@@ -159,17 +159,17 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.1.1.land.md) | [sase-1hi.1.1](sase-1hi.1.1.md) | 2 |
 | [bbugyi200.apollo.sase-1hi.10.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.1.md) | [sase-1hi.10.1](sase-1hi.10.1.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.2.md) | [sase-1hi.10.2](sase-1hi.10.2.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md) | [sase-1hi.10.3](sase-1hi.10.3.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.5.md) | [sase-1hi.10.5](sase-1hi.10.5.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.6.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md) | [sase-1hi.10.3](sase-1hi.10.3.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.5.md) | [sase-1hi.10.5](sase-1hi.10.5.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.6.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.land/README.md) | [sase-1hi.10](sase-1hi.10.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.2/README.md) | [sase-1hi.2](sase-1hi.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.3.md) | [sase-1hi.3](sase-1hi.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md) | [sase-1hi.4](sase-1hi.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.5/README.md) | [sase-1hi.5](sase-1hi.5.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.6.md) | [sase-1hi.6](sase-1hi.6.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.7.md) | [sase-1hi.7](sase-1hi.7.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md) | [sase-1hi.8](sase-1hi.8.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.9/README.md) | [sase-1hi.9](sase-1hi.9.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.land.md) | [sase-1hi](README.md) | 0 |
@@ -188,14 +188,13 @@ flowchart TD
 | sase | [`ab48f19`](https://github.com/sase-org/sase/commit/ab48f1904e2afc67f7ff1a5c471808c176c4e6d8) | feat(plan): compile, resolve, freeze, and stamp decisions in the plan gate | [sase-1hi.3](sase-1hi.3.md) | 2026-10-08 00:18:01 EDT |
 | sase | [`124c4cf`](https://github.com/sase-org/sase/commit/124c4cffa82920509c4d25c279b939d3ad8e9f9f) | feat(sdd): render accepted-plan Reviewer decisions handoff to coders | [sase-1hi.4](sase-1hi.4.md) | 2026-10-08 01:42:26 EDT |
 | sase | [`ec599ca`](https://github.com/sase-org/sase/commit/ec599ca332924d30ff2683055225b8bf518dbe9b) | feat(plan): add -D/--decide approval with decision cards and sheet rendering | [sase-1hi.5](sase-1hi.5.md) | 2026-10-08 02:38:16 EDT |
+| sase-telegram | [`sase-telegram@70701a0`](https://github.com/sase-org/sase-telegram/commit/70701a0155bb4c7504ca054bf88dd582812256d0) | feat(telegram): decision sheet, live keyboard, and settle receipt | [sase-1hi.7](sase-1hi.7.md) | 2026-10-08 03:00:20 EDT |
 | sase | [`5b8e6fe`](https://github.com/sase-org/sase/commit/5b8e6fe4c751a0a3e1a5651d3f3416bace679369) | feat(finalizers): add advisory never-blocking memory guard for plan-launched commits | [sase-1hi.8](sase-1hi.8.md) | 2026-10-08 03:07:30 EDT |
 | sase | [`edb0120`](https://github.com/sase-org/sase/commit/edb0120aecf99141c4c3b9a20023aab97d2e0a74) | feat(ace): plan decisions accordion with compact verdict and decision-aware inbox | [sase-1hi.6](sase-1hi.6.md) | 2026-10-08 03:55:03 EDT |
 | sase | [`ee3a4f6`](https://github.com/sase-org/sase/commit/ee3a4f6787a6e5fa53790a63b044ed48ca2b24da) | feat(plan): add Plan Decisions step with memory-write routing | [sase-1hi.9](sase-1hi.9.md) | 2026-10-08 04:35:05 EDT |
 | sase | [`c929bb1`](https://github.com/sase-org/sase/commit/c929bb176b7ecbc1f8dc8a96aad5863a80d08a65) | feat(plan): repair gate decision acceptance, stamps, validation, and grants | [sase-1hi.10.1](sase-1hi.10.1.md) | 2026-10-08 06:21:40 EDT |
 | sase | [`6828ed3`](https://github.com/sase-org/sase/commit/6828ed3836b8e1d0d7dcbab28e696fc208f444e5) | feat(plan): environment-independent accepted decision sheets and handoff repairs | [sase-1hi.10.2](sase-1hi.10.2.md) | 2026-10-08 10:03:29 EDT |
-| sase | [`b470a1b`](https://github.com/sase-org/sase/commit/b470a1b4618156606b835ecc281357f300cf2f31) | feat(plan): decision card labels, pure validate JSON, scoped completions and CLI tests | [sase-1hi.10.3](sase-1hi.10.3.md) | 2026-10-08 10:56:04 EDT |
-| sase | [`092fd1d`](https://github.com/sase-org/sase/commit/092fd1db05a73773cd6d7f503be9d54f6489d38f) | feat(ace): compact docked Verdict with branch tint, edit freeze, carries line, settled and stale states | [sase-1hi.10.4](sase-1hi.10.4.md) | 2026-10-08 11:00:39 EDT |
-| sase | [`3346966`](https://github.com/sase-org/sase/commit/334696620dac94a10ed241f4a89c51ae76c57d30) | feat(ace): add Plan Decisions PNG goldens and refresh compact-Verdict group (sase-1hi.10.5) | [sase-1hi.10.5](sase-1hi.10.5.md) | 2026-10-08 11:44:03 EDT |
+| sase-telegram | [`sase-telegram@4073408`](https://github.com/sase-org/sase-telegram/commit/4073408999e97eb268d859027520b43718424326) | feat(telegram): submit selected options, recover stale reviews, truthful receipts | [sase-1hi.10.6](sase-1hi.10.6.md) | 2026-10-08 12:12:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

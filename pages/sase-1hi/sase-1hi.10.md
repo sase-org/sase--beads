@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plan_decisions_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plan_decisions_landing_repairs.md
 
@@ -38,7 +38,9 @@ Finish epic sase-1hi so Plan Decisions match plan:202610/plan_decisions.md every
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1hi.10.3--1][1] | need epic DECISIONS for phase work | 1 |
+| read-by | [agent:sase-1hi.10.5--1][2] | Need epic DECISIONS for phase work | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.5.md
 
 <!-- sase:referenced-by:end -->
