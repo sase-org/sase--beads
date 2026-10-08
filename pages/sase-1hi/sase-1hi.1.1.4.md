@@ -32,3 +32,15 @@ sheet: build the shared sheet, both summary forms, all implementer audiences and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@88d6385`](https://github.com/sase-org/sase-core/commit/88d63855b9c505e607acdeda412a53d5dc554484) | feat(plan): add decision sheet, summary, and prompt-block backend | [sase-1hi.1.1.4](sase-1hi.1.1.4.md) | 2026-10-07 21:51:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.1.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.4/README.md
+
+<!-- sase:referenced-by:end -->

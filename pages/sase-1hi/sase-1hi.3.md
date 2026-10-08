@@ -13,7 +13,7 @@ gate: move the sase-core pin, adapt the Python wire and Archived mode, scaffold 
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.1](sase-1hi.1.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.1](sase-1hi.1.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [sase-1hi.2](sase-1hi.2.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.4](sase-1hi.4.md) ◐ · ⧖ 2026-10-07
 
@@ -21,4 +21,4 @@ gate: move the sase-core pin, adapt the Python wire and Archived mode, scaffold 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.3/README.md) | [sase-1hi.3](sase-1hi.3.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.3.md) | [sase-1hi.3](sase-1hi.3.md) | 0 |
