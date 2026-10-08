@@ -18,19 +18,13 @@ listen-adapter: in the sase-listen repo, add the sase_command adapter and entry 
 ## Dependencies
 
 - **Blocks:** [sase-1if.8](sase-1if.8.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.9](sase-1if.9.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.9](sase-1if.9.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1if.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.2/README.md) | [sase-1if.2](sase-1if.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-listen | [`sase-listen@8c57128`](https://github.com/sase-org/sase-listen/commit/8c5712886833b527bdb39197513c4701af225e74) | feat(listen): ship sase listen as a first-class command plugin | [sase-1if.2](sase-1if.2.md) | 2026-10-08 15:52:38 EDT |
+| [bbugyi200.apollo.sase-1if.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.2/README.md) | [sase-1if.2](sase-1if.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
