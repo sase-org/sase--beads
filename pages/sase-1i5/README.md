@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/close_top_ten_impact_task_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/close_top_ten_impact_task_beads.md
 
@@ -31,7 +31,7 @@ All ten beads ranked in the 48-hour task-bead impact report are fixed on master 
 |---|---|---|---|---|---:|---:|
 | [sase-1i5.1](sase-1i5.1.md) | Make the instructions run-index module public (sase-1h6) | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1i5.2](sase-1i5.2.md) | Break the prompt\_store\_mutations import cycle (sase-1h2) | ✓ closed | small | 2026-10-08 | 1 | 1 |
-| [sase-1i5.3](sase-1i5.3.md) | Read-only bead resolution never initializes or commits (sase-1gx) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1i5.3](sase-1i5.3.md) | Read-only bead resolution never initializes or commits (sase-1gx) | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1i5.4](sase-1i5.4.md) | Isolate tests from the live bead store and long basetemps (sase-14o, sase-18v) | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1i5.5](sase-1i5.5.md) | TUI macro-arg detection uses sase-core structural spans (sase-1h1) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1i5.6](sase-1i5.6.md) | Guarantee a nonzero peak RSS for every recorded run (sase-1f0) | ✓ closed | medium | 2026-10-08 | 1 | 1 |
@@ -46,7 +46,7 @@ flowchart TD
     n0["sase-1i5: Implement and close the ten highest-impact recent task beads [in_progress]"]
     n1["sase-1i5.1: Make the instructions run-index module public (sase-1h6) [closed]"]
     n2["sase-1i5.2: Break the prompt_store_mutations import cycle (sase-1h2) [closed]"]
-    n3["sase-1i5.3: Read-only bead resolution never initializes or commits (sase-1gx) [in_progress]"]
+    n3["sase-1i5.3: Read-only bead resolution never initializes or commits (sase-1gx) [closed]"]
     n4["sase-1i5.4: Isolate tests from the live bead store and long basetemps (sase-14o, sase-18v) [closed]"]
     n5["sase-1i5.5: TUI macro-arg detection uses sase-core structural spans (sase-1h1) [in_progress]"]
     n6["sase-1i5.6: Guarantee a nonzero peak RSS for every recorded run (sase-1f0) [closed]"]
@@ -80,7 +80,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1i5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.1.md) | [sase-1i5.1](sase-1i5.1.md) | 1 |
 | [bbugyi200.athena.sase-1i5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.2/README.md) | [sase-1i5.2](sase-1i5.2.md) | 1 |
-| [bbugyi200.athena.sase-1i5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md) | [sase-1i5.3](sase-1i5.3.md) | 0 |
+| [bbugyi200.athena.sase-1i5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md) | [sase-1i5.3](sase-1i5.3.md) | 1 |
 | [bbugyi200.athena.sase-1i5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.4/README.md) | [sase-1i5.4](sase-1i5.4.md) | 1 |
 | [bbugyi200.athena.sase-1i5.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.5.md) | [sase-1i5.5](sase-1i5.5.md) | 0 |
 | [bbugyi200.athena.sase-1i5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.6/README.md) | [sase-1i5.6](sase-1i5.6.md) | 1 |
@@ -98,6 +98,7 @@ flowchart TD
 | sase | [`4ba5cd9`](https://github.com/sase-org/sase/commit/4ba5cd9f91f38c6728b122f8cc513f6eed197aab) | refactor(instructions): make run-index module public as run\_index | [sase-1i5.1](sase-1i5.1.md) | 2026-10-08 10:28:44 EDT |
 | sase | [`f01f87d`](https://github.com/sase-org/sase/commit/f01f87dddf2881583b243948b3358a9ff0950c2b) | fix(tool): floor demand tree RSS at reaped child ru\_maxrss | [sase-1i5.6](sase-1i5.6.md) | 2026-10-08 10:50:03 EDT |
 | sase | [`8bfa6fc`](https://github.com/sase-org/sase/commit/8bfa6fc3a071318bca9dfe540ebb8d1aa440ba32) | test(decks): stabilize anchor-scroll landing waits in spread pilots | [sase-1i5.7](sase-1i5.7.md) | 2026-10-08 11:14:45 EDT |
+| sase | [`6e5b74a`](https://github.com/sase-org/sase/commit/6e5b74a3963d39b41182318988927f162fc1d897) | fix(beads): read-only bead resolution never initializes or commits (sase-1gx) | [sase-1i5.3](sase-1i5.3.md) | 2026-10-08 11:30:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -109,10 +110,12 @@ flowchart TD
 | read-by | [agent:sase-1i5.2][2] | Need epic DECISIONS and scope for phase sase-1i5.2 | 1 |
 | read-by | [agent:sase-1i5.4][3] | epic decisions | 1 |
 | read-by | [agent:sase-1i5.6][4] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1i5.7][5] | Need epic DECISIONS for phase sase-1i5.7 worker | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.6/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.7/README.md
 
 <!-- sase:referenced-by:end -->
