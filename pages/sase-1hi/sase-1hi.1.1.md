@@ -37,10 +37,11 @@ FOLLOW-UP TRIAGE: .1#1, .2#1, .3#1, .4#1 all propose the same two stale wait-key
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.1.1.land.md) | [sase-1hi.1.1](sase-1hi.1.1.md) | 1 |
+| [bbugyi200.apollo.sase-1hi.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.1.1.land.md) | [sase-1hi.1.1](sase-1hi.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@def5ad5`](https://github.com/sase-org/sase-core/commit/def5ad5b50f2a28ad4f9ed52fd4e6cd272a716f5) | feat(plan): repair decision warning, archive, unicode, fence, and sheet contracts | [sase-1hi.1.1](sase-1hi.1.1.md) | 2026-10-07 22:46:22 EDT |
+| sase--plans | [`sase--plans@6596fe2`](https://github.com/sase-org/sase--plans/commit/6596fe29efeb4b73be1eff63aaefcd8dde3cc4bc) | chore(plans): mark core\_plan\_decisions landing done | [sase-1hi.1.1](sase-1hi.1.1.md) | 2026-10-07 22:48:32 EDT |
