@@ -33,3 +33,15 @@ plan-tui: apply the active Plan Decisions epic's recorded signature-cache and sh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`87a3b20`](https://github.com/sase-org/sase/commit/87a3b20977e7f5afdbb37d04c516a969a58a1f64) | feat(plan-tui): restore associated-plan signature cache and current Verdict copy | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 2026-10-08 16:14:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i5.9.1.2.1.3--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md
+
+<!-- sase:referenced-by:end -->
