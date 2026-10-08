@@ -50,6 +50,8 @@ REMAINING (do not close this bead):
 - Full streams-table rewrite still lives in tail commit.
 - No 8x before-baseline for comparison. -r Record sase-1h8.13 implementation evidence
 
+[2026-10-08T17:52:05Z · sase-1h8.13] Phase evidence (read-model-mutations increment 2, sase-core HEAD cd73d968 + WIP): (1) allocation metadata landed: new read_model/alloc.rs (textual top/child maxima matching store.rs oracle, incl mismatched parent fields, malformed/nested/multiple-prefix/empty, staged creates/removes, max-removal recompute via prefix-scoped LIKE), schema 2->3 with rebuild population, tail maintenance on upserts/deletes, view allocators now index-only with overlay (replay backing fixed to textual scan). Reducer/wire versions unchanged. (2) MutationView ungated to production: load_cached admits inside beads.db flock after forced sweep without preloading replay (with_replay only on fallback/repair), memoized hydrated rows + overlay staged-final-state, baseline witness (generation/frontier/token), SQLite/decode faults stay io (never not-found). (3) tail publication hardened: stream signatures upsert-only (no DELETE+reinsert; untouched rows not rewritten), content_generation CAS added (generation alone could not distinguish successive tails) + rebuild bump, alloc maintenance in write_tail_rows. (4) shared mutation/publish.rs: forced-sweep tail publication with witness-advance check, reducer-truth corrections, fail-open cache-fault contract (events stand, next read tails/rebuilds/replays; non-database heal via read path). (5) create_issue ported onto view+lazy single stream+indexed external-ref check+manifest-total write+publish; replay fallback preserved for legacy/missing-stream/corrupt. (6) tests: alloc unit (3) + cached-create parity (zero full_replays, <=5 hydrated rows, <=2 stream reads, verify matched) + child-alloc oracle match; suites green: bead::mutation 168 pass, bead::read_model 20 pass, full lib 4645 pass; sase tool run check has 1 failure which reproduces identically on clean base via git stash (bead_read_parity:486 issues.jsonl-missing warning expectation, already filed as PROPOSED FOLLOW-UP #4 + epic DISCOVERED ISSUE #3). Bead NOT closed: close/claims/deps/links/snooze/ready + notes_update consolidation still replay; direct (no-second-sweep) publication + no-snapshot tail refresh + full parity/affected-row proofs + 1x/8x benchmarks remain (see PROPOSED FOLLOW-UPs #2/#3). -r Record sase-1h8.13 implementation evidence
+
 ## Dependencies
 
 - **Depends on:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
@@ -60,7 +62,7 @@ REMAINING (do not close this bead):
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 2 |
+| [bbugyi200.athena.sase-1h8.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.md) | [sase-1h8.13](sase-1h8.13.md) | 3 |
 
 ## Commits
 
@@ -68,6 +70,7 @@ REMAINING (do not close this bead):
 |---|---|---|---|---|
 | sase-core | [`sase-core@4d5cf65`](https://github.com/sase-org/sase-core/commit/4d5cf6502324a5928a285861b099be393b26de91) | feat(bead): read-model mutation groundwork for sase-1h8.13 | [sase-1h8.13](sase-1h8.13.md) | 2026-10-07 19:21:56 EDT |
 | sase-core | [`sase-core@7b3b9aa`](https://github.com/sase-org/sase-core/commit/7b3b9aa51876f7435e9b2e8dcfca97dd59529dde) | feat(beads): add indexed note/update read-model path with tail-refresh write-through | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 08:41:35 EDT |
+| sase-core | [`sase-core@1ff4360`](https://github.com/sase-org/sase-core/commit/1ff436055b128f21349e0f8d1136020e0a4cb079) | feat(beads): indexed allocation metadata, shared mutation view/publish, cached create port | [sase-1h8.13](sase-1h8.13.md) | 2026-10-08 13:54:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
