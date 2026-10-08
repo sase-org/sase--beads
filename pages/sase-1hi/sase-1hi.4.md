@@ -20,7 +20,7 @@ handoff: append the host-written Reviewer decisions block to tale coder prompts,
 ## Dependencies
 
 - **Depends on:** [sase-1hi.3](sase-1hi.3.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.5](sase-1hi.5.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.5](sase-1hi.5.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.6](sase-1hi.6.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.7](sase-1hi.7.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.8](sase-1hi.8.md) ◐ · ⧖ 2026-10-07
@@ -36,3 +36,15 @@ handoff: append the host-written Reviewer decisions block to tale coder prompts,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`124c4cf`](https://github.com/sase-org/sase/commit/124c4cffa82920509c4d25c279b939d3ad8e9f9f) | feat(sdd): render accepted-plan Reviewer decisions handoff to coders | [sase-1hi.4](sase-1hi.4.md) | 2026-10-08 01:42:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.4/README.md
+
+<!-- sase:referenced-by:end -->

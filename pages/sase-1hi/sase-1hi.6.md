@@ -20,4 +20,4 @@ tui: build the ACE Decisions accordion above a compact docked Verdict with the o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.6/README.md) | [sase-1hi.6](sase-1hi.6.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.6.md) | [sase-1hi.6](sase-1hi.6.md) | 0 |

@@ -20,4 +20,4 @@ guard: add a host-side, never-blocking finalizer check that warns when an agent 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.8/README.md) | [sase-1hi.8](sase-1hi.8.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.8.md) | [sase-1hi.8](sase-1hi.8.md) | 0 |
