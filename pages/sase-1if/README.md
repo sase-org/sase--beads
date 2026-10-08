@@ -35,7 +35,7 @@ Plugins can mount top-level `sase <name>` commands through a metadata-declared `
 | [sase-1if.5](sase-1if.5.md) | Command-aware plugin install, update, and uninstall | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.6](sase-1if.6.md) | Pre-install command preview | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1if.7](sase-1if.7.md) | Commands in the Updates tab and plugin detail | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [sase-1if.8](sase-1if.8.md) | Lazy sase-listen command imports | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [sase-1if.8](sase-1if.8.md) | Lazy sase-listen command imports | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1if.9](sase-1if.9.md) | Research macros prefer sase listen | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n6["sase-1if.5: Command-aware plugin install, update, and uninstall [in_progress]"]
     n7["sase-1if.6: Pre-install command preview [in_progress]"]
     n8["sase-1if.7: Commands in the Updates tab and plugin detail [in_progress]"]
-    n9["sase-1if.8: Lazy sase-listen command imports [in_progress]"]
+    n9["sase-1if.8: Lazy sase-listen command imports [closed]"]
     n10["sase-1if.9: Research macros prefer sase listen [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1if.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.5/README.md) | [sase-1if.5](sase-1if.5.md) | 0 |
 | [bbugyi200.apollo.sase-1if.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.6/README.md) | [sase-1if.6](sase-1if.6.md) | 0 |
 | [bbugyi200.apollo.sase-1if.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.7/README.md) | [sase-1if.7](sase-1if.7.md) | 0 |
-| [bbugyi200.apollo.sase-1if.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.8/README.md) | [sase-1if.8](sase-1if.8.md) | 0 |
+| [bbugyi200.apollo.sase-1if.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.8/README.md) | [sase-1if.8](sase-1if.8.md) | 1 |
 | [bbugyi200.apollo.sase-1if.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md) | [sase-1if.9](sase-1if.9.md) | 0 |
 | [bbugyi200.apollo.sase-1if.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.land/README.md) | [sase-1if](README.md) | 0 |
 
@@ -98,3 +98,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-listen | [`sase-listen@8c57128`](https://github.com/sase-org/sase-listen/commit/8c5712886833b527bdb39197513c4701af225e74) | feat(listen): ship sase listen as a first-class command plugin | [sase-1if.2](sase-1if.2.md) | 2026-10-08 15:52:38 EDT |
+| sase-listen | [`sase-listen@bbaf58f`](https://github.com/sase-org/sase-listen/commit/bbaf58f7cdedecc54af5549cca1672afd71ba6e3) | perf(cli): defer heavy imports into command handlers for fast startup | [sase-1if.8](sase-1if.8.md) | 2026-10-08 16:07:42 EDT |
