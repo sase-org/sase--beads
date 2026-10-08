@@ -13,7 +13,7 @@ sheet: build the shared sheet, both summary forms, all implementer audiences and
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.1.1.3](sase-1hi.1.1.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.1.1.3](sase-1hi.1.1.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

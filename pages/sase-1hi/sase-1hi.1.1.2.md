@@ -20,7 +20,7 @@ resolve: define host facts, effective defaults, the definitions digest, strict v
 ## Dependencies
 
 - **Depends on:** [sase-1hi.1.1.1](sase-1hi.1.1.1.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [sase-1hi.1.1.3](sase-1hi.1.1.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [sase-1hi.1.1.3](sase-1hi.1.1.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -33,3 +33,15 @@ resolve: define host facts, effective defaults, the definitions digest, strict v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c089cf1`](https://github.com/sase-org/sase-core/commit/c089cf17e07450ec9dfc478e6d7801198feacfad) | feat(sase-core): add plan decisions resolver payload/digest/resolve with PyO3 bindings | [sase-1hi.1.1.2](sase-1hi.1.1.2.md) | 2026-10-07 20:35:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.1.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
