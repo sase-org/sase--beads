@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h7.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h7.7.md) | [sase-1h7.7](sase-1h7.7.md) | 1 |
 | [bbugyi200.athena.sase-1h7.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.8/README.md) | [sase-1h7.8](sase-1h7.8.md) | 1 |
 | [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 2 |
-| [bbugyi200.athena.sase-1h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md) | [sase-1h7](README.md) | 2 |
+| [bbugyi200.athena.sase-1h7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md) | [sase-1h7](README.md) | 3 |
 
 ## Commits
 
@@ -184,6 +184,7 @@ flowchart TD
 | sase | [`c7190fb`](https://github.com/sase-org/sase/commit/c7190fb99a93a71e66dee4f0576e5e67760c5050) | feat(wait): default WAIT\_FOR\_EPIC to true with for\_epic=false phase sequencing | [sase-1h7.10](sase-1h7.10.md) | 2026-10-07 21:57:40 EDT |
 | sase-core | [`sase-core@ec92ecc`](https://github.com/sase-org/sase-core/commit/ec92ecce1688f85f15c4f989ee82b0537a95d925) | test(wait): expect the for\_epic keyword in directive contract and LSP completion tests | [sase-1h7](README.md) | 2026-10-08 01:25:24 EDT |
 | sase | [`0968044`](https://github.com/sase-org/sase/commit/0968044154fd76abdb1e9b40bd2f15c986ba7e8a) | fix(wait): land sase-1h7 epic-follow integration, symvision, and stale-test cleanup | [sase-1h7](README.md) | 2026-10-08 01:30:32 EDT |
+| sase--plans | [`sase--plans@ee5411a`](https://github.com/sase-org/sase--plans/commit/ee5411a78c45728b811bb3c0eef83df8e6f3bab2) | chore(plans): mark wait\_for\_epic plan done after sase-1h7 landed | [sase-1h7](README.md) | 2026-10-08 01:34:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
