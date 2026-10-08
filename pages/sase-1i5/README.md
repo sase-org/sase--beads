@@ -53,6 +53,19 @@ flowchart TD
     n7["sase-1i5.7: Deterministic deck anchor-scroll settling (sase-1br) [closed]"]
     n8["sase-1i5.8: Get under the TUI import budget and make it a ratchet (sase-13p) [closed]"]
     n9["sase-1i5.9: Release sase-core and sase, then move plugin floors (sase-10d) [in_progress]"]
+    n10["sase-1i5.9.1: Publish sase-core and sase, then raise plugin floors [in_progress]"]
+    n11["sase-1i5.9.1.1: Publish a complete sase-core-rs release that contains sase's pin [in_progress]"]
+    n12["sase-1i5.9.1.2: Make sase Master Gate and a fresh Full CI green [in_progress]"]
+    n13["sase-1i5.9.1.2.1: Repair sase release gates and prove a fresh green tip [in_progress]"]
+    n14["sase-1i5.9.1.2.1.1: Repair CLI contracts, completion drift, terminology, and bead test doubles [in_progress]"]
+    n15["sase-1i5.9.1.2.1.2: Repair host provenance fixtures, foreign-commit recovery, and detached-run isolation [in_progress]"]
+    n16["sase-1i5.9.1.2.1.3: Restore associated-plan cache guarantees and current Verdict copy [in_progress]"]
+    n17["sase-1i5.9.1.2.1.4: Repair timezone-dependent and asynchronous TUI failures [in_progress]"]
+    n18["sase-1i5.9.1.2.1.5: Resolve the live unused-public backlog and any newly exposed lint failures [in_progress]"]
+    n19["sase-1i5.9.1.2.1.6: Repair visual state failures and inspect complete screenshot verification [in_progress]"]
+    n20["sase-1i5.9.1.2.1.7: Prove Master Gate and a fresh Full CI on the release tip [in_progress]"]
+    n21["sase-1i5.9.1.3: Ratchet the release branch and let ci_watch publish sase [in_progress]"]
+    n22["sase-1i5.9.1.4: Raise plugin floors, prove fresh installs, and close sase-10d [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,6 +75,19 @@ flowchart TD
     n0 --> n7
     n0 --> n8
     n0 --> n9
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n12 --> n13
+    n13 --> n14
+    n13 --> n15
+    n13 --> n16
+    n13 --> n17
+    n13 --> n18
+    n13 --> n19
+    n13 --> n20
+    n10 --> n21
+    n10 --> n22
     n1 -.-> n9
     n2 -.-> n9
     n3 -.-> n9
@@ -72,6 +98,20 @@ flowchart TD
     n7 -.-> n8
     n7 -.-> n9
     n8 -.-> n9
+    n11 -.-> n21
+    n12 -.-> n21
+    n14 -.-> n18
+    n14 -.-> n20
+    n15 -.-> n18
+    n15 -.-> n20
+    n16 -.-> n18
+    n16 -.-> n20
+    n17 -.-> n18
+    n17 -.-> n20
+    n18 -.-> n19
+    n18 -.-> n20
+    n19 -.-> n20
+    n21 -.-> n22
 ```
 
 ## Agents
@@ -86,7 +126,20 @@ flowchart TD
 | [bbugyi200.athena.sase-1i5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.6/README.md) | [sase-1i5.6](sase-1i5.6.md) | 1 |
 | [bbugyi200.athena.sase-1i5.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.7/README.md) | [sase-1i5.7](sase-1i5.7.md) | 1 |
 | [bbugyi200.athena.sase-1i5.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.8.md) | [sase-1i5.8](sase-1i5.8.md) | 1 |
-| [bbugyi200.athena.sase-1i5.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9/README.md) | [sase-1i5.9](sase-1i5.9.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.md) | [sase-1i5.9](sase-1i5.9.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.1.md) | [sase-1i5.9.1.1](sase-1i5.9.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1i5.9.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.md) | [sase-1i5.9.1.2](sase-1i5.9.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.1.md) | [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.2/README.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.3/README.md) | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.4/README.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.5/README.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.6/README.md) | [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.7/README.md) | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.land/README.md) | [sase-1i5.9.1.2.1](sase-1i5.9.1.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.3/README.md) | [sase-1i5.9.1.3](sase-1i5.9.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.4/README.md) | [sase-1i5.9.1.4](sase-1i5.9.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.land/README.md) | [sase-1i5.9.1](sase-1i5.9.1.md) | 0 |
 | [bbugyi200.athena.sase-1i5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.land/README.md) | [sase-1i5](README.md) | 0 |
 
 ## Commits
@@ -102,6 +155,7 @@ flowchart TD
 | sase-core | [`sase-core@cd73d96`](https://github.com/sase-org/sase-core/commit/cd73d9687c3813915fc6db610236be9a6fd5eab6) | feat(macro): quote-aware paren close in completion trigger context | [sase-1i5.5](sase-1i5.5.md) | 2026-10-08 11:57:02 EDT |
 | sase | [`7e75bbc`](https://github.com/sase-org/sase/commit/7e75bbcd8d182b048575b982bd3ccbfb3867dc63) | feat(macro): derive TUI macro-arg detection from sase-core structural spans | [sase-1i5.5](sase-1i5.5.md) | 2026-10-08 12:01:10 EDT |
 | sase | [`af117b5`](https://github.com/sase-org/sase/commit/af117b598e141370da52565a0af89bf6223af843) | feat(tui): enforce app import budget with closure tool and ratcheted cap | [sase-1i5.8](sase-1i5.8.md) | 2026-10-08 14:17:58 EDT |
+| sase-core | [`sase-core@e411a39`](https://github.com/sase-org/sase-core/commit/e411a392bb2ddec27534aea4da1ad69bf2bd86ea) | fix(tests): expect no issues.jsonl-missing warning for event-store bead reads | [sase-1i5.9.1.1](sase-1i5.9.1.1.md) | 2026-10-08 15:13:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
