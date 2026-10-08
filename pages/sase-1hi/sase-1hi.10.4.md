@@ -20,4 +20,4 @@ tui: build the compact three-line docked Verdict, tint the chosen branch with a 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.4/README.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.4.md) | [sase-1hi.10.4](sase-1hi.10.4.md) | 0 |
