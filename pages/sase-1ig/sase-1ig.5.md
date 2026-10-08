@@ -14,7 +14,7 @@ engine-pypi: build the shared pipeline (progress renderer, log, code-swap lock, 
 ## Dependencies
 
 - **Depends on:** [sase-1ig.1](sase-1ig.1.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1ig.2](sase-1ig.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1ig.2](sase-1ig.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

@@ -7,6 +7,20 @@
 **Created:** 2026-10-08 18:23:28 EDT
 **Plan:** [202610/just\_install\_pypi\_dev\_venv.md](https://github.com/sase-org/sase--plans/blob/main/202610/just_install_pypi_dev_venv.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/just_install_pypi_dev_venv.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/just_install_pypi_dev_venv.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 `just install` installs the latest sase release from PyPI as the user's `sase` command, `just install-dev` installs this checkout plus its pin-paired sase-core (editable) in exactly the shape `sase update` maintains, and today's venv recipes live on as `just install-venv*`. Every consumer is migrated: CI, the tool catalog, runtime remedies, docs, memory, sase-core strings, the plugin repos, and the chezmoi `acei`/`aceii` installers.
@@ -18,12 +32,12 @@
 | [sase-1ig.1](sase-1ig.1.md) | Rename the venv recipes to install-venv and park bare install | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.10](sase-1ig.10.md) | Retire the chezmoi installers into install-dev | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.11](sase-1ig.11.md) | Document the three commands and record the human-only rule | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
-| [sase-1ig.2](sase-1ig.2.md) | Installer engine foundation and dry-run planning | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1ig.2](sase-1ig.2.md) | Installer engine foundation and dry-run planning | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.3](sase-1ig.3.md) | Context-aware reinstall remedies in runtime code | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.4](sase-1ig.4.md) | Make the Rust dev-install recipes honest | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.6](sase-1ig.6.md) | sase-core pairing and pre-swap preparation | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.8](sase-1ig.8.md) | The live \`just install-dev\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.9](sase-1ig.9.md) | Point sase-core's remedies at the new names | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
@@ -35,12 +49,12 @@ flowchart TD
     n1["sase-1ig.1: Rename the venv recipes to install-venv and park bare install [closed]"]
     n2["sase-1ig.10: Retire the chezmoi installers into install-dev [in_progress]"]
     n3["sase-1ig.11: Document the three commands and record the human-only rule [in_progress]"]
-    n4["sase-1ig.2: Installer engine foundation and dry-run planning [in_progress]"]
+    n4["sase-1ig.2: Installer engine foundation and dry-run planning [closed]"]
     n5["sase-1ig.3: Context-aware reinstall remedies in runtime code [in_progress]"]
     n6["sase-1ig.4: Make the Rust dev-install recipes honest [in_progress]"]
     n7["sase-1ig.5: Execution pipeline and the live `just install` [in_progress]"]
     n8["sase-1ig.6: sase-core pairing and pre-swap preparation [in_progress]"]
-    n9["sase-1ig.7: Rename install to install-venv in the plugin repos [in_progress]"]
+    n9["sase-1ig.7: Rename install to install-venv in the plugin repos [closed]"]
     n10["sase-1ig.8: The live `just install-dev` [in_progress]"]
     n11["sase-1ig.9: Point sase-core's remedies at the new names [in_progress]"]
     n0 --> n1
@@ -76,12 +90,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.1/README.md) | [sase-1ig.1](sase-1ig.1.md) | 1 |
 | [bbugyi200.athena.sase-1ig.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md) | [sase-1ig.10](sase-1ig.10.md) | 0 |
 | [bbugyi200.athena.sase-1ig.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.11/README.md) | [sase-1ig.11](sase-1ig.11.md) | 0 |
-| [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.2/README.md) | [sase-1ig.2](sase-1ig.2.md) | 0 |
-| [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.3/README.md) | [sase-1ig.3](sase-1ig.3.md) | 0 |
-| [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.4/README.md) | [sase-1ig.4](sase-1ig.4.md) | 0 |
+| [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 0 |
+| [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.3.md) | [sase-1ig.3](sase-1ig.3.md) | 0 |
+| [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md) | [sase-1ig.4](sase-1ig.4.md) | 0 |
 | [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 0 |
 | [bbugyi200.athena.sase-1ig.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md) | [sase-1ig.6](sase-1ig.6.md) | 0 |
-| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 0 |
+| [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 1 |
 | [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.8/README.md) | [sase-1ig.8](sase-1ig.8.md) | 0 |
 | [bbugyi200.athena.sase-1ig.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.9/README.md) | [sase-1ig.9](sase-1ig.9.md) | 0 |
 | [bbugyi200.athena.sase-1ig.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.land/README.md) | [sase-1ig](README.md) | 0 |
@@ -91,3 +105,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6f240b3`](https://github.com/sase-org/sase/commit/6f240b3c96480ffa52b07630f24957d3b7c8347d) | feat(install): rename venv recipes to install-venv and park bare install | [sase-1ig.1](sase-1ig.1.md) | 2026-10-08 18:54:25 EDT |
+| sase-github | [`sase-github@69e1b0a`](https://github.com/sase-org/sase-github/commit/69e1b0a9e83f4a7d27fdcbe0ddac74a2e2570e32) | feat(install): rename venv recipe to install-venv with private install alias | [sase-1ig.7](sase-1ig.7.md) | 2026-10-08 19:38:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.1][1] | phase worker checking epic decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.1/README.md
+
+<!-- sase:referenced-by:end -->

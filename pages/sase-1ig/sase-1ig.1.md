@@ -22,7 +22,7 @@ venv-rename: consolidate the three copy-pasted venv recipes into `_install-venv 
 - **Blocks:** [sase-1ig.3](sase-1ig.3.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.4](sase-1ig.4.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.5](sase-1ig.5.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.7](sase-1ig.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.7](sase-1ig.7.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -35,3 +35,15 @@ venv-rename: consolidate the three copy-pasted venv recipes into `_install-venv 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6f240b3`](https://github.com/sase-org/sase/commit/6f240b3c96480ffa52b07630f24957d3b7c8347d) | feat(install): rename venv recipes to install-venv and park bare install | [sase-1ig.1](sase-1ig.1.md) | 2026-10-08 18:54:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.1/README.md
+
+<!-- sase:referenced-by:end -->
