@@ -59,7 +59,7 @@ flowchart TD
     n13["sase-1i5.9.1.2.1: Repair sase release gates and prove a fresh green tip [in_progress]"]
     n14["sase-1i5.9.1.2.1.1: Repair CLI contracts, completion drift, terminology, and bead test doubles [in_progress]"]
     n15["sase-1i5.9.1.2.1.2: Repair host provenance fixtures, foreign-commit recovery, and detached-run isolation [in_progress]"]
-    n16["sase-1i5.9.1.2.1.3: Restore associated-plan cache guarantees and current Verdict copy [in_progress]"]
+    n16["sase-1i5.9.1.2.1.3: Restore associated-plan cache guarantees and current Verdict copy [closed]"]
     n17["sase-1i5.9.1.2.1.4: Repair timezone-dependent and asynchronous TUI failures [in_progress]"]
     n18["sase-1i5.9.1.2.1.5: Resolve the live unused-public backlog and any newly exposed lint failures [in_progress]"]
     n19["sase-1i5.9.1.2.1.6: Repair visual state failures and inspect complete screenshot verification [in_progress]"]
@@ -130,9 +130,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1i5.9.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.1.md) | [sase-1i5.9.1.1](sase-1i5.9.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.md) | [sase-1i5.9.1.2](sase-1i5.9.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.1.md) | [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) | 0 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.2/README.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.3/README.md) | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 0 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.4/README.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.2.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md) | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.4.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.5/README.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.6/README.md) | [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.7/README.md) | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 0 |
@@ -156,6 +156,7 @@ flowchart TD
 | sase | [`7e75bbc`](https://github.com/sase-org/sase/commit/7e75bbcd8d182b048575b982bd3ccbfb3867dc63) | feat(macro): derive TUI macro-arg detection from sase-core structural spans | [sase-1i5.5](sase-1i5.5.md) | 2026-10-08 12:01:10 EDT |
 | sase | [`af117b5`](https://github.com/sase-org/sase/commit/af117b598e141370da52565a0af89bf6223af843) | feat(tui): enforce app import budget with closure tool and ratcheted cap | [sase-1i5.8](sase-1i5.8.md) | 2026-10-08 14:17:58 EDT |
 | sase-core | [`sase-core@e411a39`](https://github.com/sase-org/sase-core/commit/e411a392bb2ddec27534aea4da1ad69bf2bd86ea) | fix(tests): expect no issues.jsonl-missing warning for event-store bead reads | [sase-1i5.9.1.1](sase-1i5.9.1.1.md) | 2026-10-08 15:13:56 EDT |
+| sase | [`87a3b20`](https://github.com/sase-org/sase/commit/87a3b20977e7f5afdbb37d04c516a969a58a1f64) | feat(plan-tui): restore associated-plan signature cache and current Verdict copy | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 2026-10-08 16:14:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

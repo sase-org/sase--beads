@@ -20,4 +20,4 @@ host-contracts: make gate and launch provenance assertions exact, resolve foreig
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.2/README.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.2.md) | [sase-1i5.9.1.2.1.2](sase-1i5.9.1.2.1.2.md) | 0 |

@@ -32,3 +32,15 @@ core-release: make sase-core master CI green by applying the recorded event-stor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e411a39`](https://github.com/sase-org/sase-core/commit/e411a392bb2ddec27534aea4da1ad69bf2bd86ea) | fix(tests): expect no issues.jsonl-missing warning for event-store bead reads | [sase-1i5.9.1.1](sase-1i5.9.1.1.md) | 2026-10-08 15:13:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1i5.9.1.1--1][1] | closure drive: current state | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.1.md
+
+<!-- sase:referenced-by:end -->

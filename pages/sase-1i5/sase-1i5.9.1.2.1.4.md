@@ -20,4 +20,4 @@ tui-functional: make wait-lane clocks timezone-stable and fix reproducible promp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.4/README.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.4.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 0 |

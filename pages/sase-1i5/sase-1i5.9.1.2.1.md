@@ -7,6 +7,18 @@
 **Created:** 2026-10-08 14:54:12 EDT
 **Plan:** [202610/release\_master\_and\_full\_ci.md](https://github.com/sase-org/sase--plans/blob/main/202610/release_master_and_full_ci.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/release_master_and_full_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/release_master_and_full_ci.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Master Gate is green on the release tip and Full CI is green on the same SHA within six hours.
