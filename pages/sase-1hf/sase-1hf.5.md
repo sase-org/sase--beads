@@ -35,3 +35,15 @@ lane-split: new agent_waits (2 s) and sidecar_sync (30 s) routines, post-sync be
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3a4178b`](https://github.com/sase-org/sase/commit/3a4178b15ae6af2511631c8c74852c0b868156cf) | feat(axe): split wait\_checks and sidecar auto-sync into dedicated routines | [sase-1hf.5](sase-1hf.5.md) | 2026-10-07 19:41:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hf.5--1][1] | check existing notes and lane-split progress | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1hf.5.md
+
+<!-- sase:referenced-by:end -->
