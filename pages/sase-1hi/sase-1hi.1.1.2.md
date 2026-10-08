@@ -13,7 +13,7 @@ resolve: define host facts, effective defaults, the definitions digest, strict v
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.1.1.1](sase-1hi.1.1.1.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.1.1.1](sase-1hi.1.1.1.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [sase-1hi.1.1.3](sase-1hi.1.1.3.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
