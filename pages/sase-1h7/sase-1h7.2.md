@@ -22,7 +22,7 @@ links: publish portable `created_epic_ids` and project `bead:<epic> produced-by 
 ## Dependencies
 
 - **Depends on:** [sase-1h7.1](sase-1h7.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

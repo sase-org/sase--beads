@@ -23,21 +23,20 @@ surfaces: add a tri-state "Follow epics" toggle to the `w` wait modal, filter de
 
 ## Dependencies
 
-- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h7.6](sase-1h7.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 2 |
+| [bbugyi200.athena.sase-1h7.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.9/README.md) | [sase-1h7.9](sase-1h7.9.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5a3f8ae`](https://github.com/sase-org/sase/commit/5a3f8ae57447ed8ced231dc82e170e0834c9df3c) | feat(wait): tri-state Follow epics toggle with split for\_epic occurrences | [sase-1h7.9](sase-1h7.9.md) | 2026-10-07 19:38:28 EDT |
-| sase-telegram | [`sase-telegram@15ccce3`](https://github.com/sase-org/sase-telegram/commit/15ccce3857d6802b2fe9a57e4e4d4df846dd4bf1) | feat(telegram): render wait follow suffixes on agent tokens | [sase-1h7.9](sase-1h7.9.md) | 2026-10-07 20:08:33 EDT |
 
 <!-- sase:referenced-by:start -->
 

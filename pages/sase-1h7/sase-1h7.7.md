@@ -23,7 +23,7 @@ safety: send one deduplicated inbox notification for a LAUNCHING follow past its
 
 ## Dependencies
 
-- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h7.10](sase-1h7.10.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h7.5](sase-1h7.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
