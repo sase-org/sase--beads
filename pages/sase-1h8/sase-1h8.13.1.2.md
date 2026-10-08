@@ -13,7 +13,7 @@ dual-mode-tests: add fixture support so the existing mutation suites run against
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.13.1.1](sase-1h8.13.1.1.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.1](sase-1h8.13.1.1.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
