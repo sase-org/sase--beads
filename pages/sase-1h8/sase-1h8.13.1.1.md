@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:c6e84b9abb0aa9ec8460fdf0 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -33,7 +35,7 @@ publish-direct: capture the epic-start note/update baseline; fix the stale bead_
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13.1.2](sase-1h8.13.1.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.2](sase-1h8.13.1.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -46,3 +48,15 @@ publish-direct: capture the epic-start note/update baseline; fix the stale bead_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6460581`](https://github.com/sase-org/sase-core/commit/646058197f5ced5231ed478b8a716678007f0156) | feat(beads): direct write-through read-model publication without second sweep or snapshot | [sase-1h8.13.1.1](sase-1h8.13.1.1.md) | 2026-10-08 16:44:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md
+
+<!-- sase:referenced-by:end -->
