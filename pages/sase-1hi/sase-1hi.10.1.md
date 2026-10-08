@@ -19,7 +19,7 @@ gate: keep author order and the true decided_via in stamps, re-stamp from respon
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.10.2](sase-1hi.10.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.2](sase-1hi.10.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -32,3 +32,15 @@ gate: keep author order and the true decided_via in stamps, re-stamp from respon
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c929bb1`](https://github.com/sase-org/sase/commit/c929bb176b7ecbc1f8dc8a96aad5863a80d08a65) | feat(plan): repair gate decision acceptance, stamps, validation, and grants | [sase-1hi.10.1](sase-1hi.10.1.md) | 2026-10-08 06:21:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.1--1][1] | implement approved gate decision repairs plan | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.1.md
+
+<!-- sase:referenced-by:end -->

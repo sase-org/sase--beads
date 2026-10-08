@@ -13,7 +13,7 @@ cli: fix the card's clamped-as--D label, duplicate memory chips, and missing def
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.10.2](sase-1hi.10.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1hi.10.2](sase-1hi.10.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

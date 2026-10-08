@@ -13,7 +13,7 @@ tui: build the compact three-line docked Verdict, tint the chosen branch with a 
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.10.2](sase-1hi.10.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1hi.10.2](sase-1hi.10.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1hi.10.5](sase-1hi.10.5.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
