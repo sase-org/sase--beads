@@ -16,7 +16,7 @@ policy: teach planners when to embed a decision instead of asking now, rewrite t
 - **Depends on:** [sase-1hi.5](sase-1hi.5.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [sase-1hi.6](sase-1hi.6.md) ◐ · ⧖ 2026-10-07
 - **Depends on:** [sase-1hi.7](sase-1hi.7.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [sase-1hi.8](sase-1hi.8.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [sase-1hi.8](sase-1hi.8.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
