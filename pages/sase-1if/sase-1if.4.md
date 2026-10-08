@@ -13,7 +13,7 @@ completion: merge separately walked plugin parsers into a runtime completion spe
 
 ## Dependencies
 
-- **Depends on:** [sase-1if.1](sase-1if.1.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1if.1](sase-1if.1.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1if.5](sase-1if.5.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

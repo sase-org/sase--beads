@@ -13,7 +13,7 @@ lifecycle: fix the inventory groups, carry command names in the installed index,
 
 ## Dependencies
 
-- **Depends on:** [sase-1if.1](sase-1if.1.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1if.1](sase-1if.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.4](sase-1if.4.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1if.6](sase-1if.6.md) ◐ · ⧖ 2026-10-08
 

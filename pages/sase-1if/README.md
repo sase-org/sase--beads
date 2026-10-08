@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plugin_commands.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/plugin_commands.md
 
 <!-- sase:links:end -->
@@ -27,7 +29,7 @@ Plugins can mount top-level `sase <name>` commands through a metadata-declared `
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1if.1](sase-1if.1.md) | Plugin command contract, discovery, and dispatch | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1if.1](sase-1if.1.md) | Plugin command contract, discovery, and dispatch | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1if.10](sase-1if.10.md) | End-to-end acceptance, records, and docs | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.2](sase-1if.2.md) | sase-listen becomes a command plugin | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.3](sase-1if.3.md) | Plugin commands in root help and sase doctor | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
@@ -36,14 +38,14 @@ Plugins can mount top-level `sase <name>` commands through a metadata-declared `
 | [sase-1if.6](sase-1if.6.md) | Pre-install command preview | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1if.7](sase-1if.7.md) | Commands in the Updates tab and plugin detail | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1if.8](sase-1if.8.md) | Lazy sase-listen command imports | ✓ closed | small | 2026-10-08 | 1 | 0 |
-| [sase-1if.9](sase-1if.9.md) | Research macros prefer sase listen | ✓ closed | small | 2026-10-08 | 1 | 1 |
+| [sase-1if.9](sase-1if.9.md) | Research macros prefer sase listen | ✓ closed | small | 2026-10-08 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-1if: Plugin commands — sase listen as the first first-class command plugin [in_progress]"]
-    n1["sase-1if.1: Plugin command contract, discovery, and dispatch [in_progress]"]
+    n1["sase-1if.1: Plugin command contract, discovery, and dispatch [closed]"]
     n2["sase-1if.10: End-to-end acceptance, records, and docs [in_progress]"]
     n3["sase-1if.2: sase-listen becomes a command plugin [closed]"]
     n4["sase-1if.3: Plugin commands in root help and sase doctor [in_progress]"]
@@ -81,7 +83,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1if.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md) | [sase-1if.1](sase-1if.1.md) | 0 |
+| [bbugyi200.apollo.sase-1if.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md) | [sase-1if.1](sase-1if.1.md) | 1 |
 | [bbugyi200.apollo.sase-1if.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.10/README.md) | [sase-1if.10](sase-1if.10.md) | 0 |
 | [bbugyi200.apollo.sase-1if.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.2/README.md) | [sase-1if.2](sase-1if.2.md) | 0 |
 | [bbugyi200.apollo.sase-1if.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.3/README.md) | [sase-1if.3](sase-1if.3.md) | 0 |
@@ -90,11 +92,23 @@ flowchart TD
 | [bbugyi200.apollo.sase-1if.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.6/README.md) | [sase-1if.6](sase-1if.6.md) | 0 |
 | [bbugyi200.apollo.sase-1if.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.7/README.md) | [sase-1if.7](sase-1if.7.md) | 0 |
 | [bbugyi200.apollo.sase-1if.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.8/README.md) | [sase-1if.8](sase-1if.8.md) | 0 |
-| [bbugyi200.apollo.sase-1if.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md) | [sase-1if.9](sase-1if.9.md) | 1 |
+| [bbugyi200.apollo.sase-1if.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md) | [sase-1if.9](sase-1if.9.md) | 0 |
 | [bbugyi200.apollo.sase-1if.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.land/README.md) | [sase-1if](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-research-artifacts | [`sase-research-artifacts@91e353c`](https://github.com/sase-org/sase-research-artifacts/commit/91e353c8d898b235f665382e5262f5d6cdba50df) | feat(research-artifacts): prefer sase listen CLI in audio and swarm prompts | [sase-1if.9](sase-1if.9.md) | 2026-10-08 16:32:18 EDT |
+| sase | [`b9693bc`](https://github.com/sase-org/sase/commit/b9693bc695751cbc6ea6d0228d21e792cea7733e) | feat(plugin-commands): add sase\_commands contract, discovery, and dispatch | [sase-1if.1](sase-1if.1.md) | 2026-10-08 16:43:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1if.9][1] | need epic scope decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.9/README.md
+
+<!-- sase:referenced-by:end -->
