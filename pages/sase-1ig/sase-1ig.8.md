@@ -23,7 +23,7 @@ engine-dev: wire dev mode through the pipeline (dev swap argv and overrides, cor
 
 ## Dependencies
 
-- **Blocks:** [sase-1ig.10](sase-1ig.10.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.10](sase-1ig.10.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.11](sase-1ig.11.md) ◐ · ⧖ 2026-10-08
 - **Depends on:** [sase-1ig.4](sase-1ig.4.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1ig.5](sase-1ig.5.md) ✓ · ⧖ 2026-10-08
@@ -49,7 +49,9 @@ engine-dev: wire dev mode through the pipeline (dev swap argv and overrides, cor
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ig.4--1][1] | check if mode_switch belongs to sibling bead | 1 |
+| read-by | [agent:sase-1ig.8--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.8.md
 
 <!-- sase:referenced-by:end -->
