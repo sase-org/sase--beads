@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/tools_bg_split_tool_run_visibility.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/tools_bg_split_tool_run_visibility.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,8 @@ The top bar tells the truth: a `tools:` group shows every live `sase tool` run o
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ih.1](sase-1ih.1.md) | Tool-run proc facts (session stamping and join tags) | ✓ closed | small | 2026-10-08 | 1 | 1 |
-| [sase-1ih.2](sase-1ih.2.md) | Join fact on the ToolRun live glance (sase-core plus mirror) | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1ih.1](sase-1ih.1.md) | Tool-run proc facts (session stamping and join tags) | ✓ closed | small | 2026-10-08 | 1 | 0 |
+| [sase-1ih.2](sase-1ih.2.md) | Join fact on the ToolRun live glance (sase-core plus mirror) | ◐ in_progress | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ih.3](sase-1ih.3.md) | Top-bar tools and bg split with tab-independent glance refresh | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ih.4](sase-1ih.4.md) | Agents-tab attribution index and container rollups | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ih.5](sase-1ih.5.md) | Tribe titles, rail titles, clan and tribe headers, docs and help | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -58,8 +60,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ih.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md) | [sase-1ih.1](sase-1ih.1.md) | 1 |
-| [bbugyi200.athena.sase-1ih.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ih.2.md) | [sase-1ih.2](sase-1ih.2.md) | 0 |
+| [bbugyi200.athena.sase-1ih.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md) | [sase-1ih.1](sase-1ih.1.md) | 0 |
+| [bbugyi200.athena.sase-1ih.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ih.2.md) | [sase-1ih.2](sase-1ih.2.md) | 1 |
 | [bbugyi200.athena.sase-1ih.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.3/README.md) | [sase-1ih.3](sase-1ih.3.md) | 0 |
 | [bbugyi200.athena.sase-1ih.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.4/README.md) | [sase-1ih.4](sase-1ih.4.md) | 0 |
 | [bbugyi200.athena.sase-1ih.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.5/README.md) | [sase-1ih.5](sase-1ih.5.md) | 0 |
@@ -69,4 +71,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`285da82`](https://github.com/sase-org/sase/commit/285da8234afd53ec70f46e55c9c18cbb252e486c) | feat(tool-proc): stamp sessions, tag monitor joins, follow runs in procs pane | [sase-1ih.1](sase-1ih.1.md) | 2026-10-08 19:39:18 EDT |
+| sase-core | [`sase-core@8011705`](https://github.com/sase-org/sase-core/commit/8011705afbe70b621d1e9e782669504408b707d0) | feat(tool-run): add join\_kind/join\_id to live-glance wire with binding tests (sase-1ih.2) | [sase-1ih.2](sase-1ih.2.md) | 2026-10-08 20:15:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ih.1][1] | Need parent epic DECISIONS and phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md
+
+<!-- sase:referenced-by:end -->

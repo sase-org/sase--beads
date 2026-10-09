@@ -25,10 +25,16 @@ tool-proc-facts: stamp a tool-run proc's session only when a live TUI submitted 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ih.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md) | [sase-1ih.1](sase-1ih.1.md) | 1 |
+| [bbugyi200.athena.sase-1ih.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md) | [sase-1ih.1](sase-1ih.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`285da82`](https://github.com/sase-org/sase/commit/285da8234afd53ec70f46e55c9c18cbb252e486c) | feat(tool-proc): stamp sessions, tag monitor joins, follow runs in procs pane | [sase-1ih.1](sase-1ih.1.md) | 2026-10-08 19:39:18 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ih.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ih.1/README.md
+
+<!-- sase:referenced-by:end -->
