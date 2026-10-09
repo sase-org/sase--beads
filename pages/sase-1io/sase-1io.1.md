@@ -19,7 +19,7 @@ core-ci: fix the macOS replay-golden test failure (and any other red job) on sas
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.2](sase-1io.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.2](sase-1io.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -32,3 +32,15 @@ core-ci: fix the macOS replay-golden test failure (and any other red job) on sas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ce85b67`](https://github.com/sase-org/sase-core/commit/ce85b670e96c7b6dfd92dd1e897cf45c254a36ec) | fix(bead-tests): pin lock\_wait\_ms to zero in replay goldens | [sase-1io.1](sase-1io.1.md) | 2026-10-09 04:19:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.1/README.md
+
+<!-- sase:referenced-by:end -->

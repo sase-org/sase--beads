@@ -13,9 +13,9 @@ release-gates: regenerate the release PR onto the new core floor, then drive Mas
 
 ## Dependencies
 
-- **Depends on:** [sase-1io.2](sase-1io.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1io.2](sase-1io.2.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1io.3](sase-1io.3.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [sase-1io.4](sase-1io.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1io.4](sase-1io.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1io.6](sase-1io.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
