@@ -21,7 +21,7 @@ tui-functional: make wait-lane clocks timezone-stable and fix reproducible promp
 
 ## Dependencies
 
-- **Blocks:** [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

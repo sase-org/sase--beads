@@ -61,8 +61,8 @@ flowchart TD
     n15["sase-1i5.9.1.2.1.2: Repair host provenance fixtures, foreign-commit recovery, and detached-run isolation [closed]"]
     n16["sase-1i5.9.1.2.1.3: Restore associated-plan cache guarantees and current Verdict copy [closed]"]
     n17["sase-1i5.9.1.2.1.4: Repair timezone-dependent and asynchronous TUI failures [closed]"]
-    n18["sase-1i5.9.1.2.1.5: Resolve the live unused-public backlog and any newly exposed lint failures [in_progress]"]
-    n19["sase-1i5.9.1.2.1.6: Repair visual state failures and inspect complete screenshot verification [in_progress]"]
+    n18["sase-1i5.9.1.2.1.5: Resolve the live unused-public backlog and any newly exposed lint failures [closed]"]
+    n19["sase-1i5.9.1.2.1.6: Repair visual state failures and inspect complete screenshot verification [closed]"]
     n20["sase-1i5.9.1.2.1.7: Prove Master Gate and a fresh Full CI on the release tip [in_progress]"]
     n21["sase-1i5.9.1.3: Ratchet the release branch and let ci_watch publish sase [in_progress]"]
     n22["sase-1i5.9.1.4: Raise plugin floors, prove fresh installs, and close sase-10d [in_progress]"]
@@ -134,8 +134,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1i5.9.1.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.3.md) | [sase-1i5.9.1.2.1.3](sase-1i5.9.1.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.4.md) | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.5.md) | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.6/README.md) | [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) | 0 |
-| [bbugyi200.athena.sase-1i5.9.1.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.7/README.md) | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.6.md) | [sase-1i5.9.1.2.1.6](sase-1i5.9.1.2.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1i5.9.1.2.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1i5.9.1.2.1.7.md) | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1i5.9.1.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.2.1.land/README.md) | [sase-1i5.9.1.2.1](sase-1i5.9.1.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.3/README.md) | [sase-1i5.9.1.3](sase-1i5.9.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1i5.9.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.9.1.4/README.md) | [sase-1i5.9.1.4](sase-1i5.9.1.4.md) | 0 |
@@ -161,6 +161,7 @@ flowchart TD
 | sase | [`a7b908b`](https://github.com/sase-org/sase/commit/a7b908b4a8141c60a4d7bbd1a8aec13b2028b50b) | test(cli-beads): repair CLI contracts, completion drift, terminology, and bead test doubles | [sase-1i5.9.1.2.1.1](sase-1i5.9.1.2.1.1.md) | 2026-10-08 16:21:53 EDT |
 | sase | [`34829c0`](https://github.com/sase-org/sase/commit/34829c03609a0c577cb4bd4ada0b362f65f89f75) | test(ace-tui): fix timezone handling in agent wait epic follow test | [sase-1i5.9.1.2.1.4](sase-1i5.9.1.2.1.4.md) | 2026-10-08 16:40:17 EDT |
 | sase | [`1fedb63`](https://github.com/sase-org/sase/commit/1fedb63427b8fc64b872ceed0ad5254d64b2d213) | feat(symvision): privatize in-file-only symbols and remove dead definitions | [sase-1i5.9.1.2.1.5](sase-1i5.9.1.2.1.5.md) | 2026-10-08 19:23:53 EDT |
+| sase | [`ab55fcb`](https://github.com/sase-org/sase/commit/ab55fcb5f3a6baaa98a356a4b61ff8f76dbadcb9) | test(ci-proof): repair completion, terminology, and tab-walk assertions for release tip | [sase-1i5.9.1.2.1.7](sase-1i5.9.1.2.1.7.md) | 2026-10-08 22:46:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
