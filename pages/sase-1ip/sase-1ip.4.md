@@ -23,7 +23,7 @@ record: resolve and persist agent_meta.autonomy at every launch behind the auton
 
 - **Depends on:** [sase-1ip.1](sase-1ip.1.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1ip.2](sase-1ip.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1ip.5](sase-1ip.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1ip.5](sase-1ip.5.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1ip.6](sase-1ip.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
@@ -37,3 +37,15 @@ record: resolve and persist agent_meta.autonomy at every launch behind the auton
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`73f593a`](https://github.com/sase-org/sase/commit/73f593a3a5dd4732af63023aee47d3465807dada) | feat(autonomy): persist autonomy record and read it everywhere | [sase-1ip.4](sase-1ip.4.md) | 2026-10-09 10:25:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ip.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md
+
+<!-- sase:referenced-by:end -->

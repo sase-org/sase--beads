@@ -13,7 +13,7 @@ cli: sase autonomy explain, list, log, and show; autonomy in agent list, agent s
 
 ## Dependencies
 
-- **Depends on:** [sase-1ip.5](sase-1ip.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1ip.5](sase-1ip.5.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1ip.6](sase-1ip.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
