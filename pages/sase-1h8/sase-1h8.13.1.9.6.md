@@ -13,7 +13,7 @@ unify-links-evidence: run link add/projections/remove, +1, snooze and cancel thr
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

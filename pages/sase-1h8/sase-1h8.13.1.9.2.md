@@ -19,7 +19,7 @@ replay-goldens: generate committed byte-level goldens from the current replay co
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

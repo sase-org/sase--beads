@@ -17,7 +17,7 @@ suite-modes: make every test in the nine existing mutation suites run against bo
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

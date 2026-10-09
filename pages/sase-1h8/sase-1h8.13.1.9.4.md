@@ -13,7 +13,7 @@ unify-lifecycle: run open, close, close-with-note and remove through the view-co
 
 ## Dependencies
 
-- **Depends on:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
