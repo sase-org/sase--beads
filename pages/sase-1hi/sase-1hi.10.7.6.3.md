@@ -28,3 +28,15 @@ gate_tests: add the missing stale_review, authored-order stamping, agent memory 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`96dd8ed`](https://github.com/sase-org/sase/commit/96dd8ed27023e63f107d145b8391fd4cfa86dda2) | test(gate): add owed gate route tests and single restamp record | [sase-1hi.10.7.6.3](sase-1hi.10.7.6.3.md) | 2026-10-08 20:22:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.6.3--1][1] | inspect notes and history for remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.3.md
+
+<!-- sase:referenced-by:end -->

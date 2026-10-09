@@ -13,7 +13,7 @@ goldens: run targeted just fix-tui-screenshots for the plan gate, custom gate, s
 
 ## Dependencies
 
-- **Depends on:** [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

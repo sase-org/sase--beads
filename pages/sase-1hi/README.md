@@ -100,10 +100,10 @@ flowchart TD
     n18["sase-1hi.10.7.4: Regenerate and inspect the Plan Decisions and plan_gate goldens after the Verdict and tint fixes [closed]"]
     n19["sase-1hi.10.7.5: Telegram receipts without doubled words, stale recovery that keeps the card and draft, budget order per the parent plan, and flow-level tests [closed]"]
     n20["sase-1hi.10.7.6: Plan Decisions finish gaps: visible chosen-branch tint, a stale reopen that can submit, generic rails back to 42, the owed gate tests, and a real Telegram launch-failure signal [in_progress]"]
-    n21["sase-1hi.10.7.6.1: Rendered chosen-branch tint, stale reopen through the real open path, and generic rails back to 42 [in_progress]"]
+    n21["sase-1hi.10.7.6.1: Rendered chosen-branch tint, stale reopen through the real open path, and generic rails back to 42 [closed]"]
     n22["sase-1hi.10.7.6.2: Refresh and inspect the plan and generic gate goldens after the ace fixes [in_progress]"]
     n23["sase-1hi.10.7.6.3: The gate route tests the first two passes skipped, plus one restamp record [closed]"]
-    n24["sase-1hi.10.7.6.4: Real coder launch-failure signal, per-decision blockquotes, and the missing keyboard, settle, PDF, and retry tests [in_progress]"]
+    n24["sase-1hi.10.7.6.4: Real coder launch-failure signal, per-decision blockquotes, and the missing keyboard, settle, PDF, and retry tests [closed]"]
     n25["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
     n26["sase-1hi.3: Compile, resolve, freeze, and stamp decisions in the plan gate [closed]"]
     n27["sase-1hi.4: Deliver accepted decisions to coders, phases, notifications, and receipts [closed]"]
@@ -195,7 +195,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.10.7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.3.md) | [sase-1hi.10.7.3](sase-1hi.10.7.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.5.md) | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 0 |
-| [bbugyi200.apollo.sase-1hi.10.7.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.6.1/README.md) | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.7.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.1.md) | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.6.2/README.md) | [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.3.md) | [sase-1hi.10.7.6.3](sase-1hi.10.7.6.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.4.md) | [sase-1hi.10.7.6.4](sase-1hi.10.7.6.4.md) | 0 |
@@ -239,6 +239,7 @@ flowchart TD
 | sase | [`3412a9f`](https://github.com/sase-org/sase/commit/3412a9f1bdc51737beb8ed38449530e1ea0b4c60) | feat(completion): pass CLI proposal as -S with kind-plus-selector caches and exact-wins scoping | [sase-1hi.10.7.2](sase-1hi.10.7.2.md) | 2026-10-08 16:44:34 EDT |
 | sase | [`4bc1db2`](https://github.com/sase-org/sase/commit/4bc1db294c01c2dc46b44bd7d69106f880314383) | feat(ace-tui): regenerate plan Decisions goldens after Verdict and tint fixes | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 2026-10-08 17:48:47 EDT |
 | sase | [`96dd8ed`](https://github.com/sase-org/sase/commit/96dd8ed27023e63f107d145b8391fd4cfa86dda2) | test(gate): add owed gate route tests and single restamp record | [sase-1hi.10.7.6.3](sase-1hi.10.7.6.3.md) | 2026-10-08 20:22:24 EDT |
+| sase | [`1820636`](https://github.com/sase-org/sase/commit/1820636212abb2a056f7892ead0c42ea7cb5e09e) | feat(ace): rendered chosen-branch tint, stale reopen via real open path, 42-cell generic rails | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 2026-10-09 00:42:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
