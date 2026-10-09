@@ -23,13 +23,7 @@ telegram: send inputs only for selected options, fix the refresh loop and stale-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.6.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@4073408`](https://github.com/sase-org/sase-telegram/commit/4073408999e97eb268d859027520b43718424326) | feat(telegram): submit selected options, recover stale reviews, truthful receipts | [sase-1hi.10.6](sase-1hi.10.6.md) | 2026-10-08 12:12:35 EDT |
+| [bbugyi200.apollo.sase-1hi.10.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.6.md) | [sase-1hi.10.6](sase-1hi.10.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

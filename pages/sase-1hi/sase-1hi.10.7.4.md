@@ -30,7 +30,13 @@ goldens: run the full just fix-tui-screenshots under /sase_monitor after tui and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4bc1db2`](https://github.com/sase-org/sase/commit/4bc1db294c01c2dc46b44bd7d69106f880314383) | feat(ace-tui): regenerate plan Decisions goldens after Verdict and tint fixes | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 2026-10-08 17:48:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

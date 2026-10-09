@@ -23,10 +23,4 @@ telegram: fix the doubled "via" and "auto auto" receipt headers, recover stale_r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1hi.10.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.5.md) | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@db624d3`](https://github.com/sase-org/sase-telegram/commit/db624d37fed28467300812b52e4ea4e2b1c85383) | feat(telegram): decision recovery with receipt provenance, stale grace, settlement and sheet budget | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 2026-10-08 18:49:54 EDT |
+| [bbugyi200.apollo.sase-1hi.10.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.5.md) | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 0 |
