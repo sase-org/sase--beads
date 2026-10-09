@@ -79,12 +79,12 @@ flowchart TD
     n14["sase-1h8.13.1.8: Steer re-planned unfinished phases toward a child epic [closed]"]
     n15["sase-1h8.13.1.9: One mutation algorithm per entry point, with every suite in both modes [in_progress]"]
     n16["sase-1h8.13.1.9.1: Run the nine existing mutation suites in cached and replay modes [closed]"]
-    n17["sase-1h8.13.1.9.2: Byte goldens for replay-backed mutations before any replay code is deleted [in_progress]"]
+    n17["sase-1h8.13.1.9.2: Byte goldens for replay-backed mutations before any replay code is deleted [closed]"]
     n18["sase-1h8.13.1.9.3: View-owned staging and one commit on both backings; create and notes unified [in_progress]"]
     n19["sase-1h8.13.1.9.4: Open, close and remove as single view algorithms [in_progress]"]
     n20["sase-1h8.13.1.9.5: Claims, ready marking and dependencies as single view algorithms [in_progress]"]
     n21["sase-1h8.13.1.9.6: Links, +1 and snooze as single view algorithms [in_progress]"]
-    n22["sase-1h8.13.1.9.7: Shrink the over-cap read-model files and fix the stale phase-approval docs [in_progress]"]
+    n22["sase-1h8.13.1.9.7: Shrink the over-cap read-model files and fix the stale phase-approval docs [closed]"]
     n23["sase-1h8.13.1.9.8: Cleanup, single-algorithm audit, cached-equals-golden bytes, and acceptance evidence [in_progress]"]
     n24["sase-1h8.14: History-independence acceptance gate [in_progress]"]
     n25["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
@@ -182,12 +182,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md) | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.8.md) | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.1/README.md) | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md) | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md) | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md) | [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md) | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md) | [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.6/README.md) | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 0 |
-| [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.8/README.md) | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.land/README.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.land.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
@@ -239,6 +239,8 @@ flowchart TD
 | sase-core | [`sase-core@dd1a67c`](https://github.com/sase-org/sase-core/commit/dd1a67c0727ecb98920955c454785fb0dc98a50c) | feat(beads): port links, +1 and snooze mutations onto the mutation view | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 2026-10-08 19:12:02 EDT |
 | sase-core | [`sase-core@3e45924`](https://github.com/sase-org/sase-core/commit/3e45924865a58d23cbe704e0a1b6e6130c086039) | test(sase-core): prove bounded mutation work and every-family read-model parity | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 2026-10-08 20:48:29 EDT |
 | sase-core | [`sase-core@ddafffd`](https://github.com/sase-org/sase-core/commit/ddafffd2be4ddb223d6eb767753283531795f939) | test(beads): run nine mutation suites in cached and replay modes | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 2026-10-08 22:41:11 EDT |
+| sase-core | [`sase-core@ee4cf2f`](https://github.com/sase-org/sase-core/commit/ee4cf2ff37c5cbe1b7e8155d88861ef6eec98495) | test(sase-core): add mutation replay golden coverage for all entry points | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 2026-10-08 22:42:31 EDT |
+| sase-core | [`sase-core@5c4033f`](https://github.com/sase-org/sase-core/commit/5c4033f6d2284eaf717795c5cfc892e12827d510) | refactor(bead-read-model): split over-cap store and tail into resume, refresh, and meta-keys modules | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2026-10-08 23:30:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
