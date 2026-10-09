@@ -13,7 +13,7 @@ ship: merge the 0.18.0 release PR once its gates hold, run the publish workflow,
 
 ## Dependencies
 
-- **Depends on:** [sase-1io.5](sase-1io.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1io.5](sase-1io.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

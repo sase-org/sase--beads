@@ -24,7 +24,7 @@ core-release: confirm sase-core CI is green, dispatch the urgent release-plz cut
 ## Dependencies
 
 - **Depends on:** [sase-1io.1](sase-1io.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1io.5](sase-1io.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.5](sase-1io.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

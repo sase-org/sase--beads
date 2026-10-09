@@ -21,7 +21,7 @@ full-ci-fixes: fix the two coverage-leg-only test failures and the two drifted v
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.5](sase-1io.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.5](sase-1io.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

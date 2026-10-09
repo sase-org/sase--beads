@@ -19,7 +19,7 @@ gate-fixes: fix the lint and eight fast-suite failures that turn every Master Ga
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.5](sase-1io.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.5](sase-1io.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -32,3 +32,15 @@ gate-fixes: fix the lint and eight fast-suite failures that turn every Master Ga
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e2efd56`](https://github.com/sase-org/sase/commit/e2efd5624252ded543fc6af03c0fb0c9fe760090) | fix(sase-1io.3): clear every Master Gate failure | [sase-1io.3](sase-1io.3.md) | 2026-10-09 05:02:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.3/README.md
+
+<!-- sase:referenced-by:end -->
