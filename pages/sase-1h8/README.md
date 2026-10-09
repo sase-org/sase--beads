@@ -52,7 +52,7 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 | [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ✓ closed | large | 2026-10-06 | 1 | 3 |
-| [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [sase-1h8.2](sase-1h8.2.md) | Constant-cost artifact-link outbox append | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.3](sase-1h8.3.md) | Hidden-clone gc and bead push-log retention | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.4](sase-1h8.4.md) | One parse, one validation, no lockless-read deletes | ✓ closed | medium | 2026-10-06 | 1 | 1 |
@@ -90,7 +90,7 @@ flowchart TD
     n21["sase-1h8.13.1.9.6: Links, +1 and snooze as single view algorithms [closed]"]
     n22["sase-1h8.13.1.9.7: Shrink the over-cap read-model files and fix the stale phase-approval docs [closed]"]
     n23["sase-1h8.13.1.9.8: Cleanup, single-algorithm audit, cached-equals-golden bytes, and acceptance evidence [closed]"]
-    n24["sase-1h8.14: History-independence acceptance gate [in_progress]"]
+    n24["sase-1h8.14: History-independence acceptance gate [closed]"]
     n25["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
     n26["sase-1h8.3: Hidden-clone gc and bead push-log retention [closed]"]
     n27["sase-1h8.4: One parse, one validation, no lockless-read deletes [closed]"]
@@ -195,7 +195,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.9.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.8.md) | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.land.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.land.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
-| [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
+| [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 1 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
 | [bbugyi200.athena.sase-1h8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.4/README.md) | [sase-1h8.4](sase-1h8.4.md) | 1 |
@@ -252,6 +252,7 @@ flowchart TD
 | sase-core | [`sase-core@e92f7f8`](https://github.com/sase-org/sase-core/commit/e92f7f83ebd72baee07dd622ef82e2adb41e8b6f) | feat(beads): unify open, close and remove mutations on one view commit | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 2026-10-09 01:18:50 EDT |
 | sase-core | [`sase-core@2d00938`](https://github.com/sase-org/sase-core/commit/2d009388b7a371ec98ffc75b1dfedb69fcb86e7e) | refactor(bead): split mutation into single-algorithm modules with replay goldens | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 2026-10-09 02:59:18 EDT |
 | sase-core | [`sase-core@d2a954b`](https://github.com/sase-org/sase-core/commit/d2a954b056ef7ed30dee9b932f8fa0e702714446) | fix(bead): normalize lock\_wait\_ms in replay goldens and split golden case table | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 2026-10-09 04:55:48 EDT |
+| sase | [`10385fe`](https://github.com/sase-org/sase/commit/10385fe3c3c7ebbc5d63d64ff8a3f3a2daf8c128) | perf(beads): add bead-scale gate enforcement with list\_active\_page op and CI wiring | [sase-1h8.14](sase-1h8.14.md) | 2026-10-09 05:31:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

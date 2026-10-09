@@ -25,7 +25,7 @@ outbox: stop re-reading and re-canonicalizing every outbox entry on each append 
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

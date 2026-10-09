@@ -58,7 +58,7 @@ REMAINING (do not close this bead):
 
 - **Depends on:** [sase-1h8.11](sase-1h8.11.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.12](sase-1h8.12.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

@@ -23,7 +23,7 @@ maintenance: make the sidecar gc pass reach the host-owned hidden beads clone, f
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.14](sase-1h8.14.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
