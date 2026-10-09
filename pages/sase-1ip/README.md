@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/auto_e1_autonomy_record.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/auto_e1_autonomy_record.md
 
@@ -147,7 +147,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ip.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md) | [sase-1ip.5](sase-1ip.5.md) | 1 |
 | [bbugyi200.athena.sase-1ip.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.6.md) | [sase-1ip.6](sase-1ip.6.md) | 1 |
 | [bbugyi200.athena.sase-1ip.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.7.md) | [sase-1ip.7](sase-1ip.7.md) | 1 |
-| [bbugyi200.athena.sase-1ip.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md) | [sase-1ip](README.md) | 1 |
+| [bbugyi200.athena.sase-1ip.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md) | [sase-1ip](README.md) | 2 |
 
 ## Commits
 
@@ -162,6 +162,7 @@ flowchart TD
 | sase | [`6f6754f`](https://github.com/sase-org/sase/commit/6f6754f97db91a80c105b52d7719f31c29814173) | feat(gates): resolve plan, epic, and question gates through core evaluate() | [sase-1ip.6](sase-1ip.6.md) | 2026-10-09 13:02:53 EDT |
 | sase | [`70c51ad`](https://github.com/sase-org/sase/commit/70c51adbdd6dfe3ef66cea4ec9dc74ccd6fc1608) | feat(sase-1ip.7): sase autonomy CLI, inspect surfaces, and acceptance | [sase-1ip.7](sase-1ip.7.md) | 2026-10-09 15:19:19 EDT |
 | sase-core | [`sase-core@4ffe48c`](https://github.com/sase-org/sase-core/commit/4ffe48ced77d21c024ee0df8d4796df1269e59b6) | fix(autonomy): human mutations stamp mutating-surface provenance | [sase-1ip](README.md) | 2026-10-09 18:54:54 EDT |
+| sase | [`166e34e`](https://github.com/sase-org/sase/commit/166e34eae9850e70d1832fc6d607bb151e42f056) | feat(auto): land %auto E1 one autonomy record | [sase-1ip](README.md) | 2026-10-09 19:49:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -172,9 +173,11 @@ flowchart TD
 | read-by | [agent:sase-1ip.2][1] | epic scope decisions | 1 |
 | read-by | [agent:sase-1ip.3][2] | epic scope and decisions | 1 |
 | read-by | [agent:sase-1ip.4][3] | epic decisions and scope | 1 |
+| read-by | [agent:sase-1ip.land--3][4] | finish_auto_e1_landing closeout: confirm exit criteria and children before sase-core re-verify | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md
 
 <!-- sase:referenced-by:end -->

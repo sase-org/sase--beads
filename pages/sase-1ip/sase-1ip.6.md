@@ -44,7 +44,9 @@ gates: adapters declare capability sets, plan, epic, and question gates resolve 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ip.6--1][1] | Need phase scope | 1 |
+| read-by | [agent:sase-1ip.land--3][2] | finish_auto_e1_landing closeout: verify all phase children closed and exit criteria met | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md
 
 <!-- sase:referenced-by:end -->

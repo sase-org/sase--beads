@@ -42,7 +42,9 @@ core_policy: sase-core autonomy module with the v1 record, policy, request, and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ip.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1ip.land--3][2] | finish_auto_e1_landing closeout: verify all phase children closed and exit criteria met | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md
 
 <!-- sase:referenced-by:end -->
