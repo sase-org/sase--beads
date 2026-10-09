@@ -31,3 +31,15 @@ core-release: confirm sase-core CI is green, dispatch the urgent release-plz cut
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1io.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.2.md) | [sase-1io.2](sase-1io.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.5][1] | check core-release close state for release-gates precondition | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.5/README.md
+
+<!-- sase:referenced-by:end -->

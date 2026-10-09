@@ -24,7 +24,7 @@ release-gates: regenerate the release PR onto the new core floor, then drive Mas
 - **Depends on:** [sase-1io.2](sase-1io.2.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1io.3](sase-1io.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1io.4](sase-1io.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1io.6](sase-1io.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.6](sase-1io.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -37,3 +37,15 @@ release-gates: regenerate the release PR onto the new core floor, then drive Mas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6c78359`](https://github.com/sase-org/sase/commit/6c783599c1b51cac61f72930935b54dc409c2ada) | fix(tests): repair Master Gate failures for bead sase-1io.5 | [sase-1io.5](sase-1io.5.md) | 2026-10-09 05:59:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.5/README.md
+
+<!-- sase:referenced-by:end -->

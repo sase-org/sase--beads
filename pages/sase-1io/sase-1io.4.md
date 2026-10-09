@@ -42,7 +42,9 @@ full-ci-fixes: fix the two coverage-leg-only test failures and the two drifted v
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1io.4--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1io.5][2] | release-gates needs full-ci close state | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.5/README.md
 
 <!-- sase:referenced-by:end -->
