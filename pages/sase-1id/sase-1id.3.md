@@ -23,7 +23,7 @@ tier_mismatch: treat :tale/:plan on an epic plan and :epic on a tale plan as "no
 
 - **Depends on:** [sase-1id.2](sase-1id.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1id.4](sase-1id.4.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1id.6](sase-1id.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

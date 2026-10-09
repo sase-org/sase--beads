@@ -23,8 +23,8 @@ grammar: add one sase-core classifier for %auto spellings and use it in the Rust
 
 ## Dependencies
 
-- **Blocks:** [sase-1id.5](sase-1id.5.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1id.6](sase-1id.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1id.5](sase-1id.5.md) ✓ · ⧖ 2026-10-08
+- **Blocks:** [sase-1id.6](sase-1id.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

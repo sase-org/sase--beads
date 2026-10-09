@@ -33,8 +33,8 @@ No %auto spelling silently grants more than it says, pressing A to turn auto off
 | [sase-1id.2](sase-1id.2.md) | Live agent meta is the only %auto source | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1id.3](sase-1id.3.md) | A plan-tier mismatch asks instead of erroring | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1id.4](sase-1id.4.md) | Epic phase and land workers run under %auto:tale | ✓ closed | medium | 2026-10-08 | 1 | 1 |
-| [sase-1id.5](sase-1id.5.md) | Prompt bar shows %auto grammar errors | ◐ in_progress | small | 2026-10-08 | 1 | 1 |
-| [sase-1id.6](sase-1id.6.md) | Docs, memory, and /sase\_questions describe shipped behavior | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1id.5](sase-1id.5.md) | Prompt bar shows %auto grammar errors | ✓ closed | small | 2026-10-08 | 1 | 1 |
+| [sase-1id.6](sase-1id.6.md) | Docs, memory, and /sase\_questions describe shipped behavior | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 
 ## Lineage
 
@@ -45,8 +45,8 @@ flowchart TD
     n2["sase-1id.2: Live agent meta is the only %auto source [closed]"]
     n3["sase-1id.3: A plan-tier mismatch asks instead of erroring [closed]"]
     n4["sase-1id.4: Epic phase and land workers run under %auto:tale [closed]"]
-    n5["sase-1id.5: Prompt bar shows %auto grammar errors [in_progress]"]
-    n6["sase-1id.6: Docs, memory, and /sase_questions describe shipped behavior [in_progress]"]
+    n5["sase-1id.5: Prompt bar shows %auto grammar errors [closed]"]
+    n6["sase-1id.6: Docs, memory, and /sase_questions describe shipped behavior [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1id.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.3/README.md) | [sase-1id.3](sase-1id.3.md) | 1 |
 | [bbugyi200.athena.sase-1id.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.4/README.md) | [sase-1id.4](sase-1id.4.md) | 1 |
 | [bbugyi200.athena.sase-1id.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.5.md) | [sase-1id.5](sase-1id.5.md) | 1 |
-| [bbugyi200.athena.sase-1id.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.6/README.md) | [sase-1id.6](sase-1id.6.md) | 0 |
+| [bbugyi200.athena.sase-1id.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.6.md) | [sase-1id.6](sase-1id.6.md) | 1 |
 | [bbugyi200.athena.sase-1id.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.land/README.md) | [sase-1id](README.md) | 0 |
 
 ## Commits
@@ -85,6 +85,7 @@ flowchart TD
 | sase | [`771127d`](https://github.com/sase-org/sase/commit/771127db29ec46f6679bf9880c06a1279b2bd6f6) | fix(plan-gates): park tier-mismatched gates instead of erroring | [sase-1id.3](sase-1id.3.md) | 2026-10-08 16:09:27 EDT |
 | sase | [`e6adb11`](https://github.com/sase-org/sase/commit/e6adb110af9f6be222782977c8840e2d91cf7cdf) | feat(bead): run epic phase and land workers under %auto:tale so nested epics wait for review | [sase-1id.4](sase-1id.4.md) | 2026-10-08 16:33:43 EDT |
 | sase | [`bd6c717`](https://github.com/sase-org/sase/commit/bd6c7173dd49894d8ec38a821320c7826634cf54) | fix(symvision): privatize newly-reported unused-public symbols to zero NEW | [sase-1id.5](sase-1id.5.md) | 2026-10-09 02:12:07 EDT |
+| sase | [`c58ae74`](https://github.com/sase-org/sase/commit/c58ae7491ad6ed341dfc91743f989e8623d84eab) | docs(sase-1id.6): align %auto docs with tier-scoped auto-approved truth | [sase-1id.6](sase-1id.6.md) | 2026-10-09 02:37:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
