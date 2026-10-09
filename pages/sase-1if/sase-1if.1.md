@@ -20,8 +20,8 @@ mount: add the generic sase_commands contract, metadata-only discovery and valid
 ## Dependencies
 
 - **Blocks:** [sase-1if.3](sase-1if.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.4](sase-1if.4.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.5](sase-1if.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.4](sase-1if.4.md) ✓ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.5](sase-1if.5.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -42,7 +42,9 @@ mount: add the generic sase_commands contract, metadata-only discovery and valid
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1if.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1if.3][2] | check sibling follow-up note on symvision | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.3/README.md
 
 <!-- sase:referenced-by:end -->
