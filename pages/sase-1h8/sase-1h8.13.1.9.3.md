@@ -23,7 +23,7 @@ view-commit: give MutationView config and event staging, lazy stream loading and
 
 - **Depends on:** [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) ✓ · ⧖ 2026-10-08
 

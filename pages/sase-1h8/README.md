@@ -81,7 +81,7 @@ flowchart TD
     n16["sase-1h8.13.1.9.1: Run the nine existing mutation suites in cached and replay modes [closed]"]
     n17["sase-1h8.13.1.9.2: Byte goldens for replay-backed mutations before any replay code is deleted [closed]"]
     n18["sase-1h8.13.1.9.3: View-owned staging and one commit on both backings; create and notes unified [closed]"]
-    n19["sase-1h8.13.1.9.4: Open, close and remove as single view algorithms [in_progress]"]
+    n19["sase-1h8.13.1.9.4: Open, close and remove as single view algorithms [closed]"]
     n20["sase-1h8.13.1.9.5: Claims, ready marking and dependencies as single view algorithms [closed]"]
     n21["sase-1h8.13.1.9.6: Links, +1 and snooze as single view algorithms [closed]"]
     n22["sase-1h8.13.1.9.7: Shrink the over-cap read-model files and fix the stale phase-approval docs [closed]"]
@@ -184,7 +184,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.1/README.md) | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md) | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md) | [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md) | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md) | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md) | [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.6.md) | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2 |
@@ -245,6 +245,7 @@ flowchart TD
 | sase-core | [`sase-core@3cb24b0`](https://github.com/sase-org/sase-core/commit/3cb24b04ef4d89e723f616e9bb070b94cff25204) | feat(beads): unify create and notes mutations on one view commit | [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) | 2026-10-08 23:51:14 EDT |
 | sase-core | [`sase-core@8e93d01`](https://github.com/sase-org/sase-core/commit/8e93d017e9e46e2813d901052d3c0aaa8b76a804) | feat(beads): unify claims, ready marking and dependencies on one view commit | [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) | 2026-10-09 00:32:56 EDT |
 | sase-core | [`sase-core@c83ec83`](https://github.com/sase-org/sase-core/commit/c83ec83abc73d7c334437297e41d5e788bf63d25) | feat(bead-mutations): unify links, +1 and snooze onto view-commit runner | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 2026-10-09 00:57:44 EDT |
+| sase-core | [`sase-core@e92f7f8`](https://github.com/sase-org/sase-core/commit/e92f7f83ebd72baee07dd622ef82e2adb41e8b6f) | feat(beads): unify open, close and remove mutations on one view commit | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 2026-10-09 01:18:50 EDT |
 
 <!-- sase:referenced-by:start -->
 

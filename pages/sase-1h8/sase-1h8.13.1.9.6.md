@@ -31,3 +31,15 @@ unify-links-evidence: run link add/projections/remove, +1, snooze and cancel thr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@c83ec83`](https://github.com/sase-org/sase-core/commit/c83ec83abc73d7c334437297e41d5e788bf63d25) | feat(bead-mutations): unify links, +1 and snooze onto view-commit runner | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 2026-10-09 00:57:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.9.6--1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.6.md
+
+<!-- sase:referenced-by:end -->
