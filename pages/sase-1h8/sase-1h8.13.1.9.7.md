@@ -21,7 +21,7 @@ caps-docs: move the read-model functions that publish-direct changed out of read
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

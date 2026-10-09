@@ -20,7 +20,7 @@ unify-lifecycle: run open, close, close-with-note and remove through the view-co
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -33,3 +33,15 @@ unify-lifecycle: run open, close, close-with-note and remove through the view-co
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e92f7f8`](https://github.com/sase-org/sase-core/commit/e92f7f83ebd72baee07dd622ef82e2adb41e8b6f) | feat(beads): unify open, close and remove mutations on one view commit | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 2026-10-09 01:18:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.9.4][1] | check phase notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md
+
+<!-- sase:referenced-by:end -->

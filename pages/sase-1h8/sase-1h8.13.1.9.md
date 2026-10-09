@@ -7,6 +7,20 @@
 **Created:** 2026-10-08 21:24:16 EDT
 **Plan:** [202610/unify\_bead\_mutation\_algorithms.md](https://github.com/sase-org/sase--plans/blob/main/202610/unify_bead_mutation_algorithms.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/unify_bead_mutation_algorithms.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/unify_bead_mutation_algorithms.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every ordinary bead mutation runs one algorithm over MutationView, on both the cached and the replay backing. The parallel MutableStore replay copies are deleted. The nine existing mutation suites run in cached and replay modes. Legacy and no-git stores keep their bytes, proven by goldens. The over-cap read-model files return to their pre-epic sizes. The landing of sase-1h8.13.1, and then of sase-1h8.13, can then resume.
@@ -26,13 +40,15 @@ Every ordinary bead mutation runs one algorithm over MutationView, on both the c
 | read-by | [agent:sase-1h8.13.1.9.1][1] | epic decisions and symbols | 2 |
 | read-by | [agent:sase-1h8.13.1.9.2][2] | epic scope and decisions | 1 |
 | read-by | [agent:sase-1h8.13.1.9.3][3] | epic scope decisions | 1 |
-| read-by | [agent:sase-1h8.13.1.9.5][4] | epic decisions for claims-deps phase | 2 |
-| read-by | [agent:sase-1h8.13.1.9.7][5] | epic decisions | 2 |
+| read-by | [agent:sase-1h8.13.1.9.4][4] | epic decisions and scope | 1 |
+| read-by | [agent:sase-1h8.13.1.9.5][5] | epic decisions for claims-deps phase | 2 |
+| read-by | [agent:sase-1h8.13.1.9.7][6] | epic decisions | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md
 
 <!-- sase:referenced-by:end -->

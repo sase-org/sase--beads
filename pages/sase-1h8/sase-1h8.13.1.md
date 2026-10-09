@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/finish_read_model_mutations_child_epic.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_read_model_mutations_child_epic.md
 
@@ -50,6 +50,7 @@ Every ordinary bead mutation runs one shared algorithm on an indexed mutation vi
 | read-by | [agent:sase-1h8.13.1.5][5] | epic decisions | 3 |
 | read-by | [agent:sase-1h8.13.1.6][6] | Need parent epic scope and DECISIONS | 1 |
 | read-by | [agent:sase-1h8.13.1.7][7] | epic decisions for proof phase | 2 |
+| read-by | [agent:sase-1h8.13.1.9.4][8] | landing notes and prior epic context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
@@ -58,5 +59,6 @@ Every ordinary bead mutation runs one shared algorithm on an indexed mutation vi
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.5/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md
 
 <!-- sase:referenced-by:end -->
