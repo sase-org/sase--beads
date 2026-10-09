@@ -22,7 +22,7 @@ plugin-repos: in sase-github, sase-telegram, sase-research-artifacts, and sase-l
 ## Dependencies
 
 - **Depends on:** [sase-1ig.1](sase-1ig.1.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.9](sase-1ig.9.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.9](sase-1ig.9.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

@@ -23,10 +23,16 @@ chezmoi-acei: point `acei`/`aceii` at `just install-dev --sync -y` on the durabl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ig.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md) | [sase-1ig.10](sase-1ig.10.md) | 1 |
+| [bbugyi200.athena.sase-1ig.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md) | [sase-1ig.10](sase-1ig.10.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@0ed2634`](https://github.com/bbugyi200/dotfiles/commit/0ed26344da6e843663bc6e32cc33c8ae37dcd643) | feat(chezmoi): retire install\_sase installers into just install-dev | [sase-1ig.10](sase-1ig.10.md) | 2026-10-09 01:13:52 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.10][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md
+
+<!-- sase:referenced-by:end -->
