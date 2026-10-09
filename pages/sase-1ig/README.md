@@ -31,7 +31,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 |---|---|---|---|---|---:|---:|
 | [sase-1ig.1](sase-1ig.1.md) | Rename the venv recipes to install-venv and park bare install | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.10](sase-1ig.10.md) | Retire the chezmoi installers into install-dev | ✓ closed | small | 2026-10-08 | 1 | 0 |
-| [sase-1ig.11](sase-1ig.11.md) | Document the three commands and record the human-only rule | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [sase-1ig.11](sase-1ig.11.md) | Document the three commands and record the human-only rule | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1ig.2](sase-1ig.2.md) | Installer engine foundation and dry-run planning | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.3](sase-1ig.3.md) | Context-aware reinstall remedies in runtime code | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1ig.4](sase-1ig.4.md) | Make the Rust dev-install recipes honest | ✓ closed | small | 2026-10-08 | 1 | 1 |
@@ -48,7 +48,7 @@ flowchart TD
     n0["sase-1ig: just install / install-dev / install-venv: three honest install commands [in_progress]"]
     n1["sase-1ig.1: Rename the venv recipes to install-venv and park bare install [closed]"]
     n2["sase-1ig.10: Retire the chezmoi installers into install-dev [closed]"]
-    n3["sase-1ig.11: Document the three commands and record the human-only rule [in_progress]"]
+    n3["sase-1ig.11: Document the three commands and record the human-only rule [closed]"]
     n4["sase-1ig.2: Installer engine foundation and dry-run planning [closed]"]
     n5["sase-1ig.3: Context-aware reinstall remedies in runtime code [closed]"]
     n6["sase-1ig.4: Make the Rust dev-install recipes honest [closed]"]
@@ -89,7 +89,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1ig.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.1/README.md) | [sase-1ig.1](sase-1ig.1.md) | 1 |
 | [bbugyi200.athena.sase-1ig.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md) | [sase-1ig.10](sase-1ig.10.md) | 0 |
-| [bbugyi200.athena.sase-1ig.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.11/README.md) | [sase-1ig.11](sase-1ig.11.md) | 0 |
+| [bbugyi200.athena.sase-1ig.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.11/README.md) | [sase-1ig.11](sase-1ig.11.md) | 1 |
 | [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 1 |
 | [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.3.md) | [sase-1ig.3](sase-1ig.3.md) | 1 |
 | [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md) | [sase-1ig.4](sase-1ig.4.md) | 1 |
@@ -112,6 +112,7 @@ flowchart TD
 | sase | [`10f5e21`](https://github.com/sase-org/sase/commit/10f5e2169fc60e9c1c7b9ea04ca1bb2bf05525d1) | feat(install): add shared PyPI execution pipeline with logging, locking, and verification | [sase-1ig.5](sase-1ig.5.md) | 2026-10-08 23:28:19 EDT |
 | sase | [`33bc9ca`](https://github.com/sase-org/sase/commit/33bc9ca36c911988c621fcb8a1721ef5aeab07f0) | feat(install): wire dev mode through pipeline and add install-dev recipe (sase-1ig.8) | [sase-1ig.8](sase-1ig.8.md) | 2026-10-09 01:01:22 EDT |
 | sase-core | [`sase-core@4ea91b9`](https://github.com/sase-org/sase-core/commit/4ea91b95b51ee988320adcfea4e3cd54140a110b) | fix(triage): point environment and bead remedies at install-venv/install-dev | [sase-1ig.9](sase-1ig.9.md) | 2026-10-09 01:28:41 EDT |
+| sase | [`29724dc`](https://github.com/sase-org/sase/commit/29724dc042f4f8ad8ea0775448ab3e22f1d29c9f) | docs(install): document the three install commands and record the human-only rule | [sase-1ig.11](sase-1ig.11.md) | 2026-10-09 01:57:51 EDT |
 
 <!-- sase:referenced-by:start -->
 

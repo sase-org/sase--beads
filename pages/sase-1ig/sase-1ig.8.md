@@ -24,7 +24,7 @@ engine-dev: wire dev mode through the pipeline (dev swap argv and overrides, cor
 ## Dependencies
 
 - **Blocks:** [sase-1ig.10](sase-1ig.10.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.11](sase-1ig.11.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.11](sase-1ig.11.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1ig.4](sase-1ig.4.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1ig.5](sase-1ig.5.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1ig.6](sase-1ig.6.md) ✓ · ⧖ 2026-10-08
