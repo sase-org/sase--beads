@@ -11,6 +11,14 @@
 
 witness-scan: collect managed roots and the W1-W3 witnesses (boot identity drift, update journal, file-level proof with the culprit commit), build legacy inputs from logs, and ship `sase agent auto-restart scan` for corpus replay.
 
+## Notes
+
+[2026-10-09T22:29:24Z · sase-1j6.4] scan -s 120d (workspace build, host corpus ~/.sase): 821 failures classified, 0 errors. Modes: 0 relaunch, 1 defer, 22 notify_post_provider, 0 ask, 798 decline. The defer is 0yz, the surviving 2026-10-09 incident row (Tier1 cannot_import_name auto_launch_prefix, pre_provider, W2+W3, probe_pending): historical pre-provider skew classifies defer as required. Zero relaunch among non-skew failures. The 22 notify rows are post-provider skew signatures with provider frames (held workspaces, correctly not relaunched). Witnessless skew-shaped rows (Sep 18 AGENT_HOLDS_FLAG ImportError, Sep 25 wire-schema ValueErrors) correctly decline with no_update_witness: no journal row and no boot snapshot on those legacy rows.
+
+[2026-10-09T22:29:30Z · sase-1j6.4] PROPOSED FOLLOW-UP: decisions-web record for update-skew auto-restart design (at most once per lineage, pre-provider only); skipped per epic auto-decision decision_record=no
+
+[2026-10-09T22:29:35Z · sase-1j6.4] PROPOSED FOLLOW-UP: symvision unused-public leftovers from sase-1j6.3 await healer consumers (facade claim/advance/lineage/episode/in-flight/schema fns; AgentFailure ChainLink/Frame/ImportError/AttributeError, LedgerHistory, Probe wires); proven pre-existing on clean base via worktree. Healer phase sase-1j6.5 should consume them or add --epic-symbol rows re-keyed to itself. Deleted only the dead private _opt_int helper in the same file.
+
 ## Dependencies
 
 - **Depends on:** [sase-1j6.3](sase-1j6.3.md) ✓ · ⧖ 2026-10-09
@@ -20,4 +28,10 @@ witness-scan: collect managed roots and the W1-W3 witnesses (boot identity drift
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 0 |
+| [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3ba224b`](https://github.com/sase-org/sase/commit/3ba224b9c1875fc3b8f60a4ebae9efc922917980) | feat(agent): skew witnesses and read-only auto-restart scan | [sase-1j6.4](sase-1j6.4.md) | 2026-10-09 18:36:41 EDT |
