@@ -25,7 +25,7 @@ view-commit: give MutationView config and event staging, lazy stream loading and
 - **Depends on:** [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -46,7 +46,9 @@ view-commit: give MutationView config and event staging, lazy stream loading and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h8.13.1.9.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1h8.13.1.9.5][2] | Need view-commit runner API and caveats for claims-deps unification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md
 
 <!-- sase:referenced-by:end -->
