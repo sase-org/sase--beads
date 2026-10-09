@@ -23,7 +23,7 @@ gates: adapters declare capability sets, plan, epic, and question gates resolve 
 
 - **Depends on:** [sase-1ip.3](sase-1ip.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1ip.4](sase-1ip.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1ip.7](sase-1ip.7.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1ip.7](sase-1ip.7.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -36,3 +36,15 @@ gates: adapters declare capability sets, plan, epic, and question gates resolve 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6f6754f`](https://github.com/sase-org/sase/commit/6f6754f97db91a80c105b52d7719f31c29814173) | feat(gates): resolve plan, epic, and question gates through core evaluate() | [sase-1ip.6](sase-1ip.6.md) | 2026-10-09 13:02:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ip.6--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.6.md
+
+<!-- sase:referenced-by:end -->

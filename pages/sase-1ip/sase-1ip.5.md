@@ -23,7 +23,7 @@ inherit: every host-composed session successor inherits the live record structur
 
 - **Depends on:** [sase-1ip.3](sase-1ip.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1ip.4](sase-1ip.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1ip.7](sase-1ip.7.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1ip.7](sase-1ip.7.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
