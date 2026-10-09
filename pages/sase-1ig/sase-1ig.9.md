@@ -14,7 +14,7 @@ core-strings: in linked sase-core, change the triage environment remedies and ve
 ## Dependencies
 
 - **Depends on:** [sase-1ig.7](sase-1ig.7.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

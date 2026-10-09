@@ -22,7 +22,7 @@ dev-core-prep: implement the core pairing rule (resolve, clone, fetch, fast-forw
 ## Dependencies
 
 - **Depends on:** [sase-1ig.2](sase-1ig.2.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.8](sase-1ig.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

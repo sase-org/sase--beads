@@ -20,7 +20,7 @@ rust-recipes: make `rust-dev-install` write the core source stamp, make the `*-u
 ## Dependencies
 
 - **Depends on:** [sase-1ig.1](sase-1ig.1.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.8](sase-1ig.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

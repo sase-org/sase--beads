@@ -13,7 +13,7 @@ install-docs: add INSTALL.md's checkout section, a your-sase-versus-the-checkout
 
 ## Dependencies
 
-- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

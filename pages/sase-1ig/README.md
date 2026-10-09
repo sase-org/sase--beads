@@ -38,7 +38,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.6](sase-1ig.6.md) | sase-core pairing and pre-swap preparation | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [sase-1ig.8](sase-1ig.8.md) | The live \`just install-dev\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1ig.8](sase-1ig.8.md) | The live \`just install-dev\` | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.9](sase-1ig.9.md) | Point sase-core's remedies at the new names | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
 ## Lineage
@@ -55,7 +55,7 @@ flowchart TD
     n7["sase-1ig.5: Execution pipeline and the live `just install` [closed]"]
     n8["sase-1ig.6: sase-core pairing and pre-swap preparation [closed]"]
     n9["sase-1ig.7: Rename install to install-venv in the plugin repos [closed]"]
-    n10["sase-1ig.8: The live `just install-dev` [in_progress]"]
+    n10["sase-1ig.8: The live `just install-dev` [closed]"]
     n11["sase-1ig.9: Point sase-core's remedies at the new names [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 1 |
 | [bbugyi200.athena.sase-1ig.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md) | [sase-1ig.6](sase-1ig.6.md) | 1 |
 | [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 0 |
-| [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.8/README.md) | [sase-1ig.8](sase-1ig.8.md) | 0 |
+| [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.8.md) | [sase-1ig.8](sase-1ig.8.md) | 1 |
 | [bbugyi200.athena.sase-1ig.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.9/README.md) | [sase-1ig.9](sase-1ig.9.md) | 0 |
 | [bbugyi200.athena.sase-1ig.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.land/README.md) | [sase-1ig](README.md) | 0 |
 
@@ -110,6 +110,7 @@ flowchart TD
 | sase | [`d0b6e2e`](https://github.com/sase-org/sase/commit/d0b6e2e99d180dc132ab735967565cdd1c62e81b) | feat(install): add stdlib-only sase\_install engine with dry-run planning | [sase-1ig.2](sase-1ig.2.md) | 2026-10-08 20:44:30 EDT |
 | sase | [`62f2560`](https://github.com/sase-org/sase/commit/62f256008be1f469d5315f9b418cd5ab6088a11b) | feat(install): implement dev-core-prep phase (core pairing, sync gate, pre-swap build check) | [sase-1ig.6](sase-1ig.6.md) | 2026-10-08 21:06:54 EDT |
 | sase | [`10f5e21`](https://github.com/sase-org/sase/commit/10f5e2169fc60e9c1c7b9ea04ca1bb2bf05525d1) | feat(install): add shared PyPI execution pipeline with logging, locking, and verification | [sase-1ig.5](sase-1ig.5.md) | 2026-10-08 23:28:19 EDT |
+| sase | [`33bc9ca`](https://github.com/sase-org/sase/commit/33bc9ca36c911988c621fcb8a1721ef5aeab07f0) | feat(install): wire dev mode through pipeline and add install-dev recipe (sase-1ig.8) | [sase-1ig.8](sase-1ig.8.md) | 2026-10-09 01:01:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ chezmoi-acei: point `acei`/`aceii` at `just install-dev --sync -y` on the durabl
 
 ## Dependencies
 
-- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1ig.8](sase-1ig.8.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
