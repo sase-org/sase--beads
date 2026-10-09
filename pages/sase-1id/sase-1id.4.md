@@ -33,3 +33,15 @@ epic_workers: emit %auto:tale instead of bare %auto for every phase and land seg
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e6adb11`](https://github.com/sase-org/sase/commit/e6adb110af9f6be222782977c8840e2d91cf7cdf) | feat(bead): run epic phase and land workers under %auto:tale so nested epics wait for review | [sase-1id.4](sase-1id.4.md) | 2026-10-08 16:33:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1id.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.4/README.md
+
+<!-- sase:referenced-by:end -->
