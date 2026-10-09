@@ -11,6 +11,10 @@
 
 gateway-single-flight: in sase-core, rewrite the FleetReadService snapshot refresh. Each scope gets one detached in-flight build that always fills the cache when it finishes. Callers wait up to the timeout. Failures back off exponentially. A shared semaphore bounds index work, the overlay pass is coalesced and best-effort, and the gateway runtime caps blocking threads. Includes a slow-build stampede regression test.
 
+## Notes
+
+[2026-10-09T14:29:43Z · sase-1j1.1] PROPOSED FOLLOW-UP: full `sase tool run check` in sase-core shows two pre-existing load flakes in untouched sase_core files (both pass alone on the clean base tree): tool_run::store::tests::private_argv_is_not_serialized_on_queries (already tracked by flake bead sase-17n) and provider_priority::tests::concurrent_priority_changes_and_auto_disables_are_serialized (LockTimeout under the full parallel lane)
+
 ## Dependencies
 
 - **Blocks:** [sase-1j1.4](sase-1j1.4.md) ◐ · ⧖ 2026-10-09

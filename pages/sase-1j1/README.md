@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/apollo_gateway_snapshot_stampede.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/apollo_gateway_snapshot_stampede.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ A slow fleet snapshot rebuild can no longer multiply into hundreds of concurrent
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1j1.1](sase-1j1.1.md) | Single-flight, back-off, and bounded index work in FleetReadService | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
-| [sase-1j1.2](sase-1j1.2.md) | Artifact index WAL bounds and write batching | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j1.2](sase-1j1.2.md) | Artifact index WAL bounds and write batching | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j1.3](sase-1j1.3.md) | Federation worker keeps host state and backs off slow hosts | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j1.4](sase-1j1.4.md) | Gateway refresh telemetry and WAL housekeeping | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 | [sase-1j1.5](sase-1j1.5.md) | sase fleet client stops amplifying slow hosts | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -40,7 +42,7 @@ A slow fleet snapshot rebuild can no longer multiply into hundreds of concurrent
 flowchart TD
     n0["sase-1j1: Stop the fleet gateway snapshot stampede that melted apollo [in_progress]"]
     n1["sase-1j1.1: Single-flight, back-off, and bounded index work in FleetReadService [in_progress]"]
-    n2["sase-1j1.2: Artifact index WAL bounds and write batching [in_progress]"]
+    n2["sase-1j1.2: Artifact index WAL bounds and write batching [closed]"]
     n3["sase-1j1.3: Federation worker keeps host state and backs off slow hosts [closed]"]
     n4["sase-1j1.4: Gateway refresh telemetry and WAL housekeeping [in_progress]"]
     n5["sase-1j1.5: sase fleet client stops amplifying slow hosts [in_progress]"]
@@ -65,7 +67,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1j1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.1/README.md) | [sase-1j1.1](sase-1j1.1.md) | 0 |
-| [bbugyi200.athena.sase-1j1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.2/README.md) | [sase-1j1.2](sase-1j1.2.md) | 0 |
+| [bbugyi200.athena.sase-1j1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.2/README.md) | [sase-1j1.2](sase-1j1.2.md) | 1 |
 | [bbugyi200.athena.sase-1j1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.3/README.md) | [sase-1j1.3](sase-1j1.3.md) | 1 |
 | [bbugyi200.athena.sase-1j1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.4/README.md) | [sase-1j1.4](sase-1j1.4.md) | 0 |
 | [bbugyi200.athena.sase-1j1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j1.5.md) | [sase-1j1.5](sase-1j1.5.md) | 0 |
@@ -77,3 +79,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6e56fd5`](https://github.com/sase-org/sase-core/commit/6e56fd514d0a1c1baee5c9edd347bb5921a99238) | fix(federation-worker): keep host state across replace\_config and back off slow hosts | [sase-1j1.3](sase-1j1.3.md) | 2026-10-09 10:18:34 EDT |
+| sase-core | [`sase-core@1c08f09`](https://github.com/sase-org/sase-core/commit/1c08f09787ffcac991437a3b0cb9b3ea57091117) | feat(agent-scan): bound index WAL growth and batch self-heal repairs | [sase-1j1.2](sase-1j1.2.md) | 2026-10-09 10:30:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j1.3][1] | epic decisions | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -32,3 +32,15 @@ worker-host-backoff: in the sase-core federation worker, reuse unchanged RemoteH
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6e56fd5`](https://github.com/sase-org/sase-core/commit/6e56fd514d0a1c1baee5c9edd347bb5921a99238) | fix(federation-worker): keep host state across replace\_config and back off slow hosts | [sase-1j1.3](sase-1j1.3.md) | 2026-10-09 10:18:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j1.3][1] | check prior notes and full scope | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.3/README.md
+
+<!-- sase:referenced-by:end -->

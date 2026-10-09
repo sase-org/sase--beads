@@ -14,7 +14,7 @@ gateway-observability: install a tracing subscriber in the sase_gateway binary. 
 ## Dependencies
 
 - **Depends on:** [sase-1j1.1](sase-1j1.1.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [sase-1j1.2](sase-1j1.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1j1.2](sase-1j1.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j1.6](sase-1j1.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
