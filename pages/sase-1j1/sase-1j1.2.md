@@ -17,7 +17,7 @@ index-sqlite-hygiene: in sase-core agent_scan/index, set journal_size_limit and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1j1.4](sase-1j1.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j1.4](sase-1j1.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j1.6](sase-1j1.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
@@ -31,3 +31,15 @@ index-sqlite-hygiene: in sase-core agent_scan/index, set journal_size_limit and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1c08f09`](https://github.com/sase-org/sase-core/commit/1c08f09787ffcac991437a3b0cb9b3ea57091117) | feat(agent-scan): bound index WAL growth and batch self-heal repairs | [sase-1j1.2](sase-1j1.2.md) | 2026-10-09 10:30:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.2/README.md
+
+<!-- sase:referenced-by:end -->
