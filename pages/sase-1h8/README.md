@@ -73,7 +73,7 @@ flowchart TD
     n10["sase-1h8.13.1.4: Port open, close and remove onto the mutation view [closed]"]
     n11["sase-1h8.13.1.5: Port claims, ready marking and dependencies onto the mutation view [closed]"]
     n12["sase-1h8.13.1.6: Port links, +1 and snooze onto the mutation view [closed]"]
-    n13["sase-1h8.13.1.7: Parity, affected-row and failure-recovery proof plus matched 1x/8x evidence [in_progress]"]
+    n13["sase-1h8.13.1.7: Parity, affected-row and failure-recovery proof plus matched 1x/8x evidence [closed]"]
     n14["sase-1h8.13.1.8: Steer re-planned unfinished phases toward a child epic [closed]"]
     n15["sase-1h8.14: History-independence acceptance gate [in_progress]"]
     n16["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.4/README.md) | [sase-1h8.13.1.4](sase-1h8.13.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.5/README.md) | [sase-1h8.13.1.5](sase-1h8.13.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md) | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md) | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md) | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.8.md) | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.land/README.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
@@ -199,6 +199,7 @@ flowchart TD
 | sase-core | [`sase-core@276b14a`](https://github.com/sase-org/sase-core/commit/276b14a40f300c07e350a604682ba00200327e9b) | feat(beads): port open, close and remove onto the mutation view | [sase-1h8.13.1.4](sase-1h8.13.1.4.md) | 2026-10-08 19:05:56 EDT |
 | sase-core | [`sase-core@d18537a`](https://github.com/sase-org/sase-core/commit/d18537a5cae17179505ff71593fe55f8673f8260) | feat(beads): port claims, ready marking and dependencies onto the mutation view | [sase-1h8.13.1.5](sase-1h8.13.1.5.md) | 2026-10-08 19:08:11 EDT |
 | sase-core | [`sase-core@dd1a67c`](https://github.com/sase-org/sase-core/commit/dd1a67c0727ecb98920955c454785fb0dc98a50c) | feat(beads): port links, +1 and snooze mutations onto the mutation view | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 2026-10-08 19:12:02 EDT |
+| sase-core | [`sase-core@3e45924`](https://github.com/sase-org/sase-core/commit/3e45924865a58d23cbe704e0a1b6e6130c086039) | test(sase-core): prove bounded mutation work and every-family read-model parity | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 2026-10-08 20:48:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

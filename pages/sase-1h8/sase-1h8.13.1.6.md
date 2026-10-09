@@ -18,7 +18,7 @@ port-links-evidence: move links.rs (canonical targets, undirected holders, proje
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.7](sase-1h8.13.1.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.7](sase-1h8.13.1.7.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ port-links-evidence: move links.rs (canonical targets, undirected holders, proje
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@dd1a67c`](https://github.com/sase-org/sase-core/commit/dd1a67c0727ecb98920955c454785fb0dc98a50c) | feat(beads): port links, +1 and snooze mutations onto the mutation view | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 2026-10-08 19:12:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md
+
+<!-- sase:referenced-by:end -->

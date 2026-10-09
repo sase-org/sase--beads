@@ -20,7 +20,7 @@ port-lifecycle: move close_remove.rs (open, close, close with note, descendant g
 ## Dependencies
 
 - **Depends on:** [sase-1h8.13.1.3](sase-1h8.13.1.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.7](sase-1h8.13.1.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.7](sase-1h8.13.1.7.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
