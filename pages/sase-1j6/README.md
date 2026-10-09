@@ -1,0 +1,94 @@
+# Bead: sase-1j6 — Update-Skew Agent Auto-Restart
+
+[Bead Pages](../README.md) / sase-1j6
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.47.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.47.linker.w0.md) · **Assignee:** `sase-1j6.land`
+**Created:** 2026-10-09 15:02:04 EDT
+**Plan:** [202610/update\_skew\_agent\_auto\_restart.md](https://github.com/sase-org/sase--plans/blob/main/202610/update_skew_agent_auto_restart.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/update_skew_agent_auto_restart.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/update_skew_agent_auto_restart.md
+
+<!-- sase:links:end -->
+
+## Description
+
+When a live sase update breaks a running agent before its model turn, sase puts it back once, under the same name, exactly as `,x` plus an unmodified submit would, and tells the user what it did and why in one calm amber ↻ story. Every other update-shaped failure is surfaced with its reason and never silently swallowed. The refresh-path bug behind the 2026-10-09 incident can no longer recur.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1j6.1](sase-1j6.1.md) | Exec-first runner refresh and import firewall | ✓ closed | small | 2026-10-09 | 1 | 1 |
+| [sase-1j6.2](sase-1j6.2.md) | Runner boot identity, lifecycle breadcrumbs, and failure facts | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.3](sase-1j6.3.md) | sase-core failure classifier, ledger state machine, and recovery wire | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.4](sase-1j6.4.md) | Skew witnesses and the read-only scan command | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.5](sase-1j6.5.md) | The healer, at-most-once ledger, and auto-restart CLI | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.6](sase-1j6.6.md) | Runner doorbell, scheduler job, and waiter safety | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.7](sase-1j6.7.md) | One upserted ↻ notification and live report per update episode | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.8](sase-1j6.8.md) | Agents-tab ↻ RESTARTING state, provenance line, help, and update hint | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.9](sase-1j6.9.md) | Remove the beta flag, document, and replay the incident end to end | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1j6: Update-Skew Agent Auto-Restart [in_progress]"]
+    n1["sase-1j6.1: Exec-first runner refresh and import firewall [closed]"]
+    n2["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [in_progress]"]
+    n3["sase-1j6.3: sase-core failure classifier, ledger state machine, and recovery wire [in_progress]"]
+    n4["sase-1j6.4: Skew witnesses and the read-only scan command [in_progress]"]
+    n5["sase-1j6.5: The healer, at-most-once ledger, and auto-restart CLI [in_progress]"]
+    n6["sase-1j6.6: Runner doorbell, scheduler job, and waiter safety [in_progress]"]
+    n7["sase-1j6.7: One upserted ↻ notification and live report per update episode [in_progress]"]
+    n8["sase-1j6.8: Agents-tab ↻ RESTARTING state, provenance line, help, and update hint [in_progress]"]
+    n9["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n1 -.-> n9
+    n2 -.-> n3
+    n3 -.-> n4
+    n4 -.-> n5
+    n5 -.-> n6
+    n5 -.-> n7
+    n5 -.-> n8
+    n6 -.-> n9
+    n7 -.-> n9
+    n8 -.-> n9
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1j6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.1/README.md) | [sase-1j6.1](sase-1j6.1.md) | 1 |
+| [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 0 |
+| [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.3/README.md) | [sase-1j6.3](sase-1j6.3.md) | 0 |
+| [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 0 |
+| [bbugyi200.athena.sase-1j6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.5/README.md) | [sase-1j6.5](sase-1j6.5.md) | 0 |
+| [bbugyi200.athena.sase-1j6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.6/README.md) | [sase-1j6.6](sase-1j6.6.md) | 0 |
+| [bbugyi200.athena.sase-1j6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.7/README.md) | [sase-1j6.7](sase-1j6.7.md) | 0 |
+| [bbugyi200.athena.sase-1j6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md) | [sase-1j6.8](sase-1j6.8.md) | 0 |
+| [bbugyi200.athena.sase-1j6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.9/README.md) | [sase-1j6.9](sase-1j6.9.md) | 0 |
+| [bbugyi200.athena.sase-1j6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.land/README.md) | [sase-1j6](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6ac3dc7`](https://github.com/sase-org/sase/commit/6ac3dc734e23f597502d011c4b6580ec7720a1fe) | fix(axe): keep runner code refresh import-free before re-exec | [sase-1j6.1](sase-1j6.1.md) | 2026-10-09 15:19:29 EDT |
