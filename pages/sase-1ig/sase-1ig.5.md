@@ -11,6 +11,10 @@
 
 engine-pypi: build the shared pipeline (progress renderer, log, code-swap lock, backup and restore command, uv swap, verification, scheduler restart, summary) and ship PyPI mode end to end by replacing the bare `install` placeholder.
 
+## Notes
+
+[2026-10-09T00:54:19Z · sase-1ig.5] uv --force --reinstall does NOT preserve the tool interpreter (3.13 env came back 3.14.7), so the swap passes the existing envs own python via --python unless the user asked with --python
+
 ## Dependencies
 
 - **Depends on:** [sase-1ig.1](sase-1ig.1.md) ✓ · ⧖ 2026-10-08

@@ -22,7 +22,7 @@ engine-core: create the stdlib-only `tools/sase_install` engine with its CLI, ag
 ## Dependencies
 
 - **Blocks:** [sase-1ig.5](sase-1ig.5.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.6](sase-1ig.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.6](sase-1ig.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -35,3 +35,15 @@ engine-core: create the stdlib-only `tools/sase_install` engine with its CLI, ag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d0b6e2e`](https://github.com/sase-org/sase/commit/d0b6e2e99d180dc132ab735967565cdd1c62e81b) | feat(install): add stdlib-only sase\_install engine with dry-run planning | [sase-1ig.2](sase-1ig.2.md) | 2026-10-08 20:44:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md
+
+<!-- sase:referenced-by:end -->
