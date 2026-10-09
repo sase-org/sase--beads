@@ -17,7 +17,7 @@ ace: make the chosen-branch green/bold tint survive Textual rendering and test i
 
 ## Dependencies
 
-- **Blocks:** [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -30,3 +30,15 @@ ace: make the chosen-branch green/bold tint survive Textual rendering and test i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1820636`](https://github.com/sase-org/sase/commit/1820636212abb2a056f7892ead0c42ea7cb5e09e) | feat(ace): rendered chosen-branch tint, stale reopen via real open path, 42-cell generic rails | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 2026-10-09 00:42:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1hi.10.7.6.1--2][1] | Need phase scope | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.1.md
+
+<!-- sase:referenced-by:end -->

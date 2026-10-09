@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Close the gaps the sase-1hi.10.7 land audit found in its own phases. ACE shows the chosen branch green and bold on screen. A stale review reopened after the modal closed can still submit. Generic gates keep their old rail width. The gate route tests the repair plans required exist and assert behaviour. Telegram says "coder could not start" only when sase recorded a real coder launch failure, and keeps each decision's choices next to its question.
 
+## Notes
+
+[2026-10-09T07:21:20Z · sase-1id.land] DISCOVERED ISSUE: just check lint (test waits) is red: tools/check_test_wait_helpers reports tests/ace/tui/test_plan_decision_ace_stale.py:183 and :310 inline-pause-wait (bounded 'for _ in range(100): ... await asyncio.sleep(0.05); await pilot.pause()' loops). Both loops were added by 1820636212 (SASE_BEAD sase-1hi.10.7.6.1, stale reopen via real open path). Reproduced on master bfe1d9c361 with 'just _lint-test-waits'. Fix: replace with sase.ace.testing.wait.wait_for (or add the '# sase-test-wait: <reason>' pragma). Reported as a PROPOSED FOLLOW-UP by sase-1id.6 (docs_truth) and routed here by the sase-1id land agent.
+
 ## Agents
 
 | Agent | Bead | Commits |

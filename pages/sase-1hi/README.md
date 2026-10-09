@@ -61,6 +61,8 @@ KEPT AS EPIC WORK, going to the landing child epic:
 - Epic notes #1 (unused provenance publics) and #2 (3 provenance test regressions, still failing on master).
 - The nested sase-1hi.1.1 notes were already triaged by its own land agent.
 
+[2026-10-09T06:35:23Z · sase-1ig.land] DISCOVERED ISSUE (sase-1ig landing, master 974d44aa9b, 2026-10-09): just lint fails at lint (test waits): tools/check_test_wait_helpers reports tests/ace/tui/test_plan_decision_ace_stale.py:183 and :310 inline-pause-wait. git blame puts both 'for _ in range(100):' polling loops in 1820636212 (sase-1hi.10.7.6.1, stale reopen via the real open path). Reproduced on clean master with .venv/bin/python tools/check_test_wait_helpers; it is also the lint failure in Master Gate run 37892348048 (_lint-test-waits). Fix: replace the loops with sase.ace.testing.wait.wait_for on _review_revision, or add an inline '# sase-test-wait: <reason>' pragma. First reported by sase-1ig.11 note #1.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -101,7 +103,7 @@ flowchart TD
     n19["sase-1hi.10.7.5: Telegram receipts without doubled words, stale recovery that keeps the card and draft, budget order per the parent plan, and flow-level tests [closed]"]
     n20["sase-1hi.10.7.6: Plan Decisions finish gaps: visible chosen-branch tint, a stale reopen that can submit, generic rails back to 42, the owed gate tests, and a real Telegram launch-failure signal [in_progress]"]
     n21["sase-1hi.10.7.6.1: Rendered chosen-branch tint, stale reopen through the real open path, and generic rails back to 42 [closed]"]
-    n22["sase-1hi.10.7.6.2: Refresh and inspect the plan and generic gate goldens after the ace fixes [in_progress]"]
+    n22["sase-1hi.10.7.6.2: Refresh and inspect the plan and generic gate goldens after the ace fixes [closed]"]
     n23["sase-1hi.10.7.6.3: The gate route tests the first two passes skipped, plus one restamp record [closed]"]
     n24["sase-1hi.10.7.6.4: Real coder launch-failure signal, per-decision blockquotes, and the missing keyboard, settle, PDF, and retry tests [closed]"]
     n25["sase-1hi.2: Durable human-authorship provenance for prompts and gate answers [closed]"]
@@ -196,7 +198,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1hi.10.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.4.md) | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.5.md) | [sase-1hi.10.7.5](sase-1hi.10.7.5.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.1.md) | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 1 |
-| [bbugyi200.apollo.sase-1hi.10.7.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.6.2/README.md) | [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) | 0 |
+| [bbugyi200.apollo.sase-1hi.10.7.6.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.2.md) | [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.3.md) | [sase-1hi.10.7.6.3](sase-1hi.10.7.6.3.md) | 1 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1hi.10.7.6.4.md) | [sase-1hi.10.7.6.4](sase-1hi.10.7.6.4.md) | 0 |
 | [bbugyi200.apollo.sase-1hi.10.7.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1hi.10.7.6.land/README.md) | [sase-1hi.10.7.6](sase-1hi.10.7.6.md) | 0 |
@@ -240,6 +242,7 @@ flowchart TD
 | sase | [`4bc1db2`](https://github.com/sase-org/sase/commit/4bc1db294c01c2dc46b44bd7d69106f880314383) | feat(ace-tui): regenerate plan Decisions goldens after Verdict and tint fixes | [sase-1hi.10.7.4](sase-1hi.10.7.4.md) | 2026-10-08 17:48:47 EDT |
 | sase | [`96dd8ed`](https://github.com/sase-org/sase/commit/96dd8ed27023e63f107d145b8391fd4cfa86dda2) | test(gate): add owed gate route tests and single restamp record | [sase-1hi.10.7.6.3](sase-1hi.10.7.6.3.md) | 2026-10-08 20:22:24 EDT |
 | sase | [`1820636`](https://github.com/sase-org/sase/commit/1820636212abb2a056f7892ead0c42ea7cb5e09e) | feat(ace): rendered chosen-branch tint, stale reopen via real open path, 42-cell generic rails | [sase-1hi.10.7.6.1](sase-1hi.10.7.6.1.md) | 2026-10-09 00:42:16 EDT |
+| sase | [`b8480a9`](https://github.com/sase-org/sase/commit/b8480a9997a534bcc4bd24e6a1f6db38f888059b) | test(ace): refresh plan and generic gate goldens after ace fixes | [sase-1hi.10.7.6.2](sase-1hi.10.7.6.2.md) | 2026-10-09 04:05:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
