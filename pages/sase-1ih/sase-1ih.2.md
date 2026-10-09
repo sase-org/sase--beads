@@ -23,10 +23,23 @@ core-glance-join: add optional `join_kind`/`join_id` to the sase-core live-glanc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ih.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ih.2.md) | [sase-1ih.2](sase-1ih.2.md) | 1 |
+| [bbugyi200.athena.sase-1ih.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ih.2.md) | [sase-1ih.2](sase-1ih.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8011705`](https://github.com/sase-org/sase-core/commit/8011705afbe70b621d1e9e782669504408b707d0) | feat(tool-run): add join\_kind/join\_id to live-glance wire with binding tests (sase-1ih.2) | [sase-1ih.2](sase-1ih.2.md) | 2026-10-08 20:15:55 EDT |
+| sase | [`56db770`](https://github.com/sase-org/sase/commit/56db770496a735c994df4693468c841f00427a27) | feat(tool-run): mirror join\_kind/join\_id on ToolRunGlance with probe coverage (sase-1ih.2) | [sase-1ih.2](sase-1ih.2.md) | 2026-10-08 20:20:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ih.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ih.2.md
+
+<!-- sase:referenced-by:end -->
