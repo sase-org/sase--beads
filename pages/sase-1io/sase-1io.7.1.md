@@ -32,3 +32,15 @@ core-cache-race: stop unlinking or implicitly recreating a live SQLite read-mode
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@5c5bcdc`](https://github.com/sase-org/sase-core/commit/5c5bcdc43fca7787dbc0a46711b3307e25150148) | fix(bead-read-model): stop unlinking the live read-model cache under concurrent access | [sase-1io.7.1](sase-1io.7.1.md) | 2026-10-09 07:53:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.7.1][1] | check remaining work via full read | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -23,4 +23,10 @@ sase-gate-fixes: fix the CI-only prompt-key perf smoke failure, resolve the decl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1io.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.2.md) | [sase-1io.7.2](sase-1io.7.2.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.2.md) | [sase-1io.7.2](sase-1io.7.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f542104`](https://github.com/sase-org/sase/commit/f542104b5c400c6faee10842d865e3440ec06a5a) | fix(gate): privatize declared\_commands helpers and stabilize prompt-key perf smoke | [sase-1io.7.2](sase-1io.7.2.md) | 2026-10-09 07:33:30 EDT |
