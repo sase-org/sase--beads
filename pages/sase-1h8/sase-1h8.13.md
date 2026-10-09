@@ -84,6 +84,7 @@ REMAINING (do not close this bead):
 | read-by | [agent:sase-1h8.13.1.2][4] | phase scope | 1 |
 | read-by | [agent:sase-1h8.13.1.4][5] | phase scope and progress notes | 1 |
 | read-by | [agent:sase-1h8.13.1.5][6] | Need parent phase scope | 1 |
+| read-by | [agent:sase-1h8.13.1.7][7] | parent phase scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h7.land/README.md
@@ -91,5 +92,6 @@ REMAINING (do not close this bead):
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.4/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.5/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
 
 <!-- sase:referenced-by:end -->

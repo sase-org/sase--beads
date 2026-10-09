@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:c6e84b9abb0aa9ec8460fdf0 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -56,7 +56,9 @@ publish-direct: capture the epic-start note/update baseline; fix the stale bead_
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h8.13.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1h8.13.1.7][2] | publish-direct baseline command and artifact | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
 
 <!-- sase:referenced-by:end -->

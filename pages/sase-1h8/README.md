@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bead_store_history_independent_performance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md
 
@@ -36,6 +36,8 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 [2026-10-08T15:21:06Z · sase-1i4.land] DISCOVERED ISSUE (supplementary, from sase-1i4 landing): BeadStoreFingerprint in src/sase/core/bead_read_facade.py was proposed again by phases sase-1i4.1 and sase-1i4.2. It remains on this epic. No second task was filed.
 
 [2026-10-08T18:55:12Z · sase-1i5.9.1.1] Phase sase-1i5.9.1.1 applied the note-#3 recorded expectation fix in sase-core (assert WARNING: issues.jsonl missing is absent for event stores in event_store_supports_read_queries_without_legacy_projection); sase tool run check passed on the fix commit. -r plan requires noting sase-1h8 that this phase applied the recorded fix
+
+[2026-10-09T01:15:26Z · sase-1h8.13.1.land] DISCOVERED ISSUE (sase-1h8.13.1 landing, from proof phase sase-1h8.13.1.7 PROPOSED FOLLOW-UP #1, 2026-10-08): after the read-model mutation ports, matched binding-level note/update cost still misses this epic's '< 10% from 1x to 8x' target. Seed 20261006, 20 runs, same corpora (1x 6899 beads/2000 streams; 8x 55516 beads/16000 streams), host load ~17. p95 before->after: 1x note 238.6->114.5ms, update 267.6->156.5ms; 8x note 1337.9->321.3ms, update 1586.2->455.5ms. 1x->8x p95 ratio after = 2.8x (note), 2.9x (update). Artifacts: before file:explicit:c6e84b9abb0aa9ec8460fdf0, after file:explicit:cf5bda21694e0423eeb52bd1. The perf gate sase-1h8.14 owns this: break the 8x cost down into admission sweep (still a full stat sweep per mutation, which grows with stream count), publication and binding overhead. Do not relax the threshold. Routed here instead of a task because it is this epic's own acceptance target.
 
 ## Phases
 
@@ -75,15 +77,24 @@ flowchart TD
     n12["sase-1h8.13.1.6: Port links, +1 and snooze onto the mutation view [closed]"]
     n13["sase-1h8.13.1.7: Parity, affected-row and failure-recovery proof plus matched 1x/8x evidence [closed]"]
     n14["sase-1h8.13.1.8: Steer re-planned unfinished phases toward a child epic [closed]"]
-    n15["sase-1h8.14: History-independence acceptance gate [in_progress]"]
-    n16["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
-    n17["sase-1h8.3: Hidden-clone gc and bead push-log retention [closed]"]
-    n18["sase-1h8.4: One parse, one validation, no lockless-read deletes [closed]"]
-    n19["sase-1h8.5: Store fingerprint binding and consumer migration [closed]"]
-    n20["sase-1h8.6: TUI Beads and Plans pane refresh [closed]"]
-    n21["sase-1h8.7: One store read per CLI command [closed]"]
-    n22["sase-1h8.8: Read-model substrate, freshness protocol, and parity harness [closed]"]
-    n23["sase-1h8.9: Snapshot-plus-tail incremental refresh [closed]"]
+    n15["sase-1h8.13.1.9: One mutation algorithm per entry point, with every suite in both modes [in_progress]"]
+    n16["sase-1h8.13.1.9.1: Run the nine existing mutation suites in cached and replay modes [closed]"]
+    n17["sase-1h8.13.1.9.2: Byte goldens for replay-backed mutations before any replay code is deleted [in_progress]"]
+    n18["sase-1h8.13.1.9.3: View-owned staging and one commit on both backings; create and notes unified [in_progress]"]
+    n19["sase-1h8.13.1.9.4: Open, close and remove as single view algorithms [in_progress]"]
+    n20["sase-1h8.13.1.9.5: Claims, ready marking and dependencies as single view algorithms [in_progress]"]
+    n21["sase-1h8.13.1.9.6: Links, +1 and snooze as single view algorithms [in_progress]"]
+    n22["sase-1h8.13.1.9.7: Shrink the over-cap read-model files and fix the stale phase-approval docs [in_progress]"]
+    n23["sase-1h8.13.1.9.8: Cleanup, single-algorithm audit, cached-equals-golden bytes, and acceptance evidence [in_progress]"]
+    n24["sase-1h8.14: History-independence acceptance gate [in_progress]"]
+    n25["sase-1h8.2: Constant-cost artifact-link outbox append [closed]"]
+    n26["sase-1h8.3: Hidden-clone gc and bead push-log retention [closed]"]
+    n27["sase-1h8.4: One parse, one validation, no lockless-read deletes [closed]"]
+    n28["sase-1h8.5: Store fingerprint binding and consumer migration [closed]"]
+    n29["sase-1h8.6: TUI Beads and Plans pane refresh [closed]"]
+    n30["sase-1h8.7: One store read per CLI command [closed]"]
+    n31["sase-1h8.8: Read-model substrate, freshness protocol, and parity harness [closed]"]
+    n32["sase-1h8.9: Snapshot-plus-tail incremental refresh [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -98,20 +109,29 @@ flowchart TD
     n6 --> n12
     n6 --> n13
     n6 --> n14
-    n0 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
-    n1 -.-> n22
-    n2 -.-> n15
+    n6 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
+    n15 --> n20
+    n15 --> n21
+    n15 --> n22
+    n15 --> n23
+    n0 --> n24
+    n0 --> n25
+    n0 --> n26
+    n0 --> n27
+    n0 --> n28
+    n0 --> n29
+    n0 --> n30
+    n0 --> n31
+    n0 --> n32
+    n1 -.-> n31
+    n2 -.-> n24
     n3 -.-> n5
     n4 -.-> n5
-    n5 -.-> n15
+    n5 -.-> n24
     n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
@@ -120,19 +140,28 @@ flowchart TD
     n10 -.-> n13
     n11 -.-> n13
     n12 -.-> n13
-    n16 -.-> n15
-    n17 -.-> n15
+    n16 -.-> n18
+    n17 -.-> n18
+    n18 -.-> n19
+    n18 -.-> n20
     n18 -.-> n21
-    n18 -.-> n22
-    n19 -.-> n3
-    n19 -.-> n20
-    n20 -.-> n15
-    n21 -.-> n3
-    n21 -.-> n4
-    n22 -.-> n3
+    n19 -.-> n23
+    n20 -.-> n23
+    n21 -.-> n23
     n22 -.-> n23
-    n23 -.-> n2
-    n23 -.-> n4
+    n25 -.-> n24
+    n26 -.-> n24
+    n27 -.-> n30
+    n27 -.-> n31
+    n28 -.-> n3
+    n28 -.-> n29
+    n29 -.-> n24
+    n30 -.-> n3
+    n30 -.-> n4
+    n31 -.-> n3
+    n31 -.-> n32
+    n32 -.-> n2
+    n32 -.-> n4
 ```
 
 ## Agents
@@ -152,7 +181,16 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.6/README.md) | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md) | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.8.md) | [sase-1h8.13.1.8](sase-1h8.13.1.8.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.land/README.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.1/README.md) | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 1 |
+| [bbugyi200.athena.sase-1h8.13.1.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md) | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md) | [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md) | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md) | [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.6/README.md) | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.8/README.md) | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.land/README.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.land.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
 | [bbugyi200.athena.sase-1h8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.3.md) | [sase-1h8.3](sase-1h8.3.md) | 1 |
@@ -200,6 +238,7 @@ flowchart TD
 | sase-core | [`sase-core@d18537a`](https://github.com/sase-org/sase-core/commit/d18537a5cae17179505ff71593fe55f8673f8260) | feat(beads): port claims, ready marking and dependencies onto the mutation view | [sase-1h8.13.1.5](sase-1h8.13.1.5.md) | 2026-10-08 19:08:11 EDT |
 | sase-core | [`sase-core@dd1a67c`](https://github.com/sase-org/sase-core/commit/dd1a67c0727ecb98920955c454785fb0dc98a50c) | feat(beads): port links, +1 and snooze mutations onto the mutation view | [sase-1h8.13.1.6](sase-1h8.13.1.6.md) | 2026-10-08 19:12:02 EDT |
 | sase-core | [`sase-core@3e45924`](https://github.com/sase-org/sase-core/commit/3e45924865a58d23cbe704e0a1b6e6130c086039) | test(sase-core): prove bounded mutation work and every-family read-model parity | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 2026-10-08 20:48:29 EDT |
+| sase-core | [`sase-core@ddafffd`](https://github.com/sase-org/sase-core/commit/ddafffd2be4ddb223d6eb767753283531795f939) | test(beads): run nine mutation suites in cached and replay modes | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 2026-10-08 22:41:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -213,9 +252,10 @@ flowchart TD
 | read-by | [agent:sase-1h8.1][4] | parent epic scope | 1 |
 | read-by | [agent:sase-1h8.11][5] | Need parent epic scope for phase sase-1h8.11 | 1 |
 | read-by | [agent:sase-1h8.13.1.2][6] | epic decisions | 1 |
-| read-by | [agent:sase-1h8.7][7] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
-| read-by | [agent:sase-1i4.land][8] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
-| read-by | [agent:sase-1i5.3][9] | coordination check for readonly phase | 1 |
+| read-by | [agent:sase-1h8.13.1.7][7] | epic decisions for phase work | 1 |
+| read-by | [agent:sase-1h8.7][8] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
+| read-by | [agent:sase-1i4.land][9] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
+| read-by | [agent:sase-1i5.3][10] | coordination check for readonly phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
@@ -223,8 +263,9 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
 
 <!-- sase:referenced-by:end -->

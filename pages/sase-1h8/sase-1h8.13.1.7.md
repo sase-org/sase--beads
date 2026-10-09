@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:cf5bda21694e0423eeb52bd1 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -46,3 +48,15 @@ proof: clean up after the parallel ports, prove no ordinary mutation still repla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3e45924`](https://github.com/sase-org/sase-core/commit/3e45924865a58d23cbe704e0a1b6e6130c086039) | test(sase-core): prove bounded mutation work and every-family read-model parity | [sase-1h8.13.1.7](sase-1h8.13.1.7.md) | 2026-10-08 20:48:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
+
+<!-- sase:referenced-by:end -->
