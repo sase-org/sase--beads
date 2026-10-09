@@ -20,7 +20,7 @@ command-preview: read an uninstalled plugin's declared sase_commands from its up
 ## Dependencies
 
 - **Depends on:** [sase-1if.5](sase-1if.5.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.7](sase-1if.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.7](sase-1if.7.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -41,7 +41,9 @@ command-preview: read an uninstalled plugin's declared sase_commands from its up
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1if.1][1] | Check phase is open before keying epic-symbol rows to it | 1 |
+| read-by | [agent:sase-1if.6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.6/README.md
 
 <!-- sase:referenced-by:end -->
