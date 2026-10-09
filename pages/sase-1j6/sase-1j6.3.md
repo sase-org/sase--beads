@@ -13,7 +13,7 @@ core-verdict: add the agent_auto_restart domain to sase-core (facts, witness, an
 
 ## Dependencies
 
-- **Depends on:** [sase-1j6.2](sase-1j6.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1j6.2](sase-1j6.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.4](sase-1j6.4.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

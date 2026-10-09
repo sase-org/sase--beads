@@ -28,7 +28,7 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1j6.1](sase-1j6.1.md) | Exec-first runner refresh and import firewall | ✓ closed | small | 2026-10-09 | 1 | 1 |
-| [sase-1j6.2](sase-1j6.2.md) | Runner boot identity, lifecycle breadcrumbs, and failure facts | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.2](sase-1j6.2.md) | Runner boot identity, lifecycle breadcrumbs, and failure facts | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.3](sase-1j6.3.md) | sase-core failure classifier, ledger state machine, and recovery wire | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1j6.4](sase-1j6.4.md) | Skew witnesses and the read-only scan command | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1j6.5](sase-1j6.5.md) | The healer, at-most-once ledger, and auto-restart CLI | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -43,7 +43,7 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 flowchart TD
     n0["sase-1j6: Update-Skew Agent Auto-Restart [in_progress]"]
     n1["sase-1j6.1: Exec-first runner refresh and import firewall [closed]"]
-    n2["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [in_progress]"]
+    n2["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [closed]"]
     n3["sase-1j6.3: sase-core failure classifier, ledger state machine, and recovery wire [in_progress]"]
     n4["sase-1j6.4: Skew witnesses and the read-only scan command [in_progress]"]
     n5["sase-1j6.5: The healer, at-most-once ledger, and auto-restart CLI [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1j6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.1/README.md) | [sase-1j6.1](sase-1j6.1.md) | 1 |
-| [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 0 |
+| [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
 | [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.3/README.md) | [sase-1j6.3](sase-1j6.3.md) | 0 |
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 0 |
 | [bbugyi200.athena.sase-1j6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.5/README.md) | [sase-1j6.5](sase-1j6.5.md) | 0 |
@@ -92,3 +92,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6ac3dc7`](https://github.com/sase-org/sase/commit/6ac3dc734e23f597502d011c4b6580ec7720a1fe) | fix(axe): keep runner code refresh import-free before re-exec | [sase-1j6.1](sase-1j6.1.md) | 2026-10-09 15:19:29 EDT |
+| sase | [`6dd92ea`](https://github.com/sase-org/sase/commit/6dd92ea0e37f1ac2d4b2744062013833d6a60b38) | feat(auto-restart): runner boot identity, lifecycle crumbs, failure facts | [sase-1j6.2](sase-1j6.2.md) | 2026-10-09 15:56:34 EDT |
