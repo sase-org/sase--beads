@@ -36,3 +36,15 @@ docs_truth: rewrite the %auto passages in docs/macros.md and docs/ace.md to matc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c58ae74`](https://github.com/sase-org/sase/commit/c58ae7491ad6ed341dfc91743f989e8623d84eab) | docs(sase-1id.6): align %auto docs with tier-scoped auto-approved truth | [sase-1id.6](sase-1id.6.md) | 2026-10-09 02:37:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1id.6--1][1] | check notes and remaining work before repair | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.6.md
+
+<!-- sase:referenced-by:end -->
