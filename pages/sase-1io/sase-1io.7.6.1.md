@@ -32,3 +32,15 @@ ready-gate: stop Full CI perf-floors failing on the bead-scale gate's ratio:read
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fb1186a`](https://github.com/sase-org/sase/commit/fb1186a229f3cfa5a2372edc0437d63d40709f73) | fix(perf): record bead-scale gate ratio:ready as known miss owned by sase-1j5 | [sase-1io.7.6.1](sase-1io.7.6.1.md) | 2026-10-09 15:40:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.7.6.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.6.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ ship: drive Master Gate, a fresh Full CI, and PR 299's checks green on a tip wit
 ## Dependencies
 
 - **Depends on:** [sase-1io.7.6.1](sase-1io.7.6.1.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [sase-1io.7.6.2](sase-1io.7.6.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1io.7.6.2](sase-1io.7.6.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
