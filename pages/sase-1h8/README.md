@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1h8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.3u.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.3u.linker.w0.md) · **Assignee:** `sase-1h8.land`
-**Created:** 2026-10-06 18:59:27 EDT
+**Created:** 2026-10-06 18:59:27 EDT · **Closed:** 2026-10-09 06:27:02 EDT
 **Plan:** [202610/bead\_store\_history\_independent\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bead_store_history_independent_performance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md
 
@@ -43,6 +43,68 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 
 [2026-10-09T08:39:39Z · sase-1h8.13.1.9.land] The 1x->8x perf miss is already recorded here as DISCOVERED ISSUE #5 for sase-1h8.14. (tale 202610/land_unify_bead_mutation_algorithms.md)
 
+[2026-10-09T10:15:24Z · sase-1h8.land] LAND TRIAGE (sase-1h8.land, master 563f046a85, sase-core 6faaa653, 2026-10-09). Outcomes for every phase PROPOSED FOLLOW-UP and epic DISCOVERED ISSUE:
+
+FILED:
+- sase-1it (bug, large), from 1h8.2 #3: the trusted machine outbox backlog is still growing. 8,545 sase.artifact-link-derived entries out of 13,496 lines / 9.2 MB, vs 6,985 / 11,446 / 7.8 MB on 10-06. Not caused by this epic, and no causal active epic was found.
+- sase-1iu (bug, large), from 1h8.14 #2 and epic DI #6: mutation p95 is 2.8-2.9x from 1x to 8x.
+- sase-1iv (bug, medium), from 1h8.14 #4: detail reads scale. Root cause pinned: read_model/queries.rs neighborhood_in loads every issue id and scans every link_provenance row; the plan meant it to use provenance-by-target rows.
+- sase-1iw (bug, large), from 1h8.14 #3: default list scales with the active set.
+- sase-1ix (bug, large), from 1h8.14 #5: TUI no-change refresh is linear in active rows.
+The epic plan's perf-gate rule routes a missed A1 criterion to a measured follow-up, never a looser threshold. These four were filed as tasks instead of kept as epic work because the epic did not cause them: it cut detail 495->7 ms, ready 408->4 ms, and note/update ~510->19 ms at 1x, and the remaining gaps each need their own design.
+- sase-1iy (feature, small), new and found at land: retire the older-core optional_rust_binding fallbacks this epic added, which comments say stay "until the pin bump". The CI pin covers them, but no sase-core release tag contains any 1h8 core commit and the published window is 0.35.x, so the fallbacks must stay until a release plus a floor raise (precedent: sase-17t).
+- sase-1iz (memory, xsmall), new: sase_beads.md and its init template still call issues.jsonl "a generated projection". Routed via /sase_memory_write as unauthorized.
+
+DECLINED as already resolved on master:
+- symvision _runs (1h8.1 #3, 1h8.2 #4, 1h8.3 #2/#3, 1h8.5 #2, 1h8.7 #5, 1h8.8 #4, 1h8.12 #4): sase-1h6 is closed and the imports are gone.
+- 1h8.7 #4, 1h8.9 #5, 1h8.10 #1: the core commits landed (26ec2d61, f8d05efc, 4b3831fd), and pin 5c4033f6 contains them all.
+- 1h8.13 #2/#3: delivered by child epic sase-1h8.13.1 and .13.1.9.
+- 1h8.13 #4 and epic DI #3: fixed by e411a392 and 64605819.
+- sase-core editor::directive and fmt (1h8.9 #4, 1h8.10 #3, 1h8.11 #4, 1h8.12 #1/#2, 1h8.13 #5): fixed by ec92ecce; the sase-core check was green at 2d009388 (ToolRun 9cf66105).
+- 1h8.10 #2 init repo README drift and 1h8.14 #6 init memory drift: `sase init repo --check` and `sase init memory --check` are clean.
+- 1h8.11 #1/#2/#3 and epic DI #2: test_bead_fast_path, test_claimed_status, test_app_import_budget, and test_finalizers_discard_guard_before_head give 40 passed on master.
+- Epic DI #1/#4: the symbols were privatized by 1fedb63427 (_BeadStoreFingerprint, _BeadBoardSnapshot, _hidden_sidecar_clone_dirs, ...).
+
+DECLINED as non-specific or infrastructure: 1h8.8 #5 (12-KNOWN aggregate) and 1h8.12 #4 (a full check timeout without failures).
+
+OTHER: superseded tasks closed with verification notes: sase-1h5 (by 1h8.6), sase-17r (by 1h8.3 plus 1h8.11; the reference clone now has 671 loose objects / 8.8 MiB, and a dissociate clone takes 7.5 s, was 24 s), and sase-x3 (by 1h8.12). `just symvision` is red only on sase-1if.6's declared_commands.py symbols, which is unrelated; I added a DISCOVERED ISSUE note on active epic sase-1if.
+
+[2026-10-09T10:27:02Z · sase-1h8.land] Land verification (sase-1h8.land plus closeout tale): all 14 phases are closed, and
+so are child epics sase-1h8.13.1 and sase-1h8.13.1.9. Commits were reviewed in sase
+(545caa7abd..10385fe3c3) and sase-core (6573ebb0..d2a954b0). The CI pin 5c4033f6
+contains every binding sase calls; later core commits added no bindings, so the
+routine ratchet covers them.
+
+Live store (read-only):
+
+- `doctor --verify-cache`: cache matches replay (7,247 issues).
+- Cache status and seal-watch lines render: 2,175 hot files, 15 ms sweep, 193 MiB,
+  all OK.
+- ready, blocked, list, page, stats, closed_ids, show, detail, resolve, search and
+  statuses_for_ids match a replay copy with no git dir exactly.
+- issues.jsonl is ignored and untracked in the beads sidecar.
+
+Epic DISCOVERED ISSUEs: #1/#4 are privatized, #2/#3 are fixed, and #6 is routed to
+sase-1iu.
+
+Integration: `_read_epic_follow_progress` (sase-1h7) now uses point reads instead
+of hydrating every closed bead. The perf runbook and Justfile gate comment name the
+owning tasks.
+
+A1: ready passes (1.03x from 1x to 8x). The list, detail, mutation and TUI misses
+are tracked as sase-1iw, sase-1iv, sase-1iu and sase-1ix, per the plan's perf-gate
+rule.
+
+Follow-ups filed: sase-1it, sase-1iu, sase-1iv, sase-1iw, sase-1ix, sase-1iy,
+sase-1iz. Superseded tasks closed: sase-1h5, sase-17r, sase-x3.
+
+`sase tool run check` result: run 25ac4afe3eba8f5c5d7dcaa671092ef8, verdict
+new_failures with only the 5 expected sase-1if.6 findings in
+src/sase/plugins/declared_commands.py (plan-declared pre-existing red; untouched by
+this tale); every other stage passed. Focused follow-progress suite: 21 passed.
+
+epic-symbols: empty.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,7 +128,7 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 
 ```mermaid
 flowchart TD
-    n0["sase-1h8: Bead store performance: remove replay waste, add a Rust read model, take issues.jsonl off the commit path [in_progress]"]
+    n0["sase-1h8: Bead store performance: remove replay waste, add a Rust read model, take issues.jsonl off the commit path [closed]"]
     n1["sase-1h8.1: Scaled-corpus bead benchmark harness [closed]"]
     n2["sase-1h8.10: Sealed-segment triggers and design [closed]"]
     n3["sase-1h8.11: issues.jsonl off the per-mutation path [closed]"]
@@ -204,7 +266,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md) | [sase-1h8.7](sase-1h8.7.md) | 3 |
 | [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 2 |
 | [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 2 |
-| [bbugyi200.athena.sase-1h8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.land/README.md) | [sase-1h8](README.md) | 0 |
+| [bbugyi200.athena.sase-1h8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.land.md) | [sase-1h8](README.md) | 1 |
 
 ## Commits
 
@@ -253,6 +315,7 @@ flowchart TD
 | sase-core | [`sase-core@2d00938`](https://github.com/sase-org/sase-core/commit/2d009388b7a371ec98ffc75b1dfedb69fcb86e7e) | refactor(bead): split mutation into single-algorithm modules with replay goldens | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 2026-10-09 02:59:18 EDT |
 | sase-core | [`sase-core@d2a954b`](https://github.com/sase-org/sase-core/commit/d2a954b056ef7ed30dee9b932f8fa0e702714446) | fix(bead): normalize lock\_wait\_ms in replay goldens and split golden case table | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 2026-10-09 04:55:48 EDT |
 | sase | [`10385fe`](https://github.com/sase-org/sase/commit/10385fe3c3c7ebbc5d63d64ff8a3f3a2daf8c128) | perf(beads): add bead-scale gate enforcement with list\_active\_page op and CI wiring | [sase-1h8.14](sase-1h8.14.md) | 2026-10-09 05:31:12 EDT |
+| sase | [`c0b3636`](https://github.com/sase-org/sase/commit/c0b36364a3c4ff10df42c3b29d884a49d7c5487d) | feat(beads): land sase-1h8 closeout with epic-follow point reads and perf-gate owners | [sase-1h8](README.md) | 2026-10-09 06:30:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -267,9 +330,10 @@ flowchart TD
 | read-by | [agent:sase-1h8.11][5] | Need parent epic scope for phase sase-1h8.11 | 1 |
 | read-by | [agent:sase-1h8.13.1.2][6] | epic decisions | 1 |
 | read-by | [agent:sase-1h8.13.1.7][7] | epic decisions for phase work | 1 |
-| read-by | [agent:sase-1h8.7][8] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
-| read-by | [agent:sase-1i4.land][9] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
-| read-by | [agent:sase-1i5.3][10] | coordination check for readonly phase | 1 |
+| read-by | [agent:sase-1h8.14][8] | Need epic decisions tail | 2 |
+| read-by | [agent:sase-1h8.7][9] | Need parent epic scope to verify phase close does not violate ancestor guard | 1 |
+| read-by | [agent:sase-1i4.land][10] | Need whether BeadStoreFingerprint is already a discovered issue on the open epic | 1 |
+| read-by | [agent:sase-1i5.3][11] | coordination check for readonly phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
@@ -278,8 +342,9 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.11/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.2/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.7/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i4.land/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1i5.3/README.md
 
 <!-- sase:referenced-by:end -->

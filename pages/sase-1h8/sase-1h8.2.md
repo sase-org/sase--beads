@@ -7,6 +7,20 @@
 **Created:** 2026-10-06 18:59:30 EDT · **Closed:** 2026-10-06 19:27:22 EDT
 **Plan:** [202610/bead\_store\_history\_independent\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1it][1] | sase-1h8.2 made outbox appends constant-cost and measured the backlog composition |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1it/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 outbox: stop re-reading and re-canonicalizing every outbox entry on each append (~2.9 s of every audited read) while keeping operation-id collision semantics.

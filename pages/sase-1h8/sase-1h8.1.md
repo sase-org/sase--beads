@@ -45,8 +45,10 @@ bench: add a deterministic realistic-shape synthetic bead corpus at any scale, a
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
 | read-by | [agent:sase-1h8.1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1h8.14][3] | Need bench baseline numbers for perf-gate before/after table | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md
 
 <!-- sase:referenced-by:end -->

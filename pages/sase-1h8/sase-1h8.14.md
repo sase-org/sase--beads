@@ -7,6 +7,26 @@
 **Created:** 2026-10-06 18:59:47 EDT · **Closed:** 2026-10-09 05:28:53 EDT
 **Plan:** [202610/bead\_store\_history\_independent\_performance.md](https://github.com/sase-org/sase--plans/blob/main/202610/bead_store_history_independent_performance.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1iu][1] | A1 perf-gate miss recorded by the sase-1h8 history-independence gate; drop this criterion from the bead-perf-scale-gate --gate-allow list when fixed |
+| related | [bead:sase-1iv][2] | A1 perf-gate miss recorded by the sase-1h8 history-independence gate; drop this criterion from the bead-perf-scale-gate --gate-allow list when fixed |
+| related | [bead:sase-1iw][3] | A1 perf-gate miss recorded by the sase-1h8 history-independence gate; drop this criterion from the bead-perf-scale-gate --gate-allow list when fixed |
+| related | [bead:sase-1ix][4] | A1 perf-gate miss recorded by the sase-1h8 history-independence gate; drop this criterion from the bead-perf-scale-gate --gate-allow list when fixed |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1iu/README.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1iv/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1iw/README.md
+[4]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ix/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 perf-gate: enforce the A1 history-independence criteria on scaled corpora in CI and locally, and record the final before/after results.
@@ -54,7 +74,9 @@ perf-gate: enforce the A1 history-independence criteria on scaled corpora in CI 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3y.grk][1] | Need 1h8 phase statuses that overlap sase-1h5 Beads-pane work | 1 |
+| read-by | [agent:sase-1h8.14][2] | Need phase notes and remaining work | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3y.grk/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md
 
 <!-- sase:referenced-by:end -->
