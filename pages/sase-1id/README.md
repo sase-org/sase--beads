@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1id.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1id.4/README.md) | [sase-1id.4](sase-1id.4.md) | 1 |
 | [bbugyi200.athena.sase-1id.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.5.md) | [sase-1id.5](sase-1id.5.md) | 1 |
 | [bbugyi200.athena.sase-1id.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.6.md) | [sase-1id.6](sase-1id.6.md) | 1 |
-| [bbugyi200.athena.sase-1id.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.land.md) | [sase-1id](README.md) | 2 |
+| [bbugyi200.athena.sase-1id.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1id.land.md) | [sase-1id](README.md) | 3 |
 
 ## Commits
 
@@ -102,6 +102,7 @@ flowchart TD
 | sase | [`c58ae74`](https://github.com/sase-org/sase/commit/c58ae7491ad6ed341dfc91743f989e8623d84eab) | docs(sase-1id.6): align %auto docs with tier-scoped auto-approved truth | [sase-1id.6](sase-1id.6.md) | 2026-10-09 02:37:13 EDT |
 | sase-core | [`sase-core@6faaa65`](https://github.com/sase-org/sase-core/commit/6faaa65310d02be7e46704f876a8a718f16ed9eb) | fix(sase-1id): carry auto\_approve\_argument on AgentMetaWire; canonical %auto colon errors | [sase-1id](README.md) | 2026-10-09 05:38:31 EDT |
 | sase | [`7e87589`](https://github.com/sase-org/sase/commit/7e87589fb5d89fcc5a981301fd96b32f639091a9) | fix(sase-1id): close truthful-%auto land-review gaps, items 1-9 with tests | [sase-1id](README.md) | 2026-10-09 06:02:54 EDT |
+| sase--plans | [`sase--plans@27a2061`](https://github.com/sase-org/sase--plans/commit/27a2061b8e6b9af8b462d4d516c1c060dc39b18a) | chore(sase-1id): mark auto\_p0\_safety\_tales plan done | [sase-1id](README.md) | 2026-10-09 06:06:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
