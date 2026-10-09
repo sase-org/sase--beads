@@ -38,7 +38,7 @@ Every automatic gate outcome comes from one Rust evaluate() applied to one persi
 | [sase-1ip.3](sase-1ip.3.md) | Core summary, sentences, mutation, and decision log | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.4](sase-1ip.4.md) | Persist the record and read it everywhere | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.5](sase-1ip.5.md) | Structural inheritance and a truthful A toggle | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1ip.6](sase-1ip.6.md) | Gates decide through evaluate() | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1ip.6](sase-1ip.6.md) | Gates decide through evaluate() | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.7](sase-1ip.7.md) | sase autonomy CLI, inspect surfaces, and acceptance | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n3["sase-1ip.3: Core summary, sentences, mutation, and decision log [closed]"]
     n4["sase-1ip.4: Persist the record and read it everywhere [closed]"]
     n5["sase-1ip.5: Structural inheritance and a truthful A toggle [closed]"]
-    n6["sase-1ip.6: Gates decide through evaluate() [in_progress]"]
+    n6["sase-1ip.6: Gates decide through evaluate() [closed]"]
     n7["sase-1ip.7: sase autonomy CLI, inspect surfaces, and acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ip.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md) | [sase-1ip.3](sase-1ip.3.md) | 1 |
 | [bbugyi200.athena.sase-1ip.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md) | [sase-1ip.4](sase-1ip.4.md) | 1 |
 | [bbugyi200.athena.sase-1ip.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md) | [sase-1ip.5](sase-1ip.5.md) | 1 |
-| [bbugyi200.athena.sase-1ip.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.6/README.md) | [sase-1ip.6](sase-1ip.6.md) | 0 |
+| [bbugyi200.athena.sase-1ip.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.6.md) | [sase-1ip.6](sase-1ip.6.md) | 1 |
 | [bbugyi200.athena.sase-1ip.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.7/README.md) | [sase-1ip.7](sase-1ip.7.md) | 0 |
 | [bbugyi200.athena.sase-1ip.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.land/README.md) | [sase-1ip](README.md) | 0 |
 
@@ -94,6 +94,7 @@ flowchart TD
 | sase-core | [`sase-core@51b66fd`](https://github.com/sase-org/sase-core/commit/51b66fdb53fc3a80ec2e7bcc4a670858b9a8cb72) | feat(autonomy): core summary, sentences, mutation, and decision log | [sase-1ip.3](sase-1ip.3.md) | 2026-10-09 08:21:45 EDT |
 | sase | [`73f593a`](https://github.com/sase-org/sase/commit/73f593a3a5dd4732af63023aee47d3465807dada) | feat(autonomy): persist autonomy record and read it everywhere | [sase-1ip.4](sase-1ip.4.md) | 2026-10-09 10:25:51 EDT |
 | sase | [`9fd8a08`](https://github.com/sase-org/sase/commit/9fd8a081f45689655249b7bf6ed7b561de65b8bf) | feat(autonomy): structural inheritance of live record and truthful A toggle | [sase-1ip.5](sase-1ip.5.md) | 2026-10-09 11:49:46 EDT |
+| sase | [`6f6754f`](https://github.com/sase-org/sase/commit/6f6754f97db91a80c105b52d7719f31c29814173) | feat(gates): resolve plan, epic, and question gates through core evaluate() | [sase-1ip.6](sase-1ip.6.md) | 2026-10-09 13:02:53 EDT |
 
 <!-- sase:referenced-by:start -->
 

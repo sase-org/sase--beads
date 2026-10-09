@@ -36,3 +36,15 @@ inherit: every host-composed session successor inherits the live record structur
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9fd8a08`](https://github.com/sase-org/sase/commit/9fd8a081f45689655249b7bf6ed7b561de65b8bf) | feat(autonomy): structural inheritance of live record and truthful A toggle | [sase-1ip.5](sase-1ip.5.md) | 2026-10-09 11:49:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ip.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md
+
+<!-- sase:referenced-by:end -->
