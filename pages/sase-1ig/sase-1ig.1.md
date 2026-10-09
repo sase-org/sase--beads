@@ -20,7 +20,7 @@ venv-rename: consolidate the three copy-pasted venv recipes into `_install-venv 
 ## Dependencies
 
 - **Blocks:** [sase-1ig.3](sase-1ig.3.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1ig.4](sase-1ig.4.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.4](sase-1ig.4.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.5](sase-1ig.5.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.7](sase-1ig.7.md) ✓ · ⧖ 2026-10-08
 
