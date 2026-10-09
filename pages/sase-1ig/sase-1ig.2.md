@@ -28,4 +28,10 @@ engine-core: create the stdlib-only `tools/sase_install` engine with its CLI, ag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 0 |
+| [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d0b6e2e`](https://github.com/sase-org/sase/commit/d0b6e2e99d180dc132ab735967565cdd1c62e81b) | feat(install): add stdlib-only sase\_install engine with dry-run planning | [sase-1ig.2](sase-1ig.2.md) | 2026-10-08 20:44:30 EDT |
