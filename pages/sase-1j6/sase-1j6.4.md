@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1j6](README.md) / sase-1j6.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.47.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.47.linker.w0.md) · **Assignee:** `sase-1j6.4` · **Size:** medium
-**Created:** 2026-10-09 15:02:06 EDT
+**Created:** 2026-10-09 15:02:06 EDT · **Closed:** 2026-10-09 18:41:00 EDT
 **Plan:** [202610/update\_skew\_agent\_auto\_restart.md](https://github.com/sase-org/sase--plans/blob/main/202610/update_skew_agent_auto_restart.md)
 
 ## Description
@@ -19,10 +19,12 @@ witness-scan: collect managed roots and the W1-W3 witnesses (boot identity drift
 
 [2026-10-09T22:29:35Z · sase-1j6.4] PROPOSED FOLLOW-UP: symvision unused-public leftovers from sase-1j6.3 await healer consumers (facade claim/advance/lineage/episode/in-flight/schema fns; AgentFailure ChainLink/Frame/ImportError/AttributeError, LedgerHistory, Probe wires); proven pre-existing on clean base via worktree. Healer phase sase-1j6.5 should consume them or add --epic-symbol rows re-keyed to itself. Deleted only the dead private _opt_int helper in the same file.
 
+[2026-10-09T22:41:00Z · sase-1j6.4] Closed by explicit `sase stitch create -B close` after create_commit landed 3ba224b9c1 ("feat(agent): skew witnesses and read-only auto-restart scan"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1j6.4` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1j6.3](sase-1j6.3.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1j6.5](sase-1j6.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.5](sase-1j6.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -35,3 +37,15 @@ witness-scan: collect managed roots and the W1-W3 witnesses (boot identity drift
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3ba224b`](https://github.com/sase-org/sase/commit/3ba224b9c1875fc3b8f60a4ebae9efc922917980) | feat(agent): skew witnesses and read-only auto-restart scan | [sase-1j6.4](sase-1j6.4.md) | 2026-10-09 18:36:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md
+
+<!-- sase:referenced-by:end -->
