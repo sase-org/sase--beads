@@ -52,8 +52,8 @@ flowchart TD
     n5["sase-1io.5: Prove every release gate green [closed]"]
     n6["sase-1io.6: Merge the release PR and publish v0.18.0 [closed]"]
     n7["sase-1io.7: Fix the read-model cache race, cut sase-core-rs, and ship sase v0.18.0 [in_progress]"]
-    n8["sase-1io.7.1: Make the sase-core read-model cache safe under concurrent access [in_progress]"]
-    n9["sase-1io.7.2: Clear the remaining sase Master Gate failures [in_progress]"]
+    n8["sase-1io.7.1: Make the sase-core read-model cache safe under concurrent access [closed]"]
+    n9["sase-1io.7.2: Clear the remaining sase Master Gate failures [closed]"]
     n10["sase-1io.7.3: Clear the Full CI-only failures [in_progress]"]
     n11["sase-1io.7.4: Cut and publish the sase-core-rs release [in_progress]"]
     n12["sase-1io.7.5: Prove the release gates green, merge PR 299, and publish v0.18.0 [in_progress]"]
@@ -90,8 +90,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1io.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.4.md) | [sase-1io.4](sase-1io.4.md) | 1 |
 | [bbugyi200.athena.sase-1io.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.5/README.md) | [sase-1io.5](sase-1io.5.md) | 1 |
 | [bbugyi200.athena.sase-1io.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.6/README.md) | [sase-1io.6](sase-1io.6.md) | 0 |
-| [bbugyi200.athena.sase-1io.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.1/README.md) | [sase-1io.7.1](sase-1io.7.1.md) | 0 |
-| [bbugyi200.athena.sase-1io.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.2.md) | [sase-1io.7.2](sase-1io.7.2.md) | 1 |
+| [bbugyi200.athena.sase-1io.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.1/README.md) | [sase-1io.7.1](sase-1io.7.1.md) | 1 |
+| [bbugyi200.athena.sase-1io.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.2.md) | [sase-1io.7.2](sase-1io.7.2.md) | 0 |
 | [bbugyi200.athena.sase-1io.7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.3.md) | [sase-1io.7.3](sase-1io.7.3.md) | 0 |
 | [bbugyi200.athena.sase-1io.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.4/README.md) | [sase-1io.7.4](sase-1io.7.4.md) | 0 |
 | [bbugyi200.athena.sase-1io.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.5/README.md) | [sase-1io.7.5](sase-1io.7.5.md) | 0 |
@@ -106,7 +106,7 @@ flowchart TD
 | sase | [`988adae`](https://github.com/sase-org/sase/commit/988adae0673011b46fde4c96e0ec3ca741b34cbf) | fix(tui-tests): seed agents roster and materialize archived plan fixture in Full CI-only tests | [sase-1io.4](sase-1io.4.md) | 2026-10-09 04:50:16 EDT |
 | sase | [`e2efd56`](https://github.com/sase-org/sase/commit/e2efd5624252ded543fc6af03c0fb0c9fe760090) | fix(sase-1io.3): clear every Master Gate failure | [sase-1io.3](sase-1io.3.md) | 2026-10-09 05:02:37 EDT |
 | sase | [`6c78359`](https://github.com/sase-org/sase/commit/6c783599c1b51cac61f72930935b54dc409c2ada) | fix(tests): repair Master Gate failures for bead sase-1io.5 | [sase-1io.5](sase-1io.5.md) | 2026-10-09 05:59:13 EDT |
-| sase | [`f542104`](https://github.com/sase-org/sase/commit/f542104b5c400c6faee10842d865e3440ec06a5a) | fix(gate): privatize declared\_commands helpers and stabilize prompt-key perf smoke | [sase-1io.7.2](sase-1io.7.2.md) | 2026-10-09 07:33:30 EDT |
+| sase-core | [`sase-core@5c5bcdc`](https://github.com/sase-org/sase-core/commit/5c5bcdc43fca7787dbc0a46711b3307e25150148) | fix(bead-read-model): stop unlinking the live read-model cache under concurrent access | [sase-1io.7.1](sase-1io.7.1.md) | 2026-10-09 07:53:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

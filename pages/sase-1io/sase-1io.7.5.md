@@ -13,7 +13,7 @@ ship: ratchet PR 299 onto the new core floor, drive Master Gate, Full CI, and th
 
 ## Dependencies
 
-- **Depends on:** [sase-1io.7.2](sase-1io.7.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1io.7.2](sase-1io.7.2.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1io.7.3](sase-1io.7.3.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [sase-1io.7.4](sase-1io.7.4.md) ◐ · ⧖ 2026-10-09
 
