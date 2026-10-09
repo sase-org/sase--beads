@@ -20,7 +20,7 @@ help-doctor: list plugin commands in sase -H (and sase -h per decision) with pro
 ## Dependencies
 
 - **Depends on:** [sase-1if.1](sase-1if.1.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.10](sase-1if.10.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.10](sase-1if.10.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

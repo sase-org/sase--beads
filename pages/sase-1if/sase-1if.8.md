@@ -17,7 +17,7 @@ listen-fast-start: in the sase-listen repo, defer heavy imports into command han
 
 ## Dependencies
 
-- **Blocks:** [sase-1if.10](sase-1if.10.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.10](sase-1if.10.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.2](sase-1if.2.md) ✓ · ⧖ 2026-10-08
 
 ## Agents

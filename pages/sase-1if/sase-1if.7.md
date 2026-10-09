@@ -17,7 +17,7 @@ updates-tab: render the command chip in Updates rows, the shared detail panel, i
 
 ## Dependencies
 
-- **Blocks:** [sase-1if.10](sase-1if.10.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.10](sase-1if.10.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.6](sase-1if.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
