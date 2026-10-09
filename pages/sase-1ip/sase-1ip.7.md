@@ -35,3 +35,15 @@ cli: sase autonomy explain, list, log, and show; autonomy in agent list, agent s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`70c51ad`](https://github.com/sase-org/sase/commit/70c51adbdd6dfe3ef66cea4ec9dc74ccd6fc1608) | feat(sase-1ip.7): sase autonomy CLI, inspect surfaces, and acceptance | [sase-1ip.7](sase-1ip.7.md) | 2026-10-09 15:19:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ip.7--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.7.md
+
+<!-- sase:referenced-by:end -->
