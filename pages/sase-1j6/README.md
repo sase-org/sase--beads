@@ -31,7 +31,7 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 |---|---|---|---|---|---:|---:|
 | [sase-1j6.1](sase-1j6.1.md) | Exec-first runner refresh and import firewall | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [sase-1j6.2](sase-1j6.2.md) | Runner boot identity, lifecycle breadcrumbs, and failure facts | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1j6.3](sase-1j6.3.md) | sase-core failure classifier, ledger state machine, and recovery wire | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [sase-1j6.3](sase-1j6.3.md) | sase-core failure classifier, ledger state machine, and recovery wire | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1j6.4](sase-1j6.4.md) | Skew witnesses and the read-only scan command | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1j6.5](sase-1j6.5.md) | The healer, at-most-once ledger, and auto-restart CLI | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1j6.6](sase-1j6.6.md) | Runner doorbell, scheduler job, and waiter safety | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -80,7 +80,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1j6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.1/README.md) | [sase-1j6.1](sase-1j6.1.md) | 1 |
 | [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
-| [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 1 |
+| [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 2 |
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 0 |
 | [bbugyi200.athena.sase-1j6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.5/README.md) | [sase-1j6.5](sase-1j6.5.md) | 0 |
 | [bbugyi200.athena.sase-1j6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.6/README.md) | [sase-1j6.6](sase-1j6.6.md) | 0 |
@@ -96,6 +96,7 @@ flowchart TD
 | sase | [`6ac3dc7`](https://github.com/sase-org/sase/commit/6ac3dc734e23f597502d011c4b6580ec7720a1fe) | fix(axe): keep runner code refresh import-free before re-exec | [sase-1j6.1](sase-1j6.1.md) | 2026-10-09 15:19:29 EDT |
 | sase | [`6dd92ea`](https://github.com/sase-org/sase/commit/6dd92ea0e37f1ac2d4b2744062013833d6a60b38) | feat(auto-restart): runner boot identity, lifecycle crumbs, failure facts | [sase-1j6.2](sase-1j6.2.md) | 2026-10-09 15:56:34 EDT |
 | sase-core | [`sase-core@d4ad8c9`](https://github.com/sase-org/sase-core/commit/d4ad8c9953a04d2663f4d406386a97b3376bb8b2) | feat(agent): add agent auto-restart core modules and scan wire | [sase-1j6.3](sase-1j6.3.md) | 2026-10-09 17:40:05 EDT |
+| sase | [`f472226`](https://github.com/sase-org/sase/commit/f472226d5610cfb214ff2411b65cf2eef66c8f14) | feat(agent): add agent auto-restart wire with deferred TUI imports | [sase-1j6.3](sase-1j6.3.md) | 2026-10-09 17:45:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
