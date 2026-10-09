@@ -19,7 +19,7 @@ tool-proc-facts: stamp a tool-run proc's session only when a live TUI submitted 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ih.3](sase-1ih.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ih.3](sase-1ih.3.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

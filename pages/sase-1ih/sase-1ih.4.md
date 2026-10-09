@@ -14,7 +14,7 @@ agents-tool-attribution: build the run-to-node index once per generation (owner,
 ## Dependencies
 
 - **Depends on:** [sase-1ih.2](sase-1ih.2.md) ◐ · ⧖ 2026-10-08
-- **Depends on:** [sase-1ih.3](sase-1ih.3.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [sase-1ih.3](sase-1ih.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ih.5](sase-1ih.5.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
