@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/auto_e1_autonomy_record.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/auto_e1_autonomy_record.md
 
@@ -36,7 +36,7 @@ Every automatic gate outcome comes from one Rust evaluate() applied to one persi
 | [sase-1ip.1](sase-1ip.1.md) | Autonomy behavior contract suite | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.2](sase-1ip.2.md) | Core autonomy record, compatibility profiles, and evaluate() | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1ip.3](sase-1ip.3.md) | Core summary, sentences, mutation, and decision log | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1ip.4](sase-1ip.4.md) | Persist the record and read it everywhere | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1ip.4](sase-1ip.4.md) | Persist the record and read it everywhere | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.5](sase-1ip.5.md) | Structural inheritance and a truthful A toggle | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1ip.6](sase-1ip.6.md) | Gates decide through evaluate() | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1ip.7](sase-1ip.7.md) | sase autonomy CLI, inspect surfaces, and acceptance | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n1["sase-1ip.1: Autonomy behavior contract suite [closed]"]
     n2["sase-1ip.2: Core autonomy record, compatibility profiles, and evaluate() [closed]"]
     n3["sase-1ip.3: Core summary, sentences, mutation, and decision log [closed]"]
-    n4["sase-1ip.4: Persist the record and read it everywhere [in_progress]"]
+    n4["sase-1ip.4: Persist the record and read it everywhere [closed]"]
     n5["sase-1ip.5: Structural inheritance and a truthful A toggle [in_progress]"]
     n6["sase-1ip.6: Gates decide through evaluate() [in_progress]"]
     n7["sase-1ip.7: sase autonomy CLI, inspect surfaces, and acceptance [in_progress]"]
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ip.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.1.md) | [sase-1ip.1](sase-1ip.1.md) | 1 |
 | [bbugyi200.athena.sase-1ip.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md) | [sase-1ip.2](sase-1ip.2.md) | 2 |
 | [bbugyi200.athena.sase-1ip.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md) | [sase-1ip.3](sase-1ip.3.md) | 1 |
-| [bbugyi200.athena.sase-1ip.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md) | [sase-1ip.4](sase-1ip.4.md) | 0 |
+| [bbugyi200.athena.sase-1ip.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md) | [sase-1ip.4](sase-1ip.4.md) | 1 |
 | [bbugyi200.athena.sase-1ip.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md) | [sase-1ip.5](sase-1ip.5.md) | 0 |
 | [bbugyi200.athena.sase-1ip.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.6/README.md) | [sase-1ip.6](sase-1ip.6.md) | 0 |
 | [bbugyi200.athena.sase-1ip.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.7/README.md) | [sase-1ip.7](sase-1ip.7.md) | 0 |
@@ -92,6 +92,7 @@ flowchart TD
 | sase-core | [`sase-core@01b0ad7`](https://github.com/sase-org/sase-core/commit/01b0ad734e7acee14bf5fd88ab12e449540b88f3) | feat(autonomy): add core record, compatibility profiles, and evaluate() | [sase-1ip.2](sase-1ip.2.md) | 2026-10-09 06:37:51 EDT |
 | sase | [`9c5000f`](https://github.com/sase-org/sase/commit/9c5000f2dbb126962ea0a84856d0a49115450dc7) | feat(autonomy): carry core-owned autonomy record on AgentMetaWire | [sase-1ip.2](sase-1ip.2.md) | 2026-10-09 07:44:31 EDT |
 | sase-core | [`sase-core@51b66fd`](https://github.com/sase-org/sase-core/commit/51b66fdb53fc3a80ec2e7bcc4a670858b9a8cb72) | feat(autonomy): core summary, sentences, mutation, and decision log | [sase-1ip.3](sase-1ip.3.md) | 2026-10-09 08:21:45 EDT |
+| sase | [`73f593a`](https://github.com/sase-org/sase/commit/73f593a3a5dd4732af63023aee47d3465807dada) | feat(autonomy): persist autonomy record and read it everywhere | [sase-1ip.4](sase-1ip.4.md) | 2026-10-09 10:25:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -100,7 +101,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ip.2][1] | epic scope decisions | 1 |
+| read-by | [agent:sase-1ip.3][2] | epic scope and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md
 
 <!-- sase:referenced-by:end -->

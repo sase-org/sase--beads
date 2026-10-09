@@ -19,7 +19,7 @@ contract: table-driven %auto behavior contract that runs every spelling and stat
 
 ## Dependencies
 
-- **Blocks:** [sase-1ip.4](sase-1ip.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1ip.4](sase-1ip.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

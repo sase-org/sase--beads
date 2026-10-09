@@ -34,3 +34,15 @@ core_summary: sase-core summary wire, decision and awareness sentences, revision
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@51b66fd`](https://github.com/sase-org/sase-core/commit/51b66fdb53fc3a80ec2e7bcc4a670858b9a8cb72) | feat(autonomy): core summary, sentences, mutation, and decision log | [sase-1ip.3](sase-1ip.3.md) | 2026-10-09 08:21:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ip.3][1] | phase detail notes history | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md
+
+<!-- sase:referenced-by:end -->
