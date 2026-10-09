@@ -25,10 +25,4 @@ gateway-observability: install a tracing subscriber in the sase_gateway binary. 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j1.4.md) | [sase-1j1.4](sase-1j1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@d1275df`](https://github.com/sase-org/sase-core/commit/d1275df2d06c0001fb5c7090d92e103b6e5d6fd4) | feat(gateway): log fleet snapshot builds and checkpoint oversized index WAL | [sase-1j1.4](sase-1j1.4.md) | 2026-10-09 11:06:53 EDT |
+| [bbugyi200.athena.sase-1j1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j1.4.md) | [sase-1j1.4](sase-1j1.4.md) | 0 |

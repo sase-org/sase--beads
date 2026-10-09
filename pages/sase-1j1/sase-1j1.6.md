@@ -17,7 +17,7 @@ apollo-rollout-verify: confirm the fixes have landed and that apollo's install c
 - **Depends on:** [sase-1j1.2](sase-1j1.2.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1j1.3](sase-1j1.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1j1.4](sase-1j1.4.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [sase-1j1.5](sase-1j1.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1j1.5](sase-1j1.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

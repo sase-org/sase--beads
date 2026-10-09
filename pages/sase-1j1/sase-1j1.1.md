@@ -26,13 +26,7 @@ gateway-single-flight: in sase-core, rewrite the FleetReadService snapshot refre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.1/README.md) | [sase-1j1.1](sase-1j1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@c02edc5`](https://github.com/sase-org/sase-core/commit/c02edc5bbfa8875733c9f689eedee9fc240eda74) | feat(fleet-reads): bound refresh stampedes with single in-flight build and backoff | [sase-1j1.1](sase-1j1.1.md) | 2026-10-09 10:31:50 EDT |
+| [bbugyi200.athena.sase-1j1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.1/README.md) | [sase-1j1.1](sase-1j1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

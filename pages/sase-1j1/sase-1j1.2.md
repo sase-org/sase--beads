@@ -24,13 +24,7 @@ index-sqlite-hygiene: in sase-core agent_scan/index, set journal_size_limit and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.2/README.md) | [sase-1j1.2](sase-1j1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@1c08f09`](https://github.com/sase-org/sase-core/commit/1c08f09787ffcac991437a3b0cb9b3ea57091117) | feat(agent-scan): bound index WAL growth and batch self-heal repairs | [sase-1j1.2](sase-1j1.2.md) | 2026-10-09 10:30:00 EDT |
+| [bbugyi200.athena.sase-1j1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j1.2/README.md) | [sase-1j1.2](sase-1j1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
