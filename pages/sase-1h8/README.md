@@ -187,7 +187,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.4/README.md) | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.5/README.md) | [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.6/README.md) | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 0 |
-| [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 1 |
+| [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2 |
 | [bbugyi200.athena.sase-1h8.13.1.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.8/README.md) | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.land/README.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 0 |
 | [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.land.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
@@ -241,6 +241,7 @@ flowchart TD
 | sase-core | [`sase-core@ddafffd`](https://github.com/sase-org/sase-core/commit/ddafffd2be4ddb223d6eb767753283531795f939) | test(beads): run nine mutation suites in cached and replay modes | [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) | 2026-10-08 22:41:11 EDT |
 | sase-core | [`sase-core@ee4cf2f`](https://github.com/sase-org/sase-core/commit/ee4cf2ff37c5cbe1b7e8155d88861ef6eec98495) | test(sase-core): add mutation replay golden coverage for all entry points | [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) | 2026-10-08 22:42:31 EDT |
 | sase-core | [`sase-core@5c4033f`](https://github.com/sase-org/sase-core/commit/5c4033f6d2284eaf717795c5cfc892e12827d510) | refactor(bead-read-model): split over-cap store and tail into resume, refresh, and meta-keys modules | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2026-10-08 23:30:49 EDT |
+| sase | [`9ed4b0f`](https://github.com/sase-org/sase/commit/9ed4b0fb930d33884c539ed701a91c630196878a) | docs(beads): clarify phase auto-approve parks epic-tier plan for human review | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2026-10-08 23:35:42 EDT |
 
 <!-- sase:referenced-by:start -->
 

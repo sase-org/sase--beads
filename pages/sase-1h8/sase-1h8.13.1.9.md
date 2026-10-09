@@ -25,8 +25,10 @@ Every ordinary bead mutation runs one algorithm over MutationView, on both the c
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1h8.13.1.9.1][1] | epic decisions and symbols | 2 |
 | read-by | [agent:sase-1h8.13.1.9.2][2] | epic scope and decisions | 1 |
+| read-by | [agent:sase-1h8.13.1.9.7][3] | epic decisions | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md
 
 <!-- sase:referenced-by:end -->
