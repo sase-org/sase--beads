@@ -24,7 +24,13 @@ listen-fast-start: in the sase-listen repo, defer heavy imports into command han
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1if.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.8/README.md) | [sase-1if.8](sase-1if.8.md) | 0 |
+| [bbugyi200.apollo.sase-1if.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1if.8/README.md) | [sase-1if.8](sase-1if.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-listen | [`sase-listen@bbaf58f`](https://github.com/sase-org/sase-listen/commit/bbaf58f7cdedecc54af5549cca1672afd71ba6e3) | perf(cli): defer heavy imports into command handlers for fast startup | [sase-1if.8](sase-1if.8.md) | 2026-10-08 16:07:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
