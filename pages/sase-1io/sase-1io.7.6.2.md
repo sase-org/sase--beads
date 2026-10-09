@@ -23,6 +23,8 @@ reply-card-race: find and fix why ctrl+j sometimes never switches the Agents dec
 
 [2026-10-09T20:39:06Z · sase-1io.7.6.2--1] Reply-card race fixed and verified: decks unit dir 581 passed, ruff+mypy clean on touched files, both check-red tool tests pass in isolation on working tree and clean base (identical behavior, load-induced flakes: soft-ceiling timeout and sqlite database-is-locked on same gw8 worker, touched=false), all other check stages green (fmt/ruff/mypy/symvision/SASE validation/committed plans), epic-symbols clean
 
+[2026-10-09T20:52:44Z · sase-1io.7.6.3] ship phase sase-1io.7.6.3 fixed the symvision private-import red: reconcile_prompt_with_live_auto_state is now public (was _reconcile_... imported across files since 6ac3dc734e); symvision passes locally
+
 ## Dependencies
 
 - **Blocks:** [sase-1io.7.6.3](sase-1io.7.6.3.md) ◐ · ⧖ 2026-10-09
@@ -38,3 +40,15 @@ reply-card-race: find and fix why ctrl+j sometimes never switches the Agents dec
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a36b5c9`](https://github.com/sase-org/sase/commit/a36b5c90ca0322c1ce303dae82beb89681973747) | fix(agents-deck): stop dropping the Reply-card switch under parallel load | [sase-1io.7.6.2](sase-1io.7.6.2.md) | 2026-10-09 16:40:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1io.7.6.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.6.2.md
+
+<!-- sase:referenced-by:end -->
