@@ -17,7 +17,7 @@ sase-gate-fixes: fix the CI-only prompt-key perf smoke failure, resolve the decl
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

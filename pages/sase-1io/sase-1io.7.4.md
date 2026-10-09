@@ -26,7 +26,7 @@ core-release: wait for green sase-core CI on the race fix, dispatch the urgent r
 ## Dependencies
 
 - **Depends on:** [sase-1io.7.1](sase-1io.7.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

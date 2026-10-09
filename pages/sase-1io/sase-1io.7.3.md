@@ -27,7 +27,7 @@ full-ci-fixes: triage and regenerate or repair the drifted PNG goldens that keep
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.5](sase-1io.7.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

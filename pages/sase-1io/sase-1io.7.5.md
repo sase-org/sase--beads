@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1io.7](sase-1io.7.md) / sase-1io.7.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1io.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.land.md) · **Assignee:** `sase-1io.7.5` · **Size:** medium
-**Created:** 2026-10-09 06:48:49 EDT
+**Created:** 2026-10-09 06:48:49 EDT · **Closed:** 2026-10-09 14:18:56 EDT
 **Plan:** [202610/finish\_release\_v0\_18\_0.md](https://github.com/sase-org/sase--plans/blob/main/202610/finish_release_v0_18_0.md)
 
 ## Previously Closed
@@ -30,6 +30,8 @@ ship: ratchet PR 299 onto the new core floor, drive Master Gate, Full CI, and th
 [2026-10-09T17:58:50Z · sase-1io.7.5] PROPOSED FOLLOW-UP: test_tool observe test_identical_contents_in_two_checkout_paths flakes on CI when git maintenance deletes maintenance.lock mid-copytree (MG run 37965408063 shard 8); passes locally; consider disabling background maintenance in that fixture or retrying copytree.
 
 [2026-10-09T17:58:58Z · sase-1io.7.5] PROPOSED FOLLOW-UP: test_midword_peek_reveals_then_finishes_word failed once on CI (MG run 37964865185 shard 3, commit f0c732e70d) but passes locally 2x (23 passed each); same prompt-widget area as known flake sase-1ib; corroborate there if it recurs.
+
+[2026-10-09T18:18:56Z · sase-1io.7.5--1] Closed by explicit `sase stitch create -B close` after create_commit landed 191bc6d2e3 ("fix(monitor-tests): expect structural autonomy inheritance in followup prompt test"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1io.7.5` if more work remains.
 
 ## Dependencies
 

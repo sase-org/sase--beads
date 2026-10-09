@@ -56,7 +56,11 @@ flowchart TD
     n9["sase-1io.7.2: Clear the remaining sase Master Gate failures [closed]"]
     n10["sase-1io.7.3: Clear the Full CI-only failures [closed]"]
     n11["sase-1io.7.4: Cut and publish the sase-core-rs release [closed]"]
-    n12["sase-1io.7.5: Prove the release gates green, merge PR 299, and publish v0.18.0 [in_progress]"]
+    n12["sase-1io.7.5: Prove the release gates green, merge PR 299, and publish v0.18.0 [closed]"]
+    n13["sase-1io.7.6: Clear the last Full CI reds and ship sase v0.18.0 [in_progress]"]
+    n14["sase-1io.7.6.1: Make the bead-scale perf gate measure what it claims [closed]"]
+    n15["sase-1io.7.6.2: Fix the dropped Reply-card switch in the Agents deck visual tests [in_progress]"]
+    n16["sase-1io.7.6.3: Prove the release gates green, merge PR 299, and publish v0.18.0 [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,6 +73,10 @@ flowchart TD
     n7 --> n10
     n7 --> n11
     n7 --> n12
+    n7 --> n13
+    n13 --> n14
+    n13 --> n15
+    n13 --> n16
     n1 -.-> n2
     n2 -.-> n5
     n3 -.-> n5
@@ -78,6 +86,8 @@ flowchart TD
     n9 -.-> n12
     n10 -.-> n12
     n11 -.-> n12
+    n14 -.-> n16
+    n15 -.-> n16
 ```
 
 ## Agents
@@ -95,7 +105,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1io.7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.3.md) | [sase-1io.7.3](sase-1io.7.3.md) | 1 |
 | [bbugyi200.athena.sase-1io.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.4.md) | [sase-1io.7.4](sase-1io.7.4.md) | 0 |
 | [bbugyi200.athena.sase-1io.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.5.md) | [sase-1io.7.5](sase-1io.7.5.md) | 1 |
-| [bbugyi200.athena.sase-1io.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.land/README.md) | [sase-1io.7](sase-1io.7.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.6.1/README.md) | [sase-1io.7.6.1](sase-1io.7.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1io.7.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.6.2/README.md) | [sase-1io.7.6.2](sase-1io.7.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.6.3/README.md) | [sase-1io.7.6.3](sase-1io.7.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.6.land/README.md) | [sase-1io.7.6](sase-1io.7.6.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.land.md) | [sase-1io.7](sase-1io.7.md) | 0 |
 | [bbugyi200.athena.sase-1io.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.land.md) | [sase-1io](README.md) | 0 |
 
 ## Commits
@@ -110,6 +124,7 @@ flowchart TD
 | sase-core | [`sase-core@5c5bcdc`](https://github.com/sase-org/sase-core/commit/5c5bcdc43fca7787dbc0a46711b3307e25150148) | fix(bead-read-model): stop unlinking the live read-model cache under concurrent access | [sase-1io.7.1](sase-1io.7.1.md) | 2026-10-09 07:53:34 EDT |
 | sase | [`aced694`](https://github.com/sase-org/sase/commit/aced694adcf7c9b97e64938e7ec34cb0d27bb254) | test(visual): regenerate golden snapshots for timeband and ACE panels | [sase-1io.7.3](sase-1io.7.3.md) | 2026-10-09 09:01:10 EDT |
 | sase | [`191bc6d`](https://github.com/sase-org/sase/commit/191bc6d2e3152c94d60f2ed6b9a7f95b5c83a9fb) | fix(monitor-tests): expect structural autonomy inheritance in followup prompt test | [sase-1io.7.5](sase-1io.7.5.md) | 2026-10-09 14:15:40 EDT |
+| sase | [`fb1186a`](https://github.com/sase-org/sase/commit/fb1186a229f3cfa5a2372edc0437d63d40709f73) | fix(perf): record bead-scale gate ratio:ready as known miss owned by sase-1j5 | [sase-1io.7.6.1](sase-1io.7.6.1.md) | 2026-10-09 15:40:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
