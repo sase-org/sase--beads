@@ -33,3 +33,15 @@ rust-recipes: make `rust-dev-install` write the core source stamp, make the `*-u
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e5c09c1`](https://github.com/sase-org/sase/commit/e5c09c19f58d159fdbcb8c0c00b3196a28a7675f) | feat(rust-recipes): make Rust dev-install recipes honest | [sase-1ig.4](sase-1ig.4.md) | 2026-10-08 20:33:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.4--1][1] | Need phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md
+
+<!-- sase:referenced-by:end -->

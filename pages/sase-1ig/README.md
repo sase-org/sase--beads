@@ -33,7 +33,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1ig.10](sase-1ig.10.md) | Retire the chezmoi installers into install-dev | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.11](sase-1ig.11.md) | Document the three commands and record the human-only rule | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [sase-1ig.2](sase-1ig.2.md) | Installer engine foundation and dry-run planning | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [sase-1ig.3](sase-1ig.3.md) | Context-aware reinstall remedies in runtime code | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [sase-1ig.3](sase-1ig.3.md) | Context-aware reinstall remedies in runtime code | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1ig.4](sase-1ig.4.md) | Make the Rust dev-install recipes honest | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.6](sase-1ig.6.md) | sase-core pairing and pre-swap preparation | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n2["sase-1ig.10: Retire the chezmoi installers into install-dev [in_progress]"]
     n3["sase-1ig.11: Document the three commands and record the human-only rule [in_progress]"]
     n4["sase-1ig.2: Installer engine foundation and dry-run planning [closed]"]
-    n5["sase-1ig.3: Context-aware reinstall remedies in runtime code [in_progress]"]
+    n5["sase-1ig.3: Context-aware reinstall remedies in runtime code [closed]"]
     n6["sase-1ig.4: Make the Rust dev-install recipes honest [closed]"]
     n7["sase-1ig.5: Execution pipeline and the live `just install` [in_progress]"]
     n8["sase-1ig.6: sase-core pairing and pre-swap preparation [in_progress]"]
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.10/README.md) | [sase-1ig.10](sase-1ig.10.md) | 0 |
 | [bbugyi200.athena.sase-1ig.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.11/README.md) | [sase-1ig.11](sase-1ig.11.md) | 0 |
 | [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 0 |
-| [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.3.md) | [sase-1ig.3](sase-1ig.3.md) | 0 |
+| [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.3.md) | [sase-1ig.3](sase-1ig.3.md) | 1 |
 | [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md) | [sase-1ig.4](sase-1ig.4.md) | 1 |
 | [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 0 |
 | [bbugyi200.athena.sase-1ig.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md) | [sase-1ig.6](sase-1ig.6.md) | 0 |
@@ -106,6 +106,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`6f240b3`](https://github.com/sase-org/sase/commit/6f240b3c96480ffa52b07630f24957d3b7c8347d) | feat(install): rename venv recipes to install-venv and park bare install | [sase-1ig.1](sase-1ig.1.md) | 2026-10-08 18:54:25 EDT |
 | sase | [`e5c09c1`](https://github.com/sase-org/sase/commit/e5c09c19f58d159fdbcb8c0c00b3196a28a7675f) | feat(rust-recipes): make Rust dev-install recipes honest | [sase-1ig.4](sase-1ig.4.md) | 2026-10-08 20:33:02 EDT |
+| sase | [`fa0de34`](https://github.com/sase-org/sase/commit/fa0de348ee9930ce9b90c50cb967ee1c044210e8) | feat(remedies): context-aware reinstall remedies in runtime code (sase-1ig.3) | [sase-1ig.3](sase-1ig.3.md) | 2026-10-08 20:43:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

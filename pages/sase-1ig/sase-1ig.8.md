@@ -25,3 +25,15 @@ engine-dev: wire dev mode through the pipeline (dev swap argv and overrides, cor
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.8/README.md) | [sase-1ig.8](sase-1ig.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ig.4--1][1] | check if mode_switch belongs to sibling bead | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md
+
+<!-- sase:referenced-by:end -->
