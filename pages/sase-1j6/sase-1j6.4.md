@@ -13,7 +13,7 @@ witness-scan: collect managed roots and the W1-W3 witnesses (boot identity drift
 
 ## Dependencies
 
-- **Depends on:** [sase-1j6.3](sase-1j6.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1j6.3](sase-1j6.3.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.5](sase-1j6.5.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

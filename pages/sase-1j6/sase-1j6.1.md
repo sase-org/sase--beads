@@ -34,3 +34,15 @@ refresh-exec-first: remove every lazy sase import between the HEAD-moved check a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6ac3dc7`](https://github.com/sase-org/sase/commit/6ac3dc734e23f597502d011c4b6580ec7720a1fe) | fix(axe): keep runner code refresh import-free before re-exec | [sase-1j6.1](sase-1j6.1.md) | 2026-10-09 15:19:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.2][1] | Check sibling phase to avoid conflicting edits | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md
+
+<!-- sase:referenced-by:end -->

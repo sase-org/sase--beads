@@ -23,7 +23,7 @@ failure-facts: persist the runner's boot code identity and lifecycle-phase bread
 
 ## Dependencies
 
-- **Blocks:** [sase-1j6.3](sase-1j6.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.3](sase-1j6.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -36,3 +36,15 @@ failure-facts: persist the runner's boot code identity and lifecycle-phase bread
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6dd92ea`](https://github.com/sase-org/sase/commit/6dd92ea0e37f1ac2d4b2744062013833d6a60b38) | feat(auto-restart): runner boot identity, lifecycle crumbs, failure facts | [sase-1j6.2](sase-1j6.2.md) | 2026-10-09 15:56:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md
+
+<!-- sase:referenced-by:end -->
