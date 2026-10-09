@@ -21,7 +21,7 @@ lifecycle: fix the inventory groups, carry command names in the installed index,
 
 - **Depends on:** [sase-1if.1](sase-1if.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1if.4](sase-1if.4.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [sase-1if.6](sase-1if.6.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1if.6](sase-1if.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 
@@ -34,3 +34,15 @@ lifecycle: fix the inventory groups, carry command names in the installed index,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3b3d876`](https://github.com/sase-org/sase/commit/3b3d8769114298c58d8f136c55baaab93a367514) | feat(plugins): command-aware plugin install, update, and uninstall lifecycle | [sase-1if.5](sase-1if.5.md) | 2026-10-09 03:17:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1if.5--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1if.5.md
+
+<!-- sase:referenced-by:end -->

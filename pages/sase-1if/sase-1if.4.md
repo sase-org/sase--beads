@@ -38,8 +38,10 @@ completion: merge separately walked plugin parsers into a runtime completion spe
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1if.4--1][1] | Need phase scope for check report | 1 |
+| read-by | [agent:5y--2][1] | finish verification after timed-out check monitors | 1 |
+| read-by | [agent:sase-1if.4--1][2] | Need phase scope for check report | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1if.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.5y.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1if.4.md
 
 <!-- sase:referenced-by:end -->
