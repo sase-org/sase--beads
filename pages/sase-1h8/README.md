@@ -266,7 +266,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.7/README.md) | [sase-1h8.7](sase-1h8.7.md) | 3 |
 | [bbugyi200.athena.sase-1h8.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.8.md) | [sase-1h8.8](sase-1h8.8.md) | 2 |
 | [bbugyi200.athena.sase-1h8.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.9.md) | [sase-1h8.9](sase-1h8.9.md) | 2 |
-| [bbugyi200.athena.sase-1h8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.land.md) | [sase-1h8](README.md) | 1 |
+| [bbugyi200.athena.sase-1h8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.land.md) | [sase-1h8](README.md) | 2 |
 
 ## Commits
 
@@ -316,6 +316,7 @@ flowchart TD
 | sase-core | [`sase-core@d2a954b`](https://github.com/sase-org/sase-core/commit/d2a954b056ef7ed30dee9b932f8fa0e702714446) | fix(bead): normalize lock\_wait\_ms in replay goldens and split golden case table | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 2026-10-09 04:55:48 EDT |
 | sase | [`10385fe`](https://github.com/sase-org/sase/commit/10385fe3c3c7ebbc5d63d64ff8a3f3a2daf8c128) | perf(beads): add bead-scale gate enforcement with list\_active\_page op and CI wiring | [sase-1h8.14](sase-1h8.14.md) | 2026-10-09 05:31:12 EDT |
 | sase | [`c0b3636`](https://github.com/sase-org/sase/commit/c0b36364a3c4ff10df42c3b29d884a49d7c5487d) | feat(beads): land sase-1h8 closeout with epic-follow point reads and perf-gate owners | [sase-1h8](README.md) | 2026-10-09 06:30:03 EDT |
+| sase--plans | [`sase--plans@59fde21`](https://github.com/sase-org/sase--plans/commit/59fde21a8802faf66a8b47698f07c08eb412d20b) | docs(plans): mark sase-1h8 epic and nested child-epic plans done | [sase-1h8](README.md) | 2026-10-09 06:33:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
