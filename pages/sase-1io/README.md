@@ -55,7 +55,7 @@ flowchart TD
     n8["sase-1io.7.1: Make the sase-core read-model cache safe under concurrent access [closed]"]
     n9["sase-1io.7.2: Clear the remaining sase Master Gate failures [closed]"]
     n10["sase-1io.7.3: Clear the Full CI-only failures [closed]"]
-    n11["sase-1io.7.4: Cut and publish the sase-core-rs release [in_progress]"]
+    n11["sase-1io.7.4: Cut and publish the sase-core-rs release [closed]"]
     n12["sase-1io.7.5: Prove the release gates green, merge PR 299, and publish v0.18.0 [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1io.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.2.md) | [sase-1io.7.2](sase-1io.7.2.md) | 1 |
 | [bbugyi200.athena.sase-1io.7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.3.md) | [sase-1io.7.3](sase-1io.7.3.md) | 1 |
 | [bbugyi200.athena.sase-1io.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.4.md) | [sase-1io.7.4](sase-1io.7.4.md) | 0 |
-| [bbugyi200.athena.sase-1io.7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.5/README.md) | [sase-1io.7.5](sase-1io.7.5.md) | 0 |
+| [bbugyi200.athena.sase-1io.7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.7.5.md) | [sase-1io.7.5](sase-1io.7.5.md) | 1 |
 | [bbugyi200.athena.sase-1io.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1io.7.land/README.md) | [sase-1io.7](sase-1io.7.md) | 0 |
 | [bbugyi200.athena.sase-1io.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1io.land.md) | [sase-1io](README.md) | 0 |
 
@@ -109,6 +109,7 @@ flowchart TD
 | sase | [`f542104`](https://github.com/sase-org/sase/commit/f542104b5c400c6faee10842d865e3440ec06a5a) | fix(gate): privatize declared\_commands helpers and stabilize prompt-key perf smoke | [sase-1io.7.2](sase-1io.7.2.md) | 2026-10-09 07:33:30 EDT |
 | sase-core | [`sase-core@5c5bcdc`](https://github.com/sase-org/sase-core/commit/5c5bcdc43fca7787dbc0a46711b3307e25150148) | fix(bead-read-model): stop unlinking the live read-model cache under concurrent access | [sase-1io.7.1](sase-1io.7.1.md) | 2026-10-09 07:53:34 EDT |
 | sase | [`aced694`](https://github.com/sase-org/sase/commit/aced694adcf7c9b97e64938e7ec34cb0d27bb254) | test(visual): regenerate golden snapshots for timeband and ACE panels | [sase-1io.7.3](sase-1io.7.3.md) | 2026-10-09 09:01:10 EDT |
+| sase | [`191bc6d`](https://github.com/sase-org/sase/commit/191bc6d2e3152c94d60f2ed6b9a7f95b5c83a9fb) | fix(monitor-tests): expect structural autonomy inheritance in followup prompt test | [sase-1io.7.5](sase-1io.7.5.md) | 2026-10-09 14:15:40 EDT |
 
 <!-- sase:referenced-by:start -->
 

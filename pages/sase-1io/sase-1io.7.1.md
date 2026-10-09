@@ -19,7 +19,7 @@ core-cache-race: stop unlinking or implicitly recreating a live SQLite read-mode
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.7.4](sase-1io.7.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.4](sase-1io.7.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
