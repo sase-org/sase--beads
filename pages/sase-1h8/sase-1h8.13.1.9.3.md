@@ -24,7 +24,7 @@ view-commit: give MutationView config and event staging, lazy stream loading and
 - **Depends on:** [sase-1h8.13.1.9.1](sase-1h8.13.1.9.1.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [sase-1h8.13.1.9.2](sase-1h8.13.1.9.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) ◐ · ⧖ 2026-10-08
-- **Blocks:** [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1h8.13.1.9.5](sase-1h8.13.1.9.5.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
@@ -38,3 +38,15 @@ view-commit: give MutationView config and event staging, lazy stream loading and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3cb24b0`](https://github.com/sase-org/sase-core/commit/3cb24b04ef4d89e723f616e9bb070b94cff25204) | feat(beads): unify create and notes mutations on one view commit | [sase-1h8.13.1.9.3](sase-1h8.13.1.9.3.md) | 2026-10-08 23:51:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.9.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.3/README.md
+
+<!-- sase:referenced-by:end -->
