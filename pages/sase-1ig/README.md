@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/just_install_pypi_dev_venv.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/just_install_pypi_dev_venv.md
 
@@ -35,7 +35,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1ig.2](sase-1ig.2.md) | Installer engine foundation and dry-run planning | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.3](sase-1ig.3.md) | Context-aware reinstall remedies in runtime code | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [sase-1ig.4](sase-1ig.4.md) | Make the Rust dev-install recipes honest | ✓ closed | small | 2026-10-08 | 1 | 1 |
-| [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [sase-1ig.5](sase-1ig.5.md) | Execution pipeline and the live \`just install\` | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.6](sase-1ig.6.md) | sase-core pairing and pre-swap preparation | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [sase-1ig.7](sase-1ig.7.md) | Rename install to install-venv in the plugin repos | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [sase-1ig.8](sase-1ig.8.md) | The live \`just install-dev\` | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n4["sase-1ig.2: Installer engine foundation and dry-run planning [closed]"]
     n5["sase-1ig.3: Context-aware reinstall remedies in runtime code [closed]"]
     n6["sase-1ig.4: Make the Rust dev-install recipes honest [closed]"]
-    n7["sase-1ig.5: Execution pipeline and the live `just install` [in_progress]"]
+    n7["sase-1ig.5: Execution pipeline and the live `just install` [closed]"]
     n8["sase-1ig.6: sase-core pairing and pre-swap preparation [closed]"]
     n9["sase-1ig.7: Rename install to install-venv in the plugin repos [closed]"]
     n10["sase-1ig.8: The live `just install-dev` [in_progress]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.2.md) | [sase-1ig.2](sase-1ig.2.md) | 1 |
 | [bbugyi200.athena.sase-1ig.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.3.md) | [sase-1ig.3](sase-1ig.3.md) | 1 |
 | [bbugyi200.athena.sase-1ig.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.4.md) | [sase-1ig.4](sase-1ig.4.md) | 1 |
-| [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 0 |
+| [bbugyi200.athena.sase-1ig.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.5/README.md) | [sase-1ig.5](sase-1ig.5.md) | 1 |
 | [bbugyi200.athena.sase-1ig.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md) | [sase-1ig.6](sase-1ig.6.md) | 1 |
 | [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 0 |
 | [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.8/README.md) | [sase-1ig.8](sase-1ig.8.md) | 0 |
@@ -109,6 +109,7 @@ flowchart TD
 | sase | [`fa0de34`](https://github.com/sase-org/sase/commit/fa0de348ee9930ce9b90c50cb967ee1c044210e8) | feat(remedies): context-aware reinstall remedies in runtime code (sase-1ig.3) | [sase-1ig.3](sase-1ig.3.md) | 2026-10-08 20:43:28 EDT |
 | sase | [`d0b6e2e`](https://github.com/sase-org/sase/commit/d0b6e2e99d180dc132ab735967565cdd1c62e81b) | feat(install): add stdlib-only sase\_install engine with dry-run planning | [sase-1ig.2](sase-1ig.2.md) | 2026-10-08 20:44:30 EDT |
 | sase | [`62f2560`](https://github.com/sase-org/sase/commit/62f256008be1f469d5315f9b418cd5ab6088a11b) | feat(install): implement dev-core-prep phase (core pairing, sync gate, pre-swap build check) | [sase-1ig.6](sase-1ig.6.md) | 2026-10-08 21:06:54 EDT |
+| sase | [`10f5e21`](https://github.com/sase-org/sase/commit/10f5e2169fc60e9c1c7b9ea04ca1bb2bf05525d1) | feat(install): add shared PyPI execution pipeline with logging, locking, and verification | [sase-1ig.5](sase-1ig.5.md) | 2026-10-08 23:28:19 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -117,7 +118,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ig.1][1] | phase worker checking epic decisions | 1 |
+| read-by | [agent:sase-1ig.6][2] | epic context for phase sase-1ig.6 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.6/README.md
 
 <!-- sase:referenced-by:end -->

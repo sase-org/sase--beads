@@ -21,7 +21,7 @@ engine-core: create the stdlib-only `tools/sase_install` engine with its CLI, ag
 
 ## Dependencies
 
-- **Blocks:** [sase-1ig.5](sase-1ig.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [sase-1ig.5](sase-1ig.5.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [sase-1ig.6](sase-1ig.6.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
