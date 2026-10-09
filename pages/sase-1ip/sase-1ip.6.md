@@ -13,7 +13,7 @@ gates: adapters declare capability sets, plan, epic, and question gates resolve 
 
 ## Dependencies
 
-- **Depends on:** [sase-1ip.3](sase-1ip.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1ip.3](sase-1ip.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1ip.4](sase-1ip.4.md) ◐ · ⧖ 2026-10-09
 - **Blocks:** [sase-1ip.7](sase-1ip.7.md) ◐ · ⧖ 2026-10-09
 

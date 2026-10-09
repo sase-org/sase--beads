@@ -19,7 +19,7 @@ core_policy: sase-core autonomy module with the v1 record, policy, request, and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1ip.3](sase-1ip.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1ip.3](sase-1ip.3.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1ip.4](sase-1ip.4.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
