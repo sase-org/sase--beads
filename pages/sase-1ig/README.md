@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ig.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.7/README.md) | [sase-1ig.7](sase-1ig.7.md) | 4 |
 | [bbugyi200.athena.sase-1ig.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.8.md) | [sase-1ig.8](sase-1ig.8.md) | 1 |
 | [bbugyi200.athena.sase-1ig.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ig.9/README.md) | [sase-1ig.9](sase-1ig.9.md) | 1 |
-| [bbugyi200.athena.sase-1ig.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.land.md) | [sase-1ig](README.md) | 1 |
+| [bbugyi200.athena.sase-1ig.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ig.land.md) | [sase-1ig](README.md) | 2 |
 
 ## Commits
 
@@ -136,6 +136,7 @@ flowchart TD
 | sase-core | [`sase-core@4ea91b9`](https://github.com/sase-org/sase-core/commit/4ea91b95b51ee988320adcfea4e3cd54140a110b) | fix(triage): point environment and bead remedies at install-venv/install-dev | [sase-1ig.9](sase-1ig.9.md) | 2026-10-09 01:28:41 EDT |
 | sase | [`29724dc`](https://github.com/sase-org/sase/commit/29724dc042f4f8ad8ea0775448ab3e22f1d29c9f) | docs(install): document the three install commands and record the human-only rule | [sase-1ig.11](sase-1ig.11.md) | 2026-10-09 01:57:51 EDT |
 | sase | [`bd83006`](https://github.com/sase-org/sase/commit/bd830064cadc9b9b2b18c9a3b5d486352bfecc23) | fix(sase-1ig): finish landing with docs link, mixed-mode agreement, interpreter pin | [sase-1ig](README.md) | 2026-10-09 02:56:01 EDT |
+| sase--plans | [`sase--plans@8b8baac`](https://github.com/sase-org/sase--plans/commit/8b8baac0f87e9d1381ae7c7cffa3c2bb19738c19) | docs(sase-1ig): mark epic plan done after land-remediation tale | [sase-1ig](README.md) | 2026-10-09 02:59:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
