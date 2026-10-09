@@ -25,10 +25,4 @@ contract: table-driven %auto behavior contract that runs every spelling and stat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ip.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.1.md) | [sase-1ip.1](sase-1ip.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`563f046`](https://github.com/sase-org/sase/commit/563f046a850b0a6c64eebb6215d8fdb4a8a6dcb3) | feat(sase-1ip.1): add table-driven %auto behavior contract suite | [sase-1ip.1](sase-1ip.1.md) | 2026-10-09 05:37:48 EDT |
+| [bbugyi200.athena.sase-1ip.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.1.md) | [sase-1ip.1](sase-1ip.1.md) | 0 |

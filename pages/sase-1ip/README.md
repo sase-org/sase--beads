@@ -11,12 +11,16 @@
 
 Every automatic gate outcome comes from one Rust evaluate() applied to one persisted, revisioned agent_meta.autonomy record that every agent-session member inherits. `sase autonomy explain` predicts each decision exactly, every decision is logged, the agent is told its policy, and `%auto` otherwise behaves exactly as it does today.
 
+## Notes
+
+[2026-10-09T09:44:43Z · sase-1ir.land] DISCOVERED ISSUE: Landing audit of sase-1ir found a live fixture epic, not requested feature work. plan:202610/epic.md exactly matches tests/plan_validation_helpers.py VALID_EPIC_PLAN (Approved implementation; implementation phase; body Implement the requested change), created 2026-10-09T09:20:28Z while sase-1ip.1 ran. Its canonical archived prompt prompts/202610/epic.md identifies bbugyi200.athena.sase-1ip.1--plan and the sase-1ip.1 work-phase prompt; it launched a real phase and this land agent. Current commit 563f046a85 now adds tests/autonomy_contract/harness.py create_plan_gate_isolated, which patches the archive and prepare_epic_launch side effects; source inspection confirms the production adapter imports the patched prepare_epic_launch alias. Historical escape is independently evidenced; a continuing leak on current HEAD is not claimed. No semantic duplicate in bug-task search/week sweep. Routed to this causally responsible active epic rather than creating a separate task: verify the contract suite side-effect fences cover durable plan/prompt publication and agent/bead launches before sase-1ip lands. sase-1ir has no actual implementation scope, commits, decisions, parent, or follow-up proposals and will be closed as the verified fixture no-op.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ip.1](sase-1ip.1.md) | Autonomy behavior contract suite | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1ip.2](sase-1ip.2.md) | Core autonomy record, compatibility profiles, and evaluate() | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1ip.1](sase-1ip.1.md) | Autonomy behavior contract suite | ✓ closed | medium | 2026-10-09 | 1 | 0 |
+| [sase-1ip.2](sase-1ip.2.md) | Core autonomy record, compatibility profiles, and evaluate() | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1ip.3](sase-1ip.3.md) | Core summary, sentences, mutation, and decision log | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1ip.4](sase-1ip.4.md) | Persist the record and read it everywhere | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1ip.5](sase-1ip.5.md) | Structural inheritance and a truthful A toggle | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -29,7 +33,7 @@ Every automatic gate outcome comes from one Rust evaluate() applied to one persi
 flowchart TD
     n0["sase-1ip: %auto E1: one autonomy record [in_progress]"]
     n1["sase-1ip.1: Autonomy behavior contract suite [closed]"]
-    n2["sase-1ip.2: Core autonomy record, compatibility profiles, and evaluate() [in_progress]"]
+    n2["sase-1ip.2: Core autonomy record, compatibility profiles, and evaluate() [closed]"]
     n3["sase-1ip.3: Core summary, sentences, mutation, and decision log [in_progress]"]
     n4["sase-1ip.4: Persist the record and read it everywhere [in_progress]"]
     n5["sase-1ip.5: Structural inheritance and a truthful A toggle [in_progress]"]
@@ -57,8 +61,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ip.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.1.md) | [sase-1ip.1](sase-1ip.1.md) | 1 |
-| [bbugyi200.athena.sase-1ip.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md) | [sase-1ip.2](sase-1ip.2.md) | 0 |
+| [bbugyi200.athena.sase-1ip.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.1.md) | [sase-1ip.1](sase-1ip.1.md) | 0 |
+| [bbugyi200.athena.sase-1ip.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.2/README.md) | [sase-1ip.2](sase-1ip.2.md) | 1 |
 | [bbugyi200.athena.sase-1ip.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.3/README.md) | [sase-1ip.3](sase-1ip.3.md) | 0 |
 | [bbugyi200.athena.sase-1ip.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.4/README.md) | [sase-1ip.4](sase-1ip.4.md) | 0 |
 | [bbugyi200.athena.sase-1ip.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md) | [sase-1ip.5](sase-1ip.5.md) | 0 |
@@ -70,4 +74,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`563f046`](https://github.com/sase-org/sase/commit/563f046a850b0a6c64eebb6215d8fdb4a8a6dcb3) | feat(sase-1ip.1): add table-driven %auto behavior contract suite | [sase-1ip.1](sase-1ip.1.md) | 2026-10-09 05:37:48 EDT |
+| sase-core | [`sase-core@01b0ad7`](https://github.com/sase-org/sase-core/commit/01b0ad734e7acee14bf5fd88ab12e449540b88f3) | feat(autonomy): add core record, compatibility profiles, and evaluate() | [sase-1ip.2](sase-1ip.2.md) | 2026-10-09 06:37:51 EDT |

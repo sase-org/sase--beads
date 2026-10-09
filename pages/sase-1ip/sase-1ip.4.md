@@ -14,7 +14,7 @@ record: resolve and persist agent_meta.autonomy at every launch behind the auton
 ## Dependencies
 
 - **Depends on:** [sase-1ip.1](sase-1ip.1.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [sase-1ip.2](sase-1ip.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1ip.2](sase-1ip.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1ip.5](sase-1ip.5.md) ◐ · ⧖ 2026-10-09
 - **Blocks:** [sase-1ip.6](sase-1ip.6.md) ◐ · ⧖ 2026-10-09
 
