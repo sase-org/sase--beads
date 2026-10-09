@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:8ca5f30ead916b9acacf577e | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -69,3 +71,15 @@ Monitor vzxzvks0ew23 FAILED only on a shell quoting typo (q!..!q) in the corpus-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@2d00938`](https://github.com/sase-org/sase-core/commit/2d009388b7a371ec98ffc75b1dfedb69fcb86e7e) | refactor(bead): split mutation into single-algorithm modules with replay goldens | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 2026-10-09 02:59:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1h8.13.1.9.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.8.md
+
+<!-- sase:referenced-by:end -->

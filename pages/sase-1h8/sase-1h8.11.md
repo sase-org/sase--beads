@@ -25,7 +25,7 @@ projection-off: stop rewriting and committing issues.jsonl on every mutation, un
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13](sase-1h8.13.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.13](sase-1h8.13.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.5](sase-1h8.5.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.7](sase-1h8.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.8](sase-1h8.8.md) ✓ · ⧖ 2026-10-06

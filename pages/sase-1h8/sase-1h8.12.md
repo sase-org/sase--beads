@@ -25,7 +25,7 @@ read-model-queries: serve detail, ready, blocked, list, stats, resolve, search, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1h8.13](sase-1h8.13.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [sase-1h8.13](sase-1h8.13.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.7](sase-1h8.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [sase-1h8.9](sase-1h8.9.md) ✓ · ⧖ 2026-10-06
 

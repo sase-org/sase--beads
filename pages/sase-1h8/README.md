@@ -39,6 +39,10 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 
 [2026-10-09T01:15:26Z · sase-1h8.13.1.land] DISCOVERED ISSUE (sase-1h8.13.1 landing, from proof phase sase-1h8.13.1.7 PROPOSED FOLLOW-UP #1, 2026-10-08): after the read-model mutation ports, matched binding-level note/update cost still misses this epic's '< 10% from 1x to 8x' target. Seed 20261006, 20 runs, same corpora (1x 6899 beads/2000 streams; 8x 55516 beads/16000 streams), host load ~17. p95 before->after: 1x note 238.6->114.5ms, update 267.6->156.5ms; 8x note 1337.9->321.3ms, update 1586.2->455.5ms. 1x->8x p95 ratio after = 2.8x (note), 2.9x (update). Artifacts: before file:explicit:c6e84b9abb0aa9ec8460fdf0, after file:explicit:cf5bda21694e0423eeb52bd1. The perf gate sase-1h8.14 owns this: break the 8x cost down into admission sweep (still a full stat sweep per mutation, which grows with stream count), publication and binding overhead. Do not relax the threshold. Routed here instead of a task because it is this epic's own acceptance target.
 
+[2026-10-09T08:39:34Z · sase-1h8.13.1.9.land] DISCOVERED ISSUE #3 (bead_read_parity event-store warning) needs no further work: e411a392 fixed the event-store expectation, and 64605819 added the legacy-store assertion. (tale 202610/land_unify_bead_mutation_algorithms.md)
+
+[2026-10-09T08:39:39Z · sase-1h8.13.1.9.land] The 1x->8x perf miss is already recorded here as DISCOVERED ISSUE #5 for sase-1h8.14. (tale 202610/land_unify_bead_mutation_algorithms.md)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +51,7 @@ Hot-path bead reads and writes stop scaling with closed history. Every recommend
 | [sase-1h8.10](sase-1h8.10.md) | Sealed-segment triggers and design | ✓ closed | small | 2026-10-06 | 1 | 2 |
 | [sase-1h8.11](sase-1h8.11.md) | issues.jsonl off the per-mutation path | ✓ closed | medium | 2026-10-06 | 1 | 2 |
 | [sase-1h8.12](sase-1h8.12.md) | Indexed queries over the read model | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ◐ in_progress | large | 2026-10-06 | 1 | 3 |
+| [sase-1h8.13](sase-1h8.13.md) | Mutations load and write through the read model | ✓ closed | large | 2026-10-06 | 1 | 3 |
 | [sase-1h8.14](sase-1h8.14.md) | History-independence acceptance gate | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [sase-1h8.2](sase-1h8.2.md) | Constant-cost artifact-link outbox append | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [sase-1h8.3](sase-1h8.3.md) | Hidden-clone gc and bead push-log retention | ✓ closed | small | 2026-10-06 | 1 | 1 |
@@ -67,8 +71,8 @@ flowchart TD
     n2["sase-1h8.10: Sealed-segment triggers and design [closed]"]
     n3["sase-1h8.11: issues.jsonl off the per-mutation path [closed]"]
     n4["sase-1h8.12: Indexed queries over the read model [closed]"]
-    n5["sase-1h8.13: Mutations load and write through the read model [in_progress]"]
-    n6["sase-1h8.13.1: Finish read-model mutations so sase-1h8.13 can close [in_progress]"]
+    n5["sase-1h8.13: Mutations load and write through the read model [closed]"]
+    n6["sase-1h8.13.1: Finish read-model mutations so sase-1h8.13 can close [closed]"]
     n7["sase-1h8.13.1.1: Direct write-through publication without a second sweep or full snapshot [closed]"]
     n8["sase-1h8.13.1.2: Run every mutation suite in cached and replay modes [closed]"]
     n9["sase-1h8.13.1.3: One mutation view with shared algorithms, and the full notes family on it [closed]"]
@@ -77,7 +81,7 @@ flowchart TD
     n12["sase-1h8.13.1.6: Port links, +1 and snooze onto the mutation view [closed]"]
     n13["sase-1h8.13.1.7: Parity, affected-row and failure-recovery proof plus matched 1x/8x evidence [closed]"]
     n14["sase-1h8.13.1.8: Steer re-planned unfinished phases toward a child epic [closed]"]
-    n15["sase-1h8.13.1.9: One mutation algorithm per entry point, with every suite in both modes [in_progress]"]
+    n15["sase-1h8.13.1.9: One mutation algorithm per entry point, with every suite in both modes [closed]"]
     n16["sase-1h8.13.1.9.1: Run the nine existing mutation suites in cached and replay modes [closed]"]
     n17["sase-1h8.13.1.9.2: Byte goldens for replay-backed mutations before any replay code is deleted [closed]"]
     n18["sase-1h8.13.1.9.3: View-owned staging and one commit on both backings; create and notes unified [closed]"]
@@ -189,7 +193,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1h8.13.1.9.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.6.md) | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.7/README.md) | [sase-1h8.13.1.9.7](sase-1h8.13.1.9.7.md) | 2 |
 | [bbugyi200.athena.sase-1h8.13.1.9.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.8.md) | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 1 |
-| [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.13.1.9.land/README.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1h8.13.1.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.9.land.md) | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1h8.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.13.1.land.md) | [sase-1h8.13.1](sase-1h8.13.1.md) | 0 |
 | [bbugyi200.athena.sase-1h8.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1h8.14/README.md) | [sase-1h8.14](sase-1h8.14.md) | 0 |
 | [bbugyi200.athena.sase-1h8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1h8.2.md) | [sase-1h8.2](sase-1h8.2.md) | 1 |
@@ -247,6 +251,7 @@ flowchart TD
 | sase-core | [`sase-core@c83ec83`](https://github.com/sase-org/sase-core/commit/c83ec83abc73d7c334437297e41d5e788bf63d25) | feat(bead-mutations): unify links, +1 and snooze onto view-commit runner | [sase-1h8.13.1.9.6](sase-1h8.13.1.9.6.md) | 2026-10-09 00:57:44 EDT |
 | sase-core | [`sase-core@e92f7f8`](https://github.com/sase-org/sase-core/commit/e92f7f83ebd72baee07dd622ef82e2adb41e8b6f) | feat(beads): unify open, close and remove mutations on one view commit | [sase-1h8.13.1.9.4](sase-1h8.13.1.9.4.md) | 2026-10-09 01:18:50 EDT |
 | sase-core | [`sase-core@2d00938`](https://github.com/sase-org/sase-core/commit/2d009388b7a371ec98ffc75b1dfedb69fcb86e7e) | refactor(bead): split mutation into single-algorithm modules with replay goldens | [sase-1h8.13.1.9.8](sase-1h8.13.1.9.8.md) | 2026-10-09 02:59:18 EDT |
+| sase-core | [`sase-core@d2a954b`](https://github.com/sase-org/sase-core/commit/d2a954b056ef7ed30dee9b932f8fa0e702714446) | fix(bead): normalize lock\_wait\_ms in replay goldens and split golden case table | [sase-1h8.13.1.9](sase-1h8.13.1.9.md) | 2026-10-09 04:55:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
