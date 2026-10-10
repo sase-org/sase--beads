@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/update_skew_agent_auto_restart.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/update_skew_agent_auto_restart.md
 
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md) | [sase-1j6.10.5](sase-1j6.10.5.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md) | [sase-1j6.10.6](sase-1j6.10.6.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md) | [sase-1j6.10.7](sase-1j6.10.7.md) | 1 |
-| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md) | [sase-1j6.10](sase-1j6.10.md) | 1 |
+| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md) | [sase-1j6.10](sase-1j6.10.md) | 2 |
 | [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
 | [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 2 |
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 1 |
@@ -149,6 +149,7 @@ flowchart TD
 | sase | [`df47dd8`](https://github.com/sase-org/sase/commit/df47dd875b0870815de1adffb4b82163cf260cc3) | feat(auto-restart): polish episode report settlement, titles and dedup | [sase-1j6.10.6](sase-1j6.10.6.md) | 2026-10-10 11:09:05 EDT |
 | sase | [`e5e58ac`](https://github.com/sase-org/sase/commit/e5e58ac3d5b84393bd9c0ac77ac700a4da54ba65) | test(auto-restart): replay update-skew restart through real healer paths | [sase-1j6.10.7](sase-1j6.10.7.md) | 2026-10-10 13:00:47 EDT |
 | sase | [`20ddc1b`](https://github.com/sase-org/sase/commit/20ddc1b154de7a9bc40283f1c505d690d5c67410) | feat(auto-restart): fix update-skew auto-restart defects and land sase-1j6.10/sase-1j6 | [sase-1j6.10](sase-1j6.10.md) | 2026-10-10 15:40:23 EDT |
+| sase--plans | [`sase--plans@4bee985`](https://github.com/sase-org/sase--plans/commit/4bee9857b5e72d66f02e02fbe3cbbab420f4db1f) | docs(plans): mark update-skew auto-restart plans done | [sase-1j6.10](sase-1j6.10.md) | 2026-10-10 15:44:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -156,12 +157,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1j6.2][1] | Check epic scope for phase boundaries | 1 |
-| read-by | [agent:sase-1j6.4][2] | need epic scope | 1 |
-| read-by | [agent:sase-1j6.8][3] | Need epic DECISIONS and scope | 1 |
+| read-by | [agent:sase-1j6.10.land--1][1] | Recheck the parent epic before closing it | 2 |
+| read-by | [agent:sase-1j6.2][2] | Check epic scope for phase boundaries | 1 |
+| read-by | [agent:sase-1j6.4][3] | need epic scope | 1 |
+| read-by | [agent:sase-1j6.8][4] | Need epic DECISIONS and scope | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md
 
 <!-- sase:referenced-by:end -->

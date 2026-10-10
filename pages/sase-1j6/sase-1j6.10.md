@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/finish_update_skew_auto_restart.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_update_skew_auto_restart.md
 
@@ -39,13 +39,14 @@ Complete epic sase-1j6: the update-skew healer really relaunches pre-provider sk
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md) | [sase-1j6.10](sase-1j6.10.md) | 1 |
+| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md) | [sase-1j6.10](sase-1j6.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`20ddc1b`](https://github.com/sase-org/sase/commit/20ddc1b154de7a9bc40283f1c505d690d5c67410) | feat(auto-restart): fix update-skew auto-restart defects and land sase-1j6.10/sase-1j6 | [sase-1j6.10](sase-1j6.10.md) | 2026-10-10 15:40:23 EDT |
+| sase--plans | [`sase--plans@4bee985`](https://github.com/sase-org/sase--plans/commit/4bee9857b5e72d66f02e02fbe3cbbab420f4db1f) | docs(plans): mark update-skew auto-restart plans done | [sase-1j6.10](sase-1j6.10.md) | 2026-10-10 15:44:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,8 +56,10 @@ Complete epic sase-1j6: the update-skew healer really relaunches pre-provider sk
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1j6.10.2][1] | Need parent epic decisions, sibling phases, and design context for core-fixes | 1 |
 | read-by | [agent:sase-1j6.10.6][2] | parent epic scope | 1 |
+| read-by | [agent:sase-1j6.10.land--1][3] | Plan closeout: need status, children, notes and plan path for epic sase-1j6.10 | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
 
 <!-- sase:referenced-by:end -->
