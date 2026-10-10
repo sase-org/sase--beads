@@ -14,8 +14,8 @@ v2: re-verify both postings and write the concise v2 report of what was done and
 ## Dependencies
 
 - **Depends on:** [sase-1jo.1](sase-1jo.1.md) ✓ · ⧖ 2026-10-10
-- **Depends on:** [sase-1jo.2](sase-1jo.2.md) ◐ · ⧖ 2026-10-10
-- **Depends on:** [sase-1jo.3](sase-1jo.3.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jo.2](sase-1jo.2.md) ✓ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jo.3](sase-1jo.3.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

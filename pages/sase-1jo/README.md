@@ -28,8 +28,8 @@ Every recommendation in the research report databricks_nyc_cv_and_role_pitches.m
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jo.1](sase-1jo.1.md) | CV repo cleanup and PDF rebuilds | ✓ closed | medium | 2026-10-10 | 1 | 0 |
-| [sase-1jo.2](sase-1jo.2.md) | Interview-prep pack | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
-| [sase-1jo.3](sase-1jo.3.md) | SASE agent-eval pilot harness | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
+| [sase-1jo.2](sase-1jo.2.md) | Interview-prep pack | ✓ closed | medium | 2026-10-10 | 1 | 1 |
+| [sase-1jo.3](sase-1jo.3.md) | SASE agent-eval pilot harness | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jo.4](sase-1jo.4.md) | Remaining-work report (v2) | ◐ in_progress | small | 2026-10-10 | 1 | 0 |
 
 ## Lineage
@@ -38,8 +38,8 @@ Every recommendation in the research report databricks_nyc_cv_and_role_pitches.m
 flowchart TD
     n0["sase-1jo: Databricks NYC application follow-ups [in_progress]"]
     n1["sase-1jo.1: CV repo cleanup and PDF rebuilds [closed]"]
-    n2["sase-1jo.2: Interview-prep pack [in_progress]"]
-    n3["sase-1jo.3: SASE agent-eval pilot harness [in_progress]"]
+    n2["sase-1jo.2: Interview-prep pack [closed]"]
+    n3["sase-1jo.3: SASE agent-eval pilot harness [closed]"]
     n4["sase-1jo.4: Remaining-work report (v2) [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -55,7 +55,13 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1jo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.1/README.md) | [sase-1jo.1](sase-1jo.1.md) | 0 |
-| [bbugyi200.apollo.sase-1jo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md) | [sase-1jo.2](sase-1jo.2.md) | 0 |
+| [bbugyi200.apollo.sase-1jo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md) | [sase-1jo.2](sase-1jo.2.md) | 1 |
 | [bbugyi200.apollo.sase-1jo.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.3.md) | [sase-1jo.3](sase-1jo.3.md) | 0 |
 | [bbugyi200.apollo.sase-1jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md) | [sase-1jo.4](sase-1jo.4.md) | 0 |
 | [bbugyi200.apollo.sase-1jo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.land/README.md) | [sase-1jo](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--research | [`sase--research@2fe342a`](https://github.com/sase-org/sase--research/commit/2fe342a01ae76e025a939a5a8dae220ed6d800f2) | docs(research): add Databricks NYC interview-prep pack | [sase-1jo.2](sase-1jo.2.md) | 2026-10-10 16:05:17 EDT |
