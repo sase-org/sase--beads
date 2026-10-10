@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1jo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md) | [sase-1jo.2](sase-1jo.2.md) | 1 |
 | [bbugyi200.apollo.sase-1jo.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.3.md) | [sase-1jo.3](sase-1jo.3.md) | 0 |
 | [bbugyi200.apollo.sase-1jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md) | [sase-1jo.4](sase-1jo.4.md) | 1 |
-| [bbugyi200.apollo.sase-1jo.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.land.md) | [sase-1jo](README.md) | 1 |
+| [bbugyi200.apollo.sase-1jo.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.land.md) | [sase-1jo](README.md) | 2 |
 
 ## Commits
 
@@ -95,6 +95,7 @@ flowchart TD
 | sase--research | [`sase--research@2fe342a`](https://github.com/sase-org/sase--research/commit/2fe342a01ae76e025a939a5a8dae220ed6d800f2) | docs(research): add Databricks NYC interview-prep pack | [sase-1jo.2](sase-1jo.2.md) | 2026-10-10 16:05:17 EDT |
 | sase--research | [`sase--research@15020bd`](https://github.com/sase-org/sase--research/commit/15020bda925074c23342aa378641649ade8fd5c0) | feat(research): add Databricks application follow-up report | [sase-1jo.4](sase-1jo.4.md) | 2026-10-10 16:20:31 EDT |
 | sase--plans | [`sase--plans@bf49a73`](https://github.com/sase-org/sase--plans/commit/bf49a7334a4e1048dfc7949797c3e4aafbe76fe8) | docs(plans): mark databricks follow-up epic and v2 closeout plans done | [sase-1jo](README.md) | 2026-10-10 16:48:02 EDT |
+| sase--research | [`sase--research@9227d14`](https://github.com/sase-org/sase--research/commit/9227d141b8afedc27e2b7690a5c55fe977d30bb5) | docs(research): bring databricks v2 report up to closeout spec | [sase-1jo](README.md) | 2026-10-10 16:49:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
