@@ -23,7 +23,7 @@ provider-instructions: Follow phase 10 and the shared removal checklist. Retire 
 
 ## Dependencies
 
-- **Blocks:** [sase-1jc.11](sase-1jc.11.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.11](sase-1jc.11.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1jc.9](sase-1jc.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
@@ -44,8 +44,10 @@ provider-instructions: Follow phase 10 and the shared removal checklist. Retire 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jm.2.1.6--1][1] | Check whether the existing provider instruction phase tracks the stale feature-flag definitions reported by just check | 1 |
+| read-by | [agent:sase-1jc.10][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jm.2.1.6--1][2] | Check whether the existing provider instruction phase tracks the stale feature-flag definitions reported by just check | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
 
 <!-- sase:referenced-by:end -->
