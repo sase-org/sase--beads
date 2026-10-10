@@ -29,10 +29,16 @@ sweep-safety: make the scheduler job and `run -p` consider only doorbells, in-fl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 1 |
+| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`35a97a0`](https://github.com/sase-org/sase/commit/35a97a0e1e13c8f0e0d772e5d3c7b9b1cecd2c0f) | feat(auto-restart): restrict healer to skew-shaped failures and stop loud or phantom side effects | [sase-1j6.10.1](sase-1j6.10.1.md) | 2026-10-10 09:07:49 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md
+
+<!-- sase:referenced-by:end -->

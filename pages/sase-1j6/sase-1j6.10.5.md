@@ -14,7 +14,7 @@ healer-relaunch: move the sase-core pin past core-fixes, re-classify with the pr
 ## Dependencies
 
 - **Depends on:** [sase-1j6.10.1](sase-1j6.10.1.md) ✓ · ⧖ 2026-10-10
-- **Depends on:** [sase-1j6.10.2](sase-1j6.10.2.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1j6.10.2](sase-1j6.10.2.md) ✓ · ⧖ 2026-10-10
 - **Depends on:** [sase-1j6.10.3](sase-1j6.10.3.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1j6.10.6](sase-1j6.10.6.md) ◐ · ⧖ 2026-10-10
 
