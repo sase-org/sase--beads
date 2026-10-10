@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/retire_all_feature_flags.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md
 
@@ -35,6 +35,10 @@ Remove all 23 registered feature flags and their disabled implementations across
 
 [2026-10-10T14:49:37Z · 0ze--code] DISCOVERED ISSUE: preserve_monitor_settlement_outcomes check 2905cfc582040e913bbe004cd73ee84b passed fmt, model policy, keep-sorted, Ruff, and mypy, then stopped at lint (feature flags) rule 7: closed beads sase-wr, sase-rx, sase-qu, and sase-105 still have surviving definitions ace_refresh_tokens, admin_center_flags, ref_sync_gesture, and refresh_panel. No settlement-outcome diff touches feature-flag files. Those closed bead IDs are the exact flags retired in sase-1jc.7; active phase sase-1jc.12 owns the empty-registry and residual-definition audit. Same workspace-tree/shared-bead-state skew already noted here. No duplicate task filed.
 
+[2026-10-10T17:17:00Z · 69] DISCOVERED ISSUE: During implementation of the adaptive update failure dialog, SASE ToolRun 2fe97e8d72a2bb54b2d9167aea5e11a6 passed fmt, model policy, keep-sorted, Ruff, and mypy, then stopped at lint (feature flags) rule 7: closed flag beads sase-1ft, sase-11f, sase-13w, and sase-11p still have definitions agents_session_manifest_compat, axe_routine_job_contract, bgcmd_legacy_slots, and slim_agents_manifest. The modal change touches no feature-flag files. This independently reproduces the same stale-definition class already recorded here; phase sase-1jc.12 owns the empty-registry and residual-definition audit. No separate task filed.
+
+[2026-10-10T17:42:48Z · sase-1j6.10.land] DISCOVERED ISSUE: tests/ace/tui/test_node_finder_snapshot.py:34 still re-exports test_query_hidden_on_both_flag_branches, but b46ecb0a94 (agents_unified_query retirement) renamed it to test_query_hidden_marks_nonmatching_rows in tests/ace/tui/test_node_finder_snapshot_hidden.py. Collection fails with ImportError on master e5e58ac3d5 (reproduced 2026-10-10). That also breaks tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection (pytest -m contract --collect-only exits 2), and Master Gate 38067967749 test(4)/test(7) are red. Proposed by sase-1j6.10.7 note #6 and routed here by the sase-1j6.10 landing because this retirement epic caused it. No separate task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,7 +53,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 | [sase-1jc.5](sase-1jc.5.md) | Stabilize agent-session and turn compatibility aliases | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.6](sase-1jc.6.md) | Remove the legacy live Agents query implementation | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.7](sase-1jc.7.md) | Stabilize refresh tokens, refresh gestures, and the Flags pane | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1jc.8](sase-1jc.8.md) | Stabilize publication formats and service contracts | ✓ closed | medium | 2026-10-09 | 1 | 2 |
+| [sase-1jc.8](sase-1jc.8.md) | Stabilize publication formats and service contracts | ✓ closed | medium | 2026-10-09 | 1 | 3 |
 | [sase-1jc.9](sase-1jc.9.md) | Remove legacy monitor-start rollout paths | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 
 ## Lineage
@@ -108,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.5/README.md) | [sase-1jc.5](sase-1jc.5.md) | 1 |
 | [bbugyi200.athena.sase-1jc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md) | [sase-1jc.6](sase-1jc.6.md) | 1 |
 | [bbugyi200.athena.sase-1jc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md) | [sase-1jc.7](sase-1jc.7.md) | 1 |
-| [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md) | [sase-1jc.8](sase-1jc.8.md) | 2 |
+| [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md) | [sase-1jc.8](sase-1jc.8.md) | 3 |
 | [bbugyi200.athena.sase-1jc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md) | [sase-1jc.9](sase-1jc.9.md) | 0 |
 | [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 0 |
 
@@ -128,6 +132,7 @@ flowchart TD
 | sase | [`3513d91`](https://github.com/sase-org/sase/commit/3513d91b1fbce9f216655ffb50d471bd62de1041) | feat(flags): retire refresh tokens, refresh gestures, and Flags pane flags | [sase-1jc.7](sase-1jc.7.md) | 2026-10-10 09:32:53 EDT |
 | sase-core | [`sase-core@9573108`](https://github.com/sase-org/sase-core/commit/9573108dac5dbb5223c05d3c4c1c2f0613b8b2c9) | feat(config): retire legacy axe/config wires in sase-core for publication-services flags | [sase-1jc.8](sase-1jc.8.md) | 2026-10-10 12:09:40 EDT |
 | sase | [`b144f62`](https://github.com/sase-org/sase/commit/b144f622cf49a261acece2045008f025bb194c52) | feat(flags): retire publication-services flags slim\_agents\_manifest, agents\_session\_manifest\_compat, bgcmd\_legacy\_slots, axe\_routine\_job\_contract | [sase-1jc.8](sase-1jc.8.md) | 2026-10-10 12:59:12 EDT |
+| sase | [`8fdf12a`](https://github.com/sase-org/sase/commit/8fdf12a8a8d43fdbdc100018a881c473485c98e7) | fix(query\_profile): define \_\_dir\_\_ and PEP 562 hooks in profiles package init | [sase-1jc.8](sase-1jc.8.md) | 2026-10-10 14:02:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -136,11 +141,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:0ze--code][1] | See if concurrent flag-retirement epic already owns the closed-flag lint failure | 1 |
-| read-by | [agent:sase-1jc.4][2] | epic context for phase | 1 |
-| read-by | [agent:sase-1jc.6][3] | epic context for phase sase-1jc.6 | 1 |
+| read-by | [agent:sase-1j6.10.7][2] | Need whether sase-1jc owns closed flag bead leftovers | 1 |
+| read-by | [agent:sase-1jc.4][3] | epic context for phase | 1 |
+| read-by | [agent:sase-1jc.6][4] | epic context for phase sase-1jc.6 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ze.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
 
 <!-- sase:referenced-by:end -->
