@@ -23,7 +23,7 @@ fixture-foundation: Follow the shared contracts and phase 1 below. Replace real 
 
 ## Dependencies
 
-- **Blocks:** [sase-1jc.2](sase-1jc.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.2](sase-1jc.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

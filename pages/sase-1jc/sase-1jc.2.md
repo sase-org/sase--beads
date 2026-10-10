@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1jc](README.md) / sase-1jc.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0zb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0zb.md) · **Assignee:** `sase-1jc.2` · **Size:** medium
-**Created:** 2026-10-09 22:28:24 EDT
+**Created:** 2026-10-09 22:28:24 EDT · **Closed:** 2026-10-10 02:52:52 EDT
 **Plan:** [202610/retire\_all\_feature\_flags.md](https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md)
 
 ## Description
@@ -25,10 +25,12 @@ typed-launch: Follow phase 2 and the shared removal checklist. Retire typed_laun
 
 [2026-10-10T06:44:04Z · sase-1jc.2--4] PROPOSED FOLLOW-UP: just check (tool run d0c85a6fd12289708db245f6c13f8ad5, monitor 1j3gcmya1gsa) triaged no_new_failures — 13 failed, 10 KNOWN + 3 FLAKY, all touched=false with pre-existing witnesses (e.g. file-hook digest witness 05b9fc696a324977dde864aadd60a092, completion snapshot drift witness 12f0afcd7ea6adf90135b7544987c81b, timezone guard witness 1cf7efd448d1a406baca9f3dc6a33bd4; plus query profile, config schema, mutex_groups, marker audits, pypi flow, import budget, parser help, wire agent meta); none implicate typed_launch_units retirement. Fourth consecutive identical verdict on an unchanged tree (newest edit 01:23 EDT predates 06:20 UTC check start).
 
+[2026-10-10T06:52:52Z · sase-1jc.2--4] Closed by explicit `sase stitch create -B close` after create_commit landed 7b01179be9 ("feat(flags): retire typed_launch_units; typed agent and proc launches unconditional"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1jc.2` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jc.1](sase-1jc.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.3](sase-1jc.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.3](sase-1jc.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
