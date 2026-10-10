@@ -17,7 +17,7 @@ core-fixes: in sase-core, fix workspace scoping with trailing slashes, stop log-
 
 ## Dependencies
 
-- **Blocks:** [sase-1j6.10.5](sase-1j6.10.5.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1j6.10.5](sase-1j6.10.5.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-fixes: in sase-core, fix workspace scoping with trailing slashes, stop log-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3154412`](https://github.com/sase-org/sase-core/commit/31544120e776e4d1cc3e5d0932502748d352d749) | fix(auto-restart): tighten classifier origin, ledger times, and error routing | [sase-1j6.10.2](sase-1j6.10.2.md) | 2026-10-10 09:17:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.2/README.md
+
+<!-- sase:referenced-by:end -->

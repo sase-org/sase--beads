@@ -13,7 +13,7 @@ episode-polish: refresh the live report and the row's inline snapshot on every j
 
 ## Dependencies
 
-- **Depends on:** [sase-1j6.10.5](sase-1j6.10.5.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1j6.10.5](sase-1j6.10.5.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1j6.10.7](sase-1j6.10.7.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

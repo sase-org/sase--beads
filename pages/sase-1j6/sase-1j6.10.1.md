@@ -23,13 +23,19 @@ sweep-safety: make the scheduler job and `run -p` consider only doorbells, in-fl
 
 ## Dependencies
 
-- **Blocks:** [sase-1j6.10.5](sase-1j6.10.5.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1j6.10.5](sase-1j6.10.5.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`35a97a0`](https://github.com/sase-org/sase/commit/35a97a0e1e13c8f0e0d772e5d3c7b9b1cecd2c0f) | feat(auto-restart): restrict healer to skew-shaped failures and stop loud or phantom side effects | [sase-1j6.10.1](sase-1j6.10.1.md) | 2026-10-10 09:07:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
