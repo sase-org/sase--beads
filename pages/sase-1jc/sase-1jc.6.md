@@ -24,7 +24,7 @@ agents-query: Follow phase 6 and the shared removal checklist. Retire agents_uni
 ## Dependencies
 
 - **Depends on:** [sase-1jc.5](sase-1jc.5.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.7](sase-1jc.7.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.7](sase-1jc.7.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -37,3 +37,17 @@ agents-query: Follow phase 6 and the shared removal checklist. Retire agents_uni
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b46ecb0`](https://github.com/sase-org/sase/commit/b46ecb0a947539855d69034bd4d1300b999274af) | feat(agents): retire agents\_unified\_query flag, unify live query path | [sase-1jc.6](sase-1jc.6.md) | 2026-10-10 08:26:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.3][1] | Need whether leftover flag definition is already tracked | 1 |
+| read-by | [agent:sase-1jc.6][2] | Need phase scope and design | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+
+<!-- sase:referenced-by:end -->

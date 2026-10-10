@@ -13,7 +13,7 @@ publication-services: Follow phase 8 and the shared removal checklist. Retire sl
 
 ## Dependencies
 
-- **Depends on:** [sase-1jc.7](sase-1jc.7.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.7](sase-1jc.7.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1jc.9](sase-1jc.9.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
