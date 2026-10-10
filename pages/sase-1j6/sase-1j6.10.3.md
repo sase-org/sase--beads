@@ -32,3 +32,15 @@ probe-quiescence: map frame paths in src-layout editable checkouts to importable
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9b7fb99`](https://github.com/sase-org/sase/commit/9b7fb99ef7b688d23e9c99fef67c1a11835cd7ac) | fix(agent-auto-restart): map probe modules and use ref mtimes for quiescence | [sase-1j6.10.3](sase-1j6.10.3.md) | 2026-10-10 08:43:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.3][1] | Need notes and remaining work fields | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.3/README.md
+
+<!-- sase:referenced-by:end -->

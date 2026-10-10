@@ -52,7 +52,7 @@ flowchart TD
     n0["sase-1j6: Update-Skew Agent Auto-Restart [in_progress]"]
     n1["sase-1j6.1: Exec-first runner refresh and import firewall [closed]"]
     n2["sase-1j6.10: Finish update-skew agent auto-restart so it is safe and actually relaunches [in_progress]"]
-    n3["sase-1j6.10.1: Restrict healer targets to skew-shaped failures and stop loud or phantom side effects [in_progress]"]
+    n3["sase-1j6.10.1: Restrict healer targets to skew-shaped failures and stop loud or phantom side effects [closed]"]
     n4["sase-1j6.10.2: sase-core classifier, ledger timestamp, meta wire, and notification fixes [in_progress]"]
     n5["sase-1j6.10.3: Correct probe module names and quiescence code-change times [closed]"]
     n6["sase-1j6.10.4: Runner refresh imports, lifecycle facts, config, UX polish, and epic-caused test failures [closed]"]
@@ -107,7 +107,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1j6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.1/README.md) | [sase-1j6.1](sase-1j6.1.md) | 1 |
-| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.2/README.md) | [sase-1j6.10.2](sase-1j6.10.2.md) | 0 |
 | [bbugyi200.athena.sase-1j6.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.3/README.md) | [sase-1j6.10.3](sase-1j6.10.3.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.4/README.md) | [sase-1j6.10.4](sase-1j6.10.4.md) | 1 |
@@ -141,6 +141,7 @@ flowchart TD
 | sase | [`05bab36`](https://github.com/sase-org/sase/commit/05bab368afe5275c26ac2e3be12d89dab32ffeef) | feat(auto-restart): remove beta flag, document, and replay incident end to end | [sase-1j6.9](sase-1j6.9.md) | 2026-10-09 22:12:40 EDT |
 | sase | [`1728f2b`](https://github.com/sase-org/sase/commit/1728f2bcd0adcc957efc30111e69dcd50a791b32) | fix(runner): finish refresh lifecycle and recovery UX | [sase-1j6.10.4](sase-1j6.10.4.md) | 2026-10-10 08:35:04 EDT |
 | sase | [`9b7fb99`](https://github.com/sase-org/sase/commit/9b7fb99ef7b688d23e9c99fef67c1a11835cd7ac) | fix(agent-auto-restart): map probe modules and use ref mtimes for quiescence | [sase-1j6.10.3](sase-1j6.10.3.md) | 2026-10-10 08:43:44 EDT |
+| sase | [`35a97a0`](https://github.com/sase-org/sase/commit/35a97a0e1e13c8f0e0d772e5d3c7b9b1cecd2c0f) | feat(auto-restart): restrict healer to skew-shaped failures and stop loud or phantom side effects | [sase-1j6.10.1](sase-1j6.10.1.md) | 2026-10-10 09:07:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
