@@ -19,7 +19,7 @@ evalpilot: plan and build the small task-success eval over real SASE runs descri
 
 ## Dependencies
 
-- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

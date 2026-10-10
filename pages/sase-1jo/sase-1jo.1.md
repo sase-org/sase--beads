@@ -19,7 +19,7 @@ cv: make the base and Batman CVs build without gutils.tex, remove stale SASE cla
 
 ## Dependencies
 
-- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

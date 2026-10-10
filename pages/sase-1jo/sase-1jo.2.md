@@ -19,7 +19,7 @@ prep: write SASE design-story cards and a short Agent Quality topic brief into t
 
 ## Dependencies
 
-- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jo.4](sase-1jo.4.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -32,3 +32,15 @@ prep: write SASE design-story cards and a short Agent Quality topic brief into t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--research | [`sase--research@2fe342a`](https://github.com/sase-org/sase--research/commit/2fe342a01ae76e025a939a5a8dae220ed6d800f2) | docs(research): add Databricks NYC interview-prep pack | [sase-1jo.2](sase-1jo.2.md) | 2026-10-10 16:05:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jo.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md
+
+<!-- sase:referenced-by:end -->
