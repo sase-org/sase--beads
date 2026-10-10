@@ -26,7 +26,7 @@ tui-refresh: Follow phase 7 and the shared removal checklist. Retire ace_refresh
 ## Dependencies
 
 - **Depends on:** [sase-1jc.6](sase-1jc.6.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.8](sase-1jc.8.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.8](sase-1jc.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -39,3 +39,17 @@ tui-refresh: Follow phase 7 and the shared removal checklist. Retire ace_refresh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3513d91`](https://github.com/sase-org/sase/commit/3513d91b1fbce9f216655ffb50d471bd62de1041) | feat(flags): retire refresh tokens, refresh gestures, and Flags pane flags | [sase-1jc.7](sase-1jc.7.md) | 2026-10-10 09:32:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.5--1][1] | Determine whether this closed phase already tracks the surviving retired flag definitions | 2 |
+| read-by | [agent:sase-1jc.7--1][2] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md
+
+<!-- sase:referenced-by:end -->

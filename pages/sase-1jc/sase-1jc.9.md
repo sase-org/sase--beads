@@ -14,7 +14,7 @@ monitor-records: Follow phase 9 and the shared removal checklist. Retire monitor
 ## Dependencies
 
 - **Blocks:** [sase-1jc.10](sase-1jc.10.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [sase-1jc.8](sase-1jc.8.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.8](sase-1jc.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
