@@ -24,7 +24,7 @@ runtime-controls: Follow phase 11 and the shared removal checklist. Retire agent
 ## Dependencies
 
 - **Depends on:** [sase-1jc.10](sase-1jc.10.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.12](sase-1jc.12.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.12](sase-1jc.12.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -37,3 +37,15 @@ runtime-controls: Follow phase 11 and the shared removal checklist. Retire agent
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5235b17`](https://github.com/sase-org/sase/commit/5235b172744fdccc4a529945528f71a17ef89292) | feat(flags): retire runtime-controls flags agent\_sudo\_requests, provider\_drain, autonomy\_record\_only | [sase-1jc.11](sase-1jc.11.md) | 2026-10-10 17:00:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jc.11][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.11/README.md
+
+<!-- sase:referenced-by:end -->
