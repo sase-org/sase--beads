@@ -21,7 +21,7 @@ profile-token: add the agents-archive query profile and the host-owned in: token
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

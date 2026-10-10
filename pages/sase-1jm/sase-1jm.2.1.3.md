@@ -18,7 +18,7 @@ corpus-query: evaluate agents-archive queries into summaries, windowed rows, cou
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2.1.2](sase-1jm.2.1.2.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -31,3 +31,15 @@ corpus-query: evaluate agents-archive queries into summaries, windowed rows, cou
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@431599f`](https://github.com/sase-org/sase-core/commit/431599f402c3167b499a2bdc0d20a693558e54bb) | feat(archive): query compiled corpus for summary, rows, lookup, and count | [sase-1jm.2.1.3](sase-1jm.2.1.3.md) | 2026-10-10 13:49:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.2.1.3][1] | Need notes, decisions, and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->

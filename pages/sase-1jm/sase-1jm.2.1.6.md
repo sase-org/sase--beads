@@ -13,7 +13,7 @@ cli-parity: route in:archive and in:inbox through the corpus and catalog, and pr
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
