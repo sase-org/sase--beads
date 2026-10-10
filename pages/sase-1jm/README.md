@@ -51,7 +51,7 @@ flowchart TD
     n6["sase-1jm.2.1.3: Group summaries, windows, and exact lookup [closed]"]
     n7["sase-1jm.2.1.4: agents-archive profile and the in token [closed]"]
     n8["sase-1jm.2.1.5: Bindings, facade, and shared corpus cache [closed]"]
-    n9["sase-1jm.2.1.6: sase agent search parity and the bench [in_progress]"]
+    n9["sase-1jm.2.1.6: sase agent search parity and the bench [closed]"]
     n10["sase-1jm.3: Archive view on the Agents tab [in_progress]"]
     n11["sase-1jm.4: Record deck for every agent [in_progress]"]
     n12["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.3/README.md) | [sase-1jm.2.1.3](sase-1jm.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md) | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2 |
-| [bbugyi200.athena.sase-1jm.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.6/README.md) | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1jm.2.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md) | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.land/README.md) | [sase-1jm.2.1](sase-1jm.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3/README.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |
@@ -123,6 +123,7 @@ flowchart TD
 | sase-core | [`sase-core@431599f`](https://github.com/sase-org/sase-core/commit/431599f402c3167b499a2bdc0d20a693558e54bb) | feat(archive): query compiled corpus for summary, rows, lookup, and count | [sase-1jm.2.1.3](sase-1jm.2.1.3.md) | 2026-10-10 13:49:40 EDT |
 | sase-core | [`sase-core@bc40675`](https://github.com/sase-org/sase-core/commit/bc40675233d35f370e7bf915ddda170e695abf04) | feat(archive): bind corpus compile, summary, rows, lookup, and count | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:20:15 EDT |
 | sase | [`f7026aa`](https://github.com/sase-org/sase/commit/f7026aa2f2d6a1bd5b3858ed10282e2c7d2fe748) | feat(archive): add AgentArchiveCorpus facade and shared TUI/CLI cache | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:25:29 EDT |
+| sase | [`5f47d11`](https://github.com/sase-org/sase/commit/5f47d119356f02a87ec850aba52c6bd5090bd365) | feat(agents): add archive search CLI parity | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 2026-10-10 16:04:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
