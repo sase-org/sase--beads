@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1j6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.47.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.47.linker.w0.md) · **Assignee:** `sase-1j6.land`
-**Created:** 2026-10-09 15:02:04 EDT
+**Created:** 2026-10-09 15:02:04 EDT · **Closed:** 2026-10-10 15:21:13 EDT
 **Plan:** [202610/update\_skew\_agent\_auto\_restart.md](https://github.com/sase-org/sase--plans/blob/main/202610/update_skew_agent_auto_restart.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,8 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 
 [2026-10-10T03:24:04Z · sase-1j6.land] LAND VERIFICATION (sase-1j6.land, 2026-10-09): the epic is NOT complete. All 9 phases are closed, but source review plus the land check run (1cf7efd448d1a406baca9f3dc6a33bd4, 16 scoped failures) found these release-blocking defects. (1) The healer never relaunches: core returns defer/probe_pending without a W4 witness, and healer._heal_claimed defers on mode==defer even after the probe passes; every healer test injects classify=lambda relaunch. (2) resolve_pending_targets feeds every failed row and dismissed bundle from the last 7 days to the healer. Each non-skew decline claims a ledger record and loudly resurface_failure()s it. The disabled/paused path resurfaces every target on each 60 s full sweep. write_recovery's atomic_write_json mkdirs a dismissed or wiped artifacts dir back into existence, including after the relaunch wipe. Installing master would spam loud notifications and create phantom rows. (3) Doorbells are never deleted once claimed, so the job submits a healer proc every tick. (4) Ledger claimed_at and history[].at are always null, so max_defer_seconds, the 30-minute storm limit, and the crash-rule time bound are dead. (5) A replacement's second failure is swallowed (already_launched: no escalation, recovery stays pending). (6) The Rust AgentMetaWire lacks auto_restart, so provenance never reaches production rows. (7) Core classifier: a trailing slash on workspace_dir defeats workspace scoping (197/229 real rows), log_tail substrings make third-party ImportErrors look managed, and the unknown phase relaunches. (8) SASE_AUTO_RESTART_PROVENANCE is never scrubbed from the env, so children inherit it. (9) Probe module names come out as src.sase.* for the editable checkout. (10) Settlement never refreshes the episode report (the refresh_episode_report epic-symbol). Integration: non-epic commits since 6ac3dc734e (166e34eae9 %auto E1, 274c65ec53, eff003d6a9, 1291c48fe3, c836ee5071) do not conflict; the live-autonomy relaunch helper already reads the E1 record. Remaining work is planned as a child epic with parent_bead sase-1j6.
 
+[2026-10-10T19:21:13Z · sase-1j6.10.land--1] NESTED LANDING RECHECK (tale land_update_skew_auto_restart, 2026-10-10): all 9 phases closed, child epic sase-1j6.10 closed with full close note this turn. All ten LAND VERIFICATION defects now fixed in source: (1) healer relaunches (re-classify/probe/env-scrub ordering; real-classifier + relaunch-once tests green); (2) targets restricted to skew-shaped rows, unified quiet_declines, write_recovery creates nothing; (3) doorbells deleted at claim/skip/decline, ticks go idle; (4) ledger timestamps live via core 31544120 + pin 96ccdb35 (all 7 bindings present in installed sase_core_rs) + at=timestamp_for; (5) replacement second failure escalates already_restarted, replay runs the launched path; (6) AgentMetaWire auto_restart provenance in core; (7) classifier slash scoping/substring/unknown-phase fixes in core; (8) provenance env scrubbed; (9) probe module names asserted independently; (10) settlement refreshes report+rows via the tick. Plus this turn's extra fix: ledger writers invalidate the mtime-gated cache (tmpfs freezes dir mtime on rewrites) with regression test. Post-child drift: origin/master is 62a8b95c72, one commit past the tale base e5e58ac3d5 (monitor frozen-outcome preservation, no auto-restart conflict); full auto-restart suites pass on this tree (153 TZ=UTC, 67 host-zone). Remaining reds are owned elsewhere, same list as the sase-1j6.10 close note (sase-1by/1jc/1jj/1ic, flakes 1gh/1jk/1jl, sase-1jc.9 sase-102 removal unmerged, sase-1jm symvision __getattr__). No epic-symbol rows for sase-1j6. Release follow-up: publishing the core bindings needs sase-core release-plz PR 325 (v0.38.0) merged by a human.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,9 +51,9 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 
 ```mermaid
 flowchart TD
-    n0["sase-1j6: Update-Skew Agent Auto-Restart [in_progress]"]
+    n0["sase-1j6: Update-Skew Agent Auto-Restart [closed]"]
     n1["sase-1j6.1: Exec-first runner refresh and import firewall [closed]"]
-    n2["sase-1j6.10: Finish update-skew agent auto-restart so it is safe and actually relaunches [in_progress]"]
+    n2["sase-1j6.10: Finish update-skew agent auto-restart so it is safe and actually relaunches [closed]"]
     n3["sase-1j6.10.1: Restrict healer targets to skew-shaped failures and stop loud or phantom side effects [closed]"]
     n4["sase-1j6.10.2: sase-core classifier, ledger timestamp, meta wire, and notification fixes [closed]"]
     n5["sase-1j6.10.3: Correct probe module names and quiescence code-change times [closed]"]
@@ -114,7 +116,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md) | [sase-1j6.10.5](sase-1j6.10.5.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md) | [sase-1j6.10.6](sase-1j6.10.6.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md) | [sase-1j6.10.7](sase-1j6.10.7.md) | 1 |
-| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.land/README.md) | [sase-1j6.10](sase-1j6.10.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md) | [sase-1j6.10](sase-1j6.10.md) | 1 |
 | [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
 | [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 2 |
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 1 |
@@ -146,6 +148,7 @@ flowchart TD
 | sase | [`ee99123`](https://github.com/sase-org/sase/commit/ee9912307c92a9cb61f236d527fd4e4929c50d6c) | feat(auto-restart): complete healer relaunch and provenance flow | [sase-1j6.10.5](sase-1j6.10.5.md) | 2026-10-10 10:10:49 EDT |
 | sase | [`df47dd8`](https://github.com/sase-org/sase/commit/df47dd875b0870815de1adffb4b82163cf260cc3) | feat(auto-restart): polish episode report settlement, titles and dedup | [sase-1j6.10.6](sase-1j6.10.6.md) | 2026-10-10 11:09:05 EDT |
 | sase | [`e5e58ac`](https://github.com/sase-org/sase/commit/e5e58ac3d5b84393bd9c0ac77ac700a4da54ba65) | test(auto-restart): replay update-skew restart through real healer paths | [sase-1j6.10.7](sase-1j6.10.7.md) | 2026-10-10 13:00:47 EDT |
+| sase | [`20ddc1b`](https://github.com/sase-org/sase/commit/20ddc1b154de7a9bc40283f1c505d690d5c67410) | feat(auto-restart): fix update-skew auto-restart defects and land sase-1j6.10/sase-1j6 | [sase-1j6.10](sase-1j6.10.md) | 2026-10-10 15:40:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
