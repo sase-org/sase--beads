@@ -58,7 +58,7 @@ flowchart TD
     n6["sase-1j6.10.4: Runner refresh imports, lifecycle facts, config, UX polish, and epic-caused test failures [closed]"]
     n7["sase-1j6.10.5: Make the healer relaunch, settle, and escalate correctly end to end [closed]"]
     n8["sase-1j6.10.6: Live episode report on settlement, honest titles, and per-death escalation keys [closed]"]
-    n9["sase-1j6.10.7: Real end-to-end incident replay, host dry run, audits, and docs [in_progress]"]
+    n9["sase-1j6.10.7: Real end-to-end incident replay, host dry run, audits, and docs [closed]"]
     n10["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [closed]"]
     n11["sase-1j6.3: sase-core failure classifier, ledger state machine, and recovery wire [closed]"]
     n12["sase-1j6.4: Skew witnesses and the read-only scan command [closed]"]
@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.4/README.md) | [sase-1j6.10.4](sase-1j6.10.4.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md) | [sase-1j6.10.5](sase-1j6.10.5.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md) | [sase-1j6.10.6](sase-1j6.10.6.md) | 1 |
-| [bbugyi200.athena.sase-1j6.10.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md) | [sase-1j6.10.7](sase-1j6.10.7.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md) | [sase-1j6.10.7](sase-1j6.10.7.md) | 1 |
 | [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.land/README.md) | [sase-1j6.10](sase-1j6.10.md) | 0 |
 | [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
 | [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 2 |
@@ -145,6 +145,7 @@ flowchart TD
 | sase-core | [`sase-core@3154412`](https://github.com/sase-org/sase-core/commit/31544120e776e4d1cc3e5d0932502748d352d749) | fix(auto-restart): tighten classifier origin, ledger times, and error routing | [sase-1j6.10.2](sase-1j6.10.2.md) | 2026-10-10 09:17:13 EDT |
 | sase | [`ee99123`](https://github.com/sase-org/sase/commit/ee9912307c92a9cb61f236d527fd4e4929c50d6c) | feat(auto-restart): complete healer relaunch and provenance flow | [sase-1j6.10.5](sase-1j6.10.5.md) | 2026-10-10 10:10:49 EDT |
 | sase | [`df47dd8`](https://github.com/sase-org/sase/commit/df47dd875b0870815de1adffb4b82163cf260cc3) | feat(auto-restart): polish episode report settlement, titles and dedup | [sase-1j6.10.6](sase-1j6.10.6.md) | 2026-10-10 11:09:05 EDT |
+| sase | [`e5e58ac`](https://github.com/sase-org/sase/commit/e5e58ac3d5b84393bd9c0ac77ac700a4da54ba65) | test(auto-restart): replay update-skew restart through real healer paths | [sase-1j6.10.7](sase-1j6.10.7.md) | 2026-10-10 13:00:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

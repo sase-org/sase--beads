@@ -20,7 +20,7 @@ episode-polish: refresh the live report and the row's inline snapshot on every j
 ## Dependencies
 
 - **Depends on:** [sase-1j6.10.5](sase-1j6.10.5.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1j6.10.7](sase-1j6.10.7.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1j6.10.7](sase-1j6.10.7.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -33,3 +33,15 @@ episode-polish: refresh the live report and the row's inline snapshot on every j
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`df47dd8`](https://github.com/sase-org/sase/commit/df47dd875b0870815de1adffb4b82163cf260cc3) | feat(auto-restart): polish episode report settlement, titles and dedup | [sase-1j6.10.6](sase-1j6.10.6.md) | 2026-10-10 11:09:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.6][1] | Need phase scope and design | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md
+
+<!-- sase:referenced-by:end -->

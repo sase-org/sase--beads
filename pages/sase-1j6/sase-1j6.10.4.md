@@ -19,7 +19,7 @@ runner-ux-fixes: remove the remaining late imports before os.execv, fix lifecycl
 
 ## Dependencies
 
-- **Blocks:** [sase-1j6.10.7](sase-1j6.10.7.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1j6.10.7](sase-1j6.10.7.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/finish_update_skew_auto_restart.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_update_skew_auto_restart.md
 
@@ -42,7 +42,9 @@ Complete epic sase-1j6: the update-skew healer really relaunches pre-provider sk
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1j6.10.2][1] | Need parent epic decisions, sibling phases, and design context for core-fixes | 1 |
+| read-by | [agent:sase-1j6.10.6][2] | parent epic scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md
 
 <!-- sase:referenced-by:end -->
