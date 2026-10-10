@@ -20,7 +20,7 @@ corpus-compile: compile a cached-ready in-memory corpus from the v3 index, with 
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2.1.1](sase-1jm.2.1.1.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.2.1.3](sase-1jm.2.1.3.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.2.1.3](sase-1jm.2.1.3.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -33,3 +33,15 @@ corpus-compile: compile a cached-ready in-memory corpus from the v3 index, with 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e4e72c2`](https://github.com/sase-org/sase-core/commit/e4e72c2a357b230d16af0aecbfdef389213cc7de) | feat(archive): compile v3 archive corpus | [sase-1jm.2.1.2](sase-1jm.2.1.2.md) | 2026-10-10 12:34:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.2.1.2][1] | Verify the phase closed and inspect the recorded verification note | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

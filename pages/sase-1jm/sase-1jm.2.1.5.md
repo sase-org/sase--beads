@@ -13,7 +13,7 @@ bindings-cache: expose the corpus through PyO3 and one off-thread cache shared b
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.2.1.3](sase-1jm.2.1.3.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.2.1.3](sase-1jm.2.1.3.md) ✓ · ⧖ 2026-10-10
 - **Depends on:** [sase-1jm.2.1.4](sase-1jm.2.1.4.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.2.1.6](sase-1jm.2.1.6.md) ◐ · ⧖ 2026-10-10
 

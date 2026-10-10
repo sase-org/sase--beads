@@ -27,7 +27,13 @@ profile-token: add the agents-archive query profile and the host-owned in: token
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md) | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md) | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`18f53d3`](https://github.com/sase-org/sase/commit/18f53d3e57626ac868975005e6d0fb4e720c09ab) | feat(query): add agents-archive profile and host-owned in: token | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 2026-10-10 11:40:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
