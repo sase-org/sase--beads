@@ -33,10 +33,23 @@ clean-slate: Follow phase 12. Audit all 23 flags, closure evidence, residual wra
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md) | [sase-1jc.12](sase-1jc.12.md) | 1 |
+| [bbugyi200.athena.sase-1jc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md) | [sase-1jc.12](sase-1jc.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6a12a4f`](https://github.com/sase-org/sase-core/commit/6a12a4f6bcbe432475c6e6bc97af940a930e2356) | docs(core): remove stale flag-removal leftover line | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:16:54 EDT |
+| sase | [`77ad508`](https://github.com/sase-org/sase/commit/77ad508a6c815afa016e81f5c56f0e23228e8adf) | chore(flags): remove retired flag leftovers and verify empty registry | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:23:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jc.12][1] | Need full scope, notes, epic symbols | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/retire_all_feature_flags.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md
 
@@ -48,7 +48,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 | [sase-1jc.1](sase-1jc.1.md) | Make flag infrastructure tests independent of production flags | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.10](sase-1jc.10.md) | Stabilize provider instruction and execution channels | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.11](sase-1jc.11.md) | Stabilize sudo requests, provider drains, and autonomy records | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1jc.12](sase-1jc.12.md) | Verify the empty registry and complete retirement cleanup | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [sase-1jc.12](sase-1jc.12.md) | Verify the empty registry and complete retirement cleanup | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1jc.2](sase-1jc.2.md) | Make typed Agent and Proc launches unconditional | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1jc.3](sase-1jc.3.md) | Make queue capacity budgets unconditional | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1jc.4](sase-1jc.4.md) | Stabilize macro aliases and strict input types | ✓ closed | medium | 2026-10-09 | 1 | 2 |
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.1.md) | [sase-1jc.1](sase-1jc.1.md) | 1 |
 | [bbugyi200.athena.sase-1jc.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md) | [sase-1jc.10](sase-1jc.10.md) | 1 |
 | [bbugyi200.athena.sase-1jc.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.11/README.md) | [sase-1jc.11](sase-1jc.11.md) | 1 |
-| [bbugyi200.athena.sase-1jc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md) | [sase-1jc.12](sase-1jc.12.md) | 1 |
+| [bbugyi200.athena.sase-1jc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md) | [sase-1jc.12](sase-1jc.12.md) | 2 |
 | [bbugyi200.athena.sase-1jc.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.2.md) | [sase-1jc.2](sase-1jc.2.md) | 2 |
 | [bbugyi200.athena.sase-1jc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.3/README.md) | [sase-1jc.3](sase-1jc.3.md) | 2 |
 | [bbugyi200.athena.sase-1jc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md) | [sase-1jc.4](sase-1jc.4.md) | 2 |
@@ -139,6 +139,7 @@ flowchart TD
 | sase | [`2c9f761`](https://github.com/sase-org/sase/commit/2c9f76121008a07b7c8be248ebbddae983f45b1c) | feat(providers): retire provider-instructions sunset flags | [sase-1jc.10](sase-1jc.10.md) | 2026-10-10 16:17:29 EDT |
 | sase | [`5235b17`](https://github.com/sase-org/sase/commit/5235b172744fdccc4a529945528f71a17ef89292) | feat(flags): retire runtime-controls flags agent\_sudo\_requests, provider\_drain, autonomy\_record\_only | [sase-1jc.11](sase-1jc.11.md) | 2026-10-10 17:00:43 EDT |
 | sase-core | [`sase-core@6a12a4f`](https://github.com/sase-org/sase-core/commit/6a12a4f6bcbe432475c6e6bc97af940a930e2356) | docs(core): remove stale flag-removal leftover line | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:16:54 EDT |
+| sase | [`77ad508`](https://github.com/sase-org/sase/commit/77ad508a6c815afa016e81f5c56f0e23228e8adf) | chore(flags): remove retired flag leftovers and verify empty registry | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:23:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -151,15 +152,17 @@ flowchart TD
 | read-by | [agent:sase-1j6.10.7][3] | Need whether sase-1jc owns closed flag bead leftovers | 1 |
 | read-by | [agent:sase-1j6.10.land--1][4] | check flag retirement epic status vs sase-102 close | 1 |
 | read-by | [agent:sase-1jc.10][5] | need epic context and decisions for phase 10 | 1 |
-| read-by | [agent:sase-1jc.4][6] | epic context for phase | 1 |
-| read-by | [agent:sase-1jc.6][7] | epic context for phase sase-1jc.6 | 1 |
+| read-by | [agent:sase-1jc.12][6] | Need epic status and ledger context for clean-slate phase | 2 |
+| read-by | [agent:sase-1jc.4][7] | epic context for phase | 1 |
+| read-by | [agent:sase-1jc.6][8] | epic context for phase sase-1jc.6 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ze.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6h.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
 
 <!-- sase:referenced-by:end -->
