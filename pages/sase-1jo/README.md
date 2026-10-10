@@ -1,0 +1,61 @@
+# Bead: sase-1jo — Databricks NYC application follow-ups
+
+[Bead Pages](../README.md) / sase-1jo
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.6k](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.6k.md) · **Assignee:** `sase-1jo.land`
+**Created:** 2026-10-10 15:45:42 EDT
+**Plan:** [202610/databricks\_followups.md](https://github.com/sase-org/sase--plans/blob/main/202610/databricks_followups.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/databricks_followups.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/databricks_followups.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Every recommendation in the research report databricks_nyc_cv_and_role_pitches.md that an agent can safely finish is done: the public CV repo is free of stale claims with all five PDFs rebuilt, the interview-prep material exists, and the eval-pilot harness is built. A concise databricks_nyc_cv_and_role_pitches_v2.md report next to the original lists exactly what Bryan still has to do himself.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1jo.1](sase-1jo.1.md) | CV repo cleanup and PDF rebuilds | ✓ closed | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jo.2](sase-1jo.2.md) | Interview-prep pack | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jo.3](sase-1jo.3.md) | SASE agent-eval pilot harness | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
+| [sase-1jo.4](sase-1jo.4.md) | Remaining-work report (v2) | ◐ in_progress | small | 2026-10-10 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1jo: Databricks NYC application follow-ups [in_progress]"]
+    n1["sase-1jo.1: CV repo cleanup and PDF rebuilds [closed]"]
+    n2["sase-1jo.2: Interview-prep pack [in_progress]"]
+    n3["sase-1jo.3: SASE agent-eval pilot harness [in_progress]"]
+    n4["sase-1jo.4: Remaining-work report (v2) [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n1 -.-> n4
+    n2 -.-> n4
+    n3 -.-> n4
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.sase-1jo.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.1/README.md) | [sase-1jo.1](sase-1jo.1.md) | 0 |
+| [bbugyi200.apollo.sase-1jo.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md) | [sase-1jo.2](sase-1jo.2.md) | 0 |
+| [bbugyi200.apollo.sase-1jo.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.3.md) | [sase-1jo.3](sase-1jo.3.md) | 0 |
+| [bbugyi200.apollo.sase-1jo.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md) | [sase-1jo.4](sase-1jo.4.md) | 0 |
+| [bbugyi200.apollo.sase-1jo.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.land/README.md) | [sase-1jo](README.md) | 0 |
