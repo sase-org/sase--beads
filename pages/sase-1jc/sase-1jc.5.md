@@ -13,7 +13,7 @@ identity-aliases: Follow phase 5 and the shared removal checklist. Retire legacy
 
 ## Dependencies
 
-- **Depends on:** [sase-1jc.4](sase-1jc.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.4](sase-1jc.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1jc.6](sase-1jc.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

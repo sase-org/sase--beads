@@ -24,7 +24,7 @@ queue-budget: Follow phase 3 and the shared removal checklist. Retire queue_capa
 ## Dependencies
 
 - **Depends on:** [sase-1jc.2](sase-1jc.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.4](sase-1jc.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.4](sase-1jc.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
