@@ -32,3 +32,15 @@ runner-ux-fixes: remove the remaining late imports before os.execv, fix lifecycl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1728f2b`](https://github.com/sase-org/sase/commit/1728f2bcd0adcc957efc30111e69dcd50a791b32) | fix(runner): finish refresh lifecycle and recovery UX | [sase-1j6.10.4](sase-1j6.10.4.md) | 2026-10-10 08:35:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.4/README.md
+
+<!-- sase:referenced-by:end -->
