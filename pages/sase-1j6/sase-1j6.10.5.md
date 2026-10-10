@@ -22,7 +22,7 @@ healer-relaunch: move the sase-core pin past core-fixes, re-classify with the pr
 - **Depends on:** [sase-1j6.10.1](sase-1j6.10.1.md) ✓ · ⧖ 2026-10-10
 - **Depends on:** [sase-1j6.10.2](sase-1j6.10.2.md) ✓ · ⧖ 2026-10-10
 - **Depends on:** [sase-1j6.10.3](sase-1j6.10.3.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1j6.10.6](sase-1j6.10.6.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1j6.10.6](sase-1j6.10.6.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -35,3 +35,15 @@ healer-relaunch: move the sase-core pin past core-fixes, re-classify with the pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee99123`](https://github.com/sase-org/sase/commit/ee9912307c92a9cb61f236d527fd4e4929c50d6c) | feat(auto-restart): complete healer relaunch and provenance flow | [sase-1j6.10.5](sase-1j6.10.5.md) | 2026-10-10 10:10:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.5--1][1] | Confirm the clean-base follow-up note before closing the completed phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ acceptance: rewrite the incident replay so doorbell, job tick, healer, classifie
 ## Dependencies
 
 - **Depends on:** [sase-1j6.10.4](sase-1j6.10.4.md) ✓ · ⧖ 2026-10-10
-- **Depends on:** [sase-1j6.10.6](sase-1j6.10.6.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1j6.10.6](sase-1j6.10.6.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
