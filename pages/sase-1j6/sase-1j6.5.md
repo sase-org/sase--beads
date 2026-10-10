@@ -26,7 +26,7 @@ healer: implement `sase agent auto-restart run`, which claims the ledger, classi
 ## Dependencies
 
 - **Depends on:** [sase-1j6.4](sase-1j6.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1j6.6](sase-1j6.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.6](sase-1j6.6.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.7](sase-1j6.7.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.8](sase-1j6.8.md) ✓ · ⧖ 2026-10-09
 
