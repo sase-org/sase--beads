@@ -19,7 +19,7 @@ ready-gate: stop Full CI perf-floors failing on the bead-scale gate's ratio:read
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.7.6.3](sase-1io.7.6.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.6.3](sase-1io.7.6.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

@@ -27,7 +27,7 @@ reply-card-race: find and fix why ctrl+j sometimes never switches the Agents dec
 
 ## Dependencies
 
-- **Blocks:** [sase-1io.7.6.3](sase-1io.7.6.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1io.7.6.3](sase-1io.7.6.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
