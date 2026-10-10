@@ -25,6 +25,12 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Remove all 23 registered feature flags and their disabled implementations across sase and sase-core, preserve today's all-enabled behavior, and leave an empty, usable flag registry through strictly sequential implementation phases.
 
+## Notes
+
+[2026-10-10T11:36:52Z · sase-1ip.land] DISCOVERED ISSUE: During the approved %auto E1 closeout,  run ae9a4f90ef6f8edac0a850be51a99ae9 passed fmt, model policy, keep-sorted, Ruff, and mypy, then stopped at lint (feature flags): rule 7 reports closed beads sase-18l and sase-1ar still have definitions legacy_agent_family_syntax and legacy_sase_shell_syntax. No E1 diff touches feature-flag files. The closed bead IDs are the exact flags retired in sase-1jc.5; active phase sase-1jc.12 owns the empty-registry and residual-definition audit. This appears to be workspace-tree/shared-bead-state skew, but this checkout cannot pass the gate until the cleanup tree is reconciled. Routed here because the active retirement epic owns it; no standalone task filed.
+
+[2026-10-10T11:51:24Z · sase-1ip.land] Follow-up verification in SASE ToolRun 426d8fbda51a877454bf690b8ff72495 reproduced the already-owned rule 7 failures: closed flag beads sase-18l and sase-1ar still have legacy_agent_family_syntax and legacy_sase_shell_syntax definitions. fmt, model policy, keep-sorted, Ruff, and mypy passed; lint (feature flags) stopped the guarded check. The surviving definitions remain in the scope of this active retirement epic; no duplicate task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,7 +43,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 | [sase-1jc.3](sase-1jc.3.md) | Make queue capacity budgets unconditional | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1jc.4](sase-1jc.4.md) | Stabilize macro aliases and strict input types | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [sase-1jc.5](sase-1jc.5.md) | Stabilize agent-session and turn compatibility aliases | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1jc.6](sase-1jc.6.md) | Remove the legacy live Agents query implementation | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1jc.6](sase-1jc.6.md) | Remove the legacy live Agents query implementation | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.7](sase-1jc.7.md) | Stabilize refresh tokens, refresh gestures, and the Flags pane | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1jc.8](sase-1jc.8.md) | Stabilize publication formats and service contracts | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1jc.9](sase-1jc.9.md) | Remove legacy monitor-start rollout paths | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -55,7 +61,7 @@ flowchart TD
     n6["sase-1jc.3: Make queue capacity budgets unconditional [closed]"]
     n7["sase-1jc.4: Stabilize macro aliases and strict input types [closed]"]
     n8["sase-1jc.5: Stabilize agent-session and turn compatibility aliases [closed]"]
-    n9["sase-1jc.6: Remove the legacy live Agents query implementation [in_progress]"]
+    n9["sase-1jc.6: Remove the legacy live Agents query implementation [closed]"]
     n10["sase-1jc.7: Stabilize refresh tokens, refresh gestures, and the Flags pane [in_progress]"]
     n11["sase-1jc.8: Stabilize publication formats and service contracts [in_progress]"]
     n12["sase-1jc.9: Remove legacy monitor-start rollout paths [in_progress]"]
@@ -96,7 +102,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.3/README.md) | [sase-1jc.3](sase-1jc.3.md) | 2 |
 | [bbugyi200.athena.sase-1jc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md) | [sase-1jc.4](sase-1jc.4.md) | 2 |
 | [bbugyi200.athena.sase-1jc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.5/README.md) | [sase-1jc.5](sase-1jc.5.md) | 1 |
-| [bbugyi200.athena.sase-1jc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md) | [sase-1jc.6](sase-1jc.6.md) | 0 |
+| [bbugyi200.athena.sase-1jc.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md) | [sase-1jc.6](sase-1jc.6.md) | 1 |
 | [bbugyi200.athena.sase-1jc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.7/README.md) | [sase-1jc.7](sase-1jc.7.md) | 0 |
 | [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.8/README.md) | [sase-1jc.8](sase-1jc.8.md) | 0 |
 | [bbugyi200.athena.sase-1jc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md) | [sase-1jc.9](sase-1jc.9.md) | 0 |
@@ -114,6 +120,7 @@ flowchart TD
 | sase-core | [`sase-core@e3b0907`](https://github.com/sase-org/sase-core/commit/e3b0907b8d3eafcd3d673b5af0c071d6a9f8370c) | feat(macros): retire legacy-xprompt opt-out; unconditional alias acceptance | [sase-1jc.4](sase-1jc.4.md) | 2026-10-10 06:23:12 EDT |
 | sase | [`8a2f344`](https://github.com/sase-org/sase/commit/8a2f344626143a97b29d63d202d3537ac7860587) | feat(flags): retire legacy\_xprompt\_syntax and strict\_macro\_input\_types; macro aliases and strict input types unconditional | [sase-1jc.4](sase-1jc.4.md) | 2026-10-10 06:27:37 EDT |
 | sase | [`2f5070d`](https://github.com/sase-org/sase/commit/2f5070d1291c8110b4d9b910cf353d1a47e4b2de) | feat(flags): retire legacy\_agent\_family\_syntax and legacy\_sase\_shell\_syntax; agent-session and turn aliases unconditional | [sase-1jc.5](sase-1jc.5.md) | 2026-10-10 07:32:01 EDT |
+| sase | [`b46ecb0`](https://github.com/sase-org/sase/commit/b46ecb0a947539855d69034bd4d1300b999274af) | feat(agents): retire agents\_unified\_query flag, unify live query path | [sase-1jc.6](sase-1jc.6.md) | 2026-10-10 08:26:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -24,7 +24,7 @@ identity-aliases: Follow phase 5 and the shared removal checklist. Retire legacy
 ## Dependencies
 
 - **Depends on:** [sase-1jc.4](sase-1jc.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.6](sase-1jc.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.6](sase-1jc.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -44,8 +44,10 @@ identity-aliases: Follow phase 5 and the shared removal checklist. Retire legacy
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jm.1][1] | Confirm the active owner for closed flag definitions reported by just check | 2 |
+| read-by | [agent:sase-1jc.5][1] | Need phase scope notes and history | 2 |
+| read-by | [agent:sase-1jm.1][2] | Confirm the active owner for closed flag definitions reported by just check | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
 
 <!-- sase:referenced-by:end -->

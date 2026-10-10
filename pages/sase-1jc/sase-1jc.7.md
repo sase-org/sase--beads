@@ -13,7 +13,7 @@ tui-refresh: Follow phase 7 and the shared removal checklist. Retire ace_refresh
 
 ## Dependencies
 
-- **Depends on:** [sase-1jc.6](sase-1jc.6.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.6](sase-1jc.6.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1jc.8](sase-1jc.8.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
