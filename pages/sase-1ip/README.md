@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / sase-1ip
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0yj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0yj.md) · **Assignee:** `sase-1ip.land`
-**Created:** 2026-10-09 05:12:51 EDT · **Closed:** 2026-10-09 18:53:28 EDT
+**Created:** 2026-10-09 05:12:51 EDT · **Closed:** 2026-10-10 07:51:57 EDT
 **Plan:** [202610/auto\_e1\_autonomy\_record.md](https://github.com/sase-org/sase--plans/blob/main/202610/auto_e1_autonomy_record.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-10-09T22:53:28Z · done
+>
+> finish_auto_e1_landing: all phases closed, both checks green, closeout evidence recorded
+>
+> Reopened 2026-10-10T10:50:49Z by a status update
 
 <!-- sase:links:start -->
 
@@ -94,6 +102,16 @@ FOLLOW-UPS (not epic work, left open)
 Changed repos declared at final submit: sase, sase-core, plans.
 Host commits after the turn.
 
+[2026-10-10T10:50:49Z · bryanbugyi34@gmail.com] The Epic Lander agent closed the spec but that agent also failed so I'm not sure if its work was actually committed.
+
+[2026-10-10T10:59:43Z · sase-1ip.land] REOPENED LAND AUDIT (2026-10-10): The prior implementation WAS committed: sase 166e34eae9850e70d1832fc6d607bb151e42f056 and core 4ffe48ced77d21c024ee0df8d4796df1269e59b6 are present; current pin e3b0907b8d3eafcd3d673b5af0c071d6a9f8370c descends from core phases 01b0ad73/51b66fdb and the provenance fix. Read this epic, every note of all seven closed children, original plan and finish_auto_e1_landing tale, epic commits and current source. No memory edited; decision_record=no honored. Flag sase-1j0 exists; sase-11g remains ready with its auto-half note. No parent link; epic-symbols empty. Fetched origin/master equals clean checkout HEAD 6ece2ac1bc. Reviewed all post-start commits: role change 274c65ec53 intentionally defaults epic workers to standard and integrates role rows/parity/docs; restart work reuses live-record prompt rewriting; metadata/gate/direct-approval splits preserve the final remediation paths. Core checkout has newer 6ed9c3d8 removing awareness beyond the pinned revision; this audit neither changes nor advances the pin to that separate work.
+
+Fresh verification: 179 passed, zero xfails, 180.88s, covering tests/autonomy_contract, fakey autonomy lifecycle, autonomy roles, direct approval launch/run/recovery execute, plan successor, runner refresh reconciliation and auto-restart incident replay. No just check-full; no source changes this turn. These passes do NOT satisfy closure: the regression test test_direct_approval_host_composed_env_inherits merely asserts isinstance(env, dict), including empty env. A separate side-effect-free probe through launch_coder_once -> prepare_agent_session_attach_launch -> build_agent_meta, intercepting spawning and injecting only project/session lookup, proves a tale parent yields tale/inherited with the same-project CWD but manual/prompt with a different-project or unrecognized CWD. _host_composed_attach_env resolves the shell CWD project instead of the resolved coder target project, silently returns {}, and the later correctly-targeted session attach loses host_composed. This is caused by this epic (166e34eae9), not an external follow-up.
+
+Remaining acceptance from the previous tale is also missing:
+
+… and 5036 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -147,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ip.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ip.5/README.md) | [sase-1ip.5](sase-1ip.5.md) | 1 |
 | [bbugyi200.athena.sase-1ip.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.6.md) | [sase-1ip.6](sase-1ip.6.md) | 1 |
 | [bbugyi200.athena.sase-1ip.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.7.md) | [sase-1ip.7](sase-1ip.7.md) | 1 |
-| [bbugyi200.athena.sase-1ip.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md) | [sase-1ip](README.md) | 2 |
+| [bbugyi200.athena.sase-1ip.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ip.land.md) | [sase-1ip](README.md) | 3 |
 
 ## Commits
 
@@ -163,6 +181,7 @@ flowchart TD
 | sase | [`70c51ad`](https://github.com/sase-org/sase/commit/70c51adbdd6dfe3ef66cea4ec9dc74ccd6fc1608) | feat(sase-1ip.7): sase autonomy CLI, inspect surfaces, and acceptance | [sase-1ip.7](sase-1ip.7.md) | 2026-10-09 15:19:19 EDT |
 | sase-core | [`sase-core@4ffe48c`](https://github.com/sase-org/sase-core/commit/4ffe48ced77d21c024ee0df8d4796df1269e59b6) | fix(autonomy): human mutations stamp mutating-surface provenance | [sase-1ip](README.md) | 2026-10-09 18:54:54 EDT |
 | sase | [`166e34e`](https://github.com/sase-org/sase/commit/166e34eae9850e70d1832fc6d607bb151e42f056) | feat(auto): land %auto E1 one autonomy record | [sase-1ip](README.md) | 2026-10-09 19:49:49 EDT |
+| sase | [`fb92c0e`](https://github.com/sase-org/sase/commit/fb92c0ee77f53f692b7289e3f5003efd5663ada8) | fix(autonomy): preserve target-project inheritance on plan approval | [sase-1ip](README.md) | 2026-10-10 08:22:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
