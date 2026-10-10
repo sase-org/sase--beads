@@ -25,6 +25,12 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 When a live sase update breaks a running agent before its model turn, sase puts it back once, under the same name, exactly as `,x` plus an unmodified submit would, and tells the user what it did and why in one calm amber ↻ story. Every other update-shaped failure is surfaced with its reason and never silently swallowed. The refresh-path bug behind the 2026-10-09 incident can no longer recur.
 
+## Notes
+
+[2026-10-10T03:23:49Z · sase-1j6.land] LAND TRIAGE (sase-1j6.land, 2026-10-09) of every child PROPOSED FOLLOW-UP: decisions-web record (all nine phases) -> new memory task sase-1ji (the auto decision had no human review). P1 import-recording test (1j6.9) -> sase-1jd. P2 release pinning (1j6.9) -> sase-1je. Post-provider resume-in-place (1j6.9) -> sase-1jf. Sunset llm_provider.retry.sase (1j6.9) -> sase-1jg. %auto parity for manual ,x and sase agent restart (1j6.9) -> sase-1jh. test_registry_rebuild_keeps_live_identity_pending_claim flake (1j6.2) -> +1 sase-1em. Vim containment gutter KeyError and focus leak (1j6.3) -> +1 sase-ni. DECLINED: the stale sase_core_rs wheel reports (1j6.1, 1j6.2, 1j6.6) are resolved, because the .venv sase_core_rs 0.37.2 exposes all 7 auto-restart bindings and those tests pass; the symvision leftovers (1j6.3, 1j6.4, 1j6.5, 1j6.7, 1j6.8) are resolved, the stage passes at HEAD, and only the refresh_episode_report epic-symbol remains, as epic work; the core pin bump (1j6.3) is resolved, because pin 4ffe48ce contains d4ad8c99; the zsh completion smoke timeout (1j6.3) has no node id and did not reproduce in the land check run. NOT PRE-EXISTING: the check failures that 1j6.6 note 3 and 1j6.9 note 7 called pre-existing were compared against bases that already contained earlier epic phases. Against the true pre-epic base 70c51adbdd, 10 of the 16 scoped-test failures are caused by the epic and 2 partly (completion snapshot x2, mutex groups, agents help sort, config schema, query-profile vocab, wire trailing field, marker mutation audit, timezone guard, pypi lock path; partly: marker path audit, TUI import budget), so they are epic work. The unrelated ones: bob dry-run -> new ci task sase-1jj; sudo canary flake -> +1 sase-1gh; detach watchdog and executor nested-run flakes -> new flake tasks sase-1jk and sase-1jl; non-epic import-budget growth -> +1 sase-1ic; session_root_tab audit rename -> +1 sase-1by. 1j6.7 notes 2 (refresh_episode_report on settlement) and 3 (episode row files) are unmet plan requirements and remain epic work.
+
+[2026-10-10T03:24:04Z · sase-1j6.land] LAND VERIFICATION (sase-1j6.land, 2026-10-09): the epic is NOT complete. All 9 phases are closed, but source review plus the land check run (1cf7efd448d1a406baca9f3dc6a33bd4, 16 scoped failures) found these release-blocking defects. (1) The healer never relaunches: core returns defer/probe_pending without a W4 witness, and healer._heal_claimed defers on mode==defer even after the probe passes; every healer test injects classify=lambda relaunch. (2) resolve_pending_targets feeds every failed row and dismissed bundle from the last 7 days to the healer. Each non-skew decline claims a ledger record and loudly resurface_failure()s it. The disabled/paused path resurfaces every target on each 60 s full sweep. write_recovery's atomic_write_json mkdirs a dismissed or wiped artifacts dir back into existence, including after the relaunch wipe. Installing master would spam loud notifications and create phantom rows. (3) Doorbells are never deleted once claimed, so the job submits a healer proc every tick. (4) Ledger claimed_at and history[].at are always null, so max_defer_seconds, the 30-minute storm limit, and the crash-rule time bound are dead. (5) A replacement's second failure is swallowed (already_launched: no escalation, recovery stays pending). (6) The Rust AgentMetaWire lacks auto_restart, so provenance never reaches production rows. (7) Core classifier: a trailing slash on workspace_dir defeats workspace scoping (197/229 real rows), log_tail substrings make third-party ImportErrors look managed, and the unknown phase relaunches. (8) SASE_AUTO_RESTART_PROVENANCE is never scrubbed from the env, so children inherit it. (9) Probe module names come out as src.sase.* for the editable checkout. (10) Settlement never refreshes the episode report (the refresh_episode_report epic-symbol). Integration: non-epic commits since 6ac3dc734e (166e34eae9 %auto E1, 274c65ec53, eff003d6a9, 1291c48fe3, c836ee5071) do not conflict; the live-autonomy relaunch helper already reads the E1 record. Remaining work is planned as a child epic with parent_bead sase-1j6.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,33 +51,55 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 flowchart TD
     n0["sase-1j6: Update-Skew Agent Auto-Restart [in_progress]"]
     n1["sase-1j6.1: Exec-first runner refresh and import firewall [closed]"]
-    n2["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [closed]"]
-    n3["sase-1j6.3: sase-core failure classifier, ledger state machine, and recovery wire [closed]"]
-    n4["sase-1j6.4: Skew witnesses and the read-only scan command [closed]"]
-    n5["sase-1j6.5: The healer, at-most-once ledger, and auto-restart CLI [closed]"]
-    n6["sase-1j6.6: Runner doorbell, scheduler job, and waiter safety [closed]"]
-    n7["sase-1j6.7: One upserted ↻ notification and live report per update episode [closed]"]
-    n8["sase-1j6.8: Agents-tab ↻ RESTARTING state, provenance line, help, and update hint [closed]"]
-    n9["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [closed]"]
+    n2["sase-1j6.10: Finish update-skew agent auto-restart so it is safe and actually relaunches [in_progress]"]
+    n3["sase-1j6.10.1: Restrict healer targets to skew-shaped failures and stop loud or phantom side effects [in_progress]"]
+    n4["sase-1j6.10.2: sase-core classifier, ledger timestamp, meta wire, and notification fixes [in_progress]"]
+    n5["sase-1j6.10.3: Correct probe module names and quiescence code-change times [in_progress]"]
+    n6["sase-1j6.10.4: Runner refresh imports, lifecycle facts, config, UX polish, and epic-caused test failures [closed]"]
+    n7["sase-1j6.10.5: Make the healer relaunch, settle, and escalate correctly end to end [in_progress]"]
+    n8["sase-1j6.10.6: Live episode report on settlement, honest titles, and per-death escalation keys [in_progress]"]
+    n9["sase-1j6.10.7: Real end-to-end incident replay, host dry run, audits, and docs [in_progress]"]
+    n10["sase-1j6.2: Runner boot identity, lifecycle breadcrumbs, and failure facts [closed]"]
+    n11["sase-1j6.3: sase-core failure classifier, ledger state machine, and recovery wire [closed]"]
+    n12["sase-1j6.4: Skew witnesses and the read-only scan command [closed]"]
+    n13["sase-1j6.5: The healer, at-most-once ledger, and auto-restart CLI [closed]"]
+    n14["sase-1j6.6: Runner doorbell, scheduler job, and waiter safety [closed]"]
+    n15["sase-1j6.7: One upserted ↻ notification and live report per update episode [closed]"]
+    n16["sase-1j6.8: Agents-tab ↻ RESTARTING state, provenance line, help, and update hint [closed]"]
+    n17["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
-    n1 -.-> n9
-    n2 -.-> n3
-    n3 -.-> n4
-    n4 -.-> n5
-    n5 -.-> n6
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n2 --> n8
+    n2 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n1 -.-> n17
+    n3 -.-> n7
+    n4 -.-> n7
     n5 -.-> n7
-    n5 -.-> n8
     n6 -.-> n9
-    n7 -.-> n9
+    n7 -.-> n8
     n8 -.-> n9
+    n10 -.-> n11
+    n11 -.-> n12
+    n12 -.-> n13
+    n13 -.-> n14
+    n13 -.-> n15
+    n13 -.-> n16
+    n14 -.-> n17
+    n15 -.-> n17
+    n16 -.-> n17
 ```
 
 ## Agents
@@ -79,6 +107,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1j6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.1/README.md) | [sase-1j6.1](sase-1j6.1.md) | 1 |
+| [bbugyi200.athena.sase-1j6.10.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.1/README.md) | [sase-1j6.10.1](sase-1j6.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.2/README.md) | [sase-1j6.10.2](sase-1j6.10.2.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.3/README.md) | [sase-1j6.10.3](sase-1j6.10.3.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.4/README.md) | [sase-1j6.10.4](sase-1j6.10.4.md) | 1 |
+| [bbugyi200.athena.sase-1j6.10.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.5/README.md) | [sase-1j6.10.5](sase-1j6.10.5.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.6/README.md) | [sase-1j6.10.6](sase-1j6.10.6.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md) | [sase-1j6.10.7](sase-1j6.10.7.md) | 0 |
+| [bbugyi200.athena.sase-1j6.10.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.land/README.md) | [sase-1j6.10](sase-1j6.10.md) | 0 |
 | [bbugyi200.athena.sase-1j6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.2/README.md) | [sase-1j6.2](sase-1j6.2.md) | 1 |
 | [bbugyi200.athena.sase-1j6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.3.md) | [sase-1j6.3](sase-1j6.3.md) | 2 |
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 1 |
@@ -87,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.7/README.md) | [sase-1j6.7](sase-1j6.7.md) | 1 |
 | [bbugyi200.athena.sase-1j6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md) | [sase-1j6.8](sase-1j6.8.md) | 1 |
 | [bbugyi200.athena.sase-1j6.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.9.md) | [sase-1j6.9](sase-1j6.9.md) | 1 |
-| [bbugyi200.athena.sase-1j6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.land/README.md) | [sase-1j6](README.md) | 0 |
+| [bbugyi200.athena.sase-1j6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.land.md) | [sase-1j6](README.md) | 0 |
 
 ## Commits
 
@@ -103,6 +139,7 @@ flowchart TD
 | sase | [`a58036d`](https://github.com/sase-org/sase/commit/a58036da0dec25b28396ed7150696e3b125ec019) | feat(auto-restart): Agents-tab RESTARTING state, provenance line, help, and update hint | [sase-1j6.8](sase-1j6.8.md) | 2026-10-09 20:35:13 EDT |
 | sase | [`6cf84c0`](https://github.com/sase-org/sase/commit/6cf84c01cb781bf20680cf3b8639a3cebede20c1) | feat(auto-restart): implement trigger phase with runner doorbell, scheduler sweep, and waiter forwarding | [sase-1j6.6](sase-1j6.6.md) | 2026-10-09 20:48:11 EDT |
 | sase | [`05bab36`](https://github.com/sase-org/sase/commit/05bab368afe5275c26ac2e3be12d89dab32ffeef) | feat(auto-restart): remove beta flag, document, and replay incident end to end | [sase-1j6.9](sase-1j6.9.md) | 2026-10-09 22:12:40 EDT |
+| sase | [`1728f2b`](https://github.com/sase-org/sase/commit/1728f2bcd0adcc957efc30111e69dcd50a791b32) | fix(runner): finish refresh lifecycle and recovery UX | [sase-1j6.10.4](sase-1j6.10.4.md) | 2026-10-10 08:35:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
