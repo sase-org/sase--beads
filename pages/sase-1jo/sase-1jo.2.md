@@ -40,7 +40,9 @@ prep: write SASE design-story cards and a short Agent Quality topic brief into t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jo.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jo.4][2] | Summarize completed interview preparation and remaining work for v2 report | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md
 
 <!-- sase:referenced-by:end -->

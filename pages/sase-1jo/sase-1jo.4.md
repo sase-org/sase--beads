@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:9ef7021a433e824881795ed8 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -42,3 +44,15 @@ v2: re-verify both postings and write the concise v2 report of what was done and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--research | [`sase--research@15020bd`](https://github.com/sase-org/sase--research/commit/15020bda925074c23342aa378641649ade8fd5c0) | feat(research): add Databricks application follow-up report | [sase-1jo.4](sase-1jo.4.md) | 2026-10-10 16:20:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jo.4][1] | Need notes to determine whether earlier phase work left recorded remainder | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md
+
+<!-- sase:referenced-by:end -->

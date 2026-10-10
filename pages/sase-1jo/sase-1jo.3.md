@@ -26,3 +26,15 @@ evalpilot: plan and build the small task-success eval over real SASE runs descri
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1jo.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1jo.3.md) | [sase-1jo.3](sase-1jo.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jo.4][1] | Confirm the eval pilot decision and completed work for v2 report | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1jo.4/README.md
+
+<!-- sase:referenced-by:end -->
