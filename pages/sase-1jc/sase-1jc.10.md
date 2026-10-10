@@ -14,7 +14,7 @@ provider-instructions: Follow phase 10 and the shared removal checklist. Retire 
 ## Dependencies
 
 - **Blocks:** [sase-1jc.11](sase-1jc.11.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [sase-1jc.9](sase-1jc.9.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.9](sase-1jc.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
