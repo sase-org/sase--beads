@@ -24,7 +24,7 @@ macro-contracts: Follow phase 4 and the shared removal checklist. Retire legacy_
 ## Dependencies
 
 - **Depends on:** [sase-1jc.3](sase-1jc.3.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1jc.5](sase-1jc.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.5](sase-1jc.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

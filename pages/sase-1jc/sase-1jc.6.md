@@ -13,7 +13,7 @@ agents-query: Follow phase 6 and the shared removal checklist. Retire agents_uni
 
 ## Dependencies
 
-- **Depends on:** [sase-1jc.5](sase-1jc.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.5](sase-1jc.5.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1jc.7](sase-1jc.7.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
