@@ -13,7 +13,7 @@ runtime-controls: Follow phase 11 and the shared removal checklist. Retire agent
 
 ## Dependencies
 
-- **Depends on:** [sase-1jc.10](sase-1jc.10.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1jc.10](sase-1jc.10.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1jc.12](sase-1jc.12.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

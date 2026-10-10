@@ -25,7 +25,7 @@ monitor-records: Follow phase 9 and the shared removal checklist. Retire monitor
 
 ## Dependencies
 
-- **Blocks:** [sase-1jc.10](sase-1jc.10.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1jc.10](sase-1jc.10.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1jc.8](sase-1jc.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
@@ -39,3 +39,17 @@ monitor-records: Follow phase 9 and the shared removal checklist. Retire monitor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1136a35`](https://github.com/sase-org/sase/commit/1136a35db29be9ba397d3fe12e7ceed7c04f0f40) | feat(monitors): retire monitor\_continuation\_records flag | [sase-1jc.9](sase-1jc.9.md) | 2026-10-10 14:54:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.10.land--1][1] | check what phase 1jc.9 changed for monitor records flag | 1 |
+| read-by | [agent:sase-1jc.9][2] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md
+
+<!-- sase:referenced-by:end -->

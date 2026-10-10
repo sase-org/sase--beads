@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/retire_all_feature_flags.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md
 
@@ -44,7 +44,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jc.1](sase-1jc.1.md) | Make flag infrastructure tests independent of production flags | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1jc.10](sase-1jc.10.md) | Stabilize provider instruction and execution channels | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1jc.10](sase-1jc.10.md) | Stabilize provider instruction and execution channels | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1jc.11](sase-1jc.11.md) | Stabilize sudo requests, provider drains, and autonomy records | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1jc.12](sase-1jc.12.md) | Verify the empty registry and complete retirement cleanup | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1jc.2](sase-1jc.2.md) | Make typed Agent and Proc launches unconditional | ✓ closed | medium | 2026-10-09 | 1 | 2 |
@@ -62,7 +62,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 flowchart TD
     n0["sase-1jc: Retire every current feature flag while preserving enabled behavior [in_progress]"]
     n1["sase-1jc.1: Make flag infrastructure tests independent of production flags [closed]"]
-    n2["sase-1jc.10: Stabilize provider instruction and execution channels [in_progress]"]
+    n2["sase-1jc.10: Stabilize provider instruction and execution channels [closed]"]
     n3["sase-1jc.11: Stabilize sudo requests, provider drains, and autonomy records [in_progress]"]
     n4["sase-1jc.12: Verify the empty registry and complete retirement cleanup [in_progress]"]
     n5["sase-1jc.2: Make typed Agent and Proc launches unconditional [closed]"]
@@ -103,7 +103,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jc.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.1.md) | [sase-1jc.1](sase-1jc.1.md) | 1 |
-| [bbugyi200.athena.sase-1jc.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md) | [sase-1jc.10](sase-1jc.10.md) | 0 |
+| [bbugyi200.athena.sase-1jc.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md) | [sase-1jc.10](sase-1jc.10.md) | 1 |
 | [bbugyi200.athena.sase-1jc.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.11/README.md) | [sase-1jc.11](sase-1jc.11.md) | 0 |
 | [bbugyi200.athena.sase-1jc.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md) | [sase-1jc.12](sase-1jc.12.md) | 0 |
 | [bbugyi200.athena.sase-1jc.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.2.md) | [sase-1jc.2](sase-1jc.2.md) | 2 |
@@ -134,6 +134,7 @@ flowchart TD
 | sase | [`b144f62`](https://github.com/sase-org/sase/commit/b144f622cf49a261acece2045008f025bb194c52) | feat(flags): retire publication-services flags slim\_agents\_manifest, agents\_session\_manifest\_compat, bgcmd\_legacy\_slots, axe\_routine\_job\_contract | [sase-1jc.8](sase-1jc.8.md) | 2026-10-10 12:59:12 EDT |
 | sase | [`8fdf12a`](https://github.com/sase-org/sase/commit/8fdf12a8a8d43fdbdc100018a881c473485c98e7) | fix(query\_profile): define \_\_dir\_\_ and PEP 562 hooks in profiles package init | [sase-1jc.8](sase-1jc.8.md) | 2026-10-10 14:02:44 EDT |
 | sase | [`1136a35`](https://github.com/sase-org/sase/commit/1136a35db29be9ba397d3fe12e7ceed7c04f0f40) | feat(monitors): retire monitor\_continuation\_records flag | [sase-1jc.9](sase-1jc.9.md) | 2026-10-10 14:54:32 EDT |
+| sase | [`2c9f761`](https://github.com/sase-org/sase/commit/2c9f76121008a07b7c8be248ebbddae983f45b1c) | feat(providers): retire provider-instructions sunset flags | [sase-1jc.10](sase-1jc.10.md) | 2026-10-10 16:17:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -143,12 +144,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:0ze--code][1] | See if concurrent flag-retirement epic already owns the closed-flag lint failure | 1 |
 | read-by | [agent:sase-1j6.10.7][2] | Need whether sase-1jc owns closed flag bead leftovers | 1 |
-| read-by | [agent:sase-1jc.4][3] | epic context for phase | 1 |
-| read-by | [agent:sase-1jc.6][4] | epic context for phase sase-1jc.6 | 1 |
+| read-by | [agent:sase-1j6.10.land--1][3] | check flag retirement epic status vs sase-102 close | 1 |
+| read-by | [agent:sase-1jc.4][4] | epic context for phase | 1 |
+| read-by | [agent:sase-1jc.6][5] | epic context for phase sase-1jc.6 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ze.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.7/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
 
 <!-- sase:referenced-by:end -->
