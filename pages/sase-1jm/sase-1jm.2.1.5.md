@@ -29,10 +29,23 @@ bindings-cache: expose the corpus through PyO3 and one off-thread cache shared b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@bc40675`](https://github.com/sase-org/sase-core/commit/bc40675233d35f370e7bf915ddda170e695abf04) | feat(archive): bind corpus compile, summary, rows, lookup, and count | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:20:15 EDT |
+| sase | [`f7026aa`](https://github.com/sase-org/sase/commit/f7026aa2f2d6a1bd5b3858ed10282e2c7d2fe748) | feat(archive): add AgentArchiveCorpus facade and shared TUI/CLI cache | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:25:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.2.1.5][1] | Need JSON fields notes design | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md) | [sase-1jm.2.1.2](sase-1jm.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.3/README.md) | [sase-1jm.2.1.3](sase-1jm.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md) | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1jm.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.6/README.md) | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1jm.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.land/README.md) | [sase-1jm.2.1](sase-1jm.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3/README.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
@@ -122,6 +122,7 @@ flowchart TD
 | sase-core | [`sase-core@e4e72c2`](https://github.com/sase-org/sase-core/commit/e4e72c2a357b230d16af0aecbfdef389213cc7de) | feat(archive): compile v3 archive corpus | [sase-1jm.2.1.2](sase-1jm.2.1.2.md) | 2026-10-10 12:34:13 EDT |
 | sase-core | [`sase-core@431599f`](https://github.com/sase-org/sase-core/commit/431599f402c3167b499a2bdc0d20a693558e54bb) | feat(archive): query compiled corpus for summary, rows, lookup, and count | [sase-1jm.2.1.3](sase-1jm.2.1.3.md) | 2026-10-10 13:49:40 EDT |
 | sase-core | [`sase-core@bc40675`](https://github.com/sase-org/sase-core/commit/bc40675233d35f370e7bf915ddda170e695abf04) | feat(archive): bind corpus compile, summary, rows, lookup, and count | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:20:15 EDT |
+| sase | [`f7026aa`](https://github.com/sase-org/sase/commit/f7026aa2f2d6a1bd5b3858ed10282e2c7d2fe748) | feat(archive): add AgentArchiveCorpus facade and shared TUI/CLI cache | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:25:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -131,8 +132,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.1][1] | Find the epic design and confirm phase notes and linked plan references | 1 |
 | read-by | [agent:sase-1jm.2.1.2][2] | Need the epic decisions and phase constraints | 1 |
+| read-by | [agent:sase-1jm.2.1.5][3] | Need epic DECISIONS for phase work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
 
 <!-- sase:referenced-by:end -->
