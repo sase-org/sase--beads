@@ -27,7 +27,7 @@ healer: implement `sase agent auto-restart run`, which claims the ledger, classi
 
 - **Depends on:** [sase-1j6.4](sase-1j6.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.6](sase-1j6.6.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [sase-1j6.7](sase-1j6.7.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.7](sase-1j6.7.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [sase-1j6.8](sase-1j6.8.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
@@ -41,3 +41,15 @@ healer: implement `sase agent auto-restart run`, which claims the ledger, classi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e9f73fb`](https://github.com/sase-org/sase/commit/e9f73fb19a65cd261c082e6a38c223bd73ab9762) | feat(auto-restart): healer, at-most-once ledger, and auto-restart CLI | [sase-1j6.5](sase-1j6.5.md) | 2026-10-09 19:51:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.5--1][1] | Declaration recovery: check bead status for bead_action | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.5.md
+
+<!-- sase:referenced-by:end -->

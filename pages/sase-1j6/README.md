@@ -35,7 +35,7 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 | [sase-1j6.4](sase-1j6.4.md) | Skew witnesses and the read-only scan command | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.5](sase-1j6.5.md) | The healer, at-most-once ledger, and auto-restart CLI | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.6](sase-1j6.6.md) | Runner doorbell, scheduler job, and waiter safety | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
-| [sase-1j6.7](sase-1j6.7.md) | One upserted ↻ notification and live report per update episode | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [sase-1j6.7](sase-1j6.7.md) | One upserted ↻ notification and live report per update episode | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.8](sase-1j6.8.md) | Agents-tab ↻ RESTARTING state, provenance line, help, and update hint | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [sase-1j6.9](sase-1j6.9.md) | Remove the beta flag, document, and replay the incident end to end | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 
@@ -50,7 +50,7 @@ flowchart TD
     n4["sase-1j6.4: Skew witnesses and the read-only scan command [closed]"]
     n5["sase-1j6.5: The healer, at-most-once ledger, and auto-restart CLI [closed]"]
     n6["sase-1j6.6: Runner doorbell, scheduler job, and waiter safety [in_progress]"]
-    n7["sase-1j6.7: One upserted ↻ notification and live report per update episode [in_progress]"]
+    n7["sase-1j6.7: One upserted ↻ notification and live report per update episode [closed]"]
     n8["sase-1j6.8: Agents-tab ↻ RESTARTING state, provenance line, help, and update hint [in_progress]"]
     n9["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [in_progress]"]
     n0 --> n1
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.4/README.md) | [sase-1j6.4](sase-1j6.4.md) | 1 |
 | [bbugyi200.athena.sase-1j6.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.5.md) | [sase-1j6.5](sase-1j6.5.md) | 1 |
 | [bbugyi200.athena.sase-1j6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.6/README.md) | [sase-1j6.6](sase-1j6.6.md) | 0 |
-| [bbugyi200.athena.sase-1j6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.7/README.md) | [sase-1j6.7](sase-1j6.7.md) | 0 |
+| [bbugyi200.athena.sase-1j6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.7/README.md) | [sase-1j6.7](sase-1j6.7.md) | 1 |
 | [bbugyi200.athena.sase-1j6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md) | [sase-1j6.8](sase-1j6.8.md) | 0 |
 | [bbugyi200.athena.sase-1j6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.9/README.md) | [sase-1j6.9](sase-1j6.9.md) | 0 |
 | [bbugyi200.athena.sase-1j6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.land/README.md) | [sase-1j6](README.md) | 0 |
@@ -99,6 +99,7 @@ flowchart TD
 | sase | [`f472226`](https://github.com/sase-org/sase/commit/f472226d5610cfb214ff2411b65cf2eef66c8f14) | feat(agent): add agent auto-restart wire with deferred TUI imports | [sase-1j6.3](sase-1j6.3.md) | 2026-10-09 17:45:31 EDT |
 | sase | [`3ba224b`](https://github.com/sase-org/sase/commit/3ba224b9c1875fc3b8f60a4ebae9efc922917980) | feat(agent): skew witnesses and read-only auto-restart scan | [sase-1j6.4](sase-1j6.4.md) | 2026-10-09 18:36:41 EDT |
 | sase | [`e9f73fb`](https://github.com/sase-org/sase/commit/e9f73fb19a65cd261c082e6a38c223bd73ab9762) | feat(auto-restart): healer, at-most-once ledger, and auto-restart CLI | [sase-1j6.5](sase-1j6.5.md) | 2026-10-09 19:51:33 EDT |
+| sase | [`6baeb5c`](https://github.com/sase-org/sase/commit/6baeb5cb4c7b523bcc76f6e1e444ce1dcec05254) | feat(auto-restart): episode-notify experience with single upserted episode row and live report | [sase-1j6.7](sase-1j6.7.md) | 2026-10-09 20:23:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -15,7 +15,7 @@ land: delete the agent_auto_restart flag's Off branches and close its bead, writ
 
 - **Depends on:** [sase-1j6.1](sase-1j6.1.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1j6.6](sase-1j6.6.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [sase-1j6.7](sase-1j6.7.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [sase-1j6.7](sase-1j6.7.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [sase-1j6.8](sase-1j6.8.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
