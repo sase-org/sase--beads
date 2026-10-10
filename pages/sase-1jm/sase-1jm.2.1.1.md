@@ -19,7 +19,7 @@ outcome-map: move the live status-bucket match into sase-core and derive archive
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.2.1.2](sase-1jm.2.1.2.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.2.1.2](sase-1jm.2.1.2.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

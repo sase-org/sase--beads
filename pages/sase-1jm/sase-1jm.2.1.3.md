@@ -13,7 +13,7 @@ corpus-query: evaluate agents-archive queries into summaries, windowed rows, cou
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.2.1.2](sase-1jm.2.1.2.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.2.1.2](sase-1jm.2.1.2.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.2.1.5](sase-1jm.2.1.5.md) ◐ · ⧖ 2026-10-10
 
 ## Agents
