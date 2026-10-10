@@ -21,7 +21,7 @@ refresh-exec-first: remove every lazy sase import between the HEAD-moved check a
 
 ## Dependencies
 
-- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

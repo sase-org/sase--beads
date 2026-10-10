@@ -37,7 +37,7 @@ When a live sase update breaks a running agent before its model turn, sase puts 
 | [sase-1j6.6](sase-1j6.6.md) | Runner doorbell, scheduler job, and waiter safety | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.7](sase-1j6.7.md) | One upserted ↻ notification and live report per update episode | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [sase-1j6.8](sase-1j6.8.md) | Agents-tab ↻ RESTARTING state, provenance line, help, and update hint | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [sase-1j6.9](sase-1j6.9.md) | Remove the beta flag, document, and replay the incident end to end | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
+| [sase-1j6.9](sase-1j6.9.md) | Remove the beta flag, document, and replay the incident end to end | ✓ closed | small | 2026-10-09 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
     n6["sase-1j6.6: Runner doorbell, scheduler job, and waiter safety [closed]"]
     n7["sase-1j6.7: One upserted ↻ notification and live report per update episode [closed]"]
     n8["sase-1j6.8: Agents-tab ↻ RESTARTING state, provenance line, help, and update hint [closed]"]
-    n9["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [in_progress]"]
+    n9["sase-1j6.9: Remove the beta flag, document, and replay the incident end to end [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1j6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.6/README.md) | [sase-1j6.6](sase-1j6.6.md) | 1 |
 | [bbugyi200.athena.sase-1j6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.7/README.md) | [sase-1j6.7](sase-1j6.7.md) | 1 |
 | [bbugyi200.athena.sase-1j6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.8/README.md) | [sase-1j6.8](sase-1j6.8.md) | 1 |
-| [bbugyi200.athena.sase-1j6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.9/README.md) | [sase-1j6.9](sase-1j6.9.md) | 0 |
+| [bbugyi200.athena.sase-1j6.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.9.md) | [sase-1j6.9](sase-1j6.9.md) | 1 |
 | [bbugyi200.athena.sase-1j6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.land/README.md) | [sase-1j6](README.md) | 0 |
 
 ## Commits
@@ -102,6 +102,7 @@ flowchart TD
 | sase | [`6baeb5c`](https://github.com/sase-org/sase/commit/6baeb5cb4c7b523bcc76f6e1e444ce1dcec05254) | feat(auto-restart): episode-notify experience with single upserted episode row and live report | [sase-1j6.7](sase-1j6.7.md) | 2026-10-09 20:23:21 EDT |
 | sase | [`a58036d`](https://github.com/sase-org/sase/commit/a58036da0dec25b28396ed7150696e3b125ec019) | feat(auto-restart): Agents-tab RESTARTING state, provenance line, help, and update hint | [sase-1j6.8](sase-1j6.8.md) | 2026-10-09 20:35:13 EDT |
 | sase | [`6cf84c0`](https://github.com/sase-org/sase/commit/6cf84c01cb781bf20680cf3b8639a3cebede20c1) | feat(auto-restart): implement trigger phase with runner doorbell, scheduler sweep, and waiter forwarding | [sase-1j6.6](sase-1j6.6.md) | 2026-10-09 20:48:11 EDT |
+| sase | [`05bab36`](https://github.com/sase-org/sase/commit/05bab368afe5275c26ac2e3be12d89dab32ffeef) | feat(auto-restart): remove beta flag, document, and replay incident end to end | [sase-1j6.9](sase-1j6.9.md) | 2026-10-09 22:12:40 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -26,7 +26,7 @@ episode-notify: replace the healer's minimal notifications with the designed exp
 ## Dependencies
 
 - **Depends on:** [sase-1j6.5](sase-1j6.5.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

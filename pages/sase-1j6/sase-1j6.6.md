@@ -24,7 +24,7 @@ trigger: have the dying runner drop a stdlib doorbell, mark recovery pending, an
 ## Dependencies
 
 - **Depends on:** [sase-1j6.5](sase-1j6.5.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [sase-1j6.9](sase-1j6.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -37,3 +37,17 @@ trigger: have the dying runner drop a stdlib doorbell, mark recovery pending, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6cf84c0`](https://github.com/sase-org/sase/commit/6cf84c01cb781bf20680cf3b8639a3cebede20c1) | feat(auto-restart): implement trigger phase with runner doorbell, scheduler sweep, and waiter forwarding | [sase-1j6.6](sase-1j6.6.md) | 2026-10-09 20:48:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1j6.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:toobig-7j.test_run_agent_runner_refresh.0--1][2] | need bead status to triage symvision epic-symbol failure vs split work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.toobig-7j.test_run_agent_runner_refresh.0.md
+
+<!-- sase:referenced-by:end -->
