@@ -28,7 +28,7 @@ Master Gate stays green on master, and a fresh Full CI on the landed tip passes 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jz.1](sase-1jz.1.md) | Save-location picker mount race and host-isolated mini-macro location goldens | ✓ closed | small | 2026-10-11 | 1 | 1 |
-| [sase-1jz.2](sase-1jz.2.md) | Pin every clock, zone, and hostname the visual fixtures observe | ✓ closed | medium | 2026-10-11 | 1 | 0 |
+| [sase-1jz.2](sase-1jz.2.md) | Pin every clock, zone, and hostname the visual fixtures observe | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jz.3](sase-1jz.3.md) | Agents-deck capture races and the sase-1ii deck-state timeouts | ◐ in_progress | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jz.4](sase-1jz.4.md) | Full visual-lane rebaseline for the intended Models and dictionary-card changes | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jz.5](sase-1jz.5.md) | Prove Master Gate and a fresh Full CI green on one SHA | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
@@ -59,7 +59,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jz.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jz.1.md) | [sase-1jz.1](sase-1jz.1.md) | 1 |
-| [bbugyi200.athena.sase-1jz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jz.2.md) | [sase-1jz.2](sase-1jz.2.md) | 0 |
+| [bbugyi200.athena.sase-1jz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jz.2.md) | [sase-1jz.2](sase-1jz.2.md) | 1 |
 | [bbugyi200.athena.sase-1jz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jz.3.md) | [sase-1jz.3](sase-1jz.3.md) | 1 |
 | [bbugyi200.athena.sase-1jz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jz.4/README.md) | [sase-1jz.4](sase-1jz.4.md) | 0 |
 | [bbugyi200.athena.sase-1jz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jz.5/README.md) | [sase-1jz.5](sase-1jz.5.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`e74b09e`](https://github.com/sase-org/sase/commit/e74b09e100dd01a896312929b7f10202caec41e4) | fix(ace-tui): deliver mounted choices in save-location picker and host-isolate mini-macro location goldens | [sase-1jz.1](sase-1jz.1.md) | 2026-10-11 15:41:37 EDT |
 | sase | [`4b99e45`](https://github.com/sase-org/sase/commit/4b99e4590758080dccd35800c0053ae920c7d99a) | feat(agents-deck): record timed-out joined check outcome on sase-1jz.3 | [sase-1jz.3](sase-1jz.3.md) | 2026-10-11 15:47:03 EDT |
+| sase | [`40dd537`](https://github.com/sase-org/sase/commit/40dd5371b9538c23302e99af20affe477b60a4af) | fix(pager): pin visual clocks and hide chrome rule with the time band | [sase-1jz.2](sase-1jz.2.md) | 2026-10-11 16:10:43 EDT |

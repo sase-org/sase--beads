@@ -34,3 +34,15 @@ picker-race: render choices delivered before mount in SaveLocationPickerModal, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e74b09e`](https://github.com/sase-org/sase/commit/e74b09e100dd01a896312929b7f10202caec41e4) | fix(ace-tui): deliver mounted choices in save-location picker and host-isolate mini-macro location goldens | [sase-1jz.1](sase-1jz.1.md) | 2026-10-11 15:41:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jz.1--1][1] | Need phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jz.1.md
+
+<!-- sase:referenced-by:end -->
