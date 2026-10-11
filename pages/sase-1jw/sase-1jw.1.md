@@ -21,7 +21,7 @@ field: sase-core accepts an optional `project` frontmatter field. `sase plan pro
 
 ## Dependencies
 
-- **Blocks:** [sase-1jw.2](sase-1jw.2.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jw.2](sase-1jw.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jw.3](sase-1jw.3.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
@@ -35,3 +35,4 @@ field: sase-core accepts an optional `project` frontmatter field. `sase plan pro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@96f7796`](https://github.com/sase-org/sase-core/commit/96f7796d06ac7524f7ba20a76633811b7b1aa32b) | feat(plan): validate machine-local project metadata | [sase-1jw.1](sase-1jw.1.md) | 2026-10-11 08:55:26 EDT |
+| sase | [`e926d41`](https://github.com/sase-org/sase/commit/e926d4100b1a6960682f632dce5c7a3882f39a77) | feat: Accept, stamp, and strip the plan \`project\` field  (sase-1jw.1) | [sase-1jw.1](sase-1jw.1.md) | 2026-10-11 09:08:18 EDT |

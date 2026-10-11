@@ -27,8 +27,8 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1jw.1](sase-1jw.1.md) | Accept, stamp, and strip the plan \`project\` field | ✓ closed | medium | 2026-10-11 | 1 | 1 |
-| [sase-1jw.2](sase-1jw.2.md) | \`sase plan approve\` resolves the project from frontmatter | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
+| [sase-1jw.1](sase-1jw.1.md) | Accept, stamp, and strip the plan \`project\` field | ✓ closed | medium | 2026-10-11 | 1 | 2 |
+| [sase-1jw.2](sase-1jw.2.md) | \`sase plan approve\` resolves the project from frontmatter | ✓ closed | small | 2026-10-11 | 1 | 1 |
 | [sase-1jw.3](sase-1jw.3.md) | \`sase bead work \<plan-file\>\` routes by frontmatter project | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@
 flowchart TD
     n0["sase-1jw: Record each local plan's SASE project in its frontmatter [in_progress]"]
     n1["sase-1jw.1: Accept, stamp, and strip the plan `project` field [closed]"]
-    n2["sase-1jw.2: `sase plan approve` resolves the project from frontmatter [in_progress]"]
+    n2["sase-1jw.2: `sase plan approve` resolves the project from frontmatter [closed]"]
     n3["sase-1jw.3: `sase bead work &lt;plan-file&gt;` routes by frontmatter project [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.1/README.md) | [sase-1jw.1](sase-1jw.1.md) | 1 |
-| [bbugyi200.athena.sase-1jw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.2/README.md) | [sase-1jw.2](sase-1jw.2.md) | 0 |
+| [bbugyi200.athena.sase-1jw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.2/README.md) | [sase-1jw.2](sase-1jw.2.md) | 1 |
 | [bbugyi200.athena.sase-1jw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.3/README.md) | [sase-1jw.3](sase-1jw.3.md) | 0 |
 | [bbugyi200.athena.sase-1jw.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.land/README.md) | [sase-1jw](README.md) | 0 |
 
@@ -60,3 +60,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@96f7796`](https://github.com/sase-org/sase-core/commit/96f7796d06ac7524f7ba20a76633811b7b1aa32b) | feat(plan): validate machine-local project metadata | [sase-1jw.1](sase-1jw.1.md) | 2026-10-11 08:55:26 EDT |
+| sase | [`e926d41`](https://github.com/sase-org/sase/commit/e926d4100b1a6960682f632dce5c7a3882f39a77) | feat: Accept, stamp, and strip the plan \`project\` field  (sase-1jw.1) | [sase-1jw.1](sase-1jw.1.md) | 2026-10-11 09:08:18 EDT |
+| sase | [`465da09`](https://github.com/sase-org/sase/commit/465da09ead6efa7473f13fe18544be59f1731662) | feat(plan): resolve approval projects from frontmatter | [sase-1jw.2](sase-1jw.2.md) | 2026-10-11 10:43:16 EDT |
