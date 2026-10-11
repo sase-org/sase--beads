@@ -19,7 +19,7 @@ tick-diagnostics: flush chop log lines so a SIGKILLed job keeps its output, and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1jy.4](sase-1jy.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jy.4](sase-1jy.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

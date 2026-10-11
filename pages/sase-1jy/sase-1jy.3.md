@@ -20,7 +20,7 @@ scope-keys: factor the identity keys _add_prepared files a row under into one he
 ## Dependencies
 
 - **Depends on:** [sase-1jy.2](sase-1jy.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jy.4](sase-1jy.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jy.4](sase-1jy.4.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jy.5](sase-1jy.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
