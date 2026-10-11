@@ -40,7 +40,9 @@ approve: gateless `sase plan approve` reads the plan's `project` field right aft
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jw.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jw.3][2] | Need whether approval phase consumed read_plan_project | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.3/README.md
 
 <!-- sase:referenced-by:end -->

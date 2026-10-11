@@ -34,3 +34,15 @@ bead-work: plan-file mode reads the `project` field. When the working directory 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0c215c1`](https://github.com/sase-org/sase/commit/0c215c1f4c9fe8480e82c04d31a6eb39b7910f4c) | feat(bead): route plan-file work by frontmatter project | [sase-1jw.3](sase-1jw.3.md) | 2026-10-11 15:55:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jw.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.3/README.md
+
+<!-- sase:referenced-by:end -->
