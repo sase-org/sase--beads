@@ -14,7 +14,7 @@ scoped-wait-checks: build the resolving and confirmation views from scoped rows 
 ## Dependencies
 
 - **Depends on:** [sase-1jy.1](sase-1jy.1.md) ✓ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jy.3](sase-1jy.3.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jy.3](sase-1jy.3.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jy.6](sase-1jy.6.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

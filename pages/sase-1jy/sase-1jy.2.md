@@ -23,7 +23,7 @@ batch-index-build: refresh effective clan tribes once per touched clan generatio
 
 ## Dependencies
 
-- **Blocks:** [sase-1jy.3](sase-1jy.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jy.3](sase-1jy.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -36,3 +36,15 @@ batch-index-build: refresh effective clan tribes once per touched clan generatio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9982db1`](https://github.com/sase-org/sase/commit/9982db19428a0b3c6239b43cc5f7b7d4eae31b07) | perf(wait-index): batch add\_many with linear clan-tribe refresh and cached plan checks | [sase-1jy.2](sase-1jy.2.md) | 2026-10-11 12:55:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jy.2][1] | check prior notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.2/README.md
+
+<!-- sase:referenced-by:end -->

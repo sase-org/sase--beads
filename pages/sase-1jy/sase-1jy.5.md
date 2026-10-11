@@ -13,7 +13,7 @@ scoped-runner-fallback: make _resolve_marker_release build scoped project indexe
 
 ## Dependencies
 
-- **Depends on:** [sase-1jy.3](sase-1jy.3.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jy.3](sase-1jy.3.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jy.6](sase-1jy.6.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
