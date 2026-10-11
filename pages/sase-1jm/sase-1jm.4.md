@@ -13,7 +13,7 @@ record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenan
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.2](sase-1jm.2.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.8](sase-1jm.8.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

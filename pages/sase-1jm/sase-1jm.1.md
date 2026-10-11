@@ -21,7 +21,7 @@ archive-index: bump the dismissed-bundle summary index to v3. Add the session, c
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.2](sase-1jm.2.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

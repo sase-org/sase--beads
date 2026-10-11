@@ -13,7 +13,7 @@ archive-view: add the beta-flagged ,a toggle and per-view parking. In the Archiv
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.2](sase-1jm.2.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.5](sase-1jm.5.md) ◐ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.6](sase-1jm.6.md) ◐ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.7](sase-1jm.7.md) ◐ · ⧖ 2026-10-10

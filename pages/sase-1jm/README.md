@@ -30,7 +30,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jm.1](sase-1jm.1.md) | Archive index v3 and honest timestamps | ✓ closed | medium | 2026-10-10 | 1 | 1 |
-| [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
+| [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
@@ -44,8 +44,8 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 flowchart TD
     n0["sase-1jm: Agents tab Archive view retires Artifacts ▸ Agent [in_progress]"]
     n1["sase-1jm.1: Archive index v3 and honest timestamps [closed]"]
-    n2["sase-1jm.2: Core archive corpus, in scope token, and CLI parity [in_progress]"]
-    n3["sase-1jm.2.1: Archive corpus, in:archive scope, and CLI parity [in_progress]"]
+    n2["sase-1jm.2: Core archive corpus, in scope token, and CLI parity [closed]"]
+    n3["sase-1jm.2.1: Archive corpus, in:archive scope, and CLI parity [closed]"]
     n4["sase-1jm.2.1.1: One status table for archive outcome [closed]"]
     n5["sase-1jm.2.1.2: Compiled archive corpus and derived fields [closed]"]
     n6["sase-1jm.2.1.3: Group summaries, windows, and exact lookup [closed]"]
@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md) | [sase-1jm.2.1.4](sase-1jm.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1jm.2.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md) | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1jm.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.land/README.md) | [sase-1jm.2.1](sase-1jm.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1jm.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.land.md) | [sase-1jm.2.1](sase-1jm.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3/README.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
@@ -124,6 +124,7 @@ flowchart TD
 | sase-core | [`sase-core@bc40675`](https://github.com/sase-org/sase-core/commit/bc40675233d35f370e7bf915ddda170e695abf04) | feat(archive): bind corpus compile, summary, rows, lookup, and count | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:20:15 EDT |
 | sase | [`f7026aa`](https://github.com/sase-org/sase/commit/f7026aa2f2d6a1bd5b3858ed10282e2c7d2fe748) | feat(archive): add AgentArchiveCorpus facade and shared TUI/CLI cache | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:25:29 EDT |
 | sase | [`5f47d11`](https://github.com/sase-org/sase/commit/5f47d119356f02a87ec850aba52c6bd5090bd365) | feat(agents): add archive search CLI parity | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 2026-10-10 16:04:53 EDT |
+| sase-core | [`sase-core@cd2a72e`](https://github.com/sase-org/sase-core/commit/cd2a72eda5e92ee838f2567246db8b4f99e33ae9) | feat(archive): keep compiled corpus in Rust and resolve child owners | [sase-1jm.2.1](sase-1jm.2.1.md) | 2026-10-10 20:12:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
