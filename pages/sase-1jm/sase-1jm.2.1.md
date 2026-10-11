@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/archive_corpus.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/archive_corpus.md
 
@@ -51,16 +51,18 @@ sase-core answers which hidden archived runs match a query, in what order, and g
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jm.2.1.1][1] | parent epic decisions | 1 |
-| read-by | [agent:sase-1jm.2.1.2][2] | Need the epic decisions and phase constraints | 1 |
-| read-by | [agent:sase-1jm.2.1.4][3] | Need parent epic decisions and full phase list | 1 |
-| read-by | [agent:sase-1jm.2.1.5][4] | Need parent epic scope DECISIONS and design | 1 |
-| read-by | [agent:sase-1jm.2.1.6--1][5] | Need parent epic decisions and phase-specific landing constraints | 1 |
+| read-by | [agent:sase-1jc.land][1] | Check recorded notes on symvision and completion snapshot drift before routing sase-1jc follow-ups | 2 |
+| read-by | [agent:sase-1jm.2.1.1][2] | parent epic decisions | 1 |
+| read-by | [agent:sase-1jm.2.1.2][3] | Need the epic decisions and phase constraints | 1 |
+| read-by | [agent:sase-1jm.2.1.4][4] | Need parent epic decisions and full phase list | 1 |
+| read-by | [agent:sase-1jm.2.1.5][5] | Need parent epic scope DECISIONS and design | 1 |
+| read-by | [agent:sase-1jm.2.1.6--1][6] | Need parent epic decisions and phase-specific landing constraints | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
 
 <!-- sase:referenced-by:end -->

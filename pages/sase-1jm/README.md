@@ -53,11 +53,19 @@ flowchart TD
     n8["sase-1jm.2.1.5: Bindings, facade, and shared corpus cache [closed]"]
     n9["sase-1jm.2.1.6: sase agent search parity and the bench [closed]"]
     n10["sase-1jm.3: Archive view on the Agents tab [in_progress]"]
-    n11["sase-1jm.4: Record deck for every agent [in_progress]"]
-    n12["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
-    n13["sase-1jm.6: Every agent route lands on the Agents tab [in_progress]"]
-    n14["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
-    n15["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
+    n11["sase-1jm.3.1: Implement the read-only Agents Archive view for sase-1jm.3 [in_progress]"]
+    n12["sase-1jm.3.1.1: Archive view state, flag, and selection ownership [closed]"]
+    n13["sase-1jm.3.1.2: Off-thread Archive loading, prewarm, and revalidation [in_progress]"]
+    n14["sase-1jm.3.1.3: Paged Archive list and live Inbox pulse [in_progress]"]
+    n15["sase-1jm.3.1.4: View toggles, scoped filters, parking, and Archive chrome [in_progress]"]
+    n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [in_progress]"]
+    n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [in_progress]"]
+    n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [in_progress]"]
+    n19["sase-1jm.4: Record deck for every agent [in_progress]"]
+    n20["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
+    n21["sase-1jm.6: Every agent route lands on the Agents tab [in_progress]"]
+    n22["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
+    n23["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -68,26 +76,40 @@ flowchart TD
     n3 --> n8
     n3 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n11 --> n16
+    n11 --> n17
+    n11 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
     n1 -.-> n2
     n2 -.-> n10
-    n2 -.-> n11
+    n2 -.-> n19
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n8
     n7 -.-> n8
     n8 -.-> n9
-    n10 -.-> n12
-    n10 -.-> n13
-    n10 -.-> n14
-    n11 -.-> n15
-    n12 -.-> n15
-    n13 -.-> n15
+    n10 -.-> n20
+    n10 -.-> n21
+    n10 -.-> n22
+    n12 -.-> n13
+    n13 -.-> n14
     n14 -.-> n15
+    n15 -.-> n16
+    n16 -.-> n17
+    n17 -.-> n18
+    n19 -.-> n23
+    n20 -.-> n23
+    n21 -.-> n23
+    n22 -.-> n23
 ```
 
 ## Agents
@@ -103,7 +125,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md) | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1jm.2.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md) | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.land.md) | [sase-1jm.2.1](sase-1jm.2.1.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3/README.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md) | [sase-1jm.3.1.1](sase-1jm.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1jm.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md) | [sase-1jm.3.1.2](sase-1jm.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md) | [sase-1jm.3.1.3](sase-1jm.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.4/README.md) | [sase-1jm.3.1.4](sase-1jm.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md) | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md) | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.7/README.md) | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.land/README.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 0 |
@@ -125,6 +155,7 @@ flowchart TD
 | sase | [`f7026aa`](https://github.com/sase-org/sase/commit/f7026aa2f2d6a1bd5b3858ed10282e2c7d2fe748) | feat(archive): add AgentArchiveCorpus facade and shared TUI/CLI cache | [sase-1jm.2.1.5](sase-1jm.2.1.5.md) | 2026-10-10 15:25:29 EDT |
 | sase | [`5f47d11`](https://github.com/sase-org/sase/commit/5f47d119356f02a87ec850aba52c6bd5090bd365) | feat(agents): add archive search CLI parity | [sase-1jm.2.1.6](sase-1jm.2.1.6.md) | 2026-10-10 16:04:53 EDT |
 | sase-core | [`sase-core@cd2a72e`](https://github.com/sase-org/sase-core/commit/cd2a72eda5e92ee838f2567246db8b4f99e33ae9) | feat(archive): keep compiled corpus in Rust and resolve child owners | [sase-1jm.2.1](sase-1jm.2.1.md) | 2026-10-10 20:12:05 EDT |
+| sase | [`69f647d`](https://github.com/sase-org/sase/commit/69f647d9125f3014b7aa38629fc59963af098544) | feat(agents-archive): add Archive view state, flag, and selection ownership | [sase-1jm.3.1.1](sase-1jm.3.1.1.md) | 2026-10-10 20:46:00 EDT |
 
 <!-- sase:referenced-by:start -->
 

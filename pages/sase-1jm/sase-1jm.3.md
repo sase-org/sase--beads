@@ -11,6 +11,12 @@
 
 archive-view: add the beta-flagged ,a toggle and per-view parking. In the Archive, the node column becomes an Inbox pulse plus a day-grouped Archive list, with an archive info row, a filter bar driven by in:archive, a grouping picker, and read-only deck hydration from the bundle. Add the detail-ownership guard, live-only key toasts, the tab-label marker, the footer, and the help box.
 
+## Notes
+
+[2026-10-11T00:18:56Z · sase-1jm.3] PROPOSED FOLLOW-UP: Add the Archive glossary strand — the final glossary_archive_term=no decision prohibits editing glossary:agent-archive in this epic; the parent land agent can triage a later definition of Archive, in:archive, rows, and Restore to inbox.
+
+[2026-10-11T00:19:05Z · sase-1jm.3] PROPOSED FOLLOW-UP: Reconcile the affected glossary definitions after Archive landing — the final glossary_strand_updates=no decision prohibits edits to glossary:nav-section, glossary:nav-item, glossary:agent-data-deck, and glossary:agent-relation-jump-target; the parent land agent can triage later updates for Archive navigation, Record, and read-only dismissed-target jumps.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
@@ -22,4 +28,4 @@ archive-view: add the beta-flagged ,a toggle and per-view parking. In the Archiv
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3/README.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
