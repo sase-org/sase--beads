@@ -13,7 +13,7 @@ query-parking: implement the pure ,a toggle, Open Archive and Back to Inbox pale
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.3](sase-1jm.3.1.3.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.3.1.3](sase-1jm.3.1.3.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.3.1.5](sase-1jm.3.1.5.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

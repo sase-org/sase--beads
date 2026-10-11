@@ -20,7 +20,7 @@ corpus-controller: add a coalesced Archive controller around the existing core c
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.1](sase-1jm.3.1.1.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.3.1.3](sase-1jm.3.1.3.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3.1.3](sase-1jm.3.1.3.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -33,3 +33,15 @@ corpus-controller: add a coalesced Archive controller around the existing core c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`254d93c`](https://github.com/sase-org/sase/commit/254d93cc5808b7f12850027883a7be86c64ef195) | feat(tui): add pump-free Archive corpus controller | [sase-1jm.3.1.2](sase-1jm.3.1.2.md) | 2026-10-10 23:06:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.2][1] | Need remaining phase scope, later-phase seams, and notes before closing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
