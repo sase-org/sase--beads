@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 
@@ -25,6 +25,10 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 Every agent that ran on this machine can be found and read on the Agents tab. The Inbox stays exactly as it is today. A new Archive view (`,a`) lists dismissed runs by day and opens any of them read-only in the real decks. Restoring is one deliberate `⏎`. Every `agent:` route lands on the Agents tab. The Artifacts ▸ Agent sub-tab is retired behind a sunset flag.
 
+## Notes
+
+[2026-10-11T13:09:08Z · 6p--code] DISCOVERED ISSUE: at master 8122d44255 (also origin/master cca1773157, which only adds the git-lock and symvision-privatize commits), `sase tool run check` fails three tests that this epic's archive work causes. (1) tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot: the only drift is description_digest of `sase agent search` (d0bf3fe5c8158622 current vs f75a3fcb2bbd4075 in tests/completion/snapshots/cli_spec.json), changed by the archive search CLI parity commits (5f47d11935, 04ed4b33cb); regenerate with `just sync-completion-spec`. (2) tests/completion/test_candidates_providers.py::test_flag_candidates_come_from_the_in_process_registry: the in-process flag registry now holds {'agents_archive_view'} while the test asserts it is empty; either register the expectation or let sase-1ju (Retire agents_archive_view) clear it. Found while verifying an unrelated plan-propose change; none of these files were touched by it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +36,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.1](sase-1jm.1.md) | Archive index v3 and honest timestamps | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
-| [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 1 |
+| [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
@@ -58,7 +62,7 @@ flowchart TD
     n13["sase-1jm.3.1.2: Off-thread Archive loading, prewarm, and revalidation [closed]"]
     n14["sase-1jm.3.1.3: Paged Archive list and live Inbox pulse [closed]"]
     n15["sase-1jm.3.1.4: View toggles, scoped filters, parking, and Archive chrome [closed]"]
-    n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [in_progress]"]
+    n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [closed]"]
     n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [in_progress]"]
     n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [in_progress]"]
     n19["sase-1jm.4: Record deck for every agent [in_progress]"]
@@ -148,11 +152,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md) | [sase-1jm.3.1.2](sase-1jm.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md) | [sase-1jm.3.1.3](sase-1jm.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.4/README.md) | [sase-1jm.3.1.4](sase-1jm.3.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md) | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md) | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md) | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.7/README.md) | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.land/README.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
-| [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
+| [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 0 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 0 |
@@ -178,7 +182,7 @@ flowchart TD
 | sase | [`254d93c`](https://github.com/sase-org/sase/commit/254d93cc5808b7f12850027883a7be86c64ef195) | feat(tui): add pump-free Archive corpus controller | [sase-1jm.3.1.2](sase-1jm.3.1.2.md) | 2026-10-10 23:06:31 EDT |
 | sase | [`b6acacf`](https://github.com/sase-org/sase/commit/b6acacfa082643fa298e217b9159256acc40b5ba) | feat(tui): add paged Archive list column and live Inbox pulse | [sase-1jm.3.1.3](sase-1jm.3.1.3.md) | 2026-10-11 01:08:10 EDT |
 | sase | [`5349e04`](https://github.com/sase-org/sase/commit/5349e046cdad8356bc382d65f87f30f910cb777b) | feat(ace): add Agents Archive view | [sase-1jm.3.1.4](sase-1jm.3.1.4.md) | 2026-10-11 02:03:39 EDT |
-| sase--plans | [`sase--plans@109c5ff`](https://github.com/sase-org/sase--plans/commit/109c5ff3f8b22923618a2ac8226aa836dc2837fe) | feat(plans): add record-deck child epic plan for sase-1jm.4 | [sase-1jm.4](sase-1jm.4.md) | 2026-10-11 05:32:31 EDT |
+| sase | [`7ad439f`](https://github.com/sase-org/sase/commit/7ad439fd42dc6615321b05a5d64320a13cfebe4a) | feat(tui): hydrate archived agent detail off-thread as read-only | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 2026-10-11 12:45:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -186,14 +190,16 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jm.1][1] | Find the epic design and confirm phase notes and linked plan references | 1 |
-| read-by | [agent:sase-1jm.2.1.2][2] | Need the epic decisions and phase constraints | 1 |
-| read-by | [agent:sase-1jm.2.1.5][3] | Need epic DECISIONS for phase work | 1 |
-| read-by | [agent:sase-1jm.3.1.1][4] | Need epic decisions | 1 |
+| read-by | [agent:6p--code][1] | Need the epic scope for archive work that registers the agents_archive_view flag | 1 |
+| read-by | [agent:sase-1jm.1][2] | Find the epic design and confirm phase notes and linked plan references | 1 |
+| read-by | [agent:sase-1jm.2.1.2][3] | Need the epic decisions and phase constraints | 1 |
+| read-by | [agent:sase-1jm.2.1.5][4] | Need epic DECISIONS for phase work | 1 |
+| read-by | [agent:sase-1jm.3.1.1][5] | Need epic decisions | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 
 <!-- sase:referenced-by:end -->

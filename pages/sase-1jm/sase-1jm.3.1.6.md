@@ -13,7 +13,7 @@ action-boundary: audit every Agents selected-agent caller and route read operati
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.5](sase-1jm.3.1.5.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.3.1.5](sase-1jm.3.1.5.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.3.1.7](sase-1jm.3.1.7.md) ◐ · ⧖ 2026-10-10
 
 ## Agents
