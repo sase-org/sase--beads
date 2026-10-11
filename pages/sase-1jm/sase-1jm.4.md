@@ -17,6 +17,10 @@ record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenan
 
 [2026-10-11T00:46:54Z · sase-1jm.4] PROPOSED FOLLOW-UP: glossary:agent-archive — mention Record as the deck that shows archive lifecycle/outcome/time-basis facts. Skipped here because glossary_strand_updates=no.
 
+[2026-10-11T01:13:00Z · sase-1jm.4--2] Verified Record goldens (inbox Home: Inbox, archived Home: Archive, slate #87AFAF Lifecycle chrome) and picker goldens (fifth RECORD row, glyph ≡, key r, 4 cards). Fixed mypy arg-type on format_local in record/document.py._when. epic-symbols: none leftover. Closing after just check.
+
+[2026-10-11T01:55:26Z · sase-1jm.4--3] PROPOSED FOLLOW-UP: tests/fakey/test_usage_limit_e2e.py::test_usage_limit_failure_disables_only_fakey_and_preserves_error fails on this tree and in isolation (assert len(notifications) == 1 but got 0). Unrelated to Record deck; no matching flake bead found. Close this phase anyway.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10

@@ -21,7 +21,7 @@ view-foundation: create the agents_archive_view beta flag through sase flag new.
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.3.1.2](sase-1jm.3.1.2.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3.1.2](sase-1jm.3.1.2.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
