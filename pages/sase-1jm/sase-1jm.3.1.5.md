@@ -13,7 +13,7 @@ archive-reader: hydrate a selected individual bundle off-thread through the exis
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.4](sase-1jm.3.1.4.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.3.1.4](sase-1jm.3.1.4.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.3.1.6](sase-1jm.3.1.6.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

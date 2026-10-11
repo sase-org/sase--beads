@@ -26,7 +26,7 @@ archive-column: lazily mount an Archive column beside the mounted Inbox column, 
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.2](sase-1jm.3.1.2.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.3.1.4](sase-1jm.3.1.4.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3.1.4](sase-1jm.3.1.4.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -39,3 +39,15 @@ archive-column: lazily mount an Archive column beside the mounted Inbox column, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b6acacf`](https://github.com/sase-org/sase/commit/b6acacfa082643fa298e217b9159256acc40b5ba) | feat(tui): add paged Archive list column and live Inbox pulse | [sase-1jm.3.1.3](sase-1jm.3.1.3.md) | 2026-10-11 01:08:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
