@@ -40,7 +40,9 @@ tick-diagnostics: flush chop log lines so a SIGKILLed job keeps its output, and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jy.1][1] | Confirm proposed follow-up note before closing the completed phase | 3 |
+| read-by | [agent:sase-1jy.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md
 
 <!-- sase:referenced-by:end -->

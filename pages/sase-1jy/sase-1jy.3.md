@@ -43,8 +43,10 @@ scope-keys: factor the identity keys _add_prepared files a row under into one he
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jy.3--4][1] | Compare first pytest failure with this phase scope | 1 |
 | read-by | [agent:sase-1jy.4][2] | Need scope-keys phase results and API that this phase consumes | 1 |
+| read-by | [agent:sase-1jy.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jy.3.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md
 
 <!-- sase:referenced-by:end -->

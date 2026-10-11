@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/wait_checks_scoped_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/wait_checks_scoped_view.md
 
@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md) | [sase-1jy.4](sase-1jy.4.md) | 1 |
 | [bbugyi200.athena.sase-1jy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md) | [sase-1jy.5](sase-1jy.5.md) | 1 |
 | [bbugyi200.athena.sase-1jy.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jy.6.md) | [sase-1jy.6](sase-1jy.6.md) | 1 |
-| [bbugyi200.athena.sase-1jy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md) | [sase-1jy](README.md) | 1 |
+| [bbugyi200.athena.sase-1jy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md) | [sase-1jy](README.md) | 2 |
 
 ## Commits
 
@@ -126,6 +126,7 @@ flowchart TD
 | sase | [`89572ca`](https://github.com/sase-org/sase/commit/89572caad6f9adb6097f1be7ced58ca35230b531) | feat(wait): resolve scopable waiters from a scoped wait\_checks view | [sase-1jy.4](sase-1jy.4.md) | 2026-10-11 17:28:01 EDT |
 | sase | [`d289b66`](https://github.com/sase-org/sase/commit/d289b664a675a7a32f8cdb5540938190021a1580) | feat(wait): persist per-artifact scope-key cache for wait\_checks ticks | [sase-1jy.6](sase-1jy.6.md) | 2026-10-11 18:43:04 EDT |
 | sase | [`9a2cde5`](https://github.com/sase-org/sase/commit/9a2cde5dada3e7e6219c9bb9f9b3afa6215b2d9e) | test(wait): review runner scoped-row meta reads in the marker path audit | [sase-1jy](README.md) | 2026-10-11 19:31:47 EDT |
+| sase--plans | [`sase--plans@cabfd1a`](https://github.com/sase-org/sase--plans/commit/cabfd1ab5936fc466118553e8ce8cec3e488e6f3) | chore(plans): mark wait\_checks\_scoped\_view done after sase-1jy landed | [sase-1jy](README.md) | 2026-10-11 19:35:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -137,10 +138,12 @@ flowchart TD
 | read-by | [agent:sase-1jy.2][2] | need epic DECISIONS and scope for phase sase-1jy.2 | 1 |
 | read-by | [agent:sase-1jy.4][3] | Need parent epic DECISIONS and sibling phase status | 1 |
 | read-by | [agent:sase-1jy.5][4] | Need epic DECISIONS that are final for this phase | 1 |
+| read-by | [agent:sase-1jy.land][5] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md
 
 <!-- sase:referenced-by:end -->

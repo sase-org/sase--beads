@@ -44,7 +44,9 @@ scoped-wait-checks: build the resolving and confirmation views from scoped rows 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jy.4][1] | Need notes, remaining work, and epic DECISIONS for scoped-wait-checks | 2 |
+| read-by | [agent:sase-1jy.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ scoped-runner-fallback: make _resolve_marker_release build scoped project indexe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jy.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1jy.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md
 
 <!-- sase:referenced-by:end -->
