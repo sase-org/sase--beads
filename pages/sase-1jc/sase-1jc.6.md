@@ -46,8 +46,10 @@ agents-query: Follow phase 6 and the shared removal checklist. Retire agents_uni
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1j6.10.3][1] | Need whether leftover flag definition is already tracked | 1 |
 | read-by | [agent:sase-1jc.6][2] | Need phase scope and design | 2 |
+| read-by | [agent:sase-1jc.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1j6.10.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

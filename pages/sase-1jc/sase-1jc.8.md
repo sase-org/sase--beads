@@ -47,7 +47,9 @@ publication-services: Follow phase 8 and the shared removal checklist. Retire sl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jc.8--1][1] | Need phase scope after timed-out check | 1 |
+| read-by | [agent:sase-1jc.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

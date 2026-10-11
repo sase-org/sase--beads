@@ -48,8 +48,10 @@ tui-refresh: Follow phase 7 and the shared removal checklist. Retire ace_refresh
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1j6.10.5--1][1] | Determine whether this closed phase already tracks the surviving retired flag definitions | 2 |
 | read-by | [agent:sase-1jc.7--1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jc.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.5.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -49,7 +49,9 @@ clean-slate: Follow phase 12. Audit all 23 flags, closure evidence, residual wra
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jc.12][1] | Need full scope, notes, epic symbols | 3 |
+| read-by | [agent:sase-1jc.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -17,7 +17,7 @@
 | related | [bead:sase-1jq][2] | Proposed by every sase-1jc phase (sase-1jc.1 through sase-1jc.12 PROPOSED FOLLOW-UP notes); the epic's auto memory decision skipped this edit |
 | related | [bead:sase-1jr][3] | Proposed by every sase-1jc phase (sase-1jc.1 through sase-1jc.12 PROPOSED FOLLOW-UP notes); the epic's auto memory decision skipped this edit |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1jq/README.md
@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md) | [sase-1jc.7](sase-1jc.7.md) | 1 |
 | [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md) | [sase-1jc.8](sase-1jc.8.md) | 3 |
 | [bbugyi200.athena.sase-1jc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md) | [sase-1jc.9](sase-1jc.9.md) | 1 |
-| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 1 |
+| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 2 |
 
 ## Commits
 
@@ -151,6 +151,7 @@ flowchart TD
 | sase-core | [`sase-core@6a12a4f`](https://github.com/sase-org/sase-core/commit/6a12a4f6bcbe432475c6e6bc97af940a930e2356) | docs(core): remove stale flag-removal leftover line | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:16:54 EDT |
 | sase | [`77ad508`](https://github.com/sase-org/sase/commit/77ad508a6c815afa016e81f5c56f0e23228e8adf) | chore(flags): remove retired flag leftovers and verify empty registry | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:23:00 EDT |
 | sase | [`9f1eb31`](https://github.com/sase-org/sase/commit/9f1eb315e30881052a9e29ca70f6da9af41189ba) | chore(flags): land sase-1jc retirement leftovers and integration fixes | [sase-1jc](README.md) | 2026-10-10 20:37:37 EDT |
+| sase-nvim | [`sase-nvim@b0b48f4`](https://github.com/sase-org/sase-nvim/commit/b0b48f43e63c6be6c2d117d2c8cbe1f815176df9) | docs: describe retired xprompt aliases as permanently accepted | [sase-1jc](README.md) | 2026-10-10 20:42:20 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -166,6 +167,7 @@ flowchart TD
 | read-by | [agent:sase-1jc.12][6] | Need epic status and ledger context for clean-slate phase | 2 |
 | read-by | [agent:sase-1jc.4][7] | epic context for phase | 1 |
 | read-by | [agent:sase-1jc.6][8] | epic context for phase sase-1jc.6 | 1 |
+| read-by | [agent:sase-1jc.land][9] | Confirm the closed epic has no parent_bead before finishing | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0ze.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6h.md
@@ -175,5 +177,6 @@ flowchart TD
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.12/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.4/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.6/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

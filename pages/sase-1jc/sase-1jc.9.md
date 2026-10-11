@@ -48,8 +48,10 @@ monitor-records: Follow phase 9 and the shared removal checklist. Retire monitor
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1j6.10.land--1][1] | check what phase 1jc.9 changed for monitor records flag | 1 |
 | read-by | [agent:sase-1jc.9][2] | Need the phase scope and design file | 5 |
+| read-by | [agent:sase-1jc.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1j6.10.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
 
 <!-- sase:referenced-by:end -->

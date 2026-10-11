@@ -46,10 +46,12 @@ provider-instructions: Follow phase 10 and the shared removal checklist. Retire 
 | --- | --- | --- | ---: |
 | read-by | [agent:6h--1][1] | Concurrent epic closed flag beads that are failing this workspace just check | 1 |
 | read-by | [agent:sase-1jc.10][2] | Need the phase scope and design file | 1 |
-| read-by | [agent:sase-1jm.2.1.6--1][3] | Check whether the existing provider instruction phase tracks the stale feature-flag definitions reported by just check | 1 |
+| read-by | [agent:sase-1jc.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1jm.2.1.6--1][4] | Check whether the existing provider instruction phase tracks the stale feature-flag definitions reported by just check | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6h.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.10/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.1.6.md
 
 <!-- sase:referenced-by:end -->
