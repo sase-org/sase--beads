@@ -22,7 +22,7 @@ field: sase-core accepts an optional `project` frontmatter field. `sase plan pro
 ## Dependencies
 
 - **Blocks:** [sase-1jw.2](sase-1jw.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jw.3](sase-1jw.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jw.3](sase-1jw.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
