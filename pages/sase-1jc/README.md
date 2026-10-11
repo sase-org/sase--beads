@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md) | [sase-1jc.7](sase-1jc.7.md) | 1 |
 | [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md) | [sase-1jc.8](sase-1jc.8.md) | 3 |
 | [bbugyi200.athena.sase-1jc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md) | [sase-1jc.9](sase-1jc.9.md) | 1 |
-| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 3 |
+| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 4 |
 
 ## Commits
 
@@ -153,6 +153,7 @@ flowchart TD
 | sase | [`9f1eb31`](https://github.com/sase-org/sase/commit/9f1eb315e30881052a9e29ca70f6da9af41189ba) | chore(flags): land sase-1jc retirement leftovers and integration fixes | [sase-1jc](README.md) | 2026-10-10 20:37:37 EDT |
 | sase-nvim | [`sase-nvim@b0b48f4`](https://github.com/sase-org/sase-nvim/commit/b0b48f43e63c6be6c2d117d2c8cbe1f815176df9) | docs: describe retired xprompt aliases as permanently accepted | [sase-1jc](README.md) | 2026-10-10 20:42:20 EDT |
 | sase-telegram | [`sase-telegram@4cb56ce`](https://github.com/sase-org/sase-telegram/commit/4cb56ceaabc0bb2afb558f7502a800fb80690e4b) | refactor(macros): accept the /xprompts alias unconditionally | [sase-1jc](README.md) | 2026-10-10 20:58:50 EDT |
+| sase--plans | [`sase--plans@cc94a52`](https://github.com/sase-org/sase--plans/commit/cc94a5283f0e645e8f31588bb7296946ba3dafb1) | chore(plans): mark retire\_all\_feature\_flags done | [sase-1jc](README.md) | 2026-10-10 21:02:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
