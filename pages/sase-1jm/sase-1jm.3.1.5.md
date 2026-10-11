@@ -22,7 +22,7 @@ archive-reader: hydrate a selected individual bundle off-thread through the exis
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.4](sase-1jm.3.1.4.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.3.1.6](sase-1jm.3.1.6.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3.1.6](sase-1jm.3.1.6.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -35,3 +35,15 @@ archive-reader: hydrate a selected individual bundle off-thread through the exis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7ad439f`](https://github.com/sase-org/sase/commit/7ad439fd42dc6615321b05a5d64320a13cfebe4a) | feat(tui): hydrate archived agent detail off-thread as read-only | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 2026-10-11 12:45:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.5][1] | Need notes, decisions, and remaining work after first truncated read | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->

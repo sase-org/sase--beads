@@ -44,9 +44,11 @@ view-foundation: create the agents_archive_view beta flag through sase flag new.
 | read-by | [agent:sase-1jm.3.1.1][1] | Need phase notes and remaining work check | 2 |
 | read-by | [agent:sase-1jm.3.1.2][2] | Need view-foundation contracts and recorded public seams | 1 |
 | read-by | [agent:sase-1jm.3.1.3][3] | Need view-foundation contract names and notes | 1 |
+| read-by | [agent:sase-1jm.3.1.5][4] | Need recorded public presentation seams and contracts from view-foundation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md
 
 <!-- sase:referenced-by:end -->

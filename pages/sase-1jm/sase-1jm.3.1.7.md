@@ -13,7 +13,7 @@ archive-proof: complete cross-phase regression coverage and deterministic Archiv
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.6](sase-1jm.3.1.6.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.3.1.6](sase-1jm.3.1.6.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
