@@ -20,7 +20,7 @@ provider-hooks: add the five onboarding hookspecs (parse, local candidates, prob
 ## Dependencies
 
 - **Blocks:** [sase-1jx.5](sase-1jx.5.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.6](sase-1jx.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.6](sase-1jx.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -41,7 +41,9 @@ provider-hooks: add the five onboarding hookspecs (parse, local candidates, prob
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.2--1][1] | Need the phase scope, design file, and prior notes before continuing assigned work | 2 |
+| read-by | [agent:sase-1jx.5][2] | need provider-hooks contract output | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
 
 <!-- sase:referenced-by:end -->

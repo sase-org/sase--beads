@@ -22,7 +22,7 @@ core-classify: add the sase-core `project_onboarding` module with `classify_proj
 ## Dependencies
 
 - **Blocks:** [sase-1jx.4](sase-1jx.4.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.6](sase-1jx.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.6](sase-1jx.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
