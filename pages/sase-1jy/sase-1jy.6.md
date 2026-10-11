@@ -35,3 +35,15 @@ scope-key-cache: persist per-artifact scope keys fingerprinted by agent_meta.jso
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d289b66`](https://github.com/sase-org/sase/commit/d289b664a675a7a32f8cdb5540938190021a1580) | feat(wait): persist per-artifact scope-key cache for wait\_checks ticks | [sase-1jy.6](sase-1jy.6.md) | 2026-10-11 18:43:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jy.6--1][1] | Need phase scope and design for triage | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jy.6.md
+
+<!-- sase:referenced-by:end -->
