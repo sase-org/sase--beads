@@ -11,6 +11,12 @@
 
 record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenance, Relations, and Links cards for inbox and archived agents alike. It absorbs the retiring pane's Details panel and relation rail.
 
+## Notes
+
+[2026-10-11T00:46:21Z · sase-1jm.4] PROPOSED FOLLOW-UP: glossary:agent-data-deck — add Record deck (glyph ≡, picker r, cards Lifecycle/Provenance/Relations/Links). Skipped here because glossary_strand_updates=no.
+
+[2026-10-11T00:46:54Z · sase-1jm.4] PROPOSED FOLLOW-UP: glossary:agent-archive — mention Record as the deck that shows archive lifecycle/outcome/time-basis facts. Skipped here because glossary_strand_updates=no.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
@@ -20,4 +26,4 @@ record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenan
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.md) | [sase-1jm.4](sase-1jm.4.md) | 0 |

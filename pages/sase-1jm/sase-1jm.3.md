@@ -29,3 +29,15 @@ archive-view: add the beta-flagged ,a toggle and per-view parking. In the Archiv
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.md) | [sase-1jm.3](sase-1jm.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.1][1] | Need parent epic decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->
