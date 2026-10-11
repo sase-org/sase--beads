@@ -19,7 +19,7 @@ provider-hooks: add the five onboarding hookspecs (parse, local candidates, prob
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.5](sase-1jx.5.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.5](sase-1jx.5.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.6](sase-1jx.6.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
