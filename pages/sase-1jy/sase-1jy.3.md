@@ -21,7 +21,7 @@ scope-keys: factor the identity keys _add_prepared files a row under into one he
 
 - **Depends on:** [sase-1jy.2](sase-1jy.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jy.4](sase-1jy.4.md) ◐ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jy.5](sase-1jy.5.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jy.5](sase-1jy.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ scope-keys: factor the identity keys _add_prepared files a row under into one he
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fe77e92`](https://github.com/sase-org/sase/commit/fe77e92d564bbc7a71ef7406bcca913cc6fc2212) | feat(wait): add scoped row selection for named waits | [sase-1jy.3](sase-1jy.3.md) | 2026-10-11 16:28:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jy.3--4][1] | Compare first pytest failure with this phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jy.3.md
+
+<!-- sase:referenced-by:end -->

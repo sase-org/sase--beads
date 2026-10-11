@@ -33,7 +33,7 @@ A wait_checks tick with live named-agent waiters loads only the artifact rows th
 | [sase-1jy.2](sase-1jy.2.md) | Remove superlinear and redundant work from WaitDependencyIndex.add\_many | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jy.3](sase-1jy.3.md) | Shared scope keys and scoped row selection for named waits | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jy.4](sase-1jy.4.md) | Resolve scopable waiters from a scoped view in wait\_checks | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
-| [sase-1jy.5](sase-1jy.5.md) | Scope the runner's startup and 60 s fallback resolution | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
+| [sase-1jy.5](sase-1jy.5.md) | Scope the runner's startup and 60 s fallback resolution | ✓ closed | small | 2026-10-11 | 1 | 1 |
 | [sase-1jy.6](sase-1jy.6.md) | Persistent scope-key cache so live ticks stat instead of read | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n2["sase-1jy.2: Remove superlinear and redundant work from WaitDependencyIndex.add_many [closed]"]
     n3["sase-1jy.3: Shared scope keys and scoped row selection for named waits [closed]"]
     n4["sase-1jy.4: Resolve scopable waiters from a scoped view in wait_checks [in_progress]"]
-    n5["sase-1jy.5: Scope the runner's startup and 60 s fallback resolution [in_progress]"]
+    n5["sase-1jy.5: Scope the runner's startup and 60 s fallback resolution [closed]"]
     n6["sase-1jy.6: Persistent scope-key cache so live ticks stat instead of read [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.2/README.md) | [sase-1jy.2](sase-1jy.2.md) | 1 |
 | [bbugyi200.athena.sase-1jy.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jy.3.md) | [sase-1jy.3](sase-1jy.3.md) | 1 |
 | [bbugyi200.athena.sase-1jy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md) | [sase-1jy.4](sase-1jy.4.md) | 0 |
-| [bbugyi200.athena.sase-1jy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md) | [sase-1jy.5](sase-1jy.5.md) | 0 |
+| [bbugyi200.athena.sase-1jy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md) | [sase-1jy.5](sase-1jy.5.md) | 1 |
 | [bbugyi200.athena.sase-1jy.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.6/README.md) | [sase-1jy.6](sase-1jy.6.md) | 0 |
 | [bbugyi200.athena.sase-1jy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.land/README.md) | [sase-1jy](README.md) | 0 |
 
@@ -80,6 +80,7 @@ flowchart TD
 | sase | [`b59b8a7`](https://github.com/sase-org/sase/commit/b59b8a78bdc1a7ee6b1573678b7be95c06ab5ad9) | feat(wait-checks): add tick diagnostics | [sase-1jy.1](sase-1jy.1.md) | 2026-10-11 12:15:08 EDT |
 | sase | [`9982db1`](https://github.com/sase-org/sase/commit/9982db19428a0b3c6239b43cc5f7b7d4eae31b07) | perf(wait-index): batch add\_many with linear clan-tribe refresh and cached plan checks | [sase-1jy.2](sase-1jy.2.md) | 2026-10-11 12:55:12 EDT |
 | sase | [`fe77e92`](https://github.com/sase-org/sase/commit/fe77e92d564bbc7a71ef7406bcca913cc6fc2212) | feat(wait): add scoped row selection for named waits | [sase-1jy.3](sase-1jy.3.md) | 2026-10-11 16:28:20 EDT |
+| sase | [`814dbca`](https://github.com/sase-org/sase/commit/814dbcafb4eb6e3e465d00fb5bc1dd260cbbbe0d) | fix(axe): scope runner wait indexes to named-wait keys | [sase-1jy.5](sase-1jy.5.md) | 2026-10-11 16:59:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
