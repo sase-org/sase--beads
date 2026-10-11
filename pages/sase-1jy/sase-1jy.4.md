@@ -23,7 +23,7 @@ scoped-wait-checks: build the resolving and confirmation views from scoped rows 
 
 - **Depends on:** [sase-1jy.1](sase-1jy.1.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jy.3](sase-1jy.3.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jy.6](sase-1jy.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jy.6](sase-1jy.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -36,3 +36,15 @@ scoped-wait-checks: build the resolving and confirmation views from scoped rows 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`89572ca`](https://github.com/sase-org/sase/commit/89572caad6f9adb6097f1be7ced58ca35230b531) | feat(wait): resolve scopable waiters from a scoped wait\_checks view | [sase-1jy.4](sase-1jy.4.md) | 2026-10-11 17:28:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jy.4][1] | Need notes, remaining work, and epic DECISIONS for scoped-wait-checks | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md
+
+<!-- sase:referenced-by:end -->
