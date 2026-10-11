@@ -39,7 +39,9 @@ query-parking: implement the pure ,a toggle, Open Archive and Back to Inbox pale
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.3][1] | See sibling concurrent phase scope | 1 |
+| read-by | [agent:sase-1jm.3.1.4][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->

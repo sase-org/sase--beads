@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view_phase.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_phase.md
 
@@ -40,9 +40,11 @@ The Agents tab can browse this machine's dismissed runs through a beta-flagged A
 | read-by | [agent:sase-1jm.3.1.1][1] | Need child epic scope and decisions | 1 |
 | read-by | [agent:sase-1jm.3.1.2][2] | Need sibling phases so unused controller APIs can be re-keyed | 1 |
 | read-by | [agent:sase-1jm.3.1.3][3] | Need epic decisions | 1 |
+| read-by | [agent:sase-1jm.3.1.4][4] | Need the child epic's final decisions and shared contracts before implementing its assigned phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->
