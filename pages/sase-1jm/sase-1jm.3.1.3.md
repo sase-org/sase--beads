@@ -47,7 +47,9 @@ archive-column: lazily mount an Archive column beside the mounted Inbox column, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1jm.3.1.6][2] | Need sibling contracts | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
 
 <!-- sase:referenced-by:end -->

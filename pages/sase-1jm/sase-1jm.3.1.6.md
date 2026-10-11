@@ -24,7 +24,7 @@ action-boundary: audit every Agents selected-agent caller and route read operati
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.5](sase-1jm.3.1.5.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.3.1.7](sase-1jm.3.1.7.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3.1.7](sase-1jm.3.1.7.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
@@ -37,3 +37,15 @@ action-boundary: audit every Agents selected-agent caller and route read operati
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4841439`](https://github.com/sase-org/sase/commit/4841439aeed3e217ec0e3c7037786ddb5c8fd7eb) | feat(agents): isolate Archive action boundary with read-only guards | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 2026-10-11 16:08:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.6][1] | Declaration recovery: need bead status to choose bead_action | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ corpus-controller: add a coalesced Archive controller around the existing core c
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.2][1] | Need remaining phase scope, later-phase seams, and notes before closing | 3 |
 | read-by | [agent:sase-1jm.3.1.3][2] | Need controller contract names and notes | 1 |
+| read-by | [agent:sase-1jm.3.1.6][3] | Need sibling contracts | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
 
 <!-- sase:referenced-by:end -->

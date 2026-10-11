@@ -64,7 +64,7 @@ flowchart TD
     n15["sase-1jm.3.1.4: View toggles, scoped filters, parking, and Archive chrome [closed]"]
     n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [closed]"]
     n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [closed]"]
-    n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [in_progress]"]
+    n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [closed]"]
     n19["sase-1jm.4: Record deck for every agent [in_progress]"]
     n20["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [open]"]
     n21["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [open]"]
@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.4/README.md) | [sase-1jm.3.1.4](sase-1jm.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md) | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md) | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.7/README.md) | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.7.md) | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.land/README.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
@@ -185,6 +185,7 @@ flowchart TD
 | sase--plans | [`sase--plans@109c5ff`](https://github.com/sase-org/sase--plans/commit/109c5ff3f8b22923618a2ac8226aa836dc2837fe) | feat(plans): add record-deck child epic plan for sase-1jm.4 | [sase-1jm.4](sase-1jm.4.md) | 2026-10-11 05:32:31 EDT |
 | sase | [`7ad439f`](https://github.com/sase-org/sase/commit/7ad439fd42dc6615321b05a5d64320a13cfebe4a) | feat(tui): hydrate archived agent detail off-thread as read-only | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 2026-10-11 12:45:41 EDT |
 | sase | [`4841439`](https://github.com/sase-org/sase/commit/4841439aeed3e217ec0e3c7037786ddb5c8fd7eb) | feat(agents): isolate Archive action boundary with read-only guards | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 2026-10-11 16:08:20 EDT |
+| sase | [`11e73e8`](https://github.com/sase-org/sase/commit/11e73e82325a3506489419bec9bcabc45a2dc194) | feat(agents-archive): proof coverage, benchmarks, and PNG goldens with test-wait lint fixes | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 2026-10-11 18:30:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

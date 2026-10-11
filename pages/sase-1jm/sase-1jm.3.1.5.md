@@ -43,7 +43,9 @@ archive-reader: hydrate a selected individual bundle off-thread through the exis
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.5][1] | Need notes, decisions, and remaining work after first truncated read | 4 |
+| read-by | [agent:sase-1jm.3.1.6][2] | Need sibling contracts | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
 
 <!-- sase:referenced-by:end -->
