@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1jc
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0zb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.0zb.md) · **Assignee:** `sase-1jc.land`
-**Created:** 2026-10-09 22:28:23 EDT
+**Created:** 2026-10-09 22:28:23 EDT · **Closed:** 2026-10-10 20:22:50 EDT
 **Plan:** [202610/retire\_all\_feature\_flags.md](https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,14 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/retire_all_feature_flags.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1jq][2] | Proposed by every sase-1jc phase (sase-1jc.1 through sase-1jc.12 PROPOSED FOLLOW-UP notes); the epic's auto memory decision skipped this edit |
+| related | [bead:sase-1jr][3] | Proposed by every sase-1jc phase (sase-1jc.1 through sase-1jc.12 PROPOSED FOLLOW-UP notes); the epic's auto memory decision skipped this edit |
 
 _Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/retire_all_feature_flags.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1jq/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1jr/README.md
 
 <!-- sase:links:end -->
 
@@ -41,6 +45,12 @@ Remove all 23 registered feature flags and their disabled implementations across
 
 [2026-10-10T20:19:29Z · 6h--1] DISCOVERED ISSUE: live_handoff_premature_done verification ToolRun e844e6d52f750bd33bda0a2559aee803 passed fmt, model policy, keep-sorted, Ruff, and mypy, then stopped at lint (feature flags) rule 7: closed flag beads sase-1gw, sase-1gv, sase-1h4, and sase-178 still have surviving definitions claude_helper_channel, grok_rules_delivery, instruction_shadow_render, and muse_synchronous_shell. The live-handoff diff does not touch feature-flag files. Those beads were closed at 2026-10-10T19:17Z by phase sase-1jc.10 claiming the registry entries were removed, but this origin/master checkout still defines them. Same workspace-tree/shared-bead-state skew already noted here; sase-1jc.10 is still in_progress and sase-1jc.12 owns the empty-registry residual-definition audit. No duplicate task filed.
 
+[2026-10-11T00:22:50Z · sase-1jc.land] LANDED (sase-1jc.land, master 77ad508a6c + landing diff). VERIFIED: all 12 phases closed and every phase note reviewed; production FeatureFlag enum and definitions are empty, `sase flag list --json` returns flags:[] (checkout and global install), all 23 dossiers closed, sase-core pin 6a12a4f6 == sase-core tip with only inert compat constants and test fixtures left there; epic DECISIONS honored (macros.md and tui_perf.md untouched). git grep for all 23 keys leaves only CHANGELOG history, retirement regressions, doctor check ids, live alias-reader module names, the visual fixture's synthetic key, and the declined memory note.
+LANDING FIXES (epic leftovers): removed the ignored internal `accept_legacy` switch (config loading/macro sources, content_layout, plugin discovery, plugin input types, macro LSP binary lookup; binding payloads still send accept_legacy_xprompt_names=True), the ignored `persisted` switch plus normalize_persisted_* wrappers and the redundant gate-turn fork_normalizer split, and routine_job_contract_enabled() plus dead routine_job_contract kwargs; fixed phase-12 doc/doctor text claiming retired macro definition dirs and the retired entry-point group are never loaded (they always load), the stale typed-launch sentence in docs/axe.md, the provider_drain 'beta flag' schema description, stale flag-off comments, and retired-key test fixtures. Fixed fakey test_usage_limit_e2e, which phase 11's unconditional drain broke (passes at 5235b17274~1, fails after): it now asserts the drain submission that owns the notification.
+INTEGRATION: 99fed4110c (toobig split of autonomy landing-gap tests) re-introduced pre-phase-11 override_flags(autonomy_record_only) parametrizations; restored phase 11's unconditional bodies and test_apply_removes_stale_keys. sase-telegram: /xprompts alias unconditional, dead legacy_xprompt_alias_enabled removed, stale override_flags(agent_sudo_requests) dropped, docs updated (sase tool run check 2dab6e6bfe70cd9ea685b2f561fa19af green, 776 passed). sase-nvim: 68 'remove with legacy_xprompt_syntax' markers and 4 README passages now say the retired aliases stay accepted. Other post-start commits reviewed; none duplicate or conflict.
+VERIFICATION: sase tool run check fd37d6031a304d036e1fe400b9123d50: fmt/ruff/mypy/other lint green; symvision 17 KNOWN (not epic); 6 test failures all reproduce on clean origin/master and are tracked below. Focused suites 345+898+68 passed.
+FOLLOW-UP TRIAGE: macros.md beta wording (all 12 phases) -> new memory task sase-1jq; tui_perf.md rule 14 (all 12 phases) -> new memory task sase-1jr; update_failure_geometry symvision (.9 #1, .11 #3, .12 #4) -> new task sase-1js; project_for_done symvision (.12 #4) -> +1 sase-1jp; agent_archive_corpus_cache symvision and cli_spec 'agent search' drift (.12 #4/#5) -> DISCOVERED ISSUE on active epic sase-1jm.2.1 (caused by its .5/.6 commits); marker path-passing audit (.7 #4) -> +1 sase-1by; TUI import budget (.4 #1, .10 #3, .12 #5) -> +1 sase-1ic; bob digest test (.10 #3, .12 #5) -> +1 sase-1jj; plugin_latest editable-install test failure (found by this landing) -> new task sase-1jt. DECLINED: node_finder ImportError (.7 #3; fixed by 77ad508a6c), monitor proc facade crash test (.9 #2; passes now), ArtifactIndexProjection (.6 #1; no longer flagged), other early-phase pre-existing failures (.1 #3, .2 #3-6, .3 #3, .4 #1, .5 #3: config schema, mutex groups, help sort, pypi flow, timezone guard, wire/marker audits; all pass now), 1h full-check timeout (.8 #3; informational, the check finishes in about 21m), global install refresh (.12 #3; global sase already reports an empty registry). Single loaded-lane failure of test_supervisor_sigterm_records_stop_intent_worker_settles_stop passed 3/3 in isolation and did not recur; not filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -62,7 +72,7 @@ Remove all 23 registered feature flags and their disabled implementations across
 
 ```mermaid
 flowchart TD
-    n0["sase-1jc: Retire every current feature flag while preserving enabled behavior [in_progress]"]
+    n0["sase-1jc: Retire every current feature flag while preserving enabled behavior [closed]"]
     n1["sase-1jc.1: Make flag infrastructure tests independent of production flags [closed]"]
     n2["sase-1jc.10: Stabilize provider instruction and execution channels [closed]"]
     n3["sase-1jc.11: Stabilize sudo requests, provider drains, and autonomy records [closed]"]
@@ -116,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.7.md) | [sase-1jc.7](sase-1jc.7.md) | 1 |
 | [bbugyi200.athena.sase-1jc.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jc.8.md) | [sase-1jc.8](sase-1jc.8.md) | 3 |
 | [bbugyi200.athena.sase-1jc.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.9/README.md) | [sase-1jc.9](sase-1jc.9.md) | 1 |
-| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 0 |
+| [bbugyi200.athena.sase-1jc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jc.land/README.md) | [sase-1jc](README.md) | 1 |
 
 ## Commits
 
@@ -140,6 +150,7 @@ flowchart TD
 | sase | [`5235b17`](https://github.com/sase-org/sase/commit/5235b172744fdccc4a529945528f71a17ef89292) | feat(flags): retire runtime-controls flags agent\_sudo\_requests, provider\_drain, autonomy\_record\_only | [sase-1jc.11](sase-1jc.11.md) | 2026-10-10 17:00:43 EDT |
 | sase-core | [`sase-core@6a12a4f`](https://github.com/sase-org/sase-core/commit/6a12a4f6bcbe432475c6e6bc97af940a930e2356) | docs(core): remove stale flag-removal leftover line | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:16:54 EDT |
 | sase | [`77ad508`](https://github.com/sase-org/sase/commit/77ad508a6c815afa016e81f5c56f0e23228e8adf) | chore(flags): remove retired flag leftovers and verify empty registry | [sase-1jc.12](sase-1jc.12.md) | 2026-10-10 18:23:00 EDT |
+| sase | [`9f1eb31`](https://github.com/sase-org/sase/commit/9f1eb315e30881052a9e29ca70f6da9af41189ba) | chore(flags): land sase-1jc retirement leftovers and integration fixes | [sase-1jc](README.md) | 2026-10-10 20:37:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
