@@ -13,7 +13,7 @@ cli-suggest: create the `sase.project_onboarding` package with provider-neutral 
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.2](sase-1jx.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.2](sase-1jx.2.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.3](sase-1jx.3.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.9](sase-1jx.9.md) ◐ · ⧖ 2026-10-11

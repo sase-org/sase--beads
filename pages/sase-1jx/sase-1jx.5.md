@@ -14,7 +14,7 @@ gh-provider: implement parse, local candidates, probe, describe creation and cre
 ## Dependencies
 
 - **Depends on:** [sase-1jx.1](sase-1jx.1.md) ✓ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jx.2](sase-1jx.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.2](sase-1jx.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

@@ -33,8 +33,8 @@ Pressing `n` on Admin Center ▸ Projects opens a beautiful three-stage New Proj
 | [sase-1jx.10](sase-1jx.10.md) | Configure, Review, Progress, init hand-off and Ready for existing repos | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.11](sase-1jx.11.md) | Projects-tab entry points and integration | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jx.12](sase-1jx.12.md) | Create a new repository from the wizard | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
-| [sase-1jx.2](sase-1jx.2.md) | Additive workspace-provider hooks and bare-git implementations | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
-| [sase-1jx.3](sase-1jx.3.md) | sase-core candidate classification and creation-form evaluation | ✓ closed | medium | 2026-10-11 | 1 | 2 |
+| [sase-1jx.2](sase-1jx.2.md) | Additive workspace-provider hooks and bare-git implementations | ✓ closed | medium | 2026-10-11 | 1 | 1 |
+| [sase-1jx.3](sase-1jx.3.md) | sase-core candidate classification and creation-form evaluation | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.4](sase-1jx.4.md) | sase-core onboarding plan derivation | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jx.5](sase-1jx.5.md) | sase-github implements the onboarding hooks | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jx.6](sase-1jx.6.md) | Candidate discovery engine and \`sase project suggest\` | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n2["sase-1jx.10: Configure, Review, Progress, init hand-off and Ready for existing repos [in_progress]"]
     n3["sase-1jx.11: Projects-tab entry points and integration [in_progress]"]
     n4["sase-1jx.12: Create a new repository from the wizard [in_progress]"]
-    n5["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [in_progress]"]
+    n5["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n6["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
     n7["sase-1jx.4: sase-core onboarding plan derivation [in_progress]"]
     n8["sase-1jx.5: sase-github implements the onboarding hooks [in_progress]"]
@@ -96,8 +96,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10/README.md) | [sase-1jx.10](sase-1jx.10.md) | 0 |
 | [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 0 |
 | [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12/README.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
-| [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 0 |
-| [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
+| [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
+| [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md) | [sase-1jx.4](sase-1jx.4.md) | 0 |
 | [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 0 |
 | [bbugyi200.athena.sase-1jx.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.6/README.md) | [sase-1jx.6](sase-1jx.6.md) | 0 |
@@ -111,8 +111,8 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fa897ce`](https://github.com/sase-org/sase/commit/fa897ced7232bd775f434e838b8b6d876da4826c) | docs(sase): correct github\_orgs description to owner completion plus PR gating, not clone transport | [sase-1jx.1](sase-1jx.1.md) | 2026-10-11 11:43:37 EDT |
-| sase-core | [`sase-core@aaec3bf`](https://github.com/sase-org/sase-core/commit/aaec3bf2e888411b66852c00faeadf45b853e8f4) | feat(project-onboarding): classify candidates and evaluate creation forms | [sase-1jx.3](sase-1jx.3.md) | 2026-10-11 13:07:04 EDT |
 | sase | [`1a169fb`](https://github.com/sase-org/sase/commit/1a169fb90904d78092ef31c6f00fe37947537142) | feat(core): add project\_onboarding facade for classify and form evaluation | [sase-1jx.3](sase-1jx.3.md) | 2026-10-11 14:05:35 EDT |
+| sase | [`2b576ef`](https://github.com/sase-org/sase/commit/2b576ef33c54eac46cd35f1c5b298067450904ad) | feat(workspace): add repository onboarding hooks | [sase-1jx.2](sase-1jx.2.md) | 2026-10-11 16:56:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
