@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/wait_checks_scoped_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/wait_checks_scoped_view.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ A wait_checks tick with live named-agent waiters loads only the artifact rows th
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jy.1](sase-1jy.1.md) | Make wait\_checks timeouts diagnosable | ✓ closed | small | 2026-10-11 | 1 | 1 |
-| [sase-1jy.2](sase-1jy.2.md) | Remove superlinear and redundant work from WaitDependencyIndex.add\_many | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
+| [sase-1jy.2](sase-1jy.2.md) | Remove superlinear and redundant work from WaitDependencyIndex.add\_many | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jy.3](sase-1jy.3.md) | Shared scope keys and scoped row selection for named waits | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jy.4](sase-1jy.4.md) | Resolve scopable waiters from a scoped view in wait\_checks | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [sase-1jy.5](sase-1jy.5.md) | Scope the runner's startup and 60 s fallback resolution | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
@@ -40,7 +42,7 @@ A wait_checks tick with live named-agent waiters loads only the artifact rows th
 flowchart TD
     n0["sase-1jy: Scope wait resolution to live waiters so wait_checks stops timing out [in_progress]"]
     n1["sase-1jy.1: Make wait_checks timeouts diagnosable [closed]"]
-    n2["sase-1jy.2: Remove superlinear and redundant work from WaitDependencyIndex.add_many [in_progress]"]
+    n2["sase-1jy.2: Remove superlinear and redundant work from WaitDependencyIndex.add_many [closed]"]
     n3["sase-1jy.3: Shared scope keys and scoped row selection for named waits [in_progress]"]
     n4["sase-1jy.4: Resolve scopable waiters from a scoped view in wait_checks [in_progress]"]
     n5["sase-1jy.5: Scope the runner's startup and 60 s fallback resolution [in_progress]"]
@@ -64,7 +66,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.1/README.md) | [sase-1jy.1](sase-1jy.1.md) | 1 |
-| [bbugyi200.athena.sase-1jy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.2/README.md) | [sase-1jy.2](sase-1jy.2.md) | 0 |
+| [bbugyi200.athena.sase-1jy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.2/README.md) | [sase-1jy.2](sase-1jy.2.md) | 1 |
 | [bbugyi200.athena.sase-1jy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.3/README.md) | [sase-1jy.3](sase-1jy.3.md) | 0 |
 | [bbugyi200.athena.sase-1jy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.4/README.md) | [sase-1jy.4](sase-1jy.4.md) | 0 |
 | [bbugyi200.athena.sase-1jy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.5/README.md) | [sase-1jy.5](sase-1jy.5.md) | 0 |
@@ -76,3 +78,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b59b8a7`](https://github.com/sase-org/sase/commit/b59b8a78bdc1a7ee6b1573678b7be95c06ab5ad9) | feat(wait-checks): add tick diagnostics | [sase-1jy.1](sase-1jy.1.md) | 2026-10-11 12:15:08 EDT |
+| sase | [`9982db1`](https://github.com/sase-org/sase/commit/9982db19428a0b3c6239b43cc5f7b7d4eae31b07) | perf(wait-index): batch add\_many with linear clan-tribe refresh and cached plan checks | [sase-1jy.2](sase-1jy.2.md) | 2026-10-11 12:55:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jy.1][1] | Need the epic decisions governing this phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jy.1/README.md
+
+<!-- sase:referenced-by:end -->
