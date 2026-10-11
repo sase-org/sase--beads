@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jw.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.1/README.md) | [sase-1jw.1](sase-1jw.1.md) | 1 |
 | [bbugyi200.athena.sase-1jw.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.2/README.md) | [sase-1jw.2](sase-1jw.2.md) | 1 |
 | [bbugyi200.athena.sase-1jw.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jw.3/README.md) | [sase-1jw.3](sase-1jw.3.md) | 1 |
-| [bbugyi200.athena.sase-1jw.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jw.land.md) | [sase-1jw](README.md) | 1 |
+| [bbugyi200.athena.sase-1jw.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jw.land.md) | [sase-1jw](README.md) | 2 |
 
 ## Commits
 
@@ -94,6 +94,7 @@ flowchart TD
 | sase | [`465da09`](https://github.com/sase-org/sase/commit/465da09ead6efa7473f13fe18544be59f1731662) | feat(plan): resolve approval projects from frontmatter | [sase-1jw.2](sase-1jw.2.md) | 2026-10-11 10:43:16 EDT |
 | sase | [`0c215c1`](https://github.com/sase-org/sase/commit/0c215c1f4c9fe8480e82c04d31a6eb39b7910f4c) | feat(bead): route plan-file work by frontmatter project | [sase-1jw.3](sase-1jw.3.md) | 2026-10-11 15:55:19 EDT |
 | sase | [`f21ef31`](https://github.com/sase-org/sase/commit/f21ef31d36880482196edaf6c9fff79d4d767c3e) | docs: document gateless approve project frontmatter | [sase-1jw](README.md) | 2026-10-11 16:44:01 EDT |
+| sase--plans | [`sase--plans@af4f0da`](https://github.com/sase-org/sase--plans/commit/af4f0daed489f351272140e20c15b224d12b9e4c) | docs: mark plan\_project\_frontmatter epic done | [sase-1jw](README.md) | 2026-10-11 16:47:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
