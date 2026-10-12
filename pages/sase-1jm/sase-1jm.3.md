@@ -38,7 +38,7 @@ Glossary follow-ups (notes #1–#3) left for sase-1jm's land agent. Did not clos
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.5](sase-1jm.5.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.5](sase-1jm.5.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.6](sase-1jm.6.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.7](sase-1jm.7.md) ◐ · ⧖ 2026-10-10
 
@@ -56,8 +56,10 @@ Glossary follow-ups (notes #1–#3) left for sase-1jm's land agent. Did not clos
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.1][1] | Need parent epic decisions | 1 |
 | read-by | [agent:sase-1jm.3.1.6][2] | Need parent phase status for epic-symbol re-keying | 1 |
+| read-by | [agent:sase-1jx.7.1.land][3] | Need whether a later archive phase still needs archive_read_only_context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

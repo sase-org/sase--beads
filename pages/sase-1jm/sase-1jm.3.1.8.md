@@ -68,7 +68,13 @@ Visual: `just test-visual -- tests/ace/tui/visual/test_ace_png_snapshots_agents_
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`83ed7d7`](https://github.com/sase-org/sase/commit/83ed7d7082c2959139c971b52820f2fc7ac81398) | fix(ace): finish Agents Archive landing defects before sase-1jm.3.1 lands | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 2026-10-12 05:49:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

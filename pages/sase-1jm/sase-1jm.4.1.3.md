@@ -15,3 +15,15 @@ record-facts: build the Lifecycle card (@agent: reference, Inbox or Archive loca
 
 - **Depends on:** [sase-1jm.4.1.1](sase-1jm.4.1.1.md) ○ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jm.4.1.5](sase-1jm.4.1.5.md) ○ · ⧖ 2026-10-11
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.7.1.land][1] | Confirm this bead still needs the archive_read_only_context exemption | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+
+<!-- sase:referenced-by:end -->

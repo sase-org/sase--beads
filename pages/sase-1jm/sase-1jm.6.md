@@ -33,3 +33,15 @@ archive-arrivals: retarget agent: link follow, the !R custom search row, Files a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c4c7846`](https://github.com/sase-org/sase/commit/c4c7846f57dfee7c054b0ce71fe8d7b039521670) | feat(ace): route agent arrivals to Archive | [sase-1jm.6](sase-1jm.6.md) | 2026-10-12 04:32:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.6][1] | Verify the recorded follow-up before closing the completed phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
+
+<!-- sase:referenced-by:end -->

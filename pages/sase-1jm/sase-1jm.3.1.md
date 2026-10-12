@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view_phase.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_phase.md
 
@@ -41,6 +41,8 @@ Every phase (.1–.7) and child epic sase-1jm.3.1.8 is closed. `sase bead epic-s
 
 Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/sase-1k4/completion). Archive PNG module check clean (11 unchanged). Import closure +3 pre-epic renderer modules only vs 69f647d912^. Glossary follow-ups stay on sase-1jm.3 notes #1–#3 for the parent land agent.
 
+[2026-10-12T08:32:16Z · sase-1jx.7.1.land] CORRECTION: the 2026-10-12T08:11:59Z close note says archive_read_only_context was re-keyed to sase-1jm.4.1.3 and that a Justfile comment names that consumer. origin/master at 4ccfc62c8f still had --epic-symbol sase-1jm.3.1(archive_read_only_context) and no such comment, so just symvision failed once this bead was closed. The sase-1jx.7.1 landing applied that re-key: the row is now sase-1jm.4.1.3(archive_read_only_context), with a comment above _lint-symvision. sase-1jm.4.1.3 was open at the re-key. No other sase-1jm symbol rows were changed.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -60,6 +62,7 @@ Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/
 | read-by | [agent:sase-1jm.3.1.5][5] | Need parent epic decisions and recorded contracts | 1 |
 | read-by | [agent:sase-1jm.3.1.6][6] | Need epic DECISIONS and scope | 1 |
 | read-by | [agent:sase-1jm.4][7] | Need child-epic structure precedent for decomposing sase-1jm.4 | 1 |
+| read-by | [agent:sase-1jx.7.1.land][8] | See why archive_read_only_context whitelist went stale | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
@@ -68,5 +71,6 @@ Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

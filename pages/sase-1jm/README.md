@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 
@@ -41,7 +41,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 1 |
-| [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ✓ closed | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
@@ -82,7 +82,7 @@ flowchart TD
     n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [open]"]
     n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [open]"]
     n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [open]"]
-    n32["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
+    n32["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
     n33["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
     n34["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
     n35["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
@@ -180,10 +180,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md) | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.4/README.md) | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md) | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
-| [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 0 |
 | [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 0 |
@@ -218,6 +218,7 @@ flowchart TD
 | sase | [`273d6f0`](https://github.com/sase-org/sase/commit/273d6f0d9bc38b9ebeb96eba4bf2dfe9d33cd104) | feat(tui): park Archive views and defer Archive imports | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 2026-10-12 00:45:48 EDT |
 | sase | [`17010f2`](https://github.com/sase-org/sase/commit/17010f2c6e8e3fda0482e70be075a3d4e1ffc900) | test(tui): add Archive remaining-proof regressions and marked/restored goldens | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 2026-10-12 02:02:03 EDT |
 | sase | [`c4c7846`](https://github.com/sase-org/sase/commit/c4c7846f57dfee7c054b0ce71fe8d7b039521670) | feat(ace): route agent arrivals to Archive | [sase-1jm.6](sase-1jm.6.md) | 2026-10-12 04:32:15 EDT |
+| sase | [`83ed7d7`](https://github.com/sase-org/sase/commit/83ed7d7082c2959139c971b52820f2fc7ac81398) | fix(ace): finish Agents Archive landing defects before sase-1jm.3.1 lands | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 2026-10-12 05:49:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -230,11 +231,13 @@ flowchart TD
 | read-by | [agent:sase-1jm.2.1.2][3] | Need the epic decisions and phase constraints | 1 |
 | read-by | [agent:sase-1jm.2.1.5][4] | Need epic DECISIONS for phase work | 1 |
 | read-by | [agent:sase-1jm.3.1.1][5] | Need epic decisions | 1 |
+| read-by | [agent:sase-1jm.6][6] | Need the active epic scope related to the stale symbol whitelist failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.2/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
 
 <!-- sase:referenced-by:end -->
