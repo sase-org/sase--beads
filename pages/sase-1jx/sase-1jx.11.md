@@ -20,7 +20,7 @@ tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry a
 ## Dependencies
 
 - **Depends on:** [sase-1jx.10](sase-1jx.10.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.12](sase-1jx.12.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.12](sase-1jx.12.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1jx](README.md) / sase-1jx.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.49.linker.w1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.49.linker.w1.md) · **Assignee:** `sase-1jx.12` · **Size:** large
-**Created:** 2026-10-11 11:13:49 EDT
+**Created:** 2026-10-11 11:13:49 EDT · **Closed:** 2026-10-12 14:20:05 EDT
 **Plan:** [202610/new\_project\_wizard.md](https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md)
 
 ## Description
 
 tui-create: show the pinned Create row, render the provider form with disclosure and live constraint greying, live name, availability and collision checks, danger-styled Review, create progress and the created-but-incomplete recovery.
+
+## Notes
+
+[2026-10-12T18:20:48Z · sase-1jx.12.1.land] Child epic sase-1jx.12.1 landed the tui-create phase. Verified the pinned Create row and Source n, provider form with lenient core evaluation, live name and availability checks, danger Review, durable project.create, created-but-incomplete recovery, and per-owner visibility persistence. 165 focused wizard tests passed. Epic-symbols for sase-1jx.12 are empty. The containing epic sase-1jx stays open for its land agent. Human smoke creation of a live repository remains that epic's out-of-band check, not this phase.
 
 ## Dependencies
 
