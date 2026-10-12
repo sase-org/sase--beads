@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_completion.md
 
@@ -37,8 +37,10 @@ Every promise of plan:202610/agents_archive_view.md holds on master with no flag
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jx.12.1.land][1] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
+| read-by | [agent:sase-1jm.9.1--2][1] | Need epic decisions governing phase implementation | 1 |
+| read-by | [agent:sase-1jx.12.1.land][2] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->
