@@ -25,7 +25,7 @@ archive-rows: build a RecordSubject from an Archive light row so unreadable entr
 
 - **Depends on:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.4.2.3](sase-1jm.4.2.3.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.4.2.5](sase-1jm.4.2.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.4.2.5](sase-1jm.4.2.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -38,3 +38,15 @@ archive-rows: build a RecordSubject from an Archive light row so unreadable entr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.4.2.4][1] | Need full phase notes, DECISIONS, and design details | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md
+
+<!-- sase:referenced-by:end -->

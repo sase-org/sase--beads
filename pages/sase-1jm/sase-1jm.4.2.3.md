@@ -41,7 +41,9 @@ relations: fill record/relations.py with the Relations card and the Links card. 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.4.2.3][1] | Check this phase's notes for prior agent work and remaining scope | 3 |
+| read-by | [agent:sase-1jm.4.2.4][2] | Need the sibling phase follow-up note about the stale epic-symbol check failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md
 
 <!-- sase:referenced-by:end -->
