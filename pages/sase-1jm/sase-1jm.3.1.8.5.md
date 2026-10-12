@@ -13,7 +13,7 @@ remaining-proof: add mounted-app regressions for every defect fixed by this epic
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

@@ -22,7 +22,7 @@ action-boundary-fixes: make live-only keys reach their Archive guards so they to
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -35,3 +35,15 @@ action-boundary-fixes: make live-only keys reach their Archive guards so they to
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8270bf7`](https://github.com/sase-org/sase/commit/8270bf768fed558909db3ef5371bca298cecd42f) | fix(tui): keep Archive actions read-only | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 2026-10-11 22:38:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.8.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md
+
+<!-- sase:referenced-by:end -->
