@@ -15,7 +15,7 @@ tui-add: complete the add-existing journey: identity and setup card, Review rend
 
 - **Blocks:** [sase-1jx.11](sase-1jx.11.md) ◐ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jx.9](sase-1jx.9.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.9](sase-1jx.9.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

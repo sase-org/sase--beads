@@ -22,7 +22,7 @@ cli-suggest: create the `sase.project_onboarding` package with provider-neutral 
 - **Depends on:** [sase-1jx.2](sase-1jx.2.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.3](sase-1jx.3.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.9](sase-1jx.9.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.9](sase-1jx.9.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -35,3 +35,15 @@ cli-suggest: create the `sase.project_onboarding` package with provider-neutral 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d8d803f`](https://github.com/sase-org/sase/commit/d8d803f8cd97ace114a8162d9c97170a2b2e77cd) | feat(project-onboarding): add candidate discovery engine and sase project suggest | [sase-1jx.6](sase-1jx.6.md) | 2026-10-11 18:54:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.6.md
+
+<!-- sase:referenced-by:end -->

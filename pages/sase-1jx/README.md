@@ -25,6 +25,10 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 Pressing `n` on Admin Center ▸ Projects opens a beautiful three-stage New Project wizard (Source › Configure › Review). The user picks a provider, then either adds a repository SASE ranks as likely (local clones, unregistered repos in their GitHub owners, linked repos, disabled projects) or creates a brand-new repository through the provider plugin with every `gh repo create` option reachable. The project is registered enabled, set up so agents can launch in it, and ends on a Ready screen. The same behavior ships as `sase project suggest | add | create`, the CLI every frontend shares.
 
+## Notes
+
+[2026-10-11T23:08:05Z · sase-1jm.3.1.land] DISCOVERED ISSUE: just _lint-symvision (and so the lint stage of just check) fails on master d289b664a6 with: Error: --epic-symbol 'sase-1jx.6(classify_project_candidates)': bead 'sase-1jx.6' is closed. Remove this stale --epic-symbol entry and clean up the symbol. classify_project_candidates (src/sase/core/project_onboarding_facade.py:14) still has no non-test consumer; resolve it (wire up, privatize, delete) or re-key the Justfile line to the still-open consuming phase (e.g. sase-1jx.9/.10/.11). Found by the sase-1jm.3.1 land agent; not caused by sase-1jm.3.1.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,7 +44,7 @@ Pressing `n` on Admin Center ▸ Projects opens a beautiful three-stage New Proj
 | [sase-1jx.6](sase-1jx.6.md) | Candidate discovery engine and \`sase project suggest\` | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.7](sase-1jx.7.md) | Onboarding engine and \`sase project add\` | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.8](sase-1jx.8.md) | \`sase project create\` and the human-only guard | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
-| [sase-1jx.9](sase-1jx.9.md) | Wizard shell and the Source stage | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
+| [sase-1jx.9](sase-1jx.9.md) | Wizard shell and the Source stage | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 
 ## Lineage
 
@@ -57,8 +61,13 @@ flowchart TD
     n8["sase-1jx.5: sase-github implements the onboarding hooks [closed]"]
     n9["sase-1jx.6: Candidate discovery engine and `sase project suggest` [closed]"]
     n10["sase-1jx.7: Onboarding engine and `sase project add` [in_progress]"]
-    n11["sase-1jx.8: `sase project create` and the human-only guard [in_progress]"]
-    n12["sase-1jx.9: Wizard shell and the Source stage [in_progress]"]
+    n11["sase-1jx.7.1: Complete project onboarding and sase project add [in_progress]"]
+    n12["sase-1jx.7.1.1: Observed facts, ownership journals, and onboarding documents [in_progress]"]
+    n13["sase-1jx.7.1.2: Commit-and-push setup with recoverable postconditions [in_progress]"]
+    n14["sase-1jx.7.1.3: Serialize and execute project onboarding [in_progress]"]
+    n15["sase-1jx.7.1.4: CLI, progress rendering, documentation, and end-to-end verification [in_progress]"]
+    n16["sase-1jx.8: `sase project create` and the human-only guard [in_progress]"]
+    n17["sase-1jx.9: Wizard shell and the Source stage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,8 +78,13 @@ flowchart TD
     n0 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n0 --> n16
+    n0 --> n17
     n1 -.-> n8
     n2 -.-> n3
     n3 -.-> n4
@@ -81,11 +95,14 @@ flowchart TD
     n7 -.-> n10
     n8 -.-> n10
     n9 -.-> n10
-    n9 -.-> n12
+    n9 -.-> n17
     n10 -.-> n2
-    n10 -.-> n11
-    n11 -.-> n4
-    n12 -.-> n2
+    n10 -.-> n16
+    n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n15
+    n16 -.-> n4
+    n17 -.-> n2
 ```
 
 ## Agents
@@ -101,9 +118,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md) | [sase-1jx.4](sase-1jx.4.md) | 2 |
 | [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 0 |
 | [bbugyi200.athena.sase-1jx.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.6.md) | [sase-1jx.6](sase-1jx.6.md) | 1 |
-| [bbugyi200.athena.sase-1jx.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7/README.md) | [sase-1jx.7](sase-1jx.7.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.7.md) | [sase-1jx.7](sase-1jx.7.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md) | [sase-1jx.7.1.1](sase-1jx.7.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.2/README.md) | [sase-1jx.7.1.2](sase-1jx.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.3/README.md) | [sase-1jx.7.1.3](sase-1jx.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.4/README.md) | [sase-1jx.7.1.4](sase-1jx.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1jx.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md) | [sase-1jx.7.1](sase-1jx.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1jx.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.8/README.md) | [sase-1jx.8](sase-1jx.8.md) | 0 |
-| [bbugyi200.athena.sase-1jx.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.9/README.md) | [sase-1jx.9](sase-1jx.9.md) | 0 |
+| [bbugyi200.athena.sase-1jx.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md) | [sase-1jx.9](sase-1jx.9.md) | 1 |
 | [bbugyi200.athena.sase-1jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.land/README.md) | [sase-1jx](README.md) | 0 |
 
 ## Commits
@@ -117,6 +139,7 @@ flowchart TD
 | sase-core | [`sase-core@792255d`](https://github.com/sase-org/sase-core/commit/792255d53b6ba2aacaf1fef103ec45cac65f487b) | feat(project-onboarding): derive ordered onboarding plans from facts | [sase-1jx.4](sase-1jx.4.md) | 2026-10-11 17:05:10 EDT |
 | sase | [`4f95a21`](https://github.com/sase-org/sase/commit/4f95a21e4a9c760a3818356d73c34eb84943cf46) | feat(project-onboarding): wrap plan\_project\_onboarding in the Python facade | [sase-1jx.4](sase-1jx.4.md) | 2026-10-11 17:11:58 EDT |
 | sase | [`d8d803f`](https://github.com/sase-org/sase/commit/d8d803f8cd97ace114a8162d9c97170a2b2e77cd) | feat(project-onboarding): add candidate discovery engine and sase project suggest | [sase-1jx.6](sase-1jx.6.md) | 2026-10-11 18:54:41 EDT |
+| sase | [`4a5c040`](https://github.com/sase-org/sase/commit/4a5c04043b7b8711043a219c6585947e35274353) | feat(tui): add test-pushable New Project Source stage | [sase-1jx.9](sase-1jx.9.md) | 2026-10-11 20:02:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
