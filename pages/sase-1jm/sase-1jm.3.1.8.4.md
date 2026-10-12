@@ -13,7 +13,7 @@ parking-and-import: restore deck card choices without reverting the shared deck 
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

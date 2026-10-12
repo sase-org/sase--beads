@@ -20,7 +20,7 @@ controller-seams: stop off-thread probe errors from wedging the Archive controll
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.8.1](sase-1jm.3.1.8.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ controller-seams: stop off-thread probe errors from wedging the Archive controll
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fb46ff6`](https://github.com/sase-org/sase/commit/fb46ff6f72a0b8b567ea10cf3504977f039f9062) | fix(tui): harden Archive controller seams and show project names | [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) | 2026-10-11 21:35:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.8.2--1][1] | Need phase notes and remaining work after failed check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.2.md
+
+<!-- sase:referenced-by:end -->
