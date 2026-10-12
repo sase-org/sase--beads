@@ -13,7 +13,7 @@ action-boundary-fixes: make live-only keys reach their Archive guards so they to
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

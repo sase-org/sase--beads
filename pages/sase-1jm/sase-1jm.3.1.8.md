@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view_landing_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_landing_fixes.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ The beta-flagged Agents Archive is correct and complete. Detail ownership never 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.land/README.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.8.1][1] | epic decisions and scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.1/README.md
+
+<!-- sase:referenced-by:end -->

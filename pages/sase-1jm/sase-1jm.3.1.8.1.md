@@ -21,7 +21,7 @@ detail-ownership: record a fresh owner token at every debounced Inbox detail sch
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ detail-ownership: record a fresh owner token at every debounced Inbox detail sch
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1b837fa`](https://github.com/sase-org/sase/commit/1b837fa132e932f6cdf319e86649689980e436bb) | refactor(agents): consolidate archive detail ownership into dedicated modules | [sase-1jm.3.1.8.1](sase-1jm.3.1.8.1.md) | 2026-10-11 20:16:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.8.1][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.1/README.md
+
+<!-- sase:referenced-by:end -->
