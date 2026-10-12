@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/create_repository_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/create_repository_wizard.md
 
@@ -38,7 +38,9 @@ Deliver the provider form, live create checks, danger Review, durable apply, and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.12.1.1][1] | Need parent decisions and surrounding wizard scope | 2 |
+| read-by | [agent:sase-1jx.12.1.2][2] | parent epic scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md
 
 <!-- sase:referenced-by:end -->

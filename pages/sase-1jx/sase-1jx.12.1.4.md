@@ -13,7 +13,7 @@ recovery-entry: recover create intent from durable evidence, retain created repo
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.12.1.3](sase-1jx.12.1.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jx.12.1.3](sase-1jx.12.1.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

@@ -20,7 +20,7 @@ create-configure: implement the create draft and Configure stage, owner and visi
 ## Dependencies
 
 - **Depends on:** [sase-1jx.12.1.1](sase-1jx.12.1.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jx.12.1.3](sase-1jx.12.1.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.12.1.3](sase-1jx.12.1.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ create-configure: implement the create draft and Configure stage, owner and visi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3dc675f`](https://github.com/sase-org/sase/commit/3dc675fffe0d5027be31ed47ffb1517fe237d228) | feat(tui): configure new repositories with live checks | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 2026-10-12 11:53:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.12.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md
+
+<!-- sase:referenced-by:end -->
