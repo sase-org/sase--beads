@@ -13,7 +13,7 @@ proof: add Record PNG goldens for inbox, archived, unreadable, and linked select
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.4.2.4](sase-1jm.4.2.4.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jm.4.2.4](sase-1jm.4.2.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

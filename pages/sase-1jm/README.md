@@ -88,7 +88,7 @@ flowchart TD
     n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [closed]"]
     n34["sase-1jm.4.2.2: Lifecycle and Provenance cards [closed]"]
     n35["sase-1jm.4.2.3: Relations and Links cards [closed]"]
-    n36["sase-1jm.4.2.4: Light-row Record for unreadable archive entries and container rows [in_progress]"]
+    n36["sase-1jm.4.2.4: Light-row Record for unreadable archive entries and container rows [closed]"]
     n37["sase-1jm.4.2.5: Record goldens, docs, performance evidence, and land evidence [in_progress]"]
     n38["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
     n39["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
@@ -205,7 +205,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.4.2.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.1.md) | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md) | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.land/README.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 0 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
@@ -249,6 +249,7 @@ flowchart TD
 | sase | [`b4dbfcd`](https://github.com/sase-org/sase/commit/b4dbfcd90e7d38654b2535c87a7008f7b686feb2) | feat(ace-tui): add RECORD deck with picker, split-rails and Archive views | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 2026-10-12 08:15:39 EDT |
 | sase | [`e82db58`](https://github.com/sase-org/sase/commit/e82db580a2d9b997a50bdd53ee01186c1eaa2954) | feat(ace): add Record relations and links | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 2026-10-12 09:07:20 EDT |
 | sase | [`a6df5da`](https://github.com/sase-org/sase/commit/a6df5daa01832899da32841bd8f488eb854dadbe) | feat(tui): fill Record Lifecycle and Provenance cards | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 2026-10-12 09:23:00 EDT |
+| sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
 
 <!-- sase:referenced-by:start -->
 

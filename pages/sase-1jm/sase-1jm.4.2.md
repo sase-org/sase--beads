@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/record_deck_refresh.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/record_deck_refresh.md
 
@@ -37,8 +37,10 @@ Every agent the Agents tab can select (an inbox agent, a hydrated archived run, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jm.4.2.3][1] | Need epic decisions and notes for assigned phase | 1 |
+| read-by | [agent:sase-1jm.4.2.2][1] | Need epic DECISIONS and plan for Record deck refresh | 1 |
+| read-by | [agent:sase-1jm.4.2.3][2] | Need epic decisions and notes for assigned phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
 
 <!-- sase:referenced-by:end -->

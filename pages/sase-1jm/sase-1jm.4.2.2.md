@@ -26,7 +26,7 @@ facts: fill record/facts.py with the Lifecycle and Provenance builders and their
 ## Dependencies
 
 - **Depends on:** [sase-1jm.4.2.1](sase-1jm.4.2.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.4.2.4](sase-1jm.4.2.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.4.2.4](sase-1jm.4.2.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -39,3 +39,15 @@ facts: fill record/facts.py with the Lifecycle and Provenance builders and their
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a6df5da`](https://github.com/sase-org/sase/commit/a6df5daa01832899da32841bd8f488eb854dadbe) | feat(tui): fill Record Lifecycle and Provenance cards | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 2026-10-12 09:23:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.4.2.2][1] | Need current status, notes, and remaining close steps | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md
+
+<!-- sase:referenced-by:end -->
