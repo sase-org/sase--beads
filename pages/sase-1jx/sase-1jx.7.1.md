@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/project_add_engine.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/project_add_engine.md
 
@@ -51,13 +51,14 @@ Follow-ups: import budget 3518<3513 got +1 on sase-1ic (proposed by .1 #1, .2 #1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md) | [sase-1jx.7.1](sase-1jx.7.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md) | [sase-1jx.7.1](sase-1jx.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8ed37c4`](https://github.com/sase-org/sase/commit/8ed37c4ef868db73fca1b870691d6f31f8846a4e) | fix(project-onboarding): retire sase-1jx.7.1 symbol exemptions | [sase-1jx.7.1](sase-1jx.7.1.md) | 2026-10-12 04:56:56 EDT |
+| sase--plans | [`sase--plans@9d14f87`](https://github.com/sase-org/sase--plans/commit/9d14f8738c9477716d26d23c524cc1428342debf) | docs(plans): mark the project add engine plan done | [sase-1jx.7.1](sase-1jx.7.1.md) | 2026-10-12 05:01:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -65,12 +66,14 @@ Follow-ups: import budget 3518<3513 got +1 on sase-1ic (proposed by .1 #1, .2 #1
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jx.7.1.1][1] | Need status to re-key stale epic-symbols | 2 |
-| read-by | [agent:sase-1jx.7.1.3][2] | Need child epic decisions and notes | 2 |
-| read-by | [agent:sase-1jx.7.1.land][3] | Need the epic scope, children, and linked plan file | 4 |
+| read-by | [agent:sase-1jx.10.1.1--1][1] | confirm closed status for stale symbol triage | 1 |
+| read-by | [agent:sase-1jx.7.1.1][2] | Need status to re-key stale epic-symbols | 2 |
+| read-by | [agent:sase-1jx.7.1.3][3] | Need child epic decisions and notes | 2 |
+| read-by | [agent:sase-1jx.7.1.land][4] | Need the epic scope, children, and linked plan file | 4 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

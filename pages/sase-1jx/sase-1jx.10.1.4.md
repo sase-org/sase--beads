@@ -14,7 +14,7 @@ apply-ready: submit durable project add, tail its checklist, and finish on Ready
 ## Dependencies
 
 - **Depends on:** [sase-1jx.10.1.2](sase-1jx.10.1.2.md) ✓ · ⧖ 2026-10-12
-- **Depends on:** [sase-1jx.10.1.3](sase-1jx.10.1.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jx.10.1.3](sase-1jx.10.1.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

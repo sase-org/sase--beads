@@ -19,7 +19,7 @@ models: add Textual-free configure, review, and progress models and the stage tr
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.10.1.3](sase-1jx.10.1.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.10.1.3](sase-1jx.10.1.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -32,3 +32,17 @@ models: add Textual-free configure, review, and progress models and the stage tr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`86b8fe2`](https://github.com/sase-org/sase/commit/86b8fe2cce33bced5819bdafd89f71e99e770b68) | feat(new-project): add Textual-free add-existing configure, review and progress models | [sase-1jx.10.1.1](sase-1jx.10.1.1.md) | 2026-10-12 05:12:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.10.1.1--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1jx.10.1.2][2] | check sibling models phase state | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->
