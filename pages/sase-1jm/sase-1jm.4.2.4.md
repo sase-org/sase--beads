@@ -13,7 +13,7 @@ archive-rows: build a RecordSubject from an Archive light row so unreadable entr
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.4.2.3](sase-1jm.4.2.3.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.4.2.5](sase-1jm.4.2.5.md) ◐ · ⧖ 2026-10-12
 

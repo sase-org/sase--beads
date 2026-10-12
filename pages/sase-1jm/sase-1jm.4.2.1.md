@@ -21,7 +21,7 @@ shell: close the stale sase-1jm.4.1 as superseded. Register RECORD last in the d
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.4.2.3](sase-1jm.4.2.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents

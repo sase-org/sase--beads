@@ -33,3 +33,15 @@ relations: fill record/relations.py with the Relations card and the Links card. 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e82db58`](https://github.com/sase-org/sase/commit/e82db580a2d9b997a50bdd53ee01186c1eaa2954) | feat(ace): add Record relations and links | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 2026-10-12 09:07:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.4.2.3][1] | Check this phase's notes for prior agent work and remaining scope | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
+
+<!-- sase:referenced-by:end -->
