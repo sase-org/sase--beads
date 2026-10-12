@@ -36,3 +36,15 @@ sheet: add the decision_zoom keymap (z) end to end, the full-width decision shee
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c9c1df8`](https://github.com/sase-org/sase/commit/c9c1df82ccf7279384ce6857c0cb190a988b6f4e) | feat(tui): add Plan Review z decision sheet and merged footer | [sase-1ka.3](sase-1ka.3.md) | 2026-10-12 11:29:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.3/README.md
+
+<!-- sase:referenced-by:end -->
