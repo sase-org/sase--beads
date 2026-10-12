@@ -65,17 +65,23 @@ flowchart TD
     n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [closed]"]
     n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [closed]"]
     n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [closed]"]
-    n19["sase-1jm.4: Record deck for every agent [in_progress]"]
-    n20["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [open]"]
-    n21["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [open]"]
-    n22["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [open]"]
-    n23["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [open]"]
-    n24["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [open]"]
-    n25["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [open]"]
-    n26["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
-    n27["sase-1jm.6: Every agent route lands on the Agents tab [in_progress]"]
-    n28["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
-    n29["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
+    n19["sase-1jm.3.1.8: Finish the read-only Agents Archive view before sase-1jm.3.1 lands [in_progress]"]
+    n20["sase-1jm.3.1.8.1: Detail ownership, stuck placeholders, and reader guards [closed]"]
+    n21["sase-1jm.3.1.8.2: Controller robustness, parent seams, and project display names [in_progress]"]
+    n22["sase-1jm.3.1.8.3: Live-key toasts, read isolation, marks, footer, help, and info row [in_progress]"]
+    n23["sase-1jm.3.1.8.4: Complete per-view parking, scope chip, and import deferral [in_progress]"]
+    n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [in_progress]"]
+    n25["sase-1jm.4: Record deck for every agent [in_progress]"]
+    n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [open]"]
+    n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [open]"]
+    n28["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [open]"]
+    n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [open]"]
+    n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [open]"]
+    n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [open]"]
+    n32["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
+    n33["sase-1jm.6: Every agent route lands on the Agents tab [in_progress]"]
+    n34["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
+    n35["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -94,44 +100,54 @@ flowchart TD
     n11 --> n16
     n11 --> n17
     n11 --> n18
-    n0 --> n19
+    n11 --> n19
     n19 --> n20
-    n20 --> n21
-    n20 --> n22
-    n20 --> n23
-    n20 --> n24
-    n20 --> n25
-    n0 --> n26
-    n0 --> n27
-    n0 --> n28
-    n0 --> n29
+    n19 --> n21
+    n19 --> n22
+    n19 --> n23
+    n19 --> n24
+    n0 --> n25
+    n25 --> n26
+    n26 --> n27
+    n26 --> n28
+    n26 --> n29
+    n26 --> n30
+    n26 --> n31
+    n0 --> n32
+    n0 --> n33
+    n0 --> n34
+    n0 --> n35
     n1 -.-> n2
     n2 -.-> n10
-    n2 -.-> n19
+    n2 -.-> n25
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n8
     n7 -.-> n8
     n8 -.-> n9
-    n10 -.-> n26
-    n10 -.-> n27
-    n10 -.-> n28
+    n10 -.-> n32
+    n10 -.-> n33
+    n10 -.-> n34
     n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
     n15 -.-> n16
     n16 -.-> n17
     n17 -.-> n18
-    n19 -.-> n29
+    n20 -.-> n21
     n21 -.-> n22
-    n21 -.-> n23
-    n21 -.-> n24
-    n22 -.-> n25
-    n23 -.-> n25
-    n24 -.-> n25
-    n26 -.-> n29
+    n22 -.-> n23
+    n23 -.-> n24
+    n25 -.-> n35
+    n27 -.-> n28
     n27 -.-> n29
-    n28 -.-> n29
+    n27 -.-> n30
+    n28 -.-> n31
+    n29 -.-> n31
+    n30 -.-> n31
+    n32 -.-> n35
+    n33 -.-> n35
+    n34 -.-> n35
 ```
 
 ## Agents
@@ -155,7 +171,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md) | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md) | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.7.md) | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.land/README.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.1/README.md) | [sase-1jm.3.1.8.1](sase-1jm.3.1.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1jm.3.1.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.2/README.md) | [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md) | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.4/README.md) | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md) | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.land/README.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 0 |
@@ -186,6 +208,7 @@ flowchart TD
 | sase | [`7ad439f`](https://github.com/sase-org/sase/commit/7ad439fd42dc6615321b05a5d64320a13cfebe4a) | feat(tui): hydrate archived agent detail off-thread as read-only | [sase-1jm.3.1.5](sase-1jm.3.1.5.md) | 2026-10-11 12:45:41 EDT |
 | sase | [`4841439`](https://github.com/sase-org/sase/commit/4841439aeed3e217ec0e3c7037786ddb5c8fd7eb) | feat(agents): isolate Archive action boundary with read-only guards | [sase-1jm.3.1.6](sase-1jm.3.1.6.md) | 2026-10-11 16:08:20 EDT |
 | sase | [`11e73e8`](https://github.com/sase-org/sase/commit/11e73e82325a3506489419bec9bcabc45a2dc194) | feat(agents-archive): proof coverage, benchmarks, and PNG goldens with test-wait lint fixes | [sase-1jm.3.1.7](sase-1jm.3.1.7.md) | 2026-10-11 18:30:07 EDT |
+| sase | [`1b837fa`](https://github.com/sase-org/sase/commit/1b837fa132e932f6cdf319e86649689980e436bb) | refactor(agents): consolidate archive detail ownership into dedicated modules | [sase-1jm.3.1.8.1](sase-1jm.3.1.8.1.md) | 2026-10-11 20:16:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -45,7 +45,9 @@ bindings-cache: expose the corpus through PyO3 and one off-thread cache shared b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.2.1.5][1] | Need JSON fields notes design | 4 |
+| read-by | [agent:sase-1jx.9--1][2] | Check existing task coverage for import-budget and marker audit failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->
