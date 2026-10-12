@@ -34,3 +34,15 @@ cli-repairs: in sase, make create apply_argv round-trip for every provider (pref
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`926645d`](https://github.com/sase-org/sase/commit/926645df890ea2ca6e11f381c0e355f45614d005) | fix(project): round-trip create apply\_argv and honor bare-git dirs | [sase-1jx.13.3](sase-1jx.13.3.md) | 2026-10-12 17:09:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.3][1] | Need remaining phase scope, notes, and design file before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.3/README.md
+
+<!-- sase:referenced-by:end -->

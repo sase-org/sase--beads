@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard_landing_repairs.md
 
@@ -39,10 +39,12 @@ Fix every epic-caused defect the sase-1jx land audit confirmed across sase-core,
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.13.1][1] | Need epic DECISIONS for phase work | 1 |
 | read-by | [agent:sase-1jx.13.2][2] | Need DECISIONS section of parent epic | 2 |
-| read-by | [agent:sase-1jx.13.4][3] | Need the child epic decisions governing tui-entry-repairs | 1 |
+| read-by | [agent:sase-1jx.13.3][3] | Need epic DECISIONS and parent scope | 1 |
+| read-by | [agent:sase-1jx.13.4][4] | Need the child epic decisions governing tui-entry-repairs | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md
 
 <!-- sase:referenced-by:end -->

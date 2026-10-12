@@ -21,7 +21,7 @@ tui-entry-repairs: make the palette wizard opener one-shot, implement width-awar
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.13.5](sase-1jx.13.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.13.5](sase-1jx.13.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
