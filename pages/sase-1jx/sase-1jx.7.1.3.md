@@ -20,7 +20,7 @@ convergent-apply: implement identity and checkout locking, revalidation, ordered
 ## Dependencies
 
 - **Depends on:** [sase-1jx.7.1.2](sase-1jx.7.1.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.7.1.4](sase-1jx.7.1.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.7.1.4](sase-1jx.7.1.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ convergent-apply: implement identity and checkout locking, revalidation, ordered
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`791c179`](https://github.com/sase-org/sase/commit/791c1797b92901137ff87a9f5663416d9ed5b2b8) | feat(project-onboarding): serialize and execute project onboarding (sase-1jx.7.1.3) | [sase-1jx.7.1.3](sase-1jx.7.1.3.md) | 2026-10-12 02:12:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.7.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->
