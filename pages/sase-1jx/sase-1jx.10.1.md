@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_add_existing.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_add_existing.md
 
@@ -60,6 +60,7 @@ Focused wizard/apply/init/producer tests passed. just fmt passed. Targeted New P
 | read-by | [agent:sase-1jx.10.1.3][4] | Need epic decisions and constraints for the assigned configure-review phase | 1 |
 | read-by | [agent:sase-1jx.10.1.4][5] | Need parent epic decisions and full plan scope | 1 |
 | read-by | [agent:sase-1jx.11][6] | Verify the existing record for the known Symvision baseline failure | 2 |
+| read-by | [agent:sase-1jx.12.1.1][7] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.1.md
@@ -67,5 +68,6 @@ Focused wizard/apply/init/producer tests passed. just fmt passed. Targeted New P
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.3/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
 
 <!-- sase:referenced-by:end -->

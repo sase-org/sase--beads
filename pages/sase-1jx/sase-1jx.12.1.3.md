@@ -13,7 +13,7 @@ create-execution: make shared Review and durable submission support project.crea
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.12.1.2](sase-1jx.12.1.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jx.12.1.2](sase-1jx.12.1.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jx.12.1.4](sase-1jx.12.1.4.md) ◐ · ⧖ 2026-10-12
 
 ## Agents

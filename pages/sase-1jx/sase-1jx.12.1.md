@@ -7,6 +7,20 @@
 **Created:** 2026-10-12 10:07:50 EDT
 **Plan:** [202610/create\_repository\_wizard.md](https://github.com/sase-org/sase--plans/blob/main/202610/create_repository_wizard.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/create_repository_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/create_repository_wizard.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Deliver the provider form, live create checks, danger Review, durable apply, and journal-backed recovery required by sase-1jx.12, then have this child epic's land agent close that phase.
@@ -16,3 +30,15 @@ Deliver the provider form, live create checks, danger Review, durable apply, and
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.12.1.1][1] | Need parent decisions and surrounding wizard scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+
+<!-- sase:referenced-by:end -->

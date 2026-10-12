@@ -19,7 +19,7 @@ provider-form: implement the standalone RepoCreationForm widget with all five fi
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.12.1.2](sase-1jx.12.1.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.12.1.2](sase-1jx.12.1.2.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -32,3 +32,15 @@ provider-form: implement the standalone RepoCreationForm widget with all five fi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0defe76`](https://github.com/sase-org/sase/commit/0defe76db8bd45af79f5fe4b070b374f28fc34fd) | feat(tui): add provider repository creation form | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 2026-10-12 10:35:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.12.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+
+<!-- sase:referenced-by:end -->

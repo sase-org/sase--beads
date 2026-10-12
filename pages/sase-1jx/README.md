@@ -33,6 +33,8 @@ Pressing `n` on Admin Center ▸ Projects opens a beautiful three-stage New Proj
 
 [2026-10-12T08:21:07Z · sase-1jx.7.1.land] DISCOVERED ISSUE: tests/main/test_project_handler_suggest.py::TestHandleSuggest::test_explicit_provider_is_remembered and test_options_forward_to_discovery failed in sase tool run check 795fed0da389e11f335ab004bfa3e6f4 (verdict new_failures: the first node NEW, the second KNOWN via witness 0409af70242a4314f4aa519ba6c48ebb) because handle_suggest returned 2: provider 'gh' was not in the live workspace-provider registry. Both pass in isolation (6 passed). Not caused by sase-1jx.7.1; the handler is the suggest phase. The suite-order dependency on registered providers is the defect.
 
+[2026-10-12T15:47:58Z · sase-1ka.land] SKILL DEPLOY HANDOFF (sase-1ka land agent): workspace-build 'sase skill init --check' at master c9c1df82cc reports 14 provider skill files out of sync: sase_plan (choice-label guidance from sase-1ka.5, ace43b398a) and sase_project ('sase project create' section from this epic). sase-1ka's plan asked for a post-landing 'sase skill init --force' deploy, but a full deploy would also publish the sase_project create docs while the installed global sase CLI still lacks 'sase project create' and this epic is still landing, so sase-1ka deferred it. The deploy that follows this epic's landing (and the human global reinstall) will carry the sase_plan change too.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,7 +68,7 @@ flowchart TD
     n9["sase-1jx.12: Create a new repository from the wizard [in_progress]"]
     n10["sase-1jx.12.1: Complete repository creation in the New Project wizard [in_progress]"]
     n11["sase-1jx.12.1.1: Render provider creation fields and constraints [closed]"]
-    n12["sase-1jx.12.1.2: Configure new repositories with live checks [in_progress]"]
+    n12["sase-1jx.12.1.2: Configure new repositories with live checks [closed]"]
     n13["sase-1jx.12.1.3: Review and apply the exact create intent [in_progress]"]
     n14["sase-1jx.12.1.4: Recover incomplete creates and expose the complete wizard [in_progress]"]
     n15["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
@@ -149,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
 | [bbugyi200.athena.sase-1jx.12.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md) | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.3/README.md) | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.4/README.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
@@ -196,6 +198,7 @@ flowchart TD
 | sase--plans | [`sase--plans@81377d5`](https://github.com/sase-org/sase--plans/commit/81377d5c33d16e1bfa7bc40a23719d81ecdc5e98) | docs(plans): mark add-existing New Project epic plan done | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:18:02 EDT |
 | sase | [`e4b3a85`](https://github.com/sase-org/sase/commit/e4b3a85f4ea576c97e8ed87b220ba6d5a778cfa0) | feat(ace): add Projects wizard entry and launch flow | [sase-1jx.11](sase-1jx.11.md) | 2026-10-12 09:48:31 EDT |
 | sase | [`0defe76`](https://github.com/sase-org/sase/commit/0defe76db8bd45af79f5fe4b070b374f28fc34fd) | feat(tui): add provider repository creation form | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 2026-10-12 10:35:53 EDT |
+| sase | [`3dc675f`](https://github.com/sase-org/sase/commit/3dc675fffe0d5027be31ed47ffb1517fe237d228) | feat(tui): configure new repositories with live checks | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 2026-10-12 11:53:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
