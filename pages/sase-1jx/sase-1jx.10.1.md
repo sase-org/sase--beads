@@ -7,6 +7,18 @@
 **Created:** 2026-10-12 04:39:46 EDT
 **Plan:** [202610/new\_project\_add\_existing.md](https://github.com/sase-org/sase--plans/blob/main/202610/new_project_add_existing.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/new_project_add_existing.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_add_existing.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Configure, Review, durable apply, live progress, the shared init hand-off, and Ready or Failed work for an existing repository, and the Projects pane init flow keeps its current behavior. The land agent closes phase bead sase-1jx.10 and does not close epic sase-1jx.

@@ -29,7 +29,9 @@ cli-create: add `sase project create` with strict provider-option validation, jo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.7.1.1][1] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.7.1.land][2] | Need whether create phase still needs journal path helpers | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

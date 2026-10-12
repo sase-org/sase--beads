@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md
 
@@ -59,7 +59,7 @@ flowchart TD
     n2["sase-1jx.10: Configure, Review, Progress, init hand-off and Ready for existing repos [in_progress]"]
     n3["sase-1jx.10.1: Add an existing repository from the New Project wizard [in_progress]"]
     n4["sase-1jx.10.1.1: Textual-free add-existing models [in_progress]"]
-    n5["sase-1jx.10.1.2: Shared Projects init controller [in_progress]"]
+    n5["sase-1jx.10.1.2: Shared Projects init controller [closed]"]
     n6["sase-1jx.10.1.3: Configure and Review for existing repos [in_progress]"]
     n7["sase-1jx.10.1.4: Apply, progress, Ready, and Failed [in_progress]"]
     n8["sase-1jx.11: Projects-tab entry points and integration [in_progress]"]
@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.2/README.md) | [sase-1jx.7.1.2](sase-1jx.7.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1jx.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.3/README.md) | [sase-1jx.7.1.3](sase-1jx.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.7.1.4.md) | [sase-1jx.7.1.4](sase-1jx.7.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md) | [sase-1jx.7.1](sase-1jx.7.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md) | [sase-1jx.7.1](sase-1jx.7.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.8/README.md) | [sase-1jx.8](sase-1jx.8.md) | 0 |
 | [bbugyi200.athena.sase-1jx.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md) | [sase-1jx.9](sase-1jx.9.md) | 1 |
 | [bbugyi200.athena.sase-1jx.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.land/README.md) | [sase-1jx](README.md) | 0 |
@@ -168,6 +168,7 @@ flowchart TD
 | sase | [`791c179`](https://github.com/sase-org/sase/commit/791c1797b92901137ff87a9f5663416d9ed5b2b8) | feat(project-onboarding): serialize and execute project onboarding (sase-1jx.7.1.3) | [sase-1jx.7.1.3](sase-1jx.7.1.3.md) | 2026-10-12 02:12:49 EDT |
 | sase | [`4ccfc62`](https://github.com/sase-org/sase/commit/4ccfc62c8f05013317cfb1cd13ed42067f709ad8) | feat(project): add existing repository onboarding | [sase-1jx.7.1.4](sase-1jx.7.1.4.md) | 2026-10-12 03:26:38 EDT |
 | sase | [`8ed37c4`](https://github.com/sase-org/sase/commit/8ed37c4ef868db73fca1b870691d6f31f8846a4e) | fix(project-onboarding): retire sase-1jx.7.1 symbol exemptions | [sase-1jx.7.1](sase-1jx.7.1.md) | 2026-10-12 04:56:56 EDT |
+| sase--plans | [`sase--plans@9d14f87`](https://github.com/sase-org/sase--plans/commit/9d14f8738c9477716d26d23c524cc1428342debf) | docs(plans): mark the project add engine plan done | [sase-1jx.7.1](sase-1jx.7.1.md) | 2026-10-12 05:01:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -180,11 +181,13 @@ flowchart TD
 | read-by | [agent:sase-1jx.4][3] | Need parent epic decisions and full plan context | 1 |
 | read-by | [agent:sase-1jx.5][4] | need epic scope and decisions | 1 |
 | read-by | [agent:sase-1jx.7.1.1][5] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.7.1.land][6] | Confirm epic and phase stay closed and the wizard epic stays open | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

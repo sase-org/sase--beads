@@ -40,7 +40,9 @@ plan-documents: implement actor detection, read-only facts, atomic journals, ver
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.7.1.1][1] | Need remaining phase scope and design file for test_planning.py | 4 |
+| read-by | [agent:sase-1jx.7.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->
