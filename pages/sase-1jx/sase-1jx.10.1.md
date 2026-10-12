@@ -39,14 +39,13 @@ Focused wizard/apply/init/producer tests passed. just fmt passed. Targeted New P
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 2 |
+| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`95e2115`](https://github.com/sase-org/sase/commit/95e2115b16e8524b4d42230b333d11d6edb25199) | fix(tui): land add-existing New Project wizard repairs | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:14:25 EDT |
-| sase--plans | [`sase--plans@81377d5`](https://github.com/sase-org/sase--plans/commit/81377d5c33d16e1bfa7bc40a23719d81ecdc5e98) | docs(plans): mark add-existing New Project epic plan done | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:18:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -39,7 +39,7 @@ Pressing `n` on Admin Center ▸ Projects opens a beautiful three-stage New Proj
 |---|---|---|---|---|---:|---:|
 | [sase-1jx.1](sase-1jx.1.md) | sase-github traps the wizard would hit | ✓ closed | small | 2026-10-11 | 1 | 1 |
 | [sase-1jx.10](sase-1jx.10.md) | Configure, Review, Progress, init hand-off and Ready for existing repos | ✓ closed | large | 2026-10-11 | 1 | 0 |
-| [sase-1jx.11](sase-1jx.11.md) | Projects-tab entry points and integration | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
+| [sase-1jx.11](sase-1jx.11.md) | Projects-tab entry points and integration | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.12](sase-1jx.12.md) | Create a new repository from the wizard | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.2](sase-1jx.2.md) | Additive workspace-provider hooks and bare-git implementations | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.3](sase-1jx.3.md) | sase-core candidate classification and creation-form evaluation | ✓ closed | medium | 2026-10-11 | 1 | 2 |
@@ -62,7 +62,7 @@ flowchart TD
     n5["sase-1jx.10.1.2: Shared Projects init controller [closed]"]
     n6["sase-1jx.10.1.3: Configure and Review for existing repos [closed]"]
     n7["sase-1jx.10.1.4: Apply, progress, Ready, and Failed [closed]"]
-    n8["sase-1jx.11: Projects-tab entry points and integration [in_progress]"]
+    n8["sase-1jx.11: Projects-tab entry points and integration [closed]"]
     n9["sase-1jx.12: Create a new repository from the wizard [in_progress]"]
     n10["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n11["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
@@ -132,8 +132,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.2/README.md) | [sase-1jx.10.1.2](sase-1jx.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.3/README.md) | [sase-1jx.10.1.3](sase-1jx.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md) | [sase-1jx.10.1.4](sase-1jx.10.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 2 |
-| [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 0 |
+| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12/README.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
@@ -175,7 +175,7 @@ flowchart TD
 | sase | [`597931b`](https://github.com/sase-org/sase/commit/597931b2221aa4ab577b90e30ea8e34fbf48e124) | feat(project): add sase project create with human-only guard | [sase-1jx.8](sase-1jx.8.md) | 2026-10-12 07:08:28 EDT |
 | sase | [`558a45e`](https://github.com/sase-org/sase/commit/558a45eca47b9e44b31c61f5f318333eae899c4f) | feat(tui): add durable New Project apply, Progress, Ready, and Failed | [sase-1jx.10.1.4](sase-1jx.10.1.4.md) | 2026-10-12 07:55:53 EDT |
 | sase | [`95e2115`](https://github.com/sase-org/sase/commit/95e2115b16e8524b4d42230b333d11d6edb25199) | fix(tui): land add-existing New Project wizard repairs | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:14:25 EDT |
-| sase--plans | [`sase--plans@81377d5`](https://github.com/sase-org/sase--plans/commit/81377d5c33d16e1bfa7bc40a23719d81ecdc5e98) | docs(plans): mark add-existing New Project epic plan done | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:18:02 EDT |
+| sase | [`e4b3a85`](https://github.com/sase-org/sase/commit/e4b3a85f4ea576c97e8ed87b220ba6d5a778cfa0) | feat(ace): add Projects wizard entry and launch flow | [sase-1jx.11](sase-1jx.11.md) | 2026-10-12 09:48:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

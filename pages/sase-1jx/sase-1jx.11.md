@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-1jx](README.md) / sase-1jx.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.49.linker.w1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.49.linker.w1.md) · **Assignee:** `sase-1jx.11` · **Size:** medium
-**Created:** 2026-10-11 11:13:49 EDT
+**Created:** 2026-10-11 11:13:49 EDT · **Closed:** 2026-10-12 09:47:20 EDT
 **Plan:** [202610/new\_project\_wizard.md](https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md)
 
 ## Description
 
 tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry and empty-state card, priority-truncated hints, and post-completion reload, selection and launch integration; document the wizard.
+
+## Notes
+
+[2026-10-12T13:47:04Z · sase-1jx.11] PROPOSED FOLLOW-UP: Triage unrelated clean-base failures from just check — agent project-display label assertions already tracked by sase-1k4; 3517-versus-3513 TUI import budget already tracked by sase-1ic; saved-agent-group preview copy assertion still expects 250 most recent dismissed agents while current copy says load recent dismissed agents then filter, with no matching bead found. The parallel todo-highlight failure passed the clean-base targeted rerun and is already tracked as intermittent by sase-xh; the _load_archive_bundle Symvision private-import failure is already tracked under sase-1jm.
+
+[2026-10-12T13:47:20Z · sase-1jx.11] Implemented the Projects-tab New Project entry and integration. Verified just fmt, git diff --check, 227 focused tests, and targeted visual snapshots. The phase-local catalog/help failures from the initial just check were fixed and their focused tests pass. just check still reports unrelated clean-base failures and known Symvision findings recorded in this phase follow-up; epic-symbols was empty.
 
 ## Dependencies
 
@@ -20,7 +26,13 @@ tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 0 |
+| [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e4b3a85`](https://github.com/sase-org/sase/commit/e4b3a85f4ea576c97e8ed87b220ba6d5a778cfa0) | feat(ace): add Projects wizard entry and launch flow | [sase-1jx.11](sase-1jx.11.md) | 2026-10-12 09:48:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
