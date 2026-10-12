@@ -19,7 +19,7 @@ plan-documents: implement actor detection, read-only facts, atomic journals, ver
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.7.1.2](sase-1jx.7.1.2.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.7.1.2](sase-1jx.7.1.2.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -32,3 +32,15 @@ plan-documents: implement actor detection, read-only facts, atomic journals, ver
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9756adf`](https://github.com/sase-org/sase/commit/9756adf38eb9c8c3e14ed2f291141eb9c3cdd8c0) | feat(project-onboarding): add plan documents, facts, journals, and actor detection | [sase-1jx.7.1.1](sase-1jx.7.1.1.md) | 2026-10-11 22:35:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.7.1.1][1] | Need remaining phase scope and design file for test_planning.py | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ convergent-apply: implement identity and checkout locking, revalidation, ordered
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.7.1.2](sase-1jx.7.1.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.7.1.2](sase-1jx.7.1.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.7.1.4](sase-1jx.7.1.4.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

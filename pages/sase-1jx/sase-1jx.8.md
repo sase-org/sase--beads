@@ -21,3 +21,15 @@ cli-create: add `sase project create` with strict provider-option validation, jo
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jx.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.8/README.md) | [sase-1jx.8](sase-1jx.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.7.1.1][1] | Need status to re-key stale epic-symbols | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->
