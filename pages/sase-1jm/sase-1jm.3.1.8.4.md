@@ -24,7 +24,7 @@ parking-and-import: restore deck card choices without reverting the shared deck 
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -37,3 +37,15 @@ parking-and-import: restore deck card choices without reverting the shared deck 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`273d6f0`](https://github.com/sase-org/sase/commit/273d6f0d9bc38b9ebeb96eba4bf2dfe9d33cd104) | feat(tui): park Archive views and defer Archive imports | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 2026-10-12 00:45:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.3.1.8.4][1] | Need notes, decisions, and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.4/README.md
+
+<!-- sase:referenced-by:end -->

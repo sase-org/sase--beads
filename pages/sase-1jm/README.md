@@ -70,7 +70,7 @@ flowchart TD
     n21["sase-1jm.3.1.8.2: Controller robustness, parent seams, and project display names [closed]"]
     n22["sase-1jm.3.1.8.3: Live-key toasts, read isolation, marks, footer, help, and info row [closed]"]
     n23["sase-1jm.3.1.8.4: Complete per-view parking, scope chip, and import deferral [closed]"]
-    n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [in_progress]"]
+    n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [closed]"]
     n25["sase-1jm.4: Record deck for every agent [in_progress]"]
     n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [open]"]
     n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [open]"]
@@ -175,7 +175,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.2.md) | [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md) | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.4/README.md) | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md) | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md) | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.land/README.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
@@ -212,6 +212,7 @@ flowchart TD
 | sase | [`fb46ff6`](https://github.com/sase-org/sase/commit/fb46ff6f72a0b8b567ea10cf3504977f039f9062) | fix(tui): harden Archive controller seams and show project names | [sase-1jm.3.1.8.2](sase-1jm.3.1.8.2.md) | 2026-10-11 21:35:54 EDT |
 | sase | [`8270bf7`](https://github.com/sase-org/sase/commit/8270bf768fed558909db3ef5371bca298cecd42f) | fix(tui): keep Archive actions read-only | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 2026-10-11 22:38:57 EDT |
 | sase | [`273d6f0`](https://github.com/sase-org/sase/commit/273d6f0d9bc38b9ebeb96eba4bf2dfe9d33cd104) | feat(tui): park Archive views and defer Archive imports | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 2026-10-12 00:45:48 EDT |
+| sase | [`17010f2`](https://github.com/sase-org/sase/commit/17010f2c6e8e3fda0482e70be075a3d4e1ffc900) | test(tui): add Archive remaining-proof regressions and marked/restored goldens | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 2026-10-12 02:02:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
