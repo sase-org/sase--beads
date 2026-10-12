@@ -17,7 +17,7 @@ core-repairs: in sase-core project_onboarding, keep explicitly-off bool fields i
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.13.3](sase-1jx.13.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.13.3](sase-1jx.13.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

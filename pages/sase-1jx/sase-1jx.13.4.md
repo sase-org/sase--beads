@@ -34,3 +34,15 @@ tui-entry-repairs: make the palette wizard opener one-shot, implement width-awar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`39a081d`](https://github.com/sase-org/sase/commit/39a081d3ea6bc55e6187d65f615d372ea5410f9d) | fix(ace): complete Projects wizard entry repair | [sase-1jx.13.4](sase-1jx.13.4.md) | 2026-10-12 16:53:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md
+
+<!-- sase:referenced-by:end -->
