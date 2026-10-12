@@ -20,3 +20,15 @@ gh-repairs: in sase-github, stop template creates from passing flags gh rejects,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.2][1] | Need full phase notes, DECISIONS, and remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md
+
+<!-- sase:referenced-by:end -->

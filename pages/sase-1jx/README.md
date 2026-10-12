@@ -108,7 +108,7 @@ flowchart TD
     n16["sase-1jx.13.1: Keep explicit create settings and fix candidate classification [closed]"]
     n17["sase-1jx.13.2: Make GitHub create and discovery correct [closed]"]
     n18["sase-1jx.13.3: Fix CLI create and suggest gaps [in_progress]"]
-    n19["sase-1jx.13.4: Finish Projects-tab entry and post-completion integration [in_progress]"]
+    n19["sase-1jx.13.4: Finish Projects-tab entry and post-completion integration [closed]"]
     n20["sase-1jx.13.5: Meet the Source stage spec and add its missing guards [in_progress]"]
     n21["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n22["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
@@ -201,11 +201,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.3.md) | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.4.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md) | [sase-1jx.13.1](sase-1jx.13.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.3/README.md) | [sase-1jx.13.3](sase-1jx.13.3.md) | 0 |
-| [bbugyi200.athena.sase-1jx.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md) | [sase-1jx.13.4](sase-1jx.13.4.md) | 0 |
+| [bbugyi200.athena.sase-1jx.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md) | [sase-1jx.13.4](sase-1jx.13.4.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.5/README.md) | [sase-1jx.13.5](sase-1jx.13.5.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.land/README.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
@@ -254,7 +254,9 @@ flowchart TD
 | sase | [`3dc675f`](https://github.com/sase-org/sase/commit/3dc675fffe0d5027be31ed47ffb1517fe237d228) | feat(tui): configure new repositories with live checks | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 2026-10-12 11:53:56 EDT |
 | sase | [`1de7cf6`](https://github.com/sase-org/sase/commit/1de7cf6c8d9590790cb00518e52ce3bdf7d9dcc8) | feat(tui): apply exact create intent from New Project Review | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 2026-10-12 13:22:20 EDT |
 | sase | [`241e33a`](https://github.com/sase-org/sase/commit/241e33a79721b725c4808f6988ad139bacd99ff5) | feat(new-project): recover incomplete creates and expose the complete wizard | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 2026-10-12 14:00:25 EDT |
+| sase | [`5cb48bd`](https://github.com/sase-org/sase/commit/5cb48bdd36933d2512dc0669f71b5a0bf22eaf30) | refactor(ace): privatize test-only symbols after the create wizard | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 14:59:57 EDT |
 | sase-core | [`sase-core@98c3682`](https://github.com/sase-org/sase-core/commit/98c3682f293892a4e9c9a31fa25dd0a05517d367) | fix(project-onboarding): keep explicit off bools, strict excluded-field conflicts, primary-sibling LOCAL merge, annotation-only inventory | [sase-1jx.13.1](sase-1jx.13.1.md) | 2026-10-12 15:37:56 EDT |
+| sase | [`39a081d`](https://github.com/sase-org/sase/commit/39a081d3ea6bc55e6187d65f615d372ea5410f9d) | fix(ace): complete Projects wizard entry repair | [sase-1jx.13.4](sase-1jx.13.4.md) | 2026-10-12 16:53:49 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard_landing_repairs.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,17 @@ Fix every epic-caused defect the sase-1jx land audit confirmed across sase-core,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.land/README.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.1][1] | Need epic DECISIONS for phase work | 1 |
+| read-by | [agent:sase-1jx.13.2][2] | Need DECISIONS section of parent epic | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md
+
+<!-- sase:referenced-by:end -->

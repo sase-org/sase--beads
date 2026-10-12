@@ -39,7 +39,13 @@ Follow-ups: declined _load_archive_bundle and the revival-preview assertion as a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`5cb48bd`](https://github.com/sase-org/sase/commit/5cb48bdd36933d2512dc0669f71b5a0bf22eaf30) | refactor(ace): privatize test-only symbols after the create wizard | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 14:59:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

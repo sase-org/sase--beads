@@ -30,3 +30,15 @@ core-repairs: in sase-core project_onboarding, keep explicitly-off bool fields i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@98c3682`](https://github.com/sase-org/sase-core/commit/98c3682f293892a4e9c9a31fa25dd0a05517d367) | fix(project-onboarding): keep explicit off bools, strict excluded-field conflicts, primary-sibling LOCAL merge, annotation-only inventory | [sase-1jx.13.1](sase-1jx.13.1.md) | 2026-10-12 15:37:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md
+
+<!-- sase:referenced-by:end -->
