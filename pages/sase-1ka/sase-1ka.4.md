@@ -13,7 +13,7 @@ inbox: render the notification inbox plan-gate Decisions block with the read-onl
 
 ## Dependencies
 
-- **Depends on:** [sase-1ka.1](sase-1ka.1.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1ka.1](sase-1ka.1.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

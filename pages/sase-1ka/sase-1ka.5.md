@@ -30,3 +30,15 @@ nudge: tell planners not to restate a choice key at the start of its label in th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ace43b3`](https://github.com/sase-org/sase/commit/ace43b398ab0e8a764289a49776d32fc3c00c458) | feat(plan): guide planners against restating choice keys in labels | [sase-1ka.5](sase-1ka.5.md) | 2026-10-12 09:51:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.5][1] | Confirm the requested phase close completed | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.5/README.md
+
+<!-- sase:referenced-by:end -->

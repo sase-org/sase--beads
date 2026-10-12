@@ -13,7 +13,7 @@ rail: size the decisions rail at 40% (min 50, capped per rail_cap), dock it at 6
 
 ## Dependencies
 
-- **Depends on:** [sase-1ka.1](sase-1ka.1.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1ka.1](sase-1ka.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1ka.3](sase-1ka.3.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
