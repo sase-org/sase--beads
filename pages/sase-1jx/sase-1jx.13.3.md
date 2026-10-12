@@ -13,7 +13,7 @@ cli-repairs: in sase, make create apply_argv round-trip for every provider (pref
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.13.1](sase-1jx.13.1.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jx.13.1](sase-1jx.13.1.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

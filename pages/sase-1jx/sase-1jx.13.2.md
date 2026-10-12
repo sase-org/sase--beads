@@ -19,10 +19,4 @@ gh-repairs: in sase-github, stop template creates from passing flags gh rejects,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-github | [`sase-github@4def532`](https://github.com/sase-org/sase-github/commit/4def5328064a46aab247029be0091a38beee9130) | fix(onboarding): make GitHub create and discovery correct | [sase-1jx.13.2](sase-1jx.13.2.md) | 2026-10-12 15:33:11 EDT |
+| [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 0 |

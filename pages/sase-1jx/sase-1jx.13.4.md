@@ -11,6 +11,10 @@
 
 tui-entry-repairs: make the palette wizard opener one-shot, implement width-aware priority hints, pass current-project context into the wizard, share one post-add sequence (reload, select, MRU, lifecycle, tag catalog, Show new project when filtered), handle added outcomes, fix Ready + and c, record preferences after a mid-run close, and add the missing tests, goldens, and docs.
 
+## Notes
+
+[2026-10-12T19:32:43Z · sase-1jx.13.4] PROPOSED FOLLOW-UP: Investigate the live Notifications modal screenshot failure — during `sase screenshot`, dismissing an unread remote-attention notification raised `NoMatches` for `#notification-file-title` in `notification_modal_attachments.py` and prevented capture.
+
 ## Dependencies
 
 - **Blocks:** [sase-1jx.13.5](sase-1jx.13.5.md) ◐ · ⧖ 2026-10-12
