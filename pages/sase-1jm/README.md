@@ -43,7 +43,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
-| [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 
 ## Lineage
@@ -76,16 +76,22 @@ flowchart TD
     n23["sase-1jm.3.1.8.4: Complete per-view parking, scope chip, and import deferral [closed]"]
     n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [closed]"]
     n25["sase-1jm.4: Record deck for every agent [in_progress]"]
-    n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [open]"]
-    n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [open]"]
-    n28["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [open]"]
-    n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [open]"]
-    n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [open]"]
-    n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [open]"]
-    n32["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
-    n33["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
-    n34["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
-    n35["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
+    n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [closed]"]
+    n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [closed]"]
+    n28["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [closed]"]
+    n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [closed]"]
+    n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [closed]"]
+    n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [closed]"]
+    n32["sase-1jm.4.2: Finish the Record deck and close sase-1jm.4 [in_progress]"]
+    n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [in_progress]"]
+    n34["sase-1jm.4.2.2: Lifecycle and Provenance cards [in_progress]"]
+    n35["sase-1jm.4.2.3: Relations and Links cards [in_progress]"]
+    n36["sase-1jm.4.2.4: Light-row Record for unreadable archive entries and container rows [in_progress]"]
+    n37["sase-1jm.4.2.5: Record goldens, docs, performance evidence, and land evidence [in_progress]"]
+    n38["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
+    n39["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
+    n40["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [closed]"]
+    n41["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -117,10 +123,16 @@ flowchart TD
     n26 --> n29
     n26 --> n30
     n26 --> n31
-    n0 --> n32
-    n0 --> n33
-    n0 --> n34
-    n0 --> n35
+    n25 --> n32
+    n32 --> n33
+    n32 --> n34
+    n32 --> n35
+    n32 --> n36
+    n32 --> n37
+    n0 --> n38
+    n0 --> n39
+    n0 --> n40
+    n0 --> n41
     n1 -.-> n2
     n2 -.-> n10
     n2 -.-> n25
@@ -129,9 +141,9 @@ flowchart TD
     n6 -.-> n8
     n7 -.-> n8
     n8 -.-> n9
-    n10 -.-> n32
-    n10 -.-> n33
-    n10 -.-> n34
+    n10 -.-> n38
+    n10 -.-> n39
+    n10 -.-> n40
     n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
@@ -142,16 +154,21 @@ flowchart TD
     n21 -.-> n22
     n22 -.-> n23
     n23 -.-> n24
-    n25 -.-> n35
+    n25 -.-> n41
     n27 -.-> n28
     n27 -.-> n29
     n27 -.-> n30
     n28 -.-> n31
     n29 -.-> n31
     n30 -.-> n31
-    n32 -.-> n35
+    n33 -.-> n34
     n33 -.-> n35
-    n34 -.-> n35
+    n34 -.-> n36
+    n35 -.-> n36
+    n36 -.-> n37
+    n38 -.-> n41
+    n39 -.-> n41
+    n40 -.-> n41
 ```
 
 ## Agents
@@ -183,9 +200,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
+| [bbugyi200.athena.sase-1jm.4.2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.1/README.md) | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md) | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.land/README.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 0 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
-| [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 0 |
+| [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 1 |
 | [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 0 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.land/README.md) | [sase-1jm](README.md) | 0 |
 
@@ -220,6 +243,7 @@ flowchart TD
 | sase | [`c4c7846`](https://github.com/sase-org/sase/commit/c4c7846f57dfee7c054b0ce71fe8d7b039521670) | feat(ace): route agent arrivals to Archive | [sase-1jm.6](sase-1jm.6.md) | 2026-10-12 04:32:15 EDT |
 | sase | [`83ed7d7`](https://github.com/sase-org/sase/commit/83ed7d7082c2959139c971b52820f2fc7ac81398) | fix(ace): finish Agents Archive landing defects before sase-1jm.3.1 lands | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 2026-10-12 05:49:02 EDT |
 | sase | [`ebd17bf`](https://github.com/sase-org/sase/commit/ebd17bf5bf64b1d9cb8dfa5001fc880c99dfb603) | feat(agents-archive): add restore, fork, and copy actions to the Archive | [sase-1jm.5](sase-1jm.5.md) | 2026-10-12 06:06:46 EDT |
+| sase | [`db32983`](https://github.com/sase-org/sase/commit/db32983ba23026b9b61ca850493e37c8ae8cd007) | feat(ace): add Archive entry points to agent navigation | [sase-1jm.7](sase-1jm.7.md) | 2026-10-12 07:01:26 EDT |
 
 <!-- sase:referenced-by:start -->
 

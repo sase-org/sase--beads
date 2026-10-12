@@ -16,7 +16,7 @@ retire-pane: delete the agents_archive_view beta flag's Off branches. Hide the A
 - **Depends on:** [sase-1jm.4](sase-1jm.4.md) ◐ · ⧖ 2026-10-10
 - **Depends on:** [sase-1jm.5](sase-1jm.5.md) ✓ · ⧖ 2026-10-10
 - **Depends on:** [sase-1jm.6](sase-1jm.6.md) ✓ · ⧖ 2026-10-10
-- **Depends on:** [sase-1jm.7](sase-1jm.7.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.7](sase-1jm.7.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 

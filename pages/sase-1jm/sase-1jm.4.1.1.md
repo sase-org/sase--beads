@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1jm.4.1](sase-1jm.4.1.md) / sase-1jm.4.1.1
 
-**Status:** ○ open · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** superseded · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) · **Size:** small
-**Created:** 2026-10-11 05:30:23 EDT
+**Created:** 2026-10-11 05:30:23 EDT · **Closed:** 2026-10-12 06:52:41 EDT
 **Plan:** [202610/agents\_archive\_view\_record\_deck.md](https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_record_deck.md)
 
 ## Description
@@ -13,6 +13,6 @@ record-registry: add DeckId.RECORD to src/sase/ace/tui/widgets/decks/model.py an
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.4.1.2](sase-1jm.4.1.2.md) ○ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jm.4.1.3](sase-1jm.4.1.3.md) ○ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jm.4.1.4](sase-1jm.4.1.4.md) ○ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.4.1.2](sase-1jm.4.1.2.md) ✓ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.4.1.3](sase-1jm.4.1.3.md) ✓ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jm.4.1.4](sase-1jm.4.1.4.md) ✓ · ⧖ 2026-10-11

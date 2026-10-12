@@ -40,7 +40,7 @@ Glossary follow-ups (notes #1–#3) left for sase-1jm's land agent. Did not clos
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.5](sase-1jm.5.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.6](sase-1jm.6.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.7](sase-1jm.7.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.7](sase-1jm.7.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
