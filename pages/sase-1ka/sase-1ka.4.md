@@ -32,3 +32,15 @@ inbox: render the notification inbox plan-gate Decisions block with the read-onl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a93229e`](https://github.com/sase-org/sase/commit/a93229e65d9adaf06cd4689c5c70b0fa9701a504) | feat(ace): reuse decision cards in inbox gates | [sase-1ka.4](sase-1ka.4.md) | 2026-10-12 10:32:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.4/README.md
+
+<!-- sase:referenced-by:end -->

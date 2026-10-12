@@ -20,7 +20,7 @@ rail: size the decisions rail at 40% (min 50, capped per rail_cap), dock it at 6
 ## Dependencies
 
 - **Depends on:** [sase-1ka.1](sase-1ka.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1ka.3](sase-1ka.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1ka.3](sase-1ka.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ rail: size the decisions rail at 40% (min 50, capped per rail_cap), dock it at 6
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e216699`](https://github.com/sase-org/sase/commit/e21669907c91921468d90e8f4fcdbf00db7a5c15) | feat(tui): implement responsive plan decision rail | [sase-1ka.2](sase-1ka.2.md) | 2026-10-12 10:31:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.2/README.md
+
+<!-- sase:referenced-by:end -->

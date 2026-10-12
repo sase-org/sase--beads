@@ -37,8 +37,10 @@ nudge: tell planners not to restate a choice key at the start of its label in th
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ka.5][1] | Confirm the requested phase close completed | 5 |
+| read-by | [agent:sase-1jx.12.1.1][1] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
+| read-by | [agent:sase-1ka.5][2] | Confirm the requested phase close completed | 5 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.5/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.5/README.md
 
 <!-- sase:referenced-by:end -->

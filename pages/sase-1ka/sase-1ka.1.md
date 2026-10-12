@@ -20,7 +20,7 @@ cards: replace each decision Button with a wrapping DecisionCard built from pure
 ## Dependencies
 
 - **Blocks:** [sase-1ka.2](sase-1ka.2.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1ka.4](sase-1ka.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1ka.4](sase-1ka.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
