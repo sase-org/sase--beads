@@ -42,7 +42,9 @@ detail-ownership: record a fresh owner token at every debounced Inbox detail sch
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.8.1][1] | check notes and remaining work | 2 |
+| read-by | [agent:sase-1jm.3.1.8.5][2] | remaining-proof needs prior phase evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md
 
 <!-- sase:referenced-by:end -->

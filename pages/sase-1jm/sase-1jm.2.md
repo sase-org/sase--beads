@@ -20,7 +20,7 @@ archive-projection: build a cached sase-core archive corpus over the v3 index. I
 ## Dependencies
 
 - **Depends on:** [sase-1jm.1](sase-1jm.1.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.3](sase-1jm.3.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.3](sase-1jm.3.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.4](sase-1jm.4.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

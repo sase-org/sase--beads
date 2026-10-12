@@ -29,16 +29,20 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 
 [2026-10-11T13:09:08Z · 6p--code] DISCOVERED ISSUE: at master 8122d44255 (also origin/master cca1773157, which only adds the git-lock and symvision-privatize commits), `sase tool run check` fails three tests that this epic's archive work causes. (1) tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot: the only drift is description_digest of `sase agent search` (d0bf3fe5c8158622 current vs f75a3fcb2bbd4075 in tests/completion/snapshots/cli_spec.json), changed by the archive search CLI parity commits (5f47d11935, 04ed4b33cb); regenerate with `just sync-completion-spec`. (2) tests/completion/test_candidates_providers.py::test_flag_candidates_come_from_the_in_process_registry: the in-process flag registry now holds {'agents_archive_view'} while the test asserts it is empty; either register the expectation or let sase-1ju (Retire agents_archive_view) clear it. Found while verifying an unrelated plan-propose change; none of these files were touched by it.
 
+[2026-10-12T06:36:46Z · sase-1jm.3.1.8.land] DISCOVERED ISSUE (sase-1jm.3.1.8 land agent, master 791c1797b9): every AceApp startup imports the Archive modules even with the agents_archive_view beta off. actions/_state_init_runtime.py:init_runtime_state (since 69f647d912, sase-1jm.3.1) calls init_agents_archive_view_state, which imports actions.agents._archive_view, models.agent_archive_view (module-level) and _archive_controller, loads the Archive grouping preference, and initializes the controller. So sase-1jm.3.1.8's static import deferral (both modules are off the sase.ace.tui.app closure) gives no runtime startup saving; a verifier's mounted probe confirmed both modules are in sys.modules after startup. Remediation: lazy-init _agents_archive_view on first Archive access (agents_archive_is_active already tolerates the missing attribute), or skip init entirely while the beta is off, without breaking the Archive prewarm budget (warm ,a < 100 ms). Can wait for the retire-pane phase that removes the beta flag.
+
+[2026-10-12T06:36:51Z · sase-1jm.3.1.8.land] DISCOVERED ISSUE (sase-1jm.3.1.8 land agent, from phase sase-1jm.3.1.8.5 evidence): Archive j/k latency has not been confirmed against the 16 ms p95 budget on a quiet host. Same-host back-to-back runs on loaded athena (load1 11-15): bench_tui_jk_archive p50 ~42 ms, p95 ~47-53 ms over 2 runs; axe bench_tui_jk Inbox control p50 17-56 ms, p95 45-65 ms. That is a loaded-host band, not an Archive regression (Archive is within the control's range). Warm ,a first-row median 99.6 ms passes the 100 ms budget. Re-measure both benches back to back on a quiet host before sase-1jm retires the beta flag; related host-load reports: sase-1ge, sase-199.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1jm.1](sase-1jm.1.md) | Archive index v3 and honest timestamps | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ✓ closed | large | 2026-10-10 | 1 | 0 |
-| [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ◐ in_progress | large | 2026-10-10 | 1 | 0 |
+| [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
-| [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 | [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
 
@@ -56,8 +60,8 @@ flowchart TD
     n7["sase-1jm.2.1.4: agents-archive profile and the in token [closed]"]
     n8["sase-1jm.2.1.5: Bindings, facade, and shared corpus cache [closed]"]
     n9["sase-1jm.2.1.6: sase agent search parity and the bench [closed]"]
-    n10["sase-1jm.3: Archive view on the Agents tab [in_progress]"]
-    n11["sase-1jm.3.1: Implement the read-only Agents Archive view for sase-1jm.3 [in_progress]"]
+    n10["sase-1jm.3: Archive view on the Agents tab [closed]"]
+    n11["sase-1jm.3.1: Implement the read-only Agents Archive view for sase-1jm.3 [closed]"]
     n12["sase-1jm.3.1.1: Archive view state, flag, and selection ownership [closed]"]
     n13["sase-1jm.3.1.2: Off-thread Archive loading, prewarm, and revalidation [closed]"]
     n14["sase-1jm.3.1.3: Paged Archive list and live Inbox pulse [closed]"]
@@ -65,7 +69,7 @@ flowchart TD
     n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [closed]"]
     n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [closed]"]
     n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [closed]"]
-    n19["sase-1jm.3.1.8: Finish the read-only Agents Archive view before sase-1jm.3.1 lands [in_progress]"]
+    n19["sase-1jm.3.1.8: Finish the read-only Agents Archive view before sase-1jm.3.1 lands [closed]"]
     n20["sase-1jm.3.1.8.1: Detail ownership, stuck placeholders, and reader guards [closed]"]
     n21["sase-1jm.3.1.8.2: Controller robustness, parent seams, and project display names [closed]"]
     n22["sase-1jm.3.1.8.3: Live-key toasts, read isolation, marks, footer, help, and info row [closed]"]
@@ -79,7 +83,7 @@ flowchart TD
     n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [open]"]
     n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [open]"]
     n32["sase-1jm.5: Restore, fork, and copy from the Archive [in_progress]"]
-    n33["sase-1jm.6: Every agent route lands on the Agents tab [in_progress]"]
+    n33["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
     n34["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [in_progress]"]
     n35["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
     n0 --> n1
@@ -176,11 +180,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md) | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.4/README.md) | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md) | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.land/README.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.5/README.md) | [sase-1jm.5](sase-1jm.5.md) | 0 |
-| [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 0 |
+| [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 0 |
 | [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 0 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.land/README.md) | [sase-1jm](README.md) | 0 |
@@ -213,6 +217,7 @@ flowchart TD
 | sase | [`8270bf7`](https://github.com/sase-org/sase/commit/8270bf768fed558909db3ef5371bca298cecd42f) | fix(tui): keep Archive actions read-only | [sase-1jm.3.1.8.3](sase-1jm.3.1.8.3.md) | 2026-10-11 22:38:57 EDT |
 | sase | [`273d6f0`](https://github.com/sase-org/sase/commit/273d6f0d9bc38b9ebeb96eba4bf2dfe9d33cd104) | feat(tui): park Archive views and defer Archive imports | [sase-1jm.3.1.8.4](sase-1jm.3.1.8.4.md) | 2026-10-12 00:45:48 EDT |
 | sase | [`17010f2`](https://github.com/sase-org/sase/commit/17010f2c6e8e3fda0482e70be075a3d4e1ffc900) | test(tui): add Archive remaining-proof regressions and marked/restored goldens | [sase-1jm.3.1.8.5](sase-1jm.3.1.8.5.md) | 2026-10-12 02:02:03 EDT |
+| sase | [`c4c7846`](https://github.com/sase-org/sase/commit/c4c7846f57dfee7c054b0ce71fe8d7b039521670) | feat(ace): route agent arrivals to Archive | [sase-1jm.6](sase-1jm.6.md) | 2026-10-12 04:32:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

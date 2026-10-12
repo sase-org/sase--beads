@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1jm.3](sase-1jm.3.md) / sase-1jm.3.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1jm.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.md) · **Assignee:** `sase-1jm.3.1.land`
-**Created:** 2026-10-10 20:21:20 EDT
+**Created:** 2026-10-10 20:21:20 EDT · **Closed:** 2026-10-12 04:11:59 EDT
 **Plan:** [202610/agents\_archive\_view\_phase.md](https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_phase.md)
 
 <!-- sase:links:start -->
@@ -28,6 +28,18 @@ The Agents tab can browse this machine's dismissed runs through a beta-flagged A
 ## Notes
 
 [2026-10-11T23:12:48Z · sase-1jm.3.1.land] LAND TRIAGE (2026-10-11, master d289b664a6) of every PROPOSED FOLLOW-UP: (1) 3.1.1#2 symvision KNOWN unused publics -> declined, resolved by 1517ed288f; symvision is now red only for the unrelated stale 'sase-1jx.6(classify_project_candidates)' entry, recorded as DISCOVERED ISSUE on sase-1jx. (2) 3.1.2#1 corpus-facade JSON serialization -> declined, tests/core/test_agent_archive_corpus_facade.py passes now. (3) 3.1.3#3, 3.1.5#1, sase-1jm.3#5, sase-1jm#1 clean-base failures -> completion snapshot x2, flag candidates, and bob dry-run now pass (c10f074f59), declined as resolved; marker audit now fails only on run_agent_wait_deps.py:_scoped_project_rows from d289b664a6 -> DISCOVERED ISSUE on sase-1jy (older sites tracked by sase-1by); import budget 3516 vs <3513 -> tools/tui_import_closure --diff 69f647d912^ attributes +2 to this epic (actions.agents._archive_view, models.agent_archive_view), which is remaining epic work; the pre-epic excess (base 3514) was +1'd on sase-1ic. Load flakes: new flake beads sase-1k1 (test_full_cluster_reads_label_chip_separator_label_chip), sase-1k2 (test_provider_drain_e2e_relaunches_stranded_agent), sase-1k3 (test_supervisor_sigterm_records_stop_intent_worker_settles_stop). (4) 3.1.5#2 import cap -> same as (3). (5) 3.1.6#3 -> import budget as (3); flakes +1'd on sase-120 (sdd git identity) and sase-19c (inline caller group sigkill), plus new sase-1k0 (test_watchdog_stops_unjoined_run_when_starter_dies). (6) 3.1.7#1 stuck 'Loading archived run…' placeholder -> epic-caused, remaining epic work. (7) 3.1.7#2 Archive j/k p95 confirmation -> remaining epic proof work, not a task. (8) 3.1.7#4 missing_index golden flake -> epic-caused (the Archive info row pads the right-aligned ',a Inbox' from the pre-layout self.size.width), remaining epic work. (9) sase-1jm.3#1-#3 glossary -> declined here: these are addressed to the sase-1jm parent land agent under glossary_archive_term=no and glossary_strand_updates=no, so they stay on sase-1jm.3. (10) sase-1jm.3#4 agents_unified_query matrix -> declined: the flag was retired by b46ecb0a94 before this epic, so no legacy editor path remains to test.
+
+[2026-10-12T08:11:59Z · sase-1jm.3.1.8.land] Resumed landing after child epic sase-1jm.3.1.8 closed. LAND TRIAGE note #1 was not redone.
+
+Rechecked the child plan's Verification and child landing against the integrated tree:
+- Beta-on Archive is usable and read-only (live-only keys toast; `v`/V/a/patch jump use the hydrated Archive agent; fork/resume/Enter-restore remain parent seams).
+- Per-view state round-trips: pane-id decks and full preferred_cards, delayed Archive list scroll, splits changed inside Archive survive return, quit-from-Archive persists the parked Inbox query and Archive grouping.
+- Beta-off Inbox is unchanged: `,a` and `leader.toggle_agents_archive` are hidden/no-ops; guards pass through.
+- No Archive work appears before the first complete Inbox load (lazy column; Inbox j/k is one attribute read).
+
+Every phase (.1–.7) and child epic sase-1jm.3.1.8 is closed. `sase bead epic-symbols sase-1jm.3.1` is empty after re-keying `archive_read_only_context` to still-open sase-1jm.4.1.3 (Record Lifecycle and Provenance cards). Justfile comment above `_lint-symvision` names that consumer.
+
+Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/sase-1k4/completion). Archive PNG module check clean (11 unchanged). Import closure +3 pre-epic renderer modules only vs 69f647d912^. Glossary follow-ups stay on sase-1jm.3 notes #1–#3 for the parent land agent.
 
 ## Agents
 

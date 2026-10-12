@@ -43,7 +43,9 @@ action-boundary-fixes: make live-only keys reach their Archive guards so they to
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.8.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jm.3.1.8.5][2] | remaining-proof needs prior phase evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md
 
 <!-- sase:referenced-by:end -->

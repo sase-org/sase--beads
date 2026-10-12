@@ -13,7 +13,7 @@ archive-bridges: add the one-line Archive shelf docked under the Inbox node colu
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.3](sase-1jm.3.md) ◐ · ⧖ 2026-10-10
+- **Depends on:** [sase-1jm.3](sase-1jm.3.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.8](sase-1jm.8.md) ◐ · ⧖ 2026-10-10
 
 ## Agents

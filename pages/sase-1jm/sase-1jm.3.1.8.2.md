@@ -41,7 +41,9 @@ controller-seams: stop off-thread probe errors from wedging the Archive controll
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.8.2--1][1] | Need phase notes and remaining work after failed check | 2 |
+| read-by | [agent:sase-1jm.3.1.8.5][2] | remaining-proof needs prior phase evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md
 
 <!-- sase:referenced-by:end -->

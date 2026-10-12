@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1jm](README.md) / sase-1jm.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.45.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.45.linker.w0.md) · **Assignee:** `sase-1jm.3` · **Size:** large
-**Created:** 2026-10-10 06:41:10 EDT
+**Created:** 2026-10-10 06:41:10 EDT · **Closed:** 2026-10-12 04:11:59 EDT
 **Plan:** [202610/agents\_archive\_view.md](https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md)
 
 ## Description
@@ -23,11 +23,23 @@ archive-view: add the beta-flagged ,a toggle and per-view parking. In the Archiv
 
 [2026-10-11T06:02:15Z · sase-1jm.3.1.4] PROPOSED FOLLOW-UP: Clean-base check failures — five failures reproduce on detached clean HEAD b6acacfa08: the Bob highlights dry-run now requires --parent; the artifact marker allowlist names a pre-rename path; TUI startup loads 3516 modules against a 3513 cap; the checked-in CLI completion snapshot is stale; completion flag candidates unexpectedly include agents_archive_view. These are outside this phase and were unchanged on clean HEAD.
 
+[2026-10-12T08:12:33Z · sase-1jm.3.1.8.land] Phase archive-view complete via child epic sase-1jm.3.1 (now closed).
+
+Implemented and rechecked: beta-flagged `,a` toggle and per-view parking; Inbox pulse plus day-grouped Archive list; Archive info row; `in:archive` filter bar with amber host-scope chip on the Agents editor; grouping picker; read-only deck hydration from the bundle; detail-ownership guard; live-only key toasts (configured toggle chord); tab-label marker; footer; help box.
+
+`sase bead epic-symbols sase-1jm.3` empty (`archive_marked_run_keys` and `archive_read_target` already have non-test callers).
+
+Verification: ToolRun 1e1da720999d795a59d0d544714d21b8, verdict no_new_failures (KNOWN: sase-1ic import 3517 vs 3513; sase-1k4 project-label tests; completion kind coverage). Archive PNG check clean: 11 passed, created=0 updated=0 unchanged=11, run beff628c36ce481e853f8197215f93cd.
+
+Timings from sase-1jm.3.1.8.5: warm `,a` median 99.6 ms against the 100 ms budget; Archive j/k p50 ~42 ms and p95 ~47–53 ms against same-host Inbox control p50 17–56 ms and p95 45–65 ms on a loaded host.
+
+Glossary follow-ups (notes #1–#3) left for sase-1jm's land agent. Did not close sase-1jm or any other ancestor.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jm.2](sase-1jm.2.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.5](sase-1jm.5.md) ◐ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.6](sase-1jm.6.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.6](sase-1jm.6.md) ✓ · ⧖ 2026-10-10
 - **Blocks:** [sase-1jm.7](sase-1jm.7.md) ◐ · ⧖ 2026-10-10
 
 ## Agents
