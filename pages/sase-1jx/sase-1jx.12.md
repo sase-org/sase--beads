@@ -14,7 +14,7 @@ tui-create: show the pinned Create row, render the provider form with disclosure
 ## Dependencies
 
 - **Depends on:** [sase-1jx.11](sase-1jx.11.md) ◐ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jx.8](sase-1jx.8.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.8](sase-1jx.8.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
