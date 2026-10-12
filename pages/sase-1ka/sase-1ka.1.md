@@ -19,7 +19,7 @@ cards: replace each decision Button with a wrapping DecisionCard built from pure
 
 ## Dependencies
 
-- **Blocks:** [sase-1ka.2](sase-1ka.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1ka.2](sase-1ka.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1ka.4](sase-1ka.4.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
@@ -33,3 +33,15 @@ cards: replace each decision Button with a wrapping DecisionCard built from pure
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`648ef1a`](https://github.com/sase-org/sase/commit/648ef1a390114436de898552144ada0d18497799) | feat(ace): replace Button accordion with decision cards in plan approval modal | [sase-1ka.1](sase-1ka.1.md) | 2026-10-12 09:58:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.1][1] | Need phase scope design and notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.1/README.md
+
+<!-- sase:referenced-by:end -->

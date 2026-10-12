@@ -13,7 +13,7 @@ sheet: add the decision_zoom keymap (z) end to end, the full-width decision shee
 
 ## Dependencies
 
-- **Depends on:** [sase-1ka.2](sase-1ka.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1ka.2](sase-1ka.2.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

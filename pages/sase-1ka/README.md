@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/gate_panel_decision_cards.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_panel_decision_cards.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ Plan and epic review modals render decisions as readable cards that never clip: 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ka.1](sase-1ka.1.md) | Decision cards replace the Button accordion | ✓ closed | medium | 2026-10-12 | 1 | 1 |
-| [sase-1ka.2](sase-1ka.2.md) | Responsive rail, one-line Actions, and pinned density | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
+| [sase-1ka.2](sase-1ka.2.md) | Responsive rail, one-line Actions, and pinned density | ✓ closed | medium | 2026-10-12 | 1 | 1 |
 | [sase-1ka.3](sase-1ka.3.md) | z decision sheet, keymap, and footer | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
 | [sase-1ka.4](sase-1ka.4.md) | Inbox gate card reuses the collapsed card | ◐ in_progress | small | 2026-10-12 | 1 | 0 |
 | [sase-1ka.5](sase-1ka.5.md) | Planner guidance against restating choice keys | ✓ closed | xsmall | 2026-10-12 | 1 | 1 |
@@ -39,7 +41,7 @@ Plan and epic review modals render decisions as readable cards that never clip: 
 flowchart TD
     n0["sase-1ka: Pinned decision cards for the Plan Review gate panel [in_progress]"]
     n1["sase-1ka.1: Decision cards replace the Button accordion [closed]"]
-    n2["sase-1ka.2: Responsive rail, one-line Actions, and pinned density [in_progress]"]
+    n2["sase-1ka.2: Responsive rail, one-line Actions, and pinned density [closed]"]
     n3["sase-1ka.3: z decision sheet, keymap, and footer [in_progress]"]
     n4["sase-1ka.4: Inbox gate card reuses the collapsed card [in_progress]"]
     n5["sase-1ka.5: Planner guidance against restating choice keys [closed]"]
@@ -58,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ka.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.1/README.md) | [sase-1ka.1](sase-1ka.1.md) | 1 |
-| [bbugyi200.athena.sase-1ka.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.2/README.md) | [sase-1ka.2](sase-1ka.2.md) | 0 |
+| [bbugyi200.athena.sase-1ka.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.2/README.md) | [sase-1ka.2](sase-1ka.2.md) | 1 |
 | [bbugyi200.athena.sase-1ka.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.3/README.md) | [sase-1ka.3](sase-1ka.3.md) | 0 |
 | [bbugyi200.athena.sase-1ka.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.4/README.md) | [sase-1ka.4](sase-1ka.4.md) | 0 |
 | [bbugyi200.athena.sase-1ka.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.5/README.md) | [sase-1ka.5](sase-1ka.5.md) | 1 |
@@ -70,3 +72,16 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`ace43b3`](https://github.com/sase-org/sase/commit/ace43b398ab0e8a764289a49776d32fc3c00c458) | feat(plan): guide planners against restating choice keys in labels | [sase-1ka.5](sase-1ka.5.md) | 2026-10-12 09:51:41 EDT |
 | sase | [`648ef1a`](https://github.com/sase-org/sase/commit/648ef1a390114436de898552144ada0d18497799) | feat(ace): replace Button accordion with decision cards in plan approval modal | [sase-1ka.1](sase-1ka.1.md) | 2026-10-12 09:58:56 EDT |
+| sase | [`e216699`](https://github.com/sase-org/sase/commit/e21669907c91921468d90e8f4fcdbf00db7a5c15) | feat(tui): implement responsive plan decision rail | [sase-1ka.2](sase-1ka.2.md) | 2026-10-12 10:31:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ka.1][1] | epic context for phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.1/README.md
+
+<!-- sase:referenced-by:end -->
