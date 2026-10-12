@@ -34,12 +34,14 @@ tui-create: show the pinned Create row, render the provider form with disclosure
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.10.1.4][1] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
 | read-by | [agent:sase-1jx.12.1.1][2] | Need parent decisions and surrounding wizard scope | 1 |
-| read-by | [agent:sase-1jx.7.1.1][3] | Need status to re-key stale epic-symbols | 1 |
-| read-by | [agent:sase-1jx.9--1][4] | Confirm which later wizard phase may consume the project onboarding journal directory | 1 |
+| read-by | [agent:sase-1jx.12.1.land][3] | Confirm the phase verification note text | 3 |
+| read-by | [agent:sase-1jx.7.1.1][4] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.9--1][5] | Confirm which later wizard phase may consume the project onboarding journal directory | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->

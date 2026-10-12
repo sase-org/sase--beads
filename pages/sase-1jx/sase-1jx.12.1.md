@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/create_repository_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/create_repository_wizard.md
 
@@ -39,13 +39,14 @@ Follow-ups: declined _load_archive_bundle and the revival-preview assertion as a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5cb48bd`](https://github.com/sase-org/sase/commit/5cb48bdd36933d2512dc0669f71b5a0bf22eaf30) | refactor(ace): privatize test-only symbols after the create wizard | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 14:59:57 EDT |
+| sase--plans | [`sase--plans@81830f0`](https://github.com/sase-org/sase--plans/commit/81830f0439a5cc16ea72b5a0f11804f656b83599) | docs(plans): mark the create-repository wizard plan done | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 15:04:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,9 +57,11 @@ Follow-ups: declined _load_archive_bundle and the revival-preview assertion as a
 | read-by | [agent:sase-1jx.12.1.1][1] | Need parent decisions and surrounding wizard scope | 2 |
 | read-by | [agent:sase-1jx.12.1.2][2] | parent epic scope | 1 |
 | read-by | [agent:sase-1jx.12.1.4--1][3] | need full epic DECISIONS | 2 |
+| read-by | [agent:sase-1jx.12.1.land][4] | Need decisions, notes, description, and children status | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.4.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->

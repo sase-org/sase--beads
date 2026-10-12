@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md
 
@@ -201,7 +201,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.3.md) | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.4.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md) | [sase-1jx.13.1](sase-1jx.13.1.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.3/README.md) | [sase-1jx.13.3](sase-1jx.13.3.md) | 0 |
@@ -255,6 +255,7 @@ flowchart TD
 | sase | [`1de7cf6`](https://github.com/sase-org/sase/commit/1de7cf6c8d9590790cb00518e52ce3bdf7d9dcc8) | feat(tui): apply exact create intent from New Project Review | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 2026-10-12 13:22:20 EDT |
 | sase | [`241e33a`](https://github.com/sase-org/sase/commit/241e33a79721b725c4808f6988ad139bacd99ff5) | feat(new-project): recover incomplete creates and expose the complete wizard | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 2026-10-12 14:00:25 EDT |
 | sase | [`5cb48bd`](https://github.com/sase-org/sase/commit/5cb48bdd36933d2512dc0669f71b5a0bf22eaf30) | refactor(ace): privatize test-only symbols after the create wizard | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 14:59:57 EDT |
+| sase--plans | [`sase--plans@81830f0`](https://github.com/sase-org/sase--plans/commit/81830f0439a5cc16ea72b5a0f11804f656b83599) | docs(plans): mark the create-repository wizard plan done | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 15:04:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -263,17 +264,19 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.1][1] | epic scope | 1 |
-| read-by | [agent:sase-1jx.3][2] | Need parent epic context and remaining notes | 1 |
-| read-by | [agent:sase-1jx.4][3] | Need parent epic decisions and full plan context | 1 |
-| read-by | [agent:sase-1jx.5][4] | need epic scope and decisions | 1 |
-| read-by | [agent:sase-1jx.7.1.1][5] | Need status to re-key stale epic-symbols | 1 |
-| read-by | [agent:sase-1jx.7.1.land][6] | Confirm epic and phase stay closed and the wizard epic stays open | 2 |
+| read-by | [agent:sase-1jx.12.1.land][2] | Confirm the containing epic stayed open | 1 |
+| read-by | [agent:sase-1jx.3][3] | Need parent epic context and remaining notes | 1 |
+| read-by | [agent:sase-1jx.4][4] | Need parent epic decisions and full plan context | 1 |
+| read-by | [agent:sase-1jx.5][5] | need epic scope and decisions | 1 |
+| read-by | [agent:sase-1jx.7.1.1][6] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.7.1.land][7] | Confirm epic and phase stay closed and the wizard epic stays open | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->
