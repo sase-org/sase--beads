@@ -13,7 +13,7 @@ relations: fill record/relations.py with the Relations card and the Links card. 
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.4.2.1](sase-1jm.4.2.1.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jm.4.2.1](sase-1jm.4.2.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.4.2.4](sase-1jm.4.2.4.md) ◐ · ⧖ 2026-10-12
 
 ## Agents

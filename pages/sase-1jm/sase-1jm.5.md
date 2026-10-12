@@ -39,3 +39,15 @@ archive-actions: add the ⏎ chooser's ARCHIVE section (Restore to inbox by defa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ebd17bf`](https://github.com/sase-org/sase/commit/ebd17bf5bf64b1d9cb8dfa5001fc880c99dfb603) | feat(agents-archive): add restore, fork, and copy actions to the Archive | [sase-1jm.5](sase-1jm.5.md) | 2026-10-12 06:06:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.10.1.4][1] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
+
+<!-- sase:referenced-by:end -->

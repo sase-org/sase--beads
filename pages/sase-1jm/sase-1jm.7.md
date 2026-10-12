@@ -39,3 +39,15 @@ archive-bridges: add the one-line Archive shelf docked under the Inbox node colu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`db32983`](https://github.com/sase-org/sase/commit/db32983ba23026b9b61ca850493e37c8ae8cd007) | feat(ace): add Archive entry points to agent navigation | [sase-1jm.7](sase-1jm.7.md) | 2026-10-12 07:01:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.7][1] | Need remaining notes and full description | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
+
+<!-- sase:referenced-by:end -->

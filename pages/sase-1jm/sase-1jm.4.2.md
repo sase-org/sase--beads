@@ -7,6 +7,18 @@
 **Created:** 2026-10-12 06:48:34 EDT
 **Plan:** [202610/record\_deck\_refresh.md](https://github.com/sase-org/sase--plans/blob/main/202610/record_deck_refresh.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/record_deck_refresh.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/record_deck_refresh.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every agent the Agents tab can select (an inbox agent, a hydrated archived run, an unreadable archive entry, and an archive container row) gets a fifth RECORD agent data deck (glyph ≡, picker key r, slate #87AFAF). It has Lifecycle, Provenance, Relations, and Links cards, all built off the message pump and proven by unit tests and PNG goldens, so sase-1jm.4 closes and unblocks sase-1jm.8.

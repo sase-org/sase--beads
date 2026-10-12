@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 
@@ -32,6 +32,8 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 [2026-10-12T06:36:46Z · sase-1jm.3.1.8.land] DISCOVERED ISSUE (sase-1jm.3.1.8 land agent, master 791c1797b9): every AceApp startup imports the Archive modules even with the agents_archive_view beta off. actions/_state_init_runtime.py:init_runtime_state (since 69f647d912, sase-1jm.3.1) calls init_agents_archive_view_state, which imports actions.agents._archive_view, models.agent_archive_view (module-level) and _archive_controller, loads the Archive grouping preference, and initializes the controller. So sase-1jm.3.1.8's static import deferral (both modules are off the sase.ace.tui.app closure) gives no runtime startup saving; a verifier's mounted probe confirmed both modules are in sys.modules after startup. Remediation: lazy-init _agents_archive_view on first Archive access (agents_archive_is_active already tolerates the missing attribute), or skip init entirely while the beta is off, without breaking the Archive prewarm budget (warm ,a < 100 ms). Can wait for the retire-pane phase that removes the beta flag.
 
 [2026-10-12T06:36:51Z · sase-1jm.3.1.8.land] DISCOVERED ISSUE (sase-1jm.3.1.8 land agent, from phase sase-1jm.3.1.8.5 evidence): Archive j/k latency has not been confirmed against the 16 ms p95 budget on a quiet host. Same-host back-to-back runs on loaded athena (load1 11-15): bench_tui_jk_archive p50 ~42 ms, p95 ~47-53 ms over 2 runs; axe bench_tui_jk Inbox control p50 17-56 ms, p95 45-65 ms. That is a loaded-host band, not an Archive regression (Archive is within the control's range). Warm ,a first-row median 99.6 ms passes the 100 ms budget. Re-measure both benches back to back on a quiet host before sase-1jm retires the beta flag; related host-load reports: sase-1ge, sase-199.
+
+[2026-10-12T12:11:38Z · sase-1jx.10.1.land] DISCOVERED ISSUE: sase-1jx.10.1 land review at master 558a45eca4 reproduces just symvision failure: private _load_archive_bundle in src/sase/ace/tui/actions/agents/_archive_reader.py is imported by non-test _archive_restore.py:169 and called at :177, added in ebd17bf5bf (sase-1jm.5). No task duplicates found by ci/all-type searches for _load_archive_bundle or archive_reader and the last-week ci task sweep. Archive epic remains active; wire a supported public entry with its real consumer or remove the cross-file private import per symvision policy. Not caused by New Project.
 
 ## Phases
 
@@ -83,7 +85,7 @@ flowchart TD
     n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [closed]"]
     n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [closed]"]
     n32["sase-1jm.4.2: Finish the Record deck and close sase-1jm.4 [in_progress]"]
-    n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [in_progress]"]
+    n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [closed]"]
     n34["sase-1jm.4.2.2: Lifecycle and Provenance cards [in_progress]"]
     n35["sase-1jm.4.2.3: Relations and Links cards [in_progress]"]
     n36["sase-1jm.4.2.4: Light-row Record for unreadable archive entries and container rows [in_progress]"]
@@ -200,7 +202,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.3.1.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.8.land.md) | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.3.1.land.md) | [sase-1jm.3.1](sase-1jm.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md) | [sase-1jm.4](sase-1jm.4.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.1/README.md) | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.1.md) | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md) | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 0 |
 | [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 0 |
@@ -244,6 +246,7 @@ flowchart TD
 | sase | [`83ed7d7`](https://github.com/sase-org/sase/commit/83ed7d7082c2959139c971b52820f2fc7ac81398) | fix(ace): finish Agents Archive landing defects before sase-1jm.3.1 lands | [sase-1jm.3.1.8](sase-1jm.3.1.8.md) | 2026-10-12 05:49:02 EDT |
 | sase | [`ebd17bf`](https://github.com/sase-org/sase/commit/ebd17bf5bf64b1d9cb8dfa5001fc880c99dfb603) | feat(agents-archive): add restore, fork, and copy actions to the Archive | [sase-1jm.5](sase-1jm.5.md) | 2026-10-12 06:06:46 EDT |
 | sase | [`db32983`](https://github.com/sase-org/sase/commit/db32983ba23026b9b61ca850493e37c8ae8cd007) | feat(ace): add Archive entry points to agent navigation | [sase-1jm.7](sase-1jm.7.md) | 2026-10-12 07:01:26 EDT |
+| sase | [`b4dbfcd`](https://github.com/sase-org/sase/commit/b4dbfcd90e7d38654b2535c87a7008f7b686feb2) | feat(ace-tui): add RECORD deck with picker, split-rails and Archive views | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 2026-10-12 08:15:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -257,6 +260,7 @@ flowchart TD
 | read-by | [agent:sase-1jm.2.1.5][4] | Need epic DECISIONS for phase work | 1 |
 | read-by | [agent:sase-1jm.3.1.1][5] | Need epic decisions | 1 |
 | read-by | [agent:sase-1jm.6][6] | Need the active epic scope related to the stale symbol whitelist failure | 1 |
+| read-by | [agent:sase-1jm.7][7] | Need parent epic status, notes, and sibling phase progress | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
@@ -264,5 +268,6 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
 
 <!-- sase:referenced-by:end -->
