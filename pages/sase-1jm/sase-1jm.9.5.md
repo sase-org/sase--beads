@@ -13,7 +13,7 @@ archive-restore-run: emit one toast with failure reasons, keep the parked Inbox 
 
 ## Dependencies
 
-- **Depends on:** [sase-1jm.9.3](sase-1jm.9.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jm.9.3](sase-1jm.9.3.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.9.4](sase-1jm.9.4.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ◐ · ⧖ 2026-10-12
 

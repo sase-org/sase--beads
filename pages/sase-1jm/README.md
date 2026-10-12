@@ -120,11 +120,11 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.1.md) | [sase-1jm.9.1](sase-1jm.9.1.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md) | [sase-1jm.9.2](sase-1jm.9.2.md) | 0 |
-| [bbugyi200.athena.sase-1jm.9.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.3.md) | [sase-1jm.9.3](sase-1jm.9.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.3.md) | [sase-1jm.9.3](sase-1jm.9.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.4.md) | [sase-1jm.9.4](sase-1jm.9.4.md) | 0 |
 | [bbugyi200.athena.sase-1jm.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md) | [sase-1jm.9.5](sase-1jm.9.5.md) | 0 |
 | [bbugyi200.athena.sase-1jm.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.6/README.md) | [sase-1jm.9.6](sase-1jm.9.6.md) | 0 |
-| [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 2 |
+| [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.8/README.md) | [sase-1jm.9.8](sase-1jm.9.8.md) | 0 |
 | [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 0 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.land.md) | [sase-1jm](README.md) | 0 |
@@ -170,8 +170,8 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
 | sase | [`101c853`](https://github.com/sase-org/sase/commit/101c8539399669c266d76c01f44ed1e56b24a814) | feat(ace): retire Artifacts Agent pane and make Agent Archive unconditional | [sase-1jm.8](sase-1jm.8.md) | 2026-10-12 14:08:42 EDT |
 | sase | [`ba89d2a`](https://github.com/sase-org/sase/commit/ba89d2a6db883a677c6ea0b4e2c784150a1d4ac1) | refactor(ace): remove Archive flag residue and lazy-load grouping | [sase-1jm.9.1](sase-1jm.9.1.md) | 2026-10-12 17:27:12 EDT |
-| sase-core | [`sase-core@546afe3`](https://github.com/sase-org/sase-core/commit/546afe324e268249240b9011ade13394869bce75) | feat(archive): emit bundle\_path and times on archive light rows | [sase-1jm.9.7](sase-1jm.9.7.md) | 2026-10-12 18:53:31 EDT |
 | sase | [`48b31c4`](https://github.com/sase-org/sase/commit/48b31c4e432aef3a05f782044b58546f0fb6ceb7) | feat(archive): use light-row bundle path, times, and project names | [sase-1jm.9.7](sase-1jm.9.7.md) | 2026-10-12 18:58:55 EDT |
+| sase | [`9fa4792`](https://github.com/sase-org/sase/commit/9fa479245cd17a709d4358896b55c74d166b34ac) | feat(ace): add Archive chooser READ section, container restore, and copy keys | [sase-1jm.9.3](sase-1jm.9.3.md) | 2026-10-12 19:03:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
