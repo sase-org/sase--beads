@@ -35,6 +35,14 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 
 [2026-10-12T12:11:38Z · sase-1jx.10.1.land] DISCOVERED ISSUE: sase-1jx.10.1 land review at master 558a45eca4 reproduces just symvision failure: private _load_archive_bundle in src/sase/ace/tui/actions/agents/_archive_reader.py is imported by non-test _archive_restore.py:169 and called at :177, added in ebd17bf5bf (sase-1jm.5). No task duplicates found by ci/all-type searches for _load_archive_bundle or archive_reader and the last-week ci task sweep. Archive epic remains active; wire a supported public entry with its real consumer or remove the cross-file private import per symvision policy. Not caused by New Project.
 
+[2026-10-12T15:21:23Z · sase-1jm.4.2.land] DISCOVERED ISSUE (sase-1jm.4.2 land agent, master ee673ce10d): tests/ace/tui/visual/test_ace_png_snapshots_agents_archive.py::test_archive_help_png_snapshot fails: after scrolling the Agents help modal until 'Live actions stay in Inbox' paints, assert_page_svg_contains(page, 'Archive (read-only)') fails because the box title has scrolled off. Bisected with TZ=UTC pytest -m visual: passes at ebd17bf5bf~1, fails at ebd17bf5bf (sase-1jm.5, which added 5 rows to help_modal/agents_archive_sections.py); golden agents_archive_help_120x40.png last updated at 8270bf768f. Fix the scroll stop condition (stop once the title row is visible, or scroll the box into view) and rebaseline the golden. Proposed by phase sase-1jm.4.2.4 (note #3); no task duplicate found.
+
+[2026-10-12T15:21:28Z · sase-1jm.4.2.land] DISCOVERED ISSUE (sase-1jm.4.2 land agent, master ee673ce10d): tests/ace/tui/modals/test_saved_agent_group_revival_rendering.py::test_custom_search_preview_describes_recent_unscoped_filtering fails: it asserts '250 most recent dismissed agents' but the preview now reads 'Custom revival search / Load recent dismissed agents, then filter and choose their scope.' The copy changed in c4c7846f57 (sase-1jm.6, route agent arrivals to Archive), which did not update the test. Update the assertion to the new Archive-aware copy (both agents_archive_view on/off branches). Proposed by phase sase-1jm.4.2.2 (note #3); no task duplicate found.
+
+[2026-10-12T15:21:32Z · sase-1jm.4.2.land] DISCOVERED ISSUE (sase-1jm.4.2 land agent): resolve_archive_bundle_path (models/agent_archive_reader.py:158) first checks row.get('bundle_path'), but the Rust AgentArchiveLightRowWire (sase-core agent_archive/corpus/wire.rs, serde deny_unknown_fields) has no bundle_path (nor raw_suffix/stop_time), so that branch is dead for real rows and every hydration falls back to the <source_run_id>.json root scan; only test fixtures pass bundle_path. Either carry bundle_path on the light row through sase-core or drop the dead branch. Record's record_subject_from_light_row reads the same absent keys and degrades soft (no Bundle/Dismissed facts on unreadable entries). Raised by the sase-1jm.4.2 plan landing section; no task duplicate found.
+
+[2026-10-12T15:47:46Z · sase-1ka.land] DISCOVERED ISSUE corroboration (sase-1ka land agent): both existing sase-1jm DISCOVERED ISSUEs still reproduce on master c9c1df82cc and were independently proposed by sase-1ka phases: (1) Symvision private import of _load_archive_bundle (_archive_restore.py:169 -> _archive_reader.py:304, from sase-1jm.5 ebd17bf5bf) was flagged KNOWN by sase-1ka.2, sase-1ka.4, and sase-1ka.5; (2) test_custom_search_preview_describes_recent_unscoped_filtering still asserts '250 most recent dismissed agents' after c4c7846f57 (sase-1jm.6) changed the copy to 'Load recent dismissed agents...' (proposed by sase-1ka.3). Both remain sase-1jm landing work; no separate task created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -42,7 +50,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.1](sase-1jm.1.md) | Archive index v3 and honest timestamps | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.2](sase-1jm.2.md) | Core archive corpus, in scope token, and CLI parity | ✓ closed | large | 2026-10-10 | 1 | 0 |
 | [sase-1jm.3](sase-1jm.3.md) | Archive view on the Agents tab | ✓ closed | large | 2026-10-10 | 1 | 0 |
-| [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ◐ in_progress | medium | 2026-10-10 | 1 | 1 |
+| [sase-1jm.4](sase-1jm.4.md) | Record deck for every agent | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ✓ closed | medium | 2026-10-10 | 1 | 1 |
@@ -77,14 +85,14 @@ flowchart TD
     n22["sase-1jm.3.1.8.3: Live-key toasts, read isolation, marks, footer, help, and info row [closed]"]
     n23["sase-1jm.3.1.8.4: Complete per-view parking, scope chip, and import deferral [closed]"]
     n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [closed]"]
-    n25["sase-1jm.4: Record deck for every agent [in_progress]"]
+    n25["sase-1jm.4: Record deck for every agent [closed]"]
     n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [closed]"]
     n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [closed]"]
     n28["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [closed]"]
     n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [closed]"]
     n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [closed]"]
     n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [closed]"]
-    n32["sase-1jm.4.2: Finish the Record deck and close sase-1jm.4 [in_progress]"]
+    n32["sase-1jm.4.2: Finish the Record deck and close sase-1jm.4 [closed]"]
     n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [closed]"]
     n34["sase-1jm.4.2.2: Lifecycle and Provenance cards [closed]"]
     n35["sase-1jm.4.2.3: Relations and Links cards [closed]"]
@@ -207,7 +215,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.land/README.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 1 |
@@ -251,6 +259,7 @@ flowchart TD
 | sase | [`a6df5da`](https://github.com/sase-org/sase/commit/a6df5daa01832899da32841bd8f488eb854dadbe) | feat(tui): fill Record Lifecycle and Provenance cards | [sase-1jm.4.2.2](sase-1jm.4.2.2.md) | 2026-10-12 09:23:00 EDT |
 | sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
 | sase | [`ee673ce`](https://github.com/sase-org/sase/commit/ee673ce10dea934e14e910d522bc7a8b7051d2b2) | feat(ace): add Record deck PNG goldens, docs, and j/k bench evidence | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 2026-10-12 11:03:13 EDT |
+| sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

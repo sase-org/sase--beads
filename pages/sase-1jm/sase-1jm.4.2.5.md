@@ -30,3 +30,15 @@ proof: add Record PNG goldens for inbox, archived, unreadable, and linked select
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ee673ce`](https://github.com/sase-org/sase/commit/ee673ce10dea934e14e910d522bc7a8b7051d2b2) | feat(ace): add Record deck PNG goldens, docs, and j/k bench evidence | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 2026-10-12 11:03:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.4.2.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md
+
+<!-- sase:referenced-by:end -->

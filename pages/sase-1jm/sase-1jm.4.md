@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1jm](README.md) / sase-1jm.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.45.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.45.linker.w0.md) · **Assignee:** `sase-1jm.4` · **Size:** medium
-**Created:** 2026-10-10 06:41:14 EDT
+**Created:** 2026-10-10 06:41:14 EDT · **Closed:** 2026-10-12 12:12:58 EDT
 **Plan:** [202610/agents\_archive\_view.md](https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md)
 
 ## Description
@@ -22,6 +22,8 @@ record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenan
 [2026-10-11T01:55:26Z · sase-1jm.4--3] PROPOSED FOLLOW-UP: tests/fakey/test_usage_limit_e2e.py::test_usage_limit_failure_disables_only_fakey_and_preserves_error fails on this tree and in isolation (assert len(notifications) == 1 but got 0). Unrelated to Record deck; no matching flake bead found. Close this phase anyway.
 
 [2026-10-11T09:31:46Z · sase-1jm.4] Child epic sase-1jm.4.1 authored with five bounded phases (.1 registry small; .2 chrome, .3 facts cards, .4 relations cards medium; .5 proof medium; deps .2/.3/.4 on .1, .5 on .2/.3/.4). Its land agent verifies the full record-deck scope and closes sase-1jm.4. Verified 2026-10-11: no Record implementation exists in tree (no DeckId.RECORD, no spec entry, no card module, no goldens; working tree clean), so note #3 completion claim matches nothing and must not be trusted. epic-symbols: none leftover. Check: scoped tests pass; only symvision lint fails on update_failure_geometry.py + auto_restart/history.py, both last touched by unrelated commits (pre-existing). Usage-limit e2e failure already tracked in note #4.
+
+[2026-10-12T16:14:47Z · sase-1jm.4.2.land--1] Phase acceptance verification after closure: re-read the Record deck design in plan:202610/agents_archive_view.md and verified the registry/spec entry and picker key r, cycling and persistence including states without Record, all four cards and their listed facts, and links loaded off-thread. The new Lifecycle heading is @agent:, the archived light-row Outcome/Last activity/Time basis render, and Record/deck tests and inbox/archived goldens cover the acceptance. The full deck suite passed (631 tests); final check had no new failures (2 KNOWN, exit 1), and just symvision reports only the already-tracked _load_archive_bundle private import. Existing notes #1, #2, and #4 remain; root epic sase-1jm remains open.
 
 ## Dependencies
 
