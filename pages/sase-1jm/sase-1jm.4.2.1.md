@@ -22,7 +22,7 @@ shell: close the stale sase-1jm.4.1 as superseded. Register RECORD last in the d
 ## Dependencies
 
 - **Blocks:** [sase-1jm.4.2.2](sase-1jm.4.2.2.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.4.2.3](sase-1jm.4.2.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.4.2.3](sase-1jm.4.2.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ shell: close the stale sase-1jm.4.1 as superseded. Register RECORD last in the d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b4dbfcd`](https://github.com/sase-org/sase/commit/b4dbfcd90e7d38654b2535c87a7008f7b686feb2) | feat(ace-tui): add RECORD deck with picker, split-rails and Archive views | [sase-1jm.4.2.1](sase-1jm.4.2.1.md) | 2026-10-12 08:15:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.4.2.1--2][1] | final close check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.1.md
+
+<!-- sase:referenced-by:end -->
