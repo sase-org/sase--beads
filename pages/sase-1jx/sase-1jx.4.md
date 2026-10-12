@@ -46,7 +46,9 @@ core-plan: add `plan_project_onboarding` (facts in, ordered steps, identity prev
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1jx.9--1][2] | Check existing tracked follow-up overlap with the clean-base failures from this phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->

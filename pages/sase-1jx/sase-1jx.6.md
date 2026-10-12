@@ -43,7 +43,9 @@ cli-suggest: create the `sase.project_onboarding` package with provider-neutral 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.6--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jx.9--1][2] | Check whether the clean-base CLI suggest help and completion failures were already recorded by the candidate discovery phase | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->
