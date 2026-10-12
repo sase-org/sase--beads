@@ -11,6 +11,12 @@
 
 archive-bridges: add the one-line Archive shelf docked under the Inbox node column, the zero-result bridge in the empty-state card, the dismiss toast's Archive pointer, and the Node Finder's In Archive section. All counts are computed off-thread on commit from the warm corpus.
 
+## Notes
+
+[2026-10-12T09:53:08Z · sase-1jm.7] PROPOSED FOLLOW-UP: Add the glossary:agent-archive strand — define the Archive view, in:archive scope, Archive rows, and Restore to inbox; the epic decision glossary_archive_term is no.
+
+[2026-10-12T09:53:13Z · sase-1jm.7] PROPOSED FOLLOW-UP: Update glossary:nav-section, glossary:nav-item, glossary:agent-data-deck, and glossary:agent-relation-jump-target for Archive UX; the epic decision glossary_strand_updates is no.
+
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3](sase-1jm.3.md) ✓ · ⧖ 2026-10-10
