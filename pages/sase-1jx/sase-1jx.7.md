@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1jx](README.md) / sase-1jx.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.49.linker.w1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.49.linker.w1.md) · **Assignee:** `sase-1jx.7` · **Size:** large
-**Created:** 2026-10-11 11:13:47 EDT
+**Created:** 2026-10-11 11:13:47 EDT · **Closed:** 2026-10-12 04:21:56 EDT
 **Plan:** [202610/new\_project\_wizard.md](https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md)
 
 ## Description
 
 cli-add: build facts gathering, plan documents, the convergent step executor with ownership journal and NDJSON events, the manage step, and the `sase project add` command with check, TTY confirm, durable-operation IO, init chaining, docs and skill updates.
+
+## Notes
+
+[2026-10-12T08:23:05Z · sase-1jx.7.1.land] Child epic sase-1jx.7.1 closed done and this phase closed with it as delegated work landed. Verified the child covers this phase: facts, plan documents, ownership journals, NDJSON events, recoverable manage, the convergent executor, and sase project add with check, confirm, durable IO, docs, and the skill source. epic-symbols for sase-1jx.7 is empty. sase-1jx stays open for the still-open create and wizard phases.
 
 ## Dependencies
 

@@ -19,19 +19,13 @@ gh-provider: implement parse, local candidates, probe, describe creation and cre
 
 - **Depends on:** [sase-1jx.1](sase-1jx.1.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.2](sase-1jx.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.7](sase-1jx.7.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-github | [`sase-github@f1da372`](https://github.com/sase-org/sase-github/commit/f1da3725f0100839341e0eb89cdb202fc08d8444) | feat(github): add workspace onboarding hooks for GitHub repo refs | [sase-1jx.5](sase-1jx.5.md) | 2026-10-11 17:20:44 EDT |
+| [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -24,7 +24,7 @@ core-plan: add `plan_project_onboarding` (facts in, ordered steps, identity prev
 ## Dependencies
 
 - **Depends on:** [sase-1jx.3](sase-1jx.3.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.7](sase-1jx.7.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

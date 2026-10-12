@@ -14,14 +14,14 @@ tui-add: complete the add-existing journey: identity and setup card, Review rend
 ## Dependencies
 
 - **Blocks:** [sase-1jx.11](sase-1jx.11.md) ◐ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.7](sase-1jx.7.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.9](sase-1jx.9.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10/README.md) | [sase-1jx.10](sase-1jx.10.md) | 0 |
+| [bbugyi200.athena.sase-1jx.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.md) | [sase-1jx.10](sase-1jx.10.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

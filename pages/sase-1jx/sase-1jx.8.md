@@ -14,7 +14,7 @@ cli-create: add `sase project create` with strict provider-option validation, jo
 ## Dependencies
 
 - **Blocks:** [sase-1jx.12](sase-1jx.12.md) ◐ · ⧖ 2026-10-11
-- **Depends on:** [sase-1jx.7](sase-1jx.7.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.7](sase-1jx.7.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
