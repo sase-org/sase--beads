@@ -42,12 +42,14 @@ tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry a
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.10.1.4][1] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
 | read-by | [agent:sase-1jx.11][2] | Need all phase notes and remaining work before implementing | 2 |
-| read-by | [agent:sase-1jx.9--1][3] | Verify the entry integration phase is the later consumer of the modal and its selection result | 1 |
-| read-by | [agent:sase-1ka.1][4] | verify unrelated closed bead behind symvision NEW failure | 1 |
+| read-by | [agent:sase-1jx.12.1.3--2][3] | Need the revival-preview follow-up bead citation from a sibling phase | 1 |
+| read-by | [agent:sase-1jx.9--1][4] | Verify the entry integration phase is the later consumer of the modal and its selection result | 1 |
+| read-by | [agent:sase-1ka.1][5] | verify unrelated closed bead behind symvision NEW failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.3.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.1/README.md
 
 <!-- sase:referenced-by:end -->

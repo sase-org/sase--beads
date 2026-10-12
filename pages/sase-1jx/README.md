@@ -70,7 +70,7 @@ flowchart TD
     n11["sase-1jx.12.1.1: Render provider creation fields and constraints [closed]"]
     n12["sase-1jx.12.1.2: Configure new repositories with live checks [closed]"]
     n13["sase-1jx.12.1.3: Review and apply the exact create intent [closed]"]
-    n14["sase-1jx.12.1.4: Recover incomplete creates and expose the complete wizard [in_progress]"]
+    n14["sase-1jx.12.1.4: Recover incomplete creates and expose the complete wizard [closed]"]
     n15["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n16["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
     n17["sase-1jx.4: sase-core onboarding plan derivation [closed]"]
@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.12.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md) | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.3.md) | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.4/README.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.4.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
@@ -200,6 +200,7 @@ flowchart TD
 | sase | [`0defe76`](https://github.com/sase-org/sase/commit/0defe76db8bd45af79f5fe4b070b374f28fc34fd) | feat(tui): add provider repository creation form | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 2026-10-12 10:35:53 EDT |
 | sase | [`3dc675f`](https://github.com/sase-org/sase/commit/3dc675fffe0d5027be31ed47ffb1517fe237d228) | feat(tui): configure new repositories with live checks | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 2026-10-12 11:53:56 EDT |
 | sase | [`1de7cf6`](https://github.com/sase-org/sase/commit/1de7cf6c8d9590790cb00518e52ce3bdf7d9dcc8) | feat(tui): apply exact create intent from New Project Review | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 2026-10-12 13:22:20 EDT |
+| sase | [`241e33a`](https://github.com/sase-org/sase/commit/241e33a79721b725c4808f6988ad139bacd99ff5) | feat(new-project): recover incomplete creates and expose the complete wizard | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 2026-10-12 14:00:25 EDT |
 
 <!-- sase:referenced-by:start -->
 

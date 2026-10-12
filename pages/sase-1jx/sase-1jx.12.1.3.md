@@ -20,7 +20,7 @@ create-execution: make shared Review and durable submission support project.crea
 ## Dependencies
 
 - **Depends on:** [sase-1jx.12.1.2](sase-1jx.12.1.2.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jx.12.1.4](sase-1jx.12.1.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.12.1.4](sase-1jx.12.1.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ create-execution: make shared Review and durable submission support project.crea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1de7cf6`](https://github.com/sase-org/sase/commit/1de7cf6c8d9590790cb00518e52ce3bdf7d9dcc8) | feat(tui): apply exact create intent from New Project Review | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 2026-10-12 13:22:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.12.1.3--2][1] | Need remaining notes, DECISIONS, and implementation evidence after failed just check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.3.md
+
+<!-- sase:referenced-by:end -->
