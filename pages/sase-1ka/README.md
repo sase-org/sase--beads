@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ka.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.3/README.md) | [sase-1ka.3](sase-1ka.3.md) | 1 |
 | [bbugyi200.athena.sase-1ka.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.4/README.md) | [sase-1ka.4](sase-1ka.4.md) | 1 |
 | [bbugyi200.athena.sase-1ka.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ka.5/README.md) | [sase-1ka.5](sase-1ka.5.md) | 1 |
-| [bbugyi200.athena.sase-1ka.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ka.land.md) | [sase-1ka](README.md) | 1 |
+| [bbugyi200.athena.sase-1ka.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ka.land.md) | [sase-1ka](README.md) | 2 |
 
 ## Commits
 
@@ -82,6 +82,7 @@ flowchart TD
 | sase | [`a93229e`](https://github.com/sase-org/sase/commit/a93229e65d9adaf06cd4689c5c70b0fa9701a504) | feat(ace): reuse decision cards in inbox gates | [sase-1ka.4](sase-1ka.4.md) | 2026-10-12 10:32:14 EDT |
 | sase | [`c9c1df8`](https://github.com/sase-org/sase/commit/c9c1df82ccf7279384ce6857c0cb190a988b6f4e) | feat(tui): add Plan Review z decision sheet and merged footer | [sase-1ka.3](sase-1ka.3.md) | 2026-10-12 11:29:03 EDT |
 | sase | [`993f72c`](https://github.com/sase-org/sase/commit/993f72c2c330bc0dd044952841ee18c22f06aa18) | fix(ace): land Plan Review decision-card builder defects | [sase-1ka](README.md) | 2026-10-12 12:22:36 EDT |
+| sase--plans | [`sase--plans@7a0c755`](https://github.com/sase-org/sase--plans/commit/7a0c755a61a25e595d92824d4aad46e561d0172e) | docs(plan): mark gate\_panel\_decision\_cards epic done | [sase-1ka](README.md) | 2026-10-12 12:24:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
