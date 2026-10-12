@@ -33,3 +33,15 @@ apply-ready: submit durable project add, tail its checklist, and finish on Ready
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`558a45e`](https://github.com/sase-org/sase/commit/558a45eca47b9e44b31c61f5f318333eae899c4f) | feat(tui): add durable New Project apply, Progress, Ready, and Failed | [sase-1jx.10.1.4](sase-1jx.10.1.4.md) | 2026-10-12 07:55:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.10.1.4][1] | Need full phase description, decisions, notes, and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
+
+<!-- sase:referenced-by:end -->

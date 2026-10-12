@@ -17,7 +17,7 @@ cli-add: build facts gathering, plan documents, the convergent step executor wit
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.10](sase-1jx.10.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.10](sase-1jx.10.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.4](sase-1jx.4.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.5](sase-1jx.5.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.6](sase-1jx.6.md) ✓ · ⧖ 2026-10-11

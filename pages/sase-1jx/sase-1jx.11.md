@@ -13,7 +13,7 @@ tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry a
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.10](sase-1jx.10.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [sase-1jx.10](sase-1jx.10.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [sase-1jx.12](sase-1jx.12.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
@@ -28,8 +28,10 @@ tui-entry: wire `n` (keymaps, default_config, schema, help), the palette entry a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jx.9--1][1] | Verify the entry integration phase is the later consumer of the modal and its selection result | 1 |
+| read-by | [agent:sase-1jx.10.1.4][1] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
+| read-by | [agent:sase-1jx.9--1][2] | Verify the entry integration phase is the later consumer of the modal and its selection result | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->

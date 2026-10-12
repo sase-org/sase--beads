@@ -19,7 +19,7 @@ tui-source: build the NewProjectModal shell (stepper, provider strip with health
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.10](sase-1jx.10.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.10](sase-1jx.10.md) ✓ · ⧖ 2026-10-11
 - **Depends on:** [sase-1jx.6](sase-1jx.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
