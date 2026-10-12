@@ -20,7 +20,7 @@ managed-recovery: implement the management effect and its journal evidence; exte
 ## Dependencies
 
 - **Depends on:** [sase-1jx.7.1.1](sase-1jx.7.1.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [sase-1jx.7.1.3](sase-1jx.7.1.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [sase-1jx.7.1.3](sase-1jx.7.1.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
