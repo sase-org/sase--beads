@@ -54,7 +54,7 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.5](sase-1jm.5.md) | Restore, fork, and copy from the Archive | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ✓ closed | medium | 2026-10-10 | 1 | 1 |
-| [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ◐ in_progress | medium | 2026-10-10 | 1 | 0 |
+| [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 
 ## Lineage
 
@@ -101,7 +101,7 @@ flowchart TD
     n38["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
     n39["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
     n40["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [closed]"]
-    n41["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [in_progress]"]
+    n41["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -215,11 +215,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 2 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 1 |
-| [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.land/README.md) | [sase-1jm](README.md) | 0 |
 
 ## Commits
@@ -260,7 +260,7 @@ flowchart TD
 | sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
 | sase | [`ee673ce`](https://github.com/sase-org/sase/commit/ee673ce10dea934e14e910d522bc7a8b7051d2b2) | feat(ace): add Record deck PNG goldens, docs, and j/k bench evidence | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 2026-10-12 11:03:13 EDT |
 | sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
-| sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
+| sase | [`101c853`](https://github.com/sase-org/sase/commit/101c8539399669c266d76c01f44ed1e56b24a814) | feat(ace): retire Artifacts Agent pane and make Agent Archive unconditional | [sase-1jm.8](sase-1jm.8.md) | 2026-10-12 14:08:42 EDT |
 
 <!-- sase:referenced-by:start -->
 

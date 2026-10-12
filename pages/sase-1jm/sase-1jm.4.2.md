@@ -37,14 +37,13 @@ Every agent the Agents tab can select (an inbox agent, a hydrated archived run, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 2 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
-| sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

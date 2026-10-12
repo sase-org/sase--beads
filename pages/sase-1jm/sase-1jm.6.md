@@ -20,7 +20,7 @@ archive-arrivals: retarget agent: link follow, the !R custom search row, Files a
 ## Dependencies
 
 - **Depends on:** [sase-1jm.3](sase-1jm.3.md) ✓ · ⧖ 2026-10-10
-- **Blocks:** [sase-1jm.8](sase-1jm.8.md) ◐ · ⧖ 2026-10-10
+- **Blocks:** [sase-1jm.8](sase-1jm.8.md) ✓ · ⧖ 2026-10-10
 
 ## Agents
 
