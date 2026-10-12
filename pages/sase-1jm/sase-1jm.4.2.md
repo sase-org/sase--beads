@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/record_deck_refresh.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/record_deck_refresh.md
 
@@ -37,13 +37,14 @@ Every agent the Agents tab can select (an inbox agent, a hydrated archived run, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
+| sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,10 +56,12 @@ Every agent the Agents tab can select (an inbox agent, a hydrated archived run, 
 | read-by | [agent:sase-1jm.4.2.3][2] | Need epic decisions and notes for assigned phase | 1 |
 | read-by | [agent:sase-1jm.4.2.4][3] | Need parent epic DECISIONS and notes | 1 |
 | read-by | [agent:sase-1jm.4.2.5][4] | Need epic scope for proof phase | 1 |
+| read-by | [agent:sase-1jm.4.2.land--1][5] | Need current phase scope and landing evidence before closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md
 
 <!-- sase:referenced-by:end -->

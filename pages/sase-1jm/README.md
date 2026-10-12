@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 
@@ -215,7 +215,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 2 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 1 |
@@ -260,6 +260,7 @@ flowchart TD
 | sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
 | sase | [`ee673ce`](https://github.com/sase-org/sase/commit/ee673ce10dea934e14e910d522bc7a8b7051d2b2) | feat(ace): add Record deck PNG goldens, docs, and j/k bench evidence | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 2026-10-12 11:03:13 EDT |
 | sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
+| sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -273,9 +274,10 @@ flowchart TD
 | read-by | [agent:sase-1jm.2.1.5][4] | Need epic DECISIONS for phase work | 1 |
 | read-by | [agent:sase-1jm.3.1.1][5] | Need epic decisions | 1 |
 | read-by | [agent:sase-1jm.4.2.3][6] | Check the existing epic record for this pre-existing symvision issue before adding phase follow-up notes | 1 |
-| read-by | [agent:sase-1jm.6][7] | Need the active epic scope related to the stale symbol whitelist failure | 1 |
-| read-by | [agent:sase-1jm.7][8] | Need parent epic status, notes, and sibling phase progress | 1 |
-| read-by | [agent:sase-1jx.12.1.1][9] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
+| read-by | [agent:sase-1jm.4.2.land--1][7] | Confirm the root epic remains open after closing its Record phase | 1 |
+| read-by | [agent:sase-1jm.6][8] | Need the active epic scope related to the stale symbol whitelist failure | 1 |
+| read-by | [agent:sase-1jm.7][9] | Need parent epic status, notes, and sibling phase progress | 1 |
+| read-by | [agent:sase-1jx.12.1.1][10] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
@@ -283,8 +285,9 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.2.1.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
 
 <!-- sase:referenced-by:end -->

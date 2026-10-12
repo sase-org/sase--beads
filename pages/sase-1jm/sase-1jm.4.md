@@ -50,10 +50,12 @@ record-deck: add a fifth agent data deck (picker key r) with Lifecycle, Provenan
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.4][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1jm.4.2.3][2] | Need governing phase decisions and prior phase notes | 1 |
-| read-by | [agent:sase-1jx.7.1.land][3] | Need status of the lifecycle phase parent | 1 |
+| read-by | [agent:sase-1jm.4.2.land--1][3] | Need parent phase status, notes, and remaining descendants before closeout | 3 |
+| read-by | [agent:sase-1jx.7.1.land][4] | Need status of the lifecycle phase parent | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->
