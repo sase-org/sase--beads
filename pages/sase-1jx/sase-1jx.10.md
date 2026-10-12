@@ -33,12 +33,14 @@ tui-add: complete the add-existing journey: identity and setup card, Review rend
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jx.7.1.1][1] | Need status to re-key stale epic-symbols | 1 |
-| read-by | [agent:sase-1jx.7.1.land][2] | Need whether wizard still needs journal path helpers | 1 |
-| read-by | [agent:sase-1jx.9--1][3] | Confirm this later open phase can own the still-unused journals_dir symbol | 1 |
+| read-by | [agent:sase-1jx.11][1] | Need the existing follow-up record for the known Symvision baseline failure | 1 |
+| read-by | [agent:sase-1jx.7.1.1][2] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.7.1.land][3] | Need whether wizard still needs journal path helpers | 1 |
+| read-by | [agent:sase-1jx.9--1][4] | Confirm this later open phase can own the still-unused journals_dir symbol | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.9.md
 
 <!-- sase:referenced-by:end -->

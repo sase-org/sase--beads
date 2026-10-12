@@ -64,19 +64,24 @@ flowchart TD
     n7["sase-1jx.10.1.4: Apply, progress, Ready, and Failed [closed]"]
     n8["sase-1jx.11: Projects-tab entry points and integration [closed]"]
     n9["sase-1jx.12: Create a new repository from the wizard [in_progress]"]
-    n10["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
-    n11["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
-    n12["sase-1jx.4: sase-core onboarding plan derivation [closed]"]
-    n13["sase-1jx.5: sase-github implements the onboarding hooks [closed]"]
-    n14["sase-1jx.6: Candidate discovery engine and `sase project suggest` [closed]"]
-    n15["sase-1jx.7: Onboarding engine and `sase project add` [closed]"]
-    n16["sase-1jx.7.1: Complete project onboarding and sase project add [closed]"]
-    n17["sase-1jx.7.1.1: Observed facts, ownership journals, and onboarding documents [closed]"]
-    n18["sase-1jx.7.1.2: Commit-and-push setup with recoverable postconditions [closed]"]
-    n19["sase-1jx.7.1.3: Serialize and execute project onboarding [closed]"]
-    n20["sase-1jx.7.1.4: CLI, progress rendering, documentation, and end-to-end verification [closed]"]
-    n21["sase-1jx.8: `sase project create` and the human-only guard [closed]"]
-    n22["sase-1jx.9: Wizard shell and the Source stage [closed]"]
+    n10["sase-1jx.12.1: Complete repository creation in the New Project wizard [in_progress]"]
+    n11["sase-1jx.12.1.1: Render provider creation fields and constraints [closed]"]
+    n12["sase-1jx.12.1.2: Configure new repositories with live checks [in_progress]"]
+    n13["sase-1jx.12.1.3: Review and apply the exact create intent [in_progress]"]
+    n14["sase-1jx.12.1.4: Recover incomplete creates and expose the complete wizard [in_progress]"]
+    n15["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
+    n16["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
+    n17["sase-1jx.4: sase-core onboarding plan derivation [closed]"]
+    n18["sase-1jx.5: sase-github implements the onboarding hooks [closed]"]
+    n19["sase-1jx.6: Candidate discovery engine and `sase project suggest` [closed]"]
+    n20["sase-1jx.7: Onboarding engine and `sase project add` [closed]"]
+    n21["sase-1jx.7.1: Complete project onboarding and sase project add [closed]"]
+    n22["sase-1jx.7.1.1: Observed facts, ownership journals, and onboarding documents [closed]"]
+    n23["sase-1jx.7.1.2: Commit-and-push setup with recoverable postconditions [closed]"]
+    n24["sase-1jx.7.1.3: Serialize and execute project onboarding [closed]"]
+    n25["sase-1jx.7.1.4: CLI, progress rendering, documentation, and end-to-end verification [closed]"]
+    n26["sase-1jx.8: `sase project create` and the human-only guard [closed]"]
+    n27["sase-1jx.9: Wizard shell and the Source stage [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -86,40 +91,48 @@ flowchart TD
     n3 --> n7
     n0 --> n8
     n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n10 --> n14
     n0 --> n15
-    n15 --> n16
-    n16 --> n17
-    n16 --> n18
-    n16 --> n19
-    n16 --> n20
-    n0 --> n21
-    n0 --> n22
-    n1 -.-> n13
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n20 --> n21
+    n21 --> n22
+    n21 --> n23
+    n21 --> n24
+    n21 --> n25
+    n0 --> n26
+    n0 --> n27
+    n1 -.-> n18
     n2 -.-> n8
     n4 -.-> n6
     n5 -.-> n7
     n6 -.-> n7
     n8 -.-> n9
-    n10 -.-> n13
-    n10 -.-> n14
     n11 -.-> n12
-    n11 -.-> n14
-    n12 -.-> n15
-    n13 -.-> n15
-    n14 -.-> n15
-    n14 -.-> n22
-    n15 -.-> n2
-    n15 -.-> n21
-    n17 -.-> n18
-    n18 -.-> n19
+    n12 -.-> n13
+    n13 -.-> n14
+    n15 -.-> n18
+    n15 -.-> n19
+    n16 -.-> n17
+    n16 -.-> n19
+    n17 -.-> n20
+    n18 -.-> n20
     n19 -.-> n20
-    n21 -.-> n9
-    n22 -.-> n2
+    n19 -.-> n27
+    n20 -.-> n2
+    n20 -.-> n26
+    n22 -.-> n23
+    n23 -.-> n24
+    n24 -.-> n25
+    n26 -.-> n9
+    n27 -.-> n2
 ```
 
 ## Agents
@@ -132,9 +145,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.2/README.md) | [sase-1jx.10.1.2](sase-1jx.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.3/README.md) | [sase-1jx.10.1.3](sase-1jx.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md) | [sase-1jx.10.1.4](sase-1jx.10.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.land.md) | [sase-1jx.10.1](sase-1jx.10.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.11/README.md) | [sase-1jx.11](sase-1jx.11.md) | 1 |
-| [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12/README.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md) | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.12.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.2/README.md) | [sase-1jx.12.1.2](sase-1jx.12.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.3/README.md) | [sase-1jx.12.1.3](sase-1jx.12.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.4/README.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
 | [bbugyi200.athena.sase-1jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md) | [sase-1jx.4](sase-1jx.4.md) | 2 |
@@ -175,7 +193,9 @@ flowchart TD
 | sase | [`597931b`](https://github.com/sase-org/sase/commit/597931b2221aa4ab577b90e30ea8e34fbf48e124) | feat(project): add sase project create with human-only guard | [sase-1jx.8](sase-1jx.8.md) | 2026-10-12 07:08:28 EDT |
 | sase | [`558a45e`](https://github.com/sase-org/sase/commit/558a45eca47b9e44b31c61f5f318333eae899c4f) | feat(tui): add durable New Project apply, Progress, Ready, and Failed | [sase-1jx.10.1.4](sase-1jx.10.1.4.md) | 2026-10-12 07:55:53 EDT |
 | sase | [`95e2115`](https://github.com/sase-org/sase/commit/95e2115b16e8524b4d42230b333d11d6edb25199) | fix(tui): land add-existing New Project wizard repairs | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:14:25 EDT |
+| sase--plans | [`sase--plans@81377d5`](https://github.com/sase-org/sase--plans/commit/81377d5c33d16e1bfa7bc40a23719d81ecdc5e98) | docs(plans): mark add-existing New Project epic plan done | [sase-1jx.10.1](sase-1jx.10.1.md) | 2026-10-12 09:18:02 EDT |
 | sase | [`e4b3a85`](https://github.com/sase-org/sase/commit/e4b3a85f4ea576c97e8ed87b220ba6d5a778cfa0) | feat(ace): add Projects wizard entry and launch flow | [sase-1jx.11](sase-1jx.11.md) | 2026-10-12 09:48:31 EDT |
+| sase | [`0defe76`](https://github.com/sase-org/sase/commit/0defe76db8bd45af79f5fe4b070b374f28fc34fd) | feat(tui): add provider repository creation form | [sase-1jx.12.1.1](sase-1jx.12.1.1.md) | 2026-10-12 10:35:53 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ tui-create: show the pinned Create row, render the provider form with disclosure
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12/README.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
+| [bbugyi200.athena.sase-1jx.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.md) | [sase-1jx.12](sase-1jx.12.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
