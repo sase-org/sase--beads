@@ -19,7 +19,7 @@ init-flow: extract the Projects init check, preview, apply, and terminal flow in
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.10.1.4](sase-1jx.10.1.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.10.1.4](sase-1jx.10.1.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

@@ -20,7 +20,7 @@ configure-review: replace the Configure and Review placeholders with the existin
 ## Dependencies
 
 - **Depends on:** [sase-1jx.10.1.1](sase-1jx.10.1.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jx.10.1.4](sase-1jx.10.1.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.10.1.4](sase-1jx.10.1.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
