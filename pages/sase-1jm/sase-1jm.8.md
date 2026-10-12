@@ -49,3 +49,15 @@ retire-pane: delete the agents_archive_view beta flag's Off branches. Hide the A
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`101c853`](https://github.com/sase-org/sase/commit/101c8539399669c266d76c01f44ed1e56b24a814) | feat(ace): retire Artifacts Agent pane and make Agent Archive unconditional | [sase-1jm.8](sase-1jm.8.md) | 2026-10-12 14:08:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md
+
+<!-- sase:referenced-by:end -->

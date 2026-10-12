@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1kc][2] | The epic whose glossary decisions were answered no; its plan file is the source of truth for the definitions |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1kc/README.md
 
 <!-- sase:links:end -->
 
@@ -43,6 +45,27 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 
 [2026-10-12T15:47:46Z · sase-1ka.land] DISCOVERED ISSUE corroboration (sase-1ka land agent): both existing sase-1jm DISCOVERED ISSUEs still reproduce on master c9c1df82cc and were independently proposed by sase-1ka phases: (1) Symvision private import of _load_archive_bundle (_archive_restore.py:169 -> _archive_reader.py:304, from sase-1jm.5 ebd17bf5bf) was flagged KNOWN by sase-1ka.2, sase-1ka.4, and sase-1ka.5; (2) test_custom_search_preview_describes_recent_unscoped_filtering still asserts '250 most recent dismissed agents' after c4c7846f57 (sase-1jm.6) changed the copy to 'Load recent dismissed agents...' (proposed by sase-1ka.3). Both remain sase-1jm landing work; no separate task created.
 
+[2026-10-12T18:18:23Z · sase-1jx.12.1.land] LANDING CHECK from sase-1jx.12.1 at master 101c853939: two earlier DISCOVERED ISSUEs no longer reproduce. The cross-file private import of _load_archive_bundle is gone; production callers use public load_archive_bundle in src/sase/ace/tui/actions/agents/_archive_reader.py (b249bc5e69). tests/ace/tui/modals/test_saved_agent_group_revival_rendering.py::test_custom_search_preview_describes_archive_browsing passes and asserts Archive copy (Browse the Archive / Press Enter on a run), not the old '250 most recent dismissed agents' string. Proposed by sase-1jx.12.1.1, sase-1jx.12.1.2, and sase-1jx.12.1.3; declined as already fixed.
+
+[2026-10-12T18:47:08Z · sase-1jm.land] LAND TRIAGE (sase-1jm.land, master 101c853939) of every PROPOSED FOLLOW-UP on phases .1-.8 (nested child epics .2.1, .3.1, .3.1.8, .4.2 were triaged by their own landers and not redone).
+
+(1) Glossary, from .2 #1/#2, .3 #1/#2/#3, .4 #1/#2, .5 #1/#2, .7 #1/#2, .8 #1/#2: CREATED memory task sase-1kc. It adds glossary:agent-archive and updates nav-section, nav-item, agent-data-deck, and agent-relation-jump-target. It has a related link to sase-1c9, which also edits agent-data-deck. The epic's decisions forbid memory edits, so this stays out of the epic.
+(2) .1 #2, closed-flag residue for sase-18l/sase-1ar: DECLINED. tools/check_feature_flags exits 0 at 101c853939.
+(3) .3 #4, agents_unified_query matrix: DECLINED. The flag was retired by b46ecb0a94 before this epic, as sase-1jm.3.1.land also concluded.
+(4) .3 #5, clean-base failures: DECLINED as already triaged by sase-1jm.3.1.land. tests/completion passes at 101c853939, and the import budget belongs to sase-1ic.
+(5) .4 #4, test_usage_limit_e2e: DECLINED. tests/fakey/test_usage_limit_e2e.py passes at 101c853939.
+(6) .5 #3, .6 #1, .7 #3, stale Justfile --epic-symbol rows (sase-1jm.3.1, sase-1jx.7.1, sase-1jm.4.1.3, sase-1jm.5, sase-1jx.8): DECLINED. Those rows are gone, and only sase-1jm(archive_corpus_is_warm) remains, which is epic work. The recurring mechanism is tracked by sase-o7.
+(7) .5 #4 and .8 #4/#5/#6/#8, KNOWN failures: already tracked. The import budget is sase-1ic. The Project: fake/tmp header and workflow snapshot tests are sase-1k4, already +1'd with isolated repros by sase-1jm.4.2.land. No new +1 or bead.
+(8) .7 #4, full-scope visual drift (155 updated plus 3 missing word-definition goldens): DECLINED. All four word_definition_modal_* goldens exist at 101c853939. The 155-update count kept no report, SHA, or node list, so it is not actionable; CI's visual-test job is the oracle. This epic's own goldens are rechecked by the remaining-work epic.
+(9) .8 #3, build_create_plan_request symvision: routed as a DISCOVERED ISSUE note on the active epic sase-1jx. The note also covers 13 sibling New Project unused publics.
+(10) .8 #7, retired Artifacts strip and toast goldens: EPIC WORK, planned.
+Also found: symvision now reports unused publics that b249bc5e69 un-masked when it removed the private import that made symvision exit early. That set includes sase-1ka's 11 plan decision-card symbols, so I CREATED ci task sase-1kd (closed owner, related to sase-1hp). The 6 symbols caused by this epic (archive_corpus_is_warm, archive_name_query, convert_agents_pane_query, load_archive_name_candidates, sync_archive_shelf, ArtifactLinkGroup) are epic work.
+Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are resolved per note #9. #2 (eager startup grouping read), #3 (quiet-host j/k), #5 (Archive help PNG), and #7 (light-row bundle_path) are epic work, planned in a child epic.
+
+[2026-10-12T18:57:33Z · sase
+
+… and 1320 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -55,131 +78,6 @@ Every agent that ran on this machine can be found and read on the Agents tab. Th
 | [sase-1jm.6](sase-1jm.6.md) | Every agent route lands on the Agents tab | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.7](sase-1jm.7.md) | Inbox shelf, zero-result bridge, and Node Finder matches | ✓ closed | medium | 2026-10-10 | 1 | 1 |
 | [sase-1jm.8](sase-1jm.8.md) | Retire Artifacts ▸ Agent and make the Archive unconditional | ✓ closed | medium | 2026-10-10 | 1 | 1 |
-
-## Lineage
-
-```mermaid
-flowchart TD
-    n0["sase-1jm: Agents tab Archive view retires Artifacts ▸ Agent [in_progress]"]
-    n1["sase-1jm.1: Archive index v3 and honest timestamps [closed]"]
-    n2["sase-1jm.2: Core archive corpus, in scope token, and CLI parity [closed]"]
-    n3["sase-1jm.2.1: Archive corpus, in:archive scope, and CLI parity [closed]"]
-    n4["sase-1jm.2.1.1: One status table for archive outcome [closed]"]
-    n5["sase-1jm.2.1.2: Compiled archive corpus and derived fields [closed]"]
-    n6["sase-1jm.2.1.3: Group summaries, windows, and exact lookup [closed]"]
-    n7["sase-1jm.2.1.4: agents-archive profile and the in token [closed]"]
-    n8["sase-1jm.2.1.5: Bindings, facade, and shared corpus cache [closed]"]
-    n9["sase-1jm.2.1.6: sase agent search parity and the bench [closed]"]
-    n10["sase-1jm.3: Archive view on the Agents tab [closed]"]
-    n11["sase-1jm.3.1: Implement the read-only Agents Archive view for sase-1jm.3 [closed]"]
-    n12["sase-1jm.3.1.1: Archive view state, flag, and selection ownership [closed]"]
-    n13["sase-1jm.3.1.2: Off-thread Archive loading, prewarm, and revalidation [closed]"]
-    n14["sase-1jm.3.1.3: Paged Archive list and live Inbox pulse [closed]"]
-    n15["sase-1jm.3.1.4: View toggles, scoped filters, parking, and Archive chrome [closed]"]
-    n16["sase-1jm.3.1.5: Retained read-only decks and archived identity header [closed]"]
-    n17["sase-1jm.3.1.6: Archive action isolation, caller audit, footer, and help [closed]"]
-    n18["sase-1jm.3.1.7: Archive workflow regressions, performance evidence, and PNGs [closed]"]
-    n19["sase-1jm.3.1.8: Finish the read-only Agents Archive view before sase-1jm.3.1 lands [closed]"]
-    n20["sase-1jm.3.1.8.1: Detail ownership, stuck placeholders, and reader guards [closed]"]
-    n21["sase-1jm.3.1.8.2: Controller robustness, parent seams, and project display names [closed]"]
-    n22["sase-1jm.3.1.8.3: Live-key toasts, read isolation, marks, footer, help, and info row [closed]"]
-    n23["sase-1jm.3.1.8.4: Complete per-view parking, scope chip, and import deferral [closed]"]
-    n24["sase-1jm.3.1.8.5: Regression proof, golden recapture, and performance evidence [closed]"]
-    n25["sase-1jm.4: Record deck for every agent [closed]"]
-    n26["sase-1jm.4.1: Record deck for every agent, built in five bounded phases [closed]"]
-    n27["sase-1jm.4.1.1: RECORD deck registry, cycle order, and persistence [closed]"]
-    n28["sase-1jm.4.1.2: Record panel compose, picker, availability, and keys [closed]"]
-    n29["sase-1jm.4.1.3: Lifecycle and Provenance cards for both views [closed]"]
-    n30["sase-1jm.4.1.4: Relations and Links cards with off-thread link facets [closed]"]
-    n31["sase-1jm.4.1.5: Both-view integration, PNG goldens, and land evidence [closed]"]
-    n32["sase-1jm.4.2: Finish the Record deck and close sase-1jm.4 [closed]"]
-    n33["sase-1jm.4.2.1: RECORD registry, record package contract, and every explicit deck call site [closed]"]
-    n34["sase-1jm.4.2.2: Lifecycle and Provenance cards [closed]"]
-    n35["sase-1jm.4.2.3: Relations and Links cards [closed]"]
-    n36["sase-1jm.4.2.4: Light-row Record for unreadable archive entries and container rows [closed]"]
-    n37["sase-1jm.4.2.5: Record goldens, docs, performance evidence, and land evidence [closed]"]
-    n38["sase-1jm.5: Restore, fork, and copy from the Archive [closed]"]
-    n39["sase-1jm.6: Every agent route lands on the Agents tab [closed]"]
-    n40["sase-1jm.7: Inbox shelf, zero-result bridge, and Node Finder matches [closed]"]
-    n41["sase-1jm.8: Retire Artifacts ▸ Agent and make the Archive unconditional [closed]"]
-    n0 --> n1
-    n0 --> n2
-    n2 --> n3
-    n3 --> n4
-    n3 --> n5
-    n3 --> n6
-    n3 --> n7
-    n3 --> n8
-    n3 --> n9
-    n0 --> n10
-    n10 --> n11
-    n11 --> n12
-    n11 --> n13
-    n11 --> n14
-    n11 --> n15
-    n11 --> n16
-    n11 --> n17
-    n11 --> n18
-    n11 --> n19
-    n19 --> n20
-    n19 --> n21
-    n19 --> n22
-    n19 --> n23
-    n19 --> n24
-    n0 --> n25
-    n25 --> n26
-    n26 --> n27
-    n26 --> n28
-    n26 --> n29
-    n26 --> n30
-    n26 --> n31
-    n25 --> n32
-    n32 --> n33
-    n32 --> n34
-    n32 --> n35
-    n32 --> n36
-    n32 --> n37
-    n0 --> n38
-    n0 --> n39
-    n0 --> n40
-    n0 --> n41
-    n1 -.-> n2
-    n2 -.-> n10
-    n2 -.-> n25
-    n4 -.-> n5
-    n5 -.-> n6
-    n6 -.-> n8
-    n7 -.-> n8
-    n8 -.-> n9
-    n10 -.-> n38
-    n10 -.-> n39
-    n10 -.-> n40
-    n12 -.-> n13
-    n13 -.-> n14
-    n14 -.-> n15
-    n15 -.-> n16
-    n16 -.-> n17
-    n17 -.-> n18
-    n20 -.-> n21
-    n21 -.-> n22
-    n22 -.-> n23
-    n23 -.-> n24
-    n25 -.-> n41
-    n27 -.-> n28
-    n27 -.-> n29
-    n27 -.-> n30
-    n28 -.-> n31
-    n29 -.-> n31
-    n30 -.-> n31
-    n33 -.-> n34
-    n33 -.-> n35
-    n34 -.-> n36
-    n35 -.-> n36
-    n36 -.-> n37
-    n38 -.-> n41
-    n39 -.-> n41
-    n40 -.-> n41
-```
 
 ## Agents
 
@@ -215,12 +113,21 @@ flowchart TD
 | [bbugyi200.athena.sase-1jm.4.2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md) | [sase-1jm.4.2.3](sase-1jm.4.2.3.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md) | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 1 |
 | [bbugyi200.athena.sase-1jm.4.2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md) | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 1 |
-| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 1 |
+| [bbugyi200.athena.sase-1jm.4.2.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md) | [sase-1jm.4.2](sase-1jm.4.2.md) | 2 |
 | [bbugyi200.athena.sase-1jm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.5.md) | [sase-1jm.5](sase-1jm.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md) | [sase-1jm.6](sase-1jm.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md) | [sase-1jm.7](sase-1jm.7.md) | 1 |
 | [bbugyi200.athena.sase-1jm.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md) | [sase-1jm.8](sase-1jm.8.md) | 1 |
-| [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.land/README.md) | [sase-1jm](README.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.1.md) | [sase-1jm.9.1](sase-1jm.9.1.md) | 1 |
+| [bbugyi200.athena.sase-1jm.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md) | [sase-1jm.9.2](sase-1jm.9.2.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.3/README.md) | [sase-1jm.9.3](sase-1jm.9.3.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.4/README.md) | [sase-1jm.9.4](sase-1jm.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md) | [sase-1jm.9.5](sase-1jm.9.5.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.6/README.md) | [sase-1jm.9.6](sase-1jm.9.6.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.8/README.md) | [sase-1jm.9.8](sase-1jm.9.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 0 |
+| [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.land.md) | [sase-1jm](README.md) | 0 |
 
 ## Commits
 
@@ -260,7 +167,9 @@ flowchart TD
 | sase | [`f26ac18`](https://github.com/sase-org/sase/commit/f26ac18475c440dca92ec03a76ccde5259c6a67d) | feat(tui): paint Record from Archive light rows | [sase-1jm.4.2.4](sase-1jm.4.2.4.md) | 2026-10-12 10:23:00 EDT |
 | sase | [`ee673ce`](https://github.com/sase-org/sase/commit/ee673ce10dea934e14e910d522bc7a8b7051d2b2) | feat(ace): add Record deck PNG goldens, docs, and j/k bench evidence | [sase-1jm.4.2.5](sase-1jm.4.2.5.md) | 2026-10-12 11:03:13 EDT |
 | sase | [`5ba61b4`](https://github.com/sase-org/sase/commit/5ba61b41a8b5de3e3146ee5d06517febe06e665d) | fix(ace): finish Record deck landing fixes | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:16:44 EDT |
+| sase--plans | [`sase--plans@9d2f3be`](https://github.com/sase-org/sase--plans/commit/9d2f3bef5249d1969597bce58c9109f5bffc92bc) | docs(plan): mark Record deck refresh complete | [sase-1jm.4.2](sase-1jm.4.2.md) | 2026-10-12 12:21:32 EDT |
 | sase | [`101c853`](https://github.com/sase-org/sase/commit/101c8539399669c266d76c01f44ed1e56b24a814) | feat(ace): retire Artifacts Agent pane and make Agent Archive unconditional | [sase-1jm.8](sase-1jm.8.md) | 2026-10-12 14:08:42 EDT |
+| sase | [`ba89d2a`](https://github.com/sase-org/sase/commit/ba89d2a6db883a677c6ea0b4e2c784150a1d4ac1) | refactor(ace): remove Archive flag residue and lazy-load grouping | [sase-1jm.9.1](sase-1jm.9.1.md) | 2026-10-12 17:27:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -277,7 +186,9 @@ flowchart TD
 | read-by | [agent:sase-1jm.4.2.land--1][7] | Confirm the root epic remains open after closing its Record phase | 1 |
 | read-by | [agent:sase-1jm.6][8] | Need the active epic scope related to the stale symbol whitelist failure | 1 |
 | read-by | [agent:sase-1jm.7][9] | Need parent epic status, notes, and sibling phase progress | 1 |
-| read-by | [agent:sase-1jx.12.1.1][10] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
+| read-by | [agent:sase-1jm.8][10] | Need epic DECISIONS and scope for phase sase-1jm.8 | 1 |
+| read-by | [agent:sase-1jx.12.1.1][11] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
+| read-by | [agent:sase-1jx.12.1.land][12] | See if revival-preview and archive-import issues are already on this epic | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
@@ -288,6 +199,8 @@ flowchart TD
 [7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.6/README.md
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->
