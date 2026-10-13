@@ -30,12 +30,13 @@ record-light-rows: carry bundle_path, stop_time, and dismissed_at on the sase-co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 1 |
+| [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase-core | [`sase-core@546afe3`](https://github.com/sase-org/sase-core/commit/546afe324e268249240b9011ade13394869bce75) | feat(archive): emit bundle\_path and times on archive light rows | [sase-1jm.9.7](sase-1jm.9.7.md) | 2026-10-12 18:53:31 EDT |
 | sase | [`48b31c4`](https://github.com/sase-org/sase/commit/48b31c4e432aef3a05f782044b58546f0fb6ceb7) | feat(archive): use light-row bundle path, times, and project names | [sase-1jm.9.7](sase-1jm.9.7.md) | 2026-10-12 18:58:55 EDT |
 
 <!-- sase:referenced-by:start -->

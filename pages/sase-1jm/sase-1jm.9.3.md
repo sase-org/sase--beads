@@ -35,3 +35,15 @@ archive-chooser-copy: add the READ section, open the chooser on container rows w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9fa4792`](https://github.com/sase-org/sase/commit/9fa479245cd17a709d4358896b55c74d166b34ac) | feat(ace): add Archive chooser READ section, container restore, and copy keys | [sase-1jm.9.3](sase-1jm.9.3.md) | 2026-10-12 19:03:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.3--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.3.md
+
+<!-- sase:referenced-by:end -->

@@ -21,7 +21,7 @@ flag-residue: strip every override_flags(agents_archive_view=...) and flag-era d
 
 ## Dependencies
 
-- **Blocks:** [sase-1jm.9.2](sase-1jm.9.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.2](sase-1jm.9.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.9.3](sase-1jm.9.3.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.9.4](sase-1jm.9.4.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [sase-1jm.9.6](sase-1jm.9.6.md) ◐ · ⧖ 2026-10-12
