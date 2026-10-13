@@ -34,3 +34,15 @@ py-index-readers: move the sase-core pin and switch the lifecycle schema check, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`432dd1f`](https://github.com/sase-org/sase/commit/432dd1f75952cc1505b28a308d477192a4cf7a51) | feat(agent-index): route Python readers through Rust | [sase-1kk.5](sase-1kk.5.md) | 2026-10-13 15:17:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kk.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ stopgap: serialize every Python-sqlite3 connection and Rust call on the dismisse
 
 ## Dependencies
 
-- **Blocks:** [sase-1kk.4](sase-1kk.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kk.4](sase-1kk.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kk.5](sase-1kk.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents

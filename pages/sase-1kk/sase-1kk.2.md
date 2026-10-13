@@ -19,7 +19,7 @@ core-archive-store: port the dismissed-bundle index schema, writes, queries, reb
 
 ## Dependencies
 
-- **Blocks:** [sase-1kk.4](sase-1kk.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kk.4](sase-1kk.4.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
