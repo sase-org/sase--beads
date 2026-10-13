@@ -32,3 +32,17 @@ tui-source-repairs: make loading rows unselectable, guard the t remedy, collapse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`90db7f7`](https://github.com/sase-org/sase/commit/90db7f78eb9a87413fb65b24945c152c999c98a4) | feat(new-project-wizard): meet Source stage spec and add missing guards | [sase-1jx.13.5](sase-1jx.13.5.md) | 2026-10-12 18:57:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.3--2][1] | See if this closed bead already tracks the jump-panel revive assertion | 1 |
+| read-by | [agent:sase-1jx.13.5--1][2] | closeout check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.5.md
+
+<!-- sase:referenced-by:end -->
