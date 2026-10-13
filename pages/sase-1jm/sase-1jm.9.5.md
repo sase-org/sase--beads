@@ -21,7 +21,7 @@ archive-restore-run: emit one toast with failure reasons, keep the parked Inbox 
 
 - **Depends on:** [sase-1jm.9.3](sase-1jm.9.3.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.9.4](sase-1jm.9.4.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -34,3 +34,15 @@ archive-restore-run: emit one toast with failure reasons, keep the parked Inbox 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`be3a9a5`](https://github.com/sase-org/sase/commit/be3a9a5d1de3179c031f7e7644242287eee7fb68) | feat(agents-archive): quiet restore run with toast, dimmed rows and reveal-after-refresh | [sase-1jm.9.5](sase-1jm.9.5.md) | 2026-10-12 21:34:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.5][1] | Need phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md
+
+<!-- sase:referenced-by:end -->

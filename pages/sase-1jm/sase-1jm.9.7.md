@@ -24,7 +24,7 @@ record-light-rows: carry bundle_path, stop_time, and dismissed_at on the sase-co
 ## Dependencies
 
 - **Depends on:** [sase-1jm.9.1](sase-1jm.9.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

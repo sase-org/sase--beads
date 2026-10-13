@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1kc][2] | The epic whose glossary decisions were answered no; its plan file is the source of truth for the definitions |
 
-_Plus 13 automatic references — see [Referenced By](#referenced-by)._
+_Plus 14 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1kc/README.md
@@ -64,7 +64,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 
 [2026-10-12T18:57:33Z · sase
 
-… and 2288 more characters
+… and 3073 more characters
 
 ## Phases
 
@@ -125,7 +125,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | [bbugyi200.athena.sase-1jm.9.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md) | [sase-1jm.9.5](sase-1jm.9.5.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md) | [sase-1jm.9.6](sase-1jm.9.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 2 |
-| [bbugyi200.athena.sase-1jm.9.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.8/README.md) | [sase-1jm.9.8](sase-1jm.9.8.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.8.md) | [sase-1jm.9.8](sase-1jm.9.8.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 0 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.land.md) | [sase-1jm](README.md) | 0 |
 
@@ -177,6 +177,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | sase | [`e243ce7`](https://github.com/sase-org/sase/commit/e243ce730fac0b3f5a03938e20071baeb0409bd7) | feat(ace): finish Archive shelf and bridge interactions | [sase-1jm.9.6](sase-1jm.9.6.md) | 2026-10-12 20:15:55 EDT |
 | sase | [`a27c625`](https://github.com/sase-org/sase/commit/a27c6252f38fc1c16afea668e301ace616e91fba) | feat(archive): lookup-first link arrivals and selection that survives clearing | [sase-1jm.9.4](sase-1jm.9.4.md) | 2026-10-12 20:46:20 EDT |
 | sase | [`be3a9a5`](https://github.com/sase-org/sase/commit/be3a9a5d1de3179c031f7e7644242287eee7fb68) | feat(agents-archive): quiet restore run with toast, dimmed rows and reveal-after-refresh | [sase-1jm.9.5](sase-1jm.9.5.md) | 2026-10-12 21:34:35 EDT |
+| sase | [`1230bb3`](https://github.com/sase-org/sase/commit/1230bb32c19eea7a5eabad73d2fae48cd5591748) | perf(ace): optimize Archive detail navigation | [sase-1jm.9.8](sase-1jm.9.8.md) | 2026-10-12 23:35:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -195,8 +196,9 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | read-by | [agent:sase-1jm.7][9] | Need parent epic status, notes, and sibling phase progress | 1 |
 | read-by | [agent:sase-1jm.8][10] | Need epic DECISIONS and scope for phase sase-1jm.8 | 1 |
 | read-by | [agent:sase-1jm.9.2][11] | Need epic DECISIONS and parent scope | 1 |
-| read-by | [agent:sase-1jx.12.1.1][12] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
-| read-by | [agent:sase-1jx.12.1.land][13] | See if revival-preview and archive-import issues are already on this epic | 2 |
+| read-by | [agent:sase-1jm.9.5][12] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1jx.12.1.1][13] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
+| read-by | [agent:sase-1jx.12.1.land][14] | See if revival-preview and archive-import issues are already on this epic | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
@@ -209,7 +211,8 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
 [10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md
 [11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md
-[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
-[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md
+[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
+[14]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->

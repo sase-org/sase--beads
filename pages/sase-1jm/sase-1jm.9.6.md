@@ -20,7 +20,7 @@ bridges-finish: use the restore-decision shelf hint and consistent plurals, stop
 ## Dependencies
 
 - **Depends on:** [sase-1jm.9.1](sase-1jm.9.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.8](sase-1jm.9.8.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
