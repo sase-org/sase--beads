@@ -23,7 +23,7 @@ patch-relation-index: memoize the Patch relation index, build its edges only whe
 
 ## Dependencies
 
-- **Blocks:** [sase-1kj.6](sase-1kj.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.6](sase-1kj.6.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.7](sase-1kj.7.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.8](sase-1kj.8.md) ◐ · ⧖ 2026-10-13
 
@@ -38,3 +38,15 @@ patch-relation-index: memoize the Patch relation index, build its edges only whe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`085f5ec`](https://github.com/sase-org/sase/commit/085f5eceb79272a04a41f236dbfadac948945fb9) | perf(ace): memoize and defer Patch relation-index builds | [sase-1kj.5](sase-1kj.5.md) | 2026-10-13 15:55:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.5--3][1] | Need phase status, notes, and remaining work after monitor no_new_failures | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.5.md
+
+<!-- sase:referenced-by:end -->
