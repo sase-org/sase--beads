@@ -25,7 +25,7 @@ projects-pane: find the Projects pane through the screen stack, stop the double 
 
 ## Dependencies
 
-- **Blocks:** [sase-1jx.13.6.4](sase-1jx.13.6.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jx.13.6.4](sase-1jx.13.6.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -38,3 +38,15 @@ projects-pane: find the Projects pane through the screen stack, stop the double 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bde3e7b`](https://github.com/sase-org/sase/commit/bde3e7b213e43ec22a2b82a0fb90bcac594eaf6c) | feat(ace): wire Projects pane lookup, help, and show-new keys | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 2026-10-12 21:48:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.6.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md
+
+<!-- sase:referenced-by:end -->

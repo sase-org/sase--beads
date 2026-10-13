@@ -114,7 +114,7 @@ flowchart TD
     n22["sase-1jx.13.6.1: Close the strict-mode and provider test gaps in sase-core and sase-github [closed]"]
     n23["sase-1jx.13.6.2: Make wizard creates runnable for every provider [closed]"]
     n24["sase-1jx.13.6.3: Integrate wizard outcomes with the real Projects pane [closed]"]
-    n25["sase-1jx.13.6.4: Finish Source stage teardown, layout, and spec states [in_progress]"]
+    n25["sase-1jx.13.6.4: Finish Source stage teardown, layout, and spec states [closed]"]
     n26["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n27["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
     n28["sase-1jx.4: sase-core onboarding plan derivation [closed]"]
@@ -221,7 +221,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.13.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.1/README.md) | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md) | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md) | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md) | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 0 |
+| [bbugyi200.athena.sase-1jx.13.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md) | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.land/README.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.land.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
@@ -279,6 +279,7 @@ flowchart TD
 | sase-core | [`sase-core@2fc3d77`](https://github.com/sase-org/sase-core/commit/2fc3d7754a3585180d0d2d7bd7ca1e034de31cdc) | fix(project-onboarding): conflict excluded fields at default in strict mode | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 2026-10-12 20:25:01 EDT |
 | sase | [`9d4e90e`](https://github.com/sase-org/sase/commit/9d4e90e51db406cd29e316089da6dac0103bb147) | fix(onboarding): repair create wizard provider flows | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 2026-10-12 21:15:53 EDT |
 | sase | [`bde3e7b`](https://github.com/sase-org/sase/commit/bde3e7b213e43ec22a2b82a0fb90bcac594eaf6c) | feat(ace): wire Projects pane lookup, help, and show-new keys | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 2026-10-12 21:48:25 EDT |
+| sase | [`c69c312`](https://github.com/sase-org/sase/commit/c69c31236f7c773b6d2d7a51ef146739141623ce) | feat(new-project-wizard): finish Source stage teardown, layout, and spec states | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 2026-10-12 22:54:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
