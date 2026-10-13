@@ -19,6 +19,8 @@ patch-relation-index: memoize the Patch relation index, build its edges only whe
 
 [2026-10-13T18:09:06Z · sase-1kj.5] Recovery turn: previous close had no landed commit. Implemented deferred/memoized Patch relation indexing, visibility-gated edges, off-loop startup prepare, and adaptive refresh debounce. 111 focused tests passed (new test_patch_relation_index plus wiring/reload/y-keymap/dirty-flags/nav-gate/reveal/ace-testing). Hidden 10x source_key churn: 0 real builds. Visible same-key memo: 1 real build.
 
+[2026-10-13T18:58:11Z · sase-1kj.5--2] Recovery: deferred/memoized Patch relation index, visibility-gated edges, off-loop startup prepare, adaptive refresh debounce. just check had 1 KNOWN (TUI import-budget 3518 vs 3513, 0 module delta vs clean base 1a638eac; already recorded as PROPOSED FOLLOW-UP). epic-symbols none; later-phase whitelist sase-1kj.7(patch_relation_index_real_build_count).
+
 ## Dependencies
 
 - **Blocks:** [sase-1kj.6](sase-1kj.6.md) ◐ · ⧖ 2026-10-13
@@ -29,4 +31,10 @@ patch-relation-index: memoize the Patch relation index, build its edges only whe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.5.md) | [sase-1kj.5](sase-1kj.5.md) | 0 |
+| [bbugyi200.athena.sase-1kj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.5.md) | [sase-1kj.5](sase-1kj.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`085f5ec`](https://github.com/sase-org/sase/commit/085f5eceb79272a04a41f236dbfadac948945fb9) | perf(ace): memoize and defer Patch relation-index builds | [sase-1kj.5](sase-1kj.5.md) | 2026-10-13 15:55:03 EDT |
