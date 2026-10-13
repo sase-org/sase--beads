@@ -1,0 +1,55 @@
+# Bead: sase-1kl — Unblock the sase v0.18.0 PyPI release and give Full CI a reliable two-hour clock
+
+[Bead Pages](../README.md) / sase-1kl
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.106](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.106.md) · **Assignee:** `sase-1kl.land`
+**Created:** 2026-10-13 14:15:35 EDT
+**Plan:** [202610/v0\_18\_0\_release\_unblock.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_release_unblock.md)
+
+## Description
+
+sase v0.18.0 is on PyPI and `pip install sase` works again. It ships through the normal `ci_watch` path: a green Full CI no more than 6h old, plus a green Master Gate at master HEAD. Full CI on sase master starts about every two hours, driven by a clock that GitHub's backlogged cron scheduler cannot drop.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1kl.1](sase-1kl.1.md) | Fix the test-lane failures blocking Full CI and Master Gate | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1kl.2](sase-1kl.2.md) | Deterministic captures, then rebaseline the Artifacts-strip goldens | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1kl.3](sase-1kl.3.md) | Dispatch Full CI on a reliable two-hour clock | ✓ closed | medium | 2026-10-13 | 1 | 1 |
+| [sase-1kl.4](sase-1kl.4.md) | Prove Full CI green, let ci\_watch merge PR 299, and verify v0.18.0 on PyPI | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1kl: Unblock the sase v0.18.0 PyPI release and give Full CI a reliable two-hour clock [in_progress]"]
+    n1["sase-1kl.1: Fix the test-lane failures blocking Full CI and Master Gate [in_progress]"]
+    n2["sase-1kl.2: Deterministic captures, then rebaseline the Artifacts-strip goldens [in_progress]"]
+    n3["sase-1kl.3: Dispatch Full CI on a reliable two-hour clock [closed]"]
+    n4["sase-1kl.4: Prove Full CI green, let ci_watch merge PR 299, and verify v0.18.0 on PyPI [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n1 -.-> n4
+    n2 -.-> n4
+    n3 -.-> n4
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1kl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.1/README.md) | [sase-1kl.1](sase-1kl.1.md) | 0 |
+| [bbugyi200.athena.sase-1kl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.2/README.md) | [sase-1kl.2](sase-1kl.2.md) | 0 |
+| [bbugyi200.athena.sase-1kl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.3/README.md) | [sase-1kl.3](sase-1kl.3.md) | 1 |
+| [bbugyi200.athena.sase-1kl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.4/README.md) | [sase-1kl.4](sase-1kl.4.md) | 0 |
+| [bbugyi200.athena.sase-1kl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.land/README.md) | [sase-1kl](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@1316405`](https://github.com/bbugyi200/dotfiles/commit/13164059d5825c4debb8039d96483719302c0d6e) | feat(athena): enable two-hour Full CI dispatch from ci\_watch | [sase-1kl.3](sase-1kl.3.md) | 2026-10-13 14:43:06 EDT |
