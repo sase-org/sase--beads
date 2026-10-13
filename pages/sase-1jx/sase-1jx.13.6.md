@@ -50,13 +50,14 @@ Verification: focused facade/pane/apply/rendering/prefs 72 passed; source/creati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.6.land.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 1 |
+| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.6.land.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`826cad0`](https://github.com/sase-org/sase/commit/826cad0513d0aea1cabd3222adfe73a12d562b58) | fix(projects): finish New Project wizard landing gaps | [sase-1jx.13.6](sase-1jx.13.6.md) | 2026-10-13 00:16:02 EDT |
+| sase--plans | [`sase--plans@41894c0`](https://github.com/sase-org/sase--plans/commit/41894c05515bb4b916b963f2d9571b9db9885759) | docs: mark New Project wizard plans done after sase-1jx close | [sase-1jx.13.6](sase-1jx.13.6.md) | 2026-10-13 00:19:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

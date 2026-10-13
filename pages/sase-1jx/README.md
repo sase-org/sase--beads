@@ -230,7 +230,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.13.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md) | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md) | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md) | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.6.land.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 1 |
+| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.6.land.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 2 |
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.land.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
@@ -293,6 +293,7 @@ flowchart TD
 | sase | [`bde3e7b`](https://github.com/sase-org/sase/commit/bde3e7b213e43ec22a2b82a0fb90bcac594eaf6c) | feat(ace): wire Projects pane lookup, help, and show-new keys | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 2026-10-12 21:48:25 EDT |
 | sase | [`c69c312`](https://github.com/sase-org/sase/commit/c69c31236f7c773b6d2d7a51ef146739141623ce) | feat(new-project-wizard): finish Source stage teardown, layout, and spec states | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 2026-10-12 22:54:31 EDT |
 | sase | [`826cad0`](https://github.com/sase-org/sase/commit/826cad0513d0aea1cabd3222adfe73a12d562b58) | fix(projects): finish New Project wizard landing gaps | [sase-1jx.13.6](sase-1jx.13.6.md) | 2026-10-13 00:16:02 EDT |
+| sase--plans | [`sase--plans@41894c0`](https://github.com/sase-org/sase--plans/commit/41894c05515bb4b916b963f2d9571b9db9885759) | docs: mark New Project wizard plans done after sase-1jx close | [sase-1jx.13.6](sase-1jx.13.6.md) | 2026-10-13 00:19:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
