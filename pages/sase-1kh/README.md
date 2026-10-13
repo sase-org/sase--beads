@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1kh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1kh.1/README.md) | [sase-1kh.1](sase-1kh.1.md) | 1 |
 | [bbugyi200.apollo.sase-1kh.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kh.2.md) | [sase-1kh.2](sase-1kh.2.md) | 1 |
 | [bbugyi200.apollo.sase-1kh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1kh.3/README.md) | [sase-1kh.3](sase-1kh.3.md) | 1 |
-| [bbugyi200.apollo.sase-1kh.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kh.land.md) | [sase-1kh](README.md) | 1 |
+| [bbugyi200.apollo.sase-1kh.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kh.land.md) | [sase-1kh](README.md) | 2 |
 
 ## Commits
 
@@ -79,3 +79,4 @@ flowchart TD
 | sase | [`64bd007`](https://github.com/sase-org/sase/commit/64bd0072040862eb93916ea30bd0c899352cb9c4) | feat(monitor): default monitor cwd to linked clone directory | [sase-1kh.3](sase-1kh.3.md) | 2026-10-13 10:43:06 EDT |
 | sase | [`1a638ea`](https://github.com/sase-org/sase/commit/1a638eac95b42c13014dd76c384dbfb56f5b323f) | feat(workspace): rescue linked and external clones before eviction | [sase-1kh.1](sase-1kh.1.md) | 2026-10-13 10:51:55 EDT |
 | sase | [`c3d7a7e`](https://github.com/sase-org/sase/commit/c3d7a7e9b5bd4a5ef9697b3411a97a7a8f01c10e) | fix(finalizer): restrict raw commit absorption to owned suffixes | [sase-1kh](README.md) | 2026-10-13 13:24:06 EDT |
+| sase--plans | [`sase--plans@bbc579f`](https://github.com/sase-org/sase--plans/commit/bbc579f9aef31bcaae61676fef8f90679db00698) | docs(plan): mark linked repo landing plan done | [sase-1kh](README.md) | 2026-10-13 13:26:45 EDT |
