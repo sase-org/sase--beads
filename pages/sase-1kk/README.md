@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/tui_sigbus_single_sqlite_owner.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/tui_sigbus_single_sqlite_owner.md
 
@@ -29,7 +29,7 @@ The sase TUI no longer dies with `bus error (core dumped)` or corrupts its SQLit
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1kk.1](sase-1kk.1.md) | Stop the crash now with in-process serialization, self-heal, and fault logs | ✓ closed | small | 2026-10-13 | 1 | 0 |
+| [sase-1kk.1](sase-1kk.1.md) | Stop the crash now with in-process serialization, self-heal, and fault logs | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kk.2](sase-1kk.2.md) | sase-core owns the dismissed-bundle archive index store | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1kk.3](sase-1kk.3.md) | sase-core bindings for the remaining Python artifact-index reads and alias writes | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kk.4](sase-1kk.4.md) | Python dismissed-bundle index becomes a thin adapter over Rust | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
@@ -65,7 +65,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.1/README.md) | [sase-1kk.1](sase-1kk.1.md) | 0 |
+| [bbugyi200.athena.sase-1kk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.1/README.md) | [sase-1kk.1](sase-1kk.1.md) | 1 |
 | [bbugyi200.athena.sase-1kk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.2/README.md) | [sase-1kk.2](sase-1kk.2.md) | 1 |
 | [bbugyi200.athena.sase-1kk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.3/README.md) | [sase-1kk.3](sase-1kk.3.md) | 1 |
 | [bbugyi200.athena.sase-1kk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.4/README.md) | [sase-1kk.4](sase-1kk.4.md) | 0 |
@@ -79,6 +79,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@6306bd2`](https://github.com/sase-org/sase-core/commit/6306bd2bb6dfc2be595edaeb5e7c8663dcef59fa) | feat(agent-scan): add no-migrate index readers and alias bindings | [sase-1kk.3](sase-1kk.3.md) | 2026-10-13 13:23:35 EDT |
 | sase-core | [`sase-core@d30e133`](https://github.com/sase-org/sase-core/commit/d30e1337a848f0bef8978153de3731badee00d46) | feat(agent-archive): move dismissed-bundle archive index into sase\_core store | [sase-1kk.2](sase-1kk.2.md) | 2026-10-13 13:30:13 EDT |
+| sase | [`96e003c`](https://github.com/sase-org/sase/commit/96e003ce12de0dd53ad244c051e61ccb86df185d) | fix(tui): serialize SQLite access and recover dismissed index | [sase-1kk.1](sase-1kk.1.md) | 2026-10-13 14:17:30 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -86,8 +87,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1kk.3][1] | Need parent epic status and sibling phases | 1 |
+| read-by | [agent:sase-1kk.2][1] | epic scope | 1 |
+| read-by | [agent:sase-1kk.3][2] | Need parent epic status and sibling phases | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.3/README.md
 
 <!-- sase:referenced-by:end -->
