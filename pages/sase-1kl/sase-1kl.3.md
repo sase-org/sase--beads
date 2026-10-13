@@ -32,3 +32,15 @@ full-ci-clock: replace GitHub's dropped `17 */2` cron with a guarded dispatcher 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@1316405`](https://github.com/bbugyi200/dotfiles/commit/13164059d5825c4debb8039d96483719302c0d6e) | feat(athena): enable two-hour Full CI dispatch from ci\_watch | [sase-1kl.3](sase-1kl.3.md) | 2026-10-13 14:43:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kl.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.3/README.md
+
+<!-- sase:referenced-by:end -->
