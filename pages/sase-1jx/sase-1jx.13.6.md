@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard_final_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard_final_repairs.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Fix the epic-caused defects that the sase-1jx.13 land audit still found after it
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.land/README.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.6.1][1] | Need epic DECISIONS for phase 13.6.1 | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.1/README.md
+
+<!-- sase:referenced-by:end -->
