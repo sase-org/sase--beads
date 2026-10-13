@@ -33,3 +33,15 @@ retire-pane-finish: make the test and visual startup fixtures follow the product
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`95430b5`](https://github.com/sase-org/sase/commit/95430b58aa54c97bc97e1a95b3bde850577f04f1) | feat(ace): finish retired Artifacts Agent pane strip, migration, docs, and goldens | [sase-1jm.9.2](sase-1jm.9.2.md) | 2026-10-12 20:13:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md
+
+<!-- sase:referenced-by:end -->
