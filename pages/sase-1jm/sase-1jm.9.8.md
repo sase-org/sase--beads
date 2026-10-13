@@ -39,3 +39,15 @@ land-proof: fix the Archive help PNG scroll stop, regenerate help-modal goldens 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1230bb3`](https://github.com/sase-org/sase/commit/1230bb32c19eea7a5eabad73d2fae48cd5591748) | perf(ace): optimize Archive detail navigation | [sase-1jm.9.8](sase-1jm.9.8.md) | 2026-10-12 23:35:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.8--2][1] | Need the assigned phase scope, decisions, design reference, and existing notes before completing closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.8.md
+
+<!-- sase:referenced-by:end -->

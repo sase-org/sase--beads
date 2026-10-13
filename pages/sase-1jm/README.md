@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1jm
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.45.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.45.linker.w0.md) · **Assignee:** `sase-1jm.land`
-**Created:** 2026-10-10 06:41:07 EDT
+**Created:** 2026-10-10 06:41:07 EDT · **Closed:** 2026-10-13 07:14:56 EDT
 **Plan:** [202610/agents\_archive\_view.md](https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md)
 
 <!-- sase:links:start -->
@@ -15,8 +15,9 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1kc][2] | The epic whose glossary decisions were answered no; its plan file is the source of truth for the definitions |
+| related | file:explicit:8e6d2109647a608a837cd328 | attached via sase artifact create --bead |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 15 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1kc/README.md
@@ -64,7 +65,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 
 [2026-10-12T18:57:33Z · sase
 
-… and 3073 more characters
+… and 6039 more characters
 
 ## Phases
 
@@ -126,7 +127,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | [bbugyi200.athena.sase-1jm.9.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md) | [sase-1jm.9.6](sase-1jm.9.6.md) | 1 |
 | [bbugyi200.athena.sase-1jm.9.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md) | [sase-1jm.9.7](sase-1jm.9.7.md) | 2 |
 | [bbugyi200.athena.sase-1jm.9.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.8.md) | [sase-1jm.9.8](sase-1jm.9.8.md) | 1 |
-| [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 0 |
+| [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 1 |
 | [bbugyi200.athena.sase-1jm.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.land.md) | [sase-1jm](README.md) | 0 |
 
 ## Commits
@@ -178,6 +179,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | sase | [`a27c625`](https://github.com/sase-org/sase/commit/a27c6252f38fc1c16afea668e301ace616e91fba) | feat(archive): lookup-first link arrivals and selection that survives clearing | [sase-1jm.9.4](sase-1jm.9.4.md) | 2026-10-12 20:46:20 EDT |
 | sase | [`be3a9a5`](https://github.com/sase-org/sase/commit/be3a9a5d1de3179c031f7e7644242287eee7fb68) | feat(agents-archive): quiet restore run with toast, dimmed rows and reveal-after-refresh | [sase-1jm.9.5](sase-1jm.9.5.md) | 2026-10-12 21:34:35 EDT |
 | sase | [`1230bb3`](https://github.com/sase-org/sase/commit/1230bb32c19eea7a5eabad73d2fae48cd5591748) | perf(ace): optimize Archive detail navigation | [sase-1jm.9.8](sase-1jm.9.8.md) | 2026-10-12 23:35:07 EDT |
+| sase | [`010185b`](https://github.com/sase-org/sase/commit/010185b0c47e1c9c70fd90e4b21149a4fb445753) | fix(agents-archive): land container restore, shelf, and Node Finder fixes for sase-1jm.9 | [sase-1jm.9](sase-1jm.9.md) | 2026-10-13 07:43:22 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -199,6 +201,7 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 | read-by | [agent:sase-1jm.9.5][12] | Need epic DECISIONS | 1 |
 | read-by | [agent:sase-1jx.12.1.1][13] | Need existing work items and notes tracking this KNOWN Symvision issue | 1 |
 | read-by | [agent:sase-1jx.12.1.land][14] | See if revival-preview and archive-import issues are already on this epic | 2 |
+| read-by | [agent:toobig-7v.new_project_apply.0][15] | Verify the active Agents Archive epic already owns the stale revive-agent path-label exemption failure. | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.6p.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.1/README.md
@@ -214,5 +217,6 @@ Epic DISCOVERED ISSUEs: #1 is resolved (completion tests pass), and #4/#6 are re
 [12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md
 [13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.1/README.md
 [14]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[15]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-7v.new_project_apply.0/README.md
 
 <!-- sase:referenced-by:end -->
