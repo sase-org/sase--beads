@@ -19,8 +19,20 @@ tool-wait-polling: carry poll backoff across follow slices, throttle the store-w
 
 [2026-10-13T16:24:59Z · sase-1kj.4--1] Carried wait poll backoff across follow_run slices, throttled waiter reconcile to first poll then every 2s, and skipped re-ingest of unchanged events files. Removed unused _clear_event_ingest_stat_cache (tests isolate the memo via monkeypatch). Fake-clock 3s follow: 2 reconciles and backed-off tool_run_show. tests/tool/test_wait_polling.py plus liveness 15 passed; just fix and just _lint-symvision green; no --epic-symbol leftovers.
 
+[2026-10-13T18:23:00Z · sase-1kj.4--3] PROPOSED FOLLOW-UP: xdist worker crash on tests/ace/tui/test_agents_tab_x_row_lifecycle_e2e.py::test_done_row_dismissed_without_signal_and_stays_hidden during core-identity-changed full-suite just check; unrelated to tool-wait-polling
+
+[2026-10-13T18:23:02Z · sase-1kj.4--3] PROPOSED FOLLOW-UP: test_app_import_budget over cap (3518 vs 3513) reproduces at merge-base 1a638eac95 with +0 modules from this phase; already tracked by sase-1ic
+
+[2026-10-13T18:23:40Z · sase-1kj.4--3] Carried wait poll backoff across follow_run slices, throttled waiter reconcile to first poll then every 2s, and skipped re-ingest of unchanged events files. WaitPollState is public on the control facade. Fake-clock 3s follow plus tests/tool/test_wait_polling.py and liveness 15 passed; just fix and just _lint-symvision green; no --epic-symbol leftovers. just check full-suite NEW items: import budget 3518 vs 3513 at merge-base +0 (sase-1ic); xdist worker crash on test_done_row_dismissed_without_signal_and_stays_hidden passed in isolation.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.4.md) | [sase-1kj.4](sase-1kj.4.md) | 0 |
+| [bbugyi200.athena.sase-1kj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.4.md) | [sase-1kj.4](sase-1kj.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`731b7b1`](https://github.com/sase-org/sase/commit/731b7b18b5ac8f31fcce9b84d3894dfe49e2295a) | perf(tool): throttle wait polling and skip unchanged event ingest | [sase-1kj.4](sase-1kj.4.md) | 2026-10-13 14:24:57 EDT |

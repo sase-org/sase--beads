@@ -13,7 +13,7 @@ core-link-index: replace the Python per-row walks behind the app-wide LinkIndex 
 
 ## Dependencies
 
-- **Depends on:** [sase-1kj.5](sase-1kj.5.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kj.5](sase-1kj.5.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1kj.6](sase-1kj.6.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
