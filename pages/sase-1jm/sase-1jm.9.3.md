@@ -22,7 +22,7 @@ archive-chooser-copy: add the READ section, open the chooser on container rows w
 ## Dependencies
 
 - **Depends on:** [sase-1jm.9.1](sase-1jm.9.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.9.5](sase-1jm.9.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.5](sase-1jm.9.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

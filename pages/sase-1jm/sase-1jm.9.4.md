@@ -24,7 +24,7 @@ arrivals-finish: look up before opening the Archive so a miss keeps context, rev
 ## Dependencies
 
 - **Depends on:** [sase-1jm.9.1](sase-1jm.9.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [sase-1jm.9.5](sase-1jm.9.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [sase-1jm.9.5](sase-1jm.9.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -37,3 +37,15 @@ arrivals-finish: look up before opening the Archive so a miss keeps context, rev
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a27c625`](https://github.com/sase-org/sase/commit/a27c6252f38fc1c16afea668e301ace616e91fba) | feat(archive): lookup-first link arrivals and selection that survives clearing | [sase-1jm.9.4](sase-1jm.9.4.md) | 2026-10-12 20:46:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.4--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.4.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_completion.md
 
@@ -39,14 +39,16 @@ Every promise of plan:202610/agents_archive_view.md holds on master with no flag
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.9.1--2][1] | Need epic decisions governing phase implementation | 1 |
 | read-by | [agent:sase-1jm.9.2][2] | Need epic DECISIONS and parent scope | 1 |
-| read-by | [agent:sase-1jm.9.6--3][3] | Verify closing the assigned phase did not close its parent epic | 1 |
-| read-by | [agent:sase-1jm.9.7][4] | Need parent epic DECISIONS for record-light-rows | 2 |
-| read-by | [agent:sase-1jx.12.1.land][5] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
+| read-by | [agent:sase-1jm.9.4--2][3] | Need epic DECISIONS and notes for phase close | 2 |
+| read-by | [agent:sase-1jm.9.6--3][4] | Verify closing the assigned phase did not close its parent epic | 1 |
+| read-by | [agent:sase-1jm.9.7][5] | Need parent epic DECISIONS for record-light-rows | 2 |
+| read-by | [agent:sase-1jx.12.1.land][6] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.4.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->
