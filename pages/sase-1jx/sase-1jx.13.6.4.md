@@ -32,3 +32,17 @@ source-stage: stop cancelled owner refreshes from touching an unmounted modal, k
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c69c312`](https://github.com/sase-org/sase/commit/c69c31236f7c773b6d2d7a51ef146739141623ce) | feat(new-project-wizard): finish Source stage teardown, layout, and spec states | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 2026-10-12 22:54:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.8--2][1] | Identify existing ownership for the clean-base Archive grouping and workflow-label failures | 1 |
+| read-by | [agent:sase-1jx.13.6.4][2] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.8.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1jx
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.49.linker.w1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.49.linker.w1.md) · **Assignee:** `sase-1jx.land`
-**Created:** 2026-10-11 11:13:42 EDT
+**Created:** 2026-10-11 11:13:42 EDT · **Closed:** 2026-10-13 00:12:10 EDT
 **Plan:** [202610/new\_project\_wizard.md](https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md)
 
 <!-- sase:links:start -->
@@ -68,18 +68,26 @@ FOLLOW-UP TRIAGE (complete):
 
 POST-LANDING HANDOFF (for the resuming lander): after sase-1jx closes, propose through /sase_gate the human global reinstall, then sase skill init --force, then the design's disposable-repo smoke (sase project create gh:<you>/sase-wizard-smoke -v private --yes, deleted by hand).
 
+[2026-10-13T04:12:10Z · sase-1jx.13.6.land] Verified landing of root epic sase-1jx. All twelve phases .1-.12 stay closed. Nested child epics 7.1, 10.1, 12.1 were already closed by their own landers. Repair epic sase-1jx.13 and its child sase-1jx.13.6 are now closed: core pin 2fc3d7754a3585180d0d2d7bd7ca1e034de31cdc, operation-scoped Projects outcome dedupe, 80x40 narrow-hints golden with 80x24 retained as named clipped chrome.
+
+Decisions honored: human_only_record=no (no decisions:project-create-human-only strand); glossary_project=yes (glossary:sase-project already says add/create/the wizard also create projects). No memory edits in this turn.
+
+Prior landing note #6 follow-up triage stands: +1 on sase-1ic, sase-1k4, sase-120, sase-1gz, sase-xh, sase-16p, sase-18c; #1 classify_project_candidates resolved; #2 project/suggest:owner fixed; #3 absorbed by 13.3; #4 skill deploy deferred to post-landing human reinstall; #5 New Project unused publics were handled in later repair phases / just symvision is clean.
+
+sase bead epic-symbols sase-1jx empty. origin/master still c69c31236f. Linked plan 202610/new_project_wizard.md marked done. No forced close. Remaining KNOWN/NEW check failures are pre-existing and already owned (sase-1k4, sase-1ic, sase-120, sase-1jm). Post-landing handoff: propose human global reinstall, sase skill init --force, and disposable gh create smoke through /sase_gate; deletion of the smoke repo stays a human step.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1jx.1](sase-1jx.1.md) | sase-github traps the wizard would hit | ✓ closed | small | 2026-10-11 | 1 | 1 |
+| [sase-1jx.1](sase-1jx.1.md) | sase-github traps the wizard would hit | ✓ closed | small | 2026-10-11 | 1 | 2 |
 | [sase-1jx.10](sase-1jx.10.md) | Configure, Review, Progress, init hand-off and Ready for existing repos | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.11](sase-1jx.11.md) | Projects-tab entry points and integration | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.12](sase-1jx.12.md) | Create a new repository from the wizard | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.2](sase-1jx.2.md) | Additive workspace-provider hooks and bare-git implementations | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.3](sase-1jx.3.md) | sase-core candidate classification and creation-form evaluation | ✓ closed | medium | 2026-10-11 | 1 | 2 |
 | [sase-1jx.4](sase-1jx.4.md) | sase-core onboarding plan derivation | ✓ closed | medium | 2026-10-11 | 1 | 2 |
-| [sase-1jx.5](sase-1jx.5.md) | sase-github implements the onboarding hooks | ✓ closed | medium | 2026-10-11 | 1 | 0 |
+| [sase-1jx.5](sase-1jx.5.md) | sase-github implements the onboarding hooks | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.6](sase-1jx.6.md) | Candidate discovery engine and \`sase project suggest\` | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [sase-1jx.7](sase-1jx.7.md) | Onboarding engine and \`sase project add\` | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [sase-1jx.8](sase-1jx.8.md) | \`sase project create\` and the human-only guard | ✓ closed | medium | 2026-10-11 | 1 | 1 |
@@ -89,7 +97,7 @@ POST-LANDING HANDOFF (for the resuming lander): after sase-1jx closes, propose t
 
 ```mermaid
 flowchart TD
-    n0["sase-1jx: New Project wizard — add or create projects from Admin Center ▸ Projects [in_progress]"]
+    n0["sase-1jx: New Project wizard — add or create projects from Admin Center ▸ Projects [closed]"]
     n1["sase-1jx.1: sase-github traps the wizard would hit [closed]"]
     n2["sase-1jx.10: Configure, Review, Progress, init hand-off and Ready for existing repos [closed]"]
     n3["sase-1jx.10.1: Add an existing repository from the New Project wizard [closed]"]
@@ -104,13 +112,13 @@ flowchart TD
     n12["sase-1jx.12.1.2: Configure new repositories with live checks [closed]"]
     n13["sase-1jx.12.1.3: Review and apply the exact create intent [closed]"]
     n14["sase-1jx.12.1.4: Recover incomplete creates and expose the complete wizard [closed]"]
-    n15["sase-1jx.13: Repair New Project wizard defects found while landing sase-1jx [in_progress]"]
+    n15["sase-1jx.13: Repair New Project wizard defects found while landing sase-1jx [closed]"]
     n16["sase-1jx.13.1: Keep explicit create settings and fix candidate classification [closed]"]
     n17["sase-1jx.13.2: Make GitHub create and discovery correct [closed]"]
     n18["sase-1jx.13.3: Fix CLI create and suggest gaps [closed]"]
     n19["sase-1jx.13.4: Finish Projects-tab entry and post-completion integration [closed]"]
     n20["sase-1jx.13.5: Meet the Source stage spec and add its missing guards [closed]"]
-    n21["sase-1jx.13.6: Finish New Project wizard repairs before sase-1jx.13 lands [in_progress]"]
+    n21["sase-1jx.13.6: Finish New Project wizard repairs before sase-1jx.13 lands [closed]"]
     n22["sase-1jx.13.6.1: Close the strict-mode and provider test gaps in sase-core and sase-github [closed]"]
     n23["sase-1jx.13.6.2: Make wizard creates runnable for every provider [closed]"]
     n24["sase-1jx.13.6.3: Integrate wizard outcomes with the real Projects pane [closed]"]
@@ -199,7 +207,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.1/README.md) | [sase-1jx.1](sase-1jx.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.1/README.md) | [sase-1jx.1](sase-1jx.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.md) | [sase-1jx.10](sase-1jx.10.md) | 0 |
 | [bbugyi200.athena.sase-1jx.10.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.10.1.1.md) | [sase-1jx.10.1.1](sase-1jx.10.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.2/README.md) | [sase-1jx.10.1.2](sase-1jx.10.1.2.md) | 1 |
@@ -214,20 +222,20 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.12.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.12.1.4.md) | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1jx.12.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md) | [sase-1jx.12.1](sase-1jx.12.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.13.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.1/README.md) | [sase-1jx.13.1](sase-1jx.13.1.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 0 |
+| [bbugyi200.athena.sase-1jx.13.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.2/README.md) | [sase-1jx.13.2](sase-1jx.13.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.3/README.md) | [sase-1jx.13.3](sase-1jx.13.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.4/README.md) | [sase-1jx.13.4](sase-1jx.13.4.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.5.md) | [sase-1jx.13.5](sase-1jx.13.5.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.1/README.md) | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1jx.13.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.1/README.md) | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 2 |
 | [bbugyi200.athena.sase-1jx.13.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md) | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md) | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md) | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.land/README.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 0 |
+| [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.6.land.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.land.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
 | [bbugyi200.athena.sase-1jx.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.2.md) | [sase-1jx.2](sase-1jx.2.md) | 1 |
 | [bbugyi200.athena.sase-1jx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md) | [sase-1jx.3](sase-1jx.3.md) | 2 |
 | [bbugyi200.athena.sase-1jx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md) | [sase-1jx.4](sase-1jx.4.md) | 2 |
-| [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 0 |
+| [bbugyi200.athena.sase-1jx.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md) | [sase-1jx.5](sase-1jx.5.md) | 1 |
 | [bbugyi200.athena.sase-1jx.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.6.md) | [sase-1jx.6](sase-1jx.6.md) | 1 |
 | [bbugyi200.athena.sase-1jx.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.7.md) | [sase-1jx.7](sase-1jx.7.md) | 0 |
 | [bbugyi200.athena.sase-1jx.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md) | [sase-1jx.7.1.1](sase-1jx.7.1.1.md) | 1 |
@@ -244,11 +252,13 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fa897ce`](https://github.com/sase-org/sase/commit/fa897ced7232bd775f434e838b8b6d876da4826c) | docs(sase): correct github\_orgs description to owner completion plus PR gating, not clone transport | [sase-1jx.1](sase-1jx.1.md) | 2026-10-11 11:43:37 EDT |
+| sase-github | [`sase-github@ad4827c`](https://github.com/sase-org/sase-github/commit/ad4827c5e97ece193a715cbd4d4933989e0e8d0b) | fix(sase-github): bound git clone with timeout, honor SASE\_HOME, narrow host detection, fix github\_orgs docs | [sase-1jx.1](sase-1jx.1.md) | 2026-10-11 11:48:38 EDT |
 | sase-core | [`sase-core@aaec3bf`](https://github.com/sase-org/sase-core/commit/aaec3bf2e888411b66852c00faeadf45b853e8f4) | feat(project-onboarding): classify candidates and evaluate creation forms | [sase-1jx.3](sase-1jx.3.md) | 2026-10-11 13:07:04 EDT |
 | sase | [`1a169fb`](https://github.com/sase-org/sase/commit/1a169fb90904d78092ef31c6f00fe37947537142) | feat(core): add project\_onboarding facade for classify and form evaluation | [sase-1jx.3](sase-1jx.3.md) | 2026-10-11 14:05:35 EDT |
 | sase | [`2b576ef`](https://github.com/sase-org/sase/commit/2b576ef33c54eac46cd35f1c5b298067450904ad) | feat(workspace): add repository onboarding hooks | [sase-1jx.2](sase-1jx.2.md) | 2026-10-11 16:56:58 EDT |
 | sase-core | [`sase-core@792255d`](https://github.com/sase-org/sase-core/commit/792255d53b6ba2aacaf1fef103ec45cac65f487b) | feat(project-onboarding): derive ordered onboarding plans from facts | [sase-1jx.4](sase-1jx.4.md) | 2026-10-11 17:05:10 EDT |
 | sase | [`4f95a21`](https://github.com/sase-org/sase/commit/4f95a21e4a9c760a3818356d73c34eb84943cf46) | feat(project-onboarding): wrap plan\_project\_onboarding in the Python facade | [sase-1jx.4](sase-1jx.4.md) | 2026-10-11 17:11:58 EDT |
+| sase-github | [`sase-github@f1da372`](https://github.com/sase-org/sase-github/commit/f1da3725f0100839341e0eb89cdb202fc08d8444) | feat(github): add workspace onboarding hooks for GitHub repo refs | [sase-1jx.5](sase-1jx.5.md) | 2026-10-11 17:20:44 EDT |
 | sase | [`d8d803f`](https://github.com/sase-org/sase/commit/d8d803f8cd97ace114a8162d9c97170a2b2e77cd) | feat(project-onboarding): add candidate discovery engine and sase project suggest | [sase-1jx.6](sase-1jx.6.md) | 2026-10-11 18:54:41 EDT |
 | sase | [`4a5c040`](https://github.com/sase-org/sase/commit/4a5c04043b7b8711043a219c6585947e35274353) | feat(tui): add test-pushable New Project Source stage | [sase-1jx.9](sase-1jx.9.md) | 2026-10-11 20:02:18 EDT |
 | sase | [`9756adf`](https://github.com/sase-org/sase/commit/9756adf38eb9c8c3e14ed2f291141eb9c3cdd8c0) | feat(project-onboarding): add plan documents, facts, journals, and actor detection | [sase-1jx.7.1.1](sase-1jx.7.1.1.md) | 2026-10-11 22:35:25 EDT |
@@ -272,14 +282,17 @@ flowchart TD
 | sase | [`241e33a`](https://github.com/sase-org/sase/commit/241e33a79721b725c4808f6988ad139bacd99ff5) | feat(new-project): recover incomplete creates and expose the complete wizard | [sase-1jx.12.1.4](sase-1jx.12.1.4.md) | 2026-10-12 14:00:25 EDT |
 | sase | [`5cb48bd`](https://github.com/sase-org/sase/commit/5cb48bdd36933d2512dc0669f71b5a0bf22eaf30) | refactor(ace): privatize test-only symbols after the create wizard | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 14:59:57 EDT |
 | sase--plans | [`sase--plans@81830f0`](https://github.com/sase-org/sase--plans/commit/81830f0439a5cc16ea72b5a0f11804f656b83599) | docs(plans): mark the create-repository wizard plan done | [sase-1jx.12.1](sase-1jx.12.1.md) | 2026-10-12 15:04:38 EDT |
+| sase-github | [`sase-github@4def532`](https://github.com/sase-org/sase-github/commit/4def5328064a46aab247029be0091a38beee9130) | fix(onboarding): make GitHub create and discovery correct | [sase-1jx.13.2](sase-1jx.13.2.md) | 2026-10-12 15:33:11 EDT |
 | sase-core | [`sase-core@98c3682`](https://github.com/sase-org/sase-core/commit/98c3682f293892a4e9c9a31fa25dd0a05517d367) | fix(project-onboarding): keep explicit off bools, strict excluded-field conflicts, primary-sibling LOCAL merge, annotation-only inventory | [sase-1jx.13.1](sase-1jx.13.1.md) | 2026-10-12 15:37:56 EDT |
 | sase | [`39a081d`](https://github.com/sase-org/sase/commit/39a081d3ea6bc55e6187d65f615d372ea5410f9d) | fix(ace): complete Projects wizard entry repair | [sase-1jx.13.4](sase-1jx.13.4.md) | 2026-10-12 16:53:49 EDT |
 | sase | [`926645d`](https://github.com/sase-org/sase/commit/926645df890ea2ca6e11f381c0e355f45614d005) | fix(project): round-trip create apply\_argv and honor bare-git dirs | [sase-1jx.13.3](sase-1jx.13.3.md) | 2026-10-12 17:09:24 EDT |
 | sase | [`90db7f7`](https://github.com/sase-org/sase/commit/90db7f78eb9a87413fb65b24945c152c999c98a4) | feat(new-project-wizard): meet Source stage spec and add missing guards | [sase-1jx.13.5](sase-1jx.13.5.md) | 2026-10-12 18:57:23 EDT |
 | sase-core | [`sase-core@2fc3d77`](https://github.com/sase-org/sase-core/commit/2fc3d7754a3585180d0d2d7bd7ca1e034de31cdc) | fix(project-onboarding): conflict excluded fields at default in strict mode | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 2026-10-12 20:25:01 EDT |
+| sase-github | [`sase-github@8712c15`](https://github.com/sase-org/sase-github/commit/8712c153aa969eef55bccbabe2e0e94a50764a68) | test(onboarding): cover add\_readme argv paths for gh repo create | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 2026-10-12 20:30:39 EDT |
 | sase | [`9d4e90e`](https://github.com/sase-org/sase/commit/9d4e90e51db406cd29e316089da6dac0103bb147) | fix(onboarding): repair create wizard provider flows | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 2026-10-12 21:15:53 EDT |
 | sase | [`bde3e7b`](https://github.com/sase-org/sase/commit/bde3e7b213e43ec22a2b82a0fb90bcac594eaf6c) | feat(ace): wire Projects pane lookup, help, and show-new keys | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 2026-10-12 21:48:25 EDT |
 | sase | [`c69c312`](https://github.com/sase-org/sase/commit/c69c31236f7c773b6d2d7a51ef146739141623ce) | feat(new-project-wizard): finish Source stage teardown, layout, and spec states | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 2026-10-12 22:54:31 EDT |
+| sase | [`826cad0`](https://github.com/sase-org/sase/commit/826cad0513d0aea1cabd3222adfe73a12d562b58) | fix(projects): finish New Project wizard landing gaps | [sase-1jx.13.6](sase-1jx.13.6.md) | 2026-10-13 00:16:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
