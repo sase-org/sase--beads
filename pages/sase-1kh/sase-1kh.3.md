@@ -28,3 +28,15 @@ monitor-linked-cwd: default sase monitor start cwd to the caller's directory ins
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`64bd007`](https://github.com/sase-org/sase/commit/64bd0072040862eb93916ea30bd0c899352cb9c4) | feat(monitor): default monitor cwd to linked clone directory | [sase-1kh.3](sase-1kh.3.md) | 2026-10-13 10:43:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kh.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1kh.3/README.md
+
+<!-- sase:referenced-by:end -->
