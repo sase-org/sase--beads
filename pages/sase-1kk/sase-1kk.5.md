@@ -13,7 +13,7 @@ py-index-readers: move the sase-core pin and switch the lifecycle schema check, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1kk.1](sase-1kk.1.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kk.1](sase-1kk.1.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1kk.3](sase-1kk.3.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kk.6](sase-1kk.6.md) ◐ · ⧖ 2026-10-13
 

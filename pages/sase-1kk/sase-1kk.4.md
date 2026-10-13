@@ -13,8 +13,8 @@ py-archive-adapter: move the sase-core pin, replace all stdlib sqlite3 use in ac
 
 ## Dependencies
 
-- **Depends on:** [sase-1kk.1](sase-1kk.1.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [sase-1kk.2](sase-1kk.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kk.1](sase-1kk.1.md) ✓ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kk.2](sase-1kk.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kk.6](sase-1kk.6.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
