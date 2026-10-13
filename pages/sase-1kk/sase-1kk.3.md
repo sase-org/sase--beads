@@ -19,7 +19,7 @@ core-index-readers: add read-only no-migrate schema-version and column-projectio
 
 ## Dependencies
 
-- **Blocks:** [sase-1kk.5](sase-1kk.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kk.5](sase-1kk.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

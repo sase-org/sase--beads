@@ -14,7 +14,7 @@ guard: add a static test that forbids stdlib sqlite3 connections outside an allo
 ## Dependencies
 
 - **Depends on:** [sase-1kk.4](sase-1kk.4.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [sase-1kk.5](sase-1kk.5.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kk.5](sase-1kk.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

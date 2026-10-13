@@ -20,7 +20,7 @@ stopgap: serialize every Python-sqlite3 connection and Rust call on the dismisse
 ## Dependencies
 
 - **Blocks:** [sase-1kk.4](sase-1kk.4.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [sase-1kk.5](sase-1kk.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kk.5](sase-1kk.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ stopgap: serialize every Python-sqlite3 connection and Rust call on the dismisse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`96e003c`](https://github.com/sase-org/sase/commit/96e003ce12de0dd53ad244c051e61ccb86df185d) | fix(tui): serialize SQLite access and recover dismissed index | [sase-1kk.1](sase-1kk.1.md) | 2026-10-13 14:17:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kk.1][1] | Confirm the requested phase bead closure | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.1/README.md
+
+<!-- sase:referenced-by:end -->
