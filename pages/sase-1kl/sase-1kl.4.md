@@ -14,7 +14,7 @@ release: deploy the clock, drive Full CI to green on a tip with the fixes, triag
 ## Dependencies
 
 - **Depends on:** [sase-1kl.1](sase-1kl.1.md) ✓ · ⧖ 2026-10-13
-- **Depends on:** [sase-1kl.2](sase-1kl.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kl.2](sase-1kl.2.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1kl.3](sase-1kl.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents

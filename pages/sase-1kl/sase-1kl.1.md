@@ -225,3 +225,15 @@ sase/memory/glossary/patch.md 2ms
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8959b0e`](https://github.com/sase-org/sase/commit/8959b0e6fc6b048ee60f79731e676db994cb2ce7) | fix(tests): stabilize New Project flows and sudo checks | [sase-1kl.1](sase-1kl.1.md) | 2026-10-13 16:15:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kl.1][1] | Confirm the assigned phase remains closed after the verification clarification | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.1/README.md
+
+<!-- sase:referenced-by:end -->
