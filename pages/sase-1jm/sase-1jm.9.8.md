@@ -15,7 +15,7 @@ land-proof: fix the Archive help PNG scroll stop, regenerate help-modal goldens 
 
 - **Depends on:** [sase-1jm.9.2](sase-1jm.9.2.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.9.5](sase-1jm.9.5.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [sase-1jm.9.6](sase-1jm.9.6.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jm.9.6](sase-1jm.9.6.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [sase-1jm.9.7](sase-1jm.9.7.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
