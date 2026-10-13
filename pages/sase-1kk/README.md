@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.4.md) | [sase-1kk.4](sase-1kk.4.md) | 1 |
 | [bbugyi200.athena.sase-1kk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.5/README.md) | [sase-1kk.5](sase-1kk.5.md) | 1 |
 | [bbugyi200.athena.sase-1kk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.6.md) | [sase-1kk.6](sase-1kk.6.md) | 1 |
-| [bbugyi200.athena.sase-1kk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.land.md) | [sase-1kk](README.md) | 1 |
+| [bbugyi200.athena.sase-1kk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.land.md) | [sase-1kk](README.md) | 2 |
 
 ## Commits
 
@@ -94,6 +94,7 @@ flowchart TD
 | sase | [`e8ec9cb`](https://github.com/sase-org/sase/commit/e8ec9cb29138643fb04f3fea9e947de883d9fc75) | refactor(ace): route dismissed bundle index through Rust | [sase-1kk.4](sase-1kk.4.md) | 2026-10-13 17:53:48 EDT |
 | sase | [`73a61e6`](https://github.com/sase-org/sase/commit/73a61e694495691e2add372947503aa4151adba2) | test(sqlite): guard single-library ownership and document it | [sase-1kk.6](sase-1kk.6.md) | 2026-10-13 18:18:11 EDT |
 | sase | [`9271ed1`](https://github.com/sase-org/sase/commit/9271ed1ed9d4891c0b3fc5c595bb26c9d1453e17) | fix(sqlite): finish single-owner landing gaps | [sase-1kk](README.md) | 2026-10-13 19:05:46 EDT |
+| sase--plans | [`sase--plans@3d6f6a1`](https://github.com/sase-org/sase--plans/commit/3d6f6a1169621cb598cd738b105b1cb9fa027963) | docs(plan): mark single-owner epic plan done | [sase-1kk](README.md) | 2026-10-13 19:09:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
