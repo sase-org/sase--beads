@@ -27,7 +27,7 @@ On a loaded host such as apollo, the Agents roster is usable soon after first pa
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1kj.1](sase-1kj.1.md) | Memoize macro-plugin entry-point discovery | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
+| [sase-1kj.1](sase-1kj.1.md) | Memoize macro-plugin entry-point discovery | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kj.2](sase-1kj.2.md) | Coalesce deferred ToolRun glance refreshes | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kj.3](sase-1kj.3.md) | Trim self-inflicted Agents-loader critical-path costs | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
 | [sase-1kj.4](sase-1kj.4.md) | Back off sase tool wait and join polling | ✓ closed | small | 2026-10-13 | 1 | 0 |
@@ -41,7 +41,7 @@ On a loaded host such as apollo, the Agents roster is usable soon after first pa
 ```mermaid
 flowchart TD
     n0["sase-1kj: Stop sase TUI startup starvation on loaded hosts [in_progress]"]
-    n1["sase-1kj.1: Memoize macro-plugin entry-point discovery [in_progress]"]
+    n1["sase-1kj.1: Memoize macro-plugin entry-point discovery [closed]"]
     n2["sase-1kj.2: Coalesce deferred ToolRun glance refreshes [closed]"]
     n3["sase-1kj.3: Trim self-inflicted Agents-loader critical-path costs [in_progress]"]
     n4["sase-1kj.4: Back off sase tool wait and join polling [closed]"]
@@ -69,7 +69,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.1.md) | [sase-1kj.1](sase-1kj.1.md) | 0 |
+| [bbugyi200.athena.sase-1kj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.1.md) | [sase-1kj.1](sase-1kj.1.md) | 1 |
 | [bbugyi200.athena.sase-1kj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.2/README.md) | [sase-1kj.2](sase-1kj.2.md) | 1 |
 | [bbugyi200.athena.sase-1kj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.3/README.md) | [sase-1kj.3](sase-1kj.3.md) | 0 |
 | [bbugyi200.athena.sase-1kj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.4.md) | [sase-1kj.4](sase-1kj.4.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`82aa8a7`](https://github.com/sase-org/sase/commit/82aa8a7a88b10c0d3aba515a834e0503cc99771c) | fix(tui): coalesce deferred ToolRun glance refreshes behind Agents load | [sase-1kj.2](sase-1kj.2.md) | 2026-10-13 12:47:34 EDT |
+| sase | [`ce1940f`](https://github.com/sase-org/sase/commit/ce1940f39fd733f5777f4142c2703042b2a8b82b) | feat(macro): add plugin discovery and plugin input types | [sase-1kj.1](sase-1kj.1.md) | 2026-10-13 13:11:33 EDT |
