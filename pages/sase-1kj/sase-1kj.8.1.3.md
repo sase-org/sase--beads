@@ -13,7 +13,7 @@ python-integration: install the thin single-flight adapters, preserve Patch defe
 
 ## Dependencies
 
-- **Depends on:** [sase-1kj.8.1.2](sase-1kj.8.1.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kj.8.1.2](sase-1kj.8.1.2.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

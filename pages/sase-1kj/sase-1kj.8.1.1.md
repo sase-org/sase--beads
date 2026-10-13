@@ -19,6 +19,8 @@
 | related | file:explicit:d2542373c3e77e5e669916e9 | attached via sase artifact create --bead |
 | related | file:explicit:eeb8a379bc66ce2ef413446a | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -58,7 +60,7 @@ build_synthetic_scale_rows() is available if a later host has no nonempty real a
 
 ## Dependencies
 
-- **Blocks:** [sase-1kj.8.1.2](sase-1kj.8.1.2.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.8.1.2](sase-1kj.8.1.2.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -71,3 +73,15 @@ build_synthetic_scale_rows() is available if a later host has no nonempty real a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bad0d0a`](https://github.com/sase-org/sase/commit/bad0d0ac361be172f5d200f86390f64f6a8fc5f6) | test(artifact-links): pin link-index parity oracle and perf baseline helper | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 2026-10-13 18:24:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.8.1.1][1] | Need remaining notes, decisions, and full description | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md
+
+<!-- sase:referenced-by:end -->
