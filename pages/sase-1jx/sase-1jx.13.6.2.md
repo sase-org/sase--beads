@@ -28,3 +28,15 @@ create-path: give the TUI create submission a parse_create_ref-valid ref, hide v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9d4e90e`](https://github.com/sase-org/sase/commit/9d4e90e51db406cd29e316089da6dac0103bb147) | fix(onboarding): repair create wizard provider flows | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 2026-10-12 21:15:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jx.13.6.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md
+
+<!-- sase:referenced-by:end -->

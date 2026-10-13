@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/new_project_wizard.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/new_project_wizard.md
 
@@ -113,7 +113,7 @@ flowchart TD
     n21["sase-1jx.13.6: Finish New Project wizard repairs before sase-1jx.13 lands [in_progress]"]
     n22["sase-1jx.13.6.1: Close the strict-mode and provider test gaps in sase-core and sase-github [closed]"]
     n23["sase-1jx.13.6.2: Make wizard creates runnable for every provider [closed]"]
-    n24["sase-1jx.13.6.3: Integrate wizard outcomes with the real Projects pane [in_progress]"]
+    n24["sase-1jx.13.6.3: Integrate wizard outcomes with the real Projects pane [closed]"]
     n25["sase-1jx.13.6.4: Finish Source stage teardown, layout, and spec states [in_progress]"]
     n26["sase-1jx.2: Additive workspace-provider hooks and bare-git implementations [closed]"]
     n27["sase-1jx.3: sase-core candidate classification and creation-form evaluation [closed]"]
@@ -220,7 +220,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1jx.13.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.5.md) | [sase-1jx.13.5](sase-1jx.13.5.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.1/README.md) | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md) | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 1 |
-| [bbugyi200.athena.sase-1jx.13.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md) | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1jx.13.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.3/README.md) | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1jx.13.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.4/README.md) | [sase-1jx.13.6.4](sase-1jx.13.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.land/README.md) | [sase-1jx.13.6](sase-1jx.13.6.md) | 0 |
 | [bbugyi200.athena.sase-1jx.13.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jx.13.land.md) | [sase-1jx.13](sase-1jx.13.md) | 0 |
@@ -278,6 +278,7 @@ flowchart TD
 | sase | [`90db7f7`](https://github.com/sase-org/sase/commit/90db7f78eb9a87413fb65b24945c152c999c98a4) | feat(new-project-wizard): meet Source stage spec and add missing guards | [sase-1jx.13.5](sase-1jx.13.5.md) | 2026-10-12 18:57:23 EDT |
 | sase-core | [`sase-core@2fc3d77`](https://github.com/sase-org/sase-core/commit/2fc3d7754a3585180d0d2d7bd7ca1e034de31cdc) | fix(project-onboarding): conflict excluded fields at default in strict mode | [sase-1jx.13.6.1](sase-1jx.13.6.1.md) | 2026-10-12 20:25:01 EDT |
 | sase | [`9d4e90e`](https://github.com/sase-org/sase/commit/9d4e90e51db406cd29e316089da6dac0103bb147) | fix(onboarding): repair create wizard provider flows | [sase-1jx.13.6.2](sase-1jx.13.6.2.md) | 2026-10-12 21:15:53 EDT |
+| sase | [`bde3e7b`](https://github.com/sase-org/sase/commit/bde3e7b213e43ec22a2b82a0fb90bcac594eaf6c) | feat(ace): wire Projects pane lookup, help, and show-new keys | [sase-1jx.13.6.3](sase-1jx.13.6.3.md) | 2026-10-12 21:48:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -287,18 +288,20 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jx.1][1] | epic scope | 1 |
 | read-by | [agent:sase-1jx.12.1.land][2] | Confirm the containing epic stayed open | 1 |
-| read-by | [agent:sase-1jx.3][3] | Need parent epic context and remaining notes | 1 |
-| read-by | [agent:sase-1jx.4][4] | Need parent epic decisions and full plan context | 1 |
-| read-by | [agent:sase-1jx.5][5] | need epic scope and decisions | 1 |
-| read-by | [agent:sase-1jx.7.1.1][6] | Need status to re-key stale epic-symbols | 1 |
-| read-by | [agent:sase-1jx.7.1.land][7] | Confirm epic and phase stay closed and the wizard epic stays open | 2 |
+| read-by | [agent:sase-1jx.13.6.2][3] | Need root epic decisions inherited by this phase | 1 |
+| read-by | [agent:sase-1jx.3][4] | Need parent epic context and remaining notes | 1 |
+| read-by | [agent:sase-1jx.4][5] | Need parent epic decisions and full plan context | 1 |
+| read-by | [agent:sase-1jx.5][6] | need epic scope and decisions | 1 |
+| read-by | [agent:sase-1jx.7.1.1][7] | Need status to re-key stale epic-symbols | 1 |
+| read-by | [agent:sase-1jx.7.1.land][8] | Confirm epic and phase stay closed and the wizard epic stays open | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.13.6.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.4/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.5/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.1/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

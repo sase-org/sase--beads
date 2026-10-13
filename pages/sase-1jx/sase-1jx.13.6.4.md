@@ -13,7 +13,7 @@ source-stage: stop cancelled owner refreshes from touching an unmounted modal, k
 
 ## Dependencies
 
-- **Depends on:** [sase-1jx.13.6.3](sase-1jx.13.6.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [sase-1jx.13.6.3](sase-1jx.13.6.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
