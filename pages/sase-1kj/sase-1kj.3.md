@@ -19,7 +19,7 @@ loader-path-trims: read the dismissed index without write transactions (which fi
 
 ## Dependencies
 
-- **Blocks:** [sase-1kj.7](sase-1kj.7.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.7](sase-1kj.7.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

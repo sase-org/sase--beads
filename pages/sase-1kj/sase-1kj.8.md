@@ -20,4 +20,4 @@ core-link-index: replace the Python per-row walks behind the app-wide LinkIndex 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8/README.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |

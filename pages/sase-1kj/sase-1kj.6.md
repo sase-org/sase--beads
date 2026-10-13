@@ -18,7 +18,7 @@ startup-readiness-gate: replace the 3 s release with a long safety timeout, keep
 ## Dependencies
 
 - **Depends on:** [sase-1kj.5](sase-1kj.5.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1kj.7](sase-1kj.7.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.7](sase-1kj.7.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.8](sase-1kj.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -32,3 +32,15 @@ startup-readiness-gate: replace the 3 s release with a long safety timeout, keep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bda93ba`](https://github.com/sase-org/sase/commit/bda93bab64d99a98c1bf5570be42c666bf56fc5c) | feat(tui): gate hidden startup work on Agents readiness | [sase-1kj.6](sase-1kj.6.md) | 2026-10-13 17:36:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.6][1] | Need remaining notes, design details, and epic context | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.6/README.md
+
+<!-- sase:referenced-by:end -->

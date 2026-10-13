@@ -33,7 +33,7 @@ On a loaded host such as apollo, the Agents roster is usable soon after first pa
 | [sase-1kj.4](sase-1kj.4.md) | Back off sase tool wait and join polling | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kj.5](sase-1kj.5.md) | Stop the Patch relation-index treadmill | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1kj.6](sase-1kj.6.md) | Gate hidden startup work on Agents readiness | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1kj.7](sase-1kj.7.md) | Make startup cliffs diagnosable from telemetry | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
+| [sase-1kj.7](sase-1kj.7.md) | Make startup cliffs diagnosable from telemetry | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kj.8](sase-1kj.8.md) | Move the artifact-link walks into sase-core | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 
 ## Lineage
@@ -47,8 +47,12 @@ flowchart TD
     n4["sase-1kj.4: Back off sase tool wait and join polling [closed]"]
     n5["sase-1kj.5: Stop the Patch relation-index treadmill [closed]"]
     n6["sase-1kj.6: Gate hidden startup work on Agents readiness [closed]"]
-    n7["sase-1kj.7: Make startup cliffs diagnosable from telemetry [in_progress]"]
+    n7["sase-1kj.7: Make startup cliffs diagnosable from telemetry [closed]"]
     n8["sase-1kj.8: Move the artifact-link walks into sase-core [in_progress]"]
+    n9["sase-1kj.8.1: Move artifact-link indexing into the Rust core [in_progress]"]
+    n10["sase-1kj.8.1.1: Capture artifact-link parity and performance baselines [in_progress]"]
+    n11["sase-1kj.8.1.2: Build the shared Rust artifact-link index and opaque binding [in_progress]"]
+    n12["sase-1kj.8.1.3: Route link chips and Patch projections through the shared native handle [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -57,12 +61,18 @@ flowchart TD
     n0 --> n6
     n0 --> n7
     n0 --> n8
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
     n3 -.-> n7
     n5 -.-> n6
     n5 -.-> n7
     n5 -.-> n8
     n6 -.-> n7
     n6 -.-> n8
+    n10 -.-> n11
+    n11 -.-> n12
 ```
 
 ## Agents
@@ -75,8 +85,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1kj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.4.md) | [sase-1kj.4](sase-1kj.4.md) | 1 |
 | [bbugyi200.athena.sase-1kj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.5.md) | [sase-1kj.5](sase-1kj.5.md) | 1 |
 | [bbugyi200.athena.sase-1kj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.6/README.md) | [sase-1kj.6](sase-1kj.6.md) | 1 |
-| [bbugyi200.athena.sase-1kj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.7/README.md) | [sase-1kj.7](sase-1kj.7.md) | 0 |
-| [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8/README.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |
+| [bbugyi200.athena.sase-1kj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.7.md) | [sase-1kj.7](sase-1kj.7.md) | 1 |
+| [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md) | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md) | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.land/README.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 0 |
 | [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.land/README.md) | [sase-1kj](README.md) | 0 |
 
 ## Commits
@@ -89,3 +103,4 @@ flowchart TD
 | sase | [`731b7b1`](https://github.com/sase-org/sase/commit/731b7b18b5ac8f31fcce9b84d3894dfe49e2295a) | perf(tool): throttle wait polling and skip unchanged event ingest | [sase-1kj.4](sase-1kj.4.md) | 2026-10-13 14:24:57 EDT |
 | sase | [`085f5ec`](https://github.com/sase-org/sase/commit/085f5eceb79272a04a41f236dbfadac948945fb9) | perf(ace): memoize and defer Patch relation-index builds | [sase-1kj.5](sase-1kj.5.md) | 2026-10-13 15:55:03 EDT |
 | sase | [`bda93ba`](https://github.com/sase-org/sase/commit/bda93bab64d99a98c1bf5570be42c666bf56fc5c) | feat(tui): gate hidden startup work on Agents readiness | [sase-1kj.6](sase-1kj.6.md) | 2026-10-13 17:36:02 EDT |
+| sase | [`3c69bf5`](https://github.com/sase-org/sase/commit/3c69bf5a976ab97154a63a317393519c6616a338) | feat(tui): add startup telemetry and agent loader observability | [sase-1kj.7](sase-1kj.7.md) | 2026-10-13 18:19:06 EDT |
