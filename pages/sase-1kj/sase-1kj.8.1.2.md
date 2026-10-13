@@ -13,7 +13,7 @@ native-index: implement the immutable core index, indexed row and projection que
 
 ## Dependencies
 
-- **Depends on:** [sase-1kj.8.1.1](sase-1kj.8.1.1.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1kj.8.1.1](sase-1kj.8.1.1.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.8.1.3](sase-1kj.8.1.3.md) ◐ · ⧖ 2026-10-13
 
 ## Agents

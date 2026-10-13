@@ -50,7 +50,7 @@ flowchart TD
     n7["sase-1kj.7: Make startup cliffs diagnosable from telemetry [closed]"]
     n8["sase-1kj.8: Move the artifact-link walks into sase-core [in_progress]"]
     n9["sase-1kj.8.1: Move artifact-link indexing into the Rust core [in_progress]"]
-    n10["sase-1kj.8.1.1: Capture artifact-link parity and performance baselines [in_progress]"]
+    n10["sase-1kj.8.1.1: Capture artifact-link parity and performance baselines [closed]"]
     n11["sase-1kj.8.1.2: Build the shared Rust artifact-link index and opaque binding [in_progress]"]
     n12["sase-1kj.8.1.3: Route link chips and Patch projections through the shared native handle [in_progress]"]
     n0 --> n1
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.6/README.md) | [sase-1kj.6](sase-1kj.6.md) | 1 |
 | [bbugyi200.athena.sase-1kj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.7.md) | [sase-1kj.7](sase-1kj.7.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |
-| [bbugyi200.athena.sase-1kj.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md) | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md) | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md) | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.land/README.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 0 |
@@ -104,3 +104,4 @@ flowchart TD
 | sase | [`085f5ec`](https://github.com/sase-org/sase/commit/085f5eceb79272a04a41f236dbfadac948945fb9) | perf(ace): memoize and defer Patch relation-index builds | [sase-1kj.5](sase-1kj.5.md) | 2026-10-13 15:55:03 EDT |
 | sase | [`bda93ba`](https://github.com/sase-org/sase/commit/bda93bab64d99a98c1bf5570be42c666bf56fc5c) | feat(tui): gate hidden startup work on Agents readiness | [sase-1kj.6](sase-1kj.6.md) | 2026-10-13 17:36:02 EDT |
 | sase | [`3c69bf5`](https://github.com/sase-org/sase/commit/3c69bf5a976ab97154a63a317393519c6616a338) | feat(tui): add startup telemetry and agent loader observability | [sase-1kj.7](sase-1kj.7.md) | 2026-10-13 18:19:06 EDT |
+| sase | [`bad0d0a`](https://github.com/sase-org/sase/commit/bad0d0ac361be172f5d200f86390f64f6a8fc5f6) | test(artifact-links): pin link-index parity oracle and perf baseline helper | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 2026-10-13 18:24:51 EDT |

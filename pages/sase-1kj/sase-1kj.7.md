@@ -34,3 +34,15 @@ startup-telemetry: always-on loader disk substage timings, plus release reason a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3c69bf5`](https://github.com/sase-org/sase/commit/3c69bf5a976ab97154a63a317393519c6616a338) | feat(tui): add startup telemetry and agent loader observability | [sase-1kj.7](sase-1kj.7.md) | 2026-10-13 18:19:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.7--1][1] | Need phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.7.md
+
+<!-- sase:referenced-by:end -->
