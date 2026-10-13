@@ -46,7 +46,9 @@ record-light-rows: carry bundle_path, stop_time, and dismissed_at on the sase-co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.9.7][1] | Need remaining notes, decisions, and design details | 6 |
+| read-by | [agent:sase-1jm.9.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

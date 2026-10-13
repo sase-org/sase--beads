@@ -42,7 +42,9 @@ archive-restore-run: emit one toast with failure reasons, keep the parked Inbox 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.9.5][1] | Need phase scope and design file | 3 |
+| read-by | [agent:sase-1jm.9.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

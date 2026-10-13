@@ -41,7 +41,9 @@ bridges-finish: use the restore-decision shelf hint and consistent plurals, stop
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.9.6--3][1] | Review epic progress and recorded clean-base check failures before closing it | 2 |
+| read-by | [agent:sase-1jm.9.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

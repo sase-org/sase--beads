@@ -46,8 +46,10 @@ archive-actions: add the ⏎ chooser's ARCHIVE section (Restore to inbox by defa
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1jx.10.1.4][1] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
+| read-by | [agent:sase-1jm.9.land][1] | Confirm every sase-1jm descendant is closed before parent close | 1 |
+| read-by | [agent:sase-1jx.10.1.4][2] | Need status of beads named by stale --epic-symbol rows that just check failed on | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.10.1.4/README.md
 
 <!-- sase:referenced-by:end -->

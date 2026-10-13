@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view_phase.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_phase.md
 
@@ -62,7 +62,8 @@ Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/
 | read-by | [agent:sase-1jm.3.1.5][5] | Need parent epic decisions and recorded contracts | 1 |
 | read-by | [agent:sase-1jm.3.1.6][6] | Need epic DECISIONS and scope | 1 |
 | read-by | [agent:sase-1jm.4][7] | Need child-epic structure precedent for decomposing sase-1jm.4 | 1 |
-| read-by | [agent:sase-1jx.7.1.land][8] | See why archive_read_only_context whitelist went stale | 2 |
+| read-by | [agent:sase-1jm.9.land][8] | Confirm every sase-1jm descendant is closed before parent close | 1 |
+| read-by | [agent:sase-1jx.7.1.land][9] | See why archive_read_only_context whitelist went stale | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.2/README.md
@@ -71,6 +72,7 @@ Check ToolRun 1e1da720999d795a59d0d544714d21b8 (no_new_failures; known sase-1ic/
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.5/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.6/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

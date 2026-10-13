@@ -47,7 +47,9 @@ archive-bridges: add the one-line Archive shelf docked under the Inbox node colu
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.7][1] | Need remaining notes and full description | 3 |
+| read-by | [agent:sase-1jm.9.land][2] | Confirm every sase-1jm descendant is closed before parent close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

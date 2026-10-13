@@ -43,7 +43,9 @@ archive-chooser-copy: add the READ section, open the chooser on container rows w
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.9.3--2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1jm.9.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

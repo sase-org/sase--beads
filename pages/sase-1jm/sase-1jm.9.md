@@ -23,7 +23,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_completion.md
 
@@ -65,13 +65,14 @@ Every promise of plan:202610/agents_archive_view.md holds on master with no flag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 1 |
+| [bbugyi200.athena.sase-1jm.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md) | [sase-1jm.9](sase-1jm.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`010185b`](https://github.com/sase-org/sase/commit/010185b0c47e1c9c70fd90e4b21149a4fb445753) | fix(agents-archive): land container restore, shelf, and Node Finder fixes for sase-1jm.9 | [sase-1jm.9](sase-1jm.9.md) | 2026-10-13 07:43:22 EDT |
+| sase--plans | [`sase--plans@8c9cef3`](https://github.com/sase-org/sase--plans/commit/8c9cef33cafa4cf3f3dcb17217dca26a684573f2) | docs(plans): add Agents Archive view, completion, and landing plans | [sase-1jm.9](sase-1jm.9.md) | 2026-10-13 07:48:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -85,8 +86,9 @@ Every promise of plan:202610/agents_archive_view.md holds on master with no flag
 | read-by | [agent:sase-1jm.9.5][4] | Need epic DECISIONS | 1 |
 | read-by | [agent:sase-1jm.9.6--3][5] | Verify closing the assigned phase did not close its parent epic | 1 |
 | read-by | [agent:sase-1jm.9.7][6] | Need parent epic DECISIONS for record-light-rows | 2 |
-| read-by | [agent:sase-1jx.12.1.land][7] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
-| read-by | [agent:toobig-7v.new_project_apply.0][8] | Check the active Archive epic child for the stale revive-agent exemption follow-up. | 1 |
+| read-by | [agent:sase-1jm.9.land][7] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:sase-1jx.12.1.land][8] | Need the remaining archive epic scope before noting jump-legend failures | 1 |
+| read-by | [agent:toobig-7v.new_project_apply.0][9] | Check the active Archive epic child for the stale revive-agent exemption follow-up. | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.2/README.md
@@ -94,7 +96,8 @@ Every promise of plan:202610/agents_archive_view.md holds on master with no flag
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.9.6.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.7/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-7v.new_project_apply.0/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jx.12.1.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-7v.new_project_apply.0/README.md
 
 <!-- sase:referenced-by:end -->

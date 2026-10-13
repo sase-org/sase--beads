@@ -28,3 +28,15 @@ archive-projection: build a cached sase-core archive corpus over the v3 index. I
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1jm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.2.md) | [sase-1jm.2](sase-1jm.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1jm.9.land][1] | Confirm every sase-1jm descendant is closed before parent close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
+
+<!-- sase:referenced-by:end -->

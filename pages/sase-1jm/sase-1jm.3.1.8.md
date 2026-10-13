@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_archive_view_landing_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_archive_view_landing_fixes.md
 
@@ -84,8 +84,10 @@ Visual: `just test-visual -- tests/ace/tui/visual/test_ace_png_snapshots_agents_
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.3.1.8.1][1] | epic decisions and scope | 1 |
 | read-by | [agent:sase-1jm.3.1.8.5][2] | need child epic scope | 1 |
+| read-by | [agent:sase-1jm.9.land][3] | Confirm every sase-1jm descendant is closed before parent close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.3.1.8.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/record_deck_refresh.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/record_deck_refresh.md
 
@@ -57,11 +57,13 @@ Every agent the Agents tab can select (an inbox agent, a hydrated archived run, 
 | read-by | [agent:sase-1jm.4.2.4][3] | Need parent epic DECISIONS and notes | 1 |
 | read-by | [agent:sase-1jm.4.2.5][4] | Need epic scope for proof phase | 1 |
 | read-by | [agent:sase-1jm.4.2.land--1][5] | Need current phase scope and landing evidence before closeout | 1 |
+| read-by | [agent:sase-1jm.9.land][6] | Confirm every sase-1jm descendant is closed before parent close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.4.2.5/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1jm.4.2.land.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->

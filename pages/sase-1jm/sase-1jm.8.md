@@ -57,7 +57,9 @@ retire-pane: delete the agents_archive_view beta flag's Off branches. Hide the A
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1jm.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1jm.9.land][2] | Confirm every sase-1jm descendant is closed before parent close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1jm.9.land/README.md
 
 <!-- sase:referenced-by:end -->
