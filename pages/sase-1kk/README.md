@@ -34,7 +34,7 @@ The sase TUI no longer dies with `bus error (core dumped)` or corrupts its SQLit
 | [sase-1kk.3](sase-1kk.3.md) | sase-core bindings for the remaining Python artifact-index reads and alias writes | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [sase-1kk.4](sase-1kk.4.md) | Python dismissed-bundle index becomes a thin adapter over Rust | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1kk.5](sase-1kk.5.md) | Route Python artifact-index readers and alias writes through Rust | ✓ closed | small | 2026-10-13 | 1 | 1 |
-| [sase-1kk.6](sase-1kk.6.md) | Regression guard, ownership docs, and follow-ups | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
+| [sase-1kk.6](sase-1kk.6.md) | Regression guard, ownership docs, and follow-ups | ◐ in_progress | small | 2026-10-13 | 1 | 1 |
 
 ## Lineage
 
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kk.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.3/README.md) | [sase-1kk.3](sase-1kk.3.md) | 1 |
 | [bbugyi200.athena.sase-1kk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.4.md) | [sase-1kk.4](sase-1kk.4.md) | 1 |
 | [bbugyi200.athena.sase-1kk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.5/README.md) | [sase-1kk.5](sase-1kk.5.md) | 1 |
-| [bbugyi200.athena.sase-1kk.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.6/README.md) | [sase-1kk.6](sase-1kk.6.md) | 0 |
+| [bbugyi200.athena.sase-1kk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.6.md) | [sase-1kk.6](sase-1kk.6.md) | 1 |
 | [bbugyi200.athena.sase-1kk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kk.land/README.md) | [sase-1kk](README.md) | 0 |
 
 ## Commits
@@ -82,6 +82,7 @@ flowchart TD
 | sase | [`96e003c`](https://github.com/sase-org/sase/commit/96e003ce12de0dd53ad244c051e61ccb86df185d) | fix(tui): serialize SQLite access and recover dismissed index | [sase-1kk.1](sase-1kk.1.md) | 2026-10-13 14:17:30 EDT |
 | sase | [`432dd1f`](https://github.com/sase-org/sase/commit/432dd1f75952cc1505b28a308d477192a4cf7a51) | feat(agent-index): route Python readers through Rust | [sase-1kk.5](sase-1kk.5.md) | 2026-10-13 15:17:50 EDT |
 | sase | [`e8ec9cb`](https://github.com/sase-org/sase/commit/e8ec9cb29138643fb04f3fea9e947de883d9fc75) | refactor(ace): route dismissed bundle index through Rust | [sase-1kk.4](sase-1kk.4.md) | 2026-10-13 17:53:48 EDT |
+| sase | [`73a61e6`](https://github.com/sase-org/sase/commit/73a61e694495691e2add372947503aa4151adba2) | test(sqlite): guard single-library ownership and document it | [sase-1kk.6](sase-1kk.6.md) | 2026-10-13 18:18:11 EDT |
 
 <!-- sase:referenced-by:start -->
 

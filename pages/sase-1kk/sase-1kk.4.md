@@ -32,3 +32,15 @@ py-archive-adapter: move the sase-core pin, replace all stdlib sqlite3 use in ac
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e8ec9cb`](https://github.com/sase-org/sase/commit/e8ec9cb29138643fb04f3fea9e947de883d9fc75) | refactor(ace): route dismissed bundle index through Rust | [sase-1kk.4](sase-1kk.4.md) | 2026-10-13 17:53:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kk.4--1][1] | Verify the phase close was recorded | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kk.4.md
+
+<!-- sase:referenced-by:end -->
