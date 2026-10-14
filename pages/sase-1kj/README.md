@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md) | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 3 |
-| [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.land.md) | [sase-1kj](README.md) | 1 |
+| [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.land.md) | [sase-1kj](README.md) | 2 |
 
 ## Commits
 
@@ -124,6 +124,7 @@ flowchart TD
 | sase | [`e07c600`](https://github.com/sase-org/sase/commit/e07c6007c3a3b52306e3d60c9cf90492ddbea5a4) | feat(artifact-links): finish indexed queries and verification repairs | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:50:40 EDT |
 | sase--plans | [`sase--plans@64277bd`](https://github.com/sase-org/sase--plans/commit/64277bd74d50d4d81d030f6be7e3c01266a358a5) | docs(plan): record artifact-link inverted index plan | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:56:11 EDT |
 | sase-core | [`sase-core@a89eac0`](https://github.com/sase-org/sase-core/commit/a89eac09c29e2f493ef1152c0d6b0f94e3cce51c) | fix(agent-archive): keep dismissed-index queries read-only | [sase-1kj](README.md) | 2026-10-14 02:30:46 EDT |
+| sase | [`3cff3be`](https://github.com/sase-org/sase/commit/3cff3bea4f2d684b1122edccf12c1780b343e3c6) | fix(tui): preserve startup Agents updates and retry ToolRun ingest | [sase-1kj](README.md) | 2026-10-14 02:34:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
