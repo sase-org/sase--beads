@@ -21,6 +21,8 @@ readout: add `sase instructions readout`. Per provider and delivery mode, it cla
 
 [2026-10-14T02:37:45Z · sase-1ko.4] Restored sase instructions readout after workspace reset: per provider x mode, 8 classes, memory join, schema_version 1; parser/handler/docs/completion snapshot; 15 readout tests plus 383 related tests pass; baselines already on epic; epic-symbols empty
 
+[2026-10-14T03:56:23Z · sase-1ko.4--1] Recovery after 1h just check timeout: made RunManifest and render_sections_table public (show.py cross-file imports) and privatized same-file readout/show helpers so symvision is clean; 15 readout tests plus just _lint-symvision pass. Re-running just check for host completion.
+
 ## Dependencies
 
 - **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13

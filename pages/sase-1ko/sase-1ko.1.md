@@ -19,8 +19,8 @@ spikes: run cheap direct CLI probes for Claude native exclusion, auto-memory, an
 
 ## Dependencies
 
-- **Blocks:** [sase-1ko.7](sase-1ko.7.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.8](sase-1ko.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.7](sase-1ko.7.md) ✓ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.8](sase-1ko.8.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13
 
 ## Agents

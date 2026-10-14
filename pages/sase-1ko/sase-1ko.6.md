@@ -21,8 +21,8 @@ channel-counting: count layers across native and explicit channels by occurrence
 
 - **Depends on:** [sase-1ko.3](sase-1ko.3.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.7](sase-1ko.7.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.8](sase-1ko.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.7](sase-1ko.7.md) ✓ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.8](sase-1ko.8.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -36,3 +36,15 @@ channel-counting: count layers across native and explicit channels by occurrence
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`26a12b6`](https://github.com/sase-org/sase/commit/26a12b63df1c995c6d24a408f43991f8cdca0e44) | feat(instructions): add channel-aware conformance scoreboard | [sase-1ko.6](sase-1ko.6.md) | 2026-10-13 23:20:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ko.6][1] | Check prior phase notes before planning | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md
+
+<!-- sase:referenced-by:end -->
