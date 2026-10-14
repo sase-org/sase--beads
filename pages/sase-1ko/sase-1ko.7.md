@@ -110,9 +110,11 @@ FLAG OFF (artifacts e3-claude-t6x27i0s, session a00d8f50-9b34-4756-82ef-25514951
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kl.4--1][1] | Verify epic-symbol bead for lint allowlist on master tip | 1 |
-| read-by | [agent:sase-1ko.9--1][2] | Determine whether the stale epic whitelist still protects an unused public symbol | 1 |
+| read-by | [agent:sase-1ko.7][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ko.9--1][3] | Determine whether the stale epic whitelist still protects an unused public symbol | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kl.4.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.7.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md
 
 <!-- sase:referenced-by:end -->

@@ -14,8 +14,11 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/e3_explicit_delivery_cutover.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:294276aba63ff9003d936aaf | attached via sase artifact create --bead |
+| related | file:explicit:777e0f69d8eed315766656b3 | attached via sase artifact create --bead |
+| related | file:explicit:cbf7c8bf99bcd81ce4eba5d3 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e3_explicit_delivery_cutover.md
 
@@ -55,19 +58,39 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 
 [2026-10-14T11:02:53Z · toobig-7y.verify.0] DISCOVERED ISSUE: Independent reproduction during the verify.py module-split check. ToolRun b85574024daa8fbac1f87328416ac24d failed tests/instructions/test_scoreboard_conformance.py::test_conformance_warns_for_duplicate_root_and_leaked_helper_markers with ImportError: cannot import name '_RunManifest' from sase.instructions.manifests. The test fails while importing its fixture type, before invoking the verification collector or report builder. This is the same acceptance-test failure already recorded in note #9; the current refactor did not touch manifests.py or this test file.
 
+[2026-10-14T12:27:55Z · sase-1ko.10] E3 acceptance record: harness probes both flag states, helper probe, readout, parity, declared gaps, notes for E4
+
+🔒 e3\_acceptance\_record.md
+
+[2026-10-14T12:28:04Z · sase-1ko.10] Pre-cutover readout JSON 2026-10-06 through first Codex explicit 2026-10-14T10:35:06Z
+
+🔒 e3\_readout\_pre\_20261006\_103506.json
+
+[2026-10-14T12:28:12Z · sase-1ko.10] Post-cutover readout JSON from first Codex explicit 2026-10-14T10:35:06Z
+
+🔒 e3\_readout\_post\_20261014\_103506.json
+
+[2026-10-14T12:28:21Z · sase-1ko.10] Workspace-venv harness probe rows for Claude/Codex/Grok/Muse both flag states plus Claude helper
+
+🔒 e3\_harness\_probe\_results.json
+
 ## Attachments
 
 - 🔒 E3\_SPIKE\_RESULTS.md · text/markdown · 2.92383 KiB (private attachment)
 - 🔒 E3\_SPIKE\_FINGERPRINTS.md · text/markdown · 4.25586 KiB (private attachment)
 - 🔒 e3\_readout\_baseline\_20260910\_20261005.json · application/json · 4.40625 KiB (private attachment)
 - 🔒 e3\_readout\_baseline\_20261006\_20261013.json · application/json · 7.26074 KiB (private attachment)
+- 🔒 e3\_acceptance\_record.md · text/markdown · 9.52539 KiB (private attachment)
+- 🔒 e3\_readout\_pre\_20261006\_103506.json · application/json · 7.70898 KiB (private attachment)
+- 🔒 e3\_readout\_post\_20261014\_103506.json · application/json · 1.53711 KiB (private attachment)
+- 🔒 e3\_harness\_probe\_results.json · application/json · 26.8691 KiB (private attachment)
 
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ko.1](sase-1ko.1.md) | Provider channel and suppression spikes, with outcomes recorded on the epic | ✓ closed | small | 2026-10-13 | 1 | 0 |
-| [sase-1ko.10](sase-1ko.10.md) | Live acceptance probes, decision record, docs, and acceptance record | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.10](sase-1ko.10.md) | Live acceptance probes, decision record, docs, and acceptance record | ◐ in_progress | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.2](sase-1ko.2.md) | Instruction manifest wire v2 in sase-core (delivery slots and fallback), binding, adapter, pin move | ✓ closed | medium | 2026-10-13 | 1 | 2 |
 | [sase-1ko.3](sase-1ko.3.md) | Scoreboard sees dismissed agents, and the new sase instructions show command | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.4](sase-1ko.4.md) | Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached | ✓ closed | medium | 2026-10-13 | 1 | 1 |
@@ -126,7 +149,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1ko.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.1/README.md) | [sase-1ko.1](sase-1ko.1.md) | 0 |
-| [bbugyi200.apollo.sase-1ko.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.10/README.md) | [sase-1ko.10](sase-1ko.10.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.10.md) | [sase-1ko.10](sase-1ko.10.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.2/README.md) | [sase-1ko.2](sase-1ko.2.md) | 2 |
 | [bbugyi200.apollo.sase-1ko.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.3/README.md) | [sase-1ko.3](sase-1ko.3.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.4.md) | [sase-1ko.4](sase-1ko.4.md) | 1 |
@@ -150,6 +173,7 @@ flowchart TD
 | sase | [`e79a89d`](https://github.com/sase-org/sase/commit/e79a89d755a1f91cb032bd2199709994ab9d5d9d) | feat(instructions): add handoff-aware declaration readout | [sase-1ko.4](sase-1ko.4.md) | 2026-10-14 00:20:55 EDT |
 | sase | [`8847d07`](https://github.com/sase-org/sase/commit/8847d07a086b9e930f1a787425ec4c3272ea6824) | feat(instructions): add Grok and Muse explicit delivery | [sase-1ko.9](sase-1ko.9.md) | 2026-10-14 04:42:35 EDT |
 | sase | [`d265233`](https://github.com/sase-org/sase/commit/d2652334910952f8c244b58d3d32f1ae4ed8d0fd) | feat(claude): deliver explicit root and helper instruction bundles | [sase-1ko.7](sase-1ko.7.md) | 2026-10-14 07:42:50 EDT |
+| sase | [`88acef6`](https://github.com/sase-org/sase/commit/88acef62344479241af5036af108f92fbc71a1eb) | feat(instructions): record E3 explicit-delivery acceptance | [sase-1ko.10](sase-1ko.10.md) | 2026-10-14 09:18:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -159,12 +183,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kl.4--1][1] | Check whether instructions epic owns the Master Gate reds | 1 |
 | read-by | [agent:sase-1ko.6][2] | Need the spike-recorded auto-memory fingerprint for channel-counting | 1 |
-| read-by | [agent:sase-1ko.8][3] | Read E3 spike outcomes required by the Codex phase | 1 |
-| read-by | [agent:toobig-7y.verify.0][4] | Need the active instruction-delivery epic scope before recording the repeated conformance test failure | 1 |
+| read-by | [agent:sase-1ko.7][3] | Resolve prior implementation notes and current integration state | 1 |
+| read-by | [agent:sase-1ko.8][4] | Read E3 spike outcomes required by the Codex phase | 1 |
+| read-by | [agent:toobig-7y.verify.0][5] | Need the active instruction-delivery epic scope before recording the repeated conformance test failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kl.4.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-7y.verify.0/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.7.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-7y.verify.0/README.md
 
 <!-- sase:referenced-by:end -->
