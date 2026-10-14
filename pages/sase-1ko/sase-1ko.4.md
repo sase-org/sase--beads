@@ -14,7 +14,7 @@ readout: add `sase instructions readout`. Per provider and delivery mode, it cla
 ## Dependencies
 
 - **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [sase-1ko.3](sase-1ko.3.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1ko.3](sase-1ko.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
