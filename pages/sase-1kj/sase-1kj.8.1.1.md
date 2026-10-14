@@ -19,7 +19,7 @@
 | related | file:explicit:d2542373c3e77e5e669916e9 | attached via sase artifact create --bead |
 | related | file:explicit:eeb8a379bc66ce2ef413446a | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -82,8 +82,10 @@ build_synthetic_scale_rows() is available if a later host has no nonempty real a
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.1][1] | Need remaining notes, decisions, and full description | 2 |
 | read-by | [agent:sase-1kj.8.1.2][2] | Need DECISIONS, prior notes, and parent epic context | 1 |
+| read-by | [agent:sase-1kj.8.1.3][3] | Check prior phase notes for baseline evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md
 
 <!-- sase:referenced-by:end -->

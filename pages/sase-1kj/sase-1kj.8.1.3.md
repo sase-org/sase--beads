@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:adbc4a4bfd916ef633b7c1a7 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -39,10 +41,23 @@ python-integration: install the thin single-flight adapters, preserve Patch defe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d776d75`](https://github.com/sase-org/sase-core/commit/d776d751046f26c212898a8520d9eccc9028e1a0) | fix(artifact-link-index): resolve colliding alias spellings in deterministic row order | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2026-10-13 20:59:18 EDT |
+| sase | [`1625268`](https://github.com/sase-org/sase/commit/16252682b27e345d2b061923835c4a98fbada5ed) | feat(artifact-links): route link chips and patch projections through shared native handle | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2026-10-13 21:30:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.8.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md
+
+<!-- sase:referenced-by:end -->

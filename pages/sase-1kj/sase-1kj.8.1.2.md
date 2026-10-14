@@ -39,7 +39,9 @@ native-index: implement the immutable core index, indexed row and projection que
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.2][1] | Need the phase scope and design file | 7 |
+| read-by | [agent:sase-1kj.8.1.3][2] | Check native phase notes for binding names and evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md
 
 <!-- sase:referenced-by:end -->
