@@ -13,7 +13,7 @@ release-wait: make no edits. Optionally cut sase-core, preflight the watcher inl
 
 ## Dependencies
 
-- **Depends on:** [sase-1kx.1](sase-1kx.1.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [sase-1kx.1](sase-1kx.1.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [sase-1kx.2](sase-1kx.2.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [sase-1kx.3](sase-1kx.3.md) ✓ · ⧖ 2026-10-14
 
