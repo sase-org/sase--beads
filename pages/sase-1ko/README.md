@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e3_explicit_delivery_cutover.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e3_explicit_delivery_cutover.md
 
@@ -49,6 +49,10 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 
 [2026-10-14T03:37:38Z · sase-1kj.8.1.land] DISCOVERED ISSUE: During artifact-link implementation verification, required ToolRun e3290324a8eee4f12f8877a8d66b4b99 failed tests/instructions/test_delivery_plan.py::test_render_failure_notifies_once. Reproduced standalone with .venv/bin/python -m pytest -n 0 tests/instructions/test_delivery_plan.py::test_render_failure_notifies_once (1 failed in 2.57s): the test monkeypatches sase.llm_provider._instruction_boundary.notify_instruction_fallback, but invoke_with_instructions imports that function from sase.llm_provider.instruction_delivery. Neither file is in the artifact-link diff. This falls directly within this epic's sase-1ko.5 delivery-plan fallback/test seam; update the test patch target or expose an intentional seam, then rerun the node and gate. No task bead created.
 
+[2026-10-14T05:50:07Z · sase-1kj.8.1.land--3] DISCOVERED ISSUE: The required `sase tool run check` during the main stitch conflict repair failed at `lint (symvision)` in ToolRun 13807f8ad336e1fcca8c3dc83eca023d with seven NEW unused public symbols in unchanged instruction-delivery files: `claude_helper_sources` (coverage_sources.py), `contains_contract` and `count_contract_sources` (fingerprints.py), `human_rules_blocks` (grok.py), and `prompt_prefixes`, `prompt_texts`, `rules_texts` (muse.py). These paths are outside the artifact-link change. The gate stopped before validation and scoped tests; the three affected artifact-link test modules passed separately in ToolRun 42d28af5cee04160810f641d3a0d39d1 (70 passed). The symbols are in the completed Grok/Muse delivery area (sase-1ko.9); the acceptance phase sase-1ko.10 remains active. Review each against real non-test consumers and remove dead APIs or wire their intended consumer; do not restore epic-symbol exemptions for symbols the linter reports unused.
+
+[2026-10-14T06:29:03Z · sase-1kj.land] DISCOVERED ISSUE: sase-1kj.land wrapped check c7410810d41e7e4b5841f34a6b7012cc failed two instruction tests outside the startup-starvation diff: tests/instructions/test_delivery_plan.py::test_declared_legacy_hookimpls_resolve_to_provider_legacy (assert 'explicit' == 'inherits_native') and tests/instructions/test_scoreboard_conformance.py::test_conformance_warns_for_duplicate_root_and_leaked_helper_markers (ImportError: cannot import name '_RunManifest' from sase.instructions.manifests). Neither file is in the sase-1kj landing-repair diff. just symvision also reports unused public symbols claude_helper_sources, contains_contract, count_contract_sources, human_rules_blocks, prompt_prefixes, prompt_texts, rules_texts in instructions/* (KNOWN in that ToolRun). Active sase-1ko.10 owns this cutover.
+
 ## Attachments
 
 - 🔒 E3\_SPIKE\_RESULTS.md · text/markdown · 2.92383 KiB (private attachment)
@@ -69,7 +73,7 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 | [sase-1ko.6](sase-1ko.6.md) | Channel-aware, occurrence-exact scoreboard counting and the conformance check | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.7](sase-1ko.7.md) | Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion | ✓ closed | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.8](sase-1ko.8.md) | Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1ko.9](sase-1ko.9.md) | Grok full-bundle rules and Muse prompt-prefix delivery | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.9](sase-1ko.9.md) | Grok full-bundle rules and Muse prompt-prefix delivery | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 
 ## Lineage
 
@@ -85,7 +89,7 @@ flowchart TD
     n7["sase-1ko.6: Channel-aware, occurrence-exact scoreboard counting and the conformance check [closed]"]
     n8["sase-1ko.7: Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion [closed]"]
     n9["sase-1ko.8: Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) [closed]"]
-    n10["sase-1ko.9: Grok full-bundle rules and Muse prompt-prefix delivery [in_progress]"]
+    n10["sase-1ko.9: Grok full-bundle rules and Muse prompt-prefix delivery [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -128,7 +132,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ko.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md) | [sase-1ko.6](sase-1ko.6.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.7.md) | [sase-1ko.7](sase-1ko.7.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md) | [sase-1ko.8](sase-1ko.8.md) | 1 |
-| [bbugyi200.apollo.sase-1ko.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.9/README.md) | [sase-1ko.9](sase-1ko.9.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md) | [sase-1ko.9](sase-1ko.9.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.land/README.md) | [sase-1ko](README.md) | 0 |
 
 ## Commits
@@ -142,6 +146,7 @@ flowchart TD
 | sase | [`26a12b6`](https://github.com/sase-org/sase/commit/26a12b63df1c995c6d24a408f43991f8cdca0e44) | feat(instructions): add channel-aware conformance scoreboard | [sase-1ko.6](sase-1ko.6.md) | 2026-10-13 23:20:38 EDT |
 | sase | [`429353b`](https://github.com/sase-org/sase/commit/429353b015be5e4f644a6ee5762be5dd3df64e6b) | feat(codex): deliver explicit root instructions | [sase-1ko.8](sase-1ko.8.md) | 2026-10-14 00:17:31 EDT |
 | sase | [`e79a89d`](https://github.com/sase-org/sase/commit/e79a89d755a1f91cb032bd2199709994ab9d5d9d) | feat(instructions): add handoff-aware declaration readout | [sase-1ko.4](sase-1ko.4.md) | 2026-10-14 00:20:55 EDT |
+| sase | [`8847d07`](https://github.com/sase-org/sase/commit/8847d07a086b9e930f1a787425ec4c3272ea6824) | feat(instructions): add Grok and Muse explicit delivery | [sase-1ko.9](sase-1ko.9.md) | 2026-10-14 04:42:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -149,8 +154,12 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ko.6][1] | Need the spike-recorded auto-memory fingerprint for channel-counting | 1 |
+| read-by | [agent:sase-1kl.4--1][1] | Check whether instructions epic owns the Master Gate reds | 1 |
+| read-by | [agent:sase-1ko.6][2] | Need the spike-recorded auto-memory fingerprint for channel-counting | 1 |
+| read-by | [agent:sase-1ko.8][3] | Read E3 spike outcomes required by the Codex phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kl.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
 
 <!-- sase:referenced-by:end -->

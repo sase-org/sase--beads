@@ -23,7 +23,7 @@ channel-counting: count layers across native and explicit channels by occurrence
 - **Depends on:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.7](sase-1ko.7.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.8](sase-1ko.8.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.9](sase-1ko.9.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

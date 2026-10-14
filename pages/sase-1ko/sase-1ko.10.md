@@ -16,10 +16,22 @@ record: prove every exit criterion with harness probes in both flag states (plus
 - **Depends on:** [sase-1ko.4](sase-1ko.4.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.7](sase-1ko.7.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.8](sase-1ko.8.md) ✓ · ⧖ 2026-10-13
-- **Depends on:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1ko.9](sase-1ko.9.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1ko.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.10/README.md) | [sase-1ko.10](sase-1ko.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.8.1.land--3][1] | Need active acceptance-phase scope before recording instruction-delivery Symvision findings | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kj.8.1.land.md
+
+<!-- sase:referenced-by:end -->

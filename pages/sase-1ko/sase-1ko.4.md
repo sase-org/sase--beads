@@ -23,6 +23,8 @@ readout: add `sase instructions readout`. Per provider and delivery mode, it cla
 
 [2026-10-14T03:56:23Z · sase-1ko.4--1] Recovery after 1h just check timeout: made RunManifest and render_sections_table public (show.py cross-file imports) and privatized same-file readout/show helpers so symvision is clean; 15 readout tests plus just _lint-symvision pass. Re-running just check for host completion.
 
+[2026-10-14T04:27:44Z · sase-1ko.4--2] Verified: just check (tool run 8b63e811aa396d2b04c49b239857f9f7) passed with verdict pass; epic-symbols empty; readout already on master as e79a89d755; pre-cutover baselines already attached to epic notes 5-6. Bead was already closed.
+
 ## Dependencies
 
 - **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13
@@ -39,3 +41,15 @@ readout: add `sase instructions readout`. Per provider and delivery mode, it cla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e79a89d`](https://github.com/sase-org/sase/commit/e79a89d755a1f91cb032bd2199709994ab9d5d9d) | feat(instructions): add handoff-aware declaration readout | [sase-1ko.4](sase-1ko.4.md) | 2026-10-14 00:20:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ko.8][1] | Confirm prior phase record of the clean-base Symvision private-import failure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
+
+<!-- sase:referenced-by:end -->

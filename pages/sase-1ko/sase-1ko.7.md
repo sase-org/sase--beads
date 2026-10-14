@@ -43,6 +43,8 @@ FLAG OFF (artifacts e3-claude-t6x27i0s, session a00d8f50-9b34-4756-82ef-25514951
 
 [2026-10-14T04:11:06Z · sase-1ko.7] Verified Claude explicit delivery: sunset flag claude_explicit_instructions (sase-1kv) default on; root via --append-system-prompt-file, helper via --append-subagent-system-prompt-file; exact-path claudeMdExcludes + autoMemoryEnabled false; flag off and no-plan path keep E1 argv. Live haiku harness: flag-on natives 0, unique bundle marker 1, auto-memory off; flag-off natives load, auto-memory on, flag_disabled. epic-symbols clean. Targeted tests 14 passed including notify-once patch-target fix.
 
+[2026-10-14T06:54:09Z · sase-1ko.7--2] PROPOSED FOLLOW-UP: just check NEW TUI hint failures reproduce on clean origin/master and are tracked by sase-1hy — test_changed_reply_invalidates_hint_document_and_mappings, test_hinted_raw_prompt_moves_to_identity_and_keeps_its_markers (duplicate identity raw-prompt hint), and test_agent_session_content_hints_are_full_at_both_levels_and_use_phase_workspace (prompt paths missing from body mappings).
+
 ## Dependencies
 
 - **Depends on:** [sase-1ko.1](sase-1ko.1.md) ✓ · ⧖ 2026-10-13
@@ -55,3 +57,15 @@ FLAG OFF (artifacts e3-claude-t6x27i0s, session a00d8f50-9b34-4756-82ef-25514951
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.7.md) | [sase-1ko.7](sase-1ko.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kl.4--1][1] | Verify epic-symbol bead for lint allowlist on master tip | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kl.4.md
+
+<!-- sase:referenced-by:end -->
