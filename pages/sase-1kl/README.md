@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_18_0_release_unblock.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_release_unblock.md
 
@@ -31,8 +31,8 @@ sase v0.18.0 is on PyPI and `pip install sase` works again. It ships through the
 |---|---|---|---|---|---:|---:|
 | [sase-1kl.1](sase-1kl.1.md) | Fix the test-lane failures blocking Full CI and Master Gate | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1kl.2](sase-1kl.2.md) | Deterministic captures, then rebaseline the Artifacts-strip goldens | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1kl.3](sase-1kl.3.md) | Dispatch Full CI on a reliable two-hour clock | ✓ closed | medium | 2026-10-13 | 1 | 0 |
-| [sase-1kl.4](sase-1kl.4.md) | Prove Full CI green, let ci\_watch merge PR 299, and verify v0.18.0 on PyPI | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1kl.3](sase-1kl.3.md) | Dispatch Full CI on a reliable two-hour clock | ✓ closed | medium | 2026-10-13 | 1 | 1 |
+| [sase-1kl.4](sase-1kl.4.md) | Prove Full CI green, let ci\_watch merge PR 299, and verify v0.18.0 on PyPI | ◐ in_progress | medium | 2026-10-13 | 1 | 1 |
 
 ## Lineage
 
@@ -58,16 +58,18 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1kl.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.1/README.md) | [sase-1kl.1](sase-1kl.1.md) | 1 |
 | [bbugyi200.athena.sase-1kl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.2/README.md) | [sase-1kl.2](sase-1kl.2.md) | 1 |
-| [bbugyi200.athena.sase-1kl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.3/README.md) | [sase-1kl.3](sase-1kl.3.md) | 0 |
-| [bbugyi200.athena.sase-1kl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.4/README.md) | [sase-1kl.4](sase-1kl.4.md) | 0 |
+| [bbugyi200.athena.sase-1kl.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.3/README.md) | [sase-1kl.3](sase-1kl.3.md) | 1 |
+| [bbugyi200.athena.sase-1kl.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kl.4.md) | [sase-1kl.4](sase-1kl.4.md) | 1 |
 | [bbugyi200.athena.sase-1kl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.land/README.md) | [sase-1kl](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| chezmoi | [`chezmoi@1316405`](https://github.com/bbugyi200/dotfiles/commit/13164059d5825c4debb8039d96483719302c0d6e) | feat(athena): enable two-hour Full CI dispatch from ci\_watch | [sase-1kl.3](sase-1kl.3.md) | 2026-10-13 14:43:06 EDT |
 | sase | [`8959b0e`](https://github.com/sase-org/sase/commit/8959b0e6fc6b048ee60f79731e676db994cb2ce7) | fix(tests): stabilize New Project flows and sudo checks | [sase-1kl.1](sase-1kl.1.md) | 2026-10-13 16:15:33 EDT |
 | sase | [`cf550a0`](https://github.com/sase-org/sase/commit/cf550a0e57065750c73bb9cafa7700039f18b868) | fix(ace-tui): fix Main-deck sink races and top-bar pre-layout density | [sase-1kl.2](sase-1kl.2.md) | 2026-10-13 17:18:39 EDT |
+| sase | [`1a835ca`](https://github.com/sase-org/sase/commit/1a835cad61e7c72bdb704123ee64075143147564) | fix(ci): make flaky New Project, launch-bar tests hermetic and clear Gate reds | [sase-1kl.4](sase-1kl.4.md) | 2026-10-14 00:21:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -76,7 +78,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kl.1][1] | Need parent epic scope and final decisions for this phase | 1 |
+| read-by | [agent:sase-1kl.2][2] | epic decisions and scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kl.2/README.md
 
 <!-- sase:referenced-by:end -->
