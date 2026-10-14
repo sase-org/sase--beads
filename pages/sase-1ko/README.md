@@ -171,7 +171,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.7/README.md) | [sase-1ko.7](sase-1ko.7.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md) | [sase-1ko.8](sase-1ko.8.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md) | [sase-1ko.9](sase-1ko.9.md) | 1 |
-| [bbugyi200.apollo.sase-1ko.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.land.md) | [sase-1ko](README.md) | 1 |
+| [bbugyi200.apollo.sase-1ko.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.land.md) | [sase-1ko](README.md) | 2 |
 
 ## Commits
 
@@ -188,6 +188,7 @@ flowchart TD
 | sase | [`d265233`](https://github.com/sase-org/sase/commit/d2652334910952f8c244b58d3d32f1ae4ed8d0fd) | feat(claude): deliver explicit root and helper instruction bundles | [sase-1ko.7](sase-1ko.7.md) | 2026-10-14 07:42:50 EDT |
 | sase | [`88acef6`](https://github.com/sase-org/sase/commit/88acef62344479241af5036af108f92fbc71a1eb) | feat(instructions): record E3 explicit-delivery acceptance | [sase-1ko.10](sase-1ko.10.md) | 2026-10-14 09:18:29 EDT |
 | sase | [`d070e6b`](https://github.com/sase-org/sase/commit/d070e6b2dc17d1229f6d13b2a4d0ab1dd25b0f5d) | fix(instructions): land remaining E3 explicit-delivery defects | [sase-1ko](README.md) | 2026-10-14 11:30:55 EDT |
+| sase--plans | [`sase--plans@01b43c2`](https://github.com/sase-org/sase--plans/commit/01b43c257e7d65ec816036bf29ad1d4ca79340b6) | docs(e3): mark explicit delivery cutover plan done | [sase-1ko](README.md) | 2026-10-14 11:34:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
