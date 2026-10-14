@@ -87,7 +87,7 @@ FLAG OFF (artifacts e3-claude-t6x27i0s, session a00d8f50-9b34-4756-82ef-25514951
 ## Dependencies
 
 - **Depends on:** [sase-1ko.1](sase-1ko.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.10](sase-1ko.10.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.6](sase-1ko.6.md) ✓ · ⧖ 2026-10-13
 

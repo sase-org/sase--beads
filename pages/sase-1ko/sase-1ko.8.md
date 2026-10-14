@@ -26,7 +26,7 @@ codex: create the `codex_explicit_instructions` sunset flag. When it is on, deli
 ## Dependencies
 
 - **Depends on:** [sase-1ko.1](sase-1ko.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.10](sase-1ko.10.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.6](sase-1ko.6.md) ✓ · ⧖ 2026-10-13
 
@@ -48,8 +48,10 @@ codex: create the `codex_explicit_instructions` sunset flag. When it is on, deli
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ko.8][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:research.1a.cdx][1] | Determine ownership of reproduced Codex home suppression during legacy fallback | 1 |
+| read-by | [agent:sase-1ko.8][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.research.1a.cdx/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
 
 <!-- sase:referenced-by:end -->
