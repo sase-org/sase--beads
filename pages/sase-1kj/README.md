@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1kj
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.102](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.102.md) · **Assignee:** `sase-1kj.land`
-**Created:** 2026-10-13 11:47:17 EDT
+**Created:** 2026-10-13 11:47:17 EDT · **Closed:** 2026-10-14 02:29:15 EDT
 **Plan:** [202610/apollo\_tui\_startup.md](https://github.com/sase-org/sase--plans/blob/main/202610/apollo_tui_startup.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,8 @@ On a loaded host such as apollo, the Agents roster is usable soon after first pa
 
 [2026-10-14T04:53:43Z · sase-1kj.land] LANDER AUDIT (sase-1kj.land): Read every phase and nested .8.1.* bead and note; reviewed commits 82aa8a7a88, ce1940f39f, 099fcee221, 731b7b18b5, 085f5eceb7, bda93bab64, 3c69bf5a97, bad0d0ac36, 16252682b2 against plan:202610/apollo_tui_startup.md in current source. Phases .1 .2 .5 .7 fully match; .6 honors DECISION sec_45 (_STARTUP_DEFERRED_FALLBACK_SECONDS=45.0) and coordinator invariants; phase focused suites 74/74 and 68/68 pass; no --epic-symbol entries. Remaining epic work found: (a) INTEGRATION: sase-1kk (e8ec9cb291 + core d30e1337) moved dismissed-index queries to Rust store.rs query_summaries/query_summary_identities which open_archive_store_writable (WAL pragma, BEGIN IMMEDIATE, ensure_schema, schema_version rewrite; legacy index tables dropped on read), regressing .3's read-only guarantee; Python's post-query signature re-read workaround is racy. (b) .4: _ingest_events_if_changed caches the file signature even when ingest returned diagnostics, so failed lost-run ingests never retry. (c) .6: hold ticks accept the agents token mid-load and release clears _dirty_agents, so Agents watcher/token changes during the startup Agents load can be lost until the 300s sanity refresh. (d) .6: set_axe_running from _render_dashboard/_render_footer before first axe load ends the neutral chip early. (e) .6: AcePage real-startup test races the sequential maintenance chain (note #1; reproduced deterministically with a 1.5s link-snapshot delay). sase-1kj.8.1 landing repair is still uncommitted (session sase-1kj.8.1.land continuing in another workspace). Declined: .5 nit that tab-switch refresh never clears _dirty_patches (repeat refreshes are memo hits). Planned all of (a)-(e) plus closeout as one medium tale.
 
+[2026-10-14T06:29:15Z · sase-1kj.land] Lander audit: all 8 phases verified against plan:202610/apollo_tui_startup.md in source and commits 82aa8a7a88, ce1940f39f, 099fcee221, 731b7b18b5, 085f5eceb7, bda93bab64, 3c69bf5a97, bad0d0ac36, 16252682b2 plus the sase-1kj.8.1 landing repair e07c6007c3 (sase: bounded per-ref chip cache, async cold queries, native build fences, Patch build counters, lazified agent-scan facade imports) and sase-core b2b66266 (legacy Python string/count coercion for artifact-link rows). DECISION fallback_seconds=sec_45 honored (_STARTUP_DEFERRED_FALLBACK_SECONDS=45.0); coordinator invariants intact. Integration: restored read-only dismissed-index queries in sase-core after sase-1kk moved them to Rust (open_archive_store_read_only, version/compat check returns None, no table drops), removed the racy post-query signature re-read, pin written by the host. Repairs: ToolRun ingest skip now retries after diagnostics; startup release no longer loses Agents watcher/token updates during the startup Agents load; axe chip stays neutral until the first axe load; AcePage real-startup test waits for the sequential maintenance chain. Follow-ups triaged in note #2 (sase-1kw created; sase-1jl and sase-xo +1; others declined with reasons). Verification: sase-core store_queries 3 passed; focused Python 155 passed then axe-footer 13/13 and post-8.1 import/link/patch 65 passed (TUI import closure 3519 < 3520 cap); sase-core sase tool run check ad9a3b0f3f39795e1b413f819939587d succeeded; sase sase tool run check c7410810d41e7e4b5841f34a6b7012cc 55682 passed / 3 NEW before merging e07c6007c3 (import-budget now green at 3519; remaining instruction tests test_declared_legacy_hookimpls_resolve_to_provider_legacy and test_conformance_warns_for_duplicate_root_and_leaked_helper_markers routed to active epic sase-1ko). sase bead epic-symbols sase-1kj empty. just symvision reports 7 unused instruction-delivery symbols owned by sase-1ko (KNOWN in the wrapped check).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +52,7 @@ On a loaded host such as apollo, the Agents roster is usable soon after first pa
 
 ```mermaid
 flowchart TD
-    n0["sase-1kj: Stop sase TUI startup starvation on loaded hosts [in_progress]"]
+    n0["sase-1kj: Stop sase TUI startup starvation on loaded hosts [closed]"]
     n1["sase-1kj.1: Memoize macro-plugin entry-point discovery [closed]"]
     n2["sase-1kj.2: Coalesce deferred ToolRun glance refreshes [closed]"]
     n3["sase-1kj.3: Trim self-inflicted Agents-loader critical-path costs [closed]"]
@@ -101,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md) | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 3 |
-| [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.land.md) | [sase-1kj](README.md) | 0 |
+| [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.land.md) | [sase-1kj](README.md) | 1 |
 
 ## Commits
 
@@ -121,6 +123,7 @@ flowchart TD
 | sase-core | [`sase-core@b2b6626`](https://github.com/sase-org/sase-core/commit/b2b662664d64b7e42c770ab04b9f27291b18b6bd) | fix(artifact-link): preserve legacy coercion in native index | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:20:55 EDT |
 | sase | [`e07c600`](https://github.com/sase-org/sase/commit/e07c6007c3a3b52306e3d60c9cf90492ddbea5a4) | feat(artifact-links): finish indexed queries and verification repairs | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:50:40 EDT |
 | sase--plans | [`sase--plans@64277bd`](https://github.com/sase-org/sase--plans/commit/64277bd74d50d4d81d030f6be7e3c01266a358a5) | docs(plan): record artifact-link inverted index plan | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:56:11 EDT |
+| sase-core | [`sase-core@a89eac0`](https://github.com/sase-org/sase-core/commit/a89eac09c29e2f493ef1152c0d6b0f94e3cce51c) | fix(agent-archive): keep dismissed-index queries read-only | [sase-1kj](README.md) | 2026-10-14 02:30:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
