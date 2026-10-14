@@ -37,10 +37,20 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 
 [2026-10-13T22:32:44Z · sase-1ko.1] E3 SPIKE RESULTS: addendum — Claude auto-memory fingerprint for channel-counting is the prompt_snapshot heading `# Memory` plus lead-in `You have a persistent file-based memory at` (path is per-project). Prefer per-run `--settings` `autoMemoryEnabled: false`; `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1` also removes it. Do not use `"Memory" in snapshot`. Claude 2.1.296 (a–e) pass with exact-path `claudeMdExcludes` and no `instructionFiles` override. Codex 0.162.1 (a,b) pass; (c) unprobed. Muse 1.4.7 pass without `--trust-workspace` (create muse flag). Grok 1.0.52 pass with `GROK_MEMORY=0` (`memory_v2_enabled: false`). Details attached as E3_SPIKE_FINGERPRINTS.md.
 
+[2026-10-14T02:06:13Z · sase-1ko.4] Pre-cutover readout baseline Sep 10-Oct 5: handoff-aware misses per provider and mode with memory reads. Totals match planning baseline; misses within tolerance except Grok/Muse explained in phase note.
+
+🔒 e3\_readout\_baseline\_20260910\_20261005.json
+
+[2026-10-14T02:06:22Z · sase-1ko.4] Pre-cutover readout baseline Oct 6-Oct 13: handoff-aware misses per provider and mode with memory reads. No explicit manifests yet; first_explicit empty, watch starts at first explicit render.
+
+🔒 e3\_readout\_baseline\_20261006\_20261013.json
+
 ## Attachments
 
 - 🔒 E3\_SPIKE\_RESULTS.md · text/markdown · 2.92383 KiB (private attachment)
 - 🔒 E3\_SPIKE\_FINGERPRINTS.md · text/markdown · 4.25586 KiB (private attachment)
+- 🔒 e3\_readout\_baseline\_20260910\_20261005.json · application/json · 4.40625 KiB (private attachment)
+- 🔒 e3\_readout\_baseline\_20261006\_20261013.json · application/json · 7.26074 KiB (private attachment)
 
 ## Phases
 
@@ -50,9 +60,9 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 | [sase-1ko.10](sase-1ko.10.md) | Live acceptance probes, decision record, docs, and acceptance record | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.2](sase-1ko.2.md) | Instruction manifest wire v2 in sase-core (delivery slots and fallback), binding, adapter, pin move | ✓ closed | medium | 2026-10-13 | 1 | 2 |
 | [sase-1ko.3](sase-1ko.3.md) | Scoreboard sees dismissed agents, and the new sase instructions show command | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1ko.4](sase-1ko.4.md) | Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.4](sase-1ko.4.md) | Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached | ✓ closed | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.5](sase-1ko.5.md) | Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1ko.6](sase-1ko.6.md) | Channel-aware, occurrence-exact scoreboard counting and the conformance check | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.6](sase-1ko.6.md) | Channel-aware, occurrence-exact scoreboard counting and the conformance check | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.7](sase-1ko.7.md) | Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.8](sase-1ko.8.md) | Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.9](sase-1ko.9.md) | Grok full-bundle rules and Muse prompt-prefix delivery | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
@@ -66,9 +76,9 @@ flowchart TD
     n2["sase-1ko.10: Live acceptance probes, decision record, docs, and acceptance record [in_progress]"]
     n3["sase-1ko.2: Instruction manifest wire v2 in sase-core (delivery slots and fallback), binding, adapter, pin move [closed]"]
     n4["sase-1ko.3: Scoreboard sees dismissed agents, and the new sase instructions show command [closed]"]
-    n5["sase-1ko.4: Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached [in_progress]"]
+    n5["sase-1ko.4: Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached [closed]"]
     n6["sase-1ko.5: Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary [closed]"]
-    n7["sase-1ko.6: Channel-aware, occurrence-exact scoreboard counting and the conformance check [in_progress]"]
+    n7["sase-1ko.6: Channel-aware, occurrence-exact scoreboard counting and the conformance check [closed]"]
     n8["sase-1ko.7: Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion [in_progress]"]
     n9["sase-1ko.8: Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) [in_progress]"]
     n10["sase-1ko.9: Grok full-bundle rules and Muse prompt-prefix delivery [in_progress]"]
@@ -109,9 +119,9 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ko.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.10/README.md) | [sase-1ko.10](sase-1ko.10.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.2/README.md) | [sase-1ko.2](sase-1ko.2.md) | 2 |
 | [bbugyi200.apollo.sase-1ko.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.3/README.md) | [sase-1ko.3](sase-1ko.3.md) | 1 |
-| [bbugyi200.apollo.sase-1ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.4/README.md) | [sase-1ko.4](sase-1ko.4.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.4.md) | [sase-1ko.4](sase-1ko.4.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.5/README.md) | [sase-1ko.5](sase-1ko.5.md) | 1 |
-| [bbugyi200.apollo.sase-1ko.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md) | [sase-1ko.6](sase-1ko.6.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md) | [sase-1ko.6](sase-1ko.6.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.7/README.md) | [sase-1ko.7](sase-1ko.7.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md) | [sase-1ko.8](sase-1ko.8.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.9/README.md) | [sase-1ko.9](sase-1ko.9.md) | 0 |
@@ -125,3 +135,4 @@ flowchart TD
 | sase | [`96090a5`](https://github.com/sase-org/sase/commit/96090a52cfb4b38a64e8a05a23d305bf0009080b) | feat(instructions): adopt manifest v2 delivery slots | [sase-1ko.2](sase-1ko.2.md) | 2026-10-13 19:44:26 EDT |
 | sase | [`d69cd49`](https://github.com/sase-org/sase/commit/d69cd499dd26b04534b9b4a11af540e14a6c73af) | feat(instructions): land delivery-plan hook and declared-legacy fallback | [sase-1ko.5](sase-1ko.5.md) | 2026-10-13 21:37:34 EDT |
 | sase | [`c5e4da7`](https://github.com/sase-org/sase/commit/c5e4da7065cc40a5e81163a949a499713994db06) | feat(instructions): enumerate dismissed runs and add instructions show | [sase-1ko.3](sase-1ko.3.md) | 2026-10-13 21:44:32 EDT |
+| sase | [`26a12b6`](https://github.com/sase-org/sase/commit/26a12b63df1c995c6d24a408f43991f8cdca0e44) | feat(instructions): add channel-aware conformance scoreboard | [sase-1ko.6](sase-1ko.6.md) | 2026-10-13 23:20:38 EDT |

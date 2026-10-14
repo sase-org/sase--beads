@@ -22,7 +22,7 @@ delivery-plan: add the `llm_instruction_delivery` hookspec and the DeliveryPlan 
 ## Dependencies
 
 - **Depends on:** [sase-1ko.2](sase-1ko.2.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.6](sase-1ko.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.6](sase-1ko.6.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.7](sase-1ko.7.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.8](sase-1ko.8.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13

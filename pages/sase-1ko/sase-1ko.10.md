@@ -13,7 +13,7 @@ record: prove every exit criterion with harness probes in both flag states (plus
 
 ## Dependencies
 
-- **Depends on:** [sase-1ko.4](sase-1ko.4.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1ko.4](sase-1ko.4.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.7](sase-1ko.7.md) ◐ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.8](sase-1ko.8.md) ◐ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.9](sase-1ko.9.md) ◐ · ⧖ 2026-10-13

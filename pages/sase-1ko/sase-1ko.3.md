@@ -19,8 +19,8 @@ run-discovery: make verify and render enumerate and resolve hidden (dismissed) a
 
 ## Dependencies
 
-- **Blocks:** [sase-1ko.4](sase-1ko.4.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [sase-1ko.6](sase-1ko.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.4](sase-1ko.4.md) ✓ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.6](sase-1ko.6.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ run-discovery: make verify and render enumerate and resolve hidden (dismissed) a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c5e4da7`](https://github.com/sase-org/sase/commit/c5e4da7065cc40a5e81163a949a499713994db06) | feat(instructions): enumerate dismissed runs and add instructions show | [sase-1ko.3](sase-1ko.3.md) | 2026-10-13 21:44:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ko.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.3/README.md
+
+<!-- sase:referenced-by:end -->
