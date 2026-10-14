@@ -14,5 +14,11 @@ release-wait: make no edits. Optionally cut sase-core, preflight the watcher inl
 ## Dependencies
 
 - **Depends on:** [sase-1kx.1](sase-1kx.1.md) ◐ · ⧖ 2026-10-14
-- **Depends on:** [sase-1kx.2](sase-1kx.2.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [sase-1kx.2](sase-1kx.2.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [sase-1kx.3](sase-1kx.3.md) ✓ · ⧖ 2026-10-14
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1kx.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.4/README.md) | [sase-1kx.4](sase-1kx.4.md) | 0 |
