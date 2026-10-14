@@ -71,6 +71,8 @@ Existing task corroborations are explicitly relayed phase evidence.
 
 [2026-10-14T13:32:02Z · sase-1kx.land] Fresh publication check before remaining-work proposal: PyPI JSON reports sase latest 0.17.1 with no 0.18.0 release, and sase-core-rs latest 0.39.1. gh release view v0.18.0 -R sase-org/sase returns release not found. The epic is not ready to close. Remaining-work child epic plan passed validation with --explain, was refined, then passed revalidation without --explain (0 warnings).
 
+[2026-10-14T19:26:15Z · sase-1kx.5.land] PARENT LANDING BLOCKER: child sase-1kx.5 remains incomplete after its audit. Core 0.40.0 and PR #299 floor smoke are now green, but 0.18.0 remains unpublished and Full CI 38604579828 has five real visual drifts; the complete image report is file:explicit:280388d2d1c4308e7a8bbe18. The .5 landing note records all child-note verification, integration, remaining watcher defects, and completed follow-up dispositions. A remaining-work child epic under .5 is being proposed because release proof must observe the repair commit after it lands. Preserve current plan status and dispatch/notes decisions; no ancestor closure is justified yet.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -91,7 +93,10 @@ flowchart TD
     n4["sase-1kx.4: Watch v0.18.0 to PyPI without editing code, then hand off [closed]"]
     n5["sase-1kx.5: Finish v0.18.0 watcher correctness, visual proof, and publication [in_progress]"]
     n6["sase-1kx.5.1: Repair the watcher edge cases and finish the clean visual proof [closed]"]
-    n7["sase-1kx.5.2: Watch the committed fixes through core publication, CI, and sase publication [in_progress]"]
+    n7["sase-1kx.5.2: Watch the committed fixes through core publication, CI, and sase publication [closed]"]
+    n8["sase-1kx.5.3: Finish the five release-blocking visual drifts and prove v0.18.0 publication [in_progress]"]
+    n9["sase-1kx.5.3.1: Repair the five capture states and remaining watcher parsing gaps [closed]"]
+    n10["sase-1kx.5.3.2: Observe committed fixes through CI and publication without editing files [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,10 +104,14 @@ flowchart TD
     n0 --> n5
     n5 --> n6
     n5 --> n7
+    n5 --> n8
+    n8 --> n9
+    n8 --> n10
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
     n6 -.-> n7
+    n9 -.-> n10
 ```
 
 ## Agents
@@ -114,8 +123,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1kx.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.3/README.md) | [sase-1kx.3](sase-1kx.3.md) | 1 |
 | [bbugyi200.athena.sase-1kx.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.4.md) | [sase-1kx.4](sase-1kx.4.md) | 0 |
 | [bbugyi200.athena.sase-1kx.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.1.md) | [sase-1kx.5.1](sase-1kx.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1kx.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.2/README.md) | [sase-1kx.5.2](sase-1kx.5.2.md) | 0 |
-| [bbugyi200.athena.sase-1kx.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.land/README.md) | [sase-1kx.5](sase-1kx.5.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.2.md) | [sase-1kx.5.2](sase-1kx.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.1.md) | [sase-1kx.5.3.1](sase-1kx.5.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1kx.5.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.2/README.md) | [sase-1kx.5.3.2](sase-1kx.5.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.land/README.md) | [sase-1kx.5.3](sase-1kx.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.land.md) | [sase-1kx.5](sase-1kx.5.md) | 0 |
 | [bbugyi200.athena.sase-1kx.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.land.md) | [sase-1kx](README.md) | 0 |
 
 ## Commits
@@ -126,6 +138,7 @@ flowchart TD
 | sase | [`c699972`](https://github.com/sase-org/sase/commit/c69997274d859113526852cb1c99f0767790f4df) | fix(tui): repair visual-lane loader, fleet, and stitches snapshot waits | [sase-1kx.2](sase-1kx.2.md) | 2026-10-14 08:35:03 EDT |
 | sase | [`9f4e6c4`](https://github.com/sase-org/sase/commit/9f4e6c44309453eec4b43ed48192e778e5bece5d) | fix(tests): stop lazy-export patches emptying the git registry | [sase-1kx.1](sase-1kx.1.md) | 2026-10-14 08:49:09 EDT |
 | sase | [`960f1e1`](https://github.com/sase-org/sase/commit/960f1e1b670a6993ef885506359f9b3166ae318b) | fix(release): close watcher edge cases and host-independent goldens | [sase-1kx.5.1](sase-1kx.5.1.md) | 2026-10-14 11:16:19 EDT |
+| sase | [`2465bc7`](https://github.com/sase-org/sase/commit/2465bc7a1814aff6dcc5232e5218b9a424f843d3) | fix(visual): stabilize capture fixtures and watcher parsing | [sase-1kx.5.3.1](sase-1kx.5.3.1.md) | 2026-10-14 17:26:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
