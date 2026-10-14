@@ -42,7 +42,9 @@ startup-telemetry: always-on loader disk substage timings, plus release reason a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.7--1][1] | Need phase scope and design file | 4 |
+| read-by | [agent:sase-1kl.4--1][2] | Check if startup-telemetry phase closed so stale epic-symbol can be dropped | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.7.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kl.4.md
 
 <!-- sase:referenced-by:end -->

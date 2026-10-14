@@ -19,7 +19,7 @@ startup-readiness-gate: replace the 3 s release with a long safety timeout, keep
 
 - **Depends on:** [sase-1kj.5](sase-1kj.5.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.7](sase-1kj.7.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1kj.8](sase-1kj.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.8](sase-1kj.8.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

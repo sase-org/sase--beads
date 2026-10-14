@@ -25,7 +25,7 @@ patch-relation-index: memoize the Patch relation index, build its edges only whe
 
 - **Blocks:** [sase-1kj.6](sase-1kj.6.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1kj.7](sase-1kj.7.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1kj.8](sase-1kj.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.8](sase-1kj.8.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
