@@ -21,7 +21,7 @@ visual-lane: fix the three deterministic visual failure classes (fast-startup st
 
 ## Dependencies
 
-- **Blocks:** [sase-1kx.4](sase-1kx.4.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [sase-1kx.4](sase-1kx.4.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
