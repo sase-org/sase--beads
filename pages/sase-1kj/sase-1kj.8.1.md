@@ -42,7 +42,7 @@ Every PROPOSED FOLLOW-UP disposition: .1 note #2 stale sase-1kj.7 whitelist is a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 2 |
+| [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 3 |
 
 ## Commits
 
@@ -50,6 +50,7 @@ Every PROPOSED FOLLOW-UP disposition: .1 note #2 stale sase-1kj.7 whitelist is a
 |---|---|---|---|---|
 | sase-core | [`sase-core@b2b6626`](https://github.com/sase-org/sase-core/commit/b2b662664d64b7e42c770ab04b9f27291b18b6bd) | fix(artifact-link): preserve legacy coercion in native index | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:20:55 EDT |
 | sase | [`e07c600`](https://github.com/sase-org/sase/commit/e07c6007c3a3b52306e3d60c9cf90492ddbea5a4) | feat(artifact-links): finish indexed queries and verification repairs | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:50:40 EDT |
+| sase--plans | [`sase--plans@64277bd`](https://github.com/sase-org/sase--plans/commit/64277bd74d50d4d81d030f6be7e3c01266a358a5) | docs(plan): record artifact-link inverted index plan | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:56:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
