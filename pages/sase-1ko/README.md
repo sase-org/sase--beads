@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e3_explicit_delivery_cutover.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e3_explicit_delivery_cutover.md
 
@@ -53,6 +53,8 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 
 [2026-10-14T06:29:03Z · sase-1kj.land] DISCOVERED ISSUE: sase-1kj.land wrapped check c7410810d41e7e4b5841f34a6b7012cc failed two instruction tests outside the startup-starvation diff: tests/instructions/test_delivery_plan.py::test_declared_legacy_hookimpls_resolve_to_provider_legacy (assert 'explicit' == 'inherits_native') and tests/instructions/test_scoreboard_conformance.py::test_conformance_warns_for_duplicate_root_and_leaked_helper_markers (ImportError: cannot import name '_RunManifest' from sase.instructions.manifests). Neither file is in the sase-1kj landing-repair diff. just symvision also reports unused public symbols claude_helper_sources, contains_contract, count_contract_sources, human_rules_blocks, prompt_prefixes, prompt_texts, rules_texts in instructions/* (KNOWN in that ToolRun). Active sase-1ko.10 owns this cutover.
 
+[2026-10-14T11:02:53Z · toobig-7y.verify.0] DISCOVERED ISSUE: Independent reproduction during the verify.py module-split check. ToolRun b85574024daa8fbac1f87328416ac24d failed tests/instructions/test_scoreboard_conformance.py::test_conformance_warns_for_duplicate_root_and_leaked_helper_markers with ImportError: cannot import name '_RunManifest' from sase.instructions.manifests. The test fails while importing its fixture type, before invoking the verification collector or report builder. This is the same acceptance-test failure already recorded in note #9; the current refactor did not touch manifests.py or this test file.
+
 ## Attachments
 
 - 🔒 E3\_SPIKE\_RESULTS.md · text/markdown · 2.92383 KiB (private attachment)
@@ -71,7 +73,7 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 | [sase-1ko.4](sase-1ko.4.md) | Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.5](sase-1ko.5.md) | Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.6](sase-1ko.6.md) | Channel-aware, occurrence-exact scoreboard counting and the conformance check | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [sase-1ko.7](sase-1ko.7.md) | Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion | ✓ closed | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.7](sase-1ko.7.md) | Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.8](sase-1ko.8.md) | Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.9](sase-1ko.9.md) | Grok full-bundle rules and Muse prompt-prefix delivery | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 
@@ -130,7 +132,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ko.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.4.md) | [sase-1ko.4](sase-1ko.4.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.5/README.md) | [sase-1ko.5](sase-1ko.5.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md) | [sase-1ko.6](sase-1ko.6.md) | 1 |
-| [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.7.md) | [sase-1ko.7](sase-1ko.7.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.7/README.md) | [sase-1ko.7](sase-1ko.7.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md) | [sase-1ko.8](sase-1ko.8.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md) | [sase-1ko.9](sase-1ko.9.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.land/README.md) | [sase-1ko](README.md) | 0 |
@@ -147,6 +149,7 @@ flowchart TD
 | sase | [`429353b`](https://github.com/sase-org/sase/commit/429353b015be5e4f644a6ee5762be5dd3df64e6b) | feat(codex): deliver explicit root instructions | [sase-1ko.8](sase-1ko.8.md) | 2026-10-14 00:17:31 EDT |
 | sase | [`e79a89d`](https://github.com/sase-org/sase/commit/e79a89d755a1f91cb032bd2199709994ab9d5d9d) | feat(instructions): add handoff-aware declaration readout | [sase-1ko.4](sase-1ko.4.md) | 2026-10-14 00:20:55 EDT |
 | sase | [`8847d07`](https://github.com/sase-org/sase/commit/8847d07a086b9e930f1a787425ec4c3272ea6824) | feat(instructions): add Grok and Muse explicit delivery | [sase-1ko.9](sase-1ko.9.md) | 2026-10-14 04:42:35 EDT |
+| sase | [`d265233`](https://github.com/sase-org/sase/commit/d2652334910952f8c244b58d3d32f1ae4ed8d0fd) | feat(claude): deliver explicit root and helper instruction bundles | [sase-1ko.7](sase-1ko.7.md) | 2026-10-14 07:42:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -157,9 +160,11 @@ flowchart TD
 | read-by | [agent:sase-1kl.4--1][1] | Check whether instructions epic owns the Master Gate reds | 1 |
 | read-by | [agent:sase-1ko.6][2] | Need the spike-recorded auto-memory fingerprint for channel-counting | 1 |
 | read-by | [agent:sase-1ko.8][3] | Read E3 spike outcomes required by the Codex phase | 1 |
+| read-by | [agent:toobig-7y.verify.0][4] | Need the active instruction-delivery epic scope before recording the repeated conformance test failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kl.4.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-7y.verify.0/README.md
 
 <!-- sase:referenced-by:end -->

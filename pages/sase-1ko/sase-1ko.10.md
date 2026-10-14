@@ -31,7 +31,9 @@ record: prove every exit criterion with harness probes in both flag states (plus
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.land--3][1] | Need active acceptance-phase scope before recording instruction-delivery Symvision findings | 1 |
+| read-by | [agent:toobig-7y.verify.0][2] | Need the acceptance phase scope for the repeated _RunManifest conformance-test import failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kj.8.1.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.toobig-7y.verify.0/README.md
 
 <!-- sase:referenced-by:end -->

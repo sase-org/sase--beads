@@ -49,7 +49,9 @@ readout: add `sase instructions readout`. Per provider and delivery mode, it cla
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ko.8][1] | Confirm prior phase record of the clean-base Symvision private-import failure | 1 |
+| read-by | [agent:sase-1ko.9--1][2] | Check prior recorded evidence for the pre-existing _RunManifest Symvision failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md
 
 <!-- sase:referenced-by:end -->

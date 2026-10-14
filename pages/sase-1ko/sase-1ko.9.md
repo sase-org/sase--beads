@@ -47,7 +47,9 @@ grok-muse: create the `grok_explicit_instructions` sunset flag, plus `muse_expli
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.land--3][1] | Verify the active phase still owns the Symvision helper allowances | 4 |
+| read-by | [agent:sase-1ko.9--1][2] | Need the phase scope, notes, decisions, and design file before finishing the assigned work | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1kj.8.1.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1ko.9.md
 
 <!-- sase:referenced-by:end -->
