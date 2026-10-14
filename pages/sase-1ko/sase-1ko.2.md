@@ -21,7 +21,7 @@ delivery-wire: bump the instruction manifest wire to v2. Add the subagent delive
 
 ## Dependencies
 
-- **Blocks:** [sase-1ko.5](sase-1ko.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

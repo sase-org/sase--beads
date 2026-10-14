@@ -51,7 +51,7 @@ Every SASE root agent on Claude, Codex, Grok, and Muse (unless its trust spike f
 | [sase-1ko.2](sase-1ko.2.md) | Instruction manifest wire v2 in sase-core (delivery slots and fallback), binding, adapter, pin move | ✓ closed | medium | 2026-10-13 | 1 | 2 |
 | [sase-1ko.3](sase-1ko.3.md) | Scoreboard sees dismissed agents, and the new sase instructions show command | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.4](sase-1ko.4.md) | Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
-| [sase-1ko.5](sase-1ko.5.md) | Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [sase-1ko.5](sase-1ko.5.md) | Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [sase-1ko.6](sase-1ko.6.md) | Channel-aware, occurrence-exact scoreboard counting and the conformance check | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.7](sase-1ko.7.md) | Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [sase-1ko.8](sase-1ko.8.md) | Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
@@ -67,7 +67,7 @@ flowchart TD
     n3["sase-1ko.2: Instruction manifest wire v2 in sase-core (delivery slots and fallback), binding, adapter, pin move [closed]"]
     n4["sase-1ko.3: Scoreboard sees dismissed agents, and the new sase instructions show command [in_progress]"]
     n5["sase-1ko.4: Handoff-aware declaration and memory-read readout, with the pre-cutover baseline attached [in_progress]"]
-    n6["sase-1ko.5: Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary [in_progress]"]
+    n6["sase-1ko.5: Delivery-plan hook, active delivery, atomic legacy fallback, and helper manifests at the boundary [closed]"]
     n7["sase-1ko.6: Channel-aware, occurrence-exact scoreboard counting and the conformance check [in_progress]"]
     n8["sase-1ko.7: Claude root bundle via system-prompt file, helper bundle, exact-path native exclusion [in_progress]"]
     n9["sase-1ko.8: Codex developer-instructions delivery, project-doc suppression, and shadow-home hygiene (folds sase-11s) [in_progress]"]
@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1ko.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.2/README.md) | [sase-1ko.2](sase-1ko.2.md) | 2 |
 | [bbugyi200.apollo.sase-1ko.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.3/README.md) | [sase-1ko.3](sase-1ko.3.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.4/README.md) | [sase-1ko.4](sase-1ko.4.md) | 0 |
-| [bbugyi200.apollo.sase-1ko.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.5/README.md) | [sase-1ko.5](sase-1ko.5.md) | 0 |
+| [bbugyi200.apollo.sase-1ko.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.5/README.md) | [sase-1ko.5](sase-1ko.5.md) | 1 |
 | [bbugyi200.apollo.sase-1ko.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.6/README.md) | [sase-1ko.6](sase-1ko.6.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.7/README.md) | [sase-1ko.7](sase-1ko.7.md) | 0 |
 | [bbugyi200.apollo.sase-1ko.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ko.8/README.md) | [sase-1ko.8](sase-1ko.8.md) | 0 |
@@ -123,3 +123,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@973017b`](https://github.com/sase-org/sase-core/commit/973017b6b6a91c0e843d60a65040c9496e94d423) | feat(instruction-manifest)!: add v2 delivery slots and fallback | [sase-1ko.2](sase-1ko.2.md) | 2026-10-13 19:38:10 EDT |
 | sase | [`96090a5`](https://github.com/sase-org/sase/commit/96090a52cfb4b38a64e8a05a23d305bf0009080b) | feat(instructions): adopt manifest v2 delivery slots | [sase-1ko.2](sase-1ko.2.md) | 2026-10-13 19:44:26 EDT |
+| sase | [`d69cd49`](https://github.com/sase-org/sase/commit/d69cd499dd26b04534b9b4a11af540e14a6c73af) | feat(instructions): land delivery-plan hook and declared-legacy fallback | [sase-1ko.5](sase-1ko.5.md) | 2026-10-13 21:37:34 EDT |

@@ -15,7 +15,7 @@ grok-muse: create the `grok_explicit_instructions` sunset flag, plus `muse_expli
 
 - **Depends on:** [sase-1ko.1](sase-1ko.1.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [sase-1ko.10](sase-1ko.10.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [sase-1ko.5](sase-1ko.5.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [sase-1ko.5](sase-1ko.5.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [sase-1ko.6](sase-1ko.6.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
