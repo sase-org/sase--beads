@@ -29,7 +29,9 @@ core-link-index: replace the Python per-row walks behind the app-wide LinkIndex 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.3][1] | Need outer epic DECISIONS | 1 |
+| read-by | [agent:sase-1kj.8.1.land--3][2] | Verify parent phase remains closed for the approved closeout | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md
 
 <!-- sase:referenced-by:end -->

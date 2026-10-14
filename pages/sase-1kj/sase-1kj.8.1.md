@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/artifact_link_inverted_index.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:405b9f024864d71654e1cb54 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/artifact_link_inverted_index.md
 
@@ -42,13 +42,14 @@ Every PROPOSED FOLLOW-UP disposition: .1 note #2 stale sase-1kj.7 whitelist is a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b2b6626`](https://github.com/sase-org/sase-core/commit/b2b662664d64b7e42c770ab04b9f27291b18b6bd) | fix(artifact-link): preserve legacy coercion in native index | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:20:55 EDT |
+| sase | [`e07c600`](https://github.com/sase-org/sase/commit/e07c6007c3a3b52306e3d60c9cf90492ddbea5a4) | feat(artifact-links): finish indexed queries and verification repairs | [sase-1kj.8.1](sase-1kj.8.1.md) | 2026-10-14 01:50:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -59,9 +60,11 @@ Every PROPOSED FOLLOW-UP disposition: .1 note #2 stale sase-1kj.7 whitelist is a
 | read-by | [agent:sase-1kj.8.1.1][1] | Need parent epic DECISIONS and phase split | 1 |
 | read-by | [agent:sase-1kj.8.1.2][2] | Need DECISIONS, prior notes, and parent epic context | 1 |
 | read-by | [agent:sase-1kj.8.1.3][3] | Need parent epic decisions and scope | 1 |
+| read-by | [agent:sase-1kj.8.1.land--3][4] | Verify the appended final evidence note and closed status | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.1.land.md
 
 <!-- sase:referenced-by:end -->
