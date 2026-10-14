@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/artifact_link_inverted_index.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/artifact_link_inverted_index.md
 
@@ -38,7 +38,9 @@ Complete sase-1kj.8 with one shared native index, lazy link chips, and indexed P
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1kj.8.1.1][1] | Need parent epic DECISIONS and phase split | 1 |
+| read-by | [agent:sase-1kj.8.1.2][2] | Need DECISIONS, prior notes, and parent epic context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md
 
 <!-- sase:referenced-by:end -->

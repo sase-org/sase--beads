@@ -52,7 +52,7 @@ flowchart TD
     n9["sase-1kj.8.1: Move artifact-link indexing into the Rust core [in_progress]"]
     n10["sase-1kj.8.1.1: Capture artifact-link parity and performance baselines [closed]"]
     n11["sase-1kj.8.1.2: Build the shared Rust artifact-link index and opaque binding [closed]"]
-    n12["sase-1kj.8.1.3: Route link chips and Patch projections through the shared native handle [in_progress]"]
+    n12["sase-1kj.8.1.3: Route link chips and Patch projections through the shared native handle [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1kj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kj.8.md) | [sase-1kj.8](sase-1kj.8.md) | 0 |
 | [bbugyi200.athena.sase-1kj.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.1/README.md) | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md) | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1kj.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.3/README.md) | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1kj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.land/README.md) | [sase-1kj.8.1](sase-1kj.8.1.md) | 0 |
 | [bbugyi200.athena.sase-1kj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.land/README.md) | [sase-1kj](README.md) | 0 |
 
@@ -106,3 +106,4 @@ flowchart TD
 | sase | [`3c69bf5`](https://github.com/sase-org/sase/commit/3c69bf5a976ab97154a63a317393519c6616a338) | feat(tui): add startup telemetry and agent loader observability | [sase-1kj.7](sase-1kj.7.md) | 2026-10-13 18:19:06 EDT |
 | sase | [`bad0d0a`](https://github.com/sase-org/sase/commit/bad0d0ac361be172f5d200f86390f64f6a8fc5f6) | test(artifact-links): pin link-index parity oracle and perf baseline helper | [sase-1kj.8.1.1](sase-1kj.8.1.1.md) | 2026-10-13 18:24:51 EDT |
 | sase-core | [`sase-core@daad8f2`](https://github.com/sase-org/sase-core/commit/daad8f261cb09c1553fca5b3a531ee61e12977e9) | feat(artifact\_link): add immutable inverted index and PyO3 handle | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 2026-10-13 19:16:43 EDT |
+| sase-core | [`sase-core@d776d75`](https://github.com/sase-org/sase-core/commit/d776d751046f26c212898a8520d9eccc9028e1a0) | fix(artifact-link-index): resolve colliding alias spellings in deterministic row order | [sase-1kj.8.1.3](sase-1kj.8.1.3.md) | 2026-10-13 20:59:18 EDT |

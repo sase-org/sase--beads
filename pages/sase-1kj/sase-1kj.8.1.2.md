@@ -18,7 +18,7 @@ native-index: implement the immutable core index, indexed row and projection que
 ## Dependencies
 
 - **Depends on:** [sase-1kj.8.1.1](sase-1kj.8.1.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [sase-1kj.8.1.3](sase-1kj.8.1.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [sase-1kj.8.1.3](sase-1kj.8.1.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -31,3 +31,15 @@ native-index: implement the immutable core index, indexed row and projection que
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@daad8f2`](https://github.com/sase-org/sase-core/commit/daad8f261cb09c1553fca5b3a531ee61e12977e9) | feat(artifact\_link): add immutable inverted index and PyO3 handle | [sase-1kj.8.1.2](sase-1kj.8.1.2.md) | 2026-10-13 19:16:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kj.8.1.2][1] | Need the phase scope and design file | 7 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kj.8.1.2/README.md
+
+<!-- sase:referenced-by:end -->
