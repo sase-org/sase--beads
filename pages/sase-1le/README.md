@@ -31,7 +31,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.3](sase-1le.3.md) | Declare which version the docs describe and smoke the documented install | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.4](sase-1le.4.md) | Execute the handbook PDF scope decision | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.5](sase-1le.5.md) | Documentation contract lint, templates, and the Writing docs page | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1le.6](sase-1le.6.md) | Change-to-docs routing rule for agents and a constrained refresh\_docs chop | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
+| [sase-1le.6](sase-1le.6.md) | Change-to-docs routing rule for agents and a constrained refresh\_docs chop | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.7](sase-1le.7.md) | Page-move machinery, docs map, and llms.txt | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.8](sase-1le.8.md) | Generated glossary, design-decision roster, tooltips, and the Reference hub | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.9](sase-1le.9.md) | Get started tier with two tutorials | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
@@ -57,7 +57,7 @@ flowchart TD
     n14["sase-1le.3: Declare which version the docs describe and smoke the documented install [closed]"]
     n15["sase-1le.4: Execute the handbook PDF scope decision [closed]"]
     n16["sase-1le.5: Documentation contract lint, templates, and the Writing docs page [closed]"]
-    n17["sase-1le.6: Change-to-docs routing rule for agents and a constrained refresh_docs chop [in_progress]"]
+    n17["sase-1le.6: Change-to-docs routing rule for agents and a constrained refresh_docs chop [closed]"]
     n18["sase-1le.7: Page-move machinery, docs map, and llms.txt [in_progress]"]
     n19["sase-1le.8: Generated glossary, design-decision roster, tooltips, and the Reference hub [in_progress]"]
     n20["sase-1le.9: Get started tier with two tutorials [in_progress]"]
@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md) | [sase-1le.5](sase-1le.5.md) | 1 |
-| [bbugyi200.athena.sase-1le.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.6/README.md) | [sase-1le.6](sase-1le.6.md) | 0 |
+| [bbugyi200.athena.sase-1le.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.6/README.md) | [sase-1le.6](sase-1le.6.md) | 1 |
 | [bbugyi200.athena.sase-1le.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md) | [sase-1le.7](sase-1le.7.md) | 0 |
 | [bbugyi200.athena.sase-1le.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md) | [sase-1le.8](sase-1le.8.md) | 0 |
 | [bbugyi200.athena.sase-1le.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md) | [sase-1le.9](sase-1le.9.md) | 0 |
@@ -149,6 +149,7 @@ flowchart TD
 | sase | [`741afba`](https://github.com/sase-org/sase/commit/741afba3b5ab8da15d0ce9060268a902b657d39a) | feat(docs): declare documented version and smoke the install (sase-1le.3) | [sase-1le.3](sase-1le.3.md) | 2026-10-15 19:01:30 EDT |
 | sase | [`ad3aa46`](https://github.com/sase-org/sase/commit/ad3aa463e41633db1f8607d876c63f71485ffb74) | feat(docs): add check\_docs lint, budgets, templates and contribute hub | [sase-1le.5](sase-1le.5.md) | 2026-10-15 19:12:19 EDT |
 | sase | [`3b09995`](https://github.com/sase-org/sase/commit/3b099950e86a680c21757947c716411be243a377) | feat(docs): curate handbook PDF scope | [sase-1le.4](sase-1le.4.md) | 2026-10-15 19:22:30 EDT |
+| sase | [`8947f92`](https://github.com/sase-org/sase/commit/8947f92b3a52e487f226cc32aecc29f3f17a9b3e) | feat(docs): add docs\_writing routing note and constrain refresh\_docs chop (sase-1le.6) | [sase-1le.6](sase-1le.6.md) | 2026-10-15 19:57:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -157,9 +158,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.3][1] | epic context | 1 |
-| read-by | [agent:sase-1le.5][2] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1le.4--2][2] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
+| read-by | [agent:sase-1le.5][3] | Need parent epic scope and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
 
 <!-- sase:referenced-by:end -->

@@ -22,7 +22,7 @@ contract: add tools/check_docs (directory typing, frontmatter, word budgets with
 ## Dependencies
 
 - **Depends on:** [sase-1le.1](sase-1le.1.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.6](sase-1le.6.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.6](sase-1le.6.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.7](sase-1le.7.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
