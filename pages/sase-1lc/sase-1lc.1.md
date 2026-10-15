@@ -17,7 +17,7 @@ core: extract a total dependency-layering kernel from the epic work planner and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1lc.2](sase-1lc.2.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.2](sase-1lc.2.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -30,3 +30,15 @@ core: extract a total dependency-layering kernel from the epic work planner and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ce9779f`](https://github.com/sase-org/sase-core/commit/ce9779f734713146ecf2b8ad9052a8def9c17b9b) | feat(clan-waves): project clan dependency waves | [sase-1lc.1](sase-1lc.1.md) | 2026-10-15 15:43:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.1][1] | Need to verify whether earlier phase notes contain remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.1/README.md
+
+<!-- sase:referenced-by:end -->

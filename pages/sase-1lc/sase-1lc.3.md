@@ -13,7 +13,7 @@ list: order layered clans by (wave, launch), draw the five-cell wave gutter and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.2](sase-1lc.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.2](sase-1lc.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1lc.4](sase-1lc.4.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
