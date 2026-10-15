@@ -19,7 +19,7 @@ nav-tabs: turn on Material tabs, breadcrumbs, and footer navigation, regroup tod
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.5](sase-1le.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.5](sase-1le.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
