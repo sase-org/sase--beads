@@ -28,7 +28,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.19](sase-1le.19.md) | One-screen homepage, front-door link retargeting, and reader-testing kit | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.2](sase-1le.2.md) | Strict link validation, URL contract test, and docs checks in the gates | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.20](sase-1le.20.md) | Decompose the monoliths and empty the legacy allowlist | ◐ in_progress | xlarge | 2026-10-15 | 1 | 0 |
-| [sase-1le.3](sase-1le.3.md) | Declare which version the docs describe and smoke the documented install | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
+| [sase-1le.3](sase-1le.3.md) | Declare which version the docs describe and smoke the documented install | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.4](sase-1le.4.md) | Execute the handbook PDF scope decision | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
 | [sase-1le.5](sase-1le.5.md) | Documentation contract lint, templates, and the Writing docs page | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.6](sase-1le.6.md) | Change-to-docs routing rule for agents and a constrained refresh\_docs chop | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
@@ -54,7 +54,7 @@ flowchart TD
     n11["sase-1le.19: One-screen homepage, front-door link retargeting, and reader-testing kit [in_progress]"]
     n12["sase-1le.2: Strict link validation, URL contract test, and docs checks in the gates [in_progress]"]
     n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [in_progress]"]
-    n14["sase-1le.3: Declare which version the docs describe and smoke the documented install [in_progress]"]
+    n14["sase-1le.3: Declare which version the docs describe and smoke the documented install [closed]"]
     n15["sase-1le.4: Execute the handbook PDF scope decision [in_progress]"]
     n16["sase-1le.5: Documentation contract lint, templates, and the Writing docs page [in_progress]"]
     n17["sase-1le.6: Change-to-docs routing rule for agents and a constrained refresh_docs chop [in_progress]"]
@@ -132,7 +132,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md) | [sase-1le.19](sase-1le.19.md) | 0 |
 | [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.2/README.md) | [sase-1le.2](sase-1le.2.md) | 0 |
 | [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20/README.md) | [sase-1le.20](sase-1le.20.md) | 0 |
-| [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 0 |
+| [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 0 |
 | [bbugyi200.athena.sase-1le.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md) | [sase-1le.5](sase-1le.5.md) | 0 |
 | [bbugyi200.athena.sase-1le.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.6/README.md) | [sase-1le.6](sase-1le.6.md) | 0 |
@@ -146,3 +146,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a7a80a`](https://github.com/sase-org/sase/commit/1a7a80a306161a67029a01daf067578c422bebb8) | feat(docs): add six-tab navigation and analytics hook | [sase-1le.1](sase-1le.1.md) | 2026-10-15 18:53:24 EDT |
+| sase | [`741afba`](https://github.com/sase-org/sase/commit/741afba3b5ab8da15d0ce9060268a902b657d39a) | feat(docs): declare documented version and smoke the install (sase-1le.3) | [sase-1le.3](sase-1le.3.md) | 2026-10-15 19:01:30 EDT |
