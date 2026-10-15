@@ -16,6 +16,8 @@
 | implemented-by | [plan:202610/v0_18_0_visual_release_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:3435087f16e0e38529c2fe7f | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_visual_release_completion.md
 
 <!-- sase:links:end -->
@@ -47,8 +49,22 @@ Preserve these outcomes plus all historical dispositions already on sase-1kx.5 a
 
 sase bead epic-symbols sase-1kx.5.3 reports no entries. Epic and existing plan remain in progress. Remaining-work plan sase_plan_v0_18_0_capture_convergence.md passed validation with --explain, was refined, and passed revalidation without --explain (0 warnings). It uses one medium repair phase and a separate small no-edit post-commit publication phase: a tale cannot observe its own future committed CI/publication in the coding turn. parent_bead=sase-1kx.5.3 resumes this landing. The plan keeps parent closure, symvision, plan-done updates, and ancestor readiness/closeout out of implementation phases; no forced successful nested closure.
 
+[2026-10-15T09:51:40Z · sase-1kx.5.3.3.land] Child landing sase-1kx.5.3.3 is incomplete. The phase .1 local just check and full UTC visual proof are verified, but phase .2 closed canceled FULL_CI_RED and sase 0.18.0 remains unpublished. Audit found a deterministic Tool Runs loaded-detail repaint suppression plus observed Main Reply/automatic-layout failures; evidence file:explicit:9dbb8a7a761400203c1c56f0 and the complete audit/triage note are on sase-1kx.5.3.3. No intervening base commits since its sole repair commit be73b6021a. Remaining work is being proposed as a child epic of sase-1kx.5.3.3 with coding then no-edit post-commit publication proof; ancestor closeout remains pending. Preserve prior follow-up outcomes and core_release=dispatch / stale_epic_1jz=notes. Do not force-close or mark this linked plan done before descendant and release readiness are rechecked.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1kx.5.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.land.md) | [sase-1kx.5.3](sase-1kx.5.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kx.5.3.3.1--2][1] | Need decisions inherited by the current visual repair phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.3.1.md
+
+<!-- sase:referenced-by:end -->

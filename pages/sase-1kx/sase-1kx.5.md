@@ -16,6 +16,8 @@
 | implemented-by | [plan:202610/v0_18_0_release_finish.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:280388d2d1c4308e7a8bbe18 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_release_finish.md
 
 <!-- sase:links:end -->
@@ -45,3 +47,15 @@ sase bead epic-symbols sase-1kx.5 reports none. Epic and plan remain in progress
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1kx.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.land.md) | [sase-1kx.5](sase-1kx.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kx.5.3.3.1--2][1] | Need project epic decisions relevant to this assigned child phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.3.1.md
+
+<!-- sase:referenced-by:end -->
