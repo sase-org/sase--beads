@@ -19,4 +19,4 @@ links: add MkDocs validation, a sase.sh URL and anchor contract test, fix the tw
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.2/README.md) | [sase-1le.2](sase-1le.2.md) | 0 |
+| [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md) | [sase-1le.2](sase-1le.2.md) | 0 |
