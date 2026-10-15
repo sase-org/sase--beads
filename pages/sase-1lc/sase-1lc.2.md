@@ -18,7 +18,7 @@ model: ratchet the core pin, add the Python facade, and attach memoized wave lay
 ## Dependencies
 
 - **Depends on:** [sase-1lc.1](sase-1lc.1.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.3](sase-1lc.3.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.3](sase-1lc.3.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -31,3 +31,15 @@ model: ratchet the core pin, add the Python facade, and attach memoized wave lay
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`91350ad`](https://github.com/sase-org/sase/commit/91350ad5b63d83f1df186862131cff7429533d51) | feat(tui): add clan wave model adapter | [sase-1lc.2](sase-1lc.2.md) | 2026-10-15 17:42:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.2--1][1] | Need the phase scope, design file, prior notes, and epic decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.2.md
+
+<!-- sase:referenced-by:end -->

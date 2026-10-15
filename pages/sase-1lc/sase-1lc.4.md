@@ -13,7 +13,7 @@ pips: add the shared wave-pip renderer with its 12-wave overflow form and show i
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.3](sase-1lc.3.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.3](sase-1lc.3.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1lc.5](sase-1lc.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
