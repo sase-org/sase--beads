@@ -19,7 +19,7 @@ deterministic-captures: pin the observed footer, archive, deck, and scrollbar st
 
 ## Dependencies
 
-- **Blocks:** [sase-1kx.5.3.2](sase-1kx.5.3.2.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [sase-1kx.5.3.2](sase-1kx.5.3.2.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -32,3 +32,15 @@ deterministic-captures: pin the observed footer, archive, deck, and scrollbar st
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2465bc7`](https://github.com/sase-org/sase/commit/2465bc7a1814aff6dcc5232e5218b9a424f843d3) | fix(visual): stabilize capture fixtures and watcher parsing | [sase-1kx.5.3.1](sase-1kx.5.3.1.md) | 2026-10-14 17:26:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1kx.5.3.1--5][1] | Confirm phase notes and recorded follow-up before evidence-rich closure | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.1.md
+
+<!-- sase:referenced-by:end -->

@@ -96,7 +96,10 @@ flowchart TD
     n7["sase-1kx.5.2: Watch the committed fixes through core publication, CI, and sase publication [closed]"]
     n8["sase-1kx.5.3: Finish the five release-blocking visual drifts and prove v0.18.0 publication [in_progress]"]
     n9["sase-1kx.5.3.1: Repair the five capture states and remaining watcher parsing gaps [closed]"]
-    n10["sase-1kx.5.3.2: Observe committed fixes through CI and publication without editing files [in_progress]"]
+    n10["sase-1kx.5.3.2: Observe committed fixes through CI and publication without editing files [closed]"]
+    n11["sase-1kx.5.3.3: Finish the remaining capture races and confirm sase 0.18.0 publication [in_progress]"]
+    n12["sase-1kx.5.3.3.1: Finish the five observed capture states and prove the full visual lane [closed]"]
+    n13["sase-1kx.5.3.3.2: Observe the committed repairs through guarded publication [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -107,11 +110,15 @@ flowchart TD
     n5 --> n8
     n8 --> n9
     n8 --> n10
+    n8 --> n11
+    n11 --> n12
+    n11 --> n13
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
     n6 -.-> n7
     n9 -.-> n10
+    n12 -.-> n13
 ```
 
 ## Agents
@@ -125,8 +132,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1kx.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.1.md) | [sase-1kx.5.1](sase-1kx.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1kx.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.2.md) | [sase-1kx.5.2](sase-1kx.5.2.md) | 0 |
 | [bbugyi200.athena.sase-1kx.5.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.1.md) | [sase-1kx.5.3.1](sase-1kx.5.3.1.md) | 1 |
-| [bbugyi200.athena.sase-1kx.5.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.2/README.md) | [sase-1kx.5.3.2](sase-1kx.5.3.2.md) | 0 |
-| [bbugyi200.athena.sase-1kx.5.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.land/README.md) | [sase-1kx.5.3](sase-1kx.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.2.md) | [sase-1kx.5.3.2](sase-1kx.5.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.3.1.md) | [sase-1kx.5.3.3.1](sase-1kx.5.3.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1kx.5.3.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.3.2/README.md) | [sase-1kx.5.3.3.2](sase-1kx.5.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1kx.5.3.3.land/README.md) | [sase-1kx.5.3.3](sase-1kx.5.3.3.md) | 0 |
+| [bbugyi200.athena.sase-1kx.5.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.3.land.md) | [sase-1kx.5.3](sase-1kx.5.3.md) | 0 |
 | [bbugyi200.athena.sase-1kx.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.5.land.md) | [sase-1kx.5](sase-1kx.5.md) | 0 |
 | [bbugyi200.athena.sase-1kx.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1kx.land.md) | [sase-1kx](README.md) | 0 |
 
@@ -139,6 +149,7 @@ flowchart TD
 | sase | [`9f4e6c4`](https://github.com/sase-org/sase/commit/9f4e6c44309453eec4b43ed48192e778e5bece5d) | fix(tests): stop lazy-export patches emptying the git registry | [sase-1kx.1](sase-1kx.1.md) | 2026-10-14 08:49:09 EDT |
 | sase | [`960f1e1`](https://github.com/sase-org/sase/commit/960f1e1b670a6993ef885506359f9b3166ae318b) | fix(release): close watcher edge cases and host-independent goldens | [sase-1kx.5.1](sase-1kx.5.1.md) | 2026-10-14 11:16:19 EDT |
 | sase | [`2465bc7`](https://github.com/sase-org/sase/commit/2465bc7a1814aff6dcc5232e5218b9a424f843d3) | fix(visual): stabilize capture fixtures and watcher parsing | [sase-1kx.5.3.1](sase-1kx.5.3.1.md) | 2026-10-14 17:26:34 EDT |
+| sase | [`be73b60`](https://github.com/sase-org/sase/commit/be73b6021ac29d8fcad2cb897192bc6455a47e2b) | test(ace): stabilize visual snapshot capture fixtures | [sase-1kx.5.3.3.1](sase-1kx.5.3.3.1.md) | 2026-10-15 00:15:06 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -38,6 +38,8 @@ FOLLOW-UP TRIAGE COMPLETE: exactly one PROPOSED FOLLOW-UP, .5.2 note #3 (Full CI
 
 sase bead epic-symbols sase-1kx.5 reports none. Epic and plan remain in progress. Preparing a validated two-phase child epic: one medium coding phase, then one small no-edit release proof on its landed commit. A tale cannot satisfy the required post-commit remote CI/publication proof in its coding turn. The child parent_bead is sase-1kx.5; its landing resumes this epic and then sase-1kx with full descendant/linked-plan readiness, symbol retirement, normal closes, symvision, and done-frontmatter updates. No forced close. Plan passed --explain validation, was refined, and passed revalidation without --explain (0 warnings).
 
+[2026-10-15T02:34:58Z · sase-1kx.5.3.land] PARENT LANDING BLOCKER: child sase-1kx.5.3 remains incomplete. Its landing audit independently verifies the check pass and 60 watcher tests, but Full CI 38653006628 still has five real ACE capture mismatches (file:explicit:3435087f16e0e38529c2fe7f), no 0.18.0 publication, and no required clean full visual proof. Current origin/master is 2465bc7a18. All child follow-ups are triaged on the child landing note (sase-1f9, sase-1l5, sase-1a2, sase-1ii, causal note to sase-1jz; separate newer smoke flake sase-1l6). A validated two-phase remaining-work child epic is being proposed under sase-1kx.5.3 because publication proof must follow the future repair commit. Keep this parent and its plan in progress; preserve dispatch/notes decisions and earlier follow-up dispositions.
+
 ## Agents
 
 | Agent | Bead | Commits |
