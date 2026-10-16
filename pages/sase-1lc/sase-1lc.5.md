@@ -13,7 +13,7 @@ ladder: add the foldable in-memory WAVES section at the top of the clan Summary 
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.4](sase-1lc.4.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.4](sase-1lc.4.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1lc.6](sase-1lc.6.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

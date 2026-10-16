@@ -18,7 +18,7 @@ list: order layered clans by (wave, launch), draw the five-cell wave gutter and 
 ## Dependencies
 
 - **Depends on:** [sase-1lc.2](sase-1lc.2.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.4](sase-1lc.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.4](sase-1lc.4.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -31,3 +31,15 @@ list: order layered clans by (wave, launch), draw the five-cell wave gutter and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8953f46`](https://github.com/sase-org/sase/commit/8953f46b806e221a96143b8bf77cf616b5fae631) | feat(agents): show clan dependency waves in agent lists | [sase-1lc.3](sase-1lc.3.md) | 2026-10-15 19:21:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.3--3][1] | Confirm assigned phase scope before completing its TUI and glossary changes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.3.md
+
+<!-- sase:referenced-by:end -->
