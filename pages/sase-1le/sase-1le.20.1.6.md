@@ -19,7 +19,7 @@ tui-move: move the remaining tab, pane, and global-control sections of ace.md, m
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.16](sase-1le.20.1.16.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.5](sase-1le.20.1.5.md) ✓ · ⧖ 2026-10-16
 
@@ -34,3 +34,15 @@ tui-move: move the remaining tab, pane, and global-control sections of ace.md, m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7e3af4c`](https://github.com/sase-org/sase/commit/7e3af4c8ad1ec61c72ffdab811ed38501c7cd1ed) | docs(tui): split remaining ace.md tabs into the TUI hub | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 2026-10-16 15:58:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md
+
+<!-- sase:referenced-by:end -->

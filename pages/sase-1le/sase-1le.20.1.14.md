@@ -22,7 +22,7 @@ integrations-move: move plugins, editor, completion, mobile_gateway, and remote_
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
