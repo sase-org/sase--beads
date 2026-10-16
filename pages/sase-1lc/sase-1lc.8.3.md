@@ -13,7 +13,7 @@ legend: scope dividers to layered clan rosters and draw them only between same-r
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.8.2](sase-1lc.8.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.8.2](sase-1lc.8.2.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

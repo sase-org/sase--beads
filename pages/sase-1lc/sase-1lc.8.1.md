@@ -19,7 +19,7 @@ wire: replace project_clan_waves' partial wire with the planned key-based layout
 
 ## Dependencies
 
-- **Blocks:** [sase-1lc.8.2](sase-1lc.8.2.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.8.2](sase-1lc.8.2.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
