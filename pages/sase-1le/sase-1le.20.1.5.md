@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1le.20.1](sase-1le.20.1.md) / sase-1le.20.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺2
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺2
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.md) · **Assignee:** `sase-1le.20.1.5` · **Size:** medium
-**Created:** 2026-10-16 08:04:36 EDT
+**Created:** 2026-10-16 08:04:36 EDT · **Closed:** 2026-10-16 13:46:37 EDT
 **Plan:** [202610/docs\_decompose.md](https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md)
 
 ## Previously Closed
@@ -52,6 +52,12 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 [2026-10-16T17:16:21Z · sase-1le.20.1.5] Split complete: 9 budget-clean tui pages via tui_prompt.yml. Frozen /ace/#prompt-history-modal still on ace.md stub. just docs-check passed (2419 URLs). epic-symbols none. Explicit {#prompt-stacks-1} and {#snippets-1} for MkDocs strict. Renderer ../../ace.md link left for tui-move. Starting prepared just check.
 
 [2026-10-16T17:28:56Z · sase-1le.20.1.5--1] Recovery: just check failed Rule 1 on leftover MkDocs site/reference/automation/tools/index.html (pretty-URL of tools.md). pyscripts now excludes site/; regression test added. Phase split still complete; 9 tui pages, frozen /ace/#prompt-history-modal, no epic-symbols. Re-running prepared just check.
+
+[2026-10-16T17:46:18Z · sase-1le.20.1.5--2] PROPOSED FOLLOW-UP: test_active_sources_and_docs_use_only_canonical_plan_paths still red on HEAD — docs/contribute/perf-runbook.md keeps leftover legacy plan paths and the exclude still names perf_runbook.md (underscore); KNOWN, untouched, witnesses 7a054be698fb 7bd3fc063eb0 7eb3ac4ee967
+
+[2026-10-16T17:46:24Z · sase-1le.20.1.5--2] PROPOSED FOLLOW-UP: test_macro_docs_and_memory_avoid_xprompt_terms still red on HEAD — 5 unallowlisted xprompt compatibility-anchor lines in docs/_meta/moves.yml, docs/_meta/splits/macros.yml, docs/macros.md, docs/reference/config/feature-flags.md (also recorded on sase-1le.20.1.14); KNOWN, untouched, witnesses 7bd3fc063eb0 7eb3ac4ee967 8b34b956b2d8 dfe062c91ee5
+
+[2026-10-16T17:46:37Z · sase-1le.20.1.5--2] tui-prompt-move complete: 9 budget-clean reference/tui pages (max 5686 words) via tui_prompt.yml; frozen /ace/#prompt-history-modal still on ace.md stub; hub+nav nested; pyscripts ignores MkDocs site/; epic-symbols none. just check (tool run 3f8120f3632f086a9c76b57b2810eb7c) verdict no_new_failures: 833 passed, 2 KNOWN untouched HEAD failures recorded as PROPOSED FOLLOW-UP (sdd canonical exclude still names perf_runbook.md; xprompt allowlist leftovers also on sase-1le.20.1.14). Renderer ../../ace.md link left for tui-move.
 
 ## Dependencies
 

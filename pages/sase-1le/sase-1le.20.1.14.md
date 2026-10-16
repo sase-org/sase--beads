@@ -23,7 +23,7 @@ integrations-move: move plugins, editor, completion, mobile_gateway, and remote_
 
 - **Depends on:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -36,3 +36,15 @@ integrations-move: move plugins, editor, completion, mobile_gateway, and remote_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6a26d90`](https://github.com/sase-org/sase/commit/6a26d909459ec8eb483b04dd90512b38561a9cce) | docs: move integration pages into reference/integrations and contribute | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 2026-10-16 13:42:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.14][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md
+
+<!-- sase:referenced-by:end -->

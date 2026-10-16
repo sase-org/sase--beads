@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/docs_decompose.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md
 
@@ -51,8 +51,10 @@ Every legacy root page under docs/ lives in reference/ or contribute/ as a looku
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.7][1] | Need to determine whether the mypy failures in docs split tooling fall within this active epic | 1 |
 | read-by | [agent:sase-1le.20.1.8][2] | Confirm whether the active docs-decomposition sub-epic already owns this exact mypy gate failure | 1 |
+| read-by | [agent:sase-1lh.1][3] | Need to report docs restructuring regressions fixed by gate-fix and avoid duplicate work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.1/README.md
 
 <!-- sase:referenced-by:end -->
