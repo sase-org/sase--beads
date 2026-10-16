@@ -31,7 +31,7 @@ An agent launched with `%id(..., bead=<id>)` against a bead that was already clo
 |---|---|---|---|---|---:|---:|
 | [sase-1li.1](sase-1li.1.md) | sase-core launch claim attaches to visibly closed beads | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1li.2](sase-1li.2.md) | Runner wiring, agent metadata, and the host notice | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [sase-1li.3](sase-1li.3.md) | Prompt templates, docs, and memory | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
+| [sase-1li.3](sase-1li.3.md) | Prompt templates, docs, and memory | ✓ closed | small | 2026-10-16 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["sase-1li: Attach agent launches to beads that were already closed [in_progress]"]
     n1["sase-1li.1: sase-core launch claim attaches to visibly closed beads [closed]"]
     n2["sase-1li.2: Runner wiring, agent metadata, and the host notice [closed]"]
-    n3["sase-1li.3: Prompt templates, docs, and memory [in_progress]"]
+    n3["sase-1li.3: Prompt templates, docs, and memory [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1li.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1li.1/README.md) | [sase-1li.1](sase-1li.1.md) | 1 |
 | [bbugyi200.athena.sase-1li.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1li.2/README.md) | [sase-1li.2](sase-1li.2.md) | 1 |
-| [bbugyi200.athena.sase-1li.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1li.3/README.md) | [sase-1li.3](sase-1li.3.md) | 0 |
+| [bbugyi200.athena.sase-1li.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1li.3.md) | [sase-1li.3](sase-1li.3.md) | 1 |
 | [bbugyi200.athena.sase-1li.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1li.land/README.md) | [sase-1li](README.md) | 0 |
 
 ## Commits
@@ -63,6 +63,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@594faf3`](https://github.com/sase-org/sase-core/commit/594faf31d80af79a148cb67968318b2bfb1a5770) | feat(bead): attach launch claims to beads closed before submission | [sase-1li.1](sase-1li.1.md) | 2026-10-16 14:27:54 EDT |
 | sase | [`881f444`](https://github.com/sase-org/sase/commit/881f44477864bdb876d4747645e9dfd3da1c9907) | feat(axe): attach launches to closed beads | [sase-1li.2](sase-1li.2.md) | 2026-10-16 15:39:17 EDT |
+| sase | [`4b000ca`](https://github.com/sase-org/sase/commit/4b000ca2c6a966966fe7819c2ef2c73e0191efb7) | docs(beads): document closed-bead launch attach in prompts and memory | [sase-1li.3](sase-1li.3.md) | 2026-10-16 17:28:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
