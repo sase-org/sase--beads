@@ -85,7 +85,7 @@ flowchart TD
     n8["sase-1lc.8: Finish the clan waves landing [in_progress]"]
     n9["sase-1lc.8.1: Realign the sase-core clan wave wire and switch the adapter to it [closed]"]
     n10["sase-1lc.8.2: Wave states, gutter lanes, the WAVES ladder, and the glossary strand [closed]"]
-    n11["sase-1lc.8.3: JUMP legend dividers, legend performance, and the TUI import budget [in_progress]"]
+    n11["sase-1lc.8.3: JUMP legend dividers, legend performance, and the TUI import budget [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.7.md) | [sase-1lc.7](sase-1lc.7.md) | 1 |
 | [bbugyi200.athena.sase-1lc.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md) | [sase-1lc.8.1](sase-1lc.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1lc.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md) | [sase-1lc.8.2](sase-1lc.8.2.md) | 1 |
-| [bbugyi200.athena.sase-1lc.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md) | [sase-1lc.8.3](sase-1lc.8.3.md) | 0 |
+| [bbugyi200.athena.sase-1lc.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md) | [sase-1lc.8.3](sase-1lc.8.3.md) | 1 |
 | [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.land/README.md) | [sase-1lc.8](sase-1lc.8.md) | 0 |
 | [bbugyi200.athena.sase-1lc.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.land.md) | [sase-1lc](README.md) | 0 |
 
@@ -138,6 +138,7 @@ flowchart TD
 | sase-core | [`sase-core@4c83f2d`](https://github.com/sase-org/sase-core/commit/4c83f2de965791ae78a2d0a6a12c823ebc76d2eb) | feat(clan-waves): return key-based layout wire | [sase-1lc.8.1](sase-1lc.8.1.md) | 2026-10-16 00:44:27 EDT |
 | sase | [`04fee05`](https://github.com/sase-org/sase/commit/04fee055590e2fe67b072b5cd88b1ebd2c6e779f) | feat(ace): consume key-based clan wave layout wire | [sase-1lc.8.1](sase-1lc.8.1.md) | 2026-10-16 00:49:08 EDT |
 | sase | [`375bceb`](https://github.com/sase-org/sase/commit/375bceb6eaf207a34cce7bf5e65ede343e7ff50d) | feat(ace): wave states, gutter lanes, WAVES ladder rows and shared after-phrases (sase-1lc.8.2) | [sase-1lc.8.2](sase-1lc.8.2.md) | 2026-10-16 01:28:34 EDT |
+| sase | [`d5efed6`](https://github.com/sase-org/sase/commit/d5efed653553978194eeb8f28192b7fe651da849) | feat(ace): scope layered wave dividers to clan roster and restore jump layout cost | [sase-1lc.8.3](sase-1lc.8.3.md) | 2026-10-16 02:21:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

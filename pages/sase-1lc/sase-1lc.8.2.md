@@ -22,7 +22,7 @@ states: fold wave state over anchors and loaded members only, fix the workflow-s
 ## Dependencies
 
 - **Depends on:** [sase-1lc.8.1](sase-1lc.8.1.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.8.3](sase-1lc.8.3.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.8.3](sase-1lc.8.3.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -35,3 +35,15 @@ states: fold wave state over anchors and loaded members only, fix the workflow-s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`375bceb`](https://github.com/sase-org/sase/commit/375bceb6eaf207a34cce7bf5e65ede343e7ff50d) | feat(ace): wave states, gutter lanes, WAVES ladder rows and shared after-phrases (sase-1lc.8.2) | [sase-1lc.8.2](sase-1lc.8.2.md) | 2026-10-16 01:28:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.8.2][1] | Need phase scope and design | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md
+
+<!-- sase:referenced-by:end -->
