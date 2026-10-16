@@ -19,7 +19,7 @@ split-tool: add H4 and nested selections, drop mappings, intro handling, anchor 
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

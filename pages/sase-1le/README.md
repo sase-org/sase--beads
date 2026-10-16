@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/sase_sh_docs_redesign.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md
 
@@ -97,7 +97,7 @@ flowchart TD
     n26["sase-1le.20.1.2: Make docs_split, render_moves, and check_docs safe for monolith splits [closed]"]
     n27["sase-1le.20.1.20: History and duplicate sweep for agents, VCS, integrations, and single pages [in_progress]"]
     n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [in_progress]"]
-    n29["sase-1le.20.1.3: Whole-page move tool and the upgrading history home [in_progress]"]
+    n29["sase-1le.20.1.3: Whole-page move tool and the upgrading history home [closed]"]
     n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [in_progress]"]
     n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [in_progress]"]
     n32["sase-1le.20.1.6: Finish ace.md and move pager.md into reference/tui/ [in_progress]"]
@@ -251,7 +251,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md) | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md) | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md) | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md) | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.5/README.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md) | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 0 |
@@ -292,6 +292,7 @@ flowchart TD
 | sase | [`b94cffe`](https://github.com/sase-org/sase/commit/b94cffe0d3a506805def63d8f60e1c145909b82f) | feat(docs): generate TUI and macro reference catalogs | [sase-1le.18](sase-1le.18.md) | 2026-10-16 07:31:12 EDT |
 | sase | [`900925c`](https://github.com/sase-org/sase/commit/900925c99486c8b08528b8773ff4295f6ea36bf6) | feat(docs): harden split and move tooling | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 2026-10-16 08:24:56 EDT |
 | sase | [`8531a39`](https://github.com/sase-org/sase/commit/8531a39a0a0d856e1a929dc6dd441e756bb74598) | fix(docs): repair gates-phase failures for sase-1le.20.1.1 | [sase-1le.20.1.1](sase-1le.20.1.1.md) | 2026-10-16 08:35:23 EDT |
+| sase | [`a0ad470`](https://github.com/sase-org/sase/commit/a0ad4700459b7e8df330e2d66713495814227efb) | feat(docs): add whole-page move tooling and upgrading hub | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 2026-10-16 09:10:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -305,11 +306,12 @@ flowchart TD
 | read-by | [agent:sase-1le.16][4] | Need epic decisions and plan context | 1 |
 | read-by | [agent:sase-1le.18][5] | Confirm the epic note tracking the known generated-docs check drift before recording this phase follow-up | 2 |
 | read-by | [agent:sase-1le.19][6] | Need epic context and decisions for homepage phase | 1 |
-| read-by | [agent:sase-1le.20.1.2][7] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
-| read-by | [agent:sase-1le.3][8] | epic context | 1 |
-| read-by | [agent:sase-1le.4--2][9] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
-| read-by | [agent:sase-1le.5][10] | Need parent epic scope and decisions | 1 |
-| read-by | [agent:sase-1le.9][11] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
+| read-by | [agent:sase-1le.20.1.1][7] | epic notes remainder | 2 |
+| read-by | [agent:sase-1le.20.1.2][8] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
+| read-by | [agent:sase-1le.3][9] | epic context | 1 |
+| read-by | [agent:sase-1le.4--2][10] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
+| read-by | [agent:sase-1le.5][11] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1le.9][12] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
@@ -317,10 +319,11 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
 
 <!-- sase:referenced-by:end -->

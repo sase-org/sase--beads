@@ -15,7 +15,7 @@ providers-move: split llms.md (retargeting render_model_docs), agent_providers.m
 
 - **Blocks:** [sase-1le.20.1.11](sase-1le.20.1.11.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.18](sase-1le.20.1.18.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
