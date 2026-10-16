@@ -41,9 +41,11 @@ pips: add the shared wave-pip renderer with its 12-wave overflow form and show i
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.4--1][1] | Need the phase scope, notes, and design file for completion | 2 |
-| read-by | [agent:sase-1le.7][2] | Check whether an existing task tracks the clean-base PDF and social-card test failures | 1 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Verify parent phases readiness for closeout | 1 |
+| read-by | [agent:sase-1le.7][3] | Check whether an existing task tracks the clean-base PDF and social-card test failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.4.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md
 
 <!-- sase:referenced-by:end -->

@@ -38,7 +38,9 @@ core: extract a total dependency-layering kernel from the epic work planner and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.1][1] | Need to verify whether earlier phase notes contain remaining work | 2 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Verify parent phases readiness for closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

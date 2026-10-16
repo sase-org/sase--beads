@@ -30,13 +30,14 @@ NOT CLOSABLE YET: (1) just symvision fails exactly on private _rows_by_suffix im
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md) | [sase-1lc.8](sase-1lc.8.md) | 1 |
+| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md) | [sase-1lc.8](sase-1lc.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b971b55`](https://github.com/sase-org/sase/commit/b971b55fd6f5d662069deeb32968decee514f094) | feat(ace): fit grouped JUMP targets to rendered space and publish suffix index | [sase-1lc.8](sase-1lc.8.md) | 2026-10-16 03:17:29 EDT |
+| sase--plans | [`sase--plans@f91273e`](https://github.com/sase-org/sase--plans/commit/f91273eed6a13154909c62b538b951f8c0dbabc8) | docs(plans): mark clan-wave landing plans done | [sase-1lc.8](sase-1lc.8.md) | 2026-10-16 03:21:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -45,7 +46,9 @@ NOT CLOSABLE YET: (1) just symvision fails exactly on private _rows_by_suffix im
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.8.3][1] | need epic phase status and remaining work | 1 |
+| read-by | [agent:sase-1lc.8.land--2][2] | closeout reread for final verification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

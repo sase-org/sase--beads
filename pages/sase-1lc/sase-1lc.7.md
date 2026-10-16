@@ -56,7 +56,9 @@ verify: review live screenshots of real clans, run the full visual golden sweep 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.7--1][1] | Review prior phase notes and remaining work before finishing verification | 2 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Verify parent phases readiness for closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.7.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

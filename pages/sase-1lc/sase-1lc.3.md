@@ -39,7 +39,9 @@ list: order layered clans by (wave, launch), draw the five-cell wave gutter and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.3--3][1] | Confirm assigned phase scope before completing its TUI and glossary changes | 2 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Verify parent phases readiness for closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

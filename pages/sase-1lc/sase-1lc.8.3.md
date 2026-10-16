@@ -48,7 +48,9 @@ legend: scope dividers to layered clan rosters and draw them only between same-r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.8.3][1] | check phase notes for remaining work | 2 |
+| read-by | [agent:sase-1lc.8.land--2][2] | closeout reread children | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

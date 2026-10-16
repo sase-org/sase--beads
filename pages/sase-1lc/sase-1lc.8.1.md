@@ -41,7 +41,9 @@ wire: replace project_clan_waves' partial wire with the planned key-based layout
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.8.1--1][1] | Verify the assigned phase closed with its check evidence | 2 |
+| read-by | [agent:sase-1lc.8.land--2][2] | closeout reread children | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

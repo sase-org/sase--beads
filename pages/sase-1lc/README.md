@@ -17,7 +17,7 @@
 | related | [bead:sase-1lf][2] | Extends the clan wave surfaces shipped by sase-1lc |
 | related | [bead:sase-1lg][3] | Builds on sase-1lc's clan wave projection; wait for its child-epic wire realignment to land |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/clan_waves_in_agents_tab.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1lf/README.md
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lc.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md) | [sase-1lc.8.1](sase-1lc.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1lc.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md) | [sase-1lc.8.2](sase-1lc.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1lc.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md) | [sase-1lc.8.3](sase-1lc.8.3.md) | 1 |
-| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md) | [sase-1lc.8](sase-1lc.8.md) | 1 |
+| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md) | [sase-1lc.8](sase-1lc.8.md) | 2 |
 | [bbugyi200.athena.sase-1lc.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.land.md) | [sase-1lc](README.md) | 0 |
 
 ## Commits
@@ -142,6 +142,7 @@ flowchart TD
 | sase | [`375bceb`](https://github.com/sase-org/sase/commit/375bceb6eaf207a34cce7bf5e65ede343e7ff50d) | feat(ace): wave states, gutter lanes, WAVES ladder rows and shared after-phrases (sase-1lc.8.2) | [sase-1lc.8.2](sase-1lc.8.2.md) | 2026-10-16 01:28:34 EDT |
 | sase | [`d5efed6`](https://github.com/sase-org/sase/commit/d5efed653553978194eeb8f28192b7fe651da849) | feat(ace): scope layered wave dividers to clan roster and restore jump layout cost | [sase-1lc.8.3](sase-1lc.8.3.md) | 2026-10-16 02:21:23 EDT |
 | sase | [`b971b55`](https://github.com/sase-org/sase/commit/b971b55fd6f5d662069deeb32968decee514f094) | feat(ace): fit grouped JUMP targets to rendered space and publish suffix index | [sase-1lc.8](sase-1lc.8.md) | 2026-10-16 03:17:29 EDT |
+| sase--plans | [`sase--plans@f91273e`](https://github.com/sase-org/sase--plans/commit/f91273eed6a13154909c62b538b951f8c0dbabc8) | docs(plans): mark clan-wave landing plans done | [sase-1lc.8](sase-1lc.8.md) | 2026-10-16 03:21:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -150,7 +151,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.3--3][1] | Confirm the parent epic remains open after closing the completed phase | 1 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Need parent link and prior landing notes for final close | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->

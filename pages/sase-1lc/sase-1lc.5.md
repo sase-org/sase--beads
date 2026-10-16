@@ -41,7 +41,9 @@ ladder: add the foldable in-memory WAVES section at the top of the clan Summary 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.5--2][1] | Need phase scope, design file, and prior notes before continuing the assigned phase | 1 |
+| read-by | [agent:sase-1lc.8.land--2][2] | Verify parent phases readiness for closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md
 
 <!-- sase:referenced-by:end -->
