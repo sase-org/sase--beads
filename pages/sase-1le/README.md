@@ -243,7 +243,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.10/README.md) | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md) | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md) | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.15/README.md) | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.16/README.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 0 |
@@ -305,6 +305,7 @@ flowchart TD
 | sase | [`1eb297e`](https://github.com/sase-org/sase/commit/1eb297ee216b1337c38a10e2d8d477ae140745e1) | docs(reference): sweep automation pages for history and duplicates | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 2026-10-16 12:05:16 EDT |
 | sase | [`558e075`](https://github.com/sase-org/sase/commit/558e075a4d0767f58812b61e9e35cffcb85b6846) | docs(reference): consolidate generated references and migration guidance | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 2026-10-16 12:18:16 EDT |
 | sase | [`9e8824d`](https://github.com/sase-org/sase/commit/9e8824db52d886476434661925fb4717325dd491) | docs: clean work-unit and provider references | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 2026-10-16 12:41:40 EDT |
+| sase | [`39f9ca9`](https://github.com/sase-org/sase/commit/39f9ca930004997cb60e86361f3676701d7297e9) | docs: split agent and VCS reference pages | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 2026-10-16 12:51:59 EDT |
 
 <!-- sase:referenced-by:start -->
 

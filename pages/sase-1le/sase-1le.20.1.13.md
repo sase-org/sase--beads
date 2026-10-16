@@ -39,6 +39,8 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 [2026-10-16T16:23:21Z · sase-1le.20.1.13] Second rebase repair integrates upstream macro/work-unit moves at 5937cbc130. Preserved all 44 move records/894 anchors and 283 unique nav targets; strict docs-check passes 2,312 URLs. Fixed the automatically merged docs_split relative-pointer regression by computing temporary pointers relative to their source before rewriting; all 14 focused terminology/move tests and 86 extensionless-tool mypy checks pass. Required check 7eb3ac4ee9673dc180004fd36255f5a4 passes all lint/validation stages but fails tests: 6,593 passed, 65 failed, 4 skipped. Most failures again show inherited finalizer-turn refusal. The macro terminology failure is four compatibility-anchor lines identical to upstream HEAD in moves.yml, splits/macros.yml, and macros.md; plus-one guidance has KNOWN witness dfe062c91ee577b484390ddbf0c7633f; canonical plan paths still flags unchanged contribute/perf-runbook.md. No failing node belongs to a changed test file. This is a verification failure, not a green gate. Also, remove ignored site/ before a later gate: pyscripts misclassifies generated site/reference/automation/tools/index.html as source.
 
+[2026-10-16T16:43:42Z · sase-1le.20.1.13] Conflict repair round 3 integrated upstream automation/reference cleanup without restoring retired prose; 44 unique move records, 894 anchors, 284 unique nav entries; strict docs-check passed 2313 URLs and 14 focused docs/terminology tests passed. Required check ToolRun 4d7b37b2ae99474423e85239f2940896 failed (2485 passed, 4 failed; fail-fast with xdist). All lint/validation stages passed. Three failures explicitly refused monitor/plan handoffs because SASE_FINALIZER_OWNED_TURN=1; plus-one guidance assertion still reads the upstream beads overview after guidance moved. All failing test files and that overview are byte-identical to upstream HEAD. Gate remains FAILED. Resume then encountered generated-index conflicts against 9e8824db52; round 4 preserves 32 automatically merged reference cleanups and all upstream anchor retargeting.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
@@ -49,7 +51,13 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`39f9ca9`](https://github.com/sase-org/sase/commit/39f9ca930004997cb60e86361f3676701d7297e9) | docs: split agent and VCS reference pages | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 2026-10-16 12:51:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
