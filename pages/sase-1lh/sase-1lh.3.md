@@ -25,4 +25,10 @@ visual-stability: apply the accepted visual_flakes policy so a capture race no l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md) | [sase-1lh.3](sase-1lh.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md) | [sase-1lh.3](sase-1lh.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ae7f9dc`](https://github.com/sase-org/sase/commit/ae7f9dc91aa7504022d17e5b8c9343d912271a13) | feat(visual): recapture first-pass screenshot check failures | [sase-1lh.3](sase-1lh.3.md) | 2026-10-16 15:19:09 EDT |
