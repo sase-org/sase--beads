@@ -36,3 +36,15 @@ agents-integrations-edit: run the edit checklist on reference/agents/, reference
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3c4d340`](https://github.com/sase-org/sase/commit/3c4d340935c41be67eb38fc12f192188d322eefc) | docs(reference): sweep history and duplicate inventories | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 2026-10-16 14:29:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.20][1] | Confirm checklist counts and known-check follow-up before phase close | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md
+
+<!-- sase:referenced-by:end -->

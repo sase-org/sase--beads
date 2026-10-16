@@ -71,12 +71,14 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 | read-by | [agent:sase-1le.20.1.13][2] | Need phase scope before recording discovered docs selector follow-up | 2 |
 | read-by | [agent:sase-1le.20.1.14][3] | Need prior phase follow-ups for overlapping check failures | 1 |
 | read-by | [agent:sase-1le.20.1.17][4] | Confirm prior clean-base mypy failure matches this verification run | 1 |
-| read-by | [agent:sase-1le.20.1.9][5] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
+| read-by | [agent:sase-1le.20.1.20][5] | Check existing follow-up tracking for the known check failures | 1 |
+| read-by | [agent:sase-1le.20.1.9][6] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
 
 <!-- sase:referenced-by:end -->

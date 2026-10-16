@@ -68,4 +68,10 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4bd2252`](https://github.com/sase-org/sase/commit/4bd2252f07f3cd9077253a5d2b1b63d50db22bd9) | docs(tui): split ace.md prompt and Launch Control into reference pages | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 2026-10-16 15:13:55 EDT |

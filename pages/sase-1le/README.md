@@ -255,7 +255,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md) | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md) | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 1 |
@@ -308,6 +308,7 @@ flowchart TD
 | sase | [`39f9ca9`](https://github.com/sase-org/sase/commit/39f9ca930004997cb60e86361f3676701d7297e9) | docs: split agent and VCS reference pages | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 2026-10-16 12:51:59 EDT |
 | sase | [`6a26d90`](https://github.com/sase-org/sase/commit/6a26d909459ec8eb483b04dd90512b38561a9cce) | docs: move integration pages into reference/integrations and contribute | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 2026-10-16 13:42:33 EDT |
 | sase | [`3c4d340`](https://github.com/sase-org/sase/commit/3c4d340935c41be67eb38fc12f192188d322eefc) | docs(reference): sweep history and duplicate inventories | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 2026-10-16 14:29:47 EDT |
+| sase | [`4bd2252`](https://github.com/sase-org/sase/commit/4bd2252f07f3cd9077253a5d2b1b63d50db22bd9) | docs(tui): split ace.md prompt and Launch Control into reference pages | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 2026-10-16 15:13:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
