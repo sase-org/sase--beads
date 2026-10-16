@@ -7,6 +7,20 @@
 **Created:** 2026-10-16 08:04:34 EDT
 **Plan:** [202610/docs\_decompose.md](https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/docs_decompose.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every legacy root page under docs/ lives in reference/ or contribute/ as a lookup-sized, template-shaped page. Old URLs keep working through redirects and anchor stubs, history lives only under reference/upgrading/, the legacy allowlist in docs/_meta/budgets.yml is empty, and the URL contract stays green throughout.
@@ -20,3 +34,15 @@ Every legacy root page under docs/ lives in reference/ or contribute/ as a looku
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.land/README.md) | [sase-1le.20.1](sase-1le.20.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.7][1] | Need to determine whether the mypy failures in docs split tooling fall within this active epic | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
+
+<!-- sase:referenced-by:end -->

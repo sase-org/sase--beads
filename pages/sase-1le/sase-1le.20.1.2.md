@@ -40,7 +40,9 @@ split-tool: add H4 and nested selections, drop mappings, intro handling, anchor 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1le.20.1.7][2] | Need the docs-split tooling scope to route the mypy failure correctly | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
 
 <!-- sase:referenced-by:end -->

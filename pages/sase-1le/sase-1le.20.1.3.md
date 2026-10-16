@@ -45,7 +45,9 @@ move-tool: add tools/docs_move for whole-page moves, pilot it on acknowledgement
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1le.20.1.7][2] | Need the prior phase note documenting identical clean-base typecheck failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
 
 <!-- sase:referenced-by:end -->
