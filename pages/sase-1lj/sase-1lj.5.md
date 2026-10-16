@@ -14,7 +14,7 @@ record: write the readable-agents-md decision record and mark instructions-per-i
 ## Dependencies
 
 - **Depends on:** [sase-1lj.3](sase-1lj.3.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1lj.4](sase-1lj.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lj.4](sase-1lj.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

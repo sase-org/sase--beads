@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e4_readable_agents_md.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e4_readable_agents_md.md
 
 <!-- sase:links:end -->
@@ -30,7 +32,7 @@ The sase repo keeps one full, CI-checked AGENTS.md (plus its CLAUDE.md copy) tha
 | [sase-1lj.1](sase-1lj.1.md) | Projection header, neutral contract wording, parity repo check, and a CI drift gate | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1lj.2](sase-1lj.2.md) | Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1lj.3](sase-1lj.3.md) | Nested tools/, ace/, and tapes/ guides reach every provider | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
-| [sase-1lj.4](sase-1lj.4.md) | The TUI opens the instruction bundle an agent received | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lj.4](sase-1lj.4.md) | The TUI opens the instruction bundle an agent received | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1lj.5](sase-1lj.5.md) | Decision record, glossary, docs sweep, and acceptance record | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +43,7 @@ flowchart TD
     n1["sase-1lj.1: Projection header, neutral contract wording, parity repo check, and a CI drift gate [closed]"]
     n2["sase-1lj.2: Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots [in_progress]"]
     n3["sase-1lj.3: Nested tools/, ace/, and tapes/ guides reach every provider [in_progress]"]
-    n4["sase-1lj.4: The TUI opens the instruction bundle an agent received [in_progress]"]
+    n4["sase-1lj.4: The TUI opens the instruction bundle an agent received [closed]"]
     n5["sase-1lj.5: Decision record, glossary, docs sweep, and acceptance record [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -61,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.1/README.md) | [sase-1lj.1](sase-1lj.1.md) | 1 |
 | [bbugyi200.athena.sase-1lj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md) | [sase-1lj.2](sase-1lj.2.md) | 0 |
 | [bbugyi200.athena.sase-1lj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md) | [sase-1lj.3](sase-1lj.3.md) | 0 |
-| [bbugyi200.athena.sase-1lj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md) | [sase-1lj.4](sase-1lj.4.md) | 0 |
+| [bbugyi200.athena.sase-1lj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md) | [sase-1lj.4](sase-1lj.4.md) | 1 |
 | [bbugyi200.athena.sase-1lj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md) | [sase-1lj.5](sase-1lj.5.md) | 0 |
 | [bbugyi200.athena.sase-1lj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.land/README.md) | [sase-1lj](README.md) | 0 |
 
@@ -70,3 +72,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`97825ee`](https://github.com/sase-org/sase/commit/97825eee1d2c9d2db63ab9427d0fe153145a8bd0) | feat(instructions): readable AGENTS.md projection with header, parity check, and CI drift gate | [sase-1lj.1](sase-1lj.1.md) | 2026-10-16 16:07:53 EDT |
+| sase | [`552b38f`](https://github.com/sase-org/sase/commit/552b38f7ed078ace50c73e1ca44fe40d4ebd9f51) | feat(tui): open the launched instruction bundle from MEMORY and Files | [sase-1lj.4](sase-1lj.4.md) | 2026-10-16 16:30:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lj.1][1] | parent epic scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.1/README.md
+
+<!-- sase:referenced-by:end -->
