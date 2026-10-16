@@ -19,6 +19,10 @@ contribute-move: whole-page moves of development, rust_backend (stub), fakey, te
 
 [2026-10-16T13:47:43Z · sase-1le.20.1.12] Moved ten contributor pages under contribute/, preserved rust_backend.md as an anchor-aware stub, updated navigation, redirects, indexes, code/test/docs pointers, and the authorized tui_perf memory note. Verified just docs-check (strict site build and 435 URL checks) and sase tool run test -- tests/test_docs_moves.py (passed). sase tool run check passed formatting and Ruff, then stopped at the nine extensionless-tool mypy errors already reproduced on clean HEAD; recorded as a PROPOSED FOLLOW-UP citing sase-1le.20.1.3 note #1 and sase-1le.20.1.1 note #1. epic-symbols was empty.
 
+[2026-10-16T14:07:34Z · sase-1le.20.1.12] Reconciled this checkout after the prior closed record: moved all ten pages under docs/contribute, retained rust_backend.md as an anchor stub, and updated nav, budgets, redirects, docs map, authored pointers, and the authorized tui_perf note. Fixed docs_move newline handling and made generated stub anchors formatter-stable; mapped the legacy Rust title anchor to the real MkDocs slug. Verified all ten move entries/routes/budgets, docs-check, focused page-move and path-selection tests, and git diff --check. sase tool run check passed formatting, model policy, keep-sorted, and Ruff, then stopped at the same nine clean-base extensionless-tool mypy errors recorded in note #2; that note already records the PROPOSED FOLLOW-UP and says no task bead tracks them.
+
+[2026-10-16T14:07:54Z · sase-1le.20.1.12] Verified ten contributor moves and mappings, strict docs-check, focused page-move and path-selection tests, and diff whitespace; just check only failed on the nine clean-base mypy errors already recorded in note #2. Epic symbols are empty.
+
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ◐ · ⧖ 2026-10-16
@@ -29,4 +33,10 @@ contribute-move: whole-page moves of development, rust_backend (stub), fakey, te
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`0176c69`](https://github.com/sase-org/sase/commit/0176c6997d9da6cabbd920366dbd178b40ed417a) | feat(docs): move contributor pages into contribute | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 2026-10-16 10:19:04 EDT |

@@ -240,7 +240,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md) | [sase-1le.20.1.1](sase-1le.20.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.10.md) | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md) | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md) | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.15/README.md) | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 0 |
@@ -295,6 +295,7 @@ flowchart TD
 | sase | [`a0ad470`](https://github.com/sase-org/sase/commit/a0ad4700459b7e8df330e2d66713495814227efb) | feat(docs): add whole-page move tooling and upgrading hub | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 2026-10-16 09:10:54 EDT |
 | sase | [`d8b361b`](https://github.com/sase-org/sase/commit/d8b361b7d709940b42208310d07c215faea2f9f6) | feat(docs): move Agents tab sections of ace.md to reference/tui/ (sase-1le.20.1.4) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 2026-10-16 09:46:24 EDT |
 | sase | [`1c5e871`](https://github.com/sase-org/sase/commit/1c5e871e7827fecd6e28527b9d8f7f157a076410) | docs(configuration): split prose into reference pages | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 2026-10-16 10:04:17 EDT |
+| sase | [`0176c69`](https://github.com/sase-org/sase/commit/0176c6997d9da6cabbd920366dbd178b40ed417a) | feat(docs): move contributor pages into contribute | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 2026-10-16 10:19:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
