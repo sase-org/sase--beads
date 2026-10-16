@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1le.20.1](sase-1le.20.1.md) / sase-1le.20.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.md) · **Assignee:** `sase-1le.20.1.5` · **Size:** medium
-**Created:** 2026-10-16 08:04:36 EDT
+**Created:** 2026-10-16 08:04:36 EDT · **Closed:** 2026-10-16 11:11:16 EDT
 **Plan:** [202610/docs\_decompose.md](https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md)
 
 ## Previously Closed
@@ -29,6 +29,12 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 [2026-10-16T14:46:10Z · bryanbugyi34@gmail.com] I'm not sure if this work is completed or not but the agent that was attempting to work on it failed.
 
+[2026-10-16T15:10:52Z · sase-1le.20.1.5] PROPOSED FOLLOW-UP: tools/render_keymap_macro_reference still emits ../../ace.md (generated keymaps.md); owned by tui-move sase-1le.20.1.6 which must retarget the renderer when ace.md is finished
+
+[2026-10-16T15:10:58Z · sase-1le.20.1.5] PROPOSED FOLLOW-UP: tools/docs_split nested-split leftovers remain: nested Moved-to pointers emit root-relative /path.md (hand-rewritten this phase); stray <a id> lines before a heading steal that heading id so the real heading becomes -1 without {#id}. tui-move should avoid nested selections or fix the tool first
+
+[2026-10-16T15:11:16Z · sase-1le.20.1.5] Moved ace.md prompt/snippet/Launch Control sections to 9 budget-clean reference/tui pages (prompt-input, prompt-modes, prompt-stacks, prompt-completion, prompt-completion-panels, prompts-overlay, snippets, launch-control, launch-control-overrides); mapping docs/_meta/splits/tui_prompt.yml; hub+nav nested. Verified: dry-run budgets all within 6000 (max 5665), check_docs ok, strict mkdocs build ok, URL contract 914/914 incl frozen /ace/#prompt-history-modal, 41 docs/split/url/tribe tests pass. Fixed docs_split nested-parent crash without _intro (regression test). Renderer ace.md link left for tui-move.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16
@@ -38,4 +44,4 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.5/README.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |

@@ -15,7 +15,7 @@ config-macros-edit: run the edit checklist on the config companion pages, enviro
 
 - **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.7](sase-1le.20.1.7.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1le.20.1.8](sase-1le.20.1.8.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.8](sase-1le.20.1.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

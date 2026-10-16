@@ -15,7 +15,7 @@ work-units-move: split beads.md and sdd.md and move goals.md, change_spec.md, an
 
 - **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.18](sase-1le.20.1.18.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1le.20.1.8](sase-1le.20.1.8.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.8](sase-1le.20.1.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

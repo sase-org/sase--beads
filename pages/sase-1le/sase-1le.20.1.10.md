@@ -35,7 +35,7 @@ providers-move: split llms.md (retargeting render_model_docs), agent_providers.m
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.20.1.11](sase-1le.20.1.11.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.11](sase-1le.20.1.11.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.18](sase-1le.20.1.18.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
 
@@ -50,3 +50,15 @@ providers-move: split llms.md (retargeting render_model_docs), agent_providers.m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e297cef`](https://github.com/sase-org/sase/commit/e297cefb8ec146cce6cc83e2f56abe43c44572c6) | feat(docs): move provider and memory reference pages | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 2026-10-16 10:51:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.10][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.10/README.md
+
+<!-- sase:referenced-by:end -->
