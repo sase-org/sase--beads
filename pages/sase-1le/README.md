@@ -246,7 +246,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md) | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.15/README.md) | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.16.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 1 |
+| [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.16.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2 |
 | [bbugyi200.athena.sase-1le.20.1.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md) | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.18/README.md) | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 1 |
@@ -312,6 +312,7 @@ flowchart TD
 | sase | [`7e3af4c`](https://github.com/sase-org/sase/commit/7e3af4c8ad1ec61c72ffdab811ed38501c7cd1ed) | docs(tui): split remaining ace.md tabs into the TUI hub | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 2026-10-16 15:58:07 EDT |
 | sase | [`367562b`](https://github.com/sase-org/sase/commit/367562ba5251a66cd36562cd7996ced23b235f87) | feat(cli): generate root flag reference and split CLI docs | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 2026-10-16 16:56:16 EDT |
 | sase | [`a00e034`](https://github.com/sase-org/sase/commit/a00e034d65cb22a9bedab32f15d7c8679a0de7c8) | docs(tui): sweep history into upgrading/tui and link generated pages | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:35:56 EDT |
+| sase | [`f3087c8`](https://github.com/sase-org/sase/commit/f3087c86acbbd2e445a7a0054e3d596aafeeeb95) | docs: refresh instruction shims and pin duplicate sase-service heading | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:42:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -28,10 +28,23 @@ tui-edit: strip history, bead IDs, and epic labels from the TUI reference pages 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.16.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 1 |
+| [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.16.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a00e034`](https://github.com/sase-org/sase/commit/a00e034d65cb22a9bedab32f15d7c8679a0de7c8) | docs(tui): sweep history into upgrading/tui and link generated pages | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:35:56 EDT |
+| sase | [`f3087c8`](https://github.com/sase-org/sase/commit/f3087c86acbbd2e445a7a0054e3d596aafeeeb95) | docs: refresh instruction shims and pin duplicate sase-service heading | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:42:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.16--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.16.md
+
+<!-- sase:referenced-by:end -->
