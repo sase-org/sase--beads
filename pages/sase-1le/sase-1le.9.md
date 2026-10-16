@@ -22,7 +22,7 @@ start: write start/index, install, first-run, and first-change from getting_star
 ## Dependencies
 
 - **Blocks:** [sase-1le.10](sase-1le.10.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.13](sase-1le.13.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.13](sase-1le.13.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.3](sase-1le.3.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.7](sase-1le.7.md) ✓ · ⧖ 2026-10-15
@@ -38,3 +38,15 @@ start: write start/index, install, first-run, and first-change from getting_star
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2d701e4`](https://github.com/sase-org/sase/commit/2d701e4dc6834672594730475f95c9d0683c0da8) | feat(docs): add the guided start tier | [sase-1le.9](sase-1le.9.md) | 2026-10-15 22:36:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.9][1] | Confirm final phase notes and scope before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
+
+<!-- sase:referenced-by:end -->
