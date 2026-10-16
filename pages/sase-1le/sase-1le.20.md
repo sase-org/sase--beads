@@ -14,7 +14,7 @@ decompose: author and run a sub-epic that moves every remaining root page into r
 ## Dependencies
 
 - **Depends on:** [sase-1le.10](sase-1le.10.md) ✓ · ⧖ 2026-10-15
-- **Depends on:** [sase-1le.15](sase-1le.15.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.16](sase-1le.16.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.17](sase-1le.17.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.18](sase-1le.18.md) ◐ · ⧖ 2026-10-15

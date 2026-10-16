@@ -23,7 +23,7 @@ concepts-system: write the remaining four concept hubs, each ending in Do it and
 
 - **Depends on:** [sase-1le.11](sase-1le.11.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.14](sase-1le.14.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.15](sase-1le.15.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

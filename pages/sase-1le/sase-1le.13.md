@@ -23,7 +23,7 @@ guides-setup: create guides/index.md and seven goal-titled guides, folding troub
 
 - **Depends on:** [sase-1le.11](sase-1le.11.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.14](sase-1le.14.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.15](sase-1le.15.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.17](sase-1le.17.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.9](sase-1le.9.md) ✓ · ⧖ 2026-10-15
@@ -39,3 +39,15 @@ guides-setup: create guides/index.md and seven goal-titled guides, folding troub
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bfa7804`](https://github.com/sase-org/sase/commit/bfa78040ebac10a348ba84bc0b97175bbe3d3ab9) | docs(guides): add setup and fix-problems guides, move recovery pages to reference | [sase-1le.13](sase-1le.13.md) | 2026-10-15 22:57:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.13][1] | check notes and remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.13/README.md
+
+<!-- sase:referenced-by:end -->
