@@ -7,6 +7,20 @@
 **Created:** 2026-10-16 16:46:18 EDT
 **Plan:** [202610/sase\_1lh\_landing\_repair.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_1lh_landing_repair.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/sase_1lh_landing_repair.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_1lh_landing_repair.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The defects that the sase-1lh landing review found in its own watcher, check-mode recapture, and docs_split work are fixed. The watcher treats a stale release-PR head as something to refresh, not as CORE_FLOOR_BLOCKED. A fresh release watch sees sase 0.18.0 install from PyPI. This epic's land agent confirms the release, then resumes the interrupted sase-1lh landing through parent_bead.
@@ -23,8 +37,10 @@ The defects that the sase-1lh landing review found in its own watcher, check-mod
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1lh.7.3][1] | parent epic context | 1 |
+| read-by | [agent:sase-1lh.7.1][1] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1lh.7.3][2] | parent epic context | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md
 
 <!-- sase:referenced-by:end -->
