@@ -41,10 +41,12 @@ glossary: generate the glossary and design-decision pages from the memory webs, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1le.8][1] | Need the phase scope and design file | 3 |
-| read-by | [agent:sase-1le.9][2] | Need to check whether generated glossary and design-decision rendering scope includes this formatting drift. | 1 |
+| read-by | [agent:sase-1le.18][1] | Check existing ownership for the generated glossary and design-decision formatting drift | 1 |
+| read-by | [agent:sase-1le.8][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1le.9][3] | Need to check whether generated glossary and design-decision rendering scope includes this formatting drift. | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
 
 <!-- sase:referenced-by:end -->

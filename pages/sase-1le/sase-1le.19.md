@@ -46,9 +46,11 @@ homepage: rebuild index.md around one primary CTA, install, one demo, four capab
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.17][1] | Check existing phase notes for the same generated-doc renderer drift | 1 |
-| read-by | [agent:sase-1le.19][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1le.18][2] | Check whether the existing renderer/Prettier follow-up covers this clean-base fmt-docs-check failure | 1 |
+| read-by | [agent:sase-1le.19][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
 
 <!-- sase:referenced-by:end -->
