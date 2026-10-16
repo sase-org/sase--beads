@@ -13,7 +13,7 @@ jump: draw dim wave dividers and a waves title suffix in the collapsed JUMP lege
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.5](sase-1lc.5.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.5](sase-1lc.5.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1lc.7](sase-1lc.7.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

@@ -20,7 +20,7 @@ pips: add the shared wave-pip renderer with its 12-wave overflow form and show i
 ## Dependencies
 
 - **Depends on:** [sase-1lc.3](sase-1lc.3.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.5](sase-1lc.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.5](sase-1lc.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ pips: add the shared wave-pip renderer with its 12-wave overflow form and show i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c2d476e`](https://github.com/sase-org/sase/commit/c2d476e43205204108e72ed382dac56c693f1f9a) | feat(tui): show clan wave state pips | [sase-1lc.4](sase-1lc.4.md) | 2026-10-15 20:06:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.4--1][1] | Need the phase scope, notes, and design file for completion | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.4.md
+
+<!-- sase:referenced-by:end -->
