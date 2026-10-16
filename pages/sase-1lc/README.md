@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.5.md) | [sase-1lc.5](sase-1lc.5.md) | 1 |
 | [bbugyi200.athena.sase-1lc.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.6.md) | [sase-1lc.6](sase-1lc.6.md) | 1 |
 | [bbugyi200.athena.sase-1lc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.7.md) | [sase-1lc.7](sase-1lc.7.md) | 1 |
-| [bbugyi200.athena.sase-1lc.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md) | [sase-1lc.8.1](sase-1lc.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1lc.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md) | [sase-1lc.8.1](sase-1lc.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1lc.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md) | [sase-1lc.8.2](sase-1lc.8.2.md) | 0 |
 | [bbugyi200.athena.sase-1lc.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md) | [sase-1lc.8.3](sase-1lc.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.land/README.md) | [sase-1lc.8](sase-1lc.8.md) | 0 |
@@ -136,6 +136,7 @@ flowchart TD
 | sase | [`96baa90`](https://github.com/sase-org/sase/commit/96baa9011a0775ed26e07ae16805bf27b88ea00e) | feat(tui): add clan waves to JUMP legend and roster | [sase-1lc.6](sase-1lc.6.md) | 2026-10-15 22:12:30 EDT |
 | sase | [`7e1edb8`](https://github.com/sase-org/sase/commit/7e1edb8d76b753f98d9f2a31fd0d1eb8b82a3136) | feat(ace): finish clan wave verification | [sase-1lc.7](sase-1lc.7.md) | 2026-10-15 22:46:44 EDT |
 | sase-core | [`sase-core@4c83f2d`](https://github.com/sase-org/sase-core/commit/4c83f2de965791ae78a2d0a6a12c823ebc76d2eb) | feat(clan-waves): return key-based layout wire | [sase-1lc.8.1](sase-1lc.8.1.md) | 2026-10-16 00:44:27 EDT |
+| sase | [`04fee05`](https://github.com/sase-org/sase/commit/04fee055590e2fe67b072b5cd88b1ebd2c6e779f) | feat(ace): consume key-based clan wave layout wire | [sase-1lc.8.1](sase-1lc.8.1.md) | 2026-10-16 00:49:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
