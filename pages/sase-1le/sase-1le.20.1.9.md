@@ -34,3 +34,15 @@ work-units-move: split beads.md and sdd.md and move goals.md, change_spec.md, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5937cbc`](https://github.com/sase-org/sase/commit/5937cbc13066562a9a4b235831e76574e46e37ee) | docs(reference): split work unit documentation | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 2026-10-16 11:57:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
+
+<!-- sase:referenced-by:end -->

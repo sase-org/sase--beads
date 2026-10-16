@@ -11,6 +11,10 @@
 
 config-macros-edit: run the edit checklist on the config companion pages, environment variables, Admin Center, reference/macros/, and reference/workflows.md.
 
+## Notes
+
+[2026-10-16T15:59:21Z · sase-1le.20.1.17] PROPOSED FOLLOW-UP: Repair the nine extensionless-tool mypy errors in unchanged tools/docs_split and tools/render_keymap_macro_reference — ToolRun 01c193367f5f2a2bcdcbc02f2d4d023c reproduces the clean-base diagnostics documented in sase-1le.20.1.13 notes #1 and #5; no matching task bead exists.
+
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16

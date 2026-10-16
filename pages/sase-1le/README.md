@@ -95,7 +95,7 @@ flowchart TD
     n22["sase-1le.20.1.16: History and duplicate sweep for reference/tui/ [in_progress]"]
     n23["sase-1le.20.1.17: History and duplicate sweep for configuration, macros, and workflows pages [in_progress]"]
     n24["sase-1le.20.1.18: History and duplicate sweep for work-units, providers, and memory pages [in_progress]"]
-    n25["sase-1le.20.1.19: History and duplicate sweep for automation pages [in_progress]"]
+    n25["sase-1le.20.1.19: History and duplicate sweep for automation pages [closed]"]
     n26["sase-1le.20.1.2: Make docs_split, render_moves, and check_docs safe for monolith splits [closed]"]
     n27["sase-1le.20.1.20: History and duplicate sweep for agents, VCS, integrations, and single pages [in_progress]"]
     n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [in_progress]"]
@@ -249,7 +249,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.16/README.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md) | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.18/README.md) | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md) | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md) | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
@@ -302,6 +302,7 @@ flowchart TD
 | sase | [`0e667d9`](https://github.com/sase-org/sase/commit/0e667d98c2450663e7c052423a7130e7e8000e2e) | feat(docs): move automation pages into reference | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 2026-10-16 11:18:04 EDT |
 | sase | [`deaa5d2`](https://github.com/sase-org/sase/commit/deaa5d22dd7c0c3f2d5c2497a38882f878c2e03f) | docs(reference): split macro and workflow documentation | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 2026-10-16 11:22:54 EDT |
 | sase | [`5937cbc`](https://github.com/sase-org/sase/commit/5937cbc13066562a9a4b235831e76574e46e37ee) | docs(reference): split work unit documentation | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 2026-10-16 11:57:26 EDT |
+| sase | [`1eb297e`](https://github.com/sase-org/sase/commit/1eb297ee216b1337c38a10e2d8d477ae140745e1) | docs(reference): sweep automation pages for history and duplicates | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 2026-10-16 12:05:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

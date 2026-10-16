@@ -21,7 +21,7 @@ automation-move: split notifications.md, axe.md, monitors.md, and the decision-c
 
 - **Depends on:** [sase-1le.20.1.10](sase-1le.20.1.10.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.19](sase-1le.20.1.19.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.19](sase-1le.20.1.19.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

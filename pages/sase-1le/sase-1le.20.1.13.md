@@ -35,6 +35,8 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 [2026-10-16T15:46:21Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: The just check docs-build conditional in Justfile uses docs_scope="$$(tools/docs_changed)" and tests "$$docs_scope". Unlike Make, Just passes both dollar signs to sh: $$ expands to the PID, the selector is not invoked, and the condition always skips. At HEAD 0e667d98c2 with 98 staged repair paths, tools/docs_changed prints run, but ToolRun 8b34b956b2d88ceb3905fccb684a9bb3 logged "Skipping docs build; no docs inputs changed." just --dry-run check preserves the doubled dollars, and an isolated sh conditional reproduces skip. Explicit just docs-check passed strict build and 1,863 URL contracts for this repair. Use ordinary shell dollar syntax and exercise both run/skip branches. Phase sase-1le.2 owns the gate wiring; no duplicate task was found.
 
+[2026-10-16T16:00:51Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: Isolate the test suite from inherited SASE_FINALIZER_OWNED_TURN during conflict-repair checks. Required check 8b34b956b2d88ceb3905fccb684a9bb3 passed every lint, SASE validation, and committed-plan stage, then its core-identity-changed full non-visual lane finished with 55,815 passed / 267 failed / 17 skipped. At least 189 traceback groups explicitly contain the host-finalizer-turn monitor/handoff refusal; other bounded-wait failures expect joinable monitor escalation that this host turn disables. The gate remains a verification failure. Two docs failures have independent KNOWN witness dfe062c91ee577b484390ddbf0c7633f: test_active_sources_and_docs_use_only_canonical_plan_paths and test_checked_in_plugins_required_docs_use_batch_wording. No failed node belongs to a changed test file. Direct strict docs-check passed 1,863 URL contracts; all 10 docs-move tests passed, including the added nested-first-selection regression. The nine extensionless-tool mypy errors from earlier notes are repaired and now pass.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
@@ -54,7 +56,9 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.11][1] | Need the earlier phase record of the identical clean-base extensionless-tool mypy errors | 1 |
+| read-by | [agent:sase-1le.20.1.9][2] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
 
 <!-- sase:referenced-by:end -->
