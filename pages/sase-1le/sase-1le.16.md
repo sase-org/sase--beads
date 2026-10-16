@@ -40,8 +40,10 @@ cli-registry: generate one reference page per command group from the argparse tr
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1le.16][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1le.12][1] | Check whether the known fmt-docs-check issue already tracks this exact failure | 1 |
+| read-by | [agent:sase-1le.16][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md
 
 <!-- sase:referenced-by:end -->

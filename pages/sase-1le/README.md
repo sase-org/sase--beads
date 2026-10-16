@@ -11,6 +11,10 @@
 
 A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested tutorials, about eight concept pages, and about fifteen goal-titled guides (~30K words). These sit in front of a lookup-sized Reference generated from the code that owns each fact. A lint-enforced documentation contract keeps the site from growing back.
 
+## Notes
+
+[2026-10-16T02:32:29Z · sase-1le.9] DISCOVERED ISSUE: During conflict repair at HEAD 96baa901, ToolRun 3635b8d75acc2bc20408a04178e2d4b1 failed first at Markdown formatting after generated docs were refreshed. On the unchanged tracked docs, ToolRun f8cdf6623991d1f73f8ee009c9cb8043 failed at fmt-docs-check. Direct just fmt-docs-check also exits 1: render_glossary and render_design_decisions report drift in docs/reference/glossary.md and docs/reference/design-decisions.md although both are unchanged from HEAD. The strict just docs-check build and URL contract pass with 277 URLs. Reproduce with just fmt-docs-check. The required check gate blocks agents until generated output and Markdown formatting agree; phase sase-1le.8 owns this generated documentation pipeline.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -34,7 +38,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.6](sase-1le.6.md) | Change-to-docs routing rule for agents and a constrained refresh\_docs chop | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.7](sase-1le.7.md) | Page-move machinery, docs map, and llms.txt | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.8](sase-1le.8.md) | Generated glossary, design-decision roster, tooltips, and the Reference hub | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1le.9](sase-1le.9.md) | Get started tier with two tutorials | ✓ closed | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.9](sase-1le.9.md) | Get started tier with two tutorials | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 
 ## Lineage
 
@@ -138,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.6/README.md) | [sase-1le.6](sase-1le.6.md) | 1 |
 | [bbugyi200.athena.sase-1le.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md) | [sase-1le.7](sase-1le.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md) | [sase-1le.8](sase-1le.8.md) | 1 |
-| [bbugyi200.athena.sase-1le.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md) | [sase-1le.9](sase-1le.9.md) | 0 |
+| [bbugyi200.athena.sase-1le.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md) | [sase-1le.9](sase-1le.9.md) | 1 |
 | [bbugyi200.athena.sase-1le.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.land/README.md) | [sase-1le](README.md) | 0 |
 
 ## Commits
@@ -156,6 +160,7 @@ flowchart TD
 | sase | [`ecaad7f`](https://github.com/sase-org/sase/commit/ecaad7fed830cefdac2ab1778e4e9f38acf9fcb7) | docs(sase.sh): add concepts and move architecture page | [sase-1le.11](sase-1le.11.md) | 2026-10-15 22:09:33 EDT |
 | sase | [`8f22863`](https://github.com/sase-org/sase/commit/8f22863f3293b190e3767b32ddc3d4084dbdbe66) | docs(cli): generate CLI reference from live argparse tree | [sase-1le.16](sase-1le.16.md) | 2026-10-15 22:09:36 EDT |
 | sase | [`e5fb914`](https://github.com/sase-org/sase/commit/e5fb91454fa2c3e89dfd534873521bd969e2cc29) | docs(concepts): add system concept hubs | [sase-1le.12](sase-1le.12.md) | 2026-10-15 22:26:15 EDT |
+| sase | [`2d701e4`](https://github.com/sase-org/sase/commit/2d701e4dc6834672594730475f95c9d0683c0da8) | feat(docs): add the guided start tier | [sase-1le.9](sase-1le.9.md) | 2026-10-15 22:36:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
