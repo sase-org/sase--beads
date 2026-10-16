@@ -1,0 +1,65 @@
+# Bead: sase-1lh — Green Master Gate and Full CI, then ship sase v0.18.0 through ci\_watch
+
+[Bead Pages](../README.md) / sase-1lh
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.10q](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.10q.md) · **Assignee:** `sase-1lh.land`
+**Created:** 2026-10-16 13:00:19 EDT
+**Plan:** [202610/v0\_18\_0\_green\_ci\_release.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_green_ci_release.md)
+
+## Description
+
+Master Gate is green at master HEAD and a fresh Full CI run passes every job, so ci_watch merges release-please PR #299 and sase 0.18.0 installs from PyPI. The release-wait phase closes its bead on every path that does not need a human. The land agent confirms the release before it lands, and repairs the release itself when something unexpected blocks it.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1lh.1](sase-1lh.1.md) | Fix every Master Gate red at master HEAD | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lh.2](sase-1lh.2.md) | Fix the deterministic visual-test failures | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lh.3](sase-1lh.3.md) | Stop one-off capture drift from failing the visual lane | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lh.4](sase-1lh.4.md) | Fix the perf-floor flake and the Full CI time budget | ✓ closed | small | 2026-10-16 | 1 | 1 |
+| [sase-1lh.5](sase-1lh.5.md) | Harden tools/release\_watch so its bead close is guaranteed | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lh.6](sase-1lh.6.md) | Watch v0.18.0 to PyPI without editing files | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1lh: Green Master Gate and Full CI, then ship sase v0.18.0 through ci_watch [in_progress]"]
+    n1["sase-1lh.1: Fix every Master Gate red at master HEAD [in_progress]"]
+    n2["sase-1lh.2: Fix the deterministic visual-test failures [in_progress]"]
+    n3["sase-1lh.3: Stop one-off capture drift from failing the visual lane [in_progress]"]
+    n4["sase-1lh.4: Fix the perf-floor flake and the Full CI time budget [closed]"]
+    n5["sase-1lh.5: Harden tools/release_watch so its bead close is guaranteed [in_progress]"]
+    n6["sase-1lh.6: Watch v0.18.0 to PyPI without editing files [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n1 -.-> n6
+    n2 -.-> n6
+    n3 -.-> n6
+    n4 -.-> n6
+    n5 -.-> n6
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1lh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.1/README.md) | [sase-1lh.1](sase-1lh.1.md) | 0 |
+| [bbugyi200.athena.sase-1lh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.2/README.md) | [sase-1lh.2](sase-1lh.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md) | [sase-1lh.3](sase-1lh.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.4/README.md) | [sase-1lh.4](sase-1lh.4.md) | 1 |
+| [bbugyi200.athena.sase-1lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.5/README.md) | [sase-1lh.5](sase-1lh.5.md) | 0 |
+| [bbugyi200.athena.sase-1lh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.6/README.md) | [sase-1lh.6](sase-1lh.6.md) | 0 |
+| [bbugyi200.athena.sase-1lh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.land/README.md) | [sase-1lh](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e69c455`](https://github.com/sase-org/sase/commit/e69c455bd6a65d69727711fcfe9a308e1674c3fc) | perf(ci-budget): recalibrate persistent\_query\_keystroke floor to 3.10x | [sase-1lh.4](sase-1lh.4.md) | 2026-10-16 13:14:27 EDT |
