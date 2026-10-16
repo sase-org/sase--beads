@@ -25,7 +25,7 @@ guides-setup: create guides/index.md and seven goal-titled guides, folding troub
 - **Blocks:** [sase-1le.14](sase-1le.14.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.17](sase-1le.17.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.19](sase-1le.19.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.19](sase-1le.19.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.9](sase-1le.9.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
