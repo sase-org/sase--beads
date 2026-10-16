@@ -38,3 +38,15 @@ config-registry: generate one reference page per config key family from sase.sch
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9250c75`](https://github.com/sase-org/sase/commit/9250c75ea4efad0737e4b56ad190ac45ef8c9087) | feat(docs): generate configuration reference pages | [sase-1le.17](sase-1le.17.md) | 2026-10-15 23:26:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.17][1] | Confirm phase follow-up notes before closing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md
+
+<!-- sase:referenced-by:end -->

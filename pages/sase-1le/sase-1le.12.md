@@ -22,7 +22,7 @@ concepts-system: write the remaining four concept hubs, each ending in Do it and
 ## Dependencies
 
 - **Depends on:** [sase-1le.11](sase-1le.11.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.14](sase-1le.14.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.14](sase-1le.14.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ✓ · ⧖ 2026-10-15
 
@@ -45,7 +45,11 @@ concepts-system: write the remaining four concept hubs, each ending in Do it and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.12][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1le.14--1][2] | Check whether earlier phases or the parent already record the clean-base generated-doc formatting failure | 2 |
+| read-by | [agent:sase-1le.17][3] | Check existing phase notes for the same generated-doc renderer drift | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md
 
 <!-- sase:referenced-by:end -->

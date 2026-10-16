@@ -7,6 +7,20 @@
 **Created:** 2026-10-15 18:11:08 EDT
 **Plan:** [202610/sase\_sh\_docs\_redesign.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/sase_sh_docs_redesign.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested tutorials, about eight concept pages, and about fifteen goal-titled guides (~30K words). These sit in front of a lookup-sized Reference generated from the code that owns each fact. A lint-enforced documentation contract keeps the site from growing back.
@@ -17,6 +31,14 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 
 [2026-10-16T03:22:54Z · sase-1lc.land] DISCOVERED ISSUE (corroboration from the sase-1lc land agent, not a new report): at master bfa78040eb, just fmt-docs-check still exits 1 with render_glossary/render_design_decisions drift in docs/reference/glossary.md, docs/_includes/abbreviations.md, and docs/reference/design-decisions.md (renderer emits *...* emphasis and unwrapped lines that prettier rewrites to _..._ and wraps; fmt-md-check itself passes). This was also proposed as sase-1lc.7 note #9. Separately, tests/test_docs_pdf_tools.py::test_pdf_check_recipe_keeps_strict_mkdocs_export (expects 'mkdocs build --strict -f mkdocs-pdf.yml' in the docs-pdf-check recipe) and tests/test_docs_social_card.py::test_rss_plugin_images_use_the_default_social_image ('rss image missing from mkdocs-pdf.yml') still fail at bfa78040eb; they were proposed on sase-1lc.4 #1, sase-1le.7 #1 and sase-1le.9, and trace to this epic's handbook PDF curation (3b099950e8 / 2d701e4dc6), not to sase-1lc. test_fix_uses_formatter_venv_without_application_setup (also proposed on sase-1lc.4/.5) no longer exists in the tree.
 
+[2026-10-16T06:37:04Z · sase-1lc.8.land] DISCOVERED ISSUE: Independent landing triage for sase-1lc.8 at master d5efed6535 (proposing phases sase-1lc.8.1 note #1, sase-1lc.8.2 notes #1/#2, sase-1lc.8.3 notes #1/#2/#4):
+1. Generated-doc formatting drift still fails clean-tree sase tool run check (ToolRun 129a12ae52c8dfb624dc0c3fa1f3fe33, exit 1, 17.4 s): render_glossary and render_design_decisions differ from Prettier. Same defect as this epic notes #1/#2 and owned by sase-1le.8; no duplicate task.
+2. .venv/bin/mypy tools/render_cli independently exits 1 with 8 errors at lines 238, 251, 252, 261, 262, 306, 381, 407: invariant list[tuple[str,...]] arguments, incompatible reused rows variable, and wrong _gather tuple annotation. tools/render_cli was introduced by 8f22863f32 / sase-1le.16, before the clan-wave repair epic. This belongs to this active epic, not a standalone task.
+3. Focused pytest independently reproduces three terminology failures entirely in the new generated Reference: test_macro_docs_and_memory_avoid_xprompt_terms flags glossary.md alias/former-name xprompt lines; test_current_docs_skills_and_memory_avoid_stale_shell_phrases flags cli/gate.md (gate shell), design-decisions.md (gate shell/shells), glossary.md (sase shell/agent shell); test_current_docs_skills_and_memory_avoid_stale_family_phrases flags glossary.md (agent family). Generated pages from sase-1le.8/.16 re-expose intentional historical source wording without corresponding guard handling. Existing sase-1hr instead concerns source-string allowlist drift from a test split; its test currently passes, so it is not a duplicate.
+4. The same focused run reproduces test_pdf_check_recipe_keeps_strict_mkdocs_export and test_rss_plugin_images_use_the_default_social_image, already documented here in note #2 and KNOWN-witnessed by the repair phases. All five docs tests fail, 16 other tests pass. These remain this docs epic's work. No new task created for any of these causally owned failures.
+
+[2026-10-16T11:04:41Z · sase-1le.14--1] DISCOVERED ISSUE: During conflict repair on master at 30c3500495, required ToolRun 51e399dd01efffd2d78fe7ca73947fe8 exited 1 at fmt-docs-check. The independent targeted reproduction ToolRun bdc66a3335d97d6fdfd620af1b4bd911 also exited 1: render_glossary and render_design_decisions report drift in docs/reference/glossary.md and docs/reference/design-decisions.md because generated Markdown differs from Prettier output. These files are outside the repaired diff. docs-lint passed (ToolRun 6d45622cf39189cc6fdd94710876bffd), and strict docs build plus URL contract passed (ToolRun 5501a77997b7f13d0b61690089703e76). This corroborates the existing generated-doc formatting issue already owned by this epic; no duplicate task bead created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -26,11 +48,11 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.11](sase-1le.11.md) | How SASE works plus the agents, work-units, and landing concepts | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.12](sase-1le.12.md) | Prompts, memory, automation, and providers concepts | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.13](sase-1le.13.md) | Guides hub plus the Set up and Fix problems guides | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1le.14](sase-1le.14.md) | Daily work guides | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.14](sase-1le.14.md) | Daily work guides | ✓ closed | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.15](sase-1le.15.md) | Plan and automate guides | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.16](sase-1le.16.md) | Generated CLI reference | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.17](sase-1le.17.md) | Generated configuration reference | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1le.18](sase-1le.18.md) | Generated TUI keymap, directive, and macro discovery-order references | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.18](sase-1le.18.md) | Generated TUI keymap, directive, and macro discovery-order references | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.19](sase-1le.19.md) | One-screen homepage, front-door link retargeting, and reader-testing kit | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.2](sase-1le.2.md) | Strict link validation, URL contract test, and docs checks in the gates | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.20](sase-1le.20.md) | Decompose the monoliths and empty the legacy allowlist | ◐ in_progress | xlarge | 2026-10-15 | 1 | 0 |
@@ -52,11 +74,11 @@ flowchart TD
     n3["sase-1le.11: How SASE works plus the agents, work-units, and landing concepts [closed]"]
     n4["sase-1le.12: Prompts, memory, automation, and providers concepts [closed]"]
     n5["sase-1le.13: Guides hub plus the Set up and Fix problems guides [closed]"]
-    n6["sase-1le.14: Daily work guides [in_progress]"]
+    n6["sase-1le.14: Daily work guides [closed]"]
     n7["sase-1le.15: Plan and automate guides [closed]"]
     n8["sase-1le.16: Generated CLI reference [closed]"]
     n9["sase-1le.17: Generated configuration reference [closed]"]
-    n10["sase-1le.18: Generated TUI keymap, directive, and macro discovery-order references [in_progress]"]
+    n10["sase-1le.18: Generated TUI keymap, directive, and macro discovery-order references [closed]"]
     n11["sase-1le.19: One-screen homepage, front-door link retargeting, and reader-testing kit [closed]"]
     n12["sase-1le.2: Strict link validation, URL contract test, and docs checks in the gates [closed]"]
     n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [in_progress]"]
@@ -134,7 +156,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.15/README.md) | [sase-1le.15](sase-1le.15.md) | 1 |
 | [bbugyi200.athena.sase-1le.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md) | [sase-1le.16](sase-1le.16.md) | 1 |
 | [bbugyi200.athena.sase-1le.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md) | [sase-1le.17](sase-1le.17.md) | 1 |
-| [bbugyi200.athena.sase-1le.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md) | [sase-1le.18](sase-1le.18.md) | 0 |
+| [bbugyi200.athena.sase-1le.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md) | [sase-1le.18](sase-1le.18.md) | 1 |
 | [bbugyi200.athena.sase-1le.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md) | [sase-1le.19](sase-1le.19.md) | 1 |
 | [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md) | [sase-1le.2](sase-1le.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20/README.md) | [sase-1le.20](sase-1le.20.md) | 0 |
@@ -168,6 +190,7 @@ flowchart TD
 | sase | [`da699e0`](https://github.com/sase-org/sase/commit/da699e0236303182503dce685f81036143336300) | docs(guides): add Plan and automate how-to guides | [sase-1le.15](sase-1le.15.md) | 2026-10-15 23:12:46 EDT |
 | sase | [`8676f92`](https://github.com/sase-org/sase/commit/8676f92f2f0d2c4cc1ce3580f4bc835af09144ad) | feat(docs): rebuild homepage as one-screen front door with reader-testing kit (sase-1le.19) | [sase-1le.19](sase-1le.19.md) | 2026-10-15 23:20:09 EDT |
 | sase | [`9250c75`](https://github.com/sase-org/sase/commit/9250c75ea4efad0737e4b56ad190ac45ef8c9087) | feat(docs): generate configuration reference pages | [sase-1le.17](sase-1le.17.md) | 2026-10-15 23:26:51 EDT |
+| sase | [`b94cffe`](https://github.com/sase-org/sase/commit/b94cffe0d3a506805def63d8f60e1c145909b82f) | feat(docs): generate TUI and macro reference catalogs | [sase-1le.18](sase-1le.18.md) | 2026-10-16 07:31:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -176,21 +199,23 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.10][1] | epic context | 1 |
-| read-by | [agent:sase-1le.15][2] | epic context for phase | 1 |
-| read-by | [agent:sase-1le.16][3] | Need epic decisions and plan context | 1 |
-| read-by | [agent:sase-1le.19][4] | Need epic context and decisions for homepage phase | 1 |
-| read-by | [agent:sase-1le.3][5] | epic context | 1 |
-| read-by | [agent:sase-1le.4--2][6] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
-| read-by | [agent:sase-1le.5][7] | Need parent epic scope and decisions | 1 |
-| read-by | [agent:sase-1le.9][8] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
+| read-by | [agent:sase-1le.14--1][2] | Check whether earlier phases or the parent already record the clean-base generated-doc formatting failure | 1 |
+| read-by | [agent:sase-1le.15][3] | epic context for phase | 1 |
+| read-by | [agent:sase-1le.16][4] | Need epic decisions and plan context | 1 |
+| read-by | [agent:sase-1le.19][5] | Need epic context and decisions for homepage phase | 1 |
+| read-by | [agent:sase-1le.3][6] | epic context | 1 |
+| read-by | [agent:sase-1le.4--2][7] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
+| read-by | [agent:sase-1le.5][8] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1le.9][9] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.15/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.15/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
 
 <!-- sase:referenced-by:end -->

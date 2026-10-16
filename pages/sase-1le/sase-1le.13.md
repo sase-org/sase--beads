@@ -22,7 +22,7 @@ guides-setup: create guides/index.md and seven goal-titled guides, folding troub
 ## Dependencies
 
 - **Depends on:** [sase-1le.11](sase-1le.11.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.14](sase-1le.14.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.14](sase-1le.14.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.15](sase-1le.15.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.17](sase-1le.17.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ✓ · ⧖ 2026-10-15
@@ -47,7 +47,9 @@ guides-setup: create guides/index.md and seven goal-titled guides, folding troub
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.13][1] | check notes and remaining work | 3 |
+| read-by | [agent:sase-1le.14--1][2] | Check whether earlier phases or the parent already record the clean-base generated-doc formatting failure | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.13/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
 
 <!-- sase:referenced-by:end -->

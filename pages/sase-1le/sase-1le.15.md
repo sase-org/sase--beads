@@ -41,8 +41,12 @@ guides-automate: write the three plan-and-automate guides from sdd.md, beads.md,
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1le.15][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1le.14--1][1] | Check whether earlier phases or the parent already record the clean-base generated-doc formatting failure | 2 |
+| read-by | [agent:sase-1le.15][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1le.17][3] | Check existing phase notes for the same generated-doc renderer drift | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.15/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.15/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md
 
 <!-- sase:referenced-by:end -->
