@@ -20,7 +20,7 @@ config-move: move-only partial split of configuration.md into hand-written refer
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.17](sase-1le.20.1.17.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.17](sase-1le.20.1.17.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.8](sase-1le.20.1.8.md) ✓ · ⧖ 2026-10-16
 
