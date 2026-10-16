@@ -20,7 +20,7 @@ ladder: add the foldable in-memory WAVES section at the top of the clan Summary 
 ## Dependencies
 
 - **Depends on:** [sase-1lc.4](sase-1lc.4.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.6](sase-1lc.6.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.6](sase-1lc.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ ladder: add the foldable in-memory WAVES section at the top of the clan Summary 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8f5ae77`](https://github.com/sase-org/sase/commit/8f5ae77334e20976d0483cc557c5de37951ddcce) | feat(ace): add live clan WAVES ladder | [sase-1lc.5](sase-1lc.5.md) | 2026-10-15 21:25:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.5--2][1] | Need phase scope, design file, and prior notes before continuing the assigned phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.5.md
+
+<!-- sase:referenced-by:end -->

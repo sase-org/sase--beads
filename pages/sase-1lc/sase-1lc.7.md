@@ -13,7 +13,7 @@ verify: review live screenshots of real clans, run the full visual golden sweep 
 
 ## Dependencies
 
-- **Depends on:** [sase-1lc.6](sase-1lc.6.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1lc.6](sase-1lc.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
