@@ -41,8 +41,10 @@ gates: fix the clean-base docs failures recorded on epic sase-1le (renderer/Pret
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.1][1] | Need full notes and design | 2 |
 | read-by | [agent:sase-1le.20.1.2][2] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
+| read-by | [agent:sase-1le.20.1.3][3] | Need to check whether clean-base mypy failures already have an owner | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md
 
 <!-- sase:referenced-by:end -->

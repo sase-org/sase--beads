@@ -23,7 +23,7 @@ move-tool: add tools/docs_move for whole-page moves, pilot it on acknowledgement
 - **Blocks:** [sase-1le.20.1.10](sase-1le.20.1.10.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.2](sase-1le.20.1.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.7](sase-1le.20.1.7.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
@@ -37,3 +37,15 @@ move-tool: add tools/docs_move for whole-page moves, pilot it on acknowledgement
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a0ad470`](https://github.com/sase-org/sase/commit/a0ad4700459b7e8df330e2d66713495814227efb) | feat(docs): add whole-page move tooling and upgrading hub | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 2026-10-16 09:10:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -11,6 +11,10 @@
 
 contribute-move: whole-page moves of development, rust_backend (stub), fakey, telemetry, perf_runbook, mobile_mvp_runbook, integrations, the two artifacts-pane pages, and sdd_storage into contribute/, and update the tui_perf.md memory pointer.
 
+## Notes
+
+[2026-10-16T13:27:09Z · sase-1le.20.1.12] PROPOSED FOLLOW-UP: Update the core memory Rust backend pointer to docs/contribute/rust-backend.md — this phase cannot edit the core note, so docs/rust_backend.md remains its compatibility path.
+
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ◐ · ⧖ 2026-10-16

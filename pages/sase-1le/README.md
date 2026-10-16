@@ -98,7 +98,7 @@ flowchart TD
     n27["sase-1le.20.1.20: History and duplicate sweep for agents, VCS, integrations, and single pages [in_progress]"]
     n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [in_progress]"]
     n29["sase-1le.20.1.3: Whole-page move tool and the upgrading history home [closed]"]
-    n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [in_progress]"]
+    n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [closed]"]
     n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [in_progress]"]
     n32["sase-1le.20.1.6: Finish ace.md and move pager.md into reference/tui/ [in_progress]"]
     n33["sase-1le.20.1.7: Move configuration.md prose except its CLI flag tables [in_progress]"]
@@ -238,7 +238,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md) | [sase-1le.2](sase-1le.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.md) | [sase-1le.20](sase-1le.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md) | [sase-1le.20.1.1](sase-1le.20.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.10/README.md) | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.10.md) | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md) | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 0 |
@@ -252,7 +252,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md) | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md) | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.5/README.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md) | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 0 |
@@ -293,6 +293,7 @@ flowchart TD
 | sase | [`900925c`](https://github.com/sase-org/sase/commit/900925c99486c8b08528b8773ff4295f6ea36bf6) | feat(docs): harden split and move tooling | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 2026-10-16 08:24:56 EDT |
 | sase | [`8531a39`](https://github.com/sase-org/sase/commit/8531a39a0a0d856e1a929dc6dd441e756bb74598) | fix(docs): repair gates-phase failures for sase-1le.20.1.1 | [sase-1le.20.1.1](sase-1le.20.1.1.md) | 2026-10-16 08:35:23 EDT |
 | sase | [`a0ad470`](https://github.com/sase-org/sase/commit/a0ad4700459b7e8df330e2d66713495814227efb) | feat(docs): add whole-page move tooling and upgrading hub | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 2026-10-16 09:10:54 EDT |
+| sase | [`d8b361b`](https://github.com/sase-org/sase/commit/d8b361b7d709940b42208310d07c215faea2f9f6) | feat(docs): move Agents tab sections of ace.md to reference/tui/ (sase-1le.20.1.4) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 2026-10-16 09:46:24 EDT |
 
 <!-- sase:referenced-by:start -->
 

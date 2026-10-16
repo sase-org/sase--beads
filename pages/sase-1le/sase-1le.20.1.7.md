@@ -11,6 +11,10 @@
 
 config-move: move-only partial split of configuration.md into hand-written reference/config/ companion pages, reference/environment-variables.md, the Admin Center TUI page, and upgrading notes, leaving the CLI Flags section for the cli phase.
 
+## Notes
+
+[2026-10-16T13:44:35Z · sase-1le.20.1.7] PROPOSED FOLLOW-UP: Repair the nine clean-base extensionless-tool mypy errors in tools/docs_split and tools/render_keymap_macro_reference; both files are unchanged from HEAD and the same failure is documented in sase-1le.20.1.3 note #1. No matching task bead was found. This phase’s wrapped check stops before scoped tests at lint (mypy).
+
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16

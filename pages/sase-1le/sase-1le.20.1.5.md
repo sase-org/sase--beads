@@ -13,7 +13,7 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.6](sase-1le.20.1.6.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
