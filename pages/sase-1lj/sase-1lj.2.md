@@ -30,7 +30,7 @@ shim-retirement: canary-probe agy, Qwen, and OpenCode on AGENTS.md alone, shrink
 ## Dependencies
 
 - **Depends on:** [sase-1lj.1](sase-1lj.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1lj.3](sase-1lj.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lj.3](sase-1lj.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -43,3 +43,15 @@ shim-retirement: canary-probe agy, Qwen, and OpenCode on AGENTS.md alone, shrink
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@181072b`](https://github.com/sase-org/sase-core/commit/181072b58e82a92c88f57a3d58952b049a50ddfe) | feat(content-layout): list only AGENTS.md and CLAUDE.md in project agent documents | [sase-1lj.2](sase-1lj.2.md) | 2026-10-16 18:06:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lj.2][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md
+
+<!-- sase:referenced-by:end -->
