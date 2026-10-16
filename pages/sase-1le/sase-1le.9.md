@@ -17,7 +17,7 @@ start: write start/index, install, first-run, and first-change from getting_star
 - **Blocks:** [sase-1le.13](sase-1le.13.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.19](sase-1le.19.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.3](sase-1le.3.md) ✓ · ⧖ 2026-10-15
-- **Depends on:** [sase-1le.7](sase-1le.7.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.7](sase-1le.7.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

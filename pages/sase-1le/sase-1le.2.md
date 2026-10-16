@@ -19,7 +19,7 @@ links: add MkDocs validation, a sase.sh URL and anchor contract test, fix the tw
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.7](sase-1le.7.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.7](sase-1le.7.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -32,3 +32,15 @@ links: add MkDocs validation, a sase.sh URL and anchor contract test, fix the tw
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fd8adfb`](https://github.com/sase-org/sase/commit/fd8adfbe9be2262491249c09e138e24022f3b253) | feat(docs): validate published URL contracts in gates | [sase-1le.2](sase-1le.2.md) | 2026-10-15 20:24:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.2--2][1] | Verify the proposed follow-up note before closing this phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md
+
+<!-- sase:referenced-by:end -->
