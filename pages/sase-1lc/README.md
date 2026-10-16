@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1lc
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4j.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.4j.linker.w0.md) · **Assignee:** `sase-1lc.land`
-**Created:** 2026-10-15 15:02:47 EDT
+**Created:** 2026-10-15 15:02:47 EDT · **Closed:** 2026-10-16 03:15:03 EDT
 **Plan:** [202610/clan\_waves\_in\_agents\_tab.md](https://github.com/sase-org/sase--plans/blob/main/202610/clan_waves_in_agents_tab.md)
 
 <!-- sase:links:start -->
@@ -58,6 +58,8 @@ Every agent clan with two or more dependency layers (epics, research swarms, too
 (12) The clan-wave glossary strand has keyword clan-wave plus a stray H1.
 Possible, not confirmed: a reused fleet row may miss its dim repaint; the child plan adds a test first.
 
+[2026-10-16T07:15:03Z · sase-1lc.8.land--2] CLOSEOUT (final closeout tale via child epic sase-1lc.8): rechecked all 7 phases (all CLOSED) plus child repair epic sase-1lc.8 (now CLOSED with its phases .8.1/.8.2/.8.3 CLOSED) and every note/descendant; linked Design plan:202610/clan_waves_in_agents_tab.md reread via audited read. All 12 landing gaps resolved: (1) key-based Rust wire with serde defaults/allow_threads and required tests, adapter consumes core (.8.1); (2) anchor-only state fold, Done+ghost done (.8.2); (3) prefer-non-child workflow lanes (.8.2); (4) COLLAPSED ladder rows (.8.2); (5) shared after-phrase (.8.2); (6) singular/zero wording (.8.2); (7) clan-only JUMP dividers (.8.3); (8) same-row separator dividers plus this tale's real-space fitting fix, no row-edge/padded columns (.8.3+tale); (9) legend cost restored to pre-epic closed form, 30t ~1.3/2.0/3.7ms 100t ~2.7/3.5/6.1ms (.8.3); (10) title budget ignores subtitle (.8.3); (11) 5 wave modules off startup path, closure 3519 +0 vs 91350ad5b6^ (.8.3, re-verified); (12) Clan Wave strand keyword/H1/layered rule repaired (.8.2); fleet repaint covered by mixed local+fleet test (.8.2). Tale repairs: rows_by_suffix public rename (symvision passes) and grouped selection/column fitting on actual separator+overflow widths with _selection_divider_count deleted. Decisions honored: glossary_agent_clan and glossary_clan_wave applied; repair-epic glossary_clan_wave_strand applied; no other memory edits. Integration: HEAD d5efed6535, HEAD..origin/master empty, core 4c83f2de pinned, no unrelated commits, no drift. Verification this tale: 119 focused pass, import +0, just fix clean, symvision passes, visual update complete (1 updated/11 unchanged, no skips/pruning skip), 5 goldens inspected, default-TZ --check clean (29 nodes/48 unchanged), TZ=UTC --check shows only 2 pre-existing TZ-sensitive clan-tree drifts (359/412 px, unrelated, not updated). Follow-ups preserved, no new tasks, no docs changes: parent triage stands (sase-1lf/sase-1lg filed READY; declines for compaction/Gantt/labels/titles/rail-gutter documented; sase-1lb superseded/closed; docs drift/pdf/social-card on active sase-1le); repair-epic triage stands (Prettier drift, render_cli mypy 8 errors, 3 terminology nodes + KNOWN pdf/social-card all owned by sase-1le; ToolRun 669e8e238f210fbd4db7abee938d8447 fmt-docs-check failure on design-decisions.md independently reproduced by ToolRun 129a12ae52c8dfb624dc0c3fa1f3fe33). No check-full run.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -74,7 +76,7 @@ Possible, not confirmed: a reused fleet row may miss its dim repaint; the child 
 
 ```mermaid
 flowchart TD
-    n0["sase-1lc: Clan waves in the Agents tab [in_progress]"]
+    n0["sase-1lc: Clan waves in the Agents tab [closed]"]
     n1["sase-1lc.1: sase-core clan wave layering and binding [closed]"]
     n2["sase-1lc.2: Python facade and clan wave model adapter [closed]"]
     n3["sase-1lc.3: Wave order and wave gutter in the agent list [closed]"]
@@ -82,7 +84,7 @@ flowchart TD
     n5["sase-1lc.5: Live WAVES ladder in the clan Summary card [closed]"]
     n6["sase-1lc.6: Wave-divided JUMP legend and roster group labels [closed]"]
     n7["sase-1lc.7: Live verification, golden sweep, and glossary [closed]"]
-    n8["sase-1lc.8: Finish the clan waves landing [in_progress]"]
+    n8["sase-1lc.8: Finish the clan waves landing [closed]"]
     n9["sase-1lc.8.1: Realign the sase-core clan wave wire and switch the adapter to it [closed]"]
     n10["sase-1lc.8.2: Wave states, gutter lanes, the WAVES ladder, and the glossary strand [closed]"]
     n11["sase-1lc.8.3: JUMP legend dividers, legend performance, and the TUI import budget [closed]"]
@@ -121,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lc.8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.1.md) | [sase-1lc.8.1](sase-1lc.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1lc.8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md) | [sase-1lc.8.2](sase-1lc.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1lc.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md) | [sase-1lc.8.3](sase-1lc.8.3.md) | 1 |
-| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.land/README.md) | [sase-1lc.8](sase-1lc.8.md) | 0 |
+| [bbugyi200.athena.sase-1lc.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.8.land.md) | [sase-1lc.8](sase-1lc.8.md) | 1 |
 | [bbugyi200.athena.sase-1lc.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.land.md) | [sase-1lc](README.md) | 0 |
 
 ## Commits
@@ -139,6 +141,7 @@ flowchart TD
 | sase | [`04fee05`](https://github.com/sase-org/sase/commit/04fee055590e2fe67b072b5cd88b1ebd2c6e779f) | feat(ace): consume key-based clan wave layout wire | [sase-1lc.8.1](sase-1lc.8.1.md) | 2026-10-16 00:49:08 EDT |
 | sase | [`375bceb`](https://github.com/sase-org/sase/commit/375bceb6eaf207a34cce7bf5e65ede343e7ff50d) | feat(ace): wave states, gutter lanes, WAVES ladder rows and shared after-phrases (sase-1lc.8.2) | [sase-1lc.8.2](sase-1lc.8.2.md) | 2026-10-16 01:28:34 EDT |
 | sase | [`d5efed6`](https://github.com/sase-org/sase/commit/d5efed653553978194eeb8f28192b7fe651da849) | feat(ace): scope layered wave dividers to clan roster and restore jump layout cost | [sase-1lc.8.3](sase-1lc.8.3.md) | 2026-10-16 02:21:23 EDT |
+| sase | [`b971b55`](https://github.com/sase-org/sase/commit/b971b55fd6f5d662069deeb32968decee514f094) | feat(ace): fit grouped JUMP targets to rendered space and publish suffix index | [sase-1lc.8](sase-1lc.8.md) | 2026-10-16 03:17:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

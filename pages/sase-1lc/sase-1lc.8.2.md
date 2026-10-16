@@ -43,7 +43,9 @@ states: fold wave state over anchors and loaded members only, fix the workflow-s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lc.8.2][1] | Need phase scope and design | 4 |
+| read-by | [agent:sase-1lc.8.3][2] | need prior phase completion evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.8.3/README.md
 
 <!-- sase:referenced-by:end -->
