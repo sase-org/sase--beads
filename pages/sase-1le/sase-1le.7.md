@@ -21,7 +21,7 @@ moves: add docs/_meta/moves.yml as the single source for redirects and anchor st
 
 - **Depends on:** [sase-1le.2](sase-1le.2.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.5](sase-1le.5.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.8](sase-1le.8.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.8](sase-1le.8.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.9](sase-1le.9.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
@@ -35,3 +35,15 @@ moves: add docs/_meta/moves.yml as the single source for redirects and anchor st
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a619baa`](https://github.com/sase-org/sase/commit/a619baa9106f878a3532236d0aeee11ab9208f18) | feat(docs): add page move and reference map generators | [sase-1le.7](sase-1le.7.md) | 2026-10-15 21:31:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md
+
+<!-- sase:referenced-by:end -->

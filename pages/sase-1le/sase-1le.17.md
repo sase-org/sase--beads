@@ -15,7 +15,7 @@ config-registry: generate one reference page per config key family from sase.sch
 
 - **Depends on:** [sase-1le.13](sase-1le.13.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.20](sase-1le.20.md) ◐ · ⧖ 2026-10-15
-- **Depends on:** [sase-1le.8](sase-1le.8.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.8](sase-1le.8.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
