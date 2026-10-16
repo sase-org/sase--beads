@@ -19,7 +19,7 @@ visual-stability: apply the accepted visual_flakes policy so a capture race no l
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -32,3 +32,15 @@ visual-stability: apply the accepted visual_flakes policy so a capture race no l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ae7f9dc`](https://github.com/sase-org/sase/commit/ae7f9dc91aa7504022d17e5b8c9343d912271a13) | feat(visual): recapture first-pass screenshot check failures | [sase-1lh.3](sase-1lh.3.md) | 2026-10-16 15:19:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md
+
+<!-- sase:referenced-by:end -->

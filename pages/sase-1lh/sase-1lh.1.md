@@ -23,7 +23,7 @@ gate-fix: clear the mypy, docs-test, and docs-lint reds the docs restructuring l
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

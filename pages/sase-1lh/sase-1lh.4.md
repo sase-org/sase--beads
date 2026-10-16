@@ -19,7 +19,7 @@ ci-budget: recalibrate the Phase 7E perf ceiling that fails about 30% of runs, a
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

@@ -19,7 +19,7 @@ watcher: make every exit path close the bead even under a process-group kill, an
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

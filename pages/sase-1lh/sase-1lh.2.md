@@ -29,7 +29,7 @@ visual-drift: repair the two goldens that fail on every run and the CI-only agen
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.6](sase-1lh.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
