@@ -13,7 +13,7 @@ move-tool: add tools/docs_move for whole-page moves, pilot it on acknowledgement
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.20.1.1](sase-1le.20.1.1.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.1](sase-1le.20.1.1.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.10](sase-1le.20.1.10.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.2](sase-1le.20.1.2.md) ✓ · ⧖ 2026-10-16
