@@ -33,3 +33,15 @@ routing: add the docs_writing.md reference memory note and constrain the refresh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8947f92`](https://github.com/sase-org/sase/commit/8947f92b3a52e487f226cc32aecc29f3f17a9b3e) | feat(docs): add docs\_writing routing note and constrain refresh\_docs chop (sase-1le.6) | [sase-1le.6](sase-1le.6.md) | 2026-10-15 19:57:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.6/README.md
+
+<!-- sase:referenced-by:end -->

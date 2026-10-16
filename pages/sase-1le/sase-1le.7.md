@@ -13,7 +13,7 @@ moves: add docs/_meta/moves.yml as the single source for redirects and anchor st
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.2](sase-1le.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.2](sase-1le.2.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.5](sase-1le.5.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.8](sase-1le.8.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.9](sase-1le.9.md) ◐ · ⧖ 2026-10-15

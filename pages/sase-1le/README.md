@@ -26,7 +26,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.17](sase-1le.17.md) | Generated configuration reference | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.18](sase-1le.18.md) | Generated TUI keymap, directive, and macro discovery-order references | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.19](sase-1le.19.md) | One-screen homepage, front-door link retargeting, and reader-testing kit | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
-| [sase-1le.2](sase-1le.2.md) | Strict link validation, URL contract test, and docs checks in the gates | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.2](sase-1le.2.md) | Strict link validation, URL contract test, and docs checks in the gates | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.20](sase-1le.20.md) | Decompose the monoliths and empty the legacy allowlist | ◐ in_progress | xlarge | 2026-10-15 | 1 | 0 |
 | [sase-1le.3](sase-1le.3.md) | Declare which version the docs describe and smoke the documented install | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.4](sase-1le.4.md) | Execute the handbook PDF scope decision | ✓ closed | small | 2026-10-15 | 1 | 1 |
@@ -52,7 +52,7 @@ flowchart TD
     n9["sase-1le.17: Generated configuration reference [in_progress]"]
     n10["sase-1le.18: Generated TUI keymap, directive, and macro discovery-order references [in_progress]"]
     n11["sase-1le.19: One-screen homepage, front-door link retargeting, and reader-testing kit [in_progress]"]
-    n12["sase-1le.2: Strict link validation, URL contract test, and docs checks in the gates [in_progress]"]
+    n12["sase-1le.2: Strict link validation, URL contract test, and docs checks in the gates [closed]"]
     n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [in_progress]"]
     n14["sase-1le.3: Declare which version the docs describe and smoke the documented install [closed]"]
     n15["sase-1le.4: Execute the handbook PDF scope decision [closed]"]
@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.17/README.md) | [sase-1le.17](sase-1le.17.md) | 0 |
 | [bbugyi200.athena.sase-1le.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md) | [sase-1le.18](sase-1le.18.md) | 0 |
 | [bbugyi200.athena.sase-1le.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md) | [sase-1le.19](sase-1le.19.md) | 0 |
-| [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md) | [sase-1le.2](sase-1le.2.md) | 0 |
+| [bbugyi200.athena.sase-1le.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md) | [sase-1le.2](sase-1le.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20/README.md) | [sase-1le.20](sase-1le.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 1 |
@@ -150,6 +150,7 @@ flowchart TD
 | sase | [`ad3aa46`](https://github.com/sase-org/sase/commit/ad3aa463e41633db1f8607d876c63f71485ffb74) | feat(docs): add check\_docs lint, budgets, templates and contribute hub | [sase-1le.5](sase-1le.5.md) | 2026-10-15 19:12:19 EDT |
 | sase | [`3b09995`](https://github.com/sase-org/sase/commit/3b099950e86a680c21757947c716411be243a377) | feat(docs): curate handbook PDF scope | [sase-1le.4](sase-1le.4.md) | 2026-10-15 19:22:30 EDT |
 | sase | [`8947f92`](https://github.com/sase-org/sase/commit/8947f92b3a52e487f226cc32aecc29f3f17a9b3e) | feat(docs): add docs\_writing routing note and constrain refresh\_docs chop (sase-1le.6) | [sase-1le.6](sase-1le.6.md) | 2026-10-15 19:57:03 EDT |
+| sase | [`fd8adfb`](https://github.com/sase-org/sase/commit/fd8adfbe9be2262491249c09e138e24022f3b253) | feat(docs): validate published URL contracts in gates | [sase-1le.2](sase-1le.2.md) | 2026-10-15 20:24:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
