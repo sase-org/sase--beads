@@ -62,7 +62,7 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.6](sase-1le.20.1.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.6](sase-1le.20.1.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -75,3 +75,15 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4bd2252`](https://github.com/sase-org/sase/commit/4bd2252f07f3cd9077253a5d2b1b63d50db22bd9) | docs(tui): split ace.md prompt and Launch Control into reference pages | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 2026-10-16 15:13:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.5--2][1] | Need the phase scope, design file, notes, and remaining work after monitor failure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md
+
+<!-- sase:referenced-by:end -->
