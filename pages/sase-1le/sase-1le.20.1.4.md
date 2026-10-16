@@ -22,7 +22,7 @@ tui-agents-move: move-only partial split of the Agents tab cluster of ace.md (ab
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.5](sase-1le.20.1.5.md) ✓ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.5](sase-1le.20.1.5.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
 

@@ -38,3 +38,15 @@ work-units-providers-edit: run the edit checklist on reference/work-units/, refe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9e8824d`](https://github.com/sase-org/sase/commit/9e8824db52d886476434661925fb4717325dd491) | docs: clean work-unit and provider references | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 2026-10-16 12:41:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.18][1] | Verify the phase bead closed with the final verification note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.18/README.md
+
+<!-- sase:referenced-by:end -->

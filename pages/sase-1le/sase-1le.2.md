@@ -40,7 +40,9 @@ links: add MkDocs validation, a sase.sh URL and anchor contract test, fix the tw
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.2--2][1] | Verify the proposed follow-up note before closing this phase | 2 |
+| read-by | [agent:sase-1le.20.1.13][2] | Verify ownership of the docs-build gate wiring defect | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md
 
 <!-- sase:referenced-by:end -->

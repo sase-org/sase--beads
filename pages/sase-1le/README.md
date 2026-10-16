@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/sase_sh_docs_redesign.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 12 automatic references — see [Referenced By](#referenced-by)._
+_Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md
 
@@ -90,7 +90,7 @@ flowchart TD
     n17["sase-1le.20.1.11: Move scheduler, notifications, monitors, tools, mentors, and sudo pages [closed]"]
     n18["sase-1le.20.1.12: Move the contributor pages into contribute/ [closed]"]
     n19["sase-1le.20.1.13: Move agent, workspace, init, and VCS pages into reference/agents/ and reference/vcs/ [closed]"]
-    n20["sase-1le.20.1.14: Move integration pages and the single-topic reference pages [in_progress]"]
+    n20["sase-1le.20.1.14: Move integration pages and the single-topic reference pages [closed]"]
     n21["sase-1le.20.1.15: Retire the hand-maintained CLI flag tables and cli.md [in_progress]"]
     n22["sase-1le.20.1.16: History and duplicate sweep for reference/tui/ [in_progress]"]
     n23["sase-1le.20.1.17: History and duplicate sweep for configuration, macros, and workflows pages [closed]"]
@@ -101,7 +101,7 @@ flowchart TD
     n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [in_progress]"]
     n29["sase-1le.20.1.3: Whole-page move tool and the upgrading history home [closed]"]
     n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [closed]"]
-    n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [closed]"]
+    n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [in_progress]"]
     n32["sase-1le.20.1.6: Finish ace.md and move pager.md into reference/tui/ [in_progress]"]
     n33["sase-1le.20.1.7: Move configuration.md prose except its CLI flag tables [closed]"]
     n34["sase-1le.20.1.8: Move macros.md and workflow_spec.md into reference/macros/ [closed]"]
@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md) | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.12/README.md) | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md) | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.14/README.md) | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.15](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.15/README.md) | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.16/README.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md) | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 1 |
@@ -306,6 +306,7 @@ flowchart TD
 | sase | [`558e075`](https://github.com/sase-org/sase/commit/558e075a4d0767f58812b61e9e35cffcb85b6846) | docs(reference): consolidate generated references and migration guidance | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 2026-10-16 12:18:16 EDT |
 | sase | [`9e8824d`](https://github.com/sase-org/sase/commit/9e8824db52d886476434661925fb4717325dd491) | docs: clean work-unit and provider references | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 2026-10-16 12:41:40 EDT |
 | sase | [`39f9ca9`](https://github.com/sase-org/sase/commit/39f9ca930004997cb60e86361f3676701d7297e9) | docs: split agent and VCS reference pages | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 2026-10-16 12:51:59 EDT |
+| sase | [`6a26d90`](https://github.com/sase-org/sase/commit/6a26d909459ec8eb483b04dd90512b38561a9cce) | docs: move integration pages into reference/integrations and contribute | [sase-1le.20.1.14](sase-1le.20.1.14.md) | 2026-10-16 13:42:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -320,11 +321,12 @@ flowchart TD
 | read-by | [agent:sase-1le.18][5] | Confirm the epic note tracking the known generated-docs check drift before recording this phase follow-up | 2 |
 | read-by | [agent:sase-1le.19][6] | Need epic context and decisions for homepage phase | 1 |
 | read-by | [agent:sase-1le.20.1.1][7] | epic notes remainder | 2 |
-| read-by | [agent:sase-1le.20.1.2][8] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
-| read-by | [agent:sase-1le.3][9] | epic context | 1 |
-| read-by | [agent:sase-1le.4--2][10] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
-| read-by | [agent:sase-1le.5][11] | Need parent epic scope and decisions | 1 |
-| read-by | [agent:sase-1le.9][12] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
+| read-by | [agent:sase-1le.20.1.13][8] | Confirm active epic ownership before recording its docs gate selector defect | 1 |
+| read-by | [agent:sase-1le.20.1.2][9] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
+| read-by | [agent:sase-1le.3][10] | epic context | 1 |
+| read-by | [agent:sase-1le.4--2][11] | Need parent epic design decisions and implementation constraints for PDF failure | 1 |
+| read-by | [agent:sase-1le.5][12] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1le.9][13] | Need to check whether the active docs-redesign epic owns the generated-docs formatting drift. | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.14.md
@@ -333,10 +335,11 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.18/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
-[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md
+[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md
 
 <!-- sase:referenced-by:end -->

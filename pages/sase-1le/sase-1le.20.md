@@ -33,8 +33,10 @@ decompose: author and run a sub-epic that moves every remaining root page into r
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1le.20.1.8][1] | Check whether this active docs epic owns the unchanged extensionless-tool mypy failures | 1 |
+| read-by | [agent:84][1] | Check status of docs restructuring epic to reference in paper-lessons research report | 1 |
+| read-by | [agent:sase-1le.20.1.8][2] | Check whether this active docs epic owns the unchanged extensionless-tool mypy failures | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.84.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md
 
 <!-- sase:referenced-by:end -->

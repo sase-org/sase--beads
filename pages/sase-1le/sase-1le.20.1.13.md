@@ -41,10 +41,12 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 [2026-10-16T16:43:42Z · sase-1le.20.1.13] Conflict repair round 3 integrated upstream automation/reference cleanup without restoring retired prose; 44 unique move records, 894 anchors, 284 unique nav entries; strict docs-check passed 2313 URLs and 14 focused docs/terminology tests passed. Required check ToolRun 4d7b37b2ae99474423e85239f2940896 failed (2485 passed, 4 failed; fail-fast with xdist). All lint/validation stages passed. Three failures explicitly refused monitor/plan handoffs because SASE_FINALIZER_OWNED_TURN=1; plus-one guidance assertion still reads the upstream beads overview after guidance moved. All failing test files and that overview are byte-identical to upstream HEAD. Gate remains FAILED. Resume then encountered generated-index conflicts against 9e8824db52; round 4 preserves 32 automatically merged reference cleanups and all upstream anchor retargeting.
 
+[2026-10-16T16:57:15Z · sase-1le.20.1.13] Conflict repair completed: rebase and sase stitch create --resume exited successfully, publishing 39f9ca9300. Main is clean and equals origin/master. Round 4 retained upstream work-unit/provider cleanup and all move records; 285 unique navigation entries. Required check 72173c00dfb97df6d165af7a2156a6e4 FAILED: 1234 passed, 1 failed, 3 skipped; all pre-test lint/validation passed. The unchanged tests/monitor/test_monitor_tool_wrap.py::test_verify_true_becomes_named_check_run fails because the inherited host-finalizer marker correctly refuses monitor start. After resume automatically incorporated the upstream Markdown formatter fix, 134 focused formatter/docs-move/terminology tests passed and strict docs-check passed all 2310 URL contracts on the published tree. The required gate is not green. Resume warned that prompt-archive publication was deferred by fenced legacy artifact-link writes and an existing quarantined agent-hood publication backlog; the primary commit succeeded.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.14](sase-1le.20.1.14.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.14](sase-1le.20.1.14.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
@@ -66,11 +68,13 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.11][1] | Need the earlier phase record of the identical clean-base extensionless-tool mypy errors | 1 |
-| read-by | [agent:sase-1le.20.1.17][2] | Confirm prior clean-base mypy failure matches this verification run | 1 |
-| read-by | [agent:sase-1le.20.1.9][3] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
+| read-by | [agent:sase-1le.20.1.13][2] | Need phase scope before recording discovered docs selector follow-up | 2 |
+| read-by | [agent:sase-1le.20.1.17][3] | Confirm prior clean-base mypy failure matches this verification run | 1 |
+| read-by | [agent:sase-1le.20.1.9][4] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
 
 <!-- sase:referenced-by:end -->

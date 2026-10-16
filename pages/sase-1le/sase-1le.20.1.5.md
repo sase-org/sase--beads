@@ -2,12 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1le.20.1](sase-1le.20.1.md) / sase-1le.20.1.5
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺2
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.md) · **Assignee:** `sase-1le.20.1.5` · **Size:** medium
-**Created:** 2026-10-16 08:04:36 EDT · **Closed:** 2026-10-16 11:11:16 EDT
+**Created:** 2026-10-16 08:04:36 EDT
 **Plan:** [202610/docs\_decompose.md](https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md)
 
 ## Previously Closed
+
+> ↺ Closed 2026-10-16T15:11:16Z · done
+>
+> (none)
+>
+> Reopened 2026-10-16T16:52:51Z by a status update
 
 > ↺ Closed 2026-10-16T14:13:36Z · done
 >
@@ -40,6 +46,12 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 [2026-10-16T15:52:49Z · sase-1le.20.1.5--2] Recovery: just check failed after close. Scoped contract test_active_sources_and_docs_use_only_canonical_plan_paths still red on HEAD because contribute-move renamed docs/perf_runbook.md to docs/contribute/perf-runbook.md without updating the exclude; repaired the exclude. test_ctrl_t_before_reveal_reveals_without_inserting passed in isolation (full-suite load flake; similar to sase-1g8). fakey capacity e2e timed out (exit 124) only under core-identity-changed full-suite loadavg~15. plugins required-docs wording is FLAKY in the baseline.
 
 [2026-10-16T16:27:00Z · sase-1le.20.1.5--3] Recovery: rebased tui-prompt-move onto later docs splits. Kept HEAD hubs for beads/macros/llms, stubbed ace.md prompt/snippet/Launch Control/Macro Browser, retargeted inbound links on split pages, merged tribe-test path lists, restored nested docs_split pointers to root-relative so the h4 nested-split contract holds.
+
+[2026-10-16T16:52:52Z · bryanbugyi34@gmail.com] I'm not sure if this work is completed or not but the agent that was attempting to work on it failed.
+
+[2026-10-16T17:16:21Z · sase-1le.20.1.5] Split complete: 9 budget-clean tui pages via tui_prompt.yml. Frozen /ace/#prompt-history-modal still on ace.md stub. just docs-check passed (2419 URLs). epic-symbols none. Explicit {#prompt-stacks-1} and {#snippets-1} for MkDocs strict. Renderer ../../ace.md link left for tui-move. Starting prepared just check.
+
+[2026-10-16T17:28:56Z · sase-1le.20.1.5--1] Recovery: just check failed Rule 1 on leftover MkDocs site/reference/automation/tools/index.html (pretty-URL of tools.md). pyscripts now excludes site/; regression test added. Phase split still complete; 9 tui pages, frozen /ace/#prompt-history-modal, no epic-symbols. Re-running prepared just check.
 
 ## Dependencies
 
