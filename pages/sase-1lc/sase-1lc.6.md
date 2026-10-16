@@ -18,7 +18,7 @@ jump: draw dim wave dividers and a waves title suffix in the collapsed JUMP lege
 ## Dependencies
 
 - **Depends on:** [sase-1lc.5](sase-1lc.5.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1lc.7](sase-1lc.7.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1lc.7](sase-1lc.7.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -31,3 +31,15 @@ jump: draw dim wave dividers and a waves title suffix in the collapsed JUMP lege
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`96baa90`](https://github.com/sase-org/sase/commit/96baa9011a0775ed26e07ae16805bf27b88ea00e) | feat(tui): add clan waves to JUMP legend and roster | [sase-1lc.6](sase-1lc.6.md) | 2026-10-15 22:12:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lc.6--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.6.md
+
+<!-- sase:referenced-by:end -->

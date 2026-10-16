@@ -35,7 +35,7 @@ Every agent clan with two or more dependency layers (epics, research swarms, too
 | [sase-1lc.4](sase-1lc.4.md) | Wave pips on clan rows, tribe rosters, and the clan header | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1lc.5](sase-1lc.5.md) | Live WAVES ladder in the clan Summary card | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1lc.6](sase-1lc.6.md) | Wave-divided JUMP legend and roster group labels | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1lc.7](sase-1lc.7.md) | Live verification, golden sweep, and glossary | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
+| [sase-1lc.7](sase-1lc.7.md) | Live verification, golden sweep, and glossary | ✓ closed | small | 2026-10-15 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +48,7 @@ flowchart TD
     n4["sase-1lc.4: Wave pips on clan rows, tribe rosters, and the clan header [closed]"]
     n5["sase-1lc.5: Live WAVES ladder in the clan Summary card [closed]"]
     n6["sase-1lc.6: Wave-divided JUMP legend and roster group labels [closed]"]
-    n7["sase-1lc.7: Live verification, golden sweep, and glossary [in_progress]"]
+    n7["sase-1lc.7: Live verification, golden sweep, and glossary [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.4.md) | [sase-1lc.4](sase-1lc.4.md) | 1 |
 | [bbugyi200.athena.sase-1lc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.5.md) | [sase-1lc.5](sase-1lc.5.md) | 1 |
 | [bbugyi200.athena.sase-1lc.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.6.md) | [sase-1lc.6](sase-1lc.6.md) | 1 |
-| [bbugyi200.athena.sase-1lc.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.7/README.md) | [sase-1lc.7](sase-1lc.7.md) | 0 |
+| [bbugyi200.athena.sase-1lc.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lc.7.md) | [sase-1lc.7](sase-1lc.7.md) | 1 |
 | [bbugyi200.athena.sase-1lc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lc.land/README.md) | [sase-1lc](README.md) | 0 |
 
 ## Commits
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`c2d476e`](https://github.com/sase-org/sase/commit/c2d476e43205204108e72ed382dac56c693f1f9a) | feat(tui): show clan wave state pips | [sase-1lc.4](sase-1lc.4.md) | 2026-10-15 20:06:46 EDT |
 | sase | [`8f5ae77`](https://github.com/sase-org/sase/commit/8f5ae77334e20976d0483cc557c5de37951ddcce) | feat(ace): add live clan WAVES ladder | [sase-1lc.5](sase-1lc.5.md) | 2026-10-15 21:25:54 EDT |
 | sase | [`96baa90`](https://github.com/sase-org/sase/commit/96baa9011a0775ed26e07ae16805bf27b88ea00e) | feat(tui): add clan waves to JUMP legend and roster | [sase-1lc.6](sase-1lc.6.md) | 2026-10-15 22:12:30 EDT |
+| sase | [`7e1edb8`](https://github.com/sase-org/sase/commit/7e1edb8d76b753f98d9f2a31fd0d1eb8b82a3136) | feat(ace): finish clan wave verification | [sase-1lc.7](sase-1lc.7.md) | 2026-10-15 22:46:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
