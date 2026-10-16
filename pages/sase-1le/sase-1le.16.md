@@ -26,4 +26,10 @@ cli-registry: generate one reference page per command group from the argparse tr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md) | [sase-1le.16](sase-1le.16.md) | 0 |
+| [bbugyi200.athena.sase-1le.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.16/README.md) | [sase-1le.16](sase-1le.16.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8f22863`](https://github.com/sase-org/sase/commit/8f22863f3293b190e3767b32ddc3d4084dbdbe66) | docs(cli): generate CLI reference from live argparse tree | [sase-1le.16](sase-1le.16.md) | 2026-10-15 22:09:36 EDT |
