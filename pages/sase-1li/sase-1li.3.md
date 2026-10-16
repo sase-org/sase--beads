@@ -13,7 +13,7 @@ guidance: add the closed-bead sentence to the bd/work_phase_bead and bd/work_tas
 
 ## Dependencies
 
-- **Depends on:** [sase-1li.2](sase-1li.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1li.2](sase-1li.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

@@ -19,7 +19,7 @@ core: teach sase-core's run_claim_launch an optional submission time and run ID;
 
 ## Dependencies
 
-- **Blocks:** [sase-1li.2](sase-1li.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1li.2](sase-1li.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -32,3 +32,15 @@ core: teach sase-core's run_claim_launch an optional submission time and run ID;
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@594faf3`](https://github.com/sase-org/sase-core/commit/594faf31d80af79a148cb67968318b2bfb1a5770) | feat(bead): attach launch claims to beads closed before submission | [sase-1li.1](sase-1li.1.md) | 2026-10-16 14:27:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1li.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1li.1/README.md
+
+<!-- sase:referenced-by:end -->
