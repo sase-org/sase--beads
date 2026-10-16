@@ -17,8 +17,8 @@ glossary: generate the glossary and design-decision pages from the memory webs, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.11](sase-1le.11.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.16](sase-1le.16.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.11](sase-1le.11.md) ✓ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.16](sase-1le.16.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.17](sase-1le.17.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.18](sase-1le.18.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.7](sase-1le.7.md) ✓ · ⧖ 2026-10-15
@@ -34,3 +34,15 @@ glossary: generate the glossary and design-decision pages from the memory webs, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a1dd710`](https://github.com/sase-org/sase/commit/a1dd710acd31bd0346bf4d17e8eb30eb749608cd) | docs(reference): add glossary and design-decisions reference pages with render tooling | [sase-1le.8](sase-1le.8.md) | 2026-10-15 21:48:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.8][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md
+
+<!-- sase:referenced-by:end -->

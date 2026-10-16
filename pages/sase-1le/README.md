@@ -17,12 +17,12 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 |---|---|---|---|---|---:|---:|
 | [sase-1le.1](sase-1le.1.md) | Six tabs over the existing pages, site UX features, analytics hook | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.10](sase-1le.10.md) | Executable tutorial tests on fakey | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
-| [sase-1le.11](sase-1le.11.md) | How SASE works plus the agents, work-units, and landing concepts | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.11](sase-1le.11.md) | How SASE works plus the agents, work-units, and landing concepts | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.12](sase-1le.12.md) | Prompts, memory, automation, and providers concepts | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.13](sase-1le.13.md) | Guides hub plus the Set up and Fix problems guides | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.14](sase-1le.14.md) | Daily work guides | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.15](sase-1le.15.md) | Plan and automate guides | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
-| [sase-1le.16](sase-1le.16.md) | Generated CLI reference | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.16](sase-1le.16.md) | Generated CLI reference | ✓ closed | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.17](sase-1le.17.md) | Generated configuration reference | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.18](sase-1le.18.md) | Generated TUI keymap, directive, and macro discovery-order references | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [sase-1le.19](sase-1le.19.md) | One-screen homepage, front-door link retargeting, and reader-testing kit | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
@@ -43,12 +43,12 @@ flowchart TD
     n0["sase-1le: sase.sh: a small Diátaxis-typed Guide in front of a generated Reference [in_progress]"]
     n1["sase-1le.1: Six tabs over the existing pages, site UX features, analytics hook [closed]"]
     n2["sase-1le.10: Executable tutorial tests on fakey [in_progress]"]
-    n3["sase-1le.11: How SASE works plus the agents, work-units, and landing concepts [in_progress]"]
+    n3["sase-1le.11: How SASE works plus the agents, work-units, and landing concepts [closed]"]
     n4["sase-1le.12: Prompts, memory, automation, and providers concepts [in_progress]"]
     n5["sase-1le.13: Guides hub plus the Set up and Fix problems guides [in_progress]"]
     n6["sase-1le.14: Daily work guides [in_progress]"]
     n7["sase-1le.15: Plan and automate guides [in_progress]"]
-    n8["sase-1le.16: Generated CLI reference [in_progress]"]
+    n8["sase-1le.16: Generated CLI reference [closed]"]
     n9["sase-1le.17: Generated configuration reference [in_progress]"]
     n10["sase-1le.18: Generated TUI keymap, directive, and macro discovery-order references [in_progress]"]
     n11["sase-1le.19: One-screen homepage, front-door link retargeting, and reader-testing kit [in_progress]"]
@@ -121,7 +121,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1le.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.1/README.md) | [sase-1le.1](sase-1le.1.md) | 1 |
 | [bbugyi200.athena.sase-1le.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md) | [sase-1le.10](sase-1le.10.md) | 0 |
-| [bbugyi200.athena.sase-1le.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.11/README.md) | [sase-1le.11](sase-1le.11.md) | 0 |
+| [bbugyi200.athena.sase-1le.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.11/README.md) | [sase-1le.11](sase-1le.11.md) | 1 |
 | [bbugyi200.athena.sase-1le.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.12/README.md) | [sase-1le.12](sase-1le.12.md) | 0 |
 | [bbugyi200.athena.sase-1le.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.13/README.md) | [sase-1le.13](sase-1le.13.md) | 0 |
 | [bbugyi200.athena.sase-1le.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.14/README.md) | [sase-1le.14](sase-1le.14.md) | 0 |
@@ -153,6 +153,7 @@ flowchart TD
 | sase | [`fd8adfb`](https://github.com/sase-org/sase/commit/fd8adfbe9be2262491249c09e138e24022f3b253) | feat(docs): validate published URL contracts in gates | [sase-1le.2](sase-1le.2.md) | 2026-10-15 20:24:47 EDT |
 | sase | [`a619baa`](https://github.com/sase-org/sase/commit/a619baa9106f878a3532236d0aeee11ab9208f18) | feat(docs): add page move and reference map generators | [sase-1le.7](sase-1le.7.md) | 2026-10-15 21:31:49 EDT |
 | sase | [`a1dd710`](https://github.com/sase-org/sase/commit/a1dd710acd31bd0346bf4d17e8eb30eb749608cd) | docs(reference): add glossary and design-decisions reference pages with render tooling | [sase-1le.8](sase-1le.8.md) | 2026-10-15 21:48:48 EDT |
+| sase | [`ecaad7f`](https://github.com/sase-org/sase/commit/ecaad7fed830cefdac2ab1778e4e9f38acf9fcb7) | docs(sase.sh): add concepts and move architecture page | [sase-1le.11](sase-1le.11.md) | 2026-10-15 22:09:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
