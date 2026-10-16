@@ -13,7 +13,7 @@ guides-daily: write the five daily-work guides, extracting how-to narrative from
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.12](sase-1le.12.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.12](sase-1le.12.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.13](sase-1le.13.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [sase-1le.18](sase-1le.18.md) ◐ · ⧖ 2026-10-15
 

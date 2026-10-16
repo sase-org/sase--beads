@@ -14,7 +14,7 @@ tutorial-tests: run every marked shell block in start/ against fakey in a tempor
 ## Dependencies
 
 - **Blocks:** [sase-1le.20](sase-1le.20.md) ◐ · ⧖ 2026-10-15
-- **Depends on:** [sase-1le.9](sase-1le.9.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [sase-1le.9](sase-1le.9.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

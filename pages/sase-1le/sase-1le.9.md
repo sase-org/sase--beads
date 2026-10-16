@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [sase-1le](README.md) / sase-1le.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4l.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.4l.linker.w0.md) · **Assignee:** `sase-1le.9` · **Size:** medium
-**Created:** 2026-10-15 18:11:11 EDT
+**Created:** 2026-10-15 18:11:11 EDT · **Closed:** 2026-10-15 22:21:45 EDT
 **Plan:** [202610/sase\_sh\_docs\_redesign.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md)
 
 ## Description
 
 start: write start/index, install, first-run, and first-change from getting_started.md, then move the old page and its draft blog duplicate behind redirects.
+
+## Notes
+
+[2026-10-16T02:14:55Z · sase-1le.9] PROPOSED FOLLOW-UP: Triage the three scoped-check failures that reproduce identically on clean base a619baa910 — tests/test_docs_pdf_tools.py::test_pdf_check_recipe_keeps_strict_mkdocs_export, tests/test_docs_social_card.py::test_rss_plugin_images_use_the_default_social_image, and tests/ace/tui/test_app_import_budget.py::test_tui_app_import_stays_under_startup_budget.
+
+[2026-10-16T02:21:11Z · sase-1le.9] PROPOSED FOLLOW-UP: Diagnose the docs-pdf-check Playwright timeout waiting for body[mkdocs-exporter="true"] after 120 seconds; the same timeout occurs on clean base a619baa910 (there at contribute/index.md, in this phase at start/first-change.md).
+
+[2026-10-16T02:21:45Z · sase-1le.9] Added the four-page start tier, redirected the moved getting-started guide and retired duplicate blog draft, and updated nav, PDF curation, numbering, generated install command, docs map, and llms.txt. Verified just fmt, just fmt-docs-check, strict just docs-check, and empty epic-symbols. Scoped check failures were reproduced on clean base a619baa910; the PDF exporter timeout also reproduced on clean base, and both are recorded as proposed follow-ups.
 
 ## Dependencies
 
