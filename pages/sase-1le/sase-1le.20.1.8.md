@@ -35,7 +35,7 @@ macros-move: split macros.md into reference/macros/ pages beside the generated c
 
 - **Blocks:** [sase-1le.20.1.17](sase-1le.20.1.17.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.7](sase-1le.20.1.7.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.9](sase-1le.20.1.9.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.9](sase-1le.20.1.9.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -48,3 +48,15 @@ macros-move: split macros.md into reference/macros/ pages beside the generated c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`deaa5d2`](https://github.com/sase-org/sase/commit/deaa5d22dd7c0c3f2d5c2497a38882f878c2e03f) | docs(reference): split macro and workflow documentation | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 2026-10-16 11:22:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md
+
+<!-- sase:referenced-by:end -->

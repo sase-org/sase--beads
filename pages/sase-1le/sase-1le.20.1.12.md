@@ -27,7 +27,7 @@ contribute-move: whole-page moves of development, rust_backend (stub), fakey, te
 
 ## Dependencies
 
-- **Blocks:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.3](sase-1le.20.1.3.md) ✓ · ⧖ 2026-10-16
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1le.20.1](sase-1le.20.1.md) / sase-1le.20.1.13
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1le.20](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.md) · **Assignee:** `sase-1le.20.1.13` · **Size:** medium
-**Created:** 2026-10-16 08:04:38 EDT
+**Created:** 2026-10-16 08:04:38 EDT · **Closed:** 2026-10-16 11:19:52 EDT
 **Plan:** [202610/docs\_decompose.md](https://github.com/sase-org/sase--plans/blob/main/202610/docs_decompose.md)
 
 ## Previously Closed
@@ -29,6 +29,12 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 [2026-10-16T15:16:07Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: Make docs_split anchor and nested-pointer generation match MkDocs — this recovery reproduced nine strict-build warnings from duplicate-heading suffixes (-1 versus _1), underscore stripping in VCS headings, and root-relative /reference/...md pointers. Added five explicit destination aliases, preserved three real underscore-bearing legacy anchor routes, and fixed two relative pointers in this phase; the splitter itself still needs regression coverage and repair.
 
+[2026-10-16T15:19:34Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: Corroborated the existing clean-base mypy failure recorded in note #1 — final check e71e9b5a818422d8db66da2aa8dadaf7 passes formatting, generated docs, model policy, keep-sorted, Ruff, and mypy over 5951 src files, then fails on nine extensionless-tool diagnostics. An isolated git archive of e297cefb8ec146cce6cc83e2f56abe43c44572c6 (tools, src, pyproject.toml), checked with tools/typecheck_extensionless_tools and this checkout mypy, produces byte-identical diagnostics at render_keymap_macro_reference:303-306 and docs_split:488,674,685,794. No task bead was created; land agent should triage the existing proposal.
+
+[2026-10-16T15:19:52Z · sase-1le.20.1.13] Recovered the prior run mappings/scaffolding from the local stash and completed all six splits, 20 new pages, both hubs, navigation, code/test pointers, generated maps, and six compatibility stubs. Added real underscore-bearing legacy anchor routes and normalized stub link labels to remain formatter-stable. Verified just fix; strict just docs-check (1520 URLs); all 151 original H2-H6 anchors in built stubs and destinations; docs-lint; 135 affected service/workspace/terminology tests plus 9 move-tool tests; git diff --check; and no epic-symbol leftovers. Final check e71e9b5a818422d8db66da2aa8dadaf7 reaches only the nine pre-existing mypy errors reproduced byte-identically on clean e297cefb8e, documented in PROPOSED FOLLOW-UP notes. Only this phase is closed.
+
+[2026-10-16T15:46:21Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: The just check docs-build conditional in Justfile uses docs_scope="$$(tools/docs_changed)" and tests "$$docs_scope". Unlike Make, Just passes both dollar signs to sh: $$ expands to the PID, the selector is not invoked, and the condition always skips. At HEAD 0e667d98c2 with 98 staged repair paths, tools/docs_changed prints run, but ToolRun 8b34b956b2d88ceb3905fccb684a9bb3 logged "Skipping docs build; no docs inputs changed." just --dry-run check preserves the doubled dollars, and an isolated sh conditional reproduces skip. Explicit just docs-check passed strict build and 1,863 URL contracts for this repair. Use ordinary shell dollar syntax and exercise both run/skip branches. Phase sase-1le.2 owns the gate wiring; no duplicate task was found.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
@@ -40,3 +46,15 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1le.20.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.13/README.md) | [sase-1le.20.1.13](sase-1le.20.1.13.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.11][1] | Need the earlier phase record of the identical clean-base extensionless-tool mypy errors | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
+
+<!-- sase:referenced-by:end -->

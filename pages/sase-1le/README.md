@@ -39,6 +39,8 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 
 [2026-10-16T11:04:41Z · sase-1le.14--1] DISCOVERED ISSUE: During conflict repair on master at 30c3500495, required ToolRun 51e399dd01efffd2d78fe7ca73947fe8 exited 1 at fmt-docs-check. The independent targeted reproduction ToolRun bdc66a3335d97d6fdfd620af1b4bd911 also exited 1: render_glossary and render_design_decisions report drift in docs/reference/glossary.md and docs/reference/design-decisions.md because generated Markdown differs from Prettier output. These files are outside the repaired diff. docs-lint passed (ToolRun 6d45622cf39189cc6fdd94710876bffd), and strict docs build plus URL contract passed (ToolRun 5501a77997b7f13d0b61690089703e76). This corroborates the existing generated-doc formatting issue already owned by this epic; no duplicate task bead created.
 
+[2026-10-16T15:46:27Z · sase-1le.20.1.13] DISCOVERED ISSUE: The just check docs-build conditional in Justfile uses docs_scope="$$(tools/docs_changed)" and tests "$$docs_scope". Unlike Make, Just passes both dollar signs to sh: $$ expands to the PID, the selector is not invoked, and the condition always skips. At HEAD 0e667d98c2 with 98 staged repair paths, tools/docs_changed prints run, but ToolRun 8b34b956b2d88ceb3905fccb684a9bb3 logged "Skipping docs build; no docs inputs changed." just --dry-run check preserves the doubled dollars, and an isolated sh conditional reproduces skip. Explicit just docs-check passed strict build and 1,863 URL contracts for this repair. Use ordinary shell dollar syntax and exercise both run/skip branches. Phase sase-1le.2 owns the gate wiring; no duplicate task was found.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -87,7 +89,7 @@ flowchart TD
     n16["sase-1le.20.1.10: Move provider and memory pages into reference/providers/ and reference/memory/ [closed]"]
     n17["sase-1le.20.1.11: Move scheduler, notifications, monitors, tools, mentors, and sudo pages [closed]"]
     n18["sase-1le.20.1.12: Move the contributor pages into contribute/ [closed]"]
-    n19["sase-1le.20.1.13: Move agent, workspace, init, and VCS pages into reference/agents/ and reference/vcs/ [in_progress]"]
+    n19["sase-1le.20.1.13: Move agent, workspace, init, and VCS pages into reference/agents/ and reference/vcs/ [closed]"]
     n20["sase-1le.20.1.14: Move integration pages and the single-topic reference pages [in_progress]"]
     n21["sase-1le.20.1.15: Retire the hand-maintained CLI flag tables and cli.md [in_progress]"]
     n22["sase-1le.20.1.16: History and duplicate sweep for reference/tui/ [in_progress]"]
@@ -103,7 +105,7 @@ flowchart TD
     n32["sase-1le.20.1.6: Finish ace.md and move pager.md into reference/tui/ [in_progress]"]
     n33["sase-1le.20.1.7: Move configuration.md prose except its CLI flag tables [closed]"]
     n34["sase-1le.20.1.8: Move macros.md and workflow_spec.md into reference/macros/ [closed]"]
-    n35["sase-1le.20.1.9: Move beads, plans, goals, Patches, and ProjectSpec into reference/work-units/ [in_progress]"]
+    n35["sase-1le.20.1.9: Move beads, plans, goals, Patches, and ProjectSpec into reference/work-units/ [closed]"]
     n36["sase-1le.3: Declare which version the docs describe and smoke the documented install [closed]"]
     n37["sase-1le.4: Execute the handbook PDF scope decision [closed]"]
     n38["sase-1le.5: Documentation contract lint, templates, and the Writing docs page [closed]"]
@@ -247,7 +249,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.16](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.16/README.md) | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.17](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md) | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.18](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.18/README.md) | [sase-1le.20.1.18](sase-1le.20.1.18.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.19/README.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md) | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md) | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
@@ -256,8 +258,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md) | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md) | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1le.20.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md) | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.land/README.md) | [sase-1le.20.1](sase-1le.20.1.md) | 0 |
 | [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 1 |
@@ -298,6 +300,8 @@ flowchart TD
 | sase | [`0176c69`](https://github.com/sase-org/sase/commit/0176c6997d9da6cabbd920366dbd178b40ed417a) | feat(docs): move contributor pages into contribute | [sase-1le.20.1.12](sase-1le.20.1.12.md) | 2026-10-16 10:19:04 EDT |
 | sase | [`e297cef`](https://github.com/sase-org/sase/commit/e297cefb8ec146cce6cc83e2f56abe43c44572c6) | feat(docs): move provider and memory reference pages | [sase-1le.20.1.10](sase-1le.20.1.10.md) | 2026-10-16 10:51:30 EDT |
 | sase | [`0e667d9`](https://github.com/sase-org/sase/commit/0e667d98c2450663e7c052423a7130e7e8000e2e) | feat(docs): move automation pages into reference | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 2026-10-16 11:18:04 EDT |
+| sase | [`deaa5d2`](https://github.com/sase-org/sase/commit/deaa5d22dd7c0c3f2d5c2497a38882f878c2e03f) | docs(reference): split macro and workflow documentation | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 2026-10-16 11:22:54 EDT |
+| sase | [`5937cbc`](https://github.com/sase-org/sase/commit/5937cbc13066562a9a4b235831e76574e46e37ee) | docs(reference): split work unit documentation | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 2026-10-16 11:57:26 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -35,6 +35,10 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 [2026-10-16T15:11:16Z · sase-1le.20.1.5] Moved ace.md prompt/snippet/Launch Control sections to 9 budget-clean reference/tui pages (prompt-input, prompt-modes, prompt-stacks, prompt-completion, prompt-completion-panels, prompts-overlay, snippets, launch-control, launch-control-overrides); mapping docs/_meta/splits/tui_prompt.yml; hub+nav nested. Verified: dry-run budgets all within 6000 (max 5665), check_docs ok, strict mkdocs build ok, URL contract 914/914 incl frozen /ace/#prompt-history-modal, 41 docs/split/url/tribe tests pass. Fixed docs_split nested-parent crash without _intro (regression test). Renderer ace.md link left for tui-move.
 
+[2026-10-16T15:21:31Z · sase-1le.20.1.5--1] Recovery: fixed pre-existing mypy in tools/docs_split (renamed reused parts/existing) and tools/render_keymap_macro_reference (home_project parts vs Path). Extensionless typecheck now clean; remaining renderer ace.md links and nested-split leftovers still for tui-move.
+
+[2026-10-16T15:52:49Z · sase-1le.20.1.5--2] Recovery: just check failed after close. Scoped contract test_active_sources_and_docs_use_only_canonical_plan_paths still red on HEAD because contribute-move renamed docs/perf_runbook.md to docs/contribute/perf-runbook.md without updating the exclude; repaired the exclude. test_ctrl_t_before_reveal_reveals_without_inserting passed in isolation (full-suite load flake; similar to sase-1g8). fakey capacity e2e timed out (exit 124) only under core-identity-changed full-suite loadavg~15. plugins required-docs wording is FLAKY in the baseline.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16

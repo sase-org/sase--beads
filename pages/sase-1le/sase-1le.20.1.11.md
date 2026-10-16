@@ -34,3 +34,15 @@ automation-move: split notifications.md, axe.md, monitors.md, and the decision-c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0e667d9`](https://github.com/sase-org/sase/commit/0e667d98c2450663e7c052423a7130e7e8000e2e) | feat(docs): move automation pages into reference | [sase-1le.20.1.11](sase-1le.20.1.11.md) | 2026-10-16 11:18:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.11][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
+
+<!-- sase:referenced-by:end -->

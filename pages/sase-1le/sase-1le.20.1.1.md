@@ -40,13 +40,17 @@ gates: fix the clean-base docs failures recorded on epic sase-1le (renderer/Pret
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.1][1] | Need full notes and design | 2 |
-| read-by | [agent:sase-1le.20.1.2][2] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
-| read-by | [agent:sase-1le.20.1.3][3] | Need to check whether clean-base mypy failures already have an owner | 1 |
-| read-by | [agent:sase-1le.20.1.7][4] | Need the active docs epic's gate-repair scope before routing the new mypy failure | 1 |
+| read-by | [agent:sase-1le.20.1.11][2] | Need the existing task that tracks the unchanged docs tool mypy failures | 1 |
+| read-by | [agent:sase-1le.20.1.2][3] | Identify the existing owner of the clean-base generated-docs check failure | 1 |
+| read-by | [agent:sase-1le.20.1.3][4] | Need to check whether clean-base mypy failures already have an owner | 1 |
+| read-by | [agent:sase-1le.20.1.7][5] | Need the active docs epic's gate-repair scope before routing the new mypy failure | 1 |
+| read-by | [agent:sase-1le.20.1.8][6] | Check the docs-gate repair phase scope and its existing mypy follow-up evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md
 
 <!-- sase:referenced-by:end -->
