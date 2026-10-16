@@ -14,8 +14,8 @@ release-watch: make no edits, preflight the hardened watcher, monitor it until a
 ## Dependencies
 
 - **Depends on:** [sase-1lh.1](sase-1lh.1.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1lh.2](sase-1lh.2.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1lh.3](sase-1lh.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lh.2](sase-1lh.2.md) ✓ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lh.3](sase-1lh.3.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1lh.4](sase-1lh.4.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1lh.5](sase-1lh.5.md) ✓ · ⧖ 2026-10-16
 

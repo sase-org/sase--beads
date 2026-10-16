@@ -39,8 +39,10 @@ ci-budget: recalibrate the Phase 7E perf ceiling that fails about 30% of runs, a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1lh.4][1] | check phase notes for prior work remainder | 2 |
+| read-by | [agent:sase-1lh.1][1] | Confirm whether this clean-base docs-gen-check mismatch is already tracked by the release epic | 1 |
+| read-by | [agent:sase-1lh.4][2] | check phase notes for prior work remainder | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.4/README.md
 
 <!-- sase:referenced-by:end -->
