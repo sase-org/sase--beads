@@ -39,3 +39,15 @@ automation-edit: run the edit checklist on reference/automation/.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1eb297e`](https://github.com/sase-org/sase/commit/1eb297ee216b1337c38a10e2d8d477ae140745e1) | docs(reference): sweep automation pages for history and duplicates | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 2026-10-16 12:05:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.19--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md
+
+<!-- sase:referenced-by:end -->

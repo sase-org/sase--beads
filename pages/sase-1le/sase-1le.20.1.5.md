@@ -39,6 +39,8 @@ tui-prompt-move: move-only partial split of the prompt input, prompt completion,
 
 [2026-10-16T15:52:49Z · sase-1le.20.1.5--2] Recovery: just check failed after close. Scoped contract test_active_sources_and_docs_use_only_canonical_plan_paths still red on HEAD because contribute-move renamed docs/perf_runbook.md to docs/contribute/perf-runbook.md without updating the exclude; repaired the exclude. test_ctrl_t_before_reveal_reveals_without_inserting passed in isolation (full-suite load flake; similar to sase-1g8). fakey capacity e2e timed out (exit 124) only under core-identity-changed full-suite loadavg~15. plugins required-docs wording is FLAKY in the baseline.
 
+[2026-10-16T16:27:00Z · sase-1le.20.1.5--3] Recovery: rebased tui-prompt-move onto later docs splits. Kept HEAD hubs for beads/macros/llms, stubbed ace.md prompt/snippet/Launch Control/Macro Browser, retargeted inbound links on split pages, merged tribe-test path lists, restored nested docs_split pointers to root-relative so the h4 nested-split contract holds.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.4](sase-1le.20.1.4.md) ✓ · ⧖ 2026-10-16

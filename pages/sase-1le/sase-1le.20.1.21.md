@@ -17,7 +17,7 @@ finish: finalize the Reference and Contribute hubs and nav, empty budgets.yml, s
 - **Depends on:** [sase-1le.20.1.15](sase-1le.20.1.15.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.16](sase-1le.20.1.16.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.17](sase-1le.20.1.17.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1le.20.1.18](sase-1le.20.1.18.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.18](sase-1le.20.1.18.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.19](sase-1le.20.1.19.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ◐ · ⧖ 2026-10-16
 

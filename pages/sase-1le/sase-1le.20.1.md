@@ -31,6 +31,10 @@ Every legacy root page under docs/ lives in reference/ or contribute/ as a looku
 
 [2026-10-16T15:18:09Z · sase-1le.20.1.8] DISCOVERED ISSUE: A separate rerun during conflict repair (ToolRun fc667fc4a5553a3af91c163a6c5d86e9) again fails at lint (mypy) with the same nine errors in tools/render_keymap_macro_reference lines 303-306 and tools/docs_split lines 488, 674, 685, and 794. The renderer's only diff is its generated-reference link path at line 349; the reported lines are unchanged, and docs_split is untouched. The strict docs build plus URL contract passes (1,420 URLs); the full check stops before later gates. This corroborates existing note #1 and adds the full-command ToolRun.
 
+[2026-10-16T16:24:25Z · sase-1le.20.1.17] DISCOVERED ISSUE: During the paused documentation commit conflict repair on 2026-10-16, required ToolRun 6b83510d135eafea34fd8369f30c0558 failed at lint (mypy) with the same nine errors in tools/render_keymap_macro_reference and tools/docs_split already recorded in notes #1-2. Both tool files are unchanged in this repair. Explicit just docs-check passed the strict build and 1,977 URL contract checks. This is independent corroboration of the epic-owned tooling gate failure; no new task bead is warranted.
+
+[2026-10-16T16:41:00Z · sase-1le.20.1.18] DISCOVERED ISSUE: During this docs merge conflict repair, required ToolRuns f5e04b8037aa6520244b1d91089b6f36 and aff828a1dafb486088d375604a78f3f2 both exited at lint (mypy) with the same nine errors in unchanged tools/render_keymap_macro_reference and tools/docs_split already recorded in notes 1-3. After updating the stale provider migration anchor, just docs-check passed strict build and 1,974 URL checks. just docs-lint reports unchanged docs/reference/index.md at 412 words against the 400-word hub limit (three existing contribute overruns are warnings only); the index limit belongs with the active final-hubs phase. No new task filed because the docs epic already owns both issues.
+
 ## Agents
 
 | Agent | Bead | Commits |

@@ -37,6 +37,8 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 [2026-10-16T16:00:51Z · sase-1le.20.1.13] PROPOSED FOLLOW-UP: Isolate the test suite from inherited SASE_FINALIZER_OWNED_TURN during conflict-repair checks. Required check 8b34b956b2d88ceb3905fccb684a9bb3 passed every lint, SASE validation, and committed-plan stage, then its core-identity-changed full non-visual lane finished with 55,815 passed / 267 failed / 17 skipped. At least 189 traceback groups explicitly contain the host-finalizer-turn monitor/handoff refusal; other bounded-wait failures expect joinable monitor escalation that this host turn disables. The gate remains a verification failure. Two docs failures have independent KNOWN witness dfe062c91ee577b484390ddbf0c7633f: test_active_sources_and_docs_use_only_canonical_plan_paths and test_checked_in_plugins_required_docs_use_batch_wording. No failed node belongs to a changed test file. Direct strict docs-check passed 1,863 URL contracts; all 10 docs-move tests passed, including the added nested-first-selection regression. The nine extensionless-tool mypy errors from earlier notes are repaired and now pass.
 
+[2026-10-16T16:23:21Z · sase-1le.20.1.13] Second rebase repair integrates upstream macro/work-unit moves at 5937cbc130. Preserved all 44 move records/894 anchors and 283 unique nav targets; strict docs-check passes 2,312 URLs. Fixed the automatically merged docs_split relative-pointer regression by computing temporary pointers relative to their source before rewriting; all 14 focused terminology/move tests and 86 extensionless-tool mypy checks pass. Required check 7eb3ac4ee9673dc180004fd36255f5a4 passes all lint/validation stages but fails tests: 6,593 passed, 65 failed, 4 skipped. Most failures again show inherited finalizer-turn refusal. The macro terminology failure is four compatibility-anchor lines identical to upstream HEAD in moves.yml, splits/macros.yml, and macros.md; plus-one guidance has KNOWN witness dfe062c91ee577b484390ddbf0c7633f; canonical plan paths still flags unchanged contribute/perf-runbook.md. No failing node belongs to a changed test file. This is a verification failure, not a green gate. Also, remove ignored site/ before a later gate: pyscripts misclassifies generated site/reference/automation/tools/index.html as source.
+
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
@@ -56,9 +58,11 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1le.20.1.11][1] | Need the earlier phase record of the identical clean-base extensionless-tool mypy errors | 1 |
-| read-by | [agent:sase-1le.20.1.9][2] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
+| read-by | [agent:sase-1le.20.1.17][2] | Confirm prior clean-base mypy failure matches this verification run | 1 |
+| read-by | [agent:sase-1le.20.1.9][3] | Identify the existing tracker for clean-base extensionless-tools mypy failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.11/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md
 
 <!-- sase:referenced-by:end -->

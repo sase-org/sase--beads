@@ -36,3 +36,15 @@ config-macros-edit: run the edit checklist on the config companion pages, enviro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`558e075`](https://github.com/sase-org/sase/commit/558e075a4d0767f58812b61e9e35cffcb85b6846) | docs(reference): consolidate generated references and migration guidance | [sase-1le.20.1.17](sase-1le.20.1.17.md) | 2026-10-16 12:18:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.17][1] | Confirm phase scope and final checklist before closing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.17/README.md
+
+<!-- sase:referenced-by:end -->
