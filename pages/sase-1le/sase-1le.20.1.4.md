@@ -35,3 +35,15 @@ tui-agents-move: move-only partial split of the Agents tab cluster of ace.md (ab
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d8b361b`](https://github.com/sase-org/sase/commit/d8b361b7d709940b42208310d07c215faea2f9f6) | feat(docs): move Agents tab sections of ace.md to reference/tui/ (sase-1le.20.1.4) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 2026-10-16 09:46:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.4][1] | check notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -84,9 +84,9 @@ flowchart TD
     n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [in_progress]"]
     n14["sase-1le.20.1: Decompose the legacy root docs pages into Reference and Contribute [in_progress]"]
     n15["sase-1le.20.1.1: Restore the green docs gates this epic owns [closed]"]
-    n16["sase-1le.20.1.10: Move provider and memory pages into reference/providers/ and reference/memory/ [in_progress]"]
+    n16["sase-1le.20.1.10: Move provider and memory pages into reference/providers/ and reference/memory/ [closed]"]
     n17["sase-1le.20.1.11: Move scheduler, notifications, monitors, tools, mentors, and sudo pages [in_progress]"]
-    n18["sase-1le.20.1.12: Move the contributor pages into contribute/ [in_progress]"]
+    n18["sase-1le.20.1.12: Move the contributor pages into contribute/ [closed]"]
     n19["sase-1le.20.1.13: Move agent, workspace, init, and VCS pages into reference/agents/ and reference/vcs/ [in_progress]"]
     n20["sase-1le.20.1.14: Move integration pages and the single-topic reference pages [in_progress]"]
     n21["sase-1le.20.1.15: Retire the hand-maintained CLI flag tables and cli.md [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
     n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [closed]"]
     n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [in_progress]"]
     n32["sase-1le.20.1.6: Finish ace.md and move pager.md into reference/tui/ [in_progress]"]
-    n33["sase-1le.20.1.7: Move configuration.md prose except its CLI flag tables [in_progress]"]
+    n33["sase-1le.20.1.7: Move configuration.md prose except its CLI flag tables [closed]"]
     n34["sase-1le.20.1.8: Move macros.md and workflow_spec.md into reference/macros/ [in_progress]"]
     n35["sase-1le.20.1.9: Move beads, plans, goals, Patches, and ProjectSpec into reference/work-units/ [in_progress]"]
     n36["sase-1le.3: Declare which version the docs describe and smoke the documented install [closed]"]
@@ -255,7 +255,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.5/README.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.6/README.md) | [sase-1le.20.1.6](sase-1le.20.1.6.md) | 0 |
-| [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md) | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 0 |
 | [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.land/README.md) | [sase-1le.20.1](sase-1le.20.1.md) | 0 |
@@ -294,6 +294,7 @@ flowchart TD
 | sase | [`8531a39`](https://github.com/sase-org/sase/commit/8531a39a0a0d856e1a929dc6dd441e756bb74598) | fix(docs): repair gates-phase failures for sase-1le.20.1.1 | [sase-1le.20.1.1](sase-1le.20.1.1.md) | 2026-10-16 08:35:23 EDT |
 | sase | [`a0ad470`](https://github.com/sase-org/sase/commit/a0ad4700459b7e8df330e2d66713495814227efb) | feat(docs): add whole-page move tooling and upgrading hub | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 2026-10-16 09:10:54 EDT |
 | sase | [`d8b361b`](https://github.com/sase-org/sase/commit/d8b361b7d709940b42208310d07c215faea2f9f6) | feat(docs): move Agents tab sections of ace.md to reference/tui/ (sase-1le.20.1.4) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 2026-10-16 09:46:24 EDT |
+| sase | [`1c5e871`](https://github.com/sase-org/sase/commit/1c5e871e7827fecd6e28527b9d8f7f157a076410) | docs(configuration): split prose into reference pages | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 2026-10-16 10:04:17 EDT |
 
 <!-- sase:referenced-by:start -->
 

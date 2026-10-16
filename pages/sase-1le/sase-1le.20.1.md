@@ -11,6 +11,10 @@
 
 Every legacy root page under docs/ lives in reference/ or contribute/ as a lookup-sized, template-shaped page. Old URLs keep working through redirects and anchor stubs, history lives only under reference/upgrading/, the legacy allowlist in docs/_meta/budgets.yml is empty, and the URL contract stays green throughout.
 
+## Notes
+
+[2026-10-16T14:03:20Z · sase-1le.20.1.7] DISCOVERED ISSUE: During the documentation move merge repair on 2026-10-16, required ToolRun 43e0108750a024862bdd83364e384000 failed at lint (mypy) with 9 errors in unchanged tools/render_keymap_macro_reference lines 303-306 and tools/docs_split lines 488, 674, 685, and 794. The five render_keymap errors independently reproduce the existing proposed follow-up in phase sase-1le.20.1.1 note 1; the four docs_split errors are additional in the same epic-owned tooling. Both files are byte-identical to HEAD. docs-lint and strict docs-check pass after the repair, but the full check stops before its docs and scoped-test stages.
+
 ## Agents
 
 | Agent | Bead | Commits |

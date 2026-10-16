@@ -13,7 +13,7 @@ work-units-providers-edit: run the edit checklist on reference/work-units/, refe
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.20.1.10](sase-1le.20.1.10.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.10](sase-1le.20.1.10.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.9](sase-1le.20.1.9.md) ◐ · ⧖ 2026-10-16
 

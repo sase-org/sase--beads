@@ -13,7 +13,7 @@ agents-vcs-move: split or move agent_sessions, workspace, agents_sidecar, init, 
 
 ## Dependencies
 
-- **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.12](sase-1le.20.1.12.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.14](sase-1le.20.1.14.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.20](sase-1le.20.1.20.md) ◐ · ⧖ 2026-10-16
 

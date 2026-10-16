@@ -14,7 +14,7 @@ macros-move: split macros.md into reference/macros/ pages beside the generated c
 ## Dependencies
 
 - **Blocks:** [sase-1le.20.1.17](sase-1le.20.1.17.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1le.20.1.7](sase-1le.20.1.7.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1le.20.1.7](sase-1le.20.1.7.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1le.20.1.9](sase-1le.20.1.9.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
