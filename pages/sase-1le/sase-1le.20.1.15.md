@@ -37,3 +37,15 @@ cli: compare configuration.md CLI Flags and cli.md against the generated CLI pag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`367562b`](https://github.com/sase-org/sase/commit/367562ba5251a66cd36562cd7996ced23b235f87) | feat(cli): generate root flag reference and split CLI docs | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 2026-10-16 16:56:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.15][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.15/README.md
+
+<!-- sase:referenced-by:end -->
