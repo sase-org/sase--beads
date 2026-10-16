@@ -13,7 +13,7 @@ release-watch: make no edits, preflight the repaired watcher, monitor it until a
 
 ## Dependencies
 
-- **Depends on:** [sase-1lh.7.1](sase-1lh.7.1.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lh.7.1](sase-1lh.7.1.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1lh.7.2](sase-1lh.7.2.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1lh.7.3](sase-1lh.7.3.md) ✓ · ⧖ 2026-10-16
 

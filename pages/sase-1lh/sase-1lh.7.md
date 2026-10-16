@@ -16,3 +16,15 @@ The defects that the sase-1lh landing review found in its own watcher, check-mod
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1lh.7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.land/README.md) | [sase-1lh.7](sase-1lh.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.3][1] | parent epic context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md
+
+<!-- sase:referenced-by:end -->

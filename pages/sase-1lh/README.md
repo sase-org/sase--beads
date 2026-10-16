@@ -102,7 +102,7 @@ flowchart TD
     n5["sase-1lh.5: Harden tools/release_watch so its bead close is guaranteed [closed]"]
     n6["sase-1lh.6: Watch v0.18.0 to PyPI without editing files [closed]"]
     n7["sase-1lh.7: Repair the release watcher and check-mode recapture, then ship sase v0.18.0 [in_progress]"]
-    n8["sase-1lh.7.1: Refresh stale release-PR heads instead of declaring CORE_FLOOR_BLOCKED [in_progress]"]
+    n8["sase-1lh.7.1: Refresh stale release-PR heads instead of declaring CORE_FLOOR_BLOCKED [closed]"]
     n9["sase-1lh.7.2: Make check-mode recapture report failures honestly and fit the job budget [in_progress]"]
     n10["sase-1lh.7.3: Fix nested drop pointers that resolve anchor_target through the source anchor map [closed]"]
     n11["sase-1lh.7.4: Watch v0.18.0 to PyPI without editing files [in_progress]"]
@@ -137,7 +137,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.4/README.md) | [sase-1lh.4](sase-1lh.4.md) | 1 |
 | [bbugyi200.athena.sase-1lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.5/README.md) | [sase-1lh.5](sase-1lh.5.md) | 1 |
 | [bbugyi200.athena.sase-1lh.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.6.md) | [sase-1lh.6](sase-1lh.6.md) | 0 |
-| [bbugyi200.athena.sase-1lh.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.1/README.md) | [sase-1lh.7.1](sase-1lh.7.1.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.1/README.md) | [sase-1lh.7.1](sase-1lh.7.1.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.2/README.md) | [sase-1lh.7.2](sase-1lh.7.2.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md) | [sase-1lh.7.3](sase-1lh.7.3.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.4/README.md) | [sase-1lh.7.4](sase-1lh.7.4.md) | 0 |
@@ -154,6 +154,7 @@ flowchart TD
 | sase | [`2e94255`](https://github.com/sase-org/sase/commit/2e94255b214d151ffea0f2e5642657b3b328b5e0) | fix(visual): repair deterministic visual-test failures (sase-1lh.2) | [sase-1lh.2](sase-1lh.2.md) | 2026-10-16 14:29:07 EDT |
 | sase | [`ae7f9dc`](https://github.com/sase-org/sase/commit/ae7f9dc91aa7504022d17e5b8c9343d912271a13) | feat(visual): recapture first-pass screenshot check failures | [sase-1lh.3](sase-1lh.3.md) | 2026-10-16 15:19:09 EDT |
 | sase | [`e41b209`](https://github.com/sase-org/sase/commit/e41b209b24642553524de0beac2de6f9eee9cea5) | fix(docs): keep explicit anchor\_target on nested drop pointers in docs\_split | [sase-1lh.7.3](sase-1lh.7.3.md) | 2026-10-16 17:01:45 EDT |
+| sase | [`ec7e86e`](https://github.com/sase-org/sase/commit/ec7e86e6907be34bb44252694ba5b0a147ffec6c) | fix(release-watch): refresh stale release-PR heads instead of declaring CORE\_FLOOR\_BLOCKED | [sase-1lh.7.1](sase-1lh.7.1.md) | 2026-10-16 17:07:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
