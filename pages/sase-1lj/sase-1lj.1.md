@@ -19,7 +19,7 @@ readable-projection: add a short project-only header to the generated AGENTS.md,
 
 ## Dependencies
 
-- **Blocks:** [sase-1lj.2](sase-1lj.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lj.2](sase-1lj.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

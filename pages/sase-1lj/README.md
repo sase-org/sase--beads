@@ -30,7 +30,7 @@ The sase repo keeps one full, CI-checked AGENTS.md (plus its CLAUDE.md copy) tha
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1lj.1](sase-1lj.1.md) | Projection header, neutral contract wording, parity repo check, and a CI drift gate | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [sase-1lj.2](sase-1lj.2.md) | Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lj.2](sase-1lj.2.md) | Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1lj.3](sase-1lj.3.md) | Nested tools/, ace/, and tapes/ guides reach every provider | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1lj.4](sase-1lj.4.md) | The TUI opens the instruction bundle an agent received | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1lj.5](sase-1lj.5.md) | Decision record, glossary, docs sweep, and acceptance record | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -41,7 +41,7 @@ The sase repo keeps one full, CI-checked AGENTS.md (plus its CLAUDE.md copy) tha
 flowchart TD
     n0["sase-1lj: E4 (instruction migration): Keep a readable AGENTS.md and retire redundant instruction copies [in_progress]"]
     n1["sase-1lj.1: Projection header, neutral contract wording, parity repo check, and a CI drift gate [closed]"]
-    n2["sase-1lj.2: Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots [in_progress]"]
+    n2["sase-1lj.2: Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots [closed]"]
     n3["sase-1lj.3: Nested tools/, ace/, and tapes/ guides reach every provider [in_progress]"]
     n4["sase-1lj.4: The TUI opens the instruction bundle an agent received [closed]"]
     n5["sase-1lj.5: Decision record, glossary, docs sweep, and acceptance record [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1lj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.1/README.md) | [sase-1lj.1](sase-1lj.1.md) | 1 |
-| [bbugyi200.athena.sase-1lj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md) | [sase-1lj.2](sase-1lj.2.md) | 0 |
+| [bbugyi200.athena.sase-1lj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md) | [sase-1lj.2](sase-1lj.2.md) | 1 |
 | [bbugyi200.athena.sase-1lj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md) | [sase-1lj.3](sase-1lj.3.md) | 0 |
 | [bbugyi200.athena.sase-1lj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md) | [sase-1lj.4](sase-1lj.4.md) | 1 |
 | [bbugyi200.athena.sase-1lj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md) | [sase-1lj.5](sase-1lj.5.md) | 0 |
@@ -73,6 +73,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`97825ee`](https://github.com/sase-org/sase/commit/97825eee1d2c9d2db63ab9427d0fe153145a8bd0) | feat(instructions): readable AGENTS.md projection with header, parity check, and CI drift gate | [sase-1lj.1](sase-1lj.1.md) | 2026-10-16 16:07:53 EDT |
 | sase | [`552b38f`](https://github.com/sase-org/sase/commit/552b38f7ed078ace50c73e1ca44fe40d4ebd9f51) | feat(tui): open the launched instruction bundle from MEMORY and Files | [sase-1lj.4](sase-1lj.4.md) | 2026-10-16 16:30:26 EDT |
+| sase-core | [`sase-core@181072b`](https://github.com/sase-org/sase-core/commit/181072b58e82a92c88f57a3d58952b049a50ddfe) | feat(content-layout): list only AGENTS.md and CLAUDE.md in project agent documents | [sase-1lj.2](sase-1lj.2.md) | 2026-10-16 18:06:18 EDT |
 
 <!-- sase:referenced-by:start -->
 

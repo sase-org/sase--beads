@@ -13,7 +13,7 @@ nested-guides: per decision nested_guides, either fold the three hand-written ne
 
 ## Dependencies
 
-- **Depends on:** [sase-1lj.2](sase-1lj.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lj.2](sase-1lj.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1lj.5](sase-1lj.5.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
