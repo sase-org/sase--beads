@@ -20,7 +20,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1le.1](sase-1le.1.md) | Six tabs over the existing pages, site UX features, analytics hook | ✓ closed | small | 2026-10-15 | 1 | 1 |
-| [sase-1le.10](sase-1le.10.md) | Executable tutorial tests on fakey | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [sase-1le.10](sase-1le.10.md) | Executable tutorial tests on fakey | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.11](sase-1le.11.md) | How SASE works plus the agents, work-units, and landing concepts | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.12](sase-1le.12.md) | Prompts, memory, automation, and providers concepts | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.13](sase-1le.13.md) | Guides hub plus the Set up and Fix problems guides | ✓ closed | medium | 2026-10-15 | 1 | 1 |
@@ -46,7 +46,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 flowchart TD
     n0["sase-1le: sase.sh: a small Diátaxis-typed Guide in front of a generated Reference [in_progress]"]
     n1["sase-1le.1: Six tabs over the existing pages, site UX features, analytics hook [closed]"]
-    n2["sase-1le.10: Executable tutorial tests on fakey [in_progress]"]
+    n2["sase-1le.10: Executable tutorial tests on fakey [closed]"]
     n3["sase-1le.11: How SASE works plus the agents, work-units, and landing concepts [closed]"]
     n4["sase-1le.12: Prompts, memory, automation, and providers concepts [closed]"]
     n5["sase-1le.13: Guides hub plus the Set up and Fix problems guides [closed]"]
@@ -124,7 +124,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1le.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.1/README.md) | [sase-1le.1](sase-1le.1.md) | 1 |
-| [bbugyi200.athena.sase-1le.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md) | [sase-1le.10](sase-1le.10.md) | 0 |
+| [bbugyi200.athena.sase-1le.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.10/README.md) | [sase-1le.10](sase-1le.10.md) | 1 |
 | [bbugyi200.athena.sase-1le.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.11/README.md) | [sase-1le.11](sase-1le.11.md) | 1 |
 | [bbugyi200.athena.sase-1le.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.12/README.md) | [sase-1le.12](sase-1le.12.md) | 1 |
 | [bbugyi200.athena.sase-1le.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.13/README.md) | [sase-1le.13](sase-1le.13.md) | 1 |
@@ -162,6 +162,7 @@ flowchart TD
 | sase | [`e5fb914`](https://github.com/sase-org/sase/commit/e5fb91454fa2c3e89dfd534873521bd969e2cc29) | docs(concepts): add system concept hubs | [sase-1le.12](sase-1le.12.md) | 2026-10-15 22:26:15 EDT |
 | sase | [`2d701e4`](https://github.com/sase-org/sase/commit/2d701e4dc6834672594730475f95c9d0683c0da8) | feat(docs): add the guided start tier | [sase-1le.9](sase-1le.9.md) | 2026-10-15 22:36:51 EDT |
 | sase | [`bfa7804`](https://github.com/sase-org/sase/commit/bfa78040ebac10a348ba84bc0b97175bbe3d3ab9) | docs(guides): add setup and fix-problems guides, move recovery pages to reference | [sase-1le.13](sase-1le.13.md) | 2026-10-15 22:57:30 EDT |
+| sase | [`82c595d`](https://github.com/sase-org/sase/commit/82c595d8400a5a52c70345b3afd56cd7f56d9ee1) | feat(tutorials): add tutorial test harness with Justfile recipe and CI job | [sase-1le.10](sase-1le.10.md) | 2026-10-15 23:00:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
