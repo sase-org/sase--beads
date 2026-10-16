@@ -19,7 +19,7 @@ launch-row: add a public launch-bundle locator, point the Memory lane's as-launc
 
 ## Dependencies
 
-- **Blocks:** [sase-1lj.5](sase-1lj.5.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lj.5](sase-1lj.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

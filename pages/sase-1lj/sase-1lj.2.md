@@ -51,7 +51,9 @@ shim-retirement: canary-probe agy, Qwen, and OpenCode on AGENTS.md alone, shrink
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lj.2][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1lj.3][2] | Need shim-retirement outcome and whether this workspace has its work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md
 
 <!-- sase:referenced-by:end -->

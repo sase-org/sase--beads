@@ -26,7 +26,7 @@ nested-guides: per decision nested_guides, either fold the three hand-written ne
 ## Dependencies
 
 - **Depends on:** [sase-1lj.2](sase-1lj.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1lj.5](sase-1lj.5.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lj.5](sase-1lj.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -39,3 +39,15 @@ nested-guides: per decision nested_guides, either fold the three hand-written ne
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8fde75d`](https://github.com/sase-org/sase/commit/8fde75d7ae6dedce07d38e342d8d974f2cf4b815) | feat(memory): fold nested tools/ace/tapes guides into reference notes | [sase-1lj.3](sase-1lj.3.md) | 2026-10-16 19:28:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lj.3][1] | Need notes, remaining work, and design file path | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md
+
+<!-- sase:referenced-by:end -->
