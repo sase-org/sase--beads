@@ -38,3 +38,15 @@ homepage: rebuild index.md around one primary CTA, install, one demo, four capab
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8676f92`](https://github.com/sase-org/sase/commit/8676f92f2f0d2c4cc1ce3580f4bc835af09144ad) | feat(docs): rebuild homepage as one-screen front door with reader-testing kit (sase-1le.19) | [sase-1le.19](sase-1le.19.md) | 2026-10-15 23:20:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.19][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.19/README.md
+
+<!-- sase:referenced-by:end -->
