@@ -1,0 +1,72 @@
+# Bead: sase-1lj — E4 (instruction migration): Keep a readable AGENTS.md and retire redundant instruction copies
+
+[Bead Pages](../README.md) / sase-1lj
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.10r](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.10r.md) · **Assignee:** `sase-1lj.land`
+**Created:** 2026-10-16 15:15:55 EDT
+**Plan:** [202610/e4\_readable\_agents\_md.md](https://github.com/sase-org/sase--plans/blob/main/202610/e4_readable_agents_md.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/e4_readable_agents_md.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/e4_readable_agents_md.md
+
+<!-- sase:links:end -->
+
+## Description
+
+The sase repo keeps one full, CI-checked AGENTS.md (plus its CLAUDE.md copy) that people, GitHub readers, and non-SASE tools can read. That file names where it comes from and how to see an agent's real bundle. The GEMINI.md, QWEN.md, and OPENCODE.md copies are retired, and the nested guides reach every provider. The TUI opens the bundle an agent actually received. A new decision record makes this the durable shape of E4.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1lj.1](sase-1lj.1.md) | Projection header, neutral contract wording, parity repo check, and a CI drift gate | ✓ closed | medium | 2026-10-16 | 1 | 1 |
+| [sase-1lj.2](sase-1lj.2.md) | Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lj.3](sase-1lj.3.md) | Nested tools/, ace/, and tapes/ guides reach every provider | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lj.4](sase-1lj.4.md) | The TUI opens the instruction bundle an agent received | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lj.5](sase-1lj.5.md) | Decision record, glossary, docs sweep, and acceptance record | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1lj: E4 (instruction migration): Keep a readable AGENTS.md and retire redundant instruction copies [in_progress]"]
+    n1["sase-1lj.1: Projection header, neutral contract wording, parity repo check, and a CI drift gate [closed]"]
+    n2["sase-1lj.2: Retire the GEMINI.md, QWEN.md, and OPENCODE.md copies at project roots [in_progress]"]
+    n3["sase-1lj.3: Nested tools/, ace/, and tapes/ guides reach every provider [in_progress]"]
+    n4["sase-1lj.4: The TUI opens the instruction bundle an agent received [in_progress]"]
+    n5["sase-1lj.5: Decision record, glossary, docs sweep, and acceptance record [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n1 -.-> n2
+    n2 -.-> n3
+    n3 -.-> n5
+    n4 -.-> n5
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1lj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.1/README.md) | [sase-1lj.1](sase-1lj.1.md) | 1 |
+| [bbugyi200.athena.sase-1lj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.2/README.md) | [sase-1lj.2](sase-1lj.2.md) | 0 |
+| [bbugyi200.athena.sase-1lj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md) | [sase-1lj.3](sase-1lj.3.md) | 0 |
+| [bbugyi200.athena.sase-1lj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md) | [sase-1lj.4](sase-1lj.4.md) | 0 |
+| [bbugyi200.athena.sase-1lj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md) | [sase-1lj.5](sase-1lj.5.md) | 0 |
+| [bbugyi200.athena.sase-1lj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.land/README.md) | [sase-1lj](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`97825ee`](https://github.com/sase-org/sase/commit/97825eee1d2c9d2db63ab9427d0fe153145a8bd0) | feat(instructions): readable AGENTS.md projection with header, parity check, and CI drift gate | [sase-1lj.1](sase-1lj.1.md) | 2026-10-16 16:07:53 EDT |
