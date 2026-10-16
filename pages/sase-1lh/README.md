@@ -19,7 +19,7 @@ Master Gate is green at master HEAD and a fresh Full CI run passes every job, so
 | [sase-1lh.2](sase-1lh.2.md) | Fix the deterministic visual-test failures | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1lh.3](sase-1lh.3.md) | Stop one-off capture drift from failing the visual lane | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1lh.4](sase-1lh.4.md) | Fix the perf-floor flake and the Full CI time budget | ✓ closed | small | 2026-10-16 | 1 | 1 |
-| [sase-1lh.5](sase-1lh.5.md) | Harden tools/release\_watch so its bead close is guaranteed | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1lh.5](sase-1lh.5.md) | Harden tools/release\_watch so its bead close is guaranteed | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1lh.6](sase-1lh.6.md) | Watch v0.18.0 to PyPI without editing files | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["sase-1lh.2: Fix the deterministic visual-test failures [in_progress]"]
     n3["sase-1lh.3: Stop one-off capture drift from failing the visual lane [in_progress]"]
     n4["sase-1lh.4: Fix the perf-floor flake and the Full CI time budget [closed]"]
-    n5["sase-1lh.5: Harden tools/release_watch so its bead close is guaranteed [in_progress]"]
+    n5["sase-1lh.5: Harden tools/release_watch so its bead close is guaranteed [closed]"]
     n6["sase-1lh.6: Watch v0.18.0 to PyPI without editing files [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.2/README.md) | [sase-1lh.2](sase-1lh.2.md) | 0 |
 | [bbugyi200.athena.sase-1lh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md) | [sase-1lh.3](sase-1lh.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.4/README.md) | [sase-1lh.4](sase-1lh.4.md) | 1 |
-| [bbugyi200.athena.sase-1lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.5/README.md) | [sase-1lh.5](sase-1lh.5.md) | 0 |
+| [bbugyi200.athena.sase-1lh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.5/README.md) | [sase-1lh.5](sase-1lh.5.md) | 1 |
 | [bbugyi200.athena.sase-1lh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.6/README.md) | [sase-1lh.6](sase-1lh.6.md) | 0 |
 | [bbugyi200.athena.sase-1lh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.land/README.md) | [sase-1lh](README.md) | 0 |
 
@@ -63,3 +63,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e69c455`](https://github.com/sase-org/sase/commit/e69c455bd6a65d69727711fcfe9a308e1674c3fc) | perf(ci-budget): recalibrate persistent\_query\_keystroke floor to 3.10x | [sase-1lh.4](sase-1lh.4.md) | 2026-10-16 13:14:27 EDT |
+| sase | [`909d55d`](https://github.com/sase-org/sase/commit/909d55df5e948968c6c40e9dde5166d47b10433b) | feat(release-watch): harden watcher close guarantees and stuck-gate exit | [sase-1lh.5](sase-1lh.5.md) | 2026-10-16 13:34:32 EDT |
