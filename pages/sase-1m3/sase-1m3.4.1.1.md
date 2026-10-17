@@ -19,7 +19,7 @@ wire-seams: define the complete project_stats request and response contracts, in
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -32,3 +32,15 @@ wire-seams: define the complete project_stats request and response contracts, in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b0cd62b`](https://github.com/sase-org/sase-core/commit/b0cd62b931d9d637a3fa9ede1e7d5b2cf9cf02eb) | feat(project-stats): add wire contracts and facet seams | [sase-1m3.4.1.1](sase-1m3.4.1.1.md) | 2026-10-16 23:32:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.4.1.1--1][1] | Verify the recorded baseline follow-up note before phase closeout | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.1.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ query-binding: implement footer attribution, deduplicated project and portfolio 
 
 ## Dependencies
 
-- **Depends on:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

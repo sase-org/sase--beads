@@ -29,7 +29,13 @@ inventory: fix sase-1lk so another project's linked repos never absorb the cwd p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.2/README.md) | [sase-1m3.2](sase-1m3.2.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.2/README.md) | [sase-1m3.2](sase-1m3.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7c6b324`](https://github.com/sase-org/sase/commit/7c6b32457bdc26d6dda8362c93774b17c5550c23) | feat(repo): resolve linked repo config by target path | [sase-1m3.2](sase-1m3.2.md) | 2026-10-16 23:06:03 EDT |
 
 <!-- sase:referenced-by:start -->
 

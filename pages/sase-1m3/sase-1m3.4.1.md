@@ -16,3 +16,15 @@ Complete the Rust project_stats API, hardened Git execution, cached full-DAG his
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.land/README.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.4.1.1--1][1] | Need controlling epic decisions and remaining phase notes before closing child phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.1.md
+
+<!-- sase:referenced-by:end -->

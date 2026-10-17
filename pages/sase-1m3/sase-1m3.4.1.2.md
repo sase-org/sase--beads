@@ -21,7 +21,7 @@ git-runner: scrub repository-routing environment variables in file_history::runn
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.4.1.3](sase-1m3.4.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
