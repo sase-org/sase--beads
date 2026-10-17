@@ -27,11 +27,11 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1m3.1](sase-1m3.1.md) | Write-time model provenance and the commit-record projection fix | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.1](sase-1m3.1.md) | Write-time model provenance and the commit-record projection fix | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.10](sase-1m3.10.md) | The sase stats group and the project command | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.11](sase-1m3.11.md) | Statistics → Projects tab migration | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.12](sase-1m3.12.md) | Cross-surface parity, budgets, and real-data verification | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
-| [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
@@ -45,11 +45,11 @@
 ```mermaid
 flowchart TD
     n0["sase-1m3: sase stats project: one shared Projects report with honest model attribution [in_progress]"]
-    n1["sase-1m3.1: Write-time model provenance and the commit-record projection fix [in_progress]"]
+    n1["sase-1m3.1: Write-time model provenance and the commit-record projection fix [closed]"]
     n2["sase-1m3.10: The sase stats group and the project command [in_progress]"]
     n3["sase-1m3.11: Statistics → Projects tab migration [in_progress]"]
     n4["sase-1m3.12: Cross-surface parity, budgets, and real-data verification [in_progress]"]
-    n5["sase-1m3.2: Per-project linked-repo resolution and declared-by provenance [in_progress]"]
+    n5["sase-1m3.2: Per-project linked-repo resolution and declared-by provenance [closed]"]
     n6["sase-1m3.3: Statistics registry, neutral render primitives, palette, and range grammar [in_progress]"]
     n7["sase-1m3.4: sase-core project_stats wire, git history walk, cache, and footer attribution [in_progress]"]
     n8["sase-1m3.4.1: Project statistics core engine for sase-1m3.4 [in_progress]"]
@@ -106,7 +106,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.10/README.md) | [sase-1m3.10](sase-1m3.10.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.11/README.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.12/README.md) | [sase-1m3.12](sase-1m3.12.md) | 0 |
@@ -130,3 +130,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@ac37073`](https://github.com/sase-org/sase-core/commit/ac370734cb939a4930c6126ea93046ba2dda6613) | feat(file\_history): scrub git routing env and add bounded batch stdin | [sase-1m3.4.1.2](sase-1m3.4.1.2.md) | 2026-10-16 23:03:57 EDT |
+| sase-core | [`sase-core@305b7b8`](https://github.com/sase-org/sase-core/commit/305b7b808ae17e325cc1aa45299514f6c265202e) | feat(plan): validate proposed\_with provenance | [sase-1m3.1](sase-1m3.1.md) | 2026-10-16 23:08:30 EDT |
