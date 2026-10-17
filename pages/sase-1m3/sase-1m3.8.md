@@ -22,4 +22,4 @@ loader: add `sase.stats.project.load_project_stats`, which resolves projects, ti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.8/README.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |

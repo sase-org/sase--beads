@@ -13,7 +13,7 @@ records-snapshot: count record-repository commits and tracked files, measure aut
 
 ## Dependencies
 
-- **Depends on:** [sase-1m3.7.1.1](sase-1m3.7.1.1.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [sase-1m3.7.1.1](sase-1m3.7.1.1.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [sase-1m3.7.1.4](sase-1m3.7.1.4.md) ◐ · ⧖ 2026-10-17
 
 ## Agents
