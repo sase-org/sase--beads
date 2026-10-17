@@ -17,7 +17,7 @@ counter-policy: implement pure nonblank counting and role classification, and fi
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.7.1.2](sase-1m3.7.1.2.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1m3.7.1.2](sase-1m3.7.1.2.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [sase-1m3.7.1.3](sase-1m3.7.1.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents

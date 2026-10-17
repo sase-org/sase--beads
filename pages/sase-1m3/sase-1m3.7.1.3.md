@@ -31,3 +31,15 @@ records-snapshot: count record-repository commits and tracked files, measure aut
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9c16796`](https://github.com/sase-org/sase-core/commit/9c16796d7d9052a9d5b1fa1d5732a70c41f234cc) | feat(project-stats): add metadata-only records snapshots | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 2026-10-17 08:29:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.7.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->

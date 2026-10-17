@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/sase_stats_project.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md
 
@@ -47,7 +47,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 2 |
-| [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ✓ closed | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.9](sase-1m3.9.md) | Shared Rich and Markdown section renderers | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -74,7 +74,7 @@ flowchart TD
     n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [in_progress]"]
     n16["sase-1m3.7.1: Committed code snapshots and records for project statistics [in_progress]"]
     n17["sase-1m3.7.1.1: Role policy, nonblank counter, and measurement contracts [closed]"]
-    n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [in_progress]"]
+    n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [closed]"]
     n19["sase-1m3.7.1.3: Metadata-only records summaries [closed]"]
     n20["sase-1m3.7.1.4: Code facet dispatch, coverage, and deduplicated aggregates [in_progress]"]
     n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [in_progress]"]
@@ -148,10 +148,10 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md) | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 2 |
 | [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 2 |
-| [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md) | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.2/README.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.2.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.5/README.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 0 |
@@ -178,6 +178,8 @@ flowchart TD
 | sase | [`c68a303`](https://github.com/sase-org/sase/commit/c68a30365f616b8096e5e7ff02cd5e0b43cbca20) | feat(stats): extract Statistics registry, loader, palette, and range parser | [sase-1m3.3](sase-1m3.3.md) | 2026-10-17 05:29:02 EDT |
 | sase-core | [`sase-core@df833a0`](https://github.com/sase-org/sase-core/commit/df833a04beaa4205620a75f0b2a11c1fc89a9db4) | feat(project-stats): add classifier, nonblank counter, and wire contracts | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 2026-10-17 07:54:34 EDT |
 | sase-core | [`sase-core@9c16796`](https://github.com/sase-org/sase-core/commit/9c16796d7d9052a9d5b1fa1d5732a70c41f234cc) | feat(project-stats): add metadata-only records snapshots | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 2026-10-17 08:29:41 EDT |
+| sase-core | [`sase-core@7a46109`](https://github.com/sase-org/sase-core/commit/7a46109f2abf81d5251334088331f1ef96c917ae) | feat(project-stats): join the agent directory and count committed plans | [sase-1m3.6](sase-1m3.6.md) | 2026-10-17 08:43:14 EDT |
+| sase-core | [`sase-core@733256e`](https://github.com/sase-org/sase-core/commit/733256ede964bc99e46f8ce7faffb690df0c6a49) | feat(project-stats): add committed-tree code snapshots and incremental blob cache | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 2026-10-17 09:44:30 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -187,8 +189,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lh.7.5.4.3.1][1] | Need sase-1m3 notes so adopted fixture/config fixes can be recorded without duplicating its lander | 2 |
 | read-by | [agent:sase-1m3.3][2] | Need parent epic DECISIONS, phases, and design | 2 |
+| read-by | [agent:sase-1m3.6][3] | Need parent epic plan and predecessor phase scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1lh.7.5.4.3.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md
 
 <!-- sase:referenced-by:end -->

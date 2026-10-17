@@ -33,3 +33,15 @@ Guarded sase tool run check 31b152b8a1c739389915263e812608ea stopped on clean-ba
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1m3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.md) | [sase-1m3.4](sase-1m3.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.6][1] | Need parent epic plan and predecessor phase scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md
+
+<!-- sase:referenced-by:end -->
