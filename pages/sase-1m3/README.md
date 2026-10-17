@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/sase_stats_project.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,16 @@
 ## Description
 
 `sase stats project` and the Admin Center's Statistics → Projects tab render one Rust-backed report through the same loader, view model, legends, and section renderers. The report shows landed commits and committed plans attributed to a provider/model with visible coverage, a lifetime code snapshot, and this machine's agent runs. Every new agent commit and proposed plan records its model at write time.
+
+## Notes
+
+[2026-10-17T04:15:13Z · sase-1lh.7.5.4.land] DISCOVERED ISSUE: sase-1lh.7.5.4 landing at 28ced2a125 reproduced 15 deterministic failures in 13.25s (32 passed), matching Master Gate 38999581980 and 39000343130. Commit 7545e85abf changed commit metadata to accept 7-40 hex SHAs; tests/test_done_agent_loader.py (7 nodes), tests/test_axe_run_agent_exec_finalize_attachments.py::test_finalize_loop_legacy_commit_metadata_scans_workspace_head and tests/test_bead/test_bead_page_publication.py::test_sidecar_publication_anchors_associations_and_commit_links_to_primary still use old output/invalid SHA fixtures. Its resolve_turn_model_label also produces mypy object-to-str assignment errors at identity.py:183-184 (now 200-201). Commit 7c6b32457b changed resolution_config to load_merged_config_for_local_path; tests/main/test_repo_path.py (2 legacy nodes), test_workspace_handler_project_resolution.py (4 nodes), and CI test_workspace_handler_list_path.py::TestList::test_json_list_includes_registered_workspace still depend on the former mocked/cwd config seam. These are causally owned by .1/.2, not new tasks. Release landing needs these gates reconciled; a bounded release-integration plan will adopt remaining fixes after checking concurrent changes.
+
+[2026-10-17T04:52:28Z · sase-1lh.7.5.4.3.1] sase-1lh.7.5.4.3.1 adopted remaining .1/.2 Master Gate fixtures: 7-40 hex SHA fixtures, git SHA strip, identity.py typed candidates, project-local sase.yml via write_project_local_config (keeps load_merged_config_for_local_path isolation), schema_version 3 beads store record, and research availability on in_tree/local/separate_repo. Do not repeat these as remaining .1/.2 work.
+
+## References
+
+- file:explicit:7a86bb9a4fdfa3b2768be6c1
 
 ## Phases
 
@@ -56,7 +68,7 @@ flowchart TD
     n9["sase-1m3.4.1.1: Complete wire types and facet extension points [closed]"]
     n10["sase-1m3.4.1.2: Harden shared Git execution and add bounded batch input [closed]"]
     n11["sase-1m3.4.1.3: Resolve repositories and cache complete commit history [closed]"]
-    n12["sase-1m3.4.1.4: Aggregate Output and lifetime statistics and expose the binding [in_progress]"]
+    n12["sase-1m3.4.1.4: Aggregate Output and lifetime statistics and expose the binding [closed]"]
     n13["sase-1m3.5: Runs facet over the existing agent_stats fold [in_progress]"]
     n14["sase-1m3.6: Agent directory join and the committed-plans facet [in_progress]"]
     n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [in_progress]"]
@@ -116,7 +128,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.1.md) | [sase-1m3.4.1.1](sase-1m3.4.1.1.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.2/README.md) | [sase-1m3.4.1.2](sase-1m3.4.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.3/README.md) | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md) | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md) | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.land/README.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 0 |
@@ -135,3 +147,16 @@ flowchart TD
 | sase | [`7545e85`](https://github.com/sase-org/sase/commit/7545e85abf213f9db7ca60a517ac82c8ab26383e) | feat(provenance): stamp model attribution and fix commit metadata | [sase-1m3.1](sase-1m3.1.md) | 2026-10-16 23:13:47 EDT |
 | sase-core | [`sase-core@b0cd62b`](https://github.com/sase-org/sase-core/commit/b0cd62b931d9d637a3fa9ede1e7d5b2cf9cf02eb) | feat(project-stats): add wire contracts and facet seams | [sase-1m3.4.1.1](sase-1m3.4.1.1.md) | 2026-10-16 23:32:49 EDT |
 | sase-core | [`sase-core@855ed4c`](https://github.com/sase-org/sase-core/commit/855ed4c3788f6564c9a00a8838ae005aed882bcc) | feat(project-stats): cache complete repository history | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 2026-10-17 00:04:23 EDT |
+| sase-core | [`sase-core@be2bfbe`](https://github.com/sase-org/sase-core/commit/be2bfbee126354e387e093bbbdb37c9b2ad35114) | feat(project-stats): aggregate Output and expose project\_stats\_query | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 2026-10-17 01:38:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.1][1] | Need sase-1m3 notes so adopted fixture/config fixes can be recorded without duplicating its lander | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1lh.7.5.4.3.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -44,8 +44,10 @@ provenance: stamp `SASE_MODEL=<provider>/<model>` on agent commits and `proposed
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1m3.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1lh.7.5.4.3.1][1] | Need whether provenance phase already fixed stale fixtures | 1 |
+| read-by | [agent:sase-1m3.1][2] | Need the phase scope and design file | 3 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1lh.7.5.4.3.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md
 
 <!-- sase:referenced-by:end -->

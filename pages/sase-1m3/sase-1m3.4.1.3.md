@@ -21,7 +21,7 @@ history-cache: implement repository identity and ref validation, full-DAG footer
 
 - **Depends on:** [sase-1m3.4.1.1](sase-1m3.4.1.1.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.4.1.2](sase-1m3.4.1.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1m3.4.1.4](sase-1m3.4.1.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.4.1.4](sase-1m3.4.1.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -34,3 +34,15 @@ history-cache: implement repository identity and ref validation, full-DAG footer
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@855ed4c`](https://github.com/sase-org/sase-core/commit/855ed4c3788f6564c9a00a8838ae005aed882bcc) | feat(project-stats): cache complete repository history | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 2026-10-17 00:04:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.4.1.3][1] | Check for prior phase notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

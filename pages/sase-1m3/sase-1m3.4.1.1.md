@@ -40,7 +40,9 @@ wire-seams: define the complete project_stats request and response contracts, in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.4.1.1--1][1] | Verify the recorded baseline follow-up note before phase closeout | 3 |
+| read-by | [agent:sase-1m3.4.1.3][2] | Check whether a sibling phase already recorded this baseline gate failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->
