@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/sase_1lh_landing_repair.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:7452d1d4b006dacd914725b4 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_1lh_landing_repair.md
 
@@ -62,15 +62,17 @@ NEXT: validated three-phase child epic sase_plan_finish_recapture_release.md, pa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.1w.mus][1] | Child epic status for current release blockers | 1 |
-| read-by | [agent:sase-1lh.7.1][2] | Need parent epic scope and decisions | 1 |
-| read-by | [agent:sase-1lh.7.3][3] | parent epic context | 1 |
-| read-by | [agent:sase-1lh.7.5.2][4] | Need parent epic scope and decisions for this phase | 3 |
-| read-by | [agent:sase-1lh.7.5.4.1][5] | Need accepted decisions and notes of the immediate ancestor before implementation | 2 |
+| read-by | [agent:research.4q.final][2] | Check depth and state of the in-flight 0.18.0 repair chain | 1 |
+| read-by | [agent:sase-1lh.7.1][3] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1lh.7.3][4] | parent epic context | 1 |
+| read-by | [agent:sase-1lh.7.5.2][5] | Need parent epic scope and decisions for this phase | 3 |
+| read-by | [agent:sase-1lh.7.5.4.1][6] | Need accepted decisions and notes of the immediate ancestor before implementation | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1w.mus/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.1/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.4q.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md
 
 <!-- sase:referenced-by:end -->

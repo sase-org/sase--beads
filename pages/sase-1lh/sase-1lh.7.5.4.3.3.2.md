@@ -27,7 +27,7 @@ ci-reds: root-cause and fix the intermittent "no agents appeared after sase run"
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

@@ -19,7 +19,7 @@ clock: stop the hung previous watch turn and its parked lander, derive the sweep
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
