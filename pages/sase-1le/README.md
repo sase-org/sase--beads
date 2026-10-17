@@ -305,7 +305,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md) | [sase-1le.7](sase-1le.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md) | [sase-1le.8](sase-1le.8.md) | 1 |
 | [bbugyi200.athena.sase-1le.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md) | [sase-1le.9](sase-1le.9.md) | 1 |
-| [bbugyi200.athena.sase-1le.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.land.md) | [sase-1le](README.md) | 1 |
+| [bbugyi200.athena.sase-1le.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.land.md) | [sase-1le](README.md) | 2 |
 
 ## Commits
 
@@ -354,6 +354,7 @@ flowchart TD
 | sase | [`08d9b66`](https://github.com/sase-org/sase/commit/08d9b66154cff1810d95a013e7567c6285c214b4) | fix(docs): match split anchors to MkDocs output | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:26:53 EDT |
 | sase--plans | [`sase--plans@355f483`](https://github.com/sase-org/sase--plans/commit/355f48385d2236ca1cf2eef4fc05af96588b5f60) | docs(plans): mark docs decomposition landing done | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:30:55 EDT |
 | sase | [`04490ca`](https://github.com/sase-org/sase/commit/04490cabb19b0e4c2eb27e3b29864af58df12936) | fix(docs): land sase-1le check, glossary, hygiene, and CLI usage defects | [sase-1le](README.md) | 2026-10-17 00:48:10 EDT |
+| sase--plans | [`sase--plans@48db014`](https://github.com/sase-org/sase--plans/commit/48db014aabea9635160419830b8cdca85c0bc80c) | chore(plans): mark sase-1le docs redesign epic and landing tale done | [sase-1le](README.md) | 2026-10-17 00:52:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
