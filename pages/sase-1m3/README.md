@@ -46,7 +46,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
-| [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 0 |
+| [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -146,8 +146,8 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.2/README.md) | [sase-1m3.4.1.2](sase-1m3.4.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.3/README.md) | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md) | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 2 |
-| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md) | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 0 |
@@ -172,7 +172,7 @@ flowchart TD
 | sase-core | [`sase-core@855ed4c`](https://github.com/sase-org/sase-core/commit/855ed4c3788f6564c9a00a8838ae005aed882bcc) | feat(project-stats): cache complete repository history | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 2026-10-17 00:04:23 EDT |
 | sase-core | [`sase-core@be2bfbe`](https://github.com/sase-org/sase-core/commit/be2bfbee126354e387e093bbbdb37c9b2ad35114) | feat(project-stats): aggregate Output and expose project\_stats\_query | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 2026-10-17 01:38:02 EDT |
 | sase-core | [`sase-core@8df5efd`](https://github.com/sase-org/sase-core/commit/8df5efda95b48fdb7e23d9ca3c66fc8a92118235) | fix(project-stats)!: distinguish unavailable counts from measured zeros | [sase-1m3.4.1](sase-1m3.4.1.md) | 2026-10-17 03:26:33 EDT |
-| sase--plans | [`sase--plans@1d0f2d0`](https://github.com/sase-org/sase--plans/commit/1d0f2d04bc800b1fa0e2570f4acccd5a25ad4651) | chore(plans): mark project\_stats core engine and landing tales done | [sase-1m3.4.1](sase-1m3.4.1.md) | 2026-10-17 03:30:31 EDT |
+| sase-core | [`sase-core@7dc6f6c`](https://github.com/sase-org/sase-core/commit/7dc6f6ce25d5f76f4f9c07e7be427884a70c5784) | feat(project-stats): fill the Runs facet from agent\_stats | [sase-1m3.5](sase-1m3.5.md) | 2026-10-17 04:57:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

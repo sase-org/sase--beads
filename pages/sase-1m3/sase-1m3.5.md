@@ -29,4 +29,10 @@ core-runs: fill the Runs facet and Patch rows by calling `agent_stats::query_run
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@7dc6f6c`](https://github.com/sase-org/sase-core/commit/7dc6f6ce25d5f76f4f9c07e7be427884a70c5784) | feat(project-stats): fill the Runs facet from agent\_stats | [sase-1m3.5](sase-1m3.5.md) | 2026-10-17 04:57:04 EDT |

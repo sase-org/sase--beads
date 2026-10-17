@@ -51,14 +51,13 @@ Follow-up outcomes (reuse land-audit note, not refiled): Clippy → sase-1an; le
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 2 |
+| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8df5efd`](https://github.com/sase-org/sase-core/commit/8df5efda95b48fdb7e23d9ca3c66fc8a92118235) | fix(project-stats)!: distinguish unavailable counts from measured zeros | [sase-1m3.4.1](sase-1m3.4.1.md) | 2026-10-17 03:26:33 EDT |
-| sase--plans | [`sase--plans@1d0f2d0`](https://github.com/sase-org/sase--plans/commit/1d0f2d04bc800b1fa0e2570f4acccd5a25ad4651) | chore(plans): mark project\_stats core engine and landing tales done | [sase-1m3.4.1](sase-1m3.4.1.md) | 2026-10-17 03:30:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
