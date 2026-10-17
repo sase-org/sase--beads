@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.3/README.md) | [sase-1lj.3](sase-1lj.3.md) | 1 |
 | [bbugyi200.athena.sase-1lj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md) | [sase-1lj.4](sase-1lj.4.md) | 1 |
 | [bbugyi200.athena.sase-1lj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md) | [sase-1lj.5](sase-1lj.5.md) | 1 |
-| [bbugyi200.athena.sase-1lj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lj.land.md) | [sase-1lj](README.md) | 1 |
+| [bbugyi200.athena.sase-1lj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lj.land.md) | [sase-1lj](README.md) | 2 |
 
 ## Commits
 
@@ -109,6 +109,7 @@ flowchart TD
 | sase | [`8fde75d`](https://github.com/sase-org/sase/commit/8fde75d7ae6dedce07d38e342d8d974f2cf4b815) | feat(memory): fold nested tools/ace/tapes guides into reference notes | [sase-1lj.3](sase-1lj.3.md) | 2026-10-16 19:28:03 EDT |
 | sase | [`f6ff20e`](https://github.com/sase-org/sase/commit/f6ff20ef2a68185187e3fcceab2b95529054a9d6) | docs(memory): record E4 readable-AGENTS.md decision, glossary, and acceptance | [sase-1lj.5](sase-1lj.5.md) | 2026-10-16 19:56:12 EDT |
 | sase | [`ea84bd8`](https://github.com/sase-org/sase/commit/ea84bd8786dddecc971c46717c5c70edc8771ca5) | feat(amd): retire project-root GEMINI, QWEN, and OPENCODE shims | [sase-1lj](README.md) | 2026-10-16 21:22:14 EDT |
+| sase--plans | [`sase--plans@d27510c`](https://github.com/sase-org/sase--plans/commit/d27510c30787054db889ca3f78c6b85ce8a4bf60) | docs(plan): mark E4 readable-agents-md epic done | [sase-1lj](README.md) | 2026-10-16 21:25:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
