@@ -47,6 +47,8 @@ EVERY PROPOSED FOLLOW-UP OUTCOME, triaged through sase_new_task:
 
 NEXT: two-phase child epic sase_plan_finish_deadline_release_target.md with parent_bead sase-1lh.7.5, deadline-repair (medium) then release-watch (small). Both --explain validation and final revalidation passed with zero warnings. Epic instead of tale because required publication must contain the coder's post-turn host commit and release trailer. Parent closeout is a land-agent duty, not a phase. The child lander must confirm all six release criteria, then recheck/close sase-1lh.7.5 normally, symvision, mark plan:202610/finish_recapture_release.md done; then recheck parent sase-1lh.7 and sase-1lh, including original post-release/stale-epic duties. Never force a successful nested landing; note and stop at the first incomplete parent.
 
+[2026-10-17T04:20:34Z · sase-1lh.7.5.4.land] CHILD LANDING BLOCKER: sase-1lh.7.5.4 deadline repair is verified (151 focused tests pass), but its no-edit watcher closed canceled. Exact release-please 17.6.0 parsing of the host commit ignores Release-As before SASE provenance; a supported nested-commit block is verified to preserve the release directive. PR #299 remains 0.17.2 and PyPI 0.17.1. Current provenance/config integration failures are routed to sase-1m3 and the remaining-work child plan; recurring flake evidence is routed to sase-1ls, sase-1a7/sase-1i5, and existing sase-j7 note #78. The current child remains open and its linked plan is not done. See its full landing audit; no force-close or release success claim.
+
 ## Agents
 
 | Agent | Bead | Commits |

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_18_0_green_ci_release.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_0_green_ci_release.md
 
@@ -112,7 +112,10 @@ flowchart TD
     n15["sase-1lh.7.5.3: Watch v0.18.0 to PyPI after the repair commits land [closed]"]
     n16["sase-1lh.7.5.4: Finish visual subprocess deadlines and restore the 0.18.0 release target [in_progress]"]
     n17["sase-1lh.7.5.4.1: Bound every subprocess exit path and declare the intended release version [closed]"]
-    n18["sase-1lh.7.5.4.2: Restore the generated release PR target and verify publication [in_progress]"]
+    n18["sase-1lh.7.5.4.2: Restore the generated release PR target and verify publication [closed]"]
+    n19["sase-1lh.7.5.4.3: Restore the parsed release declaration and reconcile current release gates [in_progress]"]
+    n20["sase-1lh.7.5.4.3.1: Reconcile concurrent gate changes and issue a parseable release declaration [closed]"]
+    n21["sase-1lh.7.5.4.3.2: Verify the committed declaration and observe guarded publication [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -131,6 +134,9 @@ flowchart TD
     n12 --> n16
     n16 --> n17
     n16 --> n18
+    n16 --> n19
+    n19 --> n20
+    n19 --> n21
     n1 -.-> n6
     n2 -.-> n6
     n3 -.-> n6
@@ -142,6 +148,7 @@ flowchart TD
     n13 -.-> n14
     n14 -.-> n15
     n17 -.-> n18
+    n20 -.-> n21
 ```
 
 ## Agents
@@ -162,8 +169,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md) | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.3.md) | [sase-1lh.7.5.3](sase-1lh.7.5.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md) | [sase-1lh.7.5.4.1](sase-1lh.7.5.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.2/README.md) | [sase-1lh.7.5.4.2](sase-1lh.7.5.4.2.md) | 0 |
-| [bbugyi200.athena.sase-1lh.7.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.land/README.md) | [sase-1lh.7.5.4](sase-1lh.7.5.4.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.2.md) | [sase-1lh.7.5.4.2](sase-1lh.7.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.1/README.md) | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.2/README.md) | [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.land/README.md) | [sase-1lh.7.5.4.3](sase-1lh.7.5.4.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.land.md) | [sase-1lh.7.5.4](sase-1lh.7.5.4.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.land.md) | [sase-1lh.7.5](sase-1lh.7.5.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.land.md) | [sase-1lh.7](sase-1lh.7.md) | 0 |
 | [bbugyi200.athena.sase-1lh.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.land.md) | [sase-1lh](README.md) | 0 |
@@ -183,6 +193,7 @@ flowchart TD
 | sase | [`499c825`](https://github.com/sase-org/sase/commit/499c825cb931953efb2af6c49d7d504e04e8c0bc) | fix(visual): enforce strict check-mode recovery and retry deadline | [sase-1lh.7.5.1](sase-1lh.7.5.1.md) | 2026-10-16 21:33:07 EDT |
 | sase | [`f564f0f`](https://github.com/sase-org/sase/commit/f564f0f9962384f9aa05e8d2b1be02e54e413698) | test(release): reconcile launch, docs, and visual regressions | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 2026-10-16 22:07:49 EDT |
 | sase | [`69e0cd7`](https://github.com/sase-org/sase/commit/69e0cd75400465a1433717bad5e8e623379814c8) | fix(tui): bound visual subprocess cleanup | [sase-1lh.7.5.4.1](sase-1lh.7.5.4.1.md) | 2026-10-16 23:38:46 EDT |
+| sase | [`315092a`](https://github.com/sase-org/sase/commit/315092afebe542524e37d6b69c27030b77e02c2d) | fix(release): restore a parseable 0.18.0 nested declaration | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 2026-10-17 01:18:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -197,6 +208,7 @@ flowchart TD
 | read-by | [agent:sase-1lh.3][5] | Need parent epic context for visual-stability phase | 1 |
 | read-by | [agent:sase-1lh.5][6] | inspect epic children statuses for closed-bead output shape | 1 |
 | read-by | [agent:sase-1lh.7.5.2][7] | Need ancestor epic scope and inherited decisions for this phase | 3 |
+| read-by | [agent:sase-1lh.7.5.4.1][8] | Need accepted decisions in the plan ancestors before implementation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1u.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1w.cld/README.md
@@ -205,5 +217,6 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.3/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.5/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md
 
 <!-- sase:referenced-by:end -->
