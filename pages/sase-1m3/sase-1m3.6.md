@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [sase-1m3](README.md) / sase-1m3.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.1s.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.research.1s.linker.w0.md) · **Assignee:** `sase-1m3.6` · **Size:** medium
-**Created:** 2026-10-16 22:05:23 EDT
+**Created:** 2026-10-16 22:05:23 EDT · **Closed:** 2026-10-17 08:23:46 EDT
 **Plan:** [202610/sase\_stats\_project.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md)
 
 ## Description
 
 core-attribution: build the read-only agent directory from agents-sidecar pages and the local run index for attribution steps 2-4, and count committed plans (rename-aware first adds) credited to the proposing model.
+
+## Notes
+
+[2026-10-17T12:12:36Z · sase-1m3.6] PROPOSED FOLLOW-UP: skipped decisions-web record (stats_decision_record=no) — stats count each fact at its durable source, and footers stamp only underivable facts
+
+[2026-10-17T12:12:48Z · sase-1m3.6] Directory measure on sase agents sidecar (debug test profile): 17273 pages, 7338 SHAs, 0 issues; cold 5601.4ms, warm median 444.1ms. Isolated git cat-file of 34546 meta+commits blobs is 621ms. Release --ignored LTO compile of sase_core tests was SIGKILL/OOM.
+
+[2026-10-17T12:23:46Z · sase-1m3.6] Verified in sase-core: directory join (SHA, --code, page_metadata_empty, session_ambiguous, index-only, published-wins) and plan facet (rename first-add, exclusions, no double-count, re-proposal, local null, project_filter, --plan lookup). just test -p sase_core project_stats green; clippy -p sase_core green; sase tool run check fa8accac5ed226d7781647de443d54ab green. Agents sidecar measure: 17273 pages, cold 5601ms debug / warm 444ms. No leftover --epic-symbol entries.
 
 ## Dependencies
 

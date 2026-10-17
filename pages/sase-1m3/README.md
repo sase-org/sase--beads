@@ -47,7 +47,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 2 |
-| [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.9](sase-1m3.9.md) | Shared Rich and Markdown section renderers | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -70,12 +70,12 @@ flowchart TD
     n11["sase-1m3.4.1.3: Resolve repositories and cache complete commit history [closed]"]
     n12["sase-1m3.4.1.4: Aggregate Output and lifetime statistics and expose the binding [closed]"]
     n13["sase-1m3.5: Runs facet over the existing agent_stats fold [closed]"]
-    n14["sase-1m3.6: Agent directory join and the committed-plans facet [in_progress]"]
+    n14["sase-1m3.6: Agent directory join and the committed-plans facet [closed]"]
     n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [in_progress]"]
     n16["sase-1m3.7.1: Committed code snapshots and records for project statistics [in_progress]"]
     n17["sase-1m3.7.1.1: Role policy, nonblank counter, and measurement contracts [closed]"]
     n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [in_progress]"]
-    n19["sase-1m3.7.1.3: Metadata-only records summaries [in_progress]"]
+    n19["sase-1m3.7.1.3: Metadata-only records summaries [closed]"]
     n20["sase-1m3.7.1.4: Code facet dispatch, coverage, and deduplicated aggregates [in_progress]"]
     n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [in_progress]"]
     n22["sase-1m3.8: Python project-stats loader, facade, and view model [in_progress]"]
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md) | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.2/README.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 0 |
-| [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.5/README.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.land/README.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 0 |
@@ -177,6 +177,7 @@ flowchart TD
 | sase-core | [`sase-core@da22713`](https://github.com/sase-org/sase-core/commit/da22713e71a91545c0e48eb2e16797c7165d115b) | fix: restore a green sase-core check | [sase-1m3.5](sase-1m3.5.md) | 2026-10-17 05:05:20 EDT |
 | sase | [`c68a303`](https://github.com/sase-org/sase/commit/c68a30365f616b8096e5e7ff02cd5e0b43cbca20) | feat(stats): extract Statistics registry, loader, palette, and range parser | [sase-1m3.3](sase-1m3.3.md) | 2026-10-17 05:29:02 EDT |
 | sase-core | [`sase-core@df833a0`](https://github.com/sase-org/sase-core/commit/df833a04beaa4205620a75f0b2a11c1fc89a9db4) | feat(project-stats): add classifier, nonblank counter, and wire contracts | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 2026-10-17 07:54:34 EDT |
+| sase-core | [`sase-core@9c16796`](https://github.com/sase-org/sase-core/commit/9c16796d7d9052a9d5b1fa1d5732a70c41f234cc) | feat(project-stats): add metadata-only records snapshots | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 2026-10-17 08:29:41 EDT |
 
 <!-- sase:referenced-by:start -->
 

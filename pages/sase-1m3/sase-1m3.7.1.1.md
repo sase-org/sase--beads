@@ -18,7 +18,7 @@ counter-policy: implement pure nonblank counting and role classification, and fi
 ## Dependencies
 
 - **Blocks:** [sase-1m3.7.1.2](sase-1m3.7.1.2.md) ◐ · ⧖ 2026-10-17
-- **Blocks:** [sase-1m3.7.1.3](sase-1m3.7.1.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1m3.7.1.3](sase-1m3.7.1.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -31,3 +31,15 @@ counter-policy: implement pure nonblank counting and role classification, and fi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@df833a0`](https://github.com/sase-org/sase-core/commit/df833a04beaa4205620a75f0b2a11c1fc89a9db4) | feat(project-stats): add classifier, nonblank counter, and wire contracts | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 2026-10-17 07:54:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.7.1.1][1] | Verify the assigned phase is closed with its verification note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->
