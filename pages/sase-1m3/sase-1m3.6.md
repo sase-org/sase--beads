@@ -29,4 +29,10 @@ core-attribution: build the read-only agent directory from agents-sidecar pages 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@7a46109`](https://github.com/sase-org/sase-core/commit/7a46109f2abf81d5251334088331f1ef96c917ae) | feat(project-stats): join the agent directory and count committed plans | [sase-1m3.6](sase-1m3.6.md) | 2026-10-17 08:43:14 EDT |
