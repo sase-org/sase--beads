@@ -19,7 +19,7 @@ watcher-repair: make tools/release_watch tell a stale release-PR head from a rea
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

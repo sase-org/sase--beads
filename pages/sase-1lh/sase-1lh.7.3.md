@@ -19,7 +19,7 @@ docs-split-anchor: stop tools/docs_split from rewriting a dropped nested section
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

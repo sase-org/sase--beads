@@ -33,7 +33,7 @@ CI recapture budget is 600s after a ~30.5 min first pass (job timeout 45m). HEAD
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.7.4](sase-1lh.7.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -46,3 +46,15 @@ CI recapture budget is 600s after a ~30.5 min first pass (job timeout 45m). HEAD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2eb0ca7`](https://github.com/sase-org/sase/commit/2eb0ca791a466bcfa8932179805a1390aabab0f3) | fix(visual): keep check-mode recapture honest and on a time budget | [sase-1lh.7.2](sase-1lh.7.2.md) | 2026-10-16 18:47:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.2.md
+
+<!-- sase:referenced-by:end -->
