@@ -271,7 +271,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md) | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.land.md) | [sase-1le.20.1](sase-1le.20.1.md) | 1 |
+| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.land.md) | [sase-1le.20.1](sase-1le.20.1.md) | 2 |
 | [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md) | [sase-1le.5](sase-1le.5.md) | 1 |
@@ -326,6 +326,7 @@ flowchart TD
 | sase | [`f3087c8`](https://github.com/sase-org/sase/commit/f3087c86acbbd2e445a7a0054e3d596aafeeeb95) | docs: refresh instruction shims and pin duplicate sase-service heading | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:42:34 EDT |
 | sase | [`b9ac81c`](https://github.com/sase-org/sase/commit/b9ac81c903ef23a483e8b933718cff7aaacf3117) | feat(docs): finalize documentation hubs and pointer sweep | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 2026-10-16 20:46:19 EDT |
 | sase | [`08d9b66`](https://github.com/sase-org/sase/commit/08d9b66154cff1810d95a013e7567c6285c214b4) | fix(docs): match split anchors to MkDocs output | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:26:53 EDT |
+| sase--plans | [`sase--plans@355f483`](https://github.com/sase-org/sase--plans/commit/355f48385d2236ca1cf2eef4fc05af96588b5f60) | docs(plans): mark docs decomposition landing done | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:30:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -77,13 +77,14 @@ Applied the approved carry-over patch and repaired docs_moves/docs_split heading
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.land.md) | [sase-1le.20.1](sase-1le.20.1.md) | 1 |
+| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.land.md) | [sase-1le.20.1](sase-1le.20.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`08d9b66`](https://github.com/sase-org/sase/commit/08d9b66154cff1810d95a013e7567c6285c214b4) | fix(docs): match split anchors to MkDocs output | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:26:53 EDT |
+| sase--plans | [`sase--plans@355f483`](https://github.com/sase-org/sase--plans/commit/355f48385d2236ca1cf2eef4fc05af96588b5f60) | docs(plans): mark docs decomposition landing done | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:30:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
