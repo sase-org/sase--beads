@@ -19,7 +19,7 @@ recapture-contract: repair internal-error masking, targeted-run false failures, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.2](sase-1lh.7.5.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.7.5.2](sase-1lh.7.5.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -32,3 +32,15 @@ recapture-contract: repair internal-error masking, targeted-run false failures, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`499c825`](https://github.com/sase-org/sase/commit/499c825cb931953efb2af6c49d7d504e04e8c0bc) | fix(visual): enforce strict check-mode recovery and retry deadline | [sase-1lh.7.5.1](sase-1lh.7.5.1.md) | 2026-10-16 21:33:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.1--1][1] | Need phase scope, design, notes, and DECISIONS | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.1.md
+
+<!-- sase:referenced-by:end -->

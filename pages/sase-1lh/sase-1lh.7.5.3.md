@@ -13,7 +13,7 @@ release-watch: make no file edits, verify the committed repair baseline, preflig
 
 ## Dependencies
 
-- **Depends on:** [sase-1lh.7.5.2](sase-1lh.7.5.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1lh.7.5.2](sase-1lh.7.5.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

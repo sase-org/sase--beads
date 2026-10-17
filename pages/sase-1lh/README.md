@@ -108,7 +108,7 @@ flowchart TD
     n11["sase-1lh.7.4: Watch v0.18.0 to PyPI without editing files [closed]"]
     n12["sase-1lh.7.5: Finish recapture correctness and release gate integration, then confirm sase v0.18.0 [in_progress]"]
     n13["sase-1lh.7.5.1: Finish strict check-mode recovery and enforce the retry deadline [closed]"]
-    n14["sase-1lh.7.5.2: Reconcile current release-blocking tests, docs anchors, and four visual diffs [in_progress]"]
+    n14["sase-1lh.7.5.2: Reconcile current release-blocking tests, docs anchors, and four visual diffs [closed]"]
     n15["sase-1lh.7.5.3: Watch v0.18.0 to PyPI after the repair commits land [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.3/README.md) | [sase-1lh.7.3](sase-1lh.7.3.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.4.md) | [sase-1lh.7.4](sase-1lh.7.4.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.1.md) | [sase-1lh.7.5.1](sase-1lh.7.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md) | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md) | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.3/README.md) | [sase-1lh.7.5.3](sase-1lh.7.5.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.land/README.md) | [sase-1lh.7.5](sase-1lh.7.5.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.land.md) | [sase-1lh.7](sase-1lh.7.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | sase | [`ec7e86e`](https://github.com/sase-org/sase/commit/ec7e86e6907be34bb44252694ba5b0a147ffec6c) | fix(release-watch): refresh stale release-PR heads instead of declaring CORE\_FLOOR\_BLOCKED | [sase-1lh.7.1](sase-1lh.7.1.md) | 2026-10-16 17:07:54 EDT |
 | sase | [`2eb0ca7`](https://github.com/sase-org/sase/commit/2eb0ca791a466bcfa8932179805a1390aabab0f3) | fix(visual): keep check-mode recapture honest and on a time budget | [sase-1lh.7.2](sase-1lh.7.2.md) | 2026-10-16 18:47:58 EDT |
 | sase | [`499c825`](https://github.com/sase-org/sase/commit/499c825cb931953efb2af6c49d7d504e04e8c0bc) | fix(visual): enforce strict check-mode recovery and retry deadline | [sase-1lh.7.5.1](sase-1lh.7.5.1.md) | 2026-10-16 21:33:07 EDT |
+| sase | [`f564f0f`](https://github.com/sase-org/sase/commit/f564f0f9962384f9aa05e8d2b1be02e54e413698) | test(release): reconcile launch, docs, and visual regressions | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 2026-10-16 22:07:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
