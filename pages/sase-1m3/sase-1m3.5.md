@@ -29,10 +29,23 @@ core-runs: fill the Runs facet and Patch rows by calling `agent_stats::query_run
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7dc6f6c`](https://github.com/sase-org/sase-core/commit/7dc6f6ce25d5f76f4f9c07e7be427884a70c5784) | feat(project-stats): fill the Runs facet from agent\_stats | [sase-1m3.5](sase-1m3.5.md) | 2026-10-17 04:57:04 EDT |
+| sase-core | [`sase-core@da22713`](https://github.com/sase-org/sase-core/commit/da22713e71a91545c0e48eb2e16797c7165d115b) | fix: restore a green sase-core check | [sase-1m3.5](sase-1m3.5.md) | 2026-10-17 05:05:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md
+
+<!-- sase:referenced-by:end -->
