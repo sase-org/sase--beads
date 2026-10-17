@@ -40,7 +40,9 @@ launch-row: add a public launch-bundle locator, point the Memory lane's as-launc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lj.4][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1lj.5][2] | Check launch-row outcome and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md
 
 <!-- sase:referenced-by:end -->

@@ -40,7 +40,9 @@ readable-projection: add a short project-only header to the generated AGENTS.md,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lj.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1lj.5][2] | Check projection phase results | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md
 
 <!-- sase:referenced-by:end -->

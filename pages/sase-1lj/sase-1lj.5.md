@@ -35,3 +35,15 @@ record: write the readable-agents-md decision record and mark instructions-per-i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f6ff20e`](https://github.com/sase-org/sase/commit/f6ff20ef2a68185187e3fcceab2b95529054a9d6) | docs(memory): record E4 readable-AGENTS.md decision, glossary, and acceptance | [sase-1lj.5](sase-1lj.5.md) | 2026-10-16 19:56:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lj.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lj.5/README.md
+
+<!-- sase:referenced-by:end -->
