@@ -29,14 +29,13 @@ provenance: stamp `SASE_MODEL=<provider>/<model>` on agent commits and `proposed
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 2 |
+| [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@305b7b8`](https://github.com/sase-org/sase-core/commit/305b7b808ae17e325cc1aa45299514f6c265202e) | feat(plan): validate proposed\_with provenance | [sase-1m3.1](sase-1m3.1.md) | 2026-10-16 23:08:30 EDT |
-| sase | [`7545e85`](https://github.com/sase-org/sase/commit/7545e85abf213f9db7ca60a517ac82c8ab26383e) | feat(provenance): stamp model attribution and fix commit metadata | [sase-1m3.1](sase-1m3.1.md) | 2026-10-16 23:13:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

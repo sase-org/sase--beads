@@ -13,7 +13,7 @@ history-cache: implement repository identity and ref validation, full-DAG footer
 
 ## Dependencies
 
-- **Depends on:** [sase-1m3.4.1.1](sase-1m3.4.1.1.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.4.1.1](sase-1m3.4.1.1.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.4.1.2](sase-1m3.4.1.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.4.1.4](sase-1m3.4.1.4.md) ◐ · ⧖ 2026-10-16
 
