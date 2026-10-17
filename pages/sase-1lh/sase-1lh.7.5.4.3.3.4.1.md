@@ -17,7 +17,7 @@ core: repair the two libc mode_t boundary mismatches blocking core 0.42.0, prese
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -30,3 +30,15 @@ core: repair the two libc mode_t boundary mismatches blocking core 0.42.0, prese
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@dd56b94`](https://github.com/sase-org/sase-core/commit/dd56b94a8ad9fdca541d16cb5b6f85a2b45e55af) | fix(mobile-pairing): pass native mode\_t to mkdirat and fchmod | [sase-1lh.7.5.4.3.3.4.1](sase-1lh.7.5.4.3.3.4.1.md) | 2026-10-17 17:33:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.3.4.1][1] | Need remaining bead notes, design, and DECISIONS | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.1/README.md
+
+<!-- sase:referenced-by:end -->
