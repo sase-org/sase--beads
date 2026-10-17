@@ -183,7 +183,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.5.4.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.1/README.md) | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.2.md) | [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.1/README.md) | [sase-1lh.7.5.4.3.3.1](sase-1lh.7.5.4.3.3.1.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.4.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.2.md) | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.2.md) | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.3/README.md) | [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.land/README.md) | [sase-1lh.7.5.4.3.3](sase-1lh.7.5.4.3.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.land/README.md) | [sase-1lh.7.5.4.3](sase-1lh.7.5.4.3.md) | 0 |
@@ -209,6 +209,7 @@ flowchart TD
 | sase | [`69e0cd7`](https://github.com/sase-org/sase/commit/69e0cd75400465a1433717bad5e8e623379814c8) | fix(tui): bound visual subprocess cleanup | [sase-1lh.7.5.4.1](sase-1lh.7.5.4.1.md) | 2026-10-16 23:38:46 EDT |
 | sase | [`315092a`](https://github.com/sase-org/sase/commit/315092afebe542524e37d6b69c27030b77e02c2d) | fix(release): restore a parseable 0.18.0 nested declaration | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 2026-10-17 01:18:59 EDT |
 | sase | [`f2a7b80`](https://github.com/sase-org/sase/commit/f2a7b802f9727ffc62b871ae44973c92fa844df6) | fix(tests): derive healer fixture timestamps from test clock | [sase-1lh.7.5.4.3.3.1](sase-1lh.7.5.4.3.3.1.md) | 2026-10-17 15:13:31 EDT |
+| sase | [`60718e5`](https://github.com/sase-org/sase/commit/60718e5b1b77fcd89cdad2be8b016303a11f96d9) | fix(tests): wait for tutorial agents beyond RUNNING | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 2026-10-17 15:31:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

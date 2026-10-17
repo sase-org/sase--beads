@@ -23,6 +23,8 @@ ci-reds: root-cause and fix the intermittent "no agents appeared after sase run"
 
 [2026-10-17T18:48:29Z · sase-1lh.7.5.4.3.3.2] Verified: tutorial harness waits for STARTING/DONE and on-disk agent_meta, dumps sase run plus HOME state on timeout. tests/test_tutorials.py unit tests plus 6 local fakey e2e passes. Date-bomb owned by clock/sase-1ma. Statistics flake recorded as sase-1a2 (Full CI 39046170656). epic-symbols empty.
 
+[2026-10-17T19:20:49Z · sase-1lh.7.5.4.3.3.2--1] PROPOSED FOLLOW-UP: sase-1em — tests/test_agent_name_registry_rebuild_pending.py::test_registry_rebuild_keeps_live_identity_pending_claim failed once in just check ToolRun 0f42890b76eb8f5b313631becee5d80b (full parallel lane after core-identity-changed escalation; rebuild.call_count 1 vs 0). Isolation rerun passed (1 passed in 3.68s). Diff is tests/test_tutorials.py only; same load-only signature as sase-1em.
+
 ## Dependencies
 
 - **Blocks:** [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) ◐ · ⧖ 2026-10-17
@@ -31,4 +33,10 @@ ci-reds: root-cause and fix the intermittent "no agents appeared after sase run"
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1lh.7.5.4.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.2.md) | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.2.md) | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`60718e5`](https://github.com/sase-org/sase/commit/60718e5b1b77fcd89cdad2be8b016303a11f96d9) | fix(tests): wait for tutorial agents beyond RUNNING | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 2026-10-17 15:31:32 EDT |

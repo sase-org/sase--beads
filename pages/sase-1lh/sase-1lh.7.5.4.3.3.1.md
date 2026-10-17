@@ -32,3 +32,15 @@ clock: stop the hung previous watch turn and its parked lander, derive the sweep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f2a7b80`](https://github.com/sase-org/sase/commit/f2a7b802f9727ffc62b871ae44973c92fa844df6) | fix(tests): derive healer fixture timestamps from test clock | [sase-1lh.7.5.4.3.3.1](sase-1lh.7.5.4.3.3.1.md) | 2026-10-17 15:13:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.3.1][1] | Check prior phase notes and current work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.1/README.md
+
+<!-- sase:referenced-by:end -->
