@@ -41,6 +41,8 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 
 [2026-10-16T15:46:27Z · sase-1le.20.1.13] DISCOVERED ISSUE: The just check docs-build conditional in Justfile uses docs_scope="$$(tools/docs_changed)" and tests "$$docs_scope". Unlike Make, Just passes both dollar signs to sh: $$ expands to the PID, the selector is not invoked, and the condition always skips. At HEAD 0e667d98c2 with 98 staged repair paths, tools/docs_changed prints run, but ToolRun 8b34b956b2d88ceb3905fccb684a9bb3 logged "Skipping docs build; no docs inputs changed." just --dry-run check preserves the doubled dollars, and an isolated sh conditional reproduces skip. Explicit just docs-check passed strict build and 1,863 URL contracts for this repair. Use ordinary shell dollar syntax and exercise both run/skip branches. Phase sase-1le.2 owns the gate wiring; no duplicate task was found.
 
+[2026-10-16T23:21:42Z · sase-1le.20.1.21] SUCCESS METRICS (2026-10-16): Nav: Guides max group 5/30; Reference 24/30; all other tabs max 8/10. Guide text 7,804 words (start 917, guides 4,882, concepts 2,005; ~30K target / 60K cap). Guide history, bead-ID, phase-label, and src-path hits: 0. Hand-maintained registry tables: 0. Broken sase.sh URLs: 0 / 3,140 checked. render_moves/docs-map checks, check_docs, strict docs-check, and reference-hygiene tests pass. just check non-test stages all passed; full lane: 56,196 passed, 8 failed, 17 skipped; failure follow-ups recorded on phase with existing bead IDs. PDF exporter rendered pages but strict mode failed with 4 Chromium ERR_FILE_NOT_FOUND errors; no PDF size produced. check_docs reports warning-only overages: contribute/development.md 12,288, perf-runbook.md 10,950, rust-backend.md 11,268 words (8,000 warning cap).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -98,7 +100,7 @@ flowchart TD
     n25["sase-1le.20.1.19: History and duplicate sweep for automation pages [closed]"]
     n26["sase-1le.20.1.2: Make docs_split, render_moves, and check_docs safe for monolith splits [closed]"]
     n27["sase-1le.20.1.20: History and duplicate sweep for agents, VCS, integrations, and single pages [closed]"]
-    n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [in_progress]"]
+    n28["sase-1le.20.1.21: Final hubs, empty allowlist, repo-wide pointer sweep, and success metrics [closed]"]
     n29["sase-1le.20.1.3: Whole-page move tool and the upgrading history home [closed]"]
     n30["sase-1le.20.1.4: Move the Agents tab sections of ace.md to reference/tui/ [closed]"]
     n31["sase-1le.20.1.5: Move the prompt, snippet, and Launch Control sections of ace.md [closed]"]
@@ -252,7 +254,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.19](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.19.md) | [sase-1le.20.1.19](sase-1le.20.1.19.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.2/README.md) | [sase-1le.20.1.2](sase-1le.20.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.20](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.20/README.md) | [sase-1le.20.1.20](sase-1le.20.1.20.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.21](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md) | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.3/README.md) | [sase-1le.20.1.3](sase-1le.20.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.4/README.md) | [sase-1le.20.1.4](sase-1le.20.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.5.md) | [sase-1le.20.1.5](sase-1le.20.1.5.md) | 1 |
@@ -313,6 +315,7 @@ flowchart TD
 | sase | [`367562b`](https://github.com/sase-org/sase/commit/367562ba5251a66cd36562cd7996ced23b235f87) | feat(cli): generate root flag reference and split CLI docs | [sase-1le.20.1.15](sase-1le.20.1.15.md) | 2026-10-16 16:56:16 EDT |
 | sase | [`a00e034`](https://github.com/sase-org/sase/commit/a00e034d65cb22a9bedab32f15d7c8679a0de7c8) | docs(tui): sweep history into upgrading/tui and link generated pages | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:35:56 EDT |
 | sase | [`f3087c8`](https://github.com/sase-org/sase/commit/f3087c86acbbd2e445a7a0054e3d596aafeeeb95) | docs: refresh instruction shims and pin duplicate sase-service heading | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:42:34 EDT |
+| sase | [`b9ac81c`](https://github.com/sase-org/sase/commit/b9ac81c903ef23a483e8b933718cff7aaacf3117) | feat(docs): finalize documentation hubs and pointer sweep | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 2026-10-16 20:46:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

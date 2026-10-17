@@ -26,7 +26,7 @@ automation-edit: run the edit checklist on reference/automation/.
 ## Dependencies
 
 - **Depends on:** [sase-1le.20.1.11](sase-1le.20.1.11.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

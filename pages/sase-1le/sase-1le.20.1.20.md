@@ -23,7 +23,7 @@ agents-integrations-edit: run the edit checklist on reference/agents/, reference
 
 - **Depends on:** [sase-1le.20.1.13](sase-1le.20.1.13.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1le.20.1.14](sase-1le.20.1.14.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1le.20.1.21](sase-1le.20.1.21.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
