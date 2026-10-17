@@ -13,13 +13,16 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| implemented-by | [plan:202610/finish_deadline_release_target.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:5bc92da2e11b343f55822d95 | attached via sase artifact create --bead |
 | related | file:explicit:6009028d74dfa6f77e159199 | attached via sase artifact create --bead |
 | related | file:explicit:6d3a807ff2e9a66d5bd8e3cb | attached via sase artifact create --bead |
 | related | file:explicit:7a86bb9a4fdfa3b2768be6c1 | attached via sase artifact create --bead |
 | related | file:explicit:a70448d0ed695d81976faa24 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_deadline_release_target.md
 
 <!-- sase:links:end -->
 
@@ -58,7 +61,9 @@ NEXT: two-phase remaining-work epic sase_plan_restore_release_declaration.md (pa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1lh.7.5.4.1][1] | Need parent epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1lh.7.5.4.3.1][2] | Need parent landing notes, artifacts, and DECISIONS | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.1/README.md
 
 <!-- sase:referenced-by:end -->

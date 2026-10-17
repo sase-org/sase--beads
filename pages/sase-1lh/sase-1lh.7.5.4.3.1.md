@@ -45,7 +45,7 @@ END_NESTED_COMMIT
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -58,3 +58,15 @@ END_NESTED_COMMIT
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`315092a`](https://github.com/sase-org/sase/commit/315092afebe542524e37d6b69c27030b77e02c2d) | fix(release): restore a parseable 0.18.0 nested declaration | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 2026-10-17 01:18:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.1/README.md
+
+<!-- sase:referenced-by:end -->

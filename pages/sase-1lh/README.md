@@ -115,7 +115,11 @@ flowchart TD
     n18["sase-1lh.7.5.4.2: Restore the generated release PR target and verify publication [closed]"]
     n19["sase-1lh.7.5.4.3: Restore the parsed release declaration and reconcile current release gates [in_progress]"]
     n20["sase-1lh.7.5.4.3.1: Reconcile concurrent gate changes and issue a parseable release declaration [closed]"]
-    n21["sase-1lh.7.5.4.3.2: Verify the committed declaration and observe guarded publication [in_progress]"]
+    n21["sase-1lh.7.5.4.3.2: Verify the committed declaration and observe guarded publication [closed]"]
+    n22["sase-1lh.7.5.4.3.3: Green master's release gates and ship sase v0.18.0 through a watch that always releases its lander [in_progress]"]
+    n23["sase-1lh.7.5.4.3.3.1: Fix the aged-out auto-restart fixture stamps (sase-1ma) [closed]"]
+    n24["sase-1lh.7.5.4.3.3.2: Fix the intermittent tutorial gate and any other current gate red [closed]"]
+    n25["sase-1lh.7.5.4.3.3.3: Watch v0.18.0 to PyPI with a self-closing, follow-up-free monitor [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -137,6 +141,10 @@ flowchart TD
     n16 --> n19
     n19 --> n20
     n19 --> n21
+    n19 --> n22
+    n22 --> n23
+    n22 --> n24
+    n22 --> n25
     n1 -.-> n6
     n2 -.-> n6
     n3 -.-> n6
@@ -149,6 +157,8 @@ flowchart TD
     n14 -.-> n15
     n17 -.-> n18
     n20 -.-> n21
+    n23 -.-> n25
+    n24 -.-> n25
 ```
 
 ## Agents
@@ -171,7 +181,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.1/README.md) | [sase-1lh.7.5.4.1](sase-1lh.7.5.4.1.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.2.md) | [sase-1lh.7.5.4.2](sase-1lh.7.5.4.2.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.1/README.md) | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.4.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.2/README.md) | [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.2.md) | [sase-1lh.7.5.4.3.2](sase-1lh.7.5.4.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.1/README.md) | [sase-1lh.7.5.4.3.3.1](sase-1lh.7.5.4.3.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.2.md) | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.3/README.md) | [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.land/README.md) | [sase-1lh.7.5.4.3.3](sase-1lh.7.5.4.3.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.land/README.md) | [sase-1lh.7.5.4.3](sase-1lh.7.5.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.land.md) | [sase-1lh.7.5.4](sase-1lh.7.5.4.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.land.md) | [sase-1lh.7.5](sase-1lh.7.5.md) | 0 |
@@ -194,6 +208,7 @@ flowchart TD
 | sase | [`f564f0f`](https://github.com/sase-org/sase/commit/f564f0f9962384f9aa05e8d2b1be02e54e413698) | test(release): reconcile launch, docs, and visual regressions | [sase-1lh.7.5.2](sase-1lh.7.5.2.md) | 2026-10-16 22:07:49 EDT |
 | sase | [`69e0cd7`](https://github.com/sase-org/sase/commit/69e0cd75400465a1433717bad5e8e623379814c8) | fix(tui): bound visual subprocess cleanup | [sase-1lh.7.5.4.1](sase-1lh.7.5.4.1.md) | 2026-10-16 23:38:46 EDT |
 | sase | [`315092a`](https://github.com/sase-org/sase/commit/315092afebe542524e37d6b69c27030b77e02c2d) | fix(release): restore a parseable 0.18.0 nested declaration | [sase-1lh.7.5.4.3.1](sase-1lh.7.5.4.3.1.md) | 2026-10-17 01:18:59 EDT |
+| sase | [`f2a7b80`](https://github.com/sase-org/sase/commit/f2a7b802f9727ffc62b871ae44973c92fa844df6) | fix(tests): derive healer fixture timestamps from test clock | [sase-1lh.7.5.4.3.3.1](sase-1lh.7.5.4.3.3.1.md) | 2026-10-17 15:13:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
