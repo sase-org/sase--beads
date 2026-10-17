@@ -32,3 +32,15 @@ query-binding: implement footer attribution, deduplicated project and portfolio 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@be2bfbe`](https://github.com/sase-org/sase-core/commit/be2bfbee126354e387e093bbbdb37c9b2ad35114) | feat(project-stats): aggregate Output and expose project\_stats\_query | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 2026-10-17 01:38:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.4.1.4][1] | Need full phase notes, DECISIONS, and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

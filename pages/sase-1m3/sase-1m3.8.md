@@ -14,8 +14,8 @@ loader: add `sase.stats.project.load_project_stats`, which resolves projects, ti
 ## Dependencies
 
 - **Depends on:** [sase-1m3.2](sase-1m3.2.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1m3.3](sase-1m3.3.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [sase-1m3.4](sase-1m3.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.3](sase-1m3.3.md) ✓ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.4](sase-1m3.4.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.9](sase-1m3.9.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

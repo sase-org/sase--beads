@@ -7,6 +7,20 @@
 **Created:** 2026-10-16 22:16:01 EDT · **Closed:** 2026-10-16 23:01:57 EDT
 **Plan:** [202610/project\_stats\_core\_engine.md](https://github.com/sase-org/sase--plans/blob/main/202610/project_stats_core_engine.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1mb][1] | Phase note 1 explicitly proposed the legacy batch migration; landing independently reproduced the pre-existing deadlock |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1mb/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 git-runner: scrub repository-routing environment variables in file_history::runner and add concurrent stdin and stdout handling with timeout, output-cap, and cleanup tests.

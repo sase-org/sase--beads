@@ -44,9 +44,9 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.11](sase-1m3.11.md) | Statistics → Projects tab migration | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.12](sase-1m3.12.md) | Cross-surface parity, budgets, and real-data verification | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 | [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
-| [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
-| [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
+| [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ✓ closed | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
+| [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 0 |
 | [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -62,18 +62,24 @@ flowchart TD
     n3["sase-1m3.11: Statistics → Projects tab migration [in_progress]"]
     n4["sase-1m3.12: Cross-surface parity, budgets, and real-data verification [in_progress]"]
     n5["sase-1m3.2: Per-project linked-repo resolution and declared-by provenance [closed]"]
-    n6["sase-1m3.3: Statistics registry, neutral render primitives, palette, and range grammar [in_progress]"]
-    n7["sase-1m3.4: sase-core project_stats wire, git history walk, cache, and footer attribution [in_progress]"]
-    n8["sase-1m3.4.1: Project statistics core engine for sase-1m3.4 [in_progress]"]
+    n6["sase-1m3.3: Statistics registry, neutral render primitives, palette, and range grammar [closed]"]
+    n7["sase-1m3.4: sase-core project_stats wire, git history walk, cache, and footer attribution [closed]"]
+    n8["sase-1m3.4.1: Project statistics core engine for sase-1m3.4 [closed]"]
     n9["sase-1m3.4.1.1: Complete wire types and facet extension points [closed]"]
     n10["sase-1m3.4.1.2: Harden shared Git execution and add bounded batch input [closed]"]
     n11["sase-1m3.4.1.3: Resolve repositories and cache complete commit history [closed]"]
     n12["sase-1m3.4.1.4: Aggregate Output and lifetime statistics and expose the binding [closed]"]
-    n13["sase-1m3.5: Runs facet over the existing agent_stats fold [in_progress]"]
+    n13["sase-1m3.5: Runs facet over the existing agent_stats fold [closed]"]
     n14["sase-1m3.6: Agent directory join and the committed-plans facet [in_progress]"]
     n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [in_progress]"]
-    n16["sase-1m3.8: Python project-stats loader, facade, and view model [in_progress]"]
-    n17["sase-1m3.9: Shared Rich and Markdown section renderers [in_progress]"]
+    n16["sase-1m3.7.1: Committed code snapshots and records for project statistics [in_progress]"]
+    n17["sase-1m3.7.1.1: Role policy, nonblank counter, and measurement contracts [in_progress]"]
+    n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [in_progress]"]
+    n19["sase-1m3.7.1.3: Metadata-only records summaries [in_progress]"]
+    n20["sase-1m3.7.1.4: Code facet dispatch, coverage, and deduplicated aggregates [in_progress]"]
+    n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [in_progress]"]
+    n22["sase-1m3.8: Python project-stats loader, facade, and view model [in_progress]"]
+    n23["sase-1m3.9: Shared Rich and Markdown section renderers [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -89,17 +95,23 @@ flowchart TD
     n0 --> n13
     n0 --> n14
     n0 --> n15
-    n0 --> n16
-    n0 --> n17
+    n15 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
+    n16 --> n20
+    n16 --> n21
+    n0 --> n22
+    n0 --> n23
     n1 -.-> n4
     n2 -.-> n4
     n3 -.-> n4
-    n5 -.-> n16
-    n6 -.-> n16
+    n5 -.-> n22
+    n6 -.-> n22
     n7 -.-> n13
     n7 -.-> n14
     n7 -.-> n15
-    n7 -.-> n16
+    n7 -.-> n22
     n9 -.-> n11
     n10 -.-> n11
     n11 -.-> n12
@@ -109,9 +121,14 @@ flowchart TD
     n14 -.-> n3
     n15 -.-> n2
     n15 -.-> n3
-    n16 -.-> n17
-    n17 -.-> n2
-    n17 -.-> n3
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n20
+    n19 -.-> n20
+    n20 -.-> n21
+    n22 -.-> n23
+    n23 -.-> n2
+    n23 -.-> n3
 ```
 
 ## Agents
@@ -129,10 +146,16 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.2/README.md) | [sase-1m3.4.1.2](sase-1m3.4.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.3/README.md) | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.4/README.md) | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.4.1.land/README.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.1.land.md) | [sase-1m3.4.1](sase-1m3.4.1.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.5/README.md) | [sase-1m3.5](sase-1m3.5.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md) | [sase-1m3.6](sase-1m3.6.md) | 0 |
-| [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7/README.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md) | [sase-1m3.7.1.1](sase-1m3.7.1.1.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.2/README.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.5/README.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.land/README.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.8/README.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.9/README.md) | [sase-1m3.9](sase-1m3.9.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.land/README.md) | [sase-1m3](README.md) | 0 |
@@ -148,6 +171,7 @@ flowchart TD
 | sase-core | [`sase-core@b0cd62b`](https://github.com/sase-org/sase-core/commit/b0cd62b931d9d637a3fa9ede1e7d5b2cf9cf02eb) | feat(project-stats): add wire contracts and facet seams | [sase-1m3.4.1.1](sase-1m3.4.1.1.md) | 2026-10-16 23:32:49 EDT |
 | sase-core | [`sase-core@855ed4c`](https://github.com/sase-org/sase-core/commit/855ed4c3788f6564c9a00a8838ae005aed882bcc) | feat(project-stats): cache complete repository history | [sase-1m3.4.1.3](sase-1m3.4.1.3.md) | 2026-10-17 00:04:23 EDT |
 | sase-core | [`sase-core@be2bfbe`](https://github.com/sase-org/sase-core/commit/be2bfbee126354e387e093bbbdb37c9b2ad35114) | feat(project-stats): aggregate Output and expose project\_stats\_query | [sase-1m3.4.1.4](sase-1m3.4.1.4.md) | 2026-10-17 01:38:02 EDT |
+| sase-core | [`sase-core@8df5efd`](https://github.com/sase-org/sase-core/commit/8df5efda95b48fdb7e23d9ca3c66fc8a92118235) | fix(project-stats)!: distinguish unavailable counts from measured zeros | [sase-1m3.4.1](sase-1m3.4.1.md) | 2026-10-17 03:26:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
