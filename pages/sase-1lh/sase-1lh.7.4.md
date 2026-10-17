@@ -80,3 +80,15 @@ Evidence:
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1lh.7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.4.md) | [sase-1lh.7.4](sase-1lh.7.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.1w.cld][1] | Understand why v0.18.0 release is still blocked, as evidence for merge-discipline research | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.1w.cld/README.md
+
+<!-- sase:referenced-by:end -->

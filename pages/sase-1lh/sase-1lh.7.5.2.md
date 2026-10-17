@@ -22,7 +22,7 @@ release-integration: integrate the launch submission timestamp and logical-plan 
 ## Dependencies
 
 - **Depends on:** [sase-1lh.7.5.1](sase-1lh.7.5.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1lh.7.5.3](sase-1lh.7.5.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1lh.7.5.3](sase-1lh.7.5.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -42,8 +42,10 @@ release-integration: integrate the launch submission timestamp and logical-plan 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:toobig-82.test_agent_display_clan_hints.0][1] | Need phase scope before recording extra_env launch-approval evidence on the active epic | 1 |
+| read-by | [agent:sase-1lh.7.5.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:toobig-82.test_agent_display_clan_hints.0][2] | Need phase scope before recording extra_env launch-approval evidence on the active epic | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-82.test_agent_display_clan_hints.0/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-82.test_agent_display_clan_hints.0/README.md
 
 <!-- sase:referenced-by:end -->
