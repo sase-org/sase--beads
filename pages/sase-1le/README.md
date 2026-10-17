@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1le
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4l.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.4l.linker.w0.md) · **Assignee:** `sase-1le.land`
-**Created:** 2026-10-15 18:11:08 EDT
+**Created:** 2026-10-15 18:11:08 EDT · **Closed:** 2026-10-17 00:46:19 EDT
 **Plan:** [202610/sase\_sh\_docs\_redesign.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_sh_docs_redesign.md)
 
 <!-- sase:links:start -->
@@ -52,6 +52,32 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 - Validation: docs-lint has no Reference overruns or errors (three contribute overages remain warnings); docs-pdf-check and docs-deploy-artifact-check pass.
 - Required sase tool run check returned no_new_failures, exit 1 only because the known project-label audit failure remains tracked by sase-1lx (witness 08b068d595c66dc15469c69de3b1f275).
 
+[2026-10-17T03:00:48Z · sase-1le.land] LANDER FOLLOW-UP TRIAGE (sase-1le.land, master 3e950ebdbd). Covers every PROPOSED FOLLOW-UP on phases .1-.19, epic notes #1-#7, and integration. The decompose sub-epic's own proposals were triaged by sase-1le.20.1.land (its note #8).
+
+EPIC-CAUSED, still open, so it stays epic work (lander tale):
+- Epic #5 (.2 gate wiring): Justfile:851-852 still uses $$(tools/docs_changed) and "$$docs_scope". Just passes $$ to sh as the PID, so just check always prints "Skipping docs build". The links phase exit ("a deliberately broken anchor fails just check") is unmet.
+- .19#1, plus the renderer/Prettier drift proposals .11#1 .12#1 .13#1 .14#1 .15#1 .16#1 .17#2 .18#1 and epic #1/#4: 8531a39a0a cleared the drift by piping docs/_includes/abbreviations.md through Prettier, which rewrites *[term]: to _[term]: and joins the lines. In the built site at 3e950ebdbd, site/index.html, start/first-run, and concepts/index have 0 <abbr> elements, and every page ends in a visible paragraph listing the glossary terms.
+- .12#2: tools/check_docs Guide hygiene scans Markdown link destinations, so an image file named sase-concepts-model.svg is flagged as a bead ID. The phase only renamed the image as a workaround.
+- Integration: open task sase-1lm (render_cli usage text differs between Python 3.12 and 3.13+, so docs/reference/cli flips and docs-gen-check fails on the other interpreter) is caused by sase-1le.16. The tale adopts it and closes it.
+
+DECLINED or already resolved:
+- .3#2: the doctor -j ERROR came from this checkout's #research/audio plugin macro, which a clean install lacks. install-smoke.yml already runs sase doctor -j on a clean runner. Today the smoke is red at the install step by design (PyPI max 0.17.1).
+- .5#1: resolved by pdf_scope = curate; the PDF is 56 pages and test_pdf_config_keeps_only_the_root_index_page passes.
+- .5#2: mkdocs.yml is not Prettier-gated (fmt-md-check covers **/*.md only), and reformatting the hot nav file would only add merge churn.
+- .6#1: that test no longer exists.
+- .7#1, .9#1, epic #2: both PDF/RSS tests pass. The TUI import budget passes and is tracked by sase-1ic/sase-13p.
+- .9#2: docs-pdf-check passes, and Deploy Docs is green in about 2 minutes.
+- .10#2, epic #3: all fixed. fmt-docs-check is ok, typecheck_extensionless_tools is clean on 86 files, the terminology tests pass, and no getting_started links remain.
+- .13#2 .14#2 .17#3 .19#2: fixed by da699e0236.
+- .10#3: optional plan item. Tutorial 1's TUI step has no headless assertion, and demos/ already has TUI tapes.
+
+TASK OUTCOMES:
+- .2#1: +1 on sase-1em.
+- .3#1: new bug sase-1m4 (blog posts carry a bare install command that resolves to sase 0.1.0).
+- .17#1: new feature sase-1m6 (670 undescribed
+
+… and 3467 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -81,7 +107,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 
 ```mermaid
 flowchart TD
-    n0["sase-1le: sase.sh: a small Diátaxis-typed Guide in front of a generated Reference [in_progress]"]
+    n0["sase-1le: sase.sh: a small Diátaxis-typed Guide in front of a generated Reference [closed]"]
     n1["sase-1le.1: Six tabs over the existing pages, site UX features, analytics hook [closed]"]
     n2["sase-1le.10: Executable tutorial tests on fakey [closed]"]
     n3["sase-1le.11: How SASE works plus the agents, work-units, and landing concepts [closed]"]
@@ -279,7 +305,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.7/README.md) | [sase-1le.7](sase-1le.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.8/README.md) | [sase-1le.8](sase-1le.8.md) | 1 |
 | [bbugyi200.athena.sase-1le.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.9/README.md) | [sase-1le.9](sase-1le.9.md) | 1 |
-| [bbugyi200.athena.sase-1le.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.land/README.md) | [sase-1le](README.md) | 0 |
+| [bbugyi200.athena.sase-1le.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.land.md) | [sase-1le](README.md) | 1 |
 
 ## Commits
 
@@ -327,6 +353,7 @@ flowchart TD
 | sase | [`b9ac81c`](https://github.com/sase-org/sase/commit/b9ac81c903ef23a483e8b933718cff7aaacf3117) | feat(docs): finalize documentation hubs and pointer sweep | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 2026-10-16 20:46:19 EDT |
 | sase | [`08d9b66`](https://github.com/sase-org/sase/commit/08d9b66154cff1810d95a013e7567c6285c214b4) | fix(docs): match split anchors to MkDocs output | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:26:53 EDT |
 | sase--plans | [`sase--plans@355f483`](https://github.com/sase-org/sase--plans/commit/355f48385d2236ca1cf2eef4fc05af96588b5f60) | docs(plans): mark docs decomposition landing done | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:30:55 EDT |
+| sase | [`04490ca`](https://github.com/sase-org/sase/commit/04490cabb19b0e4c2eb27e3b29864af58df12936) | fix(docs): land sase-1le check, glossary, hygiene, and CLI usage defects | [sase-1le](README.md) | 2026-10-17 00:48:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
