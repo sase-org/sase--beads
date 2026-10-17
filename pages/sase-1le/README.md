@@ -43,6 +43,15 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 
 [2026-10-16T23:21:42Z · sase-1le.20.1.21] SUCCESS METRICS (2026-10-16): Nav: Guides max group 5/30; Reference 24/30; all other tabs max 8/10. Guide text 7,804 words (start 917, guides 4,882, concepts 2,005; ~30K target / 60K cap). Guide history, bead-ID, phase-label, and src-path hits: 0. Hand-maintained registry tables: 0. Broken sase.sh URLs: 0 / 3,140 checked. render_moves/docs-map checks, check_docs, strict docs-check, and reference-hygiene tests pass. just check non-test stages all passed; full lane: 56,196 passed, 8 failed, 17 skipped; failure follow-ups recorded on phase with existing bead IDs. PDF exporter rendered pages but strict mode failed with 4 Chromium ERR_FILE_NOT_FOUND errors; no PDF size produced. check_docs reports warning-only overages: contribute/development.md 12,288, perf-runbook.md 10,950, rust-backend.md 11,268 words (8,000 warning cap).
 
+[2026-10-17T02:24:57Z · sase-1le.20.1.land] Docs decomposition landing metrics refreshed after final repair:
+- Guide corpus: 917 words across 4 pages at start; 4,882 words across 16 Guides; 2,005 words across 8 Concepts; 7,804 total.
+- Sidebar density unchanged: Guides max group 5/30, Reference 24/30, all other tabs max 8/10.
+- Guide history, bead-ID, phase-label, and src-path hits: 0; hand-maintained registry tables: 0.
+- URL contract: 0 broken of 3,284 checked; legacy-anchor audit: 0 unresolved of 1,714.
+- PDF: 56 pages, 2.0 MiB; docs budgets ceilings are empty.
+- Validation: docs-lint has no Reference overruns or errors (three contribute overages remain warnings); docs-pdf-check and docs-deploy-artifact-check pass.
+- Required sase tool run check returned no_new_failures, exit 1 only because the known project-label audit failure remains tracked by sase-1lx (witness 08b068d595c66dc15469c69de3b1f275).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -59,7 +68,7 @@ A newcomer on sase.sh meets one walked path: a one-screen homepage, two tested t
 | [sase-1le.18](sase-1le.18.md) | Generated TUI keymap, directive, and macro discovery-order references | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.19](sase-1le.19.md) | One-screen homepage, front-door link retargeting, and reader-testing kit | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [sase-1le.2](sase-1le.2.md) | Strict link validation, URL contract test, and docs checks in the gates | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [sase-1le.20](sase-1le.20.md) | Decompose the monoliths and empty the legacy allowlist | ◐ in_progress | xlarge | 2026-10-15 | 1 | 0 |
+| [sase-1le.20](sase-1le.20.md) | Decompose the monoliths and empty the legacy allowlist | ✓ closed | xlarge | 2026-10-15 | 1 | 0 |
 | [sase-1le.3](sase-1le.3.md) | Declare which version the docs describe and smoke the documented install | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.4](sase-1le.4.md) | Execute the handbook PDF scope decision | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [sase-1le.5](sase-1le.5.md) | Documentation contract lint, templates, and the Writing docs page | ✓ closed | medium | 2026-10-15 | 1 | 1 |
@@ -85,8 +94,8 @@ flowchart TD
     n10["sase-1le.18: Generated TUI keymap, directive, and macro discovery-order references [closed]"]
     n11["sase-1le.19: One-screen homepage, front-door link retargeting, and reader-testing kit [closed]"]
     n12["sase-1le.2: Strict link validation, URL contract test, and docs checks in the gates [closed]"]
-    n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [in_progress]"]
-    n14["sase-1le.20.1: Decompose the legacy root docs pages into Reference and Contribute [in_progress]"]
+    n13["sase-1le.20: Decompose the monoliths and empty the legacy allowlist [closed]"]
+    n14["sase-1le.20.1: Decompose the legacy root docs pages into Reference and Contribute [closed]"]
     n15["sase-1le.20.1.1: Restore the green docs gates this epic owns [closed]"]
     n16["sase-1le.20.1.10: Move provider and memory pages into reference/providers/ and reference/memory/ [closed]"]
     n17["sase-1le.20.1.11: Move scheduler, notifications, monitors, tools, mentors, and sudo pages [closed]"]
@@ -262,7 +271,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1le.20.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.7/README.md) | [sase-1le.20.1.7](sase-1le.20.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.8/README.md) | [sase-1le.20.1.8](sase-1le.20.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1le.20.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.9/README.md) | [sase-1le.20.1.9](sase-1le.20.1.9.md) | 1 |
-| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.land/README.md) | [sase-1le.20.1](sase-1le.20.1.md) | 0 |
+| [bbugyi200.athena.sase-1le.20.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.20.1.land.md) | [sase-1le.20.1](sase-1le.20.1.md) | 1 |
 | [bbugyi200.athena.sase-1le.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.3/README.md) | [sase-1le.3](sase-1le.3.md) | 1 |
 | [bbugyi200.athena.sase-1le.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1le.4.md) | [sase-1le.4](sase-1le.4.md) | 1 |
 | [bbugyi200.athena.sase-1le.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.5/README.md) | [sase-1le.5](sase-1le.5.md) | 1 |
@@ -316,6 +325,7 @@ flowchart TD
 | sase | [`a00e034`](https://github.com/sase-org/sase/commit/a00e034d65cb22a9bedab32f15d7c8679a0de7c8) | docs(tui): sweep history into upgrading/tui and link generated pages | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:35:56 EDT |
 | sase | [`f3087c8`](https://github.com/sase-org/sase/commit/f3087c86acbbd2e445a7a0054e3d596aafeeeb95) | docs: refresh instruction shims and pin duplicate sase-service heading | [sase-1le.20.1.16](sase-1le.20.1.16.md) | 2026-10-16 17:42:34 EDT |
 | sase | [`b9ac81c`](https://github.com/sase-org/sase/commit/b9ac81c903ef23a483e8b933718cff7aaacf3117) | feat(docs): finalize documentation hubs and pointer sweep | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 2026-10-16 20:46:19 EDT |
+| sase | [`08d9b66`](https://github.com/sase-org/sase/commit/08d9b66154cff1810d95a013e7567c6285c214b4) | fix(docs): match split anchors to MkDocs output | [sase-1le.20.1](sase-1le.20.1.md) | 2026-10-16 22:26:53 EDT |
 
 <!-- sase:referenced-by:start -->
 

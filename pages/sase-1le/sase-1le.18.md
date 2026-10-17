@@ -20,7 +20,7 @@ keymap-directives: generate the TUI keymap tables, the directive catalog, and ma
 ## Dependencies
 
 - **Depends on:** [sase-1le.14](sase-1le.14.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.20](sase-1le.20.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.20](sase-1le.20.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.8](sase-1le.8.md) ✓ · ⧖ 2026-10-15
 
 ## Agents

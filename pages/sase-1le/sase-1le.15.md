@@ -21,7 +21,7 @@ guides-automate: write the three plan-and-automate guides from sdd.md, beads.md,
 
 - **Depends on:** [sase-1le.12](sase-1le.12.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [sase-1le.13](sase-1le.13.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [sase-1le.20](sase-1le.20.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [sase-1le.20](sase-1le.20.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

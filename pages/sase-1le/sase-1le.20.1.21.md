@@ -42,3 +42,15 @@ finish: finalize the Reference and Contribute hubs and nav, empty budgets.yml, s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b9ac81c`](https://github.com/sase-org/sase/commit/b9ac81c903ef23a483e8b933718cff7aaacf3117) | feat(docs): finalize documentation hubs and pointer sweep | [sase-1le.20.1.21](sase-1le.20.1.21.md) | 2026-10-16 20:46:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1le.20.1.21][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1le.20.1.21/README.md
+
+<!-- sase:referenced-by:end -->
