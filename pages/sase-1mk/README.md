@@ -33,7 +33,7 @@ sase 0.18.0 is on PyPI, published from release-please PR #299 after ci_watch mer
 | [sase-1mk.4](sase-1mk.4.md) | Fix the archive, screenshot-export and statistics Full CI flakes | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
 | [sase-1mk.5](sase-1mk.5.md) | Fix the usage-probe, git-maintenance and stderr-burst Full CI flakes | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [sase-1mk.6](sase-1mk.6.md) | Fix the New Project create and configure Master Gate races | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
-| [sase-1mk.7](sase-1mk.7.md) | Fix the link-follow and prompt mid-word Master Gate flakes | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [sase-1mk.7](sase-1mk.7.md) | Fix the link-follow and prompt mid-word Master Gate flakes | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [sase-1mk.8](sase-1mk.8.md) | Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
 
 ## Lineage
@@ -47,7 +47,7 @@ flowchart TD
     n4["sase-1mk.4: Fix the archive, screenshot-export and statistics Full CI flakes [in_progress]"]
     n5["sase-1mk.5: Fix the usage-probe, git-maintenance and stderr-burst Full CI flakes [closed]"]
     n6["sase-1mk.6: Fix the New Project create and configure Master Gate races [in_progress]"]
-    n7["sase-1mk.7: Fix the link-follow and prompt mid-word Master Gate flakes [in_progress]"]
+    n7["sase-1mk.7: Fix the link-follow and prompt mid-word Master Gate flakes [closed]"]
     n8["sase-1mk.8: Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1mk.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.4/README.md) | [sase-1mk.4](sase-1mk.4.md) | 0 |
 | [bbugyi200.athena.sase-1mk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.5/README.md) | [sase-1mk.5](sase-1mk.5.md) | 1 |
 | [bbugyi200.athena.sase-1mk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.6.md) | [sase-1mk.6](sase-1mk.6.md) | 0 |
-| [bbugyi200.athena.sase-1mk.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.7/README.md) | [sase-1mk.7](sase-1mk.7.md) | 0 |
+| [bbugyi200.athena.sase-1mk.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.7/README.md) | [sase-1mk.7](sase-1mk.7.md) | 1 |
 | [bbugyi200.athena.sase-1mk.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.8/README.md) | [sase-1mk.8](sase-1mk.8.md) | 0 |
 | [bbugyi200.athena.sase-1mk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.land/README.md) | [sase-1mk](README.md) | 0 |
 
@@ -88,3 +88,4 @@ flowchart TD
 | sase | [`7dd39ff`](https://github.com/sase-org/sase/commit/7dd39ff95f7720417fe021307673bb439aed7742) | fix(ace): defer Files spread scroll until layout settles | [sase-1mk.3](sase-1mk.3.md) | 2026-10-18 11:08:45 EDT |
 | sase | [`f1c20a9`](https://github.com/sase-org/sase/commit/f1c20a9f6b729aebbf47246294fe4185b4392ea2) | fix(tests): remove timing races from the usage-probe, git-maintenance and stderr-burst flakes | [sase-1mk.5](sase-1mk.5.md) | 2026-10-18 11:10:24 EDT |
 | sase | [`3b78c03`](https://github.com/sase-org/sase/commit/3b78c034416896078989ebf6274034223ff00d16) | feat(release-watch): watch the sase-core release PR and add CORE\_CI\_RED | [sase-1mk.2](sase-1mk.2.md) | 2026-10-18 11:53:42 EDT |
+| sase | [`f27d630`](https://github.com/sase-org/sase/commit/f27d630c8202e735adf6e55561e21f6980ed9811) | fix(tui): complete link-follow misses during pane refresh | [sase-1mk.7](sase-1mk.7.md) | 2026-10-18 11:56:27 EDT |
