@@ -19,7 +19,7 @@ query-integration: populate project, repository, and portfolio code results, att
 
 - **Depends on:** [sase-1m3.7.1.2](sase-1m3.7.1.2.md) ✓ · ⧖ 2026-10-17
 - **Depends on:** [sase-1m3.7.1.3](sase-1m3.7.1.3.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [sase-1m3.7.1.5](sase-1m3.7.1.5.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1m3.7.1.5](sase-1m3.7.1.5.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -32,3 +32,15 @@ query-integration: populate project, repository, and portfolio code results, att
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@99b10bd`](https://github.com/sase-org/sase-core/commit/99b10bd06212cb2e00d5e78433d0140591cd8cc5) | feat(stats): populate Code facet with identity-deduplicated snapshots | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 2026-10-18 08:42:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.7.1.4][1] | Need full notes, decisions, remaining work, and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md
+
+<!-- sase:referenced-by:end -->

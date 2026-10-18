@@ -77,7 +77,7 @@ flowchart TD
     n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [closed]"]
     n19["sase-1m3.7.1.3: Metadata-only records summaries [closed]"]
     n20["sase-1m3.7.1.4: Code facet dispatch, coverage, and deduplicated aggregates [closed]"]
-    n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [in_progress]"]
+    n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [closed]"]
     n22["sase-1m3.8: Python project-stats loader, facade, and view model [closed]"]
     n23["sase-1m3.9: Shared Rich and Markdown section renderers [in_progress]"]
     n0 --> n1
@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.2.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.5/README.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.land/README.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.9/README.md) | [sase-1m3.9](sase-1m3.9.md) | 0 |
@@ -181,6 +181,7 @@ flowchart TD
 | sase-core | [`sase-core@7a46109`](https://github.com/sase-org/sase-core/commit/7a46109f2abf81d5251334088331f1ef96c917ae) | feat(project-stats): join the agent directory and count committed plans | [sase-1m3.6](sase-1m3.6.md) | 2026-10-17 08:43:14 EDT |
 | sase-core | [`sase-core@733256e`](https://github.com/sase-org/sase-core/commit/733256ede964bc99e46f8ce7faffb690df0c6a49) | feat(project-stats): add committed-tree code snapshots and incremental blob cache | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 2026-10-17 09:44:30 EDT |
 | sase-core | [`sase-core@99b10bd`](https://github.com/sase-org/sase-core/commit/99b10bd06212cb2e00d5e78433d0140591cd8cc5) | feat(stats): populate Code facet with identity-deduplicated snapshots | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 2026-10-18 08:42:53 EDT |
+| sase-core | [`sase-core@b8737fa`](https://github.com/sase-org/sase-core/commit/b8737fa56f9367f60f28ecd35cfd8bc9369efb27) | feat(stats): count committed source lines with tokei | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:14:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
