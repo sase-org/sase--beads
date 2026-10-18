@@ -34,3 +34,15 @@ swarm-diagram-handoff: add the nullable `diagrams` swarm input, run `#research/d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@da1c380`](https://github.com/sase-org/sase-research-artifacts/commit/da1c3809ca8880ae6d54c08f6bcb05a141db5f22) | feat(research-swarm): add diagrams flag and linker placement | [sase-1ml.2](sase-1ml.2.md) | 2026-10-18 15:27:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ml.2][1] | Need full phase description, notes, and remaining work | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ml.2/README.md
+
+<!-- sase:referenced-by:end -->
