@@ -21,7 +21,7 @@ runtime: root-cause sase-1k9, sase-1j4 and sase-1ht outside the TUI.
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

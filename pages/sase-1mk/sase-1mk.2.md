@@ -21,7 +21,7 @@ watcher-core: read the sase-core release-plz PR, stop with CORE_CI_RED when it i
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

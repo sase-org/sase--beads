@@ -19,7 +19,7 @@ deck-scroll: make test_files_ctrl_j_scrolls_page_anchor_to_top (sase-1a7) determ
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

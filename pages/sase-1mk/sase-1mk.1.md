@@ -19,7 +19,7 @@ core-fixture: build the non-UTF-8 path into the Git index without writing it to 
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

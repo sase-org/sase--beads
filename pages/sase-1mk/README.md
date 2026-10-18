@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ship_v0_18_0_owned_blockers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/ship_v0_18_0_owned_blockers.md
 
@@ -24,6 +24,14 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 sase 0.18.0 is on PyPI, published from release-please PR #299 after ci_watch merged it on a green Master Gate and a fresh green Full CI, with sase-core-rs 0.42.0 published as its core floor. The release is confirmed before landing and recorded in an evidence artifact by the final epic lander.
+
+## Notes
+
+[2026-10-18T19:39:54Z · sase-1mk.8--1] Release watch verdict: MASTER_GATE_RED (watcher exit 17); verdict file: /home/bryan/.sase/projects/gh_sase-org__sase/artifacts/ace-run/202610/18/20261018121855/diagnostics/release_verdict.md. Last state: 2026-10-18T19:29:40Z stage=watch pypi=absent release_pr=#299:open full_ci=in_flight:1 master_gate=39143297524:failure:dabd231e8251 publish=39149037943:success core_pypi=0.42.0@2026-10-18T17:18:53Z core_pr=off action=verdict:MASTER_GATE_RED. Phase sase-1mk.8 was closed canceled because Master Gate run 39143297524 failed lint, so release confirmation did not occur.
+
+[2026-10-18T20:20:46Z · sase-1mk.land] LANDER FOLLOW-UP TRIAGE (sase-1mk.land, 2026-10-18): every child PROPOSED FOLLOW-UP routed through /sase_new_task. (1) zsh sbd completion PTY flake from sase-1mk.2 #1 and sase-1mk.6 #2 -> +1 on existing sase-13a (same node; one reporter). (2) monitor-capacity delayed-child-bootstrap e2e flake from sase-1mk.3 #1 and sase-1mk.5 #2 -> +1 on existing sase-12f (same node, renamed land_family->land_agent_session). (3) memory-panel test_web_expands_and_strand_preview_waits_for_audit from sase-1mk.4 #2 -> new flake task sase-1mq (large, ready; no existing bead or causal active epic). (4) test_observe sample-count flake from sase-1mk.5 #1 -> +1 on existing sase-19u. (5) settlement_retention SQLite 'tool run store is busy' flake from sase-1mk.7 #2 -> +1 on existing sase-18t. None declined; none caused by this epic.
+
+[2026-10-18T20:44:51Z · sase-1mk.land] LANDING VERIFICATION + NESTING (sase-1mk.land, 2026-10-18 ~20:50Z). Verified: all 8 phases closed (1-7 done; 8 canceled MASTER_GATE_RED, exit 17); every repair change is on origin/master with no revert (7dd39ff95f 1mk.3, f1c20a9f6b 1mk.5, 3b78c03441 1mk.2, f27d630c82 1mk.7, 551a0f7555 1mk.4, dabd231e82 1mk.6) and core 80dc704a (1mk.1) is in tag v0.42.0 (07bfb83f); DECISIONS honored (--dispatch-core-cut implemented and used; stale_epics untouched pending release). Core healed: sase-core-rs 0.42.0 on PyPI (5 dists, 17:18:53Z); released-commit macOS CI passed on rerun (core run 39146142422 attempt 2, job 117779108636; attempt 1 failed a bead_read_model_parity concurrency test later hardened by non-epic 0834d844); PR #299 head 280ebad298 CLEAN with release-core-floor-smoke green. epic-symbols: none (epic and all phases). RELEASE NOT CONFIRMED: sase 0.18.0 absent from PyPI; Master Gate red at tip 457dd728d5 (run 39159243248); Full CI 39155173153 red. Remaining blockers, owned by a nested child epic (parent_bead sase-1mk): (1) lint in both lanes: research sidecar README hand-edit dcbfd0dc (task sase-1mm) -> phase research-readme; (2) Full CI visual-test agents_jump_panel_collapsed_in_flight_mix_120x40 drift caused by concurrent db14df00e6 (bisected locally) -> phase jump-golden; (3) test_owner_switch_preserves_per_owner_drafts fails in Master Gate and all three Full CI legs: NoMatches #repo-creation-form-errors from the never-reset _controls_ready flag added by THIS EPIC's dabd231e82 (sase-1mk.6) -> phase new-project-owner; (4) test_link_follow_planner::test_epic_context_selects_and_expands regression from THIS EPIC's f27d630c82 (sase-1mk.7) exact-kind _complete_pending_inventory_miss -> phase link-follow-kind; (5) test_known_continuation::test_agent_run_stops_on_generic_output and sase-1k2 provider-drain JSONDecodeError -> phase runtime-flakes; then a verbatim watch phase and verbatim Landing that resumes this epic at Landing step 4. Integration: concurrent 457dd728d5 (Publish build from release-please sha) needs no watcher/Landing change; db14df00e6 integration handled by jump-golden.
 
 ## Phases
 
@@ -36,7 +44,7 @@ sase 0.18.0 is on PyPI, published from release-please PR #299 after ci_watch mer
 | [sase-1mk.5](sase-1mk.5.md) | Fix the usage-probe, git-maintenance and stderr-burst Full CI flakes | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [sase-1mk.6](sase-1mk.6.md) | Fix the New Project create and configure Master Gate races | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [sase-1mk.7](sase-1mk.7.md) | Fix the link-follow and prompt mid-word Master Gate flakes | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [sase-1mk.8](sase-1mk.8.md) | Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
+| [sase-1mk.8](sase-1mk.8.md) | Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close | ✓ closed | small | 2026-10-18 | 1 | 0 |
 
 ## Lineage
 
@@ -50,7 +58,14 @@ flowchart TD
     n5["sase-1mk.5: Fix the usage-probe, git-maintenance and stderr-burst Full CI flakes [closed]"]
     n6["sase-1mk.6: Fix the New Project create and configure Master Gate races [closed]"]
     n7["sase-1mk.7: Fix the link-follow and prompt mid-word Master Gate flakes [closed]"]
-    n8["sase-1mk.8: Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close [in_progress]"]
+    n8["sase-1mk.8: Watch sase-core 0.42.0 and sase 0.18.0 to PyPI and always close [closed]"]
+    n9["sase-1mk.9: Clear the post-repair Master Gate and Full CI reds and ship sase v0.18.0 through ci_watch [in_progress]"]
+    n10["sase-1mk.9.1: Restore the generated research sidecar README [closed]"]
+    n11["sase-1mk.9.2: Resolve the agents JUMP panel golden drift from the clan Enter change [closed]"]
+    n12["sase-1mk.9.3: Stop inventory-miss completion from overriding kind-corrected link follows [in_progress]"]
+    n13["sase-1mk.9.4: Fix the New Project create-form readiness regression on owner switch [in_progress]"]
+    n14["sase-1mk.9.5: Fix the known-continuation and provider-drain flakes [in_progress]"]
+    n15["sase-1mk.9.6: Watch sase 0.18.0 to PyPI and always close [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -59,6 +74,13 @@ flowchart TD
     n0 --> n6
     n0 --> n7
     n0 --> n8
+    n0 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
+    n9 --> n13
+    n9 --> n14
+    n9 --> n15
     n1 -.-> n8
     n2 -.-> n8
     n3 -.-> n8
@@ -66,6 +88,11 @@ flowchart TD
     n5 -.-> n8
     n6 -.-> n8
     n7 -.-> n8
+    n10 -.-> n15
+    n11 -.-> n15
+    n12 -.-> n15
+    n13 -.-> n15
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -79,8 +106,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1mk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.5/README.md) | [sase-1mk.5](sase-1mk.5.md) | 1 |
 | [bbugyi200.athena.sase-1mk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.6.md) | [sase-1mk.6](sase-1mk.6.md) | 1 |
 | [bbugyi200.athena.sase-1mk.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.7/README.md) | [sase-1mk.7](sase-1mk.7.md) | 1 |
-| [bbugyi200.athena.sase-1mk.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.8/README.md) | [sase-1mk.8](sase-1mk.8.md) | 0 |
-| [bbugyi200.athena.sase-1mk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.land/README.md) | [sase-1mk](README.md) | 0 |
+| [bbugyi200.athena.sase-1mk.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.8.md) | [sase-1mk.8](sase-1mk.8.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.1/README.md) | [sase-1mk.9.1](sase-1mk.9.1.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.2/README.md) | [sase-1mk.9.2](sase-1mk.9.2.md) | 1 |
+| [bbugyi200.athena.sase-1mk.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.3/README.md) | [sase-1mk.9.3](sase-1mk.9.3.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.5.md) | [sase-1mk.9.5](sase-1mk.9.5.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.6/README.md) | [sase-1mk.9.6](sase-1mk.9.6.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.land/README.md) | [sase-1mk.9](sase-1mk.9.md) | 0 |
+| [bbugyi200.athena.sase-1mk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.land.md) | [sase-1mk](README.md) | 0 |
 
 ## Commits
 
@@ -93,6 +127,7 @@ flowchart TD
 | sase | [`f27d630`](https://github.com/sase-org/sase/commit/f27d630c8202e735adf6e55561e21f6980ed9811) | fix(tui): complete link-follow misses during pane refresh | [sase-1mk.7](sase-1mk.7.md) | 2026-10-18 11:56:27 EDT |
 | sase | [`551a0f7`](https://github.com/sase-org/sase/commit/551a0f75553fe1037f0ebdb92f1c0af64b388655) | fix(ace): stop three Full CI TUI flakes in archive, screenshot export, and statistics | [sase-1mk.4](sase-1mk.4.md) | 2026-10-18 11:57:30 EDT |
 | sase | [`dabd231`](https://github.com/sase-org/sase/commit/dabd231e82511d41a1a96b9b021d1e6c4322265c) | fix(ace): make New Project form races deterministic | [sase-1mk.6](sase-1mk.6.md) | 2026-10-18 12:03:48 EDT |
+| sase | [`b68b516`](https://github.com/sase-org/sase/commit/b68b5166ad6c14bf7549d3b42b37bb698eb70db3) | test(tui): update JUMP mix golden for clan Enter footer hint | [sase-1mk.9.2](sase-1mk.9.2.md) | 2026-10-18 17:32:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -101,9 +136,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.22.cld][1] | Check current Track 0 owner state for PyPI release reliability research | 1 |
-| read-by | [agent:sase-1mk.4][2] | Need the flake beads and parent epic scope for tui-pilots phase | 1 |
+| read-by | [agent:research.22.final][2] | Check Track 0 release-blocker epic status for PyPI reliability consolidation | 1 |
+| read-by | [agent:sase-1mk.4][3] | Need the flake beads and parent epic scope for tui-pilots phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.22.cld/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.22.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.4/README.md
 
 <!-- sase:referenced-by:end -->

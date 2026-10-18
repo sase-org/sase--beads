@@ -21,7 +21,7 @@ tui-pilots: root-cause sase-1mj, the screenshot frame-convergence timeout, and s
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.8](sase-1mk.8.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
