@@ -36,3 +36,15 @@ jump-golden: decide whether the db14df00e6 JUMP title change is intended, then f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b68b516`](https://github.com/sase-org/sase/commit/b68b5166ad6c14bf7549d3b42b37bb698eb70db3) | test(tui): update JUMP mix golden for clan Enter footer hint | [sase-1mk.9.2](sase-1mk.9.2.md) | 2026-10-18 17:32:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.9.2][1] | Confirm notes landed before close | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.2/README.md
+
+<!-- sase:referenced-by:end -->

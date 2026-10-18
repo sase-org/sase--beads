@@ -16,3 +16,15 @@ sase 0.18.0 is on PyPI, published from release-please PR #299 after ci_watch mer
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1mk.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.land/README.md) | [sase-1mk.9](sase-1mk.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.9.2][1] | Need parent epic DECISIONS and phase context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.2/README.md
+
+<!-- sase:referenced-by:end -->
