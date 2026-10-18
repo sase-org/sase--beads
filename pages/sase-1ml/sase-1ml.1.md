@@ -17,7 +17,7 @@ manifest-producer: add the `!20*/**/*.diagrams.md` companion exclusion to the pr
 
 ## Dependencies
 
-- **Blocks:** [sase-1ml.2](sase-1ml.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1ml.2](sase-1ml.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -30,3 +30,15 @@ manifest-producer: add the `!20*/**/*.diagrams.md` companion exclusion to the pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@c56e3f7`](https://github.com/sase-org/sase-research-artifacts/commit/c56e3f707b04b5cf9507dabf73e4063d4a9f8439) | feat(diagrams): add #research/diagrams macro and diagram manifest exclusion | [sase-1ml.1](sase-1ml.1.md) | 2026-10-18 12:41:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ml.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1ml.1/README.md
+
+<!-- sase:referenced-by:end -->
