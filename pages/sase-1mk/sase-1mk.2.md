@@ -34,3 +34,15 @@ watcher-core: read the sase-core release-plz PR, stop with CORE_CI_RED when it i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3b78c03`](https://github.com/sase-org/sase/commit/3b78c034416896078989ebf6274034223ff00d16) | feat(release-watch): watch the sase-core release PR and add CORE\_CI\_RED | [sase-1mk.2](sase-1mk.2.md) | 2026-10-18 11:53:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.2/README.md
+
+<!-- sase:referenced-by:end -->

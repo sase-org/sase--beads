@@ -34,3 +34,15 @@ gate-pilots: root-cause sase-1lr, the bounded-panes scan one-off, and the mid-wo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f27d630`](https://github.com/sase-org/sase/commit/f27d630c8202e735adf6e55561e21f6980ed9811) | fix(tui): complete link-follow misses during pane refresh | [sase-1mk.7](sase-1mk.7.md) | 2026-10-18 11:56:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.7][1] | Need current notes and remaining epic-symbol status before close | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.7/README.md
+
+<!-- sase:referenced-by:end -->
