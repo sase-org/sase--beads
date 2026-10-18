@@ -23,4 +23,10 @@ new-project-owner: fix the sase-1mk.6 RepoCreationFormWidget readiness regressio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7f3c8d0`](https://github.com/sase-org/sase/commit/7f3c8d0965b2c7df116ba254ae07fd320f88eab1) | fix(ace): keep New Project form controls ready after owner switch | [sase-1mk.9.4](sase-1mk.9.4.md) | 2026-10-18 17:34:27 EDT |

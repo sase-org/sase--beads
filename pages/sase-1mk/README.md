@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1mk.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.1/README.md) | [sase-1mk.9.1](sase-1mk.9.1.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.2/README.md) | [sase-1mk.9.2](sase-1mk.9.2.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.3/README.md) | [sase-1mk.9.3](sase-1mk.9.3.md) | 0 |
-| [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.5.md) | [sase-1mk.9.5](sase-1mk.9.5.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.6/README.md) | [sase-1mk.9.6](sase-1mk.9.6.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.land/README.md) | [sase-1mk.9](sase-1mk.9.md) | 0 |
@@ -128,6 +128,7 @@ flowchart TD
 | sase | [`551a0f7`](https://github.com/sase-org/sase/commit/551a0f75553fe1037f0ebdb92f1c0af64b388655) | fix(ace): stop three Full CI TUI flakes in archive, screenshot export, and statistics | [sase-1mk.4](sase-1mk.4.md) | 2026-10-18 11:57:30 EDT |
 | sase | [`dabd231`](https://github.com/sase-org/sase/commit/dabd231e82511d41a1a96b9b021d1e6c4322265c) | fix(ace): make New Project form races deterministic | [sase-1mk.6](sase-1mk.6.md) | 2026-10-18 12:03:48 EDT |
 | sase | [`b68b516`](https://github.com/sase-org/sase/commit/b68b5166ad6c14bf7549d3b42b37bb698eb70db3) | test(tui): update JUMP mix golden for clan Enter footer hint | [sase-1mk.9.2](sase-1mk.9.2.md) | 2026-10-18 17:32:41 EDT |
+| sase | [`7f3c8d0`](https://github.com/sase-org/sase/commit/7f3c8d0965b2c7df116ba254ae07fd320f88eab1) | fix(ace): keep New Project form controls ready after owner switch | [sase-1mk.9.4](sase-1mk.9.4.md) | 2026-10-18 17:34:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
