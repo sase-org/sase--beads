@@ -19,4 +19,4 @@ new-project: make the create-collision, configure-review and late-form New Proje
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1mk.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.6/README.md) | [sase-1mk.6](sase-1mk.6.md) | 0 |
+| [bbugyi200.athena.sase-1mk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.6.md) | [sase-1mk.6](sase-1mk.6.md) | 0 |
