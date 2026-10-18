@@ -25,7 +25,7 @@ foundation: a zero-visual-diff refactor that promotes the view specs and legends
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.8](sase-1m3.8.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.8](sase-1m3.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

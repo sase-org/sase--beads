@@ -23,7 +23,7 @@ inventory: fix sase-1lk so another project's linked repos never absorb the cwd p
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.8](sase-1m3.8.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.8](sase-1m3.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
