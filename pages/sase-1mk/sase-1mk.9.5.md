@@ -32,3 +32,15 @@ runtime-flakes: root-cause test_agent_run_stops_on_generic_output and the provid
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e5c02dc`](https://github.com/sase-org/sase/commit/e5c02dc8a439c0df5610d0e07ea5e1b0b5a59e6a) | fix(runtime): harden triage and provider drain handling | [sase-1mk.9.5](sase-1mk.9.5.md) | 2026-10-18 17:55:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.9.5--1][1] | Need the phase scope, design file, and earlier remaining-work notes before completing verification | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.5.md
+
+<!-- sase:referenced-by:end -->

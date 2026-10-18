@@ -15,7 +15,7 @@ watch: run one bounded tools/release_watch monitor that closes this phase bead o
 
 - **Depends on:** [sase-1mk.9.1](sase-1mk.9.1.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [sase-1mk.9.2](sase-1mk.9.2.md) ✓ · ⧖ 2026-10-18
-- **Depends on:** [sase-1mk.9.3](sase-1mk.9.3.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [sase-1mk.9.3](sase-1mk.9.3.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [sase-1mk.9.4](sase-1mk.9.4.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [sase-1mk.9.5](sase-1mk.9.5.md) ✓ · ⧖ 2026-10-18
 

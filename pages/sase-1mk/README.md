@@ -62,7 +62,7 @@ flowchart TD
     n9["sase-1mk.9: Clear the post-repair Master Gate and Full CI reds and ship sase v0.18.0 through ci_watch [in_progress]"]
     n10["sase-1mk.9.1: Restore the generated research sidecar README [closed]"]
     n11["sase-1mk.9.2: Resolve the agents JUMP panel golden drift from the clan Enter change [closed]"]
-    n12["sase-1mk.9.3: Stop inventory-miss completion from overriding kind-corrected link follows [in_progress]"]
+    n12["sase-1mk.9.3: Stop inventory-miss completion from overriding kind-corrected link follows [closed]"]
     n13["sase-1mk.9.4: Fix the New Project create-form readiness regression on owner switch [closed]"]
     n14["sase-1mk.9.5: Fix the known-continuation and provider-drain flakes [closed]"]
     n15["sase-1mk.9.6: Watch sase 0.18.0 to PyPI and always close [in_progress]"]
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1mk.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.8.md) | [sase-1mk.8](sase-1mk.8.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.1/README.md) | [sase-1mk.9.1](sase-1mk.9.1.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.2/README.md) | [sase-1mk.9.2](sase-1mk.9.2.md) | 1 |
-| [bbugyi200.athena.sase-1mk.9.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.3/README.md) | [sase-1mk.9.3](sase-1mk.9.3.md) | 0 |
+| [bbugyi200.athena.sase-1mk.9.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.3.md) | [sase-1mk.9.3](sase-1mk.9.3.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.4.md) | [sase-1mk.9.4](sase-1mk.9.4.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.5.md) | [sase-1mk.9.5](sase-1mk.9.5.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.6/README.md) | [sase-1mk.9.6](sase-1mk.9.6.md) | 0 |
@@ -130,6 +130,7 @@ flowchart TD
 | sase | [`b68b516`](https://github.com/sase-org/sase/commit/b68b5166ad6c14bf7549d3b42b37bb698eb70db3) | test(tui): update JUMP mix golden for clan Enter footer hint | [sase-1mk.9.2](sase-1mk.9.2.md) | 2026-10-18 17:32:41 EDT |
 | sase | [`7f3c8d0`](https://github.com/sase-org/sase/commit/7f3c8d0965b2c7df116ba254ae07fd320f88eab1) | fix(ace): keep New Project form controls ready after owner switch | [sase-1mk.9.4](sase-1mk.9.4.md) | 2026-10-18 17:34:27 EDT |
 | sase | [`e5c02dc`](https://github.com/sase-org/sase/commit/e5c02dc8a439c0df5610d0e07ea5e1b0b5a59e6a) | fix(runtime): harden triage and provider drain handling | [sase-1mk.9.5](sase-1mk.9.5.md) | 2026-10-18 17:55:29 EDT |
+| sase | [`f457166`](https://github.com/sase-org/sase/commit/f457166f4a6e2edae0971ed33f08152b7c436bbf) | fix(ace): preserve kind-corrected artifact link follows | [sase-1mk.9.3](sase-1mk.9.3.md) | 2026-10-18 18:56:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
