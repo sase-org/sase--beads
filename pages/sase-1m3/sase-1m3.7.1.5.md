@@ -18,6 +18,8 @@
 | related | file:explicit:ea24bb0b3953dc8daa075f39 | attached via sase artifact create --bead |
 | related | file:explicit:f8fc12f54cb3f9b647451035 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -60,10 +62,23 @@ measurement: evaluate tokei against the integrated nonblank baseline, measure co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b8737fa`](https://github.com/sase-org/sase-core/commit/b8737fa56f9367f60f28ecd35cfd8bc9369efb27) | feat(stats): count committed source lines with tokei | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:14:45 EDT |
+| sase | [`5fe54b5`](https://github.com/sase-org/sase/commit/5fe54b59745c9351702b8df667eb99fc927e8911) | feat(stats): advance core pin for measured SLOC snapshots | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:20:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.7.1.5--6][1] | Check final closure notes before recovery finalization | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md
+
+<!-- sase:referenced-by:end -->

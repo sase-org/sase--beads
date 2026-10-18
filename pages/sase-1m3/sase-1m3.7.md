@@ -32,3 +32,15 @@ core-code: measure role-classified lines over each code repo's committed tree wi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1m3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.md) | [sase-1m3.7](sase-1m3.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.7.1.5--6][1] | Verify parent received final phase evidence and runtime follow-ups | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md
+
+<!-- sase:referenced-by:end -->

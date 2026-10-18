@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.2.md) | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2 |
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.land/README.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.9/README.md) | [sase-1m3.9](sase-1m3.9.md) | 0 |
@@ -182,6 +182,7 @@ flowchart TD
 | sase-core | [`sase-core@733256e`](https://github.com/sase-org/sase-core/commit/733256ede964bc99e46f8ce7faffb690df0c6a49) | feat(project-stats): add committed-tree code snapshots and incremental blob cache | [sase-1m3.7.1.2](sase-1m3.7.1.2.md) | 2026-10-17 09:44:30 EDT |
 | sase-core | [`sase-core@99b10bd`](https://github.com/sase-org/sase-core/commit/99b10bd06212cb2e00d5e78433d0140591cd8cc5) | feat(stats): populate Code facet with identity-deduplicated snapshots | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 2026-10-18 08:42:53 EDT |
 | sase-core | [`sase-core@b8737fa`](https://github.com/sase-org/sase-core/commit/b8737fa56f9367f60f28ecd35cfd8bc9369efb27) | feat(stats): count committed source lines with tokei | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:14:45 EDT |
+| sase | [`5fe54b5`](https://github.com/sase-org/sase/commit/5fe54b59745c9351702b8df667eb99fc927e8911) | feat(stats): advance core pin for measured SLOC snapshots | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:20:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
