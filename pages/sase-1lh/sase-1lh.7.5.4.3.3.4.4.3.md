@@ -13,7 +13,7 @@ watch: verify committed prerequisites and run one self-closing publication watch
 
 ## Dependencies
 
-- **Depends on:** [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

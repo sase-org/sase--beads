@@ -19,7 +19,7 @@ core: repair the macOS E0617 regression in mobile pairing and verify the core.
 
 ## Dependencies
 
-- **Blocks:** [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -32,3 +32,15 @@ core: repair the macOS E0617 regression in mobile pairing and verify the core.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@72bf920`](https://github.com/sase-org/sase-core/commit/72bf9203758d7986da1cb6d14b5d13f00327de08) | fix(mobile-pairing): promote variadic openat modes to c\_uint | [sase-1lh.7.5.4.3.3.4.4.1](sase-1lh.7.5.4.3.3.4.4.1.md) | 2026-10-17 22:17:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.3.4.4.1][1] | Need remaining bead notes, DECISIONS, and design details | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1/README.md
+
+<!-- sase:referenced-by:end -->

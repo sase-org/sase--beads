@@ -126,7 +126,7 @@ flowchart TD
     n29["sase-1lh.7.5.4.3.3.4.3: Observe the compatible core and guarded sase 0.18.0 publication [closed]"]
     n30["sase-1lh.7.5.4.3.3.4.4: Finish core variadic portability and observe the compatible release [in_progress]"]
     n31["sase-1lh.7.5.4.3.3.4.4.1: Promote variadic openat modes without changing permissions [closed]"]
-    n32["sase-1lh.7.5.4.3.3.4.4.2: Pin the committed portable core and verify the consumer [in_progress]"]
+    n32["sase-1lh.7.5.4.3.3.4.4.2: Pin the committed portable core and verify the consumer [closed]"]
     n33["sase-1lh.7.5.4.3.3.4.4.3: Observe the containing core release and sase 0.18.0 [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -209,7 +209,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.2.md) | [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3.md) | [sase-1lh.7.5.4.3.3.4.3](sase-1lh.7.5.4.3.3.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1/README.md) | [sase-1lh.7.5.4.3.3.4.4.1](sase-1lh.7.5.4.3.3.4.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2/README.md) | [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2/README.md) | [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.3/README.md) | [sase-1lh.7.5.4.3.3.4.4.3](sase-1lh.7.5.4.3.3.4.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land/README.md) | [sase-1lh.7.5.4.3.3.4.4](sase-1lh.7.5.4.3.3.4.4.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land.md) | [sase-1lh.7.5.4.3.3.4](sase-1lh.7.5.4.3.3.4.md) | 0 |
@@ -241,6 +241,7 @@ flowchart TD
 | sase-core | [`sase-core@dd56b94`](https://github.com/sase-org/sase-core/commit/dd56b94a8ad9fdca541d16cb5b6f85a2b45e55af) | fix(mobile-pairing): pass native mode\_t to mkdirat and fchmod | [sase-1lh.7.5.4.3.3.4.1](sase-1lh.7.5.4.3.3.4.1.md) | 2026-10-17 17:33:47 EDT |
 | sase | [`933970c`](https://github.com/sase-org/sase/commit/933970ce72a5b5328499e80751a491c857bfc221) | fix(release-gates): make launch fixtures deterministic | [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) | 2026-10-17 19:03:02 EDT |
 | sase-core | [`sase-core@72bf920`](https://github.com/sase-org/sase-core/commit/72bf9203758d7986da1cb6d14b5d13f00327de08) | fix(mobile-pairing): promote variadic openat modes to c\_uint | [sase-1lh.7.5.4.3.3.4.4.1](sase-1lh.7.5.4.3.3.4.4.1.md) | 2026-10-17 22:17:49 EDT |
+| sase | [`ae9f044`](https://github.com/sase-org/sase/commit/ae9f044bb39c22ab5702031b1507249e29a2d4da) | chore(core): pin sase-core past the portable openat fix | [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) | 2026-10-17 22:51:59 EDT |
 
 <!-- sase:referenced-by:start -->
 

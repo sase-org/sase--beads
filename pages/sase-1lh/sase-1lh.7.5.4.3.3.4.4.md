@@ -16,3 +16,15 @@ Repair the introduced macOS openat regression, consume its committed core, and e
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land/README.md) | [sase-1lh.7.5.4.3.3.4.4](sase-1lh.7.5.4.3.3.4.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.3.4.4.1][1] | Need parent epic DECISIONS for phase work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1/README.md
+
+<!-- sase:referenced-by:end -->
