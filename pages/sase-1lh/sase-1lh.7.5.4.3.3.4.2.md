@@ -20,7 +20,7 @@ gates: make the deferred-workspace test independent of ambient launch timestamps
 ## Dependencies
 
 - **Depends on:** [sase-1lh.7.5.4.3.3.4.1](sase-1lh.7.5.4.3.3.4.1.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [sase-1lh.7.5.4.3.3.4.3](sase-1lh.7.5.4.3.3.4.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [sase-1lh.7.5.4.3.3.4.3](sase-1lh.7.5.4.3.3.4.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -33,3 +33,15 @@ gates: make the deferred-workspace test independent of ambient launch timestamps
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`933970c`](https://github.com/sase-org/sase/commit/933970ce72a5b5328499e80751a491c857bfc221) | fix(release-gates): make launch fixtures deterministic | [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) | 2026-10-17 19:03:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1lh.7.5.4.3.3.4.2--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.2.md
+
+<!-- sase:referenced-by:end -->

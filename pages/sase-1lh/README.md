@@ -123,7 +123,11 @@ flowchart TD
     n26["sase-1lh.7.5.4.3.3.4: Repair portable core publication and the remaining sase release gates [in_progress]"]
     n27["sase-1lh.7.5.4.3.3.4.1: Make mobile pairing file modes portable to macOS [closed]"]
     n28["sase-1lh.7.5.4.3.3.4.2: Repair the launch timestamp fixture and rescue audit integration [closed]"]
-    n29["sase-1lh.7.5.4.3.3.4.3: Observe the compatible core and guarded sase 0.18.0 publication [in_progress]"]
+    n29["sase-1lh.7.5.4.3.3.4.3: Observe the compatible core and guarded sase 0.18.0 publication [closed]"]
+    n30["sase-1lh.7.5.4.3.3.4.4: Finish core variadic portability and observe the compatible release [in_progress]"]
+    n31["sase-1lh.7.5.4.3.3.4.4.1: Promote variadic openat modes without changing permissions [closed]"]
+    n32["sase-1lh.7.5.4.3.3.4.4.2: Pin the committed portable core and verify the consumer [in_progress]"]
+    n33["sase-1lh.7.5.4.3.3.4.4.3: Observe the containing core release and sase 0.18.0 [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -153,6 +157,10 @@ flowchart TD
     n26 --> n27
     n26 --> n28
     n26 --> n29
+    n26 --> n30
+    n30 --> n31
+    n30 --> n32
+    n30 --> n33
     n1 -.-> n6
     n2 -.-> n6
     n3 -.-> n6
@@ -169,6 +177,8 @@ flowchart TD
     n24 -.-> n25
     n27 -.-> n28
     n28 -.-> n29
+    n31 -.-> n32
+    n32 -.-> n33
 ```
 
 ## Agents
@@ -197,8 +207,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.3.md) | [sase-1lh.7.5.4.3.3.3](sase-1lh.7.5.4.3.3.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.1/README.md) | [sase-1lh.7.5.4.3.3.4.1](sase-1lh.7.5.4.3.3.4.1.md) | 1 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.2.md) | [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) | 1 |
-| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3/README.md) | [sase-1lh.7.5.4.3.3.4.3](sase-1lh.7.5.4.3.3.4.3.md) | 0 |
-| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land/README.md) | [sase-1lh.7.5.4.3.3.4](sase-1lh.7.5.4.3.3.4.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.3.md) | [sase-1lh.7.5.4.3.3.4.3](sase-1lh.7.5.4.3.3.4.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.1/README.md) | [sase-1lh.7.5.4.3.3.4.4.1](sase-1lh.7.5.4.3.3.4.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.2/README.md) | [sase-1lh.7.5.4.3.3.4.4.2](sase-1lh.7.5.4.3.3.4.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.3/README.md) | [sase-1lh.7.5.4.3.3.4.4.3](sase-1lh.7.5.4.3.3.4.4.3.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.4.land/README.md) | [sase-1lh.7.5.4.3.3.4.4](sase-1lh.7.5.4.3.3.4.4.md) | 0 |
+| [bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.4.land.md) | [sase-1lh.7.5.4.3.3.4](sase-1lh.7.5.4.3.3.4.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.3.3.land.md) | [sase-1lh.7.5.4.3.3](sase-1lh.7.5.4.3.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1lh.7.5.4.3.land/README.md) | [sase-1lh.7.5.4.3](sase-1lh.7.5.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1lh.7.5.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1lh.7.5.4.land.md) | [sase-1lh.7.5.4](sase-1lh.7.5.4.md) | 0 |
@@ -226,6 +240,7 @@ flowchart TD
 | sase | [`60718e5`](https://github.com/sase-org/sase/commit/60718e5b1b77fcd89cdad2be8b016303a11f96d9) | fix(tests): wait for tutorial agents beyond RUNNING | [sase-1lh.7.5.4.3.3.2](sase-1lh.7.5.4.3.3.2.md) | 2026-10-17 15:31:32 EDT |
 | sase-core | [`sase-core@dd56b94`](https://github.com/sase-org/sase-core/commit/dd56b94a8ad9fdca541d16cb5b6f85a2b45e55af) | fix(mobile-pairing): pass native mode\_t to mkdirat and fchmod | [sase-1lh.7.5.4.3.3.4.1](sase-1lh.7.5.4.3.3.4.1.md) | 2026-10-17 17:33:47 EDT |
 | sase | [`933970c`](https://github.com/sase-org/sase/commit/933970ce72a5b5328499e80751a491c857bfc221) | fix(release-gates): make launch fixtures deterministic | [sase-1lh.7.5.4.3.3.4.2](sase-1lh.7.5.4.3.3.4.2.md) | 2026-10-17 19:03:02 EDT |
+| sase-core | [`sase-core@72bf920`](https://github.com/sase-org/sase-core/commit/72bf9203758d7986da1cb6d14b5d13f00327de08) | fix(mobile-pairing): promote variadic openat modes to c\_uint | [sase-1lh.7.5.4.3.3.4.4.1](sase-1lh.7.5.4.3.3.4.4.1.md) | 2026-10-17 22:17:49 EDT |
 
 <!-- sase:referenced-by:start -->
 

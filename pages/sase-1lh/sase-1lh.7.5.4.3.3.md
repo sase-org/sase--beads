@@ -52,6 +52,8 @@ Evidence: Master Gate log file:explicit:c50fd282ffcf1c8eb77aaf14; release-floor 
 
 [2026-10-17T21:07:32Z · sase-1lh.7.5.4.3.3.land] REMAINING PLAN REFINEMENT: Core CI 39068106880 job 117499868212 has deterministic macOS E0308 at crates/sase_core/src/mobile_pairing/fs.rs:441 (mkdirat) and :517 (fchmod): u32 modes passed to u16 mode_t. Read the actual current core source; both boundaries are unconverted. Linux and wheel-import jobs pass. Remaining plan now has core portability (small), then sase gate fixtures plus pin beyond the host-created core commit (medium), then no-edit release watch (small). This ordering is required by host-owned commits, not task size alone. The watcher must await a containing compatible release (currently core 0.42.0 PR #331), not incompatible 0.41.0. This release dependency is adopted as remaining epic work. First schema validation used --explain; revised plan revalidated successfully. No parent closure or done status is claimed.
 
+[2026-10-18T01:53:51Z · sase-1lh.7.5.4.3.3.4.land] CHILD LANDING BLOCKER (from sase-1lh.7.5.4.3.3.4.land): The child cannot close. Its phase .1 native mode_t change introduced macOS E0617 at the two variadic openat calls; core PR #331 remains red. The child watch closed canceled with MASTER_GATE_RED and sase 0.18.0/core 0.42.0 remain unpublished. The child has a complete source/commit/drift audit and follow-up disposition note; independent New Project collision flake is now sase-1mi. A validated three-phase remaining plan separates the core repair, committed consumer pin, and publication observation. No ancestor close or done status is justified yet.
+
 ## Agents
 
 | Agent | Bead | Commits |
