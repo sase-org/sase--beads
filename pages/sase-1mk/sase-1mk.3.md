@@ -32,3 +32,15 @@ deck-scroll: make test_files_ctrl_j_scrolls_page_anchor_to_top (sase-1a7) determ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7dd39ff`](https://github.com/sase-org/sase/commit/7dd39ff95f7720417fe021307673bb439aed7742) | fix(ace): defer Files spread scroll until layout settles | [sase-1mk.3](sase-1mk.3.md) | 2026-10-18 11:08:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.3/README.md
+
+<!-- sase:referenced-by:end -->

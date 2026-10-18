@@ -34,3 +34,15 @@ runtime: root-cause sase-1k9, sase-1j4 and sase-1ht outside the TUI.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f1c20a9`](https://github.com/sase-org/sase/commit/f1c20a9f6b729aebbf47246294fe4185b4392ea2) | fix(tests): remove timing races from the usage-probe, git-maintenance and stderr-burst flakes | [sase-1mk.5](sase-1mk.5.md) | 2026-10-18 11:10:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.5/README.md
+
+<!-- sase:referenced-by:end -->
