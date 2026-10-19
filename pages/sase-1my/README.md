@@ -35,10 +35,10 @@ A clean `uv tool install` of sase, alone or with the family plugins, installs th
 |---|---|---|---|---|---:|---:|
 | [sase-1my.1](sase-1my.1.md) | Protected-set retention in sase-core, failing closed | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1my.2](sase-1my.2.md) | Family install canary on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ✓ closed | medium | 2026-10-19 | 1 | 1 |
+| [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ✓ closed | medium | 2026-10-19 | 1 | 2 |
 | [sase-1my.4](sase-1my.4.md) | Core storage runway line and headroom alert | ✓ closed | small | 2026-10-19 | 1 | 1 |
 | [sase-1my.5](sase-1my.5.md) | Recovery runbook, release-safety docs, and the TestPyPI drill | ✓ closed | medium | 2026-10-19 | 1 | 2 |
-| [sase-1my.6](sase-1my.6.md) | Live acceptance, decision record, and seven-day soak | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
+| [sase-1my.6](sase-1my.6.md) | Live acceptance, decision record, and seven-day soak | ◐ in_progress | small | 2026-10-19 | 1 | 1 |
 
 ## Lineage
 
@@ -74,10 +74,10 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1my.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md) | [sase-1my.1](sase-1my.1.md) | 1 |
 | [bbugyi200.athena.sase-1my.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md) | [sase-1my.2](sase-1my.2.md) | 1 |
-| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 1 |
+| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 2 |
 | [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 1 |
 | [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 2 |
-| [bbugyi200.athena.sase-1my.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md) | [sase-1my.6](sase-1my.6.md) | 0 |
+| [bbugyi200.athena.sase-1my.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md) | [sase-1my.6](sase-1my.6.md) | 1 |
 | [bbugyi200.athena.sase-1my.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.land/README.md) | [sase-1my](README.md) | 0 |
 
 ## Commits
@@ -88,8 +88,10 @@ flowchart TD
 | sase-core | [`sase-core@9876b3a`](https://github.com/sase-org/sase-core/commit/9876b3ae557e7dfacb012507d80b22ebb2a6dc7f) | feat(releases): protect PyPI consumer windows | [sase-1my.1](sase-1my.1.md) | 2026-10-19 10:46:42 EDT |
 | sase-core | [`sase-core@a908ceb`](https://github.com/sase-org/sase-core/commit/a908ceb30ca385ec3ac564f1a84203ff02054a0a) | feat(pypi): add runway threshold and weekly headroom alert | [sase-1my.4](sase-1my.4.md) | 2026-10-19 11:17:11 EDT |
 | sase | [`2d7c282`](https://github.com/sase-org/sase/commit/2d7c282b24e7f8cafe413f283980a9bd074851b6) | feat(release): add shared plugin release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:53:40 EDT |
+| sase-github | [`sase-github@e4f8bf4`](https://github.com/sase-org/sase-github/commit/e4f8bf47c8b0e89b3b46b35369e3574fcf97d0ed) | ci: call the shared release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:58:13 EDT |
 | sase-core | [`sase-core@f0f2275`](https://github.com/sase-org/sase-core/commit/f0f2275f9d38db3dc4e80aa4c2635017696a7e93) | docs(retention): document the core backfill route | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:53:01 EDT |
 | sase | [`2a83edf`](https://github.com/sase-org/sase/commit/2a83edf9961fc0f9e7b241987af71ab7149ee7aa) | feat(release): add recovery runbook, release-safety docs, and TestPyPI drill | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:57:49 EDT |
+| sase | [`a904652`](https://github.com/sase-org/sase/commit/a9046529cac4783593fb9161b10ba25334517af4) | fix(install): derive canary isolated paths from RUNNER\_TEMP via GITHUB\_ENV | [sase-1my.6](sase-1my.6.md) | 2026-10-19 13:38:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
