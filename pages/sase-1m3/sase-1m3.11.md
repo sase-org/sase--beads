@@ -27,4 +27,10 @@ tui: route the Projects tab through `load_project_stats` with progressive paint 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.11.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.11.md) | [sase-1m3.11](sase-1m3.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`0f2052b`](https://github.com/sase-org/sase/commit/0f2052be6a375357e7918fdea02d68032eae9326) | feat(tui): migrate Statistics Projects tab to shared report | [sase-1m3.11](sase-1m3.11.md) | 2026-10-19 13:09:08 EDT |
