@@ -20,14 +20,20 @@ headroom: record the measured runway and the open size request in docs/pypi-rete
 ## Dependencies
 
 - **Depends on:** [sase-1my.1](sase-1my.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1my.5](sase-1my.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1my.5](sase-1my.5.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1my.6](sase-1my.6.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 0 |
+| [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@a908ceb`](https://github.com/sase-org/sase-core/commit/a908ceb30ca385ec3ac564f1a84203ff02054a0a) | feat(pypi): add runway threshold and weekly headroom alert | [sase-1my.4](sase-1my.4.md) | 2026-10-19 11:17:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
