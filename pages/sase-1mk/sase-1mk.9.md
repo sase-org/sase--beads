@@ -2,10 +2,26 @@
 
 [Bead Pages](../README.md) / [sase-1mk](README.md) / sase-1mk.9
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1mk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.land.md) · **Assignee:** `sase-1mk.9.land`
-**Created:** 2026-10-18 16:47:59 EDT
+**Created:** 2026-10-18 16:47:59 EDT · **Closed:** 2026-10-19 09:09:30 EDT
 **Plan:** [202610/ship\_v0\_18\_0\_post\_repair\_reds.md](https://github.com/sase-org/sase--plans/blob/main/202610/ship_v0_18_0_post_repair_reds.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/ship_v0_18_0_post_repair_reds.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:9081ec33b5a3236258f4df39 | Release proof for the post-repair landing closeout. |
+| related | file:explicit:f26a32de792db684b7c3d8bd | Final release proof for the post-repair landing closeout. |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/ship_v0_18_0_post_repair_reds.md
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -33,6 +49,8 @@ Not a blocker: the Full CI 3.12 leg ran 83-93 min against its 120-min timeout (s
 [2026-10-19T03:57:11Z · sase-1mk.9.land] ADDITIONAL LANDER FOLLOW-UP: filed bug task sase-1mv (medium). The scoped 'sase tool run check' never selects the source-scanning marker AST audits: there is no import edge, and they are outside the 30 s contract set. That is how e5c02dc8a4 passed its scoped check and still reddened Master Gate and Full CI. The gap predates this epic, so it is a separate task. The nested repair epic fixes only the catalog drift (sase-1mt).
 
 [2026-10-19T03:58:30Z · sase-1mk.9.land] NESTED REPAIR EPIC (Landing step 3, repair path for FULL_CI_RED): proposing child epic plan 'Repair the marker-audit catalog drift from e5c02dc8a4 and ship sase v0.18.0 through ci_watch' with parent_bead sase-1mk.9. The child owns two phases outright. (1) marker-audit (small): teach the marker mutation/path-passing AST audits about write_json_marker_atomic and review write_done_marker_and_update_index and write_error_done_marker, resolving task sase-1mt and all 4 failing nodes. (2) watch (small): the verbatim Phase watch and close table. Its Landing section is this epic's Landing, copied verbatim. This epic stays open, with no close, symvision pass or plan status change. The child's lander resumes this Landing at step 4 through parent_bead after it confirms the release.
+
+[2026-10-19T13:09:30Z · sase-1mk.9.7.land] PARENT LANDING COMPLETE: Re-read this epic and every direct phase note, the canceled watch verdict, and the linked plan. Phases 9.1-9.5 are done, 9.6 remains historically canceled, and nested release repair 9.7 closed normally after all release obligations passed. Release evidence: file:explicit:f26a32de792db684b7c3d8bd. PR #299 and sase v0.18.0 are published; core v0.42.1 is published; Full CI, Master Gate, Publish and fresh install passed; final sase tool run check passed. The marker-audit repair is on origin/master. Follow-ups remain accurately scoped: 1mv and v8 are open, l8/1ky were not falsely closed, and 1i5.9.1/1jz retain their independent scope. All stale 1lh/1kx/1c1 release chains were superseded. No symbols remain.
 
 ## Agents
 

@@ -21,7 +21,7 @@ marker-audit: teach the marker mutation and path-passing audits about write_json
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.9.7.2](sase-1mk.9.7.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1mk.9.7.2](sase-1mk.9.7.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -34,3 +34,15 @@ marker-audit: teach the marker mutation and path-passing audits about write_json
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`850b9fd`](https://github.com/sase-org/sase/commit/850b9fdfcb8e691ecf9c19926535439e84e003d8) | fix(tests): recognize atomic JSON marker writes in artifact audits | [sase-1mk.9.7.1](sase-1mk.9.7.1.md) | 2026-10-19 00:47:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.9.7.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.7.1/README.md
+
+<!-- sase:referenced-by:end -->
