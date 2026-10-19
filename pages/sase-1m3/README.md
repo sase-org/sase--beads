@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1m3
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.1s.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.research.1s.linker.w0.md) · **Assignee:** `sase-1m3.land`
-**Created:** 2026-10-16 22:05:20 EDT
+**Created:** 2026-10-16 22:05:20 EDT · **Closed:** 2026-10-19 18:01:18 EDT
 **Plan:** [202610/sase\_stats\_project.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md)
 
 <!-- sase:links:start -->
@@ -84,6 +84,22 @@ on the plan  ·  Runs = agent runs launched on this machine, by launch time
 More: -g repo · -g patch · -g model · -r all · -j        Definitions: sase stats
 project -h CLI acceptance scope:  and . Their exact help expectations use the Python 3.12-style argparse option layout , while Python 3.14 renders . An isolated rerun reproduced both. This is a cross-version parser-help assertion issue in the new stats command, so route it through the active acceptance/landing work; the independent reproduction is also recorded on sase-14p as a corroborating argparse help-formatting report. The newly added contract test manifest mismatch from the same check was resolved by refreshing ; its focused check passes.
 
+[2026-10-19T20:14:07Z · sase-1my.land] CLEAN-BASE REPRODUCTION: The final E1 ToolRun 20c517b32902455dddee1b8dde1b449b surfaced the same two Python 3.14.7 stats parser-help failures. I recreated an unmodified worktree at primary HEAD a9046529ca and ran test_project_help_golden plus test_project_help_includes_definitions_and_examples there; both failed identically in 5.05 seconds. The golden expects the Python 3.12 spelling -f {json,markdown,rich}, --format, while Python 3.14 emits -f, --format {json,markdown,rich}. This confirms the final E1 check failures reproduce on the clean base and are outside E1. The existing corroboration on sase-14p already records the cross-version argparse help-formatting root cause; no new task was created.
+
+[2026-10-19T20:26:36Z · sase-1m3.land] LAND FOLLOW-UP TRIAGE (sase-1m3.land), every PROPOSED FOLLOW-UP from phases .1-.12 plus nested epics:
+1. Skipped stats decision record (stats_decision_record=no, no human review; proposed by .1#1 .2#2 .3#1 .4#1 .5#1 .6#1 .7#1 .8#1 .9#1 .10#1 .11#1 .12#2) -> new memory task sase-1n3 for a human to decide; no memory edited.
+2. Warm project_stats latency (.12#1: 3,158 ms output+runs, 1,128 ms code vs 150/500 ms) -> new bug sase-1n1 (medium). Land profiling at 4e5b7d2eb6: warm output ~2.1 s, runs ~0.53 s, code ~1.6 s, request build ~0.28 s; ~48% of py-spy samples sleep in the 5 ms child-exit poll (file_history/runner.rs WAIT_POLL_INTERVAL) and one tiny project costs ~60 git spawns per warm query. The approved plan (sec. 20) sends >2x budget misses with evidence to follow-ups, so this is filed rather than held as epic work.
+3. Code cold 7.6 s / changed-tip 0.92 s budget misses (.7#2-#4, epic note #3) -> new bug sase-1n2 (large), related to sase-1n1; same plan rule.
+4. Guide candidate for sase stats project (.10#2) -> new feature sase-1n4 (small), following the sase-1m1/sase-1m8 guide-candidate convention.
+5. Sec. 22 ideas (.12#3) -> the other seven CLI views filed as feature sase-1n5 (large); declared_by reuse noted on existing sase-1l2 (also .2#1); non-deadlocking file-history batches already sase-1mb; the remaining ideas (fleet-wide Runs, churn/growth, sparklines, release tag, cost/tokens, --as-of, role globs, CSV/auto
+
+… and 6238 more characters
+
+## Attachments
+
+- 🔒 stats\_projects\_1.png · image/png · 1482×1026 · 229.151 KiB (private attachment)
+- 🔒 stats\_projects\_2.png · image/png · 1482×1026 · 229.401 KiB (private attachment)
+
 ## References
 
 - file:explicit:7a86bb9a4fdfa3b2768be6c1
@@ -109,7 +125,7 @@ project -h CLI acceptance scope:  and . Their exact help expectations use the Py
 
 ```mermaid
 flowchart TD
-    n0["sase-1m3: sase stats project: one shared Projects report with honest model attribution [in_progress]"]
+    n0["sase-1m3: sase stats project: one shared Projects report with honest model attribution [closed]"]
     n1["sase-1m3.1: Write-time model provenance and the commit-record projection fix [closed]"]
     n2["sase-1m3.10: The sase stats group and the project command [closed]"]
     n3["sase-1m3.11: Statistics → Projects tab migration [closed]"]
@@ -211,7 +227,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 3 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.9.md) | [sase-1m3.9](sase-1m3.9.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.land/README.md) | [sase-1m3](README.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.land.md) | [sase-1m3](README.md) | 1 |
 
 ## Commits
 
@@ -243,6 +259,7 @@ flowchart TD
 | sase | [`a53f10f`](https://github.com/sase-org/sase/commit/a53f10f6a6ce1103dfe7ce30653ba6712ed24478) | feat(stats): add sase stats project CLI | [sase-1m3.10](sase-1m3.10.md) | 2026-10-19 12:23:58 EDT |
 | sase | [`0f2052b`](https://github.com/sase-org/sase/commit/0f2052be6a375357e7918fdea02d68032eae9326) | feat(tui): migrate Statistics Projects tab to shared report | [sase-1m3.11](sase-1m3.11.md) | 2026-10-19 13:09:08 EDT |
 | sase | [`4e5b7d2`](https://github.com/sase-org/sase/commit/4e5b7d2eb6feff3d0c95f9f71d91ccbb494607cf) | feat(stats): complete project stats acceptance checks | [sase-1m3.12](sase-1m3.12.md) | 2026-10-19 15:45:51 EDT |
+| sase | [`03c7231`](https://github.com/sase-org/sase/commit/03c7231e11fc68161534ec366c8a399ca53f24f7) | feat(stats): keep Projects report painted across refreshes and stabilize help | [sase-1m3](README.md) | 2026-10-19 18:03:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -44,3 +44,15 @@ acceptance: add the CLI-to-TUI parity and registry option-map tests, verify inva
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4e5b7d2`](https://github.com/sase-org/sase/commit/4e5b7d2eb6feff3d0c95f9f71d91ccbb494607cf) | feat(stats): complete project stats acceptance checks | [sase-1m3.12](sase-1m3.12.md) | 2026-10-19 15:45:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.12--1][1] | Verify the assigned phase closed with visual outcome and follow-ups recorded | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.12.md
+
+<!-- sase:referenced-by:end -->
