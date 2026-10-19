@@ -54,7 +54,7 @@ Existing follow-up triage remains: memory task sase-1ms, flake task sase-1mr, +1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 2 |
+| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 3 |
 
 ## Commits
 
@@ -62,6 +62,7 @@ Existing follow-up triage remains: memory task sase-1ms, flake task sase-1mr, +1
 |---|---|---|---|---|
 | sase-core | [`sase-core@6a626d1`](https://github.com/sase-org/sase-core/commit/6a626d10091dd3888973d77dd2b55a92d8cd41f9) | fix(project-stats): complete classifier and snapshot landing | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:27:23 EDT |
 | sase | [`dd963c0`](https://github.com/sase-org/sase/commit/dd963c0fa64ab25beeaf84ac8e9d073bbb518c91) | fix(stats): align project code counter with SLOC | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:32:50 EDT |
+| sase--plans | [`sase--plans@b0dac8f`](https://github.com/sase-org/sase--plans/commit/b0dac8fe62572f4f659225ee43bc083c8ea51d2c) | docs(plan): mark project stats plan done | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:36:22 EDT |
 
 <!-- sase:referenced-by:start -->
 
