@@ -13,7 +13,7 @@ headroom: record the measured runway and the open size request in docs/pypi-rete
 
 ## Dependencies
 
-- **Depends on:** [sase-1my.1](sase-1my.1.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1my.1](sase-1my.1.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1my.5](sase-1my.5.md) ◐ · ⧖ 2026-10-19
 - **Blocks:** [sase-1my.6](sase-1my.6.md) ◐ · ⧖ 2026-10-19
 

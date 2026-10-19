@@ -7,6 +7,18 @@
 **Created:** 2026-10-19 10:16:26 EDT
 **Plan:** [202610/e1\_installable\_family.md](https://github.com/sase-org/sase--plans/blob/main/202610/e1_installable_family.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/e1_installable_family.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/e1_installable_family.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 A clean `uv tool install` of sase, alone or with the family plugins, installs the newest family release on Linux and macOS, and that release works. Retention can never delete, and no family release can declare, a dependency that a supported release cannot resolve. A broken install is caught within a day and reaches an owner.
@@ -15,8 +27,8 @@ A clean `uv tool install` of sase, alone or with the family plugins, installs th
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1my.1](sase-1my.1.md) | Protected-set retention in sase-core, failing closed | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
-| [sase-1my.2](sase-1my.2.md) | Family install canary on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 1 |
+| [sase-1my.1](sase-1my.1.md) | Protected-set retention in sase-core, failing closed | ✓ closed | medium | 2026-10-19 | 1 | 1 |
+| [sase-1my.2](sase-1my.2.md) | Family install canary on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 0 |
 | [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [sase-1my.4](sase-1my.4.md) | Core storage runway line and headroom alert | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
 | [sase-1my.5](sase-1my.5.md) | Recovery runbook, release-safety docs, and the TestPyPI drill | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
@@ -27,7 +39,7 @@ A clean `uv tool install` of sase, alone or with the family plugins, installs th
 ```mermaid
 flowchart TD
     n0["sase-1my: E1: Installable family — retention by need, published floors, family canary [in_progress]"]
-    n1["sase-1my.1: Protected-set retention in sase-core, failing closed [in_progress]"]
+    n1["sase-1my.1: Protected-set retention in sase-core, failing closed [closed]"]
     n2["sase-1my.2: Family install canary on Linux and macOS [closed]"]
     n3["sase-1my.3: release-dependency-floor check on plugin release PRs [in_progress]"]
     n4["sase-1my.4: Core storage runway line and headroom alert [in_progress]"]
@@ -54,8 +66,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1my.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md) | [sase-1my.1](sase-1my.1.md) | 0 |
-| [bbugyi200.athena.sase-1my.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md) | [sase-1my.2](sase-1my.2.md) | 1 |
+| [bbugyi200.athena.sase-1my.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md) | [sase-1my.1](sase-1my.1.md) | 1 |
+| [bbugyi200.athena.sase-1my.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md) | [sase-1my.2](sase-1my.2.md) | 0 |
 | [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 0 |
 | [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 0 |
 | [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 0 |
@@ -66,4 +78,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`6a0090f`](https://github.com/sase-org/sase/commit/6a0090f0d90008a4ad382a608dc2196eed63813d) | feat(install): add family install canary workflow and checks | [sase-1my.2](sase-1my.2.md) | 2026-10-19 10:41:36 EDT |
+| sase-core | [`sase-core@9876b3a`](https://github.com/sase-org/sase-core/commit/9876b3ae557e7dfacb012507d80b22ebb2a6dc7f) | feat(releases): protect PyPI consumer windows | [sase-1my.1](sase-1my.1.md) | 2026-10-19 10:46:42 EDT |
