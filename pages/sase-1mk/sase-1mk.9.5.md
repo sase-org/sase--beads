@@ -19,7 +19,7 @@ runtime-flakes: root-cause test_agent_run_stops_on_generic_output and the provid
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

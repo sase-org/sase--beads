@@ -19,7 +19,7 @@ new-project-owner: fix the sase-1mk.6 RepoCreationFormWidget readiness regressio
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

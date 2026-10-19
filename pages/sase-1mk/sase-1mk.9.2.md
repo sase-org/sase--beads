@@ -23,7 +23,7 @@ jump-golden: decide whether the db14df00e6 JUMP title change is intended, then f
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

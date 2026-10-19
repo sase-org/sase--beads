@@ -27,7 +27,7 @@ link-follow-kind: fix the sase-1mk.7 regression that completes a kind-mismatched
 
 ## Dependencies
 
-- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [sase-1mk.9.6](sase-1mk.9.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -40,3 +40,15 @@ link-follow-kind: fix the sase-1mk.7 regression that completes a kind-mismatched
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f457166`](https://github.com/sase-org/sase/commit/f457166f4a6e2edae0971ed33f08152b7c436bbf) | fix(ace): preserve kind-corrected artifact link follows | [sase-1mk.9.3](sase-1mk.9.3.md) | 2026-10-18 18:56:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1mk.9.3--1][1] | Verify phase closure and its recorded stress/CI evidence | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.3.md
+
+<!-- sase:referenced-by:end -->
