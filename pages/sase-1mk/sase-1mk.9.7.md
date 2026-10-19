@@ -134,13 +134,14 @@ sase 0.18.0 is on PyPI, published from release-please PR #299 after ci_watch mer
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1mk.9.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.7.land.md) | [sase-1mk.9.7](sase-1mk.9.7.md) | 1 |
+| [bbugyi200.athena.sase-1mk.9.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.7.land.md) | [sase-1mk.9.7](sase-1mk.9.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`41b0a73`](https://github.com/sase-org/sase/commit/41b0a73b069f0b50fa61aa16d566460c17aab528) | fix(release-watch): verify installed release inventory | [sase-1mk.9.7](sase-1mk.9.7.md) | 2026-10-19 09:15:15 EDT |
+| sase--plans | [`sase--plans@8b79b1a`](https://github.com/sase-org/sase--plans/commit/8b79b1ada8e688254333e01c7ff8a7ca599edb4d) | docs(plans): mark release landing plans complete | [sase-1mk.9.7](sase-1mk.9.7.md) | 2026-10-19 09:17:05 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1mk.9.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.6.md) | [sase-1mk.9.6](sase-1mk.9.6.md) | 0 |
 | [bbugyi200.athena.sase-1mk.9.7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1mk.9.7.1/README.md) | [sase-1mk.9.7.1](sase-1mk.9.7.1.md) | 1 |
 | [bbugyi200.athena.sase-1mk.9.7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.7.2.md) | [sase-1mk.9.7.2](sase-1mk.9.7.2.md) | 0 |
-| [bbugyi200.athena.sase-1mk.9.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.7.land.md) | [sase-1mk.9.7](sase-1mk.9.7.md) | 1 |
+| [bbugyi200.athena.sase-1mk.9.7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.7.land.md) | [sase-1mk.9.7](sase-1mk.9.7.md) | 2 |
 | [bbugyi200.athena.sase-1mk.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.9.land.md) | [sase-1mk.9](sase-1mk.9.md) | 0 |
 | [bbugyi200.athena.sase-1mk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1mk.land.md) | [sase-1mk](README.md) | 0 |
 
@@ -147,6 +147,7 @@ flowchart TD
 | sase | [`f457166`](https://github.com/sase-org/sase/commit/f457166f4a6e2edae0971ed33f08152b7c436bbf) | fix(ace): preserve kind-corrected artifact link follows | [sase-1mk.9.3](sase-1mk.9.3.md) | 2026-10-18 18:56:29 EDT |
 | sase | [`850b9fd`](https://github.com/sase-org/sase/commit/850b9fdfcb8e691ecf9c19926535439e84e003d8) | fix(tests): recognize atomic JSON marker writes in artifact audits | [sase-1mk.9.7.1](sase-1mk.9.7.1.md) | 2026-10-19 00:47:30 EDT |
 | sase | [`41b0a73`](https://github.com/sase-org/sase/commit/41b0a73b069f0b50fa61aa16d566460c17aab528) | fix(release-watch): verify installed release inventory | [sase-1mk.9.7](sase-1mk.9.7.md) | 2026-10-19 09:15:15 EDT |
+| sase--plans | [`sase--plans@8b79b1a`](https://github.com/sase-org/sase--plans/commit/8b79b1ada8e688254333e01c7ff8a7ca599edb4d) | docs(plans): mark release landing plans complete | [sase-1mk.9.7](sase-1mk.9.7.md) | 2026-10-19 09:17:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
