@@ -168,7 +168,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 1 |
 | [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 2 |
 | [bbugyi200.athena.sase-1my.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md) | [sase-1my.6](sase-1my.6.md) | 1 |
-| [bbugyi200.athena.sase-1my.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1my.land.md) | [sase-1my](README.md) | 1 |
+| [bbugyi200.athena.sase-1my.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1my.land.md) | [sase-1my](README.md) | 2 |
 
 ## Commits
 
@@ -185,6 +185,7 @@ flowchart TD
 | sase | [`2a83edf`](https://github.com/sase-org/sase/commit/2a83edf9961fc0f9e7b241987af71ab7149ee7aa) | feat(release): add recovery runbook, release-safety docs, and TestPyPI drill | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:57:49 EDT |
 | sase | [`a904652`](https://github.com/sase-org/sase/commit/a9046529cac4783593fb9161b10ba25334517af4) | fix(install): derive canary isolated paths from RUNNER\_TEMP via GITHUB\_ENV | [sase-1my.6](sase-1my.6.md) | 2026-10-19 13:38:32 EDT |
 | sase-core | [`sase-core@e0ddc10`](https://github.com/sase-org/sase-core/commit/e0ddc100eb32097393daa0fd099b3017b1b1cfee) | fix(pypi): pin setup-uv v4 and canonicalize the delete guard | [sase-1my](README.md) | 2026-10-19 17:46:02 EDT |
+| sase | [`5751ff6`](https://github.com/sase-org/sase/commit/5751ff6745c6ce2ea83b74dcd64f1e07996704f0) | fix(ci): track install-smoke failures and load plugins live | [sase-1my](README.md) | 2026-10-19 17:51:22 EDT |
 
 <!-- sase:referenced-by:start -->
 
