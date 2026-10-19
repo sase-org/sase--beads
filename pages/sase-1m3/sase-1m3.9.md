@@ -22,7 +22,7 @@ render: add the shared report groupings and legends to the registry, and build p
 ## Dependencies
 
 - **Blocks:** [sase-1m3.10](sase-1m3.10.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1m3.11](sase-1m3.11.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.11](sase-1m3.11.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.8](sase-1m3.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents

@@ -23,7 +23,7 @@ provenance: stamp `SASE_MODEL=<provider>/<model>` on agent commits and `proposed
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.12](sase-1m3.12.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.12](sase-1m3.12.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

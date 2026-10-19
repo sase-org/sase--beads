@@ -33,6 +33,57 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-18T22:50:51Z · sase-1m3.7.1.land] DISCOVERED ISSUE (routed by sase-1m3.7.1 land from sase-1m3.7.1.5 note #6 / sase-1m3.7 notes #2,#4; belongs with budgets phase sase-1m3.12): Project Code runtime misses two parent-design budgets. Release binding on sase tree c4299924ba07377277914e4c7b6304b3f1ec90e7 (14,477 tracked / 12,432 code files, core b8737fa5, tokei SLOC): cold 7.628 s vs <=5 s (fixture 6.397-8.571 s); warm after one commit 0.922 s vs <0.5 s; same-tip 37.187 ms meets <150 ms. Audit: 13,249 unique cold blob reads, zero same-tip, exactly one changed-tip blob, changed result == cold. Instrumented changed-tip Git time 0.575 s = ls-tree 0.177 s + committed check-attr 0.336 s + cat-file 0.005 s; host load 12-14 on 16 vCPU. Nonblank baseline also missed changed-tip (0.616 s), so the tokei adoption is not the cause. Concrete leads: (1) on a cached-tree transition use 'git diff-tree -r -z <cached_tree> <new_tree>' and only re-run check-attr for changed paths when no .gitattributes blob changed, instead of a full ls-tree + full check-attr; (2) parallelize cold per-blob classification/counting; (3) the sase-1m3.7.1 landing tale fixes the per-blob cache growing forever and the double BlobEvidence scan, both of which add to warm/cold cost. Evidence: report file:explicit:f8fc12f54cb3f9b647451035, bundle file:explicit:cf0a3ec863e10c52c0785b78. Not filed as a separate task because the approved plan sends unresolved budget misses to the outer epic's land agent, and sase-1m3.12 owns measuring budgets.
 
+[2026-10-19T19:13:30Z · bryanbugyi34@gmail.com] I think the projects sub-tab of the statistics tab might be showing a spinning circle every few seconds when it refreshes. The Epic Lander should look into this, confirm/deny my suspicion, and fix the issue if it's really a problem.
+
+[2026-10-19T19:33:26Z · sase-1my.land] DISCOVERED ISSUE: The approved installable-family landing's primary  (ToolRun a62bebef87430fc4fda1ad2c20fca0e5) on Python 3.14.7 reproduced two deterministic failures in the active ╭─ SASE projects · 4 enabled ──────────────────────────────────────────────────╮
+│ OUTPUT   538 commits · 97% by agents · 135 plans committed (39 epic · 96     │
+│          tale)                                                               │
+│ CODE     3.9M lines · 40% tests · 12 of 12 code repos                        │
+│ RUNS     1,480 runs on athena · ✓ 263 × 0 · 18% success · 550 h agent time · │
+│          97 Patches                                                          │
+│          Commits by provider  ██████▓▓▓▓▓▒▒▒░█   🤖 codex 200  🚀 grok 173   │
+│          🦋 muse 84  🎭 claude 20  ? 46  ∅ 15                                │
+╰────────────────── Last 7 days · 2026-10-12 15:33 EDT – 2026-10-19 15:33 EDT ─╯
+PROJECT · Last 7 days · 2026-10-12 15:33 EDT – 2026-10-19 15:33 EDT             
+PROJECT    COMMITS   AGENT   PLANS   CODE LINES   TESTS    AGE    RUNS   SUCCESS
+────────────────────────────────────────────────────────────────────────────────
+■ sase         295     96%       0    3,061,878     47%   8 mo     767       16%
+■              239    100%     134      818,940     18%   4 mo     687       20%
+bob-cli                                                                         
+■                4      0%       1            0      0%    2 d      24       21%
+tailnet                                                                         
+■                0      0%       0        4,620      0%   3 mo       0         —
+actstat                                                                         
+■ home           —       —       —            —       —      —       1        0%
+(unregi…                                                                        
+■ proj           —       —       —            —       —      —       1        0%
+(unregi…                                                                        
+                                                                                
+total          538     97%     135    3,885,438     40%   8 mo   1,480       18%
+ᵃ runs launched on this machine (athena).
+Model recorded for 477 of 523 agent commits (91%) · 46 unresolved: 5 agent page 
+has no model, 40 agent page not published, 1 session members disagree on model
+Commits: code repos' default branches, by commit time · refs fetched just now 
+(-F to refresh)
+Plans: first committed to the plan store, credited to the proposing model · 
+Runs: this machine (athena) only
+Issues: gh_bbugyi200__actstat.attachments: git rev-parse --show-toplevel did not
+succeed · gh_bbugyi200__actstat.attachments-private: git rev-parse 
+--show-toplevel did not succeed · gh_bbugyi200__tailnet.attachments-private: git
+rev-parse --show-toplevel did not succeed · gh_bobs-org__bob-cli.attachments: 
+git rev-parse --show-toplevel did not succeed · 
+gh_bobs-org__bob-cli.attachments-private: git rev-parse --show-toplevel did not 
+succeed · gh_sase-org__sase.attachments: git rev-parse --show-toplevel did not 
+succeed · gh_sase-org__sase.attachments-private: git rev-parse --show-toplevel 
+did not succeed
+Commits = default-branch commits in code repos, by committer time in range  ·  
+Plans = plan documents first committed to the plan store, by first-add committer
+time  ·  ? = model not recorded (unpublished page, empty metadata, ambiguous 
+session, or malformed tag)  ·  ∅ = no agent footer on the commit, or no proposer
+on the plan  ·  Runs = agent runs launched on this machine, by launch time
+More: -g repo · -g patch · -g model · -r all · -j        Definitions: sase stats
+project -h CLI acceptance scope:  and . Their exact help expectations use the Python 3.12-style argparse option layout , while Python 3.14 renders . An isolated rerun reproduced both. This is a cross-version parser-help assertion issue in the new stats command, so route it through the active acceptance/landing work; the independent reproduction is also recorded on sase-14p as a corroborating argparse help-formatting report. The newly added contract test manifest mismatch from the same check was resolved by refreshing ; its focused check passes.
+
 ## References
 
 - file:explicit:7a86bb9a4fdfa3b2768be6c1
@@ -43,8 +94,8 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 |---|---|---|---|---|---:|---:|
 | [sase-1m3.1](sase-1m3.1.md) | Write-time model provenance and the commit-record projection fix | ✓ closed | medium | 2026-10-16 | 1 | 2 |
 | [sase-1m3.10](sase-1m3.10.md) | The sase stats group and the project command | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [sase-1m3.11](sase-1m3.11.md) | Statistics → Projects tab migration | ◐ in_progress | large | 2026-10-16 | 1 | 1 |
-| [sase-1m3.12](sase-1m3.12.md) | Cross-surface parity, budgets, and real-data verification | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
+| [sase-1m3.11](sase-1m3.11.md) | Statistics → Projects tab migration | ✓ closed | large | 2026-10-16 | 1 | 1 |
+| [sase-1m3.12](sase-1m3.12.md) | Cross-surface parity, budgets, and real-data verification | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.3](sase-1m3.3.md) | Statistics registry, neutral render primitives, palette, and range grammar | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
@@ -61,8 +112,8 @@ flowchart TD
     n0["sase-1m3: sase stats project: one shared Projects report with honest model attribution [in_progress]"]
     n1["sase-1m3.1: Write-time model provenance and the commit-record projection fix [closed]"]
     n2["sase-1m3.10: The sase stats group and the project command [closed]"]
-    n3["sase-1m3.11: Statistics → Projects tab migration [in_progress]"]
-    n4["sase-1m3.12: Cross-surface parity, budgets, and real-data verification [in_progress]"]
+    n3["sase-1m3.11: Statistics → Projects tab migration [closed]"]
+    n4["sase-1m3.12: Cross-surface parity, budgets, and real-data verification [closed]"]
     n5["sase-1m3.2: Per-project linked-repo resolution and declared-by provenance [closed]"]
     n6["sase-1m3.3: Statistics registry, neutral render primitives, palette, and range grammar [closed]"]
     n7["sase-1m3.4: sase-core project_stats wire, git history walk, cache, and footer attribution [closed]"]
@@ -140,7 +191,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 2 |
 | [bbugyi200.apollo.sase-1m3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.10/README.md) | [sase-1m3.10](sase-1m3.10.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.11.md) | [sase-1m3.11](sase-1m3.11.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.12/README.md) | [sase-1m3.12](sase-1m3.12.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.12.md) | [sase-1m3.12](sase-1m3.12.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.2/README.md) | [sase-1m3.2](sase-1m3.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.3/README.md) | [sase-1m3.3](sase-1m3.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.4.md) | [sase-1m3.4](sase-1m3.4.md) | 0 |
@@ -191,6 +242,7 @@ flowchart TD
 | sase | [`9c4c262`](https://github.com/sase-org/sase/commit/9c4c262559b566309111ca8a37c18d83a62aff26) | feat(stats): add shared Rich and Markdown Projects section renderers | [sase-1m3.9](sase-1m3.9.md) | 2026-10-19 08:50:34 EDT |
 | sase | [`a53f10f`](https://github.com/sase-org/sase/commit/a53f10f6a6ce1103dfe7ce30653ba6712ed24478) | feat(stats): add sase stats project CLI | [sase-1m3.10](sase-1m3.10.md) | 2026-10-19 12:23:58 EDT |
 | sase | [`0f2052b`](https://github.com/sase-org/sase/commit/0f2052be6a375357e7918fdea02d68032eae9326) | feat(tui): migrate Statistics Projects tab to shared report | [sase-1m3.11](sase-1m3.11.md) | 2026-10-19 13:09:08 EDT |
+| sase | [`4e5b7d2`](https://github.com/sase-org/sase/commit/4e5b7d2eb6feff3d0c95f9f71d91ccbb494607cf) | feat(stats): complete project stats acceptance checks | [sase-1m3.12](sase-1m3.12.md) | 2026-10-19 15:45:51 EDT |
 
 <!-- sase:referenced-by:start -->
 

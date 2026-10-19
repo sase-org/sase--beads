@@ -23,7 +23,7 @@ cli: register `sase stats` and `sase stats project` with rich/markdown/json outp
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.12](sase-1m3.12.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.12](sase-1m3.12.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.5](sase-1m3.5.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.6](sase-1m3.6.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.7](sase-1m3.7.md) ✓ · ⧖ 2026-10-16
