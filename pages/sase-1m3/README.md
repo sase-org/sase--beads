@@ -52,7 +52,7 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ✓ closed | medium | 2026-10-16 | 1 | 0 |
-| [sase-1m3.9](sase-1m3.9.md) | Shared Rich and Markdown section renderers | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.9](sase-1m3.9.md) | Shared Rich and Markdown section renderers | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 
 ## Lineage
 
@@ -81,7 +81,7 @@ flowchart TD
     n20["sase-1m3.7.1.4: Code facet dispatch, coverage, and deduplicated aggregates [closed]"]
     n21["sase-1m3.7.1.5: Tokei dependency gate and performance evidence [closed]"]
     n22["sase-1m3.8: Python project-stats loader, facade, and view model [closed]"]
-    n23["sase-1m3.9: Shared Rich and Markdown section renderers [in_progress]"]
+    n23["sase-1m3.9: Shared Rich and Markdown section renderers [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2 |
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 3 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
-| [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.9/README.md) | [sase-1m3.9](sase-1m3.9.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.9.md) | [sase-1m3.9](sase-1m3.9.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.land/README.md) | [sase-1m3](README.md) | 0 |
 
 ## Commits
@@ -188,6 +188,7 @@ flowchart TD
 | sase-core | [`sase-core@6a626d1`](https://github.com/sase-org/sase-core/commit/6a626d10091dd3888973d77dd2b55a92d8cd41f9) | fix(project-stats): complete classifier and snapshot landing | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:27:23 EDT |
 | sase | [`dd963c0`](https://github.com/sase-org/sase/commit/dd963c0fa64ab25beeaf84ac8e9d073bbb518c91) | fix(stats): align project code counter with SLOC | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:32:50 EDT |
 | sase--plans | [`sase--plans@b0dac8f`](https://github.com/sase-org/sase--plans/commit/b0dac8fe62572f4f659225ee43bc083c8ea51d2c) | docs(plan): mark project stats plan done | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:36:22 EDT |
+| sase | [`9c4c262`](https://github.com/sase-org/sase/commit/9c4c262559b566309111ca8a37c18d83a62aff26) | feat(stats): add shared Rich and Markdown Projects section renderers | [sase-1m3.9](sase-1m3.9.md) | 2026-10-19 08:50:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

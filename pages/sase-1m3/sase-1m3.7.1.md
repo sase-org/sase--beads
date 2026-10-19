@@ -50,6 +50,8 @@ Passing test ToolRuns: 63a9f3323beb2da7c423ac7524dbcaec (core), 079969d16abef454
 
 Existing follow-up triage remains: memory task sase-1ms, flake task sase-1mr, +1s on sase-1gz/1l3/1ia/1ki, and the runtime issue on outer epic sase-1m3. No triage was repeated.
 
+[2026-10-19T12:38:28Z · sase-1mk.9.7.land] RELEASE OUTCOME (2026-10-19): sase v0.18.0 is published from merge 4b7b981532. Publish 39242329155 and Full CI 39229885153 passed; core v0.42.1 is released with the required macOS job green. The full install and repaired watcher both verified host 0.18.0 with core 0.42.1. Evidence supplement: file:explicit:588c932adae1aadce88ef449; original release record: file:explicit:c1427b09af24705a0b19d2dd.
+
 ## Agents
 
 | Agent | Bead | Commits |

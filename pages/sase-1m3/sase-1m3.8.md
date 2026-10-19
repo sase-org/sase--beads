@@ -25,12 +25,20 @@ loader: add `sase.stats.project.load_project_stats`, which resolves projects, ti
 
 [2026-10-17T20:24:49Z · 8k--1] Second conflict repair: publication encountered incoming mobile-pairing commit 667a5a83c0. Resolved the core pin to 916d5e3a, which includes both 3b3b7401 statistics fixes and the mobile API. All 16 replayed paths retain the prior reviewed repair. Updated evidence: file:explicit:b86b2d80eafbf649cd5961e2. Matching binding validation and 93 focused tests passed. Mandatory main check 48cec9b93899864ca76f9ae4fd6e13b0 FAILED: 23 failed, 56365 passed, 31 skipped; all format/lint/validation/docs stages passed. Thirteen final failed nodes have independent upstream-baseline witnesses. Six newly appearing failures reran as four prompt/header/session failures and two passes (archive navigation and process reaping flakes). PROPOSED FOLLOW-UP: use the exact evidence to reconcile remaining prompt/hint failures with sase-1hy, sase-1ia, and sase-1l3; investigate unmatched failures without treating the gate as green. The generated baseline snapshot was removed after script lint scanned it; logs are preserved.
 
+[2026-10-19T10:11:11Z · sase-1m3.8] CLOSED-BEAD LAUNCH: agent sase-1m3.8 launched against this closed bead; status left closed.
+Launch submitted 2026-10-19T10:09:21.015891Z; run 20261019060923.
+Prior close: 2026-10-17T15:59:04Z · done.
+
+[2026-10-19T10:13:20Z · sase-1m3.8] Closed-phase verification: implementation commit 2cae86a1aa (feat(stats): add shared project statistics loader) is an ancestor of current HEAD. Reviewed the loader phase design and landed facade, request builder, frozen view records, disk cache inventory, and documentation. Re-ran tests/stats/test_project_request.py, tests/stats/test_project_loader.py, tests/stats/test_project_binding.py, and tests/core/test_disk_footprint_inventory.py: 38 passed in 10.01s, including the real Rust binding cold/warm-cache smoke test. sase bead epic-symbols sase-1m3.8 reports no entries. No implementation or memory edits were needed; the phase remains closed and no ancestor was closed.
+
+[2026-10-19T10:13:29Z · sase-1m3.8] Verified landed commit 2cae86a1aa, all 38 focused tests passed, and no epic-symbol entries remain.
+
 ## Dependencies
 
 - **Depends on:** [sase-1m3.2](sase-1m3.2.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.3](sase-1m3.3.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.4](sase-1m3.4.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1m3.9](sase-1m3.9.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.9](sase-1m3.9.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
