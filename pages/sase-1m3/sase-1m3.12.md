@@ -52,7 +52,9 @@ acceptance: add the CLI-to-TUI parity and registry option-map tests, verify inva
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.12--1][1] | Verify the assigned phase closed with visual outcome and follow-ups recorded | 3 |
+| read-by | [agent:sase-1n6.1][2] | Check whether the active stats project work owns the reproduced project-help tests | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.12.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1n6.1/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/sase_stats_project.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md
 
@@ -227,7 +227,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 3 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.9.md) | [sase-1m3.9](sase-1m3.9.md) | 1 |
-| [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.land.md) | [sase-1m3](README.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.land.md) | [sase-1m3](README.md) | 2 |
 
 ## Commits
 
@@ -260,6 +260,7 @@ flowchart TD
 | sase | [`0f2052b`](https://github.com/sase-org/sase/commit/0f2052be6a375357e7918fdea02d68032eae9326) | feat(tui): migrate Statistics Projects tab to shared report | [sase-1m3.11](sase-1m3.11.md) | 2026-10-19 13:09:08 EDT |
 | sase | [`4e5b7d2`](https://github.com/sase-org/sase/commit/4e5b7d2eb6feff3d0c95f9f71d91ccbb494607cf) | feat(stats): complete project stats acceptance checks | [sase-1m3.12](sase-1m3.12.md) | 2026-10-19 15:45:51 EDT |
 | sase | [`03c7231`](https://github.com/sase-org/sase/commit/03c7231e11fc68161534ec366c8a399ca53f24f7) | feat(stats): keep Projects report painted across refreshes and stabilize help | [sase-1m3](README.md) | 2026-10-19 18:03:58 EDT |
+| sase--plans | [`sase--plans@c6ccbfd`](https://github.com/sase-org/sase--plans/commit/c6ccbfd67e47f4e4b8b8404bb64d627bd3174aef) | chore(plans): mark sase stats project plan done | [sase-1m3](README.md) | 2026-10-19 18:09:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -272,11 +273,15 @@ flowchart TD
 | read-by | [agent:sase-1m3.3][3] | Need parent epic DECISIONS, phases, and design | 2 |
 | read-by | [agent:sase-1m3.6][4] | Need parent epic plan and predecessor phase scope | 1 |
 | read-by | [agent:sase-1m3.7.1.land--2][5] | Final verification that only the assigned phase closed and the outer epic remains active | 2 |
+| read-by | [agent:sase-1m3.land--1][6] | verify close landed | 2 |
+| read-by | [agent:sase-1n6.1][7] | Check whether the active stats project work owns the reproduced project-help tests | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.8k.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1lh.7.5.4.3.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.3/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.6/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.land.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1n6.1/README.md
 
 <!-- sase:referenced-by:end -->
