@@ -17,7 +17,7 @@ retention: derive a consumer-driven protected set in pypi_retention.py, add a de
 
 ## Dependencies
 
-- **Blocks:** [sase-1my.4](sase-1my.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1my.4](sase-1my.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1my.6](sase-1my.6.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
@@ -31,3 +31,15 @@ retention: derive a consumer-driven protected set in pypi_retention.py, add a de
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9876b3a`](https://github.com/sase-org/sase-core/commit/9876b3ae557e7dfacb012507d80b22ebb2a6dc7f) | feat(releases): protect PyPI consumer windows | [sase-1my.1](sase-1my.1.md) | 2026-10-19 10:46:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1my.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md
+
+<!-- sase:referenced-by:end -->

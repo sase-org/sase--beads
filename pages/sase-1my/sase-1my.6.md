@@ -16,7 +16,7 @@ exit: prove V-E1a to V-E1c live, run the drill if it is set up, write the decisi
 - **Depends on:** [sase-1my.1](sase-1my.1.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1my.2](sase-1my.2.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1my.3](sase-1my.3.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [sase-1my.4](sase-1my.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1my.4](sase-1my.4.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1my.5](sase-1my.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
