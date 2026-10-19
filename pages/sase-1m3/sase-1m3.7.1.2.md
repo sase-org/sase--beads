@@ -51,7 +51,9 @@ Prior close: 2026-10-17T13:20:59Z · done.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.2--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Need verification evidence for the completed snapshot phase closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

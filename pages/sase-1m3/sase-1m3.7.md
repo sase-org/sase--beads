@@ -42,7 +42,9 @@ core-code: measure role-classified lines over each code repo's committed tree wi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.5--6][1] | Verify parent received final phase evidence and runtime follow-ups | 1 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Verify parent phase scope before closing it after child epic completion | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

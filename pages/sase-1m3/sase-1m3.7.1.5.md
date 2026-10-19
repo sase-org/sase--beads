@@ -18,7 +18,7 @@
 | related | file:explicit:ea24bb0b3953dc8daa075f39 | attached via sase artifact create --bead |
 | related | file:explicit:f8fc12f54cb3f9b647451035 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -78,7 +78,9 @@ measurement: evaluate tokei against the integrated nonblank baseline, measure co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.5--6][1] | Check final closure notes before recovery finalization | 4 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Need verification evidence for the completed measurement phase closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

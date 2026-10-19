@@ -40,7 +40,9 @@ query-integration: populate project, repository, and portfolio code results, att
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.4][1] | Need full notes, decisions, remaining work, and design file | 5 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Need verification evidence for the completed integration phase closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

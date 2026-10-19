@@ -39,7 +39,9 @@ records-snapshot: count record-repository commits and tracked files, measure aut
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Need verification evidence for the completed records phase closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

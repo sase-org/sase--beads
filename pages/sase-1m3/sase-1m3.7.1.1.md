@@ -39,7 +39,9 @@ counter-policy: implement pure nonblank counting and role classification, and fi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1m3.7.1.1][1] | Verify the assigned phase is closed with its verification note | 2 |
+| read-by | [agent:sase-1m3.7.1.land--2][2] | Need verification evidence for the completed counter policy phase closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->

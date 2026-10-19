@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/project_stats_code_records.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:cf44a5d9c96251754e7b7e5f | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/project_stats_code_records.md
 
@@ -54,13 +54,14 @@ Existing follow-up triage remains: memory task sase-1ms, flake task sase-1mr, +1
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6a626d1`](https://github.com/sase-org/sase-core/commit/6a626d10091dd3888973d77dd2b55a92d8cd41f9) | fix(project-stats): complete classifier and snapshot landing | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:27:23 EDT |
+| sase | [`dd963c0`](https://github.com/sase-org/sase/commit/dd963c0fa64ab25beeaf84ac8e9d073bbb518c91) | fix(stats): align project code counter with SLOC | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:32:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -71,9 +72,11 @@ Existing follow-up triage remains: memory task sase-1ms, flake task sase-1mr, +1
 | read-by | [agent:sase-1m3.7.1.1][1] | Need the child epic decisions and phase-wide implementation constraints | 1 |
 | read-by | [agent:sase-1m3.7.1.3][2] | Need the governing epic decisions for the assigned phase | 1 |
 | read-by | [agent:sase-1m3.7.1.4][3] | Need parent epic DECISIONS and phase notes | 1 |
+| read-by | [agent:sase-1m3.7.1.land--2][4] | Verify child epic close note and status after approved landing closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md
 
 <!-- sase:referenced-by:end -->
