@@ -14,8 +14,8 @@ qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decid
 ## Dependencies
 
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [sase-1n6.3](sase-1n6.3.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [sase-1n6.4](sase-1n6.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.3](sase-1n6.3.md) ✓ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.4](sase-1n6.4.md) ○ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.6](sase-1n6.6.md) ◐ · ⧖ 2026-10-19
 
 ## Agents

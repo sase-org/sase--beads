@@ -13,9 +13,9 @@ steward: tools/release_watch becomes a stateless reconciler with typed states, o
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.1](sase-1n6.1.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.1](sase-1n6.1.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [sase-1n6.3](sase-1n6.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.3](sase-1n6.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.8](sase-1n6.8.md) ◐ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
 

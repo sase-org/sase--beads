@@ -25,7 +25,7 @@ exact-build: a new tag-dispatched release.yml with an identity assertion, one bu
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.4](sase-1n6.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.4](sase-1n6.4.md) ○ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.5](sase-1n6.5.md) ◐ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7](sase-1n6.7.md) ◐ · ⧖ 2026-10-19
 
@@ -33,10 +33,16 @@ exact-build: a new tag-dispatched release.yml with an identity assertion, one bu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md) | [sase-1n6.2](sase-1n6.2.md) | 1 |
+| [bbugyi200.athena.sase-1n6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md) | [sase-1n6.2](sase-1n6.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`110214f`](https://github.com/sase-org/sase/commit/110214f51cbe8ea7deb3e08cfa2aa579f00958ac) | feat(release): build once at the tag and seal the candidate manifest | [sase-1n6.2](sase-1n6.2.md) | 2026-10-19 17:36:18 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.2][1] | Need phase scope, notes, remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md
+
+<!-- sase:referenced-by:end -->
