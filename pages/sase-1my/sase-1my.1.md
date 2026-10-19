@@ -18,7 +18,7 @@ retention: derive a consumer-driven protected set in pypi_retention.py, add a de
 ## Dependencies
 
 - **Blocks:** [sase-1my.4](sase-1my.4.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1my.6](sase-1my.6.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1my.6](sase-1my.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

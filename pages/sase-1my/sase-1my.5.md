@@ -20,7 +20,7 @@ runbook: document yank and fix-forward, core backfill, and the sase-side safety 
 - **Depends on:** [sase-1my.2](sase-1my.2.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1my.3](sase-1my.3.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1my.4](sase-1my.4.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1my.6](sase-1my.6.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1my.6](sase-1my.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

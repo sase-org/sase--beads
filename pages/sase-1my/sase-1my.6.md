@@ -2,10 +2,24 @@
 
 [Bead Pages](../README.md) / [sase-1my](README.md) / sase-1my.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.11s](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.11s.md) · **Assignee:** `sase-1my.6` · **Size:** small
-**Created:** 2026-10-19 10:16:27 EDT
+**Created:** 2026-10-19 10:16:27 EDT · **Closed:** 2026-10-19 13:49:32 EDT
 **Plan:** [202610/e1\_installable\_family.md](https://github.com/sase-org/sase--plans/blob/main/202610/e1_installable_family.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1n0][1] | The looping run; notes #5-#26 are the duplicate rechecks |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1n0/README.md
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -84,3 +98,15 @@ exit: prove V-E1a to V-E1c live, run the drill if it is set up, write the decisi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a904652`](https://github.com/sase-org/sase/commit/a9046529cac4783593fb9161b10ba25334517af4) | fix(install): derive canary isolated paths from RUNNER\_TEMP via GITHUB\_ENV | [sase-1my.6](sase-1my.6.md) | 2026-10-19 13:38:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1my.6][1] | finish and close: verify fix landed, canary, drill, soak | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md
+
+<!-- sase:referenced-by:end -->
