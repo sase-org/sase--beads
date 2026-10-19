@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e1_installable_family.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e1_installable_family.md
 
@@ -37,7 +37,7 @@ A clean `uv tool install` of sase, alone or with the family plugins, installs th
 | [sase-1my.2](sase-1my.2.md) | Family install canary on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1my.4](sase-1my.4.md) | Core storage runway line and headroom alert | ✓ closed | small | 2026-10-19 | 1 | 1 |
-| [sase-1my.5](sase-1my.5.md) | Recovery runbook, release-safety docs, and the TestPyPI drill | ✓ closed | medium | 2026-10-19 | 1 | 1 |
+| [sase-1my.5](sase-1my.5.md) | Recovery runbook, release-safety docs, and the TestPyPI drill | ✓ closed | medium | 2026-10-19 | 1 | 2 |
 | [sase-1my.6](sase-1my.6.md) | Live acceptance, decision record, and seven-day soak | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
 
 ## Lineage
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1my.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md) | [sase-1my.2](sase-1my.2.md) | 1 |
 | [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 1 |
 | [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 1 |
-| [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 1 |
+| [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 2 |
 | [bbugyi200.athena.sase-1my.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md) | [sase-1my.6](sase-1my.6.md) | 0 |
 | [bbugyi200.athena.sase-1my.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.land/README.md) | [sase-1my](README.md) | 0 |
 
@@ -89,6 +89,7 @@ flowchart TD
 | sase-core | [`sase-core@a908ceb`](https://github.com/sase-org/sase-core/commit/a908ceb30ca385ec3ac564f1a84203ff02054a0a) | feat(pypi): add runway threshold and weekly headroom alert | [sase-1my.4](sase-1my.4.md) | 2026-10-19 11:17:11 EDT |
 | sase | [`2d7c282`](https://github.com/sase-org/sase/commit/2d7c282b24e7f8cafe413f283980a9bd074851b6) | feat(release): add shared plugin release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:53:40 EDT |
 | sase-core | [`sase-core@f0f2275`](https://github.com/sase-org/sase-core/commit/f0f2275f9d38db3dc4e80aa4c2635017696a7e93) | docs(retention): document the core backfill route | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:53:01 EDT |
+| sase | [`2a83edf`](https://github.com/sase-org/sase/commit/2a83edf9961fc0f9e7b241987af71ab7149ee7aa) | feat(release): add recovery runbook, release-safety docs, and TestPyPI drill | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:57:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -98,8 +99,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1my.1][1] | Need the epic design file and final decisions | 1 |
 | read-by | [agent:sase-1my.3][2] | Need parent epic DECISIONS and remaining phases | 1 |
+| read-by | [agent:sase-1my.5][3] | need parent epic scope and design | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md
 
 <!-- sase:referenced-by:end -->

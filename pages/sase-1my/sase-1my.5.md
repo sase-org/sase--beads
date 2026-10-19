@@ -26,10 +26,23 @@ runbook: document yank and fix-forward, core backfill, and the sase-side safety 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 1 |
+| [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f0f2275`](https://github.com/sase-org/sase-core/commit/f0f2275f9d38db3dc4e80aa4c2635017696a7e93) | docs(retention): document the core backfill route | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:53:01 EDT |
+| sase | [`2a83edf`](https://github.com/sase-org/sase/commit/2a83edf9961fc0f9e7b241987af71ab7149ee7aa) | feat(release): add recovery runbook, release-safety docs, and TestPyPI drill | [sase-1my.5](sase-1my.5.md) | 2026-10-19 12:57:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1my.5][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md
+
+<!-- sase:referenced-by:end -->

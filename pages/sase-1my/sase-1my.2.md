@@ -39,7 +39,9 @@ canary: extend install-smoke.yml to install sase plus the plugins on ubuntu and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1my.2][1] | check notes and remaining work | 2 |
+| read-by | [agent:sase-1my.5][2] | need canary details for safety-net doc | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md
 
 <!-- sase:referenced-by:end -->
