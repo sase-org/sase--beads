@@ -24,7 +24,7 @@ floor-check: add a sibling-floor satisfiability and joint-resolve check, wire it
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 2 |
+| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 3 |
 
 ## Commits
 
@@ -32,6 +32,7 @@ floor-check: add a sibling-floor satisfiability and joint-resolve check, wire it
 |---|---|---|---|---|
 | sase | [`2d7c282`](https://github.com/sase-org/sase/commit/2d7c282b24e7f8cafe413f283980a9bd074851b6) | feat(release): add shared plugin release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:53:40 EDT |
 | sase-github | [`sase-github@e4f8bf4`](https://github.com/sase-org/sase-github/commit/e4f8bf47c8b0e89b3b46b35369e3574fcf97d0ed) | ci: call the shared release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:58:13 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@0189278`](https://github.com/sase-org/sase-research-artifacts/commit/01892780223a935cde39e31223535d3197a19b11) | ci: call the shared release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 12:01:36 EDT |
 
 <!-- sase:referenced-by:start -->
 

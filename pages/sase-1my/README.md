@@ -31,7 +31,7 @@ A clean `uv tool install` of sase, alone or with the family plugins, installs th
 |---|---|---|---|---|---:|---:|
 | [sase-1my.1](sase-1my.1.md) | Protected-set retention in sase-core, failing closed | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1my.2](sase-1my.2.md) | Family install canary on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ✓ closed | medium | 2026-10-19 | 1 | 2 |
+| [sase-1my.3](sase-1my.3.md) | release-dependency-floor check on plugin release PRs | ✓ closed | medium | 2026-10-19 | 1 | 3 |
 | [sase-1my.4](sase-1my.4.md) | Core storage runway line and headroom alert | ✓ closed | small | 2026-10-19 | 1 | 0 |
 | [sase-1my.5](sase-1my.5.md) | Recovery runbook, release-safety docs, and the TestPyPI drill | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [sase-1my.6](sase-1my.6.md) | Live acceptance, decision record, and seven-day soak | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
@@ -70,7 +70,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1my.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.1/README.md) | [sase-1my.1](sase-1my.1.md) | 1 |
 | [bbugyi200.athena.sase-1my.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.2/README.md) | [sase-1my.2](sase-1my.2.md) | 1 |
-| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 2 |
+| [bbugyi200.athena.sase-1my.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.3/README.md) | [sase-1my.3](sase-1my.3.md) | 3 |
 | [bbugyi200.athena.sase-1my.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.4/README.md) | [sase-1my.4](sase-1my.4.md) | 0 |
 | [bbugyi200.athena.sase-1my.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.5/README.md) | [sase-1my.5](sase-1my.5.md) | 0 |
 | [bbugyi200.athena.sase-1my.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1my.6/README.md) | [sase-1my.6](sase-1my.6.md) | 0 |
@@ -84,6 +84,7 @@ flowchart TD
 | sase-core | [`sase-core@9876b3a`](https://github.com/sase-org/sase-core/commit/9876b3ae557e7dfacb012507d80b22ebb2a6dc7f) | feat(releases): protect PyPI consumer windows | [sase-1my.1](sase-1my.1.md) | 2026-10-19 10:46:42 EDT |
 | sase | [`2d7c282`](https://github.com/sase-org/sase/commit/2d7c282b24e7f8cafe413f283980a9bd074851b6) | feat(release): add shared plugin release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:53:40 EDT |
 | sase-github | [`sase-github@e4f8bf4`](https://github.com/sase-org/sase-github/commit/e4f8bf47c8b0e89b3b46b35369e3574fcf97d0ed) | ci: call the shared release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 11:58:13 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@0189278`](https://github.com/sase-org/sase-research-artifacts/commit/01892780223a935cde39e31223535d3197a19b11) | ci: call the shared release-dependency-floor check | [sase-1my.3](sase-1my.3.md) | 2026-10-19 12:01:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
