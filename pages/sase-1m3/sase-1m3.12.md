@@ -14,7 +14,7 @@ acceptance: add the CLI-to-TUI parity and registry option-map tests, verify inva
 ## Dependencies
 
 - **Depends on:** [sase-1m3.1](sase-1m3.1.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1m3.10](sase-1m3.10.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.10](sase-1m3.10.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.11](sase-1m3.11.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

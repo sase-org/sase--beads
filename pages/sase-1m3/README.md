@@ -42,7 +42,7 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1m3.1](sase-1m3.1.md) | Write-time model provenance and the commit-record projection fix | ✓ closed | medium | 2026-10-16 | 1 | 2 |
-| [sase-1m3.10](sase-1m3.10.md) | The sase stats group and the project command | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [sase-1m3.10](sase-1m3.10.md) | The sase stats group and the project command | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [sase-1m3.11](sase-1m3.11.md) | Statistics → Projects tab migration | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.12](sase-1m3.12.md) | Cross-surface parity, budgets, and real-data verification | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 | [sase-1m3.2](sase-1m3.2.md) | Per-project linked-repo resolution and declared-by provenance | ✓ closed | medium | 2026-10-16 | 1 | 1 |
@@ -60,7 +60,7 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 flowchart TD
     n0["sase-1m3: sase stats project: one shared Projects report with honest model attribution [in_progress]"]
     n1["sase-1m3.1: Write-time model provenance and the commit-record projection fix [closed]"]
-    n2["sase-1m3.10: The sase stats group and the project command [in_progress]"]
+    n2["sase-1m3.10: The sase stats group and the project command [closed]"]
     n3["sase-1m3.11: Statistics → Projects tab migration [in_progress]"]
     n4["sase-1m3.12: Cross-surface parity, budgets, and real-data verification [in_progress]"]
     n5["sase-1m3.2: Per-project linked-repo resolution and declared-by provenance [closed]"]
@@ -138,8 +138,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1m3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.1/README.md) | [sase-1m3.1](sase-1m3.1.md) | 2 |
-| [bbugyi200.apollo.sase-1m3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.10/README.md) | [sase-1m3.10](sase-1m3.10.md) | 0 |
-| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.11/README.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.10/README.md) | [sase-1m3.10](sase-1m3.10.md) | 1 |
+| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.11.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.12/README.md) | [sase-1m3.12](sase-1m3.12.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.2/README.md) | [sase-1m3.2](sase-1m3.2.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.3/README.md) | [sase-1m3.3](sase-1m3.3.md) | 1 |
@@ -189,6 +189,7 @@ flowchart TD
 | sase | [`dd963c0`](https://github.com/sase-org/sase/commit/dd963c0fa64ab25beeaf84ac8e9d073bbb518c91) | fix(stats): align project code counter with SLOC | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:32:50 EDT |
 | sase--plans | [`sase--plans@b0dac8f`](https://github.com/sase-org/sase--plans/commit/b0dac8fe62572f4f659225ee43bc083c8ea51d2c) | docs(plan): mark project stats plan done | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:36:22 EDT |
 | sase | [`9c4c262`](https://github.com/sase-org/sase/commit/9c4c262559b566309111ca8a37c18d83a62aff26) | feat(stats): add shared Rich and Markdown Projects section renderers | [sase-1m3.9](sase-1m3.9.md) | 2026-10-19 08:50:34 EDT |
+| sase | [`a53f10f`](https://github.com/sase-org/sase/commit/a53f10f6a6ce1103dfe7ce30653ba6712ed24478) | feat(stats): add sase stats project CLI | [sase-1m3.10](sase-1m3.10.md) | 2026-10-19 12:23:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

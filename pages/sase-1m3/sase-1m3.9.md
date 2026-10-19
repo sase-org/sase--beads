@@ -21,7 +21,7 @@ render: add the shared report groupings and legends to the registry, and build p
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.10](sase-1m3.10.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.10](sase-1m3.10.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.11](sase-1m3.11.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.8](sase-1m3.8.md) ✓ · ⧖ 2026-10-16
 
@@ -36,3 +36,15 @@ render: add the shared report groupings and legends to the registry, and build p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9c4c262`](https://github.com/sase-org/sase/commit/9c4c262559b566309111ca8a37c18d83a62aff26) | feat(stats): add shared Rich and Markdown Projects section renderers | [sase-1m3.9](sase-1m3.9.md) | 2026-10-19 08:50:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1m3.9--1][1] | Need phase scope and design file before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.9.md
+
+<!-- sase:referenced-by:end -->

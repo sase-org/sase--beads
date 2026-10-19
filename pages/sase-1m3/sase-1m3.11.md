@@ -11,6 +11,10 @@
 
 tui: route the Projects tab through `load_project_stats` with progressive paint and revalidating ticks, render it with the shared renderers and the new project/repo/model/patch groupings, relabel Overview's tile, and update help, legends, goldens, and docs.
 
+## Notes
+
+[2026-10-19T13:01:25Z · sase-1m3.11] PROPOSED FOLLOW-UP: skipped stats_decision_record — the final epic decision is no; no decision or other memory note will be edited. The proposed record would document durable metric sources and stamping only underivable provenance.
+
 ## Dependencies
 
 - **Blocks:** [sase-1m3.12](sase-1m3.12.md) ◐ · ⧖ 2026-10-16
@@ -23,4 +27,4 @@ tui: route the Projects tab through `load_project_stats` with progressive paint 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.11/README.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.11.md) | [sase-1m3.11](sase-1m3.11.md) | 0 |

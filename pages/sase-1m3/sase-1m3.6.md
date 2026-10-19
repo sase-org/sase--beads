@@ -21,7 +21,7 @@ core-attribution: build the read-only agent directory from agents-sidecar pages 
 
 ## Dependencies
 
-- **Blocks:** [sase-1m3.10](sase-1m3.10.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.10](sase-1m3.10.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.11](sase-1m3.11.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.4](sase-1m3.4.md) ✓ · ⧖ 2026-10-16
 
